@@ -8,10 +8,9 @@ import ConnexasePartner from "./EmblaCarousel/Images/ConnexeasePartner.png"
 import ElektrawebPartner from "./EmblaCarousel/Images/ElektrawebPartner.png"
 
 const Partners = () => {
-  // Dikkat: Bu import'lar nesne döndürüyor, "GooglePartner.src" gibi
-  // Aşağıda 'slides' dizisine SIRF o "nesne"yi ekliyoruz
+  
   const slides = [
-    GooglePartner,         // { src: "...", width:..., height:... }
+    GooglePartner,         
     YandexPartner,
     JollyTourPartner,
     MetaBusinessPartner,
@@ -23,7 +22,7 @@ const Partners = () => {
     <div className="flex flex-col w-full mt-[5%] items-center justify-center overflow-x-hidden">
       <div className="flex flex-col w-screen items-center justify-center gap-5">
         <h2 className="font-inter28 text-[48px] font-bold leading-[57.6px] tracking-[-0.96px] text-center">
-          Our Partners
+          Our Partners 
         </h2>
         <p className="text-center font-inter28 text-[18px] font-normal leading-[25.2px]">
           DGTLFACE is proud to collaborate with industry leaders and innovators to provide 
