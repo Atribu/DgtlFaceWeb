@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dat.gui": "^0.7.9",
     "embla-carousel-autoplay": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
     "next": "15.1.6",
+    "npm-gui": "^4.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "three": "^0.172.0"
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

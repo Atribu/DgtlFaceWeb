@@ -29,7 +29,7 @@ const Partners = () => {
           the best services and solutions. <br /> Our esteemed partners include:
         </p>
       </div>
-      <div className="w-full mt-16">
+      <div className="flex w-full h-[30vh] overflow-hidden ml-[40%] items-center justify-center">
         <EmblaCarousel slides={slides}/>
       </div>
     </div>

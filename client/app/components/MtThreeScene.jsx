@@ -240,7 +240,7 @@ export default function MyThreeScene() {
 
       {/* Yazılar + Button */}
       <div
-        className="flex left-[20%] top-[32%] flex-col gap-4 justify-center"
+        className="flex left-[20%] top-[32%] flex-col gap-4 justify-center text-start"
         style={{
           position: "absolute",
           color: "#fff",
