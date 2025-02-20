@@ -12,6 +12,7 @@
     "dat.gui": "^0.7.9",
     "embla-carousel-autoplay": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
+    "lil-gui": "^0.20.0",
     "next": "15.1.6",
     "npm-gui": "^4.0.4",
     "react": "^19.0.0",

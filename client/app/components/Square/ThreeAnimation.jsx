@@ -1,24 +1,38 @@
 "use client";
+
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
-import Stats from "three/addons/libs/stats.module.js";
+import { GUI } from "dat.gui";
+import dynamic from "next/dynamic";
+
+const DatGUI = dynamic(
+  () => import("dat.gui").then((mod) => mod.GUI),
+  { ssr: false }
+);
 
 const ThreeAnimation = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    let stats;
-    let scene, camera, renderer;
+    if (!containerRef.current) return;
+
+    // localStorage erişim kontrolü (örnek kullanım)
+    if (typeof window !== "undefined" && window.localStorage) {
+      try {
+        const storedValue = localStorage.getItem("myKey");
+        console.log("Stored value:", storedValue);
+      } catch (error) {
+        console.error("localStorage'a erişim sağlanamıyor:", error);
+      }
+    }
+
     let animationId;
-    let group;
-    let raycaster;
+    let scene, camera, renderer, group, raycaster;
     const mouse = new THREE.Vector2();
 
     function init() {
-      // Sahne
+      // Sahne ve kamera ayarları
       scene = new THREE.Scene();
-
-      // Kamera
       camera = new THREE.PerspectiveCamera(
         40,
         containerRef.current.clientWidth / containerRef.current.clientHeight,
@@ -28,42 +42,107 @@ const ThreeAnimation = () => {
       camera.position.set(20, 100, -50);
       camera.lookAt(scene.position);
 
-      // Grup oluşturuluyor.
+      // Grup oluşturma
       group = new THREE.Group();
       scene.add(group);
 
-      // Geometri ve malzeme tanımları:
-      const geometry = new THREE.BoxGeometry(7, 7, 50);
-      const whiteMaterial = new THREE.MeshBasicMaterial({
-        color: 0xffffff,
-        transparent: true,
-      });
-      const coloredMaterial = new THREE.MeshBasicMaterial({
-        color: "#7268ae",
-        transparent: true,
-      });
-      const coloredMaterial2 = new THREE.MeshBasicMaterial({
-        color: "#7268ae",
-        transparent: true,
-      });
-      // Malzeme dizisi: Ön (4) ve arka (5) yüzler renkli, diğerleri beyaz.
-      const materials = [
-        whiteMaterial,    // Right
-        whiteMaterial,    // Left
-        whiteMaterial,    // Top
-        whiteMaterial,    // Bottom
-        coloredMaterial,  // Front
-        coloredMaterial2, // Back
+      // Texture yükleyici
+      const textureLoader = new THREE.TextureLoader();
+
+      // Örnek olarak 9 farklı resim yolu tanımlıyoruz (3x3 grid için)
+      const imagePaths = [
+        "/analysis.png",
+        "/analysis.png",
+        "/analysis.png",
+        "/analysis.png",
+        "/Vector2.png",
+        "/analysis.png",
+        "/analysis.png",
+        "/analysis.png",
+        "/analysis.png",
       ];
 
-      // 3x3 grid şeklinde 9 adet küp oluşturuluyor.
+      // Ortak malzemeler (diğer yüzler için)
+      const whiteMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
+      const coloredMaterial = new THREE.MeshBasicMaterial({ color: "#7268ae" });
+
+      // Diğer yüzlerde varsayılan "/analysis.png" resmi kullanılacak
+      const analyticsTexture = textureLoader.load("/analysis.png", () => {
+        console.log("Analytics Texture loaded");
+      });
+      analyticsTexture.center.set(0.5, 0.5);
+      analyticsTexture.rotation = Math.PI / 4;
+      const coloredMaterial2 = new THREE.MeshBasicMaterial({
+        map: analyticsTexture,
+        color: "#7268ae",
+        transparent: true,
+      });
+
+      // Küp geometrisi ve UV ölçeklendirme (tüm küpler için ortak base geometry)
+      const geometry = new THREE.BoxGeometry(7, 7, 50);
+      const scaleFactor = 1.32; // Tüm yüzler için genel ölçeklendirme
+      const baseGeometry = geometry.clone();
+      const uvAttribute = baseGeometry.attributes.uv;
+      for (let i = 0; i < uvAttribute.count; i++) {
+        const u = uvAttribute.getX(i);
+        const v = uvAttribute.getY(i);
+        uvAttribute.setXY(i, u * scaleFactor, v * scaleFactor);
+      }
+      uvAttribute.needsUpdate = true;
+
+      // 3x3 grid küpler oluşturma
       const rowCount = 3;
       const colCount = 3;
       const spacingX = 9;
       const spacingY = 9;
+
       for (let row = 0; row < rowCount; row++) {
         for (let col = 0; col < colCount; col++) {
-          const cube = new THREE.Mesh(geometry, materials);
+          // Her küp için baseGeometry'nin klonunu alıyoruz:
+          const customGeometry = baseGeometry.clone();
+          const uv = customGeometry.attributes.uv;
+
+          // Eğer bu küpün 6. yüzüne özel bir ayarlama yapmak istiyorsak:
+          // BoxGeometry, her yüz için 4 vertex üretir. 6. yüzün (index 5) vertexleri, 
+          // dizide 5*4 = 20. indeksten başlayarak 4 elemandır (20,21,22,23).
+          const faceIndex = 5;
+          const startIndex = faceIndex * 4;
+          const uniqueScale = 0.8; // 6. yüz üzerindeki texture boyutunu değiştirme oranı
+          for (let i = startIndex; i < startIndex + 4; i++) {
+            const u = uv.getX(i);
+            const v = uv.getY(i);
+            uv.setXY(i, u * uniqueScale, v * uniqueScale);
+          }
+          uv.needsUpdate = true;
+
+          // Her küp için 6. yüzeye (index 5) farklı resim atamak için:
+          const cubeIndex = row * colCount + col; // 0'dan 8'e kadar index
+          const cubeTexture = textureLoader.load(imagePaths[cubeIndex], () => {
+            console.log(`Texture for cube ${cubeIndex} loaded`);
+          });
+          cubeTexture.center.set(0.5, 0.5);
+          cubeTexture.rotation = Math.PI / 4;
+          // NOT: repeat kullanmıyoruz, UV'ler ile kontrol ediliyor.
+
+          // O küp için 6. yüzeye özel malzeme oluşturuyoruz:
+          const uniqueMaterial = new THREE.MeshBasicMaterial({
+            map: cubeTexture,
+            transparent: true,
+            opacity: 1,
+            color: "#4B0082" // Mor renk
+          });
+
+          // Malzeme dizisi: diğer yüzler ortak, 6. yüz ise uniqueMaterial
+          const materials = [
+            whiteMaterial,    // Face 0
+            whiteMaterial,    // Face 1
+            whiteMaterial,    // Face 2
+            whiteMaterial,    // Face 3
+            coloredMaterial,  // Face 4
+            uniqueMaterial,   // Face 5
+          ];
+
+          const cube = new THREE.Mesh(customGeometry, materials);
           cube.position.x = (col - (colCount - 1) / 2) * spacingX;
           cube.position.y = (row - (rowCount - 1) / 2) * spacingY;
           cube.position.z = 0;
@@ -71,12 +150,12 @@ const ThreeAnimation = () => {
         }
       }
 
-      // Manuel olarak x, y, z ekseni rotasyonlarını ayarlıyoruz:
+      // Grup rotasyonu
       group.rotation.x = Math.PI / 3.4;
       group.rotation.y = Math.PI / 9;
       group.rotation.z = Math.PI / 2.72;
 
-      // Renderer kurulumu
+      // Renderer ayarları
       renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(
@@ -85,17 +164,9 @@ const ThreeAnimation = () => {
       );
       containerRef.current.appendChild(renderer.domElement);
 
-      // Stats kurulumu
-      stats = new Stats();
-      document.body.appendChild(stats.dom);
-
-      // Raycaster kurulumu
+      // Raycaster ve event listener'lar
       raycaster = new THREE.Raycaster();
-
-      // Fare hareketlerini dinlemek için event listener
       containerRef.current.addEventListener("mousemove", onMouseMove);
-
-      // Pencere yeniden boyutlandırma
       window.addEventListener("resize", onWindowResize);
     }
 
@@ -114,37 +185,29 @@ const ThreeAnimation = () => {
       renderer.setSize(width, height);
     }
 
-    function renderScene() {
-      // İlk önce tüm küplerin ölçeğini varsayılan değere çekiyoruz.
+    function animate() {
+      raycaster.setFromCamera(mouse, camera);
+      const intersects = raycaster.intersectObjects(group.children, false);
+
       group.children.forEach((cube) => {
-        // Mevcut ölçek ile hedef ölçek arasında yavaşça geçiş yapıyoruz.
-        // Hedef ölçek: Hover edilen küp için 1.5, diğerleri için 1.
         let targetScale = new THREE.Vector3(1, 1, 1);
-        const intersects = raycaster.intersectObjects(group.children, false);
         if (intersects.length > 0 && intersects[0].object === cube) {
           targetScale.set(1, 1, 1.5);
         }
-        cube.scale.lerp(targetScale, 0.1); // 0.1 lerp faktörü ile yavaş geçiş
+        cube.scale.lerp(targetScale, 0.1);
       });
 
-      // Raycaster'ı güncelliyoruz:
-      raycaster.setFromCamera(mouse, camera);
-
       renderer.render(scene, camera);
-      stats.update();
-      animationId = requestAnimationFrame(renderScene);
+      animationId = requestAnimationFrame(animate);
     }
 
     init();
-    renderScene();
+    animate();
 
     return () => {
       cancelAnimationFrame(animationId);
       window.removeEventListener("resize", onWindowResize);
       containerRef.current.removeEventListener("mousemove", onMouseMove);
-      if (stats && stats.dom && stats.dom.parentNode) {
-        stats.dom.parentNode.removeChild(stats.dom);
-      }
       scene.traverse((obj) => {
         if (obj.geometry) obj.geometry.dispose();
         if (obj.material) {
