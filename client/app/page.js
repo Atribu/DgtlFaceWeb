@@ -2,7 +2,9 @@ import MyThreeScene from "./components/MtThreeScene";
 import Partners from "./components/Partners/Partners";
 import Section1 from "./components/Section1/Section";
 import Section2 from "./components/Section2/Section2";
-import Deneme from "./components/Square/Deneme";
+import Section3 from "./components/Section3/Section3";
+import Section4 from "./components/Section4/Section4";
+// import ThreeAnimation from "./components/Square/ThreeAnimation";
 
 
 export default function HomePage() {
@@ -13,8 +15,9 @@ export default function HomePage() {
         <Partners />
         <Section1 />
         <Section2 />
-        <Deneme />
-        
+        {/* <ThreeAnimation /> */}
+        <Section3 />
+        <Section4 />
       </div>
     </main>
   );
