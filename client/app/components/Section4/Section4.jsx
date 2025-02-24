@@ -1,20 +1,6 @@
 "use client";
 
 import React from "react";
-import Slider from "./Slider/Slider.jsx";
-import EvTatilim from "./svg/EvTatilim";
-import FreshFruit from "./svg/FreshFruit";
-import Hyundai from "./svg/Hyundai";
-import PortNature from "./svg/PortNature";
-import Tolerance from "./svg/Tolerance";
-
-const slidesData = [
-  <EvTatilim width={129} height={50} className="custom-class" />,
-  <FreshFruit width={129} height={50} className="custom-class" />,
-  <Hyundai width={129} height={50} className="custom-class" />,
-  <PortNature width={129} height={50} className="custom-class" />,
-  <Tolerance width={129} height={50} className="custom-class" />,
-];
 
 const Section4 = () => {
   return (
@@ -28,7 +14,7 @@ const Section4 = () => {
         </p>
       </div>
       <div className="w-4/6 flex h-30vh justify-center items-center">
-        <Slider slides={slidesData} />
+        
       </div>
     </div>
   );
