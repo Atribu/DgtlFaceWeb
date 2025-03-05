@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import BlocVertical from "../blocks/BlocVertical";
 
 const Section3 = () => {
   return (
@@ -12,7 +13,9 @@ const Section3 = () => {
       }}
     >
       <div className="flex w-11/12 p-12">
-        <div className="flex w-1/2">Burada Animasyon olacak</div>
+        <div className="flex w-1/2">
+          <BlocVertical />
+        </div>
         <div className="flex flex-col w-1/2 text-start">
           <h3 className=" flex flex-col text-5xl font-inter28 font-bold leading-[57.60px] pb-1">
             <span className="text-white">Our</span>

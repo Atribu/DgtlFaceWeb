@@ -4,6 +4,7 @@ import Section1 from "./components/Section1/Section";
 import Section2 from "./components/Section2/Section2";
 import Section3 from "./components/Section3/Section3";
 import Section4 from "./components/Section4/Section4";
+import BlocVertical from "./components/blocks/BlocVertical";
 import Blocks from "./components/blocks/Blocks1/Blocks1";
 import Blocks2 from "./components/blocks/Blocks1/Blocks2";
 import Blocks3 from "./components/blocks/Blocks1/Blocks3";
@@ -27,15 +28,6 @@ export default function HomePage() {
         {/* <ThreeAnimation /> */}
         <Section3 />
         <Section4 />
-        <Blocks />
-        <Blocks2 />
-        <Blocks3 />
-        <Blocks4 />
-        <Blocks5 />
-        <Blocks6 />
-        <Blocks7 />
-        <Blocks8 />
-        <Blocks9 />
       </div>
     </main>
   );
