@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Partner from "./SliderImage/Partner";
 
 const Section4 = () => {
   return (
@@ -14,7 +15,7 @@ const Section4 = () => {
         </p>
       </div>
       <div className="w-4/6 flex h-30vh justify-center items-center">
-        
+        <Partner />
       </div>
     </div>
   );
