@@ -31,7 +31,7 @@ const Partner = () => {
 
   const autoplayOptions = { delay: 4500, stopOnInteraction: true };
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, slidesToScroll: 1, containScroll: 'trimSnaps' }, 
+    { loop: true, slidesToScroll: 1, containScroll: 'trimSnaps' },
     [Autoplay(autoplayOptions)]
   );
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,17 +46,6 @@ const Partner = () => {
     emblaApi.on('select', onSelect);
     onSelect();
   }, [emblaApi, onSelect]);
-
-  useEffect(() => {
-    if (!emblaApi) return;
-
-    const autoplay = () => {
-      emblaApi.scrollNext();
-    };
-
-    const interval = setInterval(autoplay, 2500);
-    return () => clearInterval(interval);
-  }, [emblaApi]);
 
   return (
     <div className="embla" ref={emblaRef}>
@@ -77,59 +66,51 @@ const Partner = () => {
       </div>
 
       <style jsx>{`
-  .embla {
-    overflow: hidden;
-    width: 100%;
-  }
+        .embla {
+          overflow: hidden;
+          width: 100%;
+        }
 
-  .embla__container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
+        .embla__container {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
 
-  .embla__slide {
-    position: relative;
-    flex: 0 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s;
-  }
+        .embla__slide {
+          position: relative;
+          flex: 0 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: transform 0.3s;
+        }
 
-  .slide--hover {
-    transform: scale(1.4);
-  }
+        .slide--hover {
+          transform: scale(1.3);
+        }
 
-  /* Desktop: 3 Slide görünür */
-  @media (min-width: 769px) {
-    .embla__slide {
-      width: calc((100% - 40px) / 3); /* 2 gap (20px * 2) çıkartılır */
-      height: 150px;
-    }
-  }
+        @media (min-width: 769px) {
+          .embla__slide {
+            width: calc((100% - 80px) / 5);
+            height: 150px;
+          }
+        }
 
-  /* Tablet: 2 Slide görünür */
-  @media (max-width: 768px) {
-    .embla__slide {
-      width: calc((100% - 20px) / 2);
-      height: 80px;
-    }
-  }
+        @media (max-width: 768px) {
+          .embla__slide {
+            width: calc((100% - 40px) / 3);
+            height: 100px;
+          }
+        }
 
-  /* Mobil: 1 Slide görünür */
-  @media (max-width: 480px) {
-    .embla__slide {
-      width: 100%;
-      height: 60px;
-    }
-  }
-
-  .slide--hover {
-    transform: scale(1.4);
-  }
-`}</style>
-
+        @media (max-width: 480px) {
+          .embla__slide {
+            width: calc((100% - 20px) / 2);
+            height: 70px;
+          }
+        }
+      `}</style>
     </div>
   );
 };
