@@ -247,3 +247,54 @@
   );
 }
 
+
+.gradient-border-button {
+  position: relative;
+  padding: 3px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+}
+.gradient-border-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  padding: 3px;
+  background: linear-gradient(
+    90deg,
+    #a754cf,
+    #54b9cf,
+    #547dcf,
+    #a754cf
+  );
+  background-size: 300%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  transition: background-position 0.1s;
+}
+
+.gradient-border-button:hover::before {
+  animation: moveBorder 3s linear infinite;
+}
+
+@keyframes moveBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
