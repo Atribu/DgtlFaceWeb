@@ -222,3 +222,28 @@
 }
 
 
+.thin-scrollbar::-webkit-scrollbar {
+  width: 1px; /* Scrollbar geniÅŸliÄŸi */
+  
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 1); /* Scroll Ã§ubuÄŸu rengi */
+  border-radius: 10px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Arka plan rengi */
+}
+
+
+.gradient1 {
+  background: linear-gradient(
+    270deg,
+    #54b9cf -1.56%,
+    #547dcf 49.74%,
+    #547ccf 49.75%,
+    #a754cf 100%
+  );
+}
+

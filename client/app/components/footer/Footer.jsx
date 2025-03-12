@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
-            <Logo className="w-52" />
+          <Logo className="w-52" />
           </div>
           {/* Navigasyon Linkleri */}
           <div className="flex flex-col md:flex-row gap-8">
