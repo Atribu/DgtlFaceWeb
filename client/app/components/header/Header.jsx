@@ -2,18 +2,33 @@
 
 import React from "react";
 import Logo from "./svg/DgtlFaceLogo";
+import Logo2 from "../Cookies/components/DgtlfaceLogoSvg";
+import DownArrow from "./svg/DownArrow";
 
 const Header = () => {
   return (
-    <header className="w-[61%] right-1/2 rounded-[20px] translate-x-1/2 bg-gray-900 text-white bg-transparent mt-[42px] fixed h-[54.5px] z-[999] flex items-center justify-center gap-32  top-0 backdrop-blur-md ">
+    <header className="w-screen lg:w-[61%] right-0 left-0 lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] mt-0 fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-10 backdrop-blur-md">
       {/* Logo Alanı */}
-      <Logo className="w-auto" width={219} height={54.454} />
+      <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
+
+      <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed">
+        <Logo2 className="flex lg:hidden" width={45} height={39} />
+
+        <div className="flex gap-[5px] items-center justify-center h-full">
+          <div className="flex itemx-center justify-center text-center  gap-[5px] py-[8px] px-[14] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter">
+            EN <DownArrow className="flex items-center" width={9} height={8}/>
+          </div>
+        <button className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border ">
+          Menu
+        </button>
+        </div>
+      </div>
 
       {/* 
         Menü (nav) => Tek bir sabit gradient border
         "gradient-border-nav" sınıfı ile.
       */}
-      <nav className="gradient-border-nav flex flex-row items-center justify-center  text-center px-4 py-2 backdrop-blur-xl whitespace-nowrap">
+      <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center  text-center px-4 py-2 backdrop-blur-xl whitespace-nowrap">
         <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
           <li>
             <a href="#" className="hover:text-gray-300">
@@ -44,7 +59,7 @@ const Header = () => {
       </nav>
 
       {/* Örnek Buton */}
-      <button className="hidden w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] md:inline-block bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <button className="hidden lg:flex w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] md:inline-block bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </button>
 
@@ -53,7 +68,7 @@ const Header = () => {
           border-radius: 20px;
           position: relative;
           border-radius: 20px; /* Kenarları yuvarla */
-          overflow: hidden;   /* kenarlardan taşma engellenir */
+          overflow: hidden; /* kenarlardan taşma engellenir */
           --tw-text-opacity: 1;
           background-color: rgba(20, 15, 37, 0.1);
           backdrop-filter: blur(37.5px);
@@ -79,8 +94,7 @@ const Header = () => {
           background-size: 100%;
           background-position: 50% 50%;
 
-          -webkit-mask:
-            linear-gradient(#fff 0 0) content-box,
+          -webkit-mask: linear-gradient(#fff 0 0) content-box,
             linear-gradient(#fff 0 0);
           -webkit-mask-composite: xor;
           mask-composite: exclude;
