@@ -2,8 +2,8 @@ import React from 'react'
 
 const ContactMain = () => {
   return (
-    <div className='flex flex-row gap-12 mt-12 mb-12 items-center justify-center'>
-        <div className='flex flex-col w-[620px] items-center justify-center'>
+    <div className='flex flex-col lg:flex-row gap-12 mt-12 mb-12 items-center justify-center'>
+        <div className='flex flex-col lg:w-[620px] items-center justify-center'>
         <div className="flex flex-col gap-6">
             {/* Telefon */}
             <div className="flex items-center gap-6">

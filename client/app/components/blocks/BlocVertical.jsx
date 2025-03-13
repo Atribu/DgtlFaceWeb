@@ -6,6 +6,7 @@ import BlockDeneme from "./Blocks1/BlockDeneme"; // Sizin alt bileşeniniz
 // İkonlar (örnek path'ler)
 import SeoIcon from "./blockIcons/SeoIcon";
 import CallIcon from "./blockIcons/CallIcon";
+import CallIconV from "../serviceblocks/Icons/BlockIcons/BlockVerticalIcons/CallIconV"
 import CreativeIcon from "./blockIcons/CreativeIcon";
 import AnalysisIcon from "./blockIcons/AnalysisIcon";
 import ItIcon from "./blockIcons/ItIcon";
@@ -20,7 +21,7 @@ import DgtlfaceIcon from "./blockIcons/DgtlfaceIcon";
 const initialBlocks = [
   {
     id: 1,
-    IconComponent: CallIcon,
+    IconComponent: CallIconV,
     gradientId: "gradient-call",
     positionClass: "-translate-x-[1200px] translate-y-[-20px]",
     zIndex: 70,

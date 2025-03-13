@@ -44,7 +44,7 @@ const CookiePopup = () => {
   ];
 
   const [cookies, setCookies] = useState({
-    necessary: false, // Zorunlu çerezler her zaman aktiftir.
+    necessary: true, // Zorunlu çerezler her zaman aktiftir.
     performance: false,
     functional: false,
     targeting: false,
@@ -53,7 +53,6 @@ const CookiePopup = () => {
     // Sayfa yüklendiğinde tercihleri yükle
     useEffect(() => {
       const savedPreferences = loadPreferences();
-      setCookies(savedPreferences);
       if (savedPreferences) {
         // Tercihler kaydedilmişse popup'ı gösterme
         setIsVisible(false);
@@ -95,7 +94,7 @@ const CookiePopup = () => {
       setCookies(allDenied);
       savePreferences(allDenied);
       console.log("Tüm Çerezler Reddedildi:", allDenied);
-      setIsVisible(false);
+      setIsVisible(true);
     }
 
   const handleToggle = (type) => {
@@ -183,7 +182,7 @@ const loadPreferences = () => {
     return JSON.parse(preferences);
   }
   console.log("Kaydedilmiş Çerez Tercihi Bulunamadı. Varsayılan Tercihler Kullanılıyor.");
-  return null;
+  return null
 };
 
 //--------
@@ -191,35 +190,31 @@ const loadPreferences = () => {
   const contents = [
     // third button
     <div className="flex flex-col h-full w-[96%] text-start font-inter items-center justify-start  gap-[7.5px] overflow-y-scroll thin-scrollbar max-h-[500px] overflow-x-hidden">
-      <div className="flex w-full py-[10px] items-center justify-between gap-[14px] lg:max-w-[430px]">
-        <div
-          onClick={() => setIsDropdown1Open(!isDropdown1Open)}
-          className="flex items-center justify-start gap-[13px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[90%]">
-          <div className="flex items-center cursor-pointer transition-transform duration-300">
-            <IoIosArrowForward
-              className={`w-[21px] h-[22px] transform transition-transform duration-300 ${
-                isDropdown1Open ? "rotate-90" : "rotate-0"
-              }`}
-            />
-          </div>
+    <div className="flex w-full py-[10px] items-center justify-between gap-[14px] lg:max-w-[430px]">
+  <div
+    onClick={() => setIsDropdown1Open(!isDropdown1Open)}
+    className="flex items-center justify-start gap-[13px] w-[82%] sm:w-[90%] md:w-[76vw] lg:w-[90%]"
+  >
+    <div className="flex items-center cursor-pointer transition-transform duration-300">
+      <IoIosArrowForward
+        className={`w-[21px] h-[22px] transform transition-transform duration-300 ${
+          isDropdown1Open ? "rotate-90" : "rotate-0"
+        }`}
+      />
+    </div>
 
-          <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-            Strictly Necessary
-          </h4>
-        </div>
-        <div
-          className={`w-[32px] h-[20px] flex items-center cursor-pointer rounded-full transition-colors duration-300  ${
-            cookies.analytics ? "gradient1" : "bg-[#676766]"
-          }`}
-          onClick={() => handleToggle("analytics")}
-        >
-          <div
-            className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
-              cookies.analytics ? "translate-x-[14px]" : "translate-x-1"
-            }`}
-          />
-        </div>
-      </div>
+    <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+      Strictly Necessary
+    </h4>
+  </div>
+
+  {/* Toggle butonu yerine her zaman aktif olduğunu belirten bir gösterge */}
+  <div
+    className="w-[32px] h-[20px] flex items-center justify-end rounded-full gradient1"
+  >
+    <div className="w-[14px] h-[14px] bg-white rounded-full" />
+  </div>
+</div>
       <LineSvg className="flex" width={415} height={2} />
       <div
         className={`overflow-hidden transition-all duration-500 ${

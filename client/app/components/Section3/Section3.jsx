@@ -1,23 +1,67 @@
 "use client";
-
-import React from "react";
+import React, { useEffect, useState } from "react";
+import clsx from "clsx";
 import BlocVertical from "../blocks/BlocVertical";
+import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 
 const Section3 = () => {
+  const [blocksOrder, setBlocksOrder] = useState([
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+  ]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // setGradientIndex((prev) => (prev === 7 ? 0 : prev + 1));
+      // set blocks order
+      // after one full cyle stop the interval
+
+      setBlocksOrder((prev) => {
+        // if (prev[0] == 1) {
+        //   clearInterval(interval);
+        //   return prev;
+        // }
+        const newOrder = [...prev];
+        newOrder.unshift(newOrder.pop());
+        return newOrder;
+      });
+    }, 1500);
+    return () => clearInterval(interval);
+  }, []);
+
+  const blockPositions = {
+    0: "-translate-y-1/2 z-[5] translate-x-[43px]",
+    1: "-translate-y-[calc(50%-80px)] z-[10] -translate-x-[18px]",
+    2: "-translate-y-[calc(50%-160px)] z-[50] -translate-x-[82px]",
+    3: "-translate-y-[calc(50%-80px)] z-[70] -translate-x-[146px]",
+    4: "-translate-y-1/2 z-[80] -translate-x-[210px]",
+    5: "-translate-y-[calc(50%+80px)] z-[60]  -translate-x-[146px]",
+    6: "-translate-y-[calc(50%+160px)] z-[40] -translate-x-[82px]",
+    7: "-translate-y-[calc(50%+80px)] z-[20]  -translate-x-[18px]",
+  };
+
   return (
     <div
-      className="flex flex-row w-full h-[400px] justify-center items-center mt-32"
+      className="flex flex-row w-full h-auto justify-center items-center mt-32 font-inter"
       style={{
         background:
           "linear-gradient(to right, #140C29 0%, #140C29 25%, #547CCF 32%, #547CCF 38%, #140C29 45%, #140C29 100%)",
       }}
     >
-      <div className="flex w-11/12 p-12">
-        <div className="flex w-1/2">
-          <BlocVertical />
-        </div>
-        <div className="flex flex-col w-1/2 text-start">
-          <h3 className=" flex flex-col text-5xl font-inter28 font-bold leading-[57.60px] pb-1">
+      <div className="w-[90%] md:w-[85%] lg:w-[80%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 bg-[#140C29] lg:bg-transparent items-center justify-center">
+ 
+          {/* <BlocVertical /> */}
+          <ServiceBlocks    blocksOrder={blocksOrder}
+          blockPositions={blockPositions}/>
+       
+        <div className="flex flex-col text-start items-start justify-center h-full ">
+          <h3 className=" flex flex-col text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             <span className="text-white">Our</span>
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               Services
@@ -25,7 +69,7 @@ const Section3 = () => {
           </h3>
 
           <div className="flex flex-col gap-2">
-            <p className="font-inter28 text-sm text-white font-normal leading-tight">
+            <p className="font-inter28 text-[14px] text-white font-normal leading-[130%] -tracking-[0.28px]">
               Dive into the world of digital excellence with DGTLFACE. We are
               not just an <br /> agency; we are the architects of online
               success. Transform your brand with our <br /> innovative
@@ -41,7 +85,7 @@ const Section3 = () => {
             </p>
           </div>
 
-          <button className="mt-3 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px]">
+          <button className="mt-3 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
             Explore
           </button>
           <style jsx>{`

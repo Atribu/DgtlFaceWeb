@@ -4,28 +4,28 @@ import Image from 'next/image';
 
 export default function WhyUsSection() {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-12 w-screen items-center justify-center">
       <div>
-        <div className="w-[1264px] px-12 pt-7 pb-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-3.5">
-          <div className="relative text-center justify-start text-[#140f25] text-5xl font-bold font-['Inter'] leading-[57.60px]">
+        <div className="xl:w-[1264px] w-[95%] px-0 lg:px-12 pt-7 pb-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-3.5">
+          <h3 className="relative text-center justify-start text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leaidng-[120%] lg:leading-[57.60px] -tracking-[0.48px]">
             Why Us?
-          </div>
-          <div className="w-[718px] relative text-center justify-start text-[#140f25] text-base font-normal font-['Inter'] leading-snug">
+          </h3>
+          <p className="md:w-[718px] relative text-center justify-start text-[#140f25] text-[14px] lg:text-base font-normal font-inter leading-[130%] lg:leading-snug -tracking-[0.28px]">
             We create a complex mosaic of carefully designed strategies to develop a harmonious relationship between the brand and its customer base, ensuring that a symphony of satisfaction resonates in the digital environment. A digital marketing agency targeting customer satisfaction, we offer an in-depth solution to the delicate rhythm between return on sales and increasing sales conversion.
-          </div>
+          </p>
         </div>
       </div>
-      <div className="flex flex-row gap-12">
-        <div className="flex flex-col gap-12">
+      <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col gap-12 w-[90%]">
           {/* Card: Innovative Solutions */}
-          <div className="px-[59px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-start text-start gap-3">
-            <div className="w-[502px] relative justify-start text-[#140f25] text-2xl font-bold font-['Inter'] leading-[28.80px]">
+          <div className="lg:px-[59px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-start text-start gap-3">
+            <h4 className="lg:w-[502px] relative justify-start text-[#140f25] text-2xl font-bold font-['Inter'] leading-[28.80px]">
               Innovative Solutions
-            </div>
+            </h4>
             <div className="flex flex-col justify-start items-start gap-[18px]">
-              <div className="w-[502px] relative text-justify justify-start text-[#140f25] text-base font-normal font-['Inter'] leading-snug">
+              <p className="lg:w-[502px] relative text-justify justify-start text-[#140f25] text-base font-normal font-['Inter'] leading-snug">
                 At DGTLFACE, we offer innovative and customized solutions in the ever-changing world of technology. By deeply understanding our clients' unique needs, we develop digital solutions that give them a competitive edge. Utilizing the latest technologies like artificial intelligence, machine learning, and cloud computing, we optimize business processes and boost efficiency.
-              </div>
+              </p>
               <button
                 type="button"
                 className="px-8 py-4 rounded-[14px] border-2 border-[#54b9cf] inline-flex justify-center items-center gap-2.5"
