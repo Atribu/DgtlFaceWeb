@@ -15,6 +15,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkBlue:'#140F25'
       },
       boxShadow: {
         boxshadow: ["0px 7px 50px 0px rgba(20, 12, 41, 0.05)"],

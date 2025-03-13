@@ -16,12 +16,13 @@ import Blocks6 from "./components/blocks/Blocks1/Blocks6";
 import Blocks7 from "./components/blocks/Blocks1/Blocks7";
 import Blocks8 from "./components/blocks/Blocks1/Blocks8";
 import Blocks9 from "./components/blocks/Blocks1/Blocks9";
+import Services from "./components/serviceblocks/Services";
 // import ThreeAnimation from "./components/Square/ThreeAnimation";
 
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col justify-center items-center">
+    <main className="flex flex-col justify-center items-center w-screen ">
       <div className="flex flex-col w-full items-center ">
         <MyThreeScene />
         <Partners />
@@ -29,6 +30,7 @@ export default function HomePage() {
         <Section2 />
         {/* <ThreeAnimation /> */}
         <Section3 />
+        {/* <Services/> */}
         <Section4 />
         <WhyUsSection />
         <Contact />
