@@ -61,64 +61,10 @@ function Services() {
 
   return (
     <section>
-      <div className="relative grid lg:grid-cols-2 xl:grid-cols-2 bg-darkBlue px-12 py-8 md:px-20 md:py-12 lg:min-h-[680px] lg:px-0 lg:py-24 w-screen bg-black">
-        <ServiceBlocks
-          blocksOrder={blocksOrder}
-          blockPositions={blockPositions}
-          mobile={true}
-        />
-        <div className=" z-[1] col-span-1 flex  flex-col items-start  justify-center gap-5 opacity-100 lg:col-span-1">
-          <HeadingTag tag="ferg" className="text-3xl w-fit font-semibold lg:text-[48px] lg:leading-[48px]">
-            {makeGradientTitle("tfrwg")}
-          </HeadingTag>
-
-          <div
-            className={clsx(
-              "relative  overflow-hidden transition-all duration-700 lg:hidden",
-              readMore ? "max-h-[1000px]" : "max-h-[100px]",
-            )}
-          >
-            <p className=" whitespace-pre-line  text-sm font-normal lg:text-[18px]">
-             hfjrstj
-            </p>
-            <div
-              className={clsx(
-                "absolute bottom-0 left-0 right-0 bg-gradient-to-t from-darkBlue to-transparent",
-                readMore ? "h-0" : "h-[100px]",
-              )}
-            ></div>
-          </div>
-          <p className="hidden text-sm 3xl:text-base w-[70%] whitespace-pre-line xl:pe-16 2xl:pe-[6rem] 3xl:pe-[25%] font-normal lg:flex">
-            hsej
-          </p>
-
-          {readMore === false ? <button
-            onClick={() => setReadMore(!readMore)}
-            className="btn-border rounded-11 w-full gap-3 px-8 py-4 xl:py-2 lg:hidden"
-          >
-           ghestj
-          </button> : <Link href="/" className="btn-border text-center rounded-11 w-full gap-3 px-8 py-4 xl:py-2 lg:hidden"> het</Link>}
-          <Link
-            href="/"
-            className="btn-border !rounded-11 hidden gap-3 px-7 py-3 text-sm lg:flex"
-          >
-            ghetj
-          </Link>
-        </div>
-        <div className="serviceBg absolute bottom-0 left-0 top-0 hidden h-full w-[500px]  lg:block xl:w-[680px]"></div>
-        <div className="serviceShadow absolute left-0 z-[100] hidden h-full w-[400px] lg:block"></div>
-        {/* <Image
-          src={noiseFull}
-          fill
-          alt="Noise Image"
-          className="absolute inset-0 z-[0] hidden h-full mix-blend-multiply lg:block"
-        /> */}
-      </div>
+      
       <div className="flex w-full items-center justify-end">
         <div className="lg:w-[80%] lg:mr-[100px]">
-          
             <ServicesCarouselWrapper  />
-          
         </div>
       </div>
     </section>

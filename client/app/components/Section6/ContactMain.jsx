@@ -164,6 +164,7 @@ const ContactMain = () => {
           </div>
         </div>
 
+
         {/* Mobile Form */}
         <div className="flex lg:hidden w-[95%] py-[18px] px-[15px] bg-white items-center justify-center">
           <form
@@ -183,7 +184,7 @@ const ContactMain = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
-                className="w-full px-[20px] py-[15px] bg-transparent border-dotted gradient-border-button border border-gray-400 outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                className="w-full px-[20px] py-[10px] bg-transparent border-dotted border rounded-[10px] border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 
@@ -196,8 +197,8 @@ const ContactMain = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Your Name"
-                className="w-full px-[20px] py-[15px] bg-transparent border-dotted gradient-border-button  border-gray-400 outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                placeholder="+....... ( ............ ) ................   ...........  ..........."
+                className="w-full px-[20px] py-[10px] bg-transparent border-dotted border rounded-[10px]  border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 
@@ -210,8 +211,8 @@ const ContactMain = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Your Name"
-                className="w-full px-[20px] py-[15px] bg-transparent !border-dotted gradient-border-button border-gray-400 outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                placeholder=""
+                className="w-full px-[20px] py-[10px] bg-transparent !border-dotted rounded-[10px] border border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 

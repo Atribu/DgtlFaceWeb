@@ -24,7 +24,7 @@ function ServiceBlocks({ blocksOrder, blockPositions, mobile }) {
         className="absolute inset-0 z-[110] h-full mix-blend-multiply"
       /> */}
       <div className="relative h-full w-full lg:min-h-[515px] lg:overflow-hidden ">
-        <div className="ml-[-350px] h-full w-full  lg:ml-[-315px] xl:ml-[-175px]  2xl:ml-[-75px] 3xl:ml-[50px] 4xl:ml-[25px]">
+        <div className="ml-[-350px] h-full w-full  lg:ml-[-315px] xl:ml-[-175px]  2xl:ml-[-40px] 3xl:ml-[50px] 4xl:ml-[25px]">
           <Block3
             gradient={blocksOrder[0] == "1" ? "true" : "false"}
             // className="absolute top-1/2 z-[20] -translate-y-[calc(50%+80px)] transition-all duration-500"

@@ -30,7 +30,7 @@ export default function HomePage() {
         <Section2 />
         {/* <ThreeAnimation /> */}
         <Section3 />
-        {/* <Services/> */}
+        <Services/>
         <Section4 />
         <WhyUsSection />
         <Contact />

@@ -7,7 +7,7 @@ import DownArrow from "./svg/DownArrow";
 
 const Header = () => {
   return (
-    <header className="w-screen lg:w-[61%] right-0 left-0 lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] mt-0 fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-10 backdrop-blur-md">
+    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] mt-0 fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-10 lg:top-0 backdrop-blur-md">
       {/* Logo Alanı */}
       <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
 
@@ -59,7 +59,7 @@ const Header = () => {
       </nav>
 
       {/* Örnek Buton */}
-      <button className="hidden lg:flex w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] md:inline-block bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <button className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </button>
 
