@@ -1,16 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import clsx from "clsx";
-import Image from "next/image";
 import ServicesCarouselWrapper from "./ServicesCarouselWrapper";
-import Link  from "next/link";
 
-// import noiseFull from "@/public/noisefull.png";
-import ServiceBlocks from "./ServiceBlocks";
-import HeadingTag from "./HeadingTag";
-import makeGradientTitle from "@/lib/makeGradientTitle";
-
-function Services() {
+function  Services() {
   const [readMore, setReadMore] = useState(false);
 
   const [blocksOrder, setBlocksOrder] = useState([
