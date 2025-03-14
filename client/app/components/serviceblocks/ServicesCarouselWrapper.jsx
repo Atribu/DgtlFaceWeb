@@ -60,7 +60,7 @@ function ServicesCarouselWrapper() {
                     div header
                   </span>
                   <span className="z-[160] w-[70%] text-xl font-semibold text-white lg:hidden">
-                  hrstjsym
+                  hrstjsy
                   </span>
 
                   <ul className="!marker:text-white ps-2 z-[160] hidden list-inside !list-disc gap-3 opacity-60 lg:flex lg:flex-col">
