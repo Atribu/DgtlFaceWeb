@@ -9,7 +9,7 @@ export default function EmblaCarousel({ slides }) {
   const autoplayOptions = { speed: 1, stopOnInteraction: false };
   // dragFree ekleyerek kaydırma modunu serbest hale getiriyoruz.
   const [emblaRef] = useEmblaCarousel(
-    { loop: true, dragFree: true },
+    { loop: true, dragFree: true, align:"start" },
     [Autoplay(autoplayOptions)]
   );
 
@@ -30,7 +30,7 @@ export default function EmblaCarousel({ slides }) {
           {extendedSlides.map((imgObj, index) => (
             <div
               key={index}
-              className="embla__slide flex-[0_0_100%] md:flex-[0_0_50%] xl:flex-[0_0_20%]"
+              className="embla__slide flex-[0_0_70%] md:flex-[0_0_50%] xl:flex-[0_0_20%]"
             >
               <div className="flex bg-white w-64 rounded-md shadow-boxshadow h-[15vh] items-center justify-center p-2">
                 <img

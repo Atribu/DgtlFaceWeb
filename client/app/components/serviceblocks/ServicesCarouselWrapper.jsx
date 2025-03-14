@@ -45,7 +45,7 @@ function ServicesCarouselWrapper() {
     <div className=" py-8" ref={emblaRef}>
       <div className="embla__container mx-8  px-4 md:px-10 lg:px-0 w-full max-w-[calc(100vw-16px)] ">
       
-          return (
+
             <div
               className=" golge group relative   
                   mr-6 h-[180px] max-w-[300px] flex-shrink-0 flex-grow-0 basis-[90%] cursor-pointer overflow-hidden rounded-11 bg-darkBlue shadow-xl lg:h-[320px]
@@ -57,23 +57,14 @@ function ServicesCarouselWrapper() {
               <div className="flex  h-full flex-col items-start justify-between pb-[25px]  pl-[40px] pt-[25px] text-white transition-all duration-300 ease-in-out lg:pb-[75px] lg:pr-[175px] lg:pt-[100px]   lg:group-hover:pb-[40px] lg:group-hover:pt-[50px] ">
                 <div className="flex  flex-col items-start justify-start gap-5 lg:group-hover:gap-3">
                   <span className="z-[160] hidden font-semibold w-full text-3xl text-white lg:block">
-                    gghshjn
+                    div header
                   </span>
                   <span className="z-[160] w-[70%] text-xl font-semibold text-white lg:hidden">
                   hrstjsym
                   </span>
 
                   <ul className="!marker:text-white ps-2 z-[160] hidden list-inside !list-disc gap-3 opacity-60 lg:flex lg:flex-col">
-                 
-                    
-                      return (
-                        <li className="flex gap-4 ">
-                          <span className="before-disc  text-sm font-normal text-white lg:text-sm">
-                           hrgsnmry
-                          </span>
-                        </li>
-                      );
-                    
+                    <p>div içi text</p>
                   </ul>
                 </div>
 
@@ -102,8 +93,7 @@ function ServicesCarouselWrapper() {
                 className="absolute inset-0 z-[150] hidden h-full mix-blend-multiply lg:block"
               /> */}
             </div>
-          );
-   
+      
       </div>
     </div>
   );

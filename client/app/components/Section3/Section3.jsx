@@ -51,10 +51,10 @@ const Section3 = () => {
       className="flex flex-row w-full h-auto justify-center items-center mt-32 font-inter"
       style={{
         background:
-          "linear-gradient(to right, #140C29 0%, #140C29 25%, #547CCF 32%, #547CCF 38%, #140C29 45%, #140C29 100%)",
+          "linear-gradient(to right, #140C29 0%, #140C29 25%, #1d2342 30%, #1d2342 38%, #140C29 45%, #140C29 100%)",
       }}
     >
-      <div className="w-[90%] md:w-[85%] lg:w-[80%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 bg-[#140C29] lg:bg-transparent items-center justify-center">
+      <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
           <ServiceBlocks    blocksOrder={blocksOrder}
