@@ -16,8 +16,24 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
-
+  const [color, setColor] = useState("rgb(255, 255, 255)");
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // scrollY ile ekran yüksekliği arasındaki oranı hesapla
+      const progress = Math.min(window.scrollY / window.innerHeight, 1);
+      // İlerleme 0 -> 1 arasında değişiyor; 0 = beyaz, 1 = siyah.
+      const value = Math.floor(255 * (1 - progress));
+      // Her RGB bileşeni için aynı değeri kullanarak gri tonlama elde ederiz.
+      setColor(`rgb(${value}, ${value}, ${value})`);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -40,21 +56,24 @@ const Header = () => {
   }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
   return (
-    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md">
+    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
       <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
 
-      <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10">
-        <Logo2 className="flex lg:hidden" width={45} height={39} />
+      <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
+        <Logo2 className="flex lg:hidden" width={45} height={39} color={color} style={{
+        color, // dinamik olarak ayarlanan renk
+        transition: "color 0.1s ease-out", }}/>
 
         <div className="flex gap-[5px] items-center justify-center h-full">
           <div className="flex itemx-center justify-center text-center  gap-[5px] py-[8px] px-[14] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter">
             EN <DownArrow className="flex items-center" width={9} height={8} />
           </div>
-          <button
+          <button style={{
+        color, // dinamik olarak ayarlanan renk
+        transition: "color 0.1s ease-out", }}
             onClick={toggleMenu}
-            className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border "
-          >
+            className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border ">
             Menu
           </button>
         </div>
@@ -116,7 +135,7 @@ const Header = () => {
         {/* MENÜ LİNKLERİ */}
         <div className="flex lg:hidden flex-col w-[98%] h-[100%] items-center justify-start ">
           <div className="flex lg:hidden w-[90%] items-center justify-between mt-8 mb-[68px]">
-            <Logo2 className="flex lg:hidden" width={45} height={39} />
+            <Logo2 className="flex lg:hidden" width={45} height={39} color="#ffffff"/>
 
             <div className="flex gap-[5px] items-center justify-center h-full">
               <button className="gradient-border-button border flex itemx-center justify-center text-center  gap-[5px] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter py-[8px] px-[14px] w-[44px] h-[30px]">
@@ -197,7 +216,7 @@ const Header = () => {
           </div>
 
           <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
-            <div className="fles flex-col items-center justify-center text-center gap-[10px]">
+            <div className="fles flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pgFsBEQDKz0atpV1SXuC9zYGeDzbL9ng5DchqgPXmKPCATI7HKy39GQciiQ8RyTEfbVNyTWo3VBS9ZCID-3ihKlM5NAVX1b0LxE0oC4DVac5tkQ6w4RKYWsfJmt5kGWHdkdOScu0p3c-FM3GuUTeRDk5f4Bi5aLjak4HMq6nB7rnkL-L45lIvmKcQkfM9xEOC21SVjYr3h2PP6WQZWeYblCS4aZ5uleqFnqsbtwkahnyHoUL8tdWjkudNGaUBHr10scmo1bFLfuiVT7xtC94EFz2SJB~H36ZWYIT~qU8qqK~60YsYlgeLal9ckQ6TbKDzepa56CJPtncMn0FtjC1Sw__"
@@ -205,12 +224,12 @@ const Header = () => {
                   className="w-[29px] h-[29px]"
                 />
               </div>
-              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px]">
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Phone
               </p>
             </div>
 
-            <div className="fles flex-col items-center justify-center text-center gap-[10px]">
+            <div className="fles flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XalWRyGySCcLhysHXzag2euHKe9XJLJ2ECvGamNo4K3vDChc~TdtBQ6PGohfMop7LnxFaQoLXJz3gkXOXb5fadDpCCAmjHHwzORuWuAifG7XVNtL0nMP2BfWvbscwdFGujN6DIL9jdYxgnWOttCN5Mv0iRVmkTUIho-4fmmfs-64qUjLAq98AjFj5hjrHXCVxu0LQGHfwIVhrDzT~6UR9EcKKpJ4ILVsUYbZBJ-FFDsDIH8cfNgVqFHqSjcEsjC-f9wC4g0M7MWO4PxrRb2n9eyTIEslN4jgVK0oSUZAebz655f0BhooRCC7UdtJyoPhb1vvRmt9z5W72dT-TB4k4g__"
@@ -218,18 +237,18 @@ const Header = () => {
                   className="w-[29px] h-[29px] "
                 />
               </div>
-              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px]">
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Mail
               </p>
             </div>
 
-            <div className="fles flex-col items-center justify-center text-center gap-[10px] ">
+            <div className="fles flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white py-[16px] px-[32px]">
                 <p className="text-[14px] font-bold leading-[120%] -tracking-[0.28px] text-darkBlue whitespace-nowrap">
                   Get in Touch
                 </p>
               </div>
-              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] ">
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Let Us Call You
               </p>
             </div>

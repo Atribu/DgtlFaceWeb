@@ -272,7 +272,6 @@ function FireballExplosion() {
     }
     setRendererSize();
 
-    if (typeof window !== "undefined") {
     // Pencere yeniden boyutlandığında container boyutlarını güncelle
     const onWindowResize = () => {
       setRendererSize();
@@ -387,7 +386,6 @@ function FireballExplosion() {
       });
       renderer.dispose();
     };
-  }
   }, []);
 
   return (

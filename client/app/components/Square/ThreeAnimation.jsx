@@ -5,6 +5,7 @@ import * as THREE from "three";
 import { GUI } from "dat.gui";
 import dynamic from "next/dynamic";
 
+
 const DatGUI = dynamic(
   () => import("dat.gui").then((mod) => mod.GUI),
   { ssr: false }
@@ -24,7 +25,7 @@ const ThreeAnimation = () => {
       } catch (error) {
         console.error("localStorage'a erişim sağlanamıyor:", error);
       }
-    }
+   
 
     let animationId;
     let scene, camera, renderer, group, raycaster;
@@ -220,6 +221,7 @@ const ThreeAnimation = () => {
       });
       renderer.dispose();
     };
+  }
   }, []);
 
   return <div ref={containerRef} style={{ width: "100vw", height: "100vh" }} />;

@@ -19,7 +19,7 @@ const Partners = () => {
   ]
 
   return (
-    <div className="flex flex-col w-screen mt-[5%] items-center justify-center overflow-x-hidden">
+    <div className="flex flex-col w-screen items-center justify-center overflow-x-hidden gap-[30px]">
       <div className="flex flex-col w-[90%] items-start lg:items-center text-start lg:text-center justify-center gap-1 lg:gap-5 text-darkBlue">
         <h2 className="font-inter28 text-[24px] lg:text-[48px] font-bold leading-[120%] lg:leading-[57.6px] -tracking-[0.48px]">
           Our Partners 
@@ -29,7 +29,7 @@ const Partners = () => {
           the best services and solutions. <br /> Our esteemed partners include:
         </p>
       </div>
-      <div className="flex w-full h-[30vh] overflow-hidden lg:ml-[40%] items-center justify-center">
+      <div className="flex w-full lg:h-[30vh] overflow-hidden lg:ml-[40%] items-start justify-center">
         <EmblaCarousel slides={slides}/>
       </div>
     </div>

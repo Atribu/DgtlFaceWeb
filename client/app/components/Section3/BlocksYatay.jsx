@@ -1,7 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import clsx from "clsx";
-import BlocVertical from "../blocks/BlocVertical";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 
 const Section3 = () => {
@@ -48,7 +46,7 @@ const Section3 = () => {
 
   return (
     <div
-      className="flex flex-row w-full h-auto justify-center items-center mt-32 font-inter"
+      className="flex flex-row w-full h-auto justify-center items-center  font-inter"
       style={{
         background:
           "linear-gradient(to right, #140C29 0%, #140C29 25%, #1d2342 30%, #1d2342 38%, #140C29 45%, #140C29 100%)",
@@ -61,7 +59,7 @@ const Section3 = () => {
           blockPositions={blockPositions}/>
        
         <div className="flex flex-col text-start items-start justify-center h-full ">
-          <h3 className=" flex flex-col text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
+          <h3 className=" flex flex-row lg:flex-col gap-2 text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             <span className="text-white">Our</span>
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               Services

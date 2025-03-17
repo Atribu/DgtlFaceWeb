@@ -26,7 +26,7 @@ export default function EmblaCarousel({ slides }) {
           - 'lg:px-12' daha büyük ekranlarda.
           Bu sayede boşluklar çok artmaz.
         */}
-        <div className="embla__container flex gap-1 px-12 md:px-8 lg:px-44 my-16">
+        <div className="embla__container flex gap-1 px-12 md:px-8 lg:px-44 ">
           {extendedSlides.map((imgObj, index) => (
             <div
               key={index}
