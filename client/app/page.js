@@ -7,20 +7,7 @@ import BlocksYatay from "./components/Section3/BlocksYatay";
 import Section4 from "./components/Section4/Section4";
 import WhyUsSection from "./components/Section5/WhyUsSection";
 import Contact from "./components/Section6/ContactMain";
-import BlocVertical from "./components/blocks/BlocVertical";
-import Blocks from "./components/blocks/Blocks1/Blocks1";
-import Blocks2 from "./components/blocks/Blocks1/Blocks2";
-import Blocks3 from "./components/blocks/Blocks1/Blocks3";
-import Blocks4 from "./components/blocks/Blocks1/Blocks4";
-import Blocks5 from "./components/blocks/Blocks1/Blocks5";
-import Blocks6 from "./components/blocks/Blocks1/Blocks6";
-import Blocks7 from "./components/blocks/Blocks1/Blocks7";
-import Blocks8 from "./components/blocks/Blocks1/Blocks8";
-import Blocks9 from "./components/blocks/Blocks1/Blocks9";
-import Services from "./components/serviceblocks/Services";
-import ServicesCarousel from "./components/serviceblocks/ServicesCarousel";
 // import ThreeAnimation from "./components/Square/ThreeAnimation";
-
 
 export default function HomePage() {
   return (
@@ -30,11 +17,8 @@ export default function HomePage() {
         <Partners />
         <Section1 />
         <Section2 />
-
         <BlocksYatay />
-
         <Section3/>
-
         {/* <ServicesCarousel/> */}
 
         <Section4 />

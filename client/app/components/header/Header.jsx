@@ -5,6 +5,12 @@ import Link from "next/link";
 import Logo from "./svg/DgtlFaceLogo";
 import Logo2 from "../Cookies/components/DgtlfaceLogoSvg";
 import DownArrow from "./svg/DownArrow";
+import { RxCross2 } from "react-icons/rx";
+import HomeSvg from "./svg/HomeSvg";
+import ServicesSvg from "./svg/ServicesSvg";
+import PersonSvg from "./svg/PersonSvg";
+import BlogSvg from "./svg/BlogSvg";
+import PhoneSvg from "./svg/PhoneSvg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,22 +18,45 @@ const Header = () => {
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    }
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]); // pathname değiştiğinde sidebar kapanacak
+
   return (
-    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] mt-0 fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-10 lg:top-0 backdrop-blur-md">
+    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md">
       {/* Logo Alanı */}
       <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
 
-      <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed">
+      <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10">
         <Logo2 className="flex lg:hidden" width={45} height={39} />
 
         <div className="flex gap-[5px] items-center justify-center h-full">
           <div className="flex itemx-center justify-center text-center  gap-[5px] py-[8px] px-[14] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter">
-            EN <DownArrow className="flex items-center" width={9} height={8}/>
+            EN <DownArrow className="flex items-center" width={9} height={8} />
           </div>
-        <button className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border ">
-          Menu
-        </button>
+          <button
+            onClick={toggleMenu}
+            className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border "
+          >
+            Menu
+          </button>
         </div>
       </div>
 
@@ -38,27 +67,27 @@ const Header = () => {
       <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center  text-center px-4 py-2 backdrop-blur-xl whitespace-nowrap">
         <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href="/" className="hover:text-gray-300">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href="/services" className="hover:text-gray-300">
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href="/aboutus" className="hover:text-gray-300">
               About us
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href="/blog" className="hover:text-gray-300">
               Blog
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300">
+            <a href="/contact" className="hover:text-gray-300">
               Contact
             </a>
           </li>
@@ -69,6 +98,144 @@ const Header = () => {
       <button className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </button>
+
+      <div
+        ref={menuRef} // **Referans atadık**
+        className={`
+          fixed top-0 left-0 bottom-0
+          w-full
+          h-[100vh]
+            bg-[#080612]
+          z-[9999]
+          transform transition-transform duration-300
+          lg:hidden
+         
+          ${isMenuOpen ? "translate-x-0 " : "translate-x-full"}
+        `}
+      >
+        {/* MENÜ LİNKLERİ */}
+        <div className="flex lg:hidden flex-col w-[98%] h-[100%] items-center justify-start ">
+          <div className="flex lg:hidden w-[90%] items-center justify-between mt-8 mb-[68px]">
+            <Logo2 className="flex lg:hidden" width={45} height={39} />
+
+            <div className="flex gap-[5px] items-center justify-center h-full">
+              <button className="gradient-border-button border flex itemx-center justify-center text-center  gap-[5px] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter py-[8px] px-[14px] w-[44px] h-[30px]">
+                EN
+              </button>
+              <button
+              onClick={toggleMenu}
+              className="flex text-[40px] text-stoneLight text-white"
+            >
+              <RxCross2 size={24} color="#fff" />
+            </button>
+            </div>
+           
+          </div>
+
+          <div className="w-[90%] items-start justify-center text-start gap-[8px] text-white font-inter leading-[120%] mb-[52px]">
+            <h3 className="text-[16px] font-bold -tracking-[0.32px]">
+              {" "}
+              DGTLFACE – Digital Technology Partner
+            </h3>
+            <p className="text-[12px] font-normal -tracking-[0.24px]">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-[21px] w-[90%] items-center justify-center">
+            <Link
+              href="/"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[62px] max-w-[153px] gap-[15px] !bg-[#140015]"
+            >
+              <HomeSvg className="flex" width={32} height={32} />
+              <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+                Homepage
+              </p>
+            </Link>
+
+            <Link
+              href="/services"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[62px] max-w-[153px] gap-[15px] !bg-[#140015]"
+            >
+              <ServicesSvg className="flex" width={32} height={32} />
+              <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+                Services
+              </p>
+            </Link>
+
+            <Link
+              href="/aboutus"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[62px] max-w-[153px] gap-[15px] !bg-[#140015]"
+            >
+              <PersonSvg className="flex" width={12} height={28} />
+              <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+                About Us
+              </p>
+            </Link>
+
+            <Link
+              href="/blog"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[62px] max-w-[153px] gap-[15px] !bg-[#140015]"
+            >
+              <BlogSvg className="flex" width={34} height={34} />
+              <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+                Blog
+              </p>
+            </Link>
+
+            <Link
+              href="/contact"
+              className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[62px] max-w-[153px] gap-[15px] !bg-[#140015]"
+            >
+              <PhoneSvg className="flex" width={30} height={30} />
+              <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
+                Contact
+              </p>
+            </Link>
+          </div>
+
+          <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
+            <div className="fles flex-col items-center justify-center text-center gap-[10px]">
+              <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pgFsBEQDKz0atpV1SXuC9zYGeDzbL9ng5DchqgPXmKPCATI7HKy39GQciiQ8RyTEfbVNyTWo3VBS9ZCID-3ihKlM5NAVX1b0LxE0oC4DVac5tkQ6w4RKYWsfJmt5kGWHdkdOScu0p3c-FM3GuUTeRDk5f4Bi5aLjak4HMq6nB7rnkL-L45lIvmKcQkfM9xEOC21SVjYr3h2PP6WQZWeYblCS4aZ5uleqFnqsbtwkahnyHoUL8tdWjkudNGaUBHr10scmo1bFLfuiVT7xtC94EFz2SJB~H36ZWYIT~qU8qqK~60YsYlgeLal9ckQ6TbKDzepa56CJPtncMn0FtjC1Sw__"
+                  alt="Phone GIF"
+                  className="w-[29px] h-[29px]"
+                />
+              </div>
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px]">
+                Phone
+              </p>
+            </div>
+
+            <div className="fles flex-col items-center justify-center text-center gap-[10px]">
+              <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XalWRyGySCcLhysHXzag2euHKe9XJLJ2ECvGamNo4K3vDChc~TdtBQ6PGohfMop7LnxFaQoLXJz3gkXOXb5fadDpCCAmjHHwzORuWuAifG7XVNtL0nMP2BfWvbscwdFGujN6DIL9jdYxgnWOttCN5Mv0iRVmkTUIho-4fmmfs-64qUjLAq98AjFj5hjrHXCVxu0LQGHfwIVhrDzT~6UR9EcKKpJ4ILVsUYbZBJ-FFDsDIH8cfNgVqFHqSjcEsjC-f9wC4g0M7MWO4PxrRb2n9eyTIEslN4jgVK0oSUZAebz655f0BhooRCC7UdtJyoPhb1vvRmt9z5W72dT-TB4k4g__"
+                  alt="Email GIF"
+                  className="w-[29px] h-[29px] "
+                />
+              </div>
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px]">
+                Mail
+              </p>
+            </div>
+
+            <div className="fles flex-col items-center justify-center text-center gap-[10px] ">
+              <div className="flex items-center justify-center rounded-full bg-white py-[16px] px-[32px]">
+                <p className="text-[14px] font-bold leading-[120%] -tracking-[0.28px] text-darkBlue whitespace-nowrap">
+                  Get in Touch
+                </p>
+              </div>
+              <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] ">
+                Let Us Call You
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <style jsx>{`
         .gradient-border-nav {

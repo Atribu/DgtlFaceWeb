@@ -209,6 +209,8 @@ export default function MyThreeScene() {
       camera.aspect = newW / newH;
       camera.updateProjectionMatrix();
     }
+
+    if (typeof window !== "undefined") {
     window.addEventListener("resize", handleResize);
 
     // Cleanup
@@ -224,6 +226,7 @@ export default function MyThreeScene() {
       g.dispose();
       m.dispose();
     };
+  }
   }, []);
 
   return (
