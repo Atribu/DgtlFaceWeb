@@ -250,7 +250,7 @@
 
 .gradient-border-button {
   position: relative;
-  padding: 3px 0px;
+  /* padding: 3px 0px; */
   font-size: 14px;
   font-weight: 700;
   background: transparent;

@@ -31,6 +31,7 @@ export default function Deneme() {
       exportBinary
     };
 
+    if (typeof window !== "undefined") {
     // 1) Kamera
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
     camera.position.set(4, 2, 6); 
@@ -215,6 +216,7 @@ export default function Deneme() {
 
         image.src = url; // SVG'yi yükle
       });
+    }
     }
   }, []);
 
