@@ -132,7 +132,7 @@ const Section3 = () => {
         {servicesData.map((service, index) => (
           <div
             key={service.id}
-            className="flex flex-[0_0_16%] lg:flex-[0_0_20%] mr-[1%] h-[270px] lg:h-[300px] bg-[#140f25] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:p-8 text-start relative"   onMouseEnter={() => setActiveIndex(index)} // Mouse üzerine gelindiğinde aktif index'i güncelle
+            className="flex flex-[0_0_80%] lg:flex-[0_0_28%] mr-[6px] lg:mr-[1%] h-[270px] lg:h-[300px] bg-[#140f25] max-w-[350px] lg:max-w-[700px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:p-8 text-start relative"   onMouseEnter={() => setActiveIndex(index)} // Mouse üzerine gelindiğinde aktif index'i güncelle
             onMouseLeave={() => setActiveIndex(null)} // Mouse ayrıldığında aktif index'i sıfırla
           >
             <div className='flex flex-col mt-4 transition-all duration-500 group-hover:translate-y-[-10px] '>
@@ -150,69 +150,18 @@ const Section3 = () => {
               
             </div>
 
-          <div className='absolute -right-4 -bottom-10 lg:right-0 lg:-bottom-20'>
+          <div className='absolute -right-4 -bottom-10 lg:-right-6 lg:-bottom-[75px]'>
           <ServicesCarouselWrapper selected={index} isActive={activeIndex === index}/>
           </div>
 
             {/* Explore Butonu */}
             <Link href="/"
-              className="flex text-[12px] lg:text-[14px] gradient-border-button  text-white  w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] -left-52 absolute bottom-[-200px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
+              className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white  w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
               Explore
             </Link>
 
             {/* Stil */}
-            <style jsx>{`
-              .gradient-border-button {
-                position: relative;
-                padding: 3px 0px;
-                font-size: 14px;
-                font-weight: 700;
-                background: transparent;
-                color: #fff;
-                border: none;
-                border-radius: 14px;
-                cursor: pointer;
-                z-index: 1;
-                overflow: hidden;
-              }
-              .gradient-border-button::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                border-radius: inherit;
-                padding: 3px;
-                background: linear-gradient(
-                  90deg,
-                  #a754cf,
-                  #54b9cf,
-                  #547dcf,
-                  #a754cf
-                );
-                background-size: 300%;
-                -webkit-mask: linear-gradient(#fff 0 0) content-box,
-                  linear-gradient(#fff 0 0);
-                -webkit-mask-composite: xor;
-                mask-composite: exclude;
-                pointer-events: none;
-                transition: background-position 0.1s;
-              }
-
-              .gradient-border-button:hover::before {
-                animation: moveBorder 3s linear infinite;
-              }
-
-              @keyframes moveBorder {
-                0% {
-                  background-position: 0% 50%;
-                }
-                100% {
-                  background-position: 100% 50%;
-                }
-              }
-            `}</style>
+           
             
           </div>
           

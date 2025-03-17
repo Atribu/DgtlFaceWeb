@@ -44,10 +44,8 @@ function ServicesCarouselWrapper({selected,isActive}) {
   return (
     <div className=" py-8">
       <div className="embla__container mx-8  px-4 md:px-10 lg:px-0 w-full max-w-[calc(100vw-16px)] ">
-      
-
             <div
-              className=" golge group relative   
+              className=" group relative   
                   mr-6 h-[180px] max-w-[300px] flex-shrink-0 flex-grow-0 basis-[90%] cursor-pointer overflow-hidden rounded-11 bg-transparent shadow-xl lg:h-[320px]
                  lg:max-w-[625px] "
             //   key={index}

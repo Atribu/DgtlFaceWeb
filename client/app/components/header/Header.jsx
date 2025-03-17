@@ -1,11 +1,18 @@
 "use client";
-
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
+import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
+import Link from "next/link";
 import Logo from "./svg/DgtlFaceLogo";
 import Logo2 from "../Cookies/components/DgtlfaceLogoSvg";
 import DownArrow from "./svg/DownArrow";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const pathname = usePathname(); // Şu anki sayfanın yolunu al
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  
   return (
     <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] mt-0 fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-10 lg:top-0 backdrop-blur-md">
       {/* Logo Alanı */}

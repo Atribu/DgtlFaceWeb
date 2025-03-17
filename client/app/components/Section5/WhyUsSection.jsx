@@ -84,9 +84,9 @@ export default function WhyUsSection() {
       <div className="lg:hidden w-full overflow-hidden" ref={emblaRef}>
         <div className="flex">
           {cards.map((card, index) => (
-            <div key={index} className="flex-[0_0_100%] min-w-0 pl-4">
+            <div key={index} className="flex-[0_0_60%] min-w-0 mx-1 pl-0 lg:pl-4 h-auto">
               <div
-                className={`w-[90%] mx-auto lg:px-[59px] py-12 rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 relative bg-center bg-cover ${card.bgColor}`}  style={
+                className={`w-[100%] mx-auto lg:px-[59px] py-12 rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 relative bg-center bg-cover ${card.bgColor}`}  style={
                   card.image
                     ? {
                         background: `linear-gradient(180deg, rgba(20, 15, 37, 0.00) 0%, rgba(20, 15, 37, 0.91) 38.9%, #140F25 60.27%), url(${card.image.src}) lightgray 50% / cover no-repeat`,
@@ -95,7 +95,7 @@ export default function WhyUsSection() {
                 }
               >
                 
-                <h4 className={`w-full lg:w-[502px] relative justify-start ${card.textColor} text-[20px] text-2xl font-bold font-inter leading-[120%] lg:leading-[28.80px]`}>
+                <h4 className={`w-full lg:w-[502px] relative justify-start ${card.textColor} text-[20px] text-xl lg:text-2xl font-bold font-inter leading-[120%] lg:leading-[28.80px]`}>
                   {card.title}
                 </h4>
                 <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
