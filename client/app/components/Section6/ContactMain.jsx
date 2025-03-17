@@ -25,9 +25,9 @@ const ContactMain = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-12 mt-12 mb-12 items-center justify-center">
+    <div className="flex flex-col lg:flex-row lg:gap-12 mt-0 lg:mt-12 mb-12 items-center justify-center">
       <div className="flex flex-col lg:w-[620px] items-center justify-center">
-        <div className="flex flex-row lg:flex-col gap-6">
+        <div className="flex flex-row lg:flex-col gap-6 justify-center items-start">
           {/* Telefon */}
           <div className="flex flex-col lg:flex-row items-center gap-6">
             {/* GIF için .gif uzantılı bir dosya kullanabilirsiniz. */}
@@ -216,22 +216,22 @@ const ContactMain = () => {
               />
             </div>
 
-            <div className="flex items-center gap-[17px]">
+            <div className="flex items-center justify-start gap-[17px] w-full">
               <input
                 type="checkbox"
                 name="policyAccepted"
                 checked={formData.policyAccepted}
                 onChange={handleChange}
-                className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#A6A6A6] bg-transparent focus:outline-none
+                className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#152741] bg-transparent focus:outline-none
                checked:after:content-['✓']  checked:after:text-darkBlue checked:after:text-[16px]
                checked:after:flex checked:after:items-center checked:after:justify-center "
               />
-              <label className="text-[16px] font-normal leading-[26.667px] text-[#A6A6A6] cursor-pointer underline">
+              <label className="text-[16px] font-normal leading-[26.667px] text-[#152741] cursor-pointer underline ">
                 Contact Form Policy
               </label>
             </div>
 
-            <button className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] h-[42px]">
+            <button className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]">
               Send
             </button>
           </form>

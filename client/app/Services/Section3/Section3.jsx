@@ -126,7 +126,7 @@ const Section3 = () => {
   ];
 
   return (
-    <div className="flex justify-end items-end my-28 w-screen">
+    <div className="flex justify-end items-end w-screen">
       <div className='flex justify-start items-center overflow-x-hidden w-[98%] lg:w-[90%]' ref={emblaRef}>
       <div className='flex '>
         {servicesData.map((service, index) => (

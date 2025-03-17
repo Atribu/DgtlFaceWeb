@@ -48,7 +48,7 @@ const Section2 = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-8 h-auto w-screen">
       {/* Header alanı isteğe bağlı */}
-      <div className="flex justify-center items-center gap-8 text-center w-[80%] max-w-[968px]">
+      <div className="flex justify-center items-center gap-8 text-center ml-[4%] md:ml-0 w-[96%] md:w-[80%] lg:max-w-[968px]">
         {/* Buraya header içeriklerinizi ekleyebilirsiniz */}
    
       {/* Carousel Container */}
@@ -60,10 +60,8 @@ const Section2 = () => {
               className=" flex-[0_0_40%] mr-[14px] lg:mr-auto lg:flex-[0_0_23%] h-auto"
             >
               <div
-                style={{
-                  background: `linear-gradient(to right, ${card.gradientFrom}, ${card.gradientTo})`,
-                }}
-                className="p-1 rounded-lg"
+               
+                className="p-1 rounded-[22px] gradient-border-button"
               >
                 <div className="bg-white flex flex-col text-center items-center justify-center w-full text-darkBlue gap-[7px] h-[150px] lg:h-[243px]">
                   <h2 className="text-[40px] lg:text-7xl font-bold font-inter28 leading-[110%] lg:leading-[77px] -tracking-[0.8px]">

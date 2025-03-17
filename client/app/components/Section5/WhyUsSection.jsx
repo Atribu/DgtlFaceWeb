@@ -62,9 +62,9 @@ export default function WhyUsSection() {
   ];
   
   return (
-    <div className="flex flex-col gap-12 w-screen items-center justify-center">
+    <div className="flex flex-col gap-12 w-screen items-center justify-center bg-[#F4F4F4] py-[18px]">
       <div>
-        <div className="xl:w-[1264px] w-[90%] px-0 lg:px-12 pt-7 pb-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-3.5">
+        <div className="xl:w-[1264px] w-[90%] px-0 lg:px-12 pt-[18px] lg:pt-7 pb-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-3.5">
           <h3 className="relative text-center justify-start text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leaidng-[120%] lg:leading-[57.60px] -tracking-[0.48px]">
             Why Us?
           </h3>
