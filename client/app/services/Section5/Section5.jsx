@@ -90,21 +90,22 @@ const Section5 = () => {
   }, []);
 
   return (
-    <div className='flex flex-col items-center w-full min-h-[600px] gap-8 overflow-visible mt-44 mb-32'>
+    <div className='flex flex-col items-center w-full min-h-[600px]gap-4 lg:gap-8 overflow-visible '>
       {/* Başlık */}
-      <div className="text-center justify-center">
-        <span className="text-[#140f25] text-5xl font-bold font-['Inter'] leading-[57.60px]">
+      <div className="text-center justify-center gap-[3px] lg:gap-[8px]">
+        <span className="text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
           What our clients<br />think of{" "}
         </span>
-        <span className="text-[#a754cf] text-5xl font-bold font-['Inter'] leading-[57.60px]">
+        <span className="text-[#a754cf] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
           DGTLFACE.
         </span>
-      </div>
-
-      {/* Açıklama */}
-      <div className="w-[478px] text-center text-[#140f25] text-lg font-normal font-['Inter'] leading-[25.20px]">
+         {/* Açıklama */}
+      <div className="md:w-[478px] text-center text-[#140f25] text-[14px] lg:text-lg font-normal font-['Inter'] leading-[130%] lg:leading-[25.20px] -tracking-[0.28px] lg:-tracking-normal">
         We are honest about our skills and capabilities and take pleasure in our clients agreeing with us on that.
       </div>
+      </div>
+
+     
 
       {/* Kartları Map ile Oluştur ve Yatay Kaydırma Ekle */}
       <div
@@ -115,30 +116,27 @@ const Section5 = () => {
         {testimonialsData.map((testimonial) => (
           <div
             key={testimonial.id}
-            className="p-[45px] bg-white rounded-[25px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] flex flex-col justify-center items-start gap-2 w-[500px] flex-shrink-0 border"
+            className="p-[45px] bg-white rounded-[25px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] flex flex-col justify-center items-start gap-2 w-[100%] md:w-[500px] flex-shrink-0 border"
             style={{ minHeight: '200px', height: '30%' }} // Kart yüksekliğini sabitle
           >
-            <div className="flex justify-start items-center gap-12">
-              <div className="w-[269px]">
-                <div className="flex flex-col">
-                  <span className="text-[#140f25] text-[32px] font-bold font-['Inter'] leading-[38.40px]">
-                    {testimonial.name.split(" ")[0]}
-                  </span>
-                  <span className="text-[#54b9cf] text-[32px] font-bold font-['Inter'] leading-[38.40px]">
-                    {testimonial.name.split(" ")[1]}
+            <div className="flex justify-start items-start text-start gap-12">
+              <div className="md:w-[269px] items-start text-start">
+                <div className="flex flex-row items-start text-start">
+                  <span className="text-[#140f25] text-[20px] lg:text-[32px] font-bold font-['Inter'] leading-[120%] lg:leading-[38.40px] -tracking-[0.4px]">
+                    {testimonial.name.split(" ")[0]} <span className='text-[#54b9cf] '>{testimonial.name.split(" ")[1]}</span>
                   </span>
                 </div>
-                <div className="text-black text-lg font-normal font-['Inter'] leading-[25.20px]">
+                <div className="text-black text-[12px] lg:text-lg font-normal font-['Inter'] leading-[25.20px]">
                   {testimonial.role}
                 </div>
               </div>
               <img
-                className="w-[79px] h-[79px] rounded-full"
+                className="w-[38px] h-[38px] lg:w-[79px] lg:h-[79px] rounded-full"
                 src={testimonial.image}
                 alt={testimonial.name}
               />
             </div>
-            <div className="w-full text-[#140c29] text-sm font-normal font-['Inter'] leading-tight">
+            <div className="w-full items-start text-start text-[#140c29] text-sm font-normal font-['Inter'] leading-[120%] lg:leading-tight">
               {testimonial.comment}
             </div>
           </div>
@@ -146,12 +144,12 @@ const Section5 = () => {
       </div>
 
       {/* Noktalar (Dots) */}
-      <div className="flex gap-2 mt-4">
+      <div className="flex gap-2 mt-1 lg:mt-4">
         {testimonialsData.map((_, index) => (
           <button
             key={index}
             onClick={() => setActiveIndex(index)}
-            className={`w-3 h-3 rounded-full transition-colors ${
+            className={`w-2 h-2 lg:w-3 lg:h-3 rounded-full transition-colors ${
               index === activeIndex ? 'bg-[#a754cf]' : 'bg-[#e0e0e0]'
             }`}
           />

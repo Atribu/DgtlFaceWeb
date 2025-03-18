@@ -1,5 +1,5 @@
 "use client"
-import Section3 from "./Services/Section3/Section3";
+import Section3 from "./services/Section3/Section3";
 // import MyThreeScene from "./components/MtThreeScene";
 import Partners from "./components/Partners/Partners";
 // import Section1 from "./components/Section1/Section";

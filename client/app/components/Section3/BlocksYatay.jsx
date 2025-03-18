@@ -55,7 +55,7 @@ const Section3 = () => {
       <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
-          <ServiceBlocks    blocksOrder={blocksOrder}
+          <ServiceBlocks    blocksOrder={blocksOrder} rotate={true}
           blockPositions={blockPositions}/>
        
         <div className="flex flex-col text-start items-start justify-center h-full ">

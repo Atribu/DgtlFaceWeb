@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import LineSvg from '@/app/components/subPageComponents/LineSvg';
 
 const Section4 = () => {
   // Kartlar için veri dizisi
@@ -11,28 +12,30 @@ const Section4 = () => {
   ];
 
   return (
-    <div className='mb-12 mt-36'>
-      <div className="text-black text-3xl font-bold text-center my-8">
-        Dgtlface Values
-      </div>
-      <div className="flex flex-row justify-center gap-8">
-        {valuesData.map((value) => (
-          <div
-            key={value.id}
-            className="p-6 bg-[#140f25] rounded-[22px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-4"
-          >
-            <div className="inline-flex justify-start items-center gap-[22px]">
-              <div className="w-[111px] text-center justify-center text-white text-2xl font-bold font-['Inter'] leading-[28.80px]">
-                {value.title}
-              </div>
-              <div className="w-0 h-[27px] outline-2 outline-offset-[-1px] outline-white/20" />
-              <div className="text-center justify-start text-[#a754cf] text-2xl font-bold font-['Inter'] leading-[28.80px]">
-                {value.number}
-              </div>
+    <div className='lg:mb-12  lg:mt-36 flex flex-col w-screen items-center justify-center'>
+       <h3 className='text-[24px] lg:text-[48px] mb-[24px] lg:mb-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> Dgtlface <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>Values</span></h3>
+      <div className='grid grid-cols-2 lg:flex items-center justify-center gap-[24px] text-white w-[90%]'>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+                <p>Quality</p>
+               <LineSvg className="flex" width={3} height={27}/>
+                <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>01</span>
             </div>
-          </div>
-        ))}
-      </div>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+                <p>Reliability</p>
+                <LineSvg className="flex"  width={3} height={27}/>
+                <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>02</span>
+            </div>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+                <p>Creativity</p>
+                <LineSvg className="flex"  width={3} height={27}/>
+                <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>03</span>
+            </div>
+            <div className='flex bg-darkBlue px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+                <p>Ambition</p>
+                <LineSvg className="flex"  width={3} height={27}/>
+                <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>04</span>
+            </div>
+        </div>
 
       {/* Tuşu Kartların Altına Yerleştir */}
       <div className="flex justify-center mt-8">
@@ -44,13 +47,13 @@ const Section4 = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className='flex flex-col items-center justify-center gap-5 mt-32'>
-        <div className="text-center justify-center text-[#140f25] text-[56px] font-bold font-['Inter'] capitalize leading-[61.60px]">Pricing</div>
-        <div className="w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-['Inter'] leading-tight">Don't be intimidated by the costs, call us and let us explain everything in detail. Get a single price and do not pay additional fees during its validity.</div>
+      <div className='flex flex-col items-center justify-center gap-5 mt-[67px] lg:mt-32 w-[90%]'>
+        <div className="text-center justify-center text-[#140f25] text-[24px] lg:text-[56px] font-bold font-['Inter'] capitalize leading-[120%] lg:leading-[61.60px]">Pricing</div>
+        <div className="w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-['Inter'] leading-[130%] lg:leading-tight -tracking-[0.42px] lg:tracking-[0.28px]">Don't be intimidated by the costs, call us and let us explain everything in detail. Get a single price and do not pay additional fees during its validity.</div>
       </div>
 
       {/* Tuşu En Alta Yerleştir */}
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-[18px] lg:mt-8">
         <button
           className="gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px]"
         >
