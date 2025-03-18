@@ -10,26 +10,26 @@ const QuestionsSection = () => {
     const [isDropdown4Open, setIsDropdown4Open] = useState(false);
 
   return (
-    <div className='flex flex-col w-full min-h-screen items-center justify-center gap-[70px] lg:gap-[168px] font-inter'>
-      <div className='flex flex-col w-[65%] items-center justify-center text-center gap-[48px]'>
-        <h3 className='text-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.96px]'> Dgtlface <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>Values</span></h3>
+    <div className='flex flex-col w-full lg:min-h-screen items-center justify-center gap-[70px] lg:gap-[168px] font-inter'>
+      <div className='flex flex-col lg:w-[65%] items-center justify-center text-center gap-[24px] lg:gap-[48px]'>
+        <h3 className='text-[24px] lg:text-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> Dgtlface <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>Values</span></h3>
         <div className='grid grid-cols-2 lg:flex items-center justify-center gap-[24px] text-white'>
-            <div className='flex bg-darkBlue p-[24px] items-center justify-center text-center rounded-[22px] text-[24px] font-bold leading-[120%] -tracking-[0.48px] gap-[22px]'>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>Quality</p>
                <LineSvg className="flex" width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>01</span>
             </div>
-            <div className='flex bg-darkBlue p-[24px] items-center justify-center text-center rounded-[22px] text-[24px] font-bold leading-[120%] -tracking-[0.48px] gap-[22px]'>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>Reliability</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>02</span>
             </div>
-            <div className='flex bg-darkBlue p-[24px] items-center justify-center text-center rounded-[22px] text-[24px] font-bold leading-[120%] -tracking-[0.48px] gap-[22px]'>
+            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>Creativity</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>03</span>
             </div>
-            <div className='flex bg-darkBlue p-[24px] items-center justify-center text-center rounded-[22px] text-[24px] font-bold leading-[120%] -tracking-[0.48px] gap-[22px]'>
+            <div className='flex bg-darkBlue px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>Ambition</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>04</span>
@@ -37,8 +37,8 @@ const QuestionsSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-col w-[50%] items-center justify-center text-center gap-[16px] text-darkBlue">
-  <h4 className="text-[32px] font-bold leading-[120%] -tracking-[0.64px] mb-[16px]">
+      <div className="flex flex-col w-[100%] lg:w-[50%] items-center justify-center text-center gap-[10px] lg:gap-[16px] text-darkBlue">
+  <h4 className="text-[24px] lg:text-[32px] font-bold leading-[120%]-tracking-[0.48px]  lg:-tracking-[0.64px] mb-[14px] lg:mb-[16px]">
     Frequently Asked{" "}
     <span className="bg-gradient-to-r from-[#547DCF] to-[#A754CF] bg-clip-text text-transparent">
       Questions
@@ -50,9 +50,9 @@ const QuestionsSection = () => {
     className={`
         flex flex-col overflow-hidden 
         transition-[max-height,transform] duration-700 ease-in-out 
-        px-[32px] py-[14.5px] w-[80%] md:w-[600px]
+        px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
+        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
         ${isDropdown1Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -86,9 +86,9 @@ const QuestionsSection = () => {
     className={`
         flex flex-col overflow-hidden 
         transition-[max-height,transform] duration-700 ease-in-out 
-        px-[32px] py-[14.5px] w-[80%] md:w-[600px]
+        px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
+        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
         ${isDropdown2Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -124,9 +124,9 @@ const QuestionsSection = () => {
     className={`
         flex flex-col overflow-hidden 
         transition-[max-height,transform] duration-700 ease-in-out 
-        px-[32px] py-[14.5px] w-[80%] md:w-[600px]
+         px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
+        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
         ${isDropdown3Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -162,9 +162,9 @@ const QuestionsSection = () => {
     className={`
         flex flex-col overflow-hidden 
         transition-[max-height,transform] duration-700 ease-in-out 
-        px-[32px] py-[14.5px] w-[80%] md:w-[600px]
+        px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
+        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-darkBlue
         ${isDropdown4Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
