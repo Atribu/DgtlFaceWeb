@@ -3,6 +3,7 @@ import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import Contact from '@/app/components/Section6/ContactMain.jsx'
 
 const servicesData = [
   {
@@ -70,6 +71,7 @@ const page = () => {
       <StepSection header="Set-up and " header2="Optimising" text="  Discover our comprehensive solution designed to simplify and strengthen your accommodation operations, corporate management, and online travel agency interactions." servicesData={servicesData}/>
       <VerticalSlider/>
       <QuestionsSection/>
+      <Contact/>
     </div>
   )
 }

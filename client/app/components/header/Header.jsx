@@ -59,12 +59,13 @@ const Header = () => {
   return (
     <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
-      <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
+      <Link href="/"><Logo className="w-auto hidden lg:flex" width={219} height={54.454} /></Link>
 
       <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
-        <Logo2 className="flex lg:hidden" width={45} height={39} color={color} style={{
+       <Link href="/">
+       <Logo2 className="flex lg:hidden" width={45} height={39} color={color} style={{
         color, // dinamik olarak ayarlanan renk
-        transition: "color 0.1s ease-out", }}/>
+        transition: "color 0.1s ease-out", }}/></Link>
 
         <div className="flex gap-[5px] items-center justify-center h-full">
           <div className="flex itemx-center justify-center text-center  gap-[5px] py-[8px] px-[14] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter">
@@ -92,9 +93,11 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <button   onClick={() => setIsServicesOpen(!isServicesOpen)} href="/services" className="hover:text-gray-300 focus:outline-none">
+           <Link href="/services">
+           <button  onClick={() => setIsServicesOpen(!isServicesOpen)} className="hover:text-gray-300 focus:outline-none">
               Services
             </button>
+            </Link>
           </li>
           <li>
             <a href="/aboutus" className="hover:text-gray-300">
@@ -145,9 +148,9 @@ const Header = () => {
       )}
 
       {/* Örnek Buton */}
-      <button className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
-      </button>
+      </Link>
 
       <div
         ref={menuRef} // **Referans atadık**
@@ -247,7 +250,7 @@ const Header = () => {
           </div>
 
           <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
-            <div className="fles flex-col items-center justify-center text-center">
+            <Link href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pgFsBEQDKz0atpV1SXuC9zYGeDzbL9ng5DchqgPXmKPCATI7HKy39GQciiQ8RyTEfbVNyTWo3VBS9ZCID-3ihKlM5NAVX1b0LxE0oC4DVac5tkQ6w4RKYWsfJmt5kGWHdkdOScu0p3c-FM3GuUTeRDk5f4Bi5aLjak4HMq6nB7rnkL-L45lIvmKcQkfM9xEOC21SVjYr3h2PP6WQZWeYblCS4aZ5uleqFnqsbtwkahnyHoUL8tdWjkudNGaUBHr10scmo1bFLfuiVT7xtC94EFz2SJB~H36ZWYIT~qU8qqK~60YsYlgeLal9ckQ6TbKDzepa56CJPtncMn0FtjC1Sw__"
@@ -258,9 +261,9 @@ const Header = () => {
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Phone
               </p>
-            </div>
+            </Link>
 
-            <div className="fles flex-col items-center justify-center text-center">
+            <Link href="#contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XalWRyGySCcLhysHXzag2euHKe9XJLJ2ECvGamNo4K3vDChc~TdtBQ6PGohfMop7LnxFaQoLXJz3gkXOXb5fadDpCCAmjHHwzORuWuAifG7XVNtL0nMP2BfWvbscwdFGujN6DIL9jdYxgnWOttCN5Mv0iRVmkTUIho-4fmmfs-64qUjLAq98AjFj5hjrHXCVxu0LQGHfwIVhrDzT~6UR9EcKKpJ4ILVsUYbZBJ-FFDsDIH8cfNgVqFHqSjcEsjC-f9wC4g0M7MWO4PxrRb2n9eyTIEslN4jgVK0oSUZAebz655f0BhooRCC7UdtJyoPhb1vvRmt9z5W72dT-TB4k4g__"
@@ -271,9 +274,9 @@ const Header = () => {
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Mail
               </p>
-            </div>
+            </Link>
 
-            <div className="fles flex-col items-center justify-center text-center">
+            <Link href="/contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white py-[16px] px-[32px]">
                 <p className="text-[14px] font-bold leading-[120%] -tracking-[0.28px] text-darkBlue whitespace-nowrap">
                   Get in Touch
@@ -282,7 +285,7 @@ const Header = () => {
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Let Us Call You
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

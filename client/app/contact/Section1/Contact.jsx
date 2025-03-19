@@ -4,7 +4,7 @@ import Main from "../Image/ContactMain.png";
 
 const Contact = () => {
   return (
-    <div className="w-full h-[375px] sm:h-[400px] md:h-[500px] lg:h-[570px] relative bg-[#080612] ">
+    <div id='contact' className="w-full h-[375px] sm:h-[400px] md:h-[500px] lg:h-[570px] relative bg-[#080612] ">
       {/* Arkaplan Resmi */}
       <Image 
         src={Main} 

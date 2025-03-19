@@ -3,6 +3,7 @@ import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import Contact from '@/app/components/Section6/ContactMain.jsx'
 
 const servicesData = [
   {
@@ -70,6 +71,7 @@ const page = () => {
       <StepSection header="Content" header2="Creation" text=" We'll develop a strategic social media plan aligned with your business objectives, identifying key target audiences, platforms, and messaging strategies. Our team will create engaging and relevant content, including posts, images, videos, and stories, designed to resonate with your audience and drive engagement." servicesData={servicesData}/>
       <VerticalSlider/>
       <QuestionsSection/>
+      <Contact/>
     </div>
   )
 }

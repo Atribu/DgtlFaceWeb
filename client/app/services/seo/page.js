@@ -3,6 +3,7 @@ import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import Contact from '@/app/components/Section6/ContactMain.jsx'
 
 const servicesData = [
   {
@@ -70,6 +71,7 @@ const page = () => {
       <StepSection header="Head up on" header2="Search" text="  Evolve your online visibility and organic traffic with Search Engine Optimization (SEO) services. DGTLFACE ensures your website remains visible to competitive and ideal customers by staying updated with search engine algorithm updates." servicesData={servicesData}/>
       <VerticalSlider/>
       <QuestionsSection/>
+      <Contact/>
     </div>
   )
 }
