@@ -5,9 +5,9 @@ import Gradyan from "../Image/gradyan.png";
 
 const Section1 = () => {
   return (
-    <div className="w-full h-[55vh] lg:min-h-screen bg-[#140f25] flex flex-col md:flex-row items-center justify-center p-5 relative">
+    <div className="w-full h-[55vh] lg:min-h-screen bg-[#140f25] flex flex-col md:flex-row items-center justify-center p-5 relative overflow-hidden">
       {/* Gradyan Resmi Eklendi */}
-      <div className="absolute inset-x-0 bottom-0 z-20">
+      <div className="absolute inset-x-0 bottom-0 z-20 overflow-hidden">
         <Image 
           src={Gradyan} 
           alt="Gradyan" 
@@ -19,7 +19,7 @@ const Section1 = () => {
       </div>
 
       {/* Image Section */}
-      <div className='flex w-[50%] h-auto md:w-1/2 items-center justify-center mt-[-50px] md:mt-[-80px] ml-8 md:ml-28 z-10'>
+      <div className='flex w-[50%] h-auto md:w-1/2 items-center justify-center mt-[-20px] md:mt-[-80px] ml-8 md:ml-28 z-10'>
         <Image 
           src={Block} 
           alt="Background" 

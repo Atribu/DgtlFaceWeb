@@ -6,11 +6,10 @@ import ContactMain from '../components/Section6/ContactMain.jsx'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col overflow-hidden gap-[50px] lg:gap-[100px]'>
         <Contact />
         <AltSection />
         <Location />
-        <ContactMain />
     </div>
   )
 }

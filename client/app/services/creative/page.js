@@ -1,8 +1,8 @@
 import React from 'react'
-import MainBanner from '../components/subPageComponents/MainBanner'
-import StepSection from '../components/subPageComponents/StepSection'
-import QuestionsSection from '../components/subPageComponents/QuestionsSection'
-import VerticalSlider from '../components/subPageComponents/VerticalSlider'
+import MainBanner from '../../components/subPageComponents/MainBanner'
+import StepSection from '../../components/subPageComponents/StepSection'
+import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
+import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 
 const servicesData = [
   {
