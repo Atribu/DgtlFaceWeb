@@ -90,7 +90,7 @@ const Section5 = () => {
   }, []);
 
   return (
-    <div className='flex flex-col items-center w-full min-h-[600px]gap-4 lg:gap-8 overflow-visible '>
+    <div className='flex flex-col items-center w-full lg:min-h-[600px] gap-4 lg:gap-8 overflow-visible '>
       {/* Başlık */}
       <div className="text-center justify-center gap-[3px] lg:gap-[8px]">
         <span className="text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">

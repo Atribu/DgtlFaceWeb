@@ -49,7 +49,7 @@ const Section4 = () => {
       {/* Pricing Section */}
       <div className='flex flex-col items-center justify-center gap-5 mt-[67px] lg:mt-32 w-[90%]'>
         <div className="text-center justify-center text-[#140f25] text-[24px] lg:text-[56px] font-bold font-['Inter'] capitalize leading-[120%] lg:leading-[61.60px]">Pricing</div>
-        <div className="w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-['Inter'] leading-[130%] lg:leading-tight -tracking-[0.42px] lg:tracking-[0.28px]">Don't be intimidated by the costs, call us and let us explain everything in detail. Get a single price and do not pay additional fees during its validity.</div>
+        <div className="w-[86%] md:w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-['Inter'] leading-[130%] lg:leading-tight -tracking-[0.42px] lg:tracking-[0.28px]">Don't be intimidated by the costs, call us and let us explain everything in detail. Get a single price and do not pay additional fees during its validity.</div>
       </div>
 
       {/* Tuşu En Alta Yerleştir */}

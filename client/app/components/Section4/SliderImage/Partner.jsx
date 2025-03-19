@@ -54,11 +54,12 @@ const Partner = () => {
           const isCenter = index === currentIndex;
           return (
             <div className={`embla__slide ${isCenter ? 'slide--hover' : ''}`} key={index}>
-              <Image
+             <Image
                 src={isCenter ? image.hoverSrc : image.src}
                 alt={image.alt}
-                fill
-                style={{ objectFit: 'contain', cursor: isCenter ? 'pointer' : 'default' }}
+                width={148}
+                height={32}
+                style={{ objectFit: 'cover', cursor: isCenter ? 'pointer' : 'default' }}
               />
             </div>
           );
@@ -87,7 +88,7 @@ const Partner = () => {
         }
 
         .slide--hover {
-          transform: scale(1.3);
+          transform: scale(1.6);
         }
 
         @media (min-width: 769px) {

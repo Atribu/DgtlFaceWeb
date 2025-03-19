@@ -18,6 +18,7 @@ const Header = () => {
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
   const [color, setColor] = useState("rgb(255, 255, 255)");
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +57,7 @@ const Header = () => {
   }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
   return (
-    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[54.5px] z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
+    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
       <Logo className="w-auto hidden lg:flex" width={219} height={54.454} />
 
@@ -91,9 +92,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/services" className="hover:text-gray-300">
+            <button   onClick={() => setIsServicesOpen(!isServicesOpen)} href="/services" className="hover:text-gray-300 focus:outline-none">
               Services
-            </a>
+            </button>
           </li>
           <li>
             <a href="/aboutus" className="hover:text-gray-300">
@@ -112,6 +113,36 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      {isServicesOpen && (
+        <div className="hidden lg:flex absolute top-full left-[18%] transform  mt-2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10">
+          <div className="grid grid-cols-2 gap-4">
+            <Link href="/services/creative" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
+            Creative
+            </Link>
+            <Link href="/services/callcenter" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Call Center
+            </Link>
+            <Link href="/services/pms" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            PMS & OTA Managment
+            </Link>
+            <Link href="/services/sem" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Marketing
+            </Link> 
+            <Link href="/services/seo" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Optimization
+            </Link>
+            <Link href="/services/smm" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Social Media Marketing
+            </Link>
+            <Link href="/services/software" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Information Technology & Software
+            </Link>
+            <Link href="/services/digitalAnalysis" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Digital Analysis & Reporting
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* Örnek Buton */}
       <button className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
