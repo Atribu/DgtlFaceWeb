@@ -3,6 +3,7 @@ import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import Contact from '@/app/components/Section6/ContactMain.jsx'
 
 const servicesData = [
   {
@@ -70,6 +71,7 @@ const page = () => {
       <StepSection header="Powerful Team in " header2="All Areas" text="We provide fast and effective interventions to your customer problems with our call center service and talented call center team." servicesData={servicesData}/>
       <VerticalSlider/>
       <QuestionsSection/>
+      <Contact/>
     </div>
   )
 }

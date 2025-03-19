@@ -4,6 +4,7 @@ import Section2 from './Section2/Section2'
 import Section3 from './Section3/Section3'
 import Section4 from './Section4/Section4'
 import QuestionsSection from '../components/subPageComponents/QuestionsSection'
+import Contact from '../components/Section6/ContactMain.jsx'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
         <Section2 />
         <Section3 />
         <QuestionsSection/>
+        <Contact/>
     </div>
   )
 }

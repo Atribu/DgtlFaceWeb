@@ -9,6 +9,7 @@ import Section4 from "./components/Section4/Section4";
 import WhyUsSection from "./components/Section5/WhyUsSection";
 // import ThreeAnimation from "./components/Square/ThreeAnimation";
 import dynamic from 'next/dynamic';
+import Contact from "./components/Section6/ContactMain.jsx";
 
 const MyThreeScene = dynamic(() => import("./components/MtThreeScene"), {
   ssr: false,
@@ -31,7 +32,7 @@ export default function HomePage() {
         {/* <ServicesCarousel/> */}
         <Section4 />
         <WhyUsSection />
-        
+        <Contact/>
       </div>
     </main>
   );

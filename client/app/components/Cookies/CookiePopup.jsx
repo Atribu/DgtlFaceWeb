@@ -16,7 +16,7 @@ const ModalPortal = ({ children, onClose }) => {
       onClick={onClose}>
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-[90%] h-screen lg:w-[715px] lg:h-[651px] rounded-[22px] border border-[#54B9CF] bg-[rgba(20,15,37,0.5)] backdrop-blur-[50px]"
+        className="w-screen h-screen lg:w-[715px] lg:h-[651px] rounded-none lg:rounded-[22px]  bg-[rgba(20,15,37,0.5)] backdrop-blur-[50px]"
       >
         {children}
       </div>
@@ -94,7 +94,7 @@ const CookiePopup = () => {
       setCookies(allDenied);
       savePreferences(allDenied);
       console.log("Tüm Çerezler Reddedildi:", allDenied);
-      setIsVisible(true);
+      setIsVisible(false);
     }
 
   const handleToggle = (type) => {
@@ -212,7 +212,9 @@ const loadPreferences = () => {
   <div
     className="w-[32px] h-[20px] flex items-center justify-end rounded-full gradient1"
   >
-    <div className="w-[14px] h-[14px] bg-white rounded-full" />
+    <div className={`w-[14px] h-[14px] bg-white rounded-full transition-transform duration-300 ${
+              cookies.performance ? "-translate-x-1" : "-translate-x-1"
+            }`} />
   </div>
 </div>
       <LineSvg className="flex" width={415} height={2} />
@@ -491,7 +493,7 @@ const loadPreferences = () => {
   return (
     isVisible && (
       <div className="fixed flex z-[9999] bottom-0  right-0 left-0 w-screen  items-center justify-center">
-        <div className="flex items-center justify-center w-screen lg:w-[85%] max-w-[1232px] border gradient-border-button !bg-[rgba(20,15,37,0.5)] !backdrop-blur-[5px] rounded-[22px]">
+        <div className="flex items-center justify-center w-screen lg:w-[85%] max-w-[1232px] border relative gradient-cookie-button !bg-[rgba(20,15,37,0.5)] !backdrop-blur-[5px] rounded-none lg:rounded-[22px]">
           <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[90%] py-[22px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-inter">
             <p className="md:hidden text-[13px] leading-[130%] text-[#FBFBFB] font-normal font-inter text-center md:min-w-[39%]">
               <span className="font-bold text-[15px]">We Use Cookies:</span> We
@@ -531,7 +533,7 @@ const loadPreferences = () => {
 
               <button
                 onClick={handleModalToggle}
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] px-[32px] cursor-pointer col-span-2 rounded-[14px] w-[250px]"
+                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap  px-[32px] cursor-pointer col-span-2 rounded-[14px] w-[250px]"
               >
                 Manage Cookie Preferences
               </button>
@@ -551,6 +553,7 @@ const loadPreferences = () => {
                         className="flex items-center justify-center"
                         width={56}
                         height={49}
+                        color="#fff"
                       />
                       <div className="hidden lg:flex flex-row w-[98%] md:w-[90%] lg:w-auto text-center items-center text-[16px] font-bold ml-[11%] lg:ml-0 gap-[23px] h-[29px]">
                         {[
@@ -579,16 +582,16 @@ const loadPreferences = () => {
                       </button>
                     </div>
                     <div className="flex flex-col gap-4 items-center justify-center pb-2 lg:pb-0 md:h-[100%] text-[#FBFBFB] max-w-screen  h-auto">
-                      <div className="flex flex-col w-[75%] sm:w-[90%] lg:w-[100%] justify-center items-center lg:items-center lg:justify-start gap-[14.5px] lg:gap-[15px] ">
-                        <div className="flex flex-row lg:hidden h-[388px] text-start text-[16px] lg:-ml-[4%] font-bold gap-[10px] w-[90%] lg:w-[100%] lg:mb-[36px] items-center justify-start overflow-x-hidden scrollbar-thin">
+                      <div className="flex flex-col w-[82%] sm:w-[90%] lg:w-[100%] justify-center items-center lg:items-center lg:justify-start gap-[14.5px] lg:gap-[15px] ">
+                        <div className="flex flex-row lg:hidden text-start text-[16px] ml-0 lg:-ml-[4%] font-bold gap-[10px] w-[99%] lg:w-[100%] lg:mb-[36px] items-center justify-start overflow-x-scroll scrollbar-thin">
                           {orderedButtons.map((button) => (
                             <button
                               key={button.id}
                               onClick={() => setSelectedContent(button.id)}
                               className={
                                 selectedContent === button.id
-                                  ? "text-white text-[16px] font-inter leading-normal font-medium w-fit cursor-pointer pt-[10px] px-[10px] border-b whitespace-nowrap items-start justify-start text-start h-[48px] lg:h-[37px]"
-                                  : "text-[16px] font-inter leading-normal font-medium text-[#fff] whitespace-nowrap cursor-pointer pt-[10px] px-[10px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit"
+                                  ? " text-[14px] lg:text-[16px] font-inter leading-normal font-medium w-fit cursor-pointer pt-[10px] px-[5px] border-b whitespace-nowrap items-start justify-start text-start h-[48px] lg:h-[37px] bg-gradient-to-r from-[#54B9CF] via-[#547CCF] to-[#A754CF] bg-clip-text text-transparent"
+                                  : "text-[12px] lg:text-[16px] font-inter leading-normal font-medium text-[#fff] whitespace-nowrap cursor-pointer pt-[10px] px-[5px] border-none items-start justify-start text-start h-[48px] lg:h-[37px] w-fit"
                               }
                             >
                               {button.label}
@@ -601,21 +604,21 @@ const loadPreferences = () => {
                           {/* İçerik */}
                           {contents[selectedContent]}
                         </div>
-                        <LineSvg2 className="flex" />
-                        <div className=" hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] lg:mt-[22px] font-inter">
-                          <button  onClick={handleConfirm} className=" gradient-border-button text-[15px] font-medium leading-normal text-[#fff] px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center h-[42px] w-[44vw]">
+                        <LineSvg2 className="hidden lg:flex" />
+                        <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] lg:mt-[22px] font-inter">
+                          <button  onClick={handleConfirm} className="flex gradient-border-button text-[15px] font-medium leading-normal text-[#fff] px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center h-[42px] w-[44vw]">
                             Confirm My Choices
                           </button>
-                          <button className=" gradient-border-button text-[15px] font-medium leading-normal text-[#fff]  px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center w-[44vw] h-[42px]">
+                          <button className="flex gradient-border-button text-[15px] font-medium leading-normal text-[#fff]  px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center w-[44vw] h-[42px]">
                             Accept All Cookies
                           </button>
                         </div>
 
-                        <div className="gradient-border-button absolute bottom-[14vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-inter">
-                          <button  onClick={handleConfirm} className="text-[12px] font-medium leading-normal text-[#FBFBFB] px-[32px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw]  h-[42px]">
+                        <div className=" absolute bottom-[8vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-inter">
+                          <button  onClick={handleConfirm} className="relative gradient-cookie-button flex text-[12px] items-center justify-center font-medium leading-normal text-[#FBFBFB] px-[32px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]">
                             Confirm My Choices
                           </button>
-                          <button className="gradient-border-button text-[12px] font-medium leading-normal text-[#FBFBFB] px-[32px] py-[16px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw]  h-[42px]">
+                          <button className="text-[12px] gradient-cookie-button relative font-medium flex items-center justify-center leading-normal text-[#FBFBFB] px-[32px] py-[16px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw]  h-[42px]">
                             Accept All Cookies
                           </button>
                         </div>

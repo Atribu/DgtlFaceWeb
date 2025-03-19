@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
+import Link from "next/link";
 
 const Section3 = () => {
   const [blocksOrder, setBlocksOrder] = useState([
@@ -55,26 +56,44 @@ const Section3 = () => {
       <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
-          <ServiceBlocks    blocksOrder={blocksOrder} rotate={true}
+         <div className="hidden lg:flex">
+         <ServiceBlocks    blocksOrder={blocksOrder} rotate={true}
           blockPositions={blockPositions}/>
+         </div>
        
         <div className="flex flex-col text-start items-start justify-center h-full ">
           <h3 className=" flex flex-row lg:flex-col gap-2 text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             <span className="text-white">Our</span>
-            <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[24px] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
               Services
             </span>
           </h3>
 
           <div className="flex flex-col gap-2">
-            <p className="font-inter28 text-[14px] text-white font-normal leading-[130%] -tracking-[0.28px]">
+            <p className="flex flex-col lg:hidden font-inter28 text-sm text-white font-normal leading-tight "> 
+              Dive into the world of digital excellence with DGTLFACE. We are
+              not just an agency; we are the architects of online
+              success. Transform your brand with our  innovative
+              strategies, captivating visuals and resonant digital presence.
+              Unleash excellence; Choose us as your digital partner.
+              <br></br>
+              <span className="opacity-50 line-clamp-2">
+              Clicks are just the beginning; conversions are our destination. At
+              DGTLFACE, we navigate the digital landscape with precision,
+              turning every interaction into a conversion. Join us on the
+              journey where your brand not only gets noticed but {" "}
+              remembered.
+              </span>
+            </p>
+
+            <p className="font-inter28 text-[14px] lg:text-[18px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex">
               Dive into the world of digital excellence with DGTLFACE. We are
               not just an <br /> agency; we are the architects of online
               success. Transform your brand with our <br /> innovative
               strategies, captivating visuals and resonant digital presence.
               Unleash <br /> excellence; Choose us as your digital partner.
             </p>
-            <p className="font-inter28 text-sm text-white font-normal leading-tight">
+            <p className="font-inter28 text-sm lg:text-[18px] text-white font-normal leading-tight hidden lg:flex">
               Clicks are just the beginning; conversions are our destination. At
               DGTLFACE, we <br /> navigate the digital landscape with precision,
               turning every interaction into a <br /> conversion. Join us on the
@@ -83,9 +102,9 @@ const Section3 = () => {
             </p>
           </div>
 
-          <button className="mt-3 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
+          <Link href="/services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
             Explore
-          </button>
+          </Link>
           <style jsx>{`
             .gradient-border-button {
               position: relative;

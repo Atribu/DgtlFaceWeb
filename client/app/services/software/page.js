@@ -3,6 +3,7 @@ import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import Contact from '@/app/components/Section6/ContactMain.jsx'
 
 const servicesData = [
   {
@@ -70,6 +71,7 @@ const page = () => {
       <StepSection header="Code Craftsmanship for" header2="Digital Excellence" text=" At DGTLFACE, we don't just create websites; We create digital masterpieces that tell your brand story, fascinate your customers and drive results. Join us to shape your brand's online presence." servicesData={servicesData}/>
       <VerticalSlider/>
       <QuestionsSection/>
+      <Contact/>
     </div>
   )
 }

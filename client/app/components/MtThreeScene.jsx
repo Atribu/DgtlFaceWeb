@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
@@ -261,7 +262,7 @@ export default function MyThreeScene() {
           DGTLFACE Digital Technology Partner offers high-quality <br />
           and cost-effective digital marketing solutions tailored to<br></br> each business.
         </p>
-        <button className="gradient-border-button w-[114px] h-[42px] text-[14px] font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] ">Explore</button>
+        <Link href="/aboutus" className="flex items-center gradient-border-button w-[114px] h-[42px] text-[14px] font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] ">Explore</Link>
         <style jsx>{`
         .gradient-border-button {
           position: relative;
