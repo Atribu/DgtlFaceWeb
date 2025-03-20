@@ -9,8 +9,6 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
   const [status, setStatus] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-
-
   return (
     <div className="flex w-screen h-auto items-center justify-center">
       <div className="flex flex-col items-center justify-center w-[90%] xl:w-[85%] 2xl:w-[65%] gap-[34px] lg:gap-[68px] font-inter">
@@ -73,7 +71,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
                   </div>
                 ))}
                 <Link
-                  href="/"
+                  href={card.buttonLink}
                   className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform opacity-0  group-hover:opacity-100 group-hover:translate-y-24 transition-all duration-500"
                 >
                   Explore

@@ -533,7 +533,7 @@ const loadPreferences = () => {
 
               <button
                 onClick={handleModalToggle}
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap  px-[32px] cursor-pointer col-span-2 rounded-[14px] w-[250px]"
+                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap  px-[32px] cursor-pointer col-span-2 rounded-[14px] lg:w-[250px]"
               >
                 Manage Cookie Preferences
               </button>

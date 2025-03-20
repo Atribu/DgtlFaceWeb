@@ -50,10 +50,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Creative{" "}
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Services
               </span>
             </div>
@@ -70,10 +70,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Callcenter{" "}
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Services
               </span>
             </div>
@@ -90,10 +90,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 PMS & OTA<br />
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Setup Services
               </span>
             </div>
@@ -110,10 +110,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Search Engine Optimization<br />
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 (SEO) Services
               </span>
             </div>
@@ -130,10 +130,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Search Engine Marketing<br />
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 (SEM) Services
               </span>
             </div>
@@ -150,10 +150,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 Social Media Marketing<br />
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-[120%] -tracking-[0.82px]">
                 (SMM) Services
               </span>
             </div>
@@ -170,10 +170,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-10">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-10">
                 Information Technologies<br />
               </span>
-              <span className="text-purple-500 text-[41px] font-bold font-inter leading-10">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-10">
                 (IT) & Software Services
               </span>
             </div>
@@ -190,10 +190,10 @@ const VerticalSlider = () => {
         (
           <div className="flex flex-col justify-center items-start gap-2">
             <div className="justify-center">
-              <span className="text-Main-White text-[30px] lg:text-[41px] font-bold font-inter leading-10">
+              <span className="text-Main-White text-[20px] lg:text-[41px] font-bold font-inter leading-10">
                 Digital Analysis<br />
               </span>
-              <span className="text-purple-500 text-[30px] lg:text-[41px] font-bold font-inter leading-10">
+              <span className="text-purple-500 text-[20px] lg:text-[41px] font-bold font-inter leading-10">
                 & Reporting Services
               </span>
             </div>

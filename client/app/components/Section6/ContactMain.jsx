@@ -38,7 +38,7 @@ const handleMobileChange = (e) => {
   const { name, value, type, checked } = e.target;
   setFormMobile({
     ...formMobile,
-    [name]: type === 'checkbox' ? checked : value
+    [e.target.name]: e.target.value
   });
 };
 
@@ -402,9 +402,8 @@ const handleMobileSubmit = async (e) => {
                 Phone Number;
               </label>
               <input
-                type="text"
-                name="name"
-                value={formMobile.name}
+                name="phone"
+                value={formMobile.phone}
                 onChange={handleMobileChange}
                 placeholder="+....... ( ............ ) ......................................"
                 className="w-full py-[10px] bg-transparent border-dotted border rounded-[10px]  border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
@@ -417,8 +416,8 @@ const handleMobileSubmit = async (e) => {
               </label>
               <input
                 type="text"
-                name="name"
-                value={formMobile.name}
+                name="message"
+                value={formMobile.message}
                 onChange={handleMobileChange}
                 placeholder=""
                 className="w-full px-[20px] py-[10px] bg-transparent !border-dotted rounded-[10px] border border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"

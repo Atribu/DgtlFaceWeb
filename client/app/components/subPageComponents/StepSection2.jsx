@@ -1,87 +1,114 @@
 import Image from 'next/image'
 import React from 'react'
-import image1 from "./images/image1.png"
-import image2 from "./images/image2.png"
-import image3 from "./images/image3.png"
-import image4 from "./images/image4.png"
+import LongLineSvg from './LongLineSvg'
 
-const StepSection2 = () => {
+const StepSection2 = ({data}) => {
   return (
     <div className='flex w-screen h-auto items-center justify-center bg-[#080612]'>
-      <div className='flex flex-col w-[80%] items-center justify-center gap-[122px]'>
+      <div className='flex flex-col w-[80%] items-end lg:items-center justify-center lg:justify-center gap-[50px] lg:gap-[122px] relative'>
         
+       <LongLineSvg className="absolute top-0 left-0 lg:left-1/2 -translate-x-1/2 z-[10]"/>
 
-        <div className='flex items-center justify-between w-full gap-[2%]'>
+       <div className='flex flex-col lg:flex-row items-center justify-between w-[90%] lg:w-full gap-[18px] lg:gap-[2%] z-[20]'>
+            <div className='relative group w-full lg:w-[38%] h-auto items-end justify-end'>
             <Image
-            src={image1}
+            src={data[0].image}
             alt='logodesign'
-            width={image1.width}
-            height={image1.height}
-            className='rounded-[22px] flex w-[38%]'/>
+            width={data[0].image.width}
+            height={data[0].image.height}
+            className='rounded-[22px] flex'/>
 
-            <div className='flex items-center justify-center w-[30%]'>
-            <div className='flex w-[111px] h-[86px] bg-white text-darkBlue text-[48px] font-bold leading-[120%] -tracking-[0.96px] rounded-[22px] items-center justify-center'>01</div>
+         <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 lg:w-[464px]" />
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-[32px] w-[38%]'>
-                <button className='gradient-cookie-button relative flex border px-[136px] py-[24px] !text-[32px] !font-bold !leading-[120%] !-trackign-[0.64px]'>Logo Design</button>
-                <p className='text-[16px] font-normal leading-[140%] -tracking-[0.32px]'>The most important starting point in quality branding is logodor. The first impression is very important and the first element of your website, business card or signboard that catches the eye is the logo.</p>
+            <div className='absolute left-0 lg:left-1/2 -translate-x-1/2 items-center justify-center '>
+            <div className='flex p-[10px] lg:p-0 lg:w-[111px] lg:h-[86px] bg-white text-darkBlue text-[16px] lg:text-[48px] font-bold leading-[120%] -tracking-[0.32px] lg:-tracking-[0.96px] rounded-[10px] lg:rounded-[22px] items-center justify-center'>01</div>
+            </div>
+
+            <div className='flex flex-col items-center justify-center gap-[32px] lg:w-[38%]'>
+                <button className='gradient-cookie-button relative flex border w-full py-[16px] px-auto items-center justify-center lg:px-[136px] lg:py-[24px] !text-[14px] lg:!text-[32px] !font-bold !leading-[120%] !-trackign-[0.28px] lg:!-trackign-[0.64px]'>{data[0].header}</button>
+                <p className='text-[12px] lg:text-[16px] font-normal leading-[130%] lg:leading-[140%] -tracking-[0.36px] lg:-tracking-[0.32px] text-white w-[80%]'>{data[0].text}</p>
             </div>
         </div>
 
 
-        <div className='flex items-center justify-between w-full gap-[75px]'>
-            <div className='flex flex-col items-center justify-center gap-[32px] w-[32%]'>
-            <button className='gradient-cookie-button relative flex border px-[136px] py-[24px] !text-[32px] !font-bold !leading-[120%] !-trackign-[0.64px]'>Brand Guidline</button>
-                <p className='text-[16px] font-normal leading-[140%] -tracking-[0.32px]'>The most important starting point in quality branding is logodor. The first impression is very important and the first element of your website, business card or signboard that catches the eye is the logo.</p>
+        <div className='flex flex-col lg:flex-row items-center justify-between w-[90%] lg:w-full gap-[18px] lg:gap-[2%] z-[20]'>
+            <div className='flex flex-col items-center justify-center lg:gap-[32px] lg:w-[32%]'>
+            <button className='gradient-cookie-button relative flex border w-full py-[16px] px-auto items-center justify-center lg:px-[136px] lg:py-[24px] !text-[14px] lg:!text-[32px] !font-bold !leading-[120%] !-trackign-[0.28px] lg:!-trackign-[0.64px]'>{data[1].header}</button>
+                <p className='text-[12px] lg:text-[16px] font-normal leading-[130%] lg:leading-[140%] -tracking-[0.36px] lg:-tracking-[0.32px] text-white w-[80%] mt-[18px] lg:mt-0'>{data[1].text}</p>
             </div>
-            <div className='flex px-[49px]'>
-            <div className='flex w-[111px] h-[86px] bg-white text-darkBlue text-[48px] rounded-[22px] font-bold leading-[120%] -tracking-[0.96px] items-center justify-center'>02</div>
+
+            <div className='absolute left-0 lg:left-1/2 -translate-x-1/2 items-center justify-center '>
+            <div className='flex p-[10px] lg:p-0 lg:w-[111px] lg:h-[86px] bg-white text-darkBlue text-[16px] lg:text-[48px] font-bold leading-[120%] -tracking-[0.32px] lg:-tracking-[0.96px] rounded-[10px] lg:rounded-[22px] items-center justify-center'>02</div>
             </div>
            
+            <div className='relative group w-full lg:w-[38%] h-auto items-end justify-end flex'>
             <Image
-            src={image2}
+            src={data[1].image}
             alt='logodesign'
-            width={image2.width}
-            height={image2.height}
-            className='rounded-[22px] flex'/>
-        </div>
+            width={data[1].image.width}
+            height={data[1].image.height}
+            className='rounded-[22px] flex '/>
 
-
-        <div className='flex items-center justify-between w-full gap-[75px]'>
-            <Image
-            src={image3}
-            alt='logodesign'
-            width={image3.width}
-            height={image3.height}
-            className='rounded-[22px] flex'/>
-
-            <div className='flex px-[49px]'>
-            <div className='flex w-[111px] h-[86px] bg-white text-darkBlue text-[48px] rounded-[22px] font-bold leading-[120%] -tracking-[0.96px] items-center justify-center'>03</div>
-            </div>
-            <div className='flex flex-col items-center justify-center gap-[32px] w-[32%]'>
-            <button className='gradient-cookie-button relative flex border px-[136px] py-[24px] !text-[32px] !font-bold !leading-[120%] !-trackign-[0.64px]'>Social Media Graphics</button>
-                <p className='text-[16px] font-normal leading-[140%] -tracking-[0.32px]'>The most important starting point in quality branding is logodor. The first impression is very important and the first element of your website, business card or signboard that catches the eye is the logo.</p>
+    <div className="absolute top-0 bottom-0 right-0 rounded-[22px]
+    bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)]
+    mix-blend-color
+    transition-all
+    group-hover:opacity-80 lg:w-[464px]" />
             </div>
         </div>
 
+         <div className='flex flex-col lg:flex-row items-center justify-between w-[90%] lg:w-full gap-[18px] lg:gap-[2%] z-[20]'>
+            <div className='relative group w-full lg:w-[38%] h-auto'>
+            <Image
+            src={data[2].image}
+            alt='logodesign'
+            width={data[2].image.width}
+            height={data[2].image.height}
+            className='rounded-[22px] flex '/>
 
-        <div className='flex items-center justify-between w-full gap-[75px]'>
-            <div className='flex flex-col items-center justify-center gap-[32px] w-[32%]'>
-            <button className='gradient-cookie-button relative flex border px-[136px] py-[24px] !text-[32px] !font-bold !leading-[120%] !-trackign-[0.64px]'>Creating & Editing
-            Motionography</button>
-                <p className='text-[16px] font-normal leading-[140%] -tracking-[0.32px]'>The most important starting point in quality branding is logodor. The first impression is very important and the first element of your website, business card or signboard that catches the eye is the logo.</p>
+    <div className="absolute inset-0 rounded-[22px]
+    bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)]
+    mix-blend-color
+    transition-all
+    group-hover:opacity-80 lg:w-[464px]" />
             </div>
-            <div className='flex px-[49px]'>
-            <div className='flex w-[111px] h-[86px] bg-white text-darkBlue text-[48px] rounded-[22px] font-bold leading-[120%] -tracking-[0.96px] items-center justify-center'>04</div>
+
+            <div className='absolute left-0 lg:left-1/2 -translate-x-1/2 items-center justify-center '>
+            <div className='flex p-[10px] lg:p-0 lg:w-[111px] lg:h-[86px] bg-white text-darkBlue text-[16px] lg:text-[48px] font-bold leading-[120%] -tracking-[0.32px] lg:-tracking-[0.96px]  rounded-[10px] lg:rounded-[22px] items-center justify-center'>03</div>
+            </div>
+
+            <div className='flex flex-col items-center justify-center lg:gap-[32px] lg:w-[38%]'>
+                <button className='gradient-cookie-button relative flex border w-full py-[16px] px-auto items-center justify-center lg:px-[136px] lg:py-[24px] !text-[14px] lg:!text-[32px] !font-bold !leading-[120%] !-trackign-[0.28px] lg:!-trackign-[0.64px]'>{data[2].header}</button>
+                <p className='text-[12px] lg:text-[16px] font-normal leading-[130%] lg:leading-[140%] -tracking-[0.36px] lg:-tracking-[0.32px] text-white w-[80%]'>{data[2].text}</p>
+            </div>
+        </div>
+
+
+        <div className='flex flex-col lg:flex-row items-center justify-between w-[90%] lg:w-full gap-[18px] lg:gap-[2%] z-[20]'>
+            <div className='flex flex-col items-center justify-center lg:gap-[32px] lg:w-[32%]'>
+            <button className='gradient-cookie-button relative flex border w-full py-[16px] px-auto items-center justify-center lg:px-[136px] lg:py-[24px] !text-[14px] lg:!text-[32px] !font-bold !leading-[120%] !-trackign-[0.28px] lg:!-trackign-[0.64px] max-h-[118px]'>{data[3].header} <br/>
+            </button>
+                <p className='text-[12px] lg:text-[16px] font-normal leading-[130%] lg:leading-[140%] -tracking-[0.36px] lg:-tracking-[0.32px] text-white w-[80%] mt-[18px] lg:mt-0'>{data[3].text}</p>
+            </div>
+            <div className='absolute left-0 lg:left-1/2 -translate-x-1/2 items-center justify-center '>
+            <div className='flex p-[10px] lg:p-0 lg:w-[111px] lg:h-[86px] bg-white text-darkBlue text-[16px] lg:text-[48px] font-bold leading-[120%] -tracking-[0.32px] lg:-tracking-[0.96px]  rounded-[10px] lg:rounded-[22px] items-center justify-center'>04</div>
             </div>
            
+            <div className='relative group w-full lg:w-[38%] h-auto items-end justify-end flex'>
             <Image
-            src={image4}
-            alt='logodesign'
-            width={image4.width}
-            height={image4.height}
-            className='rounded-[22px] flex'/>
+          src={data[3].image}
+          alt='logodesign'
+          width={data[3].image.width}
+          height={data[3].image.height}
+            className='rounded-[22px] flex '/>
+
+    <div className="absolute top-0 bottom-0 right-0 rounded-[22px]
+    bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)]
+    mix-blend-color
+    transition-all
+    group-hover:opacity-80 lg:w-[464px]" />
+            </div>
         </div>
 
 

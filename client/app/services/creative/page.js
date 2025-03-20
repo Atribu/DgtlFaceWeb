@@ -14,8 +14,10 @@ const servicesData = [
       "Logo Design",
       "Brand Guidelines",
       "Social Media Graphics",
-      "Creating and Editing Motionography",
+      "Creating and Editing Motionography"
+      
     ],
+    buttonLink:"/services/creative/graphicDesign"
   },
   {
     id: 2,
@@ -27,6 +29,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+     buttonLink:"/services/creative/uiUxDesign"
   },
   {
     id: 3,
@@ -38,6 +41,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+     buttonLink:"/services/creative/videoProduction"
   },
   {
     id: 4,
@@ -49,6 +53,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+     buttonLink:"/services/creative/eventProduction"
   },
 
   {
@@ -61,6 +66,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+     buttonLink:"/services/creative/corporateGift"
   },
 ];
 
@@ -72,7 +78,7 @@ const page = () => {
             texture. Join the innovation symphony where dreams turn into design.
             Your vision, our craft." servicesData={servicesData}/>
       <VerticalSlider/>
-      <QuestionsSection/>
+      <QuestionsSection color="#140F25"/>
       <Contact/>
     </div>
   )

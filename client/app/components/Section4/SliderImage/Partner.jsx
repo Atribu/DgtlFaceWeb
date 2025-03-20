@@ -29,7 +29,7 @@ const Partner = () => {
     { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 8' },
   ];
 
-  const autoplayOptions = { delay: 4500, stopOnInteraction: true };
+  const autoplayOptions = { delay: 4000, stopOnInteraction: true };
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, slidesToScroll: 1, containScroll: 'trimSnaps' },
     [Autoplay(autoplayOptions)]
@@ -107,8 +107,8 @@ const Partner = () => {
 
         @media (max-width: 480px) {
           .embla__slide {
-            width: calc((100% - 20px) / 2);
-            height: 70px;
+            width: calc((100% - 1px) / 2);
+            height: 110px;
           }
         }
       `}</style>
