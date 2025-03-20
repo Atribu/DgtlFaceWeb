@@ -12,7 +12,7 @@ const page = () => {
         <Section1 />
         <Section2 />
         <Section3 />
-        <QuestionsSection/>
+        <QuestionsSection color="#140F25"/>
         <Contact/>
     </div>
   )

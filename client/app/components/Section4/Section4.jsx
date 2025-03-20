@@ -14,7 +14,7 @@ const Section4 = () => {
           How can we help you?
         </p>
       </div>
-      <div className="w-4/6 flex h-30vh justify-center items-center mt-6">
+      <div className="w-[90%] lg:w-4/6 flex h-[18vh] lg:h-30vh justify-center items-center mt-6">
         <Partner />
       </div>
     </div>

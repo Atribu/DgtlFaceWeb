@@ -14,6 +14,13 @@ const ContactMain = () => {
     additionalInfo2: ''
   });
 
+  const [formMobile, setFormMobile] = useState({
+    name: '',
+    phone: '',
+    message: '',
+    policyAccepted: false
+  });
+
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState('');
@@ -25,6 +32,16 @@ const ContactMain = () => {
       [e.target.name]: e.target.value
     });
   };
+
+// Mobil input değişim handler'ı
+const handleMobileChange = (e) => {
+  const { name, value, type, checked } = e.target;
+  setFormMobile({
+    ...formMobile,
+    [e.target.name]: e.target.value
+  });
+};
+
   
   // Form gönderim işlemi
   const handleSubmit = async (e) => {
@@ -82,8 +99,65 @@ const ContactMain = () => {
     }
   };
 
+
+// Mobil form gönderim işlemi
+const handleMobileSubmit = async (e) => {
+  e.preventDefault();
+  setLoading(true);
+  setError('');
+  setSuccess(false);
+
+  try {
+    // Policy kontrolü
+    if (!formMobile.policyAccepted) {
+      throw new Error('Lütfen gizlilik politikasını kabul edin');
+    }
+
+    // Mobil mesaj formatı
+    const message = `
+      Hello! My name is ${formMobile.name}
+      For communication: ${formMobile.phone}
+      Message: ${formMobile.message}
+      We thank you.
+    `;
+
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formMobile.name.split(' ')[0] || '',
+        surname: formMobile.name.split(' ')[1] || '',
+        email: '', // Mobilde email yok
+        phone: formMobile.phone,
+        message: message
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error('Gönderim başarısız oldu');
+    }
+
+    setSuccess(true);
+    // Mobil formu temizle
+    setFormMobile({
+      name: '',
+      phone: '',
+      message: '',
+      policyAccepted: false
+    });
+
+  } catch (err) {
+    setError(err.message || 'Bir hata oluştu, lütfen tekrar deneyin');
+  } finally {
+    setLoading(false);
+  }
+};
+
+
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-12 mt-0 lg:mt-12 mb-12 items-center justify-center">
+    <div className="flex flex-col lg:flex-row lg:gap-12 mt-0 mb-12 items-center justify-center">
       <div className="flex flex-col lg:w-[620px] items-center justify-center">
         <div className="flex flex-row lg:flex-col gap-6 justify-center items-start">
           {/* Telefon */}
@@ -303,7 +377,7 @@ const ContactMain = () => {
         {/* Mobile Form */}
         <div className="flex lg:hidden w-[95%] py-[18px] px-[15px] bg-white items-center justify-center">
           <form
-            onSubmit={handleSubmit}
+           onSubmit={handleMobileSubmit}
             className="flex flex-col w-full items-center justify-center text-start gap-[18px] text-darkBlue font-inter"
           >
             <h5 className="text-[24px] -tracking-[0.48px] font-bold leading-[120%] whitespace-nowrap">
@@ -316,8 +390,8 @@ const ContactMain = () => {
               <input
                 type="text"
                 name="name"
-                value={formData.name}
-                onChange={handleChange}
+                value={formMobile.name}
+                onChange={handleMobileChange}
                 placeholder="Your Name"
                 className="w-full px-[20px] py-[10px] bg-transparent border-dotted border rounded-[10px] border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
@@ -328,10 +402,9 @@ const ContactMain = () => {
                 Phone Number;
               </label>
               <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
+                name="phone"
+                value={formMobile.phone}
+                onChange={handleMobileChange}
                 placeholder="+....... ( ............ ) ......................................"
                 className="w-full py-[10px] bg-transparent border-dotted border rounded-[10px]  border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
@@ -343,9 +416,9 @@ const ContactMain = () => {
               </label>
               <input
                 type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
+                name="message"
+                value={formMobile.message}
+                onChange={handleMobileChange}
                 placeholder=""
                 className="w-full px-[20px] py-[10px] bg-transparent !border-dotted rounded-[10px] border border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
@@ -355,8 +428,8 @@ const ContactMain = () => {
               <input
                 type="checkbox"
                 name="policyAccepted"
-                checked={formData.policyAccepted}
-                onChange={handleChange}
+                checked={formMobile.policyAccepted}
+                onChange={handleMobileChange}
                 className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#152741] bg-transparent focus:outline-none
                checked:after:content-['✓']  checked:after:text-darkBlue checked:after:text-[16px]
                checked:after:flex checked:after:items-center checked:after:justify-center "
@@ -366,9 +439,16 @@ const ContactMain = () => {
               </label>
             </div>
 
-            <button className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]">
+            <button 
+    type="submit"
+    disabled={loading}
+    className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]"
+  >
+    {loading ? 'Gönderiliyor...' : 'Send'}
+  </button>
+            {/* <button className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]">
               Send
-            </button>
+            </button> */}
           </form>
         </div>
       </div>

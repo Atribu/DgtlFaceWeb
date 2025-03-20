@@ -70,7 +70,7 @@ const page = () => {
       <MainBanner header="PMS&OTA Setup" text="Streamline your operations with DGTLFACE's hotel management system (PMS) and online travel agency (OTA) services. Our integrated approach enhances cross-platform visibility by optimising your online presence and reservations, making operations more efficient."/>
       <StepSection header="Set-up and " header2="Optimising" text="  Discover our comprehensive solution designed to simplify and strengthen your accommodation operations, corporate management, and online travel agency interactions." servicesData={servicesData}/>
       <VerticalSlider/>
-      <QuestionsSection/>
+      <QuestionsSection color="#140F25"/>
       <Contact/>
     </div>
   )

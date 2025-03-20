@@ -70,7 +70,7 @@ const page = () => {
       <MainBanner header="Search Engine Optimization (SEO)" text="Our comprehensive approach to SEO includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results."/>
       <StepSection header="Head up on" header2="Search" text="  Evolve your online visibility and organic traffic with Search Engine Optimization (SEO) services. DGTLFACE ensures your website remains visible to competitive and ideal customers by staying updated with search engine algorithm updates." servicesData={servicesData}/>
       <VerticalSlider/>
-      <QuestionsSection/>
+      <QuestionsSection color="#140F25"/>
       <Contact/>
     </div>
   )

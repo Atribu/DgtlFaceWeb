@@ -70,7 +70,7 @@ const page = () => {
       <MainBanner header="CallCenter" text="Call center service can be a good way to increase your company's reputation and brand perception. Moreover, as DGTLFACE, we promise to increase the perception of professionalism on your brand by providing you with call reception service in 4 languages."/>
       <StepSection header="Powerful Team in " header2="All Areas" text="We provide fast and effective interventions to your customer problems with our call center service and talented call center team." servicesData={servicesData}/>
       <VerticalSlider/>
-      <QuestionsSection/>
+      <QuestionsSection color="#140F25"/>
       <Contact/>
     </div>
   )

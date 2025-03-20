@@ -19,6 +19,7 @@ const Header = () => {
   const [color, setColor] = useState("rgb(255, 255, 255)");
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const servicesMenuRef = useRef(null); // Yeni eklenen ref
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +34,8 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  
 
   
 
@@ -52,7 +55,20 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
+
   useEffect(() => {
+    function handleClickOutside(event) {
+      const servicesMenu = document.querySelector('.services-dropdown');
+      if (servicesMenu && !servicesMenu.contains(event.target)) {
+        setIsServicesOpen(false);
+      }
+    }
+    // ... event listener'lar
+  }, [isServicesOpen]);
+
+
+  useEffect(() => {
+    setIsServicesOpen(false)
     setIsMenuOpen(false);
   }, [pathname]); // pathname değiştiğinde sidebar kapanacak
 
