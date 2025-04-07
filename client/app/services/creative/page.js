@@ -17,7 +17,7 @@ const servicesData = [
       "Creating and Editing Motionography"
       
     ],
-    buttonLink:"/services/creative/graphicDesign"
+    buttonLink:"/Services/creative/graphicDesign"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
-     buttonLink:"/services/creative/uiUxDesign"
+     buttonLink:"/Services/creative/uiUxDesign"
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
-     buttonLink:"/services/creative/videoProduction"
+     buttonLink:"/Services/creative/videoProduction"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
-     buttonLink:"/services/creative/eventProduction"
+     buttonLink:"/Services/creative/eventProduction"
   },
 
   {
@@ -66,7 +66,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
-     buttonLink:"/services/creative/corporateGift"
+     buttonLink:"/Services/creative/corporateGift"
   },
 ];
 

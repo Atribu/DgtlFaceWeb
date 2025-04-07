@@ -10,14 +10,14 @@ import AnalysisSvg from './AnalysisSvg'
 import Link from 'next/link'
 
 const serviceItems = [
-  { icon: CreativeSvg, width: 35, height: 25, link:"/services/creative",title:"Creative" },
-  { icon: CallCenterSvg, width: 33, height: 33,link:"/services/callcenter",title:"Call Center" },
-  { icon: PmsSvg, width: 31, height: 33, link:"/services/pms",title:"PMS & OTA" },
-  { icon: SeoSvg, width: 31, height: 33, link:"/services/seo",title:"SEO" },
-  { icon: SemSvg, width: 33, height: 33 ,link:"/services/sem",title:"SEM" },
-  { icon: SmmSvg, width: 33, height: 33 , link:"/services/smm",title:"SMM"},
-  { icon: ItSvg, width: 31, height: 33, link:"/services/software",title:"IT & Software" },
-  { icon: AnalysisSvg, width: 35, height: 33, link:"/services/digitalAnalysis",title:"Analysis" },
+  { icon: CreativeSvg, width: 35, height: 25, link:"/Services/creative",title:"Creative" },
+  { icon: CallCenterSvg, width: 33, height: 33,link:"/Services/callcenter",title:"Call Center" },
+  { icon: PmsSvg, width: 31, height: 33, link:"/Services/pms",title:"PMS & OTA" },
+  { icon: SeoSvg, width: 31, height: 33, link:"/Services/seo",title:"SEO" },
+  { icon: SemSvg, width: 33, height: 33 ,link:"/Services/sem",title:"SEM" },
+  { icon: SmmSvg, width: 33, height: 33 , link:"/Services/smm",title:"SMM"},
+  { icon: ItSvg, width: 31, height: 33, link:"/Services/software",title:"IT & Software" },
+  { icon: AnalysisSvg, width: 35, height: 33, link:"/Services/digitalAnalysis",title:"Analysis" },
 ];
 
 const ServicesGridSection = () => {
