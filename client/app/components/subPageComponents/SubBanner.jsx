@@ -12,7 +12,7 @@ const SubBanner = ({header,header2,text,buttonLink}) => {
         alt='ai'
         width={aiImg.width}
         height={aiImg.height}
-        className='w-[70%] lg:w-auto h-auto'
+        className='w-[70%] lg:w-auto h-auto lg:min-w-[27%]'
         />
         <div className='flex flex-col items-center justify-center text-center w-[70%] lg:w-[40%] gap-[16px] font-inter text-white'>
             <h1 className='text-[24px] lg:text-[48px] font-bold leading-[120%] -tracking-[0.96px] lg:-tracking-[0.96px]'>{header} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{header2}</span></h1>

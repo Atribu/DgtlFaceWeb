@@ -71,7 +71,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
                   </div>
                 ))}
                 <Link
-                  href={card.buttonLink}
+                  href={card.buttonLink || "/"}
                   className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform opacity-0  group-hover:opacity-100 group-hover:translate-y-24 transition-all duration-500"
                 >
                   Explore
