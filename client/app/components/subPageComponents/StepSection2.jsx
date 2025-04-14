@@ -23,13 +23,13 @@ const StepSection2 = ({ data }) => {
               {isEven ? (
                 <>
                   {/* Resim solda */}
-                  <div className="relative group w-full lg:w-[38%] h-auto">
+                  <div className="relative group w-full lg:w-[38%] h-auto ">
                     <Image
                       src={item.image}
                       alt="certificate"
                       width={item.image.width}
                       height={item.image.height}
-                      className="rounded-[22px] flex"
+                      className="rounded-[22px] flex object-cover w-[464px] h-[322px]"
                     />
                     <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 lg:w-[464px]" />
                   </div>
@@ -42,7 +42,7 @@ const StepSection2 = ({ data }) => {
                   {/* Text bölümü */}
                   <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[38%]">
                     <button className="gradient-cookie-button relative flex border w-full py-[16px] px-auto items-center justify-center lg:px-[136px] lg:py-[24px] text-[14px] lg:text-[32px] font-bold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px]">
-                      {item.header}
+                      {item.header} 
                     </button>
                     <p className="text-[12px] lg:text-[16px] font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[80%]">
                       {item.text}
@@ -73,7 +73,7 @@ const StepSection2 = ({ data }) => {
                       alt="certificate"
                       width={item.image.width}
                       height={item.image.height}
-                      className="rounded-[22px] flex"
+                      className="rounded-[22px] flex w-[464px] h-[322px]"
                     />
                     <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 lg:w-[464px]" />
                   </div>

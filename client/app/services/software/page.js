@@ -16,6 +16,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/software/websiteAndSoftware"
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/software/serverManagementService"
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/software/pdpaCompliance"
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/software/websiteMaintanceService"
   },
 
   {
@@ -61,6 +65,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/software/cmsInstallationService"
   },
 ];
 

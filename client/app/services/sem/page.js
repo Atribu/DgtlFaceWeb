@@ -16,6 +16,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/sem/advertisingManagement"
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+    buttonLink:"/Services/sem/webTraffic"
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+      buttonLink:"/Services/sem/googleWebtools"
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+      buttonLink:"/Services/sem/yandexAdvertising"
   },
 
   {
@@ -61,6 +65,7 @@ const servicesData = [
       "Social Media Graphics",
       "Creating and Editing Motionography",
     ],
+      buttonLink:"/Services/sem/googleAdsAdvertising"
   },
 ];
 
