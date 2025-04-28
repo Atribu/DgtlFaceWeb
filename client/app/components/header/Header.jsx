@@ -11,6 +11,7 @@ import ServicesSvg from "./svg/ServicesSvg";
 import PersonSvg from "./svg/PersonSvg";
 import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -164,7 +165,7 @@ const Header = () => {
       )}
 
       {/* Örnek Buton */}
-      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </Link>
 
@@ -267,13 +268,14 @@ const Header = () => {
 
           <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
             <Link href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
-              <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-                <img
-                  src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Vw4z0zYYzGGuAVoSGXFxPjAjXmAFI5o9OqxzZc3aae7D~qNZJqPPEkVpvZ3knSLNou77LS0OHCD2CQyF4r8Sb8DqTxxC5xRFXyxYTk4ytUepoKQGpKEXReoBqU9owPPGxyJwLZv9M1QvCAat7KjJm5qllS6eegv9ptkrKAQUysK24kSSnQjg4mMK3jMNI8QYOpsGN4T6d3ymlB6IhyQ4LaLoqvLQ9J-vOa3OQbaIBTmph7XS5c6h7cOLsUsXSNphnaKqtkB6-jOlBcKx8wnN9qstm3MGKiCrCVBpI6HY3vEzKJMEGgSQAH59n~QnUdT9NSAgTMaDLhKJKJattw9vFw__"
-                  alt="Phone GIF"
-                  className="w-[29px] h-[29px]"
-                />
-              </div>
+            <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
+  <Image
+    src="/gifs/phone.gif"
+    alt="Phone GIF"
+    width={29}
+    height={29}
+  />
+</div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Phone
               </p>
@@ -281,11 +283,12 @@ const Header = () => {
 
             <Link href="#contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-                <img
-                  src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GG-2DlPfY5Y3jPFmscqhAQlqS5IYVnsny4bSzJGHNmmb67UbU3TOBTuwntAC6LBzVVLf9uK9Fc49LiBnSFRk~6kCb9hm7DrYD~cFf8VPkq35kjccCerRq2wJf0ayk1U~FvYhAks1LIe7AWspk6Ss0m6yVPvoDEENQMlOqWichG5ZEQpmsNC5sh-7M9gS0tV~OggLEYsoJ~WF5OU7x8bTB9wVlgGa20A1RA-e4rY6lxXJI83nexc2ELTzz9BJEekzgv0q32-gLBydJQhFKRKQZBZIvb4mdD6Ogtb3nWTTJrg8PfkeqegdEkguhrnaQvVh6PeKYC4If4pTn7F2D4APJQ__"
-                  alt="Email GIF"
-                  className="w-[29px] h-[29px] "
-                />
+              <Image
+    src="/gifs/email.gif"
+    alt="Phone GIF"
+    width={29}
+    height={29}
+  />
               </div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Mail

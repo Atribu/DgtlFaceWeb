@@ -12,7 +12,7 @@ const BlogBanner = () => {
         </div>
 
         <div className='w-[100%] lg:w-[45%]'>
-            <Image/>
+            {/* <Image/> */}
         </div>
       </div>
     </div>
