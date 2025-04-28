@@ -164,7 +164,7 @@ const handleMobileSubmit = async (e) => {
           <Link href="tel:+905326451767" className="flex flex-col lg:flex-row items-center gap-6">
             {/* GIF için .gif uzantılı bir dosya kullanabilirsiniz. */}
             <img
-              src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pgFsBEQDKz0atpV1SXuC9zYGeDzbL9ng5DchqgPXmKPCATI7HKy39GQciiQ8RyTEfbVNyTWo3VBS9ZCID-3ihKlM5NAVX1b0LxE0oC4DVac5tkQ6w4RKYWsfJmt5kGWHdkdOScu0p3c-FM3GuUTeRDk5f4Bi5aLjak4HMq6nB7rnkL-L45lIvmKcQkfM9xEOC21SVjYr3h2PP6WQZWeYblCS4aZ5uleqFnqsbtwkahnyHoUL8tdWjkudNGaUBHr10scmo1bFLfuiVT7xtC94EFz2SJB~H36ZWYIT~qU8qqK~60YsYlgeLal9ckQ6TbKDzepa56CJPtncMn0FtjC1Sw__"
+              src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Vw4z0zYYzGGuAVoSGXFxPjAjXmAFI5o9OqxzZc3aae7D~qNZJqPPEkVpvZ3knSLNou77LS0OHCD2CQyF4r8Sb8DqTxxC5xRFXyxYTk4ytUepoKQGpKEXReoBqU9owPPGxyJwLZv9M1QvCAat7KjJm5qllS6eegv9ptkrKAQUysK24kSSnQjg4mMK3jMNI8QYOpsGN4T6d3ymlB6IhyQ4LaLoqvLQ9J-vOa3OQbaIBTmph7XS5c6h7cOLsUsXSNphnaKqtkB6-jOlBcKx8wnN9qstm3MGKiCrCVBpI6HY3vEzKJMEGgSQAH59n~QnUdT9NSAgTMaDLhKJKJattw9vFw__"
               alt="Phone GIF"
               className="w-[48px] h-[48px] lg:w-10 lg:h-10"
             />
@@ -182,7 +182,7 @@ const handleMobileSubmit = async (e) => {
           {/* E-Posta */}
           <div className="flex flex-col lg:flex-row items-center gap-6">
             <img
-              src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XalWRyGySCcLhysHXzag2euHKe9XJLJ2ECvGamNo4K3vDChc~TdtBQ6PGohfMop7LnxFaQoLXJz3gkXOXb5fadDpCCAmjHHwzORuWuAifG7XVNtL0nMP2BfWvbscwdFGujN6DIL9jdYxgnWOttCN5Mv0iRVmkTUIho-4fmmfs-64qUjLAq98AjFj5hjrHXCVxu0LQGHfwIVhrDzT~6UR9EcKKpJ4ILVsUYbZBJ-FFDsDIH8cfNgVqFHqSjcEsjC-f9wC4g0M7MWO4PxrRb2n9eyTIEslN4jgVK0oSUZAebz655f0BhooRCC7UdtJyoPhb1vvRmt9z5W72dT-TB4k4g__"
+              src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GG-2DlPfY5Y3jPFmscqhAQlqS5IYVnsny4bSzJGHNmmb67UbU3TOBTuwntAC6LBzVVLf9uK9Fc49LiBnSFRk~6kCb9hm7DrYD~cFf8VPkq35kjccCerRq2wJf0ayk1U~FvYhAks1LIe7AWspk6Ss0m6yVPvoDEENQMlOqWichG5ZEQpmsNC5sh-7M9gS0tV~OggLEYsoJ~WF5OU7x8bTB9wVlgGa20A1RA-e4rY6lxXJI83nexc2ELTzz9BJEekzgv0q32-gLBydJQhFKRKQZBZIvb4mdD6Ogtb3nWTTJrg8PfkeqegdEkguhrnaQvVh6PeKYC4If4pTn7F2D4APJQ__"
               alt="Email GIF"
               className="w-[48px] h-[48px] lg:w-10 lg:h-10"
             />
@@ -200,7 +200,7 @@ const handleMobileSubmit = async (e) => {
           {/* Konum */}
           <Link href="/contact" className="flex flex-col lg:flex-row items-center gap-6">
             <img
-              src="https://s3-alpha-sig.figma.com/img/435a/2ee0/f77d58e8d2dd5ed5bef41401efa03976?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QFovSKld-GWFBNdvGWhrEiAEi5W4-nA7kC5pAOGIJNMm27TpsiPmZH8Pxzd4PfbDqlVaRClErRrjlDoOMdnKlV2ZEjRdh6~m7VUsTYu1R~k-HApDeZafEqIzHQBGfWEIGVbHu51R4MWmra1FYgFnNAbuu4HaWPGPRYorI~CyTtAu286A-xrNLZk0y9RWfrVOpX0ta2HAU2rFhQGb~CC0Y9k6dUb1p8h4ut9DqKoFa4B5YMplbaL-zJGIaKYe~ijzBzqVDBnzvBx3HOaK2tUD7aebRsa9dOyCtv8Y0f3n0gTqOi5ZYYXDl2gquhrKp9NOKDDzjnagB~VInWx5i7k27g__"
+              src="https://s3-alpha-sig.figma.com/img/435a/2ee0/f77d58e8d2dd5ed5bef41401efa03976?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nVZIdMB1iK-BNexHijmbv3UBhLYbCU-audmW45GhmI2WzqfvrcUjHc5vGm8TlxtqtQZpIK050scsY2FLAACcqA07oiXjRx62vZZCDJbeYuDMxIS9YYXPbfoUBh3U9CjXZbMEiMeN-RW1oPXvd-fQkyy4dsW9F6JQzbT4arVVuePrsoHhtlZ1VlWR4XJMop8UwD91GWIhHbZRgntwdpssvWd14GI~EeMa6LjlvAOnrbAhVSXpJApPsQmKhUBXHvfAGMd-dZpuqBIcVpkWt6UfFn5Xar0uSewlgXOd2MEpMA9X8wmm5pfFKYxX8ftnw3pFREqk4oaI8ih9NHRjpeYu0g__"
               alt="Location GIF"
               className="w-[48px] h-[48px] lg:w-10 lg:h-10"
             />

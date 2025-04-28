@@ -79,7 +79,7 @@ const Header = () => {
 
       <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
        <Link href="/">
-       <Logo2 className="flex lg:hidden" width={45} height={39} color={color} style={{
+       <Logo2 className="flex lg:hidden" width={36} height={30} color={color} style={{
         color, // dinamik olarak ayarlanan renk
         transition: "color 0.1s ease-out", }}/></Link>
 
@@ -269,7 +269,7 @@ const Header = () => {
             <Link href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
-                  src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pgFsBEQDKz0atpV1SXuC9zYGeDzbL9ng5DchqgPXmKPCATI7HKy39GQciiQ8RyTEfbVNyTWo3VBS9ZCID-3ihKlM5NAVX1b0LxE0oC4DVac5tkQ6w4RKYWsfJmt5kGWHdkdOScu0p3c-FM3GuUTeRDk5f4Bi5aLjak4HMq6nB7rnkL-L45lIvmKcQkfM9xEOC21SVjYr3h2PP6WQZWeYblCS4aZ5uleqFnqsbtwkahnyHoUL8tdWjkudNGaUBHr10scmo1bFLfuiVT7xtC94EFz2SJB~H36ZWYIT~qU8qqK~60YsYlgeLal9ckQ6TbKDzepa56CJPtncMn0FtjC1Sw__"
+                  src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Vw4z0zYYzGGuAVoSGXFxPjAjXmAFI5o9OqxzZc3aae7D~qNZJqPPEkVpvZ3knSLNou77LS0OHCD2CQyF4r8Sb8DqTxxC5xRFXyxYTk4ytUepoKQGpKEXReoBqU9owPPGxyJwLZv9M1QvCAat7KjJm5qllS6eegv9ptkrKAQUysK24kSSnQjg4mMK3jMNI8QYOpsGN4T6d3ymlB6IhyQ4LaLoqvLQ9J-vOa3OQbaIBTmph7XS5c6h7cOLsUsXSNphnaKqtkB6-jOlBcKx8wnN9qstm3MGKiCrCVBpI6HY3vEzKJMEGgSQAH59n~QnUdT9NSAgTMaDLhKJKJattw9vFw__"
                   alt="Phone GIF"
                   className="w-[29px] h-[29px]"
                 />
@@ -282,7 +282,7 @@ const Header = () => {
             <Link href="#contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <img
-                  src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XalWRyGySCcLhysHXzag2euHKe9XJLJ2ECvGamNo4K3vDChc~TdtBQ6PGohfMop7LnxFaQoLXJz3gkXOXb5fadDpCCAmjHHwzORuWuAifG7XVNtL0nMP2BfWvbscwdFGujN6DIL9jdYxgnWOttCN5Mv0iRVmkTUIho-4fmmfs-64qUjLAq98AjFj5hjrHXCVxu0LQGHfwIVhrDzT~6UR9EcKKpJ4ILVsUYbZBJ-FFDsDIH8cfNgVqFHqSjcEsjC-f9wC4g0M7MWO4PxrRb2n9eyTIEslN4jgVK0oSUZAebz655f0BhooRCC7UdtJyoPhb1vvRmt9z5W72dT-TB4k4g__"
+                  src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GG-2DlPfY5Y3jPFmscqhAQlqS5IYVnsny4bSzJGHNmmb67UbU3TOBTuwntAC6LBzVVLf9uK9Fc49LiBnSFRk~6kCb9hm7DrYD~cFf8VPkq35kjccCerRq2wJf0ayk1U~FvYhAks1LIe7AWspk6Ss0m6yVPvoDEENQMlOqWichG5ZEQpmsNC5sh-7M9gS0tV~OggLEYsoJ~WF5OU7x8bTB9wVlgGa20A1RA-e4rY6lxXJI83nexc2ELTzz9BJEekzgv0q32-gLBydJQhFKRKQZBZIvb4mdD6Ogtb3nWTTJrg8PfkeqegdEkguhrnaQvVh6PeKYC4If4pTn7F2D4APJQ__"
                   alt="Email GIF"
                   className="w-[29px] h-[29px] "
                 />

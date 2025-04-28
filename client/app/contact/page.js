@@ -10,7 +10,7 @@ const page = () => {
         <Contact />
         <AltSection />
         <Location />
-        <Contact/>
+        <ContactMain/>
     </div>
   )
 }
