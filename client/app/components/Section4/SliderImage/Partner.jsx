@@ -9,6 +9,9 @@ import freshfruit from '../SliderImage/Before/freshfruitturkey.svg';
 import miramare from '../SliderImage/Before/miramare.svg';
 import portnature from '../SliderImage/Before/portnature.svg';
 import evtatilim from '../SliderImage/Before/evtatilim.svg';
+import azuraDeluxe from '../SliderImage/Before/azuradeluxe.svg';
+import lago from '../SliderImage/Before/lago.svg';
+import irenic from '../SliderImage/Before/irenic.svg';
 
 import bookToHolidaysHover from '../SliderImage/After/booktoholidays.svg';
 import dgtlfaceHover from '../SliderImage/After/dgtlface.svg';
@@ -16,6 +19,9 @@ import freshfruitHover from '../SliderImage/After/freshfruitturkey.svg';
 import miramareHover from '../SliderImage/After/miramare.svg';
 import portnatureHover from '../SliderImage/After/portnature.svg';
 import evtatilimHover from '../SliderImage/After/evtatilim.svg';
+import azuraDeluxHover from '../SliderImage/After/azuradeluxe.svg';
+import lagoHover from '../SliderImage/After/lago.svg';
+import irenicHover from '../SliderImage/After/irenic.svg';
 
 const Partner = () => {
   const images = [
@@ -25,8 +31,9 @@ const Partner = () => {
     { src: miramare, hoverSrc: miramareHover, alt: 'Slide 4' },
     { src: portnature, hoverSrc: portnatureHover, alt: 'Slide 5' },
     { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 6' },
-    { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 7' },
-    { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 8' },
+    { src: azuraDeluxe, hoverSrc: azuraDeluxHover, alt: 'Slide 7' },
+    { src: lago, hoverSrc: lagoHover, alt: 'Slide 8' },
+    { src: irenic, hoverSrc: irenicHover, alt: 'Slide 9' },
   ];
 
   const autoplayOptions = { delay: 4000, stopOnInteraction: true };
@@ -57,8 +64,9 @@ const Partner = () => {
              <Image
                 src={isCenter ? image.hoverSrc : image.src}
                 alt={image.alt}
-                width={148}
-                height={32}
+                width={image.width}
+                height={image.height}
+                className='max-w-[140px] '
                 style={{ objectFit: 'cover', cursor: isCenter ? 'pointer' : 'default' }}
               />
             </div>
