@@ -11,6 +11,7 @@ import ServicesSvg from "./svg/ServicesSvg";
 import PersonSvg from "./svg/PersonSvg";
 import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +20,9 @@ const Header = () => {
   const [color, setColor] = useState("rgb(255, 255, 255)");
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+  const dropdownRef = useRef(null);
   const servicesMenuRef = useRef(null); // Yeni eklenen ref
 
   useEffect(() => {
@@ -35,9 +39,6 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  
-
-  
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -56,21 +57,17 @@ const Header = () => {
   }, [isMenuOpen]);
 
 
-  useEffect(() => {
-    function handleClickOutside(event) {
-      const servicesMenu = document.querySelector('.services-dropdown');
-      if (servicesMenu && !servicesMenu.contains(event.target)) {
-        setIsServicesOpen(false);
-      }
-    }
-    // ... event listener'lar
-  }, [isServicesOpen]);
+
 
 
   useEffect(() => {
     setIsServicesOpen(false)
     setIsMenuOpen(false);
   }, [pathname]); // pathname değiştiğinde sidebar kapanacak
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   return (
     <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
@@ -108,13 +105,56 @@ const Header = () => {
               Home
             </a>
           </li>
-          <li>
-           <Link href="/Services">
-           <button  onClick={() => setIsServicesOpen(!isServicesOpen)} className="hover:text-gray-300 focus:outline-none">
-              Services
-            </button>
+          <li 
+  className="relative"
+  onMouseEnter={() => setIsOpen(true)}
+  onMouseLeave={() => setIsOpen(false)}
+  ref={dropdownRef}
+>
+  <Link href="/Services">
+    <button className="hover:text-gray-300 focus:outline-none">
+      Services
+    </button>
+  </Link>
+  
+  {/* Görünmez geçiş alanı */}
+  <div className="absolute top-full left-0 w-full h-2" />
+
+  {isMounted && isOpen && (
+    <div 
+      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-1/2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10 md:min-w-[640px]"
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => setIsOpen(false)}
+    >
+    <div className="grid grid-cols-2 gap-4">
+            <Link href="/Services/creative" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
+            Creative
             </Link>
-          </li>
+            <Link href="/Services/callcenter" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Call Center
+            </Link>
+            <Link href="/Services/pms" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            PMS & OTA Managment
+            </Link>
+            <Link href="/Services/sem" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Marketing
+            </Link> 
+            <Link href="/Services/seo" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Optimization
+            </Link>
+            <Link href="/Services/smm" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Social Media Marketing
+            </Link>
+            <Link href="/Services/software" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Information Technology & Software
+            </Link>
+            <Link href="/Services/digitalAnalysis" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Digital Analysis & Reporting
+            </Link>
+          </div>
+    </div>
+  )}
+</li>
           <li>
             <a href="/aboutus" className="hover:text-gray-300">
               About us
@@ -132,8 +172,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {isServicesOpen && (
-        <div className="hidden lg:flex absolute top-full left-[18%] transform  mt-2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10">
+      {/* {isMounted && isOpen && (
+        <div   onMouseEnter={() => setIsOpen(true)}
+        onMouseLeave={() => setIsOpen(false)}  className="hidden lg:flex absolute top-[calc(100%+8px)] left-[18%] transform mt-2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10">
           <div className="grid grid-cols-2 gap-4">
             <Link href="/Services/creative" className="hover:text-gray-300 bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
             Creative
@@ -161,10 +202,10 @@ const Header = () => {
             </Link>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Örnek Buton */}
-      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </Link>
 
@@ -267,13 +308,14 @@ const Header = () => {
 
           <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
             <Link href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
-              <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-                <img
-                  src="https://s3-alpha-sig.figma.com/img/ce62/a04b/57a06fc49b102b0e871cb3ac38cd0287?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Vw4z0zYYzGGuAVoSGXFxPjAjXmAFI5o9OqxzZc3aae7D~qNZJqPPEkVpvZ3knSLNou77LS0OHCD2CQyF4r8Sb8DqTxxC5xRFXyxYTk4ytUepoKQGpKEXReoBqU9owPPGxyJwLZv9M1QvCAat7KjJm5qllS6eegv9ptkrKAQUysK24kSSnQjg4mMK3jMNI8QYOpsGN4T6d3ymlB6IhyQ4LaLoqvLQ9J-vOa3OQbaIBTmph7XS5c6h7cOLsUsXSNphnaKqtkB6-jOlBcKx8wnN9qstm3MGKiCrCVBpI6HY3vEzKJMEGgSQAH59n~QnUdT9NSAgTMaDLhKJKJattw9vFw__"
-                  alt="Phone GIF"
-                  className="w-[29px] h-[29px]"
-                />
-              </div>
+            <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
+  <Image
+    src="/gifs/phone.gif"
+    alt="Phone GIF"
+    width={29}
+    height={29}
+  />
+</div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Phone
               </p>
@@ -281,11 +323,12 @@ const Header = () => {
 
             <Link href="#contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
-                <img
-                  src="https://s3-alpha-sig.figma.com/img/9d3f/a0e3/da597f3ba21d3a47c7c2d573e288ad6c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GG-2DlPfY5Y3jPFmscqhAQlqS5IYVnsny4bSzJGHNmmb67UbU3TOBTuwntAC6LBzVVLf9uK9Fc49LiBnSFRk~6kCb9hm7DrYD~cFf8VPkq35kjccCerRq2wJf0ayk1U~FvYhAks1LIe7AWspk6Ss0m6yVPvoDEENQMlOqWichG5ZEQpmsNC5sh-7M9gS0tV~OggLEYsoJ~WF5OU7x8bTB9wVlgGa20A1RA-e4rY6lxXJI83nexc2ELTzz9BJEekzgv0q32-gLBydJQhFKRKQZBZIvb4mdD6Ogtb3nWTTJrg8PfkeqegdEkguhrnaQvVh6PeKYC4If4pTn7F2D4APJQ__"
-                  alt="Email GIF"
-                  className="w-[29px] h-[29px] "
-                />
+              <Image
+    src="/gifs/email.gif"
+    alt="Phone GIF"
+    width={29}
+    height={29}
+  />
               </div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
                 Mail
@@ -311,7 +354,7 @@ const Header = () => {
           border-radius: 20px;
           position: relative;
           border-radius: 20px; /* Kenarları yuvarla */
-          overflow: hidden; /* kenarlardan taşma engellenir */
+       
           --tw-text-opacity: 1;
           background-color: rgba(20, 15, 37, 0.1);
           backdrop-filter: blur(37.5px);

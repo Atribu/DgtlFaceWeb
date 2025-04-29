@@ -21,7 +21,7 @@ const Section1 = dynamic(() => import("./components/Section1/Section"), {
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col justify-center items-center w-screen overflow-x-hidden">
+    <main className="flex flex-col justify-center items-center max-w-screen overflow-x-hidden">
       <div className="flex flex-col w-full items-center gap-[48px]">
         <MyThreeScene />
         <Partners />
