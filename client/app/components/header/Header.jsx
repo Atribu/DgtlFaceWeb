@@ -105,16 +105,74 @@ const Header = () => {
               Home
             </a>
           </li>
-          <li>
-           <Link href="/Services">
-           <button  onMouseEnter={() => setIsOpen(true)}
+          <li 
+  className="relative"
+  onMouseEnter={() => setIsOpen(true)}
+  onMouseLeave={() => setIsOpen(false)}
+  ref={dropdownRef}
+>
+  <Link href="/Services">
+    <button className="hover:text-gray-300 focus:outline-none">
+      Services
+    </button>
+  </Link>
+  
+  {/* Görünmez geçiş alanı */}
+  <div className="absolute top-full left-0 w-full h-2" />
+
+  {isMounted && isOpen && (
+    <div 
+      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-1/2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10 md:min-w-[640px]"
+      onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
-      ref={dropdownRef}  className="hover:text-gray-300 focus:outline-none">
-              Services
-            </button>
+    >
+    <div className="grid grid-cols-2 gap-4">
+            <Link href="/Services/creative" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
+            Creative
             </Link>
-            <div className="absolute top-full left-0 w-full h-2" />
-      {isMounted && isOpen && (
+            <Link href="/Services/callcenter" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Call Center
+            </Link>
+            <Link href="/Services/pms" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            PMS & OTA Managment
+            </Link>
+            <Link href="/Services/sem" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Marketing
+            </Link> 
+            <Link href="/Services/seo" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Search Engine Optimization
+            </Link>
+            <Link href="/Services/smm" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Social Media Marketing
+            </Link>
+            <Link href="/Services/software" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Information Technology & Software
+            </Link>
+            <Link href="/Services/digitalAnalysis" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
+            Digital Analysis & Reporting
+            </Link>
+          </div>
+    </div>
+  )}
+</li>
+          <li>
+            <a href="/aboutus" className="hover:text-gray-300">
+              About us
+            </a>
+          </li>
+          <li>
+            <a href="/blog" className="hover:text-gray-300">
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="/contact" className="hover:text-gray-300">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      {/* {isMounted && isOpen && (
         <div   onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}  className="hidden lg:flex absolute top-[calc(100%+8px)] left-[18%] transform mt-2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10">
           <div className="grid grid-cols-2 gap-4">
@@ -144,26 +202,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-      )}
-          </li>
-          <li>
-            <a href="/aboutus" className="hover:text-gray-300">
-              About us
-            </a>
-          </li>
-          <li>
-            <a href="/blog" className="hover:text-gray-300">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="/contact" className="hover:text-gray-300">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-     
+      )} */}
 
       {/* Örnek Buton */}
       <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
@@ -315,7 +354,7 @@ const Header = () => {
           border-radius: 20px;
           position: relative;
           border-radius: 20px; /* Kenarları yuvarla */
-          overflow: hidden; /* kenarlardan taşma engellenir */
+       
           --tw-text-opacity: 1;
           background-color: rgba(20, 15, 37, 0.1);
           backdrop-filter: blur(37.5px);
