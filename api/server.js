@@ -1,10 +1,15 @@
-const e = require("express");
-const express = require ("express");
+const express = require("express");
 const mongoose = require ("mongoose");
+const usersRouter = require('./routes/users');
+const authRouter  = require('./routes/auth');
+const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
+app.use(cors({ origin: "http://localhost:3000" }));
 app.use(express.json());
+app.use('/api/auth', authRouter);
+app.use('/api/users', usersRouter);
 
 mongoose
     .connect(process.env.MONGODB_URI, {
