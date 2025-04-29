@@ -66,7 +66,7 @@ const Partner = () => {
                 alt={image.alt}
                 width={image.width}
                 height={image.height}
-                className='max-w-[140px] '
+                className='max-w-[150px] '
                 style={{ objectFit: 'cover', cursor: isCenter ? 'pointer' : 'default' }}
               />
             </div>
