@@ -1,0 +1,6 @@
+{
+    "LocaleSwitcher": {
+      "label": "Dili Değiştir",
+      "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Bilinmeyen}}"
+    }
+}
