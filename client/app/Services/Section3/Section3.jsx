@@ -49,6 +49,7 @@ const Section3 = () => {
         "Videography & Production Services",
         "UI/UX Design Services",
       ],
+      link:"/Services/creative"
     },
     {
       id:2,
@@ -58,6 +59,7 @@ const Section3 = () => {
         "Reservation Support Service",
         "Multiple Channels Tracking Service",
       ],
+       link:"/Services/callcenter"
     },
     {
       id:3,
@@ -67,6 +69,7 @@ const Section3 = () => {
         "Reservation Support Service",
         "Multiple Channels Tracking Service",
       ],
+       link:"/Services/seo"
     },
     {
       id:4,
@@ -76,6 +79,7 @@ const Section3 = () => {
         "Reservation Support Service",
         "Multiple Channels Tracking Service",
       ],
+       link:"/Services/sem"
     },
 
     {
@@ -86,6 +90,7 @@ const Section3 = () => {
         "Social Media Management",
         "PPC Advertising",
       ],
+       link:"/Services/smm"
     },
     {
         id:6,
@@ -95,6 +100,7 @@ const Section3 = () => {
           "Videography & Production Services",
           "UI/UX Design Services",
         ],
+         link:"/Services/creative"
       },
       {
         id:7,
@@ -104,6 +110,7 @@ const Section3 = () => {
           "Backend Development",
           "Full Stack Development",
         ],
+         link:"/Services/software"
       },
       {
         id:8,
@@ -113,6 +120,7 @@ const Section3 = () => {
           "Social Media Management",
           "PPC Advertising",
         ],
+        link:"/Services/smm"
       },
       {
         id:9,
@@ -122,6 +130,7 @@ const Section3 = () => {
           "Server Management Service",
           "PDPA Compliance Service",
         ],
+        link:"/Services/software"
       },
   ];
 
@@ -155,7 +164,7 @@ const Section3 = () => {
           </div>
 
             {/* Explore Butonu */}
-            <Link href="/"
+            <Link href={service.link}
               className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white  w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
               Explore
             </Link>

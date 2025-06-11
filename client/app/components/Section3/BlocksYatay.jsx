@@ -102,7 +102,7 @@ const Section3 = () => {
             </p>
           </div>
 
-          <Link href="/services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
+          <Link href="/Services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
             Explore
           </Link>
           <style jsx>{`
