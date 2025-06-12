@@ -4,9 +4,11 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { useTranslations } from 'next-intl';
 
 export default function MyThreeScene() {
   const mountRef = useRef(null);
+  const t = useTranslations("Homepage.Hero")
 
   useEffect(() => {
     if (!mountRef.current) return;
@@ -252,17 +254,16 @@ export default function MyThreeScene() {
         }}
       >
         <h1
-          className="font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[61.6px] text-[24px] lg:text-[56px] font-bold"
+          className="lg:w-[50%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[61.6px] text-[24px] lg:text-[56px] font-bold"
         >
-          Antalya Digital <br /> Technology Partner
+         {t("title")}
         </h1>
         <p
-          className="font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]"
+          className="lg:w-[60%] font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]"
         >
-          DGTLFACE Digital Technology Partner offers high-quality <br />
-          and cost-effective digital marketing solutions tailored to<br></br> each business.
+          {t("subtitle")}
         </p>
-        <Link href="/#main" className="flex items-center gradient-border-button w-[114px] h-[42px] text-[14px] font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] ">Explore</Link>
+        <Link href="/#main" className="flex items-center gradient-border-button w-[114px] h-[42px] text-[14px] font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
         <style jsx>{`
         .gradient-border-button {
           position: relative;

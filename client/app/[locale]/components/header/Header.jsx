@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, use } from "react";
 import { usePathname } from "next/navigation"; // Sayfa değişimini takip etmek için
 import { useTranslations } from 'next-intl';
 import LangSwitcher from '@/LangSwitcher';
@@ -16,7 +16,7 @@ import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 
 const Header = () => {
-  
+  const t = useTranslations("Header")
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef(null);
   const pathname = usePathname(); // Şu anki sayfanın yolunu al
@@ -92,7 +92,7 @@ const Header = () => {
         transition: "color 0.1s ease-out", }}
             onClick={toggleMenu}
             className=" gradient-border-button flex py-[8px] px-[14px] w-[60px] h-[30px] items-center justify-center text-center rounded-[11px] border ">
-            Menu
+             {t("menu")}
           </button>
         </div>
       </div>
@@ -105,7 +105,7 @@ const Header = () => {
         <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
           <li>
             <a href="/" className="hover:text-gray-300">
-              Home
+             {t("home")}
             </a>
           </li>
           <li 
@@ -116,7 +116,7 @@ const Header = () => {
 >
   <Link href="/Services">
     <button className="hover:text-gray-300 focus:outline-none">
-      Services
+      {t("services")}
     </button>
   </Link>
   
@@ -131,28 +131,28 @@ const Header = () => {
     >
     <div className="grid grid-cols-2 gap-4">
             <Link href="/Services/creative" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
-            Creative
+             {t("creative")}
             </Link>
             <Link href="/Services/callcenter" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Call Center
+             {t("call_center")}
             </Link>
             <Link href="/Services/pms" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            PMS & OTA Managment
+             {t("pms_ota_management")}
             </Link>
             <Link href="/Services/sem" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Search Engine Marketing
+          {t("search_engine_marketing")}
             </Link> 
             <Link href="/Services/seo" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Search Engine Optimization
+              {t("search_engine_optimization")}
             </Link>
             <Link href="/Services/smm" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Social Media Marketing
+             {t("social_media_marketing")}
             </Link>
             <Link href="/Services/software" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Information Technology & Software
+           {t("information_technology_software")}
             </Link>
             <Link href="/Services/digitalAnalysis" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-            Digital Analysis & Reporting
+            {t("digital_analysis_reporting")}
             </Link>
           </div>
     </div>
@@ -160,17 +160,17 @@ const Header = () => {
 </li>
           <li>
             <a href="/aboutus" className="hover:text-gray-300">
-              About us
+               {t("about_us")}
             </a>
           </li>
           <li>
             <a href="/blog" className="hover:text-gray-300">
-              Blog
+              {t("blog")}
             </a>
           </li>
           <li>
             <a href="/contact" className="hover:text-gray-300">
-              Contact
+              {t("contact")}
             </a>
           </li>
         </ul>
@@ -252,7 +252,7 @@ const Header = () => {
           <div className="w-[90%] items-start justify-center text-start gap-[8px] text-white font-inter leading-[120%] mb-[52px]">
             <h3 className="text-[16px] font-bold -tracking-[0.32px]">
               {" "}
-              DGTLFACE – Digital Technology Partner
+             {t("tagline")}
             </h3>
             <p className="text-[12px] font-normal -tracking-[0.24px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -268,7 +268,7 @@ const Header = () => {
             >
               <HomeSvg className="flex" width={32} height={32} />
               <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-                Homepage
+                 {t("home")}
               </p>
             </Link>
 
@@ -278,7 +278,7 @@ const Header = () => {
             >
               <ServicesSvg className="flex" width={32} height={32} />
               <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-                Services
+                 {t("services")}
               </p>
             </Link>
 
@@ -288,7 +288,7 @@ const Header = () => {
             >
               <PersonSvg className="flex" width={12} height={28} />
               <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-                About Us
+                 {t("about_us")}
               </p>
             </Link>
 
@@ -298,7 +298,7 @@ const Header = () => {
             >
               <BlogSvg className="flex" width={34} height={34} />
               <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-                Blog
+                 {t("blog")}
               </p>
             </Link>
 
@@ -308,7 +308,7 @@ const Header = () => {
             >
               <PhoneSvg className="flex" width={30} height={30} />
               <p className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-                Contact
+                 {t("contact")}
               </p>
             </Link>
           </div>
@@ -324,7 +324,7 @@ const Header = () => {
   />
 </div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
-                Phone
+                 {t("phone")}
               </p>
             </Link>
 
@@ -338,18 +338,18 @@ const Header = () => {
   />
               </div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
-                Mail
+                 {t("mail")}
               </p>
             </Link>
 
             <Link href="/contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white py-[16px] px-[32px]">
                 <p className="text-[14px] font-bold leading-[120%] -tracking-[0.28px] text-darkBlue whitespace-nowrap">
-                  Get in Touch
+                   {t("get_in_touch")}
                 </p>
               </div>
               <p className="text-[10px] font-normal leading-[120%] -tracking-[0.2px] mt-[10px]">
-                Let Us Call You
+                {t("let_us_call_you")}
               </p>
             </Link>
           </div>

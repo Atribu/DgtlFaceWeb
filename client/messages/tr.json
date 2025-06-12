@@ -2,5 +2,58 @@
     "LocaleSwitcher": {
       "label": "Dili Değiştir",
       "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Bilinmeyen}}"
-    }
+    },
+
+     "Header": {
+    "home": "Anasayfa",
+    "services": "Hizmetler",
+    "about_us": "Hakkımızda",
+    "blog": "Blog",
+    "contact": "İletişim",
+     "menu": "Menü",
+    "creative": "Yaratıcı",
+    "call_center": "Çağrı Merkezi",
+    "pms_ota_management": "PMS & OTA Yönetimi",
+    "search_engine_marketing": "Arama Motoru Pazarlaması",
+    "search_engine_optimization": "Arama Motoru Optimizasyonu",
+    "social_media_marketing": "Sosyal Medya Pazarlaması",
+    "information_technology_software": "Bilgi Teknolojileri ve Yazılım",
+    "digital_analysis_reporting": "Dijital Analiz ve Raporlama",
+     "phone": "Telefon",
+    "mail": "E-posta",
+    "get_in_touch": "İletişime geçin",
+    "let_us_call_you": "Bırakın sizi arayalım",
+    "tagline": "DGTLFACE – Dijital Teknoloji Ortağı"
+  },
+
+ "Homepage":{
+     "Hero": {
+    "title": "Antalya Dijital Teknoloji Ortağı",
+    "subtitle": "DGTLFACE Dijital Teknoloji Ortağı, her işletmeye özel yüksek kaliteli ve uygun maliyetli dijital pazarlama çözümleri sunar.",
+    "button": "Keşfet"
+  },
+
+   "stats": {
+    "value1": "4",
+    "label1": "Kez",
+    "desc1": "Uluslararası Satış Artışı",
+    "value2": "10",
+    "label2": "Yıl",
+    "desc2": "Başarılı Marka Projeleri",
+    "value3": "6",
+    "label3": "Ay",
+    "desc3": "Proje göstergelerinde iyileşme",
+    "value4": "8",
+    "label4": "Bölüm",
+    "desc4": "8 bölümden oluşan profesyonel ekip"
+  },
+  "partners": {
+    "title": "Ortaklarımız",
+    "description": "DGTLFACE, en iyi hizmetleri ve çözümleri sunmak için sektör liderleri ve yenilikçilerle iş birliği yapmaktan gurur duyar.",
+    "list_intro": "Saygın ortaklarımız şunlardır:",
+    "tagline_main": "Dijital Başarınız İçin Doğru Tercih!",
+    "tagline_subtitle": " Dijital Teknoloji Ortağı",
+    "tagline_description": "Müşteri ilişkilerindeki uzmanlığımızla, işletmenizi yaratıcılıkla geliştiriyoruz. DGTLFACE sizin için çarpıcı görsel içerikler, reklam konseptleri ve etkili dijital satış stratejileri üretir."
+  }
+ }
 }

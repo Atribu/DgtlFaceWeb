@@ -3,10 +3,10 @@ import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSectio
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
-import image1 from "../../../../app/components/subPageComponents/images/image1.png"
-import image2 from "../../../../app/components/subPageComponents/images/image2.png"
-import image3 from "../../../../app/components/subPageComponents/images/image3.png"
-import image4 from "../../../../app/components/subPageComponents/images/image4.png"
+import image1 from "@/app/[locale]/components/subPageComponents/images/image1.png"
+import image2 from "@/app/[locale]/components/subPageComponents/images/image2.png"
+import image3 from "@/app/[locale]/components/subPageComponents/images/image3.png"
+import image4 from "@/app/[locale]/components/subPageComponents/images/image4.png"
 
 const stepData=[
   {

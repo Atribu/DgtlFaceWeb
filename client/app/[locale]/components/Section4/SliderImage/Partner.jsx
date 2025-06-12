@@ -26,14 +26,12 @@ import irenicHover from './After/irenic.svg';
 const Partner = () => {
   const images = [
     { src: bookToHolidays, hoverSrc: bookToHolidaysHover, alt: 'Slide 1' },
-    { src: dgtlface, hoverSrc: dgtlfaceHover, alt: 'Slide 2' },
-    { src: freshfruit, hoverSrc: freshfruitHover, alt: 'Slide 3' },
-    { src: miramare, hoverSrc: miramareHover, alt: 'Slide 4' },
-    { src: portnature, hoverSrc: portnatureHover, alt: 'Slide 5' },
-    { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 6' },
-    { src: azuraDeluxe, hoverSrc: azuraDeluxHover, alt: 'Slide 7' },
-    { src: lago, hoverSrc: lagoHover, alt: 'Slide 8' },
-    { src: irenic, hoverSrc: irenicHover, alt: 'Slide 9' },
+    { src: miramare, hoverSrc: miramareHover, alt: 'Slide 2' },
+    { src: portnature, hoverSrc: portnatureHover, alt: 'Slide 3' },
+    { src: azuraDeluxe, hoverSrc: azuraDeluxHover, alt: 'Slide 4' },
+    { src: lago, hoverSrc: lagoHover, alt: 'Slide 5' },
+    { src: irenic, hoverSrc: irenicHover, alt: 'Slide 6' },
+     { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 7' },
   ];
 
   const autoplayOptions = { delay: 4000, stopOnInteraction: true };
