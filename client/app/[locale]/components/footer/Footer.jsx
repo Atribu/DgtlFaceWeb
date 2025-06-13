@@ -9,8 +9,11 @@ import Youtube from "./Icons/youtube.jsx"
 import Logo from "../header/svg/DgtlFaceLogo.jsx"
 import sutunlar from "./images/sutunlar.png"
 import { PiYoutubeLogo } from "react-icons/pi";
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+    const t = useTranslations("Footer")
+
   return (
     <footer className="bg-[#140f25] text-white py-12 relative overflow-y-hidden">
       <div className="absolute z-[1] inset-0 bg-[#140F25]/40 flex md:hidden"></div>
@@ -26,24 +29,24 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row gap-8 z-[20] mt-10">
             <div className="flex flex-col gap-2">
               <Link href="/" className="hover:underline">
-                Home
+                {t("link_home")}
               </Link>
               <Link href="/aboutus" className="hover:underline">
-                About
+                {t("link_about")}
               </Link>
               <Link href="/Services" className="hover:underline">
-                Services
+                {t("link_services")}
               </Link>
             </div>
             <div className="flex flex-col gap-2">
               <Link href="/contact" className="hover:underline">
-                Contact
+              {t("link_contact")}
               </Link>
               <Link href="/privacy" className="hover:underline">
-                Privacy Policy
+                {t("link_privacy_policy")}
               </Link>
               <Link href="/terms" className="hover:underline">
-                Terms of Service
+                {t("link_terms_of_service")}
               </Link>
             </div>
           </div>

@@ -73,9 +73,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="w-screen lg:w-[61%] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-32 top-0 backdrop-blur-md" >
+    <header className="w-screen lg:w-[61%] lg:max-w-[1000px] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-20 xl:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
-      <Link href="/"><Logo className="w-auto hidden lg:flex" width={219} height={54.454} /></Link>
+      <Link href="/"><Logo className="w-auto hidden xl:flex" width={219} height={54.454} /> <Logo className="w-auto flex xl:hidden" width={180} height={40} /></Link>
 
       <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
        <Link href="/">
@@ -208,10 +208,10 @@ const Header = () => {
         </div>
       )} */}
 
-  <div className="flex gap-4 items-center justify-around">
+  <div className="flex gap-2 xl:gap-4 items-center justify-around">
          <LangSwitcher/>
       {/* Örnek Buton */}
-      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[219px] py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </Link>
   </div>

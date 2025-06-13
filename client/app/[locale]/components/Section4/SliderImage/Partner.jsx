@@ -32,12 +32,25 @@ const Partner = () => {
     { src: lago, hoverSrc: lagoHover, alt: 'Slide 5' },
     { src: irenic, hoverSrc: irenicHover, alt: 'Slide 6' },
      { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 7' },
+         { src: bookToHolidays, hoverSrc: bookToHolidaysHover, alt: 'Slide 1' },
+    { src: miramare, hoverSrc: miramareHover, alt: 'Slide 2' },
+    { src: portnature, hoverSrc: portnatureHover, alt: 'Slide 3' },
+    { src: azuraDeluxe, hoverSrc: azuraDeluxHover, alt: 'Slide 4' },
+    { src: lago, hoverSrc: lagoHover, alt: 'Slide 5' },
+    { src: irenic, hoverSrc: irenicHover, alt: 'Slide 6' },
+     { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 7' },
   ];
 
   const autoplayOptions = { delay: 4000, stopOnInteraction: true };
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, slidesToScroll: 1, containScroll: 'trimSnaps' },
-    [Autoplay(autoplayOptions)]
+    { loop: true, slidesToScroll: 1,   containScroll: false,
+      skipSnaps: false, },
+    [ Autoplay({
+        delay: 3000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: false,
+        playDirection: "forward",
+      }),]
   );
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -53,12 +66,16 @@ const Partner = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="embla" ref={emblaRef}>
-      <div className="embla__container">
+    <div className="overflow-hidden w-full" ref={emblaRef}>
+      <div className="flex items-center gap-[20px]">
         {images.map((image, index) => {
           const isCenter = index === currentIndex;
           return (
-            <div className={`embla__slide ${isCenter ? 'slide--hover' : ''}`} key={index}>
+            <div className={`relative shrink-0 flex justify-center items-center mr-4  flex-[0_0_auto]
+         lg:min-h-[230px]
+         lg:w-[240px]
+         md:w-[270px] md:h-[405px]
+         h-[266px] w-[177.3px]" ${isCenter ? 'slide--hover transform' : ''}`} key={index}>
              <Image
                 src={isCenter ? image.hoverSrc : image.src}
                 alt={image.alt}
@@ -94,7 +111,7 @@ const Partner = () => {
         }
 
         .slide--hover {
-          transform: scale(1.6);
+          transform: scale(1.4);
         }
 
         @media (min-width: 769px) {

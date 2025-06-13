@@ -246,7 +246,7 @@ export default function MyThreeScene() {
 
       {/* Yazılar + Button */}
       <div
-        className="flex left-[10%] lg:left-[20%] top-[32%] flex-col gap-4 justify-center text-start"
+        className="flex left-[10%] lg:left-[8%] xl:left-[20%] top-[32%] flex-col gap-4 justify-center text-start"
         style={{
           position: "absolute",
           color: "#fff",
@@ -254,7 +254,7 @@ export default function MyThreeScene() {
         }}
       >
         <h1
-          className="lg:w-[50%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[61.6px] text-[24px] lg:text-[56px] font-bold"
+          className="lg:w-[60%] xl:w-[50%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[61.6px] text-[24px] lg:text-[52px] xl:text-[56px] font-bold"
         >
          {t("title")}
         </h1>

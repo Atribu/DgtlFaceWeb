@@ -3,48 +3,49 @@ import React, { useCallback, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { useTranslations } from 'next-intl';
 
-const cardData = [
-  {
-    id: 1,
-    value: "4",
-    title: "Times",
-    description: "International Sales Increase",
-    gradientFrom: "#a754cf",
-    gradientTo: "#54b9cf",
-  },
-  {
-    id: 2,
-    value: "10",
-    title: "Years",
-    description: "Successful Brand Projects",
-    gradientFrom: "#54b9cf",
-    gradientTo: "#a754cf",
-  },
-  {
-    id: 3,
-    value: "6",
-    title: "Month",
-    description: "for Improvement in project indicators",
-    gradientFrom: "#a754cf",
-    gradientTo: "#54b9cf",
-  },
-  {
-    id: 4,
-    value: "8",
-    title: "Department",
-    description: "Professional team consisting of 8 departments",
-    gradientFrom: "#54b9cf",
-    gradientTo: "#a754cf",
-  },
-];
-
 const Section2 = () => {
+   const t = useTranslations("Homepage.stats")
   // Embla Carousel ayarlarımız: loop ve kaydırma ayarı
   const [emblaRef] = useEmblaCarousel({
     loop: true,
     align: "start",
     slidesToScroll: 1,
   });
+
+  const cardData = [
+  {
+    id: 1,
+    value: "4",
+    title: t("label1"),
+    description: t("desc1"),
+    gradientFrom: "#a754cf",
+    gradientTo: "#54b9cf",
+  },
+  {
+    id: 2,
+    value: "10",
+    title: t("label2"),
+    description: t("desc2"),
+    gradientFrom: "#54b9cf",
+    gradientTo: "#a754cf",
+  },
+  {
+    id: 3,
+    value: "6",
+    title: t("label3"),
+    description: t("desc3"),
+    gradientFrom: "#a754cf",
+    gradientTo: "#54b9cf",
+  },
+  {
+    id: 4,
+    value: "8",
+    title: t("label4"),
+    description: t("desc4"),
+    gradientFrom: "#54b9cf",
+    gradientTo: "#a754cf",
+  },
+];
 
   return (
     <div className="flex flex-col items-center justify-center gap-8 h-auto w-screen">

@@ -54,6 +54,128 @@
     "tagline_main": "Dijital Başarınız İçin Doğru Tercih!",
     "tagline_subtitle": " Dijital Teknoloji Ortağı",
     "tagline_description": "Müşteri ilişkilerindeki uzmanlığımızla, işletmenizi yaratıcılıkla geliştiriyoruz. DGTLFACE sizin için çarpıcı görsel içerikler, reklam konseptleri ve etkili dijital satış stratejileri üretir."
-  }
- }
+  },
+
+    "ourservices":{
+      "services_title": "Hizmetlerimiz",
+  "services_text1": "Dijital mükemmeliyet dünyasına DGTLFACE ile dalın. Sadece bir ajans değiliz; çevrimiçi başarının mimarlarıyız. Yenilikçi stratejilerimiz, etkileyici görsellerimiz ve güçlü dijital varlığımızla markanızı dönüştürün. Mükemmelliği açığa çıkarın; dijital ortağınız olarak bizi seçin.",
+  "services_text2": "Tıklamalar sadece başlangıç; dönüşümler varış noktamız. DGTLFACE’te dijital ortamda hassasiyetle yol alıyor, her etkileşimi bir dönüşüme çeviriyoruz. Markanızın yalnızca fark edilmekle kalmayıp, akılda kalmasını sağladığımız bu yolculuğa katılın.",
+  "services_button": "Keşfet"
+  },
+
+   "servicesData": {
+      "title1": "Yaratıcı Hizmetler",
+      "item1_1": "Grafik ve Hareketli Grafik Tasarım Hizmetleri",
+      "item1_2": "Videografi ve Prodüksiyon Hizmetleri",
+      "item1_3": "UI/UX Tasarım Hizmetleri",
+      "link1": "/Services/creative",
+
+      "title2": "Çağrı Merkezi Hizmetleri",
+      "item2_1": "4 Dilde Çağrı Hizmetleri",
+      "item2_2": "Rezervasyon Destek Hizmeti",
+      "item2_3": "Çoklu Kanal Takip Hizmeti",
+      "link2": "/Services/callcenter",
+
+      "title3": "Arama Motoru Optimizasyonu (SEO) Hizmetleri",
+      "item3_1": "4 Dilde Çağrı Hizmetleri",
+      "item3_2": "Rezervasyon Destek Hizmeti",
+      "item3_3": "Çoklu Kanal Takip Hizmeti",
+      "link3": "/Services/seo",
+
+      "title4": "Arama Motoru Pazarlaması (SEM) Hizmetleri",
+      "item4_1": "4 Dilde Çağrı Hizmetleri",
+      "item4_2": "Rezervasyon Destek Hizmeti",
+      "item4_3": "Çoklu Kanal Takip Hizmeti",
+      "link4": "/Services/sem",
+
+      "title5": "Dijital Pazarlama",
+      "item5_1": "SEO ve İçerik Pazarlaması",
+      "item5_2": "Sosyal Medya Yönetimi",
+      "item5_3": "Tıklama Başına Ödeme Reklamcılığı",
+      "link5": "/Services/smm",
+
+      "title6": "Yaratıcı Hizmetler",
+      "item6_1": "Grafik ve Hareketli Grafik Tasarım Hizmetleri",
+      "item6_2": "Videografi ve Prodüksiyon Hizmetleri",
+      "item6_3": "UI/UX Tasarım Hizmetleri",
+      "link6": "/Services/creative",
+
+      "title7": "Web Geliştirme",
+      "item7_1": "Ön Uç Geliştirme",
+      "item7_2": "Arka Uç Geliştirme",
+      "item7_3": "Full Stack Geliştirme",
+      "link7": "/Services/software",
+
+      "title8": "Dijital Pazarlama",
+      "item8_1": "SEO ve İçerik Pazarlaması",
+      "item8_2": "Sosyal Medya Yönetimi",
+      "item8_3": "Tıklama Başına Ödeme Reklamcılığı",
+      "link8": "/Services/smm",
+
+      "title9": "Bilgi Teknolojileri ve Yazılım Hizmetleri",
+      "item9_1": "Web Site ve Yazılım Hizmeti",
+      "item9_2": "Sunucu Yönetim Hizmeti",
+      "item9_3": "PDPA Uyumluluk Hizmeti",
+      "link9": "/Services/software"
+    },
+
+    "whyussection":{
+      "whyUs_header1": "Neden Biz?",
+    "whyUs_text1": "Marka ile müşteri tabanı arasında uyumlu bir ilişki geliştirmek için özenle tasarlanmış karmaşık bir mozaik oluşturuyoruz, dijital ortamda bir memnuniyet senfonisinin çınlamasını sağlıyoruz. Müşteri memnuniyetini hedefleyen bir dijital pazarlama ajansı olarak, satış kârı ile satış dönüşümünü artırma arasındaki hassas ritme derinlemesine bir çözüm sunuyoruz.",
+
+    "whyUs_header2": "Yenilikçi Çözümler",
+    "whyUs_text2": "DGTLFACE olarak sürekli değişen teknoloji dünyasında yenilikçi ve özelleştirilmiş çözümler sunuyoruz. Müşterilerimizin benzersiz ihtiyaçlarını derinlemesine anlayarak, onlara rekabet avantajı sağlayan dijital çözümler geliştiriyoruz. Yapay zeka, makine öğrenimi ve bulut bilişim gibi en son teknolojileri kullanarak iş süreçlerini optimize ediyor ve verimliliği artırıyoruz.",
+
+    "whyUs_header3": "İş Ortağı Odaklı Yaklaşım",
+    "whyUs_text3": "DGTLFACE, memnuniyetinizi her şeyin üzerinde tutar ve her projeyi benzersiz ve özel olarak ele alır. Uzun vadeli müşterilerinizle ilişkiler kurmayı hedefliyoruz. İhtiyaçlarınızı dinler, beklentilerinizi anlar ve her adımda sizi bilgilendiririz. Proje süreçlerimizde şeffaflığı ön planda tutarak güven inşa ederiz.",
+
+    "whyUs_header4": "Uzman Ekip",
+    "whyUs_text4": "Projelerinizde başarıya ulaşmanın anahtarı, uzmanlardan ve deneyimli profesyonellerden oluşan ekibimizdir. DGTLFACE ekibi, kendi alanlarında derin bilgi ve deneyime sahip bireylerden oluşur. Projelerinize kalite ve mükemmellikten ödün vermeden yenilikçi teknolojileri uygularız.",
+
+    "whyUs_header5": "Sürekli Destek ve Danışmanlık",
+    "whyUs_text5": "Teknoloji ortağınız olarak projenin her aşamasında yanınızdayız. Proje tesliminden sonra bile işinizin sorunsuz çalışmasını sürekli destek ve danışmanlık hizmetleri sunarak sağlıyoruz. DGTLFACE ile teknolojik gelişmeleri yakından takip edebilir ve işinizi sürekli geliştirebilirsiniz.",
+    "services_button": "Keşfet"
+    },
+
+    "contact":{
+      "contact_phone_label": "Telefon",
+  "contact_call_now": "Şimdi Ara",
+  "contact_email_label": "Mail",
+  "contact_email_text": "E - Mail",
+  "contact_address_label": "Adres",
+  "contact_location_text": "Konum",
+  "contact_location_value": "Muratpaşa / Antalya",
+
+  "contact_send_message": "Mesaj Gönder",
+  "contact_hello_name": "Merhaba! Benim adım",
+  "contact_i_work_at": "Şurada çalışıyorum",
+  "contact_company_suffix": "şirketi.",
+  "contact_project_request": "Bizim için bir proje yapmanı istiyorum;",
+  "contact_for_communication": "iletişim için",
+  "contact_in_addition": "Ek olarak,",
+  "contact_we_thank_you": "Teşekkür ederiz.",
+
+  "contact_button_send": "Gönder",
+  "contact_button_sending": "Gönderiliyor...",
+
+  "contact_mobile_send_message": "Mesaj Gönder",
+  "contact_mobile_label_name": "Ad / Soyad;",
+  "contact_mobile_placeholder_name": "Adınız",
+  "contact_mobile_label_phone": "Telefon Numarası;",
+  "contact_mobile_label_message": "Mesaj;",
+  "contact_mobile_policy": "İletişim Formu Politikası",
+   "error_submission_failed": "Gönderim başarısız oldu",
+  "error_generic": "Bir hata oluştu, lütfen tekrar deneyin",
+  "success_message_sent": "Mesajınız başarıyla gönderildi!",
+  "error_accept_policy": "Lütfen gizlilik politikasını kabul edin"
+    }
+ },
+ "Footer":{
+   "link_home": "Anasayfa",
+  "link_about": "Hakkımızda",
+  "link_services": "Hizmetler",
+  "link_contact": "İletişim",
+  "link_privacy_policy": "Gizlilik Politikası",
+  "link_terms_of_service": "Kullanım Şartları"
+}
 }

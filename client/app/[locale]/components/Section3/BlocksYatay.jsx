@@ -2,8 +2,11 @@
 import React, { useEffect, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 const Section3 = () => {
+  const t = useTranslations("Homepage.ourservices")
+  
   const [blocksOrder, setBlocksOrder] = useState([
     "0",
     "1",
@@ -63,47 +66,31 @@ const Section3 = () => {
        
         <div className="flex flex-col text-start items-start justify-center h-full ">
           <h3 className=" flex flex-row lg:flex-col gap-2 text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
-            <span className="text-white">Our</span>
+            
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[24px] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
-              Services
+              {t("services_title")}
             </span>
           </h3>
 
           <div className="flex flex-col gap-2">
             <p className="flex flex-col lg:hidden font-inter28 text-sm text-white font-normal leading-tight "> 
-              Dive into the world of digital excellence with DGTLFACE. We are
-              not just an agency; we are the architects of online
-              success. Transform your brand with our  innovative
-              strategies, captivating visuals and resonant digital presence.
-              Unleash excellence; Choose us as your digital partner.
+             {t("services_text1")}
               <br></br>
               <span className="opacity-50 line-clamp-2">
-              Clicks are just the beginning; conversions are our destination. At
-              DGTLFACE, we navigate the digital landscape with precision,
-              turning every interaction into a conversion. Join us on the
-              journey where your brand not only gets noticed but {" "}
-              remembered.
+              {t("services_text2")}
               </span>
             </p>
 
-            <p className="font-inter28 text-[14px] lg:text-[18px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex">
-              Dive into the world of digital excellence with DGTLFACE. We are
-              not just an <br /> agency; we are the architects of online
-              success. Transform your brand with our <br /> innovative
-              strategies, captivating visuals and resonant digital presence.
-              Unleash <br /> excellence; Choose us as your digital partner.
+            <p className="font-inter28 text-[14px] lg:text-[18px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex w-[70%] min-w-[460px]">
+               {t("services_text1")}
             </p>
-            <p className="font-inter28 text-sm lg:text-[18px] text-white font-normal leading-tight hidden lg:flex">
-              Clicks are just the beginning; conversions are our destination. At
-              DGTLFACE, we <br /> navigate the digital landscape with precision,
-              turning every interaction into a <br /> conversion. Join us on the
-              journey where your brand not only gets noticed but <br />{" "}
-              remembered.
+            <p className="font-inter28 text-sm lg:text-[18px] text-white font-normal leading-tight hidden lg:flex w-[70%] min-w-[460px]">
+              {t("services_text2")}
             </p>
           </div>
 
-          <Link href="/Services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
-            Explore
+          <Link href="/Services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px] ">
+             {t("services_button")}
           </Link>
           <style jsx>{`
             .gradient-border-button {

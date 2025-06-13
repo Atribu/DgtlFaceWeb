@@ -55,6 +55,129 @@
     "tagline_main": "Right Choice for Your Digital Success!",
     "tagline_subtitle": "DGTLFACE – Digital Technology Partner",
     "tagline_description": "With expertise in customer relationships, we upgrade your businesses with creativity. DGTLFACE produces stunning visual content, advertisement concepts, and effective digital sales strategies for you."
-  }
+  },
+
+  "ourservices":{
+      "services_title": "Our Services",
+  "services_text1": "Dive into the world of digital excellence with DGTLFACE. We are not just an agency; we are the architects of online success. Transform your brand with our innovative strategies, captivating visuals and resonant digital presence. Unleash excellence; Choose us as your digital partner.",
+  "services_text2": "Clicks are just the beginning; conversions are our destination. At DGTLFACE, we navigate the digital landscape with precision, turning every interaction into a conversion. Join us on the journey where your brand not only gets noticed but remembered.",
+  "services_button": "Explore"
+  },
+
+"servicesData": {
+      "title1": "Creative Services",
+      "item1_1": "Graphic & Motion Graphic Design Services",
+      "item1_2": "Videography & Production Services",
+      "item1_3": "UI/UX Design Services",
+      "link1": "/Services/creative",
+
+      "title2": "Call Center Services",
+      "item2_1": "Call 4 Languages Services",
+      "item2_2": "Reservation Support Service",
+      "item2_3": "Multiple Channels Tracking Service",
+      "link2": "/Services/callcenter",
+
+      "title3": "Search Engine Optimization (SEO) Services",
+      "item3_1": "Call 4 Languages Services",
+      "item3_2": "Reservation Support Service",
+      "item3_3": "Multiple Channels Tracking Service",
+      "link3": "/Services/seo",
+
+      "title4": "Search Engine Marketing (SEM) Services",
+      "item4_1": "Call 4 Languages Services",
+      "item4_2": "Reservation Support Service",
+      "item4_3": "Multiple Channels Tracking Service",
+      "link4": "/Services/sem",
+
+      "title5": "Digital Marketing",
+      "item5_1": "SEO & Content Marketing",
+      "item5_2": "Social Media Management",
+      "item5_3": "PPC Advertising",
+      "link5": "/Services/smm",
+
+      "title6": "Creative Services",
+      "item6_1": "Graphic & Motion Graphic Design Services",
+      "item6_2": "Videography & Production Services",
+      "item6_3": "UI/UX Design Services",
+      "link6": "/Services/creative",
+
+      "title7": "Web Development",
+      "item7_1": "Frontend Development",
+      "item7_2": "Backend Development",
+      "item7_3": "Full Stack Development",
+      "link7": "/Services/software",
+
+      "title8": "Digital Marketing",
+      "item8_1": "SEO & Content Marketing",
+      "item8_2": "Social Media Management",
+      "item8_3": "PPC Advertising",
+      "link8": "/Services/smm",
+
+      "title9": "Information Technologies & Software Services",
+      "item9_1": "Website and Software Service",
+      "item9_2": "Server Management Service",
+      "item9_3": "PDPA Compliance Service",
+      "link9": "/Services/software"
+    },
+
+    "whyussection":{
+      "whyUs_header1": "Why Us?",
+    "whyUs_text1": "We create a complex mosaic of carefully designed strategies to develop a harmonious relationship between the brand and its customer base, ensuring that a symphony of satisfaction resonates in the digital environment. A digital marketing agency targeting customer satisfaction, we offer an in-depth solution to the delicate rhythm between return on sales and increasing sales conversion.",
+
+    "whyUs_header2": "Innovative Solutions",
+    "whyUs_text2": "At DGTLFACE, we offer innovative and customized solutions in the ever-changing world of technology. By deeply understanding our clients' unique needs, we develop digital solutions that give them a competitive edge. Utilizing the latest technologies like artificial intelligence, machine learning, and cloud computing, we optimize business processes and boost efficiency.",
+
+    "whyUs_header3": "Business Partner Oriented Approach",
+    "whyUs_text3": "DGTLFACE puts your satisfaction above all else and treats each project as unique and special. As DGTLFACE, we aim to establish long-term relationships with your customers. We listen to your needs, understand your expectations and inform you at every step. We build trust by prioritising transparency in our project processes.",
+
+    "whyUs_header4": "Expert Team",
+    "whyUs_text4": "Our team, comprised of experts and experienced professionals, is the key to achieving success in your projects. The DGTLFACE team consists of individuals with profound knowledge and experience in their respective fields. We apply innovative technologies to your projects without compromising on quality and excellence.",
+
+    "whyUs_header5": "Continuous Support and Counselling",
+    "whyUs_text5": "As your technology partner, we are with you at every stage of the project. Even after project delivery, we ensure that your business runs smoothly by providing continuous support and consultancy services. With DGTLFACE, you can closely follow technological developments and continuously improve your business.",
+    "services_button": "Explore"
+    },
+
+    "contact":{
+        "contact_phone_label": "Phone",
+  "contact_call_now": "Call Now",
+  "contact_email_label": "Mail",
+  "contact_email_text": "E - Mail",
+  "contact_address_label": "Address",
+  "contact_location_text": "Location",
+  "contact_location_value": "Muratpaşa / Antalya",
+
+  "contact_send_message": "Send Message",
+  "contact_hello_name": "Hello! My name is",
+  "contact_i_work_at": "I work at",
+  "contact_company_suffix": "company.",
+  "contact_project_request": "I want you to do a project for us;",
+  "contact_for_communication": "for communication",
+  "contact_in_addition": "In addition,",
+  "contact_we_thank_you": "We thank you.",
+
+  "contact_button_send": "Send",
+  "contact_button_sending": "Sending...",
+
+  "contact_mobile_send_message": "Send Message",
+  "contact_mobile_label_name": "Name / Surname;",
+  "contact_mobile_placeholder_name": "Your Name",
+  "contact_mobile_label_phone": "Phone Number;",
+  "contact_mobile_label_message": "Message;",
+  "contact_mobile_policy": "Contact Form Policy",
+  "error_submission_failed": "Submission failed",
+  "error_generic": "An error occurred, please try again",
+   "success_message_sent": "Your message was sent successfully!",
+  "error_accept_policy": "Please accept the privacy policy"
+    }
+},
+
+"Footer":{
+  "link_home": "Home",
+  "link_about": "About",
+  "link_services": "Services",
+  "link_contact": "Contact",
+  "link_privacy_policy": "Privacy Policy",
+  "link_terms_of_service": "Terms of Service"
 }
 }
