@@ -1,6 +1,60 @@
 {   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, en {EN} tr {TR} ru {RU} other {Unknown}}"
+    "locale": "{locale, select, en {EN} tr {TR} ru {RU}  other {Unknown}}"
   
+  },
+
+    "Header": {
+    "home": "Home",
+    "services": "Services",
+    "about_us": "About us",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "creative": "Creative",
+    "call_center": "Call Center",
+    "pms_ota_management": "PMS & OTA Management",
+    "search_engine_marketing": "Search Engine Marketing",
+    "search_engine_optimization": "Search Engine Optimization",
+    "social_media_marketing": "Social Media Marketing",
+    "information_technology_software": "Information Technology & Software",
+    "digital_analysis_reporting": "Digital Analysis & Reporting",
+     "phone": "Phone",
+    "mail": "Mail",
+    "get_in_touch": "Get in touch",
+    "let_us_call_you": "Let us call you",
+    "tagline": "DGTLFACE – Digital Technology Partner"
+  },
+
+"Homepage":{
+    "Hero": {
+    "title": "Antalya Digital Technology Partner",
+    "subtitle": "DGTLFACE Digital Technology Partner offers high-quality and cost-effective digital marketing solutions tailored to each business.",
+    "button": "Explore"
+  },
+
+  "stats": {
+    "value1": "4",
+    "label1": "Times",
+    "desc1": "International Sales Increase",
+    "value2": "10",
+    "label2": "Years",
+    "desc2": "Successful Brand Projects",
+    "value3": "6",
+    "label3": "Month",
+    "desc3": "For Improvement in Project Indicators",
+    "value4": "8",
+    "label4": "Department",
+    "desc4": "Professional team consisting of 8 departments"
+  },
+
+  "partners": {
+    "title": "Our Partners",
+    "description": "DGTLFACE is proud to collaborate with industry leaders and innovators to provide the best services and solutions.",
+    "list_intro": "Our esteemed partners include:",
+    "tagline_main": "Right Choice for Your Digital Success!",
+    "tagline_subtitle": "DGTLFACE – Digital Technology Partner",
+    "tagline_description": "With expertise in customer relationships, we upgrade your businesses with creativity. DGTLFACE produces stunning visual content, advertisement concepts, and effective digital sales strategies for you."
   }
+}
 }
