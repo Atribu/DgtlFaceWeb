@@ -225,12 +225,12 @@
 
 
 .thin-scrollbar::-webkit-scrollbar {
-  width: 1px; /* Scrollbar geniÅŸliÄŸi */
+  width: 1px; 
   
 }
 
 .thin-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 1); /* Scroll Ã§ubuÄŸu rengi */
+  background-color: rgba(255, 255, 255, 1); 
   border-radius: 10px;
 }
 
