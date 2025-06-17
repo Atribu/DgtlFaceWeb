@@ -60,9 +60,6 @@ const Header = () => {
   }, [isMenuOpen]);
 
 
-
-
-
   useEffect(() => {
     setIsServicesOpen(false)
     setIsMenuOpen(false);
@@ -73,7 +70,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="w-screen lg:w-[61%] lg:max-w-[1000px] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-20 xl:gap-32 top-0 backdrop-blur-md" >
+    <header className="w-screen lg:w-[64%] lg:max-w-[1300px] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-20 xl:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
       <Link href="/"><Logo className="w-auto hidden xl:flex" width={219} height={54.454} /> <Logo className="w-auto flex xl:hidden" width={180} height={40} /></Link>
 
@@ -101,10 +98,10 @@ const Header = () => {
         Menü (nav) => Tek bir sabit gradient border
         "gradient-border-nav" sınıfı ile.
       */}
-      <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center  text-center px-4 py-2 backdrop-blur-xl whitespace-nowrap">
+      <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center  text-center px-4 xl:px-[50px] py-[10px] backdrop-blur-xl whitespace-nowrap border border-[#547dcf]">
         <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
           <li>
-            <a href="/" className="hover:text-gray-300">
+            <a href="/" className="bg-gradient-to-r hover:from-purple-500/50  hover:via-indigo-500/50 hover:to-blue-400/50 hover:bg-clip-text hover:text-transparent">
              {t("home")}
             </a>
           </li>
@@ -125,7 +122,7 @@ const Header = () => {
 
   {isMounted && isOpen && (
     <div 
-      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-1/2 bg-transparent p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl !bg-gray-900 !bg-opacity-10 md:min-w-[640px]"
+      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-1/2 p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl  md:min-w-[640px] !bg-[#080612]/50"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
@@ -211,7 +208,7 @@ const Header = () => {
   <div className="flex gap-2 xl:gap-4 items-center justify-around">
          <LangSwitcher/>
       {/* Örnek Buton */}
-      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[16px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[12px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </Link>
   </div>

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/*#140f25*/
+
 @font-face {
   font-family: "Inter";
   src: url("/Fonts/Inter_18pt-Black.ttf");
@@ -532,5 +534,6 @@
   .black-scrollbar::-webkit-scrollbar-track {
     background: transparent; /* Arka plan rengi */
   }
+  
 
 
