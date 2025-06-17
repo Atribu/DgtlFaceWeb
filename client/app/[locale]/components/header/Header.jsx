@@ -72,7 +72,7 @@ const Header = () => {
   return (
     <header className="w-screen lg:w-[64%] lg:max-w-[1300px] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-20 xl:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
-      <Link href="/"><Logo className="w-auto hidden xl:flex" width={219} height={54.454} /> <Logo className="w-auto flex xl:hidden" width={180} height={40} /></Link>
+      <Link href="/"><Logo className="w-auto hidden xl:flex" width={200} height={54} /> <Logo className="w-auto flex xl:hidden" width={180} height={40} /></Link>
 
       <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
        <Link href="/">
@@ -122,7 +122,7 @@ const Header = () => {
 
   {isMounted && isOpen && (
     <div 
-      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-1/2 p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl  md:min-w-[640px] !bg-[#080612]/50"
+      className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-[51%] p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl  md:min-w-[640px] !bg-[#080612]/50"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
@@ -208,7 +208,7 @@ const Header = () => {
   <div className="flex gap-2 xl:gap-4 items-center justify-around">
          <LangSwitcher/>
       {/* Örnek Buton */}
-      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[12px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
+      <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[10px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">
         +90 ( 0532 ) 645 17 67
       </Link>
   </div>

@@ -131,8 +131,8 @@ export default function WhyUsSection() {
       <div className="hidden lg:flex flex-col lg:flex-row gap-2 xl:gap-12 font-inter items-center justify-center">
         <div className="flex flex-col gap-12 w-[90%]">
           {/* Card: Innovative Solutions */}
-          <div className="w-[100%] lg:px-[59px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3">
-            <h4 className="w-full lg:w-[502px] relative justify-start text-[#140f25] text-[20px] text-2xl font-bold font-inter leading-[120%] lg:leading-[28.80px]">
+          <div className="w-[100%] px-[3%] xl:px-[59px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3">
+            <h4 className="w-full xl:w-[502px] relative justify-start text-[#140f25] text-[20px] text-2xl font-bold font-inter leading-[120%] lg:leading-[28.80px]">
               {t("whyUs_header2")}
             </h4>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">

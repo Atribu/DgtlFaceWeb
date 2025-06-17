@@ -230,7 +230,7 @@ const ContactMain = () => {
           onSubmit={handleSubmit}
           className="hidden lg:inline-flex w-[620px] p-12 bg-white rounded-[25px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] flex-col justify-start items-center gap-12"
         >
-          <div className="relative justify-start text-[#140f25] text-[32px] font-bold font-['Inter'] leading-[38.40px]">
+          <div className="relative justify-center text-[#140f25] text-[32px] font-bold font-['Inter'] leading-[38.40px]">
             {t("contact_send_message")}
           </div>
 
@@ -379,7 +379,7 @@ const ContactMain = () => {
         </form>
 
         {/* Mobile Form */}
-        <div className="flex lg:hidden w-[95%] py-[18px] px-[15px] bg-white items-center justify-center">
+        <div className="flex lg:hidden w-[100%] py-[18px] px-[15px] bg-white items-center justify-center">
           <form
             onSubmit={handleMobileSubmit}
             className="flex flex-col w-full items-center justify-center text-start gap-[18px] text-darkBlue font-inter"

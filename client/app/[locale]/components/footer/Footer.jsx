@@ -84,7 +84,7 @@ export default function Footer() {
                 <Linkedin className="w-9 h-9 z-[20]" />
               </Link>
               <Link
-                href="tel+90"
+                href="tel:+905326451767"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex z-[20]"
@@ -212,7 +212,7 @@ xl:max-w-[172px] whitespace-nowrap
                 <Linkedin className="w-9 h-9 z-[20]" />
               </Link>
               <Link
-                href="tel:+90"
+                href="tel:+905326451767"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex z-[20]"
