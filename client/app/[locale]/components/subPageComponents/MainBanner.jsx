@@ -62,7 +62,7 @@ const MainBanner = ({header,text}) => {
           </div>
        
         <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full ">
-          <h3 className=" flex flex-col gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2 text-center items-center justify-center">
+          <h3 className=" flex flex-col gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
             <span className="text-white w-[100%] lg:w-[80%]">{header}</span>
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               Services

@@ -34,7 +34,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
               onMouseLeave={() => setActiveIndex(null)}
               data-property-1="Default"
               className={` group h-[83px] md:h-72 relative bg-[#130b29] rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden text-white ${
-                card.id === 3 ? "col-span-2 w-[98%]" : "lg:w-[582px]"
+                card.id === 3 ? "col-span-2 w-[100%]" : "lg:w-[100%]"
               }`}
             >
               <div className="w-[90%] lg:w-[582px] h-80 opacity-50 bg-[radial-gradient(ellipse_10.32%_6.01%_at_75.86%_80.09%,_#54B9CF_0%,_#547CCF_50%,_rgba(20,_12,_41,_0)_100%)]" />

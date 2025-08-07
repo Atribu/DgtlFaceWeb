@@ -312,13 +312,13 @@ const VerticalSlider = () => {
      <div className="hidden lg:flex flex-col absolute top-1/2 -left-20 transform -translate-y-1/2">
         <button onClick={handlePrev} className="p-2  text-white "><IoIosArrowUp size={20} color="#fff"/></button>
         <button onClick={handleNext} className="p-2 text-white "><IoIosArrowDown size={20} color="#fff"/></button>
-      </div>
+        </div>
 
         </div>
 
 
 
-        <div className='hidden md:flex h-full lg:w-[40%] items-center justify-start overflow-hidden'>
+         <div className='hidden md:flex h-full lg:w-[40%] items-center justify-start overflow-hidden'>
            <ServiceBlocks blocksOrder={blocksOrder} rotate={false}
           blockPositions={blockPositions}/>
         </div>
