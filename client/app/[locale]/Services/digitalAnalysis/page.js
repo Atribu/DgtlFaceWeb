@@ -71,7 +71,7 @@ const servicesData = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
       <MainBanner header="Digital Analysis & Reporting" text="Digital Analysis and Reporting Services is a leading provider of data-driven solutions for businesses of all sizes and industries. This system helps clients transform their data into actionable insights, optimize their performance, and achieve their strategic goals."/>
       <StepSection header="Comprehensive Range of" header2="Services" text=" We collects and integrates data from various sources, such as web analytics, social media, Google, OTA, and more. We ensures the quality, accuracy, and security of the data, and prepares it for analysis." servicesData={servicesData}/>
       <VerticalSlider/>

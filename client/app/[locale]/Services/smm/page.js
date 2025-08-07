@@ -71,7 +71,7 @@ const servicesData = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
       <MainBanner header="Social Media Marketing (SMM)" text="Social Media Marketing (SMM) Services designed to help you unlock the full potential of social media for your business. Our customised SMM strategy tailored to your unique goals and objectives."/>
       <StepSection header="Content" header2="Creation" text=" We'll develop a strategic social media plan aligned with your business objectives, identifying key target audiences, platforms, and messaging strategies. Our team will create engaging and relevant content, including posts, images, videos, and stories, designed to resonate with your audience and drive engagement." servicesData={servicesData}/>
       <VerticalSlider/>

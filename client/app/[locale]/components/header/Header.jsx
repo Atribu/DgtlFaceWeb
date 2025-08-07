@@ -72,18 +72,16 @@ const Header = () => {
   return (
     <header className="w-screen lg:w-[64%] lg:max-w-[1300px] right-0 left-0 lg:left-auto lg:right-1/2 lg:rounded-[20px] lg:translate-x-1/2 bg-gray-900 text-white bg-transparent lg:mt-[42px] fixed h-[80.5px] lg:h-auto z-[999] flex items-center justify-center lg:gap-20 xl:gap-32 top-0 backdrop-blur-md" >
       {/* Logo Alanı */}
-      <Link href="/"><Logo className="w-auto hidden xl:flex" width={200} height={54} /> <Logo className="w-auto flex xl:hidden" width={180} height={40} /></Link>
+      <Link href="/"><Logo className="w-auto hidden xl:flex" width={200} height={54} /> <Logo className="w-auto hidden lg:flex xl:hidden" width={180} height={40} /></Link>
 
       <div className="flex lg:hidden w-[90%] items-center justify-between h-full fixed mt-10" >
        <Link href="/">
-       <Logo2 className="flex lg:hidden" width={36} height={30} color={color} style={{
+       <Logo2 className="flex lg:hidden" width={42} height={36} color={color} style={{
         color, // dinamik olarak ayarlanan renk
         transition: "color 0.1s ease-out", }}/></Link>
 
-        <div className="flex gap-[5px] items-center justify-center h-full">
-          <div className="flex itemx-center justify-center text-center  gap-[5px] py-[8px] px-[14] text-[12px] font-semibold leading-[120%] -tracking-[0.24px] text-white font-inter">
-            EN <DownArrow className="flex items-center" width={9} height={8} />
-          </div>
+        <div className="flex gap-[8px] items-center justify-center h-full">
+           <LangSwitcher/>
           <button style={{
         color, // dinamik olarak ayarlanan renk
         transition: "color 0.1s ease-out", }}
@@ -205,7 +203,7 @@ const Header = () => {
         </div>
       )} */}
 
-  <div className="flex gap-2 xl:gap-4 items-center justify-around">
+  <div className="hidden lg:flex gap-2 xl:gap-4 items-center justify-around">
          <LangSwitcher/>
       {/* Örnek Buton */}
       <Link href="tel:+905326451767" className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[10px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[15px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]">

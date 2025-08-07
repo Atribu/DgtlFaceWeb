@@ -72,7 +72,7 @@ const servicesData = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
       <MainBanner header="Creative" text="Check out the beating heart of creativity at DGTLFACE. We don't just dream; We create symphonies of imagination. Watch your brand evolve into a fascinating fabric of brilliance."/>
       <StepSection header="Creativity & Beyond of" header2="Design" text="  Every pixel, every word has been meticulously woven into a perfect
             texture. Join the innovation symphony where dreams turn into design.

@@ -71,7 +71,7 @@ const servicesData = [
 
 const page = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
       <MainBanner header="Search Engine Optimization (SEO)" text="Our comprehensive approach to SEO includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results."/>
       <StepSection header="Head up on" header2="Search" text="  Evolve your online visibility and organic traffic with Search Engine Optimization (SEO) services. DGTLFACE ensures your website remains visible to competitive and ideal customers by staying updated with search engine algorithm updates." servicesData={servicesData}/>
       <VerticalSlider/>

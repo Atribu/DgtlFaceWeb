@@ -9,7 +9,7 @@ import ServicesGridSection from './components/ServicesGridSection.jsx'
 
 const page = () => {
   return (
-    <div className='flex flex-col overflow-hidden gap-[48px] lg:gap-[150px]'>
+    <div className='flex flex-col overflow-hidden gap-[48px] md:gap-[75px] lg:gap-[150px]'>
       <Section1 />
       <Section2 />
       <ServicesGridSection/>

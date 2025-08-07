@@ -46,7 +46,7 @@ const MainBanner = ({header,text}) => {
       };
 
   return (
-    <div className='flex items-center justify-center bg-cover bg-center h-[55vh] lg:h-screen w-screen'  style={{ background:
+    <div className='flex items-center justify-center bg-cover bg-center h-[60vh] min-h-[500px] lg:h-screen w-screen'  style={{ background:
           "linear-gradient(to right, #140C29 0%, #140C29 25%, #1d2342 30%, #1d2342 38%, #140C29 45%, #140C29 100%)",
       }}>
       <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
@@ -62,8 +62,8 @@ const MainBanner = ({header,text}) => {
           </div>
        
         <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full ">
-          <h3 className=" flex flex-col  gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2">
-            <span className="text-white w-[80%]">{header}</span>
+          <h3 className=" flex flex-col gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2 text-center items-center justify-center">
+            <span className="text-white w-[100%] lg:w-[80%]">{header}</span>
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               Services
             </span>
@@ -76,7 +76,7 @@ const MainBanner = ({header,text}) => {
             
           </div>
 
-          <button className="mt-4 lg:mt-6 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
+          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
             Explore
           </button>
           <style jsx>{`

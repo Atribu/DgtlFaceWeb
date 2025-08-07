@@ -5,7 +5,7 @@ import Gradyan from "../Image/gradyan.png";
 
 const Section1 = () => {
   return (
-    <div className="w-full h-[55vh] lg:min-h-screen bg-[#140f25] flex flex-col md:flex-row items-center justify-center p-5 relative overflow-hidden">
+    <div className="w-full h-[55vh] min-h-[450px] lg:min-h-screen bg-[#140f25] flex flex-col md:flex-row items-center justify-center p-5 relative overflow-hidden">
       {/* Gradyan Resmi Eklendi */}
       <div className="absolute inset-x-0 bottom-0 z-20 overflow-hidden">
         <Image 

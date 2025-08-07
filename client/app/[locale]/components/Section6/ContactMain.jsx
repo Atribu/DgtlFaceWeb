@@ -205,8 +205,7 @@ const ContactMain = () => {
           {/* Konum */}
           <Link
             href="/contact"
-            className="flex flex-col lg:flex-row items-center gap-6"
-          >
+            className="flex flex-col lg:flex-row items-center gap-6">
             <Image
               src="/gifs/location.gif"
               alt="location GIF"
