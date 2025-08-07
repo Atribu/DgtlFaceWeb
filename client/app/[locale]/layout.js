@@ -22,9 +22,7 @@ export const metadata = {
   title: "DGTLFACE",
   description: "Dgtlface | Technology Partner",
    icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/faicon.svg",
+    icon: "/favicon.ico",
   },
 };
 

@@ -57,8 +57,8 @@ const VerticalSlider = () => {
                 Services
               </span>
             </div>
-            <div className="flex flex-col justify-center items-start gap-6">
-              <div className="w-[500px] justify-center text-Main-White text-[12px] lg:text-[18px] font-normal font-inter leading-[140%]">
+            <div className="flex flex-col justify-center items-start gap-6  max-w-[90vw]">
+              <div className="lg:w-[500px] justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-[140%]">
                 Check out the beating heart of creativity at DGTLFACE. We don't just dream; We create symphonies of imagination. Watch your brand evolve into a fascinating fabric of brilliance.
               </div>
               <div className="px-8 py-4 rounded-2xl outline outline-2 outline-offset-[-2px] outline-blue-400 inline-flex justify-center items-center ">
@@ -78,7 +78,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Call center service can be a good way to increase your company's reputation and brand perception. Moreover, as DGTLFACE, we promise to increase the perception of professionalism on your brand by providing you with call reception service in 4 languages.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -98,7 +98,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Streamline your operations with DGTLFACE's hotel management system (PMS) and online travel agency (OTA) services. Our integrated approach enhances cross-platform visibility by optimising your online presence and reservations, making operations more efficient.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -118,7 +118,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Our comprehensive approach to SEO includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -138,7 +138,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 In today's fiercely competitive digital landscape, being found amidst the endless sea of online content is paramount to success. At DGTLFACE, we specialise in propelling your brand to the forefront of search engine results through our comprehensive Search Engine Marketing (SEM) services.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -158,7 +158,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Social Media Marketing (SMM) Services designed to help you unlock the full potential of social media for your business. Our customised SMM strategy tailored to your unique goals and objectives.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -178,7 +178,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Involve your brand in the art of web development with our expert software developers. From stylish interfaces to robust functionality, we create digital experiences that go beyond the ordinary. Take a firm step into the digital world with our code mastery.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
@@ -198,7 +198,7 @@ const VerticalSlider = () => {
               </span>
             </div>
             <div className="flex flex-col justify-center items-start gap-3">
-              <div className=" opacity-75 justify-center text-Main-White text-[18px] font-normal font-inter leading-tight">
+              <div className=" opacity-75 justify-center text-Main-White text-[14px] md:text-[16px] lg:text-[18px] font-normal font-inter leading-tight">
                 Digital Analysis and Reporting Services is a leading provider of data-driven solutions for businesses of all sizes and industries. This system helps clients transform their data into actionable insights, optimize their performance, and achieve their strategic goals.
               </div>
               <div className="px-7 py-3.5 rounded-[10px] outline outline-1 outline-offset-[-1px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
