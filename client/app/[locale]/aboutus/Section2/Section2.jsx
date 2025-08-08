@@ -2,8 +2,11 @@ import React from 'react';
 import Office2 from "./Image/Office2.png";
 import Office3 from "./Image/Ofiice3.png";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 const Section2 = () => {
+    const t = useTranslations("AboutPage");
+    
   return (
     <div className='flex flex-col items-center justify-center w-screen gap-[40px] lg:gap-[75px]'>
         {/* İlk Bölüm */}

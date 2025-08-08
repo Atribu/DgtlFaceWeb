@@ -1,8 +1,11 @@
 import React from 'react';
 import Image from "next/image";
 import Main from "../Image/ContactMain.png";
+import { useTranslations } from 'next-intl';
 
 const Contact = () => {
+  const t = useTranslations("ContactPage");
+
   return (
     <div id='contact' className="w-full h-[375px] sm:h-[400px] md:h-[500px] lg:h-[570px] relative bg-[#080612] ">
       {/* Arkaplan Resmi */}
@@ -18,21 +21,21 @@ const Contact = () => {
         {/* Başlık */}
         <h1 className="relative text-center">
           <span className="text-white text-[24px] lg:text-[56px] font-bold font-inter capitalize leading-[1.1] sm:leading-[61.60px]">
-            Contact us
+           {t("contactpage_s1_header")}
           </span>{" "}
           <span 
             className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] text-transparent bg-clip-text text-[24px] lg:text-[56px] font-bold font-inter capitalize leading-[1.1] sm:leading-[61.60px]">
-            Now
+             {t("contactpage_s1_span1")}
           </span>
         </h1>
 
         {/* Alt Metin */}
         <div className='flex flex-row gap-1 items-center justify-center'>
           <div className="text-white text-xl sm:text-2xl font-bold font-inter leading-[1.2] sm:leading-[28.80px]">
-            DGTLFACE
+            {t("contactpage_s1_text1")}
           </div>
           <div className="text-white text-base sm:text-lg font-normal font-inter leading-[1.2] sm:leading-[25.20px]">
-            – Digital Technology Partner
+          {t("contactpage_s1_text2")}
           </div>
         </div>
       </div>
@@ -58,7 +61,7 @@ const Contact = () => {
               WebkitMaskComposite: 'xor', // Safari desteği
             }}
           />
-          <span className="relative z-10 mt-[50px]">Call Now</span>
+          <span className="relative z-10 mt-[50px]">{t("contactpage_s1_button")}</span>
         </button>
       </div>
     </div>

@@ -179,5 +179,90 @@
   "link_contact": "Contact",
   "link_privacy_policy": "Privacy Policy",
   "link_terms_of_service": "Terms of Service"
+},
+
+"ContactPage":{
+  "contactpage_s1_header": "Contact us",
+  "contactpage_s1_span1": "Now",
+  "contactpage_s1_text1": "DGTLFACE",
+  "contactpage_s1_text2": "– Digital Technology Partner",
+  "contactpage_s1_button": "Call Now",
+
+  "contactpage_s2_text1": "Digital Agency DGTLFACE",
+  "contactpage_s2_header1": "Unlocking The ",
+  "contactpage_s2_span1": "Digital",
+  "contactpage_s2_header2": " World",
+  "contactpage_s2_header3": "With Our Efficient ",
+  "contactpage_s2_span2": "Solution",
+  "contactpage_s2_text2": "Empowering your digital journey with our innovative solutions. We are transforming the digital landscape with our cutting-edge technology and talented team. DGTLFACE are going to elevate your digital visibility",
+
+  "contactpage_s3_text1": "Yenigün, Hacıoğulları Apt, Kızılırmak Cd. No: 18 B, 07310 Muratpaşa/Antalya",
+  "contactpage_s3_button": "Get Directions"
+  
+},
+
+"AboutPage":{
+  "aboutpage_s1_header1": "A Comprehensive Insight into",
+  "aboutpage_s1_span1": "DGTLFACE",
+  "aboutpage_s1_header2": "Be The Best in",
+  "aboutpage_s1_header3": "The",
+  "aboutpage_s1_span2": "Digital World",
+  "aboutpage_s1_text1": "Clearly define your digital goals. Whether it's increasing online visibility, expanding market reach, or improving customer engagement, having well-defined objectives is crucial. Prioritize user experience in all your digital endeavors. A user-friendly website or application, intuitive interfaces, and personalized content contribute to a positive user experience.",
+  "aboutpage_s1_button1": "Explore Services",
+
+  "aboutpage_s2_header1": "Our Original",
+  "aboutpage_s2_span1": "Story",
+  "aboutpage_s2_text1": "DGTLFACE, a digital marketing agency established in 2019, provides online marketing services to a wide range of companies, from local brands and startups to large corporations. Our company is headquartered in Antalya, and with our creative and collaborative professional team, we operate not only in Turkey but also in many countries across Europe.",
+  "aboutpage_s2_button1": "Get in Touch",
+  "aboutpage_s2_header2": "Your Project",
+  "aboutpage_s2_span2": "Begins",
+  "aboutpage_s2_header3": "Here",
+  "aboutpage_s2_text2": "We play a pivotal role in elevating businesses to unprecedented heights by meticulously crafting and implementing sophisticated marketing strategies in the ever-expansive realm of the online landscape.",
+  "aboutpage_s2_text3": "At DGTLFACE, we master the digital space by strategically using our products and services to attract the attention of a large online audience.",
+  "aboutpage_s2_button2": "Start a Project",
+
+  "aboutpage_s3_header1": "Dgtlface",
+  "aboutpage_s3_span1": "Values",
+  "aboutpage_s3_card1_header": "Quality",
+  "aboutpage_s3_card1_span": "01",
+  "aboutpage_s3_card1_text": "In the world of digital marketing, DGTLFACE's quality principle is to carry out comprehensive and careful tasks with the highest quality teams and equipment. Quality is the most important factor in digital improvement.",
+  "aboutpage_s3_card2_header": "Reliability",
+  "aboutpage_s3_card2_span": "02",
+  "aboutpage_s3_card2_text": "The avant-garde initiatives adopted by DGTLFACE provide a reliable foundation. Trust and quality reinforce each other and prepare a dependable digital world for our partners.",
+  "aboutpage_s3_card3_header": "Creativity",
+  "aboutpage_s3_card3_span": "03",
+  "aboutpage_s3_card3_text": "Every member of DGTLFACE builds their creative career on originality and excitement; we are not interested in creating anything subpar, derivative, or dull.",
+  "aboutpage_s3_card4_header": "Ambition",
+  "aboutpage_s3_card4_span": "04",
+  "aboutpage_s3_card4_text": "We are in the creative industry to push boundaries, discover new approaches, and innovate at every stage. We constantly strive to surpass our previous work and motivate each other to improve.",
+  "aboutpage_s3_cta_header1": "Let's Forge Success",
+  "aboutpage_s3_cta_span1": "Together",
+  "aboutpage_s3_cta_text1": "We are ready to take the first steps in the next creative endeavour. All that separates this moment from the beginning of our collaborative journey is just a tap of the button below.",
+  "aboutpage_s3_cta_button1": "Get in Touch",
+  "aboutpage_s3_footer_header1": "Our Collaborators",
+  "aboutpage_s3_footer_text1": "How can we help you?",
+
+  "aboutpage_s4_values_header1": "Dgtlface",
+  "aboutpage_s4_values_span1": "Values",
+  "aboutpage_s4_chip1_header": "Quality",
+  "aboutpage_s4_chip1_span": "01",
+  "aboutpage_s4_chip2_header": "Reliability",
+  "aboutpage_s4_chip2_span": "02",
+  "aboutpage_s4_chip3_header": "Creativity",
+  "aboutpage_s4_chip3_span": "03",
+  "aboutpage_s4_chip4_header": "Ambition",
+  "aboutpage_s4_chip4_span": "04",
+  "aboutpage_s4_faq_header1": "Frequently Asked",
+  "aboutpage_s4_faq_span1": "Questions",
+  "aboutpage_s4_faq1_header": "What Are Design Services?",
+  "aboutpage_s4_faq1_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information.",
+  "aboutpage_s4_faq2_header": "Why Are Design Services Important?",
+  "aboutpage_s4_faq2_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information.",
+  "aboutpage_s4_faq3_header": "What Types of Projects Can Benefit from Design Services?",
+  "aboutpage_s4_faq3_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information.",
+  "aboutpage_s4_faq4_header": "How Do Design Services Work?",
+  "aboutpage_s4_faq4_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information."
 }
+
+
 }
