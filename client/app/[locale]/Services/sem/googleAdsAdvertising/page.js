@@ -7,6 +7,7 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -36,9 +37,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("GoogleAdsAdvertising");
+
+   const stepData = [1,2,3,4].map(i => ({
+     id: i,
+     image: [image1,image2,image3,image4][i-1],
+     header: t(`googleadsadvertising_step${i}_header`),
+     text:   t(`googleadsadvertising_step${i}_text`)
+   }));
+   
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Google Ads Advertising" header2="Services" text="Track the effectiveness of your Google Ads campaigns by monitoring conversions, attributing sales, and optimizing your advertising ROI." buttonLink="/"/>
+      <SubBanner
+  header={t("googleadsadvertising_subbanner_header")}
+  header2={t("googleadsadvertising_subbanner_header2")}
+  text={t("googleadsadvertising_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

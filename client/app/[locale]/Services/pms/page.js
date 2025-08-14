@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,26 @@ const servicesData = [
 ];
 
 const page = () => {
+  const t = useTranslations("Pms");
+
+  const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`pms_services_title${i}`),
+  subTitle: t(`pms_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`pms_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/pms/hotelIdentification",
+    "/Services/pms/otaContract",
+    "/Services/pms/webPayment",
+    "/Services/pms/reservationModule",
+    "/Services/pms/reservationManagement"
+  ][i-1]
+}));
+
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="PMS&OTA Setup" text="Streamline your operations with DGTLFACE's hotel management system (PMS) and online travel agency (OTA) services. Our integrated approach enhances cross-platform visibility by optimising your online presence and reservations, making operations more efficient."/>
-      <StepSection header="Set-up and " header2="Optimising" text="Discover our comprehensive solution designed to simplify and strengthen your accommodation operations, corporate management, and online travel agency interactions." servicesData={servicesData}/>
+     <MainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
+      <StepSection header={t("pms_section_header1")} header2={t("pms_section_header2")} text={t("pms_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

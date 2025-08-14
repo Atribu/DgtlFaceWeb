@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
 import Link from "next/link";
 
-const StepSection = ({header,header2,text,servicesData=[]}) => {
+const StepSection = ({header,header2,text,servicesData=[], buttonText}) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const [status, setStatus] = useState(false);
@@ -20,9 +20,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
             </span>
           </h2>
           <p className="text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[140%] w-full lg:w-[68%]">
-            Every pixel, every word has been meticulously woven into a perfect
-            texture. Join the innovation symphony where dreams turn into design.
-            Your vision, our craft.
+           {text}
           </p>
         </div>
 
@@ -45,7 +43,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
               />
               <div className="px-8 py-4 left-[50px] top-[306px] absolute rounded-2xl outline outline-2 outline-offset-[-2px] outline-blue-400 inline-flex justify-center items-center gap-2.5">
                 <div className="text-white text-sm font-bold font-inter leading-none">
-                  Explore
+                  {buttonText}
                 </div>
               </div>
               <div className="left-[29px] top-1/2 -translate-y-1/2 absolute text-Main-White text-[35px] lg:text-8xl -tracking-[0.7px] lg:tracking-[2px] font-bold font-inter leading-[120%] lg:leading-[120px]  text-white transform opacity-100 group-hover:opacity-0 group-hover:-translate-y-full transition-all duration-700">
@@ -74,7 +72,7 @@ const StepSection = ({header,header2,text,servicesData=[]}) => {
                   href={card.buttonLink || "/"}
                   className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform opacity-0  group-hover:opacity-100 group-hover:translate-y-24 transition-all duration-500"
                 >
-                  Explore
+                  {buttonText}
                 </Link>
               </div>
               <div

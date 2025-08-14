@@ -3,9 +3,11 @@
 import React, {useCallback} from 'react';
 import Partners from "../../components/Section4/SliderImage/Partner.jsx";
 import useEmblaCarousel from "embla-carousel-react";
+import { useTranslations } from 'next-intl';
 
 const Section3 = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+        const t = useTranslations("AboutPage");
 
   const scrollPrev = useCallback(() => {
     if (emblaApi) emblaApi.scrollPrev();
@@ -19,34 +21,34 @@ const Section3 = () => {
     const cardsData = [
         {
             id: 1,
-            title: "Quality",
-            number: "01",
-            description: "In the world of digital marketing, DGTLFACE's quality principle is to carry out comprehensive & careful tasks with the highest quality teams & highest quality equipment. Quality is the most important the digital improvement.",
+            title: t("aboutpage_s3_card1_header"),
+            number: t("aboutpage_s3_card1_span"),
+            description: t("aboutpage_s3_card1_text"),
         },
         {
-            id: 2,
-            title: "Reliability",
-            number: "02",
-            description: "The avant garde initiatives adopted by DGTLFACE work to provide a reliable background. Trust and quality are two principles that support each other. Its principles and prepares a reliable digital world for our partners.",
+             id: 2,
+            title: t("aboutpage_s3_card2_header"),
+            number: t("aboutpage_s3_card2_span"),
+            description: t("aboutpage_s3_card2_text"),
         },
         {
             id: 3,
-            title: "Creativity",
-            number: "03",
-            description: "Every member of the DGTLFACE has built their creative career on the principle that their work matters only if it is original and exciting; we are not interested in creating anything that is subpar, derivative, or dull.",
+            title: t("aboutpage_s3_card3_header"),
+            number: t("aboutpage_s3_card3_span"),
+            description: t("aboutpage_s3_card3_text"),
         },
         {
-            id: 4,
-            title: "Ambition",
-            number: "04",
-            description: "We are in the creative industry to push boundaries, discover new ways of and innovate at every stage of our process. If we are not constantly striving to surpass our previous work and motivating each other to improve.",
+             id: 4,
+            title: t("aboutpage_s3_card4_header"),
+            number: t("aboutpage_s3_card4_span"),
+            description: t("aboutpage_s3_card4_text"),
         },
     ];
 
     return (
         <div className='flex flex-col items-center justify-center bg-[#FBFBFD] pt-[48px]'>
             <div className="flex text-center justify-center gap-[24px]">
-            <h3 className='text-[24px] lg:text-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> Dgtlface <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>Values</span></h3>
+            <h3 className='text-[24px] lg:text-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> {t("aboutpage_s3_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("aboutpage_s3_span1")} </span></h3>
             </div>
             <div className='hidden lg:flex w-8/12 lg:flex-wrap justify-center gap-8 p-8 mb-[150px]'> {/* flex-wrap ve justify-center eklendi */}
                 {cardsData.map((card) => (
@@ -96,16 +98,16 @@ const Section3 = () => {
 
             <div className="flex flex-col w-[92%] xl:w-[1076px] h-[340px] lg:h-[500px] items-center justify-center rounded-3xl bg-[#140f25] lg:p-8 mb-12">
                 <div className="flex flex-col items-center justify-center text-center lg:max-w-2xl h-[90%] gap-[18px]">
-                <div className="text-center justify-center whitespace-nowrap text-white lg:mt-7"><span className="text-Main-White text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">Let's Forge Success </span><span className="text-blue-400 text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">Together</span></div>
-                <div className="w-[90%] md:w-[597px] text-center justify-center text-Main-White text-sm font-normal font-inter leading-[130%] lg:leading-tight mt-0 lg:mt-5 lg:ml-12 text-white">We are ready to take the first steps in the next creative endeavour. All that separates this moment from the beginning of our collaborative journey is just a tap of the button below.</div>
+                <div className="text-center justify-center whitespace-nowrap text-white lg:mt-7"><span className="text-Main-White text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_header1")}  </span><span className="text-blue-400 text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_span1")}</span></div>
+                <div className="w-[90%] md:w-[597px] text-center justify-center text-Main-White text-sm font-normal font-inter leading-[130%] lg:leading-tight mt-0 lg:mt-5 lg:ml-12 text-white">{t("aboutpage_s3_cta_text1")} </div>
                   <button className="px-8 py-3 bg-Main-White rounded-3xl bg-white  shadow-[0px_0px_50px_0px_rgba(221,254,254,0.50)] inline-flex justify-center items-center lg:mt-44">
-                      <p className="justify-start text-Main-Dark-Blue text-lg font-bold font-inter leading-snug ">Get in Touch</p>
+                      <p className="justify-start text-Main-Dark-Blue text-lg font-bold font-inter leading-snug ">{t("aboutpage_s3_cta_button1")}</p>
                   </button>
                 </div>
             </div>
               <div className="w-full h-[250px] lg:mt-24"> {/* Burada width ve height değerlerini istediğin gibi ayarla */}
-                <div className="text-center justify-center text-Main-Dark-Blue text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">Our Collaborators</div>
-                <div className="text-center justify-center text-Main-Dark-Blue text-[14px] lg:text-lg font-normal font-inter leading-[130%] lg:leading-relaxed mb-8 -tracking-[0.28px]">How can we help you?</div>
+                <div className="text-center justify-center text-Main-Dark-Blue text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_footer_header1")}</div>
+                <div className="text-center justify-center text-Main-Dark-Blue text-[14px] lg:text-lg font-normal font-inter leading-[130%] lg:leading-relaxed mb-8 -tracking-[0.28px]">{t("aboutpage_s3_footer_text1")}</div>
                 <Partners />
               </div>
         </div>

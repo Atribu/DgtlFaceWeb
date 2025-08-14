@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,23 @@ const stepData=[
   }
 ]
 const page = () => {
+    const t = useTranslations("SocialMediaAnalysis");
+     const stepData = [1,2,3].map(i => ({
+      id: i,
+      image: [image1,image2,image3][i-1],
+      header: t(`socialmediaanalysis_step${i}_header`),
+      text:   t(`socialmediaanalysis_step${i}_text`)
+    }));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Social Media Analysis" header2="Services" text="We'll create and manage targeted social media advertising campaigns to reach specific audience segments, drive website traffic, generate leads, and increase conversions. Our team will optimise your ad campaigns for maximum ROI, continuously monitoring performance and making adjustments as needed." buttonLink="/"/>
+      <SubBanner
+  header={t("socialmediaanalysis_subbanner_header")}
+  header2={t("socialmediaanalysis_subbanner_header2")}
+  text={t("socialmediaanalysis_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

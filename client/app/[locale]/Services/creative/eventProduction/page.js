@@ -7,6 +7,7 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image3.png"
+import {useTranslations} from 'next-intl';
 
 const stepData=[
   {
@@ -35,9 +36,23 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("EventProduction");
+
+  const stepData = [1,2,3,4].map(i => ({
+  id: i,
+  image: [image1,image2,image3,image4][i-1],
+  header: t(`eventprod_step_header${i}`),
+  text:   t(`eventprod_step_text${i}`)
+}));
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Event Production" header2="Service" text="We manage your events to high standards in every aspect, utilizing the latest technology. We address all technical aspects of event production, including sound, lighting, video, and staging." buttonLink="/"/>
+     <SubBanner
+  header={t('eventprod_banner_header1')}
+  header2={t('eventprod_banner_header2')}
+  text={t('eventprod_banner_text')}
+  buttonLink="/"
+  buttonText={t('cta_talk_to_us')}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

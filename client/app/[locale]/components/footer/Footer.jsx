@@ -22,15 +22,13 @@ export default function Footer() {
         <div className="flex flex-col lg:hidden justify-center items-center h-[500px] w-full">
           <div className="flex flex-col items-center justify-start text-center gap-[14px] font-inter text-white z-[50] h-full">
               <h3 className="text-[24px] font-bold leading-[120%] -tracking-[0.48px] capitalize">
-                Let's Get To{" "}
+               {t("header")}{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
-                  Work
+                  {t("span")}
                 </span>
               </h3>
               <p className="text-[14px] font-noral leading-[130%] -tracking-[0.28px] w-[80%]">
-                We are ready to take the first steps in the next creative
-                endeavour. A tap of the button below will start our
-                collaborative journey.
+               {t("text")}
               </p>
             </div>
           <div className="mb-6 md:mb-0 z-[20]"></div>
@@ -56,7 +54,7 @@ export default function Footer() {
           >
             <span className="text-[#140F25] text-[14px] font-bold leading-[120%] -tracking-[0.28px] font-inter">
               {" "}
-              Get in Touch
+              {t("buttonText")}
             </span>
           </Link>
 
@@ -131,15 +129,13 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-center gap-10 w-[39%]">
             <div className="flex flex-col items-center justify-start text-center gap-5 font-inter text-white z-[50] h-full">
               <h3 className="text-[48px] xl:text-[52px] font-bold leading-[110%] -tracking-[1.12px] capitalize">
-                Let's Get To{" "}
+               {t("header")}{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
-                  Work
+                 {t("span")}
                 </span>
               </h3>
               <p className="text-[16px] font-noral leading-[140%] -tracking-[0.32px] w-[90%]">
-                We are ready to take the first steps in the next creative
-                endeavour. A tap of the button below will start our
-                collaborative journey.
+               {t("text")}
               </p>
             </div>
             <Image
@@ -175,7 +171,7 @@ xl:max-w-[172px] whitespace-nowrap
             >
               <span className="text-[#140F25] text-[18px] font-bold leading-[120%] -tracking-[0.36px] font-inter">
                 {" "}
-                Get in Touch
+               {t("buttonText")}
               </span>
             </Link>
           </div>

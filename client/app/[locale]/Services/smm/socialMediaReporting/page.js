@@ -6,31 +6,27 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Gain Valuable Insights",
-    text:"We'll create customized reporting dashboards tailored to your specific goals and KPIs, allowing you to track performance metrics that matter most to your business."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Performance Metrics Tracking",
-    text:"We'll track key performance metrics, including engagement rates, reach, impressions, click-through rates, conversion rates, and more, across all your social media platforms."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Audience Insights & Demographics",
-    text:"We'll provide you with valuable insights into your audience demographics, including age, gender, location, interests, and behaviors, helping you better understand and target your audience."
-  }
-]
 const page = () => {
+   const t = useTranslations("SocialMediaReporting");
+
+    const stepData = [1,2,3].map(i => ({
+                 id: i,
+                 image: [image1,image2][i-1],
+                 header: t(`socialmediareporting_step${i}_header`),
+                 text:   t(`socialmediareporting_step${i}_text`)
+               }));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Social Media Reporting" header2="Services" text="Based on our analysis, we'll provide you with actionable recommendations for optimising your social media strategy, improving performance, and achieving your business objectives. With our Social Media Reporting Services, you'll gain valuable insights into your social media performance and make data-driven decisions to drive better results." buttonLink="/"/>
+       <SubBanner
+  header={t("socialmediareporting_subbanner_header")}
+  header2={t("socialmediareporting_subbanner_header2")}
+  text={t("socialmediareporting_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,26 @@ const servicesData = [
 ];
 
 const page = () => {
+     const t = useTranslations("Smm");
+
+      const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`smm_services_title${i}`),
+  subTitle: t(`smm_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`smm_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/smm/socialMediaPlanning",
+    "/Services/smm/socialMediaManagement",
+    "/Services/smm/socialMediaReporting",
+    "/Services/smm/socialMediaContent",
+    "/Services/smm/socialMediaAnalysis"
+  ][i-1]
+}));
+
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="Social Media Marketing (SMM)" text="Social Media Marketing (SMM) Services designed to help you unlock the full potential of social media for your business. Our customised SMM strategy tailored to your unique goals and objectives."/>
-      <StepSection header="Content" header2="Creation" text=" We'll develop a strategic social media plan aligned with your business objectives, identifying key target audiences, platforms, and messaging strategies. Our team will create engaging and relevant content, including posts, images, videos, and stories, designed to resonate with your audience and drive engagement." servicesData={servicesData}/>
+       <MainBanner  header={t("smm_banner_header")} span={t("smm_banner_span")} text={t("smm_banner_text")} buttonText={t("buttonText")}/>
+      <StepSection header={t("smm_section_header1")} header2={t("smm_section_header2")} text={t("smm_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

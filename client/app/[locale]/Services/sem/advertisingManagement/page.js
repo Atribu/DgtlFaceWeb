@@ -8,6 +8,7 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
 import image5 from "./images/image5.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -43,9 +44,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("AdvertisingManagement");
+
+   const stepData = [1,2,3,4,5].map(i => ({
+  id: i,
+  image: [image1,image2,image3,image4,image5][i-1],
+  header: t(`advertisingmanagement_step${i}_header`),
+  text:   t(`advertisingmanagement_step${i}_text`)
+}));
+   
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Advertising" header2="Management Services" text="In today's digital world, making your mark means more than just being online. This is where we come in. Our digital marketing and advertising management services are designed to ensure that your brand is not only present but also stands out in the digital environment. The important thing is to be in the right place, at the right time, with the right message." buttonLink="/"/>
+     <SubBanner
+  header={t("advertisingmanagement_subbanner_header")}
+  header2={t("advertisingmanagement_subbanner_header2")}
+  text={t("advertisingmanagement_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

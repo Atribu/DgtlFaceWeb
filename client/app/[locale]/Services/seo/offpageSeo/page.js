@@ -7,6 +7,7 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -36,9 +37,24 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("OffpageSeo");
+
+  const stepData = [1,2,3,4].map(i => ({
+  id: i,
+  image: [image1,image2,image3,image4][i-1],
+  header: t(`offpage_step${i}_header`),
+  text:   t(`offpage_step${i}_text`)
+}));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Off-Page SEO" header2="Services" text="We enhance your website's credibility and search engine rankings by developing high-quality backlinks from reputable sites in your industry. DGTLFACE's off-page optimization strategies will create a holistic digital marketing approach that strengthens your online presence." buttonLink="/"/>
+      <SubBanner
+  header={t("offpage_subbanner_header")}
+  header2={t("offpage_subbanner_header2")}
+  text={t("offpage_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,25 @@ const servicesData = [
 ];
 
 const page = () => {
+   const t = useTranslations("Seo");
+   
+   const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`seo_services_title${i}`),
+  subTitle: t(`seo_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`seo_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/seo/onpageSeo",
+    "/Services/seo/offpageSeo",
+    "/Services/seo/technicalSeo",
+    "/Services/seo/originalCopywriting",
+    "/Services/seo/seoReporting"
+  ][i-1]
+}));
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="Search Engine Optimization (SEO)" text="Our comprehensive approach to SEO includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results."/>
-      <StepSection header="Head up on" header2="Search" text="  Evolve your online visibility and organic traffic with Search Engine Optimization (SEO) services. DGTLFACE ensures your website remains visible to competitive and ideal customers by staying updated with search engine algorithm updates." servicesData={servicesData}/>
+       <MainBanner  header={t("seo_banner_header")} span={t("seo_banner_span")} text={t("seo_banner_text")} buttonText={t("buttonText")}/>
+      <StepSection header={t("seo_section_header1")} header2={t("seo_section_header2")} text={t("seo_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

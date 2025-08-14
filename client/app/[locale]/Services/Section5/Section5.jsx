@@ -1,7 +1,9 @@
 "use client"; // İstemci taraflı bileşen olduğunu belirt
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslations } from 'next-intl';
 
 const Section5 = () => {
+   const t = useTranslations('ServicesPage');
   // Kartlar için veri dizisi (6 adet)
   const testimonialsData = [
     {
@@ -94,14 +96,14 @@ const Section5 = () => {
       {/* Başlık */}
       <div className="text-center justify-center gap-[3px] lg:gap-[8px]">
         <span className="text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
-          What our clients<br />think of{" "}
+         {t("servicespage_s5_header1")}
         </span>
         <span className="text-[#a754cf] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
-          DGTLFACE.
+           {t("servicespage_s5_span1")}.
         </span>
          {/* Açıklama */}
       <div className="md:w-[478px] text-center text-[#140f25] text-[14px] lg:text-lg font-normal font-inter leading-[130%] lg:leading-[25.20px] -tracking-[0.28px] lg:-tracking-normal">
-        We are honest about our skills and capabilities and take pleasure in our clients agreeing with us on that.
+        {t("servicespage_s5_text1")}.
       </div>
       </div>
 

@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("ServerManagement");
+  
+      const stepData = [1,2,3].map(i => ({
+                     id: i,
+                     image: [image1,image2,image3][i-1],
+                     header: t(`servermanagement_step${i}_header`),
+                     text:   t(`servermanagement_step${i}_text`)
+                   }));
+                   
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Server Management" header2="Services" text="Discover server solutions crafted to meet your unique requirements. Our service is not one-size-fits-all; it's a tailored approach to ensuring your servers align perfectly with your business demands. Let’s design a server strategy that grows with you." buttonLink="/"/>
+      <SubBanner
+  header={t("servermanagement_subbanner_header")}
+  header2={t("servermanagement_subbanner_header2")}
+  text={t("servermanagement_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

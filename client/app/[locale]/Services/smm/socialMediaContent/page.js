@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("SocialMediaContent");
+   
+   const stepData = [1,2,3].map(i => ({
+         id: i,
+         image: [image1,image2,image3][i-1],
+         header: t(`socialmediacontent_step${i}_header`),
+         text:   t(`socialmediacontent_step${i}_text`)
+       }));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Social Media Content" header2="Services" text="We'll produce content that encourages interaction and engagement, such as polls, quizzes, contests, and user-generated content campaigns, fostering meaningful connections with your audience and driving community growth." buttonLink="/"/>
+      <SubBanner
+  header={t("socialmediacontent_subbanner_header")}
+  header2={t("socialmediacontent_subbanner_header2")}
+  text={t("socialmediacontent_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

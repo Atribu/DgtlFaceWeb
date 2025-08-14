@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,40 @@ const servicesData = [
 ];
 
 const page = () => {
+  const t = useTranslations("DigitalAnalysis");
+
+  const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`analysis_services_title${i}`),
+  subTitle: t(`analysis_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`analysis_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/digitalAnalysis/websiteReportingService",
+    "/Services/digitalAnalysis/onlineMarketResearchService",
+    "/Services/digitalAnalysis/digitalSalesAnalysis",
+    "/Services/digitalAnalysis/advertisingReportingService",
+    "/Services/digitalAnalysis/callReportingService"
+  ][i-1]
+}));
+  
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="Digital Analysis & Reporting" text="Digital Analysis and Reporting Services is a leading provider of data-driven solutions for businesses of all sizes and industries. This system helps clients transform their data into actionable insights, optimize their performance, and achieve their strategic goals."/>
-      <StepSection header="Comprehensive Range of" header2="Services" text=" We collects and integrates data from various sources, such as web analytics, social media, Google, OTA, and more. We ensures the quality, accuracy, and security of the data, and prepares it for analysis." servicesData={servicesData}/>
+    <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
+<StepSection
+  header={t("analysis_section_header1")}
+  header2={t("analysis_section_header2")}
+  text={t("analysis_section_text")}
+  servicesData={servicesData}
+  buttonText={t("buttonText")}
+/>
+
+
+
+
+
+
+ChatGPT’ye sor
+
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

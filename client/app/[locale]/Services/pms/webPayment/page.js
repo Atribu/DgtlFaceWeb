@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,24 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("WebPayment");
+
+  const stepData = [1,2,3].map(i => ({
+  id: i,
+  image: [image1,image2,image3][i-1],
+  header: t(`webpayment_step${i}_header`),
+  text:   t(`webpayment_step${i}_text`)
+}));
+  
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Web Payment" header2="System Services" text="Web payment system identification services involve the process of identifying, selecting, and implementing payment systems for online transactions. These services are crucial for ensuring secure, efficient, and user-friendly payment processing on websites." buttonLink="/"/>
+     <SubBanner
+  header={t("webpayment_subbanner_header")}
+  header2={t("webpayment_subbanner_header2")}
+  text={t("webpayment_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

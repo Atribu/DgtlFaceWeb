@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("ReservationManagement");
+
+   const stepData = [1,2,3].map(i => ({
+  id: i,
+  image: [image1,image2,image3][i-1],
+  header: t(`reservationmanagement_step${i}_header`),
+  text:   t(`reservationmanagement_step${i}_text`)
+}));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Reservation" header2="Management Services" text="Our tailored solutions are crafted to meet the unique needs of your business, whether you're a hotel, restaurant, event venue, or service provider. From online bookings to managing reservations, our services cover every aspect of the reservation process, allowing you to focus on delivering outstanding service to your customers." buttonLink="/"/>
+     <SubBanner
+  header={t("reservationmanagement_subbanner_header")}
+  header2={t("reservationmanagement_subbanner_header2")}
+  text={t("reservationmanagement_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

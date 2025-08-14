@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,25 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("WebsiteReporting");
+    
+      const stepData = [1, 2, 3].map((i) => ({
+        id: i,
+        image: [image1, image2, image3][i - 1],
+        header: t(`websitereporting_step${i}_header`),
+        text: t(`websitereporting_step${i}_text`),
+      }));
+    
+      
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Website Reporting" header2="Services" text="Experience the power of strategic analysis through our visual reports. We don't just present data; we visualise it in a way that resonates with your business goals. Let's turn complex data into clear, legible visuals." buttonLink="/"/>
+    <SubBanner
+  header={t("websitereporting_subbanner_header")}
+  header2={t("websitereporting_subbanner_header2")}
+  text={t("websitereporting_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

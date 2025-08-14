@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,32 @@ const servicesData = [
 ];
 
 const page = () => {
+  const t = useTranslations("Software");
+
+  const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`software_services_title${i}`),
+  subTitle: t(`software_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`software_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/software/websiteAndSoftware",
+    "/Services/software/serverManagementService",
+    "/Services/software/pdpaCompliance",
+    "/Services/software/websiteMaintanceService",
+    "/Services/software/cmsInstallationService"
+  ][i-1]
+}));
+
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="IT and Software" text="Involve your brand in the art of web development with our expert software developers. From stylish interfaces to robust functionality, we create digital experiences that go beyond the ordinary. Take a firm step into the digital world with our code mastery."/>
-      <StepSection header="Code Craftsmanship for" header2="Digital Excellence" text=" At DGTLFACE, we don't just create websites; We create digital masterpieces that tell your brand story, fascinate your customers and drive results. Join us to shape your brand's online presence." servicesData={servicesData}/>
+   <MainBanner header={t("software_banner_header")} span={t("software_banner_span")} text={t("software_banner_text")}   buttonText={t("buttonText")}/>
+<StepSection
+  header={t("software_section_header1")}
+  header2={t("software_section_header2")}
+  text={t("software_section_text")}
+  servicesData={servicesData}
+   buttonText={t("buttonText")}
+/>
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image-1.png"
 import image2 from "./images/image-2.png"
 import image3 from "./images/image-3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,18 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("Callcenter");
+
+  const stepData = [1,2,3].map(i => ({
+  id: i,
+  image: [image1,image2,image3][i-1],
+  header: t(`calllanguages_step${i}_header`),
+  text:   t(`calllanguages_step${i}_text`)
+}));
+    
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Call 4 Languages " header2="Services" text="Take your business to the next level with our strong call center team consisting of employees who are proficient in 4 languages and even native speakers of some languages. Work with us to never miss a customer and always establish correct communication." buttonLink="/"/>
+      <SubBanner header={t("calllanguages_subbanner_header")} header2={t("calllanguages_subbanner_header2")} text={t("calllanguages_subbanner_text")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

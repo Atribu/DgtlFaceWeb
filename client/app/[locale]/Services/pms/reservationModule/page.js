@@ -6,6 +6,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -28,9 +29,18 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("ReservationModule");
+
+     const stepData = [1,2,3].map(i => ({
+    id: i,
+    image: [image1,image2,image3][i-1],
+    header: t(`reservationmodule_step${i}_header`),
+    text:   t(`reservationmodule_step${i}_text`)
+  }));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Reservation" header2="Module Services" text="In today's fast-paced world, convenience is key, especially when it comes to booking services or making reservations. At DGTLFACE, we specialise in providing tailored Reservation Module Services to streamline your booking process and enhance customer satisfaction." buttonLink="/"/>
+      <SubBanner header={t("reservationmodule_subbanner_header")} header2={t("reservationmodule_subbanner_header2")} text={t("reservationmodule_subbanner_text")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

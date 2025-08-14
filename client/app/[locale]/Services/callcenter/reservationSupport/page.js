@@ -5,6 +5,7 @@ import VerticalSlider from '@/app/[locale]/components/subPageComponents/Vertical
 import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -21,9 +22,24 @@ const stepData=[
   }
 ]
 const page = () => {
+   const t = useTranslations("ReservationSupport");
+
+   const stepData = [1,2].map(i => ({
+  id: i,
+  image: [image1,image2][i-1],
+  header: t(`reservationsupport_step${i}_header`),
+  text:   t(`reservationsupport_step${i}_text`)
+}));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Reservation Support " header2="Services" text="This service is designed based on conversions to enhance customer satisfaction and loyalty. Measuring post-sale satisfaction and providing solutions to potential user issues builds trust, thereby increasing consumer loyalty." buttonLink="/"/>
+      <SubBanner
+  header={t("reservationsupport_subbanner_header")}
+  header2={t("reservationsupport_subbanner_header2")}
+  text={t("reservationsupport_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

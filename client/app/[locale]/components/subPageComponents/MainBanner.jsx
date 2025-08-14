@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks"
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
 
-const MainBanner = ({header,text}) => {
+const MainBanner = ({header,text, span, buttonText}) => {
     const [blocksOrder, setBlocksOrder] = useState([
         "0",
         "1",
@@ -65,7 +65,7 @@ const MainBanner = ({header,text}) => {
           <h3 className=" flex flex-col gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
             <span className="text-white w-[100%] lg:w-[80%]">{header}</span>
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
-              Services
+              {span}
             </span>
           </h3>
 
@@ -77,7 +77,7 @@ const MainBanner = ({header,text}) => {
           </div>
 
           <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
-            Explore
+            {buttonText}
           </button>
           <style jsx>{`
             .gradient-border-button {

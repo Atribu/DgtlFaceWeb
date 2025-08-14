@@ -178,7 +178,11 @@
   "link_services": "Services",
   "link_contact": "Contact",
   "link_privacy_policy": "Privacy Policy",
-  "link_terms_of_service": "Terms of Service"
+  "link_terms_of_service": "Terms of Service",
+    "header": "Let's Get To",
+  "span": "Work",
+  "text": "We are ready to take the first steps in the next creative endeavour. A tap of the button below will start our collaborative journey.",
+  "buttonText": "Get in Touch"
 },
 
 "ContactPage":{
@@ -262,6 +266,1121 @@
   "aboutpage_s4_faq3_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information.",
   "aboutpage_s4_faq4_header": "How Do Design Services Work?",
   "aboutpage_s4_faq4_text": "These cookies are necessary for the website to function and cannot be turned off in our systems. They are usually set only in response to actions you take that amount to a request for services, such as setting your privacy preferences, logging in, or filling out forms. These cookies do not store personally identifiable information."
+},
+
+"ServicesPage":{
+  "servicespage_s1_text1": "Our",
+  "servicespage_s1_span1": "Services",
+  "servicespage_s1_text2": "We know the best way to open up to a new world. You can find everything that is important for you to take the right steps in branding and growth here, and you can learn the whole process by calling us.",
+  "servicespage_s1_button1": "Get in Touch",
+
+  "servicespage_s2_header1": "8 Units, Perfect",
+  "servicespage_s2_span1": "Services",
+  "servicespage_s2_text1": "Explore a universe of possibilities with our 8 dynamic divisions, each a powerhouse of innovation. From groundbreaking tech to awe-inspiring creativity, we deliver hundreds of services that redefine excellence. Your journey to limitless solutions starts here.",
+
+  "servicespage_s3_item1_title": "Creative",
+  "servicespage_s3_item2_title": "Call Center",
+  "servicespage_s3_item3_title": "PMS & OTA",
+  "servicespage_s3_item4_title": "SEO",
+  "servicespage_s3_item5_title": "SEM",
+  "servicespage_s3_item6_title": "SMM",
+  "servicespage_s3_item7_title": "IT & Software",
+  "servicespage_s3_item8_title": "Analysis",
+  "servicespage_s3_span1": "Services",
+
+  "servicespage_s4_header1": "Dgtlface",
+  "servicespage_s4_span1": "Values",
+  "servicespage_s4_chip1_header": "Quality",
+  "servicespage_s4_chip1_span": "01",
+  "servicespage_s4_chip2_header": "Reliability",
+  "servicespage_s4_chip2_span": "02",
+  "servicespage_s4_chip3_header": "Creativity",
+  "servicespage_s4_chip3_span": "03",
+  "servicespage_s4_chip4_header": "Ambition",
+  "servicespage_s4_chip4_span": "04",
+  "servicespage_s4_button_explore": "Explore",
+  "servicespage_s4_pricing_header": "Pricing",
+  "servicespage_s4_pricing_text": "Don't be intimidated by the costs, call us and let us explain everything in detail. Get a single price and do not pay additional fees during its validity.",
+  "servicespage_s4_button_callnow": "Call Now",
+
+  "servicespage_s5_header1": "What our clients think of",
+  "servicespage_s5_span1": "DGTLFACE.",
+  "servicespage_s5_text1": "We are honest about our skills and capabilities and take pleasure in our clients agreeing with us on that."
+},
+
+"VerticalSlider":{
+  "servicesvertical_header1": "Our",
+  "servicesvertical_span1": "Services",
+
+  "servicesvertical_item1_header": "Creative",
+  "servicesvertical_item1_span": "Services",
+  "servicesvertical_item1_text": "Check out the beating heart of creativity at DGTLFACE. We don't just dream; we create symphonies of imagination. Watch your brand evolve into a fascinating fabric of brilliance.",
+  "servicesvertical_item1_button": "Explore",
+
+  "servicesvertical_item2_header": "Call Center",
+  "servicesvertical_item2_span": "Services",
+  "servicesvertical_item2_text": "Call center service can be a great way to increase your company’s reputation and brand perception. Moreover, at DGTLFACE we strengthen your brand’s sense of professionalism by offering call reception in 4 languages.",
+  "servicesvertical_item2_button": "Explore",
+
+  "servicesvertical_item3_header": "PMS & OTA",
+  "servicesvertical_item3_span": "Setup Services",
+  "servicesvertical_item3_text": "Streamline your operations with DGTLFACE’s hotel management system (PMS) and online travel agency (OTA) services. Our integrated approach enhances cross-platform visibility by optimizing online presence and reservations, making operations more efficient.",
+  "servicesvertical_item3_button": "Explore",
+
+  "servicesvertical_item4_header": "Search Engine Optimization",
+  "servicesvertical_item4_span": "(SEO) Services",
+  "servicesvertical_item4_text": "Our comprehensive SEO approach includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results.",
+  "servicesvertical_item4_button": "Explore",
+
+  "servicesvertical_item5_header": "Search Engine Marketing",
+  "servicesvertical_item5_span": "(SEM) Services",
+  "servicesvertical_item5_text": "In today’s fiercely competitive digital landscape, being found amidst the endless sea of content is essential. At DGTLFACE, we move your brand to the forefront of search results with comprehensive SEM services.",
+  "servicesvertical_item5_button": "Explore",
+
+  "servicesvertical_item6_header": "Social Media Marketing",
+  "servicesvertical_item6_span": "(SMM) Services",
+  "servicesvertical_item6_text": "SMM services designed to unlock the full potential of social media for your business. We craft a customized SMM strategy tailored to your unique goals and objectives.",
+  "servicesvertical_item6_button": "Explore",
+
+  "servicesvertical_item7_header": "Information Technologies",
+  "servicesvertical_item7_span": "(IT) & Software Services",
+  "servicesvertical_item7_text": "Bring your brand into the art of web development with our expert software developers. From sleek interfaces to robust functionality, we create digital experiences that go beyond the ordinary. Step confidently into the digital world with our code mastery.",
+  "servicesvertical_item7_button": "Explore",
+
+  "servicesvertical_item8_header": "Digital Analysis",
+  "servicesvertical_item8_span": "& Reporting Services",
+  "servicesvertical_item8_text": "Digital Analysis & Reporting Services provide data-driven solutions for businesses of all sizes. This system helps turn your data into actionable insights, optimize performance, and achieve strategic goals.",
+  "servicesvertical_item8_button": "Explore"
+},
+
+"CreativePage":{
+ "creativepage_banner_header": "Creative",
+  "creativepage_banner_span": "Services",
+  "buttonText":"Explore",
+  "creativepage_banner_text": "Check out the beating heart of creativity at DGTLFACE. We don't just dream; we create symphonies of imagination. Watch your brand evolve into a fascinating fabric of brilliance.",
+  
+
+  "creativepage_step_header1": "Creativity & Beyond of",
+  "creativepage_step_header2": "Design",
+  "creativepage_step_text": "Every pixel, every word has been meticulously woven into a perfect texture. Join the innovation symphony where dreams turn into design. Your vision, our craft.",
+
+  "creativepage_services_title1": "Graphic & Motion Graphic",
+  "creativepage_services_subtitle1": "Design Service",
+  "creativepage_services_feature1_1": "Logo Design",
+  "creativepage_services_feature1_2": "Brand Guidelines",
+  "creativepage_services_feature1_3": "Social Media Graphics",
+  "creativepage_services_feature1_4": "Creating and Editing Motion Graphics",
+
+  "creativepage_services_title2": "UI / UX",
+  "creativepage_services_subtitle2": "Design Service",
+  "creativepage_services_feature2_1": "Logo Design",
+  "creativepage_services_feature2_2": "Brand Guidelines",
+  "creativepage_services_feature2_3": "Social Media Graphics",
+  "creativepage_services_feature2_4": "Creating and Editing Motion Graphics",
+
+  "creativepage_services_title3": "Video & Production",
+  "creativepage_services_subtitle3": "Design Service",
+  "creativepage_services_feature3_1": "Logo Design",
+  "creativepage_services_feature3_2": "Brand Guidelines",
+  "creativepage_services_feature3_3": "Social Media Graphics",
+  "creativepage_services_feature3_4": "Creating and Editing Motion Graphics",
+
+  "creativepage_services_title4": "Event Production",
+  "creativepage_services_subtitle4": "Design Service",
+  "creativepage_services_feature4_1": "Logo Design",
+  "creativepage_services_feature4_2": "Brand Guidelines",
+  "creativepage_services_feature4_3": "Social Media Graphics",
+  "creativepage_services_feature4_4": "Creating and Editing Motion Graphics",
+
+  "creativepage_services_title5": "Corporate Gift",
+  "creativepage_services_subtitle5": "Design Service",
+  "creativepage_services_feature5_1": "Logo Design",
+  "creativepage_services_feature5_2": "Brand Guidelines",
+  "creativepage_services_feature5_3": "Social Media Graphics",
+  "creativepage_services_feature5_4": "Creating and Editing Motion Graphics"
+},
+
+"GraphicDesign":{
+"graphicmotion_banner_header1": "Graphic &  Motion",
+"cta_talk_to_us": "Talk to us",
+  "graphicmotion_banner_header2": "Graphic Design Service",
+  "graphicmotion_banner_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ut aliquip ex ea commodo consequat.",
+
+  "graphicmotion_step1_header": "Logo Design",
+  "graphicmotion_step1_text": "The most important starting point in quality branding is the logo. First impressions matter, and the first element of your website, business card, or signboard that catches the eye is the logo.",
+
+  "graphicmotion_step2_header": "Brand Guideline",
+  "graphicmotion_step2_text": "We offer you a great roadmap created by our expert team that organizes your brand. Scroll through the pages to discover the principles, colors, fonts, and images that form the unique fabric of your brand identity.",
+
+  "graphicmotion_step3_header": "Social Media Graphics",
+  "graphicmotion_step3_text": "Transform likes into meaningful engagement with our social media graphics. We don't just design visuals; we create experiences that resonate with your audience.",
+
+  "graphicmotion_step4_header": "Creating & Editing Motionography",
+  "graphicmotion_step4_text": "Motionography blends motion graphics and animation to create captivating content for digital platforms such as websites and social media. The process begins with conceptualization, defining the project’s purpose and target audience. Storyboarding and script writing outline the narrative, followed by design using tools such as Adobe After Effects and Blender. Animation and sound design bring the visuals to life."
+},
+
+"UiUxDesign":{
+   "uiux_banner_header1": "UI / UX",
+  "uiux_banner_header2": "Design Service",
+  "uiux_banner_text": "A skilled UI and UX designer creates visually appealing and intuitive interfaces that enhance the overall user experience. Clear navigation, well-designed layouts, and aesthetically pleasing visuals contribute to a positive first impression.",
+"cta_talk_to_us": "Talk to us",
+  "uiux_step_header1": "Web Site Design",
+  "uiux_step_text1": "Effective website designs offer visitors a clean interface and easy navigation. For SEO compatibility, focus on keyword-driven content and fast loading times. Not only does this improve user experience, but it also helps rank higher in search engines. In short, a successful website should combine aesthetics with functionality, being both user and search engine friendly.",
+
+  "uiux_step_header2": "UI&UX Compatible Design",
+  "uiux_step_text2": "UI and UX Design Services improve your digital products both aesthetically and functionally by putting user experience at the centre. While a good UI (User Interface) design makes it easier for users to interact with your product, UX (User Experience) design ensures that this interaction is pleasant and smooth. These services help make your websites and mobile applications user-friendly, accessible and SEO-friendly. By following modern design trends and best usability practices, it strengthens your brand's digital presence and increases user satisfaction.",
+
+  "uiux_step_header3": "Conversion Probability & Analysis",
+  "uiux_step_text3": "A thoughtful UX design, combined with persuasive UI elements, can lead to increased conversion rates. Whether your goal is to drive sales, capture leads, or encourage specific actions, an optimised design contributes to achieving those objectives.",
+
+  "uiux_step_header4": "Customer Retention",
+  "uiux_step_text4": "A well-designed and user-friendly interface reduces bounce rates, keeping users engaged and encouraging them to explore your platform further. This is crucial for retaining visitors and converting them into customers."
+},
+
+"VideoProduction":{
+   "videoprod_banner_header1": "Video & Production",
+  "videoprod_banner_header2": "Service",
+  "videoprod_banner_text": "Our creative and professional team focuses on producing high-quality and captivating video content that resonates with your target audience at every stage of production.",
+"cta_talk_to_us": "Talk to us",
+  "videoprod_step_header1": "Interior Showcase Shoots",
+  "videoprod_step_text1": "Whether it's a hotel, a stylish restaurant, or an office, highlighting the ambiance and unique features of any interior space is our specialty. Our attention-grabbing video and photography shoots, tailored to your brand's identity, will set you apart from your competitors.",
+
+  "videoprod_step_header2": "Exterior Showcase Shoots",
+  "videoprod_step_text2": "Whether it's a hotel, a stylish restaurant, or an office, highlighting the ambiance and unique features of any exterior space is our specialty. Our attention-grabbing video and photography shoots, tailored to your brand's identity, will set you apart from your competitors.",
+
+  "videoprod_step_header3": "Video & Photography Shoots",
+  "videoprod_step_text3": "Our commitment to quality and creativity ensures that every project we undertake stands out. By combining artistic vision with technical expertise, we offer comprehensive video and photography services that exceed expectations and cater to diverse industry demands.",
+
+  "videoprod_step_header4": "360 Image and Video Shoots",
+  "videoprod_step_text4": "Elevate your brand with 360 showcase video and photography services that resonate with your target audience. Our video showcase services include concept development, scriptwriting, shooting, and post-production, providing informative and engaging content."
+},
+
+"EventProduction":{
+ "eventprod_banner_header1": "Event Production",
+  "eventprod_banner_header2": "Service",
+  "eventprod_banner_text": "We manage your events to high standards in every aspect, utilizing the latest technology. We address all technical aspects of event production, including sound, lighting, video, and staging.",
+"cta_talk_to_us": "Talk to us",
+  "eventprod_step_header1": "Concert Promotion Campaigns",
+  "eventprod_step_text1": "DGTLFACE offers a dynamic approach to market your concerts in the digital realm. We create online solutions to enhance visibility and interaction for your concerts. By integrating various digital marketing strategies such as social media advertising and content marketing, we reach your target audience effectively.",
+
+  "eventprod_step_header2": "Digital Promotion Campaigns for Parties",
+  "eventprod_step_text2": "We ensure your event stands out in the digital space with the latest digital marketing strategies. With a unique approach, from exciting nightclub events to private parties, we capture the attention of your event's target audience. From promotional videos to interactive posts, our content is designed to highlight key points of interest.",
+
+  "eventprod_step_header3": "Digital Promotion Campaigns for Events",
+  "eventprod_step_text3": "Special Event Digital Promotion Services are tailored solutions designed to maximize the online visibility, engagement, and success of a particular event. Whether it's a product launch, conference, concert, or any other special occasion, leveraging digital channels is crucial for reaching and engaging the target audience.",
+
+  "eventprod_step_header4": "360 Image and Video Shoots",
+  "eventprod_step_text4": "Elevate your brand with 360 showcase video and photography services that resonate with your target audience. Our video showcase services include concept development, scriptwriting, shooting, and post-production, providing informative and engaging content."
+},
+
+"CorporateGift":{
+   "corporategift_banner_header1": "Corporate Gift",
+  "corporategift_banner_header2": "Design Service",
+  "corporategift_banner_text": "Corporate design support involves providing comprehensive design services to enhance and maintain a consistent and professional visual identity for a corporation. This includes creating design elements for various materials, ensuring brand consistency, and contributing to a cohesive and positive brand image.",
+"cta_talk_to_us": "Talk to us",
+  "corporategift_step_header1": "Corporate Promotional Material Service",
+  "corporategift_step_text1": "These materials play a crucial role in creating a positive and consistent brand image and effectively communicating with the target audience. Here are key components and benefits of corporate promotional material services.",
+
+  "corporategift_step_header2": "Corporate Catalogue Design Service",
+  "corporategift_step_text2": "Our team of experienced designers captures the essence of your brand and creates customized catalogues that inform and inspire your target audience.",
+
+  "corporategift_step_header3": "Hotel Concept Design Support Service",
+  "corporategift_step_text3": "We collaborate closely to develop unique concepts that reflect the identity, location, and target market of your hotel. This ensures that every aspect of the design contributes to a consistent and memorable guest experience.",
+
+  "corporategift_step_header4": "360 Image and Video Shoots",
+  "corporategift_step_text4": "Elevate your brand with 360 showcase video and photography services that resonate with your target audience. Our video showcase services include concept development, scriptwriting, shooting, and post-production, providing informative and engaging content."
+},
+
+"Callcenter":{
+  "callcenter_banner_header": "Call Center",
+  "callcenter_banner_span": "Services",
+  "buttonText":"Explore",
+  "callcenter_banner_text": "Call center service can be a good way to increase your company's reputation and brand perception. Moreover, as DGTLFACE, we promise to increase the perception of professionalism on your brand by providing you with call reception service in 4 languages.",
+
+  "callcenter_section_header1": "Powerful Team in ",
+  "callcenter_section_header2": "All Areas",
+  "callcenter_section_text": "We provide fast and effective interventions to your customer problems with our call center service and talented call center team.",
+
+  "callcenter_services_title1": "Call 4 Languages",
+  "callcenter_services_subtitle1": "Service",
+  "callcenter_services_feature1_1": "Logo Design",
+  "callcenter_services_feature1_2": "Brand Guidelines",
+  "callcenter_services_feature1_3": "Social Media Graphics",
+  "callcenter_services_feature1_4": "Creating and Editing Motionography",
+
+  "callcenter_services_title2": "Reservation Support",
+  "callcenter_services_subtitle2": "Service",
+  "callcenter_services_feature2_1": "Logo Design",
+  "callcenter_services_feature2_2": "Brand Guidelines",
+  "callcenter_services_feature2_3": "Social Media Graphics",
+  "callcenter_services_feature2_4": "Creating and Editing Motionography",
+
+  "callcenter_services_title3": "Multiple Channels",
+  "callcenter_services_subtitle3": "Tracking Service",
+  "callcenter_services_feature3_1": "Logo Design",
+  "callcenter_services_feature3_2": "Brand Guidelines",
+  "callcenter_services_feature3_3": "Social Media Graphics",
+  "callcenter_services_feature3_4": "Creating and Editing Motionography",
+
+  "callcenter_services_title4": "Contract Management",
+  "callcenter_services_subtitle4": "Service",
+  "callcenter_services_feature4_1": "Logo Design",
+  "callcenter_services_feature4_2": "Brand Guidelines",
+  "callcenter_services_feature4_3": "Social Media Graphics",
+  "callcenter_services_feature4_4": "Creating and Editing Motionography",
+
+  "callcenter_services_title5": "Call Analysis",
+  "callcenter_services_subtitle5": "Service",
+  "callcenter_services_feature5_1": "Logo Design",
+  "callcenter_services_feature5_2": "Brand Guidelines",
+  "callcenter_services_feature5_3": "Social Media Graphics",
+  "callcenter_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"Pms":{
+  "pms_banner_header": "PMS & OTA Setup",
+  "pms_banner_text": "Streamline your operations with DGTLFACE's hotel management system (PMS) and online travel agency (OTA) services. Our integrated approach enhances cross-platform visibility by optimizing your online presence and reservations, making operations more efficient.",
+"pms_banner_span": "Services",
+  "buttonText":"Explore",
+
+  "pms_section_header1": "Set-up and ",
+  "pms_section_header2": "Optimising",
+  "pms_section_text": "Discover our comprehensive solution designed to simplify and strengthen your accommodation operations, corporate management, and online travel agency interactions.",
+
+  "pms_services_title1": "Hotel Identification",
+  "pms_services_subtitle1": "Service",
+  "pms_services_feature1_1": "Logo Design",
+  "pms_services_feature1_2": "Brand Guidelines",
+  "pms_services_feature1_3": "Social Media Graphics",
+  "pms_services_feature1_4": "Creating and Editing Motionography",
+
+  "pms_services_title2": "OTA Contract Management",
+  "pms_services_subtitle2": "Service",
+  "pms_services_feature2_1": "Logo Design",
+  "pms_services_feature2_2": "Brand Guidelines",
+  "pms_services_feature2_3": "Social Media Graphics",
+  "pms_services_feature2_4": "Creating and Editing Motionography",
+
+  "pms_services_title3": "Web Payment System",
+  "pms_services_subtitle3": "Service",
+  "pms_services_feature3_1": "Logo Design",
+  "pms_services_feature3_2": "Brand Guidelines",
+  "pms_services_feature3_3": "Social Media Graphics",
+  "pms_services_feature3_4": "Creating and Editing Motionography",
+
+  "pms_services_title4": "Reservation Module",
+  "pms_services_subtitle4": "Service",
+  "pms_services_feature4_1": "Logo Design",
+  "pms_services_feature4_2": "Brand Guidelines",
+  "pms_services_feature4_3": "Social Media Graphics",
+  "pms_services_feature4_4": "Creating and Editing Motionography",
+
+  "pms_services_title5": "Reservation Management",
+  "pms_services_subtitle5": "Design Service",
+  "pms_services_feature5_1": "Logo Design",
+  "pms_services_feature5_2": "Brand Guidelines",
+  "pms_services_feature5_3": "Social Media Graphics",
+  "pms_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"Sem":{
+   "sem_banner_header": "Search Engine Marketing (SEM)",
+  "sem_banner_text": "In today's fiercely competitive digital landscape, being found amidst the endless sea of online content is paramount to success. At DGTLFACE, we specialise in propelling your brand to the forefront of search engine results through our comprehensive Search Engine Marketing (SEM) services.",
+"sem_banner_span": "Services",
+  "buttonText":"Explore",
+  "sem_section_header1": "Every Click Return on ",
+  "sem_section_header2": "Sales",
+  "sem_section_text": "Harnessing the power of SEM, we strategically position your brand in front of your target audience when they're actively searching for products or services like yours. With a data-driven approach and a keen understanding of search engine algorithms, we craft highly targeted campaigns that deliver tangible results.",
+
+  "sem_services_title1": "Advertising Management",
+  "sem_services_subtitle1": "Service",
+  "sem_services_feature1_1": "Logo Design",
+  "sem_services_feature1_2": "Brand Guidelines",
+  "sem_services_feature1_3": "Social Media Graphics",
+  "sem_services_feature1_4": "Creating and Editing Motionography",
+
+  "sem_services_title2": "Web Traffic Tracking",
+  "sem_services_subtitle2": "Service",
+  "sem_services_feature2_1": "Logo Design",
+  "sem_services_feature2_2": "Brand Guidelines",
+  "sem_services_feature2_3": "Social Media Graphics",
+  "sem_services_feature2_4": "Creating and Editing Motionography",
+
+  "sem_services_title3": "Google Webtools",
+  "sem_services_subtitle3": "Service",
+  "sem_services_feature3_1": "Logo Design",
+  "sem_services_feature3_2": "Brand Guidelines",
+  "sem_services_feature3_3": "Social Media Graphics",
+  "sem_services_feature3_4": "Creating and Editing Motionography",
+
+  "sem_services_title4": "Yandex Advertising",
+  "sem_services_subtitle4": "Service",
+  "sem_services_feature4_1": "Logo Design",
+  "sem_services_feature4_2": "Brand Guidelines",
+  "sem_services_feature4_3": "Social Media Graphics",
+  "sem_services_feature4_4": "Creating and Editing Motionography",
+
+  "sem_services_title5": "Google Ads Advertising",
+  "sem_services_subtitle5": "Service",
+  "sem_services_feature5_1": "Logo Design",
+  "sem_services_feature5_2": "Brand Guidelines",
+  "sem_services_feature5_3": "Social Media Graphics",
+  "sem_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"Seo":{
+   "seo_banner_header": "Search Engine Optimization (SEO)",
+  "seo_banner_text": "Our comprehensive approach to SEO includes keyword research, on-page optimization, content strategy, and technical SEO to ensure your website consistently ranks higher in target search results.",
+"seo_banner_span": "Services",
+  "buttonText":"Explore",
+  "seo_section_header1": "Head up on",
+  "seo_section_header2": "Search",
+  "seo_section_text": "Evolve your online visibility and organic traffic with Search Engine Optimization (SEO) services. DGTLFACE ensures your website remains visible to competitive and ideal customers by staying updated with search engine algorithm updates.",
+
+  "seo_services_title1": "On-Page SEO",
+  "seo_services_subtitle1": "Service",
+  "seo_services_feature1_1": "Logo Design",
+  "seo_services_feature1_2": "Brand Guidelines",
+  "seo_services_feature1_3": "Social Media Graphics",
+  "seo_services_feature1_4": "Creating and Editing Motionography",
+
+  "seo_services_title2": "Off-Page SEO",
+  "seo_services_subtitle2": "Design Service",
+  "seo_services_feature2_1": "Logo Design",
+  "seo_services_feature2_2": "Brand Guidelines",
+  "seo_services_feature2_3": "Social Media Graphics",
+  "seo_services_feature2_4": "Creating and Editing Motionography",
+
+  "seo_services_title3": "Technical SEO",
+  "seo_services_subtitle3": "Service",
+  "seo_services_feature3_1": "Logo Design",
+  "seo_services_feature3_2": "Brand Guidelines",
+  "seo_services_feature3_3": "Social Media Graphics",
+  "seo_services_feature3_4": "Creating and Editing Motionography",
+
+  "seo_services_title4": "Original Copywriting",
+  "seo_services_subtitle4": "Service",
+  "seo_services_feature4_1": "Logo Design",
+  "seo_services_feature4_2": "Brand Guidelines",
+  "seo_services_feature4_3": "Social Media Graphics",
+  "seo_services_feature4_4": "Creating and Editing Motionography",
+
+  "seo_services_title5": "SEO Reporting",
+  "seo_services_subtitle5": "Service",
+  "seo_services_feature5_1": "Logo Design",
+  "seo_services_feature5_2": "Brand Guidelines",
+  "seo_services_feature5_3": "Social Media Graphics",
+  "seo_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"Smm":{
+  "smm_banner_header": "Social Media Marketing (SMM)",
+  "smm_banner_text": "Social Media Marketing (SMM) services designed to help you unlock the full potential of social media for your business. Our customised SMM strategy is tailored to your unique goals and objectives.",
+"smm_banner_span": "Services",
+  "buttonText":"Explore",
+  "smm_section_header1": "Content",
+  "smm_section_header2": "Creation",
+  "smm_section_text": "We will develop a strategic social media plan aligned with your business objectives, identifying key audiences, platforms and messaging strategies. Our team will create engaging, relevant content—posts, images, videos and stories—that resonates with your audience and drives engagement.",
+
+  "smm_services_title1": "Social Media Planning",
+  "smm_services_subtitle1": "Service",
+  "smm_services_feature1_1": "Logo Design",
+  "smm_services_feature1_2": "Brand Guidelines",
+  "smm_services_feature1_3": "Social Media Graphics",
+  "smm_services_feature1_4": "Creating and Editing Motionography",
+
+  "smm_services_title2": "Social Media Management",
+  "smm_services_subtitle2": "Service",
+  "smm_services_feature2_1": "Logo Design",
+  "smm_services_feature2_2": "Brand Guidelines",
+  "smm_services_feature2_3": "Social Media Graphics",
+  "smm_services_feature2_4": "Creating and Editing Motionography",
+
+  "smm_services_title3": "Social Media Reporting",
+  "smm_services_subtitle3": "Service",
+  "smm_services_feature3_1": "Logo Design",
+  "smm_services_feature3_2": "Brand Guidelines",
+  "smm_services_feature3_3": "Social Media Graphics",
+  "smm_services_feature3_4": "Creating and Editing Motionography",
+
+  "smm_services_title4": "Social Media Content",
+  "smm_services_subtitle4": "Service",
+  "smm_services_feature4_1": "Logo Design",
+  "smm_services_feature4_2": "Brand Guidelines",
+  "smm_services_feature4_3": "Social Media Graphics",
+  "smm_services_feature4_4": "Creating and Editing Motionography",
+
+  "smm_services_title5": "Social Media Analysis",
+  "smm_services_subtitle5": "Service",
+  "smm_services_feature5_1": "Logo Design",
+  "smm_services_feature5_2": "Brand Guidelines",
+  "smm_services_feature5_3": "Social Media Graphics",
+  "smm_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"Software":{
+  "software_banner_header": "IT and Software",
+  "software_banner_text": "Involve your brand in the art of web development with our expert software developers. From stylish interfaces to robust functionality, we create digital experiences that go beyond the ordinary. Take a firm step into the digital world with our code mastery.",
+"software_banner_span": "Services",
+  "buttonText":"Explore",
+  "software_section_header1": "Code Craftsmanship for",
+  "software_section_header2": "Digital Excellence",
+  "software_section_text": "At DGTLFACE, we don't just create websites; we create digital masterpieces that tell your brand story, fascinate your customers and drive results. Join us to shape your brand's online presence.",
+
+  "software_services_title1": "Website & Software",
+  "software_services_subtitle1": "Service",
+  "software_services_feature1_1": "Logo Design",
+  "software_services_feature1_2": "Brand Guidelines",
+  "software_services_feature1_3": "Social Media Graphics",
+  "software_services_feature1_4": "Creating and Editing Motionography",
+
+  "software_services_title2": "Server Management",
+  "software_services_subtitle2": "Service",
+  "software_services_feature2_1": "Logo Design",
+  "software_services_feature2_2": "Brand Guidelines",
+  "software_services_feature2_3": "Social Media Graphics",
+  "software_services_feature2_4": "Creating and Editing Motionography",
+
+  "software_services_title3": "PDPA Compliance",
+  "software_services_subtitle3": "Service",
+  "software_services_feature3_1": "Logo Design",
+  "software_services_feature3_2": "Brand Guidelines",
+  "software_services_feature3_3": "Social Media Graphics",
+  "software_services_feature3_4": "Creating and Editing Motionography",
+
+  "software_services_title4": "Website Maintenance",
+  "software_services_subtitle4": "Service",
+  "software_services_feature4_1": "Logo Design",
+  "software_services_feature4_2": "Brand Guidelines",
+  "software_services_feature4_3": "Social Media Graphics",
+  "software_services_feature4_4": "Creating and Editing Motionography",
+
+  "software_services_title5": "CMS Installation",
+  "software_services_subtitle5": "Service",
+  "software_services_feature5_1": "Logo Design",
+  "software_services_feature5_2": "Brand Guidelines",
+  "software_services_feature5_3": "Social Media Graphics",
+  "software_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"DigitalAnalysis":{
+  "analysis_banner_span": "Services",
+  "buttonText":"Explore",
+   "analysis_banner_header": "Digital Analysis & Reporting",
+  "analysis_banner_text": "Digital Analysis and Reporting Services is a leading provider of data-driven solutions for businesses of all sizes and industries. This system helps clients transform their data into actionable insights, optimize their performance, and achieve their strategic goals.",
+
+  "analysis_section_header1": "Comprehensive Range of",
+  "analysis_section_header2": "Services",
+  "analysis_section_text": "We collect and integrate data from various sources, such as web analytics, social media, Google, OTA, and more. We ensure the quality, accuracy, and security of the data, and prepare it for analysis.",
+
+  "analysis_services_title1": "Website Reporting",
+  "analysis_services_subtitle1": "Service",
+  "analysis_services_feature1_1": "Logo Design",
+  "analysis_services_feature1_2": "Brand Guidelines",
+  "analysis_services_feature1_3": "Social Media Graphics",
+  "analysis_services_feature1_4": "Creating and Editing Motionography",
+
+  "analysis_services_title2": "Online Market Research",
+  "analysis_services_subtitle2": "Service",
+  "analysis_services_feature2_1": "Logo Design",
+  "analysis_services_feature2_2": "Brand Guidelines",
+  "analysis_services_feature2_3": "Social Media Graphics",
+  "analysis_services_feature2_4": "Creating and Editing Motionography",
+
+  "analysis_services_title3": "Digital Sales Analysis",
+  "analysis_services_subtitle3": "Service",
+  "analysis_services_feature3_1": "Logo Design",
+  "analysis_services_feature3_2": "Brand Guidelines",
+  "analysis_services_feature3_3": "Social Media Graphics",
+  "analysis_services_feature3_4": "Creating and Editing Motionography",
+
+  "analysis_services_title4": "Advertising Reporting",
+  "analysis_services_subtitle4": "Service",
+  "analysis_services_feature4_1": "Logo Design",
+  "analysis_services_feature4_2": "Brand Guidelines",
+  "analysis_services_feature4_3": "Social Media Graphics",
+  "analysis_services_feature4_4": "Creating and Editing Motionography",
+
+  "analysis_services_title5": "Call Reporting",
+  "analysis_services_subtitle5": "Service",
+  "analysis_services_feature5_1": "Logo Design",
+  "analysis_services_feature5_2": "Brand Guidelines",
+  "analysis_services_feature5_3": "Social Media Graphics",
+  "analysis_services_feature5_4": "Creating and Editing Motionography"
+},
+
+"CallLanguages":{
+  "cta_talk_to_us": "Talk to us",
+  "calllanguages_subbanner_header": "Call 4 Languages",
+  "calllanguages_subbanner_header2": "Services",
+  "calllanguages_subbanner_text": "Take your business to the next level with our strong call center team of agents proficient in four languages — including native speakers. Work with us to never miss a customer and always communicate clearly.",
+
+  "calllanguages_step1_header": "Professional Call Answering",
+  "calllanguages_step1_text": "There are very few ways to truly do a job right, and missed opportunities are hard to recover. To avoid this risk, work must always be performed with the highest care and quality. Our professional, timely, on-site team is ready for you.",
+
+  "calllanguages_step2_header": "International Call Center Service",
+  "calllanguages_step2_text": "Let us answer your calls for the countries you serve with our international call greeting service. Boost call quality with a professional team delivering support in four languages, including native-level speakers.",
+
+  "calllanguages_step3_header": "Digital Communication Strategy Service",
+  "calllanguages_step3_text": "We collaborate with you to define expectations and communication strategies tailored to your business goals and audience. Turn your online presence into a strategically designed, dynamic interaction platform that raises brand awareness and builds effective connections."
+},
+
+"CallPerformance":{
+  "cta_talk_to_us": "Talk to us",
+"callperformance_subbanner_header": "Call Performance",
+  "callperformance_subbanner_header2": "& Analysis Services",
+  "callperformance_subbanner_text": "Our advanced system meticulously evaluates call metrics to enhance representative performance, increase satisfaction rates, and support strategic decision-making for quality service delivery.",
+
+  "callperformance_step1_header": "Measure Call Center Performance",
+  "callperformance_step1_text": "Enhance the efficiency of your call center with our performance measurement service. Our specialized analyses dive deep into key performance indicators to enable targeted improvements. Through comprehensive metric analysis, we exceed customer expectations and set new standards in support.",
+
+  "callperformance_step2_header": "Speech Analytics Tracking",
+  "callperformance_step2_text": "We analyze voice interactions to assess call quality and agent performance, enabling strategic improvements and the best possible service. Speech analytics informs decisions and elevates your customer service to new heights.",
+
+  "callperformance_step3_header": "Call Center Sales Analysis",
+  "callperformance_step3_text": "Identify strengths and areas to improve to develop sales strategies that drive revenue growth. Our comprehensive analysis of sales interactions reveals effective tactics and where enhancement is needed."
+},
+
+"ContractManagement":{
+"cta_talk_to_us": "Talk to us",
+ "contractmanagement_subbanner_header": "Call Center Contract",
+  "contractmanagement_subbanner_header2": "Management Services",
+  "contractmanagement_subbanner_text": "This service involves the effective handling and oversight of contracts related to call center operations. These contracts may include agreements with clients, vendors, service providers, and other stakeholders involved in the call center’s activities.",
+
+  "contractmanagement_step1_header": "Contract Structuring & Customization",
+  "contractmanagement_step1_text": "Let us answer your calls for the countries you serve with our international call greeting service. Increase your call quality as a company that provides international service with a professional team that provides quality service in four languages.",
+
+  "contractmanagement_step2_header": "Service Level Agreements & Compliance Management",
+  "contractmanagement_step2_text": "Service Level Agreements (SLAs) and compliance management are critical components of effective contract and service management. SLAs define expectations and commitments between service providers and their clients, while compliance management ensures adherence to relevant laws, regulations, and industry standards.",
+
+  "contractmanagement_step3_header": "Monitoring & Reporting of Contract Processes",
+  "contractmanagement_step3_text": "Monitoring and reporting of contract processes are essential components of effective contract management. These activities involve systematically overseeing the entire lifecycle of a contract, from creation and negotiation to execution and renewal.",
+
+  "contractmanagement_step4_header": "Risk Management & Contract Assurances",
+  "contractmanagement_step4_text": "Risk management and contract assurances are integral components of the contract lifecycle, designed to identify, assess, and mitigate potential risks associated with contractual agreements."
+},
+
+"MultipleChannels":{
+  "cta_talk_to_us": "Talk to us",
+  "multichannels_subbanner_header": "Multiple Channels Sales",
+  "multichannels_subbanner_header2": "Tracking Services",
+  "multichannels_subbanner_text": "Simplify your sales strategy and capture performance across all platforms with DGTLFACE's Multi-Channel Sales Tracking Service. This comprehensive approach optimizes every touchpoint for maximum engagement and revenue growth, facilitating efficiency.",
+
+  "multichannels_step1_header": "Multi Chatbox Technology Integration",
+  "multichannels_step1_text": "In today’s widely used chatbox solutions across various industries, users can quickly access answers to simple queries. This innovative solution enhances real-time user experience by enabling your brand to connect with customers instantly.",
+
+  "multichannels_step2_header": "Digital Automation Web Tool Installations",
+  "multichannels_step2_text": "Digital automation web tools help manage complexity and enable measurement. Our solutions streamline processes, reduce manual effort, and enhance user experience. Our services guide your conversion journey toward seamless integration and operational excellence."
+},
+
+"ReservationSupport":{
+  "cta_talk_to_us": "Talk to us",
+   "reservationsupport_subbanner_header": "Reservation Support",
+  "reservationsupport_subbanner_header2": "Services",
+  "reservationsupport_subbanner_text": "This service is designed with a conversion focus to enhance customer satisfaction and loyalty. Measuring post-sale satisfaction and solving potential user issues builds trust and increases consumer loyalty.",
+
+  "reservationsupport_step1_header": "Reservation Tracking & Updates",
+  "reservationsupport_step1_text": "Tracking reservations keeps both your business and customers informed of every development, ensuring meticulous management and communication of every detail. With our innovative approaches, we monitor and update each reservation in real time to deliver a smooth, stress-free journey for you and your customers.",
+
+  "reservationsupport_step2_header": "Call Center Feedback & Analysis",
+  "reservationsupport_step2_text": "Every customer interaction is a valuable analysis opportunity. By deeply analyzing interactions, we uncover insights that drive meaningful improvements. Our expert analysis team reveals findings that keep customer satisfaction at its peak."
+},
+
+"HotelIdentification":{
+  "cta_talk_to_us": "Talk to us",
+  "hotelidentification_subbanner_header": "Hotel Identification",
+  "hotelidentification_subbanner_header2": "Services",
+  "hotelidentification_subbanner_text": "Optimize your hotel's presence in the competitive hospitality sector with specialized approaches designed to achieve strategic positions.",
+
+  "hotelidentification_step1_header": "Hotel Digital Market Analysis Services",
+  "hotelidentification_step1_text": "The process begins with comprehensive analyses of your hotel's unique aspects, target audience, and market position. DGTLFACE ensures your hotel stands out and captures target guests. Using the latest techniques, we enhance online visibility, engage your audience more effectively, and help you surpass competitors.",
+
+  "hotelidentification_step2_header": "Hotel Concept Development Services",
+  "hotelidentification_step2_text": "We create and refine ideas, themes, and designs for new hotels or rebranding projects. The goal is to define a unique identity, guest experience, and overall concept that will distinguish the hotel in the market.",
+
+  "hotelidentification_step3_header": "Hotel Quality Determination Services",
+  "hotelidentification_step3_text": "We thoroughly evaluate your online presence—from website functionality and UX to content relevance and SEO. We elevate your digital quality and build a strong, reputable online presence.",
+
+  "hotelidentification_step4_header": "Hotel Digital Promotion Services",
+  "hotelidentification_step4_text": "Digital promotion increases your hotel's visibility and appeal. We craft effective campaigns that highlight your hotel’s unique charm and facilities, attracting potential guests across multiple platforms."
+},
+
+"OtaContract":{
+  "cta_talk_to_us": "Talk to us",
+   "otacontract_subbanner_header": "OTA Contract",
+  "otacontract_subbanner_header2": "Management Services",
+  "otacontract_subbanner_text": "DGTLFACE elevates your business in the digital travel markets by negotiating advantageous terms, enhancing your presence on crucial platforms, and increasing bookings and revenue.",
+
+  "otacontract_step1_header": "OTA Marketing Strategies",
+  "otacontract_step1_text": "From optimized content to competitive pricing and promotions, all our approaches focus on maximizing your presence on OTA platforms. We implement promotional strategies such as timed campaigns and package offers to attract more guests. The first step in building a marketing strategy is identifying and understanding your target audience.",
+
+  "otacontract_step2_header": "Hotel Contract Management",
+  "otacontract_step2_text": "We ensure each contract aligns with your goals while securing conditions that enhance operational efficiency and financial performance. Leave to our expertise the management and optimization of numerous agreements—vendor contracts and OTA contracts—essential to your hotel’s operations.",
+
+  "otacontract_step3_header": "Search Engine Review Management",
+  "otacontract_step3_text": "We understand the impact of customer feedback on your digital footprint and work diligently to build a positive online image."
+
+},
+
+"ReservationManagement":{
+  "cta_talk_to_us": "Talk to us",
+  "reservationmanagement_subbanner_header": "Reservation",
+  "reservationmanagement_subbanner_header2": "Management Services",
+  "reservationmanagement_subbanner_text": "Our tailored solutions are crafted to meet the unique needs of your business—whether you're a hotel, restaurant, event venue, or service provider. From online bookings to managing reservations, our services cover every aspect of the process so you can focus on delivering outstanding service to your customers.",
+
+  "reservationmanagement_step1_header": "Reservation Management Solutions",
+  "reservationmanagement_step1_text": "We provide a user-friendly online booking platform that lets customers make reservations seamlessly from any device, 24/7. Our intuitive dashboard offers a comprehensive overview of all bookings so you can manage availability, allocate resources, and track reservations in real time.",
+
+  "reservationmanagement_step2_header": "Flexible Booking Options",
+  "reservationmanagement_step2_text": "Effortlessly accommodate single- or multi-day bookings, recurring appointments, group reservations, and more. Process payments, deposits, or pre-authorizations directly within the system, streamlining the experience for you and your customers.",
+
+  "reservationmanagement_step3_header": "Dedicated Support & Training",
+  "reservationmanagement_step3_text": "Our expert support team assists with setup, training, and ongoing help, ensuring a smooth and seamless transition to our reservation management system."
+},
+
+"ReservationModule":{
+  "cta_talk_to_us": "Talk to us",
+   "reservationmodule_subbanner_header": "Reservation",
+  "reservationmodule_subbanner_header2": "Module Services",
+  "reservationmodule_subbanner_text": "In today’s fast-paced world, convenience is key—especially for bookings. At DGTLFACE, we provide tailored Reservation Module Services to streamline your booking process and enhance customer satisfaction.",
+
+  "reservationmodule_step1_header": "Reservation Module Services",
+  "reservationmodule_step1_text": "Our expert team works closely with you to build a custom reservation module that integrates seamlessly with your website or app. Whether hospitality, appointments, or event bookings—our solutions are designed for your specific needs.",
+
+  "reservationmodule_step2_header": "Customised Booking Experience",
+  "reservationmodule_step2_text": "Deliver a branded, user-friendly booking flow with custom fields, multi-language support, calendar views, confirmations, and reminders—optimized for conversion across devices.",
+
+  "reservationmodule_step3_header": "Real-Time Availability",
+  "reservationmodule_step3_text": "Let customers check availability and book in real time, preventing double bookings and maximizing capacity. Secure payment gateways enable deposits or full payments online to reduce admin workload."
+},
+
+"WebPayment":{
+  "cta_talk_to_us": "Talk to us",
+ "webpayment_subbanner_header": "Web Payment",
+  "webpayment_subbanner_header2": "System Services",
+  "webpayment_subbanner_text": "Web payment system identification services include selecting and implementing payment systems for online transactions. These services ensure secure, efficient, and user-friendly payment processing on your website.",
+
+  "webpayment_step1_header": "Web Payment Module Integration",
+  "webpayment_step1_text": "Provide users with flexibility, accommodate diverse preferences, and improve overall UX. Evaluate how easily the module integrates with your current website or e-commerce platform.",
+
+  "webpayment_step2_header": "Hotel Payment System Institutions",
+  "webpayment_step2_text": "Prioritize payment systems that deliver a smooth, intuitive experience on both desktop and mobile. This boosts customer satisfaction and reduces the likelihood of abandoned transactions.",
+
+  "webpayment_step3_header": "Web Payment System Bank Definitions",
+  "webpayment_step3_text": "In web payment systems, “bank definitions” refer to the information and configurations required to integrate a specific bank. These settings enable secure transaction flows between your payment system and the bank."
+},
+
+"AdvertisingManagement":{
+   "cta_talk_to_us": "Talk to us",
+   "advertisingmanagement_subbanner_header": "Advertising",
+  "advertisingmanagement_subbanner_header2": "Management Services",
+  "advertisingmanagement_subbanner_text": "In today’s digital world, standing out takes more than being online. Our advertising management ensures your brand is present in the right place, at the right time, with the right message—so it’s seen and remembered.",
+
+  "advertisingmanagement_step1_header": "Video Ads",
+  "advertisingmanagement_step1_text": "Video ads anchor modern digital strategies by blending motion, sound, and storytelling to spark attention and drive action from your target audience.",
+
+  "advertisingmanagement_step2_header": "Visual Ads",
+  "advertisingmanagement_step2_text": "Also known as banner ads, visual ads boost brand awareness and clicks through creative design and smart placement. DGTLFACE crafts striking visuals that capture attention across the web.",
+
+  "advertisingmanagement_step3_header": "Shopping Ads",
+  "advertisingmanagement_step3_text": "Showcase products with clear visuals, competitive pricing, and key details—so customers can discover and purchase directly within their search journey.",
+
+  "advertisingmanagement_step4_header": "Search Network Ads",
+  "advertisingmanagement_step4_text": "By targeting intent-driven keywords, we place your brand where customers actively search for your offerings—maximizing qualified traffic and conversions.",
+
+  "advertisingmanagement_step5_header": "Social Media Ad Management",
+  "advertisingmanagement_step5_text": "We manage ads across Facebook, Instagram, LinkedIn, X, TikTok and more—using precise targeting and scalable reach to connect your brand with global audiences."
+},
+
+"GoogleAdsAdvertising":{
+  "cta_talk_to_us": "Talk to us",
+ "googleadsadvertising_subbanner_header": "Google Ads Advertising",
+  "googleadsadvertising_subbanner_header2": "Services",
+  "googleadsadvertising_subbanner_text": "Track the effectiveness of your Google Ads campaigns by monitoring conversions, attributing sales, and optimizing your advertising ROI.",
+
+  "googleadsadvertising_step1_header": "Keyword and Audience Research Services",
+  "googleadsadvertising_step1_text": "Keyword and audience research are core to a successful strategy. We analyze your market, competitors, and customers to identify the most effective keywords and audience segments for your campaigns.",
+
+  "googleadsadvertising_step2_header": "Ad Copy and Visual Design Services",
+  "googleadsadvertising_step2_text": "We craft ads that both attract attention and drive action by pairing persuasive copy with effective visuals. Our creative team produces tailored assets that resonate across digital platforms.",
+
+  "googleadsadvertising_step3_header": "Ad Campaign Creation Services",
+  "googleadsadvertising_step3_text": "We ensure consistent messaging across channels—digital ads, social, PPC, email, and more—to boost brand awareness and generate qualified leads.",
+
+  "googleadsadvertising_step4_header": "Google Ads Targeting & Budget Management",
+  "googleadsadvertising_step4_text": "We design campaigns to reach precise audiences with relevant keywords, optimizing bids and spend by performance to maximize return on investment."
+},
+
+"GoogleWebtools":{
+   "cta_talk_to_us": "Talk to us",
+  "googlewebtools_subbanner_header": "Google Webtools",
+  "googlewebtools_subbanner_header2": "Services",
+  "googlewebtools_subbanner_text": "In the vast and ever-evolving digital landscape, harnessing Google’s web tools is essential to maximize your online presence. DGTLFACE provides professional setup services that deliver insights, better performance, and measurable results.",
+
+  "googlewebtools_step1_header": "Comprehensive Google Analytics Integration",
+  "googlewebtools_step1_text": "Elevate your site’s performance with end-to-end Analytics setup. Track behavior, understand traffic sources, and measure KPIs to make data-driven decisions.",
+
+  "googlewebtools_step2_header": "Google Ads Setup & Optimization",
+  "googlewebtools_step2_text": "Kickstart paid marketing with campaign creation, keyword selection, and bid management tailored to your goals.",
+
+  "googlewebtools_step3_header": "Implementation of Google Tag Manager",
+  "googlewebtools_step3_text": "Manage tags without editing code. Deploy and update analytics, conversion, and remarketing tags from one centralized place for seamless data collection.",
+
+  "googlewebtools_step4_header": "Google Search Console Setup & Integration",
+  "googlewebtools_step4_text": "Submit sitemaps, monitor indexing and performance, and resolve issues to ensure your website is optimized for Google Search."
+},
+
+"WebTraffic":{
+  "cta_talk_to_us": "Talk to us",
+    "webtraffic_subbanner_header": "Web Traffic Tracking",
+  "webtraffic_subbanner_header2": "Services",
+  "webtraffic_subbanner_text": "We strategically acquire targeted web traffic through a blend of proven methodologies, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and content optimization. Each strategy is meticulously tailored to your unique goals.",
+
+  "webtraffic_step1_header": "User Behavior Analysis",
+  "webtraffic_step1_text": "Every visitor has a story, a goal, and preferences. Through DGTLFACE’s user behavior analysis, we decode these stories by meticulously examining user actions.",
+
+  "webtraffic_step2_header": "Web Traffic Source Analysis",
+  "webtraffic_step2_text": "Knowing where traffic comes from matters. We dive into sources—search engines, social platforms, direct, and paid—to understand and improve acquisition performance.",
+
+  "webtraffic_step3_header": "Shopping Ads",
+  "webtraffic_step3_text": "By identifying elements that drive engagement and conversions, we deliver clear recommendations. Our goal-oriented analysis aligns every part of your site with business objectives to maximize ROI and growth."
+},
+
+"YandexAdvertising":{
+  "cta_talk_to_us": "Talk to us",
+"yandexadvertising_subbanner_header": "Yandex Advertising",
+  "yandexadvertising_subbanner_header2": "Services",
+  "yandexadvertising_subbanner_text": "With our dedicated team of digital marketing specialists, we craft customised Yandex advertising campaigns designed to align with your business goals and resonate with your audience. Whether you aim to grow traffic, boost conversions, or raise brand awareness, we’ve got you covered.",
+
+  "yandexadvertising_step1_header": "Yandex Display Advertising Services",
+  "yandexadvertising_step1_text": "We run specialised campaigns that effectively reach your audience by leveraging Yandex’s powerful display capabilities. This includes crafting compelling visuals, strategic placement across Yandex’s network, and continuous optimisation for maximum ROI.",
+
+  "yandexadvertising_step2_header": "Yandex Maps Advertising Management",
+  "yandexadvertising_step2_text": "A strategic service to increase your visibility on Yandex Maps and reach nearby customers more effectively. We help your business stand out in search results and on the map, differentiating you from competitors in local searches.",
+
+  "yandexadvertising_step3_header": "Yandex Advertising Analysis & Reporting Services",
+  "yandexadvertising_step3_text": "We meticulously track and analyse every aspect of your Yandex ads—from click-through and conversion rates to audience behaviour—to deliver actionable reports and recommendations, so you invest wisely and maximise ROI."
+},
+
+"OffpageSeo":{
+  "cta_talk_to_us": "Talk to us",
+   "offpage_subbanner_header": "Off-Page SEO",
+  "offpage_subbanner_header2": "Services",
+  "offpage_subbanner_text": "We enhance your site’s credibility and search rankings by earning high-quality backlinks from reputable sources in your industry. DGTLFACE’s off-page optimization strategies create a holistic digital marketing approach that strengthens your online presence.",
+
+  "offpage_step1_header": "Backlinking Efforts",
+  "offpage_step1_text": "Our backlink strategy focuses on acquiring high-quality, relevant links from trusted industry sources. We plan and execute every step to drive targeted traffic, raise domain authority, and fuel your marketing success.",
+
+  "offpage_step2_header": "Social Media Sharing Optimizations",
+  "offpage_step2_text": "We craft posts and interactions that tell your brand story, engage your audience, and spark shares. From striking visuals and videos to informative articles and interactive polls, each piece is designed to capture attention.",
+
+  "offpage_step3_header": "Brand Collaborations & Online Review Management",
+  "offpage_step3_text": "We actively monitor and engage with online reviews to help build audience trust. DGTLFACE delivers a comprehensive strategy that elevates reputation, nurtures communities, and drives long-term loyalty and growth.",
+
+  "offpage_step4_header": "Blog, Forum, Content Marketing",
+  "offpage_step4_text": "Blogs, forums, and content marketing are core pillars for engaging audiences, building brand awareness, and driving website traffic."
+  
+},
+
+"OnpageSeo":
+{
+  "cta_talk_to_us": "Talk to us",
+  "onpage_subbanner_header": "On-Page SEO",
+  "onpage_subbanner_header2": "Services",
+  "onpage_subbanner_text": "Improving your website’s performance and user experience goes hand in hand with effective on-page optimisation. We run comprehensive audits to fix issues like broken links, slow load times and unoptimised content.",
+
+  "onpage_step1_header": "Keyword Research & Analysis",
+  "onpage_step1_text": "Uncover the potential of your content with in-depth keyword research. Using professional SEO tools, we analyse competitors and audiences to find highly relevant queries with meaningful search volume.",
+
+  "onpage_step2_header": "On-Page URL Optimization",
+  "onpage_step2_text": "We refine URL structure by avoiding unnecessary parameters, incorporating target keywords and adding category cues when appropriate. Strategic URL optimisation strengthens visibility and clarity.",
+
+  "onpage_step3_header": "Web Optimization & Performance Enhancement",
+  "onpage_step3_text": "We accelerate load times with image compression, code minimisation and efficient caching to ensure smooth operation across devices and browsers.",
+
+  "onpage_step4_header": "Local Optimization Initiatives",
+  "onpage_step4_text": "We boost your presence in local search by tailoring content with local keywords and signals, increasing relevance to nearby audiences and communities."
+},
+
+"OriginalCopywriting":{
+  "cta_talk_to_us": "Talk to us",
+    "copywriting_subbanner_header": "Original Copywriting",
+  "copywriting_subbanner_header2": "Services",
+  "copywriting_subbanner_text": "Introducing our SEO-compatible copywriting service—where creativity meets strategy to craft compelling content that captivates audiences and climbs search rankings. Our seasoned writers sculpt narratives that speak to readers while satisfying the algorithms shaping the digital landscape.",
+
+  "copywriting_step1_header": "Target Audience Analysis",
+  "copywriting_step1_text": "One-size-fits-all marketing is over. In today’s hyper-connected world, personalisation and relevance are essential. Our analysts dive deep into audience psychology to uncover desires, challenges and aspirations—insights that power precise, resonant messaging.",
+
+  "copywriting_step2_header": "Detecting & Determining Effective Titles & Sub-Headings",
+  "copywriting_step2_text": "We strengthen site structure, internal links and navigation to improve UX and surface key content. By optimising technical elements and crafting clear, keyword-aligned headings, we raise search visibility and organic traffic.",
+
+  "copywriting_step3_header": "Revision & Quality Control Work",
+  "copywriting_step3_text": "Perfection is a journey. Our revision and QC process brings a meticulous editorial eye to tone, clarity, accuracy, structure and SEO signals—elevating every piece to publication-ready quality."
+},
+
+"SeoReporting":{
+  "cta_talk_to_us": "Talk to us",
+  "seoreporting_subbanner_header": "SEO Reporting",
+  "seoreporting_subbanner_header2": "Services",
+  "seoreporting_subbanner_text": "In the dynamic world of digital marketing, understanding your website’s performance in search results is essential to stay ahead. Our SEO specialists conduct an in-depth review of key metrics such as keyword rankings, organic traffic, backlink profile, and user engagement.",
+
+  "seoreporting_step1_header": "Comprehensive SEO Performance",
+  "seoreporting_step1_text": "We’ll run a detailed audit of your site’s SEO—reviewing on-page factors, technical issues, and off-page signals to spot improvement areas. We’ll analyze keyword rankings and search visibility to uncover high-value keywords and optimization opportunities.",
+
+  "seoreporting_step2_header": "Competitor Analysis",
+  "seoreporting_step2_text": "We’ll assess competitors’ SEO strategies and performance, benchmark your site against industry leaders, and identify areas where you can gain a competitive edge.",
+
+  "seoreporting_step3_header": "Technical SEO Assessment",
+  "seoreporting_step3_text": "We’ll evaluate technical foundations—site speed, mobile-friendliness, and crawlability—against best practices and search guidelines. We’ll also review your backlink profile to find quality links, toxic links, and link-building opportunities to grow authority."
+},
+
+"TechnicalSeo":{
+   "cta_talk_to_us": "Talk to us",
+ "technicalseo_subbanner_header": "Technical SEO",
+  "technicalseo_subbanner_header2": "Services",
+  "technicalseo_subbanner_text": "Technical website optimization services involve optimizing the technical aspects of a website to enhance its performance, user experience, and search engine visibility.",
+
+  "technicalseo_step1_header": "URL Structure Optimisation",
+  "technicalseo_step1_text": "We implement structured data markup to give search engines richer context about your content and improve visibility. We also set canonical tags and optimize the URL structure to prevent duplicate-content issues and boost rankings.",
+
+  "technicalseo_step2_header": "Page Scanning & Indexing Control",
+  "technicalseo_step2_text": "We enhance site structure, internal links, and navigation to improve UX and access to key content. Optimizing the site’s technical foundations leads to higher rankings, better visibility, and increased organic traffic—and DGTLFACE is ready to deliver this for you.",
+
+  "technicalseo_step3_header": "Mobile Compatibility Controls",
+  "technicalseo_step3_text": "Fixing issues that hinder mobile usability improves search performance. Our team evaluates your site across devices to ensure seamless navigation, fast loading, and optimized layouts on every screen size.",
+
+  "technicalseo_step4_header": "Site Map & Robots.txt Optimizations",
+  "technicalseo_step4_text": "Effective crawling and indexing are vital for digital success. We optimize your Site Map and robots.txt so search engines understand your site’s structure—guiding them to the right pages while restricting areas that shouldn’t be crawled—ensuring technical excellence."
+},
+
+"SocialMediaAnalysis":{
+   "cta_talk_to_us": "Talk to us",
+"socialmediaanalysis_subbanner_header": "Social Media Analysis",
+  "socialmediaanalysis_subbanner_header2": "Services",
+  "socialmediaanalysis_subbanner_text": "We'll create and manage targeted social media advertising campaigns to reach specific audience segments, drive website traffic, generate leads, and increase conversions. Our team will optimize your ad campaigns for maximum ROI, continuously monitoring performance and making adjustments as needed.",
+
+  "socialmediaanalysis_step1_header": "Campaign Performance Evaluation",
+  "socialmediaanalysis_step1_text": "We'll assess the performance of your social media advertising campaigns, tracking metrics such as reach, engagement, clicks, conversions, and return on ad spend.",
+
+  "socialmediaanalysis_step2_header": "Audience Insights & Segmentation",
+  "socialmediaanalysis_step2_text": "We'll analyze audience demographics, interests, and behaviors to identify high-performing audience segments and tailor your targeting strategy for maximum effectiveness.",
+
+  "socialmediaanalysis_step3_header": "Ad Creative Analysis",
+  "socialmediaanalysis_step3_text": "We'll evaluate the effectiveness of your ad creatives, including images, videos, headlines, and copywriting, to determine which elements resonate best with your audience and drive the highest engagement."
+},
+
+"SocialMediaContent":{
+   "cta_talk_to_us": "Talk to us",
+  "socialmediacontent_subbanner_header": "Social Media Content",
+  "socialmediacontent_subbanner_header2": "Services",
+  "socialmediacontent_subbanner_text": "We'll produce content that encourages interaction and engagement, such as polls, quizzes, contests, and user-generated content campaigns, fostering meaningful connections with your audience and driving community growth.",
+
+  "socialmediacontent_step1_header": "Content Strategy Development",
+  "socialmediacontent_step1_text": "We'll collaborate with you to develop a comprehensive content strategy aligned with your brand's goals and target audience. Our team will identify key themes, messaging strategies, and content formats to guide our content creation efforts.",
+
+  "socialmediacontent_step2_header": "Creative Content Creation",
+  "socialmediacontent_step2_text": "We'll produce engaging and visually stunning content, including graphics, images, videos, GIFs, and infographics, that captivates your audience and communicates your brand's message effectively.",
+
+  "socialmediacontent_step3_header": "Copywriting & Caption Creation",
+  "socialmediacontent_step3_text": "Our expert copywriters will craft compelling captions and copy that complement your visuals and drive engagement. Whether it's witty captions, informative descriptions, or persuasive calls to action, we'll ensure that your content resonates with your audience and inspires action."
+},
+
+"SocialMediaManagement":{
+   "cta_talk_to_us": "Talk to us",
+  "socialmediamanagement_subbanner_header": "Social Media",
+  "socialmediamanagement_subbanner_header2": "Management Services",
+  "socialmediamanagement_subbanner_text": "Transform your social media presence with our expert team. Social media presence is essential for businesses to connect with their audience, build brand awareness, and drive meaningful engagement.",
+
+  "socialmediamanagement_step1_header": "Strategic Planning",
+  "socialmediamanagement_step1_text": "We'll develop a strategic social media plan aligned with your business objectives, identifying key target audiences, platforms, and messaging strategies. Our team will create high-quality, engaging content, including posts, images, videos, and stories, designed to resonate with your audience.",
+
+  "socialmediamanagement_step2_header": "Platform Management & Posting",
+  "socialmediamanagement_step2_text": "We'll manage all aspects of your social media profiles, including posting frequency, timing, and optimization. Our team will ensure your content is consistently scheduled and published across all relevant platforms to maximize reach and visibility.",
+
+  "socialmediamanagement_step3_header": "Community Engagement & Interaction",
+  "socialmediamanagement_step3_text": "We'll actively engage with your audience, responding to comments, messages, and inquiries in a timely and professional manner. Our team will foster a sense of community around your brand, building trust and loyalty among your followers."
+},
+
+"SocialMediaPlanning":{
+  "cta_talk_to_us": "Talk to us",
+   "socialmediaplanning_subbanner_header": "Social Media Planning",
+  "socialmediaplanning_subbanner_header2": "Services",
+  "socialmediaplanning_subbanner_text": "We'll create and manage targeted social media advertising campaigns to reach specific audience segments, drive website traffic, generate leads, and increase conversions. Our team will optimise your ad campaigns for maximum ROI, continuously monitoring performance and making adjustments as needed.",
+
+  "socialmediaplanning_step1_header": "Community Management",
+  "socialmediaplanning_step1_text": "We'll actively engage with your audience, responding to comments, messages, and inquiries in a timely and professional manner. Our team will foster a sense of community around your brand, building trust and loyalty among your followers.",
+
+  "socialmediaplanning_step2_header": "Marketing Collaboration",
+  "socialmediaplanning_step2_text": "We'll identify and collaborate with relevant influencers in your industry to amplify your brand's reach and credibility. Our team will manage the entire influencer marketing process, from outreach and negotiation to campaign execution and performance tracking."
+},
+
+"SocialMediaReporting":{
+  "cta_talk_to_us": "Talk to us",
+    "socialmediareporting_subbanner_header": "Social Media Reporting",
+  "socialmediareporting_subbanner_header2": "Services",
+  "socialmediareporting_subbanner_text": "Based on our analysis, we'll provide you with actionable recommendations for optimising your social media strategy, improving performance, and achieving your business objectives. With our Social Media Reporting Services, you'll gain valuable insights into your social media performance and make data-driven decisions to drive better results.",
+
+  "socialmediareporting_step1_header": "Gain Valuable Insights",
+  "socialmediareporting_step1_text": "We'll create customized reporting dashboards tailored to your specific goals and KPIs, allowing you to track performance metrics that matter most to your business.",
+
+  "socialmediareporting_step2_header": "Performance Metrics Tracking",
+  "socialmediareporting_step2_text": "We'll track key performance metrics, including engagement rates, reach, impressions, click-through rates, conversion rates, and more, across all your social media platforms.",
+
+  "socialmediareporting_step3_header": "Audience Insights & Demographics",
+  "socialmediareporting_step3_text": "We'll provide you with valuable insights into your audience demographics, including age, gender, location, interests, and behaviors, helping you better understand and target your audience."
+},
+
+"CmsInstallationService":{
+  "cta_talk_to_us": "Talk to us",
+   "cmsinstallation_subbanner_header": "CMS Installation",
+  "cmsinstallation_subbanner_header2": "Services",
+  "cmsinstallation_subbanner_text": "In the dynamic world of online presence, having a robust Content Management System is the cornerstone of success. At DGTLFACE, we specialize in providing professional CMS installation services, empowering your website with the tools and flexibility it needs to thrive in the digital realm.",
+
+  "cmsinstallation_step1_header": "Platform Selection & Recommendation",
+  "cmsinstallation_step1_text": "We help you choose the right CMS platform based on your requirements, budget, and technical expertise, ensuring a perfect fit for your website.",
+  "cmsinstallation_step2_header": "Installation & Configuration",
+  "cmsinstallation_step2_text": "Our technicians handle the entire installation process, setting up and configuring the CMS to meet your specifications and preferences.",
+  "cmsinstallation_step3_header": "Theme & Plugin Integration",
+  "cmsinstallation_step3_text": "We integrate custom themes and plugins to enhance the design and functionality of your website, ensuring a seamless user experience and optimal performance."
+},
+
+"PdpaCompliance":{
+  "cta_talk_to_us": "Talk to us",
+  "pdpa_subbanner_header": "PDPA Compliance",
+  "pdpa_subbanner_header2": "Services",
+  "pdpa_subbanner_text": "The purpose of this Law is to protect fundamental rights and freedoms of persons, particularly the right to privacy, with respect to processing of personal data and to set forth obligations, principles and procedures which shall be binding upon natural or legal persons who process personal data.",
+
+  "pdpa_step1_header": "Integration & PDPA",
+  "pdpa_step1_text": "Due to current legal regulations, PDPA has become quite complex. Clarification text and cookies are not possible without a professional team, and DGTLFACE follows these regulations closely and takes the necessary steps for you at the right time.",
+  "pdpa_step2_header": "Cookie Policy",
+  "pdpa_step2_text": "We will handle this task for you with personnel specialised in cookies and cookie use. Even if you comply with PDPA rules, the cookie selection screen may be against the law. Don't bother with all this and let our expert teams take care of this problem for you.",
+  "pdpa_step3_header": "Global Compliance",
+  "pdpa_step3_text": "Creating a website that complies with legal regulations and security policies is more difficult than it seems. Since all our departments work in harmony, it is our job to create a website that is compatible with the modern world and fully complies with legal regulations."
+},
+
+"ServerManagement":{
+   "cta_talk_to_us": "Talk to us",
+  "servermanagement_subbanner_header": "Server Management",
+  "servermanagement_subbanner_header2": "Services",
+  "servermanagement_subbanner_text": "Discover server solutions crafted to meet your unique requirements. Our service is not one-size-fits-all; it's a tailored approach to ensuring your servers align perfectly with your business demands. Let’s design a server strategy that grows with you.",
+
+  "servermanagement_step1_header": "Future-Proof Performance",
+  "servermanagement_step1_text": "Embrace the future with scalable servers that evolve alongside your business. Our service ensures future-proof performance, allowing your digital infrastructure to grow seamlessly. Elevate your operations with a server solution designed for tomorrow.",
+  "servermanagement_step2_header": "Server Security",
+  "servermanagement_step2_text": "Fortify your digital defences with our server security service. We go beyond standard protocols, implementing robust measures to safeguard your data. Trust us for a secure server environment that shields your digital assets.",
+  "servermanagement_step3_header": "Server Efficiency",
+  "servermanagement_step3_text": "We fine-tune your servers for peak performance, ensuring that every digital interaction is smooth, swift, and efficient. Experience the power of optimised servers. From routine maintenance to intricate optimizations, our experts handle it all."
+},
+
+"WebsiteAndSoftware":{
+  "cta_talk_to_us": "Talk to us",
+   "websiteandsoftware_subbanner_header": "Website & Software",
+  "websiteandsoftware_subbanner_header2": "Services",
+  "websiteandsoftware_subbanner_text": "Involve your brand in the art of web development with our expert software developers. From stylish interfaces to robust functionality, we create digital experiences that go beyond the ordinary. Take a firm step into the digital world with our code mastery.",
+
+  "websiteandsoftware_step1_header": "Next.js",
+  "websiteandsoftware_step1_text": "To stay grounded in the digital world, you need to use next-generation technologies. Don’t rely on outdated stacks—feel the difference of a website built with today’s most up-to-date frameworks.",
+  "websiteandsoftware_step2_header": "Fast Loading",
+  "websiteandsoftware_step2_text": "A fast-loading website is crucial for first impressions. If a beautiful site loads slowly, the entire journey suffers—conversions drop and customers leave. At DGTLFACE, we deliver speed and design together.",
+  "websiteandsoftware_step3_header": "Code Symphony",
+  "websiteandsoftware_step3_text": "Craft a symphony of code that harmonizes with user experience. Our web development goes beyond functionality to create a digital melody that resonates with your audience."
+},
+
+"WebsiteMaintance":{
+   "cta_talk_to_us": "Talk to us",
+   "websitemaintenance_subbanner_header": "Website Maintenance",
+  "websitemaintenance_subbanner_header2": "Services",
+  "websitemaintenance_subbanner_text": "Success in the online world not only hinges on making a strong start but also on ensuring your website remains continuously updated, secure, and fast. This is where DGTLFACE Website Maintenance and Support Services come into play. Our professional team provides all the necessary technical maintenance and updates to ensure your website always performs at its peak.",
+
+  "websitemaintenance_step1_header": "Support & Maintenance",
+  "websitemaintenance_step1_text": "Forge your connections with our cutting-edge security infrastructure. Your data is wrapped in impenetrable armor, ensuring that every connection is not just secure but fortified against any unauthorized access.",
+  "websitemaintenance_step2_header": "Securing Data",
+  "websitemaintenance_step2_text": "We don't just secure connections; we shield them with an impervious layer of data security. Your information is guarded against any breach, ensuring that every connection is a secure pathway in the digital realm.",
+  "websitemaintenance_step3_header": "Encryption",
+  "websitemaintenance_step3_text": "Every piece of data is encoded with the highest standards, ensuring that your connections remain secure and impervious to any external threats. We take pride in securing every byte, connection by connection."
+},
+
+"AdvertisingReporting":{
+   "cta_talk_to_us": "Talk to us",
+  "advertisingreporting_subbanner_header": "Advertising Reporting",
+  "advertisingreporting_subbanner_header2": "Services",
+  "advertisingreporting_subbanner_text": "Digital Sales and Marketing Analysis Services is a premier provider of data-driven solutions for businesses that want to optimize their sales and marketing strategies. We help clients understand their customers, markets, competitors, and campaigns, and provide actionable insights to increase sales and marketing.",
+
+  "advertisingreporting_step1_header": "Ad Spend Optimization",
+  "advertisingreporting_step1_text": "If you want to manage your advertising budget more effectively, our daily ad spending reporting services are perfect for you. With detailed reports, you can easily see which ads generate the highest conversions and adjust your budget accordingly. Discover strategies that help you make the most of every penny of your ad spend.",
+  "advertisingreporting_step2_header": "Increasing Conversion Rates Efforts",
+  "advertisingreporting_step2_text": "Daily reporting lets you track ad campaign performance in real time. These reports show which ads attract more customers and which platforms perform better, helping increase your conversion rates. See where to focus to maximize ROI.",
+  "advertisingreporting_step3_header": "Target Audience Analysis & Segmentation",
+  "advertisingreporting_step3_text": "Daily ad spend reports let you deeply analyze audience behavior. With these insights, you can segment campaigns by demographics, interests, and behaviors so your messages reach the right people—boosting budget efficiency.",
+  "advertisingreporting_step4_header": "Keep Up with Trends: Current Data Analysis",
+  "advertisingreporting_step4_text": "Use our daily reporting to keep up with market trends and shape strategy accordingly. With up-to-date data analysis, you can adapt quickly to changes in consumer behavior and optimize campaigns instantly—staying ahead of competitors."
+},
+
+"CallReportingService":{
+   "cta_talk_to_us": "Talk to us",
+   "callreporting_subbanner_header": "Call Reporting",
+  "callreporting_subbanner_header2": "Services",
+  "callreporting_subbanner_text": "Our Daily Call Analysis Reporting Services provide the tools needed to optimise your business’s call centre operations and increase customer satisfaction. Contact us now to learn more and start improving your business!",
+
+  "callreporting_step1_header": "Call Recording & Storage",
+  "callreporting_step1_text": "Call recording and storage services allow businesses to securely record customer communications. This is important for future audits, training purposes, or immediate needs. Recorded calls form the basis of data analysis and customer feedback.",
+
+  "callreporting_step2_header": "Call Analysis & Monitoring",
+  "callreporting_step2_text": "Call analysis and monitoring help businesses evaluate their performance by listening to call content and improve customer satisfaction. Real-time monitoring provides the opportunity to respond quickly to customer requests.",
+
+  "callreporting_step3_header": "Reporting & Data Analysis",
+  "callreporting_step3_text": "Reporting and data analysis transform call data into valuable insights for the business. This service helps businesses understand call centre performance, identify strengths and weaknesses, and make strategic decisions.",
+
+  "callreporting_step4_header": "Customer Feedback & Improvement",
+  "callreporting_step4_text": "Customer feedback and improvement are essential for enhancing the customer experience. This service provides data-driven feedback to understand satisfaction and optimise processes, helping businesses deliver better service."
+},
+
+"DigitalSalesAnalysis":{
+   "cta_talk_to_us": "Talk to us",
+ "digitalsalesanalysis_subbanner_header": "Digital Sales Analysis",
+  "digitalsalesanalysis_subbanner_header2": "Services",
+  "digitalsalesanalysis_subbanner_text": "Digital Sales and Marketing Analysis Services is a premier provider of data-driven solutions for businesses that want to optimize their sales and marketing strategies. We help clients understand their customers, markets, competitors, and campaigns, and provide actionable insights to increase results.",
+
+  "digitalsalesanalysis_step1_header": "Customer Segmentation & Profiling",
+  "digitalsalesanalysis_step1_text": "We segment and profile customers based on demographics, behaviors, preferences, and needs. This helps identify your most valuable and loyal customers and tailor offerings and communications to them.",
+
+  "digitalsalesanalysis_step2_header": "Market Research & Intelligence",
+  "digitalsalesanalysis_step2_text": "We conduct market research and intelligence to assess the size, growth, trends, and opportunities of your target markets. We help you monitor and benchmark performance against competitors and identify strengths and weaknesses.",
+
+  "digitalsalesanalysis_step3_header": "Campaign Analysis & Optimization",
+  "digitalsalesanalysis_step3_text": "We analyze and optimize campaigns across email, social media, web, and mobile. We help measure and improve effectiveness, efficiency, and impact, and provide clear recommendations for enhancement."
+},
+
+"OnlineMarketResearch":{
+  "cta_talk_to_us": "Talk to us",
+   "onlinemarketresearch_subbanner_header": "Online Market Research",
+  "onlinemarketresearch_subbanner_header2": "Services",
+  "onlinemarketresearch_subbanner_text": "In today's rapidly evolving marketplace, keeping your finger on the pulse of consumer trends and industry insights is crucial to staying competitive. We specialize in providing comprehensive Online Market Research Services designed to help you navigate the ever-changing landscape and make informed decisions that drive success.",
+
+  "onlinemarketresearch_step1_header": "Follow The Trend",
+  "onlinemarketresearch_step1_text": "We monitor emerging trends and consumer preferences in real time, keeping you a step ahead of the competition and positioning your brand as an industry leader. From social media chatter and consumer reviews to industry reports and competitor analysis, we leave no stone unturned in uncovering valuable insights that shape your strategic direction.",
+
+  "onlinemarketresearch_step2_header": "Stay up to Date",
+  "onlinemarketresearch_step2_text": "In the ever-evolving digital marketplace, knowledge is power. To stay ahead of the curve, you need actionable insights derived from comprehensive online market research. We offer up-to-date and refined Online Market Research Services tailored to the demands of today’s dynamic business environment.",
+
+  "onlinemarketresearch_step3_header": "Understand Your Audience",
+  "onlinemarketresearch_step3_text": "We delve deep into consumer behavior, demographics, and psychographics to develop a comprehensive understanding of your target audience, enabling you to tailor your products, services, and marketing efforts to their needs and preferences."
+},
+
+"WebsiteReporting":{
+  "cta_talk_to_us": "Talk to us",
+   "websitereporting_subbanner_header": "Website Reporting",
+  "websitereporting_subbanner_header2": "Services",
+  "websitereporting_subbanner_text": "Experience the power of strategic analysis through our visual reports. We don't just present data; we visualise it in a way that resonates with your business goals. Let's turn complex data into clear, legible visuals.",
+
+  "websitereporting_step1_header": "Website Traffic Analysis Service",
+  "websitereporting_step1_text": "We gather all potentially meaningful data from many channels. The more data we have, the richer the insights become—but we collect and process data selected by our expert team for meaningful readings, not randomly gathered information.",
+
+  "websitereporting_step2_header": "Website Performance Analysis Service",
+  "websitereporting_step2_text": "All the data we gather is compared with proven and up-to-date benchmarks. We make the data comparable, align the right points, and derive new findings—then DGTLFACE experts review those findings.",
+
+  "websitereporting_step3_header": "Presentation",
+  "websitereporting_step3_text": "Dive deep into your data landscape with our in-depth analysis and customised reporting. Every report is crafted to your business requirements, providing a comprehensive understanding of your performance metrics. Finally, we present it to you."
 }
 
 

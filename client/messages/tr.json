@@ -176,7 +176,11 @@
   "link_services": "Hizmetler",
   "link_contact": "İletişim",
   "link_privacy_policy": "Gizlilik Politikası",
-  "link_terms_of_service": "Kullanım Şartları"
+  "link_terms_of_service": "Kullanım Şartları",
+    "header": "Hadi",
+  "span": "Çalışmaya",
+  "text": "Bir sonraki yaratıcı girişimde ilk adımları atmaya hazırız. Aşağıdaki butona dokunmanız, ortak yolculuğumuzu başlatacaktır.",
+  "buttonText": "İletişime Geç"
 },
 
 "ContactPage":{
@@ -259,7 +263,1120 @@
   "aboutpage_s4_faq3_text": "Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve sistemlerimizde kapatılamaz. Genellikle yalnızca gizlilik tercihlerinizi belirleme, oturum açma veya formları doldurma gibi hizmet talebi niteliğindeki eylemlere yanıt olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir bilgileri saklamaz.",
   "aboutpage_s4_faq4_header": "Tasarım Hizmetleri Nasıl Çalışır?",
   "aboutpage_s4_faq4_text": "Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve sistemlerimizde kapatılamaz. Genellikle yalnızca gizlilik tercihlerinizi belirleme, oturum açma veya formları doldurma gibi hizmet talebi niteliğindeki eylemlere yanıt olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir bilgileri saklamaz."
+},
+
+"ServicesPage":{
+   "servicespage_s1_text1": "Bizim",
+  "servicespage_s1_span1": "Hizmetlerimiz",
+  "servicespage_s1_text2": "Yeni bir dünyaya açılmanın en iyi yolunu biliyoruz. Markalaşma ve büyümede doğru adımları atmanız için önemli olan her şeyi burada bulabilir, bizi arayarak tüm süreci öğrenebilirsiniz.",
+  "servicespage_s1_button1": "İletişime Geç",
+
+  "servicespage_s2_header1": "8 Birim, Kusursuz",
+  "servicespage_s2_span1": "Hizmetler",
+  "servicespage_s2_text1": "Sekiz dinamik birimimizle olasılıklar evrenini keşfedin; her biri inovasyonun güçlü bir merkezidir. Öncü teknolojiden ilham veren yaratıcılığa kadar mükemmelliği yeniden tanımlayan yüzlerce hizmet sunuyoruz. Sınırsız çözümler yolculuğunuz burada başlıyor.",
+
+  "servicespage_s3_item1_title": "Yaratıcı",
+  "servicespage_s3_item2_title": "Çağrı Merkezi",
+  "servicespage_s3_item3_title": "PMS & OTA",
+  "servicespage_s3_item4_title": "SEO",
+  "servicespage_s3_item5_title": "SEM",
+  "servicespage_s3_item6_title": "SMM",
+  "servicespage_s3_item7_title": "BT & Yazılım",
+  "servicespage_s3_item8_title": "Analiz",
+  "servicespage_s3_span1": "Hizmetler",
+
+  "servicespage_s4_header1": "Dgtlface",
+  "servicespage_s4_span1": "Değerler",
+  "servicespage_s4_chip1_header": "Kalite",
+  "servicespage_s4_chip1_span": "01",
+  "servicespage_s4_chip2_header": "Güvenilirlik",
+  "servicespage_s4_chip2_span": "02",
+  "servicespage_s4_chip3_header": "Yaratıcılık",
+  "servicespage_s4_chip3_span": "03",
+  "servicespage_s4_chip4_header": "Hırs",
+  "servicespage_s4_chip4_span": "04",
+  "servicespage_s4_button_explore": "Keşfet",
+  "servicespage_s4_pricing_header": "Fiyatlandırma",
+  "servicespage_s4_pricing_text": "Maliyetlerden gözünüz korkmasın; arayın, size her şeyi ayrıntılı şekilde anlatalım. Tek fiyat alın ve geçerlilik süresince ek ücret ödemeyin.",
+  "servicespage_s4_button_callnow": "Şimdi Ara",
+
+  "servicespage_s5_header1": "Müşterilerimizin ne düşündüğü",
+  "servicespage_s5_span1": "DGTLFACE.",
+  "servicespage_s5_text1": "Beceri ve yetkinliklerimiz konusunda dürüstüz ve müşterilerimizin bu konuda bize katılmasından memnuniyet duyarız."
+},
+
+"VerticalSlider":{
+  "servicesvertical_header1": "Bizim",
+  "servicesvertical_span1": "Hizmetlerimiz",
+
+  "servicesvertical_item1_header": "Yaratıcı",
+  "servicesvertical_item1_span": "Hizmetler",
+  "servicesvertical_item1_text": "DGTLFACE’te yaratıcılığın atan kalbini keşfedin. Sadece hayal kurmuyoruz; hayal gücünün senfonilerini yaratıyoruz. Markanızın parlaklıkla örülü büyüleyici bir kumaşa dönüştüğünü izleyin.",
+  "servicesvertical_item1_button": "Keşfet",
+
+  "servicesvertical_item2_header": "Çağrı Merkezi",
+  "servicesvertical_item2_span": "Hizmetleri",
+  "servicesvertical_item2_text": "Çağrı merkezi hizmeti, şirketinizin itibarını ve marka algısını artırmanın harika bir yolu olabilir. Üstelik DGTLFACE olarak 4 dilde çağrı karşılama hizmeti sunarak markanızın profesyonellik algısını güçlendiriyoruz.",
+  "servicesvertical_item2_button": "Keşfet",
+
+  "servicesvertical_item3_header": "PMS & OTA",
+  "servicesvertical_item3_span": "Kurulum Hizmetleri",
+  "servicesvertical_item3_text": "DGTLFACE’in otel yönetim sistemi (PMS) ve çevrim içi seyahat acentesi (OTA) hizmetleriyle operasyonlarınızı sadeleştirin. Entegre yaklaşımımız, çevrim içi varlığınızı ve rezervasyonlarınızı optimize ederek platformlar arası görünürlüğü artırır, operasyonları daha verimli hâle getirir.",
+  "servicesvertical_item3_button": "Keşfet",
+
+  "servicesvertical_item4_header": "Arama Motoru Optimizasyonu",
+  "servicesvertical_item4_span": "(SEO) Hizmetleri",
+  "servicesvertical_item4_text": "SEO’ya kapsamlı yaklaşımımız; anahtar kelime araştırması, sayfa içi optimizasyon, içerik stratejisi ve teknik SEO’yu kapsar. Hedef arama sonuçlarında sitenizin istikrarlı biçimde üst sıralarda yer almasını sağlarız.",
+  "servicesvertical_item4_button": "Keşfet",
+
+  "servicesvertical_item5_header": "Arama Motoru Pazarlaması",
+  "servicesvertical_item5_span": "(SEM) Hizmetleri",
+  "servicesvertical_item5_text": "Günümüzün yoğun rekabetçi dijital ortamında, sonsuz içerik denizinde bulunabilir olmak başarının anahtarıdır. DGTLFACE olarak kapsamlı SEM hizmetlerimizle markanızı arama sonuçlarının ön sıralarına taşıyoruz.",
+  "servicesvertical_item5_button": "Keşfet",
+
+  "servicesvertical_item6_header": "Sosyal Medya Pazarlaması",
+  "servicesvertical_item6_span": "(SMM) Hizmetleri",
+  "servicesvertical_item6_text": "İşletmenizin sosyal medyanın tüm potansiyelini açığa çıkarmasına yardımcı olmak için tasarlanmış SMM hizmetleri. Hedeflerinize ve ihtiyaçlarınıza özel, kişiselleştirilmiş bir SMM stratejisi sunuyoruz.",
+  "servicesvertical_item6_button": "Keşfet",
+
+  "servicesvertical_item7_header": "Bilgi Teknolojileri",
+  "servicesvertical_item7_span": "(BT) ve Yazılım Hizmetleri",
+  "servicesvertical_item7_text": "Uzman yazılım geliştiricilerimizle web geliştirme sanatına markanızı dahil edin. Şık arayüzlerden sağlam işlevselliğe kadar, sıradanlığın ötesinde dijital deneyimler tasarlıyoruz. Kod ustalığımızla dijital dünyaya sağlam bir adım atın.",
+  "servicesvertical_item7_button": "Keşfet",
+
+  "servicesvertical_item8_header": "Dijital Analiz",
+  "servicesvertical_item8_span": "ve Raporlama Hizmetleri",
+  "servicesvertical_item8_text": "Dijital Analiz ve Raporlama Hizmetleri, her ölçekteki işletme için veri odaklı çözümler sunar. Bu sistem, verilerinizi uygulanabilir içgörülere dönüştürmenize, performansı optimize etmenize ve stratejik hedeflerinize ulaşmanıza yardımcı olur.",
+  "servicesvertical_item8_button": "Keşfet"
+},
+
+"CreativePage":{
+ "creativepage_banner_header": "Yaratıcı",
+  "creativepage_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "creativepage_banner_text": "DGTLFACE’te yaratıcılığın atan kalbini keşfedin. Sadece hayal kurmuyoruz; hayal gücünün senfonilerini yaratıyoruz. Markanızın parlaklıkla örülü büyüleyici bir kumaşa dönüştüğünü izleyin.",
+ 
+  "creativepage_step_header1": "Yaratıcılık ve Ötesi:",
+  "creativepage_step_header2": "Tasarım",
+  "creativepage_step_text": "Her piksel, her kelime kusursuz bir dokuya itinayla işlendi. Hayallerin tasarıma dönüştüğü inovasyon senfonisine katılın. Vizyonunuz, bizim ustalığımız.",
+
+  "creativepage_services_title1": "Grafik ve Motion Graphic",
+  "creativepage_services_subtitle1": "Tasarım Hizmeti",
+  "creativepage_services_feature1_1": "Logo Tasarımı",
+  "creativepage_services_feature1_2": "Marka Rehberi",
+  "creativepage_services_feature1_3": "Sosyal Medya Görselleri",
+  "creativepage_services_feature1_4": "Motion Graphic oluşturma ve düzenleme",
+
+  "creativepage_services_title2": "UI / UX",
+  "creativepage_services_subtitle2": "Tasarım Hizmeti",
+  "creativepage_services_feature2_1": "Logo Tasarımı",
+  "creativepage_services_feature2_2": "Marka Rehberi",
+  "creativepage_services_feature2_3": "Sosyal Medya Görselleri",
+  "creativepage_services_feature2_4": "Motion Graphic oluşturma ve düzenleme",
+
+  "creativepage_services_title3": "Video ve Prodüksiyon",
+  "creativepage_services_subtitle3": "Tasarım Hizmeti",
+  "creativepage_services_feature3_1": "Logo Tasarımı",
+  "creativepage_services_feature3_2": "Marka Rehberi",
+  "creativepage_services_feature3_3": "Sosyal Medya Görselleri",
+  "creativepage_services_feature3_4": "Motion Graphic oluşturma ve düzenleme",
+
+  "creativepage_services_title4": "Etkinlik Prodüksiyonu",
+  "creativepage_services_subtitle4": "Tasarım Hizmeti",
+  "creativepage_services_feature4_1": "Logo Tasarımı",
+  "creativepage_services_feature4_2": "Marka Rehberi",
+  "creativepage_services_feature4_3": "Sosyal Medya Görselleri",
+  "creativepage_services_feature4_4": "Motion Graphic oluşturma ve düzenleme",
+
+  "creativepage_services_title5": "Kurumsal Hediye",
+  "creativepage_services_subtitle5": "Tasarım Hizmeti",
+  "creativepage_services_feature5_1": "Logo Tasarımı",
+  "creativepage_services_feature5_2": "Marka Rehberi",
+  "creativepage_services_feature5_3": "Sosyal Medya Görselleri",
+  "creativepage_services_feature5_4": "Motion Graphic oluşturma ve düzenleme"
+},
+
+"GraphicDesign":{
+"graphicmotion_banner_header1": "Grafik &  Motion",
+"cta_talk_to_us": "Bizimle konuşun",
+  "graphicmotion_banner_header2": "Grafik Tasarım Hizmeti",
+  "graphicmotion_banner_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ut aliquip ex ea commodo consequat.",
+
+  "graphicmotion_step1_header": "Logo Tasarımı",
+  "graphicmotion_step1_text": "Kaliteli markalaşmadaki en önemli başlangıç noktası logodur. İlk izlenim çok önemlidir ve web sitenizde, kartvizitinizde veya tabelanızda göze çarpan ilk öge logodur.",
+
+  "graphicmotion_step2_header": "Marka Rehberi",
+  "graphicmotion_step2_text": "Markanızı düzenleyen uzman ekibimiz tarafından oluşturulmuş kapsamlı bir yol haritası sunuyoruz. Marka kimliğinizin benzersiz dokusunu oluşturan prensipleri, renkleri, yazı tiplerini ve görselleri keşfetmek için sayfalar arasında gezinin.",
+
+  "graphicmotion_step3_header": "Sosyal Medya Görselleri",
+  "graphicmotion_step3_text": "Beğenileri anlamlı etkileşime dönüştürün. Yalnızca görseller tasarlamıyoruz; kitlenizde yankı uyandıran deneyimler oluşturuyoruz.",
+
+  "graphicmotion_step4_header": "Motionografi Oluşturma ve Düzenleme",
+  "graphicmotion_step4_text": "Motionografi; hareketli grafik ve animasyonu birleştirerek web siteleri ve sosyal medya gibi dijital platformlar için etkileyici içerikler üretir. Süreç, projenin amacını ve hedef kitlesini tanımladığımız kavramsallaştırma ile başlar. Hikâye tahtası ve senaryo anlatıyı çizer; ardından Adobe After Effects ve Blender gibi araçlarla tasarım yapılır. Animasyon ve ses tasarımı görselleri hayata geçirir."
+},
+
+"UiUxDesign":{
+  "uiux_banner_header1": "UI / UX",
+  "uiux_banner_header2": "Tasarım Hizmeti",
+  "uiux_banner_text": "Yetkin bir UI ve UX tasarımcısı, genel kullanıcı deneyimini güçlendiren, görsel olarak çekici ve sezgisel arayüzler oluşturur. Net gezinme, iyi tasarlanmış yerleşimler ve estetik açıdan hoş görseller olumlu bir ilk izlenime katkı sağlar.",
+"cta_talk_to_us": "Bizimle konuşun",
+   "uiux_step_header1": "Web Sitesi Tasarımı",
+  "uiux_step_text1": "Etkili web sitesi tasarımları ziyaretçilere temiz bir arayüz ve kolay gezinme sunar. SEO uyumluluğu için anahtar kelime odaklı içerik ve hızlı yükleme sürelerine odaklanın. Bu yalnızca kullanıcı deneyimini iyileştirmekle kalmaz, arama motorlarında daha üst sıralara çıkmaya da yardımcı olur. Kısacası başarılı bir web sitesi, estetik ile işlevselliği birleştirerek hem kullanıcıya hem arama motorlarına dost olmalıdır.",
+
+  "uiux_step_header2": "UI&UX Uyumlu Tasarım",
+  "uiux_step_text2": "UI ve UX Tasarım Hizmetleri, kullanıcı deneyimini merkeze alarak dijital ürünlerinizi hem estetik hem işlevsel açıdan geliştirir. İyi bir UI (Kullanıcı Arayüzü) tasarımı, kullanıcıların ürününüzle etkileşimini kolaylaştırırken; UX (Kullanıcı Deneyimi) bu etkileşimin keyifli ve akıcı olmasını sağlar. Bu hizmetler, web sitelerinizi ve mobil uygulamalarınızı kullanıcı dostu, erişilebilir ve SEO uyumlu hâle getirir. Modern tasarım trendleri ve en iyi kullanılabilirlik uygulamalarını takip ederek markanızın dijital varlığını güçlendirir ve kullanıcı memnuniyetini artırır.",
+
+  "uiux_step_header3": "Dönüşüm Olasılığı & Analizi",
+  "uiux_step_text3": "Düşünceli bir UX tasarımı, ikna edici UI öğeleriyle birleştiğinde dönüşüm oranlarını artırabilir. Amacınız satışları artırmak, potansiyel müşteri toplamak veya belirli eylemleri teşvik etmek olsun, optimize edilmiş bir tasarım bu hedeflere ulaşmaya katkı sağlar.",
+
+  "uiux_step_header4": "Müşteri Tutma",
+  "uiux_step_text4": "İyi tasarlanmış ve kullanıcı dostu bir arayüz, hemen çıkma oranlarını düşürür; kullanıcıların etkileşimde kalmasını sağlar ve platformunuzu daha fazla keşfetmeye teşvik eder. Bu, ziyaretçileri elde tutmak ve müşteriye dönüştürmek için kritiktir."
+},
+
+"VideoProduction":{
+  "videoprod_banner_header1": "Video ve Prodüksiyon",
+  "videoprod_banner_header2": "Hizmeti",
+  "videoprod_banner_text": "Yaratıcı ve profesyonel ekibimiz, üretimin her aşamasında hedef kitlenizde karşılık bulan, yüksek kaliteli ve etkileyici video içerikleri üretmeye odaklanır.",
+"cta_talk_to_us": "Bizimle konuşun",
+  "videoprod_step_header1": "İç Mekân Tanıtım Çekimleri",
+  "videoprod_step_text1": "İster bir otel, ister şık bir restoran ya da ofis olsun, herhangi bir iç mekânın ambiyansını ve benzersiz özelliklerini öne çıkarmak uzmanlık alanımız. Markanızın kimliğine uygun hazırladığımız dikkat çekici video ve fotoğraf çekimleri, sizi rakiplerinizden ayıracak.",
+
+  "videoprod_step_header2": "Dış Mekân Tanıtım Çekimleri",
+  "videoprod_step_text2": "İster bir otel, ister şık bir restoran ya da ofis olsun, herhangi bir dış mekânın ambiyansını ve benzersiz özelliklerini öne çıkarmak uzmanlık alanımız. Markanızın kimliğine uygun hazırladığımız dikkat çekici video ve fotoğraf çekimleri, sizi rakiplerinizden ayıracak.",
+
+  "videoprod_step_header3": "Video ve Fotoğraf Çekimleri",
+  "videoprod_step_text3": "Kaliteye ve yaratıcılığa olan bağlılığımız, üstlendiğimiz her projenin öne çıkmasını sağlar. Sanatsal vizyonu teknik uzmanlıkla birleştirerek, beklentileri aşan ve farklı sektör ihtiyaçlarına cevap veren kapsamlı video ve fotoğraf hizmetleri sunuyoruz.",
+
+  "videoprod_step_header4": "360 Görsel ve Video Çekimleri",
+  "videoprod_step_text4": "Markanızı, hedef kitlenizde yankı uyandıran 360 tanıtım video ve fotoğraf hizmetleriyle yükseltin. Video tanıtım hizmetlerimiz; konsept geliştirme, senaryo yazımı, çekim ve post prodüksiyonu kapsayarak bilgilendirici ve ilgi çekici içerik üretir."
+},
+
+"EventProduction":{
+   "eventprod_banner_header1": "Etkinlik Prodüksiyonu",
+  "eventprod_banner_header2": "Hizmeti",
+  "eventprod_banner_text": "Etkinliklerinizi her açıdan en yüksek standartlarda, en yeni teknolojilerden yararlanarak yönetiyoruz. Ses, ışık, video ve sahneleme dâhil prodüksiyonun tüm teknik yönlerini ele alıyoruz.",
+"cta_talk_to_us": "Bizimle konuşun",
+  "eventprod_step_header1": "Konser Tanıtım Kampanyaları",
+  "eventprod_step_text1": "DGTLFACE, konserlerinizi dijital dünyada pazarlamak için dinamik bir yaklaşım sunar. Konserlerinizin görünürlüğünü ve etkileşimini artıracak çevrim içi çözümler üretiriz. Sosyal medya reklamcılığı ve içerik pazarlaması gibi çeşitli dijital stratejileri entegre ederek hedef kitlenize etkin şekilde ulaşırız.",
+
+  "eventprod_step_header2": "Partiler için Dijital Tanıtım Kampanyaları",
+  "eventprod_step_text2": "Etkinliğinizin dijital alanda öne çıkmasını en güncel dijital pazarlama stratejileriyle sağlarız. Heyecan verici gece kulübü etkinliklerinden özel partilere kadar benzersiz yaklaşımımızla hedef kitlenizin dikkatini çekeriz. Tanıtım videolarından etkileşimli paylaşımlara kadar içeriklerimiz, ilgi çekici noktaları vurgulamak üzere tasarlanır.",
+
+  "eventprod_step_header3": "Etkinlikler için Dijital Tanıtım Kampanyaları",
+  "eventprod_step_text3": "Özel Etkinlik Dijital Tanıtım Hizmetleri, belirli bir etkinliğin çevrim içi görünürlüğünü, etkileşimini ve başarısını en üst düzeye çıkarmak için tasarlanmış çözümlerdir. Ürün lansmanı, konferans, konser veya başka bir özel etkinlik fark etmeksizin, hedef kitleye ulaşmak ve onları etkilemek için dijital kanallardan yararlanmak kritik öneme sahiptir.",
+
+  "eventprod_step_header4": "360 Görsel ve Video Çekimleri",
+  "eventprod_step_text4": "Markanızı, hedef kitlenizde yankı uyandıran 360 tanıtım video ve fotoğraf hizmetleriyle yükseltin. Video tanıtım hizmetlerimiz; konsept geliştirme, senaryo yazımı, çekim ve post prodüksiyonu kapsayarak bilgilendirici ve ilgi çekici içerikler sunar."
+},
+
+"CorporateGift":{
+  "corporategift_banner_header1": "Kurumsal Hediye",
+  "corporategift_banner_header2": "Tasarım Hizmeti",
+  "corporategift_banner_text": "Kurumsal tasarım desteği; kurumun tutarlı ve profesyonel bir görsel kimliğini güçlendirmek ve sürdürmek için kapsamlı tasarım hizmetleri sunmayı kapsar. Bu; farklı materyaller için tasarım öğeleri üretmeyi, marka tutarlılığını sağlamayı ve bütünlüklü, olumlu bir marka imajına katkıda bulunmayı içerir.",
+"cta_talk_to_us": "Bizimle konuşun",
+  "corporategift_step_header1": "Kurumsal Tanıtım Materyali Hizmeti",
+  "corporategift_step_text1": "Bu materyaller, olumlu ve tutarlı bir marka imajı oluşturmak ve hedef kitleyle etkili iletişim kurmak için kritik öneme sahiptir. Kurumsal tanıtım materyali hizmetlerinin başlıca bileşenleri ve faydaları şunlardır.",
+
+  "corporategift_step_header2": "Kurumsal Katalog Tasarım Hizmeti",
+  "corporategift_step_text2": "Deneyimli tasarım ekibimiz, markanızın özünü yakalarken hedef kitlenizi bilgilendiren ve ilham veren özelleştirilmiş kataloglar tasarlar.",
+
+  "corporategift_step_header3": "Otel Konsept Tasarım Destek Hizmeti",
+  "corporategift_step_text3": "Otelinizin kimliğini, konumunu ve hedef pazarını yansıtan benzersiz konseptleri birlikte geliştiriyoruz. Böylece tasarımın her unsuru, tutarlı ve akılda kalıcı bir misafir deneyimine katkı sağlar.",
+
+  "corporategift_step_header4": "360 Görsel ve Video Çekimleri",
+  "corporategift_step_text4": "Hedef kitlenizde yankı uyandıran 360 tanıtım video ve fotoğraf hizmetleriyle markanızı yükseltin. Hizmetlerimiz; konsept geliştirme, senaryo yazımı, çekim ve post prodüksiyonu kapsayarak bilgilendirici ve ilgi çekici içerik üretir."
+},
+
+"Callcenter":{
+  "callcenter_banner_header": "Çağrı Merkezi",
+  "callcenter_banner_text": "Çağrı merkezi hizmeti, şirketinizin itibarını ve marka algısını artırmanın iyi bir yolu olabilir. Ayrıca DGTLFACE olarak, 4 dilde çağrı karşılama hizmeti sunarak markanızdaki profesyonellik algısını yükseltme sözü veriyoruz.",
+  "callcenter_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "callcenter_section_header1": "Tüm Alanlarda ",
+  "callcenter_section_header2": "Güçlü Ekip",
+  "callcenter_section_text": "Çağrı merkezi hizmetimiz ve yetenekli ekibimizle müşteri sorunlarınıza hızlı ve etkili çözümler sunuyoruz.",
+
+  "callcenter_services_title1": "4 Dilde Çağrı",
+  "callcenter_services_subtitle1": "Hizmeti",
+  "callcenter_services_feature1_1": "Logo Tasarımı",
+  "callcenter_services_feature1_2": "Marka Kılavuzu",
+  "callcenter_services_feature1_3": "Sosyal Medya Görselleri",
+  "callcenter_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "callcenter_services_title2": "Rezervasyon Desteği",
+  "callcenter_services_subtitle2": "Hizmeti",
+  "callcenter_services_feature2_1": "Logo Tasarımı",
+  "callcenter_services_feature2_2": "Marka Kılavuzu",
+  "callcenter_services_feature2_3": "Sosyal Medya Görselleri",
+  "callcenter_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "callcenter_services_title3": "Çoklu Kanallar",
+  "callcenter_services_subtitle3": "Takip Hizmeti",
+  "callcenter_services_feature3_1": "Logo Tasarımı",
+  "callcenter_services_feature3_2": "Marka Kılavuzu",
+  "callcenter_services_feature3_3": "Sosyal Medya Görselleri",
+  "callcenter_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "callcenter_services_title4": "Sözleşme Yönetimi",
+  "callcenter_services_subtitle4": "Hizmeti",
+  "callcenter_services_feature4_1": "Logo Tasarımı",
+  "callcenter_services_feature4_2": "Marka Kılavuzu",
+  "callcenter_services_feature4_3": "Sosyal Medya Görselleri",
+  "callcenter_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "callcenter_services_title5": "Çağrı Analizi",
+  "callcenter_services_subtitle5": "Hizmeti",
+  "callcenter_services_feature5_1": "Logo Tasarımı",
+  "callcenter_services_feature5_2": "Marka Kılavuzu",
+  "callcenter_services_feature5_3": "Sosyal Medya Görselleri",
+  "callcenter_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"Pms":{
+  "pms_banner_header": "PMS & OTA Kurulumu",
+  "pms_banner_text": "DGTLFACE’in otel yönetim sistemi (PMS) ve online seyahat acentesi (OTA) hizmetleriyle operasyonlarınızı sadeleştirin. Entegre yaklaşımımız, çevrim içi varlığınızı ve rezervasyonlarınızı optimize ederek platformlar arası görünürlüğü artırır ve süreçleri daha verimli hâle getirir.",
+ "pms_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+
+  "pms_section_header1": "Kurulum ve ",
+  "pms_section_header2": "Optimizasyon",
+  "pms_section_text": "Konaklama operasyonlarınızı, kurumsal yönetiminizi ve online seyahat acentesi etkileşimlerinizi basitleştirmek ve güçlendirmek için tasarlanmış kapsamlı çözümümüzü keşfedin.",
+
+  "pms_services_title1": "Otel Tanımlama",
+  "pms_services_subtitle1": "Hizmeti",
+  "pms_services_feature1_1": "Logo Tasarımı",
+  "pms_services_feature1_2": "Marka Kılavuzu",
+  "pms_services_feature1_3": "Sosyal Medya Görselleri",
+  "pms_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "pms_services_title2": "OTA Sözleşme Yönetimi",
+  "pms_services_subtitle2": "Hizmeti",
+  "pms_services_feature2_1": "Logo Tasarımı",
+  "pms_services_feature2_2": "Marka Kılavuzu",
+  "pms_services_feature2_3": "Sosyal Medya Görselleri",
+  "pms_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "pms_services_title3": "Web Ödeme Sistemi",
+  "pms_services_subtitle3": "Hizmeti",
+  "pms_services_feature3_1": "Logo Tasarımı",
+  "pms_services_feature3_2": "Marka Kılavuzu",
+  "pms_services_feature3_3": "Sosyal Medya Görselleri",
+  "pms_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "pms_services_title4": "Rezervasyon Modülü",
+  "pms_services_subtitle4": "Hizmeti",
+  "pms_services_feature4_1": "Logo Tasarımı",
+  "pms_services_feature4_2": "Marka Kılavuzu",
+  "pms_services_feature4_3": "Sosyal Medya Görselleri",
+  "pms_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "pms_services_title5": "Rezervasyon Yönetimi",
+  "pms_services_subtitle5": "Tasarım Hizmeti",
+  "pms_services_feature5_1": "Logo Tasarımı",
+  "pms_services_feature5_2": "Marka Kılavuzu",
+  "pms_services_feature5_3": "Sosyal Medya Görselleri",
+  "pms_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"Sem":{
+   "sem_banner_header": "Arama Motoru Pazarlaması (SEM)",
+  "sem_banner_text": "Günümüzün son derece rekabetçi dijital ortamında, sonsuz içerik denizinde bulunabilmek başarı için kritik önemdedir. DGTLFACE olarak, kapsamlı Arama Motoru Pazarlaması (SEM) hizmetlerimizle markanızı arama sonuçlarının ön sıralarına taşımada uzmanız.",
+"sem_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "sem_section_header1": "Her Tıklama ",
+  "sem_section_header2": "Satışa Dönsün",
+  "sem_section_text": "SEM gücünden yararlanarak markanızı, sizin gibi ürün ve hizmetleri aktif olarak arayan hedef kitlenizin karşısına stratejik biçimde çıkarıyoruz. Veri odaklı yaklaşımımız ve arama motoru algoritmalarına hâkimiyetimizle, somut sonuçlar üreten hedefli kampanyalar kurguluyoruz.",
+
+  "sem_services_title1": "Reklam Yönetimi",
+  "sem_services_subtitle1": "Hizmeti",
+  "sem_services_feature1_1": "Logo Tasarımı",
+  "sem_services_feature1_2": "Marka Kılavuzu",
+  "sem_services_feature1_3": "Sosyal Medya Görselleri",
+  "sem_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "sem_services_title2": "Web Trafiği Takibi",
+  "sem_services_subtitle2": "Hizmeti",
+  "sem_services_feature2_1": "Logo Tasarımı",
+  "sem_services_feature2_2": "Marka Kılavuzu",
+  "sem_services_feature2_3": "Sosyal Medya Görselleri",
+  "sem_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "sem_services_title3": "Google Web Araçları",
+  "sem_services_subtitle3": "Hizmeti",
+  "sem_services_feature3_1": "Logo Tasarımı",
+  "sem_services_feature3_2": "Marka Kılavuzu",
+  "sem_services_feature3_3": "Sosyal Medya Görselleri",
+  "sem_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "sem_services_title4": "Yandex Reklamları",
+  "sem_services_subtitle4": "Hizmeti",
+  "sem_services_feature4_1": "Logo Tasarımı",
+  "sem_services_feature4_2": "Marka Kılavuzu",
+  "sem_services_feature4_3": "Sosyal Medya Görselleri",
+  "sem_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "sem_services_title5": "Google Ads Reklamları",
+  "sem_services_subtitle5": "Hizmeti",
+  "sem_services_feature5_1": "Logo Tasarımı",
+  "sem_services_feature5_2": "Marka Kılavuzu",
+  "sem_services_feature5_3": "Sosyal Medya Görselleri",
+  "sem_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"Seo":{
+  "seo_banner_header": "Arama Motoru Optimizasyonu (SEO)",
+  "seo_banner_text": "SEO’ya kapsamlı yaklaşımımız; anahtar kelime araştırması, sayfa içi optimizasyon, içerik stratejisi ve teknik SEO’yu içerir; böylece web sitenizin hedef arama sonuçlarında tutarlı biçimde üst sıralarda yer almasını sağlar.",
+"seo_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "seo_section_header1": "Aramada",
+  "seo_section_header2": "Öne Çıkın",
+  "seo_section_text": "Arama Motoru Optimizasyonu (SEO) hizmetleriyle çevrim içi görünürlüğünüzü ve organik trafiğinizi artırın. DGTLFACE, arama motoru algoritma güncellemelerini yakından takip ederek web sitenizin rekabetçi ve ideal müşterilere görünür kalmasını sağlar.",
+
+  "seo_services_title1": "Sayfa İçi SEO",
+  "seo_services_subtitle1": "Hizmeti",
+  "seo_services_feature1_1": "Logo Tasarımı",
+  "seo_services_feature1_2": "Marka Kılavuzu",
+  "seo_services_feature1_3": "Sosyal Medya Görselleri",
+  "seo_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "seo_services_title2": "Sayfa Dışı SEO",
+  "seo_services_subtitle2": "Tasarım Hizmeti",
+  "seo_services_feature2_1": "Logo Tasarımı",
+  "seo_services_feature2_2": "Marka Kılavuzu",
+  "seo_services_feature2_3": "Sosyal Medya Görselleri",
+  "seo_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "seo_services_title3": "Teknik SEO",
+  "seo_services_subtitle3": "Hizmeti",
+  "seo_services_feature3_1": "Logo Tasarımı",
+  "seo_services_feature3_2": "Marka Kılavuzu",
+  "seo_services_feature3_3": "Sosyal Medya Görselleri",
+  "seo_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "seo_services_title4": "Özgün Metin Yazımı",
+  "seo_services_subtitle4": "Hizmeti",
+  "seo_services_feature4_1": "Logo Tasarımı",
+  "seo_services_feature4_2": "Marka Kılavuzu",
+  "seo_services_feature4_3": "Sosyal Medya Görselleri",
+  "seo_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "seo_services_title5": "SEO Raporlama",
+  "seo_services_subtitle5": "Hizmeti",
+  "seo_services_feature5_1": "Logo Tasarımı",
+  "seo_services_feature5_2": "Marka Kılavuzu",
+  "seo_services_feature5_3": "Sosyal Medya Görselleri",
+  "seo_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"Smm":{
+    "smm_banner_header": "Sosyal Medya Pazarlaması (SMM)",
+  "smm_banner_text": "Sosyal medya pazarlaması (SMM) hizmetleri, işletmenizin sosyal medyanın tüm potansiyelinden yararlanmasına yardımcı olmak için tasarlanmıştır. Özelleştirilmiş SMM stratejimiz, benzersiz hedeflerinize ve amaçlarınıza göre şekillenir.",
+"smm_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "smm_section_header1": "İçerik",
+  "smm_section_header2": "Üretimi",
+  "smm_section_text": "İş hedeflerinizle uyumlu stratejik bir sosyal medya planı oluşturuyor, hedef kitleleri, platformları ve mesaj stratejilerini belirliyoruz. Ekip olarak; paylaşımlar, görseller, videolar ve hikâyeler dâhil, kitlenizde yankı uyandıran ve etkileşim sağlayan içerikler üretiyoruz.",
+
+  "smm_services_title1": "Sosyal Medya Planlama",
+  "smm_services_subtitle1": "Hizmeti",
+  "smm_services_feature1_1": "Logo Tasarımı",
+  "smm_services_feature1_2": "Marka Kılavuzu",
+  "smm_services_feature1_3": "Sosyal Medya Görselleri",
+  "smm_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "smm_services_title2": "Sosyal Medya Yönetimi",
+  "smm_services_subtitle2": "Hizmeti",
+  "smm_services_feature2_1": "Logo Tasarımı",
+  "smm_services_feature2_2": "Marka Kılavuzu",
+  "smm_services_feature2_3": "Sosyal Medya Görselleri",
+  "smm_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "smm_services_title3": "Sosyal Medya Raporlama",
+  "smm_services_subtitle3": "Hizmeti",
+  "smm_services_feature3_1": "Logo Tasarımı",
+  "smm_services_feature3_2": "Marka Kılavuzu",
+  "smm_services_feature3_3": "Sosyal Medya Görselleri",
+  "smm_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "smm_services_title4": "Sosyal Medya İçeriği",
+  "smm_services_subtitle4": "Hizmeti",
+  "smm_services_feature4_1": "Logo Tasarımı",
+  "smm_services_feature4_2": "Marka Kılavuzu",
+  "smm_services_feature4_3": "Sosyal Medya Görselleri",
+  "smm_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "smm_services_title5": "Sosyal Medya Analizi",
+  "smm_services_subtitle5": "Hizmeti",
+  "smm_services_feature5_1": "Logo Tasarımı",
+  "smm_services_feature5_2": "Marka Kılavuzu",
+  "smm_services_feature5_3": "Sosyal Medya Görselleri",
+  "smm_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"Software":{
+  "software_banner_header": "BT ve Yazılım",
+  "software_banner_text": "Markanızı uzman yazılım geliştiricilerimizle web geliştirme sanatına dâhil edin. Şık arayüzlerden sağlam işlevselliğe kadar, sıradanlığın ötesine geçen dijital deneyimler tasarlıyoruz. Kod ustalığımızla dijital dünyaya sağlam bir adım atın.",
+"software_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+  "software_section_header1": "Dijital Mükemmellik için",
+  "software_section_header2": "Kod Ustalığı",
+  "software_section_text": "DGTLFACE’te sadece web sitesi yapmıyoruz; markanızın hikâyesini anlatan, müşterilerinizi büyüleyen ve sonuç üreten dijital başyapıtlar oluşturuyoruz. Markanızın çevrim içi varlığını birlikte şekillendirelim.",
+
+  "software_services_title1": "Web Sitesi ve Yazılım",
+  "software_services_subtitle1": "Hizmeti",
+  "software_services_feature1_1": "Logo Tasarımı",
+  "software_services_feature1_2": "Marka Kılavuzu",
+  "software_services_feature1_3": "Sosyal Medya Görselleri",
+  "software_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "software_services_title2": "Sunucu Yönetimi",
+  "software_services_subtitle2": "Hizmeti",
+  "software_services_feature2_1": "Logo Tasarımı",
+  "software_services_feature2_2": "Marka Kılavuzu",
+  "software_services_feature2_3": "Sosyal Medya Görselleri",
+  "software_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "software_services_title3": "KVKK Uyumluluğu",
+  "software_services_subtitle3": "Hizmeti",
+  "software_services_feature3_1": "Logo Tasarımı",
+  "software_services_feature3_2": "Marka Kılavuzu",
+  "software_services_feature3_3": "Sosyal Medya Görselleri",
+  "software_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "software_services_title4": "Web Sitesi Bakımı",
+  "software_services_subtitle4": "Hizmeti",
+  "software_services_feature4_1": "Logo Tasarımı",
+  "software_services_feature4_2": "Marka Kılavuzu",
+  "software_services_feature4_3": "Sosyal Medya Görselleri",
+  "software_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "software_services_title5": "CMS Kurulumu",
+  "software_services_subtitle5": "Hizmeti",
+  "software_services_feature5_1": "Logo Tasarımı",
+  "software_services_feature5_2": "Marka Kılavuzu",
+  "software_services_feature5_3": "Sosyal Medya Görselleri",
+  "software_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"DigitalAnalysis":{
+  "analysis_banner_span": "Hizmetler",
+  "buttonText":"Keşfet",
+   "analysis_banner_header": "Dijital Analiz ve Raporlama",
+  "analysis_banner_text": "Dijital Analiz ve Raporlama Hizmetleri, her ölçekte ve sektördeki işletmelere veri odaklı çözümler sunar. Bu sistem, verilerinizi eyleme dönüştürülebilir içgörülere çevirmenize, performansınızı optimize etmenize ve stratejik hedeflerinize ulaşmanıza yardımcı olur.",
+
+  "analysis_section_header1": "Kapsamlı",
+  "analysis_section_header2": "Hizmet Yelpazesi",
+  "analysis_section_text": "Web analitiği, sosyal medya, Google, OTA ve daha birçok kaynaktan verileri toplar ve entegre ederiz. Verilerin kalite, doğruluk ve güvenliğini sağlayarak analize hazır hâle getiririz.",
+
+  "analysis_services_title1": "Web Sitesi Raporlama",
+  "analysis_services_subtitle1": "Hizmeti",
+  "analysis_services_feature1_1": "Logo Tasarımı",
+  "analysis_services_feature1_2": "Marka Kılavuzu",
+  "analysis_services_feature1_3": "Sosyal Medya Görselleri",
+  "analysis_services_feature1_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "analysis_services_title2": "Çevrim İçi Pazar Araştırması",
+  "analysis_services_subtitle2": "Hizmeti",
+  "analysis_services_feature2_1": "Logo Tasarımı",
+  "analysis_services_feature2_2": "Marka Kılavuzu",
+  "analysis_services_feature2_3": "Sosyal Medya Görselleri",
+  "analysis_services_feature2_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "analysis_services_title3": "Dijital Satış Analizi",
+  "analysis_services_subtitle3": "Hizmeti",
+  "analysis_services_feature3_1": "Logo Tasarımı",
+  "analysis_services_feature3_2": "Marka Kılavuzu",
+  "analysis_services_feature3_3": "Sosyal Medya Görselleri",
+  "analysis_services_feature3_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "analysis_services_title4": "Reklam Raporlama",
+  "analysis_services_subtitle4": "Hizmeti",
+  "analysis_services_feature4_1": "Logo Tasarımı",
+  "analysis_services_feature4_2": "Marka Kılavuzu",
+  "analysis_services_feature4_3": "Sosyal Medya Görselleri",
+  "analysis_services_feature4_4": "Motionografi Oluşturma ve Düzenleme",
+
+  "analysis_services_title5": "Çağrı Raporlama",
+  "analysis_services_subtitle5": "Hizmeti",
+  "analysis_services_feature5_1": "Logo Tasarımı",
+  "analysis_services_feature5_2": "Marka Kılavuzu",
+  "analysis_services_feature5_3": "Sosyal Medya Görselleri",
+  "analysis_services_feature5_4": "Motionografi Oluşturma ve Düzenleme"
+},
+
+"CallLanguages":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "calllanguages_subbanner_header": "4 Dilde Çağrı",
+  "calllanguages_subbanner_header2": "Hizmetleri",
+  "calllanguages_subbanner_text": "Bazı dillerde ana dili seviyesinde olan, dört dilde yetkin güçlü çağrı merkezi ekibimizle işinizi bir üst seviyeye taşıyın. Müşteri kaçırmayın, her zaman doğru ve net iletişim kurun.",
+
+  "calllanguages_step1_header": "Profesyonel Çağrı Karşılama",
+  "calllanguages_step1_text": "Bir işi gerçekten doğru yapmanın yolları sınırlıdır; yanlış yapıldığında kaçan fırsatlar telafi edilemeyebilir. Bu riski azaltmak için işleri daima en yüksek özen ve kaliteyle yürütmek gerekir. Profesyonel, zamanında ve yerinde destek veren ekibimiz hazır.",
+
+  "calllanguages_step2_header": "Uluslararası Çağrı Merkezi Hizmeti",
+  "calllanguages_step2_text": "Hizmet verdiğiniz ülkelerdeki çağrılarınızı uluslararası karşılama hizmetimizle biz yanıtlayalım. Dört dilde — bazı dillerde ana dili seviyesinde — hizmet veren profesyonel ekibimizle arama kalitenizi artırın.",
+
+  "calllanguages_step3_header": "Dijital İletişim Stratejisi Hizmeti",
+  "calllanguages_step3_text": "İş hedeflerinize ve hedef kitlenize uygun beklenti ve iletişim stratejilerini sizinle birlikte belirliyoruz. Çevrim içi varlığınızı stratejik olarak tasarlanmış dinamik bir etkileşim platformuna dönüştürerek marka farkındalığını artırıyor ve hedef kitlenizle etkili bağlar kuruyoruz."
+},
+
+
+"CallPerformance":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "callperformance_subbanner_header": "Çağrı Performansı",
+  "callperformance_subbanner_header2": "& Analiz Hizmetleri",
+  "callperformance_subbanner_text": "Gelişmiş sistemimiz çağrı metriklerini titizlikle değerlendirerek temsilci performansını artırır, memnuniyet oranlarını yükseltir ve kaliteli hizmet sunumu için stratejik karar almayı destekler.",
+
+  "callperformance_step1_header": "Çağrı Merkezi Performansını Ölçün",
+  "callperformance_step1_text": "Performans ölçüm hizmetimizle çağrı merkezinizi daha verimli hâle getirin. Uzman analizlerimiz, hedefe yönelik iyileştirmeler için kritik performans göstergelerine derinlemesine odaklanır. Kapsamlı metrik analizi ile müşteri beklentilerini aşar, destek süreçlerinde yeni standartlar belirleriz.",
+
+  "callperformance_step2_header": "Konuşma Analitiği Takibi",
+  "callperformance_step2_text": "Çağrı kalitesi ve temsilci performansına ilişkin sesli etkileşimleri analiz ederek stratejik iyileştirmeler yapmanızı sağlarız. Konuşma analitiği, isabetli kararları destekler ve müşteri hizmetinizi daha üst seviyeye taşır.",
+
+  "callperformance_step3_header": "Çağrı Merkezi Satış Analizi",
+  "callperformance_step3_text": "Güçlü yönleri ve gelişime açık alanları belirleyerek gelir artışı sağlayacak etkili satış stratejileri geliştirin. Satış etkileşimlerinin kapsamlı analizi, etkili taktikleri ve iyileştirme gereken noktaları netleştirir."
+},
+
+"ContractManagement":{
+   "cta_talk_to_us": "Bizimle konuşun",
+   "contractmanagement_subbanner_header": "Çağrı Merkezi Sözleşme",
+  "contractmanagement_subbanner_header2": "Yönetim Hizmetleri",
+  "contractmanagement_subbanner_text": "Bu hizmet, çağrı merkezi operasyonlarıyla ilgili sözleşmelerin etkin şekilde yönetilmesini ve denetlenmesini kapsar. Bu sözleşmeler; müşteriler, tedarikçiler, hizmet sağlayıcılar ve çağrı merkezinin faaliyetlerine dâhil diğer paydaşlarla yapılan anlaşmaları içerebilir.",
+
+  "contractmanagement_step1_header": "Sözleşme Kurgulama ve Özelleştirme",
+  "contractmanagement_step1_text": "Hizmet verdiğiniz ülkeler için uluslararası çağrı karşılama hizmetimizle aramalarınızı biz yanıtlayalım. Dört dilde kaliteli hizmet veren profesyonel ekibimizle, uluslararası hizmet sunan bir şirket olarak çağrı kalitenizi artırın.",
+
+  "contractmanagement_step2_header": "Hizmet Seviyesi Anlaşmaları (SLA) ve Uyum Yönetimi",
+  "contractmanagement_step2_text": "Hizmet Seviyesi Anlaşmaları (SLA) ve uyum yönetimi, etkili sözleşme ve hizmet yönetiminin kritik bileşenleridir. SLA’lar hizmet sağlayıcılarla müşterileri arasındaki beklenti ve taahhütleri tanımlar; uyum yönetimi ise bu anlaşmaların ilgili yasa, mevzuat ve sektör standartlarına uygunluğunu güvence altına alır.",
+
+  "contractmanagement_step3_header": "Sözleşme Süreçlerinin İzlenmesi ve Raporlanması",
+  "contractmanagement_step3_text": "Sözleşme süreçlerinin izlenmesi ve raporlanması, etkin sözleşme yönetiminin temel unsurlarıdır. Bu faaliyetler, sözleşmenin oluşturulmasından ve müzakeresinden yürütülmesine ve yenilenmesine kadar tüm yaşam döngüsünün sistematik gözetimini içerir.",
+
+  "contractmanagement_step4_header": "Risk Yönetimi ve Sözleşmesel Güvenceler",
+  "contractmanagement_step4_text": "Risk yönetimi ve sözleşmesel güvenceler, sözleşme yaşam döngüsünün ayrılmaz parçalarıdır; sözleşmelere ilişkin potansiyel risklerin belirlenmesi, değerlendirilmesi ve azaltılmasına odaklanır."
+},
+
+"MultipleChannels":{
+    "cta_talk_to_us": "Bizimle konuşun",
+    "multichannels_subbanner_header": "Çoklu Kanal Satış",
+  "multichannels_subbanner_header2": "Takip Hizmetleri",
+  "multichannels_subbanner_text": "DGTLFACE’in Çoklu Kanal Satış Takip Hizmeti ile satış stratejinizi sadeleştirin ve tüm platformlardaki performansı yakalayın. Bu kapsamlı yaklaşım, her temas noktasını en yüksek etkileşim ve gelir artışı için optimize eder, verimliliği artırır.",
+
+  "multichannels_step1_header": "Çoklu Sohbet Kutusu (Chatbox) Teknolojisi Entegrasyonu",
+  "multichannels_step1_text": "Günümüzde pek çok sektörde yaygın kullanılan sohbet kutusu çözümleri, kullanıcıların basit sorulara hızla yanıt bulmasını sağlar. Bu yenilikçi çözüm, markanızın müşterilerle anında bağlantı kurmasını sağlayarak gerçek zamanlı kullanıcı deneyimini iyileştirir.",
+
+  "multichannels_step2_header": "Dijital Otomasyon Web Aracı Kurulumları",
+  "multichannels_step2_text": "Dijital otomasyon web araçları, karmaşıklığı yönetmeye ve ölçümlemeyi kolaylaştırmaya yardımcı olur. Çözümlerimiz süreçleri sadeleştirir, manuel çabayı azaltır ve kullanıcı deneyimini güçlendirir. Hizmetlerimiz, dönüşüm yolculuğunuzu sorunsuz entegrasyon ve operasyonel mükemmelliğe taşır."
+},
+
+"ReservationSupport":{
+   "cta_talk_to_us": "Bizimle konuşun",
+    "reservationsupport_subbanner_header": "Rezervasyon Destek",
+  "reservationsupport_subbanner_header2": "Hizmetleri",
+  "reservationsupport_subbanner_text": "Bu hizmet, müşteri memnuniyeti ve sadakatini artırmak için dönüşüm odaklı olarak tasarlanmıştır. Satış sonrası memnuniyetin ölçülmesi ve olası kullanıcı sorunlarına çözüm sunulması güven sağlar ve tüketici sadakatini artırır.",
+
+  "reservationsupport_step1_header": "Rezervasyon Takibi ve Güncellemeleri",
+  "reservationsupport_step1_text": "Rezervasyonların takibi, hem işletmenizi hem de müşterilerimizi gelişmelerden haberdar tutar; her ayrıntının titizlikle yönetilmesini ve iletişimini güvence altına alır. Yenilikçi yaklaşımlarımızla her rezervasyonu yakından izleyip gerçek zamanlı güncelleyerek sizin ve müşterileriniz için sorunsuz, stresiz bir süreç sunarız.",
+
+  "reservationsupport_step2_header": "Çağrı Merkezi Geri Bildirimi ve Analizi",
+  "reservationsupport_step2_text": "Her müşteri etkileşimi değerli bir analiz fırsatıdır. Etkileşimleri derinlemesine inceleyerek anlamlı içgörüler ortaya çıkarır ve kayda değer iyileştirmeler sağlarız. Uzman analiz ekibimiz, müşteri memnuniyetini en üst düzeyde tutan bulguları görünür kılar."
+},
+
+"HotelIdentification":{
+   "cta_talk_to_us": "Bizimle konuşun",
+  "hotelidentification_subbanner_header": "Otel Tanımlama",
+  "hotelidentification_subbanner_header2": "Hizmetleri",
+  "hotelidentification_subbanner_text": "Rekabetçi konaklama sektöründe stratejik konumlanma için tasarlanmış uzman yaklaşımlarla otelinizin görünürlüğünü optimize edin.",
+
+  "hotelidentification_step1_header": "Otel Dijital Pazar Analizi Hizmetleri",
+  "hotelidentification_step1_text": "Süreç; otelinizin özgün yönleri, hedef kitlesi ve pazardaki konumuna dair kapsamlı analizlerle başlar. DGTLFACE, otelinizin pazarda öne çıkmasını ve hedef misafirlerin dikkatini çekmesini sağlar. En güncel tekniklerle çevrim içi görünürlüğünüzü artırır, hedef kitlenizle daha etkili etkileşim kurar ve rakiplerinizi geride bırakmanıza yardımcı olur.",
+
+  "hotelidentification_step2_header": "Otel Konsept Geliştirme Hizmetleri",
+  "hotelidentification_step2_text": "Yeni bir otelin geliştirilmesi veya mevcut bir otelin yeniden markalanması için fikir, tema ve tasarımların oluşturulması ve geliştirilmesini kapsar. Amaç; otelin pazarda ayrışmasını sağlayacak benzersiz kimliği, misafir deneyimini ve genel konsepti tanımlamaktır.",
+
+  "hotelidentification_step3_header": "Otel Kalite Değerlendirme Hizmetleri",
+  "hotelidentification_step3_text": "Web sitesi işlevselliğinden kullanıcı deneyimine, içerik uygunluğundan SEO’ya kadar çevrim içi varlığınızı kapsamlı biçimde değerlendiririz. Dijital kaliteyi yükselterek güçlü ve saygın bir çevrim içi görünürlük oluştururuz.",
+
+  "hotelidentification_step4_header": "Otel Dijital Tanıtım Hizmetleri",
+  "hotelidentification_step4_text": "Dijital tanıtım, otelinizin çevrim içi görünürlüğünü ve cazibesini artırır. Otelinizin benzersiz çekiciliğini ve olanaklarını öne çıkaran etkili kampanyalar tasarlar, çoklu platformlarda potansiyel misafirlere ulaşırız."
+},
+
+"OtaContract":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "otacontract_subbanner_header": "OTA Sözleşme",
+  "otacontract_subbanner_header2": "Yönetim Hizmetleri",
+  "otacontract_subbanner_text": "DGTLFACE; avantajlı şartlar müzakere ederek, kritik platformlardaki varlığınızı güçlendirerek ve rezervasyon ile gelirinizi artırarak işletmenizi dijital seyahat pazarlarında bir üst seviyeye taşır.",
+
+  "otacontract_step1_header": "OTA Pazarlama Stratejileri",
+  "otacontract_step1_text": "Optimize edilmiş içerikten rekabetçi fiyatlandırma ve promosyonlara kadar tüm yaklaşımlarımız, OTA platformlarındaki görünürlüğünüzü en üst düzeye çıkarmaya odaklanır. Daha fazla misafir çekmek için zamanlanmış kampanyalar ve paket teklifler gibi tanıtım stratejileri uygularız. Bir pazarlama stratejisi oluşturmanın ilk adımı, hedef kitlenizi belirlemek ve anlamaktır.",
+
+  "otacontract_step2_header": "Otel Sözleşme Yönetimi",
+  "otacontract_step2_text": "Her sözleşmenin hedeflerinizle uyumlu olmasını sağlarken, operasyonel verimlilik ve finansal performansı artıran koşulları güvence altına alırız. Otelinizin operasyonları için gerekli tedarikçi sözleşmeleri ve OTA sözleşmeleri dâhil çok sayıdaki anlaşmanın yönetimini ve optimizasyonunu uzmanlığımıza bırakın.",
+
+  "otacontract_step3_header": "Arama Motoru Yorum Yönetimi",
+  "otacontract_step3_text": "Müşteri geri bildirimlerinin dijital ayak izinize etkisini biliyor ve olumlu bir çevrim içi imaj oluşturmak için titizlikle çalışıyoruz."
+},
+
+"ReservationManagement":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "reservationmanagement_subbanner_header": "Rezervasyon",
+  "reservationmanagement_subbanner_header2": "Yönetim Hizmetleri",
+  "reservationmanagement_subbanner_text": "İşletmenizin benzersiz ihtiyaçlarına uygun çözümler sunuyoruz; otel, restoran, etkinlik mekânı veya hizmet sağlayıcı olmanız fark etmeksizin. Çevrimiçi rezervasyondan rezervasyonların yönetimine kadar sürecin her aşamasını kapsayan hizmetlerimiz, müşterilerinize kusursuz hizmet sunmanıza odaklanmanızı sağlar.",
+
+  "reservationmanagement_step1_header": "Rezervasyon Yönetimi Çözümleri",
+  "reservationmanagement_step1_text": "7/24, her cihazdan sorunsuz rezervasyon yapılabilen kullanıcı dostu bir çevrimiçi platform sunuyoruz. Sezgisel panelimiz tüm rezervasyonlara kapsamlı bir bakış sağlar; uygunluk yönetimi, kaynak tahsisi ve rezervasyonların gerçek zamanlı takibini mümkün kılar.",
+
+  "reservationmanagement_step2_header": "Esnek Rezervasyon Seçenekleri",
+  "reservationmanagement_step2_text": "Tek veya çok günlük, tekrar eden randevular, grup rezervasyonları ve daha fazlasını kolayca yönetin. Ödeme, kapora veya ön provizyon işlemlerini doğrudan sistem içinde gerçekleştirerek hem sizin hem müşterileriniz için süreçleri sadeleştirin.",
+
+  "reservationmanagement_step3_header": "Özel Destek ve Eğitim",
+  "reservationmanagement_step3_text": "Uzman destek ekibimiz kurulum, eğitim ve sürekli destekle yanınızdadır; rezervasyon yönetimi sistemimize sorunsuz ve kesintisiz bir geçişi güvence altına alır."
+},
+
+"ReservationModule":{
+   "cta_talk_to_us": "Bizimle konuşun",
+  "reservationmodule_subbanner_header": "Rezervasyon",
+  "reservationmodule_subbanner_header2": "Modül Hizmetleri",
+  "reservationmodule_subbanner_text": "Günümüzün hızlı temposunda özellikle rezervasyon süreçlerinde kolaylık esastır. DGTLFACE olarak, rezervasyon sürecinizi sadeleştiren ve müşteri memnuniyetini artıran kişiye özel Rezervasyon Modül Hizmetleri sunuyoruz.",
+
+  "reservationmodule_step1_header": "Rezervasyon Modül Hizmetleri",
+  "reservationmodule_step1_text": "Uzman ekibimiz, web siteniz veya uygulamanızla kusursuz entegre çalışan özel bir rezervasyon modülünü sizinle birlikte geliştirir. Konaklama, randevu veya etkinlik rezervasyonları—ihtiyacınıza özel çözümler üretiriz.",
+
+  "reservationmodule_step2_header": "Özelleştirilmiş Rezervasyon Deneyimi",
+  "reservationmodule_step2_text": "Markanıza uygun, kullanıcı dostu bir akış; özel alanlar, çok dilli destek, takvim görünümleri, onay ve hatırlatma bildirimleri ile tüm cihazlarda dönüşüm odaklı deneyim sunun.",
+
+  "reservationmodule_step3_header": "Gerçek Zamanlı Müsaitlik",
+  "reservationmodule_step3_text": "Müşteriler gerçek zamanlı olarak müsaitliği görüp rezervasyon yapabilir; çakışmalar önlenir ve kapasite en üst düzeye çıkar. Güvenli ödeme altyapısıyla kapora veya tam ödeme işlemleri çevrim içi yapılır, idari yük azalır."
+},
+
+"WebPayment":{
+   "cta_talk_to_us": "Bizimle konuşun",
+"webpayment_subbanner_header": "Web Ödeme",
+  "webpayment_subbanner_header2": "Sistem Hizmetleri",
+  "webpayment_subbanner_text": "Web ödeme sistemi tanımlama hizmetleri; çevrim içi işlemler için ödeme sistemlerinin seçimi ve uygulanmasını kapsar. Bu hizmetler, sitenizde güvenli, verimli ve kullanıcı dostu bir ödeme deneyimi sağlar.",
+
+  "webpayment_step1_header": "Web Ödeme Modülü Entegrasyonu",
+  "webpayment_step1_text": "Kullanıcılara esneklik sunun, farklı tercihlere uyum sağlayın ve genel deneyimi iyileştirin. Modülün mevcut web siteniz veya e-ticaret platformunuzla entegrasyon kolaylığını değerlendirin.",
+
+  "webpayment_step2_header": "Otel Ödeme Sistemi Kurumları",
+  "webpayment_step2_text": "Masaüstü ve mobilde akıcı, sezgisel deneyim sunan ödeme sistemlerine öncelik verin. Bu, müşteri memnuniyetini artırır ve yarım bırakılan işlem olasılığını düşürür.",
+
+  "webpayment_step3_header": "Web Ödeme Sistemi Banka Tanımları",
+  "webpayment_step3_text": "Web ödeme sistemlerinde ‘banka tanımları’, belirli bir bankanın entegrasyonu için gereken bilgi ve yapılandırmaları ifade eder. Bu ayarlar, ödeme sisteminiz ile banka arasındaki işlemlerin güvenli şekilde yürütülmesini sağlar."
+},
+
+"AdvertisingManagement":{
+   "cta_talk_to_us": "Bizimle konuşun",
+   "advertisingmanagement_subbanner_header": "Reklam",
+  "advertisingmanagement_subbanner_header2": "Yönetim Hizmetleri",
+  "advertisingmanagement_subbanner_text": "Günümüzün dijital dünyasında fark edilmek, yalnızca çevrim içi olmaktan fazlasını gerektirir. Reklam yönetimimiz; markanızı doğru yerde, doğru zamanda ve doğru mesajla konumlandırarak görünür ve akılda kalıcı olmasını sağlar.",
+
+  "advertisingmanagement_step1_header": "Video Reklamları",
+  "advertisingmanagement_step1_text": "Video reklamlar; hareket, ses ve hikâye anlatımını birleştirerek dikkat çeker ve hedef kitlenizi eyleme geçirerek modern stratejilerin temelini oluşturur.",
+
+  "advertisingmanagement_step2_header": "Görsel (Banner) Reklamlar",
+  "advertisingmanagement_step2_text": "Banner reklamlar; yaratıcı tasarım ve stratejik konumlandırma ile marka bilinirliğini ve tıklamaları artırır. DGTLFACE, web genelinde dikkat çeken etkileyici görseller üretir.",
+
+  "advertisingmanagement_step3_header": "Alışveriş Reklamları",
+  "advertisingmanagement_step3_text": "Ürünlerinizi net görseller, rekabetçi fiyatlar ve temel bilgilerle öne çıkarır; müşterilerin arama yolculuğu içinde keşfedip satın almasını kolaylaştırır.",
+
+  "advertisingmanagement_step4_header": "Arama Ağı Reklamları",
+  "advertisingmanagement_step4_text": "Niyet odaklı anahtar kelimeleri hedefleyerek markanızı müşterilerin aktif olarak arama yaptığı anda görünür kılarız; nitelikli trafik ve dönüşümü en üst düzeye çıkarırız.",
+
+  "advertisingmanagement_step5_header": "Sosyal Medya Reklam Yönetimi",
+  "advertisingmanagement_step5_text": "Facebook, Instagram, LinkedIn, X, TikTok ve diğer platformlarda reklamlarınızı yönetir; hassas hedefleme ve ölçeklenebilir erişimle markanızı küresel kitlelerle buluştururuz."
+},
+
+"GoogleAdsAdvertising":{
+  "cta_talk_to_us": "Bizimle konuşun",
+"googleadsadvertising_subbanner_header": "Google Ads Reklamcılığı",
+  "googleadsadvertising_subbanner_header2": "Hizmetleri",
+  "googleadsadvertising_subbanner_text": "Dönüşümleri izleyerek, satışları ilişkilendirerek ve reklam yatırım getirisini (ROI) optimize ederek Google Ads kampanyalarınızın etkinliğini takip edin.",
+
+  "googleadsadvertising_step1_header": "Anahtar Kelime ve Kitle Araştırma Hizmetleri",
+  "googleadsadvertising_step1_text": "Başarılı bir stratejinin temeli araştırmadır. Pazarınızı, rakiplerinizi ve potansiyel müşterilerinizi analiz ederek kampanyalarınız için en etkili anahtar kelimeleri ve kitle segmentlerini belirleriz.",
+
+  "googleadsadvertising_step2_header": "Reklam Metni ve Görsel Tasarım Hizmetleri",
+  "googleadsadvertising_step2_text": "İkna edici metinleri etkili görsellerle birleştirerek hem dikkat çeken hem de aksiyon aldıran reklamlar üretiriz. Kreatif ekibimiz tüm dijital platformlarda yankı uyandıran, markanıza özel içerikler hazırlar.",
+
+  "googleadsadvertising_step3_header": "Reklam Kampanya Oluşturma Hizmetleri",
+  "googleadsadvertising_step3_text": "Dijital reklam, sosyal medya, PPC, e-posta ve daha birçok kanalda tutarlı mesajlaşma sağlayarak marka bilinirliğini artırır ve nitelikli potansiyel müşteri üretiriz.",
+
+  "googleadsadvertising_step4_header": "Google Ads Hedefleme ve Bütçe Yönetimi",
+  "googleadsadvertising_step4_text": "Kampanyalarınızı ilgili anahtar kelimeler ve doğru kitlelerle buluşturur, teklifleri ve harcamayı performansa göre optimize ederek en yüksek yatırım getirisini hedefleriz."
+},
+
+"GoogleWebtools":{
+   "cta_talk_to_us": "Bizimle konuşun",
+    "googlewebtools_subbanner_header": "Google Web Araçları",
+  "googlewebtools_subbanner_header2": "Hizmetleri",
+  "googlewebtools_subbanner_text": "Geniş ve sürekli değişen dijital dünyada Google’ın web araçlarını etkin kullanmak çevrim içi varlığınızı en üst düzeye çıkarır. DGTLFACE, içgörü sağlayan, performansı artıran ve ölçülebilir sonuçlar sunan profesyonel kurulum hizmetleri sağlar.",
+
+  "googlewebtools_step1_header": "Kapsamlı Google Analytics Entegrasyonu",
+  "googlewebtools_step1_text": "Uçtan uca Analytics kurulumu ile sitenizin performansını yükseltin. Davranışları izleyin, trafik kaynaklarını anlayın ve KPI’ları ölçerek veri odaklı kararlar alın.",
+
+  "googlewebtools_step2_header": "Google Ads Kurulumu ve Optimizasyonu",
+  "googlewebtools_step2_text": "Hedeflerinize uygun kampanya kurgusu, anahtar kelime seçimi ve teklif yönetimi ile ücretli pazarlamaya güçlü bir başlangıç yapın.",
+
+  "googlewebtools_step3_header": "Google Tag Manager Kurulumu",
+  "googlewebtools_step3_text": "Kod düzenlemeden etiketleri yönetin. Analitik, dönüşüm ve yeniden pazarlama etiketlerini tek merkezden dağıtın ve güncelleyin; veri toplama sürecini sadeleştirin.",
+
+  "googlewebtools_step4_header": "Google Search Console Kurulumu ve Entegrasyonu",
+  "googlewebtools_step4_text": "Site haritası gönderin, indeksleme ve performansı izleyin, sorunları çözerek web sitenizi Google Arama için optimize edin."
+},
+
+"WebTraffic":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "webtraffic_subbanner_header": "Web Trafik Takibi",
+  "webtraffic_subbanner_header2": "Hizmetleri",
+  "webtraffic_subbanner_text": "Arama motoru optimizasyonu (SEO), tıklama başına ödeme (PPC) reklamcılığı, sosyal medya pazarlaması ve içerik optimizasyonu gibi yöntemlerle hedefli web trafiği ediniriz. Her strateji, hedeflerinize titizlikle uyarlanır.",
+
+  "webtraffic_step1_header": "Kullanıcı Davranışı Analizi",
+  "webtraffic_step1_text": "Her ziyaretçinin bir hikâyesi, hedefi ve tercihleri vardır. DGTLFACE’in kullanıcı davranışı analiziyle bu hikâyeleri kullanıcı eylemlerini titizlikle inceleyerek çözümleriz.",
+
+  "webtraffic_step2_header": "Web Trafik Kaynak Analizi",
+  "webtraffic_step2_text": "Trafiğin nereden geldiğini bilmek kritik önemdedir. Arama motorları, sosyal platformlar, doğrudan girişler ve ücretli kampanyalar gibi kaynakları derinlemesine analiz ederiz.",
+
+  "webtraffic_step3_header": "Alışveriş Reklamları",
+  "webtraffic_step3_text": "Etkileşim ve dönüşümü artıran unsurları belirleyerek net iyileştirme önerileri sunarız. Hedef odaklı analizimiz, sitenizin her unsurunu iş hedeflerinizle hizalayarak YG’yi ve büyümeyi en üst düzeye taşır."
+},
+
+"YandexAdvertising":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "yandexadvertising_subbanner_header": "Yandex Reklamcılığı",
+  "yandexadvertising_subbanner_header2": "Hizmetleri",
+  "yandexadvertising_subbanner_text": "Dijital pazarlama uzmanlarımızla, işletme hedeflerinizle uyumlu ve kitlenizde karşılık bulan özelleştirilmiş Yandex reklam kampanyaları kurguluyoruz. İster trafik artırın, ister dönüşüm ya da marka bilinirliğini yükseltin; yanınızdayız.",
+
+  "yandexadvertising_step1_header": "Yandex Görsel (Display) Reklam Hizmetleri",
+  "yandexadvertising_step1_text": "Yandex’in güçlü görsel reklam yeteneklerinden yararlanarak hedef kitlenize etkili ve verimli şekilde ulaşan özel kampanyalar yürütürüz. Bu; dikkat çekici görsellerin üretilmesini, Yandex’in geniş ağında stratejik konumlandırmayı ve maksimum YG için sürekli optimizasyonu kapsar.",
+
+  "yandexadvertising_step2_header": "Yandex Haritalar Reklam Yönetimi",
+  "yandexadvertising_step2_text": "Yandex Haritalar’da görünürlüğünüzü artırarak yakın çevrenizdeki potansiyel müşterilere daha etkili ulaşmanızı sağlayan stratejik bir hizmettir. İşletmenizi arama sonuçlarında ve harita üzerinde öne çıkarıp yerel aramalarda rakiplerden ayrıştırırız.",
+
+  "yandexadvertising_step3_header": "Yandex Reklam Analizi ve Raporlama Hizmetleri",
+  "yandexadvertising_step3_text": "Tıklama oranından (CTR) dönüşümlere, kitle davranışından etkileşim örüntülerine kadar tüm metrikleri titizlikle izleyip analiz eder; uygulanabilir rapor ve öneriler sunarız. Böylece bütçenizi akıllıca kullanır ve YG’yi en üst düzeye çıkarırsınız."
+},
+
+"OffpageSeo":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "offpage_subbanner_header": "Site Dışı SEO",
+  "offpage_subbanner_header2": "Hizmetleri",
+  "offpage_subbanner_text": "Sektörünüzde saygın sitelerden yüksek kaliteli geri bağlantılar edinerek web sitenizin güvenilirliğini ve arama sıralamalarını yükseltiyoruz. DGTLFACE’in off-page optimizasyon stratejileri çevrim içi varlığınızı güçlendiren bütüncül bir dijital pazarlama yaklaşımı sunar.",
+
+  "offpage_step1_header": "Backlink Çalışmaları",
+  "offpage_step1_text": "Backlink stratejimiz, sektörünüzde güvenilir kaynaklardan kaliteli ve ilgili bağlantılar edinmeye odaklanır. Hedefli trafik, alan adı otoritesi ve pazarlama başarısı için her adımı titizlikle planlar ve uygularız.",
+
+  "offpage_step2_header": "Sosyal Medya Paylaşım Optimizasyonları",
+  "offpage_step2_text": "Marka hikâyenizi anlatan, hedef kitlenizi etkileşime davet eden ve paylaşımı tetikleyen içerikler kurguluyoruz. Çarpıcı görseller ve videolardan bilgilendirici yazılara ve interaktif anketlere kadar her parça dikkat çekecek şekilde tasarlanır.",
+
+  "offpage_step3_header": "Marka İşbirlikleri ve Çevrim İçi Yorum Yönetimi",
+  "offpage_step3_text": "Platformlardaki yorumları aktif biçimde izler, onlarla etkileşime geçer ve kitlenizle güven inşa etmenize yardımcı oluruz. DGTLFACE, itibarı yükselten, toplulukları teşvik eden ve uzun vadeli sadakat ile büyümeyi destekleyen kapsamlı bir strateji sunar.",
+
+  "offpage_step4_header": "Blog, Forum ve İçerik Pazarlaması",
+  "offpage_step4_text": "Blog, forum ve içerik pazarlaması; kitleyi etkilemek, marka bilinirliği oluşturmak ve web sitenize trafik çekmek için stratejinin ayrılmaz parçalarıdır."
+},
+
+"OnpageSeo":
+{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "onpage_subbanner_header": "Site İçi SEO",
+  "onpage_subbanner_header2": "Hizmetleri",
+  "onpage_subbanner_text": "Web sitenizin performansı ve kullanıcı deneyimi, etkili site içi optimizasyonla doğrudan ilişkilidir. Kırık linkler, yavaş yükleme ve optimize edilmemiş içerik gibi sorunları kapsamlı analizlerle tespit edip gideririz.",
+
+  "onpage_step1_header": "Anahtar Kelime Araştırması ve Analizi",
+  "onpage_step1_text": "Profesyonel SEO araçlarıyla rakipleri ve hedef kitlenizi analiz ederek yüksek alaka düzeyine ve anlamlı arama hacmine sahip sorguları belirler, içeriğinizin potansiyelini açığa çıkarırız.",
+
+  "onpage_step2_header": "Site İçi URL Optimizasyonu",
+  "onpage_step2_text": "URL yapınızı gereksiz parametrelerden arındırır, hedef anahtar kelimeleri kullanır ve gerektiğinde kategori bilgisini ekleriz. Stratejik URL optimizasyonu görünürlüğünüzü ve anlaşılabilirliği güçlendirir.",
+
+  "onpage_step3_header": "Web Optimizasyonu ve Performans İyileştirme",
+  "onpage_step3_text": "Görüntü sıkıştırma, kod minimizasyonu ve etkin önbellekleme gibi yöntemlerle yükleme sürelerini hızlandırır, tüm cihaz ve tarayıcılarda akıcı çalışmayı sağlarız.",
+
+  "onpage_step4_header": "Yerel Optimizasyon Çalışmaları",
+  "onpage_step4_text": "Yerel anahtar kelimeler ve sinyallerle içeriğinizi uyarlayarak yerel arama sonuçlarındaki görünürlüğünüzü artırır, hedeflediğiniz bölgedeki kitlelere daha alakalı hale getiririz."
+},
+
+"OriginalCopywriting":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "copywriting_subbanner_header": "Özgün Metin Yazarlığı",
+  "copywriting_subbanner_header2": "Hizmetleri",
+  "copywriting_subbanner_text": "Yaratıcılıkla stratejiyi buluşturan SEO uyumlu metin yazarlığı hizmetimiz; hem kitlenizi etkileyen hem de arama sonuçlarında yükselen içerikler üretir. Deneyimli yazarlarımız, okuyucuya hitap eden ve dijital dünyanın algoritmalarını tatmin eden anlatılar kurgular.",
+
+  "copywriting_step1_header": "Hedef Kitle Analizi",
+  "copywriting_step1_text": "Tek tip pazarlama dönemi bitti. Süper bağlı dünyada kişiselleştirme ve alaka esastır. Analistlerimiz, kitlenizin psikolojisine derinlemesine inerek arzularını, sorunlarını ve beklentilerini açığa çıkarır; bu içgörüler de nokta atışı, etkili mesajları besler.",
+
+  "copywriting_step2_header": "Etkili Başlık ve Alt Başlık Belirleme",
+  "copywriting_step2_text": "Kullanıcı deneyimini geliştirmek ve önemli içeriklere hızlı erişim sağlamak için site yapısını, dahili linkleri ve gezinmeyi güçlendiririz. Teknik unsurları optimize eder, net ve anahtar kelimeyle uyumlu başlık yapılarıyla görünürlüğü ve organik trafiği artırırız.",
+
+  "copywriting_step3_header": "Revizyon ve Kalite Kontrol",
+  "copywriting_step3_text": "Mükemmellik bir yolculuktur. Revizyon ve KK sürecimiz; ton, açıklık, doğruluk, yapı ve SEO sinyallerini titizlikle gözden geçirerek her içeriği yayına hazır seviyeye taşır."
+},
+
+"SeoReporting":{
+  "cta_talk_to_us": "Bizimle konuşun",
+    "seoreporting_subbanner_header": "SEO Raporlama",
+  "seoreporting_subbanner_header2": "Hizmetleri",
+  "seoreporting_subbanner_text": "Dijital pazarlamanın dinamik dünyasında, web sitenizin arama sonuçlarındaki performansını anlamak rekabette öne geçmek için kritiktir. SEO uzmanlarımız; anahtar kelime sıralamaları, organik trafik, backlink profili ve kullanıcı etkileşimi gibi temel metrikleri ayrıntılı biçimde inceler.",
+
+  "seoreporting_step1_header": "Kapsamlı SEO Performans Analizi",
+  "seoreporting_step1_text": "Sayfa içi etmenler, teknik sorunlar ve sayfa dışı sinyalleri inceleyerek sitenizin SEO’suna ayrıntılı bir denetim uygularız. Anahtar kelime sıralamalarınızı ve görünürlüğünüzü analiz ederek yüksek değerli anahtar kelimeleri ve optimizasyon fırsatlarını belirleriz.",
+
+  "seoreporting_step2_header": "Rakip Analizi",
+  "seoreporting_step2_text": "Rakiplerinizin SEO stratejilerini ve performansını değerlendirir, sitenizi sektör liderleriyle kıyaslar ve rekabet avantajı sağlayabileceğiniz alanları ortaya çıkarırız.",
+
+  "seoreporting_step3_header": "Teknik SEO Değerlendirmesi",
+  "seoreporting_step3_text": "Site hızı, mobil uyumluluk ve taranabilirlik gibi teknik altyapınızı en iyi uygulamalar ve arama motoru yönergeleriyle karşılaştırırız. Ayrıca backlink profilinizi analiz ederek kaliteli bağlantıları, zararlı bağlantıları ve otoriteyi artıracak bağlantı kurma fırsatlarını tespit ederiz."
+},
+
+"TechnicalSeo":{
+  "cta_talk_to_us": "Bizimle konuşun",
+ "technicalseo_subbanner_header": "Teknik SEO",
+  "technicalseo_subbanner_header2": "Hizmetleri",
+  "technicalseo_subbanner_text": "Teknik web sitesi optimizasyonu hizmetleri, performansı, kullanıcı deneyimini ve arama motoru görünürlüğünü artırmak için web sitesinin teknik yönlerinin optimize edilmesini kapsar.",
+
+  "technicalseo_step1_header": "URL Yapısı Optimizasyonu",
+  "technicalseo_step1_text": "Arama motorlarına içerikleriniz hakkında daha fazla bağlam sağlamak için yapılandırılmış veri işaretlemeleri uygularız ve görünürlüğü artırırız. Yinelenen içerik sorunlarını önlemek ve sıralamaları iyileştirmek için kanonik etiketleri tanımlar, URL yapısını optimize ederiz.",
+
+  "technicalseo_step2_header": "Sayfa Tarama ve Dizinleme Kontrolü",
+  "technicalseo_step2_text": "Kullanıcı deneyimini iyileştirmek ve kritik içeriğe kolay erişim sağlamak için site yapısını, iç bağlantıları ve gezinmeyi güçlendiririz. Teknik temellerin optimize edilmesi; daha yüksek sıralama, artan görünürlük ve organik trafik sağlar—DGTLFACE bunu sizin için hayata geçirmeye hazır.",
+
+  "technicalseo_step3_header": "Mobil Uyumluluk Kontrolleri",
+  "technicalseo_step3_text": "Mobil kullanılabilirliği engelleyen sorunları tespit edip gidererek arama performansını iyileştiririz. Sitenizi farklı cihazlarda değerlendirerek sorunsuz gezinme, hızlı yüklenme ve her ekran boyutunda optimize düzenler sunarız.",
+
+  "technicalseo_step4_header": "Site Haritası ve Robots.txt Optimizasyonları",
+  "technicalseo_step4_text": "Etkili tarama ve dizinleme, dijital başarının temelidir. Arama motorlarının site yapınızı doğru anlaması için Site Haritası ve robots.txt dosyalarınızı optimize eder; taranması gereken sayfaları yönlendirir, taranmaması gereken alanları sınırlarız ve teknik mükemmellik sağlarz."
+},
+
+"SocialMediaAnalysis":{
+  "cta_talk_to_us": "Bizimle konuşun",
+ "socialmediaanalysis_subbanner_header": "Sosyal Medya Analizi",
+  "socialmediaanalysis_subbanner_header2": "Hizmetleri",
+  "socialmediaanalysis_subbanner_text": "Belirli kitle segmentlerine ulaşmak, web sitenize trafik çekmek, potansiyel müşteri oluşturmak ve dönüşümleri artırmak için hedefli sosyal medya reklam kampanyaları oluşturup yönetiyoruz. Ekibimiz, maksimum YG için kampanyalarınızı sürekli izleyip gerekli düzenlemeleri yaparak optimize eder.",
+
+  "socialmediaanalysis_step1_header": "Kampanya Performans Değerlendirmesi",
+  "socialmediaanalysis_step1_text": "Erişim, etkileşim, tıklamalar, dönüşümler ve reklam harcaması getirisi (ROAS) gibi metrikleri izleyerek sosyal medya reklam kampanyalarınızın performansını değerlendiririz.",
+
+  "socialmediaanalysis_step2_header": "Kitle İçgörüleri ve Segmentasyon",
+  "socialmediaanalysis_step2_text": "Hedef kitle demografilerini, ilgi alanlarını ve davranışlarını analiz ederek yüksek performanslı segmentleri belirler, hedefleme stratejinizi en yüksek etki için özelleştiririz.",
+
+  "socialmediaanalysis_step3_header": "Reklam Kreatif Analizi",
+  "socialmediaanalysis_step3_text": "Görseller, videolar, başlıklar ve metin yazımı dahil reklam kreatiflerinin etkinliğini değerlendirir, kitlenizde en çok yankı uyandıran öğeleri tespit ederek etkileşimi artırırız."
+},
+
+"SocialMediaContent":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "socialmediacontent_subbanner_header": "Sosyal Medya İçeriği",
+  "socialmediacontent_subbanner_header2": "Hizmetleri",
+  "socialmediacontent_subbanner_text": "Anketler, testler, yarışmalar ve kullanıcı üretimli içerik kampanyaları gibi etkileşimi teşvik eden içerikler üreterek kitlenizle anlamlı bağlar kurar ve topluluk büyümesini destekleriz.",
+
+  "socialmediacontent_step1_header": "İçerik Stratejisi Geliştirme",
+  "socialmediacontent_step1_text": "Markanızın hedefleri ve hedef kitlesiyle uyumlu kapsamlı bir içerik stratejisini sizinle birlikte geliştiririz. İçerik üretimimizi yönetecek ana temaları, mesajlaşma stratejilerini ve formatları belirleriz.",
+
+  "socialmediacontent_step2_header": "Yaratıcı İçerik Üretimi",
+  "socialmediacontent_step2_text": "Grafikler, görseller, videolar, GIF'ler ve infografikler dâhil olmak üzere kitlenizi cezbeden, görsel açıdan etkileyici içerikler üretir ve mesajınızı etkili şekilde iletiriz.",
+
+  "socialmediacontent_step3_header": "Metin Yazımı ve Açıklama Oluşturma",
+  "socialmediacontent_step3_text": "Uzman metin yazarlarımız, görsellerinizi tamamlayan ve etkileşimi artıran başlıklar ve açıklamalar oluşturur. Esprili başlıklardan bilgilendirici açıklamalara ve ikna edici harekete geçirici ifadelere kadar, içeriklerinizin kitlenizle uyum yakalamasını ve aksiyona teşvik etmesini sağlarız."
+},
+
+"SocialMediaManagement":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "socialmediamanagement_subbanner_header": "Sosyal Medya",
+  "socialmediamanagement_subbanner_header2": "Yönetim Hizmetleri",
+  "socialmediamanagement_subbanner_text": "Sosyal medya varlığınızı uzman ekibimizle dönüştürün. Sosyal medyada varlık, işletmelerin hedef kitleleriyle bağ kurması, marka bilinirliği oluşturması ve anlamlı etkileşim sağlaması için gereklidir.",
+
+  "socialmediamanagement_step1_header": "Stratejik Planlama",
+  "socialmediamanagement_step1_text": "İş hedeflerinizle uyumlu stratejik bir sosyal medya planı geliştirir, hedef kitleleri, platformları ve mesajlaşma stratejilerini belirleriz. Ekipimiz; gönderiler, görseller, videolar ve hikâyeler dâhil yüksek kaliteli ve ilgi çekici içerikler üretir; bunları kitlenizle uyum yakalayacak şekilde tasarlarız.",
+
+  "socialmediamanagement_step2_header": "Platform Yönetimi ve Paylaşım",
+  "socialmediamanagement_step2_text": "Sosyal medya profillerinizin paylaşım sıklığı, zamanlaması ve optimizasyonu dâhil tüm süreçlerini yönetiriz. İçeriklerinizin ilgili tüm platformlarda düzenli olarak planlanıp yayınlanmasını sağlayarak erişimi ve görünürlüğü en üst düzeye çıkarırız.",
+
+  "socialmediamanagement_step3_header": "Topluluk Etkileşimi ve İletişim",
+  "socialmediamanagement_step3_text": "Yorumlara, mesajlara ve sorulara zamanında ve profesyonel biçimde yanıt vererek kitlenizle aktif şekilde ilgileniriz. Markanız etrafında bir topluluk duygusu oluşturarak takipçileriniz arasında güven ve sadakat inşa ederiz."
+},
+
+"SocialMediaPlanning":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "socialmediaplanning_subbanner_header": "Sosyal Medya Planlama",
+  "socialmediaplanning_subbanner_header2": "Hizmetleri",
+  "socialmediaplanning_subbanner_text": "Belirli hedef kitle segmentlerine ulaşmak, web sitenize trafik çekmek, potansiyel müşteri üretmek ve dönüşümleri artırmak için hedefli sosyal medya reklam kampanyaları oluşturup yöneteceğiz. Ekibimiz kampanyalarınızı en yüksek YG (ROI) için optimize eder, performansı sürekli izler ve gerektiğinde düzenlemeler yapar.",
+
+  "socialmediaplanning_step1_header": "Topluluk Yönetimi",
+  "socialmediaplanning_step1_text": "Kitlenizle aktif şekilde etkileşime geçerek yorumlara, mesajlara ve sorulara zamanında ve profesyonel biçimde yanıt vereceğiz. Ekibimiz markanız etrafında bir topluluk duygusu geliştirerek takipçileriniz arasında güven ve sadakat inşa eder.",
+
+  "socialmediaplanning_step2_header": "Pazarlama İş Birliği",
+  "socialmediaplanning_step2_text": "Sektörünüzdeki ilgili influencer’ları belirleyip onlarla iş birliği yaparak markanızın erişimini ve güvenilirliğini artıracağız. Ekip olarak ulaşımdan ve pazarlıktan kampanya yürütme ve performans takibine kadar influencer pazarlamasının tüm sürecini yönetiriz."
+},
+
+"SocialMediaReporting":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "socialmediareporting_subbanner_header": "Sosyal Medya Raporlama",
+  "socialmediareporting_subbanner_header2": "Hizmetleri",
+  "socialmediareporting_subbanner_text": "Analizimize dayanarak, sosyal medya stratejinizi optimize etmek, performansı iyileştirmek ve iş hedeflerinize ulaşmak için uygulanabilir öneriler sunacağız. Sosyal Medya Raporlama Hizmetlerimiz ile sosyal medya performansınız hakkında değerli içgörüler elde edecek ve daha iyi sonuçlar için veri odaklı kararlar alacaksınız.",
+
+  "socialmediareporting_step1_header": "Değerli İçgörüler Elde Edin",
+  "socialmediareporting_step1_text": "İş hedeflerinize ve KPI’larınıza özel uyarlanmış raporlama panoları oluşturacağız; böylece işletmeniz için en kritik performans metriklerini izleyebileceksiniz.",
+
+  "socialmediareporting_step2_header": "Performans Metriklerinin Takibi",
+  "socialmediareporting_step2_text": "Tüm sosyal medya platformlarınızda etkileşim oranları, erişim, gösterimler, tıklama oranı (CTR), dönüşüm oranı ve daha fazlası gibi temel metrikleri takip edeceğiz.",
+
+  "socialmediareporting_step3_header": "Kitle İçgörüleri ve Demografi",
+  "socialmediareporting_step3_text": "Yaş, cinsiyet, konum, ilgi alanları ve davranışlar dâhil olmak üzere kitle demografiniz hakkında değerli içgörüler sağlayarak hedef kitlenizi daha iyi anlamanıza ve hedeflemenize yardımcı olacağız."
+},
+
+"CmsInstallationService":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "cmsinstallation_subbanner_header": "CMS Kurulumu",
+  "cmsinstallation_subbanner_header2": "Hizmetleri",
+  "cmsinstallation_subbanner_text": "Çevrimiçi varlığın dinamik dünyasında, sağlam bir İçerik Yönetim Sistemi (CMS) başarı için temel taştır. DGTLFACE olarak profesyonel CMS kurulum hizmetleri sunuyor, web sitenizi dijital dünyada başarılı olması için gereken araçlar ve esneklikle güçlendiriyoruz.",
+
+  "cmsinstallation_step1_header": "Platform Seçimi ve Öneri",
+  "cmsinstallation_step1_text": "Gereksinimleriniz, bütçeniz ve teknik yeterliliğiniz doğrultusunda doğru CMS platformunu seçmenize yardımcı oluyor, web siteniz için kusursuz uyum sağlıyoruz.",
+  "cmsinstallation_step2_header": "Kurulum ve Yapılandırma",
+  "cmsinstallation_step2_text": "Teknisyenlerimiz tüm kurulum sürecini üstlenir; CMS’i tercihlerinize ve ihtiyaçlarınıza uygun şekilde kurar ve yapılandırır.",
+  "cmsinstallation_step3_header": "Tema ve Eklenti Entegrasyonu",
+  "cmsinstallation_step3_text": "Özel tema ve eklentileri entegre ederek web sitenizin tasarımını ve işlevselliğini geliştirir, kesintisiz kullanıcı deneyimi ve optimum performans sağlarız."
+},
+
+"PdpaCompliance":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "pdpa_subbanner_header": "PDPA Uyumluluğu",
+  "pdpa_subbanner_header2": "Hizmetleri",
+  "pdpa_subbanner_text": "Bu Kanunun amacı, kişisel verilerin işlenmesi bakımından başta özel hayatın gizliliği olmak üzere kişilerin temel hak ve özgürlüklerini korumak ve kişisel verileri işleyen gerçek veya tüzel kişilerin uyması gereken yükümlülükleri, ilke ve usulleri belirlemektir.",
+
+  "pdpa_step1_header": "Entegrasyon & PDPA",
+  "pdpa_step1_text": "Güncel yasal düzenlemeler nedeniyle PDPA oldukça karmaşık hale geldi. Aydınlatma metni ve çerez süreçleri profesyonel bir ekip olmadan sağlıklı yürütülemez; DGTLFACE bu düzenlemeleri yakından takip eder ve sizin için doğru zamanda gerekli adımları atar.",
+  "pdpa_step2_header": "Çerez (Cookie) Politikası",
+  "pdpa_step2_text": "Çerezler ve çerez kullanımı konusunda uzman personelimizle bu süreci sizin yerinize yönetiyoruz. PDPA kurallarına uysanız bile çerez tercih ekranı hukuka aykırı olabilir. Tüm bunlarla uğraşmayın; bu problemi uzman ekiplerimiz sizin için çözsün.",
+  "pdpa_step3_header": "Küresel Uyum",
+  "pdpa_step3_text": "Yasal düzenlemelere ve güvenlik politikalarına uygun bir web sitesi oluşturmak göründüğünden daha zordur. Tüm departmanlarımız uyum içinde çalıştığı için modern dünyayla uyumlu ve yasalara tam uygun bir site oluşturmak bizim işimiz."
+},
+
+"ServerManagement":{
+  "cta_talk_to_us": "Bizimle konuşun",
+ "servermanagement_subbanner_header": "Sunucu Yönetimi",
+  "servermanagement_subbanner_header2": "Hizmetleri",
+  "servermanagement_subbanner_text": "Benzersiz ihtiyaçlarınıza uygun şekilde tasarlanmış sunucu çözümlerini keşfedin. Hizmetimiz tek tip değil; sunucularınızın iş hedeflerinizle kusursuz uyum sağlaması için kişiselleştirilmiş bir yaklaşımdır. Sizinle birlikte büyüyen bir sunucu stratejisi oluşturalım.",
+
+  "servermanagement_step1_header": "Geleceğe Dayanıklı Performans",
+  "servermanagement_step1_text": "İşletmenizle birlikte ölçeklenen sunucularla geleceği kucaklayın. Hizmetimiz, altyapınızın kesintisiz şekilde büyüyebilmesi için geleceğe dayanıklı performans sağlar. Yarın için tasarlanan sunucu çözümleriyle operasyonlarınızı güçlendirin.",
+  "servermanagement_step2_header": "Sunucu Güvenliği",
+  "servermanagement_step2_text": "Dijital savunmanızı sunucu güvenliği hizmetimizle güçlendirin. Standart protokollerin ötesine geçerek verilerinizi korumak için sağlam önlemler uygularız. Dijital varlıklarınızı koruyan güvenli bir sunucu ortamı için bize güvenin.",
+  "servermanagement_step3_header": "Sunucu Verimliliği",
+  "servermanagement_step3_text": "Sunucularınızı en yüksek performans için ince ayarlarız; her etkileşimin akıcı, hızlı ve verimli olmasını sağlarız. Optimizasyonu yapılmış sunucuların gücünü deneyimleyin. Rutin bakımdan ileri optimizasyona kadar her şeyi uzmanlarımız yönetir."
+},
+
+"WebsiteAndSoftware":{
+  "cta_talk_to_us": "Bizimle konuşun",
+   "websiteandsoftware_subbanner_header": "Web Sitesi & Yazılım",
+  "websiteandsoftware_subbanner_header2": "Hizmetleri",
+  "websiteandsoftware_subbanner_text": "Markanızı uzman yazılım geliştiricilerimizle web geliştirme sanatına dahil edin. Şık arayüzlerden güçlü fonksiyonelliğe kadar, sıradanın ötesine geçen dijital deneyimler tasarlarız. Kod ustalığımızla dijital dünyaya sağlam bir adım atın.",
+
+  "websiteandsoftware_step1_header": "Next.js",
+  "websiteandsoftware_step1_text": "Dijital dünyada sağlam durmak için yeni nesil teknolojileri kullanmalısınız. Demode yığınlara güvenmeyin—bugünün en güncel framework’leriyle geliştirilmiş bir web sitesinin farkını hissedin.",
+  "websiteandsoftware_step2_header": "Hızlı Yükleme",
+  "websiteandsoftware_step2_text": "Hızlı yüklenen bir web sitesi ilk izlenim için kritiktir. Harika görünen bir site yavaşsa tüm süreç zarar görür—dönüşümler düşer, müşteriler kaybedilir. DGTLFACE olarak hız ve tasarımı birlikte sunuyoruz.",
+  "websiteandsoftware_step3_header": "Kod Senfonisi",
+  "websiteandsoftware_step3_text": "Kullanıcı deneyimiyle kusursuz uyum içinde bir kod senfonisi kurguluyoruz. Geliştirmemiz, işlevselliğin ötesine geçerek hedef kitlenizde yankı uyandıran dijital bir melodi yaratır."
+},
+
+"WebsiteMaintance":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "websitemaintenance_subbanner_header": "Web Sitesi Bakım",
+  "websitemaintenance_subbanner_header2": "Hizmetleri",
+  "websitemaintenance_subbanner_text": "Çevrimiçi dünyada başarı, yalnızca güçlü bir başlangıç yapmaya değil; web sitenizin sürekli güncel, güvenli ve hızlı kalmasını sağlamaya da bağlıdır. İşte burada DGTLFACE Web Sitesi Bakım ve Destek Hizmetleri devreye girer. Profesyonel ekibimiz, web sitenizin her zaman en yüksek performansla çalışması için gerekli tüm teknik bakım ve güncellemeleri sağlar.",
+
+  "websitemaintenance_step1_header": "Destek ve Bakım",
+  "websitemaintenance_step1_text": "Bağlantılarınızı en yeni güvenlik altyapımızla güçlendirin. Verileriniz aşılmaz bir zırhla korunur; her bağlantı yalnızca güvenli değil, yetkisiz erişime karşı da tahkim edilmiştir.",
+  "websitemaintenance_step2_header": "Veri Güvenliği",
+  "websitemaintenance_step2_text": "Biz yalnızca bağlantıları güvenceye almakla kalmayız; onları sızmalara karşı geçirimsiz bir veri güvenliği katmanıyla kalkanlarız. Bilgileriniz ihlallere karşı korunur ve her bağlantı dijital dünyada güvenli bir yol olur.",
+  "websitemaintenance_step3_header": "Şifreleme",
+  "websitemaintenance_step3_text": "Her veri parçasını en yüksek standartlarla şifreleriz; bağlantılarınız harici tehditlere karşı güvenli ve dayanıklı kalır. Her baytı, bağlantıdan bağlantıya özenle korumaktan gurur duyarız."
+},
+
+"AdvertisingReporting":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "advertisingreporting_subbanner_header": "Reklam Raporlama",
+  "advertisingreporting_subbanner_header2": "Hizmetleri",
+  "advertisingreporting_subbanner_text": "Dijital Satış ve Pazarlama Analizi Hizmetleri, satış ve pazarlama stratejilerini optimize etmek isteyen işletmelere veri odaklı çözümler sunan öncü bir sağlayıcıdır. Müşterileri, pazarları, rakipleri ve kampanyaları anlamanıza yardımcı olur ve satış ile pazarlamayı artırmaya yönelik uygulanabilir içgörüler sağlar.",
+
+  "advertisingreporting_step1_header": "Reklam Harcaması Optimizasyonu",
+  "advertisingreporting_step1_text": "Reklam bütçenizi daha etkin yönetmek istiyorsanız günlük reklam harcama raporlama hizmetlerimiz tam size göre. Ayrıntılı raporlarla en yüksek dönüşümü hangi ilanların sağladığını kolayca görür, bütçenizi buna göre ayarlayabilirsiniz. Reklam harcamanızın her kuruşundan en iyi şekilde yararlanmanızı sağlayan stratejilerle tanışın.",
+  "advertisingreporting_step2_header": "Dönüşüm Oranlarını Artırma Çalışmaları",
+  "advertisingreporting_step2_text": "Günlük raporlama, kampanya performansını anlık izlemenizi sağlar. Hangi ilanların daha fazla müşteri çektiğini ve hangi platformların daha iyi sonuç verdiğini göstererek dönüşüm oranlarınızı artırmanıza yardımcı olur. Yatırım getirinizi maksimize etmek için odaklanmanız gereken yerleri keşfedin.",
+  "advertisingreporting_step3_header": "Hedef Kitle Analizi ve Segmentasyonu",
+  "advertisingreporting_step3_text": "Günlük harcama raporları, hedef kitlenizin davranışlarını derinlemesine analiz etme olanağı sunar. Bu bilgilerle reklamlarınızı belirli demografik özelliklere, ilgi alanlarına veya davranışlara göre segmente edebilir, mesajlarınızı doğru kişilere ulaştırarak bütçe verimliliğini artırabilirsiniz.",
+  "advertisingreporting_step4_header": "Trendleri Yakala: Güncel Veri Analizi",
+  "advertisingreporting_step4_text": "Pazar trendlerini yakından takip etmek ve stratejinizi buna göre şekillendirmek için günlük raporlama hizmetlerimizden yararlanın. Güncel veri analiziyle tüketici davranışlarındaki değişimlere hızla uyum sağlar, kampanyalarınızı anında optimize ederek rakiplerinizin önünde kalırsınız."
+},
+
+"CallReportingService":{
+   "cta_talk_to_us": "Bizimle konuşun",
+   "callreporting_subbanner_header": "Çağrı Raporlama",
+  "callreporting_subbanner_header2": "Hizmetleri",
+  "callreporting_subbanner_text": "Günlük Çağrı Analizi Raporlama Hizmetlerimiz, çağrı merkezi operasyonlarınızı optimize etmeniz ve müşteri memnuniyetini artırmanız için gerekli araçları sunar. Daha fazla bilgi için hemen bizimle iletişime geçin ve işletmenizi iyileştirmeye başlayın!",
+
+  "callreporting_step1_header": "Çağrı Kaydı ve Depolama",
+  "callreporting_step1_text": "Çağrı kayıt ve depolama hizmetleri, işletmelerin müşteri iletişimlerini güvenli biçimde kaydetmesine olanak tanır. Bu kayıtlar ileriye dönük denetimler, eğitim amaçları veya anlık ihtiyaçlar için önemlidir. Kaydedilen çağrılar, veri analizi ve müşteri geri bildirimlerinin temelini oluşturur.",
+
+  "callreporting_step2_header": "Çağrı Analizi ve İzleme",
+  "callreporting_step2_text": "Çağrı içeriğinin dinlenmesiyle performansın değerlendirilmesine ve müşteri memnuniyetinin artırılmasına yardımcı olur. Gerçek zamanlı izleme, müşteri taleplerine hızlı yanıt verme olanağı sağlar.",
+
+  "callreporting_step3_header": "Raporlama ve Veri Analizi",
+  "callreporting_step3_text": "Raporlama ve veri analizi, çağrı verilerini işletme için değerli içgörülere dönüştürür. Bu hizmet, çağrı merkezi performansını anlamaya, güçlü ve zayıf yönleri belirlemeye ve stratejik kararlar almaya yardımcı olur.",
+
+  "callreporting_step4_header": "Müşteri Geri Bildirimi ve İyileştirme",
+  "callreporting_step4_text": "Müşteri deneyimini geliştirmek için geri bildirim ve iyileştirme şarttır. Bu hizmet, memnuniyeti anlamak ve süreçleri optimize etmek için veri odaklı geri bildirim sunar; işletmelerin daha iyi hizmet vermesine yardımcı olur."
+},
+
+"DigitalSalesAnalysis":{
+  "cta_talk_to_us": "Bizimle konuşun",
+ "digitalsalesanalysis_subbanner_header": "Dijital Satış Analizi",
+  "digitalsalesanalysis_subbanner_header2": "Hizmetleri",
+  "digitalsalesanalysis_subbanner_text": "Dijital Satış ve Pazarlama Analizi Hizmetleri, satış ve pazarlama stratejilerini optimize etmek isteyen işletmeler için veri odaklı çözümler sunan birinci sınıf bir sağlayıcıdır. Müşterilerimizin müşterilerini, pazarlarını, rakiplerini ve kampanyalarını anlamalarına yardımcı olur; sonuçları artırmak için uygulanabilir içgörüler sağlar.",
+
+  "digitalsalesanalysis_step1_header": "Müşteri Segmentasyonu ve Profilleme",
+  "digitalsalesanalysis_step1_text": "Müşterileri demografi, davranış, tercih ve ihtiyaçlarına göre segmentlere ayırır ve profilleriz. Bu sayede en değerli ve sadık müşteriler belirlenir; teklifler ve iletişim onlara göre özelleştirilir.",
+
+  "digitalsalesanalysis_step2_header": "Pazar Araştırması ve İstihbaratı",
+  "digitalsalesanalysis_step2_text": "Hedef pazarlarınızın büyüklüğünü, büyümesini, trendlerini ve fırsatlarını değerlendirmek için pazar araştırması ve istihbaratı yürütürüz. Performansınızı rakiplerle izleyip kıyaslamanıza yardımcı olur; güçlü ve zayıf yönlerinizi belirleriz.",
+
+  "digitalsalesanalysis_step3_header": "Kampanya Analizi ve Optimizasyonu",
+  "digitalsalesanalysis_step3_text": "E-posta, sosyal medya, web ve mobil gibi kanallardaki kampanyaları analiz eder ve optimize ederiz. Etkililik, verimlilik ve etkiyi ölçüp iyileştirmenize yardımcı olur; geliştirme için net öneriler sunarız."
+},
+
+"OnlineMarketResearch":{
+  "cta_talk_to_us": "Bizimle konuşun",
+  "onlinemarketresearch_subbanner_header": "Çevrimiçi Pazar Araştırması",
+  "onlinemarketresearch_subbanner_header2": "Hizmetleri",
+  "onlinemarketresearch_subbanner_text": "Günümüzün hızla değişen pazarında, tüketici trendlerini ve sektör içgörülerini yakından takip etmek rekabetçi kalmanın anahtarıdır. Sürekli değişen bu ortamda yol almanıza ve başarıyı getiren bilinçli kararlar almanıza yardımcı olmak için kapsamlı Çevrimiçi Pazar Araştırması Hizmetleri sunuyoruz.",
+
+  "onlinemarketresearch_step1_header": "Trendi Takip Edin",
+  "onlinemarketresearch_step1_text": "Yükselen trendleri ve tüketici tercihlerini gerçek zamanlı izleyerek sizi rekabette bir adım öne taşır ve markanızı sektör lideri konumlandırırız. Sosyal medya konuşmaları ve müşteri yorumlarından sektör raporları ve rakip analizine kadar stratejik yönünüzü şekillendiren içgörüleri ortaya çıkarmak için hiçbir noktayı gözden kaçırmayız.",
+
+  "onlinemarketresearch_step2_header": "Güncel Kalın",
+  "onlinemarketresearch_step2_text": "Sürekli gelişen dijital pazarda bilgi güçtür. Eğrinin önünde kalmak için kapsamlı çevrimiçi pazar araştırmasından elde edilen, eyleme dönüştürülebilir içgörülere ihtiyaç vardır. Günümüzün dinamik iş dünyasının gereksinimlerine uygun, güncel ve rafine Çevrimiçi Pazar Araştırması Hizmetleri sunuyoruz.",
+
+  "onlinemarketresearch_step3_header": "Kitlenizi Anlayın",
+  "onlinemarketresearch_step3_text": "Tüketici davranışlarını, demografik ve psikografik özellikleri derinlemesine inceler; hedef kitlenizi kapsamlı biçimde anlayarak ürün, hizmet ve pazarlama çalışmalarınızı onların ihtiyaç ve tercihlerine göre uyarlamanızı sağlarız."
+},
+
+"WebsiteReporting":{
+   "cta_talk_to_us": "Bizimle konuşun",
+  "websitereporting_subbanner_header": "Web Sitesi Raporlama",
+  "websitereporting_subbanner_header2": "Hizmetleri",
+  "websitereporting_subbanner_text": "Görsel raporlarımızla stratejik analizin gücünü deneyimleyin. Verileri yalnızca sunmuyor, iş hedeflerinizle uyumlu bir biçimde görselleştiriyoruz. Gelin, karmaşık verileri net ve okunabilir görsellere dönüştürelim.",
+
+  "websitereporting_step1_header": "Web Sitesi Trafik Analizi Hizmeti",
+  "websitereporting_step1_text": "Birçok kanaldan potansiyel olarak anlamlı verileri topluyoruz. Verimiz arttıkça içgörüler zenginleşir; ancak rastgele toplanmış değil, uzman ekibimizin seçtiği anlamlı okumalar içeren verileri toplar ve işleriz.",
+
+  "websitereporting_step2_header": "Web Sitesi Performans Analizi Hizmeti",
+  "websitereporting_step2_text": "Topladığımız tüm verileri kanıtlanmış ve güncel verilerle karşılaştırıyoruz. Verileri karşılaştırmaya uygun hale getiriyor, doğru noktaları kıyaslayarak yeni bulgular elde ediyoruz. Bu bulgular DGTLFACE uzmanları tarafından incelenir.",
+
+  "websitereporting_step3_header": "Sunum",
+  "websitereporting_step3_text": "Derinlemesine analiz ve özelleştirilmiş raporlamayla veri manzaranıza dalıyoruz. Her rapor, iş ihtiyaçlarınıza göre hazırlanır ve performans metriklerinizi kapsamlı biçimde anlamanızı sağlar. Son aşamada size sunuyoruz."
 }
+
 
 
 }

@@ -7,6 +7,7 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image3.png"
+import {useTranslations} from 'next-intl';
 
 const stepData=[
   {
@@ -35,9 +36,21 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("CorporateGift");
+
+  const stepData = [1,2,3,4].map(i => ({
+  id: i,
+  image: [image1, image2, image3, image4][i-1],
+  header: t(`corporategift_step_header${i}`),
+  text:   t(`corporategift_step_text${i}`)
+}));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Corporate Gift" header2="Design Service" text="Corporate design support involves providing comprehensive design services to enhance and maintain a consistent and professional visual identity for a corporation. This includes creating design elements for various materials, ensuring brand consistency, and contributing to a cohesive and positive brand image." buttonLink="/"/>
+      <SubBanner header={t('corporategift_banner_header1')}
+  header2={t('corporategift_banner_header2')}
+  text={t('corporategift_banner_text')}
+  buttonLink="/" buttonText={t("cta_talk_to_us")}/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

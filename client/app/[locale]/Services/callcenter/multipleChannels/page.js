@@ -5,6 +5,7 @@ import VerticalSlider from '@/app/[locale]/components/subPageComponents/Vertical
 import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
+import { useTranslations } from "next-intl";
 
 const stepData=[
   {
@@ -21,9 +22,24 @@ const stepData=[
   }
 ]
 const page = () => {
+  const t = useTranslations("MultipleChannels");
+
+  const stepData = [1,2].map(i => ({
+  id: i,
+  image: [image1, image2][i-1],
+  header: t(`multichannels_step${i}_header`),
+  text:   t(`multichannels_step${i}_text`)
+}));
+  
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="Multiple Channels Sales " header2="Tracking Services" text="Simplify your sales strategy and capture performance across all platforms with DGTLFACE's Multi-Channel Sales Tracking Service. This comprehensive approach optimizes every touchpoint for maximum engagement and revenue growth, facilitating efficiency." buttonLink="/"/>
+     <SubBanner
+  header={t("multichannels_subbanner_header")}
+  header2={t("multichannels_subbanner_header2")}
+  text={t("multichannels_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

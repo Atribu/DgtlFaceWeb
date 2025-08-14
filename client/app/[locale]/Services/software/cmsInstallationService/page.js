@@ -6,31 +6,27 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import { useTranslations } from "next-intl";
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Platform Selection & Recommendation",
-    text:"We help you choose the right CMS platform based on your requirements, budget, and technical expertise, ensuring a perfect fit for your website."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Installation & Configuration",
-    text:"Our technicians handle the entire installation process, setting up and configuring the CMS to meet your specifications and preferences."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Theme & Plugin Integration",
-    text:"We integrate custom themes and plugins to enhance the design and functionality of your website, ensuring a seamless user experience and optimal performance."
-  }
-]
 const page = () => {
+  const t = useTranslations("CmsInstallationService");
+
+  const stepData = [1,2,3].map(i => ({
+                id: i,
+                image: [image1,image2][i-1],
+                header: t(`cmsinstallation_step${i}_header`),
+                text:   t(`cmsinstallation_step${i}_text`)
+              }));
+
   return (
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
-      <SubBanner header="CMS Installation " header2="Services" text="In the dynamic world of online presence, having a robust Content Management System is the cornerstone of success. At DGTLFACE, we specialize in providing professional CMS installation services, empowering your website with the tools and flexibility it needs to thrive in the digital realm." buttonLink="/"/>
+     <SubBanner
+  header={t("cmsinstallation_subbanner_header")}
+  header2={t("cmsinstallation_subbanner_header2")}
+  text={t("cmsinstallation_subbanner_text")}
+  buttonLink="/"
+  buttonText={t("cta_talk_to_us")}
+/>
       <StepSection2 data={stepData}/>
       <VerticalSlider/>
       <QuestionsSection color="#fff"/>

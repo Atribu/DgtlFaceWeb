@@ -4,6 +4,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
+import { useTranslations } from "next-intl";
 
 const servicesData = [
   {
@@ -70,10 +71,26 @@ const servicesData = [
 ];
 
 const page = () => {
+   const t = useTranslations("Callcenter");
+  
+   const servicesData = [1,2,3,4,5].map(i => ({
+  id: i,
+  title: t(`callcenter_services_title${i}`),
+  subTitle: t(`callcenter_services_subtitle${i}`),
+  features: [1,2,3,4].map(j => t(`callcenter_services_feature${i}_${j}`)),
+  buttonLink: [
+    "/Services/callcenter/callLanguages",
+    "/Services/callcenter/reservationSupport",
+    "/Services/callcenter/multipleChannels",
+    "/Services/callcenter/contractManagement",
+    "/Services/callcenter/callPerformance"
+  ][i-1]
+}));
+
   return (
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner header="CallCenter" text="Call center service can be a good way to increase your company's reputation and brand perception. Moreover, as DGTLFACE, we promise to increase the perception of professionalism on your brand by providing you with call reception service in 4 languages."/>
-      <StepSection header="Powerful Team in " header2="All Areas" text="We provide fast and effective interventions to your customer problems with our call center service and talented call center team." servicesData={servicesData}/>
+      <MainBanner  header={t("callcenter_banner_header")} span={t("callcenter_banner_span")} text={t("callcenter_banner_text")} buttonText={t("buttonText")}/>
+      <StepSection header={t("callcenter_section_header1")} header2={t("callcenter_section_header2")} text={t("callcenter_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
