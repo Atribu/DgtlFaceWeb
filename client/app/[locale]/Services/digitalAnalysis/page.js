@@ -99,12 +99,6 @@ const page = () => {
 />
 
 
-
-
-
-
-ChatGPT’ye sor
-
       <VerticalSlider/>
       <QuestionsSection color="#140F25"/>
       <Contact/>

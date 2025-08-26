@@ -1381,6 +1381,41 @@
 
   "websitereporting_step3_header": "Presentation",
   "websitereporting_step3_text": "Dive deep into your data landscape with our in-depth analysis and customised reporting. Every report is crafted to your business requirements, providing a comprehensive understanding of your performance metrics. Finally, we present it to you."
+},
+
+"CookiePopup":{
+  "cookie_policy_title": "Cookie Policy",
+  "cookie_clarification_title": "Cookie Clarification Text",
+  "what_are_cookies_title": "What Are Cookies?",
+  "banner_heading": "We Use Cookies:",
+  "banner_text": "We use our own and third-party cookies to personalize content and analyze web traffic.",
+  "read_more": "Read more",
+  "about_cookies_suffix": "about cookies",
+  "manage_prefs": "Manage Cookie Preferences",
+  "accept_all": "Accept All Cookies",
+  "deny_all": "Deny All Cookies",
+  "confirm_choices": "Confirm My Choices",
+
+  "strictly_necessary_title": "Strictly Necessary",
+  "strictly_necessary_desc": "These cookies are essential for the website to function and cannot be switched off. They are usually set in response to actions you take such as setting privacy preferences, logging in, or filling in forms. These cookies do not store personally identifiable information.",
+
+  "performance_title": "Performance",
+  "performance_desc": "Performance cookies collect information about how visitors use the site (e.g., pages visited, errors). They help us improve performance and user experience.",
+
+  "functional_title": "Functional",
+  "functional_desc": "Functional cookies enable enhanced functionality and personalization, such as remembering choices you make. If you do not allow these cookies, some services may not function properly.",
+
+  "targeting_title": "Targeting",
+  "targeting_desc": "Targeting cookies may be set through our site by advertising partners to build a profile of your interests and show you relevant ads on other sites.",
+
+  "what_are_cookies_text_1": "Cookies are small text files placed on your device by websites you visit. They remember preferences (like login info) and help measure site performance so we can provide a more personalized, efficient experience.",
+  "what_are_cookies_text_2": "To learn more about cookies",
+  "click":"click here.",
+
+  "always_on_badge": "Always On",
+  "saved_prefs_loaded": "Saved cookie preferences loaded.",
+  "no_saved_prefs": "No saved cookie preferences found. Using defaults.",
+   "mandatory_cookies_text": "Mandatory cookies are essential for the website to function properly. Without these cookies, the website cannot operate effectively. These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. These cookies do not store any personally identifiable information."
 }
 
 

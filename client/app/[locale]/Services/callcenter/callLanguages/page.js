@@ -29,11 +29,12 @@ const stepData=[
   }
 ]
 const page = () => {
-  const t = useTranslations("Callcenter");
+  const images = [image1, image2, image3].filter(Boolean);
+  const t = useTranslations("CallLanguages");
 
   const stepData = [1,2,3].map(i => ({
   id: i,
-  image: [image1,image2,image3][i-1],
+  image: images[i - 1] || null, // 3. yoksa null
   header: t(`calllanguages_step${i}_header`),
   text:   t(`calllanguages_step${i}_text`)
 }));

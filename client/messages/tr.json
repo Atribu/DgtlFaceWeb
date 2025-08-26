@@ -1375,6 +1375,41 @@
 
   "websitereporting_step3_header": "Sunum",
   "websitereporting_step3_text": "Derinlemesine analiz ve özelleştirilmiş raporlamayla veri manzaranıza dalıyoruz. Her rapor, iş ihtiyaçlarınıza göre hazırlanır ve performans metriklerinizi kapsamlı biçimde anlamanızı sağlar. Son aşamada size sunuyoruz."
+},
+
+"CookiePopup":{
+  "cookie_policy_title": "Çerez Politikası",
+  "cookie_clarification_title": "Çerez Aydınlatma Metni",
+  "what_are_cookies_title": "Çerez Nedir?",
+  "banner_heading": "Çerez Kullanıyoruz:",
+  "banner_text": "İçeriği kişiselleştirmek ve web trafiğini analiz etmek için kendi çerezlerimizi ve üçüncü taraf çerezlerini kullanıyoruz.",
+  "read_more": "Daha fazla oku",
+  "about_cookies_suffix": "çerezler hakkında",
+  "manage_prefs": "Çerez Tercihlerimi Yönet",
+  "accept_all": "Tüm Çerezleri Kabul Et",
+  "deny_all": "Tüm Çerezleri Reddet",
+  "confirm_choices": "Tercihlerimi Onayla",
+
+  "strictly_necessary_title": "Kesinlikle Gerekli",
+  "strictly_necessary_desc": "Bu çerezler sitenin çalışması için gereklidir ve kapatılamaz. Genellikle gizlilik tercihlerini ayarlama, oturum açma veya form doldurma gibi yaptığınız işlemler sonucunda yerleştirilir. Bu çerezler kişisel olarak tanımlanabilir bilgi saklamaz.",
+
+  "performance_title": "Performans",
+  "performance_desc": "Performans çerezleri ziyaretçilerin siteyi nasıl kullandığına ilişkin anonim bilgiler toplar (ör. ziyaret edilen sayfalar, hata mesajları). Bu veriler site performansını ve deneyimi iyileştirmemize yardımcı olur.",
+
+  "functional_title": "İşlevsel",
+  "functional_desc": "İşlevsel çerezler tercihlerinizi hatırlama gibi gelişmiş işlevler ve kişiselleştirme sağlar. Bu çerezlere izin vermezseniz bazı hizmetler doğru çalışmayabilir.",
+
+  "targeting_title": "Hedefleme",
+  "targeting_desc": "Hedefleme çerezleri, ilgi alanlarınıza uygun reklamlar gösterebilmek için reklam ortaklarımız tarafından ayarlanabilir.",
+
+  "what_are_cookies_text_1": "Çerezler, ziyaret ettiğiniz siteler tarafından cihazınıza yerleştirilen küçük metin dosyalarıdır. Tercihlerinizi (ör. oturum bilgisi) hatırlar ve site performansını ölçmeye yardımcı olur; böylece daha kişisel ve verimli bir deneyim sağlanır.",
+  "what_are_cookies_text_2": "Çerezler hakkında daha fazla bilgi için buraya tıklayın.",
+  "click":"buraya tıklayın.",
+
+  "always_on_badge": "Her Zaman Açık",
+  "saved_prefs_loaded": "Kaydedilmiş çerez tercihleri yüklendi.",
+  "no_saved_prefs": "Kayıtlı çerez tercihi bulunamadı. Varsayılanlar kullanılıyor.",
+   "mandatory_cookies_text": "Zorunlu çerezler, web sitesinin doğru şekilde çalışabilmesi için gereklidir. Bu çerezler olmadan web sitesi etkili bir şekilde çalışamaz. Bu çerezler sitenin çalışması için gerekli olup sistemlerimizde kapatılamaz. Genellikle gizlilik tercihlerinizi ayarlama, oturum açma veya formları doldurma gibi sizin tarafınızdan yapılan ve hizmet talebi niteliği taşıyan işlemler sonucunda yerleştirilirler. Bu çerezler kişisel olarak tanımlanabilir herhangi bir bilgi saklamaz."
 }
 
 

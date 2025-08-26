@@ -7,6 +7,7 @@ import Logosvg from "./components/DgtlfaceLogoSvg";
 import { RxCross2 } from "react-icons/rx";
 import LineSvg from "./components/LineSvg";
 import LineSvg2 from "./components/LineSvg2";
+import { useTranslations } from 'next-intl';
 
 // ModalPortal Componenti: Modal içeriği body içerisine taşır.
 const ModalPortal = ({ children, onClose }) => {
@@ -26,13 +27,15 @@ const ModalPortal = ({ children, onClose }) => {
 };
 
 const CookiePopup = () => {
+   const t = useTranslations("CookiePopup")
+
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
 
   const buttonsData = [
-    { id: 0, label: "Cookie Policy" },
-    { id: 1, label: "Cookie Clarification Text" },
-    { id: 2, label: "What Are Cookies?" },
+    { id: 0, label: t("cookie_policy_title") },
+    { id: 1, label: t("cookie_clarification_title")  },
+    { id: 2, label: t("what_are_cookies_title")  },
   ];
 
   const [selectedContent, setSelectedContent] = React.useState(0);
@@ -204,7 +207,7 @@ const loadPreferences = () => {
     </div>
 
     <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px]">
-      Strictly Necessary
+      {t("strictly_necessary_title")}
     </h4>
   </div>
 
@@ -226,12 +229,7 @@ const loadPreferences = () => {
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-inter leading-[150%] w-[98%] h-auto -tracking-[0.26px] font-light">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
+          {t("mandatory_cookies_text")}
         </p>
       </div>
 
@@ -250,7 +248,7 @@ const loadPreferences = () => {
           </div>
 
           <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-            Performance
+            {t("performance_title")}
           </h4>
         </div>
         <div
@@ -275,12 +273,7 @@ const loadPreferences = () => {
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-inter leading-[150%] w-[98%] h-auto -tracking-[0.26px] font-light">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
+           {t("mandatory_cookies_text")}
         </p>
       </div>
 
@@ -299,7 +292,7 @@ const loadPreferences = () => {
           </div>
 
           <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-            Functional
+            {t("functional_title")}
           </h4>
         </div>
         <div
@@ -324,12 +317,7 @@ const loadPreferences = () => {
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-inter leading-[150%] w-[98%] h-auto -tracking-[0.26px] font-light">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
+          {t("mandatory_cookies_text")}
         </p>
       </div>
 
@@ -348,7 +336,7 @@ const loadPreferences = () => {
           </div>
 
           <h4 className="text-[15px] font-medium leading-normal -tracking-[0.3px] w-[73%] sm:w-[84%] md:w-[71vw] lg:w-[498px]">
-            Targeting
+            {t("targeting_title")}
           </h4>
         </div>
         <div
@@ -373,12 +361,7 @@ const loadPreferences = () => {
         }`}
       >
         <p className="text-[#FFF] text-[13px] font-inter leading-[150%] w-[98%] h-auto -tracking-[0.26px] font-light">
-          Bu çerezler, web sitesinin işlev görebilmesi için gereklidir ve
-          sistemlerimizde kapatılamazlar. Genellikle yalnızca gizlilik
-          tercihlerinizi belirleme, oturum açma veya formları doldurma gibi
-          sizin tarafınızdan yapılan hizmet talebi niteliğindeki eylemlere yanıt
-          olarak ayarlanırlar. Bu çerezler kişisel olarak tanımlanabilir
-          bilgileri saklamaz.
+           {t("mandatory_cookies_text")}
         </p>
       </div>
     </div>,
@@ -470,14 +453,11 @@ const loadPreferences = () => {
     // second text
     <div className="flex flex-col h-full text-start items-center justify-between w-[96%]">
       <p className="text-[13px] font-light leading-[150%] -tracking-[0.26px] font-inter w-[80%]">
-        Cookies are small text files placed on your device by websites you
-        visit. They are used to remember your preferences, such as login
-        information, and to track website performance. This ensures a more
-        personalized and efficient online experience.
+        {t("what_are_cookies_text_1")}
       </p>
       <p className="text-[13px] font-light leading-[150%] -tracking-[0.26px] font-inter w-[80%]">
-        To learn more about cookies{" "}
-        <span className="text-[#0079D0] underline">click here.</span>
+       {t("what_are_cookies_text_2")}{" "}
+        <span className="text-[#0079D0] underline">{t("click")}</span>
       </p>
     </div>,
   ];
@@ -496,53 +476,50 @@ const loadPreferences = () => {
         <div className="flex items-center justify-center w-screen lg:w-[85%] max-w-[1232px] border relative gradient-cookie-button !bg-[rgba(20,15,37,0.5)] !backdrop-blur-[5px] rounded-none lg:rounded-[22px]">
           <div className="flex flex-col md:flex-row w-[94%] md:w-[99%] lg:w-[94%] xl:w-[90%] py-[22px] gap-[20px] font-montserrat text-center items-center justify-center text-[#FBFBFB] font-inter">
             <p className="md:hidden text-[13px] leading-[130%] text-[#FBFBFB] font-normal font-inter text-center md:min-w-[39%]">
-              <span className="font-bold text-[15px]">We Use Cookies:</span> We
-              use our own and third-party cookies to <br /> personalize content
-              and to analyze web traffic. 
+              <span className="font-bold text-[15px]">{t("banner_heading")}</span> {t("banner_text")}
               <br />
               <Link href="/" className="font-medium underline">
-                Read more
+                {t("read_more")}
               </Link>
-               about cookies
+              {t("about_cookies_suffix")}
             </p>
 
             <div className="md:flex hidden text-[13px] leading-[130%] text-[#FBFBFB] font-normal font-inter text-center xl:text-start sm:w-[45%] md:min-w-[38%] ml-[2%] ">
               <p>
-                <span className="font-bold text-[15px]">We Use Cookies:</span>{" "}
-                We use our own and third-party cookies to personalize content
-                and to analyze web traffic. 
+                <span className="font-bold text-[15px]">{t("banner_heading")}</span>{" "}
+               {t("banner_text")}
                 <Link href="/" className="font-medium underline">
-                  Read more
+                  {t("read_more")}
                 </Link>
-                 about cookies
+                 {t("about_cookies_suffix")}
               </p>
             </div>
             <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
               <button
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] px-[32px] cursor-pointer rounded-[14px] w-[176px]"
+                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] px-[28px] cursor-pointer rounded-[14px] min-w-[176px] "
                 onClick={handleDenyAll}
               >
-                Deny All Cookies
+                 {t("deny_all")}
               </button>
               <button
                 onClick={handleAcceptAll}
-                className="gradient-border-button flex lg:hidden h-[42px] text-[13px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[32px] cursor-pointer rounded-[14px] w-[189px] -tracking-[0.28px]"
+                className="gradient-border-button flex lg:hidden h-[42px] text-[13px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[28px] cursor-pointer rounded-[14px] w-[189px] -tracking-[0.28px]"
               >
-                Accept All Cookies
+                  {t("accept_all")}
               </button>
 
               <button
                 onClick={handleModalToggle}
                 className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap  px-[32px] cursor-pointer col-span-2 rounded-[14px] lg:w-[250px]"
               >
-                Manage Cookie Preferences
+                  {t("manage_prefs")}
               </button>
 
               <button
                 onClick={handleAcceptAll}
                 className="gradient-border-button hidden h-[42px] lg:flex text-[13px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[16px] md:px-[32px] cursor-pointer rounded-[14px] w-[189px]"
               >
-                Accept All Cookies
+                {t("accept_all")}
               </button>
 
               {isModalOpen && (
@@ -557,9 +534,9 @@ const loadPreferences = () => {
                       />
                       <div className="hidden lg:flex flex-row w-[98%] md:w-[90%] lg:w-auto text-center items-center text-[16px] font-bold ml-[11%] lg:ml-0 gap-[23px] h-[29px]">
                         {[
-                          "Cookie Policy",
-                          "Cookie Clarification Text",
-                          "What Are Cookies?",
+                          t("cookie_policy_title"),
+                          t("cookie_clarification_title"),
+                          t("what_are_cookies_title"),
                         ].map((buttonLabel, index) => (
                           <button
                             key={index}
@@ -607,19 +584,19 @@ const loadPreferences = () => {
                         <LineSvg2 className="hidden lg:flex" />
                         <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] lg:mt-[22px] font-inter">
                           <button  onClick={handleConfirm} className="flex gradient-border-button text-[15px] font-medium leading-normal text-[#fff] px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center h-[42px] w-[44vw]">
-                            Confirm My Choices
+                            {t("confirm_choices")}
                           </button>
                           <button className="flex gradient-border-button text-[15px] font-medium leading-normal text-[#fff]  px-[32px] py-[16px] border whitespace-nowrap max-w-[208px] items-center justify-center w-[44vw] h-[42px]">
-                            Accept All Cookies
+                           {t("accept_all")}
                           </button>
                         </div>
 
                         <div className=" absolute bottom-[8vh] sm:bottom-[12%] flex lg:hidden items-center justify-center w-[100%] gap-[13px] font-inter">
                           <button  onClick={handleConfirm} className="relative gradient-cookie-button flex text-[12px] items-center justify-center font-medium leading-normal text-[#FBFBFB] px-[32px] py-[10px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw] h-[42px]">
-                            Confirm My Choices
+                           {t("confirm_choices")}
                           </button>
                           <button className="text-[12px] gradient-cookie-button relative font-medium flex items-center justify-center leading-normal text-[#FBFBFB] px-[32px] py-[16px] border border-[#FBFBFB] whitespace-nowrap max-w-[208px] w-[44vw]  h-[42px]">
-                            Accept All Cookies
+                            {t("accept_all")}
                           </button>
                         </div>
                       </div>
