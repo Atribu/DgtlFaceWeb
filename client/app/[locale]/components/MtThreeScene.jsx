@@ -259,7 +259,7 @@ export default function MyThreeScene() {
          {t("title")}
         </h1>
         <p
-          className="lg:w-[60%] font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]"
+          className="lg:w-[30%] font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]"
         >
           {t("subtitle")}
         </p>
