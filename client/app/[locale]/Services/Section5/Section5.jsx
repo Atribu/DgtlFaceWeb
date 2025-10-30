@@ -8,51 +8,51 @@ const Section5 = () => {
   const testimonialsData = [
     {
       id: 1,
-      name: "Mahmut Doremilo",
-      role: "Melodie Hotel Sales Manager",
+      name: "Ahmet Sönmez",
+      role: "Melodie Hotel Satış Müdürü",
       image: "https://placehold.co/79x79",
       comment:
-        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad ut aliquip ex ea commodo consequat.",
+        "DGTLFACE ile çalışmaya başladıktan sonra otelimizin doğrudan rezervasyonları %40 arttı. Özellikle PMS ve OTA yönetimindeki uzmanlıkları, operasyonel yükümüzü inanılmaz hafifletti. Antalya'da turizm odaklı dijital ajans arayan herkese tavsiye ederim.",
     },
     {
       id: 2,
-      name: "Ayşe Yılmaz",
-      role: "Creative Director",
+      name: "Elif Özcan",
+      role: "E-Ticaret Marka Yöneticisi",
       image: "https://placehold.co/79x79",
       comment:
-        "Dgtlface has been a game-changer for our business. Their creativity and professionalism are unmatched.",
+        "DGTLFACE, işimiz için ezber bozan bir etki yarattı. Hazırladıkları yeni SEM kampanyaları ile ROI'miz ilk ayda %55 yükseldi. Yaratıcılıkları ve veriye dayalı profesyonellikleri gerçekten eşsiz.",
     },
     {
       id: 3,
-      name: "John Doe",
-      role: "Marketing Manager",
+      name: "Murat Bilgiç",
+      role: "Kurumsal İletişim Direktörü",
       image: "https://placehold.co/79x79",
       comment:
-        "The team at Dgtlface is incredibly talented. They delivered beyond our expectations.",
+        "DGTLFACE ekibi inanılmaz yetenekli. Yeni kurumsal kimlik ve web sitesi projemiz beklentilerimizin çok ötesinde teslim edildi. Kurumsal imajımızı elit bir seviyeye taşıdılar.",
     },
     {
       id: 4,
-      name: "Jane Smith",
-      role: "Product Manager",
+      name: "Deniz Kaya",
+      role: "Start-up Kurucu Ortağı",
       image: "https://placehold.co/79x79",
       comment:
-        "Dgtlface's attention to detail and innovative solutions have greatly improved our product.",
+        "DGTLFACE'in detaylara gösterdiği dikkat ve yenilikçi teknik SEO çözümleri sayesinde, sıfırdan kurduğumuz sitemiz 4 ay gibi kısa sürede hedef anahtar kelimelerde ilk sayfaya yerleşti. Başarımızın büyük bir kısmı onlara ait.",
     },
     {
       id: 5,
-      name: "Ali Veli",
-      role: "UI/UX Designer",
+      name: "Cemil Arslan",
+      role: "Mobil Uygulama Proje Yöneticisi",
       image: "https://placehold.co/79x79",
       comment:
-        "Working with Dgtlface has been a fantastic experience. Their designs are both beautiful and functional.",
+        "DGTLFACE ile çalışmak harika bir deneyimdi. Geliştirdikleri UI/UX tasarımları hem estetik hem de işlevsel açıdan mükemmel. Kullanıcılarımızdan aldığımız geri bildirimler müthiş pozitif.",
     },
     {
       id: 6,
-      name: "Zeynep Kaya",
-      role: "Content Strategist",
+      name: "Berna Akın",
+      role: "Eğitim Kurumu Pazarlama Uzmanı",
       image: "https://placehold.co/79x79",
       comment:
-        "Dgtlface's strategic approach to content has significantly boosted our brand's visibility.",
+        "DGTLFACE'in veri odaklı sosyal medya stratejisi, marka bilinirliğimizi ve etkileşimimizi kısa sürede katladı. Her ay düzenli ve şeffaf raporlamaları sayesinde nereye yatırım yaptığımızı net bir şekilde görüyoruz.",
     },
   ];
 

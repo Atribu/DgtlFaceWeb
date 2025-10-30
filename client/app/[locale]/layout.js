@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
 import Footer from "./components/footer/Footer";
 import CookiePopup from "./components/Cookies/CookiePopup";
+import { getSeoData } from '../lib/seo-utils'; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,21 +19,30 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "DGTLFACE",
-  description: "Dgtlface | Technology Partner",
-   icons: {
-    icon: "/favicon.ico",
-  },
-};
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function RootLayout({ children, params }) {
-   const { locale } = await params;
 
+export async function generateMetadata({ params: { locale } }) {
+
+  const pathname = '/';
+  
+  const seoData = getSeoData(pathname, locale);
+
+  return {
+    title: seoData.title,
+    description: seoData.description,
+     icons: {
+      icon: "/favicon.ico",
+    },
+    
+  };
+}
+
+export default async function RootLayout({ children, params }) {
+   const { locale } = params;
+  
   if (!routing.locales.includes(locale)) {
     notFound();
   }
