@@ -29,7 +29,6 @@ const ContactMain = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
 
-  // Input alanları için genel değişim handler'ı
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -37,16 +36,14 @@ const ContactMain = () => {
     });
   };
 
-  // Mobil input değişim handler'ı
   const handleMobileChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormMobile({
       ...formMobile,
-      [e.target.name]: e.target.value,
+      [name]: type === 'checkbox' ? checked : value,
     });
   };
 
-  // Form gönderim işlemi
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -54,7 +51,6 @@ const ContactMain = () => {
     setSuccess(false);
 
     try {
-      // Mesaj içeriğini orijinal formata uygun şekilde oluşturma
       const message = `
        ${t("contact_hello_name")} ${formData.firstName} ${formData.lastName}
         ${t("contact_i_work_at")} ${formData.company}  ${t("contact_compoany_suffix")}.
@@ -80,11 +76,10 @@ const ContactMain = () => {
       });
 
       if (!response.ok) {
-        throw new Error(`{t("error_submission_failed")}`);
+        throw new Error(`${t("error_submission_failed")}`);
       }
 
       setSuccess(true);
-      // Formu temizle
       setFormData({
         firstName: "",
         lastName: "",
@@ -102,7 +97,6 @@ const ContactMain = () => {
     }
   };
 
-  // Mobil form gönderim işlemi
   const handleMobileSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -110,12 +104,10 @@ const ContactMain = () => {
     setSuccess(false);
 
     try {
-      // Policy kontrolü
       if (!formMobile.policyAccepted) {
-        throw new Error(`{t("error_accept_policy")}`);
+        throw new Error(`${t("error_accept_policy")}`);
       }
 
-      // Mobil mesaj formatı
       const message = `
        ${t("contact_hello_name")} ${formMobile.name}
         ${t("contact_for_communication")} ${formMobile.phone}
@@ -131,7 +123,7 @@ const ContactMain = () => {
         body: JSON.stringify({
           name: formMobile.name.split(" ")[0] || "",
           surname: formMobile.name.split(" ")[1] || "",
-          email: "", // Mobilde email yok
+          email: "", 
           phone: formMobile.phone,
           message: message,
         }),
@@ -142,7 +134,6 @@ const ContactMain = () => {
       }
 
       setSuccess(true);
-      // Mobil formu temizle
       setFormMobile({
         name: "",
         phone: "",
@@ -157,86 +148,85 @@ const ContactMain = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-12 mt-0 mb-12 items-center justify-center">
-      <div className="flex flex-col xl:w-[620px] items-center justify-center">
-        <div className="flex flex-row lg:flex-col gap-6 justify-center items-start">
-          {/* Telefon */}
+    <div className="flex flex-col lg:flex-row lg:gap-8 my-6 items-center justify-center">
+      
+      <div className="flex flex-col xl:w-[480px] items-center justify-center">
+        <div className="flex flex-row lg:flex-col gap-4 justify-center items-start">
+          
           <Link
             href="tel:+905326451767"
-            className="flex flex-col lg:flex-row items-center gap-6"
+            className="flex flex-col lg:flex-row items-center gap-4"
           >
-            {/* GIF için .gif uzantılı bir dosya kullanabilirsiniz. */}
             <Image
               src="/gifs/phone.gif"
               alt="Phone GIF"
-              width={48}
-              height={48}
+              width={36}
+              height={36}
             />
             <p className="flex text-darkBlue lg:hidden">Phone</p>
             <div className="hidden lg:flex flex-col">
-              <span className="text-[#140f25] text-base font-normal font-inter leading-snug text-start">
+              <span className="text-[#140f25] text-sm font-normal font-inter leading-snug text-start">
                 {t("contact_call_now")}
               </span>
-              <p className="text-[#140f25] text-2xl font-bold font-['Inter'] leading-[28.80px]">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
                 0 532 645 17 67
               </p>
             </div>
           </Link>
 
-          {/* E-Posta */}
-          <div className="flex flex-col lg:flex-row items-center gap-6">
+          <div className="flex flex-col lg:flex-row items-center gap-4">
             <Image
               src="/gifs/email.gif"
               alt="email GIF"
-              width={48}
-              height={48}
+              width={36}
+              height={36}
             />
             <p className="flex lg:hidden text-darkBlue">Mail</p>
             <div className="hidden lg:flex flex-col">
-              <span className="text-[#140f25] text-base font-normal font-['Inter'] leading-snug text-start">
+              <span className="text-[#140f25] text-sm font-normal font-['Inter'] leading-snug text-start">
                  {t("contact_email_text")}
               </span>
-              <p className="text-[#140f25] text-2xl font-bold font-['Inter'] leading-[28.80px]">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
                 info@dgtlface.com
               </p>
             </div>
           </div>
 
-          {/* Konum */}
           <Link
             href="/contact"
-            className="flex flex-col lg:flex-row items-center gap-6">
+            className="flex flex-col lg:flex-row items-center gap-4">
             <Image
               src="/gifs/location.gif"
               alt="location GIF"
-              width={48}
-              height={48}
+              width={36}
+              height={36}
             />
             <p className="flex lg:hidden text-darkBlue">Address</p>
             <div className="hidden lg:flex flex-col">
-              <span className="text-[#140f25] text-base font-normal font-['Inter'] leading-snug text-start">
+              <span className="text-[#140f25] text-sm font-normal font-['Inter'] leading-snug text-start">
                    {t("contact_location_text")}
               </span>
-              <p className="text-[#140f25] text-2xl font-bold font-['Inter'] leading-[28.80px]">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
                 Muratpaşa / Antalya
               </p>
             </div>
           </Link>
         </div>
       </div>
+      
       <div>
         <form
           onSubmit={handleSubmit}
-          className="hidden lg:inline-flex w-[620px] p-12 bg-white rounded-[25px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] flex-col justify-start items-center gap-12"
+          className="hidden lg:inline-flex w-[500px] p-6 bg-white rounded-[25px] shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] flex-col justify-start items-center gap-6"
         >
-          <div className="relative justify-center text-[#140f25] text-[32px] font-bold font-['Inter'] leading-[38.40px]">
+          <div className="relative justify-center text-[#140f25] text-[24px] font-bold font-['Inter'] leading-normal">
             {t("contact_send_message")}
           </div>
 
-          <div className="flex flex-col justify-start items-start gap-4 whitespace-nowrap">
-            {/* Name Section */}
+          <div className="flex flex-col justify-start items-start gap-3 whitespace-nowrap">
+            
             <div className="inline-flex justify-start items-center gap-5">
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
                {t("contact_hello_name")}
               </div>
               <div className="flex gap-2">
@@ -244,109 +234,94 @@ const ContactMain = () => {
                   name="firstName"
                   value={formData.firstName}
                   onChange={handleChange}
-                  placeholder="................................................................................."
-                  className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                  placeholder="..............................."
+                  className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
                 />
                 <input
                   name="lastName"
                   value={formData.lastName}
                   onChange={handleChange}
-                  placeholder="................................................................................."
-                  className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                  placeholder="..............................."
+                  className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
                 />
               </div>
             </div>
 
-            {/* Company Section */}
             <div className="inline-flex justify-start items-center gap-5">
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
               {t("contact_i_work_at")}
               </div>
               <input
                 name="company"
                 value={formData.company}
                 onChange={handleChange}
-                placeholder="................................................................................."
-                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                placeholder="..............................."
+                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
               />
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
                  {t("contact_company_suffix")}.
               </div>
             </div>
 
-            {/* Project Type */}
             <div className="inline-flex justify-start items-center gap-5">
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
                 {t("contact_project_request")}.
               </div>
               <input
                 name="projectType"
                 value={formData.projectType}
                 onChange={handleChange}
-                placeholder="................................................................................."
-                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                placeholder="..............................."
+                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
               />
             </div>
 
-            {/* Additional Info 1 */}
             <input
               name="additionalInfo1"
               value={formData.additionalInfo1}
               onChange={handleChange}
-              placeholder="................................................................................."
-              className="w-[100%] h-6 px-2  bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+              placeholder="..................................................................."
+              className="w-[100%] h-6 px-2  bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
             />
 
-            {/* Contact Info */}
             <div className="inline-flex justify-start items-center gap-5">
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
                 {t("contact_for_communication")}
               </div>
               <input
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+........(....)........... ....... ....... ..............."
-                className="w-[100%] h-6 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                placeholder="+........(....)........... ......."
+                className="w-[100%] h-6 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
               />
             </div>
 
-            {/* Additional Info 2 */}
             <div className="inline-flex justify-start items-center gap-5">
               <input
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="................................................................................."
-                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-2xl focus:outline-none placeholder-[#54b9cf]"
+                placeholder="..............................."
+                className="w-[100%] h-6 px-2 bg-transparent text-[#54b9cf] text-lg focus:outline-none placeholder-[#54b9cf]"
               />
-              <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+              <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
                {t("contact_in_addition")}
               </div>
             </div>
 
-            {/* Final Line */}
             <input
               name="additionalInfo2"
               value={formData.additionalInfo2}
               onChange={handleChange}
-              placeholder="................................................................................."
-              className="w-[100%] h-6 relative justify-end text-[#54b9cf] text-2xl font-medium font-['Inter'] leading-[28.80px] border-[#54b9cf] bg-transparent  focus:outline-none placeholder-[#54b9cf]"
+              placeholder="..................................................................."
+              className="w-[100%] h-6 relative justify-end text-[#54b9cf] text-lg font-medium font-['Inter'] leading-snug border-[#54b9cf] bg-transparent  focus:outline-none placeholder-[#54b9cf]"
             />
 
-            <div className="text-[#140f25] text-2xl font-medium font-['Inter'] leading-[28.80px]">
+            <div className="text-[#140f25] text-lg font-medium font-['Inter'] leading-snug">
               {t("contact_we_thank_you")}
             </div>
           </div>
-
-          {/* <button
-        type="submit"
-        className="px-8 py-4 rounded-[14px] border gradient-border-button inline-flex justify-center items-center gap-2.5 hover:bg-[#54b9cf] hover:text-white transition-colors"
-      >
-        <p className="text-[#140f25] text-sm font-bold font-['Inter'] leading-[16.80px]">
-          Send
-        </p>
-      </button> */}
 
           {success && (
             <div className="text-green-600 text-lg">
@@ -359,7 +334,7 @@ const ContactMain = () => {
           <button
             type="submit"
             disabled={loading}
-            className={`px-8 py-4 rounded-[14px] inline-flex justify-center items-center gap-2.5 gradient-border-button hover:bg-[#54b9cf] !hover:text-white !text-darkBlue ${
+            className={`px-6 py-3 rounded-[12px] inline-flex justify-center items-center gap-2.5 gradient-border-button hover:bg-[#54b9cf] !hover:text-white !text-darkBlue ${
               loading
                 ? "opacity-50 cursor-not-allowed hover:bg-[#54b9cf] hover:text-white"
                 : "hover:bg-[#54b9cf] hover:text-white"
@@ -377,17 +352,16 @@ const ContactMain = () => {
           </button>
         </form>
 
-        {/* Mobile Form */}
-        <div className="flex lg:hidden w-[100%] py-[18px] px-[15px] bg-white items-center justify-center">
+        <div className="flex lg:hidden w-[100%] py-4 px-3 bg-white items-center justify-center">
           <form
             onSubmit={handleMobileSubmit}
-            className="flex flex-col w-full items-center justify-center text-start gap-[18px] text-darkBlue font-inter"
+            className="flex flex-col w-full items-center justify-center text-start gap-4 text-darkBlue font-inter"
           >
-            <h5 className="text-[24px] -tracking-[0.48px] font-bold leading-[120%] whitespace-nowrap">
+            <h5 className="text-[20px] -tracking-[0.48px] font-bold leading-[120%] whitespace-nowrap">
               {t("contact_mobile_send_message")}
             </h5>
-            <div className="flex flex-col gap-[11px] w-full">
-              <label className="block text-[14px] font-bold leading-[120%] -tracking-[0.28px]">
+            <div className="flex flex-col gap-2 w-full">
+              <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
                   {t("contact_mobile_label_name")}
               </label>
               <input
@@ -396,12 +370,12 @@ const ContactMain = () => {
                 value={formMobile.name}
                 onChange={handleMobileChange}
                 placeholder="Your Name"
-                className="w-full px-[20px] py-[10px] bg-transparent border-dotted border rounded-[10px] border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                className="w-full px-[20px] py-2 bg-transparent border-dotted border rounded-[10px] border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 
-            <div className="flex flex-col gap-[11px] w-full">
-              <label className="block text-[14px] font-bold leading-[120%] -tracking-[0.28px]">
+            <div className="flex flex-col gap-2 w-full">
+              <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
                 {t("contact_mobile_label_phone")}
               </label>
               <input
@@ -409,12 +383,12 @@ const ContactMain = () => {
                 value={formMobile.phone}
                 onChange={handleMobileChange}
                 placeholder="+....... ( ............ ) ......................................"
-                className="w-full py-[10px] bg-transparent border-dotted border rounded-[10px]  border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                className="w-full py-2 bg-transparent border-dotted border rounded-[10px]  border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 
-            <div className="flex flex-col gap-[11px] w-full">
-              <label className="block text-[14px] font-bold leading-[120%] -tracking-[0.28px]">
+            <div className="flex flex-col gap-2 w-full">
+              <label className="block text-sm font-bold leading-[120%] -tracking-[0.28px]">
                 {t("contact_mobile_label_message")}
               </label>
               <input
@@ -423,21 +397,21 @@ const ContactMain = () => {
                 value={formMobile.message}
                 onChange={handleMobileChange}
                 placeholder=""
-                className="w-full px-[20px] py-[10px] bg-transparent !border-dotted rounded-[10px] border border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
+                className="w-full px-[20px] py-2 bg-transparent !border-dotted rounded-[10px] border border-[#54B9CF] outline-none placeholder:text-[14px] placeholder:text-darkBlue placeholder:font-semibold"
               />
             </div>
 
-            <div className="flex items-center justify-start gap-[17px] w-full">
+            <div className="flex items-center justify-start gap-3 w-full">
               <input
                 type="checkbox"
                 name="policyAccepted"
                 checked={formMobile.policyAccepted}
                 onChange={handleMobileChange}
-                className="w-[20px] h-[20px] items-center justify-center text-center appearance-none border border-[#152741] bg-transparent focus:outline-none
+                className="w-[18px] h-[18px] items-center justify-center text-center appearance-none border border-[#152741] bg-transparent focus:outline-none
                checked:after:content-['✓']  checked:after:text-darkBlue checked:after:text-[16px]
                checked:after:flex checked:after:items-center checked:after:justify-center "
               />
-              <label className="text-[16px] font-normal leading-[26.667px] text-[#152741] cursor-pointer underline ">
+              <label className="text-sm font-normal leading-normal text-[#152741] cursor-pointer underline ">
               {t("contact_mobile_policy")}
               </label>
             </div>
@@ -445,13 +419,10 @@ const ContactMain = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]"
+              className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-3 px-6 min-h-[42px]"
             >
               {loading ? "Gönderiliyor..." : "Send"}
             </button>
-            {/* <button className="w-full min-w-[330px] gradient-border-button bg-white border text-[14px] -tracking-[0.28px] leading-[120%] font-bold !text-darkBlue py-[16px] px-[32px] min-h-[42px]">
-              Send
-            </button> */}
           </form>
         </div>
       </div>

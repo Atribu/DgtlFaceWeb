@@ -168,7 +168,7 @@
     "contactpage_s1_span1": "Dijital Dönüşümünüz",
     "contactpage_s1_text1": "DGTLFACE",
     "contactpage_s1_text2": "– Antalya Dijital Pazarlama Ajansı",
-    "contactpage_s1_button": "Hemen Şimdi Arayın",
+    "contactpage_s1_button": "Şimdi Arayın",
 
     "contactpage_s2_text1": "Antalya Dijital Ajansı: DGTLFACE",
     "contactpage_s2_header1": "Dijital Dünyanın ",
@@ -193,7 +193,7 @@
     "aboutpage_s2_header1": "Kuruluşumuzdan Bugüne",
     "aboutpage_s2_span1": "Hikâyemiz",
     "aboutpage_s2_text1": "2019 yılında Antalya'da kurulan DGTLFACE, yerel işletmelerden global markalara kadar geniş bir yelpazeye kapsamlı dijital pazarlama hizmetleri sunmaktadır. Antalya merkez ofisimiz ve yaratıcı, iş birliğine açık profesyonel ekibimizle sadece Türkiye'de değil, Avrupa pazarında da aktif rol oynuyoruz. Dijitalde Sınır Tanımıyoruz!",
-    "aboutpage_s2_button1": "Hemen Bize Ulaşın",
+    "aboutpage_s2_button1": "Bize Ulaşın",
     "aboutpage_s2_header2": "Sıradaki Büyük",
     "aboutpage_s2_span2": "Projeniz",
     "aboutpage_s2_header3": "Şimdi Başlıyor",
@@ -246,7 +246,7 @@
   "ServicesPage": {
     "servicespage_s1_text1": "DGTLFACE",
     "servicespage_s1_span1": "Uzmanlık Alanlarımız",
-    "servicespage_s1_text2": "Marka bilincinizi artırmanın ve kârlı büyümenin en etkili yolunu biliyoruz. SEO uyumlu web sitelerinden sosyal medya kampanyalarına kadar ihtiyacınız olan her şeyi burada bulabilir, bizi arayarak size özel stratejimizi hemen öğrenebilirsiniz.",
+    "servicespage_s1_text2": "Marka bilincinizi artırmanın ve kârlı büyümenin en etkili yolunu biliyoruz. SEO uyumlu web sitelerinden sosyal medya kampanyalarına kadar ihtiyacınız olan her şeyi burada bulabilir, bizi arayarak size özel stratejimizi öğrenebilirsiniz.",
     "servicespage_s1_button1": "Ücretsiz Danışmanlık Alın",
 
     "servicespage_s2_header1": "8 Stratejik Birim, Entegre",
@@ -273,10 +273,10 @@
     "servicespage_s4_chip3_span": "03",
     "servicespage_s4_chip4_header": "Sınır Tanımayan Hırs",
     "servicespage_s4_chip4_span": "04",
-    "servicespage_s4_button_explore": "Tüm Hizmetleri İncele",
+    "servicespage_s4_button_explore": "İncele",
     "servicespage_s4_pricing_header": "Şeffaf Fiyatlandırma",
     "servicespage_s4_pricing_text": "Maliyetlerden çekinmeyin; bize ulaşın, size özel ihtiyaçlarınıza göre en uygun ve şeffaf fiyatlandırma modelimizi detaylıca anlatalım. Belirlenen tek fiyat ile geçerlilik süresince ek sürpriz ücret yok.",
-    "servicespage_s4_button_callnow": "Hemen Detayları Öğrenin",
+    "servicespage_s4_button_callnow": "Keşfet",
 
     "servicespage_s5_header1": "Müşterilerimiz DGTLFACE Hakkında Ne Düşünüyor?",
     "servicespage_s5_span1": "Başarı Hikayeleri",
@@ -290,48 +290,48 @@
     "servicesvertical_item1_header": "Marka Yaratıcılığı",
     "servicesvertical_item1_span": "ve Stratejik Tasarım",
     "servicesvertical_item1_text": "DGTLFACE'te yaratıcılık sadece bir süreç değil, markanızın atan kalbidir. Sıradanlığın ötesine geçerek, hayal gücünün senfonileriyle markanızı parlaklıkla örülü büyüleyici bir dijital kimliğe dönüştürüyoruz. Antalya'nın en yaratıcı dijital çözümleri.",
-    "servicesvertical_item1_button": "Hizmeti Keşfet",
+    "servicesvertical_item1_button": "Keşfet",
 
     "servicesvertical_item2_header": "Profesyonel Çağrı Merkezi",
     "servicesvertical_item2_span": "ve Müşteri İlişkileri",
     "servicesvertical_item2_text": "Profesyonel çağrı merkezi hizmetlerimizle şirketinizin itibarını ve müşteri algısını zirveye taşıyın. DGTLFACE olarak, tam 4 farklı dilde kesintisiz çağrı karşılama hizmeti sunarak markanızın global ve güvenilir profesyonellik algısını güçlendiriyoruz. Sınır tanımayan müşteri deneyimi.",
-    "servicesvertical_item2_button": "Hizmeti Keşfet",
+    "servicesvertical_item2_button": "Keşfet",
 
     "servicesvertical_item3_header": "Turizm Teknolojileri: PMS & OTA",
     "servicesvertical_item3_span": "Sistem Kurulum ve Yönetimi",
     "servicesvertical_item3_text": "DGTLFACE'in Turizm sektörüne özel Otel Yönetim Sistemi (PMS) ve Çevrim İçi Seyahat Acentesi (OTA) entegrasyon hizmetleriyle operasyonel karmaşayı ortadan kaldırın. Sistemlerimiz, çevrim içi varlığınızı, rezervasyonlarınızı ve oda doluluk oranınızı maksimize ederek daha yüksek kârlılık sağlar. Turizmde dijital dönüşüm.",
-    "servicesvertical_item3_button": "Hizmeti Keşfet",
+    "servicesvertical_item3_button": "Keşfet",
 
     "servicesvertical_item4_header": "Arama Motoru Optimizasyonu",
     "servicesvertical_item4_span": "(SEO) ile Zirveye Çıkın",
     "servicesvertical_item4_text": "Kapsamlı SEO yaklaşımımız; derinlemesine anahtar kelime araştırması, sayfa içi/dışı optimizasyon, yüksek etkileşimli içerik stratejisi ve ileri teknik SEO süreçlerini içerir. Hedefimiz, web sitenizin arama sonuçlarında istikrarlı ve kalıcı olarak en üst sıralarda yer almasını sağlamaktır. Antalya SEO Ajansı uzmanlığı.",
-    "servicesvertical_item4_button": "Hizmeti Keşfet",
+    "servicesvertical_item4_button": "Keşfet",
 
     "servicesvertical_item5_header": "Arama Motoru Pazarlaması",
     "servicesvertical_item5_span": "(SEM) ve Performans Reklamcılığı",
     "servicesvertical_item5_text": "Günümüzün yüksek rekabetçi dijital ortamında görünür olmak, başarının anahtarıdır. DGTLFACE'in kapsamlı SEM hizmetleriyle markanızı Google, Yandex ve diğer arama motorlarının reklam alanlarında ön sıralara taşıyarak anında trafik ve dönüşüm elde edin. Yatırım getirinizi (ROI) en üst düzeye çıkarın.",
-    "servicesvertical_item5_button": "Hizmeti Keşfet",
+    "servicesvertical_item5_button": "Keşfet",
 
     "servicesvertical_item6_header": "Sosyal Medya Pazarlaması",
     "servicesvertical_item6_span": "(SMM) ve Topluluk Yönetimi",
     "servicesvertical_item6_text": "İşletmenizin sosyal medyanın tüm potansiyelini açığa çıkarmasına yardımcı olmak için tasarlanmış SMM hizmetleri. Hedef kitlenize ve markanızın hedeflerine özel, kişiselleştirilmiş bir sosyal medya stratejisi ve içerik takvimi sunuyoruz. Sosyal medyada fark yaratın.",
-    "servicesvertical_item6_button": "Hizmeti Keşfet",
+    "servicesvertical_item6_button": "Keşfet",
 
     "servicesvertical_item7_header": "Bilgi Teknolojileri",
     "servicesvertical_item7_span": "(BT) ve Özel Yazılım Geliştirme",
     "servicesvertical_item7_text": "Uzman yazılım geliştiricilerimizle markanıza özel web ve mobil uygulama geliştirme sanatını keşfedin. Şık ve sezgisel arayüzlerden (UI) sağlam, ölçeklenebilir işlevselliğe (Backend) kadar, sıradanlığın ötesinde dijital deneyimler tasarlıyoruz. Teknolojik altyapınızı DGTLFACE ile güçlendirin.",
-    "servicesvertical_item7_button": "Hizmeti Keşfet",
+    "servicesvertical_item7_button": "Keşfet",
 
     "servicesvertical_item8_header": "Dijital Performans Analizi",
     "servicesvertical_item8_span": "ve Veri Odaklı Raporlama",
     "servicesvertical_item8_text": "Dijital Analiz ve Raporlama Hizmetlerimiz, her ölçekteki işletme için eyleme geçirilebilir, veri odaklı içgörüler sunar. Bu sistem, ham verilerinizi stratejik kararlara dönüştürmenize, kampanya performansını optimize etmenize ve somut hedeflerinize ulaşmanıza yardımcı olur. Karar verme sürecinizi verilerle yönetin.",
-    "servicesvertical_item8_button": "Hizmeti Keşfet"
+    "servicesvertical_item8_button": "Keşfet"
   },
 
   "CreativePage": {
     "creativepage_banner_header": "Marka Kimliği ve",
     "creativepage_banner_span": "Premium Yaratıcı Çözümler",
-    "buttonText": "Hemen Keşfedin",
+    "buttonText": "Keşfedin",
     "creativepage_banner_text": "DGTLFACE'te yaratıcılığın kalbi atıyor. Sadece tasarım yapmıyoruz; markanızın ruhunu yansıtan, stratejik ve büyüleyici dijital kimlikler inşa ediyoruz. Markanızın parlaklıkla örülü, unutulmaz bir hikâyeye dönüştüğünü izleyin.",
 
     "creativepage_step_header1": "Yaratıcılık ve Stratejik",
@@ -376,7 +376,7 @@
 
 "GraphicDesign": {
     "graphicmotion_banner_header1": "Stratejik Grafik &",
-    "cta_talk_to_us": "Hemen Projenizi Konuşalım",
+    "cta_talk_to_us": "Projenizi Konuşalım",
     "graphicmotion_banner_header2": "Motion Graphic Tasarım Hizmetleri",
     "graphicmotion_banner_text": "DGTLFACE, Antalya merkezli ajansınız olarak markanızın dijital kimliğini görsel mükemmeliyetle yeniden tanımlıyor. Etkileşimi maksimize eden, estetik ve stratejik tasarımlarla hikayenizi harekete geçiriyoruz. Markanızın görsel gücünü keşfedin.",
 
@@ -408,7 +408,7 @@
     "uiux_step_text3": "Stratejik UX tasarımı, ikna edici UI öğeleriyle birleştiğinde dönüşüm oranlarınızı (Conversion Rate) doğrudan artırır. Amacınız ister satışları artırmak, ister potansiyel müşteri toplamak olsun; veri analiziyle optimize edilmiş tasarımımız, bu hedeflere ulaşmanıza kesinlikle katkı sağlar.",
 
     "uiux_step_header4": "Kullanıcı Sadakati ve Müşteri Tutma",
-    "uiux_step_text4": "İyi tasarlanmış, kusursuz ve kullanıcı dostu bir arayüz, hemen çıkma oranlarını (bounce rate) dramatik şekilde düşürür. Kullanıcıların platformunuzda daha uzun süre kalmasını, daha fazla keşfetmesini ve geri gelmesini sağlar. Bu, ziyaretçileri uzun vadeli ve sadık müşterilere dönüştürmek için kritik bir faktördür."
+    "uiux_step_text4": "İyi tasarlanmış, kusursuz ve kullanıcı dostu bir arayüz, çıkma oranlarını (bounce rate) dramatik şekilde düşürür. Kullanıcıların platformunuzda daha uzun süre kalmasını, daha fazla keşfetmesini ve geri gelmesini sağlar. Bu, ziyaretçileri uzun vadeli ve sadık müşterilere dönüştürmek için kritik bir faktördür."
   },
 
   "VideoProduction": {
@@ -472,7 +472,7 @@
     "callcenter_banner_header": "Premium Çağrı Merkezi",
     "callcenter_banner_text": "DGTLFACE Çağrı Merkezi Hizmetleri ile şirketinizin itibarını ve müşteri memnuniyetini zirveye taşıyın. Markanızdaki profesyonellik algısını yükseltme sözü veriyoruz, üstelik uluslararası müşterileriniz için tam 4 farklı dilde kesintisiz çağrı karşılama hizmeti sunuyoruz.",
     "callcenter_banner_span": "Çözümleri",
-    "buttonText": "Hizmeti Keşfet",
+    "buttonText": "Keşfet",
 
     "callcenter_section_header1": "Çok Dilli ve ",
     "callcenter_section_header2": "Teknolojik Altyapı",
@@ -518,7 +518,7 @@
     "pms_banner_header": "Turizm Teknolojileri: PMS & OTA",
     "pms_banner_text": "DGTLFACE'in Otel Yönetim Sistemi (PMS) ve Online Seyahat Acentesi (OTA) entegrasyon hizmetleriyle operasyonlarınızı maksimum verimlilikle yönetin. Entegre yaklaşımımız, çevrim içi varlığınızı, kanal yönetimini ve rezervasyon akışınızı optimize ederek doluluk oranınızı maksimize eder.",
     "pms_banner_span": "Yönetimi",
-    "buttonText": "Hizmetlerimiz İçin İletişime Geçin",
+    "buttonText": "İletişime Geçin",
 
     "pms_section_header1": "Stratejik Kurulum ve ",
     "pms_section_header2": "Maksimum Rezervasyon Optimizasyonu",
@@ -564,7 +564,7 @@
     "sem_banner_header": "Arama Motoru Pazarlaması (SEM)",
     "sem_banner_text": "Günümüzün son derece rekabetçi dijital ortamında, görünürlük başarı için kritik önemdedir. DGTLFACE olarak, kapsamlı Arama Motoru Pazarlaması (SEM) hizmetlerimizle markanızı, arama sonuçlarının en üst sıralarına ve potansiyel müşterilerinizin aktif arama süreçlerine taşıyoruz. Antalya dijital reklam uzmanınız.",
     "sem_banner_span": "Performans Çözümleri",
-    "buttonText": "Hemen Satışları Artırın",
+    "buttonText": "Satışları Artırın",
     "sem_section_header1": "Her Tıklama ",
     "sem_section_header2": "Yüksek Dönüşüme Dönsün",
     "sem_section_text": "SEM'in gücünden yararlanarak markanızı, ürün ve hizmetlerinizi aktif olarak arayan hedef kitlenizin karşısına stratejik biçimde çıkarıyoruz. Veri odaklı yaklaşımımız ve arama motoru algoritmalarına hakimiyetimizle, somut yatırım getirisi (ROI) üreten hedefli kampanyalar kurguluyoruz.",
@@ -609,7 +609,7 @@
     "seo_banner_header": "Arama Motoru Optimizasyonu (SEO)",
     "seo_banner_text": "DGTLFACE'in kapsamlı SEO yaklaşımı; derinlemesine anahtar kelime araştırması, Sayfa İçi/Dışı optimizasyon, stratejik içerik planlaması ve ileri Teknik SEO'yu içerir. Web sitenizin hedef arama sonuçlarında tutarlı ve kalıcı olarak üst sıralarda yer almasını sağlıyoruz.",
     "seo_banner_span": "Organik Büyüme Çözümleri",
-    "buttonText": "Organik Trafiğinizi Artırın",
+    "buttonText": "Trafiği Artırın",
     "seo_section_header1": "Google Aramalarında",
     "seo_section_header2": "Sektör Lideri Olun",
     "seo_section_text": "Arama Motoru Optimizasyonu (SEO) hizmetleriyle çevrim içi görünürlüğünüzü ve organik trafiğinizi en üst düzeye çıkarın. DGTLFACE, sürekli güncellenen arama motoru algoritmalarını yakından takip ederek web sitenizin rekabetçi ve ideal müşterilerinize 7/24 görünür kalmasını sağlar.",
@@ -654,7 +654,7 @@
     "smm_banner_header": "Sosyal Medya Pazarlaması (SMM)",
     "smm_banner_text": "DGTLFACE Sosyal Medya Pazarlaması (SMM) hizmetleri, işletmenizin sosyal medyanın tüm potansiyelinden yararlanmasına yardımcı olmak için tasarlanmıştır. Özelleştirilmiş ve veri odaklı SMM stratejimiz, benzersiz hedeflerinize ve marka kimliğinize göre şekillenir.",
     "smm_banner_span": "Etkileşim Çözümleri",
-    "buttonText": "Sosyal Medya Stratejisi Geliştirin",
+    "buttonText": "Geliştirin",
     "smm_section_header1": "Etkileşim Odaklı",
     "smm_section_header2": "Kreatif İçerik Üretimi",
     "smm_section_text": "İş hedeflerinizle uyumlu stratejik bir sosyal medya planı oluşturuyor, hedef kitleleri, platformları ve mesaj stratejilerini belirliyoruz. Ekip olarak; paylaşımlar, görseller, videolar ve hikâyeler dahil, kitlenizde yankı uyandıran ve yüksek etkileşim sağlayan premium içerikler üretiyoruz.",
@@ -699,7 +699,7 @@
     "software_banner_header": "BT Çözümleri ve Özel Yazılım",
     "software_banner_text": "Uzman yazılım geliştiricilerimizle markanıza özel web ve mobil uygulama geliştirme sanatına dâhil olun. Şık UI/UX arayüzlerinden sağlam ve ölçeklenebilir Backend işlevselliğine kadar, sıradanlığın ötesine geçen dijital deneyimler tasarlıyoruz. Kod ustalığımızla dijital dünyaya sağlam ve güvenli bir adım atın.",
     "software_banner_span": "Geliştirme Hizmetleri",
-    "buttonText": "Yazılım Projenizi Başlatın",
+    "buttonText": "Keşfedin",
     "software_section_header1": "Dijital Mükemmellik için",
     "software_section_header2": "Kod ve Altyapı Uzmanlığı",
     "software_section_text": "DGTLFACE'te sadece web sitesi yapmıyoruz; markanızın hikâyesini anlatan, müşterilerinizi büyüleyen ve iş süreçlerinizi otomatikleştiren dijital başyapıtlar oluşturuyoruz. Markanızın çevrim içi varlığını en yeni teknolojilerle birlikte şekillendirelim.",
@@ -742,7 +742,7 @@
 
   "DigitalAnalysis": {
     "analysis_banner_span": "Veri Odaklı Çözümler",
-    "buttonText": "Veri Analizi Talep Edin",
+    "buttonText": "Talep Edin",
     "analysis_banner_header": "İleri Dijital Analiz ve Raporlama",
     "analysis_banner_text": "DGTLFACE Dijital Analiz ve Raporlama Hizmetleri, her ölçekteki işletmeye eyleme dönüştürülebilir veri odaklı çözümler sunar. Bu sistem, ham verilerinizi somut içgörülere çevirerek performansınızı optimize etmenize ve stratejik hedeflerinize net bir şekilde ulaşmanıza yardımcı olur.",
 
@@ -753,7 +753,7 @@
     "analysis_services_title1": "Web Sitesi Performans Raporlama",
     "analysis_services_subtitle1": "Hizmeti",
     "analysis_services_feature1_1": "Trafik Kaynakları ve Kullanıcı Davranışı Analizi (GA4)",
-    "analysis_services_feature1_2": "Hemen Çıkma Oranı ve Sayfa Başına Süre Analizi",
+    "analysis_services_feature1_2": "Çıkma Oranı ve Sayfa Başına Süre Analizi",
     "analysis_services_feature1_3": "Dönüşüm Hunisi (Funnel) Analizi ve Optimizasyon Önerileri",
     "analysis_services_feature1_4": "Kullanılabilirlik (Usability) Testleri ve Isı Haritası (Heatmap) Raporlaması",
 
@@ -1307,7 +1307,7 @@
     "cta_talk_to_us": "Çağrı Merkezi Verimliliğinizi Artırın",
     "callreporting_subbanner_header": "Derinlemesine Çağrı Analizi",
     "callreporting_subbanner_header2": "ve Operasyonel Raporlama Hizmetleri",
-    "callreporting_subbanner_text": "Günlük Çağrı Analizi Raporlama Hizmetlerimiz, çağrı merkezi operasyonlarınızı optimize etmeniz ve Müşteri Memnuniyetini (CSAT) artırmanız için gerekli araçları sunar. İşletmenizi veri odaklı kararlarla iyileştirmeye hemen başlayın!",
+    "callreporting_subbanner_text": "Günlük Çağrı Analizi Raporlama Hizmetlerimiz, çağrı merkezi operasyonlarınızı optimize etmeniz ve Müşteri Memnuniyetini (CSAT) artırmanız için gerekli araçları sunar. İşletmenizi veri odaklı kararlarla iyileştirmeye başlayın!",
 
     "callreporting_step1_header": "Yasal Uyumlu Çağrı Kaydı ve Güvenli Depolama",
     "callreporting_step1_text": "Çağrı kayıt ve depolama hizmetleri, işletmelerin müşteri iletişimlerini KVKK uyumlu ve güvenli biçimde kaydetmesine olanak tanır. Bu kayıtlar ileriye dönük denetimler, eğitim amaçları ve konuşma analizi (Speech Analytics) için temel oluşturur.",
