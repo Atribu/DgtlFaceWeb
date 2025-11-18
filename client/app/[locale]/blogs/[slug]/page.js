@@ -1,7 +1,7 @@
 import React from 'react'
-import BlogBanner from './components/BlogBanner'
-import HoverDropdown from './components/HoverDropdown'
-import BlogGridSection from './components/BlogGridSection'
+import BlogBanner from '../components/BlogBanner'
+import HoverDropdown from '../components/HoverDropdown'
+import BlogGridSection from '../components/BlogGridSection'
 
 const page = () => {
   return (

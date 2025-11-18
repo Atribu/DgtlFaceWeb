@@ -135,6 +135,12 @@
 
     "whyUs_header5": "Continuous Support and Counselling",
     "whyUs_text5": "As your technology partner, we are with you at every stage of the project. Even after project delivery, we ensure that your business runs smoothly by providing continuous support and consultancy services. With DGTLFACE, you can closely follow technological developments and continuously improve your business.",
+     "whyUs_header6": "Looker Studio ile 360° Performans Görünürlüğü",
+      "whyUs_text6": "Looker Studio panelleri, SEO’dan reklama, sosyal medyadan OTA’ya, çağrı merkezinden PMS verilerine kadar tüm dijital ekosistemi tek panelde birleştirir. Yönetim ekibiniz, pazarlama ekibiniz ve operasyon ekibiniz aynı veri üzerinden konuşur. Böylece hızlı karar, net aksiyon ve ölçülebilir sonuç döngüsü oturur.",
+        "whyUs_header7": "Marka Deneyimi Tasarlayan Creative Yaklaşım",
+      "whyUs_text7": "Markanız için tasarlanan tüm görsel ve işitsel içerikler, misafirin ilk temasından son rezervasyon adımına kadar tutarlı bir marka deneyimi sunmak üzere planlanır. Creative tasarımlar; otelinizin mimarisini, konseptini, hedef kitlesini ve fiyat pozisyonunu yansıtacak şekilde hazırlanır. Böylece hem dijitalde hem sahada aynı dünyayı anlatan bir marka kimliği ortaya çıkar.",
+        "whyUs_header8": "Dönüşüm Odaklı Dijital Mimari",
+      "whyUs_text8": "Web sitesi, reklam, sosyal medya ve çağrı merkezi süreçleri tek bir dönüşüm akışı üzerine kurulur. Kullanıcının gördüğü ilk reklamdan, web sitesinde gezerken karşılaştığı içeriklere ve son olarak çağrı veya rezervasyon adımına kadar her dokunuş, daha yüksek dönüşüm üretmek için tasarlanır. Bu bütüncül mimari, yatırımlarınızı dağınık kampanyalardan çıkarıp ölçeklenebilir bir büyüme modeline dönüştürür.",
     "services_button": "Explore"
     },
 
@@ -1416,7 +1422,33 @@
   "saved_prefs_loaded": "Saved cookie preferences loaded.",
   "no_saved_prefs": "No saved cookie preferences found. Using defaults.",
    "mandatory_cookies_text": "Mandatory cookies are essential for the website to function properly. Without these cookies, the website cannot operate effectively. These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. These cookies do not store any personally identifiable information."
-}
+},
+
+"blogs": {
+    "readMore": "Read more",
+    "what-is-travertine": {
+      "title": "What is Travertine?",
+      "excerpt": "Learn what travertine is, how it forms and where it is used.",
+      "date": "2025-01-10",
+      "readTime": "5 min read",
+      "h1": "What is Travertine?",
+      "body": "Full article content here..."
+    },
+    "travertine-vs-marble": {
+      "title": "Travertine vs Marble: Which is Better?",
+      "excerpt": "We compare travertine and marble in durability, aesthetics and cost.",
+      "date": "2025-02-03",
+      "readTime": "7 min read",
+      "h1": "Travertine vs Marble",
+      "body": "Full article content here..."
+    },
+    "travertine-maintenance-tips": {
+      "title": "Traverten Bakım İpuçları",
+      "excerpt": "Traverten yüzeylerin bakımında dikkat edilmesi gereken noktalar...",
+      "date": "2025-01-10",
+      "readTime": "5 dk okuma"
+    }
+  }
 
 
 }

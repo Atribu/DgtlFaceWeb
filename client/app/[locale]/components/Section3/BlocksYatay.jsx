@@ -49,31 +49,45 @@ const Section3 = () => {
   };
 
   return (
-    <div
-      className="flex flex-row w-full h-auto justify-center items-center  font-inter"
-      style={{
-        background:
-          "linear-gradient(to right, #140C29 0%, #140C29 25%, #1d2342 30%, #1d2342 38%, #140C29 45%, #140C29 100%)",
-      }}
-    >
+<div
+  className="flex flex-row w-[100%] h-auto max-h-[500px] justify-center items-center font-inter"
+  style={{
+    backgroundImage: `
+      linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #f2edf9 8%,
+        #2a1a4f 25%,
+        #1c153b 38%,
+        #140C29 50%,
+        #1c153b 68%,
+        #2a1a4f 75%,
+        #f2edf9 88%,
+        #ffffff 100%
+      )
+    `,
+  }}
+>
+
+
       <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
-         <div className="hidden lg:flex">
+         <div className="hidden lg:flex -ml-[20%]">
          <ServiceBlocks    blocksOrder={blocksOrder} rotate={true}
           blockPositions={blockPositions}/>
          </div>
        
-        <div className="flex flex-col text-start items-start justify-center h-full ">
-          <h3 className=" flex flex-row lg:flex-col gap-2 text-[24px] leading-[120%] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
+        <div className="flex flex-col text-start items-start justify-center h-full min-w-[600px] max-w-[800px] -ml-20">
+          <h2 className=" flex flex-row lg:flex-col gap-2 text-[18px] lg:text-[20px] leading-[120%]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             
-            <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[24px] lg:text-5xl font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
+            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[18px] lg:text-[20px]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
               {t("services_title")}
-            </span>
-          </h3>
+            </h2>
+          </h2>
 
-          <div className="flex flex-col gap-2">
-            <p className="flex flex-col lg:hidden font-inter28 text-sm text-white font-normal leading-tight "> 
+          <div className="flex flex-col gap-2 w-full">
+            <p className="flex flex-col lg:hidden font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight w-full"> 
              {t("services_text1")}
               <br></br>
               <span className="opacity-50 line-clamp-2">
@@ -81,10 +95,10 @@ const Section3 = () => {
               </span>
             </p>
 
-            <p className="font-inter28 text-[14px] lg:text-[18px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex w-[70%] min-w-[460px]">
+            <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex ">
                {t("services_text1")}
             </p>
-            <p className="font-inter28 text-sm lg:text-[18px] text-white font-normal leading-tight hidden lg:flex w-[70%] min-w-[460px]">
+            <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight hidden lg:flex ">
               {t("services_text2")}
             </p>
           </div>

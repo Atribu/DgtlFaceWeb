@@ -23,19 +23,19 @@ const Partners = () => {
   return (
     <div id='main' className="flex flex-col w-screen items-center justify-center overflow-x-hidden gap-[30px]">
       <div className="flex flex-col w-[90%] items-start lg:items-center text-start lg:text-center justify-center gap-1 lg:gap-5 text-darkBlue">
-        <h2 className="font-inter28 text-[24px] lg:text-[48px] font-bold leading-[120%] lg:leading-[57.6px] -tracking-[0.48px]">
+        <h2 className="font-inter28 text-[24px] lg:text-[24px] font-bold leading-[120%] lg:leading-[57.6px] -tracking-[0.48px]">
          {t("title")} 
         </h2>
       <div>
-          <p className="font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]">
+          <p className="font-inter28 text-[14px] lg:text-[16px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]">
           {t("description")} 
         </p>
-         <p className="font-inter28 text-[14px] lg:text-[18px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]">
+         <p className="font-inter28 text-[14px] lg:text-[16px] font-normal leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]">
           {t("list_intro")} 
         </p>
       </div>
       </div>
-      <div className="flex w-full lg:h-[30vh] overflow-hidden lg:ml-[40%] items-start justify-center">
+      <div className="flex w-full  overflow-hidden lg:ml-[40%] items-start justify-center">
         <EmblaCarousel slides={slides}/>
       </div>
     </div>
