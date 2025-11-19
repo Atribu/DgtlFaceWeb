@@ -74,7 +74,7 @@ const Section3 = () => {
  
           {/* <BlocVertical /> */}
          <div className="hidden lg:flex -ml-[20%]">
-         <ServiceBlocks    blocksOrder={blocksOrder} rotate={true}
+         <ServiceBlocks    blocksOrder={blocksOrder} rotate={true} rotateDegree={0}
           blockPositions={blockPositions}/>
          </div>
        

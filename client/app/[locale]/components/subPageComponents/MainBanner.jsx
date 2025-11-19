@@ -46,14 +46,27 @@ const MainBanner = ({header,text, span, buttonText}) => {
       };
 
   return (
-    <div className='flex items-center justify-center bg-cover bg-center h-[60vh] min-h-[500px] lg:h-screen w-screen'  style={{ background:
-          "linear-gradient(to right, #140C29 0%, #140C29 25%, #1d2342 30%, #1d2342 38%, #140C29 45%, #140C29 100%)",
+    <div className='flex items-center justify-center bg-cover bg-center h-[60vh] min-h-[500px] lg:h-[55vh] w-screen mt-[160px]'  style={{ background:
+          `
+      linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #f2edf9 8%,
+        #2a1a4f 25%,
+        #1c153b 38%,
+        #140C29 50%,
+        #1c153b 68%,
+        #2a1a4f 75%,
+        #f2edf9 88%,
+        #ffffff 100%
+      )
+    `,
       }}>
-      <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
+      <div className="w-[90%] md:w-[90%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
-          <div className="hidden md:flex">
-          <ServiceBlocks blocksOrder={blocksOrder} rotate={true}
+          <div className="hidden md:flex -ml-[22%]">
+          <ServiceBlocks blocksOrder={blocksOrder} rotate={true} rotateDegree={90}
           blockPositions={blockPositions}/>
           </div>
 
@@ -61,22 +74,22 @@ const MainBanner = ({header,text, span, buttonText}) => {
             <ServicesCarouselWrapper selected={1} isActive={true}/>
           </div>
        
-        <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full ">
-          <h3 className=" flex flex-col gap-2 !text-[24px] lg:!text-[56px] leading-[120%] font-inter28 font-bold lg:leading-[57.60px] pb-1 -tracking-[0.48px] lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
-            <span className="text-white w-[100%] lg:w-[80%]">{header}</span>
+        <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full w-full -ml-20 lg:w-[100%] min-w-[870px]">
+          <h1 className=" flex flex-col gap-2 text-[26px] leading-[120%] font-inter28 font-semibold  pb-1 lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
+            
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
-              {span}
+              {header}{span}
             </span>
-          </h3>
+          </h1>
 
           <div className="flex flex-col gap-2">
-            <p className="font-inter28 text-[18px] text-white font-normal leading-[130%] -tracking-[0.28px] lg:w-[45%] hidden lg:flex">
+            <p className="font-inter28 text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px]  hidden lg:flex">
             {text}
             </p>
             
           </div>
 
-          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
+          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button w-[124px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
             {buttonText}
           </button>
           <style jsx>{`

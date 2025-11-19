@@ -291,8 +291,8 @@
   },
 
 "VerticalSlider": {
-    "servicesvertical_header1": "DGTLFACE",
-    "servicesvertical_span1": "Uzmanlık Alanları",
+    "servicesvertical_header1": "Mikro Konular",
+    "servicesvertical_span1": "SEM Yapısını Derinleştiren Alanlar",
 
     "servicesvertical_item1_header": "Marka Yaratıcılığı",
     "servicesvertical_item1_span": "ve Stratejik Tasarım",
@@ -568,16 +568,17 @@
   },
 
 "Sem": {
-    "sem_banner_header": "Arama Motoru Pazarlaması (SEM)",
+    "sem_banner_header": "Google Ads ve Dijital Reklam Yönetimi  ",
     "sem_banner_text": "Günümüzün son derece rekabetçi dijital ortamında, görünürlük başarı için kritik önemdedir. DGTLFACE olarak, kapsamlı Arama Motoru Pazarlaması (SEM) hizmetlerimizle markanızı, arama sonuçlarının en üst sıralarına ve potansiyel müşterilerinizin aktif arama süreçlerine taşıyoruz. Antalya dijital reklam uzmanınız.",
-    "sem_banner_span": "Performans Çözümleri",
+    "sem_banner_span": "Performans Odaklı SEM Hizmetleri",
     "buttonText": "Satışları Artırın",
-    "sem_section_header1": "Her Tıklama ",
-    "sem_section_header2": "Yüksek Dönüşüme Dönsün",
+    "sem_section_header1": "DGTLFACE SEM Hizmet Kümeleri",
+    "sem_section_header2": "DGTLFACE SEM Hizmet Kümeleri",
     "sem_section_text": "SEM'in gücünden yararlanarak markanızı, ürün ve hizmetlerinizi aktif olarak arayan hedef kitlenizin karşısına stratejik biçimde çıkarıyoruz. Veri odaklı yaklaşımımız ve arama motoru algoritmalarına hakimiyetimizle, somut yatırım getirisi (ROI) üreten hedefli kampanyalar kurguluyoruz.",
 
-    "sem_services_title1": "Kapsamlı Reklam Yönetimi",
+    "sem_services_title1": "Google Ads Kampanya Yönetimi – Profesyonel Optimizasyon",
     "sem_services_subtitle1": "Hizmeti",
+     "sem_services_text1":"DGTLFACE, Google Ads yönetimi süreçlerinde; anahtar kelime analizi, reklam metni yazımı, teklif stratejisi, cihaz–ülke–demografi bazlı hedefleme ve açılış sayfası optimizasyonunu bir arada yönetir. “Google Ads kampanya yönetimi nasıl yapılır, Google Ads reklam maliyetini nasıl düşürürüm, satış odaklı Google reklam ayarları nasıl olmalı?” sorularına cevap veren teknik bir yapı kurarız. Oteller ve turizm işletmeleri için, marka kelimeleri, destinasyon aramaları ve rakip karşılaştırma sorgularını özel olarak ele alır; reklamlarınızın kalite puanını artırarak tıklama başı maliyetleri aşağı, dönüşüm oranlarını yukarı taşırız.",
     "sem_services_feature1_1": "Tüm Dijital Kanallarda Bütçe ve Kampanya Optimizasyonu",
     "sem_services_feature1_2": "Detaylı Rakip Analizi ve Pazar Konumlandırması",
     "sem_services_feature1_3": "A/B Testleri ile Reklam Verimliliğini Maksimuma Çıkarma",
@@ -585,20 +586,23 @@
 
     "sem_services_title2": "Web Trafiği ve Hedef Kitle Takibi",
     "sem_services_subtitle2": "Hizmeti",
+     "sem_services_text2":"YouTube, özellikle turizm ve deneyim odaklı sektörlerde misafire oteli hissettiren en güçlü alanlardan biridir. DGTLFACE, YouTube reklam yönetimi kapsamında TrueView, bumper ads, in-stream, discovery ve Shorts reklamlarını; hedef kitle, ilgi alanı ve remarketing listelerine göre planlar. “YouTube reklam bütçesi nasıl belirlenir, video içeriklerle satış nasıl artırılır, oteller için YouTube video reklam nasıl kurgulanır?” gibi soruları, otelinizin konsepti, pazarı ve sezon planı ile birlikte cevaplarız. Böylece YouTube, yalnızca görünürlük değil, rezervasyon hunisinin aktif bir parçası haline gelir.",
     "sem_services_feature2_1": "Google Analytics 4 (GA4) ile Gelişmiş Etkileşim Takibi",
     "sem_services_feature2_2": "Yeniden Pazarlama (Retargeting) Listeleri Oluşturma",
     "sem_services_feature2_3": "Hedef Kitle Demografik ve Davranışsal Analizi",
     "sem_services_feature2_4": "Piksel ve Etiket Yönetimi (Google Tag Manager)",
 
-    "sem_services_title3": "Google Araçları ve Otomasyon",
-    "sem_services_subtitle3": "Hizmeti",
-    "sem_services_feature3_1": "Google Ads Hesap Kurulumu ve Yapılandırması",
-    "sem_services_feature3_2": "Google Merchant Center ve Alışveriş Reklamları Yönetimi",
-    "sem_services_feature3_3": "Maksimum Performans (PMax) Kampanyaları Optimizasyonu",
-    "sem_services_feature3_4": "Gelişmiş Reklam Uzantıları Kurulumu",
+    "sem_services_title3": "Remarketing & Display Reklamlar -",
+    "sem_services_subtitle3": "Yeniden Hedefleme Uzmanlığı",
+    "sem_services_text3": "Remarketing, markanızla daha önce temas etmiş ama henüz dönüşmemiş kullanıcıları geri kazanmanın en etkili yollarından biridir. DGTLFACE, remarketing ve display reklam yönetiminde; siteyi ziyaret edip ayrılan, rezervasyon sürecine girip bırakmış, videonuzu izleyip sitede gezinen veya sepeti terk eden kullanıcıları farklı mesajlarla yeniden hedefler. “Remarketing nasıl yapılır, oteller için remarketing stratejileri neler olmalı, Google Analytics remarketing listeleri nasıl kullanılır?” sorularına teknik ve stratejik bir yanıt üretir; her remarketing kampanyasını dönüşüm huninizin kritik bir basamağı haline getiririz.",
+    "sem_services_feature3_1": "Remarketing, markanızla daha önce temas etmiş ama henüz dönüşmemiş kullanıcıları geri kazanmanın en etkili yollarından biridir. DGTLFACE, remarketing ve display reklam yönetiminde; siteyi ziyaret edip ayrılan, rezervasyon sürecine girip bırakmış, videonuzu izleyip sitede gezinen veya sepeti terk eden kullanıcıları farklı mesajlarla yeniden hedefler. “Remarketing nasıl yapılır, oteller için remarketing stratejileri neler olmalı, Google Analytics remarketing listeleri nasıl kullanılır?” sorularına teknik ve stratejik bir yanıt üretir; her remarketing kampanyasını dönüşüm huninizin kritik bir basamağı haline getiririz.",
+    "sem_services_feature3_2": "",
+    "sem_services_feature3_3": "",
+    "sem_services_feature3_4": "",
 
     "sem_services_title4": "Yandex Reklamları ve Rusya Pazarı",
     "sem_services_subtitle4": "Hizmeti",
+     "sem_services_text4":"Başarılı bir SEM yapısı için dönüşüm takibi, kampanyaların kendisi kadar kritiktir. DGTLFACE, Google Tag Manager kurulumu, Analytics 4 conversion setup, çağrı izleme, telefon tıklama takibi, cross-domain rezervasyon ölçümü, form ve rezervasyon adımı izleme gibi süreçleri uçtan uca kurgular. “Google Tag Manager nasıl kurulur, dönüşüm izleme hataları nasıl çözülür, otel rezervasyon dönüşüm izlemesi nasıl yapılır?” gibi sorunlarınız, standart bir kurulum değil, tamamen size özel bir veri mimarisi ile çözülür. Böylece her tıklamanın, her rezervasyonun ve her aramanın kaynağını net biçimde görürsünüz.",
     "sem_services_feature4_1": "Yandex Direct Reklam Kampanyası Yönetimi",
     "sem_services_feature4_2": "Rusya ve Çevre Ülkelere Özel Hedefleme Stratejileri",
     "sem_services_feature4_3": "Yandex Metrica ile Derinlemesine Veri Analizi",
@@ -606,10 +610,24 @@
 
     "sem_services_title5": "Google Ads Uzmanlığı",
     "sem_services_subtitle5": "Hizmeti",
+     "sem_services_text5":"SEM tarafında alınan hiçbir karar “bence böyle olmalı” diye verilemez. DGTLFACE, reklam raporlama ve performans analizi süreçlerinde Looker Studio dashboardları kullanarak; Google Ads, Meta Ads, YouTube, sosyal medya ve diğer kanalların verilerini tek panelde toplar. “Reklam performans raporu nasıl hazırlanır, Google Ads dönüşüm raporu nasıl okunur, oteller için reklam raporlama hangi metrikleri içermeli?” gibi sorulara net yanıt veren raporlar hazırlar; böylece aylık, haftalık ve günlük bazda hangi kampanyayı nasıl optimize etmeniz gerektiğini açık biçimde görürsünüz.",
     "sem_services_feature5_1": "Arama, Görüntülü, Video ve Uygulama Reklamları Uzmanlığı",
     "sem_services_feature5_2": "Düşük Tıklama Başına Maliyet (CPC) ile Maksimum Görünürlük",
     "sem_services_feature5_3": "Kalite Puanı Optimizasyonu ve Anahtar Kelime Stratejisi",
-    "sem_services_feature5_4": "Marka Bilinirliği ve Doğrudan Satış Odaklı Kampanyalar"
+    "sem_services_feature5_4": "Marka Bilinirliği ve Doğrudan Satış Odaklı Kampanyalar",
+
+    "h4Section":{
+      "header":"Neden DGTLFACE ile Google Ads & SEM Yönetimi?",
+      "card1title":"Neden DGTLFACE’i Dijital Reklam Partneriniz Olarak Seçmelisiniz?",
+      "card2title":"Akıllı Bütçe Yönetimi ve Maliyet Optimizasyonu",
+      "card3title":"Antalya Merkezli, Turizm Odaklı Dijital Reklam Ajansı",
+      "card4title":"Teknik Derinlik: Tag Manager, Analytics 4 ve Çok Kanallı Dönüşüm İzleme",
+      "card1description":"DGTLFACE, Google Ads ve dijital reklam yönetimini; SEO, sosyal medya, web ve veri analitiği ile entegre çalışan bir yapı içinde ele alır. Farklı ajansların yönettiği dağınık kampanyalar yerine, tek çatı altında yönetilen performans ekibi ile çalışırsınız. Otel ve turizm sektöründeki tecrübemiz sayesinde sezonluk talepleri, destinasyon bazlı rekabeti ve misafir davranışlarını bilerek hareket eder; tüm kampanyalarınızı doluluk, gelir ve marka bilinirliği ekseninde konumlandırırız. Sonuç: Daha güçlü raporlama, daha net aksiyon planı ve ölçülebilir şekilde artan satış/rezervasyon sonuçları.",
+      "card2description":"Google Ads bütçenizi “günlük şu kadar harcayalım” basitliğinde değil; kampanya, ülke, cihaz, dil ve kanal bazlı performans verilerine göre yönetiriz. Hangi kampanyanın daha düşük dönüşüm maliyetiyle daha fazla satış getirdiğini görür; bütçeyi oraya kaydırır, işe yaramayan kombinasyonları hızla kapatırız. Böylece “Google Ads bütçe optimizasyonu, dönüşüm maliyeti düşürme, küçük işletmeler için Google Ads, oteller için Google Ads stratejisi” gibi konular, teoride kalmaz; günlük operasyonun doğal parçasına dönüşür.",
+      "card3description":"SEM hizmetlerimizde antalya dijital reklam ajansı, google ads yönetimi antalya, antalya sem ajansı gibi lokal aramalarda da güçlü bir uzmanlığa sahibiz. Antalya, Belek, Side, Kemer, Alanya gibi turizm bölgelerinde faaliyet gösteren oteller için; pazar–ülke–mevsim dinamiklerine uygun kampanya planları çıkarırız. Bu sayede hem lokal hem uluslararası pazarda bölgenizin dijital vitrini haline gelmenizi sağlarız.",
+      "card4description":"Dijital reklam bütçeniz arttıkça, dönüşüm takibi ve veri bütünlüğü konusu daha kritik hale gelir. DGTLFACE, Google Tag Manager, GA4, Looker Studio, çağrı takibi, CRM ve rezervasyon sistemlerinizle entegrasyon gibi teknik konuları sizin yerinize yönetir. Böylece siz yalnızca “hangi kanal ne kadar kazandırıyor, hangi kampanyayı büyütmeliyiz, hangisini durdurmalıyız?” gibi yönetici sorularına odaklanırsınız."
+    }
+    
   },
 
   "Seo": {

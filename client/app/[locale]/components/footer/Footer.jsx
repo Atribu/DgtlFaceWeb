@@ -21,12 +21,12 @@ export default function Footer() {
         {/* Üst bölüm: Logo ve Navigasyon (MOBİL GÖRÜNÜM) */}
         <div className="flex flex-col lg:hidden justify-center items-center h-[380px] w-full">
           <div className="flex flex-col items-center justify-start text-center gap-[14px] font-inter text-white z-[50] h-full">
-              <h3 className="text-[20px] font-bold leading-[120%] -tracking-[0.48px] capitalize">
+              <p className="text-[16px] font-semibold leading-[120%] -tracking-[0.48px] capitalize">
                {t("header")}{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
                   {t("span")}
                 </span>
-              </h3>
+              </p>
               <p className="text-[14px] font-noral leading-[130%] -tracking-[0.28px] w-[80%]">
                {t("text")}
               </p>
@@ -130,13 +130,13 @@ export default function Footer() {
 
           <div className="flex flex-col items-center justify-center gap-10 w-[39%]">
             <div className="flex flex-col items-center justify-start text-center gap-5 font-inter text-white z-[50] h-full">
-              <h3 className="text-[48px] xl:text-[52px] font-bold leading-[110%] -tracking-[1.12px] capitalize">
+              <p className="text-[24px] font-bold leading-[110%] -tracking-[1.12px] capitalize mt-2">
                {t("header")}{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
                  {t("span")}
                 </span>
-              </h3>
-              <p className="text-[16px] font-noral leading-[140%] -tracking-[0.32px] w-[90%]">
+              </p>
+              <p className="text-[16px] font-noral leading-[130%] -tracking-[0.32px] w-[90%]">
                {t("text")}
               </p>
             </div>
@@ -163,7 +163,7 @@ xl:top-[220px]
 max-w-[160px]
 xl:max-w-[172px] whitespace-nowrap
   inline-flex 
-  px-6 xl:px-8 py-3 xl:py-4 
+  px-5 xl:px-6 py-2 xl:py-3 
   justify-center 
   items-center 
   gap-[10px] 
