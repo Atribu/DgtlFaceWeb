@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import React from "react";
-import WebIcon from "./BlockIcons/WebIcon";
+import DgtlfaceIcon from "./BlockIcons/DgtlfaceIcon";
 
-function Block8({ gradient, ...props }) {
+function Block8({ gradient,rotateDegree, ...props }) {
   return (
     <div {...props}>
       <div className="relative h-full w-full">
@@ -68,17 +68,17 @@ function Block8({ gradient, ...props }) {
           </defs>
         </svg>
       </div>
-      <WebIcon
+      <DgtlfaceIcon
         gradient={gradient}
         // className={clsx(
         //   "absolute top-[30px] transition-all duration-500",
         //   gradient && gradient == "true" ? "right-[7.5px] " : "right-[37.5px]",
         // )}
         className={clsx(
-          "absolute transition-all duration-500 ease-in-out rotate-180",
+          `absolute transition-all duration-500 ease-in-out rotate-${rotateDegree}`,
           gradient && gradient == "true"
             ? "right-[-60px] top-[15px]"
-            : "right-[38px] top-[30px]",
+            : "right-[40px] top-[40px]",
         )}
       />
     </div>

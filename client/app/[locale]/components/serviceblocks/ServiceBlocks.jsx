@@ -12,7 +12,7 @@ import Block4 from "./Icons/Block4";
 import clsx from "clsx";
 import Image from "next/image";
 
-function ServiceBlocks({ blocksOrder, blockPositions, mobile, rotate }) {
+function ServiceBlocks({ blocksOrder, blockPositions, mobile, rotate, rotateDegree }) {
   return (
     <div
       className= {`w-full opacity-100 lg:col-span-1 lg:flex relative col-span-2 flex h-[500px] -rotate-90 overflow-hidden ${rotate ? "lg:rotate-0":"lg:-rotate-90"}`}>
@@ -49,7 +49,7 @@ function ServiceBlocks({ blocksOrder, blockPositions, mobile, rotate }) {
               blockPositions[blocksOrder[5]],
             )}
           />
-          <Orta className="absolute top-1/2 z-[30] -translate-x-[82px] -translate-y-1/2 transition-all duration-500" />
+          <Orta rotateDegree={rotateDegree} className="absolute top-1/2 z-[30] -translate-x-[82px] -translate-y-1/2 transition-all duration-500" />
           <Block8
             gradient={blocksOrder[0] == "4" ? "true" : "false"}
             // className="absolute top-1/2 z-[80] -translate-x-[210px] -translate-y-1/2 transition-all duration-500"

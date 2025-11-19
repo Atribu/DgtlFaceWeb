@@ -54,7 +54,7 @@ const QuestionsSection2 = ({ color , faqs }) => {
   };
 
   return (
-    <div className="flex flex-col w-full items-center justify-center gap-[70px] lg:gap-[168px] font-inter">
+    <div className="flex flex-col w-full items-center justify-center gap-[70px] lg:gap-[168px] font-inter -mt-10">
       <div
         className={`flex flex-col w-[100%] lg:w-[50%] items-center justify-center text-center gap-[10px] lg:gap-[16px]`}
       >
@@ -91,9 +91,9 @@ const QuestionsSection2 = ({ color , faqs }) => {
               <div
                 className={`flex w-full justify-between items-start text-darkBlue`}
               >
-                <p className="flex whitespace-nowrap text-left">
+                <h3 className="flex whitespace-nowrap text-left">
                   {item.question}
-                </p>
+                </h3>
                 <PlusSvg
                   className={`transition-transform duration-500 ${
                     isOpen ? "rotate-180" : "rotate-0"
