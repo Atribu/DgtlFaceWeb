@@ -24,24 +24,24 @@ export function generateStaticParams() {
 }
 
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+  const { locale } = await params; 
 
-  const pathname = '/';
-  
+  const pathname = "/";
+
   const seoData = getSeoData(pathname, locale);
 
   return {
     title: seoData.title,
     description: seoData.description,
-     icons: {
+    icons: {
       icon: "/favicon.ico",
     },
-    
   };
 }
 
-export default async function RootLayout({ children, params }) {
-   const { locale } = params;
+export default async function RootLayout({ children,  params }) {
+   const { locale } = await params;
   
   if (!routing.locales.includes(locale)) {
     notFound();

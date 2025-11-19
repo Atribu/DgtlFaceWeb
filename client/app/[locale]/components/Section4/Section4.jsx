@@ -9,11 +9,11 @@ const Section4 = () => {
 
   return (
     <div className="flex flex-col w-full justify-center items-center mt-5">
-      <div className="flex flex-col justify-center items-center gap-[3px] lg:gap-8">
-        <h3 className="flex font-inter28 font-bold text-2xl lg:text-5xl leading-[57.60px]">
+      <div className="flex flex-col justify-center items-center gap-[3px] lg:gap-2">
+        <span className="flex font-inter28 font-semibold text-[20px] lg:text-[24px] leading-[120%]">
        {t("aboutpage_s3_footer_header1")}
-        </h3>
-        <p className="flex text-lg font-normal font-inter28 leading-[25.20px]">
+        </span>
+        <p className="flex text-[14px] font-normal font-inter28 leading-[25.20px]">
          {t("aboutpage_s3_footer_text1")}
         </p>
       </div>

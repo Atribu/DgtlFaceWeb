@@ -30,7 +30,8 @@
     "Hero": {
     "title": "Анталья — цифровой технологический партнёр",
     "subtitle": "DGTLFACE Digital Technology Partner предлагает высококачественные и экономичные решения цифрового маркетинга, адаптированные под каждый бизнес.",
-    "button": "Подробнее"
+    "button": "Подробнее",
+     "button2":"Teklif Al"
   },
 
    "stats": {
@@ -134,6 +135,12 @@
 
     "whyUs_header5": "Непрерывная поддержка и консультации",
     "whyUs_text5": "В качестве вашего технологического партнёра мы вместе с вами на каждом этапе проекта. Даже после передачи проекта мы обеспечиваем бесперебойную работу вашего бизнеса, предоставляя постоянную поддержку и консультационные услуги. С DGTLFACE вы можете следить за технологическими разработками в режиме реального времени и постоянно совершенствовать свой бизнес.",
+     "whyUs_header6": "Looker Studio ile 360° Performans Görünürlüğü",
+      "whyUs_text6": "Looker Studio panelleri, SEO’dan reklama, sosyal medyadan OTA’ya, çağrı merkezinden PMS verilerine kadar tüm dijital ekosistemi tek panelde birleştirir. Yönetim ekibiniz, pazarlama ekibiniz ve operasyon ekibiniz aynı veri üzerinden konuşur. Böylece hızlı karar, net aksiyon ve ölçülebilir sonuç döngüsü oturur.",
+        "whyUs_header7": "Marka Deneyimi Tasarlayan Creative Yaklaşım",
+      "whyUs_text7": "Markanız için tasarlanan tüm görsel ve işitsel içerikler, misafirin ilk temasından son rezervasyon adımına kadar tutarlı bir marka deneyimi sunmak üzere planlanır. Creative tasarımlar; otelinizin mimarisini, konseptini, hedef kitlesini ve fiyat pozisyonunu yansıtacak şekilde hazırlanır. Böylece hem dijitalde hem sahada aynı dünyayı anlatan bir marka kimliği ortaya çıkar.",
+        "whyUs_header8": "Dönüşüm Odaklı Dijital Mimari",
+      "whyUs_text8": "Web sitesi, reklam, sosyal medya ve çağrı merkezi süreçleri tek bir dönüşüm akışı üzerine kurulur. Kullanıcının gördüğü ilk reklamdan, web sitesinde gezerken karşılaştığı içeriklere ve son olarak çağrı veya rezervasyon adımına kadar her dokunuş, daha yüksek dönüşüm üretmek için tasarlanır. Bu bütüncül mimari, yatırımlarınızı dağınık kampanyalardan çıkarıp ölçeklenebilir bir büyüme modeline dönüştürür.",
     "services_button": "Подробнее"
     },
 
@@ -1411,7 +1418,33 @@
   "saved_prefs_loaded": "Сохранённые настройки cookie загружены.",
   "no_saved_prefs": "Сохранённые настройки cookie не найдены. Используются значения по умолчанию.",
    "mandatory_cookies_text": "Обязательные файлы cookie необходимы для правильной работы сайта. Без этих файлов cookie сайт не может функционировать эффективно. Эти файлы cookie необходимы для работы сайта и не могут быть отключены в наших системах. Обычно они устанавливаются только в ответ на действия, которые вы совершаете и которые являются запросом на оказание услуг, например настройку параметров конфиденциальности, вход в систему или заполнение форм. Эти файлы cookie не хранят никакой персональной информации, позволяющей установить личность."
-}
+},
+
+"blogs": {
+    "readMore": "Read more",
+    "what-is-travertine": {
+      "title": "What is Travertine?",
+      "excerpt": "Learn what travertine is, how it forms and where it is used.",
+      "date": "2025-01-10",
+      "readTime": "5 min read",
+      "h1": "What is Travertine?",
+      "body": "Full article content here..."
+    },
+    "travertine-vs-marble": {
+      "title": "Travertine vs Marble: Which is Better?",
+      "excerpt": "We compare travertine and marble in durability, aesthetics and cost.",
+      "date": "2025-02-03",
+      "readTime": "7 min read",
+      "h1": "Travertine vs Marble",
+      "body": "Full article content here..."
+    },
+   "travertine-maintenance-tips": {
+      "title": "Советы по уходу за травертином",
+      "excerpt": "Основные рекомендации по уходу за поверхностями из травертина...",
+      "date": "10.01.2025",
+      "readTime": "5 мин чтения"
+    }
+  }
 
 
 

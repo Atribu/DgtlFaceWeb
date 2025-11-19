@@ -137,7 +137,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="/blog" className="hover:text-gray-300">
+                <a href="/blogs" className="hover:text-gray-300">
                   {t("blog")}
                 </a>
               </li>

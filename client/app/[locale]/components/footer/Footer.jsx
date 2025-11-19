@@ -21,7 +21,7 @@ export default function Footer() {
         {/* Üst bölüm: Logo ve Navigasyon (MOBİL GÖRÜNÜM) */}
         <div className="flex flex-col lg:hidden justify-center items-center h-[380px] w-full">
           <div className="flex flex-col items-center justify-start text-center gap-[14px] font-inter text-white z-[50] h-full">
-              <h3 className="text-[24px] font-bold leading-[120%] -tracking-[0.48px] capitalize">
+              <h3 className="text-[20px] font-bold leading-[120%] -tracking-[0.48px] capitalize">
                {t("header")}{" "}
                 <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
                   {t("span")}
