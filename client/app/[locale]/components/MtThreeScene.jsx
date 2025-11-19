@@ -233,7 +233,7 @@ export default function MyThreeScene() {
   }, []);
 
   return (
-    <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
+    <div style={{ position: "relative", width: "100vw", height: "80vh" }}>
       {/* 3D Canvas */}
       <div
         ref={mountRef}
@@ -246,7 +246,7 @@ export default function MyThreeScene() {
 
       {/* Yazılar + Button */}
       <div
-        className="flex left-[10%] lg:left-[8%] xl:left-[20%] top-[32%] flex-col gap-4 justify-center text-start"
+        className="flex left-[10%] lg:left-[8%] xl:left-[14%] top-[32%] flex-col gap-4 justify-center text-start"
         style={{
           position: "absolute",
           color: "#fff",
@@ -254,12 +254,12 @@ export default function MyThreeScene() {
         }}
       >
         <h1
-          className="lg:w-[60%] xl:w-[50%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[61.6px] text-[24px] lg:text-[28px] font-bold"
+          className="lg:w-[60%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold"
         >
          {t("title")}
         </h1>
         <p
-          className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px]"
+          className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[120%] -tracking-[0.28px]"
         >
           {t("subtitle")}
         </p>
@@ -272,13 +272,14 @@ export default function MyThreeScene() {
         </ul>
         
         
-        <Link href="/#main" className="flex items-center gradient-border-button w-[114px] h-[42px] text-[14px] font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
+       <div className="flex gap-4">
+         <Link href="/antalya-dijital-pazarlama-hizmetleri" className="flex items-center gradient-border-button w-[184px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
         <style jsx>{`
         .gradient-border-button {
           position: relative;
           padding: 3px 0px;
           font-size: 14px;
-          font-weight: 700;
+          font-weight: 600;
           background: transparent;
           color: #fff;
           border: none;
@@ -325,6 +326,61 @@ export default function MyThreeScene() {
           }
         }
       `}</style>
+
+       <Link href="/contact" className="flex items-center gradient-border-button w-[130px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button2")}</Link>
+        <style jsx>{`
+        .gradient-border-button {
+          position: relative;
+          padding: 3px 0px;
+          font-size: 14px;
+          font-weight: 600;
+          background: transparent;
+          color: #fff;
+          border: none;
+          border-radius: 14px;
+          cursor: pointer;
+          z-index: 1;
+          overflow: hidden;
+        }
+        .gradient-border-button::before {
+          content: '';
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          border-radius: inherit;
+          padding: 3px;
+          background: linear-gradient(
+            90deg, 
+            #A754CF, /* pembe ton */
+            #54B9CF, /* altın ton */
+            #547DCF, /* açık yeşil ton */
+            #A754CF  /* tekrar pembe */
+          );
+          background-size: 300%;
+          /* "Maskeleme" tekniği: sadece kenarlarda renk gözüksün */
+          -webkit-mask:
+            linear-gradient(#fff 0 0) content-box, 
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+          pointer-events: none;
+          transition: background-position 0.1s;
+        }
+
+        /* Hover'da gradientin akışını animasyonla */
+        .gradient-border-button:hover::before {
+          animation: moveBorder 3s linear infinite;
+        }
+
+        @keyframes moveBorder {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
+        }
+      `}</style>
+       </div>
       </div>
     </div>
   );

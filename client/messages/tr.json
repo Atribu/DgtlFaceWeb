@@ -14,7 +14,7 @@
     "creative": "Yaratıcı",
     "call_center": "Çağrı Merkezi",
     "pms_ota_management": "PMS & OTA Yönetimi",
-    "search_engine_marketing": "Arama Motoru Pazarlaması",
+    "search_engine_marketing": "SEM – Dijital Reklam Yönetimi",
     "search_engine_optimization": "Arama Motoru Optimizasyonu",
     "social_media_marketing": "Sosyal Medya Pazarlaması",
     "information_technology_software": "Bilgi Teknolojileri ve Yazılım",
@@ -30,7 +30,8 @@
     "Hero": {
       "title": "DGTLFACE: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Partneriniz",
       "subtitle": "DGTLFACE, oteller ve turizm markaları başta olmak üzere büyümek isteyen tüm işletmeler için dijital pazarlama, yazılım ve çağrı merkezi servislerini tek çatı altında birleştiren dijital pazarlama ajansı ve teknoloji partneridir. SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, çok dilli çağrı merkezi ve PMS–OTA entegrasyon çözümleriyle markanızın tüm dijital temas noktalarını uçtan uca yönetiyoruz. Antalya merkezli ekibimizle, performans odaklı kampanyalar, veri analizi ve raporlama altyapıları kurarak hem görü­nür­lü­ğü­nüzü hem de satış ve rezervasyon dönüşümlerinizi sürdürülebilir şekilde artırıyoruz.",
-      "button": "Keşfedin"
+      "button": "Hizmetlerimizi Keşfedin",
+      "button2":"Teklif Al"
     },
     "stats": {
       "value1": "+4X",

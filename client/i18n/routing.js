@@ -182,9 +182,9 @@ export const routing = defineRouting({
     // ARAMA MOTORU PAZARLAMA (SEM) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/sem": { // https://www.dgtlface.com/tr/Services/sem
-      en: "/services/search-engine-marketing",
-      tr: "/antalya-dijital-pazarlama-sem-hizmetleri",
-      ru: "/uslugi/sem",
+      en: "/sem",
+      tr: "/sem",
+      ru: "/sem",
     },
     "/Services/sem/advertisingManagement": { // https://www.dgtlface.com/tr/Services/sem/advertisingManagement
       en: "/services/sem/advertising-management",

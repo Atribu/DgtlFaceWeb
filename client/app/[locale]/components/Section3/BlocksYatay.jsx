@@ -81,7 +81,7 @@ const Section3 = () => {
         <div className="flex flex-col text-start items-start justify-center h-full min-w-[600px] max-w-[800px] -ml-20">
           <h2 className=" flex flex-row lg:flex-col gap-2 text-[18px] lg:text-[20px] leading-[120%]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             
-            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[18px] lg:text-[20px]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
+            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[22px] lg:text-[24px]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
               {t("services_title")}
             </h2>
           </h2>

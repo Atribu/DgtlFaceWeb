@@ -20,7 +20,7 @@ const Section = () => {
          {t("tagline_main")}
         </h2>
         <h4 className="text-[16px] font-inter28 font-semibold mb-3 leading-[28.80px]">
-          DGTLFACE  <span className="text-[16px]  font-inter28 font-bold lg:font-normal leading-[120%] lg:leading-[25.20px] -tracking-[0.32px]"> –   {t("tagline_subtitle")}</span>
+          DGTLFACE  <span className="text-[16px]  font-inter28 font-semibold lg:font-normal leading-[120%] lg:leading-[25.20px] -tracking-[0.32px]"> –   {t("tagline_subtitle")}</span>
         </h4>
         <p className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full">
          {t("tagline_description")}
@@ -37,7 +37,7 @@ const Section = () => {
 
      <div className="flex flex-col relative z-[90] items-end justify-end w-full gap-10">
        <div className="w-[80%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[18px] font-bold font-inter leading-[120%] lg:leading-[28.80px]">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
            Tüm Dijital Süreçler Tek Çatı Altında
             </h4>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
@@ -48,7 +48,7 @@ const Section = () => {
             </div>
           </div>
            <div className="w-[75%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[18px]  font-bold font-inter leading-[120%] lg:leading-[28.80px]">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
            Otel ve Turizm Markalarına Özel Uzmanlık
             </h4>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
@@ -60,7 +60,7 @@ const Section = () => {
             </div>
           </div>
            <div className="w-[70%] px-[3%] relative xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[18px]  font-bold font-inter leading-[120%] lg:leading-[28.80px]">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
           Veri Odaklı Yönetim ve Şeffaf Raporlama
             </h4>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
@@ -72,7 +72,7 @@ const Section = () => {
               
           </div>
           <div className="w-[85%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[18px]  font-bold font-inter leading-[120%] lg:leading-[28.80px]">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
           Performans Odaklı Creative & Video Prodüksiyon
             </h4>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">

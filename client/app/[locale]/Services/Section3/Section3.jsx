@@ -82,6 +82,17 @@ const Section3 = () => {
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
               >
+                 {/* 🔢 Sağ üst köşe index */}
+    <span
+      className={`
+        absolute top-3 right-4 
+        font-mono  tracking-[0.25em]
+        ${activeIndex === index ? "text-white/90 text-[60px]" : "text-white/75 text-[36px]"}
+      `}
+    >
+      {String(index + 1).padStart(2)}
+    </span>
+
                 <div className="flex flex-col mt-4 transition-all duration-500 group-hover:translate-y-[-10px]">
                   <h3 className="text-white text-[16px] lg:text-[18px] font-bold mb-2 lg:mb-4 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
                     {service.title}

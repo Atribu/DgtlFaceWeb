@@ -20,6 +20,42 @@ const Section1 = dynamic(() => import("./components/Section1/Section"), {
   ssr: false,
 });
 
+const faqs = [
+    {
+      question: "DGTLFACE hangi alanlarda hizmet veren bir dijital pazarlama ajansıdır?",
+      answer:
+        "DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative & prodüksiyon, çağrı merkezi hizmetleri, PMS & OTA yönetimi ve veri analizi & raporlama alanlarında çalışan, özellikle oteller ve turizm markalarına odaklanmış bir dijital pazarlama ve teknoloji partneridir.",
+    },
+    {
+      question:
+        "Sadece otellerle mi çalışıyorsunuz, yoksa farklı sektörlerle de çalışıyor musunuz?",
+      answer:
+        "Odak noktamız oteller ve turizm markaları olsa da hizmet, sağlık, gayrimenkul ve B2B alanlarında faaliyet gösteren farklı markalarla da çalışıyoruz. Ancak tüm projelerde, performans odaklı, veri bazlı ve uzun vadeli büyüme yaklaşımını koruyoruz.",
+    },
+    {
+      question: "DGTLFACE ile çalışmaya nasıl başlıyoruz?",
+      answer:
+        "Önce kısa bir dijital durum analizi ve hedef toplantısı yapıyoruz. Ardından SEO, reklam, sosyal medya, web ve operasyon tarafında öncelikli ihtiyaçlarınızı netleştiriyor, size özel bir yol haritası ve teklif hazırlıyoruz. Onayınızın ardından 30–60 günlük ilk aksiyon planını devreye alıyor, düzenli raporlama döngüsüyle süreci şeffaf şekilde yönetiyoruz.",
+    },
+    // {
+    //   question:
+    //     "Otel dijital pazarlama sürecinde hangi metriklere odaklanıyorsunuz?",
+    //   answer:
+    //     "Oteller için; doluluk oranı, direkt rezervasyon oranı, oda başı gelir (RevPAR), kanal bazlı satış dağılımı, web sitesi dönüşüm oranı, çağrı merkezi performansı, OTA görünürlüğü ve misafir memnuniyeti gibi metrikleri takip ediyoruz. Bu verileri Looker Studio panelleriyle birleştirerek yönetim ekibinizin hızlı ve doğru kararlar almasını sağlıyoruz.",
+    // },
+    // {
+    //   question:
+    //     "DGTLFACE ile çalışmak için minimum bütçe veya sözleşme süresi var mı?",
+    //   answer:
+    //     "Bütçe ve süreler markanın hedeflerine, hacmine ve ihtiyaç duyduğu hizmet kapsamına göre değişiyor. Bazı müşterilerimizle kampanya bazlı kısa dönem projeler, bazılarıyla ise 12 ay ve üzeri iş ortaklıkları yürütüyoruz. Temel hedefimiz, ayırdığınız bütçeyi gider değil, ölçülebilir yatırım haline getirmek.",
+    // },
+    {
+      question: "Hangi dillerde hizmet veriyorsunuz?",
+      answer:
+        "Dijital pazarlama, SEO, SEM ve yazılım tarafında ağırlıklı olarak Türkçe ve İngilizce çalışıyoruz. Otel ve çağrı merkezi projelerinde ise Türkçe, İngilizce, Almanca ve Rusça dillerinde misafir ve müşteri iletişimi yönetiyoruz.",
+    },
+  ];
+
 export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center max-w-screen overflow-x-hidden">
@@ -27,12 +63,12 @@ export default function HomePage() {
         <MyThreeScene />
          <Section4 />
      
-        <div className="flex gap-2 w-[95%] mt-20">
+        <div className="flex gap-2 w-[95%] mt-20 ">
           <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[50%] text-center">
-            <button className="gradient-darktext-button relative flex border w-[80%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[14px] lg:text-[20px] font-semibold  leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
-              Dijital Pazarlama Ajansı Değil, Uzun Vadeli Teknoloji Partneriniz
+            <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
+              <h2 className="font-inter28">Dijital Pazarlama Ajansı Değil, Uzun Vadeli Teknoloji Partneriniz</h2>
             </button>
-            <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
+            <p className="text-[12px] w-[90%] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black  mt-[18px] lg:mt-0">
               DGTLFACE, kendini yalnızca bir dijital pazarlama ajansı olarak
               değil; markanızın büyüme hedeflerine odaklanmış bir teknoloji
               partneri olarak konumlandırır. Strateji, kreatif üretim, medya
@@ -46,8 +82,8 @@ export default function HomePage() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[50%] text-center">
-            <button className="gradient-darktext-button relative flex border w-[80%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[14px] lg:text-[20px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
-              Oteller ve Turizm Markaları İçin 360° Dijital Pazarlama Çözümleri
+            <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
+             <h2> Oteller ve Turizm Markaları İçin 360° Dijital Pazarlama Çözümleri</h2>
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
               Otel ve turizm markaları, klasik ajans hizmetlerinden çok daha
@@ -62,11 +98,11 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="flex gap-2 w-[95%] mb-20">
+        <div className="flex gap-2 w-[95%] mb-20 ">
           <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[50%] text-center">
-            <button className="gradient-darktext-button relative flex border w-[80%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[14px] lg:text-[20px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
-              Antalya Merkezli, Global Ölçekte Düşünen Dijital Pazarlama &
-              Teknoloji Ekibi
+            <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px]  lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
+             <h2> Antalya Merkezli, Global Ölçekte Düşünen Dijital Pazarlama &
+              Teknoloji Ekibi</h2>
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
               Antalya merkezli bir dijital pazarlama, SEO, SEM ve otel dijital
@@ -82,8 +118,8 @@ export default function HomePage() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[50%] text-center">
-            <button className="gradient-darktext-button relative flex border w-[80%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[14px] lg:text-[20px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
-              Veri Odaklı Performans, Şeffaf Raporlama ve Sürekli Optimizasyon
+            <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
+             <h2> Veri Odaklı Performans, Şeffaf Raporlama ve Sürekli Optimizasyon</h2>
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
               DGTLFACE’te her kampanya, her kreatif ve her entegrasyon mutlaka
@@ -108,7 +144,7 @@ export default function HomePage() {
 
         <WhyUsSection />
 
-        <QuestionsSection2 color="#140F25"/>
+          <QuestionsSection2 color="#000000" faqs={faqs} />
         
        
         {/* <ServicesCarousel/> */}
