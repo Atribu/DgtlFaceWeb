@@ -11,8 +11,9 @@ const LogoListSection = ({
   cards,
 }) => {
   return (
-    <section className="flex flex-col w-[80%] items-center justify-center -mb-10">
-      {/* ÜST KISIM — METİN + ANİMASYON */}
+    <section className="flex flex-col w-screen items-center justify-center -mb-10 bg-white ">
+      <div className="flex flex-col w-[80%] items-center justify-center ">
+        {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
         {/* SOL METİN */}
         <div className="flex flex-col w-full md:w-[60%]  text-start text-darkBlue font-inter">
@@ -60,6 +61,7 @@ const LogoListSection = ({
           className="-scale-x-100 absolute z-1 opacity-20 right-[63%] -top-[130%]"
           color="#5dafcf"
         />
+      </div>
       </div>
     </section>
   );

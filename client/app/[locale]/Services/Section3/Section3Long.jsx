@@ -5,7 +5,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import ServicesCarouselWrapper from "@/app/[locale]/components/serviceblocks/ServicesCarouselWrapper";
 import { useTranslations } from "next-intl";
 
-const Section3 = ({page}) => {
+const Section3Long = ({page}) => {
   const t = useTranslations(`${page}.servicesData`);
   const t2 = useTranslations(`${page}.ourservices`);
 
@@ -30,6 +30,69 @@ const richComponents = {
   ),
   adreport: (chunks) => (
     <Link href="/sem/reklam-raporlama" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+   sem: (chunks) => (
+    <Link href="/sem" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+  googleads: (chunks) => (
+    <Link href="/sem/google-ads-yonetimi" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+  youtubeads: (chunks) => (
+    <Link href="/sem/youtube-reklam-yonetimi" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // Web
+  website: (chunks) => (
+    <Link href="/yazilim/web-sitesi-gelistirme" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // Creative
+  creative: (chunks) => (
+    <Link href="/creative-ve-tasarim" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+  graphic: (chunks) => (
+    <Link href="/creative/grafik-motion-tasarim" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // Call Center
+  callservice: (chunks) => (
+    <Link href="/cagri-merkezi-hizmetleri" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // PMS & OTA
+  pmsota: (chunks) => (
+    <Link href="/pms-ota-yonetimi" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // Hotel Digital
+  hoteldigital: (chunks) => (
+    <Link href="/otel-dijital-pazarlama" className={linkClass}>
+      {chunks}
+    </Link>
+  ),
+
+  // Analytics genel başlık
+  analysis: (chunks) => (
+    <Link href="/veri-analiz-ve-raporlama" className={linkClass}>
       {chunks}
     </Link>
   ),
@@ -297,7 +360,7 @@ const richComponents = {
   return (
     <div className="flex justify-end items-end w-screen">
       {/* embla viewport + kontrol barını saran relative container */}
-      <div className="relative flex justify-start items-center w-[98%] lg:w-[90%]">
+      <div className="relative flex justify-start items-center w-[98%] lg:w-[95%]">
         {/* Embla viewport */}
         <div
           className="flex justify-start items-center overflow-x-hidden w-full"
@@ -307,7 +370,7 @@ const richComponents = {
             {servicesData.map((service, index) => (
               <div
                 key={index}
-                className="flex flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[270px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
+                className="flex flex-[0_0_90%] lg:flex-[0_0_80%] mr-[6px] lg:mr-[1%] h-[270px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
               >
@@ -323,13 +386,13 @@ const richComponents = {
     </span>
 
                 <div className="flex flex-col mt-4 transition-all duration-500 group-hover:translate-y-[-10px]">
-                  <h3 className="text-white text-[16px] lg:text-[18px] font-bold mb-2 lg:mb-4 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
+                  <h3 className="text-white text-[16px] lg:text-[18px] font-bold mb-0 lg:mb-1 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
                     {service.title}
                   </h3>
                  {service.items.map((itemKey, itemIndex) => (
   <p
     key={itemIndex}
-    className="justify-start text-white text-sm font-normal font-inter leading-[140%] mb-2 transition-opacity duration-500 group-hover:opacity-100 opacity-25 w-[70%]"
+    className="justify-start text-white text-[12px] lg:text-[14px] font-normal font-inter leading-[140%] mb-2 transition-opacity duration-500 group-hover:opacity-100 opacity-25 w-[80%]"
   >
    {itemKey && t.rich(itemKey, richComponents)}
   </p>
@@ -362,7 +425,7 @@ const richComponents = {
             <button
               type="button"
               onClick={scrollPrev}
-              className="flex h-10 w-10 items-center justify-center rounded-full rounded-full border border-white/40 bg-[#140f25]/20 backdrop-blur-sm 
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/40 bg-[#140f25]/20 backdrop-blur-sm 
                  hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
                
@@ -418,4 +481,4 @@ const richComponents = {
   );
 };
 
-export default Section3;
+export default Section3Long;

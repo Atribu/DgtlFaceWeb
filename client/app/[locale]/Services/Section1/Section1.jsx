@@ -31,14 +31,14 @@ const Section1 = () => {
       
       {/* Text Section */}
       <div className='flex flex-col w-full md:w-1/2 items-center justify-center md:items-start text-center md:text-start gap-5 mt-[-30px] md:mt-[-50px] pl-8 md:pl-12 z-10'>
-        <div className="relative">
-          <span className="text-white text-[24px] lg:text-3xl md:text-5xl lg:text-[56px] font-bold font-['Inter'] capitalize leading-tight">{t("servicespage_s1_text1")}<br/></span>
-          <span className="text-[#a754cf] text-[24px] lg:text-3xl md:text-5xl lg:text-[56px] font-bold font-['Inter'] capitalize leading-tight">{t("servicespage_s1_span1")}</span>
-        </div>
-        <div className="hidden lg:flex w-full max-w-md md:max-w-lg text-white text-base md:text-lg font-normal font-['Inter'] leading-6 md:leading-[25.20px]">
+        <h1 className="relative">
+          <span className="text-white text-[24px] lg:text-[26px]  font-semibold font-inter28 capitalize leading-">{t("servicespage_s1_text1")}<br/></span>
+          <span className="text-[#a754cf] text-[24px] lg:text-[26px] font-semibold font-inter28 capitalize leading-[140%]">{t("servicespage_s1_span1")}</span>
+        </h1>
+        <p className="hidden lg:flex w-full max-w-md md:max-w-lg text-white text-[12px] lg:text-[14px] font-normal font-['Inter'] leading-6 md:leading-[130%]">
           {t("servicespage_s1_text2")}
-        </div>
-        <button className="px-6 md:px-8 py-3 md:py-4 rounded-lg md:rounded-[14px] border-2 border-[#54b9cf] inline-flex justify-center items-center gap-2.5 text-white text-sm md:text-base font-bold font-['Inter'] leading-[16.80px] hover:bg-[#54b9cf] transition duration-300">
+        </p>
+        <button className="px-4 md:px-6 py-1 md:py-2 rounded-lg md:rounded-[14px] border-2 border-[#54b9cf] inline-flex justify-center items-center gap-2.5 text-white text-[12px] md:text-[14px] font-bold font-['Inter'] leading-[16.80px] hover:bg-[#54b9cf] transition duration-300">
           {t("servicespage_s1_button1")}
         </button>
       </div>

@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import Contact from "../../components/Section6/ContactMain.jsx";
 import QuestionsSection2 from "../../components/subPageComponents/QuestionSection2";
 import Section3 from "../../Services/Section3/Section3";
+import Link from "next/link";
 
 const MyThreeScene = dynamic(() => import("../../components/MtThreeScene"), {
   ssr: false,
@@ -69,15 +70,15 @@ export default function HomePage() {
               <h2 className="font-inter28">Dijital Pazarlama Ajansı Değil, Uzun Vadeli Teknoloji Partneriniz</h2>
             </button>
             <p className="text-[12px] w-[90%] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black  mt-[18px] lg:mt-0">
-              DGTLFACE, kendini yalnızca bir dijital pazarlama ajansı olarak
-              değil; markanızın büyüme hedeflerine odaklanmış bir teknoloji
-              partneri olarak konumlandırır. Strateji, kreatif üretim, medya
+              DGTLFACE, kendini yalnızca bir <span className="font-bold">dijital pazarlama ajansı</span> olarak
+              değil; markanızın büyüme hedeflerine odaklanmış bir <span className="font-bold">teknoloji
+              partneri</span> olarak konumlandırır. Strateji, kreatif üretim, medya
               satın alma, yazılım ve çağrı merkezi ekiplerini aynı masa
               etrafında toplayarak; kampanyalarınızı, web sitenizi, PMS–OTA
               altyapınızı ve müşteri iletişiminizi tek bir çatı altında yönetir.
               Böylece dağınık ajans yapılarının oluşturduğu veri kopukluğunu
-              ortadan kaldırır, tüm kanallarda tutarlı bir marka deneyimi ve
-              ölçülebilir sonuç üretiriz. Kararları sezgiyle değil, gerçek
+              ortadan kaldırır, tüm kanallarda <span className="font-bold">tutarlı bir marka deneyimi ve
+              ölçülebilir sonuç</span> üretiriz. Kararları sezgiyle değil, gerçek
               zamanlı veri ve raporlarla almanızı sağlarız.
             </p>
           </div>
@@ -87,11 +88,11 @@ export default function HomePage() {
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
               Otel ve turizm markaları, klasik ajans hizmetlerinden çok daha
-              fazlasına ihtiyaç duyar: doluluk oranı, RevPAR, direkt rezervasyon
-              oranı, OTA görünürlüğü ve misafir memnuniyeti gibi metrikler her
-              gün değişir. DGTLFACE, bu dinamik yapıya uygun olarak; SEO , SEM ,
-              Sosyal Medya Yönetimi , PMS & OTA Yönetimi , Çağrı Merkezi
-              Hizmetleri ve Veri Analizi & Raporlama çözümlerini bir araya
+              fazlasına ihtiyaç duyar: <span className="font-bold">doluluk oranı, RevPAR, direkt rezervasyon
+              oranı, OTA görünürlüğü ve misafir memnuniyeti</span> gibi metrikler her
+              gün değişir. DGTLFACE, bu dinamik yapıya uygun olarak; <Link href="/Services/seo" className="text-[#58b5cf] font-semibold">SEO</Link> , <Link href="/Services/sem" className="text-[#8978cf] font-semibold">SEM</Link> ,
+             <Link href="/Services/smm" className="text-[#58b5cf] font-semibold"> Sosyal Medya Yönetimi</Link> , <Link href="/Services/pms" className="text-[#58b5cf] font-semibold">PMS & OTA Yönetimi </Link>, <Link href="/Services/callcenter" className="text-[#58b5cf] font-semibold">Çağrı Merkezi
+              Hizmetleri</Link> ve <Link href="/Services/digitalAnalysis" className="text-[#58b5cf] font-semibold">Veri Analizi & Raporlama</Link> çözümlerini bir araya
               getirir. Tüm dijital kanallarda tek hedefe kilitleniriz: doğru
               misafiri, doğru zamanda, doğru kanaldan kazanmak.
             </p>
@@ -105,8 +106,8 @@ export default function HomePage() {
               Teknoloji Ekibi</h2>
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
-              Antalya merkezli bir dijital pazarlama, SEO, SEM ve otel dijital
-              dönüşüm ajansı olarak; turizm ekosisteminin ritmini, sezon
+              Antalya merkezli bir <span className="font-bold">dijital pazarlama, SEO, SEM ve otel dijital
+              dönüşüm ajansı</span> olarak; turizm ekosisteminin ritmini, sezon
               dinamiklerini, bölgesel hedef kitle davranışlarını ve rekabet
               koşullarını yakından biliyoruz. Ancak bakış açımız yalnızca lokal
               pazara değil, global misafir davranışlarına da uzanıyor. Çok dilli
@@ -114,7 +115,7 @@ export default function HomePage() {
               reklam kampanyaları ve OTA iş birlikleriyle markanızı sadece
               bölgenizde değil, hedeflediğiniz tüm pazarlarda görünür kılıyoruz.
               Yerel içgörüyü, global performans bakış açısıyla birleştirerek
-              ölçeklenebilir büyüme kurguları üretiyoruz.
+              <span className="font-bold"> ölçeklenebilir büyüme kurguları</span>  üretiyoruz.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-[32px] lg:w-[50%] text-center">
@@ -123,21 +124,21 @@ export default function HomePage() {
             </button>
             <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-[18px] lg:mt-0">
               DGTLFACE’te her kampanya, her kreatif ve her entegrasyon mutlaka
-              bir veri katmanı ile desteklenir. Looker Studio Raporlama , SEM
-              Reklam Raporlama , SEO Performans Raporlama ve çağrı merkezi KPI
+              bir <span className="font-bold">veri katmanı</span> ile desteklenir. <Link href="/Services/digitalAnalysis" className="text-[#58b5cf] font-semibold">Looker Studio Raporlama</Link> , 
+              <Link href="/Services/sem" className="text-[#58b5cf] font-semibold">SEM Reklam Raporlama</Link> , <Link href="/Services/seo" className="text-[#58b5cf] font-semibold">SEO Performans Raporlama</Link> ve çağrı merkezi KPI
               panelleri ile tüm kanallardaki performansınızı tek ekrandan takip
               edebilir hale getiriyoruz. Sadece rapor sunmuyor, veriyi
-              okunabilir hale getirip “Bugün neyi değiştirmeliyiz ki yarın daha
-              fazla satış / rezervasyon alalım?” sorusuna yanıt üretiyoruz.
-              Böylece stratejileriniz statik değil, sürekli optimize edilen
-              yaşayan yapılar haline geliyor.
+              okunabilir hale getirip <span className="">“Bugün neyi değiştirmeliyiz ki yarın daha
+              fazla satış / rezervasyon alalım?”</span> sorusuna yanıt üretiyoruz.
+              Böylece stratejileriniz statik değil, <span className="font-bold">sürekli optimize edilen
+              yaşayan yapılar</span> haline geliyor.
             </p>
           </div>
         </div>
 
 
          <BlocksYatay />
-        <Section3 />
+        <Section3 page="Homepage"/>
         <Partners />
         <Section1 />
            <Section2 />

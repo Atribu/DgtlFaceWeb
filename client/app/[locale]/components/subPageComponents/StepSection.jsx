@@ -47,7 +47,7 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText }) =
   }, [emblaApi]);
 
   return (
-    <div className="flex w-screen h-auto items-center justify-center">
+    <div className="flex w-screen h-auto items-center justify-center z-[99]">
       <div className="flex flex-col items-center justify-center w-[90%] xl:w-[90%] gap-[34px] lg:gap-[68px] font-inter">
         {/* Başlık */}
         <div className="flex flex-col items-center justify-center text-center w-full lg:w-[70%] gap-[6px] lg:gap-[12px] text-[#140F25] ">
@@ -66,15 +66,15 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText }) =
               {servicesData.map((card, index) => (
                 <div
                   key={card.id ?? index}
-                  className="flex-[0_0_100%] md:flex-[0_0_72%] w-full"
+                  className="flex-[0_0_100%] md:flex-[0_0_72%] w-full group"
                 >
                   {/* === Kart dizaynı — olduğu gibi korundu === */}
                   <div
                     data-property-1="Default"
-                    className="group h-[83px] md:h-[300px] relative bg-[#130b29] rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden text-white w-full"
+                    className=" h-[83px] md:h-[300px] relative bg-[#130b29] rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden text-white w-full "
                   >
                     <div className="w-[90%] lg:w-[582px] h-80 opacity-50 pointer-events-none bg-[radial-gradient(ellipse_10.32%_6.01%_at_75.86%_80.09%,_#54B9CF_0%,_#547CCF_50%,_rgba(20,_12,_41,_0)_100%)]" />
-                    <div className="w-[90%] lg:w-[600px] h-48 left-[-4px] top-[114px] absolute bg-gradient-to-b pointer-events-none from-gray-900/0 to-gray-900" />
+                    <div className="w-[90%] lg:w-[900px] h-48 left-[-4px] top-[114px] absolute bg-gradient-to-b pointer-events-none from-gray-900/0 to-gray-900" />
                     <img
                       className="w-[300px] lg:w-[619px] min-h-80 left-[-4px] top-[-9px] absolute mix-blend-overlay pointer-events-none"
                       alt=""

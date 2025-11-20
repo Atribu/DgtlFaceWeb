@@ -89,13 +89,13 @@ const MainBanner = ({header,text, span, buttonText}) => {
             
           </div>
 
-          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button w-[124px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px]">
+          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button min-w-[124px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px] whitespace-nowrap">
             {buttonText}
           </button>
           <style jsx>{`
             .gradient-border-button {
               position: relative;
-              padding: 3px 0px;
+              padding: 3px 10px;
               font-size: 14px;
               font-weight: 700;
               background: transparent;

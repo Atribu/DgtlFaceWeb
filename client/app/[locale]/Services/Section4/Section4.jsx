@@ -14,25 +14,25 @@ const Section4 = () => {
   ];
 
   return (
-    <div className='lg:mb-12  lg:mt-36 flex flex-col w-screen items-center justify-center'>
-       <h3 className='text-[24px] lg:text-[48px] mb-[24px] lg:mb-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> {t("servicespage_s4_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("servicespage_s4_span1")}</span></h3>
+    <div className='lg:mb-5  lg:mt-0 flex flex-col w-screen items-center justify-center'>
+       <h2 className='text-[22px] lg:text-[24px] mb-[24px] lg:mb-[48px] text-darkBlue font-semibold leading-[120%] -tracking-[0.48px] '> {t("servicespage_s4_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("servicespage_s4_span1")}</span></h2>
       <div className='grid grid-cols-2 lg:flex items-center justify-center gap-[24px] text-white w-[90%]'>
-            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+            <div className='flex bg-darkBlue px-[15px] py-[8px] lg:px-[18px] lg:py-[15px] items-center justify-center text-center rounded-[22px] text-[12px] lg:text-[14px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>{t("servicespage_s4_chip1_header")}</p>
                <LineSvg className="flex" width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>01</span>
             </div>
-            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+            <div className='flex bg-darkBlue  px-[15px] py-[8px] lg:px-[18px] lg:py-[15px] items-center justify-center text-center rounded-[22px] text-[12px] lg:text-[14px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>{t("servicespage_s4_chip2_header")}</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>02</span>
             </div>
-            <div className='flex bg-darkBlue  px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+            <div className='flex bg-darkBlue  px-[15px] py-[8px] lg:px-[18px] lg:py-[15px] items-center justify-center text-center rounded-[22px] text-[12px] lg:text-[14px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>{t("servicespage_s4_chip3_header")}</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>03</span>
             </div>
-            <div className='flex bg-darkBlue px-[20px] py-[10px] lg:px-[24px] lg:py-[24px] items-center justify-center text-center rounded-[22px] text-[15px] lg:text-[24px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
+            <div className='flex bg-darkBlue px-[15px] py-[8px] lg:px-[18px] lg:py-[15px] items-center justify-center text-center rounded-[22px] text-[12px] lg:text-[14px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>{t("servicespage_s4_chip4_header")}</p>
                 <LineSvg className="flex"  width={3} height={27}/>
                 <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>04</span>
@@ -42,16 +42,16 @@ const Section4 = () => {
       {/* Tuşu Kartların Altına Yerleştir */}
       <div className="flex justify-center mt-8">
         <button
-          className="gradient-border-button w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px]"
+          className="gradient-border-button w-[114px] h-[38px] justify-center font-inter leading-[16.8px] tracking-[-0.28px]"
         >
          {t("servicespage_s4_button_explore")}
         </button>
       </div>
 
       {/* Pricing Section */}
-      <div className='flex flex-col items-center justify-center gap-5 mt-[67px] lg:mt-32 w-[90%]'>
-        <div className="text-center justify-center text-[#140f25] text-[24px] lg:text-[56px] font-bold font-['Inter'] capitalize leading-[120%] lg:leading-[61.60px]"> {t("servicespage_s4_pricing_header")}</div>
-        <div className="w-[86%] md:w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-['Inter'] leading-[130%] lg:leading-tight -tracking-[0.42px] lg:tracking-[0.28px]">{t("servicespage_s4_pricing_text")}</div>
+      <div className='flex flex-col items-center justify-center gap-1 mt-[20px] lg:mt-16 w-[90%]'>
+        <h3 className="text-center justify-center text-[#140f25] text-[20px] lg:text-[22px] font-semibold font-inter28 capitalize leading-[120%] lg:leading-[61.60px]"> {t("servicespage_s4_pricing_header")}</h3>
+        <p className="w-[86%] md:w-[448px] text-center justify-start text-[#140f25] text-sm font-normal font-inter28 leading-[130%] lg:leading-tight -tracking-[0.42px] lg:tracking-[0.28px]">{t("servicespage_s4_pricing_text")}</p>
       </div>
 
       {/* Tuşu En Alta Yerleştir */}

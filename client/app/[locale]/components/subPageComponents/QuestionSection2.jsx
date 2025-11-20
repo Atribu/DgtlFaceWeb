@@ -59,7 +59,7 @@ const QuestionsSection2 = ({ color , faqs }) => {
         className={`flex flex-col w-[100%] lg:w-[50%] items-center justify-center text-center gap-[10px] lg:gap-[16px]`}
       >
         <h2
-          className={`text-[22px] lg:text-[24px] font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.64px] mb-[14px] lg:mb-[16px] text-darkBlue`}
+          className={`text-[22px] lg:text-[24px] font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.64px] mb-[14px] lg:mb-[16px]  text-${color}`}
         >
           DGTLFACE Hakkında{" "}
           <span className="bg-gradient-to-r from-[#547DCF] to-[#A754CF] bg-clip-text text-transparent">
@@ -80,7 +80,7 @@ const QuestionsSection2 = ({ color , faqs }) => {
                 px-[20px] lg:px-[32px] py-[14.5px] 
                 w-[90%] md:w-[650px] lg:w-[720px]
                 border gradient-border-button rounded-[20px]
-                !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] text-darkBlue
+                !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px]  text-${color}
                 ${
                   isOpen
                     ? "max-h-[260px] translate-y-0"
@@ -89,7 +89,7 @@ const QuestionsSection2 = ({ color , faqs }) => {
               `}
             >
               <div
-                className={`flex w-full justify-between items-start text-darkBlue`}
+                className={`flex w-full justify-between items-start  text-${color}`}
               >
                 <h3 className="flex whitespace-nowrap text-left">
                   {item.question}
@@ -104,7 +104,7 @@ const QuestionsSection2 = ({ color , faqs }) => {
               </div>
 
               <div className="flex items-start text-start justify-center mt-4">
-                <p className={`w-[98%] text-darkBlue`}>{item.answer}</p>
+                <p className={`w-[98%] text-${color}`}>{item.answer}</p>
               </div>
             </div>
           );

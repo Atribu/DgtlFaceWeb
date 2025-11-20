@@ -87,17 +87,155 @@ const Section3 = () => {
           </h2>
 
           <div className="flex flex-col gap-2 w-full">
-            <p className="flex flex-col lg:hidden font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight w-full"> 
-             {t("services_text1")}
-              <br></br>
-              <span className="opacity-50 line-clamp-2">
-              {t("services_text2")}
-              </span>
-            </p>
 
-            <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex ">
-               {t("services_text1")}
-            </p>
+             {/* <p className="inline-flex lg:hidden font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight w-full"> 
+      {t.rich("services_text1", {
+        b: (chunks) => (
+          <span className="font-bold">
+            {chunks}
+          </span>
+        ),
+        seo: (chunks) => (
+          <Link
+            href="/services/seo"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        sem: (chunks) => (
+          <Link
+            href="/services/sem"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        social: (chunks) => (
+          <Link
+            href="/services/social-media"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        web: (chunks) => (
+          <Link
+            href="/services/web-development"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        creative: (chunks) => (
+          <Link
+            href="/services/creative-production"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        callcenter: (chunks) => (
+          <Link
+            href="/services/call-center"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        analytics: (chunks) => (
+          <Link
+            href="/services/analytics-reporting"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+      })}
+    </p> */}
+            
+           
+
+             <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-[145%] -tracking-[0.20px] ">
+      {t.rich("services_text1", {
+        b: (chunks) => (
+          <span className="font-bold">
+            {chunks}
+          </span>
+        ),
+        seo: (chunks) => (
+          <Link
+            href="/services/seo"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        sem: (chunks) => (
+          <Link
+            href="/services/sem"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        social: (chunks) => (
+          <Link
+            href="/services/social-media"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        web: (chunks) => (
+          <Link
+            href="/services/web-development"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        creative: (chunks) => (
+          <Link
+            href="/services/creative-production"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        callcenter: (chunks) => (
+          <Link
+            href="/services/call-center"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        analytics: (chunks) => (
+          <Link
+            href="/services/analytics-reporting"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+      })}
+    </p>
+
             <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight hidden lg:flex ">
               {t("services_text2")}
             </p>

@@ -258,11 +258,15 @@ export default function MyThreeScene() {
         >
          {t("title")}
         </h1>
-        <p
-          className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[120%] -tracking-[0.28px]"
-        >
-          {t("subtitle")}
-        </p>
+        <p className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[120%] -tracking-[0.28px]">
+      {t.rich("subtitle", {
+        strong: (chunks) => (
+          <span className="font-bold">
+            {chunks}
+          </span>
+        ),
+      })}
+    </p>
     
         <ul className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px] list-disc ml-8">
           <li > Otel & turizm odaklı 360° dijital pazarlama</li>
