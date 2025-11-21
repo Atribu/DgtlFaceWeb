@@ -235,7 +235,7 @@ void main() {
 
 `;
 
-function FireballExplosion() {
+function FireballExplosionBlack() {
   const containerRef = useRef(null);
   const guiRef = useRef(null);
 
@@ -244,7 +244,7 @@ function FireballExplosion() {
     let _primitive, mat;
 
     // Tema: beyaz arka plan
-    const Theme = { _darkred: 0xffffff }; 
+    const Theme = { _darkred: 0x080612 }; 
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color(Theme._darkred);
@@ -407,7 +407,7 @@ function FireballExplosion() {
       <div style={{
           position: "absolute",
           zIndex: 10,
-          color: "#000", // İstediğiniz renk
+          color: "#ffffff", // İstediğiniz renk
           fontSize: "22px",
           fontWeight: "bold",
           pointerEvents: "none", // Metne tıklamaları engeller, arka plan ile etkileşim sağlar
@@ -420,4 +420,4 @@ function FireballExplosion() {
   );
 }
 
-export default FireballExplosion;
+export default FireballExplosionBlack;

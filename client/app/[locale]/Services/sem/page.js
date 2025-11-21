@@ -50,69 +50,7 @@ export async function generateMetadata() {
 }
 
 
-const servicesData = [
-  {
-    id: 1,
-    title: "Advertising Management",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/sem/advertisingManagement"
-  },
-  {
-    id: 2,
-    title: "Web Traffic Tracking",
-    subTitle: "Deign Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/sem/webTraffic"
-  },
-  {
-    id: 3,
-    title: "Google Webtools",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/googleWebtools"
-  },
-  {
-    id: 4,
-    title: "Yandex Advertising",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/yandexAdvertising"
-  },
 
-  {
-    id: 5,
-    title: "Google Ads Advertising",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/googleAdsAdvertising"
-  },
-];
 
 const page = () => {
   const t = useTranslations("Sem");
@@ -166,22 +104,22 @@ Bu yapı sayesinde, “Google reklamları ile satış artırma, display reklam o
 
   const cards = [
     {
-      widthClass: "w-[80%]",
+      widthClass: "w-[90%] lg:w-[80%]",
       title: t2("card1title"),
       description: t2("card1description"),
     },
     {
-      widthClass: "w-[75%]",
+      widthClass: "w-[90%] lg:w-[75%]",
       title: t2("card2title"),
       description: t2("card2description"),
     },
     {
-      widthClass: "w-[70%]",
+      widthClass: "w-[90%] lg:w-[70%]",
       title: t2("card3title"),
       description: t2("card3description"),
     },
     {
-      widthClass: "w-[85%]",
+      widthClass: "w-[90%] lg:w-[85%]",
       title: t2("card4title"),
       description: t2("card4description"),
     },
@@ -236,8 +174,10 @@ Bu yapı sayesinde, “Google reklamları ile satış artırma, display reklam o
       introSubtitle={""}
       introDescription={""}
       cards={cards}
+      bgColor="#ffffff"
+      textColor="#140f25"
     />
-      <VerticalSlider/>
+      <VerticalSlider page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
       <Contact/>
     </div>

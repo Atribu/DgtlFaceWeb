@@ -233,7 +233,7 @@ export default function MyThreeScene() {
   }, []);
 
   return (
-    <div style={{ position: "relative", width: "100vw", height: "80vh" }}>
+    <div className="" style={{ position: "relative", width: "100vw", height: "80vh" }}>
       {/* 3D Canvas */}
       <div
         ref={mountRef}
@@ -246,7 +246,7 @@ export default function MyThreeScene() {
 
       {/* Yazılar + Button */}
       <div
-        className="flex left-[10%] lg:left-[8%] xl:left-[14%] top-[32%] flex-col gap-4 justify-center text-start"
+        className="flex left-[4%] lg:left-[9%] xl:left-[12%] top-[28%] lg:top-[32%] flex-col gap-4 justify-center text-start bg-black/40 lg:bg-transparent"
         style={{
           position: "absolute",
           color: "#fff",
@@ -254,14 +254,24 @@ export default function MyThreeScene() {
         }}
       >
         <h1
-          className="lg:w-[60%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold"
+          className="lg:w-[60%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold "
         >
          {t("title")}
         </h1>
-        <p className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[120%] -tracking-[0.28px]">
+        <p className="w-[95%] lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
       {t.rich("subtitle", {
         strong: (chunks) => (
-          <span className="font-bold">
+          <span className="font-extrabold">
+            {chunks}
+          </span>
+        ),
+      })}
+    </p>
+
+    <p className="w-[95%] lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
+      {t.rich("subtitle2", {
+        strong: (chunks) => (
+          <span className="font-extrabold">
             {chunks}
           </span>
         ),
@@ -270,9 +280,9 @@ export default function MyThreeScene() {
     
         <ul className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px] list-disc ml-8">
           <li > Otel & turizm odaklı 360° dijital pazarlama</li>
-          <li>Next.js & React altyapılı yüksek hızlı web siteleri</li>
-          <li>4 dilli çağrı merkezi ve çok kanallı müşteri yönetimi</li>
-          <li>Looker Studio ile şeffaf performans raporlama</li>
+          <li>Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri</li>
+          <li>TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi</li>
+          <li>Looker Studio ile şeffaf, gerçek zamanlı performans raporlama</li>
         </ul>
         
         

@@ -29,7 +29,8 @@
  "Homepage": {
     "Hero": {
       "title": "DGTLFACE: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Partneriniz",
-      "subtitle": "DGTLFACE, oteller ve turizm markaları başta olmak üzere büyümek isteyen tüm işletmeler için dijital pazarlama, yazılım ve çağrı merkezi servislerini tek çatı altında birleştiren dijital pazarlama ajansı ve teknoloji partneridir. SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, çok dilli çağrı merkezi ve PMS–OTA entegrasyon çözümleriyle markanızın tüm dijital temas noktalarını uçtan uca yönetiyoruz. Antalya merkezli ekibimizle, performans odaklı kampanyalar, veri analizi ve raporlama altyapıları kurarak hem <strong>görünürlüğünüzü</strong> hem de <strong>satış ve rezervasyon dönüşümlerinizi</strong> sürdürülebilir şekilde artırıyoruz.",
+      "subtitle": "DGTLFACE, oteller ve turizm markaları başta olmak üzere büyümek isteyen tüm işletmeler için dijital pazarlama, yazılım ve çağrı merkezi hizmetlerini tek çatı altında birleştiren entegre bir <strong> dijital pazarlama ajansı ve teknoloji partneridir.</strong> ",
+      "subtitle2": "SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA entegrasyon hizmetlerimizle markanızın tüm dijital temas noktalarını uçtan uca yönetiyoruz.Antalya merkezli profesyonel ekibimiz, veri odaklı stratejiler ve performans optimizasyonlarıyla <strong> görünürlük, satış ve rezervasyon dönüşümlerini sürdürülebilir şekilde artırır. </strong>",
       "button": "Hizmetlerimizi Keşfedin",
       "button2":"Teklif Al"
     },
@@ -53,61 +54,128 @@
       "list_intro": "",
       "tagline_main": "Neden DGTLFACE?",
       "tagline_subtitle": "Neden DGTLFACE ile Çalışmalısınız?",
-      "tagline_description": "DGTLFACE, klasik ajans modelinden farklı olarak tüm süreçleri tek merkezden ve entegre şekilde yönetir. SEO, reklam, sosyal medya, web geliştirme, PMS–OTA ve çağrı merkezi ekipleri aynı stratejik planın içinde buluşur. Bu yapı, hem iletişim maliyetlerinizi hem de zaman kaybını azaltırken, tüm dijital kanallarda tutarlı bir marka deneyimi ve daha yüksek performans üretir. Sonuç: daha az karmaşa, daha fazla ölçülebilir sonuç."
+      "tagline_description": "DGTLFACE; SEO, reklam, sosyal medya, web geliştirme, PMS–OTA ve çağrı merkezi ekiplerini aynı strateji içinde buluşturan entegre bir dijital partnerdir.",
+      "tagline_span":"Sonuç: Daha az karmaşa, daha yüksek performans, daha hızlı ölçeklenebilirlik."
     },
+
+
     "ourservices": {
+  "intro1": "Her markanın ihtiyacı farklıdır; fakat temel gereksinim aynıdır: <strong>Görünürlük → Etkileşim → Satış → Sadakat</strong>",
+  "lead": "DGTLFACE, tüm bu ihtiyaçları tek bir mimari altında toplar:",
+  "bullet1": "SEO",
+  "bullet2": "SEM",
+  "bullet3": "Sosyal Medya Yönetimi",
+  "bullet4": "Web & Yazılım",
+  "bullet5": "Creative & Prodüksiyon",
+  "bullet6": "Çağrı Merkezi",
+  "bullet7": "PMS & OTA Yönetimi",
+  "bullet8": "Veri Analizi & Raporlama",
+
       "services_title": "DGTLFACE Hizmet Kümeleri ile Uçtan Uca Dijital Yönetim",
      "services_text1": "Markanız için tek bir hizmeti değil, birbiriyle entegre çalışan <b>uçtan uca bir dijital mimariyi</b> kurguluyoruz. Arama motoru görünürlüğünüzü artıran <seo>SEO hizmetleri</seo>, performans odaklı <sem>Google Ads ; SEM</sem>, etkileşimi ve marka algısını güçlendiren <social>Sosyal Medya Yönetimi</social>, hızlı ve güvenli <web>web ; yazılım çözümleri</web>, markanızı sahnede öne çıkaran <creative>creative ; prodüksiyon</creative>, misafir iletişimini yöneten <callcenter>çağrı merkezi</callcenter> ve tüm veriyi anlamlandıran <analytics>raporlama ; veri analizi</analytics> ile noktasal değil, <b>bütüncül bir yaklaşım</b> sunuyoruz.",
       "services_text2": "",
       "services_button": "İncele"
     },
+
+
     "servicesData": {
-      "title1": "SEM – Google Ads ve Dijital Reklamlarla Hızlı Sonuç",
-      "item1_1": "<b>SEM – Dijital Reklam Yönetimi</b> tarafında, arama ağı, görüntülü reklamlar, YouTube video kampanyaları ve <remarketing>remarketing ; display</remarketing> stratejilerini; otel, turizm ve hizmet sektörlerine özel kurguluyoruz. <tagmanager>Dönüşüm takibi ; Tag Manager</tagmanager> ile tüm tıklamaları, formları, rezervasyonları ve çağrıları detaylıca ölçüyor, <adreport>reklam raporlama panelleriyle</adreport> bütçenizin nereye gittiğini net bir şekilde görmenizi sağlıyoruz.",
-      "item1_2": "",
-      "item1_3": "",
+      "title1": "SEM - Google Ads ve Dijital Reklamlarla Hızlı Sonuç",
+      "text1":"SEM içerisinde:",
+      "item1_1": "Arama ağı",
+      "item1_2": "Görüntülü reklamlar",
+      "item1_3": "YouTube reklamları",
+      "item1_4": "Remarketing & Display",
+      "item1_5": "Tag Manager dönüşüm takibi",
+      "item1_6": "Reklam raporlama",
+      "endText1":"Yer alır. Odak: yüksek dönüşüm oranı, düşük maliyet ve maksimum rezervasyon",
       "link1": "/Services/sem",
+
       "title2": "SEO – Organik Görünürlüğü Gelire Dönüştüren Stratejiler",
-       "item2_1": "DGTLFACE, <seoservice>SEO hizmetleri</seoservice> kapsamında teknik SEO, içerik SEO, yerel SEO ve <backlink>dijital otorite (backlink) yönetimi</backlink> sunar. Sitenizin hız, mobil uyumluluk, taranabilirlik, içerik kalitesi ve bağlantı profili gibi tüm unsurlarını Google standartlarına göre optimize ederiz. Özellikle oteller ve turizm markaları için çok dilli yapı, destinasyon bazlı anahtar kelime stratejileri ve <seoreport>SEO raporlama panelleriyle</seoreport> sadece sıralama değil, <b>gerçek organik trafik ve rezervasyon artışı</b> hedefleriz.",
-      "item2_2": "",
-      "item2_3": "",
+      "text2":"SEO içerisinde:",
+       "item2_1": "Teknik SEO",
+      "item2_2": "İçerik SEO",
+      "item2_3": "Yerel SEO",
+      "item2_4": "Backlink & dijital otorite yönetimi",
+      "item2_5": "Çok dilli otel SEO yapıları",
+      "item2_6": "Premium raporlama panelleri",
+      "endText2":"ile organik trafiği rezervasyon ve satışa dönüşen bir kanal haline getiriyoruz.",
       "link2": "/services/seo",
+
+
       "title3": "Sosyal Medya Yönetimi – Marka Hikâyenizi Doğru Kanallarda Anlatın",
-       "item3_1": "<b>Sosyal Medya Yönetimi</b> ile Instagram, Facebook, YouTube ve diğer platformlarda markanız için strateji, <content>içerik üretimi</content>, <reels>reels ; video</reels> ve <ads>reklam yönetimi</ads> sunuyoruz. <plan>İçerik üretimi ve planlama ; strateji</plan> ile aylık takvimlerinizi oluşturuyor, <reels>Reels ; video içerik</reels> ile otellerdeki deneyimi ekranlara taşıyor, <smmreport>analiz ; raporlama</smmreport> ile her içeriğin performansını ölçüyoruz.",
-      "item3_2": "",
-      "item3_3": "",
+      "text3":"SMM altında:",
+       "item3_1": "İçerik Üretimi",
+      "item3_2": "Strateji & Planlama",
+      "item3_3": "Reels & video içerik",
+      "endText3":"ile estetik + performansı birleştiren sosyal medya akışı kuruyoruz.",
       "link3": "/Services/smm",
+
       "title4": "Web & Yazılım – Next.js & React ile Hızlı, Güvenli ve SEO Uyumlu Altyapılar",
-      "item4_1": "<b>Web ; Yazılım Hizmetleri</b> kapsamında; modern, mobil uyumlu, çok dilli ve yüksek performanslı web siteleri geliştiriyoruz. <webdev>Web sitesi geliştirme</webdev>, <cms>CMS entegrasyonu</cms>, <kvkk>KVKK uyumlu çözümler</kvkk>, <server>sunucu ; güvenlik</server> ve <support>bakım ; destek</support> süreçleriyle web sitenizin sadece bugün değil, uzun vadede de hızlı ve güvenli kalmasını sağlıyoruz.",
-      "item4_2": "",
-      "item4_3": "",
+      "text4":"Web & Yazılım çatısı:",
+      "item4_1": "Web Sitesi Geliştirme",
+      "item4_2": "CMS & Panel Entegrasyonu",
+      "item4_3": "KVKK uyumlu yazılım",
+      "item4_4": "Sunucu & güvenlik",
+      "item4_5": "Bakım & destek",
+      "endText4":"ile marka kimliğiniz için modern, hızlı ve güvenli bir dijital vitrin oluşturur.",
       "link4": "/Services/software",
+
+
       "title5": "Creative & Prodüksiyon – Markanız İçin Güçlü Görsel Dünya",
-      "item5_1": "<b>Creative – Tasarım ; Prodüksiyon</b> ekibimiz; grafik tasarım, motion design, <uiux>UI ; UX tasarımı</uiux>, <video>video prodüksiyon</video>, <event>etkinlik çekimleri</event> ve <gift>kurumsal hediye tasarımı</gift> ile markanızın görsel dünyasını uçtan uca tasarlar. Sosyal medya görsellerinden otel tanıtım filmlerine kadar tüm kreatifleri, <b>performans ve marka algısını birlikte yükseltecek</b> şekilde planlıyoruz.",
-      "item5_2": "",
-      "item5_3": "",
+      "text5":"Creative tarafında:",
+      "item5_1": "Grafik tasarım",
+      "item5_2": "Motion design",
+      "item5_3": "UI/UX tasarımı",
+      "item5_4": "Video prodüksiyon",
+      "item5_5": "Etkinlik prodüksiyonu",
+      "item5_6": "Kurumsal hediye tasarımı",
+      "endText5":"markanız için yüksek algılı bir görsel dünya üretir.",
       "link5": "/Services/creative",
+
+
       "title6": "Çağrı Merkezi – 4 Dilli Misafir ve Müşteri İletişimi",
-      "item6_1": "<b>Çağrı Merkezi Hizmetleri</b> ile oteller ve işletmeler için; <call4lang>4 dilli çağrı merkezi</call4lang>, <rezsupport>rezervasyon desteği</rezsupport>, <socialmsg>sosyal medya mesaj yönetimi</socialmsg> ve <aftersales>satış sonrası destek</aftersales> sunuyoruz. <call4lang>4 dilli çağrı merkezi</call4lang> ve <rezsupport>rezervasyon desteği</rezsupport> sayesinde misafirlerinizle telefon, WhatsApp, Instagram DM ve web chat üzerinden profesyonelce iletişim kuruyor; tüm bu süreçleri <callreport>performans analizi</callreport> ile ölçüyoruz.",
-      "item6_2": "",
-      "item6_3": "",
+      "text6":"Çağrı Merkezi modülleri:",
+      "item6_1": "4 dilli çağrı merkezi",
+      "item6_2": "Rezervasyon desteği",
+      "item6_3": "Mesaj yönetimi",
+      "item6_4": "Satış sonrası destek",
+      "item6_5": "Performans analizi",
+      "endText6":"ile misafir iletişim süreçlerini profesyonel hale getirir.",
       "link6": "/Services/callcenter",
+
+
       "title7": "PMS & OTA – Oteller İçin Entegre Satış ve Operasyon Yönetimi",
-       "item7_1": "<b>PMS ; OTA Yönetimi</b> hizmetimiz; <pms>PMS kurulum ; destek</pms>, <ota>OTA entegrasyonu</ota>, <channel>kanal yönetimi</channel>, <online>online satış optimizasyonu</online> ve <rez>PMS ; rezervasyon yönetimi</rez> süreçlerini kapsar. Böylece sadece pazarlama tarafında değil, operasyon ve gelir yönetiminde de markanızın yanında olan <b>gerçek bir otel teknoloji partneri</b> olarak çalışıyoruz.",
-      "item7_2": "",
-      "item7_3": "",
+      "text7":"PMS & OTA Yönetimi:",
+       "item7_1": "PMS kurulum",
+      "item7_2": "OTA entegrasyonu",
+      "item7_3": "Kanal yönetimi",
+       "item7_4": "Online satış optimizasyonu",
+        "item7_5": "Rezervasyon yönetimi",
+        "endText7":"ile otelin hem satış hem operasyon tarafını dijitalleştirir.",
       "link7": "/Services/pms",
+
+
       "title8": "Veri Analizi & Raporlama – Kararları Tahminle Değil, Verilerle Alın",
-     "item8_1": "<b>Veri Analizi ; Raporlama</b> başlığı altında; <looker>Looker Studio raporlama</looker>, <benchmark>benchmark analizi</benchmark>, <salesreport>satış ; dönüşüm raporları</salesreport> ve <kvkkreport>KVKK ; veri güvenliği raporlama</kvkkreport> çözümleriyle tüm kanallardaki performansınızı tek çatı altında topluyoruz. Böylece SEO, SEM, SMM, OTA, PMS ve çağrı merkezi verilerini aynı panelde görebilir, <b>gelişim alanlarınızı net biçimde tespit</b> edebilirsiniz.",
-      "item8_2": "",
-      "item8_3": "",
+      "text8":"Veri Analizi  altında:",
+     "item8_1": "Looker Studio",
+      "item8_2": "Benchmark",
+      "item8_3": "Satış & dönüşüm raporları",
+       "item8_4": "KVKK & veri güvenliği raporları",
+       "endText8":"ile tüm dijital ekosistemi tek panelde şeffaflaştırıyoruz.",
       "link8": "/Services/smm",
+
       "title9": "Otel Dijital Dönüşümü – 360° Strateji, Operasyon ve Teknoloji",
-    "item9_1": "<b>Otel Dijital Pazarlama ; Dönüşüm</b> hizmetimiz, oteller için SEO, sosyal medya, reklam yönetimi, OTA performansı, PMS entegrasyonları ve çok dilli çağrı merkezi çözümlerini birleştirir. <hotelseo>Otel SEO</hotelseo>, <hotelsmm>Otel sosyal medya yönetimi</hotelsmm>, <hotelads>Otel reklam yönetimi</hotelads>, <hotelota>OTA yönetimi</hotelota>, <hotelpms>PMS entegrasyonu</hotelpms> ve <hotelcall>rezervasyon çağrı merkezi</hotelcall> ile oteliniz için tam kapsamlı bir dijital dönüşüm ekibi gibi çalışıyoruz.",
-      "item9_2": "",
-      "item9_3": "",
+      "text9":"Otel Dijital Pazarlama ( /tr/otel-dijital-pazarlama ):",
+    "item9_1": "Otel SEO",
+      "item9_2": "Otel SMM",
+      "item9_3": "Otel reklam yönetimi",
+       "item9_4": "OTA yönetimi",
+        "item9_5": "PMS entegrasyonu",
+         "item9_6": "Çağrı merkezi",
+         "endText9":"modülleriyle oteller için tam kapsamlı dijital dönüşüm mimarisi oluşturur.",
       "link9": "/Services/software"
     },
+
     "whyussection": {
       "whyUs_header1": "Neden DGTLFACE: Performans Odaklı Yaklaşım",
       "whyUs_text1": "Markanız ile müşteri kitleniz arasında uyumlu ve sonuç odaklı bir ilişki inşa ediyoruz. Dijital ortamda sadece trafik değil, somut satış dönüşümleri ve marka itibarı artışı hedefliyoruz. Satış kârı ve dönüşümdeki hassas dengeyi üstün çözümlerimizle sunuyoruz.",
@@ -716,6 +784,32 @@
       "card2description":"Google Ads bütçenizi “günlük şu kadar harcayalım” basitliğinde değil; kampanya, ülke, cihaz, dil ve kanal bazlı performans verilerine göre yönetiriz. Hangi kampanyanın daha düşük dönüşüm maliyetiyle daha fazla satış getirdiğini görür; bütçeyi oraya kaydırır, işe yaramayan kombinasyonları hızla kapatırız. Böylece “Google Ads bütçe optimizasyonu, dönüşüm maliyeti düşürme, küçük işletmeler için Google Ads, oteller için Google Ads stratejisi” gibi konular, teoride kalmaz; günlük operasyonun doğal parçasına dönüşür.",
       "card3description":"SEM hizmetlerimizde antalya dijital reklam ajansı, google ads yönetimi antalya, antalya sem ajansı gibi lokal aramalarda da güçlü bir uzmanlığa sahibiz. Antalya, Belek, Side, Kemer, Alanya gibi turizm bölgelerinde faaliyet gösteren oteller için; pazar–ülke–mevsim dinamiklerine uygun kampanya planları çıkarırız. Bu sayede hem lokal hem uluslararası pazarda bölgenizin dijital vitrini haline gelmenizi sağlarız.",
       "card4description":"Dijital reklam bütçeniz arttıkça, dönüşüm takibi ve veri bütünlüğü konusu daha kritik hale gelir. DGTLFACE, Google Tag Manager, GA4, Looker Studio, çağrı takibi, CRM ve rezervasyon sistemlerinizle entegrasyon gibi teknik konuları sizin yerinize yönetir. Böylece siz yalnızca “hangi kanal ne kadar kazandırıyor, hangi kampanyayı büyütmeliyiz, hangisini durdurmalıyız?” gibi yönetici sorularına odaklanırsınız."
+    },
+
+    "verticalSlider":{
+      "header":" Mikro Konular -",
+      "header2":"SEM Yapısını Derinleştiren Alanlar",
+
+      "title1":"Manuel mi, Otomatik mi? ",
+      "span1":"Teklif Stratejilerinde Doğru Denge",
+      "text1":"DGTLFACE, kampanyalarınızda manuel ve otomatik teklif stratejilerini karıştırarak kontrol + otomasyon dengesini yakalar. Düşük veri hacmi olan kampanyalarda kontrollü manuel stratejiler, güçlü veri toplayan kampanyalarda ise hedef ROAS, hedef CPA gibi akıllı stratejiler kullanır. Böylece sistemi hem besler hem yönetir, Google’ın algoritmasını markanız lehine çalıştırırız.",
+      "button1":"Detaylı Bilgi",
+
+       "title2":"Açılış Sayfası ve Reklam Metni",
+      "span2":"Uyumunun Önemi",
+      "text2":"Başarılı bir Google Ads kampanyası, yalnızca paneldeki ayarlarla değil, landing page kalitesi ve içerik uyumu ile de ilgilidir. DGTLFACE, reklam metinlerinizde kullandığınız vaatlerin, açılış sayfasında karşılık bulmasını sağlar; sayfa hızını, mobil uyumluluğu ve içerik yapısını SEM performansına göre optimize eder. Bu sayede hem kalite puanı yükselir hem de dönüşüm oranlarınız artar.",
+      "button2":"Keşfet",
+
+       "title3":"Remarketing Hunisi ile Kaybedilen Kullanıcıları ",
+      "span3":"Geri Kazanmak",
+      "text3":"Siteyi ziyaret edip rezervasyon yapmadan çıkan, formu doldurmadan ayrılan veya sadece fiyat bakan kullanıcılar için farklı remarketing mesajları hazırlarız. Erken rezervasyon, son dakika fırsatları, özel teklif veya sosyal kanıt içeren kreatiflerle bu kullanıcıları yeniden hedefler, dijital reklam çalışmalarınızın gerçek potansiyelini ortaya çıkarırız.",
+      "button3":"Detaylı Bilgi",
+
+       "title4":"YouTube ve Video Reklamların ",
+      "span4":"Satıştaki Rolü",
+      "text4":"YouTube ve kısa video formatları, özellikle otel ve deneyim odaklı sektörlerde satışa giden yolun duygusal kısmını oluşturur. DGTLFACE, “otel tanıtım videoları, YouTube short ads yönetimi, turizm YouTube kampanyaları” gibi alanlarda ürettiği kreatiflerle, misafirin karar sürecinde markanızı akılda kalıcı hale getirir; ardından arama ve remarketing kampanyalarıyla bu ilgiyi gerçek rezervasyona dönüştürür.",
+      "button4":"İncele"
+
     }
     
   },
@@ -1088,18 +1182,29 @@
     "googleadsadvertising_subbanner_header": "Google Ads Kampanya Yönetimi -",
     "googleadsadvertising_subbanner_header2": "Profesyonel Optimizasyon Hizmeti",
     "googleadsadvertising_subbanner_text": "DGTLFACE, Google Ads yönetimi süreçlerini yalnızca tıklama üretmek için değil,  satış ve rezervasyon getiren bir performans kanalı  yaratmak için kurgulayan profesyonel bir Google reklam ajansıdır. Arama ağı, marka ve generic kampanyalar, turizm & otel odaklı aramalar, cihaz ve ülke bazlı hedeflemeler ile bütçenizi rastgele tıklamalara değil, ölçülebilir dönüşümlere yönlendiririz. “Google Ads reklam maliyetini nasıl düşürürüm, Google Ads dönüşüm oranı artırma teknikleri, satış odaklı Google reklam ayarları nasıl olmalı?” gibi sorularınızı; strateji, kurulum, optimizasyon ve raporlama adımlarını tek çatı altında toplayarak cevaplarız. Böylece Google Ads, markanız için kontrol edilebilir, şeffaf ve ölçeklenebilir bir gelir motoruna dönüşür.",
+    "googleadsadvertising_subbanner_header3": "Google Ads Yönetimi ile Dönüşüm Odaklı Büyüme",
+    "googleadsadvertising_subbanner_text2":"Google Ads, satın almaya en yakın anda arama yapan kullanıcıları yakalayabildiğiniz en kritik performans kanallarından biridir. DGTLFACE olarak, kampanyalarınızı gösterim ve tıklama sayısından çok, dönüşüm sayısı, dönüşüm başına maliyet ve üretilen gelir üzerinden okuruz. Anahtar kelime kurgusu, reklam metinleri, açılış sayfaları, hedef kitleler ve teklif stratejileri; “Bu kampanya bana kaç satış / rezervasyon getirdi ve kaça mal oldu?” sorusuna yanıt verecek şekilde tasarlanır. Zamanla hesabınız; test eden, öğrenen ve kendini devamlı geliştiren canlı bir performans mimarisi haline gelir.",
+    
+    "googleadsadvertising_stepheader":"Hedef Kitle ve Anahtar Kelime Stratejisi",
+    "googleadsadvertising_steptext":"Başarılı bir Google Ads profesyonel yönetimi, doğru anahtar kelime ve doğru hedef kitle seçimiyle başlar. DGTLFACE, sektörünüzü, rakiplerinizi ve arama niyetlerini analiz ederek; satın alma niyetine en yakın kelime setlerini çıkarır. Geniş / sıralı / tam eşleme kombinasyonları Negatif anahtar kelime listeleri Lokasyon, dil, cihaz ve zaman hedeflemesi ile bütçenizi alakasız tıklamalardan koruruz. “Google Ads anahtar kelime stratejileri, Google Ads arama ağı optimizasyonu, Google reklamlarda kalite puanı artırma” gibi başlıkları pratikte uygulayarak kalite puanınızı yükseltir, tıklama başına maliyetleri aşağı çeker, dönüşüm oranlarınızı yukarı taşırız.",
+    
+    "googleadsadvertising_step1_header": "Google Ads Reklam Maliyetini Nasıl Düşürürüz?",
+    "googleadsadvertising_step1_text": "Google Ads maliyetini düşürmek, sadece teklifleri kısmak demek değildir. DGTLFACE, maliyet optimizasyonunda: Alakasız arama terimlerini temizleyerek, Düşük performanslı anahtar kelimeleri eleyerek, Reklam metinlerini ve uzantıları güçlendirerek, Açılış sayfası deneyimini iyileştirerek çalışır. Böylece hem tıklama başı maliyet (CPC) hem de dönüşüm başı maliyet (CPA) tarafında iyileşme sağlanır. Sonuç: Aynı bütçeyle daha fazla satış ve rezervasyon.",
 
-    "googleadsadvertising_step1_header": "Anahtar Kelime ve Hedef Kitle Araştırma Hizmetleri",
-    "googleadsadvertising_step1_text": "Başarılı bir stratejinin temeli araştırmadır. Pazarınızı, rakiplerinizi ve potansiyel müşterilerinizi analiz ederek kampanyalarınız için en yüksek dönüşüm potansiyeline sahip anahtar kelimeleri ve kitle segmentlerini belirleriz.",
+    "googleadsadvertising_step2_header": "Satış Odaklı Google Reklam Ayarları",
+    "googleadsadvertising_step2_text": "Her kampanyanın amacı aynı değil. Bazı kampanyalar marka bilinirliğine, bazıları direkt satışa oynar. DGTLFACE, satış odaklı kampanyalarda: Dönüşüm odaklı teklif stratejileri (hedef CPA, hedef ROAS vb.), Doğru cihaz ve lokasyon kırılımları, Güçlü reklam uzantıları (fiyat, açıklama, site bağlantıları), Net çağrı ifadeleri (Hemen Rezervasyon Yap, Teklif Al vb.) kullanarak Google Ads dönüşüm oranı artırma tekniklerini hesabınıza uygular. Böylece hesabınızda “trafik alan” değil, satış getiren kampanyalar öne çıkar.",
 
-    "googleadsadvertising_step2_header": "İkna Edici Reklam Metni ve Görsel Tasarım",
-    "googleadsadvertising_step2_text": "İkna edici metinleri etkili görsellerle birleştirerek hem dikkat çeken hem de aksiyon aldıran reklamlar üretiriz. Kreatif ekibimiz, Google'ın Kalite Puanını yükselten ve markanıza özel içerikler hazırlar.",
+    "googleadsadvertising_step2_1header": "Oteller ve Turizm Markaları İçin Google Ads Yönetimi",
+    "googleadsadvertising_step2_1text": "Otel ve turizm sektöründe Google Ads, doğru kullanıldığında doluluk ve oda geliri üzerinde doğrudan etkisi olan bir kanal haline gelir. DGTLFACE, otel Google Ads yönetimi ve turizm sektöründe Google reklamları için: Marka adı aramaları (hotel name + region) Destinasyon aramaları (antalya family hotel, kemer all inclusive vb.) Konsept aramaları (spa hotel, luxury resort, aquapark hotel vb.) Kampanya / dönem odaklı aramalar (erken rezervasyon, son dakika vb.) için ayrı kampanya ve reklam grubu kurguları oluşturur. “Otel satış artırma Google Ads, booking entegrasyonlu Google Ads” gibi taleplerde PMS ve OTA altyapınızı da dikkate alarak, direkt rezervasyon kanalınızı güçlendirmeyi hedefleriz.",
 
-    "googleadsadvertising_step3_header": "Ölçeklenebilir Reklam Kampanya Yapılandırma Hizmetleri",
-    "googleadsadvertising_step3_text": "Arama, Görüntülü, Alışveriş ve Maksimum Performans (PMax) kampanyalarını tutarlı mesajlaşma ile kurarak marka bilinirliğini artırır ve nitelikli potansiyel müşteri (lead) üretimini maksimize ederiz.",
+    "googleadsadvertising_step2_2header": "Turizm ve Otel Odaklı Anahtar Kelime Kurgusu",
+    "googleadsadvertising_step2_2text": "Turizmde her ülkenin ve her pazarın arama alışkanlığı farklıdır. DGTLFACE, ülke bazlı arama terimlerini, sezonluk talep dalgalarını ve destinasyon rekabetini detaylı analiz eder. “Otel Google Ads, turizm Google Ads kampanyası, resort ads” gibi yapılarda; kampanyalarınızı ülke, dil ve sezon bazında yeniden segmentler; Almanya, Rusya, İngiltere ve iç pazar için farklı mesaj ve bütçe kurguları oluştururuz.",
 
-    "googleadsadvertising_step4_header": "Google Ads Teklif ve Bütçe Yönetimi",
-    "googleadsadvertising_step4_text": "Kampanyalarınızı ilgili anahtar kelimeler ve doğru kitlelerle buluşturur, teklifleri ve harcamayı performansa göre otomatik optimize ederek en yüksek yatırım getirisini (ROI) hedefleriz. Makine öğrenimi destekli teklif stratejileri kullanırız.",
+    "googleadsadvertising_step5_header": "Dönüşüm Takibi, Tag Manager ve Veri Altyapısı",
+    "googleadsadvertising_step5_text":"Doğru kurgulanmamış bir dönüşüm takibi, en iyi Google Ads kampanyasını bile anlamsız hale getirir. DGTLFACE; Google Tag Manager, Google Analytics 4, form & rezervasyon takibi, telefon tıklama ve WhatsApp tıklama ölçümleriyle veri altyapınızı uçtan uca kurar. “Google Ads reklam maliyetini nasıl düşürürüm?” “Hangi kampanya bana gerçekten satış getiriyor?” “Oteller için Google Ads’te hangi ülkeler daha kârlı?” gibi soruların cevabını, tahminle değil, net veriyle veririz. Bu tarafı detaylı anlatmak için kullanıcıyı /tr/sem/donusum-takibi-tag-manager sayfasına yönlendirebilirsin.",
+
+    "googleadsadvertising_step6_header": "Reklam Raporlama ve Sürekli Optimizasyon",
+    "googleadsadvertising_step6_text":"DGTLFACE, Google Ads raporlamasını klasik “gösterim–tıklama tablosu” olmaktan çıkarır. Looker Studio dashboard’ları ile: Kampanya, reklam grubu, anahtar kelime, cihaz ve ülke bazlı performans, Dönüşüm sayıları ve dönüşüm başı maliyetler, Gelir/veri entegrasyonu varsa ROAS ve kârlılık, tek panelde gösterilir. “Google Ads raporlama, performans analizi, oteller için reklam raporlama” ihtiyacınızı, /tr/sem/reklam-raporlama hizmetiyle birleştirerek çözeriz. Her rapor toplantısında, “Bu ay ne oldu?”dan çok, “Gelecek ay daha fazla satış için ne yapıyoruz?” sorusuna odaklanırız.",
 
     "h4Section":{
       "header":"Neden DGTLFACE ile Google Ads Yönetimi?",
@@ -1110,6 +1215,45 @@
       "card1description":"DGTLFACE, Google Ads’i; SEO, sosyal medya, web & yazılım, PMS–OTA ve çağrı merkezi ile entegre çalışan bir yapı içinde ele alır. Yani sadece panelde butonlara basan bir ekip değil, iş hedeflerinizi anlayan bir performans partneri ile çalışırsınız. Özellikle otel ve turizm projelerinde; sezon, ülke pazarı, OTA dengesi ve misafir davranışı konusundaki tecrübemiz, kampanyalarınızı yalnızca tıklama değil, doluluk ve gelir odaklı yönetmemizi sağlar.",
       "card2description":"Bütçenizi kampanyalara eşit dağıtmak yerine, hangi kampanyanın hangi koşulda daha iyi performans verdiğini analiz ederek kullanırız. Düşük maliyetle yüksek dönüşüm getiren kelimelere bütçe kaydırır, Gereksiz harcama yapan kombinasyonları kapatır, Küçük bütçelerle dahi “deneme yanılma ile para yakma” riskini azaltırız. Bu yaklaşım, hem küçük işletmeler için Google Ads hem de yüksek hacimli otel & turizm hesapları için ciddi avantaj sağlar.",
       "card3description":"Google Ads Antalya, Antalya Google reklam ajansı, Google Ads yönetimi Türkiye, Antalya dijital pazarlama gibi aramalarda aranan deneyim tam olarak burada. Antalya, Belek, Side, Kemer, Alanya gibi destinasyonlarda otel ve turizm markalarıyla çalışıyor olmamız; kampanyalarınızı hem lokal hem global pazarda doğru okumamızı sağlar. Böylece Google Ads kampanyalarınız; sadece teknik olarak doğru değil, sezon ve destinasyon gerçeklerine uygun çalışır."
+    },
+
+     "verticalSlider":{
+      "header":" Mikro Katman -",
+      "header2":"SEM Yapısını Derinleştiren Alanlar",
+
+      "title1":"Manuel ve Otomatik Teklif Stratejilerinde  ",
+      "span1":"Doğru Denge",
+      "text1":"DGTLFACE, Google Ads teklif stratejilerinde tek tarafa yaslanmaz. Veri az olan kampanyalarda manuel teklifler ile ince ayar yaparken, güçlü veri toplayan kampanyalarda hedef CPA / hedef ROAS gibi akıllı stratejileri devreye alır. Böylece hem Google’ın algoritmasından faydalanır, hem de kontrolü elden bırakmadan maliyet–performans dengesini korursunuz.",
+      "button1":"Detaylı Bilgi",
+
+       "title2":"Negatif Anahtar Kelime ve ",
+      "span2":"Trafik Temizliği",
+      "text2":"Başarılı bir hesapta negatif anahtar kelime yönetimi, en az kampanya kurulumu kadar önemlidir. DGTLFACE, düzenli arama terimi analizleriyle alakasız ve düşük niyetli aramaları temizler; bütçenizin sadece işinizle gerçekten ilgili kullanıcılara gitmesini sağlar. Özellikle turizm ve otel dikeyinde, yanlış niyetli aramaları filtrelemek bütçeyi korumanın en hızlı yollarından biridir.",
+      "button2":"Keşfet",
+
+       "title3":"Cihaz, Bölge ve ",
+      "span3":"Saat Bazlı Optimizasyon",
+      "text3":"Tüm kullanıcılar aynı saatte, aynı cihazda ve aynı lokasyonda aynı performansı göstermez. Bu yüzden hesabınızda: Cihaz bazlı (mobil / masaüstü / tablet), Bölge bazlı (ülke, şehir, destinasyon), Saat & gün bazlı performans analizleri yapar; zayıf performanslı kombinasyonları kısar, güçlü olanları büyütürüz. Sonuç olarak bütçeniz, en yüksek dönüşüm potansiyeline sahip alanlara akar.",
+      "button3":"Detaylı Bilgi",
+
+       "title4":"YouTube ve Video Reklamların ",
+      "span4":"Satıştaki Rolü",
+      "text4":"YouTube ve kısa video formatları, özellikle otel ve deneyim odaklı sektörlerde satışa giden yolun duygusal kısmını oluşturur. DGTLFACE, “otel tanıtım videoları, YouTube short ads yönetimi, turizm YouTube kampanyaları” gibi alanlarda ürettiği kreatiflerle, misafirin karar sürecinde markanızı akılda kalıcı hale getirir; ardından arama ve remarketing kampanyalarıyla bu ilgiyi gerçek rezervasyona dönüştürür.",
+      "button4":"İncele"
+    },
+
+    "faq":{
+      "header":"Google Ads Yönetimi Hakkında Sık Sorulan Sorular",
+      "question1":"Google Ads yönetimine başlamadan önce hesabımın incelenmesi gerekiyor mu?",
+      "answer1":"Evet. DGTLFACE olarak yeni bir projeye başlamadan mutlaka mevcut hesap analizi yapıyoruz. Hesabınız varsa önce geçmiş verileri inceliyor, yoksa sektör ve hedef kitlenize göre sıfırdan bir yapı planlıyoruz. Bu analiz, ilk günden itibaren daha kontrollü ve verimli ilerlememizi sağlar.",
+      "question2":"Google Ads ile ne kadar sürede sonuç almaya başlarım?",
+      "answer2":"Rekabet, bütçe ve hedeflere göre değişmekle birlikte, genelde ilk 2–4 hafta test ve öğrenme dönemidir. Bu süreçte veriler toplanır, A/B testleri yapılır. Sonraki dönemde kampanyalar optimize edilerek daha istikrarlı ve ölçeklenebilir bir performans elde edilmeye başlanır.",
+      "question3":"Küçük bütçeyle de profesyonel Google Ads yönetimi almalıyım mı?",
+      "answer3":"Kesinlikle evet. Özellikle küçük bütçelerde yapılan hatalar, paranın çok hızlı boşa harcanmasına yol açabilir. Profesyonel Google Ads optimizasyon hizmeti ile bütçenizi en verimli alanlara yönlendirerek, sınırlı bütçeyle bile anlamlı sonuçlar elde edebilirsiniz.",
+      "question4":"Google Ads yönetiminde sadece Arama Ağı mı kullanıyorsunuz?",
+      "answer4":"Hayır. İhtiyaca göre Display, Discovery, YouTube ve Remarketing kampanyalarını da devreye alıyoruz. Amaç, kullanıcıyı sadece aramada değil; satın alma yolculuğunun farklı noktalarında da yakalamak. Özellikle remarketing ve YouTube, otel ve turizm projelerinde dönüşümü ciddi şekilde destekler.",
+      "question5":"DGTLFACE ile Google Ads yönetimine nasıl başlayabilirim?",
+      "answer5":"Bizimle çalışmak için öncelikle kısa bir tanışma ve hesap inceleme süreci yürütüyoruz. Ardından hedeflerinize, bütçenize ve sektörünüze göre bir Google Ads yol haritası hazırlıyoruz. Onayınız sonrası kurulum, dönüşüm takibi, Tag Manager ve raporlama panellerini devreye alıyor; ilk 30–60 gün agresif optimizasyonla kampanyayı oturtuyoruz."
     }
   },
 

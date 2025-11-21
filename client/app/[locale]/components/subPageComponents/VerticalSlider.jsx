@@ -4,8 +4,8 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 import { useTranslations } from "next-intl";
 
-const VerticalSlider = () => {
-    const t = useTranslations("VerticalSlider");
+const VerticalSlider = ({page, itemCount = 3 }) => {
+    const t = useTranslations(`${page}.verticalSlider`);
 
   const [blocksOrder, setBlocksOrder] = useState([
     "0",
@@ -40,33 +40,15 @@ const VerticalSlider = () => {
     7: "-translate-y-[calc(50%+80px)] z-[20]  -translate-x-[18px]",
   };
 
-  const items = [
-    {
-      header: "Manuel mi, Otomatik mi? ",
-      span: "Teklif Stratejilerinde Doğru Denge",
-      text: "DGTLFACE, kampanyalarınızda manuel ve otomatik teklif stratejilerini karıştırarak kontrol + otomasyon dengesini yakalar. Düşük veri hacmi olan kampanyalarda kontrollü manuel stratejiler, güçlü veri toplayan kampanyalarda ise hedef ROAS, hedef CPA gibi akıllı stratejiler kullanır. Böylece sistemi hem besler hem yönetir, Google’ın algoritmasını markanız lehine çalıştırırız.",
-      button: "Detaylı Bilgi"
-    },
-    {
-      header: "Açılış Sayfası ve Reklam Metni",
-      span: "Uyumunun Önemi",
-      text: "Başarılı bir Google Ads kampanyası, yalnızca paneldeki ayarlarla değil, landing page kalitesi ve içerik uyumu ile de ilgilidir. DGTLFACE, reklam metinlerinizde kullandığınız vaatlerin, açılış sayfasında karşılık bulmasını sağlar; sayfa hızını, mobil uyumluluğu ve içerik yapısını SEM performansına göre optimize eder. Bu sayede hem kalite puanı yükselir hem de dönüşüm oranlarınız artar.",
-      button: "Keşfet"
-    },
-    {
-      header: "Remarketing Hunisi ile Kaybedilen Kullanıcıları",
-      span: "Geri Kazanmak",
-      text: "Siteyi ziyaret edip rezervasyon yapmadan çıkan, formu doldurmadan ayrılan veya sadece fiyat bakan kullanıcılar için farklı remarketing mesajları hazırlarız. Erken rezervasyon, son dakika fırsatları, özel teklif veya sosyal kanıt içeren kreatiflerle bu kullanıcıları yeniden hedefler, dijital reklam çalışmalarınızın gerçek potansiyelini ortaya çıkarırız.",
-      button: "Başlayın"
-    },
-    {
-      header: "YouTube ve Video Reklamların",
-      span: "Satıştaki Rolü",
-      text: "YouTube ve kısa video formatları, özellikle otel ve deneyim odaklı sektörlerde satışa giden yolun duygusal kısmını oluşturur. DGTLFACE, “otel tanıtım videoları, YouTube short ads yönetimi, turizm YouTube kampanyaları” gibi alanlarda ürettiği kreatiflerle, misafirin karar sürecinde markanızı akılda kalıcı hale getirir; ardından arama ve remarketing kampanyalarıyla bu ilgiyi gerçek rezervasyona dönüştürür.",
-      button: "İncele"
-    },
-  
-  ];
+   const items = Array.from({ length: itemCount }, (_, idx) => {
+    const i = idx + 1;
+    return {
+      header: t(`title${i}`),
+      span: t(`span${i}`),
+      text: t(`text${i}`),
+      button: t(`button${i}`),
+    };
+  });
 
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef(null);
@@ -164,7 +146,7 @@ const VerticalSlider = () => {
     setActiveIndex(prev => Math.min(prev + 1, items.length - 1));
   };
 
-  const ITEM_HEIGHT = 180;   // 280 yerine 200
+  const ITEM_HEIGHT = 180;   // 280 yerine 180
 const GAP = 0;    
 
   return (
@@ -189,9 +171,9 @@ const GAP = 0;
         {/* Sol: slider */}
         <div className="flex flex-col gap-6 w-full lg:w-1/2 items-center lg:items-start relative">
           <h2 className="text-[22px] lg:text-[24px] font-bold leading-tight text-center lg:text-left">
-            Mikro Konular -{" "}
+            {t("header")}{" "}
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
-              SEM Yapısını Derinleştiren Alanlar
+               {t("header2")}
             </span>
           </h2>
 
