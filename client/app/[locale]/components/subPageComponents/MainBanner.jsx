@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks"
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
 
-const MainBanner = ({header,text, span, buttonText}) => {
+const MainBanner = ({header,text, span, buttonText, text2}) => {
     const [blocksOrder, setBlocksOrder] = useState([
         "0",
         "1",
@@ -78,13 +78,17 @@ const MainBanner = ({header,text, span, buttonText}) => {
           <h1 className=" flex flex-col gap-2 text-[26px] leading-[120%] font-inter28 font-semibold  pb-1 lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
             
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
-              {header}{span}
+              {header}{" "}{span}
             </span>
           </h1>
 
           <div className="flex flex-col gap-2">
             <p className="font-inter28 text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px]  hidden lg:flex">
             {text}
+            </p>
+
+              <p className="font-inter28 text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px]  hidden lg:flex">
+            {text2}
             </p>
             
           </div>

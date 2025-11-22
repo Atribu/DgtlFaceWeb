@@ -329,6 +329,7 @@ const Section3 = ({ page }) => {
           <div className="flex">
             {servicesData.map((service, index) => (
               <div
+              
                 key={index}
                 className="flex flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[300px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
                 onMouseEnter={() => setActiveIndex(index)}

@@ -300,13 +300,44 @@ const richComponents = {
 };
 
 
+const CARD_COUNT = 9;
+  const MAX_ITEMS = 6;
 
   // 9 service kartını çeken mevcut data yapın
-  const servicesData = Array.from({ length: 9 }, (_, i) => {
+   // JSON'daki veriyi dinamik çıkar
+  const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
     const id = i + 1;
+
+    // --- text / endText var mı? ---
+    const textKey = `text${id}`;
+    const textFullKey = `${page}.servicesData.${textKey}`;
+    const textValue = t(textKey);
+    const hasText = textValue && textValue !== textFullKey ? textKey : null;
+
+    const endTextKey = `endText${id}`;
+    const endTextFullKey = `${page}.servicesData.${endTextKey}`;
+    const endTextValue = t(endTextKey);
+    const hasEndText =
+      endTextValue && endTextValue !== endTextFullKey ? endTextKey : null;
+
+    // --- itemX_Y listesi: 1'den başlayıp ilk boşta dur ---
+    const items = [];
+    for (let j = 1; j <= MAX_ITEMS; j++) {
+      const shortKey = `item${id}_${j}`;
+      const fullKey = `${page}.servicesData.${shortKey}`;
+      const value = t(shortKey);
+
+      // key hiç yoksa veya boşsa -> döngüyü kır
+      if (!value || value === fullKey) break;
+
+      items.push(shortKey);
+    }
+
     return {
       title: t(`title${id}`),
-       items: [1, 2, 3].map((j) => `item${id}_${j}`),
+      textKey: hasText,
+      endTextKey: hasEndText,
+      items,
       link: t(`link${id}`),
     };
   });
@@ -389,14 +420,33 @@ const richComponents = {
                   <h3 className="text-white text-[16px] lg:text-[18px] font-bold mb-0 lg:mb-1 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
                     {service.title}
                   </h3>
-                 {service.items.map((itemKey, itemIndex) => (
-  <p
-    key={itemIndex}
-    className="justify-start text-white text-[12px] lg:text-[14px] font-normal font-inter leading-[140%] mb-2 transition-opacity duration-500 group-hover:opacity-100 opacity-25 w-[80%]"
-  >
-   {itemKey && t.rich(itemKey, richComponents)}
-  </p>
-))}
+                 {/* Üst açıklama */}
+                  {service.textKey && (
+                    <p className="w-[90%] mb-2 text-[12px] lg:text-[14px] leading-[130%] transition-opacity duration-500 group-hover:opacity-100 opacity-25 text-white">
+                      {t.rich(service.textKey, richComponents)}
+                    </p>
+                  )}
+
+                  {/* Maddeler */}
+                  {service.items.length > 0 && (
+  <div className="grid grid-cols-1 md:grid-cols-3  gap-x-4 mt-[4px] w-[95%]">
+    {service.items.map((itemKey, itemIndex) => (
+      <p
+        key={itemIndex}
+        className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
+      >
+        •{t(itemKey)}
+      </p>
+    ))}
+  </div>
+)}
+
+                  {/* Alt açıklama */}
+                  {service.endTextKey && (
+                    <p className="mt-0 lg:mt-1 text-[12px] lg:text-[14px] leading-[130%] group-hover:opacity-100 opacity-25 text-white w-[84%]">
+                      {t.rich(service.endTextKey, richComponents)}
+                    </p>
+                  )}
                 </div>
 
                 {/* Sağ alttaki VBlock bileşeni */}

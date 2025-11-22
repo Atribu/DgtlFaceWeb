@@ -15,7 +15,7 @@ const Section = () => {
     <section className="flex flex-col w-[90%] items-center justify-center  ">
       {/* Sol Kısım: Metin */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
-        <div className="flex flex-col w-full md:w-1/2 lg:p-6 text-start text-darkBlue gap-[8px] font-inter">
+        <div className="flex flex-col w-full md:w-1/2 lg:p-6 text-start text-darkBlue gap-[6px] font-inter">
         <h2 className="text-[24px]  font-semibold mb-[7px] lg:mb-4 font-inter28 leading-[120%]  -tracking-[0.48px]">
          {t("tagline_main")}
         </h2>
@@ -40,16 +40,16 @@ const Section = () => {
       </div>
 
      <div className="flex flex-col relative z-[90] items-end justify-end w-full gap-10">
-       <div className="w-[95%] lg:w-[80%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
+       <div className="w-[95%] lg:w-[80%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-1 lg:gap-2 opacity-80">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px] font-semibold font-inter leading-[120%] lg:leading-[130%]">
            Tüm Dijital Süreçler Tek Çatı Altında
             </h4>
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[6px] lg:gap-[10px]">
               <p className=" relative text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
-        Farklı ajanslar ve kopuk raporlarla uğraşmazsınız. <br></br>
+        Farklı ajanslar ve kopuk raporlarla uğraşmazsınız.
 DGTLFACE çatısında:
               </p>
-      <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
+      <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ml-4">
         <li>Web sitesi</li>
         <li>Reklam kampanyaları</li>
         <li>Sosyal medya içerikleri</li>
@@ -61,11 +61,11 @@ DGTLFACE çatısında:
       </p>
             </div>
           </div>
-           <div className="w-[95%] lg:w-[75%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
+           <div className="w-[95%] lg:w-[75%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-1 lg:gap-2 opacity-80">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[130%]">
           Otel ve Turizm Markalarına Özel Uzmanlık
             </h4>
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[6px] lg:gap-[10px]">
               <p className=" relative text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
          Turizm sektörü karmaşıktır: <br></br>
 sezonlar, pazarlar, fiyat dinamikleri ve misafir davranışları sürekli değişir. <br></br>
@@ -75,21 +75,21 @@ DGTLFACE tüm bu değişkenleri stratejiye gömerek ticari sonuçlar <span class
         
             </div>
           </div>
-           <div className="w-[95%] lg:w-[70%] px-[3%] relative xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
+           <div className="w-[95%] lg:w-[70%] px-[3%] relative xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-1 lg:gap-2 opacity-80">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[130%]">
           Veri Odaklı Yönetim ve Şeffaf Raporlama
             </h4>
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[6px] lg:gap-[10px]">
               <p className=" relative text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
-      Her aksiyonun arkasında gerçek veri ve net gerekçe vardır. <br></br>
+      Her aksiyonun arkasında gerçek veri ve net gerekçe vardır. 
 Looker Studio panelleri ile:
               </p>
-          <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
+          <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] gap-2">
         <li>Doluluk</li>
         <li>Gelir</li>
         <li>Dönüşüm</li>
         <li>Reklam ROAS</li>
-        <li>SEO görünürlüğü</li>
+        <li className="">SEO görünürlüğü</li>
       </ul>
       <p className="text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
         tek panelde gösterilir.
@@ -97,11 +97,11 @@ Looker Studio panelleri ile:
             </div>
               
           </div>
-          <div className="w-[95%] lg:w-[85%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80">
-            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
+          <div className="w-[95%] lg:w-[85%] px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-1 lg:gap-2 opacity-80">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[20px]  font-semibold font-inter leading-[120%] lg:leading-[130%]">
           Performans Odaklı Creative & Video Prodüksiyon
             </h4>
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[6px] lg:gap-[10px]">
               <p className=" relative text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
          Creative üretimler sadece estetik değil; <br></br>
 rezervasyon ve satış dönüşümü üretmek için tasarlanır.
