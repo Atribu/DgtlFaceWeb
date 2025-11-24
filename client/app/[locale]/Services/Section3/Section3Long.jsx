@@ -6,7 +6,7 @@ import ServicesCarouselWrapper from "@/app/[locale]/components/serviceblocks/Ser
 import { useTranslations } from "next-intl";
 
 const Section3Long = ({page}) => {
-  const t = useTranslations(`${page}.servicesData`);
+   const t = useTranslations(page);  
   const t2 = useTranslations(`${page}.ourservices`);
 
 
@@ -15,7 +15,7 @@ const Section3Long = ({page}) => {
 
 const richComponents = {
   // Bold
-  b: (chunks) => <span className="font-semibold">{chunks}</span>,
+  b: (chunks) => <span className="font-bold">{chunks}</span>,
 
    // --- SEM ---
   remarketing: (chunks) => (
@@ -301,46 +301,48 @@ const richComponents = {
 
 
 const CARD_COUNT = 9;
-  const MAX_ITEMS = 6;
+const MAX_ITEMS = 6;
 
-  // 9 service kartını çeken mevcut data yapın
-   // JSON'daki veriyi dinamik çıkar
-  const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
-    const id = i + 1;
+const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
+  const id = i + 1;
+  const base = "servicesData";
 
-    // --- text / endText var mı? ---
-    const textKey = `text${id}`;
-    const textFullKey = `${page}.servicesData.${textKey}`;
-    const textValue = t(textKey);
-    const hasText = textValue && textValue !== textFullKey ? textKey : null;
+  // title
+  const titleKey = `${base}.title${id}`;
+  const title = t(titleKey);
 
-    const endTextKey = `endText${id}`;
-    const endTextFullKey = `${page}.servicesData.${endTextKey}`;
-    const endTextValue = t(endTextKey);
-    const hasEndText =
-      endTextValue && endTextValue !== endTextFullKey ? endTextKey : null;
+  // Üst açıklama
+  const textKey = `${base}.text${id}`;
+  const hasText = t.has(textKey) ? textKey : null;
 
-    // --- itemX_Y listesi: 1'den başlayıp ilk boşta dur ---
-    const items = [];
-    for (let j = 1; j <= MAX_ITEMS; j++) {
-      const shortKey = `item${id}_${j}`;
-      const fullKey = `${page}.servicesData.${shortKey}`;
-      const value = t(shortKey);
+  // Alt açıklama
+  const endTextKey = `${base}.endText${id}`;
+  const hasEndText = t.has(endTextKey) ? endTextKey : null;
 
-      // key hiç yoksa veya boşsa -> döngüyü kır
-      if (!value || value === fullKey) break;
+  // Maddeler (itemX_Y)
+  const items = [];
+  for (let j = 1; j <= MAX_ITEMS; j++) {
+    const itemKey = `${base}.item${id}_${j}`;
 
-      items.push(shortKey);
-    }
+    // Mesaj yoksa burada kır
+    if (!t.has(itemKey)) break;
 
-    return {
-      title: t(`title${id}`),
-      textKey: hasText,
-      endTextKey: hasEndText,
-      items,
-      link: t(`link${id}`),
-    };
-  });
+    items.push(itemKey);
+  }
+
+  // Link
+  const linkKey = `${base}.link${id}`;
+  const link = t(linkKey);
+
+  return {
+    title,
+    textKey: hasText,
+    endTextKey: hasEndText,
+    items,
+    link,
+  };
+});
+
 
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -421,15 +423,14 @@ const CARD_COUNT = 9;
                     {service.title}
                   </h3>
                  {/* Üst açıklama */}
-                  {service.textKey && (
-                    <p className="w-[90%] mb-2 text-[12px] lg:text-[14px] leading-[130%] transition-opacity duration-500 group-hover:opacity-100 opacity-25 text-white">
-                      {t.rich(service.textKey, richComponents)}
-                    </p>
-                  )}
+                 {service.textKey && (
+  <p className="w-[88%] mb-2 text-[12px] lg:text-[14px] leading-[130%] transition-opacity duration-500 group-hover:opacity-100 opacity-25 text-white">
+    {t.rich(service.textKey, richComponents)}
+  </p>
+)}
 
-                  {/* Maddeler */}
-                  {service.items.length > 0 && (
-  <div className="grid grid-cols-1 md:grid-cols-3  gap-x-4 mt-[4px] w-[95%]">
+{service.items.length > 0 && (
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 mt-[4px] w-[90%]">
     {service.items.map((itemKey, itemIndex) => (
       <p
         key={itemIndex}
@@ -441,12 +442,12 @@ const CARD_COUNT = 9;
   </div>
 )}
 
-                  {/* Alt açıklama */}
-                  {service.endTextKey && (
-                    <p className="mt-0 lg:mt-1 text-[12px] lg:text-[14px] leading-[130%] group-hover:opacity-100 opacity-25 text-white w-[84%]">
-                      {t.rich(service.endTextKey, richComponents)}
-                    </p>
-                  )}
+{service.endTextKey && (
+  <p className="mt-0 lg:mt-1 text-[12px] lg:text-[14px] leading-[130%] group-hover:opacity-100 opacity-25 text-white w-[84%]">
+    {t.rich(service.endTextKey, richComponents)}
+  </p>
+)}
+
                 </div>
 
                 {/* Sağ alttaki VBlock bileşeni */}

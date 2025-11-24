@@ -15,6 +15,8 @@ import StepSection from '../components/subPageComponents/StepSection.jsx'
 import Section3Long from './Section3/Section3Long.jsx'
 import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
 import VerticalSlider from '../components/subPageComponents/VerticalSlider.jsx'
+import RichTextSpan from '../components/common/RichTextSpan.jsx'
+import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -206,19 +208,43 @@ const cards = [
   const items = [
     {
       title: t("h2Section.title1"),
-      text:  t("h2Section.text1"),
+      text: (
+        <RichTextSpan
+          ns="ServicesPage"
+          id="h2Section.text1"
+          className=""
+        />
+      ),
     },
     {
       title: t("h2Section.title2"),
-      text:  t("h2Section.text2"),
+      text: (
+        <RichTextSpan
+          ns="ServicesPage"
+          id="h2Section.text2"
+          className=""
+        />
+      ),
     },
     {
       title: t("h2Section.title3"),
-      text:  t("h2Section.text3"),
+      text: (
+        <RichTextSpan
+          ns="ServicesPage"
+          id="h2Section.text3"
+          className=""
+        />
+      ),
     },
     {
       title: t("h2Section.title4"),
-      text:  t("h2Section.text4"),
+       text: (
+        <RichTextSpan
+          ns="ServicesPage"
+          id="h2Section.text4"
+          className=""
+        />
+      ),
     },
   ];
 
@@ -226,7 +252,7 @@ const cards = [
   id: i,
   title: t(`servicesData.title${i}`),
   subTitle: t(`servicesData.item${i}_1`),
-  text: t(`servicesDataitem${i}_1`),
+  text: t(`servicesData.item${i}_1`),
   features: [1,2,3,4].map(j => t(`servicesData.item${i}_1`)),
   buttonLink: [
     "/Services/sem/advertisingManagement",
@@ -248,7 +274,18 @@ const cards = [
       
     <div className='flex flex-col overflow-hidden gap-[48px] md:gap-[35px] lg:gap-[50px] items-center justify-center w-screen'>
       {/* <Section1 /> */}
-      <MainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text2={t("servicespage_s1_text3")} text={t("servicespage_s1_text2")} buttonText={t("servicespage_s1_button1")}/>
+      <MainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
+        <RichTextSpan
+          ns="ServicesPage"
+          id="servicespage_s1_text2"
+        />
+      }
+      text2={
+        <RichTextSpan
+          ns="ServicesPage"
+          id="servicespage_s1_text3"
+        />
+      } buttonText={t("servicespage_s1_button1")}/>
      <AiAnswerBlock text="DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital pazarlama çözümleri sunan bir teknoloji partneridir. Entegre dijital pazarlama mimarisi, veri odaklı raporlama ve turizm sektörüne özel uzmanlıkla; görünürlük, rezervasyon ve gelir artışını birlikte yönetir."/>
      <DualHighlightSection items={items} />
       <Section2 />
@@ -270,6 +307,7 @@ const cards = [
       <QuestionsSection2 color="#140F25" faqs={faqs} />
       <Section4 />
       <Section5 />
+      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi web sitesinde yer alan “Hizmetlerimiz” sayfası ve ilgili hizmet dokümantasyonundan derlenmiştir."/>
       <ContactMain />
     </div>
    </>

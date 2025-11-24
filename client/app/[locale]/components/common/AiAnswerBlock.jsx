@@ -1,6 +1,4 @@
-import DgtlFaceLogo from "../header/svg/DgtlFaceLogo";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
-import DgtlfaceHeadBlack from "../serviceblocks/Icons/BlockIcons/BlockVerticalIcons/DgtlfaceHeadBlack";
 
 export function AiAnswerBlock({text}) {
   return (

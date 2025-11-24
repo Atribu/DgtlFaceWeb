@@ -15,7 +15,7 @@ const Section3 = ({ page }) => {
 
   const richComponents = {
     // Bold
-    b: (chunks) => <span className="font-semibold">{chunks}</span>,
+    b: (chunks) => <span className="font-bold">{chunks}</span>,
 
     // --- SEM ---
     remarketing: (chunks) => (
@@ -235,47 +235,83 @@ const Section3 = ({ page }) => {
       </Link>
     ),
   };
+  
 
-  const CARD_COUNT = 9;
-  const MAX_ITEMS = 6;
+const CARD_COUNT = 9;
+const MAX_ITEMS = 6;
 
-  // JSON'daki veriyi dinamik çıkar
-  const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
-    const id = i + 1;
+const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
+  const id = i + 1;
 
-    // --- text / endText var mı? ---
-    const textKey = `text${id}`;
-    const textFullKey = `${page}.servicesData.${textKey}`;
-    const textValue = t(textKey);
-    const hasText = textValue && textValue !== textFullKey ? textKey : null;
+  const title = t(`title${id}`);
 
-    const endTextKey = `endText${id}`;
-    const endTextFullKey = `${page}.servicesData.${endTextKey}`;
-    const endTextValue = t(endTextKey);
-    const hasEndText =
-      endTextValue && endTextValue !== endTextFullKey ? endTextKey : null;
+  // --- textX varsa al ---
+  let textKey = null;
+  try {
+    const v = t(`text${id}`);
+    if (v && v.trim()) {
+      textKey = `text${id}`;
+    }
+  } catch {
+    textKey = null;
+  }
 
-    // --- itemX_Y listesi: 1'den başlayıp ilk boşta dur ---
-    const items = [];
-    for (let j = 1; j <= MAX_ITEMS; j++) {
-      const shortKey = `item${id}_${j}`;
-      const fullKey = `${page}.servicesData.${shortKey}`;
-      const value = t(shortKey);
+  // --- endTextX varsa al ---
+  let endTextKey = null;
+  try {
+    const v = t(`endText${id}`);
+    if (v && v.trim()) {
+      endTextKey = `endText${id}`;
+    }
+  } catch {
+    endTextKey = null;
+  }
 
-      // key hiç yoksa veya boşsa -> döngüyü kır
-      if (!value || value === fullKey) break;
+  // --- itemX_Y listesi ---
+  // --- itemX_Y listesi ---
+  const items = [];
+  for (let j = 1; j <= MAX_ITEMS; j++) {
+    const key = `item${id}_${j}`;
 
-      items.push(shortKey);
+    let v;
+    try {
+      v = t(key);
+    } catch {
+      // next-intl hata atarsa zaten yok demektir
+      break;
     }
 
-    return {
-      title: t(`title${id}`),
-      textKey: hasText,
-      endTextKey: hasEndText,
-      items,
-      link: t(`link${id}`),
-    };
-  });
+    if (!v || !v.trim()) {
+      // Boş string ise burada dur
+      break;
+    }
+
+    // next-intl eksik key için genelde "Homepage.servicesData.item6_6"
+    // gibi bir fallback döndürüyor. Bunu yakalayıp kırıyoruz.
+    const looksLikeFallback =
+      v === key ||                    // aynen key'i döndüyse
+      v.includes(`${page}.`) ||       // "Homepage." vs.
+      (v.endsWith(key) && v.includes(".")); // "....item6_6" gibi
+
+    if (looksLikeFallback) {
+      break;
+    }
+
+    items.push(key);
+  }
+
+
+  return {
+    title,
+    textKey,
+    endTextKey,
+    items,
+    link: t(`link${id}`),
+  };
+});
+
+
+
   const [activeIndex, setActiveIndex] = useState(null);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -328,7 +364,8 @@ const Section3 = ({ page }) => {
         >
           <div className="flex">
             {servicesData.map((service, index) => (
-              <div
+              <Link
+                  href={service.link}
               
                 key={index}
                 className="flex flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[300px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
@@ -367,12 +404,12 @@ const Section3 = ({ page }) => {
                   {service.items.length > 0 && (
   <div className="grid grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-4 mt-1">
     {service.items.map((itemKey, itemIndex) => (
-      <p
+      <div
         key={itemIndex}
         className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
       >
         •{t(itemKey)}
-      </p>
+      </div>
     ))}
   </div>
 )}
@@ -400,7 +437,7 @@ const Section3 = ({ page }) => {
                 >
                   {t2("services_button")}
                 </Link>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

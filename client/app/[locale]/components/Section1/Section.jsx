@@ -2,17 +2,14 @@
 import React from "react";
 import FireballExplosion from "./Animation/FireballExplosion";
 import { useTranslations } from 'next-intl';
-import DgtlFaceLogo from "../header/svg/DgtlFaceLogo";
-import WebIcon from "../serviceblocks/Icons/BlockIcons/WebIcon";
-import DgtlHeadV from "../serviceblocks/Icons/BlockIcons/BlockVerticalIcons/DgtlHeadV";
-import DgtlfaceHeadBlack from "../serviceblocks/Icons/BlockIcons/BlockVerticalIcons/DgtlfaceHeadBlack";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
+import RichText from "../common/RichText";
 
 const Section = () => {
   const t = useTranslations("Homepage.partners")
 
   return (
-    <section className="flex flex-col w-[90%] items-center justify-center  ">
+    <section className="flex flex-col w-[90%] items-center justify-center">
       {/* Sol Kısım: Metin */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
         <div className="flex flex-col w-full md:w-1/2 lg:p-6 text-start text-darkBlue gap-[6px] font-inter">
@@ -22,13 +19,18 @@ const Section = () => {
         <h4 className="text-[16px] font-inter28 font-semibold mb-3 leading-[28.80px]">
           DGTLFACE  <span className="text-[16px]  font-inter28 font-semibold lg:font-normal leading-[120%] lg:leading-[25.20px] -tracking-[0.32px]"> –   {t("tagline_subtitle")}</span>
         </h4>
-        <p className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full">
-         {t("tagline_description")}
-        </p>
-        {t("tagline_span")}
-        <p>
-
-        </p>
+      <RichText
+  t={t}
+  messageKey="tagline_description"
+  as="p"
+  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full"
+/>
+<RichText
+  t={t}
+  messageKey="tagline_span"
+  as="p"
+  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full"
+/>
       </div>
 
       {/* Sağ Kısım: Three.js Sahnesi */}
@@ -104,7 +106,7 @@ Looker Studio panelleri ile:
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[6px] lg:gap-[10px]">
               <p className=" relative text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ">
          Creative üretimler sadece estetik değil; <br></br>
-rezervasyon ve satış dönüşümü üretmek için tasarlanır.
+<b>rezervasyon ve satış dönüşümü</b> üretmek için tasarlanır.
               </p>
              
             </div>

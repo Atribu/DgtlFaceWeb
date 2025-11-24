@@ -8,6 +8,8 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
+import RichTextSpan from '../../components/common/RichTextSpan'
+import { AiSourceMention } from '../../components/common/AiSourceMention'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -228,56 +230,55 @@ const page = () => {
   text: t(`sem_services_text${i}`),
   features: [1,2,3,4].map(j => t(`sem_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/sem/advertisingManagement",
+    "/Services/sem/googleAdsAdvertising",
     "/Services/sem/webTraffic",
     "/Services/sem/googleWebtools",
     "/Services/sem/yandexAdvertising",
-    "/Services/sem/googleAdsAdvertising"
+    "/Services/sem/advertisingManagement"
+    
   ][i-1]
 }));
 
 const items = [
     {
-      title: "SEM Nedir? DGTLFACE’in Dönüşüm Odaklı Reklam Yaklaşımı",
-      text: `SEM (Search Engine Marketing), arama motorlarında ve bağlı ağlarda reklam vererek hedef kitlenizin satın alma niyetine en yakın anda görünür olmanızı sağlar. DGTLFACE olarak SEM’i; Google Ads arama kampanyaları, Display reklamlar, YouTube video kampanyaları, remarketing ve dönüşüm takibi ile birlikte ele alırız. Bütçenizi rastgele tıklamalara değil, ölçülebilir sonuçlara ve dönüşüm maliyeti optimizasyonuna odaklarız.
-
-Reklam metinlerinden açılış sayfalarına, teklif stratejisinden dönüşüm aksiyonlarına kadar tüm süreci tek bir performans mimarisi içinde yönetir; kampanyalarınızı “kur ve unut” yerine, sürekli test edilen ve gelişen canlı bir sistem haline getiririz.`,
+      title: t("h2Section.title1"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text1"
+          className=""
+        />
+      ),
     },
     {
-      title: "Oteller ve Turizm Markaları İçin Özel SEM Stratejileri",
-      text: `Otel ve turizm sektöründe Google Ads, yalnızca “daha fazla tıklama” değil; daha fazla doluluk ve daha yüksek oda geliri demektir.
-DGTLFACE, otel Google Ads yönetimi, turizm Google reklamcılığı, PMS ve OTA entegrasyonlu kampanyalar gibi dikey odaklı kurgularla çalışır.
-
-“Oteller için Google Ads stratejisi nasıl olmalı, Google reklamları ile satış nasıl artırılır, rezervasyon dönüşüm maliyeti nasıl düşürülür?” gibi soruların tamamını; sezon, pazar, hedef ülke ve oda tiplerine göre ayrı analiz ederiz.
-
-Erken rezervasyon, son dakika satışları, marka & generic anahtar kelime dengesi ve remarketing kurgularıyla oteliniz için uçtan uca bir dijital reklam motoru kurarız.`,
+      title: t("h2Section.title2"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text2"
+          className=""
+        />
+      ),
     },
     {
-      title: "Veri ve Dönüşüm Odaklı Reklam Yönetimi: Ölçmediğimizi Yönetmeyiz",
-      text: `SEM’de başarı sadece tıklama değil; dönüşüm sayısı ve dönüşüm maliyeti ile ölçülür.
-Bu nedenle DGTLFACE olarak dönüşüm takibi, Google Tag Manager, Google Analytics 4, çağrı izleme ve rezervasyon izleme süreçlerini kusursuz hale getirmeden reklam bütçesini büyütmeyiz.
-
-Form doldurma, online rezervasyon, telefon araması, WhatsApp tıklaması gibi tüm aksiyonları takip eder; “Google Ads dönüşüm maliyeti düşürme yöntemleri, reklamdan gelen satışları nasıl doğru ölçeriz?” gibi kritik konulara veriye dayalı çözümler sunarız.
-
-Bu sayede reklam bütçeniz karanlık bir kutu olmaktan çıkar; tam şeffaf, performans odaklı, optimizasyon dostu bir modele dönüşür.`,
+      title: t("h2Section.title3"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text3"
+          className=""
+        />
+      ),
     },
     {
-      title: "Google Ads Kanal Kırılımı: Arama, Görüntülü Reklamlar ve YouTube",
-      text: `Google Ads ekosistemi birden çok kanalın birlikte çalıştığı güçlü bir pazarlama makinesidir:
-
-Arama Ağı (Search)
-Satış / rezervasyon odaklı, en yüksek niyetli kullanıcılar.
-
-Display & Discovery
-Marka bilinirliği, remarketing ve üst huni görünürlüğü.
-
-YouTube Ads
-Hikâye anlatımı, marka imajı, remarketing ısıtma.
-
-Remarketing
-Sepeti terk eden, fiyat bakan veya siteyi gezip ayrılan kullanıcıları geri kazanma.
-
-“Google reklamları ile satış artırma, display reklam optimizasyonu, YouTube bumper ads yönetimi” gibi ihtiyaçların tamamını tek SEM mimarisi altında toplarız.`,
+      title: t("h2Section.title4"),
+       text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text4"
+          className=""
+        />
+      ),
     },
   ];
 
@@ -372,7 +373,7 @@ const cards = [
       />
       
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[60px] overflow-hidden'>
-     <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")} buttonText={t("buttonText")}/>
+     <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
      <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni, hedef kitle ve dönüşüm takibi gibi tüm süreçler entegre ilerler. Özellikle oteller ve turizm markaları için görünürlük, doluluk ve gelir artışını sağlayan, veriye dayalı bir dijital reklam modeli sunar."/>
      <DualHighlightSection items={items} />
       <StepSection header={""} header2={t("sem_section_header1")} text={t("sem_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -387,6 +388,7 @@ const cards = [
     />
       <VerticalSlider page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
+     <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEM dokümantasyonu ve hizmet tanımlarından derlenmiştir."/>
       <Contact/>
     </div>
     </>

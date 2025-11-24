@@ -95,6 +95,24 @@ export default function WhyUsSection() {
   },
 ];
 
+const renderRichDescription = (key) => {
+  // Güvenli kullanım: rich parse patlarsa düz t'ye düş
+  try {
+    return t.rich(key, {
+      b: (chunks) => <span className="font-bold">{chunks}</span>,
+      ul: (chunks) => (
+        <ul className="list-disc list-inside space-y-1 mt-2">
+          {chunks}
+        </ul>
+      ),
+      li: (chunks) => <li>{chunks}</li>,
+      br: () => <br />,
+    });
+  } catch (e) {
+    // Her ihtimale karşı, en azından düz metin gelsin
+    return t(key);
+  }
+};
   
   return (
     <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] py-[18px]">
@@ -124,23 +142,16 @@ export default function WhyUsSection() {
                   {card.title}
                 </h4>
                 <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-                  <p
-          className={`
-            lg:w-[502px] w-[94%] relative text-justify justify-start
-            ${card.textColor} lg:text-[14px] text-[14px]
-            font-normal lg:leading-snug font-inter28
-          `}
-        >
-          {t.rich(card.descriptionKey, {
-            b: (chunks) => <span className="font-bold">{chunks}</span>,
-            ul: (chunks) => (
-              <ul className="list-disc list-inside space-y-1 mt-2">
-                {chunks}
-              </ul>
-            ),
-            li: (chunks) => <li>{chunks}</li>,
-          })}
-        </p>
+               <p
+  className={`
+    lg:w-[502px] w-[94%] relative text-justify justify-start
+    ${card.textColor} lg:text-[14px] text-[14px]
+    font-normal lg:leading-snug font-inter28
+  `}
+>
+  {renderRichDescription(card.descriptionKey)}
+</p>
+
 
                   <button
                     type="button"

@@ -13,6 +13,7 @@ import QuestionsSection2 from "../../components/subPageComponents/QuestionSectio
 import Section3List from "../../Services/Section3/Section3List";
 import Link from "next/link";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
+import { AiSourceMention } from "../common/AiSourceMention";
 
 const MyThreeScene = dynamic(() => import("../../components/MtThreeScene"), {
   ssr: false,
@@ -67,7 +68,7 @@ export default function HomePage() {
          <Section4 />
      
         <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[95%] mt-1 lg:mt-20 ">
-          <div className="flex flex-col items-start justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
+          <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
               <h2 className="font-inter28">Dijital Pazarlama Ajansı Değil, Uzun Vadeli Teknoloji Partneriniz</h2>
             </button>
@@ -97,7 +98,7 @@ Strateji, kreatif, medya satın alma, yazılım geliştirme, PMS–OTA yönetimi
               zamanlı veri ve raporlarla almanızı sağlarız.
             </p> */}
           </div>
-          <div className="flex flex-col items-start justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start ">
+          <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start ">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[23px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
              <h2> Oteller ve Turizm Markaları İçin 360° Dijital Pazarlama Çözümleri</h2>
             </button>
@@ -132,7 +133,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
         </div>
 
         <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[95%] mb-20 ">
-          <div className="flex flex-col items-start justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
+          <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
              <h2>Antalya Merkezli, Global Ölçekte Düşünen Dijital Pazarlama & Teknoloji Ekibi</h2>
             </button>
@@ -155,7 +156,7 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
 
 
 
-          <div className="flex flex-col items-start justify-start gap-2 lg:gap-[32px] lg:w-[50%] text-start">
+          <div className="flex flex-col items-center justify-start gap-2 lg:gap-[32px] lg:w-[50%] text-start">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[16px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
              <h2> Veri Odaklı Performans, Şeffaf Raporlama ve Sürekli Optimizasyon</h2>
             </button>
@@ -200,9 +201,10 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
             raporlama ile ölçerek sürdürülebilir performans üretir."/>
        
         {/* <ServicesCarousel/> */}
-       
-     
+
         <Contact />
+          <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi web sitesi ve hizmet dokümantasyonundan derlenmiştir.
+Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri resmi hizmet dokümantasyonundan alınmıştır."/>
       </div>
     </main>
   );

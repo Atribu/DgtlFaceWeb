@@ -83,6 +83,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
           </h1>
 
           <div className="flex flex-col gap-2">
+            
             <p className="font-inter28 text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px]  hidden lg:flex">
             {text}
             </p>

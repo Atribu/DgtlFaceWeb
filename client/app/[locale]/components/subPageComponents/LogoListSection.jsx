@@ -46,9 +46,9 @@ const LogoListSection = ({
             </h4>
 
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-              <p className="relative text-justify justify-start text-[#140f25] lg:text-[16px] font-normal lg:leading-[120%] text-[12px] -tracking-[0.28px] leading-[130%]">
+              <div className="relative text-justify justify-start text-[#140f25] lg:text-[16px] font-normal lg:leading-[120%] text-[12px] -tracking-[0.28px] leading-[130%]">
                 {card.description}
-              </p>
+              </div>
             </div>
           </div>
         ))}

@@ -45,7 +45,7 @@ const VerticalSlider = ({page, itemCount = 3 }) => {
     return {
       header: t(`title${i}`),
       span: t(`span${i}`),
-      text: t(`text${i}`),
+      textKey: `text${i}`,    
       button: t(`button${i}`),
     };
   });
@@ -180,7 +180,7 @@ const GAP = 0;
           {/* Slider Container */}
           <div className="relative w-full">
             {/* Navigation Buttons - Sol taraf */}
-            <div className="absolute -left-10 top-1/2 -translate-y-1/2 -translate-x-16 hidden lg:flex flex-col gap-4 z-50">
+            <div className="absolute -left-20 top-1/2 -translate-y-1/2 -translate-x-16 hidden lg:flex flex-col gap-4 z-50">
               <button 
                 onClick={handlePrev} 
                 disabled={activeIndex === 0}
@@ -198,8 +198,8 @@ const GAP = 0;
             </div>
 
             {/* Index Display - Büyük numara */}
-            <div className="absolute -left-10 lg:-left-40 top-1/2 -translate-y-1/2 z-10 pointer-events-none">
-              <span className="text-8xl lg:text-9xl font-bold text-white/10">
+            <div className="absolute -left-16 lg:-left-[190px] xl:-left-[220px] top-1/2 -translate-y-1/2 z-10 pointer-events-none">
+              <span className="text-5xl lg:text-8xl xl:text-9xl font-bold text-white/70 lg:text-white/90">
                 {String(activeIndex + 1).padStart(2,)}
               </span>
             </div>
@@ -254,9 +254,13 @@ const GAP = 0;
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className="text-white text-[12px] lg:text-[14px] font-normal leading-relaxed opacity-90 line-clamp-6">
-            {item.text}
-          </p>
+       <p className="text-white text-[12px] lg:text-[14px] font-normal leading-relaxed opacity-90 line-clamp-6">
+  {t.rich(item.textKey, {
+    b: (chunks) => <span className="font-semibold">{chunks}</span>,
+    strong: (chunks) => <span className="font-semibold">{chunks}</span>,
+  })}
+</p>
+
           <button className="px-3 py-1 rounded-2xl border-2 border-blue-400 max-w-[130px] justify-center items-center hover:bg-blue-400/10 transition-colors">
             <span className="text-white text-[14px] font-bold">
               {item.button}
