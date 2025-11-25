@@ -57,7 +57,10 @@ const homeJsonLd = {
         "addressLocality": "Antalya",
         "addressCountry": "TR"
       },
-      "areaServed": ["Antalya", "Türkiye", "Europe"]
+     "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"]
     },
     {
       "@type": "WebSite",
@@ -105,7 +108,10 @@ const homeJsonLd = {
         "dijital pazarlama ajansı, SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, çok dilli çağrı merkezi, PMS–OTA yönetimi, otel dijital pazarlama",
       "description":
         "DGTLFACE, SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, PMS–OTA entegrasyonu ve çok dilli çağrı merkezi hizmetlerini tek çatı altında sunar; özellikle oteller ve turizm markaları için uçtan uca dijital dönüşüm sağlar.",
-      "areaServed": ["Antalya", "Türkiye", "Europe"],
+    "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"],
       "inLanguage": "tr-TR",
       "keywords": [
         "dijital pazarlama ajansı",

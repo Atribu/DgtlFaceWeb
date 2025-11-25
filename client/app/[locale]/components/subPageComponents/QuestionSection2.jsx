@@ -57,7 +57,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
   };
 
   return (
-    <div className="flex flex-col w-full items-center justify-center gap-[70px] lg:gap-[168px] font-inter py-10">
+    <div className="flex flex-col w-full items-center justify-center gap-[70px] lg:gap-[168px] font-inter pt-7">
       <div className="flex flex-col w-[100%] lg:w-[50%] items-center justify-center text-center gap-[10px] lg:gap-[16px]">
         <h2
           className={`

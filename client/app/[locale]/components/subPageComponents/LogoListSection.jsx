@@ -10,7 +10,7 @@ const LogoListSection = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-center -mb-10 bg-white ">
+    <section className="flex flex-col w-screen items-center justify-start -mb-10 min-h-[700px] bg-white ">
       <div className="flex flex-col w-[80%] items-center justify-center ">
         {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">

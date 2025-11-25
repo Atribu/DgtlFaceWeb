@@ -19,7 +19,7 @@ const homeJsonLd = {
       "@id": "https://dgtlface.com/#organization",
       "name": "DGTLFACE",
       "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunan veri odaklı dijital pazarlama partneridir.",
+      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analizi ile 360° otel dijital pazarlama ve dijital dönüşüm çözümleri sunan teknoloji partneridir.",
       "logo": "https://dgtlface.com/logo.png",
       "address": {
         "@type": "PostalAddress",
@@ -40,100 +40,106 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#webpage",
-      "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
-      "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
-      "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#webpage",
+      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama",
+      "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
       "isPartOf": {
         "@id": "https://dgtlface.com/#website"
       },
       "inLanguage": "tr-TR",
       "about": [
-        "veri analizi hizmeti",
-        "dijital performans raporlama",
-        "looker studio rapor",
-        "satış analiz hizmeti",
-        "dönüşüm analizi",
-        "benchmark raporu",
-        "otel satış raporlama",
-        "turizm veri analizi"
+        "otel dijital pazarlama",
+        "otel dijital dönüşümü",
+        "otel pazarlama ajansı",
+        "otel için SEO",
+        "otel Google Ads",
+        "otel sosyal medya yönetimi",
+        "turizm dijital pazarlama rehberi"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#service",
-      "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı",
-      "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#service",
+      "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider",
+      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
-      "serviceType": "veri analizi hizmeti, dijital performans raporlama, Looker Studio raporlama, benchmark analizi, satış ve dönüşüm raporlama, KVKK veri güvenliği raporlama",
-      "description": "DGTLFACE, SEO, SEM, SMM, web, PMS–OTA, çağrı merkezi ve satış verilerini Looker Studio dashboard’larında birleştirerek oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunar.",
+      "serviceType": "otel dijital pazarlama, turizm dijital dönüşüm, otel SEO, otel reklam yönetimi, OTA yönetimi, PMS entegrasyonu, otel çağrı merkezi",
+      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analiziyle 360° otel dijital pazarlama ve dönüşüm hizmetleri sunar. Resort, city, butik ve luxury oteller için özel yol haritaları ve stratejiler geliştirir.",
       "areaServed": ["Antalya","Türkiye","Europe"],
       "inLanguage": "tr-TR",
       "keywords": [
-        "veri analizi hizmeti",
-        "dijital performans raporlama",
-        "looker studio rapor",
-        "satış analiz hizmeti",
-        "dönüşüm analizi",
-        "benchmark raporu",
-        "dijital performans nasıl ölçülür",
-        "looker studio dashboard hazırlanması",
-        "oteller için günlük satış raporu",
-        "sosyal medya performans analizi",
-        "seo performans analizi nasıl yapılır",
-        "google analytics verileri nasıl yorumlanır",
-        "meta ads rapor optimizasyonu",
-        "reklam performans ölçümü",
-        "oteller için benchmark analizi",
-        "gelir artırma veri analizi",
-        "turizm sektörü raporlama teknikleri",
-        "kpi analizi nasıl yapılır",
-        "looker studio otomatik rapor",
-        "otel satış raporlama",
-        "turizm veri analizi",
-        "resort benchmark raporu",
-        "pms veri analizi",
-        "veri analizi antalya",
-        "antalya dijital raporlama",
-        "performans analizi türkiye",
-        "looker studio antalya"
+        "otel dijital pazarlama",
+        "otel dijital dönüşümü",
+        "otel pazarlama ajansı",
+        "otel için seo",
+        "otel google ads",
+        "otel sosyal medya yönetimi",
+        "oteller için dijital pazarlama stratejisi",
+        "resort dijital pazarlama",
+        "butik otel dijital pazarlama",
+        "villa & luxury otel dönüşümü",
+        "all inclusive otel dijital strateji",
+        "turizm sektörü online satış artırma yöntemleri",
+        "otel rezervasyon dönüşümünü artırma",
+        "google hotel ads entegrasyonu",
+        "otel marka bilinirliği artırma",
+        "booking expedia optimizasyon",
+        "otel müşteri deneyimi için dijital çözümler",
+        "otel sosyal medya reklamcılığı",
+        "otel gelir yönetimi digital",
+        "turizm dijital pazarlama rehberi",
+        "otel dijital pazarlama antalya",
+        "antalya resort marketing",
+        "otel pazarlama türkiye",
+        "side–kemer–belek dijital otel çözümleri"
       ]
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#services-list",
-      "name": "DGTLFACE Raporlama Hizmetleri",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#services-list",
+      "name": "DGTLFACE Otel Dijital Pazarlama Hizmetleri",
       "itemListElement": [
         {
           "@type": "Service",
-          "name": "Looker Studio Raporlama",
-          "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+          "name": "Otel SEO",
+          "url": "https://dgtlface.com/tr/otel/seo"
         },
         {
           "@type": "Service",
-          "name": "Benchmark Analizi",
-          "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
+          "name": "Otel Sosyal Medya Yönetimi",
+          "url": "https://dgtlface.com/tr/otel/sosyal-medya"
         },
         {
           "@type": "Service",
-          "name": "Satış ve Dönüşüm Raporları",
-          "url": "https://dgtlface.com/tr/raporlama/satis-donusum"
+          "name": "Otel Reklam Yönetimi",
+          "url": "https://dgtlface.com/tr/otel/reklam-yonetimi"
         },
         {
           "@type": "Service",
-          "name": "KVKK & Veri Güvenliği Raporlama",
-          "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+          "name": "OTA Yönetimi (Hotel OTA)",
+          "url": "https://dgtlface.com/tr/otel/ota-yonetimi"
+        },
+        {
+          "@type": "Service",
+          "name": "PMS Entegrasyonu (Hotel PMS)",
+          "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+        },
+        {
+          "@type": "Service",
+          "name": "Otel Rezervasyon Çağrı Merkezi",
+          "url": "https://dgtlface.com/tr/otel/cagri-merkezi"
         }
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -144,53 +150,53 @@ const homeJsonLd = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Veri Analizi & Raporlama",
-          "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+          "name": "Otel Dijital Pazarlama",
+          "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#faq",
+      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Raporlama için ekstra yeni bir yazılım mı almam gerekiyor?",
+          "name": "Otelim için neden özel dijital stratejiye ihtiyacım var?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Genellikle hayır. Mevcut kullandığınız sistemler (Google Analytics, Search Console, Google Ads, Meta Ads, PMS, OTA, çağrı merkezi vb.) üzerinden veri çekip Looker Studio gibi araçlarla dashboard’lar kuruyoruz."
+            "text": "Her otelin hedef pazarı, sezonu, ürün tipi (resort, city, butik, luxury) ve kanal dengesi farklıdır. Bu nedenle her otel için özel bir dijital pazarlama stratejisi gereklidir."
           }
         },
         {
           "@type": "Question",
-          "name": "Tüm raporları kendim mi takip edeceğim, yoksa özet sunuyor musunuz?",
+          "name": "Sadece reklam yönetimi ile çalışmak yeterli mi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Panellere 7/24 erişiminiz olur; buna ek olarak periyodik özet raporlar ve toplantılarla veriyi yorumlar, bir sonraki adım için aksiyon önerileri sunarız."
+            "text": "Sadece reklam yönetimiyle başlanabilir; ancak en güçlü sonuçlar SEO, OTA, web ve çağrı merkezi süreçlerinin entegre çalıştığı yapılarda elde edilir."
           }
         },
         {
           "@type": "Question",
-          "name": "Veri analizi ve raporlama sadece büyük oteller için mi anlamlı?",
+          "name": "OTA bağımlılığını azaltıp direkt rezervasyon artırabilir miyiz?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hayır. Küçük ve orta ölçekli otellerde de doğru raporlama sayesinde bütçenin nereye harcandığını ve ne getirdiğini erken görmek son derece kritiktir."
+            "text": "Evet. Doğru fiyatlandırma, web kullanıcı deneyimi, reklam stratejisi ve call center kurgusu ile direkt rezervasyon oranını artırmak mümkündür."
           }
         },
         {
           "@type": "Question",
-          "name": "Sadece raporlama hizmeti alabilir miyim?",
+          "name": "Hangi sürelerle çalışıyorsunuz?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Evet, sadece raporlama ve veri analizi hizmeti alabilirsiniz; ancak en sağlıklı sonuçları raporlama ile SEO, SEM, SMM ve PMS & OTA süreçlerinin entegre yürütüldüğü projelerde alıyoruz."
+            "text": "Genellikle 6–12 aylık otel dijital dönüşüm planlarıyla çalışıyoruz; bu süre içinde strateji, uygulama ve optimizasyon döngüleri tamamlanır."
           }
         },
         {
           "@type": "Question",
-          "name": "DGTLFACE ile raporlama projesine nasıl başlıyoruz?",
+          "name": "Otelim Türkiye dışından da misafir ağırlıyor; çok dilli yapı kurabilir misiniz?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Önce hangi sistemleri kullandığınızı ve hangi soruları cevaplamak istediğinizi analiz ediyoruz. Ardından veri kaynakları, KPI seti ve dashboard yapısına göre bir raporlama yol haritası çıkarıyor, onay sonrası entegrasyon ve panel kurulumlarını gerçekleştiriyoruz."
+            "text": "Evet. Web, sosyal medya ve çağrı merkezi tarafında TR–EN–DE–RU gibi çok dilli yapılar kurarak farklı pazarlara uygun iletişim stratejileri geliştiriyoruz."
           }
         }
       ]
@@ -199,8 +205,8 @@ const homeJsonLd = {
 }
 
 const page = () => {
-  const t = useTranslations("DigitalAnalysis");
-     const t2 = useTranslations("DigitalAnalysis.h4Section");
+  const t = useTranslations("Hotel");
+     const t2 = useTranslations("Hotel.h4Section");
       
                 const faqs = [
               {
@@ -239,7 +245,7 @@ const page = () => {
                    title: t("h2Section.title1"),
                    text: (
                      <RichTextSpan
-                       ns="DigitalAnalysis"
+                       ns="Hotel"
                        id="h2Section.text1"
                        className=""
                      />
@@ -249,7 +255,7 @@ const page = () => {
                    title: t("h2Section.title2"),
                    text: (
                      <RichTextSpan
-                       ns="DigitalAnalysis"
+                       ns="Hotel"
                        id="h2Section.text2"
                        className=""
                      />
@@ -259,7 +265,7 @@ const page = () => {
                    title: t("h2Section.title3"),
                    text: (
                      <RichTextSpan
-                       ns="DigitalAnalysis"
+                       ns="Hotel"
                        id="h2Section.text3"
                        className=""
                      />
@@ -269,7 +275,7 @@ const page = () => {
                    title: t("h2Section.title4"),
                    text: (
                      <RichTextSpan
-                       ns="DigitalAnalysis"
+                       ns="Hotel"
                        id="h2Section.text4"
                        className=""
                      />
@@ -319,16 +325,16 @@ const page = () => {
 
   const servicesData = [1,2,3,4].map(i => ({
   id: i,
-  title: t(`analysis_services_title${i}`),
-  subTitle: t(`analysis_services_subtitle${i}`),
-     text: t(`analysis_services_text${i}`),
-  features: [1,2,3,4].map(j => t(`analysis_services_feature${i}_${j}`)),
+  title: t(`hotel_services_title${i}`),
+  subTitle: t(`hotel_services_subtitle${i}`),
+     text: t(`hotel_services_text${i}`),
+  features: [1,2,3,4].map(j => t(`hotel_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/digitalAnalysis/websiteReportingService",
-    "/Services/digitalAnalysis/onlineMarketResearchService",
-    "/Services/digitalAnalysis/digitalSalesAnalysis",
-    "/Services/digitalAnalysis/advertisingReportingService",
-    "/Services/digitalAnalysis/callReportingService"
+    "/Services/Hotel/websiteReportingService",
+    "/Services/Hotel/onlineMarketResearchService",
+    "/Services/Hotel/digitalSalesAnalysis",
+    "/Services/Hotel/advertisingReportingService",
+    "/Services/Hotel/callReportingService"
   ][i-1]
 }));
   
@@ -344,7 +350,7 @@ const page = () => {
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
     <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
-    <AiAnswerBlock text="DGTLFACE, SEO, SEM, SMM, web, PMS–OTA ve çağrı merkezi verilerini Looker Studio dashboard’larında birleştirerek veri analizi ve dijital performans raporlama hizmeti sunar. Oteller ve markalar için satış, dönüşüm, doluluk ve kanal performansını tek panelde görünür hale getirir; benchmark analizleri ve satış/dönüşüm raporlarıyla karar süreçlerini sezgiden çıkarıp veriye dayalı hale getirir."/>
+    <AiAnswerBlock text="DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümlerini tek çatı altında sunan bir otel dijital pazarlama ve teknoloji partneridir. Amaç sadece görünürlük değil; doluluk, gelir, direkt rezervasyon ve misafir memnuniyetini aynı anda artıran 360° bir dijital mimari kurmaktır. Resort, city, butik veya luxury oteller için özel stratejiler ve yol haritaları hazırlanır."/>
        <DualHighlightSection items={items}/>
 <StepSection
   header={t("analysis_section_header1")}
@@ -365,7 +371,7 @@ const page = () => {
     />
 
 
-        <VerticalSlider page="DigitalAnalysis" itemCount={4}/>
+        <VerticalSlider page="Hotel" itemCount={4}/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE dijital raporlama, performans analitiği, otel pazarlaması ve Looker Studio dashboard süreçlerine ait resmi çalışma yöntemlerinden derlenmiştir."/>

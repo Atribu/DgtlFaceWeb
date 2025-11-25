@@ -26,7 +26,10 @@ const homeJsonLd = {
         "addressLocality": "Antalya",
         "addressCountry": "TR"
       },
-      "areaServed": ["Antalya","Türkiye","Europe"]
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"]
     },
     {
       "@type": "WebSite",
@@ -70,7 +73,10 @@ const homeJsonLd = {
       },
       "serviceType": "Google Ads yönetimi, dijital reklam yönetimi, SEM hizmetleri",
       "description": "DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display reklamlarını dönüşüm odaklı bir yapıda yöneten profesyonel bir SEM ajansıdır. Özellikle oteller ve turizm sektöründe satış ve rezervasyon odaklı reklam kurgularıyla maksimum görünürlük ve dönüşüm sağlar.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"],
       "inLanguage": "tr-TR",
       "keywords": [
         "google ads yönetimi",
