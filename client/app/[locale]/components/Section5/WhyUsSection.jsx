@@ -23,90 +23,99 @@ export default function WhyUsSection() {
 
 
   const cards = [
-    {
-      title: t("whyUs_header2"),
-      description:
-       t("whyUs_text2"),
-      bgColor: "bg-white", // Beyaz arka plan
-      textColor: "text-[#140f25]", // Koyu metin rengi
-      buttonColor: "text-[#140f25]", // Koyu buton rengi
-      arrowColor: "#140F25", // Koyu ok rengi
-      image: null, // Resim yok
-    },
-    {
-      title: t("whyUs_header4"),
-      description:
-       t("whyUs_text4"),
-      bgColor: "bg-transparent", // Gradient arka plan
-      textColor: "text-white", // Beyaz metin rengi
-      buttonColor: "text-white", // Beyaz buton rengi
-      arrowColor: "#ffffff", // Beyaz ok rengi
-      image: Dgtlface, // Arka plan resmi
-    },
-    {
-       title: t("whyUs_header3"),
-      description:
-       t("whyUs_text3"),
-      bgColor: "bg-transparent", // Gradient arka plan
-      textColor: "text-white", // Beyaz metin rengi
-      buttonColor: "text-white", // Beyaz buton rengi
-      arrowColor: "#ffffff", // Beyaz ok rengi
-      image: Dgtlface, // Arka plan resmi
-    },
-    {
-      title: t("whyUs_header5"),
-      description:
-       t("whyUs_text5"),
-      bgColor: "bg-white", // Beyaz arka plan
-      textColor: "text-[#140f25]", // Koyu metin rengi
-      buttonColor: "text-[#140f25]", // Koyu buton rengi
-      arrowColor: "#140F25", // Koyu ok rengi
-      image: null, // Resim yok
-    },
-    {
-      title: t("whyUs_header6"),
-      description:
-       t("whyUs_text6"),
-      bgColor: "bg-white", // Beyaz arka plan
-      textColor: "text-[#140f25]", // Koyu metin rengi
-      buttonColor: "text-[#140f25]", // Koyu buton rengi
-      arrowColor: "#140F25", // Koyu ok rengi
-      image: null, // Resim yok
-    },
-    {
-      title: t("whyUs_header7"),
-      description:
-       t("whyUs_text7"),
-      bgColor: "bg-white", // Beyaz arka plan
-      textColor: "text-[#140f25]", // Koyu metin rengi
-      buttonColor: "text-[#140f25]", // Koyu buton rengi
-      arrowColor: "#140F25", // Koyu ok rengi
-      image: null, // Resim yok
-    },
-    {
-      title: t("whyUs_header8"),
-      description:
-       t("whyUs_text8"),
-      bgColor: "bg-white", // Beyaz arka plan
-      textColor: "text-[#140f25]", // Koyu metin rengi
-      buttonColor: "text-[#140f25]", // Koyu buton rengi
-      arrowColor: "#140F25", // Koyu ok rengi
-      image: null, // Resim yok
-    },
-  ];
+  {
+    id: 1,
+    titleKey: "whyUs_header1",
+    descriptionKey: "whyUs_text1",
+    bgColor: "bg-white",
+    textColor: "text-[#140f25]",
+    buttonColor: "text-[#140f25]",
+    arrowColor: "#140F25",
+    image: null,
+  },
+  {
+    id: 3,
+    titleKey: "whyUs_header3",
+    descriptionKey: "whyUs_text3",
+    bgColor: "bg-transparent",
+    textColor: "text-white",
+    buttonColor: "text-white",
+    arrowColor: "#ffffff",
+    image: Dgtlface,
+  },
+  {
+    id: 2,
+    titleKey: "whyUs_header2",
+    descriptionKey: "whyUs_text2",
+    bgColor: "bg-transparent",
+    textColor: "text-white",
+    buttonColor: "text-white",
+    arrowColor: "#ffffff",
+    image: Dgtlface,
+  },
+  {
+    id: 4,
+    titleKey: "whyUs_header4",
+    descriptionKey: "whyUs_text4",
+    bgColor: "bg-white",
+    textColor: "text-[#140f25]",
+    buttonColor: "text-[#140f25]",
+    arrowColor: "#140F25",
+    image: null,
+  },
+  {
+    id: 5,
+    titleKey: "whyUs_header5",
+    descriptionKey: "whyUs_text5",
+    bgColor: "bg-white",
+    textColor: "text-[#140f25]",
+    buttonColor: "text-[#140f25]",
+    arrowColor: "#140F25",
+    image: null,
+  },
+  {
+    id: 6,
+    titleKey: "whyUs_header6",
+    descriptionKey: "whyUs_text6",
+    bgColor: "bg-white",
+    textColor: "text-[#140f25]",
+    buttonColor: "text-[#140f25]",
+    arrowColor: "#140F25",
+    image: null,
+  },
+  {
+    id: 7,
+    titleKey: "whyUs_header7",
+    descriptionKey: "whyUs_text7",
+    bgColor: "bg-white",
+    textColor: "text-[#140f25]",
+    buttonColor: "text-[#140f25]",
+    arrowColor: "#140F25",
+    image: null,
+  },
+];
+
+const renderRichDescription = (key) => {
+  // Güvenli kullanım: rich parse patlarsa düz t'ye düş
+  try {
+    return t.rich(key, {
+      b: (chunks) => <span className="font-bold">{chunks}</span>,
+      ul: (chunks) => (
+        <ul className="list-disc list-inside space-y-1 mt-2">
+          {chunks}
+        </ul>
+      ),
+      li: (chunks) => <li>{chunks}</li>,
+      br: () => <br />,
+    });
+  } catch (e) {
+    // Her ihtimale karşı, en azından düz metin gelsin
+    return t(key);
+  }
+};
   
   return (
     <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] py-[18px]">
-      {/* <div>
-        <div className="xl:w-[1264px] w-[90%] px-0 lg:px-12 pt-[18px] lg:pt-7 pb-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-3.5">
-          <h3 className="relative text-center justify-start text-[#140f25] text-[24px] lg:text-5xl font-semibold font-inter leaidng-[120%] lg:leading-[57.60px] -tracking-[0.48px]">
-           {t("whyUs_header1")}
-          </h3>
-          <p className="lg:w-[718px] w-[94%] relative text-center justify-start text-[#140f25] text-[14px] lg:text-[14px] font-normal font-inter leading-[130%] lg:leading-snug -tracking-[0.28px]">
-           {t("whyUs_text1")}
-          </p>
-        </div>
-      </div> */}
 
       <div className="flex lg:hidden flex-col lg:flex-row gap-12 font-inter items-center justify-center">
       {/* Desktop için mevcut yapı */}
@@ -133,9 +142,17 @@ export default function WhyUsSection() {
                   {card.title}
                 </h4>
                 <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-                  <p className={`lg:w-[502px] w-[94%] relative text-justify justify-start ${card.textColor} lg:text-[14px] font-normal lg:leading-snug text-[14px] font-inter28`}>
-                    {card.description}
-                  </p>
+               <p
+  className={`
+    lg:w-[502px] w-[94%] relative text-justify justify-start
+    ${card.textColor} lg:text-[14px] text-[14px]
+    font-normal lg:leading-snug font-inter28
+  `}
+>
+  {renderRichDescription(card.descriptionKey)}
+</p>
+
+
                   <button
                     type="button"
                     className={`px-8 py-4 rounded-[14px] lg:border-2 lg:border-[#54b9cf] inline-flex justify-center items-center gap-2.5 ${card.buttonColor}`}
@@ -165,12 +182,32 @@ export default function WhyUsSection() {
           {/* Card: Innovative Solutions */}
           <div className="lg:w-[90%] w-full px-[3%] xl:px-[40px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3">
             <h5 className="w-full xl:w-[502px] relative justify-start text-[#140f25] text-[18px]  font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
-              {t("whyUs_header2")}
+              {t("whyUs_header1")}
             </h5>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-              <p className="lg:w-[100%] w-[94%] relative text-justify justify-start text-[#140f25] lg:text-[14px] font-normal  lg:leading-snug text-[14px] font-inter28 ">
-               {t("whyUs_text2")}
-              </p>
+              <p
+  className="
+    lg:w-[100%] w-[94%] relative text-justify justify-start
+    text-[#140f25] lg:text-[14px] text-[14px]
+    font-normal lg:leading-snug font-inter28
+  "
+>
+  {t.rich("whyUs_text1", {
+    // kalın metin için
+    b: (chunks) => <span className="font-bold">{chunks}</span>,
+
+    // JSON'da <ul> ... </ul> kullanırsan
+    ul: (chunks) => (
+      <ul className="list-disc list-inside space-y-1 mt-2">
+        {chunks}
+      </ul>
+    ),
+
+    // JSON'da <li> ... </li> kullanırsan
+    li: (chunks) => <li>{chunks}</li>,
+  })}
+</p>
+
           
             </div>
           </div>
@@ -187,11 +224,11 @@ export default function WhyUsSection() {
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>
             <h5 className="w-full lg:w-[100%] lg:h-[230px] relative justify-end text-white text-[18px] font-semibold  leading-[120%] lg:leading-[28.80px] -tracking-[0.4px]">
-              {t("whyUs_header4")}
+              {t("whyUs_header3")}
             </h5>
             <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
               <p className="w-[94%] lg:w-[100%] relative text-justify justify-start text-white lg:text-[14px] font-normal lg:leading-snug text-[14px] font-inter28">
-                {t("whyUs_text4")}
+                {t("whyUs_text3")}
               </p>
            
             </div>
@@ -199,11 +236,11 @@ export default function WhyUsSection() {
 
           <div className="lg:w-[90%] w-full px-[3%] xl:px-[40px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3">
             <h5 className="w-full xl:w-[502px] relative justify-start text-[#140f25] text-[18px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
-              {t("whyUs_header6")}
+              {t("whyUs_header5")}
             </h5>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
               <p className="lg:w-[100%] w-[94%] relative text-justify justify-start text-[#140f25] lg:text-[14px] font-normal  lg:leading-snug text-[14px] font-inter28">
-               {t("whyUs_text6")}
+               {t("whyUs_text5")}
               </p>
             
             </div>
@@ -211,11 +248,11 @@ export default function WhyUsSection() {
 
            <div className="lg:w-[90%] w-full lg:px-[40px] px-[3%] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3">
             <h5 className="w-full xl:w-[502px] relative justify-start text-[#140f25] text-[18px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
-              {t("whyUs_header8")}
+              {t("whyUs_header7")}
             </h5>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
               <p className="lg:w-[100%] w-[94%] relative text-justify justify-start text-[#140f25] lg:text-[14px] font-normal  lg:leading-snug text-[14px] font-inter28">
-               {t("whyUs_text8")}
+               {t("whyUs_text7")}
               </p>
             
             </div>
@@ -237,11 +274,11 @@ export default function WhyUsSection() {
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>
             {/* İçerikler */}
             <h5 className="w-full lg:w-[502px] lg:h-[252px] relative z-10 text-white text-[18px] font-semibold leading-[120%] lg:leading-[28.80px] -tracking-[0.4px]">
-              {t("whyUs_header3")}
+              {t("whyUs_header2")}
             </h5>
             <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px] relative z-10">
               <p className="w-[94%] lg:w-[100%] relative text-justify text-white lg:text-[14px] font-normal  lg:leading-snug text-[14px] font-inter28">
-               {t("whyUs_text3")}
+               {t("whyUs_text2")}
               </p>
          
             </div>
@@ -249,11 +286,11 @@ export default function WhyUsSection() {
           {/* Card: Continuous Support and Counselling */}
           <div className="w-[100%] lg:w-[90%] lg:px-[40px] py-12 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col lg:justify-start lg:items-start justify-center items-center gap-3">
             <h5 className="w-full lg:w-[100%] relative  justify-center lg:justify-start text-[#140f25] text-[18px] font-semibold leading-[120%] lg:leading-[28.80px] -tracking-[0.4px]">
-              {t("whyUs_header5")}
+              {t("whyUs_header4")}
             </h5>
             <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
               <p className="w-[94%] lg:w-[100%] relative text-justify justify-start text-[#140f25] lg:text-[14px] font-normal lg:leading-snug text-[14px] font-inter28">
-                {t("whyUs_text5")}
+                {t("whyUs_text4")}
               </p>
             
             </div>
@@ -272,11 +309,11 @@ export default function WhyUsSection() {
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>
             {/* İçerikler */}
             <h5 className="w-full  lg:h-[252px] relative z-10 text-white text-[18px] font-semibold leading-[120%] lg:leading-[28.80px] -tracking-[0.4px]">
-              {t("whyUs_header7")}
+              {t("whyUs_header6")}
             </h5>
             <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px] relative z-10">
               <p className="w-[94%] lg:w-[100%] relative text-justify text-white lg:text-[14px] font-normal font-['Inter'] lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%]">
-               {t("whyUs_text7")}
+               {t("whyUs_text6")}
               </p>
              
             </div>

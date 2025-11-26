@@ -193,7 +193,7 @@ export const routing = defineRouting({
     },
     "/Services/sem/googleAdsAdvertising": { // https://www.dgtlface.com/tr/Services/sem/googleAdsAdvertising
       en: "/services/sem/google-ads-advertising",
-      tr: "/antalya-sem/google-ads-reklamlari",
+      tr: "/sem/google-ads-yonetimi",
       ru: "/uslugi/sem/reklama-google-ads",
     },
     "/Services/sem/googleWebtools": { // https://www.dgtlface.com/tr/Services/sem/googleWebtools

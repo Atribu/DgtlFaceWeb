@@ -7,6 +7,179 @@ import { useTranslations } from "next-intl";
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
+import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
+import RichTextSpan from '../../components/common/RichTextSpan'
+import { AiSourceMention } from '../../components/common/AiSourceMention'
+
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "description": "DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını dönüşüm odaklı olarak yöneten profesyonel bir SEM ve dijital reklam ajansıdır.",
+      "logo": "https://dgtlface.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/#webpage",
+      "url": "https://dgtlface.com/tr/sem",
+      "name": "Google Ads & Dijital Reklam Yönetimi – Dönüşüm Odaklı Reklam Stratejileri | DGTLFACE",
+      "description": "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı SEM yönetimi sunar. Arama ağı, Display, YouTube ve remarketing kampanyalarıyla görünürlüğünüzü ve satışlarınızı artırır.",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "about": [
+        "google ads yönetimi",
+        "dijital reklam ajansı",
+        "youtube reklam yönetimi",
+        "remarketing",
+        "performans pazarlaması",
+        "otel google ads"
+      ],
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/sem/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/#service",
+      "name": "Google Ads & Dijital Reklam Yönetimi – SEM Hizmetleri",
+      "url": "https://dgtlface.com/tr/sem",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "serviceType": "Google Ads yönetimi, dijital reklam yönetimi, SEM hizmetleri",
+      "description": "DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display reklamlarını dönüşüm odaklı bir yapıda yöneten profesyonel bir SEM ajansıdır. Özellikle oteller ve turizm sektöründe satış ve rezervasyon odaklı reklam kurgularıyla maksimum görünürlük ve dönüşüm sağlar.",
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"],
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "google ads yönetimi",
+        "dijital reklam ajansı",
+        "youtube reklam yönetimi",
+        "profesyonel google ads",
+        "google ads optimizasyonu",
+        "performans pazarlaması",
+        "google ads kampanya yönetimi nasıl yapılır",
+        "google ads dönüşüm maliyeti düşürme yöntemleri",
+        "google reklamları ile satış artırma",
+        "remarketing kampanyası nasıl kurulur",
+        "google ads bütçe optimizasyonu",
+        "otel google ads yönetimi",
+        "turizm google reklamcılığı",
+        "booking google ads entegrasyonu",
+        "google ads yönetimi antalya",
+        "antalya dijital reklam ajansı",
+        "antalya sem ajansı"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://dgtlface.com/tr/sem/#services-list",
+      "name": "DGTLFACE SEM Hizmetleri",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "Google Ads Kampanya Yönetimi",
+          "url": "https://dgtlface.com/tr/sem/google-ads-yonetimi"
+        },
+        {
+          "@type": "Service",
+          "name": "YouTube Reklam Yönetimi",
+          "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
+        },
+        {
+          "@type": "Service",
+          "name": "Remarketing & Display Reklamlar",
+          "url": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "Service",
+          "name": "Dönüşüm Takibi & Tag Manager",
+          "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager"
+        },
+        {
+          "@type": "Service",
+          "name": "Reklam Raporlama & Performans Analizi",
+          "url": "https://dgtlface.com/tr/sem/reklam-raporlama"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM – Dijital Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/sem"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DGTLFACE SEM hizmetleri neleri kapsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DGTLFACE; Google Ads, YouTube Ads, Remarketing, Display kampanyaları, dönüşüm takibi ve reklam raporlamayı kapsayan tam kapsamlı SEM hizmetleri sunar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için Google Ads stratejileri nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oteller için marka ve destinasyon aramaları, erken rezervasyon, son dakika satışları, remarketing ve ülke bazlı kampanyalarla doluluk ve gelir odaklı Google Ads stratejileri kurgulanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Conversion tracking neden bu kadar önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm takibi olmadan kampanyaların gerçek satış ve rezervasyon etkisini ölçmek mümkün değildir. Conversion tracking ile bütçenizi kazandıran kampanyalara kaydırabilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+}
 
 export async function generateMetadata() {
   const title =
@@ -50,69 +223,7 @@ export async function generateMetadata() {
 }
 
 
-const servicesData = [
-  {
-    id: 1,
-    title: "Advertising Management",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/sem/advertisingManagement"
-  },
-  {
-    id: 2,
-    title: "Web Traffic Tracking",
-    subTitle: "Deign Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/sem/webTraffic"
-  },
-  {
-    id: 3,
-    title: "Google Webtools",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/googleWebtools"
-  },
-  {
-    id: 4,
-    title: "Yandex Advertising",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/yandexAdvertising"
-  },
 
-  {
-    id: 5,
-    title: "Google Ads Advertising",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-      buttonLink:"/Services/sem/googleAdsAdvertising"
-  },
-];
 
 const page = () => {
   const t = useTranslations("Sem");
@@ -125,109 +236,151 @@ const page = () => {
   text: t(`sem_services_text${i}`),
   features: [1,2,3,4].map(j => t(`sem_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/sem/advertisingManagement",
+    "/Services/sem/googleAdsAdvertising",
     "/Services/sem/webTraffic",
     "/Services/sem/googleWebtools",
     "/Services/sem/yandexAdvertising",
-    "/Services/sem/googleAdsAdvertising"
+    "/Services/sem/advertisingManagement"
+    
   ][i-1]
 }));
 
 const items = [
     {
-      title: "SEM Nedir? DGTLFACE’in Dönüşüm Odaklı Reklam Yaklaşımı",
-      text: `SEM (Search Engine Marketing), arama motorlarında ve bağlı ağlarda reklam vererek hedef kitlenizin satın alma niyetine en yakın anda görünür olmanızı sağlar. DGTLFACE olarak SEM’i; Google Ads arama kampanyaları, Display reklamlar, YouTube video kampanyaları, remarketing ve dönüşüm takibi ile birlikte ele alırız. Bütçenizi rastgele tıklamalara değil, ölçülebilir sonuçlara ve dönüşüm maliyeti optimizasyonuna odaklarız. Reklam metinlerinden açılış sayfalarına, teklif stratejisinden dönüşüm aksiyonlarına kadar tüm süreci tek bir performans mimarisi içinde yönetir; kampanyalarınızı “kur ve unut” yerine, sürekli test edilen ve gelişen canlı bir sistem haline getiririz.`,
+      title: t("h2Section.title1"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text1"
+          className=""
+        />
+      ),
     },
     {
-      title: "Oteller ve Turizm Markaları İçin Özel SEM Stratejileri",
-      text: `Otel ve turizm sektöründe Google Ads, yalnızca “daha fazla tıklama” değil, daha fazla doluluk ve daha yüksek oda geliri demektir. DGTLFACE, otel google ads yönetimi, turizm google reklamcılığı, PMS ve OTA entegrasyonlu kampanyalar gibi dikey odaklı kurgularla çalışır.
-“Oteller için Google Ads stratejisi nasıl olmalı, google reklamları ile satış nasıl artırılır, rez ervasyon dönüşüm maliyeti nasıl düşürülür?” gibi soruların tamamını; sezon, pazar, hedef ülke ve oda tiplerine göre ayrı analiz ederiz. Alışveriş dönemleri, erken rezervasyon kampanyaları, son dakika satışları, marka & generic anahtar kelime dengesi ve remarketing kurgularıyla oteliniz için uçtan uca bir dijital reklam motoru kurarız.`,
+      title: t("h2Section.title2"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text2"
+          className=""
+        />
+      ),
     },
     {
-      title: "Veri ve Dönüşüm Odaklı Reklam Yönetimi: Ölçmediğimizi Yönetmeyiz",
-      text: `SEM’de başarı, yalnızca tıklama sayısıyla değil; dönüşüm sayısı ve dönüşüm maliyeti ile ölçülür. DGTLFACE olarak dönüşüm takibi, Google Tag Manager, Google Analytics 4 ve çağrı/rezervasyon izleme süreçlerini kusursuz hale getirmeden reklam bütçesini büyütmeyiz. Form doldurma, online rezervasyon, telefon araması, WhatsApp tıklaması gibi tüm aksiyonları takip eder; “Google Ads dönüşüm maliyeti düşürme yöntemleri, reklamdan gelen satışları nasıl doğru ölçeriz, remarketing kampanyası nasıl kurulur?” gibi kritik sorulara veriye dayalı cevap üretiriz. Bu sayede reklam bütçeniz karanlık bir kutu olmaktan çıkar, tamamen şeffaf bir performans yatırımına dönüşür.`,
+      title: t("h2Section.title3"),
+      text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text3"
+          className=""
+        />
+      ),
     },
     {
-      title: "Google Ads Kanal Kırılımı: Arama, Görüntülü Reklamlar ve YouTube",
-      text: `Google Ads ekosistemi; arama ağı, Display (görüntülü) ağ, YouTube, Discovery ve remarketing gibi farklı kanallardan oluşur. DGTLFACE, her kanalı farklı bir amaç için kullanır:
-
-Arama Ağı → Satış / rezervasyon odaklı, niyet yüksek, performans kampanyaları
-
-Display & Discovery → Marka bilinirliği, yeniden hedefleme ve üst hunide görünürlük
-
-YouTube → Video ile hikâye anlatımı, marka algısı ve remarketing destek
-
-Remarketing → Sepeti terk eden, siteyi ziyaret edip ayrılan veya videoyu izleyip dönüşmeyen kullanıcıları geri kazanma
-
-Bu yapı sayesinde, “Google reklamları ile satış artırma, display reklam optimizasyonu, YouTube bumper ads yönetimi” gibi ihtiyaçların tamamını tek bir strateji altında toplarız.`,
+      title: t("h2Section.title4"),
+       text: (
+        <RichTextSpan
+          ns="Sem"
+          id="h2Section.text4"
+          className=""
+        />
+      ),
     },
   ];
 
+const renderDescription = (key) =>
+  t2.rich(key, {
+    // <br /> → satır atlat
+    br: () => <><br /></>,
 
-  const cards = [
-    {
-      widthClass: "w-[80%]",
-      title: t2("card1title"),
-      description: t2("card1description"),
-    },
-    {
-      widthClass: "w-[75%]",
-      title: t2("card2title"),
-      description: t2("card2description"),
-    },
-    {
-      widthClass: "w-[70%]",
-      title: t2("card3title"),
-      description: t2("card3description"),
-    },
-    {
-      widthClass: "w-[85%]",
+    // <ul> wrapper (JSON'da kullanırsan)
+    ul: (chunks) => (
+      <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
+        {chunks}
+      </ul>
+    ),
+
+    // <li> → tek tek maddeler
+    li: (chunks) => <li>{chunks}</li>,
+
+    // istersen kalın da destekleyelim
+    b: (chunks) => <span className="font-semibold">{chunks}</span>,
+  });
+
+const cards = [
+  {
+    widthClass: "w-[90%] lg:w-[80%]",
+    title: t2("card1title"),
+    description: renderDescription("card1description"),
+  },
+  {
+    widthClass: "w-[90%] lg:w-[75%]",
+    title: t2("card2title"),
+    description: renderDescription("card2description"),
+  },
+  {
+    widthClass: "w-[90%] lg:w-[70%]",
+    title: t2("card3title"),
+    description: renderDescription("card3description"),
+  },
+     {
+      widthClass: "w-[90%] lg:w-[85%]",
       title: t2("card4title"),
-      description: t2("card4description"),
+      description:renderDescription("card4description"),
     },
-  ];
+];
+
 
   const faqs = [
     {
       question: "DGTLFACE hangi tür işletmeler için Google Ads ve SEM hizmeti veriyor?",
       answer:
-        "DGTLFACE, ağırlıklı olarak oteller ve turizm markaları ile çalışsa da; hizmet, sağlık, gayrimenkul, B2B ve e-ticaret alanlarında faaliyet gösteren markalar için de Google Ads ve dijital reklam yönetimi hizmeti sunar. Her sektörde temel prensibimiz aynıdır: dönüşüm odaklı, veriye dayalı ve uzun vadeli performans modeli kurmak.",
+        "DGTLFACE, ağırlıklı olarak oteller ve turizm markaları ile çalışsa da; hizmet, sağlık, gayrimenkul, B2B ve e-ticaret alanlarında da dönüşüm odaklı SEM hizmeti sunar.",
     },
     {
       question:
-        "Sadece Google Ads mi yönetiyorsunuz, yoksa diğer reklam kanallarını da kapsıyor mu?",
+        "Sadece Google Ads mi yönetiyorsunuz?",
       answer:
-        "Ana odağımız Google Ads olsa da, çoğu projede Meta Ads (Instagram & Facebook), YouTube, Display ağları ve gerektiğinde diğer dijital reklam kanallarını da aynı strateji altında yönetiyoruz. Böylece kullanıcıların sizi sadece arama sonuçlarında değil, tüm dijital temas noktalarında görmesini sağlıyoruz.",
+        "Ana odağımız Google Ads olsa da Meta Ads, YouTube Ads, Display ve diğer reklam ağlarını tek strateji altında yönetiriz.",
     },
     {
-      question: "Google Ads kampanyalarıyla ne kadar sürede sonuç almaya başlarım?",
+      question: "Google Ads kampanyalarıyla ne kadar sürede sonuç alırım?",
       answer:
-        "Sektör, rekabet, bütçe ve hedeflere göre değişmekle birlikte, Google Ads kampanyalarında genellikle ilk 2–4 hafta optimizasyon ve test, sonraki dönemde ise ölçekleme ve performans artırma sürecine geçilir. DGTLFACE olarak bu süreci şeffaf raporlarla birlikte yönetir, hangi değişikliğin ne sonuç verdiğini düzenli olarak paylaşırız.",
+        "Genelde 2–4 hafta optimizasyon + test sürecidir. Ardından ölçekleme ve performans artırma aşamasına geçilir.",
     },
 
     {
-      question: "Bütçem küçükse de profesyonel Google Ads yönetimi almalı mıyım?",
+      question: "Küçük bütçelerde profesyonel yönetim gerekli mi?",
       answer:
-        "Evet, özellikle küçük bütçelerde yanlış kurgulanmış kampanyalar çok hızlı şekilde boşa harcama yaratabilir. Profesyonel Google Ads yönetimi ile hem hedeflemeyi hem de teklif ve reklam metni optimizasyonunu doğru yaparak; bütçenizin her kuruşunu daha yüksek dönüşüm potansiyeli olan alanlara yönlendirebiliriz. Bu da küçük bütçelerde bile anlamlı sonuçlar almanızı sağlar.",
+        "Evet. Küçük bütçelerde yapılan hatalar daha hızlı boşa harcama yaratır. DGTLFACE ile bütçenin her kuruşu dönüşüm potansiyeline göre yönetilir.",
     },
 
     {
       question: "DGTLFACE ile çalışmaya başlamak için süreç nasıl işliyor?",
       answer:
-        "Öncelikle hesaplarınızı ve mevcut durumunuzu hızlı bir ön analiz ile inceliyoruz. Ardından hedefleriniz, sezon planlarınız ve bütçe yapınıza göre bir SEM yol haritası çıkarıyoruz. Onayınız sonrası, kampanya kurulumları, dönüşüm takibi, Tag Manager ve raporlama panellerini devreye alıyor; ilk 30–60 günde agresif optimizasyon sürecini yönetiyoruz.",
+        "Hesap analizi → Hedef–pazar planı → Kampanya kurulumları → Dönüşüm takibi + raporlama → İlk 30–60 gün agresif optimizasyon.",
     },
 
     {
-      question: "Lokal olarak Antalya’da mısınız, uzaktan da çalışıyor musunuz?",
+      question: "Antalya dışında da çalışıyor musunuz?",
       answer:
-        "Evet, DGTLFACE Antalya merkezli bir dijital reklam ve teknoloji ajansıdır. Antalya’daki oteller ve işletmelerle yüz yüze iletişim kurabildiğimiz gibi, Türkiye ve yurt dışındaki markalarla da tamamen online süreçler üzerinden çalışıyoruz. Raporlama, toplantı ve optimizasyon süreçleri, uzaktan da şeffaf ve düzenli şekilde ilerler.",
+        "Evet. Antalya merkezliyiz ama Türkiye ve yurt dışındaki birçok marka ile online olarak çalışıyoruz.",
     },
   ];
 
   
   return (
+    <>
+     {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+      
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[60px] overflow-hidden'>
-     <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")} buttonText={t("buttonText")}/>
+     <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
+     <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni, hedef kitle ve dönüşüm takibi gibi tüm süreçler entegre ilerler. Özellikle oteller ve turizm markaları için görünürlük, doluluk ve gelir artışını sağlayan, veriye dayalı bir dijital reklam modeli sunar."/>
      <DualHighlightSection items={items} />
       <StepSection header={""} header2={t("sem_section_header1")} text={t("sem_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
        <LogoListSection
@@ -236,11 +389,15 @@ Bu yapı sayesinde, “Google reklamları ile satış artırma, display reklam o
       introSubtitle={""}
       introDescription={""}
       cards={cards}
+      bgColor="#ffffff"
+      textColor="#140f25"
     />
-      <VerticalSlider/>
+      <VerticalSlider page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
+     <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEM dokümantasyonu ve hizmet tanımlarından derlenmiştir."/>
       <Contact/>
     </div>
+    </>
   )
 }
 

@@ -25,36 +25,7 @@ function VBlock({ status, currentIndex, selectedC, gradient, ...props }) {
   // ? " svgShadow  left-[15px] top-[20px] !h-[24[x]] !w-[17px]"
   // : " left-[15px] top-[20px] !h-[24[x]] !w-[17px]",
   const icons = [
-    {
-      icon: Temp2,
-      classGradient:
-        "svgShadow  lg:left-[7.5px] lg:top-[10px] lg:!h-[24px] lg:!w-[37.5px] h-[12px] w-[18px] top-[-20px] left-[5px]",
-      class:
-        "lg:left-[15px] lg:top-[5px] lg:!h-[16px] lg:!w-[25px] lg:mt-[29px] top-[8px] w-[12.5px] h-[8px] left-[7px]",
-    },
-    {
-      icon: CallIconV,
-      classGradient:
-        "svgShadow  lg:left-[10px] lg:top-[10px] lg:!w-[36px] lg:!h-[25.5px] w-[18px] h-[12px] top-[-20px] left-[5px]",
-      class:
-        "lg:left-[15px] lg:top-[5px] lg:!h-[17px] lg:!w-[24px] lg:mt-[29px] h-[8.5px] w-[12px] top-[8px] left-[7px]",
-    },
-    {
-      icon: OtaV,
-      classGradient:
-        "svgShadow  lg:left-[-5px] lg:top-[0px] lg:!w-[60px] lg:!h-[49px] w-[22.5px] h-[15px] top-[-23px] left-[3px]",
-      class:
-        "lg:left-[11px] lg:top-[0px] lg:!h-[24.5px] lg:!w-[30px]  lg:mt-[29px] w-[15px] h-[12px] top-[7px] left-[5px]",
-    },
-    {
-      icon: SeoV,
-      classGradient:
-        "svgShadow  lg:left-[5px] lg:top-[0px] lg:!h-[36px] lg:!w-[42px] lg:mt-[10px] w-[15px] h-[10px] top-[-25px] left-[6px]",
-      class:
-        "lg:left-[17px] lg:top-[5px] lg:!h-[20px] lg:!w-[21px] lg:mt-[29px] w-[10px] h-[8px] top-[8px] left-[8px]",
-    },
-
-    {
+  {
       icon: Temp1,
       classGradient:
         "svgShadow  lg:left-[2px] lg:top-[0px] lg:!h-[37.5px] lg:!w-[49.5px] w-[22.5px] h-[15px] top-[-23px] left-[3px]",
@@ -62,20 +33,55 @@ function VBlock({ status, currentIndex, selectedC, gradient, ...props }) {
         "lg:left-[10px] lg:top-[2px] lg:!h-[25px] lg:!w-[33px] lg:mt-[29px] w-[15px] h-[10px] top-[7px] left-[6px]",
     },
 
-    {
+     {
+      icon: OtaV,
+      classGradient:
+        "svgShadow  lg:left-[-5px] lg:top-[0px] lg:!w-[60px] lg:!h-[49px] w-[22.5px] h-[15px] top-[-23px] left-[3px]",
+      class:
+        "lg:left-[11px] lg:top-[0px] lg:!h-[24.5px] lg:!w-[30px]  lg:mt-[29px] w-[15px] h-[12px] top-[7px] left-[5px]",
+    },
+  {
       icon: SocialV,
       classGradient:
         "svgShadow  lg:left-[-15px] lg:top-[-10px] lg:!w-[79px] lg:!h-[45px] w-[22.5px] h-[15px] top-[-23px] left-[3px]",
       class:
         "lg:left-[6px] lg:top-[2px] lg:!h-[22.5px] lg:!w-[39.5px]  lg:mt-[29px] w-[15px] h-[10px] top-[8px] left-[6px]",
     },
-    {
+   
+        {
       icon: SoftV,
       classGradient:
         "svgShadow  lg:left-[-5px] lg:top-[0px] lg:!w-[65px] lg:!h-[47px] w-[22.5px] h-[15px] top-[-23px] left-[3px]",
       class:
         "lg:left-[10px] lg:top-[1px] lg:!h-[23.5px] lg:!w-[32.5px] lg:mt-[29px] w-[15px] h-[10px] top-[7px] left-[6px]",
     },
+
+
+  
+        {
+      icon: Temp2,
+      classGradient:
+        "svgShadow  lg:left-[7.5px] lg:top-[10px] lg:!h-[24px] lg:!w-[37.5px] h-[12px] w-[18px] top-[-20px] left-[5px]",
+      class:
+        "lg:left-[15px] lg:top-[5px] lg:!h-[16px] lg:!w-[25px] lg:mt-[29px] top-[8px] w-[12.5px] h-[8px] left-[7px]",
+    },
+
+  
+     {
+      icon: CallIconV,
+      classGradient:
+        "svgShadow  lg:left-[10px] lg:top-[10px] lg:!w-[36px] lg:!h-[25.5px] w-[18px] h-[12px] top-[-20px] left-[5px]",
+      class:
+        "lg:left-[15px] lg:top-[5px] lg:!h-[17px] lg:!w-[24px] lg:mt-[29px] h-[8.5px] w-[12px] top-[8px] left-[7px]",
+    },
+        {
+      icon: SeoV,
+      classGradient:
+        "svgShadow  lg:left-[5px] lg:top-[0px] lg:!h-[36px] lg:!w-[42px] lg:mt-[10px] w-[15px] h-[10px] top-[-25px] left-[6px]",
+      class:
+        "lg:left-[17px] lg:top-[5px] lg:!h-[20px] lg:!w-[21px] lg:mt-[29px] w-[10px] h-[8px] top-[8px] left-[8px]",
+    },
+
     {
       icon: AnalysisV,
       classGradient:

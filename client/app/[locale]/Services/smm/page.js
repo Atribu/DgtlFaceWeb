@@ -1,82 +1,315 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
-import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
 import { useTranslations } from "next-intl";
+import RichTextSpan from '../../components/common/RichTextSpan'
+import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
+import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
+import LogoListSection from '../../components/subPageComponents/LogoListSection'
+import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
+import { AiSourceMention } from '../../components/common/AiSourceMention'
 
-const servicesData = [
-  {
-    id: 1,
-    title: "Social Media Planning",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/smm/socialMediaPlanning"
-  },
-  {
-    id: 2,
-    title: "Social Media Management",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/smm/socialMediaManagement"
-  },
-  {
-    id: 3,
-    title: "Social Media Reporting",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/smm/socialMediaReporting"
-  },
-  {
-    id: 4,
-    title: "Social Media Content",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/smm/socialMediaContent"
-  },
-
-  {
-    id: 5,
-    title: "Social Media Analysis",
-    subTitle: " Service",
-    features: [
-      "Logo Design",
-      "Brand Guidelines",
-      "Social Media Graphics",
-      "Creating and Editing Motionography",
-    ],
-    buttonLink:"/Services/smm/socialMediaAnalysis"
-  },
-];
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "description": "DGTLFACE, markalar ve oteller için sosyal medya stratejisi, içerik üretimi, Reels & video, reklam yönetimi ve analiz sunan profesyonel bir sosyal medya ajansıdır.",
+      "logo": "https://dgtlface.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#webpage",
+      "url": "https://dgtlface.com/tr/sosyal-medya-yonetimi",
+      "name": "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE",
+      "description": "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar. Instagram, Facebook ve YouTube için profesyonel sosyal medya yönetimi hizmeti alın.",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "about": [
+        "sosyal medya yönetimi",
+        "sosyal medya ajansı",
+        "instagram yönetimi",
+        "sosyal medya danışmanlığı",
+        "otel sosyal medya yönetimi"
+      ],
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#service",
+      "name": "Sosyal Medya Yönetimi – Profesyonel SMM Stratejileri",
+      "url": "https://dgtlface.com/tr/sosyal-medya-yonetimi",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "serviceType": "sosyal medya yönetimi, sosyal medya reklamları, içerik üretimi, SMM stratejisi",
+      "description": "DGTLFACE, sosyal medya stratejisi, içerik üretimi, planlama, Reels & video prodüksiyon, reklam yönetimi ve performans analizi ile markalar ve oteller için profesyonel sosyal medya yönetimi sunar.",
+      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"],
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "sosyal medya yönetimi",
+        "sosyal medya ajansı",
+        "instagram yönetimi",
+        "sosyal medya danışmanlığı",
+        "içerik üretimi hizmeti",
+        "sosyal medya reklam yönetimi",
+        "sosyal medya yönetimi nasıl yapılır",
+        "instagram içerik planı nasıl hazırlanır",
+        "sosyal medya etkileşimi artırma yolları",
+        "işletmeler için sosyal medya stratejisi",
+        "oteller için sosyal medya pazarlaması",
+        "turizm sektöründe sosyal medya",
+        "reel video nasıl viral olur",
+        "içerik takvimi oluşturma",
+        "sosyal medya raporu nasıl hazırlanır",
+        "otel sosyal medya yönetimi",
+        "resort instagram yönetimi",
+        "otel reels video üretimi",
+        "sosyal medya yönetimi antalya",
+        "antalya sosyal medya ajansı",
+        "instagram yönetimi türkiye",
+        "sosyal medya danışmanı antalya"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#services-list",
+      "name": "DGTLFACE SMM Hizmetleri",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "Sosyal Medya İçerik Üretimi",
+          "url": "https://dgtlface.com/tr/smm/icerik-uretimi"
+        },
+        {
+          "@type": "Service",
+          "name": "Planlama ve Strateji",
+          "url": "https://dgtlface.com/tr/smm/planlama-strateji"
+        },
+        {
+          "@type": "Service",
+          "name": "Reels & Video İçerik Üretimi",
+          "url": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "Service",
+          "name": "Sosyal Medya Reklamları",
+          "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+        },
+        {
+          "@type": "Service",
+          "name": "Analiz & Raporlama",
+          "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya yönetimi sadece post paylaşmak mıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Profesyonel sosyal medya yönetimi; strateji, içerik üretimi, tasarım, video, planlama, reklam, topluluk yönetimi ve raporlama gibi birçok sürecin birlikte çalıştığı bir yapıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için sosyal medya gerçekten rezervasyon getirir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru strateji, doğru içerik ve reklam kurgusuyla evet. Özellikle Reels, kısa video ve kampanya iletişimi, misafirin otel tercihinde ciddi rol oynar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sadece içerik üretimi veya sadece reklam yönetimi hizmeti alabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, sadece içerik üretimi, sadece planlama veya sadece sosyal medya reklam yönetimi hizmeti alabilirsiniz. Ancak en güçlü sonuçlar bu alanların entegre çalıştığı modellerde elde edilir."
+          }
+        }
+      ]
+    }
+  ]
+}
 
 const page = () => {
      const t = useTranslations("Smm");
+    const t2 = useTranslations("Smm.h4Section");
+
+          const faqs = [
+        {
+          question: t("faqs.question1"),
+          answer:
+            t("faqs.answer1"),
+        },
+        {
+          question: t("faqs.question2"),
+          answer:
+            t("faqs.answer2"),
+        },
+        {
+         question: t("faqs.question3"),
+          answer:
+            t("faqs.answer3"),
+        },
+    
+        {
+        question: t("faqs.question4"),
+          answer:
+            t("faqs.answer4"),
+        },
+    
+        {
+          question: t("faqs.question5"),
+          answer:
+            t("faqs.answer5"),
+        },
+    
+    
+      ];
+    
+       const items = [
+           {
+             title: t("h2Section.title1"),
+             text: (
+               <RichTextSpan
+                 ns="Smm"
+                 id="h2Section.text1"
+                 className=""
+               />
+             ),
+           },
+           {
+             title: t("h2Section.title2"),
+             text: (
+               <RichTextSpan
+                 ns="Smm"
+                 id="h2Section.text2"
+                 className=""
+               />
+             ),
+           },
+           {
+             title: t("h2Section.title3"),
+             text: (
+               <RichTextSpan
+                 ns="Smm"
+                 id="h2Section.text3"
+                 className=""
+               />
+             ),
+           },
+             {
+             title: t("h2Section.title4"),
+             text: (
+               <RichTextSpan
+                 ns="Smm"
+                 id="h2Section.text4"
+                 className=""
+               />
+             ),
+           },
+           
+         ];
+    
+         const renderDescription = (key) =>
+      t2.rich(key, {
+        // <br /> → satır atlat
+        br: () => <><br /></>,
+    
+        // <ul> wrapper (JSON'da kullanırsan)
+        ul: (chunks) => (
+          <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
+            {chunks}
+          </ul>
+        ),
+    
+        // <li> → tek tek maddeler
+        li: (chunks) => <li>{chunks}</li>,
+    
+        // istersen kalın da destekleyelim
+        b: (chunks) => <span className="font-semibold">{chunks}</span>,
+      });
+    
+    
+         const cards = [
+      {
+        widthClass: "w-[90%] lg:w-[80%]",
+        title: t2("card1title"),
+        description: renderDescription("card1description"),
+      },
+      {
+        widthClass: "w-[90%] lg:w-[75%]",
+        title: t2("card2title"),
+        description: renderDescription("card2description"),
+      },
+      {
+        widthClass: "w-[90%] lg:w-[70%]",
+        title: t2("card3title"),
+        description: renderDescription("card3description"),
+      },
+    
+    ];
+    
 
       const servicesData = [1,2,3,4,5].map(i => ({
   id: i,
   title: t(`smm_services_title${i}`),
   subTitle: t(`smm_services_subtitle${i}`),
+   text: t(`smm_services_text${i}`),
   features: [1,2,3,4].map(j => t(`smm_services_feature${i}_${j}`)),
   buttonLink: [
     "/Services/smm/socialMediaPlanning",
@@ -88,13 +321,33 @@ const page = () => {
 }));
 
   return (
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+   <>
+   {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[55px] lg:gap-[100px] overflow-hidden'>
        <MainBanner  header={t("smm_banner_header")} span={t("smm_banner_span")} text={t("smm_banner_text")} buttonText={t("buttonText")}/>
+       <AiAnswerBlock text="DGTLFACE, sosyal medya stratejisi, içerik üretimi, Reels & video, planlama, reklam yönetimi ve performans analizi gibi tüm SMM süreçlerini uçtan uca yönetir. Instagram, Facebook, YouTube ve TikTok için profesyonel içerikler üretir; turizm ve otel markaları için çok dilli sosyal medya yapılarını kurgular. SMM’i yalnızca estetik görsellerle sınırlamaz; veri odaklı yapı, reklam entegrasyonu ve rezervasyon odaklı içeriklerle markanız için gerçek iş sonucu üretir."/>
+       <DualHighlightSection items={items}/>
       <StepSection header={t("smm_section_header1")} header2={t("smm_section_header2")} text={t("smm_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#140F25"/>
+       <LogoListSection
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+      bgColor="#ffffff"
+      textColor="#140f25"
+    />
+      <VerticalSlider page="Smm" itemCount={4}/>
+      <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
+      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi sosyal medya yönetimi dokümantasyonundan ve sosyal medya strateji & içerik üretim süreçlerinden derlenmiştir."/>
     </div>
+    </>
   )
 }
 

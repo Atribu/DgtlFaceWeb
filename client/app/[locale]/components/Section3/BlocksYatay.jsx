@@ -6,6 +6,10 @@ import { useTranslations } from 'next-intl';
 
 const Section3 = () => {
   const t = useTranslations("Homepage.ourservices")
+
+    const bullets = Array.from({ length: 8 }, (_, i) =>
+    t(`bullet${i + 1}`)
+  );
   
   const [blocksOrder, setBlocksOrder] = useState([
     "0",
@@ -70,7 +74,7 @@ const Section3 = () => {
 >
 
 
-      <div className="w-[90%] md:w-[85%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
+      <div className="w-[95%] md:w-[89%] lg:w-[100%] relative flex flex-col-reverse lg:grid lg:grid-cols-2  bg-darkBlue  py-6 md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
          <div className="hidden lg:flex -ml-[20%]">
@@ -78,32 +82,109 @@ const Section3 = () => {
           blockPositions={blockPositions}/>
          </div>
        
-        <div className="flex flex-col text-start items-start justify-center h-full min-w-[600px] max-w-[800px] -ml-20">
+        <div className="flex flex-col text-center items-center lg:text-start lg:items-start justify-center h-full lg:min-w-[600px] max-w-[800px] lg:-ml-20">
           <h2 className=" flex flex-row lg:flex-col gap-2 text-[18px] lg:text-[20px] leading-[120%]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             
-            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[22px] lg:text-[24px]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
+            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[22px] lg:text-[24px] font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
               {t("services_title")}
             </h2>
           </h2>
 
           <div className="flex flex-col gap-2 w-full">
-            <p className="flex flex-col lg:hidden font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight w-full"> 
-             {t("services_text1")}
-              <br></br>
-              <span className="opacity-50 line-clamp-2">
-              {t("services_text2")}
-              </span>
-            </p>
 
-            <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-[130%] -tracking-[0.28px] hidden lg:flex ">
-               {t("services_text1")}
-            </p>
-            <p className="font-inter28 text-[14px] lg:text-[16px] text-white font-normal leading-tight hidden lg:flex ">
-              {t("services_text2")}
-            </p>
-          </div>
+             <p className="font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px] ">
+            {t.rich("intro1", {
+        strong: (chunks) => (
+          <span className="font-bold">
+            {chunks}
+          </span>
+        ),
+      })}
+      {/* {t.rich("services_text1", {
+        b: (chunks) => (
+          <span className="font-bold">
+            {chunks}
+          </span>
+        ),
+        seo: (chunks) => (
+          <Link
+            href="/services/seo"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        sem: (chunks) => (
+          <Link
+            href="/services/sem"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        social: (chunks) => (
+          <Link
+            href="/services/social-media"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        web: (chunks) => (
+          <Link
+            href="/services/web-development"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        creative: (chunks) => (
+          <Link
+            href="/services/creative-production"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        callcenter: (chunks) => (
+          <Link
+            href="/services/call-center"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+        analytics: (chunks) => (
+          <Link
+            href="/services/analytics-reporting"
+            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
+          >
+            {chunks}
+            <span aria-hidden>↗</span>
+          </Link>
+        ),
+      })} */}
+    </p>
 
-          <Link href="/Services" className="mt-3 gradient-border-button flex items-center w-full lg:w-[114px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px] ">
+      <p className="font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px] ">
+        {t("lead")}
+      </p>
+
+      {/* Liste */}
+      <div className="flex flex-col lg:flex-row items-center">
+        <ul className="w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-5 md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
+        {bullets.map((item, idx) => (
+          <li key={idx}>{item}</li>
+        ))}
+      </ul>
+
+         <Link href="/Services" className="mt-3 gradient-border-button flex items-center w-[100px] lg:w-[114px] h-[36px] lg:h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[12px] lg:text-[14px] ">
              {t("services_button")}
           </Link>
           <style jsx>{`
@@ -156,6 +237,9 @@ const Section3 = () => {
               }
             }
           `}</style>
+      </div>
+
+          </div>
         </div>
       </div>
     </div>

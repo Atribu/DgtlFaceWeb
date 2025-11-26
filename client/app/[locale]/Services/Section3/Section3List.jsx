@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import useEmblaCarousel from "embla-carousel-react";
 import React, { useCallback, useEffect, useState } from "react";
@@ -14,7 +15,7 @@ const Section3 = ({ page }) => {
 
   const richComponents = {
     // Bold
-    b: (chunks) => <span className="font-semibold">{chunks}</span>,
+    b: (chunks) => <span className="font-bold">{chunks}</span>,
 
     // --- SEM ---
     remarketing: (chunks) => (
@@ -234,16 +235,82 @@ const Section3 = ({ page }) => {
       </Link>
     ),
   };
+  
 
-  // 9 service kartını çeken mevcut data yapın
-  const servicesData = Array.from({ length: 9 }, (_, i) => {
-    const id = i + 1;
-    return {
-      title: t(`title${id}`),
-      items: [1, 2, 3].map((j) => `item${id}_${j}`),
-      link: t(`link${id}`),
-    };
-  });
+const CARD_COUNT = 9;
+const MAX_ITEMS = 6;
+
+const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
+  const id = i + 1;
+
+  const title = t(`title${id}`);
+
+  // --- textX varsa al ---
+  let textKey = null;
+  try {
+    const v = t(`text${id}`);
+    if (v && v.trim()) {
+      textKey = `text${id}`;
+    }
+  } catch {
+    textKey = null;
+  }
+
+  // --- endTextX varsa al ---
+  let endTextKey = null;
+  try {
+    const v = t(`endText${id}`);
+    if (v && v.trim()) {
+      endTextKey = `endText${id}`;
+    }
+  } catch {
+    endTextKey = null;
+  }
+
+  // --- itemX_Y listesi ---
+  // --- itemX_Y listesi ---
+  const items = [];
+  for (let j = 1; j <= MAX_ITEMS; j++) {
+    const key = `item${id}_${j}`;
+
+    let v;
+    try {
+      v = t(key);
+    } catch {
+      // next-intl hata atarsa zaten yok demektir
+      break;
+    }
+
+    if (!v || !v.trim()) {
+      // Boş string ise burada dur
+      break;
+    }
+
+    // next-intl eksik key için genelde "Homepage.servicesData.item6_6"
+    // gibi bir fallback döndürüyor. Bunu yakalayıp kırıyoruz.
+    const looksLikeFallback =
+      v === key ||                    // aynen key'i döndüyse
+      v.includes(`${page}.`) ||       // "Homepage." vs.
+      (v.endsWith(key) && v.includes(".")); // "....item6_6" gibi
+
+    if (looksLikeFallback) {
+      break;
+    }
+
+    items.push(key);
+  }
+
+
+  return {
+    title,
+    textKey,
+    endTextKey,
+    items,
+    link: t(`link${id}`),
+  };
+});
+
+
 
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -273,10 +340,7 @@ const Section3 = ({ page }) => {
   useEffect(() => {
     if (!emblaApi) return;
 
-    // Toplam slide sayısını al
     setSlideCount(emblaApi.scrollSnapList().length);
-
-    // İlk seçimi set et
     onSelect();
 
     emblaApi.on("select", onSelect);
@@ -293,51 +357,72 @@ const Section3 = ({ page }) => {
 
   return (
     <div className="flex justify-end items-end w-screen">
-      {/* embla viewport + kontrol barını saran relative container */}
       <div className="relative flex justify-start items-center w-[98%] lg:w-[90%]">
-        {/* Embla viewport */}
         <div
           className="flex justify-start items-center overflow-x-hidden w-full"
           ref={emblaRef}
         >
           <div className="flex">
             {servicesData.map((service, index) => (
-              <div
+              <Link
+                  href={service.link}
+              
                 key={index}
                 className="flex flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[300px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
               >
-                {/* 🔢 Sağ üst köşe index */}
+                {/* index */}
                 <span
                   className={`
-        absolute top-3 right-4 
-        font-mono  tracking-[0.25em]
-        ${
-          activeIndex === index
-            ? "text-white/90 text-[40px] lg:text-[60px]"
-            : "text-white/75 text-[28px] lg:text-[36px]"
-        }
-      `}
+                    absolute top-3 right-4 
+                    font-mono tracking-[0.25em]
+                    ${
+                      activeIndex === index
+                        ? "text-white/90 text-[40px] lg:text-[60px]"
+                        : "text-white/75 text-[28px] lg:text-[36px]"
+                    }
+                  `}
                 >
-                  {String(index + 1).padStart(2)}
+                  {String(index + 1).padStart(2, )}
                 </span>
 
                 <div className="flex flex-col mt-2 lg:mt-4 transition-all duration-500 group-hover:translate-y-[-10px]">
-                  <h3 className="w-[90%] lg:w-full text-white text-[16px] lg:text-[18px] font-bold mb-2 lg:mb-4 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
+                  {/* Başlık */}
+                  <h3 className="w-[90%] lg:w-full text-white text-[16px] lg:text-[18px] font-bold mb-1 lg:mb-2 transition-opacity duration-500 group-hover:opacity-100 opacity-75">
                     {service.title}
                   </h3>
-                  {service.items.map((itemKey, itemIndex) => (
-                    <p
-                      key={itemIndex}
-                      className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal font-inter28 leading-[125%] lg:leading-[140%] mb-2 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25 w-[70%]"
-                    >
-                      {itemKey && t.rich(itemKey, richComponents)}
+
+                  {/* Üst açıklama */}
+                  {service.textKey && (
+                    <p className="mb-2 text-[12px] lg:text-[14px] leading-[140%] transition-opacity duration-500 group-hover:opacity-100 opacity-50 text-white">
+                      {t.rich(service.textKey, richComponents)}
                     </p>
-                  ))}
+                  )}
+
+                  {/* Maddeler */}
+                  {service.items.length > 0 && (
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-4 mt-1">
+    {service.items.map((itemKey, itemIndex) => (
+      <div
+        key={itemIndex}
+        className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
+      >
+        •{t(itemKey)}
+      </div>
+    ))}
+  </div>
+)}
+
+                  {/* Alt açıklama */}
+                  {service.endTextKey && (
+                    <p className="mt-2 lg:mt-3 text-[12px] lg:text-[14px] leading-[140%] group-hover:opacity-100 opacity-50 text-white w-[90%]">
+                      {t.rich(service.endTextKey, richComponents)}
+                    </p>
+                  )}
                 </div>
 
-                {/* Sağ alttaki VBlock bileşeni */}
+                {/* Sağ alttaki VBlock */}
                 <div className="absolute -right-4 -bottom-10 lg:-right-12 lg:-bottom-[75px]">
                   <ServicesCarouselWrapper
                     selected={index}
@@ -345,26 +430,26 @@ const Section3 = ({ page }) => {
                   />
                 </div>
 
-                {/* Explore Butonu */}
+                {/* Explore butonu */}
                 <Link
                   href={service.link}
-                  className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white  w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+                  className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
                 >
                   {t2("services_button")}
                 </Link>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
 
-        {/* 🔽 Carousel index + yön tuşları (hemen dışına, sağ alta) */}
+        {/* index + oklar */}
         {slideCount > 0 && (
           <div className="absolute right-3 -bottom-9 lg:right-4 lg:-bottom-12 flex items-center gap-2 text-white/70 text-xs lg:text-[18px]">
             <button
               type="button"
               onClick={scrollPrev}
               className="flex h-7 w-7 lg:h-10 lg:w-10 items-center justify-center rounded-full border border-white/40 bg-[#140f25]/20 backdrop-blur-sm 
-                 hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+                       hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <span className="sr-only">Previous</span>
               <svg
@@ -384,21 +469,21 @@ const Section3 = ({ page }) => {
             </button>
 
             <span className="font-mono tracking-[0.2em] text-black">
-              {String(selectedIndex + 1).padStart(2)} /{" "}
-              {String(slideCount).padStart(2)}
+              {String(selectedIndex + 1).padStart(2,)} /{" "}
+              {String(slideCount).padStart(2,)}
             </span>
 
             <button
               type="button"
               onClick={scrollNext}
               className="flex h-7 w-7 lg:h-10 lg:w-10 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
-                 hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+                       hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
               <span className="sr-only">Next</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-               className="h-6 w-6 lg:h-8 lg:w-8"
+                className="h-6 w-6 lg:h-8 lg:w-8"
                 viewBox="0 0 24 24"
                 fill="none"
               >

@@ -95,16 +95,18 @@ const Section5 = () => {
     <div className='flex flex-col items-center w-full  gap-4 lg:gap-8 overflow-visible '>
       {/* Başlık */}
       <div className="text-center justify-center gap-[3px] lg:gap-[8px]">
-        <span className="text-[#140f25] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
+       <h3 className=''>
+         <span className="text-[#140f25] text-[20px] lg:text-[22px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
          {t("servicespage_s5_header1")}
-        </span>
-        <span className="text-[#a754cf] text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px] lg:-tracking-[0.96px]">
+        </span> {" "}
+        <span className="text-[#a754cf] text-[20px] lg:text-[22px] font-bolsemibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
            {t("servicespage_s5_span1")}.
         </span>
+       </h3>
          {/* Açıklama */}
-      <div className="md:w-[478px] text-center text-[#140f25] text-[14px] lg:text-lg font-normal font-inter leading-[130%] lg:leading-[25.20px] -tracking-[0.28px] lg:-tracking-normal">
+      <p className=" text-center text-[#140f25] text-[12px] lg:text-[14px] font-normal font-inter28 leading-[130%]  -tracking-[0.28px] mt-2">
         {t("servicespage_s5_text1")}.
-      </div>
+      </p>
       </div>
 
      
@@ -122,13 +124,13 @@ const Section5 = () => {
             style={{ minHeight: '200px', height: '30%' }} // Kart yüksekliğini sabitle
           >
             <div className="flex justify-start items-start text-start gap-12">
-              <div className="md:w-[269px] items-start text-start">
+              <div className="md:w-[269px] items-start text-start ">
                 <div className="flex flex-row items-start text-start">
-                  <span className="text-[#140f25] text-[20px] lg:text-[32px] font-bold font-inter leading-[120%] lg:leading-[38.40px] -tracking-[0.4px]">
+                  <span className="text-[#140f25] text-[16px] lg:text-[18px] font-bold font-inter leading-[120%] lg:leading-[38.40px] -tracking-[0.4px]">
                     {testimonial.name.split(" ")[0]} <span className='text-[#54b9cf] '>{testimonial.name.split(" ")[1]}</span>
                   </span>
                 </div>
-                <div className="text-black text-[12px] lg:text-lg font-normal font-inter leading-[25.20px]">
+                <div className="text-black text-[12px] lg:text-[14px] font-normal font-inter28 leading-[25.20px]">
                   {testimonial.role}
                 </div>
               </div>
@@ -138,7 +140,7 @@ const Section5 = () => {
                 alt={testimonial.name}
               />
             </div>
-            <div className="w-full items-start text-start text-[#140c29] text-sm font-normal font-inter leading-[120%] lg:leading-tight">
+            <div className="w-full items-start text-start text-[#140c29] text-[12px] lg:text-[14px] font-normal font-inter28 leading-[120%] lg:leading-tight">
               {testimonial.comment}
             </div>
           </div>
