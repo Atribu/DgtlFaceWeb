@@ -334,11 +334,11 @@ const page = () => {
   features: [1,2,3,4].map(j => t(`pms_services_feature${i}_${j}`)),
   text: t(`pms_services_text${i}`),
   buttonLink: [
-    "/Services/pms/hotelIdentification",
-    "/Services/pms/otaContract",
-    "/Services/pms/webPayment",
-    "/Services/pms/reservationModule",
-    "/Services/pms/reservationManagement"
+    "/pms-ota/pms-kurulum",
+    "/pms-ota/ota-entegrasyonu",
+    "/pms-ota/kanal-yonetimi",
+    "/pms-ota/online-satis",
+    "/pms-ota/rezervasyon-yonetimi"
   ][i-1]
 }));
 

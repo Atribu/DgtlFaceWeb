@@ -11,7 +11,7 @@ const StepSection2 = ({ data, header, text}) => {
         </div>
       <div className="flex flex-col w-[90%] items-end lg:items-center justify-center lg:justify-center gap-[50px] lg:gap-[122px] relative">
         
-        <LongLineSvg className="absolute top-0 left-0 lg:left-1/2 -translate-x-1/2 z-[10]" />
+        <LongLineSvg className="absolute top-0 left-0 lg:left-1/2 -translate-x-1/2 z-[10]" height={150}/>
 
         {data.map((item, index) => {
           // Adım numarasını 2 basamaklı hale getirelim:

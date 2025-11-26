@@ -186,30 +186,30 @@ export const routing = defineRouting({
       tr: "/sem",
       ru: "/sem",
     },
-    "/Services/sem/advertisingManagement": { // https://www.dgtlface.com/tr/Services/sem/advertisingManagement
+    "/Services/sem/youtubeAdvertising": { // https://www.dgtlface.com/tr/Services/sem/advertisingManagement
       en: "/services/sem/advertising-management",
-      tr: "/antalya-sem/reklam-yonetimi",
-      ru: "/uslugi/sem/upravlenie-reklamoy",
+      tr: "/sem/youtube-reklam-yonetimi",
+      ru: "/sem/youtubeAdvertising",
     },
     "/Services/sem/googleAdsAdvertising": { // https://www.dgtlface.com/tr/Services/sem/googleAdsAdvertising
       en: "/services/sem/google-ads-advertising",
       tr: "/sem/google-ads-yonetimi",
-      ru: "/uslugi/sem/reklama-google-ads",
+      ru: "/sem/googleAdsAdvertising",
     },
-    "/Services/sem/googleWebtools": { // https://www.dgtlface.com/tr/Services/sem/googleWebtools
-      en: "/services/sem/google-web-tools",
-      tr: "/antalya-sem/google-web-araclari",
-      ru: "/uslugi/sem/instrumenty-google-web",
+    "/Services/sem/remarketingDisplay": { // https://www.dgtlface.com/tr/Services/sem/googleWebtools
+      en: "/sem/remarketing-and-display",
+      tr: "/sem/remarketing-ve-display",
+      ru: "/sem/remarketingDisplay",
     },
-    "/Services/sem/webTraffic": { // https://www.dgtlface.com/tr/Services/sem/webTraffic
+    "/Services/sem/tagManager": { // https://www.dgtlface.com/tr/Services/sem/webTraffic
       en: "/services/sem/web-traffic-monitoring",
-      tr: "/antalya-sem/web-trafik-takibi",
-      ru: "/uslugi/sem/monitoring-veb-trafika",
+      tr: "/sem/donusum-takibi-tag-manager",
+      ru: "/sem/monitoring-veb-trafika",
     },
-    "/Services/sem/yandexAdvertising": { // https://www.dgtlface.com/tr/Services/sem/yandexAdvertising
-      en: "/services/sem/yandex-advertising",
-      tr: "/antalya-sem/yandex-reklamlari",
-      ru: "/uslugi/sem/reklama-yandex",
+    "/Services/sem/performanceAnalysis": { // https://www.dgtlface.com/tr/Services/sem/yandexAdvertising
+      en: "/services/sem/performanceAnalysis",
+      tr: "/sem/reklam-raporlama",
+      ru: "/sem/performanceAnalysis",
     },
 
     //---------------------------------------------------------

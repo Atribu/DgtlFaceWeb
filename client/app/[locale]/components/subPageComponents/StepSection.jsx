@@ -4,6 +4,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
+
 
 const StepSection = ({ header, header2, text, servicesData = [], buttonText, page }) => {
   // Embla setup - smooth scroll için optimize edilmiş ayarlar
@@ -16,6 +18,13 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
     skipSnaps: false,
     inViewThreshold: 0, // Snap hassasiyeti
   });
+
+  const router = useRouter();
+
+const handleCardClick = (href) => {
+  if (!href) return;
+  router.push(href);
+};
 
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [slideCount, setSlideCount] = useState(0);
@@ -99,6 +108,7 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                 >
                   {/* Kart dizaynı */}
                   <div
+                   onClick={() => handleCardClick(card.buttonLink)}
                     data-property-1="Default"
                     className="h-[83px] md:h-[300px] relative bg-[#130b29] rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden text-white w-full"
                   >

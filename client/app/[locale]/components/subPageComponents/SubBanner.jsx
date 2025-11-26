@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const SubBanner = ({header,header2,text,buttonLink, buttonText, header3,text2}) => {
   return (
-    <div className="flex w-screen h-auto min-h-[100vh] md:min-h-[50vh] lg:h-[82vh] items-center justify-center bg-[#080612] pt-[15%] md:pt-0" >
+    <div className="flex w-screen h-auto min-h-[100vh] md:min-h-[50vh] lg:mt-[16vh] items-center justify-center bg-[#080612] pt-[15%] md:pt-0" >
       <div className='flex flex-col lg:flex-row w-[96%] lg:w-[95%] items-center justify-between lg:gap-[10px]'>
         <Image
         src={aiImg}

@@ -329,13 +329,13 @@ const page = () => {
   title: t(`software_services_title${i}`),
   subTitle: t(`software_services_subtitle${i}`),
      text: t(`software_services_text${i}`),
-  features: [1,2,3,4].map(j => t(`software_services_feature${i}_${j}`)),
+  features: [1,2,3,4,5].map(j => t(`software_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/software/websiteAndSoftware",
-    "/Services/software/serverManagementService",
-    "/Services/software/pdpaCompliance",
-    "/Services/software/websiteMaintanceService",
-    "/Services/software/cmsInstallationService"
+     "/yazilim/web-sitesi-gelistirme",
+    "/yazilim/cms-entegrasyonu",
+    "/yazilim/kvkk-uyum-hizmeti",
+    "/yazilim/sunucu-guvenlik",
+    "/yazilim/bakim-ve-destek"
   ][i-1]
 }));
 

@@ -324,11 +324,10 @@ const page = () => {
      text: t(`analysis_services_text${i}`),
   features: [1,2,3,4].map(j => t(`analysis_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/digitalAnalysis/websiteReportingService",
-    "/Services/digitalAnalysis/onlineMarketResearchService",
-    "/Services/digitalAnalysis/digitalSalesAnalysis",
-    "/Services/digitalAnalysis/advertisingReportingService",
-    "/Services/digitalAnalysis/callReportingService"
+    "/raporlama/looker-studio",
+    "/raporlama/benchmark-analizi",
+    "/raporlama/satis-donusum",
+    "/raporlama/kvkk-veri-guvenligi",
   ][i-1]
 }));
   

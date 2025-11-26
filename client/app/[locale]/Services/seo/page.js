@@ -314,11 +314,11 @@ const page = () => {
   text: t(`seo_services_text${i}`),
   features: [1,2,3,4].map(j => t(`seo_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/seo/onpageSeo",
-    "/Services/seo/offpageSeo",
-    "/Services/seo/technicalSeo",
-    "/Services/seo/originalCopywriting",
-    "/Services/seo/seoReporting"
+    "/seo/teknik-seo",
+    "/seo/icerik-seo",
+    "/seo/yerel-seo",
+    "/seo/backlink-yonetimi",
+    "/seo/seo-raporlama"
   ][i-1]
 }));
   return (

@@ -325,11 +325,11 @@ const page = () => {
    text: t(`creativepage_services_text${i}`),
   features: [1,2,3,4].map(j => t(`creativepage_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/software/websiteAndSoftware",
-    "/Services/software/serverManagementService",
-    "/Services/software/pdpaCompliance",
-    "/Services/software/websiteMaintanceService",
-    "/Services/software/cmsInstallationService"
+    "/creative/grafik-motion-tasarim",
+    "/creative/ui-ux-tasarim",
+    "/creative/video-produksiyon",
+    "/creative/etkinlik-produksiyonu",
+    "/creative/kurumsal-hediye-tasarimi"
   ][i-1]
 }));
 
