@@ -2400,6 +2400,7 @@
     }
   },
 
+
   "GoogleWebtools": {
     "cta_talk_to_us": "Google Araçları Kurulumu İçin İletişime Geçin",
     "googlewebtools_subbanner_header": "Profesyonel Google Web Araçları",
@@ -2506,39 +2507,476 @@
   },
 
   "SeoReporting": {
-    "cta_talk_to_us": "Detaylı SEO Raporu İçin Bize Ulaşın",
-    "seoreporting_subbanner_header": "Eyleme Yönelik (Actionable) SEO",
-    "seoreporting_subbanner_header2": "Raporlama ve İçgörü Hizmetleri",
-    "seoreporting_subbanner_text": "Dijital pazarlamanın dinamik dünyasında, web sitenizin arama sonuçlarındaki performansını anlamak rekabette öne geçmek için kritiktir. SEO uzmanlarımız; anahtar kelime sıralamaları, organik trafik, backlink profili ve gelir/dönüşüm etkisi gibi temel metrikleri ayrıntılı biçimde inceler.",
+  "cta_talk_to_us": "Organik Verilerinizi Netleştirin",
 
-    "seoreporting_step1_header": "Kapsamlı SEO Performans Denetimi",
-    "seoreporting_step1_text": "Sayfa içi etmenler, teknik sorunlar ve sayfa dışı sinyalleri inceleyerek sitenizin SEO’suna ayrıntılı bir denetim uygularız. Anahtar kelime sıralamalarınızı ve görünürlüğünüzü analiz ederek yüksek değerli anahtar kelimeler ve anında optimizasyon fırsatları belirleriz.",
+  "seoreporting_subbanner_header": "SEO Performans Raporlama ve Analiz – ",
+  "seoreporting_subbanner_header2": "Organik Verilerinizi Optimize Edin",
+  "seoreporting_subbanner_text": "DGTLFACE, SEO raporlama ve performans analizi hizmetleriyle; organik trafiğinizi, anahtar kelime sıralamalarınızı ve sayfa bazlı performansınızı net, okunabilir ve aksiyon üretir hale getiren bir SEO analitik partneridir. Google Search Console, Google Analytics 4, keyword tracking araçları ve Looker Studio dashboard’larını kullanarak sadece “kaç tıklama aldığınızı” değil, hangi sayfanın hangi kelimede ne kadar iş ürettiğini gösteririz. “SEO analiz hizmeti, organik trafik raporu, SEO performans ölçümü, keyword tracking, SEO dashboard” gibi ihtiyaçlarınızı; düzenli rapor + yorum + aksiyon planı üçlüsüyle karşılarız. Hedefimiz, SEO’yu “karanlık kutu” olmaktan çıkarıp, tamamen veriyle yönetilen bir kanal haline getirmek.",
 
-    "seoreporting_step2_header": "Rekabetçi İstihbarat ve Pazar Analizi",
-    "seoreporting_step2_text": "Rakiplerinizin Organik Trafik Kaynaklarını, Başarılı İçeriklerini ve Backlink Profillerini değerlendiririz. Sitenizi sektör liderleriyle kıyaslar ve rekabet avantajı sağlayabileceğiniz, hızla sonuç alabileceğiniz alanları ortaya çıkarırız.",
+  "seoreporting_ai_answer_title": "AI Answer Block – SEO Raporlama",
+  "seoreporting_ai_answer_text": "DGTLFACE, SEO raporlama ve performans analizinde Google Search Console, GA4, keyword tracking araçları ve Looker Studio dashboard’larını birleştirerek tüm organik veriyi tek panelde toplar. Trafik, sıralama, sayfa bazlı performans, CTR, teknik sağlık ve dönüşüm/g gelir metrikleri birlikte analiz edilir. Özellikle otel ve turizm markalarında organik rezervasyon, doluluk ve RevPAR etkisi izlenerek SEO stratejisi veriye dayalı olarak optimize edilir.",
 
-    "seoreporting_step3_header": "Teknik Sağlık ve Backlink Profil Değerlendirmesi",
-    "seoreporting_step3_text": "Site hızı, mobil uyumluluk ve taranabilirlik gibi teknik altyapınızı en iyi uygulamalarla karşılaştırırız. Ayrıca backlink profilinizi analiz ederek kaliteli bağlantıları, zararlı bağlantıları (Risk Analizi) ve otoriteyi artıracak bağlantı kurma fırsatlarını tespit ederiz."
+  "seoreporting_subbanner_header3": "SEO Raporlama Nedir, Neden Sadece Sıralama Tablosu Değildir?",
+  "seoreporting_subbanner_text2": "Birçok kişi için SEO raporu demek, “pozisyon listesi ve trafik grafiği” demek. DGTLFACE için ise SEO raporlama: Organik trafik hacmi ve kalitesi, Anahtar kelime sıralamaları ve değişimleri, Sayfa bazlı (landing page) performans, Tıklama oranları (CTR), gösterimler, Teknik sağlık durumu (Core Web Vitals, tarama hataları), Dönüşüm ve gelir etkisi gibi katmanların birlikte analiz edilmesidir. “SEO raporu nasıl hazırlanır, anahtar kelime sıralama takibi, SEO analiz raporu örneği, SEO performans iyileştirme teknikleri” gibi başlıkları; sadece tool çıktısı değil, gerçek iş kararı aldıran içgörüler hâline getiririz.",
+
+  "h2Section": {
+    "header1": "Organik Trafik Raporu ve Kullanıcı Davranışı Analizi",
+    "text1": "Trafik sayısı tek başına hiçbir şey ifade etmez. Önemli olan bu trafiğin: Hangi kelimelerden geldiği, Hangi sayfalara indiği, Ne kadar süre kaldığı, Kaç sayfa gezdiği, Dönüşüme ne kadar katkı sağladığıdır. DGTLFACE, organik trafik raporu hazırlarken: GA4 üzerinden organik oturum, kullanıcı, yeni kullanıcı, oturum başına sayfa gibi metrikleri, Search Console’dan gösterim, tıklama, CTR ve sıralama verilerini, İniş sayfası (landing page) raporlarını, Dönüşüm (form, rezervasyon, lead) verilerini birleştirir. “Organik trafik düşüşü neden olur, SEO ölçümleme araçları” gibi sorulara; “şu güncelleme, şu teknik sorun, şu içerik kaybı, şu rekabet artışı” gibi net açıklamalı cevaplar üretiriz.",
+
+    "header2": "Keyword Tracking ve Sıralama Takibi",
+    "text2": "Keyword tracking, SEO performansını takip etmenin temel araçlarından biri ama tek başına yetmez. DGTLFACE, anahtar kelime takibinde: Primary, secondary, long-tail ve niş kelimeleri ayrı segmentler, Marka (branded) ve genel (non-branded) kelimeleri ayrı setler, Masaüstü / mobil sıralamaları ayrı okur, Ülke/bölge bazlı sıralamaları (özellikle turizmde) raporlar. “Anahtar kelime sıralama takibi, keyword tracking, SEO dashboard” süreçlerinde; sadece “kaçıncı sıradayız?” değil, “bu sıralama bize kaç tıklama ve dönüşüm üretiyor?” sorusunu da yanıtlarız.",
+
+    "header3": "Sayfa Bazlı SEO Performansı – Hangi Sayfa Ne İş Yapıyor?",
+    "text3": "SEO’da asıl kritik olan; hangi sayfaların trafik + dönüşüm ürettiğini bilmektir. DGTLFACE, sayfa bazlı SEO raporlarında: En çok trafik alan sayfalar, En çok dönüşüm üreten sayfalar, Yüksek gösterim ama düşük tıklama alan (düşük CTR) sayfalar, Güçlü sıralama ama düşük dönüşüm üreten sayfalar gibi segmentler çıkarır. “Landing page performans analizi, SEO performans ölçümü” süreçlerinde; her sayfa için ayrı aksiyon önerisi sunarız: Başlık/meta güncelle, içeriği derinleştir, teknik sorunları düzelt, CTA ekle, internal link kuvvetlendir vb.",
+
+    "header4": "Oteller ve Turizm Markaları İçin SEO Raporlama",
+    "text4": "Turizm ve otelcilikte SEO raporlamasında, doluluk, RevPAR, destinasyon ve ülke pazarı gibi faktörler de işin içine girer. DGTLFACE, “oteller için SEO raporlama, turizm SEO performansı, PMS SEO performansı, OTA SEO raporlama” tarafında: Hangi destinasyon + konsept kelimelerinin ne kadar trafik getirdiğini, Hangi pazarlardan (ülke/dil bazlı) organik ziyaret aldığınızı, Blog/destinasyon içerikleri ile oda/rezervasyon sayfaları arasındaki ilişkiyi, OTA sayfalarınızla web siteniz arasındaki marka araması dengesini raporlar. Böylece oteller için SEO, sadece “kaç tıklama” değil, hangi pazardan hangi niyetli trafik ve bu trafiğin doluluk & gelir katkısı ne sorusunu da cevaplar.",
+
+    "header5": "Looker Studio ile SEO Dashboard Tasarımı",
+    "text5": "Klasik Excel raporları ve tek tek tool ekran görüntüleri, bir süre sonra kimsenin bakmadığı PDF’lere dönüşür. DGTLFACE, Looker Studio tabanlı SEO dashboard tasarlarken: Search Console, GA4, keyword tracking ve gerektiğinde PMS verilerini bağlar, Yönetim için özet kartlar (trafik, dönüşüm, top 10 sayfa/keyword), SEO ekibi için detay tablolar (query-level, page-level, device/country-level), “SEO dashboard, dijital performans paneli, SEO analiz şablonu” gibi ihtiyaçlarınızı tek linkle erişilen canlı panele dönüştürür. Bu panel sayesinde; günlük/haftalık trendlere bakıp, “Bugün nerede duruyoruz?” sorusuna birkaç saniyede cevap alabilirsiniz."
   },
+
+  "h3Section": {
+    "header": "DGTLFACE SEO Raporlama Hizmet Detayları",
+
+    "header1": "SEO Analiz Hizmeti – Tam Kapsamlı Performans Fotoğrafı",
+    "text1": "SEO analiz hizmeti, sadece tool çıktısı değil, yorumlanmış ve önceliklendirilmiş bir fotoğraftır. DGTLFACE: Organik trafik & sıralama trendlerini, Teknik SEO durumunu (bkz. /tr/seo/teknik-seo), İçerik yapı ve kümelerini (bkz. /tr/seo/icerik-seo), Yerel SEO sinyallerini (bkz. /tr/seo/yerel-seo), Backlink & otorite durumunu (bkz. /tr/seo/backlink-yonetimi) bir arada analiz eder. Sonuç raporunda; “durum bu”dan ziyade, “önce şunları yap, sonra bunlara geç, şu alanları koru” diyen somut adımlar vardır.",
+
+    "header2": "SEO Performans Ölçümü ve KPI Seti",
+    "text2": "“SEO performans ölçümü” için önce doğru KPI’ları belirlemek gerekir. DGTLFACE, SEO tarafında genellikle: Organik oturum ve kullanıcı sayısı, Branded vs non-branded trafik oranı, Toplam dönüşüm ve organik kanal dönüşüm sayısı, Önemli keyword setlerinde sıralama, Top landing page performansı, Core Web Vitals durumu gibi metrikleri kullanır. “SEO performans iyileştirme teknikleri” kısmında ise her KPI için hedefler belirlenir; raporlarda bunlara ne kadar yaklaşıldığı takip edilir.",
+
+    "header3": "Keyword Tracking ve Segment Bazlı Raporlama",
+    "text3": "Keyword tracking tarafında DGTLFACE, anahtar kelimeleri segmentlere ayırır: “Para getiren” hizmet/ürün kelimeleri, Bilgi & rehber içerik kelimeleri, Marka & navigasyon kelimeleri, Uzun kuyruk (long-tail) fırsat kelimeler, Yeni hedeflenen niş kelimeler. Raporlarda her segment için ayrı tablo ve yorum sunarız. Böylece “anahtar kelime sıralama takibi, keyword tracking” sadece büyük bir liste değil, stratejik kategorilere ayrılmış okunabilir veri haline gelir."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile SEO Raporlama & Performans Analizi?",
+
+    "card1title": "Sadece Rakam Veren Değil, Yorum ve Aksiyon Üreten Partner",
+    "card1description": "Pek çok “SEO raporu”, aslında sadece Search Console ekranının export edilmiş hali. DGTLFACE, raporlarında: Rakamları özet ve hikâye haline getirir, Dönemsel değişimlerin nedenlerini açıklar (algoritma, teknik sorun, içerik ekleme/silme, rekabet artışı vb.), Son sayfada mutlaka net aksiyon maddeleri verir. Yani “işte veriler, sen anla” değil; “veriler bunları söylüyor, bu yüzden şu adımları atalım” modeliyle hareket ederiz.",
+
+    "card2title": "SEO, Reklam ve Satış Verisini Birleştiren Yapı",
+    "card2description": "SEO raporlarını sadece SEO verisiyle sınırlamaz; reklam ve satış katmanlarıyla da konuştururuz. DGTLFACE, SEO raporlamasını: Reklam raporları → /tr/sem/reklam-raporlama, Satış & dönüşüm raporları → /tr/raporlama/satis-donusum, Genel veri analizi → /tr/veri-analiz-ve-raporlama ile entegre eder. Böylece “SEO trafiği arttı mı?” sorusunun yanına, “Bu artış satış/rezervasyona ne kadar yansıdı?” sorusunun cevabını da ekleriz.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı SEO Analitiği",
+    "card3description": "“SEO raporlama Antalya, Antalya SEO analizi, organik performans raporu Türkiye, SEO dashboard Antalya” gibi aramaların arkasında; hem turizmi hem dijital pazarlamayı hem de data tarafını bilen bir ekip beklersin. DGTLFACE: Oteller ve turizm markaları, Hizmet ve B2B işletmeler, Çok dilli siteler ve ihracat odaklı yapılar için SEO raporlama yaparken; sezon, pazar, ülke davranışları ve OTA etkisini okumayı da işin içine katar. Bu sayede raporlar, sadece “genel SEO teorisi” değil, senin sektörünün gerçeği haline gelir."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman -",
+    "header2": "SEO Performans Analizini Derinleştiren Alanlar",
+
+    "title1": "Organik Trafik Düşüşü ",
+    "span1": "Neden Olur ve Nasıl Teşhis Edilir?",
+    "text1": "Organik trafik düşüşü her zaman “ceza” değildir. DGTLFACE, trafik düşüşü gördüğünde: Algoritma güncellemelerini, Teknik sorunları (index, hız, sunucu), İçerik kayıplarını veya silinen sayfaları, Rakiplerin güçlenmesini, Marka aramalarındaki değişimi kontrol eder. Raporlarda “trafik düştü” değil, “şu şu sebeplerden düştü” analizi görürsün.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "SEO Dashboard’da ",
+    "span2": "Olmazsa Olmaz Kartlar",
+    "text2": "İyi bir SEO dashboard şunları mutlaka içerir: Toplam organik oturum & kullanıcı trendi, Top 10–20 organik landing page, Top 10–20 query (Google Search Console), Branded vs non-branded trafik oranı, Dönüşüm sayısı & oranı (organik kanal), Teknik sağlık/kilit indicator (ör. Core Web Vitals, hatalı sayfa sayısı). DGTLFACE, bu kartları yönetim için özet, SEO ekibi için detay grafikler ve tablolar ile destekler.",
+    "button2": "Keşfet",
+
+    "title3": "Oteller İçin Organik Trafik ve ",
+    "span3": "Doluluk İlişkisi",
+    "text3": "Otellerde SEO raporlamasında, sadece trafik değil, doluluk ve RevPAR da işin parçası. DGTLFACE: Belirli kampanya ve sezon dönemlerinde organik trafik ve rezervasyon değişimlerini eşleştirir, Hangi destinasyon & konsept kelimelerinin doluluk artışına daha çok katkı verdiğini analiz eder, Bu analizleri PMS ve satış raporlarıyla (/tr/raporlama/satis-donusum) birleştirir. Böylece SEO yatırımı, doluluk ve gelir tablosunda karşılığı görülen bir kalem hâline gelir.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "SEO Raporlamayı ",
+    "span4": "Aylık “Formalite” Olmaktan Çıkarmak",
+    "text4": "Birçok yerde SEO raporu: Ay sonunda gelen bir PDF, Kimsenin tam okumadığı kalabalık tablolar, Aksiyon doğurmayan bir “görev”tir. DGTLFACE, raporlamayı: Canlı dashboard’lar, Kısa ama net özetler, İş birimi ile birlikte yapılan aylık değerlendirme toplantıları, Aksiyon listesinin bir sonraki raporda takip edildiği bir süreç hâline getirir. Yani rapor, “iş takibinin parçası” olur.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – SEO Raporlama & Analiz Hakkında Sık Sorulan Sorular",
+
+    "question1": "SEO raporu ne sıklıkla hazırlanmalı?",
+    "answer1": "Genelde aylık detay rapor + haftalık hızlı kontrol (dashboard üzerinden) en sağlıklı ritimdir. Çok hızlı değişen projelerde 15 günde bir mini rapor da eklenebilir. Önemli olan, sıklığın raporun değerini düşürmemesi ve her raporun bir aksiyona bağlanmasıdır.",
+
+    "question2": "SEO raporlama için mutlaka Looker Studio kullanmak gerekir mi?",
+    "answer2": "Şart değil ama çok faydalı. İsteyen müşterilerimiz için klasik PDF/Excel formatında da özet raporlar hazırlıyoruz; fakat Looker Studio dashboard’ları sayesinde verilere canlı ve etkileşimli şekilde erişmek büyük konfor sağlar.",
+
+    "question3": "SEO raporlamasını kendi iç ekibimizle yapıyoruz, siz ne katarsınız?",
+    "answer3": "İç ekipler çoğu zaman veri toplamaya çok vakit harcayıp, yorum kısmına yeterince zaman ayıramıyor. DGTLFACE; KPI seti kurgusu, Dashboard tasarımı, Dönemsel yorumlama ve aksiyon listesi tarafında katkı sağlar. İsterseniz sadece “dış göz SEO analizi” formatında da çalışabiliriz.",
+
+    "question4": "SEO, reklam ve sosyal medya raporlarının birbirinden kopuk olması sorun mu?",
+    "answer4": "Evet; sorun çünkü kullanıcı yolculuğu kopuk değil. DGTLFACE, SEO raporlarını: Reklam (/tr/sem/reklam-raporlama), Sosyal medya (/tr/smm/analiz-raporlama), Satış & dönüşüm (/tr/raporlama/satis-donusum) raporlarıyla aynı resme koyar. Böylece kanal bazlı değil, iş bazlı kararlar alırsınız.",
+
+    "question5": "DGTLFACE ile SEO raporlama projesine nasıl başlıyoruz?",
+    "answer5": "Önce mevcut raporlamanızı, kullandığınız araçları ve cevap aradığınız soruları dinliyoruz. Ardından: KPI seti, Dashboard & rapor tasarımı, Raporlama sıklığı ve formatı, Sorumlu ekipler ve iş akışı içeren bir SEO Raporlama Yol Haritası hazırlıyoruz. Onay sonrası entegrasyonları kurup, ilk rapor dönemini başlatıyoruz."
+  }
+},
 
   "TechnicalSeo": {
     "cta_talk_to_us": "Web Sitenizin Altyapısını Güçlendirin",
-    "technicalseo_subbanner_header": "İleri Düzey Teknik SEO",
-    "technicalseo_subbanner_header2": "ve Web Sitesi Sağlığı Hizmetleri",
-    "technicalseo_subbanner_text": "Teknik SEO, arama motoru görünürlüğünü, kullanıcı deneyimini ve sayfa yükleme hızını (Core Web Vitals) artırmak için web sitesinin teknik yönlerinin optimize edilmesini kapsar. Sağlam bir temel, organik başarının ilk adımıdır.",
+    "technicalseo_subbanner_header": "Teknik SEO Analizi – ",
+    "technicalseo_subbanner_header2": "Site Performansınızı Google Standartlarına Taşıyın",
+    "technicalseo_subbanner_text": "DGTLFACE, teknik SEO alanında; sitenizin hızını, mobil uyumluluğunu, taranabilirliğini ve altyapı mimarisini Google’ın en güncel standartlarına göre optimize eden bir teknik SEO danışmanı gibi çalışır. HTML yapısından sunucu yanıt sürelerine, Core Web Vitals metriklerinden (LCP, CLS, INP/FID) URL mimarisine, robots.txt ve sitemap yapılandırmasından canonical etiketler ve hreflang kurgusuna kadar tüm teknik katmanı uçtan uca ele alırız. Amacımız yalnızca Lighthouse skorlarını yükseltmek değil; gerçek kullanıcı deneyimini, SEO performansını ve reklam dönüşümünü aynı anda iyileştiren bir teknik altyapı kurmaktır. Böylece siteniz sadece “tasarım olarak şık” değil, arama motorları için de sağlam ve sürdürülebilir bir temel kazanır.",
+     "technicalseo_subbanner_header3": "Teknik SEO Nedir? Neden Vazgeçilmezdir?",
+    "technicalseo_subbanner_text2":"Teknik SEO, bir web sitesinin görünmeyen altyapı katmanlarının arama motorları ve kullanıcı deneyimi açısından optimize edilmesidir. İçerik ne kadar kaliteli olursa olsun: Site yavaşsa, Mobilde bozuksa, Google sayfalarınızı tarayamıyorsa, Tarama bütçesi boşa harcanıyorsa, Canonical/redirect/URL yapıları karmaşıksa, SEO performansınız mutlaka sınıra takılır. DGTLFACE, “teknik SEO analizi, site hızı optimizasyonu, mobil uyumluluk testi, Core Web Vitals iyileştirme, teknik SEO checklist 2025” gibi başlıkları; rapor + aksiyon planı + uygulama üçlüsüyle ele alır. Sonuç: Hem kullanıcılar hem Google için temiz, hızlı ve anlaşılır bir site.",
 
-    "technicalseo_step1_header": "Yapılandırılmış Veri ve Kanonik Etiket Yönetimi",
-    "technicalseo_step1_text": "Arama motorlarına içerikleriniz hakkında daha fazla bağlam sağlamak için Schema Markup (Yapılandırılmış Veri) işaretlemeleri uygularız. Yinelenen içerik sorunlarını önlemek ve sıralamaları iyileştirmek için Kanonik Etiketleri (Canonical Tags) doğru tanımlarız.",
+    "h2Section":{
+      "header1":"Core Web Vitals ve Site Hızı Optimizasyonu",
+    "text1":"Google’ın Core Web Vitals metrikleri (LCP, CLS, INP/FID) artık doğrudan sıralama sinyali. Kullanıcı tarafında da ilk izlenimi belirleyen şey, sayfanın ne kadar hızlı açıldığı ve ne kadar “stabil” hissettirdiğidir. DGTLFACE, “Core Web Vitals nasıl iyileştirilir, LCP–CLS–FID optimizasyonu, site hızı optimizasyonu, teknik SEO site performansı” tarafında: HTML yapısını ve render akışını inceler, Görsel & video optimizasyonu (boyut, format, lazy load), Critical CSS & JS düzenlemeleri, Cache, CDN ve sunucu yanıt süreleri (TTFB) iyileştirmeleri, parti script’lerin (tag, pixel vb.) yüklenme sırasını optimize eder. Özellikle Next.js proje kullanan markalar için “Next.js SEO nasıl yapılır?” sorusunu, hem framework’ün gücünü hem de SEO beklentilerini dengeleyen bir yapıyla cevaplarız.",
+     "header2":"Site Mimarisi, Taranabilirlik ve Tarama Bütçesi Yönetimi",
+    "text2":"Site mimarisi, Google’ın sitenizi nasıl tarayıp anladığını belirler. Karışık kategori yapısı, gereksiz parametreli URL’ler, loop’a giren yönlendirmeler ve bozuk linkler, tarama bütçenizi boşa harcatır. DGTLFACE, teknik SEO site mimarisi kapsamında: URL yapınızı (kategori/alt kategori/ürün/oda vb.) gözden geçirir, Silo ve içerik kümesi mantığına uygun bir hiyerarşi önerir, İç linkleme ve breadcrumb yapısını teknik olarak düzenler, “SEO tarama hataları çözümleri” için Search Console ve log verilerini analiz eder. Hedef: Google’ın tarama bütçesini gerçekten önemli sayfalarınıza harcamasını sağlamak ve indexlenmeyen, taranmayan, boşa kaynak tüketen URL sayılarını minimuma indirmektir.",
+     "header3":"Robots.txt, Sitemap ve Canonical Yapılandırması",
+    "text3":"Teknik SEO’nun en kritik ama en sık yanlış yapılan alanları: robots.txt, sitemap ve canonical etiketler. Yanlış bir robots kuralı, kritik sayfalarınızın taranmasını engelleyebilir; kötü yapılandırılmış sitemap’ler, Google’ın kafasını karıştırabilir; canonical hataları, otoriteyi parçalar. DGTLFACE: “robots.txt nasıl yapılandırılır?” sorusuna, sitenizin gerçek yapısına göre yanıt verir, XML sitemap’lerinizi (ana, haber, ürün/oda vs.) doğru segmentlere böler, “sitemap optimizasyonu” kapsamında hatalı/gereksiz URL’leri temizler, “canonical etiketler nasıl düzenlenir” tarafında, duplicate/near-duplicate içerikleri toparlar. Böylece Google’a “Bu sayfaları önemse, bunları görmezden gel, bu adres bu içeriğin asıl versiyonu” mesajlarını net şekilde ileten, tertemiz bir altyapı sağlanır.",
+     "header4":"Oteller ve Turizm Markaları İçin Teknik SEO",
+    "text4":"Turizm ve otelcilikte teknik SEO; sadece bir blog sitesindeki gibi değil, PMS, OTA, rezervasyon modülü ve çok dilli içerik ile birlikte düşünülmelidir. DGTLFACE, “otel teknik SEO, turizm teknik SEO, PMS uyumlu teknik SEO, OTA teknik SEO” alanlarında: Çok dilli / multi-domain & subdomain yapılarını (TR–EN–DE–RU vb.) teknik olarak düzenler, Rezervasyon motoru entegrasyonunun SEO’ya zarar vermemesini sağlar, OTA (Booking, Expedia vb.) yönlendirmeleriyle web sitesi dengesini teknik anlamda yönetir, Turizm/tatil sezonuna göre performans ve kapasite planlaması yapar. Sonuç: Otel web siteniz, turizm sektörünün karmaşık yapısına rağmen, Google için net ve güçlü bir teknik sinyal üretir.",
+      "header5":"Next.js, React ve Modern Framework’ler İçin Teknik SEO",
+    "text5":"Klasik HTML tabanlı sitelere göre, Next.js, React ve benzeri modern framework’lerde teknik SEO daha fazla dikkat ister. Yanlış yapılandırılmış SSR/CSR, hatalı yönlendirmeler, eksik  yönetimi gibi problemler, sitenizi “teknik olarak modern ama SEO olarak zayıf” hale getirebilir. DGTLFACE, /tr/yazilim/web-sitesi-gelistirme tarafındaki deneyimini teknik SEO ile birleştirerek: Next.js routing + SEO meta yapısını, Dinamik sayfalar ve parametreli URL’lerin yönetimini, Dil altyapısı ve hreflang etiketlerini, yönetimi, Open Graph ve structured data yapılarını, Görsel optimizasyonu (Next/Image vb.) SEO bakış açısıyla birlikte kurgular. Böylece siteniz hem modern ve hızlı, hem de Google için anlaşılır ve güçlü olur."
+    },
 
-    "technicalseo_step2_header": "Sayfa Tarama (Crawl) ve Dizinleme (Index) Kontrolü",
-    "technicalseo_step2_text": "Google Search Console verilerini kullanarak, arama motorlarının sitenizi verimli taramasını sağlarız. Dizinleme sorunlarını (Noindex, 4xx, 5xx hataları) gidererek kritik içeriğin kolayca erişilebilir ve sıralamaya uygun olmasını güvence altına alırız.",
+    "h3Section":{
+     "header":"DGTLFACE Teknik SEO Hizmet Detayları",
+     "header1":"Teknik SEO Analizi – Kapsamlı Sağlık Kontrolü",
+    "text1":"Teknik SEO analizi, siteniz için kapsamlı bir “check-up” gibidir. DGTLFACE: Site hızı ve Core Web Vitals taraması, Mobil uyumluluk testi, URL mimarisi ve tarama yapısı, Robots, sitemap, canonical, hreflang kontrolleri, 3xx/4xx/5xx hataları, yönlendirme zincirleri, “Kırık link temizleme yöntemleri” kapsamında bozuk bağlantılar, Tarama hataları ve indexleme problemleri için detaylı bir rapor çıkarır. Bu rapor sadece sorunları listelemez; her sorun için aksiyon maddesi + öncelik seviyesi içerir.",
+     "header2":"Site Hızı Optimizasyonu – Kullanıcı ve Google İçin Hızlı Deneyim",
+    "text2":"Site hızı optimizasyonu, teknik SEO’nun en görünür etkisini veren alanıdır. DGTLFACE: CSS & JS dosyalarının küçültülmesi (minify) ve birleştirilmesi, Gereksiz script’lerin kaldırılması veya ertelenmesi, Görsel optimizasyonu (format, boyut, lazy load), Sunucu yanıt sürelerinin iyileştirilmesi (TTFB), Caching, CDN ve hosting optimizasyonu ile “teknik SEO hizmet Türkiye, Antalya site hızı optimizasyonu” gibi ihtiyaçları çözer. Hem Lighthouse hem gerçek kullanıcı verilerinde bariz hızlanma elde ederiz.",
+     "header3":"Mobil Uyumluluk Testi ve Responsive Yapının Güçlendirilmesi",
+    "text3":"Mobil kullanım çoğu sektörde %70+ seviyesinde. “Mobilde yanlayan, küçücük yazılı, dokunması zor” bir site, hem kullanıcıyı hem Google’ı kaybettirir. DGTLFACE, mobil uyumluluk testi kapsamında: Farklı ekran boyutlarında layout kırılmalarını, Dokunma alanları, menü kullanımı ve form alanlarını, Font boyutları ve okunabilirliği, Viewport ayarları ve responsive grid yapısını inceler. Gerekirse /tr/creative/ui-ux-tasarim ve /tr/yazilim/web-sitesi-gelistirme ile birlikte tasarım + teknik tarafta mobil deneyimi güçlendiririz."
+    },
 
-    "technicalseo_step3_header": "Mobil Uyumluluk ve Hız (Core Web Vitals) Optimizasyonu",
-    "technicalseo_step3_text": "Mobil kullanılabilirliği engelleyen sorunları tespit edip gidererek arama performansını iyileştiririz. Sitenizi farklı cihazlarda değerlendirerek sorunsuz gezinme, hızlı yüklenme (LCP, FID, CLS) ve her ekran boyutunda optimize düzenler sunarız.",
+    "h4Section":{
+      "header":"Neden DGTLFACE ile Teknik SEO?",
+      "card1title":"Sadece Raporlayan Değil, Uygulayan Teknik SEO Partneri",
+      "card2title":"SEO, Yazılım ve Sunucu Ekibini Aynı Masada Toplayan Yaklaşım",
+      "card3title":"Antalya Merkezli, Turizm ve Next.js Odaklı Teknik SEO Uzmanlığı",
+      
+      "card1description":"Birçok teknik SEO hizmeti, sadece araç çıktısını rapor olarak verir. DGTLFACE ise: Sorunu tespit eder, Nedenini açıklar, Çözüm önerisini teknik seviyede dokümante eder, İsterseniz /tr/yazilim ekibiyle birlikte uygulamaya da geçer. Yani teknik SEO tarafında sadece “ne kötü”yü değil, “nasıl düzelteceğiz ve neye dönüşecek” kısmını da yönetiyoruz.",
+      "card2description":"Teknik SEO çoğu zaman SEO ekibiyle geliştirici ekip arasında “paslaşma”da kaybolur. DGTLFACE, /tr/seo, /tr/yazilim/web-sitesi-gelistirme ve /tr/yazilim/sunucu-guvenlik ekiplerini aynı masaya oturtarak: SEO gereksinimlerini, Geliştirilebilir teknik çözümleri, Sunucu/hosting gerçeklerini ortak bir dille konuşturur. Böylece “SEO böyle diyor, yazılımcı şöyle diyor” kaosu azalır; proje tek bir teknik yol haritası üzerinden ilerler.",
+      "card3description":"“Teknik SEO Antalya, Antalya SEO geliştirme, otel teknik SEO” gibi başlıklarda; hem turizm hem modern web teknolojileri (Next.js, React) hem de SEO tarafını bilen bir ekip gerekir. DGTLFACE, Antalya merkezli bir ajans olarak özellikle otel & turizm projelerinde teknik SEO’yu: PMS–OTA entegrasyonları, Rezervasyon motorları, Çok dilli yapılar ile birlikte düşünerek kurgular. Böylece sadece “kurumsal site” değil, otomasyon ve entegrasyon içeren karmaşık yapılarda da teknik SEO standardını koruruz."
+    },
 
-    "technicalseo_step4_header": "XML Site Haritası ve Robots.txt Optimizasyonları",
-    "technicalseo_step4_text": "Etkili tarama ve dizinleme, dijital başarının temelidir. Arama motorlarının site yapınızı doğru anlaması için Site Haritası ve robots.txt dosyalarınızı optimize eder; taranması gereken sayfaları yönlendirir, taranmaması gereken alanları kısıtlarız ve teknik mükemmellik sağlarız."
+     "verticalSlider":{
+      "header":" Mikro Katman -",
+      "header2":"Performans Analizi ve Raporlama Yapısını Derinleştiren Alanlar",
+
+      "title1":"Teknik SEO Checklist 2025’te ",
+      "span1":"Neler Olmalı?",
+      "text1":"2025 için bir teknik SEO checklist: Core Web Vitals (LCP, CLS, INP/FID) Mobil uyumluluk ve responsive yapı Temiz URL ve site mimarisi Robots.txt & sitemap & canonical uyumu 3xx/4xx/5xx hata kontrolü Güvenli protokol (HTTPS) ve SSL Yapılandırılmış veri (schema) Gelişmiş log & tarama analizi DGTLFACE, her proje için bu checklist’i sitenize özel hale getirip dokümante eder.",
+      "button1":"Detaylı Bilgi",
+
+       "title2":"Kırık Link Temizleme ve  ",
+      "span2":"Yönlendirme Stratejileri",
+      "text2":"Kırık linkler (404), hem kullanıcı deneyimini hem de tarama bütçesini bozar. DGTLFACE: Kırık linkleri tespit eder, Gereksiz/yanlış URL’leri kaldırır, Değerli sayfalar için doğru 301 yönlendirme haritalarını oluşturur, Yönlendirme zincirlerini (chain) ve loop’ları temizler. Bu sayede hem tarama hem kullanıcı flow’u çok daha sağlıklı hale gelir.",
+      "button2":"Keşfet",
+
+       "title3":"Teknik SEO ve  ",
+      "span3":"Güvenlik İlişkisi",
+      "text3":"Sunucu ve güvenlik sorunları (yavaş yanıt, downtime, saldırılar) doğrudan SEO’yu etkiler. DGTLFACE, /tr/yazilim/sunucu-guvenlik ile birlikte: Uptime ve yanıt sürelerini, Güvenlik duvarı ve DDoS korumalarını, SSL sertifikası ve HSTS yapılandırmasını kontrol ederek, teknik SEO ile güvenlik katmanını aynı çatı altında değerlendirir.",
+      "button3":"Detaylı Bilgi",
+
+       "title4":"Oteller İçin OTA &  ",
+      "span4":"Teknik SEO Dengesi ",
+      "text4":"Otel sitelerinde, yanlış teknik yönlendirmeler (noindex, yanlış canonical, yanlış hreflang) bazen tüm trafiği OTA’lara bırakabilir. DGTLFACE, OTA teknik SEO tarafında: OTA yönlendirmelerinin web sitesi otoritesini zedelememesini, Web sitesinin Google için birincil kaynak olarak kalmasını, Google Hotel / Travel sonuçlarında doğru URL’lerin görünmesini sağlayacak bir teknik çerçeve oluşturur.",
+      "button4":"İncele"
+    },
+
+    "faq":{
+      "header":"SSS - Teknik SEO Hakkında Sık Sorulan Sorular",
+      "question1":"Teknik SEO çalışmaları ne kadar sürede etkisini gösterir?",
+      "answer1":"Bazı düzeltmeler (hız, hatalı yönlendirmeler, index sorunları) birkaç hafta içinde etkisini gösterir. Daha kapsamlı mimari değişiklikler ve Core Web Vitals iyileştirmeleri ise genelde 1–3 ay içinde hem tarama hem sıralama tarafında sonuç üretir.",
+      "question2":"Teknik SEO tek başına yeterli mi? İçerik ve backlink olmadan sonuç alabilir miyim?",
+      "answer2":"Teknik SEO sağlam bir temel sağlar ama tek başına oyunu kazandırmaz. En güçlü sonuçlar; teknik SEO + içerik SEO + otorite (backlink) üçlüsü birlikte çalıştığında gelir.",
+      "question3":"Teknik SEO sonrası yazılım tarafında mutlaka değişiklik yapmam gerekir mi?",
+      "answer3":"Çoğu zaman evet; ama bu değişiklikler her zaman “sıfırdan site” anlamına gelmez. Bazı durumlarda birkaç bileşen, birkaç şablon ve birkaç ayar düzeltmesi bile ciddi fayda sağlar. DGTLFACE, önceliklendirilmiş aksiyon listesi sunar.",
+      "question4":"Next.js / React sitem var, klasik SEO firmaları teknik kısmı anlamıyor. Siz yönetebilir misiniz?",
+      "answer4":"Evet. DGTLFACE’in hem Next.js & React geliştirme hem SEO tarafında deneyimi vardır. Yani “render tarafı, dynamic route, app router, image component” konuştuğunuzda anlayan bir ekip ile çalışırsınız.",
+      "question5":"DGTLFACE ile teknik SEO projesine nasıl başlıyoruz?",
+      "answer5":"Önce mevcut site için hızlı bir ön teknik analiz yapıyoruz. Ardından: Tam kapsamlı teknik SEO analiz planı, Kullanılacak araçlar ve metrikler, Aksiyon listesi (quick wins / orta vadeli / uzun vadeli), Yazılım ekibiyle çalışma modeli içeren bir Teknik SEO Yol Haritası çıkarıyoruz. Onay sonrası analiz → uygulama önerileri → (istersen) uygulama desteği → raporlama döngüsüyle ilerliyoruz."
+    }
   },
+
+  "LocalSeo": {
+  "cta_talk_to_us": "Yerel SEO Performansınızı Güçlendirin",
+
+  "localseo_subbanner_header": "Yerel SEO Optimizasyonu – ",
+  "localseo_subbanner_header2": "Google Haritalar’da Öne Çıkın",
+  "localseo_subbanner_text": "DGTLFACE, yerel SEO hizmetleriyle işletmenizin Google Haritalar ve lokal arama sonuçlarında (örneğin: “antalya otel”, “antalya sosyal medya ajansı”, “belek family hotel”) daha görünür olmasını sağlayan profesyonel bir lokal SEO partneridir. Google Business Profile (Google My Business) kaydınızdan konumlu organik sonuçlara, harita paketinden (local pack) yorum ve fotoğraf yönetimine kadar tüm yerel varlığınızı uçtan uca optimize ederiz. Amacımız, yalnızca “haritada görünmek” değil; sizi gerçekten arayan, yakındaki kullanıcıların gözünde ilk tercih edilen marka haline getirmektir. Böylece lokal aramalar, pasif bir trafik kaynağı olmaktan çıkıp, ölçülebilir “dükkan içi ziyaret” / “otel rezervasyon” / “telefon” dönüşümlerine dönüşür.",
+
+  "localseo_ai_answer_title": "AI Answer Block – Yerel SEO",
+  "localseo_ai_answer_text": "DGTLFACE, yerel SEO çalışmalarıyla işletmenizin Google Haritalar ve lokal aramalarda görünürlüğünü artırır. Google Business Profile optimizasyonu, kategori seçimi, fotoğraf ve yorum yönetimi, lokal anahtar kelime stratejisi ve lokal landing sayfalarla hem harita hem organik sonuçlarda öne çıkmanızı sağlar. Özellikle oteller ve turizm işletmeleri için lokal aramalardan gelen telefon, rota ve rezervasyon dönüşümlerini yükseltmeyi hedefler.",
+
+  "localseo_subbanner_header3": "Yerel SEO Nedir? Lokal Aramalarda Nasıl Çalışır?",
+  "localseo_subbanner_text2": "Yerel SEO (Local SEO); belirli bir bölgedeki kullanıcıların yaptığı aramalarda (şehir, semt, bölge bazlı) işletmenizin öne çıkmasını sağlayan SEO çalışmalarının tümüdür. Bu, özellikle: Oteller, restoranlar, kafeler, Klinikler, ofisler, hizmet işletmeleri, Lokal ajanslar ve B2B markalar için hayati önem taşır. DGTLFACE, “lokal SEO hizmeti, Google Haritalar optimizasyonu, yerel işletme SEO, Google My Business yönetimi, lokal sıralama artırma” gibi başlıklarda: Google Haritalar (Maps) görünürlüğü, “Yakınımdaki” aramalar (near me / yakınındaki / bölgede), Lokal organik sonuçlar (şehir + hizmet), Yorum, fotoğraf ve Q&A yönetimi alanlarını tek bir yerel SEO stratejisi altında toplar. Sonuç: “Buralarda kimi tercih etmeliyim?” diye bakan kullanıcıya hem haritada hem organik sonuçta siz görünürsünüz.",
+
+  "h2Section": {
+    "header1": "Google Maps ve Google Business Profile Optimizasyonu",
+    "text1": "Yerel SEO’nun kalbi, Google Business Profile (eski adıyla Google My Business) kaydını doğru ve zengin kullanmaktan geçer. DGTLFACE: İşletme kategori ve alt kategorilerinizi doğru seçer, Adres, telefon, web sitesi, çalışma saatleri, hizmet alanı gibi temel alanları eksiksiz doldurur, Açıklama (description) alanına yerel anahtar kelime stratejisine uygun metin yazar, Fotoğraf, video, logo ve kapak görsellerini marka algınıza göre seçer, “Ürünler”, “Hizmetler”, “Öne çıkanlar”, “Post” ve “Etkinlik” alanlarını aktif kullanır. “Google Maps sıralama yükseltme, Google My Business nasıl optimize edilir, yerel aramalarda nasıl üst sıralara çıkılır” gibi soruları, pratikte uygulanan bir checklist ve sürekli güncellenen bir profil yönetimi ile cevaplarız.",
+
+    "header2": "Yerel Aramalarda Üst Sıralar İçin Teknik ve İçerik Yapısı",
+    "text2": "Harita tarafı kadar, web sitenizin de lokal sinyaller vermesi gerekir. DGTLFACE, yerel SEO odaklı: Şehir/ilçe/bölge bazlı landing sayfaları, “Şehir + hizmet” kombinasyonlu H1/H2 başlık yapıları, Sayfa içeriklerinde lokal referanslar (bölge isimleri, mahalleler, landmark’lar), Yerel schema işaretlemeleri (LocalBusiness, Hotel, Organization vb.), İç linkleme ile lokal sayfalar arasında otorite dağılımı kurgular. “Yerel aramalarda nasıl üst sıralara çıkılır, yerel anahtar kelime araştırması, local pack nedir” gibi konular, sadece harita değil; site içi mimari ve içerik stratejisiyle de desteklenir.",
+
+    "header3": "Oteller ve Turizm Markaları İçin Yerel SEO",
+    "text3": "Turizm ve otelcilikte yerel SEO, hem destinasyon hedefli turist hem de bölge içinden gelen kullanıcılar için kritik bir alan. DGTLFACE, “otel yerel SEO, turizm yerel SEO, resort Google Maps optimizasyonu, OTA lokal SEO” tarafında: Otelinizin bulunduğu destinasyon için (“antalya family hotel”, “belek all inclusive”, “kemer adults only hotel” vb.) lokal anahtar kelime haritaları çıkarır, Google Maps’te rakip otellerin pozisyonunu, yorum sayısını ve kategori yapılarını analiz eder, Bölge bazlı blog ve rehber içerikleriyle (“X bölgede yapılacaklar, gezilecek yerler, plaj rehberleri” vb.) otelinizi destinasyonun doğal parçası haline getirir, OTA sayfalarınızdaki bilgi ve görsellerle web sitenizi teknik ve içerik anlamında uyumlu hale getirir. Amaç: Sadece OTA tarafında görünür olmak değil; kendi web siteniz ve kendi Google Maps profilinizle de güçlü bir lokal varlık kurmaktır.",
+
+    "header4": "Yorum, Puan ve İtibar Yönetimi",
+    "text4": "Yerel aramalarda sadece konum değil, puan ve yorumlar da kullanıcı kararında belirleyici. DGTLFACE, “lokal SEO için yorum yönetimi, Google harita kaydı oluşturma, oteller için yerel SEO, restoran yerel SEO örnekleri” gibi süreçlerde: Google yorumlarınızı düzenli takip eder, Olumlu yorumları teşvik edecek stratejiler geliştirir (konaklama sonrası e-mail, QR kod vb.), Olumsuz yorumlara profesyonel ve çözüm odaklı cevaplar yazılmasını sağlar, Dönemsel olarak yorum sayısı & ortalama puan raporları çıkarır. İtibar yönetimi, yerel SEO’nun en güçlü sosyal kanıt katmanıdır. Haritada 4.8 puanlı, bol fotoğraflı ve güncel yorumlu bir işletme, her zaman daha çok tıklanır ve aranır."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Yerel SEO Hizmet Detayları",
+
+    "header1": "Lokal SEO Analizi – Mevcut Durum ve Rakip Haritası",
+    "text1": "Lokal SEO analizi, sadece kendi profilinize bakmak değil, bölgedeki rekabete de bakmaktır. DGTLFACE: Google Haritalar’da ilgili anahtar kelimelerde (şehir + hizmet) çıkan rakipleri tarar, Rakiplerin kategori, yorum, puan, fotoğraf, açıklama ve içerik yapılarını inceler, Sizin profilinizle kıyaslayarak eksikleri listeler, “Antalya local pack analizi, oteller için lokal rekabet haritası” gibi çıktıların yer aldığı bir rapor hazırlayıp, yerel SEO yol haritası çıkarır.",
+
+    "header2": "Google Haritalar Optimizasyonu – Teknik ve Görsel Düzenlemeler",
+    "text2": "Google Haritalar optimizasyonu, sadece adres ve telefon eklemekten ibaret değildir. DGTLFACE: Kategori seçimini hassas yapar (ör: “Otel” + “Spa Hotel” + “Resort Hotel” gibi ikincil kategoriler), Hizmet alanı (service area) ve lokasyon pin’ini doğru konumlandırır, Yüksek kaliteli fotoğraf ve video setleri hazırlar (oda, lobby, dış cephe, çevre), “Öne çıkanlar” ve “Hizmetler” alanlarını yerel anahtar kelimelerle uyumlu doldurur, Google Post’ları ile kampanya ve duyurularınızı harita profiline taşır. Böylece profiliniz hem Google gözünde hem de kullanıcı gözünde dolu ve profesyonel görünür.",
+
+    "header3": "Yerel Anahtar Kelime Araştırması ve İçerik Planlama",
+    "text3": "Yerel SEO’da “X hizmeti” demek yetmez; “şehir + hizmet” kombinasyonlarını doğru yakalamak gerekir. DGTLFACE, yerel anahtar kelime araştırması sürecinde: Bölge bazlı arama hacimlerini analiz eder, “Hizmet + şehir”, “hizmet + semt/mahalle”, “yakınımdaki + hizmet” pattern’lerini çıkarır, Bu kelimeleri hem web site içeriklerinize, hem Google Business açıklamalarına, hem de FAQ/Schema katmanına işler. Örneğin: “yerel seo antalya, antalya Google Maps optimizasyonu, yerel seo türkiye, antalya işletme seo” gibi kombinasyonlar, hem title/meta tarafında hem içerik bloklarında kullanılacak şekilde planlanır."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Yerel SEO?",
+
+    "card1title": "Sadece Kayıt Açan Değil, Aktif Yöneten Yerel SEO Partneri",
+    "card2title": "SEO, SMM, Çağrı Merkezi ve Raporlama ile Entegre Lokal Yapı",
+    "card3title": "Antalya Merkezli, Turizm ve Lokal Hizmet Odaklı Yerel SEO Uzmanlığı",
+
+    "card1description": "Birçok işletme için yerel SEO, “Google haritalara kayıt açtık, bitti” seviyesinde kalıyor. DGTLFACE ise: Profilinizi bir kez doldurup bırakmaz, Düzenli güncellemeler, yeni fotoğraflar ve post’larla profili canlı tutar, Yorumları, soruları ve mesajları takip eder, Web sitenizle harita profiliniz arasındaki tutarlılığı sürekli kontrol eder. Yani yerel SEO’yu tek seferlik bir iş değil, yaşayan bir kanal olarak ele alırız.",
+    "card2description": "Yerel SEO’nun gücü, diğer kanallarla birleştiğinde katlanır. DGTLFACE, yerel SEO’yu: SEO genel stratejisi → /tr/seo-hizmetleri, İçerik SEO & blog → /tr/seo/icerik-seo, SMM & lokal içerikler → /tr/sosyal-medya-yonetimi, Çağrı merkezi & mesaj yönetimi → /tr/cagri-merkezi/mesaj-yonetimi, Benchmark & raporlama → /tr/raporlama/benchmark-analizi ile entegre düşünür. Sonuç: Kullanıcı sizi haritada görür, web sitenizi ziyaret eder, sosyal medyada takip eder, DM veya telefonla ulaşır; tüm bu temasların verisini de raporlarda görürsünüz.",
+    "card3description": "“Yerel SEO Antalya, Antalya Google Maps optimizasyonu, Antalya işletme SEO, Antalya otel yerel SEO” gibi aramaların arkasında; hem turizmi hem lokal hizmet pazarını sahadan tanıyan bir ekip gerekir. DGTLFACE, Antalya merkezli yapısıyla: Oteller, restoranlar, ajanslar, lokal işletmeler, Antalya + Belek + Side + Kemer + Lara + Alanya gibi destinasyonlar için yerel SEO’da gerçek saha deneyimine sahiptir. Bu da çözümlerimizin sadece teorik değil, “orada yaşayan” bir gözle üretilmesini sağlar."
+  },
+
+  "verticalSlider": {
+    "header": " Mikro Katman -",
+    "header2": "Yerel SEO Stratejisini Derinleştiren Alanlar",
+
+    "title1": "Local Pack Nedir ve ",
+    "span1": "Nasıl Girilir?",
+    "text1": "Local pack, Google arama sonuçlarında üstte çıkan 3’lü harita kutusudur. Bu alanda görünmek için: Google Business profilinizin tam ve doğru doldurulması, Yorum sayısı ve puanınızın rakiplere göre iyi olması, Lokal anahtar kelimelere göre optimize edilmiş açıklama ve kategori seçimi, Bölgeden alınan lokal backlink’ler ve sitenizin lokal sinyalleri kritiktir. DGTLFACE, bu sütunları planlayarak local pack’te kalıcı yer edinmeniz için çalışır.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Yerel SEO ve Yorum ",
+    "span2": "Yönetimi İlişkisi",
+    "text2": "Yorumlar hem kullanıcı için güven unsuru hem de Google için önemli bir sinyaldir. DGTLFACE: Yıldız ortalamasını yükseltmek için yorum teşvik modelleri geliştirir, Olumsuz yorumlara krizi büyütmeden, profesyonel tonla yanıt verir, Yorumlardaki anahtar kelimeleri (ör: “antalya otel”, “belek resort”) dolaylı sinyal olarak değerlendirmeyi hedefler. Bu sayede hem puan hem algı tarafında yerel itibarınızı güçlendirirsiniz.",
+    "button2": "Keşfet",
+
+    "title3": "Yerel Backlink ve ",
+    "span3": "Sektörel Kaynaklardan Destek",
+    "text3": "Yerel SEO’da lokal ve sektörel backlink büyük fark yaratır. DGTLFACE, “sektörel kaynaklardan backlink, turizm sitelerine backlink, oteller için backlink stratejisi” başlıklarında: Bölgesel rehber siteleri, Yerel haber kaynakları, Turizm blogları, İşletme/oda/dernek siteleri gibi kaynaklardan alınabilecek doğal ve anlamlı bağlantıları planlar. Bu bağlantılar, hem yerel görünürlüğünüzü hem de genel dijital otoritenizi destekler.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "Yerel SEO ve Çağrı/ ",
+    "span4": "Mesaj Dönüşümleri",
+    "text4": "Yerel aramalarda kullanıcı çoğu zaman siteye bile girmeden: “Ara” butonuna tıklar, Yol tarifi ister, WhatsApp/Web Chat ile yazışma başlatır. DGTLFACE, /tr/sem/donusum-takibi-tag-manager ve /tr/cagri-merkezi/mesaj-yonetimi ile birlikte: Harita üzerinden gelen aramaları (click-to-call), Directions tıklamalarını, Mesaj/DM başlatma aksiyonlarını ölçümler. Böylece yerel SEO’nun sadece “görünürlük” değil, gerçek telefon ve ziyaret trafiği üretip üretmediğini de görürsünüz.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – Yerel SEO Hizmetleri Hakkında Sık Sorulan Sorular",
+
+    "question1": "Yerel SEO sadece fiziksel konumu olan işletmeler için mi geçerli?",
+    "answer1": "Ağırlıklı olarak evet; oteller, restoranlar, klinikler, ofisler, mağazalar gibi fiziksel lokasyonu olan işletmeler için yerel SEO en kritik alanlardan biridir. Ancak belirli bir bölgede hizmet veren (örn. “Antalya dijital ajansı”) uzaktan çalışan işletmeler için de lokal aramalar üzerinden güçlü görünürlük sağlar.",
+
+    "question2": "Google Haritalar kaydım var, yine de profesyonel yerel SEO’ya ihtiyaç var mı?",
+    "answer2": "Kayıt olması güzel ama çoğu zaman: Kategori yanlış, Açıklama boş veya zayıf, Fotoğraflar eski ve düşük kaliteli, Yorumlara cevap verilmiyor, Post/hizmet alanları kullanılmıyor. Profesyonel yerel SEO ile bu profil; sadece kayıtlı olmaktan çıkar, gerçekten dönüştüren bir varlığa dönüşür.",
+
+    "question3": "Yerel SEO sonuçları ne kadar sürede görülür?",
+    "answer3": "Rekabet ve mevcut durumunuza göre değişmekle birlikte, Google Business profilindeki iyileştirmelerin etkisi çoğu zaman 4–8 hafta içinde fark edilmeye başlar. Yorum, içerik, backlink ve site içi lokal optimizasyonların etkisi orta vadede (3–6 ay) daha güçlü hissedilir.",
+
+    "question4": "Yerel SEO ile normal (genel) SEO’yu birlikte yürütmek zorunda mıyım?",
+    "answer4": "Zorunda değilsiniz, ancak en iyi sonuç bu ikisi birlikte çalıştığında gelir. Genel SEO ile içerik ve otoriteyi, yerel SEO ile harita ve lokal sıralamaları güçlendiririz. DGTLFACE, bu iki alanı /tr/seo-hizmetleri çatısı altında entegre yönetir.",
+
+    "question5": "DGTLFACE ile yerel SEO projesine nasıl başlıyoruz?",
+    "answer5": "Önce mevcut Google Business profilinizi, lokal organik görünürlüğünüzü ve rakiplerinizi analiz ediyoruz. Ardından: Yerel SEO analiz raporu, Google Maps & profil optimizasyon planı, Web’de lokal sayfa ve içerik planı, Yorum & itibar yönetimi stratejisi, Raporlama modeli içeren bir Yerel SEO Yol Haritası hazırlıyoruz. Onay sonrası uygulama, optimizasyon ve düzenli raporlama döngüsüne giriyoruz."
+  }
+},
+
+"ContentSeo": {
+  "cta_talk_to_us": "İçerik Stratejinizi Güçlendirin",
+
+  "contentsub_header": "İçerik SEO ve Blog Optimizasyonu – ",
+  "contentsub_header2": "Arama Niyetine Uygun İçerikler",
+  "contentsub_text": "DGTLFACE, içerik SEO hizmetleriyle web sitenizdeki içerikleri arama niyetine göre kurgulayan, blog yapınızı stratejik bir trafik ve dönüşüm motoruna dönüştüren profesyonel bir SEO içerik partneridir. “Kelimeleri yan yana dizmek” yerine; arama niyeti (search intent), anahtar kelime haritalandırma, içerik kümeleri (topic clusters), iç linkleme ve güncelleme döngüsüyle çalışan bir içerik mimarisi kurarız. Amacımız sadece “SEO uyumlu makale” yazmak değil; doğru kullanıcıyı, doğru içerikle çekip, onu blog’dan hizmet sayfalarınıza, oradan da satış/rezervasyon formuna kadar taşıyan eksiksiz bir içerik funnel’ı oluşturmaktır.",
+"contentsub_header3": "İçerik SEO Nedir? Klasik İçerikten Farkı Ne?",
+  "contentsub_text2":"İçerik SEO, bir sayfanın veya blog yazısının sadece anahtar kelime barındırmasından ibaret değildir. DGTLFACE için İçerik SEO: Anahtar kelimeleri arama niyetine göre gruplayan, Kullanıcının sorusunu gerçekten cevaplayan, Teknik SEO ile uyumlu başlık (H1–H2–H3) ve URL yapısı kullanan, İç linklerle site içinde otoriteyi doğru dağıtan, Zaman içinde performansa göre güncellenen bir içerik yaşam döngüsüdür. “SEO içerik yazarlığı, blog optimizasyonu, SEO uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma” gibi başlıkların her biri bu döngünün bir parçası. Kısaca: İçerik sadece okunmak için değil, bulunmak ve dönüştürmek için üretilir.",
+
+  "content_ai_answer_title": "AI Answer Block – İçerik SEO",
+  "content_ai_answer_text": "DGTLFACE, içerik SEO ve blog optimizasyonu ile arama niyetine uygun, anahtar kelime haritalandırılmış, topic cluster mantığıyla kurgulanmış içerik stratejileri sunar. Her içerik için doğru search intent, başlık yapısı, iç linkleme ve güncelleme döngüsü tanımlanır. Özellikle otel ve turizm markaları için destinasyon, deneyim ve SSS odaklı blog yapılarıyla hem organik trafiği hem rezervasyona giden yolu güçlendirir.",
+
+  "h2Section": {
+    "header1": "Arama Niyeti ve İçerik Stratejisinin Temeli",
+    "text1": "Google artık sadece kelimelere değil, niyete bakıyor. Kullanıcı: Bilgi mi arıyor? (informational) Karşılaştırma mı yapıyor? (commercial) Satın almaya mı hazır? (transactional) Sadece navigasyon mu yapmak istiyor? (navigational) DGTLFACE, Google search intent analizi ile; “SEO uyumlu içerik nasıl yazılır, içerik pazarlama stratejileri, blog trafik artırma yöntemleri, içerik kümeleri nasıl oluşturulur” gibi soruları şu mantıkla cevaplar: Bilgi içerikleriyle üst hunide görünürlük sağlarız, Karşılaştırma içerikleriyle “seçim aşamasındaki” kullanıcıyı yakalarız, Transactional içeriklerle (hizmet sayfaları) dönüşümü kurgularız. İçerik planınızda her niyet tipi için doğru başlık ve sayfa tipine yer vermezsek, trafik gelir ama yanlış kullanıcı yüzünden dönüşüm alamazsınız.",
+
+    "header2": "İçerik Kümeleri (Topic Clusters) ve İç Linkleme",
+    "text2": "“Her konuya bir yazı yazalım, bitsin” devri bitti; Google, konularda derinleşen siteleri seviyor. DGTLFACE, içerik SEO stratejisinde: Ana konular (pillar pages) belirler, Her ana konu altında long-tail ve niş aramalara hitap eden alt içerikler üretir, Bu içerikleri iç linklerle birbirine bağlar, “İçerik kümeleri nasıl oluşturulur, blog kategorileri nasıl planlanır” sorusunu site mimarinizle birlikte çözer. Sonuç: Hem kullanıcı hem Google, sitenizi “bu konuda otorite” olarak algılar.",
+
+    "header3": "İçerik Güncelleme ve Sürekli Optimizasyon",
+    "text3": "SEO içeriği bir kere yazıp bırakmak, onu yavaş yavaş öldürmek demek. DGTLFACE, SEO içerik güncelleme teknikleri ile: Eski yazıları yeni verilerle günceller, Değişen arama niyeti ve anahtar kelime hacimlerine göre optimize eder, İçerik yoğunluğunu (keyword density & semantik yoğunluk) dengeler, Eskimiş, alakasız kısımları temizler, yeni alt başlıklarla derinlik katar. “Blog trafik artırma yöntemleri”nin büyük bir kısmı, sıfırdan yeni yazı yazmak yerine, performansı olan içerikleri akıllıca güncellemekten geçer.",
+
+    "header4": "Oteller ve Turizm Markaları İçin İçerik SEO",
+    "text4": "Turizm ve otelcilikte içerik, misafirin karar sürecinde güven ve hayal oluşturur. DGTLFACE, “otel blog içerikleri, turizm içerik yazıları, resort SEO içerik stratejisi, OTA içerik pazarlama” alanlarında: Destinasyon rehberleri, Konsept odaklı içerikler, Sık sorulan sorular, Sezonluk içerikler, OTA profillerine uyumlu açıklama metinleri üretir. Bu içerikler sadece blog’da kalmaz; SEO, sosyal medya, e-mail ve remarketing kreatiflerini de besler."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE İçerik SEO Hizmet Detayları",
+
+    "header1": "Anahtar Kelime Haritalandırma ve İçerik Yol Haritası",
+    "text1": "Başarılı bir içerik SEO projesi, anahtar kelime haritalandırma ile başlar. DGTLFACE: Primary, secondary, long-tail ve niş kelimeleri çıkarır, Her kelimeyi doğru sayfa tipine (hizmet, kategori, blog, FAQ…) eşler, Arama niyeti ve zorluk seviyesine göre bir yayın takvimi tasarlar. Böylece içerikler potansiyeli hesaplanmış bir plana göre üretilir.",
+
+    "header2": "SEO Uyumlu İçerik Nasıl Yazılır?",
+    "text2": "“SEO uyumlu içerik nasıl yazılır?” sorusuna DGTLFACE’in cevabı: Kullanıcı niyeti merkeze alınır, Başlık yapısı hiyerarşik olur, Giriş paragrafı konuyu çerçeveler, Gövde kısmı alt başlıklarla güçlendirilir, Sonuçta CTA yer alır. Böylece içerik hem Google için kapsamlı hem kullanıcı için faydalı hale gelir.",
+
+    "header3": "Blog Optimizasyonu – Kategori, Etiket ve İç Linkleme",
+    "text3": "Blog’u sadece yazı yığını olarak bırakmak, potansiyelin yarısını çöpe atmak demek. DGTLFACE: Kategori yapısını SEO’ya uygun hale getirir, Gereksiz etiketleri temizler, İç linkler kurar, İçerik içinde dolaşımı artırır. Teknik + içerik + UX yaklaşımıyla blog’unuz bir trafik motoruna dönüşür."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile İçerik SEO?",
+
+    "card1title": "Sadece Yazı Üreten Değil, Strateji Kurup Raporlayan Partner",
+    "card1description": "DGTLFACE: Strateji (intent & cluster), Üretim (metin, görsel), Yayın (meta, iç link), Raporlama (trafik, dönüşüm) katmanlarının tamamını düşünür. Sadece yazmakla kalmaz, içeriğin performansını da takip eder.",
+
+    "card2title": "SEO + SMM + Reklam + Raporlama ile Entegre İçerik Yapısı",
+    "card2description": "İçerik SEO tek başına bırakıldığında etkisinin bir kısmını kaybeder. DGTLFACE, içerikleri SEO, sosyal medya, e-mail, remarketing ve raporlama kanallarıyla entegre yönetir.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı İçerik SEO Uzmanlığı",
+    "card3description": "DGTLFACE, turizm ve hizmet sektörünü sahadan bilen bir ekip olarak; oteller, ajanslar, sağlık ve B2B işletmeleri için hem Türkçe hem İngilizce içerik SEO stratejileri üretir."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman -",
+    "header2": "İçerik SEO Stratejisini Derinleştiren Alanlar",
+
+    "title1": "Otel Blog İçerikleri Nasıl ",
+    "span1": "Kurgulanmalı?",
+    "text1": "Otel blog içerikleri: Destinasyonu da anlatmalı, Sorulara yanıt vermeli, Konsepti göstermeli, Fotoğraf&video ile desteklenmeli, Rezervasyon alanlarına CTA ile bağlanmalı.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Turizm İçerik Yazılarında ",
+    "span2": "Dil ve Ton",
+    "text2": "Turizm içerikleri: Hem bilgilendirici hem davetkâr olmalı; bölgeyi tanıtmalı, deneyimi hissettirmeli, cazip ama dürüst bir ton kullanmalı. DGTLFACE bu dengeyi korur.",
+    "button2": "Keşfet",
+
+    "title3": "İçerik Yoğunluğu ve ",
+    "span3": "Semantik Zenginlik",
+    "text3": "Önemli olan: Konuyu derin işlemek, semantik kavramları kullanmak, spamden kaçınmak, tüm alt soruları cevaplamak. DGTLFACE, yoğunluğu Google + kullanıcı için optimize eder.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "Blog Trafiğini ",
+    "span4": "Satışa Bağlamak",
+    "text4": "DGTLFACE: İç linkleme, CTA, analiz ve dönüşüm raporlarıyla blog → satış katkısını görünür hale getirir. Böylece içerik pazarlaması gerçek bir gelir oyununa dönüşür.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS - İçerik SEO Hizmetleri Hakkında Sık Sorulan Sorular",
+
+    "question1": "İçerik SEO ile klasik içerik yazımı arasındaki fark nedir?",
+    "answer1": "Klasik içerik anlatır ve biter. İçerik SEO ise: anahtar kelime + arama niyeti + teknik SEO uyumu + iç linkleme + güncelleme döngüsüyle çalışan bir stratejidir.",
+
+    "question2": "Her yazının mutlaka satış/rezervasyon getirmesi mi gerekir?",
+    "answer2": "Hayır. Yazıların bazıları bilgi, bazıları karşılaştırma, bazıları ise dönüşüm içindir. Önemli olan bu üç katmanın dengeli ve bağlantılı olmasıdır.",
+
+    "question3": "İçerik SEO sonuçları ne kadar sürede görünür?",
+    "answer3": "Genellikle 1–3 ay içinde ilk sinyaller, 3–6 ay içinde trafik, 6–12 ay içinde ciddi trafik + dönüşüm artışı görülür.",
+
+    "question4": "İçeriği biz yazsak, siz sadece SEO tarafını kurgular mısınız?",
+    "answer4": "Evet. İçeriği biz de yazabiliriz, siz de yazabilirsiniz. DGTLFACE her iki durumda da yapılandırma + optimizasyon + strateji kısmını yönetir.",
+
+    "question5": "DGTLFACE ile içerik SEO projesine nasıl başlıyoruz?",
+    "answer5": "Ön analiz → anahtar kelime & intent haritası → içerik cluster’ları → yayın & güncelleme takvimi → KPI → uygulama ve raporlama döngüsü şeklinde ilerleriz."
+  }
+},
+
+"BacklinkSeo": {
+  "cta_talk_to_us": "Dijital Otoritenizi Güçlendirin",
+
+  "backlinkseo_subbanner_header": "Backlink Yönetimi ve ",
+  "backlinkseo_subbanner_header2": "Dijital Otorite Geliştirme",
+  "backlinkseo_subbanner_text": "DGTLFACE, backlink yönetimi hizmetleriyle sitenizin dijital otoritesini ve Google gözündeki güven sinyallerini güçlendiren, tamamen strateji odaklı bir link inşası partneridir. Amacımız “her yerden link alalım” değil; markanız, sektörünüz ve hedeflerinizle uyumlu, kaliteli backlink kaynakları üzerinden uzun vadeli bir otorite profili oluşturmaktır. “Backlink oluşturma, link inşası stratejisi, dijital otorite artırma, kaliteli backlink, backlink analizi” gibi başlıklarda; neyin işe yaradığını, neyin riskli olduğunu ve hangi adımlarla ilerlemeniz gerektiğini netleştiririz. Sonuç: Spam’e bulaşmadan, algoritma güncellemelerinde risk almadan, sağlam ve sürdürülebilir bir otorite artışı.",
+
+  "backlinkseo_ai_answer_title": "AI Answer Block – Backlink Yönetimi",
+  "backlinkseo_ai_answer_text": "DGTLFACE, backlink yönetimini sektör odaklı dijital otorite inşası olarak ele alır. Backlink analiziyle profilinizdeki güçlü ve riskli bağlantıları tespit eder, zararlı (toxic) linkleri temizler, otel ve turizm markaları için destinasyon portalları, seyahat blogları ve rehber siteler gibi güvenilir kaynaklardan doğal backlink kurguları oluşturur. Link juice optimizasyonu ve düzenli raporlama ile domain otoritenizi ve Google sıralama sinyallerinizi güçlendirir.",
+
+  "backlinkseo_subbanner_header3": "Backlink Nedir? Otorite ve Güven Sinyali Nasıl Çalışır?",
+  "backlinkseo_subbanner_text2": "Backlink, başka sitelerden sizin sitenize gelen bağlantıdır. Ama SEO tarafında asıl önemli olan: O bağlantının nereden geldiği (otorite, sektör, kalite), Hangi sayfayı işaret ettiği, Bağlam (içerikte nasıl ve hangi anchor text’le geçtiği), Backlink profilinizin doğal mı, yoksa manipülatif mi göründüğüdür. DGTLFACE, “backlink oluşturma, dijital otorite artırma, backlink analizi” süreçlerinde: Profilinizdeki iyi & kötü linkleri ortaya çıkarır, Rakiplerinizin otorite kaynaklarını inceler, Sektörünüz için anlamlı link fırsatları üretir. Backlink’i “ne kadar çok o kadar iyi” değil, ne kadar alakalı, güvenilir ve doğal o kadar iyi prensibiyle ele alırız.",
+
+  "h2Section": {
+    "header1": "Backlink Nasıl Alınır? (Doğru ve Yanlış Yollar)",
+    "text1": "“Backlink nasıl alınır?” sorusunun hem iyi hem kötü cevabı var. İyi yöntemler: Sektörel blog / portal / haber siteleriyle iş birlikleri, Misafir yazarlık (guest post) ve röportajlar, Case study, success story, whitepaper gibi değerli içeriklerin referans gösterilmesi, Rehber, liste ve kaynak sayfalarına (resource pages) girme, İş ortaklıkları, tedarikçi–bayi ağları, dernek & oda siteleri, Kötü yöntemler: Paket halinde satılan spam linkler, Tamamen alakasız ülkelerden ve dillerden gelen PBN ağları, Footer / sitewide link çöplükleri, Otomatik yorum ve profil spam’leri. DGTLFACE, “kaliteli backlink nereden bulunur, sektörel kaynaklardan backlink, backlink outreach teknikleri” gibi başlıklarda, white-hat yöntemlerle ilerler; algoritma güncellemelerinde risk taşımayan kalıcı otorite inşa eder.",
+
+    "header2": "Kötü Backlink Temizleme ve Risk Azaltma",
+    "text2": "Zaman içinde, farkında olmadan veya eski ajans çalışmalarından dolayı profilinizde: Spam blog ağlarından gelen linkler, Tamamen alakasız ülke/dil siteleri, Oyun, bahis, yetişkin içerik gibi riskli alanlardan bağlantılar birikebilir. DGTLFACE, “kötü backlink temizleme yöntemleri” kapsamında: Backlink profilinizi analiz eder, Zararlı/şüpheli linkleri tespit eder, Gerekirse site sahipleriyle iletişime geçer (remove request), Son aşamada Google Disavow dosyasını doğru formatta hazırlayıp uygular. Amaç, geçmişten gelen hataların geleceğinizi bozmasını engellemek ve profilinizi temiz, kontrollü ve sağlıklı bir seviyeye getirmektir.",
+
+    "header3": "Oteller ve Turizm Siteleri İçin Backlink Stratejileri",
+    "text3": "Turizm ve otelcilikte backlink çalışması, sektörü bilmeden yapılırsa hem boşa para hem de ciddi risk demektir. DGTLFACE, “otel backlink çalışması, turizm backlink stratejisi, OTA backlink bağlantıları, resort backlink profili” gibi dikey odaklı alanlarda: Turizm & gezi blogları, Bölgesel rehber siteleri, Tur operatörleri & OTA iş ortakları, Yerel haber siteleri ve turizm portalları, Sektörel dernek, oda ve fuar organizasyonu siteleri gibi kaynakları değerlendirir. “Turizm sitelerine backlink, oteller için backlink stratejisi” çalışırken; destinasyon, hedef ülke, otel konsepti ve fiyat segmenti gibi faktörleri hesaba katarız. Amaç, “her yerden link” değil; otelinizi ve markanızı doğru çevrede konumlandıran değerli bağlantılar üretmektir."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Backlink Yönetimi Hizmet Detayları",
+
+    "header1": "Backlink Analizi – Profilinizi Röntgenlemek",
+    "text1": "Sağlam bir strateji için önce mevcut durumu bilmek gerekir. DGTLFACE, backlink analizi sürecinde: Toplam backlink ve referring domain sayınızı, Dofollow / nofollow oranlarını, Anchor text dağılımını (marka, generic, exact match, URL vb.), Ülke, dil ve sektörel dağılımı, Spam skorunu ve riskli domain’leri çıkartır. “Backlink analiz araçları, domain otorite artırma” gibi başlıkları, somut raporlar haline getirip; “önce temizlik mi, önce inşa mı?” sorusuna net yanıt üretiriz.",
+
+    "header2": "Link İnşası Stratejisi – Nereden, Nasıl, Ne Kadar?",
+    "text2": "Link inşası stratejisi, “hadi biraz link alalım” değil; planlı bir yatırım olmalı. DGTLFACE: Hedef domain otoritesini (DA/DR vb.) ve zaman planını belirler, Hangi aylarda hangi sayfalara link alınacağını planlar (hizmet sayfaları, kategoriler, blog cluster’ları), “Dijital otorite artırma, kaliteli backlink, link juice optimizasyonu” kavramlarını dikkate alarak, linklerin site içinde doğru dağılımını kurgular. Her sektöre, her coğrafyaya ve her hedefe uygun farklı link inşası modelleri kullanırız. Rastgele değil; gerekçesi olan, ölçülebilir bir backlink planı çıkarırız.",
+
+    "header3": "Backlink Outreach ve İçerik Tabanlı Link Kazanımı",
+    "text3": "En sağlıklı linkler, içeriğinizin gerçekten değerli bulunduğu senaryolardan gelir. DGTLFACE, “backlink outreach teknikleri” ve içerik tabanlı link kazanımı tarafında: Güçlü içerikleri (rehberler, araştırmalar, listeler, “ultimate guide” içerikleri) belirler, Bu içeriklerden fayda sağlayabilecek siteleri ve editörleri tespit eder, Profesyonel, spam olmayan outreach e-mailleri ile iş birliği teklif eder, Uygun görülen yerlerde guest post / ortak içerik üretimi yapar. Bu sayede backlink profiliniz sadece satın alınmış linklerden değil, organik & ilişkisel bağlantılardan oluşmaya başlar."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Backlink Yönetimi?",
+
+    "card1title": "Sadece Link Satın Alan Değil, Otorite Stratejisi Kuran Partner",
+    "card1description": "Backlink çalışması, yanlış ellerde çok hızlı şekilde “link paketi al–sat” işine dönüşür. DGTLFACE ise: Önce strateji ve analiz yapar, Sektörünüze ve risk toleransınıza göre güvenli çizgiyi belirler, Kısa vadeli manipülasyon yerine, orta–uzun vadeli dijital otorite artırma hedefi koyar, Yaptığı her hamleyi raporlar ve gerekçelendirir. Yani “ne kadar çok link, o kadar iyi” değil, “ne kadar doğru link, o kadar güçlü otorite” prensibiyle çalışırız.",
+
+    "card2title": "SEO, İçerik ve Teknik Altyapı ile Entegre Backlink Çalışması",
+    "card2description": "Güçlü bir backlink stratejisi, /tr/seo-hizmetleri çatısından ayrı düşünülemez. DGTLFACE: Teknik altyapıyı (/tr/seo/teknik-seo) sağlamlaştırır, İçerik kümelerini (/tr/seo/icerik-seo) otorite toplayacak şekilde kurgular, Yerel SEO (/tr/seo/yerel-seo) ile lokal sinyalleri güçlendirir, Backlink’leri tüm bu yapı üzerine inşa eder. Böylece aldığınız bağlantılar; kırık, indexlenmeyen, zayıf sayfalara gitmez; zaten SEO açısından güçlü bir mimariyi besler.",
+
+    "card3title": "Antalya Merkezli, Turizm ve B2B Odaklı Otorite Yönetimi",
+    "card3description": "“Backlink Antalya, Antalya SEO ajansı, backlink çalışması Türkiye, Antalya dijital otorite” gibi aramalarda aranan şey; hem teknik SEO hem içerik hem de sektör bilgisini bir arada bulmaktır. DGTLFACE, Antalya merkezli bir ajans olarak: Oteller ve turizm markaları (resort, butik, villa, OTA…), Hizmet ve B2B işletmeler, Uluslararası pazara açılan ihracat markaları için spesifik backlink & otorite kurguları üretir. Yani sadece “global’de link bulalım” değil, iş modelinizle uyumlu dijital otorite haritası çıkarırız."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman -",
+    "header2": "Backlink Stratejisini Derinleştiren Alanlar",
+
+    "title1": "Link Juice Optimizasyonu ve ",
+    "span1": "Site İçi Otorite Dağılımı",
+    "text1": "Backlink sadece geldiği sayfayı değil, iç linkler yoluyla tüm siteyi etkiler. DGTLFACE: Backlink alan sayfalardan, stratejik sayfalara iç linkler kurgular, “Link juice”u en çok performans almak istediğiniz sayfalara yönlendirir, Gereksiz/noindex alanlara giden linkleri minimize eder. Böylece her alınan link, sadece sayfa bazında değil, site genelinde etki yaratır.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "OTA Backlink Bağlantıları ve ",
+    "span2": "Otel Profilleri",
+    "text2": "Oteller için OTA platformlarında (Booking, Expedia, Agoda vb.) yer almak, dolaylı bir otorite unsuru olabilir. DGTLFACE, OTA backlink bağlantıları tarafında: OTA sayfalarından gelen olası link ve mention’ları analiz eder, Marka aramalarında (branded search) OTA–web sitesi dengesini takip eder, Teknik SEO ile birlikte, otel web sitenizin marka aramalarında birincil kaynak kalmasını sağlar.",
+    "button2": "Keşfet",
+
+    "title3": "Backlink Çalışmasının Zaman Planı ve ",
+    "span3": "Doğallığı",
+    "text3": "Google’ın en hassas olduğu alanlardan biri, link hızıdır (link velocity). DGTLFACE: Alan adınızın yaşına, geçmişine ve mevcut profilinize göre doğal bir link artış planı yapar, Ani patlamalar yerine, düzenli ve anlamlı artışlar hedefler, Sezonluk kampanya dönemlerinde (özellikle turizmde) tempoyu bilinçli şekilde ayarlar. Bu sayede backlink profiliniz, hem doğal görünür hem de uzun vadeli risklerden korunur.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "Backlink ve Benchmark – ",
+    "span4": "Rakipler Ne Yapıyor?",
+    "text4": "Backlink stratejisini doğru kurmak için, sadece kendinize değil, rakiplerinize de bakmanız gerekir. DGTLFACE, /tr/raporlama/benchmark-analizi ile: Rakip domain’lerin backlink kaynaklarını, Anchor text stratejilerini, Geçmiş dönemlerdeki link artış hızlarını raporlar. Bu verileri, “Biz nerede duruyoruz ve nereye doğru gitmeliyiz?” sorusunun otorite tarafındaki cevabı olarak kullanırız.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – Backlink Yönetimi Hakkında Sık Sorulan Sorular",
+
+    "question1": "Backlink hâlâ önemli mi, Google artık görmezden gelmiyor mu?",
+    "answer1": "Evet, hâlâ çok önemli. Google, spam ve manipülatif linkleri filtrelemede daha iyi hale geldi; ama güvenilir, alakalı ve kaliteli backlink’ler hâlâ en güçlü sıralama sinyallerinden biridir. Önemli olan, linkleri eski usul manipüle etmek değil, doğru stratejiyle doğal profil oluşturmaktır.",
+
+    "question2": "Her gelen backlink iyi midir?",
+    "answer2": "Kesinlikle hayır. Yanlış, alakasız veya spam kaynaklardan gelen linkler: Profilinizi kirletebilir, Algoritma güncellemelerinde risk yaratabilir, Gerekirse disavow gerektirebilir. Bu yüzden backlink yönetiminde kalite ve alaka, adet sayısından çok daha önemlidir.",
+
+    "question3": "Backlink çalışması yapmadan da SEO’da yükselebilir miyim?",
+    "answer3": "Sadece teknik ve içerik SEO ile belirli seviyeye kadar çıkmak mümkündür; özellikle rekabetin düşük olduğu nişlerde. Ancak orta–yüksek rekabetli alanlarda, güçlü rakiplerle yarışabilmek için dijital otorite (backlink) katmanını da devreye almak gerekir.",
+
+    "question4": "Backlink’leri siz mi alıyorsunuz, yoksa sadece strateji mi veriyorsunuz?",
+    "answer4": "İki modelle de çalışıyoruz: Sadece strateji + analiz + roadmap çıkarıp uygulamayı sizin/ajansınızın yapması, Hem strateji hem outreach hem de kaynak yönetimini bizim üstlendiğimiz uçtan uca model. Projenin bütçesi, hedefi ve risk toleransına göre birlikte karar veriyoruz.",
+
+    "question5": "DGTLFACE ile backlink yönetimi projesine nasıl başlıyoruz?",
+    "answer5": "Önce mevcut backlink profilinizi ve rakiplerinizin profilini analiz ediyoruz. Ardından: Temizlik gereksinimi var mı? Kısa–orta–uzun vadede hedef domain otoritesi ne olmalı? Hangi sayfalara ve cluster’lara öncelik verilmeli? sorularına cevap veren bir Backlink & Dijital Otorite Yol Haritası hazırlıyoruz. Onay sonrası, temizlik → inşa → monitoring & raporlama döngüsüne giriyoruz."
+  }
+},
 
   "SocialMediaAnalysis": {
     "cta_talk_to_us": "Sosyal Medya Analizi İçin Bize Ulaşın",
@@ -2557,20 +2995,713 @@
   },
 
   "SocialMediaContent": {
-    "cta_talk_to_us": "Yaratıcı İçerik Stratejisi İçin Bize Ulaşın",
-    "socialmediacontent_subbanner_header": "Etkileşim Odaklı Sosyal Medya",
-    "socialmediacontent_subbanner_header2": "İçeriği Üretim Hizmetleri",
-    "socialmediacontent_subbanner_text": "Anketler, testler, yarışmalar ve kullanıcı üretimli içerik kampanyaları gibi etkileşimi teşvik eden içerikler üreterek kitlenizle anlamlı bağlar kurar ve organik topluluk büyümesini destekleriz.",
+  "cta_talk_to_us": "Sosyal Medya İçeriklerinizi Güçlendirin",
 
-    "socialmediacontent_step1_header": "Marka Kimliğine Uygun İçerik Stratejisi Geliştirme",
-    "socialmediacontent_step1_text": "Markanızın hedefleri ve hedef kitlesiyle uyumlu kapsamlı bir içerik stratejisini sizinle birlikte geliştiririz. İçerik üretimimizi yönetecek ana temaları, mesajlaşma stratejilerini ve dönüşüm odaklı formatları belirleriz.",
+  "socialmedia_subbanner_header": "Sosyal Medya İçerik Üretimi – ",
+  "socialmedia_subbanner_header2": "Markanıza Özel Profesyonel Tasarımlar",
+  "socialmedia_subbanner_text": "DGTLFACE, sosyal medya içerik üretimi hizmetiyle markanız için Instagram, Facebook, YouTube ve diğer platformlarda göz alıcı, stratejik ve performans destekli içerikler üreten yaratıcı bir partnerdir. Sadece “post tasarlayan” bir ekip değil; markanızın kimliğini, hedef kitlesini ve pazarlama hedeflerini anlayıp; akış (feed) estetiği, Reels & video içerikler, story kurguları ve kampanya kreatifleri ile tutarlı bir sosyal medya dünyası kurarız. “İçerik tasarımı, Instagram içerik üretimi, Reels içerik hizmeti, grafik içerik tasarımı, sosyal medya kreatifleri” gibi ihtiyaçlarınızı; hem marka algısını güçlendiren hem de satış/rezervasyon funnel’ını besleyen bir içerik modeliyle karşılarız.",
 
-    "socialmediacontent_step2_header": "Profesyonel Görsel ve Video İçerik Üretimi",
-    "socialmediacontent_step2_text": "Grafikler, görseller, kısa videolar (Reels, TikTok), GIF'ler ve infografikler dâhil olmak üzere kitlenizi cezbeden, görsel açıdan etkileyici içerikler üretir ve mesajınızı etkili şekilde iletiriz.",
+  "socialmedia_ai_answer_title": "AI Answer Block – Sosyal Medya İçerik Üretimi",
+  "socialmedia_ai_answer_text": "DGTLFACE, sosyal medya içerik üretimini; marka analizi, moodboard/stil belirleme, içerik takvimi, profesyonel grafik tasarım, Reels & kısa video üretimi ve caption yazarlığı adımlarıyla uçtan uca yönetir. Oteller ve markalar için feed tasarımları, story kreatifleri, kampanya görselleri ve turizm odaklı içerik paketleri hazırlanır. Üretilen içerikler SMM stratejisi, reklam kampanyaları ve performans raporlarıyla entegre çalışarak hem etkileşimi hem dönüşümü artırır.",
 
-    "socialmediacontent_step3_header": "İkna Edici Metin Yazımı ve Harekete Geçirici İfadeler",
-    "socialmediacontent_step3_text": "Uzman metin yazarlarımız, görsellerinizi tamamlayan ve yüksek etkileşimi sağlayan başlıklar ve açıklamalar oluşturur. İkna edici Harekete Geçirici İfadelerle (CTA) içeriklerinizin aksiyona teşvik etmesini sağlarız."
+  "socialmedia_subbanner_header3": "Sosyal Medya İçerik Üretimi Nedir? Sadece Post Hazırlamak Değildir",
+  "socialmedia_subbanner_text2": "İçerik üretimi, “güzel görsel + rastgele caption” değildir tatlım. DGTLFACE için sosyal medya içerik üretimi: Marka kimliğine uygun görsel dil (renk paleti, tipografi, ikonografi), Hedef kitleye göre ton & dil (resmi, samimi, eğlenceli, premium…), İçerik kategorileri (bilgilendirici, eğitici, sosyal kanıt, kampanya, lifestyle…), Reels & video içerik stratejisi, Story, carousel, single post dengesinin kurulması, İçerik takvimiyle senkron çalışması (bkz. /tr/smm/planlama-strateji) demektir. “Instagram için içerik üretme rehberi, oteller için sosyal medya içerikleri, sosyal medya tasarım trendleri 2025” gibi konuları; her marka için özelleştirilmiş bir içerik planına dönüştürürüz.",
+
+  "h2Section": {
+    "header1": "Marka Kimliği ve Görsel Dilin İçeriğe Yansıtılması",
+    "text1": "İçeriğin tutarlı olması için marka kimliği ile birebir uyum gerekir. DGTLFACE, içerik üretiminden önce: Logo kullanımı, renk paleti, tipografi tercihleri, Marka değerleri ve vaadi, Hedef kitle segmentleri (yaş, ülke, ilgi alanları), Sektörünüzdeki görsel rekabet (rakiplerin dil ve tasarımları) gibi unsurları analiz eder. “İçerik tasarımı, sosyal medya kreatifleri, grafik içerik tasarımı” süreçlerinde; her post’u tek tek ele almak yerine, tüm akışa yayılan bir marka görsel dili oluştururuz. Böylece Instagram profiliniz, “random postlar” değil, tek bir güçlü hikâyenin bölümleri gibi görünür. ( /tr/creative/grafik-motion-tasarim ile burada çok sıkı entegre çalışıyoruz.)",
+
+    "header2": "İçerik Formatları: Post, Carousel, Story, Reels & Video",
+    "text2": "Farklı amaçlar için farklı formatlar gerekir. DGTLFACE, sosyal medya içerik üretiminde: Static post’lar → Duyuru, kurumsal mesaj, bilgi kırıntıları, kampanya Carousel içerikler → Adım adım anlatım, rehber, “önce/sonra”, hikâye ilerletme Story’ler → Anlık duyuru, soru-cevap, kampanya tetikleme, kulis Reels & kısa video → Viral potansiyeli yüksek, duygusal, dinamik içerikler Highlight & sabitlenen post’lar → Markanın “özünü” anlatan vitrin içerikleri arasındaki dengeyi kurar. “Reels içerik hizmeti, sosyal medya tasarım trendleri 2025, profesyonel post tasarımı” gibi başlıklar, bu format miksinin içinde gerçek karşılığını bulur. Reels & video tarafı için /tr/smm/reels-video ve /tr/creative/video-produksiyon ile birlikte çalışırız.",
+
+    "header3": "Oteller ve Turizm Markaları İçin Sosyal Medya İçerikleri",
+    "text3": "Turizmde içerik, misafirin kalbini kazanmak için en güçlü alanlardan biridir. DGTLFACE, “otel içerik üretimi, turizm sosyal medya içerikleri, resort content pack, otel akış planı (feed plan)” tarafında: Oda, havuz, restoran, bar, SPA, çocuk alanları gibi otel alanlarını öne çıkaran görseller, Günlük hayat & deneyim (animasyon, etkinlik, canlı müzik, çocuk aktiviteleri), Mevsimsel içerikler (yaz hazırlığı, kış konsepti, bayram, yılbaşı), Destinasyon kareleri (çevre, plaj, şehir, tarihi yerler), Kampanya ve erken rezervasyon kombinleri, Reels & kısa videolar ile “Bu otelde tatil nasıl hissettirir?” sorusuna cevap veren içerikler üretir. Bu içerikler; sadece estetik değil, aynı zamanda “DM, telefon, web formu, rezervasyon” talebi yaratan net CTA’larla desteklenir."
   },
+
+  "h3Section": {
+    "header": "DGTLFACE İçerik Üretimi Hizmet Detayları",
+
+    "header1": "İçerik Tasarımı – Profesyonel Grafik & Görsel Düzen",
+    "text1": "İçerik tasarımı, sosyal medyada ilk bakışta yarattığınız etkiyi belirler. DGTLFACE: Tipografi hiyerarşisini (başlık, alt başlık, açıklama) netleştirir, Markaya özel şablonlar (template’ler) hazırlar, “Quote”, “bilgi kartı”, “kampanya”, “duyuru” gibi içerik türleri için ayrı tasarım diline gider, Farklı platformlar için boyut & kırpma standartlarını uygular (feed, story, reel cover). “Instagram tasarım hizmeti Türkiye, sosyal medya grafik tasarım, profesyonel post tasarımı” gibi ihtiyaçlar; estetik, okunabilir ve algoritma dostu tasarımlarla karşılanır.",
+
+    "header2": "Instagram İçerik Üretimi – Akış ve Hikâye Kurgusu",
+    "text2": "Instagram içerik üretimi sadece tek tek post değil, akış yönetimi işidir. DGTLFACE: Haftalık/aylık akışta bilgi, eğlence, sosyal kanıt ve kampanya içeriklerini dengeler, “Grid” görünümünü bozmadan, farklı formatları bir arada kullanır, Reels, carousel ve static gönderilerin ritmini ayarlar, Öne çıkan içerikleri (highlight) markanın “hikâye özeti” hâline getirir. “Oteller için sosyal medya içerikleri, turizm sektörüne özel sosyal medya içerikleri” gibi kurgularda, hem yerli hem yabancı misafire hitap eden çok dilli akışlar da planlayabiliyoruz (TR–EN–DE–RU).",
+
+    "header3": "Reels İçerik Hizmeti ve Video Destekli Akış",
+    "text3": "Düz post’lar güzel ama Reels içermeyen bir strateji eksik kalıyor. DGTLFACE (bkz. /tr/smm/reels-video): Otel/marka için Reels içerik fikirleri çıkarır, Çekim & kurgu süreçlerini yönetir veya mevcut görüntülerinizle yeni Reels’lar üretir, Hook (ilk 2–3 saniye), müzik ve altyazı seçimlerini performans odaklı yapar, Reels’ları akışın belirli günlerine yerleştirerek ritmi korur. “Reels içerik fikirleri, oteller için sosyal medya içerikleri, hızlı video içerik üretimi” böylece hem görsel hem performans tarafında karşılık bulur.",
+
+    "header4": "İçerik Metni (Caption) Yazarlığı – Sadece Emoji Değil, Mesaj & CTA",
+    "text4": "Görsel tek başına yetmez; caption tarafı da en az tasarım kadar önemli. DGTLFACE, “sosyal medya içeriği nasıl yazılır?” sorusuna: Platforma uygun uzunluk ve yapı (kısa/orta/uzun), Okuyanın gözünü yormayan satır kırılımları, Emotional (duygusal) + informative (bilgi) + CTA (çağrı) dengesi, Markanın tonuna uygun kelime ve emoji kullanımı ile cevap verir. Özellikle otellerde; “Şu tarihlerde %X indirim, detay için DM/WhatsApp/Link in Bio” gibi net, yönlendirici cümlelerle “görsel → okuma → aksiyon” üçlüsünü kurarız."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Sosyal Medya İçerik Üretimi?",
+
+    "card1title": "Sadece Görsel Hazırlayan Değil, Stratejiyle İçerik Üreten Ajans",
+    "card1description": "Piyasada çok fazla “sadece tasarım yapan” ekip var. DGTLFACE farkı: SMM stratejisi (/tr/smm/planlama-strateji) ile uyumlu içerik üretmek, SEO & içerik SEO (/tr/seo/icerik-seo) ile mesajları senkronize etmek, Reklam tarafında test edilebilir kreatifler üretmek (/tr/smm/sosyal-medya-reklamlari, /tr/sem), Sonuçları raporlayıp (/tr/smm/analiz-raporlama) içerik planını buna göre güncellemek. Yani bizde içerik: “Briefe göre 10 post çiz, gönder” değil; markanın tüm dijital stratejisiyle iç içe ilerleyen bir süreç.",
+
+    "card2title": "Tasarım + Metin + Video + Raporlama Entegrasyonu",
+    "card2description": "İçerik üretiminde 4 katmanı birlikte düşünüyoruz: Tasarım → Görselliğin marka ile uyumu Metin → Mesaj, ton, CTA Video/Reels → Akışı canlandıran dinamik içerik Raporlama → Ne işe yaradı, neyi daha az, neyi daha çok yapmalıyız Bu dört katman tek ekip tarafından yönetildiğinde; “İçerik üretiliyor ama işe yarıyor mu?” sorusu yerini “Şu içerik tipi şu sonucu veriyor” netliğine bırakıyor.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı İçerik Uzmanlığı",
+    "card3description": "“Sosyal medya içerik Antalya, Antalya içerik üretimi, Instagram tasarım hizmeti Türkiye, Antalya grafik tasarım” gibi aramaların arkasında; bölgeyi, turizmi ve hedef kitleyi tanıyan bir ekip gerekir. DGTLFACE, Antalya merkezli bir ajans olarak: Oteller ve turizm markaları, Yerel hizmet işletmeleri, Ajans & B2B iş modelleri için içerik üretirken; sezon, ülke pazarı, misafir/müşteri profili gibi parametreleri gözetir. Bu yüzden içerikler, sadece “güzel görünen iş” değil, gerçek ticari gerçeklerle uyumlu olur."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman -",
+    "header2": "İçerik Stratejisini Derinleştiren Alanlar",
+
+    "title1": "Sektöre Göre İçerik Teması ve ",
+    "span1": "Yoğunluğu",
+    "text1": "Her sektör için içerik yoğunluğu farklı ayarlanmalı: Otel/turizm → Daha fazla görsel & video, deneyim odaklı içerik, B2B → Daha fazla bilgi & case study, LinkedIn uyumlu içerik, Yerel işletme → Google Maps & lokal toplulukla uyumlu içerikler. DGTLFACE, “tek format herkese” yerine sektör + hedef kitle + platform üçlüsüne göre içerik teması ve sıklığını ayarlar.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "İçerik Takvimi ve Üretim ",
+    "span2": "Süreçlerini Kolaylaştırmak",
+    "text2": "İçerik üretimi kaotik olmamalı. DGTLFACE: Aylık içerik takvimiyle ne zaman ne yayınlanacağını önceden netleştirir, Brief toplama, revizyon ve onay süreçlerini standardize eder, Görsel/metin/video üretim pipeline’ını şeffaf hale getirir. Bu sayede “son dakika post paniği” azalır; içerikler planlı ve rahat bir sistemle akar.",
+    "button2": "Keşfet",
+
+    "title3": "Çok Dilli Sosyal Medya ",
+    "span3": "İçerik Üretimi",
+    "text3": "Özellikle turizmde TR–EN–DE–RU gibi çok dilli içerik ihtiyacı doğar. DGTLFACE: Her dili düz çeviri olarak değil, kültürel uyum ve kullanıcı beklentisiyle yazar, Görsellerde kullanılacak metinleri (overlay vs.) dil bazlı planlar, Aynı post’un farklı dillerdeki versiyonlarını akışta doğru konumlandırır. Bu sayede sosyal medya, sadece Türkçe değil, uluslararası misafire de yaşayan bir vitrin olur.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "İçerik Performansını Ölçmek ve ",
+    "span4": "Güncelleme Döngüsü",
+    "text4": "“İçerik yaptık, bitti” yok. DGTLFACE: Hangi post’un daha çok erişim/etkileşim aldığını, Hangi Reels’in daha fazla izlenip kaydedildiğini, Hangi içerikten sonra DM/WhatsApp/telefon artışı geldiğini /tr/smm/analiz-raporlama ile raporlar. Sonra başarılı formatları artırıp, zayıf formatları azaltır; gerektiğinde eski içerikleri yeniden kurgular. Böylece içerik üretimi, kendi kendini iyileştiren bir döngüye dönüşür.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – Sosyal Medya İçerik Üretimi Hakkında Sık Sorulan Sorular",
+
+    "question1": "Siz içerikleri tamamen sıfırdan mı üretiyorsunuz, yoksa bizim verdiğimiz görselleri de kullanabiliyor musunuz?",
+    "answer1": "İkisini de yapabiliyoruz tatlım. Sıfırdan konsept, fotoğraf & video çekimi, tasarım + metin üretebiliriz. Elinizdeki fotoğraf ve videoları profesyonel tasarım ve Reels’lara dönüştürebiliriz. En verimli model çoğu zaman ikisinin karması oluyor.",
+
+    "question2": "Ayda kaç içerik üretmeliyiz?",
+    "answer2": "Bu tamamen sektöre, hedefe ve bütçeye bağlı. Otel ve turizm tarafında genelde: Haftada 3–5 feed post, Haftada 3–5 story akışı, Haftada en az 1–2 Reels iyi bir başlangıç noktası. Ancak DGTLFACE olarak önce hedef & bütçeyi dinleyip, ona göre içerik adedini netliyoruz.",
+
+    "question3": "Sadece tasarım istesek olur mu, metinleri biz yazsak?",
+    "answer3": "Olur. Sadece tasarım üretimi, sadece caption/metin desteği veya tamamen uçtan uca “strateji + tasarım + metin + Reels + rapor” modeliyle çalışabiliriz. Yine de en iyi sonuç, tüm sürecin uyumlu tek ekip tarafından yönetildiği projelerde ortaya çıkıyor.",
+
+    "question4": "İçerik üretimi ile reklam performansı arasında gerçekten fark oluyor mu?",
+    "answer4": "Kesinlikle. Güçlü içerik: Reklam kreatiflerinin tıklanma ve etkileşim oranını yükseltir, Marka algısını güçlendirir; remarketing performansını artırır, Profilinizdeki “ilk izlenimi” düzelttiği için, DM/telefon/form dönüşümünü de etkiler. Yani içerik, reklamın “harcama katmanı” değil, performansını belirleyen temel katmanlardan biridir.",
+
+    "question5": "DGTLFACE ile içerik üretimi projesine nasıl başlıyoruz?",
+    "answer5": "Süreç şöyle ilerliyor: Marka, hedef kitle ve hedeflerinizi konuşuyoruz. Mevcut hesap ve içeriklerinizi analiz ediyoruz. İçerik kategorileri, ton & görsel dil, formatlar ve aylık içerik adedi netleşiyor. İçerik takvimi ve örnek tasarımlar (pilot set) hazırlanıyor. Onay sonrası düzenli üretim + raporlama döngüsüne giriyoruz."
+  }
+},
+
+"SocialMediaStrategy": {
+  "cta_talk_to_us": "Sosyal Medya Stratejinizi Güçlendirin",
+
+  "smstrategy_subbanner_header": "Sosyal Medya Strateji ve İçerik Planlama – ",
+  "smstrategy_subbanner_header2": "Etkili SMM Yönetimi",
+  "smstrategy_subbanner_text": "DGTLFACE, sosyal medya stratejisi ve içerik planlama hizmetleriyle; markanızın sosyal medya hesaplarını “ne gelirse onu paylaşalım” seviyesinden çıkarıp, hedefe kilitlenmiş, planlı ve ölçülebilir bir yapıya dönüştürür. Sadece güzel görseller üretmek değil; doğru kitleye, doğru mesajı, doğru formatla ve doğru zamanda vermek üzerine kurulu bir SMM yaklaşımı tasarlarız. “Sosyal medya planlama, içerik takvimi, sosyal medya yönetimi stratejileri, KPI planlama, sosyal medya analiz” gibi kavramların hepsini; markanız için canlı çalışan bir sosyal medya mimarisine dönüştürürüz. Kısacası: İçerikleriniz “günün ruhuna göre” değil, strateji ve veriyle yönetilen bir planın parçası olur.",
+
+  "smstrategy_ai_answer_title": "AI Answer Block – Sosyal Medya Strateji & Planlama",
+  "smstrategy_ai_answer_text": "DGTLFACE, sosyal medya strateji ve içerik planlama hizmetinde marka analizi, hedef kitle segmentasyonu, içerik kategorileri, aylık içerik takvimi ve KPI planlamasını bir arada kurgular. Instagram, Facebook, TikTok gibi platformlar için hangi gün, hangi formatta ne paylaşılacağını belirleyen stratejik yol haritaları hazırlar. Özellikle otel ve turizm markaları için sezon, destinasyon ve oda/servis bazlı özel sosyal medya planlarıyla etkileşim ve rezervasyon dönüşümünü artırmayı hedefler.",
+
+  "smstrategy_subbanner_header3": "Sosyal Medya Stratejisi Nedir? Neden Plansız İş Olmuyor?",
+  "smstrategy_subbanner_text2": "Strateji olmadan sosyal medya yönetmek; ciddi bütçeli bir kampanyayı “hadi bakalım, bir şeyler olsun” diye çalıştırmak gibidir. DGTLFACE için sosyal medya stratejisi: Hedef kitle ve persona çalışması, Platform seçimi (Instagram, Facebook, YouTube, LinkedIn, TikTok…), İçerik kategorileri ve tema kurgusu, Mesaj dili ve ton (premium, eğlenceli, kurumsal, samimi…), Reklam ve organik içeriğin rol dağılımı, Metriğe bağlı KPI seti (erişim, etkileşim, trafik, lead, rezervasyon…) demektir. “Sosyal medya stratejisi nasıl hazırlanır, sosyal medya yönetimi stratejileri, oteller için sosyal medya stratejisi, turizm markaları için kampanya planı” gibi ihtiyaçlar; bir PDF sunumda kalmaz, günlük içerik & reklam akışını yöneten bir plan hâline gelir.",
+
+  "h2Section": {
+    "header1": "İçerik Takvimi – Rastgele Paylaşım Değil, Aylık Yol Haritası",
+    "text1": "İçerik takvimi, sosyal medya yönetiminin sinir sistemidir. DGTLFACE, “içerik takvimi, sosyal medya planlama, 30 günlük içerik takvimi örneği” tarafında: Aylık temalar (kampanya, sezon, lansman, etkinlik, özel günler) belirler, Her hafta için içerik kategorilerini (bilgi, sosyal kanıt, kampanya, eğlence, kulis) dağıtır, Hangi gün, hangi formatta (post, carousel, Reels, story, canlı yayın…) ne paylaşılacağını netleştirir, Paylaşımları markanın diğer aksiyonlarıyla (kampanyalar, etkinlikler, lansmanlar vb.) senkron hâle getirir. Bu sayede “bugün ne paylaşsak?” paniği biter, ekip planı bilir, revizyonlar kontrollü olur ve içerik üretimi profesyonel bir süreç hâline gelir.",
+
+    "header2": "KPI Planlama ve Sosyal Medya Analiz Kurgusu",
+    "text2": "Strateji, ölçmediğin yerde biter tatlım. DGTLFACE, KPI planlama ve sosyal medya analiz tarafında: Her platform için hedef metrikleri tanımlar (erişim, etkileşim, kaydetme, paylaşım, tıklama, DM, rezervasyon vb.), Hangi içeriğin neyi hedeflediğini (awareness / consideration / conversion) belirler, Aylık raporlarda bu hedeflere ne kadar yaklaşıldığını ölçer (/tr/smm/analiz-raporlama + /tr/raporlama/looker-studio). “Sosyal medya için anahtar performans göstergeleri (KPI), sosyal medya KPI belirleme rehberi, hedef kitle analiz yöntemleri” gibi süreçler; sadece teoride değil, raporlarla birlikte yaşayan bir yapı hâline gelir.",
+
+    "header3": "Oteller ve Turizm Markaları İçin Sosyal Medya Stratejisi",
+    "text3": "Turizmde sosyal medya stratejisi, “güzel oda fotoğrafı” paylaşmaktan çok daha fazlası. DGTLFACE, “oteller için sosyal medya stratejisi, turizm markaları için kampanya planı, oteller için sosyal medya krizi yönetimi” tarafında: Hedef pazar bazında (DE, RU, UK, iç pazar…) ayrı içerik & reklam stratejileri, Sezon ve kampanya dönemlerine göre yoğunluk planı (erken rezervasyon, high season, son dakika…), Konsept bazlı içerik akışı (family, adults-only, spa, luxury, aquapark…), Misafir yorumları, UGC, influencer iş birliklerini içeren sosyal kanıt kurguları, Call center ve rezervasyon süreçleriyle (DM/WhatsApp/telefon) entegre bir funnel oluşturur. Böylece oteliniz için sosyal medya; “sadece vitrin” değil, rezervasyon motoruna sürekli trafik ve talep gönderen bir yapı hâline gelir.",
+
+    "header4": "Kriz Yönetimi ve Sosyal Medya Risklerini Stratejiye Dahil Etmek",
+    "text4": "Strateji demek sadece “iyi gün planı” yapmak değildir; kriz planı da işin parçasıdır. DGTLFACE, “sosyal medya kriz yönetimi, sosyal medya için kriz planı, sosyal medya kpi belirleme rehberi” çerçevesinde: Olası kriz senaryolarını (olumsuz yorum, şikâyet, yanlış gönderi, hassas dönem iletişimi) önceden tanımlar, Krizde kim konuşacak, hangi tonda ne söyleyecek, hangi kanalları kullanacağız, bunları netleştirir, Operasyon, hukuk, yönetim ve SMM ekiplerini aynı kriz protokolünde buluşturur. Böylece sosyal medya; “bir hata olursa paniklediğimiz” değil, kriz çıksa bile yönetebildiğimiz bir alan olur."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Planlama & Strateji Hizmet Detayları",
+
+    "header1": "Strateji Workshop’u ve Yol Haritası Çıkarma",
+    "text1": "Her proje, bir strateji workshop’u ile başlar. DGTLFACE bu süreçte: Marka pozisyonunuzu, hedef kitlenizi ve hedeflerinizi dinler, Mevcut sosyal medya hesaplarınızı ve içeriklerinizi analiz eder, “Sosyal medya stratejisi nasıl hazırlanır?” sorusuna size özel cevap üreten bir çerçeve oluşturur, Sonuçta; hedefler, platformlar, içerik temaları, KPI’lar ve takvim içeren net bir “Sosyal Medya Strateji Dokümanı” çıkarır. Bu doküman, hem bizim hem sizin çalışma kılavuzunuz olur.",
+
+    "header2": "İçerik Takvimi ve Üretim Süreçlerinin Yapılandırılması",
+    "text2": "İçerik takvimi, üretim sürecinin temel aracıdır. DGTLFACE: Aylık takvimde hangi gün ne tür içerik çıkacağını (post, story, Reels, live, vs.) işaretler, İçerik brief’lerini sistematik hâle getirir (konu, hedef, görsel ihtiyacı, CTA, dil…), Revizyon ve onay süreçlerini netleştirir, “İçerik planlama araçları, 30 günlük içerik takvimi örneği, içerik planlama excel şablonu” gibi ihtiyaçları, sizin çalışma şeklinize uygun template’lerle çözer. Sonuç: Ekip hangi gün ne çıkacağını bilir, üretim “yangın söndürme” değil, planlı bir operasyon hâline gelir.",
+
+    "header3": "Kampanya Planlama ve SMM–SEM Entegrasyonu",
+    "text3": "Sosyal medya stratejisi, kampanyalarla birlikte anlam kazanır. DGTLFACE: Sezon, lansman, ürün/hizmet odaklı kampanyaları takvime işler, Bu kampanyaları SEM (/tr/sem) ve sosyal medya reklamları (/tr/smm/sosyal-medya-reklamlari) ile entegre eder, Kampanyalar için özel landing page / form / rezervasyon akışları tasarlar, “Turizm markaları için kampanya planı, oteller için sosyal medya kampanyaları” gibi modelleri end-to-end kurgular. Yani post’lar sadece bilgi vermek için değil, kampanyaya trafik ve talep üretmek için yaşar."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Sosyal Medya Planlama & Strateji?",
+
+    "card1title": "“Sadece Post Üretelim” Değil, “Neden Üretiyoruz ve Ne Sonuç Alıyoruz?”",
+    "card1description": "DGTLFACE’in farkı: İçerik üretiminden önce “neden?” sorusunu sorması. Biz: Her içerik kategorisinin hedefini belirleriz, Planı KPI’larla ilişkilendiririz, Raporlarda hangi strateji parçasının hangi sonucu ürettiğini gösteririz. Bu sayede sosyal medya; “post çıkaralım da boş kalmasın” yerine, marka ve satış hedeflerinin bir uzantısı hâline gelir.",
+
+    "card2title": "Strateji, İçerik, Reklam ve Raporlamanın Tek Elde Yönetilmesi",
+    "card2description": "Stratejiyi bir ajans, içeriği başka, reklamı freelancer, raporu iç ekip yapınca; resim parçalara bölünüyor. DGTLFACE: Strateji → /tr/smm/planlama-strateji İçerik üretimi → /tr/smm/icerik-uretimi Reels & video → /tr/smm/reels-video + /tr/creative/video-produksiyon Reklamlar → /tr/smm/sosyal-medya-reklamlari Analiz & raporlama → /tr/smm/analiz-raporlama katmanlarının tamamını aynı şemsiye altında organize eder. Böylece strateji ile günlük iş arasında kopukluk olmaz.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı SMM Strateji Uzmanlığı",
+    "card3description": "“Sosyal medya strateji Antalya, Antalya sosyal medya planlama, sosyal medya danışmanlığı Türkiye, Antalya içerik takvimi” gibi aramaların arkasında; hem turizmi hem yerel hizmet sektörünü bilen bir ekip gerekir. DGTLFACE: Oteller, resort’lar, villa ve butik oteller, Ajans & B2B markalar, Yerel işletmeler (restoran, klinik, kurs vb.) için sosyal medya stratejisi kurgularken, bölge ve pazar gerçeklerini işin içine katar. Bu yüzden planlamalar “evrensel laf” değil, sahada çalışmış kurgular olur."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman -",
+    "header2": "Stratejiyi Derinleştiren Uygulama Alanları",
+
+    "title1": "30 Günlük İçerik Takvimi ",
+    "span1": "Nasıl Olmalı?",
+    "text1": "Sağlıklı bir 30 günlük içerik takvimi: Haftada en az 3–5 feed post, Haftalık düzenli story akışı, Haftada 1–2 Reels, Ay içinde 1–2 kampanya odağı, Sosyal kanıt (yorum, misafir fotoğrafı, başarı hikayesi) içeren paylaşımlar içermelidir. DGTLFACE, bunu markanın kapasitesine ve bütçesine göre optimize eder; bazen daha yoğun, bazen daha minimal ama hep tutarlı bir yapı kurar.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Sosyal Medya KPI’ları ",
+    "span2": "Nasıl Seçilir?",
+    "text2": "Her marka için KPI seti aynı değildir. Genel bir çerçeve: Awareness odaklı → erişim, gösterim, marka aramaları, takipçi kalitesi Engagement odaklı → beğeni, yorum, kaydetme, paylaşma, video izlenme Performance odaklı → link tıklama, DM, WhatsApp, form, rezervasyon DGTLFACE, markanın önceliğine göre bu KPI’ları belirler ve raporlarda hedef–gerçekleşen olarak gösterir.",
+    "button2": "Keşfet",
+
+    "title3": "Kriz Yönetimi İçin Sosyal Medya ",
+    "span3": "Hazırlığı",
+    "text3": "Kriz anında “şimdi ne yapacağız?” dememek için: Önceden hazırlanmış cevap şablonları, Onay hiyerarşisi (kim cevap verir, neyi kim onaylar), Kullanılacak/kaçınılacak kelime ve ton listeleri, Sessiz kalınması gereken durumlar için politika olmalıdır. DGTLFACE, sosyal medya kriz yönetimi stratejisi ile bu zemini hazırlar ki, kriz geldiğinde refleksler önceden programlanmış olsun.",
+    "button3": "Detaylı Bilgi",
+
+    "title4": "Strateji Dokümanını “Ölmeyen” ",
+    "span4": "Canlı Bir Yapı Yapmak",
+    "text4": "Birçok marka için strateji dokümanları: İlk ay bakılıp sonra rafa kaldırılan PDF’lerdir. DGTLFACE, strateji dokümanını: Her 3–6 ayda bir gözden geçirilen, İçerik & reklam performans sonuçlarına göre güncellenen, Yeni fırsat alanlarının eklendiği, “yaşayan” bir dosya hâline getirir. Yani strateji, ilk brieften sonra unutulan bir sunum değil, sürekli güncellenen bir rehber olur.",
+    "button4": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – Sosyal Medya Strateji & Planlama Hakkında Sık Sorulan Sorular",
+
+    "question1": "Strateji olmadan da sosyal medyada paylaşım yapsak olmaz mı?",
+    "answer1": "Yaparsınız, ama: İçerikler dağınık olur, Hedef kitleniz netleşmez, KPI olmadığı için neyin işe yaradığını bilemezsiniz, Ekibiniz sürekli “bugün ne atalım?” stresine girer. Strateji, tüm bunların önüne geçer ve enerjiyi doğru yere kanalize eder.",
+
+    "question2": "Sadece strateji & planlama hizmeti alabilir miyiz, içerikleri biz üretsek?",
+    "answer2": "Evet, sadece strateji + takvim + danışmanlık modeliyle de çalışabiliriz. Bu durumda DGTLFACE: Yol haritasını çıkarır, Aylık/3 aylık revizyon toplantıları yapar, İç ekibinizin ürettiği içerikleri stratejiye göre yorumlar. Yine de en güçlü sonuçlar, strateji ve üretimin aynı ekipte olduğu projelerde ortaya çıkar.",
+
+    "question3": "Strateji bir kez yapılıp bitiyor mu, yoksa düzenli güncelleme mi gerekiyor?",
+    "answer3": "Pazar, algoritma, kullanıcı davranışı ve sizin işiniz sürekli değişiyor. O yüzden sosyal medya stratejisi de periyodik olarak güncellenmesi gereken bir yapıdır. Biz genelde 3–6 ayda bir strateji gözden geçirme ve gerekirse güncelleme öneriyoruz.",
+
+    "question4": "SMM stratejisi ile reklam stratejisi ayrı mı?",
+    "answer4": "İçerik ve reklamın rolleri farklı ama stratejileri ayrı olamaz. Organik içerik, reklam kreatiflerini besler; reklam performansı da hangi içerik tiplerinin çalıştığını gösterir. DGTLFACE, organik SMM stratejisini ve reklam stratejisini (/tr/smm/sosyal-medya-reklamlari + /tr/sem) aynı master plan altında kurgular.",
+
+    "question5": "DGTLFACE ile sosyal medya stratejisi projesine nasıl başlıyoruz?",
+    "answer5": "İlk adımlar: Kısa bir brief & analiz toplantısı (mevcut hesaplar, hedefler, rakipler). Mevcut içerik, akış, etkileşim ve reklam yapısının incelenmesi. “Sosyal Medya Strateji & Planlama” dokümanının hazırlanması (hedefler, platformlar, içerik kategorileri, KPI’lar, örnek akış). Onay sonrası içerik takvimi + üretim + raporlama döngüsüne geçiş. Her adım şeffaf, dokümante ve tekrar edilebilir şekilde tasarlanır."
+  }
+},
+
+"ReelsVideo": {
+  "cta_talk_to_us": "Reels Stratejinizi Konuşalım",
+
+  "reels_subbanner_header": "Reels ve Kısa Video İçerik Üretimi – ",
+  "reels_subbanner_header2": "Viral İçeriklerle Etkileşimi Artırın",
+  "reels_subbanner_text": "DGTLFACE, reels video içerik üretimiyle markanızın Instagram, Facebook, TikTok ve YouTube Shorts gibi kısa video platformlarında görünür, akılda kalıcı ve etkileşim alan bir yapıya kavuşmasını sağlar. Sadece “video çekelim” değil; hikâye kurgusu, ritim, müzik, hook, altyazı, kapak tasarımı ve performans boyutlarını birlikte düşünerek, Reels & kısa videoları sosyal medya stratejinizin en güçlü silahı haline getiririz. “Reel video üretimi, kısa video çekimi, sosyal medya video tasarımı, Instagram Reels ajansı, Reels montaj hizmeti” gibi ihtiyaçlarınızı, turizm ve hizmet odaklı tecrübemizle birleştirip, hem marka algısını hem de satış/rezervasyon funnel’ını besleyen içerikler üretiriz.",
+
+  "reels_ai_answer_title": "AI Answer Block – Reels & Kısa Video",
+  "reels_ai_answer_text": "DGTLFACE, Reels ve kısa video içeriklerini strateji, senaryo, çekim, montaj ve yayın adımlarını kapsayan tam bir prodüksiyon süreciyle üretir. Dikey format, güçlü ilk 3 saniye (hook), doğru müzik, altyazı ve kapak tasarımıyla hem organik hem reklam tarafında yüksek performanslı Reels’ler kurgular. Özellikle otel ve turizm markaları için oda, deneyim, etkinlik ve destinasyon odaklı kısa videolarla görünürlük ve rezervasyon dönüşümünü artırmayı hedefler.",
+
+  "reels_subbanner_header3": "Reels Video İçerik Nedir, Neden Bu Kadar Önemli?",
+  "reels_subbanner_text2": "Reels ve kısa video formatları, sosyal medya algoritmalarının şu an en çok tercih ettiği içerik türü. Kullanıcılar artık uzun yazılardan çok, 15–30 saniyede hikâyesi net olan videolara tepki veriyor. DGTLFACE için Reels video içerik: İlk 2–3 saniyede dikkat çeken hook fikri, Kısa ama net bir hikâye akışı, Platforma uygun format (dikey 9:16, ritme uygun kurgu), Altyazı, müzik, kapak tasarımı ve CTA’nın beraber kurgulanması, Organik + reklam (boost / kampanya) tarafında kullanılabilirlik demek. “Viral Reels nasıl yapılır, Instagram Reels trendleri 2025, hızlı video içerik üretimi, Instagram algoritması Reels” gibi konuları; tam olarak bu parametreler üzerinden ele alıyoruz. Amaç sadece izlenme değil, kaydetme, paylaşma, profil ziyareti ve DM/WhatsApp tetiklemek.",
+
+  "h2Section": {
+    "header1": "İçerik Stratejisinin İçinde Reels’in Yeri",
+    "text1": "Başarılı bir sosyal medya stratejisinde, Reels tek başına bir “bonus” değil, ana formatlardan biri olmalı. DGTLFACE, /tr/smm/planlama-strateji ile birlikte: Aylık içerik takviminize Reels oranını planlar (ör. haftada 1–3 Reels), Reels’leri bilgi, eğlence, sosyal kanıt ve kampanya içerikleriyle dengeye koyar, “Reels içerik takvimi, story & Reel paketleri” gibi kurguları markaya özel hale getirir, Her Reels için hedef KPI belirler (erişim mi, etkileşim mi, profil ziyareti mi, rezervasyon mu?). Böylece Reels, aklımıza geldikçe yüklediğimiz bir içerik değil, stratejik olarak planlanan bir format hâline gelir.",
+
+    "header2": "Oteller ve Turizm Markaları İçin Reels & Kısa Video",
+    "text2": "Turizmde Reels, potansiyel misafire “orada olma hissini” kısa sürede geçirebileceğin en güçlü alan. DGTLFACE, “otel Reels çekimi, turizm video içeriği, resort sosyal medya video, otel tanıtım video paketleri” tarafında: Oda turları (room tour), havuz & aquapark, restoran & bar, SPA & wellness, Günlük deneyim (güne başlama, kahvaltı, gün batımı, eğlence, çocuk aktiviteleri), Konsept videolar (family hotel, adults-only, honeymoon, luxury, seafront), “1 gün boyunca burada olsaydın…” tarzı hikâye kurguları, Kampanya Reels’leri (erken rezervasyon, özel indirim, etkinlik duyurusu) üretir. Bu videolar; hem organik içerik hem de otel Reels reklamları, turizm Reels kampanyaları için yaratılmış performans formatlarıdır. Prodüksiyon tarafında /tr/creative/video-produksiyon ile entegre çalışırız.",
+
+    "header3": "Formatlar, Uzunluklar ve Platform Dinamikleri",
+    "text3": "Her platformun kısa video davranışı farklıdır; ama temel prensipler ortaktır. DGTLFACE: Instagram Reels → 9:16, 8–30 sn, müzik & trend seslerle destekli, hızlı geçişli kurgu, TikTok → Daha “raw”, eğlenceli ve doğal storytelling, YouTube Shorts → Dikey, hızlı, genelde 15–60 sn arası, Facebook Reels → Cross-post ile erişim genişletme mantığında çalışır. “Sosyal medya için kısa video, Reels kapak tasarımı, kısa video çekimi” gibi alanlarda her platformda aynı içerik kullanılsa bile, caption, hashtag, müzik ve yayın zamanı gibi detayları platforma göre optimize ederiz."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Reels & Kısa Video Hizmet Detayları",
+
+    "header1": "Reels İçerik Fikirleri ve Senaryo Geliştirme",
+    "text1": "Her iyi Reels’in arkasında, iyi bir fikri çekirdek vardır. DGTLFACE, fikir geliştirme aşamasında: Marka, hedef kitle ve ton’a uygun Reels içerik fikirleri listesi çıkarır, “Eğitici, eğlenceli, ilham verici, sosyal kanıt, kampanya, behind-the-scenes” gibi kategoriler oluşturur, “Reels içerik takvimi, Reels içerik fikirleri, turizm Reels kampanyaları” kapsamında aylık/çeyreklik fikir havuzu hazırlar, Her Reels için 2–3 cümlelik mini senaryo (hook + gövde + CTA) oluşturur. Bu sayede çekim günü geldiğinde “ne çekeceğiz?” paniği değil, hazır fikir havuzundan seçme konforu yaşarsın.",
+
+    "header2": "Çekim Süreci – Kısa Video Çekimi Nasıl Yönetilir?",
+    "text2": "“Kısa video çekimi” dediğimizde profesyonel set kurmak şart değil; ama plan şart. DGTLFACE: Çekim lokasyonlarını, kadrajları ve ışık saatlerini planlar, Telefon + profesyonel kamera kombinasyonlarını projeye göre seçer, Kadraj, hareket (pan/tilt), geçiş ve B-roll çekimlerini organize eder, Otel veya işletmenizin günlük akışını bozmadan içerik üretir. “Reels çekimi Antalya, Antalya video çekimi, kısa video hizmeti Türkiye, Antalya sosyal medya video” gibi ihtiyaçlarda; sahada tempoyu iyi yöneterek hem kaliteli görüntü hem minimum operasyon yükü hedefleriz.",
+
+    "header3": "Reels Montaj Hizmeti ve Video Tasarımı",
+    "text3": "Ham görüntü tek başına bir şey ifade etmez; işi öldüren de, dirilten de montajdır. DGTLFACE’in Reels montaj hizmeti kapsamında: Hook’u destekleyen ilk 2–3 saniyelik başlangıç, Müzik ritmine göre cut’lar, Araya B-roll ve detay planların doğru yerleştirilmesi, Transitions (geçişler), hızlandırma/yavaşlatma efektleri, Altyazı (on-video caption), emoji & sticker kullanımı, Reels kapak tasarımı ve grid’e uyum kontrolü yer alır. “Sosyal medya video tasarımı” dediğimizde, videonun hem tekil olarak güzel görünmesine hem de profil görünümünü bozmamasına dikkat ederiz.",
+
+    "header4": "Reels İçin Metin (Caption), Hashtag ve CTA Kurgusu",
+    "text4": "Videonun görsel kısmı kadar, caption ve hashtag kısmı da önemlidir. DGTLFACE: Videonun verdiği mesaja uygun kısa/orta uzunlukta metin yazar, Kullanıcının “devamını okuyayım” diyeceği bir giriş cümlesi kullanır, Hashtag’leri (#oteladı, #antalya, #familyhotel, #resortlife vb.) stratejik seçer, Net bir CTA ile bitirir (DM, WhatsApp, link in bio, rezervasyon, teklif). “Sosyal medya için kısa video, story & reel paketleri” içindeki her videonun bir hedefi olur; caption ve hashtag seti bu hedefe göre kurgulanır."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Reels & Kısa Video?",
+
+    "card1title": "Sadece Çekip Teslim Eden Değil, Strateji + Prodüksiyon + Performans Partneri",
+    "card1description": "DGTLFACE, kendini sadece “video çeken” bir ekip olarak değil; Reels stratejisi + kreatif fikir + prodüksiyon + performans raporlama bileşiminden oluşan bir partner olarak konumlandırır. Yani: Strateji → /tr/smm/planlama-strateji Yapım → /tr/smm/reels-video + /tr/creative/video-produksiyon Reklam → /tr/smm/sosyal-medya-reklamlari Raporlama → /tr/smm/analiz-raporlama birbirini besler. Reels’lar sadece “izlenip unutulan” değil, verisi izlenen ve optimize edilen içerikler hâline gelir.",
+
+    "card2title": "Reels, İçerik ve Reklam Entegrasyonu",
+    "card2description": "En iyi Reels bile doğru kullanılmazsa potansiyelinin yarısını kaybeder. DGTLFACE: Aynı Reels’i hem organik paylaşıp hem Meta Ads tarafında performans kampanyalarında kullanır, Hangi Reels’in daha iyi çalıştığını analiz edip, en iyi performanslıları reklam tarafında “hero kreatif” hâline getirir, Reels’leri içerik takviminde blog, kampanya ve teklif sayfalarıyla senkron kurgular. Böylece “viral Reels nasıl yapılır” sorusu; sadece kreatif değil, aynı zamanda dağıtım ve reklam açısından da cevaplanır.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Video Uzmanlığı",
+    "card3description": "“Reels çekimi Antalya, Antalya video çekimi, Antalya sosyal medya video” gibi ihtiyaçlarda; turizmi, bölgeyi ve misafiri tanıyan bir ekip devreye girmeli. DGTLFACE: Antalya, Belek, Side, Kemer, Lara, Alanya gibi destinasyonlarda birçok otel ve turizm markası için çekimler yapmış, Otel operasyonunu, yoğun sezonu, misafir beklentilerini bilen, Hem yerli hem yabancı pazara yönelik içerik üretme tecrübesine sahip bir ekip olarak çalışır. Bu da “Reels’ler hem iyi görünmeli hem de satışa/rezervasyona hizmet etmeli” diyen her marka için büyük avantajdır."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman –",
+    "header2": "H5 Konuları",
+
+    "title1": "Viral Reels ",
+    "span1": "Nasıl Yapılır?",
+    "text1": "Garanti “virallik” yok ama şunlar çok büyük fark yaratır: İlk 2 saniyede merak uyandıran veya duyguyu tetikleyen sahne, Fazla uzun olmayan ama akıcı bir kurgu (8–20 sn çoğu zaman ideal), Doğru müzik / trend ses seçimi, Ekranda metin ile mesajın net verilmesi, Kaydetmeye ve paylaşmaya teşvik eden içerik (liste, ipucu, “bunu unutma” tipi). DGTLFACE, her Reels’te bu unsurları mümkün olduğunca optimize etmeye çalışır.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Oteller İçin Reels Video Çekimi ",
+    "span2": "İpuçları",
+    "text2": "Otel Reels çekimi yaparken: Sabah–akşam golden hour ışıklarını kullanmak, Oda görüntülerinde dağınık değil, temiz & düzenli tablo yaratmak, Havuz, restoran, lobi gibi alanlarda insan ve deneyim katmak, Sadece “boş mekân” değil, “yaşanan mekân” gösteren kareler kullanmak önemli. DGTLFACE, çekim planını bunlara göre kurgular ve otelin ruhunu gerçekten yansıtan videolar üretir.",
+    "button2": "Keşfet",
+
+    "title3": "Reels Kapak Tasarımı ve Grid ",
+    "span3": "Estetiği",
+    "text3": "Harika bir Reels bile kötü kapak tasarımıyla gömülebilir. Biz: Kapakta videonun ana vaadini 2–4 kelimeyle yazarız, Marka font ve renklerini kullanarak grid’de uyumu koruruz, Kapakların birlikte bakıldığında “düzenli bir arşiv” hissi vermesini sağlarız. Böylece profilinizi ziyaret eden kullanıcı, Reels sekmesinde de profesyonel bir görünüm ile karşılaşır.",
+    "button3": "İncele",
+
+    "title4": "Reels Performansını Ölçmek ve ",
+    "span4": "Optimize Etmek",
+    "text4": "DGTLFACE, /tr/smm/analiz-raporlama üzerinden: Hangi Reels’in ne kadar erişim, izlenme, tamamlanma oranı, etkileşim ve kaydetme aldığını, Hangi Reels’ten sonra DM / WhatsApp / site trafiği artışı yaşandığını, Hangi konseptin/formatın daha iyi performans verdiğini raporlar. Sonrasında: İyi çalışan Reels formatlarını tekrarlar, Zayıf performans gösterenleri geliştirir veya azaltır, Yeni test formatları dener. Yani Reels üretimi, deneme–ölçme–öğrenme döngüsü ile sürekli güçlenir.",
+    "button4": "Raporu Gör"
+  },
+
+  "faq": {
+    "header": "SSS – Reels & Kısa Video İçerik Üretimi Hakkında Sık Sorulan Sorular",
+
+    "question1": "Reels içerik üretimi nasıl yapılır?",
+    "answer1": "Reels üretimi; strateji → fikir & senaryo → çekim (veya mevcut görüntü seçimi) → montaj & tasarım → caption/hashtag/CTA → yayın & raporlama adımlarından oluşur. DGTLFACE, bu zincirin tamamını tek ekip içinde koordine eder.",
+
+    "question2": "Oteller için Reels stratejisi nasıl olmalı?",
+    "answer2": "Otel Reels stratejisi; oda/tesis turları, deneyim odaklı videolar, destinasyon görüntüleri ve kampanya Reels’lerinin dengeli karışımına dayanmalıdır. Hedef pazara göre dil ve mesajlar uyarlanmalı, Reels’ler rezervasyon funnel’ıyla bağlanmalıdır.",
+
+    "question3": "Viral Reels için nelere dikkat edilmeli?",
+    "answer3": "Güçlü bir hook, kısa ve akıcı kurgu, doğru müzik/trend ses, net mesaj, kaydetme & paylaşmayı tetikleyen içerik ve yayın zamanı önemli faktörlerdir. DGTLFACE, her Reels’te bu unsurları mümkün olduğunca optimize etmeye çalışır.",
+
+    "question4": "Reels ve kısa videolar sosyal medyada neden bu kadar önemli?",
+    "answer4": "Çünkü algoritmalar kısa videoları öne çıkarıyor ve kullanıcıların dikkat süresi kısıtlı. Reels & kısa videolar, markanızın hikâyesini hızlı ve duygusal bir şekilde anlatmanıza, organik erişim kazanmanıza ve yeni kitlelere ulaşmanıza yardımcı olur.",
+
+    "question5": "Reels performansı nasıl ölçülür?",
+    "answer5": "Reels performansı; erişim, izlenme sayısı, ortalama izlenme oranı, etkileşim (beğeni, yorum, kaydetme, paylaşma), tıklama ve varsa rezervasyon/satış katkısı üzerinden ölçülür. DGTLFACE, bu verileri Looker Studio ve platform içi analitiklerle raporlar."
+  }
+},
+
+"SmmAds": {
+  "cta_talk_to_us": "Reklam Stratejinizi Konuşalım",
+
+  "smmads_subbanner_header": "Sosyal Medya Reklam Yönetimi – ",
+  "smmads_subbanner_header2": "Hedef Odaklı Performans Kampanyaları",
+  "smmads_subbanner_text": "DGTLFACE, sosyal medya reklam yönetimi hizmetiyle Instagram ve Facebook başta olmak üzere Meta ekosisteminde markanız için dönüşüm odaklı performans kampanyaları kurgulayan profesyonel bir partnerdir. Sadece “reklam açan” değil; strateji, hedefleme, kreatif üretimi, test, optimizasyon ve raporlama süreçlerini uçtan uca yöneten bir yapıyla çalışırız. “Instagram reklam yönetimi, Facebook reklam ajansı, Meta Ads optimizasyonu, sosyal medya reklam uzmanı, reklam hedefleme” gibi gereksinimlerinizi; hem marka bilinirliğini hem de satış/rezervasyon ve lead üretimini destekleyecek bir performans mimarisiyle karşılarız. Amaç; rastgele gösterim değil, doğru kişiye, doğru içerikle, doğru maliyetle ulaşmaktır.",
+
+  "smmads_ai_answer_title": "AI Answer Block – Sosyal Medya Reklam Yönetimi",
+  "smmads_ai_answer_text": "DGTLFACE, Instagram ve Facebook reklamlarını tamamen performans ve dönüşüm odaklı yönetir. Meta Pixel ve Conversion API ile veriyi doğru toplar; hedef kitle segmentasyonu, kampanya türü seçimi, kreatif testleri ve remarketing kurgularını tek strateji altında birleştirir. Oteller ve markalar için rezervasyon, satış veya lead odaklı kampanya akışları planlar; Reels reklamları ve dinamik kreatiflerle ROAS’ı yükseltir, tüm sonuçları Looker Studio panelleriyle şeffaf biçimde raporlar.",
+
+  "smmads_subbanner_header3": "Sosyal Medya Reklamları ile Ne Hedefliyoruz?",
+  "smmads_subbanner_text2": "Sosyal medya reklamları tek bir hedefe çalışmaz; DGTLFACE için Meta Ads kampanyaları 3 ana katmana ayrılır: Awareness (Farkındalık): Marka bilinirliği, video görüntüleme, erişim. Consideration (Değerlendirme): Trafik, etkileşim, video izlenme, DM/WhatsApp, form tıklamaları. Conversion (Dönüşüm): Satış, rezervasyon, lead, teklif formu, CRM’e düşen talep. “Instagram reklamı nasıl verilir, Meta Ads kampanya optimizasyonu, satış artıran Instagram reklam stratejileri” sorularına bu funnel mantığıyla cevap veririz. Her kampanyanın hedefi bellidir, kreatifler bu hedefe göre tasarlanır, raporlarda başarı o hedef üzerinden okunur.",
+
+  "h2Section": {
+    "header1": "Hedef Kitle ve Reklam Hedefleme Stratejisi",
+    "text1": "Başarılı sosyal medya reklamlarının kalbi, hedeflemedir. DGTLFACE, reklam hedeflemede: Detaylı demografi (yaş, cinsiyet, konum), İlgi alanları, davranışlar ve custom audience’lar, Website ziyaretçileri (pixel/veri ile topladığımız), Müşteri listeleri & CRM verileri (hash’lenmiş), Lookalike (benzer kitleler) üzerinden çok katmanlı bir yapı kurar. “Reklam hedefleme, sosyal medya remarketing, turizm Instagram reklamları, oteller için sosyal medya reklamları” gibi kurgularda; soğuk, ılık ve sıcak kitleleri ayrı segmentler olarak ele alırız. Böylece herkes aynı mesajı görmez; kullanıcı, markayla olan ilişki seviyesine göre farklı bir reklam deneyimi yaşar.",
+
+    "header2": "Kampanya Türleri: Trafik, Etkileşim, Video, DM, Dönüşüm",
+    "text2": "Meta Ads tarafında farklı amaçlar için farklı kampanya türleri vardır. DGTLFACE: Trafik kampanyaları ile web sitenize / landing page’lerinize kaliteli ziyaretçi gönderir, Etkileşim kampanyaları ile post’larınızın beğeni, yorum, kaydetme ve paylaşılma oranlarını artırır, Video & Reels kampanyaları ile kısa video içeriklerinizi geniş kitlelere ulaştırır, DM & WhatsApp kampanyaları ile direkt mesaj ve sohbet başlatma odaklı çalışmalar yürütür, Conversion kampanyaları ile satın alma, rezervasyon, form doldurma gibi hedefleri optimize eder. Bu yapı sayesinde, “Meta reklam bütçesi ayarlama” sürecinde hangi kampanya türüne ne kadar ağırlık vermemiz gerektiğini net bir şekilde planlayabiliriz.",
+
+    "header3": "Oteller ve Turizm Markaları İçin Sosyal Medya Reklamları",
+    "text3": "Turizmde sosyal medya reklamları, doğru kullanıldığında doluluk, direkt rezervasyon ve marka algısını aynı anda büyütebilir. DGTLFACE, “otel Instagram reklamları, turizm Meta Ads, resort sosyal medya reklamları, otel CRM reklam entegrasyonu” alanlarında: Hedef ülke ve pazarlara göre (DE, RU, UK, iç pazar vb.) farklı kampanya kurguları, Aile oteli, adults-only, spa & wellness, luxury, aquapark gibi konseptlere göre farklı mesajlar, Erken rezervasyon, high season ve son dakika dönemlerine özel kampanyalar, CRM verisiyle çalışan “müşteri bazlı” yeniden pazarlama (otel CRM reklam entegrasyonu), Reels & kısa videolarla desteklenen performans kreatifleri tasarlar. Böylece sosyal medya reklamları, sadece güzel görünmek değil, oda satmak ve rezervasyon almak için çalışan bir motor hâline gelir.",
+
+    "header4": "Teknik Altyapı: Facebook Pixel, Meta Conversion API ve Dönüşüm Takibi",
+    "text4": "İyi bir kampanya kadar, doğru ölçüm de önemlidir. DGTLFACE, “Facebook Pixel kurulumu, Meta Conversion API kurulumu, sosyal medya remarketing” tarafında: Pixel ve Conversion API’yi sitenize entegre eder, GA4 & Tag Manager yapınızla senkron çalışmasını sağlar (/tr/sem/donusum-takibi-tag-manager), ViewContent, AddToCart, Lead, Purchase, CompleteRegistration gibi event’leri kurar, Web ve CRM tarafında oluşan dönüşümleri kampanya düzeyinde takip eder. Bu sayede sadece Meta panelinde değil, Looker Studio ve satış/dönüşüm raporlarınızda da hangi kampanyanın ne kadar iş ürettiğini görebilirsiniz."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Sosyal Medya Reklam Yönetimi Hizmet Detayları",
+
+    "header1": "Kampanya Kurulumu ve Yapılandırma",
+    "text1": "Başarılı bir reklam hesabı, temiz bir kampanya mimarisiyle başlar. DGTLFACE: Kampanyaları hedefe göre (awareness / consideration / conversion) ayırır, Her kampanya için ideal reklam seti sayısını ve segmentleri belirler, “Instagram reklamı nasıl verilir, Meta Ads kampanya optimizasyonu” sorularını; doğru amaç, doğru optimizasyon penceresi ve doğru bütçe dağılımıyla cevaplar, A/B testler için alternatif kreatif ve hedefleme kurgularını önceden planlar. Bu sayede hesap, “rastgele açılmış kampanyalar” değil, kontrollü ve yönetilebilir bir yapı hâline gelir.",
+
+    "header2": "Kreatif Üretimi: Görsel, Carousel, Reels ve Video Reklamlar",
+    "text2": "Reklamın performansı, büyük ölçüde kreatife bağlıdır. DGTLFACE, /tr/smm/icerik-uretimi ve /tr/smm/reels-video + /tr/creative-ve-tasarim ile entegre şekilde: Static görseller, carousel’ler ve Reels/video kreatifleri üretir, Tasarım & mesaj tarafını aynı anda düşünerek, “satış artıran Instagram reklam stratejileri” kurgular, Oteller için gerçek oda, havuz, restoran, SPA ve destinasyon görüntülerini kullanır, Farklı kreatifleri A/B test’lerle deneyerek en iyi performanslı setleri öne çıkarır. Yani tasarım ve performans birbirinden kopuk değil; aynı amaç için çalışan iki kardeş gibidir.",
+
+    "header3": "Bütçe ve Teklif Stratejisi – Meta Reklam Bütçesi Ayarlama",
+    "text3": "“Meta reklam bütçesi ayarlama” işi tamamen hissiyata bırakılamaz. DGTLFACE: Günlük/aylık toplam bütçeyi hedeflere böler, İlk aşamada test odaklı daha küçük bütçelerle başlayıp en iyi çalışan kombinasyonları tespit eder, Daha sonra bütçeyi kazanan kampanyalara kaydırır, Gerektiğinde kampanya bütçe optimizasyonu (CBO) ve manuel set bütçelerini aynı hesap içinde kullanır. Amaç: Aynı bütçeyle daha fazla dönüşüm veya aynı dönüşümü daha düşük maliyetle almak; kısacası ROAS ve CPA dengesini optimize etmek."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Sosyal Medya Reklam Yönetimi?",
+
+    "card1title": "Tasarım + Hedefleme + Ölçüm Üçlüsünü Birlikte Yöneten Ekip",
+    "card1description": "Birçok yerde: Tasarımı bir ajans, Hedeflemeyi başka biri, Raporlamayı iç ekip yapıyor. Sonuç: parçalı resim. DGTLFACE ise: Stratejiyi (/tr/smm/planlama-strateji), İçerik & kreatifi (/tr/smm/icerik-uretimi, /tr/smm/reels-video, /tr/creative-ve-tasarim), Reklam yönetimini (/tr/smm/sosyal-medya-reklamlari), Ölçüm & raporlamayı (/tr/smm/analiz-raporlama, /tr/sem/reklam-raporlama) aynı çatı altında toplar. Yani “kim ne yapıyor?” sorusunun cevabı nettir; her şey aynı oyunun parçasıdır.",
+
+    "card2title": "SEM, SEO ve SMM Entegrasyonu",
+    "card2description": "Sosyal medya reklamları, diğer kanallardan kopuk olmamalı. DGTLFACE: Google Ads kampanyalarıyla (/tr/sem, /tr/sem/google-ads-yonetimi) aynı hedef kitle ve mesaj stratejisini sürdürür, SEO içerikleriyle (/tr/seo/icerik-seo) aynı anahtar mesajları güçlendirir, Remarketing ve cross-channel kurgularla (Google + Meta) kullanıcıyı birden çok temas noktasında yakalar. Böylece kullanıcı; Instagram’da gördüğü oteli Google’da da görür, web sitenize girer, sonra tekrar Meta ve yine Google tarafında tutarlı bir hikâyeyle karşılaşır.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Meta Ads Uzmanlığı",
+    "card3description": "“Sosyal medya reklamları Antalya, Antalya Facebook reklam ajansı, Instagram reklam Türkiye, Antalya Meta Ads yönetimi” gibi aramaların arkasında; hem turizmi hem Meta platformlarını bilen bir ekip gerekir. DGTLFACE: Antalya, Belek, Side, Kemer, Lara, Alanya gibi destinasyonlardaki otellerle çalışma deneyimine sahip, Yerel işletmeler ve B2B markalar için de sosyal medya reklam kurguları üretmiş, Hem yerli hem yabancı hedef kitlenin davranışını bilen bir ekip olarak; kampanyaları sadece teknik olarak değil, sezon ve pazar gerçekleriyle uyumlu şekilde yönetir."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman –",
+    "header2": "H5 Konuları",
+
+    "title1": "Instagram Reklamı ",
+    "span1": "Nasıl Verilir?",
+    "text1": "“Instagram reklamı nasıl verilir?” sorusunun kısa cevabı: Business Manager ile, doğru amaç ve hedeflemeyle. DGTLFACE: Direkt uygulama içinden “gönderiyi öne çıkar” mantığından kaçınır, Tüm reklamları Meta Business Manager üzerinden kurar, Pixel & Conversion API kurulumu sonrası, doğru dönüşüm hedeflerini seçer, Story, Reels, feed placement’larını test edip en verimli kombinasyonu bulur.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Sosyal Medya ",
+    "span2": "Remarketing Kurguları",
+    "text2": "Sosyal medya remarketing, en sıcak kitleye hitap eder. DGTLFACE: Site ziyaretçileri, Sepet/checkout’a gelip vazgeçenler, Video izleyicileri, Instagram profiline girenler, DM/WhatsApp başlatıp bırakmış kullanıcılar için ayrı remarketing kurguları çalıştırır. Mesaj ve kreatifleri bu segmente göre özelleştirip, dönüşüm maliyetini aşağı çekeriz.",
+    "button2": "Keşfet",
+
+    "title3": "Reel Reklam ",
+    "span3": "Yönetimi",
+    "text3": "Reel reklam yönetimi, performans tarafında son dönemin en güçlü alanlarından biridir. DGTLFACE: Organikte iyi performans vermiş Reels’ları alıp reklama çevirir, Reels placement’ına özel dikey ve hızlı videolar üretir, CTA ve link kurgusunu Reels formatına uygun tasarlar, Hangi Reels’in hem organik hem reklamda daha iyi çalıştığını raporlar.",
+    "button3": "İncele",
+
+    "title4": "Otel CRM Reklam ",
+    "span4": "Entegrasyonu",
+    "text4": "Otel CRM reklam entegrasyonu, geçmiş misafir verisini Meta Ads’le buluşturur. DGTLFACE: CRM’den alınan (hash’lenmiş) mail/telefon listelerini özel kitleye dönüştürür, Eski misafire özel kampanya ve cross-sell reklamları kurgular, Bu kitleden lookalike (benzer) audience’lar üreterek yeni potansiyel misafirlere ulaşır. Bu sayede sosyal medya reklamları, sadece soğuk kitle değil, mevcut misafiri de kapsayan bir yapı kazanır.",
+    "button4": "Raporu Gör"
+  },
+
+  "faq": {
+    "header": "SSS – Sosyal Medya Reklam Yönetimi Hakkında Sık Sorulan Sorular",
+
+    "question1": "Sadece organik paylaşımla yetinsek olmaz mı?",
+    "answer1": "Organik içerik şart ama tek başına yetmez. Algoritmalar gereği, paylaşımlarınızın önemli bir kısmı takipçilerinizin bile küçük bir bölümüne gösterilir. Reklamla: Doğru kitlelere ulaşırsınız, Yeni takipçi ve potansiyel müşteri kazanırsınız, Mevcut kitlenizin dışında da görünür olursunuz. En güçlü yapı, organik + reklam kombinasyonudur.",
+
+    "question2": "Küçük bütçeyle de profesyonel yönetim almaya değer mi?",
+    "answer2": "Kesinlikle. Küçük bütçelerde yapılan hatalar, bütçenin çok hızlı boşa yanmasına yol açar. Profesyonel sosyal medya reklam yönetimi ile: Hedeflemeyi doğru yapar, Teklif & optimizasyon stratejilerini veriye göre belirler, Bütçenizi en yüksek dönüşüm potansiyeli olan alanlara yönlendiririz. Bu da küçük bütçelerde bile anlamlı sonuçlar almanızı sağlar.",
+
+    "question3": "Reklamları sadece Instagram’da mı yönetiyorsunuz, Facebook da dahil mi?",
+    "answer3": "Instagram ve Facebook, aynı Meta Ads ekosistemi içinde çalışır. DGTLFACE olarak: Instagram feed + story + Reels, Facebook feed + story + Reels, Gerekirse Audience Network ve Messenger placement’larını kurgularız. Hangi placement’ların sizin için daha iyi çalıştığını test ederek karar veririz.",
+
+    "question4": "Meta Ads optimizasyonu için ne kadar süre gerekir?",
+    "answer4": "Rekabet, sektör ve bütçeye göre değişse de: İlk 1–2 hafta genelde öğrenme/test dönemidir, Bu süreçte hangi hedeflemenin, hangi kreatifin daha iyi çalıştığını görürüz, Sonraki haftalarda optimizasyonlarla birlikte kampanyalar daha stabil ve verimli hale gelir.",
+
+    "question5": "DGTLFACE ile sosyal medya reklam yönetimine nasıl başlıyoruz?",
+    "answer5": "Adımlar genelde şöyle: Hedef & mevcut durum görüşmesi (hesap erişimi, pixel durumu, geçmiş kampanyalar). Hedef kitle ve kampanya önceliklerinin netleştirilmesi. Pixel + Conversion API + GA4 & Tag Manager entegrasyonlarının kontrolü/kurulumu. İlk kampanya setinin ve kreatiflerin hazırlanması. Test & optimizasyon dönemi ve düzenli raporlama ritmi. Her adımı şeffaf raporlarla ve anlaşılır dille paylaşıyoruz."
+  }
+},
+
+"SmmAnalyticsReporting": {
+  "cta_talk_to_us": "Sosyal Medya Sonuçlarınızı Konuşalım",
+
+  "smmanalytics_subbanner_header": "Sosyal Medya Analiz ve ",
+  "smmanalytics_subbanner_header2": "Raporlama – Performansınızı Doğru Ölçün",
+  "smmanalytics_subbanner_text": "DGTLFACE, sosyal medya analiz ve raporlama hizmetiyle; Instagram, Facebook, YouTube, TikTok ve diğer platformlarda yaptığınız tüm çalışmaların gerçekte ne sonuç ürettiğini net biçimde görmenizi sağlar. Sadece “kaç beğeni aldık?” değil; erişim, etkileşim, kaydetme, paylaşma, profil ziyareti, tıklama, DM, WhatsApp, form, rezervasyon gibi uçtan uca metrikleri takip ederiz. “Sosyal medya raporlama, etkileşim analizi, erişim raporu, Instagram analiz aracı, KPI raporlama” gibi ihtiyaçları; Looker Studio dashboard’ları, aylık raporlar ve aksiyon planlarıyla birleştirip, sosyal medyanızı veriyle yönetilen bir kanal hâline getiririz.",
+
+  "smmanalytics_ai_answer_title": "AI Answer Block – Sosyal Medya Analiz & Raporlama",
+  "smmanalytics_ai_answer_text": "DGTLFACE, sosyal medya analiz ve raporlama hizmetinde sadece beğeni ve takipçi sayısına değil, erişim, etkileşim oranı, kaydetme, tıklama, profil ziyareti, DM, WhatsApp ve rezervasyon gibi tüm KPI’lara bakar. Instagram, Facebook, TikTok ve YouTube verilerini Looker Studio dashboard’larında birleştirir; özellikle otel ve turizm markaları için sezon, destinasyon ve oda/servis bazlı performansları ayrıştırıp, içerik ve reklam stratejilerini somut verilerle optimize eder.",
+
+  "smmanalytics_subbanner_header3": "Sosyal Medya Analizi Nedir? Neden Kritik?",
+  "smmanalytics_subbanner_text2": "Sosyal medya analizi, sadece istatistik ekranına bakmak değil; bu verilerden anlamlı sonuç ve aksiyon çıkarma sanatıdır. DGTLFACE için sosyal medya analiz: Hangi içerik türünün (post, carousel, Reels, story) ne sonuç verdiğini, Hangi gün/saat ve hangi formatın daha iyi performans aldığını, Hangi hedef kitlenin (ülke, yaş, cinsiyet, ilgi alanı…) daha iyi tepki verdiğini, Organik ve reklam kampanyalarının birbirini nasıl etkilediğini, Hangi hareketlerin (içerik tipi, ton, kampanya) sonrası etkileşim veya erişim düşüşü yaşandığını görmeyi kapsar. “Sosyal medya analizi nedir, sosyal medya performans raporu nasıl hazırlanır, aylık sosyal medya raporu örneği” gibi sorulara, sadece teoriyle değil, somut dashboard’larla cevap veririz.",
+
+  "h2Section": {
+    "header1": "Sosyal Medya Performans Raporu Nasıl Hazırlanır?",
+    "text1": "İyi bir sosyal medya performans raporu, sadece rakam listesi değil; hikâye + teşhis (diagnose) + aksiyon içermelidir. DGTLFACE, rapor hazırlarken: Önce hedefleri ve KPI’ları hatırlatır (bkz. /tr/smm/planlama-strateji), Ardından dönemsel performansın özetini verir (erişim, etkileşim, takipçi, tıklama, dönüşüm), İçerik türlerine göre kırılım yapar (post, carousel, Reels, story), Reklam kampanyaları ile organik içerik ilişkisini gösterir, Son sayfalarda da “bir sonraki ay neyi artırıyoruz, neyi azaltıyoruz?” listesini sunar. “Sosyal medya performans raporu nasıl hazırlanır, aylık sosyal medya raporu örneği” gibi taleplerde; markaya özel rapor şablonları ile çalışırız.",
+
+    "header2": "KPI ve Metrix: Ne Ölçüyoruz?",
+    "text2": "Herkes “like” konuşuyor ama gerçek KPI’lar çok daha geniş. DGTLFACE, sosyal medya için KPI planlama yaparken: Awareness: erişim, gösterim, takipçi kalitesi (bot/gerçek oranı), marka aramaları. Engagement: beğeni, yorum, kaydetme, paylaşma, cevap verme, story izleme. Trafik: link tıklama, siteye gelen oturumlar. Conversion: DM, WhatsApp, form, rezervasyon, satış katmanlarını kullanır. “Sosyal medya KPI planlama, sosyal medya KPI belirleme, erişim artırma yöntemleri, sosyal medya veri ölçümü” gibi süreçlerde; sizin için mantıklı olan KPI setini netleştirip, raporları bu eksende kurarız.",
+
+    "header3": "Oteller ve Turizm Markaları İçin Sosyal Medya Raporlama",
+    "text3": "Turizmde sosyal medya performansı, doluluk ve rezervasyon ile birlikte okunmalıdır. DGTLFACE, “otel sosyal medya raporu, turizm sosyal medya performansı, resort sosyal medya KPI, otel dashboard raporu” alanlarında: Hangi pazarın (ülke/dil) hangi içeriklere daha çok tepki verdiğini, Reels + fotoğraf + kampanya içeriklerinin rezervasyon talebine etkisini, Erken rezervasyon, yüksek sezon, son dakika kampanyalarının performansını, Sosyal medya kampanyaları sonrası web trafiği ve çağrı merkezi hareketini raporlar. Böylece oteliniz için sosyal medya; “güzel görünüyor” değil, “şu kadar rezervasyon & talep üretti” diyebildiğiniz bir alan hâline gelir.",
+
+    "header4": "Looker Studio ile Sosyal Medya Dashboard Tasarımı",
+    "text4": "Rakamların tek tek PDF’de durması yerine, canlı bir dashboard üzerinden izlenmesi çok daha verimlidir. DGTLFACE, /tr/raporlama/looker-studio ile: Instagram & Facebook native metriklerini, Meta Ads sonuçlarını (/tr/smm/sosyal-medya-reklamlari), Google Analytics / GA4 üzerinden gelen sosyal medya kaynaklı trafiği, Gerekiyorsa PMS / rezervasyon / çağrı merkezi datasını tek bir Looker Studio paneline bağlar. Böylece “Instagram analiz aracı, sosyal medya KPI raporlama, otel dashboard raporu” gibi ihtiyaçlar; her gün bakabileceğiniz görsel bir kontrol paneli ile çözülür."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Sosyal Medya Analiz & Raporlama Hizmet Detayları",
+
+    "header1": "Sosyal Medya Raporlama – Temel Çerçeve",
+    "text1": "DGTLFACE, sosyal medya raporlama yaparken: Platform bazlı (Instagram, Facebook, TikTok, YouTube) tablo ve grafikler, İçerik formatı bazlı (post, carousel, Reels, story) performans kırılımları, Kampanya bazlı (erken rezervasyon, lansman, kampanya X) sonuçlar, Hedef kitle bazlı (ülke, yaş, cinsiyet, ilgi alanı) analizler, Dönüşüm bazlı (DM, WhatsApp, form, satış, rezervasyon) veriler kullanır. Sadece “rakam” değil; her parçanın yanına yorum + öneri yazarız.",
+
+    "header2": "Etkileşim Analizi – Beğeni Değil, Derin Etkileşim",
+    "text2": "Etkileşim analizi, sadece like saymak değildir. DGTLFACE: Kaydetme ve paylaşma oranlarını, Yorum sayısı ve yorum kalitesini, Story’de cevap verme / etkileşim davranışlarını, Reels’lerde izlenme, tamamlanma, tekrar izleme oranlarını detaylı inceler. “Etkileşim analizi, reel performans analizi, sosyal medya analizi nedir” sorularına, bu derin metriklerle cevap veririz. Çünkü “kaliteli etkileşim”, sadece +1 like değil, daha yüksek niyetli kullanıcı hareketi demektir.",
+
+    "header3": "Erişim Raporu ve Erişim Artırma Yöntemleri",
+    "text3": "Erişim raporu, içeriklerinizin kaç kişiye ulaştığını ve bu kişilerin kim olduğunu gösterir. DGTLFACE: Organik erişim ve reklam erişimini ayrı ayrı raporlar, Takipçi dışı erişim oranını (yeni kitleye açılma potansiyelini) inceler, İçerik formatı, hashtag, yayın saati ve platform değişikliklerinin erişime etkisini analiz eder. “Erişim artırma yöntemleri” tarafında ise; Reels yoğunluğunu artırmak, influencer/iş birlikleri, içerik paylaşım stratejileri, kampanya kurguları gibi öneriler sunarız."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Sosyal Medya Analiz & Raporlama?",
+
+    "card1title": "Sadece “Ne Oldu?”yu Değil, “Neden Oldu ve Ne Yapmalı?”yı Anlatan Raporlar",
+    "card1description": "Birçok rapor “şu kadar erişim, bu kadar beğeni” deyip bırakır. DGTLFACE raporları ise: Ne oldu? (veri) Neden oldu? (yorum) Ne yapmalıyız? (aksiyon maddeleri) üçlüsünü birlikte içerir. “Instagram etkileşim düşüşü neden olur” sorusunun cevabını; algoritma, içerik değişimi, yayın sıklığı, rekabet artışı gibi faktörlerle beraber anlatırız.",
+
+    "card2title": "Strateji, İçerik, Reklam ve Raporlamayı Birbirine Bağlayan Yapı",
+    "card2description": "Sosyal medya analizi, strateji ve içerikten kopuk ele alınamaz. DGTLFACE: Strateji → /tr/smm/planlama-strateji, İçerik → /tr/smm/icerik-uretimi, Reels & video → /tr/smm/reels-video, Reklam → /tr/smm/sosyal-medya-reklamlari, Analiz & raporlama → /tr/smm/analiz-raporlama katmanlarını birbirine bağlı yönetir. Böylece raporlar, doğrudan strateji ve içerik planını güncellemek için kullanılır; kapanan değil, aksiyona dönüşen bir döngü oluşur.",
+
+    "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Sosyal Medya Analitiği",
+    "card3description": "“Sosyal medya analizi Antalya, Antalya sosyal medya raporlama, sosyal medya analizi Türkiye, Antalya Instagram analiz” gibi aramaların arkasında; hem turizmi hem dijital pazarlamayı bilen bir ekip beklenir. DGTLFACE, Antalya merkezli bir ajans olarak: Otellerin sosyal medya raporlamasında doluluk ve rezervasyon verilerini, Turizm markalarının sezonluk performans değişimlerini, Yerel işletmelerin kampanya ve yoğunluk dönemlerini raporlara dahil eder. Bu sayede veriler, iş gerçeklerinizle uyumlu okunur."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman –",
+    "header2": "H5 Konuları",
+
+    "title1": "Instagram Etkileşim ",
+    "span1": "Düşüşü Neden Olur?",
+    "text1": "“Instagram etkileşim düşüşü neden olur?” sorusunun cevapları: Algoritma değişiklikleri, İçerik formatı dengesizliği (Reels yerine sadece statik post ağırlığı), Fazla kampanya/indirim post’u (aşırı satış kokan içerik), Takipçi kalitesinin düşmesi (bot/çekiliş sonucu gelenler), Yayın saatleri ve frekansındaki düzensizlikler. DGTLFACE, raporlarda bu değişkenleri tek tek analiz ederek, düşüşün gerçek sebebini bulmaya odaklanır.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Aylık Sosyal Medya ",
+    "span2": "Raporu Örneği Nasıl Olmalı?",
+    "text2": "Sağlam bir aylık sosyal medya raporu: Özet dashboard (en kritik KPI’lar), Platform & içerik formatı bazlı performans, En iyi & en zayıf performans gösteren içerik listesi, Reklam ve organik içerik arasındaki ilişki, Dönüşüm metrikleri (DM, WhatsApp, form, rezervasyon, satış), Bir sonraki dönem için önerilen aksiyonlar içermelidir. DGTLFACE, her markaya bu çerçeveyi kendi gerçeklerine uyarlayan bir şablon sunar.",
+    "button2": "Keşfet",
+
+    "title3": "Otel Sosyal Medya ",
+    "span3": "Dashboard’unda Neler Olmalı?",
+    "text3": "Otel dashboard raporu: Pazar bazlı performans (DE, RU, UK, iç pazar…), İçerik tipine göre etkileşim (oda, havuz, restoran, deneyim, destinasyon), Sezon dönemlerine göre performans kıyaslamaları, Sosyal medya → site trafiği → rezervasyon dönüşümü, Kampanya (erken rezervasyon, bayram, high season) bazlı analizler gibi paneller içerir. DGTLFACE, bu paneli PMS ve satış verileriyle (/tr/raporlama/satis-donusum) entegre etmeyi de önerir.",
+    "button3": "İncele",
+
+    "title4": "Reels Performans Analizi ",
+    "span4": "ile İçerik Stratejisini Güncellemek",
+    "text4": "Reel performans analizi, hangi kısa video formatlarının işe yaradığını gösterir. DGTLFACE: İzlenme, tamamlanma, kaydetme ve paylaşım oranlarını takip eder, En çok profil ziyareti ve DM’yi tetikleyen Reels’ları belirler, Bu formatların sayısını artırıp, çalışmayan formatları azaltmayı önerir. Yani Reels tarafında da sürekli öğrenen ve kendini geliştiren bir içerik planı oluşur.",
+    "button4": "Raporu Gör"
+  },
+
+  "faq": {
+    "header": "SSS – Sosyal Medya Analiz & Raporlama Hakkında Sık Sorulan Sorular",
+
+    "question1": "Sosyal medya analizi için ekstra bir ücretli araç kullanmak şart mı?",
+    "answer1": "Hayır, şart değil. Çoğu proje için: Instagram & Facebook native istatistikleri, Meta Ads raporları, Google Analytics / GA4, Looker Studio yeterli oluyor. Daha ileri seviye takip için üçüncü parti araçlar (örneğin sosyal medya listening, rakip analizi vb.) eklenebilir ama zorunlu değil.",
+
+    "question2": "Aylık raporları kim okuyacak, ekip bunları anlamakta zorlanırsa ne olacak?",
+    "answer2": "Raporlarımızı herkesin anlayacağı şekilde tasarlıyoruz. Yönetim için üst seviye özet, pazarlama ekibi için detaylı tablolar, içerik ekibi için en iyi / en zayıf performanslı içerik listeleri hazırlıyoruz. Gerekirse ayda bir de kısa “rapor üzerinden geçiş” toplantısı yapıyoruz.",
+
+    "question3": "Sosyal medya analizi sadece büyük markalar için mi gerekli?",
+    "answer3": "Hayır. Küçük ve orta ölçekli işletmeler için de en az büyük markalar kadar önemli. Çünkü burada her yanlış adım bütçeyi yakıyor ve bunu erken fark etmek kritik. Basit bir dashboard bile, “şunu daha yapmayalım, bunu artırabiliriz” demek için fazlasıyla işe yarar.",
+
+    "question4": "Sadece raporlama hizmeti alabilir miyim? İçerik & reklamı biz yönetiyoruz.",
+    "answer4": "Evet, “sadece analiz & danışmanlık” modeliyle de çalışabiliyoruz. Bu durumda: Mevcut verilerinizi toplar, Aylık veya 3 aylık detay analiz raporu çıkarır, İçerik & reklam ekibinize dış göz olarak yorum ve öneri sunarız. Yine de en güçlü sinerji, strateji + içerik + reklam + raporlama aynı ekibin elindeyken ortaya çıkıyor.",
+
+    "question5": "DGTLFACE ile sosyal medya analiz & raporlama projesine nasıl başlıyoruz?",
+    "answer5": "Adımlar: Kullandığınız platformlar ve hedef KPI’lar belirlenir. Mevcut raporlama ve veri toplama durumu incelenir. Dashboard yapısı ve raporlama periyodu (haftalık/aylık) tanımlanır. Gerekli entegrasyonlar (GA4, Looker Studio, Meta vs.) kurulur. İlk rapor hazırlanır ve üzerinden birlikte geçilir; sonraki dönemler için sürekli döngü başlar."
+  }
+},
+
+"WebDev": {
+  "cta_talk_to_us": "Web Sitenizi Birlikte Planlayalım",
+
+  "webdev_subbanner_header": "Kurumsal Web Sitesi Geliştirme –",
+  "webdev_subbanner_header2": " Modern ve Mobil Uyumlu Yapılar",
+  "webdev_subbanner_text": "DGTLFACE, kurumsal web sitesi geliştirme alanında; markanız için hızlı, güvenli, mobil uyumlu ve SEO dostu bir dijital vitrin inşa eden profesyonel bir web geliştirme ajansıdır. Sadece “tasarım yapan” değil; performans, güvenlik, kullanıcı deneyimi (UX) ve arama motoru görünürlüğünü birlikte düşünen bir ekip olarak çalışırız. Next.js altyapısı ile hızlı açılan web sitesi geliştirme, çok dilli yapı, PMS entegrasyonları ve modern arayüzlerle; web sitenizi yalnızca kartvizit değil, gerçek bir satış, rezervasyon ve lead üretim kanalı hâline getiririz. “Web tasarım hizmeti, mobil uyumlu web sitesi, Next.js web tasarım, profesyonel web tasarım” gibi ihtiyaçların hepsini tek çatı altında topluyoruz.",
+
+  "webdev_ai_answer_title": "AI Answer Block – Kurumsal Web Sitesi Geliştirme",
+  "webdev_ai_answer_text": "DGTLFACE, kurumsal web sitesi geliştirme sürecinde önce marka ve ihtiyaç analizi yapar, ardından Next.js altyapısıyla hızlı, mobil uyumlu ve SEO dostu bir yapı kurar. Oteller ve turizm işletmeleri için PMS–OTA entegre rezervasyon altyapıları, kurumsal markalar için çok dilli, içerik yönetilebilir ve güvenli web siteleri geliştirir. Tasarım, performans, teknik SEO ve KVKK uyumu birlikte düşünülerek, uzun vadeli ve ölçülebilir bir dijital vitrin ortaya çıkarılır.",
+
+  "webdev_subbanner_header3": "Kurumsal Web Sitesi Nedir, Nasıl Olmalıdır?",
+  "webdev_subbanner_text2": "“Kurumsal web sitesi nasıl yapılır?” sorusunun cevabı artık sadece “logo + hakkımızda + iletişim” değil. Modern bir kurumsal web sitesi: Markanızın kimliğini (renk, dil, fotoğraf, tipografi) doğru yansıtmalı, hızlı açılmalı, mobilde kusursuz çalışmalı, kullanıcının aradığı bilgiye 2–3 tıkta ulaşabileceği net bir mimariye sahip olmalı, SEO uyumlu URL, başlık ve içerik yapısı kullanmalı, form, rezervasyon, teklif talebi gibi aksiyonları kolaylaştırmalı ve güven veren bir yapıda olmalıdır (SSL, güvenlik, açık ve şeffaf bilgiler). DGTLFACE, “kurumsal web sitesi geliştirme, web geliştirme ajansı, profesyonel web tasarım örnekleri” gibi konularda; tasarım + yazılım + SEO ekiplerini aynı masa etrafında toplayarak, tek seferde doğru kurumsal web altyapısı kurar.",
+
+  "h2Section": {
+    "header1": "Hızlı, Güvenli ve SEO Uyumlu Web Sitesi Neden Şart?",
+    "text1": "Bugün kullanıcılar yavaş açılan, mobilde yamulan, karmakarışık sitelere tahammül etmiyor. Google da aynı fikirde. DGTLFACE, kurumsal web sitenizi geliştirirken: Core Web Vitals (LCP, CLS, INP) metriklerinde iyi skorlar hedefler, mobil uyumluluk (responsive) için her breakpoint’i titiz testlerden geçirir, HTTPS, SSL, güvenli host ve sunucu optimizasyonu ile güvenliği sağlar, /tr/seo/teknik-seo ile teknik SEO gereksinimlerini daha en baştan projeye gömer. “SEO uyumlu web sitesi nasıl kurulur, modern web tasarım trendleri, responsive web tasarım rehberi” gibi kavramların hepsi pratiğe dönüştürülür. Sonuç: Hem kullanıcı deneyimi, hem SEO hem de reklam dönüşümleri için ideal bir zemin elde edersiniz.",
+
+    "header2": "Next.js Web Tasarım ve Modern Teknoloji Stack’i",
+    "text2": "DGTLFACE, kurumsal web projelerinde Next.js ve React gibi modern teknolojiler kullanır. Bu sayede: Sunucu taraflı rendering (SSR) ile SEO’ya uygun, static generation (SSG) ile süper hızlı, bileşen tabanlı yapı ile kolay geliştirilebilir, çok dilli, modüler ve geleceğe dönük web siteleri ortaya çıkar. “Next.js web tasarım, web sitesi geliştirme Türkiye, Antalya yazılım firması” arayan markalar için; yalnızca güncel teknikleri kullanan değil, aynı zamanda bu teknikleri SEO ve iş hedefleriyle hizalayan bir ekip olmayı önemsiyoruz. Yani teknoloji gösteriş için değil, performans ve ölçeklenebilirlik için seçiliyor.",
+
+    "header3": "Oteller ve Turizm Sektörü İçin Web Sitesi Geliştirme",
+    "text3": "Otel web tasarımı ve turizm sektörüne özel web tasarım, klasik kurumsal sitelerden farklı ihtiyaçlara sahiptir. DGTLFACE, “otel web tasarımı, resort web tasarım, turizm web sitesi geliştirme, PMS entegre web sitesi” tarafında: Oda tipleri, görseller, fiyat ve müsaitlik alanlarını; online rezervasyon modülü ve form yapıları; PMS entegrasyonları (Elektraweb vb.) ve OTA link dengesini; çok dilli yapı (TR–EN–DE–RU vb.); kampanya, erken rezervasyon, blog/destinasyon içerikleri için özel şablonları projeye baştan dahil eder. Turizmde rekabet yüksek olduğu için; otel web sitenizi hem marka deneyimini yansıtan, hem de rezervasyon dönüşümü yüksek bir yapıya dönüştürmeyi hedefleriz. Bu aşamada PMS & OTA yönetimi için /tr/pms-ota-yonetimi, otel dijital dönüşümü için /tr/otel-dijital-pazarlama ile de entegre bir yol haritası kurarız.",
+
+    "header4": "Çok Dilli ve Responsive Web Tasarım",
+    "text4": "Özellikle otel ve ihracat odaklı B2B markalarda, çok dilli web sitesi tasarımı kritik. DGTLFACE: Dil bazlı URL ve hreflang kurgusunu SEO standartlarına göre kurar, dil geçişini kullanıcıyı yormadan çözer, içerik yönetimini (CMS) çok dilli yapıya uygun hale getirir (bkz. /tr/yazilim/cms-entegrasyonu), tasarımda metin alanlarını ve font desteğini dillerin uzunluk farklarına göre planlar. “Çok dilli web sitesi tasarımı, responsive web tasarım rehberi” gibi alanlarda; tasarım + teknik + SEO tarafı birlikte ilerler."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Web Sitesi Geliştirme Hizmet Detayları",
+
+    "header1": "Kurumsal Web Sitelerinde İçerik Yönetim Sistemi (CMS) Seçimi",
+    "text1": "Kurumsal web sitesi geliştirmenin en kritik parçalarından biri, markanın ihtiyaçlarına uygun içerik yönetim sistemi (CMS) seçimidir. DGTLFACE, “içerik yönetim sistemi, admin panel geliştirme, headless CMS, React CMS” gibi konularda; projenin büyüklüğüne, çok dillilik ihtiyacına ve ekip becerilerinize göre en doğru yapıyı seçer: Daha basit kurumsal siteler için kullanıcı dostu klasik CMS; gelişmiş modüllere ihtiyaç duyan markalar için özel geliştirilmiş admin panel; çok dilli, yüksek trafikli ve headless yapıya ihtiyaç duyan projeler için Next.js + Headless CMS. CMS seçimi; içerik güncellemelerinin hızı, SEO yönetimi ve siteyi uzun vadede geliştirme kabiliyetinizi birebir etkilediği için kritiktir.",
+
+    "header2": "Çok Dilli İçerik Yönetimi ve Hreflang Stratejisi",
+    "text2": "Çok dilli bir kurumsal sitede başarı, yalnızca çeviri yapmakla olmaz; dil bazlı SEO ve kullanıcı deneyimi birlikte yönetilmelidir. DGTLFACE: Dil yapısını domain.com/tr – /en – /de şeklinde SEO uyumlu kurar, her dil için ayrı meta etiketler, başlık yapıları ve URL’ler oluşturur, hreflang etiketlerini doğru bağlayarak Google’ın doğru dili doğru pazara göstermesini sağlar, içerikleri çeviri değil, pazar odaklı yeniden yazım mantığıyla hazırlar, CMS panelini çok dilli yapıya uygun şekilde yapılandırır. “Çok dilli web sitesi, hreflang optimizasyonu, uluslararası SEO” gibi konularda hem teknik hem içerik tarafını uçtan uca yönetiriz.",
+
+    "header3": "Kurumsal Web Sitelerinde Aksiyona Yönlendirme (CTA) Mimarisi",
+    "text3": "Kurumsal bir web sitesi güzel görünmekle bitmez; kullanıcıyı doğru yönlendirmeli ve fırsata dönüştürmelidir. DGTLFACE, CTA stratejisini şu şekilde kurgular: Her sayfanın amacına göre (hizmet → iletişim, otel → rezervasyon, B2B → teklif formu) özel CTA’lar tasarlarız; mobil ve masaüstü için farklı CTA yerleşimleri oluştururuz; formlar, WhatsApp aksiyonları ve hızlı iletişim modülleri ekleriz; blog / içerik sayfalarında dönüşüm hunisi oluşturarak ziyaretçiyi bir sonraki adıma taşırız. CTA tasarımı; dönüşüm oranınızı, satış / rezervasyon potansiyelinizi ve site veriminizi büyük ölçüde artırır.",
+
+    "header4": "Bilgi Mimarisi ve Kullanıcı Deneyimi (UX) Tasarımı",
+    "text4": "İyi bir kurumsal site, önce doğru bilgi mimarisi ile başlar. DGTLFACE: Hedef kitlelerin sitede ne aradığını analiz eder, menü, alt menü ve sayfa hiyerarşisini çıkarır, kullanıcı yolculuklarını (home → hizmet → referans → iletişim / rezervasyon) planlar, /tr/creative/ui-ux-tasarim ekibiyle birlikte wireframe ve prototipler tasarlar. “Kurumsal web sitesi nasıl yapılır, modern web tasarım trendleri” sorularına, doğrudan kullanıcı deneyimi odaklı çözümlerle cevap veririz.",
+
+    "header5": "Tasarım Süreci – Kurumsal Kimliğe Uygun Modern Web Tasarım",
+    "text5": "Web tasarım hizmeti, kurumsal kimliğinizin dijitaldeki yüzüdür. DGTLFACE: Mevcut kurumsal kimlik (logo, renk, font, fotoğraf dili) ile uyumlu tasarım yapar, gerekirse yeni bir görsel dil önerir (özellikle turizm & hospitality markalarında), “profesyonel web tasarım, profesyonel web tasarım örnekleri” seviyesinde, sade ama güçlü arayüzler tasarlar, bileşen tabanlı tasarım sistemi oluşturarak ileride yeni sayfa/landing eklemeyi kolaylaştırır. Sitede gezen kullanıcı, “bu marka ne yapıyor?” sorusunun cevabını daha ilk saniyelerde hisseder.",
+
+    "header6": "Geliştirme, Entegrasyon ve Test Süreci",
+    "text6": "Tasarım bittiğinde, işin asıl “gizli” kısmı başlar. DGTLFACE: Frontend’i Next.js + React ile geliştirir, gerekirse özel backend/API yapıları kurar veya mevcut sistemlerle entegre eder, form, rezervasyon, CRM ve e-posta pazarlama entegrasyonlarını bağlar, tüm siteyi farklı cihaz, tarayıcı ve ekran boyutlarında test eder, yayın öncesi SEO ve hız kontrollerini yapar. “Web sitesi geliştirme Türkiye, Antalya yazılım firması” arayanlar için; sadece “çıktı tasarım” değil, tam teknik ekip sunuyoruz.",
+
+    "header7": "Mini Case Snippet’ler – Örnek Otel Web Sitesi Sonuçları",
+    "text7": "Gerçek projelerde gördüğümüz tipik senaryoları şöyle özetleyebiliriz (örnek değerlerdir): Akdeniz bölgesinde 5 yıldızlı bir resort’ta eski site açılış süresi ~3,8 sn iken yeni Next.js sitede ~1,2 sn seviyesine indi; doğrudan rezervasyon dönüşüm oranı %25–%30 aralığında arttı. Bir şehir otelinde (business + leisure) mobil trafiğin payı %52’den, mobil UX & hız optimizasyonu sonrası %65 seviyelerine çıktı; “teklif formu + WhatsApp tıklaması” üzerinden gelen lead sayısı yaklaşık 2 katına yükseldi. Bu tür case’ler, performans + UX + SEO + PMS entegrasyonu birlikte çalıştığında kurumsal sitenin nasıl gerçek bir satış motoruna döndüğünü gösteriyor."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile Kurumsal Web Sitesi Geliştirme?",
+
+    "card1title": "Ajans Değil, Tam Entegre Teknoloji & Performans Partneri",
+    "card1description": "DGTLFACE, sadece “web tasarımcı” değil; aynı anda: SEO ekibi (/tr/seo-hizmetleri), SEM ekibi (/tr/sem), SMM ekibi (/tr/sosyal-medya-yonetimi), PMS & OTA ekibi (/tr/pms-ota-yonetimi), çağrı merkezi ekibi (/tr/cagri-merkezi-hizmetleri), raporlama ekibi (/tr/veri-analiz-ve-raporlama) ile çalışan bir yapı. Yani kurumsal web siteniz; sadece “güzel görünsün” diye değil, bütün dijital mimariyle uyumlu, performans üreten bir sistem olsun diye tasarlanıyor.",
+
+    "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Web Tasarım Uzmanlığı",
+    "card2description": "“Web tasarım Antalya, Antalya kurumsal web tasarım, web sitesi geliştirme Türkiye, Antalya yazılım firması” arayan otel ve markalar için; bölgeyi, sektörü ve kullanıcıyı bilen bir ekip çok değerli. DGTLFACE: Oteller, turizm projeleri, B2B ihracat siteleri, ajans & hizmet siteleri gibi alanlarda geniş tecrübeye sahip, bölgedeki turist/müşteri profili ve sezonsal akışı biliyor ve bu bilgiyi web tasarım ve içerik kurgusuna birebir yansıtıyor. Bu da sizi “template gibi duran” bir siteden kurtarıp, gerçekten sizi anlatan bir web deneyimine taşıyor.",
+
+    "card3title": "SEO, PMS, OTA ve Çağrı Merkezi ile Entegre Web Mimarisi",
+    "card3description": "Özellikle oteller ve rezervasyonlu çalışan işletmeler için web sitesi; SEO + SEM + PMS + OTA + Call Center ile entegre oldukça anlam kazanıyor. DGTLFACE: Teknik SEO ile (/tr/seo/teknik-seo) altyapıyı hazırlıyor, PMS & OTA entegrasyonlarıyla (/tr/pms-ota-yonetimi) oda/fiyat/rezervasyon akışını düzenliyor, çağrı merkezi (/tr/cagri-merkezi-hizmetleri) ile telefon/WhatsApp rezervasyonlarını web funnel’a bağlıyor, tüm bunları raporlama ile ölçülebilir hâle getiriyor. Yani kurumsal web siteniz, “dışarıdan bakınca hoş” değil, içeride gelir & operasyon üreten bir sistem oluyor."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman –",
+    "header2": "H5 Konuları",
+
+    "title1": "Kurumsal Web Sitesi ",
+    "span1": "Nasıl Yapılır?",
+    "text1": "Özet akış: Strateji & hedef belirleme (marka, hedef kitle, amaçlar), bilgi mimarisi & UX planı, tasarım (UI) süreci, geliştirme & entegrasyon (Next.js, CMS, PMS, CRM…), test (cihaz, tarayıcı, hız, SEO), yayın & izleme (raporlama, bakım, güncelleme). DGTLFACE bu yolun tamamını, dokümante edilmiş bir proje planıyla yürütür.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Kurumsal Web Sitesi ",
+    "span2": "Fiyatları Nasıl Belirlenmeli?",
+    "text2": "Fiyat tek satırlık “X TL” değil; şu değişkenleri içerir: Sayfa sayısı ve içerik kapsamı, tasarımın özgünlük seviyesi, kullanılacak teknoloji stack’i (Next.js vs klasik tema tabanlı yapılar), entegrasyonlar (PMS, CRM, rezervasyon, ödeme, API’ler), çok dilli yapı ihtiyacı, bakım & destek kapsamı. DGTLFACE, teklif verirken bu kalemleri şeffaf şekilde açar; böylece “niye bu kadar?” sorusunun cevabı net olur.",
+    "button2": "Keşfet",
+
+    "title3": "PMS Entegre Web Sitesi – ",
+    "span3": "Nelere Dikkat Etmeli?",
+    "text3": "PMS entegre web sitesi kurarken: Rezervasyon motoru ile site arasındaki tasarım & UX tutarlığı, domain & subdomain kararları (SEO etkisi), cross-domain analytics & dönüşüm takibi, oda & fiyat bilgilerinin doğru ve güncel gelmesi, OTA’larla fiyat & stok dengesi dikkat edilmesi gereken başlıklar. DGTLFACE, PMS & OTA ekibiyle (/tr/pms-ota-yonetimi) birlikte çalışarak bu süreci doğru kurgular.",
+    "button3": "İncele",
+
+    "title4": "Çok Dilli Kurumsal ",
+    "span4": "Web Sitesi İçin İpuçları",
+    "text4": "Çok dilli kurumsal site için: URL yapısı (domain.com/tr, /en, /de… vs.), hreflang etiketlerinin doğru kullanımı, lokalize edilmiş içerik (çeviri değil, hedef kitle diline göre yeniden yazım), dil seçici (language switcher) UX’i, farklı pazarlar için farklı CTA ve mesajlar önemlidir. DGTLFACE, çok dilli web sitesi projelerinde teknik + içerik + UX tarafını aynı çerçevede ele alır.",
+    "button4": "Raporu Gör"
+  },
+
+  "faq": {
+    "header": "SSS – Kurumsal Web Sitesi Geliştirme Hakkında Sık Sorulan Sorular",
+
+    "question1": "Mevcut sitemi sıfırdan yenilemek zorunda mıyım, yoksa revizyon yeterli olur mu?",
+    "answer1": "Her zaman sıfırdan yapmak gerekmez. DGTLFACE önce teknik, tasarım ve UX analizi yapar: Altyapı çok eskiyse, hız/SEO tarafında çok zayıfsa → yenilemek mantıklı. Altyapı fena değil ama tasarım/UX geri kalmışsa → revizyon + optimizasyon yapılabilir. Kararı, hem teknik gerçekler hem de bütçe & zaman planınızla birlikte veririz.",
+
+    "question2": "Next.js kullanmak zorunda mıyım?",
+    "answer2": "Hayır, zorunda değilsiniz. Ancak hız, SEO ve geliştirilebilirlik açısından Next.js/React çoğu projede büyük avantaj sağlar. Kurumsal ve turizm projelerinde genellikle bu stack’i öneriyoruz. Yine de mevcut sisteminize veya tercihinize göre farklı çözümler de üretebiliriz; önemli olan iş hedeflerinize en uygun mimari.",
+
+    "question3": "Site yayına girdikten sonra kim bakacak, güncellemeleri kim yapacak?",
+    "answer3": "İki model var: Tamamen bize emanet → Bakım & destek paketi ile (/tr/yazilim/bakim-ve-destek) güncelleme, düzeltme, ufak geliştirmeleri biz yapıyoruz. İçerik tarafını sizin yönetmeniz → Kullanıcı dostu bir CMS kurulumu ile (/tr/yazilim/cms-entegrasyonu) ekibiniz; blog, sayfa içerikleri, görselleri kendisi güncelleyebiliyor. Teknik tarafta kritik işler için yine biz devrede oluruz.",
+
+    "question4": "SEO uyumlu web sitesi için ayrıca SEO hizmeti almam gerekir mi?",
+    "answer4": "Teknik olarak SEO uyumlu bir site geliştiriyoruz (başlık yapısı, hız, URL, schema vb.). Ancak rekabetli sektörlerde: içerik SEO (/tr/seo/icerik-seo), teknik SEO’nun sürekli bakımı (/tr/seo/teknik-seo), backlink & otorite (/tr/seo/backlink-yonetimi) gibi katmanlar da devreye alınmalı. Yani siteyi doğru yapmak başlangıç; sürekli SEO çalışması ise büyümeyi sağlar.",
+
+    "question5": "DGTLFACE ile web sitesi geliştirme projesine nasıl başlıyoruz?",
+    "answer5": "Akışımız şöyle: Kısa bir ihtiyaç & hedef analizi toplantısı, mevcut site (varsa) analizi + rakip incelemesi, bilgi mimarisi ve tasarım & geliştirme kapsamının netleştirilmesi, zaman çizelgesi + bütçe teklifinin paylaşılması, onay sonrası tasarım → geliştirme → test → yayın → bakım akışına geçiş. Her aşama dokümante edilir ve şeffaf şekilde birlikte ilerletilir."
+  }
+},
+
+"CMS": {
+  "cta_talk_to_us": "CMS ve Panelinizi Birlikte Tasarlayalım",
+
+  "cms_subbanner_header": "CMS ve Yönetim Paneli Entegrasyonu –",
+  "cms_subbanner_header2": " Esnek ve Kolay Yönetilebilir Kurumsal Web Siteleri",
+  "cms_subbanner_text": "DGTLFACE, kurumsal web sitesi geliştirme süreçlerinde içerik yönetimini kolaylaştıran, hızlı, çok dilli ve SEO uyumlu CMS entegrasyon çözümleri sunar. İster Next.js tabanlı özel bir panel, ister headless CMS veya klasik yönetim paneli tercih edin; tüm sisteminiz, içerik ekibinin hızlı, hatasız ve düzenli çalışabileceği şekilde tasarlanır. “İçerik yönetim sistemi, admin panel geliştirme, headless CMS, React CMS” gibi ihtiyaçların tamamını, ölçeklenebilir bir mimari ile sunuyoruz. CMS entegrasyonu, web sitenizi sadece güncellenebilir hâle getirmekle kalmaz; performansı, SEO’yu, çok dilli yönetimi ve içerik süreçlerinizi de bir üst seviyeye taşır.",
+
+  "cms_ai_answer_title": "AI Answer Block – CMS Entegrasyonu",
+  "cms_ai_answer_text": "DGTLFACE, CMS entegrasyonu ile kurumsal web sitelerini kolay yönetilebilir, çok dilli ve SEO uyumlu hâle getirir. Next.js uyumlu headless CMS, klasik CMS veya tamamen özel geliştirilmiş yönetim panelleri ile içerik, blog, oda, kampanya, menü gibi tüm modülleri tek yerden kontrol etmenizi sağlar. Rol bazlı yetkilendirme, güvenlik, SEO alanları ve entegrasyonlar (PMS, CRM, rezervasyon) aynı mimari içinde kurgulanır.",
+
+  "cms_subbanner_header3": "CMS Nedir? Modern Web Sitelerinde Neden Kritik?",
+  "cms_subbanner_text2": "Günümüzde bir web sitesinin başarıyla yönetilebilmesi için hızlı içerik düzenleme, çoklu dil desteği, modüler yapı ve güvenli veri akışı zorunlu hâle geldi. CMS (Content Management System), tüm bu ihtiyaçları teknik bilgi gerekmeden yönetmenizi sağlar. Modern bir CMS sistemi; sayfa içeriklerini hızlıca düzenlemeyi, çok dilli yapı yönetimini kolaylaştırmayı, blog, ürün, hizmet, kampanya gibi farklı içerik türlerini ayrı modüllerle yönetmeyi, görsel, metin ve bağlantıları kolayca kontrol etmeyi, SEO alanlarını (title, description, schema vb.) panel üzerinden yönetmeyi sağlar. DGTLFACE, “CMS entegrasyonu, içerik paneli geliştirme, headless CMS, çok dilli CMS” gibi ihtiyaçlara yönelik teknik ve operasyonel uyumlu çözümler üretir. Kurumsal site, /tr/yazilim/web-sitesi-gelistirme tarafında doğru kurulurken; bu sayfa da “o sitenin nasıl yönetileceği” katmanını temsil eder.",
+
+  "h2Section": {
+    "header1": "Headless CMS, Klasik CMS ve Özel Yönetim Paneli: Hangisi Sizin İçin Doğru?",
+    "text1": "Her markanın ihtiyacı farklıdır. DGTLFACE, proje analizi yaparak en doğru CMS teknolojisini belirler ve hem teknik ekip hem içerik ekibi için sürdürülebilir bir yapı kurar.",
+
+    "header2": "Çok Dilli CMS Yapısı ve Hreflang Entegrasyonu",
+    "text2": "Çok dilli bir web sitesi yönetiyorsanız, içerik panelinizin sorunsuz şekilde dil bazlı içerik üretmeyi desteklemesi şarttır. DGTLFACE çok dilli CMS entegrasyonunda: Her dil için ayrı URL ve içerik alanları oluşturur, hreflang etiketlerini SEO standartlarına göre otomatik bağlar, diller arasında veri senkronizasyonu sağlar, dil geçişlerini kullanıcı dostu şekilde tasarlar, CMS panelini dil genişlemesine uygun şekilde geliştirir. Böylece içerik ekibiniz TR–EN–DE–RU gibi farklı dillerde içerikleri kolayca yönetebilir, kurumsal web sitesi ile otel veya B2B içeriklerinizi tek panelden kontrol edebilirsiniz.",
+
+    "header3": "DGTLFACE CMS Entegrasyonu Hizmet Detayları",
+    "text3": "DGTLFACE, CMS entegrasyonunda yalnızca bir panel kurmakla kalmaz; içerik modülleri, güvenlik, SEO alanları ve entegrasyonları birlikte kurgular. Böylece CMS, hem pazarlama ekibi hem de teknik ekip için işlevsel bir yönetim aracı hâline gelir.",
+
+    "header4": "Neden DGTLFACE ile CMS Entegrasyonu?",
+    "text4": "DGTLFACE, CMS’i web geliştirme, SEO, SEM, SMM, PMS–OTA ve veri analizi katmanlarıyla birlikte ele alır. Böylece CMS, yalnızca içerik girilen bir ekran değil, tüm dijital mimarinin kontrol ve yönetim katmanı hâline gelir.",
+
+    "header5": "Mikro Katman – H5 Konuları",
+    "text5": "CMS yapısında detaylar çok şeyi değiştirir. Panel tasarımı, headless seçim kriterleri, CMS değişiminin SEO’ya etkisi gibi mikro konular; uzun vadeli performans ve operasyonel verimlilik üzerinde doğrudan belirleyicidir."
+  },
+
+  "h3Section": {
+    "header": "CMS Türleri ve Yapı Seçimi",
+
+    "header1": "Headless CMS",
+    "text1": "Özellikle yüksek trafik, çok dilli yapı veya özel entegrasyon isteyen markalar için idealdir. Avantajları: Aşırı hızlı açılış süreleri, çok dilli yapı için güçlü altyapı, mobil uygulama + web + kiosk gibi çoklu platformlara içerik sağlama, geliştirilebilir modüler mimari, Next.js ile mükemmel uyumluluk (headless CMS + Next.js kombinasyonu). Kimler için? Global pazara oynayan markalar, turizm ve otel projeleri, ihracat siteleri, büyük ölçekli içerik kurguları.",
+
+    "header2": "Klasik CMS",
+    "text2": "Kurumsal siteler, blog yapıları ve daha basit içerik yönetimi için uygundur. Avantajları: Kolay kullanım, daha düşük başlangıç maliyeti, hızlı yayın süreçleri, eğitim ihtiyacının minimum olması. Kimler için? Yerel işletmeler, basit kurumsal web siteleri, sık içerik üretmek isteyen ama çok karmaşık entegrasyonlara ihtiyaç duymayan ekipler.",
+
+    "header3": "Özel Yönetim Paneli (Custom CMS)",
+    "text3": "Geniş modüllere sahip oteller, zincir işletmeler, B2B markalar için tamamen ihtiyaçlara göre geliştirilir. Avantajları: %100 markaya özel yapı, PMS, CRM, rezervasyon, kampanya modülleri entegrasyonu, güvenli ve esnek mimari, karmaşık içerik süreçleri olan firmalar için ideal. DGTLFACE, projenin büyüklüğüne ve uzun vadeli hedeflerine göre en etkili CMS mimarisini belirleyerek geliştirmeye başlar; gerektiğinde CMS’yi, /tr/yazilim/kvkk-uyum-hizmeti ve /tr/yazilim/sunucu-guvenlik ile güvenlik ve KVKK tarafında da destekler.",
+
+    "header4": "İçerik Modülleri Tasarımı",
+    "text4": "Her sektörün içerik ihtiyacı farklıdır. DGTLFACE panelde: Blog modülü, sayfa modülü, banner yönetimi, kampanya içerikleri, oteller için oda, imkânlar, kampanya modülleri, menüler ve navigasyon yönetimi gibi özel modüller tasarlar. Böylece CMS, sadece “tek bir içerik alanı” olan bir panel değil, işinizin tüm ihtiyaçlarını karşılayan gerçek bir içerik yönetim sistemi hâline gelir.",
+
+    "header5": "Kullanıcı Yetkilendirme ve Güvenlik",
+    "text5": "CMS yapısı güvenlik açısından hassastır. DGTLFACE: Rol bazlı yetkilendirme, kullanıcı aktivitelerini loglama ve izleme, SSL, firewall ve güvenlik testleri, veri yedekleme ve geri yükleme sistemleri gibi çözümler sunar. Özellikle oteller ve turizm işletmeleri için; PMS ve rezervasyon sistemi verileri ile çalışan panellerin, /tr/yazilim/sunucu-guvenlik ve /tr/raporlama/kvkk-veri-guvenligi standartlarına uygun olması kritik önem taşır.",
+
+    "header6": "SEO Alanlarının CMS Paneline Entegre Edilmesi",
+    "text6": "SEO yönetimi teknik bir konu gibi görünür; fakat doğru CMS ile içerik ekibine kolayca devredilebilir. DGTLFACE CMS paneline şunları entegre eder: Title, meta description alanları, H1–H2–H3 yönetimi, schema / structured data alanları, URL yapısı yönetimi, görsel ALT text yönetimi. Bu sayede içerikler SEO uyumlu olarak ekibiniz tarafından hızlıca güncellenir; teknik ekip büyük revizyonlara yoğunlaşırken, pazarlama ekibi günlük optimizasyonu panel üzerinden yapabilir.",
+
+    "header7": "Mini Case Snippet – CMS ile İçerik Yönetimi Nasıl Hızlanır?",
+    "text7": "Gerçek projelerde gördüğümüz tipik bir tablo: Kurumsal B2B sitede eski yapıda tek sayfa içeriği güncelleme süresi ~20–30 dk iken, yeni Next.js + headless CMS paneli ile 5 dakikanın altına indi; içerik güncelleme sayısı ayda 3–4’ten ayda 20+ içeriğe çıktı. Çok dilli otel web sitesinde sezonluk kampanya güncellemesi eskiden sadece TR’de yapılabilirken, yeni CMS ile TR–EN–DE–RU dillerinde aynı gün içinde yayına alınabildi. Bu tip mini case’ler, CMS entegrasyonunun yalnızca teknik bir özellik değil, doğrudan iş hızınızı artıran bir kaldıraç olduğunu gösteriyor."
+  },
+
+  "h4Section": {
+    "header": "Neden DGTLFACE ile CMS Entegrasyonu?",
+
+    "card1title": "Sadece CMS Değil, Uçtan Uca Dijital Altyapı",
+    "card1description": "DGTLFACE, CMS’i tek başına kurmaz; web geliştirme (/tr/yazilim/web-sitesi-gelistirme), SEO (/tr/seo ve /tr/seo/teknik-seo), SEM (/tr/sem), SMM (/tr/sosyal-medya-yonetimi), PMS–OTA entegrasyonu (/tr/pms-ota-yonetimi), veri analizi & raporlama (/tr/veri-analiz-ve-raporlama) gibi tüm dijital katmanlarla uyumlu hâle getirir. Böylece CMS, sadece “panel” değil, tüm dijital mimarinin kontrol odası hâline gelir.",
+
+    "card2title": "Antalya Merkezli Teknoloji & Turizm Odaklı CMS Uzmanlığı",
+    "card2description": "Özellikle oteller, turizm markaları ve global pazara açılan B2B firmalar için çok dilli ve yüksek performanslı CMS altyapıları geliştiririz. Antalya merkezli bir ekip olarak; bölgenin turizm dinamiklerini, misafir profillerini, sezonluk kampanya ihtiyaçlarını biliyor ve CMS kurgusunu buna göre şekillendiriyoruz.",
+
+    "card3title": "API, PMS, CRM, Rezervasyon ve Dış Servis Entegrasyonları",
+    "card3description": "CMS tek başına bir panel değildir; iş modelinizle konuşan bir altyapıdır. DGTLFACE, CMS’e şu entegrasyonları bağlayabilir: PMS (Elektraweb vb.), CRM sistemleri, rezervasyon motorları, form & otomasyon sistemleri, Google Sheets / iç raporlama API’leri ve gerektiğinde çağrı merkezi & mesaj yönetimi altyapıları. Bu sayede, içerik paneliniz yalnızca metin/görsel girilen bir yer değil, işinizin kalbini yönettiğiniz bir platforma dönüşür."
+  },
+
+  "verticalSlider": {
+    "header": "Mikro Katman –",
+    "header2": "H5 Konuları",
+
+    "title1": "CMS Paneli ",
+    "span1": "Nasıl Tasarlanmalı?",
+    "text1": "Sağlam bir CMS paneli; temiz ve sade arayüze, minimum tıklama ile içerik oluşturma akışına, dil bazlı içerik alanlarına, sürükle-bırak bileşenlere, SEO alanlarını görünür ve erişilebilir kılan bir tasarıma sahip olmalıdır. DGTLFACE, panel tasarımı yaparken tasarımcı gibi değil, içerik ekibiyle birlikte düşünen bir ürün ekibi gibi davranır.",
+    "button1": "Detaylı Bilgi",
+
+    "title2": "Headless CMS ",
+    "span2": "Hangi Projeler İçin Uygun?",
+    "text2": "Özetle: Çok dilli siteler, yüksek trafik alan projeler, mobil uygulama + web birlikte çalışan markalar, özel veri akışlarına sahip işletmeler, sık entegrasyon ihtiyacı olan (PMS, CRM, kampanya sistemleri vb.) yapılar için headless CMS idealdir. Bu projelerde headless CMS, hem teknik ekibe hem pazarlama ekibine çok büyük esneklik sağlar.",
+    "button2": "Keşfet",
+
+    "title3": "CMS Değiştirmek ",
+    "span3": "SEO’yu Etkiler mi?",
+    "text3": "Evet, yanlış yapılırsa etkiler. DGTLFACE bunun için: URL eşleştirmesi, redirect planı (301), meta aktarımı, schema koruma, GA4 & Tag Manager yeniden kurulum sürecini profesyonel şekilde yönetir. Böylece CMS değişikliği sonrası trafik kaybı minimum, uzun vadeli büyüme potansiyeli maksimum olur.",
+    "button3": "İncele"
+  },
+
+  "faq": {
+    "header": "SSS – CMS Entegrasyonu Hakkında Sık Sorulan Sorular",
+
+    "question1": "Mevcut web siteme CMS sonradan eklenebilir mi?",
+    "answer1": "Evet. Altyapı uygunsa mevcut siteye CMS entegre edilebilir; uygun değilse headless CMS + Next.js ile sıfırdan modüler bir yapı kurulabilir. DGTLFACE, önce teknik analiz yapar, ardından en az riskli ve en çok fayda sağlayan yolu önerir.",
+
+    "question2": "CMS kullanmak için teknik bilgi gerekir mi?",
+    "answer2": "Genel olarak hayır. DGTLFACE’in kurduğu panel, herkesin rahatça kullanabileceği şekilde tasarlanır ve kısa bir eğitim yeterlidir. Rol bazlı yetkilendirme ve sade arayüz sayesinde; içerik, pazarlama ve operasyon ekipleri paneli zorlanmadan kullanabilir.",
+
+    "question3": "CMS ile SEO yönetilebilir mi?",
+    "answer3": "Evet. Title, meta description, URL, başlık yapısı, görsel ALT text ve gerekirse schema alanları panel üzerinden yönetilebilir hâle getirilir. Böylece SEO’nun günlük operasyon kısmı, teknik ekibe bağımlı olmadan içerik ekibi tarafından yürütülebilir.",
+
+    "question4": "Çok dilli CMS sistemi kurmak zor mu?",
+    "answer4": "Karmaşık görünebilir ama DGTLFACE bu yapıyı otomatikleştirilmiş, dil bazlı modüllerle kurulabilir hâle getirir. Doğru kurulan bir CMS sayesinde, TR–EN–DE–RU gibi dillerde içerik eklemek yalnızca birkaç ekstra alan doldurmaktan ibaret olur.",
+
+    "question5": "Özel yönetim paneli yaptırmak maliyetli midir?",
+    "answer5": "Proje kapsamına göre değişir; sayfa yapısı, modül sayısı ve entegrasyon ihtiyacı maliyeti belirler. DGTLFACE, teklif oluştururken tüm bu kalemleri şeffaf şekilde listeler; böylece neye yatırım yaptığınızı net olarak görürsünüz. Özellikle otel, zincir işletme ve kompleks B2B yapılarında, özel panel yatırımı orta–uzun vadede operasyon maliyetini ciddi şekilde düşürür."
+  }
+},
+
 
   "SocialMediaManagement": {
     "cta_talk_to_us": "Markanızı Uzmanlıkla Yönetelim",

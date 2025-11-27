@@ -1,5 +1,3 @@
-import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -9,6 +7,11 @@ import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
 import { useTranslations } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -174,29 +177,111 @@ const homeJsonLd = {
 }
 
 const page = () => {
-  const t = useTranslations("GoogleWebtools");
+  const t = useTranslations("RemarketingDisplay");
+     const t2 = useTranslations("RemarketingDisplay.h4Section");
 
-  const stepData = [1,2,3,4].map(i => ({
+  const stepData = [1,2,3].map(i => ({
   id: i,
-  image: [image1,image2,image3,image4][i-1],
-  header: t(`googlewebtools_step${i}_header`),
-  text:   t(`googlewebtools_step${i}_text`)
+  image: [image1,image2,image3][i-1],
+     header: t(`h3Section.header${i}`),
+     text:   t(`h3Section.text${i}`)
 }));
+
+const cards = [
+    {
+      widthClass: "w-[95%] lg:w-[80%]",
+      title: t2("card1title"),
+      description: t2("card1description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[75%]",
+      title: t2("card2title"),
+      description: t2("card2description"),
+    },
+    {
+      widthClass: "w-[95%] lg:w-[70%]",
+      title: t2("card3title"),
+      description: t2("card3description"),
+    },
+
+  ];
+
+    const faqs = [
+    {
+      question: t("faq.question1"),
+      answer:
+       t("faq.answer1"),
+    },
+    {
+      question: t("faq.question2"),
+      answer:
+       t("faq.answer2"),
+    },
+    {
+       question: t("faq.question3"),
+      answer:
+       t("faq.answer3"),
+    },
+
+    {
+    question: t("faq.question4"),
+      answer:
+       t("faq.answer4"),
+    },
+
+    {
+    question: t("faq.question5"),
+      answer:
+       t("faq.answer5"),
+    },
+  ];
+
+      const h2items = [
+    { title: t("h2Section.header1"), text: t("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t("h2Section.text4") },
+    // ileride header5/text5, header6/text6 eklersen
+    // sadece bu listeye item eklemen yeterli
+  ];
   
   return (
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+<>
+ <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
     <SubBanner
-  header={t("googlewebtools_subbanner_header")}
-  header2={t("googlewebtools_subbanner_header2")}
-  text={t("googlewebtools_subbanner_text")}
+  header={t("remarketing_subbanner_header")}
+  header2={t("remarketing_subbanner_header2")}
+  text={t("remarketing_subbanner_text")}
+  header3={t("remarketing_subbanner_header3")}
+  text2={t("remarketing_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
 <AiAnswerBlock text="DGTLFACE, remarketing ve display reklam yönetimiyle sitenizle daha önce etkileşime geçmiş kullanıcıları segmentlere ayırarak yeniden hedefler. Google Display Network, YouTube, Meta ve OTA trafiğini; sepeti terk eden, oda bakan veya teklif alıp vazgeçen kitleler için ayrı mesajlarla geri kazanır. Bu yapı, özellikle oteller ve turizm markaları için dönüşüm oranını ve ROAS’ı anlamlı şekilde yükselten güçlü bir yeniden hedefleme katmanı sunar."/>
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+ <H2LogoSection items={h2items} />
+  <StepSection2New data={stepData} header={t("h3Section.header")}/>
+    <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="RemarketingDisplay" itemCount={4}/>
     </div>
+     
+   
+     <QuestionsSection2 variant="light" faqs={faqs} />
+      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin remarketing ve display reklam yönetimi hizmet dokümantasyonundan ve performans pazarlama süreçlerinden derlenmiştir."/>
+    </div>
+</>
   )
 }
 

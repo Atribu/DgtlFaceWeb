@@ -236,8 +236,15 @@ const page = () => {
       answer:
        t("faq.answer5"),
     },
+  ];
 
-
+    const h2items = [
+    { title: t("h2Section.header1"), text: t("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t("h2Section.text4") },
+    // ileride header5/text5, header6/text6 eklersen
+    // sadece bu listeye item eklemen yeterli
   ];
    
   return (
@@ -260,14 +267,9 @@ const page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AiAnswerBlock text="DGTLFACE, Google Ads kampanyalarını sadece tıklama odağında değil; satış, rezervasyon ve gerçek dönüşüm odağında yönetir. Anahtar kelime stratejisi, negatif kelimeler, bütçe ve teklif (bid) optimizasyonu, reklam metni testleri ve kalite puanı iyileştirmesini bir arada ele alır. Özellikle otel ve turizm işletmeleri için oda doluluğu, rezervasyon ve gelir artışını hedefleyen arama ağı, marka ve remarketing kampanyaları kurgulanır ve Looker Studio panelleriyle şeffaf şekilde raporlanır."/>
- <StepSection2New data={stepData} header={t("h3.Section.header")}/>
-      <div>
-      <H2LogoSection  title1={t("googleadsadvertising_step5_header")}
-       text1={t("googleadsadvertising_step5_text")}
-        title2={t("googleadsadvertising_step6_header")}
-         text2={t("googleadsadvertising_step6_text")}/>
-      </div>
+      <H2LogoSection items={h2items} />
 
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
     <div>
          <LogoListSectionBlack
       introTitle={t2("header")}

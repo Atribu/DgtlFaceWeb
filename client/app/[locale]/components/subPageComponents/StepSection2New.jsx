@@ -3,6 +3,14 @@ import React from 'react'
 import LongLineSvg from './LongLineSvg'
 
 const StepSection2 = ({ data, header, text}) => {
+    const lineHeightMap = {
+    3: 2300,
+    4: 3200,
+    5: 3800,
+  };
+
+  const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3800
+  
   return (
     <div className="flex flex-col w-screen h-auto items-center justify-center bg-[#080612] mt-4 lg:mt-0">
         <div className='flex flex-col w-[90%] lg:w-[85%] gap-1 lg:gap-2 text-white items-center justify-center text-center mb-7 lg:mb-10'>
@@ -11,7 +19,11 @@ const StepSection2 = ({ data, header, text}) => {
         </div>
       <div className="flex flex-col w-[90%] items-end lg:items-center justify-center lg:justify-center gap-[50px] lg:gap-[122px] relative">
         
-        <LongLineSvg className="absolute top-0 left-0 lg:left-1/2 -translate-x-1/2 z-[10]" height={150}/>
+        <LongLineSvg
+          className="absolute top-0 left-0 lg:left-1/2 -translate-x-1/2 z-[10]"
+          height={lineHeight}
+          width={4}
+        />
 
         {data.map((item, index) => {
           // Adım numarasını 2 basamaklı hale getirelim:

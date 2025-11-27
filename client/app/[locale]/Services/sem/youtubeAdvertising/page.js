@@ -216,19 +216,13 @@ const page = () => {
    const t = useTranslations("YoutubeAdvertising");
    const t2 = useTranslations("YoutubeAdvertising.h4Section");
 
-  const stepData = [1,2].map(i => ({
+  const stepData = [1,2,3,4].map(i => ({
       id: i,
-      image: [image1,image2][i-1],
-      header: t(`youtubeadvertising_step${i}_header`),
-      text:   t(`youtubeadvertising_step${i}_text`)
+      image: [image1,image2,image3,image4][i-1],
+     header: t(`h3Section.header${i}`),
+     text:   t(`h3Section.text${i}`)
     }));
  
-       const stepData2 = [1,2].map(i => ({
-      id: i,
-      image: [image3,image4][i-1],
-      header: t(`youtubeadvertising_step2_${i}header`),
-      text:   t(`youtubeadvertising_step2_${i}text`)
-    }));
 
     const cards = [
     {
@@ -281,6 +275,13 @@ const page = () => {
 
   ];
    
+    const h2items = [
+    { title: t("h2Section.header1"), text: t("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t("h2Section.text4") },
+
+  ];
    
   return (
   <>
@@ -301,15 +302,8 @@ const page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AiAnswerBlock text="DGTLFACE, YouTube reklamlarını marka bilinirliği, rezervasyon ve satış artırma odaklı olarak yönetir. Doğru hedefleme, video format seçimi (bumper, in-stream, discovery), kreatif optimizasyon ve izleme sürelerine göre ölçümleme süreçleri profesyonelce uygulanır. Özellikle oteller ve turizm işletmeleri için video içerikler yüksek etkileşim ve görünürlük sağlar. Kampanyalar Looker Studio panelleriyle düzenli olarak raporlanır ve ROI odaklı şekilde optimize edilir."/>
-      <StepSection2New data={stepData} header={t("youtubeadvertising_stepheader")} text={t("youtubeadvertising_steptext")} />
-      <div>
-        <StepSection2 data={stepData2}  />
-
-      <H2LogoSection  title1={t("youtubeadvertising_step5_header")}
-       text1={t("youtubeadvertising_step5_text")}
-        title2={t("youtubeadvertising_step6_header")}
-         text2={t("youtubeadvertising_step6_text")}/>
-      </div>
+         <H2LogoSection items={h2items} />
+     <StepSection2New data={stepData} header={t("h3Section.header")}/>
        <LogoListSectionBlack
       introTitle={t2("header")}
       introSubtitlePrefix="DGTLFACE"

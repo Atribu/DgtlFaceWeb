@@ -5,6 +5,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
+import image4 from "./images/image4.png"
 import { useTranslations } from "next-intl";
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -20,7 +21,7 @@ const homeJsonLd = {
       "@id": "https://dgtlface.com/#organization",
       "name": "DGTLFACE",
       "url": "https://dgtlface.com",
-      "description": "DGTLFACE, SEO performansını Google Search Console, GA4, keyword tracking araçları ve Looker Studio dashboard’ları ile analiz eden veri odaklı bir SEO ve teknoloji partneridir.",
+      "description": "DGTLFACE, arama niyetine uygun içerik stratejileri, blog optimizasyonu ve topic cluster yapılarıyla oteller ve markalar için içerik SEO hizmeti sunan dijital pazarlama ve teknoloji partneridir.",
       "logo": "https://dgtlface.com/logo.png",
       "address": {
         "@type": "PostalAddress",
@@ -31,60 +32,60 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/seo/seo-raporlama/#webpage",
-      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
-      "name": "SEO Raporlama – Organik Performans Analizi & Looker Studio Dashboard | DGTLFACE",
-      "description": "DGTLFACE, SEO performansınızı Looker Studio ve gelişmiş analiz araçlarıyla raporlar. Organik görünürlüğünüzü veriye dayalı olarak artırın.",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#webpage",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "name": "İçerik SEO – Anahtar Kelime Odaklı İçerik ve Blog Optimizasyonu | DGTLFACE",
+      "description": "DGTLFACE, SEO uyumlu blog ve içerik stratejileriyle organik trafik artışı sağlar. Arama niyetine uygun içeriklerle Google sıralamalarınızı güçlendirin.",
       "inLanguage": "tr-TR",
       "isPartOf": {
         "@id": "https://dgtlface.com/#organization"
       },
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/seo/seo-raporlama/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/seo/icerik-seo/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/seo/seo-raporlama/#service",
-      "name": "SEO Raporlama & Performans Analizi",
-      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO – Anahtar Kelime Odaklı İçerik ve Blog Optimizasyonu",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
-      "serviceType": "seo raporlama, seo analiz hizmeti, organik trafik raporu, seo performans ölçümü, keyword tracking, seo dashboard, seo analiz raporu",
-      "description": "DGTLFACE, SEO raporlamasını sadece sıralama ve trafikle sınırlamaz; sayfa bazlı performans, arama niyeti, dönüşüm ve gelir katkısını birlikte analiz eder. Search Console, GA4, keyword tracking araçları ve Looker Studio entegrasyonlarıyla tüm organik verileri tek panelde toplar.",
+      "serviceType": "içerik seo, seo içerik yazarlığı, blog optimizasyonu, seo uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma",
+      "description": "DGTLFACE, anahtar kelime haritalandırma, search intent analizi, içerik kümeleri (topic clusters), blog optimizasyonu ve içerik güncelleme süreçlerini kapsayan içerik SEO hizmetleri sunar. Otel ve turizm markaları için destinasyon ve deneyim odaklı içeriklerle hem trafik hem rezervasyon funnel’ını güçlendirir.",
       "areaServed": ["Antalya","Türkiye","Europe"],
       "inLanguage": "tr-TR",
       "keywords": [
-        "seo raporlama",
-        "seo analiz hizmeti",
-        "organik trafik raporu",
-        "seo performans ölçümü",
-        "keyword tracking",
-        "seo dashboard",
-        "seo raporu nasıl hazırlanır",
-        "anahtar kelime sıralama takibi",
-        "organik trafik düşüşü neden olur",
-        "seo analiz raporu örneği",
-        "oteller için seo raporlama",
-        "turizm seo performansı",
-        "google search console raporu",
-        "seo performans iyileştirme teknikleri",
-        "seo ölçümleme araçları",
-        "seo analiz şablonu",
-        "otel seo raporlaması",
-        "turizm seo analizi",
-        "pms seo performansı",
-        "ota seo raporlama",
-        "seo raporlama antalya",
-        "antalya seo analizi",
-        "organik performans raporu türkiye",
-        "seo dashboard antalya"
+        "içerik seo",
+        "seo içerik yazarlığı",
+        "blog optimizasyonu",
+        "seo uyumlu makale",
+        "içerik stratejisi",
+        "anahtar kelime haritalandırma",
+        "seo uyumlu içerik nasıl yazılır",
+        "içerik pazarlama stratejileri",
+        "blog trafik artırma yöntemleri",
+        "içerik kümeleri nasıl oluşturulur",
+        "seo içerik güncelleme teknikleri",
+        "google search intent analizi",
+        "blog kategorileri nasıl planlanır",
+        "oteller için içerik stratejisi",
+        "turizm içerik pazarlaması",
+        "içerik yoğunluğu optimizasyonu",
+        "otel blog içerikleri",
+        "turizm içerik yazıları",
+        "resort seo içerik stratejisi",
+        "ota içerik pazarlama",
+        "içerik yazarı antalya",
+        "antalya seo içerik",
+        "içerik planlama türkiye",
+        "antalya blog optimizasyonu"
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/seo/seo-raporlama/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -101,53 +102,53 @@ const homeJsonLd = {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "SEO Raporlama & Performans Analizi",
-          "item": "https://dgtlface.com/tr/seo/seo-raporlama"
+          "name": "İçerik SEO",
+          "item": "https://dgtlface.com/tr/seo/icerik-seo"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/seo/seo-raporlama/#faq",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "SEO raporu nasıl hazırlanır?",
+          "name": "İçerik SEO nedir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SEO raporu; organik trafik, anahtar kelime sıralamaları, CTR, landing page performansı, dönüşüm ve gerekiyorsa gelir metriklerini içeren, yorum ve aksiyon önerileriyle desteklenen bir doküman olarak hazırlanmalıdır."
+            "text": "İçerik SEO, içeriklerin arama niyetine uygun şekilde planlanması, anahtar kelime haritalandırılması, doğru başlık ve URL yapısıyla yayınlanması ve performansa göre güncellenmesi sürecidir."
           }
         },
         {
           "@type": "Question",
-          "name": "Hangi SEO metriklerine bakmalıyım?",
+          "name": "SEO uyumlu içerik nasıl yazılır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Organik oturumlar, kullanıcı sayısı, anahtar kelime sıralamaları, CTR, en iyi landing page’ler, dönüşüm sayısı ve oranı, teknik sağlık ve gerekiyorsa gelir katkısı önemli SEO metrikleridir."
+            "text": "SEO uyumlu içerik; kullanıcı niyeti odaklı, doğru başlık hiyerarşisine sahip, semantik olarak zengin ve doğal akışta anahtar kelimeler içeren, sonunda net CTA barındıran içeriktir."
           }
         },
         {
           "@type": "Question",
-          "name": "Organik trafik düşüşünün nedeni nasıl bulunur?",
+          "name": "Topic cluster / içerik kümeleri nasıl oluşturulur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Algoritma değişiklikleri, teknik problemler, içerik kayıpları, rekabet artışı ve marka aramalarındaki değişimler analiz edilerek organik trafik düşüşünün nedeni tespit edilir."
+            "text": "Ana bir konu (pillar) seçilir, bu konuyu destekleyen alt başlıklar için ayrı içerikler üretilir ve bu içerikler güçlü iç linkleme yapısıyla birbirine bağlanır."
           }
         },
         {
           "@type": "Question",
-          "name": "Oteller için SEO raporlama nasıl olmalı?",
+          "name": "Oteller için içerik stratejisi nasıl olmalı?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Otel SEO raporlarında; destinasyon ve konsept kelime performansının yanı sıra organik rezervasyon, doluluk, RevPAR ve ülke/pazar bazlı trafik ve gelir katkısı da takip edilmelidir."
+            "text": "Oteller için içerik; destinasyon rehberleri, deneyim odaklı içerikler, oda tipleri, sık sorulan sorular ve sezonluk kampanya yazıları etrafında kurgulanmalı ve rezervasyona giden funnel ile bağlanmalıdır."
           }
         },
         {
           "@type": "Question",
-          "name": "SEO sonuçlarını satış ve rezervasyonla nasıl ilişkilendiririm?",
+          "name": "Eski içerikler nasıl güncellenmeli?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SEO verileri, dönüşüm ve satış raporlarıyla birleştirilerek; organik kanaldan gelen rezervasyon ve gelir katkısı Looker Studio ve satış/dönüşüm dashboard’larında gösterilir."
+            "text": "Eski içeriklerde güncel veriler eklenmeli, alakasız bölümler temizlenmeli, yeni alt başlıklar ve iç linkler ile içerik derinleştirilmeli ve performans takibi sonrası gerekli optimizasyonlar yapılmalıdır."
           }
         }
       ]
@@ -156,8 +157,8 @@ const homeJsonLd = {
 }
 
 const page = () => {
-   const t = useTranslations("SeoReporting");
-           const t2 = useTranslations("SeoReporting.h4Section");
+   const t = useTranslations("ContentSeo");
+           const t2 = useTranslations("ContentSeo.h4Section");
         
            const stepData = [1,2,3].map(i => ({
              id: i,
@@ -222,30 +223,30 @@ const page = () => {
             { title: t("h2Section.header2"), text: t("h2Section.text2") },
             { title: t("h2Section.header3"), text: t("h2Section.text3") },
             { title: t("h2Section.header4"), text: t("h2Section.text4") },
-           { title: t("h2Section.header5"), text: t("h2Section.text5") },
+        
           ];
 
 
   return (
-  <>
-   <script
+   <>
+    <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
-
+      
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
-    <SubBanner
-  header={t("seoreporting_subbanner_header")}
-  header2={t("seoreporting_subbanner_header2")}
-  text={t("seoreporting_subbanner_text")}
-    header3={t("seoreporting_subbanner_header3")}
-  text2={t("seoreporting_subbanner_text2")}
+     <SubBanner
+  header={t("contentsub_header")}
+  header2={t("contentsub_header2")}
+  text={t("contentsub_text")}
+  header3={t("contentsub_header3")}
+  text2={t("contentsub_text2")}
   buttonLink="/"
-  buttonText={t("cta_talk_to_us")}
+   buttonText={t("cta_talk_to_us")}
 />
-<AiAnswerBlock text={t("seoreporting_ai_answer_text")}/>
-<H2LogoSection items={h2items} />
+<AiAnswerBlock text={t("content_ai_answer_text")}/>
+   <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
     <div>
@@ -256,12 +257,12 @@ const page = () => {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="SeoReporting" itemCount={4}/>
+      <VerticalSlider page="ContentSeo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-<AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin SEO raporlama, Looker Studio dashboard ve organik performans analizi süreçlerini anlatan resmi dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+<AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin içerik SEO, blog stratejisi ve arama niyeti odaklı içerik üretim süreçlerine ait dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
     </div>
-  </>
+   </>
   )
 }
 

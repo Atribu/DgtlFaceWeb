@@ -1,5 +1,5 @@
 import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -7,6 +7,11 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import { useTranslations } from "next-intl";
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -152,14 +157,74 @@ const homeJsonLd = {
 }
 
 const page = () => {
-  const t = useTranslations("YandexAdvertising");
+  const t = useTranslations("PerformanceAnalysis");
+     const t2 = useTranslations("PerformanceAnalysis.h4Section");
+  
+     const stepData = [1,2,3,4].map(i => ({
+       id: i,
+       image: [image1,image2,image3,image3][i-1],
+       header: t(`h3Section.header${i}`),
+       text:   t(`h3Section.text${i}`)
+     }));
+  
+  
+  
+     const cards = [
+      {
+        widthClass: "w-[95%] lg:w-[80%]",
+        title: t2("card1title"),
+        description: t2("card1description"),
+      },
+      {
+        widthClass: "w-[95%] lg:w-[75%]",
+        title: t2("card2title"),
+        description: t2("card2description"),
+      },
+      {
+        widthClass: "w-[95%] lg:w-[70%]",
+        title: t2("card3title"),
+        description: t2("card3description"),
+      },
+  
+    ];
+  
+      const faqs = [
+      {
+        question: t("faq.question1"),
+        answer:
+         t("faq.answer1"),
+      },
+      {
+        question: t("faq.question2"),
+        answer:
+         t("faq.answer2"),
+      },
+      {
+         question: t("faq.question3"),
+        answer:
+         t("faq.answer3"),
+      },
+  
+      {
+      question: t("faq.question4"),
+        answer:
+         t("faq.answer4"),
+      },
+  
+      {
+      question: t("faq.question5"),
+        answer:
+         t("faq.answer5"),
+      },
+    ];
+  
+      const h2items = [
+      { title: t("h2Section.header1"), text: t("h2Section.text1") },
+      { title: t("h2Section.header2"), text: t("h2Section.text2") },
+      { title: t("h2Section.header3"), text: t("h2Section.text3") },
+      { title: t("h2Section.header4"), text: t("h2Section.text4") },
 
-  const stepData = [1,2,3].map(i => ({
-    id: i,
-    image: [image1,image2,image3][i-1],
-    header: t(`yandexadvertising_step${i}_header`),
-    text:   t(`yandexadvertising_step${i}_text`)
-  }));
+    ];
 
   return (
    <>
@@ -169,17 +234,33 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
       <SubBanner
-  header={t("yandexadvertising_subbanner_header")}
-  header2={t("yandexadvertising_subbanner_header2")}
-  text={t("yandexadvertising_subbanner_text")}
+  header={t("performanceanalysis_subbanner_header")}
+  header2={t("performanceanalysis_subbanner_header2")}
+  text={t("performanceanalysis_subbanner_text")}
+    header3={t("performanceanalysis_subbanner_header3")}
+  text2={t("performanceanalysis_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+<AiAnswerBlock text="DGTLFACE, Google Ads, YouTube, Meta Ads ve diğer dijital kampanyaların verilerini Looker Studio üzerinde tek bir panelde toplar. Tıklama, gösterim, dönüşüm, gelir, ROAS ve funnel metriklerini birlikte analiz ederek hangi kampanyaların gerçekten kazandırdığını ortaya koyar. Özellikle oteller ve turizm işletmeleri için doluluk, rezervasyon ve oda başı gelir (RevPAR) odaklı raporlama yapılır; böylece reklam bütçesi veriyle optimize edilir, sezonsal stratejiler güçlenir."/>
+<H2LogoSection items={h2items} />
+
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
+  <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="PerformanceAnalysis" itemCount={4}/>
+    </div>
+ 
+       <QuestionsSection2 variant="light" faqs={faqs} />
+      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi reklam raporlama ve performans analizi dokümantasyonundan, Looker Studio raporlama pratiklerinden ve SEM süreçlerinden derlenmiştir."/>
     </div>
    </>
   )
