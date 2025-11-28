@@ -9,6 +9,8 @@ import { useTranslations } from "next-intl";
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -160,7 +162,8 @@ const page = () => {
               id: i,
               image: [image1,image2,image3,image1,image2,image3,image1][i-1],
               header: t(`h3Section.header${i}`),
-              text:   t(`h3Section.text${i}`)
+              text:   t(`h3Section.text${i}`),
+              textHtml: t.raw(`h3Section.text${i}`) // istersen HTML’li içerik için
             }));
          
          
@@ -234,12 +237,14 @@ const page = () => {
      <SubBanner
   header={t("cms_subbanner_header")}
   header2={t("cms_subbanner_header2")}
-  text={t("cms_subbanner_text")}
+ text={t.raw("cms_subbanner_text")}  
     header3={t("cms_subbanner_header3")}
-  text2={t("cms_subbanner_text2")}
+ text2={t.raw("cms_subbanner_text2")}  
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
+
 />
+<AiAnswerBlock text={t("cms_ai_answer_text")}/>
    <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
@@ -251,9 +256,10 @@ const page = () => {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="CMS" itemCount={4}/>
+      <VerticalSlider page="CMS" itemCount={3}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in CMS entegrasyonu, headless CMS, turizm yönetim panelleri ve Next.js/React tabanlı içerik kontrol sistemleri dokümantasyonundan derlenmiştir."/>
     </div>
    </>
   )

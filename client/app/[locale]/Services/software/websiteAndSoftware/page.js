@@ -164,8 +164,8 @@ const homeJsonLd = {
 }
 
 const page = () => {
-   const t = useTranslations("WebsiteAndSoftware");
-    const t2 = useTranslations("WebsiteAndSoftware.h4Section");
+   const t = useTranslations("WebDev");
+    const t2 = useTranslations("WebDev.h4Section");
          
             const stepData = [1,2,3,4,5,6,7].map(i => ({
               id: i,
@@ -226,7 +226,7 @@ const page = () => {
            ];
          
              const h2items = [
-             { title: t("h2Section.header1"), text: t("h2Section.text1") },
+             { title: t("h2Section.header1"), textHtml: t.raw("item1_text"), },
              { title: t("h2Section.header2"), text: t("h2Section.text2") },
              { title: t("h2Section.header3"), text: t("h2Section.text3") },
              { title: t("h2Section.header4"), text: t("h2Section.text4") },
@@ -244,9 +244,9 @@ const page = () => {
      <SubBanner
   header={t("webdev_subbanner_header")}
   header2={t("webdev_subbanner_header2")}
-  text={t("webdev_subbanner_text")}
+ text={t.raw("webdev_subbanner_text")}  
     header3={t("webdev_subbanner_header3")}
-  text2={t("webdev_subbanner_text2")}
+  text2={t.raw("webdev_subbanner_text2")}  
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />

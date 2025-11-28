@@ -295,7 +295,7 @@ export const routing = defineRouting({
       tr: "/yazilim/cms-entegrasyonu",
       ru: "/uslugi/razrabotka-po/ustanovka-cms",
     },
-    "/Services/software/pdpaCompliance": { // https://www.dgtlface.com/tr/Services/software/pdpaCompliance
+    "/Services/software/kvkk": { // https://www.dgtlface.com/tr/Services/software/pdpaCompliance
       en: "/services/software/pdpa-compliance",
       tr: "/yazilim/kvkk-uyum-hizmeti",
       ru: "/uslugi/razrabotka-po/sootvetstvie-pdpa",
@@ -307,7 +307,7 @@ export const routing = defineRouting({
     },
     "/Services/software/websiteAndSoftware": { // https://www.dgtlface.com/tr/Services/software/websiteAndSoftware
       en: "/services/software/website-and-software",
-      tr: "/yazilim//web-sitesi-gelistirme",
+      tr: "/yazilim/web-sitesi-gelistirme",
       ru: "/uslugi/razrabotka-po/sayty-i-po",
     },
     "/Services/software/websiteMaintanceService": { // https://www.dgtlface.com/tr/Services/software/websiteMaintanceService
