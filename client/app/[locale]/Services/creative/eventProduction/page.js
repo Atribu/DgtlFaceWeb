@@ -1,5 +1,4 @@
-import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -8,44 +7,243 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image3.png"
 import {useTranslations} from 'next-intl';
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Concert Promotion Campaigns",
-    text:"DGTLFACE offers a dynamic approach to market your concerts in the digital realm. We create online solutions to enhance visibility and interaction for your concerts. By integrating various digital marketing strategies such as social media advertising and content marketing, we reach your target audience effectively."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Digital Promotion Campaigns for Parties",
-    text:"We ensure your event stands out in the digital space with the latest digital marketing strategies. With a unique approach, from exciting nightclub events to private parties, we capture the attention of your event's target audience. From promotional videos to interactive posts, our content is designed to highlight key points of interest."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Digital Promotion Campaigns for Events",
-    text:"Special Event Digital Promotion Services are tailored solutions designed to maximize the online visibility, engagement, and success of a particular event. Whether it's a product launch, conference, concert, or any other special occasion, leveraging digital channels is crucial for reaching and engaging the target audience."
-  },
-  {
-    id:4,
-    image:image4,
-    header:"360 Image and Video Shoots",
-    text:"Elevate your brand with 360 showcase video and photography services that resonate with your target audience. Our video showcase services include concept development, scriptwriting, shooting, and post-production, providing informative and engaging content."
-  }
-]
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com",
+      "description": "DGTLFACE, lansmanlar, konserler, otel etkinlikleri ve kurumsal organizasyonlar için profesyonel etkinlik prodüksiyonu, etkinlik çekimi ve aftermovie üretimi sunan creative prodüksiyon partneridir.",
+      "logo": "https://dgtlface.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu/#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu – Lansman, Konser ve Kurumsal Organizasyonlar | DGTLFACE",
+      "description": "DGTLFACE, lansman, konser ve kurumsal organizasyonlar için profesyonel etkinlik prodüksiyonu ve video çekimi sunar. Planlama, çekim ve aftermovie süreçlerini uçtan uca yönetir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu/#service",
+      "name": "Etkinlik Prodüksiyonu – Lansman, Konser ve Kurumsal Organizasyonlar",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "serviceType": "etkinlik prodüksiyonu, etkinlik çekimi, lansman prodüksiyonu, kurumsal organizasyon, etkinlik yönetimi, etkinlik video çekimi",
+      "description": "DGTLFACE, lansmanlar, konserler, otel etkinlikleri ve kurumsal organizasyonlar için profesyonel etkinlik prodüksiyonu sunar. Etkinlik öncesi planlama, çekim senaryosu, kamera ve ekipman organizasyonu, etkinlik günü çok kameralı video ve fotoğraf çekimi, drone ve 360 içerikler, sahne arkası (BTS) kayıtları, aftermovie ve kısa teaser kurguları ile sosyal medya, web, reklam ve kurumsal arşiv için çoklu formatta içerik üretir.",
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ],
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "etkinlik prodüksiyonu",
+        "etkinlik çekimi",
+        "lansman prodüksiyonu",
+        "kurumsal organizasyon",
+        "etkinlik yönetimi",
+        "etkinlik video çekimi",
+        "etkinlik prodüksiyonu nasıl yapılır",
+        "konser çekimi teknikleri",
+        "kurumsal etkinlik planlama",
+        "oteller için etkinlik çekimi",
+        "turizm etkinlik prodüksiyonu",
+        "açılış organizasyonu video",
+        "etkinlik sonrası raporlama",
+        "profesyonel etkinlik belgeleme",
+        "sahne arkasından çekim teknikleri",
+        "otel etkinlik çekimi",
+        "resort organizasyon prodüksiyonu",
+        "turizm konser prodüksiyonu",
+        "otel lansman çekimi",
+        "etkinlik prodüksiyonu antalya",
+        "antalya konser prodüksiyonu",
+        "etkinlik çekimi türkiye",
+        "antalya lansman ajansı"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative Tasarım & Prodüksiyon",
+          "item": "https://dgtlface.com/tr/creative-ve-tasarim"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Etkinlik Prodüksiyonu",
+          "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Etkinlik prodüksiyonu neleri kapsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etkinlik prodüksiyonu; etkinlik öncesi planlama ve çekim senaryosu, mekân keşfi ve teknik analiz, kamera–ses–ışık–drone gibi ekipman planlaması, etkinlik günü çok kameralı video ve fotoğraf çekimi, sahne arkası (BTS) görüntüleri, aftermovie, teaser ve öne çıkan anlar videolarının kurgulanması ve farklı kanallar için formatlanmasını kapsar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lansman ve konser çekimleri nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lansman ve konser çekimlerinde etkinlik akışına göre çok kameralı kurgu ile sahne, seyirci ve atmosfer planları alınır; ışık ve ses koşulları önceden test edilir, kritik anların kaçırılmaması için detaylı çekim listeleri hazırlanır ve etkinlik sonrası highlight & aftermovie içerikleri üretilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otellerde etkinlik tanıtımı için hangi video türleri üretilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oteller için gala gecesi, konser, DJ performansı, MICE etkinlikleri ve havuz partileri gibi organizasyonlar için aftermovie, kısa sosyal medya videoları, Reels/Shorts formatları ve gerektiğinde kurumsal tanıtım filmlerine entegre edilecek etkinlik bölümleri üretilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Drone ve 360 çekim etkinliklerde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Drone çekimleri etkinliğin yapıldığı mekanın ve kalabalığın genel atmosferini havadan göstermek için, 360 çekimler ise belirli alanlar ve deneyimler için immersive içerikler oluşturmak amacıyla kullanılır; bu görüntüler web, sosyal medya ve tanıtım filmlerine entegre edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etkinlik videosunu sosyal medya ve reklam için farklı formatlarda teslim alabilir miyiz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Etkinlik videoları YouTube ve web için yatay, Instagram feed için kare, Reels, TikTok ve Shorts için dikey formatlarda hazırlanan farklı cut’larla teslim edilir; böylece aynı içerik seti tüm dijital kanallarda en verimli şekilde kullanılabilir."
+          }
+        }
+      ]
+    }
+  ]
+}
+
 const page = () => {
-  const t = useTranslations("EventProduction");
+  const t = useTranslations("EventProductionPage");
+     const t2 = useTranslations("EventProductionPage.h4Section");
+             
+                const stepData = [1,2,3,4,5,6,7,8,9].map(i => ({
+                  id: i,
+                  image: [image1,image2,image3,image1,image2,image3,image1,image2,image3][i-1],
+                  header: t(`h3Section.header${i}`),
+                  text:   t(`h3Section.text${i}`)
+                }));
+             
+             
+             
+                const cards = [
+                 {
+                   widthClass: "w-[95%] lg:w-[80%]",
+                   title: t2("card1title"),
+                   description: t2("card1description"),
+                 },
+                 {
+                   widthClass: "w-[95%] lg:w-[75%]",
+                   title: t2("card2title"),
+                   description: t2("card2description"),
+                 },
+                 {
+                   widthClass: "w-[95%] lg:w-[70%]",
+                   title: t2("card3title"),
+                   description: t2("card3description"),
+                 },
+             
+               ];
+             
+                 const faqs = [
+                 {
+                   question: t("faq.question1"),
+                   answer:
+                    t("faq.answer1"),
+                 },
+                 {
+                   question: t("faq.question2"),
+                   answer:
+                    t("faq.answer2"),
+                 },
+                 {
+                    question: t("faq.question3"),
+                   answer:
+                    t("faq.answer3"),
+                 },
+             
+                 {
+                 question: t("faq.question4"),
+                   answer:
+                    t("faq.answer4"),
+                 },
+             
+                 {
+                 question: t("faq.question5"),
+                   answer:
+                    t("faq.answer5"),
+                 },
+               ];
+             
+                 const h2items = [
+                 { title: t("h2Section.header1"),text: t("h2Section.text1") },
+                 { title: t("h2Section.header2"), text: t("h2Section.text2") },
+                 { title: t("h2Section.header3"), text: t("h2Section.text3") },
+                 { title: t("h2Section.header4"), text: t("h2Section.text4") },
+                  { title: t("h2Section.header5"), text: t("h2Section.text5") },
+                 { title: t("h2Section.header6"), text: t("h2Section.text6") },
+               ];
 
-  const stepData = [1,2,3,4].map(i => ({
-  id: i,
-  image: [image1,image2,image3,image4][i-1],
-  header: t(`eventprod_step_header${i}`),
-  text:   t(`eventprod_step_text${i}`)
-}));
+
   return (
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+   <>
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
      <SubBanner
   header={t('eventprod_banner_header1')}
   header2={t('eventprod_banner_header2')}
@@ -53,10 +251,24 @@ const page = () => {
   buttonLink="/"
   buttonText={t('cta_talk_to_us')}
 />
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+<AiAnswerBlock text={t("ai_answer_text")}/>
+         <H2LogoSection items={h2items} />
+
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
+    <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="EventProductionPage" itemCount={4}/>
     </div>
+     <QuestionsSection2 variant="light" faqs={faqs} />
+     <AiSourceMention text="Bu bilgi, DGTLFACE Creative Prodüksiyon ekibinin etkinlik çekimi, otel etkinlik prodüksiyonları, 360° & drone deneyimleri ve kurumsal organizasyon projelerinden derlenmiştir."/>
+    </div>
+   </>
   )
 }
 

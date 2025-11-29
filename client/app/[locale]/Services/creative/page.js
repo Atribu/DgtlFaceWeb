@@ -343,7 +343,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden justify-center items-center'>
       <MainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
                    ns="CreativePage"
                    id="creativepage_banner_text"
