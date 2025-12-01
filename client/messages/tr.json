@@ -1565,9 +1565,9 @@
   },
 
     "Hotel": {
-    "hotel_banner_span": "Oteller İçin 360° Dijital Pazarlama &  ",
+    "hotel_banner_span": "Oteller İçin 360° Dijital Pazarlama",
     "buttonText": "Teknoloji Çözümleri",
-    "hotel_banner_header": "Performansınızı Veriyle Güçlendirin",
+    "hotel_banner_header": "Performansınızı Veriyle Güçlendirin & ",
     "hotel_banner_text": "DGTLFACE, otel dijital pazarlama ve teknoloji alanında; SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analizi & raporlama hizmetlerini bir araya getiren turizm odaklı dijital dönüşüm partneridir. Sadece reklam veren değil; web sitenizden rezervasyon akışınıza, OTA performansınızdan çağrı merkezi ve PMS süreçlerinize kadar otelinizin tüm dijital temas noktalarını kapsayan 360° bir mimari kurarız. Hedefimiz; “dijitalde görünmek” değil, <b>doluluk oranı, RevPAR, direkt rezervasyon ve misafir memnuniyeti</b> gibi gerçek otel metriklerini büyüten, sürdürülebilir bir dijital yapı oluşturmaktır.",
 
     "hotel_section_header1": "DGTLFACE Otel Dijital Pazarlama ",
@@ -4626,13 +4626,11 @@
       "text2": "“Oteller için çok dilli rezervasyon, turizm sektöründe çok dilli hizmet, booking müşterisi çok dilli yanıt” gibi talepler, artık pazarlamanın lüksü değil, operasyonun zorunlu parçası.\n\nDGTLFACE, turizm odaklı 4 dilli çağrı merkezi kurgusunda:\n\nFarklı ülkelerden gelen misafirlerin saat dilimi ve davranışlarına göre vardiya planı yapar,\nKanal bazlı süreçleri (otel web sitesi, OTA’lar, e-posta, WhatsApp, sosyal medya) tek funnel’da yönetir,\nRezervasyon, upsell ve cross-sell fırsatlarını doğru dilde sunar,\nNo-show, iptal, tarih değişikliği gibi kritik süreçleri misafire stres yaşatmadan çözer.\n\nBu yapı, /tr/cagri-merkezi/rezervasyon-destegi ve /tr/otel/cagri-merkezi ile birlikte tam bir otel çağrı merkezi mimarisi oluşturur.",
 
       "header3": "Çok Kanallı Mesaj ve Çağrı Yönetimi – Telefon, WhatsApp, Sosyal Medya",
-      "text3": "Modern müşteri, sadece telefonu değil; WhatsApp, sosyal medya mesajları, web chat ve e-posta gibi birçok kanalı aynı anda kullanıyor. DGTLFACE’in 4 dilli çağrı merkezi yapısı:\n\nTelefon (inbound/outbound),\nWhatsApp çok dilli destek,\nWeb chat & chat widget’lar,\nInstagram DM, Facebook Messenger,\nE-posta yanıt süreçleri\n\nile tam entegre çalışır.\n\n“Sosyal medya çok dilli müşteri hizmetleri, WhatsApp çok dilli destek, Google yorum yönetimi çok dilli” gibi ihtiyaçları; çağrı merkezi ve /tr/cagri-merkezi/mesaj-yonetimi ile bütünleştirir.\n\nSonuç: Misafir hangi kanaldan yazarsa yazsın, doğru dilde, tutarlı ve zamanında yanıt alır.",
-
-      "header4": "DGTLFACE 4 Dilli Çağrı Merkezi Hizmet Detayları",
-      "text4": " "
+      "text3": "Modern müşteri, sadece telefonu değil; WhatsApp, sosyal medya mesajları, web chat ve e-posta gibi birçok kanalı aynı anda kullanıyor. DGTLFACE’in 4 dilli çağrı merkezi yapısı:\n\nTelefon (inbound/outbound),\nWhatsApp çok dilli destek,\nWeb chat & chat widget’lar,\nInstagram DM, Facebook Messenger,\nE-posta yanıt süreçleri\n\nile tam entegre çalışır.\n\n“Sosyal medya çok dilli müşteri hizmetleri, WhatsApp çok dilli destek, Google yorum yönetimi çok dilli” gibi ihtiyaçları; çağrı merkezi ve /tr/cagri-merkezi/mesaj-yonetimi ile bütünleştirir.\n\nSonuç: Misafir hangi kanaldan yazarsa yazsın, doğru dilde, tutarlı ve zamanında yanıt alır."
     },
 
     "h3Section": {
+       "header": "DGTLFACE 4 Dilli Çağrı Merkezi Hizmet Detayları",
       "header1": "4 Dilli Inbound Çağrı Yönetimi",
       "text1": "Inbound süreçte DGTLFACE:\n\nMisafirleri IVR veya canlı karşılama ile dil bazlı doğru temsilciye yönlendirir,\nSSS konularında hızlı çözümler sunar,\nOtel ve kurumsal markalara özel çağrı script’leri uygular,\nArama sonuçlarını CRM veya rezervasyon sistemiyle uyumlu şekilde raporlar.\n\n“4 dilde çağrı merkezi, inbound çok dilli çağrı yönetimi” süreçlerini hem müşteri deneyimi hem operasyon maliyeti açısından optimize ederiz.",
 
@@ -4715,28 +4713,26 @@
 
     "ai_answer_title": "AI Answer Block – Sosyal Medya Mesaj & Yorum Yönetimi",
     "ai_answer_text": "DGTLFACE, sosyal medya mesaj & yorum yönetimi hizmetiyle; Instagram DM, WhatsApp, web chat, Google/Yandex yorumları ve OTA mesajlarını tek panelden, profesyonel şekilde yönetir. TR–EN–DE–RU dillerinde çalışan ekipler, gelen soru, talep, şikâyet ve rezervasyon niyeti taşıyan mesajları önceden tanımlı ton & script’lerle yanıtlar. Yanıt süresi, çözüm oranı ve memnuniyet metriklerini raporlayarak hem itibar hem de satış/rezervasyon fırsatlarını güçlendirir.",
+ "subbanner_header3": "Sosyal Medya Mesaj Yönetimi Nedir, Neden Önemli?",
+      "subbanner_text2": "“Instagram mesaj yönetimi nasıl yapılır? WhatsApp destek hattı kurma süreci nasıl olmalı?” sorularının arkasında tek bir gerçek var:\n\nArtık müşterileriniz / misafirleriniz;\n\nTelefona sarılmadan önce DM atıyor,\nForm doldurmadan önce WhatsApp’tan yazıyor,\nŞikâyetini mail yerine yorum olarak paylaşıyor.\n\nProfesyonel sosyal medya mesaj yönetimi:\n\nGelen mesajların hiçbirinin kaybolmamasını,\nCevap sürelerinin kısalmasını,\nTon, dil ve bilgi tutarlılığının korunmasını,\nSatış fırsatlarının kaçmamasını,\nŞikâyetlerin krize dönüşmeden yönetilmesini\n\nsağlayan bir süreçtir.\n\nDGTLFACE, “sosyal medya müşteri hizmetleri, sosyal medya şikâyet yönetimi, 4 dilli mesaj yönetimi” gibi kritik başlıkları, çağrı merkezi disiplininde ele alır.",
+    
+      "h2Section": {
+      "header1": "Çok Kanallı Mesaj Yönetimi: Instagram DM, WhatsApp, Web Chat, Yorumlar",
+      "text1": "Mesaj tarafı artık tek kanaldan gelmiyor. DGTLFACE, multichannel chatbox sistemi ve çok kanallı altyapısı ile:\n\nInstagram DM\nFacebook Messenger\nWhatsApp Business\nWeb chat / canlı destek\nOTA ve harita platformlarındaki mesajlar (Google, Booking vb.)\n\nüzerinden gelen tüm mesajları tek panelde toplar.\n\nBu yapı sayesinde:\n\n“Şu mesajı kim cevapladı?” sorusu ortadan kalkar,\nTekrar tekrar aynı soruyu soran misafirlere tutarlı yanıtlar verilir,\nMesaj trafiği, telefon ve e-posta ile birlikte tek CRM veya rapor ekranına bağlanır,\nMesajların satış, rezervasyon, destek ve şikâyet olarak segmentlenmesi mümkün olur.\n\n“Çok kanallı mesaj yönetimi, multichannel chatbox sistemi, sosyal medya müşteri hizmetleri” ihtiyacını; çağrı merkezi standardında çözüme kavuşturuyoruz.",
 
-    "h2Section": {
-      "header1": "Sosyal Medya Mesaj Yönetimi Nedir, Neden Önemli?",
-      "text1": "“Instagram mesaj yönetimi nasıl yapılır? WhatsApp destek hattı kurma süreci nasıl olmalı?” sorularının arkasında tek bir gerçek var:\n\nArtık müşterileriniz / misafirleriniz;\n\nTelefona sarılmadan önce DM atıyor,\nForm doldurmadan önce WhatsApp’tan yazıyor,\nŞikâyetini mail yerine yorum olarak paylaşıyor.\n\nProfesyonel sosyal medya mesaj yönetimi:\n\nGelen mesajların hiçbirinin kaybolmamasını,\nCevap sürelerinin kısalmasını,\nTon, dil ve bilgi tutarlılığının korunmasını,\nSatış fırsatlarının kaçmamasını,\nŞikâyetlerin krize dönüşmeden yönetilmesini\n\nsağlayan bir süreçtir.\n\nDGTLFACE, “sosyal medya müşteri hizmetleri, sosyal medya şikâyet yönetimi, 4 dilli mesaj yönetimi” gibi kritik başlıkları, çağrı merkezi disiplininde ele alır.",
+      "header2": "Oteller ve Turizm Markaları İçin Sosyal Medya Mesaj & Yorum Yönetimi",
+      "text2": "Turizm tarafında misafirler:\n\nInstagram’dan oda sorar,\nWhatsApp’tan fiyat ve tarih teyidi ister,\nGoogle yorumlarında deneyimini anlatır,\nOTA mesajları üzerinden özel isteklerini iletir.\n\nDGTLFACE, oteller ve turizm markaları için otel Instagram mesaj yönetimi, turizm WhatsApp management, resort DM yönetimi, otel yorum yönetimi süreçlerini:\n\nRezervasyon çağrı merkezi (/tr/cagri-merkezi/rezervasyon-destegi) ile entegre,\nPMS & OTA yapınız (/tr/pms-ota-yonetimi) ile uyumlu,\n4 dilli çağrı merkezi (/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile birlikte çalışan\n\nbir yapı hâline getirir.\n\nSonuç: Mesajlar ve yorumlar, “arada kaynayan” değil, rezervasyon ve memnuniyet üreten bir kanal olur.",
 
-      "header2": "Çok Kanallı Mesaj Yönetimi: Instagram DM, WhatsApp, Web Chat, Yorumlar",
-      "text2": "Mesaj tarafı artık tek kanaldan gelmiyor. DGTLFACE, multichannel chatbox sistemi ve çok kanallı altyapısı ile:\n\nInstagram DM\nFacebook Messenger\nWhatsApp Business\nWeb chat / canlı destek\nOTA ve harita platformlarındaki mesajlar (Google, Booking vb.)\n\nüzerinden gelen tüm mesajları tek panelde toplar.\n\nBu yapı sayesinde:\n\n“Şu mesajı kim cevapladı?” sorusu ortadan kalkar,\nTekrar tekrar aynı soruyu soran misafirlere tutarlı yanıtlar verilir,\nMesaj trafiği, telefon ve e-posta ile birlikte tek CRM veya rapor ekranına bağlanır,\nMesajların satış, rezervasyon, destek ve şikâyet olarak segmentlenmesi mümkün olur.\n\n“Çok kanallı mesaj yönetimi, multichannel chatbox sistemi, sosyal medya müşteri hizmetleri” ihtiyacını; çağrı merkezi standardında çözüme kavuşturuyoruz.",
+      "header3": "Neden DGTLFACE ile Sosyal Medya Mesaj Yönetimi?",
+      "text3": "DGTLFACE, mesaj yönetimini sadece “sosyal medya işi” olarak değil; çağrı merkezi, dijital pazarlama, PMS & OTA entegrasyonları ve otel dijital pazarlama yapısıyla birlikte ele alır. Böylece DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi içinde çalışır.",
 
-      "header3": "Oteller ve Turizm Markaları İçin Sosyal Medya Mesaj & Yorum Yönetimi",
-      "text3": "Turizm tarafında misafirler:\n\nInstagram’dan oda sorar,\nWhatsApp’tan fiyat ve tarih teyidi ister,\nGoogle yorumlarında deneyimini anlatır,\nOTA mesajları üzerinden özel isteklerini iletir.\n\nDGTLFACE, oteller ve turizm markaları için otel Instagram mesaj yönetimi, turizm WhatsApp management, resort DM yönetimi, otel yorum yönetimi süreçlerini:\n\nRezervasyon çağrı merkezi (/tr/cagri-merkezi/rezervasyon-destegi) ile entegre,\nPMS & OTA yapınız (/tr/pms-ota-yonetimi) ile uyumlu,\n4 dilli çağrı merkezi (/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile birlikte çalışan\n\nbir yapı hâline getirir.\n\nSonuç: Mesajlar ve yorumlar, “arada kaynayan” değil, rezervasyon ve memnuniyet üreten bir kanal olur.",
-
-      "header4": "DGTLFACE Mesaj Yönetimi Hizmet Detayları",
-      "text4": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇",
-
-      "header5": "Neden DGTLFACE ile Sosyal Medya Mesaj Yönetimi?",
-      "text5": "DGTLFACE, mesaj yönetimini sadece “sosyal medya işi” olarak değil; çağrı merkezi, dijital pazarlama, PMS & OTA entegrasyonları ve otel dijital pazarlama yapısıyla birlikte ele alır. Böylece DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi içinde çalışır.",
-
-      "header6": "Mikro Katman – H5 Konuları",
-      "text6": "Instagram mesaj yönetimi, oteller için mesaj yönetimi ipuçları, WhatsApp destek hattı kurulumu, Google & Yandex yorum yanıtlama prensipleri ve multichannel chatbox sisteminin önemi gibi konular; DGTLFACE’in mesaj yönetimi yaklaşımında mikro seviyede ele alınan başlıklardır."
+      "header4": "Mikro Katman – H5 Konuları",
+      "text4": "Instagram mesaj yönetimi, oteller için mesaj yönetimi ipuçları, WhatsApp destek hattı kurulumu, Google & Yandex yorum yanıtlama prensipleri ve multichannel chatbox sisteminin önemi gibi konular; DGTLFACE’in mesaj yönetimi yaklaşımında mikro seviyede ele alınan başlıklardır."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Mesaj Yönetimi Hizmet Detayları",
+
       "header1": "Instagram DM Yönetimi",
       "text1": "“Instagram DM yönetimi Türkiye, mesaj yönetimi Antalya, sosyal medya destek Antalya” gibi ihtiyaçlarda DGTLFACE:\n\nGelen tüm DM’leri tek ekrandan takip eder,\nSık sorulan sorular için hazır cevap şablonları oluşturur (konsept, oda tipi, fiyat, check-in/out saatleri vb.),\nRezervasyon niyeti olan misafirleri hızlıca telefon veya WhatsApp hattına yönlendirir,\nŞikâyet içeren mesajları ilgili departmanlara iletir, çözüm sürecini takip eder,\nİlgili DM ekranlarını gerektiğinde anonimleştirerek ekip içi eğitim için kullanır.\n\n“Instagram mesaj yönetimi nasıl yapılır, oteller için sosyal medya mesaj yönetimi” sorularına; hem süreç hem tonlama açısından profesyonel cevaplar üretiriz.",
 
@@ -4816,6 +4812,108 @@
     }
   },
 
+   "HotelReservationCallCenterPage": {
+    "cta_talk_to_us": "Otel Rezervasyon Çağrı Merkezi İçin Bizimle Konuşun",
+
+    "subbanner_header": "Otel Rezervasyon Çağrı Merkezi –",
+    "subbanner_header2": " Çok Dilli Rezervasyon & Satış",
+    "subbanner_text": "DGTLFACE, otel rezervasyon çağrı merkezi hizmetiyle; otellerin, resort’ların, villaların ve turizm tesislerinin telefon, WhatsApp ve dijital kanallardan gelen tüm rezervasyon taleplerini profesyonel, çok dilli ve satış odaklı şekilde yönetir.\n\nBizim için bu hizmet, yalnızca “telefona bakmak” değildir; otel satış destek hattı, otel müşteri temsilcisi, telefonla rezervasyon hizmeti, resort rezervasyon merkezi gibi tüm fonksiyonları kapsayan, otelin satış hunisinin en kritik parçasıdır.\n\nAmaç; hem misafirin sorunsuz şekilde rezervasyon yapmasını sağlamak, hem de her aramayı satış fırsatına çeviren bir yapı kurmaktır.",
+
+    "ai_answer_title": "AI Answer Block – Otel Rezervasyon Çağrı Merkezi",
+    "ai_answer_text": "DGTLFACE, otel rezervasyon çağrı merkezi hizmetiyle; oteller, resort’lar ve villalar için telefon, WhatsApp, OTA ve web üzerinden gelen rezervasyon taleplerini TR–EN–DE–RU dillerinde yönetir. PMS entegrasyonlu oda & fiyat kontrolü, satış odaklı script’ler, inbound + outbound aramalar ve Booking/Expedia destek süreçleriyle doğrudan rezervasyon dönüşümünü artırır. Resepsiyonun yükünü hafifletir, her çağrıyı ölçülebilir bir satış kanalı hâline getirir.",
+    "subbanner_header3": "Otel Rezervasyon Çağrı Merkezi Nedir, Neden Kritik?",
+    "subbanner_text2": "“Rezervasyon yönetimi zaten resepsiyonda da yapılabiliyor, neden ayrı bir çağrı merkezi olsun?” sorusunun cevabı hem operasyonel hem ticari:\n\nResepsiyon, aynı anda check-in, check-out, misafir ilişkileri ve telefonla boğuştuğunda:\n\nTelefonda bekleme süreleri artar,\nSatış fırsatları kaçabilir,\nMevcut misafir deneyimi zarar görebilir.\n\nProfesyonel bir otel rezervasyon çağrı merkezi ise:\n\nTüm oda ve fiyat sorularını merkezi bir yapıdan yönetir,\nRezervasyon sürecini standartlaştırır,\nSatış odaklı script’lerle cross-sell & upsell fırsatlarını değerlendirir,\nMisafir memnuniyetini artırırken, resepsiyonun üzerindeki yükü azaltır.\n\nDGTLFACE, “oteller için rezervasyon destek hizmeti, rezervasyon telefon hattı yönetimi, turizm rezervasyon yönetimi” alanlarında hem süreç hem insan kaynağı tarafında uçtan uca çözüm sunar.",
+
+    "h2Section": {
+      "header1": "Çok Dilli Rezervasyon ve Misafir Destek Yapısı",
+      "text1": "Özellikle turizmde; yabancı misafir rezervasyon desteği neredeyse işin merkezinde. Farklı ülkelerden gelen misafirler, rezervasyonda kendilerini güvende hissetmek için çoğu zaman anadilinde konuşmak ister.\n\nDGTLFACE, TR – EN – DE – RU ağırlıklı, çok dilli rezervasyon süreçlerinde:\n\nOtel ve resort’lar için çok dilli rezervasyon süreci tasarlar,\nTürkçe misafirler için doğal ve samimi bir ton,\nAlmanca misafirler için detaycı ve net bilgi veren bir ton,\nRusça misafirler için güven ve açıklık odaklı bir yaklaşım,\nİngilizce üzerinden global pazarlara yönelik profesyonel iletişim kullanır.\n\n“Yabancı misafir rezervasyon desteği, turist rezervasyon destek hattı, otel çok dilli destek” gibi kritik başlıkları, çağrı merkezi ekibi + PMS & OTA ekibiyle aynı masada kurgularız.\nBu yapı, /tr/cagri-merkezi/4-dilli-cagri-merkezi child’ıyla da bire bir örtüşür.",
+
+      "header2": "Rezervasyon Telefon Hattı Yönetimi & Çağrı Akışı",
+      "text2": "İyi kurgulanmış bir rezervasyon telefon hattı yönetimi, tek bir şeyi garanti eder: Arayan hiçbir misafir “karışıklık, bekleme, muhatap bulamama” yaşamaz.\n\nBu akış; inbound rezervasyon çağrıları, outbound geri kazanım ve satış aramalarıyla birlikte, otelin satış hunisinin sesli tarafını yönetir.",
+
+      "header3": "OTA (Booking, Expedia vb.) Rezervasyon Destek ve Yönetimi",
+      "text3": "Birçok otel için rezervasyonun büyük kısmı OTA kanallarından (Booking, Expedia, Agoda vb.) gelir. Burada yapılan her hata, hem misafir memnuniyetini hem kanal puanlarını etkiler.\n\nDGTLFACE, Booking rezervasyon destek hattı, Expedia müşteri destek yönetimi süreçlerinde:\n\nOTA üzerinden gelen rezervasyonların çağrı merkezi ekranına akmasını sağlar,\nMisafirin telefon / mesaj ile sorduğu her şeyi (oda, iptal, tarih değişimi, özel talep) hızlıca çözer,\nOverbooking riskini azaltmak için PMS & OTA & çağrı merkezi arasında net bir akış kurar,\nMisafirle yapılan tüm görüşmeleri kısaca notlar ve ilgili departmanlara iletir.\n\nBöylece “Ben Booking’den yazdım, kimse dönmedi” tipi geri bildirimler yerine; OTA yorumlarını yükselten, süreci sahiplenen bir çağrı merkezi yapısı oluşur.",
+
+      "header4": "Oteller ve PMS & OTA Tarafıyla Entegre Rezervasyon Yönetimi",
+      "text4": "Rezervasyon çağrı merkezi tek başına çalışmaz; doğru kurgulanmazsa, PMS ve OTA ile çatışır. DGTLFACE:\n\n/tr/pms-ota/rezervasyon-yonetimi üzerinden rezervasyon akışını,\n/tr/pms-ota/pms-kurulum ile PMS entegrasyonunu,\n/tr/pms-ota/ota-entegrasyonu ile OTA kanal yapısını,\n/tr/otel/cagri-merkezi ile otel içi çağrı merkezi süreçlerini\n\naynı çerçevede ele alır.\n\n“Turizm rezervasyon yönetimi, PMS rezervasyon modülü, resort rezervasyon yönetimi” gibi alanlarda; saha + yazılım + çağrı merkezi üçgenini kurarız.\n\nFunnel mantığı:\nTelefon + WhatsApp + OTA + Web lead → Call Center → PMS → Rezervasyon Onay"
+    },
+
+    "h3Details": {
+      "header":"DGTLFACE Rezervasyon Destek Hizmet Detayları",
+      "header1": "Inbound Rezervasyon Çağrıları",
+      "text1": "DGTLFACE inbound akışta:\n\nGelen çağrıları dil ve kanal bazlı (web, OTA, kampanya, doğrudan telefon) kategorize eder,\nMisafirin talebini hızlıca netleştiren rezervasyon yönetimi script’leri kullanır,\nOda tipi, tarih, kişi sayısı, çocuk, ekstra hizmetler (transfer, spa vb.) gibi tüm detayları standart bir form üzerinden toplar,\nMüsaitlik ve fiyat bilgilerini PMS veya kanal yöneticisiyle uyumlu şekilde sunar,\nMisafiri, rezervasyon tamamlanana kadar süreçte tutar; “sonra tekrar ararım”ı minimuma indirir.\n\nHer çağrı, raporlar üzerinden izlenir; ortalama konuşma süresi, çözüm oranı, satışa dönüşme oranı gibi KPI’lar düzenli ölçülür.",
+
+      "header2": "Outbound Rezervasyon ve Geri Kazanım Çağrıları",
+      "text2": "Outbound tarafta, otel satış destek hattı olarak:\n\nYarım kalmış rezervasyon taleplerine geri dönüş yapılır,\nWeb formu doldurup dönmeyen lead’ler aranır,\nOTA üzerinden rezervasyon iptali yapan misafirlere uygun alternatifler sunulur,\nSezon dışı / kampanya dönemlerinde hedef pazara yönelik resort rezervasyon hattı aramaları yapılır.\n\n“Oda satış oranlarını artırma yöntemleri” içinde, doğru kurgulanmış outbound rezervasyon hattı en güçlü kaldıraçlardan biridir.",
+
+      "header3": "Rezervasyon Script’leri ve Satış Odaklı Görüşme Yapısı",
+      "text3": "Her otel, destinasyon ve pazar için farklı rezervasyon dili gerekir. DGTLFACE:\n\nOtelinizin segmentine (şehir, resort, luxury, butik, villa) göre çağrı karşılama script’leri hazırlar,\nFiyat / kampanya / müsaitlik bilgilerini yalın ve net şekilde anlatan şablonlar oluşturur,\nMüsait oda yoksa, uygun alternatif tarih/oda/konsept önerecek cross-sell & upsell akışları kurar,\nGerekirse kampanyalar ve sezonsal teklifler için ek script’ler yazar.\n\nÇağrı merkezi temsilcileri, “sadece bilgi veren” değil, satış kapatan bir yapıda çalışır.",
+
+      "header4": "Villa & Butik Otel Rezervasyon Destek Modelleri",
+      "text4": "Büyük resort’ların yanı sıra; villa & butik otel rezervasyon destek süreçleri de ayrı bir uzmanlık ister:\n\nDaha kişisel ve detaylı iletişim,\nDaha esnek tarih ve oda kombinasyonları,\nDoğrudan otel sahibine / yöneticisine dokunan özel talepler.\n\nDGTLFACE, bu tip projelerde daha kişiselleştirilmiş rezervasyon hattı modelleri kurgular; misafirin isim bazlı takip edildiği, notların hassasiyetle işlendiği bir yapı kurar.",
+
+      "header5": "Agency-to-Hotel Call Center Yapısı",
+      "text5": "Bazı tesisler için; yoğun şekilde acente / agency üzerinden rezervasyon akar. Bu durumda:\n\nAcentelerin ulaştığı özel agency-to-hotel call center hattı kurulabilir,\nYalnızca acente temsilcileri için öncelikli kuyruğa sahip bir yapı oluşturulabilir,\nFiyat, kontenjan, özel talepler, grup rezervasyonları için hızlı çözüm üreten özel script’ler hazırlanabilir.\n\nBöylece acenteler, otelin gözünde “yük” değil; partner olarak hissedilir, ilişkiler güçlenir."
+    },
+
+    "h4Section": {
+      "header": "Neden DGTLFACE ile Otel Rezervasyon Çağrı Merkezi?",
+
+      "card1title": "Turizm ve Otel Odaklı Çağrı Merkezi Uzmanlığı",
+      "card1description": "“Rezervasyon merkezi Antalya, Antalya otel destek hattı, turizm çağrı merkezi Türkiye, Antalya resort call center” aramalarının arkasında net bir beklenti var: Hem turizmi, hem misafiri, hem dijital tarafı bilen bir ekip. DGTLFACE; Antalya ve çevresinde çok sayıda otel & turizm projesiyle çalışmış, farklı pazarların (DE, RU, UK, TR) davranışlarını bilen ve sezonluk yoğunlukları yönetmeye alışkın bir yapı sunar.",
+
+      "card2title": "PMS, OTA, Web ve Çağrı Merkezi Entegrasyonu",
+      "card2description": "Sadece telefon cevaplayan bir ekip, bugünün otel dünyasında yetersiz. DGTLFACE; PMS’den anlık oda & fiyat bilgisi, OTA’dan rezervasyon akışı, web formu ve WhatsApp’tan gelen lead’ler ile çağrı merkezi üzerinden yapılan rezervasyon ve değişiklikler arasında tek bir rezervasyon gerçeği oluşturur. Bu yapı, hem overbooking riskini azaltır hem de raporlama tarafında net sonuçlar üretir.",
+
+      "card3title": "Satış Odaklı, KPI Bazlı Yönetim",
+      "card3description": "Rezervasyon çağrı merkezi bizim için “maliyet kalemi” değil, satış kanalıdır. Bu yüzden çağrı başına satış oranı, aramadan rezervasyona dönüşüm, ortalama sepet değeri (oda + ek gelirler) ve kanal/pazar bazlı performans gibi KPI’larla çalışırız. DGTLFACE, /tr/veri-analiz-ve-raporlama ve /tr/raporlama/satis-donusum ile bu KPI’ları görsel dashboard’larda raporlar."
+    },
+
+    "verticalSlider": {
+      "header": "Mikro Katman –",
+      "header2": "H5 Konuları",
+
+      "title1": "Oteller İçin Rezervasyon Destek Hizmeti ",
+      "span1": "Nasıl Kurgulanır?",
+      "text1": "Mevcut kanalların analizi, çağrı hacmi ve dil dağılımı, çalışma saatleri ve KPI’ların belirlenmesi, script–eğitim–entegrasyon planı, pilot dönem ve iyileştirme adımlarıyla birlikte tam devreye alma süreci net bir proje planıyla yönetilir.",
+      "button1": "Rezervasyon Destek Rehberi",
+
+      "title2": "Oda Satış Oranlarını Artırma ",
+      "span2": "Yöntemleri (Call Center Perspektifi)",
+      "text2": "Fiyat söylemeden önce değeri anlatmak, alternatif tarih/oda önermek, müsait olmayan tarihlerde yakın tarih önerileriyle misafiri kaybetmemek, her aramada bir aksiyon hedeflemek ve ek gelir fırsatlarını (transfer, spa, kutlama paketi vb.) doğal şekilde önermek temel prensiplerdir.",
+      "button2": "Satış Artırma İpuçları",
+
+      "title3": "Yabancı Misafir Rezervasyon ",
+      "span3": "Desteğinde İncelikler",
+      "text3": "Her pazarın (DE, RU, EN) soru sorma ve karar verme şekli farklıdır. Detay ihtiyacı, esneklik, iptal şartları ve ödeme alternatifi şeffaf anlatılmalı; küçük jestler ve doğru dil tonu ile güven hissi güçlendirilmelidir.",
+      "button3": "Yabancı Misafir Rehberi",
+
+      "title4": "Agency-to-Hotel Call Center ",
+      "span4": "Yapısı Nasıl Çalışır?",
+      "text4": "Acenteler için ayrı hat/IVR, öncelikli kuyruk, grup & allotment odaklı özel script’ler ve rezervasyon sonrası hızlı yazılı özet (mail/WhatsApp) akışı ile acentelerin gözünde profesyonel, hızlı ve güvenilir bir partner konumu güçlendirilir.",
+      "button4": "Acente Hattı Rehberi"
+    },
+
+    "faq": {
+      "header": "SSS – Otel Rezervasyon Çağrı Merkezi Hakkında Sık Sorulan Sorular",
+
+      "question1": "Sadece rezervasyon aramalarını mı yönetiyorsunuz, yoksa genel misafir sorularını da alıyor musunuz?",
+      "answer1": "Ağırlıklı odağımız rezervasyon ve satış olsa da, misafirlerin rezervasyonla bağlantılı genel sorularını (konsept, çocuk politikası, transfer, saatler vb.) da karşılıyoruz. Tamamen “rezervasyon + ön bilgi” hattı olarak da, daha geniş kapsamlı misafir destek hattı olarak da kurgulanabilir.",
+
+      "question2": "Kendi resepsiyon ekibimiz var, yine de rezervasyon çağrı merkezi almaya değer mi?",
+      "answer2": "Çoğu otelde resepsiyon var ama telefon trafiği pik olduğunda ya resepsiyon, ya telefon tarafı aksıyor. DGTLFACE rezervasyon hattı; resepsiyonun yükünü hafifletir ve her çağrıyı satış gözüyle ele alan odaklanmış bir yapı kurar. Genellikle hem memnuniyet hem gelir tarafında artış görülür.",
+
+      "question3": "Çok dilli rezervasyon hattı mı kuruyorsunuz, yoksa tek dilde de çalışabilir miyiz?",
+      "answer3": "Esas uzmanlığımız çok dilli rezervasyon hattı; ancak sadece Türkçe veya belirli bir dilde (örneğin sadece Almanca pazarına özel) hizmet de verebiliriz. Dilleri, pazar önceliklerinize göre birlikte planlıyoruz.",
+
+      "question4": "Rezervasyon verileri nasıl tutuluyor, PMS ile entegrasyon sağlanıyor mu?",
+      "answer4": "Evet. /tr/pms-ota/rezervasyon-yonetimi ve PMS sistemiyle entegre çalışıyoruz. Rezervasyonlar mümkün olduğunca doğrudan PMS’e işleniyor, gerekli durumlarda otel ekibinizle birlikte hibrit bir model de kurabiliyoruz. Veri güvenliği ve KVKK tarafını da /tr/yazilim/kvkk-uyum-hizmeti ile uyumlu biçimde ele alıyoruz.",
+
+      "question5": "DGTLFACE ile otel rezervasyon çağrı merkezi projesine nasıl başlıyoruz?",
+      "answer5": "Genel akış: Otelinizin mevcut rezervasyon kanalları ve çağrı hacmi analiz edilir. Hedef pazarlar, diller ve çalışma saatleri netleştirilir. Inbound/outbound kapsamı, KPI’lar ve raporlama modeli belirlenir. Script’ler, eğitim ve entegrasyon planı hazırlanır. Kısa bir pilot dönem ile süreç test edilir ve iyileştirilir. Tam devreye alma sonrası düzenli performans raporları ile süreç yönetilir."
+    }
+  },
+
     "AfterSalesSupportPage": {
     "cta_talk_to_us": "Satış Sonrası Destek İçin Bizimle Konuşun",
 
@@ -4826,27 +4924,26 @@
     "ai_answer_title": "AI Answer Block – Satış Sonrası Müşteri Destek",
     "ai_answer_text": "DGTLFACE, satış sonrası müşteri destek hizmetinde; misafir ve müşterilerinizin telefon, WhatsApp, e-posta, DM, OTA mesajları ve web chat üzerinden ilettiği soru, talep ve şikâyetleri çok kanallı bir modelle yönetir. Şikâyet yönetimi, çağrı sonrası takip, CRM entegrasyonu ve memnuniyet ölçümü süreçlerini tek mimaride birleştirerek, hem itibarı hem de tekrar satın alma ve sadakati artıran bir satış sonrası destek merkezi kurar.",
 
+     "subbanner_header3": "Satış Sonrası Müşteri Destek Nedir, Neden Bu Kadar Önemli?",
+      "subbanner_text2": "“Müşteri şikâyet yönetimi nasıl yapılır? Satış sonrası destek örnekleri neler?” gibi sorular, aslında tek bir gerçeğe bakıyor: Satışın bittiği yerde, ilişki başlar.\n\nSatış sonrası müşteri destek;\n\n• Misafir ve müşterilerin soru, şikâyet, talep ve önerilerini toplamak,\n• Bu talepleri hızlı, adil ve profesyonel biçimde çözmek,\n• Her temas noktasını (telefon, WhatsApp, mail, sosyal medya, OTA mesajları) kayıt altına almak,\n• Çözüm sonrasında mutlaka çağrı sonrası takip etmek,\n• Tüm bu süreci CRM veya ilgili sistemlerle entegre yürütmek\n\nanlamına gelir.\n\nDGTLFACE, “müşteri sorun çözme teknikleri, müşteri memnuniyeti artırma yöntemleri, satış sonrası destek kanalları” gibi kavramları gerçek bir operasyon modeline dönüştürür.",
+
     "h2Section": {
-      "header1": "Satış Sonrası Müşteri Destek Nedir, Neden Bu Kadar Önemli?",
-      "text1": "“Müşteri şikâyet yönetimi nasıl yapılır? Satış sonrası destek örnekleri neler?” gibi sorular, aslında tek bir gerçeğe bakıyor: Satışın bittiği yerde, ilişki başlar.\n\nSatış sonrası müşteri destek;\n\n• Misafir ve müşterilerin soru, şikâyet, talep ve önerilerini toplamak,\n• Bu talepleri hızlı, adil ve profesyonel biçimde çözmek,\n• Her temas noktasını (telefon, WhatsApp, mail, sosyal medya, OTA mesajları) kayıt altına almak,\n• Çözüm sonrasında mutlaka çağrı sonrası takip etmek,\n• Tüm bu süreci CRM veya ilgili sistemlerle entegre yürütmek\n\nanlamına gelir.\n\nDGTLFACE, “müşteri sorun çözme teknikleri, müşteri memnuniyeti artırma yöntemleri, satış sonrası destek kanalları” gibi kavramları gerçek bir operasyon modeline dönüştürür.",
+      "header1": "Oteller ve Turizm Markaları İçin Satış Sonrası Destek",
+      "text1": "Turizm ve otelcilikte, misafir deneyimi giriş–konaklama–çıkış ile bitmez; Booking/OTA sonrası iletişim, konaklama sürecinde destek, çıkış sonrası yorum & geri bildirim ve ilerleyen dönemlerde yeniden rezervasyon döngüsüyle devam eder.\n\nDGTLFACE, “otel satış sonrası destek, turizm müşteri memnuniyeti, resort customer care, Booking sonrası misafir iletişimi” alanlarında:\n\n• Misafirlerin şikâyet ve taleplerini çok kanallı (telefon, WhatsApp, mail, sosyal medya, OTA mesajları) olarak toplar,\n• Konaklama sırasında yaşanan sorunlar için hızlı çözüm ve iç departmanlara net aktarım sağlar,\n• Çıkış sonrası misafire ulaşıp teşekkür, memnuniyet ölçümü ve yorum daveti yapar,\n• Negatif deneyimlerde “kriz büyümeden” misafirle proaktif iletişime geçer.\n\nSonuç: Sadece “bize kızıp bir daha gelmeyecek misafir” değil; sorun yaşamış olsa bile çözümden memnun kalan ve markayı anlayışlı bulan sadık misafirler ortaya çıkar.",
 
-      "header2": "Oteller ve Turizm Markaları İçin Satış Sonrası Destek",
-      "text2": "Turizm ve otelcilikte, misafir deneyimi giriş–konaklama–çıkış ile bitmez; Booking/OTA sonrası iletişim, konaklama sürecinde destek, çıkış sonrası yorum & geri bildirim ve ilerleyen dönemlerde yeniden rezervasyon döngüsüyle devam eder.\n\nDGTLFACE, “otel satış sonrası destek, turizm müşteri memnuniyeti, resort customer care, Booking sonrası misafir iletişimi” alanlarında:\n\n• Misafirlerin şikâyet ve taleplerini çok kanallı (telefon, WhatsApp, mail, sosyal medya, OTA mesajları) olarak toplar,\n• Konaklama sırasında yaşanan sorunlar için hızlı çözüm ve iç departmanlara net aktarım sağlar,\n• Çıkış sonrası misafire ulaşıp teşekkür, memnuniyet ölçümü ve yorum daveti yapar,\n• Negatif deneyimlerde “kriz büyümeden” misafirle proaktif iletişime geçer.\n\nSonuç: Sadece “bize kızıp bir daha gelmeyecek misafir” değil; sorun yaşamış olsa bile çözümden memnun kalan ve markayı anlayışlı bulan sadık misafirler ortaya çıkar.",
+      "header2": "Çok Kanallı Satış Sonrası Destek: Telefon, WhatsApp, Mail, Yorumlar",
+      "text2": "Günümüz müşterisi; sorun olduğunda tek bir kanal kullanmaz.\n\nDGTLFACE satış sonrası destek mimarisinde:\n\n• Telefon (müşteri destek hattı),\n• WhatsApp ve diğer mesajlaşma kanalları,\n• E-posta (destek, info, rezervasyon vb. kutular),\n• Web formları,\n• Sosyal medya mesajları ve yorumlar,\n• OTA, Google, Yandex yorum ve mesajları\n\nbirlikte ele alınır.\n\n“Satış sonrası destek kanalları, sosyal medya şikâyet yönetimi, online rezervasyon çağrı destek” gibi süreçler; tek bir müşteri iletişim yönetimi şemsiyesi altında toplanır.\n\nBu sayede misafir; nereden yazarsa yazsın, hangi dilden gelirse gelsin, aynı ton, aynı hız ve aynı kaliteyle yanıt alır.",
 
-      "header3": "Çok Kanallı Satış Sonrası Destek: Telefon, WhatsApp, Mail, Yorumlar",
-      "text3": "Günümüz müşterisi; sorun olduğunda tek bir kanal kullanmaz.\n\nDGTLFACE satış sonrası destek mimarisinde:\n\n• Telefon (müşteri destek hattı),\n• WhatsApp ve diğer mesajlaşma kanalları,\n• E-posta (destek, info, rezervasyon vb. kutular),\n• Web formları,\n• Sosyal medya mesajları ve yorumlar,\n• OTA, Google, Yandex yorum ve mesajları\n\nbirlikte ele alınır.\n\n“Satış sonrası destek kanalları, sosyal medya şikâyet yönetimi, online rezervasyon çağrı destek” gibi süreçler; tek bir müşteri iletişim yönetimi şemsiyesi altında toplanır.\n\nBu sayede misafir; nereden yazarsa yazsın, hangi dilden gelirse gelsin, aynı ton, aynı hız ve aynı kaliteyle yanıt alır.",
+      "header3": "Oteller, E-Ticaret ve Hizmet Sektörü İçin Satış Sonrası Modeller",
+      "text3": "DGTLFACE; otel ve turizm, e-ticaret ve hizmet/B2B sektörleri için farklı satış sonrası destek modelleri kurgular. Otellerde konaklama sonrası teşekkür ve yorum daveti, turizm projelerinde tur sonrası memnuniyet aramaları, B2B ve SaaS tarafında onboarding, teknik destek ve yenileme süreçlerini; çağrı merkezi ve dijital kanallarla entegre şekilde yönetir.",
 
-      "header4": "DGTLFACE Satış Sonrası Destek Hizmet Detayları",
-      "text4": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇",
-
-      "header5": "Oteller, E-Ticaret ve Hizmet Sektörü İçin Satış Sonrası Modeller",
-      "text5": "DGTLFACE; otel ve turizm, e-ticaret ve hizmet/B2B sektörleri için farklı satış sonrası destek modelleri kurgular. Otellerde konaklama sonrası teşekkür ve yorum daveti, turizm projelerinde tur sonrası memnuniyet aramaları, B2B ve SaaS tarafında onboarding, teknik destek ve yenileme süreçlerini; çağrı merkezi ve dijital kanallarla entegre şekilde yönetir.",
-
-      "header6": "Mikro Katman – H5 Konuları",
-      "text6": "Müşteri şikâyet yönetimi operasyonal özeti, otel perspektifinden satış sonrası destek örnekleri, müşteri sorun çözme teknikleri ve satış sonrası destek kanallarının seçim mantığı; DGTLFACE’in satış sonrası destek yaklaşımında mikro seviyede ele aldığı başlıklardır."
+      "header4": "Mikro Katman – H5 Konuları",
+      "text4": "Müşteri şikâyet yönetimi operasyonal özeti, otel perspektifinden satış sonrası destek örnekleri, müşteri sorun çözme teknikleri ve satış sonrası destek kanallarının seçim mantığı; DGTLFACE’in satış sonrası destek yaklaşımında mikro seviyede ele aldığı başlıklardır."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Satış Sonrası Destek Hizmet Detayları",
+
       "header1": "Müşteri Şikâyet Yönetimi Nasıl Yapılır?",
       "text1": "DGTLFACE için müşteri şikâyet yönetimi, “şikâyeti savunmak” değil, “durumu anlamak ve çözmek” üzerine kurulu:\n\n• Tüm şikâyetler kanal bazlı toplanır ve tek ekranda görülür,\n• Her şikâyet için kategori, önem derecesi ve ilgili departman belirlenir,\n• Şikâyet ilk temas anında empatik ve profesyonel bir dille karşılanır,\n• Gerekli bilgiler alındıktan sonra ilgili departmana net bir özetle aktarılır,\n• Çözüm sağlandığında mutlaka geri dönüş araması / mesajı yapılır,\n• Sürecin özeti CRM veya iç raporlama sistemine kaydedilir.\n\n“Müşteri şikâyet yönetimi nasıl yapılır, müşteri sorun çözme teknikleri” bu akışla somut bir standarda bağlanır.",
 
@@ -4930,28 +5027,25 @@
 
     "ai_answer_title": "AI Answer Block – Çağrı Merkezi Performans Analizi",
     "ai_answer_text": "DGTLFACE, çağrı merkezi performans analizi hizmetinde; çağrı adedi, cevaplanma oranı, bekleme süresi, ilk çağrıda çözüm, satış/rezervasyon dönüşümü, çok kanallı etkileşim ve agent performansı gibi KPI’ları ölçer. Telefon, WhatsApp, DM, OTA ve diğer kanallardan gelen verileri Looker Studio dashboard’larında birleştirerek; özellikle otel ve turizm çağrı merkezleri için operasyonu optimize etmek, gelir ve memnuniyeti artırmak için uygulanabilir aksiyonlar üretir.",
+     "subbanner_header3": "Çağrı Merkezi Performansı Nasıl Ölçülür?",
+      "subbanner_text2": "“Çağrı merkezi performansı nasıl ölçülür? Çağrı merkezi performans analizi neyi kapsar?” sorularının cevabı, iyi seçilmiş KPI setinde saklıdır.\n\nDGTLFACE, performans analizi yaparken sadece çağrı sayısına bakmaz; çağrı başına değer, çözüm oranı ve satış etkisini birlikte ölçer.\n\nTemel metriklerimiz:\n• Çağrı hacmi (günlük/haftalık/aylık)\n• Yanıtlama oranı ve bekleme süreleri\n• İlk çağrıda çözüm oranı (FCR)\n• Konuşma süresi ve çağrı başına maliyet\n• Satış & rezervasyon dönüşüm oranı\n• Memnuniyet skorları (CSAT, NPS vb.)\n\n“Çağrı merkezi performansı nasıl ölçülür, inbound/outbound performans raporu, çağrı merkezi istatistikleri, operasyon analizi” gibi ihtiyaçların her biri; KPI’ların doğru set edilmesiyle anlamlı hâle gelir.",
 
     "h2Section": {
-      "header1": "Çağrı Merkezi Performansı Nasıl Ölçülür?",
-      "text1": "“Çağrı merkezi performansı nasıl ölçülür? Çağrı merkezi performans analizi neyi kapsar?” sorularının cevabı, iyi seçilmiş KPI setinde saklıdır.\n\nDGTLFACE, performans analizi yaparken sadece çağrı sayısına bakmaz; çağrı başına değer, çözüm oranı ve satış etkisini birlikte ölçer.\n\nTemel metriklerimiz:\n• Çağrı hacmi (günlük/haftalık/aylık)\n• Yanıtlama oranı ve bekleme süreleri\n• İlk çağrıda çözüm oranı (FCR)\n• Konuşma süresi ve çağrı başına maliyet\n• Satış & rezervasyon dönüşüm oranı\n• Memnuniyet skorları (CSAT, NPS vb.)\n\n“Çağrı merkezi performansı nasıl ölçülür, inbound/outbound performans raporu, çağrı merkezi istatistikleri, operasyon analizi” gibi ihtiyaçların her biri; KPI’ların doğru set edilmesiyle anlamlı hâle gelir.",
+      "header1": "KPI Takibi ve Çağrı Merkezi Analizi",
+      "text1": "KPI takibi, çağrı merkezi yönetiminin kalbidir. Yanlış KPI → yanlış karar.\n\nDGTLFACE, KPI’ları üç ana katmanda ele alır: Operasyonel KPI’lar (çağrı hacmi, yanıtlama/kaçırma oranları, bekleme & konuşma süreleri, dil ve kanal bazlı dağılım), kalite ve çözüm KPI’ları (ilk çağrıda çözüm, tekrar arama, transfer oranı, script uyumu ve kalite skorları) ve satış & gelir KPI’ları (rezervasyon/satış oranı, sepet değeri, upsell & cross-sell performansı, kampanya dönüşüm oranı).\n\n“Çağrı merkezi performansı nasıl ölçülür, otel çağrı merkezi KPI, turizm müşteri deneyimi raporu” gibi başlıklarda, bu üç katman bir arada değerlendirilir.",
 
-      "header2": "KPI Takibi ve Çağrı Merkezi Analizi",
-      "text2": "KPI takibi, çağrı merkezi yönetiminin kalbidir. Yanlış KPI → yanlış karar.\n\nDGTLFACE, KPI’ları üç ana katmanda ele alır: Operasyonel KPI’lar (çağrı hacmi, yanıtlama/kaçırma oranları, bekleme & konuşma süreleri, dil ve kanal bazlı dağılım), kalite ve çözüm KPI’ları (ilk çağrıda çözüm, tekrar arama, transfer oranı, script uyumu ve kalite skorları) ve satış & gelir KPI’ları (rezervasyon/satış oranı, sepet değeri, upsell & cross-sell performansı, kampanya dönüşüm oranı).\n\n“Çağrı merkezi performansı nasıl ölçülür, otel çağrı merkezi KPI, turizm müşteri deneyimi raporu” gibi başlıklarda, bu üç katman bir arada değerlendirilir.",
+      "header2": "Çok Kanallı (Telefon + Mesaj + OTA) Performans Analizi",
+      "text2": "Günümüzde çağrı merkezi performansı yalnızca telefon üzerinden ölçülemez. DGTLFACE; telefon çağrıları, WhatsApp ve web chat, Instagram & sosyal medya mesajları, OTA ve Google/Yandex mesaj & yorumlarını multi-channel performans ölçümü kapsamında analiz eder.\n\nBu analiz sayesinde:\n• Hangi kanalda daha çok soru/şikâyet geldiğini,\n• Hangi kanalda daha çok satış fırsatı bulunduğunu,\n• Hangi saat ve günlerde yoğunluk yaşandığını,\n• Hangi dillerde gecikme veya kalite sorunu olduğunu\nnet olarak görebilirsiniz.\n\nVerileriniz; “hissiyatla” değil, gözünüzle göreceğiniz dashboard’lar ile yönetilir.",
 
-      "header3": "Çok Kanallı (Telefon + Mesaj + OTA) Performans Analizi",
-      "text3": "Günümüzde çağrı merkezi performansı yalnızca telefon üzerinden ölçülemez. DGTLFACE; telefon çağrıları, WhatsApp ve web chat, Instagram & sosyal medya mesajları, OTA ve Google/Yandex mesaj & yorumlarını multi-channel performans ölçümü kapsamında analiz eder.\n\nBu analiz sayesinde:\n• Hangi kanalda daha çok soru/şikâyet geldiğini,\n• Hangi kanalda daha çok satış fırsatı bulunduğunu,\n• Hangi saat ve günlerde yoğunluk yaşandığını,\n• Hangi dillerde gecikme veya kalite sorunu olduğunu\nnet olarak görebilirsiniz.\n\nVerileriniz; “hissiyatla” değil, gözünüzle göreceğiniz dashboard’lar ile yönetilir.",
+      "header3": "Oteller ve Turizm Çağrı Merkezleri İçin Özel Performans Analizi",
+      "text3": "Turizm çağrı merkezlerinde performans analizi, klasik kurumsal yapılardan farklıdır; çünkü sezonluk yoğunluk, pazar bazlı davranış farkları ve rezervasyon–doluluk ilişkisinin direkt etkisi vardır.\n\nDGTLFACE, “otel çağrı merkezi raporu, turizm çağrı analizi, resort KPI yönetimi, Booking operasyon raporu” alanlarında; doluluk, gelir, rezervasyon ve kanal verilerini çağrı merkezi KPI’larıyla birleştirir. Pazar bazlı performans (örneğin Almanca konuşan misafirlerin dönüşüm oranı), sezon öncesi/sezon içi/sezon sonrası dönem analizleri ve OTA + web + çağrı merkezi kombinasyonunun etkisini raporlar.",
 
-      "header4": "DGTLFACE Çağrı Merkezi Performans Analizi Hizmet Detayları",
-      "text4": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇\n\nDGTLFACE; veri toplama & entegrasyon, dashboard & rapor tasarımı ve KPI analizi & optimizasyon önerilerini tek bir performans paketi olarak sunar. Böylece raporlar; günlük operasyonu yönlendiren canlı araçlara dönüşür.",
-
-      "header5": "Oteller ve Turizm Çağrı Merkezleri İçin Özel Performans Analizi",
-      "text5": "Turizm çağrı merkezlerinde performans analizi, klasik kurumsal yapılardan farklıdır; çünkü sezonluk yoğunluk, pazar bazlı davranış farkları ve rezervasyon–doluluk ilişkisinin direkt etkisi vardır.\n\nDGTLFACE, “otel çağrı merkezi raporu, turizm çağrı analizi, resort KPI yönetimi, Booking operasyon raporu” alanlarında; doluluk, gelir, rezervasyon ve kanal verilerini çağrı merkezi KPI’larıyla birleştirir. Pazar bazlı performans (örneğin Almanca konuşan misafirlerin dönüşüm oranı), sezon öncesi/sezon içi/sezon sonrası dönem analizleri ve OTA + web + çağrı merkezi kombinasyonunun etkisini raporlar.",
-
-      "header6": "Mikro Katman – H5 Konuları",
-      "text6": "Çağrı merkezi performansının pratik ölçüm özeti, inbound/outbound performans raporu hazırlama mantığı, otel çağrı merkezi KPI’ları ve multi-channel performans ölçümünün önemi; DGTLFACE’in performans analizi yaklaşımında mikro seviyede ele aldığı konulardır."
+      "header4": "Mikro Katman – H5 Konuları",
+      "text4": "Çağrı merkezi performansının pratik ölçüm özeti, inbound/outbound performans raporu hazırlama mantığı, otel çağrı merkezi KPI’ları ve multi-channel performans ölçümünün önemi; DGTLFACE’in performans analizi yaklaşımında mikro seviyede ele aldığı konulardır."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header": "DGTLFACE Çağrı Merkezi Performans Analizi Hizmet Detayları",
       "header1": "Veri Toplama ve Entegrasyon",
       "text1": "Doğru rapor için önce doğru veri gerekir. DGTLFACE:\n\n• Çağrı merkezi yazılımı,\n• Telefon santrali,\n• CRM ve PMS sistemleri,\n• WhatsApp & sosyal medya mesaj altyapıları,\n• OTA ve harita platformlarındaki verileri\n\ntek çatı altında toplar.\n\n“Multi-channel performans ölçümü, çağrı merkezi istatistikleri” için gerekli tüm kaynaklar; /tr/veri-analiz-ve-raporlama ve /tr/raporlama/looker-studio ile entegre edilir.",
 
@@ -5033,27 +5127,27 @@
     "ai_answer_title": "AI Answer Block – PMS Kurulum & Destek",
     "ai_answer_text": "DGTLFACE, otel PMS kurulumu hizmetinde Elektraweb ve diğer PMS sistemleri için kurulum, modül yapılandırma, eğitim ve sürekli destek sunar. Rezervasyon, oda & fiyat yönetimi, housekeeping, faturalama ve raporlama süreçleri otel yapınıza göre PMS’e taşınır. PMS–OTA–Channel Manager entegrasyonları ile fiyat ve envanter tek merkezden yönetilir; resepsiyon ve rezervasyon ekipleri eğitimlerle güçlendirilir, operasyon hızlanır ve gerçek zamanlı, güvenilir yönetim raporları oluşturulur.",
 
+       "subbanner_header3": "PMS Nedir, Otel Operasyonunda Neden Bu Kadar Kritik?",
+      "subbanner_text2": "“PMS kurulumu nedir, otel operasyon sistemi ne işe yarar?” sorusunun cevabı aslında çok net: PMS, otelinizin beynidir.\n\nDoğru kurulmuş bir PMS sistemi; tüm oda ve rezervasyon verilerini tek merkezde toplar, check-in/check-out, oda durumu, gelir ve tahsilat süreçlerini standartlaştırır, OTA, kanal yönetimi ve çağrı merkezi ile entegre çalışır, yönetim için net raporlar ve karar desteği üretir, hata, overbooking ve kayıp gelir riskini minimize eder.\n\nDGTLFACE, “turizm işletmeleri için PMS çözümleri, PMS otel operasyon entegrasyonu” gibi ihtiyaçlarda; sadece yazılımı kuran değil, iş süreçlerini PMS’e doğru taşıyan bir ekip olarak çalışır.",
+
     "h2Section": {
-      "header1": "PMS Nedir, Otel Operasyonunda Neden Bu Kadar Kritik?",
-      "text1": "“PMS kurulumu nedir, otel operasyon sistemi ne işe yarar?” sorusunun cevabı aslında çok net: PMS, otelinizin beynidir.\n\nDoğru kurulmuş bir PMS sistemi; tüm oda ve rezervasyon verilerini tek merkezde toplar, check-in/check-out, oda durumu, gelir ve tahsilat süreçlerini standartlaştırır, OTA, kanal yönetimi ve çağrı merkezi ile entegre çalışır, yönetim için net raporlar ve karar desteği üretir, hata, overbooking ve kayıp gelir riskini minimize eder.\n\nDGTLFACE, “turizm işletmeleri için PMS çözümleri, PMS otel operasyon entegrasyonu” gibi ihtiyaçlarda; sadece yazılımı kuran değil, iş süreçlerini PMS’e doğru taşıyan bir ekip olarak çalışır.",
+      "header1": "PMS Kurulumu Nasıl Yapılır? Adım Adım Süreç",
+      "text1": "<b>“PMS kurulumu nasıl yapılır?”</b> sorusu yalnızca teknik bir kurulumdan ibaret değildir; otelin iş yapış biçimiyle bire bir ilgilidir.\n\nDGTLFACE süreci; Analiz ve ihtiyaç tespiti, PMS modül kurulumu ve yapılandırma, PMS rezervasyon akışının kurgulanması, entegrasyonlar ve eğitim + go-live aşamalarıyla yönetir. Böylece sistem, ilk günden itibaren “idare eden” değil, operasyonu taşıyan bir omurga hâline gelir.",
 
-      "header2": "PMS Kurulumu Nasıl Yapılır? Adım Adım Süreç",
-      "text2": "“PMS kurulumu nasıl yapılır?” sorusu yalnızca teknik bir kurulumdan ibaret değildir; otelin iş yapış biçimiyle bire bir ilgilidir.\n\nDGTLFACE süreci; analiz ve ihtiyaç tespiti, PMS modül kurulumu ve yapılandırma, PMS rezervasyon akışının kurgulanması, entegrasyonlar ve eğitim + go-live aşamalarıyla yönetir. Böylece sistem, ilk günden itibaren “idare eden” değil, operasyonu taşıyan bir omurga hâline gelir.",
+      "header2": "Elektraweb Kurulumu ve PMS Eğitim Rehberi",
+      "text2": "Özellikle Türkiye ve Akdeniz hattında birçok otel için Elektraweb, PMS tarafında standart hâline gelmiş durumda. DGTLFACE, Elektraweb kurulumu ve eğitimi konusunda uzman kadrosuyla çalışır.\n\nElektraweb kurulumu ve teknik yapılandırmada; sunucu ve erişim ayarları, otel temel bilgilerinin tanımlanması, oda planı, fiyat şablonları ve tarih dönemlerinin girilmesi, kullanıcı rolleri ve yetki seviyeleri dikkatle kurgulanır.\n\n“Elektraweb eğitim rehberi, resepsiyon PMS eğitimi” sürecinde ise resepsiyon, rezervasyon, satış, yönetim ve muhasebe ekipleri rol bazlı senaryolarla eğitilir; canlı sistem üzerinde örnek rezervasyon, değişiklik, iptal ve tahsilat işlemleri çalışılır.",
 
-      "header3": "Elektraweb Kurulumu ve PMS Eğitim Rehberi",
-      "text3": "Özellikle Türkiye ve Akdeniz hattında birçok otel için Elektraweb, PMS tarafında standart hâline gelmiş durumda. DGTLFACE, Elektraweb kurulumu ve eğitimi konusunda uzman kadrosuyla çalışır.\n\nElektraweb kurulumu ve teknik yapılandırmada; sunucu ve erişim ayarları, otel temel bilgilerinin tanımlanması, oda planı, fiyat şablonları ve tarih dönemlerinin girilmesi, kullanıcı rolleri ve yetki seviyeleri dikkatle kurgulanır.\n\n“Elektraweb eğitim rehberi, resepsiyon PMS eğitimi” sürecinde ise resepsiyon, rezervasyon, satış, yönetim ve muhasebe ekipleri rol bazlı senaryolarla eğitilir; canlı sistem üzerinde örnek rezervasyon, değişiklik, iptal ve tahsilat işlemleri çalışılır.",
+      "header3": "PMS ile OTA, Kanal Yönetimi ve Fiyat Yönetimi Entegrasyonu",
+      "text3": "Tek başına PMS güçlüdür; ama OTA & kanal yönetimi ile entegre olduğunda “tam otel dijital omurgası” hâline gelir.\n\nDGTLFACE, “multi-OTA entegrasyon PMS, PMS fiyat yönetimi, PMS ile kanal senkronizasyonu” tarafında; PMS’i kanal yöneticisi ve OTA entegrasyonlarıyla (/tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi) entegre eder. Oda ve fiyat envanterinin tek merkezden yönetilmesini sağlar, fiyat yönetimi ve minimum–maksimum kalış kurallarını PMS’e taşır, yanlış fiyat, eksik stok, overbooking gibi riskleri minimize edecek kontroller kurar.",
 
-      "header4": "PMS ile OTA, Kanal Yönetimi ve Fiyat Yönetimi Entegrasyonu",
-      "text4": "Tek başına PMS güçlüdür; ama OTA & kanal yönetimi ile entegre olduğunda “tam otel dijital omurgası” hâline gelir.\n\nDGTLFACE, “multi-OTA entegrasyon PMS, PMS fiyat yönetimi, PMS ile kanal senkronizasyonu” tarafında; PMS’i kanal yöneticisi ve OTA entegrasyonlarıyla (/tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi) entegre eder. Oda ve fiyat envanterinin tek merkezden yönetilmesini sağlar, fiyat yönetimi ve minimum–maksimum kalış kurallarını PMS’e taşır, yanlış fiyat, eksik stok, overbooking gibi riskleri minimize edecek kontroller kurar.",
+      "header4": "PMS Performans Raporlama ve Yönetim İçin Görünürlük",
+      "text4": "Sadece çalışmak yetmez; nasıl çalıştığını da bilmek gerekir. DGTLFACE, PMS performans raporlama tarafında; doluluk, gelir, RevPAR, kanal bazlı performans gibi verileri PMS’ten çeker, segment, pazar, oda tipi ve kanal kırılımlarında raporlar.\n\n/tr/raporlama/looker-studio ile PMS verilerini diğer dijital veriler (web, reklam, çağrı merkezi) ile aynı panele taşır ve yönetime anlaşılır, aksiyon alınabilir dashboard’lar sunar. Böylece PMS, sadece “operasyon aracı” değil, karar destek sistemi hâline gelir."
 
-      "header5": "PMS Performans Raporlama ve Yönetim İçin Görünürlük",
-      "text5": "Sadece çalışmak yetmez; nasıl çalıştığını da bilmek gerekir. DGTLFACE, PMS performans raporlama tarafında; doluluk, gelir, RevPAR, kanal bazlı performans gibi verileri PMS’ten çeker, segment, pazar, oda tipi ve kanal kırılımlarında raporlar.\n\n/tr/raporlama/looker-studio ile PMS verilerini diğer dijital veriler (web, reklam, çağrı merkezi) ile aynı panele taşır ve yönetime anlaşılır, aksiyon alınabilir dashboard’lar sunar. Böylece PMS, sadece “operasyon aracı” değil, karar destek sistemi hâline gelir.",
-
-      "header6": "DGTLFACE PMS Kurulum & Destek Hizmet Detayları",
-      "text6": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇\n\nDGTLFACE; resort PMS kurulumu, butik otel PMS destek kurgusu ve PMS eğitim & sürekli destek modelini, otel tipinize ve ekip yapınıza göre özelleştirir. Böylece PMS; ekip değişse bile bilgi kaybı yaşanmayan, uzun vadeli bir kurumsal hafıza hâline gelir."
+      
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE PMS Kurulum & Destek Hizmet Detayları",
       "header1": "Analiz ve İhtiyaç Tespiti",
       "text1": "PMS kurulumunun ilk adımı, otelinizi ve mevcut süreçlerinizi anlamaktır. DGTLFACE; otel tipi (şehir, resort, butik, villa), oda sayısı, segmentler ve gelir kaynakları, mevcut sistemler (Excel, eski PMS, OTA bağlantıları, muhasebe) ve kullanıcı profillerini (resepsiyon, rezervasyon, yönetim, satış…) analiz eder.\n\nBu analizle; PMS’in hangi modüllerinin devreye alınacağı, öncelik sırası ve projedeki kilometre taşları netleşir.",
 
@@ -5134,28 +5228,24 @@
 
     "ai_answer_title": "AI Answer Block – OTA Entegrasyonu",
     "ai_answer_text": "DGTLFACE, OTA entegrasyonu ile Booking, Expedia, Agoda ve diğer kanalları PMS ve channel manager yapınızla entegre eder. Fiyat, envanter ve rezervasyon akışı tek merkezden yönetilir; rate parity korunur, overbooking riski azalır. Kanal bazlı gelir, iptal ve görünürlük performansı raporlanır; oteliniz için teknik bağlantı + gelir odaklı OTA stratejisi birlikte kurgulanarak online satış kanallarınız optimize edilir.",
+    "subbanner_header3": "OTA Entegrasyonu Nedir, Neden Bu Kadar Kritik?",
+    "subbanner_text2": "“Booking Expedia nasıl entegre edilir? OTA fiyat eşitleme yöntemleri nelerdir?” gibi sorular aslında şunu gösteriyor: Misafirlerinizin büyük kısmı artık Booking, Expedia, Agoda gibi OTA’lardan otelinizi keşfediyor, fiyat karşılaştırması yaparak karar veriyor ve rezervasyonlarını bu kanallar üzerinden tamamlıyor.\n\nDoğru kurgulanmış bir OTA entegrasyonu; PMS’iniz ile OTA’lar arasındaki oda, fiyat ve müsaitlik bilgisini gerçek zamanlı senkronize eder, farklı kanallarda farklı fiyat/kural hatası yapılmasını engeller, overbooking riskini düşürür, kanal bazlı performansın (dönüşüm, gelir, iptal oranı) net görülmesini sağlar ve ekibinizin manuel işlem yükünü ciddi oranda azaltır.\n\nDGTLFACE, “oteller için OTA performans artırma, turizm online satış entegrasyonu, çok kanallı rezervasyon yönetimi” ihtiyaçlarında; sadece teknik entegrasyon değil, iş modeli ve gelir stratejisiyle uyumlu OTA mimarisi kurar.",
 
     "h2Section": {
-      "header1": "OTA Entegrasyonu Nedir, Neden Bu Kadar Kritik?",
-      "text1": "“Booking Expedia nasıl entegre edilir? OTA fiyat eşitleme yöntemleri nelerdir?” gibi sorular aslında şunu gösteriyor: Misafirlerinizin büyük kısmı artık Booking, Expedia, Agoda gibi OTA’lardan otelinizi keşfediyor, fiyat karşılaştırması yaparak karar veriyor ve rezervasyonlarını bu kanallar üzerinden tamamlıyor.\n\nDoğru kurgulanmış bir OTA entegrasyonu; PMS’iniz ile OTA’lar arasındaki oda, fiyat ve müsaitlik bilgisini gerçek zamanlı senkronize eder, farklı kanallarda farklı fiyat/kural hatası yapılmasını engeller, overbooking riskini düşürür, kanal bazlı performansın (dönüşüm, gelir, iptal oranı) net görülmesini sağlar ve ekibinizin manuel işlem yükünü ciddi oranda azaltır.\n\nDGTLFACE, “oteller için OTA performans artırma, turizm online satış entegrasyonu, çok kanallı rezervasyon yönetimi” ihtiyaçlarında; sadece teknik entegrasyon değil, iş modeli ve gelir stratejisiyle uyumlu OTA mimarisi kurar.",
+      "header1": "Booking, Expedia, Agoda ve Diğer OTA Kanalları ile Entegrasyon",
+      "text1": "Her OTA kanalının kendine özgü dinamikleri vardır. DGTLFACE; Booking entegrasyonu ile otelinizin görünürlüğünü artırırken, fiyat ve envanter kontrolünü PMS’iniz üzerinden sürdürmenizi sağlar; Expedia channel manager ve bağlı alt markalar için doğru kanal yapılandırmasını kurar; Agoda, Hotelbeds ve diğer partner OTA’larla online rezervasyon entegrasyonu yapar.\n\nKanal bazlı komisyon, fiyatlandırma ve görünürlük stratejileri markanızla birlikte belirlenir. “Booking Expedia nasıl entegre edilir, OTA bağlantı sistemi, turizm online satış entegrasyonu” gibi başlıklarda entegrasyonun hem teknik hem ticari boyutu birlikte ele alınır. Sonuç: Tek bir PMS ve kanal yöneticisi üzerinden tüm OTA kanalları kontrollü, ölçülebilir ve ölçeklenebilir hâle gelir.",
 
-      "header2": "Booking, Expedia, Agoda ve Diğer OTA Kanalları ile Entegrasyon",
-      "text2": "Her OTA kanalının kendine özgü dinamikleri vardır. DGTLFACE; Booking entegrasyonu ile otelinizin görünürlüğünü artırırken, fiyat ve envanter kontrolünü PMS’iniz üzerinden sürdürmenizi sağlar; Expedia channel manager ve bağlı alt markalar için doğru kanal yapılandırmasını kurar; Agoda, Hotelbeds ve diğer partner OTA’larla online rezervasyon entegrasyonu yapar.\n\nKanal bazlı komisyon, fiyatlandırma ve görünürlük stratejileri markanızla birlikte belirlenir. “Booking Expedia nasıl entegre edilir, OTA bağlantı sistemi, turizm online satış entegrasyonu” gibi başlıklarda entegrasyonun hem teknik hem ticari boyutu birlikte ele alınır. Sonuç: Tek bir PMS ve kanal yöneticisi üzerinden tüm OTA kanalları kontrollü, ölçülebilir ve ölçeklenebilir hâle gelir.",
+      "header2": "OTA Fiyat Yönetimi ve Envanter Senkronizasyonu",
+      "text2": "OTA fiyat yönetimi, entegrasyonun kalbidir. Yanlış fiyat, anında gelir kaybı veya itibar sorunu demektir. DGTLFACE; OTA fiyat eşitleme ve fiyat stratejisi, pazar bazlı farklılaştırma, kampanya dönemleri (erken rezervasyon, son dakika, high season) için dinamik fiyat yönetimi kurgular.\n\nEnvanter tarafında; PMS üzerinden oda envanterinin ana kaynak olarak kullanılmasını sağlar, kanal yöneticisi üzerinden tüm OTA’lara aynı stok bilgisinin aktarılmasını yönetir, overbooking riskini azaltmak için stok kısıtlama ve buffer stratejileri önerir ve çoklu OTA + doğrudan satış kanalları arasında dengeli envanter dağılımı kurar.",
 
-      "header3": "OTA Fiyat Yönetimi ve Envanter Senkronizasyonu",
-      "text3": "OTA fiyat yönetimi, entegrasyonun kalbidir. Yanlış fiyat, anında gelir kaybı veya itibar sorunu demektir. DGTLFACE; OTA fiyat eşitleme ve fiyat stratejisi, pazar bazlı farklılaştırma, kampanya dönemleri (erken rezervasyon, son dakika, high season) için dinamik fiyat yönetimi kurgular.\n\nEnvanter tarafında; PMS üzerinden oda envanterinin ana kaynak olarak kullanılmasını sağlar, kanal yöneticisi üzerinden tüm OTA’lara aynı stok bilgisinin aktarılmasını yönetir, overbooking riskini azaltmak için stok kısıtlama ve buffer stratejileri önerir ve çoklu OTA + doğrudan satış kanalları arasında dengeli envanter dağılımı kurar.",
+      "header3": "OTA Performans Artırma ve Görünürlük Optimizasyonu",
+      "text3": "OTA entegrasyonu sadece teknik bağlantı değildir; aynı zamanda performans ve görünürlük işidir. DGTLFACE; kanal bazlı rezervasyon, gelir ve iptal oranlarını analiz eder, Booking, Expedia, Agoda vb. kanallardaki görünürlük puanları ve sıralama faktörlerini inceler, yorum, fotoğraf, içerik ve fiyat kombinasyonları üzerinden turizm OTA stratejisi geliştirir.\n\nOTA kampanya araçlarını (örneğin Booking Genius, Preferred Partner programları vb.) doğru zamanda ve doğru pazarda kullanmanızı sağlar. “Resort OTA optimizasyon, butik otel Booking bağlantısı, PMS–OTA ortak çalışma” gibi spesifik ihtiyaçlarda; segmentinize ve destinasyonunuza özel OTA stratejisi oluşturur.",
 
-      "header4": "OTA Performans Artırma ve Görünürlük Optimizasyonu",
-      "text4": "OTA entegrasyonu sadece teknik bağlantı değildir; aynı zamanda performans ve görünürlük işidir. DGTLFACE; kanal bazlı rezervasyon, gelir ve iptal oranlarını analiz eder, Booking, Expedia, Agoda vb. kanallardaki görünürlük puanları ve sıralama faktörlerini inceler, yorum, fotoğraf, içerik ve fiyat kombinasyonları üzerinden turizm OTA stratejisi geliştirir.\n\nOTA kampanya araçlarını (örneğin Booking Genius, Preferred Partner programları vb.) doğru zamanda ve doğru pazarda kullanmanızı sağlar. “Resort OTA optimizasyon, butik otel Booking bağlantısı, PMS–OTA ortak çalışma” gibi spesifik ihtiyaçlarda; segmentinize ve destinasyonunuza özel OTA stratejisi oluşturur.",
-
-      "header5": "DGTLFACE OTA Entegrasyonu Hizmet Detayları",
-      "text5": "DGTLFACE, OTA entegrasyon projelerinde; OTA kurulum ve kanal yapılandırma, fiyat & envanter akış modeli tasarımı, OTA raporlama ve performans analizi gibi katmanları uçtan uca ele alır.\n\nBooking, Expedia, Agoda ve diğer seçili kanallarda otel profilinizin doğru açılması, oda tipleri–fotoğraflar–açıklamaların optimize edilmesi, PMS ve kanal yöneticisiyle doğru mapping (oda ve fiyat eşlemesi) yapılması ve test rezervasyonlarıyla bağlantının doğrulanması bu sürecin temel taşlarıdır.",
-
-      "header6": "Mikro Katman – H5 Konuları",
-      "text6": "Şimdi H5 seviyesinde biraz daha yakından bakalım tatlım. 👇\n\nBooking & Expedia entegrasyonu, OTA fiyat eşitleme yöntemleri, envanter yönetimi rehberi, turizm online satış entegrasyonu ve PMS–OTA ortak çalışma senaryosu gibi detaylarda; hem teknik ekipleriniz hem de satış/gelir yönetimi tarafı için net yol haritaları çıkarıyoruz."
+      "header4": "DGTLFACE OTA Entegrasyonu Hizmet Detayları",
+      "text4": "DGTLFACE, OTA entegrasyon projelerinde; OTA kurulum ve kanal yapılandırma, fiyat & envanter akış modeli tasarımı, OTA raporlama ve performans analizi gibi katmanları uçtan uca ele alır.\n\nBooking, Expedia, Agoda ve diğer seçili kanallarda otel profilinizin doğru açılması, oda tipleri–fotoğraflar–açıklamaların optimize edilmesi, PMS ve kanal yöneticisiyle doğru mapping (oda ve fiyat eşlemesi) yapılması ve test rezervasyonlarıyla bağlantının doğrulanması bu sürecin temel taşlarıdır."
     },
 
-    "h3Details": {
+    "h3Section": {
       "header1": "OTA Fiyat Eşitleme ve Fiyat Stratejisi",
       "text1": "DGTLFACE; her kanal için temel fiyat stratejisini (BAR, kampanya, paket) tanımlar, OTA fiyat eşitleme yöntemleri ile doğrudan kanal ve OTA kanalları arasında fiyat paritesi sağlama prensibini uygular. Pazar bazlı fiyat farklılaştırması gerekiyorsa (örneğin DE, RU, UK pazarına özel fiyatlar), bunu kontrollü senaryolarla yönetir.\n\nKampanya dönemlerinde (erken rezervasyon, son dakika, high season) fiyatların OTA’da doğru ve zamanında güncellenmesini sağlar. “OTA fiyat kontrol sistemi, turizm fiyat yönetimi, OTA fiyat stratejisi” gibi kritik alanlarda PMS + kanal yöneticisi + OTA arasında net kurallar kurulur.",
 
@@ -5236,28 +5326,26 @@
 
     "ai_answer_title": "AI Answer Block – Kanal Yönetimi",
     "ai_answer_text": "DGTLFACE, kanal yönetimi (channel management) hizmetiyle; PMS + Channel Manager + OTA üçlüsünü kurarak otellerde fiyat ve envanteri tüm satış kanallarında senkronize eder. Booking, Expedia, Agoda, web rezervasyon motoru ve çağrı merkezi tek panelden yönetilir; rate & inventory sync ile overbooking riski azalır, pazar bazlı fiyatlandırma stratejileri uygulanır ve doluluk–gelir performansı optimize edilir. Resort ve butik oteller için ayrı kanal stratejileri kurgulanır.",
+     "subbanner_header3": "Kanal Yönetimi Nedir, Oteller İçin Neden Vazgeçilmez?",
+      "subbanner_text2": "“Channel manager nasıl çalışır? Kanal yönetimi tam olarak ne yapar?” sorularının cevabı basit: Kanal yönetimi; tüm OTA ve online satış kanallarındaki fiyat ve müsaitlik bilgilerini tek panelden yönetmenizi sağlayan, PMS’inizle uyumlu çalışan, otomatik senkronizasyonla manuel hata riskini azaltan ve fiyat stratejinizi her kanala doğru ve hızlı yansıtmanızı sağlayan bir yapıdır.\n\nÖzellikle rekabetin yüksek olduğu turizm bölgelerinde; oteller için fiyat optimizasyonu, turizm fiyat yönetimi ve oda doluluk artırma teknikleri kanal yönetimi olmadan sağlıklı yürütülemez hâle geliyor. DGTLFACE, bu alanı hem teknik hem ticari tarafta sizin yerinize omuzlar.",
+
 
     "h2Section": {
-      "header1": "Kanal Yönetimi Nedir, Oteller İçin Neden Vazgeçilmez?",
-      "text1": "“Channel manager nasıl çalışır? Kanal yönetimi tam olarak ne yapar?” sorularının cevabı basit: Kanal yönetimi; tüm OTA ve online satış kanallarındaki fiyat ve müsaitlik bilgilerini tek panelden yönetmenizi sağlayan, PMS’inizle uyumlu çalışan, otomatik senkronizasyonla manuel hata riskini azaltan ve fiyat stratejinizi her kanala doğru ve hızlı yansıtmanızı sağlayan bir yapıdır.\n\nÖzellikle rekabetin yüksek olduğu turizm bölgelerinde; oteller için fiyat optimizasyonu, turizm fiyat yönetimi ve oda doluluk artırma teknikleri kanal yönetimi olmadan sağlıklı yürütülemez hâle geliyor. DGTLFACE, bu alanı hem teknik hem ticari tarafta sizin yerinize omuzlar.",
+      "header1": "Fiyat Yönetimi – Pazar Bazlı Strateji ve Oda Geliri",
+      "text1": "Doğru fiyat, doğru kanalda, doğru zamanda… İşin kalbi burada. DGTLFACE; PMS’inizi (/tr/pms-ota/pms-kurulum) fiyatların ana kaynağı olacak şekilde konumlandırır, her kanal (Booking, Expedia, doğrudan web, çağrı merkezi) için temel fiyat stratejisini netleştirir.\n\nPazar bazlı fiyatlandırma ile farklı ülke ve segmentlerde farklı fiyat politikaları uygulamanız gerekiyorsa bunu kontrollü bir modelle tasarlar. Kampanya ve sezon dönemlerinde (erken rezervasyon, high season, son dakika) kanal bazlı fiyat ve indirim yapısını tanımlar. Sonuç: Fiyatlarınız karışmaz, kanallar birbiriyle kavga etmez, misafir algısı dengeli kalır.",
 
-      "header2": "Fiyat Yönetimi – Pazar Bazlı Strateji ve Oda Geliri",
-      "text2": "Doğru fiyat, doğru kanalda, doğru zamanda… İşin kalbi burada. DGTLFACE; PMS’inizi (/tr/pms-ota/pms-kurulum) fiyatların ana kaynağı olacak şekilde konumlandırır, her kanal (Booking, Expedia, doğrudan web, çağrı merkezi) için temel fiyat stratejisini netleştirir.\n\nPazar bazlı fiyatlandırma ile farklı ülke ve segmentlerde farklı fiyat politikaları uygulamanız gerekiyorsa bunu kontrollü bir modelle tasarlar. Kampanya ve sezon dönemlerinde (erken rezervasyon, high season, son dakika) kanal bazlı fiyat ve indirim yapısını tanımlar. Sonuç: Fiyatlarınız karışmaz, kanallar birbiriyle kavga etmez, misafir algısı dengeli kalır.",
+      "header2": "Envanter Senkronizasyonu – Overbooking Riskini Azaltın",
+      "text2": "Yanlış envanter yönetimi; overbooking, iptal, şikâyet ve itibar kaybı demektir. DGTLFACE, envanter senkronizasyonunda oda stokunun ana kaynağını PMS’e bağlar, PMS → Channel Manager → OTA yönünde tek yönlü ve kontrollü bir akış kurgular.\n\nKanal bazlı stok ayırma gerekiyorsa (örneğin belli sayıda odayı sadece direkt rezervasyona ayırmak) net kurallar tanımlar. Envanter kontrol yöntemleri ile kritik dönemlerde (bayram, festival, kongre, high season) riskleri en aza indirecek buffer ve kota stratejileri önerir. Hedef: Satılabilir her odayı doğru zamanda, doğru kanalda satmak; ama bir odayı iki kere satmamak.",
 
-      "header3": "Envanter Senkronizasyonu – Overbooking Riskini Azaltın",
-      "text3": "Yanlış envanter yönetimi; overbooking, iptal, şikâyet ve itibar kaybı demektir. DGTLFACE, envanter senkronizasyonunda oda stokunun ana kaynağını PMS’e bağlar, PMS → Channel Manager → OTA yönünde tek yönlü ve kontrollü bir akış kurgular.\n\nKanal bazlı stok ayırma gerekiyorsa (örneğin belli sayıda odayı sadece direkt rezervasyona ayırmak) net kurallar tanımlar. Envanter kontrol yöntemleri ile kritik dönemlerde (bayram, festival, kongre, high season) riskleri en aza indirecek buffer ve kota stratejileri önerir. Hedef: Satılabilir her odayı doğru zamanda, doğru kanalda satmak; ama bir odayı iki kere satmamak.",
+      "header3": "Channel Manager Nasıl Çalışır? Doğru Model Nasıl Kurulur?",
+      "text3": "Channel manager, kanal yönetiminin araç kısmıdır. Önemli olan, bu aracı doğru mimariyle konumlandırmak. PMS’ten oda ve fiyat bilgisi channel manager’a akar; channel manager bu bilgiyi bağlı olduğu tüm OTA ve kanallara dağıtır; OTA’lardaki yeni rezervasyonlar channel manager üzerinden PMS’e geri düşer; fiyat değişikliği, doluluk, stop-sell gibi aksiyonlar tek panelden yönetilir.\n\nDGTLFACE, “channel manager nasıl çalışır, PMS ile kanal senkronizasyonu nasıl olmalı?” sorularına, otelinizin gerçek yapısına göre cevap veren bir model kurar.",
 
-      "header4": "Channel Manager Nasıl Çalışır? Doğru Model Nasıl Kurulur?",
-      "text4": "Channel manager, kanal yönetiminin araç kısmıdır. Önemli olan, bu aracı doğru mimariyle konumlandırmak. PMS’ten oda ve fiyat bilgisi channel manager’a akar; channel manager bu bilgiyi bağlı olduğu tüm OTA ve kanallara dağıtır; OTA’lardaki yeni rezervasyonlar channel manager üzerinden PMS’e geri düşer; fiyat değişikliği, doluluk, stop-sell gibi aksiyonlar tek panelden yönetilir.\n\nDGTLFACE, “channel manager nasıl çalışır, PMS ile kanal senkronizasyonu nasıl olmalı?” sorularına, otelinizin gerçek yapısına göre cevap veren bir model kurar.",
-
-      "header5": "Resort ve Butik Oteller İçin Özel Kanal Yönetimi Senaryoları",
-      "text5": "Her otelin kanal yönetimi ihtiyacı aynı değildir. Resort projelerde; çok oda + çok pazar + çok kampanya ortamını yönetebilecek sade ama güçlü bir kanal yapısı kurarız, ana pazarlar (DE, RU, UK, iç pazar) için ayrı fiyat ve envanter stratejileri tanımlar, uzun konaklama ve yüksek sezon dönemlerinde fiyat & kontenjan kombinasyonlarını netleştiririz.\n\n“Butik otel kanal yönetimi” tarafında ise daha az oda, daha kişisel hizmet ve daha esnek rezervasyon talepleri öne çıkar. Daha sınırlı ama doğru seçilmiş kanal seti (2–3 OTA + web + telefon) ve değer odaklı stratejiyle; az kanal, yüksek kontrol, güçlü direkt satış dengesi kurulur.",
-
-      "header6": "DGTLFACE Kanal Yönetimi Hizmet Detayları",
-      "text6": "DGTLFACE, kanal yönetimi projelerinde; kanal seti analizi ve stratejik kanal seçimi, fiyat optimizasyonu ve pazar bazlı fiyatlandırma, rezervasyon yönetim sistemi ve operasyon uyumlu süreç tasarımı gibi katmanları uçtan uca ele alır.\n\nKanal yönetimi, böylece sadece “IT işi” değil; çağrı merkezi, OTA, web sitesi ve PMS’in aynı hikâyeyi anlattığı bir çalışma biçimi hâline gelir."
+      "header4": "Resort ve Butik Oteller İçin Özel Kanal Yönetimi Senaryoları",
+      "text4": "Her otelin kanal yönetimi ihtiyacı aynı değildir. Resort projelerde; çok oda + çok pazar + çok kampanya ortamını yönetebilecek sade ama güçlü bir kanal yapısı kurarız, ana pazarlar (DE, RU, UK, iç pazar) için ayrı fiyat ve envanter stratejileri tanımlar, uzun konaklama ve yüksek sezon dönemlerinde fiyat & kontenjan kombinasyonlarını netleştiririz.\n\n“Butik otel kanal yönetimi” tarafında ise daha az oda, daha kişisel hizmet ve daha esnek rezervasyon talepleri öne çıkar. Daha sınırlı ama doğru seçilmiş kanal seti (2–3 OTA + web + telefon) ve değer odaklı stratejiyle; az kanal, yüksek kontrol, güçlü direkt satış dengesi kurulur."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Kanal Yönetimi Hizmet Detayları",
       "header1": "Kanal Seti Analizi ve Stratejik Kanal Seçimi",
       "text1": "Her OTA “olmalıyız” değildir. DGTLFACE; mevcut kanal setinizi ve performanslarını analiz eder, hangi OTA ve kanalların gerçekten gelir ve kalite getirdiğini ortaya çıkarır, hangi kanalların sadece “raf kalabalığı” yaptığını gösterir ve yeni pazarlara açılmak için önerilen OTA’ları ve B2B platformları sunar.\n\n“Turizm fiyat yönetimi Türkiye, Antalya otel fiyat sistemi” gibi başlıklarda; kanal sayısını artırmak değil, doğru kanallarda güçlü durmak önceliğimizdir.",
 
@@ -5335,25 +5423,23 @@
 
     "ai_answer_title": "AI Answer Block – Online Satış Optimizasyonu",
     "ai_answer_text": "DGTLFACE, online satış optimizasyonu ile otellerin OTA, web rezervasyon sistemi, çağrı merkezi ve kampanya yapılarından oluşan tüm dijital satış kanallarını tek gelir modeli içinde birleştirir. Fiyat stratejisi, pazar bazlı segmentasyon, görünürlük artırma, rezervasyon dönüşüm analizi ve RevPAR optimizasyonu ile her otel için özel bir gelir–doluluk roadmap’i hazırlanır. PMS–OTA verilerine dayalı aylık performans raporlarıyla online satışlar sürekli test edilir ve iyileştirilir.",
+     "subbanner_header3": "Online Satış Optimizasyonu Nedir, Oteller İçin Neyi Değiştirir?",
+      "subbanner_text2": "“Online satış optimizasyonu nasıl yapılır? Oteller için satış artırma rehberi nedir?” sorularının cevabı, dağınık kanallardan tek akıllı satış mimarisine geçmekten geçer.\n\nDoğru kurgulanmış bir online satış optimizasyonu; web sitesi, OTA, çağrı merkezi ve sosyal medya gibi tüm online kanallarınızı uyum içinde çalıştırır; fiyat, müsaitlik ve kampanyaları her kanalda kontrollü biçimde kurgular; rezervasyon dönüşüm oranını artırır; oda başı gelir (RevPAR) odaklı gelir yönetimi stratejileri uygular ve pazarlama yatırımlarınızın (Google Ads, Meta Ads, SEO, SMM) satışa etkisini net gösterir.\n\nDGTLFACE, “turizm satış stratejileri, turizm satış danışmanlığı, PMS gelir yönetimi” alanlarında sadece teori değil, gerçek otel operasyonu ve satış verisiyle çalışan bir yapı sunar.",
+    
+      "h2Section": {
+      "header1": "OTA + Web Sitesi + Çağrı Merkezi: Tek Satış Hunisi",
+      "text1": "Birçok otelde dijital satış kanalları ayrı ayrı yaşar: OTA ayrı, web ayrı, çağrı merkezi ayrı. Sonuç: potansiyel kayıp.\n\nDGTLFACE, online satış optimizasyonunda; OTA kanallarını (Booking, Expedia, Agoda vb.) görünürlük ve doluluk için güçlü bir vitrin olarak kurgular; web sitenizi (/tr/yazilim/web-sitesi-gelistirme, /tr/otel-dijital-pazarlama) yüksek dönüşüm odaklı, hızlı ve güven veren bir rezervasyon platformuna çevirir; çağrı merkezi & rezervasyon hattınızı (/tr/cagri-merkezi/rezervasyon-destegi, /tr/otel/cagri-merkezi) hem destek hem satış kapanış noktası olarak konumlandırır.\n\nTüm bu kanallardan gelen veri, PMS ve raporlama yapısıyla (/tr/pms-ota-yonetimi, /tr/veri-analiz-ve-raporlama) aynı masaya taşınır. “Çağrı merkezi + OTA kombine satış” yapısı ile; misafirin hangi kanaldan geldiği değil, nasıl en iyi deneyimi ve doğru fiyatı aldığı önem kazanır.",
 
-    "h2Section": {
-      "header1": "Online Satış Optimizasyonu Nedir, Oteller İçin Neyi Değiştirir?",
-      "text1": "“Online satış optimizasyonu nasıl yapılır? Oteller için satış artırma rehberi nedir?” sorularının cevabı, dağınık kanallardan tek akıllı satış mimarisine geçmekten geçer.\n\nDoğru kurgulanmış bir online satış optimizasyonu; web sitesi, OTA, çağrı merkezi ve sosyal medya gibi tüm online kanallarınızı uyum içinde çalıştırır; fiyat, müsaitlik ve kampanyaları her kanalda kontrollü biçimde kurgular; rezervasyon dönüşüm oranını artırır; oda başı gelir (RevPAR) odaklı gelir yönetimi stratejileri uygular ve pazarlama yatırımlarınızın (Google Ads, Meta Ads, SEO, SMM) satışa etkisini net gösterir.\n\nDGTLFACE, “turizm satış stratejileri, turizm satış danışmanlığı, PMS gelir yönetimi” alanlarında sadece teori değil, gerçek otel operasyonu ve satış verisiyle çalışan bir yapı sunar.",
+      "header2": "Fiyat Stratejisi ve Gelir Yönetimi (Revenue Management)",
+      "text2": "Online satış optimizasyonunun kalbi, iyi kurgulanmış bir fiyat stratejisidir. DGTLFACE; sezon, dönem, pazar ve segment bazlı fiyat katmanları belirler; minimum geceleme, iptal koşulları, erken rezervasyon ve son dakika kampanyalarının kurgusunu yapar.\n\nOTA, web ve çağrı merkezi arasında dengeli fiyat & kampanya stratejisi kurar; oda başı gelir artırma (RevPAR) odaklı test ve optimizasyon döngüleri uygular; fiyat kararlarını doluluk, talep, benchmark ve rekabet verilerine dayalı biçimde almanıza yardımcı olur.\n\n“Turizm satış stratejileri, turizm satış Türkiye, otel gelir yönetimi Antalya, butik otel gelir yönetimi, resort satış optimizasyonu, PMS gelir yönetimi” gibi alanlarda; PMS ve kanal yönetimi altyapısıyla entegre bir revenue management bakışı sunar.",
 
-      "header2": "OTA + Web Sitesi + Çağrı Merkezi: Tek Satış Hunisi",
-      "text2": "Birçok otelde dijital satış kanalları ayrı ayrı yaşar: OTA ayrı, web ayrı, çağrı merkezi ayrı. Sonuç: potansiyel kayıp.\n\nDGTLFACE, online satış optimizasyonunda; OTA kanallarını (Booking, Expedia, Agoda vb.) görünürlük ve doluluk için güçlü bir vitrin olarak kurgular; web sitenizi (/tr/yazilim/web-sitesi-gelistirme, /tr/otel-dijital-pazarlama) yüksek dönüşüm odaklı, hızlı ve güven veren bir rezervasyon platformuna çevirir; çağrı merkezi & rezervasyon hattınızı (/tr/cagri-merkezi/rezervasyon-destegi, /tr/otel/cagri-merkezi) hem destek hem satış kapanış noktası olarak konumlandırır.\n\nTüm bu kanallardan gelen veri, PMS ve raporlama yapısıyla (/tr/pms-ota-yonetimi, /tr/veri-analiz-ve-raporlama) aynı masaya taşınır. “Çağrı merkezi + OTA kombine satış” yapısı ile; misafirin hangi kanaldan geldiği değil, nasıl en iyi deneyimi ve doğru fiyatı aldığı önem kazanır.",
-
-      "header3": "Fiyat Stratejisi ve Gelir Yönetimi (Revenue Management)",
-      "text3": "Online satış optimizasyonunun kalbi, iyi kurgulanmış bir fiyat stratejisidir. DGTLFACE; sezon, dönem, pazar ve segment bazlı fiyat katmanları belirler; minimum geceleme, iptal koşulları, erken rezervasyon ve son dakika kampanyalarının kurgusunu yapar.\n\nOTA, web ve çağrı merkezi arasında dengeli fiyat & kampanya stratejisi kurar; oda başı gelir artırma (RevPAR) odaklı test ve optimizasyon döngüleri uygular; fiyat kararlarını doluluk, talep, benchmark ve rekabet verilerine dayalı biçimde almanıza yardımcı olur.\n\n“Turizm satış stratejileri, turizm satış Türkiye, otel gelir yönetimi Antalya, butik otel gelir yönetimi, resort satış optimizasyonu, PMS gelir yönetimi” gibi alanlarda; PMS ve kanal yönetimi altyapısıyla entegre bir revenue management bakışı sunar.",
-
-      "header4": "Rezervasyon Dönüşümünü Artırma – Web & OTA & Çağrı Merkezi",
-      "text4": "Doluluk kadar önemli diğer bir metrik de dönüşümdür: Kaç kişi bakıp kaç kişi rezervasyon yapıyor?\n\nWeb tarafında DGTLFACE; rezervasyon motoru, oda detay sayfaları, fiyat gösterim biçimi, form alanları ve adım sayısını analiz eder; “web rezervasyon dönüşüm optimizasyonu, online satış optimizasyonu nasıl yapılır” sorularına daha az adım, daha net bilgi ve daha güçlü güven unsurları (yorum, sertifika, güvenlik, ödeme altyapısı) ile yanıt verir. SEO (/tr/seo/yerel-seo, /tr/seo/icerik-seo) ve SEM (/tr/sem) ile trafik → rezervasyon hunisini uçtan uca optimize eder.\n\nOTA tarafında fotoğraf, açıklama, özellik ve yorum alanları analiz edilir; “Booking dönüşüm artırma, OTA performans artırma” hedefiyle içerik, görsel ve kampanya önerileri sunulur; yorum yönetimi satış huninizin parçası hâline getirilir.\n\nÇağrı merkezi tarafında ise “Çağrı merkezi + OTA kombine satış” modeliyle; OTA’dan sizi bulan misafire daha detaylı bilgi ve uygun paketler sunulur, yarım kalmış rezervasyon niyetleri outbound aramalarla geri kazanılır ve yüksek sepetli rezervasyonlarda insan teması devreye alınır.",
-
-      "header5": "DGTLFACE Online Satış Optimizasyonu Hizmet Detayları",
-      "text5": "DGTLFACE, online satış optimizasyonu projelerinde resort satış optimizasyonu, butik otel gelir yönetimi ve turizm satış danışmanlığını aynı çerçevede ele alır.\n\nResort projelerde; yüksek oda sayısı, farklı konseptler ve çoklu pazar yapısı analiz edilerek OTA + web + acente + çağrı merkezi kanal karması kurgulanır, yüksek sezon ve yan gelir kalemleri (spa, à la carte, etkinlik, transfer) satış hunisine dahil edilir.\n\nButik otellerde; az oda, yüksek deneyim ve doğru hedef kitleye odaklanarak, doğrudan kanal (web + telefon) ağırlıklı, seçili OTA ve özel anlaşmalarla desteklenen değer odaklı bir gelir modeli kurulur.\n\n“Turizm satış danışmanlığı” kapsamında ise mevcut satış kanalları analiz edilir, pazar bazlı fırsatlar belirlenir ve 3–6–12 aylık turizm satış stratejileri ile aksiyon planları hazırlanır."
+      "header3": "Rezervasyon Dönüşümünü Artırma – Web & OTA & Çağrı Merkezi",
+      "text3": "Doluluk kadar önemli diğer bir metrik de dönüşümdür: Kaç kişi bakıp kaç kişi rezervasyon yapıyor?\n\nWeb tarafında DGTLFACE; rezervasyon motoru, oda detay sayfaları, fiyat gösterim biçimi, form alanları ve adım sayısını analiz eder; “web rezervasyon dönüşüm optimizasyonu, online satış optimizasyonu nasıl yapılır” sorularına daha az adım, daha net bilgi ve daha güçlü güven unsurları (yorum, sertifika, güvenlik, ödeme altyapısı) ile yanıt verir. SEO (/tr/seo/yerel-seo, /tr/seo/icerik-seo) ve SEM (/tr/sem) ile trafik → rezervasyon hunisini uçtan uca optimize eder.\n\nOTA tarafında fotoğraf, açıklama, özellik ve yorum alanları analiz edilir; “Booking dönüşüm artırma, OTA performans artırma” hedefiyle içerik, görsel ve kampanya önerileri sunulur; yorum yönetimi satış huninizin parçası hâline getirilir.\n\nÇağrı merkezi tarafında ise “Çağrı merkezi + OTA kombine satış” modeliyle; OTA’dan sizi bulan misafire daha detaylı bilgi ve uygun paketler sunulur, yarım kalmış rezervasyon niyetleri outbound aramalarla geri kazanılır ve yüksek sepetli rezervasyonlarda insan teması devreye alınır."
     },
 
     "h3Details": {
+      "header":"DGTLFACE Online Satış Optimizasyonu Hizmet Detayları",
+
       "header1": "Resort Satış Optimizasyonu",
       "text1": "“Resort satış optimizasyonu, all inclusive resort satış stratejileri” tarafında DGTLFACE; yoğun oda sayısı, farklı konseptler (ultra her şey dahil vb.) ve çoklu pazar yapısını analiz eder. OTA + web + acente + çağrı merkezi kanal karmasını doğru kurar; yüksek sezon, bayram ve okul tatili dönemleri için ayrı satış senaryoları tasarlar.\n\nYan gelir kalemlerini (spa, à la carte, etkinlik, transfer) satış hunisine dahil ederek sadece yüksek doluluk değil, yüksek RevPAR ve toplam gelir üretmeyi hedefler.",
 
@@ -5431,25 +5517,25 @@
 
     "ai_answer_title": "AI Answer Block – Rezervasyon Yönetimi",
     "ai_answer_text": "DGTLFACE, rezervasyon yönetimi hizmetinde OTA, web sitesi, çağrı merkezi, WhatsApp ve acente gibi tüm kanallardan gelen talepleri PMS rezervasyon modülü üzerinde birleştirir. Müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve no-show süreçleri net bir akışla kurgulanır. Böylece hem resepsiyon hem call center tarafında hata oranı azalır; doluluk ve gelir daha kontrollü yönetilir, misafir deneyimi güçlenir.",
-
-    "h2Section": {
-      "header1": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
+"header1": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
       "text1": "“Rezervasyon yönetimi nasıl yapılır? Oteller için rezervasyon kontrol sistemi nasıl olmalı?” soruları aslında şuna bakıyor:\n\nRezervasyon talebi hangi kanaldan gelirse gelsin (OTA, web, telefon, WhatsApp, acente),\nmisafir tüm süreçte aynı netlik, hız ve ilgiyle karşılanıyor mu?\nOtel içinde herkes aynı rezervasyon ekranını mı görüyor, yoksa farklı listeler mi dolaşıyor?\n\nDoğru kurgulanmış bir rezervasyon yönetimi; tüm kanalları (OTA, web, çağrı merkezi, acente, kurumsal) tek bir rezervasyon sistemi altında toplar; rezervasyon sürecini (talep → teyit → ödeme → check-in öncesi iletişim) standartlaştırır; overbooking, eksik bilgi, yanlış tarih/oda gibi riskleri azaltır; misafir iletişimini güçlendirir ve gelir yönetimi ile doluluk planlaması için sağlıklı veri üretir.\n\nDGTLFACE, “online + telefon rezervasyon dengesi, turizm sektörü rezervasyon teknikleri, PMS rezervasyon modülü” gibi konuları otelinizin gerçek operasyonuna göre uçtan uca kurgular.",
+    
+      "h2Section": {
+      "header1": "Rezervasyon Sistemi ve Temel Mimari",
+      "text1": "Sağlam bir rezervasyon sistemi, farklı kaynaklardan gelen tüm rezervasyon hareketlerini kontrollü bir akışta toplar.\n\nRezervasyon sistemi; PMS üzerindeki rezervasyon modülünü, OTA ve kanal yöneticisi entegrasyonlarını (/tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi), web sitesi rezervasyon motorunu (/tr/yazilim/web-sitesi-gelistirme, /tr/otel-dijital-pazarlama), çağrı merkezi & telefon rezervasyon hattını (/tr/cagri-merkezi/rezervasyon-destegi, /tr/otel/cagri-merkezi) ve WhatsApp, sosyal medya, form üzerinden gelen rezervasyon taleplerini kapsar.\n\nBu yapıdaki her hareket, tek bir rezervasyon yönetim sistemi üzerinden takip edilmelidir.",
 
-      "header2": "Rezervasyon Sistemi ve Temel Mimari",
-      "text2": "Sağlam bir rezervasyon sistemi, farklı kaynaklardan gelen tüm rezervasyon hareketlerini kontrollü bir akışta toplar.\n\nRezervasyon sistemi; PMS üzerindeki rezervasyon modülünü, OTA ve kanal yöneticisi entegrasyonlarını (/tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi), web sitesi rezervasyon motorunu (/tr/yazilim/web-sitesi-gelistirme, /tr/otel-dijital-pazarlama), çağrı merkezi & telefon rezervasyon hattını (/tr/cagri-merkezi/rezervasyon-destegi, /tr/otel/cagri-merkezi) ve WhatsApp, sosyal medya, form üzerinden gelen rezervasyon taleplerini kapsar.\n\nBu yapıdaki her hareket, tek bir rezervasyon yönetim sistemi üzerinden takip edilmelidir.",
+      "header2": "Otel Kayıt Sistemi ve Veri Bütünlüğü",
+      "text2": "“Otel kayıt sistemi” rezervasyon tarafında; misafir bilgileri (isim, iletişim, ülke, çocuk/yetişkin bilgisi), konaklama detayları (tarih, oda tipi, konsept, kişi sayısı), ödeme ve garanti durumu (ön ödeme, kart bilgisi, acente garantisi) ve özel notlar (alerji, özel istekler, kutlama vb.) gibi alanların doğru ve eksiksiz tutulmasını gerektirir.\n\nDGTLFACE, bu verilerin PMS ve rezervasyon modülü üzerinde düzenli, okunabilir ve raporlanabilir olmasını sağlar; böylece hem operasyon hem raporlama tarafında tek ve güvenilir bir veri kaynağı oluşur.",
 
-      "header3": "Otel Kayıt Sistemi ve Veri Bütünlüğü",
-      "text3": "“Otel kayıt sistemi” rezervasyon tarafında; misafir bilgileri (isim, iletişim, ülke, çocuk/yetişkin bilgisi), konaklama detayları (tarih, oda tipi, konsept, kişi sayısı), ödeme ve garanti durumu (ön ödeme, kart bilgisi, acente garantisi) ve özel notlar (alerji, özel istekler, kutlama vb.) gibi alanların doğru ve eksiksiz tutulmasını gerektirir.\n\nDGTLFACE, bu verilerin PMS ve rezervasyon modülü üzerinde düzenli, okunabilir ve raporlanabilir olmasını sağlar; böylece hem operasyon hem raporlama tarafında tek ve güvenilir bir veri kaynağı oluşur.",
+      "header3": "Online & Telefon Rezervasyon Dengesi",
+      "text3": "Modern oteller için online + telefon rezervasyon dengesi, hem satış hem misafir deneyimi tarafında kritik bir başlıktır.\n\nOnline rezervasyonda; OTA ve web rezervasyonları otomatik olarak PMS’e düşer, rezervasyon yönetimi ekibi bu kayıtları kontrol eder (tarih, fiyat, oda tipi, özel istekler) ve gerekirse ön bilgilendirme veya teyit için misafirle iletişime geçer. Opsiyon, ön ödeme, garanti gibi hususlar PMS içinde takip edilir.\n\nTelefon rezervasyonu ise hâlâ özellikle yaşça daha büyük misafirler, yüksek bütçeli / uzun konaklamalar, özel paketler, grup ve kurumsal rezervasyonlar için çok önemlidir. DGTLFACE, telefon rezervasyon hattını; sadece bilgi veren değil, satış kapatan bir yapı olarak kurgular (/tr/cagri-merkezi/rezervasyon-destegi). Online + telefon rezervasyon dengesinde misafir; nereden gelirse gelsin aynı fiyat, aynı bilgi ve aynı kaliteyi görmelidir.",
 
-      "header4": "Online & Telefon Rezervasyon Dengesi",
-      "text4": "Modern oteller için online + telefon rezervasyon dengesi, hem satış hem misafir deneyimi tarafında kritik bir başlıktır.\n\nOnline rezervasyonda; OTA ve web rezervasyonları otomatik olarak PMS’e düşer, rezervasyon yönetimi ekibi bu kayıtları kontrol eder (tarih, fiyat, oda tipi, özel istekler) ve gerekirse ön bilgilendirme veya teyit için misafirle iletişime geçer. Opsiyon, ön ödeme, garanti gibi hususlar PMS içinde takip edilir.\n\nTelefon rezervasyonu ise hâlâ özellikle yaşça daha büyük misafirler, yüksek bütçeli / uzun konaklamalar, özel paketler, grup ve kurumsal rezervasyonlar için çok önemlidir. DGTLFACE, telefon rezervasyon hattını; sadece bilgi veren değil, satış kapatan bir yapı olarak kurgular (/tr/cagri-merkezi/rezervasyon-destegi). Online + telefon rezervasyon dengesinde misafir; nereden gelirse gelsin aynı fiyat, aynı bilgi ve aynı kaliteyi görmelidir.",
-
-      "header5": "Yabancı Misafir Rezervasyon Yönetimi",
-      "text5": "“Yabancı misafir rezervasyon yönetimi, turizm rezervasyon sistemi” otel dünyasının değişmeyen gündemlerinden.\n\nDGTLFACE, TR – EN – DE – RU odaklı çok dilli yapıda; OTA’dan gelen rezervasyonların dil bazlı takibini yapar, çok dilli çağrı merkezi (/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile yabancı misafirlerin telefon ve mesaj süreçlerini yönetir; e-posta ve WhatsApp üzerinden gelen soruları anadile yakın akıcılıkta cevaplar.\n\nRezervasyon teyit, bilgi maili ve pre-stay hatırlatma mesajlarını dil bazlı standartlara oturtarak “turizm rezervasyon sistemi”ni yalnızca teknik değil, dil ve kültür odaklı bir hâle getirir."
+      "header4": "Yabancı Misafir Rezervasyon Yönetimi",
+      "text4": "“Yabancı misafir rezervasyon yönetimi, turizm rezervasyon sistemi” otel dünyasının değişmeyen gündemlerinden.\n\nDGTLFACE, TR – EN – DE – RU odaklı çok dilli yapıda; OTA’dan gelen rezervasyonların dil bazlı takibini yapar, çok dilli çağrı merkezi (/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile yabancı misafirlerin telefon ve mesaj süreçlerini yönetir; e-posta ve WhatsApp üzerinden gelen soruları anadile yakın akıcılıkta cevaplar.\n\nRezervasyon teyit, bilgi maili ve pre-stay hatırlatma mesajlarını dil bazlı standartlara oturtarak “turizm rezervasyon sistemi”ni yalnızca teknik değil, dil ve kültür odaklı bir hâle getirir."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Rezervasyon Yönetimi Hizmet Detayları",
       "header1": "Rezervasyon Süreci Nasıl Planlanır?",
       "text1": "“Rezervasyon süreci” otel için net bir akışa sahip olmalıdır:\n\n• Talep / Rezervasyon Girişi → OTA, web, telefon, WhatsApp, acente, kurumsal kanal\n• Bilgi Kontrolü → Tarih, kişi sayısı, oda tipi, fiyat, konsept, ödeme\n• Teyit ve Onay → OTA üzerinden otomatik, telefon/mail üzerinden manuel teyit\n• Check-in Öncesi İletişim → Yol bilgisi, saat teyidi, özel istekler\n• Konaklama ve Sonrası → No-show, iptal, tarih değişikliği, tekrar rezervasyon akışı\n\nDGTLFACE, “rezervasyon yönetimi nasıl yapılır” sorusuna; bu süreci PMS, çağrı merkezi ve OTA ile uyumlu hâle getirerek cevap verir.",
 
@@ -5537,25 +5623,22 @@
 
     "ai_answer_title": "AI Answer Block – Looker Studio Raporlama",
     "ai_answer_text": "DGTLFACE, Looker Studio raporlama hizmetiyle GA4, Google Ads, Search Console, Meta Ads, PMS, OTA ve çağrı merkezi verilerini tek bir dijital performans panelinde toplar. Yönetim, pazarlama ve operasyon ekipleri için farklı KPI dashboard’ları tasarlar; otomatik mail raporlama ve canlı linklerle tüm veriyi güncel tutar. Oteller için doluluk, gelir, kanal performansı ve kampanya sonuçları tek panelden izlenir, kararlar veriye dayalı alınır.",
+     "subbanner_header3": "Looker Studio Nedir, Neden Kullanılmalı?",
+    "subbanner_text2": "“Looker Studio nasıl kullanılır? Google Data Studio ile ne yapabilirim?” sorularının arkasında aslında aynı ihtiyaç var: Dağınık veriyi tek yerde görmek.\n\nLooker Studio (eski adıyla Google Data Studio):\n\nFarklı veri kaynaklarını (Google Analytics / GA4, Google Ads, Search Console, Meta Ads, PMS, CRM, Excel, CSV) tek raporda birleştirmeye,\n\nBu verilerden interaktif grafikler ve tablolar oluşturmaya,\n\nYönetim, pazarlama ve operasyon ekipleri için farklı seviyelerde performans panelleri hazırlamaya,\n\nRaporları otomatik e-posta, link veya embed ile paylaşmaya yarayan, bulut tabanlı bir raporlama aracıdır.\n\nDGTLFACE için Looker Studio, “güzel grafik” yapma aracı değil; “dijital performans paneli” ve “otomatik raporlama sistemi” kurmanın en verimli yollarından biridir.",
+    
+      "h2Section": {
+      "header1": "Dijital Performans Paneli: SEO + SEM + SMM + Web",
+      "text1": "Raporlar ayrı ayrı geldiğinde;\n\nSEO raporu bir yerde,\n\nGoogle Ads raporu başka yerde,\n\nSosyal medya raporu e-mail’de,\n\nWeb performansı ise Analytics’te kalır.\n\nKimsenin hepsine bakmaya vakti olmaz.\n\nDGTLFACE, Looker Studio ile:\n\nSEO performans paneli oluşturur\n(anahtar kelime sıralamaları, organik trafik, landing page performansı, Search Console verileri vb.),\n\nSEM / reklam raporlama paneli kurar\n(/tr/sem/reklam-raporlama\n ile entegre)\n\nGoogle Ads, YouTube Ads, Meta Ads sonuçları,\n\nKampanya, reklam grubu, kreatif bazlı performans,\n\nMaliyet, dönüşüm, ROAS vb. metrikler,\n\nSosyal medya performans paneli üretir\n(/tr/smm/analiz-raporlama\n ile bağlantılı)\n\nEtkileşim, erişim, takipçi artışı, Reels performansları,\n\nWeb sayfa performans raporu sunar\n(/tr/raporlama\n ana yapı ile birlikte)\n\nTrafik kaynakları, sayfa bazlı performans, cihaz kırılımları, dönüşüm hunileri.\n\n“Dijital performans nasıl ölçülür, dijital performans paneli, çok kanallı rapor paneli” gibi ihtiyaçlar, Looker Studio dashboard’ları ile tek ekranda çözülebilir.",
 
-    "h2Section": {
-      "header1": "Looker Studio Nedir, Neden Kullanılmalı?",
-      "text1": "“Looker Studio nasıl kullanılır? Google Data Studio ile ne yapabilirim?” sorularının arkasında aslında aynı ihtiyaç var: Dağınık veriyi tek yerde görmek.\n\nLooker Studio (eski adıyla Google Data Studio):\n\nFarklı veri kaynaklarını (Google Analytics / GA4, Google Ads, Search Console, Meta Ads, PMS, CRM, Excel, CSV) tek raporda birleştirmeye,\n\nBu verilerden interaktif grafikler ve tablolar oluşturmaya,\n\nYönetim, pazarlama ve operasyon ekipleri için farklı seviyelerde performans panelleri hazırlamaya,\n\nRaporları otomatik e-posta, link veya embed ile paylaşmaya yarayan, bulut tabanlı bir raporlama aracıdır.\n\nDGTLFACE için Looker Studio, “güzel grafik” yapma aracı değil; “dijital performans paneli” ve “otomatik raporlama sistemi” kurmanın en verimli yollarından biridir.",
+      "header2": "Oteller ve Turizm Markaları İçin Looker Studio Raporlama",
+      "text2": "Turizm ve otelcilikte raporlama, sadece tıklama ve gösterim sayısı değil; aynı anda:\n\nDoluluk,\n\nGelir,\n\nPazar bazlı performans,\n\nOTA & web & çağrı merkezi etkisi,\n\nCall center ve PMS verileri\n\nile birlikte okunmalıdır.\n\nDGTLFACE; otel performans paneli, turizm raporlama dashboard, resort performans raporu, PMS + Looker entegrasyonu tarafında:\n\nPMS verilerini (doluluk, gelir, RevPAR, kanal performansı) Looker Studio’ya bağlar,\n\nOTA verilerini (Booking, Expedia, diğer satış kanalları) panelin bir katmanı hâline getirir,\n\nSEO, SEM, SMM ve web verilerini aynı dashboard’ta gösterir,\n\n/tr/raporlama/satis-donusum\n ile satış hunisi raporlarını (trafik → rezervasyon) entegre eder.\n\nSonuç: Oteliniz için “tek bakışta durum” ekranı oluşur.\nHangi pazar, hangi kanal, hangi kampanya gerçekten satış ve gelir getiriyor; net görürsünüz.",
 
-      "header2": "Dijital Performans Paneli: SEO + SEM + SMM + Web",
-      "text2": "Raporlar ayrı ayrı geldiğinde;\n\nSEO raporu bir yerde,\n\nGoogle Ads raporu başka yerde,\n\nSosyal medya raporu e-mail’de,\n\nWeb performansı ise Analytics’te kalır.\n\nKimsenin hepsine bakmaya vakti olmaz.\n\nDGTLFACE, Looker Studio ile:\n\nSEO performans paneli oluşturur\n(anahtar kelime sıralamaları, organik trafik, landing page performansı, Search Console verileri vb.),\n\nSEM / reklam raporlama paneli kurar\n(/tr/sem/reklam-raporlama\n ile entegre)\n\nGoogle Ads, YouTube Ads, Meta Ads sonuçları,\n\nKampanya, reklam grubu, kreatif bazlı performans,\n\nMaliyet, dönüşüm, ROAS vb. metrikler,\n\nSosyal medya performans paneli üretir\n(/tr/smm/analiz-raporlama\n ile bağlantılı)\n\nEtkileşim, erişim, takipçi artışı, Reels performansları,\n\nWeb sayfa performans raporu sunar\n(/tr/raporlama\n ana yapı ile birlikte)\n\nTrafik kaynakları, sayfa bazlı performans, cihaz kırılımları, dönüşüm hunileri.\n\n“Dijital performans nasıl ölçülür, dijital performans paneli, çok kanallı rapor paneli” gibi ihtiyaçlar, Looker Studio dashboard’ları ile tek ekranda çözülebilir.",
-
-      "header3": "Oteller ve Turizm Markaları İçin Looker Studio Raporlama",
-      "text3": "Turizm ve otelcilikte raporlama, sadece tıklama ve gösterim sayısı değil; aynı anda:\n\nDoluluk,\n\nGelir,\n\nPazar bazlı performans,\n\nOTA & web & çağrı merkezi etkisi,\n\nCall center ve PMS verileri\n\nile birlikte okunmalıdır.\n\nDGTLFACE; otel performans paneli, turizm raporlama dashboard, resort performans raporu, PMS + Looker entegrasyonu tarafında:\n\nPMS verilerini (doluluk, gelir, RevPAR, kanal performansı) Looker Studio’ya bağlar,\n\nOTA verilerini (Booking, Expedia, diğer satış kanalları) panelin bir katmanı hâline getirir,\n\nSEO, SEM, SMM ve web verilerini aynı dashboard’ta gösterir,\n\n/tr/raporlama/satis-donusum\n ile satış hunisi raporlarını (trafik → rezervasyon) entegre eder.\n\nSonuç: Oteliniz için “tek bakışta durum” ekranı oluşur.\nHangi pazar, hangi kanal, hangi kampanya gerçekten satış ve gelir getiriyor; net görürsünüz.",
-
-      "header4": "Çok Kanallı Veri Dashboard ve Otomatik Raporlama",
-      "text4": "Looker Studio’nun en büyük gücü, otomatik raporlama ve çok kanallı veri dashboard yeteneğidir.",
-
-      "header5": "DGTLFACE Looker Studio Raporlama Hizmet Detayları",
-      "text5": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇"
+      "header3": "Çok Kanallı Veri Dashboard ve Otomatik Raporlama",
+      "text3": "Looker Studio’nun en büyük gücü, otomatik raporlama ve çok kanallı veri dashboard yeteneğidir."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Looker Studio Raporlama Hizmet Detayları",
       "header1": "Veri Kaynaklarını Bağlama",
       "text1": "DGTLFACE, Looker Studio proje başlangıcında:\n\nGoogle Analytics / GA4,\n\nGoogle Ads,\n\nSearch Console,\n\nMeta Ads (Facebook & Instagram),\n\nYouTube kampanya verileri,\n\nOTA & PMS & CRM’den elde edilen dış veri setleri (CSV, Sheet, DB vb.),\n\nExcel / Google Sheets üzerinden gelen özel tablolar\n\ngibi kaynakları Looker Studio’ya bağlar.\n\n“Veri kaynaklarını bağlama, Looker excel entegrasyonu, çok kanallı rapor paneli” tarafında; teknik bağlantı ile iş ihtiyacını aynı noktaya getiririz.",
 
@@ -5582,7 +5665,7 @@
       "card2description": "“Otel Looker Studio paneli, turizm raporlama dashboard, resort performans raporu, PMS + Looker entegrasyonu” gibi konular, özellikle turizm bölgesinde ciddi uzmanlık gerektirir.\n\nDGTLFACE:\n\nPMS & OTA verilerini Looker Studio’ya bağlama konusunda deneyimli,\n\nTurizm sektöründe doluluk, RevPAR, pazar bazlı performans, OTA vs direkt kanal dengesi gibi metrikleri bilen,\n\nOtel yönetimi ve satış ekiplerinin hangi veriye nasıl baktığını sahada görmüş bir ekip ile çalışır.\n\nBu da panellerin sadece “teknik olarak doğru” değil, sektörel olarak anlamlı olmasını sağlar.",
 
       "card3title": "Veri Analizi + Raporlama + Danışmanlık Üçlüsü",
-      "card3description": "Sadece dashboard bırakıp gitmiyoruz tatlım. 💜\n\nDGTLFACE:\n\nPanelleri kurar,\n\nVeriyi düzenli analiz eder,\n\n/tr/raporlama/benchmark-analizi\n ile rakip ve pazar karşılaştırmalarını ekler,\n\nYönetim ve pazarlama ekipleriyle periyodik toplantılar yaparak sonuçları yorumlar,\n\nSonraki kampanya, sezon ve bütçe planları için öneriler sunar.\n\nYani Looker Studio, yaşayan bir raporlama ve karar mekanizması hâline gelir."
+      "card3description": "Sadece dashboard bırakıp gitmiyoruz. 💜\n\nDGTLFACE:\n\nPanelleri kurar,\n\nVeriyi düzenli analiz eder,\n\n/tr/raporlama/benchmark-analizi\n ile rakip ve pazar karşılaştırmalarını ekler,\n\nYönetim ve pazarlama ekipleriyle periyodik toplantılar yaparak sonuçları yorumlar,\n\nSonraki kampanya, sezon ve bütçe planları için öneriler sunar.\n\nYani Looker Studio, yaşayan bir raporlama ve karar mekanizması hâline gelir."
     },
 
     "verticalSlider": {
@@ -5644,25 +5727,24 @@
 
     "ai_answer_title": "AI Answer Block – Benchmark Analizi",
     "ai_answer_text": "DGTLFACE, benchmark analizi hizmetiyle otel ve markaların doluluk, fiyat, gelir, dijital görünürlük ve kanal performansını rakip ve sektör verileriyle kıyaslar. OTA fiyat karşılaştırmaları, turizm sektörü benchmark, dijital reklam benchmark, pazar payı ve fiyat optimizasyon raporları ile nerede güçlü, nerede geri olduğunuzu somut olarak gösterir. Haftalık ve aylık benchmark dashboard’ları, fiyat, kampanya ve kanal stratejilerinizi veriyle yönlendirmenizi sağlar.",
+     "subbanner_header3": "Benchmark Analizi Nedir, Neden Bu Kadar Önemli?",
+      "subbanner_text2": "“Benchmark analizi nasıl yapılır? Sadece kendi verime bakmak yetmiyor mu?” sorusunun cevabı basit:\n\nKendi grafiğin, ancak başkalarınınkiyle kıyaslandığında anlam kazanır.\n\nBenchmark analizi:\n\nSizin KPI’larınızı (doluluk, gelir, tıklama, dönüşüm, ROAS, etkileşim vb.),\n\nRakiplerin ve pazarın ortalama KPI’larıyla karşılaştıran,\n\nGüçlü ve zayıf yönlerinizi ortaya çıkaran,\n\nFiyatlandırma ve pazarlama stratejilerinize yön veren\n\nbir analiz türüdür.\n\nDGTLFACE, “rakip performans raporu hazırlama, satış performansı benchmark, dijital reklam benchmark, pazar payı analizi, rakip veri takibi” gibi ihtiyaçları; haftalık ve aylık benchmark dashboard’ları ile somutlaştırır.",
+    
+    
+      "h2Section": {
+      "header1": "Oteller ve Turizm Sektörü İçin Benchmark Sistemi",
+      "text1": "Turizmde asıl soru çoğu zaman şudur:\n\n“Bizim doluluk iyi ama… Rakipler ne durumda? Fiyatımız piyasaya göre nerede?”\n\nDGTLFACE, oteller için benchmark sistemi kurarken:\n\nBölgedeki rakip resort, city hotel, butik otel ve villa tesislerini analiz eder,\n\nFiyat ve doluluk seviyelerini, konsept ve pazar segmentlerine göre kıyaslar,\n\nKanal (OTA, web, acente, çağrı merkezi) bazlı performans benchmark’ı yapar,\n\nSezon, bayram, high season ve düşük sezon dönemlerinde turizm fiyat karşılaştırması çıkarır,\n\n“Otel benchmark raporu, turizm sektörü benchmark, resort fiyat analizi, OTA benchmark” başlıkları için net, görsel raporlar sunar.\n\nBu sayede:\n\nFiyatınızın piyasaya göre çok düşük mü, çok yüksek mi, yoksa ideal mi olduğunu,\n\nDolulukta geride kaldığınız ya da lider olduğunuz dönemleri,\n\nOTA ve doğrudan kanal dengesinin sektöre göre nerede olduğunu\n\nnet şekilde görebilirsiniz.",
 
-    "h2Section": {
-      "header1": "Benchmark Analizi Nedir, Neden Bu Kadar Önemli?",
-      "text1": "“Benchmark analizi nasıl yapılır? Sadece kendi verime bakmak yetmiyor mu?” sorusunun cevabı basit:\n\nKendi grafiğin, ancak başkalarınınkiyle kıyaslandığında anlam kazanır.\n\nBenchmark analizi:\n\nSizin KPI’larınızı (doluluk, gelir, tıklama, dönüşüm, ROAS, etkileşim vb.),\n\nRakiplerin ve pazarın ortalama KPI’larıyla karşılaştıran,\n\nGüçlü ve zayıf yönlerinizi ortaya çıkaran,\n\nFiyatlandırma ve pazarlama stratejilerinize yön veren\n\nbir analiz türüdür.\n\nDGTLFACE, “rakip performans raporu hazırlama, satış performansı benchmark, dijital reklam benchmark, pazar payı analizi, rakip veri takibi” gibi ihtiyaçları; haftalık ve aylık benchmark dashboard’ları ile somutlaştırır.",
+      "header2": "Dijital Reklam ve Pazarlama İçin Benchmark Analizi",
+      "text2": "Sadece satış değil, dijital performans için de benchmark şart. DGTLFACE:\n\nGoogle Ads, YouTube Ads ve Meta Ads kampanyalarınızı; sektör ortalamaları ve rakip kampanyaların görülebilir metrikleriyle kıyaslar,\n\n“Dijital reklam benchmark, reklam maliyeti, tıklama oranı (CTR), dönüşüm oranı, ROAS” gibi metriklerde nerede olduğunuzu gösterir,\n\nSEO tarafında organik trafik, sıralama, backlink ve içerik üretimi açısından pazar benchmark’ı çıkarır,\n\nSosyal medya için; etkileşim oranı, erişim, içerik sıklığı ve içerik türü benchmark’ı yapar.\n\nBu analizler:\n\n“Rakiplerimiz bu kadar harcarken biz neredeyiz?”\n\n“Daha az harcayıp daha mı çok sonuç alıyoruz, yoksa tam tersi mi?”\n\nsorularını netleştirir.",
 
-      "header2": "Oteller ve Turizm Sektörü İçin Benchmark Sistemi",
-      "text2": "Turizmde asıl soru çoğu zaman şudur:\n\n“Bizim doluluk iyi ama… Rakipler ne durumda? Fiyatımız piyasaya göre nerede?”\n\nDGTLFACE, oteller için benchmark sistemi kurarken:\n\nBölgedeki rakip resort, city hotel, butik otel ve villa tesislerini analiz eder,\n\nFiyat ve doluluk seviyelerini, konsept ve pazar segmentlerine göre kıyaslar,\n\nKanal (OTA, web, acente, çağrı merkezi) bazlı performans benchmark’ı yapar,\n\nSezon, bayram, high season ve düşük sezon dönemlerinde turizm fiyat karşılaştırması çıkarır,\n\n“Otel benchmark raporu, turizm sektörü benchmark, resort fiyat analizi, OTA benchmark” başlıkları için net, görsel raporlar sunar.\n\nBu sayede:\n\nFiyatınızın piyasaya göre çok düşük mü, çok yüksek mi, yoksa ideal mi olduğunu,\n\nDolulukta geride kaldığınız ya da lider olduğunuz dönemleri,\n\nOTA ve doğrudan kanal dengesinin sektöre göre nerede olduğunu\n\nnet şekilde görebilirsiniz.",
-
-      "header3": "Dijital Reklam ve Pazarlama İçin Benchmark Analizi",
-      "text3": "Sadece satış değil, dijital performans için de benchmark şart. DGTLFACE:\n\nGoogle Ads, YouTube Ads ve Meta Ads kampanyalarınızı; sektör ortalamaları ve rakip kampanyaların görülebilir metrikleriyle kıyaslar,\n\n“Dijital reklam benchmark, reklam maliyeti, tıklama oranı (CTR), dönüşüm oranı, ROAS” gibi metriklerde nerede olduğunuzu gösterir,\n\nSEO tarafında organik trafik, sıralama, backlink ve içerik üretimi açısından pazar benchmark’ı çıkarır,\n\nSosyal medya için; etkileşim oranı, erişim, içerik sıklığı ve içerik türü benchmark’ı yapar.\n\nBu analizler:\n\n“Rakiplerimiz bu kadar harcarken biz neredeyiz?”\n\n“Daha az harcayıp daha mı çok sonuç alıyoruz, yoksa tam tersi mi?”\n\nsorularını netleştirir.",
-
-      "header4": "Fiyat Optimizasyonu ve Benchmark Tabanlı Gelir Analizi",
-      "text4": "Benchmark, özellikle fiyat optimizasyonu tarafında büyük güç verir. DGTLFACE, “fiyat optimizasyon raporu” ve gelir odaklı benchmark çalışmalarında:\n\nBölgedeki benzer segment otellerin ortalama fiyat ve doluluk seviyelerini analiz eder,\n\nSizin fiyat eğriniz ile pazarın fiyat eğrisini kıyaslar,\n\nFiyat düşürmeden gelir artırmaya odaklı senaryolar üretir,\n\nKanal bazlı fiyatlandırma kararlarında (OTA, web, direkt satış) benchmark verisini kullanmanızı sağlar.\n\n“Resort fiyat analizi, turizm fiyat karşılaştırması, OTA benchmark, pazar payı analizi” gibi başlıklarda; veri, hissiyatın yerine geçer.",
-
-      "header5": "DGTLFACE Benchmark Analizi Hizmet Detayları",
-      "text5": "Şimdi H3 seviyesinde biraz daha yakından bakalım tatlım. 👇"
+      "header3": "Fiyat Optimizasyonu ve Benchmark Tabanlı Gelir Analizi",
+      "text3": "Benchmark, özellikle fiyat optimizasyonu tarafında büyük güç verir. DGTLFACE, “fiyat optimizasyon raporu” ve gelir odaklı benchmark çalışmalarında:\n\nBölgedeki benzer segment otellerin ortalama fiyat ve doluluk seviyelerini analiz eder,\n\nSizin fiyat eğriniz ile pazarın fiyat eğrisini kıyaslar,\n\nFiyat düşürmeden gelir artırmaya odaklı senaryolar üretir,\n\nKanal bazlı fiyatlandırma kararlarında (OTA, web, direkt satış) benchmark verisini kullanmanızı sağlar.\n\n“Resort fiyat analizi, turizm fiyat karşılaştırması, OTA benchmark, pazar payı analizi” gibi başlıklarda; veri, hissiyatın yerine geçer."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header":"DGTLFACE Benchmark Analizi Hizmet Detayları",
+
       "header1": "Benchmark Metodolojisi ve Veri Kaynakları",
       "text1": "Sağlam bir benchmark, “duyum”la değil, net metodolojiyle yapılır. DGTLFACE:\n\nKendi veri kaynaklarınızı (PMS, OTA, web, reklam, çağrı merkezi) toplar,\n\nDış veri kaynakları ve pazar verilerini bir araya getirir,\n\nRakip ve pazar seçimini şeffaf kriterlerle yapar (segment, lokasyon, fiyat bandı, kanal karması),\n\nKPI setini (doluluk, ADR, RevPAR, tıklama, dönüşüm, ROAS, etkileşim vb.) netleştirir,\n\nTüm bunları Looker Studio benchmark dashboard’larında görselleştirir (/tr/raporlama/looker-studio\n).\n\n“Benchmark analizi nasıl yapılır, rakip veri takibi, benchmark dashboard nasıl kurulur” sorularının arkasında bu metodoloji yatar.",
 
@@ -5736,6 +5818,115 @@
     }
   },
 
+    "SalesConversionReportingPage": {
+    "cta_talk_to_us": "Satış & Dönüşüm Verilerinizi Birlikte Okuyalım",
+
+    "subbanner_header": "Satış ve Dönüşüm Raporlama –",
+    "subbanner_header2": " Gelirinizi Artıran Veri Stratejileri",
+    "subbanner_text": "DGTLFACE, satış dönüşüm raporu ve veri analizi hizmetiyle; reklamlarınız, web siteniz, OTA kanallarınız, çağrı merkezinız ve PMS verileriniz arasındaki ilişkiyi tek bir satış hunisi içinde gösteren, gelir artırıcı veri stratejileri sunar.\n\nBizim için satış & dönüşüm raporlama; sadece “kaç tıklama aldık?” değil,\ndönüşüm analizi, satış raporu, funnel analizi, performans ölçümü, gelir analizi gibi tüm katmanların tek bir resimde birleşmesidir.\n\nÖzellikle oteller, turizm markaları ve hizmet sektörü için; her gün para harcanan dijital kanalların gerçekte ne kadar satış ve rezervasyon ürettiğini görmek artık lüks değil, hayatta kalma şartı. DGTLFACE, bu tabloyu Looker Studio dashboard’ları ve detaylı satış & dönüşüm raporlaması ile önünüze koyar.",
+
+    "ai_answer_title": "AI Answer Block – Satış & Dönüşüm Raporlama",
+    "ai_answer_text": "DGTLFACE, satış & dönüşüm raporlama hizmetiyle SEO, Ads, sosyal medya, OTA, web, PMS ve çağrı merkezi verilerini tek bir satış hunisi (funnel) üzerinde birleştirir. Trafik kaynaklarından rezervasyon ve gelire kadar tüm adımları ölçer; kanal bazlı satış, ROAS, RevPAR ve kârlılık metriklerini görünür kılar. Böylece hangi kanalın gerçekten para kazandırdığını görür, gelir artıran veri odaklı kararlar alırsınız.",
+    "subbanner_header3": "Satış & Dönüşüm Raporlama Nedir, Neden Kritik?",
+    "subbanner_text2": "“Dönüşüm oranı nasıl artırılır? Satış raporu sadece ciro mudur?” soruları aslında tek noktaya bakıyor:\n\n“Nereden ne kadar trafik geliyor, bunun ne kadarı gerçekten gelire dönüyor?”\n\nSatış & dönüşüm raporlama;\n\nTrafiği (SEO, Ads, sosyal medya, OTA, doğrudan),\n\nKullanıcı davranışlarını (sayfa görüntüleme, tıklama, form, arama, DM, WhatsApp),\n\nDönüşüm aksiyonlarını (lead, rezervasyon, satış, teklif talebi),\n\nGelir ve kârlılık verisini (oda geliri, ek hizmet, sepet değeri vb.)\n\nbir satış hunisi (funnel) mantığıyla uçtan uca raporlamaktır.\n\nDGTLFACE,\n“dönüşüm analizi, satış hunisi analizi, reklam dönüşüm raporu, otel satış raporu hazırlama, rezervasyon dönüşüm analizi, satış artırma veri taktikleri” gibi tüm başlıkları tek bir çerçevede toplar:\n\nVeriyle satış yönetimi.",
+   
+   
+      "h2Section": {  
+
+      "header1": "Dijital Satış Hunisi – Funnel Analizi",
+      "text1": "Satış hunisi, “kim geldi, ne yaptı, nereye kadar geldi, nerede kaybettik?” sorularının görsel cevabıdır.\n\nDGTLFACE, funnel analizi yaparken:",
+
+      "header2": "Üst Huniler (TOFU)",
+      "text2": "Trafik kaynakları\n(SEO, Google Ads, Meta Ads, OTA, sosyal medya, e-posta),\n\nOturum sayısı,\n\nYeni kullanıcı oranı,\n\nSayfada kalma süreleri ve hemen çıkma sinyalleri.",
+
+      "header3": "Orta Huniler (MOFU)",
+      "text3": "Özel sayfa görüntülemeleri\n(oda / hizmet detay sayfaları, paket sayfaları),\n\nForm sayfası görüntüleme, sepet/rezervasyon adımına geçiş oranları,\n\nTeklif alma, iletişim, DM, WhatsApp başlatma aksiyonları.",
+
+      "header4": "Alt Huniler (BOFU)",
+      "text4": "Tamamlanan rezervasyon / satış,\n\nÇağrı merkezinden kapanan satışlar,\n\nOTA ve doğrudan kanal dönüşümü,\n\nGelir ve kârlılık metrikleri (RevPAR, oda başı gelir, misafir başı gelir).\n\n“Satış hunisi analizi, satış artırma veri taktikleri, Meta Ads dönüşüm raporu, Google Ads satış analizi, CRM satış verisi analizi” gibi tüm başlıklar, bu huninin içinde somutlaşır.",
+      "header5": "Oteller ve Turizm İçin Satış & Dönüşüm Raporlama",
+      "text5": "Turizmde kritik olan sadece doluluk değil;\n\nDoluluk nasıl geldi, hangi kanal ne maliyetle ne kazandırdı?\n\nDGTLFACE, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi, PMS satış verileri alanlarında:\n\nOTA, web rezervasyon motoru, çağrı merkezi ve acente satışlarını tek tabloda toplar,\n\nKanal bazlı gelir, kişi başı harcama, oda başı gelir (RevPAR) ve iptal oranlarını raporlar,\n\nPazar (ülke/dil) bazlı satış ve dönüşüm performansını analiz eder,\n\nDijital kanalların (SEO, Ads, sosyal medya) gerçek rezervasyona etkisini gösterir.\n\n“Oteller için satış raporu hazırlama, turizm satış analizleri, rezervasyon dönüşüm analizi” gibi ihtiyaçlar, bu raporlar sayesinde netleşir."
+    },
+
+    "h3Section": {
+       "header": "DGTLFACE Satış & Dönüşüm Raporlama Hizmet Detayları",
+
+      "header1": "Satış Hunisi Analizi",
+      "text1": "DGTLFACE, satış hunisi analizi yaparken:\n\nTrafik kanalını (SEO, SEM, SMM, OTA) giriş noktası olarak alır,\n\nSayfa ve etkileşim seviyesinde (örneğin oda detay sayfası, rezervasyon sayfası) kullanıcı akışını takip eder,\n\nForm, rezervasyon, çağrı, DM, WhatsApp gibi dönüşüm aksiyonlarını işaretler,\n\nSon adımda PMS veya satış sisteminden gerçek satış/veri ile huniyi tamamlar.\n\n“Dönüşüm oranı nasıl artırılır, satış hunisi analizi, rezervasyon dönüşüm analizi” sorularına bu yapı üstünden somut cevap veririz.",
+
+      "header2": "Kanal Bazlı Satış ve Dönüşüm Raporu",
+      "text2": "“Reklam dönüşüm raporu, Google Ads satış analizi, Meta Ads dönüşüm raporu” tarafında DGTLFACE:\n\nHer kanal için şu tabloyu çıkarır:\n\nHarcanan bütçe,\n\nGelen trafik,\n\nDönüşüm sayısı (lead, rezervasyon, satış),\n\nBirim maliyet (CPL, CPA),\n\nGelir ve ROAS.\n\nKanalların birbirini nasıl beslediğini (örneğin YouTube + Google Ads + marka aramaları) analiz eder,\nFaydasız veya zayıf verimli kampanyaları net bir şekilde işaret eder.\n\nBöylece bütçe kararları, “hissiyat” değil, kanal bazlı performans raporu üzerinden verilir.",
+
+      "header3": "Rezervasyon Dönüşüm Analizi – Otel ve Turizm Odaklı",
+      "text3": "Otel tarafında rezervasyon dönüşüm analizi:\n\nWeb rezervasyon motoru → rezervasyon tamamlama oranları,\n\nOTA görünürlüğü → rezervasyona dönüş oranları,\n\nÇağrı merkezi → rezervasyona dönüş oranları,\n\nPazar bazlı (DE, RU, UK, TR) dönüşüm farklılıkları,\n\nKampanya bazlı dönüşüm\n(erken rezervasyon, bayram, high season)\n\nkırılımlarında incelenir.\n\n“Otel satış raporu, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi” bu analiz üstünden şekillenir.",
+
+      "header4": "CRM ve PMS Satış Verileri ile Dijital Veriyi Birleştirme",
+      "text4": "Satış & dönüşüm raporlamasının en güçlü hâli, CRM/PMS verisinin dijital verilerle birleşmesidir. DGTLFACE:\n\nPMS verilerini (oda, gece, gelir, misafir bilgileri) Looker Studio’ya bağlar\n(/tr/raporlama/looker-studio\n),\n\nCRM satış verilerini (teklif, pipeline, kapanan fırsatlar) panelin bir katmanı hâline getirir,\n\nGA4, Ads, sosyal medya ve çağrı merkezi verilerini bu yapıyla birleştirir.\n\nSonuç:\n\n“Hangi kanaldan gelen hangi misafir tipi, ne kadar gelir üretmiş?”\nsorusu tek bakışta görülebilir."
+    },
+
+    "h4Section": {
+      "header": "Neden DGTLFACE ile Satış & Dönüşüm Raporlama?",
+
+      "card1title": "Dijital Pazarlama + PMS & OTA + Çağrı Merkezi Hibrit Zekâ",
+      "card1description": "DGTLFACE, satış & dönüşüm raporlamasını;\n\nDijital pazarlama (SEO, SEM, SMM),\n\nPMS & OTA yönetimi (/tr/pms-ota-yonetimi),\n\nOtel dijital pazarlama (/tr/otel-dijital-pazarlama),\n\nÇağrı merkezi ve mesaj yönetimi\n(/tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi/mesaj-yonetimi),\n\nRaporlama & veri analizi\n(/tr/raporlama, /tr/raporlama/looker-studio, /tr/raporlama/benchmark-analizi)\n\nile hibrit bir bakış açısıyla ele alır.\n\nBu da “kaç tıklama aldık?” seviyesinden çıkıp,\n\n“Hangi kanal bize ne kadar gerçek gelir getirdi?”\n\nsorusuna cevap veren paneller oluşturur.",
+
+      "card2title": "Antalya Merkezli, Turizm Satış & Dönüşüm Tecrübesi",
+      "card2description": "“Satış raporlama Antalya, Antalya dönüşüm analizi, satış performans Türkiye, Antalya gelir analiz hizmeti” gibi aramaların arkasında; turizm bölgesinde sahada çalışmış ekip beklentisi var.\n\nDGTLFACE:\n\nAntalya, Belek, Kemer, Side, Alanya ve diğer turizm destinasyonlarında çok sayıda otel & turizm projesinde görev almış,\n\nFarklı pazarlara (DE, RU, UK, TR) satış yapan otellerin satış ve dönüşüm dinamiklerini bilen,\n\nHem bağımsız oteller hem zincir otellerle çalışmış bir ekibe sahiptir.\n\nBu sayede raporlar, sadece “teknik veri” değil, turizm diliyle anlamlı içgörüler üretir.",
+
+      "card3title": "Rapor Değil, Gelir Artıran Aksiyon Planları",
+      "card3description": "DGTLFACE için rapor = aksiyonun başlangıç noktası.\n\nSatış hunisini görselleştirir,\n\nTıkanan noktaları (form adımı, rezervasyon motoru, kampanya, kanal) işaret eder,\n\n“Ne yaparsak ne kazanırız?” sorusuna senaryo bazlı yanıtlar verir,\n\nBir sonraki sezon / kampanya için veri odaklı strateji önerir.\n\nBöylece satış & dönüşüm raporları, “dosya” değil, gelir büyütme aracı hâline gelir."
+    },
+
+    "verticalSlider": {
+      "header": "Mikro Katman –",
+      "header2": " H5 Konuları",
+
+      "title1": "Dönüşüm Oranı ",
+      "span1": "Nasıl Artırılır? (H5)",
+      "text1": "Kısaca:\n\nDoğru trafik: Yanlış kitleye gösterilen en iyi reklam bile işe yaramaz.\n\nDoğru deneyim: Yavaş site, zor form, karışık rezervasyon motoru dönüşümü öldürür.\n\nDoğru teklif: Fiyat, içerik ve ek faydaların dengede olması gerekir.\n\nDoğru takip: Yarım kalan sepetler, form dolduran ama aranmayan lead’ler büyük kayıptır.\n\nDGTLFACE, bu dört alanı birlikte optimize eder.",
+      "button1": "Dönüşüm İpuçlarını Gör",
+
+      "title2": "Satış Hunisi Analizi ",
+      "span2": "Nasıl Yapılır? (H5)",
+      "text2": "Adımları tanımla\n(trafik → sayfa görüntüleme → etkileşim → form/rezervasyon → satış).\n\nHer adım için sayıları ve oranları ölç.\n\nEn büyük düşüşün olduğu adımları işaretle.\n\nO adımlar için UX, içerik, fiyat veya güven unsurları üzerine testler tasarla.\n\nSonuçları tekrar ölç ve en iyi çalışan senaryoları ölçekle.\n\n“Satış hunisi analizi”, sürekli tekrar eden bir test–ölç–iyileştir döngüsüdür.",
+      "button2": "Huniyi Analiz Et",
+
+      "title3": "Reklam Dönüşüm Raporu ",
+      "span3": "Nasıl Okunmalı? (H5)",
+      "text3": "Tekil metriklere (CTR, CPC, CPM) takılı kalma;\n\nDönüşüm ve gelir metriklerini (CPL, CPA, ROAS) önceliklendir,\n\nReklam → site davranışı → dönüşüm akışını birlikte incele,\n\nYüksek tıklama ama düşük dönüşüm veren kampanyaları net şekilde işaretle,\n\nReklam bütçesini “ucuz tıklama”ya değil, kârlı dönüşüme yönlendir.\n\nDGTLFACE, Google Ads satış analizi ve Meta Ads dönüşüm raporu panellerinde tam olarak bunu yapmanı sağlar.",
+      "button3": "Reklam Raporunu Oku",
+
+      "title4": "Oteller İçin Satış Raporu ",
+      "span4": "Hazırlama İpuçları (H5)",
+      "text4": "Doluluk, ADR, RevPAR → temel gelir metrikleri,\n\nKanal bazlı gelir → OTA, web, acente, call center, walk-in,\n\nPazar bazlı dağılım → ülke/dil bazlı satış,\n\nKampanya bazlı performans → erken rezervasyon, high season, özel dönemler,\n\nDijital kaynak → hangi trafik → hangi kanal → hangi gelir.\n\n“Otel satış raporu hazırlama” sürecinde, bu tablonun tamamı görünür olmalı.",
+      "button4": "Satış Raporu Yapısını Gör",
+
+      "title5": "Satış Artırma ",
+      "span5": "Veri Taktikleri (H5)",
+      "text5": "Düşük performanslı adımları A/B testleriyle optimize et,\n\nEn iyi performans gösteren kampanya ve içerikleri ölçekle,\n\nKüçük veri sinyallerine (örneğin belirli bir pazarın yüksek dönüşümü) hızlı reaksiyon ver,\n\nHer rapor dönemini, bir önceki döneme göre öğrenme fırsatı olarak gör.\n\nVeri, doğru okunduğunda, en iyi satış danışmanıdır.",
+      "button5": "Veri Taktiklerini İncele"
+    },
+
+    "faq": {
+      "header": "SSS – Satış & Dönüşüm Raporlama Hakkında Sık Sorulan Sorular",
+
+      "question1": "Sadece reklam kampanyalarımız için mi rapor hazırlıyorsunuz, yoksa tüm satış kanalları için mi?",
+      "answer1": "Tercihe göre:\n\nSadece dijital reklam (Google, Meta, YouTube) odaklı raporlar hazırlayabiliriz,\nveya\n\nTüm satış kanallarını (OTA, web, çağrı merkezi, PMS verisi) dahil ettiğimiz full satış & dönüşüm raporu modeliyle çalışabiliriz.\n\nEn güçlü etki, tüm kanallar birlikte raporlandığında ortaya çıkıyor.",
+
+      "question2": "Mevcut ajansımız rapor gönderiyor, yine de sizden satış & dönüşüm raporu almaya gerek var mı?",
+      "answer2": "Ajans raporları genellikle kampanya odaklı olur.\nBizim raporlarımız ise:\n\nKanal + kampanya + web + PMS + çağrı merkezi + gelir tarafını birlikte gösterir.\n\nSiz dijital ajansınızla çalışmaya devam ederken, DGTLFACE’ten bağımsız performans & satış analizi alabilirsiniz.",
+
+      "question3": "CRM veya PMS kullanmıyoruz, yine de satış & dönüşüm raporu çıkar mı?",
+      "answer3": "Çıkar, ama veri derinliği sınırlı olur.\nEn azından temel rezervasyon ve satış verilerini düzenli bir formatta (Excel / Sheets / basit CRM) tutmanızı öneririz.\n\nDGTLFACE, altyapınız uygun olduğunda CRM/PMS entegrasyonuna geçişte de destek sağlayabilir.",
+
+      "question4": "Sadece “analiz & danışmanlık” alabilir miyiz, operasyon bizde kalsın?",
+      "answer4": "Evet. Siz kampanyalarınızı ve günlük operasyonunuzu yönetmeye devam ederken; biz:\n\nVerileri toplar,\n\nLooker Studio panelini kurar,\n\nSatış & dönüşüm analizlerini yapar,\n\nDüzenli olarak aksiyon önerileri sunarız.\n\nKarar ve uygulama sizde, veri ve içgörü desteği bizden.",
+
+      "question5": "DGTLFACE ile satış & dönüşüm raporlama projesine nasıl başlıyoruz?",
+      "answer5": "Standart akışımız:\n\nHedef KPI’larınızın ve merak ettiğiniz soruların netleştirilmesi\n\nVeri kaynaklarınızın (GA4, Ads, OTA, PMS, CRM, call center vb.) analizi\n\nSatış hunisi ve rapor mimarisinin tasarlanması\n\nLooker Studio panel kurulumu ve test raporları\n\nİlk satış & dönüşüm raporunun sunulması\n\nAksiyon planı ve optimizasyon önerilerinin paylaşılması\n\nPeriyodik (haftalık/aylık) raporlama ve değerlendirme toplantıları\n\nBu sayede, raporlar raf süsü değil, günlük iş kararlarınızın temel girdisi hâline gelir."
+    }
+  },
+
    "KvkkSecurityPage": {
     "cta_talk_to_us": "KVKK & Veri Güvenliği Yapınızı Birlikte Kuralım",
 
@@ -5745,25 +5936,22 @@
 
     "ai_answer_title": "AI Answer Block – KVKK & Veri Güvenliği Raporlama",
     "ai_answer_text": "DGTLFACE, KVKK & veri güvenliği raporlama hizmetinde web sitesi, PMS–OTA entegrasyonları, rezervasyon verisi, çağrı merkezi mesajları, çerez & izin yönetimi, kullanıcı kayıtları ve sunucu altyapınızın tamamını analiz eder. Veri akış haritaları, erişim logları, saklama süreleri ve teknik tedbirler üzerinden KVKK uyum raporu ve dashboard’lar üretir. Böylece hem yasal uyumu hem de operasyonel veri güvenliğini sürekli izlenebilir hâle getirir.",
+    "subbanner_header3": "KVKK & Veri Güvenliği Raporlama Nedir?",
+      "subbanner_text2": "“KVKK uyumlu veri nasıl işlenir? Veri güvenliği gerçekten ölçülebilir mi?” sorularının cevabı; veri odaklı KVKK raporlama ile mümkündür.\n\nKVKK & veri güvenliği raporlama:\n\nHangi kişisel verilerin hangi sistemlerde tutulduğunu,\n\nBu verilerin hangi amaçlarla, hangi süreyle işlendiğini,\n\nHangi kullanıcıların, hangi rollerle erişim sağladığını,\n\nHangi teknik ve idari tedbirlerin uygulandığını,\n\nBunların günlük/haftalık/aylık raporlarla nasıl izlenebildiğini\n\ngösteren bir yapı kurmaktır.\n\nDGTLFACE,\n“kvkk uyumlu veri nasıl işlenir, oteller için veri güvenliği, turizm kvkk gereksinimleri, rezervasyon veri güvenliği, veri raporlama sistemi” gibi başlıkları; veri akış diyagramları + dashboard’lar + denetim raporları ile somutlaştırır.",
+   
+      "h2Section": {
+      "header1": "Oteller ve Turizm Sektörü İçin KVKK & Veri Güvenliği",
+      "text1": "Turizm ve otelcilik, kişisel veri işleme açısından en yoğun sektörlerden biri:\n\nRezervasyon formları,\n\nPMS kayıtları,\n\nOTA (Booking, Expedia, Agoda vb.) üzerinden gelen veriler,\n\nÇağrı merkezi ve WhatsApp görüşmeleri,\n\nCheck-in belgeleri, kimlik/pasaport verileri,\n\nÖdeme ve fatura bilgileri.\n\nDGTLFACE,\notel kvkk raporu, turizm veri güvenliği, PMS data protection, OTA veri güvenliği alanlarında:\n\nTüm bu kaynaklardan akan verinin nerede tutulduğunu,\n\nHangi sistemler arasında aktarıldığını (PMS, OTA, web, çağrı merkezi, CRM, muhasebe),\n\nHangi kullanıcıların ne yetkiyle eriştiğini,\n\nSilme/anonimleştirme ve loglama süreçlerinin nasıl işlediğini\n\nKVKK çerçevesinde raporlanabilir hâle getirir.\n\nSonuç: “Her yerde veri var” kaosundan çıkıp, haritalanmış ve kontrol edilen bir veri evreni oluşturursunuz.",
 
-    "h2Section": {
-      "header1": "KVKK & Veri Güvenliği Raporlama Nedir?",
-      "text1": "“KVKK uyumlu veri nasıl işlenir? Veri güvenliği gerçekten ölçülebilir mi?” sorularının cevabı; veri odaklı KVKK raporlama ile mümkündür.\n\nKVKK & veri güvenliği raporlama:\n\nHangi kişisel verilerin hangi sistemlerde tutulduğunu,\n\nBu verilerin hangi amaçlarla, hangi süreyle işlendiğini,\n\nHangi kullanıcıların, hangi rollerle erişim sağladığını,\n\nHangi teknik ve idari tedbirlerin uygulandığını,\n\nBunların günlük/haftalık/aylık raporlarla nasıl izlenebildiğini\n\ngösteren bir yapı kurmaktır.\n\nDGTLFACE,\n“kvkk uyumlu veri nasıl işlenir, oteller için veri güvenliği, turizm kvkk gereksinimleri, rezervasyon veri güvenliği, veri raporlama sistemi” gibi başlıkları; veri akış diyagramları + dashboard’lar + denetim raporları ile somutlaştırır.",
+      "header2": "Veri Akış Haritaları ve KVKK Uyum Analizi",
+      "text2": "KVKK uyumunun temeli, veri akışını anlamaktır. DGTLFACE, KVKK & veri güvenliği raporlamasında:",
 
-      "header2": "Oteller ve Turizm Sektörü İçin KVKK & Veri Güvenliği",
-      "text2": "Turizm ve otelcilik, kişisel veri işleme açısından en yoğun sektörlerden biri:\n\nRezervasyon formları,\n\nPMS kayıtları,\n\nOTA (Booking, Expedia, Agoda vb.) üzerinden gelen veriler,\n\nÇağrı merkezi ve WhatsApp görüşmeleri,\n\nCheck-in belgeleri, kimlik/pasaport verileri,\n\nÖdeme ve fatura bilgileri.\n\nDGTLFACE,\notel kvkk raporu, turizm veri güvenliği, PMS data protection, OTA veri güvenliği alanlarında:\n\nTüm bu kaynaklardan akan verinin nerede tutulduğunu,\n\nHangi sistemler arasında aktarıldığını (PMS, OTA, web, çağrı merkezi, CRM, muhasebe),\n\nHangi kullanıcıların ne yetkiyle eriştiğini,\n\nSilme/anonimleştirme ve loglama süreçlerinin nasıl işlediğini\n\nKVKK çerçevesinde raporlanabilir hâle getirir.\n\nSonuç: “Her yerde veri var” kaosundan çıkıp, haritalanmış ve kontrol edilen bir veri evreni oluşturursunuz.",
-
-      "header3": "Veri Akış Haritaları ve KVKK Uyum Analizi",
-      "text3": "KVKK uyumunun temeli, veri akışını anlamaktır. DGTLFACE, KVKK & veri güvenliği raporlamasında:",
-
-      "header4": "KVKK Teknik Tedbirler ve Güvenli Veri Yönetimi Raporları",
-      "text4": "KVKK, teknik tedbirleri net olarak işaret eder; ancak çoğu işletme bu tedbirlerin uygulanma ve raporlanma kısmında zorlanır. DGTLFACE,\n“KVKK teknik tedbirler, güvenli veri yönetimi, data privacy teknik gereksinimler” tarafında:",
-
-      "header5": "KVKK Veri Güvenliği Raporlama Sistemi",
-      "text5": "“Veri raporlama sistemi”, KVKK’nın sürdürülebilir hâle gelmesi için vazgeçilmezdir. DGTLFACE, Looker Studio (/tr/raporlama/looker-studio\n) ve diğer BI araçlarıyla:"
+      "header3": "KVKK Teknik Tedbirler ve Güvenli Veri Yönetimi Raporları",
+      "text3": "KVKK, teknik tedbirleri net olarak işaret eder; ancak çoğu işletme bu tedbirlerin uygulanma ve raporlanma kısmında zorlanır. DGTLFACE,\n“KVKK teknik tedbirler, güvenli veri yönetimi, data privacy teknik gereksinimler” tarafında:"
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header": "KVKK Veri Güvenliği Raporlama Sistemi",
       "header1": "Veri Envanteri ve Veri Akış Diyagramları",
       "text1": "Aşağıdaki sorulara net cevap çıkarılır:\n\nHangi veri?\n(isim, iletişim, rezervasyon bilgisi, ödeme, yorum vb.)\n\nNereden geliyor?\n(web, OTA, acente, telefon, mail, WhatsApp, sosyal medya)\n\nHangi sistemlere gidiyor?\n(PMS, CRM, muhasebe, e-posta, üçüncü taraf servisler)\n\nKimlerle paylaşılıyor?\n(acente, OTA, ödeme sağlayıcı, entegrasyon firmaları)\n\nNe kadar süreyle tutuluyor?\n\nBu bilgiler, görsel veri akış haritaları hâline getirilir.\n\nBu haritalar;\n“turizm kvkk gereksinimleri, rezervasyon veri güvenliği, kvkk teknik tedbirler” için temel referans noktası olur.",
 
@@ -5855,11 +6043,10 @@
 
     "ai_answer_title": "AI Answer Block – Otel SEO",
     "ai_answer_text": "DGTLFACE, otel SEO hizmetinde teknik SEO, anahtar kelime stratejisi, içerik & blog kurgusu, Google Maps/Hotel/Travel optimizasyonu ve çok dilli yapı yönetimini tek çatı altında toplar. OTA rekabetine rağmen direct booking payını artırmak için, oda sayfalarından destinasyon içeriklerine kadar tüm site mimarisini turizm odaklı SEO standartlarına göre yeniden kurgular; organik trafiği gerçek rezervasyonlara dönüştüren, sürdürülebilir bir yapı kurar.",
-
-    "h2Section": {
-      "header1": "Otel SEO Nedir, Neden Bu Kadar Kritik?",
-      "text1": "“Oteller için SEO nasıl yapılır? Zaten Booking’de görünürken SEO’ya gerek var mı?” soruları çok sık gelir. Cevap net:\n\nOTA’lar (Booking, Expedia vb.) sizi gösterir ama markanızı değil, platformu güçlendirir.\n\nKendi otel web sitenizin SEO’su ise:\n\nOTA komisyonlarını azaltır,\n\nMarka bilinirliğini artırır,\n\n“Doğrudan rezervasyon” kasınızı güçlendirir,\n\nUzun vadede daha düşük maliyetli rezervasyon üretir.\n\nOtel SEO, şu arama türlerinde görünür olmanızı hedefler:\n\n“[bölge] otel”, “[bölge] resort”, “[bölge] all inclusive otel” gibi genel tatil aramaları,\n\nKonsept aramaları: spa hotel, luxury hotel, boutique hotel, golf hotel, family resort,\n\nNiş niyetler: “en iyi aile oteli [bölge]”, “balayı oteli [bölge]”, “aquapark otel”,\n\nMarka + bölge + konsept kombinasyonları.\n\nDGTLFACE;\n“turizm işletmesi SEO rehberi, otel SEO anahtar kelime analizi, otel organik trafik artırma” gibi ihtiyaçlar için turizm odaklı tam bir SEO çerçevesi sunar.",
-
+     "subbanner_header3": "Otel SEO Nedir, Neden Bu Kadar Kritik?",
+      "subbanner_text2": "“Oteller için SEO nasıl yapılır? Zaten Booking’de görünürken SEO’ya gerek var mı?” soruları çok sık gelir. Cevap net:\n\nOTA’lar (Booking, Expedia vb.) sizi gösterir ama markanızı değil, platformu güçlendirir.\n\nKendi otel web sitenizin SEO’su ise:\n\nOTA komisyonlarını azaltır,\n\nMarka bilinirliğini artırır,\n\n“Doğrudan rezervasyon” kasınızı güçlendirir,\n\nUzun vadede daha düşük maliyetli rezervasyon üretir.\n\nOtel SEO, şu arama türlerinde görünür olmanızı hedefler:\n\n“[bölge] otel”, “[bölge] resort”, “[bölge] all inclusive otel” gibi genel tatil aramaları,\n\nKonsept aramaları: spa hotel, luxury hotel, boutique hotel, golf hotel, family resort,\n\nNiş niyetler: “en iyi aile oteli [bölge]”, “balayı oteli [bölge]”, “aquapark otel”,\n\nMarka + bölge + konsept kombinasyonları.\n\nDGTLFACE;\n“turizm işletmesi SEO rehberi, otel SEO anahtar kelime analizi, otel organik trafik artırma” gibi ihtiyaçlar için turizm odaklı tam bir SEO çerçevesi sunar.",
+    
+      "h2Section": {
       "header2": "Otel SEO Stratejisinin Temel Bileşenleri",
       "text2": "Otel SEO’yu 3 ana başlıkta ele alıyoruz:\n\nTeknik SEO – Site altyapısı, hız, mobil uyumluluk, taranabilirlik, schema\n\nİçerik & Niyet Odaklı SEO – Sayfa yapıları, blog, destinasyon içerikleri, görsel optimizasyon\n\nYerel & Çok Dilli SEO – Google Maps/Travel, lokal aramalar, çok dilli yapı, pazar bazlı içerik\n\nDGTLFACE, bu 3 katmanı:\n\n/tr/seo/teknik-seo\n\n/tr/seo/icerik-seo\n\n/tr/seo/yerel-seo\n\n/tr/otel-dijital-pazarlama\n\nile entegre şekilde yönetir.",
 
@@ -5876,19 +6063,12 @@
       "text6": "Yerel SEO olmadan otel SEO eksik kalır. Çünkü misafirlerin büyük kısmı:\n\n“antalya otel”, “belek otel”, “kemer resort”, “side hotel” gibi lokasyon bazlı arama yapar.\n\nDGTLFACE, yerel SEO (/tr/seo/yerel-seo\n) ile entegre çalışarak:\n\nGoogle Business Profile / Google Maps profilinizi optimize eder,\n\nKategori, açıklama, fotoğraf ve özellik alanlarını turizm SEO standartlarına göre düzenler,\n\n“Antalya otel SEO, Belek otel SEO, Kemer otel SEO, Side resort SEO” gibi lokal + niş aramalarda görünürlüğü güçlendirir,\n\nYorum yönetimini, otel SEO stratejinizin parçası hâline getirir.\n\nYerel SEO ile Otel SEO, özellikle bölge–konsept anahtar kelimelerinde birlikte çalışarak sonuç üretir.",
 
       "header7": "Booking Etkisi, OTA ve Otel Web Sitesi SEO Dengesi",
-      "text7": "“Booking etkisi SEO’yu bozar mı? OTA varken kendi sitemi öne çıkarmak mümkün mü?” soruları çok normal. Gerçek:\n\nBooking ve diğer OTA’lar, marka adınızda bile sizden önce çıkabilir.\n\nBu; otel web sitenizin hiçbir şey yapamayacağı anlamına gelmez.\n\nDGTLFACE, “booking etkisi SEO” tarafında:\n\nMarka aramalarında (otel adı + bölge) web sitenizin title, meta ve içeriklerini doğru kurgular,\n\nGoogle Business, schema ve site bağlantıları ile marka görünürlüğünü güçlendirir,\n\nBlog ve destinasyon içerikleriyle markanızı “sadece oda satan yer” değil, “bölgeyi anlatan uzman” konumuna taşır,\n\nOTA’lar ile web sitenizi, SEO anlamında çatışan değil, birbirini besleyen kanallar hâline getirir.\n\nUzun vadede; marka aramalarında ve “niyet odaklı” aramalarda web sitenizin organik payı artmaya başlar.",
-
-      "header8": "DGTLFACE Otel SEO Hizmet Detayları",
-      "text8": "",
-
-      "header9": "Neden DGTLFACE ile Otel SEO?",
-      "text9": "",
-
-      "header10": "Mikro Katman – H5 Konuları",
-      "text10": ""
+      "text7": "“Booking etkisi SEO’yu bozar mı? OTA varken kendi sitemi öne çıkarmak mümkün mü?” soruları çok normal. Gerçek:\n\nBooking ve diğer OTA’lar, marka adınızda bile sizden önce çıkabilir.\n\nBu; otel web sitenizin hiçbir şey yapamayacağı anlamına gelmez.\n\nDGTLFACE, “booking etkisi SEO” tarafında:\n\nMarka aramalarında (otel adı + bölge) web sitenizin title, meta ve içeriklerini doğru kurgular,\n\nGoogle Business, schema ve site bağlantıları ile marka görünürlüğünü güçlendirir,\n\nBlog ve destinasyon içerikleriyle markanızı “sadece oda satan yer” değil, “bölgeyi anlatan uzman” konumuna taşır,\n\nOTA’lar ile web sitenizi, SEO anlamında çatışan değil, birbirini besleyen kanallar hâline getirir.\n\nUzun vadede; marka aramalarında ve “niyet odaklı” aramalarda web sitenizin organik payı artmaya başlar."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header": "DGTLFACE Otel SEO Hizmet Detayları",
+
       "header1": "Genel Niyetli Kelimeler",
       "text1": "“antalya otelleri”, “belek resort”, “kemer all inclusive otel”, “side resort hotel”,\n\n“[bölge] hotel”, “[bölge] resort”, “[bölge] family hotel” gibi yüksek hacimli aramalar.",
 
@@ -5992,33 +6172,26 @@
 
     "ai_answer_title": "AI Answer Block – Otel Sosyal Medya",
     "ai_answer_text": "DGTLFACE, otel sosyal medya yönetiminde Instagram, Reels, TikTok ve Facebook’u; oda, tesis ve destinasyon içerikleriyle birleşen, rezervasyon odaklı bir stratejiyle yönetir. Resort, city, butik veya luxury oteller için özel içerik takvimi, Reels & video üretimi, kampanya kurgusu ve reklam entegrasyonu kurar; sosyal medyanızı sadece “beğeni” değil, direkt talep ve rezervasyon üreten bir satış kanalı hâline getirir.",
+"subbanner_header3": "Otel Sosyal Medya Yönetimi Nedir, Neden Kritik?",
+      "subbanner_text2": "“Zaten OTA’larda ve booking sitelerinde görünürüm, sosyal medyaya bu kadar yüklenmek şart mı?” sorusunun cevabı: Evet, şart.\n\nÇünkü misafirler:\n\nOteli seçmeden önce Instagram’a girip bakıyor,\n\nReels videolarınızdan otelin atmosferini anlamaya çalışıyor,\n\n“Gerçek misafir deneyimi”ni story’ler, etiketler ve yorumlar üzerinden ölçüyor,\n\nKararsız kaldığında DM, WhatsApp veya yorum ile soru soruyor.\n\nProfesyonel otel sosyal medya yönetimi:\n\nMarka imajınızı güçlendirir,\n\nFiyatınızın neden o seviyede olduğunu görsel ve hikâye ile anlatır,\n\nSosyal medya ile rezervasyon artırma hedeflerinizi destekler,\n\nOtelinizi “herkes gibi” değil, konsepti ve deneyimiyle ayrışan bir marka hâline getirir.\n\nDGTLFACE;\n“oteller için Instagram stratejisi, turizm sosyal medya taktikleri, all inclusive oteller için sosyal medya” gibi ihtiyaçları performans + estetik + satış odağında birleştirir.",
+    
+      "h2Section": {
+    
+      "header1": "Oteller İçin Instagram & Reels Stratejisi",
+      "text1": "Instagram, otel ve resort’lar için hâlâ bir numaralı vitrin; ama vitrin sadece fotoğraf değil, feed + story + Reels + DM dengesidir.\n\nDGTLFACE, otel Instagram yönetimi tarafında:\n\nInstagram’ı ana sosyal medya kanalı olarak konumlandırır,\n\nFeed’i otelin konsepti, renkleri ve mimarisiyle uyumlu tasarlar,\n\nStory & highlight alanlarını misafir için mini bir “mikro web sitesi” gibi kurgular,\n\nOtel Reels fikirleri ile Reels tarafını sadece trend takibi değil, satış & rezervasyon odaklı planlar,\n\nGerekirse TikTok ve YouTube Shorts’la desteklenen çok kanallı video strateji kurar.\n\n“Reels ile oda satış artırma” hedefinde:\n\nOda, havuz, restoran, kahvaltı, spa, çocuk alanı, eğlence ve destinasyon karelerini kısa, dinamik videolar hâline getiriyoruz,\n\n“Önce oteli göster, sonra fiyatı konuş” mantığıyla Reels’i satış sürecinin ilk basamağına yerleştiriyoruz.",
 
-    "h2Section": {
-      "header1": "Otel Sosyal Medya Yönetimi Nedir, Neden Kritik?",
-      "text1": "“Zaten OTA’larda ve booking sitelerinde görünürüm, sosyal medyaya bu kadar yüklenmek şart mı?” sorusunun cevabı: Evet, şart.\n\nÇünkü misafirler:\n\nOteli seçmeden önce Instagram’a girip bakıyor,\n\nReels videolarınızdan otelin atmosferini anlamaya çalışıyor,\n\n“Gerçek misafir deneyimi”ni story’ler, etiketler ve yorumlar üzerinden ölçüyor,\n\nKararsız kaldığında DM, WhatsApp veya yorum ile soru soruyor.\n\nProfesyonel otel sosyal medya yönetimi:\n\nMarka imajınızı güçlendirir,\n\nFiyatınızın neden o seviyede olduğunu görsel ve hikâye ile anlatır,\n\nSosyal medya ile rezervasyon artırma hedeflerinizi destekler,\n\nOtelinizi “herkes gibi” değil, konsepti ve deneyimiyle ayrışan bir marka hâline getirir.\n\nDGTLFACE;\n“oteller için Instagram stratejisi, turizm sosyal medya taktikleri, all inclusive oteller için sosyal medya” gibi ihtiyaçları performans + estetik + satış odağında birleştirir.",
+      "header2": "Hotel Content Production – Turizm Sosyal Medya İçerikleri",
+      "text2": "Otel sosyal medya yönetimi için içerik üretimi, klasik “post + caption” modelinin çok ötesinde.\n\nDGTLFACE, hotel content production tarafında:\n\nProfesyonel otel fotoğraf çekimi\n(oda, genel alan, lobi, restoran, bar, spa, aquapark, etkinlik, detay çekimleri),\n\nResort için video çekimi\n(günlük akış, aktiviteler, havuz, sahne, eğlence, kids club),\n\nReels & kısa video formatına uygun dikey video içerikler,\n\nMisafir deneyimini yansıtan insan odaklı kareler\n(mutfak ekibi, barista, şef, animasyon ekibi vb.),\n\nUGC (User Generated Content) ve misafir story/paylaşım entegrasyonu\n\nile resort social media tarafında sürdürülebilir bir içerik havuzu kurar.\n\nBu üretim süreci; hem sosyal medya hem web hem de OTA tarafında kullanılabilecek multi-platform görsel arşiv anlamına gelir.",
 
-      "header2": "Oteller İçin Instagram & Reels Stratejisi",
-      "text2": "Instagram, otel ve resort’lar için hâlâ bir numaralı vitrin; ama vitrin sadece fotoğraf değil, feed + story + Reels + DM dengesidir.\n\nDGTLFACE, otel Instagram yönetimi tarafında:\n\nInstagram’ı ana sosyal medya kanalı olarak konumlandırır,\n\nFeed’i otelin konsepti, renkleri ve mimarisiyle uyumlu tasarlar,\n\nStory & highlight alanlarını misafir için mini bir “mikro web sitesi” gibi kurgular,\n\nOtel Reels fikirleri ile Reels tarafını sadece trend takibi değil, satış & rezervasyon odaklı planlar,\n\nGerekirse TikTok ve YouTube Shorts’la desteklenen çok kanallı video strateji kurar.\n\n“Reels ile oda satış artırma” hedefinde:\n\nOda, havuz, restoran, kahvaltı, spa, çocuk alanı, eğlence ve destinasyon karelerini kısa, dinamik videolar hâline getiriyoruz,\n\n“Önce oteli göster, sonra fiyatı konuş” mantığıyla Reels’i satış sürecinin ilk basamağına yerleştiriyoruz.",
-
-      "header3": "Hotel Content Production – Turizm Sosyal Medya İçerikleri",
-      "text3": "Otel sosyal medya yönetimi için içerik üretimi, klasik “post + caption” modelinin çok ötesinde.\n\nDGTLFACE, hotel content production tarafında:\n\nProfesyonel otel fotoğraf çekimi\n(oda, genel alan, lobi, restoran, bar, spa, aquapark, etkinlik, detay çekimleri),\n\nResort için video çekimi\n(günlük akış, aktiviteler, havuz, sahne, eğlence, kids club),\n\nReels & kısa video formatına uygun dikey video içerikler,\n\nMisafir deneyimini yansıtan insan odaklı kareler\n(mutfak ekibi, barista, şef, animasyon ekibi vb.),\n\nUGC (User Generated Content) ve misafir story/paylaşım entegrasyonu\n\nile resort social media tarafında sürdürülebilir bir içerik havuzu kurar.\n\nBu üretim süreci; hem sosyal medya hem web hem de OTA tarafında kullanılabilecek multi-platform görsel arşiv anlamına gelir.",
-
-      "header4": "Rezervasyon & Gelir Odaklı Sosyal Medya Kurgusu",
-      "text4": "Haklısın tatlım; sadece etkileşim değil, rezervasyon da görmek istiyoruz.\n\nDGTLFACE, sosyal medya ile rezervasyon artırma ve gelir odaklı kurgu tarafında:\n\nSosyal medya → web → rezervasyon motoru hunisini kurar\n( [/tr/otel/reklam-yonetimi], [/tr/sem], [/tr/pms-ota/online-satis] ile entegre),\n\nKampanya ve dönemsel satış kurgularını sosyal medya içerik ve reklamlarıyla besler,\n\nSosyal medyada gösterilen oda, paket, konsept içeriklerini\n\ndoğrudan rezervasyon linki veya çağrı merkezi\n([/tr/cagri-merkezi/rezervasyon-destegi], [/tr/otel/cagri-merkezi]) ile bağlar,\n\nMisafirin DM ve WhatsApp üzerinden sorduğu soruları satış fırsatına çeviren script’ler hazırlar.\n\nÖzellikle all inclusive oteller için sosyal medya tarafında:\n\nAile konsepti, çocuk alanları, aquapark, eğlence ve gastronomi deneyimini ön plana çıkarıyoruz,\n\n“Bu otelde tatil yaparsam nasıl hissederim?” sorusuna içeriklerle cevap veriyoruz.",
-
-      "header5": "DGTLFACE Otel Sosyal Medya Hizmet Detayları",
-      "text5": "",
-
-      "header6": "Farklı Otel Segmentleri İçin Sosyal Medya Yaklaşımları",
-      "text6": "",
-
-      "header7": "Neden DGTLFACE ile Otel Sosyal Medya Yönetimi?",
-      "text7": ""
+      "header3": "Rezervasyon & Gelir Odaklı Sosyal Medya Kurgusu",
+      "text3": "Haklısın tatlım; sadece etkileşim değil, rezervasyon da görmek istiyoruz.\n\nDGTLFACE, sosyal medya ile rezervasyon artırma ve gelir odaklı kurgu tarafında:\n\nSosyal medya → web → rezervasyon motoru hunisini kurar\n( [/tr/otel/reklam-yonetimi], [/tr/sem], [/tr/pms-ota/online-satis] ile entegre),\n\nKampanya ve dönemsel satış kurgularını sosyal medya içerik ve reklamlarıyla besler,\n\nSosyal medyada gösterilen oda, paket, konsept içeriklerini\n\ndoğrudan rezervasyon linki veya çağrı merkezi\n([/tr/cagri-merkezi/rezervasyon-destegi], [/tr/otel/cagri-merkezi]) ile bağlar,\n\nMisafirin DM ve WhatsApp üzerinden sorduğu soruları satış fırsatına çeviren script’ler hazırlar.\n\nÖzellikle all inclusive oteller için sosyal medya tarafında:\n\nAile konsepti, çocuk alanları, aquapark, eğlence ve gastronomi deneyimini ön plana çıkarıyoruz,\n\n“Bu otelde tatil yaparsam nasıl hissederim?” sorusuna içeriklerle cevap veriyoruz."
 
 
     },
 
-    "h3Details": {
+    "h3Section": {
+       "header": "DGTLFACE Otel Sosyal Medya Hizmet Detayları",
+
       "header1": "İçerik Stratejisi & Aylık Planlama",
       "text1": "DGTLFACE, otel sosyal medya tarafında planlı ama esnek bir yapı kurar:\n\nAylık içerik takvimi:\n\nBilgilendirici içerik (oda, konsept, hizmet anlatımları),\n\nDeneyim içerikleri (yemek, kahvaltı, eğlence, spa & wellness),\n\nDestinasyon içerikleri (bölge, gezi önerileri, etkinlikler),\n\nKullanıcı etkileşimi sağlayan içerikler (soru–cevap, quiz, anket),\n\nKampanya & satış içerikleri (erken rezervasyon, özel dönemler, paketler).\n\nİçerik türü dengesi (örnek):\n\n%40 deneyim (duygu ve atmosfer),\n\n%30 bilgi & destinasyon,\n\n%20 satış & kampanya,\n\n%10 marka hikâyesi & ekip paylaşımları.\n\n“Turizm sosyal medya taktikleri”ni; otelinizin segmenti, hedef pazarı ve sezon yapısına göre özelleştiriyoruz.",
 
@@ -6113,11 +6286,10 @@
 
     "ai_answer_title": "AI Answer Block – Otel Reklam Yönetimi",
     "ai_answer_text": "DGTLFACE, otel reklam yönetiminde Google Ads, Meta Ads ve YouTube kampanyalarını rezervasyon, doluluk ve gelir odaklı tasarlar. Otel, resort ve villalar için pazar bazlı hedefleme, sezonluk strateji, Google Hotel Ads entegrasyonu, Meta video & Reels kampanyaları ve remarketing akışları kurar. PMS, OTA, web ve çağrı merkezine entegre takip ile her kampanyanın gerçek rezervasyon ve gelir etkisini görünür hâle getirir.",
+ "subbanner_header3": "Otel Reklam Yönetimi Nedir, Neden Farklıdır?",
+      "subbanner_text2": "“Normal reklam kampanyasından farkı ne, sonuçta hepsi tıklama değil mi?” diye düşünebilirsin.\nOtel ve turizm tarafında reklam yönetimi farklıdır, çünkü:\n\nSezon, dönem ve pazar bazlı dalgalanma çok yüksektir,\n\nOTA’lar (Booking, Expedia, Agoda vb.) ile kendi kanalın (web + call center) arasında hassas bir denge vardır,\n\nFiyat, müsaitlik ve kampanyalar PMS üzerinden sürekli değişir,\n\nRezervasyon süreci sadece online değil; telefon + WhatsApp + DM ile de akar.\n\nProfesyonel otel reklam yönetimi bu yüzden:\n\nPMS & OTA & fiyat stratejisiyle uyumlu olmalı,\n\n“Dolu dönem – boş dönem” farkını iyi okuyabilmeli,\n\nOda satış oranlarını artırma reklamları ile sadece doluluğu değil, geliri büyütmelidir.\n\nDGTLFACE;\n“oteller için Google Ads stratejileri, resort satış artırma reklamları, turizm Google reklamlari, otel reklam bütçesi yönetimi, oda doluluk artırma reklamları” gibi tüm ihtiyaçları, turizm odaklı bir performans çerçevesinde yönetir.",
 
     "h2Section": {
-      "header1": "Otel Reklam Yönetimi Nedir, Neden Farklıdır?",
-      "text1": "“Normal reklam kampanyasından farkı ne, sonuçta hepsi tıklama değil mi?” diye düşünebilirsin.\nOtel ve turizm tarafında reklam yönetimi farklıdır, çünkü:\n\nSezon, dönem ve pazar bazlı dalgalanma çok yüksektir,\n\nOTA’lar (Booking, Expedia, Agoda vb.) ile kendi kanalın (web + call center) arasında hassas bir denge vardır,\n\nFiyat, müsaitlik ve kampanyalar PMS üzerinden sürekli değişir,\n\nRezervasyon süreci sadece online değil; telefon + WhatsApp + DM ile de akar.\n\nProfesyonel otel reklam yönetimi bu yüzden:\n\nPMS & OTA & fiyat stratejisiyle uyumlu olmalı,\n\n“Dolu dönem – boş dönem” farkını iyi okuyabilmeli,\n\nOda satış oranlarını artırma reklamları ile sadece doluluğu değil, geliri büyütmelidir.\n\nDGTLFACE;\n“oteller için Google Ads stratejileri, resort satış artırma reklamları, turizm Google reklamlari, otel reklam bütçesi yönetimi, oda doluluk artırma reklamları” gibi tüm ihtiyaçları, turizm odaklı bir performans çerçevesinde yönetir.",
-
       "header2": "Google Ads ile Otel Reklam Yönetimi",
       "text2": "Google, otel ve turizm için hâlâ en yüksek niyetli kanal. Misafirler:\n\n“[bölge] otel”,\n\n“[bölge] all inclusive”,\n\n“[bölge] family resort”,\n\n“[otel adı] fiyat”\n\ngibi aramalarla karar sürecine başlar.\n\nDGTLFACE, otel Google Ads tarafında:",
 
@@ -6128,19 +6300,12 @@
       "text4": "Video; otel ve resort’lar için en güçlü hikâye anlatma aracıdır.\n\nDGTLFACE, hotel YouTube Ads tarafında:\n\nTanıtım & imaj filmleri için YouTube TrueView, in-stream, bumper formatlarını kullanır,\n\n“Turizm Google reklamlari, otel tanıtım videosu, kısa reklam videosu” içeriklerini hedef pazarlara gösterir,\n\nFarkındalık (brand awareness) + web & rezervasyon motoruna trafik + remarketing döngüsü kurar.\n\nYouTube tarafını,\n[/tr/creative/video-produksiyon] ve [/tr/sem/youtube-reklam-yonetimi] ile birlikte kurgularız.",
 
       "header5": "Oteller İçin Reklam Stratejisi ve Bütçe Planlama",
-      "text5": "Dijital reklamda en sık sorulan soru:\n“Aylık ne kadar bütçe gerekir?”\n\nCevap; “herkese aynı” değil, hedefe ve kapasiteye göre olmalıdır. DGTLFACE, otel reklam bütçesi yönetimi tarafında:\n\nOtelin segmentine (luxury, resort, butik, city),\n\nOda sayısına ve hedef doluluk oranlarına,\n\nHedef pazarlara (DE, RU, UK, iç pazar),\n\nOTA & direkt kanal dengesine\n\nbakar ve buna göre:\n\nMinimum yapısal bütçe (varlık koruma ve marka görünürlüğü için),\n\nPerformans artırıcı ek bütçe (özellikle high season ve kampanya dönemleri için)\n\nönerir.\n\n“Oda doluluk artırma reklamları, otel reklam bütçesi yönetimi” bu çerçevede planlanır.",
-
-      "header6": "DGTLFACE Otel Reklam Yönetimi Hizmet Detayları",
-      "text6": "",
-
-      "header7": "Neden DGTLFACE ile Otel Reklam Yönetimi?",
-      "text7": "",
-
-      "header8": "Mikro Katman – H5 Konuları",
-      "text8": ""
+      "text5": "Dijital reklamda en sık sorulan soru:\n“Aylık ne kadar bütçe gerekir?”\n\nCevap; “herkese aynı” değil, hedefe ve kapasiteye göre olmalıdır. DGTLFACE, otel reklam bütçesi yönetimi tarafında:\n\nOtelin segmentine (luxury, resort, butik, city),\n\nOda sayısına ve hedef doluluk oranlarına,\n\nHedef pazarlara (DE, RU, UK, iç pazar),\n\nOTA & direkt kanal dengesine\n\nbakar ve buna göre:\n\nMinimum yapısal bütçe (varlık koruma ve marka görünürlüğü için),\n\nPerformans artırıcı ek bütçe (özellikle high season ve kampanya dönemleri için)\n\nönerir.\n\n“Oda doluluk artırma reklamları, otel reklam bütçesi yönetimi” bu çerçevede planlanır."
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header": "DGTLFACE Otel Reklam Yönetimi Hizmet Detayları",
+
       "header1": "Arama Ağı Kampanyaları (Search)",
       "text1": "Lokasyon + konsept + marka kelimeleri için rezervasyon odaklı kampanyalar kurar,\n\n“oteller için Google Ads stratejileri, PPC reklam optimizasyon rehberi” mantığıyla anahtar kelime setini hazırlar,\n\nMarka aramalarında OTA’lar yerine otel web sitenizi öne çıkarmayı hedefler.",
 
@@ -6241,40 +6406,30 @@
 
     "ai_answer_title": "AI Answer Block – Otel OTA Yönetimi",
     "ai_answer_text": "DGTLFACE, otel OTA yönetimi hizmetinde Booking, Expedia, Agoda ve diğer OTA kanallarını PMS ve channel manager ile entegre biçimde yönetir. Fiyat, envanter, içerik, yorum ve kampanya ayarlarını optimize ederek; doluluk, görünürlük ve net geliri artırır. Rate parity, overbooking riski, iptal oranları ve OTA vs direkt kanal dengesi veriyle takip edilir; oteller için sürdürülebilir ve kârlı bir OTA stratejisi kurulur.",
+    "subbanner_header3": "Otel OTA Yönetimi Nedir, Neden Kritik?",
+      "subbanner_text2": "“Zaten Booking’de listeleniyorum, OTA yönetimine ayrıca yatırım yapmaya gerek var mı?” sorusu çok klasik.\n\nGerçek şu ki:\n\nYanlış yönetilen OTA = yüksek komisyon + fiyat kaosu + overbooking riski,\n\nDoğru yönetilen OTA = güçlü görünürlük + dengeli doluluk + kontrollü gelir.\n\nOtel OTA yönetimi;\n\nDoğru kanallarda,\n\nDoğru fiyat ve içerikle,\n\nDoğru envanter ve kampanya stratejileriyle\n\nyer almanızı sağlar.\n\nDGTLFACE, turizm OTA çözümleri kapsamında:\n\nOTA’larda görünürlüğünüzü artırır,\n\nFiyat & stok hatalarını minimize eder,\n\n“Sadece OTA’ya bağımlı” değil, OTA + direkt kanal dengesine sahip bir model kurar.",
 
     "h2Section": {
-      "header1": "Otel OTA Yönetimi Nedir, Neden Kritik?",
-      "text1": "“Zaten Booking’de listeleniyorum, OTA yönetimine ayrıca yatırım yapmaya gerek var mı?” sorusu çok klasik.\n\nGerçek şu ki:\n\nYanlış yönetilen OTA = yüksek komisyon + fiyat kaosu + overbooking riski,\n\nDoğru yönetilen OTA = güçlü görünürlük + dengeli doluluk + kontrollü gelir.\n\nOtel OTA yönetimi;\n\nDoğru kanallarda,\n\nDoğru fiyat ve içerikle,\n\nDoğru envanter ve kampanya stratejileriyle\n\nyer almanızı sağlar.\n\nDGTLFACE, turizm OTA çözümleri kapsamında:\n\nOTA’larda görünürlüğünüzü artırır,\n\nFiyat & stok hatalarını minimize eder,\n\n“Sadece OTA’ya bağımlı” değil, OTA + direkt kanal dengesine sahip bir model kurar.",
+      "header1": "OTA Kanalları: Booking, Expedia, Agoda & Diğerleri",
+      "text1": "Her OTA kanalı aynı değil; her birinin dinamiği, komisyonu, sıralama kriteri ve algoritması farklı.\n\nDGTLFACE, otel OTA yönetimi tarafında:",
 
-      "header2": "OTA Kanalları: Booking, Expedia, Agoda & Diğerleri",
-      "text2": "Her OTA kanalı aynı değil; her birinin dinamiği, komisyonu, sıralama kriteri ve algoritması farklı.\n\nDGTLFACE, otel OTA yönetimi tarafında:",
+      "header2": "OTA Fiyat Stratejisi ve Oda Geliri",
+      "text2": "Fiyat, OTA dünyasının nabzıdır. Yanlış kurgulanmış bir OTA fiyat stratejisi size:\n\nGereksiz fiyat savaşları,\n\nOTA–web kanal çatışması,\n\nMisafir gözünde kafa karışıklığı,\n\nGereksiz gelir kaybı\n\nolarak döner.\n\nDGTLFACE, otel OTA yönetimi kapsamında:\n\nTemel fiyat yapınızı PMS’te tanımlar ([/tr/pms-ota/pms-kurulum]),\n\nOTA kanallarındaki fiyatların bu yapı üzerinden, kontrollü biçimde yansımasını sağlar,\n\nRate parity’yi (fiyat eşitliği) bozmadan, direkt kanal avantajını koruyacak stratejiler önerir,\n\nFiyat stratejisini; sezon, pazar, kanal ve doluluk hedefleriyle hizalar.\n\n“OTA fiyat kontrol sistemi, OTA fiyat stratejisi, turizm fiyat karşılaştırması, OTA satış analizi nasıl yapılır” sorularının cevabı bu katmanda oluşur.",
 
-      "header3": "OTA Fiyat Stratejisi ve Oda Geliri",
-      "text3": "Fiyat, OTA dünyasının nabzıdır. Yanlış kurgulanmış bir OTA fiyat stratejisi size:\n\nGereksiz fiyat savaşları,\n\nOTA–web kanal çatışması,\n\nMisafir gözünde kafa karışıklığı,\n\nGereksiz gelir kaybı\n\nolarak döner.\n\nDGTLFACE, otel OTA yönetimi kapsamında:\n\nTemel fiyat yapınızı PMS’te tanımlar ([/tr/pms-ota/pms-kurulum]),\n\nOTA kanallarındaki fiyatların bu yapı üzerinden, kontrollü biçimde yansımasını sağlar,\n\nRate parity’yi (fiyat eşitliği) bozmadan, direkt kanal avantajını koruyacak stratejiler önerir,\n\nFiyat stratejisini; sezon, pazar, kanal ve doluluk hedefleriyle hizalar.\n\n“OTA fiyat kontrol sistemi, OTA fiyat stratejisi, turizm fiyat karşılaştırması, OTA satış analizi nasıl yapılır” sorularının cevabı bu katmanda oluşur.",
+      "header3": "Otel Envanter Yönetimi & Overbooking Riskini Azaltma",
+      "text3": "En büyük OTA kabusu: overbooking\nYani aynı odayı birden çok kanala satmak.\n\nDGTLFACE, otel envanter yönetimi tarafında:\n\nEnvanterin ana kaynağını PMS’e bağlar ([/tr/pms-ota/pms-kurulum], [/tr/pms-ota/kanal-yonetimi]),\n\nPMS → Channel Manager → OTA akışını net ve tek yönlü kurgular,\n\nKritik dönemlerde buffer oda (güvenlik stoğu) kullanmanızı önerir,\n\nKanal bazlı stok stratejisiyle yüksek komisyonlu kanallara aşırı bağımlılığı azaltır,\n\nNo-show, iptal ve tarih değişikliklerinde envanterin doğru güncellenmesini sağlar.\n\n“Otel envanter yönetimi, OTA fiyat kontrol sistemi, OTA fiyat karşılaştırması” gibi başlıklar, sadece gelir değil, risk yönetimi açısından da kritiktir.",
 
-      "header4": "Otel Envanter Yönetimi & Overbooking Riskini Azaltma",
-      "text4": "En büyük OTA kabusu: overbooking\nYani aynı odayı birden çok kanala satmak.\n\nDGTLFACE, otel envanter yönetimi tarafında:\n\nEnvanterin ana kaynağını PMS’e bağlar ([/tr/pms-ota/pms-kurulum], [/tr/pms-ota/kanal-yonetimi]),\n\nPMS → Channel Manager → OTA akışını net ve tek yönlü kurgular,\n\nKritik dönemlerde buffer oda (güvenlik stoğu) kullanmanızı önerir,\n\nKanal bazlı stok stratejisiyle yüksek komisyonlu kanallara aşırı bağımlılığı azaltır,\n\nNo-show, iptal ve tarih değişikliklerinde envanterin doğru güncellenmesini sağlar.\n\n“Otel envanter yönetimi, OTA fiyat kontrol sistemi, OTA fiyat karşılaştırması” gibi başlıklar, sadece gelir değil, risk yönetimi açısından da kritiktir.",
+      "header4": "OTA Performans Analizi ve Satış Optimizasyonu",
+      "text4": "Sadece “Booking’den rezervasyon geliyor” demek yetmez;\n\nNe kadar, hangi maliyetle, hangi pazar ve odalar üzerinden geliyor?\n\nDGTLFACE, OTA performans analizi tarafında her OTA için:\n\nRezervasyon sayısı,\n\nGece sayısı,\n\nToplam gelir,\n\nKomisyon,\n\nNet gelir,\n\nİptal oranı,\n\nNo-show,\n\nOrtalama sepet değeri,\n\nPazar/ülke bazlı OTA performansı,\n\nOda tipi & konsept bazlı satış analizi\n\nraporlar.\n\n“OTA satış analizi nasıl yapılır, OTA fiyat karşılaştırması, resort OTA optimizasyon” gibi raporlar;\n\nHangi kanalın gerçekten kâr getirdiğini,\n\nHangi kanalın sadece doluluk gösterip gelirden yediğini\n\nnetleştirir.\n\nBu veri, aynı zamanda OTA kampanya kararlarınızı (Genius, Preferred Partner, mobil indirim, son dakika fırsatları, erken rezervasyon vb.) sezgiyle değil veriyle almanızı sağlar.",
 
-      "header5": "OTA Performans Analizi ve Satış Optimizasyonu",
-      "text5": "Sadece “Booking’den rezervasyon geliyor” demek yetmez;\n\nNe kadar, hangi maliyetle, hangi pazar ve odalar üzerinden geliyor?\n\nDGTLFACE, OTA performans analizi tarafında her OTA için:\n\nRezervasyon sayısı,\n\nGece sayısı,\n\nToplam gelir,\n\nKomisyon,\n\nNet gelir,\n\nİptal oranı,\n\nNo-show,\n\nOrtalama sepet değeri,\n\nPazar/ülke bazlı OTA performansı,\n\nOda tipi & konsept bazlı satış analizi\n\nraporlar.\n\n“OTA satış analizi nasıl yapılır, OTA fiyat karşılaştırması, resort OTA optimizasyon” gibi raporlar;\n\nHangi kanalın gerçekten kâr getirdiğini,\n\nHangi kanalın sadece doluluk gösterip gelirden yediğini\n\nnetleştirir.\n\nBu veri, aynı zamanda OTA kampanya kararlarınızı (Genius, Preferred Partner, mobil indirim, son dakika fırsatları, erken rezervasyon vb.) sezgiyle değil veriyle almanızı sağlar.",
+      "header5": "OTA vs Direkt Kanal – Denge Stratejisi",
+      "text5": "OTA’lar kötü değil; tek başına bırakıldıklarında pahalı.\n\nDGTLFACE, OTA vs direkt kanal dengesinde:\n\nOTA’ları; bilinirlik + doluluk + yeni misafir kazanımı için güçlü kanal olarak tutar,\n\nKendi web sitenizi ve çağrı merkezinizi ([/tr/otel/cagri-merkezi]) kârlı rezervasyon merkezi olarak konumlandırır,\n\nFiyat, kampanya ve paketlerde direkt kanala hafif avantaj sağlayacak stratejiler önerir\n(daha esnek iptal, ücretsiz transfer, ekstra hizmet vb.),\n\nOTA’dan gelen misafirleri bir sonraki tatilde doğrudan kanalınıza çekmeyi hedefler.\n\nSonuç: “OTA’ya bağımlı” değil, OTA destekli güçlü bir direkt satış modeli oluşur."
 
-      "header6": "DGTLFACE Otel OTA Yönetimi Hizmet Detayları",
-      "text6": "",
-
-      "header7": "OTA vs Direkt Kanal – Denge Stratejisi",
-      "text7": "OTA’lar kötü değil; tek başına bırakıldıklarında pahalı.\n\nDGTLFACE, OTA vs direkt kanal dengesinde:\n\nOTA’ları; bilinirlik + doluluk + yeni misafir kazanımı için güçlü kanal olarak tutar,\n\nKendi web sitenizi ve çağrı merkezinizi ([/tr/otel/cagri-merkezi]) kârlı rezervasyon merkezi olarak konumlandırır,\n\nFiyat, kampanya ve paketlerde direkt kanala hafif avantaj sağlayacak stratejiler önerir\n(daha esnek iptal, ücretsiz transfer, ekstra hizmet vb.),\n\nOTA’dan gelen misafirleri bir sonraki tatilde doğrudan kanalınıza çekmeyi hedefler.\n\nSonuç: “OTA’ya bağımlı” değil, OTA destekli güçlü bir direkt satış modeli oluşur.",
-
-      "header8": "Neden DGTLFACE ile Otel OTA Yönetimi?",
-      "text8": "",
-
-      "header9": "Mikro Katman – H5 Konuları",
-      "text9": "",
-
-      "header10": "SSS – Otel OTA Yönetimi Hakkında Sık Sorulan Sorular",
-      "text10": ""
     },
 
-    "h3Details": {
+    "h3Section": {
+       "header": "DGTLFACE Otel OTA Yönetimi Hizmet Detayları",
+       
       "header1": "Booking Optimizasyonu",
       "text1": "Tesis fotoğraflarınızı (oda, havuz, restoran, spa, etkinlik) Booking gereksinimlerine uygun sıralar,\n\nAçıklama metinlerini SEO + satış diliyle optimize eder,\n\nOlanaklar, kurallar, konsept, konum ve politika alanlarını eksiksiz doldurur,\n\nBooking’in görünürlük ve sıralama faktörlerini (yorum puanı, fiyat rekabeti, doluluk, iptal oranı, içerik kalitesi) dikkate alır,\n\n“booking görünürlük artırma teknikleri, booking.com dönüşüm oranı artırma” hedefleri için aksiyon planları uygular.",
 
@@ -6294,13 +6449,7 @@
       "text6": "OTA görünürlüğünde yorum puanı altın değerindedir. DGTLFACE:\n\nBooking, Expedia, Agoda vb. platformlardaki yorumları düzenli tarar,\n\nMisafir geri bildirimlerini konu bazlı sınıflandırır (oda, temizlik, hizmet, yemek, animasyon vb.),\n\nYorumlara marka dilinize uygun, profesyonel ve çözüm odaklı yanıtlar yazar,\n\nSaha ekipleri için “iyileştirilmesi gereken alanlar” hakkında iç raporlar üretir.\n\n“OTA yorum yönetimi, Booking puanı artırma” gibi hedefler, sadece metinle değil, sahadaki aksiyonlarla da desteklenir.",
 
       "header7": "PMS, Kanal Yönetimi ve Online Satışla Entegre OTA Modeli",
-      "text7": "OTA yönetimini:\n\nPMS kurulumu ve desteği ([/tr/pms-ota/pms-kurulum]),\n\nKanal yönetimi ([/tr/pms-ota/kanal-yonetimi]),\n\nOTA entegrasyonu ([/tr/pms-ota/ota-entegrasyonu]),\n\nOnline satış optimizasyonu ([/tr/pms-ota/online-satis]),\n\nÇağrı merkezi & rezervasyon ([/tr/cagri-merkezi/rezervasyon-destegi]),\n\nOtel dijital pazarlama ([/tr/otel-dijital-pazarlama], [/tr/otel/reklam-yonetimi])\n\nile aynı çatı altında ele alıyoruz.\n\nBöylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor.",
-
-      "header8": "Kurulum, Tracking ve Altyapı (OPSİYONEL BLOK)",
-      "text8": "",
-
-      "header9": "Diğer Hizmet Detayları (OPSİYONEL BLOK)",
-      "text9": ""
+      "text7": "OTA yönetimini:\n\nPMS kurulumu ve desteği ([/tr/pms-ota/pms-kurulum]),\n\nKanal yönetimi ([/tr/pms-ota/kanal-yonetimi]),\n\nOTA entegrasyonu ([/tr/pms-ota/ota-entegrasyonu]),\n\nOnline satış optimizasyonu ([/tr/pms-ota/online-satis]),\n\nÇağrı merkezi & rezervasyon ([/tr/cagri-merkezi/rezervasyon-destegi]),\n\nOtel dijital pazarlama ([/tr/otel-dijital-pazarlama], [/tr/otel/reklam-yonetimi])\n\nile aynı çatı altında ele alıyoruz.\n\nBöylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor."
     },
 
     "h4Section": {
@@ -6375,34 +6524,23 @@
 
     "ai_answer_title": "AI Answer Block – Otel PMS Entegrasyonu",
     "ai_answer_text": "DGTLFACE, otel PMS entegrasyonu ile Elektraweb ve benzeri PMS sistemlerini; OTA, kanal yöneticisi, web rezervasyon motoru, çağrı merkezi ve raporlama araçlarıyla entegre eder. Rezervasyon, oda & fiyat yönetimi, housekeeping, gelir ve muhasebe süreçleri tek merkezden yönetilir. Böylece overbooking ve fiyat hataları azalır, operasyon yükü düşer, doluluk ve gelir verileri güvenilir KPI’lara dönüşür; otelinizin PMS’i gerçekten “dijital beyin” hâline gelir.",
+    "subbanner_header3": "Otel PMS Entegrasyonu Nedir, Neden Bu Kadar Kritik?",
+    "subbanner_text2": "“Zaten bir PMS kullanıyoruz, entegrasyon deyince ne değişecek?” diye düşünebilirsin tatlım.\n\nPMS entegrasyonu; PMS’in yalnızca resepsiyon ekranı olmaktan çıkıp:\n\nOTA (Booking, Expedia, Agoda vb.),\n\nKanal yönetimi,\n\nWeb sitesi & rezervasyon motoru,\n\nÇağrı merkezi & rezervasyon hattı,\n\nFinans & muhasebe,\n\nRaporlama & gelir yönetimi\n\nile otomatik veri alışverişi yapan bir merkez hâline gelmesidir.\n\nDoğru kurgulanmış bir otel PMS entegrasyonu:\n\nOperasyon yükünü azaltan PMS özelliklerini gerçekten devreye sokar,\n\nManuel iş ve yazım hatalarını minimuma indirir,\n\nOverbooking ve yanlış fiyat kaynaklı krizleri azaltır,\n\nYönetim için net ve güvenilir raporlar üretir,\n\nGelir ve kârlılık kararlarını veriyle destekler.\n\nDGTLFACE, “PMS entegrasyonu nasıl yapılır, otel PMS modülleri, turizm PMS entegrasyonu” gibi tüm başlıkları otelinizin gerçek iş akışına göre uçtan uca kurar.",
 
     "h2Section": {
-      "header1": "Otel PMS Entegrasyonu Nedir, Neden Bu Kadar Kritik?",
-      "text1": "“Zaten bir PMS kullanıyoruz, entegrasyon deyince ne değişecek?” diye düşünebilirsin tatlım.\n\nPMS entegrasyonu; PMS’in yalnızca resepsiyon ekranı olmaktan çıkıp:\n\nOTA (Booking, Expedia, Agoda vb.),\n\nKanal yönetimi,\n\nWeb sitesi & rezervasyon motoru,\n\nÇağrı merkezi & rezervasyon hattı,\n\nFinans & muhasebe,\n\nRaporlama & gelir yönetimi\n\nile otomatik veri alışverişi yapan bir merkez hâline gelmesidir.\n\nDoğru kurgulanmış bir otel PMS entegrasyonu:\n\nOperasyon yükünü azaltan PMS özelliklerini gerçekten devreye sokar,\n\nManuel iş ve yazım hatalarını minimuma indirir,\n\nOverbooking ve yanlış fiyat kaynaklı krizleri azaltır,\n\nYönetim için net ve güvenilir raporlar üretir,\n\nGelir ve kârlılık kararlarını veriyle destekler.\n\nDGTLFACE, “PMS entegrasyonu nasıl yapılır, otel PMS modülleri, turizm PMS entegrasyonu” gibi tüm başlıkları otelinizin gerçek iş akışına göre uçtan uca kurar.",
+      "header1": "PMS Hotel System – Rezervasyon, Operasyon ve Satışın Kalbi",
+      "text1": "Güçlü bir PMS hotel system, otelin tüm departmanlarını aynı veri üzerinde buluşturur.",
 
-      "header2": "PMS Hotel System – Rezervasyon, Operasyon ve Satışın Kalbi",
-      "text2": "Güçlü bir PMS hotel system, otelin tüm departmanlarını aynı veri üzerinde buluşturur.",
+      "header2": "Elektraweb PMS Entegrasyonu",
+      "text2": "Türkiye ve Akdeniz hattında en yaygın kullanılan sistemlerden biri: Elektraweb PMS.\n\nDGTLFACE, elektraweb pms tarafında:\n\nKurulum, yapılandırma ve entegrasyon sürecinde aktif rol alır,\n\nelektraweb PMS eğitim rehberi ile resepsiyon, rezervasyon, yönetim ve satış ekiplerine rol bazlı eğitim verir,\n\nElektraweb’i; OTA, kanal yöneticisi, çağrı merkezi, web rezervasyon ve muhasebe ile bağlı ve uyumlu çalışacak şekilde tasarlar.\n\nÖzellikle elektraweb Antalya ve turizm PMS destek Antalya tarafında saha deneyimimiz, entegrasyonu teoriden pratiğe taşımayı kolaylaştırır.",
 
-      "header3": "Elektraweb PMS Entegrasyonu",
-      "text3": "Türkiye ve Akdeniz hattında en yaygın kullanılan sistemlerden biri: Elektraweb PMS.\n\nDGTLFACE, elektraweb pms tarafında:\n\nKurulum, yapılandırma ve entegrasyon sürecinde aktif rol alır,\n\nelektraweb PMS eğitim rehberi ile resepsiyon, rezervasyon, yönetim ve satış ekiplerine rol bazlı eğitim verir,\n\nElektraweb’i; OTA, kanal yöneticisi, çağrı merkezi, web rezervasyon ve muhasebe ile bağlı ve uyumlu çalışacak şekilde tasarlar.\n\nÖzellikle elektraweb Antalya ve turizm PMS destek Antalya tarafında saha deneyimimiz, entegrasyonu teoriden pratiğe taşımayı kolaylaştırır.",
-
-      "header4": "PMS + Kanal Yönetimi + OTA Uyumu",
-      "text4": "Tek başına PMS veya tek başına OTA yetmez; asıl güç, PMS + Kanal Yönetimi + OTA uyumunda.\n\nDGTLFACE, “kanal yönetimi + PMS uyumu” tarafında:\n\nPMS’i fiyat & envanterin temel kaynağı olarak konumlandırır,\n\nKanal yöneticisini (channel manager) PMS’ten gelen veriyi OTA’lara dağıtan bir köprü gibi kullanır,\n\nOTA paneline manuel fiyat & stok müdahalesini minimuma indirir,\n\n“PMS rezervasyon yürütme sistemi” ile OTA’dan gelen rezervasyonların doğru oda, tarih ve fiyata yazılmasını sağlar.\n\nBu yapı, özellikle resort PMS yönetimi, turizm PMS entegrasyonu, luxury hotel PMS, villa PMS entegrasyonu gibi karmaşık yapılarda hayat kurtarır.",
-
-      "header5": "DGTLFACE PMS Entegrasyonu Hizmet Detayları",
-      "text5": "",
-
-      "header6": "Neden DGTLFACE ile Otel PMS Entegrasyonu?",
-      "text6": "",
-
-      "header7": "Mikro Katman – H5 Konuları",
-      "text7": "",
-
-      "header8": "SSS – Otel PMS Entegrasyonu Hakkında Sık Sorulan Sorular",
-      "text8": ""
+      "header3": "PMS + Kanal Yönetimi + OTA Uyumu",
+      "text3": "Tek başına PMS veya tek başına OTA yetmez; asıl güç, PMS + Kanal Yönetimi + OTA uyumunda.\n\nDGTLFACE, “kanal yönetimi + PMS uyumu” tarafında:\n\nPMS’i fiyat & envanterin temel kaynağı olarak konumlandırır,\n\nKanal yöneticisini (channel manager) PMS’ten gelen veriyi OTA’lara dağıtan bir köprü gibi kullanır,\n\nOTA paneline manuel fiyat & stok müdahalesini minimuma indirir,\n\n“PMS rezervasyon yürütme sistemi” ile OTA’dan gelen rezervasyonların doğru oda, tarih ve fiyata yazılmasını sağlar.\n\nBu yapı, özellikle resort PMS yönetimi, turizm PMS entegrasyonu, luxury hotel PMS, villa PMS entegrasyonu gibi karmaşık yapılarda hayat kurtarır."
     },
 
-    "h3Details": {
+    "h3Section": {
+       "header": "DGTLFACE PMS Entegrasyonu Hizmet Detayları",
+
       "header1": "Otel Operasyon Sistemi Olarak PMS",
       "text1": "PMS, iyi entegre edildiğinde:\n\nResepsiyon (check-in / check-out, oda durumu, misafir kartları),\n\nRezervasyon (bireysel, grup, acente, OTA, şirket),\n\nHousekeeping (oda temizliği, durum güncellemeleri),\n\nGelir yönetimi (fiyat, doluluk, segment),\n\nYönetim raporları\n\niçin tek kaynak hâline gelir.\n\n“Otel operasyon sistemi” dediğimiz şey; tüm ekiplerin aynı PMS ekranı üzerinden konuşabildiği bir yapı demektir.",
 
@@ -6488,7 +6626,7 @@
     }
   },
   
-  "CallCenterPage": {
+  "HotelCallCenter": {
     "cta_talk_to_us": "Rezervasyon Çağrı Merkezinizi Birlikte Kuralım",
 
     "subbanner_header": "Otel Rezervasyon Çağrı Merkezi –",
@@ -6497,37 +6635,26 @@
 
     "ai_answer_title": "AI Answer Block – Otel Rezervasyon Çağrı Merkezi",
     "ai_answer_text": "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi kurar; telefon, WhatsApp, DM, web formu ve OTA mesajlarını tek rezervasyon hunisinde toplar. TR–EN–DE–RU dillerinde inbound/outbound çağrılar yönetilir; müsaitlik ve fiyat PMS üzerinden kontrol edilerek rezervasyon tamamlanır. Booking–Expedia süreçleri takip edilir, şikâyet ve talepler kayıt altına alınır. Böylece direct booking, doluluk ve misafir memnuniyeti belirgin şekilde artar.",
+ "subbanner_header3": "Otel Rezervasyon Çağrı Merkezi Nedir, Neyi Farklı Yapar?",
+      "subbanner_text2": "“Zaten resepsiyon telefonlara bakıyor, otel rezervasyon çağrı merkezi ekstra bir lüks mü?” sorusu çok yaygın. Cevap: Hayır, ihtiyaç.\n\nÇünkü:\n\nResepsiyon aynı anda check-in, check-out, misafir soruları ve telefonla boğuşuyor,\n\nYoğunlukta çağrılar düşüyor, bekleme süreleri artıyor,\n\nSatış fırsatları kaçıyor, misafir ilk izlenim olarak “ulaşılamaz otel” algısına giriyor.\n\nProfesyonel otel rezervasyon çağrı merkezi ise:\n\nTüm rezervasyon ve satış aramalarını tek merkezde toplar,\n\nÇok dilli ekip ve script’lerle standart hizmet kalitesi sunar,\n\nOTA + web + WhatsApp + sosyal medya + telefon trafiğini tek rezervasyon hunisine bağlar,\n\nHem satış (rezervasyon & upsell) hem misafir memnuniyeti üretir.\n\nDGTLFACE, bu yapıyı hem otel içi (özellikle Antalya otel rezervasyon merkezi) hem de dış kaynaklı (outsourced) modelde, senin ihtiyaçlarına göre kurgular.",
 
     "h2Section": {
-      "header1": "Otel Rezervasyon Çağrı Merkezi Nedir, Neyi Farklı Yapar?",
-      "text1": "“Zaten resepsiyon telefonlara bakıyor, otel rezervasyon çağrı merkezi ekstra bir lüks mü?” sorusu çok yaygın. Cevap: Hayır, ihtiyaç.\n\nÇünkü:\n\nResepsiyon aynı anda check-in, check-out, misafir soruları ve telefonla boğuşuyor,\n\nYoğunlukta çağrılar düşüyor, bekleme süreleri artıyor,\n\nSatış fırsatları kaçıyor, misafir ilk izlenim olarak “ulaşılamaz otel” algısına giriyor.\n\nProfesyonel otel rezervasyon çağrı merkezi ise:\n\nTüm rezervasyon ve satış aramalarını tek merkezde toplar,\n\nÇok dilli ekip ve script’lerle standart hizmet kalitesi sunar,\n\nOTA + web + WhatsApp + sosyal medya + telefon trafiğini tek rezervasyon hunisine bağlar,\n\nHem satış (rezervasyon & upsell) hem misafir memnuniyeti üretir.\n\nDGTLFACE, bu yapıyı hem otel içi (özellikle Antalya otel rezervasyon merkezi) hem de dış kaynaklı (outsourced) modelde, senin ihtiyaçlarına göre kurgular.",
+      "header1": "Çok Dilli Otel Destek – TR, EN, DE, RU",
+      "text1": "Uluslararası misafirle çalışan her otel için çok dilli otel destek bir zorunluluk.\n\nDGTLFACE, otel rezervasyon çağrı merkezinde:\n\nTürkçe (TR)\n\nİngilizce (EN)\n\nAlmanca (DE)\n\nRusça (RU)\n\ndillerinde inbound ve outbound çağrıları yönetir.\n\n“Yabancı misafir rezervasyon yönetimi, turist rezervasyon destek hattı, resort müşteri hizmetleri” gibi süreçlerde:\n\nAlmanca konuşan misafir için güven veren, detaycı bir ton,\n\nRus misafir için net, sabırlı ve açıklayıcı iletişim,\n\nİngilizce ile global pazara profesyonel yaklaşım,\n\nTürkçe hatla yerel misafire samimi ve akıcı destek sunar.\n\nBu yapı, otelinizin uluslararası misafir iletişimini resepsiyondan alıp, gerçek çağrı merkezi standardına taşır.",
 
-      "header2": "Çok Dilli Otel Destek – TR, EN, DE, RU",
-      "text2": "Uluslararası misafirle çalışan her otel için çok dilli otel destek bir zorunluluk.\n\nDGTLFACE, otel rezervasyon çağrı merkezinde:\n\nTürkçe (TR)\n\nİngilizce (EN)\n\nAlmanca (DE)\n\nRusça (RU)\n\ndillerinde inbound ve outbound çağrıları yönetir.\n\n“Yabancı misafir rezervasyon yönetimi, turist rezervasyon destek hattı, resort müşteri hizmetleri” gibi süreçlerde:\n\nAlmanca konuşan misafir için güven veren, detaycı bir ton,\n\nRus misafir için net, sabırlı ve açıklayıcı iletişim,\n\nİngilizce ile global pazara profesyonel yaklaşım,\n\nTürkçe hatla yerel misafire samimi ve akıcı destek sunar.\n\nBu yapı, otelinizin uluslararası misafir iletişimini resepsiyondan alıp, gerçek çağrı merkezi standardına taşır.",
+      "header2": "Inbound & Outbound – Rezervasyon ve Satışın İki Yüzü",
+      "text2": "",
 
-      "header3": "Inbound & Outbound – Rezervasyon ve Satışın İki Yüzü",
-      "text3": "",
+      "header3": "Kanallar: Telefon + WhatsApp + OTA + Web + Sosyal Medya",
+      "text3": "Modern misafir sadece telefonla değil; DM, WhatsApp, form, OTA mesajı, e-posta gibi birçok kanalla size ulaşıyor.\n\nDGTLFACE otel çağrı merkezi:\n\nTelefon (inbound / outbound),\n\nWhatsApp Business,\n\nOTA mesajları (Booking, Expedia vb.),\n\nWeb chat & form,\n\nInstagram DM & Facebook Messenger,\n\nE-posta kutuları (info@, rezervasyon@ vb.)\n\nüzerinden gelen talepleri tek rezervasyon & iletişim akışına bağlar.\n\nBu sayede:\n\n“Mesaj atmıştı, unuttuk”,\n\n“Mail gelmiş ama kimse cevaplamamış”,\n\n“OTA mesajına dönülmemiş”\n\ngibi durumlar minimuma iner.\n\nÇağrı merkezi, /tr/cagri-merkezi/mesaj-yonetimi ile entegre çalışarak gerçekten çok kanallı otel call center haline gelir.",
 
-      "header4": "Kanallar: Telefon + WhatsApp + OTA + Web + Sosyal Medya",
-      "text4": "Modern misafir sadece telefonla değil; DM, WhatsApp, form, OTA mesajı, e-posta gibi birçok kanalla size ulaşıyor.\n\nDGTLFACE otel çağrı merkezi:\n\nTelefon (inbound / outbound),\n\nWhatsApp Business,\n\nOTA mesajları (Booking, Expedia vb.),\n\nWeb chat & form,\n\nInstagram DM & Facebook Messenger,\n\nE-posta kutuları (info@, rezervasyon@ vb.)\n\nüzerinden gelen talepleri tek rezervasyon & iletişim akışına bağlar.\n\nBu sayede:\n\n“Mesaj atmıştı, unuttuk”,\n\n“Mail gelmiş ama kimse cevaplamamış”,\n\n“OTA mesajına dönülmemiş”\n\ngibi durumlar minimuma iner.\n\nÇağrı merkezi, /tr/cagri-merkezi/mesaj-yonetimi ile entegre çalışarak gerçekten çok kanallı otel call center haline gelir.",
-
-      "header5": "DGTLFACE Otel Rezervasyon Çağrı Merkezi Hizmet Detayları",
-      "text5": "",
-
-      "header6": "Farklı Otel Segmentleri İçin Çağrı Merkezi Modelleri",
-      "text6": "",
-
-      "header7": "Neden DGTLFACE ile Otel Rezervasyon Çağrı Merkezi?",
-      "text7": "",
-
-      "header8": "Mikro Katman – H5 Konuları",
-      "text8": "",
-
-      "header9": "SSS – Otel Rezervasyon Çağrı Merkezi Hakkında Sık Sorulan Sorular",
-      "text9": ""
+      "header4": "Farklı Otel Segmentleri İçin Çağrı Merkezi Modelleri",
+      "text4": ""
     },
 
-    "h3Details": {
+    "h3Section": {
+      "header": "DGTLFACE Otel Rezervasyon Çağrı Merkezi Hizmet Detayları",
+
       "header1": "Inbound: Misafir Sizi Aradığında",
       "text1": "Inbound tarafta DGTLFACE:\n\nGelen çağrıları kaynak bazlı etiketler (web, OTA, sosyal medya, referans, acente vb.),\n\nMisafirin niyetini hızlıca netleştiren rezervasyon misafir iletişimi script’leri kullanır,\n\nOda tipi, tarih, kişi sayısı, çocuk, ekstra hizmetler gibi tüm veriyi standart forma işler,\n\nTek görüşmede (First Call Resolution) rezervasyonu kapatmayı hedefler,\n\nGerekirse çağrı sonrası e-posta / WhatsApp ile yazılı teyit gönderir.\n\nBurada temel KPI’lar:\n\nYanıtlanma oranı,\n\nBekleme süresi,\n\nÇağrı → rezervasyon dönüşüm oranı,\n\nMisafir memnuniyeti (CSAT) skorlarıdır.",
 

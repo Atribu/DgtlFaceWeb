@@ -5,7 +5,7 @@ import React from "react";
 
 export default function PlainRichText({
   html,
-  as: Tag = "p",
+  as: Tag = "p ",
   className = "",
 }) {
   if (!html) return null;

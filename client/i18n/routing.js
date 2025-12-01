@@ -47,32 +47,32 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/Services/pms": { // https://www.dgtlface.com/tr/Services/pms
       en: "/services/pms-solutions",
-      tr: "/antalya-pazarlama-sistem-kurulumu",
+      tr: "/pms-ota",
       ru: "/uslugi/pms-resheniya",
     },
-    "/Services/pms/hotelIdentification": { // https://www.dgtlface.com/tr/Services/pms/hotelIdentification
+    "/Services/pms/pmsInstallation": { // https://www.dgtlface.com/tr/Services/pms/hotelIdentification
       en: "/services/pms/hotel-identification",
-      tr: "/antalya-pms/otel-tanimlama",
+      tr: "/pms-ota/pms-kurulum",
       ru: "/uslugi/pms/identifikaciya-oteley",
     },
     "/Services/pms/otaContract": { // https://www.dgtlface.com/tr/Services/pms/otaContract
       en: "/services/pms/ota-contract",
-      tr: "/antalya-pms/ota-sozlesme",
+      tr: "/pms-ota/ota-entegrasyonu",
       ru: "/uslugi/pms/ota-dogovor",
     },
     "/Services/pms/reservationManagement": { // https://www.dgtlface.com/tr/Services/pms/reservationManagement
       en: "/services/pms/reservation-management",
-      tr: "/antalya-pms/rezervasyon-yonetimi",
+      tr: "/pms-ota/rezervasyon-yonetimi",
       ru: "/uslugi/pms/upravlenie-bronirovaniem",
     },
-    "/Services/pms/reservationModule": { // https://www.dgtlface.com/tr/Services/pms/reservationModule
+    "/Services/pms/channelManagement": { // https://www.dgtlface.com/tr/Services/pms/reservationModule
       en: "/services/pms/reservation-module",
-      tr: "/antalya-pms/rezervasyon-modulu",
+      tr: "/pms-ota/kanal-yonetimi",
       ru: "/uslugi/pms/modul-bronirovaniya",
     },
     "/Services/pms/webPayment": { // https://www.dgtlface.com/tr/Services/pms/webPayment
       en: "/services/pms/web-payment-systems",
-      tr: "/antalya-pms/web-odeme-sistemleri",
+      tr: "/pms-ota/online-satis",
       ru: "/uslugi/pms/veb-platezhi",
     },
 
@@ -81,32 +81,32 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/Services/callcenter": { // https://www.dgtlface.com/tr/Services/callcenter
       en: "/services/call-center",
-      tr: "/antalya-dijital-pazarlama-cagri-merkezi",
+      tr: "/cagri-merkezi",
       ru: "/uslugi/koll-centr",
     },
     "/Services/callcenter/callLanguages": { // https://www.dgtlface.com/tr/Services/callcenter/callLanguages
       en: "/services/call-center/multilingual-support",
-      tr: "/antalya-cagri-merkezi/cok-dilli-destek",
+      tr: "/cagri-merkezi/4-dilli-cagri-merkezi",
       ru: "/uslugi/koll-centr/mnogoyazychnaya-podderzhka",
     },
     "/Services/callcenter/callPerformance": { // https://www.dgtlface.com/tr/Services/callcenter/callPerformance
       en: "/services/call-center/performance-analysis",
-      tr: "/antalya-cagri-merkezi/performans-analizi",
+      tr: "/cagri-merkezi/performans-analizi",
       ru: "/uslugi/koll-centr/analiz-proizvoditelnosti",
     },
-    "/Services/callcenter/contractManagement": { // https://www.dgtlface.com/tr/Services/callcenter/contractManagement
+    "/Services/callcenter/messageManagement": { // https://www.dgtlface.com/tr/Services/callcenter/contractManagement
       en: "/services/call-center/contract-management",
-      tr: "/antalya-cagri-merkezi/sozlesme-yonetimi",
+      tr: "/cagri-merkezi/mesaj-yonetimi",
       ru: "/uslugi/koll-centr/upravlenie-dogovorami",
     },
-    "/Services/callcenter/multipleChannels": { // https://www.dgtlface.com/tr/Services/callcenter/multipleChannels
+    "/Services/callcenter/aftersalesSupport": { // https://www.dgtlface.com/tr/Services/callcenter/multipleChannels satis sonrasi destek
       en: "/services/call-center/multi-channel-sales",
-      tr: "/antalya-cagri-merkezi/cok-kanalli-satis-takibi",
+      tr: "/cagri-merkezi/satis-sonrasi-destek",
       ru: "/uslugi/koll-centr/mnogokanalnye-prodazhi",
     },
     "/Services/callcenter/reservationSupport": { // https://www.dgtlface.com/tr/Services/callcenter/reservationSupport
       en: "/services/call-center/reservation-support",
-      tr: "/antalya-cagri-merkezi/rezervasyon-destek",
+      tr: "/cagri-merkezi/satis-sonrasi-destek",
       ru: "/uslugi/koll-centr/podderzhka-bronirovaniya",
     },
 
@@ -149,33 +149,28 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/Services/digitalAnalysis": { // https://www.dgtlface.com/tr/Services/digitalAnalysis
       en: "/services/digital-analysis",
-      tr: "/antalya-dijital-pazarlama-analiz",
+      tr: "/raporlama",
       ru: "/uslugi/cifrovoy-analiz",
     },
     "/Services/digitalAnalysis/advertisingReportingService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/advertisingReportingService
       en: "/services/digital-analysis/advertising-reporting",
-      tr: "/antalya-analiz/reklam-raporlama",
+      tr: "/raporlama/looker-studio",
       ru: "/uslugi/cifrovoy-analiz/reklamnaya-otchetnost",
     },
     "/Services/digitalAnalysis/callReportingService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/callReportingService
       en: "/services/digital-analysis/call-reporting",
-      tr: "/antalya-analiz/cagri-raporlama",
+      tr: "/raporlama/kvkk-veri-guvenligi",
       ru: "/uslugi/cifrovoy-analiz/otchetnost-zvonkov",
     },
     "/Services/digitalAnalysis/digitalSalesAnalysis": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/digitalSalesAnalysis
       en: "/services/digital-analysis/digital-sales-analysis",
-      tr: "/antalya-analiz/dijital-satis-analizi",
+      tr: "/raporlama/satis-donusum",
       ru: "/uslugi/cifrovoy-analiz/analiz-cifrovyh-prodazh",
     },
     "/Services/digitalAnalysis/onlineMarketResearchService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/onlineMarketResearchService
       en: "/services/digital-analysis/online-market-research",
-      tr: "/antalya-analiz/online-pazar-arastirmasi",
+      tr: "/raporlama/benchmark-analizi",
       ru: "/uslugi/cifrovoy-analiz/onlayn-marketingovoe-issledovanie",
-    },
-    "/Services/digitalAnalysis/websiteReportingService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/websiteReportingService
-      en: "/services/digital-analysis/website-reporting",
-      tr: "/antalya-analiz/web-sitesi-raporlama",
-      ru: "/uslugi/cifrovoy-analiz/otchetnost-sayta",
     },
 
     //---------------------------------------------------------
@@ -314,6 +309,45 @@ export const routing = defineRouting({
       en: "/services/software/website-maintenance",
       tr: "/yazilim/bakim-ve-destek",
       ru: "/uslugi/razrabotka-po/obsluzhivanie-saytov",
+    },
+
+    // hotel pages
+
+        "/Services/hotel": { 
+      en: "/services/hotel",
+      tr: "/otel",
+      ru: "/uslugi/pms-resheniya",
+    },
+    "/Services/hotel/seo": { 
+      en: "/services/pms/hotel-identification",
+      tr: "/otel/seo",
+      ru: "/uslugi/pms/identifikaciya-oteley",
+    },
+    "/Services/hotel/socialMedia": { 
+      en: "/services/pms/ota-contract",
+      tr: "/otel/sosyal-medya",
+      ru: "/uslugi/pms/ota-dogovor",
+    },
+    "/Services/hotel/adsManagement": { 
+      en: "/services/pms/reservation-management",
+      tr: "/otel/reklam-yonetimi",
+      ru: "/uslugi/pms/upravlenie-bronirovaniem",
+    },
+    "/Services/hotel/otaManagement": { 
+      en: "/services/pms/reservation-module",
+      tr: "/otel/ota-yonetimi",
+      ru: "/uslugi/pms/modul-bronirovaniya",
+    },
+    "/Services/hotel/pmsIntegration": { 
+      en: "/services/pms/web-payment-systems",
+      tr: "/otel/pms-entegrasyonu",
+      ru: "/uslugi/pms/veb-platezhi",
+    },
+
+     "/Services/hotel/callCenter": { 
+      en: "/services/pms/web-payment-systems",
+      tr: "/otel/cagri-merkezi",
+      ru: "/uslugi/pms/veb-platezhi",
     },
   }
 })

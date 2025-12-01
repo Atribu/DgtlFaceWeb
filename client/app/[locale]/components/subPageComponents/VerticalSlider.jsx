@@ -261,11 +261,11 @@ const GAP = 0;
   })}
 </p>
 
-          <button className="px-3 py-1 rounded-2xl border-2 border-blue-400 max-w-[130px] justify-center items-center hover:bg-blue-400/10 transition-colors">
+          {/* <button className="px-3 py-1 rounded-2xl border-2 border-blue-400 max-w-[130px] justify-center items-center hover:bg-blue-400/10 transition-colors">
             <span className="text-white text-[14px] font-bold">
               {item.button}
             </span>
-          </button>
+          </button> */}
         </div>
       </div>
     ))}

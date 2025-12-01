@@ -19,7 +19,7 @@ const SubBanner = ({header,header2,text,buttonLink, buttonText, header3,text2}) 
             <h1 className='text-[24px] lg:text-[26px] font-semibold leading-[120%] -tracking-[0.96px] '>{header} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{header2}</span></h1>
             {/* <p className=' text-[12px] md:text-[14px]  lg:text-[16px] font-normal leading-[120%] lg:leading-[130%]  lg:mb-[16px]'>{text}</p> */}
             {/* <Link href={buttonLink} className='gradient-cookie-button !text-[14px] relative border flex py-[16px] px-[32px]'>{buttonText}</Link> */}
-  <PlainRichText
+        <PlainRichText
             html={text}
             className="text-[12px] md:text-[14px] lg:text-[16px] font-normal leading-[120%] lg:leading-[130%] lg:mb-[16px]"
           />

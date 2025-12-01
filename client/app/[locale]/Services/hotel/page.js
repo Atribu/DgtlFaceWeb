@@ -212,6 +212,7 @@ const homeJsonLd = {
 
 
 const page = () => {
+  
   const t = useTranslations("Hotel");
      const t2 = useTranslations("Hotel.h4Section");
       

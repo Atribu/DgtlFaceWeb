@@ -228,8 +228,7 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
                const h2items = [
                { title: t("h2Section.header1"),text: t("h2Section.text1") },
                { title: t("h2Section.header2"), text: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3") },
-               { title: t("h2Section.header4"), text: t("h2Section.text4") },
+               { title: t("h2Section.header3"), text: t("h2Section.text3") }
              ];
     
   return (

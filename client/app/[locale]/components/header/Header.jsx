@@ -24,6 +24,77 @@ const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const dropdownRef = useRef(null);
 
+  const [activeService, setActiveService] = useState(null);
+
+const servicesConfig = [
+  {
+    key: "creative",
+    label: t("creative"),
+    href: "/Services/creative",
+    subLinks: [
+      { label: "Genel Bakış", href: "/Services/creative" },
+      // Buraya alt sayfaları eklersin
+    ],
+  },
+  {
+    key: "call_center",
+    label: t("call_center"),
+    href: "/Services/callcenter",
+    subLinks: [
+      { label: "Rezervasyon Çağrı Merkezi", href: "/Services/callcenter" },
+    ],
+  },
+  {
+    key: "pms_ota_management",
+    label: t("pms_ota_management"),
+    href: "/Services/pms",
+    subLinks: [
+      { label: "PMS & OTA Yönetimi", href: "/Services/pms" },
+    ],
+  },
+  {
+    key: "sem",
+    label: t("search_engine_marketing"),
+    href: "/Services/sem",
+    subLinks: [
+      { label: "Google Ads & Meta Ads", href: "/Services/sem" },
+    ],
+  },
+  {
+    key: "seo",
+    label: t("search_engine_optimization"),
+    href: "/Services/seo",
+    subLinks: [
+      { label: "Otel SEO", href: "/Services/seo" },
+    ],
+  },
+  {
+    key: "smm",
+    label: t("social_media_marketing"),
+    href: "/Services/smm",
+    subLinks: [
+      { label: "Sosyal Medya Yönetimi", href: "/Services/smm" },
+    ],
+  },
+  {
+    key: "software",
+    label: t("information_technology_software"),
+    href: "/Services/software",
+    subLinks: [
+      { label: "Web & Yazılım", href: "/Services/software" },
+    ],
+  },
+  {
+    key: "digital_analysis",
+    label: t("digital_analysis_reporting"),
+    href: "/Services/digitalAnalysis",
+    subLinks: [
+      { label: "Dijital Analiz & Raporlama", href: "/Services/digitalAnalysis" },
+    ],
+  },
+];
+
+
   useEffect(() => {
     function handleClickOutside(event) {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -84,10 +155,18 @@ const Header = () => {
               </li>
               <li 
                 className="relative"
-                onMouseEnter={() => setIsOpen(true)}
-                onMouseLeave={() => setIsOpen(false)}
-                ref={dropdownRef}
-              >
+                  onMouseEnter={() => {
+    setIsOpen(true);
+    if (!activeService && servicesConfig.length > 0) {
+      setActiveService(servicesConfig[0].key);
+    }
+  }}
+  onMouseLeave={() => {
+    setIsOpen(false);
+    setActiveService(null);
+  }}
+  ref={dropdownRef}
+>
                 <Link href="/Services">
                   <button className="hover:text-gray-300 focus:outline-none">
                     {t("services")}
@@ -96,40 +175,85 @@ const Header = () => {
                 
                 <div className="absolute top-full left-0 w-full h-2" />
 
-                {isMounted && isOpen && (
-                  <div 
-                    className="hidden lg:flex absolute top-[calc(100%+8px)] right-1/2 translate-x-[51%] p-[27px] rounded shadow-lg z-10 border gradient-subTitle-div backdrop-blur-2xl md:min-w-[640px] !bg-[#080612]/50"
-                    onMouseEnter={() => setIsOpen(true)}
-                    onMouseLeave={() => setIsOpen(false)}
+              {isMounted && isOpen && (
+  <div
+    className="hidden lg:flex lg:flex-row absolute top-[calc(100%+8px)] left-[100%] -translate-x-[45%] w-screen max-w-[1600px] px-6 z-10"
+    onMouseEnter={() => setIsOpen(true)}
+    onMouseLeave={() => {
+      setIsOpen(false);
+      setActiveService(null);
+    }}
+  >
+    <div className="w-full p-[24px] rounded-[24px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/70 flex flex-col gap-4">
+      
+      {/* 1. SATIR: Tüm services başlıkları yan yana */}
+      <div className="flex flex-wrap gap-4 justify-between">
+        {servicesConfig.map((service) => (
+          <button
+            key={service.key}
+            onMouseEnter={() => setActiveService(service.key)}
+            className={`
+              px-4 py-2 rounded-[999px]
+              text-[14px] font-semibold -tracking-[0.28px]
+              transition-colors duration-150
+              ${
+                activeService === service.key
+                  ? "bg-gradient-to-r from-purple-500/60 via-indigo-500/60 to-blue-400/60 text-white"
+                  : "bg-white/5 hover:bg-white/10 text-white/80"
+              }
+            `}
+          >
+            {service.label}
+          </button>
+        ))}
+      </div>
+
+      {/* 2. SATIR: Aktif başlığın alt sayfa linkleri */}
+      {activeService && (
+        <div className="border-t border-white/10 pt-4">
+          {servicesConfig
+            .filter((s) => s.key === activeService)
+            .map((service) => (
+              <div
+                key={service.key}
+                className="flex flex-wrap gap-3 items-center"
+              >
+                {/* Sol tarafta başlığı tekrar göster (küçük) */}
+                <span className="text-[13px] font-semibold text-white/60 mr-2">
+                  {service.label}
+                </span>
+
+                {/* Alt sayfa linkleri */}
+                {service.subLinks.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="
+                      text-[13px] font-medium -tracking-[0.26px]
+                      px-3 py-1.5 rounded-[999px]
+                      bg-white/5 hover:bg-gradient-to-r hover:from-purple-500/50 hover:via-indigo-500/50 hover:to-blue-400/50
+                      hover:text-white text-white/80
+                      transition-colors duration-150
+                    "
                   >
-                    <div className="grid grid-cols-2 gap-4">
-                      <Link href="/Services/creative" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px] h-[42px]">
-                       {t("creative")}
-                      </Link>
-                      <Link href="/Services/callcenter" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                       {t("call_center")}
-                      </Link>
-                      <Link href="/Services/pms" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                       {t("pms_ota_management")}
-                      </Link>
-                      <Link href="/Services/sem" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                    {t("search_engine_marketing")}
-                      </Link> 
-                      <Link href="/Services/seo" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                        {t("search_engine_optimization")}
-                      </Link>
-                      <Link href="/Services/smm" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                       {t("social_media_marketing")}
-                      </Link>
-                      <Link href="/Services/software" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                     {t("information_technology_software")}
-                      </Link>
-                      <Link href="/Services/digitalAnalysis" className="hover:text-white bg-white/10 flex py-[16px] px-[32px] w-[280px] rounded-[14px] hover:bg-gradient-to-l  hover:from-purple-500/50  hover:via-indigo-500/50  hover:to-blue-400/50 backdrop-blur-2xl justify-center items-center text-[14px] font-bold leading-normal -tracking-[0.28px]  h-[42px]">
-                      {t("digital_analysis_reporting")}
-                      </Link>
-                    </div>
-                  </div>
-                )}
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            ))}
+        </div>
+      )}
+
+      {/* Eğer henüz üzerine gelinmemişse küçük bir info alanı */}
+      {!activeService && (
+        <div className="pt-2 text-[12px] text-white/50">
+          Başlıkların üzerine gelerek alt hizmet linklerini görebilirsiniz.
+        </div>
+      )}
+    </div>
+  </div>
+)}
+
               </li>
               <li>
                 <a href="/aboutus" className="hover:text-gray-300">

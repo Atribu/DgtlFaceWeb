@@ -20,7 +20,7 @@ const homeJsonLd = {
       "@id": "https://dgtlface.com/#organization",
       "name": "DGTLFACE",
       "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimi, PMS & OTA entegrasyonu, online satış optimizasyonu ve çok kanallı misafir iletişimi sunan turizm odaklı teknoloji ve dijital pazarlama partneridir.",
+      "description": "DGTLFACE, oteller için PMS + Channel Manager + OTA altyapılarını entegre ederek fiyat ve envanteri tüm online satış kanallarında senkronize eden, turizm odaklı gelir ve dağıtım stratejileri sunan bir teknoloji ve dijital pazarlama partneridir.",
       "logo": "https://dgtlface.com/logo.png",
       "address": {
         "@type": "PostalAddress",
@@ -35,28 +35,28 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. Misafir iletişimi, kayıt, doğrulama ve süreç takibi profesyonel şekilde yönetilir.",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+      "name": "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu | DGTLFACE",
+      "description": "DGTLFACE, kanal yönetimiyle otelinizde fiyat ve envanteri tüm OTA platformlarında senkronize eder. Satış etkisini artırın, overbooking riskini azaltın.",
       "inLanguage": "tr-TR",
       "isPartOf": {
         "@id": "https://dgtlface.com/#organization"
       },
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#service",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#service",
+      "name": "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
-      "serviceType": "rezervasyon yönetimi, rezervasyon sistemi, misafir iletişimi, rezervasyon süreci, telefon rezervasyonu, otel kayıt sistemi",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. OTA, web sitesi, çağrı merkezi, WhatsApp ve acentelerden gelen tüm talepleri PMS rezervasyon modülü üzerinde birleştirir; müsaitlik–fiyat kontrolü, doğrulama, iptal/opsiyon, no-show ve misafir iletişimi süreçlerini standardize ederek, hata oranını düşürür ve doluluk ile geliri optimize eder.",
+      "serviceType": "kanal yönetimi, channel manager hizmeti, fiyat yönetimi, envanter senkronizasyonu, PMS–OTA uyumu, satış optimizasyonu",
+      "description": "DGTLFACE, kanal yönetimi hizmetiyle PMS + Channel Manager + OTA üçlüsünü entegre ederek otellerde fiyat ve envanteri tüm satış kanallarında senkronize eder. Booking, Expedia, Agoda, web rezervasyon sistemi ve çağrı merkezi tek panelden yönetilir; pazar bazlı fiyatlandırma, rate & inventory sync, overbooking riskini azaltan envanter stratejileri ve gelir odaklı kanal planlaması ile doluluk ve RevPAR performansı optimize edilir.",
       "areaServed": [
         "Antalya",
         "Türkiye",
@@ -64,32 +64,34 @@ const homeJsonLd = {
       ],
       "inLanguage": "tr-TR",
       "keywords": [
-        "rezervasyon yönetimi",
-        "rezervasyon sistemi",
-        "misafir iletişimi",
-        "rezervasyon süreci",
-        "telefon rezervasyonu",
-        "otel kayıt sistemi",
-        "rezervasyon yönetimi nasıl yapılır",
-        "oteller için rezervasyon kontrol sistemi",
-        "online + telefon rezervasyon dengesi",
-        "yabancı misafir rezervasyon yönetimi",
-        "turizm sektörü rezervasyon teknikleri",
-        "rezervasyon yönetimi yazılımı",
-        "pms rezervasyon modülü",
-        "rezervasyon yönetimi antalya",
-        "antalya otel rezervasyon",
-        "rezervasyon destek türkiye",
-        "antalya misafir iletişimi",
-        "resort rezervasyon yönetimi",
-        "butik otel misafir iletişimi",
-        "turizm rezervasyon sistemi",
-        "pms rezervasyon akışı nasıl çalışır"
+        "kanal yönetimi",
+        "channel manager hizmeti",
+        "fiyat yönetimi",
+        "envanter senkronizasyonu",
+        "pms–ota uyumu",
+        "satış optimizasyonu",
+        "channel manager nasıl çalışır",
+        "oteller için fiyat optimizasyonu",
+        "envanter kontrol yöntemleri",
+        "ota fiyat stratejileri",
+        "turizm fiyat yönetimi",
+        "oda doluluk artırma teknikleri",
+        "pms ile kanal senkronizasyonu",
+        "rezervasyon yönetim sistemi",
+        "pazar bazlı fiyatlandırma",
+        "resort channel manager",
+        "butik otel kanal yönetimi",
+        "turizm fiyat optimizasyonu",
+        "otel doluluk artırma stratejisi",
+        "kanal yönetimi antalya",
+        "antalya channel manager",
+        "turizm fiyat yönetimi türkiye",
+        "antalya otel fiyat sistemi"
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -106,53 +108,53 @@ const homeJsonLd = {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Rezervasyon Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+          "name": "Kanal Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#faq",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
+          "name": "Kanal yönetimi (channel manager) nedir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Rezervasyon yönetimi; OTA, web sitesi, çağrı merkezi, WhatsApp ve acenteler gibi tüm kanallardan gelen taleplerin tek bir sistemde toplanması, müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve iletişim süreçlerinin standart bir akışla yönetilmesi anlamına gelir ve hem doluluk hem gelir hem de misafir memnuniyeti için kritiktir."
+            "text": "Kanal yönetimi, PMS’ten gelen oda ve fiyat bilgilerinin channel manager aracılığıyla Booking, Expedia, Agoda ve diğer OTA’lara ve satış kanallarına otomatik olarak dağıtılmasını ve bu kanallardan gelen rezervasyonların tekrar PMS’e işlenmesini sağlayan sistemdir."
           }
         },
         {
           "@type": "Question",
-          "name": "Online ve telefon rezervasyon dengesi nasıl kurulmalı?",
+          "name": "PMS + Channel Manager + OTA nasıl birlikte çalışır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Online rezervasyonlar (OTA ve web) otomatik akışla PMS’e düşerken, telefon ve çağrı merkezi rezervasyonları aynı fiyat ve bilgi standartlarıyla PMS’e işlenmelidir. Böylece misafir hangi kanalı kullanırsa kullansın tutarlı bir deneyim yaşar ve tüm kayıtlar tek rezervasyon gerçeğinde birleşir."
+            "text": "PMS, oda ve fiyatların ana kaynağıdır; channel manager bu verileri tüm OTA ve dijital satış kanallarına iletir. OTA’lardan gelen rezervasyonlar channel manager üzerinden PMS’e geri düşerek tek bir rezervasyon gerçekliği oluşturur."
           }
         },
         {
           "@type": "Question",
-          "name": "PMS rezervasyon modülü nasıl çalışır?",
+          "name": "Envanter (oda sayısı) tüm kanallarda nasıl yönetilir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PMS rezervasyon modülü; oda, fiyat, tarih, kişi ve kaynak bilgilerini tek kartta toplayarak online, telefon ve OTA rezervasyonlarının hepsinin aynı sistemde yönetilmesini sağlar. İptal, tarih değişikliği, no-show, opsiyon ve ödeme bilgileri de bu modül üzerinden takip edilir."
+            "text": "Oda envanteri PMS’te yönetilir; PMS’ten channel manager’a aktarılan stok bilgisi tüm OTA ve dijital kanallara dağıtılır. Kritik dönemlerde kanal ve pazar bazlı limitler, buffer ve stop-sell ayarlarıyla overbooking riski azaltılır."
           }
         },
         {
           "@type": "Question",
-          "name": "Call Center + OTA + Web rezervasyon akışı nasıl birleştirilir?",
+          "name": "Overbooking riski nasıl azaltılır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call Center, OTA ve web rezervasyon akışları PMS üzerinde birleşir. OTA ve web rezervasyonları otomatik olarak PMS’e düşer, çağrı merkezi rezervasyonları da aynı standart alanlarla PMS’e işlenir. Böylece tüm kanallar tek rezervasyon yönetim sistemine bağlı çalışır ve raporlama kolaylaşır."
+            "text": "Overbooking riskini azaltmak için PMS’in tek veri kaynağı olması, manuel OTA müdahalelerinin kısıtlanması, kanal bazlı stok limitleri ve yoğun dönemler için buffer stratejileri uygulanması ve düzenli senkronizasyon kontrolleri yapılması gerekir."
           }
         },
         {
           "@type": "Question",
-          "name": "Rezervasyon yönetimi gelir ve doluluk oranına nasıl etki eder?",
+          "name": "Kanal yönetimi gelir ve doluluk oranını nasıl etkiler?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Profesyonel rezervasyon yönetimi; overbooking ve hata riskini azaltır, doğru tarihe ve doğru odaya doğru fiyatla rezervasyon yazılmasını sağlar, iptal ve no-show süreçlerini kontrol altına alır. Bu da doluluk planlamasını ve RevPAR odaklı gelir yönetimini güçlendirir."
+            "text": "Doğru kanal yönetimi sayesinde pazar bazlı fiyatlandırma stratejileri uygulanır, yüksek komisyonlu kanallara aşırı bağımlılık azaltılır, doğru kanallarda doğru fiyat ve stokla yer alınarak hem doluluk hem RevPAR artırılabilir."
           }
         }
       ]
@@ -161,12 +163,12 @@ const homeJsonLd = {
 }
 
 const page = () => {
-   const t = useTranslations("ReservationManagement");
-const t2 = useTranslations("ReservationManagementPage.h4Section");
+  const t = useTranslations("ChannelManagementPage");
+const t2 = useTranslations("ChannelManagementPage.h4Section");
            
-              const stepData = [1,2,3].map(i => ({
+              const stepData = [1,2,3,4].map(i => ({
                 id: i,
-                image: [image1,image2,image1][i-1],
+                image: [image1,image2,image3,image1][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t(`h3Section.text${i}`)
               }));
@@ -231,24 +233,15 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
 
   return (
     <>
-    <script
+     <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
-     <SubBanner
-  header={t("subbanner_header")}
-  header2={t("subbanner_header2")}
-  text={t("subbanner_text")}
-    header3={t("subbanner_header3")}
-  text2={t("subbanner_text2")}
-  buttonLink="/"
-  buttonText={t("cta_talk_to_us")}
-/>
-   <AiAnswerBlock text={t("ai_answer_text")}/>
+      <SubBanner header={t("reservationmodule_subbanner_header")} header2={t("reservationmodule_subbanner_header2")} text={t("reservationmodule_subbanner_text")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+<AiAnswerBlock text={t("ai_answer_text")}/>
        <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
@@ -260,10 +253,10 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="ReservationManagementPage" itemCount={5}/>
+      <VerticalSlider page="ChannelManagementPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel rezervasyon yönetimi, PMS rezervasyon modülü kurulumları ve OTA–Call Center–Web akışlarını birleştiren operasyon projelerine ilişkin dokümantasyon ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in kanal yönetimi, PMS & OTA entegrasyonu ve otel gelir & doluluk optimizasyon süreçlerine ait dokümantasyon ve proje tecrübelerinden derlenmiştir."/>
     </div>
     </>
   )

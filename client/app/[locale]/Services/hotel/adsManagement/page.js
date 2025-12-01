@@ -20,7 +20,7 @@ const homeJsonLd = {
       "@id": "https://dgtlface.com/#organization",
       "name": "DGTLFACE",
       "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller için OTA yönetimi, dijital reklam, SEO, sosyal medya, PMS–OTA entegrasyonu ve çağrı merkezi hizmetleri sunan, rezervasyon ve gelir odaklı çalışan bir dijital pazarlama ve turizm teknoloji partneridir.",
+      "description": "DGTLFACE, oteller ve turizm markaları için SEO, reklam, sosyal medya, PMS–OTA entegrasyonu ve çağrı merkezi çözümleri sunan, rezervasyon ve gelir odaklı çalışan bir dijital pazarlama ve teknoloji partneridir.",
       "logo": "https://dgtlface.com/logo.png",
       "address": {
         "@type": "PostalAddress",
@@ -39,28 +39,28 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
-      "name": "Otel OTA Yönetimi – Booking, Expedia & Agoda Optimizasyonu | DGTLFACE",
-      "description": "DGTLFACE, oteller için Booking, Expedia, Agoda ve diğer OTA platformlarının performansını optimize eder. Otel OTA yönetimi, booking optimizasyonu, Expedia satış artırma, otel envanter yönetimi, OTA fiyat stratejisi ve turizm OTA çözümleriyle doluluk, görünürlük ve geliri artırır.",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi/#webpage",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "name": "Otel Reklam Yönetimi – Google Ads, Meta Ads & YouTube | DGTLFACE",
+      "description": "DGTLFACE, oteller için Google Ads, Meta Ads ve YouTube reklam kampanyaları yönetir. Rezervasyon, doluluk ve gelir artırma odaklı otel reklam yönetimi, otel Google Ads, turizm reklamcıları, resort Meta Ads, hotel YouTube Ads ve otel PPC kampanyaları stratejileri sunar.",
       "inLanguage": "tr-TR",
       "isPartOf": {
         "@id": "https://dgtlface.com/#organization"
       },
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/otel/ota-yonetimi/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi/#service",
-      "name": "Otel OTA Yönetimi – Booking, Expedia & Agoda Optimizasyonu",
-      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi/#service",
+      "name": "Otel Reklam Yönetimi – Google Ads, Meta Ads & YouTube",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
-      "serviceType": "otel ota yönetimi, booking optimizasyonu, expedia satış artırma, otel envanter yönetimi, ota fiyat stratejisi, turizm ota çözümleri",
-      "description": "DGTLFACE, oteller için Booking, Expedia, Agoda ve diğer OTA platformlarının performansını optimize eder. Otel OTA yönetimi, booking optimizasyonu, Expedia satış artırma, otel envanter yönetimi, OTA fiyat stratejisi, turizm OTA çözümleri, OTA satış analizi, OTA fiyat kontrol sistemi, OTA yorum yönetimi ve OTA vs direkt kanal denge stratejileriyle doluluk, görünürlük ve geliri artırır.",
+      "serviceType": "otel reklam yönetimi, otel google ads, turizm reklamcıları, resort meta ads, hotel youtube ads, otel ppc kampanyaları",
+      "description": "DGTLFACE, oteller için Google Ads, Meta Ads ve YouTube reklam kampanyaları yönetir. Otel reklam yönetimi, otel Google Ads, turizm reklamcıları, resort Meta Ads, hotel YouTube Ads, otel PPC kampanyaları, oteller için Google Ads stratejileri, resort satış artırma reklamları, turizm Google reklamlari, otel reklam bütçesi yönetimi, oda doluluk artırma reklamları, Google Hotel Ads entegrasyonu ve otel remarketing sistemi ile rezervasyon ve geliri artıran performans odaklı çözümler sunar.",
       "areaServed": [
         "Antalya",
         "Belek",
@@ -72,32 +72,32 @@ const homeJsonLd = {
       ],
       "inLanguage": "tr-TR",
       "keywords": [
-        "otel ota yönetimi",
-        "booking optimizasyonu",
-        "expedia satış artırma",
-        "otel envanter yönetimi",
-        "ota fiyat stratejisi",
-        "turizm ota çözümleri",
-        "booking görünürlük artırma teknikleri",
-        "expedia sıralama artırma yolları",
-        "ota fiyat kontrol sistemi",
-        "resort ota stratejisi",
-        "butik otel ota yönetimi",
-        "booking.com dönüşüm oranı artırma",
-        "ota satış analizi nasıl yapılır",
-        "ota fiyat karşılaştırması",
-        "antalya booking yönetimi",
-        "belek ota optimizasyon",
-        "kemer expedia yönetimi",
-        "alanya ota reklam stratejisi",
-        "resort ota optimizasyon",
-        "butik otel booking pazarlama",
-        "villa ota yönetimi"
+        "otel reklam yönetimi",
+        "otel google ads",
+        "turizm reklamcıları",
+        "resort meta ads",
+        "hotel youtube ads",
+        "otel ppc kampanyaları",
+        "oteller için google ads stratejileri",
+        "resort satış artırma reklamları",
+        "turizm google reklamlari",
+        "otel reklam bütçesi yönetimi",
+        "oda doluluk artırma reklamları",
+        "ppc reklam optimizasyon rehberi",
+        "google hotel ads entegrasyonu",
+        "otel remarketing sistemi",
+        "all inclusive ads",
+        "luxury hotel google ads",
+        "boutique hotel advertising",
+        "antalya otel reklamcılığı",
+        "belek ads kampanyaları",
+        "side resort ads",
+        "alanya turizm reklamları"
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -114,53 +114,53 @@ const homeJsonLd = {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "OTA Yönetimi",
-          "item": "https://dgtlface.com/tr/otel/ota-yonetimi"
+          "name": "Otel Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/reklam-yonetimi"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi/#faq",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "OTA yönetimi tam olarak nedir?",
+          "name": "Zaten OTA üzerinden doluluk alıyorum, yine de dijital reklam yatırımı yapmalı mıyım?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "OTA yönetimi; Booking, Expedia, Agoda gibi online seyahat ajanslarında fiyat, envanter, içerik, kampanya ve yorum süreçlerinin PMS ve channel manager ile entegre şekilde yönetilmesidir. Amaç, doluluğu ve görünürlüğü artırırken komisyon ve overbooking riskini kontrol altında tutmaktır."
+            "text": "Evet. OTA doluluğu komisyonludur ve uzun vadede maliyeti yüksektir. Kendi Google Ads, Meta Ads ve YouTube kampanyalarınız üzerinden gelen rezervasyonlar, daha kârlı ve marka odaklıdır. DGTLFACE, OTA’ları kapatmak yerine doğrudan satışın payını artırmak ve marka gücünüzü yükseltmek için reklam stratejileri kurgular."
           }
         },
         {
           "@type": "Question",
-          "name": "Booking ve Expedia sıralaması nasıl yükseltilir?",
+          "name": "Otel reklamları için minimum aylık bütçe ne olmalı?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Booking ve Expedia sıralamasını iyileştirmek için içerik doluluk oranı, görsel kalitesi, rekabetçi fiyat, kampanya kullanımı, yorum sayısı ve puanı, iptal/no-show oranı ve cevap hızı gibi faktörler optimize edilmelidir. DGTLFACE, bu alanları veriyle analiz edip OTA bazlı aksiyon planları uygular."
+            "text": "Minimum bütçe; otelin büyüklüğüne, pazar sayısına ve hedef doluluğa göre belirlenir. Amaç, çok küçük testler yerine anlamlı veri üretecek bir alt bandın altına düşmemektir. DGTLFACE, analiz sonrası oteliniz için verimsiz seviyenin altına inmeyecek net bütçe aralıkları önerir."
           }
         },
         {
           "@type": "Question",
-          "name": "OTA fiyat stratejisi nasıl belirlenir ve rate parity nasıl korunur?",
+          "name": "Sadece Google Ads ya da sadece Meta Ads ile çalışmak yeterli mi?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "OTA fiyat stratejisi PMS merkezde olacak şekilde tasarlanır. Tüm sezon ve fiyat planları PMS’te tanımlanır; Channel Manager üzerinden OTA’lara dağıtılır. Paritenin bozulmaması için OTA panelinden rastgele manuel müdahaleden kaçınılır, özel avantajlar fiyat yerine paket ve ek hizmet üzerinden kurgulanır."
+            "text": "Kısa vadede sonuç alınabilir ancak en güçlü performans, Google arama (niyet), Meta/Instagram (ilham ve remarketing) ve YouTube (farkındalık) birlikte kullanıldığında ortaya çıkar. DGTLFACE, her platforma özel rol ve KPI tanımlayarak kombine bir otel reklam stratejisi kurgular."
           }
         },
         {
           "@type": "Question",
-          "name": "Overbooking nasıl önlenir?",
+          "name": "Google Hotel Ads nasıl çalışır ve otelime ne kazandırır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Overbooking riskini azaltmak için PMS, Channel Manager ve OTA eşleştirmeleri doğru kurgulanmalı, envanter tek kaynaktan yönetilmeli, kritik dönemlerde buffer oda stratejisi kullanılmalı ve stop-sale limitleri iyi tanımlanmalıdır. DGTLFACE, teknik akış ve operasyon süreçlerini bu prensiplere göre yapılandırır."
+            "text": "Google Hotel Ads, otelinizin fiyat ve müsaitlik bilgilerini doğrudan Google arama ve Google Travel sonuçlarında gösteren bir reklam formatıdır. PMS veya OTA entegrasyonu ile çalışır. Özellikle yüksek niyetli aramalarda direkt rezervasyon ve marka görünürlüğünü artırmak için güçlü bir kanaldır."
           }
         },
         {
           "@type": "Question",
-          "name": "OTA yönetimi sadece büyük oteller için mi mantıklıdır?",
+          "name": "DGTLFACE otel reklam optimizasyonunu nasıl yönetir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hayır. Az odalı butik oteller ve villalar için OTA yönetimi daha da kritiktir; çünkü her rezervasyonun toplam doluluk ve gelir üzerindeki etkisi çok daha yüksektir. Küçük oteller için daha sade ama titiz bir OTA stratejisi, kârlılığı ve risk kontrolünü doğrudan etkiler."
+            "text": "DGTLFACE, otel reklamlarında hedef pazar analizi, kampanya kurulumu, dönüşüm takibi, A/B testleri, bütçe ve teklif optimizasyonu, remarketing kurguları ve aylık gelir & rezervasyon raporlaması adımlarını uçtan uca yönetir. Her raporda hangi kampanyanın ne kadar rezervasyon ve gelir ürettiği net şekilde gösterilir."
           }
         }
       ]
@@ -170,12 +170,12 @@ const homeJsonLd = {
 
 
 const page = () => {
-   const t = useTranslations("OtaManagementPage");
-   const t2 = useTranslations("OtaManagementPage.h4Section");
+   const t = useTranslations("OtelAdsPage");
+   const t2 = useTranslations("OtelAdsPage.h4Section");
            
-              const stepData = [1,2,3,4,5,6,7].map(i => ({
+              const stepData = [1,2,3,4,5,6,7,8,9].map(i => ({
                 id: i,
-                image: [image1,image2,image1,image2,image1,image1,image2][i-1],
+                image: [image1,image2,image1,image2,image1,image1,image2,image1,image2][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t(`h3Section.text${i}`)
               }));
@@ -234,9 +234,7 @@ const page = () => {
                const h2items = [
                { title: t("h2Section.header1"),text: t("h2Section.text1") },
                { title: t("h2Section.header2"), text: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3") },
-                { title: t("h2Section.header4"), text: t("h2Section.text4") },
-                 { title: t("h2Section.header5"), text: t("h2Section.text5") }
+               { title: t("h2Section.header3"), text: t("h2Section.text3") }
                
              ];
 
@@ -270,10 +268,10 @@ const page = () => {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="OtaManagementPage" itemCount={5}/>
+      <VerticalSlider page="OtelAdsPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in OTA optimizasyon projeleri, Booking & Expedia performans yönetimi ve turizm satış teknolojileri dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel & resort reklam yönetimi, Google Hotel Ads projeleri, Meta Ads dönüşüm kurguları ve turizm satış optimizasyonuna dair dahili strateji dokümantasyonundan derlenmiştir."/>
     </div>
   </>
   )

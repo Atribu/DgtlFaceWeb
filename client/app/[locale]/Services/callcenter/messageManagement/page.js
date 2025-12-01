@@ -1,5 +1,4 @@
-import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -8,6 +7,11 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
 import { useTranslations } from "next-intl";
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -160,14 +164,73 @@ const homeJsonLd = {
 }
 
 const page = () => {
-  const t = useTranslations("ContractManagement");
-
-  const stepData = [1,2,3,4].map(i => ({
-  id: i,
-  image: [image1,image2,image3,image4][i-1],
-  header: t(`contractmanagement_step${i}_header`),
-  text:   t(`contractmanagement_step${i}_text`)
-}));
+  const t = useTranslations("SocialMediaMessageManagementPage");
+const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
+           
+              const stepData = [1,2,3,4,5].map(i => ({
+                id: i,
+                image: [image1,image2,image3,image1,image2,][i-1],
+                header: t(`h3Section.header${i}`),
+                text:   t(`h3Section.text${i}`)
+              }));
+           
+           
+           
+              const cards = [
+               {
+                 widthClass: "w-[95%] lg:w-[80%]",
+                 title: t2("card1title"),
+                 description: t2("card1description"),
+               },
+               {
+                 widthClass: "w-[95%] lg:w-[75%]",
+                 title: t2("card2title"),
+                 description: t2("card2description"),
+               },
+               {
+                 widthClass: "w-[95%] lg:w-[70%]",
+                 title: t2("card3title"),
+                 description: t2("card3description"),
+               },
+           
+             ];
+           
+               const faqs = [
+               {
+                 question: t("faq.question1"),
+                 answer:
+                  t("faq.answer1"),
+               },
+               {
+                 question: t("faq.question2"),
+                 answer:
+                  t("faq.answer2"),
+               },
+               {
+                  question: t("faq.question3"),
+                 answer:
+                  t("faq.answer3"),
+               },
+           
+               {
+               question: t("faq.question4"),
+                 answer:
+                  t("faq.answer4"),
+               },
+           
+               {
+               question: t("faq.question5"),
+                 answer:
+                  t("faq.answer5"),
+               },
+             ];
+           
+               const h2items = [
+               { title: t("h2Section.header1"),text: t("h2Section.text1") },
+               { title: t("h2Section.header2"), text: t("h2Section.text2") },
+               { title: t("h2Section.header3"), text: t("h2Section.text3") },
+               { title: t("h2Section.header4"), text: t("h2Section.text4") }
+             ];
 
 
   return (
@@ -178,17 +241,32 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
     <SubBanner
-  header={t("contractmanagement_subbanner_header")}
-  header2={t("contractmanagement_subbanner_header2")}
-  text={t("contractmanagement_subbanner_text")}
+  header={t("subbanner_header")}
+  header2={t("subbanner_header2")}
+  text={t("subbanner_text")}
+    header3={t("subbanner_header3")}
+  text2={t("subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+      <AiAnswerBlock text={t("ai_answer_text")}/>
+       <H2LogoSection items={h2items} />
+
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
+    <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="SocialMediaMessageManagementPage" itemCount={5}/>
+    </div>
+     <QuestionsSection2 variant="light" faqs={faqs} />
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in mesaj & yorum yönetimi operasyonlarına, otel & turizm odaklı çok kanallı iletişim süreçlerine ve sosyal medya destek modellerine ilişkin dahili dokümantasyonundan derlenmiştir."/>
     </div>
 </>
   )

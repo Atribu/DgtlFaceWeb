@@ -4,7 +4,6 @@ import VerticalSlider from '@/app/[locale]/components/subPageComponents/Vertical
 import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
-import image3 from "./images/image3.png"
 import { useTranslations } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
@@ -20,7 +19,7 @@ const homeJsonLd = {
       "@id": "https://dgtlface.com/#organization",
       "name": "DGTLFACE",
       "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimi, PMS & OTA entegrasyonu, online satış optimizasyonu ve çok kanallı misafir iletişimi sunan turizm odaklı teknoloji ve dijital pazarlama partneridir.",
+      "description": "DGTLFACE, oteller ve markalar için satış sonrası müşteri destek, şikayet yönetimi, çok kanallı iletişim ve CRM/PMS entegrasyonlu çağrı merkezi çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
       "logo": "https://dgtlface.com/logo.png",
       "address": {
         "@type": "PostalAddress",
@@ -35,28 +34,28 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. Misafir iletişimi, kayıt, doğrulama ve süreç takibi profesyonel şekilde yönetilir.",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE",
+      "description": "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.",
       "inLanguage": "tr-TR",
       "isPartOf": {
         "@id": "https://dgtlface.com/#organization"
       },
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#service",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#service",
+      "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
-      "serviceType": "rezervasyon yönetimi, rezervasyon sistemi, misafir iletişimi, rezervasyon süreci, telefon rezervasyonu, otel kayıt sistemi",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. OTA, web sitesi, çağrı merkezi, WhatsApp ve acentelerden gelen tüm talepleri PMS rezervasyon modülü üzerinde birleştirir; müsaitlik–fiyat kontrolü, doğrulama, iptal/opsiyon, no-show ve misafir iletişimi süreçlerini standardize ederek, hata oranını düşürür ve doluluk ile geliri optimize eder.",
+      "serviceType": "müşteri destek merkezi, satış sonrası hizmet, müşteri hizmetleri, destek hattı, çağrı sonrası takip, müşteri iletişim yönetimi",
+      "description": "DGTLFACE, satış sonrası müşteri destek süreçlerini profesyonel ekiplerle yönetir. Telefon, WhatsApp, e-posta, DM, OTA mesajları ve web chat üzerinden gelen soru, şikayet ve talepleri çok kanallı iletişim modeliyle karşılar; şikayet yönetimi, çağrı sonrası CRM entegrasyonu, memnuniyet ölçümü ve otel/turizm projelerinde PMS destek süreçleriyle marka sadakati ve müşteri memnuniyetini artırır.",
       "areaServed": [
         "Antalya",
         "Türkiye",
@@ -64,32 +63,33 @@ const homeJsonLd = {
       ],
       "inLanguage": "tr-TR",
       "keywords": [
-        "rezervasyon yönetimi",
-        "rezervasyon sistemi",
-        "misafir iletişimi",
-        "rezervasyon süreci",
-        "telefon rezervasyonu",
-        "otel kayıt sistemi",
-        "rezervasyon yönetimi nasıl yapılır",
-        "oteller için rezervasyon kontrol sistemi",
-        "online + telefon rezervasyon dengesi",
-        "yabancı misafir rezervasyon yönetimi",
-        "turizm sektörü rezervasyon teknikleri",
-        "rezervasyon yönetimi yazılımı",
-        "pms rezervasyon modülü",
-        "rezervasyon yönetimi antalya",
-        "antalya otel rezervasyon",
-        "rezervasyon destek türkiye",
-        "antalya misafir iletişimi",
-        "resort rezervasyon yönetimi",
-        "butik otel misafir iletişimi",
-        "turizm rezervasyon sistemi",
-        "pms rezervasyon akışı nasıl çalışır"
+        "müşteri destek merkezi",
+        "satış sonrası hizmet",
+        "müşteri hizmetleri",
+        "destek hattı",
+        "çağrı sonrası takip",
+        "müşteri iletişim yönetimi",
+        "müşteri şikayet yönetimi nasıl yapılır",
+        "satış sonrası destek örnekleri",
+        "müşteri sorun çözme teknikleri",
+        "oteller için satış sonrası süreç",
+        "turizm müşteri yönetimi",
+        "çağrı sonrası crm entegrasyonu",
+        "müşteri memnuniyeti artırma yöntemleri",
+        "satış sonrası destek kanalları",
+        "otel satış sonrası destek",
+        "turizm müşteri memnuniyeti",
+        "resort customer care",
+        "booking sonrası misafir iletişimi",
+        "müşteri destek antalya",
+        "antalya çağrı merkezi",
+        "satış sonrası destek türkiye",
+        "antalya müşteri hizmetleri"
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -100,59 +100,59 @@ const homeJsonLd = {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "PMS & OTA Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+          "name": "Çağrı Merkezi Hizmetleri",
+          "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Rezervasyon Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+          "name": "Satış Sonrası Destek",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#faq",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
+          "name": "Satış sonrası destek nedir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Rezervasyon yönetimi; OTA, web sitesi, çağrı merkezi, WhatsApp ve acenteler gibi tüm kanallardan gelen taleplerin tek bir sistemde toplanması, müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve iletişim süreçlerinin standart bir akışla yönetilmesi anlamına gelir ve hem doluluk hem gelir hem de misafir memnuniyeti için kritiktir."
+            "text": "Satış sonrası destek; misafir veya müşterilerin satın alma veya konaklama sonrasında ilettiği soru, şikayet, talep ve önerilerin telefon, WhatsApp, e-posta, DM, web chat ve OTA mesajları üzerinden profesyonel şekilde yönetilmesi, çözümlenmesi ve takip edilmesi sürecidir."
           }
         },
         {
           "@type": "Question",
-          "name": "Online ve telefon rezervasyon dengesi nasıl kurulmalı?",
+          "name": "Otellerde satış sonrası süreç nasıl çalışır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Online rezervasyonlar (OTA ve web) otomatik akışla PMS’e düşerken, telefon ve çağrı merkezi rezervasyonları aynı fiyat ve bilgi standartlarıyla PMS’e işlenmelidir. Böylece misafir hangi kanalı kullanırsa kullansın tutarlı bir deneyim yaşar ve tüm kayıtlar tek rezervasyon gerçeğinde birleşir."
+            "text": "Otellerde satış sonrası süreç; konaklama öncesi ve sonrası iletişim, şikayet ve talep yönetimi, memnuniyet aramaları, yorum davetleri ve tekrar rezervasyon önerileri gibi adımları içerir ve marka sadakatini doğrudan etkiler."
           }
         },
         {
           "@type": "Question",
-          "name": "PMS rezervasyon modülü nasıl çalışır?",
+          "name": "Çok kanallı müşteri desteği nasıl kurgulanır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PMS rezervasyon modülü; oda, fiyat, tarih, kişi ve kaynak bilgilerini tek kartta toplayarak online, telefon ve OTA rezervasyonlarının hepsinin aynı sistemde yönetilmesini sağlar. İptal, tarih değişikliği, no-show, opsiyon ve ödeme bilgileri de bu modül üzerinden takip edilir."
+            "text": "Çok kanallı müşteri desteğinde telefon, WhatsApp, e-posta, sosyal medya mesajları, yorumlar, web chat ve OTA mesajları tek bir iletişim mimarisinde birleşir; tüm kanallar için ortak ton, SLA ve çözüm prosedürleri tanımlanır."
           }
         },
         {
           "@type": "Question",
-          "name": "Call Center + OTA + Web rezervasyon akışı nasıl birleştirilir?",
+          "name": "CRM entegrasyonu nasıl yapılır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call Center, OTA ve web rezervasyon akışları PMS üzerinde birleşir. OTA ve web rezervasyonları otomatik olarak PMS’e düşer, çağrı merkezi rezervasyonları da aynı standart alanlarla PMS’e işlenir. Böylece tüm kanallar tek rezervasyon yönetim sistemine bağlı çalışır ve raporlama kolaylaşır."
+            "text": "Satış sonrası çağrı ve mesaj kayıtları, konu, sonuç ve aksiyon bilgileriyle birlikte CRM veya PMS sistemine işlenir; böylece misafir geçmişi, tekrarlayan şikayetler ve VIP/riskli profiller tek ekrandan takip edilebilir."
           }
         },
         {
           "@type": "Question",
-          "name": "Rezervasyon yönetimi gelir ve doluluk oranına nasıl etki eder?",
+          "name": "Misafir geri dönüş toplama yöntemleri nelerdir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Profesyonel rezervasyon yönetimi; overbooking ve hata riskini azaltır, doğru tarihe ve doğru odaya doğru fiyatla rezervasyon yazılmasını sağlar, iptal ve no-show süreçlerini kontrol altına alır. Bu da doluluk planlamasını ve RevPAR odaklı gelir yönetimini güçlendirir."
+            "text": "Misafir geri bildirimleri; konaklama sonrası aramalar, kısa anketler, e-posta/WhatsApp linkleri, OTA ve Google yorum davetleri ile toplanabilir ve bu veriler memnuniyet ve hizmet iyileştirme süreçlerinde kullanılabilir."
           }
         }
       ]
@@ -161,12 +161,13 @@ const homeJsonLd = {
 }
 
 const page = () => {
-   const t = useTranslations("ReservationManagement");
-const t2 = useTranslations("ReservationManagementPage.h4Section");
+  const t = useTranslations("AfterSalesSupportPage");
+
+const t2 = useTranslations("AfterSalesSupportPage.h4Section");
            
-              const stepData = [1,2,3].map(i => ({
+              const stepData = [1,2,3,4,5].map(i => ({
                 id: i,
-                image: [image1,image2,image1][i-1],
+                image: [image1,image2,image1,image2,image1][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t(`h3Section.text${i}`)
               }));
@@ -228,16 +229,15 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
                { title: t("h2Section.header3"), text: t("h2Section.text3") },
                 { title: t("h2Section.header4"), text: t("h2Section.text4") }
              ];
-
+  
   return (
     <>
-    <script
+     <script
         type="application/ld+json"
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
-
-
+      
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
      <SubBanner
   header={t("subbanner_header")}
@@ -248,7 +248,7 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
-   <AiAnswerBlock text={t("ai_answer_text")}/>
+<AiAnswerBlock text={t("ai_answer_text")}/>
        <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
@@ -260,10 +260,10 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="ReservationManagementPage" itemCount={5}/>
+      <VerticalSlider page="AfterSalesSupportPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel rezervasyon yönetimi, PMS rezervasyon modülü kurulumları ve OTA–Call Center–Web akışlarını birleştiren operasyon projelerine ilişkin dokümantasyon ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in satış sonrası müşteri destek operasyonları, turizm misafir memnuniyeti süreçleri ve CRM–Çağrı Merkezi entegrasyon modellerinden derlenmiştir."/>
     </div>
     </>
   )
