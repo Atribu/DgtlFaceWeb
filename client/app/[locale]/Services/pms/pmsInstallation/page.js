@@ -172,7 +172,8 @@ const t2 = useTranslations("PmsSetupPage.h4Section");
                 id: i,
                 image: [image1,image2,image1,image2][i-1],
                 header: t(`h3Section.header${i}`),
-                text:   t(`h3Section.text${i}`)
+                text:   t.raw(`h3Section.text${i}`),
+               textHtml:   t.raw(`h3Section.text${i}`)
               }));
            
            
@@ -227,10 +228,10 @@ const t2 = useTranslations("PmsSetupPage.h4Section");
              ];
            
                const h2items = [
-               { title: t("h2Section.header1"), text: t("h2Section.text1") , textHtml: t("h2Section.text1")},
-               { title: t("h2Section.header2"), text: t("h2Section.text2"), textHtml: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3"), textHtml: t("h2Section.text3")},
-               { title: t("h2Section.header4"), text: t("h2Section.text4"), textHtml: t("h2Section.text4") }
+               { title: t("h2Section.header1"),   text: t.raw("h2Section.text1")},
+               { title: t("h2Section.header2"),  text: t.raw("h2Section.text2")},
+               { title: t("h2Section.header3"), text: t.raw("h2Section.text3")},
+               { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
              ];
   
   return (
@@ -242,7 +243,7 @@ const t2 = useTranslations("PmsSetupPage.h4Section");
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
-      <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t("subbanner_text")} header3={t("subbanner_header3")} text2={t("subbanner_text2")}  buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+      <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t.raw("subbanner_text")} header3={t("subbanner_header3")} text2={t.raw("subbanner_text2")}  buttonLink="/" buttonText={t("cta_talk_to_us")}/>
 <AiAnswerBlock text={t("ai_answer_text")}/>
        <H2LogoSection items={h2items} />
 

@@ -23,7 +23,64 @@
     "mail": "Mail",
     "get_in_touch": "Get in touch",
     "let_us_call_you": "Let us call you",
-    "tagline": "DGTLFACE – Digital Technology Partner"
+    "tagline": "DGTLFACE – Digital Technology Partner",
+    "creative_corporate_gift": "Kurumsal Hediye Tasarımı",
+  "creative_uiux": "UI/UX Tasarımı",
+  "creative_video": "Video & Prodüksiyon",
+
+
+  "callcenter_multilang": "4 Dilli Çağrı Merkezi",
+  "callcenter_message": "Mesaj & DM Yönetimi",
+  "callcenter_aftersales": "Satış Sonrası Destek",
+
+
+  "pms_installation": "PMS Kurulum & Yapılandırma",
+  "pms_ota_contract": "OTA Entegrasyonu & Sözleşmeler",
+  "pms_reservation": "Rezervasyon Yönetimi",
+  "pms_channel": "Kanal Yönetimi",
+  "pms_web_payment": "Online Satış & Ödeme Sistemleri",
+
+
+  "sem_google_ads": "Google Ads Yönetimi",
+  "sem_youtube": "YouTube Reklam Yönetimi",
+  "sem_remarketing": "Remarketing & Display",
+  "sem_tag_manager": "Dönüşüm Takibi & Tag Manager",
+  "sem_reporting": "Reklam Raporlama & Performans",
+
+
+  "seo_technical": "Teknik SEO",
+  "seo_content": "İçerik SEO",
+  "seo_local": "Yerel SEO",
+  "seo_backlink": "Backlink Yönetimi",
+  "seo_reporting": "SEO Raporlama",
+
+
+  "smm_reels": "Reels & Kısa Video",
+  "smm_ads": "Sosyal Medya Reklamları",
+  "smm_content": "İçerik Üretimi",
+  "smm_planning": "Planlama & Strateji",
+  "smm_reporting": "Analiz & Raporlama",
+
+
+  "software_website": "Web Sitesi & Yazılım Geliştirme",
+  "software_maintenance": "Bakım & Teknik Destek",
+  "software_server": "Sunucu & Güvenlik Yönetimi",
+  "software_cms": "CMS Entegrasyonu",
+  "software_kvkk": "KVKK Uyum Hizmeti",
+
+
+  "digital_ads_reporting": "Reklam Raporlama (Looker Studio)",
+  "digital_call_reporting": "Çağrı & KVKK Veri Raporlama",
+  "digital_sales_analysis": "Satış & Dönüşüm Analizi",
+  "digital_market_research": "Benchmark & Pazar Analizi",
+
+
+  "hotel_seo": "Otel SEO",
+  "hotel_social": "Otel Sosyal Medya Yönetimi",
+  "hotel_ads": "Otel Reklam Yönetimi",
+  "hotel_ota": "OTA & Kanal Yönetimi",
+  "hotel_pms": "PMS Entegrasyonu",
+  "hotel_callcenter": "Otel Rezervasyon Çağrı Merkezi"
   },
 
 "Homepage":{

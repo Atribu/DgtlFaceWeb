@@ -11,19 +11,78 @@
     "blog": "Blog",
     "contact": "İletişim",
      "menu": "Menü",
-    "creative": "Yaratıcı",
+    "creative": "Creative",
     "call_center": "Çağrı Merkezi",
     "pms_ota_management": "PMS & OTA Yönetimi",
     "search_engine_marketing": "SEM – Dijital Reklam Yönetimi",
-    "search_engine_optimization": "Arama Motoru Optimizasyonu",
+    "search_engine_optimization": "SEO - Arama Motoru Optimizasyonu",
     "social_media_marketing": "Sosyal Medya Pazarlaması",
     "information_technology_software": "Bilgi Teknolojileri ve Yazılım",
     "digital_analysis_reporting": "Dijital Analiz ve Raporlama",
+    "hotel":"Otel Dijital Dönüşüm",
      "phone": "Telefon",
     "mail": "E-posta",
     "get_in_touch": "İletişime geçin",
     "let_us_call_you": "Bırakın sizi arayalım",
-    "tagline": "DGTLFACE – Dijital Teknoloji Ortağı"
+    "tagline": "DGTLFACE – Dijital Teknoloji Ortağı",
+
+  "creative_corporate_gift": "Kurumsal Hediye Tasarımı",
+  "creative_uiux": "UI/UX Tasarımı",
+  "creative_video": "Video & Prodüksiyon",
+
+
+  "callcenter_multilang": "4 Dilli Çağrı Merkezi",
+  "callcenter_message": "Mesaj & DM Yönetimi",
+  "callcenter_aftersales": "Satış Sonrası Destek",
+
+
+  "pms_installation": "PMS Kurulum & Yapılandırma",
+  "pms_ota_contract": "OTA Entegrasyonu & Sözleşmeler",
+  "pms_reservation": "Rezervasyon Yönetimi",
+  "pms_channel": "Kanal Yönetimi",
+  "pms_web_payment": "Online Satış & Ödeme Sistemleri",
+
+
+  "sem_google_ads": "Google Ads Yönetimi",
+  "sem_youtube": "YouTube Reklam Yönetimi",
+  "sem_remarketing": "Remarketing & Display",
+  "sem_tag_manager": "Dönüşüm Takibi & Tag Manager",
+  "sem_reporting": "Reklam Raporlama & Performans",
+
+
+  "seo_technical": "Teknik SEO",
+  "seo_content": "İçerik SEO",
+  "seo_local": "Yerel SEO",
+  "seo_backlink": "Backlink Yönetimi",
+  "seo_reporting": "SEO Raporlama",
+
+
+  "smm_reels": "Reels & Kısa Video",
+  "smm_ads": "Sosyal Medya Reklamları",
+  "smm_content": "İçerik Üretimi",
+  "smm_planning": "Planlama & Strateji",
+  "smm_reporting": "Analiz & Raporlama",
+
+
+  "software_website": "Web Sitesi & Yazılım Geliştirme",
+  "software_maintenance": "Bakım & Teknik Destek",
+  "software_server": "Sunucu & Güvenlik Yönetimi",
+  "software_cms": "CMS Entegrasyonu",
+  "software_kvkk": "KVKK Uyum Hizmeti",
+
+
+  "digital_ads_reporting": "Reklam Raporlama (Looker Studio)",
+  "digital_call_reporting": "Çağrı & KVKK Veri Raporlama",
+  "digital_sales_analysis": "Satış & Dönüşüm Analizi",
+  "digital_market_research": "Benchmark & Pazar Analizi",
+
+
+  "hotel_seo": "Otel SEO",
+  "hotel_social": "Otel Sosyal Medya Yönetimi",
+  "hotel_ads": "Otel Reklam Yönetimi",
+  "hotel_ota": "OTA & Kanal Yönetimi",
+  "hotel_pms": "PMS Entegrasyonu",
+  "hotel_callcenter": "Otel Rezervasyon Çağrı Merkezi"
   },
 
  "Homepage": {
@@ -2611,31 +2670,31 @@
     "cta_talk_to_us": "Web Sitenizin Altyapısını Güçlendirin",
     "technicalseo_subbanner_header": "Teknik SEO Analizi – ",
     "technicalseo_subbanner_header2": "Site Performansınızı Google Standartlarına Taşıyın",
-    "technicalseo_subbanner_text": "DGTLFACE, teknik SEO alanında; sitenizin hızını, mobil uyumluluğunu, taranabilirliğini ve altyapı mimarisini Google’ın en güncel standartlarına göre optimize eden bir teknik SEO danışmanı gibi çalışır. HTML yapısından sunucu yanıt sürelerine, Core Web Vitals metriklerinden (LCP, CLS, INP/FID) URL mimarisine, robots.txt ve sitemap yapılandırmasından canonical etiketler ve hreflang kurgusuna kadar tüm teknik katmanı uçtan uca ele alırız. Amacımız yalnızca Lighthouse skorlarını yükseltmek değil; gerçek kullanıcı deneyimini, SEO performansını ve reklam dönüşümünü aynı anda iyileştiren bir teknik altyapı kurmaktır. Böylece siteniz sadece “tasarım olarak şık” değil, arama motorları için de sağlam ve sürdürülebilir bir temel kazanır.",
+    "technicalseo_subbanner_text": "DGTLFACE, teknik SEO alanında; sitenizin hızını, mobil uyumluluğunu, taranabilirliğini ve altyapı mimarisini Google’ın en güncel standartlarına göre optimize eden bir <b>teknik SEO danışmanı</b> gibi çalışır. HTML yapısından sunucu yanıt sürelerine, Core Web Vitals metriklerinden (LCP, CLS, INP/FID) URL mimarisine, robots.txt ve sitemap yapılandırmasından canonical etiketler ve hreflang kurgusuna kadar tüm teknik katmanı uçtan uca ele alırız. Amacımız yalnızca Lighthouse skorlarını yükseltmek değil; <b>gerçek kullanıcı deneyimini, SEO performansını ve reklam dönüşümünü aynı anda</b> iyileştiren bir teknik altyapı kurmaktır. Böylece siteniz sadece “tasarım olarak şık” değil, arama motorları için de <b>sağlam ve sürdürülebilir</b> bir temel kazanır.",
      "technicalseo_subbanner_header3": "Teknik SEO Nedir? Neden Vazgeçilmezdir?",
-    "technicalseo_subbanner_text2":"Teknik SEO, bir web sitesinin görünmeyen altyapı katmanlarının arama motorları ve kullanıcı deneyimi açısından optimize edilmesidir. İçerik ne kadar kaliteli olursa olsun: Site yavaşsa, Mobilde bozuksa, Google sayfalarınızı tarayamıyorsa, Tarama bütçesi boşa harcanıyorsa, Canonical/redirect/URL yapıları karmaşıksa, SEO performansınız mutlaka sınıra takılır. DGTLFACE, “teknik SEO analizi, site hızı optimizasyonu, mobil uyumluluk testi, Core Web Vitals iyileştirme, teknik SEO checklist 2025” gibi başlıkları; rapor + aksiyon planı + uygulama üçlüsüyle ele alır. Sonuç: Hem kullanıcılar hem Google için temiz, hızlı ve anlaşılır bir site.",
+    "technicalseo_subbanner_text2":"Teknik SEO, bir web sitesinin görünmeyen altyapı katmanlarının <b>arama motorları ve kullanıcı deneyimi</b> açısından optimize edilmesidir. İçerik ne kadar kaliteli olursa olsun: <ul><li> Site yavaşsa, </li><li> Mobilde bozuksa, </li><li> Google sayfalarınızı tarayamıyorsa,</li><li> Tarama bütçesi boşa harcanıyorsa,</li><li> Canonical/redirect/URL yapıları karmaşıksa,  </li></ul>SEO performansınız mutlaka sınıra takılır. DGTLFACE, <b>“teknik SEO analizi, site hızı optimizasyonu, mobil uyumluluk testi, Core Web Vitals iyileştirme, teknik SEO checklist 2025”</b> gibi başlıkları; <b>rapor + aksiyon planı + uygulama</b> üçlüsüyle ele alır. Sonuç: Hem kullanıcılar hem Google için <b>temiz, hızlı ve anlaşılır </b> bir site.",
 
     "h2Section":{
       "header1":"Core Web Vitals ve Site Hızı Optimizasyonu",
-    "text1":"Google’ın Core Web Vitals metrikleri (LCP, CLS, INP/FID) artık doğrudan sıralama sinyali. Kullanıcı tarafında da ilk izlenimi belirleyen şey, sayfanın ne kadar hızlı açıldığı ve ne kadar “stabil” hissettirdiğidir. DGTLFACE, “Core Web Vitals nasıl iyileştirilir, LCP–CLS–FID optimizasyonu, site hızı optimizasyonu, teknik SEO site performansı” tarafında: HTML yapısını ve render akışını inceler, Görsel & video optimizasyonu (boyut, format, lazy load), Critical CSS & JS düzenlemeleri, Cache, CDN ve sunucu yanıt süreleri (TTFB) iyileştirmeleri, parti script’lerin (tag, pixel vb.) yüklenme sırasını optimize eder. Özellikle Next.js proje kullanan markalar için “Next.js SEO nasıl yapılır?” sorusunu, hem framework’ün gücünü hem de SEO beklentilerini dengeleyen bir yapıyla cevaplarız.",
+    "text1":"Google’ın Core Web Vitals metrikleri (LCP, CLS, INP/FID) artık doğrudan <b>sıralama sinyali</b>. Kullanıcı tarafında da ilk izlenimi belirleyen şey, sayfanın ne kadar hızlı açıldığı ve ne kadar “stabil” hissettirdiğidir. DGTLFACE, <b>“Core Web Vitals nasıl iyileştirilir, LCP–CLS–FID optimizasyonu, site hızı optimizasyonu, teknik SEO site performansı”</b> tarafında: <ul><li>HTML yapısını ve render akışını inceler,</li><li> Görsel & video optimizasyonu (boyut, format, lazy load), </li><li>Critical CSS & JS düzenlemeleri,</li><li> Cache, CDN ve sunucu yanıt süreleri (TTFB) iyileştirmeleri,</li><li> 3. parti script’lerin (tag, pixel vb.) yüklenme sırasını optimize eder. </li></ul> Özellikle Next.js proje kullanan markalar için <b>“Next.js SEO nasıl yapılır?”</b> sorusunu, hem framework’ün gücünü hem de SEO beklentilerini dengeleyen bir yapıyla cevaplarız.",
      "header2":"Site Mimarisi, Taranabilirlik ve Tarama Bütçesi Yönetimi",
-    "text2":"Site mimarisi, Google’ın sitenizi nasıl tarayıp anladığını belirler. Karışık kategori yapısı, gereksiz parametreli URL’ler, loop’a giren yönlendirmeler ve bozuk linkler, tarama bütçenizi boşa harcatır. DGTLFACE, teknik SEO site mimarisi kapsamında: URL yapınızı (kategori/alt kategori/ürün/oda vb.) gözden geçirir, Silo ve içerik kümesi mantığına uygun bir hiyerarşi önerir, İç linkleme ve breadcrumb yapısını teknik olarak düzenler, “SEO tarama hataları çözümleri” için Search Console ve log verilerini analiz eder. Hedef: Google’ın tarama bütçesini gerçekten önemli sayfalarınıza harcamasını sağlamak ve indexlenmeyen, taranmayan, boşa kaynak tüketen URL sayılarını minimuma indirmektir.",
+    "text2":"Site mimarisi, Google’ın sitenizi <b>nasıl tarayıp anladığını</b> belirler. Karışık kategori yapısı, gereksiz parametreli URL’ler, loop’a giren yönlendirmeler ve bozuk linkler, tarama bütçenizi boşa harcatır. DGTLFACE, teknik SEO site mimarisi kapsamında: <ul><li> URL yapınızı (kategori/alt kategori/ürün/oda vb.) gözden geçirir, </li><li> Silo ve içerik kümesi mantığına uygun bir hiyerarşi önerir, </li><li>  İç linkleme ve breadcrumb yapısını teknik olarak düzenler, </li><li>  <b>“SEO tarama hataları çözümleri” </b>için Search Console ve log verilerini analiz eder. </li></ul>  Hedef: Google’ın tarama bütçesini gerçekten önemli sayfalarınıza harcamasını sağlamak ve indexlenmeyen, taranmayan, boşa kaynak tüketen URL sayılarını minimuma indirmektir.",
      "header3":"Robots.txt, Sitemap ve Canonical Yapılandırması",
-    "text3":"Teknik SEO’nun en kritik ama en sık yanlış yapılan alanları: robots.txt, sitemap ve canonical etiketler. Yanlış bir robots kuralı, kritik sayfalarınızın taranmasını engelleyebilir; kötü yapılandırılmış sitemap’ler, Google’ın kafasını karıştırabilir; canonical hataları, otoriteyi parçalar. DGTLFACE: “robots.txt nasıl yapılandırılır?” sorusuna, sitenizin gerçek yapısına göre yanıt verir, XML sitemap’lerinizi (ana, haber, ürün/oda vs.) doğru segmentlere böler, “sitemap optimizasyonu” kapsamında hatalı/gereksiz URL’leri temizler, “canonical etiketler nasıl düzenlenir” tarafında, duplicate/near-duplicate içerikleri toparlar. Böylece Google’a “Bu sayfaları önemse, bunları görmezden gel, bu adres bu içeriğin asıl versiyonu” mesajlarını net şekilde ileten, tertemiz bir altyapı sağlanır.",
+    "text3":"Teknik SEO’nun en kritik ama en sık yanlış yapılan alanları: <b>robots.txt, sitemap ve canonical etiketler</b>. Yanlış bir robots kuralı, kritik sayfalarınızın taranmasını engelleyebilir; kötü yapılandırılmış sitemap’ler, Google’ın kafasını karıştırabilir; canonical hataları, otoriteyi parçalar. DGTLFACE: <ul><li> <b>“robots.txt nasıl yapılandırılır?”</b> sorusuna, sitenizin gerçek yapısına göre yanıt verir,</li><li> XML sitemap’lerinizi (ana, haber, ürün/oda vs.) doğru segmentlere böler, </li><li><b>“sitemap optimizasyonu”</b> kapsamında hatalı/gereksiz URL’leri temizler,</li><li> <b>“canonical etiketler nasıl düzenlenir”</b> tarafında, duplicate/near-duplicate içerikleri toparlar.</li></ul> Böylece Google’a <b>“Bu sayfaları önemse, bunları görmezden gel, bu adres bu içeriğin asıl versiyonu”</b> mesajlarını net şekilde ileten, tertemiz bir altyapı sağlanır.",
      "header4":"Oteller ve Turizm Markaları İçin Teknik SEO",
-    "text4":"Turizm ve otelcilikte teknik SEO; sadece bir blog sitesindeki gibi değil, PMS, OTA, rezervasyon modülü ve çok dilli içerik ile birlikte düşünülmelidir. DGTLFACE, “otel teknik SEO, turizm teknik SEO, PMS uyumlu teknik SEO, OTA teknik SEO” alanlarında: Çok dilli / multi-domain & subdomain yapılarını (TR–EN–DE–RU vb.) teknik olarak düzenler, Rezervasyon motoru entegrasyonunun SEO’ya zarar vermemesini sağlar, OTA (Booking, Expedia vb.) yönlendirmeleriyle web sitesi dengesini teknik anlamda yönetir, Turizm/tatil sezonuna göre performans ve kapasite planlaması yapar. Sonuç: Otel web siteniz, turizm sektörünün karmaşık yapısına rağmen, Google için net ve güçlü bir teknik sinyal üretir.",
+    "text4":"Turizm ve otelcilikte teknik SEO; sadece bir blog sitesindeki gibi değil, <b>PMS, OTA, rezervasyon modülü ve çok dilli içerik</b> ile birlikte düşünülmelidir. DGTLFACE, <b>“otel teknik SEO, turizm teknik SEO, PMS uyumlu teknik SEO, OTA teknik SEO” </b> alanlarında: <ul><li> Çok dilli / multi-domain & subdomain yapılarını (TR–EN–DE–RU vb.) teknik olarak düzenler, </li><li> Rezervasyon motoru entegrasyonunun SEO’ya zarar vermemesini sağlar,</li><li> OTA (Booking, Expedia vb.) yönlendirmeleriyle web sitesi dengesini teknik anlamda yönetir,</li><li> Turizm/tatil sezonuna göre performans ve kapasite planlaması yapar.</li></ul> Sonuç: Otel web siteniz, turizm sektörünün karmaşık yapısına rağmen, Google için <b>net ve güçlü bir teknik sinyal</b> üretir.",
       "header5":"Next.js, React ve Modern Framework’ler İçin Teknik SEO",
-    "text5":"Klasik HTML tabanlı sitelere göre, Next.js, React ve benzeri modern framework’lerde teknik SEO daha fazla dikkat ister. Yanlış yapılandırılmış SSR/CSR, hatalı yönlendirmeler, eksik  yönetimi gibi problemler, sitenizi “teknik olarak modern ama SEO olarak zayıf” hale getirebilir. DGTLFACE, /tr/yazilim/web-sitesi-gelistirme tarafındaki deneyimini teknik SEO ile birleştirerek: Next.js routing + SEO meta yapısını, Dinamik sayfalar ve parametreli URL’lerin yönetimini, Dil altyapısı ve hreflang etiketlerini, yönetimi, Open Graph ve structured data yapılarını, Görsel optimizasyonu (Next/Image vb.) SEO bakış açısıyla birlikte kurgular. Böylece siteniz hem modern ve hızlı, hem de Google için anlaşılır ve güçlü olur."
+    "text5":"Klasik HTML tabanlı sitelere göre, Next.js, React ve benzeri modern framework’lerde teknik SEO daha fazla dikkat ister. Yanlış yapılandırılmış SSR/CSR, hatalı yönlendirmeler, eksik  yönetimi gibi problemler, sitenizi “teknik olarak modern ama SEO olarak zayıf” hale getirebilir. DGTLFACE, /tr/yazilim/web-sitesi-gelistirme tarafındaki deneyimini teknik SEO ile birleştirerek: <ul><li>Next.js routing + SEO meta yapısını, </li><li> Dinamik sayfalar ve parametreli URL’lerin yönetimini,</li><li> Dil altyapısı ve hreflang etiketlerini,</li><li> &lt;head&gt; yönetimi, Open Graph ve structured data yapılarını,</li><li> Görsel optimizasyonu (Next/Image vb.)</li></ul> SEO bakış açısıyla birlikte kurgular. Böylece siteniz <b>hem modern ve hızlı, hem de Google için anlaşılır ve güçlü</b> olur."
     },
 
     "h3Section":{
      "header":"DGTLFACE Teknik SEO Hizmet Detayları",
      "header1":"Teknik SEO Analizi – Kapsamlı Sağlık Kontrolü",
-    "text1":"Teknik SEO analizi, siteniz için kapsamlı bir “check-up” gibidir. DGTLFACE: Site hızı ve Core Web Vitals taraması, Mobil uyumluluk testi, URL mimarisi ve tarama yapısı, Robots, sitemap, canonical, hreflang kontrolleri, 3xx/4xx/5xx hataları, yönlendirme zincirleri, “Kırık link temizleme yöntemleri” kapsamında bozuk bağlantılar, Tarama hataları ve indexleme problemleri için detaylı bir rapor çıkarır. Bu rapor sadece sorunları listelemez; her sorun için aksiyon maddesi + öncelik seviyesi içerir.",
+    "text1":"Teknik SEO analizi, siteniz için kapsamlı bir <b>“check-up”</b> gibidir. DGTLFACE: <ul><li> Site hızı ve Core Web Vitals taraması,</li><li> Mobil uyumluluk testi,</li><li> URL mimarisi ve tarama yapısı, </li><li>Robots, sitemap, canonical, hreflang kontrolleri,</li><li> 3xx/4xx/5xx hataları, yönlendirme zincirleri,</li><li> “Kırık link temizleme yöntemleri” kapsamında bozuk bağlantılar,</li><li> Tarama hataları ve indexleme problemleri </li></ul> için detaylı bir rapor çıkarır. Bu rapor sadece sorunları listelemez; <b>her sorun için aksiyon maddesi + öncelik seviyesi</b> içerir.",
      "header2":"Site Hızı Optimizasyonu – Kullanıcı ve Google İçin Hızlı Deneyim",
-    "text2":"Site hızı optimizasyonu, teknik SEO’nun en görünür etkisini veren alanıdır. DGTLFACE: CSS & JS dosyalarının küçültülmesi (minify) ve birleştirilmesi, Gereksiz script’lerin kaldırılması veya ertelenmesi, Görsel optimizasyonu (format, boyut, lazy load), Sunucu yanıt sürelerinin iyileştirilmesi (TTFB), Caching, CDN ve hosting optimizasyonu ile “teknik SEO hizmet Türkiye, Antalya site hızı optimizasyonu” gibi ihtiyaçları çözer. Hem Lighthouse hem gerçek kullanıcı verilerinde bariz hızlanma elde ederiz.",
+    "text2":"Site hızı optimizasyonu, teknik SEO’nun en görünür etkisini veren alanıdır. DGTLFACE:<ul><li> CSS & JS dosyalarının küçültülmesi (minify) ve birleştirilmesi, </li><li>Gereksiz script’lerin kaldırılması veya ertelenmesi, </li><li>Görsel optimizasyonu (format, boyut, lazy load),</li><li> Sunucu yanıt sürelerinin iyileştirilmesi (TTFB),</li><li> Caching, CDN ve hosting optimizasyonu </li></ul> ile <b>“teknik SEO hizmet Türkiye, Antalya site hızı optimizasyonu”</b> gibi ihtiyaçları çözer. Hem Lighthouse hem gerçek kullanıcı verilerinde bariz hızlanma elde ederiz.",
      "header3":"Mobil Uyumluluk Testi ve Responsive Yapının Güçlendirilmesi",
-    "text3":"Mobil kullanım çoğu sektörde %70+ seviyesinde. “Mobilde yanlayan, küçücük yazılı, dokunması zor” bir site, hem kullanıcıyı hem Google’ı kaybettirir. DGTLFACE, mobil uyumluluk testi kapsamında: Farklı ekran boyutlarında layout kırılmalarını, Dokunma alanları, menü kullanımı ve form alanlarını, Font boyutları ve okunabilirliği, Viewport ayarları ve responsive grid yapısını inceler. Gerekirse /tr/creative/ui-ux-tasarim ve /tr/yazilim/web-sitesi-gelistirme ile birlikte tasarım + teknik tarafta mobil deneyimi güçlendiririz."
+    "text3": "Mobil kullanım çoğu sektörde %70+ seviyesinde. “Mobilde yanlayan, küçücük yazılı, dokunması zor” bir site, hem kullanıcıyı hem Google’ı kaybettirir. DGTLFACE, mobil uyumluluk testi kapsamında: <ul><li> Farklı ekran boyutlarında layout kırılmalarını,</li><li> Dokunma alanları, menü kullanımı ve form alanlarını,</li><li> Font boyutları ve okunabilirliği,</li><li> Viewport ayarları ve responsive grid yapısını </li></ul> inceler. Gerekirse <a href=\"/tr/creative/uiUxDesign\">UI/UX tasarım</a> ve <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a> ekipleriyle birlikte tasarım + teknik tarafta mobil deneyimi güçlendiririz."
     },
 
     "h4Section":{
@@ -2644,9 +2703,9 @@
       "card2title":"SEO, Yazılım ve Sunucu Ekibini Aynı Masada Toplayan Yaklaşım",
       "card3title":"Antalya Merkezli, Turizm ve Next.js Odaklı Teknik SEO Uzmanlığı",
       
-      "card1description":"Birçok teknik SEO hizmeti, sadece araç çıktısını rapor olarak verir. DGTLFACE ise: Sorunu tespit eder, Nedenini açıklar, Çözüm önerisini teknik seviyede dokümante eder, İsterseniz /tr/yazilim ekibiyle birlikte uygulamaya da geçer. Yani teknik SEO tarafında sadece “ne kötü”yü değil, “nasıl düzelteceğiz ve neye dönüşecek” kısmını da yönetiyoruz.",
-      "card2description":"Teknik SEO çoğu zaman SEO ekibiyle geliştirici ekip arasında “paslaşma”da kaybolur. DGTLFACE, /tr/seo, /tr/yazilim/web-sitesi-gelistirme ve /tr/yazilim/sunucu-guvenlik ekiplerini aynı masaya oturtarak: SEO gereksinimlerini, Geliştirilebilir teknik çözümleri, Sunucu/hosting gerçeklerini ortak bir dille konuşturur. Böylece “SEO böyle diyor, yazılımcı şöyle diyor” kaosu azalır; proje tek bir teknik yol haritası üzerinden ilerler.",
-      "card3description":"“Teknik SEO Antalya, Antalya SEO geliştirme, otel teknik SEO” gibi başlıklarda; hem turizm hem modern web teknolojileri (Next.js, React) hem de SEO tarafını bilen bir ekip gerekir. DGTLFACE, Antalya merkezli bir ajans olarak özellikle otel & turizm projelerinde teknik SEO’yu: PMS–OTA entegrasyonları, Rezervasyon motorları, Çok dilli yapılar ile birlikte düşünerek kurgular. Böylece sadece “kurumsal site” değil, otomasyon ve entegrasyon içeren karmaşık yapılarda da teknik SEO standardını koruruz."
+      "card1description":"Birçok teknik SEO hizmeti, sadece araç çıktısını rapor olarak verir. DGTLFACE ise: <ul><li> Sorunu tespit eder,</li><li> Nedenini açıklar, </li><li> Çözüm önerisini teknik seviyede dokümante eder, </li><li> İsterseniz <a href=\"/tr/software\">yazılım</a> ekibiyle birlikte uygulamaya da geçer.</li></ul> Yani teknik SEO tarafında sadece “ne kötü”yü değil, <b>“nasıl düzelteceğiz ve neye dönüşecek”</b> kısmını da yönetiyoruz.",
+      "card2description":"Teknik SEO çoğu zaman SEO ekibiyle geliştirici ekip arasında “paslaşma”da kaybolur. DGTLFACE, /tr/seo,  <a href=\"/tr/software/websiteAndSoftware\">web sitesi geliştirme</a> ve <a href=\"/tr/software/serverManagementService\">sunucu güvenlik</a>  ekiplerini aynı masaya oturtarak: <ul><li> SEO gereksinimlerini, </li><li> Geliştirilebilir teknik çözümleri,</li><li> Sunucu/hosting gerçeklerini </li></ul> ortak bir dille konuşturur. Böylece “SEO böyle diyor, yazılımcı şöyle diyor” kaosu azalır; proje tek bir <b>teknik yol haritası</b> üzerinden ilerler.",
+      "card3description":"<b>“Teknik SEO Antalya, Antalya SEO geliştirme, otel teknik SEO”</b> gibi başlıklarda; hem turizm hem modern web teknolojileri (Next.js, React) hem de SEO tarafını bilen bir ekip gerekir. DGTLFACE, Antalya merkezli bir ajans olarak özellikle otel & turizm projelerinde teknik SEO’yu: <ul><li> PMS–OTA entegrasyonları, </li><li> Rezervasyon motorları, </li><li> Çok dilli yapılar </li></ul> ile birlikte düşünerek kurgular. Böylece sadece “kurumsal site” değil, otomasyon ve entegrasyon içeren karmaşık yapılarda da teknik SEO standardını koruruz."
     },
 
      "verticalSlider":{
@@ -2655,22 +2714,22 @@
 
       "title1":"Teknik SEO Checklist 2025’te ",
       "span1":"Neler Olmalı?",
-      "text1":"2025 için bir teknik SEO checklist: Core Web Vitals (LCP, CLS, INP/FID) Mobil uyumluluk ve responsive yapı Temiz URL ve site mimarisi Robots.txt & sitemap & canonical uyumu 3xx/4xx/5xx hata kontrolü Güvenli protokol (HTTPS) ve SSL Yapılandırılmış veri (schema) Gelişmiş log & tarama analizi DGTLFACE, her proje için bu checklist’i sitenize özel hale getirip dokümante eder.",
+      "text1":"2025 için bir teknik SEO checklist: <ul><li> Core Web Vitals (LCP, CLS, INP/FID) </li><li> Mobil uyumluluk ve responsive yapı </li><li> Temiz URL ve site mimarisi </li><li> Robots.txt & sitemap & canonical uyumu </li><li> 3xx/4xx/5xx hata kontrolü </li><li> Güvenli protokol (HTTPS) ve SSL </li><li> Yapılandırılmış veri (schema) </li><li> Gelişmiş log & tarama analizi</li></ul> DGTLFACE, her proje için bu checklist’i sitenize özel hale getirip dokümante eder.",
       "button1":"Detaylı Bilgi",
 
        "title2":"Kırık Link Temizleme ve  ",
       "span2":"Yönlendirme Stratejileri",
-      "text2":"Kırık linkler (404), hem kullanıcı deneyimini hem de tarama bütçesini bozar. DGTLFACE: Kırık linkleri tespit eder, Gereksiz/yanlış URL’leri kaldırır, Değerli sayfalar için doğru 301 yönlendirme haritalarını oluşturur, Yönlendirme zincirlerini (chain) ve loop’ları temizler. Bu sayede hem tarama hem kullanıcı flow’u çok daha sağlıklı hale gelir.",
+      "text2":"Kırık linkler (404), hem kullanıcı deneyimini hem de tarama bütçesini bozar. DGTLFACE: <ul><li> Kırık linkleri tespit eder, </li><li> Gereksiz/yanlış URL’leri kaldırır, </li><li> Değerli sayfalar için doğru 301 yönlendirme haritalarını oluşturur, </li><li> Yönlendirme zincirlerini (chain) ve loop’ları temizler. </li></ul> Bu sayede hem tarama hem kullanıcı flow’u çok daha sağlıklı hale gelir.",
       "button2":"Keşfet",
 
        "title3":"Teknik SEO ve  ",
       "span3":"Güvenlik İlişkisi",
-      "text3":"Sunucu ve güvenlik sorunları (yavaş yanıt, downtime, saldırılar) doğrudan SEO’yu etkiler. DGTLFACE, /tr/yazilim/sunucu-guvenlik ile birlikte: Uptime ve yanıt sürelerini, Güvenlik duvarı ve DDoS korumalarını, SSL sertifikası ve HSTS yapılandırmasını kontrol ederek, teknik SEO ile güvenlik katmanını aynı çatı altında değerlendirir.",
+      "text3":"Sunucu ve güvenlik sorunları (yavaş yanıt, downtime, saldırılar) doğrudan SEO’yu etkiler. DGTLFACE, <a href=\"/tr/software/serverManagementService\">sunucu güvenliği</a> ile birlikte: <ul><li> Uptime ve yanıt sürelerini, </li><li> Güvenlik duvarı ve DDoS korumalarını, </li><li> SSL sertifikası ve HSTS yapılandırmasını </li></ul> kontrol ederek, teknik SEO ile güvenlik katmanını aynı çatı altında değerlendirir.",
       "button3":"Detaylı Bilgi",
 
        "title4":"Oteller İçin OTA &  ",
       "span4":"Teknik SEO Dengesi ",
-      "text4":"Otel sitelerinde, yanlış teknik yönlendirmeler (noindex, yanlış canonical, yanlış hreflang) bazen tüm trafiği OTA’lara bırakabilir. DGTLFACE, OTA teknik SEO tarafında: OTA yönlendirmelerinin web sitesi otoritesini zedelememesini, Web sitesinin Google için birincil kaynak olarak kalmasını, Google Hotel / Travel sonuçlarında doğru URL’lerin görünmesini sağlayacak bir teknik çerçeve oluşturur.",
+      "text4":"Otel sitelerinde, yanlış teknik yönlendirmeler (noindex, yanlış canonical, yanlış hreflang) bazen tüm trafiği OTA’lara bırakabilir. DGTLFACE, OTA teknik SEO tarafında: <ul><li> OTA yönlendirmelerinin web sitesi otoritesini zedelememesini, </li><li> Web sitesinin Google için birincil kaynak olarak kalmasını, </li><li> Google Hotel / Travel sonuçlarında doğru URL’lerin görünmesini </li></ul> sağlayacak bir teknik çerçeve oluşturur.",
       "button4":"İncele"
     },
 
@@ -2694,39 +2753,39 @@
 
   "localseo_subbanner_header": "Yerel SEO Optimizasyonu – ",
   "localseo_subbanner_header2": "Google Haritalar’da Öne Çıkın",
-  "localseo_subbanner_text": "DGTLFACE, yerel SEO hizmetleriyle işletmenizin Google Haritalar ve lokal arama sonuçlarında (örneğin: “antalya otel”, “antalya sosyal medya ajansı”, “belek family hotel”) daha görünür olmasını sağlayan profesyonel bir lokal SEO partneridir. Google Business Profile (Google My Business) kaydınızdan konumlu organik sonuçlara, harita paketinden (local pack) yorum ve fotoğraf yönetimine kadar tüm yerel varlığınızı uçtan uca optimize ederiz. Amacımız, yalnızca “haritada görünmek” değil; sizi gerçekten arayan, yakındaki kullanıcıların gözünde ilk tercih edilen marka haline getirmektir. Böylece lokal aramalar, pasif bir trafik kaynağı olmaktan çıkıp, ölçülebilir “dükkan içi ziyaret” / “otel rezervasyon” / “telefon” dönüşümlerine dönüşür.",
+  "localseo_subbanner_text": "DGTLFACE, yerel SEO hizmetleriyle işletmenizin Google Haritalar ve lokal arama sonuçlarında (örneğin: “antalya otel”, “antalya sosyal medya ajansı”, “belek family hotel”) daha görünür olmasını sağlayan profesyonel bir lokal SEO partneridir. Google Business Profile (Google My Business) kaydınızdan konumlu organik sonuçlara, harita paketinden (local pack) yorum ve fotoğraf yönetimine kadar tüm yerel varlığınızı uçtan uca optimize ederiz. Amacımız, yalnızca “haritada görünmek” değil; sizi gerçekten arayan, yakındaki kullanıcıların gözünde <b>ilk tercih edilen marka</b> haline getirmektir. Böylece lokal aramalar, pasif bir trafik kaynağı olmaktan çıkıp, ölçülebilir “dükkan içi ziyaret” / “otel rezervasyon” / “telefon” dönüşümlerine dönüşür.",
 
   "localseo_ai_answer_title": "AI Answer Block – Yerel SEO",
   "localseo_ai_answer_text": "DGTLFACE, yerel SEO çalışmalarıyla işletmenizin Google Haritalar ve lokal aramalarda görünürlüğünü artırır. Google Business Profile optimizasyonu, kategori seçimi, fotoğraf ve yorum yönetimi, lokal anahtar kelime stratejisi ve lokal landing sayfalarla hem harita hem organik sonuçlarda öne çıkmanızı sağlar. Özellikle oteller ve turizm işletmeleri için lokal aramalardan gelen telefon, rota ve rezervasyon dönüşümlerini yükseltmeyi hedefler.",
 
   "localseo_subbanner_header3": "Yerel SEO Nedir? Lokal Aramalarda Nasıl Çalışır?",
-  "localseo_subbanner_text2": "Yerel SEO (Local SEO); belirli bir bölgedeki kullanıcıların yaptığı aramalarda (şehir, semt, bölge bazlı) işletmenizin öne çıkmasını sağlayan SEO çalışmalarının tümüdür. Bu, özellikle: Oteller, restoranlar, kafeler, Klinikler, ofisler, hizmet işletmeleri, Lokal ajanslar ve B2B markalar için hayati önem taşır. DGTLFACE, “lokal SEO hizmeti, Google Haritalar optimizasyonu, yerel işletme SEO, Google My Business yönetimi, lokal sıralama artırma” gibi başlıklarda: Google Haritalar (Maps) görünürlüğü, “Yakınımdaki” aramalar (near me / yakınındaki / bölgede), Lokal organik sonuçlar (şehir + hizmet), Yorum, fotoğraf ve Q&A yönetimi alanlarını tek bir yerel SEO stratejisi altında toplar. Sonuç: “Buralarda kimi tercih etmeliyim?” diye bakan kullanıcıya hem haritada hem organik sonuçta siz görünürsünüz.",
+  "localseo_subbanner_text2": "Yerel SEO (Local SEO); belirli bir bölgedeki kullanıcıların yaptığı aramalarda (şehir, semt, bölge bazlı) işletmenizin öne çıkmasını sağlayan SEO çalışmalarının tümüdür. Bu, özellikle: <ul><li> Oteller, restoranlar, kafeler, </li><li>Klinikler, ofisler, hizmet işletmeleri, </li><li>Lokal ajanslar ve B2B markalar </li></ul>için hayati önem taşır. DGTLFACE, <b>“lokal SEO hizmeti, Google Haritalar optimizasyonu, yerel işletme SEO, Google My Business yönetimi, lokal sıralama artırma”</b> gibi başlıklarda:<ul><li> Google Haritalar (Maps) görünürlüğü, </li><li>“Yakınımdaki” aramalar (near me / yakınındaki / bölgede),</li><li> Lokal organik sonuçlar (şehir + hizmet), </li><li> Yorum, fotoğraf ve Q&A yönetimi </li></ul>alanlarını tek bir yerel SEO stratejisi altında toplar. Sonuç: “Buralarda kimi tercih etmeliyim?” diye bakan kullanıcıya hem haritada hem organik sonuçta siz görünürsünüz.",
 
   "h2Section": {
     "header1": "Google Maps ve Google Business Profile Optimizasyonu",
-    "text1": "Yerel SEO’nun kalbi, Google Business Profile (eski adıyla Google My Business) kaydını doğru ve zengin kullanmaktan geçer. DGTLFACE: İşletme kategori ve alt kategorilerinizi doğru seçer, Adres, telefon, web sitesi, çalışma saatleri, hizmet alanı gibi temel alanları eksiksiz doldurur, Açıklama (description) alanına yerel anahtar kelime stratejisine uygun metin yazar, Fotoğraf, video, logo ve kapak görsellerini marka algınıza göre seçer, “Ürünler”, “Hizmetler”, “Öne çıkanlar”, “Post” ve “Etkinlik” alanlarını aktif kullanır. “Google Maps sıralama yükseltme, Google My Business nasıl optimize edilir, yerel aramalarda nasıl üst sıralara çıkılır” gibi soruları, pratikte uygulanan bir checklist ve sürekli güncellenen bir profil yönetimi ile cevaplarız.",
+    "text1": "Yerel SEO’nun kalbi, Google Business Profile (eski adıyla Google My Business) kaydını doğru ve zengin kullanmaktan geçer. DGTLFACE: <ul><li> İşletme kategori ve alt kategorilerinizi doğru seçer,</li><li> Adres, telefon, web sitesi, çalışma saatleri, hizmet alanı gibi temel alanları eksiksiz doldurur,</li><li> Açıklama (description) alanına yerel anahtar kelime stratejisine uygun metin yazar, </li><li>Fotoğraf, video, logo ve kapak görsellerini marka algınıza göre seçer,</li><li> “Ürünler”, “Hizmetler”, “Öne çıkanlar”, “Post” ve “Etkinlik” alanlarını aktif kullanır.</li></ul> <b>“Google Maps sıralama yükseltme, Google My Business nasıl optimize edilir, yerel aramalarda nasıl üst sıralara çıkılır”</b> gibi soruları, pratikte uygulanan bir checklist ve sürekli güncellenen bir profil yönetimi ile cevaplarız.",
 
     "header2": "Yerel Aramalarda Üst Sıralar İçin Teknik ve İçerik Yapısı",
-    "text2": "Harita tarafı kadar, web sitenizin de lokal sinyaller vermesi gerekir. DGTLFACE, yerel SEO odaklı: Şehir/ilçe/bölge bazlı landing sayfaları, “Şehir + hizmet” kombinasyonlu H1/H2 başlık yapıları, Sayfa içeriklerinde lokal referanslar (bölge isimleri, mahalleler, landmark’lar), Yerel schema işaretlemeleri (LocalBusiness, Hotel, Organization vb.), İç linkleme ile lokal sayfalar arasında otorite dağılımı kurgular. “Yerel aramalarda nasıl üst sıralara çıkılır, yerel anahtar kelime araştırması, local pack nedir” gibi konular, sadece harita değil; site içi mimari ve içerik stratejisiyle de desteklenir.",
+    "text2": "Harita tarafı kadar, web sitenizin de <b>lokal sinyaller</b> vermesi gerekir. DGTLFACE, yerel SEO odaklı:<ul><li> Şehir/ilçe/bölge bazlı landing sayfaları,</li><li> “Şehir + hizmet” kombinasyonlu H1/H2 başlık yapıları,</li><li> Sayfa içeriklerinde lokal referanslar (bölge isimleri, mahalleler, landmark’lar),</li><li> Yerel schema işaretlemeleri (LocalBusiness, Hotel, Organization vb.), </li><li>İç linkleme ile lokal sayfalar arasında otorite dağılımı</li></ul> kurgular. <b>“Yerel aramalarda nasıl üst sıralara çıkılır, yerel anahtar kelime araştırması, local pack nedir”</b> gibi konular, sadece harita değil; <b>site içi mimari ve içerik stratejisiyle</b> de desteklenir.",
 
     "header3": "Oteller ve Turizm Markaları İçin Yerel SEO",
-    "text3": "Turizm ve otelcilikte yerel SEO, hem destinasyon hedefli turist hem de bölge içinden gelen kullanıcılar için kritik bir alan. DGTLFACE, “otel yerel SEO, turizm yerel SEO, resort Google Maps optimizasyonu, OTA lokal SEO” tarafında: Otelinizin bulunduğu destinasyon için (“antalya family hotel”, “belek all inclusive”, “kemer adults only hotel” vb.) lokal anahtar kelime haritaları çıkarır, Google Maps’te rakip otellerin pozisyonunu, yorum sayısını ve kategori yapılarını analiz eder, Bölge bazlı blog ve rehber içerikleriyle (“X bölgede yapılacaklar, gezilecek yerler, plaj rehberleri” vb.) otelinizi destinasyonun doğal parçası haline getirir, OTA sayfalarınızdaki bilgi ve görsellerle web sitenizi teknik ve içerik anlamında uyumlu hale getirir. Amaç: Sadece OTA tarafında görünür olmak değil; kendi web siteniz ve kendi Google Maps profilinizle de güçlü bir lokal varlık kurmaktır.",
+    "text3": "Turizm ve otelcilikte yerel SEO, hem destinasyon hedefli turist hem de bölge içinden gelen kullanıcılar için kritik bir alan. DGTLFACE, <b>“otel yerel SEO, turizm yerel SEO, resort Google Maps optimizasyonu, OTA lokal SEO”</b> tarafında: <ul><li>Otelinizin bulunduğu destinasyon için (“antalya family hotel”, “belek all inclusive”, “kemer adults only hotel” vb.) lokal anahtar kelime haritaları çıkarır,</li><li> Google Maps’te rakip otellerin pozisyonunu, yorum sayısını ve kategori yapılarını analiz eder, </li><li>Bölge bazlı blog ve rehber içerikleriyle (“X bölgede yapılacaklar, gezilecek yerler, plaj rehberleri” vb.) otelinizi destinasyonun doğal parçası haline getirir, </li><li>OTA sayfalarınızdaki bilgi ve görsellerle web sitenizi teknik ve içerik anlamında uyumlu hale getirir.</li></ul> Amaç: Sadece OTA tarafında görünür olmak değil; <b>kendi web siteniz ve kendi Google Maps</b> profilinizle de güçlü bir lokal varlık kurmaktır.",
 
     "header4": "Yorum, Puan ve İtibar Yönetimi",
-    "text4": "Yerel aramalarda sadece konum değil, puan ve yorumlar da kullanıcı kararında belirleyici. DGTLFACE, “lokal SEO için yorum yönetimi, Google harita kaydı oluşturma, oteller için yerel SEO, restoran yerel SEO örnekleri” gibi süreçlerde: Google yorumlarınızı düzenli takip eder, Olumlu yorumları teşvik edecek stratejiler geliştirir (konaklama sonrası e-mail, QR kod vb.), Olumsuz yorumlara profesyonel ve çözüm odaklı cevaplar yazılmasını sağlar, Dönemsel olarak yorum sayısı & ortalama puan raporları çıkarır. İtibar yönetimi, yerel SEO’nun en güçlü sosyal kanıt katmanıdır. Haritada 4.8 puanlı, bol fotoğraflı ve güncel yorumlu bir işletme, her zaman daha çok tıklanır ve aranır."
+    "text4": "Yerel aramalarda sadece konum değil, <b>puan ve yorumlar</b> da kullanıcı kararında belirleyici. DGTLFACE, “lokal SEO için yorum yönetimi, <b>Google harita kaydı oluşturma, oteller için yerel SEO, restoran yerel SEO örnekleri”</b> gibi süreçlerde: <ul><li> Google yorumlarınızı düzenli takip eder, </li><li>Olumlu yorumları teşvik edecek stratejiler geliştirir (konaklama sonrası e-mail, QR kod vb.),</li><li> Olumsuz yorumlara profesyonel ve çözüm odaklı cevaplar yazılmasını sağlar,</li><li> Dönemsel olarak yorum sayısı & ortalama puan raporları çıkarır.</li></ul> İtibar yönetimi, yerel SEO’nun en güçlü sosyal kanıt katmanıdır. Haritada 4.8 puanlı, bol fotoğraflı ve güncel yorumlu bir işletme, her zaman daha çok tıklanır ve aranır."
   },
 
   "h3Section": {
     "header": "DGTLFACE Yerel SEO Hizmet Detayları",
 
     "header1": "Lokal SEO Analizi – Mevcut Durum ve Rakip Haritası",
-    "text1": "Lokal SEO analizi, sadece kendi profilinize bakmak değil, bölgedeki rekabete de bakmaktır. DGTLFACE: Google Haritalar’da ilgili anahtar kelimelerde (şehir + hizmet) çıkan rakipleri tarar, Rakiplerin kategori, yorum, puan, fotoğraf, açıklama ve içerik yapılarını inceler, Sizin profilinizle kıyaslayarak eksikleri listeler, “Antalya local pack analizi, oteller için lokal rekabet haritası” gibi çıktıların yer aldığı bir rapor hazırlayıp, yerel SEO yol haritası çıkarır.",
+    "text1": "Lokal SEO analizi, sadece kendi profilinize bakmak değil, bölgedeki rekabete de bakmaktır. DGTLFACE:<ul><li> Google Haritalar’da ilgili anahtar kelimelerde (şehir + hizmet) çıkan rakipleri tarar, </li><li> Rakiplerin kategori, yorum, puan, fotoğraf, açıklama ve içerik yapılarını inceler,</li><li> Sizin profilinizle kıyaslayarak eksikleri listeler,</li><li> <b>“Antalya local pack analizi, oteller için lokal rekabet haritası” </b>gibi çıktıların yer aldığı bir rapor hazırlayıp, yerel SEO yol haritası çıkarır.</li></ul>",
 
     "header2": "Google Haritalar Optimizasyonu – Teknik ve Görsel Düzenlemeler",
-    "text2": "Google Haritalar optimizasyonu, sadece adres ve telefon eklemekten ibaret değildir. DGTLFACE: Kategori seçimini hassas yapar (ör: “Otel” + “Spa Hotel” + “Resort Hotel” gibi ikincil kategoriler), Hizmet alanı (service area) ve lokasyon pin’ini doğru konumlandırır, Yüksek kaliteli fotoğraf ve video setleri hazırlar (oda, lobby, dış cephe, çevre), “Öne çıkanlar” ve “Hizmetler” alanlarını yerel anahtar kelimelerle uyumlu doldurur, Google Post’ları ile kampanya ve duyurularınızı harita profiline taşır. Böylece profiliniz hem Google gözünde hem de kullanıcı gözünde dolu ve profesyonel görünür.",
+    "text2": "Google Haritalar optimizasyonu, sadece adres ve telefon eklemekten ibaret değildir. DGTLFACE:<ul><li> Kategori seçimini hassas yapar (ör: “Otel” + “Spa Hotel” + “Resort Hotel” gibi ikincil kategoriler),</li><li> Hizmet alanı (service area) ve lokasyon pin’ini doğru konumlandırır,</li><li> Yüksek kaliteli fotoğraf ve video setleri hazırlar (oda, lobby, dış cephe, çevre), </li><li>“Öne çıkanlar” ve “Hizmetler” alanlarını yerel anahtar kelimelerle uyumlu doldurur,</li><li> Google Post’ları ile kampanya ve duyurularınızı harita profiline taşır.</li></ul> Böylece profiliniz hem Google gözünde hem de kullanıcı gözünde <b>dolu ve profesyonel</b> görünür.",
 
     "header3": "Yerel Anahtar Kelime Araştırması ve İçerik Planlama",
-    "text3": "Yerel SEO’da “X hizmeti” demek yetmez; “şehir + hizmet” kombinasyonlarını doğru yakalamak gerekir. DGTLFACE, yerel anahtar kelime araştırması sürecinde: Bölge bazlı arama hacimlerini analiz eder, “Hizmet + şehir”, “hizmet + semt/mahalle”, “yakınımdaki + hizmet” pattern’lerini çıkarır, Bu kelimeleri hem web site içeriklerinize, hem Google Business açıklamalarına, hem de FAQ/Schema katmanına işler. Örneğin: “yerel seo antalya, antalya Google Maps optimizasyonu, yerel seo türkiye, antalya işletme seo” gibi kombinasyonlar, hem title/meta tarafında hem içerik bloklarında kullanılacak şekilde planlanır."
+    "text3": "Yerel SEO’da “X hizmeti” demek yetmez; <b>“şehir + hizmet”</b> kombinasyonlarını doğru yakalamak gerekir. DGTLFACE, yerel anahtar kelime araştırması sürecinde: <ul><li>Bölge bazlı arama hacimlerini analiz eder,</li><li> “Hizmet + şehir”, “hizmet + semt/mahalle”, “yakınımdaki + hizmet” pattern’lerini çıkarır,</li><li> Bu kelimeleri hem web site içeriklerinize, hem Google Business açıklamalarına, hem de FAQ/Schema katmanına işler.</li></ul> Örneğin: <b>“yerel seo antalya, antalya Google Maps optimizasyonu, yerel seo türkiye, antalya işletme seo”</b> gibi kombinasyonlar, hem title/meta tarafında hem içerik bloklarında kullanılacak şekilde planlanır."
   },
 
   "h4Section": {
@@ -2736,9 +2795,9 @@
     "card2title": "SEO, SMM, Çağrı Merkezi ve Raporlama ile Entegre Lokal Yapı",
     "card3title": "Antalya Merkezli, Turizm ve Lokal Hizmet Odaklı Yerel SEO Uzmanlığı",
 
-    "card1description": "Birçok işletme için yerel SEO, “Google haritalara kayıt açtık, bitti” seviyesinde kalıyor. DGTLFACE ise: Profilinizi bir kez doldurup bırakmaz, Düzenli güncellemeler, yeni fotoğraflar ve post’larla profili canlı tutar, Yorumları, soruları ve mesajları takip eder, Web sitenizle harita profiliniz arasındaki tutarlılığı sürekli kontrol eder. Yani yerel SEO’yu tek seferlik bir iş değil, yaşayan bir kanal olarak ele alırız.",
-    "card2description": "Yerel SEO’nun gücü, diğer kanallarla birleştiğinde katlanır. DGTLFACE, yerel SEO’yu: SEO genel stratejisi → /tr/seo-hizmetleri, İçerik SEO & blog → /tr/seo/icerik-seo, SMM & lokal içerikler → /tr/sosyal-medya-yonetimi, Çağrı merkezi & mesaj yönetimi → /tr/cagri-merkezi/mesaj-yonetimi, Benchmark & raporlama → /tr/raporlama/benchmark-analizi ile entegre düşünür. Sonuç: Kullanıcı sizi haritada görür, web sitenizi ziyaret eder, sosyal medyada takip eder, DM veya telefonla ulaşır; tüm bu temasların verisini de raporlarda görürsünüz.",
-    "card3description": "“Yerel SEO Antalya, Antalya Google Maps optimizasyonu, Antalya işletme SEO, Antalya otel yerel SEO” gibi aramaların arkasında; hem turizmi hem lokal hizmet pazarını sahadan tanıyan bir ekip gerekir. DGTLFACE, Antalya merkezli yapısıyla: Oteller, restoranlar, ajanslar, lokal işletmeler, Antalya + Belek + Side + Kemer + Lara + Alanya gibi destinasyonlar için yerel SEO’da gerçek saha deneyimine sahiptir. Bu da çözümlerimizin sadece teorik değil, “orada yaşayan” bir gözle üretilmesini sağlar."
+    "card1description": "Birçok işletme için yerel SEO, “Google haritalara kayıt açtık, bitti” seviyesinde kalıyor. DGTLFACE ise: <ul><li> Profilinizi bir kez doldurup bırakmaz,</li><li> Düzenli güncellemeler, yeni fotoğraflar ve post’larla profili canlı tutar,</li><li> Yorumları, soruları ve mesajları takip eder,</li><li> Web sitenizle harita profiliniz arasındaki tutarlılığı sürekli kontrol eder.</li></ul> Yani yerel SEO’yu <b>tek seferlik bir iş değil, yaşayan bir kanal</b> olarak ele alırız.",
+"card2description": "Yerel SEO’nun gücü, diğer kanallarla birleştiğinde katlanır. DGTLFACE, yerel SEO’yu:<ul> <li><a href=\"/seo\">SEO genel stratejisi</a>,</li> <li><a href=\"/seo/icerik-seo\">İçerik SEO &amp; blog</a>,</li> <li><a href=\"/smm\">SMM &amp; lokal içerikler</a>,</li> <li><a href=\"/cagri-merkezi/mesaj-yonetimi\">Çağrı merkezi &amp; mesaj yönetimi</a>,</li> <li><a href=\"/raporlama/benchmark-analizi\">Benchmark &amp; raporlama</a></li> </ul>ile entegre düşünür. Sonuç: Kullanıcı sizi haritada görür, web sitenizi ziyaret eder, sosyal medyada takip eder, DM veya telefonla ulaşır; tüm bu temasların verisini de raporlarda görürsünüz.",
+    "card3description": "<b>“Yerel SEO Antalya, Antalya Google Maps optimizasyonu, Antalya işletme SEO, Antalya otel yerel SEO”</b> gibi aramaların arkasında; hem turizmi hem lokal hizmet pazarını sahadan tanıyan bir ekip gerekir. DGTLFACE, Antalya merkezli yapısıyla: <ul><li>Oteller, restoranlar, ajanslar, lokal işletmeler,</li><li> Antalya + Belek + Side + Kemer + Lara + Alanya gibi destinasyonlar</li></ul>  için yerel SEO’da gerçek saha deneyimine sahiptir. Bu da çözümlerimizin sadece teorik değil, <b>“orada yaşayan”</b> bir gözle üretilmesini sağlar."
   },
 
   "verticalSlider": {
@@ -2747,22 +2806,22 @@
 
     "title1": "Local Pack Nedir ve ",
     "span1": "Nasıl Girilir?",
-    "text1": "Local pack, Google arama sonuçlarında üstte çıkan 3’lü harita kutusudur. Bu alanda görünmek için: Google Business profilinizin tam ve doğru doldurulması, Yorum sayısı ve puanınızın rakiplere göre iyi olması, Lokal anahtar kelimelere göre optimize edilmiş açıklama ve kategori seçimi, Bölgeden alınan lokal backlink’ler ve sitenizin lokal sinyalleri kritiktir. DGTLFACE, bu sütunları planlayarak local pack’te kalıcı yer edinmeniz için çalışır.",
+    "text1": "Local pack, Google arama sonuçlarında üstte çıkan 3’lü harita kutusudur. Bu alanda görünmek için: <ul><li> Google Business profilinizin tam ve doğru doldurulması,</li><li> Yorum sayısı ve puanınızın rakiplere göre iyi olması,</li><li> Lokal anahtar kelimelere göre optimize edilmiş açıklama ve kategori seçimi,</li><li> Bölgeden alınan lokal backlink’ler ve sitenizin lokal sinyalleri </li></ul> kritiktir. DGTLFACE, bu sütunları planlayarak local pack’te kalıcı yer edinmeniz için çalışır.",
     "button1": "Detaylı Bilgi",
 
     "title2": "Yerel SEO ve Yorum ",
     "span2": "Yönetimi İlişkisi",
-    "text2": "Yorumlar hem kullanıcı için güven unsuru hem de Google için önemli bir sinyaldir. DGTLFACE: Yıldız ortalamasını yükseltmek için yorum teşvik modelleri geliştirir, Olumsuz yorumlara krizi büyütmeden, profesyonel tonla yanıt verir, Yorumlardaki anahtar kelimeleri (ör: “antalya otel”, “belek resort”) dolaylı sinyal olarak değerlendirmeyi hedefler. Bu sayede hem puan hem algı tarafında yerel itibarınızı güçlendirirsiniz.",
+    "text2": "Yorumlar hem kullanıcı için güven unsuru hem de Google için önemli bir sinyaldir. DGTLFACE: <ul><li> Yıldız ortalamasını yükseltmek için yorum teşvik modelleri geliştirir,</li><li> Olumsuz yorumlara krizi büyütmeden, profesyonel tonla yanıt verir,</li><li> Yorumlardaki anahtar kelimeleri (ör: “antalya otel”, “belek resort”) dolaylı sinyal olarak değerlendirmeyi hedefler.</li></ul> Bu sayede hem puan hem algı tarafında yerel itibarınızı güçlendirirsiniz.",
     "button2": "Keşfet",
 
     "title3": "Yerel Backlink ve ",
     "span3": "Sektörel Kaynaklardan Destek",
-    "text3": "Yerel SEO’da lokal ve sektörel backlink büyük fark yaratır. DGTLFACE, “sektörel kaynaklardan backlink, turizm sitelerine backlink, oteller için backlink stratejisi” başlıklarında: Bölgesel rehber siteleri, Yerel haber kaynakları, Turizm blogları, İşletme/oda/dernek siteleri gibi kaynaklardan alınabilecek doğal ve anlamlı bağlantıları planlar. Bu bağlantılar, hem yerel görünürlüğünüzü hem de genel dijital otoritenizi destekler.",
+    "text3": "Yerel SEO’da lokal ve sektörel backlink büyük fark yaratır. DGTLFACE, <b>“sektörel kaynaklardan backlink, turizm sitelerine backlink, oteller için backlink stratejisi”</b> başlıklarında: <ul><li> Bölgesel rehber siteleri, Yerel haber kaynakları,</li><li> Turizm blogları,</li><li> İşletme/oda/dernek siteleri </li></ul> gibi kaynaklardan alınabilecek doğal ve anlamlı bağlantıları planlar. Bu bağlantılar, hem yerel görünürlüğünüzü hem de genel dijital otoritenizi destekler.",
     "button3": "Detaylı Bilgi",
 
     "title4": "Yerel SEO ve Çağrı/ ",
     "span4": "Mesaj Dönüşümleri",
-    "text4": "Yerel aramalarda kullanıcı çoğu zaman siteye bile girmeden: “Ara” butonuna tıklar, Yol tarifi ister, WhatsApp/Web Chat ile yazışma başlatır. DGTLFACE, /tr/sem/donusum-takibi-tag-manager ve /tr/cagri-merkezi/mesaj-yonetimi ile birlikte: Harita üzerinden gelen aramaları (click-to-call), Directions tıklamalarını, Mesaj/DM başlatma aksiyonlarını ölçümler. Böylece yerel SEO’nun sadece “görünürlük” değil, gerçek telefon ve ziyaret trafiği üretip üretmediğini de görürsünüz.",
+    "text4": "Yerel aramalarda kullanıcı çoğu zaman siteye bile girmeden:<ul><li> “Ara” butonuna tıklar, </li><li>Yol tarifi ister, </li><li>WhatsApp/Web Chat ile yazışma başlatır. </li></ul> DGTLFACE, <a href=\"/sem/tagManager\">dönüşüm takibi tag manager</a> ve <a href=\"/callcenter/messageManagement\">mesaj yönetimi</a> ile birlikte: <ul><li> Harita üzerinden gelen aramaları (click-to-call), </li><li>Directions tıklamalarını, </li><li>Mesaj/DM başlatma aksiyonlarını </li></ul> ölçümler. Böylece yerel SEO’nun sadece “görünürlük” değil, <b>gerçek telefon ve ziyaret trafiği</b> üretip üretmediğini de görürsünüz.",
     "button4": "İncele"
   },
 
@@ -2793,49 +2852,49 @@
   "contentsub_header2": "Arama Niyetine Uygun İçerikler",
   "contentsub_text": "DGTLFACE, içerik SEO hizmetleriyle web sitenizdeki içerikleri arama niyetine göre kurgulayan, blog yapınızı stratejik bir trafik ve dönüşüm motoruna dönüştüren profesyonel bir SEO içerik partneridir. “Kelimeleri yan yana dizmek” yerine; arama niyeti (search intent), anahtar kelime haritalandırma, içerik kümeleri (topic clusters), iç linkleme ve güncelleme döngüsüyle çalışan bir içerik mimarisi kurarız. Amacımız sadece “SEO uyumlu makale” yazmak değil; doğru kullanıcıyı, doğru içerikle çekip, onu blog’dan hizmet sayfalarınıza, oradan da satış/rezervasyon formuna kadar taşıyan eksiksiz bir içerik funnel’ı oluşturmaktır.",
 "contentsub_header3": "İçerik SEO Nedir? Klasik İçerikten Farkı Ne?",
-  "contentsub_text2":"İçerik SEO, bir sayfanın veya blog yazısının sadece anahtar kelime barındırmasından ibaret değildir. DGTLFACE için İçerik SEO: Anahtar kelimeleri arama niyetine göre gruplayan, Kullanıcının sorusunu gerçekten cevaplayan, Teknik SEO ile uyumlu başlık (H1–H2–H3) ve URL yapısı kullanan, İç linklerle site içinde otoriteyi doğru dağıtan, Zaman içinde performansa göre güncellenen bir içerik yaşam döngüsüdür. “SEO içerik yazarlığı, blog optimizasyonu, SEO uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma” gibi başlıkların her biri bu döngünün bir parçası. Kısaca: İçerik sadece okunmak için değil, bulunmak ve dönüştürmek için üretilir.",
+  "contentsub_text2":"İçerik SEO, bir sayfanın veya blog yazısının sadece anahtar kelime barındırmasından ibaret değildir. DGTLFACE için İçerik SEO: <ul><li> Anahtar kelimeleri arama niyetine göre gruplayan, </li><li> Kullanıcının sorusunu gerçekten cevaplayan, </li><li> Teknik SEO ile uyumlu başlık (H1–H2–H3) ve URL yapısı kullanan, </li><li> İç linklerle site içinde otoriteyi doğru dağıtan, </li><li> Zaman içinde performansa göre güncellenen </li></ul> bir <b>içerik yaşam döngüsüdür</b>. <b>“SEO içerik yazarlığı, blog optimizasyonu, SEO uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma”</b> gibi başlıkların her biri bu döngünün bir parçası. Kısaca: İçerik sadece okunmak için değil, <b>bulunmak ve dönüştürmek</b> için üretilir.",
 
   "content_ai_answer_title": "AI Answer Block – İçerik SEO",
   "content_ai_answer_text": "DGTLFACE, içerik SEO ve blog optimizasyonu ile arama niyetine uygun, anahtar kelime haritalandırılmış, topic cluster mantığıyla kurgulanmış içerik stratejileri sunar. Her içerik için doğru search intent, başlık yapısı, iç linkleme ve güncelleme döngüsü tanımlanır. Özellikle otel ve turizm markaları için destinasyon, deneyim ve SSS odaklı blog yapılarıyla hem organik trafiği hem rezervasyona giden yolu güçlendirir.",
 
   "h2Section": {
     "header1": "Arama Niyeti ve İçerik Stratejisinin Temeli",
-    "text1": "Google artık sadece kelimelere değil, niyete bakıyor. Kullanıcı: Bilgi mi arıyor? (informational) Karşılaştırma mı yapıyor? (commercial) Satın almaya mı hazır? (transactional) Sadece navigasyon mu yapmak istiyor? (navigational) DGTLFACE, Google search intent analizi ile; “SEO uyumlu içerik nasıl yazılır, içerik pazarlama stratejileri, blog trafik artırma yöntemleri, içerik kümeleri nasıl oluşturulur” gibi soruları şu mantıkla cevaplar: Bilgi içerikleriyle üst hunide görünürlük sağlarız, Karşılaştırma içerikleriyle “seçim aşamasındaki” kullanıcıyı yakalarız, Transactional içeriklerle (hizmet sayfaları) dönüşümü kurgularız. İçerik planınızda her niyet tipi için doğru başlık ve sayfa tipine yer vermezsek, trafik gelir ama yanlış kullanıcı yüzünden dönüşüm alamazsınız.",
+    "text1": "Google artık sadece kelimelere değil, niyete bakıyor. Kullanıcı: <ul><li> Bilgi mi arıyor? (informational) </li><li> Karşılaştırma mı yapıyor? (commercial) </li><li> Satın almaya mı hazır? (transactional) </li><li> Sadece navigasyon mu yapmak istiyor? (navigational) </li></ul> DGTLFACE, <b>Google search intent analizi</b> ile; <b>“SEO uyumlu içerik nasıl yazılır, içerik pazarlama stratejileri, blog trafik artırma yöntemleri, içerik kümeleri nasıl oluşturulur”</b> gibi soruları şu mantıkla cevaplar: <ul><li> Bilgi içerikleriyle üst hunide görünürlük sağlarız, </li><li> Karşılaştırma içerikleriyle “seçim aşamasındaki” kullanıcıyı yakalarız,</li><li> Transactional içeriklerle (hizmet sayfaları) dönüşümü kurgularız.</li></ul> İçerik planınızda her niyet tipi için doğru başlık ve sayfa tipine yer vermezsek, trafik gelir ama <b>yanlış kullanıcı</b> yüzünden dönüşüm alamazsınız.",
 
     "header2": "İçerik Kümeleri (Topic Clusters) ve İç Linkleme",
-    "text2": "“Her konuya bir yazı yazalım, bitsin” devri bitti; Google, konularda derinleşen siteleri seviyor. DGTLFACE, içerik SEO stratejisinde: Ana konular (pillar pages) belirler, Her ana konu altında long-tail ve niş aramalara hitap eden alt içerikler üretir, Bu içerikleri iç linklerle birbirine bağlar, “İçerik kümeleri nasıl oluşturulur, blog kategorileri nasıl planlanır” sorusunu site mimarinizle birlikte çözer. Sonuç: Hem kullanıcı hem Google, sitenizi “bu konuda otorite” olarak algılar.",
+    "text2": "“Her konuya bir yazı yazalım, bitsin” devri bitti; Google, konularda derinleşen siteleri seviyor. DGTLFACE, içerik SEO stratejisinde: <ul><li> Ana konular (pillar pages) belirler, </li><li> Her ana konu altında long-tail ve niş aramalara hitap eden alt içerikler üretir, </li><li> Bu içerikleri iç linklerle birbirine bağlar,  </li><li><b>“İçerik kümeleri nasıl oluşturulur, blog kategorileri nasıl planlanır”</b> sorusunu site mimarinizle birlikte çözer. </li></ul> Sonuç: Hem kullanıcı hem Google, sitenizi <b>“bu konuda otorite”</b> olarak algılar. Bu da sadece tek bir yazıda değil, tüm kümelerde daha iyi sıralamalar getirir.",
 
     "header3": "İçerik Güncelleme ve Sürekli Optimizasyon",
-    "text3": "SEO içeriği bir kere yazıp bırakmak, onu yavaş yavaş öldürmek demek. DGTLFACE, SEO içerik güncelleme teknikleri ile: Eski yazıları yeni verilerle günceller, Değişen arama niyeti ve anahtar kelime hacimlerine göre optimize eder, İçerik yoğunluğunu (keyword density & semantik yoğunluk) dengeler, Eskimiş, alakasız kısımları temizler, yeni alt başlıklarla derinlik katar. “Blog trafik artırma yöntemleri”nin büyük bir kısmı, sıfırdan yeni yazı yazmak yerine, performansı olan içerikleri akıllıca güncellemekten geçer.",
+    "text3": "SEO içeriği bir kere yazıp bırakmak, onu yavaş yavaş öldürmek demek. DGTLFACE, <b>SEO içerik güncelleme teknikleri</b> ile: <ul><li>Eski yazıları yeni verilerle günceller, </li><li> Değişen arama niyeti ve anahtar kelime hacimlerine göre optimize eder, </li><li> İçerik yoğunluğunu (keyword density & semantik yoğunluk) dengeler, </li><li> Eskimiş, alakasız kısımları temizler, yeni alt başlıklarla derinlik katar. </li></ul> <b>“Blog trafik artırma yöntemleri”</b>nin büyük bir kısmı, sıfırdan yeni yazı yazmak yerine, performansı olan içerikleri akıllıca güncellemekten geçer.",
 
     "header4": "Oteller ve Turizm Markaları İçin İçerik SEO",
-    "text4": "Turizm ve otelcilikte içerik, misafirin karar sürecinde güven ve hayal oluşturur. DGTLFACE, “otel blog içerikleri, turizm içerik yazıları, resort SEO içerik stratejisi, OTA içerik pazarlama” alanlarında: Destinasyon rehberleri, Konsept odaklı içerikler, Sık sorulan sorular, Sezonluk içerikler, OTA profillerine uyumlu açıklama metinleri üretir. Bu içerikler sadece blog’da kalmaz; SEO, sosyal medya, e-mail ve remarketing kreatiflerini de besler."
+    "text4": "Turizm ve otelcilikte içerik, misafirin karar sürecinde güven ve hayal oluşturur. DGTLFACE, <b>“otel blog içerikleri, turizm içerik yazıları, resort SEO içerik stratejisi, OTA içerik pazarlama”</b> alanlarında: <ul><li> Destinasyon rehberleri (bölge, plaj, aktiviteler, gezi rotaları),</li><li> Konsept odaklı içerikler (aile oteli, balayı, spa & wellness, aquapark, adults-only), </li><li> Sık sorulan sorular (işleyiş, yemek, transfer, çocuk politikaları),</li><li> Sezonluk içerikler (erken rezervasyon, bayram/özel dönemler, etkinlikler),</li><li>OTA profillerine uyumlu açıklama metinleri </li></ul> üretir. Bu içerikler sadece blog’da kalmaz; <b>SEO, sosyal medya, e-mail ve remarketing kreatiflerini</b> de besler. Turizm içerikleriyle hem arama trafiği hem rezervasyon niyeti aynı anda güçlenir."
   },
 
   "h3Section": {
     "header": "DGTLFACE İçerik SEO Hizmet Detayları",
 
     "header1": "Anahtar Kelime Haritalandırma ve İçerik Yol Haritası",
-    "text1": "Başarılı bir içerik SEO projesi, anahtar kelime haritalandırma ile başlar. DGTLFACE: Primary, secondary, long-tail ve niş kelimeleri çıkarır, Her kelimeyi doğru sayfa tipine (hizmet, kategori, blog, FAQ…) eşler, Arama niyeti ve zorluk seviyesine göre bir yayın takvimi tasarlar. Böylece içerikler potansiyeli hesaplanmış bir plana göre üretilir.",
+    "text1": "Başarılı bir içerik SEO projesi, <b>anahtar kelime haritalandırma</b> ile başlar. DGTLFACE: <ul><li> Primary, secondary, long-tail ve niş kelimeleri çıkarır, </li><li> Her kelimeyi doğru sayfa tipine (hizmet, kategori, blog, FAQ…) eşler, </li><li> Arama niyeti ve zorluk seviyesine göre bir yayın takvimi tasarlar. </li><li> <b>“Anahtar kelime haritalandırma, içerik planlama Türkiye, içerik stratejisi”</b> süreçlerini bir yol haritasında toplar.</li></ul> BBöylece içerikler “aklımıza geldikçe yazdık” değil, <b>bilerek ve potansiyeli hesaplanmış</b> bir plana göre üretilir.",
 
     "header2": "SEO Uyumlu İçerik Nasıl Yazılır?",
-    "text2": "“SEO uyumlu içerik nasıl yazılır?” sorusuna DGTLFACE’in cevabı: Kullanıcı niyeti merkeze alınır, Başlık yapısı hiyerarşik olur, Giriş paragrafı konuyu çerçeveler, Gövde kısmı alt başlıklarla güçlendirilir, Sonuçta CTA yer alır. Böylece içerik hem Google için kapsamlı hem kullanıcı için faydalı hale gelir.",
+    "text2": "<b>“SEO uyumlu içerik nasıl yazılır?”</b> sorusuna DGTLFACE’in cevabı: <ul><li> Sadece anahtar kelime değil, kullanıcı niyeti ve soruları merkeze alınır, </li><li> H1–H2–H3 başlık yapısı hiyerarşik ve anlaşılır olur, </li><li> Girişte konuyu net şekilde çerçeveleyen bir paragraf, </li><li> Gövdede alt başlıklarla mantıksal akış, </li><li> Sonuç kısmında CTA (teklif al, rezervasyon yap, hizmeti incele) yer alır, </li><li> Keyword stuffing değil, doğal ve semantik zenginlik tercih edilir. </li></ul> Böylece içerik hem Google için “anlamlı, alakalı, kapsamlı”; hem kullanıcı için <b>“okunabilir, faydalı ve yönlendirici”</b> hale gelir.",
 
     "header3": "Blog Optimizasyonu – Kategori, Etiket ve İç Linkleme",
-    "text3": "Blog’u sadece yazı yığını olarak bırakmak, potansiyelin yarısını çöpe atmak demek. DGTLFACE: Kategori yapısını SEO’ya uygun hale getirir, Gereksiz etiketleri temizler, İç linkler kurar, İçerik içinde dolaşımı artırır. Teknik + içerik + UX yaklaşımıyla blog’unuz bir trafik motoruna dönüşür."
+    "text3": "Blog’u sadece yazı yığını olarak bırakmak, potansiyelin yarısını çöpe atmak demek. DGTLFACE, blog optimizasyonu tarafında: <ul><li> Kategori yapınızı SEO’ya uygun hale getirir, </li><li> Gereksiz/dağınık etiketleri temizler, </li><li> İçerikler arasında mantıklı iç linkler kurar, </li><li> “En çok okunanlar, benzer yazılar, kategoriler” gibi alanlarla kullanıcıyı içerikte dolaştırır. </li></ul> <b>“Antalya blog optimizasyonu, içerik planlama Türkiye, blog kategorileri nasıl planlanır”</b> gibi ihtiyaçlarda; <b>teknik + içerik + UX</b> üçlüsünü aynı potada eritiriz."
   },
 
   "h4Section": {
     "header": "Neden DGTLFACE ile İçerik SEO?",
 
     "card1title": "Sadece Yazı Üreten Değil, Strateji Kurup Raporlayan Partner",
-    "card1description": "DGTLFACE: Strateji (intent & cluster), Üretim (metin, görsel), Yayın (meta, iç link), Raporlama (trafik, dönüşüm) katmanlarının tamamını düşünür. Sadece yazmakla kalmaz, içeriğin performansını da takip eder.",
+    "card1description": "Piyasada “SEO içerik” adı altında sadece kelime dolduran çok yer var. DGTLFACE ise: <ul><li> Strateji: Anahtar kelime & intent & cluster, </li><li>  Üretim: Metin, görsel, destekleyici kreatifler, </li><li>  Yayın: Sayfa yapısı, meta’lar, iç linkler, </li><li>  Raporlama: Trafik, sıralama, dönüşüm, gelir  </li></ul> katmanlarının tamamını düşünür. Yani sadece yazıp teslim etmeyiz; o içerik ne yaptı, ne kadar trafik getirdi, hangi sayfalara destek oldu, <b>dönüşüme katkısı</b> ne sorularını da takip ederiz.",
 
     "card2title": "SEO + SMM + Reklam + Raporlama ile Entegre İçerik Yapısı",
-    "card2description": "İçerik SEO tek başına bırakıldığında etkisinin bir kısmını kaybeder. DGTLFACE, içerikleri SEO, sosyal medya, e-mail, remarketing ve raporlama kanallarıyla entegre yönetir.",
+    "card2description": "İçerik SEO, tek başına bırakıldığında gücünün bir kısmını kaybeder. DGTLFACE, içerik SEO’yu: <ul> <li>Genel SEO stratejisi → <a href=\"/tr/seo-hizmetleri\">/tr/seo-hizmetleri</a></li> <li>Yerel SEO → <a href=\"/tr/seo/yerel-seo\">/tr/seo/yerel-seo</a></li> <li>Sosyal medya içerik üretimi → <a href=\"/tr/smm/icerik-uretimi\">/tr/smm/icerik-uretimi</a></li> <li>Satış & dönüşüm raporları → <a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a></li> </ul> ile entegre çalıştırır. Böylece ürettiğimiz içerikler: <ul> <li>Organik trafikte sıralama alır,</li> <li>Sosyal medyada paylaşılır,</li> <li>E-mail/remarketing kampanyalarını besler,</li> <li>Raporlarda “trafik + dönüşüm” olarak karşınıza çıkar.</li> </ul>",
 
     "card3title": "Antalya Merkezli, Turizm ve Hizmet Odaklı İçerik SEO Uzmanlığı",
-    "card3description": "DGTLFACE, turizm ve hizmet sektörünü sahadan bilen bir ekip olarak; oteller, ajanslar, sağlık ve B2B işletmeleri için hem Türkçe hem İngilizce içerik SEO stratejileri üretir."
+    "card3description": "<b>“İçerik yazarı Antalya, Antalya SEO içerik, Antalya blog optimizasyonu”</b> gibi aramaların arkasında; turizm ve hizmet sektörünü sahadan tanıyan bir ekip beklenir. DGTLFACE, Antalya merkezli bir ajans olarak: <ul><li> Oteller, turizm markaları, ajanslar, sağlık & B2B işletmeler için, </li><li> Hem Türkçe hem İngilizce (ve gerektiğinde diğer dillerde) </li></ul> içerik SEO stratejileri üretir. Bu sayede içerikler yalnızca “akademik” değil, saha gerçekleriyle uyumlu, <b>satış & rezervasyon hedeflerinize bağlı</b> yazılır."
   },
 
   "verticalSlider": {
@@ -2844,22 +2903,22 @@
 
     "title1": "Otel Blog İçerikleri Nasıl ",
     "span1": "Kurgulanmalı?",
-    "text1": "Otel blog içerikleri: Destinasyonu da anlatmalı, Sorulara yanıt vermeli, Konsepti göstermeli, Fotoğraf&video ile desteklenmeli, Rezervasyon alanlarına CTA ile bağlanmalı.",
+    "text1": "Otel blog içerikleri: <ul><li> Sadece oteli değil, destinasyonu da anlatmalı, </li><li> Misafirin karar sürecindeki sorulara yanıt vermeli (mesafe, ulaşım, plaj, çocuklu aileler için uygunluk…), </li><li> Konseptinizi (aile, adults-only, spa, luxury…) net şekilde göstermeli, </li><li> Fotoğraf/video ile desteklenmeli, </li><li> Otel sayfalarına ve rezervasyon alanlarına mantıklı CTA’larla bağlanmalı. </li></ul> DGTLFACE, her blog yazısını <b>“Sadece okunup kapatılsın”</b> değil, rezervasyona giden yolda bir durak olarak kurgular.",
     "button1": "Detaylı Bilgi",
 
     "title2": "Turizm İçerik Yazılarında ",
     "span2": "Dil ve Ton",
-    "text2": "Turizm içerikleri: Hem bilgilendirici hem davetkâr olmalı; bölgeyi tanıtmalı, deneyimi hissettirmeli, cazip ama dürüst bir ton kullanmalı. DGTLFACE bu dengeyi korur.",
+    "text2": "Turizm içerik yazıları; hem bilgilendirici hem de davetkâr olmalı. Kullanıcıya: <ul><li> Bölgeyi tanıtmalı, </li><li> Otelin sunduğu deneyimi hissettirmeli, </li><li> Çok abartmadan ama cazip bir dil kullanmalı, </li><li> Bilgi verirken aynı zamanda “Bu deneyimi ben de yaşamalıyım” duygusunu aşılamalı. </li></ul> DGTLFACE, bu dengeyi koruyarak <b>resort SEO içerik stratejisi </b> oluşturur.",
     "button2": "Keşfet",
 
     "title3": "İçerik Yoğunluğu ve ",
     "span3": "Semantik Zenginlik",
-    "text3": "Önemli olan: Konuyu derin işlemek, semantik kavramları kullanmak, spamden kaçınmak, tüm alt soruları cevaplamak. DGTLFACE, yoğunluğu Google + kullanıcı için optimize eder.",
+    "text3": "Eskiden “%2–3 keyword density” konuşuluyordu; bugün önemli olan: <ul><li> Konuyu derinlemesine ele almak, </li><li>  Semantik olarak alakalı kavramları (semantic keywords) kullanmak, </li><li>  Aynı kelimeyi spam gibi tekrar etmekten kaçınmak, </li><li>  Kullanıcının aklına gelebilecek alt soruları da cevaplamak. </li></ul>  DGTLFACE, <b>içerik yoğunluğu optimizasyonu</b> yaparken hem Google’ın beklentisini hem de okuma deneyimini dengeler.",
     "button3": "Detaylı Bilgi",
 
     "title4": "Blog Trafiğini ",
     "span4": "Satışa Bağlamak",
-    "text4": "DGTLFACE: İç linkleme, CTA, analiz ve dönüşüm raporlarıyla blog → satış katkısını görünür hale getirir. Böylece içerik pazarlaması gerçek bir gelir oyununa dönüşür.",
+    "text4": "Blog trafiği güzeldir ama asıl önemli olan: <b>“Bu trafik satışa/rezervasyona dönüyor mu?”</b> DGTLFACE, blog yazılarını: <ul><li> Doğru iç linklerle hizmet/ürün sayfalarına bağlar, </li><li> “Teklif al”, “Rezervasyon yap”, “Form doldur” gibi CTA’lar ekler, </li><li> <a href=\"/Services/digitalAnalysis/digitalSalesAnalysis\">satis-donusum raporlarında</a> blog → satış katkısını görünür hale getirir. </li></ul> Böylece içerik pazarlaması, “trafik oyunu” değil, <b>gelir oyunu</b>na dönüşür.",
     "button4": "İncele"
   },
 
@@ -5122,13 +5181,13 @@
 
     "subbanner_header": "Otel PMS Kurulumu –",
     "subbanner_header2": " Operasyon ve Rezervasyon Süreçlerinizi Dijitalleştirin",
-    "subbanner_text": "DGTLFACE, PMS kurulumu ve destek hizmetleriyle; otelinizin resepsiyon, rezervasyon, housekeeping, gelir yönetimi ve raporlama süreçlerini tek bir dijital omurgaya taşıyan teknoloji partneridir.\n\nElektraweb başta olmak üzere otel yönetim sistemlerinde; Elektraweb kurulumu, otel PMS eğitimi, PMS destek hizmeti, otel operasyon sistemi, rezervasyon yazılımı gibi tüm başlıkları kapsayan uçtan uca bir kurulum ve destek modeli sunarız.\n\nAmaç; Excel, defter, bağımsız sistemler ve dağınık süreçlerden çıkıp; hızlı, hatasız ve raporlanabilir bir operasyon kurmaktır.",
+    "subbanner_text": "DGTLFACE, <b>PMS kurulumu ve destek</b> hizmetleriyle; otelinizin <b>resepsiyon, rezervasyon, housekeeping, gelir yönetimi ve raporlama</b> süreçlerini tek bir <b>dijital omurgaya</b> taşıyan teknoloji partneridir.\n\nElektraweb başta olmak üzere otel yönetim sistemlerinde; <b>Elektraweb kurulumu, otel PMS eğitimi, PMS destek hizmeti, otel operasyon sistemi, rezervasyon yazılımı</b> gibi tüm başlıkları kapsayan <b>uçtan uca bir kurulum ve destek modeli</b> sunarız.\n\nAmaç; <b>Excel, defter, bağımsız sistemler ve dağınık süreçlerden</b> çıkıp; <b>hızlı, hatasız ve raporlanabilir</b> bir operasyon kurmaktır.",
 
     "ai_answer_title": "AI Answer Block – PMS Kurulum & Destek",
     "ai_answer_text": "DGTLFACE, otel PMS kurulumu hizmetinde Elektraweb ve diğer PMS sistemleri için kurulum, modül yapılandırma, eğitim ve sürekli destek sunar. Rezervasyon, oda & fiyat yönetimi, housekeeping, faturalama ve raporlama süreçleri otel yapınıza göre PMS’e taşınır. PMS–OTA–Channel Manager entegrasyonları ile fiyat ve envanter tek merkezden yönetilir; resepsiyon ve rezervasyon ekipleri eğitimlerle güçlendirilir, operasyon hızlanır ve gerçek zamanlı, güvenilir yönetim raporları oluşturulur.",
 
-       "subbanner_header3": "PMS Nedir, Otel Operasyonunda Neden Bu Kadar Kritik?",
-      "subbanner_text2": "“PMS kurulumu nedir, otel operasyon sistemi ne işe yarar?” sorusunun cevabı aslında çok net: PMS, otelinizin beynidir.\n\nDoğru kurulmuş bir PMS sistemi; tüm oda ve rezervasyon verilerini tek merkezde toplar, check-in/check-out, oda durumu, gelir ve tahsilat süreçlerini standartlaştırır, OTA, kanal yönetimi ve çağrı merkezi ile entegre çalışır, yönetim için net raporlar ve karar desteği üretir, hata, overbooking ve kayıp gelir riskini minimize eder.\n\nDGTLFACE, “turizm işletmeleri için PMS çözümleri, PMS otel operasyon entegrasyonu” gibi ihtiyaçlarda; sadece yazılımı kuran değil, iş süreçlerini PMS’e doğru taşıyan bir ekip olarak çalışır.",
+    "subbanner_header3": "PMS Nedir, Otel Operasyonunda Neden Bu Kadar Kritik?",
+    "subbanner_text2": "<b>“PMS kurulumu nedir, otel operasyon sistemi ne işe yarar?”</b> sorusunun cevabı aslında çok net: <b>PMS, otelinizin beynidir.</b>\n\nDoğru kurulmuş bir PMS sistemi; <ul><li> Tüm oda ve rezervasyon verilerini tek merkezde toplar, </li><li> Check-in/check-out, oda durumu, gelir ve tahsilat süreçlerini standartlaştırır,</li><li> OTA, kanal yönetimi ve çağrı merkezi ile entegre çalışır, </li><li> Yönetim için net raporlar ve karar desteği üretir, </li><li>Hata, overbooking ve kayıp gelir riskini minimize eder. </li></ul>\n\nDGTLFACE, “turizm işletmeleri için PMS çözümleri, PMS otel operasyon entegrasyonu” gibi ihtiyaçlarda; sadece yazılımı kuran değil, iş süreçlerini PMS’e doğru taşıyan bir ekip olarak çalışır.",
 
     "h2Section": {
       "header1": "PMS Kurulumu Nasıl Yapılır? Adım Adım Süreç",
@@ -5149,13 +5208,13 @@
     "h3Section": {
       "header":"DGTLFACE PMS Kurulum & Destek Hizmet Detayları",
       "header1": "Analiz ve İhtiyaç Tespiti",
-      "text1": "PMS kurulumunun ilk adımı, otelinizi ve mevcut süreçlerinizi anlamaktır. DGTLFACE; otel tipi (şehir, resort, butik, villa), oda sayısı, segmentler ve gelir kaynakları, mevcut sistemler (Excel, eski PMS, OTA bağlantıları, muhasebe) ve kullanıcı profillerini (resepsiyon, rezervasyon, yönetim, satış…) analiz eder.\n\nBu analizle; PMS’in hangi modüllerinin devreye alınacağı, öncelik sırası ve projedeki kilometre taşları netleşir.",
+      "text1": "PMS kurulumunun ilk adımı, otelinizi ve mevcut süreçlerinizi anlamaktır. DGTLFACE; <ul><li>otel tipi (şehir, resort, butik, villa),</li><li> oda sayısı, segmentler ve gelir kaynakları,</li><li> mevcut sistemler (Excel, eski PMS, OTA bağlantıları, muhasebe), </li><li> kullanıcı profillerini (resepsiyon, rezervasyon, yönetim, satış…) </li></ul> analiz eder.\n\nBu analizle; PMS’in hangi modüllerinin devreye alınacağı, öncelik sırası ve projedeki kilometre taşları netleşir.",
 
       "header2": "PMS Modül Kurulumu ve Yapılandırma",
-      "text2": "“PMS modül kurulumu” aşamasında; oda tipleri, fiyat yapıları, sezon ve dönemler, fiyat politikaları (BAR, paketler, kampanyalar), segment, pazar ve kanal tanımları ile kullanıcı yetkileri ve departman bazlı rollendirme PMS içinde doğru şekilde tanımlanır.\n\nDGTLFACE, kullanmayacağınız modülleri açıp sistemi şişirmek yerine; sık kullanacağınız modülleri (ön büro, rezervasyon, gelir, raporlama) sade ve net kurgular, kullanıcı yetkilerini dikkatle atar ve raporlama ihtiyaçlarını daha en başta düşünür.",
+      "text2": "“PMS modül kurulumu” aşamasında; <ul><li> oda tipleri, fiyat yapıları, sezon ve dönemler, </li><li> fiyat politikaları (BAR, paketler, kampanyalar), </li><li>segment, pazar ve kanal tanımları, </li><li> kullanıcı yetkileri ve departman bazlı rollendirme </li></ul> PMS içinde doğru şekilde tanımlanır.\n\n Amaç; sistem daha ilk günden itibaren <b>“idare eden”</b> değil, <b>“doğru çalışan”</b> bir yapı sunsun.",
 
       "header3": "PMS Rezervasyon Akışı Nasıl Çalışır?",
-      "text3": "Kurulumun can damarlarından biri, “PMS rezervasyon akışı nasıl çalışır?” sorusunun netleştiği noktadır.\n\nDGTLFACE; direkt rezervasyonların (telefon, mail, WhatsApp, web formu) kayıt akışını, OTA’dan gelen rezervasyonların PMS’e düşüş şeklini, değişiklik, iptal ve no-show senaryolarını, farklı oda/konseptlere geçiş kurallarını ve ön büro–rezervasyon görev dağılımını otelinizin gerçek operasyonuna göre dokümante eder. Böylece herkes aynı rezervasyon gerçeği üzerinde çalışır.",
+      "text3": "Kurulumun can damarlarından biri, <b>“PMS rezervasyon akışı nasıl çalışır?”</b> sorusunun cevaplandığı aşamadır: <ul><li>direkt rezervasyonların (telefon, mail, WhatsApp, web formu) kayıt akışını,</li><li> OTA’dan gelen rezervasyonların PMS’e düşüş şeklini, </li><li> değişiklik, iptal ve no-show akışları,</li><li>  farklı oda/konseptlere geçiş senaryolarını </li><li>  Ön büro–rezervasyon görev dağılımını </li><li>  DGTLFACE, bu akışı otelinizin <b>gerçek operasyonuna göre dokümante eder</b> ve tüm ekibe aynı standardı uygulatır.",
 
       "header4": "Resort & Butik Otel PMS Senaryoları",
       "text4": "“Resort PMS kurulumu” projelerinde; yüksek oda sayısı, farklı konseptler (all inclusive, ultra her şey dahil vb.), çocuk politikaları, yan gelir alanları (spa, à la carte, etkinlikler), sahne & etkinlik rezervasyonları ve çok pazar yapısı dikkate alınır.\n\n“Butik otel PMS destek” tarafında ise; daha az oda ama daha kişisel hizmet, esnek rezervasyon ve tarih değişimi talepleri, doğrudan misafir–otel sahibi/işletmeci etkileşimi ön plandadır. DGTLFACE, her iki tip için de ayrı iş akışı ve eğitim planı çıkarır; hepsine aynı gömleği giydirmeye çalışmaz."

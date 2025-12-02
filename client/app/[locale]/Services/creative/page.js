@@ -322,7 +322,7 @@ const page = () => {
   id: i,
   title: t(`creativepage_services_title${i}`),
   subTitle: t(`creativepage_services_subtitle${i}`),
-   text: t(`creativepage_services_text${i}`),
+   text: t.raw(`creativepage_services_text${i}`),
   features: [1,2,3,4].map(j => t(`creativepage_services_feature${i}_${j}`)),
   buttonLink: [
     "/creative/grafik-motion-tasarim",
@@ -343,7 +343,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden justify-center items-center'>
+    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden '>
       <MainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
                    ns="CreativePage"
                    id="creativepage_banner_text"

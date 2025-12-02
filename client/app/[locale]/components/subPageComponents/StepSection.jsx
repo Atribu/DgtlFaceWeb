@@ -164,26 +164,26 @@ const handleCardClick = (href) => {
                     <div    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="hidden md:flex left-[130px] top-[190px] absolute text-left text-[14px] leading-[110%] w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3">
-                     {/* {t.rich(card.text, {
-    b: (chunks) => <span className="font-semibold">{chunks}</span>,
-    strong: (chunks) => <span className="font-semibold">{chunks}</span>,
-    br: () => <br />,
-    ul: (chunks) => (
-      <ul className="list-disc list-inside space-y-1 mt-2">
-        {chunks}
-      </ul>
-    ),
-    li: (chunks) => <li>{chunks}</li>,
-  })} */ card.text}
+                        }} className="hidden md:flex left-[130px] top-[190px] absolute text-left text-[14px] leading-[110%] w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
+                   {card.text ? (
+    <div
+      dangerouslySetInnerHTML={{ __html: card.text }}
+    />
+  ) : (
+    <>{card.text}</>
+  )}
                     </div>
 
                     {/* Açıklama + buton - transition optimize edildi */}
                     <div    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="hidden md:flex left-[50px] text-left text-[14px] leading-[110%] top-[330px] absolute opacity-0 inline-flex flex-col gap-2 transform-gpu group-hover:opacity-100 group-hover:-translate-y-56 transition-[opacity,transform] duration-500 ease-out text-white w-[70%]">
-                      {card.text}
+                        }} className="hidden md:flex left-[50px] text-left text-[14px] leading-[110%] top-[330px] absolute opacity-0 inline-flex flex-col gap-2 transform-gpu group-hover:opacity-100 group-hover:-translate-y-56 transition-[opacity,transform] duration-500 ease-out text-white w-[70%] [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
+                       {card.text ? (
+    <div dangerouslySetInnerHTML={{ __html: card.text }} />
+  ) : (
+    <p>{card.text}</p>
+  )}
                       <Link
                         href={card.buttonLink || "/"}
                         className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform-gpu opacity-0 group-hover:opacity-100 group-hover:translate-y-24 transition-[opacity,transform] duration-500 ease-out"

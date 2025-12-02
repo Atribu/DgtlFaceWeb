@@ -11,6 +11,7 @@ import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSec
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -164,7 +165,8 @@ const page = () => {
           id: i,
           image: [image1,image2,image3][i-1],
           header: t(`h3Section.header${i}`),
-          text:   t(`h3Section.text${i}`)
+          text:   t.raw(`h3Section.text${i}`),
+          textHtml:   t.raw(`h3Section.text${i}`)
         }));
      
      
@@ -173,17 +175,17 @@ const page = () => {
          {
            widthClass: "w-[95%] lg:w-[80%]",
            title: t2("card1title"),
-           description: t2("card1description"),
+           description: t2.raw("card1description"),
          },
          {
            widthClass: "w-[95%] lg:w-[75%]",
            title: t2("card2title"),
-           description: t2("card2description"),
+           description: t2.raw("card2description"),
          },
          {
            widthClass: "w-[95%] lg:w-[70%]",
            title: t2("card3title"),
-           description: t2("card3description"),
+           description: t2.raw("card3description"),
          },
      
        ];
@@ -219,10 +221,10 @@ const page = () => {
        ];
      
          const h2items = [
-         { title: t("h2Section.header1"), text: t("h2Section.text1") },
-         { title: t("h2Section.header2"), text: t("h2Section.text2") },
-         { title: t("h2Section.header3"), text: t("h2Section.text3") },
-         { title: t("h2Section.header4"), text: t("h2Section.text4") },
+         { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+         { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+         { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+         { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
        ];
 
   return (
@@ -237,12 +239,14 @@ const page = () => {
     <SubBanner
   header={t("localseo_subbanner_header")}
   header2={t("localseo_subbanner_header2")}
-  text={t("localseo_subbanner_text")}
+  text={t.raw("localseo_subbanner_text")}
   header3={t("localseo_subbanner_header3")}
-  text2={t("localseo_subbanner_text2")}
+  text2={t.raw("localseo_subbanner_text2")}
   buttonLink="/"
    buttonText={t("cta_talk_to_us")}
 />
+<AutoBreadcrumbs />
+
 <AiAnswerBlock text={t("localseo_ai_answer_text")}/>
       <H2LogoSection items={h2items} />
 

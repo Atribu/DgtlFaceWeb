@@ -164,7 +164,8 @@ const page = () => {
              id: i,
              image: [image1,image2,image3][i-1],
              header: t(`h3Section.header${i}`),
-             text:   t(`h3Section.text${i}`)
+             text:   t.raw(`h3Section.text${i}`),
+             
            }));
         
         
@@ -239,9 +240,9 @@ const page = () => {
      <SubBanner
   header={t("contentsub_header")}
   header2={t("contentsub_header2")}
-  text={t("contentsub_text")}
+  text={t.raw("contentsub_text")}
   header3={t("contentsub_header3")}
-  text2={t("contentsub_text2")}
+  text2={t.raw("contentsub_text2")}
   buttonLink="/"
    buttonText={t("cta_talk_to_us")}
 />

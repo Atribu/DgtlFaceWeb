@@ -3,6 +3,7 @@ import React from "react";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 import FireballExplosion from "../Section1/Animation/FireballExplosion";
 import FireballExplosionBlack from "../Section1/Animation/FireballExplosionBlack";
+import PlainRichText from "../common/PlainRichText";
 
 const LogoListSectionBlack = ({
   introTitle,
@@ -52,17 +53,36 @@ const LogoListSectionBlack = ({
         {cards?.map((card, index) => (
           <div
             key={index}
-            className={`${card.widthClass || "w-[90%] lg:w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-[#56b6cf] rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80`}
+            className={`${card.widthClass || "w-[90%] lg:w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-[#56b6cf] z-[998] rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80`}
           >
             {/* 8978cf */}
             <h4 className="w-full relative justify-start  text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
               {card.title}
             </h4>
 
-            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-              <p className="relative text-justify justify-start lg:text-[16px] font-normal lg:leading-[120%] text-[12px] lg:text-[14px] -tracking-[0.28px] leading-[130%]">
-                {card.description}
-              </p>
+            <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px] ">
+             {card.description && (
+  <PlainRichText
+    html={card.description}
+    as="p"
+    className="
+      relative text-justify justify-start
+      text-[12px] md:text-[14px] lg:text-[16px]
+      font-normal leading-[130%] lg:leading-[120%]
+      -tracking-[0.28px]
+      space-y-1
+      [&_ul]:list-disc
+      [&_ul]:pl-[5%]
+      [&_ul]:text-start
+      [&_li]:mb-1
+      [&_a]:underline
+      [&_a]:underline-offset-2
+      [&_a]:font-bold
+      [&_a]:text-[#ffffff] 
+      hover:[&_a]:text-[#ffffff]
+    "
+  />
+)}
             </div>
           </div>
         ))}
@@ -71,7 +91,7 @@ const LogoListSectionBlack = ({
         <DgtlfaceLogoBlackHead
           width={720}
           height={720}
-          className="-scale-x-100 absolute z-1 opacity-20 right-[63%] -top-[6%]"
+          className="-scale-x-100 absolute z-1 opacity-20 right-[63%] -top-[6%] z-[10]"
           color="#58b5cf"
         />
       </div>

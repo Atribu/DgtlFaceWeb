@@ -21,17 +21,29 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
         </h2>
 
         {/* ÜST AÇIKLAMA: textHtml varsa RichText, yoksa düz text */}
-        {textHtml ? (
-          <PlainRichText
-            html={textHtml}
-            as="p"
-            className="text-[12px] lg:text-[14px] leading-[120%]"
-          />
-        ) : (
-          <p className="text-[12px] lg:text-[14px] leading-[120%]">
-            {text}
-          </p>
-        )}
+       {textHtml ? (
+  <PlainRichText
+    html={textHtml}
+    as="div"
+    className="
+      text-[12px] lg:text-[14px] leading-[120%]
+    text-start
+      space-y-2
+      [&_ul]:list-disc
+      [&_ul]:pl-5
+      [&_li]:mb-1
+         [&_a]:underline
+    [&_a]:underline-offset-2
+    [&_a]:font-semibold
+    [&_a]:text-[#ffffff]
+    hover:[&_a]:text-[#0f9bcf]"
+  />
+) : (
+  <p className="text-[12px] lg:text-[14px] leading-[120%]">
+    {text}
+  </p>
+)}
+
       </div>
 
       <div className="flex flex-col w-[90%] items-end lg:items-center justify-center lg:justify-center gap-[50px] lg:gap-[122px] relative">
@@ -78,17 +90,32 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
                     </h3>
 
                     {/* ✅ adım açıklaması: textHtml varsa RichText, yoksa düz */}
-                    {item.textHtml ? (
-                      <PlainRichText
-                        html={item.textHtml}
-                        as="p"
-                        className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]"
-                      />
-                    ) : (
-                      <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]">
-                        {item.text}
-                      </p>
-                    )}
+                  {item.textHtml ? (
+  <PlainRichText
+    html={item.textHtml}
+    as="div"
+    className="
+      text-[12px] lg:text-[14px] font-normal leading-[125%]
+      tracking-[-0.36px] lg:tracking-[-0.32px]
+      text-white w-[95%] lg:w-[80%]
+      text-start
+      space-y-2
+      [&_ul]:list-disc
+      [&_ul]:pl-5
+      [&_li]:mb-1
+       [&_a]:underline
+    [&_a]:underline-offset-2
+    [&_a]:font-semibold
+    [&_a]:text-[#ffffff]
+    hover:[&_a]:text-[#0f9bcf]
+    "
+  />
+) : (
+  <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]">
+    {item.text}
+  </p>
+)}
+
                   </div>
                 </>
               ) : (
@@ -99,17 +126,28 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
                       {item.header}
                     </h3>
 
-                    {item.textHtml ? (
-                      <PlainRichText
-                        html={item.textHtml}
-                        as="p"
-                        className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%] mt-0"
-                      />
-                    ) : (
-                      <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%] mt-0">
-                        {item.text}
-                      </p>
-                    )}
+                   {item.textHtml ? (
+  <PlainRichText
+    html={item.textHtml}
+    as="div"
+    className="
+      text-[12px] lg:text-[14px] font-normal leading-[125%]
+      tracking-[-0.36px] lg:tracking-[-0.32px]
+      text-white w-[95%] lg:w-[80%]
+      text-start
+
+      space-y-2
+      [&_ul]:list-disc
+      [&_ul]:pl-5
+      [&_li]:mb-1
+    "
+  />
+) : (
+  <p className="text-[12px] lg:text-[14px] font-normal leading-[125%] tracking-[-0.36px] lg:tracking-[-0.32px] text-white w-[95%] lg:w-[80%]">
+    {item.text}
+  </p>
+)}
+
                   </div>
 
                   {/* Adım numarası */}

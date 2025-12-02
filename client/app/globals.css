@@ -603,4 +603,17 @@
   }
 }
 
+/* Genel rich text link stilleri */
+.richtext a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+  color: #0f1b3f; /* daha koyu bir lacivert / istersen #0f9bcf de olur */
+}
+
+.richtext a:hover {
+  color: #ffffff; /* hover’da beyaz mesela */
+}
+
+
 
