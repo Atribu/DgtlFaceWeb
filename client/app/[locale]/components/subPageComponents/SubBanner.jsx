@@ -23,7 +23,7 @@ const SubBanner = ({header,header2,text,buttonLink, buttonText, header3,text2}) 
             html={text}
             className="text-[12px] md:text-[14px] lg:text-[16px] font-normal leading-[120%] lg:leading-[130%] lg:mb-[16px] space-y-1 [&_ul]:list-disc
       [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1"
+      [&_li]:mb-1 [&_a]:underline"
           />
 
             <h2 className='text-[22px] lg:text-[24px] font-semibold leading-[120%] -tracking-[0.96px] mt-2'>{header3}</h2>
@@ -31,7 +31,7 @@ const SubBanner = ({header,header2,text,buttonLink, buttonText, header3,text2}) 
             html={text2}
             className="text-[12px] md:text-[14px] lg:text-[16px] font-normal leading-[120%] lg:leading-[130%] lg:mb-[16px] space-y-1 [&_ul]:list-disc
       [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1"
+      [&_li]:mb-1 [&_a]:underline"
           />
              
         </div>

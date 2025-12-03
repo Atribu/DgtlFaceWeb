@@ -194,29 +194,29 @@ const page = () => {
          {
            question: t("faq.question1"),
            answer:
-            t("faq.answer1"),
+            t.raw("faq.answer1"),
          },
          {
            question: t("faq.question2"),
            answer:
-            t("faq.answer2"),
+            t.raw("faq.answer2"),
          },
          {
             question: t("faq.question3"),
            answer:
-            t("faq.answer3"),
+            t.raw("faq.answer3"),
          },
      
          {
          question: t("faq.question4"),
            answer:
-            t("faq.answer4"),
+            t.raw("faq.answer4"),
          },
      
          {
          question: t("faq.question5"),
            answer:
-            t("faq.answer5"),
+            t.raw("faq.answer5"),
          },
        ];
      
@@ -235,8 +235,9 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
-    <SubBanner
+    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
+    <div className='flex flex-col gap-5 items-center justify-center'>
+      <SubBanner
   header={t("localseo_subbanner_header")}
   header2={t("localseo_subbanner_header2")}
   text={t.raw("localseo_subbanner_text")}
@@ -248,6 +249,7 @@ const page = () => {
 <AutoBreadcrumbs />
 
 <AiAnswerBlock text={t("localseo_ai_answer_text")}/>
+    </div>
       <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>

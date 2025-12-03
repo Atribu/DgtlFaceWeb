@@ -179,39 +179,6 @@ const homeJsonLd = {
   ]
 }
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Vidoe Ads",
-    text:"Video ads are the cornerstone of captivating digital marketing strategies, engaging target audiences with dynamic storytelling and compelling visuals. Leveraging the power of motion and sound to convey your message, these ads prompt action from your target audience."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Visual Ads",
-    text:"Also known as banner ads, visual advertising aims to increase brand awareness and drive clicks by combining creativity with strategic placement. DGTLFACE specializes in creating visually striking banner ads that capture attention across the web."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Shopping Ads",
-    text:"With DGTLFACE's shopping ads, your products are showcased perfectly, combining clear visuals, competitive prices, and essential product details to facilitate shopping directly within the search experience for your customers."
-  },
-  
-  {
-    id:4,
-    image:image4,
-    header:"Search Network Ads",
-    text:"Targeting specific keywords, DGTLFACE ensures your brand is visible when potential customers search for your products or services. This strategic placement not only ensures your brand is seen but also searched for, maximizing conversion opportunities."
-  },
-  {
-    id:5,
-    image:image5,
-    header:"Social Media Ad Management",
-    text:"We specialize in managing social media ads on platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. DGTLFACE leverages targeted campaigns and broad outreach strategies to effectively connect your brand with global audiences."
-  }
-]
 const page = () => {
    const t = useTranslations("YoutubeAdvertising");
    const t2 = useTranslations("YoutubeAdvertising.h4Section");
@@ -220,7 +187,8 @@ const page = () => {
       id: i,
       image: [image1,image2,image3,image4][i-1],
      header: t(`h3Section.header${i}`),
-     text:   t(`h3Section.text${i}`)
+     text:   t.raw(`h3Section.text${i}`),
+     textHtml:   t.raw(`h3Section.text${i}`)
     }));
  
 
@@ -228,17 +196,17 @@ const page = () => {
     {
       widthClass: "w-[95%] lg:w-[80%]",
       title: t2("card1title"),
-      description: t2("card1description"),
+      description: t2.raw("card1description"),
     },
     {
       widthClass: "w-[95%] lg:w-[75%]",
       title: t2("card2title"),
-      description: t2("card2description"),
+      description: t2.raw("card2description"),
     },
     {
       widthClass: "w-[95%] lg:w-[70%]",
       title: t2("card3title"),
-      description: t2("card3description"),
+      description: t2.raw("card3description"),
     },
 
   ];
@@ -247,39 +215,39 @@ const page = () => {
     {
       question: t("faq.question1"),
       answer:
-       t("faq.answer1"),
+       t.raw("faq.answer1"),
     },
     {
       question: t("faq.question2"),
       answer:
-       t("faq.answer2"),
+       t.raw("faq.answer2"),
     },
     {
        question: t("faq.question3"),
       answer:
-       t("faq.answer3"),
+       t.raw("faq.answer3"),
     },
 
     {
     question: t("faq.question4"),
       answer:
-       t("faq.answer4"),
+       t.raw("faq.answer4"),
     },
 
     {
     question: t("faq.question5"),
       answer:
-       t("faq.answer5"),
+       t.raw("faq.answer5"),
     },
 
 
   ];
    
     const h2items = [
-    { title: t("h2Section.header1"), text: t("h2Section.text1") },
-    { title: t("h2Section.header2"), text: t("h2Section.text2") },
-    { title: t("h2Section.header3"), text: t("h2Section.text3") },
-    { title: t("h2Section.header4"), text: t("h2Section.text4") },
+    { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
 
   ];
    
@@ -296,8 +264,8 @@ const page = () => {
    header={t("youtubeadvertising_subbanner_header")}
   header2={t("youtubeadvertising_subbanner_header2")}
   header3={t("youtubeadvertising_subbanner_header3")}
-  text={t("youtubeadvertising_subbanner_text")}
-   text2={t("youtubeadvertising_subbanner_text2")}
+  text={t.raw("youtubeadvertising_subbanner_text")}
+   text2={t.raw("youtubeadvertising_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />

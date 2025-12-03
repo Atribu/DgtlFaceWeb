@@ -12,6 +12,7 @@ import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMentio
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -184,24 +185,25 @@ const page = () => {
   id: i,
   image: [image1,image2,image3][i-1],
      header: t(`h3Section.header${i}`),
-     text:   t(`h3Section.text${i}`)
+     text:   t.raw(`h3Section.text${i}`),
+     textHtml:   t.raw(`h3Section.text${i}`)
 }));
 
 const cards = [
     {
       widthClass: "w-[95%] lg:w-[80%]",
       title: t2("card1title"),
-      description: t2("card1description"),
+      description: t2.raw("card1description"),
     },
     {
       widthClass: "w-[95%] lg:w-[75%]",
       title: t2("card2title"),
-      description: t2("card2description"),
+      description: t2.raw("card2description"),
     },
     {
       widthClass: "w-[95%] lg:w-[70%]",
       title: t2("card3title"),
-      description: t2("card3description"),
+      description: t2.raw("card3description"),
     },
 
   ];
@@ -210,39 +212,37 @@ const cards = [
     {
       question: t("faq.question1"),
       answer:
-       t("faq.answer1"),
+       t.raw("faq.answer1"),
     },
     {
       question: t("faq.question2"),
       answer:
-       t("faq.answer2"),
+       t.raw("faq.answer2"),
     },
     {
        question: t("faq.question3"),
       answer:
-       t("faq.answer3"),
+       t.raw("faq.answer3"),
     },
 
     {
     question: t("faq.question4"),
       answer:
-       t("faq.answer4"),
+       t.raw("faq.answer4"),
     },
 
     {
     question: t("faq.question5"),
       answer:
-       t("faq.answer5"),
+       t.raw("faq.answer5"),
     },
   ];
 
       const h2items = [
-    { title: t("h2Section.header1"), text: t("h2Section.text1") },
-    { title: t("h2Section.header2"), text: t("h2Section.text2") },
-    { title: t("h2Section.header3"), text: t("h2Section.text3") },
-    { title: t("h2Section.header4"), text: t("h2Section.text4") },
-    // ileride header5/text5, header6/text6 eklersen
-    // sadece bu listeye item eklemen yeterli
+    { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+    { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+    { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+    { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
   ];
   
   return (
@@ -254,16 +254,19 @@ const cards = [
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
-    <SubBanner
+<div className='flex flex-col items-center justify-center gap-5'>
+      <SubBanner
   header={t("remarketing_subbanner_header")}
   header2={t("remarketing_subbanner_header2")}
-  text={t("remarketing_subbanner_text")}
+  text={t.raw("remarketing_subbanner_text")}
   header3={t("remarketing_subbanner_header3")}
-  text2={t("remarketing_subbanner_text2")}
+  text2={t.raw("remarketing_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
+<AutoBreadcrumbs/>
 <AiAnswerBlock text="DGTLFACE, remarketing ve display reklam yönetimiyle sitenizle daha önce etkileşime geçmiş kullanıcıları segmentlere ayırarak yeniden hedefler. Google Display Network, YouTube, Meta ve OTA trafiğini; sepeti terk eden, oda bakan veya teklif alıp vazgeçen kitleler için ayrı mesajlarla geri kazanır. Bu yapı, özellikle oteller ve turizm markaları için dönüşüm oranını ve ROAS’ı anlamlı şekilde yükselten güçlü bir yeniden hedefleme katmanı sunar."/>
+</div>
  <H2LogoSection items={h2items} />
   <StepSection2New data={stepData} header={t("h3Section.header")}/>
     <div>

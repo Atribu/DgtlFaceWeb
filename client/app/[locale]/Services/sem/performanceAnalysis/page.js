@@ -164,7 +164,8 @@ const page = () => {
        id: i,
        image: [image1,image2,image3,image3][i-1],
        header: t(`h3Section.header${i}`),
-       text:   t(`h3Section.text${i}`)
+       text:   t.raw(`h3Section.text${i}`),
+        textHtml:   t.raw(`h3Section.text${i}`)
      }));
   
   
@@ -173,17 +174,17 @@ const page = () => {
       {
         widthClass: "w-[95%] lg:w-[80%]",
         title: t2("card1title"),
-        description: t2("card1description"),
+        description: t2.raw("card1description"),
       },
       {
         widthClass: "w-[95%] lg:w-[75%]",
         title: t2("card2title"),
-        description: t2("card2description"),
+        description: t2.raw("card2description"),
       },
       {
         widthClass: "w-[95%] lg:w-[70%]",
         title: t2("card3title"),
-        description: t2("card3description"),
+        description: t2.raw("card3description"),
       },
   
     ];
@@ -192,37 +193,37 @@ const page = () => {
       {
         question: t("faq.question1"),
         answer:
-         t("faq.answer1"),
+         t.raw("faq.answer1"),
       },
       {
         question: t("faq.question2"),
         answer:
-         t("faq.answer2"),
+         t.raw("faq.answer2"),
       },
       {
          question: t("faq.question3"),
         answer:
-         t("faq.answer3"),
+         t.raw("faq.answer3"),
       },
   
       {
       question: t("faq.question4"),
         answer:
-         t("faq.answer4"),
+         t.raw("faq.answer4"),
       },
   
       {
       question: t("faq.question5"),
         answer:
-         t("faq.answer5"),
+         t.raw("faq.answer5"),
       },
     ];
   
       const h2items = [
-      { title: t("h2Section.header1"), text: t("h2Section.text1") },
-      { title: t("h2Section.header2"), text: t("h2Section.text2") },
-      { title: t("h2Section.header3"), text: t("h2Section.text3") },
-      { title: t("h2Section.header4"), text: t("h2Section.text4") },
+      { title: t("h2Section.header1"), text: t.raw("h2Section.text1") },
+      { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+      { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+      { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
 
     ];
 
@@ -238,9 +239,9 @@ const page = () => {
       <SubBanner
   header={t("performanceanalysis_subbanner_header")}
   header2={t("performanceanalysis_subbanner_header2")}
-  text={t("performanceanalysis_subbanner_text")}
+  text={t.raw("performanceanalysis_subbanner_text")}
     header3={t("performanceanalysis_subbanner_header3")}
-  text2={t("performanceanalysis_subbanner_text2")}
+  text2={t.raw("performanceanalysis_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />

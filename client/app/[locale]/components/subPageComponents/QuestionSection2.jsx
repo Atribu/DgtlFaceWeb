@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 import PlusSvg from "./PlusSvg ";
+import PlainRichText from "../common/PlainRichText";
 
 const QuestionsSection2 = ({ variant = "dark", faqs }) => {
   const t = useTranslations("AboutPage");
@@ -110,8 +111,30 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
               </div>
 
               <div className="flex items-start text-start justify-center mt-4">
-                <p className={`w-[98%] ${textColorClass}`}>{item.answer}</p>
-              </div>
+  <PlainRichText
+    html={item.answer}
+    as="p"
+    className={`
+      w-[98%]
+      ${textColorClass}
+      text-[12px] lg:text-[14px]
+      leading-[130%]
+      space-y-1
+      [&_ul]:list-disc
+      [&_ul]:pl-[1.2rem]
+      [&_ul]:text-start
+      [&_li]:mb-1
+      [&_b]:font-semibold
+      [&_strong]:font-semibold
+      [&_a]:underline
+      [&_a]:underline-offset-2
+      [&_a]:font-semibold
+      [&_a]:text-[#0f9bcf]
+      hover:[&_a]:text-[#547DCF]
+    `}
+  />
+</div>
+
             </div>
           );
         })}
