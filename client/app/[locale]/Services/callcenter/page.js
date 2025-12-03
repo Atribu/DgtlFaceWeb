@@ -335,11 +335,11 @@ const page = () => {
   text: t(`callcenter_services_text${i}`),
   features: [1,2,3,4].map(j => t(`callcenter_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/callcenter/callLanguages",
-    "/Services/callcenter/reservationSupport",
-    "/Services/callcenter/multipleChannels",
-    "/Services/callcenter/contractManagement",
-    "/Services/callcenter/callPerformance"
+    "/cagri-merkezi/4-dilli-cagri-merkezi",
+    "/cagri-merkezi/rezervasyon-destegi",
+    "/cagri-merkezi/mesaj-yonetimi",
+    "/cagri-merkezi/satis-sonrasi-destek",
+    "cagri-merkezi/performans-analizi"
   ][i-1]
 }));
 

@@ -1,5 +1,4 @@
-import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -7,50 +6,271 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import { useTranslations } from "next-intl";
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Future-Proof Performance",
-    text:"Embrace the future with scalable servers that evolve alongside your business. Our service ensures future-proof performance, allowing your digital infrastructure to grow seamlessly. Elevate your operations with a server solution designed for tomorrow."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Server Security",
-    text:"Fortify your digital defences with our server security service. We go beyond standard protocols, implementing robust measures to safeguard your data. Trust us for a secure server environment that shields your digital assets."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Server Efficiency",
-    text:"We fine-tune your servers for peak performance, ensuring that every digital interaction is smooth, swift, and efficient. Experience the power of optimised servers. From routine maintenance to intricate optimizations, our experts handle it all."
-  }
-]
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com",
+      "description": "DGTLFACE, oteller ve markalar için güvenli sunucu yönetimi, web güvenliği, SSL, firewall, DDoS koruması, uptime ve performans optimizasyonu sunan dijital pazarlama ve teknoloji partneridir.",
+      "logo": "https://dgtlface.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu Yönetimi & Web Güvenliği – Performans ve Koruma | DGTLFACE",
+      "description": "DGTLFACE, güvenli sunucu yönetimi ve web güvenliği hizmetleri sunar. SSL, firewall, DDoS koruması ve performans optimizasyonuyla altyapınızı korur ve hızlandırır.",
+      "inLanguage": "tr-TR",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#service",
+      "name": "Sunucu Yönetimi & Web Güvenliği – Performans ve Koruma",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "serviceType": "web güvenliği, sunucu yönetimi, ssl kurulumu, firewall yapılandırma, ddos koruması, hosting güvenliği",
+      "description": "DGTLFACE, güvenli sunucu yönetimi ve web güvenliği hizmetleri sunar. SSL kurulumu, firewall yapılandırma, DDoS koruması, hosting ve database güvenliği, uptime ve performans optimizasyonu ile oteller ve markalar için kesintisiz ve güvenli dijital altyapılar kurar. PMS–OTA–rezervasyon sistemleri ve KVKK uyumlu veri saklama politikalarıyla entegre çalışır.",
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ],
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "web güvenliği",
+        "sunucu yönetimi",
+        "ssl kurulumu",
+        "firewall yapılandırma",
+        "ddos koruması",
+        "hosting güvenliği",
+        "sunucu güvenliği nasıl sağlanır",
+        "ssl sertifikası nasıl kurulur",
+        "ddos saldırıları nasıl engellenir",
+        "web güvenlik duvarı nedir",
+        "oteller için sunucu güvenliği",
+        "turizm sitelerine güvenlik",
+        "uptime optimizasyonu",
+        "hosting performansı artırma",
+        "database güvenliği",
+        "next.js güvenlik optimizasyonu",
+        "otel web güvenliği",
+        "pms sunucu güvenliği",
+        "ota sistem güvenliği",
+        "rezervasyon güvenlik yapısı",
+        "sunucu hizmeti antalya",
+        "antalya web güvenliği",
+        "sunucu yönetimi türkiye",
+        "antalya hosting hizmeti"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web & Yazılım Hizmetleri",
+          "item": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sunucu Yönetimi ve Web Güvenliği",
+          "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sunucu güvenliği nasıl sağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sunucu güvenliği; güçlü şifre ve erişim politikaları, güncel yazılım ve güvenlik yamaları, firewall ve WAF kullanımı, gereksiz servis ve portların kapatılması, loglama ve izleme sistemlerinin aktif olması ve düzenli yedekleme gibi birden fazla güvenlik katmanının birlikte uygulanmasıyla sağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SSL sertifikası neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSL sertifikası, kullanıcı ile sunucu arasındaki trafiği şifreleyerek veri güvenliğini sağlar, tarayıcılarda güvenli ibaresi gösterir ve Google için bir sıralama sinyali olduğu için SEO açısından da kritik öneme sahiptir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DDOS saldırıları nasıl engellenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DDOS saldırıları tamamen sıfırlanamayabilir ancak firewall, CDN tabanlı koruma, rate limiting, IP bazlı kurallar ve sürekli izleme kullanılarak etkisi minimize edilebilir ve sistemin ayakta kalma oranı artırılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için rezervasyon sistemi güvenliği nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otellerin rezervasyon sistemlerinde form verileri şifrelenmeli, PMS–OTA–web arasındaki trafik güvenli bağlantılarla yönetilmeli, erişim yetkileri sınırlandırılmalı ve hassas verilere erişen kullanıcılar loglanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DGTLFACE sunucu yönetimi süreçlerini nasıl işletir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DGTLFACE, önce mevcut altyapı analizi yapar, ardından konfigürasyon, güvenlik katmanları, izleme ve yedekleme standartlarını uygular. Sonrasında bakım ve destek modeliyle uptime, performans, loglar ve güvenlik uyarılarını düzenli olarak izleyerek gerektiğinde kapasite ve güvenlik ayarlarını günceller."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
 const page = () => {
-   const t = useTranslations("ServerManagement");
-  
-      const stepData = [1,2,3].map(i => ({
-                     id: i,
-                     image: [image1,image2,image3][i-1],
-                     header: t(`servermanagement_step${i}_header`),
-                     text:   t(`servermanagement_step${i}_text`)
-                   }));
+   const t = useTranslations("ServerSecurity");
+   const t2 = useTranslations("ServerSecurity.h4Section");
+         
+            const stepData = [1,2,3,4,5,6,7].map(i => ({
+              id: i,
+              image: [image1,image2,image3,image1, image1,image2,image3,][i-1],
+              header: t(`h3Section.header${i}`),
+              text:   t(`h3Section.text${i}`)
+            }));
+         
+         
+         
+            const cards = [
+             {
+               widthClass: "w-[95%] lg:w-[80%]",
+               title: t2("card1title"),
+               description: t2("card1description"),
+             },
+             {
+               widthClass: "w-[95%] lg:w-[75%]",
+               title: t2("card2title"),
+               description: t2("card2description"),
+             },
+             {
+               widthClass: "w-[95%] lg:w-[70%]",
+               title: t2("card3title"),
+               description: t2("card3description"),
+             },
+         
+           ];
+         
+             const faqs = [
+             {
+               question: t("faq.question1"),
+               answer:
+                t("faq.answer1"),
+             },
+             {
+               question: t("faq.question2"),
+               answer:
+                t("faq.answer2"),
+             },
+             {
+                question: t("faq.question3"),
+               answer:
+                t("faq.answer3"),
+             },
+         
+             {
+             question: t("faq.question4"),
+               answer:
+                t("faq.answer4"),
+             },
+         
+             {
+             question: t("faq.question5"),
+               answer:
+                t("faq.answer5"),
+             },
+           ];
+         
+             const h2items = [
+             { title: t("h2Section.header1"), text: t("h2Section.text1"), },
+             { title: t("h2Section.header2"), text: t("h2Section.text2") },
+             { title: t("h2Section.header3"), text: t("h2Section.text3") },
+             { title: t("h2Section.header4"), text: t("h2Section.text4") },
+              { title: t("h2Section.header5"), text: t("h2Section.text5") },
+               { title: t("h2Section.header6"), text: t("h2Section.text6") },
+           ];
                    
   return (
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+    <>
+    <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
       <SubBanner
-  header={t("servermanagement_subbanner_header")}
-  header2={t("servermanagement_subbanner_header2")}
-  text={t("servermanagement_subbanner_text")}
+  header={t("server_subbanner_header")}
+  header2={t("server_subbanner_header2")}
+  text={t("server_subbanner_text")}
+    header3={t("server_subbanner_header3")}
+  text2={t("server_subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+<AiAnswerBlock text={t("server_ai_answer_text")}/>
+       <H2LogoSection items={h2items} />
+
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
+    <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="ServerSecurity" itemCount={4}/>
     </div>
+     <QuestionsSection2 variant="light" faqs={faqs} />
+     <AiSourceMention text="Bu bilgi, DGTLFACE’in web güvenliği, sunucu yönetimi, veri koruma ve PMS/rezervasyon güvenlik süreçlerine ait teknik dokümantasyon ve projelerden derlenmiştir."/>
+    </div>
+    </>
   )
 }
 

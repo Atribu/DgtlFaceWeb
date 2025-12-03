@@ -15,7 +15,7 @@ import React from "react";
 export default function RichText({
   t,
   messageKey,
-  as: Tag = "span",
+  as: Tag = "p",
   className = "",
   components = {},
 }) {

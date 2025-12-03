@@ -1,5 +1,4 @@
-import QuestionsSection from '@/app/[locale]/components/subPageComponents/QuestionsSection'
-import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
+import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
 import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
@@ -8,53 +7,262 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image3.png"
 import {useTranslations} from 'next-intl';
+import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
+import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
+import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 
-const stepData=[
-  {
-    id:1,
-    image:image1,
-    header:"Corporate Promotional Material Service",
-    text:"These materials play a crucial role in creating a positive and consistent brand image and effectively communicating with the target audience. Here are key components and benefits of corporate promotional material services."
-  },
-  {
-    id:2,
-    image:image2,
-    header:"Corparate Catalogue Design Service",
-    text:"Our team of experienced designers not only captures the essence of your brand but also focuses on creating customized catalogue that not only capture the essence of your brand but also inform your target audience."
-  },
-  {
-    id:3,
-    image:image3,
-    header:"Hotel Concept Design Support Service",
-    text:"We collaborate closely to develop unique concepts that reflect the identity, location, and target market of your hotel. This ensures that every aspect of the design contributes to a consistent and memorable guest experience."
-  },
-  {
-    id:4,
-    image:image4,
-    header:"360 Image and Video Shoots",
-    text:"Elevate your brand with 360 showcase video and photography services that resonate with your target audience. Our video showcase services include concept development, scriptwriting, shooting, and post-production, providing informative and engaging content."
-  }
-]
+const homeJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com",
+      "description": "DGTLFACE, markalar ve özellikle oteller için premium kurumsal hediyeler, özel baskı ürünleri, marka hediye paketleri ve turizm odaklı promosyon çözümleri tasarlayan creative tasarım partneridir.",
+      "logo": "https://dgtlface.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Antalya",
+        "addressCountry": "TR"
+      },
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi/#webpage",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "name": "Kurumsal Hediye Tasarımı – Markanıza Özel Premium Ürünler | DGTLFACE",
+      "description": "DGTLFACE, markanıza özel kurumsal hediye tasarımları, baskı ürünleri, promosyon çalışmaları ve kişisel tasarım ürünleri sunar.",
+      "inLanguage": "tr-TR",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi/#service",
+      "name": "Kurumsal Hediye Tasarımı – Markanıza Özel Premium Ürünler",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "serviceType": "kurumsal hediye tasarımı, promosyon tasarımı, özel baskı ürünleri, marka hediye paketi, kurumsal promosyon, premium hediye tasarımı",
+      "description": "DGTLFACE, markalara özel kurumsal hediye tasarımı hizmeti sunar. Premium kurumsal hediyeler, özel baskı ürünleri, marka hediye kutuları, oteller için oda içi welcome setleri, VIP misafir ve iş ortakları için hediye paketleri, çalışan ve B2B segmentleri için kişiselleştirilebilir promosyon ürünleri tasarlanır. Tasarım, baskı ve ambalaj süreçleri uçtan uca koordine edilerek fiziksel ve dijital marka deneyimiyle uyumlu çözümler üretilir.",
+      "areaServed": [
+        "Antalya",
+        "Türkiye",
+        "Europe"
+      ],
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "kurumsal hediye tasarımı",
+        "promosyon tasarımı",
+        "özel baskı ürünleri",
+        "marka hediye paketi",
+        "kurumsal promosyon",
+        "premium hediye tasarımı",
+        "kurumsal hediye örnekleri",
+        "premium kurumsal hediye tasarımları",
+        "oteller için kurumsal hediyeler",
+        "turizm promosyon ürünleri",
+        "marka hediye kutusu tasarımı",
+        "kişiselleştirilmiş kurumsal hediye",
+        "baskı tasarım ürünleri",
+        "kurumsal hediye katalog",
+        "çalışan hediyesi fikirleri",
+        "otel kurumsal hediye tasarımı",
+        "resort promosyon ürünleri",
+        "turizm hediye tasarımı",
+        "otel özel baskı ürünleri",
+        "kurumsal hediye antalya",
+        "antalya baskı tasarım",
+        "promosyon tasarım türkiye",
+        "antalya kurumsal tasarım ajansı"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative Tasarım & Prodüksiyon",
+          "item": "https://dgtlface.com/tr/creative-ve-tasarim"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye Tasarımı",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kurumsal hediye tasarımı neleri kapsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurumsal hediye tasarımı; hedef kitle ve bütçeye uygun ürün seçimi, marka kimliğine uygun grafik tasarım, baskı ve malzeme seçimleri, hediye kutusu ve ambalaj tasarımı ile teslim ve kullanım önerilerine kadar tüm süreci kapsar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi tür hediyeler tasarlıyorsunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oteller için oda içi welcome setleri, VIP hediye kutuları, spa ve restoran temalı hediyeler, destinasyon odaklı özel ürünler ve tur operatörleri ile iş ortakları için kurumsal hediye paketleri tasarlıyoruz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ürünleri siz mi tedarik ediyorsunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İhtiyaca göre yalnızca tasarım hizmeti verebileceğimiz gibi, tedarikçi seçimi, baskı ve üretim koordinasyonu dahil uçtan uca süreci de yönetebiliyoruz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediyeleri kişiselleştirebiliyor musunuz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, birçok üründe isim, oda numarası, özel mesaj veya tarih gibi kişisel detaylarla özelleştirme yapılabilir; bu da özellikle VIP misafir, yönetici ve iş ortakları için hediyenin etkisini artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kurumsal hediyeleri sosyal medyada nasıl kullanabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurumsal hediyeler; unboxing videoları, story ve reels konseptleri, kampanya kurguları ve kullanıcı paylaşımlarını teşvik eden içerik fikirleri ile sosyal medyada güçlü bir görünürlük ve etkileşim aracı olarak kullanılabilir."
+          }
+        }
+      ]
+    }
+  ]
+}
+
 const page = () => {
-  const t = useTranslations("CorporateGift");
-
-  const stepData = [1,2,3,4].map(i => ({
-  id: i,
-  image: [image1, image2, image3, image4][i-1],
-  header: t(`corporategift_step_header${i}`),
-  text:   t(`corporategift_step_text${i}`)
-}));
+  const t = useTranslations("CorporateGiftsPage");
+ const t2 = useTranslations("CorporateGiftsPage.h4Section");
+           
+              const stepData = [1,2,3,4,5,6].map(i => ({
+                id: i,
+                image: [image1,image2,image3][i-1],
+                header: t(`h3Section.header${i}`),
+                text:   t(`h3Section.text${i}`)
+              }));
+           
+           
+           
+              const cards = [
+               {
+                 widthClass: "w-[95%] lg:w-[80%]",
+                 title: t2("card1title"),
+                 description: t2("card1description"),
+               },
+               {
+                 widthClass: "w-[95%] lg:w-[75%]",
+                 title: t2("card2title"),
+                 description: t2("card2description"),
+               },
+               {
+                 widthClass: "w-[95%] lg:w-[70%]",
+                 title: t2("card3title"),
+                 description: t2("card3description"),
+               },
+           
+             ];
+           
+               const faqs = [
+               {
+                 question: t("faq.question1"),
+                 answer:
+                  t("faq.answer1"),
+               },
+               {
+                 question: t("faq.question2"),
+                 answer:
+                  t("faq.answer2"),
+               },
+               {
+                  question: t("faq.question3"),
+                 answer:
+                  t("faq.answer3"),
+               },
+           
+               {
+               question: t("faq.question4"),
+                 answer:
+                  t("faq.answer4"),
+               },
+           
+               {
+               question: t("faq.question5"),
+                 answer:
+                  t("faq.answer5"),
+               },
+             ];
+           
+               const h2items = [
+               { title: t("h2Section.header1"),text: t("h2Section.text1") },
+               { title: t("h2Section.header2"), text: t("h2Section.text2") },
+               { title: t("h2Section.header3"), text: t("h2Section.text3") },
+               { title: t("h2Section.header4"), text: t("h2Section.text4") },
+             ];
 
   return (
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+    <>
+       <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
+      
+    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
       <SubBanner header={t('corporategift_banner_header1')}
   header2={t('corporategift_banner_header2')}
   text={t('corporategift_banner_text')}
   buttonLink="/" buttonText={t("cta_talk_to_us")}/>
-      <StepSection2 data={stepData}/>
-      <VerticalSlider/>
-      <QuestionsSection color="#fff"/>
+  <AiAnswerBlock text={t("ai_answer_text")}/>
+                <H2LogoSection items={h2items} />
+
+ <StepSection2New data={stepData} header={t("h3Section.header")}/>
+    <div>
+         <LogoListSectionBlack
+      introTitle={t2("header")}
+      introSubtitlePrefix="DGTLFACE"
+      introSubtitle={""}
+      introDescription={""}
+      cards={cards}
+    />
+      <VerticalSlider page="CorporateGiftsPage" itemCount={4}/>
     </div>
+     <QuestionsSection2 variant="light" faqs={faqs} />
+     <AiSourceMention text="Bu bilgi, DGTLFACE Creative departmanının kurumsal hediye, baskı & promosyon tasarımı, otel hediye projeleri ve marka deneyimi odaklı çalışmalarına ait dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+    </div>
+    </>
   )
 }
 

@@ -4,6 +4,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
+
 
 const StepSection = ({ header, header2, text, servicesData = [], buttonText, page }) => {
   // Embla setup - smooth scroll için optimize edilmiş ayarlar
@@ -16,6 +18,13 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
     skipSnaps: false,
     inViewThreshold: 0, // Snap hassasiyeti
   });
+
+  const router = useRouter();
+
+const handleCardClick = (href) => {
+  if (!href) return;
+  router.push(href);
+};
 
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [slideCount, setSlideCount] = useState(0);
@@ -99,6 +108,7 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                 >
                   {/* Kart dizaynı */}
                   <div
+                   onClick={() => handleCardClick(card.buttonLink)}
                     data-property-1="Default"
                     className="h-[83px] md:h-[300px] relative bg-[#130b29] rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden text-white w-full"
                   >
@@ -154,26 +164,26 @@ const StepSection = ({ header, header2, text, servicesData = [], buttonText, pag
                     <div    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="hidden md:flex left-[130px] top-[190px] absolute text-left text-[14px] leading-[110%] w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3">
-                     {/* {t.rich(card.text, {
-    b: (chunks) => <span className="font-semibold">{chunks}</span>,
-    strong: (chunks) => <span className="font-semibold">{chunks}</span>,
-    br: () => <br />,
-    ul: (chunks) => (
-      <ul className="list-disc list-inside space-y-1 mt-2">
-        {chunks}
-      </ul>
-    ),
-    li: (chunks) => <li>{chunks}</li>,
-  })} */ card.text}
+                        }} className="hidden md:flex left-[130px] top-[190px] absolute text-left text-[14px] leading-[110%] w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
+                   {card.text ? (
+    <div
+      dangerouslySetInnerHTML={{ __html: card.text }}
+    />
+  ) : (
+    <>{card.text}</>
+  )}
                     </div>
 
                     {/* Açıklama + buton - transition optimize edildi */}
                     <div    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="hidden md:flex left-[50px] text-left text-[14px] leading-[110%] top-[330px] absolute opacity-0 inline-flex flex-col gap-2 transform-gpu group-hover:opacity-100 group-hover:-translate-y-56 transition-[opacity,transform] duration-500 ease-out text-white w-[70%]">
-                      {card.text}
+                        }} className="hidden md:flex left-[50px] text-left text-[14px] leading-[110%] top-[330px] absolute opacity-0 inline-flex flex-col gap-2 transform-gpu group-hover:opacity-100 group-hover:-translate-y-56 transition-[opacity,transform] duration-500 ease-out text-white w-[70%] [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
+                       {card.text ? (
+    <div dangerouslySetInnerHTML={{ __html: card.text }} />
+  ) : (
+    <p>{card.text}</p>
+  )}
                       <Link
                         href={card.buttonLink || "/"}
                         className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform-gpu opacity-0 group-hover:opacity-100 group-hover:translate-y-24 transition-[opacity,transform] duration-500 ease-out"

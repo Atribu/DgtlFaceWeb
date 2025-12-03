@@ -26,7 +26,10 @@ const homeJsonLd = {
         "addressLocality": "Antalya",
         "addressCountry": "TR"
       },
-      "areaServed": ["Antalya","Türkiye","Europe"]
+        "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"]
     },
     {
       "@type": "WebSite",
@@ -71,7 +74,10 @@ const homeJsonLd = {
       },
       "serviceType": "otel dijital pazarlama, turizm dijital dönüşüm, otel SEO, otel reklam yönetimi, OTA yönetimi, PMS entegrasyonu, otel çağrı merkezi",
       "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analiziyle 360° otel dijital pazarlama ve dönüşüm hizmetleri sunar. Resort, city, butik ve luxury oteller için özel yol haritaları ve stratejiler geliştirir.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
+        "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+        "Kemer",
+        "Side",
+        "Alanya","Bodrum"],
       "inLanguage": "tr-TR",
       "keywords": [
         "otel dijital pazarlama",
@@ -204,7 +210,9 @@ const homeJsonLd = {
   ]
 }
 
+
 const page = () => {
+  
   const t = useTranslations("Hotel");
      const t2 = useTranslations("Hotel.h4Section");
       
@@ -323,18 +331,19 @@ const page = () => {
           
           ];
 
-  const servicesData = [1,2,3,4].map(i => ({
+  const servicesData = [1,2,3,4,5,6].map(i => ({
   id: i,
   title: t(`hotel_services_title${i}`),
   subTitle: t(`hotel_services_subtitle${i}`),
      text: t(`hotel_services_text${i}`),
-  features: [1,2,3,4].map(j => t(`hotel_services_feature${i}_${j}`)),
+  features: [1,2,3,4,5,6].map(j => t(`hotel_services_feature${i}_${j}`)),
   buttonLink: [
-    "/Services/Hotel/websiteReportingService",
-    "/Services/Hotel/onlineMarketResearchService",
-    "/Services/Hotel/digitalSalesAnalysis",
-    "/Services/Hotel/advertisingReportingService",
-    "/Services/Hotel/callReportingService"
+    "/otel/seo",
+    "/otel/sosyal-medya",
+    "/otel/reklam-yonetimi",
+    "/otel/ota-yonetimi",
+     "/otel/pms-entegrasyonu",
+      "/otel/cagri-merkezi",
   ][i-1]
 }));
   
@@ -349,13 +358,16 @@ const page = () => {
 
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-    <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
+    <MainBanner header={t("hotel_banner_header")} text={<RichTextSpan
+                       ns="Hotel"
+                       id="hotel_banner_text"
+                     />} span={t("hotel_banner_span")} buttonText={t("buttonText")}/>
     <AiAnswerBlock text="DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümlerini tek çatı altında sunan bir otel dijital pazarlama ve teknoloji partneridir. Amaç sadece görünürlük değil; doluluk, gelir, direkt rezervasyon ve misafir memnuniyetini aynı anda artıran 360° bir dijital mimari kurmaktır. Resort, city, butik veya luxury oteller için özel stratejiler ve yol haritaları hazırlanır."/>
        <DualHighlightSection items={items}/>
 <StepSection
-  header={t("analysis_section_header1")}
-  header2={t("analysis_section_header2")}
-  text={t("analysis_section_text")}
+  header={t("hotel_section_header1")}
+  header2={t("hotel_section_header2")}
+  text={t("hotel_section_text")}
   servicesData={servicesData}
   buttonText={t("buttonText")}
 />

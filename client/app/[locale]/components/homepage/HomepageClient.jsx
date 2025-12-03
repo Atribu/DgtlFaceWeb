@@ -109,7 +109,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
   <ul className="grid grid-cols-2 gap-[6px] text-[12px] lg:text-[14px] mt-3 ml-10 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-[#000000]">
   <li><Link href="/Services/seo" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">SEO</Link> </li>
   <li><Link href="/sem" className="text-[#000000] font-semibold hover:text-[#58b5cf] underline">SEM</Link> </li>
-  <li><Link href="/Services/smm" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"> Sosyal Medya Yönetimi</Link></li>
+  <li><Link href="/smm" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"> Sosyal Medya Yönetimi</Link></li>
   <li><Link href="/Services/pms" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">PMS & OTA Yönetimi </Link></li>
   <li><Link href="/Services/callcenter" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Çağrı Merkezi
               Hizmetleri</Link></li>
