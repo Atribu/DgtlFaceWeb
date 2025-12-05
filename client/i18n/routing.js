@@ -130,7 +130,7 @@ export const routing = defineRouting({
     },
     "/Services/creative/graphicDesign": { // https://www.dgtlface.com/tr/Services/creative/graphicDesign
       en: "/services/creative/graphic-motion-design",
-      tr: "/antalya-tasarim/grafik-motion-tasarim",
+      tr: "/creative/grafik-motion-tasarim",
       ru: "/uslugi/dizayn/graficheskiy-dizayn",
     },
     "/Services/creative/uiUxDesign": { // https://www.dgtlface.com/tr/Services/creative/uiUxDesign

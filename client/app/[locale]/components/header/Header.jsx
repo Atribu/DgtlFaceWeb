@@ -36,6 +36,8 @@ const Header = () => {
       { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
       { label: t("creative_uiux"), href: "/Services/creative/uiUxDesign" },
       { label: t("creative_video"), href: "/Services/creative/videoProduction" },
+       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
+      { label: t("creative_event"), href: "/Services/creative/eventProduction" },
     ],
   },
   {

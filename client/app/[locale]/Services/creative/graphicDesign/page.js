@@ -12,6 +12,7 @@ import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSec
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -171,7 +172,8 @@ const page = () => {
                 id: i,
                 image: [image1,image2,image3][i-1],
                 header: t(`h3Section.header${i}`),
-                text:   t(`h3Section.text${i}`)
+                text:   t.raw(`h3Section.text${i}`),
+                textHtml:   t.raw(`h3Section.text${i}`)
               }));
            
            
@@ -180,17 +182,17 @@ const page = () => {
                {
                  widthClass: "w-[95%] lg:w-[80%]",
                  title: t2("card1title"),
-                 description: t2("card1description"),
+                 description: t2.raw("card1description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[75%]",
                  title: t2("card2title"),
-                 description: t2("card2description"),
+                 description: t2.raw("card2description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[70%]",
                  title: t2("card3title"),
-                 description: t2("card3description"),
+                 description: t2.raw("card3description"),
                },
            
              ];
@@ -202,34 +204,33 @@ const page = () => {
                   t("faq.answer1"),
                },
                {
-                 question: t("faq.question2"),
+                 question: t.raw("faq.question2"),
                  answer:
                   t("faq.answer2"),
                },
                {
-                  question: t("faq.question3"),
+                  question: t.raw("faq.question3"),
                  answer:
-                  t("faq.answer3"),
+                  t.raw("faq.answer3"),
                },
            
                {
                question: t("faq.question4"),
                  answer:
-                  t("faq.answer4"),
+                  t.raw("faq.answer4"),
                },
            
                {
                question: t("faq.question5"),
                  answer:
-                  t("faq.answer5"),
+                  t.raw("faq.answer5"),
                },
              ];
            
                const h2items = [
-               { title: t("h2Section.header1"),text: t("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3") },
-               { title: t("h2Section.header4"), text: t("h2Section.text4") },
+               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
+               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
 
   return (
@@ -241,13 +242,16 @@ const page = () => {
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
-      <SubBanner  header={t('graphicmotion_banner_header1')}
-  header2={t('graphicmotion_banner_header2')}
-  text={t('graphicmotion_banner_text')}
-    header3={t('graphicmotion_banner_header3')}
-  text2={t('graphicmotion_banner_text2')}
+<div className='flex flex-col items-center justify-center gap-5'>
+        <SubBanner  header={t('creative_subbanner_header')}
+  header2={t('creative_subbanner_header2')}
+  text={t.raw('creative_subbanner_text')}
+    header3={t('creative_subbanner_header3')}
+  text2={t.raw('creative_subbanner_text2')}
   buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+  <AutoBreadcrumbs/>
   <AiAnswerBlock text={t("creative_ai_answer_text")}/>
+</div>
           <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>

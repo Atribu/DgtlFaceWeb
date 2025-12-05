@@ -29,6 +29,8 @@
   "creative_corporate_gift": "Kurumsal Hediye Tasarımı",
   "creative_uiux": "UI/UX Tasarımı",
   "creative_video": "Video & Prodüksiyon",
+  "creative_graphic": "Graphic Design",
+  "creative_event": "Event Production",
 
 
   "callcenter_multilang": "4 Dilli Çağrı Merkezi",
@@ -4134,13 +4136,13 @@
       "header": "Neden DGTLFACE ile Grafik & Motion Tasarım?",
 
       "card1title": "Sadece Tasarım Değil, Strateji + Performans Odaklı Yaklaşım",
-      "card1description": "DGTLFACE, <b>“sadece görsel yapan”</b> bir ajans değildir. Grafik & motion tasarımı;<ul><li> /tr/sem (Google Ads, YouTube Ads), </li><li>/tr/smm (Sosyal Medya Yönetimi),  </li><li>/tr/creative (video prodüksiyon, etkinlik)  </li><li> /tr/seo/icerik-seo (içerik pazarlaması) </li></ul> ekipleriyle birlikte ele alır. Böylece üretilen her görsel; <b>reklamlarda, sosyal medyada, web’de ve kampanya planlarında gerçek iş sonucuna</b>, yani tıklama, etkileşim ve dönüşüme bağlanır.",
+      "card1description": "DGTLFACE, <b>“sadece görsel yapan”</b> bir ajans değildir. Grafik & motion tasarımı;<ul><li> <a href=\"/tr/sem\">Google Ads</a>, <a href=\"/tr/smm\">Sosyal Medya Yönetimi</a> </li><li>,  </li><li> <a href=\"/tr/creative\">video prodüksiyon</a> </li><li> <a href=\"/tr/seo/icerik-seo\">içerik pazarlaması</a> </li></ul> ekipleriyle birlikte ele alır. Böylece üretilen her görsel; <b>reklamlarda, sosyal medyada, web’de ve kampanya planlarında gerçek iş sonucuna</b>, yani tıklama, etkileşim ve dönüşüme bağlanır.",
 
       "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Creative Tasarım",
       "card2description": "<b>“Grafik tasarım antalya, antalya creative tasarım, motion graphic türkiye, antalya tasarım ajansı”</b> gibi aramaların arkasında; <b>bölgeyi, turizm sezonlarını ve hedef kitleleri tanıyan</b> bir ekip beklentisi vardır. DGTLFACE;<ul><li> Otel, resort, villa, tur operatörü, restoran ve bölgesel markalarla yoğun çalışan; </li><li>DE, RU, UK ve iç pazar gibi turist profillerinin görsel beklentilerini bilen </li><li> Bu içgörüleri renk, kompozisyon ve içerik türlerine bire bir yansıtan</li></ul> bir creative partner olarak konumlanır.",
 
       "card3title": "Web, UI/UX ve Video Prodüksiyonla Entegre Görsel Dünya",
-      "card3description": "Grafik & motion tasarımı; /tr/creative/ui-ux-tasarim, /tr/creative/video-produksiyon ve /tr/yazilim/web-sitesi-gelistirme ile <b>entegre</b> ele alıyoruz.<ul><li> Web tasarımı ile sosyal medya kreatifleri <b>aynı dili konuşur</b>, </li><li>Video prodüksiyon ile <b>motion graphic katmanları uyumlu</b> ilerler, </li><li>Landing page, kampanya sayfası ve reklam görselleri <b>aynı görsel stratejiye</b> bağlanır.</li></ul> Sonuç: Kullanıcının gözünde, başından sonuna <b>tutarlı bir marka deneyimi </b>ortaya çıkar."
+      "card3description": "Grafik & motion tasarımı; <a href=\"/tr/creative/ui-ux-tasarim\">ui-ux-tasarım</a> , <a href=\"/tr/creative/video-produksiyon\">video produksiyon</a>  ve <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a>  ile <b>entegre</b> ele alıyoruz.<ul><li> Web tasarımı ile sosyal medya kreatifleri <b>aynı dili konuşur</b>, </li><li>Video prodüksiyon ile <b>motion graphic katmanları uyumlu</b> ilerler, </li><li>Landing page, kampanya sayfası ve reklam görselleri <b>aynı görsel stratejiye</b> bağlanır.</li></ul> Sonuç: Kullanıcının gözünde, başından sonuna <b>tutarlı bir marka deneyimi </b>ortaya çıkar."
     },
 
     "verticalSlider": {
@@ -4149,22 +4151,22 @@
 
       "title1": "Motion Graphic ",
       "span1": "Nedir, Nerede Kullanılır?",
-      "text1": "Motion graphic; statik grafik öğelerin (metin, ikon, görsel, şekil) hareketlendirilmesiyle oluşan kısa video/animasyon içerikleridir. Sosyal medya Reels & story’lerde, YouTube ve reklam videolarının intro/outro’larında, web sitelerinde açıklayıcı animasyonlarda, otel tanıtım videolarında ara geçişlerde ve kampanya duyurularında dikkat çekici kısa animasyonlar olarak kullanılır. DGTLFACE, bu içerikleri marka kimliğinize özel tasarlar.",
+      "text1": "<b>Motion graphic</b>; statik grafik öğelerin (metin, ikon, görsel, şekil) hareketlendirilmesiyle oluşan kısa video/animasyon içerikleridir. Kullanım alanları:<ul><li>Sosyal medya Reels & story’ler, </li><li>YouTube ve reklam videoları intro/outro’ları,</li><li> Web sitelerinde açıklayıcı animasyonlar, </li><li>Otel tanıtım videolarında ara geçişler,</li><li> Kampanya duyurularında dikkat çekici kısa animasyonlar. </li></ul> DGTLFACE, bu içerikleri <b>marka kimliğinize</b> özel tasarlar.",
       "button1": "Motion Graphic Kullanım Alanları",
 
       "title2": "Sosyal Medya için Grafik Tasarım ",
       "span2": "Yaparken Nelere Dikkat Edilmeli?",
-      "text2": "Sosyal medya tasarımında; platform oranlarına uygun ölçüler (feed, story, Reels), küçük ekranlarda okunabilen tipografi, net hiyerarşi (başlık → görsel → CTA), marka renklerinin dozunda kullanımı, yoğun bilgi yerine sade ve vurucu mesajlar ve kampanya/organik içerik görsel dengesinin doğru kurulması kritiktir. “Sosyal medya için grafik tasarım” yapan ekip; sadece tasarımı değil, algoritma ve kullanıcı davranışlarını da bilmelidir.",
+      "text2": "Platform oranlarına uygun tasarım <b>(feed, story, Reels, banner)</b>, <ul><li>Küçük ekranlarda okunabilen tipografi,</li><li> Net hiyerarşi (başlık → görsel → CTA), </li><li>Marka renklerinin <b>doğru ve dozunda </b>kullanımı, </li><li>Yoğun bilgi yerine <b>sade ve vurucu mesajlar</b>, </li><li>Kampanya ve organik içerik dengesinin <b>görsel olarak ayrıştırılması</b>.</li></ul> <b>“Sosyal medya için grafik tasarım”</b> yapan ekip, sadece tasarımı değil, <b>algoritma ve kullanıcı davranışlarını</b> da bilmelidir.",
       "button2": "Sosyal Medya Tasarım Rehberi",
 
       "title3": "Oteller İçin Grafik Tasarımda ",
       "span3": "Öne Çıkan Başlıklar",
-      "text3": "Oteller için grafik tasarımda; farklı pazarlar için farklı kreatif versiyonları (DE, RU, UK, TR), oda/havuz/restoran gibi alanlara özel post serileri, sezon–erken rezervasyon–bayram–high season kampanya kreatifleri, OTA ve acente iş birlikleri için ortak görsel setler ve SPA, restoran, etkinlik gibi yan gelir kalemleri için alt kampanya tasarımları öne çıkar. DGTLFACE, otel grafik tasarımı ve resort sosyal medya tasarımları tarafında bu detayları uçtan uca kurgular.",
+      "text3": "Oteller için grafik tasarımda; farklı <b>pazarlar için farklı kreatif versiyonları </b>(DE, RU, UK, TR),<ul><li> oda/havuz/restoran gibi alanlara özel post serileri, </li><li>Sezon–erken rezervasyon–bayram–high season kampanya kreatifleri, </li><li>OTA ve acente iş birlikleri için ortak görsel setler </li><li> SPA, restoran, etkinlik gibi yan gelir kalemleri için alt kampanya tasarımları</li></ul> öne çıkar. DGTLFACE, <b>otel grafik tasarımı ve resort sosyal medya tasarımları</b> tarafında bu detayları uçtan uca kurgular.",
       "button3": "Otel Grafik Paketlerini İncele",
 
       "title4": "Renk Paleti ve Tipografi Seçimi ",
       "span4": "Nasıl Yapılmalı?",
-      "text4": "Renk paleti ve tipografi seçimi; marka değerleri ve sektör gözetilerek yapılmalı, dijitalde okunabilir kontrast değerleri korunmalı, başlık ve gövde metinleri için birbirini tamamlayan font aileleri tercih edilmeli, çok dilli kullanımda (TR–EN–RU–DE) font desteği test edilmeli ve web, sosyal medya, baskı için aynı renk seti farklı formatlara göre uyarlanmalıdır. DGTLFACE, bu süreci estetik kadar kullanılabilirlik ve erişilebilirlik açısından da değerlendirir.",
+      "text4": "<b>Marka değerleriniz ve sektörünüz,</b> renk seçiminde belirleyici olmalı,<ul><li> Dijitalde okunabilir <b>kontrast değerleri</b> gözetilmeli,</li><li> Başlık ve gövde metinleri için <b>birbirini tamamlayan font aileleri</b> seçilmeli, </li><li>Çok dilli kullanımda <b>(TR–EN–RU–DE)</b> font desteği test edilmeli, </li><li>Web, sosyal medya ve baskı için aynı renk seti farklı formatlara göre hazırlanmalı.</li></ul> DGTLFACE, bu süreci sadece <b>estetik</b> değil, <b>kullanılabilirlik ve erişilebilirlik</b> açısından da değerlendirir.",
       "button4": "Renk & Tipografi Stratejisi"
     },
 
@@ -4172,19 +4174,19 @@
       "header": "SSS – Grafik & Motion Tasarım Hakkında Sık Sorulan Sorular",
 
       "question1": "Sadece sosyal medya tasarımı için sizinle çalışabilir miyiz?",
-      "answer1": "Evet. Sadece sosyal medya için grafik tasarım ve motion graphic üretimi yapabileceğimiz gibi, web ve reklam tarafıyla entegre bir yaratıcı paket de kurgulayabiliriz. Tercih, markanızın mevcut yapısına, ekip kapasitenize ve hedeflerinize bağlı olarak birlikte belirlenir.",
+      "answer1": "<b>Evet</b>. Sadece sosyal medya için <b>grafik tasarım ve motion graphic</b> üretimi yapabileceğimiz gibi, <b>web ve reklam tarafıyla entegre</b> bir yaratıcı paket de kurgulayabiliriz. Tercih, markanızın mevcut yapısına, ekip kapasitenize ve hedeflerinize bağlı olarak birlikte belirlenir.",
 
       "question2": "Mevcut kurumsal kimliğimiz var, yeniden mi tasarlamanız gerekiyor?",
-      "answer2": "Hayır, zorunlu değil. Mevcut logo, renk ve tipografi setinizi kullanarak sosyal medya ve kampanya tasarımlarını modernleştirebiliriz. Eğer kimlik çok eskiyse veya dijitalde işinizi taşımakta zorlanıyorsa, aşamalı bir yenileme/güncelleme opsiyonunu da birlikte değerlendirebiliriz.",
+      "answer2": "<b>Hayır, zorunlu değil.</b> Mevcut <b>logo, renk ve tipografi</b> setinizi kullanarak sosyal medya ve kampanya tasarımlarını <b>modernleştirebiliriz</b>. Eğer kimlik çok eskiyse veya dijitalde işinizi taşımakta zorlanıyorsa, aşamalı bir <b>yenileme/güncelleme </b> opsiyonunu da birlikte değerlendirebiliriz.",
 
       "question3": "Motion graphic için mutlaka video çekimi şart mı?",
-      "answer3": "Değil. Motion graphic; mevcut fotoğraf, ikon, illüstrasyon ve tipografi ile de üretilebilir. Ancak elinizde kaliteli video materyali varsa, /tr/creative/video-produksiyon ekibinin çekimleriyle birlikte çok daha zengin ve hikâye odaklı bir motion dünyası kurulabilir. İhtiyaca göre her iki modeli de kullanabiliriz.",
+      "answer3": "Değil.<b> Motion graphic</b>; mevcut fotoğraf, ikon, illüstrasyon ve tipografi ile de üretilebilir. Ancak elinizde kaliteli video materyali varsa, <a href=\"/tr/creative/video-produksiyon\">video prodüksiyon</a>  ekibimizin çekimleriyle birlikte <b>çok daha zengin bir motion dünyası</b> kurulabilir.",
 
       "question4": "Tasarım sürecinde onay akışı nasıl işliyor?",
-      "answer4": "Genel akış; kısa bir brief ve hedeflerin netleştirilmesi, moodboard ve örnek yönlendirmeler, ilk taslak setinin (1–2 yön) hazırlanması, revizyonlar ve final tasarımın netleşmesi, ardından onay sonrası farklı format ve oranlara uyarlama şeklinde ilerler. Sosyal medya tarafında ise genellikle aylık içerik & tasarım takvimi üzerinden çalışıyoruz.",
+      "answer4": "Genel akış:<ul><li> Kısa bir <b>brief ve hedeflerin netleştirilmesi</b>,</li><li> <b>Moodboard ve örnek yönlendirmeler</b>,</li><li> İlk taslak seti <b>(1–2 yön)</b>,</li><li> Revizyonlar ve final tasarım, </li><li>Onay sonrası <b>çoğaltma</b> (farklı format ve oranlara uyarlama). </li></ul>Sosyal medya tarafında ise genelde <b>aylık içerik & tasarım takvimi</b> üzerinden çalışıyoruz.",
 
       "question5": "DGTLFACE ile grafik & motion tasarım projesine nasıl başlıyoruz?",
-      "answer5": "Önce markanız, hedefleriniz ve ihtiyaç listeniz üzerinden kısa bir toplantı yaparız. Ardından mevcut görsel durumunuzu (sosyal medya, web, offline materyaller) analiz eder, grafik & motion tasarım kapsamını netleştirir, zaman çizelgesi ve teklifi paylaşırız. Onay sonrası kreatif üretim süreçlerine geçeriz. Dilerseniz bu süreç; /tr/smm/icerik-uretimi ve /tr/sem ile entegre bir “full creative + medya” modeli olarak da kurgulanabilir."
+      "answer5": "Markanız, hedefiniz ve ihtiyaç listeniz üzerinden <b>kısa bir toplantı</b>,<ul><li> Mevcut görsel durumun <b>(sosyal medya, web, offline)</b> analizi, </li><li>Grafik & motion tasarım <b>kapsamının belirlenmesi</b>, </li><li><b>Zaman çizelgesi ve teklifin</b> paylaşılması, </li><li>Onay sonrası <b>kreatif üretim süreçlerine geçiş</b>. </li></ul>Dilerseniz bu süreç; <a href=\"/tr/smm/icerik-uretimi\">içerik üretimi</a>  ve <a href=\"/tr/sem\">sem</a>  ile entegre bir <b>“full creative + medya”</b> modeli olarak da kurgulanabilir."
     }
   },
 
@@ -4193,35 +4195,36 @@
 
     "subbanner_header": "Kullanıcı Deneyimi (UX) ve Arayüz (UI) Tasarımı –",
     "subbanner_header2": " Modern & Akıcı Arayüzler",
-    "subbanner_text": "DGTLFACE, UI/UX tasarım alanında; markanızın dijital yüzünü modern, sezgisel ve dönüşüm odaklı hâle getiren bir creative & teknoloji partneridir. Bizim için UI/UX, sadece “ekran tasarlamak” değil; kullanıcı deneyimi tasarımı, arayüz tasarım hizmeti, UX analizi, wireframe tasarım, prototipleme gibi süreçlerin, iş hedeflerinizle bire bir hizalanmasıdır.\n\nWeb siteleri, rezervasyon sistemleri, kurumsal paneller, landing page’ler ve turizm odaklı mobil uygulamalarda; tasarladığımız her ekranın arkasında, “Bu kullanıcı burada ne yapmak istiyor ve biz ona nasıl en kısa yoldan yardımcı oluruz?” sorusu vardır.\n\nSonuç: Güzel görünen ama kullanılmayan arayüzler değil, gerçekten kullanılan, anlaşılır ve dönüşüm üreten dijital deneyimler.",
+    "subbanner_text": "DGTLFACE, <b>UI/UX tasarım</b> alanında; markanızın dijital yüzünü <b>modern, sezgisel ve dönüşüm odaklı</b> hâle getiren bir <b>creative & teknoloji partneridir</b>. Bizim için UI/UX, sadece <b>“ekran tasarlamak”</b> değil; <b>kullanıcı deneyimi tasarımı, arayüz tasarım hizmeti, UX analizi, wireframe tasarım, prototipleme</b> gibi süreçlerin, <b>iş hedeflerinizle bire bir hizalanmasıdır.</b>\n\nWeb siteleri, rezervasyon sistemleri, kurumsal paneller, landing page’ler ve turizm odaklı mobil uygulamalarda; tasarladığımız her ekranın arkasında, <b>“Bu kullanıcı burada ne yapmak istiyor ve biz ona nasıl en kısa yoldan yardımcı oluruz?”</b> sorusu vardır.\n\nSonuç: <b>Güzel görünen ama kullanılmayan</b> arayüzler değil, gerçekten <b>kullanılan, anlaşılır ve dönüşüm üreten dijital deneyimler.</b>",
 
     "ai_answer_title": "AI Answer Block – UI & UX Tasarımı",
     "ai_answer_text": "DGTLFACE, UI/UX tasarım süreçlerinde; kullanıcı araştırması, UX analizi, wireframe tasarım, Figma prototipleri ve mobil uyumlu UI kitleri ile web sitesi, rezervasyon arayüzü, dashboard ve panelleri yeniden kurgular. Özellikle otel ve turizm projelerinde, rezervasyon akışı, oda seçimi, fiyat görünürlüğü ve çok dilli kullanıcı deneyimi optimize edilir. Tasarımlar, /tr/yazilim/web-sitesi-gelistirme ve SEO ekipleriyle entegre hazırlanarak dönüşümü ve kullanıcı memnuniyetini artırır.",
 
      "subbanner_header3": "UI/UX Tasarımı Nedir, Neden Bu Kadar Kritik?",
-    "subbanner_text2": "“UI/UX tasarımı nasıl yapılır?” sorusunun cevabı, günümüzde yalnızca estetik tercih değil, doğrudan satış, rezervasyon ve lead performansı ile ilgilidir.\n\nUI (User Interface) → Kullanıcının gördüğü ekranlar, butonlar, renkler, tipografi, görsel hiyerarşi.\nUX (User Experience) → Kullanıcının yolculuğu, adım sayısı, ne kadar zorlandığı, ne kadar tatmin olduğu.\n\nKötü bir UX, en iyi reklam kampanyasını bile boşa çıkarabilir. Kullanıcının:\n- Aradığı bilgiyi bulamaması,\n- Rezervasyon / form sürecinde kaybolması,\n- Mobilde butonlara basamaması,\n- İletişim kanallarına kolay ulaşamaması\n\ndemek, doğrudan kaybedilmiş iş fırsatı demektir.\n\nDGTLFACE, “UI/UX tasarımı nasıl yapılır, kullanıcı odaklı tasarım prensipleri, web sitesi dönüşüm artırma, kullanıcı testi nasıl yapılır” gibi başlıklarda; teorik prensipleri gerçek kullanıcı davranışlarıyla birleştirerek çalışır.",
+    "subbanner_text2": "<b>“UI/UX tasarımı nasıl yapılır?”</b> sorusunun cevabı, günümüzde yalnızca <b>estetik tercih</b> değil, doğrudan <b>satış, rezervasyon ve lead performansı</b> ile ilgilidir. <ul><li> UI (User Interface) → Kullanıcının gördüğü ekranlar, butonlar, renkler, tipografi, görsel hiyerarşi. </li><li>UX (User Experience) → Kullanıcının yolculuğu, adım sayısı, ne kadar zorlandığı, ne kadar tatmin olduğu. </li></ul> <b>Kötü bir UX</b>, en iyi reklam kampanyasını bile boşa çıkarabilir. Kullanıcının:<ul><li>- Aradığı bilgiyi <b>bulamaması</b>,</li><li>- Rezervasyon / form sürecinde <b>kaybolması</b>,</li><li>- Mobilde butonlara basamaması,</li><li>- İletişim kanallarına <b>kolay ulaşamaması</b></li></ul> demek, doğrudan <b>kaybedilmiş iş fırsatı</b> demektir.\n\nDGTLFACE, <b>“UI/UX tasarımı nasıl yapılır, kullanıcı odaklı tasarım prensipleri, web sitesi dönüşüm artırma, kullanıcı testi nasıl yapılır”</b> gibi başlıklarda; teorik prensipleri <b>gerçek kullanıcı davranışlarıyla</b> birleştirerek çalışır.",
 
     "h2Section": {
       "header1": "Kullanıcı Odaklı Tasarım Prensipleri",
-      "text1": "İyi bir UX, “bizce güzel” değil, “kullanıcı için işlevsel” olandır. DGTLFACE, kullanıcı odaklı tasarım prensiplerini her projede şu adımlarla uygular:",
+      "text1": "İyi bir UX, <b>“bizce güzel”</b> değil, “kullanıcı için işlevsel” olandır. DGTLFACE, kullanıcı odaklı tasarım prensiplerini her projede şu adımlarla uygular:",
 
       "header2": "Oteller ve Turizm Markaları İçin UI/UX Tasarımı",
-      "text2": "Turizm tarafında UI/UX’in etkisi, direkt doluluk, rezervasyon ve gelir üzerinde hissedilir.\n“Oteller için UI/UX tasarım, otel rezervasyon arayüzü, otel web UX tasarımı, PMS uyumlu UI tasarımı, turizm mobil uygulama tasarımı” gibi ihtiyaçlarda DGTLFACE:\n\n- Oda, paket, kampanya ve destinasyon içeriklerini; kullanıcıyı yormadan, net bloklar hâlinde sunar,\n- Rezervasyon akışını (tarih seçimi, kişi sayısı, oda seçimi, ekstralar, ödeme yönlendirmeleri) mümkün olan en az adımda kurgular,\n- PMS ve rezervasyon motoru ile arayüzün tutarlı çalışmasını sağlar (PMS uyumlu UI),\n- Mobil cihazlarda tek elle kullanılabilen, büyük dokunmatik alanlara sahip arayüzler tasarlar,\n- Misafir yorumları, fotoğraf galerileri, konum ve öne çıkan olanakları güçlü bir UX akışıyla birleştirir.\n\nSonuç: Siteniz sadece estetik değil; kullanıcıların güvenle rezervasyon yapabildiği bir deneyim merkezine dönüşür.",
+      "text2": "Turizm tarafında UI/UX’in etkisi, direkt <b>doluluk, rezervasyon ve gelir</b> üzerinde hissedilir.\n<b>“Oteller için UI/UX tasarım, otel rezervasyon arayüzü, otel web UX tasarımı, PMS uyumlu UI tasarımı, turizm mobil uygulama tasarımı”</b> gibi ihtiyaçlarda DGTLFACE:<ul><li> Oda, paket, kampanya ve destinasyon içeriklerini; kullanıcıyı yormadan, net bloklar hâlinde sunar,</li><li> Rezervasyon akışını (tarih seçimi, kişi sayısı, oda seçimi, ekstralar, ödeme yönlendirmeleri) mümkün olan en az adımda kurgular,</li><li> PMS ve rezervasyon motoru ile arayüzün tutarlı çalışmasını sağlar (PMS uyumlu UI),</li><li> Mobil cihazlarda tek elle kullanılabilen, büyük dokunmatik alanlara sahip arayüzler tasarlar,</li><li> Misafir yorumları, fotoğraf galerileri, konum ve öne çıkan olanakları güçlü bir UX akışıyla birleştirir.</li></ul> Böylece otel siteniz, sadece estetik değil; kullanıcının <b>güvenle rezervasyon yapabildiği </b>bir <b>deneyim merkezine</b> dönüşür.",
 
       "header3": "UI/UX Tasarım Süreci: Analiz → Wireframe → Tasarım → Prototip",
-      "text3": "DGTLFACE, “hadi bir tasarım yapalım” demeden önce sağlam bir süreç işletir.",
+      "text3": "DGTLFACE, <b>“hadi bir tasarım yapalım”</b> demeden önce <b>sağlam bir süreç</b> işletir.",
 
       "header4": "Kullanıcıyı Anlamak",
       "text4": "Hedef kitle profilleri (yaş, ülke, dil, motivasyon, dijital alışkanlıklar) çıkarılır.\nÖzellikle otel ve turizm projelerinde; iç pazar, Almanya, Rusya, İngiltere gibi pazarlara özel davranış farkları dikkate alınır.",
 
        "header5": "UX Analizi ve Araştırma",
-      "text5": "Mevcut site veya uygulamanın kullanıcı yolculuğu analiz edilir.\nGA4 verileri üzerinden sorunlu adımlar tespit edilir.\nRakip ve benchmark analizi yapılır.\nKullanıcı geri bildirimleri toplanır.",
+      "text5": "Mevcut site veya uygulamanın <b>kullanıcı yolculuğu</b> analiz edilir. <ul><li><b>Google Analytics / GA4</b> verileri üzerinden sorunlu adımlar (yüksek çıkış oranı, düşük dönüşüm) tespit edilir, </li><li><b>Rakip ve benchmark analizi</b> ile güçlü/zayıf örnekler incelenir, </li><li>Kullanıcı geri bildirimleri ve ekip içi gözlemler toplanır. </li></ul><b>“UX analizi, UX araştırma yöntemleri”</b> burada devreye girer ve tasarım sürecinin temelini oluşturur.",
 
        "header6": "Web Siteleri İçin UI/UX Tasarımı",
-      "text6": "Kurumsal web siteleri, otel & turizm siteleri, landing page’ler için modern, mobil uyumlu ve dönüşüm odaklı arayüzler tasarlarız."
+      "text6": "<ul><li>Kurumsal web siteleri, </li><li>otel & turizm siteleri,</li><li> Kampanya ve ürün/hizmet landing page’leri </li></ul>için modern, mobil uyumlu ve dönüşüm odaklı arayüzler tasarlarız. Her projede: <ul><li>Ana sayfa akışı,</li><li> Hizmet / oda detay sayfaları,</li><li> İletişim & rezervasyon sayfaları,</li><li> Blog / içerik sayfaları </li></ul>için özel UX senaryoları oluştururuz."
     },
 
     "h3Section": {
+      "header":"DGTLFACE UI/UX Tasarım Hizmet Detayları",
       "header1": "Net Hedef Belirlemek",
       "text1": "Her ekran için şu soru sorulur:\n“Bu ekranın amacı nedir?”\nRezervasyon mu, form doldurma mı, teklif talebi mi, bilgi verme mi? Her sayfa için tek bir ana hedef tanımlanır.",
 
@@ -4232,29 +4235,29 @@
       "text3": "Kullanıcının “bir eğitim almadan” arayüzü anlayabilmesi gerekir. Buton yerleşimleri, form alanları, menü yapısı, ikonlar; alışılmış dijital davranışlara uygun seçilir.",
 
       "header4": "Wireframe Tasarım ve Bilgi Mimarisi",
-      "text4": "Arayüzün görsel detaylarına geçmeden önce, wireframe tasarım ile sayfa iskeletleri çıkarılır:\n- Hangi bölüm nerede yer alacak?\n- Kullanıcı hangi sırayla hangi bilgiyi görecek?\n- CTA’lar nerede konumlanacak?\nBu aşamada teknik ekiplerle sürdürülebilir bir bilgi mimarisi oluşturulur.",
+      "text4": "Arayüzün görsel detaylarına geçmeden önce, <b>wireframe tasarım </b> ile sayfa iskeletleri çıkarılır:<ul><li> Hangi bölüm nerede yer alacak?</li><li> Kullanıcı hangi sırayla hangi bilgiyi görecek?/li><li> CTA’lar <b>(rezervasyon, form, teklif)</b> nerede konumlanacak?/li></ul> Bu aşamada <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a> ve <a href=\"/tr/yazilim/cms-entegrasyonu\">cms entegrasyonu</a> teknik ekiplerle <b>sürdürülebilir bir bilgi mimarisi</b> oluşturulur.",
 
       "header5": "UI Tasarım ve Prototipleme",
-      "text5": "Renk paleti, tipografi ve ikon setleri belirlenir.\nFigma’da yüksek kaliteli UI tasarımları hazırlanır.\nTıklanabilir prototipler üretilir.\nGerekirse kullanıcı testi yapılır.",
+      "text5": "Wireframe onaylandıktan sonra <b>görsel tasarım</b> süreci başlar: Renk paleti, tipografi, ikon setleri ve görsel stil netleştirilir, <b>Figma</b> gibi araçlarda yüksek kaliteli UI tasarımları hazırlanır, <b>Tıklanabilir prototipler</b> üretilerek kullanıcı yolculuğu simüle edilir, Gerekirse küçük bir çevrim içi <b>kullanıcı testi</b> ile ilk reaksiyonlar ölçülür. <b>“Figma tasarım rehberi, prototipleme, mobil uyumlu UI tasarım”</b> süreçlerimizin doğal parçalarıdır.",
 
       "header6": "Dashboard, Panel ve İç Sistemler İçin UX Tasarımı",
-      "text6": "İç kullanıcı deneyimi de en az dış kullanıcı kadar önemlidir. Satış, rezervasyon ve operasyon ekiplerinin kullandığı paneller için sade, işlevsel ve hızlı arayüzler taslarız.",
+      "text6": "Sadece dış kullanıcı değil, <b>iç kullanıcı deneyimi (internal UX)</b> de önemlidir. <ul><li>Satış ekipleri,</li><li> Rezervasyon ve çağrı merkezi ekipleri, </li><li> Operasyon yönetimi </li></ul> için kullanılan panellerin arayüzü; işlerin <b>hızını ve hata oranını</b> doğrudan etkiler. DGTLFACE, bu paneller için <b>sade, işlevsel ve öğrenmesi kolay</b> arayüzler tasarlar.",
 
       "header7": "Mobil Uyumlu ve Responsive UI Tasarımı",
-      "text7": "Mobil öncelikli tasarım yaklaşımıyla; farklı ekran kırılımlarına uygun düzenler, ergonomik dokunmatik alanlar ve responsive arayüzler oluştururuz."
+      "text7": "Kullanıcıların büyük bir kısmı artık mobile odaklı. Bu nedenle:<ul><li><b>Mobil öncelikli (mobile-first)</b> tasarım yaklaşımı kullanırız, </li><li>Farklı ekran kırılımları (telefon, tablet, masaüstü) için ayrı düzenler planlarız, </li><li>Buton, form alanı ve menüleri <b>mobil kullanım ergonomisine</b> göre tasarlarız, </li><li>Responsive <b>web tasarım</b> prensiplerine sadık kalırız. </li></ul>Bu sayede arayüzünüz her ekranda <b>aynı kalitede deneyim</b> sunar."
     },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile UI/UX Tasarımı?",
 
       "card1title": "Tasarım + Yazılım + Performans Tek Çatıda",
-      "card1description": "DGTLFACE; yazılım, SEO, reklam ve sosyal medya ekipleriyle birlikte çalışır. Bu sayede UI/UX tasarımları; geliştirilebilir, SEO uyumlu ve performansa uygun bir zeminde üretilir.",
+      "card1description": "DGTLFACE, yalnızca “görüntü” üreten değil, aynı zamanda: <ul><li> <a href=\"/tr/yazilim\">Yazılım ekibi</a> , </li><li> <a href=\"/tr/seo/teknik-seo\">SEO ekibi</a>, </li><li> <a href=\"/tr/sem \">Reklam ekibi</a>, </li><li><a href=\"/tr/sosyal-medya-yonetimi\">Sosyal medya ekibi </a> </li></ul> ile birlikte çalışan bir yapıdır. Bu sayede UI/UX tasarımlarınız; hem <b>geliştirilebilir</b>, hem <b>SEO uyumlu</b>, hem de <b>reklam performansına uygun</b> bir zeminde üretilir.",
 
       "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı UX Zekâsı",
-      "card2description": "Turizm projelerinde deneyimli olan DGTLFACE; DE, RU, UK, TR pazarlarının davranışlarını bilir ve UX kararlarına uygular.",
+      "card2description": "<b>“UI/UX Antalya, Antalya UI tasarım, UX tasarım Türkiye, Antalya dijital tasarım”</b> gibi aramaların arkasında; <b>bölgeyi, turist profilini, sezonluk dalgalanmaları ve sektör ihtiyaçlarını</b> anlayan bir ekip beklentisi vardır.DGTLFACE:<ul><li> Oteller, resort’lar, villa projeleri, acenteler ve hizmet odaklı markalar için çok sayıda proje yürütmüş, </li><li>Farklı pazarlardaki kullanıcı davranışlarını (DE, RU, UK, TR) deneyimlemiş, </li><li>Bu tecrübeyi UI/UX kararlarına doğrudan yansıtan bir partnerdir.</li></ul>",
 
       "card3title": "Rezervasyon, PMS ve Dijital Satış Süreçleriyle Entegre UX",
-      "card3description": "UI/UX, PMS & OTA ile entegre düşünülmelidir. DGTLFACE; rezervasyon motoru, reklam trafiği ve çağrı merkezi süreçlerini UX ile tek deneyimde birleştirir."
+      "card3description": "Özellikle otel ve turizm projelerinde; UI/UX, <b>PMS & OTA & çağrı merkezi & dijital reklam</b> ile birlikte düşünülmelidir. DGTLFACE:<ul><li> <a href=\"/tr/pms-ota-yonetimi\">/tr/pms ota yönetimi</a>  ile <b>rezervasyon ve kanal yönetimi</b> süreçlerini, </li><li><a href=\"/tr/otel/reklam-yonetimi\">reklam yönetimi</a> ve <a href=\"/tr/sem\">sem</a>  ile <b>reklam trafiğini</b>, </li><li><a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ile <b>telefon ve mesaj trafiğini</b>, </li></ul> UX tasarımıyla <b>tek bir deneyim zincirine</b> bağlar. Kısaca: <b>“güzel ekranlar”</b> değil, <b>ucundan ucuna< çalışan satış ve dönüşüm tünelleri /b> tasarlarız."
     },
 
     "verticalSlider": {
@@ -4263,22 +4266,22 @@
 
       "title1": "UI/UX Tasarımı ",
       "span1": "Nasıl Yapılır?",
-      "text1": "Hedef analizi → veri analizi → UX senaryoları → wireframe → UI tasarımı → prototip → geliştirme entegrasyonu → yayın sonrası ölçüm.",
+      "text1": "Özet akış:<ul><li><b> Hedef ve kullanıcı analizi</b>,</li><li><b> Veri analitiği </b>(GA4, ısı haritaları, geri bildirimler), /li><li><b> UX senaryoları ve bilgi mimarisi</b>,/li><li>  <b>Wireframe tasarımı,</b> /li><li> <b>UI tasarımı</b> (Figma vb.), /li><li> <b>Prototipleme ve test</b>, /li><li> <b>Geliştirme ekibiyle entegrasyon,</b> /li><li> Yayın sonrası <b>ölçüm ve iterasyon</b>./li></ul>  DGTLFACE bu süreci, <b>proje dokümantasyonu ile birlikte</b> yönetir.",
       "button1": "UI/UX Sürecini İncele",
 
       "title2": "Kullanıcı Testi ",
       "span2": "Nasıl Yapılır ve Neden Önemlidir?",
-      "text2": "Gerçek kullanıcılarla kısa görevler üzerinden test yapılır. Kullanıcı hangi adımlarda zorlanıyorsa not alınır ve tasarım bu geri bildirimlerle iyileştirilir.",
+      "text2": "Kullanıcı testi, tasarladığımız ekranları gerçek kullanıcılarla kısa senaryolar üzerinden denemek demektir. Örneğin: <ul><li><b>“Bu sayfadan rezervasyon yapar mısın?”</b> </li><li><b>“Bu hizmetle ilgili fiyat bilgisine ulaşabilir misin?”</b></li></ul> gibi görevler verilir ve kullanıcı hangi adımlarda zorlanıyorsa not alınır. Bu yöntem, tasarımcı ve geliştiricinin gözünden kaçan noktaları ortaya çıkarır.",
       "button2": "Kullanıcı Testi Rehberi",
 
       "title3": "UX Writing ",
-      "span3": "Örnekleri ve Mikro Metinler",
-      "text3": "Buton metinleri, hata mesajları, yardım açıklamaları; kullanıcının deneyimi nasıl hissettiğini belirler. Mikro metinler UX’in kalbidir.",
+      "span3": "Örnekleri ",
+      "text3": "Sadece görsel değil, <b>metin tonu</b> da UX’in bir parçasıdır. <ul><li>Buton metinleri <b>(Gönder vs. Teklif Al)</b>, </li><li>Hata mesajları (kuru uyarılar yerine <b>yönlendirici mesajlar</b>),</li><li> Yardım metinleri ve alan açıklamaları,</li></ul> kullanıcının süreci nasıl hissettiğini belirler. DGTLFACE, UI/UX tasarımlarında <b>UX writing </b>boyutunu da hesaba katar.",
       "button3": "UX Writing Örnekleri",
 
       "title4": "Web Sitesi Dönüşümünü ",
       "span4": "Artıran UX Dokunuşları",
-      "text4": "Form alanlarını azaltmak, güven unsurları eklemek, hızlı iletişim butonları göstermek ve mobil ergonomiye göre tasarlamak dönüşümü artırır.",
+      "text4": "<ul><li><b>Form alanlarını azaltmak</b>, </li><li>Zorunlu bilgileri <b>minimumda</b> tutmak, </li><li><b>Güven unsurlarını </b>(yorumlar, sertifikalar, güvenlik ikonları) doğru yerlere eklemek, </li><li><b>Hızlı iletişim seçenekleri</b> (WhatsApp, çağrı, canlı destek) sunmak, </li><li>Mobilde <b>tek elle kullanılabilen</b> tasarım tercihleri yapmak. </li></ul> Bunlar, <b>küçük ama etkisi büyük</b> UI/UX dokunuşlarıdır.",
       "button4": "Dönüşüm Artıran UX Teknikleri"
     },
 
@@ -4286,19 +4289,19 @@
       "header": "SSS – UI/UX Tasarımı Hakkında Sık Sorulan Sorular",
 
       "question1": "UI/UX tasarımı nedir?",
-      "answer1": "UI/UX tasarımı; görsel arayüz (UI) ile kullanıcı deneyimini (UX) birlikte ele alan bir süreçtir. UX, deneyimi; UI ise bu deneyimin görsel yüzünü temsil eder.",
+      "answer1": "UI/UX tasarımı; <b>görsel arayüz (UI)</b> ile <b>kullanıcı deneyimini (UX)</b>  birlikte ele alan bir süreçtir. UX, deneyimi; UI ise bu deneyimin görsel yüzünü temsil eder.",
 
       "question2": "Kullanıcı deneyimi neden bu kadar kritik?",
-      "answer2": "Kullanıcı deneyimi doğrudan satış, rezervasyon ve lead üzerinde etkili olduğu için kritiktir. Kullanıcı aradığını bulamıyorsa en iyi reklam kampanyası bile boşa gider.",
+      "answer2": "Kullanıcı deneyimi, doğrudan satış, <b>rezervasyon, lead ve memnuniyet</b> üzerinde etkili olduğu için kritiktir. Kullanıcı aradığını bulamıyorsa, formları yarıda bırakıyorsa veya mobilde zorlanıyorsa en iyi reklam kampanyası bile boşa gider.",
 
       "question3": "Oteller için rezervasyon akışı nasıl optimize edilir?",
-      "answer3": "Tarih seçimi, kişi/oda sayısı, oda seçimi, fiyat görünümü, ekstralar ve ödeme adımları net ve kısa bir flow hâlinde tasarlanır. PMS uyumu sağlanır.",
+      "answer3": "Rezervasyon akışında; <b>tarih seçimi, kişi/oda sayısı, oda seçimi, fiyat görünümü, ekstralar ve ödeme</b> adımları net ve mümkün olduğunca kısa bir flow hâlinde kurgulanır. Her adımda belirsizlik azaltılır, mobil kullanım önceliklendirilir ve PMS/rezervasyon motoru ile uyum sağlanır.",
 
       "question4": "Figma ile prototip nasıl hazırlanır?",
-      "answer4": "Tasarım Figma’da oluşturulur, ardından ekranlar tıklanabilir prototipe dönüştürülür. Kullanıcı deneyimi geliştirme öncesi test edilir.",
+      "answer4": "Wireframe ve UI tasarımları Figma’da oluşturulur; ardından ekranlar <b>tıklanabilir prototip</b> hâline getirilir. Kullanıcı, gerçek bir site/uygulama kullanıyormuş gibi senaryoları deneyebilir. Bu sayede geliştirme öncesi sorunlar erkenden tespit edilir.",
 
       "question5": "DGTLFACE UI/UX sürecini nasıl yönetir?",
-      "answer5": "Analiz → UX araştırması → wireframe → UI tasarım → prototip → test → geliştirme handoff → yayın sonrası iterasyon şeklinde yönetilir."
+      "answer5": "Akışımız:<ul><li> İhtiyaç & hedef analizi,</li><li> UX araştırması ve analitik veri incelemesi, </li><li>Wireframe ve bilgi mimarisi, </li><li>UI tasarım (Figma), </li><li>Prototip ve gerekirse kullanıcı testi, </li><li>Web geliştirme ekibine handoff, </li><li>Yayın sonrası ölçüm ve iterasyon.</li></ul> Dilerseniz proje; <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web sitesi geliştirme</a>  ile birlikte <b>uçtan uca tasarım + geliştirme</b> modeli olarak da kurgulanabilir."
     }
   },
 
@@ -4307,61 +4310,61 @@
 
     "subbanner_header": "Profesyonel Video Prodüksiyon –",
     "subbanner_header2": " Tanıtım, Reklam ve Kreatif Çekimler",
-    "subbanner_text": "DGTLFACE, video prodüksiyon alanında; markanızın hikâyesini güçlü görseller, doğru kurgu ve profesyonel ekipmanlarla birleştiren yaratıcı bir prodüksiyon partneridir. Sadece “kamera tutan” değil; strateji, senaryo, çekim planı, kurgu ve dağıtım tarafını birlikte düşünen bir ekiple çalışırız.\n\nİster reklam filmi çekimi, ister tanıtım videosu, ister 360 derece çekim, ister drone çekimi olsun; hedefimiz her zaman aynı: markanızın değerini en gerçek ve en etkileyici şekilde ekrana taşımak.\n\nOteller, turizm markaları, kurumsal firmalar ve hizmet işletmeleri için; video artık bir “opsiyon” değil, dijital vitrinin ana bileşenidir. DGTLFACE, video kurgu montaj sürecinden yayın stratejisine kadar yanınızdadır.",
+    "subbanner_text": "DGTLFACE, <b>video prodüksiyon </b> alanında; markanızın hikâyesini <b>güçlü görseller, doğru kurgu ve profesyonel ekipmanlarla</b> birleştiren yaratıcı bir prodüksiyon partneridir. Sadece <b>“kamera tutan”</b> değil; strateji, senaryo, çekim planı, kurgu ve dağıtım tarafını birlikte düşünen bir ekiple çalışırız.\n\nİster reklam filmi çekimi, ister tanıtım videosu, ister <b>360 derece çekim</b>, ister drone çekimi olsun; hedefimiz her zaman aynı: <b>markanızın değerini en gerçek ve en etkileyici şekilde ekrana taşımak.</b> \n\nOteller, turizm markaları, kurumsal firmalar ve hizmet işletmeleri için; video artık bir <b>“opsiyon”</b> değil, <b>dijital vitrinin ana bileşenidir</b>. DGTLFACE, <b>video kurgu montaj</b> sürecinden <b>yayın stratejisine</b> kadar yanınızdadır.",
     "subbanner_header3": " Video Prodüksiyon Nedir, Markaya Ne Katar?",
-    "subbanner_text2":"“Video prodüksiyon nasıl yapılır?” sorusunun cevabı aslında iş hedefi ile başlar. İyi kurgulanmış bir prodüksiyon:\n\n- Markanızın hikâyesini kısa ve akılda kalıcı şekilde anlatır,\n- Dijital reklam kampanyalarınızda (YouTube, Meta, Google) daha yüksek etkileşim ve tıklama oranı sağlar,\n- Web sitenizdeki kullanıcıların sitede kalma süresini artırır,\n- Sosyal medyada paylaşılan, kaydedilen ve konuşulan içerikler üretir,\n- Otellerde ve turizm projelerinde deneyimi, sadece fotoğraf değil, hareket ve atmosfer üzerinden aktarır.\n\nDGTLFACE, “oteller için tanıtım videosu, turizm video çekimi, otel tanıtım filmi örnekleri, kısa reklam videosu” gibi ihtiyaçlarda; görsel kaliteyi iş hedeflerinizle aynı çizgiye oturtur.",
+    "subbanner_text2":"<b>“Video prodüksiyon nasıl yapılır?”</b> sorusunun cevabı aslında iş hedefi ile başlar. İyi kurgulanmış bir prodüksiyon:<ul><li> Markanızın hikâyesini kısa ve akılda kalıcı şekilde anlatır,</li><li> Dijital reklam kampanyalarınızda (YouTube, Meta, Google) daha yüksek etkileşim ve tıklama oranı sağlar, </li><li>Web sitenizdeki kullanıcıların sitede kalma süresini artırır,</li><li> Sosyal medyada paylaşılan, kaydedilen ve konuşulan içerikler üretir,</li><li> Otellerde ve turizm projelerinde deneyimi, sadece fotoğraf değil, hareket ve atmosfer üzerinden aktarır.</li></ul>DGTLFACE, <b>“oteller için tanıtım videosu, turizm video çekimi, otel tanıtım filmi örnekleri, kısa reklam videosu”</b> gibi ihtiyaçlarda; <b>görsel kaliteyi iş hedeflerinizle aynı çizgiye </b>oturtur.",
 
     "ai_answer_title": "AI Answer Block – Video & Prodüksiyon",
     "ai_answer_text": "DGTLFACE, video prodüksiyon hizmetleri ile markalar ve özellikle oteller için tanıtım filmi, reklam videosu, 360° tur ve drone çekimleri üretir. Senaryo & storyboard hazırlığı, profesyonel çekim, kurgu–montaj, color grading ve çoklu format çıkışları tek çatı altında yönetilir. Hazırlanan videolar; web sitesi, sosyal medya, reklam kampanyaları ve OTA sayfalarında maksimum etki yaratacak şekilde planlanır.",
 
     "h2Section": {  
     "header1": "Oteller ve Turizm Markaları İçin Video Prodüksiyon",
-      "text1": "Turizm sektörü, video prodüksiyonun en çok fark yarattığı alanlardan biridir. Tatil, deneyim ve destinasyon; en iyi hareketli görüntüyle satılır. DGTLFACE, otel video prodüksiyon ve turizm projelerinde:\n\n- Oda, havuz, spa, restoran, plaj, etkinlik ve destinasyon çekimlerini storyboard’lu bir planla çalışır,\n- Resort video çekimi ile otelin tüm yaşam alanlarını bir hikâye içinde kurgular,\n- Erken rezervasyon, high season, bayram ve özel etkinlikler için kampanya filmleri üretir,\n- OTA ve tur operatörlerine uygun turizm reklam filmi formatları çıkarır,\n- Sosyal medya için dikey formatta kısa videolar ve Reels uyumlu versiyonlar hazırlar.\n\n“Otel drone çekimi, turizm video çekimi, otel tanıtım filmi örnekleri” gibi spesifik taleplerde; hem yaratıcı hem operasyonel tarafta turizm odaklı deneyimimizle hareket ederiz.\nBu hizmet, /tr/otel-dijital-pazarlama ile birlikte otel dijital stratejisinin video bacağını oluşturur.",
+      "text1": "Turizm sektörü, video prodüksiyonun <b>en çok fark yarattığı</b> alanlardan biridir. Tatil, deneyim ve destinasyon; en iyi <b>hareketli görüntüyle</b> satılır. DGTLFACE, <b>otel video prodüksiyon</b> ve turizm projelerinde:<ul><li> <b>Oda, havuz, spa, restoran, plaj, etkinlik ve destinasyon</b> çekimlerini <b>storyboard’lu bir planla</b> çalışır,</li><li> <b>Resort video çekimi</b> ile otelin tüm yaşam alanlarını bir hikâye içinde kurgular,</li><li>- <b>Erken rezervasyon, high season, bayram ve özel etkinlikler </b>için kampanya filmleri üretir,</li><li>- OTA ve tur operatörlerine uygun <b>turizm reklam filmi </b>formatları çıkarır,</li><li>- Sosyal medya için <b>dikey formatta kısa videolar</b> ve <b>Reels uyumlu versiyonlar</b> hazırlar.</li></ul><b>“Otel drone çekimi, turizm video çekimi, otel tanıtım filmi örnekleri”</b> gibi spesifik taleplerde; <b>hem yaratıcı</b> hem <b>operasyonel</b> tarafta turizm odaklı deneyimimizle hareket ederiz.\nBu hizmet, <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> ile birlikte otel dijital stratejisinin <b>video bacağını</b> oluşturur.",
 
       "header2": "360° Çekim, Drone ve Sanal Tur Çözümleri",
-      "text2": "Bazı mekânlar, tek açıdan değil, 360 derece ve havadan görülmeyi hak eder. DGTLFACE:\n\n- 360 derece çekim ile otel odaları, lobiler, restoranlar ve toplantı alanları için interaktif sanal turlar üretir,\n- Drone ile tesisin konumunu, çevre manzarasını, deniz–doğa–şehir ilişkisini gösteren çekimler yapar,\n- “360 sanal tur çekim teknikleri” doğrultusunda doğru lens, ışık ve rota planlaması yapar,\n- 360 ve drone görüntülerini web sitenize, sosyal medyaya ve sunumlarınıza entegre edilebilecek formatlara dönüştürür.\n\nBu sayede misafirleriniz, otelinizi yalnızca fotoğrafla değil, sanal olarak gezerek deneyimleyebilir.",
+      "text2": "Bazı mekânlar, tek açıdan değil, <b>360 derece ve havadan</b> görülmeyi hak eder. DGTLFACE:<ul><li> <b>360 derece çekim</b> ile otel odaları, lobiler, restoranlar ve toplantı alanları için interaktif sanal turlar üretir,</li><li> <b>Drone</b> ile tesisin konumunu, çevre manzarasını, deniz–doğa–şehir ilişkisini gösteren çekimler yapar,</li><li> <b>“360 sanal tur çekim teknikleri”</b> doğrultusunda doğru lens, ışık ve rota planlaması yapar,</li><li> 360 ve drone görüntülerini <b>web sitenize, sosyal medyaya ve sunumlarınıza</b> entegre edilebilecek formatlara dönüştürür.</li></ul>nBu sayede misafirleriniz, otelinizi yalnızca fotoğrafla değil, <b>sanal olarak gezerek</b> deneyimleyebilir.",
 
       "header3": "Video Prodüksiyon Süreci: Brief → Senaryo → Çekim → Kurgu",
-      "text3": "Profesyonel video prodüksiyon, rastgele yapılan çekimler değil, net bir süreçtir. DGTLFACE’in standardı:",
+      "text3": "Profesyonel video prodüksiyon, rastgele yapılan çekimler değil, <b>net bir süreçtir</b>.",
 
       "header4": "Brief ve Hedef Analizi",
-      "text4": "Hedef kitle kim? (yerli / yabancı, B2B / B2C…)\nBu videonun amacı ne? (marka bilinirliği, rezervasyon, kurumsal imaj, lansman…)\nNerede yayınlanacak? (YouTube, Instagram, web, OTA, TV…)\nBu sorular netleşmeden kamera açılmıyor.",
+      "text4": "<ul><li>Hedef kitle kim? (yerli / yabancı, B2B / B2C…) </li><li>Bu videonun <b>amacı ne?</b> (marka bilinirliği, rezervasyon, kurumsal imaj, lansman…)</li><li><b>Nerede yayınlanacak?</b> (YouTube, Instagram, web, OTA, TV…)</li></ul>Bu sorular netleşmeden <b>kamera açılmıyor.</b>",
 
       "header5": "Tanıtım Videosu & Kurumsal Film",
-      "text5": "Oteller, turizm tesisleri, kurumsal markalar, ajans ve hizmet şirketleri için:\n- 1,5–3 dakikalık tanıtım filmleri,\n- Yönetici ve ekip röportajları,\n- Çok dilli altyazı ve seslendirme opsiyonları."
+      "text5": "Oteller, turizm tesisleri, kurumsal markalar, ajans ve hizmet şirketleri için:<ul><li> 1,5–3 dakikalık tanıtım videosu ve kurumsal film çalışmaları,</li><li> Yönetici ve ekip röportajları, işletme hikâyesi, tesis gezisi, süreç anlatımı, </li><li>Çok dilli altyazı ve seslendirme opsiyonları (TR, EN, DE, RU…). </li></ul><b>“Tanıtım videosu, oteller için tanıtım videosu, kurumsal tanıtım filmi”</b> gibi ihtiyaçlarda; <b>marka kimliğiniz ve hedef pazarınıza</b> uygun bir dil kullanırız."
     },
 
     "h3Section": {
       "header1": "Senaryo Yazımı ve Storyboard Hazırlama",
-      "text1": "“Video storyboard hazırlama, video senaryo yazımı” sürecinde:\n- Çekim gününde neyi, hangi sırayla, hangi açıyla çekeceğimizi planlarız,\n- Sahne sahne görsel taslaklar oluştururuz,\n- Metin, seslendirme ve müzik seçimlerini önceden kurgularız.",
+      "text1": "<b>“Video storyboard hazırlama, video senaryo yazımı”</b> sürecinde:<ul><li> Çekim gününde neyi, hangi sırayla, hangi açıyla çekeceğimizi planlarız,</li><li> Sahne sahne görsel taslaklar oluştururuz,</li><li> Metin, seslendirme ve müzik seçimlerini önceden kurgularız.</li></ul>Senaryo; hem görsel hem metinsel akışı <b>aynı hizada</b> tutar.",
 
       "header2": "Çekim Günü Planlaması ve Prodüksiyon Ekipmanları",
-      "text2": "“Prodüksiyon ekipmanları” tarafında:\n- Profesyonel kamera ve lens setleri,\n- Drone, gimbal, slider gibi hareket ekipmanları,\n- Ses kayıt sistemleri,\n- Işık ve set düzeni\nile çekim yapılır. Çekim planı, otel operasyonunu en az etkileyecek şekilde organize edilir.",
+      "text2": "<b>“Prodüksiyon ekipmanları”</b> tarafında:<ul><li> Profesyonel <b>kamera ve lens setleri</b>,</li><li> <b>Drone, gimbal, slider</b> gibi hareket ekipmanları,</li><li> <b>Ses kayıt sistemleri,<b></li><li> <b>Işık ve set düzeni</b></li></ul>ile çekim yapılır. Çekim planı, <b>tel operasyonunu ve misafir deneyimini en az etkileyecek</b> şekilde organize edilir.",
 
       "header3": "Kurgu, Montaj ve Yayına Hazırlık",
-      "text3": "En iyi planların seçimi,\nRitimli kurgu ve geçişler,\nRenk düzenleme (color grading) ve ses miksajı,\nAlternatif versiyonlar: uzun tanıtım, kısa reklam, sosyal medya cut’ları.\nGerekirse YouTube Ads ve Reels formatında özel versiyonlar üretilir.",
+      "text3": "<ul><li>En iyi planların seçimi,</li><li><b>Ritimli kurgu ve geçişler</b>,</li><li><b>Renk düzenleme (color grading) ve ses miksajı</b>,</li><li>Alternatif versiyonlar: <b>uzun tanıtım, kısa reklam, sosyal medya cut’ları</b>.</li></ul>Gerekirse:<ul><li> <a href=\"/tr/smm/reels-video\">Reels video</a>  ile entegre <b>Reels uyumlu versiyonlar</b>,<a href=\"/tr/sem/youtube-reklam-yonetimi\">youtube reklam yönetimi</a> için <b>YouTube reklam formatında</b> çıkışlar alınır.",
 
       "header4": "Reklam Filmi & Performans Odaklı Video İçerikleri",
-      "text4": "Kısa reklam filmi çekimi,\n15–30 saniyelik performans odaklı videolar,\nGoogle Ads, YouTube Ads, Meta Ads için özel oran ve süreler,\nA/B test için farklı giriş ve kapanış versiyonları.",
+      "text4": "<ul><li>Kısa, vurucu reklam filmi çekimi, </il><li>15–30 saniyelik performans odaklı dijital reklam videoları, </il><li>Google Ads, YouTube Ads, Meta Ads gibi platformlar için özel oran ve sürelerde versiyonlar, </il><li>A/B test denemeleri için farklı giriş / kapanış ve teklif kurguları. </il></ul><b>“Kısa reklam videosu, turizm reklam filmi, reklam filmi Türkiye”</b> gibi taleplerde; creative ekibimiz <a href=\"/tr/sem\">sem</a> /tr/sem ve <a href=\"/tr/smm/sosyal-medya-reklamlari\">sosyal medya reklamları</a> ekipleriyle birlikte çalışır.",
 
       "header5": "Sosyal Medya Video İçerikleri & Reels",
-      "text5": "Instagram Reels, TikTok ve YouTube Shorts için dikey videolar,\nMotion graphic katmanlı hikâye anlatımı,\n“Kulisten anlar” ve deneyim videoları,\nReels uyumlu kısa video paketleri.",
+      "text5": "<ul><li><b>Instagram Reels, TikTok ve YouTube Shorts</b> için dikey video formatları,</li><li> <b>Motion graphic katmanlı</b> hikâye anlatımı, </li><li><b>“Kulisten anlar”, “günlük hayat”, “deneyim anları” </b> gibi içerik serileri, </li><li>/tr/smm/reels-video stratejisiyle uyumlu <b>kısa video prodüksiyon paketleri</b>. </li></ul>Burada hedef; <b>“like alıp geçmek”</b> değil, <b>kaydedilen, paylaşılan ve rezervasyon talebine dönüşen</b> içerikler üretmek.",
 
       "header6": "Etkinlik Çekimleri ve Aftermovie Prodüksiyon",
-      "text6": "Konser, lansman, gala ve toplantılar için çok kameralı çekim,\nKısa, dinamik aftermovie kurguları,\nEtkinlik videolarının pazarlama amaçlı kullanımı."
+      "text6": "Konserler, lansmanlar, özel davetler, gala geceleri ve toplantılar için: <ul><li><b>Çok kameralı etkinlik çekimi</b>, </li><li>Kısa ve dinamik <b>aftermovie’ler</b>, </li><li>Ses ve atmosferin güçlü verildiği <b>kurgu</b>, </li><li> <a href=\"/tr/creative/etkinlik-produksiyonu\">etkinlik prodüksiyonu</a> ile tam entegre prodüksiyon hizmeti. </li></ul>Oteller ve markalar için etkinlik videoları, yalnızca <b>o anı belgelemek</b> değil; bir sonraki etkinliğin <b>pazarlama materyalini</b> üretmek anlamına gelir."
     },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile Video & Prodüksiyon?",
 
       "card1title": "Turizm ve Otel Odaklı Video Uzmanlığı",
-      "card1description": "Antalya merkezli turizm deneyimiyle; otel operasyon akışını bozmadan profesyonel çekimler yapar, farklı pazarlara uygun içerikler üretiriz.",
+      "card1description": "<b>“Video prodüksiyon Antalya, Antalya drone çekim, Antalya video ajansı”</b> gibi aramaların arkasında; <b>bölgeyi, sezonu ve sektörü</b> bilen bir ekip beklentisi vardır. DGTLFACE: <ul><li><b>Antalya, Belek, Kemer, Side, Alanya ve çevresinde</b> çok sayıda otel ve turizm projesiyle çalışmış, </li><li>Farklı pazarların <b>(DE, RU, UK, iç pazar)</b> görsel beklentilerini bilen, </li><li>Çekim planını <b>otel operasyonu ve misafir deneyimiyle çakıştırmadan</b> yürütebilen</li></ul> bir prodüksiyon partneridir.",
 
       "card2title": "Creative + Medya + Dijital Altyapı Entegrasyonu",
-      "card2description": "Creative ekip + SEM/YouTube Ads + SMM + Web & Yazılım ekipleri aynı masada çalışır. Videolar her platforma uygun şekilde optimize edilir.",
+      "card2description": "Video prodüksiyon, tek başına bir çıktı değil, <b>dijital mimarinin parçasıdır</b>. DGTLFACE’te:<ul><li> <a href=\"/tr/creative\">Creative ekip</a> ,</li><li>  <a href=\"/tr/sem\">SEM </a> &  <a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube Ads ekibi</a>, </li><li> <a href=\"/tr/smm\">SMM ekibi</a> , </li><li>  <a href=\"/tr/yazilim/web-sitesi-gelistirme \"> Web & yazılım ekibi</a>  </li></ul>aynı masada oturur. Bu da çekilen videoların; <b>web sitenizde, sosyal medyada, reklam kampanyalarında ve OTA sayfalarında</b> maksimum etkiyle kullanılmasını sağlar.",
 
       "card3title": "Senaryo, Çekim ve Kurgu’da Uçtan Uca Hizmet",
-      "card3description": "Brief’ten çekime, çekimden kurguya kadar tek noktadan hizmet sunarız. Süreç hızlı, tutarlı ve profesyonel ilerler."
+      "card3description": "Birçok marka; senaryo için ayrı, çekim için ayrı, kurgu için ayrı kişi/ajansla çalışmak zorunda kalıyor. DGTLFACE, <b>uçtan uca video prodüksiyon </b> sağlayarak:<ul><li> <b>Brief’ten storyboard’a</b>, </li><li><b>Çekimden post prodüksiyona,</b> </li><li><b>Montajdan çoklu format çıkışlarına</b> kadar </li></ul>tek noktadan hizmet sunar. Bu da hem <b>süreci hızlandırır</b> hem de <b>nihai işin tutarlılığını</b> korur."
     },
 
     "verticalSlider": {
@@ -4370,27 +4373,27 @@
 
       "title1": "Oteller İçin Tanıtım Videosu ",
       "span1": "Nasıl Olmalı?",
-      "text1": "Hikâye odaklı ilerlemeli. Oda, havuz, restoran sahneleri dengeli olmalı. 1,5–3 dakikalık ana film + kısa cut’lar üretilmeli.",
+      "text1": "<ul><li>Tesisin tamamını göstermek yerine, <b>hikâye odaklı</b> ilerlemeli, </li><li><b>Oda, havuz, restoran, spa, etkinlik, destinasyon</b> gibi sahneleri dengeli kullanmalı, </li><li>Hedef pazara göre <b>müzik ve tempo</b> seçilmeli (ör. Almanya pazarı vs iç pazar), </li><li>Video süresi genelde <b>1,5–3 dakika</b> bandında tutulmalı, </li><li><b>YouTube ve OTA için uzun versiyon</b> + sosyal medya için kısa cut’lar üretilmeli. </li></ul>DGTLFACE, bu çerçeveyi markanızın <b>segmentine ve hedef pazarına</b> göre özelleştirir.",
       "button1": "Otel Tanıtım Videosu Rehberi",
 
       "title2": "360 Sanal Tur ",
       "span2": "Çekim Teknikleri",
-      "text2": "Doğru çekim noktası, lens seçimi, ışık planlaması ve alan düzeni kritik unsurlardır.",
+      "text2": "<ul><li><b>Lens seçimi</b> ve çekim noktasının doğru belirlenmesi, </li><li>Işık dengesinin bozulmaması için <b>çekim saatlerinin iyi planlanması</b>, </li><li>Oda ve mekân düzenlemesinin çekim öncesi <b>titizlikle</b> yapılması, </li><li>Gereksiz objelerin ve dağınıklığın <b>kadrajdan temizlenmesi</b>, </li><li>Web ve OTA entegrasyonuna uygun formatta <b>çıktı alınması</b>. </li></ul><b>“360 sanal tur çekim teknikleri”</b> doğrultusunda yapılan çalışmalar, kullanıcının mekânı <b>gerçekten geziyormuş</b> hissiyle tanımasını sağlar.",
       "button2": "360° Sanal Tur Teknikleri",
 
       "title3": "Drone Çekimi ",
       "span3": "İpuçları",
-      "text3": "Işık, hava durumu, yasal izinler, doğru yükseklik ve rota planlaması en önemli faktörlerdir.",
+      "text3": "<ul><li>Yasal izinler ve uçuş kurallarına uyum, </li><li>Rüzgâr ve hava durumu planlaması,</li><li> Tesisin en iyi açıdan göründüğü saatlerin seçilmesi (ışık, gölge, yoğunluk), </li><li><b>Güvenlik mesafelerine ve misafir mahremiyetine</b> dikkat edilmesi, </li><li>Farklı yükseklik ve hızlarda <b>alternatif planlar</b> çekilmesi.</li></ul> Drone çekimi, özellikle <b>turizm reklam filmi</b> ve <b>otel tanıtım videosunun</b> en çarpıcı sahnelerini oluşturur.",
       "button3": "Drone Çekim Rehberi",
 
       "title4": "Kısa Reklam Videosu ",
       "span4": "İdeal Süre",
-      "text4": "YouTube için 6–15–30 saniyelik formatlar; ilk 3 saniyede mesaj + CTA verilmesi gerekir.",
+      "text4": "<ul><li><b>YouTube Bumper Ads</b> için → <b>6 saniyelik</b> “tek mesaj” odaklı videolar, </li><li>YouTube ve sosyal medya reklamları için → <b>15–30 saniye</b> arası, </li><li>İlk <b>3 saniyede logo + temel mesajın</b> verilmesi, </li><li>Net bir çağrı (şimdi rezervasyon yap, kampanyayı keşfet vb.). </li></ul>DGTLFACE, <b>“kısa reklam videosu”</b> üretirken platform guideline’larını ve <b>reklam performansı metriklerini</b> birlikte değerlendirir.",
       "button4": "Reklam Videosu İpuçları",
 
       "title5": "Video Storyboard ",
       "span5": "Hazırlama İpuçları",
-      "text5": "Her sahne akış planlı olmalı. Müzik, metin ve görüntü aynı tabloda hazırlanmalı.",
+      "text5": " <ul><li>Her sahne için 1 kare değil, <b>akış oluşturacak 2–3 kare </b>planlamak, </li><li>Metin, sahne ve ses tasarımını <b>aynı tabloda</b> görmek, </li><li>Otel ve turizm projelerinde <b>gün içi (gündüz/akşam) dengesini </b>storyboard’a yansıtmak, </li><li>Gereksiz sahnelerle videoyu şişirmek yerine, <b>vurucu anları</b> seçmek. </li></ul>İyi bir storyboard, çekim gününü hem <b>hızlı</b> hem <b>verimli</b> hâle getirir.",
       "button5": "Storyboard Örnekleri"
     },
 
@@ -4398,19 +4401,19 @@
       "header": "SSS – Video & Prodüksiyon Hakkında Sık Sorulan Sorular",
 
       "question1": "Sadece çekim hizmeti mi veriyorsunuz, yoksa kurgu ve montajı da siz mi yapıyorsunuz?",
-      "answer1": "Her ikisini de yapabiliyoruz. Çoğu projede çekim + kurgu + montaj dahil uçtan uca hizmet veriyoruz.",
+      "answer1": "Tamamen size bağlı. Çoğu projede <b>çekim + kurgu + montaj dahil uçtan uca hizmet</b> veriyoruz. Ancak kendi kurgu ekibiniz varsa, yalnızca çekim veya sadece kurgu/montaj hizmeti de sunabiliriz.",
 
       "question2": "Video prodüksiyon için minimum bütçe ve süre nedir?",
-      "answer2": "Çekim günü sayısı, ekipman, konum ve kurgu süresine göre değişir. İlk brief sonrası net plan çıkarıyoruz.",
+      "answer2": "<ul><li>Bütçe ve süre; <b>Çekim günü sayısı, </b></li><li>Ekipman seviyesi (drone, 360, ekstra ışık vb.),</li><li><b> Konum sayısı,</b> </li><li>Kurgu süresi ve <b>versiyon sayısı</b> </li></ul>gibi faktörlere göre değişir. DGTLFACE, ilk brief sonrası size <b>net bir kapsam + süre + bütçe</b> planı çıkarır.",
 
       "question3": "Sadece sosyal medya için kısa video paketleri alabilir miyiz?",
-      "answer3": "Evet. Reels, TikTok ve Shorts için dikey video paketlerimiz var ve SMM stratejisiyle entegre çalışıyor.",
+      "answer3": "Evet. Reels, TikTok, YouTube Shorts odaklı; <b>kısa, dinamik ve dikey formatta</b> videolardan oluşan paketler sunuyoruz. Bu paketler, /tr/smm/reels-video ve /tr/smm/icerik-uretimi ile entegre çalışır. Stok görüntü kullanıyor musunuz, yoksa her şey özgün çekim mi oluyor? (H3) Tercihen otel ve markaya özel çekim yapmayı öneriyoruz; çünkü gerçek mekân ve deneyim hissi çok daha güçlü. Ancak bütçe ve süre kısıtlarında, stok görüntüleri de gerektiği yerde destekleyici olarak kullanabiliyoruz. Kararı projeye göre birlikte veririz.",
 
       "question4": "Stok görüntü kullanıyor musunuz, yoksa her şey özgün çekim mi oluyor?",
-      "answer4": "Tercihen özgün çekim öneriyoruz; ancak gerekirse stok görüntülerle destek sağlayabiliriz.",
+      "answer4": "Tercihen otel ve markaya özel çekim yapmayı öneriyoruz; çünkü gerçek mekân ve deneyim hissi çok daha güçlü. Ancak bütçe ve süre kısıtlarında, stok görüntüleri de gerektiği yerde destekleyici olarak kullanabiliyoruz. Kararı projeye göre birlikte veririz.",
 
       "question5": "DGTLFACE ile video prodüksiyon projesine nasıl başlıyoruz?",
-      "answer5": "Brief → konsept → senaryo → çekim → kurgu → revizyon → platformlara uygun versiyonlar şeklinde ilerliyoruz."
+      "answer5": "Akışımız: <ul><li>Kısa bir <b>briefing toplantısı</b> (hedef, kitle, kullanım alanı), </li><li><b>Konsept ve senaryo</b> önerileri, </li><li><b>Çekim planı, lokasyon ve ekip</b> organizasyonu, </li><li><b>Çekim günü/günleri</b>, </li><li><b>Kurgu, montaj, revizyonlar</b>, </li><li>Farklı platformlara uygun versiyonların hazırlanması <b>(web, sosyal medya, reklam, OTA vb.)</b>.</li></ul> Tüm süreç boyunca hem <b>kreatif</b> hem <b>teknik</b> ekiplerimiz sizinle iletişimde olur."
     }
   },
 
@@ -4419,9 +4422,9 @@
 
     "subbanner_header": "Etkinlik Prodüksiyonu –",
     "subbanner_header2": " Profesyonel Çekim ve Organizasyon Yönetimi",
-    "subbanner_text": "DGTLFACE, etkinlik prodüksiyonu alanında; lansman, konser, kurumsal toplantı, gala, festival ve otel içi etkinlikleriniz için uçtan uca çözüm sunan kreatif bir prodüksiyon partneridir. Bizim için etkinlik prodüksiyonu, sadece “kamera getirip çekmek” değil; etkinlik yönetimi, etkinlik çekimi, kurumsal organizasyon, lansman prodüksiyonu, etkinlik video çekimi gibi tüm katmanları tek çatı altında yönetmektir.\n\nMarkanızın yıl boyunca yaptığı her etkinlik, aslında içerik ve pazarlama açısından büyük bir fırsattır. Doğru kurgulanmış bir prodüksiyon; hem o anın enerjisini yakalar, hem de sonrası için aftermovie, sosyal medya içerikleri, reklam videoları, kurumsal arşiv gibi uzun vadeli değer üretir. DGTLFACE, tüm bu süreci planlar, üretir ve dijital dünyada en güçlü şekilde konumlandırır.",
+    "subbanner_text": "DGTLFACE, <b>etkinlik prodüksiyonu</b> alanında; <b>lansman, konser, kurumsal toplantı, gala, festival ve otel içi etkinlikleriniz</b> için <b>uçtan uca çözüm </b> sunan kreatif bir prodüksiyon partneridir. Bizim için etkinlik prodüksiyonu, sadece <b>“kamera getirip çekmek”</b> değil; <b>etkinlik yönetimi, etkinlik çekimi, kurumsal organizasyon, lansman prodüksiyonu, etkinlik video çekimi</b> gibi tüm katmanları <b>tek çatı altında yönetmektir</b>.\n\nMarkanızın yıl boyunca yaptığı her etkinlik, aslında <b>içerik ve pazarlama</b> açısından büyük bir fırsattır. Doğru kurgulanmış bir prodüksiyon; <b>hem o anın enerjisini yakalar</b>, hem de sonrası için <b>aftermovie, sosyal medya içerikleri, reklam videoları, kurumsal arşiv</b> gibi uzun vadeli değer üretir. DGTLFACE, tüm bu süreci planlar, üretir ve <b>dijital dünyada en güçlü şekilde </b> konumlandırır.",
       "subbanner_header3": " Etkinlik Prodüksiyonu Nedir, Neleri Kapsar?",
-    "subbanner_text2": "“Etkinlik prodüksiyonu nedir, etkinlik prodüksiyonu nasıl yapılır?” sorusunun cevabı; sahadaki tüm hareketlerin, markanızın hedefleriyle uyumlu bir görsel hikâyeye dönüşmesidir.\n\nProfesyonel bir etkinlik prodüksiyonu:\n\nEtkinlik öncesi planlama ve çekim senaryosunun hazırlanmasını,\n\nMekân keşfi ve ışık–ses koşullarının analizini,\n\nKamera, ses, ışık ve drone gibi prodüksiyon ekipmanlarının planlamasını,\n\nEtkinlik çekimi sırasında kritik anların kaçırılmadan kaydedilmesini,\n\nEtkinlik sonrası aftermovie, kısa teaser ve öne çıkan anlar videolarının kurgulanmasını,\n\nKurumsal arşiv ve dijital kanallar için çoklu formatta çıktı üretilmesini\n\nkapsar.\n\nDGTLFACE, “etkinlik çekimi, lansman prodüksiyonu, kurumsal organizasyon, etkinlik video çekimi” gibi tüm ihtiyaçlarınızı tek bir prodüksiyon akışında toplar.",
+    "subbanner_text2": "<b>“Etkinlik prodüksiyonu nedir, etkinlik prodüksiyonu nasıl yapılır?”</b> sorusunun cevabı; sahadaki tüm hareketlerin, <b>markanızın hedefleriyle uyumlu bir görsel hikâyeye dönüşmesidir.</b> \n\nProfesyonel bir etkinlik prodüksiyonu:<ul><li> <b>Etkinlik öncesi planlama</b> ve çekim senaryosunun hazırlanmasını, </li><li><b>Mekân keşfi</b> ve ışık–ses koşullarının analizini,</li><li> <b>Kamera, ses, ışık ve drone</b> gibi prodüksiyon ekipmanlarının planlamasını, </li><li>Etkinlik çekimi sırasında <b>kritik anların kaçırılmadan</b> kaydedilmesini,</li><li> Etkinlik sonrası <b>aftermovie, kısa teaser ve öne çıkan anlar videolarının</b> kurgulanmasını,</li><li><b>Kurumsal arşiv ve dijital kanallar</b> için çoklu formatta çıktı üretilmesini</li></ul>kapsar. DGTLFACE, <b>“etkinlik çekimi, lansman prodüksiyonu, kurumsal organizasyon, etkinlik video çekimi”</b> gibi tüm ihtiyaçlarınızı <b>tek bir prodüksiyon akışında</b> toplar.",
 
     "ai_answer_title": "AI Answer Block – Etkinlik Prodüksiyonu",
     "ai_answer_text": "DGTLFACE, etkinlik prodüksiyonu kapsamında lansman, konser, gala, kurumsal organizasyon ve otel etkinlikleri için planlama, çekim ve aftermovie süreçlerini uçtan uca yönetir. Çok kameralı video çekimi, fotoğraf, drone ve 360° içerikler, backstage (BTS) görüntüleri ve highlight videolar tek prodüksiyon akışında toplanır. Hazırlanan içerikler; sosyal medya, web, reklam ve kurumsal arşivde kullanılmak üzere çoklu formatta teslim edilir.",
@@ -4429,64 +4432,64 @@
    "h2Section": {
 
   "header1": "Lansman, Konser ve Kurumsal Organizasyonlarda Prodüksiyon",
-  "text1": "Etkinlik türü değiştikçe, prodüksiyon dili ve ihtiyaçlar da değişir. DGTLFACE, farklı etkinlik tiplerine özel yaklaşır:",
+  "text1": "Etkinlik türü değiştikçe, <b>prodüksiyon dili</b> ve ihtiyaçlar da değişir. DGTLFACE, farklı etkinlik tiplerine <b>özel yaklaşır</b>",
 
   "header2": "Etkinlik Planlama ve Yönetim Süreci",
-  "text2": "Başarılı bir etkinlik prodüksiyonu, çekim gününden çok önce başlar. “Etkinlik prodüksiyonu nasıl yapılır, kurumsal etkinlik planlama” sorularının arkasında detaylı bir süreç vardır:",
+  "text2": "Başarılı bir etkinlik prodüksiyonu, <b>çekim gününden çok önce</b> başlar. <b>“Etkinlik prodüksiyonu nasıl yapılır, kurumsal etkinlik planlama”</b> sorularının arkasında detaylı bir süreç vardır:",
 
   "header3": "Etkinlik Video & Fotoğraf Çekimi",
   "text3": "Etkinlikte o anlar bir kez yaşanır; prodüksiyon ekibi için “tekrar alalım” lüksü her zaman yoktur. Bu yüzden, çekim ekibinin deneyimi ve koordinasyonu kritiktir.",
 
   "header4": "Etkinlik Çekimi Planlaması",
-  "text4": "Her etkinlik öncesi:\n\nMekân keşfi yapılır (ışık, sahne, giriş–çıkış, branding alanları),\n\nÇekim açıları ve kamera konumları belirlenir,\n\nEtkinlik yönetimi ekibiyle prova yapılır (özellikle lansman ve sahne geçişlerinde),\n\nAcil durum planları (yağmur, mekan değişikliği, gecikmeler) hazırlanır.\n\nBu planlama sayesinde, “etkinlik çekimi” günü sakin ve kontrollü geçer.",
+  "text4": "Her etkinlik öncesi: <ul><li><b>Mekân keşfi</b> yapılır (ışık, sahne, giriş–çıkış, branding alanları),</li><li>Çekim açıları ve <b>kamera konumları</b> belirlenir,</li><li>Etkinlik yönetimi ekibiyle <b>prova</b> yapılır (özellikle lansman ve sahne geçişlerinde),</li><li>Acil durum planları (yağmur, mekan değişikliği, gecikmeler) hazırlanır.</li></ul>Bu planlama sayesinde, <b>“etkinlik çekimi”</b> günü <b>sakin ve kontrollü</b> geçer.",
 
   "header5": "Kurumsal Organizasyon ve Lansman Prodüksiyonu",
-  "text5": "“Kurumsal organizasyon, lansman prodüksiyonu” projelerinde:\n\nMarkanın mesajı ve ana teması netleştirilir,\n\nSahnedeki sunumlar, video gösterimleri ve konuşma kurgusuyla uyumlu bir çekim planı çıkarılır,\n\nYönetici röportajları ve katılımcı görüşleriyle, lansman sonrası kullanıma uygun ek içerikler üretilir,\n\nTüm süreç; sosyal medya, web ve PR için ayrı versiyonlara bölünecek şekilde kurgulanır.\n\nBöylece lansmanınız, tek bir güne sıkışmaz; aylarca kullanılabilecek içerik setine dönüşür.",
+  "text5": "<b>“Kurumsal organizasyon, lansman prodüksiyonu”</b> projelerinde:<ul><li>Markanın mesajı ve ana teması netleştirilir,</li><li>Sahnedeki sunumlar, video gösterimleri ve konuşma kurgusuyla uyumlu bir <b>çekim planı</b> çıkarılır,</li><li>Yönetici röportajları ve katılımcı görüşleriyle, lansman sonrası kullanıma uygun <b>ek içerikler</b> üretilir,</li><li>Tüm süreç; <b>sosyal medya, web ve PR</b> için ayrı versiyonlara bölünecek şekilde kurgulanır.</li></ul>Böylece lansmanınız, <b>tek bir güne sıkışmaz</b>; aylarca kullanılabilecek <b>içerik setine</b> dönüşür.",
 
   "header6": "Otel & Turizm Etkinlikleri İçin Prodüksiyon",
-  "text6": "Otellerde gerçekleşen:\n\nKonserler, DJ performansları,\n\nGala geceleri, açılışlar, özel davetler,\n\nKonferans ve MICE etkinlikleri,\n\nHavuz partileri ve özel konseptli geceler\n\niçin özel prodüksiyon paketleri sunarız.\n\n“Otel etkinlik çekimi, resort organizasyon prodüksiyonu, turizm konser prodüksiyonu, otel lansman çekimi” gibi ihtiyaçlarda; hem misafir deneyimine saygılı, hem de etkileyici görüntüler yakalayan bir yaklaşım benimsiyoruz."
+  "text6": "Otellerde gerçekleşen:<ul><li><b>Konserler, DJ performansları</b>,</li><li><b>Gala geceleri, açılışlar, özel davetler,</b></li><li><b>Konferans ve MICE etkinlikleri</b>,</li><li><b>Havuz partileri ve özel konseptli geceler</b></li></ul>için özel prodüksiyon paketleri sunarız.\n\n<b>“Otel etkinlik çekimi, resort organizasyon prodüksiyonu, turizm konser prodüksiyonu, otel lansman çekimi”</b> gibi ihtiyaçlarda; hem <b>misafir deneyimine saygılı</b>, hem de <b>etkileyici görüntüler</b> yakalayan bir yaklaşım benimsiyoruz."
 },
 
 "h3Section": {
   "header1": "Lansman Prodüksiyonu",
-  "text1": "Yeni bir ürün, marka ya da hizmet lansmanında; sahne akışı, konuşmacılar, demo alanları ve misafir reaksiyonlarını odakta tutarız.\n\n“Lansman prodüksiyonu, kurumsal organizasyon” taleplerinde; hem sahne önünü hem sahne arkasını belgelendiririz.\nElde edilen görüntüler, sonrasında:\n\nKurumsal tanıtım videoları,\n\nSosyal medya özetleri,\n\nPR & basın içerikleri\n\niçin kullanılır.",
+  "text1": "Yeni bir <b>ürün, marka ya da hizmet lansmanında</b>; sahne akışı, konuşmacılar, demo alanları ve misafir reaksiyonlarını odakta tutarız.\n\n<b>“Lansman prodüksiyonu, kurumsal organizasyon”</b> taleplerinde; hem sahne önünü hem <b>sahne arkasını</b> belgelendiririz.\nElde edilen görüntüler, sonrasında:<ul><li>Kurumsal tanıtım videoları,</li><li>Sosyal medya özetleri,</li><li>PR & basın içerikleri</li></ul>için kullanılır.",
 
   "header2": "Konser ve Show Prodüksiyonu",
-  "text2": "“Konser çekimi teknikleri” çerçevesinde; ışık oyunları, sahne performansı, seyirci coşkusu ve mekân atmosferini çok kameralı bir yapı ile kaydederiz.\n\nOtellerin ve mekânların konser geceleri için dinamik aftermovie’ler üretir, gerektiğinde /tr/smm/reels-video\nile uyumlu Reels / Shorts versiyonları çıkarırız.",
+  "text2": "<b>“Konser çekimi teknikleri”</b> çerçevesinde; <b>ışık oyunları, sahne performansı, seyirci coşkusu ve mekân atmosferini</b> çok kameralı bir yapı ile kaydederiz.\n\nOtellerin ve mekânların konser geceleri için <b>dinamik aftermovie’ler</b> üretir, gerektiğinde <a href=\"/tr/smm/reels-video\">reels video/a> \nile uyumlu Reels / Shorts versiyonları çıkarırız.",
 
   "header3": "Kurumsal Organizasyon ve Toplantılar",
-  "text3": "Lansman, bayi toplantıları, workshop, konferans gibi kurumsal organizasyonlarda:\n\nKonuşmalar, sunumlar, paneller,\n\nNetworking anları,\n\nYönetici & katılımcı röportajları\n\nile kurumsal hikâyenizi görsel olarak görünür kılarız.\n\nHer etkinlik; “o an” için değil, video ve fotoğraf ile sonrası için de değer üretir. DGTLFACE, bu değeri maksimuma çıkarmak için prodüksiyonu baştan sona kurgular.",
+  "text3": "Lansman, bayi toplantıları, workshop, konferans gibi kurumsal organizasyonlarda:<ul><li>Konuşmalar, sunumlar, paneller,</li><li>Networking anları,</li><li>Yönetici & katılımcı röportajları</li><li>ile kurumsal hikâyenizi <b>görsel olarak görünür </b>kılarız.</li></ul>Her etkinlik; <b>“o an için değil”</b> , video ve fotoğraf ile <b>sonrası için de değer</b> üretir. DGTLFACE, bu değeri maksimuma çıkarmak için prodüksiyonu <b>baştan sona kurgular</b>.",
 
   "header4": "Brief ve Hedef Analizi",
-  "text4": "Etkinliğin amacı nedir? (marka bilinirliği, lansman, iç iletişim, satış, PR…)\n\nHedef kitle kimdir? (çalışanlar, iş ortakları, misafirler, medya…)\n\nİçerik nerede kullanılacak? (sosyal medya, web, reklam, iç iletişim…)\n\nBu sorular netleşmeden hiçbir sahne planlanmaz.",
+  "text4": "<ul><li>Etkinliğin <b>amacı nedir?</b> (marka bilinirliği, lansman, iç iletişim, satış, PR…)</li><li><b>Hedef kitle kimdir? </b>(çalışanlar, iş ortakları, misafirler, medya…)</li><li>İçerik nerede kullanılacak? (sosyal medya, web, reklam, iç iletişim…)</li></ul>Bu sorular netleşmeden <b>hiçbir sahne planlanmaz.</b>",
 
   "header5": "Etkinlik Akışı ve Çekim Senaryosu",
-  "text5": "Etkinlik programı çıkarılır (açılış, konuşmalar, show, networking vb.),\n\nHangi anların mutlaka çekilmesi gerektiği belirlenir,\n\nRöportaj, backstage, hazırlık süreci gibi ekstra içerik fırsatları işaretlenir,\n\nEtkinlik yönetimi ekibinizle koordineli bir çekim akışı hazırlanır.\n\nBöylece etkinlik günü; hem organizasyon hem prodüksiyon tarafında kimsenin kafası karışmaz.",
+  "text5": "<ul><li>Etkinlik programı çıkarılır <b>(açılış, konuşmalar, show, networking vb.)</b>,</li><li>Hangi anların <b>mutlaka çekilmesi gerektiği</b> belirlenir,</li><li><b>Röportaj, backstage, hazırlık</b> süreci gibi ekstra içerik fırsatları işaretlenir,</li><li>Etkinlik yönetimi ekibinizle <b>koordineli bir çekim akışı</b> hazırlanır.</li></ul>Böylece etkinlik günü; hem <b>organizasyon hem prodüksiyon</b> tarafında kimsenin kafası karışmaz.",
 
   "header6": "Prodüksiyon Ekipmanlarının Planlanması",
-  "text6": "Etkinlik türüne göre:\n\nÇok kameralı çekim setup’ları,\n\nDrone ve hareketli kamera sistemleri,\n\nSes kayıt sistemleri (mikrofon, line-out, ambiyans kayıt),\n\nIşık desteği ve sahne ekipmanları\n\nplanlanır. DGTLFACE, “prodüksiyon ekipmanları” tarafında da süreci uçtan uca yönetir.",
+  "text6": "Etkinlik türüne göre:<ul><li><b>Çok kameralı çekim setup’ları</b>,</li><li><b>Drone ve hareketli kamera sistemleri</b>,</li><li><b>Ses kayıt sistemleri</b> (mikrofon, line-out, ambiyans kayıt),</li><li><b>Işık desteği ve sahne ekipmanları</b></li></ul>planlanır. DGTLFACE, <b>“prodüksiyon ekipmanları”</b> tarafında da süreci <b>uçtan uca</b> yönetir.",
 
   "header7": "Etkinlik Video Çekimi",
-  "text7": "Akışa göre sabit ve hareketli kameralarla; sahne, seyirci, detay ve backstage planları alınır.\n“Etkinlik video çekimi” için hem:\n\nGenel sahne planları,\n\nHem de yakın planlarla duyguyu yansıtan kareler yakalarız.",
+  "text7": "Akışa göre <b>sabit ve hareketli kameralarla</b>; sahne, seyirci, detay ve backstage planları alınır.\n<b>“Etkinlik video çekimi”</b> için hem:<ul><li>Genel sahne planları,</li><li>Hem de yakın planlarla duyguyu yansıtan kareler yakalarız.</li></ul>",
 
   "header8": "Etkinlik Fotoğraf Çekimi",
-  "text8": "Video kadar önemli olan bir diğer alan da fotoğraftır.\nKurumsal basın bültenleri, sosyal medya, web ve PR kullanımı için; yüksek kaliteli etkinlik fotoğrafları üretiriz.",
+  "text8": "Video kadar önemli olan bir diğer alan da <b>fotoğraftır</b>.\n\nKurumsal basın bültenleri, sosyal medya, web ve PR kullanımı için; <b>yüksek kaliteli etkinlik fotoğrafları</b> üretiriz.",
 
   "header9": "Sahne Arkası ve Backstage Çekimleri",
-  "text9": "Özellikle sosyal medya içeriklerinde çok sevilen backstage görüntüleri, markayı daha samimi ve gerçek gösterir. Bu alanı mutlaka senaryoya dahil ederiz.\n\n“Etkinlik çekimi, etkinlik video çekimi, kurumsal organizasyon” isteyen markalar için; hem video hem fotoğraf katmanını kapsayan hibrit paketler sunarız."
+  "text9": "Özellikle sosyal medya içeriklerinde çok sevilen <b>backstage görüntüleri</b>, markayı daha <b>samimi ve gerçek</b> gösterir. Bu alanı mutlaka senaryoya dahil ederiz.\n\n<b>“Etkinlik çekimi, etkinlik video çekimi, kurumsal organizasyon” </b>isteyen markalar için; hem video hem fotoğraf katmanını kapsayan <b>hibrit paketler</b> sunarız."
 },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile Etkinlik Prodüksiyonu?",
 
       "card1title": "Turizm ve Otel Odaklı Etkinlik Deneyimi",
-      "card1description": "“Etkinlik prodüksiyonu Antalya, Antalya konser prodüksiyonu, etkinlik çekimi Türkiye, Antalya lansman ajansı” gibi aramaların arkasında; otel ve turizm sektörünü bilen bir ekip arayışı vardır. DGTLFACE: Antalya ve çevresinde sayısız otel etkinliği, konser, lansman ve kurumsal organizasyonda görev almış bir prodüksiyon partneridir.",
+      "card1description": "<b>“Etkinlik prodüksiyonu Antalya, Antalya konser prodüksiyonu, etkinlik çekimi Türkiye, Antalya lansman ajansı”</b> gibi aramaların arkasında; <b>otel ve turizm sektörünü bilen</b> bir ekip arayışı vardır. DGTLFACE:<ul><li> Antalya ve çevresinde sayısız otel etkinliği, konser, lansman ve kurumsal organizasyonda görev almış </li><li>Sezonluk yoğunluk, misafir profili ve mekân koşullarına alışık, </li><li>Hem tatil otelleri hem şehir otelleri hem de bağımsız mekânlarla çalışmış</li></ul> bir <b>prodüksiyon partneridir</b>.",
 
       "card2title": "Creative + Video + Dijital Pazarlama Entegrasyonu",
-      "card2description": "Etkinlik prodüksiyonu, tek başına bir “çekim hizmeti” değildir. Creative ekip, video prodüksiyon ekibi, sosyal medya ve reklam ekipleri aynı masa etrafında çalışır; içerikler tüm dijital kanallara uygun formatta üretilir.",
+      "card2description": "Etkinlik prodüksiyonu, tek başına bir <b>“çekim hizmeti”</b> değildir. DGTLFACE’te: <ul><li>  <a href=\"/tr/creative\">Creative ekip</a> ,</li><li>  <a href=\"/tr/creative/video-produksiyon\">Video prodüksiyon ekibi</a> ,</li><li> <a href=\"/tr/smm\">Sosyal medya ekibi</a>, </li><li> <a href=\"/tr/sem\">Reklam ekibi</a> , </li></ul>aynı masa etrafında çalışır. Bu sayede etkinlikten çıkan içerikler; <b>YouTube, Instagram, TikTok, web siteniz ve reklam kampanyalarınız</b> için optimize edilmiş bir içerik seti hâline gelir.",
 
       "card3title": "Teknik Ekip ve Organizasyon Yönetimi Aynı Çatıda",
-      "card3description": "Etkinlik yönetimi ekibinizle sürekli iletişim hâlinde olan proje sorumlusu, teknik çekim ekibi ve kurgu–montaj ekibi tek koordinasyon noktasında buluşur. Süreç baştan sona kontrollü ve akıcı ilerler."
+      "card3description": "Birçok projede en büyük problem, <b>organizasyon ve prodüksiyon ekiplerinin kopuk çalışmasıdır</b>. DGTLFACE:<ul><li> Etkinlik yönetimi ekibinizle <b>sürekli iletişim hâlinde</b> olan bir proje sorumlusu, </li><li><b>Teknik çekim ekibi</b>, </li><li><b>Kurgu–montaj ekibi</b> </li></ul> ile tek koordinasyon noktası sunar. Bu da <b>“kim, neyi, ne zaman yapacak?”</b> sorularını ortadan kaldırır; süreç <b>baştan sona kontrollü ve akıcı</b> ilerler."
     },
 
     "verticalSlider": {
@@ -4495,27 +4498,27 @@
 
       "title1": "Etkinlik Prodüksiyonu ",
       "span1": "Nasıl Yapılır?",
-      "text1": "Brief, hedef analizi, mekân keşfi, çekim senaryosu, ekipman planı, çekim günü operasyonu ve çoklu format çıkışları ile uçtan uca bir süreçtir.",
+      "text1": "Özet akış:<ul><li>Brief ve hedef analizi</li><li>Etkinlik türü ve akışın netleştirilmesi </li><li>Mekân keşfi ve teknik planlama </li><li>Çekim senaryosu ve ekipman planı </li><li>Çekim günü operasyonu Kurgu, montaj, renk ve ses düzenlemeleri </li><li>Farklı platformlar için versiyon çıkışları </li><li>Etkinlik sonrası raporlama ve içerik kullanımı planı </li></ul> DGTLFACE, bu süreci <b>dokümante edilmiş bir proje planıyla</b> yürütür.",
       "button1": "Etkinlik Prodüksiyonu Akışı",
 
       "title2": "Konser Çekimi Teknikleri –",
       "span2": "Nelere Dikkat Edilmeli?",
-      "text2": "Işık, ses ve atmosferin doğru kaydı; sahne–seyirci dengesinin korunması ve kritik anların kaçırılmaması esastır.",
+      "text2": "<ul><li>Değişken <b>ışık koşullarına</b> uygun kamera ve ayar kullanımı,</li><li> Sahne ve seyirci arasındaki <b>denge</b> (sadece sanatçıya değil, atmosfere de odaklanmak), </li><li>Ses kaydının hem <b>sahneden hem salondan</b> ayrı ayrı alınması, </li><li>Hareketli çekimler için <b>gimbal ve benzeri ekipmanların</b> doğru kullanımı, </li><li>Konser boyunca kritik anların (giriş, nakarat, kalabalığın zirve anı…) kaçırılmaması. </li></ul><b>“Konser çekimi teknikleri”</b>ni doğru uygulamak, etkinliği sadece belgelemek değil, <b>yeniden yaşatmak</b> demektir.",
       "button2": "Konser Çekimi Rehberi",
 
       "title3": "Kurumsal Etkinlik Planlama ",
       "span3": "ve Prodüksiyon İlişkisi",
-      "text3": "Etkinlik akışı, konuşma süreleri, sahne geçişleri ve röportaj alanları prodüksiyon ekibiyle birlikte planlanmalıdır.",
+      "text3": "<ul><li>Etkinlik akışı <b>prodüksiyon ekibiyle paylaşılmalı</b>, </li><li>Konuşma süreleri, sahne geçişleri ve gösterimler <b>önceden test edilmeli</b>, </li><li>Röportajlar için <b>sessiz alanlar</b> planlanmalı, </li><li>Markanın mesajını en iyi anlatan anlar <b>senaryoya işlenmeli</b>. </li><l/ul><b>“Kurumsal etkinlik planlama”</b> yapılırken prodüksiyonun da işin içinde olması, çıkan içeriğin <b>kalitesini doğrudan etkiler</b>.",
       "button3": "Kurumsal Etkinlik İpuçları",
 
       "title4": "Otel Etkinlik Çekimi ",
       "span4": "İçin İpuçları",
-      "text4": "Misafir mahremiyeti, farklı alanlar için ayrı planlama ve gündüz/gece atmosferini dengelemek kritik detaylardır.",
+      "text4": "<ul><li><b>Misafir mahremiyetine saygı </b>(yakın planlarda izin, genel planlarda kompozisyon), </li><li><b>Havuz, sahne, restoran</b> gibi farklı alanlar için ayrı planlama, </li><li>Gündüz ve gece atmosferini ayrı ayrı gösterecek <b>çekim programı</b>, </li><li>Etkinlikten bağımsız, <b>otel deneyimini anlatan ek planlar</b>. </li></ul><b>“Otel etkinlik çekimi, resort organizasyon prodüksiyonu” </b> projelerinde bu detaylar belirleyicidir.",
       "button4": "Otel Etkinliği Rehberi",
 
       "title5": "Etkinlik Sonrası Raporlama ",
       "span5": "ve İçerik Kullanımı",
-      "text5": "Teslim setinin dökümü, hangi içeriğin nerede kullanılacağı ve etkinliğin satış/marka etkisinin analizi önemlidir.",
+      "text5": "Etkinlik bittiğinde DGTLFACE:<ul><li> Teslim edilen video ve fotoğrafların <b>listesini ve formatlarını</b> içeren bir rapor sunar,</li><li> Hangi içeriğin nerede <b>(web, sosyal medya, reklam, iç iletişim)</b> kullanılabileceğini önerir, İstenirse <a href=\"/tr/raporlama/benchmark-analizi\">benchmark analizi</a>  ve <a href=\"/tr/raporlama/satis-donusum\">satış dönüşüm</a>  ile <b>etkinliğin satış ve marka etkisini</b> analiz eder. </li></ul>Böylece prodüksiyon, sadece <b>“dosya teslimi”</b> değil, gerçek bir <b>pazarlama çıktısı</b> hâline gelir.",
       "button5": "Etkinlik Sonrası Strateji"
     },
 
@@ -4523,19 +4526,19 @@
       "header": "SSS – Etkinlik Prodüksiyonu Hakkında Sık Sorulan Sorular",
 
       "question1": "Sadece video çekimi mi yapıyorsunuz, yoksa fotoğraf da dahil mi?",
-      "answer1": "İhtiyaca göre esnek çalışıyoruz. Çoğu projede video + fotoğraf birlikte çıkıyoruz. Ancak sadece video veya sadece fotoğraf talep ederseniz, prodüksiyon paketini ona göre şekillendirebiliriz.",
+      "answer1": "İhtiyaca göre <b>esnek</b> çalışıyoruz. Çoğu projede <b>video + fotoğraf</b> birlikte çıkıyoruz. Ancak sadece video veya sadece fotoğraf talep ederseniz, prodüksiyon paketini ona göre şekillendirebiliriz.",
 
       "question2": "Etkinlik prodüksiyonu için minimum süre ve hazırlık ne kadar olmalı?",
-      "answer2": "İdeal olarak etkinlikten en az 1–2 hafta önce brief ve planlama yapılması sağlıklı olur. Büyük konser ve lansmanlarda bu süre daha da uzayabilir. Last-minute işler de mümkün; ama planlı süreç her zaman daha verimli ve ekonomik olur.",
+      "answer2": "İdeal olarak etkinlikten en az <b>1–2 hafta önce</b> brief ve planlama yapılması sağlıklı olur. Büyük konser ve lansmanlarda bu süre daha da uzayabilir. <b>Last-minute</b> işler de mümkün; ama planlı süreç her zaman daha <b> verimli ve ekonomik</b> olur.",
 
       "question3": "Sadece Antalya’daki etkinliklere mi hizmet veriyorsunuz?",
-      "answer3": "Hayır. Ana üssümüz Antalya olmakla birlikte; Türkiye’nin farklı şehirlerinde ve gerektiğinde yurt dışında da prodüksiyon yapabiliyoruz. Seyahat ve konaklama planı, proje kapsamına göre birlikte netleştirilir.",
+      "answer3": "Hayır. Ana üssümüz Antalya olmakla birlikte; <b>Türkiye’nin farklı şehirlerinde</b> ve gerektiğinde <b>yurt dışında</b> da prodüksiyon yapabiliyoruz. <b>Seyahat ve konaklama planı</b>, proje kapsamına göre birlikte netleştirilir.",
 
       "question4": "Etkinlik videosunu sosyal medya ve reklam için farklı formatlarda teslim alabilir miyiz?",
-      "answer4": "Kesinlikle evet. Başta belirlediğimiz yayın kanallarına göre yatay (YouTube, web), dikey (Reels, TikTok, Shorts) ve kare (Instagram feed) formatlarında ayrı cut’lar hazırlıyoruz. “Etkinlik video çekimi” çıktıları, /tr/smm ve /tr/sem ekiplerinizle uyumlu şekilde kullanılabilir.",
+      "answer4": "Kesinlikle evet. Başta belirlediğimiz yayın kanallarına göre:<ul><li> Yatay (YouTube, web), </li><li>Dikey (Reels, TikTok, Shorts),</li><li> Kare (Instagram feed)</li></ul> formatlarında ayrı cut’lar hazırlıyoruz. <b>“Etkinlik video çekimi”</b> çıktıları,<a href=\"/tr/smm\">smm</a>   ve <a href=\"/tr/sem\">sem</a>  ekiplerinizle uyumlu şekilde kullanılabilir.",
 
       "question5": "DGTLFACE ile etkinlik prodüksiyonu projesine nasıl başlıyoruz?",
-      "answer5": "Akışımız: kısa bir briefing (etkinlik türü, tarih, yer, hedefler), prodüksiyon kapsamının netleştirilmesi (video, fotoğraf, drone, 360 vb.), çekim planı ve ekip organizasyonu, etkinlik günü çekim, kurgu–montaj–revizyonlar ve farklı platformlar için versiyonların teslimi. Tüm süreç boyunca proje sorumlusu üzerinden tek noktadan iletişim sağlanır."
+      "answer5": "Akışımız:<ul><li> Kısa bir <b>briefing</b> (etkinlik türü, tarih, yer, hedefler),</li><li> <b>Prodüksiyon kapsamının</b> netleştirilmesi (video, fotoğraf, drone, 360 vb.), </li><li><b>Çekim planı ve ekip ve ekipman</b>organizasyonu, </li><li>etkinlik günü çekim,</li><li> <b>kurgu–montaj–revizyonlar</b></li><li> farklı platformlar için versiyonların teslimi.</li></ul> Tüm süreç boyunca <b>proje sorumlusu</b> üzerinden tek noktadan iletişim sağlanır."
     }
   },
 
@@ -4544,7 +4547,7 @@
 
     "subbanner_header": "Kurumsal Hediye ve Özel Tasarım Ürünler –",
     "subbanner_header2": " Markanıza Değer Katın",
-    "subbanner_text": "DGTLFACE, kurumsal hediye tasarımı alanında; markanızın değerlerini, renklerini ve hikâyesini taşıyan premium hediye tasarımı çözümleri sunar. Amacımız sadece “üzerine logo basılmış bir kupa” değil; gerçekten sahip olunan, kullanılan, saklanan ve marka ile pozitif ilişki kurduran özel baskı ürünleri, kurumsal promosyon, marka hediye paketi kurgulamaktır.\n\nOteller, turizm markaları, kurumsal firmalar, B2B iş ortaklıkları ve çalışan deneyimi odaklı şirketler için; kurumsal hediye örnekleri, baskı tasarım ürünleri, kişiselleştirilmiş kurumsal hediye gibi ihtiyaçları, kreatif tasarım + üretim + marka stratejisi üçgeninde ele alırız.\n\nSonuç: “dağıtılıp unutulan” değil, markanızı her gördüğünde hatırlatan hediyeler.",
+    "subbanner_text": "DGTLFACE, <b>kurumsal hediye tasarımı</b> alanında; markanızın <b>değerlerini, renklerini ve hikâyesini</b> taşıyan <b>premium hediye tasarımı çözümleri</b> sunar. Amacımız sadece <b>“üzerine logo basılmış bir kupa”</b> değil; gerçekten <b>sahip olunan, kullanılan, saklanan</b> ve marka ile <b>pozitif ilişki</b> kurduran <b>özel baskı ürünleri, kurumsal promosyon, marka hediye paketi</b> kurgulamaktır.\n\n<b>Oteller, turizm markaları, kurumsal firmalar, B2B iş ortaklıkları ve çalışan deneyimi</b> odaklı şirketler için; kurumsal hediye örnekleri, baskı tasarım ürünleri, kişiselleştirilmiş kurumsal hediye gibi ihtiyaçları, kreatif tasarım + üretim + marka stratejisi üçgeninde ele alırız.\n\nSonuç: “dağıtılıp unutulan” değil, markanızı her gördüğünde hatırlatan hediyeler.",
 
     "ai_answer_title": "AI Answer Block – Kurumsal Hediye Tasarımı",
     "ai_answer_text": "DGTLFACE, kurumsal hediye tasarımı hizmetinde; markanızın kimliğini taşıyan premium hediye setleri, özel baskı ürünleri ve marka hediye paketleri kurgular. Oteller için oda içi welcome setleri, VIP misafir ve iş ortakları için özel kutular, çalışan ve B2B segmentleri için kişiselleştirilebilir promosyon ürünleri tasarlanır. Tasarım, baskı ve ambalaj süreçleri tek çatı altında yönetilerek hem fiziksel hem dijital marka deneyimi güçlendirilir.",
