@@ -186,7 +186,7 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
 
 
          <BlocksYatay />
-        <Section3List page="Homepage"/>
+        {/* <Section3List page="Homepage"/> */}
         <Partners />
         <Section1 />
            <Section2 />
