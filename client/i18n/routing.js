@@ -130,7 +130,7 @@ export const routing = defineRouting({
     },
     "/Services/creative/graphicDesign": { // https://www.dgtlface.com/tr/Services/creative/graphicDesign
       en: "/services/creative/graphic-motion-design",
-      tr: "/antalya-tasarim/grafik-motion-tasarim",
+      tr: "/creative/grafik-motion-tasarim",
       ru: "/uslugi/dizayn/graficheskiy-dizayn",
     },
     "/Services/creative/uiUxDesign": { // https://www.dgtlface.com/tr/Services/creative/uiUxDesign
@@ -316,38 +316,38 @@ export const routing = defineRouting({
         "/Services/hotel": { 
       en: "/services/hotel",
       tr: "/otel",
-      ru: "/uslugi/pms-resheniya",
+      ru: "/uslugi/hotel-resheniya",
     },
     "/Services/hotel/seo": { 
-      en: "/services/pms/hotel-identification",
+      en: "/services/hotel/hotel-identification",
       tr: "/otel/seo",
-      ru: "/uslugi/pms/identifikaciya-oteley",
+      ru: "/uslugi/hotel/identifikaciya-oteley",
     },
     "/Services/hotel/socialMedia": { 
-      en: "/services/pms/ota-contract",
+      en: "/services/hotel/ota-contract",
       tr: "/otel/sosyal-medya",
-      ru: "/uslugi/pms/ota-dogovor",
+      ru: "/uslugi/hotel/ota-dogovor",
     },
     "/Services/hotel/adsManagement": { 
-      en: "/services/pms/reservation-management",
+      en: "/services/hotel/reservation-management",
       tr: "/otel/reklam-yonetimi",
-      ru: "/uslugi/pms/upravlenie-bronirovaniem",
+      ru: "/uslugi/hotel/upravlenie-bronirovaniem",
     },
     "/Services/hotel/otaManagement": { 
-      en: "/services/pms/reservation-module",
+      en: "/services/hotel/reservation-module",
       tr: "/otel/ota-yonetimi",
-      ru: "/uslugi/pms/modul-bronirovaniya",
+      ru: "/uslugi/hotel/modul-bronirovaniya",
     },
     "/Services/hotel/pmsIntegration": { 
-      en: "/services/pms/web-payment-systems",
+      en: "/services/hotel/web-payment-systems",
       tr: "/otel/pms-entegrasyonu",
-      ru: "/uslugi/pms/veb-platezhi",
+      ru: "/uslugi/hotel/veb-platezhi",
     },
 
      "/Services/hotel/callCenter": { 
-      en: "/services/pms/web-payment-systems",
+      en: "/services/hotel/web-payment-systems",
       tr: "/otel/cagri-merkezi",
-      ru: "/uslugi/pms/veb-platezhi",
+      ru: "/uslugi/hotel/veb-platezhi",
     },
   }
 })
