@@ -169,7 +169,7 @@ const page = () => {
            
               const stepData = [1,2,3,4,5,6].map(i => ({
                 id: i,
-                image: [image1,image2,image3][i-1],
+                image: [image1,image2,image3,image1,image2,image3][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t(`h3Section.text${i}`)
               }));
@@ -241,9 +241,11 @@ const page = () => {
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
-      <SubBanner header={t('corporategift_banner_header1')}
-  header2={t('corporategift_banner_header2')}
-  text={t('corporategift_banner_text')}
+      <SubBanner header={t('subbanner_header')}
+  header2={t('subbanner_header2')}
+  text={t.raw('subbanner_text')}
+    header3={t('subbanner_header3')}
+  text2={t.raw('subbanner_text2')}
   buttonLink="/" buttonText={t("cta_talk_to_us")}/>
   <AiAnswerBlock text={t("ai_answer_text")}/>
                 <H2LogoSection items={h2items} />

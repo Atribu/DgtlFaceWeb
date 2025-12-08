@@ -162,7 +162,7 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
                     <Image
                       src={item.image}
                       alt="certificate"
-                      width={item.image.width}
+                      width={item.image.width || 444}
                       height={item.image.height}
                       className="rounded-[22px] flex w-[444px] h-[312px]"
                     />
