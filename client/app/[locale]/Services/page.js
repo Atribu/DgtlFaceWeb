@@ -229,17 +229,17 @@ const renderDescription = (key) =>
 
 const cards = [
   {
-    widthClass: "w-[80%]",
+    widthClass: "w-[90%] lg:w-[80%]",
     title: t2("card1title"),
     description: renderDescription("card1description"),
   },
   {
-    widthClass: "w-[75%]",
+    widthClass: "w-[90%] lg:w-[75%]",
     title: t2("card2title"),
     description: renderDescription("card2description"),
   },
   {
-    widthClass: "w-[70%]",
+    widthClass: "w-[90%] lg:  w-[70%]",
     title: t2("card3title"),
     description: renderDescription("card3description"),
   },

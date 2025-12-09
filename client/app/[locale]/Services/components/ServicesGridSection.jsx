@@ -27,18 +27,18 @@ const serviceItems = [
    
   return (
     <div className='flex md:hidden w-screen font-inter items-center justify-center'>
-      <div className='grid grid-cols-2 w-[94%] items-center justify-center gap-[10px]'>
+      <div className='grid grid-cols-2 w-[98%] items-center justify-center gap-[10px]'>
         {serviceItems.map((item, index) => {
           const Icon = item.icon;
           return (
             <Link
             href={item.link} 
               key={index} 
-              className='flex !bg-[#140015] border text-white p-[15px] gap-[15px] items-center justify-center rounded-[10px] gradient-border-button'
+              className='flex !bg-[#140015] border text-white py-[15px]  w-full items-center gap-2 justify-start rounded-[10px] gradient-border-button'
             >
-              <Icon className="flex" width={item.width} height={item.height} />
+              <Icon className="flex ml-[10px]" width={25} height={25} />
               <div className='w-[60%] flex flex-col gap-[5px] items-start justify-center text-start'>
-                <p className='text-[15px] font-bold leading-[150%] -tracking-[0.3px] whitespace-nowrap'>{item.title}</p>
+                <p className='text-[12px] font-bold leading-[150%] -tracking-[0.3px] whitespace-nowrap'>{item.title}</p>
                 <span className='text-[13px] font-bold leading-[130%] -tracking-[0.26px] bg-gradient-to-r from-[#54B9CF] via-[#547CCF] to-[#A754CF] bg-clip-text text-transparent'>
                   {t("servicespage_s3_span1")}
                 </span>

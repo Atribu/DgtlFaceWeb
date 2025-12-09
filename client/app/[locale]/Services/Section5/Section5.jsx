@@ -94,7 +94,7 @@ const Section5 = () => {
   return (
     <div className='flex flex-col items-center w-full  gap-4 lg:gap-8 overflow-visible '>
       {/* Başlık */}
-      <div className="text-center justify-center gap-[3px] lg:gap-[8px]">
+      <div className="text-center justify-center gap-[3px] lg:gap-[8px] w-[90%]">
        <h3 className=''>
          <span className="text-[#140f25] text-[20px] lg:text-[22px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]">
          {t("servicespage_s5_header1")}

@@ -74,7 +74,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
             <ServicesCarouselWrapper selected={1} isActive={true}/>
           </div>
        
-        <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full w-full -ml-20 lg:w-[100%] min-w-[870px]">
+        <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full w-full lg:-ml-20 lg:w-[100%] lg:min-w-[870px]">
           <h1 className=" flex flex-col gap-2 text-[26px] leading-[120%] font-inter28 font-semibold  pb-1 lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
             
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">

@@ -35,7 +35,7 @@ const LogoListSection = ({
       </div>
 
       {/* ALT KARTLAR */}
-      <div className="flex flex-col relative z-[90] items-end justify-end w-full gap-10">
+      <div className="flex flex-col relative z-[90] items-center justify-center lg:items-end lg:justify-end w-full gap-10">
         {cards?.map((card, index) => (
           <div
             key={index}

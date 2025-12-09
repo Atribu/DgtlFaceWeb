@@ -11,6 +11,7 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -171,7 +172,8 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
                 id: i,
                 image: [image1,image2,image3][i-1],
                 header: t(`h3Section.header${i}`),
-                text:   t(`h3Section.text${i}`)
+                text:   t.raw(`h3Section.text${i}`),
+                textHtml:   t.raw(`h3Section.text${i}`)
               }));
            
            
@@ -180,17 +182,17 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
                {
                  widthClass: "w-[95%] lg:w-[80%]",
                  title: t2("card1title"),
-                 description: t2("card1description"),
+                 description: t2.raw("card1description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[75%]",
                  title: t2("card2title"),
-                 description: t2("card2description"),
+                 description: t2.raw("card2description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[70%]",
                  title: t2("card3title"),
-                 description: t2("card3description"),
+                 description: t2.raw("card3description"),
                },
            
              ];
@@ -199,12 +201,12 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
                {
                  question: t("faq.question1"),
                  answer:
-                  t("faq.answer1"),
+                  t.raw("faq.answer1"),
                },
                {
                  question: t("faq.question2"),
                  answer:
-                  t("faq.answer2"),
+                  t.raw("faq.answer2"),
                },
                {
                   question: t("faq.question3"),
@@ -215,20 +217,20 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
                {
                question: t("faq.question4"),
                  answer:
-                  t("faq.answer4"),
+                  t.raw("faq.answer4"),
                },
            
                {
                question: t("faq.question5"),
                  answer:
-                  t("faq.answer5"),
+                  t.raw("faq.answer5"),
                },
              ];
            
                const h2items = [
-               { title: t("h2Section.header1"),text: t("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3") }
+               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
+               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
     
   return (
@@ -240,8 +242,11 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden justify-center items-center'>
-      <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t("subbanner_text")} header3={t("subbanner_header3")} text2={t("subbanner_text2")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+    <div className='flex flex-col items-center justify-center gap-5'>
+        <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t.raw("subbanner_text")} header3={t("subbanner_header3")} text2={t.raw("subbanner_text2")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+      <AutoBreadcrumbs/>
       <AiAnswerBlock text={t("ai_answer_text")}/>
+    </div>
        <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
