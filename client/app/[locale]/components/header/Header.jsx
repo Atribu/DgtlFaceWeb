@@ -28,41 +28,7 @@ const Header = () => {
 
   // 9 ana departman + alt sayfa linkleri
   const servicesConfig = [
-  {
-    key: "creative",
-    label: t("creative"),
-    href: "/Services/creative",
-    subLinks: [
-      { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
-      { label: t("creative_uiux"), href: "/Services/creative/uiUxDesign" },
-      { label: t("creative_video"), href: "/Services/creative/videoProduction" },
-       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
-      { label: t("creative_event"), href: "/Services/creative/eventProduction" },
-    ],
-  },
-  {
-    key: "call_center",
-    label: t("call_center"),
-    href: "/Services/callcenter",
-    subLinks: [
-      { label: t("callcenter_multilang"), href: "/Services/callcenter/callLanguages" },
-      { label: t("callcenter_message"), href: "/Services/callcenter/messageManagement" },
-      { label: t("callcenter_aftersales"), href: "/Services/callcenter/aftersalesSupport" },
-    ],
-  },
-  {
-    key: "pms_ota_management",
-    label: t("pms_ota_management"),
-    href: "/Services/pms",
-    subLinks: [
-      { label: t("pms_installation"), href: "/Services/pms/pmsInstallation" },
-      { label: t("pms_ota_contract"), href: "/Services/pms/otaContract" },
-      { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
-      { label: t("pms_channel"), href: "/Services/pms/channelManagement" },
-      { label: t("pms_web_payment"), href: "/Services/pms/webPayment" },
-    ],
-  },
-  {
+     {
     key: "sem",
     label: t("search_engine_marketing"),
     href: "/Services/sem",
@@ -74,6 +40,7 @@ const Header = () => {
       { label: t("sem_reporting"), href: "/Services/sem/performanceAnalysis" },
     ],
   },
+
   {
     key: "seo",
     label: t("search_engine_optimization"),
@@ -98,7 +65,8 @@ const Header = () => {
       { label: t("smm_reporting"), href: "/Services/smm/socialMediaReporting" },
     ],
   },
-  {
+
+   {
     key: "software",
     label: t("information_technology_software"),
     href: "/Services/software",
@@ -110,6 +78,47 @@ const Header = () => {
       { label: t("software_kvkk"), href: "/Services/software/kvkk" },
     ],
   },
+
+  {
+    key: "creative",
+    label: t("creative"),
+    href: "/Services/creative",
+    subLinks: [
+      { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
+      { label: t("creative_uiux"), href: "/Services/creative/uiUxDesign" },
+      { label: t("creative_video"), href: "/Services/creative/videoProduction" },
+       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
+      { label: t("creative_event"), href: "/Services/creative/eventProduction" },
+    ],
+  },
+  {
+    key: "call_center",
+    label: t("call_center"),
+    href: "/Services/callcenter",
+    subLinks: [
+      { label: t("callcenter_multilang"), href: "/Services/callcenter/callLanguages" },
+      { label: t("callcenter_message"), href: "/Services/callcenter/messageManagement" },
+      { label: t("callcenter_aftersales"), href: "/Services/callcenter/aftersalesSupport" },
+
+       { label: t("callcenter_performance"), href: "/Services/callcenter/callPerformance" },
+      { label: t("callcenter_reservation"), href:  "/Services/callcenter/reservationSupport" },
+    ],
+  },
+  {
+    key: "pms_ota_management",
+    label: t("pms_ota_management"),
+    href: "/Services/pms",
+    subLinks: [
+      { label: t("pms_installation"), href: "/Services/pms/pmsInstallation" },
+      { label: t("pms_ota_contract"), href: "/Services/pms/otaContract" },
+      { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
+      { label: t("pms_channel"), href: "/Services/pms/channelManagement" },
+      { label: t("pms_web_payment"), href: "/Services/pms/webPayment" },
+    ],
+  },
+ 
+  
+ 
   {
     key: "digital_analysis",
     label: t("digital_analysis_reporting"),
@@ -221,45 +230,67 @@ const Header = () => {
       <div className="w-full py-[10px] px-0 rounded-[24px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/80">
         {/* 9 SÜTUNLUK GRID */}
         <div className="flex gap-1">
-          {servicesConfig.map((service) => (
-            <div
-              key={service.key}
-              className="group flex flex-col items-center text-center gap-1"
-            >
-              {/* Üst başlık (tıklanır → kendi sayfası) */}
-              <Link
-                href={service.href}
-                className={`items-center gap-0 rounded-full px-2 py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 ${
-                  activeService === service.key
-                    ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
-                    : "bg-white/5 hover:bg-white/10 text-white/85"
-                }`}
-                onMouseEnter={() => setActiveService(service.key)}
-              >
-                {service.label}
-              </Link>
+     {servicesConfig.map((service) => (
+  <div
+    key={service.key}
+    className="group flex flex-col items-center text-center gap-1"
+  >
+    {/* Üst başlık */}
+    <Link
+      href={service.href}
+      className={`items-center gap-0 rounded-full px-2 py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 ${
+        activeService === service.key
+          ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
+          : "bg-white/5 hover:bg-white/10 text-white/85"
+      }`}
+      onMouseEnter={() => setActiveService(service.key)}
+    >
+      {service.label}
+    </Link>
 
-              {/* Alt linkler – hover ile aşağı doğru açılan alan */}
-              {service.subLinks && service.subLinks.length > 0 && (
-                <div
-                  className="w-full overflow-hidden max-h-0 group-hover:max-h-[260px] transition-[max-height,margin-top] duration-300 ease-in-out mt-0 group-hover:mt-2"
-                >
-                  <ul className="flex flex-col gap-1 text-[12px] text-white/75">
-                    {service.subLinks.map((item) => (
-                      <li key={item.href}>
-                        <Link
-                          href={item.href}
-                          className="inline-flex px-2 py-1 rounded-full hover:bg-white/10 hover:text-white transition-colors duration-150"
-                        >
-                          {item.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
+    {/* 🔻 ESKİ HALİ (hover ile açılan) 🔻 */}
+    {/* 
+    {service.subLinks && service.subLinks.length > 0 && (
+      <div
+        className="w-full overflow-hidden max-h-0 group-hover:max-h-[260px] transition-[max-height,margin-top] duration-300 ease-in-out mt-0 group-hover:mt-2"
+      >
+        <ul className="flex flex-col gap-1 text-[12px] text-white/75">
+          {service.subLinks.map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className="inline-flex px-2 py-1 rounded-full hover:bg-white/10 hover:text-white transition-colors duration-150"
+              >
+                {item.label}
+              </Link>
+            </li>
           ))}
+        </ul>
+      </div>
+    )}
+    */}
+    {/* 🔺ESKİ HALİ🔺 */}
+
+    {/* ✅ YENİ HALİ: HER ZAMAN AÇIK */}
+    {service.subLinks && service.subLinks.length > 0 && (
+      <div className="w-full mt-2">
+        <ul className="flex flex-col gap-1 text-[12px] text-white/75">
+          {service.subLinks.map((item) => (
+            <li key={item.href}>
+              <Link
+                href={item.href}
+                className="inline-flex px-2 py-1 rounded-full hover:bg-white/10 hover:text-white transition-colors duration-150"
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+))}
+
         </div>
       </div>
     </div>

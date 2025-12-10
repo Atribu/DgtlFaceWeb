@@ -32,6 +32,8 @@
   "callcenter_multilang": "4 Dilli Çağrı Merkezi",
   "callcenter_message": "Mesaj & DM Yönetimi",
   "callcenter_aftersales": "Satış Sonrası Destek",
+    "callcenter_performance":"Performans Analizi",
+  "callcenter_reservation":"Reservasyon Desteği",
 
 
   "pms_installation": "PMS Kurulum & Yapılandırma",
@@ -289,7 +291,10 @@
     "header": "Let's Get To",
   "span": "Work",
   "text": "We are ready to take the first steps in the next creative endeavour. A tap of the button below will start our collaborative journey.",
-  "buttonText": "Get in Touch"
+  "buttonText": "Get in Touch",
+   "link_blog": "Bloglar",
+      "link_faq": "Sıkça Sorulan Sorular",
+    "footer_block_corporate": "Kurumsal"
 },
 
 "ContactPage":{
