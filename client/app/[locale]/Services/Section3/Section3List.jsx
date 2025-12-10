@@ -240,6 +240,24 @@ const Section3 = ({ page }) => {
 const CARD_COUNT = 9;
 const MAX_ITEMS = 6;
 
+  const getRaw = (key) => {
+    // next-intl v3 → t.raw var
+    if (typeof t.raw === "function") {
+      try {
+        return t.raw(key);
+      } catch {
+        return "";
+      }
+    }
+
+    // Eski versiyon fallback (çok gerekirse)
+    try {
+      return t(key);
+    } catch {
+      return "";
+    }
+  };
+
 const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
   const id = i + 1;
 
@@ -247,25 +265,17 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
 
   // --- textX varsa al ---
   let textKey = null;
-  try {
-    const v = t(`text${id}`);
-    if (v && v.trim()) {
+   const textVal = getRaw(`text${id}`);
+    if (textVal && textVal.trim()) {
       textKey = `text${id}`;
     }
-  } catch {
-    textKey = null;
-  }
 
   // --- endTextX varsa al ---
   let endTextKey = null;
-  try {
-    const v = t(`endText${id}`);
-    if (v && v.trim()) {
+const endTextVal = getRaw(`endText${id}`);
+    if (endTextVal && endTextVal.trim()) {
       endTextKey = `endText${id}`;
     }
-  } catch {
-    endTextKey = null;
-  }
 
   // --- itemX_Y listesi ---
   // --- itemX_Y listesi ---
@@ -395,9 +405,9 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
 
                   {/* Üst açıklama */}
                   {service.textKey && (
-                    <p className="mb-2 text-[12px] lg:text-[14px] leading-[140%] transition-opacity duration-500 group-hover:opacity-100 opacity-50 text-white">
+                    <div className="mb-2 text-[12px] lg:text-[14px] leading-[140%] transition-opacity duration-500 group-hover:opacity-100 opacity-50 text-white">
                       {t.rich(service.textKey, richComponents)}
-                    </p>
+                    </div>
                   )}
 
                   {/* Maddeler */}
@@ -416,9 +426,9 @@ const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
 
                   {/* Alt açıklama */}
                   {service.endTextKey && (
-                    <p className="mt-2 lg:mt-3 text-[12px] lg:text-[14px] leading-[140%] group-hover:opacity-100 opacity-50 text-white w-[90%]">
+                    <div className="mt-2 lg:mt-3 text-[12px] lg:text-[14px] leading-[140%] group-hover:opacity-100 opacity-50 text-white w-[90%]">
                       {t.rich(service.endTextKey, richComponents)}
-                    </p>
+                    </div>
                   )}
                 </div>
 

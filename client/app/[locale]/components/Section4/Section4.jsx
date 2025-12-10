@@ -17,7 +17,7 @@ const Section4 = () => {
          {t("aboutpage_s3_footer_text1")}
         </p>
       </div>
-      <div className="w-[90%] lg:w-4/6 flex h-[18vh] lg:h-30vh justify-center items-center mt-6">
+      <div className="w-[90%] lg:w-4/6 flex h-[10vh] lg:h-30vh justify-center items-center mt-6">
         <Partner />
       </div>
     </div>
