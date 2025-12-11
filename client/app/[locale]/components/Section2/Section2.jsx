@@ -72,7 +72,7 @@ const Section2 = () => {
                   <p className="text-[18px] lg:text-2xl font-inter28 font-semibold leading-[120%] lg:leading-none -tracking-[0.36px] ">
                     {card.title}
                     <br />
-                    <span className="block mt-4 font-inter28 text-[10px] lg:text-sm leading-[140%] lg:leading-tight -tracking-[0.2px] font-normal">
+                    <span className="block mt-4 font-inter28 text-[12px] lg:text-sm leading-[140%] lg:leading-tight -tracking-[0.2px] font-normal">
                       {card.id === 4 ? (
                         <>
                           Professional team

@@ -21,7 +21,7 @@ const Partners = () => {
   ]
 
   return (
-    <div id='main' className="flex flex-col w-screen items-center justify-center overflow-x-hidden gap-[30px]">
+    <div id='main' className="flex flex-col w-screen items-center justify-center overflow-x-hidden gap-[30px] mt-10 lg:mt-0">
       <div className="flex flex-col w-[90%] items-start lg:items-center text-start lg:text-center justify-center gap-1 lg:gap-5 text-darkBlue">
         <h2 className="font-inter28 text-[24px] lg:text-[24px] font-bold leading-[120%] lg:leading-[57.6px] -tracking-[0.48px]">
          {t("title")} 

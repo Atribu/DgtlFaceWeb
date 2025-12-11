@@ -115,66 +115,97 @@ const renderRichDescription = (key) => {
 };
   
   return (
-    <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] py-[18px]">
+    <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] lg:py-[18px]">
 
-      <div className="flex lg:hidden flex-col lg:flex-row gap-12 font-inter items-center justify-center">
-      {/* Desktop için mevcut yapı */}
-      <div className="hidden lg:flex flex-col gap-12 w-[90%]">
-        {/* Kartlar burada */}
-      </div>
+      {/* MOBILE CAROUSEL */}
+      <div className="flex lg:hidden flex-col gap-8 font-inter items-center justify-center w-full">
+        <div className="w-full overflow-hidden" ref={emblaRef}>
+          <div className="flex -mx-4 items-center ">
+            {cards.map((card) => {
+              const title = t(card.titleKey);
 
-      {/* Mobil ve tablet için Embla Carousel */}
-      <div className="lg:hidden w-full overflow-hidden" ref={emblaRef}>
-        <div className="flex">
-          {cards.map((card, index) => (
-            <div key={index} className="flex-[0_0_60%] min-w-0 mx-1 pl-0 lg:pl-4 h-auto">
-              <div
-                className={`w-[100%] mx-auto lg:px-[59px] py-12 rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 relative bg-center bg-cover ${card.bgColor}`}  style={
-                  card.image
-                    ? {
-                        background: `linear-gradient(180deg, rgba(20, 15, 37, 0.00) 0%, rgba(20, 15, 37, 0.91) 38.9%, #140F25 60.27%), url(${card.image.src}) lightgray 50% / cover no-repeat`,
-                      }
-                    : undefined
-                }
-              >
-                
-                <h4 className={`w-full lg:w-[502px] relative justify-start ${card.textColor} text-[20px] text-xl lg:text-2xl font-semibold font-inter leading-[120%] lg:leading-[28.80px]`}>
-                  {card.title}
-                </h4>
-                <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-               <p
-  className={`
-    lg:w-[502px] w-[94%] relative text-justify justify-start
-    ${card.textColor} lg:text-[14px] text-[14px]
-    font-normal lg:leading-snug font-inter28
-  `}
->
-  {renderRichDescription(card.descriptionKey)}
-</p>
-
-
-                  <button
-                    type="button"
-                    className={`px-8 py-4 rounded-[14px] lg:border-2 lg:border-[#54b9cf] inline-flex justify-center items-center gap-2.5 ${card.buttonColor}`}
+              return (
+                <div
+                  key={card.id}
+                  className="flex-[0_0_100%] px-4 min-w-0" // ✅ her slide tam ekran genişliğinde
+                >
+                  <div
+                    className={`
+                      w-full max-w-[480px] mx-auto
+                      px-5 py-2          // ✅ mobilde padding biraz küçültüldü
+                      rounded-[22px]
+                      shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)]
+                      inline-flex flex-col items-center justify-center
+                      text-center gap-3 relative bg-center bg-cover
+                      ${card.bgColor}
+                    `}
+                    style={
+                      card.image
+                        ? {
+                            background: `linear-gradient(
+                              180deg,
+                              rgba(20, 15, 37, 0.00) 0%,
+                              rgba(20, 15, 37, 0.91) 38.9%,
+                              #140F25 60.27%
+                            ), url(${card.image.src}) center/cover no-repeat`,
+                          }
+                        : undefined
+                    }
                   >
-                    <RightArrowSvg
-                      className="flex lg:hidden"
-                      width={11}
-                      height={10}
-                      color={card.arrowColor}
-                    />
-                    <span className="relative text-sm font-semibold leading-[16.80px]">
-                       {t("services_button")}
-                    </span>
-                  </button>
+                    <h4
+                      className={`
+                        w-full
+                        ${card.textColor}
+                        text-[18px]
+                        font-semibold font-inter
+                        leading-[120%]
+                      `}
+                    >
+                      {title}
+                    </h4>
+
+                    <div className="flex flex-col items-center justify-center gap-3">
+                      <p
+                        className={`
+                          w-[94%] mx-auto
+                          ${card.textColor}
+                          text-[14px]
+                          font-normal leading-snug font-inter28
+                          text-justify
+                        `}
+                      >
+                        {renderRichDescription(card.descriptionKey)}
+                      </p>
+
+                      <button
+                        type="button"
+                        className={`
+                          mt-1
+                          px-6 py-3
+                          rounded-[14px]
+                          border border-[#54b9cf]/70
+                          inline-flex justify-center items-center gap-2.5
+                          ${card.buttonColor}
+                        `}
+                      >
+                        <RightArrowSvg
+                          className="flex"
+                          width={11}
+                          height={10}
+                          color={card.arrowColor}
+                        />
+                        <span className="text-[13px] font-semibold leading-[16.8px]">
+                          {t("services_button")}
+                        </span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          ))}
+              );
+            })}
+          </div>
         </div>
       </div>
-
-    </div>
 
 
       <div className="hidden lg:flex flex-col lg:flex-row gap-2 xl:gap-12 font-inter items-center justify-center">

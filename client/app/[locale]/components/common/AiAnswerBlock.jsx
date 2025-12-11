@@ -1,18 +1,58 @@
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 
-export function AiAnswerBlock({text}) {
+export function AiAnswerBlock({ text }) {
   return (
-    <section className="mt-0 w-[95%] lg:w-[84%] rounded-2xl border border-white/5 bg-[#443666] px-6 py-2 lg:py-5 shadow-[0_18px_45px_rgba(0,0,0,0.45)] backdrop-blur">
-      <div className="flex flex-col gap-2 md:flex-row items-center justify-center md:items-start md:gap-4">
-        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br  from-sky-400 to-indigo-500 text-xl">
-          <DgtlfaceLogoBlackHead width={50} height={50} color="#ffffff"/>
+    <section
+      className="
+        mt-4
+        w-[94%] lg:w-[84%]
+        rounded-2xl
+        border border-white/10
+        bg-[#443666]
+        px-4 py-3
+        lg:px-6 lg:py-5
+        shadow-[0_14px_40px_rgba(0,0,0,0.45)]
+        backdrop-blur-md
+      "
+    >
+      <div className="flex flex-col md:flex-row md:items-start md:gap-4 gap-3">
+        {/* Logo / Icon */}
+        <div className="flex items-center md:items-start gap-2">
+          <div
+            className="
+              flex h-10 w-10 lg:h-12 lg:w-12
+              items-center justify-center
+              rounded-full
+              bg-gradient-to-br from-sky-400 to-indigo-500
+              shadow-[0_0_18px_rgba(79,209,255,0.35)]
+            "
+          >
+            <DgtlfaceLogoBlackHead width={34} height={34} color="#ffffff" />
+          </div>
+
+          {/* Etiket sadece mobile’da ikonun yanında dursun */}
+          <div className="md:hidden flex flex-col">
+            <span className="text-[12px] font-semibold uppercase tracking-[0.18em] text-indigo-200">
+              Kısa Özet
+            </span>
+          </div>
         </div>
-        <div className="space-y-1">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-indigo-300">
+
+        {/* Metin Bloğu */}
+        <div className="flex-1 space-y-1">
+          {/* Desktop / tablet label */}
+          <p className="hidden md:block text-[11px] lg:text-xs font-semibold uppercase tracking-[0.18em] text-indigo-200">
             Kısa Özet
           </p>
-          <p className="text-sm leading-tight lg:leading-relaxed text-slate-100">
-         {text}
+
+          <p
+            className="
+              text-[13px] lg:text-sm
+              leading-snug lg:leading-relaxed
+              text-slate-50/95
+            "
+          >
+            {text}
           </p>
         </div>
       </div>

@@ -243,7 +243,7 @@ const t2 = useTranslations("ChannelManagementPage.h4Section");
 
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>
-        <SubBanner header={t("reservationmodule_subbanner_header")} header2={t("reservationmodule_subbanner_header2")} text={t.raw("reservationmodule_subbanner_text")} header3={t("reservationmodule_subbanner_header3")} text2={t.raw("reservationmodule_subbanner_text2")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
+        <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t.raw("subbanner_text")} header3={t("subbanner_header3")} text2={t.raw("subbanner_text2")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
       <AutoBreadcrumbs/>
 <AiAnswerBlock text={t("ai_answer_text")}/>
 </div>

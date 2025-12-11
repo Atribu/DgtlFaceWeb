@@ -171,7 +171,8 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
                 id: i,
                 image: [image1,image2,image3,image1,image2,][i-1],
                 header: t(`h3Section.header${i}`),
-                text:   t(`h3Section.text${i}`)
+                text:   t.raw(`h3Section.text${i}`),
+                 textHtml:   t.raw(`h3Section.text${i}`)
               }));
            
            
@@ -180,17 +181,17 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
                {
                  widthClass: "w-[95%] lg:w-[80%]",
                  title: t2("card1title"),
-                 description: t2("card1description"),
+                 description: t2.raw("card1description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[75%]",
                  title: t2("card2title"),
-                 description: t2("card2description"),
+                 description: t2.raw("card2description"),
                },
                {
                  widthClass: "w-[95%] lg:w-[70%]",
                  title: t2("card3title"),
-                 description: t2("card3description"),
+                 description: t2.raw("card3description"),
                },
            
              ];
@@ -199,17 +200,17 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
                {
                  question: t("faq.question1"),
                  answer:
-                  t("faq.answer1"),
+                  t.raw("faq.answer1"),
                },
                {
                  question: t("faq.question2"),
                  answer:
-                  t("faq.answer2"),
+                  t.raw("faq.answer2"),
                },
                {
                   question: t("faq.question3"),
                  answer:
-                  t("faq.answer3"),
+                  t.raw("faq.answer3"),
                },
            
                {
@@ -221,15 +222,15 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
                {
                question: t("faq.question5"),
                  answer:
-                  t("faq.answer5"),
+                  t.raw("faq.answer5"),
                },
              ];
            
                const h2items = [
-               { title: t("h2Section.header1"),text: t("h2Section.text1") },
-               { title: t("h2Section.header2"), text: t("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t("h2Section.text3") },
-               { title: t("h2Section.header4"), text: t("h2Section.text4") }
+               { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
+               { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
+               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
+               { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
              ];
 
 
@@ -245,9 +246,9 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
     <SubBanner
   header={t("subbanner_header")}
   header2={t("subbanner_header2")}
-  text={t("subbanner_text")}
+  text={t.raw("subbanner_text")}
     header3={t("subbanner_header3")}
-  text2={t("subbanner_text2")}
+  text2={t.raw("subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />

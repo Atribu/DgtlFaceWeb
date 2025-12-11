@@ -9,11 +9,11 @@ const Section = () => {
   const t = useTranslations("Homepage.partners")
 
   return (
-    <section className="flex flex-col w-[90%] items-center justify-center">
+    <section className="flex flex-col w-[96%] md:w-[90%] items-center justify-center">
       {/* Sol Kısım: Metin */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
-        <div className="flex flex-col w-full md:w-1/2 lg:p-6 text-start text-darkBlue gap-[6px] font-inter">
-        <h2 className="text-[24px]  font-semibold mb-[7px] lg:mb-4 font-inter28 leading-[120%]  -tracking-[0.48px]">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] lg:gap-0">
+        <div className="flex flex-col w-full md:w-1/2 lg:p-6 justify-center items-center md:items-start md:justify-start text-center md:text-start text-darkBlue gap-[6px] font-inter">
+        <h2 className="text-[22px] lg:text-[24px]  font-semibold mb-[7px] lg:mb-4 font-inter28 leading-[120%] -tracking-[0.48px]">
          {t("tagline_main")}
         </h2>
         <h4 className="text-[16px] font-inter28 font-semibold mb-3 leading-[28.80px]">
@@ -23,18 +23,18 @@ const Section = () => {
   t={t}
   messageKey="tagline_description"
   as="p"
-  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full"
+  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-[93%] lg:w-full"
 />
 <RichText
   t={t}
   messageKey="tagline_span"
   as="p"
-  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-full"
+  className="text-[14px] leading-[130%] -tracking-[0.42px] lg:text-[16px] font-normal w-[93%] lg:w-full"
 />
       </div>
 
       {/* Sağ Kısım: Three.js Sahnesi */}
-      <div className="flex relative lg:p-6 items-center justify-center h-[400px] md:h-auto">
+      <div className="flex relative lg:p-6 items-center justify-center h-[370px] md:h-auto">
         <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-4 ">
         <FireballExplosion />
         </div>
@@ -51,7 +51,7 @@ const Section = () => {
         Farklı ajanslar ve kopuk raporlarla uğraşmazsınız.
 DGTLFACE çatısında:
               </p>
-      <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ml-4">
+      <ul className="grid grid-cols-1 lg:grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] ml-4">
         <li>Web sitesi</li>
         <li>Reklam kampanyaları</li>
         <li>Sosyal medya içerikleri</li>
@@ -86,7 +86,7 @@ DGTLFACE tüm bu değişkenleri stratejiye gömerek ticari sonuçlar <span class
       Her aksiyonun arkasında gerçek veri ve net gerekçe vardır. 
 Looker Studio panelleri ile:
               </p>
-          <ul className="grid grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] gap-2">
+          <ul className="grid grid-cols-1 lg:grid-cols-5 list-disc text-justify justify-start text-[#140f25] lg:text-base font-normal  lg:leading-snug text-[14px] -tracking-[0.28px] leading-[130%] gap-2">
         <li>Doluluk</li>
         <li>Gelir</li>
         <li>Dönüşüm</li>

@@ -86,11 +86,11 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
                 px-[20px] lg:px-[32px] py-[14.5px] 
                 w-[90%] md:w-[650px] lg:w-[720px]
                 border gradient-border-button rounded-[20px]
-                !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px]
+                !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px]
                 ${textColorClass}
                 ${
                   isOpen
-                    ? "max-h-[260px] translate-y-0"
+                    ? "max-h-[260px] translate-y-0 "
                     : "max-h-[51px] translate-y-[-10px]"
                 }
               `}
@@ -117,7 +117,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
     className={`
       w-[98%]
       ${textColorClass}
-      text-[12px] md:text-[14px]
+      !text-[12px] md:text-[14px]
       leading-[130%]
       space-y-1
       [&_ul]:list-disc

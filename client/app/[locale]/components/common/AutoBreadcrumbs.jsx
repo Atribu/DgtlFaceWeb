@@ -98,11 +98,28 @@ const SEGMENT_TO_HEADER_KEY = {
   "otel/cagri-merkezi": "hotel_callcenter",
 };
 
+// Hizmet kök segmentleri (ana departmanlar ve TR karşılıkları)
+const SERVICE_ROOT_SEGMENTS = new Set([
+  "sem",
+  "seo",
+  "smm",
+  "software",
+  "creative",
+  "callcenter",
+  "pms",
+  "digitalAnalysis",
+  "yazilim",
+  "otel",
+  "cagri-merkezi",
+  "raporlama",
+  "pms-ota",
+]);
+
 // slug → okunabilir metin fallback'i
 function slugToLabel(slug) {
   return slug
     .split("/")
-    .pop() // "otel/seo" gibi durumlarda son parçayı al
+    .pop()
     .replace(/-/g, " ")
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .replace(/\b\w/g, (c) => c.toUpperCase());
@@ -129,14 +146,26 @@ const AutoBreadcrumbs = ({ className = "" }) => {
     label: tHeader("home"),
   });
 
-  // 2) Diğer segmentler
+  // 2) Gerekirse "Hizmetlerimiz" crumb'ını en başta enjekte et
+  const hasServicesSegment = rest.includes("Services");
+  const firstServiceIndex = rest.findIndex((seg) =>
+    SERVICE_ROOT_SEGMENTS.has(seg)
+  );
+
+  if (!hasServicesSegment && firstServiceIndex !== -1) {
+    items.push({
+      href: `/${locale}/Services`,
+      label: tHeader("services"), // Header.json → "Hizmetlerimiz"
+    });
+  }
+
+  // 3) Diğer segmentler
   rest.forEach((segment, index) => {
     const isLast = index === rest.length - 1;
 
-    // href: /locale/segment1/segment2/...
     const href = `/${[locale, ...rest.slice(0, index + 1)].join("/")}`;
 
-    // Bazı TR path'ler birden fazla parçalı olduğu için "otel/seo" gibi birleşik key de deneyelim:
+    // "otel/seo" gibi birleşik key de deneyelim
     const joinedKey = rest.slice(0, index + 1).join("/");
     const mapKey =
       SEGMENT_TO_HEADER_KEY[joinedKey] ??
@@ -194,10 +223,16 @@ const AutoBreadcrumbs = ({ className = "" }) => {
                       {item.label}
                     </Link>
                   )}
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      </nav>
 
-                  <style jsx>{`
+      <style jsx>{`
         .gradient-border-nav {
-          width:80vw;
+          width: 80vw;
           border-radius: 999px;
           position: relative;
           background-color: rgba(20, 15, 37, 0.6);
@@ -211,7 +246,7 @@ const AutoBreadcrumbs = ({ className = "" }) => {
           inset: 0;
           border-radius: 999px;
           padding: 0.5px;
-          background: linear-gradient(90deg, #a754cf, #54b9cf, #547dcf, #a754cf);
+         
           background-size: 100%;
           background-position: 50% 50%;
           -webkit-mask: linear-gradient(#fff 0 0) content-box,
@@ -221,14 +256,6 @@ const AutoBreadcrumbs = ({ className = "" }) => {
           pointer-events: none;
         }
       `}</style>
-                </li>
-              );
-            })}
-          </ol>
-        </div>
-      </nav>
-
-      
     </>
   );
 };

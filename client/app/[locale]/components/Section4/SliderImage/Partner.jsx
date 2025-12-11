@@ -111,7 +111,7 @@ const Partner = () => {
         }
 
         .slide--hover {
-          transform: scale(1.4);
+          transform: scale(1.1);
         }
 
         @media (min-width: 769px) {

@@ -4,14 +4,17 @@ import Link from "next/link";
 import useEmblaCarousel from "embla-carousel-react";
 import React, { useCallback, useEffect, useState } from "react";
 import ServicesCarouselWrapper from "@/app/[locale]/components/serviceblocks/ServicesCarouselWrapper";
-import { useTranslations } from "next-intl";
+import { useTranslations, useMessages } from "next-intl";
 
 const Section3 = ({ page }) => {
   const t = useTranslations(`${page}.servicesData`);
   const t2 = useTranslations(`${page}.ourservices`);
+  const messages = useMessages();
+
+  const nsMessages = messages?.[page]?.servicesData || {};
 
   const linkClass =
-    "font-semibold underline underline-offset-4 inline-flex items-center gap-1";
+    "font-normal underline underline-offset-2  items-center";
 
   const richComponents = {
     // Bold
@@ -63,7 +66,7 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     ads: (chunks) => (
-      <Link href="/sosyal-medya-yonetimi" className={linkClass}>
+      <Link href="/smm" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -80,7 +83,7 @@ const Section3 = ({ page }) => {
 
     // --- Web & Yazılım ---
     webdev: (chunks) => (
-      <Link href="/web-ve-yazilim-hizmetleri" className={linkClass}>
+      <Link href="/yazilim" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -112,17 +115,17 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     video: (chunks) => (
-      <Link href="/creative/video-produksiyon" className={linkClass}>
+      <Link href="/Services/creative/videoProduction" className={linkClass}>
         {chunks}
       </Link>
     ),
     event: (chunks) => (
-      <Link href="/creative/etkinlik-produksiyonu" className={linkClass}>
+      <Link href="/Services/creative/eventProduction" className={linkClass}>
         {chunks}
       </Link>
     ),
     gift: (chunks) => (
-      <Link href="/creative/kurumsal-hediye-tasarimi" className={linkClass}>
+      <Link href="/Services/creative/corporateGift" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -134,22 +137,22 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     rezsupport: (chunks) => (
-      <Link href="/cagri-merkezi/rezervasyon-destegi" className={linkClass}>
+      <Link href="/Services/callcenter/reservationSupport" className={linkClass}>
         {chunks}
       </Link>
     ),
     socialmsg: (chunks) => (
-      <Link href="/cagri-merkezi/mesaj-yonetimi" className={linkClass}>
+      <Link href="/Services/callcenter/messageManagement" className={linkClass}>
         {chunks}
       </Link>
     ),
     aftersales: (chunks) => (
-      <Link href="/cagri-merkezi/satis-sonrasi-destek" className={linkClass}>
+      <Link href="/Services/callcenter/aftersalesSupport" className={linkClass}>
         {chunks}
       </Link>
     ),
     callreport: (chunks) => (
-      <Link href="/cagri-merkezi/performans-analizi" className={linkClass}>
+      <Link href="/Services/callcenter/callPerformance" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -183,7 +186,7 @@ const Section3 = ({ page }) => {
 
     // --- Analytics ---
     looker: (chunks) => (
-      <Link href="/raporlama/looker-studio" className={linkClass}>
+      <Link href="/Services/digitalAnalysis/lookerStudio" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -198,7 +201,7 @@ const Section3 = ({ page }) => {
       </Link>
     ),
     kvkkreport: (chunks) => (
-      <Link href="/raporlama/kvkk-veri-guvenligi" className={linkClass}>
+      <Link href="/Services/digitalAnalysis/kvkkDataSecurity" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -235,92 +238,47 @@ const Section3 = ({ page }) => {
       </Link>
     ),
   };
-  
 
-const CARD_COUNT = 9;
-const MAX_ITEMS = 6;
+  const CARD_COUNT = 9;
+  const MAX_ITEMS = 6;
 
-  const getRaw = (key) => {
-    // next-intl v3 → t.raw var
-    if (typeof t.raw === "function") {
-      try {
-        return t.raw(key);
-      } catch {
-        return "";
-      }
+  const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
+    const id = i + 1;
+
+    // title için yine t kullanabiliriz (bunlar zaten var)
+    const title = t(`title${id}`);
+
+    // --- textX ve endTextX: direkt messages'tan kontrol ---
+    const rawText = nsMessages[`text${id}`];
+    const textKey =
+      typeof rawText === "string" && rawText.trim() ? `text${id}` : null;
+
+    const rawEndText = nsMessages[`endText${id}`];
+    const endTextKey =
+      typeof rawEndText === "string" && rawEndText.trim()
+        ? `endText${id}`
+        : null;
+
+    // --- itemX_Y listesi: sadece gerçekten JSON'da olanları al ---
+    const items = [];
+    for (let j = 1; j <= MAX_ITEMS; j++) {
+      const key = `item${id}_${j}`;
+      const val = nsMessages[key];
+
+      // JSON'da yoksa veya string değilse/boşsa → SKIP
+      if (typeof val !== "string" || !val.trim()) continue;
+
+      items.push(key);
     }
 
-    // Eski versiyon fallback (çok gerekirse)
-    try {
-      return t(key);
-    } catch {
-      return "";
-    }
-  };
-
-const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
-  const id = i + 1;
-
-  const title = t(`title${id}`);
-
-  // --- textX varsa al ---
-  let textKey = null;
-   const textVal = getRaw(`text${id}`);
-    if (textVal && textVal.trim()) {
-      textKey = `text${id}`;
-    }
-
-  // --- endTextX varsa al ---
-  let endTextKey = null;
-const endTextVal = getRaw(`endText${id}`);
-    if (endTextVal && endTextVal.trim()) {
-      endTextKey = `endText${id}`;
-    }
-
-  // --- itemX_Y listesi ---
-  // --- itemX_Y listesi ---
-  const items = [];
-  for (let j = 1; j <= MAX_ITEMS; j++) {
-    const key = `item${id}_${j}`;
-
-    let v;
-    try {
-      v = t(key);
-    } catch {
-      // next-intl hata atarsa zaten yok demektir
-      break;
-    }
-
-    if (!v || !v.trim()) {
-      // Boş string ise burada dur
-      break;
-    }
-
-    // next-intl eksik key için genelde "Homepage.servicesData.item6_6"
-    // gibi bir fallback döndürüyor. Bunu yakalayıp kırıyoruz.
-    const looksLikeFallback =
-      v === key ||                    // aynen key'i döndüyse
-      v.includes(`${page}.`) ||       // "Homepage." vs.
-      (v.endsWith(key) && v.includes(".")); // "....item6_6" gibi
-
-    if (looksLikeFallback) {
-      break;
-    }
-
-    items.push(key);
-  }
-
-
-  return {
-    title,
-    textKey,
-    endTextKey,
-    items,
-    link: t(`link${id}`),
-  };
-});
-
-
+    return {
+      title,
+      textKey,
+      endTextKey,
+      items,
+      link: t(`link${id}`),
+    };
+  });
 
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -367,18 +325,16 @@ const endTextVal = getRaw(`endText${id}`);
 
   return (
     <div className="flex justify-end items-end w-screen">
-      <div className="relative flex justify-start items-center w-[98%] lg:w-[90%]">
+      <div className="relative flex justify-start items-center w-[99%] lg:w-[90%]">
         <div
           className="flex justify-start items-center overflow-x-hidden w-full"
           ref={emblaRef}
         >
           <div className="flex">
             {servicesData.map((service, index) => (
-              <Link
-                  href={service.link}
-              
+              <div
                 key={index}
-                className="flex flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[300px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
+                className="flex flex-[0_0_98%] md:flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[310px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
               >
@@ -394,7 +350,7 @@ const endTextVal = getRaw(`endText${id}`);
                     }
                   `}
                 >
-                  {String(index + 1).padStart(2, )}
+                  {String(index + 1).padStart(2)}
                 </span>
 
                 <div className="flex flex-col mt-2 lg:mt-4 transition-all duration-500 group-hover:translate-y-[-10px]">
@@ -412,17 +368,17 @@ const endTextVal = getRaw(`endText${id}`);
 
                   {/* Maddeler */}
                   {service.items.length > 0 && (
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-y-1 gap-x-4 mt-1">
-    {service.items.map((itemKey, itemIndex) => (
-      <div
-        key={itemIndex}
-        className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
-      >
-        •{t(itemKey)}
-      </div>
-    ))}
-  </div>
-)}
+                    <div className="grid grid-cols-2 md:grid-cols-2 gap-y-1 gap-x-4 mt-1">
+                      {service.items.map((itemKey, itemIndex) => (
+                        <div
+                          key={itemIndex}
+                          className="justify-start text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal leading-[125%] lg:leading-[140%] mb-1 lg:transition-opacity duration-500 lg:group-hover:opacity-100 lg:opacity-25"
+                        >
+                          •{t.rich(itemKey, richComponents)}
+                        </div>
+                      ))}
+                    </div>
+                  )}
 
                   {/* Alt açıklama */}
                   {service.endTextKey && (
@@ -433,7 +389,7 @@ const endTextVal = getRaw(`endText${id}`);
                 </div>
 
                 {/* Sağ alttaki VBlock */}
-                <div className="absolute -right-4 -bottom-10 lg:-right-12 lg:-bottom-[75px]">
+                <div className="hidden md:flex absolute -right-4 -bottom-10 lg:-right-12 lg:-bottom-[75px]">
                   <ServicesCarouselWrapper
                     selected={index}
                     isActive={activeIndex === index}
@@ -443,11 +399,18 @@ const endTextVal = getRaw(`endText${id}`);
                 {/* Explore butonu */}
                 <Link
                   href={service.link}
-                  className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+                  className="gradient-explore-button hidden lg:flex text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-3 transition-all duration-500"
                 >
                   {t2("services_button")}
                 </Link>
-              </Link>
+
+                 <Link
+                  href={service.link}
+                  className="gradient-explore-button flex lg:hidden text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-4 absolute bottom-[34px] opacity-100 translate-y-4 transition-all duration-500"
+                >
+                  {t2("services_button")}
+                </Link>
+              </div>
             ))}
           </div>
         </div>
@@ -479,8 +442,8 @@ const endTextVal = getRaw(`endText${id}`);
             </button>
 
             <span className="font-mono tracking-[0.2em] text-black">
-              {String(selectedIndex + 1).padStart(2,)} /{" "}
-              {String(slideCount).padStart(2,)}
+              {String(selectedIndex + 1).padStart(2)} /{" "}
+              {String(slideCount).padStart(2)}
             </span>
 
             <button

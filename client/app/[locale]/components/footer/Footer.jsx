@@ -26,14 +26,14 @@ export default function Footer() {
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
   const serviceCategories = [
-    { href: "/Services/sem", label: "SEM" },
-    { href: "/Services/seo", label: "SEO" },
-    { href: "/Services/smm", label: "SMM" },
+    { href: "/Services/sem", label: "SEM (Dijital Reklam Yönetimi)" },
+    { href: "/Services/seo", label: "SEO (Arama Motoru Optimizasyonu)" },
+    { href: "/Services/smm", label: "SMM (Sosyal Medya Pazarlaması)" },
     { href: "/Services/software", label: "Web & Yazılım Hizmetleri" },
+        { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama" },
     { href: "/Services/creative", label: "Creative" },
     { href: "/Services/callcenter", label: "Çağrı Merkezi" },
     { href: "/Services/pms", label: "PMS & OTA Yönetimi" },
-    { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama" },
     { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
  
   ];
@@ -42,20 +42,22 @@ export default function Footer() {
   const leftServices = serviceCategories.slice(0, 5);
   const rightServices = serviceCategories.slice(5, 10);
 
+  const allServices = [...leftServices, ...rightServices];
+
   return (
-    <footer className="flex bg-[#140f25] text-white py-12 lg:py-4 relative overflow-y-hidden max-w-screen items-center justify-center">
+    <footer className="flex bg-[#140f25] text-white pb-4 pt-12 lg:pt-0 lg:pb-0 lg:py-4 relative overflow-y-hidden max-w-screen items-center justify-center">
       <div className="absolute z-[1] inset-0 bg-[#140F25]/40 flex md:hidden"></div>
       <div className="container w-full px-4 lg:px-0 items-center justify-center">
         {/* MOBİL */}
         <div className="flex flex-col lg:hidden justify-center items-center h-[380px] w-full">
-          <div className="flex flex-col items-center justify-start text-center gap-[14px] font-inter text-white z-[50] h-full">
+          <div className="flex flex-col items-center justify-start text-center gap-2 lg:gap-[14px] font-inter text-white z-[50] h-full">
             <p className="text-[16px] font-semibold leading-[120%] -tracking-[0.48px] capitalize">
               {t("header")}{" "}
               <span className="text-transparent bg-gradient-to-r bg-clip-text from-[#547ccf] to-[#a754cf]">
                 {t("span")}
               </span>
             </p>
-            <p className="text-[14px] font-noral leading-[130%] -tracking-[0.28px] w-[80%]">
+            <p className="text-[12px] lg:text-[14px] font-noral leading-[130%] -tracking-[0.28px] w-[80%]">
               {t("text")}
             </p>
           </div>
@@ -74,21 +76,21 @@ export default function Footer() {
           />
           <Link
             href="/contact"
-            className="hidden md:flex z-[50] absolute top-[170px] max-w-[160px] whitespace-nowrap inline-flex px-6 py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
+            className="hidden md:inline-flex z-[50] absolute top-[170px] max-w-[160px] whitespace-nowrap px-6 py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
           >
             <span className="text-[#140F25] text-[14px] font-bold leading-[120%] -tracking-[0.28px] font-inter">
               {t("buttonText")}
             </span>
           </Link>
 
-          <div className="flex flex-col gap-5 items-center justify-center">
+          <div className="flex flex-col gap-1 items-center justify-center">
             <Logo className="w-36 flex z-[50]" />
 
             {/* ✅ Mobil: Kurumsal + Hizmetler (5+5 yine) */}
-            <div className="flex flex-col items-center gap-3 text-xs z-[30] mt-4">
+            <div className="flex flex-col w-[100%] items-center gap-4 text-xs z-[30] font-medium ">
               {/* Kurumsal */}
-              <div className="flex flex-col items-center gap-1">
-                <span className="font-semibold text-[12px] opacity-80">
+              <div className="flex flex-col items-center gap-2">
+                <span className="font-semibold text-[13px] opacity-80">
                   {t("footer_block_corporate") ?? "Kurumsal"}
                 </span>
                 <div className="flex flex-wrap justify-center gap-2 max-w-[260px]">
@@ -96,7 +98,7 @@ export default function Footer() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="hover:underline text-[11px] opacity-80"
+                      className="hover:underline text-[12px] opacity-80"
                     >
                       {link.label}
                     </Link>
@@ -107,27 +109,25 @@ export default function Footer() {
               {/* Hizmetler 5 + 5 */}
               <div className="flex flex-col items-center gap-1">
               
-                <div className="grid grid-cols-2 gap-x-4 gap-y-1 max-w-[280px] text-[11px] opacity-80">
-                  <div className="flex flex-col gap-1">
-                    {leftServices.map((cat) => (
-                      <Link key={cat.href} href={cat.href} className="hover:underline">
-                        {cat.label}
-                      </Link>
-                    ))}
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    {rightServices.map((cat) => (
-                      <Link key={cat.href} href={cat.href} className="hover:underline">
-                        {cat.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
+  {allServices.map((cat, index) => (
+    <Link
+      key={cat.href}
+      href={cat.href}
+      className={`
+        hover:underline
+        ${index < 5 ? "col-span-2 md:col-span-1" : "col-span-1"}
+      `}
+    >
+      {cat.label}
+    </Link>
+  ))}
+</div>
               </div>
             </div>
 
             {/* Sosyal medya */}
-            <div className="flex flex-col gap-5 z-[20] ">
+            <div className="flex flex-col gap-5 z-[20] mt-4">
               <div className="flex justify-center md:justify-center gap-[10px] z-50">
                 <Link
                   href="https://www.instagram.com/dgtlface/"
@@ -310,7 +310,7 @@ export default function Footer() {
         </div>
 
         {/* Alt satır */}
-        <div className="mt-8 text-center text-sm text-gray-400 md:mt-16 z-[50]">
+        <div className="text-center text-sm text-gray-400 mt-10 z-[50]">
           © {new Date().getFullYear()} DGTLFACE. All rights reserved.
         </div>
       </div>

@@ -129,7 +129,7 @@ const homeJsonLd = {
           "@type": "Question",
           "name": "Booking.com ve Expedia otel hesabı nasıl bağlanır?",
           "acceptedAnswer": {
-            "@type": Answer,
+            "@type": "Answer",
             "text": "Booking ve Expedia hesapları, PMS ve channel manager üzerinden oda ve fiyat tipleri doğru şekilde eşleştirilerek bağlanır; test rezervasyonlarıyla bağlantı ve akış doğrulandıktan sonra canlıya alınır."
           }
         },
@@ -171,7 +171,7 @@ const t2 = useTranslations("OtaIntegrationPage.h4Section");
                 id: i,
                 image: [image1,image2,image1,image2,image1][i-1],
                 header: t(`h3Section.header${i}`),
-                text:   t(`h3Section.text${i}`),
+                text:   t.raw(`h3Section.text${i}`),
                   textHtml:   t.raw(`h3Section.text${i}`)
               }));
            
@@ -229,8 +229,7 @@ const t2 = useTranslations("OtaIntegrationPage.h4Section");
                const h2items = [
                { title: t("h2Section.header1"),text: t.raw("h2Section.text1") },
                { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
-               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") },
-                { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
+               { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
   
   return (
@@ -244,11 +243,11 @@ const t2 = useTranslations("OtaIntegrationPage.h4Section");
     <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
 <div className='flex flex-col items-center justify-center gap-5'>
         <SubBanner
-  header={t("otacontract_subbanner_header")}
-  header2={t("otacontract_subbanner_header2")}
-  text={t.raw("otacontract_subbanner_text")}
-    header3={t("otacontract_subbanner_header3")}
-  text2={t.raw("otacontract_subbanner_text2")}
+  header={t("subbanner_header")}
+  header2={t("subbanner_header2")}
+  text={t.raw("subbanner_text")}
+    header3={t("subbanner_header3")}
+  text2={t.raw("subbanner_text2")}
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />

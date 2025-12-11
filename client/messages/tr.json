@@ -147,9 +147,9 @@
       "item1_1": "Arama ağı",
       "item1_2": "Görüntülü reklamlar",
       "item1_3": "YouTube reklamları",
-      "item1_4": "Remarketing & Display",
-      "item1_5": "Tag Manager dönüşüm takibi",
-      "item1_6": "Reklam raporlama",
+      "item1_4": "<remarketing>Remarketing & Display </remarketing>",
+      "item1_5": "<tagmanager>Tag Manager dönüşüm takibi</tagmanager>",
+      "item1_6": "<adreport>Reklam raporlama</adreport>",
       "endText1":"Yer alır. Odak: <b>yüksek dönüşüm oranı, düşük maliyet ve maksimum rezervasyon</b>",
       "link1": "/Services/sem",
 
@@ -158,28 +158,28 @@
        "item2_1": "Teknik SEO",
       "item2_2": "İçerik SEO",
       "item2_3": "Yerel SEO",
-      "item2_4": "Backlink & dijital otorite yönetimi",
+      "item2_4": "<backlink>Backlink & dijital otorite yönetimi</backlink>",
       "item2_5": "Çok dilli otel SEO yapıları",
-      "item2_6": "Premium raporlama panelleri",
+      "item2_6": "<seoreport>Premium raporlama panelleri</seoreport>",
       "endText2":"ile organik trafiği <b>rezervasyon ve satışa dönüşen bir kanal</b> haline getiriyoruz.",
-      "link2": "/services/seo",
+      "link2": "/Services/seo",
 
 
       "title3": "Sosyal Medya Yönetimi – Marka Hikâyenizi Doğru Kanallarda Anlatın",
       "text3":"SMM altında:",
-       "item3_1": "İçerik Üretimi",
-      "item3_2": "Strateji & Planlama",
-      "item3_3": "Reels & video içerik",
+       "item3_1": "<content>İçerik Üretimi</content>",
+      "item3_2": "<plan>Strateji & Planlama</plan>",
+      "item3_3": "<reels>Reels & video içerik</reels>",
       "endText3":"ile estetik + performansı birleştiren sosyal medya akışı kuruyoruz.",
       "link3": "/Services/smm",
 
       "title4": "Web & Yazılım – Next.js & React ile Hızlı, Güvenli ve SEO Uyumlu Altyapılar",
       "text4":"Web & Yazılım çatısı:",
       "item4_1": "Web Sitesi Geliştirme",
-      "item4_2": "CMS & Panel Entegrasyonu",
-      "item4_3": "KVKK uyumlu yazılım",
-      "item4_4": "Sunucu & güvenlik",
-      "item4_5": "Bakım & destek",
+      "item4_2": "<cms>CMS & Panel Entegrasyonu</cms>",
+      "item4_3": "<kvkk>KVKK uyumlu yazılım</kvkk>",
+      "item4_4": "<server>Sunucu & güvenlik</server>",
+      "item4_5": "<support>Bakım & destek</support>",
       "endText4":"ile marka kimliğiniz için modern, hızlı ve güvenli bir dijital vitrin oluşturur.",
       "link4": "/Services/software",
 
@@ -189,9 +189,9 @@
       "item5_1": "Grafik tasarım",
       "item5_2": "Motion design",
       "item5_3": "UI/UX tasarımı",
-      "item5_4": "Video prodüksiyon",
-      "item5_5": "Etkinlik prodüksiyonu",
-      "item5_6": "Kurumsal hediye tasarımı",
+      "item5_4": "<video>Video prodüksiyon</video>",
+      "item5_5": "<event>Etkinlik prodüksiyonu</event>",
+      "item5_6": "<gift>Kurumsal hediye tasarımı</gift>",
       "endText5":"markanız için <b>yüksek algılı bir görsel dünya</b> üretir.",
       "link5": "/Services/creative",
 
@@ -199,10 +199,10 @@
       "title6": "Çağrı Merkezi – 4 Dilli Misafir ve Müşteri İletişimi",
       "text6":"Çağrı Merkezi modülleri:",
       "item6_1": "4 dilli çağrı merkezi",
-      "item6_2": "Rezervasyon desteği",
-      "item6_3": "Mesaj yönetimi",
-      "item6_4": "Satış sonrası destek",
-      "item6_5": "Performans analizi",
+      "item6_2": "<rezsupport>Rezervasyon desteği</rezsupport>",
+      "item6_3": "<socialmsg>Mesaj yönetimi</socialmsg>",
+      "item6_4": "<aftersales>Satış sonrası destek</aftersales>",
+      "item6_5": "<callreport>Performans analizi</callreport>",
       "endText6":"ile misafir iletişim süreçlerini profesyonel hale getirir.",
       "link6": "/Services/callcenter",
 
@@ -210,33 +210,33 @@
       "title7": "PMS & OTA – Oteller İçin Entegre Satış ve Operasyon Yönetimi",
       "text7":"PMS & OTA Yönetimi:",
        "item7_1": "PMS kurulum",
-      "item7_2": "OTA entegrasyonu",
-      "item7_3": "Kanal yönetimi",
-       "item7_4": "Online satış optimizasyonu",
-        "item7_5": "Rezervasyon yönetimi",
+      "item7_2": "<ota>OTA entegrasyonu</ota>",
+      "item7_3": "<channel>Kanal yönetimi</channel>",
+       "item7_4": "<online>Online satış optimizasyonu</online>",
+        "item7_5": "<rez>Rezervasyon yönetimi</rez>",
         "endText7":"ile otelin hem satış hem operasyon tarafını dijitalleştirir.",
       "link7": "/Services/pms",
 
 
       "title8": "Veri Analizi & Raporlama – Kararları Tahminle Değil, Verilerle Alın",
       "text8":"Veri Analizi  altında:",
-     "item8_1": "Looker Studio",
-      "item8_2": "Benchmark",
-      "item8_3": "Satış & dönüşüm raporları",
-       "item8_4": "KVKK & veri güvenliği raporları",
+     "item8_1": "<looker>Looker Studio</looker>",
+      "item8_2": "<benchmark>Benchmark</benchmark>",
+      "item8_3": "<salesreport>Satış & dönüşüm raporları</salesreport>",
+       "item8_4": "<kvkkreport>KVKK & veri güvenliği raporları</kvkkreport>",
        "endText8":"ile tüm dijital <b>ekosistemi tek panelde şeffaflaştırıyoruz.</b>",
-      "link8": "/Services/smm",
+      "link8": "/Services/digitalAnalysis",
 
       "title9": "Otel Dijital Dönüşümü – 360° Strateji, Operasyon ve Teknoloji",
-      "text9":"Otel Dijital Pazarlama ( /tr/otel-dijital-pazarlama ):",
-    "item9_1": "Otel SEO",
-      "item9_2": "Otel SMM",
-      "item9_3": "Otel reklam yönetimi",
-       "item9_4": "OTA yönetimi",
-        "item9_5": "PMS entegrasyonu",
+      "text9":"Otel Dijital Pazarlama :",
+    "item9_1": "<hotelseo>Otel SEO</hotelseo>",
+      "item9_2": "<hotelsmm>Otel SMM</hotelsmm>",
+      "item9_3": "<hotelads>Otel reklam yönetimi</hotelads>",
+       "item9_4": "<hotelota>OTA yönetimi</hotelota>",
+        "item9_5": "<hotelpms>PMS entegrasyonu</hotelpms>",
          "item9_6": "Çağrı merkezi",
          "endText9":"modülleriyle oteller için tam kapsamlı dijital dönüşüm mimarisi oluşturur.",
-      "link9": "/Services/software"
+      "link9": "/Services/hotel"
     },
 
     "whyussection": {
@@ -4889,7 +4889,7 @@
       "text4": "Rezervasyon çağrı merkezi tek başına çalışmaz; doğru kurgulanmazsa, <b>PMS ve OTA ile çatışır</b>. DGTLFACE:<ul><li> <a href=\"/tr/pms-ota/rezervasyon-yonetimi\">rezervasyon yönetimi</a> üzerinden rezervasyon akışını,</li><li> <a href=\"tr/pms-ota/pms-kurulum\">pms kurulum</a> ile PMS entegrasyonunu, </li><li><a href=\"/tr/pms-ota/ota-entegrasyonu\">ota entegrasyonu</a> ile OTA kanal yapısını,</li><li> <a href=\"/tr/otel/cagri-merkezi\">cağrı merkezi</a>  ile otel içi çağrı merkezi süreçlerini</li></ul>aynı çerçevede ele alır.\n\n<b>“Turizm rezervasyon yönetimi, PMS rezervasyon modülü, resort rezervasyon yönetimi”</b> gibi alanlarda; <b>saha + yazılım + çağrı merkezi</b> üçgenini kurarız.\n\nFunnel mantığı:\n<b>Telefon + WhatsApp + OTA + Web lead → Call Center → PMS → Rezervasyon Onay</b>"
     },
 
-    "h3Details": {
+    "h3Section": {
       "header":"DGTLFACE Rezervasyon Destek Hizmet Detayları",
       "header1": "Inbound Rezervasyon Çağrıları",
       "text1": "DGTLFACE inbound akışta:<ul><li>Gelen çağrıları <b>dil ve kanal bazlı</b> (web, OTA, kampanya, doğrudan telefon) kategorize eder,</li><li>Misafirin talebini hızlıca netleştiren <b>rezervasyon yönetimi script’leri</b> kullanır,</li><li>Oda tipi, tarih, kişi sayısı, çocuk, ekstra hizmetler (transfer, spa vb.) gibi tüm detayları <b>standart bir form</b> üzerinden toplar,</li><li><b>Müsaitlik ve fiyat bilgilerini</b> PMS veya kanal yöneticisiyle uyumlu şekilde sunar,</li><li>Misafiri, rezervasyon tamamlanana kadar süreçte tutar; <b>“sonra tekrar ararım”</b>ı minimuma indirir.</li></ul>Her çağrı, raporlar üzerinden izlenir; <b>ortalama konuşma süresi, çözüm oranı, satışa dönüşme oranı</b> gibi KPI’lar düzenli ölçülür.",
@@ -5524,7 +5524,7 @@
       "text3": "Doluluk kadar önemli diğer bir metrik de dönüşümdür: <b>Kaç kişi bakıp kaç kişi rezervasyon yaptığı</b>. DGTLFACE, rezervasyon dönüşüm artırma sürecini alt başlıklar ile inceleyelim"
     },
 
-    "h3Details": {
+    "h3Section": {
       "header":"DGTLFACE Online Satış Optimizasyonu Hizmet Detayları",
 
 
@@ -5619,8 +5619,8 @@
 
     "ai_answer_title": "AI Answer Block – Rezervasyon Yönetimi",
     "ai_answer_text": "DGTLFACE, rezervasyon yönetimi hizmetinde OTA, web sitesi, çağrı merkezi, WhatsApp ve acente gibi tüm kanallardan gelen talepleri PMS rezervasyon modülü üzerinde birleştirir. Müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve no-show süreçleri net bir akışla kurgulanır. Böylece hem resepsiyon hem call center tarafında hata oranı azalır; doluluk ve gelir daha kontrollü yönetilir, misafir deneyimi güçlenir.",
-"header1": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
-      "text1": "<b>“Rezervasyon yönetimi nasıl yapılır? Oteller için rezervasyon kontrol sistemi nasıl olmalı?”</b> soruları aslında şuna bakıyor:<ul><li>Rezervasyon talebi <b>hangi kanaldan gelirse gelsin</b> (OTA, web, telefon, WhatsApp, acente),</li><li> Misafir tüm süreçte <b>aynı netlik, hız ve ilgiyle</b> karşılanıyor mu? </li><li>Otel içinde herkes <b>aynı rezervasyon ekranını</b> mı görüyor, yoksa farklı listeler mi dolaşıyor?</li></ul> Doğru kurgulanmış bir <b>rezervasyon yönetimi</b>;<ul><li> Tüm kanalları <b>(OTA, web, çağrı merkezi, acente, kurumsal)</b> tek bir <b>rezervasyon sistemi </b> altında toplar;</li><li> Rezervasyon sürecini <b>(talep → teyit → ödeme → check-in öncesi iletişim)</b> standartlaştırır; </li><li><b>Overbooking, eksik bilgi, yanlış tarih/oda</b> gibi riskleri azaltır; </li><li><b>Misafir iletişimini</b> güçlendirir </li><li> <b>Gelir yönetimi ile doluluk planlaması</b> için sağlıklı veri üretir. </li></ul> DGTLFACE, <b>“online + telefon rezervasyon dengesi, turizm sektörü rezervasyon teknikleri, PMS rezervasyon modülü”</b> gibi konuları otelinizin <b>gerçek operasyonuna göre uçtan uca</b> kurgular.",
+"subbanner_header3": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
+      "subbanner_text2": "<b>“Rezervasyon yönetimi nasıl yapılır? Oteller için rezervasyon kontrol sistemi nasıl olmalı?”</b> soruları aslında şuna bakıyor:<ul><li>Rezervasyon talebi <b>hangi kanaldan gelirse gelsin</b> (OTA, web, telefon, WhatsApp, acente),</li><li> Misafir tüm süreçte <b>aynı netlik, hız ve ilgiyle</b> karşılanıyor mu? </li><li>Otel içinde herkes <b>aynı rezervasyon ekranını</b> mı görüyor, yoksa farklı listeler mi dolaşıyor?</li></ul> Doğru kurgulanmış bir <b>rezervasyon yönetimi</b>;<ul><li> Tüm kanalları <b>(OTA, web, çağrı merkezi, acente, kurumsal)</b> tek bir <b>rezervasyon sistemi </b> altında toplar;</li><li> Rezervasyon sürecini <b>(talep → teyit → ödeme → check-in öncesi iletişim)</b> standartlaştırır; </li><li><b>Overbooking, eksik bilgi, yanlış tarih/oda</b> gibi riskleri azaltır; </li><li><b>Misafir iletişimini</b> güçlendirir </li><li> <b>Gelir yönetimi ile doluluk planlaması</b> için sağlıklı veri üretir. </li></ul> DGTLFACE, <b>“online + telefon rezervasyon dengesi, turizm sektörü rezervasyon teknikleri, PMS rezervasyon modülü”</b> gibi konuları otelinizin <b>gerçek operasyonuna göre uçtan uca</b> kurgular.",
     
       "h2Section": {
       "header1": "Rezervasyon Sistemi ve Temel Mimari",
@@ -5852,33 +5852,33 @@
       "text2": "Sadece satış değil, <b>dijital performans </b>için de benchmark şart. DGTLFACE:<ul><li><b>Google Ads, YouTube Ads ve Meta Ads</b>kampanyalarınızı; sektör ortalamaları ve rakip kampanyaların görülebilir metrikleriyle kıyaslar,</li><li><b>“Dijital reklam benchmark, reklam maliyeti, tıklama oranı (CTR), dönüşüm oranı, ROAS”</b> gibi metriklerde nerede olduğunuzu gösterir,</li><li><b>SEO</b> tarafında organik trafik, sıralama, backlink ve içerik üretimi açısından <b>pazar benchmark’ı</b> çıkarır,</li><li><b>Sosyal medya</b> için; <b>etkileşim oranı, erişim, içerik sıklığı ve içerik türü</b> benchmark’ı yapar.</li></ul>Bu analizler:<ul><li><b>“Rakiplerimiz bu kadar harcarken biz neredeyiz?”</b></li><li><b>“Daha az harcayıp daha mı çok sonuç alıyoruz, yoksa tam tersi mi?”</b></li></ul>sorularını netleştirir.",
 
       "header3": "Fiyat Optimizasyonu ve Benchmark Tabanlı Gelir Analizi",
-      "text3": "Benchmark, özellikle fiyat optimizasyonu tarafında büyük güç verir. DGTLFACE, “fiyat optimizasyon raporu” ve gelir odaklı benchmark çalışmalarında:\n\nBölgedeki benzer segment otellerin ortalama fiyat ve doluluk seviyelerini analiz eder,\n\nSizin fiyat eğriniz ile pazarın fiyat eğrisini kıyaslar,\n\nFiyat düşürmeden gelir artırmaya odaklı senaryolar üretir,\n\nKanal bazlı fiyatlandırma kararlarında (OTA, web, direkt satış) benchmark verisini kullanmanızı sağlar.\n\n“Resort fiyat analizi, turizm fiyat karşılaştırması, OTA benchmark, pazar payı analizi” gibi başlıklarda; veri, hissiyatın yerine geçer."
+      "text3": "Benchmark, özellikle <b>fiyat optimizasyonu</b> tarafında büyük güç verir. DGTLFACE, <b>“fiyat optimizasyon raporu”</b> ve <b>gelir odaklı benchmark</b> çalışmalarında:<ul><li>Bölgedeki <b>benzer segment otellerin</b> ortalama fiyat ve doluluk seviyelerini analiz eder,</li><li>Sizin <b>fiyat eğriniz ile pazarın fiyat eğrisini </b>kıyaslar,</li><li><b>Fiyat düşürmeden gelir artırmaya</b> odaklı senaryolar üretir,</li><li>Kanal bazlı fiyatlandırma kararlarında <b>(OTA, web, direkt satış)</b> benchmark verisini kullanmanızı sağlar.</li></ul><b>“Resort fiyat analizi, turizm fiyat karşılaştırması, OTA benchmark, pazar payı analizi”</b> gibi başlıklarda; veri, <b>hissiyatın yerine geçer</b>."
     },
 
     "h3Section": {
       "header":"DGTLFACE Benchmark Analizi Hizmet Detayları",
 
       "header1": "Benchmark Metodolojisi ve Veri Kaynakları",
-      "text1": "Sağlam bir benchmark, “duyum”la değil, net metodolojiyle yapılır. DGTLFACE:\n\nKendi veri kaynaklarınızı (PMS, OTA, web, reklam, çağrı merkezi) toplar,\n\nDış veri kaynakları ve pazar verilerini bir araya getirir,\n\nRakip ve pazar seçimini şeffaf kriterlerle yapar (segment, lokasyon, fiyat bandı, kanal karması),\n\nKPI setini (doluluk, ADR, RevPAR, tıklama, dönüşüm, ROAS, etkileşim vb.) netleştirir,\n\nTüm bunları Looker Studio benchmark dashboard’larında görselleştirir (/tr/raporlama/looker-studio\n).\n\n“Benchmark analizi nasıl yapılır, rakip veri takibi, benchmark dashboard nasıl kurulur” sorularının arkasında bu metodoloji yatar.",
+      "text1": "Sağlam bir benchmark, <b>“duyum”la</b> değil, <b> net metodolojiyle</b> yapılır. DGTLFACE:<ul><li>Kendi veri kaynaklarınızı <b>(PMS, OTA, web, reklam, çağrı merkezi)</b> toplar,</li><li><b>Dış veri kaynakları ve pazar verilerini</b> bir araya getirir,</li><li>Rakip ve pazar seçimini <b>şeffaf kriterlerle</b> yapar (segment, lokasyon, fiyat bandı, kanal karması),</li><li><b>KPI setini</b> (doluluk, ADR, RevPAR, tıklama, dönüşüm, ROAS, etkileşim vb.) netleştirir,</li><li>Tüm bunları <b>Looker Studio benchmark dashboard’larında</b> görselleştirir <a href=\"/tr/raporlama/looker-studio\">looker-studio</a> .</li></ul><b>“Benchmark analizi nasıl yapılır, rakip veri takibi, benchmark dashboard nasıl kurulur”</b> sorularının arkasında bu metodoloji yatar.",
 
       "header2": "Haftalık ve Aylık Benchmark Raporları",
-      "text2": "DGTLFACE, benchmark’ı tek seferlik değil, sürekli bir süreç olarak görür:\n\nHaftalık benchmark raporu:\nKısa dönem trendler, kampanya ve fiyat hareketlerine hızlı tepki için,\n\nAylık benchmark raporu:\nSezon, pazar ve kanal bazlı daha geniş perspektifli analiz için hazırlanır.\n\nBu raporlar;\n\nYönetim için özet sunum,\n\nPazarlama ve satış ekipleri için detaylı dashboard\n\nşeklinde tasarlanır.",
+      "text2": "DGTLFACE, benchmark’ı tek seferlik değil, sürekli bir süreç olarak görür:<ul><li><b>Haftalık benchmark raporu:</b>\nKısa dönem trendler, kampanya ve fiyat hareketlerine hızlı tepki için,</li><li><b>Aylık benchmark raporu:</b>\nSezon, pazar ve kanal bazlı daha geniş perspektifli analiz için hazırlanır.</li></ul>Bu raporlar;<ul><li>Yönetim için <b>özet sunum</b>,</li><li>Pazarlama ve satış ekipleri için <b>detaylı dashboard</b></li></ul>şeklinde tasarlanır.",
 
       "header3": "Satış ve KPI Benchmark’ı",
-      "text3": "/tr/raporlama/satis-donusum\n ile entegre çalışan satış benchmark yapısında DGTLFACE:\n\nSizin satış huninizi (trafik → teklif → rezervasyon → gelir) pazar ortalamasıyla kıyaslar,\n\nKPI benchmark (dönüşüm, sepet değeri, kanal başı gelir, kampanya performansı) sunar,\n\nNerede “fazla iyi”, nerede “geri” olduğunuzu açıkça gösterir,\n\nSomut gelişim alanları (örneğin web dönüşüm, OTA verimliliği, çağrı merkezi kapanış oranı) için aksiyon listeleri üretir.\n\nBenchmark bu noktada “rapor” olmaktan çıkar, gelişim haritası olur."
+      "text3": "<a href=\"/tr/raporlama/satis-donusum\">satış dönüşüm</a> \n ile entegre çalışan satış benchmark yapısında DGTLFACE:<ul><li>Sizin satış huninizi <b>(trafik → teklif → rezervasyon → gelir) pazar ortalamasıyla</b> kıyaslar,</li><li><b>KPI benchmark</b> (dönüşüm, sepet değeri, kanal başı gelir, kampanya performansı) sunar,</li><li>Nerede <b>“fazla iyi”</b>, nerede <b>“geri”</b> olduğunuzu açıkça gösterir,</li><li>Somut gelişim alanları (örneğin web dönüşüm, OTA verimliliği, çağrı merkezi kapanış oranı) için <b>aksiyon listeleri</b> üretir.</li></ul>Benchmark bu noktada <b>“rapor”</b> olmaktan çıkar, <b>gelişim haritası</b> olur."
     },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile Benchmark Analizi?",
 
       "card1title": "Otel & Turizm Odaklı Benchmark Uzmanlığı",
-      "card1description": "“Benchmark analizi Antalya, fiyat analizi Antalya, rakip raporlama Türkiye, benchmark hizmeti Antalya” aramalarının arkasında; hem turizmi hem dijital tarafı bilen bir ekip arayışı var.\n\nDGTLFACE:\n\nAntalya ve çevresindeki resort, şehir ve butik otellerle uzun süreli çalışma deneyimine sahip,\n\nFarklı pazarların (DE, RU, UK, TR) beklenti ve davranışlarını bilen,\n\nOtel verisini (doluluk, ADR, RevPAR) dijital verilerle (SEO, SEM, OTA, call center) birleştirmeyi bilen\n\nbir benchmark partneridir.",
+      "card1description": "<b>“Benchmark analizi Antalya, fiyat analizi Antalya, rakip raporlama Türkiye, benchmark hizmeti Antalya”</b> aramalarının arkasında; hem <b>turizmi hem dijital tarafı</b> bilen bir ekip arayışı var.\n\nDGTLFACE:<ul><li>Antalya ve çevresindeki <b>resort, şehir ve butik otellerle</b> uzun süreli çalışma deneyimine sahip,</li><li>Farklı pazarların <b>(DE, RU, UK, TR)</b> beklenti ve davranışlarını bilen, </li><li>Otel verisini <b>(doluluk, ADR, RevPAR)</b> dijital verilerle <b>(SEO, SEM, OTA, call center)</b> birleştirmeyi bilen</li><li> bir benchmark partneridir.",
 
       "card2title": "Veri Analizi + Dijital Pazarlama + Operasyon Perspektifi",
-      "card2description": "Benchmark’ı sadece dijital ya da sadece operasyon gözüyle değil, hibrit şekilde ele alıyoruz:\n\nDijital pazarlama verileri (SEO, Ads, sosyal medya),\n\nOTA & PMS verileri,\n\nÇağrı merkezi & mesaj verileri (/tr/cagri-merkezi/mesaj-yonetimi\n),\n\nSatış & gelir verileri (/tr/raporlama/satis-donusum\n)\n\naynı panelde birleştirilir.\n\nSonuç:\n“Sadece tıklama değil, sadece doluluk değil, sadece fiyat değil” → hepsini bir arada görürsünüz.",
+      "card2description": "Benchmark’ı sadece <b>dijital</b> ya da sadece <b>operasyon</b> gözüyle değil, <b>hibrit</b> şekilde ele alıyoruz:<ul><li>b>Dijital pazarlama verileri</b> (SEO, Ads, sosyal medya),</li><li><b>OTA & PMS verileri</b>,</li><li><b>Çağrı merkezi & mesaj verileri </b><a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>,</li><li><b>Satış & gelir verileri</b> <a href=\"/tr/raporlama/satis-donusum\">satış dönüşüm</a></li></ul>aynı panelde birleştirilir.\n\nSonuç:\n<b>“Sadece tıklama değil, sadece doluluk değil, sadece fiyat değil” </b> → <b>hepsini bir arada</b> görürsünüz.",
 
       "card3title": "Rapor Değil, Aksiyon Üreten Benchmark Kültürü",
-      "card3description": "DGTLFACE, benchmark raporunu bırakıp kaybolmaz:\n\nRapor sonrası toplantılarla bulguları yorumlar,\n\nFiyat, kampanya, kanal, içerik ve satış süreçleri için aksiyon önerir,\n\nBir sonraki raporda bu aksiyonların etkisini ölçer,\n\nBöylece kademeli ve sürdürülebilir bir iyileştirme kültürü kurar.\n\nBenchmark; “raf süsü PDF” değil, karar alma ve gelişim aracına dönüşür."
+      "card3description": "DGTLFACE, benchmark raporunu bırakıp kaybolmaz:<ul><li>Rapor sonrası <b>toplantılarla bulguları yorumlar</b>,</li><li><b>Fiyat, kampanya, kanal, içerik ve satış</b> süreçleri için aksiyon önerir,</li><li>Bir sonraki raporda bu aksiyonların <b>etkisini ölçer</b>,</li><li>Böylece <b>kademeli ve sürdürülebilir</b> bir iyileştirme kültürü kurar.</li></ul>Benchmark; <b>“raf süsü PDF”</b> değil, <b>karar alma ve gelişim aracına</b> dönüşür."
     },
 
     "verticalSlider": {
@@ -5887,27 +5887,27 @@
 
       "title1": "Benchmark Analizi ",
       "span1": "Nasıl Yapılır? (Pratik Özet)",
-      "text1": "Hangi KPI’ları kıyaslayacağını belirle (doluluk, fiyat, gelir, dönüşüm vb.),\n\nDoğru rakip ve pazar setini seç (segment, lokasyon, fiyat bandı),\n\nİç verilerini (PMS, OTA, web, reklam, call center) düzenli topla,\n\nDış veriyi (pazar, rekabet, segment ortalamaları) entegre et,\n\nDashboard kurulumu yap, trend ve farkları gör,\n\nFarkların nedenlerini analiz et,\n\nFiyat, kampanya, kanal ve operasyon tarafında aksiyon al,\n\nBir sonraki benchmark’ta sonuçları kontrol et.\n\nDGTLFACE, bu süreci komple üstlenerek sana sadece karar verme kısmını bırakır.",
+      "text1": "<ul><li>Hangi <b>KPI’ları kıyaslayacağını</b> belirle (doluluk, fiyat, gelir, dönüşüm vb.),</li><li>nDoğru <b>rakip ve pazar setini</b> seç (segment, lokasyon, fiyat bandı),</li><li>İç verilerini (<b>PMS, OTA, web, reklam, call center</b>) düzenli topla,</li><li>Dış veriyi (pazar, rekabet, segment ortalamaları) entegre et,</li><li>Dashboard kurulumu yap, trend ve farkları gör,</li><li>Farkların <b>nedenlerini analiz et</b>,</li><li>Fiyat, kampanya, kanal ve operasyon tarafında <b>aksiyon al</b>,</li><li>Bir sonraki benchmark’ta sonuçları kontrol et.</li></ul>DGTLFACE, bu süreci komple üstlenerek sana sadece <b>karar verme</b> kısmını bırakır.",
       "button1": "Süreci Gör",
 
       "title2": "Rakip Performans Raporu ",
       "span2": "Hazırlama İpuçları",
-      "text2": "Rakipleri kendinizle aynı segment ve lokasyon içinde seçin,\n\nTek bir “büyük rakip” yerine, 5–10 otelden oluşan bir benchmark sepeti oluşturun,\n\nFiyat, doluluk, yorum, web ve sosyal medya aktivitelerini birlikte değerlendirin,\n\nSadece “rakip ne yapıyor?” diye bakmayın;\n“Biz ne yaparsak farklılaşırız?” sorusunu da sorun.\n\n“Rakip performans raporu hazırlama”, sadece kopya çekmek değil, pozisyon alma meselesidir.",
+      "text2": "<ul><li>Rakipleri kendinizle <b>aynı segment ve lokasyon</b> içinde seçin,</li><li>Tek bir “büyük rakip” yerine, <b>5–10 otelden oluşan</b> bir benchmark sepeti oluşturun,</li><li>Fiyat, doluluk, yorum, web ve sosyal medya aktivitelerini <b>birlikte</b> değerlendirin,</li><li>Sadece “rakip ne yapıyor?” diye bakmayın;</li><li><b>“Biz ne yaparsak farklılaşırız?”</b> sorusunu da sorun.</li></ul><b>“Rakip performans raporu hazırlama”</b>, sadece <b>kopya çekmek</b> değil, <b>pozisyon alma</b> meselesidir.",
       "button2": "Rapor İpuçlarını İncele",
 
       "title3": "Turizm Sektörü ",
       "span3": "Benchmark’ında Öne Çıkan Başlıklar",
-      "text3": "Doluluk ve ADR kıyaslaması,\n\nPazar payı analizi (ülke/dil bazlı),\n\nOTA vs direkt kanal dengesi,\n\nYorum sayısı ve puan benchmark’ı,\n\nFiyat – konsept – hizmet dengesi.\n\n“Turizm sektörü benchmark” çalışmaları; sadece bir sezonluk değil, uzun vadeli pozisyonlama için kritik veri sağlar.",
+      "text3": "<ul><li><b>Doluluk ve ADR</b> kıyaslaması,</li><li><b>Pazar payı analizi</b> (ülke/dil bazlı),</li><li><b>OTA vs direkt kanal dengesi</b>,</li><li><b>Yorum sayısı ve puan benchmark</b>’ı,</li><li><b>Fiyat – konsept – hizmet</b> dengesi.</li></ul><b>“Turizm sektörü benchmark”</b> çalışmaları; sadece bir sezonluk değil, <b>uzun vadeli pozisyonlama</b> için kritik veri sağlar.",
       "button3": "Turizm Benchmark Başlıklarını Gör",
 
       "title4": "Benchmark Dashboard ",
       "span4": "Nasıl Kurulur?",
-      "text4": "Üstte özet KPI’lar (doluluk, ADR, RevPAR, toplam gelir, kanal dağılımı),\n\nAltta segment bazlı grafikler (pazar, kanal, rakip seti),\n\nTarih filtresi, pazar filtresi, kanal filtresi,\n\nFiyat aralığı ve doluluk aralığı kıyas grafikleri,\n\nNot ve aksiyon alanları (paneli sadece görüntü değil, çalışma alanı hâline getirmek).\n\nDGTLFACE, Looker Studio üzerinden bu yapıyı hazırlar ve ekibinle birlikte kullanıma alır.",
+      "text4": "<ul><li>Üstte <b>özet KPI’lar</b> (doluluk, ADR, RevPAR, toplam gelir, kanal dağılımı),</li><li>Altta <b>segment bazlı grafikler</b> (pazar, kanal, rakip seti),</li><li>Tarih filtresi, pazar filtresi, kanal filtresi,</li><li><b>Fiyat aralığı ve doluluk aralığı</b> kıyas grafikleri,</li><li><b>Not ve aksiyon alanları</b> (paneli sadece görüntü değil, çalışma alanı hâline getirmek).</li></ul>DGTLFACE, <b>Looker Studio</b> üzerinden bu yapıyı hazırlar ve ekibinle birlikte kullanıma alır.",
       "button4": "Dashboard Yapısını İncele",
 
       "title5": "Fiyat Optimizasyon Raporu ",
       "span5": "Nasıl Okunmalı?",
-      "text5": "Fiyatınız pazar ortalamasının neresinde?\n\nDoluluğunuz ve ADR’niz birlikte nasıl hareket ediyor?\n\nFiyat artırdığınızda doluluk ne kadar etkileniyor, tersi durumda gelir ne oluyor?\n\nBazı pazarlarda fiyatı yükseltip diğerlerinde sabit tutmak daha mantıklı mı?\n\n“Fiyat optimizasyon raporu”nun amacı; ezbere indirim yapmak değil, akıllı fiyatlandırma ile geliri maksimize etmektir.",
+      "text5": "<ul><li>Fiyatınız <b>pazar ortalamasının neresinde?</b></li><li>Doluluğunuz ve ADR’niz <b>birlikte nasıl hareket ediyor?</b></li><li>Fiyat artırdığınızda doluluk ne kadar etkileniyor, tersi durumda <b>gelir ne oluyor?</b></li><li>Bazı pazarlarda fiyatı yükseltip diğerlerinde sabit tutmak daha mantıklı mı?</li></ul><b>“Fiyat optimizasyon raporu”</b>nun amacı; <b>ezbere indirim</b> yapmak değil, <b>akıllı fiyatlandırma</b> ile geliri maksimize etmektir.",
       "button5": "Fiyat Raporunu Yorumla"
     },
 
@@ -5915,19 +5915,19 @@
       "header": "SSS – Benchmark Analizi Hakkında Sık Sorulan Sorular",
 
       "question1": "Benchmark analizi için mutlaka çok büyük bir otel veya marka olmak mı gerekiyor?",
-      "answer1": "Hayır. Tam tersine, küçük ve orta ölçekli oteller için benchmark daha da kritiktir; çünkü rekabet yoğun, kaynak sınırlıdır.\nDoğru benchmark ile, “bütçeyi nereye ve nasıl harcamalıyım?” sorusunun cevabı çok daha netleşir.",
+      "answer1": "Hayır. Tam tersine, <b>küçük ve orta ölçekli oteller için benchmark daha da kritiktir;</b> çünkü rekabet yoğun, kaynak sınırlıdır.\nDoğru benchmark ile, <b>“bütçeyi nereye ve nasıl harcamalıyım?”</b> sorusunun cevabı çok daha netleşir.",
 
       "question2": "Benchmark verilerini nereden alıyorsunuz?",
-      "answer2": "Projeye göre değişmekle birlikte:\n\nSizin iç verileriniz (PMS, OTA, web, reklam, çağrı merkezi),\n\nPazar ve sektör raporları,\n\nReklam ve dijital platform verileri,\n\nGözlenebilir fiyat ve doluluk sinyalleri\n\nkullanılır. Metodoloji, proje başında şeffaf şekilde size anlatılır.",
+      "answer2": "Projeye göre değişmekle birlikte:<ul><li>Sizin <b>iç verileriniz</b> (PMS, OTA, web, reklam, çağrı merkezi),</li><li><b>Pazar ve sektör raporları</b>,</li><li>Reklam ve dijital platform verileri,</li><li><b>Gözlenebilir fiyat ve doluluk sinyalleri</b></li></li>kullanılır. Metodoloji, proje başında <b>şeffaf şekilde</b> size anlatılır.",
 
       "question3": "Sadece rapor mu sunuyorsunuz, yoksa strateji önerisi de geliyor mu?",
-      "answer3": "İkisi birlikte:\n\nRapor → “Neredeyiz, rakipler nerede?”\n\nStrateji → “Buradan nereye gitmeliyiz?”\n\nDGTLFACE, her benchmark tesliminde mutlaka öneri ve aksiyon seti sunar.",
+      "answer3": "İkisi birlikte:<ul><li><b>Rapor</b> → “Neredeyiz, rakipler nerede?”</li><li><b>Strateji </b>→ “Buradan nereye gitmeliyiz?”</li></ul>DGTLFACE, her benchmark tesliminde mutlaka <b>öneri ve aksiyon seti </b>sunar.",
 
       "question4": "Benchmark analizi ile fiyatlandırma kararlarını tamamen size mi bırakmalıyız?",
-      "answer4": "Karar her zaman sizde.\nBiz, veri + yorum + öneri ile masaya geliriz.\nFiyatlandırma gibi kritik kararlarda sizin deneyiminiz ve iç dinamikleriniz belirleyicidir; biz, “karanlıkta değil, ışıkta karar verin” diye yanınızdayız.",
+      "answer4": "Karar her zaman <b>sizde</b>.\nBiz, <b>veri + yorum + öneri</b> ile masaya geliriz.\nFiyatlandırma gibi kritik kararlarda sizin deneyiminiz ve iç dinamikleriniz belirleyicidir; biz, <b>“karanlıkta değil, ışıkta karar verin”</b> diye yanınızdayız.",
 
       "question5": "DGTLFACE ile benchmark analizi projesine nasıl başlıyoruz?",
-      "answer5": "Standart akış:\n\nHedef KPI’larınızın ve merak ettiğiniz soruların netleştirilmesi\n\nRakip ve pazar setinin birlikte belirlenmesi\n\nMevcut veri kaynaklarınızın (PMS, OTA, web, reklam vb.) analizi\n\nBenchmark metodolojisi ve dashboard tasarımının oluşturulması\n\nİlk benchmark raporu ve sunumu\n\nFiyat, kampanya, kanal ve satış stratejisi için aksiyon planı\n\nPeriyodik (haftalık/aylık) benchmark döngüsü ve optimizasyon\n\nBu sayede benchmark, tek seferlik bir dosya değil; sürekli çalışan bir karar destek sistemi olur."
+      "answer5": "Standart akış:<ul><li><b>Hedef KPI’larınızın</b> ve merak ettiğiniz soruların netleştirilmesi</li><li><b>Rakip ve pazar setinin</b> birlikte belirlenmesi</li><li>Mevcut veri kaynaklarınızın (<b>PMS, OTA, web, reklam vb.</b>) analizi</li><li><b>Benchmark metodolojisi ve dashboard tasarımının</b> oluşturulması</li><li>İlk benchmark raporu ve sunumu</li><li><b>Fiyat, kampanya, kanal ve satış stratejisi</b> için aksiyon planı</li><li>Periyodik (<b>haftalık/aylık</b>) benchmark döngüsü ve optimizasyon</li></ul>Bu sayede benchmark, tek seferlik bir dosya değil; <b>sürekli çalışan bir karar destek sistemi</b> olur."
     }
   },
 
@@ -5936,29 +5936,30 @@
 
     "subbanner_header": "Satış ve Dönüşüm Raporlama –",
     "subbanner_header2": " Gelirinizi Artıran Veri Stratejileri",
-    "subbanner_text": "DGTLFACE, satış dönüşüm raporu ve veri analizi hizmetiyle; reklamlarınız, web siteniz, OTA kanallarınız, çağrı merkezinız ve PMS verileriniz arasındaki ilişkiyi tek bir satış hunisi içinde gösteren, gelir artırıcı veri stratejileri sunar.\n\nBizim için satış & dönüşüm raporlama; sadece “kaç tıklama aldık?” değil,\ndönüşüm analizi, satış raporu, funnel analizi, performans ölçümü, gelir analizi gibi tüm katmanların tek bir resimde birleşmesidir.\n\nÖzellikle oteller, turizm markaları ve hizmet sektörü için; her gün para harcanan dijital kanalların gerçekte ne kadar satış ve rezervasyon ürettiğini görmek artık lüks değil, hayatta kalma şartı. DGTLFACE, bu tabloyu Looker Studio dashboard’ları ve detaylı satış & dönüşüm raporlaması ile önünüze koyar.",
+    "subbanner_text": "DGTLFACE, <b>satış dönüşüm raporu</b> ve veri analizi hizmetiyle; <b>reklamlarınız, web siteniz, OTA kanallarınız, çağrı merkezinız ve PMS verileriniz</b> arasındaki ilişkiyi tek bir <b>satış hunisi</b> içinde gösteren, <b>gelir artırıcı veri stratejileri</b> sunar.\n\nBizim için <b>satış & dönüşüm raporlama</b>; sadece “kaç tıklama aldık?” değil,\n<b>dönüşüm analizi, satış raporu, funnel analizi, performans ölçümü, gelir analizi </b>gibi tüm katmanların <b>tek bir resimde birleşmesidir.</b>\n\nÖzellikle <b>oteller, turizm markaları ve hizmet sektörü</b> için; her gün para harcanan dijital kanalların gerçekte <b>ne kadar satış ve rezervasyon ürettiğini</b> görmek artık lüks değil, <b>hayatta kalma şartı</b>. DGTLFACE, bu tabloyu <b>Looker Studio dashboard’ları</b> ve detaylı <b>satış & dönüşüm raporlaması</b> ile önünüze koyar.",
 
     "ai_answer_title": "AI Answer Block – Satış & Dönüşüm Raporlama",
     "ai_answer_text": "DGTLFACE, satış & dönüşüm raporlama hizmetiyle SEO, Ads, sosyal medya, OTA, web, PMS ve çağrı merkezi verilerini tek bir satış hunisi (funnel) üzerinde birleştirir. Trafik kaynaklarından rezervasyon ve gelire kadar tüm adımları ölçer; kanal bazlı satış, ROAS, RevPAR ve kârlılık metriklerini görünür kılar. Böylece hangi kanalın gerçekten para kazandırdığını görür, gelir artıran veri odaklı kararlar alırsınız.",
     "subbanner_header3": "Satış & Dönüşüm Raporlama Nedir, Neden Kritik?",
-    "subbanner_text2": "“Dönüşüm oranı nasıl artırılır? Satış raporu sadece ciro mudur?” soruları aslında tek noktaya bakıyor:\n\n“Nereden ne kadar trafik geliyor, bunun ne kadarı gerçekten gelire dönüyor?”\n\nSatış & dönüşüm raporlama;\n\nTrafiği (SEO, Ads, sosyal medya, OTA, doğrudan),\n\nKullanıcı davranışlarını (sayfa görüntüleme, tıklama, form, arama, DM, WhatsApp),\n\nDönüşüm aksiyonlarını (lead, rezervasyon, satış, teklif talebi),\n\nGelir ve kârlılık verisini (oda geliri, ek hizmet, sepet değeri vb.)\n\nbir satış hunisi (funnel) mantığıyla uçtan uca raporlamaktır.\n\nDGTLFACE,\n“dönüşüm analizi, satış hunisi analizi, reklam dönüşüm raporu, otel satış raporu hazırlama, rezervasyon dönüşüm analizi, satış artırma veri taktikleri” gibi tüm başlıkları tek bir çerçevede toplar:\n\nVeriyle satış yönetimi.",
+    "subbanner_text2": "<b>“Dönüşüm oranı nasıl artırılır? Satış raporu sadece ciro mudur?”</b> soruları aslında tek noktaya bakıyor:\n\n<b>“Nereden ne kadar trafik geliyor, bunun ne kadarı gerçekten gelire dönüyor?”</b>\n\n<b>Satış & dönüşüm raporlama</b>;<ul><li><b>Trafiği</b> (SEO, Ads, sosyal medya, OTA, doğrudan),</li><li><b>Kullanıcı davranışlarını</b> (sayfa görüntüleme, tıklama, form, arama, DM, WhatsApp),</li><li><b>Dönüşüm aksiyonlarını</b> (lead, rezervasyon, satış, teklif talebi),</li><li><b>Gelir ve kârlılık verisini</b> (oda geliri, ek hizmet, sepet değeri vb.)</li></ul>bir <b>satış hunisi (funnel)</b> mantığıyla uçtan uca raporlamaktır.\n\nDGTLFACE,\n<b>“dönüşüm analizi, satış hunisi analizi, reklam dönüşüm raporu, otel satış raporu hazırlama, rezervasyon dönüşüm analizi, satış artırma veri taktikleri”</b> gibi tüm başlıkları tek bir çerçevede toplar:\n\n<b>Veriyle satış yönetimi.</b>",
    
    
       "h2Section": {  
 
       "header1": "Dijital Satış Hunisi – Funnel Analizi",
-      "text1": "Satış hunisi, “kim geldi, ne yaptı, nereye kadar geldi, nerede kaybettik?” sorularının görsel cevabıdır.\n\nDGTLFACE, funnel analizi yaparken:",
+      "text1": "<b>Satış & dönüşüm raporlama</b>, “kim geldi, ne yaptı, nereye kadar geldi, nerede kaybettik?” sorularının <b>görsel cevabıdır</b>.\n\nDGTLFACE, <b>funnel analizi</b> yaparken:",
 
       "header2": "Üst Huniler (TOFU)",
-      "text2": "Trafik kaynakları\n(SEO, Google Ads, Meta Ads, OTA, sosyal medya, e-posta),\n\nOturum sayısı,\n\nYeni kullanıcı oranı,\n\nSayfada kalma süreleri ve hemen çıkma sinyalleri.",
+      "text2": "<ul><li>Trafik kaynakları</li><li>(SEO, Google Ads, Meta Ads, OTA, sosyal medya, e-posta),</li><li>Oturum sayısı,</li><li>Yeni kullanıcı oranı,</li><li>Sayfada kalma süreleri ve hemen çıkma sinyalleri.</li></ul>",
 
       "header3": "Orta Huniler (MOFU)",
-      "text3": "Özel sayfa görüntülemeleri\n(oda / hizmet detay sayfaları, paket sayfaları),\n\nForm sayfası görüntüleme, sepet/rezervasyon adımına geçiş oranları,\n\nTeklif alma, iletişim, DM, WhatsApp başlatma aksiyonları.",
+      "text3": "<ul><li>Özel sayfa görüntülemeleri\n(oda / hizmet detay sayfaları, paket sayfaları),</li><li>Form sayfası görüntüleme, sepet/rezervasyon adımına geçiş oranları,</li><li>Teklif alma, iletişim, <b>DM, WhatsApp başlatma</b> aksiyonları.",
 
       "header4": "Alt Huniler (BOFU)",
-      "text4": "Tamamlanan rezervasyon / satış,\n\nÇağrı merkezinden kapanan satışlar,\n\nOTA ve doğrudan kanal dönüşümü,\n\nGelir ve kârlılık metrikleri (RevPAR, oda başı gelir, misafir başı gelir).\n\n“Satış hunisi analizi, satış artırma veri taktikleri, Meta Ads dönüşüm raporu, Google Ads satış analizi, CRM satış verisi analizi” gibi tüm başlıklar, bu huninin içinde somutlaşır.",
+      "text4": "<ul><li><b>Tamamlanan rezervasyon / satış</b>,</li><li><b>Çağrı merkezinden kapanan satışlar</b>,</li><li><b>OTA ve doğrudan kanal dönüşümü</b>,</li><li>Gelir ve kârlılık metrikleri (RevPAR, oda başı gelir, misafir başı gelir).</li></ul><b>“Satış hunisi analizi, satış artırma veri taktikleri, Meta Ads dönüşüm raporu, Google Ads satış analizi, CRM satış verisi analizi”</b> gibi tüm başlıklar, bu huninin içinde somutlaşır.",
+      
       "header5": "Oteller ve Turizm İçin Satış & Dönüşüm Raporlama",
-      "text5": "Turizmde kritik olan sadece doluluk değil;\n\nDoluluk nasıl geldi, hangi kanal ne maliyetle ne kazandırdı?\n\nDGTLFACE, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi, PMS satış verileri alanlarında:\n\nOTA, web rezervasyon motoru, çağrı merkezi ve acente satışlarını tek tabloda toplar,\n\nKanal bazlı gelir, kişi başı harcama, oda başı gelir (RevPAR) ve iptal oranlarını raporlar,\n\nPazar (ülke/dil) bazlı satış ve dönüşüm performansını analiz eder,\n\nDijital kanalların (SEO, Ads, sosyal medya) gerçek rezervasyona etkisini gösterir.\n\n“Oteller için satış raporu hazırlama, turizm satış analizleri, rezervasyon dönüşüm analizi” gibi ihtiyaçlar, bu raporlar sayesinde netleşir."
+      "text5": "Turizmde kritik olan sadece <b>doluluk</b> değil;\n\nDoluluk nasıl geldi, hangi kanal ne maliyetle ne kazandırdı?\n\nDGTLFACE, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi, PMS satış verileri alanlarında:\n\nOTA, web rezervasyon motoru, çağrı merkezi ve acente satışlarını tek tabloda toplar,\n\nKanal bazlı gelir, kişi başı harcama, oda başı gelir (RevPAR) ve iptal oranlarını raporlar,\n\nPazar (ülke/dil) bazlı satış ve dönüşüm performansını analiz eder,\n\nDijital kanalların (SEO, Ads, sosyal medya) gerçek rezervasyona etkisini gösterir.\n\n“Oteller için satış raporu hazırlama, turizm satış analizleri, rezervasyon dönüşüm analizi” gibi ihtiyaçlar, bu raporlar sayesinde netleşir."
     },
 
     "h3Section": {

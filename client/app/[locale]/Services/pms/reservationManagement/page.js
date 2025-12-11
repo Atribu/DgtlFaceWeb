@@ -161,7 +161,7 @@ const homeJsonLd = {
 }
 
 const page = () => {
-   const t = useTranslations("ReservationManagement");
+   const t = useTranslations("ReservationManagementPage");
 const t2 = useTranslations("ReservationManagementPage.h4Section");
            
               const stepData = [1,2,3].map(i => ({

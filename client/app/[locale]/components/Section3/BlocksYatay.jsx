@@ -22,6 +22,19 @@ const Section3 = () => {
     "7",
   ]);
 
+  const servicesLink = [
+    { href: "/Services/seo" },
+    { href: "/Services/sem" },
+    { href: "/Services/smm" },
+    { href: "/Services/software" },
+    { href: "/Services/creative" },
+    { href: "/Services/callcenter"},
+    { href: "/Services/pms" },
+    { href: "/Services/digitalAnalysis" },
+    { href: "/Services/hotel" },
+ 
+  ];
+
   useEffect(() => {
     const interval = setInterval(() => {
       // setGradientIndex((prev) => (prev === 7 ? 0 : prev + 1));
@@ -100,76 +113,7 @@ const Section3 = () => {
           </span>
         ),
       })}
-      {/* {t.rich("services_text1", {
-        b: (chunks) => (
-          <span className="font-bold">
-            {chunks}
-          </span>
-        ),
-        seo: (chunks) => (
-          <Link
-            href="/services/seo"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        sem: (chunks) => (
-          <Link
-            href="/services/sem"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        social: (chunks) => (
-          <Link
-            href="/services/social-media"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        web: (chunks) => (
-          <Link
-            href="/services/web-development"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        creative: (chunks) => (
-          <Link
-            href="/services/creative-production"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        callcenter: (chunks) => (
-          <Link
-            href="/services/call-center"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-        analytics: (chunks) => (
-          <Link
-            href="/services/analytics-reporting"
-            className="font-semibold underline underline-offset-4 inline-flex items-center gap-1"
-          >
-            {chunks}
-            <span aria-hidden>↗</span>
-          </Link>
-        ),
-      })} */}
+    
     </p>
 
       <p className="font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px] ">
@@ -178,9 +122,9 @@ const Section3 = () => {
 
       {/* Liste */}
       <div className="flex flex-col lg:flex-row items-center">
-        <ul className="w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-5 md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
+        <ul className="w-[92%] lg:w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-4 text-start space-x-2 md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
         {bullets.map((item, idx) => (
-          <li key={idx}>{item}</li>
+          <Link href={servicesLink[idx].href} className="hover:underline z-[990]"><li key={idx}>{item}</li></Link>
         ))}
       </ul>
 

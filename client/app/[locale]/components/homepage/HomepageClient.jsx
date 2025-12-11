@@ -62,12 +62,12 @@ const faqs = [
 export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center max-w-screen overflow-x-hidden">
-      <div className="flex flex-col w-full items-center gap-[48px]">
+      <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
         <MyThreeScene />
         
          <Section4 />
      
-        <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mt-1 lg:mt-20 ">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mt-1 lg:mt-20 items-center justify-center">
           <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[12px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black ">
               <h2 className="font-inter28">Dijital Pazarlama Ajansı Değil, Uzun Vadeli Teknoloji Partneriniz</h2>
@@ -113,7 +113,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
   <li><Link href="/Services/pms" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">PMS & OTA Yönetimi </Link></li>
   <li><Link href="/Services/callcenter" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Çağrı Merkezi
               Hizmetleri</Link></li>
-  <li> <Link href="/Services/digitalAnalysis" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Veri Analizi & Raporlama</Link></li>
+  <li> <Link href="/raporlama" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Veri Analizi & Raporlama</Link></li>
 </ul>
             </div>
            
@@ -145,7 +145,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
                 <li>Farklı pazarların davranışlarını</li>
                  <li>Yatırımınız ölçülebilir bir dönüşüm üretir</li>
             </ul>
-           <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-0 lg:mt-2">
+           <p className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[100%] mt-0 lg:mt-2">
  çok iyi biliyoruz. <br></br>
 Aynı zamanda TR–EN–DE–RU dil kabiliyetine sahip ekibimiz sayesinde global misafir segmentlerine uygun stratejiler üretiyoruz.
 Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span className="font-bold">markanızı üst seviyeye çıkarıyoruz.</span>
@@ -160,9 +160,9 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
             <button className="gradient-darktext-header relative flex border w-[90%] py-[12px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
              <h2> Veri Odaklı Performans, Şeffaf Raporlama ve Sürekli Optimizasyon</h2>
             </button>
-             <div className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[94%] lg:w-[80%] lg:ml-10 mt-0 text-center lg:text-start">
+             <div className="text-[12px] lg:text-[14px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[94%] lg:w-[80%] lg:ml-10 mt-0 text-center lg:text-start justify-center items-center lg:items-start lg:justify-start">
             DGTLFACE’te hiçbir kampanya “kur & bırak” mantığıyla çalışmaz. <br></br>Tüm süreçler <span className="font-bold">veri odaklı performans modeli</span> ile yönetilir:
-             <ul className="flex flex-col text-[12px] lg:text-[14px] gap-[6px] list-disc  list-inside list-block ml-4 text-center lg:text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-2">
+             <ul className="flex flex-col  text-[12px] lg:text-[14px] gap-[6px] list-disc  list-inside list-block ml-[50%] -translate-x-1/2 lg:-translate-x-0 lg:ml-4 text-start lg:text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-2">
               <li><Link href="/raporlama" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline ">Looker Studio Raporlama</Link></li>
                <li> <Link href="/sem" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline">Reklam Raporlama</Link></li>
                 <li> <Link href="/Services/seo" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline">SEO Raporlama</Link></li>

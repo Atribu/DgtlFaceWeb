@@ -106,7 +106,7 @@ export const routing = defineRouting({
     },
     "/Services/callcenter/reservationSupport": { // https://www.dgtlface.com/tr/Services/callcenter/reservationSupport
       en: "/services/call-center/reservation-support",
-      tr: "/cagri-merkezi/satis-sonrasi-destek",
+      tr: "/cagri-merkezi/rezervasyon-destegi",
       ru: "/uslugi/koll-centr/podderzhka-bronirovaniya",
     },
 
@@ -115,7 +115,7 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/Services/creative": { // https://www.dgtlface.com/tr/Services/creative
       en: "/services/creative-design",
-      tr: "/antalya-dijital-pazarlama-yaraticilik-tasarim",
+      tr: "/creative",
       ru: "/uslugi/dizayn",
     },
     "/Services/creative/corporateGift": { // https://www.dgtlface.com/tr/Services/creative/corporateGift
@@ -152,12 +152,12 @@ export const routing = defineRouting({
       tr: "/raporlama",
       ru: "/uslugi/cifrovoy-analiz",
     },
-    "/Services/digitalAnalysis/advertisingReportingService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/advertisingReportingService
+    "/Services/digitalAnalysis/lookerStudio": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/advertisingReportingService
       en: "/services/digital-analysis/advertising-reporting",
       tr: "/raporlama/looker-studio",
       ru: "/uslugi/cifrovoy-analiz/reklamnaya-otchetnost",
     },
-    "/Services/digitalAnalysis/callReportingService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/callReportingService
+    "/Services/digitalAnalysis/kvkkDataSecurity": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/callReportingService
       en: "/services/digital-analysis/call-reporting",
       tr: "/raporlama/kvkk-veri-guvenligi",
       ru: "/uslugi/cifrovoy-analiz/otchetnost-zvonkov",

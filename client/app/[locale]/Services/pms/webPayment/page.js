@@ -162,8 +162,8 @@ const homeJsonLd = {
 }
 
 const page = () => {
-  const t = useTranslations("WebPayment");
-  const t2 = useTranslations("WebPayment.h4Section");
+  const t = useTranslations("OnlineSalesOptimizationPage");
+  const t2 = useTranslations("OnlineSalesOptimizationPage.h4Section");
              
                 const stepData = [1,2,3].map(i => ({
                   id: i,

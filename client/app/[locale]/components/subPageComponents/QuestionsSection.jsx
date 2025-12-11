@@ -55,7 +55,7 @@ const QuestionsSection = ({color}) => {
         transition-[max-height,transform] duration-700 ease-in-out 
         px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] text-[${color}]
+        !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] text-[${color}]
         ${isDropdown1Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -87,7 +87,7 @@ const QuestionsSection = ({color}) => {
         transition-[max-height,transform] duration-700 ease-in-out 
         px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] text-[${color}]
+        !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] text-[${color}]
         ${isDropdown2Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -121,7 +121,7 @@ const QuestionsSection = ({color}) => {
         transition-[max-height,transform] duration-700 ease-in-out 
          px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-[${color}]
+        !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-[${color}]
         ${isDropdown3Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "
@@ -155,7 +155,7 @@ const QuestionsSection = ({color}) => {
         transition-[max-height,transform] duration-700 ease-in-out 
         px-[20px] lg:px-[32px] py-[14.5px] w-[90%] md:w-[600px]
         border gradient-border-button rounded-[20px]
-        !text-[10px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-[${color}]
+        !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px] !text-[${color}]
         ${isDropdown4Open 
           ? "max-h-[200px] translate-y-0 " 
           : "max-h-[51px] translate-y-[-10px] "

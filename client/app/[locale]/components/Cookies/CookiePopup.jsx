@@ -496,7 +496,7 @@ const loadPreferences = () => {
             </div>
             <div className="grid grid-cols-2 lg:flex lg:flex-row md:gap-[20px] xl:gap-[30px] w-full items-center justify-center gap-[13px] lg:gap-[1vw] mr-[2%]  ">
               <button
-                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] px-[28px] cursor-pointer rounded-[14px] min-w-[176px] "
+                className="gradient-border-button text-[13px] h-[42px] lg:text-[14px] leading-normal font-medium items-center justify-center text-center border-[#FFFFFF] border-[0.867px] whitespace-nowrap py-[10px] md:px-[28px] cursor-pointer rounded-[14px] min-w-[176px] "
                 onClick={handleDenyAll}
               >
                  {t("deny_all")}

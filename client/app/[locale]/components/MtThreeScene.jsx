@@ -233,7 +233,7 @@ export default function MyThreeScene() {
   }, []);
 
   return (
-    <div className="" style={{ position: "relative", width: "100vw", height: "80vh" }}>
+    <div className="relative w-screen h-[90vh] md:h-[80vh]" style={{ position: "relative", width: "100vw" }}>
       {/* 3D Canvas */}
       <div
         ref={mountRef}
