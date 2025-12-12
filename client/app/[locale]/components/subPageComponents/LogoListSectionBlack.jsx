@@ -12,7 +12,7 @@ const LogoListSectionBlack = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#ffffff] z-[20] pb-[260px]"  
+    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#8d60ce] z-[20] lg:pb-[260px]"  
     // style={{ background:
     //       `
     //   linear-gradient(
@@ -26,12 +26,13 @@ const LogoListSectionBlack = ({
     //   )
     // `,
     //   }}
+    //#55a1ce
       >
-      <div className="flex flex-col w-[80%] items-center justify-center text-center">
+      <div className="flex flex-col w-[96%] lg:w-[80%] items-center justify-center text-center">
         {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
         {/* SOL METİN */}
-        <div className="flex flex-col w-full md:w-[60%]  text-start text-white font-inter">
+        <div className="flex flex-col w-full md:w-[60%] text-center lg:text-start text-[#8d60ce] font-inter">
           <h2 className="text-[22px] lg:text-[24px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px]">
             {introTitle}
           </h2>
@@ -43,8 +44,8 @@ const LogoListSectionBlack = ({
         </div>
 
         {/* SAĞ — ANİMASYON */}
-        <div className="flex relative lg:p-6 items-center justify-center h-[400px] md:h-auto">
-          <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-0">
+        <div className="flex relative lg:p-6 items-center justify-center lg:h-[400px] md:h-auto">
+          <div className="w-full max-w-[500px] h-auto relative overflow-hidden mb-2">
             <FireballExplosionBlack />
           </div>
         </div>
@@ -55,7 +56,7 @@ const LogoListSectionBlack = ({
         {cards?.map((card, index) => (
           <div
             key={index}
-            className={`${card.widthClass || "w-[90%] lg:w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-[#56b6cf] z-[998] rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80`}
+            className={`${card.widthClass || "w-[90%] lg:w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-[white] z-[998] rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-85`}
           >
             {/* 8978cf */}
             <h4 className="w-full relative justify-start  text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
@@ -80,8 +81,8 @@ const LogoListSectionBlack = ({
       [&_a]:underline
       [&_a]:underline-offset-2
       [&_a]:font-bold
-      [&_a]:text-[#ffffff] 
-      hover:[&_a]:text-[#ffffff]
+      [&_a]:text-[#55a1ce] 
+      hover:[&_a]:text-[#2f5972]
     "
   />
 )}
@@ -93,8 +94,8 @@ const LogoListSectionBlack = ({
         <DgtlfaceLogoBlackHead
           width={720}
           height={720}
-          className="-scale-x-100 absolute z-1 opacity-20 right-[63%] -top-[6%] z-[10]"
-          color="#58b5cf"
+          className="-scale-x-100 absolute z-1 opacity-80 right-[63%] top-[1%] z-[10]"
+          color="#55a1ce"
         />
       </div>
       </div>

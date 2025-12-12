@@ -60,20 +60,20 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
           return (
             <div
               key={index}
-              className="flex flex-col lg:flex-row items-center justify-between w-[98%] lg:w-full gap-[18px] lg:gap-[2%] z-[20] relative"
+              className={`flex ${isEven ? "flex-col" : "flex-col-reverse"} lg:flex-row items-center text-center justify-center  lg:justify-between w-[98%] lg:w-full gap-[18px] lg:gap-[2%] z-[20] relative`}
             >
               {isEven ? (
                 <>
                   {/* Resim solda */}
-                  <div className="relative group w-full lg:w-[32%] h-auto ">
+                  <div className="relative group w-full lg:w-[34%] h-auto ">
                     <Image
                       src={item.image}
                       alt="certificate"
                       width={item.image?.width || 444}
                       height={item.image?.height || 312}
-                      className="rounded-[22px] flex object-cover w-[444px] h-[312px]"
+                      className="rounded-[22px] flex object-cover w-[300px] md:w-[400px] h-auto lg:w-[444px] lg:h-[312px]"
                     />
-                    <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 lg:w-[444px]" />
+                    <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 w-[300px] md:w-[400px] lg:w-[444px]" />
                   </div>
 
                   {/* Adım numarası */}
@@ -158,15 +158,15 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
                   </div>
 
                   {/* Resim sağda */}
-                  <div className="relative group w-full lg:w-[32%] h-auto">
+                  <div className="relative group w-full lg:w-[34%] h-auto">
                     <Image
                       src={item.image}
                       alt="certificate"
                       width={item.image.width || 444}
                       height={item.image.height}
-                      className="rounded-[22px] flex w-[444px] h-[312px]"
+                      className="rounded-[22px] flex  w-[300px] md:w-[400px] h-auto lg:w-[444px] lg:h-[312px]"
                     />
-                    <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 lg:w-[444px]" />
+                    <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80  w-[300px] md:w-[400px] h-auto lg:w-[444px]" />
                   </div>
                 </>
               )}
