@@ -6059,44 +6059,46 @@
       "text1": "Turizm ve otelcilik, kişisel veri işleme açısından en yoğun sektörlerden biri:<ul><li>Rezervasyon formları,</li><li><b>PMS kayıtları</b>,</li><li>OTA (<b>Booking, Expedia, Agoda</b> vb.) üzerinden gelen veriler,</li><li><b>Çağrı merkezi</b> ve <b>WhatsApp</b> görüşmeleri,</li><li>Check-in belgeleri, kimlik/pasaport verileri,</li><li>Ödeme ve fatura bilgileri.</li></ul>DGTLFACE,\n<b>otel kvkk raporu, turizm veri güvenliği, PMS data protection, OTA veri güvenliği</b> alanlarında:<ul><li>Tüm bu kaynaklardan akan verinin <b>nerede tutulduğunu</b>,</li><li>Hangi sistemler arasında <b>aktarıldığını</b> (PMS, OTA, web, çağrı merkezi, CRM, muhasebe),</li><li>Hangi kullanıcıların <b>ne yetkiyle eriştiğini</b>,</li><li><b>Silme/anonimleştirme ve loglama</b> süreçlerinin nasıl işlediğini</li></ul><b>KVKK çerçevesinde raporlanabilir</b> hâle getirir.Sonuç: <b>“Her yerde veri var”</b> kaosundan çıkıp, <b>haritalanmış ve kontrol edilen bir veri evreni</b> oluşturursunuz.",
 
       "header2": "Veri Akış Haritaları ve KVKK Uyum Analizi",
-      "text2": "KVKK uyumunun temeli, <b>veri akışını anlamaktır</b>. DGTLFACE, KVKK & veri güvenliği raporlamasında:",
+      "text2": "KVKK uyumunun temeli, <b>veri akışını anlamaktır</b>. DGTLFACE, KVKK & veri güvenliği raporlamasında: Veri Envanteri ve Veri Akış Diyagramları, KVKK Uyum Skoru ve Uyum Raporu olarak incelenir",
 
       "header3": "KVKK Teknik Tedbirler ve Güvenli Veri Yönetimi Raporları",
-      "text3": "KVKK, teknik tedbirleri net olarak işaret eder; ancak çoğu işletme bu tedbirlerin uygulanma ve raporlanma kısmında zorlanır. DGTLFACE,\n“KVKK teknik tedbirler, güvenli veri yönetimi, data privacy teknik gereksinimler” tarafında:"
+      "text3": "KVKK, <b>teknik tedbirleri</b> net olarak işaret eder; ancak çoğu işletme bu tedbirlerin <b>uygulanma ve raporlanma</b> kısmında zorlanır. DGTLFACE,\n<b>“KVKK teknik tedbirler, güvenli veri yönetimi, data privacy teknik gereksinimler”</b> tarafında: Sunucu, Network ve Uygulama Güvenliği, Erişim ve Yetki Yönetimi olarak incelenir",
+      "header4": "KVKK Veri Güvenliği Raporlama Sistemi",
+      "text4":"<b>“Veri raporlama sistemi”</b>, KVKK’nın sürdürülebilir hâle gelmesi için vazgeçilmezdir. DGTLFACE, <a href=\"/tr/raporlama/looker-studio\">Looker Studio</a> ve diğer BI araçlarıyla: KVKK & Veri Güvenliği Dashboard’ları ,KVKK Uyum Raporu ve Periyodik Denetim olarak incelenir."
     },
 
     "h3Section": {
       "header": "KVKK Veri Güvenliği Raporlama Sistemi",
       "header1": "Veri Envanteri ve Veri Akış Diyagramları",
-      "text1": "Aşağıdaki sorulara net cevap çıkarılır:\n\nHangi veri?\n(isim, iletişim, rezervasyon bilgisi, ödeme, yorum vb.)\n\nNereden geliyor?\n(web, OTA, acente, telefon, mail, WhatsApp, sosyal medya)\n\nHangi sistemlere gidiyor?\n(PMS, CRM, muhasebe, e-posta, üçüncü taraf servisler)\n\nKimlerle paylaşılıyor?\n(acente, OTA, ödeme sağlayıcı, entegrasyon firmaları)\n\nNe kadar süreyle tutuluyor?\n\nBu bilgiler, görsel veri akış haritaları hâline getirilir.\n\nBu haritalar;\n“turizm kvkk gereksinimleri, rezervasyon veri güvenliği, kvkk teknik tedbirler” için temel referans noktası olur.",
+      "text1": "Aşağıdaki sorulara net cevap çıkarılır:<ul><li>Hangi veri?\n(isim, iletişim, rezervasyon bilgisi, ödeme, yorum vb.)</li><li>nNereden geliyor?\n(<b>web, OTA, acente, telefon, mail, WhatsApp, sosyal medya</b>)</li><li>Hangi sistemlere gidiyor?\n(<b>PMS, CRM, muhasebe, e-posta, üçüncü taraf servisler</b>)</li><li>Kimlerle paylaşılıyor?\n(acente, OTA, ödeme sağlayıcı, entegrasyon firmaları)</li><li>Ne kadar süreyle tutuluyor?</li></ul>Bu bilgiler, <b>görsel veri akış haritaları</b> hâline getirilir.\n\nBu haritalar;\n<b>“turizm kvkk gereksinimleri, rezervasyon veri güvenliği, kvkk teknik tedbirler”</b> için temel referans noktası olur.",
 
       "header2": "KVKK Uyum Skoru ve Uyum Raporu",
-      "text2": "DGTLFACE, veri haritası üzerinden:\n\nNerelerde gereksiz veri toplandığını,\n\nNerelerde saklama süresinin KVKK ile uyumsuz uzadığını,\n\nErişim ve yetki yönetiminde riskli noktaları,\n\nLoglama ve denetim eksiklerini,\n\nÇerez, aydınlatma ve açık rıza süreçlerindeki boşlukları\n\ntespit eder ve KVKK uyum raporu sunar.\n\nBu rapor, hem iç yönetim hem de olası dış denetimler için güçlü bir yol haritasıdır.",
+      "text2": "DGTLFACE, veri haritası üzerinden:<ul><li>Nerelerde <b>gereksiz veri toplandığını</b>,</li><li>Nerelerde <b>saklama süresinin KVKK ile uyumsuz</b> uzadığını,</li><li><b>Erişim ve yetki yönetiminde</b> riskli noktaları,</li><li> <b>Loglama ve denetim</b> eksiklerini, </li><li><b>Çerez, aydınlatma ve açık rıza</b> süreçlerindeki boşlukları</li></ul> tespit eder ve <b>KVKK uyum raporu</b> sunar.\n\nBu rapor, hem <b>iç yönetim</b> hem de olası <b>dış denetimler</b> için güçlü bir yol haritasıdır.",
 
       "header3": "Sunucu, Network ve Uygulama Güvenliği",
-      "text3": "/tr/yazilim/sunucu-guvenlik\n ile entegre çalışan raporlama modeliyle:\n\nSunucu lokasyonu, SSL durumları, firewall yapılandırmaları,\n\nDDoS ve saldırı denemeleri,\n\nGüncelleme ve yama durumları,\n\nErişim kayıtları ve yönetici yetkileri\n\nperiyodik raporlarla izlenir.\n\nBu, KVKK’nın “teknik tedbirler” kısmının ölçülebilir ve denetlenebilir tarafıdır.",
+      "text3": "<a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenliği</a> ile entegre çalışan raporlama modeliyle:<ul><li><b>Sunucu lokasyonu</b>, SSL durumları, firewall yapılandırmaları,</li><li>DDoS ve saldırı denemeleri,</li><li>Güncelleme ve yama durumları,</li><li>Erişim kayıtları ve yönetici yetkileri</li></ul> periyodik raporlarla izlenir.\n\nBu, KVKK’nın <b>“teknik tedbirler”</b> kısmının <b>ölçülebilir ve denetlenebilir</b> tarafıdır.",
 
       "header4": "Erişim ve Yetki Yönetimi",
-      "text4": "Kişisel veri işleme süreçlerinde en kritik konulardan biri:\n\n“Kim neyi görebiliyor?”\n\nDGTLFACE:\n\nPMS, CRM, çağrı merkezi, dosya sunucuları, panel ve kontrol ekranları için rol bazlı yetkilendirmeyi analiz eder,\n\nYetki ve kullanıcı hareketlerini loglayan sistemler için özet raporlar üretir,\n\nGüvenlik ihlali riskini artıran zayıf noktaları\n(genel şifreler, fazla yetkilendirme, eski kullanıcı hesapları vb.) ortaya çıkarır.\n\n“Müşteri verisi koruma yöntemleri” raporun bu bölümünde detaylanır.",
+      "text4": "Kişisel veri işleme süreçlerinde en kritik konulardan biri:\n\n<b>“Kim neyi görebiliyor?”</b>\n\nDGTLFACE:<ul><li><b>PMS, CRM, çağrı merkezi, dosya sunucuları, panel ve kontrol ekranları</b> için rol bazlı yetkilendirmeyi analiz eder,</li><li>Yetki ve kullanıcı hareketlerini loglayan sistemler için özet raporlar üretir,</li><li>Güvenlik ihlali riskini artıran zayıf noktaları\n(genel şifreler, fazla yetkilendirme, eski kullanıcı hesapları vb.) ortaya çıkarır.</li></ul><b>“Müşteri verisi koruma yöntemleri”</b> raporun bu bölümünde detaylanır.",
 
       "header5": "KVKK & Veri Güvenliği Dashboard’ları",
-      "text5": "Veri akış haritaları,\n\nSistem bazlı veri envanteri (hangi tabloda, hangi alanlar),\n\nErişim log özetleri (kim neyi, ne zaman görmüş/düzenlemiş),\n\nSilme ve anonimleştirme işlemleri,\n\nGüvenlik olayları ve çözüm süreleri\n\niçin interaktif paneller oluşturur.\n\nBu sayede yönetim; KVKK ve veri güvenliği durumunu uzun dokümanlar yerine, görsel KPI panelleri üzerinden takip edebilir.",
+      "text5": "<ul><li><b>Veri akış haritaları</b>,</li><li>Sistem bazlı <b>veri envanteri</b> (hangi tabloda, hangi alanlar),</li><li><b>Erişim log özetleri </b>(kim neyi, ne zaman görmüş/düzenlemiş),</li><li><b>Silme ve anonimleştirme </b>işlemleri,</li><li><b>Güvenlik olayları ve çözüm süreleri</b></li></ul>için interaktif paneller oluşturur.\n\nBu sayede yönetim; KVKK ve veri güvenliği durumunu <b> uzun dokümanlar</b> yerine, <b>görsel KPI panelleri</b> üzerinden takip edebilir.",
 
       "header6": "KVKK Uyum Raporu ve Periyodik Denetim",
-      "text6": "DGTLFACE, KVKK & veri güvenliği raporlamasını:\n\nİlk analiz ve uyum raporu,\n\nDönemsel (aylık/3 aylık) inceleme ve güncelleme raporları,\n\nDış denetim / iç denetim öncesi durum raporu\n\nhâline getirir.\n\n“KVKK uyum raporu, kvkk raporlama antalya” gibi taleplerde; hem teknik hem operasyonel fotoğraf tek dokümanda sunulur."
+      "text6": "DGTLFACE, <b>KVKK & veri güvenliği raporlamasını</b>:<ul><li>İlk <b>analiz ve uyum raporu</b>,</li><li>Dönemsel <b>(aylık/3 aylık)</b> inceleme ve güncelleme raporları,</li><li>Dış denetim / iç denetim öncesi <b>durum raporu</b></li></ul>hâline getirir.\n\n<b>“KVKK uyum raporu, kvkk raporlama antalya”</b> gibi taleplerde; hem <b>teknik</b> hem <b>operasyonel</b> fotoğraf tek dokümanda sunulur."
     },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile KVKK & Veri Güvenliği Raporlama?",
 
       "card1title": "KVKK + Yazılım + Altyapı + Operasyon Hibrit Bakış",
-      "card1description": "DGTLFACE, KVKK & veri güvenliğini sadece hukuk değil;\n\nYazılım ve web altyapısı (/tr/yazilim),\n\nKVKK uyumlu yazılım mimarisi\n(/tr/yazilim/kvkk-uyum-hizmeti\n),\n\nSunucu ve network güvenliği (/tr/yazilim/sunucu-guvenlik),\n\nPMS & OTA & rezervasyon yapısı (/tr/pms-ota-yonetimi),\n\nÇağrı merkezi ve mesaj yönetimi\n(/tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/mesaj-yonetimi),\n\nRaporlama & veri analizi (/tr/raporlama)\n\nkatmanlarıyla birlikte ele alır.\n\nBu hibrit bakış, KVKK’yı “ayrı bir proje” değil, tüm dijital yapının doğal parçası hâline getirir.",
+      "card1description": "DGTLFACE, KVKK & veri güvenliğini sadece hukuk değil;<ul><li><a href=\"/tr/yazilim\">Yazılım ve web altyapısı</a> ,</li><li <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu yazılım mimarisi</a> >\n,</li><li> <a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu ve network güvenliği</a> ,</li><li>PMS & OTA & rezervasyon yapısı (/tr/pms-ota-yonetimi),</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi</a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> \n,</li><li><a href=\"/tr/raporlama\">Raporlama & veri analizi</a> </li></ul>katmanlarıyla birlikte ele alır.\n\nBu hibrit bakış, KVKK’yı <b>“ayrı bir proje”</b> değil, <b>tüm dijital yapının doğal parçası</b> hâline getirir.",
 
       "card2title": "Antalya Merkezli, Turizm ve Veri Güvenliği Odaklı Yapı",
-      "card2description": "“KVKK antalya, veri güvenliği türkiye, antalya data privacy, kvkk raporlama antalya” gibi aramaların arkasında; turizm şehirlerinde hem veri yoğunluğunu hem operasyonu bilen partner ihtiyacı var.\n\nDGTLFACE:\n\nAntalya ve turizm bölgelerinde aktif otel, resort ve turizm projeleriyle çalışan,\n\nRezervasyon veri güvenliği, OTA ve PMS veri akışı, çağrı merkezi kayıtları gibi alanlarda pratik deneyime sahip,\n\nSaha gerçekleriyle KVKK gerekliliklerini birleştirebilen\n\nbir teknoloji & raporlama partneri olarak çalışır.",
+      "card2description": "<b>“KVKK antalya, veri güvenliği türkiye, antalya data privacy, kvkk raporlama antalya”</b> gibi aramaların arkasında; turizm şehirlerinde hem veri yoğunluğunu hem operasyonu bilen partner ihtiyacı var.\n\nDGTLFACE:<ul><li>Antalya ve turizm bölgelerinde aktif <b>otel, resort ve turizm projeleriyle çalışan</b>,</li><li><b>Rezervasyon veri güvenliği, OTA ve PMS veri akışı, çağrı merkezi kayıtları</b> gibi alanlarda pratik deneyime sahip,</li><li><b>Saha gerçekleriyle KVKK gerekliliklerini birleştirebilen</b></li></ul>bir <b>teknoloji & raporlama</b> partneri olarak çalışır.",
 
       "card3title": "KVKK’yı “Dosya” Değil, “Canlı Sistem” Hâline Getiren Yaklaşım",
-      "card3description": "Birçok işletmede KVKK klasörlerde, veri ise sistemlerde kalır; ikisi birbirine bakmaz. DGTLFACE:\n\nKVKK dokümanlarınızı veri akış haritalarıyla eşler,\n\nTeknik tedbirleri raporlara ve dashboard’lara döker,\n\nİç ekipler için basit ama net KVKK & veri güvenliği özetleri oluşturur,\n\nYılda bir raf kaldırılan değil, haftalık/aylık bakılan bir KVKK & veri güvenliği paneli kurar.\n\nBöylece KVKK, “ödev” olmaktan çıkıp, kurumsal veri kültürünün parçası olur."
+      "card3description": "Birçok işletmede <b>KVKK klasörlerde</b>, veri ise <b>sistemlerde</b> kalır; ikisi birbirine bakmaz. DGTLFACE:<ul><li>KVKK dokümanlarınızı <b>veri akış haritalarıyla</b> eşler,</li><li>Teknik tedbirleri <b>raporlara ve dashboard’lara</b> döker,</li><li>İç ekipler için <b>basit ama net KVKK & veri güvenliği özetleri</b> oluşturur,</li><li>Yılda bir raf kaldırılan değil, <b>haftalık/aylık bakılan</b> bir KVKK & veri güvenliği paneli kurar.</li></ul>Böylece KVKK, <b>“ödev”</b> olmaktan çıkıp, <b>kurumsal veri kültürünün parçası</b> olur."
     },
 
     "verticalSlider": {
@@ -6105,27 +6107,27 @@
 
       "title1": "KVKK Uyumlu Veri ",
       "span1": "Nasıl İşlenir? ",
-      "text1": "Özet prensipler:\n\nAmaç sınırlılığı: Topladığın veriyi sadece belirttiğin amaç için kullan,\n\nVeri minimizasyonu: Gerekli olandan fazlasını toplama,\n\nSüre sınırlılığı: Veriyi gerektiği kadar süreyle sakla,\n\nŞeffaflık: Ne topladığını, neden topladığını kullanıcıya açıkça söyle,\n\nGüvenlik: Erişim, saklama ve aktarım süreçlerinde teknik tedbir uygula.\n\nDGTLFACE, bu prensipleri somut akış ve raporlarla ilişkilendirir.",
+      "text1": "Özet prensipler:<ul><li><b>Amaç sınırlılığı</b>: Topladığın veriyi sadece belirttiğin amaç için kullan,</li><li>Veri minimizasyonu: Gerekli olandan fazlasını toplama,</li><li><b>Süre sınırlılığı</b>: Veriyi gerektiği kadar süreyle sakla,</li><li><b>Şeffaflık</b>: Ne topladığını, neden topladığını kullanıcıya açıkça söyle,</li><li><b>Güvenlik</b>: Erişim, saklama ve aktarım süreçlerinde teknik tedbir uygula.</li></ul>DGTLFACE, bu prensipleri somut <b>akış ve raporlarla</b> ilişkilendirir.",
       "button1": "KVKK Prensiplerini Gör",
 
       "title2": "Oteller İçin Veri Güvenliği ",
       "span2": "İpuçları ",
-      "text2": "PMS ve OTA kullanıcı yetkilerini düzenli gözden geçir,\n\nPaylaşılan bilgisayar ve ortak hesap kullanımından kaçın,\n\nRezervasyon çıktıları ve misafir belgelerini fiziksel olarak da güvenli tut,\n\nE-posta ile kişisel veri paylaşımını minimuma indir,\n\nRezervasyon ve misafir verisi kullanıldığında log tut.\n\n“Oteller için veri güvenliği, rezervasyon veri güvenliği” bu temel adımlarla çok daha yönetilebilir hâle gelir.",
+      "text2": "<ul><li><b>PMS ve OTA kullanıcı yetkilerini</b> düzenli gözden geçir,</li><li>Paylaşılan bilgisayar ve <b> ortak hesap</b> kullanımından kaçın,</li><li>Rezervasyon çıktıları ve misafir belgelerini <b>fiziksel olarak da güvenli</b> tut,</li><li>E-posta ile kişisel veri paylaşımını <b>minimuma indir</b>,</li><li>Rezervasyon ve misafir verisi kullanıldığında <b>log tut</b>.</li></ul><b>“Oteller için veri güvenliği, rezervasyon veri güvenliği”</b> bu temel adımlarla çok daha yönetilebilir hâle gelir.",
       "button2": "Veri Güvenliği İpuçlarını Gör",
 
       "title3": "Turizm KVKK Gereksinimleri ",
       "span3": "Özelinde Dikkat Noktaları ",
-      "text3": "Yurt dışından gelen veriler ve olası ek regülasyonlar (GDPR gibi),\n\nOTA ve acentelerle veri paylaşımı sözleşmeleri,\n\nSağlık turizmi gibi hassas veri içeren segmentlerde ek tedbirler,\n\nKampanya ve sadakat sistemlerinde veri işleme şartları.\n\n“Turizm kvkk gereksinimleri” raporlarımızda bu başlıklar tek tek ele alınır.",
+      "text3": "<ul><li>Yurt dışından gelen veriler ve olası <b>ek regülasyonlar</b> (GDPR gibi),</li><li>OTA ve acentelerle <b>veri paylaşımı sözleşmeleri</b>,</li><li><b>Sağlık turizmi</b> gibi hassas veri içeren segmentlerde ek tedbirler,</li><li>Kampanya ve sadakat sistemlerinde <b>veri işleme şartları</b>.</li></ul><b>“Turizm kvkk gereksinimleri”</b> raporlarımızda bu başlıklar tek tek ele alınır.",
       "button3": "Turizm KVKK Notlarını Gör",
 
       "title4": "Çerez Yönetimi ",
       "span4": "& KVKK Uyumu ",
-      "text4": "Çerez kategorilerini (zorunlu, istatistik, pazarlama, üçüncü taraf) ayrıştırmak,\n\nKullanıcıya detaylı ama anlaşılır bir çerez yönetim paneli sunmak,\n\nKullanıcının tercihlerini kayıt altına almak ve ispatlanabilir hâle getirmek,\n\nTercih değişikliğinde çerez davranışını dinamik değiştirmek.\n\n“Çerez yönetimi kvkk uyumu”, web tarafındaki KVKK uyumunun en görünür parçasıdır.",
+      "text4": "<ul><li>Çerez kategorilerini (zorunlu, istatistik, pazarlama, üçüncü taraf) <b>ayrıştırmak</b>,</li><li>Kullanıcıya <b>detaylı ama anlaşılır</b> bir çerez yönetim paneli sunmak,</li><li>Kullanıcının tercihlerini <b>kayıt altına almak ve ispatlanabilir</b> hâle getirmek,</li><li>Tercih değişikliğinde çerez davranışını <b> dinamik değiştirmek</b>.</li></ul><b>“Çerez yönetimi kvkk uyumu”</b>, web tarafındaki KVKK uyumunun en görünür parçasıdır.",
       "button4": "Çerez Yönetimi Detayları",
 
       "title5": "Müşteri Verisi ",
       "span5": "Koruma Yöntemleri ",
-      "text5": "Erişim log’larını aktif kullanmak,\n\nKritik verilerde şifreleme (encryption) uygulamak,\n\nDüzenli backup + şifrelenmiş yedekler kullanmak,\n\nVaka yönetimi ve ihlal bildirimi prosedürü oluşturmak.\n\nDGTLFACE, tüm bu başlıkları KVKK & veri güvenliği raporlarınızda ölçülebilir hâle getirir.",
+      "text5": "<ul><li><b>Erişim log’larını</b> aktif kullanmak,</li><li>Kritik verilerde <b>şifreleme (encryption)</b> uygulamak,</li><li>Düzenli <b>backup + şifrelenmiş yedekler</b> kullanmak,</li><li><b>Vaka yönetimi ve ihlal bildirimi</b> prosedürü oluşturmak.</li></ul>DGTLFACE, tüm bu başlıkları <b>KVKK & veri güvenliği raporlarınızda</b> ölçülebilir hâle getirir.",
       "button5": "Koruma Yöntemlerini İncele"
     },
 
@@ -6133,19 +6135,19 @@
       "header": "SSS – KVKK & Veri Güvenliği Raporlama Hakkında Sık Sorulan Sorular",
 
       "question1": "Zaten bir KVKK danışmanımız var, yine de sizden raporlama hizmeti almaya gerek var mı?",
-      "answer1": "Hukuk ve süreç tarafında danışmanınız olması harika; biz bu yapıyı veri, sistem ve raporlama tarafında tamamlıyoruz.\n\nAvukatınız ne olması gerektiğini söyler,\n\nBiz sistemlerinizde **“ne oldu, ne oluyor, nerede risk var”**ı sayılarla, dashboard’larla gösteririz.\n\nEn güçlü model; hukuk + teknik + raporlamanın birlikte çalıştığı modeldir.",
+      "answer1": "Hukuk ve süreç tarafında danışmanınız olması harika; biz bu yapıyı <b>veri, sistem ve raporlama</b> tarafında tamamlıyoruz.<ul><li>Avukatınız ne olması gerektiğini söyler,</li><li>Biz sistemlerinizde **“ne oldu, ne oluyor, nerede risk var”**ı <b>sayılarla, dashboard’larla</b> gösteririz.</li></ul>En güçlü model; <b>hukuk + teknik + raporlamanın</b> birlikte çalıştığı modeldir.",
 
       "question2": "KVKK & veri güvenliği raporu için tüm sistemleri mi değiştirmeniz gerekiyor?",
-      "answer2": "Hayır. Mevcut PMS, OTA, web, çağrı merkezi, CRM ve sunucu altyapınızla da çalışabiliriz.\n\nÖnce fotoğrafı çeker, sonrasında iyileştirme önerileri sunarız.\nDeğişmesi gereken sistemler varsa bu karar sizindir; biz veriyle **“neden”**ini gösteririz.",
+      "answer2": "Hayır. Mevcut <b>PMS, OTA, web, çağrı merkezi, CRM ve sunucu</b> altyapınızla da çalışabiliriz.\n\nÖnce fotoğrafı çeker, sonrasında iyileştirme önerileri sunarız.\nDeğişmesi gereken sistemler varsa bu karar <b>sizindir</b>; biz veriyle **“neden”**ini gösteririz.",
 
       "question3": "Sadece otel değil, farklı sektörlerde de KVKK veri güvenliği raporu çıkarıyor musunuz?",
-      "answer3": "Evet. Turizm odaklı kuvvetli bir tecrübemiz var; ama CRM, e-ticaret, kurumsal hizmet ve B2B veri yoğun çalışan diğer sektörlerde de kvkk veri güvenliği, veri koruma sistemi, güvenli veri yönetimi raporları üretebiliyoruz.",
+      "answer3": "Evet. Turizm odaklı kuvvetli bir tecrübemiz var; ama <b>CRM, e-ticaret, kurumsal hizmet ve B2B</b> veri yoğun çalışan diğer sektörlerde de <b>kvkk veri güvenliği, veri koruma sistemi, güvenli veri yönetimi</b> raporları üretebiliyoruz.",
 
       "question4": "KVKK verileriyle ilgili dış denetim veya resmi inceleme olursa bu raporlar işimize yarar mı?",
-      "answer4": "Evet, çünkü:\n\nVeri akış haritaları,\n\nUygulanan teknik tedbir özetleri,\n\nErişim ve log raporları,\n\nSilme/anonimleştirme ve saklama süreleri\n\nsomut şekilde gösterilebilir olur. Bu da hem iç denetim hem dış incelemelerde size ciddi kolaylık sağlar.",
+      "answer4": "Evet, çünkü:<ul><li><b>Veri akış haritaları</b>,</li><li>Uygulanan <b>teknik tedbir özetleri</b>,</li><li><b>Erişim ve log raporları</b>,</li><li><b>Silme/anonimleştirme ve saklama süreleri</b></li></ul>somut şekilde gösterilebilir olur. Bu da hem <b>iç denetim</b> hem <b>dış incelemelerde</b> size ciddi kolaylık sağlar.",
 
       "question5": "DGTLFACE ile KVKK & veri güvenliği raporlama projesine nasıl başlıyoruz?",
-      "answer5": "Standart akışımız:\n\nMevcut sistemlerinizin (PMS, OTA, web, CRM, çağrı merkezi, sunucu) analizi\n\nVeri envanteri ve veri akış haritalarının çıkarılması\n\nKVKK uyum boşluklarının ve risklerin belirlenmesi\n\nLooker Studio veya benzeri araçlarla KVKK & veri güvenliği dashboard’larının kurulması\n\nİlk KVKK uyum ve veri güvenliği raporunun sunumu\n\nİyileştirme aksiyonlarının planlanması\n\nDönemsel (aylık/3 aylık) takip ve raporlama döngüsünün başlatılması\n\nBu sayede KVKK, tek seferlik değil, sürekli izlenen ve iyileştirilen bir alan hâline gelir."
+      "answer5": "Standart akışımız:<ul><li>Mevcut sistemlerinizin <b>(PMS, OTA, web, CRM, çağrı merkezi, sunucu)</b> analizi</li><li><b>Veri envanteri ve veri akış haritalarının</b> çıkarılması</li><li>KVKK uyum boşluklarının ve <b>risklerin belirlenmesi</b></li><li>Looker Studio veya benzeri araçlarla <b>KVKK & veri güvenliği dashboard’larının</b> kurulması</li><li>İlk <b>KVKK uyum ve veri güvenliği raporunun</b> sunumu</li><li><b>İyileştirme aksiyonlarının</b> planlanması</li><li>Dönemsel <b>(aylık/3 aylık)</b> takip ve raporlama döngüsünün başlatılması</li></ul>Bu sayede KVKK, tek seferlik değil, <b>sürekli izlenen</b> ve <b>iyileştirilen</b> bir alan hâline gelir."
     }
   },
 
