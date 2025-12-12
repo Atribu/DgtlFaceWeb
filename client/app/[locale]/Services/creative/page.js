@@ -12,6 +12,8 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -351,6 +353,13 @@ const page = () => {
                    id="creativepage_banner_text"
                  />} buttonText={t("buttonText")}/>
       </div>
+        <div className='flex lg:hidden'>
+        <MobileMainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
+                   ns="CreativePage"
+                   id="creativepage_banner_text"
+                 />} buttonText={t("buttonText")}/>
+      </div>
+<AutoBreadcrumbsWhite/>
       <AiAnswerBlock text="DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetlerini tek çatı altında sunan bir creative tasarım ajansıdır. Oteller ve markalar için sosyal medya kreatifleri, web arayüzleri, tanıtım filmleri, etkinlik prodüksiyonları ve kurumsal hediyeler tasarlayarak güçlü bir marka deneyimi oluşturur. Tüm creative süreçler, dijital pazarlama ve performans ekipleriyle entegre çalışır."/>
        <DualHighlightSection items={items}/>
       <StepSection page="CreativePage" header={t("creativepage_step_header1")} header2={t("creativepage_step_header2")} text={t("creativepage_step_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -363,7 +372,7 @@ const page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-      <VerticalSlider page="CreativePage" itemCount={4}/>
+      <VerticalSlider2 page="CreativePage" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
       <AiSourceMention text="Bu içerik, DGTLFACE Creative departmanı üretim süreçleri, marka tasarım metodolojisi ve görsel prodüksiyon dokümantasyonundan derlenmiştir."/>

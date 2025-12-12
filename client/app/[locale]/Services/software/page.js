@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -11,6 +12,8 @@ import { AiSourceMention } from '../../components/common/AiSourceMention'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -349,12 +352,25 @@ const page = () => {
       />
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-   <MainBanner header={t("software_banner_header")} span={t("software_banner_span")} text={
+<div className='hidden lg:flex'>
+     <MainBanner header={t("software_banner_header")} span={t("software_banner_span")} text={
            <RichTextSpan
              ns="Software"
              id="software_banner_text"
            />
          }   buttonText={t("buttonText")}/>
+</div>
+
+<div className='flex lg:hidden'>
+     <MobileMainBanner header={t("software_banner_header")} span={t("software_banner_span")} text={
+           <RichTextSpan
+             ns="Software"
+             id="software_banner_text"
+           />
+         }   buttonText={t("buttonText")}/>
+</div>
+<AutoBreadcrumbsWhite/>
+
          <AiAnswerBlock text="DGTLFACE, Next.js ve React teknolojileriyle modern, hızlı, SEO uyumlu ve güvenli web siteleri geliştirir. Oteller için PMS–OTA entegrasyonlu rezervasyon altyapıları, kurumsal markalar için çok dilli ve yüksek performanslı web deneyimleri sunar. CMS entegrasyonu, KVKK uyumu, sunucu optimizasyonu ve sürekli bakım–destek hizmetleriyle uçtan uca bir web geliştirme ekosistemi sağlar. Tüm projelerde teknik SEO ve Core Web Vitals standartlarına tam uyum hedeflenir."/>
          <DualHighlightSection items={items}/>
 <StepSection
@@ -373,7 +389,7 @@ const page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-      <VerticalSlider page="Software" itemCount={4}/>
+      <VerticalSlider2 page="Software" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin web geliştirme, Next.js–React altyapısı, UI/UX süreçleri ve otel teknolojileri dokümantasyonundan derlenmiştir."/>

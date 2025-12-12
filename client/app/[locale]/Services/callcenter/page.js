@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -11,6 +12,8 @@ import RichTextSpan from '../../components/common/RichTextSpan'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -353,10 +356,20 @@ const page = () => {
       />
       
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-      <MainBanner  header={t("callcenter_banner_header")} span={t("callcenter_banner_span")} text={<RichTextSpan
+<div className='hidden lg:flex'>
+        <MainBanner  header={t("callcenter_banner_header")} span={t("callcenter_banner_span")} text={<RichTextSpan
                    ns="Callcenter"
                    id="callcenter_banner_text"
                  /> } buttonText={t("buttonText")}/>
+</div>
+
+<div className='flex lg:hidden'>
+        <MobileMainBanner  header={t("callcenter_banner_header")} span={t("callcenter_banner_span")} text={<RichTextSpan
+                   ns="Callcenter"
+                   id="callcenter_banner_text"
+                 /> } buttonText={t("buttonText")}/>
+</div>
+<AutoBreadcrumbsWhite/>
       <AiAnswerBlock text="DGTLFACE, oteller ve markalar için 4 dilli, çok kanallı çağrı merkezi hizmetleri sunar. Telefon, WhatsApp, Instagram DM, web chat ve OTA mesajlarını tek merkezden yöneterek rezervasyon, satış sonrası destek ve mesaj süreçlerini profesyonel ekiplerle yürütür. PMS–OTA entegrasyonu ve performans raporlamasıyla, çağrı merkezini sadece maliyet değil, ölçülebilir satış ve memnuniyet yatırımı haline getirir."/>
       <DualHighlightSection items={items}/>
       <StepSection header={t("callcenter_section_header1")} header2={t("callcenter_section_header2")} text={t("callcenter_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -369,7 +382,7 @@ const page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-     <VerticalSlider page="Callcenter" itemCount={4}/>
+     <VerticalSlider2 page="Callcenter" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE’in çağrı merkezi hizmetleri, otel rezervasyon yönetimi ve turizm sektörüne özel iletişim süreçlerine ilişkin iç dokümantasyon ve operasyon modellerinden derlenmiştir."/>

@@ -195,7 +195,7 @@ const AutoBreadcrumbsWhite = ({ className = "" }) => {
     <>
       <nav
         aria-label="Breadcrumb"
-        className={`w-[100%] md:w-[94%] lg:w-[88%] flex justify-start rounded-xl bg-[#29194f]  ${className}`}
+        className={`w-[100%] md:w-[94%] lg:w-[88%] flex justify-start rounded-2xl bg-[#29194f]  ${className}`}
       >
         <div className="gradient-border-nav inline-flex w-full min-w-[370px]">
           <ol className="flex flex-wrap items-center gap-[2px] lg:gap-1 px-2 md:px-3 py-1.5 text-[12px] lg:text-[14px] font-medium text-white bg-transparent w-full font-inter24">

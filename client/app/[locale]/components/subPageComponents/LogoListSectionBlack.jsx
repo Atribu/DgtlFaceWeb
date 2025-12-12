@@ -12,19 +12,21 @@ const LogoListSectionBlack = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#ffffff] z-[20] pb-[260px]"  style={{ background:
-          `
-      linear-gradient(
-        to bottom,
-        #080612 30%,
-        #140C29 82%,
-        #1c153b 90%,
-        #2a1a4f 90%,
-        #f2edf9 95%,
-        #ffffff 100%
-      )
-    `,
-      }}>
+    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#ffffff] z-[20] pb-[260px]"  
+    // style={{ background:
+    //       `
+    //   linear-gradient(
+    //     to bottom,
+    //     #080612 30%,
+    //     #140C29 82%,
+    //     #1c153b 90%,
+    //     #2a1a4f 90%,
+    //     #f2edf9 95%,
+    //     #ffffff 100%
+    //   )
+    // `,
+    //   }}
+      >
       <div className="flex flex-col w-[80%] items-center justify-center text-center">
         {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">

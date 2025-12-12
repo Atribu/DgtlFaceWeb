@@ -394,7 +394,7 @@
 
     "servicespage_s2_header1": "DGTLFACE Hizmet Kümeleri",
     "servicespage_s2_span1": "Hizmet Kümeleri",
-    "servicespage_s2_text1": "SBu bölüm, DGTLFACE’in ana hizmet gruplarını cluster halinde özetler. Her H3, ilgili ana kategori sayfasına iç link vererek otoriteyi toplar.",
+    "servicespage_s2_text1": "SBu bölüm, DGTLFACE’in ana hizmet gruplarını cluster halinde özetler. ",
 
     "servicespage_s3_item1_title": "Yaratıcı & Marka Stratejisi",
     "servicespage_s3_item2_title": "Çağrı Merkezi & Destek",
@@ -2007,7 +2007,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"Google Ads Yapısını Derinleştiren Alanlar",
 
       "title1":"Manuel ve Otomatik Teklif Stratejilerinde  ",
@@ -2114,7 +2114,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"SEM Yapısını Derinleştiren Alanlar",
 
       "title1":"YouTube Remarketing ile Sıcak Kitleyi  ",
@@ -2219,7 +2219,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"SEM Yapısını Derinleştiren Alanlar",
 
       "title1":"Dönüşüm Hunisi Bazlı  ",
@@ -2323,7 +2323,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"Google Tag Manager Yapısını Derinleştiren Alanlar",
 
       "title1":"Otel Rezervasyon  ",
@@ -2430,7 +2430,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"Performans Analizi ve Raporlama Yapısını Derinleştiren Alanlar",
 
       "title1":"Reklam Dönüşüm Oranı   ",
@@ -2631,7 +2631,7 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman -",
+    "header": "Mikro Katman ",
     "header2": "SEO Performans Analizini Derinleştiren Alanlar",
 
     "title1": "Organik Trafik Düşüşü ",
@@ -2718,7 +2718,7 @@
     },
 
      "verticalSlider":{
-      "header":" Mikro Katman -",
+      "header":" Mikro Katman ",
       "header2":"Performans Analizi ve Raporlama Yapısını Derinleştiren Alanlar",
 
       "title1":"Teknik SEO Checklist 2025’te ",
@@ -2775,7 +2775,7 @@
     "text1": "Yerel SEO’nun kalbi, Google Business Profile (eski adıyla Google My Business) kaydını doğru ve zengin kullanmaktan geçer. DGTLFACE: <ul><li> İşletme kategori ve alt kategorilerinizi doğru seçer,</li><li> Adres, telefon, web sitesi, çalışma saatleri, hizmet alanı gibi temel alanları eksiksiz doldurur,</li><li> Açıklama (description) alanına yerel anahtar kelime stratejisine uygun metin yazar, </li><li>Fotoğraf, video, logo ve kapak görsellerini marka algınıza göre seçer,</li><li> “Ürünler”, “Hizmetler”, “Öne çıkanlar”, “Post” ve “Etkinlik” alanlarını aktif kullanır.</li></ul> <b>“Google Maps sıralama yükseltme, Google My Business nasıl optimize edilir, yerel aramalarda nasıl üst sıralara çıkılır”</b> gibi soruları, pratikte uygulanan bir checklist ve sürekli güncellenen bir profil yönetimi ile cevaplarız.",
 
     "header2": "Yerel Aramalarda Üst Sıralar İçin Teknik ve İçerik Yapısı",
-    "text2": "Harita tarafı kadar, web sitenizin de <b>lokal sinyaller</b> vermesi gerekir. DGTLFACE, yerel SEO odaklı:<ul><li> Şehir/ilçe/bölge bazlı landing sayfaları,</li><li> “Şehir + hizmet” kombinasyonlu H1/H2 başlık yapıları,</li><li> Sayfa içeriklerinde lokal referanslar (bölge isimleri, mahalleler, landmark’lar),</li><li> Yerel schema işaretlemeleri (LocalBusiness, Hotel, Organization vb.), </li><li>İç linkleme ile lokal sayfalar arasında otorite dağılımı</li></ul> kurgular. <b>“Yerel aramalarda nasıl üst sıralara çıkılır, yerel anahtar kelime araştırması, local pack nedir”</b> gibi konular, sadece harita değil; <b>site içi mimari ve içerik stratejisiyle</b> de desteklenir.",
+    "text2": "Harita tarafı kadar, web sitenizin de <b>lokal sinyaller</b> vermesi gerekir. DGTLFACE, yerel SEO odaklı:<ul><li> Şehir/ilçe/bölge bazlı landing sayfaları,</li><li> “Şehir + hizmet” kombinasyonlu başlık yapıları,</li><li> Sayfa içeriklerinde lokal referanslar (bölge isimleri, mahalleler, landmark’lar),</li><li> Yerel schema işaretlemeleri (LocalBusiness, Hotel, Organization vb.), </li><li>İç linkleme ile lokal sayfalar arasında otorite dağılımı</li></ul> kurgular. <b>“Yerel aramalarda nasıl üst sıralara çıkılır, yerel anahtar kelime araştırması, local pack nedir”</b> gibi konular, sadece harita değil; <b>site içi mimari ve içerik stratejisiyle</b> de desteklenir.",
 
     "header3": "Oteller ve Turizm Markaları İçin Yerel SEO",
     "text3": "Turizm ve otelcilikte yerel SEO, hem destinasyon hedefli turist hem de bölge içinden gelen kullanıcılar için kritik bir alan. DGTLFACE, <b>“otel yerel SEO, turizm yerel SEO, resort Google Maps optimizasyonu, OTA lokal SEO”</b> tarafında: <ul><li>Otelinizin bulunduğu destinasyon için (“antalya family hotel”, “belek all inclusive”, “kemer adults only hotel” vb.) lokal anahtar kelime haritaları çıkarır,</li><li> Google Maps’te rakip otellerin pozisyonunu, yorum sayısını ve kategori yapılarını analiz eder, </li><li>Bölge bazlı blog ve rehber içerikleriyle (“X bölgede yapılacaklar, gezilecek yerler, plaj rehberleri” vb.) otelinizi destinasyonun doğal parçası haline getirir, </li><li>OTA sayfalarınızdaki bilgi ve görsellerle web sitenizi teknik ve içerik anlamında uyumlu hale getirir.</li></ul> Amaç: Sadece OTA tarafında görünür olmak değil; <b>kendi web siteniz ve kendi Google Maps</b> profilinizle de güçlü bir lokal varlık kurmaktır.",
@@ -2810,7 +2810,7 @@
   },
 
   "verticalSlider": {
-    "header": " Mikro Katman -",
+    "header": " Mikro Katman ",
     "header2": "Yerel SEO Stratejisini Derinleştiren Alanlar",
 
     "title1": "Local Pack Nedir ve ",
@@ -2907,7 +2907,7 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman -",
+    "header": "Mikro Katman ",
     "header2": "İçerik SEO Stratejisini Derinleştiren Alanlar",
 
     "title1": "Otel Blog İçerikleri Nasıl ",
@@ -3002,7 +3002,7 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman -",
+    "header": "Mikro Katman ",
     "header2": "Backlink Stratejisini Derinleştiren Alanlar",
 
     "title1": "Link Juice Optimizasyonu ve ",
@@ -3116,7 +3116,7 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman -",
+    "header": "Mikro Katman ",
     "header2": "İçerik Stratejisini Derinleştiren Alanlar",
 
     "title1": "Sektöre Göre İçerik Teması ve ",
@@ -3214,7 +3214,7 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman -",
+    "header": "Mikro Katman ",
     "header2": "Stratejiyi Derinleştiren Uygulama Alanları",
 
     "title1": "30 Günlük İçerik Takvimi ",
@@ -3312,8 +3312,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "Viral Reels ",
     "span1": "Nasıl Yapılır?",
@@ -3410,8 +3410,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "Instagram Reklamı ",
     "span1": "Nasıl Verilir?",
@@ -3508,8 +3508,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "Instagram Etkileşim ",
     "span1": "Düşüşü Neden Olur?",
@@ -3618,8 +3618,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "Kurumsal Web Sitesi ",
     "span1": "Nasıl Yapılır?",
@@ -3728,8 +3728,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "CMS Paneli ",
     "span1": "Nasıl Tasarlanmalı?",
@@ -3836,8 +3836,8 @@
   },
 
   "verticalSlider": {
-    "header": "Mikro Katman –",
-    "header2": "H5 Konuları",
+    "header": "Mikro Katman",
+    "header2": "",
 
     "title1": "KVKK Web Sitesi ",
     "span1": "Nasıl Yapılır?",
@@ -3876,7 +3876,7 @@
     "answer4": "Süre; sisteminizin karmaşıklığına göre değişir.<ul><li> Sadece web + basit formlar içeren yapılarda süreç daha kısa sürerken;</li><li> Web + PMS + OTA + çağrı merkezi + CRM içeren yapılarda daha kapsamlı bir proje</li></ul>. DGTLFACE, analiz sonrasında size net <b>bir süre ve faz planı</b> sunar.",
 
     "question5": "DGTLFACE KVKK uyum projesine nasıl başlıyor?",
-    "answer5": "Akışımız:<ul><li> Mevcut sistem & veri envanteri analizi, </li><li>Riskli alanların ve önceliklerin belirlenmesi,</li><li> Web, çerez, formlar, panel, sunucu tarafında yapılacak çalışmaların listelenmesi, </li><li>Zaman çizelgesi + bütçe teklifinin paylaşılması, </li><li>Geliştirme & entegrasyon, </li><li>Test, eğitim ve devreye alma, </li><li>İsteğe bağlı <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">raporlama/kvkk veri güvenliği</a> ile <b>periyodik raporlama.</b>"
+    "answer5": "Akışımız:<ul><li> Mevcut sistem & veri envanteri analizi, </li><li>Riskli alanların ve önceliklerin belirlenmesi,</li><li> Web, çerez, formlar, panel, sunucu tarafında yapılacak çalışmaların listelenmesi, </li><li>Zaman çizelgesi + bütçe teklifinin paylaşılması, </li><li>Geliştirme & entegrasyon, </li><li>Test, eğitim ve devreye alma, </li></ul>İsteğe bağlı <a href=\"/tr/raporlama/kvkk-veri-guvenligi\">kvkk veri güvenliği</a> ile <b>periyodik raporlama.</b>"
   }
 },
 
@@ -3949,8 +3949,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Sunucu Güvenliği ",
       "span1": "Nasıl Sağlanır?",
@@ -4058,8 +4058,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Web Sitesi Bakım Paketi ",
       "span1": "Nasıl Olmalı?",
@@ -4154,8 +4154,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Motion Graphic ",
       "span1": "Nedir, Nerede Kullanılır?",
@@ -4269,7 +4269,7 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
+      "header": "Mikro Katman",
       "header2": "Kullanıcı Deneyimi",
 
       "title1": "UI/UX Tasarımı ",
@@ -4376,8 +4376,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Oteller İçin Tanıtım Videosu ",
       "span1": "Nasıl Olmalı?",
@@ -4501,8 +4501,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Etkinlik Prodüksiyonu ",
       "span1": "Nasıl Yapılır?",
@@ -4613,8 +4613,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Kurumsal Hediye Örnekleri ",
       "span1": "Nasıl Seçilmelidir?",
@@ -4707,8 +4707,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "4 Dilde Müşteri Destek Hizmeti",
       "span1": "Nedir?",
@@ -4778,7 +4778,7 @@
       "header3": "Neden DGTLFACE ile Sosyal Medya Mesaj Yönetimi?",
       "text3": "DGTLFACE, mesaj yönetimini sadece “sosyal medya işi” olarak değil; çağrı merkezi, dijital pazarlama, PMS & OTA entegrasyonları ve otel dijital pazarlama yapısıyla birlikte ele alır. Böylece DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi içinde çalışır.",
 
-      "header4": "Mikro Katman – H5 Konuları",
+      "header4": "Mikro Katman ",
       "text4": "Instagram mesaj yönetimi, oteller için mesaj yönetimi ipuçları, WhatsApp destek hattı kurulumu, Google & Yandex yorum yanıtlama prensipleri ve multichannel chatbox sisteminin önemi gibi konular; DGTLFACE’in mesaj yönetimi yaklaşımında mikro seviyede ele alınan başlıklardır."
     },
 
@@ -4815,8 +4815,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Instagram Mesaj Yönetimi ",
       "span1": "Nasıl Yapılır?",
@@ -4922,8 +4922,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Oteller İçin Rezervasyon Destek Hizmeti ",
       "span1": "Nasıl Kurgulanır?",
@@ -5025,8 +5025,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": "H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": "",
 
       "title1": "Müşteri Şikâyet Yönetimi ",
       "span1": "Nasıl Yapılır? (Operasyonel Özet)",
@@ -5127,8 +5127,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Çağrı Merkezi Performansı ",
       "span1": "Nasıl Ölçülür? (Pratik Özet)",
@@ -5235,8 +5235,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "PMS Kurulumu ",
       "span1": "Nasıl Yapılır? (Özet Yol Haritası)",
@@ -5340,8 +5340,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Booking & Expedia ",
       "span1": "Nasıl Entegre Edilir?",
@@ -5453,8 +5453,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Channel Manager ",
       "span1": "Nasıl Çalışır? (Pratik Özet)",
@@ -5562,8 +5562,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Online Satış Optimizasyonu ",
       "span1": "Nasıl Yapılır?",
@@ -5679,8 +5679,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Rezervasyon Yönetimi ",
       "span1": "Nasıl Yapılır?",
@@ -5783,8 +5783,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Looker Studio ",
       "span1": "Nasıl Kullanılır?",
@@ -5883,8 +5883,8 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Benchmark Analizi ",
       "span1": "Nasıl Yapılır? (Pratik Özet)",
@@ -5993,31 +5993,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Dönüşüm Oranı ",
-      "span1": "Nasıl Artırılır? (H5)",
+      "span1": "Nasıl Artırılır? ",
       "text1": "Kısaca:<ul><li><b>Doğru trafik:</b> Yanlış kitleye gösterilen en iyi reklam bile işe yaramaz.</li><li> <b>Doğru deneyim:</b> Yavaş site, zor form, karışık rezervasyon motoru dönüşümü öldürür. </li><li><b>Doğru teklif:</b> Fiyat, içerik ve ek faydaların dengede olması gerekir. </li><li><b>Doğru takip:</b> Yarım kalan sepetler, form dolduran ama aranmayan lead’ler büyük kayıptır.</li></ul>DGTLFACE, bu dört alanı <b>birlikte optimize eder.</b>",
       "button1": "Dönüşüm İpuçlarını Gör",
 
       "title2": "Satış Hunisi Analizi ",
-      "span2": "Nasıl Yapılır? (H5)",
+      "span2": "Nasıl Yapılır? ",
       "text2": "<ul><li>Adımları tanımla\n(<b>trafik → sayfa görüntüleme → etkileşim → form/rezervasyon → satış</b>).</li><li>Her adım için <b>sayıları ve oranları ölç</b>.\n\nEn büyük <b>düşüşün olduğu adımları</b> işaretle.</li><li>O adımlar için <b>UX, içerik, fiyat veya güven unsurları </b> üzerine testler tasarla.</li><li>Sonuçları tekrar ölç ve <b>en iyi çalışan senaryoları ölçekle</b>.</li></ul><b>“Satış hunisi analizi”</b>, sürekli tekrar eden bir <b>test–ölç–iyileştir</b> döngüsüdür.",
       "button2": "Huniyi Analiz Et",
 
       "title3": "Reklam Dönüşüm Raporu ",
-      "span3": "Nasıl Okunmalı? (H5)",
+      "span3": "Nasıl Okunmalı? ",
       "text3": "<ul><li>Tekil metriklere (<b>CTR, CPC, CPM</b>) takılı kalma;</li><li><b>Dönüşüm ve gelir metriklerini (CPL, CPA, ROAS)</b> önceliklendir,</li><li><b>Reklam → site davranışı → dönüşüm</b> akışını birlikte incele,</li><li>Yüksek tıklama ama <b>düşük dönüşüm veren kampanyaları</b> net şekilde işaretle,</li><li>Reklam bütçesini “ucuz tıklama”ya değil, <b>kârlı dönüşüme</b> yönlendir.</li></ul>DGTLFACE, <b>Google Ads satış analizi ve Meta Ads dönüşüm raporu</b> panellerinde tam olarak bunu yapmanı sağlar.",
       "button3": "Reklam Raporunu Oku",
 
       "title4": "Oteller İçin Satış Raporu ",
-      "span4": "Hazırlama İpuçları (H5)",
+      "span4": "Hazırlama İpuçları ",
       "text4": "<ul><li><b>Doluluk, ADR, RevPAR</b> → temel gelir metrikleri,</li><li><b>Kanal bazlı gelir </b>→ OTA, web, acente, call center, walk-in,</li><li><b>Pazar bazlı dağılım</b> → ülke/dil bazlı satış,</li><li><b>Kampanya bazlı performans</b> → erken rezervasyon, high season, özel dönemler,</li><li><b>Dijital kaynak</b> → hangi trafik → hangi kanal → hangi gelir.</li></ul><b>“Otel satış raporu hazırlama”</b> sürecinde, bu tablonun <b>tamamı</b> görünür olmalı.",
       "button4": "Satış Raporu Yapısını Gör",
 
       "title5": "Satış Artırma ",
-      "span5": "Veri Taktikleri (H5)",
+      "span5": "Veri Taktikleri ",
       "text5": "<ul><li><b>Düşük performanslı adımları A/B</b> testleriyle optimize et,</li><li><b>En iyi performans gösteren</b> kampanya ve içerikleri ölçekle,</li><li>Küçük veri sinyallerine (örneğin belirli bir pazarın yüksek dönüşümü) hızlı reaksiyon ver,</li><li>Her rapor dönemini, bir önceki döneme göre <b>öğrenme fırsatı</b> olarak gör.</li></ul>Veri, doğru okunduğunda, <b>en iyi satış danışmanıdır.</b>",
       "button5": "Veri Taktiklerini İncele"
     },
@@ -6100,31 +6100,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "KVKK Uyumlu Veri ",
-      "span1": "Nasıl İşlenir? (H5)",
+      "span1": "Nasıl İşlenir? ",
       "text1": "Özet prensipler:\n\nAmaç sınırlılığı: Topladığın veriyi sadece belirttiğin amaç için kullan,\n\nVeri minimizasyonu: Gerekli olandan fazlasını toplama,\n\nSüre sınırlılığı: Veriyi gerektiği kadar süreyle sakla,\n\nŞeffaflık: Ne topladığını, neden topladığını kullanıcıya açıkça söyle,\n\nGüvenlik: Erişim, saklama ve aktarım süreçlerinde teknik tedbir uygula.\n\nDGTLFACE, bu prensipleri somut akış ve raporlarla ilişkilendirir.",
       "button1": "KVKK Prensiplerini Gör",
 
       "title2": "Oteller İçin Veri Güvenliği ",
-      "span2": "İpuçları (H5)",
+      "span2": "İpuçları ",
       "text2": "PMS ve OTA kullanıcı yetkilerini düzenli gözden geçir,\n\nPaylaşılan bilgisayar ve ortak hesap kullanımından kaçın,\n\nRezervasyon çıktıları ve misafir belgelerini fiziksel olarak da güvenli tut,\n\nE-posta ile kişisel veri paylaşımını minimuma indir,\n\nRezervasyon ve misafir verisi kullanıldığında log tut.\n\n“Oteller için veri güvenliği, rezervasyon veri güvenliği” bu temel adımlarla çok daha yönetilebilir hâle gelir.",
       "button2": "Veri Güvenliği İpuçlarını Gör",
 
       "title3": "Turizm KVKK Gereksinimleri ",
-      "span3": "Özelinde Dikkat Noktaları (H5)",
+      "span3": "Özelinde Dikkat Noktaları ",
       "text3": "Yurt dışından gelen veriler ve olası ek regülasyonlar (GDPR gibi),\n\nOTA ve acentelerle veri paylaşımı sözleşmeleri,\n\nSağlık turizmi gibi hassas veri içeren segmentlerde ek tedbirler,\n\nKampanya ve sadakat sistemlerinde veri işleme şartları.\n\n“Turizm kvkk gereksinimleri” raporlarımızda bu başlıklar tek tek ele alınır.",
       "button3": "Turizm KVKK Notlarını Gör",
 
       "title4": "Çerez Yönetimi ",
-      "span4": "& KVKK Uyumu (H5)",
+      "span4": "& KVKK Uyumu ",
       "text4": "Çerez kategorilerini (zorunlu, istatistik, pazarlama, üçüncü taraf) ayrıştırmak,\n\nKullanıcıya detaylı ama anlaşılır bir çerez yönetim paneli sunmak,\n\nKullanıcının tercihlerini kayıt altına almak ve ispatlanabilir hâle getirmek,\n\nTercih değişikliğinde çerez davranışını dinamik değiştirmek.\n\n“Çerez yönetimi kvkk uyumu”, web tarafındaki KVKK uyumunun en görünür parçasıdır.",
       "button4": "Çerez Yönetimi Detayları",
 
       "title5": "Müşteri Verisi ",
-      "span5": "Koruma Yöntemleri (H5)",
+      "span5": "Koruma Yöntemleri ",
       "text5": "Erişim log’larını aktif kullanmak,\n\nKritik verilerde şifreleme (encryption) uygulamak,\n\nDüzenli backup + şifrelenmiş yedekler kullanmak,\n\nVaka yönetimi ve ihlal bildirimi prosedürü oluşturmak.\n\nDGTLFACE, tüm bu başlıkları KVKK & veri güvenliği raporlarınızda ölçülebilir hâle getirir.",
       "button5": "Koruma Yöntemlerini İncele"
     },
@@ -6229,31 +6229,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Oteller İçin SEO ",
-      "span1": "Nasıl Yapılır? (H5)",
+      "span1": "Nasıl Yapılır? ",
       "text1": "Özet akış:\n\nOtel ve hedef pazar analizi,\n\nAnahtar kelime araştırması (bölge + konsept + destinasyon + niş),\n\nTeknik SEO (hız, mobil, yapılandırma, schema),\n\nİçerik planı (oda, konsept, destinasyon, blog),\n\nYerel SEO (Maps, lokal aramalar, yorum yönetimi),\n\nÇok dilli yapı (TR–EN–DE–RU),\n\nSürekli raporlama ve optimizasyon.\n\nDGTLFACE, bu akışı tamamen turizm ve otel gerçeklerine göre uygular.",
       "button1": "Otel SEO Adımlarını Gör",
 
       "title2": "Otel SEO Anahtar Kelime ",
-      "span2": "Analizi Nasıl Yapılır? (H5)",
+      "span2": "Analizi Nasıl Yapılır? ",
       "text2": "Bölge + otel konsepti\n(ör: “antalya family resort”, “side all inclusive”, “kemer luxury hotel”),\n\nPazar bazlı aramalar (Almanca, Rusça, İngilizce),\n\nUzun kuyruk sorular\n(“[bölge]’de aile oteli önerisi”, “balayı oteli [bölge]”, “spa otel [bölge]”),\n\nRakip otel domain’lerinin organik görünürlüğü,\n\nBlog & destinasyon içeriği için “yaşam tarzı” aramaları.\n\nBunlar; otel SEO anahtar kelime analizi raporumuzun temel yapı taşlarıdır.",
       "button2": "Keyword Analiz Örneklerini Gör",
 
       "title3": "Çok Dilli Otel SEO ",
-      "span3": "İçin İpuçları (H5)",
+      "span3": "İçin İpuçları ",
       "text3": "Her dil için ayrı sayfa/URL yapısı (otomatik çeviri çözümlerini temel yapı olarak kullanmamak),\n\nHreflang etiketlerinin doğru bağlanması,\n\nÇeviri değil, lokal içerik yazımı (özellikle DE/RU için),\n\nDil bazlı teknik & içerik SEO kontrolleri.\n\n“Çok dilli otel SEO” artık özellikle resort ve city hotel’ler için olmazsa olmaz.",
       "button3": "Çok Dilli SEO İpuçlarını Gör",
 
       "title4": "Oteller İçin Blog ",
-      "span4": "Stratejisi Nasıl Olmalı? (H5)",
+      "span4": "Stratejisi Nasıl Olmalı? ",
       "text4": "Sadece oteli değil, bölgeyi ve deneyimi anlatmalı,\n\nSık sorulan sorulara cevap vermeli\n(“[bölge]’de ne yapılır, nereye gidilir?”),\n\nMevsimsel içerikler (yaz, kış, festival, etkinlik),\n\nHedef pazar dillerine göre içerik planı,\n\nİçeriklerin rezervasyon süreciyle bağlanması\n(CTA, iç linkler, paket sayfaları).\n\nOteller için blog stratejisi, hem SEO hem sosyal medya hem marka konumlandırması için altın değerindedir.",
       "button4": "Blog Stratejisi Önerilerini Gör",
 
       "title5": "Otel Fotoğraf SEO ",
-      "span5": "Optimizasyonu Neden Önemli? (H5)",
+      "span5": "Optimizasyonu Neden Önemli? ",
       "text5": "Birçok kullanıcı Google Görseller üzerinden de otel araştırır,\n\nFotoğraf dosya adları ve alt etiketler otel + bölge + konsept içermelidir,\n\nDosya boyutu, formatı ve yüklenme hızı\nhem SEO hem kullanıcı deneyimi için kritiktir.\n\nDGTLFACE, “otel fotoğraf SEO optimizasyonu”nu tüm kreatif süreçlerle birlikte ele alır.",
       "button5": "Fotoğraf SEO Detaylarını İncele"
     },
@@ -6343,31 +6343,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Oteller İçin Instagram ",
-      "span1": "Stratejisi Nasıl Olmalı? (H5)",
+      "span1": "Stratejisi Nasıl Olmalı? ",
       "text1": "Net hedef: marka bilinirliği, rezervasyon, itibar (veya hepsi, ama öncelik net),\n\nDüzenli içerik ritmi (haftalık sabit sayıda post + story + Reels),\n\nKonsept ve renk bütünlüğü,\n\nMisafir sorularına hızlı dönüş (DM ve yorumlarda),\n\nReels ve video içeriklerde deneyim odaklı anlatım.\n\n“Oteller için Instagram stratejisi” uzun vadeli düşünülmeli; yüksek sezon + ara sezon + düşük sezon dengesi kurulmalıdır.",
       "button1": "Instagram Stratejisi Önerilerini Gör",
 
       "title2": "Reels ile Oda Satışını ",
-      "span2": "Artırma (H5)",
+      "span2": "Artırma ",
       "text2": "Oda turu ve view videoları,\n\n“İlk gününüz” ve “son akşamınız” hissi veren Reels’lar,\n\nFiyat söylemeden önce “neden bu oda?” sorusuna cevap veren storytelling,\n\nReels sonunda net CTA (web rezervasyon linki, WhatsApp, call).\n\n“Reels ile oda satış artırma”, tamamen deneyim + net çağrı birleşimidir.",
       "button2": "Reels Kurgusu Örneklerini Gör",
 
       "title3": "Resort Sosyal Medya Paketleri –",
-      "span3": " Neleri İçermeli? (H5)",
+      "span3": " Neleri İçermeli? ",
       "text3": "Aylık belirli sayıda post, story ve Reels,\n\nSezonluk kampanyalar için ekstra içerik alanı,\n\nYıllık 1–2 kez profesyonel fotoğraf & video çekimi,\n\nReels & influencer iş birlikleri için esnek alan,\n\nAylık raporlama ve strateji güncelleme.\n\n“Resort sosyal medya paketleri”, sadece içerik adedi değil;\nstrateji + üretim + rapor üçlüsünü içermelidir.",
       "button3": "Resort Paket Örneklerini Gör",
 
       "title4": "Luxury Hotel Instagram ",
-      "span4": "İpuçları (H5)",
+      "span4": "İpuçları ",
       "text4": "Fazla kampanya dili yerine, seçici ve rafine iletişim,\n\nTemiz, minimalist görsel tasarım,\n\nDetay odaklı fotoğraf & video (fine-dining, özel hizmetler, spa),\n\n“Sessiz lüks” ve mahremiyet vurgusu,\n\nAz ama kusursuz Reels ve post’lar.\n\n“Luxury hotel Instagram” tarafında amaç:\nGösterişli olmak değil, kusursuz görünmek.",
       "button4": "Luxury İçerik Önerilerini Gör",
 
       "title5": "Otel Influencer Marketing’te ",
-      "span5": "Dikkat Edilmesi Gerekenler (H5)",
+      "span5": "Dikkat Edilmesi Gerekenler ",
       "text5": "Sadece takipçi sayısına değil, kitle + demografi + engagement oranına bakmak,\n\nNet beklenti tanımlamak (erişim mi, rezervasyon mu, içerik üretimi mi?),\n\nAnlaşmada içerik sayısı, formatı, yayın zamanı ve kullanım haklarını net yazmak,\n\nKampanya ve stay sonrası performansı\n(trafik, takipçi artışı, rezervasyon) ölçmek.\n\n“Hotel influencer marketing”; doğru yönetildiğinde güçlü, yanlış yönetildiğinde pahalı ve etkisiz olabilir.",
       "button5": "Influencer Checklist’ini Gör"
     },
@@ -6463,31 +6463,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Oteller İçin Google Ads ",
-      "span1": "Stratejileri (H5)",
+      "span1": "Stratejileri ",
       "text1": "Lokasyon + konsept bazlı arama kampanyaları\n(ör: “antalya family resort”, “side all inclusive”),\n\nMarka kampanyalarıyla OTA’lara karşı kendi web sitenizi korumak,\n\nGoogle Hotel Ads entegrasyonu ile fiyat & müsaitlik göstermeyi test etmek,\n\nArama + Remarketing + Display kombinasyonlarını birlikte kullanmak.",
       "button1": "Google Ads Strateji Önerilerini Gör",
 
       "title2": "OTA vs Direkt Kanal ",
-      "span2": "Reklam Stratejisi (H5)",
+      "span2": "Reklam Stratejisi ",
       "text2": "OTA’yı tamamen kapatmak yerine denge kurmak,\n\nMarka kelimelerinde OTA değil, otel web’ini öne çıkarmak,\n\nPerformansı yüksek pazarlarda direkt kanal yatırımlarını artırmak,\n\nOTA yorum ve görünürlüğünü, direkt satış stratejisiyle birlikte okumak.",
       "button2": "OTA vs Direkt Strateji Notlarını Gör",
 
       "title3": "Rezervasyon Odaklı Reklam ",
-      "span3": "Metni Yazımı (H5)",
+      "span3": "Metni Yazımı ",
       "text3": "“En ucuz bizde” demek yerine, değeri (konsept, deneyim, avantajlar) anlatmak,\n\nNet fayda + net CTA (“Şimdi Rezervasyon Yap”, “Teklif Al”, “WhatsApp’tan Fiyat Sor”),\n\nSezon, pazar ve kampanya dilini hedef kitleye göre uyarlamak,\n\nFiyat yerine “neden bu otel?” sorusuna cevap vermek.",
       "button3": "Reklam Metni Örneklerini Gör",
 
       "title4": "Otel Reklam Bütçesi ",
-      "span4": "Yönetimi (H5)",
+      "span4": "Yönetimi ",
       "text4": "Oda başı hedef bütçe belirlemek (örn: 1 rezervasyon için max X TL harcama),\n\nDönemsel pik ve sezon dışı bütçe kaydırmaları yapmak,\n\nPazar ve OTA/direkt kanal dengesine göre kanal bazlı bütçe dağılımı kurmak,\n\nHer ay “hangi kanal ne getirdi / ne götürdü?” analizini yapmak.",
       "button4": "Bütçe Planlama Önerilerini Gör",
 
       "title5": "Remarketing ile Rezervasyon ",
-      "span5": "Dönüşümünü Artırmak (H5)",
+      "span5": "Dönüşümünü Artırmak ",
       "text5": "Siteyi ziyaret etmiş ama rezervasyon yapmamış kullanıcıları geri çağırmak,\n\nOda, kampanya, tarih ve pazar bazlı dinamik remarketing senaryoları,\n\nEmail, SMS ve call center ile kombine remarketing akışları,\n\nÖzellikle yüksek sepetli rezervasyonlarda çok adımlı takip modelleri.",
       "button5": "Remarketing Akış Örneklerini Gör"
     },
@@ -6581,31 +6581,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Booking Görünürlük ",
-      "span1": "Artırma Teknikleri (H5)",
+      "span1": "Artırma Teknikleri ",
       "text1": "Profil ve içerik doldurma oranını %100’e yaklaştırmak,\n\nYorum sayısı ve puanını düzenli artırmak,\n\nMüsaitlik ve fiyat düzensizliği yaşamamak,\n\nSezon ve pazar için doğru kampanya kombinasyonlarını kullanmak,\n\nCezaya düşmemek için iptal, kart problemi, overbooking gibi konuları hızlı yönetmek.",
       "button1": "Booking Optimizasyon Notlarını Gör",
 
       "title2": "Expedia Satış ",
-      "span2": "Artırma Yolları (H5)",
+      "span2": "Artırma Yolları ",
       "text2": "Expedia & Hotels.com gibi alt markaların gücünü doğru kullanmak,\n\nPaket, meal plan ve ekstra hizmetleri doğru tanımlamak,\n\nPazar bazlı görünürlük araçlarını (Promotions, TravelAds vb.) dikkatle seçmek,\n\nFiyat ve stok stratejisini Expedia için “yeterli ama bağımlı olmayacak” düzeyde tutmak.",
       "button2": "Expedia Strateji Önerilerini Gör",
 
       "title3": "Oda Doluluk Artırma İçin ",
-      "span3": "OTA Kullanımı (H5)",
+      "span3": "OTA Kullanımı ",
       "text3": "Düşük sezonda OTA görünürlüğünü artırıp boş kapasiteyi doldurmak,\n\nHigh season’da OTA’yı kontrollü kullanıp direkt kanalın payını yükseltmek,\n\nBelirli pazarlar için sadece OTA üzerinden özel kampanyalar kurgulamak,\n\nOverbooking’ten kaçınarak optimum doluluğu yakalamak.",
       "button3": "Doluluk Stratejisi Örneklerini Gör",
 
       "title4": "OTA Fiyat Kontrol ",
-      "span4": "Sistemi Nasıl Kurulur? (H5)",
+      "span4": "Sistemi Nasıl Kurulur? ",
       "text4": "PMS’te temel fiyatları ve sezonları net tanımlamak,\n\nChannel manager’ı sadece dağıtım için kullanmak,\n\nOTA panelinden rastgele manuel fiyat oynamaktan kaçınmak,\n\nFiyat değişimlerini mümkün olduğunca PMS → Channel Manager → OTA akışıyla yapmak,\n\nDüzenli fiyat & envanter kontrol checklist’i çalıştırmak.",
       "button4": "Fiyat Kontrol Checklist’ini Gör",
 
       "title5": "Turizm OTA Stratejisi – ",
-      "span5": "Uzun Vadeli Bakış (H5)",
+      "span5": "Uzun Vadeli Bakış ",
       "text5": "Her yıl OTA karmasını ve performansını gözden geçirmek,\n\nYeni pazar ve platformları test etmek,\n\nOTA üzerinden gelen misafiri bir sonraki tatilde direkt kanala çekmek için plan yapmak,\n\nOTA’ları “kısa vadeli doluluk, uzun vadeli marka & gelir dengesi” ile yönetmek.",
       "button5": "Uzun Vadeli OTA Stratejisini Gör"
     },
@@ -6692,31 +6692,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "PMS Entegrasyonu Nasıl Yapılır? ",
-      "span1": "(Özet Yol Haritası) (H5)",
+      "span1": "(Özet Yol Haritası) ",
       "text1": "Mevcut sistem ve süreç analizi,\n\nPMS + Channel Manager + OTA + Web + Çağrı Merkezi akışının tasarımı,\n\nTeknik bağlantı ve mapping (oda/fiyat eşleştirme),\n\nTest rezervasyonları ve senaryo testleri,\n\nEkip eğitimleri ve canlıya geçiş,\n\nİlk aylarda yakın takip ve hata düzeltme,\n\nPeriyodik optimizasyon ve raporlama.\n\nDGTLFACE, bu yol haritasını proje planı olarak seninle paylaşır.",
       "button1": "PMS Yol Haritasını Gör",
 
       "title2": "PMS Otel Modülleri – ",
-      "span2": "Hangi Modüller Zorunlu, Hangileri Opsiyonel? (H5)",
+      "span2": "Hangi Modüller Zorunlu, Hangileri Opsiyonel? ",
       "text2": "Zorunlu:\n\nÖn büro,\n\nRezervasyon,\n\nOda & fiyat yönetimi,\n\nTemel raporlama.\n\nGüçlü önerilen:\n\nHousekeeping,\n\nGelir yönetimi,\n\nTemel muhasebe entegrasyonları.\n\nOpsiyonel (iş modeline göre):\n\nSpa, POS, etkinlik, depo vb.\n\n“Otel PMS modülleri” seçilirken, her modülün gerçekten kullanılacağı düşünülmelidir.",
       "button2": "PMS Modül Notlarını Gör",
 
       "title3": "Operasyon Yükünü Azaltan ",
-      "span3": "PMS Özellikleri (H5)",
+      "span3": "PMS Özellikleri ",
       "text3": "Otomatik fiyat ve envanter güncelleme,\n\nTek ekrandan rezervasyon ve müsaitlik yönetimi,\n\nHousekeeping entegrasyonu (temizlik & oda durumu akışı),\n\nGüçlü raporlama ve filtreleme,\n\nOTA & kanal yönetimiyle tam senkron yapı.\n\n“Operasyon yükünü azaltan PMS özellikleri” en çok burada fark edilir.",
       "button3": "Operasyon Kolaylaştıran Özellikleri Gör",
 
       "title4": "PMS Rezervasyon Yürütme ",
-      "span4": "Sistemi Neden Önemli? (H5)",
+      "span4": "Sistemi Neden Önemli? ",
       "text4": "PMS rezervasyon yürütme sistemi:\n\nOTA, web, call center ve acente rezervasyonlarının aynı motor üzerinden yürütülmesini sağlar,\n\nDeğişiklik, iptal, tarih kaydırma gibi işlemlerde hata oranını azaltır,\n\nGelir raporlamasında her rezervasyonu kaynağı ve segmentiyle görmenize izin verir.\n\nBu sistem, gelir yönetimi ve OTA dengesinde temel referanstır.",
       "button4": "Rezervasyon Akış Örneklerini Gör",
 
       "title5": "Resort PMS vs Boutique PMS – ",
-      "span5": "Farklı Senaryolar (H5)",
+      "span5": "Farklı Senaryolar ",
       "text5": "Resort PMS: Çok oda, çok pazar, kompleks gelir yapısı → güçlü segmentasyon, raporlama ve entegrasyon şart.\n\nButik otel PMS: Az oda, kişisel hizmet → sade ama güvenilir akış, esnek rezervasyon yönetimi ön planda.\n\nDGTLFACE, herkes için aynı PMS senaryosunu değil; iş modelinize uygun entegrasyon kurgusunu önerir.",
       "button5": "Farklı PMS Senaryolarını Gör"
     },
@@ -6809,31 +6809,31 @@
     },
 
     "verticalSlider": {
-      "header": "Mikro Katman –",
-      "header2": " H5 Konuları",
+      "header": "Mikro Katman",
+      "header2": " ",
 
       "title1": "Oteller İçin Rezervasyon Telefonu Yönetimi ",
-      "span1": "Nasıl Olmalı? (H5)",
+      "span1": "Nasıl Olmalı? ",
       "text1": "Net çalışma saatleri ve ulaşılabilirlik,\n\nÇok dilli karşılama ve yönlendirme,\n\nKısa bekleme süreleri,\n\nStandart script’ler ama kişisel dokunuş,\n\nHer çağrı sonrası PMS’e eksiksiz kayıt girilmesi.\n\n“Oteller için rezervasyon telefonu yönetimi”, misafirin marka algısını ilk saniyede belirler.",
       "button1": "Rezervasyon Telefonu Notlarını Gör",
 
       "title2": "Turist Rezervasyon Destek Hattı ",
-      "span2": "İpuçları (H5)",
+      "span2": "İpuçları ",
       "text2": "Pazar bazlı (DE / RU / UK / TR) hat veya dil ayrımı,\n\nTatil planlama sürecinde sabırlı ve rehberlik eden bir yaklaşım,\n\nFiyat ve politika anlatımında şeffaflık,\n\nBuna karşılık satış kapatma konusunda kararlı olmak.\n\n“Turist rezervasyon destek hattı” doğru kurulduğunda, OTA’dan kaçan rezervasyonları bile yakalayabilir.",
       "button2": "Turist Destek Hattı İpuçlarını Gör",
 
       "title3": "Yabancı Misafir Rezervasyon ",
-      "span3": "Yönetimi (H5)",
+      "span3": "Yönetimi ",
       "text3": "Dil + kültür farkını gözetmek,\n\nTarih formatı, çocuk politikası, yatak düzeni gibi konuları netleştirmek,\n\nÖdeme alternatiflerini ve iptal koşullarını anadilinde açıklamak,\n\nGerekirse yazılı teyitlerle süreci güvence altına almak.\n\n“Yabancı misafir rezervasyon yönetimi”, dil bilmenin ötesinde empati ve netlik ister.",
       "button3": "Yabancı Misafir Yönetimi Notlarını Gör",
 
       "title4": "Resort Customer Care & ",
-      "span4": "Misafir Deneyimi (H5)",
+      "span4": "Misafir Deneyimi ",
       "text4": "Sadece rezervasyon değil, konaklama ve sonrasındaki iletişimi de kapsar,\n\nŞikâyet ve taleplerin hızlıca ilgili departmana iletilmesi,\n\nÇözüm sonrası mutlaka geri dönüş yapılması,\n\nMisafirle “tatil öncesi ve sonrası” temasın korunması.\n\n“Resort customer care”, konukların sizi başkalarına tavsiye edip etmeyeceğini belirleyen kritik alandır.",
       "button4": "Resort Customer Care İpuçlarını Gör",
 
       "title5": "Booking / Expedia Rezervasyon ",
-      "span5": "Çağrı Merkezi Entegrasyonu (H5)",
+      "span5": "Çağrı Merkezi Entegrasyonu ",
       "text5": "OTA mesaj ve çağrılarının çağrı merkezi ekranına düşmesi,\n\nDeğişiklik, iptal ve özel taleplerin PMS & OTA’dan eş zamanlı güncellenmesi,\n\nÇifte kayıt ve bilgi kirliliğinin önlenmesi,\n\nOTA üzerinden gelen misafirle, “bizim misafirimiz” gibi ilgilenilmesi.\n\n“Booking rezervasyon destek, Expedia rezervasyon çağrı merkezi” süreçleri, OTA skorunuz ve yorum puanınız üzerinde direkt etkilidir.",
       "button5": "OTA Çağrı Merkezi Entegrasyonunu Gör"
     },

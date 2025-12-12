@@ -2,7 +2,7 @@ import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
 import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
-import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
 import { useTranslations } from "next-intl";
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
@@ -401,7 +401,7 @@ const cards = [
       bgColor="#ffffff"
       textColor="#140f25"
     />
-      <VerticalSlider page="Sem" itemCount={4}/>
+      <VerticalSlider2 page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
      <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEM dokümantasyonu ve hizmet tanımlarından derlenmiştir."/>
       <Contact/>

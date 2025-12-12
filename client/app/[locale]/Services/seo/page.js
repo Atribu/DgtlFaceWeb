@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -11,6 +12,7 @@ import RichTextSpan from '../../components/common/RichTextSpan'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -332,7 +334,13 @@ const page = () => {
       
       
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-       <MainBanner  header={t("seo_banner_header")} span={t("seo_banner_span")} text={t("seo_banner_text")} buttonText={t("buttonText")}/>
+      <div className='hidden lg:flex'>
+         <MainBanner  header={t("seo_banner_header")} span={t("seo_banner_span")} text={t("seo_banner_text")} buttonText={t("buttonText")}/>
+      </div>
+      <div className='flex lg:hidden'>
+         <MobileMainBanner  header={t("seo_banner_header")} span={t("seo_banner_span")} text={t("seo_banner_text")} buttonText={t("buttonText")}/>
+      </div>
+
        <AiAnswerBlock text="DDGTLFACE, SEO süreçlerini teknik, içerik ve yerel optimizasyonun birleşimi olarak ele alır. Site hızı, mobil uyumluluk, meta yapılandırmaları, içerik stratejisi, anahtar kelime haritalandırma, backlink profili ve yerel görünürlük gibi tüm alanlarda kapsamlı bir yaklaşım sunar. Özellikle oteller ve turizm işletmeleri için çok dilli SEO, PMS uyumlu yapılandırma ve rekabetçi anahtar kelime stratejileri ile yüksek organik görünürlük sağlar."/>
        <DualHighlightSection items={items}/>
       <StepSection header={t("seo_section_header1")} header2={t("seo_section_header2")} text={t("seo_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -345,7 +353,7 @@ const page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-     <VerticalSlider page="Seo" itemCount={4}/>
+     <VerticalSlider2 page="Seo" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEO hizmet dokümantasyonu ve SEO süreç yönetimi kaynaklarından derlenmiştir."/>

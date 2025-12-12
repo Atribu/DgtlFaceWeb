@@ -5,7 +5,7 @@ import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 import { useTranslations } from "next-intl";
 import PlainRichText from "../common/PlainRichText"; 
 
-const VerticalSlider = ({ page, itemCount = 3 }) => {
+const VerticalSlider2 = ({ page, itemCount = 3 }) => {
   const t = useTranslations(`${page}.verticalSlider`);
 
   const [blocksOrder, setBlocksOrder] = useState([
@@ -76,7 +76,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
   const wheelTimeout = useRef(null);
 
   const ITEM_HEIGHT = 180;
-  const GAP = 20;
+  const GAP = 0;
 
   const handleMouseDown = (e) => {
     setIsDragging(true);
@@ -164,24 +164,22 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
       style={{
         background: `linear-gradient(
           to bottom,
- 
-          #000000 0%,
-          #140C29 8%,
+          #ffffff 0%,
+          #f2edf9 8%,
           #2a1a4f 25%,
-          #f2edf9 38%,
-          #ffffff 50%,
-          #f2edf9 68%,
+          #1c153b 38%,
+          #140C29 50%,
+          #1c153b 68%,
           #2a1a4f 75%,
-          #1c153b 88%,
-          #000000 100%
-         
+          #f2edf9 88%,
+          #ffffff 100%
         )`,
       }}
     >
-      <div className="flex w-full max-w-[1400px] h-full gap-0 items-center justify-center text-[#140C29] px-4">
+      <div className="flex w-full max-w-[1400px] h-full gap-0 items-center justify-center text-white px-4">
         {/* Sol: slider */}
         <div className="flex flex-col gap-6 w-full lg:w-1/2 items-center lg:items-start relative">
-          <h2 className="text-[22px] lg:text-[24px] font-bold leading-tight text-center lg:text-left text-[#a2bbf2]">
+          <h2 className="text-[22px] lg:text-[24px] font-bold leading-tight text-center lg:text-left">
             {t("header")}{" "}
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               {t("header2")}
@@ -194,21 +192,21 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
               <button
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
-                className="p-4 text-[#140C29] hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+                className="p-4 text-white hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 <IoIosArrowUp size={48} />
               </button>
               <button
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
-                className="p-4 text-[#140C29] hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+                className="p-4 text-white hover:bg-white/10 rounded-full transition-all disabled:opacity-30 disabled:cursor-not-allowed"
               >
                 <IoIosArrowDown size={48} />
               </button>
             </div>
 
             {/* Index Display */}
-          <div className="absolute -left-16 lg:-left-[190px] xl:-left-[220px] top-1/2 -translate-y-1/2 z-10 pointer-events-none"> <span className="text-5xl lg:text-8xl xl:text-9xl font-bold text-[#140C29]/70 lg:text-[#140C29]/90"> {String(activeIndex + 1).padStart(2,)} </span> </div>
+          <div className="absolute -left-16 lg:-left-[190px] xl:-left-[220px] top-1/2 -translate-y-1/2 z-10 pointer-events-none"> <span className="text-5xl lg:text-8xl xl:text-9xl font-bold text-white/70 lg:text-white/90"> {String(activeIndex + 1).padStart(2,)} </span> </div>
             {/* Carousel */}
             <div
               ref={containerRef}
@@ -236,7 +234,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                     key={index}
                     className="flex flex-col justify-start items-start gap-2 transition-all duration-700 text-start"
                     style={{
-                      height: `${ITEM_HEIGHT}px + 20px`,
+                      height: `${ITEM_HEIGHT}px`,
                       maxHeight: `${ITEM_HEIGHT}px`,
                       marginBottom:
                         index < items.length - 1 ? `${GAP}px` : "0",
@@ -249,7 +247,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                   >
                     <div className="flex flex-col gap-2 text-start">
                       <h5 className="text-[16px] lg:text-[18px]">
-                        <span className="text-[#140C29] font-bold font-inter leading-tight">
+                        <span className="text-white font-bold font-inter leading-tight">
                           {item.header}{" "}
                         </span>
                         <span className="text-purple-500 font-bold font-inter leading-tight">
@@ -258,17 +256,17 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                       </h5>
                     </div>
 
-                    <div className="flex flex-col gap-0">
+                    <div className="flex flex-col gap-4">
                       {/* ✅ RICH TEXT BURADA */}
                       {item.textHtml && (
                         <PlainRichText
                           html={item.textHtml}
                           as="p"
                           className="
-                            text-[#140C29] text-[12px] md:text-[14px] lg:text-[15px]
+                            text-white text-[12px] lg:text-[14px]
                             font-normal leading-relaxed opacity-90
                             line-clamp-6
-                            space-y-0
+                            space-y-1
                             [&_ul]:list-disc
                             [&_ul]:list-inside
                             [&_ul]:mt-2
@@ -277,7 +275,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                             [&_a]:underline-offset-2
                             [&_a]:font-semibold
                             [&_a]:text-[#0f9bcf]
-                            hover:[&_a]:text-[#140C29]
+                            hover:[&_a]:text-white
                           "
                         />
                       )}
@@ -292,14 +290,14 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
               <button
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
-                className="p-3 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
+                className="p-3 text-white bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowUp size={32} />
               </button>
               <button
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
-                className="p-3 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
+                className="p-3 text-white bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowDown size={32} />
               </button>
@@ -321,4 +319,4 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
   );
 };
 
-export default VerticalSlider;
+export default VerticalSlider2;

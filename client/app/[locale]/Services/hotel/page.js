@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -10,6 +11,8 @@ import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -358,10 +361,20 @@ const page = () => {
 
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-    <MainBanner header={t("hotel_banner_header")} text={<RichTextSpan
+   <div className='hidden lg:flex'>
+     <MainBanner header={t("hotel_banner_header")} text={<RichTextSpan
                        ns="Hotel"
                        id="hotel_banner_text"
                      />} span={t("hotel_banner_span")} buttonText={t("buttonText")}/>
+   </div>
+
+    <div className='flex lg:hidden'>
+     <MobileMainBanner header={t("hotel_banner_header")} text={<RichTextSpan
+                       ns="Hotel"
+                       id="hotel_banner_text"
+                     />} span={t("hotel_banner_span")} buttonText={t("buttonText")}/>
+   </div>
+<AutoBreadcrumbsWhite/>
     <AiAnswerBlock text="DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümlerini tek çatı altında sunan bir otel dijital pazarlama ve teknoloji partneridir. Amaç sadece görünürlük değil; doluluk, gelir, direkt rezervasyon ve misafir memnuniyetini aynı anda artıran 360° bir dijital mimari kurmaktır. Resort, city, butik veya luxury oteller için özel stratejiler ve yol haritaları hazırlanır."/>
        <DualHighlightSection items={items}/>
 <StepSection
@@ -383,7 +396,7 @@ const page = () => {
     />
 
 
-        <VerticalSlider page="Hotel" itemCount={4}/>
+        <VerticalSlider2 page="Hotel" itemCount={4}/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE dijital raporlama, performans analitiği, otel pazarlaması ve Looker Studio dashboard süreçlerine ait resmi çalışma yöntemlerinden derlenmiştir."/>

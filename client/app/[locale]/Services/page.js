@@ -15,7 +15,7 @@ import LogoListSection from '../components/subPageComponents/LogoListSection.jsx
 import StepSection from '../components/subPageComponents/StepSection.jsx'
 import Section3Long from './Section3/Section3Long.jsx'
 import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
-import VerticalSlider from '../components/subPageComponents/VerticalSlider.jsx'
+import VerticalSlider2 from '../components/subPageComponents/VerticalSlider2.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 import AutoBreadcrumbs from '../components/common/AutoBreadcrumbs.jsx'
@@ -397,7 +397,7 @@ const cards = [
       cards={cards}
     />
 
-     <VerticalSlider page="ServicesPage" itemCount={4}/>
+     <VerticalSlider2 page="ServicesPage" itemCount={4}/>
 
       <QuestionsSection2 color="#140F25" faqs={faqs} />
       <Section4 />

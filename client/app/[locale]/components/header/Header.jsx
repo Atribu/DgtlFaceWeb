@@ -127,8 +127,8 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     label: t("digital_analysis_reporting"),
     href: "/Services/digitalAnalysis",
     subLinks: [
-      { label: t("digital_ads_reporting"), href: "/Services/digitalAnalysis/advertisingReportingService" },
-      { label: t("digital_call_reporting"), href: "/Services/digitalAnalysis/callReportingService" },
+      { label: t("digital_ads_reporting"), href: "/Services/digitalAnalysis/lookerStudio" },
+      { label: t("digital_call_reporting"), href: "/Services/digitalAnalysis/kvkkDataSecurity" },
       { label: t("digital_sales_analysis"), href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
       { label: t("digital_market_research"), href: "/Services/digitalAnalysis/onlineMarketResearchService" },
     ],
@@ -224,7 +224,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[43.5%] w-[98vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[42.5%] w-[98vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);

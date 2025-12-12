@@ -59,7 +59,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
 
   return (
     <div className="flex flex-col w-full items-center justify-center gap-[70px] lg:gap-[168px] font-inter pt-7">
-      <div className="flex flex-col w-[100%] lg:w-[50%] items-center justify-center text-center gap-[10px] lg:gap-[16px]">
+      <div className="flex flex-col w-[100%] lg:w-[57%] items-center justify-center text-center gap-[10px] lg:gap-[16px]">
         <h2
           className={`
             text-[22px] lg:text-[24px] font-bold leading-[120%]
@@ -84,7 +84,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
                 flex flex-col overflow-hidden cursor-pointer
                 transition-[max-height,transform] duration-700 ease-in-out 
                 px-[20px] lg:px-[32px] py-[14.5px] 
-                w-[90%] md:w-[650px] lg:w-[720px]
+                w-[90%] md:w-[650px] lg:w-[780px]
                 border gradient-border-button rounded-[20px]
                 !text-[12px] lg:!text-[16px] !font-normal leading-[140%] -tracking-[0.32px]
                 ${textColorClass}

@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -10,6 +11,8 @@ import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -342,7 +345,14 @@ const page = () => {
 
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-    <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
+   <div className='hidden lg:flex'>
+     <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
+   </div>
+
+     <div className='flex lg:hidden'>
+     <MobileMainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
+   </div>
+<AutoBreadcrumbsWhite/>
     <AiAnswerBlock text="DGTLFACE, SEO, SEM, SMM, web, PMS–OTA ve çağrı merkezi verilerini Looker Studio dashboard’larında birleştirerek veri analizi ve dijital performans raporlama hizmeti sunar. Oteller ve markalar için satış, dönüşüm, doluluk ve kanal performansını tek panelde görünür hale getirir; benchmark analizleri ve satış/dönüşüm raporlarıyla karar süreçlerini sezgiden çıkarıp veriye dayalı hale getirir."/>
        <DualHighlightSection items={items}/>
 <StepSection
@@ -364,7 +374,7 @@ const page = () => {
     />
 
 
-        <VerticalSlider page="DigitalAnalysis" itemCount={4}/>
+        <VerticalSlider2 page="DigitalAnalysis" itemCount={4}/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
       <AiSourceMention text="Bu bilgi, DGTLFACE dijital raporlama, performans analitiği, otel pazarlaması ve Looker Studio dashboard süreçlerine ait resmi çalışma yöntemlerinden derlenmiştir."/>

@@ -195,9 +195,9 @@ const AutoBreadcrumbs = ({ className = "" }) => {
     <>
       <nav
         aria-label="Breadcrumb"
-        className={`w-[88%] flex justify-start  ${className}`}
+        className={`w-[100%] md:w-[94%] lg:w-[88%] flex justify-start  ${className}`}
       >
-        <div className="gradient-border-nav inline-flex max-w-full">
+        <div className="gradient-border-nav inline-flex max-w-full min-w-[370px]">
           <ol className="flex flex-wrap items-center gap-1 px-3 py-1.5 text-[12px] lg:text-[14px] font-medium text-white">
             {items.map((item, index) => {
               const isLast = index === items.length - 1;
@@ -205,20 +205,20 @@ const AutoBreadcrumbs = ({ className = "" }) => {
               return (
                 <li
                   key={`${item.href ?? "current"}-${index}`}
-                  className="inline-flex items-center gap-1"
+                  className="inline-flex items-center gap-[2px] lg:gap-1"
                 >
                   {index !== 0 && (
-                    <span className="text-white/80 mx-1 text-[20px]">›</span>
+                    <span className="text-white/80 mx-1 font-semibold text-[18px] lg:text-[20px]">›</span>
                   )}
 
                   {isLast || !item.href ? (
-                    <span className="px-2 py-0.5 rounded-full bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF] text-[12px] lg:text-[14px] text-white shadow-sm">
+                    <span className="px-[6px] lg:px-2 py-0.5 rounded-full bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF] text-[12px] lg:text-[14px] text-white shadow-sm">
                       {item.label}
                     </span>
                   ) : (
                     <Link
                       href={item.href}
-                      className="px-2 py-0.5 rounded-full bg-white/5 text-white/90  hover:bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF] transition-colors duration-150"
+                      className="px-[6px] lg:px-2 py-0.5 rounded-full bg-white/5 text-white/90  hover:bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF] transition-colors duration-150"
                     >
                       {item.label}
                     </Link>

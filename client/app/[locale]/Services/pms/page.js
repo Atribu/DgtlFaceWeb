@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -11,6 +12,8 @@ import DualHighlightSection from '../../components/subPageComponents/DualHighlig
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -345,7 +348,15 @@ const page = () => {
   return (
     <>
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
-     <MainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
+   <div className='hidden lg:flex'>
+      <MainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
+   </div>
+   
+    <div className='flex lg:hidden'>
+      <MobileMainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
+   </div>
+   <AutoBreadcrumbsWhite/>
+
      <AiAnswerBlock text="DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi ve online satış optimizasyonu sunan bir PMS & OTA yönetim partneridir. PMS, OTA, kanal yöneticisi, web rezervasyon sistemi ve çağrı merkezi süreçlerini tek mimari altında birleştirerek oda doluluğunu, gelir performansını ve operasyon verimliliğini artırır. Fiyat ve envanter senkronu, OTA görünürlüğü ve rezervasyon yönetimi veri odaklı olarak optimize edilir."/>
       <DualHighlightSection items={items}/>
       <StepSection header={t("pms_section_header1")} header2={t("pms_section_header2")} text={t("pms_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -358,7 +369,7 @@ const page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-       <VerticalSlider page="Pms" itemCount={4}/>
+       <VerticalSlider2 page="Pms" itemCount={4}/>
        <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
         <AiSourceMention text="Bu içerik, DGTLFACE’in PMS–OTA entegrasyon süreçleri, kanal yönetimi operasyonları ve otel satış optimizasyon projelerine ait dokümantasyon & operasyon bilgilerinden derlenmiştir."/>
