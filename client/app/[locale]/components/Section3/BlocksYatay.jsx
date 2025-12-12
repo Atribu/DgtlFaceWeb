@@ -122,7 +122,7 @@ const Section3 = () => {
 
       {/* Liste */}
       <div className="flex flex-col lg:flex-row items-center">
-        <ul className="w-[92%] lg:w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-4 text-start space-x-2 md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
+        <ul className="w-[92%] lg:w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-4 text-start md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
         {bullets.map((item, idx) => (
           <Link href={servicesLink[idx].href} className="hover:underline z-[990]"><li key={idx}>{item}</li></Link>
         ))}

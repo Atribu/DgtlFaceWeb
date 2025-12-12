@@ -10,6 +10,7 @@ import DualHighlightSection from '../components/subPageComponents/DualHighlightS
 import QuestionsSection2 from '../components/subPageComponents/QuestionSection2.jsx'
 import { useTranslations } from "next-intl";
 import MainBanner from '../components/subPageComponents/MainBanner.jsx'
+import MobileMainBanner from '../components/subPageComponents/MobileMainBanner.jsx'
 import LogoListSection from '../components/subPageComponents/LogoListSection.jsx'
 import StepSection from '../components/subPageComponents/StepSection.jsx'
 import Section3Long from './Section3/Section3Long.jsx'
@@ -17,6 +18,8 @@ import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
 import VerticalSlider from '../components/subPageComponents/VerticalSlider.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
+import AutoBreadcrumbs from '../components/common/AutoBreadcrumbs.jsx'
+import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -345,9 +348,10 @@ const cards = [
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col overflow-hidden gap-[48px] md:gap-[35px] lg:gap-[50px] items-center justify-center w-screen'>
+    <div className='flex flex-col overflow-hidden gap-[30px] md:gap-[35px] lg:gap-[50px] items-center justify-center max-w-screen '>
       {/* <Section1 /> */}
-      <MainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
+      <div className='hidden lg:flex'>
+        <MainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
         <RichTextSpan
           ns="ServicesPage"
           id="servicespage_s1_text2"
@@ -359,6 +363,24 @@ const cards = [
           id="servicespage_s1_text3"
         />
       } buttonText={t("servicespage_s1_button1")}/>
+      </div>
+
+      <div className='flex lg:hidden'>
+        <MobileMainBanner header={t("servicespage_s1_text1")} span={t("servicespage_s1_span1")} text={
+        <RichTextSpan
+          ns="ServicesPage"
+          id="servicespage_s1_text2"
+        />
+      }
+      text2={
+        <RichTextSpan
+          ns="ServicesPage"
+          id="servicespage_s1_text3"
+        />
+      } buttonText={t("servicespage_s1_button1")}/>
+      </div>
+
+<AutoBreadcrumbsWhite/>
      <AiAnswerBlock text="DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital pazarlama çözümleri sunan bir teknoloji partneridir. Entegre dijital pazarlama mimarisi, veri odaklı raporlama ve turizm sektörüne özel uzmanlıkla; görünürlük, rezervasyon ve gelir artışını birlikte yönetir."/>
      <DualHighlightSection items={items} />
       <Section2 />

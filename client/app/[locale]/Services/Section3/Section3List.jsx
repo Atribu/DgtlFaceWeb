@@ -334,7 +334,7 @@ const Section3 = ({ page }) => {
             {servicesData.map((service, index) => (
               <div
                 key={index}
-                className="flex flex-[0_0_98%] md:flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[310px] lg:h-[290px] bg-[#140f25] max-w-[350px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
+                className="flex flex-[0_0_100%] md:flex-[0_0_90%] lg:flex-[0_0_45%] mr-[6px] lg:mr-[1%] h-[310px] lg:h-[290px] bg-[#140f25] max-w-[354px] lg:max-w-[900px] rounded-[22px] group shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] overflow-hidden p-4 lg:px-8 lg:py-3 text-start relative"
                 onMouseEnter={() => setActiveIndex(index)}
                 onMouseLeave={() => setActiveIndex(null)}
               >
@@ -346,7 +346,7 @@ const Section3 = ({ page }) => {
                     ${
                       activeIndex === index
                         ? "text-white/90 text-[40px] lg:text-[60px]"
-                        : "text-white/75 text-[28px] lg:text-[36px]"
+                        : "  bg-gradient-to-r bg-clip-text text-transparent from-[#6598d6] via-[#8d72cf] to-[#a358ce] md:text-white/75 text-[30px] lg:text-[36px]"
                     }
                   `}
                 >
@@ -368,7 +368,7 @@ const Section3 = ({ page }) => {
 
                   {/* Maddeler */}
                   {service.items.length > 0 && (
-                    <div className="grid grid-cols-2 md:grid-cols-2 gap-y-1 gap-x-4 mt-1">
+                    <div className="grid grid-cols-2 md:grid-cols-2 gap-y-1 gap-x-0 lg:gap-x-4 mt-1">
                       {service.items.map((itemKey, itemIndex) => (
                         <div
                           key={itemIndex}
@@ -389,7 +389,7 @@ const Section3 = ({ page }) => {
                 </div>
 
                 {/* Sağ alttaki VBlock */}
-                <div className="hidden md:flex absolute -right-4 -bottom-10 lg:-right-12 lg:-bottom-[75px]">
+                <div className="flex absolute -right-4 -bottom-10 lg:-right-12 lg:-bottom-[75px]">
                   <ServicesCarouselWrapper
                     selected={index}
                     isActive={activeIndex === index}

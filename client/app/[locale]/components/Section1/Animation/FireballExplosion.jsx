@@ -392,17 +392,14 @@ function FireballExplosion() {
     <>
       <div
       ref={containerRef}
-      style={{
-        width: "380px",
-        height: "380px",
-        backgroundColor: "transparent",
-        margin: 0,
-        padding: 0,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+      className="
+      relative
+      flex items-center justify-center
+      w-[200px] h-[200px]
+      lg:w-[380px] lg:h-[380px]
+      bg-transparent m-0 p-0
+    "
+  >
 
       <div style={{
           position: "absolute",

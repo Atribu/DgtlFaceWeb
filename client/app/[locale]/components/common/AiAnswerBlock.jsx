@@ -39,7 +39,7 @@ export function AiAnswerBlock({ text }) {
         </div>
 
         {/* Metin Bloğu */}
-        <div className="flex-1 space-y-1">
+        <div className="flex-1 space-y-[2px] lg:space-y-1">
           {/* Desktop / tablet label */}
           <p className="hidden md:block text-[11px] lg:text-xs font-semibold uppercase tracking-[0.18em] text-indigo-200">
             Kısa Özet
@@ -47,8 +47,8 @@ export function AiAnswerBlock({ text }) {
 
           <p
             className="
-              text-[13px] lg:text-sm
-              leading-snug lg:leading-relaxed
+              text-[12px] lg:text-sm
+              leading-tight lg:leading-relaxed
               text-slate-50/95
             "
           >

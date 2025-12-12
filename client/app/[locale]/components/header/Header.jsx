@@ -13,6 +13,7 @@ import PersonSvg from "./svg/PersonSvg";
 import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
+import { FaQuestion } from "react-icons/fa6";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -29,7 +30,6 @@ const Header = () => {
     const [mobileMenuView, setMobileMenuView] = useState("main"); // "main" | "services"
 const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
-  // 9 ana departman + alt sayfa linkleri
   const servicesConfig = [
      {
     key: "sem",
@@ -292,6 +292,11 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
                   {t("contact")}
                 </a>
               </li>
+                   <li>
+                <a href="/contact" className="hover:text-gray-300">
+                  {t("sss")}
+                </a>
+              </li>
             </ul>
           </nav>
 
@@ -434,12 +439,12 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
             col-span-2 w-full
             overflow-hidden
             transition-all duration-300 ease-out
-            ${isMobileServicesOpen ? "max-h-[320px] mt-3 opacity-100" : "max-h-0 opacity-0"}
+            ${isMobileServicesOpen ? "max-h-[330px] mt-3 opacity-100" : "max-h-0 opacity-0"}
           `}
         >
           <div className="w-full">
            
-            <div className="max-h-[260px] overflow-y-auto pr-1">
+            <div className="max-h-[320px] overflow-y-auto pr-1">
               <div className="grid grid-cols-2 gap-[10px]">
                 {servicesConfig.map((service) => (
                   <Link
@@ -452,7 +457,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     px-3 py-2
     rounded-[14px]
     !bg-[#140015]/80
-    text-white/90 text-[12px] font-normal leading-[120%]
+    text-white/90 text-[12px] !font-normal leading-[120%]
     hover:!bg-[#140015]
     transition-colors
   "
@@ -485,6 +490,16 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
           <PhoneSvg className="flex" width={30} height={30} />
           <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
             {t("contact")}
+          </p>
+        </Link>
+
+              <Link
+          href="/sss"
+          className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015] col-span-2"
+        >
+          <FaQuestion className="flex" size="30" color="#ffffff" />
+          <p className="text-[14px] font-medium leading-normal -tracking-[0.3px]">
+            {t("sss")}
           </p>
         </Link>
       </div>

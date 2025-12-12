@@ -98,7 +98,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
               <div
                 className={`flex w-full justify-between items-start ${textColorClass}`}
               >
-                <h3 className="flex whitespace-nowrap text-left">
+                <h3 className="flex whitespace-pre-line text-left">
                   {item.question}
                 </h3>
                 <PlusSvg

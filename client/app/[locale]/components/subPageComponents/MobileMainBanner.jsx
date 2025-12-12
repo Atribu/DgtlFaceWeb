@@ -46,26 +46,26 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
       };
 
   return (
-    <div className='flex items-center justify-center bg-cover bg-center h-[70vh] min-h-[500px] lg:h-[55vh] w-screen mt-[160px]'  style={{ background:
+    <div className='flex items-center justify-center bg-cover bg-center h-[78vh] md:h-[62vh] min-h-[500px] lg:h-[55vh] w-screen mt-[70px]'  style={{ background:
           `
       linear-gradient(
-        to bottom,
-        #ffffff 0%,
-        #f2edf9 8%,
-        #2a1a4f 25%,
-        #1c153b 38%,
-        #140C29 50%,
-        #1c153b 68%,
-        #2a1a4f 75%,
-        #f2edf9 88%,
-        #ffffff 100%
+      to bottom,
+          #140C29 0%,
+          #140C29 5%,
+          #1c153b 25%,
+          #1c153b 38%,
+          #140C29 50%,
+          #1c153b 68%,
+          #2a1a4f 75%,
+          #2a1a4f 94%,
+          #ffffff 100%
       )
     `,
       }}>
-      <div className="w-[90%] md:w-[90%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 py-8  md:py-12 text-black lg:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
+      <div className="w-[90%] lg:w-[100%] relative flex flex-col lg:grid lg:grid-cols-2 pb-6 md:pb-0 md:py-1 text-black md:min-h-[680px] lg:px-0 lg:py-24 lg:bg-transparent items-center justify-center">
  
           {/* <BlocVertical /> */}
-          <div className="hidden md:flex -ml-[22%]">
+          <div className="hidden md:flex -ml-[22%] md:-mt-[60%] lg:mt-0">
           <ServiceBlocks blocksOrder={blocksOrder} rotate={true} rotateDegree={90}
           blockPositions={blockPositions}/>
           </div>
@@ -75,7 +75,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
           </div>
        
         <div className="flex flex-col text-center lg:text-start items-center lg:items-start justify-center h-full w-full lg:-ml-20 lg:w-[100%] lg:min-w-[870px]">
-          <h1 className=" flex flex-col gap-2 text-[24px] lg:text-[26px] leading-[120%] font-inter28 font-semibold  pb-1 lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
+          <h1 className=" flex flex-col gap-2 text-[24px] lg:text-[26px] leading-[110%] lg:leading-[120%] font-inter28 font-semibold pb-1 lg:mb-2 text-center items-center justify-center lg:text-start lg:items-start lg:justify-start">
             
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               {header}{" "}{span}

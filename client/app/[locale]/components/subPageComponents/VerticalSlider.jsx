@@ -160,7 +160,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
 
   return (
     <div
-      className="flex items-center justify-center bg-cover bg-center min-h-[800px] w-full z-[99]"
+      className="flex items-center justify-center bg-cover bg-center min-h-[670px] lg:min-h-[800px] w-full z-[99]"
       style={{
         background: `linear-gradient(
           to bottom,
@@ -186,7 +186,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
             </span>
           </h2>
 
-          <div className="relative w-full">
+          <div className="relative w-full ">
             {/* Navigation Buttons */}
             <div className="absolute -left-20 top-1/2 -translate-y-1/2 -translate-x-16 hidden lg:flex flex-col gap-4 z-50">
               <button
@@ -210,7 +210,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
             {/* Carousel */}
             <div
               ref={containerRef}
-              className="relative overflow-hidden h-[320px] cursor-grab active:cursor-grabbing select-none"
+              className="relative overflow-hidden h-[260px] lg:h-[320px] cursor-grab active:cursor-grabbing select-none"
               onMouseDown={handleMouseDown}
               onMouseMove={handleMouseMove}
               onMouseUp={handleMouseUp}

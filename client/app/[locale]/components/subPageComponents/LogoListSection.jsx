@@ -10,12 +10,12 @@ const LogoListSection = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-start -mb-10 min-h-[700px] bg-white ">
-      <div className="flex flex-col w-[80%] items-center justify-center ">
+    <section className="flex flex-col w-screen items-center justify-start -mb-10 min-h-[700px] bg-white mt-5 ">
+      <div className="flex flex-col w-[96%] lg:w-[80%] items-center justify-center ">
         {/* ÜST KISIM — METİN + ANİMASYON */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-[42px] lg:gap-0">
         {/* SOL METİN */}
-        <div className="flex flex-col w-full md:w-[60%]  text-start text-darkBlue font-inter">
+        <div className="flex flex-col w-full md:w-[60%]  text-xenter lg:text-start text-darkBlue font-inter">
           <h2 className="text-[22px] lg:text-[24px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px]">
             {introTitle}
           </h2>
@@ -27,7 +27,7 @@ const LogoListSection = ({
         </div>
 
         {/* SAĞ — ANİMASYON */}
-        <div className="flex relative lg:p-6 items-center justify-center h-[400px] md:h-auto">
+        <div className="flex relative lg:p-6 items-center justify-center lg:h-[400px] md:h-auto">
           <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-0">
             <FireballExplosion />
           </div>
@@ -39,9 +39,9 @@ const LogoListSection = ({
         {cards?.map((card, index) => (
           <div
             key={index}
-            className={`${card.widthClass || "w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80`}
+            className={`${card.widthClass || "w-[96%] lg:w-[80%]"} px-[3%] xl:px-[20px] py-4 bg-white rounded-[22px] shadow-[0px_7px_50px_0px_rgba(20,12,41,0.05)] inline-flex flex-col items-center justify-center lg:justify-start lg:items-start text-center lg:text-start gap-3 opacity-80`}
           >
-            <h4 className="w-full relative justify-start text-[#140f25] text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
+            <h4 className="w-full relative justify-start text-[#140f25] text-[18px] lg:text-[20px] font-semibold font-inter leading-[120%] lg:leading-[28.80px]">
               {card.title}
             </h4>
 

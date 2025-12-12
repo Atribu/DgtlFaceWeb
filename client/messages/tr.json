@@ -25,6 +25,7 @@
     "get_in_touch": "İletişime geçin",
     "let_us_call_you": "Bırakın sizi arayalım",
     "tagline": "DGTLFACE – Dijital Teknoloji Ortağı",
+    "sss":"SSS",
 
   "creative_corporate_gift": "Kurumsal Hediye Tasarımı",
   "creative_uiux": "UI/UX Tasarımı",
@@ -176,10 +177,10 @@
       "title4": "Web & Yazılım – Next.js & React ile Hızlı, Güvenli ve SEO Uyumlu Altyapılar",
       "text4":"Web & Yazılım çatısı:",
       "item4_1": "Web Sitesi Geliştirme",
-      "item4_2": "<cms>CMS & Panel Entegrasyonu</cms>",
+      "item4_2": "<support>Bakım & destek</support>",
       "item4_3": "<kvkk>KVKK uyumlu yazılım</kvkk>",
       "item4_4": "<server>Sunucu & güvenlik</server>",
-      "item4_5": "<support>Bakım & destek</support>",
+      "item4_5": "<cms>CMS & Panel Entegrasyonu</cms>",
       "endText4":"ile marka kimliğiniz için modern, hızlı ve güvenli bir dijital vitrin oluşturur.",
       "link4": "/Services/software",
 
@@ -432,9 +433,9 @@
      
      "card1description": "DGTLFACE, hizmetleri “ayrı ayrı satılan kalemler” olarak değil; birbiriyle konuşan ve sürekli veri alışverişi yapan modüller olarak kurgular.<ul><li>SEO ekibinin ürettiği içerik, Google Ads kampanyalarını besler</li><li>Sosyal medya paylaşımları, creative & prodüksiyonun parçası olur</li><li>Web & yazılım altyapınız, PMS–OTA entegrasyonları ve çağrı merkezi süreçlerinizle birlikte çalışır</li></ul>Böylece hem teknik hem kreatif hem de operasyonel anlamda <b>uçtan uca dijital yönetim modeli</b> kurulur.",
 
-"card2description": "<b>“Antalya dijital ajans, Antalya teknoloji partneri, Antalya otel dijital pazarlama çözümleri”</b> arayan markalar için; sahayı bilen, sezon dinamiklerini yaşayan ve turizm ekosistemini yakından tanıyan bir ekibiz.<br/><br/>Aynı zamanda hizmet, sağlık, gayrimenkul ve B2B projeleriyle de çok farklı vertical’larda tecrübe sahibiyiz. Bu sayede, hem lokal hem uluslararası pazarlarda gerçek ticari sonuçlara odaklanan bir partnerle çalışmış olursunuz.",
+"card2description": "<b>“Antalya dijital ajans, Antalya teknoloji partneri, Antalya otel dijital pazarlama çözümleri”</b> arayan markalar için; sahayı bilen, sezon dinamiklerini yaşayan ve turizm ekosistemini yakından tanıyan bir ekibiz. Aynı zamanda hizmet, sağlık, gayrimenkul ve B2B projeleriyle de çok farklı vertical’larda tecrübe sahibiyiz. Bu sayede, hem lokal hem uluslararası pazarlarda gerçek ticari sonuçlara odaklanan bir partnerle çalışmış olursunuz.",
 
-"card3description": "<b>“SEO SEM SMM nasıl entegre çalışır?”</b> sorusunun pratik cevabı:<br/><br/><ul><li>SEO → Arama niyeti yüksek kullanıcıları markanıza getirir</li><li>SEM → Bu niyetli kullanıcıları hızlıca dönüşüme taşır</li><li>SMM → Marka algısını ve etkileşimi güçlendirir</li><li>Web & Yazılım → Dönüşümü teknik olarak kolaylaştırır</li><li>Çağrı Merkezi & PMS–OTA → Son dokunuşu yapıp satış/rezervasyona çevirir</li></ul>DGTLFACE’te bu katmanların tamamı, <b>aynı strateji ve raporlama çatısı</b> altında çalışır."
+"card3description": "<b>“SEO SEM SMM nasıl entegre çalışır?”</b> sorusunun pratik cevabı:<ul><li>SEO → Arama niyeti yüksek kullanıcıları markanıza getirir</li><li>SEM → Bu niyetli kullanıcıları hızlıca dönüşüme taşır</li><li>SMM → Marka algısını ve etkileşimi güçlendirir</li><li>Web & Yazılım → Dönüşümü teknik olarak kolaylaştırır</li><li>Çağrı Merkezi & PMS–OTA → Son dokunuşu yapıp satış/rezervasyona çevirir</li></ul>DGTLFACE’te bu katmanların tamamı, <b>aynı strateji ve raporlama çatısı</b> altında çalışır."
 
     },
 
@@ -1407,7 +1408,7 @@
 
   "Software": {
     "software_banner_header": "Özel Yazılım ve Web Geliştirme - ",
-    "software_banner_text": "DGTLFACE, web yazılım ajansı kimliğiyle; Next.js ve React teknolojilerini kullanarak yüksek hızlı, güvenli, SEO uyumlu, çok dilli ve ölçeklenebilir web siteleri geliştiren bir teknoloji partneridir. Kurumsal web siteleri, otel web sistemleri, rezervasyon modülleri, çok dilli yapılar, özel CRM ve yönetim panelleri ile markalar ve özellikle oteller için uçtan uca web & yazılım geliştirme çözümleri sunarız. <br></br> Yalnızca tasarım yapan bir ekip değil; performans, güvenlik, SEO, UX ve teknik mimariyi aynı çatı altında toplayan bir yapıyla çalışırız. Web siteniz, basit bir “kartvizit” olmaktan çıkar; <b>gerçek bir satış, rezervasyon ve iletişim kanalı</b> haline gelir.",
+    "software_banner_text": "DGTLFACE, web yazılım ajansı kimliğiyle; Next.js ve React teknolojilerini kullanarak yüksek hızlı, güvenli, SEO uyumlu, çok dilli ve ölçeklenebilir web siteleri geliştiren bir teknoloji partneridir. Kurumsal web siteleri, otel web sistemleri, rezervasyon modülleri, çok dilli yapılar, özel CRM ve yönetim panelleri ile markalar ve özellikle oteller için uçtan uca web & yazılım geliştirme çözümleri sunarız. Yalnızca tasarım yapan bir ekip değil; performans, güvenlik, SEO, UX ve teknik mimariyi aynı çatı altında toplayan bir yapıyla çalışırız. Web siteniz, basit bir “kartvizit” olmaktan çıkar; <b>gerçek bir satış, rezervasyon ve iletişim kanalı</b> haline gelir.",
     "software_banner_span": "Modern, Hızlı ve SEO Uyumlu Çözümler",
     "buttonText": "Keşfedin",
     "software_section_header1": "DGTLFACE Yazılım Hizmet Kümeleri",
@@ -2886,7 +2887,7 @@
     "text1": "Başarılı bir içerik SEO projesi, <b>anahtar kelime haritalandırma</b> ile başlar. DGTLFACE: <ul><li> Primary, secondary, long-tail ve niş kelimeleri çıkarır, </li><li> Her kelimeyi doğru sayfa tipine (hizmet, kategori, blog, FAQ…) eşler, </li><li> Arama niyeti ve zorluk seviyesine göre bir yayın takvimi tasarlar. </li><li> <b>“Anahtar kelime haritalandırma, içerik planlama Türkiye, içerik stratejisi”</b> süreçlerini bir yol haritasında toplar.</li></ul> BBöylece içerikler “aklımıza geldikçe yazdık” değil, <b>bilerek ve potansiyeli hesaplanmış</b> bir plana göre üretilir.",
 
     "header2": "SEO Uyumlu İçerik Nasıl Yazılır?",
-    "text2": "<b>“SEO uyumlu içerik nasıl yazılır?”</b> sorusuna DGTLFACE’in cevabı: <ul><li> Sadece anahtar kelime değil, kullanıcı niyeti ve soruları merkeze alınır, </li><li> H1–H2–H3 başlık yapısı hiyerarşik ve anlaşılır olur, </li><li> Girişte konuyu net şekilde çerçeveleyen bir paragraf, </li><li> Gövdede alt başlıklarla mantıksal akış, </li><li> Sonuç kısmında CTA (teklif al, rezervasyon yap, hizmeti incele) yer alır, </li><li> Keyword stuffing değil, doğal ve semantik zenginlik tercih edilir. </li></ul> Böylece içerik hem Google için “anlamlı, alakalı, kapsamlı”; hem kullanıcı için <b>“okunabilir, faydalı ve yönlendirici”</b> hale gelir.",
+    "text2": "<b>“SEO uyumlu içerik nasıl yazılır?”</b> sorusuna DGTLFACE’in cevabı: <ul><li> Sadece anahtar kelime değil, kullanıcı niyeti ve soruları merkeze alınır, </li><li> Girişte konuyu net şekilde çerçeveleyen bir paragraf, </li><li> Gövdede alt başlıklarla mantıksal akış, </li><li> Sonuç kısmında CTA (teklif al, rezervasyon yap, hizmeti incele) yer alır, </li><li> Keyword stuffing değil, doğal ve semantik zenginlik tercih edilir. </li></ul> Böylece içerik hem Google için “anlamlı, alakalı, kapsamlı”; hem kullanıcı için <b>“okunabilir, faydalı ve yönlendirici”</b> hale gelir.",
 
     "header3": "Blog Optimizasyonu – Kategori, Etiket ve İç Linkleme",
     "text3": "Blog’u sadece yazı yığını olarak bırakmak, potansiyelin yarısını çöpe atmak demek. DGTLFACE, blog optimizasyonu tarafında: <ul><li> Kategori yapınızı SEO’ya uygun hale getirir, </li><li> Gereksiz/dağınık etiketleri temizler, </li><li> İçerikler arasında mantıklı iç linkler kurar, </li><li> “En çok okunanlar, benzer yazılar, kategoriler” gibi alanlarla kullanıcıyı içerikte dolaştırır. </li></ul> <b>“Antalya blog optimizasyonu, içerik planlama Türkiye, blog kategorileri nasıl planlanır”</b> gibi ihtiyaçlarda; <b>teknik + içerik + UX</b> üçlüsünü aynı potada eritiriz."
@@ -5959,36 +5960,36 @@
       "text4": "<ul><li><b>Tamamlanan rezervasyon / satış</b>,</li><li><b>Çağrı merkezinden kapanan satışlar</b>,</li><li><b>OTA ve doğrudan kanal dönüşümü</b>,</li><li>Gelir ve kârlılık metrikleri (RevPAR, oda başı gelir, misafir başı gelir).</li></ul><b>“Satış hunisi analizi, satış artırma veri taktikleri, Meta Ads dönüşüm raporu, Google Ads satış analizi, CRM satış verisi analizi”</b> gibi tüm başlıklar, bu huninin içinde somutlaşır.",
       
       "header5": "Oteller ve Turizm İçin Satış & Dönüşüm Raporlama",
-      "text5": "Turizmde kritik olan sadece <b>doluluk</b> değil;\n\nDoluluk nasıl geldi, hangi kanal ne maliyetle ne kazandırdı?\n\nDGTLFACE, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi, PMS satış verileri alanlarında:\n\nOTA, web rezervasyon motoru, çağrı merkezi ve acente satışlarını tek tabloda toplar,\n\nKanal bazlı gelir, kişi başı harcama, oda başı gelir (RevPAR) ve iptal oranlarını raporlar,\n\nPazar (ülke/dil) bazlı satış ve dönüşüm performansını analiz eder,\n\nDijital kanalların (SEO, Ads, sosyal medya) gerçek rezervasyona etkisini gösterir.\n\n“Oteller için satış raporu hazırlama, turizm satış analizleri, rezervasyon dönüşüm analizi” gibi ihtiyaçlar, bu raporlar sayesinde netleşir."
+      "text5": "Turizmde kritik olan sadece <b>doluluk</b> değil;\n\nDoluluk nasıl geldi, <b>hangi kanal ne maliyetle ne kazandırdı?</b>\n\nDGTLFACE, <b>otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi, PMS satış verileri</b> alanlarında:\n\n<b>OTA, web rezervasyon motoru, çağrı merkezi ve acente satışlarını</b> tek tabloda toplar,\n\n<b>Kanal bazlı gelir, kişi başı harcama, oda başı gelir (RevPAR) ve iptal oranlarını</b> raporlar,\n\n<b>Pazar (ülke/dil) bazlı satış ve dönüşüm performansını</b> analiz eder,\n\nDijital kanalların (<b>SEO, Ads, sosyal medya</b>) gerçek <b>rezervasyona etkisini</b> gösterir.\n\n<b>“Oteller için satış raporu hazırlama, turizm satış analizleri, rezervasyon dönüşüm analizi”</b> gibi ihtiyaçlar, bu raporlar sayesinde <b>netleşir</b>."
     },
 
     "h3Section": {
        "header": "DGTLFACE Satış & Dönüşüm Raporlama Hizmet Detayları",
 
       "header1": "Satış Hunisi Analizi",
-      "text1": "DGTLFACE, satış hunisi analizi yaparken:\n\nTrafik kanalını (SEO, SEM, SMM, OTA) giriş noktası olarak alır,\n\nSayfa ve etkileşim seviyesinde (örneğin oda detay sayfası, rezervasyon sayfası) kullanıcı akışını takip eder,\n\nForm, rezervasyon, çağrı, DM, WhatsApp gibi dönüşüm aksiyonlarını işaretler,\n\nSon adımda PMS veya satış sisteminden gerçek satış/veri ile huniyi tamamlar.\n\n“Dönüşüm oranı nasıl artırılır, satış hunisi analizi, rezervasyon dönüşüm analizi” sorularına bu yapı üstünden somut cevap veririz.",
+      "text1": "DGTLFACE, <b>satış hunisi analizi</b> yaparken:<ul><li><b>Trafik kanalını</b> (SEO, SEM, SMM, OTA) giriş noktası olarak alır,</li><li><b>Sayfa ve etkileşim seviyesinde</b> (örneğin oda detay sayfası, rezervasyon sayfası) kullanıcı akışını takip eder,</li><li><b>Form, rezervasyon, çağrı, DM, WhatsApp</b> gibi dönüşüm aksiyonlarını işaretler,</li><li>Son adımda <b>PMS veya satış sisteminden gerçek satış/veri</b> ile huniyi tamamlar.</li></ul><b>“Dönüşüm oranı nasıl artırılır, satış hunisi analizi, rezervasyon dönüşüm analizi”</b> sorularına bu yapı üstünden <b>somut cevap</b> veririz.",
 
       "header2": "Kanal Bazlı Satış ve Dönüşüm Raporu",
-      "text2": "“Reklam dönüşüm raporu, Google Ads satış analizi, Meta Ads dönüşüm raporu” tarafında DGTLFACE:\n\nHer kanal için şu tabloyu çıkarır:\n\nHarcanan bütçe,\n\nGelen trafik,\n\nDönüşüm sayısı (lead, rezervasyon, satış),\n\nBirim maliyet (CPL, CPA),\n\nGelir ve ROAS.\n\nKanalların birbirini nasıl beslediğini (örneğin YouTube + Google Ads + marka aramaları) analiz eder,\nFaydasız veya zayıf verimli kampanyaları net bir şekilde işaret eder.\n\nBöylece bütçe kararları, “hissiyat” değil, kanal bazlı performans raporu üzerinden verilir.",
+      "text2": "<b>“Reklam dönüşüm raporu, Google Ads satış analizi, Meta Ads dönüşüm raporu”</b> tarafında DGTLFACE:\n\nHer kanal için şu tabloyu çıkarır:<ul><li><b>Harcanan bütçe</b>,</li><li><b>Gelen trafik</b>,</li><li><b>Dönüşüm sayısı</b> (lead, rezervasyon, satış),</li><li><b>Birim maliyet</b> (CPL, CPA),</li><li><b>Gelir ve ROAS</b>.</li></ul>Kanalların <b>birbirini nasıl beslediğini </b>(örneğin YouTube + Google Ads + marka aramaları) analiz eder,\n<b>Faydasız veya zayıf verimli kampanyaları</b> net bir şekilde işaret eder.\n\nBöylece bütçe kararları, <b>“hissiyat”</b> değil, <b>kanal bazlı performans raporu</b> üzerinden verilir.",
 
       "header3": "Rezervasyon Dönüşüm Analizi – Otel ve Turizm Odaklı",
-      "text3": "Otel tarafında rezervasyon dönüşüm analizi:\n\nWeb rezervasyon motoru → rezervasyon tamamlama oranları,\n\nOTA görünürlüğü → rezervasyona dönüş oranları,\n\nÇağrı merkezi → rezervasyona dönüş oranları,\n\nPazar bazlı (DE, RU, UK, TR) dönüşüm farklılıkları,\n\nKampanya bazlı dönüşüm\n(erken rezervasyon, bayram, high season)\n\nkırılımlarında incelenir.\n\n“Otel satış raporu, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi” bu analiz üstünden şekillenir.",
+      "text3": "Otel tarafında <b>rezervasyon dönüşüm analizi:</b><ul><li><b>Web rezervasyon motoru → rezervasyon tamamlama oranları</b>,</li><li><b>OTA görünürlüğü → rezervasyona dönüş oranları</b>,</li><li><b>Çağrı merkezi → rezervasyona dönüş oranları</b>,</li><li><b>Pazar bazlı (DE, RU, UK, TR) dönüşüm farklılıkları</b> ,</li><li><b>Kampanya bazlı dönüşüm</b>\n(erken rezervasyon, bayram, high season)</li></ul>kırılımlarında incelenir.\n\n<b>“Otel satış raporu, otel satış dönüşüm analizi, resort satış raporu, turizm dönüşüm stratejisi”</b> bu analiz üstünden şekillenir.",
 
       "header4": "CRM ve PMS Satış Verileri ile Dijital Veriyi Birleştirme",
-      "text4": "Satış & dönüşüm raporlamasının en güçlü hâli, CRM/PMS verisinin dijital verilerle birleşmesidir. DGTLFACE:\n\nPMS verilerini (oda, gece, gelir, misafir bilgileri) Looker Studio’ya bağlar\n(/tr/raporlama/looker-studio\n),\n\nCRM satış verilerini (teklif, pipeline, kapanan fırsatlar) panelin bir katmanı hâline getirir,\n\nGA4, Ads, sosyal medya ve çağrı merkezi verilerini bu yapıyla birleştirir.\n\nSonuç:\n\n“Hangi kanaldan gelen hangi misafir tipi, ne kadar gelir üretmiş?”\nsorusu tek bakışta görülebilir."
+      "text4": "Satış & dönüşüm raporlamasının en güçlü hâli, <b>CRM/PMS verisinin dijital verilerle birleşmesidir</b>. DGTLFACE:<ul><li><b>PMS verilerini</b> (oda, gece, gelir, misafir bilgileri) Looker Studio’ya bağlar\n(/tr/raporlama/looker-studio\n),</li><li><b>CRM satış verilerini</b> (teklif, pipeline, kapanan fırsatlar) panelin bir katmanı hâline getirir,</li><li><b>GA4, Ads, sosyal medya ve çağrı merkezi verilerini</b> bu yapıyla birleştirir.</li></ul>Sonuç:\n\n“<b>Hangi kanaldan gelen hangi misafir tipi, ne kadar gelir üretmiş?”</b>\nsorusu tek bakışta görülebilir."
     },
 
     "h4Section": {
       "header": "Neden DGTLFACE ile Satış & Dönüşüm Raporlama?",
 
       "card1title": "Dijital Pazarlama + PMS & OTA + Çağrı Merkezi Hibrit Zekâ",
-      "card1description": "DGTLFACE, satış & dönüşüm raporlamasını;\n\nDijital pazarlama (SEO, SEM, SMM),\n\nPMS & OTA yönetimi (/tr/pms-ota-yonetimi),\n\nOtel dijital pazarlama (/tr/otel-dijital-pazarlama),\n\nÇağrı merkezi ve mesaj yönetimi\n(/tr/cagri-merkezi-hizmetleri, /tr/cagri-merkezi/rezervasyon-destegi, /tr/cagri-merkezi/mesaj-yonetimi),\n\nRaporlama & veri analizi\n(/tr/raporlama, /tr/raporlama/looker-studio, /tr/raporlama/benchmark-analizi)\n\nile hibrit bir bakış açısıyla ele alır.\n\nBu da “kaç tıklama aldık?” seviyesinden çıkıp,\n\n“Hangi kanal bize ne kadar gerçek gelir getirdi?”\n\nsorusuna cevap veren paneller oluşturur.",
+      "card1description": "DGTLFACE, <b>satış & dönüşüm raporlamasını</b>;<ul><li>Dijital pazarlama <b>(SEO, SEM, SMM)</b>,</li><li><b><a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a></b>  ,</li><li><b> <a href=\"/tr/otel-dijital-pazarlama\">Otel dijital pazarlama</a></b> ,</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi </a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\"> mesaj yönetimi</a>, ,</li><li> <a href=\"/tr/raporlama\"> Raporlama</a>  & <a href=\"/tr/raporlama/looker-studio\"> veri analizi</a> \n , <a href=\"/tr/raporlama/looker-studio\"> looker studio</a> </li></ul>ile <b>hibrit bir bakış açısıyla</b> ele alır.\n\nBu da <b>“kaç tıklama aldık?”</b> seviyesinden çıkıp,\n\n<b>“Hangi kanal bize ne kadar gerçek gelir getirdi?”</b>\n\nsorusuna cevap veren paneller oluşturur.",
 
       "card2title": "Antalya Merkezli, Turizm Satış & Dönüşüm Tecrübesi",
-      "card2description": "“Satış raporlama Antalya, Antalya dönüşüm analizi, satış performans Türkiye, Antalya gelir analiz hizmeti” gibi aramaların arkasında; turizm bölgesinde sahada çalışmış ekip beklentisi var.\n\nDGTLFACE:\n\nAntalya, Belek, Kemer, Side, Alanya ve diğer turizm destinasyonlarında çok sayıda otel & turizm projesinde görev almış,\n\nFarklı pazarlara (DE, RU, UK, TR) satış yapan otellerin satış ve dönüşüm dinamiklerini bilen,\n\nHem bağımsız oteller hem zincir otellerle çalışmış bir ekibe sahiptir.\n\nBu sayede raporlar, sadece “teknik veri” değil, turizm diliyle anlamlı içgörüler üretir.",
+      "card2description": "<b>“Satış raporlama Antalya, Antalya dönüşüm analizi, satış performans Türkiye, Antalya gelir analiz hizmeti”</b> gibi aramaların arkasında; <b>turizm bölgesinde sahada çalışmış ekip</b> beklentisi var.\n\nDGTLFACE:<ul><li>Antalya, Belek, Kemer, Side, Alanya ve diğer turizm destinasyonlarında çok sayıda <b>otel & turizm projesinde görev almış</b>,</li><li>Farklı pazarlara <b>(DE, RU, UK, TR)</b> satış yapan otellerin <b>satış ve dönüşüm dinamiklerini</b> bilen,</li><li>Hem bağımsız oteller hem zincir otellerle çalışmış bir ekibe sahiptir. </li></ul>Bu sayede raporlar, sadece <b>“teknik veri”</b> değil, <b>turizm diliyle anlamlı içgörüler</b> üretir.",
 
       "card3title": "Rapor Değil, Gelir Artıran Aksiyon Planları",
-      "card3description": "DGTLFACE için rapor = aksiyonun başlangıç noktası.\n\nSatış hunisini görselleştirir,\n\nTıkanan noktaları (form adımı, rezervasyon motoru, kampanya, kanal) işaret eder,\n\n“Ne yaparsak ne kazanırız?” sorusuna senaryo bazlı yanıtlar verir,\n\nBir sonraki sezon / kampanya için veri odaklı strateji önerir.\n\nBöylece satış & dönüşüm raporları, “dosya” değil, gelir büyütme aracı hâline gelir."
+      "card3description": "DGTLFACE için <b>rapor = aksiyonun başlangıç noktası</b>.<ul><li>Satış hunisini görselleştirir,</li><li> <b>Tıkanan noktaları</b> (form adımı, rezervasyon motoru, kampanya, kanal) işaret eder,</li><li><b>“Ne yaparsak ne kazanırız?”</b> sorusuna senaryo bazlı yanıtlar verir,</li><li>Bir sonraki sezon / kampanya için <b>veri odaklı strateji</b> önerir.</li></ul>Böylece <b>satış & dönüşüm raporları,</b> “dosya” değil, <b>gelir büyütme aracı</b> hâline gelir."
     },
 
     "verticalSlider": {
@@ -5997,27 +5998,27 @@
 
       "title1": "Dönüşüm Oranı ",
       "span1": "Nasıl Artırılır? (H5)",
-      "text1": "Kısaca:\n\nDoğru trafik: Yanlış kitleye gösterilen en iyi reklam bile işe yaramaz.\n\nDoğru deneyim: Yavaş site, zor form, karışık rezervasyon motoru dönüşümü öldürür.\n\nDoğru teklif: Fiyat, içerik ve ek faydaların dengede olması gerekir.\n\nDoğru takip: Yarım kalan sepetler, form dolduran ama aranmayan lead’ler büyük kayıptır.\n\nDGTLFACE, bu dört alanı birlikte optimize eder.",
+      "text1": "Kısaca:<ul><li><b>Doğru trafik:</b> Yanlış kitleye gösterilen en iyi reklam bile işe yaramaz.</li><li> <b>Doğru deneyim:</b> Yavaş site, zor form, karışık rezervasyon motoru dönüşümü öldürür. </li><li><b>Doğru teklif:</b> Fiyat, içerik ve ek faydaların dengede olması gerekir. </li><li><b>Doğru takip:</b> Yarım kalan sepetler, form dolduran ama aranmayan lead’ler büyük kayıptır.</li></ul>DGTLFACE, bu dört alanı <b>birlikte optimize eder.</b>",
       "button1": "Dönüşüm İpuçlarını Gör",
 
       "title2": "Satış Hunisi Analizi ",
       "span2": "Nasıl Yapılır? (H5)",
-      "text2": "Adımları tanımla\n(trafik → sayfa görüntüleme → etkileşim → form/rezervasyon → satış).\n\nHer adım için sayıları ve oranları ölç.\n\nEn büyük düşüşün olduğu adımları işaretle.\n\nO adımlar için UX, içerik, fiyat veya güven unsurları üzerine testler tasarla.\n\nSonuçları tekrar ölç ve en iyi çalışan senaryoları ölçekle.\n\n“Satış hunisi analizi”, sürekli tekrar eden bir test–ölç–iyileştir döngüsüdür.",
+      "text2": "<ul><li>Adımları tanımla\n(<b>trafik → sayfa görüntüleme → etkileşim → form/rezervasyon → satış</b>).</li><li>Her adım için <b>sayıları ve oranları ölç</b>.\n\nEn büyük <b>düşüşün olduğu adımları</b> işaretle.</li><li>O adımlar için <b>UX, içerik, fiyat veya güven unsurları </b> üzerine testler tasarla.</li><li>Sonuçları tekrar ölç ve <b>en iyi çalışan senaryoları ölçekle</b>.</li></ul><b>“Satış hunisi analizi”</b>, sürekli tekrar eden bir <b>test–ölç–iyileştir</b> döngüsüdür.",
       "button2": "Huniyi Analiz Et",
 
       "title3": "Reklam Dönüşüm Raporu ",
       "span3": "Nasıl Okunmalı? (H5)",
-      "text3": "Tekil metriklere (CTR, CPC, CPM) takılı kalma;\n\nDönüşüm ve gelir metriklerini (CPL, CPA, ROAS) önceliklendir,\n\nReklam → site davranışı → dönüşüm akışını birlikte incele,\n\nYüksek tıklama ama düşük dönüşüm veren kampanyaları net şekilde işaretle,\n\nReklam bütçesini “ucuz tıklama”ya değil, kârlı dönüşüme yönlendir.\n\nDGTLFACE, Google Ads satış analizi ve Meta Ads dönüşüm raporu panellerinde tam olarak bunu yapmanı sağlar.",
+      "text3": "<ul><li>Tekil metriklere (<b>CTR, CPC, CPM</b>) takılı kalma;</li><li><b>Dönüşüm ve gelir metriklerini (CPL, CPA, ROAS)</b> önceliklendir,</li><li><b>Reklam → site davranışı → dönüşüm</b> akışını birlikte incele,</li><li>Yüksek tıklama ama <b>düşük dönüşüm veren kampanyaları</b> net şekilde işaretle,</li><li>Reklam bütçesini “ucuz tıklama”ya değil, <b>kârlı dönüşüme</b> yönlendir.</li></ul>DGTLFACE, <b>Google Ads satış analizi ve Meta Ads dönüşüm raporu</b> panellerinde tam olarak bunu yapmanı sağlar.",
       "button3": "Reklam Raporunu Oku",
 
       "title4": "Oteller İçin Satış Raporu ",
       "span4": "Hazırlama İpuçları (H5)",
-      "text4": "Doluluk, ADR, RevPAR → temel gelir metrikleri,\n\nKanal bazlı gelir → OTA, web, acente, call center, walk-in,\n\nPazar bazlı dağılım → ülke/dil bazlı satış,\n\nKampanya bazlı performans → erken rezervasyon, high season, özel dönemler,\n\nDijital kaynak → hangi trafik → hangi kanal → hangi gelir.\n\n“Otel satış raporu hazırlama” sürecinde, bu tablonun tamamı görünür olmalı.",
+      "text4": "<ul><li><b>Doluluk, ADR, RevPAR</b> → temel gelir metrikleri,</li><li><b>Kanal bazlı gelir </b>→ OTA, web, acente, call center, walk-in,</li><li><b>Pazar bazlı dağılım</b> → ülke/dil bazlı satış,</li><li><b>Kampanya bazlı performans</b> → erken rezervasyon, high season, özel dönemler,</li><li><b>Dijital kaynak</b> → hangi trafik → hangi kanal → hangi gelir.</li></ul><b>“Otel satış raporu hazırlama”</b> sürecinde, bu tablonun <b>tamamı</b> görünür olmalı.",
       "button4": "Satış Raporu Yapısını Gör",
 
       "title5": "Satış Artırma ",
       "span5": "Veri Taktikleri (H5)",
-      "text5": "Düşük performanslı adımları A/B testleriyle optimize et,\n\nEn iyi performans gösteren kampanya ve içerikleri ölçekle,\n\nKüçük veri sinyallerine (örneğin belirli bir pazarın yüksek dönüşümü) hızlı reaksiyon ver,\n\nHer rapor dönemini, bir önceki döneme göre öğrenme fırsatı olarak gör.\n\nVeri, doğru okunduğunda, en iyi satış danışmanıdır.",
+      "text5": "<ul><li><b>Düşük performanslı adımları A/B</b> testleriyle optimize et,</li><li><b>En iyi performans gösteren</b> kampanya ve içerikleri ölçekle,</li><li>Küçük veri sinyallerine (örneğin belirli bir pazarın yüksek dönüşümü) hızlı reaksiyon ver,</li><li>Her rapor dönemini, bir önceki döneme göre <b>öğrenme fırsatı</b> olarak gör.</li></ul>Veri, doğru okunduğunda, <b>en iyi satış danışmanıdır.</b>",
       "button5": "Veri Taktiklerini İncele"
     },
 
@@ -6025,19 +6026,19 @@
       "header": "SSS – Satış & Dönüşüm Raporlama Hakkında Sık Sorulan Sorular",
 
       "question1": "Sadece reklam kampanyalarımız için mi rapor hazırlıyorsunuz, yoksa tüm satış kanalları için mi?",
-      "answer1": "Tercihe göre:\n\nSadece dijital reklam (Google, Meta, YouTube) odaklı raporlar hazırlayabiliriz,\nveya\n\nTüm satış kanallarını (OTA, web, çağrı merkezi, PMS verisi) dahil ettiğimiz full satış & dönüşüm raporu modeliyle çalışabiliriz.\n\nEn güçlü etki, tüm kanallar birlikte raporlandığında ortaya çıkıyor.",
+      "answer1": "Tercihe göre:<ul><li>Sadece <b>dijital reklam</b> (Google, Meta, YouTube) odaklı raporlar hazırlayabiliriz,\nveya</li><li> Tüm satış kanallarını (<b>OTA, web, çağrı merkezi, PMS verisi</b>) dahil ettiğimiz <b>full satış & dönüşüm raporu</b> modeliyle çalışabiliriz.</li></ul>En güçlü etki, <b>tüm kanallar birlikte</b> raporlandığında ortaya çıkıyor.",
 
       "question2": "Mevcut ajansımız rapor gönderiyor, yine de sizden satış & dönüşüm raporu almaya gerek var mı?",
-      "answer2": "Ajans raporları genellikle kampanya odaklı olur.\nBizim raporlarımız ise:\n\nKanal + kampanya + web + PMS + çağrı merkezi + gelir tarafını birlikte gösterir.\n\nSiz dijital ajansınızla çalışmaya devam ederken, DGTLFACE’ten bağımsız performans & satış analizi alabilirsiniz.",
+      "answer2": "Ajans raporları genellikle <b> kampanya odaklı</b> olur.\nBizim raporlarımız ise:<ul><li> <b>Kanal + kampanya + web + PMS + çağrı merkezi + gelir</b> tarafını <b>birlikte</b> gösterir.\n\nSiz dijital ajansınızla çalışmaya devam ederken, DGTLFACE’ten <b>bağımsız performans & satış analizi</b> alabilirsiniz.",
 
       "question3": "CRM veya PMS kullanmıyoruz, yine de satış & dönüşüm raporu çıkar mı?",
-      "answer3": "Çıkar, ama veri derinliği sınırlı olur.\nEn azından temel rezervasyon ve satış verilerini düzenli bir formatta (Excel / Sheets / basit CRM) tutmanızı öneririz.\n\nDGTLFACE, altyapınız uygun olduğunda CRM/PMS entegrasyonuna geçişte de destek sağlayabilir.",
+      "answer3": "Çıkar, ama <b>veri derinliği sınırlı</b> olur.\nEn azından temel rezervasyon ve satış verilerini düzenli bir formatta (<b>Excel / Sheets / basit CRM</b>) tutmanızı öneririz.\n\nDGTLFACE, altyapınız uygun olduğunda <b>CRM/PMS entegrasyonuna geçişte</b> de destek sağlayabilir.",
 
       "question4": "Sadece “analiz & danışmanlık” alabilir miyiz, operasyon bizde kalsın?",
-      "answer4": "Evet. Siz kampanyalarınızı ve günlük operasyonunuzu yönetmeye devam ederken; biz:\n\nVerileri toplar,\n\nLooker Studio panelini kurar,\n\nSatış & dönüşüm analizlerini yapar,\n\nDüzenli olarak aksiyon önerileri sunarız.\n\nKarar ve uygulama sizde, veri ve içgörü desteği bizden.",
+      "answer4": "Evet. Siz kampanyalarınızı ve günlük operasyonunuzu yönetmeye devam ederken; biz:<ul><li>Verileri toplar,</li><li><b>Looker Studio panelini</b> kurar,</li><li>Satış & dönüşüm analizlerini yapar,</li><li>Düzenli olarak <b>aksiyon önerileri</b> sunarız.</li></ul>Karar ve uygulama sizde, <b>veri ve içgörü desteği</b> bizden.",
 
       "question5": "DGTLFACE ile satış & dönüşüm raporlama projesine nasıl başlıyoruz?",
-      "answer5": "Standart akışımız:\n\nHedef KPI’larınızın ve merak ettiğiniz soruların netleştirilmesi\n\nVeri kaynaklarınızın (GA4, Ads, OTA, PMS, CRM, call center vb.) analizi\n\nSatış hunisi ve rapor mimarisinin tasarlanması\n\nLooker Studio panel kurulumu ve test raporları\n\nİlk satış & dönüşüm raporunun sunulması\n\nAksiyon planı ve optimizasyon önerilerinin paylaşılması\n\nPeriyodik (haftalık/aylık) raporlama ve değerlendirme toplantıları\n\nBu sayede, raporlar raf süsü değil, günlük iş kararlarınızın temel girdisi hâline gelir."
+      "answer5": "Standart akışımız:<ul><li><b>Hedef KPI’larınızın</b> ve merak ettiğiniz soruların netleştirilmesi</li><li> <b>Veri kaynaklarınızın</b> (GA4, Ads, OTA, PMS, CRM, call center vb.) analizi</li><li> <b>Satış hunisi ve rapor mimarisinin</b> tasarlanması</li><li><b> Looker Studio panel kurulumu</b> ve test raporları </li><li>İlk <b>satış & dönüşüm</b> raporunun sunulması </li><li><b>Aksiyon planı ve optimizasyon</b> önerilerinin paylaşılması </li><li>Periyodik (haftalık/aylık) raporlama ve <b>değerlendirme toplantıları</b></li></ul> Bu sayede, raporlar <b>raf süsü</b> değil, günlük iş kararlarınızın <b>temel girdisi</b> hâline gelir."
     }
   },
 
@@ -6046,7 +6047,7 @@
 
     "subbanner_header": "KVKK ve Veri Güvenliği –",
     "subbanner_header2": " Güvenli, Uyumlu ve Kontrollü Veri Yönetimi",
-    "subbanner_text": "DGTLFACE, kvkk veri güvenliği ve raporlama hizmetiyle; işletmenizin verileri sadece saklamasını değil, KVKK’ya uyumlu, denetlenebilir ve ölçülebilir biçimde yönetmesini sağlar.\n\nBizim için KVKK & veri güvenliği yalnızca hukuk metinleri değil;\nveri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi gibi tüm teknik ve operasyonel süreçlerin uçtan uca tasarlanması, izlenmesi ve raporlanmasıdır.\n\nÖzellikle oteller, turizm markaları ve rezervasyon/veri yoğun çalışan işletmeler için; “veriyi topluyoruz” yetmez:\n\nNerede tutuyoruz?\n\nKim erişiyor?\n\nNe kadar süre saklıyoruz?\n\nNasıl raporluyor ve denetliyoruz?\n\nsorularına net, dokümante ve ölçülebilir cevaplar gerekir. DGTLFACE, bu fotoğrafı KVKK & veri güvenliği raporları ile önünüze koyar.",
+    "subbanner_text": "DGTLFACE, <b>kvkk veri güvenliği</b> ve raporlama hizmetiyle; işletmenizin verileri sadece saklamasını değil,<b> KVKK’ya uyumlu, denetlenebilir ve ölçülebilir</b> biçimde yönetmesini sağlar.\n\nBizim için <b>KVKK & veri güvenliği</b> yalnızca hukuk metinleri değil;\n <b>veri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi</b> gibi tüm teknik ve operasyonel süreçlerin <b>uçtan uca tasarlanması, izlenmesi ve raporlanmasıdır</b>.\n\nÖzellikle <b>oteller, turizm markaları ve rezervasyon/veri yoğun çalışan işletmeler</b> için; <b>“veriyi topluyoruz”</b> yetmez:<ul><li>Nerede tutuyoruz?</li><li> Kim erişiyor?</li><li> Ne kadar süre saklıyoruz?</li><li> Nasıl raporluyor ve denetliyoruz?</li></ul> sorularına <b>net, dokümante ve ölçülebilir</b> cevaplar gerekir. DGTLFACE, bu fotoğrafı <b>KVKK & veri güvenliği raporları</b> ile önünüze koyar.",
 
     "ai_answer_title": "AI Answer Block – KVKK & Veri Güvenliği Raporlama",
     "ai_answer_text": "DGTLFACE, KVKK & veri güvenliği raporlama hizmetinde web sitesi, PMS–OTA entegrasyonları, rezervasyon verisi, çağrı merkezi mesajları, çerez & izin yönetimi, kullanıcı kayıtları ve sunucu altyapınızın tamamını analiz eder. Veri akış haritaları, erişim logları, saklama süreleri ve teknik tedbirler üzerinden KVKK uyum raporu ve dashboard’lar üretir. Böylece hem yasal uyumu hem de operasyonel veri güvenliğini sürekli izlenebilir hâle getirir.",

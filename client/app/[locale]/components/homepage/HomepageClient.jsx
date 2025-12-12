@@ -132,7 +132,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mb-20 ">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] lg:mb-20 ">
           <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[12px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
              <h2>Antalya Merkezli, Global Ölçekte Düşünen Dijital Pazarlama & Teknoloji Ekibi</h2>

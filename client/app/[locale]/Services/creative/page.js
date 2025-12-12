@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
@@ -344,10 +345,12 @@ const page = () => {
 
 
     <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden '>
-      <MainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
+      <div className='hidden lg:flex'>
+        <MainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
                    ns="CreativePage"
                    id="creativepage_banner_text"
                  />} buttonText={t("buttonText")}/>
+      </div>
       <AiAnswerBlock text="DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetlerini tek çatı altında sunan bir creative tasarım ajansıdır. Oteller ve markalar için sosyal medya kreatifleri, web arayüzleri, tanıtım filmleri, etkinlik prodüksiyonları ve kurumsal hediyeler tasarlayarak güçlü bir marka deneyimi oluşturur. Tüm creative süreçler, dijital pazarlama ve performans ekipleriyle entegre çalışır."/>
        <DualHighlightSection items={items}/>
       <StepSection page="CreativePage" header={t("creativepage_step_header1")} header2={t("creativepage_step_header2")} text={t("creativepage_step_text")} servicesData={servicesData} buttonText={t("buttonText")}/>

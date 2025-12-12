@@ -38,7 +38,7 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/Services": { // https://www.dgtlface.com/tr/Services
       en: "/services",
-      tr: "/antalya-dijital-pazarlama-hizmetleri",
+      tr: "/hizmetlerimiz",
       ru: "/uslugi",
     },
     

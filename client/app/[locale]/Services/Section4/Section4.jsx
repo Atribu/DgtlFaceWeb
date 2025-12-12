@@ -16,7 +16,7 @@ const Section4 = () => {
   return (
     <div className='lg:mb-5 lg:mt-0 flex flex-col w-screen items-center justify-center'>
        <h2 className='text-[22px] lg:text-[24px] mb-[24px] lg:mb-[48px] text-darkBlue font-semibold leading-[120%] -tracking-[0.48px] '> {t("servicespage_s4_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("servicespage_s4_span1")}</span></h2>
-      <div className='grid grid-cols-2 lg:flex items-center justify-center gap-[24px] text-white w-[90%]'>
+      <div className='grid grid-cols-2 lg:flex items-center justify-center gap-[24px] text-white w-[95%] lg:w-[90%]'>
             <div className='flex bg-darkBlue px-[15px] py-[8px] lg:px-[18px] lg:py-[15px] items-center justify-center text-center rounded-[22px] text-[12px] lg:text-[14px] font-bold leading-[150%] lg:leading-[120%] -tracking-[0.3px] lg:-tracking-[0.48px] gap-[10px] lg:gap-[22px]'>
                 <p>{t("servicespage_s4_chip1_header")}</p>
                <LineSvg className="flex" width={3} height={27}/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBanner from '../../components/subPageComponents/MainBanner'
+import MobileMainBanner from '../../components/subPageComponents/MobileMainBanner'
 import StepSection from '../../components/subPageComponents/StepSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
@@ -10,6 +11,7 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
+import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -378,8 +380,15 @@ const cards = [
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[60px] overflow-hidden'>
-     <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
+   <div className='hidden lg:flex'>
+      <MainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
+   </div>
+      <div className='flex lg:hidden'>
+      <MobileMainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
+   </div>
+   <AutoBreadcrumbsWhite/>
+
      <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni, hedef kitle ve dönüşüm takibi gibi tüm süreçler entegre ilerler. Özellikle oteller ve turizm markaları için görünürlük, doluluk ve gelir artışını sağlayan, veriye dayalı bir dijital reklam modeli sunar."/>
      <DualHighlightSection items={items} />
       <StepSection header={""} header2={t("sem_section_header1")} text={t("sem_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
