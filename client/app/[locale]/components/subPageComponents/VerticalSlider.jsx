@@ -166,13 +166,13 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
           to bottom,
  
           #000000 0%,
-          #140C29 8%,
-          #2a1a4f 25%,
-          #f2edf9 38%,
-          #ffffff 50%,
-          #f2edf9 68%,
-          #2a1a4f 75%,
-          #1c153b 88%,
+          #140C29 4%,
+          #2a1a4f 12.5%,
+          #f2edf9 19%,
+          #ffffff 61%,
+          #f2edf9 79%,
+          #2a1a4f 85.5%,
+          #1c153b 93%,
           #000000 100%
          
         )`,
@@ -181,7 +181,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
       <div className="flex w-full max-w-[1400px] h-full gap-0 items-center justify-center text-[#140C29] px-4">
         {/* Sol: slider */}
         <div className="flex flex-col gap-6 w-full lg:w-1/2 items-center lg:items-start relative">
-          <h2 className="text-[22px] lg:text-[24px] font-bold leading-tight text-center lg:text-left text-[#a2bbf2]">
+          <h2 className="text-[22px] lg:text-[24px] font-bold leading-tight text-center lg:text-left bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent">
             {t("header")}{" "}
             <span className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent">
               {t("header2")}
@@ -292,17 +292,22 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
               <button
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
-                className="p-3 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
+                className="p-2 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowUp size={32} />
               </button>
+
+              <div className="flex"> <span className="text-4xl lg:text-8xl xl:text-9xl font-bold text-[#140C29]/70 lg:text-[#140C29]/90"> {String(activeIndex + 1).padStart(2,)} </span> </div>
+              
               <button
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
-                className="p-3 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
+                className="p-2 text-[#140C29] bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowDown size={32} />
               </button>
+
+       
             </div>
           </div>
         </div>

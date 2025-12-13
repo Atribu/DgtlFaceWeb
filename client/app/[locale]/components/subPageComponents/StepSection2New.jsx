@@ -13,7 +13,7 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
   const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3800
 
   return (
-    <div className="flex flex-col w-screen h-auto items-center justify-center bg-[#080612] mt-4 lg:mt-0">
+    <div className="flex flex-col w-screen h-auto items-center justify-center bg-[#080612] mt-4 lg:mt-0  mb-8 lg:mb-0">
       <div className="flex flex-col w-[90%] lg:w-[85%] gap-1 lg:gap-2 text-white items-center justify-center text-center mb-7 lg:mb-10">
         {/* ÜST BAŞLIK */}
         <h2 className="text-[22px] lg:text-[24px] leading-[130%] font-semibold">

@@ -130,7 +130,7 @@ const handleCardClick = (href) => {
 
                     {/* Numara - hardware acceleration */}
                     <div 
-                      className="left-3 lg:left-[29px] top-1/2 -translate-y-1/2 absolute text-Main-White text-[30px] md:text-[35px] lg:text-8xl -tracking-[0.7px] lg:tracking-[2px] font-semibold font-inter leading-[120%] lg:leading-[120px] text-white opacity-100 group-hover:opacity-0 group-hover:-translate-y-full transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)]"
+                      className="left-4 lg:left-[29px] bottom-1 lg:top-1/2 lg:-translate-y-1/2 absolute text-Main-White text-[56px] md:text-[35px] lg:text-8xl -tracking-[0.7px] lg:tracking-[2px] font-semibold font-inter leading-[120%] lg:leading-[120px] text-white opacity-100 group-hover:opacity-0 group-hover:-translate-y-full transition-[opacity,transform] duration-700 ease-[cubic-bezier(0.4,0,0.2,1)]"
                       style={{ 
                         transform: 'translate3d(0, -50%, 0)',
                         willChange: 'opacity, transform'
@@ -141,7 +141,7 @@ const handleCardClick = (href) => {
 
                     {/* Başlık & alt başlık - cubic-bezier easing */}
                     <h3>
-                      <span className="left-[10px] md:left-[60px] lg:left-[130px] top-4 lg:top-[110px] absolute text-Main-White text-[18px] text-start lg:text-[22px] font-semibold font-inter leading-[120%] lg:leading-loose [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100 group-hover:opacity-100 group-hover:-translate-x-20 group-hover:-translate-y-20 transition-[transform] duration-500  ease-[cubic-bezier(0.4,0,0.2,1)]"    style={{ 
+                      <span className="left-[10px] md:left-[60px] lg:left-[130px] top-4 lg:top-[60px] absolute text-Main-White text-[18px] text-start lg:text-[22px] font-semibold font-inter leading-[120%] lg:leading-loose [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100 group-hover:opacity-100 group-hover:-translate-x-20 group-hover:-translate-y-20 transition-[transform] duration-500  ease-[cubic-bezier(0.4,0,0.2,1)]"    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
                         }}>
@@ -150,13 +150,13 @@ const handleCardClick = (href) => {
                       <span    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="-left-[10px] md:left-[60px] hidden md:flex lg:left-[130px] top-[150px] absolute text-Main-White text-[13px] lg:text-xl font-semibold font-inter  lg:-tracking-[0.4px] leading-normal [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100 group-hover:opacity-100 group-hover:-translate-x-20 group-hover:-translate-y-20 transition-[transform,font-size,color] duration-500 ease-out group-hover:bg-gradient-to-r group-hover:from-[#54b9cf] group-hover:to-[#a754cf] group-hover:text-2xl group-hover:bg-clip-text group-hover:text-transparent">
+                        }} className="-left-[10px] md:left-[60px] hidden md:flex lg:left-[130px] top-[100px] absolute text-Main-White text-[13px] lg:text-xl font-semibold font-inter  lg:-tracking-[0.4px] leading-normal [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100 group-hover:opacity-100 group-hover:-translate-x-20 group-hover:-translate-y-20 transition-[transform,font-size,color] duration-500 ease-out group-hover:bg-gradient-to-r group-hover:from-[#54b9cf] group-hover:to-[#a754cf] group-hover:text-2xl group-hover:bg-clip-text group-hover:text-transparent">
                         {card.subTitle}
                       </span>
                     </h3>
 
                     {/* Subtitle - mobile */}
-                    <div className=" hidden md:left-[60px] md:hidden lg:left-[130px] top-10 md:top-[150px] absolute text-Main-White text-[18px] lg:text-[22px] font-semibold font-inter -tracking-[0.3px] lg:-tracking-[0.4px] leading-normal [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100">
+                    <div className=" hidden md:left-[60px] md:hidden lg:left-[130px] top-10 md:top-[100px] absolute text-Main-White text-[18px] lg:text-[22px] font-semibold font-inter -tracking-[0.3px] lg:-tracking-[0.4px] leading-normal [text-shadow:_0px_0px_100px_rgb(221_254_254_/_0.50)] transform-gpu opacity-100">
                       {card.subTitle}
                     </div>
 
@@ -164,7 +164,7 @@ const handleCardClick = (href) => {
                     <div    style={{ 
                           transform: 'translate3d(0, 0, 0)',
                           willChange: 'transform'
-                        }} className="flex left-[32px] md:left-[130px] top-[70px] lg:top-[190px] absolute text-left text-[12px] lg:text-[14px] leading-[110%] w-[75%] lg:w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
+                        }} className="flex left-[15px] md:left-[130px] top-[70px] lg:top-[140px] absolute text-left text-[12px] lg:text-[14px] leading-[110%] w-[89%] lg:w-[66%] text-white/70 transform-gpu transition-[opacity,transform] duration-500 ease-out group-hover:opacity-100 group-hover:-translate-y-3 [&_ul]:list-disc [&_ul]:pl-4 [&_li]:mb-1">
                    {card.text ? (
     <div
       dangerouslySetInnerHTML={{ __html: card.text }}
@@ -173,6 +173,13 @@ const handleCardClick = (href) => {
     <>{card.text}</>
   )}
                     </div>
+                    <Link
+                        href={card.buttonLink || "/"}
+                        className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[80px] h-[36px] lg:w-[114px] lg:h-[42px] justify-center items-center font-inter leading-tight lg:leading-[16.8px] tracking-[-0.28px] lg:left-[120px] left-[265px] absolute bottom-[25px] "
+                      >
+                        Detay 
+                        {/* {buttonText} */}
+                      </Link>
 
                     {/* Açıklama + buton - transition optimize edildi */}
                     <div    style={{ 
@@ -186,14 +193,14 @@ const handleCardClick = (href) => {
   )}
                       <Link
                         href={card.buttonLink || "/"}
-                        className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] transform-gpu opacity-0 group-hover:opacity-100 group-hover:translate-y-24 transition-[opacity,transform] duration-500 ease-out"
+                        className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] "
                       >
                         {buttonText}
                       </Link>
                     </div>
 
                     {/* ServicesCarouselWrapper sağ altta */}
-                    <div className="flex absolute -right-4 -bottom-[66px] lg:-bottom-[55px] lg:-right-6">
+                    <div className="flex absolute right-1/2 translate-x-[40%] md:-translate-x-0 md:-right-4 -bottom-[60px] md:-bottom-[66px] lg:-bottom-[55px] lg:-right-6">
                       <ServicesCarouselWrapper
                         selected={index}
                         isActive={selectedIndex === index}

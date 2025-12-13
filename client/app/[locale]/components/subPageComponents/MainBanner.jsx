@@ -85,7 +85,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
           <div className="flex flex-col gap-2">
             
             <p className="font-inter28 text-[12px] md:text-[14px] lg:text-[16px] leading-tight text-white font-normal lg:leading-[130%] -tracking-[0.28px] ">
-            {text}1
+            {text}
             </p>
 
               <p className="font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-tight lg:leading-[130%] -tracking-[0.28px] ">

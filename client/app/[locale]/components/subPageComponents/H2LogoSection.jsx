@@ -18,7 +18,7 @@ const H2LogoSection = ({ items = [] }) => {
             {gridItems.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center text-start lg:text-start text-white gap-3 w-[95%]"
+                className="flex flex-col items-center  text-center lg:text-start text-white gap-3 w-[95%]"
               >
                 <h2 className="text-[22px] lg:text-[24px] leading-[130%] font-semibold">
                   {item.title}
@@ -45,7 +45,7 @@ const H2LogoSection = ({ items = [] }) => {
         </div>
 
         {isOdd && lastItem && (
-          <div className="mt-12 lg:mt-16 flex flex-col items-center text-start text-white gap-3 mx-auto w-[95%] lg:w-[70%] max-w-[800px]">
+          <div className="mt-12 lg:mt-16 flex flex-col items-center text-center lg:text-start text-white gap-3 mx-auto w-[95%] lg:w-[70%] max-w-[800px]">
             <h2 className="text-[22px] lg:text-[24px] leading-[130%] font-semibold">
               {lastItem.title}
             </h2>

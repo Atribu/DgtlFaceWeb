@@ -240,7 +240,7 @@ const t2 = useTranslations("OtaIntegrationPage.h4Section");
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden'>
+    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden'>
 <div className='flex flex-col items-center justify-center gap-5'>
         <SubBanner
   header={t("subbanner_header")}

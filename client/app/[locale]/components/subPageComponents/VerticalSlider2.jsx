@@ -290,14 +290,17 @@ const VerticalSlider2 = ({ page, itemCount = 3 }) => {
               <button
                 onClick={handlePrev}
                 disabled={activeIndex === 0}
-                className="p-3 text-white bg-white/10 rounded-full disabled:opacity-30"
+                className="p-2 text-white bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowUp size={32} />
               </button>
+
+                <div className="flex"> <span className="text-4xl lg:text-8xl xl:text-9xl font-bold text-[#ffffff] lg:text-[#ffffff]"> {String(activeIndex + 1).padStart(2,)} </span> </div>
+
               <button
                 onClick={handleNext}
                 disabled={activeIndex === items.length - 1}
-                className="p-3 text-white bg-white/10 rounded-full disabled:opacity-30"
+                className="p-2 text-white bg-white/10 rounded-full disabled:opacity-30"
               >
                 <IoIosArrowDown size={32} />
               </button>

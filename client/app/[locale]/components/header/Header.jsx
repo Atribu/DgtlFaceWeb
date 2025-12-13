@@ -293,7 +293,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
                 </a>
               </li>
                    <li>
-                <a href="/contact" className="hover:text-gray-300">
+                <a href="/sss" className="hover:text-gray-300">
                   {t("sss")}
                 </a>
               </li>

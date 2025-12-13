@@ -32,7 +32,7 @@ const LogoListSectionBlack = ({
         {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
         {/* SOL METİN */}
-        <div className="flex flex-col w-full md:w-[60%] text-center lg:text-start text-[#8d60ce] font-inter">
+        <div className="flex flex-col w-full md:w-[60%] text-center lg:text-start bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent font-inter">
           <h2 className="text-[22px] lg:text-[24px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px]">
             {introTitle}
           </h2>

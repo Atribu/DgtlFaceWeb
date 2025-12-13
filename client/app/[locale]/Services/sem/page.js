@@ -297,7 +297,7 @@ const renderDescription = (key) =>
 
     // <ul> wrapper (JSON'da kullanırsan)
     ul: (chunks) => (
-      <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-3">
+      <ul className="list-disc list-inside space-y-1 mt-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {chunks}
       </ul>
     ),

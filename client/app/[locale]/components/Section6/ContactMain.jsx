@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 
 const ContactMain = () => {
    const t = useTranslations("Homepage.contact")
+   const mapsShareUrl = "https://maps.app.goo.gl/6G4bEbkoA5BH1DD79";
    
   const [formData, setFormData] = useState({
     firstName: "",
@@ -168,7 +169,7 @@ const ContactMain = () => {
               <span className="text-[#140f25] text-sm font-normal font-inter leading-snug text-start">
                 {t("contact_call_now")}
               </span>
-              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight hover:text-[#54b9cf]">
                 0 532 645 17 67
               </p>
             </div>
@@ -186,14 +187,17 @@ const ContactMain = () => {
               <span className="text-[#140f25] text-sm font-normal font-['Inter'] leading-snug text-start">
                  {t("contact_email_text")}
               </span>
-              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
+              <Link href="mailto:info@dgtlface.com" className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight hover:text-[#54b9cf]">
                 info@dgtlface.com
-              </p>
+              </Link>
             </div>
           </div>
 
           <Link
-            href="/contact"
+           href={mapsShareUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+
             className="flex flex-col lg:flex-row items-center gap-4">
             <Image
               src="/gifs/location.gif"
@@ -206,7 +210,7 @@ const ContactMain = () => {
               <span className="text-[#140f25] text-sm font-normal font-['Inter'] leading-snug text-start">
                    {t("contact_location_text")}
               </span>
-              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight hover:text-[#54b9cf]">
                 Muratpaşa / Antalya
               </p>
             </div>

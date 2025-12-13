@@ -253,7 +253,7 @@ const cards = [
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
+    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
 <div className='flex flex-col items-center justify-center gap-5'>
       <SubBanner
   header={t("remarketing_subbanner_header")}

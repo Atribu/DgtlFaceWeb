@@ -1,67 +1,81 @@
 // app/api/contact/route.js
-import nodemailer from 'nodemailer';
+export const runtime = "nodejs";
 
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT, 10),
-  secure: true,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-});
+import nodemailer from "nodemailer";
 
 export async function POST(req) {
   try {
     const { name, surname, email, phone, message } = await req.json();
-    
+
     // Validation
     if (!name || !phone || !message) {
-      return new Response(JSON.stringify({ error: 'Zorunlu alanları doldurunuz' }), { 
-        status: 400 
-      });
+      return new Response(
+        JSON.stringify({ error: "Zorunlu alanları doldurunuz" }),
+        { status: 400 }
+      );
     }
 
+    const port = Number(process.env.SMTP_PORT || 465);
+    const secure = port === 465;
+
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port,
+      secure, // 465 => true, 587 => false
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+      // Bazı provider'larda gerekebilir:
+      // tls: { rejectUnauthorized: false },
+    });
+
+    // İstersen hızlı doğrulama (deploy’da iyi debug verir)
+    // await transporter.verify();
+
     const emailContent = `
-      ${message}
-      
-      İletişim Bilgileri:
-      - İsim: ${name} ${surname || ''}
-      - Telefon: ${phone}
-      ${email ? `- E-posta: ${email}` : ''}
-    `;
+${message}
+
+İletişim Bilgileri:
+- İsim: ${name} ${surname || ""}
+- Telefon: ${phone}
+${email ? `- E-posta: ${email}` : ""}
+`.trim();
 
     const mailOptions = {
-      from: `"Dgtlface Contact Form" <${process.env.SMTP_USER}>`, // Sabit gönderici adresi
-      to: 'info@dgtlface.com', // Hedef adres
-      replyTo: email || process.env.SMTP_USER, // Yanıtlanacak adres
-      subject: 'Yeni İletişim Formu Mesajı',
+      from: `"Dgtlface Contact Form" <${process.env.SMTP_USER}>`,
+      to: process.env.EMAIL_TO || "info@dgtlface.com",
+      replyTo: email || process.env.SMTP_USER,
+      subject: `Yeni İletişim Formu Mesajı - ${name}${surname ? " " + surname : ""}`,
       text: emailContent,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px;">
           <h2 style="color: #54b9cf;">Yeni İletişim Formu Mesajı</h2>
-          <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 5px;">${message}</pre>
-          <h3 style="margin-top: 20px; color: #547ccf;">İletişim Bilgileri</h3>
+          <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 8px;">${String(message)
+            .replaceAll("&", "&amp;")
+            .replaceAll("<", "&lt;")
+            .replaceAll(">", "&gt;")}</pre>
+
+          <h3 style="margin-top: 16px; color: #547ccf;">İletişim Bilgileri</h3>
           <ul style="list-style: none; padding: 0;">
-            <li><strong>İsim:</strong> ${name} ${surname || ''}</li>
+            <li><strong>İsim:</strong> ${name} ${surname || ""}</li>
             <li><strong>Telefon:</strong> ${phone}</li>
-            ${email ? `<li><strong>E-posta:</strong> ${email}</li>` : ''}
+            ${email ? `<li><strong>E-posta:</strong> ${email}</li>` : ""}
           </ul>
         </div>
-      `
+      `,
     };
 
     await transporter.sendMail(mailOptions);
-    return new Response(JSON.stringify({ message: 'Mesajınız başarıyla gönderildi!' }), { 
-      status: 200 
-    });
 
-  } catch (error) {
-    console.error('Mail gönderim hatası:', error);
-    return new Response(JSON.stringify({ 
-      error: 'Mesaj gönderilirken bir hata oluştu: ' + error.message 
-    }), { 
-      status: 500 
+    return new Response(JSON.stringify({ message: "Mesajınız başarıyla gönderildi!" }), {
+      status: 200,
     });
+  } catch (error) {
+    console.error("Mail gönderim hatası:", error);
+    return new Response(
+      JSON.stringify({ error: "Mesaj gönderilirken bir hata oluştu: " + (error?.message || error) }),
+      { status: 500 }
+    );
   }
 }

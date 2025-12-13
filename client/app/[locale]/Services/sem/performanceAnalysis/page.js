@@ -235,7 +235,7 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
       
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
+    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
       <SubBanner
   header={t("performanceanalysis_subbanner_header")}
   header2={t("performanceanalysis_subbanner_header2")}

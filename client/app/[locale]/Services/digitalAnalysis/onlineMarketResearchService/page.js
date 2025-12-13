@@ -242,7 +242,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col gap-[80px] lg:gap-[160px] bg-[#080612] overflow-hidden items-center justify-center'>
+    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
       <SubBanner
   header={t("subbanner_header")}
   header2={t("subbanner_header2")}

@@ -287,7 +287,7 @@ export default function MyThreeScene() {
         
         
        <div className="flex gap-4">
-         <Link href="/antalya-dijital-pazarlama-hizmetleri" className="flex items-center gradient-border-button w-[184px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
+         <Link href="/Services" className="flex items-center gradient-border-button w-[184px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
         <style jsx>{`
         .gradient-border-button {
           position: relative;
