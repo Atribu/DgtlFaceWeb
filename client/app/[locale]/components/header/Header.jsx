@@ -61,10 +61,10 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     label: t("social_media_marketing"),
     href: "/Services/smm",
     subLinks: [
-      { label: t("smm_reels"), href: "/Services/smm/reelsVideo" },
-      { label: t("smm_ads"), href: "/Services/smm/socialMediaAds" },
       { label: t("smm_content"), href: "/Services/smm/socialMediaContent" },
       { label: t("smm_planning"), href: "/Services/smm/socialMediaPlanning" },
+      { label: t("smm_ads"), href: "/Services/smm/socialMediaAds" },
+      { label: t("smm_reels"), href: "/Services/smm/reelsVideo" },
       { label: t("smm_reporting"), href: "/Services/smm/socialMediaReporting" },
     ],
   },
@@ -75,10 +75,12 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     href: "/Services/software",
     subLinks: [
       { label: t("software_website"), href: "/Services/software/websiteAndSoftware" },
-      { label: t("software_maintenance"), href: "/Services/software/websiteMaintanceService" },
-      { label: t("software_server"), href: "/Services/software/serverManagementService" },
       { label: t("software_cms"), href: "/Services/software/cmsInstallationService" },
       { label: t("software_kvkk"), href: "/Services/software/kvkk" },
+      { label: t("software_server"), href: "/Services/software/serverManagementService" },
+      { label: t("software_maintenance"), href: "/Services/software/websiteMaintanceService" },
+
+      
     ],
   },
 
@@ -87,11 +89,11 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     label: t("creative"),
     href: "/Services/creative",
     subLinks: [
-      { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
+       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
       { label: t("creative_uiux"), href: "/Services/creative/uiUxDesign" },
       { label: t("creative_video"), href: "/Services/creative/videoProduction" },
-       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
       { label: t("creative_event"), href: "/Services/creative/eventProduction" },
+      { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
     ],
   },
   {
@@ -100,11 +102,11 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     href: "/Services/callcenter",
     subLinks: [
       { label: t("callcenter_multilang"), href: "/Services/callcenter/callLanguages" },
-      { label: t("callcenter_message"), href: "/Services/callcenter/messageManagement" },
+      { label: t("callcenter_reservation"), href:  "/Services/callcenter/reservationSupport" },
+       { label: t("callcenter_performance"), href: "/Services/callcenter/callPerformance" },
+       { label: t("callcenter_message"), href: "/Services/callcenter/messageManagement" },
       { label: t("callcenter_aftersales"), href: "/Services/callcenter/aftersalesSupport" },
 
-       { label: t("callcenter_performance"), href: "/Services/callcenter/callPerformance" },
-      { label: t("callcenter_reservation"), href:  "/Services/callcenter/reservationSupport" },
     ],
   },
   {
@@ -114,9 +116,9 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     subLinks: [
       { label: t("pms_installation"), href: "/Services/pms/pmsInstallation" },
       { label: t("pms_ota_contract"), href: "/Services/pms/otaContract" },
-      { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
       { label: t("pms_channel"), href: "/Services/pms/channelManagement" },
       { label: t("pms_web_payment"), href: "/Services/pms/webPayment" },
+      { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
     ],
   },
  
@@ -128,9 +130,10 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     href: "/Services/digitalAnalysis",
     subLinks: [
       { label: t("digital_ads_reporting"), href: "/Services/digitalAnalysis/lookerStudio" },
-      { label: t("digital_call_reporting"), href: "/Services/digitalAnalysis/kvkkDataSecurity" },
-      { label: t("digital_sales_analysis"), href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
       { label: t("digital_market_research"), href: "/Services/digitalAnalysis/onlineMarketResearchService" },
+      { label: t("digital_sales_analysis"), href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
+      { label: t("digital_call_reporting"), href: "/Services/digitalAnalysis/kvkkDataSecurity" },
+
     ],
   },
   {

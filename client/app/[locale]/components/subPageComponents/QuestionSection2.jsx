@@ -117,7 +117,7 @@ const QuestionsSection2 = ({ variant = "dark", faqs }) => {
     className={`
       w-[98%]
       ${textColorClass}
-      !text-[12px] md:text-[14px]
+      !text-[12px] md:!text-[14px] lg:!text-[16px]
       leading-[130%]
       space-y-1
       [&_ul]:list-disc

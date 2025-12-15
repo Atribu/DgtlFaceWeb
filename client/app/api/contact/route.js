@@ -18,17 +18,14 @@ export async function POST(req) {
     const port = Number(process.env.SMTP_PORT || 465);
     const secure = port === 465;
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port,
-      secure, // 465 => true, 587 => false
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-      // Bazı provider'larda gerekebilir:
-      // tls: { rejectUnauthorized: false },
-    });
+const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST,        // mail.dgtlface.com
+  port: 465,
+  secure: true,
+  auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+});
+await transporter.verify();
+
 
     // İstersen hızlı doğrulama (deploy’da iyi debug verir)
     // await transporter.verify();

@@ -114,7 +114,7 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
   <li><Link href="/Services/pms" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">PMS & OTA Yönetimi </Link></li>
   <li><Link href="/Services/callcenter" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Çağrı Merkezi
               Hizmetleri</Link></li>
-  <li> <Link href="/Services/raporlama" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Veri Analizi & Raporlama</Link></li>
+  <li> <Link href="/Services/digitalAnalysis" className="text-[#000000] hover:text-[#58b5cf] underline font-semibold">Veri Analizi & Raporlama</Link></li>
 </ul>
             </div>
            
@@ -164,7 +164,7 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
              <div className="text-[12px] md:text-[14px] lg:text-[16px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[94%] lg:w-[80%] lg:ml-10 mt-0 text-center lg:text-start justify-center items-center lg:items-start lg:justify-start">
             DGTLFACE’te hiçbir kampanya “kur & bırak” mantığıyla çalışmaz. <br></br>Tüm süreçler <span className="font-bold">veri odaklı performans modeli</span> ile yönetilir:
              <ul className="flex flex-col  text-[12px] md:text-[14px] lg:text-[16px] gap-[6px] list-disc  list-inside list-block ml-[50%] -translate-x-1/2 lg:-translate-x-0 lg:ml-4 text-start lg:text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-2">
-              <li><Link href="/Services/raporlama" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline ">Looker Studio Raporlama</Link></li>
+              <li><Link href="/Services/digitalAnalysis" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline ">Looker Studio Raporlama</Link></li>
                <li> <Link href="/Services/sem" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline">Reklam Raporlama</Link></li>
                 <li> <Link href="/Services/seo" className="text-[#000000] hover:text-[#58b5cf] font-semibold underline">SEO Raporlama</Link></li>
                  <li>Çağrı Merkezi KPI Panelleri</li>
