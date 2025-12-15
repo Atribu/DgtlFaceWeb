@@ -919,7 +919,7 @@
       
       "card1description":"DGTLFACE, kendini sadece “telefonlara cevap veren bir çağrı merkezi ajansı” olarak değil; satış, rezervasyon ve müşteri memnuniyeti odağında çalışan operasyon partneri olarak konumlandırır. Çağrı merkezi süreçlerini; dijital pazarlama (SEO, SEM, SMM), web & yazılım, PMS–OTA ve raporlama katmanlarıyla entegre ederiz. Böylece çağrı merkeziniz, dijital kampanyalardan bağımsız değil; tam tersine o kampanyaların doğal devamı olur.",
       "card2description":"“Çağrı merkezi Antalya, Antalya otel destek merkezi, turizm çağrı merkezi Türkiye, çok dilli çağrı merkezi Antalya” gibi aramaların arkasında, bölgeyi ve turizm ekosistemini sahadan tanıyan bir yapı vardır. DGTLFACE, Antalya ve çevresindeki otel & turizm markaları için; 4 dilli çağrı merkezi, rezervasyon desteği ve mesaj yönetimi hizmetleri sunarak, misafirlerle gerçekten aynı dili konuşan bir iletişim yapısı kurar.",
-      "card3description":"Çağrı merkezinin en verimli çalıştığı senaryolar, PMS–OTA sistemleri ve raporlama ile tam entegre olduğu durumlardır. DGTLFACE; çağrı merkezi, PMS & OTA yönetimi (/tr/pms-ota-yonetimi) ve veri analizi & raporlama (/tr/veri-analiz-ve-raporlama) katmanlarını birbirine bağlayarak, her çağrının: Nereden geldiğini (kanal), Ne taleple geldiğini, Nasıl sonuçlandığını, Satış/rezervasyona etkisini görmenizi sağlar. Böylece çağrı merkeziniz, sezgiyle değil, net KPI’larla yönetilen bir yapı olur."
+      "card3description":"Çağrı merkezinin en verimli çalıştığı senaryolar, PMS–OTA sistemleri ve raporlama ile tam entegre olduğu durumlardır. DGTLFACE; çağrı merkezi, PMS & OTA yönetimi (/tr/Services/hotel/otaManagement) ve veri analizi & raporlama (/tr/veri-analiz-ve-raporlama) katmanlarını birbirine bağlayarak, her çağrının: Nereden geldiğini (kanal), Ne taleple geldiğini, Nasıl sonuçlandığını, Satış/rezervasyona etkisini görmenizi sağlar. Böylece çağrı merkeziniz, sezgiyle değil, net KPI’larla yönetilen bir yapı olur."
       
     },
 
@@ -1701,7 +1701,7 @@
       "title3":"360° Otel Dijital Pazarlama Mimarisi",
       "text3":"DGTLFACE’in otel dijital pazarlama mimarisi, şu sütunların birlikte çalışması üzerine kurulur:<ul><li> Otel SEO → Organik görünürlük, destinasyon & konsept bazlı aramalarda üst sıralar </li><li>Otel reklam yönetimi (Google Ads, Meta Ads, YouTube) → Rezervasyon odaklı kampanyalar </li><li>Otel sosyal medya yönetimi → Marka hikâyesi, etkileşim, güven ve ilgi </li><li>Web & rezervasyon altyapısı → Hızlı, mobil uyumlu, ikna edici web deneyimi </li><li>OTA & PMS entegrasyonu → Fiyat, envanter, kanal dengesi </li><li>Çağrı merkezi & mesaj yönetimi (4 dilli) → Rezervasyon, satış ve memnuniyet </li><li>Veri analizi & raporlama → Tüm kanalların performansını aynı panelde görmek </li></ul>Bu sayede oteliniz için SEO, SEM, SMM, OTA, PMS, call center ve raporlama dağınık değil; <b> aynı büyüme hedefi etrafında çalışan tek bir sistem</b> haline gelir.",
       "title4":"PMS, OTA ve Çağrı Merkezi ile Entegre Dijital Pazarlama",
-      "text4":"Otel dijital pazarlaması, sadece “trafik getirmekle” bitmez. Trafiğin: <ul><li> PMS’e doğru rezervasyon olarak düşmesi, </li><li> OTA kanallarının doğru fiyat ve envanterle beslenmesi,</li><li> Çağrı merkezinin kampanya & fiyatlardan haberdar olması, </li><li>Raporlama panellerinde bu verilerin tek yerde toplanması </li></ul>ile anlam kazanır. DGTLFACE, /tr/pms-ota-yonetimi ve /tr/cagri-merkezi-hizmetleri departmanlarıyla birlikte çalışarak, pazarlamadan operasyona kadar tüm süreci tek uçtan diğer uca uçurur. Bu entegrasyon sayesinde: <ul><li>“Otel gelir yönetimi digital”, </li><li>“OTA & direkt rezervasyon dengesi”, </li><li>“Çağrı merkezi ile rezervasyon dönüşümünü artırma” </li></ul>gibi hedeflerde gerçek karşılık bulursunuz."
+      "text4":"Otel dijital pazarlaması, sadece “trafik getirmekle” bitmez. Trafiğin: <ul><li> PMS’e doğru rezervasyon olarak düşmesi, </li><li> OTA kanallarının doğru fiyat ve envanterle beslenmesi,</li><li> Çağrı merkezinin kampanya & fiyatlardan haberdar olması, </li><li>Raporlama panellerinde bu verilerin tek yerde toplanması </li></ul>ile anlam kazanır. DGTLFACE, /tr/Services/hotel/otaManagement ve /tr/cagri-merkezi-hizmetleri departmanlarıyla birlikte çalışarak, pazarlamadan operasyona kadar tüm süreci tek uçtan diğer uca uçurur. Bu entegrasyon sayesinde: <ul><li>“Otel gelir yönetimi digital”, </li><li>“OTA & direkt rezervasyon dengesi”, </li><li>“Çağrı merkezi ile rezervasyon dönüşümünü artırma” </li></ul>gibi hedeflerde gerçek karşılık bulursunuz."
      
     },
 
@@ -2110,7 +2110,7 @@
       
       "card1description":"DGTLFACE, kendini sadece “video çeken” veya sadece “kampanya yöneten” bir yapı olarak değil; <b>video + performans hibrit partneri</b> olarak konumlandırır. Creative & prodüksiyon, SMM, SEM, web ve raporlama ekipleri YouTube için birlikte çalışır. Böylece YouTube reklamları:<ul><li> Marka bilinirliğini artırır, </li><li>Sosyal medya ve web trafiğini besler,</li><li> Remarketing için sıcak kitle oluşturur,</li><li> Rezervasyon / satış funnel’ını güçlendirir.</li></ul> Yani video, soyut bir imaj yatırımı değil, <b>ölçülebilir bir performans aracı</b> haline gelir.",
       "card2description":"<b>“YouTube reklam yönetimi Antalya, Antalya YouTube reklam ajansı, YouTube Ads Türkiye, Antalya video reklam hizmeti”</b> gibi aramaların arkasında; hem turizmi hem video prodüksiyonu hem de performans tarafını bilen bir ekip vardır. DGTLFACE, Antalya merkezli bir ajans olarak; resort, city hotel, butik otel ve villa/luxury segmentindeki oteller için YouTube kampanyaları yürütür, sezon ve pazar dinamiklerini kampanya stratejilerine yansıtır.",
-      "card3description":"YouTube Ads, tek başına çalıştığında potansiyelinin bir kısmını kullanır; <b>SEO</b> (özellikle marka ve destinasyon aramaları), <b>SEM</b> (arama & display), <b>SMM</b> (Reels & kısa video) ve <b>web deneyimi</b> ile entegre çalıştığında ise çok daha yüksek katkı sağlar. DGTLFACE, YouTube stratejinizi: <a href=\"/tr/sem\">(Google Ads & SEM)</a> , <a href=\"/tr/sosyal-medya-yonetimi\"> (SMM)</a>, <a href=\"/tr/creative-ve-tasarim\">(Creative)</a>  , <a href=\"/tr/otel-dijital-pazarlama\">(Otel çatı stratejisi) </a> ile aynı oyun planına bağlar."
+      "card3description":"YouTube Ads, tek başına çalıştığında potansiyelinin bir kısmını kullanır; <b>SEO</b> (özellikle marka ve destinasyon aramaları), <b>SEM</b> (arama & display), <b>SMM</b> (Reels & kısa video) ve <b>web deneyimi</b> ile entegre çalıştığında ise çok daha yüksek katkı sağlar. DGTLFACE, YouTube stratejinizi: <a href=\"/tr/sem\">(Google Ads & SEM)</a> , <a href=\"/tr/sosyal-medya-yonetimi\"> (SMM)</a>, <a href=\"/tr/creative-ve-tasarim\">(Creative)</a>  , <a href=\"/tr/Services/hotel/pmsIntegration\">(Otel çatı stratejisi) </a> ile aynı oyun planına bağlar."
     },
 
      "verticalSlider":{
@@ -2215,7 +2215,7 @@
       
       "card1description":"DGTLFACE, remarketing kampanyalarını sadece “zaten herkes kullanıyor” diye değil, <b>dönüşüm hunisinin bilinçli bir parçası</b> olarak kurgular. Her liste, dönüşüm yolculuğunda farklı bir noktaya denk gelir. Biz de mesajları, banner’ları ve teklifleri buna göre tasarlarız. Sonuç: <b>Aynı bütçeyle daha fazla dönüşüm veya aynı dönüşümü daha düşük maliyetle</b> elde eden gerçek bir remarketing motoru.",
       "card2description":"Remarketing’in düzgün çalışması için, önce doğru dönüşüm takibi gerekir. DGTLFACE, <a href=\"/tr/sem/donusum-takibi-tag-manager\">dönüşüm takibi tag manager</a> ile:<ul><li> Form, rezervasyon, teklif talebi, telefon/WhatsApp tıklaması, </li><li>Funnel adımları (listeleme → detay → sepet → checkout → teşekkür sayfası)</li></ul> gibi aksiyonları tek tek izler. Böylece remarketing listeleri, “sadece sayfa görenler” değil, funnel’ın tam olarak <b>neresinde kaldığını bildiğimiz kullanıcılar</b> haline gelir.",
-      "card3description":"Remarketing & Display kampanyalarını; Google Ads arama, YouTube, sosyal medya reklamları, otel dijital pazarlama (/tr/otel-dijital-pazarlama) ve web & rezervasyon altyapısıyla birlikte kurguluyoruz. Böylece kullanıcı:<ul><li> Aramada sizi görüp siteye girer,</li><li> Siteden çıkınca display & remarketing banner’larıyla, </li><li>YouTube ve sosyal medya videolarıyla, </li><li>Tekrar arama & direct kanallar üzerinden</li></ul> adım adım <b>“soğuktan sıcak müşteriye”</b> dönüşür."
+      "card3description":"Remarketing & Display kampanyalarını; Google Ads arama, YouTube, sosyal medya reklamları, otel dijital pazarlama (/tr/Services/hotel/pmsIntegration) ve web & rezervasyon altyapısıyla birlikte kurguluyoruz. Böylece kullanıcı:<ul><li> Aramada sizi görüp siteye girer,</li><li> Siteden çıkınca display & remarketing banner’larıyla, </li><li>YouTube ve sosyal medya videolarıyla, </li><li>Tekrar arama & direct kanallar üzerinden</li></ul> adım adım <b>“soğuktan sıcak müşteriye”</b> dönüşür."
     },
 
      "verticalSlider":{
@@ -2318,7 +2318,7 @@
       "card3title":"Antalya Merkezli, Turizm Odaklı Ölçüm Uzmanlığı",
       
       "card1description":"Önce “Ne ölçmeliyiz?” sorusuna yanıt veririz, sonra teknik tarafı kurarız. Sonuç: Raporlarınız gerçekten <b>işinizin gerçek çıktısını</b> gösterir.",
-      "card2description":"DGTLFACE dönüşüm katmanını şu alanlarla birleştirir:<ul><li> <a href=\"/tr/sem\">SEM →</a>   </li><li> <a href=\"/tr/sosyal-medya-yonetimi\">SMM → </a>  </li><li> <a href=\"/tr/yazilim\">Web & Yazılım → </a> </li><li> <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA →</a>  </li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi →</a>   </li><li> <a href=\"/tr/veri-analiz-ve-raporlama\">Raporlama →</a> </li></ul> Gerçek 360° ölçüm böyle olur.",
+      "card2description":"DGTLFACE dönüşüm katmanını şu alanlarla birleştirir:<ul><li> <a href=\"/tr/sem\">SEM →</a>   </li><li> <a href=\"/tr/sosyal-medya-yonetimi\">SMM → </a>  </li><li> <a href=\"/tr/yazilim\">Web & Yazılım → </a> </li><li> <a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA →</a>  </li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı Merkezi →</a>   </li><li> <a href=\"/tr/veri-analiz-ve-raporlama\">Raporlama →</a> </li></ul> Gerçek 360° ölçüm böyle olur.",
       "card3description":"DGTLFACE, özellikle Antalya–Belek–Side–Kemer eksenindeki otellerin:<ul><li> Ülke pazar farkları </li><li> OTA vs Direkt kanal dönüşüm dengesi </li><li> Telefon + WhatsApp rezervasyon davranışları </li></ul> gibi sahada test edilmiş verilerle ölçüm mimarisini kurar."
     },
 
@@ -3573,7 +3573,7 @@
     "text2": "DGTLFACE, kurumsal web projelerinde Next.js ve React gibi modern teknolojiler kullanır. Bu sayede:<ul><li> Sunucu taraflı rendering (SSR) ile SEO’ya uygun, </li><li>Static generation (SSG) ile süper hızlı, </li><li>Bileşen tabanlı yapı ile kolay geliştirilebilir,</li><li> Çok dilli, modüler ve geleceğe dönük web siteleri ortaya çıkar.</li></ul> <b>“Next.js web tasarım, web sitesi geliştirme Türkiye, Antalya yazılım firması”</b> arayan markalar için; yalnızca güncel teknikleri kullanan değil, aynı zamanda bu teknikleri SEO ve iş hedefleriyle hizalayan bir ekip olmayı önemsiyoruz. Yani teknoloji <b>gösteriş için değil, performans ve ölçeklenebilirlik</b> için seçiliyor.",
 
     "header3": "Oteller ve Turizm Sektörü İçin Web Sitesi Geliştirme",
-    "text3": "<b>Otel web tasarımı ve turizm sektörüne özel web tasarım,</b> klasik kurumsal sitelerden farklı ihtiyaçlara sahiptir. DGTLFACE, <b>“otel web tasarımı, resort web tasarım, turizm web sitesi geliştirme, PMS entegre web sitesi”</b> tarafında:<ul><li> Oda tipleri, görseller, fiyat ve müsaitlik alanlarını; </li><li>online rezervasyon modülü ve form yapıları; </li><li>PMS entegrasyonları (Elektraweb vb.) ve OTA link dengesini; </li><li>Çok dilli yapı (TR–EN–DE–RU vb.) </li><li><b>Kampanya, erken rezervasyon, blog/destinasyon</b> içerikleri için özel şablonları<</li></ul> projeye baştan dahil eder. Turizmde rekabet yüksek olduğu için; otel web sitenizi hem marka deneyimini yansıtan, hem de rezervasyon dönüşümü yüksek bir yapıya dönüştürmeyi hedefleriz. Bu aşamada <ul><li>PMS & OTA yönetimi için <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a> , </li><li>otel dijital dönüşümü için <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> </li></ul>ile de entegre bir yol haritası kurarız.",
+    "text3": "<b>Otel web tasarımı ve turizm sektörüne özel web tasarım,</b> klasik kurumsal sitelerden farklı ihtiyaçlara sahiptir. DGTLFACE, <b>“otel web tasarımı, resort web tasarım, turizm web sitesi geliştirme, PMS entegre web sitesi”</b> tarafında:<ul><li> Oda tipleri, görseller, fiyat ve müsaitlik alanlarını; </li><li>online rezervasyon modülü ve form yapıları; </li><li>PMS entegrasyonları (Elektraweb vb.) ve OTA link dengesini; </li><li>Çok dilli yapı (TR–EN–DE–RU vb.) </li><li><b>Kampanya, erken rezervasyon, blog/destinasyon</b> içerikleri için özel şablonları<</li></ul> projeye baştan dahil eder. Turizmde rekabet yüksek olduğu için; otel web sitenizi hem marka deneyimini yansıtan, hem de rezervasyon dönüşümü yüksek bir yapıya dönüştürmeyi hedefleriz. Bu aşamada <ul><li>PMS & OTA yönetimi için <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a> , </li><li>otel dijital dönüşümü için <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a> </li></ul>ile de entegre bir yol haritası kurarız.",
 
     "header4": "Çok Dilli ve Responsive Web Tasarım",
     "text4": "Özellikle otel ve ihracat odaklı B2B markalarda, çok dilli web sitesi tasarımı kritik. DGTLFACE:<ul><li> Dil bazlı URL ve hreflang kurgusunu SEO standartlarına göre kurar,</li><li> dil geçişini kullanıcıyı yormadan çözer,</li><li> içerik yönetimini (CMS) çok dilli yapıya uygun hale getirir (bkz. /tr/yazilim/cms-entegrasyonu), </li><li>Tasarımda metin alanlarını ve font desteğini dillerin uzunluk farklarına göre planlar. </li></ul><b>“Çok dilli web sitesi tasarımı, responsive web tasarım rehberi”</b> gibi alanlarda; <b>tasarım + teknik + SEO </b>tarafı birlikte ilerler."
@@ -3608,13 +3608,13 @@
     "header": "Neden DGTLFACE ile Kurumsal Web Sitesi Geliştirme?",
 
     "card1title": "Ajans Değil, Tam Entegre Teknoloji & Performans Partneri",
-    "card1description": "DGTLFACE, sadece “web tasarımcı” değil; aynı anda: <ul><li>SEO ekibi <a href=\"/tr/seo-hizmetleri\">seo hizmetleri</a>, </li><li>SEM ekibi <a href=\"/tr/sem\">sem</a> , </li><li>SMM ekibi <a href=\"/tr/sosyal-medya-yonetimi\">sosyal medya yönetimi</a> , </li><li>PMS & OTA ekibi <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a>, </li><li>Çağrı merkezi ekibi <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> , </li><li>Raporlama ekibi <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> </li></ul> ile çalışan bir yapı. Yani kurumsal web siteniz; sadece <b>“güzel görünsün”</b> diye değil, <b>bütün dijital mimariyle uyumlu, performans üreten bir sistem</b> olsun diye tasarlanıyor.",
+    "card1description": "DGTLFACE, sadece “web tasarımcı” değil; aynı anda: <ul><li>SEO ekibi <a href=\"/tr/seo-hizmetleri\">seo hizmetleri</a>, </li><li>SEM ekibi <a href=\"/tr/sem\">sem</a> , </li><li>SMM ekibi <a href=\"/tr/sosyal-medya-yonetimi\">sosyal medya yönetimi</a> , </li><li>PMS & OTA ekibi <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a>, </li><li>Çağrı merkezi ekibi <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> , </li><li>Raporlama ekibi <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> </li></ul> ile çalışan bir yapı. Yani kurumsal web siteniz; sadece <b>“güzel görünsün”</b> diye değil, <b>bütün dijital mimariyle uyumlu, performans üreten bir sistem</b> olsun diye tasarlanıyor.",
 
     "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Web Tasarım Uzmanlığı",
     "card2description": "<b>“Web tasarım Antalya, Antalya kurumsal web tasarım, web sitesi geliştirme Türkiye, Antalya yazılım firması”</b> arayan otel ve markalar için; <b>bölgeyi, sektörü ve kullanıcıyı bilen</b> bir ekip çok değerli. DGTLFACE:<ul><li> Oteller, turizm projeleri, B2B ihracat siteleri, ajans & hizmet siteleri gibi alanlarda geniş tecrübeye sahip, </li><li> Bölgedeki turist/müşteri profili ve sezonsal akışı biliyor  </li><li>Bu bilgiyi web tasarım ve içerik kurgusuna birebir yansıtıyor.  </li></ul>Bu da sizi <b>“template gibi duran”</b> bir siteden kurtarıp, gerçekten <b>sizi anlatan bir web deneyimine</b> taşıyor.",
 
     "card3title": "SEO, PMS, OTA ve Çağrı Merkezi ile Entegre Web Mimarisi",
-    "card3description": "Özellikle <b>oteller ve rezervasyonlu çalışan işletmeler</b> için web sitesi; <b>SEO + SEM + PMS + OTA + Call Center</b> ile entegre oldukça anlam kazanıyor. DGTLFACE:<ul><li>  ile <a href=\"/tr/seo/teknik-seo\">Teknik SEO</a> altyapıyı hazırlıyor,</li><li> PMS & OTA entegrasyonlarıyla (/tr/pms-ota-yonetimi) oda/fiyat/rezervasyon akışını düzenliyor, </li><li>Çağrı merkezi (/tr/cagri-merkezi-hizmetleri) ile telefon/WhatsApp rezervasyonlarını web funnel’a bağlıyor, </li><li>Tüm bunları <b>raporlama</b> ile ölçülebilir hâle getiriyor. Yani kurumsal web siteniz, “dışarıdan bakınca hoş” değil, içeride <b>gelir & operasyon</b> üreten bir sistem oluyor."
+    "card3description": "Özellikle <b>oteller ve rezervasyonlu çalışan işletmeler</b> için web sitesi; <b>SEO + SEM + PMS + OTA + Call Center</b> ile entegre oldukça anlam kazanıyor. DGTLFACE:<ul><li>  ile <a href=\"/tr/seo/teknik-seo\">Teknik SEO</a> altyapıyı hazırlıyor,</li><li> PMS & OTA entegrasyonlarıyla (/tr/Services/hotel/otaManagement) oda/fiyat/rezervasyon akışını düzenliyor, </li><li>Çağrı merkezi (/tr/cagri-merkezi-hizmetleri) ile telefon/WhatsApp rezervasyonlarını web funnel’a bağlıyor, </li><li>Tüm bunları <b>raporlama</b> ile ölçülebilir hâle getiriyor. Yani kurumsal web siteniz, “dışarıdan bakınca hoş” değil, içeride <b>gelir & operasyon</b> üreten bir sistem oluyor."
   },
 
   "verticalSlider": {
@@ -3633,7 +3633,7 @@
 
     "title3": "PMS Entegre Web Sitesi – ",
     "span3": "Nelere Dikkat Etmeli?",
-    "text3": "PMS entegre web sitesi kurarken:<ul><li> Rezervasyon motoru ile site arasındaki tasarım & UX tutarlığı, </li><li>Domain & subdomain kararları (SEO etkisi), </li><li>Cross-domain analytics & dönüşüm takibi, </li><li>Oda & fiyat bilgilerinin doğru ve güncel gelmesi, </li><li>OTA’larla fiyat & stok dengesi </li></ul>dikkat edilmesi gereken başlıklar. DGTLFACE,  <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA ekibiyle</a> birlikte çalışarak bu süreci doğru kurgular.",
+    "text3": "PMS entegre web sitesi kurarken:<ul><li> Rezervasyon motoru ile site arasındaki tasarım & UX tutarlığı, </li><li>Domain & subdomain kararları (SEO etkisi), </li><li>Cross-domain analytics & dönüşüm takibi, </li><li>Oda & fiyat bilgilerinin doğru ve güncel gelmesi, </li><li>OTA’larla fiyat & stok dengesi </li></ul>dikkat edilmesi gereken başlıklar. DGTLFACE,  <a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA ekibiyle</a> birlikte çalışarak bu süreci doğru kurgular.",
     "button3": "İncele",
 
     "title4": "Çok Dilli Kurumsal ",
@@ -3788,7 +3788,7 @@
     "text2": "<b>Çerez yönetimi</b>, KVKK sürecinin en görünür kısmıdır. <b>“Çerez yönetim paneli geliştirme”</b> ifadesinin arkasında aslında detaylı bir <b>teknik ve UX mimarisi</b> vardır. DGTLFACE: <ul><li>Tüm çerezleri <b>kategorize eder</b> (zorunlu, performans, istatistik, reklam, üçüncü parti),  </li><li>Kullanıcıya <b>net ve sade Türkçe</b> ile ne toplandığını anlatan bir arayüz tasarlar,  </li><li><b>“Kabul et / Reddet / Tercihleri düzenle”</b> akışını hem masaüstü hem mobil için optimize eder, </li><li> Kullanıcı tercihlerini <b>ID bazlı loglayarak</b>, gerektiğinde ispatlanabilir bir yapı sunar, </li><li> Tercihler değiştirildiğinde çerez davranışını <b>dinamik olarak günceller.</b> </li></ul> Bu sayede siteniz sadece <b>“popup gösteren”</b> bir yapı olmaktan çıkar, gerçekten <b>KVKK ile uyumlu bir kullanıcı izin sistemine</b> sahip olur.",
 
     "header3": "Oteller ve Turizm Markaları İçin KVKK Uyumlu Dijital Altyapı",
-    "text3": "Turizm sektöründe KVKK uyumu, tek bir sistemle sınırlı değildir; <b>web sitesi, PMS, OTA, çağrı merkezi ve CRM’in birlikte düşünüldüğü</b> bir bütündür. DGTLFACE, <b>“oteller için kvkk uyumu, turizm kvkk gereklilikleri, otel verisi güvenlik uyumu”</b> gibi ihtiyaçlarda: <ul><li>Web sitesi rezervasyon formları ve online motorlar,</li><li> PMS (örn. Elektraweb) üzerinden akan misafir verisi, </li><li>OTA (Booking, Expedia, Agoda vb.) ile paylaşım yapılan bilgiler, </li><li>Çağrı merkezi ve çok kanallı mesaj yönetimi (WhatsApp, Instagram, web chat), </li><li>Satış sonrası destek ve misafir ilişkileri süreçleri </li></ul>üzerinden tüm veri akışlarını çıkarır ve <b>KVKK çerçevesinde</b> sınıflandırır. Böylece <b>pms veri güvenliği ota kvkk entegrasyonu, agency-to-hotel data flow</b>,  gibi karmaşık başlıklar, teknoloji ve hukuk açısından <b>anlamlı bir mimariye</b> kavuşur. Bu yapı, <a href=\"/tr/pms-ota-yonetimi\">/tr/pms ota yönetimi</a>  ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a>  silo’larıyla da birebir bağlantılıdır.",
+    "text3": "Turizm sektöründe KVKK uyumu, tek bir sistemle sınırlı değildir; <b>web sitesi, PMS, OTA, çağrı merkezi ve CRM’in birlikte düşünüldüğü</b> bir bütündür. DGTLFACE, <b>“oteller için kvkk uyumu, turizm kvkk gereklilikleri, otel verisi güvenlik uyumu”</b> gibi ihtiyaçlarda: <ul><li>Web sitesi rezervasyon formları ve online motorlar,</li><li> PMS (örn. Elektraweb) üzerinden akan misafir verisi, </li><li>OTA (Booking, Expedia, Agoda vb.) ile paylaşım yapılan bilgiler, </li><li>Çağrı merkezi ve çok kanallı mesaj yönetimi (WhatsApp, Instagram, web chat), </li><li>Satış sonrası destek ve misafir ilişkileri süreçleri </li></ul>üzerinden tüm veri akışlarını çıkarır ve <b>KVKK çerçevesinde</b> sınıflandırır. Böylece <b>pms veri güvenliği ota kvkk entegrasyonu, agency-to-hotel data flow</b>,  gibi karmaşık başlıklar, teknoloji ve hukuk açısından <b>anlamlı bir mimariye</b> kavuşur. Bu yapı, <a href=\"/tr/Services/hotel/otaManagement\">/tr/pms ota yönetimi</a>  ve <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a>  silo’larıyla da birebir bağlantılıdır.",
 
     "header4": "Veri Güvenliği, Sunucu ve Log Yönetimi",
     "text4": "KVKK, yalnızca hangi metinleri yayınladığınızla değil, <b>veriyi nasıl sakladığınız ve koruduğunuzla</b> da ilgilenir. DGTLFACE, <a href=\"/tr/yazilim/sunucu-guvenlik\">/tr/yazilim/sunucu güvenlik </a> ile entegre çalışan bir KVKK uyum modeli sunar:<ul><li> Verilerin tutulduğu sunucunun lokasyonu & yapısı (Türkiye / Avrupa vb.),</li><li> SSL sertifikası entegrasyonu ve zorunlu HTTPS kullanımı,</li><li> Firewall, saldırı tespit sistemleri ve brute-force korumaları, </li><li>Loglama politikaları ve log sürelerinin KVKK ile uyumu, </li><li>Yedekleme stratejileri ve acil durum planları. </li></ul><b>“Data privacy teknik gereksinimler, kullanıcı verisi saklama standartları, kvkk teknik tedbirler rehberi”</b> gibi başlıkları, teknik ekibinizin anlayacağı dilden ve <b>dokümante</b> şekilde size sunarız."
@@ -3832,7 +3832,7 @@
     "card2description": "<b>“KVKK hizmeti Antalya, Antalya veri güvenliği, kvkk yazılım Türkiye, Antalya kvkk ajansı”</b> gibi aramaların arkasında; <b>hem turizmi hem dijital altyapıyı</b> bilen bir ekip beklentisi vardır. DGTLFACE;<ul><li> Oteller, resort’lar, villalar, acenteler ve turizm markalarıyla uzun yıllardır çalışır,</li><li><b> Sezonluk kampanyalar, erken rezervasyon ve OTA kampanyaları</b> gibi süreçlerde veri akışını tanır </li><li>Bu gerçek hayat senaryolarını <b>KVKK uyum planınıza bire bir yansıtır.</b> </li></ul> Böylece hem yasal gereklilikler hem de <b>misafir deneyimi </b> açısından dengeli bir dijital yapı kurulur.",
 
     "card3title": "PMS, OTA ve Çağrı Merkezi Entegrasyonlarında KVKK Uyum",
-    "card3description": "Otel & turizm dünyasında veri akışı <b>PMS – OTA – Web – Çağrı Merkezi – CRM</b> arasında sürekli hareket eder. DGTLFACE;<ul><li> <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a>  ile PMS & OTA akışını,</li><li>  <a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ile çağrı ve mesaj trafiğini, </li><li> <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> ile sunucu altyapısını, </li><li><a href=\"/tr/raporlama/kvkk-veri-guvenligi\">kvkk veri güvenliği</a>  ile veri raporlamasını </li></ul> aynı çatı altında toplar ve KVKK uyumunu hem <b>online</b> hem <b>offline</b> müşteri temas noktalarında takip eder."
+    "card3description": "Otel & turizm dünyasında veri akışı <b>PMS – OTA – Web – Çağrı Merkezi – CRM</b> arasında sürekli hareket eder. DGTLFACE;<ul><li> <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a>  ile PMS & OTA akışını,</li><li>  <a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ile çağrı ve mesaj trafiğini, </li><li> <a href=\"/tr/yazilim/sunucu-guvenlik\">sunucu güvenlik</a> ile sunucu altyapısını, </li><li><a href=\"/tr/raporlama/kvkk-veri-guvenligi\">kvkk veri güvenliği</a>  ile veri raporlamasını </li></ul> aynı çatı altında toplar ve KVKK uyumunu hem <b>online</b> hem <b>offline</b> müşteri temas noktalarında takip eder."
   },
 
   "verticalSlider": {
@@ -4041,7 +4041,7 @@
       "text2": "Bakım sürecinin akıcı ilerlemesi için <b>net bir iletişim modeli</b> şarttır. DGTLFACE;<ul><li> <b>Ticket/görev sistemi</b> üzerinden gelen talepleri toplar,</li><li> İçerik, tasarım, yazılım, sunucu gibi <b>kategorilere ayırır</b>, </li><li> <b>Öncelik (kritik / yüksek / normal)</b> seviyeleri belirler, </li><li> SLA (yanıt ve çözüm süreleri) çerçevesinde geri dönüş yapar. </li></ul>Böylece <b>“kime yazdım, ne oldu?”</b> sorusu ortadan kalkar; tüm bakım süreci <b>şeffaflaşır</b>.",
 
       "header3": "Oteller ve Turizm Siteleri İçin Özel Bakım Planı",
-      "text3": "Turizm projelerinde bakım, <b>sezonluk dinamiklere</b> göre planlanmalıdır. DGTLFACE; <ul><li><b> Sezon öncesi</b> (high season) kapsamlı sağlık taraması, </li><li><b>Erken rezervasyon dönemlerinde </b>performans ve uptime odaklı testler, </li><li>Kampanya sayfaları ve landing’ler için ek kontrol süreçleri, </li><li><b>Rezervasyon motoru ve PMS bağlantı kontrolleri</b> </li></ul> ile otel web sitesi bakımını sadece <b>teknik</b> değil,<b> gelir odaklı</b> bir çerçevede yönetir. Bu yapı,<a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a>  ve <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> ile tam uyumludur."
+      "text3": "Turizm projelerinde bakım, <b>sezonluk dinamiklere</b> göre planlanmalıdır. DGTLFACE; <ul><li><b> Sezon öncesi</b> (high season) kapsamlı sağlık taraması, </li><li><b>Erken rezervasyon dönemlerinde </b>performans ve uptime odaklı testler, </li><li>Kampanya sayfaları ve landing’ler için ek kontrol süreçleri, </li><li><b>Rezervasyon motoru ve PMS bağlantı kontrolleri</b> </li></ul> ile otel web sitesi bakımını sadece <b>teknik</b> değil,<b> gelir odaklı</b> bir çerçevede yönetir. Bu yapı,<a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a>  ve <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a> ile tam uyumludur."
     },
 
     "h4Section": {
@@ -4073,7 +4073,7 @@
 
       "title3": "Oteller İçin Web Desteği ",
       "span3": "Nasıl Planlanmalı?",
-      "text3": "Oteller için web desteği planlanırken;<ul><li> <b>Sezon öncesi</b> ağır test ve hazırlık, </li><li>Rezervasyon motoru güncellemeleriyle <b>uyum</b>, </li><li>Kampanya dönemlerinde <b>ekstra kontrol ve mini geliştirmeler</b>, </li><li>Diller (EN, DE, RU vb.) bazında <b>içerik güncellemeleri</b> </li><li> <b>PMS–OTA bağlantı sürekliliği</b> </li></ul>göz önünde bulundurulmalıdır. DGTLFACE, bu planı <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a>  ve <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> mimarisiyle uyumlu kurar.",
+      "text3": "Oteller için web desteği planlanırken;<ul><li> <b>Sezon öncesi</b> ağır test ve hazırlık, </li><li>Rezervasyon motoru güncellemeleriyle <b>uyum</b>, </li><li>Kampanya dönemlerinde <b>ekstra kontrol ve mini geliştirmeler</b>, </li><li>Diller (EN, DE, RU vb.) bazında <b>içerik güncellemeleri</b> </li><li> <b>PMS–OTA bağlantı sürekliliği</b> </li></ul>göz önünde bulundurulmalıdır. DGTLFACE, bu planı <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a>  ve <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a> mimarisiyle uyumlu kurar.",
       "button3": "Otel Destek Planı",
 
       "title4": "Next.js Bakım Planı ",
@@ -4265,7 +4265,7 @@
       "card2description": "<b>“UI/UX Antalya, Antalya UI tasarım, UX tasarım Türkiye, Antalya dijital tasarım”</b> gibi aramaların arkasında; <b>bölgeyi, turist profilini, sezonluk dalgalanmaları ve sektör ihtiyaçlarını</b> anlayan bir ekip beklentisi vardır.DGTLFACE:<ul><li> Oteller, resort’lar, villa projeleri, acenteler ve hizmet odaklı markalar için çok sayıda proje yürütmüş, </li><li>Farklı pazarlardaki kullanıcı davranışlarını (DE, RU, UK, TR) deneyimlemiş, </li><li>Bu tecrübeyi UI/UX kararlarına doğrudan yansıtan bir partnerdir.</li></ul>",
 
       "card3title": "Rezervasyon, PMS ve Dijital Satış Süreçleriyle Entegre UX",
-      "card3description": "Özellikle otel ve turizm projelerinde; UI/UX, <b>PMS & OTA & çağrı merkezi & dijital reklam</b> ile birlikte düşünülmelidir. DGTLFACE:<ul><li> <a href=\"/tr/pms-ota-yonetimi\">/tr/pms ota yönetimi</a>  ile <b>rezervasyon ve kanal yönetimi</b> süreçlerini, </li><li><a href=\"/tr/otel/reklam-yonetimi\">reklam yönetimi</a> ve <a href=\"/tr/sem\">sem</a>  ile <b>reklam trafiğini</b>, </li><li><a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ile <b>telefon ve mesaj trafiğini</b>, </li></ul> UX tasarımıyla <b>tek bir deneyim zincirine</b> bağlar. Kısaca: <b>“güzel ekranlar”</b> değil, <b>ucundan ucuna< çalışan satış ve dönüşüm tünelleri /b> tasarlarız."
+      "card3description": "Özellikle otel ve turizm projelerinde; UI/UX, <b>PMS & OTA & çağrı merkezi & dijital reklam</b> ile birlikte düşünülmelidir. DGTLFACE:<ul><li> <a href=\"/tr/Services/hotel/otaManagement\">/tr/pms ota yönetimi</a>  ile <b>rezervasyon ve kanal yönetimi</b> süreçlerini, </li><li><a href=\"/tr/otel/reklam-yonetimi\">reklam yönetimi</a> ve <a href=\"/tr/sem\">sem</a>  ile <b>reklam trafiğini</b>, </li><li><a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ile <b>telefon ve mesaj trafiğini</b>, </li></ul> UX tasarımıyla <b>tek bir deneyim zincirine</b> bağlar. Kısaca: <b>“güzel ekranlar”</b> değil, <b>ucundan ucuna< çalışan satış ve dönüşüm tünelleri /b> tasarlarız."
     },
 
     "verticalSlider": {
@@ -4327,7 +4327,7 @@
 
     "h2Section": {  
     "header1": "Oteller ve Turizm Markaları İçin Video Prodüksiyon",
-      "text1": "Turizm sektörü, video prodüksiyonun <b>en çok fark yarattığı</b> alanlardan biridir. Tatil, deneyim ve destinasyon; en iyi <b>hareketli görüntüyle</b> satılır. DGTLFACE, <b>otel video prodüksiyon</b> ve turizm projelerinde:<ul><li> <b>Oda, havuz, spa, restoran, plaj, etkinlik ve destinasyon</b> çekimlerini <b>storyboard’lu bir planla</b> çalışır,</li><li> <b>Resort video çekimi</b> ile otelin tüm yaşam alanlarını bir hikâye içinde kurgular,</li><li>- <b>Erken rezervasyon, high season, bayram ve özel etkinlikler </b>için kampanya filmleri üretir,</li><li>- OTA ve tur operatörlerine uygun <b>turizm reklam filmi </b>formatları çıkarır,</li><li>- Sosyal medya için <b>dikey formatta kısa videolar</b> ve <b>Reels uyumlu versiyonlar</b> hazırlar.</li></ul><b>“Otel drone çekimi, turizm video çekimi, otel tanıtım filmi örnekleri”</b> gibi spesifik taleplerde; <b>hem yaratıcı</b> hem <b>operasyonel</b> tarafta turizm odaklı deneyimimizle hareket ederiz.\nBu hizmet, <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> ile birlikte otel dijital stratejisinin <b>video bacağını</b> oluşturur.",
+      "text1": "Turizm sektörü, video prodüksiyonun <b>en çok fark yarattığı</b> alanlardan biridir. Tatil, deneyim ve destinasyon; en iyi <b>hareketli görüntüyle</b> satılır. DGTLFACE, <b>otel video prodüksiyon</b> ve turizm projelerinde:<ul><li> <b>Oda, havuz, spa, restoran, plaj, etkinlik ve destinasyon</b> çekimlerini <b>storyboard’lu bir planla</b> çalışır,</li><li> <b>Resort video çekimi</b> ile otelin tüm yaşam alanlarını bir hikâye içinde kurgular,</li><li>- <b>Erken rezervasyon, high season, bayram ve özel etkinlikler </b>için kampanya filmleri üretir,</li><li>- OTA ve tur operatörlerine uygun <b>turizm reklam filmi </b>formatları çıkarır,</li><li>- Sosyal medya için <b>dikey formatta kısa videolar</b> ve <b>Reels uyumlu versiyonlar</b> hazırlar.</li></ul><b>“Otel drone çekimi, turizm video çekimi, otel tanıtım filmi örnekleri”</b> gibi spesifik taleplerde; <b>hem yaratıcı</b> hem <b>operasyonel</b> tarafta turizm odaklı deneyimimizle hareket ederiz.\nBu hizmet, <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a> ile birlikte otel dijital stratejisinin <b>video bacağını</b> oluşturur.",
 
       "header2": "360° Çekim, Drone ve Sanal Tur Çözümleri",
       "text2": "Bazı mekânlar, tek açıdan değil, <b>360 derece ve havadan</b> görülmeyi hak eder. DGTLFACE:<ul><li> <b>360 derece çekim</b> ile otel odaları, lobiler, restoranlar ve toplantı alanları için interaktif sanal turlar üretir,</li><li> <b>Drone</b> ile tesisin konumunu, çevre manzarasını, deniz–doğa–şehir ilişkisini gösteren çekimler yapar,</li><li> <b>“360 sanal tur çekim teknikleri”</b> doğrultusunda doğru lens, ışık ve rota planlaması yapar,</li><li> 360 ve drone görüntülerini <b>web sitenize, sosyal medyaya ve sunumlarınıza</b> entegre edilebilecek formatlara dönüştürür.</li></ul>nBu sayede misafirleriniz, otelinizi yalnızca fotoğrafla değil, <b>sanal olarak gezerek</b> deneyimleyebilir.",
@@ -4603,7 +4603,7 @@
       "header": "Neden DGTLFACE ile Kurumsal Hediye Tasarımı?",
 
       "card1title": "Creative + Marka Stratejisi + Üretim Entegrasyonu",
-      "card1description": "DGTLFACE, sadece tasarım yapan veya sadece <b>üretim</b> yaptıran bir yapı değil;<ul><li> <a href=\"/tr/creative\">Creative tasarım ekibi</a> ,</li><li>  <a href=\"/tr/smm/icerik-uretimi\">SMM ekibi</a> </li><li> <a href=\"/tr/otel-dijital-pazarlama\">Otel & turizm stratejisi ekibi</a> </li>/ul>ile birlikte çalışır. Bu sayede <b>kurumsal hediye tasarımı</b>, hem <b>kurumsal hediye tasarımı</b> hem de <b>dijital iletişim malzemesi</b> olarak <b>aynı dili konuşur</b>.",
+      "card1description": "DGTLFACE, sadece tasarım yapan veya sadece <b>üretim</b> yaptıran bir yapı değil;<ul><li> <a href=\"/tr/creative\">Creative tasarım ekibi</a> ,</li><li>  <a href=\"/tr/smm/icerik-uretimi\">SMM ekibi</a> </li><li> <a href=\"/tr/Services/hotel/pmsIntegration\">Otel & turizm stratejisi ekibi</a> </li>/ul>ile birlikte çalışır. Bu sayede <b>kurumsal hediye tasarımı</b>, hem <b>kurumsal hediye tasarımı</b> hem de <b>dijital iletişim malzemesi</b> olarak <b>aynı dili konuşur</b>.",
 
       "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Tasarım Yaklaşımı",
       "card2description": "<b>“Kurumsal hediye Antalya, Antalya baskı tasarım, promosyon tasarım Türkiye, Antalya kurumsal tasarım ajansı”</b> gibi aramaların arkasında; hem <b>bölgeyi</b> hem <b>turizm sektörünü</b> bilen bir ekip arayışı vardır. DGTLFACE: <ul><li>Antalya ve çevresinde çok sayıda otel, resort, acente ve hizmet markasıyla çalışan, </li><li>Hem yerel hem global misafir profiline uygun hediye kurgularını <b>tecrübe etmiş</b>, </li><li><b>Baskı & üretim tedarik zincirini</b> bu bölgede iyi tanıyan</li></ul> bir <b>creative partnerdir</b>.",
@@ -4703,7 +4703,7 @@
       "card2description": "<b>“Çok dilli çağrı merkezi Antalya, Antalya turizm müşteri hizmetleri, uluslararası destek Türkiye, Antalya inbound center”</b> gibi aramaların arkasında; hem bölgeyi hem turizm sektörünü bilen bir ekip arayışı vardır. DGTLFACE:<ul><li> Antalya ve çevresindeki otel ve turizm projeleriyle yoğun çalışan, </li><li>Sezonluk yoğunluk, pazar bazlı dönemsel dalgalanmalar ve kampanya dönemlerini çok iyi tanıyan, </li><li>Hem yerel hem global misafir profiline hizmet vermeye alışkın bir çağrı merkezi yapılanmasına sahiptir. </li></ul>Bu da otel ve turizm projelerinde <b>gerçekçi vardiya planları, doğru dil dağılımı ve performans odaklı KPI’lar</b> anlamına gelir.",
 
       "card3title": "PMS, OTA, Web ve Çağrı Merkezi Entegrasyonu",
-      "card3description": "4 dilli çağrı merkezi <b>tek başına</b> eksik kalır. DGTLFACE,<ul><li> <a href=\"/tr/pms-ota-yonetimi\">PMS ve OTA entegrasyonlarınızı</a> , </li><li> <a href=\"/tr/otel/cagri-merkezi\">Otel çağrı merkezi mimarinizi</a>  ,</li><li>  <a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ve /<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>  ile tüm <b>çok kanallı iletişiminizi</b> aynı çatı altında birleştirir. </li></ul>Sonuç: Misafir sizden; <b>web, OTA, WhatsApp, sosyal medya veya telefonla</b> ne şekilde hizmet alırsa alsın, <b>tek ve tutarlı bir deneyim</b> yaşar."
+      "card3description": "4 dilli çağrı merkezi <b>tek başına</b> eksik kalır. DGTLFACE,<ul><li> <a href=\"/tr/Services/hotel/otaManagement\">PMS ve OTA entegrasyonlarınızı</a> , </li><li> <a href=\"/tr/otel/cagri-merkezi\">Otel çağrı merkezi mimarinizi</a>  ,</li><li>  <a href=\"/tr/cagri-merkezi-hizmetleri\">cağrı merkezi hizmetleri</a>  ve /<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a>  ile tüm <b>çok kanallı iletişiminizi</b> aynı çatı altında birleştirir. </li></ul>Sonuç: Misafir sizden; <b>web, OTA, WhatsApp, sosyal medya veya telefonla</b> ne şekilde hizmet alırsa alsın, <b>tek ve tutarlı bir deneyim</b> yaşar."
     },
 
     "verticalSlider": {
@@ -4773,7 +4773,7 @@
       "text1": "Mesaj tarafı artık <b>tek kanaldan</b> gelmiyor. DGTLFACE, <b>multichannel chatbox sistemi</b> ve çok kanallı altyapısı ile:<ul><li><b>Instagram DM</b></li><li><b>Facebook Messenger</b></li><li><b>WhatsApp Business</b></li><li><b>Web chat / canlı destek</b></li><li><b>OTA ve harita platformlarındaki mesajlar</b> (Google, Booking vb.)</li></ul>üzerinden gelen tüm mesajları <b>tek panelde toplar</b>.\n\nBu yapı sayesinde:<ul><li><b>“Şu mesajı kim cevapladı?”</b> sorusu ortadan kalkar,</li><li>Tekrar tekrar aynı soruyu soran misafirlere <b>tutarlı yanıtlar</b> verilir,</li><li>Mesaj trafiği, telefon ve e-posta ile birlikte tek <b>CRM veya rapor ekranına</b> bağlanır,</li><li>Mesajların <b>satış, rezervasyon, destek ve şikâyet</b> olarak <b>segmentlenmesi</b> mümkün olur.</li></ul><b>“Çok kanallı mesaj yönetimi, multichannel chatbox sistemi, sosyal medya müşteri hizmetleri”</b> ihtiyacını; <b>çağrı merkezi standardında</b> çözüme kavuşturuyoruz.",
 
       "header2": "Oteller ve Turizm Markaları İçin Sosyal Medya Mesaj & Yorum Yönetimi",
-      "text2": "Turizm tarafında misafirler:<ul><li>Instagram’dan <b>oda sorar</b>,</li><li>WhatsApp’tan <b>fiyat ve tarih teyidi</b> ister,</li><li><b>Google yorumlarında</b> deneyimini anlatır,</li><li><b>OTA mesajları</b> üzerinden özel isteklerini iletir.</li></ul>DGTLFACE, oteller ve turizm markaları için <b>otel Instagram mesaj yönetimi, turizm WhatsApp management, resort DM yönetimi, otel yorum yönetimi</b> süreçlerini:<ul><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon çağrı merkezi</a>  ile entegre,</li><li> <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA</a> yapınız ile uyumlu,</li><li> <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> ile birlikte çalışan</li></ul>bir yapı hâline getirir.\n\nSonuç: <b>Mesajlar ve yorumlar, “arada kaynayan” </b>değil, <b>rezervasyon ve memnuniyet üreten</b> bir kanal olur.",
+      "text2": "Turizm tarafında misafirler:<ul><li>Instagram’dan <b>oda sorar</b>,</li><li>WhatsApp’tan <b>fiyat ve tarih teyidi</b> ister,</li><li><b>Google yorumlarında</b> deneyimini anlatır,</li><li><b>OTA mesajları</b> üzerinden özel isteklerini iletir.</li></ul>DGTLFACE, oteller ve turizm markaları için <b>otel Instagram mesaj yönetimi, turizm WhatsApp management, resort DM yönetimi, otel yorum yönetimi</b> süreçlerini:<ul><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon çağrı merkezi</a>  ile entegre,</li><li> <a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA</a> yapınız ile uyumlu,</li><li> <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> ile birlikte çalışan</li></ul>bir yapı hâline getirir.\n\nSonuç: <b>Mesajlar ve yorumlar, “arada kaynayan” </b>değil, <b>rezervasyon ve memnuniyet üreten</b> bir kanal olur.",
 
       "header3": "Neden DGTLFACE ile Sosyal Medya Mesaj Yönetimi?",
       "text3": "DGTLFACE, mesaj yönetimini sadece “sosyal medya işi” olarak değil; çağrı merkezi, dijital pazarlama, PMS & OTA entegrasyonları ve otel dijital pazarlama yapısıyla birlikte ele alır. Böylece DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi içinde çalışır.",
@@ -4805,7 +4805,7 @@
       "header": "Neden DGTLFACE ile Sosyal Medya Mesaj Yönetimi?",
 
       "card1title": "Çağrı Merkezi + Dijital Pazarlama + Turizm Entegrasyonu",
-      "card1description": "DGTLFACE, mesaj yönetimini sadece <b>“sosyal medya işi”</b> olarak değil;<ul><li> Çağrı merkezi (/tr/cagri-merkezi-hizmetleri),</li><li> Dijital pazarlama (SEO, SEM, SMM), </li><li>PMS & OTA entegrasyonları (/tr/pms-ota-yonetimi) </li><li> Otel dijital pazarlama (/tr/otel-dijital-pazarlama)</li></ul> ile birlikte ele alır.Bu sayede <b>DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi</b> içinde çalışır.",
+      "card1description": "DGTLFACE, mesaj yönetimini sadece <b>“sosyal medya işi”</b> olarak değil;<ul><li> Çağrı merkezi (/tr/cagri-merkezi-hizmetleri),</li><li> Dijital pazarlama (SEO, SEM, SMM), </li><li>PMS & OTA entegrasyonları (/tr/Services/hotel/otaManagement) </li><li> Otel dijital pazarlama (/tr/Services/hotel/pmsIntegration)</li></ul> ile birlikte ele alır.Bu sayede <b>DM, WhatsApp ve yorum trafiği; Google Ads, sosyal medya reklamları, web sitesi ve çağrı merkeziyle tek bir satış & iletişim ekosistemi</b> içinde çalışır.",
 
       "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Mesaj Yönetimi",
       "card2description": "<b>“Mesaj yönetimi Antalya, sosyal medya destek Antalya, Antalya yorum yönetimi”</b> gibi aramaların arkasında; özellikle turizm bölgelerinde <b>yoğun mesaj ve yorum trafiğini yönetebilen</b> bir ekip arayışı vardır. DGTLFACE; <ul><li>Otel, resort, villa, acente, restoran ve hizmet markalarıyla <b>yoğun çalışan</b>,</li><li> <b>Sezonluk yoğunluk ve kampanya dönemlerinde</b> gelen mesaj dalgalarına alışık,</li><li> Hem <b>yerel</b> hem <b>uluslararası misafir diline</b> hâkim bir mesaj yönetimi ekibine sahiptir.</li></ul> Bu da özellikle otel ve turizm projelerinde gerçekçi <b>vardiya, dil dağılımı ve SLA planlamasını </b> beraberinde getirir.",
@@ -5015,7 +5015,7 @@
       "header": "Neden DGTLFACE ile Satış Sonrası Destek Hizmetleri?",
 
       "card1title": "Çağrı Merkezi + Dijital + CRM Entegre Yaklaşımı",
-      "card1description": "DGTLFACE, satış sonrası desteği yalnızca <b>telefon üzerinden</b> değil; <ul><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi</a> , </li><li> <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj ve yorum yönetimi</a> , </li><li> <a href=\"/tr/veri-analiz-ve-raporlama\">Veri & raporlama</a>  , </li><li> <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA</a> </li><li> <a href=\"/tr/pms-ota-yonetimi\">PMS & OTA</a> <a href=\"/tr/otel-dijital-pazarlama\">Otel dijital pazarlama</a> </li></ul> ile entegre bir mimaride yönetir. Böylece satış sonrası destek, hem <b>online hem offline</b> tüm temas noktalarında <b>tek bir deneyim</b> olarak yaşanır.",
+      "card1description": "DGTLFACE, satış sonrası desteği yalnızca <b>telefon üzerinden</b> değil; <ul><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi</a> , </li><li> <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">Mesaj ve yorum yönetimi</a> , </li><li> <a href=\"/tr/veri-analiz-ve-raporlama\">Veri & raporlama</a>  , </li><li> <a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA</a> </li><li> <a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA</a> <a href=\"/tr/Services/hotel/pmsIntegration\">Otel dijital pazarlama</a> </li></ul> ile entegre bir mimaride yönetir. Böylece satış sonrası destek, hem <b>online hem offline</b> tüm temas noktalarında <b>tek bir deneyim</b> olarak yaşanır.",
 
       "card2title": "Antalya Merkezli, Turizm ve Hizmet Odaklı Operasyon",
       "card2description": "<b>“Müşteri destek Antalya, Antalya çağrı merkezi, satış sonrası destek Türkiye, Antalya müşteri hizmetleri”</b> aramalarının arkasında; hem <b>bölgeyi</b> hem <b>turisti</b> hem de <b>yerel müşteriyi</b> anlayan bir yapı arayışı vardır. DGTLFACE; <ul><li>Antalya ve çevresindeki otel & hizmet projeleriyle yoğun çalışan, </li><li><b>Sezonluk yoğunluk, kampanya dönemleri ve kriz senaryolarına</b> alışık, </li><li>Hem yerli hem yabancı misafire hitap eden ekipleriyle</li></ul> satış sonrası destek operasyonlarınızı <b>sahaya yakın ama dünya standardında</b> yönetir.",
@@ -5117,7 +5117,7 @@
       "header": "Neden DGTLFACE ile Çağrı Merkezi Performans Analizi?",
 
       "card1title": "Çağrı Merkezi + Turizm + Dijital Analitik Hibrit Yetkinlik",
-      "card1description": "DGTLFACE, kendini sadece <b>“rapor çıkaran”</b> bir yapı olarak konumlandırmaz.<ul><li> Çağrı merkezi operasyonu <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> , <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> , <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> , </li><li>Otel & turizm tecrübesi  <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a>  <a href=\"/tr/pms-ota-yonetimi\">pms-ota-yonetimi</a> </li><li> Veri analizi & dashboard kurulumlarını <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> <a href=\"/tr/raporlama/looker-studio\">looker studio</a> , <a href=\"/tr/raporlama/benchmark-analizi\">benchmark-analizi</a> , <a href=\"/tr/raporlama/satis-donusum\">satis-donusum</a> </li></ul> aynı yapıda buluşturur. Bu da raporları, gerçek hayatta <b>uygulanabilir performans projelerine</b> dönüştürür.",
+      "card1description": "DGTLFACE, kendini sadece <b>“rapor çıkaran”</b> bir yapı olarak konumlandırmaz.<ul><li> Çağrı merkezi operasyonu <a href=\"/tr/cagri-merkezi-hizmetleri\">çağrı merkezi hizmetleri</a> , <a href=\"/tr/cagri-merkezi/4-dilli-cagri-merkezi\">4 dilli çağrı merkezi</a> , <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> , </li><li>Otel & turizm tecrübesi  <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a>  <a href=\"/tr/Services/hotel/otaManagement\">pms-ota-yonetimi</a> </li><li> Veri analizi & dashboard kurulumlarını <a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> <a href=\"/tr/raporlama/looker-studio\">looker studio</a> , <a href=\"/tr/raporlama/benchmark-analizi\">benchmark-analizi</a> , <a href=\"/tr/raporlama/satis-donusum\">satis-donusum</a> </li></ul> aynı yapıda buluşturur. Bu da raporları, gerçek hayatta <b>uygulanabilir performans projelerine</b> dönüştürür.",
 
       "card2title": "Antalya Merkezli, Turizm Çağrı Merkezlerine Odaklı Yapı",
       "card2description": "<b>“Çağrı merkezi raporlama Antalya, Antalya performans analizi, çağrı merkezi KPI Türkiye, Antalya operasyon merkezi”</b> gibi aramaların arkasında; özellikle <b>turizm bölgelerinde hizmet verebilen </b> bir partner ihtiyacı vardır. DGTLFACE;<ul><li> Antalya ve çevresindeki <b>otel & turizm çağrı merkezleriyle yoğun çalışan</b>, </li><li> <b>Sezonluk çağrı dalgaları, kampanya dönemleri ve kriz yönetimi</b> konularına alışık,</li><li> Hem <b>yerel</b> hem <b>uluslararası pazarı</b> aynı tabloda görebilen </li></ul<bir <b>performans partneridir</b>.",
@@ -5225,7 +5225,7 @@
       "header": "Neden DGTLFACE ile PMS Kurulum & Destek?",
 
       "card1title": "Sadece Yazılım Değil, Operasyon + Satış + Dijital Perspektif",
-      "card1description": "DGTLFACE, PMS’i yalnızca bir <b>“program”</b> olarak görmez. Aynı anda;<ul><li> <b>Operasyon</b> (resepsiyon, housekeeping, yönetim), </li><li><b>Satış ve gelir yönetimi</b>, </li><li> <a href=\"/tr/pms-ota-yonetimi\">OTA ve kanal yönetimi </a> , </li><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Çağrı merkezi </a> & <a href=\"/tr/otel/cagri-merkezi\">rezervasyon hattı </a> </li><li>  <a href=\"/tr/otel-dijital-pazarlama\">Dijital pazarlama </a>  <a href=\"/tr/sem\">Sem </a> <a href=\"/tr/seo\">Seo hizmetleri </a> </li></ul> katmanlarıyla entegre bir PMS mimarisi kurarız. Bu sayede PMS’iniz, tüm dijital satış ve operasyonun <b>tek gerçek kaynağı</b> hâline gelir.",
+      "card1description": "DGTLFACE, PMS’i yalnızca bir <b>“program”</b> olarak görmez. Aynı anda;<ul><li> <b>Operasyon</b> (resepsiyon, housekeeping, yönetim), </li><li><b>Satış ve gelir yönetimi</b>, </li><li> <a href=\"/tr/Services/hotel/otaManagement\">OTA ve kanal yönetimi </a> , </li><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Çağrı merkezi </a> & <a href=\"/tr/otel/cagri-merkezi\">rezervasyon hattı </a> </li><li>  <a href=\"/tr/Services/hotel/pmsIntegration\">Dijital pazarlama </a>  <a href=\"/tr/sem\">Sem </a> <a href=\"/tr/seo\">Seo hizmetleri </a> </li></ul> katmanlarıyla entegre bir PMS mimarisi kurarız. Bu sayede PMS’iniz, tüm dijital satış ve operasyonun <b>tek gerçek kaynağı</b> hâline gelir.",
 
       "card2title": "Antalya Merkezli, Elektraweb ve Turizm PMS Deneyimi",
       "card2description": "<b>“PMS kurulumu Antalya, Elektraweb Antalya, PMS eğitimi Türkiye, turizm PMS destek Antalya”</b> gibi aramaların arkasında; hem <b>bölgeyi</b> hem <b>turizmi</b> bilen bir ekip arayışı var. DGTLFACE;<ul><li> Uzun süredir <b>Elektraweb ve diğer PMS sistemleriyle</b> çalışan,</li><li> Antalya ve çevresindeki <b>otel & resort’larda aktif rol almış</b>, </li><li>Hem zincir hem bağımsız otel tiplerinde <b>kurulum ve eğitim</b> deneyimi olan</li></ul> bir yapı sunar. Yani sadece yazılımı değil, <b>otelinizi ve bölgenizi tanıyan</b> bir partner ile PMS kurmuş olursunuz.",
@@ -5330,7 +5330,7 @@
       "header": "Neden DGTLFACE ile OTA Entegrasyonu?",
 
       "card1title": "Turizm + PMS + OTA + Dijital Pazarlama Entegre Yaklaşımı",
-      "card1description": "DGTLFACE, OTA entegrasyonunu tek başına yazılım işi olarak görmez. Aynı anda;<ul><li> <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulumu</a>, </li><li> <a href=\"/tr/pms-ota/kanal-yonetimi\">Kanal yönetimi</a>, </li><li> <a href=\"/tr/pms-ota/online-satis\">Online satış optimizasyonu</a> , </li><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Çağrı merkezi </a> & <a href=\"/tr/otel/ota-yonetimi\"> rezervasyon hattı </a> </li><li> <a href=\"/tr/otel-dijital-pazarlama\"> Dijital pazarlama </a> ve <a href=\"/tr/yazilim/web-sitesi-gelistirme\"> otel web sitesi </a> ile birlikte ele alır. Bu sayede OTA’lar,<b> izole bir kanal</b> değil, tüm <b>dijital satış yapınızın doğal parçası</b> hâline gelir.",
+      "card1description": "DGTLFACE, OTA entegrasyonunu tek başına yazılım işi olarak görmez. Aynı anda;<ul><li> <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulumu</a>, </li><li> <a href=\"/tr/pms-ota/kanal-yonetimi\">Kanal yönetimi</a>, </li><li> <a href=\"/tr/pms-ota/online-satis\">Online satış optimizasyonu</a> , </li><li> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Çağrı merkezi </a> & <a href=\"/tr/otel/ota-yonetimi\"> rezervasyon hattı </a> </li><li> <a href=\"/tr/Services/hotel/pmsIntegration\"> Dijital pazarlama </a> ve <a href=\"/tr/yazilim/web-sitesi-gelistirme\"> otel web sitesi </a> ile birlikte ele alır. Bu sayede OTA’lar,<b> izole bir kanal</b> değil, tüm <b>dijital satış yapınızın doğal parçası</b> hâline gelir.",
 
       "card2title": "Antalya Merkezli, OTA Entegrasyonunda Saha Deneyimi",
       "card2description": "<b>“OTA entegrasyon Antalya, Booking bağlantı Antalya, online satış Türkiye, Expedia entegrasyonu Antalya”</b> gibi aramaların arkasında; Antalya ve çevresindeki <b>turizm dinamiklerini bilen</b> bir ekip ihtiyacı var. DGTLFACE;<ul><li> <b>Antalya, Belek, Kemer, Side, Alanya </b>ve farklı destinasyonlarda çok sayıda otel ile çalışmış, </li><li><b>Sezonluk yoğunluk, pazar bazlı davranışlar ve OTA özelinde pratik tecrübeye</b> sahip, </li><li>Hem <b>resort</b> hem <b>butik</b> hem de <b>villa & şehir oteli</b> segmentlerini iyi tanıyan</li></ul> bir <b>teknoloji partneridir.</b>",
@@ -5443,7 +5443,7 @@
       "header": "Neden DGTLFACE ile Kanal Yönetimi?",
 
       "card1title": "PMS + OTA + Çağrı Merkezi + Dijital Satış Aynı Masada",
-      "card1description": "DGTLFACE, kanal yönetimini;<ul><li> <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulumu ve desteği</a>, </li><li> <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu </a> ,</li><li> <a href=\"/tr/pms-ota/online-satis\">Online satış optimizasyonu </a> , </li><li> <a href=\"/tr/otel/reklam-yonetimi\">Otel reklam  </a> ve <a href=\"/tr/otel-dijital-pazarlama\">dijital pazarlama</a> </li><li> <a href=\"/tr/otel/cagri-merkezi\">Çağrı merkezi</a>   & <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon hattı</a> </li></ul> ile tek ekosistem olarak yönetir. Bu sayede kanal yönetimi; <b>fiyat + envanter + satış + operasyon + reklam</b> tarafında <b>aynı dili</b> konuşur.",
+      "card1description": "DGTLFACE, kanal yönetimini;<ul><li> <a href=\"/tr/pms-ota/pms-kurulum\">PMS kurulumu ve desteği</a>, </li><li> <a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA entegrasyonu </a> ,</li><li> <a href=\"/tr/pms-ota/online-satis\">Online satış optimizasyonu </a> , </li><li> <a href=\"/tr/otel/reklam-yonetimi\">Otel reklam  </a> ve <a href=\"/tr/Services/hotel/pmsIntegration\">dijital pazarlama</a> </li><li> <a href=\"/tr/otel/cagri-merkezi\">Çağrı merkezi</a>   & <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon hattı</a> </li></ul> ile tek ekosistem olarak yönetir. Bu sayede kanal yönetimi; <b>fiyat + envanter + satış + operasyon + reklam</b> tarafında <b>aynı dili</b> konuşur.",
 
       "card2title": "Antalya Merkezli, Kanal Yönetiminde Saha Deneyimi",
       "card2description": "<b>“Kanal yönetimi Antalya, Antalya channel manager, turizm fiyat yönetimi Türkiye, Antalya otel fiyat sistemi”</b> aramalarının arkasında; <b>bölgeyi, sezonları, pazarları ve OTA dinamiklerini</b> bilen bir ekip ihtiyacı var. DGTLFACE; <ul><li> Antalya ve çevresindeki resort, butik otel, şehir oteli ve villa projeleriyle çalışmış,</li><li> Sezonluk dalgalanma, erken rezervasyon ve son dakika davranışlarını bilen, </li><li>Farklı pazarlardaki (DE, RU, UK, TR) satış dinamiklerine hâkim</li></ul> bir yapı sunar. Bu da kanal yönetiminde dokümantasyon + saha zekâsı kombinasyonunu getirir.",
@@ -5516,7 +5516,7 @@
     
       "h2Section": {
       "header1": "OTA + Web Sitesi + Çağrı Merkezi: Tek Satış Hunisi",
-      "text1": "Birçok otelde dijital satış kanalları <b>ayrı ayrı</b> yaşar: OTA ayrı, web ayrı, çağrı merkezi ayrı. Sonuç: <b>potansiyel kayıp</b>.\n\nDGTLFACE, online satış optimizasyonunda;<ul><li> <b>OTA kanallarını</b> (Booking, Expedia, Agoda vb.)<b> görünürlük ve doluluk için güçlü bir vitrin</b> olarak kurgular;</li><li> Web sitenizi <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web-sitesi-gelistirme</a> , <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a> <b>yüksek dönüşüm odaklı, hızlı ve güven veren</b> bir rezervasyon platformuna çevirir; </li><li><b>Çağrı merkezi & rezervasyon hattınızı</b> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon-destegi</a> , <a href=\"/tr/otel/cagri-merkezi\">çağrı merkezi</a> hem <b>destek</b> hem <b>satış kapanış noktası</b> olarak konumlandırır.</li></ul>Tüm bu kanallardan gelen veri, <b>PMS ve raporlama yapısıyla</b> (<a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a> ,<a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> aynı masaya taşınır.</li></ul> <b>“Çağrı merkezi + OTA kombine satış”</b> yapısı ile; misafirin <b>hangi kanaldan geldiği</b> değil, nasıl <b>en iyi deneyimi ve doğru fiyatı aldığı</b> önem kazanır.",
+      "text1": "Birçok otelde dijital satış kanalları <b>ayrı ayrı</b> yaşar: OTA ayrı, web ayrı, çağrı merkezi ayrı. Sonuç: <b>potansiyel kayıp</b>.\n\nDGTLFACE, online satış optimizasyonunda;<ul><li> <b>OTA kanallarını</b> (Booking, Expedia, Agoda vb.)<b> görünürlük ve doluluk için güçlü bir vitrin</b> olarak kurgular;</li><li> Web sitenizi <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web-sitesi-gelistirme</a> , <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a> <b>yüksek dönüşüm odaklı, hızlı ve güven veren</b> bir rezervasyon platformuna çevirir; </li><li><b>Çağrı merkezi & rezervasyon hattınızı</b> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon-destegi</a> , <a href=\"/tr/otel/cagri-merkezi\">çağrı merkezi</a> hem <b>destek</b> hem <b>satış kapanış noktası</b> olarak konumlandırır.</li></ul>Tüm bu kanallardan gelen veri, <b>PMS ve raporlama yapısıyla</b> (<a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a> ,<a href=\"/tr/veri-analiz-ve-raporlama\">veri analiz ve raporlama</a> aynı masaya taşınır.</li></ul> <b>“Çağrı merkezi + OTA kombine satış”</b> yapısı ile; misafirin <b>hangi kanaldan geldiği</b> değil, nasıl <b>en iyi deneyimi ve doğru fiyatı aldığı</b> önem kazanır.",
 
       "header2": "Fiyat Stratejisi ve Gelir Yönetimi (Revenue Management)",
       "text2": "Online satış optimizasyonunun kalbi, <b>iyi kurgulanmış bir fiyat stratejisi</b> oluşturmaktır. DGTLFACE, <b>gelir yönetimi</b> tarafında:<ul><li> <b>Sezon, dönem, pazar ve segment bazlı</b> fiyat katmanları belirler, </li><li><b>Minimum geceleme, iptal koşulları, erken rezervasyon ve son dakika</b> kampanyalarının kurgusunu yapar, </li><li><b>OTA, web ve çağrı merkezi</b> arasında dengeli fiyat & kampanya stratejisi kurar, </li><li><b>Oda başı gelir artırma (RevPAR)</b> odaklı test ve optimizasyon döngüleri uygular, </li><li>Fiyat kararlarını, <b>doluluk, talep, benchmark, rekabet</b> verilerine dayalı biçimde almanıza yardımcı olur. </li></ul><b>“Turizm satış stratejileri, turizm satış Türkiye, otel gelir yönetimi Antalya, butik otel gelir yönetimi, resort satış optimizasyonu, PMS gelir yönetimi”</b> gibi alanlarda; PMS ve kanal yönetimi altyapısıyla entegre bir <b>revenue management</b> bakışı sunuyoruz.",
@@ -5552,7 +5552,7 @@
       "header": "Neden DGTLFACE ile Online Satış Optimizasyonu?",
 
       "card1title": "PMS + OTA + Web + Çağrı Merkezi + Reklam Entegre Mimari",
-      "card1description": "DGTLFACE, online satış optimizasyonunu;<ul><li> <b>PMS ve OTA yapınız</b> (<a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/pms-kurulum\">pms kurulum</a> , <a href=\"/tr/pms-ota/ota-entegrasyonu\"ota entegrasyonu</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\"kanal yönetimi</a> ), </li><li><b>Web sitesi ve rezervasyon motorunuz</b> (<a href=\"/tr/yazilim/web-sitesi-gelistirme\"web sitesi geliştirme</a> , <a href=\"/tr/otel-dijital-pazarlama\"otel dijital pazarlama</a> ), </li><li><b>Çağrı merkezi ve rezervasyon hattınız </b>( <a href=\"/tr/cagri-merkezi-hizmetleri\"cağrı merkezi hizmetleri</a>, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\"rezervasyon desteği</a> , <a href=\"/tr/otel/cagri-merkezi\"cağrı merkezi</a> ), </li><li><b>SEO + SEM + SMM katmanınız</b> (<a href=\"/tr/seo\"seo</a> , <a href=\"/tr/sem\"sem</a> , <a href=\"/tr/smm\"smm</a>) </li><li> <b>Veri & raporlama yapınız</b> (<a href=\"/tr/veri-analiz-ve-raporlama\"veri analiz ve raporlama</a> , <a href=\"/tr/raporlama/satis-donusum\"satış dönüşüm</a> , <a href=\"/tr/raporlama/benchmark-analizi\"benchmark-analizi</a> )</li></ul> ile birlikte ele alır. Böylece online satış optimizasyonu, sadece <b>“kanal ayarı”</b> değil, <b>uçtan uca dijital satış mimarisi</b> hâline gelir.",
+      "card1description": "DGTLFACE, online satış optimizasyonunu;<ul><li> <b>PMS ve OTA yapınız</b> (<a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/pms-kurulum\">pms kurulum</a> , <a href=\"/tr/pms-ota/ota-entegrasyonu\"ota entegrasyonu</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\"kanal yönetimi</a> ), </li><li><b>Web sitesi ve rezervasyon motorunuz</b> <a href=\"/tr/yazilim/web-sitesi-gelistirme\"web sitesi geliştirme</a> , <a href=\"/tr/Services/hotel/pmsIntegration\"otel dijital pazarlama</a>, </li><li><b>Çağrı merkezi ve rezervasyon hattınız </b><a href=\"/tr/cagri-merkezi-hizmetleri\"cağrı merkezi hizmetleri</a>, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\"rezervasyon desteği</a> , <a href=\"/tr/otel/cagri-merkezi\"cağrı merkezi</a> ), </li><li><b>SEO + SEM + SMM katmanınız</b> (<a href=\"/tr/seo\"seo</a> , <a href=\"/tr/sem\"sem</a> , <a href=\"/tr/smm\"smm</a>) </li><li> <b>Veri & raporlama yapınız</b> (<a href=\"/tr/veri-analiz-ve-raporlama\"veri analiz ve raporlama</a> , <a href=\"/tr/raporlama/satis-donusum\"satış dönüşüm</a> , <a href=\"/tr/raporlama/benchmark-analizi\"benchmark-analizi</a> )</li></ul> ile birlikte ele alır. Böylece online satış optimizasyonu, sadece <b>“kanal ayarı”</b> değil, <b>uçtan uca dijital satış mimarisi</b> hâline gelir.",
 
       "card2title": "Antalya Merkezli, Turizm Satışında Saha Tecrübesi",
       "card2description": "<b>“Satış optimizasyon Antalya, turizm satış Türkiye, otel gelir yönetimi Antalya, Antalya online satış”</b> gibi aramaların arkasında; <b>bölgeyi, pazarı ve sezonları bilen</b> bir ekip ihtiyacı vardır. DGTLFACE; <ul><li><b>Antalya, Belek, Kemer, Side, Alanya</b> ve diğer destinasyonlardaki çok sayıda otel ve turizm projesiyle çalışmış,</li><li> Farklı pazarların <b>(DE, RU, UK, TR)</b> rezervasyon ve fiyat hassasiyetlerini bilen, </li><li><b>Sezonluk davranışları ve rekabeti sahadan gözlemlemiş</b> bir ekip olarak çalışır. </li></ul>Böylece satış optimizasyonu kararları teoride değil, <b>sahadaki gerçeklerle uyumlu</b> olmasını sağlar.",
@@ -5636,14 +5636,14 @@
       "header4": "Yabancı Misafir Rezervasyon Yönetimi",
       "text4": "<b>“Yabancı misafir rezervasyon yönetimi, turizm rezervasyon sistemi”</b> otel dünyasının değişmeyen gündemlerinden.\n\nDGTLFACE, TR – EN – DE – RU odaklı çok dilli yapıda;<ul><li> OTA’dan gelen rezervasyonların dil bazlı takibini yapar, </li><li>Çok dilli çağrı merkezi (/tr/cagri-merkezi/4-dilli-cagri-merkezi) ile yabancı misafirlerin telefon ve mesaj süreçlerini yönetir; </li><li>E-posta ve WhatsApp üzerinden gelen soruları anadile yakın akıcılıkta cevaplar.</li><li> Rezervasyon teyit, bilgi maili ve pre-stay hatırlatma mesajlarını dil bazlı standartlara oturtur. </li></ul>Böylece <b>“turizm rezervasyon sistemi”</b>ni yalnızca teknik değil, <b>dil ve kültür odaklı</b> bir hâle getirir.",
        "header5": "Otel İçin Rezervasyon Yönetimi ve PMS Entegrasyonu",
-      "text5": "<b>PMS rezervasyon modülü</b>, tüm rezervasyon yönetimi sürecinin merkezi.\n\nDGTLFACE; <ul><li>Rezervasyon kayıtlarının <b>PMS üzerinden standardize</b> edilmesini, </li><li>OTA, web, çağrı merkezi ve acente rezervasyonlarının PMS’e eksiksiz düşmesini </li><li> PMS–OTA–çağrı merkezi üçgeninde veri akışının sorunsuz işlemesini sağlar.</li></ul> Rezervasyon yönetimi;\n\n <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/pms-kurulum\">pms kurulum</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a>   ve <a href=\"/tr/pms-ota/online-satis\"> online-satış</a>  ile <b>aynı yapı içinde</b> değerlendirilir."
+      "text5": "<b>PMS rezervasyon modülü</b>, tüm rezervasyon yönetimi sürecinin merkezi.\n\nDGTLFACE; <ul><li>Rezervasyon kayıtlarının <b>PMS üzerinden standardize</b> edilmesini, </li><li>OTA, web, çağrı merkezi ve acente rezervasyonlarının PMS’e eksiksiz düşmesini </li><li> PMS–OTA–çağrı merkezi üçgeninde veri akışının sorunsuz işlemesini sağlar.</li></ul> Rezervasyon yönetimi;\n\n <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/pms-kurulum\">pms kurulum</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a>   ve <a href=\"/tr/pms-ota/online-satis\"> online-satış</a>  ile <b>aynı yapı içinde</b> değerlendirilir."
     },
 
     "h3Section": {
       "header":"DGTLFACE Rezervasyon Yönetimi Hizmet Detayları",
       
       "header1": "Rezervasyon Sistemi Neleri Kapsar?",
-      "text1": "<ul><li>PMS üzerindeki <b>PMS rezervasyon modülü</b>, </li><li><b>OTA ve kanal yöneticisi entegrasyonları</b> <a href=\"/tr/pms-ota/ota-entegrasyonu\">ota entegrasyonu</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal-yonetimi</a> ,</li><li> <b>Web sitesi rezervasyon motoru</b>  <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web-sitesi-gelistirme</a> , <a href=\"/tr/otel-dijital-pazarlama\">otel-dijital-pazarlama</a> , </li><li> <b>Çağrı merkezi & telefon rezervasyon hattı</b> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> , <a href=\"/tr/otel/cagri-merkezi \">cağrı merkezi </a> , </li><li> <b>WhatsApp, sosyal medya ve form</b> üzerinden gelen rezervasyon talepleri.</li></ul> Bu yapıdaki <b>her hareket</b>, tek bir <b>rezervasyon yönetim sistemi</b> üzerinden takip edilmelidir.",
+      "text1": "<ul><li>PMS üzerindeki <b>PMS rezervasyon modülü</b>, </li><li><b>OTA ve kanal yöneticisi entegrasyonları</b> <a href=\"/tr/pms-ota/ota-entegrasyonu\">ota entegrasyonu</a> , <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal-yonetimi</a> ,</li><li> <b>Web sitesi rezervasyon motoru</b>  <a href=\"/tr/yazilim/web-sitesi-gelistirme\">web-sitesi-gelistirme</a> , <a href=\"/tr/Services/hotel/pmsIntegration\">otel-dijital-pazarlama</a> , </li><li> <b>Çağrı merkezi & telefon rezervasyon hattı</b> <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon desteği</a> , <a href=\"/tr/otel/cagri-merkezi \">cağrı merkezi </a> , </li><li> <b>WhatsApp, sosyal medya ve form</b> üzerinden gelen rezervasyon talepleri.</li></ul> Bu yapıdaki <b>her hareket</b>, tek bir <b>rezervasyon yönetim sistemi</b> üzerinden takip edilmelidir.",
 
        "header2": "Otel Kayıt Sistemi ve Veri Bütünlüğü",
       "text2": "<b>“Otel kayıt sistemi”</b> rezervasyon tarafında:<ul><li> Misafir bilgileri: isim, iletişim, ülke, çocuk/adult bilgisi,</li><li> Konaklama detayları: tarih, oda tipi, konsept, kişi sayısı, </li><li>Ödeme ve garanti durumu: ön ödeme, kart bilgisi, acente garantisi,</li><li> <b>Özel notlar:</b> alerji, özel istekler, kutlama vb. </li></ul>gibi alanların <b>doğru ve eksiksiz</b> tutulmasını gerektirir. DGTLFACE, bu verilerin PMS ve rezervasyon modülü üzerinde <b>düzenli, okunabilir ve raporlanabilir</b> olmasını sağlar.",
@@ -5669,7 +5669,7 @@
       "header": "Neden DGTLFACE ile Rezervasyon Yönetimi?",
 
       "card1title": "PMS + OTA + Çağrı Merkezi + Dijital Pazarlama Entegre Bakış",
-      "card1description": "DGTLFACE, rezervasyon yönetimini;<ul><li> PMS & OTA entegrasyonları <a href=\"/tr/pms-ota-yonetimi\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/ota-entegrasyonu\">ota entegrasyonu</a> , </li><li>Kanal yönetimi <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a> , </li><li>online satış optimizasyonu <a href=\"/tr/pms-ota/online-satis\">online satış</a> , </li><li>Çağrı merkezi & rezervasyon hattı <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon-destegi</a> , <a href=\"/tr/otel/cagri-merkezi\">cağrı merkezi</a> </li><li> Otel dijital pazarlama <a href=\"/tr/otel-dijital-pazarlama\">otel dijital pazarlama</a>  <a href=\"/tr/sem\">sem</a> , <a href=\" /tr/seo-hizmetleri\">seo-hizmetleri</a> </li></ul> ile birlikte düşünür.\n\nBöylece <b>rezervasyon yönetimi</b>; tek departmanın işi değil, tüm <b>dijital ve operasyonel mimarinin merkezinde</b> konumlanan bir iş hâline gelir.",
+      "card1description": "DGTLFACE, rezervasyon yönetimini;<ul><li> PMS & OTA entegrasyonları <a href=\"/tr/Services/hotel/otaManagement\">pms ota yönetimi</a> , <a href=\"/tr/pms-ota/ota-entegrasyonu\">ota entegrasyonu</a> , </li><li>Kanal yönetimi <a href=\"/tr/pms-ota/kanal-yonetimi\">kanal yönetimi</a> , </li><li>online satış optimizasyonu <a href=\"/tr/pms-ota/online-satis\">online satış</a> , </li><li>Çağrı merkezi & rezervasyon hattı <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">rezervasyon-destegi</a> , <a href=\"/tr/otel/cagri-merkezi\">cağrı merkezi</a> </li><li> Otel dijital pazarlama <a href=\"/tr/Services/hotel/pmsIntegration\">otel dijital pazarlama</a>  <a href=\"/tr/sem\">sem</a> , <a href=\" /tr/seo-hizmetleri\">seo-hizmetleri</a> </li></ul> ile birlikte düşünür.\n\nBöylece <b>rezervasyon yönetimi</b>; tek departmanın işi değil, tüm <b>dijital ve operasyonel mimarinin merkezinde</b> konumlanan bir iş hâline gelir.",
 
       "card2title": "Antalya Merkezli, Saha Deneyimi Yüksek Rezervasyon Uzmanlığı",
       "card2description": "<b>“Rezervasyon yönetimi Antalya, Antalya otel rezervasyon, rezervasyon destek Türkiye, Antalya misafir iletişimi”</b> aramalarının arkasında; bölgedeki <b>turizm dinamiklerini</b> bilen bir ekip ihtiyacı var.\n\nDGTLFACE;<ul><li> <b>Antalya, Belek, Kemer, Side, Alanya</b> gibi destinasyonlarda çok sayıda otel projesiyle çalışmış;</li><li> Farklı pazarların <b>(DE, RU, UK, TR)</b> rezervasyon davranışlarını sahada gözlemlemiş;</li><li> Sezon, bayram, festival, kongre gibi dönemlerde rezervasyon akışını <b>yönetmeye alışkın</b> bir ekibe sahiptir.</li></ul> Bu da rezervasyon yönetimi kararlarının <b>gerçek hayata uyumlu</b> olmasını sağlar.",
@@ -5983,7 +5983,7 @@
       "header": "Neden DGTLFACE ile Satış & Dönüşüm Raporlama?",
 
       "card1title": "Dijital Pazarlama + PMS & OTA + Çağrı Merkezi Hibrit Zekâ",
-      "card1description": "DGTLFACE, <b>satış & dönüşüm raporlamasını</b>;<ul><li>Dijital pazarlama <b>(SEO, SEM, SMM)</b>,</li><li><b><a href=\"/tr/pms-ota-yonetimi\">PMS & OTA yönetimi</a></b>  ,</li><li><b> <a href=\"/tr/otel-dijital-pazarlama\">Otel dijital pazarlama</a></b> ,</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi </a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\"> mesaj yönetimi</a>, ,</li><li> <a href=\"/tr/raporlama\"> Raporlama</a>  & <a href=\"/tr/raporlama/looker-studio\"> veri analizi</a> \n , <a href=\"/tr/raporlama/looker-studio\"> looker studio</a> </li></ul>ile <b>hibrit bir bakış açısıyla</b> ele alır.\n\nBu da <b>“kaç tıklama aldık?”</b> seviyesinden çıkıp,\n\n<b>“Hangi kanal bize ne kadar gerçek gelir getirdi?”</b>\n\nsorusuna cevap veren paneller oluşturur.",
+      "card1description": "DGTLFACE, <b>satış & dönüşüm raporlamasını</b>;<ul><li>Dijital pazarlama <b>(SEO, SEM, SMM)</b>,</li><li><b><a href=\"/tr/Services/hotel/otaManagement\">PMS & OTA yönetimi</a></b>  ,</li><li><b> <a href=\"/tr/Services/hotel/pmsIntegration\">Otel dijital pazarlama</a></b> ,</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi </a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\"> mesaj yönetimi</a>, ,</li><li> <a href=\"/tr/raporlama\"> Raporlama</a>  & <a href=\"/tr/raporlama/looker-studio\"> veri analizi</a> \n , <a href=\"/tr/raporlama/looker-studio\"> looker studio</a> </li></ul>ile <b>hibrit bir bakış açısıyla</b> ele alır.\n\nBu da <b>“kaç tıklama aldık?”</b> seviyesinden çıkıp,\n\n<b>“Hangi kanal bize ne kadar gerçek gelir getirdi?”</b>\n\nsorusuna cevap veren paneller oluşturur.",
 
       "card2title": "Antalya Merkezli, Turizm Satış & Dönüşüm Tecrübesi",
       "card2description": "<b>“Satış raporlama Antalya, Antalya dönüşüm analizi, satış performans Türkiye, Antalya gelir analiz hizmeti”</b> gibi aramaların arkasında; <b>turizm bölgesinde sahada çalışmış ekip</b> beklentisi var.\n\nDGTLFACE:<ul><li>Antalya, Belek, Kemer, Side, Alanya ve diğer turizm destinasyonlarında çok sayıda <b>otel & turizm projesinde görev almış</b>,</li><li>Farklı pazarlara <b>(DE, RU, UK, TR)</b> satış yapan otellerin <b>satış ve dönüşüm dinamiklerini</b> bilen,</li><li>Hem bağımsız oteller hem zincir otellerle çalışmış bir ekibe sahiptir. </li></ul>Bu sayede raporlar, sadece <b>“teknik veri”</b> değil, <b>turizm diliyle anlamlı içgörüler</b> üretir.",
@@ -6092,7 +6092,7 @@
       "header": "Neden DGTLFACE ile KVKK & Veri Güvenliği Raporlama?",
 
       "card1title": "KVKK + Yazılım + Altyapı + Operasyon Hibrit Bakış",
-      "card1description": "DGTLFACE, KVKK & veri güvenliğini sadece hukuk değil;<ul><li><a href=\"/tr/yazilim\">Yazılım ve web altyapısı</a> ,</li><li <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu yazılım mimarisi</a> >\n,</li><li> <a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu ve network güvenliği</a> ,</li><li>PMS & OTA & rezervasyon yapısı (/tr/pms-ota-yonetimi),</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi</a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> \n,</li><li><a href=\"/tr/raporlama\">Raporlama & veri analizi</a> </li></ul>katmanlarıyla birlikte ele alır.\n\nBu hibrit bakış, KVKK’yı <b>“ayrı bir proje”</b> değil, <b>tüm dijital yapının doğal parçası</b> hâline getirir.",
+      "card1description": "DGTLFACE, KVKK & veri güvenliğini sadece hukuk değil;<ul><li><a href=\"/tr/yazilim\">Yazılım ve web altyapısı</a> ,</li><li <a href=\"/tr/yazilim/kvkk-uyum-hizmeti\">KVKK uyumlu yazılım mimarisi</a> >\n,</li><li> <a href=\"/tr/yazilim/sunucu-guvenlik\">Sunucu ve network güvenliği</a> ,</li><li>PMS & OTA & rezervasyon yapısı (/tr/Services/hotel/otaManagement),</li><li> <a href=\"/tr/cagri-merkezi-hizmetleri\">Çağrı merkezi</a> ve <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">mesaj yönetimi</a> \n,</li><li><a href=\"/tr/raporlama\">Raporlama & veri analizi</a> </li></ul>katmanlarıyla birlikte ele alır.\n\nBu hibrit bakış, KVKK’yı <b>“ayrı bir proje”</b> değil, <b>tüm dijital yapının doğal parçası</b> hâline getirir.",
 
       "card2title": "Antalya Merkezli, Turizm ve Veri Güvenliği Odaklı Yapı",
       "card2description": "<b>“KVKK antalya, veri güvenliği türkiye, antalya data privacy, kvkk raporlama antalya”</b> gibi aramaların arkasında; turizm şehirlerinde hem veri yoğunluğunu hem operasyonu bilen partner ihtiyacı var.\n\nDGTLFACE:<ul><li>Antalya ve turizm bölgelerinde aktif <b>otel, resort ve turizm projeleriyle çalışan</b>,</li><li><b>Rezervasyon veri güvenliği, OTA ve PMS veri akışı, çağrı merkezi kayıtları</b> gibi alanlarda pratik deneyime sahip,</li><li><b>Saha gerçekleriyle KVKK gerekliliklerini birleştirebilen</b></li></ul>bir <b>teknoloji & raporlama</b> partneri olarak çalışır.",
@@ -6165,7 +6165,7 @@
     
       "h2Section": {
       "header1": "Otel SEO Stratejisinin Temel Bileşenleri",
-      "text1":  "Otel SEO’yu 3 ana başlıkta ele alıyoruz:\n<ul><li><b>Teknik SEO</b> – Site altyapısı, hız, mobil uyumluluk, taranabilirlik, schema</li><li><b>İçerik & Niyet Odaklı SEO</b> – Sayfa yapıları, blog, destinasyon içerikleri, görsel optimizasyon</li><li><b>Yerel & Çok Dilli SEO</b> – Google Maps/Travel, lokal aramalar, çok dilli yapı, pazar bazlı içerik</li></ul>\n\nDGTLFACE, bu 3 katmanı:\n<ul><li><a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a></li><li><a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a></li><li><a href=\"/tr/seo/yerel-seo\">/tr/seo/yerel-seo</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a></li></ul>\n\nile entegre şekilde yönetir.",
+      "text1":  "Otel SEO’yu 3 ana başlıkta ele alıyoruz:\n<ul><li><b>Teknik SEO</b> – Site altyapısı, hız, mobil uyumluluk, taranabilirlik, schema</li><li><b>İçerik & Niyet Odaklı SEO</b> – Sayfa yapıları, blog, destinasyon içerikleri, görsel optimizasyon</li><li><b>Yerel & Çok Dilli SEO</b> – Google Maps/Travel, lokal aramalar, çok dilli yapı, pazar bazlı içerik</li></ul>\n\nDGTLFACE, bu 3 katmanı:\n<ul><li><a href=\"/tr/seo/teknik-seo\">/tr/seo/teknik-seo</a></li><li><a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a></li><li><a href=\"/tr/seo/yerel-seo\">/tr/seo/yerel-seo</a></li><li><a href=\"/tr/Services/hotel/pmsIntegration\">/tr/Services/hotel/pmsIntegration</a></li></ul>\n\nile entegre şekilde yönetir.",
 
       "header2": "Anahtar Kelime Stratejisi – Turizm Sektörüne Özel Otel SEO",
       "text2": "“Otel SEO anahtar kelime analizi”, turizmde farklı çalışır; çünkü aramaların arkasında tatil niyeti vardır.\n\nDGTLFACE, oteliniz için anahtar kelime stratejisi oluştururken:",
@@ -6224,7 +6224,7 @@
       "card1description": "“Resort dijital pazarlama, otel SEO Antalya, Belek otel SEO, Kemer otel SEO, Side resort SEO” gibi aramaların arkasında; turizmi, sezonu, pazarı ve misafiri bilen bir ekip beklentisi var.<br/><br/>DGTLFACE:<br/><ul><li>Antalya ve çevresinde çok sayıda otel & resort projesiyle çalışan,</li><li>Farklı pazarların arama davranışlarını (DE, RU, UK, TR) bilen,</li><li>Saha deneyimini SEO stratejisine taşıyan</li></ul>bir turizm odaklı teknoloji partneridir.",
 
       "card2title": "SEO + PMS & OTA + Çağrı Merkezi + Reklam Entegre Yaklaşım",
-      "card2description": "Otel SEO’yu tek başına düşünmüyoruz. DGTLFACE, SEO’yu:\n<ul><li>PMS & OTA (<a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a>\n, <a href=\"/tr/otel/ota-yonetimi\">/tr/otel/ota-yonetimi</a>\n),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>\n),</li><li>Otel reklam yönetimi (<a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>\n, <a href=\"/tr/sem\">/tr/sem</a>\n),</li><li>Sosyal medya ve içerik (<a href=\"/tr/otel/sosyal-medya\">/tr/otel/sosyal-medya</a>\n, <a href=\"/tr/smm\">/tr/smm</a>\n),</li><li>Çağrı merkezi & rezervasyon (<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>\n, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>\n),</li><li>Raporlama (<a href=\"/tr/raporlama/seo-raporlama\">/tr/raporlama/seo-raporlama</a>\n, <a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>\n)</li></ul>\n\nile aynı masaya oturtarak kurgular.\n\nBu sayede Otel SEO: sadece trafik değil, rezervasyon ve gelir üretir.",
+      "card2description": "Otel SEO’yu tek başına düşünmüyoruz. DGTLFACE, SEO’yu:\n<ul><li>PMS & OTA (<a href=\"/tr/Services/hotel/otaManagement\">/tr/Services/hotel/otaManagement</a>\n, <a href=\"/tr/otel/ota-yonetimi\">/tr/otel/ota-yonetimi</a>\n),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>\n),</li><li>Otel reklam yönetimi (<a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>\n, <a href=\"/tr/sem\">/tr/sem</a>\n),</li><li>Sosyal medya ve içerik (<a href=\"/tr/otel/sosyal-medya\">/tr/otel/sosyal-medya</a>\n, <a href=\"/tr/smm\">/tr/smm</a>\n),</li><li>Çağrı merkezi & rezervasyon (<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>\n, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>\n),</li><li>Raporlama (<a href=\"/tr/raporlama/seo-raporlama\">/tr/raporlama/seo-raporlama</a>\n, <a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>\n)</li></ul>\n\nile aynı masaya oturtarak kurgular.\n\nBu sayede Otel SEO: sadece trafik değil, rezervasyon ve gelir üretir.",
 
       "card3title": "Ölçülebilir, Şeffaf ve Uzun Vadeli SEO Stratejisi",
       "card3description": "DGTLFACE, otel SEO çalışmalarını:<br/><ul><li>Net KPI’larla (organik trafik, sıralama, rezervasyon & gelir etkisi),</li><li>Looker Studio panelleri ile (<a href=\"/tr/raporlama/looker-studio\">/tr/raporlama/looker-studio</a>),</li><li>Aylık rapor ve aksiyon planlarıyla</li></ul>yönetir.<br/><br/>“Otel SEO nasıl gidiyor?” sorusunun cevabı;<br/><ul><li>Sıralama grafikleri,</li><li>Organik trafik verileri,</li><li>Organik kanal üzerinden gelen rezervasyon & gelir tablolarıyla net biçimde görülür.</li></ul>"
@@ -6301,7 +6301,7 @@
       "text2": "Otel sosyal medya yönetimi için içerik üretimi, klasik “post + caption” modelinin çok ötesinde.\n\nDGTLFACE, <b>hotel content production</b> tarafında:\n\n<ul><li><b>Profesyonel otel fotoğraf çekimi</b><br/>(oda, genel alan, lobi, restoran, bar, spa, aquapark, etkinlik, detay çekimleri),</li><li><b>Resort için video çekimi</b><br/>(günlük akış, aktiviteler, havuz, sahne, eğlence, kids club),</li><li>Reels & kısa video formatına uygun dikey video içerikler,</li><li>Misafir deneyimini yansıtan insan odaklı kareler<br/>(mutfak ekibi, barista, şef, animasyon ekibi vb.),</li><li><b>UGC (User Generated Content)</b> ve misafir story/paylaşım entegrasyonu</li></ul>\n\nile resort social media tarafında sürdürülebilir bir içerik havuzu kurar.\n\nBu üretim süreci; hem sosyal medya hem web hem de OTA tarafında kullanılabilecek <b>multi-platform görsel arşiv</b> anlamına gelir.",
 
       "header3": "Rezervasyon & Gelir Odaklı Sosyal Medya Kurgusu",
-      "text3": "Sadece etkileşim değil, rezervasyon da görmek istiyoruz.\n\nDGTLFACE, <b>sosyal medya ile rezervasyon artırma</b> ve gelir odaklı kurgu tarafında:\n\n<ul><li>Sosyal medya → web → rezervasyon motoru hunisini kurar\n( [<a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>], [<a href=\"/tr/sem\">/tr/sem</a>], [<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>] ile entegre),</li><li>Kampanya ve dönemsel satış kurgularını sosyal medya içerik ve reklamlarıyla besler,</li><li>Sosyal medyada gösterilen oda, paket, konsept içeriklerini<br/><b>doğrudan rezervasyon linki</b> veya <b>çağrı merkezi</b><br/>([<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>], [<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>]) ile bağlar,</li><li>Misafirin DM ve WhatsApp üzerinden sorduğu soruları satış fırsatına çeviren script’ler hazırlar.</li></ul>\n\nÖzellikle all inclusive oteller için sosyal medya tarafında:\n\n<ul><li>Aile konsepti, çocuk alanları, aquapark, eğlence ve gastronomi deneyimini ön plana çıkarıyoruz,</li><li>“Bu otelde tatil yaparsam nasıl hissederim?” sorusuna içeriklerle cevap veriyoruz.</li></ul>"
+      "text3": "Sadece etkileşim değil, rezervasyon da görmek istiyoruz.\n\nDGTLFACE, <b>sosyal medya ile rezervasyon artırma</b> ve gelir odaklı kurgu tarafında:\n\n<ul><li>Sosyal medya → web → rezervasyon motoru hunisini kurar\n <a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>, <a href=\"/tr/sem\">/tr/sem</a>, <a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a> ile entegre,</li><li>Kampanya ve dönemsel satış kurgularını sosyal medya içerik ve reklamlarıyla besler,</li><li>Sosyal medyada gösterilen oda, paket, konsept içeriklerini<br/><b>doğrudan rezervasyon linki</b> veya <b>çağrı merkezi</b><br/>([<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>], [<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>]) ile bağlar,</li><li>Misafirin DM ve WhatsApp üzerinden sorduğu soruları satış fırsatına çeviren script’ler hazırlar.</li></ul>\n\nÖzellikle all inclusive oteller için sosyal medya tarafında:\n\n<ul><li>Aile konsepti, çocuk alanları, aquapark, eğlence ve gastronomi deneyimini ön plana çıkarıyoruz,</li><li>“Bu otelde tatil yaparsam nasıl hissederim?” sorusuna içeriklerle cevap veriyoruz.</li></ul>"
 
 
     },
@@ -6338,7 +6338,7 @@
       "card1description": "“Antalya resort sosyal medya, belek hotel Instagram, kemer otel sosyal medya, alanya hotel Reels” gibi aramaların arkasında; hem bölgeyi hem turisti hem dijital dünyayı bilen ekip ihtiyacı var.\n\nDGTLFACE:\n\n<ul><li>Antalya ve çevresindeki resort, city ve butik otellerle yıllardır çalışan,</li><li>Farklı pazarların (DE, RU, UK, TR) sosyal medya davranışlarını bilen,</li><li>Sezonluk yoğunluk, kampanya ve kriz dönemlerinde aktif rol almış</li></ul>\n\nbir otel sosyal medya partneridir.",
 
       "card2title": "SEO, SEM, SMM, OTA ve PMS ile Entegre Sosyal Medya",
-      "card2description": "Otel sosyalmedyasını:\n\n<ul><li>Otel SEO ([<a href=\"/tr/otel/seo\">/tr/otel/seo</a>], [<a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a>]),</li><li>Google & sosyal medya reklamları ([<a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>], [<a href=\"/tr/sem\">/tr/sem</a>], [<a href=\"/tr/smm/sosyal-medya-reklamlari\">/tr/smm/sosyal-medya-reklamlari</a>]),</li><li>PMS & OTA yapısı ([<a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a>], [<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>]),</li><li>Çağrı merkezi ve mesaj yönetimi ([<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>], [<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>]),</li><li>Raporlama & satış–dönüşüm ([<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>], [<a href=\"/tr/smm/analiz-raporlama\">/tr/smm/analiz-raporlama</a>])</li></ul>\n\nile aynı masaya koyuyoruz.\n\nBöylece sosyal medya:\n\n<ul><li>Algı yaratıyor,</li><li>Trafik getiriyor,</li><li>Rezervasyona ve gelire bağlanıyor.</li></ul>",
+      "card2description": "Otel sosyalmedyasını:\n\n<ul><li>Otel SEO ([<a href=\"/tr/otel/seo\">/tr/otel/seo</a>], [<a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a>]),</li><li>Google & sosyal medya reklamları ([<a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>], [<a href=\"/tr/sem\">/tr/sem</a>], [<a href=\"/tr/smm/sosyal-medya-reklamlari\">/tr/smm/sosyal-medya-reklamlari</a>]),</li><li>PMS & OTA yapısı ([<a href=\"/tr/Services/hotel/otaManagement\">/tr/Services/hotel/otaManagement</a>], [<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>]),</li><li>Çağrı merkezi ve mesaj yönetimi ([<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>], [<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>]),</li><li>Raporlama & satış–dönüşüm ([<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>], [<a href=\"/tr/smm/analiz-raporlama\">/tr/smm/analiz-raporlama</a>])</li></ul>\n\nile aynı masaya koyuyoruz.\n\nBöylece sosyal medya:\n\n<ul><li>Algı yaratıyor,</li><li>Trafik getiriyor,</li><li>Rezervasyona ve gelire bağlanıyor.</li></ul>",
 
       "card3title": "Raporlama ve Ölçülebilirlik",
       "card3description": "DGTLFACE, otel sosyal medya yönetiminde:\n\n<ul><li>Aylık sosyal medya analiz & raporlama panelleri<br/>(erişim, etkileşim, Reels performansı, rezervasyon etkisi),</li><li>İçerik türü bazlı analiz<br/>(hangi format ne sonuç veriyor?),</li><li>Pazar / ülke bazlı sonuç kırılımları,</li><li>“En iyi / en zayıf performanslı içerikler” listeleri</li></ul>\n\nsunarak; sosyal medyayı “gösteriş alanı” değil, geliştirilebilir performans alanı hâline getirir."
@@ -6458,7 +6458,7 @@
       "card1description": "“Antalya otel reklamcılığı, Belek Ads kampanyaları, Side resort ads, Alanya turizm reklamları” aramalarının arkasında; turizmi, sezonsal akışı ve pazar dinamiklerini bilen bir ekip beklentisi var.\n\nDGTLFACE:\n\nAntalya, Belek, Kemer, Side, Alanya ve diğer turizm bölgelerinde çok sayıda otel ile çalışan,\n\nAlmanya, Rusya, İngiltere ve iç pazarda otel reklam dinamiklerini deneyimlemiş,\n\nHem resort hem city hem butik otel segmentlerinde performans tecrübesi olan\n\nbir performans ajansıdır.",
 
       "card2title": "Sadece Reklam Değil: PMS + OTA + Web + Call Center Entegrasyonu",
-      "card2description": "Otel reklamlarını:\n\n<ul>\n<li>PMS & OTA altyapısıyla (<a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a>, <a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>, <a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li>\n<li>Web & rezervasyon motoru (<a href=\"/tr/yazilim/web-sitesi-gelistirme\">/tr/yazilim/web-sitesi-gelistirme</a>, <a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a>),</li>\n<li>Çağrı merkezi & mesaj yönetimi (<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>, <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>),</li>\n<li>SEO & içerik (<a href=\"/tr/otel/seo\">/tr/otel/seo</a>, <a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a>),</li>\n<li>Raporlama (<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>)</li>\n</ul>\n\nile aynı çerçevede ele alıyoruz.\n\nSonuç: Reklamdan gelen trafik, sistemin her noktasında ölçülebilir ve yönetilebilir hâle geliyor.",
+      "card2description": "Otel reklamlarını:\n\n<ul>\n<li>PMS & OTA altyapısıyla (<a href=\"/tr/Services/hotel/otaManagement\">/tr/Services/hotel/otaManagement</a>, <a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>, <a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li>\n<li>Web & rezervasyon motoru (<a href=\"/tr/yazilim/web-sitesi-gelistirme\">/tr/yazilim/web-sitesi-gelistirme</a>, <a href=\"/tr/Services/hotel/pmsIntegration\">/tr/Services/hotel/pmsIntegration</a>),</li>\n<li>Çağrı merkezi & mesaj yönetimi (<a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>, <a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>),</li>\n<li>SEO & içerik (<a href=\"/tr/otel/seo\">/tr/otel/seo</a>, <a href=\"/tr/seo/icerik-seo\">/tr/seo/icerik-seo</a>),</li>\n<li>Raporlama (<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>)</li>\n</ul>\n\nile aynı çerçevede ele alıyoruz.\n\nSonuç: Reklamdan gelen trafik, sistemin her noktasında ölçülebilir ve yönetilebilir hâle geliyor.",
 
       "card3title": "Gelir Odaklı, KPI Bazlı Yönetim",
       "card3description": "DGTLFACE için otel reklam yönetiminin temel KPI’ları:\n\nRezervasyon sayısı,\n\nOda başı gelir (RevPAR etkisi),\n\nKanal bazlı gelir (OTA vs direkt),\n\nPazar bazlı performans,\n\nReklam ROI / ROAS.\n\nYani:\n\n“Kaç tıklama aldık?” yerine\n“Bu kampanyadan ne kadar net gelir elde ettik?” sorusu ana gündem olur."
@@ -6566,7 +6566,7 @@
       "text6": "OTA görünürlüğünde yorum puanı altın değerindedir. <b>DGTLFACE</b>:<br/><br/><ul><li>Booking, Expedia, Agoda vb. platformlardaki yorumları düzenli tarar,</li><li>Misafir geri bildirimlerini konu bazlı sınıflandırır (oda, temizlik, hizmet, yemek, animasyon vb.),</li><li>Yorumlara marka dilinize uygun, profesyonel ve çözüm odaklı yanıtlar yazar,</li><li>Saha ekipleri için “iyileştirilmesi gereken alanlar” hakkında iç raporlar üretir.</li></ul><br/><br/><b>“OTA yorum yönetimi, Booking puanı artırma”</b> gibi hedefler, sadece metinle değil, sahadaki aksiyonlarla da desteklenir.",
 
       "header7": "PMS, Kanal Yönetimi ve Online Satışla Entegre OTA Modeli",
-      "text7": "OTA yönetimini:<br/><br/><ul><li>PMS kurulumu ve desteği (<a href=\"/tr/pms-ota/pms-kurulum\">/tr/pms-ota/pms-kurulum</a>),</li><li>Kanal yönetimi (<a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>OTA entegrasyonu (<a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>),</li><li>Çağrı merkezi &amp; rezervasyon (<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>),</li><li>Otel dijital pazarlama (<a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a>, <a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>)</li></ul><br/>Böylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor."
+      "text7": "OTA yönetimini:<br/><br/><ul><li>PMS kurulumu ve desteği (<a href=\"/tr/pms-ota/pms-kurulum\">/tr/pms-ota/pms-kurulum</a>),</li><li>Kanal yönetimi (<a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>OTA entegrasyonu (<a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>),</li><li>Çağrı merkezi &amp; rezervasyon (<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>),</li><li>Otel dijital pazarlama (<a href=\"/tr/Services/hotel/pmsIntegration\">/tr/Services/hotel/pmsIntegration</a>, <a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>)</li></ul><br/>Böylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor."
     },
 
     "h4Section": {
@@ -6576,7 +6576,7 @@
       "card1description":"“otel OTA yönetimi Antalya, Belek OTA optimizasyon, Kemer Expedia yönetimi, Alanya OTA reklam stratejisi” gibi aramaların arkasında; hem oteli, hem pazarı, hem de OTA sistemlerini tanıyan bir ekip ihtiyacı var.<br/><br/><b>DGTLFACE</b>:<br/><br/><ul><li>Antalya ve turizm bölgelerinde çok sayıda OTA entegrasyonu ve yönetimi projesi yürütmüş,</li><li>PMS, Channel Manager ve OTA üçgeninde sahada çalışmış,</li><li>Hem resort hem butik hem villa segmentlerinde operasyonel deneyime sahip</li></ul>bir partnerdir.",
 
       "card2title": "PMS, Kanal Yönetimi ve Online Satışla Entegre OTA Modeli",
-      "card2description":"OTA yönetimini:<br/><br/><ul><li>PMS kurulumu ve desteği (<a href=\"/tr/pms-ota/pms-kurulum\">/tr/pms-ota/pms-kurulum</a>),</li><li>Kanal yönetimi (<a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>OTA entegrasyonu (<a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>),</li><li>Çağrı merkezi &amp; rezervasyon (<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>),</li><li>Otel dijital pazarlama (<a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a>, <a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>)</li></ul><br/>Böylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor.",
+      "card2description":"OTA yönetimini:<br/><br/><ul><li>PMS kurulumu ve desteği (<a href=\"/tr/pms-ota/pms-kurulum\">/tr/pms-ota/pms-kurulum</a>),</li><li>Kanal yönetimi (<a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>OTA entegrasyonu (<a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>),</li><li>Online satış optimizasyonu (<a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>),</li><li>Çağrı merkezi &amp; rezervasyon (<a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>),</li><li>Otel dijital pazarlama (<a href=\"/tr/Services/hotel/pmsIntegration\">/tr/Services/hotel/pmsIntegration</a>, <a href=\"/tr/otel/reklam-yonetimi\">/tr/otel/reklam-yonetimi</a>)</li></ul><br/>Böylece OTA, tüm satış mimarinizin organik bir parçası hâline geliyor.",
 
       "card3title": "Veri Odaklı, KPI Bazlı OTA Yönetimi",
       "card3description": "<b>DGTLFACE</b> için OTA KPI’ları:<br/><br/><ul><li>Kanal bazlı rezervasyon &amp; gelir,</li><li>Komisyon sonrası net gelir,</li><li>İptal ve no-show oranları,</li><li>Pazar ve oda tipi bazlı performans,</li><li>OTA → tekrar misafir / direkt kanal dönüş oranı.</li></ul>Raporlar sadece “kaç rezervasyon geldi?” sorusunu değil,<br/><b>“Bu OTA bizi kârlı büyütüyor mu?”</b> sorusunu da cevaplar."
@@ -6687,7 +6687,7 @@
     "card1description": "“PMS entegrasyon Türkiye, Antalya PMS uzmanı, turizm PMS entegrasyonu, turizm PMS destek Antalya” gibi aramaların arkasında; sahayı gerçekten bilen bir ekip beklentisi var.\n\nDGTLFACE:\n\n<ul>\n<li>Antalya ve turizm bölgelerindeki birçok otelde PMS & entegrasyon projeleri yürütmüş,</li>\n<li>Resepsiyon, rezervasyon, satış ve gelir yönetimi ekipleriyle doğrudan çalışmış,</li>\n<li>PMS’in sadece teknik kısmını değil, insan ve süreç kısmını da bilen bir yapı sunar.</li>\n</ul>",
 
     "card2title": "PMS + OTA + Kanal + Online Satış + Çağrı Merkezi Entegrasyonu",
-    "card2description": "PMS entegrasyonunu:\n\n<ul>\n<li><a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a>,</li>\n<li><a href=\"/tr/pms-ota/pms-kurulum\">/tr/pms-ota/pms-kurulum</a>,</li>\n<li><a href=\"/tr/pms-ota/ota-entegrasyonu\">/tr/pms-ota/ota-entegrasyonu</a>,</li>\n<li><a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>,</li>\n<li><a href=\"/tr/pms-ota/rezervasyon-yonetimi\">/tr/pms-ota/rezervasyon-yonetimi</a>,</li>\n<li><a href=\"/tr/pms-ota/online-satis\">/tr/pms-ota/online-satis</a>,</li>\n<li><a href=\"/tr/otel/cagri-merkezi\">/tr/otel/cagri-merkezi</a>, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">/tr/cagri-merkezi/rezervasyon-destegi</a>,</li>\n<li><a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a></li>\n</ul>\n\nile aynı çatı altında tasarlıyoruz.\n\nSonuç: PMS, sadece resepsiyon değil; tüm dijital satış ve operasyonun merkezi hâline geliyor.",
+    "card2description": "PMS entegrasyonunu:\n\n<ul>\n<li><a href=\"/tr/Services/hotel/otaManagement\"> Ota Management</a>,</li>\n<li><a href=\"/tr/pms-ota/pms-kurulum\">Pms kurulum</a>,</li>\n<li><a href=\"/tr/pms-ota/ota-entegrasyonu\">Ota entegrasyonu</a>,</li>\n<li><a href=\"/tr/pms-ota/kanal-yonetimi\">Kanal yönetimi</a>,</li>\n<li><a href=\"/tr/pms-ota/rezervasyon-yonetimi\">Rezervasyon yönetimi</a>,</li>\n<li><a href=\"/tr/pms-ota/online-satis\">Online satış</a>,</li>\n<li><a href=\"/tr/otel/cagri-merkezi\">Çağrı merkezi</a>, <a href=\"/tr/cagri-merkezi/rezervasyon-destegi\">Rezervasyon desteği</a>,</li>\n<li><a href=\"/tr/Services/hotel/pmsIntegration\">Pms Integration</a></li>\n</ul>\n\nile aynı çatı altında tasarlıyoruz.\n\nSonuç: PMS, sadece resepsiyon değil; tüm dijital satış ve operasyonun merkezi hâline geliyor.",
 
     "card3title": "Operasyon Yükünü Azaltan, Geliri Artıran Entegrasyon",
     "card3description": "Doğru kurgulanmış bir PMS entegrasyonu:\n\n<ul>\n<li>Aynı veriyi farklı sistemlere tekrar tekrar girme zorunluluğunu ortadan kaldırır,</li>\n<li>Operasyon yükünü düşürerek personel verimliliğini artırır,</li>\n<li>Yanlış fiyat, overbooking ve eksik kayıt kaynaklı gelir kayıplarını azaltır,</li>\n<li>Yönetim için net KPI’lar ve raporlar üretir.</li>\n</ul>\n\nDGTLFACE’in hedefi: PMS entegrasyonu ile hem operasyon yükünü azaltmak, hem de geliri görünür ve yönetilebilir hâle getirmek."
@@ -6802,7 +6802,7 @@
     "card1description": "“Antalya otel rezervasyon merkezi, Belek call center, Kemer otel destek, Alanya reservation center” gibi aramaların arkasında; bölgeyi, turisti ve sistemi birlikte bilen bir ekip beklentisi var.\n\n<b>DGTLFACE</b>:\n\n<ul><li>Antalya ve çevresinde onlarca otel için rezervasyon ve çağrı merkezi projeleri yürütmüş,</li><li>OTA, PMS, web ve reklam tarafını bilen,</li><li>Hem sahaya hem veriye hâkim bir hotel call center organizasyonu sunar.</li></ul>",
 
     "card2title": "PMS + OTA + Web + Çağrı Merkezi Entegrasyonu",
-    "card2description": "Rezervasyon çağrı merkezini:\n\n<ul><li>PMS ve OTA yapısıyla (<a href=\"/tr/pms-ota-yonetimi\">/tr/pms-ota-yonetimi</a>, <a href=\"/tr/otel/pms-entegrasyonu\">/tr/otel/pms-entegrasyonu</a>),</li><li>Web sitesi & rezervasyon motoruyla (<a href=\"/tr/yazilim/web-sitesi-gelistirme\">/tr/yazilim/web-sitesi-gelistirme</a>, <a href=\"/tr/otel-dijital-pazarlama\">/tr/otel-dijital-pazarlama</a>),</li><li>OTA ve kanal yönetimiyle (<a href=\"/tr/otel/ota-yonetimi\">/tr/otel/ota-yonetimi</a>, <a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>Mesaj yönetimi ve sosyal medya ile (<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>, <a href=\"/tr/otel/sosyal-medya\">/tr/otel/sosyal-medya</a>),</li><li>Satış & dönüşüm raporlamasıyla (<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>, <a href=\"/tr/raporlama/looker-studio\">/tr/raporlama/looker-studio</a>)</li></ul>\n\naynı ekosistemde yönetiyoruz.\n\nBöylece çağrı merkezi, otelin tüm dijital satış sisteminin doğal uzantısı hâline geliyor.",
+    "card2description": "Rezervasyon çağrı merkezini:\n\n<ul><li>PMS ve OTA yapısıyla (<a href=\"/tr/Services/hotel/otaManagement\">/tr/Services/hotel/otaManagement</a>, <a href=\"/tr/otel/pms-entegrasyonu\">/tr/otel/pms-entegrasyonu</a>),</li><li>Web sitesi & rezervasyon motoruyla (<a href=\"/tr/yazilim/web-sitesi-gelistirme\">/tr/yazilim/web-sitesi-gelistirme</a>, <a href=\"/tr/Services/hotel/pmsIntegration\">/tr/Services/hotel/pmsIntegration</a>),</li><li>OTA ve kanal yönetimiyle (<a href=\"/tr/otel/ota-yonetimi\">/tr/otel/ota-yonetimi</a>, <a href=\"/tr/pms-ota/kanal-yonetimi\">/tr/pms-ota/kanal-yonetimi</a>),</li><li>Mesaj yönetimi ve sosyal medya ile (<a href=\"/tr/cagri-merkezi/mesaj-yonetimi\">/tr/cagri-merkezi/mesaj-yonetimi</a>, <a href=\"/tr/otel/sosyal-medya\">/tr/otel/sosyal-medya</a>),</li><li>Satış & dönüşüm raporlamasıyla (<a href=\"/tr/raporlama/satis-donusum\">/tr/raporlama/satis-donusum</a>, <a href=\"/tr/raporlama/looker-studio\">/tr/raporlama/looker-studio</a>)</li></ul>\n\naynı ekosistemde yönetiyoruz.\n\nBöylece çağrı merkezi, otelin tüm dijital satış sisteminin doğal uzantısı hâline geliyor.",
 
     "card3title": "Satış Odaklı, KPI Bazlı Çağrı Merkezi Yönetimi",
     "card3description": "<b>DGTLFACE</b> için otel rezervasyon çağrı merkezi KPI’ları:\n\n<ul><li>Çağrı → rezervasyon dönüşüm oranı,</li><li>Ortalama rezervasyon sepet değeri,</li><li>Kanal ve pazar bazlı dönüşüm farkları,</li><li>Yanıt süresi ve bekleme süreleri,</li><li>Misafir memnuniyet skorları,</li><li>OTA → direkt kanal dönüşümü</li></ul>\n\nBu KPI’lar, düzenli raporlarla görünür kılınır; çağrı merkezi sadece “gider kalemi” değil, gelir & memnuniyet üreten bir merkez olarak yönetilir."
@@ -7129,7 +7129,999 @@
       "date": "10.01.2025",
       "readTime": "5 dk okuma"
     }
+  },
+
+
+  "FaqGeneral": {
+    "h1": "DGTLFACE Genel Dijital Hizmetler SSS",
+    "intro": {
+      "p1": "DGTLFACE, SEO, reklam yönetimi, sosyal medya, web geliştirme, PMS–OTA entegrasyonu, çağrı merkezi ve veri analizi gibi kritik dijital alanları tek çatı altında toplayan bir dijital pazarlama & teknoloji partneridir. Özellikle otel ve turizm sektöründe, ama aynı zamanda kurumsal markalar ve e-ticaret projelerinde; görünürlük, rezervasyon/satış ve operasyonel verimliliği birlikte yükseltmeyi hedefler.",
+      "p2": "Bu SSS sayfası, DGTLFACE’in nasıl çalıştığını, hangi hizmet modelini benimsediğini, entegrasyon yapısını, raporlama ve sonuç sürelerini ve bütçe–performans dengesini anlaşılır bir çerçevede anlatmak için hazırlanmıştır. Aynı zamanda tüm site için bir “çatı SSS / bilgi mimarisi” görevi görür.",
+      "p3": "Dijital yatırım yapıp karşılığını alamayan, farklı ajans ve tedarikçiler arasında kanal karmaşası yaşayan, veriye dayalı karar almakta zorlanan yöneticiler için bu içerik; entegre hizmet modelinin nasıl işlediğini ve DGTLFACE ile çalışmanın pratik sonuçlarını netleştirmeyi amaçlar."
+    },
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "DGTLFACE; SEO, reklam, sosyal medya, web, PMS–OTA entegrasyonu ve çağrı merkezi süreçlerini entegre eden, oteller ve markalar için veri odaklı dijital büyüme modeli sunan bir teknoloji partneridir; görünürlüğü, rezervasyonu ve operasyon verimliliğini birlikte artırır."
+    },
+    "voiceSummary": {
+      "title": "Kısa özet",
+      "text": "DGTLFACE, oteller ve markalar için SEO, reklam, sosyal medya, web ve operasyonu tek merkezden yöneten entegre bir dijital çözüm ortağıdır. Doğru hedefleme, sağlam web performansı ve dönüşüm takibi ile dijital yatırımların gerçek sonuç üretmesini sağlar."
+    },
+    "voiceQueries": {
+      "title": "Örnek sorgular",
+      "q1": "DGTLFACE nedir ve tam olarak ne iş yapar?",
+      "q2": "Otelim için DGTLFACE ile dijital pazarlamaya nereden başlamalıyım?",
+      "q3": "DGTLFACE hangi hizmetleri tek çatı altında sunuyor?",
+      "q4": "DGTLFACE otellere dijital tarafta nasıl destek olur?"
+    },
+    "toc": {
+      "title": "İçindekiler",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Arama Özeti",
+      "voiceQueries": "Örnek Sorgular",
+      "note": "Bölümlere tıklayarak hızlıca gezinebilirsiniz."
+    },
+    "cta": {
+      "primary": "Hizmetlerimizi İnceleyin",
+      "primaryHref": "/Services",
+      "secondary": "Raporlama & Analiz",
+      "secondaryHref": "/Services/digitalAnalysis"
+    },
+
+     "sections": {
+      "generalQuestions": {
+        "title": "DGTLFACE Hakkında Genel Sorular",
+        "items": [
+          {
+            "q": "DGTLFACE nedir, tam olarak ne iş yapar?",
+            "a": "DGTLFACE; SEO, reklam yönetimi, sosyal medya yönetimi, web & yazılım, PMS–OTA yönetimi, çağrı merkezi ve veri analizi & raporlama süreçlerini tek merkezden yöneten entegre bir dijital hizmet modelidir. Amaç; markaların ve özellikle otellerin tüm dijital temas noktalarında tutarlı, ölçülebilir ve sürdürülebilir büyüme sağlamaktır. <services>(→ Hizmetlerimizi inceleyin)</services>"
+          },
+          {
+            "q": "DGTLFACE klasik bir “dijital pazarlama ajansı” mıdır yoksa teknoloji partneri midir?",
+            "a": "DGTLFACE, sadece kampanya yöneten bir ajans değil; “dijital pazarlama & teknoloji partneri” olarak konumlanır. Yani SEO, reklam ve sosyal medya gibi görünürlük kanallarının yanında; web performansı, veri analizi, PMS–OTA entegrasyonu ve çağrı merkezi gibi işin arka planındaki teknolojik katmanları da yönetir."
+          },
+          {
+            "q": "DGTLFACE hangi ana hizmetleri tek çatı altında sunar?",
+            "a": "Entegre modelde ana hizmet başlıkları şunlardır: SEO hizmetleri, Google Ads ve performans reklam yönetimi, sosyal medya yönetimi ve içerik üretimi, web sitesi ve yazılım geliştirme, PMS–OTA yönetimi ve dijital otel teknolojileri, çok dilli çağrı merkezi ve rezervasyon destek, veri analiz ve raporlama. <seo>(→ SEO)</seo> <smm>(→ Sosyal Medya)</smm> <software>(→ Web & Yazılım)</software> <reporting>(→ Veri Analiz & Raporlama)</reporting>"
+          },
+          {
+            "q": "DGTLFACE ağırlıklı olarak hangi sektörlerle çalışır?",
+            "a": "Odak sektörümüz otel ve turizm olmakla birlikte; turizm destinasyonlarındaki oteller ve zincir oteller, kurumsal markalar ve seçilmiş e-ticaret projeleri ile çalışıyoruz. Turizm tarafında özellikle Antalya ve çevre bölgelerdeki oteller için derinleşmiş bir bilgi birikimine sahibiz."
+          },
+          {
+            "q": "DGTLFACE hangi dillerde hizmet verebiliyor?",
+            "a": "Strateji, raporlama ve operasyon süreçleri ağırlıklı olarak Türkçe ve İngilizce yürütülür. Otel & çağrı merkezi tarafında ise misafir iletişimi için TR–EN–DE–RU dillerinde yapılandırmalar yapılabilir. Böylece hem yerel hem de Avrupa pazarlarına çok dilli bir yapıyla hizmet verilebilir."
+          },
+          {
+            "q": "DGTLFACE ile çalışmaya nereden başlamalıyım?",
+            "a": "Genellikle ilk adım, mevcut durumun analiz edildiği bir “dijital analiz ve yol haritası” çalışmasıdır. Web siteniz, SEO görünürlüğünüz, reklam ve sosyal medya hesaplarınız, PMS–OTA ve analitik kurulumlarınız incelenir. Sonrasında net hedefler ve öncelikler üzerinden bir yol haritası çıkarılır. <services>(→ Hizmetlerimiz)</services>"
+          },
+          {
+            "q": "DGTLFACE sabit paketlerle mi çalışır, yoksa ihtiyaca göre mi şekillenir?",
+            "a": "Çerçevesi belli hizmet paketlerimiz olsa da, her proje için hedef, bütçe ve sektör özelinde uyarlama yapılır. Özellikle otel ve turizm tarafında; sezon, destinasyon ve oda sayısı gibi parametreler dikkate alınarak esnek bir yapı kurulur."
+          },
+          {
+            "q": "DGTLFACE ile çalışmak için minimum bütçe nedir?",
+            "a": "Minimum bütçe; hedef pazarlara, kullanılacak kanal sayısına ve rekabet düzeyine göre değişir. Sadece SEO ile sınırlı bir çalışma ile; SEO + reklam + sosyal medya + OTA–PMS entegrasyonunu içeren geniş bir çalışma aynı bütçede olmaz. Önemli olan, gerçekçi hedefler ve makul bütçe dengesini kurmaktır."
+          },
+          {
+            "q": "DGTLFACE ile çalıştığımda tek bir ekip mi, yoksa farklı ekipler mi yönetiyor?",
+            "a": "DGTLFACE modeli; SEO, reklam, sosyal medya, web, PMS–OTA, çağrı merkezi ve raporlama ekiplerinin tek proje çatısı altında koordineli şekilde yönetilmesini hedefler. Siz, her kanal için ayrı ayrı ajans veya tedarikçiyle uğraşmak yerine, tek bir strateji ve raporlama yapısı üzerinden ilerlersiniz."
+          },
+          {
+            "q": "DGTLFACE ile çalışma süreci nasıl yapılandırılıyor?",
+            "a": "Genel akış: 1) Dijital analiz ve mevcut durum tespiti 2) Hedefler, KPI’lar ve bütçe çerçevesi 3) Yol haritası ve iş planı 4) SEO, reklam, sosyal medya, web, PMS–OTA ve çağrı merkezi tarafında adım adım devreye alma 5) Haftalık/aylık raporlama ve optimizasyon toplantıları."
+          },
+
+           {
+            "q": "DGTLFACE sonuç odaklı mı çalışır, hangi KPI’ları takip eder?",
+            "a": "Evet, modelimiz sonuç odaklıdır. Takip ettiğimiz temel KPI seti proje tipine göre değişse de genellikle: Organik trafik ve görünürlük metrikleri (SEO) Kampanya bazında tıklama, dönüşüm ve ROAS (reklam) Etkileşim, erişim ve yönlendirme trafiği (sosyal medya) Rezervasyon/sipariş hacmi ve gelir (otel & e-ticaret) Doluluk, ADR, RevPAR gibi otel performans metrikleri Dönüşüm hunisi ve form / çağrı / mesaj sayıları üzerinden raporlanır. (→ /tr/veri-analiz-ve-raporlama)"
+          },
+          {
+  "q": "DGTLFACE sadece Antalya’daki otellerle mi çalışıyor?",
+  "a": "Hayır. Antalya ve çevre bölgeler (Belek, Kemer, Side, Alanya gibi) bizim için doğal bir çekirdek pazar olsa da; Türkiye’nin diğer destinasyonlarındaki ve Avrupa pazarına çalışan otellerle de çalışıyoruz. Ayrıca, turizm dışındaki kurumsal markalar ve seçilmiş e-ticaret projeleri de portföyümüzde yer alabiliyor."
+},
+{
+  "q": "DGTLFACE ile çalışma süresi için bir taahhüt var mı?",
+  "a": "Proje türüne göre değişmekle birlikte, özellikle SEO ve içerik tarafında en az 6–12 aylık dönemlerle çalışmak daha sağlıklı sonuç verir. Reklam ve sosyal medya kampanyalarında daha kısa süreli pilot çalışmalar da yapılabilir; ancak stratejik etki için orta–uzun vadeli bakış önemlidir."
+},
+{
+  "q": "DGTLFACE ile görüşme veya ön analiz talebini nasıl iletebilirim?",
+  "a": "Web sitemizdeki Hizmetlerimiz bölümü üzerinden ya da iletişim formu aracılığıyla “dijital analiz ve yol haritası” talebi oluşturabilirsiniz. Ekip, mevcut durum ve hedeflerinizle ilgili kısa bir briefing aldıktan sonra sizinle toplantı planlar. <services>(→ Hizmetlerimiz)</services>"
+},
+{
+  "q": "DGTLFACE’in çalışma modeli tek otel için mi yoksa zincir/grup için de uygun mu?",
+  "a": "Modelimiz, hem tekil oteller hem de zincir/grup oteller için uygundur. Zincir yapılarda; merkez ofis stratejisi, otel bazlı operasyon ve marka standartları birlikte ele alınır ve buna göre dijital mimari kurgulanır."
+},
+{
+  "q": "DGTLFACE ile çalışırken kendi iç ekibimi koruyabilir miyim?",
+  "a": "Evet. Pek çok projede, müşterinin iç pazarlama veya satış ekibiyle hibrit bir model kuruyoruz. Örneğin: strateji, performans ve raporlama DGTLFACE’te; günlük içerik veya bazı operasyonel süreçler sizde kalabilir. Amaç, mevcut ekibinizi güçlendiren bir yapı kurmaktır."
+}
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Kısa ve Hızlı Yanıtlar",
+        "items": [
+          {
+            "q": "DGTLFACE’in en temel faydası nedir?",
+            "a": "Dağınık yürüyen SEO, reklam, sosyal medya, web ve teknoloji süreçlerini tek merkezde toplayarak, dijital yatırımlarınızın gerçekten satış ve büyüme üretmesini sağlar."
+          },
+          {
+            "q": "DGTLFACE ile dijital pazarlama sürecine ilk adım ne olmalı?",
+            "a": "Önce görünürlüğünüzü, web performansınızı ve dönüşüm takibinizi analiz ediyoruz; ardından net hedefler belirleyip önceliklendirilmiş bir yol haritası çıkarıyoruz."
+          },
+          {
+            "q": "DGTLFACE sadece otellerle mi çalışıyor?",
+            "a": "Hayır; odak alanımız otel ve turizm olsa da, kurumsal markalar ve seçilmiş e-ticaret projeleri ile de çalışıyoruz."
+          },
+          {
+            "q": "DGTLFACE ile ne kadar sürede sonuç almaya başlarım?",
+            "a": "SEO ve içerik tarafında genellikle 60–90 gün içinde net sinyaller; reklam ve sosyal medya tarafında ise 7–30 gün içinde görünür sonuçlar görmeye başlarsınız."
+          },
+          {
+            "q": "DGTLFACE ile tek bir kanal mı yoksa çok kanallı çalışma mı önerilir?",
+            "a": "Mümkün olduğunda çok kanallı, entegre bir yapı öneriyoruz; çünkü SEO, reklam, sosyal medya ve web performansı birlikte çalıştığında daha sağlıklı sonuç üretir."
+          },
+          {
+            "q": " DGTLFACE ile ilk görüşmeyi nasıl planlayabilirim? ",
+            "a": "Web sitenizden kısa bir form doldurmanız veya e-posta ile talep iletmeniz yeterlidir; ekibimiz sizinle ön görüşme ve analiz toplantısı planlar."
+          }
+        ]
+      },
+
+         "section3": {
+        "title": "Entegre Model, Strateji ve Sonuç Süreçleri ",
+        "items": [
+         {
+  "q": "DGTLFACE’in entegre hizmet modeli ne anlama geliyor?",
+  "a": "Entegre hizmet modeli; SEO, reklam, sosyal medya, web & yazılım, PMS–OTA, çağrı merkezi ve veri analizi & raporlama gibi birbirine bağlı süreçlerin tek strateji ve tek raporlama çatısı altında yönetilmesi demektir. Böylece kanallar birbirinden kopuk değil, birbirini besleyen bir yapı içinde çalışır."
+},
+{
+  "q": "DGTLFACE’in dijital strateji yaklaşımı nasıldır?",
+  "a": "Strateji yaklaşımımız veri temelli ve hedef odaklıdır. Önce mevcut verileri ve pazar dinamiklerini analiz eder, ardından hangi kanalların öncelikli olacağı, hangi hedef kitle segmentlerinin kritik olduğu ve hangi mesaj–teklif yapılarının çalışması gerektiği netleştirilir. Strateji bu çerçevede kurgulanır ve periyodik raporlarla sürekli optimize edilir."
+},
+{
+  "q": "DGTLFACE ile çalışmaya başladıktan sonra sonuçları ne kadar sürede görürüm?",
+  "a": "Genel zaman çizelgemiz; SEO ve içerik tarafında 60–90 gün içinde net trafik ve görünürlük artışı sinyalleri, reklam ve sosyal medya tarafında 7–30 gün içinde kampanya bazlı dönüşüm ve etkileşim sonuçları, PMS–OTA ve entegrasyonlu yapılarda ise doğru kurulumla daha kısa sürede rezervasyon ve operasyon tarafında hissedilir iyileşme şeklindedir. Sürdürülebilir sonuçlar için 6–12 aylık bir perspektif öneriyoruz."
+},
+{
+  "q": "DGTLFACE bütçe esnekliğini nasıl ele alıyor?",
+  "a": "Her proje için önce hedef–bütçe–zaman üçgeni netleştirilir. Gerektiğinde pilot kampanyalarla test, A/B denemeleri ve kademeli bütçe artırımı gibi yöntemlerle ilerlenerek risk kontrollü bir model kurulur. Bütçe, yalnızca harcama değil; yatırım olarak ele alınır."
+},
+{
+  "q": "DGTLFACE ile dönüşüm takibi ve analitik nasıl kuruluyor?",
+  "a": "Dijital yatırımların sonuç üretip üretmediğini anlayabilmek için sağlam bir analitik kurulum yapılır. Bu kapsamda rezervasyon, form, telefon ve mesaj gibi dönüşüm hedefleri tanımlanır; gerekli tag ve event kurulumları gerçekleştirilir; Looker Studio gibi araçlarla raporlama panelleri hazırlanır. Böylece her kanalın gerçek katkısı net şekilde izlenebilir. <reporting>(→ Veri Analiz & Raporlama)</reporting>"
+},
+{
+  "q": "DGTLFACE kanal bazlı değil bütünsel sonuçlara mı odaklanır?",
+  "a": "Evet. Sadece tek bir kanalın performansına değil; marka görünürlüğü, rezervasyon veya sipariş hacmi, müşteri yaşam boyu değeri (LTV) ve operasyonel verimlilik gibi büyük resmi gösteren metriklere odaklanıyoruz. Kanallar arasındaki kopuklukları ortadan kaldırmak için raporlamayı birleşik bir yapı halinde sunuyoruz."
+},
+{
+  "q": "DGTLFACE iç ekibimle birlikte strateji atölyeleri yapabilir mi?",
+  "a": "Evet. Özellikle otel ve kurumsal projelerde, hem satış hem de pazarlama ekipleriyle ortak strateji atölyeleri yapıyoruz. Sahadan gelen içgörüler ile dijital stratejinin birleşmesi, daha sağlam ve uygulanabilir bir yol haritası oluşturulmasını sağlar."
+},
+{
+  "q": "Mevcut ajans veya tedarikçilerimle birlikte çalışma mümkün mü?",
+  "a": "Evet. Bazı projelerde mevcut ajanslarınızla iş bölümü yaparak da çalışabiliyoruz. Örneğin kreatif içerik tarafı sizde veya başka bir ajansınızda kalırken; SEO, performans reklamları ve veri analizi tarafını DGTLFACE üstlenebilir. Önemli olan rollerin net tanımlandığı ve çakışmanın olmadığı bir yapı kurulmasıdır."
+},
+{
+  "q": "DGTLFACE strateji ve uygulamayı birlikte mi sunar?",
+  "a": "Evet. Sadece danışmanlık veren bir yapı değiliz; belirlenen stratejiyi hayata geçiren uygulama ekipleri de DGTLFACE çatısı altındadır. Bu yaklaşım, teoride kalan öneriler yerine gerçek uygulama ve ölçülebilir sonuçlar anlamına gelir."
+},
+{
+  "q": "Raporlama toplantıları ne sıklıkla yapılıyor?",
+  "a": "Genellikle haftalık kısa özetler ve aylık detaylı performans & strateji toplantıları yapıyoruz. Yoğun kampanya dönemlerinde ise daha sık kontrol ve değerlendirme noktaları planlanabiliyor."
+},
+{
+  "q": "DGTLFACE karar süreçlerinde yönetime nasıl destek olur?",
+  "a": "Hazırlanan raporlar ve analizler, yalnızca dijital ekipler için değil; yönetim ve board seviyesindeki karar vericiler için de anlaşılır ve özet formatlarda sunulur. Böylece pazarlama, satış ve yatırım kararları somut veri ile desteklenmiş olur."
+}
+        ]
+      },
+
+            "section4": {
+        "title": " Sorun Giderme ve Dijital Yatırım Acı Noktaları ",
+        "items": [
+         {
+  "q": "Dijital yatırım yapıyorum ama sonuç alamıyorum; sorun nerede olabilir?",
+  "a": "Çoğu zaman sorun; yanlış hedefleme, düşük web performansı ve eksik dönüşüm takibi kombinasyonundan oluşur. Doğru hedefleme, güçlü bir web altyapısı ve sağlıklı dönüşüm takibi kurulmadığında yapılan dijital yatırımlar gerçek sonuç üretmez. DGTLFACE, bu yapıyı uçtan uca analiz ederek sorunlu noktaları düzeltmek için devreye girer."
+},
+{
+  "q": "Farklı ajans ve tedarikçilerle çalışırken kanal karmaşası yaşıyorum; DGTLFACE bunu nasıl çözüyor?",
+  "a": "Bir kanalda ajans, başka bir kanalda freelance, diğerinde iç ekip olduğunda; raporlama, bütçe ve strateji tarafında parçalı bir yapı oluşur. DGTLFACE, bu dağınık yapıyı tek çatı altında toplayarak operasyonel yükü azaltır, raporlamayı sadeleştirir ve karar alma sürecini netleştirir."
+},
+{
+  "q": "Reklam ve kampanya dönemlerinde dönüşüm alamamamızın temel sebepleri neler olabilir?",
+  "a": "Dönüşüm düşüklüğünün temel sebepleri genellikle yanlış veya çok geniş hedef kitle, mesaj ve teklif uyumsuzluğu, zayıf landing page veya web performansı ile eksik ya da hatalı dönüşüm takibidir. DGTLFACE, kampanya öncesi ve sonrası tüm bu alanları analiz ederek iyileştirme ve optimizasyon önerileri sunar."
+},
+{
+  "q": "Sadece sosyal medya görünürlüğüyle yetinmek doğru bir yaklaşım mı?",
+  "a": "Sosyal medya, topluluk oluşturma ve marka algısı için önemli bir kanaldır; ancak tek başına satış ve rezervasyon hedeflerini taşımak için yeterli değildir. SEO, reklam, web performansı ve analitikle desteklenmeyen bir sosyal medya stratejisi çoğu zaman görünür ama ölçülemeyen bir yatırım haline gelir."
+},
+{
+  "q": "İçeride güçlü bir ekip var ama yön ve öncelik belirlemekte zorlanıyoruz; DGTLFACE burada ne yapar?",
+  "a": "Bu tür durumlarda DGTLFACE; strateji, önceliklendirme ve raporlama rolünü üstlenir. İç ekibinizin ürettiği işlerin doğru hedeflere yönelip yönelmediğini, doğru KPI’larla ölçülüp ölçülmediğini ve hangi alanlarda kaynak israfı olduğunu analiz ederek dışarıdan stratejik bir bakış açısı sağlar."
+}
+        ]
+      },
+
+        "section5": {
+        "title": " Antalya ve Çevre Bölgeler İçin Sorular ",
+        "items": [
+{
+  "q": "Antalya’daki oteller için DGTLFACE modeli neden özellikle anlamlı?",
+  "a": "Antalya, yüksek oda kapasitesi, çok sayıda pazar ve yoğun sezon dinamikleriyle karmaşık bir dijital yapı gerektirir. SEO, reklam, OTA, çağrı merkezi ve PMS entegrasyonunu aynı anda yönetmek ciddi bir iş yüküdür. DGTLFACE, bu karmaşayı standartlaştırılmış bir model ile sadeleştirir."
+},
+{
+  "q": "Belek bölgesindeki golf & luxury oteller için yaklaşımınız nasıl?",
+  "a": "Belek’te golf ve luxury segmentte; yüksek ADR, özel paketler ve çok pazarlı yapı ön plandadır. Pazar bazlı SEO ve reklam çalışmaları, golf paketleri ve özel konseptlerin doğru anlatımı ile çok dilli iletişim ve rezervasyon süreçleri kritik önemdedir. DGTLFACE, bu pazarı bilen bir ekip olarak stratejiyi buna göre şekillendirir."
+},
+{
+  "q": "Kemer ve Side gibi eğlence odaklı bölgeler için öncelik ne olmalı?",
+  "a": "Kemer ve Side’de aile, eğlence ve aktiviteler daha öne çıkar. Bu nedenle çocuk olanakları, eğlence programları ve konseptlerin doğru anlatımı, çok kanallı yorum ve mesaj yönetimi ile yoğun sezonda gelen talebin hızlı yönetimi önemlidir. Dijital strateji, bu değer teklifini net ve tutarlı biçimde yansıtmalıdır."
+},
+{
+  "q": "Alanya’daki fiyat/performans otelleri için nasıl bir dijital model öneriyorsunuz?",
+  "a": "Alanya bölgesinde çoğu otel fiyat/performans dengesiyle konumlanır. Bu nedenle doğru fiyat–değer anlatımı, uzun konaklama ve kampanyaların öne çıkarılması ile Google yorumları ve sosyal medya yorum yönetimi önem kazanır. DGTLFACE, bu segmentte güven ve değer algısını öne çıkaran bir yapı kurar."
+},
+{
+  "q": "Antalya ve çevre bölgelerin yanı sıra Avrupa pazarına çalışan otellere yaklaşımınız nasıl?",
+  "a": "Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlar için Avrupa pazarı kritik önemdedir. EN–DE–RU dillerinde içerik ve iletişim, pazar bazlı kampanya ve mesajlar ile zaman farkı ve sezon dinamiklerine göre planlama dikkate alınır. DGTLFACE, hem Türkiye hem Avrupa odaklı çift eksenli bir strateji kurgular."
+}
+        ]
+      },
+
+              "section6": {
+        "title": " Teknoloji, Entegrasyon ve Raporlama Soruları",
+        "items": [
+{
+  "q": "DGTLFACE’in “teknoloji” tarafındaki rolü nedir?",
+  "a": "DGTLFACE, sadece pazarlama kampanyalarını değil; web performansı, analitik kurulum, PMS–OTA entegrasyonu ve çağrı merkezi altyapısı gibi teknolojik katmanları da ele alır. Böylece pazarlama, satış ve operasyon tarafı aynı veri zemini üzerinde buluşur."
+},
+{
+  "q": "PMS–OTA ve diğer otel teknolojileri ile nasıl entegre çalışıyorsunuz?",
+  "a": "Otel projelerinde PMS ve OTA yönetimi; fiyat, doluluk ve kanal yönetimi açısından kritiktir. DGTLFACE, PMS ve OTA tarafındaki mevcut durumu analiz eder, gerekli entegrasyonları ve iş akışlarını netleştirir ve dijital pazarlama süreçlerini bu altyapı ile uyumlu hale getirir. Böylece kampanya ve görünürlük çalışmaları gerçek oda stok ve fiyat bilgisi ile senkronize yürütülür."
+},
+{
+  "q": "Web sitesi ve performans tarafında neler yapıyorsunuz?",
+  "a": "Web sitesi; SEO, reklam ve sosyal medya çalışmalarının iniş noktasıdır. Bu nedenle hız, mobil uyumluluk ve teknik SEO, dönüşüm odaklı sayfa kurguları ile çok dilli yapı ve içerik mimarisi konularına özel önem veriyoruz. Gerektiğinde mevcut sitenizi iyileştiriyor veya yeni bir web–yazılım projesi kurguluyoruz."
+},
+{
+  "q": "Raporlama ve dashboard yapınız nasıldır?",
+  "a": "Raporlamada; Google Analytics, reklam panelleri, PMS verileri ve diğer kaynaklardan gelen verileri tek bir dashboard üzerinde birleştiriyoruz. Çoğu projede Looker Studio gibi araçlarla kanal bazlı performans, dönüşüm hunisi ile gelir ve rezervasyon verileri bir arada görülebiliyor."
+},
+{
+  "q": "Veri güvenliği ve KVKK açısından nasıl bir yaklaşımınız var?",
+  "a": "Kullandığımız tüm analitik, mesaj ve çağrı merkezi çözümlerinde KVKK ve veri güvenliği kriterlerini dikkate alıyoruz. Misafir veya müşteri verileri yalnızca yetkili kişilerin erişebileceği şekilde, gerekli süreden uzun tutulmadan ve loglanabilir–izlenebilir bir yapıda ele alınır."
+},
+{
+  "q": "DGTLFACE ile çalışırken verilerime erişim nasıl yönetiliyor?",
+  "a": "Erişim, minimum yetki prensibi ile verilir. Yalnızca gerekli araçlara ve hesaplara, proje kapsamında ihtiyaç duyulan seviyede erişim tanımlanır. Şifre paylaşımı yerine mümkün olduğunca kullanıcı bazlı erişim tercih edilir ve proje bittikten sonra erişimler gözden geçirilir."
+},
+{
+  "q": "DGTLFACE, üst yönetime sunulacak rapor formatlarını da hazırlıyor mu?",
+  "a": "Evet. Haftalık ve aylık operasyonel raporların yanı sıra, yönetim sunumu formatında özet raporlar da hazırlıyoruz. Bu raporlar, karar vericilerin teknik detaya boğulmadan nerede olduğumuzu ve nereye gittiğimizi net şekilde görmesini sağlar."
+},
+{
+  "q": "DGTLFACE ile ilerlerken raporlama dilimiz zamanla standartlaşır mı?",
+  "a": "Tam olarak hedefimiz budur. Farklı kanalların farklı formatlardaki raporları yerine standart bir metrik ve dil seti tanımlarız. Zamanla hem iç ekibiniz hem de DGTLFACE ekipleri aynı dilde konuşur hale gelir; bu da karar süreçlerini hızlandırır."
+}
+
+        ]
+      },
+
+  "section7": {
+        "title": "Mini SSS (Kısa Yanıtlar) ",
+        "items": [
+{
+  "q": "DGTLFACE ile çalışmak için sektörel tecrübemizin yüksek olması şart mı?",
+  "a": "Hayır, ama sektörünüzü ve iş modelinizi açık şekilde anlatmanız önemli. Özellikle otel ve turizm tarafında derin bir deneyimimiz olsa da, kurumsal ve e-ticaret projelerinde de uyarlama yapabiliyoruz."
+},
+{
+  "q": "Sadece SEO veya sadece reklam yönetimi hizmeti alabilir miyim?",
+  "a": "Evet, yalnızca tek bir kanal için de çalışabiliriz; ancak entegre yapı, çoğu durumda daha sağlıklı ve kalıcı sonuç üretir."
+},
+{
+  "q": "Sadece danışmanlık, uygulama bizde modeli mümkün mü?",
+  "a": "Mümkün. Bu durumda DGTLFACE; strateji, yol haritası, KPI tanımı ve raporlama tarafını üstlenir; uygulama ağırlıklı olarak sizin ekibinizde kalır."
+},
+{
+  "q": "DGTLFACE ile çalışırken mevcut ajansımı tamamen bırakmak zorunda mıyım?",
+  "a": "Zorunda değilsiniz. Proje kurgusuna göre, mevcut ajansınızla rol paylaşımı yaparak da ilerleyebiliriz."
+},
+{
+  "q": "DGTLFACE ile ilk 3 ayın odağı genelde ne olur?",
+  "a": "İlk 3 ay, çoğu projede altyapı, analiz, hızlı kazanımlar ve temel optimizasyonlar üzerine kurulur; sonrasında ölçekleme ve derinleşme gelir."
+},
+{
+  "q": "Otelim veya markam küçük ölçekliyse DGTLFACE ile çalışmak mantıklı mı?",
+  "a": "Eğer dijital tarafta büyüme hedefiniz varsa, ölçekten bağımsız olarak doğru yapı kurulabilir. Önemli olan, hedeflerinizi ve bütçenizi gerçekçi şekilde tanımlamaktır."
+},
+{
+  "q": "DGTLFACE hangi şehirlerde fiziksel toplantı yapabiliyor?",
+  "a": "Antalya ve çevre bölgelerde yüz yüze; Türkiye ve Avrupa’nın diğer noktalarında ise çoğunlukla online toplantılar ile çalışıyoruz. Gerekli görülen durumlarda saha ziyaretleri de planlanabiliyor."
+},
+{
+  "q": "Sadece raporlama düzenimi standardize etmek için bile çalışabilir miyim?",
+  "a": "Evet. Mevcut ajans veya ekiplerinizle çalışmaya devam edip, sadece raporlama ve performans değerlendirme tarafında DGTLFACE’ten destek alabilirsiniz."
+},
+{
+  "q": "Bu SSS içeriği ne sıklıkla güncelleniyor?",
+  "a": "En az 180 günde bir (yaklaşık 6 ayda bir), yeni hizmetler, sektörler veya GEO genişlemelerine göre gözden geçirilir. Önemli model değişikliklerinde ise daha erken güncelleme yapılır."
+},
+{
+  "q": "DGTLFACE’in genel SSS yapısı ileride genişletilecek mi?",
+  "a": "Evet. Bu sayfa, DGTLFACE’in çatı SSS yapısını temsil ediyor; ileride yeni sektörler, GEO blokları veya hizmetler eklendikçe, soru seti güncellenecek ve zenginleştirilecektir."
+}
+
+        ]
+      },
+
+        "section8": {
+        "title": "DGTLFACE ile Çalışmaya Başlamak İçin Sorular",
+        "items": [
+{
+  "q": "DGTLFACE ile dijital analiz ve yol haritası talebini nasıl oluşturabilirim?",
+  "a": "Kısa bir form veya e-posta ile mevcut yapınızı ve hedeflerinizi paylaşmanız yeterlidir. Ekip, dijital analiz ve yol haritası çalışması için sizinle iletişime geçer ve sonraki adımları netleştirir. <services>(→ Dijital analiz ve yol haritası talebi)</services>"
+},
+{
+  "q": "Veri analiz ve raporlama tarafında daha derin bir çalışma almak istersem ne yapmalıyım?",
+  "a": "Mevcut raporlama mimarinizi ve kullandığınız araçları paylaşarak, veri analiz ve raporlama odaklı bir proje başlatabilirsiniz. Bu kapsamda; dashboard’lar, KPI setleri ve raporlama süreçleri yeniden tasarlanabilir. <reporting>(→ Veri analiz ve raporlama detaylarına göz atın)</reporting>"
+},
+{
+  "q": "DGTLFACE Genel SSS’den sonra hangi sayfaları incelemeliyim?",
+  "a": "Bu çatı SSS sayfasının ardından; Hizmetlerimiz sayfası, SEO, reklam ve sosyal medya hizmet sayfaları, Web & yazılım, PMS–OTA, çağrı merkezi ve raporlama sayfaları size daha detaylı bir resim sunar. <services>(→ Hizmetlerimiz)</services> <seo>(→ SEO)</seo> <smm>(→ Sosyal Medya)</smm> <software>(→ Web & Yazılım)</software> <reporting>(→ Veri Analiz & Raporlama)</reporting>"
+},
+{
+  "q": "DGTLFACE Genel SSS sayfasına sitede nerelerden ulaşabilirim?",
+  "a": "Bu sayfa; anasayfa, Hizmetlerimiz bölümü ve footer SSS linki üzerinden, ayrıca ilgili hizmet SSS sayfalarından iç linklerle erişilebilir olacak şekilde kurgulanmıştır. Böylece kullanıcılar, ihtiyaç duydukları her noktada çatı SSS’ye geri dönebilir."
+}
+
+        ]
+      }
+    },
+
+    "rich": {
+      "services": "Hizmetlerimiz",
+      "seo": "SEO Hizmetleri",
+      "smm": "Sosyal Medya Yönetimi",
+      "software": "Web & Yazılım",
+      "reporting": "Veri Analiz & Raporlama"
+    }
+  },
+
+  "FaqServices": {
+  "h1": "DGTLFACE Hizmetlerimiz: Sık Sorulan Sorular (SSS)",
+  "intro": {
+    "p1": "DGTLFACE, SEO’dan reklama, sosyal medyadan web geliştirmeye, OTA–PMS entegrasyonundan çağrı merkezi ve creative üretime kadar tüm dijital hizmetleri tek merkezden yöneten bir dijital pazarlama & teknoloji partneridir. Özellikle otel ve turizm sektöründe, ama aynı zamanda teknoloji, B2B, sağlık, eğitim ve diğer büyüme odaklı markalarda; görünürlük, rezervasyon/satış ve operasyonel verimliliği birlikte yükseltmeyi hedefler.",
+    "p2": "Bu SSS sayfası, DGTLFACE’in hangi hizmetleri sunduğunu, her bir hizmetin kapsamını, etki süresini, entegrasyon yapısını ve hizmetlerin birbirini nasıl tamamladığını netleştirmek için tasarlanmıştır. Aynı zamanda, “Sadece SEO mu almalıyım, yoksa SEO + reklam + sosyal medya mı daha doğru?” veya “Hangi hizmetten başlamalıyım?” gibi karar anlarında yöneticilere karar destek rehberi sunar.",
+    "p3": "Dijital yatırım yapmasına rağmen sonuç alamayan, reklamları çalıştığı halde satış veya rezervasyon artışı görmeyen, ya da çok sayıda kanal ve tedarikçi nedeniyle dijital süreçleri karışık hale gelen işletmeler için, bu sayfa hizmet setine toplu bir bakış ve entegre modelin nasıl işlediğine dair net bir resim sunar."
+  },
+
+  "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "DGTLFACE Hizmetlerimiz SSS sayfası; SEO, performans reklamcılığı, sosyal medya, web geliştirme, OTA–PMS entegrasyonu, çağrı merkezi ve creative üretimi tek çatı altında anlatır. İşletmelerin hangi hizmetten ne zaman, nasıl fayda görebileceğini; etki sürelerini, entegrasyon yapısını ve sık yaşanan sorunlara yönelik çözümleri bütünleşik bir mimari içinde açıklar."
+  },
+
+  "voiceSummary": {
+    "title": "Kısa Cevap",
+    "text": "DGTLFACE, SEO’dan reklama, sosyal medyadan web ve OTA–PMS entegrasyonuna kadar tüm dijital hizmetleri tek merkezden yöneten, özellikle otel ve turizm odaklı çalışan bir teknoloji ve pazarlama partneridir; işletmelere hangi hizmetten hangi aşamada fayda göreceğini netleştirir."
+  },
+
+  "voiceQueries": {
+    "title": "Örnek sorgular",
+    "q1": "DGTLFACE hangi hizmetleri sunuyor?",
+    "q2": "Hangi hizmetten ne zaman başlamalıyım?",
+    "q3": "Sadece SEO mu, yoksa reklam + sosyal medya da mı almalıyım?",
+    "q4": "Hizmetlerin otellere etkisi ne kadar sürede görülür?"
+  },
+
+  "toc": {
+    "title": "İçindekiler",
+    "intro": "Genel Bakış",
+    "aiCapsule": "Kısa Özet",
+    "voiceSummary": "Arama Özeti",
+    "voiceQueries": "Örnek Sorgular",
+    "note": "Bölümlere tıklayarak hızlıca gezinebilirsiniz."
+  },
+
+  "cta": {
+    "primary": "Hizmetlerimizi İnceleyin",
+    "primaryHref": "/Services",
+    "secondary": "Veri Analiz & Raporlama",
+    "secondaryHref": "/Services/digitalAnalysis"
+  },
+
+  "sections": {
+    "generalQuestions": {
+      "title": "Hizmet Modeli ve Genel Hizmet Soruları",
+      "items": [
+        {
+          "q": "DGTLFACE’in sunduğu hizmetlerin ana başlıkları nelerdir?",
+          "a": "DGTLFACE’in hizmet seti, bir işletmenin dijital görünürlük ve gelir tarafındaki tüm temel ihtiyaçlarını kapsayacak şekilde yapılandırılmıştır: SEO hizmetleri, Google Ads ve performans reklamcılığı, sosyal medya yönetimi ve içerik üretimi, web sitesi ve özel yazılım geliştirme, OTA–PMS yönetimi ve otel teknolojileri, çok dilli çağrı merkezi ve rezervasyon destek, veri analizi, raporlama ve dashboard tasarımı, creative üretim (görsel, video, kampanya konseptleri). <services>(→ Hizmetlerimiz)</services> <seo>(→ SEO)</seo> <smm>(→ Sosyal Medya)</smm> <software>(→ Web & Yazılım)</software> <reporting>(→ Veri Analiz & Raporlama)</reporting>"
+        },
+        {
+          "q": "“Hizmetlerimiz SSS” sayfası, “Genel SSS” sayfasından nasıl farklıdır?",
+          "a": "Genel SSS sayfası DGTLFACE’in çatı modeli ve yaklaşımını anlatırken, bu sayfa doğrudan hizmet setinin kendisine odaklanır: Hangi hizmet tam olarak ne yapar? Hangi süreçleri hızlandırır? Hangi sektörler için daha kritiktir? Ne kadar sürede etki üretir? Bu sayfa, özellikle “hangi hizmetten başlamalıyım?” sorusuna yanıt arayan yöneticiler için hazırlanmıştır."
+        },
+        {
+          "q": "DGTLFACE’in hizmet modeli “paket” mi yoksa “modüler” mi kurgulanmıştır?",
+          "a": "Çerçevesi belli paketler bulunmakla birlikte, DGTLFACE’in hizmet modeli temelde modülerdir. SEO, reklam, sosyal medya, web, OTA–PMS, çağrı merkezi ve veri analizi; gerektiğinde tek tek, gerektiğinde de entegre paket olarak devreye alınabilir. Bu sayede işletmenin mevcut durumu ve bütçesine göre doğru kombinasyon seçilebilir."
+        },
+        {
+          "q": "En çok talep edilen hizmetler hangileridir?",
+          "a": "Otel ve turizm tarafında en çok tercih edilen kombinasyon genellikle: SEO + Google Ads, sosyal medya yönetimi, PMS–OTA optimizasyonu ve çok dilli çağrı merkezi şeklindedir. Kurumsal markalar ve B2B projelerde ise SEO + içerik, performans reklamcılığı ve web yenileme projeleri öne çıkar."
+        },
+        {
+          "q": "DGTLFACE ile çalışırken tüm hizmetleri almak zorunda mıyım?",
+          "a": "Hayır. Pek çok proje, yalnızca bir veya birkaç ana hizmetle başlar. Örneğin: sadece SEO, SEO + reklam, sadece sosyal medya veya sadece veri analizi & raporlama. İhtiyaca göre başlamak ve sonuç aldıkça diğer hizmetlere doğru kademeli genişleme yapmak mümkündür."
+        },
+        {
+          "q": "“Tam entegre hizmet modeli” ile “tek kanal hizmet” arasında nasıl bir fark var?",
+          "a": "Tek kanal hizmet, örneğin sadece SEO veya sadece reklam yönetimi gibi sınırlı bir çerçeveyi ifade eder. Tam entegre modelde ise SEO, reklam, sosyal medya, web, OTA–PMS, çağrı merkezi ve veri analizi aynı hedef setine bağlı, ortak KPI’larla çalışır. Bu, özellikle 2025 ve sonrası için dijital büyüme adımlarında daha sağlıklı ve ölçeklenebilir bir model sunar."
+        },
+        {
+          "q": "DGTLFACE hangi sektörlerde hizmet veriyor?",
+          "a": "Öncelikli odağımız: otel ve turizm işletmeleri, turizm odaklı zincir oteller ve tatil köyleri & resort yapılardır. Bunun yanında teknoloji ve B2B projeler, kurumsal hizmetler, sağlık, eğitim ve diğer büyüme odaklı markalar için de uyarlanmış hizmet modellerimiz bulunuyor."
+        },
+        {
+          "q": "Hizmetlerin etki süresi neye göre değişiyor?",
+          "a": "Etki süresi; kanal, rekabet ve mevcut duruma göre farklılık gösterir: SEO: 60–90 gün içinde görünür iyileşme, 6–12 ayda kalıcı etki. Reklam: 1–4 hafta içinde dönüşüme yönelik net veriler. Sosyal medya: 4–8 hafta içinde etkileşim ve topluluk etkisi. OTA–PMS entegrasyonları: 3–14 gün içinde operasyonel iyileşme. Çağrı merkezi: doğru script ve eğitimle ilk günden itibaren ölçülebilir etki. <reporting>(→ Veri Analiz & Raporlama)</reporting>"
+        },
+        {
+          "q": "Hizmetlerde dil yapısı nasıl kurgulanıyor?",
+          "a": "Strateji, raporlama ve koordinasyon süreçleri ağırlıklı olarak Türkçe ve İngilizce yürütülür. Otel ve turizm projelerinde, misafir iletişimi tarafında TR–EN–DE–RU dil yapısı devreye alınabilir. İçerik, web ve çağrı merkezi hizmetleri, hedef pazarlara göre çok dilli kurgulanır."
+        },
+        {
+          "q": "DGTLFACE’in 2025 dijital büyüme yaklaşımı nedir?",
+          "a": "2025 için temel yaklaşımımız, “tek kanala yüklenmek” yerine entegre, veri odaklı büyüme modelleri kurmaktır. SEO, reklam, sosyal medya, web, OTA–PMS, çağrı merkezi ve analitik aynı strateji ve raporlama altında birleştirilerek; bütçenin sürdürülebilir ve ölçülebilir bir büyüme üretmesi sağlanır."
+        },
+        {
+          "q": "DGTLFACE, hizmetleri arasında cross-sell yaklaşımını nasıl ele alıyor?",
+          "a": "Cross-sell bakış açımız; bir hizmeti satmak değil, işletmenin hedef ve bütçesine gerçekten uyan kombinasyonu önermek üzerine kurulu. Örneğin: sadece SEO ile kısa vadede agresif satış hedeflemek yerine, SEO + reklam + web optimizasyonunu bir arada düşünmek çoğu projede daha sağlıklı bir sonuç üretir."
+        },
+        {
+          "q": "Hizmetlerin her biri için temel tanımları tek cümle ile alabilir miyim?",
+          "a": "SEO: Arama motorlarında doğru kitleye organik görünürlük sağlama süreci. Google Ads / reklam: Hedef kitleye ücretli ama ölçülebilir şekilde ulaşma aracı. Sosyal medya yönetimi: Marka algısı, topluluk ve etkileşimi yönetme disiplini. Web geliştirme: Tüm dijital trafiğin iniş yaptığı performans odaklı altyapı. OTA–PMS yönetimi: Otel tarafında oda, fiyat ve kanal yönetiminin omurgası. Çağrı merkezi: Telefon ve mesaj kanallarında satış ve misafir iletişim noktası. Veri analizi & raporlama: Tüm bu süreçlerin gerçekten sonuç üretip üretmediğini gösteren karar destek katmanı."
+        }
+      ]
+    },
+
+        "quickAnswers": {
+      "title": "Kısa ve Hızlı Yanıtlar",
+      "items": [
+        {
+          "q": "DGTLFACE hangi hizmetleri sunuyor?",
+          "a": "SEO, reklam yönetimi, sosyal medya, web geliştirme, OTA–PMS entegrasyonu, çağrı merkezi ve creative üretim gibi temel dijital hizmetlerin tamamını tek merkezden sunuyoruz."
+        },
+        {
+          "q": "Hangi hizmetten başlamalıyım?",
+          "a": "Mevcut durumunuza göre genellikle önce SEO + web performansı ve en az bir performans kanalı (reklam veya OTA–PMS optimizasyonu) ile başlıyoruz; sonrasında sosyal medya ve creative katmanları ekleniyor."
+        },
+        {
+          "q": "Sadece SEO mu, yoksa reklam + sosyal medya da mı almalıyım?",
+          "a": "Kısa vadede sonuç istiyorsanız SEO’nun yanına mutlaka reklam eklenmesini, marka algısı için de sosyal medya katmanını öneriyoruz."
+        },
+        {
+          "q": "Hizmetlerin etkisi ne kadar sürede görülür?",
+          "a": "SEO etkisi için 60–90 gün, reklam için 1–4 hafta, sosyal medya için 4–8 hafta, OTA–PMS için 3–14 gün, çağrı merkezi için ise ilk günden itibaren ölçülebilir etki öngörüyoruz."
+        },
+        {
+          "q": "Tam hizmet paketi almak zorunda mıyım?",
+          "a": "Hayır. Tek kanal ile başlayıp, sonuç aldıkça diğer hizmetleri kademeli olarak eklemek de mümkündür."
+        },
+        {
+          "q": "DGTLFACE’in hizmet modelinden kimler faydalanabilir?",
+          "a": "Otel ve turizm işletmeleri başta olmak üzere; teknoloji, B2B, kurumsal hizmetler, sağlık, eğitim ve büyüme odaklı markalar bu modelden faydalanabilir."
+        }
+      ]
+    },
+     "section3": {
+    "title": "Hizmet Kapsamı ve Derinlemesine Sorular",
+    "items": [
+      {
+        "q": "SEO hizmetinizin kapsamı nedir?",
+        "a": "SEO hizmeti; teknik SEO analizi, içerik stratejisi, bilgi mimarisi, anahtar kelime haritaları, sayfa içi optimizasyon, blog/SSS içerikleri, link yapısı ve raporlamayı kapsar. Özellikle otel ve turizm projelerinde, destinasyon ve pazar bazlı içerik kurgusuna önem veriyoruz. <seo>(→ /tr/seo-hizmetleri)</seo>"
+      },
+      {
+        "q": "Reklam (Google Ads) hizmetiniz nasıl yapılandırılıyor?",
+        "a": "Google Ads ve diğer performans reklam kanallarında; kampanya ve hesap kurulumu, hedef kitle segmentasyonu, kreatif ve metin üretimi, dönüşüm hedefleri kurulumu, düzenli optimizasyon ve raporlama sunuyoruz. Hedef, bütçeyi sadece gösterim için değil, ölçülebilir dönüşüm için kullanmak."
+      },
+      {
+        "q": "Sosyal medya yönetimi hizmetiniz neleri kapsar?",
+        "a": "Sosyal medya tarafında; strateji ve içerik planı, görsel ve video içerik üretimi, topluluk yönetimi, mesaj ve yorum takibi, reklam destekli büyüme, aylık performans raporları sunuyoruz. Otellerde; konsept, sezon ve GEO’ya göre içerik dili şekillendiriliyor. <smm>(→ /tr/sosyal-medya-yonetimi)</smm>"
+      },
+      {
+        "q": "Web geliştirme ve yazılım tarafında hangi teknolojilerle çalışıyorsunuz?",
+        "a": "Projeye göre değişmekle birlikte, modern ve performans odaklı teknolojiler kullanıyoruz (örneğin Next.js, React, modern CMS çözümleri vb.). Otel ve kurumsal projelerde; hız ve Core Web Vitals, mobil uyumluluk, çok dilli yapı, rezervasyon ve form entegrasyonları kritik başlıklar olarak ele alınıyor. <software>(→ /tr/web-ve-yazilim-hizmetleri)</software>"
+      },
+      {
+        "q": "OTA–PMS yönetimi ve entegrasyon tarafında ne yapıyorsunuz?",
+        "a": "Otel projelerinde; PMS ve channel manager yapısının analizi, OTA fiyat, doluluk ve görünürlük optimizasyonu, kampanya ve sezon stratejilerinin dijital kanallarla uyumu, dijital pazarlama ile OTA–PMS yapısının senkronizasyonu üzerine çalışıyoruz. Amaç; dijital talebi, oda ve fiyat gerçekleriyle uyumlu hale getirmek."
+      },
+      {
+        "q": "Çağrı merkezi hizmetiniz, diğer dijital hizmetlerle nasıl entegre çalışıyor?",
+        "a": "Çağrı merkezi; SEO, reklam, sosyal medya, OTA ve web üzerinden gelen talebi telefon ve mesaj kanallarında satışa dönüştüren katmandır. Kampanyalarda kullanılan mesaj, fiyat ve avantajlar; çağrı merkezi script’leriyle uyumlu olacak şekilde kurgulanır."
+      },
+      {
+        "q": "Veri analizi ve raporlama hizmetinizin farkı nedir?",
+        "a": "Veri analizi hizmeti; yalnızca sayıları göstermekten öte, karar destek amaçlıdır. Google Analytics, reklam panelleri, PMS ve gelir verilerini birleştirir; Looker Studio gibi araçlarla dashboard’lar kurar; KPI’ları yönetim seviyesinde anlaşılır hale getirir. <reporting>(→ /tr/veri-analiz-ve-raporlama)</reporting>"
+      },
+      {
+        "q": "Creative hizmetler (görsel, video, kampanya konsepti) nasıl devreye giriyor?",
+        "a": "Creative üretim; SEO, reklam ve sosyal medya stratejisi ile uyumlu yürütülür. Kampanya görselleri, kısa sosyal medya videoları, banner ve landing page tasarımları, marka ve ürün odaklı yaratıcı fikirler dijital performansı destekleyecek şekilde üretilir."
+      },
+      {
+        "q": "Hizmetler arası entegrasyon süreçlerini kim yönetiyor?",
+        "a": "DGTLFACE tarafında, her projeye atanmış bir proje sorumlusu / account bulunur. SEO, reklam, sosyal medya, web, OTA–PMS, çağrı merkezi ve veri analizi ekipleri bu proje sorumlusu üzerinden senkronize edilir. Böylece hem siz tek bir ana muhatapla çalışır, hem de hizmetler arasında kopukluk yaşanmaz."
+      },
+      {
+        "q": "Hizmetlerinizde sözleşme ve taahhüt süreleri nasıl işliyor?",
+        "a": "Genellikle 6 veya 12 aylık sözleşmelerle çalışıyoruz. Ancak bazı durumlarda, özellikle pilot projeler veya tek kanal çalışmalarında daha kısa dönemli anlaşmalar da yapılabiliyor. Önemli olan, hizmet süresi boyunca hedef, kapsam ve KPI’ların net olması."
+      },
+      {
+        "q": "Hizmet seti içinde iç ekibimizle iş bölümü yapabilir miyiz?",
+        "a": "Evet. Birçok projede, iç ekiplerinizle rol paylaşımı yapıyoruz. Örneğin sosyal medya içerik üretiminin bir kısmı sizde, strateji ve reklam tarafı DGTLFACE’te olabilir; ya da web geliştirme sizde, SEO & içerik bizde olabilir. Model, ekibinizin kapasitesine göre uyarlanır."
+      },
+      {
+        "q": "Hizmetlerinizi 2025’te dijital büyüme adımlarına göre nasıl önceliklendiriyorsunuz?",
+        "a": "Genel öncelikleme mantığımız: 1) Temel altyapı (web performansı, analitik, dönüşüm takibi) 2) Görünürlük kanalları (SEO + reklam) 3) Marka ve topluluk (sosyal medya, creative) 4) Operasyonel entegrasyon (OTA–PMS, çağrı merkezi) 5) Gelişmiş analiz ve optimizasyon (veri analizi, A/B testleri). Bu sıralama, her sektör ve işletme için özelleştirilerek uygulanır."
+      }
+    ]
+  },
+  "section4": {
+  "title": "Sorun Giderme: Yatırım Var, Sonuç Yok Senaryoları",
+  "items": [
+    {
+      "q": "Dijital yatırım yapıyorum ama sonuç alamıyorum; temel problem ne olabilir?",
+      "a": "Çoğu zaman problem; yanlış hedefleme, zayıf web deneyimi, eksik dönüşüm takibi ve kanalların kopuk yönetimi kombinasyonundan kaynaklanır. Reklama veya içeriğe yatırım yapılır, ancak bu yatırım yanlış yerde ölçümlendiği için gerçek sonuç görülmez."
+    },
+    {
+      "q": "Reklam çalışıyoruz ama satış veya rezervasyon artmıyor; nereden başlamalıyım?",
+      "a": "Önce temel sorulara bakıyoruz: Doğru kitleye mi gösterim yapıyoruz? Mesaj ve teklif, hedef kitleyle uyuşuyor mu? Kullanıcıların indiği sayfa (landing page) deneyimi yeterli mi? Dönüşüm ve gelir takibi doğru mu kurulmuş? DGTLFACE, bu dört alanı birlikte analiz ederek nerede kayıp olduğunu ortaya koyar."
+    },
+    {
+      "q": "SEO çalışması alıyorum ama faydasını göremiyorum; bu normal mi?",
+      "a": "SEO doğası gereği orta–uzun vadeli bir disiplindir. Ancak 60–90 gün içerisinde hiç sinyal alınmıyorsa; yanlış anahtar kelime seçimi, zayıf içerik mimarisi, teknik sorunlar, sektör ve rekabet analizinin eksikliği gibi konular masaya yatırılmalıdır."
+    },
+    {
+      "q": "Farklı ajans ve tedarikçilerle çalışıyorum; süreç çok karışık hale geldi, nasıl sadeleşebilir?",
+      "a": "SEO bir yerde, reklam başka yerde, sosyal medya başka ekipte, web başka kurumda olduğunda; strateji, mesaj ve raporlama parçalı hale gelir. DGTLFACE, bu yapıların üstüne bir “entegrasyon katmanı” koyarak, tek strateji ve raporlama yapısı kurulmasına yardımcı olur."
+    },
+    {
+      "q": "2025’te en sık görülen dijital yatırım hataları nelerdir?",
+      "a": "Sadece takipçi veya gösterim odaklı bakmak, web performansını ve dönüşüm takibini ihmal etmek, her şeyi kısa vadeli kampanyalarla çözmeye çalışmak, kanalları birbirinden bağımsız yönetmek, veri analizi ve raporlamayı “rapor göndermek”ten ibaret görmek. DGTLFACE modeli, bu hataların tamamını sistematik olarak azaltmayı hedefler."
+    }
+  ]
+},
+
+"section5": {
+  "title": "Antalya ve Diğer Bölgeler İçin Hizmet Soruları",
+  "items": [
+    {
+      "q": "Antalya’daki oteller için hangi hizmet kombinasyonu daha kritik?",
+      "a": "Antalya’da yüksek oda kapasitesi, yoğun sezon ve çok pazarlı yapı nedeniyle; SEO + reklam + OTA–PMS + çağrı merkezi kombinasyonu en kritik modeldir. Sosyal medya ve creative katmanları ise konsept ve destinasyon algısını güçlendirmek için devreye girer."
+    },
+    {
+      "q": "Belek, Kemer, Side, Bodrum ve Alanya’da yaklaşımınız nasıl değişiyor?",
+      "a": "Her bölgenin misafir profili ve fiyat dengesi farklıdır: Belek: Golf & luxury, yüksek ADR; paket ve özel deneyim vurgusu. Kemer / Side: Aile ve eğlence odaklı; konsept ve aktiviteler ön planda. Bodrum: Lifestyle ve adults-only konsept; deneyim dili daha rafine. Alanya: Fiyat/performans; uygun fiyat–değer dengesini doğru anlatmak önemli. Strateji, bu farklara göre netleştirilir."
+    },
+    {
+      "q": "Sadece Antalya ve çevre bölgeler için mi hizmet veriyorsunuz?",
+      "a": "Hayır. Antalya, Belek, Kemer, Side, Bodrum ve Alanya bizim için doğal bir çekirdek pazar olsa da; Türkiye’nin diğer turizm destinasyonları ve Avrupa pazarına çalışan otellerle de çalışıyoruz."
+    },
+    {
+      "q": "Antalya bölgesindeki oteller için OTA–PMS ve dijital pazarlama nasıl birlikte düşünülmeli?",
+      "a": "Antalya gibi yoğun destinasyonlarda, OTA–PMS yapısı ile dijital pazarlama senkron çalışmalıdır. Kampanyalar ve fiyat stratejileri; OTA, web ve çağrı merkezi tarafında aynı mesaj ve stok yönetimi ile yürütülmelidir. DGTLFACE, bu iki dünyayı bir araya getirir."
+    },
+    {
+      "q": "Bölgesel SEO ve içerik üretimi oteller için neden önemli?",
+      "a": "“Antalya family hotel”, “Belek golf resort”, “Side all inclusive” gibi aramalar, doğrudan bölge + konsept odaklıdır. Bu yüzden SEO, içerik ve sosyal medya stratejisinde bölgesel ve konsept odaklı anahtar kelimeler ayrı ayrı ele alınmalıdır."
+    }
+  ]
+},
+
+"section6": {
+  "title": "Mini Hizmetlerimiz SSS (Kısa Cevaplar)",
+  "items": [
+    {
+      "q": "Aynı anda hem SEO hem reklam yönetimi alabilir miyim?",
+      "a": "Evet, çoğu projede SEO ve reklam birlikte yürütülür; biri orta–uzun vadeli, diğeri kısa vadeli sonuç üretir."
+    },
+    {
+      "q": "Sadece sosyal medya yönetimi almak mantıklı mı?",
+      "a": "Mümkün, ancak genelde web ve SEO tarafı güçlendirildiğinde sosyal medya yatırımı daha iyi sonuç verir."
+    },
+    {
+      "q": "Sadece veri analizi & raporlama hizmeti alabilir miyim?",
+      "a": "Evet. Mevcut ajans ve ekiplerinizle çalışmaya devam ederken, yalnızca raporlama ve performans değerlendirme tarafında DGTLFACE’ten destek alabilirsiniz."
+    },
+    {
+      "q": "Hizmetler için minimum sözleşme süresi var mı?",
+      "a": "Genelde 6–12 aylık süreler öneriyoruz; ancak bazı kanallar için daha kısa pilot dönemler de mümkün."
+    },
+    {
+      "q": "Hizmetlerinizde KPI’ları kim belirliyor?",
+      "a": "KPI’lar; iş hedefleriniz, bütçe ve sektör dinamiklerine göre birlikte tanımlanır; tek taraflı dayatılmaz."
+    },
+    {
+      "q": "Hizmetlerinizde kreatif üretim zorunlu mu?",
+      "a": "Hayır; mevcut kreatifleriniz kullanılabilir. Ancak performans artışı için çoğu zaman creative revizyonu öneriyoruz."
+    },
+    {
+      "q": "Çağrı merkezi hizmeti olmadan da kampanya yönetebilir miyim?",
+      "a": "Evet; ancak özellikle otel projelerinde, telefon ve mesaj trafiğini yönetecek bir yapı olduğunda kampanya verimliliği belirgin şekilde artar."
+    },
+    {
+      "q": "Web sitem eski ama değiştirip değiştirmemek konusunda kararsızım; ne yapıyorsunuz?",
+      "a": "Mevcut siteyi teknik ve kullanıcı deneyimi açısından analiz edip, iyileştirme mi yoksa yeniden yapım mı daha mantıklı; bunu raporlarız."
+    },
+    {
+      "q": "Hizmetlerinizle ilgili demo veya örnek çalışma görebilir miyim?",
+      "a": "Gizlilik anlaşmalarına uygun şekilde, benzer projelerden anonimleştirilmiş örnekler paylaşabiliyoruz."
+    },
+    {
+      "q": "Bu SSS içeriği ne sıklıkla güncelleniyor?",
+      "a": "Hizmet paketleri, ürün seti veya önceliklendirme stratejisi değiştiğinde; yeni dikeyler eklendiğinde veya model revize edildiğinde içerikler güncellenir. En az 180 günde bir gözden geçirme yapılması hedeflenir."
+    }
+  ]
+},
+
+"section7": {
+  "title": "DGTLFACE Hizmetleriyle Çalışmaya Başlamak",
+  "items": [
+    {
+      "q": "DGTLFACE hizmetleriyle çalışmaya başlamak için ilk adım nedir?",
+      "a": "İlk adım, hizmet analizi ve yol haritası çalışmasıdır. Hizmetlerimiz sayfasından veya iletişim formu üzerinden hedeflerinizi ve mevcut durumunuzu paylaşırsınız; ekip kısa bir ön analiz sonrası sizinle toplantı planlar."
+    },
+    {
+      "q": "Hangi hizmet kombinasyonunun benim için doğru olduğuna nasıl karar veriyoruz?",
+      "a": "Sektör, hedef pazar, bütçe ve mevcut altyapı analiz edildikten sonra; SEO + reklam, SEO + web + veri analizi, OTA–PMS + çağrı merkezi veya SEO + sosyal medya + creative gibi kombinasyonlar üzerinden somut alternatifler çıkarılır ve birlikte karar verilir."
+    },
+    {
+      "q": "Hizmetlerin performansı nasıl ve ne sıklıkla raporlanıyor?",
+      "a": "Kanal bazında haftalık kısa raporlar, aylık detaylı performans ve strateji raporları paylaşılır. İhtiyaca göre, yönetim sunumu formatında özet dashboard’lar da hazırlanır."
+    },
+    {
+      "q": "Hizmetlerimiz SSS sayfasından sonra hangi sayfalara göz atmalıyım?",
+      "a": "Bu sayfadan sonra Hizmetlerimiz ana sayfası, SEO hizmetleri, sosyal medya yönetimi, web & yazılım ve veri analizi & raporlama sayfaları önerilir. Böylece hem genel çerçeveyi hem de tek tek hizmet detaylarını net şekilde görebilirsiniz."
+    },
+    {
+      "q": "“Hizmetlerimizi İncele” butonu kullanıcıyı nereye yönlendirmeli?",
+      "a": "Bu butonun ana hedefi Hizmetlerimiz sayfasıdır. Sayfa altındaki buton alanı ve metin içi CTA’lar; Hizmetlerimiz, SEO ve veri analizi & raporlama gibi ana sayfalara yönlendirme yaparak, kullanıcının bir sonraki adımı netleştirmesine yardımcı olmalıdır."
+    }
+  ]
+}
+  },
+
+  "rich": {
+    "services": "Hizmetlerimiz",
+    "seo": "SEO Hizmetleri",
+    "smm": "Sosyal Medya Yönetimi",
+    "software": "Web & Yazılım",
+    "reporting": "Veri Analiz & Raporlama"
   }
+},
+
+
+ "FaqSem": {
+    "h1": "Google Ads & Dijital Reklam Yönetimi SSS (SEM Sık Sorulan Sorular)",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Google Ads & dijital reklam yönetimi; yalnızca birkaç kampanya açıp bütçe harcamak değil, <b>doğru hedef kitleyi, doğru mesaj ve doğru tekliflerle</b>, arama ağı, YouTube Ads, Display ve Remarketing gibi kanallarda sistematik olarak yakalamak demektir. Özellikle otel ve turizm sektöründe, her pazar ve sezon için <b>farklı strateji, farklı bütçe ve farklı kreatif</b> kurgusunu gerektirir.",
+      "p2": "Bu SSS sayfası; Google Ads, YouTube, Display ve Remarketing kampanyalarının <b>otel & turizm ve performans odaklı markalar</b> için nasıl yapılandırılması gerektiğini,<b> bütçe ve dönüşüm optimizasyonunu, GA4 + Tag Manager + Looker Studio</b> ile raporlama süreçlerini ve en sık yaşanan sorunlara yönelik çözümleri bir araya getirir. Hem karar vericiler hem de pazarlama ekipleri için, <b>pratik ama uzmanlık düzeyinde</b> bir referans noktasıdır.",
+      "p3": "Dijital reklam yatırımı yapmasına rağmen <b>rezervasyon, satış veya lead artışı göremeyen</b>; görünürlüğü olup dönüşümü olmayan veya “Google Ads bütçem nereye gidiyor?” sorusunu sıkça soran işletmeler için, buradaki sorular SEM tarafında <b>nerede durduklarını ve nereye gitmeleri gerektiğini</b> netleştirmeyi amaçlar."
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "Bu SSS sayfası, Google Ads ve dijital reklam yönetimi ile ilgili en sık sorulan soruları bir araya getirir; arama ağı, YouTube Ads, Display ve Remarketing kampanyalarının otel ve turizm odaklı performans kurgularını açıklar. Dönüşüm takibi, bütçe optimizasyonu ve GA4 + Tag Manager + Looker Studio ile raporlama süreçlerini netleştirerek hem karar vericiler hem de pazarlama ekipleri için <b>pratik bir referans</b> sunar."
+    },
+
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": "Google Ads & Dijital Reklam Yönetimi SSS sayfası; arama ağı, YouTube, Display ve Remarketing kampanyalarının otel odaklı yönetimini, bütçe ve dönüşüm optimizasyonunu özetleyerek karar vericiler için hızlı anlaşılır bir rehber sunar."
+    },
+
+    "voiceQueries": {
+      "title": "Sık Sorulan Örnek Sorgular",
+      "q1": "Google Ads & dijital reklam yönetimi nedir?",
+      "q2": "Otelim için Google Ads’e nereden başlamalıyım?",
+      "q3": "Google Ads’i ajansla mı yoksa kendi ekibimle mi yönetmeliyim?",
+      "q4": "SEM hizmeti kimler için uygundur?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Google Ads & SEM Hakkında Genel Sorular",
+        "items": [
+          {
+            "q": "Google Ads & dijital reklam yönetimi nedir?",
+            "a": "Google Ads & dijital reklam yönetimi; Google ekosistemindeki arama ağı, görüntülü reklam ağı (Display), YouTube, Discovery ve diğer formatlarda, <b>hedef kitleye kontrollü ve ölçülebilir bir şekilde ulaşma sürecidir</b>. Amaç, sadece tıklama almak değil, tıklamaların <b>rezervasyon, satış veya lead</b> gibi net hedeflere dönüşmesini sağlamaktır."
+          },
+          {
+            "q": "SEM ile SEO arasındaki temel fark nedir?",
+            "a": "SEO, organik sıralamaları iyileştiren <b>orta–uzun vadeli</b> bir çalışma iken; SEM (Google Ads ve diğer reklam ağları), belirli bir bütçe karşılığında <b>hemen görünürlük sağlayan</b> ücretli trafik kanalıdır. En sağlıklı model, SEO ve SEM’in <b>birbirini beslediği</b> entegre yapıdan oluşur."
+          },
+          {
+            "q": "SEM hizmeti kimler için uygundur?",
+            "a": "<ul><li>Otel ve turizm işletmeleri, </li><li>Performans odaklı e-ticaret projeleri, </li><li>B2B lead generation hedefleyen markalar,  </li><li>Sağlık ve eğitim gibi randevu/başvuru odaklı sektörler  </li></ul> için SEM, doğru kurgulandığında <b>ölçülebilir ve ölçeklenebilir</b> bir büyüme aracı sağlar."
+          },
+          {
+            "q": "Otelim için SEM’e nereden başlamalıyım?",
+            "a": "Otel projelerinde başlangıç genellikle<ul><li> Marka ve destinasyon bazlı arama kampanyaları, </li><li>Dinamik arama ve marka dışı (generic) aramalar, </li><li>Remarketing ve YouTube ile desteklenen <b>multi-channel</b> yapı </li></ul> şeklindedir. Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda, pazar ve sezon dinamikleri mutlaka dikkate alınmalıdır. <services>(→ Otel Dijital Pazarlama)</services> <seo>(→ Google Ads Yönetimi)</seo>"
+          },
+          {
+            "q": "Google Ads’i ajansla mı yönetmeliyim, yoksa iç ekip yeterli mi?",
+            "a": "İçeride deneyimli bir ekip varsa, ajans veya partner daha çok <b>strateji, optimizasyon ve raporlama</b> katmanı olarak konumlanabilir. SEM tarafı sıfırdan kurulacaksa veya otel gibi çok pazarlı, sezonlu yapılarda çalışılıyorsa, deneyimli bir partnerle yürümek çoğu zaman <b>daha sağlıklı ve daha az riskli</b> olur."
+          },
+          {
+            "q": "Google Ads kampanyalarınız sadece arama ağına mı odaklanıyor?",
+            "a": "Hayır. Stratejiye göre <ul><li>Arama ağı (Search), </li><li>YouTube Ads, Display ve Discovery, </li><li>Remarketing </li><li> gerekirse Performance Max </li></ul> kombinasyonları kullanılır. Otel projelerinde, arama ağının yanında YouTube ve Remarketing, <b>funnel’ı tamamlayıcı</b> rol oynar. <smm>(→ YouTube Reklam Yönetimi)</smm> <reporting>(→ Remarketing & Display)</reporting>"
+          },
+          {
+            "q": "SEM çalışmasının başarısını nasıl ölçüyorsunuz?",
+            "a": "Başarı, sadece tıklama veya gösterimle değil; <ul><li>Rezervasyon/satış sayısı, </li><li>Dönüşüm başına maliyet (CPA), </li><li>ROAS, </li><li>Doluluk ve ADR üzerindeki etki, </li><li>Lead kalitesi </li></ul>gibi <b>işe dönük</b> metriklerle ölçülür. Bu veriler GA4, Tag Manager ve reklam panelleriyle birlikte <b>Looker Studio dashboard’ları</b> üzerinden takip edilir. <reporting>(→ Reklam Raporlama)</reporting> <reporting>(→ Dönüşüm Takibi & Tag Manager)</reporting>"
+          },
+          {
+            "q": "Sadece marka aramalarına reklam vermek yeterli mi?",
+            "a": "Hayır. Marka aramaları önemli olsa da, yeni kitlelere ulaşmak ve pazar payı kazanmak için<ul><li> destinasyon + otel konsepti, </li><li> tatil teması,</li><li> problem/çözüm odaklı aramalar </li></ul> gibi <b>generic</b> aramaları da hedeflemek gerekir. Marka ve generic stratejisi birlikte kurgulanmalıdır."
+          },
+          {
+            "q": "SEM bütçesi nasıl planlanır?",
+            "a": "Bütçe planlarken<ul><li> hedef pazarlar,</li><li> oda/ürün kapasitesi, </li><li>sezon,</li><li> hedeflenen doluluk/satış, </li><li>tıklama ve dönüşüm tahminleri </li></ul>dikkate alınır. Çoğu projede, önce <b>test ve öğrenme dönemi</b>, sonrasında başarılı kampanyaların <b>ölçeklenmesi</b> önerilir."
+          },
+          {
+            "q": "SEM, diğer kanallarla birlikte nasıl konumlanmalı?",
+            "a": "SEM; SEO, sosyal medya, OTA ve çağrı merkezi ile birlikte düşünülmelidir. Google Ads ile yakalanan talep<ul><li> web site deneyimi,</li><li> remarketing,</li><li> telefon ve mesaj trafiği </li></ul> ile desteklenmezse, potansiyelin önemli bir kısmı <b>boşa gidebilir</b>. En iyi sonuçlar, <b>entegre dijital model</b> ile alınır."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+  "title": "Kısa ve Hızlı Yanıtlar",
+  "items": [
+    {
+      "q": "Google Ads & dijital reklam yönetimi nedir?",
+      "a": "İşletmenizin hedef kitlesine Google’ın arama, YouTube ve görüntülü ağlarında kontrollü ve ölçülebilir şekilde ulaşmasını sağlayan ücretli reklam sistemidir."
+    },
+    {
+      "q": "SEM hizmeti kimler için en çok fayda sağlar?",
+      "a": "Online rezervasyon, satış veya form/lead hedefi olan; özellikle otel, e-ticaret, B2B, sağlık ve eğitim gibi sektörler için en yüksek faydayı üretir."
+    },
+    {
+      "q": "Otelim için Google Ads’e nasıl başlarım?",
+      "a": "Önce pazar ve sezon analiz edilir, ardından marka + destinasyon temelli arama kampanyaları ve remarketing ile başlanır; performansa göre genişletilir."
+    },
+    {
+      "q": "Google Ads bütçesini nasıl belirlemeliyim?",
+      "a": "Hedeflenen oda veya satış sayısı, rekabet seviyesi ve tıklama maliyetlerine göre aylık minimum bütçe hesaplanır; test döneminde performansa göre revize edilir."
+    },
+    {
+      "q": "SEM çalışmasıyla ne kadar sürede sonuç görürüm?",
+      "a": "Doğru kurulum ve izleme ile genellikle 1–4 hafta içinde net dönüşüm verileri ve optimizasyon fırsatları görülmeye başlar."
+    },
+    {
+      "q": "Google Ads’i kesinlikle profesyonel ekiple mi yönetmeliyim?",
+      "a": "Teknik bilgi ve zaman gerektirdiği için profesyonel ekip avantaj sağlar; ancak iç ekibiniz güçlü ise strateji ve optimizasyon için hibrit model de mümkündür."
+    }
+  ]
+},
+
+
+"section3": {
+  "title": "SEM & Strateji Soruları",
+  "items": [
+    {
+      "q": "Otel odaklı SEM stratejisinde arama, YouTube ve Remarketing nasıl kombine edilmeli?",
+      "a": "Otel projelerinde tipik kombinasyon;<ul><li> Arama ağı ile niyeti yüksek kullanıcıyı yakalamak, </li><li> YouTube ile marka ve destinasyon algısını güçlendirmek, </li><li> Remarketing ile siteye gelen ama rezervasyon yapmayan kullanıcıları geri çağırmaktır.</li></ul>  Bu üç kanal, aynı kampanya hedefi ve dönüşüm takibi etrafında kurgulanmalıdır."
+    },
+    {
+      "q": "Performance Max kampanyalarını oteller için nasıl konumlandırıyorsunuz?",
+      "a": "Performance Max, doğru dönüşüm verisi ve feed yapısı olduğunda güçlü olabilir; ancak özellikle otel tarafında marka kontrolü ve mesaj netliği için çoğu zaman klasik Search + Display/Remarketing + YouTube kombinasyonu ile birlikte, kontrollü şekilde kullanılması önerilir."
+    },
+    {
+      "q": "Bid stratejileri (tROAS, tCPA, Maximize Conversions) nasıl seçiliyor?",
+      "a": "Bid stratejisi; veri hacmi, bütçe ve hedefe göre seçilir. Yeterli dönüşüm verisi yoksa Maximize Conversions, veriler oturduğunda tCPA veya tROAS tercih edilir. Yanlış bid stratejisi, iyi bir kurulumun bile performansını düşürebilir."
+    },
+    {
+      "q": "SEM tarafında A/B testlerini nasıl kurguluyorsunuz?",
+      "a": "Farklı mesaj ve teklif testleri, farklı landing page kombinasyonları, farklı hedef kitle ve bölge kırılımları, farklı bid stratejisi karşılaştırmaları ile ilerliyoruz. Testler, önceden tanımlı bir süre ve hedef setine göre planlanır."
+    },
+    {
+      "q": "Brand ve non-brand (generic) kampanyaları nasıl ayırmak gerekir?",
+      "a": "Brand ve non-brand kampanyalar mutlaka ayrı kampanyalar ve çoğu zaman ayrı bütçelerle yönetilmelidir. Brand kampanyalar düşük maliyet ve yüksek dönüşüm oranı sunarken, non-brand tarafı yeni kitle kazanımı için kritiktir."
+    },
+    {
+      "q": "Otel projelerinde mobile vs desktop dağılımını nasıl yönetiyorsunuz?",
+      "a": "Otel projelerinde mobile trafiğin yüksek olması sebebiyle mobile öncelikli kreatif ve metin, mobil hız ve rezervasyon kolaylığı, cihaz bazlı teklif ayarları ön plana çıkar. Ancak B2B veya kurumsal projelerde desktop trafiği de göz ardı edilmez."
+    },
+    {
+      "q": "SEM stratejisi, OTA ve doğrudan rezervasyon dengesini nasıl etkiler?",
+      "a": "SEM, yalnızca OTA’ya trafik taşımak yerine otelin direkt rezervasyon kanalını güçlendirmek için kurgulanmalıdır. Doğru keyword ve landing page kombinasyonlarıyla direct booking’e yönlendiren bir yapı esas alınır."
+    },
+    {
+      "q": "SEM stratejinizde 2025 için en kritik değişkenler neler?",
+      "a": "GA4 geçişi ve event bazlı ölçüm, cookieless dünyaya geçiş hazırlıkları, yapay zeka tabanlı bid ve kreatif sistemleri, çoklu kanal (search + video + display) birlikteliği 2025 ve sonrası için SEM stratejisinin ana bileşenleridir."
+    }
+  ]
+},
+
+"section4": {
+  "title": "Performans Sorunları & Troubleshooting",
+  "items": [
+    {
+      "q": "Google Ads bütçem boşa gidiyor gibi hissediyorum; nereden başlamalıyım?",
+      "a": "Öncelikle kampanya ve keyword yapısına, negatif kelime listelerine, cihaz/bölge/ziyaretçi kırılımlarına ve dönüşüm takibinin doğruluğuna bakmak gerekir. DGTLFACE, bu alanlarda detaylı bir “SEM audit” ile bütçenin nereye gittiğini ortaya koyar."
+    },
+    {
+      "q": "Tıklamalar var ama dönüşüm yok; sorun kampanyada mı, web sitesinde mi?",
+      "a": "Çoğu zaman cevabı “ikisinde de biraz”dır. Yanlış kitle veya mesajla gelen bir trafik, zayıf bir landing page ile birleştiğinde kaçınılmaz olarak düşük dönüşüm üretir. Hem kampanya hedeflemesi hem de sayfa deneyimi birlikte ele alınmalıdır."
+    },
+    {
+      "q": "Kalite puanlarım düşük; neye dikkat etmeliyim?",
+      "a": "Kalite puanı; anahtar kelime–reklam metni–landing page uyumunu, beklenen tıklama oranını ve sayfa deneyimini yansıtır. Düşük kalite puanı varsa; keyword grupları daraltılmalı, reklam metinleri daha spesifik hale getirilmeli, landing page arama niyetiyle uyumlu hale getirilmelidir."
+    },
+    {
+      "q": "Çok fazla tıklama var ama alakasız kitle geliyor; ne yapmalıyım?",
+      "a": "Geniş eşleme keyword kullanımını sınırlamak, negatif kelime listelerini güçlendirmek, konum ve dil ayarlarını gözden geçirmek, arama terimleri raporunu sık takip etmek bu sorunu çözmek için ilk adımdır."
+    },
+    {
+      "q": "Dönüşüm takibim doğru çalışmıyorsa optimizasyon yapmanın anlamı var mı?",
+      "a": "Hayır. Yanlış veya eksik dönüşüm takibi ile yapılan optimizasyon, çoğu zaman yanlış kampanyaları ödüllendirir, doğru kampanyaları cezalandırır. Bu yüzden, GA4 + Tag Manager kurulumunun sağlam olması, SEM performansı için vazgeçilmezdir. <reporting>(→ Dönüşüm Takibi & Tag Manager)</reporting>"
+    },
+    {
+      "q": "Bütçe sınırlı; hem brand hem generic kampanyayı nasıl yönetebilirim?",
+      "a": "Sınırlı bütçelerde; zorunlu brand koruması, en yüksek niyetli generic terimler ve remarketing ile funnel tamamlama üzerine odaklanmak daha verimlidir. Çok geniş yayılmak yerine, dar ama yüksek niyetli alanlarda derinleşmek gerekir."
+    },
+    {
+      "q": "Sezonluk otelimde boş dönemlerde SEM ile ne yapabilirim?",
+      "a": "Boş dönemlerde erken rezervasyon, uzun konaklama ve lokal pazar kampanyaları gibi hedeflerle SEM stratejisi kurgulanabilir. Ayrıca remarketing ve e-posta listeleri ile “geri kazanım” kampanyaları oluşturmak da mümkündür."
+    },
+    {
+      "q": "SEM tarafında performans düşüşü olduğunda ne kadar hızlı aksiyon alıyorsunuz?",
+      "a": "Performans, günlük ve haftalık dashboard’larla takip edilir. Kritik bir düşüş varsa, 24–72 saat içinde sebep analizi ve aksiyon planı çıkarılır; sezon ve pazar dinamiklerine göre kampanya ayarları revize edilir."
+    }
+  ]
+},
+
+"section5": {
+  "title": "Bölgesel SEM Soruları (Türkiye Geneli + Antalya ve Sahil Destinasyonları)",
+  "items": [
+    {
+      "q": "Türkiye geneli oteller için SEM yaklaşımınız nedir?",
+      "a": "Türkiye genelindeki oteller için yaklaşım; destinasyon, sezon ve pazar dinamiklerine göre ayrı stratejiler kurmaktır. İstanbul, Antalya, Ege ve Kapadokya gibi bölgeler, farklı arama kalıpları ve rekabet seviyeleri gerektirir."
+    },
+    {
+      "q": "Antalya (Belek, Kemer, Side, Alanya) gibi sahil destinasyonlarında SEM neden kritik?",
+      "a": "Bu bölgelerde yüksek oda kapasitesi ve yoğun sezon rekabeti nedeniyle, doğru kitleye doğru zamanda ulaşmak için SEM kritik bir kaldıraçtır. Dönemsel kampanyalar, erken rezervasyon ve son dakika kampanyalarında Google Ads, çok güçlü bir araçtır."
+    },
+    {
+      "q": "Belek’te golf & luxury oteller, diğerlerinden farklı bir SEM stratejisi mi ister?",
+      "a": "Evet. Golf & luxury segmentte daha yüksek bütçeli ama dar kitleler, paket ve deneyim odaklı anahtar kelimeler ve yüksek ADR hedefli kampanyalar ön plana çıkar. Burada YouTube ve remarketing ile deneyim vurgusu önemlidir."
+    },
+    {
+      "q": "Alanya ve benzeri fiyat/performans destinasyonlarında SEM’i nasıl konumlandırıyorsunuz?",
+      "a": "Bu bölgelerde uygun fiyat–değer dengesi kritiktir. Reklam metinlerinde ve landing page’de fiyat/performans vurgusu, aile konaklaması ve konfor unsurları ön plana çıkarılır; bütçe en yüksek niyetli kullanıcıları yakalayacak şekilde planlanır."
+    },
+    {
+      "q": "Türkiye geneli şehir otelleri için SEM stratejisi nasıl farklılaşır?",
+      "a": "Şehir otellerinde iş seyahati, toplantı ve kısa konaklama gibi arama niyetleri ağır basar. SEM stratejisi; weekday/weekend ayrımı, şirket ve kurumsal aramalar, event ve fuar dönemlerine göre şekillendirilir."
+    }
+  ]
+},
+
+"section6": {
+  "title": "Mini SEM SSS (Kısa Cevaplar)",
+  "items": [
+    {
+      "q": "Sadece Remarketing kampanyası ile başlayabilir miyim?",
+      "a": "Mümkün, ancak yeni kullanıcı kazanımı için mutlaka arama veya başka bir trafik kaynağı ile desteklenmelidir."
+    },
+    {
+      "q": "Sadece marka aramalarına reklam vermek yeterli mi?",
+      "a": "Marka koruması için önemli ama tek başına yeterli değildir; yeni müşteri kazanımı için generic terimler de gereklidir."
+    },
+    {
+      "q": "YouTube Ads oteller için gerçekten işe yarıyor mu?",
+      "a": "Doğru hedefleme ve kreatif ile, özellikle sezon öncesi ve destinasyon tanıtımında çok güçlü bir üst-funnel aracı olabilir."
+    },
+    {
+      "q": "Display kampanyaları sadece görünürlük için midir?",
+      "a": "Hayır. Remarketing ve akıllı hedefleme ile, Display kampanyaları dönüşüm hunisinde tamamlayıcı rol oynayabilir."
+    },
+    {
+      "q": "SEM yaparken sosyal medya reklamları şart mı?",
+      "a": "Şart değil ama önerilir; Google Ads ile gelen talep, sosyal medya reklamları ile güçlendirilmiş bir funnel’da daha yüksek dönüşüm oranı üretir."
+    },
+    {
+      "q": "Google Ads olmadan sadece SEO ile ilerleyebilir miyim?",
+      "a": "Mümkün, ancak özellikle rekabetçi sektörlerde, sadece SEO ile kısa vadede istenen hızda büyüme sağlanamayabilir."
+    },
+    {
+      "q": "Minimum günlük bütçe için bir alt limit var mı?",
+      "a": "Net bir evrensel alt limit yok; ancak anlamlı veri ve optimizasyon için çoğu projede belirli bir minimum günlük veya aylık bütçe önerilir."
+    },
+    {
+      "q": "SEM raporlarınızı ne sıklıkla iletiyorsunuz?",
+      "a": "Haftalık kısa özet, aylık detaylı performans raporu ve gerektiğinde kampanya dönemi özel raporları ile ilerliyoruz."
+    },
+    {
+      "q": "Aynı anda birden fazla pazara (ülkeye) reklam verebilir miyim?",
+      "a": "Evet; ancak her pazar için dil, teklif, mesaj ve landing page uyumlu şekilde planlanmalıdır."
+    },
+    {
+      "q": "Bu SEM SSS içeriği ne sıklıkla güncelleniyor?",
+      "a": "Google Ads ürünleri, teklif stratejileri veya raporlama yaklaşımında büyük değişiklikler olduğunda; DGTLFACE’in SEM hizmet kapsamı veya hedef pazarları güncellendiğinde yeniden gözden geçirilir ve refresh edilir."
+    }
+  ]
+},
+
+"section7": {
+  "title": "SEM Süreci, CTA ve Hizmet Başlangıcı Soruları",
+  "items": [
+    {
+      "q": "DGTLFACE ile Google Ads & dijital reklam yönetimi süreci nasıl ilerliyor?",
+      "a": "Süreç genellikle şu adımlarla ilerler: Mevcut hesap ve web/analitik yapısının analizi, hedeflerin ve KPI setinin netleştirilmesi, kampanya ve dönüşüm kurulumlarının yapılması, ilk 4–6 haftalık test ve optimizasyon dönemi, başarılı kampanyaların ölçeklenmesi ve aylık raporlama. <services>(Primary CTA: Google Ads & Dijital Reklam Yönetimi için teklif al)</services>"
+    },
+    {
+      "q": "Google Ads & dijital reklam yönetimi için nasıl teklif alabilirim?",
+      "a": "Kısaca sektörünüzü, hedef pazarlarınızı, sitenizi ve mevcut durumunuzu paylaştığınız bir brief sonrasında; DGTLFACE ekibi, hedef ve bütçe çerçevesini içeren bir teklif ve yol haritası hazırlar."
+    },
+    {
+      "q": "SEM projelerinde “uzmanla görüş” çağrısı ne anlama geliyor?",
+      "a": "“Uzmanla görüş” çağrısı; hazır paket satın almak yerine, işletmenizin dinlenip size özel kampanya yapısının tasarlanması anlamına gelir. Özellikle otel ve çok pazarlı yapılarda, bu görüşme strateji için kritik bir ilk adımdır."
+    },
+    {
+      "q": "Genel sorular için hangi SSS sayfasını da incelemeliyim?",
+      "a": "SEM’e özel bu sayfanın yanı sıra, DGTLFACE’in genel modelini ve hizmet kombinasyonlarını görmek için <services>(Genel SSS)</services> ve <services>(Hizmetlerimiz SSS)</services> sayfalarını incelemek büyük resmi anlamanıza yardımcı olur."
+    }
+  ]
+},
+
+"section8": {
+  "title": "Teknoloji, Dönüşüm Takibi ve Raporlama Soruları",
+  "items": [
+    {
+      "q": "GA4 + Tag Manager ile dönüşüm takibini nasıl kuruyorsunuz?",
+      "a": "Önce iş hedefleri belirlenir; ardından rezervasyon, form, telefon tıklaması, WhatsApp mesajı gibi dönüşümler event bazlı olarak tanımlanır. Tag Manager üzerinden tetikleyiciler ve etiketler kurulur; GA4 ve Google Ads ile entegrasyon sağlanır."
+    },
+    {
+      "q": "Looker Studio raporlarınız neleri içeriyor?",
+      "a": "Looker Studio dashboard’larında kanal bazlı trafik ve dönüşüm, kampanya ve keyword performansı, cihaz, bölge ve pazar kırılımları ile maliyet, gelir ve ROAS verileri tek ekranda sunulur. Yönetim için özet, pazarlama ekibi için detay seviyesinde görünüm sağlanır. <reporting>(→ Reklam Raporlama)</reporting>"
+    },
+    {
+      "q": "SEM raporlarınızı SEO ve diğer kanallarla birleştiriyor musunuz?",
+      "a": "Evet. SEM raporları, SEO, sosyal medya ve doğrudan trafik verileri ile birlikte okunur. Böylece tek tek kanal yerine bütünsel dijital performans görülür ve bütçe ile önceliklendirme kararları daha sağlıklı alınır."
+    },
+    {
+      "q": "Optimize edilmiş bir SEM yapısı ile dönüşüm oranları gerçekten 2–3 kat artabilir mi?",
+      "a": "Doğru kurulum, sağlam dönüşüm takibi, iyi bir landing page ve düzenli optimizasyon ile pek çok projede dönüşüm oranlarının 2–3 kata kadar iyileştiğini görmek mümkündür. Burada önemli olan, sadece kampanyayı değil tüm funnel’ı birlikte ele almaktır."
+    }
+  ]
+}
+
+    },
+
+    "cta": {
+      "primary": "SEM analizi talep edin",
+      "primaryHref": "/tr/sem",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
+    }
+  }
+
 
 
 }
