@@ -75,8 +75,8 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
   const [prevTranslate, setPrevTranslate] = useState(0);
   const wheelTimeout = useRef(null);
 
-  const ITEM_HEIGHT = 180;
-  const GAP = 20;
+  const ITEM_HEIGHT = 130;
+  const GAP = 0;
 
   const handleMouseDown = (e) => {
     setIsDragging(true);

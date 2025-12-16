@@ -12,7 +12,7 @@ const LogoListSectionBlack = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#8d60ce] z-[20] lg:pb-[260px]"  
+    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#8d60ce] z-[20] lg:pb-[100px]"  
     // style={{ background:
     //       `
     //   linear-gradient(

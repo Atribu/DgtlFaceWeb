@@ -2,14 +2,14 @@
 
 export const MAIN_SERVICES_CHIPS = [
   { label: "SEM", href: "/sem-sss" },
-  { label: "SEO", href: "/seo-hizmetleri" },
-  { label: "SMM", href: "/sosyal-medya-yonetimi" },
-  { label: "YAZILIM", href: "/web-ve-yazilim-hizmetleri" },
-  { label: "CREATIVE", href: "/creative" },
-  { label: "ÇAĞRI MERKEZİ", href: "/otel/cagri-merkezi" },
-  { label: "PMS & OTA", href: "/otel/pms-ota" },
-  { label: "DİJİTAL ANALİZ", href: "/veri-analiz-ve-raporlama" },
-  { label: "HOTEL", href: "/otel-dijital-pazarlama" },
+  { label: "SEO", href: "/seo-sss" },
+  { label: "SMM", href: "/smm-sss" },
+  { label: "YAZILIM", href: "/yazilim-sss" },
+  { label: "CREATIVE", href: "/creative-sss" },
+  { label: "ÇAĞRI MERKEZİ", href: "/cagri-merkezi-sss" },
+  { label: "PMS & OTA", href: "/pms-ota-sss" },
+  { label: "DİJİTAL ANALİZ", href: "/veri-analiz-ve-raporlama-sss" },
+  { label: "HOTEL", href: "/otel-dijital-pazarlama-sss" },
 ];
 
 // SSS sayfası slug’ına göre “baloncuk seti”
