@@ -8396,10 +8396,6 @@
           {
             "q": "SEO Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
             "a": "<ul><li>SEO Hizmetleri → /tr/seo-hizmetleri</li><li>Teknik SEO → /tr/seo/teknik-seo</li><li>Yerel SEO → /tr/seo/yerel-seo</li><li>İçerik SEO → /tr/seo/icerik-seo</li><li>SEO raporlama → /tr/seo/seo-raporlama</li><li>SEM ve otel dijital pazarlama → /tr/sem, /tr/otel-dijital-pazarlama</li></ul>Ayrıca daha genel çerçeve için Genel SSS sayfasını inceleyebilirsiniz: /tr/sss"
-          },
-          {
-            "q": "Bu SSS sayfasına sitede nerelerden erişmek mantıklı?",
-            "a": "SEO Hizmetleri SSS sayfası;<ul><li>/tr/seo-hizmetleri ana sayfası,</li><li>/tr/hizmetlerimiz,</li><li>/tr/otel-dijital-pazarlama ve ilgili blog/SSS sayfalarından,</li><li>footer SSS alanından</li></ul>erişilebilir olacak şekilde kurgulanmalıdır. Böylece SEO ile ilgili sorusu olan kullanıcı, her noktadan tek bir referans sayfaya yönlendirilebilir."
           }
         ]
       },
@@ -8750,10 +8746,6 @@
         {
           "q": "Sosyal Medya Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
           "a": "<ul><li>Sosyal Medya Yönetimi ana sayfası → /tr/sosyal-medya-yonetimi</li><li>İçerik üretimi → /tr/smm/icerik-uretimi</li><li>Planlama & strateji → /tr/smm/planlama-strateji</li><li>Reels & video → /tr/smm/reels-video</li><li>Sosyal medya reklamları → /tr/smm/sosyal-medya-reklamlari</li><li>Analiz & raporlama → /tr/smm/analiz-raporlama</li><li>Genel dijital çerçeve için → /tr/sem, /tr/otel-dijital-pazarlama, /tr/sss</li></ul>"
-        },
-        {
-          "q": "Bu SSS sayfasına sitede nerelerden ulaşmak mantıklı?",
-          "a": "Sosyal Medya Yönetimi SSS sayfası;<ul><li>/tr/sosyal-medya-yonetimi ana sayfası,</li><li>/tr/hizmetlerimiz,</li><li>/tr/otel-dijital-pazarlama içerikleri,</li><li>footer SSS alanı ve ilgili blog yazılarından</li></ul>erişilebilir olmalıdır. Böylece sosyal medya ile ilgili sorusu olan kullanıcı, her noktadan tek ve kapsamlı bir referans sayfaya yönlendirilebilir."
         }
       ]
     },
@@ -9409,10 +9401,6 @@
       {
         "q": "Creative & Tasarım Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
         "a": "<ul><li>Creative & Tasarım ana sayfası → /tr/creative-ve-tasarim</li><li>Grafik & motion tasarım → /tr/creative/grafik-motion-tasarim</li><li>UI/UX tasarım → /tr/creative/ui-ux-tasarim</li><li>Video prodüksiyon → /tr/creative/video-produksiyon</li><li>Etkinlik prodüksiyonu → /tr/creative/etkinlik-produksiyonu</li><li>Kurumsal hediye tasarımı → /tr/creative/kurumsal-hediye-tasarimi</li><li>Sosyal medya yönetimi → /tr/sosyal-medya-yonetimi</li><li>Genel SSS → /tr/sss</li></ul><p>Bu sayfalar, kreatif katmanın diğer dijital hizmetlerle birlikte nasıl çalıştığını görmenize yardımcı olur.</p>"
-      },
-      {
-        "q": "Bu SSS sayfasına sitede nerelerden erişmek mantıklı?",
-        "a": "<ul><li>/tr/creative-ve-tasarim sayfasından,</li><li>/tr/hizmetlerimiz sayfasındaki Creative bölümünden,</li><li>/tr/otel-dijital-pazarlama ve ilgili blog içeriklerinden,</li><li>footer SSS alanından</li></ul><p>linklenerek erişilebilir olmalıdır. Böylece kreatif konularda sorusu olan kullanıcılar, tek ve kapsamlı bir referans sayfaya yönlendirilebilir.</p>"
       }
     ]
   }
@@ -9740,10 +9728,6 @@
       {
         "q": "Çağrı Merkezi Hizmetleri SSS’den sonra hangi sayfaları incelemeliyim?",
         "a": "<ul><li>Çağrı Merkezi Hizmetleri</li><li>4 dilli çağrı merkezi</li><li>Rezervasyon desteği</li><li>Mesaj yönetimi</li><li>Satış sonrası destek</li><li>Performans analizi</li><li>Otel dijital pazarlama</li><li>Genel SSS</li></ul>Bu sayfalar, çağrı merkezinin diğer dijital ve operasyonel katmanlarla nasıl entegre çalıştığını net şekilde gösterir."
-      },
-      {
-        "q": "Bu SSS sayfasına sitede nerelerden erişmek mantıklı?",
-        "a": "<ul><li>Çağrı Merkezi Hizmetleri ana sayfası,</li><li>Hizmetlerimiz sayfasındaki Çağrı Merkezi bölümü,</li><li>Otel dijital pazarlama içerikleri,</li><li>Footer SSS link alanı</li></ul>üzerinden erişilebilir olmalıdır. Böylece kullanıcılar tek ve kapsamlı bir referans sayfaya yönlendirilir."
       }
     ]
   }
@@ -10344,10 +10328,6 @@
       {
         "q": "Veri Analiz & Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
         "a": "<ul><li><a href=\"/tr/veri-analiz-ve-raporlama\">Veri Analiz & Raporlama</a></li><li><a href=\"/tr/sem/reklam-raporlama\">Reklam raporlama</a></li><li><a href=\"/tr/smm/analiz-raporlama\">Sosyal medya analiz & raporlama</a></li><li><a href=\"/tr/seo/seo-raporlama\">SEO raporlama</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li><li><a href=\"/tr/sss\">Genel SSS</a></li></ul><p>Bu sayfalar, veri analizi ve raporlamanın diğer hizmet katmanlarıyla nasıl birleştiğini daha net görmenizi sağlar.</p>"
-      },
-      {
-        "q": "Bu SSS sayfasına sitede nerelerden erişmek mantıklı?",
-        "a": "<ul><li>/tr/veri-analiz-ve-raporlama ana sayfasından</li><li>/tr/hizmetlerimiz altındaki raporlama ve analiz bölümünden</li><li>SEM, SMM, SEO ve otel dijital pazarlama içeriklerinden</li><li>Footer SSS link alanından</li></ul><p>Böylece veri ve raporlama ile ilgili sorusu olan kullanıcılar, her noktadan tek ve kapsamlı bir referans sayfaya yönlendirilebilir.</p>"
       }
     ]
   }
@@ -10663,10 +10643,6 @@
         {
           "q": "Otel Dijital Pazarlama SSS’den sonra hangi sayfaları incelemeliyim?",
           "a": "Bu SSS sayfasından sonra;<ul><li><services>(Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama)</services></li><li><services>(SEM → /tr/sem)</services></li><li><services>(SEO Hizmetleri → /tr/seo-hizmetleri)</services></li><li><services>(Sosyal Medya Yönetimi → /tr/sosyal-medya-yonetimi)</services></li><li><services>(Web & Yazılım Hizmetleri → /tr/web-ve-yazilim-hizmetleri)</services></li><li><services>(Çağrı Merkezi Hizmetleri → /tr/cagri-merkezi-hizmetleri)</services></li><li><services>(PMS & OTA Yönetimi → /tr/pms-ota-yonetimi)</services></li><li><services>(Veri Analiz & Raporlama → /tr/veri-analiz-ve-raporlama)</services></li><li><services>(Genel SSS → /tr/sss)</services></li></ul>sayfalarını inceleyebilirsiniz. Bu içerikler, çatı stratejinin altındaki tüm katmanları detaylı şekilde görmenizi sağlar."
-        },
-        {
-          "q": "Bu SSS sayfasına sitede nerelerden erişmek mantıklı?",
-          "a": "Otel Dijital Pazarlama SSS;<ul><li>/tr/otel-dijital-pazarlama ana sayfasından,</li><li>/tr/hizmetlerimiz sayfasındaki “Otel Dijital Pazarlama” bölümünden,</li><li>SEO, SEM, SMM, PMS–OTA, çağrı merkezi ve raporlama sayfalarından iç linklerle,</li><li>footer SSS alanından</li></ul>erişilebilir şekilde kurgulanmalıdır. Böylece dijital stratejiyle ilgili sorusu olan kullanıcılar, her noktadan tek ve kapsamlı bir çatı SSS sayfasına yönlendirilir."
         }
       ]
     }
@@ -10677,6 +10653,1391 @@
       "primaryHref": "/tr/otel-dijital-pazarlama",
       "secondary": "Genel SSS",
       "secondaryHref": "/tr/sss"
+    }
+  },
+
+
+    "FaqGoogleAds": {
+    "h1": "Google Ads Yönetimi SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Google Ads yönetimi; sadece birkaç kampanya açıp bütçe harcamak değil, doğru anahtar kelime, doğru hedefleme, doğru teklif stratejisi ve doğru dönüşüm takibi ile oteliniz veya markanız için ölçülebilir rezervasyon ve satış üretme sürecidir. Özellikle otel ve turizm tarafında, yanlış kurgulanmış bir Google Ads hesabı; tıklama üretip rezervasyon getirmeyen pahalı bir masrafa dönüşebilir.",
+      "p2": "Bu SSS sayfası, Google Ads Yönetimi ile ilgili en sık sorulan soruları tek yerde toplar. Arama ağı, marka ve generic kampanyalar, teklif (bidding) stratejileri, bütçe planlama, dönüşüm takibi ve raporlama gibi kritik başlıkları otel & turizm ağırlıklı örneklerle açıklar. Hangi kampanya türünün ne zaman kullanılacağını, hesabın nasıl optimize edileceğini ve DGTLFACE’in bu süreçleri nasıl yönettiğini pratik şekilde anlatır.",
+      "p3":""
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "Google Ads Yönetimi SSS; arama ağı, marka kampanyaları, teklif stratejileri, bütçe ve dönüşüm optimizasyonunu otel ve turizm odaklı örneklerle özetleyerek, hangi kampanya yapısıyla daha fazla rezervasyon ve satış elde edilebileceğini hızlıca anlamanı sağlar."
+    },
+
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": "Google Ads yönetimi; otel ve markalar için arama ağı, marka ve generic kampanyaları doğru teklif stratejileri ve sağlam dönüşüm takibiyle kurgulayarak, klikleri gerçek rezervasyon ve satışa çevirme sürecidir."
+    },
+
+    "voiceQueries": {
+      "title": "Sık Sorulan Örnek Sorgular",
+      "q1": "Google Ads yönetimi tam olarak nedir?",
+      "q2": "Otelim için Google Ads’e nereden başlamalıyım?",
+      "q3": "Google Ads’i ajans mı yoksa kendi ekibim mi yönetmeli?",
+      "q4": "Google Ads ile daha fazla rezervasyon almak için ne yapmalıyım?",
+      "q5": "Google Ads bütçemi nasıl doğru planlarım?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Google Ads Yönetimine Giriş (Genel Sorular)",
+        "items": [
+          {
+            "q": "Google Ads yönetimi tam olarak nedir?",
+            "a": "Google Ads yönetimi; Google’da arama yapan veya Google ekosisteminde gezen hedef kitlenize, doğru anahtar kelimeler ve doğru kampanya türleriyle, optimum maliyetle ulaşmanızı sağlayan profesyonel planlama, kurulum, optimizasyon ve raporlama sürecidir. Amaç, sadece tıklama almak değil, tıklamaları rezervasyon, satış veya lead gibi net sonuçlara dönüştürmektir."
+          },
+          {
+            "q": "Google Ads oteller için neden bu kadar önemli?",
+            "a": "Çünkü otel arayan kullanıcıların büyük çoğunluğu;<ul><li>“otel adı + destinasyon”,</li><li>“destinasyon + otel tipi/konsept”,</li><li>fiyat, tarih ve konsept odaklı</li></ul>aramalar yapar. Arama sonuçlarında doğru şekilde görünmek, karar verme aşamasındaki kullanıcıya dokunmak anlamına gelir. Müşteriniz, OTA yerine doğrudan sizin sitenizde veya çağrı merkezinizde rezervasyon yapma fırsatı bulur."
+          },
+          {
+            "q": "Google Ads yönetimi kimler için uygundur?",
+            "a": "<ul><li>Resort oteller,</li><li>şehir otelleri,</li><li>butik ve konsept oteller,</li><li>turizm odaklı acenteler,</li><li>performans odaklı çalışan diğer markalar</li></ul>için Google Ads yönetimi, doğru kurgulandığında ölçülebilir ve ölçeklenebilir bir büyüme kanalıdır."
+          },
+          {
+            "q": "Sadece “Google’da çıkmak” yeterli mi?",
+            "a": "Hayır. Önemli olan;<ul><li>doğru anahtar kelimede çıkmak,</li><li>doğru kullanıcıyı tıklatmak,</li><li>otelinizi doğru sayfaya indirmek (landing page),</li><li>tıklamayı rezervasyona dönüştürmek</li></ul>olduğu için Google Ads; web performansı, rezervasyon süreci ve analitik altyapı ile birlikte ele alınmalıdır."
+          },
+          {
+            "q": "Google Ads’i otel içi ekip mi yönetmeli, ajans mı?",
+            "a": "<ul><li>İç ekip; oteli ve misafiri çok iyi tanır,</li><li>Ajans; Google Ads, teklif stratejileri, dönüşüm takibi ve optimizasyon tarafında uzmanlık getirir.</li></ul>En sağlıklı model çoğu zaman hibrit yapıdır: strateji, optimizasyon ve raporlama ajans; günlük bilgi akışı ve ticari kararlar otel içi ekip tarafında yürür."
+          },
+          {
+            "q": "Google Ads olmadan sadece SEO veya OTA ile ilerlemek yeterli olur mu?",
+            "a": "Bazı durumlarda belirli bir noktaya kadar yeterli olabilir; ancak rekabetin yüksek olduğu destinasyonlarda, markanız ve konseptiniz güçlü bile olsa, Google Ads’le desteklenmeyen bir görünürlük önemli fırsatların kaçmasına yol açabilir. Ads, özellikle kısa vadeli talep yaratma tarafında kritiktir."
+          }
+        ]
+      },
+
+       "quickAnswers": {
+    "title": "Kısa ve Hızlı Yanıtlar",
+    "items": [
+      {
+        "q": "Google Ads yönetimi nedir, tek cümleyle?",
+        "a": "Doğru anahtar kelimeler ve kampanya yapılarıyla Google’da hedef kitleye ulaşıp, tıklamaları rezervasyon ve satışa dönüştürme sürecidir."
+      },
+      {
+        "q": "Otelim için Google Ads’e nereden başlamalıyım?",
+        "a": "Önce hedef pazarlarınızı, bütçe aralığınızı ve rezervasyon hedefinizi netleştirip; marka + generic arama kampanyaları ile başlamak en doğru adımdır."
+      },
+      {
+        "q": "Google Ads’i ajans mı yoksa kendi ekibim mi yönetmeli?",
+        "a": "İmkân varsa, otel içi bilgi + profesyonel Ads deneyimini birleştiren hibrit model çoğu zaman en verimli çözümdür."
+      },
+      {
+        "q": "Google Ads ile daha fazla rezervasyon almak için neye odaklanmalıyım?",
+        "a": "Doğru hedefleme, iyi metinler, ilgili landing page ve sağlam dönüşüm takibi kombinasyonuna."
+      },
+      {
+        "q": "Google Ads bütçemi nasıl doğru planlarım?",
+        "a": "Hedef rezervasyon sayısına, hedef pazarlara, tıklama maliyetlerine ve sezonsal yoğunluğa bakarak aylık/haftalık esnek bir bütçe planı kurgulamalısınız."
+      },
+      {
+        "q": "Google Ads sadece marka aramaları için mi kullanılmalı?",
+        "a": "Hayır. Marka aramaları önemlidir ama yeni misafir kazanımı için generic aramalar da kritiktir."
+      }
+    ]
+  },
+
+  "section3": {
+    "title": "Google Ads Hizmet Kapsamı: Kampanya Türleri & Teklif Stratejileri",
+    "items": [
+      {
+        "q": "Google Ads yönetimi hizmetiniz neleri kapsıyor?",
+        "a": "<ul><li>Hesap ve mevcut durum analizi,</li><li>Anahtar kelime ve pazar araştırması,</li><li>Hesap & kampanya mimarisi (marka, generic, destinasyon, oda/konsept bazlı),</li><li>Teklif (bidding) stratejisi seçimi ve testleri,</li><li>Reklam metni ve uzantı tasarımı,</li><li>Dönüşüm takibi (GA4 + Tag Manager + rezervasyon sistemi entegrasyonu),</li><li>A/B testler ve optimizasyon,</li><li>Haftalık/aylık raporlama ve yorumlama.</li></ul> <services>(→ /tr/sem/google-ads-yonetimi)</services> <reporting>(→ /tr/sem/donusum-takibi-tag-manager)</reporting> <reporting>(→ /tr/sem/reklam-raporlama)</reporting>"
+      },
+      {
+        "q": "Arama ağı (Search) kampanyaları oteller için nasıl kurgulanır?",
+        "a": "Genel yapı;<ul><li>Marka kampanyaları (otel adı + destinasyon),</li><li>destinasyon + konsept kampanyaları (Antalya family resort, Bodrum adults-only hotel vb.),</li><li>özel sezon veya kampanya odaklı kampanyalar (erken rezervasyon, balayı paketi, çocuk ücretsiz vb.).</li></ul>Her kampanya; doğru keyword match tipi, negatif kelimeler ve ilgili landing page ile desteklenir."
+      },
+      {
+        "q": "Marka (brand) ve generic kampanyalar neden ayrı tutulmalı?",
+        "a": "<ul><li><b>Brand:</b> Genellikle daha ucuz tıklama, daha yüksek dönüşüm, markayı zaten tanıyan kitle.</li><li><b>Generic:</b> Yeni kitle ve pazar kazanımı, daha yüksek tıklama maliyeti ama büyüme fırsatı.</li></ul>Bu iki kampanya türü; bütçe ve performans açısından ayrı yönetildiğinde, daha net ve sağlıklı sonuç verir."
+      },
+      {
+        "q": "Teklif (bidding) stratejileri nasıl seçilir?",
+        "a": "<ul><li>Veri yok veya çok azsa: “maximize clicks” veya “maximize conversions” ile başlanabilir.</li><li>Yeterli dönüşüm verisi varsa: tCPA (hedef edinme başı maliyet) veya tROAS (hedef reklam harcama getirisi) stratejileri devreye alınır.</li><li>Marka kampanyalarında: bazen manuel, bazen hedef ROAS odaklı yapılar test edilir.</li></ul>Teklif stratejisi, veri hacmi ve hedefe göre seçilmeli ve düzenli test edilmelidir."
+      },
+      {
+        "q": "Arama ağı dışındaki (Display, Discovery, Performance Max vb.) kampanyalar otellerde nasıl konumlanmalı?",
+        "a": "<ul><li>Display & Discovery: remarketing ve üst funnel farkındalık,</li><li>Performance Max: doğru kurulum ve feed ile güçlü olabilir ama kontrol dikkatle sağlanmalı,</li><li>YouTube: destinasyon ve konsept iletişimi, özellikle üst funnel’da etkili.</li></ul>Google Ads yönetiminde, arama ağı ile bu kampanya türlerinin rolü ve payı net olmalıdır."
+      },
+      {
+        "q": "Oteller için en kritik Google Ads uzantıları nelerdir?",
+        "a": "<ul><li>Site bağlantısı (site link),</li><li>açıklama uzantıları,</li><li>telefon / arama uzantıları,</li><li>fiyat ve promosyon uzantıları</li></ul>özellikle oteller için önemlidir. Misafire arama sonuç sayfasında bile ek bilgi ve aksiyon imkânı sunarlar."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Süreç & İşleyiş: Kurulumdan Optimizeye",
+    "items": [
+      {
+        "q": "Google Ads yönetim süreci hangi aşamalardan oluşur?",
+        "a": "<ul><li>Mevcut hesap analizi veya sıfırdan hesap kurulumu,</li><li>Hedefler, pazarlar ve bütçenin netleştirilmesi,</li><li>Anahtar kelime araştırması ve kampanya mimarisi,</li><li>Reklam metinleri ve uzantıların yazılması,</li><li>GA4 + Tag Manager + dönüşüm takibinin kurulması,</li><li>İlk dönem (test & öğrenme),</li><li>Sürekli optimizasyon (keyword, reklam metni, teklif, cihaz/bölge kırılımları),</li><li>Periyodik raporlama ve strateji güncellemesi.</li></ul>"
+      },
+      {
+        "q": "İlk 4–8 haftalık “test dönemi” neden önemli?",
+        "a": "Bu dönem;<ul><li>hangi keyword setlerinin işe yaradığını,</li><li>hangi mesaj ve tekliflerin tıklama ve dönüşüm ürettiğini,</li><li>hangi pazar ve cihaz kombinasyonlarının değerli olduğunu</li></ul>görmek için kullanılır. Test sonrası verilere bakarak, bütçe ve kampanya yapısı rafine edilir."
+      },
+      {
+        "q": "Google Ads hesabı düzenli olarak ne sıklıkta kontrol edilmeli?",
+        "a": "<ul><li>Yoğun dönemlerde: günlük–haftalık,</li><li>daha stabil dönemlerde: haftalık–15 günlük,</li><li>stratejik revizyonlar için: aylık.</li></ul>“Kurduk, çalışıyor” mantığıyla bırakılan hesaplar, kısa sürede performans kaybı yaşar."
+      },
+      {
+        "q": "GA4 ve Tag Manager ile dönüşüm takibi nasıl kuruluyor?",
+        "a": "<ul><li>Rezervasyon tamamlandı sayfası (thank you),</li><li>form gönderimleri,</li><li>telefon/WhatsApp tıklamaları,</li><li>belirli derinlikte sayfa gezintisi gibi aksiyonlar</li></ul>dönüşüm olarak tanımlanır. Tag Manager ile tetikleyiciler, GA4 ile hedefler ve Google Ads ile entegrasyon kurulur."
+      },
+      {
+        "q": "Otel rezervasyon sistemi ile Google Ads nasıl entegre olur?",
+        "a": "Kullandığınız rezervasyon motoru veya PMS/OTA sistemi; Tag Manager ve GA4 ile event ve dönüşüm gönderimini destekliyorsa, rezervasyon sayısı ve değeri Ads tarafına aktarılabilir. Böylece kampanya bazında gelir ve ROAS bilgisi görünebilir."
+      },
+      {
+        "q": "İç ekip ve DGTLFACE ekipleri süreçte nasıl iş bölümü yapar?",
+        "a": "<ul><li><b>Otel ekibi:</b> fiyat, kontenjan, kampanya içeriği, sezon kararları, destinasyon içgörüsü,</li><li><b>DGTLFACE:</b> teknik kurulum, kampanya kurulumu, optimizasyon, raporlama ve strateji önerileri.</li></ul>Bu iş bölümü; hem hız hem kalite açısından en verimli modeli oluşturur."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Verimlilik: Sık Görülen Sorunlar (Pain Point’ler)",
+    "items": [
+      {
+        "q": "Tıklama var fakat rezervasyon/satış yok; sorun nerede olabilir?",
+        "a": "Genellikle;<ul><li>yanlış veya çok geniş hedefleme,</li><li>alakasız veya zayıf reklam metinleri,</li><li>düşük kaliteli landing page (hız, tasarım, içerik),</li><li>yanlış veya eksik dönüşüm takibi</li></ul>gibi faktörlerin kombinasyonudur. Sorunu çözmek için hem kampanya yapısı hem de web/rezervasyon deneyimi birlikte analiz edilmelidir."
+      },
+      {
+        "q": "Tıklama maliyetim (CPC) çok yüksek; neye dikkat etmeliyim?",
+        "a": "<ul><li>aşırı rekabetçi anahtar kelimeler,</li><li>düşük kalite puanı,</li><li>geniş eşleme ve zayıf negatif liste kullanımı,</li><li>yanlış teklif stratejisi.</li></ul>Kalite puanını yükseltmek, keyword yapısını optimize etmek ve teklif stratejisini doğru seçmek CPC’yi ciddi şekilde aşağı çekebilir."
+      },
+      {
+        "q": "Kalite puanım düşük; nasıl iyileştirebilirim?",
+        "a": "Kalite puanı;<ul><li>anahtar kelime → reklam metni → landing page uyumu,</li><li>beklenen tıklama oranı,</li><li>sayfa deneyimi</li></ul>gibi unsurlara dayanır. Keyword gruplarını sadeleştirip, her gruba özel reklam metinleri ve ilgili bir açılış sayfası sunmak kalite puanını yükseltir."
+      },
+      {
+        "q": "Yanlış teklif yapısı (bidding) ne gibi kayıplara yol açar?",
+        "a": "<ul><li>Yanlış strateji yüzünden gereğinden fazla ödeme,</li><li>düşük veri hacmi ile akıllı tekliflere erken geçiş,</li><li>markayı korumakta zorlanma,</li><li>kampanyanın öğrenme sürecinde takılı kalması.</li></ul>Teklif stratejisi; veri hacmi, hedefler ve bütçe göz önünde bulundurularak seçilmelidir."
+      },
+      {
+        "q": "Bütçe israfı en çok nerelerde olur?",
+        "a": "<ul><li>çok geniş veya alakasız keyword’lerde,</li><li>remarketing yerine “tüm kitle” hedeflemesi yapıldığında,</li><li>lokasyon/dil ayarları yanlış olduğunda,</li><li>display ve discovery kampanyaları kontrolsüz bırakıldığında.</li></ul>Düzenli arama terimi raporu, konum/cihaz analizi ve remarketing odaklı stratejiler, israfı azaltır."
+      },
+      {
+        "q": "“Kurduk, bırakıyoruz” zihniyeti neden tehlikeli?",
+        "a": "Çünkü rakipler, sezon, pazar davranışı ve Google Ads ekosistemi sürekli değişiyor. Kontrol edilmeyen hesaplarda; maliyetler artar, performans düşer ve bir noktada “Google Ads işe yaramıyor” algısı oluşur. Asıl sorun çoğu zaman yönetim şeklidir."
+      }
+    ]
+  },
+
+  "section6": {
+    "title": "GEO & Sektör Odaklı Google Ads Soruları",
+    "items": [
+      {
+        "q": "Türkiye geneli oteller için Google Ads yaklaşımı nasıl?",
+        "a": "<ul><li>Yurt içi pazar için marka + destinasyon odaklı kampanyalar,</li><li>yurt dışı pazarlar için ülke/dil bazlı kampanya grupları,</li><li>iç pazarın fiyat hassasiyeti,</li><li>dış pazarın konsept ve deneyim hassasiyeti</li></ul>dikkate alınarak yapı kurulur. Mesaj, pazarın beklentisine göre uyarlanır."
+      },
+      {
+        "q": "Antalya, Belek, Kemer, Side, Alanya gibi sahil bölgelerinde neye dikkat edilmeli?",
+        "a": "<ul><li>Sezon ve erken rezervasyon dönemine göre kampanya kurgusu,</li><li>DE/RU/UK ve diğer hedef pazarlar için ayrı kampanyalar,</li><li>yoğun sezonda last-minute ve boşluk doldurma kampanyaları,</li><li>metin ve kreatiflerde destinasyon + konsept vurgusu.</li></ul>Bu bölgelerde doğru Google Ads stratejisi, doluluk ve gelir üzerinde direkt etkilidir."
+      },
+      {
+        "q": "Şehir otelleri için Google Ads stratejisi nasıl farklılaşır?",
+        "a": "<ul><li>kısa konaklama, iş seyahati, toplantı ve MICE odaklı aramalar,</li><li>haftaiçi–hafta sonu dengesi,</li><li>kurumsal ve event bazlı kampanyalar,</li></ul>daha fazla önem kazanır. Kampanya dili “tatil”den çok “iş, toplantı, konfor, konum” eksenine kayar."
+      },
+      {
+        "q": "Turizm dışındaki performans odaklı markalar için Google Ads yaklaşımınız nasıl?",
+        "a": "E-ticaret, B2B ve hizmet sektöründe; lead/satış odaklı kampanyalar;<ul><li>ürün veya hizmet temelli keyword yapısı,</li><li>dönüşüm odaklı landing page’ler,</li><li>remarketing ve kampanya bazlı raporlama</li></ul>ile kurgulanır. Temel prensip, tıklamadan çok dönüşümü optimize etmektir."
+      }
+    ]
+  },
+  "section7": {
+    "title": "Mini Google Ads SSS (Kısa Cevaplar)",
+    "items": [
+      {
+        "q": "Google Ads kampanyası kurmak zor mu?",
+        "a": "Ara yüz basit görünse de, doğru yapı kurmak uzmanlık gerektirir; rastgele kurulum, sıkça bütçe israfına yol açar."
+      },
+      {
+        "q": "Sadece marka kampanyası ile ilerleyebilir miyim?",
+        "a": "Mevcut misafiri korumak için evet; ancak yeni misafir kazanmak için generic aramalara da ihtiyaç vardır."
+      },
+      {
+        "q": "Google Ads hesabımı ayda bir kontrol etsem yeterli mi?",
+        "a": "Yoğun dönemlerde hayır. En az haftalık optimizasyon, çoğu hesap için zorunludur."
+      },
+      {
+        "q": "Reklam metinlerim sürekli aynı kalabilir mi?",
+        "a": "Hayır. Farklı sezon, kampanya ve pazarlar için metinlerin düzenli test ve revizyonu gerekir."
+      },
+      {
+        "q": "Her kampanya için ayrı landing page şart mı?",
+        "a": "Her zaman değil; fakat konuyla alakalı, hızlı ve dönüşüm odaklı sayfa kullanmak performansı ciddi artırır."
+      },
+      {
+        "q": "Google Ads sadece “en üstte çıkmak” anlamına gelir mi?",
+        "a": "Hayır. Önemli olan, doğru kullanıcı için, doğru maliyetle, doğru mesajla görünmektir."
+      }
+    ]
+  },
+  "section8": {
+    "title": "Google Ads Yönetimi İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile Google Ads Yönetimi için nasıl teklif alabilirim?",
+        "a": "<ul><li>otelinizin veya markanızın türü,</li><li>hedef pazarlar ve diller,</li><li>mevcut Google Ads hesabınızın durumu (var mı, yok mu?),</li><li>aylık tahmini bütçe aralığınız,</li><li>şu an yaşadığınız sorunlar (tıklama var ama rezervasyon yok, yüksek maliyet, düşük kalite puanı vb.)</li></ul>ile kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve maliyet çerçevesini içeren bir teklif ve yol haritası hazırlanır."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı Google Ads tarafında ne anlama geliyor?",
+        "a": "Bu görüşme; “nasıl kampanya açılır?” eğitimi değil;<ul><li>hedefleriniz,</li><li>pazarlarınız,</li><li>sezon planınız,</li><li>mevcut hesabınızın durumu</li></ul>üzerinden size özel strateji ve hesap mimarisi konuşulması anlamına gelir. Özellikle yüksek bütçe ve otel/turizm odağı olan yapılarda kritik bir ilk adımdır."
+      },
+      {
+        "q": "Google Ads Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
+        "a": "<ul><li>Google Ads Yönetimi → /tr/sem/google-ads-yonetimi</li><li>YouTube Reklam Yönetimi → /tr/sem/youtube-reklam-yonetimi</li><li>Remarketing & Display → /tr/sem/remarketing-ve-display</li><li>Dönüşüm Takibi & Tag Manager → /tr/sem/donusum-takibi-tag-manager</li><li>Reklam Raporlama → /tr/sem/reklam-raporlama</li><li>SEO Hizmetleri → /tr/seo-hizmetleri</li><li>Sosyal Medya Yönetimi → /tr/sosyal-medya-yonetimi</li><li>Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama</li></ul>Bu sayfalar, Google Ads’in diğer dijital katmanlarla birlikte nasıl çalıştığını anlaman için iyi bir tamamlayıcı set olacaktır."
+      }
+    ]
+  }
+    },
+     "cta": {
+      "primary": "Creative analizi talep edin",
+      "primaryHref": "/tr/creative",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
+    }
+  },
+
+    "FaqYoutube": {
+    "h1": "YouTube Reklam Yönetimi SSS (YouTube Ads Sık Sorulan Sorular)",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "YouTube reklam yönetimi; sadece “video izletmek” değil, <b>doğru format, doğru hedefleme, doğru kreatif ve doğru funnel kurgusuyla</b> oteliniz veya markanız için talep yaratma, marka bilinirliği ve rezervasyon/satış artışı sağlama sürecidir. Özellikle otel ve turizm tarafında, iyi kurgulanmış YouTube kampanyaları; misafirin zihninde <b>“orada olmak istiyorum”</b> duygusunu tetikler.",
+      "p2": "Bu SSS sayfası; YouTube Reklam Yönetimi ile ilgili en sık sorulan soruları tek yerde toplar. TrueView, bumper, in-stream ve discovery gibi video formatlarını, hedefleme seçeneklerini, otel tanıtım videoları için funnel kurgusunu, bütçe ve teklif stratejilerini, raporlama ve optimizasyon adımlarını açıklar.",
+      "p3": "Amaç; YouTube reklamlarını sadece görüntülenme odaklı değil, <b>marka bilinirliği + talep yaratma + rezervasyon artışı</b> sağlayacak şekilde nasıl konumlandırman gerektiğini netleştirmektir."
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet (Genel Bakış)",
+      "text": "YouTube Reklam Yönetimi SSS; TrueView, bumper ve diğer video formatlarının seçimi, hedefleme, bütçe ve funnel kurgusunu otel odaklı örneklerle açıklayarak, YouTube kampanyalarından sadece izlenme değil, gerçek rezervasyon ve satış üretmene yardımcı olan hızlı bir rehberdir."
+    },
+
+    "voiceSummary": {
+      "title": "Sesli Arama İçin Kısa Özet",
+      "text": "YouTube reklam yönetimi; otel ve markalar için doğru video formatları, hedeflemeler ve funnel stratejisiyle marka bilinirliği ve rezervasyon talebi yaratan, video reklamlarını ölçülebilir sonuçlara çeviren profesyonel süreçtir."
+    },
+
+    "voiceQueries": {
+      "title": "Sesli Aramada Sık Sorulan Örnek Sorgular",
+      "q1": "YouTube reklam yönetimi nedir?",
+      "q2": "Otelim için YouTube reklamlarına nasıl başlamalıyım?",
+      "q3": "YouTube reklamları rezervasyon getirir mi?",
+      "q4": "YouTube reklamları mı yoksa Google Ads mi daha etkili?",
+      "q5": "YouTube reklam bütçesi nasıl planlanmalı?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "YouTube Reklam Yönetimine Giriş (Genel Sorular)",
+        "items": [
+          {
+            "q": "YouTube reklam yönetimi tam olarak nedir?",
+            "a": "YouTube reklam yönetimi; markanın hedef kitlesine YouTube üzerinde doğru video formatları ve hedeflemelerle ulaşmasını sağlayan planlama, kurulum, optimizasyon ve raporlama sürecidir. Amaç, videoların sadece izlenmesi değil; markayı tanıtmak, talep oluşturmak ve rezervasyon/satışa giden yolu beslemektir."
+          },
+          {
+            "q": "YouTube reklamları oteller için neden önemli?",
+            "a": "Otel ve resort’lar için görsellik her şeydir. YouTube, otelin atmosferini, odalarını, havuz ve plajını, yeme–içme ve eğlence alanlarını en iyi gösterebileceğin mecralardan biridir. Doğru kurgulanmış bir video kampanyası; yeni pazar açılışları, konsept ve renovasyon tanıtımları, erken rezervasyon ve sezon lansmanlarında güçlü bir üst-funnel aracı olarak çalışır."
+          },
+          {
+            "q": "YouTube reklamları sadece marka bilinirliği için midir?",
+            "a": "Hayır. YouTube ağırlıklı olarak bilinirlik ve ilgi yaratır ama doğru funnel kurgusu ile remarketing, sıralı video (sequence) ve izleyenleri arama & display’de yakalama kombinasyonlarıyla rezervasyon ve satışa giden yolu da besleyebilir. Bu nedenle YouTube, SEO ve diğer reklam kanallarıyla birlikte düşünülmelidir."
+          },
+          {
+            "q": "YouTube reklam yönetimi kimler için uygundur?",
+            "a": "<ul><li>Resort ve şehir otelleri,</li><li>Turizm bölgelerinde destinasyon ve konsept anlatmak isteyen tesisler,</li><li>Tanıtım filmi ve güçlü görsel hikâyesi olan markalar,</li><li>Marka algısını güçlendirmek isteyen kurumsal işletmeler</li></ul> için YouTube reklamları stratejik bir vitrin görevi görür."
+          },
+          {
+            "q": "Sadece organik YouTube videoları paylaşmak yeterli mi?",
+            "a": "Organik içerik önemli olsa da tek başına yeterli değildir. Rekabetin yüksek olduğu YouTube ortamında, doğru hedeflemeli reklamlar olmadan en iyi videolar bile hak ettiği kitleye ulaşamayabilir."
+          },
+          {
+            "q": "YouTube reklamları otel web sitemin trafiğini gerçekten artırabilir mi?",
+            "a": "Evet. Doğru CTA ve linklerle kurgulanan YouTube reklamları, otel web sitesine yüksek kalite ve ilgisi yüksek bir trafik yönlendirebilir. Bu trafik, remarketing ve Google Ads arama kampanyaları için de değerli bir havuz oluşturur."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+    "title": "Sesli Arama / Kısa Yanıtlar Bloğu",
+    "items": [
+      {
+        "q": "YouTube reklam yönetimi nedir, kısaca?",
+        "a": "YouTube üzerinde doğru video formatları ve hedeflemelerle markanı tanıtıp, talep ve rezervasyon/satışa giden süreci besleyen reklam yönetimidir."
+      },
+      {
+        "q": "Otelim için YouTube reklamlarına nereden başlamalıyım?",
+        "a": "Önce iyi bir tanıtım veya highlight videosu, ardından hedef pazar seçimi ve marka/destinasyon odaklı kampanyalarla başlamalısın."
+      },
+      {
+        "q": "Hangi YouTube reklam formatı ne zaman kullanılmalı?",
+        "a": "TrueView: Hikâye anlatımı, konsept ve otel tanıtımı. Bumper: Kısa, çarpıcı hatırlatma ve kampanya duyuruları."
+      },
+      {
+        "q": "YouTube reklamları gerçekten rezervasyon getirir mi?",
+        "a": "Evet; doğru funnel (video → remarketing → arama/display) ve ölçümleme ile rezervasyon ve satış tarafına somut katkı sağlar."
+      },
+      {
+        "q": "YouTube’da doğru hedefleme ve bütçe ayarını nasıl yaparım?",
+        "a": "Hedef pazar, ilgi alanı, davranış, demografi ve cihaz/lokasyon filtresi kombinasyonuna göre planlanmalıdır; bütçe küçük testlerle başlayıp performansa göre ölçeklenmelidir."
+      },
+      {
+        "q": "YouTube reklamları küçük oteller için de mantıklı mı?",
+        "a": "Eğer görsel hikâyen güçlü ise, evet. Özellikle butik ve konsept otellerde, YouTube doğru kitleye “farklılık” mesajını anlatmak için çok değerlidir."
+      }
+    ]
+  },
+
+  "section3": {
+    "title": "Hizmet Kapsamı: Video Formatları, Funnel ve Hedefleme",
+    "items": [
+      {
+        "q": "YouTube reklam yönetimi hizmetiniz neleri kapsıyor?",
+        "a": "<ul><li>Mevcut hesap ve YouTube kanal analizi,</li><li>Hedef pazar ve segmentlerin belirlenmesi,</li><li>doğru video formatlarının seçimi (TrueView, bumper, in-stream, discovery vb.),</li><li>kampanya & funnel mimarisi (üst-funnel / mid-funnel / remarketing),</li><li>hedefleme ve bütçe planlaması,</li><li>GA4 + Ads entegrasyonu ile ölçümleme,</li><li>raporlama ve optimizasyon.</li></ul> <services>(→ YouTube Reklam Yönetimi)</services> <reporting>(→ Reklam Raporlama)</reporting>"
+      },
+      {
+        "q": "TrueView, bumper, in-stream ve discovery formatları arasındaki fark nedir?",
+        "a": "<ul><li><b>TrueView in-stream:</b> 5 saniye sonra geçilebilen, daha uzun format; hikâye ve tanıtım için ideal.</li><li><b>Bumper (6 sn):</b> Geçilemeyen, çok kısa hatırlatıcı format; kampanya ve mesaj pekiştirme için.</li><li><b>In-feed / discovery:</b> YouTube arama sonuçlarında veya önerilerde görünen; kullanıcının tıklamasıyla izlenen format.</li></ul> Her format, funnel içinde farklı bir rol oynar."
+      },
+      {
+        "q": "Otel tanıtım videoları için nasıl bir funnel önerirsiniz?",
+        "a": "<ul><li><b>Üst-funnel:</b> TrueView ile destinasyon + otel konseptini anlatan video.</li><li><b>Mid-funnel:</b> Bumper kampanyalarıyla erken rezervasyon, özel paket, fırsat hatırlatma.</li><li><b>Alt-funnel:</b> Siteni ziyaret etmiş, OTA’da seni aramış kullanıcıları remarketing videolarıyla yeniden hedefleme.</li></ul> Böylece kullanıcı görür → merak eder → araştırır → rezervasyon döngüsüne girer."
+      },
+      {
+        "q": "Hangi hedefleme seçenekleri YouTube’da en etkili?",
+        "a": "<ul><li>Ülke/bölge bazlı lokasyon,</li><li>yaş ve cinsiyet (otelin segmentine göre),</li><li>ilgi alanları (travel, luxury, family, honeymoon vb.),</li><li>custom intent / custom segment (Google’da belirli aramaları yapmış kullanıcılar),</li><li>remarketing (site ziyaretçileri, video izleyenler).</li></ul> Bu sinyaller doğru kombinasyonla bir araya getirildiğinde, çok isabetli kitleler elde edilir."
+      },
+      {
+        "q": "YouTube kampanyasında remarketingi nasıl kullanıyorsunuz?",
+        "a": "<ul><li>web siteni ziyaret edip rezervasyon yapmamış kullanıcılar,</li><li>belirli videolarını izleyip etkileşime geçmiş kullanıcılar,</li><li>belirli kampanya sayfalarını açmış ama form/booking tamamlamamış kullanıcılar</li></ul> için remarketing listeleri oluşturulur. Bu listeler; daha kısa, daha net “call-to-action” içeren bumper veya TrueView kampanyalarıyla hedeflenir."
+      },
+      {
+        "q": "YouTube reklamlarını Google Ads arama kampanyalarıyla nasıl entegre ediyorsunuz?",
+        "a": "YouTube sayesinde markayı tanıyan ve oteli hatırlayan kullanıcılar, arama kampanyalarında daha yüksek tıklama ve dönüşüm oranı üretir. Ayrıca YouTube izleyicilerini, arama ve display kampanyalarında özel kitle olarak hedeflemek mümkündür."
+      },
+      {
+        "q": "Otel videosu olmayan markalar için YouTube reklamı mümkün mü?",
+        "a": "Mümkün; stok veya kısa montaj videolarla başlanabilir. Ancak otel ve turizm tarafında, gerçek görüntü ve özgün prodüksiyon uzun vadede çok daha güçlü sonuç verir. İlerleyen dönemde mutlaka profesyonel çekim önerilir."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Süreç & İşleyiş: Planlama, Kurulum, Optimizasyon",
+    "items": [
+      {
+        "q": "YouTube reklam yönetimi süreci hangi aşamalardan oluşur?",
+        "a": "<ul><li>Hedefler ve pazarların netleştirilmesi,</li><li>Mevcut video asetlerinin analizi, eksikse prodüksiyon planlaması,</li><li>Kampanya ve funnel mimarisinin oluşturulması,</li><li>Hedefleme ve bütçe yapısının kurulması,</li><li>GA4 + Ads entegrasyonu ile ölçümleme planı,</li><li>Kampanyaların canlıya alınması,</li><li>Düzenli optimizasyon ve raporlama.</li></ul>"
+      },
+      {
+        "q": "YouTube için video prodüksiyonunuz da var mı, yoksa sadece media yönetimi mi?",
+        "a": "<ul><li>Sadece mevcut videoları kullanarak media yönetimi yapabiliyoruz,</li><li>veya creative & prodüksiyon ekibimizle birlikte tanıtım filmi, otel highlight videosu, kısa bumper’lar hazırlayabiliyoruz.</li></ul> İdeal senaryo: creative + media ekiplerinin entegre çalışmasıdır."
+      },
+      {
+        "q": "İlk kampanyayı açtıktan sonra ne kadar süre “test dönemi” sayılır?",
+        "a": "<ul><li>hangi hedeflemenin daha iyi çalıştığı,</li><li>hangi kreatiflerin daha çok izlenme ve etkileşim aldığı,</li><li>hangi pazar/ülkeden daha kaliteli trafik geldiği</li></ul> gibi sorulara yanıt bulmak için genellikle 2–4 haftalık başlangıç dönemi kullanılır. Bu dönemin sonunda kampanya yapısı rafine edilir."
+      },
+      {
+        "q": "YouTube kampanyalarınızı ne sıklıkta optimize ediyorsunuz?",
+        "a": "Yoğun kampanya dönemlerinde haftalık; daha stabil dönemlerde en az 15 günde bir optimizasyon yapılması sağlıklı olur. Kreatif refresh ve hedefleme ayarları, rapor sonuçlarına göre güncellenir."
+      },
+      {
+        "q": "Hangi metrikler üzerinden YouTube performansını değerlendiriyorsunuz?",
+        "a": "<ul><li>Görüntülenme sayısı ve görüntülenme oranı (view rate),</li><li>izleme süresi,</li><li>tıklama ve yönlendirme (site trafiği),</li><li>dönüşüm ve gelir katkısı (GA4 + Ads üzerinden),</li><li>sıklık (frequency) ve pazar kırılımları.</li></ul> Sadece “izlenme adedi” değil, kalite ve etki metrikleri önemlidir."
+      },
+      {
+        "q": "YouTube kampanyalarında GA4 ve Tag Manager entegrasyonu nasıl kullanılıyor?",
+        "a": "<ul><li>oturum,</li><li>sayfa görüntüleme ve etkileşim,</li><li>form/booking adımları,</li><li>rezervasyon ve gelir</li></ul> tarafına etkisi GA4 üzerinden takip edilir. Tag Manager ile izleme kodları esnek hâle getirilir ve Google Ads ile dönüşüm paylaşılır."
+      },
+      {
+        "q": "İç ekibimizin YouTube sürecine katkısı ne olur?",
+        "a": "<ul><li>Otel içinden video ve görüntü sağlamak,</li><li>konsept ve sezon kampanyaları hakkında bilgi vermek,</li><li>misafir profili ve pazar içgörüleri aktarmak,</li><li>revizyon/onay süreçlerini yönetmek.</li></ul> DGTLFACE; strateji, kurulum, optimizasyon ve raporlama tarafını üstlenir."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Verimlilik: Sık Görülen Sorunlar (Pain Point’ler)",
+    "items": [
+      {
+        "q": "Görüntülenme var ama web trafiği veya rezervasyon yok; neden?",
+        "a": "<ul><li>Videoda net CTA ve link eksik olabilir,</li><li>hedefleme çok geniş veya alakasız olabilir,</li><li>kreatif “güzel” ama otel için doğru mesajı vermiyor olabilir,</li><li>ölçümleme eksik veya hatalı olabilir.</li></ul> YouTube kampanyaları; “izlendi mi?” sorusundan çok, “sonrasında web ve rezervasyon tarafında ne oldu?” sorusuyla değerlendirilmelidir."
+      },
+      {
+        "q": "Yanlış hedefleme, hangi hatalara yol açar?",
+        "a": "<ul><li>Yüksek görüntülenme, düşük etkileşim,</li><li>otel için alakasız segmentlere gösterim,</li><li>gereksiz bütçe tüketimi,</li><li>yanlış ülkeler veya diller.</li></ul> Hedefleme; pazar, dil, demografi ve ilgi alanı kombinasyonu ile ince ayar gerektirir."
+      },
+      {
+        "q": "Zayıf kreatif performansı nasıl anlaşılır?",
+        "a": "<ul><li>düşük görüntülenme oranı,</li><li>izlenme süresinin videonun ilk saniyelerinde düşmesi,</li><li>tıklama ve etkileşim oranlarının düşük olması,</li><li>remarketing ve search tarafında anlamlı artış görememek.</li></ul> Bu durumda; giriş bölümü, montaj, müzik, metin ve CTA tekrar ele alınmalıdır."
+      },
+      {
+        "q": "YouTube reklamlarında bütçe israfı en çok nerede olur?",
+        "a": "<ul><li>Çok geniş hedeflemelerde,</li><li>“skip” oranı yüksek ama optimize edilmeyen kampanyalarda,</li><li>remarketing yerine “herkese” gösterilen videolarda,</li><li>ülkeler ve cihazlar filtrelenmeden çalışılan hesaplarda.</li></ul> Çözüm; test, segmentasyon ve frequency kontrolüdür."
+      },
+      {
+        "q": "YouTube kampanyalarım sadece “marka görünürlüğü” sağlıyor, satış tarafına yansımıyor; neden?",
+        "a": "<ul><li>YouTube sonrası arama, display ve remarketing funnel’ının eksik olması,</li><li>landing sayfaların video mesajıyla uyumsuz olması,</li><li>ölçümleme tarafında rezervasyon / gelir bağlantısının kurulmaması.</li></ul> YouTube, tek başına değil; arama motoru ve remarketing katmanlarıyla birlikte kurgulanmalıdır."
+      }
+    ]
+  },
+
+  "section6": {
+    "title": "GEO & Sektör Odaklı YouTube Soruları",
+    "items": [
+      {
+        "q": "Türkiye geneli oteller için YouTube reklam stratejisi nasıl olmalı?",
+        "a": "<ul><li>İç pazar için Türkçe tanıtım videoları ve erken rezervasyon kampanyaları,</li><li>dış pazarlar için ilgili dilde veya İngilizce videolar,</li><li>destinasyon ve konsept odaklı kreatifler.</li></ul> Her pazar için uygun dil, kreatif ve teklif kombinasyonu planlanmalıdır."
+      },
+      {
+        "q": "Hedef ülke pazarlarında (ör. Almanya, İngiltere, Rusya) neye dikkat edilmeli?",
+        "a": "<ul><li>Dil ve altyazı seçimi,</li><li>ülkeye özel tatil dönemleri ve kampanyalar,</li><li>yerel davranış ve tercihleri (family vs adults-only, luxury vs budget) anlamak,</li><li>ilgili ülkelerde arama ve otel araştırma alışkanlıklarını analiz etmek.</li></ul> Tek bir video ile 10 ülkeye aynı mesajı vermek, genelde verimsizdir."
+      },
+      {
+        "q": "Şehir otelleri için YouTube reklamları nasıl konumlanmalı?",
+        "a": "<ul><li>lokasyon, ulaşım ve iş/etkinlik alanlarına yakınlık,</li><li>toplantı ve MICE olanakları,</li><li>kısa konaklama ve hafta içi–hafta sonu modları.</li></ul> Bu otellerde video dili, “tatil”den çok “konfor, erişilebilirlik ve iş/organize kolaylığı” etrafında kurgulanmalıdır."
+      },
+      {
+        "q": "Lifestyle ve adults-only oteller için YouTube nasıl kullanılmalı?",
+        "a": "<ul><li>atmosfer, müzik, yemek, bar, gece hayatı,</li><li>stil sahibi, deneyim odaklı görüntüler,</li><li>daha rafine ve hikâye anlatımı güçlü kreatifler.</li></ul> Bu segmentte YouTube, tam bir marka sahnesidir."
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "Mini YouTube Reklam SSS (Kısa Cevaplar)",
+    "items": [
+      {
+        "q": "YouTube’a reklam vermek için mutlaka uzun tanıtım filmim olmalı mı?",
+        "a": "Hayır; kısa highlight videolar ve bumper’larla da başlanabilir."
+      },
+      {
+        "q": "Sadece bumper (6 sn) ile kampanya yürütmek mantıklı mı?",
+        "a": "Üst-funnel tanıtım için TrueView ile, hatırlatma için bumper kombinasyonu genelde daha verimlidir."
+      },
+      {
+        "q": "YouTube reklamlarında ses şart mı?",
+        "a": "Çoğu kullanıcı sesli izlese de, videonun sessiz izlendiğinde de anlaşılır olması (alt yazı, grafik, headline) önemlidir."
+      },
+      {
+        "q": "YouTube kampanyamı sürekli açık mı tutmalıyım?",
+        "a": "Dönemsel kampanyalar (sezon, erken rezervasyon, lansman) ve remarketing ağırlıklı yapı genelde daha iyi kontrol sağlar."
+      },
+      {
+        "q": "YouTube reklamları için minimum bütçe var mı?",
+        "a": "Mutlak bir alt limit olmasa da, anlamlı veri ve optimizasyon için belli bir günlük/aylık bütçe seviyesi gerekir; bu da pazar ve hedeflemeye göre değişir."
+      },
+      {
+        "q": "YouTube reklamı vermek için mutlaka YouTube kanalım olmak zorunda mı?",
+        "a": "Teknik olarak reklam hesabı üzerinden de video yayınlanabilir; ancak kanal sahibi olmak ve orayı da markaya uygun yönetmek uzun vadede avantaj sağlar."
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "YouTube Reklam Yönetimi İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile YouTube Reklam Yönetimi için nasıl teklif alabilirim?",
+        "a": "<ul><li>otel/marka bilgilerin,</li><li>hedef pazarlar ve diller,</li><li>mevcut YouTube/aset durumun (video var mı, yok mu?),</li><li>aylık tahmini bütçe aralığın,</li><li>şu an yaşadığın sorunlar (sadece izlenme, düşük etkileşim, rezervasyona yansımama vb.)</li></ul> gibi başlıkları içeren kısa bir brief paylaşman yeterlidir. Bu bilgilerle kapsam, süre ve maliyet çerçevesi olan bir teklif ve yol haritası hazırlanır."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı YouTube tarafında neye hizmet ediyor?",
+        "a": "Bu görüşme; hangi video formatlarının, hangi pazarlarda ve hangi funnel kurgusuyla kullanılacağını; mevcut kreatiflerinin ne kadar uygun olduğunu ve hangi ölçümleme modelinin kurulması gerektiğini birlikte netleştirmek içindir. Yani “buton nerede?” yerine “hangi stratejiyle ne yapıyoruz?” sorusuna odaklanır."
+      },
+      {
+        "q": "YouTube Reklam Yönetimi SSS’den sonra hangi sayfaları incelemeliyim?",
+        "a": "<ul><li>SEM genel sayfası → /tr/sem</li><li>Google Ads Yönetimi → /tr/sem/google-ads-yonetimi</li><li>Remarketing & Display → /tr/sem/remarketing-ve-display</li><li>Dönüşüm Takibi & Tag Manager → /tr/sem/donusum-takibi-tag-manager</li><li>Reklam Raporlama → /tr/sem/reklam-raporlama</li><li>SEO Hizmetleri → /tr/seo-hizmetleri</li><li>Sosyal Medya Yönetimi → /tr/sosyal-medya-yonetimi</li><li>Otel Dijital Pazarlama → /tr/otel-dijital-pazarlama</li></ul> Bu sayfalar, YouTube’un diğer dijital katmanlarla birlikte nasıl konumlandığını daha net görmeni sağlar."
+      }
+    ]
+  }
+    },
+     "cta": {
+      "primary": "Creative analizi talep edin",
+      "primaryHref": "/tr/creative",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
+    }
+  },
+
+  "FaqRemarketingDisplay": {
+    "h1": "Remarketing & Display Reklamları SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Remarketing & display reklamları; sadece “her yerde banner göstermek” değil, siteni ziyaret edip satın almadan/rezervasyon yapmadan giden kullanıcıları, doğru frekans, doğru segment ve doğru kreatiflerle yeniden yakalayıp gerçek dönüşüme taşımayı hedefleyen profesyonel bir yapıdadır. Otel ve turizm tarafında, bu yapı doğru kurgulandığında Google Display Network, YouTube ve sosyal medya kampanyaları bir “geri kazanım makinesi” gibi çalışır.",
+      "p2": "Bu SSS sayfası, Remarketing & Display Reklamları ile ilgili en sık sorulan soruları tek yerde toplar. Siteyi ziyaret etmiş ancak satın almamış kullanıcıların yeniden hedeflenmesi, banner tasarımları, frekans kontrolü, segment bazlı hedefleme, otel & turizm senaryolarında remarketing kurguları ve raporlama/optimizasyon adımlarını açıklar. Amaç; display & remarketing bütçesini boşa yakan bir “görünürlük kalemi” olmaktan çıkarıp, rezervasyon ve satışa destek veren gerçek bir performans katmanına dönüştürmektir.",
+       "p3":""
+    },
+
+    "meta": {
+      "silo": "SEM – Remarketing & Display",
+      "mainUrl": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display-sss",
+      "title": "Remarketing & Display Reklamları SSS – Dijital Reklam Yönetimi İçin En Kapsamlı Rehber | DGTLFACE",
+      "description": "Remarketing & Display Reklamları hakkında sık sorulan sorular; yeniden pazarlama kurguları, banner tasarımları ve segment bazlı hedefleme. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "pageNameH1": "Remarketing & Display Reklamları SSS",
+      "primaryIntent": "Transactional (Hizmet Talebi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)",
+      "priority": "High",
+      "locationFocus": "Türkiye geneli + hedef ülke pazarları",
+      "targetAudience": "Otel & turizm işletmeleri, e-ticaret ve performans odaklı markalar"
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "Remarketing & Display Reklamları SSS; siteyi ziyaret edip satın almayan kullanıcıları doğru frekans, segment ve kreatif kombinasyonuyla yeniden hedefleyerek Google Display, YouTube ve sosyal medya kampanyalarından gerçek rezervasyon ve satış üretmek isteyen otel ve markalar için hızlı bir rehberdir. Hem “hangi kullanıcıya ne göstermeliyim?” sorusuna, hem de “bütçeyi nasıl verimli kullanırım?” sorusuna pratik yanıtlar sunar."
+    },
+
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": "Remarketing & display reklamlar; otelin ya da markanın web sitesini ziyaret etmiş ama satın almadan ayrılan kullanıcıları, doğru zamanda ve doğru banner/video ile yeniden yakalayıp dönüşüme taşımayı hedefleyen dijital reklam yapılarıdır."
+    },
+
+    "voiceQueries": {
+      "title": "Sesli Aramada Örnek Sorgular",
+      "q1": "Remarketing & display reklamlar tam olarak nedir?",
+      "q2": "Sitemi ziyaret eden ama satın almayan kullanıcıları nasıl yeniden hedeflerim?",
+      "q3": "Otelim için remarketing ve display kampanyalarına nereden başlamalıyım?",
+      "q4": "Remarketing frekansı ve bütçesi nasıl ayarlanmalı?",
+      "q5": "Banner tasarımı dönüşümü gerçekten etkiler mi?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Remarketing & Display Reklamlarına Giriş (Genel Sorular)",
+        "items": [
+          {
+            "q": "Remarketing nedir, nasıl çalışır?",
+            "a": "Remarketing; siteni ziyaret eden veya uygulamanla etkileşime geçen kullanıcıları, sonraki günlerde/haftalarda farklı sitelerde, uygulamalarda veya YouTube’da yeniden görsel/video reklamlarla hedefleme yöntemidir. Kullanıcı tarayıcıya bırakılan cookie’ler veya event’ler sayesinde, “daha önce seni ziyaret etmiş” olduğu için sistemde bir listeye düşer ve sen sadece bu listeyi hedefleyen kampanyalar kurgulayabilirsin."
+          },
+          {
+            "q": "Display reklamlar tam olarak nedir?",
+            "a": "Display reklamlar; Google Display Network (GDN) ve benzeri ağlardaki haber siteleri, bloglar, uygulamalar ve YouTube gibi platformlarda görünen görsel (banner) veya rich-media reklamlardır. Ancak display’in en verimli kullanım alanı çoğu zaman remarketing ve segment bazlı hedefleme ile birlikte çalıştığı senaryolardır."
+          },
+          {
+            "q": "Remarketing ve display’i neden birlikte düşünmeliyim?",
+            "a": "Çünkü display; geniş kitlelere görünmek için verimli olabilir ama tek başına kullanıldığında çoğu zaman israfta gezebilir. Remarketing ile birleştiğinde ise:<ul><li>halihazırda ilgisini göstermiş kullanıcıları,</li><li>teklif ve mesajlarıyla “geri çağıran” bir yapı haline gelir.</li></ul> Yani display, remarketing ile birlikte kullanıldığında “sıcak kullanıcıya hatırlatma” görevi görür."
+          },
+          {
+            "q": "Remarketing & display oteller için neden kritik?",
+            "a": "Otel ve resort’larda kullanıcı genellikle:<ul><li>Farklı otelleri ve destinasyonları araştırır,</li><li>Siteni ziyaret eder, fiyat ve oda bakar,</li><li>Kapatır, erteler, OTA’ya gider, başka otellere bakar.</li></ul> Remarketing, bu kararsız kullanıcıyı pes etmeden ama rahatsız etmeden tekrar tekrar oteline hatırlatarak; “tam karar aşamasındayken seni unutmamasını” sağlar."
+          },
+          {
+            "q": "Kimler remarketing kullanmalı?",
+            "a": "<ul><li>Otel & turizm işletmeleri,</li><li>e-ticaret siteleri,</li><li>lead odaklı B2B markalar,</li><li>eğitim, sağlık, finans gibi karar süreci uzun sektörler.</li></ul> Özetle, site trafiği olup hemen dönüşüm alamayan herkes için remarketing çok kıymetlidir."
+          },
+          {
+            "q": "Sadece yeni kullanıcı hedeflemek yerine neden remarketing yapmalıyım?",
+            "a": "Yeni kullanıcıyı bulmak pahalıdır; remarketing, zaten seni tanımış kullanıcıyı daha düşük maliyetle tekrar masaya getirir. Ayrıca, çoğu kullanıcı ilk ziyarette satın almaz; remarketing, “ikinci–üçüncü dokunuş” katmanını oluşturur."
+          }
+        ]
+      },
+
+       "quickAnswers": {
+    "title": "Kısa ve Hızlı Yanıtlar (Sesli Arama Odaklı)",
+    "items": [
+      {
+        "q": "Remarketing & display reklamlar nedir, tek cümleyle?",
+        "a": "Siteni ziyaret eden kullanıcıları, farklı sitelerde ve uygulamalarda görsel veya video reklamlarla yeniden hedefleyip geri kazanmanı sağlayan reklam yapılarıdır."
+      },
+      {
+        "q": "Sitemi ziyaret eden ama satın almayan kullanıcıları nasıl yeniden hedeflerim?",
+        "a": "GA4, Tag Manager veya pixel ile remarketing listeleri oluşturup, bu listeleri hedefleyen display ve video kampanyaları açarak yeniden hedefleyebilirsin."
+      },
+      {
+        "q": "Otelim için remarketing ve display’e nereden başlamalıyım?",
+        "a": "Önce dönüşüm ve event ölçümlemeyi doğru kur; ardından tüm ziyaretçiler, oda sayfalarına bakanlar ve rezervasyon adımına gelip satın almayanlar gibi segment listeler oluştur."
+      },
+      {
+        "q": "Remarketing frekansı kaç olmalı?",
+        "a": "Çok düşük frekans etkisiz, çok yüksek frekans rahatsız edicidir. Kampanya ve sektöre göre günlük ve haftalık gösterim üst limitleri planlanmalıdır."
+      },
+      {
+        "q": "Banner tasarımı dönüşümü gerçekten etkiler mi?",
+        "a": "Evet. Net mesaj, güçlü görsel ve açık bir CTA içeren banner’lar; yalnızca logo ve görselden oluşan tasarımlara göre çok daha yüksek tıklama ve dönüşüm oranı üretir."
+      },
+      {
+        "q": "Remarketing sadece Google üzerinden mi yapılır?",
+        "a": "Hayır. Google Display ve YouTube’un yanında Meta (Facebook ve Instagram), LinkedIn ve diğer reklam platformlarında da remarketing yapılabilir."
+      }
+    ]
+  },
+
+  "section3": {
+    "title": "Hizmet Kapsamı: Remarketing Kurguları, Banner Tasarımı ve Segmentler",
+    "items": [
+      {
+        "q": "Remarketing & display reklam yönetimi hizmetiniz neleri kapsıyor?",
+        "a": 
+            "Mevcut event ve dönüşüm ölçümleme altyapısının analizi, Remarketing listeleri ve segmentlerin planlanması, Google Display Network ve YouTube remarketing kurguları, Gerekiyorsa sosyal medya remarketing senaryolarının oluşturulması, Banner ve basit video kreatif ihtiyaçlarının belirlenmesi, Frekans ve bütçe planlaması, Raporlama ve optimizasyon"
+       
+      },
+      {
+        "q": "Hangi remarketing segmentleri oluşturulmalı?",
+        "a": 
+            "Tüm site ziyaretçileri, Belirli sayfa, ürün veya oda tipi ziyaretçileri, Sepet veya rezervasyon adımına gelip tamamlamayanlar, Belirli kampanya sayfalarını ziyaret edenler, Sık ziyaret edip satın almayan kullanıcılar, Yaz sezonu sayfalarını gezenler, Fiyat araması yapan kullanıcılar"
+         
+      },
+      {
+        "q": "Banner tasarımı remarketing’de neden bu kadar önemli?",
+        "a": "Kullanıcı seni zaten tanır. Bu aşamada tasarım; neden geri gelmesi gerektiğini, hangi avantajı kaçırdığını ve hangi tarih, konsept veya kampanyanın öne çıktığını çok hızlı ve net anlatmalıdır. Güçlü görsel, kontrast başlık ve net CTA kritik rol oynar."
+      },
+      {
+        "q": "Remarketing’de hangi mesaj tipleri daha iyi çalışır?",
+        "a": 
+            "Devam et, yarım bıraktın mesajları (sepet veya rezervasyon adımı), Sınırlı süreli kampanya ve fiyat mesajları, Destinasyon ve konsept odaklı ilham veren içerikler, Puan, yorum ve ödül gibi sosyal kanıt içeren kreatifler, Erken rezervasyon, sezon içi veya son dakika vurguları"
+        
+      },
+      {
+        "q": "Google Display Network reklamları nasıl verilir?",
+        "a": 
+            "Hedef kitle olarak remarketing listeleri veya segmentler seçilir, Uygun banner boyutları yüklenir veya responsive display reklamlar oluşturulur, Lokasyon, dil ve cihaz ayarları yapılır, Bütçe ve teklif stratejisi belirlenir, Frekans sınırları ve yerleşim (placement) kontrolleri uygulanır"
+        
+      },
+      {
+        "q": "Remarketing sadece banner ile mi yapılır, video da olur mu?",
+        "a": "Hem banner hem video ile yapılabilir. YouTube video remarketing, özellikle otel ve turizm gibi görsel anlatımı güçlü sektörlerde oldukça yüksek etki sağlar."
+      }
+    ]
+  },
+
+   "section4": {
+    "title": "Süreç & İşleyiş",
+    "items": [
+      {
+        "q": "Remarketing & display reklam projesine başlamadan önce neyi analiz ediyorsunuz?",
+        "a": "Mevcut trafik hacmi, dönüşüm ve event ölçüm yapısı (GA4/Tag Manager), geçmişteki display/remarketing kampanyaları, kullanılan segmentler, kreatif seti (banner/video), bütçe ve hedefler analiz edilir. Bu analizden sonra; nereden başlamalı ve hangi listeleri ve mesajları önce test etmeliyiz sorularına net cevap çıkar."
+      },
+      {
+        "q": "Remarketing listeleri nasıl oluşturuluyor?",
+        "a": "Sayfa ziyaretine göre, Event tetiklerine göre (sepete ekleme, rezervasyon adımı, form, video izleme vb.), Kaynak/medium’a göre (organik, OTA kaynaklı trafik, kampanya bazlı ziyaretler), Cihaz ve ülke bazlı kırılımlar"
+          
+        
+      },
+      {
+        "q": "Frekans ve süre ayarları nasıl yapılıyor?",
+        "a": "Kısa karar döngüsü olan ürünler için daha kısa süreli listeler (7–14 gün), otel gibi daha uzun karar süreçlerinde 30–60+ gün tercih edilir. Frekans; kampanya tipi, mesaj ve bütçeye göre test edilir. Amaç; görünür kalmak ama rahatsız etmemektir."
+      },
+      {
+        "q": "Remarketing & display kampanyaları ne sıklıkta optimize ediliyor?",
+        "a": "Genellikle ilk dönemde haftalık, daha sonra en az 15 günde bir; görüntülenme, tıklama, dönüşüm, kitle boyutu ve frekans verilerine göre kreatif, hedefleme ve bütçe dağılımı gözden geçirilir."
+      },
+      {
+        "q": "Remarketing kurgusu, Google Ads arama ve YouTube kampanyalarıyla nasıl entegre oluyor?",
+        "a": "YouTube ve arama kampanyaları ilk dokunuş rolünü üstlenirken, remarketing & display bu kullanıcıları sonraki günlerde hatırlatma ve geri çağırma rolünü üstlenir. Özellikle arama + remarketing ve YouTube + remarketing kombinasyonlarında, rezervasyon ve satış tarafında belirgin artış görülebilir."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Pain Point Soruları",
+    "items": [
+      {
+        "q": "Sitemde trafik var ama dönüşüm yok; remarketing bu sorunu nasıl çözer?",
+        "a": "Remarketing, siteni ziyaret etmiş ama karar verememiş kullanıcıya teklifini, avantajlarını ve kampanyanı tekrar tekrar hatırlatarak dönüşme ihtimalini artırır. Tek başına çözüm değildir ama özellikle son itici güç rolünde çok etkilidir."
+      },
+      {
+        "q": "Yanlış frekans (çok sık / çok seyrek) neye yol açar?",
+        "a": 
+            "Çok sık: kullanıcıyı rahatsız eder, marka algısını düşürür, banner körlüğü yaratır.,Çok seyrek: yeterince iz bırakmaz, kullanıcı unutup gider."
+         
+      },
+      {
+        "q": "Alakasız sitelerde gösterim olması neden kötü?",
+        "a": "Marka algısını zedeleyebilir; bütçeyi yanlış envanterde tüketir ve remarketing listesini gürültü ile kirletebilir. Bu nedenle placement raporları düzenli kontrol edilmeli, gerekirse placement hariçleri ve kategori filtreleri kullanılmalıdır."
+      },
+      {
+        "q": "Banner körlüğü (banner blindness) nasıl azaltılır?",
+        "a": 
+            "Kreatifleri düzenli aralıklarla yenileyerek, Farklı format ve boyutları test ederek ,Kreatif dilde segment bazlı kişiselleştirme yaparak (ör. Aile tatili için uygunsun vs Çiftler için huzurlu kaçamak) ,Sadece remarketing değil, farklı audience sinyalleri ile de çalışarak"
+          
+      },
+      {
+        "q": "Remarketing & display için hangi KPI’ları takip etmeliyim?",
+        "a": 
+            "Görüntülenme (impressions), Tıklama ve CTR , Oturum ve sayfa etkileşimi , Remarketing listesi büyüklüğü ve kalitesi ,Dönüşüm ve gelir katkısı (özellikle assist/contribution tarafı) ,Frekans ve kullanıcı başına maliyet"
+         
+      }
+    ]
+  },
+
+  "section6": {
+    "title": "GEO & Sektör Odaklı Sorular",
+    "items": [
+      {
+        "q": "Türkiye geneli oteller için remarketing & display stratejisi nasıl olmalı?",
+        "a": "Türkiye genelinde remarketing & display stratejisi; yurt içi pazar için kampanya ve fiyat mesajı taşıyan kreatifler, yurt dışı pazar listeleri için dil ve destinasyon odaklı banner’lar, erken rezervasyon–sezon–son dakika dönemlerine göre değişen mesajlar ve aile, çift, grup gibi segment bazlı listeler üzerine kurulmalıdır. Her pazar ve segment için tek mesaj yerine uyarlanmış remarketing stratejisi daha etkilidir."
+      },
+      {
+        "q": "Hedef ülke pazarlarında (DE, UK, RU vb.) remarketing yaparken nelere dikkat edilmeli?",
+        "a": "Dil ve kültürel uyum (metin, görsel, renk kullanımı), tatil sezonları ve planlama alışkanlıkları, cihaz kullanımı (mobil/desktop) ve fiyat sunum şekilleri dikkatle ele alınmalıdır. Kreatif ve mesaj yalnızca çeviri olarak değil, pazar uyarlaması olarak düşünülmelidir."
+      },
+      {
+        "q": "E-ticaret tarafında remarketing stratejisi otelden nasıl farklılaşır?",
+        "a": "E-ticarette remarketing; ürün bazlı sepet ve ürün sayfası segmentasyonu, cross-sell/upsell mantığı ve daha kısa karar döngüleri üzerine kuruludur. Otel tarafında ise oda tipi, paket, sezon ve destinasyon kombinasyonları, daha uzun karar süreci ve fiyat + deneyim + tarih üçlüsünün birlikte anlatılması ön plandadır. Temel prensip benzer olsa da segment ve mesaj yapısı farklılaşır."
+      },
+      {
+        "q": "Kurumsal markalar ve B2B için remarketing nasıl kurgulanmalı?",
+        "a": "B2B remarketing; case study ve referans içeriklerine geri çağırma, whitepaper, demo ve webinar gibi içerikleri hatırlatma ve teklif/form doldurma sürecine geri çağırma üzerine kurgulanır. Bu yapı genellikle tek tıkta satıştan çok lead üretimi ve ilişki geliştirme odaklıdır."
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "Mini Remarketing & Display SSS (Kısa Cevaplar)",
+    "items": [
+      {
+        "q": "Remarketing yapmak için mutlaka GA4 / Tag Manager kurmam gerekir mi?",
+        "a": "Zorunlu değildir ancak önerilir; çünkü GA4 ve Tag Manager, daha sağlıklı ve esnek remarketing listeleri oluşturma imkânı sağlar."
+      },
+      {
+        "q": "Remarketing sadece “son 30 gün” için mi yapılır?",
+        "a": "Hayır; ürün ve karar sürecine göre 7, 14, 30 veya 90 gün gibi farklı sürelerde listeler kullanılabilir."
+      },
+      {
+        "q": "Sadece “tüm ziyaretçiler”i remarketing ile hedeflemek yeterli mi?",
+        "a": "Genel bir başlangıç sağlar ancak çoğu zaman yetersizdir. Sepete gelenler, oda veya ürün sayfasına bakanlar gibi daha spesifik segmentler çok daha verimli sonuç üretir."
+      },
+      {
+        "q": "Display reklamları sadece remarketing için mi kullanılmalı?",
+        "a": "Hayır. Doğru interest ve in-market segmentlerle üst funnel’da da kullanılabilir; ancak remarketing tarafı genellikle daha kontrollü ve verimlidir."
+      },
+      {
+        "q": "Remarketing kampanyalarını sürekli açık tutmak doğru mu?",
+        "a": "Genellikle evet; ancak frekans kontrolü, süre yönetimi ve kreatif yenileme (refresh) mutlaka doğru şekilde yapılmalıdır."
+      },
+      {
+        "q": "Cookie ve pixel değişiklikleri remarketing’i nasıl etkiler?",
+        "a": "Kullanıcı izinleri ve tarayıcı politikaları remarketing havuzlarını daraltabilir. Bu nedenle 1st party veri, CRM entegrasyonu ve server-side ölçümleme giderek daha önemli hale gelmektedir."
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "Remarketing & Display Reklamları İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile Remarketing & Display Reklamları için nasıl teklif alabilirim?",
+        "a": "Aylık site trafiğiniz, sektörünüz (otel, e-ticaret, B2B vb.), hedef pazarlarınız (Türkiye, Almanya, İngiltere, Rusya vb.), mevcut remarketing kurulumunuz ve yaşadığınız temel sorunları (trafik var ama dönüşüm yok, çok gösterim–az satış vb.) içeren kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve bütçe çerçevesi olan bir teklif ve yol haritası hazırlanır."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı remarketing tarafında neyi ifade ediyor?",
+        "a": "Bu görüşme; sadece kampanya açmayı değil, hangi segmentlerin oluşturulması gerektiğini, hangi kanallarda remarketing yapılacağını (Display, YouTube, sosyal), ne kadar frekans ve bütçe ayrılacağını ve mevcut kreatiflerin yeterli olup olmadığını iş modelinize özel olarak netleştirmeyi amaçlar."
+      },
+      {
+        "q": "Remarketing & Display Reklamları SSS’den sonra hangi sayfaları incelemeliyim?",
+        "a": "<ul><li><a href=\"/tr/sem\">SEM</a></li><li><a href=\"/tr/sem/google-ads-yonetimi\">Google Ads Yönetimi</a></li><li><a href=\"/tr/sem/youtube-reklam-yonetimi\">YouTube Reklam Yönetimi</a></li><li><a href=\"/tr/sem/donusum-takibi-tag-manager\">Dönüşüm Takibi & Tag Manager</a></li><li><a href=\"/tr/sem/reklam-raporlama\">Reklam Raporlama</a></li><li><a href=\"/tr/seo-hizmetleri\">SEO Hizmetleri</a></li><li><a href=\"/tr/sosyal-medya-yonetimi\">Sosyal Medya Yönetimi</a></li><li><a href=\"/tr/otel-dijital-pazarlama\">Otel Dijital Pazarlama</a></li></ul>"
+      }
+    ]
+  }
+    },
+     "cta": {
+      "primary": "Creative analizi talep edin",
+      "primaryHref": "/tr/creative",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
+    }
+  },
+
+  "FaqTagManager": {
+    "h1": "Dönüşüm Takibi & Tag Manager SSS",
+
+     "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Dönüşüm takibi; dijital kampanyalarınıza harcadığınız bütçenin gerçekten rezervasyon, satış veya lead üretip üretmediğini görebilmenizi sağlayan ölçümleme altyapısıdır. Google Analytics 4 (GA4), Google Tag Manager (GTM), rezervasyon sistemi, call center ve OTA/PMS gibi farklı kaynaklardan gelen veriler; doğru event ve conversion kurguları olmadan sağlıklı analiz edilemez.",
+      "p2": "Otel ve turizm tarafında kullanıcı; web, OTA, telefon, WhatsApp ve hatta sosyal medya gibi pek çok temas noktasından geçer. Dönüşüm takibi & Tag Manager yapısı doğru kurulmadığında; hangi kampanyanın, hangi kanalın, hangi pazarda gerçek gelir yarattığını görmek zorlaşır ve bütçe dağılımı tahmine kalır.",
+      "p3": "Bu SSS sayfası, Dönüşüm Takibi & Tag Manager ile ilgili en sık sorulan soruları tek yerde toplar. GA4, Google Tag Manager, event kurulumu, rezervasyon & satış takibi, telefon/WhatsApp dönüşümleri ve çok kanallı dönüşüm akışlarının nasıl ölçülmesi gerektiğini açıklar. Özellikle oteller ve performans odaklı markalar için, reklam bütçesinin gerçekten satış ve rezervasyon üretip üretmediğini görmek isteyen ekipler adına teknik ve iş tarafını birleştiren pratik bir rehber sunar."
+    },
+
+    "meta": {
+      "silo": "SEM – Dönüşüm Takibi & Tag Manager",
+      "mainUrl": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager-sss",
+      "title": "Dönüşüm Takibi & Tag Manager SSS – Dijital Reklam Yönetimi İçin En Kapsamlı Rehber | DGTLFACE",
+      "description": "Dönüşüm Takibi & Tag Manager hakkında sık sorulan sorular; GA4, GTM, event kurulumu ve rezervasyon / satış takibi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "primaryIntent": "transactional",
+      "secondaryIntent": "informational",
+      "locationFocus": "Türkiye geneli",
+      "targetAudience": "Otel & resort yöneticileri, pazarlama ve performans ekipleri, analitik ve IT ekipleri"
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet (Genel Bakış)",
+      "text": "Bu SSS sayfası; Dönüşüm Takibi & Tag Manager ile ilgili en sık sorulan soruları GA4, GTM, event kurulumu, rezervasyon ve satış takibi, call tracking ve çok kanallı dönüşüm akışları odağında ele alır. Reklam bütçesinin gerçekten satış ve rezervasyon üretip üretmediğini net şekilde görmek isteyen otel ve performans odaklı markalar için pratik bir rehber sunar."
+    },
+
+    "voiceSummary": {
+      "title": "Sesli Arama İçin Kısa Özet",
+      "text": "Dönüşüm takibi ve Tag Manager; Google Ads ve diğer dijital kanallara harcadığınız bütçenin hangi kampanya ve kanallarda, ne kadar rezervasyon ve gelir ürettiğini görebilmeniz için GA4 ve GTM üzerinde doğru event ve conversion kurulumlarını yapma sürecidir."
+    },
+
+    "voiceQueries": {
+      "title": "Sesli Aramada Örnek Sorgular",
+      "q1": "Dönüşüm takibi tam olarak nedir?",
+      "q2": "Otelim için GA4 ve Tag Manager kurulumuna nereden başlamalıyım?",
+      "q3": "Telefon ve WhatsApp dönüşümlerini nasıl ölçerim?",
+      "q4": "Rezervasyon sistemiyle GA4 ve GTM’yi nasıl entegre ederim?",
+      "q5": "Dönüşüm verimim düşükse nereleri kontrol etmeliyim?"
+    },
+
+   "sections":{
+        "generalQuestions": {
+      "title": "Dönüşüm Takibi & Tag Manager’a Genel Bakış",
+      "items": [
+        {
+          "q": "Dönüşüm takibi nedir, neden bu kadar önemlidir?",
+          "a": "Dönüşüm takibi; kullanıcıların sitenizde veya uygulamanızda gerçekleştirdiği değerli aksiyonları (rezervasyon, satın alma, form gönderme, telefon veya WhatsApp tıklaması gibi) kaydetme ve bu aksiyonları kampanya, kanal, pazar ve cihaz bazında analiz etme sürecidir. Dönüşüm takibi yoksa hangi kampanyanın işe yaradığı, hangi kanalın gereksiz bütçe tükettiği ve hangi pazarın daha kârlı olduğu net şekilde görülemez."
+        },
+        {
+          "q": "GA4 ve Google Tag Manager bu işin neresinde duruyor?",
+          "a": "GA4; kullanıcı davranışı ve dönüşüm verisini toplayan ve raporlayan analitik katmandır. Google Tag Manager ise GA4, Google Ads, remarketing ve üçüncü parti araçlara ait etiketlerin merkezi ve esnek şekilde yönetildiği tag yönetim aracıdır. Kısaca: GTM etiketleri taşır, GA4 veriyi okur ve raporlar."
+        },
+        {
+          "q": "Dönüşüm takibi olmadan Google Ads yönetmek neden risklidir?",
+          "a": "Dönüşüm takibi olmadan gerçek kampanya performansı görülemez, akıllı teklif stratejileri (tCPA, tROAS) sağlıklı çalışmaz ve bütçe yanlış kampanya veya pazarlara kaydırılabilir. Bu durumda Google Ads, sonucu ölçülemeyen tıklamalar satın aldığınız bir sisteme dönüşür."
+        },
+        {
+          "q": "Dönüşüm takibi sadece online rezervasyon için mi yapılır?",
+          "a": "Hayır. Otel ve hizmet sektöründe dönüşüm; online rezervasyonun yanında form doldurma, telefon araması, WhatsApp tıklaması ve teklif veya iletişim talepleri gibi farklı aksiyonları da kapsar. Sağlıklı bir kurulumda tüm bu dönüşümler ayrı ayrı ve birlikte izlenir."
+        },
+        {
+          "q": "Dönüşüm verisi sadece pazarlama ekipleri için mi değerlidir?",
+          "a": "Hayır. Dönüşüm verisi; gelir yönetimi ekiplerinin kanal kararlarını, satış ekiplerinin pazar ve segment önceliklerini ve yönetimin bütçe ile yatırım kararlarını besler. Yani dönüşüm takibi yalnızca pazarlama değil, tüm ticari karar mekanizmasını güçlendirir."
+        },
+        {
+          "q": "Dönüşüm ölçümleri hatalıysa ne olur?",
+          "a": "Bazı kampanyalar olduğundan iyi, bazıları olduğundan kötü görünebilir; yanlış kampanyalar ölçeklenir, doğru kampanyalar kesilir ve veri ile raporlara olan güven azalır. Bu nedenle dönüşüm takibi kurulumdan sonra mutlaka test ve doğrulama süreçlerinden geçirilmelidir."
+        }
+      ]
+    },
+
+    "quickAnswers": {
+      "title": "Kısa ve Hızlı Yanıtlar",
+      "items": [
+        {
+          "q": "Dönüşüm takibi nedir, tek cümleyle?",
+          "a": "Kullanıcının iş sonucu üreten aksiyonlarını (rezervasyon, satış, form, arama gibi) kaydedip hangi kampanya ve kanaldan geldiğini görme sürecidir."
+        },
+        {
+          "q": "Google Tag Manager ile dönüşüm nasıl takip edilir?",
+          "a": "Google Tag Manager’da event tetikleyicileri ve tag’ler tanımlanır; bu event’ler GA4 ve Google Ads’e dönüşüm olarak gönderilir."
+        },
+        {
+          "q": "GA4’te rezervasyon dönüşümleri nasıl kurulur?",
+          "a": "Rezervasyon tamamlandı sayfası veya rezervasyon event’i GA4’te event olarak kaydedilir ve conversion olarak işaretlenerek Google Ads ile paylaşılır."
+        },
+        {
+          "q": "Telefon ve WhatsApp aramaları dönüşüm olarak ölçülebilir mi?",
+          "a": "Evet. Telefon ve WhatsApp buton tıklamaları GTM üzerinden event olarak takip edilip GA4 ve Ads’te dönüşüm olarak işaretlenebilir."
+        },
+        {
+          "q": "Dönüşüm verimim düşükse nerelere bakmalıyım?",
+          "a": "Önce ölçümleme kurulumunun doğru çalışıp çalışmadığı kontrol edilmeli, ardından kampanya yapısı, landing page ve rezervasyon sürecindeki kullanıcı deneyimi incelenmelidir."
+        },
+        {
+          "q": "Dönüşüm takibi kimler için zorunludur?",
+          "a": "Dijital kanallardan rezervasyon, satış veya lead hedefleyen her otel ve marka için fiilen zorunludur."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "Hizmet Kapsamı: GA4, GTM, Event ve Entegrasyonlar",
+      "items": [
+        {
+          "q": "Dönüşüm Takibi & Tag Manager hizmetiniz neleri kapsıyor?",
+          "a": "Mevcut GA ve GTM kurulumunun analizi, GA4 kurulum veya geçiş planı, GTM container yapısının düzenlenmesi, event ve conversion planının hazırlanması, rezervasyon sistemi ve üçüncü parti entegrasyonlar, reklam platformlarıyla entegrasyon, test ve doğrulama süreçleri ile temel raporlama ve eğitim adımlarını kapsar."
+        },
+        {
+          "q": "Event ve conversion planı nasıl hazırlanıyor?",
+          "a": "Önce iş hedefleri belirlenir (online rezervasyon, telefon ve WhatsApp çağrıları, form ve teklif talepleri, OTA yönlendirmeleri veya lead hedefleri). Ardından bu hedeflere karşılık gelen kullanıcı aksiyonları event olarak tanımlanır ve hangi event’lerin conversion olacağı netleştirilir."
+        },
+        {
+          "q": "Oteller için tipik dönüşüm seti neleri içerir?",
+          "a": "Online rezervasyon event’i (purchase veya reservation_complete), rezervasyon motoru adım event’leri, telefon ve WhatsApp tıklamaları, iletişim veya teklif formu gönderimleri ve bülten veya CRM kayıtları temel dönüşüm setini oluşturur."
+        },
+        {
+          "q": "Rezervasyon sistemiyle GA4 ve GTM’yi nasıl entegre ediyorsunuz?",
+          "a": "Rezervasyon motoru veya PMS sağlayıcısıyla birlikte teşekkür sayfası veya event tetikleri belirlenir, rezervasyon ID ve gelir bilgisi dataLayer’a aktarılır ve GA4 ile Google Ads tag’lerinin bu veriyi okuması sağlanır."
+        },
+        {
+          "q": "Telefon ve WhatsApp (call tracking) dönüşümleri nasıl takip edilir?",
+          "a": "Telefon ve WhatsApp link tıklamaları GTM üzerinden event olarak izlenir. Gerekirse dinamik numara gibi call tracking çözümleri kullanılarak bu event’ler GA4 ve Ads’te dönüşüm olarak raporlanır."
+        },
+        {
+          "q": "OTA ve metasearch yönlendirmeleri dönüşüm olarak sayılır mı?",
+          "a": "Stratejiye bağlı olarak OTA yönlendirmeleri yardımcı dönüşüm olarak izlenebilir. Ancak direct booking hedefleniyorsa, bu aksiyonlar web üzerinden gelen gerçek rezervasyon dönüşümlerinden ayrıştırılmalıdır."
+        },
+        {
+          "q": "PMS, CRM ve diğer sistemlerle dönüşüm verisi nasıl eşleştiriliyor?",
+          "a": "Rezervasyon ID, kanal bilgisi ve UTM parametreleri gibi ortak anahtarlar kullanılarak PMS ve CRM verileri GA4 ve Ads verileriyle eşleştirilir. Böylece pazarlama verisi ile gerçek satış ve gelir verisi mümkün olduğunca aynı zeminde buluşturulur."
+        }
+      ],
+      "relatedLinks": [
+        "/tr/sem/donusum-takibi-tag-manager",
+        "/tr/veri-analiz-ve-raporlama"
+      ]
+    },
+
+     "section4": {
+      "title": "Süreç & İşleyiş",
+      "items": [
+        {
+          "q": "Dönüşüm Takibi & Tag Manager projesine başlamadan önce neleri analiz ediyorsunuz?",
+          "a": "Mevcut GA veya GA4 hesabı, GTM container yapısı, halihazırda kurulu event’ler, gereksiz veya çakışan tag’ler, rezervasyon ve form süreçlerindeki kritik adımlar ile raporlama ve dashboard alışkanlıkları analiz edilir. Bu analiz sonucunda mevcut durumdan hedef duruma giden net bir yol haritası çıkarılır."
+        },
+        {
+          "q": "GA4 geçiş sürecini nasıl yönetiyorsunuz?",
+          "a": "Universal Analytics’ten GA4’e event mapping yapılır, yeni event mimarisi (event name, parameters, user properties) kurgulanır, tarihsel veri farkları ele alınır ve Google Ads ile diğer platform entegrasyonları yeniden yapılandırılır. Amaç, GA4’ü sadece eski GA’nın yerine koymak değil, event tabanlı modern bir analitik altyapı kurmaktır."
+        },
+        {
+          "q": "GTM yapısını sadeleştirmek neden önemli?",
+          "a": "Aşırı karmaşık GTM container’ları hata riskini artırır, çakışan event’lere ve sayfa performans sorunlarına yol açar. İyi bir GTM yapısı; net isimlendirilmiş, kategorize edilmiş ve dokümante edilmiş tag, trigger ve variable setlerinden oluşur."
+        },
+        {
+          "q": "Kurulum sonrası test ve doğrulamayı nasıl yapıyorsunuz?",
+          "a": "GTM preview modu ve GA4 debug view kullanılır, test rezervasyonları ve form gönderimleri yapılır, Google Ads dönüşüm sayımı ile GA4 event sayımları karşılaştırılır. Her kritik event ve conversion için test senaryoları yazılır ve canlıya almadan önce doğrulama yapılır."
+        },
+        {
+          "q": "Dönüşüm takibi kurulduktan sonra yapılması gereken işler var mı?",
+          "a": "Evet. Yeni kampanyalar için ek event ihtiyaçları, yeni sayfa veya form eklemeleri, rezervasyon sürecindeki değişiklikler ve cookie veya izin politikalarındaki güncellemeler düzenli olarak takip edilmelidir. Dönüşüm takibi, tek seferlik değil, yaşayan bir altyapıdır."
+        }
+      ]
+    },
+
+    "section5": {
+      "title": "Performans & Pain Point Soruları",
+      "items": [
+        {
+          "q": "Verinin eksik ölçümlenmesi ne gibi problemlere yol açar?",
+          "a": "Bazı rezervasyon ve satışlar raporlarda görünmez, bazı kanallar olduğundan iyi veya kötü algılanır, ROI ve ROAS hesapları güvenilir olmaz ve bütçe yanlış kanallara dağıtılabilir. Eksik ölçüm, yanlış veriyle doğru karar almaya çalışma problemine yol açar."
+        },
+        {
+          "q": "Dönüşüm verisi hatalıysa ne yapmalıyım?",
+          "a": "Önce GA4 event logları ve GTM tetikleyicileri kontrol edilmeli, rezervasyon sistemi ve teşekkür sayfası akışları incelenmeli, Ads–GA4 entegrasyonu doğrulanmalı ve çift sayım veya event çakışmaları test edilmelidir. Gerekirse belirli bir dönem için düzeltme notlarıyla raporlama yapılmalıdır."
+        },
+        {
+          "q": "Yanlış conversion seçimi (örneğin sadece sayfa görüntüleme) ne tür hatalara sebep olur?",
+          "a": "Gerçek iş değeri üretmeyen aksiyonlar başarı gibi raporlanır, kampanyalar yanlış optimize edilir ve tCPA veya tROAS gibi akıllı teklif stratejileri yanlış sinyallerle çalışır. Conversion olarak işaretlenen event’lerin mutlaka gerçek iş değeri taşıması gerekir."
+        },
+        {
+          "q": "GTM karmaşası (çok fazla tag ve event) hangi riskleri taşır?",
+          "a": "Aynı event’in birden fazla kez tetiklenmesine, sayfa hızının olumsuz etkilenmesine ve debug ile problem çözme süreçlerinin zorlaşmasına neden olur. Bu durumda GTM container’ının refactor edilmesi ve gereksiz tag’lerin temizlenmesi gerekir."
+        },
+        {
+          "q": "Dönüşüm takibi doğru kurulmadıysa kampanya optimizasyonu nasıl zarar görür?",
+          "a": "Google Ads yanlış kampanyaları ödüllendirir, düşük performanslı anahtar kelimeler gereğinden fazla bütçe alabilir ve remarketing listeleri hatalı veya kirli veriyle dolar. Sonuçta performans sorununun kaynağı çoğu zaman kampanya değil, ölçümleme hatası olur."
+        }
+      ]
+    },
+
+     "section6": {
+      "title": "GEO & Sektör Odaklı Sorular",
+      "items": [
+        {
+          "q": "Türkiye’deki oteller için dönüşüm takibi hangi kanalları kapsamalı?",
+          "a": "Türkiye’deki oteller için dönüşüm takibi; marka web sitesi (rezervasyon, form, telefon ve WhatsApp tıklamaları), opsiyonel olarak OTA yönlendirmeleri, çağrı merkezi ve rezervasyon hattı, kampanya landing sayfaları ile remarketing & display ve YouTube kampanyalarını kapsamalıdır. Böylece iç pazar, dış pazar, OTA ve direct kanallar aynı analitik çatı altında izlenebilir."
+        },
+        {
+          "q": "Şehir otelleri ve resort oteller için dönüşüm kurgusu farklı mıdır?",
+          "a": "Temel prensip aynı olsa da, resort otellerde sezon, paket ve oda tipi vurguları; şehir otellerinde ise tarih yakınlığı ve hafta içi/hafta sonu dengesine göre kampanya ve dönüşüm analizleri farklılaşır. Bu ayrımların raporlarda net görülebilmesi için event ve parametre planı buna göre tasarlanmalıdır."
+        },
+        {
+          "q": "Performans pazarlama odaklı markalar (e-ticaret vb.) için dönüşüm takibi nasıl farklılaşır?",
+          "a": "E-ticaret ve benzeri performans odaklı yapılarda dönüşüm takibi; ürün ve kategori bazlı event/parametreler, sepet–checkout–purchase funnel detayları ve cross-sell/upsell modelleri için ek event’lerle genişletilir. Otel tarafında “rezervasyon” neyse, e-ticarette ürün ve sepet bazlı dönüşümler odur; yapı bu mantıkla ölçeklenir."
+        }
+      ]
+    },
+
+    "section7": {
+      "title": "Mini Dönüşüm Takibi & Tag Manager SSS",
+      "items": [
+        {
+          "q": "Sadece Google Ads panelindeki “otomatik etiketleme” yeterli mi?",
+          "a": "Kanal bazlı veriyi görmek için faydalıdır; ancak tam bir dönüşüm mimarisi için GA4 + GTM ile event tabanlı kurulum gerekir."
+        },
+        {
+          "q": "Dönüşüm takibi olmadan da kampanya yönetebilir miyim?",
+          "a": "Teknik olarak evet; pratikte ise “ışıklar kapalıyken araba kullanmak” gibidir."
+        },
+        {
+          "q": "Her event’i conversion yapmalı mıyım?",
+          "a": "Hayır. Conversion olarak sadece gerçek iş değeri olan event’ler işaretlenmelidir; diğerleri analiz amaçlı event olarak kalmalıdır."
+        },
+        {
+          "q": "GTM kullanmadan doğrudan siteye kod eklemek sorun mu?",
+          "a": "Küçük yapılarda kısa vadede çalışsa da, uzun vadede kod karmaşası ve yönetim zorluğu yaratır. GTM çok daha esnek ve temiz bir çözümdür."
+        },
+        {
+          "q": "GA4’e geçişi ertelemek mantıklı mı?",
+          "a": "Hayır. GA4 event tabanlı yeni standarttır; geçişi ertelemek analitik tarafta geride kalmak anlamına gelir."
+        },
+        {
+          "q": "Dönüşüm takibi & Tag Manager hizmetini kısa süreli “audit + yol haritası” olarak da alabilir miyim?",
+          "a": "Evet. Mevcut kurulumun analiz edildiği ve yeni mimari önerisinin çıkarıldığı danışmanlık projeleriyle, uygulamayı kendi ekibinizle yapmanız da mümkündür."
+        }
+      ]
+    },
+
+    "section8": {
+      "title": "Dönüşüm Takibi & Tag Manager İçin İş Birliği ve CTA Soruları",
+      "items": [
+        {
+          "q": "DGTLFACE ile Dönüşüm Takibi & Tag Manager için nasıl teklif alabilirim?",
+          "a": "GA4 kullanıp kullanmadığınızı, GTM kullanıp kullanmadığınızı, hangi rezervasyon sistemi veya e-ticaret altyapısını kullandığınızı, hangi kampanya kanallarına (Ads, sosyal, OTA vb.) yatırım yaptığınızı ve yaşadığınız temel sorunları (eksik veri, hatalı veri, okunmayan raporlar, GTM karmaşası vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve maliyet çerçeveli bir teklif ve yol haritası hazırlanır.",
+          "primaryCta": {
+            "label": "Dönüşüm Takibi & Tag Manager için teklif al",
+            "href": "/tr/sem/donusum-takibi-tag-manager"
+          }
+        },
+        {
+          "q": "“Uzmanla görüş” çağrısı dönüşüm takibi tarafında ne anlama geliyor?",
+          "a": "Bu görüşme; sadece “hangi butona basayım?” sorusuna değil, hangi aksiyonların gerçekten iş değeri taşıdığına, hangi dönüşümlerin ayrı ayrı ve hangilerinin birlikte izlenmesi gerektiğine ve hangi veri kaynaklarının panele dâhil edilmesi gerektiğine odaklanır. Yani kurulumun strateji ve iş hedefleriyle uyumlu olması için gerekli çerçeveyi birlikte netleştirmek demektir."
+        },
+        {
+          "q": "Dönüşüm Takibi & Tag Manager SSS’den sonra hangi sayfaları incelemeliyim?",
+          "a": "SEM genel, Google Ads Yönetimi, YouTube Reklam Yönetimi, Remarketing & Display, Reklam Raporlama ve Veri Analiz & Raporlama sayfaları; ölçümleme ve dönüşüm takibinin diğer performans katmanlarıyla nasıl birleştiğini görmek için tamamlayıcıdır.",
+          "links": [
+            { "label": "SEM genel", "href": "/tr/sem" },
+            { "label": "Google Ads Yönetimi", "href": "/tr/sem/google-ads-yonetimi" },
+            { "label": "YouTube Reklam Yönetimi", "href": "/tr/sem/youtube-reklam-yonetimi" },
+            { "label": "Remarketing & Display", "href": "/tr/sem/remarketing-ve-display" },
+            { "label": "Reklam Raporlama", "href": "/tr/sem/reklam-raporlama" },
+            { "label": "Veri Analiz & Raporlama", "href": "/tr/veri-analiz-ve-raporlama" }
+          ]
+        }
+      ]
+    }
+   },
+    "cta": {
+      "primary": "Creative analizi talep edin",
+      "primaryHref": "/tr/creative",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
+    }
+  },
+
+  "FaqAdsReporting": {
+    "h1": "Reklam Raporlama SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Reklam raporlama; Google Ads, Meta Ads, YouTube, OTA, PMS ve çağrı merkezi gibi farklı kaynaklardan gelen veriyi tek bir mantık ve panel altında toplayıp, \"hangi kampanya gerçekten kazandırıyor, hangisi sadece bütçe yakıyor\" sorusuna net cevap verebilme sürecidir.",
+      "p2": "Hazırlanan raporlar sadece gösterim, tıklama veya beğeni odaklı değil; gelir, ROAS, kârlılık ve kanal karması perspektifiyle okunabildiğinde reklam yönetimi gerçek bir yatırım hâline gelir. Aksi durumda raporlar çoğu zaman PDF klasörlerinde kaybolur, dashboard’lar açılmaz ve kararlar yine hisle alınır.",
+      "p3": "Bu SSS sayfası; Reklam Raporlama ile ilgili en sık sorulan soruları dashboard tasarımı, Google Ads, Meta Ads, YouTube, OTA ve PMS verilerinin tek panelde nasıl okunacağı, hangi KPI’ların takip edilmesi gerektiği ve raporların karar alma süreçlerine nasıl bağlanacağı odağında toplar. Özellikle otel ve turizm odaklı işletmeler için, tıklama değil gelir ve ROAS merkezli raporlama bakış açısını güçlendirmeyi amaçlar."
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet (Genel Bakış)",
+      "text": "Reklam Raporlama SSS; Google Ads, Meta, YouTube ve OTA/PMS verilerini tek dashboard’ta toplayarak hangi kampanyanın gerçekten kazandırdığını görmek isteyen otel ve markalara, doğru KPI seti ve raporlama mantığını net ve uygulanabilir şekilde sunan bir rehberdir."
+    },
+
+    "voiceSummary": {
+      "title": "Sesli Arama İçin Kısa Özet",
+      "text": "Reklam raporlama; Google Ads, Meta, YouTube, OTA ve PMS verilerini tek panelde birleştirerek reklam bütçesinin hangi kampanya ve kanallarda ne kadar gelir ve ROAS ürettiğini gösteren karar destek sürecidir."
+    },
+
+    "voiceQueries": {
+      "title": "Sesli Aramada Örnek Sorgular",
+      "q1": "“Reklam raporlama tam olarak nedir?”",
+      "q2": "“Otelim için reklam performansını nereden takip etmeliyim?”",
+      "q3": "“Hangi reklam metrikleri gerçekten önemli?”",
+      "q4": "“Reklam raporlarını haftalık mı aylık mı incelemeliyim?”",
+      "q5": "“Reklam raporlarını karar alma süreçlerine nasıl bağlarım?”"
+    },
+
+   "sections":{
+ "generalQuestions": {
+      "title": "Reklam Raporlamaya Giriş (Genel Sorular)",
+      "items": [
+        {
+          "q": "Reklam raporlama nedir?",
+          "a": "Reklam raporlama; dijital reklam kanallarından gelen ham veriyi (gösterim, tıklama, dönüşüm, gelir vb.) anlamlı tablolar ve dashboard’lar hâline getirerek kampanya ve kanal bazında performansın fotoğrafını çekme sürecidir. İyi bir rapor, sadece “neler oldu?”yu değil, “ne yapmalıyız?” sorusunu da cevaplar."
+        },
+        {
+          "q": "Neden sadece panel ekran görüntüsü reklam raporlama sayılmaz?",
+          "a": "Çünkü tek başına panel ekran görüntüleri KPI önceliklerini net göstermez, kanallar arası kıyas imkânı sunmaz ve iş hedefleriyle bağ kurmaz. Gerçek raporlama; süzülmüş, karşılaştırılmış ve yorumlanmış veriden oluşur."
+        },
+        {
+          "q": "Reklam raporlama sadece pazarlama ekibinin işi midir?",
+          "a": "Hayır. Sağlıklı bir reklam raporu; yönetim için gelir ve kârlılık, pazarlama ekipleri için kampanya ve kreatif performansı, operasyon ve gelir yönetimi ekipleri için ise talep ve kapasite sinyalleri sunmalıdır. Rapor, tüm ekipleri aynı veri gerçekliği etrafında buluşturur."
+        },
+        {
+          "q": "Reklam raporlama ile veri analiz & raporlama arasında fark var mı?",
+          "a": "Evet. Reklam raporlama daha çok kampanya ve kanal performansına odaklanırken; Veri Analiz & Raporlama PMS, OTA, CRM ve operasyonel verileri de içeren daha geniş bir iş analizi çerçevesi sunar. İdeal yapıda reklam raporlama, bu geniş veri ekosisteminin bir parçasıdır."
+        },
+        {
+          "q": "Oteller için reklam raporlama nerelerde devreye girer?",
+          "a": "Otellerde reklam raporlama; Google Ads, Meta ve YouTube kampanyaları, OTA ve metasearch yatırımları, remarketing ve display kampanyaları ile çağrı merkezi üzerinden gelen rezervasyonların kampanyalara bağlanması noktalarında devreye girer. Amaç, hangi kampanya–kanal–pazar kombinasyonunun gerçek rezervasyon ve gelir ürettiğini net şekilde görmektir."
+        },
+        {
+          "q": "Reklam raporlama küçük oteller veya düşük bütçeli markalar için de anlamlı mı?",
+          "a": "Evet. Bütçe ne kadar küçük olursa olsun, yanlış yerde harcanıyorsa boşa gider. Küçük bütçelerde bile en verimli kanal ve kampanyayı tespit etmek, rekabet avantajı sağlar."
+        }
+      ]
+    },
+
+     "quickAnswers": {
+      "title": "Sesli Arama Kısa Soruları",
+      "items": [
+        {
+          "q": "Reklam raporlama nedir, tek cümleyle?",
+          "a": "Reklam raporlama; kampanya ve kanalların tıklama, dönüşüm ve gelir performansını gösteren, karar destek amaçlı hazırlanmış özet performans tabloları ve dashboard’lardır."
+        },
+        {
+          "q": "Otelim için reklam performansına nereden bakmalıyım?",
+          "a": "Tek tek platform panelleri yerine, GA4 ve Looker Studio gibi bir dashboard üzerinden Google Ads, Meta ve OTA/PMS verilerini birlikte okumak en sağlıklısıdır."
+        },
+        {
+          "q": "Hangi metrikler en kritik: CTR, CPA, ROAS?",
+          "a": "Hepsi önemlidir ancak öncelik sırası genelde gelir ve ROAS, ardından dönüşüm sayısı ve CPA, en sonda ise CTR ve tıklama maliyetidir."
+        },
+        {
+          "q": "Raporları haftalık mı, aylık mı takip etmeliyim?",
+          "a": "Operasyonel ve kampanya optimizasyon kararları için haftalık, stratejik ve bütçe kararları için aylık raporlar idealdir."
+        },
+        {
+          "q": "Reklam raporlarını karar süreçlerine nasıl bağlarım?",
+          "a": "Her raporu “hangi kampanyayı kapatıyoruz?”, “hangi kanala bütçe ekliyoruz?” gibi somut karar soruları üzerinden okumak gerekir."
+        },
+        {
+          "q": "Reklam raporu sadece tıklama ve gösterim içermeli mi?",
+          "a": "Hayır. Gelir, ROAS, kanal payı ve mümkünse kârlılık verisi olmadan bir rapor tamamlanmış sayılmaz."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "Hizmet Kapsamı: Dashboard Tasarımı & KPI Seti",
+      "items": [
+        {
+          "q": "Reklam raporlama hizmetiniz neleri kapsıyor?",
+          "a": "Mevcut raporlama yapısının analizi, veri kaynaklarının belirlenmesi (Google Ads, Meta, YouTube, OTA, PMS vb.), yönetim–pazarlama–operasyon için KPI setlerinin tanımlanması, Looker Studio gibi araçlarla dashboard tasarımı, rapor okuma ve karar alma süreçlerinin kurgulanması ile periyodik raporlama ve yorumlama hizmetlerini kapsar."
+        },
+        {
+          "q": "Hangi veri kaynakları tek panelde birleştirilmeli?",
+          "a": "Google Ads, Meta Ads (Facebook/Instagram), YouTube, OTA veya metasearch raporları, PMS (gelir, doluluk, ADR) ve çağrı merkezi verileri tek panelde birleştirilmelidir. Böylece kampanya metrikleri ile gerçek gelir aynı yerde görülür."
+        },
+        {
+          "q": "Reklam raporu için temel KPI seti nelerden oluşur?",
+          "a": "Temel KPI seti; gösterim, tıklama, CTR ve CPC gibi hacim metrikleri; dönüşüm sayısı, dönüşüm oranı ve CPA gibi performans metrikleri; gelir, ROAS ve kanal bazlı gelir payı gibi finansal metriklerden oluşur. Oteller için iptal ve iade oranları da kritik göstergelerdendir."
+        },
+        {
+          "q": "Yönetim, pazarlama ve operasyon için ayrı dashboard gerekir mi?",
+          "a": "Ayrı dashboard zorunlu değildir ancak aynı panel içinde farklı sekmeler veya görünümler oluşturmak idealdir. Yönetim için özet KPI’lar, pazarlama için kampanya detayları, operasyon için doluluk ve segment etkisi ayrı ayrı sunulabilir."
+        },
+        {
+          "q": "Dashboard tasarımında en kritik prensipler nelerdir?",
+          "a": "Her sayfanın net bir soruya cevap vermesi, hiyerarşik yapı (üstte özet, altta detay), gereksiz grafik kalabalığından kaçınmak, tutarlı renk kullanımı ve sınırlı ama anlamlı filtreler dashboard tasarımının temel prensipleridir."
+        },
+        {
+          "q": "Otel reklam raporunda neler mutlaka olmalı?",
+          "a": "Kanal bazlı rezervasyon ve gelir, direct ve OTA karşılaştırması, pazar/ülke bazlı performans, kampanya bazlı ROAS ve remarketing ile brand kampanyalarının katkısı mutlaka raporda yer almalıdır."
+        }
+      ]
+    },
+
+    "section4": {
+      "title": "Detaylı Süreç & İşleyiş",
+      "items": [
+        {
+          "q": "Reklam raporlama projesine başlamadan önce neleri analiz ediyorsunuz?",
+          "a": "Mevcut kullanılan raporlar, panellere kimlerin baktığı, veri kaynaklarının kalitesi, kararların hangi noktalarda hissiyatla alındığı ve rapor–aksiyon akışı analiz edilir. Bu çalışmanın sonunda mevcut durumdan hedef duruma geçiş planı çıkarılır."
+        },
+        {
+          "q": "Dashboard tasarlarken nasıl ilerliyorsunuz?",
+          "a": "Önce kullanıcı grupları netleştirilir, her grup için kritik sorular belirlenir, KPI ve veri kaynakları bu sorularla eşleştirilir. Ardından wireframe, veri bağlantıları, test, görsel düzen ve filtre yerleşimi yapılır. Son aşamada eğitim ve ilk kullanım dönemi başlar."
+        },
+        {
+          "q": "Haftalık ve aylık raporlar arasında fark ne olmalı?",
+          "a": "Haftalık raporlar kampanya optimizasyonu ve hızlı aksiyonlara odaklanırken, aylık raporlar trend analizi, kanal karması ve bütçe/strateji revizyonu için kullanılır. Aynı panel, tarih filtreleriyle iki ihtiyacı da karşılayabilir."
+        },
+        {
+          "q": "Raporlama sürecinde ajans ve müşteri rol dağılımı nasıl olmalı?",
+          "a": "Ajans panel kurulumu, veri çekme, analiz ve aksiyon önerilerinden sorumluyken; müşteri iş hedefleri, öncelikler ve uygulanacak aksiyonların kararını üstlenmelidir. Raporlama tek yönlü değil, ortak karar süreci olmalıdır."
+        },
+        {
+          "q": "Raporlama sürecinde Looker Studio mu, Excel mi, PDF mi?",
+          "a": "Günlük ve haftalık takip için Looker Studio veya GA4 dashboard’ları, aylık yönetim toplantıları için PDF veya slide, derin analiz ve senaryo çalışmaları için Excel en doğru araçlardır."
+        },
+        {
+          "q": "Reklam raporlarını okumayı bilmeyen ekipler için ne yapıyorsunuz?",
+          "a": "Panel teslimiyle birlikte KPI açıklamaları, birlikte rapor okuma seansları ve “bu panelle hangi soruyu sorup nasıl cevap alırsın” mantığında mini eğitimler verilir. Amaç rapordan aksiyon çıkarmayı öğretmektir."
+        }
+      ]
+    },
+
+    "section5": {
+      "title": "Fiyatlandırma & Sözleşme",
+      "items": [
+        {
+          "q": "Reklam raporlama hizmeti tek seferlik mi, yoksa sürekli mi olmalı?",
+          "a": "Her iki model de mümkündür. Tek seferlik projelerde dashboard kurulumu ve KPI seti tasarlanır. Sürekli modelde ise periyodik raporlama, yorumlama ve optimizasyon önerileri sunulur. Çoğu otel ve marka için en az ilk 6–12 ay sürekli destek önerilir."
+        },
+        {
+          "q": "Fiyatlandırma neye göre değişir?",
+          "a": "Fiyatlandırma; kullanılan veri kaynağı sayısı, panel ve kullanıcı grubu sayısı, kampanya ve kanal sayısı ile raporlama ve toplantı frekansına göre değişir. Basit tek panelli yapılar ile çok kaynaklı, çok otelli ve çok ülkeli yapılar aynı kapsamda değerlendirilmez."
+        },
+        {
+          "q": "Sözleşme süreleri ne olmalı?",
+          "a": "Genellikle 6 veya 12 aylık periyotlar önerilir. Ancak sadece dashboard kurulumu ve eğitim gibi tek seferlik projelerde daha kısa süreli çalışmalar da yapılabilir."
+        },
+        {
+          "q": "Sadece dashboard tasarımı alıp, devam eden raporlamayı kendi ekibim yapabilir mi?",
+          "a": "Evet. Bu modelde DGTLFACE; dashboard kurulumu, KPI seti ve dokümantasyonu sağlar. Sonrasında iç ekip paneller üzerinden kendi raporlama ve analiz süreçlerini yürütebilir."
+        }
+      ]
+    },
+
+    "section6": {
+      "title": "Performans & Raporlama: KPI ve Pain Point’ler",
+      "items": [
+        {
+          "q": "Hangi reklam KPI’ları mutlaka takip edilmeli?",
+          "a": "Temel KPI’lar; tıklama, CTR, CPC, dönüşüm sayısı, dönüşüm oranı, CPA, gelir, ROAS, kanal bazlı gelir ve rezervasyon payı, yeni ve tekrar kullanıcılar ile cihaz ve pazar bazlı performanstır. Oteller için rezervasyon ve gelir her zaman önceliklidir."
+        },
+        {
+          "q": "ROAS nedir, nasıl hesaplanır?",
+          "a": "ROAS (Return on Ad Spend), reklam harcamasına karşılık elde edilen geliri gösterir. Formül: ROAS = Reklam Geliri / Reklam Harcaması. Örneğin 10.000 TL harcayıp 50.000 TL gelir elde edildiğinde ROAS = 5 (veya %500) olur."
+        },
+        {
+          "q": "Okunmayan raporların temel sebepleri neler?",
+          "a": "Raporların çok uzun ve karmaşık olması, net KPI önceliğinin olmaması, aksiyon önerisi içermemesi ve yanlış rapor frekansı okunmama sebeplerinin başında gelir."
+        },
+        {
+          "q": "Yanlış KPI seçimi ne gibi hatalara yol açar?",
+          "a": "Sadece tıklamaya odaklanmak geliri gözden kaçırmaya, sadece doluluğa bakmak ADR ve kârlılığı ihmal etmeye, sadece etkileşime bakmak ise rezervasyon ve satışın göz ardı edilmesine yol açar."
+        },
+        {
+          "q": "Raporlar aksiyona dönüşmüyorsa nerede problem vardır?",
+          "a": "Genellikle raporun sorumlu ekipleri net değildir, rapor karar soruları üzerinden kurgulanmamıştır veya aksiyonların kim tarafından ne zaman yapılacağı tanımlanmamıştır. İyi bir rapor KPI, yorum, aksiyon, sorumlu ve tarih içerir."
+        }
+      ]
+    },
+
+    "section7": {
+      "title": "GEO & Sektör Odaklı Raporlama Soruları",
+      "items": [
+        {
+          "q": "Türkiye’deki oteller için reklam raporlaması nasıl kurgulanmalı?",
+          "a": "İç pazar ve dış pazar ayrımı, destinasyon ve otel tipi kırılımları, OTA–web–call center gelir payları ile ülke ve şehir bazlı kampanya performansları panelde net şekilde görülebilmelidir."
+        },
+        {
+          "q": "Antalya ve sahil destinasyonları için özel raporlama ihtiyacı var mı?",
+          "a": "Evet. Sezon öncesi, sezon içi ve sezon sonrası performans; pazar bazlı pickup ve forecast; erken rezervasyon ve son dakika performansları ayrı sekmelerde izlenmelidir. Yoğun sezonda günlük ve haftalık görünüm kritiktir."
+        },
+        {
+          "q": "Kurumsal markalar ve B2B için reklam raporlaması nasıl farklılaşır?",
+          "a": "B2B tarafında lead ve form sayısı, MQL/SQL kalitesi, pipeline durumu ve satışa dönüş oranları öne çıkar. Lead → fırsat → satış zinciri mutlaka raporlara bağlanmalıdır."
+        }
+      ]
+    },
+
+    "section8": {
+      "title": "Mini Reklam Raporlama SSS",
+      "items": [
+        {
+          "q": "Her şeyi ölçmek gerekli mi?",
+          "a": "Hayır. Önce kritik kararları belirlemek, sonra bu kararlara hizmet eden KPI’ları ölçmek gerekir."
+        },
+        {
+          "q": "Sadece reklam panellerini okumak yeterli mi?",
+          "a": "Kısmen yeterlidir; ancak gerçek resmi görmek için GA4 ve PMS/gelir verileriyle birleştirmek gerekir."
+        },
+        {
+          "q": "Raporları her gün detaylı okumak gerekir mi?",
+          "a": "Günlük hızlı kontrol faydalıdır; detaylı analiz ve kararlar haftalık veya aylık yapılmalıdır."
+        },
+        {
+          "q": "Raporlama için mutlaka Looker Studio mu kullanmalıyım?",
+          "a": "Zorunlu değildir; ancak Google ekosistemiyle entegrasyonu ve esnekliği sayesinde çoğu proje için ideal çözümlerden biridir."
+        },
+        {
+          "q": "Panel ve raporlar İngilizce mi, Türkçe mi olmalı?",
+          "a": "Raporlar, ekibin ve yöneticilerin en rahat anlayacağı dilde hazırlanmalıdır. Gerekirse çok dilli raporlama yapısı kurulabilir."
+        }
+      ]
+    },
+
+    "section9": {
+      "title": "Reklam Raporlama İçin İş Birliği ve CTA",
+      "items": [
+        {
+          "q": "DGTLFACE ile Reklam Raporlama için nasıl teklif alabilirim?",
+          "a": "Yatırım yaptığınız kanallar, mevcut raporlama şekliniz, raporlar üzerinden almak istediğiniz kararlar ve yaşadığınız temel problemleri içeren kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süre ve bütçe çerçeveli bir teklif hazırlanır."
+        },
+        {
+          "q": "“Uzmanla görüş” çağrısı reklam raporlamasında ne anlama geliyor?",
+          "a": "Bu görüşme; sizin için doğru KPI setini, hangi panelin kime ne göstereceğini ve raporların hangi karar süreçlerine bağlanacağını netleştirmek için yapılır. Odak noktası “ne göstereceğiz” değil, “neden göstereceğiz” sorusudur."
+        },
+        {
+          "q": "Reklam Raporlama SSS’den sonra hangi sayfaları incelemeliyim?",
+          "a": "Veri Analiz & Raporlama, Reklam Raporlama, Sosyal Medya Analiz & Raporlama, SEO Raporlama, Otel Dijital Pazarlama ve SEM genel sayfaları reklam raporlamanın genel veri stratejisi içindeki yerini daha net görmenizi sağlar."
+        }
+      ]
+    }
+   },
+
+       "cta": {
+      "primary": "Reklam Raporlama analizi talep edin",
+      "primaryHref": "/tr/creative",
+      "secondary": "Dönüşüm takibi & raporlama",
+      "secondaryHref": "/tr/sem-sss"
     }
   }
 

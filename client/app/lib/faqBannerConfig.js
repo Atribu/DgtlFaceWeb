@@ -9,7 +9,7 @@ export const MAIN_SERVICES_CHIPS = [
   { label: "ÇAĞRI MERKEZİ", href: "/cagri-merkezi-sss" },
   { label: "PMS & OTA", href: "/pms-ota-sss" },
   { label: "DİJİTAL ANALİZ", href: "/veri-analiz-ve-raporlama-sss" },
-  { label: "HOTEL", href: "/otel-dijital-pazarlama-sss" },
+  { label: "HOTEL", href: "/otel-dijital-pazarlama-sss" }
 ];
 
 // SSS sayfası slug’ına göre “baloncuk seti”
@@ -36,11 +36,11 @@ export const FAQ_BANNER_MAP = {
     title: "SEM",
     chips: [
       { label: "SEM (Genel)", href: "/sem" },
-      { label: "Google Ads", href: "/sem/google-ads-yonetimi" },
-      { label: "YouTube Ads", href: "/sem/youtube-reklam-yonetimi" },
-      { label: "Remarketing & Display", href: "/sem/remarketing-ve-display" },
-      { label: "Dönüşüm Takibi", href: "/sem/donusum-takibi-tag-manager" },
-      { label: "Raporlama", href: "/sem/reklam-raporlama" },
+      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
+      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
+      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
+      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
+      { label: "Raporlama", href: "/reklam-raporlama-sss" },
     ],
   },
 

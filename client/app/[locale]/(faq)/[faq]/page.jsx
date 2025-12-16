@@ -1,3 +1,4 @@
+//app/[locale]/(faq)/[faq]/page.js
 import React from "react";
 import { notFound } from "next/navigation";
 import { FAQ_MAP } from "../faqMap";
