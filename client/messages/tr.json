@@ -11827,7 +11827,7 @@
         },
         {
           "q": "Reklam raporlama küçük oteller veya düşük bütçeli markalar için de anlamlı mı?",
-          "a": "Evet. Bütçe ne kadar küçük olursa olsun, yanlış yerde harcanıyorsa boşa gider. Küçük bütçelerde bile en verimli kanal ve kampanyayı tespit etmek, rekabet avantajı sağlar."
+          "a": "Evet. Bütçe ne kadar küçük olursa olsun, <b> yanlış yerde harcanıyorsa</b> boşa gider. Küçük bütçelerde bile en verimli kanal ve kampanyayı tespit etmek, rekabet avantajı sağlar."
         }
       ]
     },
@@ -11837,27 +11837,27 @@
       "items": [
         {
           "q": "Reklam raporlama nedir, tek cümleyle?",
-          "a": "Reklam raporlama; kampanya ve kanalların tıklama, dönüşüm ve gelir performansını gösteren, karar destek amaçlı hazırlanmış özet performans tabloları ve dashboard’lardır."
+          "a": "Reklam raporlama; kampanya ve kanalların tıklama, dönüşüm ve gelir performansını gösteren, karar destek amaçlı hazırlanmış <b>özet performans tabloları ve dashboard’lardır.</b>"
         },
         {
           "q": "Otelim için reklam performansına nereden bakmalıyım?",
-          "a": "Tek tek platform panelleri yerine, GA4 ve Looker Studio gibi bir dashboard üzerinden Google Ads, Meta ve OTA/PMS verilerini birlikte okumak en sağlıklısıdır."
+          "a": "Tek tek platform panelleri yerine, GA4 ve Looker Studio gibi bir dashboard üzerinden <b>Google Ads, Meta ve OTA/PMS verilerini birlikte</b> okumak en sağlıklısıdır."
         },
         {
           "q": "Hangi metrikler en kritik: CTR, CPA, ROAS?",
-          "a": "Hepsi önemlidir ancak öncelik sırası genelde gelir ve ROAS, ardından dönüşüm sayısı ve CPA, en sonda ise CTR ve tıklama maliyetidir."
+          "a": "Hepsi önemli ama sıralama şöyle: <il><li> Gelir ve ROAS, </li><li> Dönüşüm sayısı ve CPA, </li><il> CTR ve tıklama maliyetidir. </li></ul>"
         },
         {
           "q": "Raporları haftalık mı, aylık mı takip etmeliyim?",
-          "a": "Operasyonel ve kampanya optimizasyon kararları için haftalık, stratejik ve bütçe kararları için aylık raporlar idealdir."
+          "a": "Operasyonel ve kampanya optimizasyon kararları için <b>haftalık</b>, stratejik ve bütçe kararları için <b>aylık</b> raporlar idealdir."
         },
         {
           "q": "Reklam raporlarını karar süreçlerine nasıl bağlarım?",
-          "a": "Her raporu “hangi kampanyayı kapatıyoruz?”, “hangi kanala bütçe ekliyoruz?” gibi somut karar soruları üzerinden okumak gerekir."
+          "a": "Her raporu “hangi kampanyayı kapatıyoruz?”, “hangi kanala bütçe ekliyoruz?” gibi <b>somut karar soruları</b> üzerinden okumak gerekir."
         },
         {
           "q": "Reklam raporu sadece tıklama ve gösterim içermeli mi?",
-          "a": "Hayır. Gelir, ROAS, kanal payı ve mümkünse kârlılık verisi olmadan bir rapor tamamlanmış sayılmaz."
+          "a": "Hayır; <b>gelir, ROAS, kanal payı ve kârlılık</b> verilmeden rapor tamamlanmış sayılmaz."
         }
       ]
     },
@@ -11867,18 +11867,18 @@
       "items": [
         {
           "q": "Reklam raporlama hizmetiniz neleri kapsıyor?",
-          "a": "Mevcut raporlama yapısının analizi, veri kaynaklarının belirlenmesi (Google Ads, Meta, YouTube, OTA, PMS vb.), yönetim–pazarlama–operasyon için KPI setlerinin tanımlanması, Looker Studio gibi araçlarla dashboard tasarımı, rapor okuma ve karar alma süreçlerinin kurgulanması ile periyodik raporlama ve yorumlama hizmetlerini kapsar."
+          "a": "<ul><li>Mevcut raporlama ve panel yapısının analizi, </li><li>kullanılacak veri kaynaklarının belirlenmesi (Ads, Meta, YouTube, OTA, PMS vb.),</li><li> KPI setinin tanımlanması (yönetim, pazarlama, operasyon için ayrı), </li><li>Looker Studio veya benzeri araçlarla dashboard tasarımı, </li><li>rapor okuma & karar alma süreçlerinin kurgulanması, </li><li> periyodik raporlama ve yorumlama.</li></ul>"
         },
         {
           "q": "Hangi veri kaynakları tek panelde birleştirilmeli?",
-          "a": "Google Ads, Meta Ads (Facebook/Instagram), YouTube, OTA veya metasearch raporları, PMS (gelir, doluluk, ADR) ve çağrı merkezi verileri tek panelde birleştirilmelidir. Böylece kampanya metrikleri ile gerçek gelir aynı yerde görülür."
+          "a": "<ul><li>Google Ads, Meta Ads (Facebook/Instagram),</li><li> YouTube,</li><li> OTA veya metasearch raporları,</li><li>PMS (gelir, doluluk, ADR) </li><li> çağrı merkezi (kampanya bazlı çağrı ve rezervasyon). </li></ul> Bu sayede hem kampanya metrikleri hem de gerçek gelir aynı panelde görülür."
         },
         {
           "q": "Reklam raporu için temel KPI seti nelerden oluşur?",
           "a": "Temel KPI seti; gösterim, tıklama, CTR ve CPC gibi hacim metrikleri; dönüşüm sayısı, dönüşüm oranı ve CPA gibi performans metrikleri; gelir, ROAS ve kanal bazlı gelir payı gibi finansal metriklerden oluşur. Oteller için iptal ve iade oranları da kritik göstergelerdendir."
         },
         {
-          "q": "Yönetim, pazarlama ve operasyon için ayrı dashboard gerekir mi?",
+          "q": "Yönetim, pazarlama ve operasyon için ayrı dashboard gerekiyor mu?",
           "a": "Ayrı dashboard zorunlu değildir ancak aynı panel içinde farklı sekmeler veya görünümler oluşturmak idealdir. Yönetim için özet KPI’lar, pazarlama için kampanya detayları, operasyon için doluluk ve segment etkisi ayrı ayrı sunulabilir."
         },
         {
