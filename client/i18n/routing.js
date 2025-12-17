@@ -120,12 +120,12 @@ export const routing = defineRouting({
     },
     "/Services/creative/corporateGift": { // https://www.dgtlface.com/tr/Services/creative/corporateGift
       en: "/services/creative/corporate-gift-design",
-      tr: "/antalya-tasarim/kurumsal-hediye",
+      tr: "/creative/kurumsal-hediye",
       ru: "/uslugi/dizayn/korporativnye-podarki",
     },
     "/Services/creative/eventProduction": { // https://www.dgtlface.com/tr/Services/creative/eventProduction
       en: "/services/creative/event-production",
-      tr: "/antalya-tasarim/etkinlik-produksiyonu",
+      tr: "/creative/etkinlik-produksiyonu",
       ru: "/uslugi/dizayn/organizaciya-meropriyatiy",
     },
     "/Services/creative/graphicDesign": { // https://www.dgtlface.com/tr/Services/creative/graphicDesign
@@ -135,12 +135,12 @@ export const routing = defineRouting({
     },
     "/Services/creative/uiUxDesign": { // https://www.dgtlface.com/tr/Services/creative/uiUxDesign
       en: "/services/creative/ui-ux-design",
-      tr: "/antalya-tasarim/ui-ux-hizmeti",
+      tr: "/creative/ui-ux-hizmeti",
       ru: "/uslugi/dizayn/ui-ux",
     },
     "/Services/creative/videoProduction": { // https://www.dgtlface.com/tr/Services/creative/videoProduction
       en: "/services/creative/video-production",
-      tr: "/antalya-tasarim/video-ve-produksiyon",
+      tr: "/creative/video-ve-produksiyon",
       ru: "/uslugi/dizayn/video-prodyusirovanie",
     },
 
@@ -255,7 +255,7 @@ export const routing = defineRouting({
       ru: "/uslugi/smm/analiz-socialnyh-setey",
     },
 
-        "/Services//smm/socialMediaAds": { // https://www.dgtlface.com/tr/Services/smm/socialMediaAnalysis
+        "/Services/smm/socialMediaAds": { // https://www.dgtlface.com/tr/Services/smm/socialMediaAnalysis
       en: "/services/smm/social-media-analysis",
       tr: "/smm/sosyal-medya-reklamlari",
       ru: "/uslugi/smm/analiz-socialnyh-setey",
@@ -312,7 +312,6 @@ export const routing = defineRouting({
     },
 
     // hotel pages
-
         "/Services/hotel": { 
       en: "/services/hotel",
       tr: "/otel",

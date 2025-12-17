@@ -45,7 +45,7 @@ export default function Footer() {
   const allServices = [...leftServices, ...rightServices];
 
   return (
-    <footer className="flex bg-[#140f25] text-white pb-4 pt-12 lg:pt-0 lg:pb-0 lg:py-4 relative overflow-y-hidden max-w-screen items-center justify-center">
+    <footer className="flex bg-[#140f25] text-white pb-4 pt-12 lg:pt-0 lg:pb-0 lg:py-4 relative overflow-y-hidden max-w-screen items-center justify-center lg:min-h-[360px]">
       <div className="absolute z-[1] inset-0 bg-[#140F25]/40 flex md:hidden"></div>
       <div className="container w-full px-4 lg:px-0 items-center justify-center">
         {/* MOBİL */}
@@ -177,7 +177,7 @@ export default function Footer() {
         {/* DESKTOP */}
         <div className="hidden lg:flex lg:flex-row justify-between items-start h-[200px] xl:h-[240px]">
           {/* ✅ Sol: Hizmetler 5+5 + logo */}
-          <div className="flex flex-col items-center justify-between gap-10 w-[31%] mt-10 xl:mt-4 text-white font-medium">
+          <div className="flex flex-col items-center justify-between gap-10 w-[31%] mt-10 lg:mt-2 xl:mt-4 text-white font-medium">
             <div>
          <h4 className="text-[14px] font-semibold mb-2">
               Hizmetler
@@ -211,7 +211,7 @@ export default function Footer() {
           </div>
 
           {/* Orta: CTA bloğu (aynı) */}
-          <div className="flex flex-col items-center justify-center gap-10 w-[39%]">
+          <div className="flex flex-col items-center justify-center gap-10 w-[39%] lg:-mt-4">
             <div className="flex flex-col items-center justify-start text-center gap-5 font-inter text-white z-[50] h-full">
               <p className="text-[24px] font-bold leading-[110%] -tracking-[1.12px] capitalize mt-2">
                 {t("header")}{" "}

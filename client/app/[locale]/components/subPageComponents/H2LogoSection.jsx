@@ -27,7 +27,7 @@ const H2LogoSection = ({ items = [] }) => {
                 <div
                   className="text-[12px] lg:text-[14px] leading-[120%] space-y-1 [&_ul]:list-disc
       [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1"
+      [&_li]:mb-1 [&_a]:underline [&_a]:font-bold"
                   dangerouslySetInnerHTML={{ __html: item.text }}
                 />
               </div>
@@ -53,7 +53,7 @@ const H2LogoSection = ({ items = [] }) => {
             <div
               className="text-[12px] lg:text-[14px] leading-[120%] space-y-1 [&_ul]:list-disc
       [&_ul]:pl-[5%] [&_ul]:text-start
-      [&_li]:mb-1"
+      [&_li]:mb-1 [&_a]:underline [&_a]:font-bold"
               dangerouslySetInnerHTML={{ __html: lastItem.text }}
             />
           </div>

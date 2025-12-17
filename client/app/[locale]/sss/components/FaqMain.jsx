@@ -152,11 +152,11 @@ const rich = {
   return (
     <section className="w-screen flex justify-center bg-white">
       <div className="w-[95%] lg:w-[98%] py-8 lg:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-6 lg:items-start">
 
           {/* SOL: TOC */}
-          <aside className="lg:col-span-3">
-            <div className="lg:sticky lg:top-[110px] rounded-2xl bg-[#140f25] text-white p-4 lg:p-5 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
+         <aside className="lg:col-span-3 lg:sticky lg:top-[13.4%] lg:self-start">
+            <div className=" rounded-2xl bg-[#140f25] text-white p-4 lg:p-5 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
               <p className="text-[12px] tracking-[0.18em] uppercase text-white/60 mb-3">
                 {t("toc.title")}
               </p>

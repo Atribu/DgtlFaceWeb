@@ -12,7 +12,7 @@ export default function Page({ params }) {
   if (!pageNs) notFound();
 
   return (
-    <div className="flex flex-col max-w-full overflow-x-hidden">
+    <div className="flex flex-col max-w-full ">
       <SearchBanner faqSlug={slug}/>
       <FaqMain pageNs={pageNs} />
     </div>
