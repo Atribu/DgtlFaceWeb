@@ -137,6 +137,7 @@ function renderRichText(text) {
 
 const rich = {
   b: (chunks) => <b className="font-semibold">{chunks}</b>,
+  strong: (chunks) => <b className="font-semibold">{chunks}</b>,
   ul: (chunks) => <ul className="list-disc pl-5 space-y-1">{chunks}</ul>,
   li: (chunks) => <li>{chunks}</li>,
   a: (chunks) => (
@@ -150,7 +151,7 @@ const rich = {
 };
 
   return (
-    <section className="w-screen flex justify-center bg-white">
+    <section className="max-w-screen flex justify-center bg-white">
       <div className="w-[95%] lg:w-[98%] py-8 lg:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-6 lg:items-start">
 
@@ -201,13 +202,13 @@ const rich = {
 
           {/* SAĞ: CONTENT */}
           <div className="lg:col-span-9 mr-[1%]">
-            <div className="rounded-2xl border border-black/5 bg-white p-5 lg:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)]">
+            <div className="rounded-2xl border border-black/5 bg-white p-5 lg:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
               <h1 className="text-[22px] lg:text-[34px] font-bold leading-[120%] text-[#140f25]">
                 {t("h1")}
               </h1>
 
               {/* Intro */}
-              <div id="intro" ref={(el) => (sectionRefs.current.intro = el)} className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-relaxed text-[14px] lg:text-[16px]">
+              <div id="intro" ref={(el) => (sectionRefs.current.intro = el)} className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[40%]">
                <p>{t.rich("intro.p1", rich)}</p>
                 <p>{t.rich("intro.p2", rich)}</p>
                 <p>{t.rich("intro.p3", rich)}</p>
@@ -258,7 +259,7 @@ const rich = {
                         <span>{it.q}</span>
                         <span className="mt-1 text-[#140f25]/40 group-open:rotate-180 transition">⌄</span>
                       </summary>
-                      <div className="mt-3 text-[14px] lg:text-[16px] leading-relaxed text-[#140f25]/85 [&:a]:text-black">
+                      <div className="mt-3 text-[14px] lg:text-[16px] leading-relaxed text-[#140f25]/85 [&:a]:text-black text-start">
                         {renderRichText(it.a)}
                       </div>
                     </details>
@@ -309,7 +310,7 @@ const rich = {
             </span>
           </summary>
 
-          <div className="mt-3 text-[14px] lg:text-[15px] leading-relaxed text-[#140f25]/90">
+          <div className="mt-3 text-[14px] lg:text-[15px] leading-relaxed text-[#140f25]/90 text-start">
           {renderRichText(item.a)}
           </div>
         </details>

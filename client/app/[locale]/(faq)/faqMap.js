@@ -14,6 +14,24 @@ export const FAQ_MAP = {
   "youtube-reklam-yonetimi-sss":"FaqYoutube",
   "remarketing-ve-display-sss":"FaqRemarketingDisplay",
   "donusum-takibi-tag-manager-sss":"FaqTagManager",
-  "reklam-raporlama-sss":"FaqAdsReporting"
+  "reklam-raporlama-sss":"FaqAdsReporting",
+
+  "teknik-seo-sss":"FaqTechnicalSeo",
+  "local-seo-sss":"FaqLocalSeo",
+  "icerik-seo-sss":"FaqContentSeo",
+  "backlink-yonetimi-sss":"FaqBacklink",
+  "seo-raporlama-sss":"FaqSeoReporting",
+
+  "icerik-uretimi-sss":"FaqSocialMediaContentProduction",
+  "planlama-strateji-sss":"FaqSocialMediaPlanningStrategy",
+  "reels-video-sss":"FaqReelsShortVideo",
+  "sosyal-medya-reklamlari-sss":"FaqSocialMediaAds",
+  "analiz-raporlama-sss":"FaqSocialMediaAnalysisReporting",
+
+  "web-sitesi-gelistirme-sss":"FaqWebDevelopment",
+  "cms-entegrasyonu-sss":"FaqCMSIntegration",
+  "kvkk-uyum-hizmeti-sss":"FaqKVKKCompliance",
+  "sunucu-güvenlik-sss":"FaqServerSecurity",
+  "bakim-destek-sss":"FaqMaintenanceSupport"
 
 };

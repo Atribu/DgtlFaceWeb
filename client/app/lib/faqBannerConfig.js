@@ -19,17 +19,6 @@ export const FAQ_BANNER_MAP = {
   "hizmetlerimiz-sss": { mode: "main" },
 
   // Ana hizmet SSS örnekleri:
-  "seo-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-hizmetleri" },
-      { label: "Teknik SEO", href: "/seo-hizmetleri/teknik-seo" },
-      { label: "İçerik SEO", href: "/seo-hizmetleri/icerik-seo" },
-      { label: "Local SEO", href: "/seo-hizmetleri/local-seo" },
-      { label: "Otel SEO", href: "/otel/seo" },
-    ],
-  },
 
   "sem-sss": {
     mode: "children",
@@ -106,6 +95,123 @@ export const FAQ_BANNER_MAP = {
       { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
       { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
       { label: "Raporlama", href: "/reklam-raporlama-sss" },
+    ],
+  },
+
+    "seo-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+      "teknik-seo-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+      "icerik-seo-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+      "local-seo-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+      "backlink-yonetimi-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+      "seo-raporlama-sss": {
+    mode: "children",
+    title: "SEO",
+    chips: [
+      { label: "SEO (Genel)", href: "/seo-sss" },
+      { label: "Teknik SEO", href: "/teknik-seo-sss" },
+      { label: "İçerik SEO", href: "/icerik-seo-sss" },
+      { label: "Local SEO", href: "/local-seo-sss" },
+      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+    ],
+  },
+
+    "smm-sss": {
+    mode: "children",
+    title: "SMM",
+    chips: [
+      { label: "SMM (Genel)", href: "/smm-sss" },
+      { label: "İçerik Üretimi", href: "/icerik-uretimi-sss" },
+      { label: "Planlama Strateji", href: "/planlama-strateji-sss" },
+      { label: "Reels Video", href: "/reels-video-sss" },
+      { label: "Sosyal Medya Reklamları", href: "/sosyal-medya-reklamlari-sss" },
+       { label: "Analiz Raporlama", href: "/analiz-raporlama-sss" },
+    ],
+  },
+
+      "yazilim-sss": {
+    mode: "children",
+    title: "YAZILIM",
+    chips: [
+      { label: "YAZILIM (Genel)", href: "/yazilim-sss" },
+       { label: "Web Sitesi Geliştirme", href: "/web-sitesi-gelistirme-sss" },
+      { label: "CMS Entegrasyonu", href: "/cms-entegrasyonu-sss" },
+      { label: "KVKK Uyum Hizmeti", href: "/kvkk-uyum-hizmeti-sss" },
+      { label: "Sunucu Güvenlik", href: "/sunucu-güvenlik-sss" },
+      { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
+    ],
+  },
+
+   "web-sitesi-gelistirme-sss": {
+    mode: "children",
+    title: "Web Sitesi Geliştirme",
+    chips: [
+      { label: "YAZILIM (Genel)", href: "/yazilim-sss" },
+       { label: "Web Sitesi Geliştirme", href: "/web-sitesi-gelistirme-sss" },
+      { label: "CMS Entegrasyonu", href: "/cms-entegrasyonu-sss" },
+      { label: "KVKK Uyum Hizmeti", href: "/kvkk-uyum-hizmeti-sss" },
+      { label: "Sunucu Güvenlik", href: "/sunucu-güvenlik-sss" },
+      { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
     ],
   },
 
