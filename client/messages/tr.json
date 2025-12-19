@@ -9516,7 +9516,7 @@
   },
 
   "quickAnswers": {
-    "title": "Kısa ve Hızlı Yanıtlar (Sesli Aramalar İçin)",
+    "title": "Kısa ve Hızlı Yanıtlar ",
     "items": [
       {
         "q": "Çağrı merkezi hizmeti nedir, kısaca?",
@@ -13508,7 +13508,7 @@
       ]
     },
     "quickAnswers": {
-      "title": "Sesli Arama Kısa Soruları (6 Soru – Voice)",
+      "title": "Kısa Soruları ",
       "items": [
         {
           "q": "Sosyal medya içerik üretimi nedir, neleri kapsar?",
@@ -14655,7 +14655,7 @@
       ]
     },
     "quickAnswers": {
-      "title": "Sesli Arama Kısa Soruları (6 Soru – Voice)",
+      "title": "Kısa Soruları ",
       "items": [
         {
           "q": "Sosyal medya analizi nedir, ne işe yarar?",
@@ -14959,7 +14959,7 @@
         ]
       },
       "quickAnswers":{
-        "title": "Sesli Arama Kısa Soruları (Voice)",
+        "title": " Kısa Soruları ",
         "items": [
           {
             "q": "Web sitesi geliştirme tam olarak nedir?",
@@ -15012,7 +15012,7 @@
           },
           {
             "q": "CMS seçiminde (WordPress, headless, özel geliştirme) nasıl karar veriliyor?",
-            "a": "<ul><li>içerik ekibinizin ihtiyaçları,</li><li>çok dilli yapı gerekliliği,</li><li>entegrasyon ihtiyaçları,</li><li>performans beklentisi</li></ul>gibi faktörlere göre, klasik CMS (WordPress vb.) veya headless çözüm (örn. <a href=\"https://strapi.io\" target=\"_blank\">Strapi</a>, <a href=\"https://www.contentful.com\" target=\"_blank\">Contentful</a> + Next.js) veya tamamen özel bir yapı öneriliyor. “Tek bir doğru” yok; ihtiyaca uygun doğru var."
+            "a": "<ul><li>içerik ekibinizin ihtiyaçları,</li><li>çok dilli yapı gerekliliği,</li><li>entegrasyon ihtiyaçları,</li><li>performans beklentisi</li></ul>gibi faktörlere göre, klasik CMS veya headless çözüm  veya tamamen özel bir yapı öneriliyor. “Tek bir doğru” yok; ihtiyaca uygun doğru var."
           }
         ]
       },
@@ -15216,6 +15216,25 @@
       "p3": ""
     },
 
+      "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": ""
+    },
+
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": ""
+    },
+
+    "voiceQueries": {
+      "title": " Örnek Sorgular",
+      "q1": "",
+      "q2": "",
+      "q3": "",
+      "q4": "",
+      "q5": ""
+    },
+
     "sections": {
       "generalQuestions": {
         "title": "CMS Entegrasyonuna Genel Bakış (Genel Sorular)",
@@ -15248,7 +15267,7 @@
       },
 
       "quickAnswers": {
-        "title": "Sesli Arama Kısa Soruları (Voice)",
+        "title": "Kısa Soruları ",
         "items": [
           {
             "q": "CMS entegrasyonu nedir, ne işe yarar?",
@@ -15290,7 +15309,7 @@
           },
           {
             "q": "Headless CMS senaryosunda panel nasıl çalışır?",
-            "a": "İçerik; panelde (örn. <a href=\"https://strapi.io\" target=\"_blank\">Strapi</a>, <a href=\"https://www.contentful.com\" target=\"_blank\">Contentful</a>) API üzerinden tutulur, site (Next.js/React vb.) bu içerikleri API ile çeker. Panelde sayfa, blok ve komponent mantığında içerik yönetilir; frontend tarafında bu komponentler dinamik olarak oluşturulur. Bu, özellikle çok dilli ve çok siteli yapılarda büyük esneklik sağlar."
+            "a": "İçerik; panelde API üzerinden tutulur, site (Next.js/React vb.) bu içerikleri API ile çeker. Panelde sayfa, blok ve komponent mantığında içerik yönetilir; frontend tarafında bu komponentler dinamik olarak oluşturulur. Bu, özellikle çok dilli ve çok siteli yapılarda büyük esneklik sağlar."
           },
           {
             "q": "İçerik tiplerini (oda, paket, blog vb.) panelde nasıl modellemek gerekiyor?",
@@ -15480,6 +15499,25 @@
       "p3": ""
     },
 
+      "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": ""
+    },
+
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": ""
+    },
+
+    "voiceQueries": {
+      "title": " Örnek Sorgular",
+      "q1": "",
+      "q2": "",
+      "q3": "",
+      "q4": "",
+      "q5": ""
+    },
+
     "sections": {
       "generalQuestions": {
         "title": "KVKK Uyumlu Web & Yazılım Altyapısına Genel Bakış",
@@ -15512,7 +15550,7 @@
       },
 
       "quickAnswers": {
-        "title": "Sesli Arama Kısa Soruları (Voice)",
+        "title": "Kısa Soruları ",
         "items": [
           {
             "q": "KVKK uyumlu web & yazılım altyapısı nedir?",
@@ -15737,9 +15775,7 @@
     },
 
     "intro": {
-      "p1": "Sunucu güvenliği; “hosting aldık, SSL var, yeter” seviyesini çoktan geçmiş durumda. Özellikle otel & turizm ve kurumsal yapılarda, web sitesi, rezervasyon altyapısı, PMS entegrasyonu ve CRM tarafında üretilen her veri, saldırıların potansiyel hedefi.\n\nBu SSS sayfası; sunucu güvenliği, SSL sertifikası, güvenlik duvarı (firewall), DDoS koruması, yedekleme, loglama ve Next.js / modern web altyapılarında güvenlik optimizasyonu gibi konularda en sık sorulan soruları toplar.\n\nBuradaki bilgiler teknik bilgilendirme amaçlıdır; belirli bir güvenlik seviyesini garanti etmez. Özellikle kritik sistemler için profesyonel güvenlik testi (pentest) ve uzman danışmanlık gerekebilir.",
-      "p2": "",
-      "p3": ""
+      "p1": "Sunucu güvenliği; “hosting aldık, SSL var, yeter” seviyesini çoktan geçmiş durumda. Özellikle otel & turizm ve kurumsal yapılarda, web sitesi, rezervasyon altyapısı, PMS entegrasyonu ve CRM tarafında üretilen her veri, saldırıların potansiyel hedefi.\n\nBu SSS sayfası; sunucu güvenliği, SSL sertifikası, güvenlik duvarı (firewall), DDoS koruması, yedekleme, loglama ve Next.js / modern web altyapılarında güvenlik optimizasyonu gibi konularda en sık sorulan soruları toplar.\n\nBuradaki bilgiler teknik bilgilendirme amaçlıdır; belirli bir güvenlik seviyesini garanti etmez. Özellikle kritik sistemler için profesyonel güvenlik testi (pentest) ve uzman danışmanlık gerekebilir."
     },
 
      "aiCapsule": {
@@ -15793,7 +15829,7 @@
       },
 
       "quickAnswers": {
-        "title": "Sesli Arama Kısa Soruları (Voice)",
+        "title": "Kısa Soruları",
         "items": [
           {
             "q": "Sunucu güvenliği nedir, ne işe yarar?",
@@ -15809,7 +15845,7 @@
           },
           {
             "q": "DDoS saldırılarına karşı nasıl korunurum?",
-            "a": "CDN tabanlı DDoS koruma (<a href=\"https://www.cloudflare.com\" target=\"_blank\">Cloudflare</a>, <a href=\"https://aws.amazon.com\" target=\"_blank\">AWS</a>, <a href=\"https://azure.microsoft.com\" target=\"_blank\">Azure</a> vb.), rate limiting, firewall kuralları ve ölçeklenebilir altyapı ile daha dayanıklı hâle gelebilirsiniz."
+            "a": "CDN tabanlı DDoS koruma rate limiting, firewall kuralları ve ölçeklenebilir altyapı ile daha dayanıklı hâle gelebilirsiniz."
           },
           {
             "q": "Sunucu tarafında yedekleme ve loglama nasıl olmalı?",
@@ -15995,7 +16031,7 @@
   }
     },
 
-                      "cta": {
+"cta": {
       "primary": "Sunucu güvenliği talep edin",
       "primaryHref": "/Services/software/serverManagementService",
       "secondary": "Dönüşüm takibi & raporlama",

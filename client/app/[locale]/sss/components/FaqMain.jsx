@@ -113,9 +113,15 @@ function renderRichText(text) {
     else if (tag === "li") out.push(<li key={`li-${k++}`}>{children}</li>);
     else if (tag === "a") {
       out.push(
-        <Link key={`a-${k++}`} href={hrefAttr || "#"} className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700">
-          {children}
-        </Link>
+        <a
+      key={`a-${k++}`}
+      href={hrefAttr || "#"}
+      className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700"
+     target={hrefAttr?.startsWith("http") ? "_blank" : undefined}
+     rel={hrefAttr?.startsWith("http") ? "noreferrer noopener" : undefined}
+    >
+      {children}
+    </a>
       );
     } else {
       const href = richMap[tag]?.href || "#";
@@ -208,11 +214,20 @@ const rich = {
               </h1>
 
               {/* Intro */}
-              <div id="intro" ref={(el) => (sectionRefs.current.intro = el)} className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[40%]">
-               <p>{t.rich("intro.p1", rich)}</p>
-                <p>{t.rich("intro.p2", rich)}</p>
-                <p>{t.rich("intro.p3", rich)}</p>
-              </div>
+              <div
+  id="intro"
+  ref={(el) => (sectionRefs.current.intro = el)}
+  className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
+>
+ {["p1","p2","p3"].map((k) => {
+   const raw = ns?.intro?.[k];
+   if (!raw || !raw.trim()) return null;
+   // <ul>/<li> gibi bloklar gelebilir: <p> içine sokma
+   const hasBlock = raw.includes("<ul") || raw.includes("<li");
+   const Wrapper = hasBlock ? "div" : "p";
+   return <Wrapper key={k}>{renderRichText(raw)}</Wrapper>;
+ })}
+</div>
 
               {/* AI */}
               <div id="ai" ref={(el) => (sectionRefs.current.ai = el)} className="scroll-mt-[120px] mt-8 rounded-2xl bg-[#140f25] text-white p-5 lg:p-6">
@@ -240,9 +255,12 @@ const rich = {
                   {t.rich("voiceQueries.title",rich)}
                 </p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-5 text-[14px] lg:text-[16px] text-[#140f25]/90 text-start w-[90%] ml-[10%]">
-                  {[1, 2, 3, 4].map((i) => (
-                    <li key={i}>{t.rich(`voiceQueries.q${i}`,rich)}</li>
-                  ))}
+               {Object.keys(ns?.voiceQueries || {})
+  .filter((k) => /^q\d+$/.test(k))
+  .sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))
+  .map((k) => (
+    <li key={k}>{renderRichText(ns.voiceQueries[k])}</li>
+  ))}
                 </ul>
               </div>
 
@@ -318,8 +336,6 @@ const rich = {
     </div>
   </div>
 ))}
-
-
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">
                 <a href={t("cta.primaryHref")} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
