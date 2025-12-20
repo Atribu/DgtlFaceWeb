@@ -2,6 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Main from "../Image/ContactMain.png";
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const Contact = () => {
   const t = useTranslations("ContactPage");
@@ -41,8 +42,8 @@ const Contact = () => {
       </div>
       
       {/* Call Now Button */}
-      <div className="absolute bottom-12 sm:bottom-24 md:bottom-36 left-1/2 transform -translate-x-1/2">
-        <button 
+      <Link  href="tel:+905326451767" className="absolute bottom-12 sm:bottom-24 md:bottom-36 left-1/2 transform -translate-x-1/2 cursor-pointer z-[99]">
+        <div 
           className="px-6 py-3 sm:px-8 sm:py-4 text-white text-sm font-bold font-inter leading-[16.80px] relative rounded-[14px] overflow-hidden"
           style={{
             backgroundColor: 'transparent', // Arka plan rengi yok
@@ -51,7 +52,7 @@ const Contact = () => {
         >
           {/* Gradient Border için Pseudo-element */}
           <div 
-            className="absolute inset-0 rounded-[14px] p-[2px]"
+            className="absolute inset-0 rounded-[14px] p-[2px] cursor-pointer"
             style={{
               background: 'linear-gradient(to right, #54b9cf, #a754cf)',
               zIndex: -1,
@@ -62,8 +63,8 @@ const Contact = () => {
             }}
           />
           <span className="relative z-10 mt-[50px]">{t("contactpage_s1_button")}</span>
-        </button>
-      </div>
+        </div>
+      </Link>
     </div>
   );
 };

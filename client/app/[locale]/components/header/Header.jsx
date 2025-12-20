@@ -227,16 +227,16 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[42.5%] w-[98vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.5%] w-[98vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);
         setActiveService(null);
       }}
     >
-      <div className="w-full py-[10px] px-0 rounded-[24px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/80">
+      <div className="w-full  py-[10px] px-0 rounded-[24px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/85">
         {/* 9 SÜTUNLUK GRID */}
-        <div className="flex gap-1">
+        <div className="flex justify-between lg:grid lg:grid-cols-5 xl:flex xl:flex-row">
      {servicesConfig.map((service) => (
   <div
     key={service.key}
@@ -245,10 +245,10 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     {/* Üst başlık */}
     <Link
       href={service.href}
-      className={`items-center gap-0 rounded-full px-2 py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 ${
+      className={`items-center gap-0 rounded-full px-[6px] xl:px-2 py-1 xl:py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white ${
         activeService === service.key
-          ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
-          : "bg-white/5 hover:bg-white/10 text-white/85"
+          ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-transparent bg-clip-text"
+          : " bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
       }`}
       onMouseEnter={() => setActiveService(service.key)}
     >
@@ -257,7 +257,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
     {service.subLinks && service.subLinks.length > 0 && (
       <div className="w-full mt-2">
-        <ul className="flex flex-col gap-1 text-[12px] text-white/75">
+        <ul className="flex flex-col xl:gap-1 text-[12px] text-white/75">
           {service.subLinks.map((item) => (
             <li key={item.href}>
               <Link

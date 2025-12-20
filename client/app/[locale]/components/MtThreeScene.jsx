@@ -233,7 +233,7 @@ export default function MyThreeScene() {
   }, []);
 
   return (
-    <div className="relative w-screen h-[90vh] md:h-[80vh]" style={{ position: "relative", width: "100vw" }}>
+    <div className="relative w-screen h-[90vh] md:h-[80vh] min-h-[670px] md:min-h-[850px] xl:min-h-[780px]" style={{ position: "relative", width: "100vw" }}>
       {/* 3D Canvas */}
       <div
         ref={mountRef}
@@ -246,7 +246,7 @@ export default function MyThreeScene() {
 
       {/* Yazılar + Button */}
       <div
-        className="flex left-[4%] lg:left-[9%] xl:left-[12%] top-[21%] lg:top-[32%] flex-col gap-4 justify-center text-start bg-black/40 lg:bg-transparent"
+        className="flex left-[4%] lg:left-[6%] xl:left-[12%] top-[18%] sm:top-[20%] md:top-[21%] lg:top-[24%] xl:top-[32%] flex-col gap-4  justify-center text-start bg-black/40 lg:bg-transparent"
         style={{
           position: "absolute",
           color: "#fff",
@@ -254,11 +254,11 @@ export default function MyThreeScene() {
         }}
       >
         <h1
-          className="lg:w-[60%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold "
+          className="w-full md:w-[63%] lg:w-[64%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold "
         >
          {t("title")}
         </h1>
-        <p className="w-[95%] lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
+        <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
       {t.rich("subtitle", {
         strong: (chunks) => (
           <span className="font-extrabold">
@@ -268,7 +268,7 @@ export default function MyThreeScene() {
       })}
     </p>
 
-    <p className="w-[95%] lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
+    <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
       {t.rich("subtitle2", {
         strong: (chunks) => (
           <span className="font-extrabold">

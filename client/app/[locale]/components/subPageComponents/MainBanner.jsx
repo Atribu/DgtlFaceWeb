@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks"
 import ServicesCarouselWrapper from "../serviceblocks/ServicesCarouselWrapper";
+import Link from "next/link";
 
 const MainBanner = ({header,text, span, buttonText, text2}) => {
     const [blocksOrder, setBlocksOrder] = useState([
@@ -94,9 +95,9 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
             
           </div>
 
-          <button className="mt-2 md:mt-4 lg:mt-6 gradient-border-button min-w-[124px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px] whitespace-nowrap">
+          {/* <Link  href="tel:+905326451767" className="mt-2 md:mt-4 lg:mt-6 gradient-border-button min-w-[124px] h-[42px] justify-center font-inter leading-[16.8px] tracking-[-0.28px] text-[14px] whitespace-nowrap text-center items-center">
             {buttonText}
-          </button>
+          </Link>
           <style jsx>{`
             .gradient-border-button {
               position: relative;
@@ -146,7 +147,7 @@ const MainBanner = ({header,text, span, buttonText, text2}) => {
                 background-position: 100% 50%;
               }
             }
-          `}</style>
+          `}</style> */}
         </div>
       </div>
     </div>

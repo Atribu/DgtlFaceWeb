@@ -7,7 +7,7 @@ const Location = () => {
    const t = useTranslations("ContactPage");
 
   return (
-    <div className='flex flex-col gap-5 items-center justify-center mt-10 lg:mt-24 w-full bg-white mb-[50px] lg:mb-[100px]'>
+    <div className='flex flex-col gap-5 items-center justify-center mt-10 lg:mt-2 w-full bg-white mb-[50px] lg:mb-[100px]'>
       {/* Resim Container */}
       <div className="md:w-[602.15px] md:h-[435px] w-[330px] h-[238px] relative">
         {/* Resim */}

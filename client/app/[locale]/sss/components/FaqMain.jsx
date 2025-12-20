@@ -208,7 +208,7 @@ const rich = {
 
           {/* SAĞ: CONTENT */}
           <div className="lg:col-span-9 mr-[1%]">
-            <div className="rounded-2xl border border-black/5 bg-white p-5 lg:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
+            <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 lg:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
               <h1 className="text-[22px] lg:text-[34px] font-bold leading-[120%] text-[#140f25]">
                 {t("h1")}
               </h1>

@@ -12,222 +12,137 @@ export const MAIN_SERVICES_CHIPS = [
   { label: "HOTEL", href: "/otel-dijital-pazarlama-sss" }
 ];
 
-// SSS sayfası slug’ına göre “baloncuk seti”
-export const FAQ_BANNER_MAP = {
-  // Bu ikisinde ana hizmetler kalsın:
-  "sss": { mode: "main" },
-  "hizmetlerimiz-sss": { mode: "main" },
+const SEM_CHIPS = [
+  { label: "SEM (Genel)", href: "/sem-sss" },
+  { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
+  { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
+  { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
+  { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
+  { label: "Raporlama", href: "/reklam-raporlama-sss" },
+];
 
-  // Ana hizmet SSS örnekleri:
+const SEO_CHIPS = [
+  { label: "SEO (Genel)", href: "/seo-sss" },
+  { label: "Teknik SEO", href: "/teknik-seo-sss" },
+  { label: "İçerik SEO", href: "/icerik-seo-sss" },
+  { label: "Local SEO", href: "/local-seo-sss" },
+  { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
+  { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
+];
 
-  "sem-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
 
-    "google-ads-yonetimi-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
-
-      "youtube-reklam-yonetimi-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
-
-      "remarketing-ve-display-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
-
-      "donusum-takibi-tag-manager-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
-
-        "reklam-raporlama-sss": {
-    mode: "children",
-    title: "SEM",
-    chips: [
-      { label: "SEM (Genel)", href: "/sem-sss" },
-      { label: "Google Ads", href: "/google-ads-yonetimi-sss" },
-      { label: "YouTube Ads", href: "/youtube-reklam-yonetimi-sss" },
-      { label: "Remarketing & Display", href: "/remarketing-ve-display-sss" },
-      { label: "Dönüşüm Takibi", href: "/donusum-takibi-tag-manager-sss" },
-      { label: "Raporlama", href: "/reklam-raporlama-sss" },
-    ],
-  },
-
-    "seo-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-      "teknik-seo-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-      "icerik-seo-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-      "local-seo-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-      "backlink-yonetimi-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-      "seo-raporlama-sss": {
-    mode: "children",
-    title: "SEO",
-    chips: [
-      { label: "SEO (Genel)", href: "/seo-sss" },
-      { label: "Teknik SEO", href: "/teknik-seo-sss" },
-      { label: "İçerik SEO", href: "/icerik-seo-sss" },
-      { label: "Local SEO", href: "/local-seo-sss" },
-      { label: "Backlink SEO", href: "/backlink-yonetimi-sss" },
-       { label: "SEO Raporlama", href: "/seo-raporlama-sss" },
-    ],
-  },
-
-    "smm-sss": {
-    mode: "children",
-    title: "SMM",
-    chips: [
+    const SMM_CHIPS = [
       { label: "SMM (Genel)", href: "/smm-sss" },
       { label: "İçerik Üretimi", href: "/icerik-uretimi-sss" },
       { label: "Planlama Strateji", href: "/planlama-strateji-sss" },
       { label: "Reels Video", href: "/reels-video-sss" },
       { label: "Sosyal Medya Reklamları", href: "/sosyal-medya-reklamlari-sss" },
        { label: "Analiz Raporlama", href: "/analiz-raporlama-sss" },
-    ],
-  },
+    ];
 
-      "yazilim-sss": {
-    mode: "children",
-    title: "YAZILIM",
-    chips: [
+
+   const Software_CHIPS = [
       { label: "YAZILIM (Genel)", href: "/yazilim-sss" },
        { label: "Web Sitesi Geliştirme", href: "/web-sitesi-gelistirme-sss" },
       { label: "CMS Entegrasyonu", href: "/cms-entegrasyonu-sss" },
       { label: "KVKK Uyum Hizmeti", href: "/kvkk-uyum-hizmeti-sss" },
       { label: "Sunucu Güvenlik", href: "/sunucu-güvenlik-sss" },
       { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
-    ],
-  },
+    ];
 
-   "web-sitesi-gelistirme-sss": {
-    mode: "children",
-    title: "Web Sitesi Geliştirme",
-    chips: [
-      { label: "YAZILIM (Genel)", href: "/yazilim-sss" },
-       { label: "Web Sitesi Geliştirme", href: "/web-sitesi-gelistirme-sss" },
-      { label: "CMS Entegrasyonu", href: "/cms-entegrasyonu-sss" },
-      { label: "KVKK Uyum Hizmeti", href: "/kvkk-uyum-hizmeti-sss" },
-      { label: "Sunucu Güvenlik", href: "/sunucu-güvenlik-sss" },
-      { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
-    ],
-  },
-  
-        "creative-sss": {
-    mode: "children",
-    title: "CREATIVE",
-    chips: [
+
+     const Creative_CHIPS = [
       { label: "CREATIVE (Genel)", href: "/creative-sss" },
        { label: "Grafik Motion Tasarım", href: "/grafik-motion-tasarim-sss" },
       { label: "UI/UX Dizayn", href: "/ui-ux-hizmeti-sss" },
       { label: "Video Prodüksiyon", href: "/video-ve-produksiyon-sss" },
       { label: "Etkinlik Prodüksiyon", href: "/etkinlik-produksiyonu-sss" },
       { label: "Kurumsal Hediye", href: "/kurumsal-hediye-sss" },
+    ];
+
+const GROUPS = {
+  sem: {
+    title: "SEM",
+    chips: SEM_CHIPS,
+    slugs: [
+      "sem-sss",
+      "google-ads-yonetimi-sss",
+      "youtube-reklam-yonetimi-sss",
+      "remarketing-ve-display-sss",
+      "donusum-takibi-tag-manager-sss",
+      "reklam-raporlama-sss",
+    ],
+  },
+  seo: {
+    title: "SEO",
+    chips: SEO_CHIPS,
+    slugs: [
+      "seo-sss",
+      "teknik-seo-sss",
+      "icerik-seo-sss",
+      "local-seo-sss",
+      "backlink-yonetimi-sss",
+      "seo-raporlama-sss",
     ],
   },
 
+  smm: {
+    title: "SMM",
+    chips: SMM_CHIPS,
+    slugs: [
+      "smm-sss",
+      "icerik-uretimi-sss",
+      "planlama-strateji-sss",
+      "reels-video-sss",
+      "sosyal-medya-reklamlari-sss",
+      "analiz-raporlama-sss",
+    ],
+  },
 
-  // ... SMM-SSS, Yazılım-SSS, Creative-SSS vs ekleyeceğiz (9 tane)
+  software: {
+    title: "Software",
+    chips: Software_CHIPS,
+    slugs: [
+      "yazilim-sss",
+      "web-sitesi-gelistirme-sss",
+      "cms-entegrasyonu-sss",
+      "kvkk-uyum-hizmeti-sss",
+      "sunucu-güvenlik-sss",
+      "bakim-destek-sss",
+    ],
+  },
+
+    creative: {
+    title: "Creative",
+    chips: Creative_CHIPS,
+    slugs: [
+      "creative-sss",
+      "grafik-motion-tasarim-sss",
+      "ui-ux-hizmeti-sss",
+      "video-ve-produksiyon-sss",
+      "etkinlik-produksiyonu-sss",
+      "kurumsal-hediye-sss",
+    ],
+  },
 };
+
+const AUTO_MAP = Object.fromEntries(
+  Object.values(GROUPS).flatMap((g) =>
+    g.slugs.map((slug) => [
+      slug,
+      { mode: "children", title: g.title, chips: g.chips },
+    ])
+  )
+);
+
+export const FAQ_BANNER_MAP = {
+  // Ana hizmetler
+  sss: { mode: "main" },
+  "hizmetlerimiz-sss": { mode: "main" },
+
+  // Otomatik üretilenler
+  ...AUTO_MAP,
+};
+
+
+

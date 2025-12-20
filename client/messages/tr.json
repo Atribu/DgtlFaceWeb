@@ -12272,8 +12272,8 @@
                   "cta": {
       "primary": "Teknik Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/technicalSeo",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Seo Hizmetleri",
+      "secondaryHref": "/Services/seo"
     }
   },
 
@@ -12531,8 +12531,8 @@
                 "cta": {
       "primary": "Yerel Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/localSeo",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Seo Hizmetleri",
+      "secondaryHref": "/Services/seo"
     }
   },
 
@@ -12838,8 +12838,8 @@
       "cta": {
       "primary": "İçerik Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/contentSeo",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Seo Hizmetleri",
+      "secondaryHref": "/Services/seo"
     }
   },
 
@@ -13141,8 +13141,8 @@
                "cta": {
       "primary": "Backlink Seo hizmeti talep edin",
       "primaryHref": "/Services/seo/backlinkSeo",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Seo Hizmetleri",
+      "secondaryHref": "/Services/seo"
     }
   },
 
@@ -13453,8 +13453,8 @@
      "cta": {
       "primary": "Seo raporlama hizmeti talep edin",
       "primaryHref": "/Services/seo/seoReporting",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Seo Hizmetleri",
+      "secondaryHref": "/Services/seo"
     }
   },
 
@@ -13727,8 +13727,8 @@
              "cta": {
       "primary": "Sosyal Medya İçerik Üretimi talep edin",
       "primaryHref": "/Services/smm/socialMediaContent",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+   "secondary": "Sosyal Medya Yönetimi",
+      "secondaryHref": "/Services/smm"
     }
   },
 
@@ -13997,7 +13997,14 @@
         }
       ]
     }
-}
+},
+
+"cta": {
+      "primary": "Sosyal medya Planlama & Strateji hizmeti talep edin",
+      "primaryHref": "/Services/smm/reels-video",
+      "secondary": "Sosyal Medya Yönetimi",
+      "secondaryHref": "/Services/smm"
+    }
   },
 
    "FaqReelsShortVideo": {
@@ -14285,8 +14292,8 @@
            "cta": {
       "primary": "Reels video hizmeti talep edin",
       "primaryHref": "/Services/smm/reels-video",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Sosyal Medya Yönetimi",
+      "secondaryHref": "/Services/smm"
     }
   },
 
@@ -14600,8 +14607,8 @@
                    "cta": {
       "primary": "Sosyal Medya Reklam hizmeti talep edin",
       "primaryHref": "/Services/smm/socialMediaAds",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Sosyal Medya Yönetimi",
+      "secondaryHref": "/Services/smm"
     }
   },
 
@@ -14883,8 +14890,8 @@
                   "cta": {
       "primary": "Sosyal Medya Analiz Raporu talep edin",
       "primaryHref": "/Services/smm/socialMediaReporting",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Sosyal Medya Yönetimi",
+      "secondaryHref": "/Services/smm"
     }
   },
 
@@ -15192,8 +15199,8 @@
      "cta": {
       "primary": "Web sitesi geliştirme hizmeti talep edin",
       "primaryHref": "/Services/software/websiteAndSoftware",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Yazılım",
+      "secondaryHref": "/Services/software"
     }
   },
 
@@ -15475,8 +15482,8 @@
     "cta": {
       "primary": "CMS entegrasyonu için teklif alın",
       "primaryHref": "/tr/yazilim/cms-entegrasyonu",
-      "secondary": "Web sitesi geliştirme",
-      "secondaryHref": "/tr/yazilim/web-sitesi-gelistirme"
+      "secondary": "Yazılım",
+      "secondaryHref": "/Services/software"
     }
   },
 
@@ -15756,8 +15763,8 @@
                       "cta": {
       "primary": "KVKK uyum hizmeti talep edin",
       "primaryHref": "/Services/software/kvkk",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Yazılım",
+      "secondaryHref": "/Services/software"
     }
   },
 
@@ -16033,8 +16040,8 @@
 "cta": {
       "primary": "Sunucu güvenliği talep edin",
       "primaryHref": "/Services/software/serverManagementService",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Yazılım",
+      "secondaryHref": "/Services/software"
     }
   },
 
@@ -16313,8 +16320,8 @@
     "cta": {
       "primary": "Bakım ve destek hizmeti talep edin",
       "primaryHref": "/Services/software/websiteMaintanceService",
-      "secondary": "Dönüşüm takibi & raporlama",
-      "secondaryHref": "/sem-sss"
+      "secondary": "Yazılım",
+      "secondaryHref": "/Services/software"
     }
   },
 
@@ -16899,6 +16906,26 @@
     "p3": "Bu SSS sayfası; otel tanıtım filmleri, oda & tesis videoları, etkinlik videoları, reklam filmleri ve 360°/drone gibi destekleyici görsel türler hakkında en sık sorulan soruları toplar."
   },
 
+  "aiCapsule": {
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Bu Video Prodüksiyon SSS sayfası; otel tanıtım filmi, reklam filmi, etkinlik videosu ve oda/tesis videoları gibi prodüksiyon ihtiyaçlarında doğru senaryo, planlama ve multi-format teslimat yaklaşımıyla nasıl yüksek etki üretileceğini açıklar. Drone/360° gibi destekleyici çekimlerin nerede değer kattığı, prodüksiyon süreci (brief → senaryo → çekim → montaj) ve videoların Reels/TikTok, YouTube, web ve OTA gibi mecralarda performans odaklı nasıl değerlendirileceği hakkında otel & turizm odağında pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunar."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Video Prodüksiyon SSS; oteller ve markalar için tanıtım ve reklam videolarını senaryo, çekim ve montaj süreciyle planlamayı; videoları sosyal medya, reklam ve web/OTA kanallarında doğru formatlarda kullanarak izlenme ve satış etkisini artırmayı özetleyen hızlı bir rehberdir."
+  },
+  "voiceQueries": {
+    "title": "Sık Sorulan Örnek Sorgular",
+    "q1": "“Video prodüksiyon nedir?”",
+    "q2": "“Otel tanıtım filmi kaç dakika olmalı?”",
+    "q3": "“Tanıtım filmi ile reklam filmi arasındaki fark nedir?”",
+    "q4": "“Otel için drone çekimi gerekli mi?”",
+    "q5": "“Reels ve TikTok için otel videosu nasıl hazırlanır?”",
+    "q6": "“Video çok iyi ama izlenme az, neden?”",
+    "q7": "“Video izleniyor ama rezervasyon getirmiyor, ne yapılmalı?”",
+    "q8": "“Otel videosu çekimi öncesi hangi hazırlıklar yapılmalı?”"
+  },
+
   "sections": {
     "generalQuestions": {
       "title": "Video Prodüksiyona Genel Bakış",
@@ -17169,6 +17196,28 @@
     "p1": "Etkinlik prodüksiyonu; “sahne kurup ses–ışık çekmek” değil, bir fuar, lansman, konser ya da otel içi etkinliğin başından sonuna kadar kreatif + teknik olarak yönetilmesi demektir. Özellikle otel & turizm tarafında, yanlış planlanan bir etkinlik:<ul><li>bütçe aşımı,</li><li>zamanlama problemleri,</li><li>sahnede zayıf etki,</li><li>ve sonrasında kullanılamayan, işlevsiz etkinlik videoları</li></ul>anlamına gelebilir.",
     "p2": "Bu SSS sayfası; fuar, lansman, konser, gala ve otel içi etkinliklerin kreatif ve teknik yönetimi hakkında en sık sorulan soruları, otel & kurumsal perspektifle toplar."
   },
+
+  "aiCapsule": {
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Bu Etkinlik Prodüksiyonu SSS sayfası; fuar, lansman, konser, gala ve otel içi etkinliklerde sahne–ses–ışık kurulumunun ötesine geçip kreatif kurgu, teknik altyapı, çekim/kayıt ve etkinlik sonrası içerik üretimini (highlight video, full kayıt, sosyal medya cut’ları) tek çatı altında planlamayı anlatır. Bütçe aşımı, zamanlama problemleri, zayıf sahne etkisi ve yetersiz kayıt gibi en sık pain point’lerin nedenlerini ve nasıl önleneceğini; otel & turizm ve kurumsal etkinlik perspektifiyle pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlarla ele alır."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Etkinlik Prodüksiyonu SSS; otel ve kurumsal etkinliklerde sahne, ses, ışık ve kayıt süreçlerini baştan planlayarak bütçe ve zaman yönetimini güçlendirmeyi; etkinlik sonrası highlight video ve fotoğraflarla etkinliğin dijital etkisini ve ROI’sini artırmayı özetleyen hızlı bir rehberdir."
+  },
+  "voiceQueries": {
+    "title": "Sık Sorulan Örnek Sorgular",
+    "q1": "“Etkinlik prodüksiyonu nedir?”",
+    "q2": "“Otel etkinliği için sahne, ses ve ışık nasıl planlanır?”",
+    "q3": "“Etkinlik sonrası highlight video neden önemli?”",
+    "q4": "“Etkinlikte kaç kamera kullanılmalı?”",
+    "q5": "“Etkinlik prodüksiyonunda bütçe aşımı neden olur?”",
+    "q6": "“Etkinlik günü prova şart mı?”",
+    "q7": "“Canlı yayın mı kayıt mı daha mantıklı?”",
+    "q8": "“Fuar ve lansman çekimi nasıl planlanır?”"
+  },
+
+  
   "sections": {
     "generalQuestions": {
       "title": "Etkinlik Prodüksiyonuna Genel Bakış (Genel Sorular)",
@@ -17439,6 +17488,26 @@
     "p1":"Kurumsal hediye tasarımı; “üzerine logo basılı promosyon ürün” seçmekten çok daha fazlası. Özellikle otel & turizm ve kurumsal tarafta, verdiğiniz hediye:\n<ul><li>markanızın algısını,</li><li>misafir/çalışan/iş ortağı ile kurduğunuz bağı,</li><li>hatta sosyal medyada alacağınız paylaşılabilirlik ve görünürlüğü</li></ul>\ndoğrudan etkiliyor.",
     "p2":"Bu SSS sayfası; konsept geliştirme, ürün seçimi, kişiselleştirme, ambalaj tasarımı ve lojistik süreçleriyle ilgili en sık sorulan soruları, otel & kurumsal perspektifle ve “israf etmeyen, gerçekten kullanılan” hediye kurguları odağında toplar."
    },
+
+   "aiCapsule": {
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Bu Kurumsal Hediye Tasarımı SSS sayfası; otel & turizm ve kurumsal markalar için hediye tasarımını “logo basılı promosyon” seviyesinden çıkarıp konsept, ürün seçimi, kişiselleştirme, ambalaj ve lojistik katmanlarıyla uçtan uca ele alır. Amaç; düşük kullanım ve hediye israfını azaltan, marka kimliğiyle uyumlu, sosyal medyada paylaşılabilirliği yüksek ve gerçekten kullanılan hediye kurguları oluşturmaktır. Sayfa; segment bazlı set planlama (VIP, tekrar misafir, çalışan, acente), sürdürülebilir materyal yaklaşımı, süreç yönetimi ve ROI okuması gibi kritik başlıklarda pratik, uygulanabilir ve otorite seviyesi yüksek yanıtlar sunar."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Kurumsal Hediye Tasarımı SSS; otel ve markaların misafir, çalışan ve iş ortaklarına verdiği hediyeleri konsept, ürün, kişiselleştirme ve ambalajla marka kimliğine uygun hâle getirerek israfı azaltan, kullanım ve paylaşılabilirliği artıran hediye setlerini nasıl planlayacağını özetleyen hızlı bir rehberdir."
+  },
+  "voiceQueries": {
+    "title": "Sık Sorulan Örnek Sorgular",
+    "q1": "“Kurumsal hediye tasarımı nedir?”",
+    "q2": "“Otel misafirleri için welcome gift nasıl hazırlanır?”",
+    "q3": "“VIP misafirler için hediye seti nasıl planlanır?”",
+    "q4": "“Marka kimliğine uygun hediye nasıl seçilir?”",
+    "q5": "“Kurumsal hediyede kişiselleştirme gerekli mi?”",
+    "q6": "“Ambalaj tasarımı hediyeyi ne kadar etkiler?”",
+    "q7": "“Hediye israfını nasıl önlerim?”",
+    "q8": "“Kurumsal hediye tasarımı ROI nasıl ölçülür?”"
+  },
 
    "sections":{
     "generalQuestions": {
