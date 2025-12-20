@@ -300,9 +300,8 @@
   "text": "Bir sonraki yaratıcı girişimde ilk adımları atmaya hazırız. Aşağıdaki butona dokunmanız, ortak yolculuğumuzu başlatacaktır.",
   "buttonText": "İletişime Geç",
    "link_faq": "Sıkça Sorulan Sorular",
-    "footer_block_corporate": "Kurumsal",
-    "link_faq": "Sıkça Sorulan Sorular",
-"footer_block_corporate": "Kurumsal"
+    "footer_block_corporate": "Kurumsal"
+
 },
 
 "ContactPage": {
@@ -5007,7 +5006,7 @@
 
       "header5": "Turizm ve Seyahat Sektöründe Müşteri Yönetimi",
       "text5": "Tur operatörleri, acenteler ve transfer firmaları için<ul><li> <b>Tur sonrası memnuniyet aramaları</b>, </li><li>İptal ve tarih değişimlerinde <b>çok kanallı bilgilendirme</b>, </li><li><b>Kriz dönemlerinde</b> (uçuş iptali, hava koşulları vb.) proaktif bilgilendirme aramaları, </li><li> <b>Sadakat ve kampanya bilgilendirmeleri</b>.\n\n<b>“Turizm müşteri yönetimi, turizm müşteri memnuniyeti”</b> alanında satış sonrası destek; markayı <b>sürdürülebilir</b> kılan ana yapı taşlarından biridir.",
-       "header5": "Hizmet ve B2B Şirketler İçin Satış Sonrası Destek",
+       "header6": "Hizmet ve B2B Şirketler İçin Satış Sonrası Destek",
       "text6": "<b>SaaS, hizmet ve B2B</b> odaklı markalar için satış sonrası destek:<ul><li> <b>Kullanım desteği ve onboarding,</b> </li><li><b>Teknik sorun çözümleri</b>, </li><li><b>Yenileme, ek paket ve üst seviye plan satışları</b>,</li><li> Kurumsal <b>müşteri memnuniyeti aramaları</b>. </li></ul>DGTLFACE, bu alanlarda da <b>“müşteri destek merkezi, satış sonrası destek Türkiye, Antalya müşteri hizmetleri”</b> ihtiyacını karşılayacak yapı kurar."
     },
 
@@ -8206,7 +8205,7 @@
       },
 
         "quickAnswers": {
-        "title": "Kısa ve Hızlı Yanıtlar ()",
+        "title": "Kısa ve Hızlı Yanıtlar ",
         "items": [
           {
             "q": "SEO hizmetleri nedir, kısaca?",
@@ -8509,7 +8508,7 @@
       },
 
        "quickAnswers": {
-        "title": "Kısa ve Hızlı Yanıtlar ()",
+        "title": "Kısa ve Hızlı Yanıtlar ",
         "items": [
           {
             "q": "Sosyal medya yönetimi nedir, kısaca?",
@@ -8860,7 +8859,7 @@
         ]
       },
       "quickAnswers": {
-  "title": "Kısa ve Hızlı Yanıtlar ()",
+  "title": "Kısa ve Hızlı Yanıtlar ",
   "items": [
     {
       "q": "Web & yazılım hizmetleri nedir, kısaca?",
@@ -9180,7 +9179,7 @@
   },
 
   "quickAnswers": {
-    "title": "Kısa ve Hızlı Yanıtlar ()",
+    "title": "Kısa ve Hızlı Yanıtlar ",
     "items": [
       {
         "q": "Creative & tasarım hizmetleri nedir, kısaca?",
@@ -9831,7 +9830,7 @@
   },
 
    "quickAnswers": {
-    "title": "Kısa ve Hızlı Yanıtlar ()",
+    "title": "Kısa ve Hızlı Yanıtlar ",
     "items": [
       {
         "q": "PMS & OTA yönetimi nedir, kısaca?",
@@ -10131,7 +10130,7 @@
     ]
   },
   "quickAnswers": {
-    "title": "Kısa ve Hızlı Yanıtlar ()",
+    "title": "Kısa ve Hızlı Yanıtlar ",
     "items": [
       {
         "q": "Veri analizi nedir, kısaca?",
@@ -12093,7 +12092,7 @@
       },
 
       "quickAnswers": {
-        "title": "Kısa ve Hızlı Yanıtlar ()",
+        "title": "Kısa ve Hızlı Yanıtlar ",
         "items": [
           {
             "q": "Teknik SEO nedir, tek cümleyle?",
@@ -12328,7 +12327,7 @@
       },
 
       "quickAnswers": {
-        "title": "Kısa ve Hızlı Yanıtlar ()",
+        "title": "Kısa ve Hızlı Yanıtlar ",
         "items": [
           {
             "q": "Yerel SEO nedir, kısa tanım?",
@@ -12599,7 +12598,7 @@
       },
 
       "quickAnswers": {
-        "title": "Kısa ve Hızlı Yanıtlar ()",
+        "title": "Kısa ve Hızlı Yanıtlar ",
         "items": [
           {
             "q": "İçerik SEO nedir, ne işe yarar?",
@@ -16317,6 +16316,1353 @@
       "secondary": "Dönüşüm takibi & raporlama",
       "secondaryHref": "/sem-sss"
     }
+  },
+
+  "FaqGraphicMotion": {
+  "h1": "Grafik & Motion Tasarım SSS ",
+
+  "toc": {
+    "title": "İçindekiler",
+    "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+    "intro": "Genel Bakış",
+    "aiCapsule": "Kısa Özet",
+    "voiceSummary": "Kısa Özet",
+    "voiceQueries": "Arama Sorguları"
+  },
+
+  "intro": {
+    "p1": "Grafik & motion tasarım; “güzel görsel çizmek” değil, markanın tüm temas noktalarında tutarlı, hatırlanabilir ve dikkat çekici bir görsel dünya kurma işidir. Özellikle otel & turizm ve marka iletişimi tarafında; sosyal medya, web sitesi, dijital reklamlar, kampanya görselleri, video kapakları, animasyonlu içerikler ve hatta offline materyaller aynı dili konuşmuyorsa, marka akılda kalıcılığını ve etkileşim potansiyelini kaybeder.",
+    "p2": "Bu SSS sayfası, Grafik & Motion Tasarım ile ilgili en sık sorulan soruları;<ul><li>marka görselleri,</li><li>sosyal medya kreatifleri,</li><li>animasyon / motion içerikler,</li><li>kampanya görsel sistemleri</li></ul>üzerinden, otel & turizm + marka iletişimi odaklı bir çerçeveyle yanıtlar.",
+    "p3": ""
+  },
+
+  "aiCapsule": {
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Grafik & Motion Tasarım SSS; otel & turizm ve marka iletişimi odağında, görsel kimlikten sosyal medya kreatiflerine, kampanya görsel sistemlerinden motion içerik üretimine kadar en sık sorulan soruları pratik ve uygulanabilir cevaplarla toplar. Amaç; markanın tüm temas noktalarında tutarlı bir görsel dil kurarak hatırlanmayı, etkileşimi ve dönüşüm potansiyelini artırmaktır."
+  },
+
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Grafik & motion tasarım, markanızın sosyal medya, web ve reklam mecralarında tutarlı ve dikkat çekici bir görsel dünya kurmasına yardımcı olur; statik tasarım + animasyonlu içerikler birlikte kullanıldığında etkileşim ve hatırlanma gücü artar."
+  },
+
+  "voiceQueries": {
+    "title": "Sık Sorulan Örnek Sorgular",
+    "q1": "Grafik ve motion tasarım nedir?",
+    "q2": "Otelim için sosyal medya görsellerini nasıl planlamalıyım?",
+    "q3": "Motion içerikler etkileşimi artırır mı?",
+    "q4": "Marka kimliği olmadan tasarıma başlamak mantıklı mı?",
+    "q5": "Grafik ve motion tasarım kimler için uygundur?",
+    "q6": "Kreatiflerde revizyonu azaltmak için ne yapmak gerekir?"
+  },
+
+  "sections": {
+  "generalQuestions": {
+    "title": "Grafik & Motion Tasarıma Genel Bakış",
+    "items": [
+      {
+        "q": "Grafik & motion tasarım tam olarak nedir?",
+        "a": "Grafik tasarım; markanın görsel kimliğini (logo, renk paleti, tipografi, ikonografi, görsel dil) ve bunun farklı mecralardaki uygulamalarını (sosyal medya post’ları, afişler, banner’lar, broşürler, web görselleri, kampanya görsel setleri vb.) kapsar. Motion tasarım ise; bu görsel dünyayı hareket ile zenginleştiren, animasyon, geçiş, typographic motion, logo animasyonları, sosyal medya için kısa animasyonlu görseller ve video intro/outro gibi öğeleri içerir. Statik + motion birlikte, markaya durağan ve hareketli iki güçlü anlatım katmanı sağlar."
+      },
+      {
+        "q": "Oteller ve turizm markaları için grafik & motion tasarım neden kritik?",
+        "a": "Otel ve turizm tarafında satış yaptığınız şey: “Oda + destinasyon + deneyim + duygu” kombinasyonudur. Bu duyguyu:<ul><li>sosyal medya post’larında,</li><li>Reels/TikTok cover’larında,</li><li>kampanya banner’larında,</li><li>web hero görsellerinde,</li><li>e-posta ve dijital broşürlerde</li></ul>aynı dilde ve tutarlı bir şekilde anlatmadığınızda; otel, OTA ve rakipler arasında farklılaşma gücünü kaybeder. Güçlü görsel tasarım, aynı bütçeyle çok daha yüksek etkileşim, hatırlanma ve tıklama üretir."
+      },
+      {
+        "q": "Grafik & motion tasarım sadece dijital için mi geçerli?",
+        "a": "Hayır. Dijital ağırlıklı olsa da:<ul><li>kurumsal sunumlar,</li><li>basılı materyaller (broşür, insert, billboard, roll-up),</li><li>otel içi yönlendirme & signage,</li><li>offline etkinlik görselleri</li></ul>de bu dünyanın parçasıdır. İyi bir tasarım sistemi, dijital + offline tüm alanlara yayılabilen modüler bir yapıda olmalıdır."
+      },
+      {
+        "q": "Marka kimliği olmadan grafik & motion tasarıma başlamak mantıklı mı?",
+        "a": "Geçici olarak “güzel görseller” üretilebilir ama uzun vadede:<ul><li>ton ve renkler sürekli değişir,</li><li>farklı tasarımcı/ajans işleri birbiriyle uyumsuz görünür,</li><li>marka akılda kalıcılığı düşer.</li></ul>Bu nedenle en azından temel brand guideline (logo, renkler, tipografi, görsel stil) olmadan agresif kreatif üretim yapmak yerine, önce bu zemini kurmak çok daha sağlıklıdır."
+      },
+      {
+        "q": "Grafik & motion tasarımda “format odaklı” değil, “sistem odaklı” düşünmek ne demek?",
+        "a": "“Format odaklı” yaklaşım: “Instagram post’u lazım, bir görsel çizelim.” “Sistem odaklı” yaklaşım ise: “Bu kampanyanın görsel sistemi nedir? Aynı dili; post, story, Reels cover, banner ve web hero’da nasıl uygularız?” Bu sayede her kampanya ve içerikiniz kendi içinde tutarlı, markanızın ana görsel dünyasıyla da uyumlu olur."
+      }
+    ]
+  },
+
+  "quickAnswers": {
+    "title": "Sesli Arama İçin Kısa Sorular",
+    "items": [
+      {
+        "q": "Grafik & motion tasarım nedir, ne işe yarar?",
+        "a": "Markanızın sosyal medya, web ve reklam mecralarında tutarlı, dikkat çekici ve hatırlanabilir bir görsel dünya kurmasını sağlar; hem statik hem hareketli (motion) içeriklerle iletişiminizi güçlendirir."
+      },
+      {
+        "q": "Otelim için sosyal medya ve web görsellerini nasıl planlamalıyım?",
+        "a": "Önce marka kimliğinizi ve öncelikli odaklarınızı (oda, destinasyon, gastronomi, kampanya vb.) belirleyip, bunlara uygun bir görsel sistem ve içerik kategorileri tanımlamalısınız. Her kategori için sabit şablonlar ve motion varyantları tasarlamak işinizi kolaylaştırır."
+      },
+      {
+        "q": "Marka kimliği ile uyumlu tasarım neden önemli?",
+        "a": "Çünkü kullanıcı, markayı çoğu zaman saniyeler içinde görsel hafızasıyla tanır. Renk, tipografi ve stil sürekli değişiyorsa, marka akılda kalmaz ve güven vermez."
+      },
+      {
+        "q": "Motion (animasyonlu) içerikler gerçekten etkileşimi artırır mı?",
+        "a": "Doğru kullanıldığında evet; özellikle sosyal medyada ve dijital reklam alanlarında dikkat çekme, izlenme süresi ve kaydetme/paylaşma oranlarını artırabilir."
+      },
+      {
+        "q": "Kreatiflerde sık revizyon yaşanmaması için ne yapmak gerekir?",
+        "a": "Net bir brief (hedef, kanal, örnekler, marka kuralları), onaylayıcıların sayısını makul tutmak ve kampanyadan önce mini görsel sistem belirlemek, revizyon yükünü ciddi şekilde azaltır."
+      },
+      {
+        "q": "Grafik & motion tasarım hizmeti kimler için uygundur?",
+        "a": "Otel & turizm, lifestyle markalar, kurumsal şirketler, e-ticaret projeleri ve sosyal medya odağında iletişim yapan tüm markalar için uygundur."
+      }
+    ]
+  },
+  "section3": {
+  "title": "Hizmet Kapsamı: Marka Görselleri, Motion ve Sosyal Kreatifler",
+  "items": [
+    {
+      "q": "Grafik & Motion Tasarım hizmetiniz neleri kapsıyor?",
+      "a": "<ul><li>marka görsel dünyanın oluşturulması / güncellenmesi,</li><li>sosyal medya için statik ve motion kreatif setleri (post, story, Reels cover vb.),</li><li>kampanya görsel sistemleri (farklı formatlar için uyarlama),</li><li>otel ve turizm için oda/destinasyon/deneyim odaklı görsel kurgular,</li><li>web ve dijital reklam banner’ları,</li><li>temel animasyonlar (logo reveal, başlık/metin animasyonu, kısa motion spot’lar),</li><li>gerektiğinde basılı materyal (broşür, billboard vb.) adaptasyonları.</li></ul>"
+    },
+    {
+      "q": "Grafik tasarım tarafında hangi üretimler öne çıkıyor?",
+      "a": "<ul><li>sosyal medya post ve carousel setleri,</li><li>kampanya KV (key visual) ve varyasyonları,</li><li>web hero ve section görselleri,</li><li>e-posta header ve içerik görselleri,</li><li>dijital banner’lar (display, remarketing, metasearch kreatifleri),</li><li>otel ve marka broşürleri, sunum şablonları, kurumsal döküman tasarımları.</li></ul>"
+    },
+    {
+      "q": "Motion tasarım tarafında hangi içerikleri üretiyorsunuz?",
+      "a": "<ul><li>kısa animasyon post’ları (loop videolar),</li><li>Reels/TikTok için motion element içeren videolar,</li><li>story için animasyonlu kreatifler,</li><li>logo animasyonları,</li><li>web için hafif motion efektler (hero text, icon animasyonları),</li><li>dijital reklamlar için animasyonlu banner’lar.</li></ul>"
+    },
+    {
+      "q": "Grafik & motion tasarım çalışmaları sosyal medya stratejisiyle nasıl bağlanıyor?",
+      "a": "Önce stratejide belirlenen içerik kategorileri (konsept, destinasyon, deneyim, kampanya vb.) ve formatlar (post, story, Reels vb.) çıkarılır; grafik & motion ekibi, her kategori için tekrarlanabilir şablonlar ve motion varyantlar üretir. Böylece içerik üretim süreci hızlanır ve görsel dil tüm kanallarda tutarlı olur."
+    },
+    {
+      "q": "Otel için hangi kreatif türleri genelde en iyi çalışıyor?",
+      "a": "<ul><li>oda & balkon görünümü + view,</li><li>havuz–plaj,</li><li>gastronomi (yemek & bar),</li><li>misafir deneyimi (giriş, kahvaltı, akşam eğlencesi vb.),</li><li>kampanya ve paket highlight’ları,</li><li>destinasyon/çevre görselleri.</li></ul>Bunların hem statik hem motion versiyonları güçlü performans üretebilir."
+    }
+  ]
+},
+
+"section4": {
+  "title": "Süreç & İşleyiş: Brief’ten Teslimata",
+  "items": [
+    {
+      "q": "Grafik & motion tasarım sürecine nasıl başlıyorsunuz?",
+      "a": "<ul><li>Brief & marka analizi (hedef, mecralar, ton, örnekler),</li><li>varsa mevcut brand guideline inceleme,</li><li>içerik ve kampanya planına paralel kreatif ihtiyaç listesi,</li><li>örnek konsept/sunum (look&feel),</li><li>revizyon/onay,</li><li>final üretim ve teslim.</li></ul>"
+    },
+    {
+      "q": "Otel için yeni bir kampanya görsel sistemi nasıl tasarlanıyor?",
+      "a": "<ul><li>kampanyanın hedefi (erken rezervasyon, balayı, aile vb.),</li><li>hedef pazar ve mecralar (TR/EN, Meta, TikTok, web, OTA vb.),</li><li>teklif/mesaj (indirim, ek hizmet, paket yapısı)</li></ul>analiz edildikten sonra; kampanyayı temsil eden bir master KV (key visual) oluşturulur ve bu KV; post, story, Reels cover, banner, web hero vb. formatlara uyarlanır."
+    },
+    {
+      "q": "Motion tasarım sürecinde hangi adımlar var?",
+      "a": "<ul><li>mesaj ve hedef netleştirme,</li><li>storyboard / basit akış kurgusu,</li><li>tasarım stilinin belirlenmesi (flat, 3D, fotoğraf + grafik vb.),</li><li>animasyon prodüksiyonu (After Effects vb.),</li><li>farklı formatlara uyarlama (dikey, kare, yatay),</li><li>son testler (metin okunabilirliği, süre, ses/müzik uyumu).</li></ul>"
+    },
+    {
+      "q": "Revizyon sürecini nasıl yönetiyorsunuz?",
+      "a": "<ul><li>başta net brief ve örnekler alarak,</li><li>onay verecek kişi sayısını netleştirerek,</li><li>revizyon turlarını (örn. 2 tur içerik, 1 tur final) belirleyerek.</li></ul>Her revizyon turunda “ne değişti, neden” net yazılır; böylece süreç hem şeffaf hem kontrollü olur."
+    },
+    {
+      "q": "Fiyatlandırma ve sözleşme tarafında neler belirlenmeli?",
+      "a": "<ul><li>üretilecek kreatif sayıları ve formatları,</li><li>varsa kampanya bazlı KV + uyarlamalar,</li><li>motion içerik süresi ve sayısı,</li><li>revizyon turları,</li><li>teslim takvimi,</li><li>haklar ve kullanım alanları (platformlar, süre, coğrafya).</li></ul>Bu parametreler net olmadığında, ileride beklenti–gerçeklik farkları ve revizyon yorgunluğu yaşanabilir."
+    }
+  ]
+},
+
+"section5": {
+  "title": "Performans & Ölçüm: Grafik & Motion Tasarımın Etkisi",
+  "items": [
+    {
+      "q": "Grafik & motion tasarımın performansa etkisi nasıl ölçülür?",
+      "a": "<ul><li>sosyal medya tarafında: erişim, etkileşim oranı, kaydetme–paylaşma, link tıklama, video izlenme süresi,</li><li>reklam tarafında: CTR, CPC, ROAS ve kampanya başına maliyetler,</li><li>web tarafında: hero görsel/testleri sonrası bounce rate ve scroll depth.</li></ul>Güçlü kreatifler, aynı bütçe ve kitleyle 2 kata kadar daha yüksek etkileşim ve tıklama üretebilir."
+    },
+    {
+      "q": "Sosyal medya için profesyonel tasarım neden önemli?",
+      "a": "<ul><li>kullanıcı ilk izlenimi görselden alır,</li><li>“telefonla çekilmiş, rasterlenmiş, karışık” görseller güven zedeler,</li><li>rakiplerinizin bir kısmı artık çok profesyonel kreatiflerle çıkıyor.</li></ul>Profesyonel tasarım, hem marka algısını hem kampanya/etkileşim performansınızı doğrudan etkiler."
+    },
+    {
+      "q": "Animasyonlu (motion) içerikler ne zaman kullanılmalı?",
+      "a": "<ul><li>kampanya duyurularında (dikkat çekmek için),</li><li>ürün/oda/destinasyon highlight’larında,</li><li>sık kullanılan statik şablonları “canlandırmak” istediğinizde,</li><li>kısa bilgi/rehber içeriklerinde (how-to, 3 ipucu vb.).</li></ul>Motion içerikler çok etkili olabilir. Her içerikte motion kullanmak gerekmez; “doğru yerde hareket” en etkilisidir."
+    },
+    {
+      "q": "Grafik & motion tasarım SEO veya web performansını nasıl etkiler?",
+      "a": "<ul><li>ağır görseller ve optimize edilmemiş motion’lar → sayfa hızını düşürür,</li><li>doğru format ve optimizasyon → hem güçlü görsel hem iyi hız.</li></ul>Bu yüzden tasarım sürecinde geliştirici ekip ile birlikte “güzel + hafif” dengelemek önemlidir."
+    },
+    {
+      "q": "Tasarım performansı raporlamaya nasıl yansıtılmalı?",
+      "a": "<ul><li>kreatif A/B test sonuçları,</li><li>kampanya bazlı görsel set performansları,</li><li>format bazlı veriler (statik vs motion),</li><li>özellikle otelde destinasyon/oda/gastronomi vs kategorilerinin performansı.</li></ul>Raporlarda ayrı ayrı gösterilmelidir. Böylece bir sonraki kreatif üretim, sezgi değil veriye dayanır."
+    }
+  ]
+},
+"section6": {
+  "title": "Pain Point: Düşük Etkileşim, Revizyon Yükü, Marka Uyuşmazlığı",
+  "items": [
+    {
+      "q": "Düşük etkileşim alan kreatiflerde en sık yapılan hatalar neler?",
+      "a": "<ul><li>görsel çok karışık, mesaj belirsiz,</li><li>CTA yok veya çok zayıf,</li><li>yanlış format (özellikle dikey yerine yatay kullanmak),</li><li>hedef kitleye hitap etmeyen içerik,</li><li>görsel dili markanın hedef konumlandırmasıyla uyuşmuyor (örneğin “luxury” iddiası, amatör görsellerle anlatılıyor).</li></ul>"
+    },
+    {
+      "q": "Marka kimliği ile uyuşmayan tasarımlar neye yol açar?",
+      "a": "<ul><li>güven kaybı,</li><li>iletişimde “kimlik karmaşası”,</li><li>farklı mecralarda farklı marka algısı,</li><li>akılda kalıcılığın düşmesi.</li></ul>Özellikle otel gibi “deneyim satılan” alanlarda, marka kimliği ile görsel dil arasındaki uyumsuzluk ciddi problem yaratır."
+    },
+    {
+      "q": "Üretim maliyetleri yüksek, etkileşim düşükse ne yapmak gerekir?",
+      "a": "<ul><li>önce “en performanslı” kreatifleri analiz etmek,</li><li>gereksiz kompleks ve uzun prodüksiyonları sadeleştirmek,</li><li>stok ve gerçek görsel dengesini yeniden kurmak,</li><li>daha fazla A/B testi ile konuyu veriyle netleştirmek gerekir.</li></ul>Yüksek maliyet = yüksek performans demek değildir; doğru hikâye ve format çoğu zaman daha kritik."
+    },
+    {
+      "q": "Revizyon yükü çoksa süreçte nerede hata yapıyoruz?",
+      "a": "Büyük olasılıkla:<ul><li>brief net değil,</li><li>onay verecek kişiler çok ve uyumsuz,</li><li>marka kuralları dokümante edilmemiş,</li><li>kampanya başlamadan görsel sistem konuşulmamış.</li></ul>Revizyonun çoğu, aslında brief ve süreç tasarımında çözülebilen şeylerdir."
+    },
+    {
+      "q": "Tasarım trendlerine körü körüne uymak da riskli mi?",
+      "a": "Evet. Her trend, her marka için uygun değildir. Özellikle luxury / premium veya kurumsal segmentte, trend uğruna marka kimliğini bozan tasarımlar uzun vadede zarar verebilir. Trend, markaya adapte edildiği sürece kıymetlidir."
+    }
+  ]
+},
+
+"section7": {
+  "title": "GEO & Sektör Odaklı Grafik & Motion Tasarım Soruları",
+  "items": [
+    {
+      "q": "Türkiye’deki oteller için grafik & motion tasarımda nelere odaklanılmalı?",
+      "a": "<ul><li>oda/tesis ve destinasyon görsellerinde kalite,</li><li>TR + hedef pazar dilleri için uyarlanmış metinler,</li><li>kampanya dönemlerine uygun KV ve motion setleri,</li><li>OTA görselleri ile marka site/sosyal görseller arasında tutarlılık,</li><li>çok mecralı (web + sosyal + reklam) kampanyalarda tek bir görsel dil.</li></ul>"
+    },
+    {
+      "q": "Turizm bölgelerinde (Antalya, Bodrum vb.) görsel dil nasıl kurgulanmalı?",
+      "a": "<ul><li>destinasyonun doğal güzelliği (deniz, güneş, doğa) vurgulanırken,</li><li>otelin konsept farklılıkları (family, adults-only, wellness vb.) görsel olarak ayrıştırılmalı,</li><li>farklı pazarlar için görsel/metin uyarlamaları (örneğin DE/UK/RU) düşünülmeli.</li></ul>"
+    },
+    {
+      "q": "Kurumsal markalar için grafik & motion tasarımda öncelikler neler?",
+      "a": "<ul><li>güven ve uzmanlık vurgusu,</li><li>temiz ve anlaşılır layout,</li><li>sunum & doküman görselleri,</li><li>B2B sosyal kreatifler (LinkedIn ağırlıklı),</li><li>gerektiğinde dikkat çeken ama marka ciddiyetini bozmayan motion kullanımı.</li></ul>"
+    },
+    {
+      "q": "Marka iletişimi odaklı kampanyalarda motion’un rolü nedir?",
+      "a": "<ul><li>kampanya mesajını akılda kalacak şekilde anlatmak,</li><li>sosyal feed içinde fark edilmenizi sağlamak,</li><li>marka hikâyesini birkaç saniyede özetlemek.</li></ul>Motion, doğru kullanıldığında marka algısı ve recall üzerinde büyük etkiye sahiptir."
+    },
+    {
+      "q": "Şehir otelleri ve resort oteller için görsel yaklaşım nasıl farklılaşmalı?",
+      "a": "<ul><li>city hotel → konum, iş/konferans olanakları, şehir deneyimi, hızlı ve pratik konaklama,</li><li>resort → destinasyon, tesis deneyimi, aile/çift konsepti, uzun konaklama ve tüm gün aktiviteler.</li></ul>Görsel dil ve motion hikâyeleri, bu farkı net yansıtmalıdır."
+    }
+  ]
+},
+
+"section8": {
+  "title": "Mini Grafik & Motion Tasarım SSS",
+  "items": [
+    {
+      "q": "Her post’un motion olması gerekiyor mu?",
+      "a": "Hayır; iyi planlanmış mix (statik + motion) genelde daha sağlıklı ve sürdürülebilirdir."
+    },
+    {
+      "q": "Sadece stok görsel kullanmak markaya zarar verir mi?",
+      "a": "Aşırı stok kullanımı markayı “kişiliksiz” gösterir. Özellikle otel ve deneyim markalarında gerçek foto/video şarttır."
+    },
+    {
+      "q": "Tasarım dosyalarını mutlaka “kaynak haliyle” almak gerekir mi?",
+      "a": "Uzun vadede evet; marka olarak logolar, şablonlar ve ana KV’lerin kaynak dosyaları sizin varlığınızdır."
+    },
+    {
+      "q": "Reels/TikTok için dikey formatta tasarım yapmak zorunlu mu?",
+      "a": "Pratikte evet; platform, dikey ve tam ekran formatları öne çıkarır. Yatay kreatifler performans açısından dezavantajlıdır."
+    },
+    {
+      "q": "Tasarım süresini kısaltmak için neler yapabilirim?",
+      "a": "<ul><li>sabit şablon seti oluşturmak,</li><li>onay verecek kişileri sınırlı tutmak,</li><li>brief’i net yazmak,</li><li>örnekleri baştan paylaşmak.</li></ul>"
+    },
+    {
+      "q": "Her platform için ayrı tasarım mı üretmeliyim?",
+      "a": "Aynı KV, farklı platformlar için yeniden uyarlanmalı. “Birebir aynısı” değil, platformun format ve kullanıcı davranışına göre adjust edilmiş versiyonlar daha iyi çalışır."
+    },
+    {
+      "q": "Tasarım değişince her zaman performans artar mı?",
+      "a": "Hayır; bazen sorun teklif, bazen hedef kitle, bazen de kanal seçimidir. Tasarım, bu zincirin bir halkasıdır."
+    },
+    {
+      "q": "Tasarım trendlerini ne sıklıkta takip etmek gerek?",
+      "a": "Sürekli radarınızda olmalı ama her trendi aynı gün uygulamaya çalışmak gerekli değildir; markaya uygun olanlar seçilmelidir."
+    },
+    {
+      "q": "Çok fazla font ve renk kullanmak neden sorun?",
+      "a": "Görsel karmaşa yaratır, okuma zorluğu ve ucuz bir görünüm üretir; marka hafızasını bozar."
+    },
+    {
+      "q": "Grafik & motion tasarım hizmetini tek seferlik “kampanya paketi” olarak alabilir miyim?",
+      "a": "Evet; belirli bir kampanya veya sezon için sınırlı süreli, kapsamı net bir KV + uyarlama + motion paketi ile çalışmak da mümkündür."
+    }
+  ]
+},
+
+"section9": {
+  "title": "Grafik & Motion Tasarım İçin İş Birliği ve CTA Soruları",
+  "items": [
+    {
+      "q": "DGTLFACE ile Grafik & Motion Tasarım için nasıl teklif alabilirim?",
+      "a": "<ul><li>markanızın türü (otel, turizm markası, lifestyle, kurumsal vb.),</li><li>hangi mecralar için kreatif istediğiniz (sosyal medya, web, reklam, offline),</li><li>aylık veya kampanya bazlı kreatif ihtiyacınız (adet & format),</li><li>elinizde var olan materyaller (fotoğraf/video, logo, brandbook),</li><li>sık yaşadığınız problemler (düşük etkileşim, revizyon yükü, marka dilinde dağınıklık vb.).</li></ul>İle kısa bir brief paylaşırsanız; kapsam, süre, revizyon yapısı ve bütçe içeren bir Grafik & Motion Tasarım yol haritası ve teklif hazırlanabilir."
+    },
+    {
+      "q": "“Uzmanla görüş” çağrısı tasarım tarafında neyi netleştirir?",
+      "a": "<ul><li>marka kimliği ve hedef pazarlar,</li><li>öncelikli içerik ve kampanya alanlarınız,</li><li>hangi platformlarda hangi formatların öncelikli olacağı,</li><li>statik–motion dengesinin nasıl kurulacağı.</li></ul>Böylece tek tek tasarım “siparişi” yerine, tutarlı ve performans odaklı görsel bir sistem üzerinde ilerleyebiliriz."
+    }
+  ]
+}
+
+
+},
+  "cta": {
+      "primary": "Grafik & motion tasarımı talep edin",
+      "primaryHref": "/Services/creative/graphicDesign",
+      "secondary": "Creative ve Tasarım",
+      "secondaryHref": "/Services/creative"
+    }
+
+},
+
+"FaqUiUxDesign": {
+  "h1": "UI/UX Tasarım SSS",
+
+  "toc": {
+    "title": "İçindekiler",
+    "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+    "intro": "Genel Bakış",
+    "aiCapsule": "Kısa Özet",
+    "voiceSummary": "Kısa Özet",
+    "voiceQueries": "Arama Sorguları"
+  },
+
+  "intro": {
+    "p1": "UI/UX tasarım; sadece “güzel görünen sayfalar çizmek” değil, kullanıcının hedefe en kısa, en anlaşılır ve en keyifli şekilde ulaştığı deneyimi tasarlamak demektir. Özellikle otel & turizm ve SaaS/kurumsal tarafında; kötü UX, doğrudan yüksek terk oranı, düşük dönüşüm ve boşa harcanan reklam bütçesi anlamına gelir.\n\nBu SSS sayfasında; otel ve markaların web sitesi, rezervasyon akışları, form funnel’ları ve dashboard arayüzleri için en kritik UI/UX sorularını toparlıyoruz.",
+    "p2": "",
+    "p3": ""
+  },
+
+  "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "UI/UX; bir arayüzün hem “nasıl göründüğünü” hem de “kullanıcının hedefe ne kadar hızlı ve sorunsuz ulaştığını” birlikte çözer. Otel web sitelerinde doğru UX; misafirin 3–5 saniyede yönünü bulması, odaları/konsepti net anlaması ve rezervasyonu kimseye sormadan tamamlaması demektir. SaaS ve dashboard projelerinde ise iyi UX; eğitim ve support maliyetlerini azaltır, hataları düşürür ve ürünün “kolay kullanılıyor” algısını güçlendirir."
+  },
+
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "<b>UI/UX tasarım nedir, ne işe yarar?</b>\nUI/UX tasarım; kullanıcıların web sitenizi veya uygulamanızı kolay, hızlı ve keyifli kullanmasını sağlayarak terk oranını düşürüp dönüşümü artıran tasarım sürecidir.\n\n<b>Otel rezervasyon akışında UX neden bu kadar kritik?</b>\nÇünkü kullanıcının karar verip satın alma butonuna bastığı nokta orasıdır; akış karmaşık veya güvensiz görünüyorsa, rezervasyon büyük ihtimalle yarıda bırakılır.\n\n<b>Sitemde terk oranı (bounce rate) yüksekse nereden başlamalıyım?</b>\nÖnce en çok trafik alan sayfaları, sayfa hızı ve ilk ekran (above the fold) içeriklerini inceleyin; UX açısından kafa karışıklığı ve yavaşlık çoğu kez ilk sebep olur.\n\n<b>Mobile-first tasarım ne anlama geliyor?</b>\nTasarıma masaüstünden değil, önce mobil deneyimden başlayıp; tüm akış ve arayüz kararlarını “telefon ekranında en iyi deneyim” için vermek demektir.\n\n<b>UI/UX tasarım ile dönüşüm oranı gerçekten artar mı?</b>\nİyi tasarlanmış bir UX; aynı trafik ve reklam bütçesiyle daha fazla form, rezervasyon ve satış üretir. Pek çok projede %20–50 aralığında dönüşüm artışı görmek mümkündür.\n\n<b>UI/UX Tasarım hizmeti kimler için uygundur?</b>\nOtel & turizm, SaaS ürünleri, B2B portallar, e-ticaret, kurumsal siteler ve kritik form/rezervasyon funnel’ları olan tüm markalar için uygundur."
+  },
+
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "UI/UX tasarım nedir ne işe yarar?",
+    "q2": "Otel rezervasyon akışında UX neden önemli?",
+    "q3": "Bounce rate yüksekse UX’te nereden başlanır?",
+    "q4": "Mobile-first tasarım ne demek?",
+    "q5": "UI/UX dönüşüm oranını artırır mı?",
+    "q6": "UI/UX tasarım hizmeti kimler için uygundur?"
+  },
+
+  "sections": {
+    "generalQuestions": {
+      "title": "UI/UX Tasarıma Genel Bakış (Genel Sorular)",
+      "items": [
+        {
+          "q": "UI ve UX arasındaki fark nedir?",
+          "a": "<ul><li><b>UX (User Experience):</b> Kullanıcının sistemle yaşadığı uçtan uca deneyim. Akışlar, bilgi mimarisi, sayfa sıralaması, butonların yeri, form uzunluğu, hata mesajları, hız, duygu…</li><li><b>UI (User Interface):</b> Bu deneyimin görünen yüzü. Renkler, tipografi, buton stilleri, boşluk kullanımı, ikonlar, görsel hiyerarşi.</li></ul>İyi UX olmadan en güzel UI işe yaramaz; iyi UI olmadan en mantıklı UX de kullanıcıyı ikna edemez."
+        },
+        {
+          "q": "UI/UX tasarım tam olarak nedir?",
+          "a": "UI/UX tasarım; bir web sitesi, rezervasyon akışı, SaaS dashboard’u veya mobil uygulama için:<ul><li>kullanıcı ihtiyaçlarını ve iş hedeflerini anlayan,</li><li>doğru sayfa ve akış mimarisini kuran,</li><li>bu akışları görsel olarak net ve kullanımı kolay arayüzlere çeviren</li></ul>süreçtir. Yani hem “nasıl görünüyor” hem de “nasıl çalışıyor” tarafını birlikte çözer."
+        },
+        {
+          "q": "Neden “UI/UX’e yatırım yapalım” demek, “sadece tasarım yapalım” demek değil?",
+          "a": "Çünkü UI/UX çıktısı:<ul><li>daha düşük terk oranı,</li><li>daha yüksek dönüşüm,</li><li>daha az support talebi,</li><li>daha memnun kullanıcılar (ve misafirler)</li></ul>demektir. Özellikle otel ve SaaS tarafında, UX’e yapılan yatırım doğrudan gelir ve operasyon verimliliği olarak geri döner."
+        },
+        {
+          "q": "Otel web sitesinde iyi bir UX nasıl olmalı?",
+          "a": "<ul><li>kullanıcı 3–5 saniye içinde nerede kaldığını, hangi konseptte olduğunu anlamalı,</li><li>odalar/destinasyon/konsept net kategorize olmalı,</li><li>rezervasyon butonu ve akışı her sayfadan ulaşılabilir olmalı,</li><li>fiyat/uygunluk sorgusu basit ve şeffaf olmalı,</li><li>mobilde tüm bu adımlar parmakla rahat yönetilebilmeli.</li></ul>UX’in temel sorusu:<br/>“Misafir, hiç kimseye sormadan otelde yer ayırtabilir mi?”"
+        },
+        {
+          "q": "SaaS ve dashboard projelerinde UX neden bu kadar önemli?",
+          "a": "Çünkü kullanıcınız:<ul><li>her gün bu arayüzde saatler geçiriyor,</li><li>karmaşık veri ve aksiyonlarla uğraşıyor,</li><li>hataya açık süreçler yönetiyor.</li></ul>Kötü dashboard UX’i, eğitim ve support maliyetlerini artırır, ekip motivasyonunu düşürür ve ürününüzün “zor kullanılıyor” algısını yaratır."
+        },
+        {
+          "q": "UX tasarımı SEO ve dönüşümü nasıl etkiler?",
+          "a": "<ul><li>iyi UX → daha yüksek scroll, daha çok sayfa görüntüleme, daha uzun oturum, daha düşük bounce,</li><li>daha temiz ve mantıklı yapı → Google bot’larının da siteyi anlaması kolaylaşır,</li><li>net CTA ve sade formlar → daha yüksek dönüşüm oranı (lead, rezervasyon, satış).</li></ul>Google’ın CWV ve UX sinyallerini giderek daha fazla önemsemesi, UX’i SEO’nun doğal parçası hâline getiriyor."
+        }
+      ]
+    },
+
+    "quickAnswers": {
+      "title": "Kısa ve Hızlı Yanıtlar",
+      "items": [
+        {
+          "q": "UI/UX tasarım nedir, ne işe yarar?",
+          "a": "UI/UX tasarım; kullanıcıların web sitenizi veya uygulamanızı kolay, hızlı ve keyifli kullanmasını sağlayarak terk oranını düşürüp dönüşümü artıran tasarım sürecidir."
+        },
+        {
+          "q": "Otel rezervasyon akışında UX neden bu kadar kritik?",
+          "a": "Çünkü kullanıcının karar verip satın alma butonuna bastığı nokta orasıdır; akış karmaşık veya güvensiz görünüyorsa, rezervasyon büyük ihtimalle yarıda bırakılır."
+        },
+        {
+          "q": "Sitemde terk oranı (bounce rate) yüksekse nereden başlamalıyım?",
+          "a": "Önce en çok trafik alan sayfaları, sayfa hızı ve ilk ekran (above the fold) içeriklerini inceleyin; UX açısından kafa karışıklığı ve yavaşlık çoğu kez ilk sebep olur."
+        },
+        {
+          "q": "Mobile-first tasarım ne anlama geliyor?",
+          "a": "Tasarıma masaüstünden değil, önce mobil deneyimden başlayıp; tüm akış ve arayüz kararlarını telefon ekranında en iyi deneyim için vermek demektir."
+        },
+        {
+          "q": "UI/UX tasarım ile dönüşüm oranı gerçekten artar mı?",
+          "a": "İyi tasarlanmış bir UX; aynı trafik ve reklam bütçesiyle daha fazla form, rezervasyon ve satış üretir. Pek çok projede %20–50 aralığında dönüşüm artışı görmek mümkündür."
+        },
+        {
+          "q": "UI/UX Tasarım hizmeti kimler için uygundur?",
+          "a": "Otel & turizm, SaaS ürünleri, B2B portallar, e-ticaret, kurumsal siteler ve kritik form/rezervasyon funnel’ları olan tüm markalar için uygundur."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "Hizmet Kapsamı: Kullanıcı Akışları, Arayüz Tasarımı ve Dönüşüm Mimarsisi",
+      "items": [
+        {
+          "q": "UI/UX Tasarım hizmetiniz neleri kapsıyor?",
+          "a": "<ul><li>mevcut site/ürünün UX audit’i,</li><li>kullanıcı senaryolarının çıkarılması (misafir, admin, satış, yönetici vb.),</li><li>bilgi mimarisi ve sayfa hiyerarşisi,</li><li>kullanıcı akışları (flows) ve wireframe’ler,</li><li>arayüz tasarımı (UI) – web ve/veya mobil,</li><li>komponent & design system (buton, form, kart, grid vb.),</li><li>prototip ve tıklanabilir demo hazırlanması,</li><li>geliştirici ekip için handoff (design specs).</li></ul>"
+        },
+        {
+          "q": "Otel web sitesi için tipik UX kapsamı neleri içerir?",
+          "a": "<ul><li>ana sayfa – konsept ve yönlendirme,</li><li>odalar & konsept sayfaları,</li><li>destinasyon ve aktiviteler,</li><li>kampanya/paket sayfaları,</li><li>rezervasyon funnel’ı (step by step),</li><li>SSS ve iletişim/iletişim formları.</li></ul>Her sayfa, misafiri bir adım daha rezervasyona yaklaştıracak şekilde kurgulanır."
+        },
+        {
+          "q": "SaaS/dashboard projelerinde UX kapsamı nasıl şekillenir?",
+          "a": "<ul><li>persona ve kullanım senaryoları (user role’ler),</li><li>bilgi mimarisi (navigasyon & modüller),</li><li>ana dashboard ekranları (overview),</li><li>detay sayfalar ve filtreleme/arama deneyimi,</li><li>form ve işlem akışları (create/edit flows),</li><li>onboarding ve boş durum (empty state) tasarımları.</li></ul>Amaç, “karışık panel” algısını kıran temiz, anlaşılır bir çalışma yüzeyi oluşturmaktır."
+        },
+        {
+          "q": "Dönüşüm odaklı mimari derken ne kastediyorsunuz?",
+          "a": "Sayfa ve akışların:<ul><li>öncelikli hedefe göre (rezervasyon, lead, demo talebi, satın alma),</li><li>en az sürtünmeyle,</li><li>en az dikkat dağıtıcıyla,</li><li>net CTA’larla</li></ul>tasarlanması demektir. Görsel ve içerik, sadece “güzel görünmek” için değil, dönüşüm yolunu desteklemek için kullanılır."
+        },
+        {
+          "q": "UI/UX tasarım ile grafik/motion tasarım nasıl entegre çalışıyor?",
+          "a": "Önce UX tarafı bilgi mimarisi ve komponent yapısını kurgular; ardından UI ve grafik/motion ekipleri bu yapı üstüne görsel dili uygular. Böylece animasyonlar ve görseller, UX’in önüne geçmeden, akışı güçlendiren unsurlar hâline gelir."
+        }
+      ]
+    },
+
+    "section4": {
+      "title": "Süreç & İşleyiş: UX Audit’ten Prototipe",
+      "items": [
+        {
+          "q": "UI/UX Tasarım süreci hangi adımlardan oluşuyor?",
+          "a": "<ul><li>Keşif & hedef analizi (iş hedefi, kullanıcı tipi, pazar),</li><li>mevcut durum analizi (varsa mevcut site/ürün),</li><li>bilgi mimarisi ve kullanıcı akışlarının çıkarılması,</li><li>wireframe ve prototip çalışması,</li><li>UI tasarımı (görsel dünya ile giydirme),</li><li>kullanılabilirlik testleri (varsa),</li><li>geliştirici ekip için teslim (handoff) ve destek.</li></ul>"
+        },
+        {
+          "q": "UX audit’te neler inceleniyor?",
+          "a": "<ul><li>sayfa yapısı ve menü,</li><li>rezervasyon/form funnel’ları,</li><li>mobil & desktop farkları,</li><li>hız ve CWV etkisi UX açısından nasıl hissediliyor,</li><li>kullanıcı için kafa karıştıran noktalar (çok fazla seçenek, gizli butonlar vb.),</li><li>görsel hiyerarşi ve CTA kullanımı.</li></ul>"
+        },
+        {
+          "q": "“Sitemde terk oranı yüksek, nereden başlamalıyım?”",
+          "a": "Önce:<ul><li>en çok trafik alan giriş sayfalarını,</li><li>bu sayfalardaki ilk ekranı (above the fold),</li><li>sayfa hızını,</li><li>CTA görünürlüğünü,</li><li>içerik–başlık uyumunu</li></ul>incelemek gerekir. UX audit, bu alanlara “cerrahi” bakış sağlar."
+        },
+        {
+          "q": "Mobile-first yaklaşım süreçte nasıl uygulanıyor?",
+          "a": "Tasarıma masaüstü yerine:<ul><li>önce 375–414 px mobil ekran için başlıyoruz,</li><li>CTA, menü, filtre, form, rezervasyon adımları mobilde ideal konum ve boyutlarda kurgulanıyor,</li><li>masaüstü, bu deneyimin “geniş ekran adaptasyonu” olarak tasarlanıyor.</li></ul>Bu sayede gerçek hayattaki kullanım senaryosuna (özellikle otellerde) daha yakın bir UX elde ediliyor."
+        },
+        {
+          "q": "UI/UX tasarımda geliştirici ekip ile iletişim nasıl yürütülüyor?",
+          "a": "Figma vb. üzerinde:<ul><li>komponent adları,</li><li>grid ve spacing kuralları,</li><li>responsive kırılım noktaları,</li><li>interaction/hover durumları</li></ul>net şekilde dokümante edilir; gerekiyorsa kısa canlı demo seansları yapılır. Böylece “tasarımda güzel, canlıda başka” durumu en aza iner."
+        }
+      ]
+    },
+
+    "section5": {
+      "title": "Performans & Dönüşüm: UI/UX’in Sayılara Yansıması",
+      "items": [
+        {
+          "q": "UI/UX tasarım dönüşüm oranını nasıl etkiler?",
+          "a": "<ul><li>daha az adım ve daha net akış → daha az terk,</li><li>net CTA → daha çok tıklama,</li><li>güven veren, sade formlar → daha çok gönderim,</li><li>temiz funnel → ölçmesi ve optimize etmesi daha kolay süreçler.</li></ul>Bu nedenle aynı trafik ve bütçeyle, sadece UX iyileştirmesiyle %20–50 arası conversion artışı görmek mümkündür (proje ve sektör değişken)."
+        },
+        {
+          "q": "UX tasarımı SEO performansını nasıl etkiler?",
+          "a": "<ul><li>iyi UX → daha uzun oturum, daha çok sayfa, daha az bounce,</li><li>net bilgi mimarisi → daha iyi indexlenme ve iç link yapısı,</li><li>hız ve CWV ile birleştiğinde → Google’ın sayfa kalitesi sinyallerine olumlu etki.</li></ul>Yani UX, SEO’dan ayrı değil; SEO’nun temel girdilerinden biri hâline geldi."
+        },
+        {
+          "q": "UI/UX performansını hangi metriklerle takip etmeliyim?",
+          "a": "<ul><li>bounce rate ve exit rate,</li><li>conversion rate (rezervasyon, lead, form vb.),</li><li>funnel adımlarındaki drop-off oranları,</li><li>scroll depth ve click heatmap verileri,</li><li>mobile vs desktop performans farkları.</li></ul>"
+        },
+        {
+          "q": "UX değişiklikleri her zaman performansı artırır mı?",
+          "a": "Hayır. Bazı değişiklikler beklenen etkiyi vermeyebilir. Bu yüzden:<ul><li>değişiklik öncesi sonrasını ölçmek,</li><li>mümkünse A/B test yapmak,</li><li>veriye göre iterasyon yapmak</li></ul>gerekir. UX, “tek seferlik proje” değil, sürekli iyileştirme sürecidir."
+        },
+        {
+          "q": "UI/UX tasarımın “raporlama” tarafında yeri nedir?",
+          "a": "Analytics ve ısı haritalarından gelen veriler, hangi sayfa ve akışların problemli olduğunu gösterir. UI/UX tasarım, bu veriyi kullanarak tasarım çözümleri üretir. Raporlar sadece “ne oldu?”yu değil, “ne yapmalıyız?”ı da destekler."
+        }
+      ]
+    },
+
+    "section6": {
+      "title": "Pain Point: Yüksek Terk Oranı, Düşük Dönüşüm, Karışık Menüler",
+      "items": [
+        {
+          "q": "Yüksek terk oranı ne anlama gelir, her zaman UX problemi midir?",
+          "a": "Her zaman değil; ama çok yüksek bounce rate / exit rate çoğu zaman:<ul><li>ziyaretçinin beklediği içeriği bulamaması,</li><li>sayfanın yavaş olması,</li><li>mesaj ve tasarımın kafa karıştırması</li></ul>ile ilişkilidir. Trafik kalitesi de incelenmelidir; ancak UX tarafında problem yok demek için veriyle bakmak gerekir."
+        },
+        {
+          "q": "Düşük dönüşüm (rezervasyon/lead) UX kaynaklı olabilir mi?",
+          "a": "Evet. Özellikle:<ul><li>gereksiz alanlarla dolu uzun formlar,</li><li>çok adımlı ve açıklaması zayıf funnel’lar,</li><li>fiyat/teklif şeffaflığının olmaması,</li><li>güven ve destek unsurlarının (yorum, sertifika, güvenlik ibareleri) eksikliği</li></ul>dönüşüm oranını ciddi şekilde düşürebilir."
+        },
+        {
+          "q": "Menü ve navigasyon karmaşık olduğunda ne olur?",
+          "a": "Kullanıcı:<ul><li>aradığı bilgiyi bulamaz,</li><li>“burada benim aradığım yok” hissine kapılır,</li><li>siteden çıkar.</li></ul>Özellikle kurumsal ve SaaS projelerde menü mimarisi, UX’in kalbidir."
+        },
+        {
+          "q": "Mobilde zayıf deneyim hangi sorunları doğurur?",
+          "a": "<ul><li>butonlara basılamıyor,</li><li>form alanları küçücük,</li><li>rezervasyon takvimi kullanması zor,</li><li>görseller ve metinler ekrana taşmış.</li></ul>Sonuç: kullanıcı satın almadan vazgeçer; dijital kampanyalar mobilde boşa gider."
+        },
+        {
+          "q": "“Her şeyi tek sayfaya koyarsak kullanıcı kaybolmaz” düşüncesi doğru mu?",
+          "a": "Hayır. Her şeyi bir ekrana sıkıştırmak yerine; doğru hiyerarşi ve akış ile kullanıcıya adım adım bilgi vermek çok daha verimlidir. “Her şeyi tek sayfaya sığdıralım” yaklaşımı genelde kalabalık, yavaş ve kafa karıştırıcı sayfalar doğurur."
+        }
+      ]
+    },
+
+    "section7": {
+      "title": "GEO & Sektör Odaklı UI/UX Soruları",
+      "items": [
+        {
+          "q": "Türkiye’deki oteller için rezervasyon funnel’ı UX açısından nasıl olmalı?",
+          "a": "<ul><li>tarih/kişi seçimi net,</li><li>oda/konsept seçenekleri anlaşılır,</li><li>fiyat ve dahil olanlar şeffaf,</li><li>ekstra hizmetler (transfer, spa vb.) sade bir şekilde sunulmalı,</li><li>ödeme/son onay adımı güven veren bir tasarıma sahip olmalı.</li></ul>"
+        },
+        {
+          "q": "Turizm bölgelerinde (Antalya, Bodrum vb.) UX’te nelere dikkat edilmeli?",
+          "a": "<ul><li>destinasyon içeriği ve otel konsepti hızlıca anlaşılmalı,</li><li>farklı pazarlar (DE/UK/RU/İç pazar) için dil ve içerik akışı net olmalı,</li><li>mobil deneyim özellikle tatil arayan kullanıcılar için öncelikli kurgulanmalı.</li></ul>"
+        },
+        {
+          "q": "SaaS ürünleri için dashboard UX’inde öncelikler neler?",
+          "a": "<ul><li>ana sayfada (dashboard) en kritik KPI’lar ve aksiyonlar tek bakışta görünmeli,</li><li>menü yapısı rol bazlı (yönetici, kullanıcı, raporlayan vb.) sade olmalı,</li><li>form ve işlem adımları uzun süreçleri kullanıcıyı boğmadan yönlendirmeli.</li></ul>"
+        },
+        {
+          "q": "Kurumsal sitelerde UX’te en kritik alanlar hangileri?",
+          "a": "<ul><li>ne iş yaptığınızı ve kime hitap ettiğinizi anlatan ana sayfa,</li><li>ürün/hizmet sayfalarının hiyerarşisi,</li><li>referanslar ve case study erişimi,</li><li>lead ve iletişim formlarının basitliği.</li></ul>"
+        },
+        {
+          "q": "Türkiye geneli kullanıcı profili için hangi UX kararları önemli?",
+          "a": "<ul><li>sade dil ve ikonografi,</li><li>kritik CTA’ların net görünürlüğü,</li><li>gereksiz animasyon ve “gösterişli” ama işlevsiz UI’den kaçınma,</li><li>mobil ve masaüstü arasında tutarlı deneyim.</li></ul>"
+        }
+      ]
+    },
+
+    "section8": {
+      "title": "Mini UI/UX SSS",
+      "items": [
+        { "q": "UI/UX sadece tasarımcının işi mi?", "a": "Hayır; iş hedefleri, pazarlama, ürün ekibi, teknik ekip ve tasarım birlikte çalışmalıdır." },
+        { "q": "Her redesign (yeniden tasarım) mutlaka gerekli midir?", "a": "Hayır; bazen küçük UX iyileştirmeleri ve A/B testleri, komple redesign’dan daha hızlı ve verimli sonuç verir." },
+        { "q": "Sadece template kullanarak iyi UX elde edilir mi?", "a": "Template yardımcı olur ama her marka ve funnel özeldir; kritik akışlar mutlaka UX gözüyle revize edilmelidir." },
+        { "q": "“Kullanıcı testine gerek yok, biz zaten biliyoruz” demek ne kadar riskli?", "a": "İçeriden bakan ekipler körleşebilir; basit kullanıcı testleri bile hiç fark etmediğiniz sorunları ortaya çıkarır." },
+        { "q": "UX değişikliklerini tek seferde mi, parça parça mı uygulamalıyım?", "a": "Kritik akışlar için parça parça ilerleyip ölçmek; büyük ve riskli değişiklikler yerine daha sağlıklı bir yaklaşımdır." },
+        { "q": "Her UX projesinde analiz araçları kullanmak şart mı?", "a": "Önerilir; GA4, ısı haritaları, session recording gibi araçlar UX kararlarını veriyle destekler." },
+        { "q": "UI/UX tasarım tüm ekranları “simetrik ve mükemmel” yapmalı mı?", "a": "Mükemmellikten çok netlik ve kullanılabilirlik önceliklidir; bazen küçük asimetriler bile göz akışını doğru yönlendirmek için kullanılır." },
+        { "q": "Sadece masaüstü UX’e bakıp mobilde “responsive yeter” demek doğru mu?", "a": "Hayır; kullanıcıların büyük kısmı mobilde. Responsive “sıkıştırılmış masaüstü” değil, “mobil için yeniden düşünülmüş deneyim” olmalıdır." },
+        { "q": "UI/UX tasarımı bir kere yapıp bırakabilir miyim?", "a": "Pazar, kullanıcı davranışları ve teknolojiler değişiyor; UX sürekli iyileştirme isteyen bir alandır." },
+        { "q": "UI/UX hizmetini tek seferlik audit + roadmap olarak alabilir miyim?", "a": "Evet; mevcut UX’i analiz eden, sorunları ve fırsatları gösteren ve sonraki adımları planlayan audit + roadmap çalışması da mümkündür." }
+      ]
+    },
+
+    "section9": {
+      "title": "UI/UX Tasarım İçin İş Birliği ve CTA Soruları",
+      "items": [
+        {
+          "q": "DGTLFACE ile UI/UX Tasarım için nasıl teklif alabilirim?",
+          "a": "<ul><li>projenizin türü (otel sitesi, rezervasyon akışı, SaaS dashboard’u, kurumsal site vb.),</li><li>mevcut durum (sıfırdan mı, redesign mi?),</li><li>hedef pazarlar ve kullanıcı profilleri,</li><li>en kritik gördüğünüz funnel’lar (rezervasyon, form, demo talebi vb.),</li><li>yaşadığınız temel problemler (yüksek terk oranı, düşük dönüşüm, mobil şikâyetleri vb.)</li></ul>ile kısa bir brief paylaştığınızda; kapsam, süre, teslimatlar (wireframe, UI, prototip), test ve bütçe çerçevesini içeren bir UI/UX yol haritası ve teklif hazırlanabilir."
+        },
+        {
+          "q": "“Uzmanla görüş” çağrısı UI/UX tarafında neyi netleştirir?",
+          "a": "Bu görüşmede:<ul><li>nereden başlamamız gerektiğini (audit mi, direkt tasarım mı),</li><li>hangi funnel’ların öncelikli olduğunu,</li><li>hangi metriklerin (conversion, bounce, CWV vb.) ya da kullanıcı şikâyetlerinin daha kritik olduğunu,</li><li>UI/UX sürecinin geliştirici ve pazarlama ekibiyle nasıl entegre ilerleyeceğini</li></ul>birlikte netleştiririz. Böylece UI/UX tasarım, sadece “görsel revizyon” değil, iş hedeflerine bağlı bir dönüşüm projesi hâline gelir."
+        }
+      ]
+    }
+  },
+
+  "cta": {
+    "primary": "UI/UX tasarım hizmeti talep edin",
+    "primaryHref": "/Services/creative/uiUxDesign",
+    "secondary": "Creative ve Tasarım",
+    "secondaryHref": "/Services/creative"
   }
+},
+
+"FaqVideoProduction":{
+  "h1": "Video Prodüksiyon SSS",
+
+   "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    
+  "intro": {
+    "p1": "Video prodüksiyon; artık “bir otel tanıtım filmi çekelim, Youtube’a koyalım” seviyesini geçti. Doğru kurgulanmış bir video; <ul><li>markanın algısını güçlendiriyor, </li><li>rezervasyon/satış sürecini destekliyor, </li><li>sosyal medya ve reklam kampanyalarında performans çarpanı hâline geliyor.</li></ul>",
+    "p2": "Yanlış kurgulanmış, senaryosuz, plansız bir çekim ise: “Yüksek prodüksiyon maliyeti + düşük izlenme + kimsenin tam kullanamadığı videolar” demek.",
+    "p3": "Bu SSS sayfası; otel tanıtım filmleri, oda & tesis videoları, etkinlik videoları, reklam filmleri ve 360°/drone gibi destekleyici görsel türler hakkında en sık sorulan soruları toplar."
+  },
+
+  "sections": {
+    "generalQuestions": {
+      "title": "Video Prodüksiyona Genel Bakış",
+      "items": [
+        {
+          "q": "Video prodüksiyon tam olarak nedir?",
+          "a": "<ul><li>senaryo,</li><li>çekim (kamera, drone, 360°, ses),</li><li>kurgu/montaj,</li><li>müzik/ses tasarımı,</li><li>renk düzenleme (color grading)</li></ul>Video prodüksiyon; bir markanın mesajını bu katmanlarla hikâyeleştirerek anlatma sürecidir. Sadece “kamera ile görüntü çekmek” değil, baştan sona planlanmış bir iletişim projesidir."
+        },
+        {
+          "q": "Oteller için video prodüksiyon neden bu kadar önemli?",
+          "a": "<ul><li>sadece fotoğrafa değil,</li><li>videoya, Reels’e, TikTok’a,</li><li>Youtube ve web’deki tanıtım filmlerine</li></ul>Çünkü misafir; oteli seçerken artık bu içeriklere bakıyor. Oda, havuz, plaj, restoran, lobby, spa, etkinlikler… Hepsi video ile gerçek hayata daha yakın bir şekilde gösterilebiliyor. Doğru kurgulanmış bir tanıtım filmi, OTA sayfasındaki fotoğrafların ötesine geçmenizi sağlar."
+        },
+        {
+          "q": "Video prodüksiyon sadece büyük otel ve markalar için mi uygun?",
+          "a": "Hayır. Butik oteller, konsept oteller, şehir otelleri, restoranlar ve kurumsal markalar için de boyuta göre değişen prodüksiyon paketleri kurgulanabilir. Önemli olan hedefi ve bütçeyi gerçekçi belirlemek; her proje için “sinema filmi” çekmeye çalışmak değil."
+        },
+        {
+          "q": "Tanıtım filmi ile reklam filmi arasındaki fark nedir?",
+          "a": "<ul><li><b>Tanıtım filmi:</b> Daha uzun (1–3 dk), otelin/markanın genel hikâyesini anlatan; web, OTA, fuar, sunum gibi alanlarda kullanılan video.</li><li><b>Reklam filmi:</b> Çok daha kısa (10–30 sn), tek bir mesajı (kampanya, konsept, teklif) vuran; çoğunlukla TV/OTT/dijital reklam ve sosyal medya kampanyalarında kullanılan video.</li></ul>Çoğu projede bu ikisini birlikte planlamak en mantıklısıdır."
+        },
+        {
+          "q": "360° ve drone çekimleri her otel için şart mı?",
+          "a": "<ul><li>güçlü bir manzaraya,</li><li>geniş bir tesis alanına,</li><li>özel bir mimariye</li></ul>sahipseniz, drone ve/veya 360° çekimler büyük avantaj sağlar. Küçük, şehir içi otellerde; oda, lobby, restoran ve şehir deneyimine odaklı daha kompakt çekimler çoğu zaman daha anlamlıdır."
+        },
+        {
+          "q": "Video prodüksiyon sadece “bir kere” yapılıp yıllarca mı kullanılmalı?",
+          "a": "<ul><li>kampanyalar,</li><li>yeni oda/konseptler,</li><li>renovasyonlar,</li><li>değişen trendler</li></ul>Ana tanıtım filmi 2–3 yıl boyunca iskelet olarak kullanılabilir; ancak bu alanlar için kısa formatlı yeni videolar (Reels, bumper, kısa reklamlar) düzenli olarak üretilmelidir."
+        }
+      ]
+    },
+    "quickAnswers": {
+      "title": "Video Prodüksiyon – Kısa Yanıtlar",
+      "items": [
+        {
+          "q": "Video prodüksiyon nedir, ne işe yarar?",
+          "a": "Video prodüksiyon; markanızın hikâyesini profesyonel senaryo, çekim ve montajla anlatan, tanıtım ve reklam filmleri üreten uçtan uca prodüksiyon sürecidir."
+        },
+        {
+          "q": "Otelim için tanıtım filmi çekerken nereden başlamalıyım?",
+          "a": "Önce hedefinizi (konsept anlatımı mı, kampanya mı, OTA desteği mi?), bütçenizi ve kullanılacağı mecraları netleştirmeli, sonra senaryo ve çekim planını buna göre oluşturmalısınız."
+        },
+        {
+          "q": "Drone ve 360° çekimlere gerçekten ihtiyaç var mı?",
+          "a": "Manzara, tesis genişliği ve mimari sizin ana gücünüzse evet; yoksa her projede zorunlu değildir, karar hedefe göre verilmelidir."
+        },
+        {
+          "q": "Kısa reklam filmi mi, uzun tanıtım mı daha etkili?",
+          "a": "Reklam ve sosyal medya tarafında kısa; web tanıtımı ve sunumlarda daha uzun formatlar etkilidir. Genellikle ikisini birlikte kurgulamak en doğrusudur."
+        },
+        {
+          "q": "Çekim sonrası videoları sosyal medya ve reklamlarda nasıl kullanmalıyım?",
+          "a": "Ana tanıtım filminden; Reels, story, bumper ve display/video reklam formatları için kısa versiyonlar ve cut-down’lar üreterek yeniden değerlendirmelisiniz."
+        },
+        {
+          "q": "Video prodüksiyon hizmeti kimler için uygundur?",
+          "a": "Otel & turizm, etkinlik & MICE, kurumsal markalar, destinasyon tanıtımları ve kampanya odaklı reklam filmi ihtiyacı olan tüm markalar için uygundur."
+        }
+      ]
+    },
+
+     "section3": {
+      "title": "Hizmet Kapsamı: Otel Filmi, Etkinlik Videosu, Reklam Filmi",
+      "items": [
+        {
+          "q": "Video Prodüksiyon hizmetiniz neleri kapsıyor?",
+          "a": "<ul><li>ihtiyaç ve hedef analizi (otel/marka, pazar, mecralar),</li><li>senaryo ve/veya treatment (fikrin yazılı iskeleti),</li><li>storyboard ve görsel referans hazırlığı,</li><li>çekim planı (gün, saat, mekan, ekipman),</li><li>set ve çekim yönetimi,</li><li>kurgu/montaj, müzik, seslendirme, color grading,</li><li>farklı formatlara uyarlama (web, sosyal medya, reklam).</li></ul>"
+        },
+        {
+          "q": "Otel tanıtım filmi için tipik kapsam nedir?",
+          "a": "<ul><li>ana konsept filmi (1–3 dakika),</li><li>odalar/oda tipleri için kısa cut’lar,</li><li>tesis alanları (havuz, plaj, spa, restoran vb.),</li><li>drone/360° destek çekimleri (gerekiyorsa),</li><li>Reels/TikTok için dikey versiyonlar,</li><li>OTA ve web için sessiz izlenmeye uygun versiyonlar (alt yazılı).</li></ul>"
+        },
+        {
+          "q": "Etkinlik videosu ve otel tanıtım filmi arasındaki yaklaşım farkı nedir?",
+          "a": "<ul><li>atmosfer,</li><li>anlar,</li><li>katılımcı duygusu</li></ul>Etkinlik videosu bu unsurlar üzerinden ilerlerken; otel tanıtım filmi, daha yapısal ve A–Z otel deneyimini anlatan bir hikâyeye sahiptir. Aynı ekip, ikisini de farklı kurgularla ele alır."
+        },
+        {
+          "q": "Reklam filmi için prodüksiyon yaklaşımı nasıldır?",
+          "a": "<ul><li>tek bir mesaj,</li><li>tek bir teklif,</li><li>tek bir hedef aksiyon (book now, call, learn more vb.)</li></ul>Reklam filmi bu yapı etrafında döner. Süre kısadır (genelde 10–30 sn); o yüzden senaryo daha sıkı ve kadrajlar daha yoğun çalışılır."
+        },
+        {
+          "q": "Drone ve 360° video otel tanıtımında ne sağlar?",
+          "a": "<ul><li>tesisin büyüklüğü ve konumunu tek karede anlatma,</li><li>manzara ve çevreyi vurgulama,</li><li>özellikle resort ve destinasyon odaklı otellerde “orada olma hissi” yaratma.</li></ul>Ancak her sahnede drone kullanmak değil, doğru yerlerde dramatik etki için kullanmak önemlidir."
+        }
+      ]
+    },
+    "section4": {
+      "title": "Süreç & İşleyiş: Senaryodan Montaja",
+      "items": [
+        {
+          "q": "Video prodüksiyon süreci hangi aşamalardan oluşur?",
+          "a": "<ul><li>Brief & hedef analizi (amaç, hedef kitle, mecralar),</li><li>Senaryo/treatment yazımı,</li><li>Storyboard ve çekim planı (shot list),</li><li>Prodüksiyon (çekim günleri),</li><li>Post-prodüksiyon (kurgu, müzik, ses, color),</li><li>Farklı formatlara uyarlama (dikey/yatay, kısa/uzun),</li><li>Teslim ve gerektiğinde kampanya tarafına entegrasyon.</li></ul>"
+        },
+        {
+          "q": "Otel tanıtım filmi nasıl planlanır?",
+          "a": "<ul><li>konsept ve hedef pazar (family, adults-only, luxury vb.),</li><li>çekilecek mekânlar (oda, havuz, plaj, lobby, spa, restoran, destinasyon),</li><li>gün ve ışık planı (sunrise, sunset, gece çekimleri),</li><li>gerekli oyuncu/figüran ve ekip,</li><li>senaryo akışı (check-in → oda → yemek → aktivite → gece vb.)</li></ul>Bu başlıklar netleştirilerek planlama yapılır."
+        },
+        {
+          "q": "Çekim günü öncesi hangi hazırlıklar kritik?",
+          "a": "<ul><li>lokasyon izinleri,</li><li>odaların ve mekânların hazır olması (temizlik, styling),</li><li>ekipman listesi (kamera, lens, ışık, drone vb.),</li><li>hava durumu kontrolü,</li><li>çekimlere uygun misafir/figüran planlaması.</li></ul>"
+        },
+        {
+          "q": "Montaj aşamasında neler yapılıyor?",
+          "a": "<ul><li>en iyi planların seçilmesi (selects),</li><li>ritim ve akış kurulması,</li><li>müzik, seslendirme ve ses efektleri eklenmesi,</li><li>logo ve yazı animasyonları, alt yazılar,</li><li>renk düzenleme (color grading),</li><li>farklı mecralar için cut-down’lar hazırlanması.</li></ul>"
+        },
+        {
+          "q": "Fiyatlandırma ve sözleşme tarafında neler netleştirilmeli?",
+          "a": "<ul><li>gün sayısı ve ekip büyüklüğü,</li><li>çekim mekânları ve ekstra lokasyonlar,</li><li>drone/360 gibi ek ekipmanlar,</li><li>teslim edilecek video sayısı ve süreleri,</li><li>revizyon tur sayısı,</li><li>kullanım alanları (süre, bölge, mecralar).</li></ul>Bunlar net olmadığında, ileride hem bütçe hem süreçte sürtüşme yaşanır."
+        }
+      ]
+    },
+    "section5": {
+      "title": "Performans & Kullanım: Videolar Nerede Nasıl Değerlenir?",
+      "items": [
+        {
+          "q": "Kısa reklam videosu ve uzun tanıtım filmi ne zaman kullanılmalı?",
+          "a": "<ul><li><b>Kısa reklam videosu (10–30 sn):</b> Meta Ads, TikTok Ads, YouTube bumper, display/video kampanyaları, Reels/TikTok, performans odaklı kampanyalar.</li><li><b>Uzun tanıtım filmi (1–3 dk):</b> web ana sayfa, OTA sayfası, sunumlar, fuar ekranları, e-posta ve satış sunumları.</li></ul>Bir projede genellikle aynı çekimden hem kısa reklam hem uzun tanıtım versiyonları üretmek en verimli modeldir."
+        },
+        {
+          "q": "Çekilen videoları sosyal medya ve reklamlarda nasıl değerlendirmeliyim?",
+          "a": "<ul><li>tanıtım filminden dikey kesitler çıkararak Reels/TikTok içerikleri hazırlamak,</li><li>6–10 sn’lik bumper versiyonlar üretmek,</li><li>story formatında kısa cut’lar hazırlamak,</li><li>statik post’lar için videodan frame alarak görsel üretmek,</li><li>remarketing kampanyalarında video view custom audience kullanmak.</li></ul>Bir çekimden maksimum çıktı almak her zaman mümkün."
+        },
+        {
+          "q": "Video prodüksiyonun performansını hangi metriklerle ölçebilirim?",
+          "a": "<ul><li>izlenme sayısı ve izlenme süresi,</li><li>tamamlanma oranı (view-through),</li><li>tıklama oranı (CTR) – reklam tarafında,</li><li>kaydetme/paylaşma – sosyal medyada,</li><li>video izleyen kullanıcının rezervasyon/lead oranı (funnel analizi).</li></ul>"
+        },
+        {
+          "q": "“Video çok iyi ama izlenme az” ise nerede problem olabilir?",
+          "a": "<ul><li>dağıtım kanalları doğru olmayabilir,</li><li>video, hedef kitleye yeterince gösterilmiyor olabilir,</li><li>başlık ve kapak görseli zayıf olabilir,</li><li>süre ve format mecraya uygun olmayabilir.</li></ul>Yani bazen sorun videoda değil, yayın stratejisindedir."
+        },
+        {
+          "q": "“Video izleniyor ama satış getirmiyor” ise ne yapmak gerekir?",
+          "a": "<ul><li>videonun sonunda veya açıklamalarda net CTA olmadığında,</li><li>video sonrası kullanıcıyı yönlendiren funnel kurgulanmadığında,</li><li>landing page deneyimi zayıf olduğunda</li></ul>bu durum sık görülür. Video, funnel’in bir parçasıdır; tek başına mucize yaratmaz."
+        }
+      ]
+    },
+
+    "section6": {
+      "title": "Pain Point: Yüksek Maliyet, Yanlış Senaryo, Düşük İzlenme",
+      "items": [
+        {
+          "q": "Yüksek prodüksiyon maliyeti her zaman yüksek etki anlamına gelir mi?",
+          "a": "Hayır. Büyük ekip, büyük ekipman = her zaman doğru senaryo ve doğru kullanım demek değildir. Bazen daha kompakt ama doğru kurgulanmış prodüksiyon, “şov odaklı ama amaçsız” bir büyük prodüksiyondan çok daha fazla sonuç üretir."
+        },
+        {
+          "q": "Yanlış senaryo otel tanıtım filminde ne tür sorunlara yol açar?",
+          "a": "<ul><li>otelin gerçek güçlü yanlarını anlatamaz,</li><li>hedef kitleyi kararsız bırakır,</li><li>gereksiz uzun ve sıkıcı bir film ortaya çıkar,</li><li>misafirin aklında “ne farkı vardı ki?” sorusu kalır.</li></ul>Bu yüzden senaryo; strateji ve satış ekipleriyle birlikte şekillenmelidir."
+        },
+        {
+          "q": "Düşük izlenme ve etkisiz montaj en sık neden görülür?",
+          "a": "<ul><li>ilk 3–5 saniyenin zayıf olması,</li><li>ritim ve müzik uyumsuzluğu,</li><li>çok uzun giriş, az fayda,</li><li>alt yazı/metin desteği olmadan “sessiz izleme” için hazırlanmamış videolar.</li></ul>Özellikle sosyal platformlarda kullanıcı “sessiz modda” izlediği için, sadece müziğe güvenmek büyük hatadır."
+        },
+        {
+          "q": "“Çektik ama kimse kullanmıyor” problemi neden olur?",
+          "a": "<ul><li>proje başında hangi formatlara ihtiyaç olduğu tanımlanmamışsa,</li><li>sadece tek uzun versiyon düşünülmüşse,</li><li>sosyal medya ekibi ile çekim planı doğru entegre edilmemişse</li></ul>video, sadece YouTube’da duran bir içerik hâline gelebilir. Başından itibaren multi-format kullanım düşünülmelidir."
+        },
+        {
+          "q": "Revizyon sürecinde yaşanan sorunların temel sebebi nedir?",
+          "a": "<ul><li>senaryonun net onay almadan sete çıkılması,</li><li>storyboard’un üstünkörü geçilmesi,</li><li>onay vericilerin geç sürece dahil olması,</li><li>“çekelim, sonra bakarız” kafası.</li></ul>İyi bir pre-prodüksiyon, revizyonu minimuma indirir."
+        }
+      ]
+    },
+    "section7": {
+      "title": "GEO & Sektör Odaklı Video Prodüksiyon Soruları (5 Soru)",
+      "items": [
+        {
+          "q": "Türkiye’deki oteller için video prodüksiyon stratejisi nasıl olmalı?",
+          "a": "<ul><li>destinasyon (Antalya, Bodrum, Kapadokya vb.) + otel konseptini birlikte anlatan ana film,</li><li>oda/konsept bazlı kısa videolar,</li><li>gastronomi ve deneyim (spa, aktivite, çocuk kulübü vb.) videoları,</li><li>farklı pazarlar için dil/alt yazı uyarlamaları,</li><li>sosyal medya ve reklamlar için kısa cut’lar.</li></ul>"
+        },
+        {
+          "q": "Turizm bölgelerinde (Antalya, Belek, Kemer, Side, Bodrum) drone & 360 çekimler nasıl kullanılmalı?",
+          "a": "<ul><li>tesisin ve çevrenin ölçeğini göstermek için kısa, güçlü planlar,</li><li>sahil, doğa ve mimariyi tanıtan sekanslar,</li><li>web ve OTA’daki hero/giriş alanlarında “wow” etkisi yaratacak sahneler.</li></ul>Drone ve 360°, aşırıya kaçmadan, doğru dozda kullanılmalıdır."
+        },
+        {
+          "q": "Kurumsal markalar için video prodüksiyonda hangi türler öne çıkıyor?",
+          "a": "<ul><li>kurumsal tanıtım filmi,</li><li>ürün/hizmet demo videoları,</li><li>müşteri referans videoları (case study),</li><li>etkinlik ve lansman videoları,</li><li>employer branding (işveren markası) içerikleri.</li></ul>"
+        },
+        {
+          "q": "Marka iletişimi odaklı kampanyalarda video nasıl konumlanmalı?",
+          "a": "<ul><li>kampanya fikrini taşıyan ana film,</li><li>farklı mecralar için kısa cut’lar,</li><li>sosyal medya için hikâyeleştirilmiş kısa içerikler,</li><li>kampanyanın öncesi–süreci–sonrası için üç aşamalı video planları.</li></ul>"
+        },
+        {
+          "q": "Türkiye geneli hedefli bir video kampanyasında nelere dikkat edilmeli?",
+          "a": "<ul><li>dil ve tonun geniş kitleye uygun olması,</li><li>alt yazı ve sessiz izleme senaryosunun düşünülmesi,</li><li>mobil dikey formatların mutlaka üretilmesi,</li><li>medya planıyla uyumlu süre ve format seçimi.</li></ul>"
+        }
+      ]
+    },
+    "section8": {
+      "title": "Mini Video Prodüksiyon SSS (Micro – 10 Soru)",
+      "items": [
+        {
+          "q": "Her otelin mutlaka büyük prodüksiyonlu tanıtım filmine ihtiyacı var mı?",
+          "a": "Hayır; ölçek ve hedefe göre daha kompakt ama doğru kurgulanmış video seti çoğu zaman yeterlidir."
+        },
+        {
+          "q": "Telefondan çekilmiş görüntüler hiç kullanılamaz mı?",
+          "a": "Kimi sahnelerde (özellikle sosyal içerik ve UGC hissi gereken yerlerde) doğru kurgulanırsa kullanılabilir; ancak ana tanıtım filminde profesyonel çekim tercih edilmelidir."
+        },
+        {
+          "q": "Video projeleri için her zaman çok uzun süre mi gerekir?",
+          "a": "Süre, kapsam ve çekim planına bağlıdır; doğru planlama ile 1–2 günlük çekimle çok sayıda format üretmek mümkündür."
+        },
+        {
+          "q": "Video prodüksiyon projelerinde “mevsim” önemli mi?",
+          "a": "Evet; özellikle oteller için tesisin en iyi hâliyle göründüğü dönemi yakalamak önemlidir (havuz, bahçe, ışık)."
+        },
+        {
+          "q": "Seslendirme şart mı, yoksa sadece müzik yeter mi?",
+          "a": "Kullanım yerine göre değişir; sessiz izlenme oranı yüksek platformlarda alt yazı + görsel metin daha önemli hâle gelebilir."
+        },
+        {
+          "q": "Her video için ayrı müzik satın almak zorunda mıyım?",
+          "a": "Lisanslı müzik kullanımı ve telif hakları, kullanım alanı ve süreye göre planlanmalıdır; stok müzik kütüphaneleri sık kullanılan çözümdür."
+        },
+        {
+          "q": "Video boyutları ve formatları kampanyadan önce mi netleşmeli?",
+          "a": "Kesinlikle evet. Medya planı, çekim ve montaj öncesinde bilinmeli ki doğru oran ve süreler üretilebilsin."
+        },
+        {
+          "q": "Sadece yatay formatta video çekip sonradan dikey yapmak sakıncalı mı?",
+          "a": "Çoğu zaman kırpma ve kadraj problemleri yaratır; dikey kullanım varsa baştan planlamak en doğrusudur."
+        },
+        {
+          "q": "Bir video projesinde kaç revizyon turu idealdir?",
+          "a": "Genelde 2 tur içerik revizyonu + 1 final revizyon; hem kaliteyi korur hem süreci kilitlemez."
+        },
+        {
+          "q": "Video Prodüksiyon hizmetini sadece “konsept + storyboard” olarak alabilir miyim?",
+          "a": "Evet; bazı markalar için senaryo, storyboard ve prodüksiyon danışmanlığı alıp, çekimi iç ekip veya yerel prodüksiyonla yapma modeli de mümkündür."
+        }
+      ]
+    },
+    "section9": {
+      "title": "Video Prodüksiyon İçin İş Birliği ve CTA Soruları",
+      "items": [
+        {
+          "q": "DGTLFACE ile Video Prodüksiyon için nasıl teklif alabilirim?",
+          "a": "<ul><li>markanızın türü (otel, turizm, kurumsal, destinasyon vb.),</li><li>hedef pazarlar ve diller,</li><li>hangi tür videolara ihtiyacınız olduğu (tanıtım filmi, reklam filmi, etkinlik videosu, oda/tesis videoları vb.),</li><li>tahmini çekim gün sayısı ve lokasyonlar,</li><li>sosyal medya ve reklam tarafında planlanan kullanımlar,</li><li>geçmişte yaşadığınız problemler (yüksek maliyet/düşük performans, yanlış senaryo, revizyon sorunları vb.)</li></ul>ile kısa bir brief paylaştığınızda; kapsam, süreç, teslimatlar (filmler + formatlar), revizyon yapısı ve bütçe çerçevesini içeren bir Video Prodüksiyon yol haritası ve teklif hazırlanabilir."
+        },
+        {
+          "q": "“Uzmanla görüş” çağrısı video prodüksiyon tarafında neyi netleştirir?",
+          "a": "Bu görüşmede:<ul><li>hangi tip videoların gerçekten iş hedefinize hizmet edeceğini,</li><li>çekim–post prodüksiyon dengesini,</li><li>sosyal medya & reklam entegrasyonunu,</li><li>bütçe ve zaman çizelgesi içinde en mantıklı paketi</li></ul>birlikte netleştiririz. Böylece “bir film çekelim de bakalım” yerine, ölçülebilir ve planlı bir video stratejisi ile hareket etmiş olursunuz."
+        }
+      ]
+    }
+  },
+        "cta": {
+      "primary": "Video Prodüksiyon hizmeti talep edin",
+      "primaryHref": "/Services/creative/videoProduction",
+      "secondary": "Creative & Tasarım",
+      "secondaryHref": "/Services/creative"
+    }
+},
+
+"FaqEventProduction":{
+  "h1": "Etkinlik Prodüksiyonu SSS",
+
+   "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+
+  "intro": {
+    "p1": "Etkinlik prodüksiyonu; “sahne kurup ses–ışık çekmek” değil, bir fuar, lansman, konser ya da otel içi etkinliğin başından sonuna kadar kreatif + teknik olarak yönetilmesi demektir. Özellikle otel & turizm tarafında, yanlış planlanan bir etkinlik:<ul><li>bütçe aşımı,</li><li>zamanlama problemleri,</li><li>sahnede zayıf etki,</li><li>ve sonrasında kullanılamayan, işlevsiz etkinlik videoları</li></ul>anlamına gelebilir.",
+    "p2": "Bu SSS sayfası; fuar, lansman, konser, gala ve otel içi etkinliklerin kreatif ve teknik yönetimi hakkında en sık sorulan soruları, otel & kurumsal perspektifle toplar."
+  },
+  "sections": {
+    "generalQuestions": {
+      "title": "Etkinlik Prodüksiyonuna Genel Bakış (Genel Sorular)",
+      "items": [
+        {
+          "q": "Etkinlik prodüksiyonu tam olarak nedir?",
+          "a": "Etkinlik prodüksiyonu; bir etkinliğin:<ul><li>kreatif kurgusunu (tema, sahne dili, içerik akışı),</li><li>teknik altyapısını (ses, ışık, görüntü, ekran, kayıt),</li><li>sahne tasarımını,</li><li>çekim ve kayıt planını,</li><li>gerektiğinde canlı yayın / yayın sonrası içerik üretimini</li></ul>profesyonelce planlayan ve yöneten süreçtir. Yani hem “sahne–ses–ışık” hem de “video–foto–highlight içerik” aynı çatı altında düşünülür."
+        },
+        {
+          "q": "Etkinlik prodüksiyonu neden otel & turizm için kritik?",
+          "a": "Çünkü oteller ve turizm yapıları:<ul><li>konser, gala geceleri,</li><li>lansman ve workshop’lar,</li><li>MICE etkinlikleri,</li><li>fuar ve workshop katılımları</li></ul>gibi pek çok yüksek görünürlüklü etkinliği yönetir. Bu etkinlikler, hem misafir deneyimini hem de B2B/B2C marka algısını doğrudan etkiler."
+        },
+        {
+          "q": "“Etkinlik = sahne + ses + ışık” demek neden eksik?",
+          "a": "Sadece sahne, ses ve ışık kurmak, etkinliğin yarısıdır. Diğer yarı:<ul><li>sahne dili ve görsel hikâye,</li><li>program akışı,</li><li>kayıt ve canlı yayın,</li><li>etkinlik sonrası highlight video ve fotoğraflar,</li><li>sosyal medya ve PR entegrasyonu</li></ul>gibi alanlardan oluşur. Prodüksiyon bunların hepsini kapsar."
+        },
+        {
+          "q": "Etkinlik prodüksiyonu sadece büyük fuar ve konserler için mi?",
+          "a": "Hayır. Otel içi:<ul><li>küçük konserler,</li><li>gala–özel gece programları,</li><li>açılış/kokteyl,</li><li>press trip veya küçük lansman toplantıları</li></ul>da prodüksiyon mantığıyla ele alınmalıdır. Ölçek değişir, süreç prensipleri benzer kalır."
+        },
+        {
+          "q": "Doğru prodüksiyon marka iletişimine nasıl katkı sağlar?",
+          "a": "İyi kurgulanmış ve kaydedilmiş bir etkinlik:<ul><li>etkinlik günü misafir/katılımcı deneyimini güçlendirir,</li><li>etkinlikten sonra sosyal medya, web ve PR için yüksek kaliteli içerik üretir,</li><li>“oradaydım” ve “orada olmak isterdim” duygusunu güçlendirir,</li><li>fuar ve B2B tarafında kurumsal algıyı yukarı çeker.</li></ul>Güçlü kreatifler, aynı bütçeyle gösterim başına etkileşimi 2 kata kadar artırabilir; etkinlik videoları da bu çarpanın önemli bir parçasıdır."
+        },
+        {
+          "q": "Etkinlik prodüksiyonu hizmeti kimler için uygundur?",
+          "a": "<ul><li>resort & city oteller,</li><li>otel zincirleri ve markalar,</li><li>kurumsal lansmanlar,</li><li>fuar standı olan firmalar,</li><li>konser, gala, seminer/dijital lansman yapan markalar</li></ul>için uygundur."
+        }
+      ]
+    },
+    "quickAnswers": {
+      "title": "Sesli Arama için Kısa Sorular (Voice)",
+      "items": [
+        {
+          "q": "Etkinlik prodüksiyonu nedir, ne işe yarar?",
+          "a": "Etkinlik prodüksiyonu; fuar, lansman, konser ve otel içi etkinliklerin kreatif ve teknik tüm süreçlerini planlayıp yöneterek, hem etkinlik günü deneyimi hem de sonrası için kaliteli kayıt ve içerik üretmeyi sağlar."
+        },
+        {
+          "q": "Otelimde düzenlediğim etkinliklerin video/foto kaydına nasıl yaklaşmalıyım?",
+          "a": "Etkinlikten önce hangi sahnelerin, hangi açılardan, hangi ekipmanla ve hangi format için kaydedileceğini planlayarak; “günü kurtaran” değil, sonrasında kullanılabilir içerikler üretmelisiniz."
+        },
+        {
+          "q": "Sahne tasarımı ve çekim planını kim yapmalı?",
+          "a": "İdeal senaryoda kreatif/etkinlik prodüksiyon ekibi; sahne tasarımını, ışık planını ve kamera/çekim açılarını birlikte kurgulamalıdır ki görüntüler hem sahnede hem kayıtta güçlü olsun."
+        },
+        {
+          "q": "Etkinlik sonrası highlight video ne kadar önemli?",
+          "a": "Highlight video; etkinliğin hafızasıdır. Sosyal medya, web, B2B sunumlar ve sonraki etkinliklerin pazarlamasında kritik içerik rolü oynar."
+        },
+        {
+          "q": "Önceden planlanmayan prodüksiyon hangi sorunlara yol açar?",
+          "a": "Çekimlerin eksik olması, kritik anların kaçması, ses–ışık sorunları, düşük kalitede kayıt ve sonrasında kullanılamayan etkinlik videoları gibi problemler ortaya çıkar."
+        },
+        {
+          "q": "Etkinlik prodüksiyonu hizmeti kimler için uygundur?",
+          "a": "Fuar, lansman, konser, gala ve otel içi etkinliklerinde sahne + teknik + kayıt süreçlerini profesyonelce yönetmek isteyen otel, turizm ve kurumsal markalar için uygundur."
+        }
+      ]
+    },
+    "section3": {
+    "title": "Hizmet Kapsamı: Fuar, Lansman, Konser & Otel Etkinlikleri",
+    "items": [
+      {
+        "q": "Etkinlik prodüksiyonu nedir, hangi aşamalardan oluşur?",
+        "a": "<ul><li><b>Pre-prodüksiyon:</b> Brief, hedef, konsept, sahne tasarımı, teknik plan, çekim planı.</li><li><b>Prodüksiyon günü/günleri:</b> Kurulum, prova, etkinlik esnasında sahne–ses–ışık yönetimi, çok kameralı çekim, drone/ek açılar.</li><li><b>Post-prodüksiyon:</b> Kayıtların düzenlenmesi, highlight/özet videolar, full kayıt, sosyal medya cut’ları, renk ve ses düzenleme.</li></ul>Her aşama birbirini besler; birindeki eksik, tamamını zayıflatır."
+      },
+      {
+        "q": "Hizmet kapsamına neler girebilir?",
+        "a": "<ul><li>sahne ve backdrop tasarımı,</li><li>LED ekran, projeksiyon, dekor ile görsel dünya kurulumu,</li><li>ses & ışık ekipleri ve ekipman (mikrofon, mixer, ışık tasarımı),</li><li>çok kameralı video çekimi, drone, fotoğraf çekimi,</li><li>canlı yayın veya kayıt altyapısı,</li><li>etkinlik sonrası highlight ve full kayıt videoları,</li><li>sosyal medya için kısa cut ve motion içerikler.</li></ul>"
+      },
+      {
+        "q": "Lansman ve konser çekimi nasıl planlanır?",
+        "a": "<ul><li>program akışı ve kritik anlar (konuşmalar, performanslar, anonslar) çıkarılır,</li><li>kamera sayısı ve konumları belirlenir,</li><li>ses kaynağı (mix’den mi, ayrı kayıt mı) planlanır,</li><li>sahne ışığı hem canlı deneyime hem kameraya uygun ayarlanır,</li><li>varsa canlı yayın ve sahne ekran içerikleri birlikte düşünülür.</li></ul>"
+      },
+      {
+        "q": "Etkinlik videosu ve highlight video ne işe yarar?",
+        "a": "<ul><li><b>highlight video</b> → sosyal medya, web, PR ve sonraki etkinliklerin tanıtımı için;</li><li><b>full kayıt</b> → arşiv, iç eğitim, B2B sunumlar ve gerektiğinde “tekrar yayın” için.</li></ul>Uygun kurgulanmış highlight videolar, etkinliğin dijitalde ömrünü uzatır."
+      },
+      {
+        "q": "Etkinliklerde drone ve çok kameralı çekim gerekli mi?",
+        "a": "Büyük fuar, konser ve outdoor etkinliklerde çok kameralı ve drone destekli çekim büyük fark yaratır. Daha küçük ve iç mekân etkinliklerde, iyi planlanmış 1–2 kamera ile de güçlü kayıt alınabilir. Önemli olan etkinliğin ölçeğine ve hedefine uygun prodüksiyon seçmektir."
+      }
+    ]
+  },
+  "section4": {
+    "title": "Süreç & İşleyiş: Planlama–Kayıt–Post Prodüksiyon",
+    "items": [
+      {
+        "q": "Etkinlik prodüksiyonu sürecine nasıl başlanır?",
+        "a": "<ul><li>Brief & hedef (fuarda neyi hedefliyoruz, lansman neyi duyuruyor, etkinlik kitlesi kim?),</li><li>Yer & tarih (lokasyon altyapısı, otel sahneleri, açık/kapalı alan, mevsim),</li><li>Konsept & sahne dili (marka ve etkinlik temasına uygun görsel & içerik dünyası),</li><li>Teknik ihtiyaçlar (ses, ışık, ekran, kayıt, canlı yayın),</li><li>Prodüksiyon planı (ekip, kurulum, prova ve çekim takvimi).</li></ul>"
+      },
+      {
+        "q": "Sahne tasarımı ve çekim planı kim tarafından yapılmalı?",
+        "a": "İdeal modelde kreatif/etkinlik prodüksiyon ekibi;<ul><li>sahne tasarımı (backdrop, LED, dekor),</li><li>ses–ışık planı,</li><li>kameraların yerleşimi ve açıları</li></ul>üzerinde birlikte çalışır. Böylece sahne hem izleyiciye hem kameraya “iyi görünür”."
+      },
+      {
+        "q": "Etkinlik günü teknik akış nasıl yönetilir?",
+        "a": "<ul><li>kurulum ve testler (ses, ışık, ekran, kayıt),</li><li>prova (özellikle konuşma ve performanslar için),</li><li>etkinlik esnasında sahne–ses–ışık operasyonu,</li><li>aynı anda video/foto kayıt,</li><li>beklenmedik durumlara (gecikme, teknik sorun) karşı B planları.</li></ul>"
+      },
+      {
+        "q": "Etkinlik sonrası içerik üretim süreci nasıl ilerler?",
+        "a": "<ul><li>tüm kamera ve ses kayıtlarının toplanması,</li><li>en iyi anların seçilmesi (highlight),</li><li>sosyal medya için kısa klipler, Reels/TikTok, story cut’ları,</li><li>full kayıtların düzenlenmesi,</li><li>renk ve ses düzenleme,</li><li>teslim ve yayın planına göre formatlama.</li></ul>"
+      },
+      {
+        "q": "Fiyatlandırma ve sözleşme tarafında neler netleştirilmeli?",
+        "a": "<ul><li>gün sayısı ve ekip büyüklüğü,</li><li>kapsam (sahne, ses, ışık, kayıt, foto, canlı yayın vb.),</li><li>video teslim adet ve süreleri,</li><li>revizyon tur sayısı,</li><li>etkinlik öncesi–günü–sonrası hizmetleri,</li><li>olası ek süre ve ekstra kalemlerin tarifesi.</li></ul>Tüm bunlar net değilse etkinlik sonrası bütçe tartışmaları kaçınılmazdır."
+      }
+    ]
+  },
+  "section5": {
+    "title": "Performans & Etkinin Ölçümü",
+    "items": [
+      {
+        "q": "Etkinlik prodüksiyonunun başarısı nasıl ölçülür?",
+        "a": "<ul><li>etkinlik günü: katılım, sahne ve akış kalitesi, geri bildirimler,</li><li>etkinlik sonrası dijitalde: highlight video izlenmeleri, kaydetme/paylaşım, PR erişimi,</li><li>fuar/lansman özelinde: üretilen lead sayısı, görüşme sayısı, sonraki satış/rezervasyonlara etkisi.</li></ul>"
+      },
+      {
+        "q": "Etkinlik sonrası highlight video ne kadar önemli?",
+        "a": "Highlight video; etkinliğin dijital dünyadaki “hafızası”dır.<ul><li>sosyal medya,</li><li>web,</li><li>e-posta ve B2B sunumlarda</li></ul>sürekli tekrar kullanılabilir; bu da etkinliğin ROI’sini yükseltir."
+      },
+      {
+        "q": "Etkinlik videosu ve fotoğraflar sosyal medyada nasıl kullanılmalı?",
+        "a": "<ul><li>etkinlik hemen sonrası hızlı “teaser” paylaşımlar,</li><li>daha sonra iyi kurgulanmış highlight klipler,</li><li>story/reels formatlı kısa sahneler,</li><li>markanın kurumsal sayfaları ve referans alanlarında case olarak kullanımlar.</li></ul>"
+      },
+      {
+        "q": "Kurumsal etkinliklerde (lansman, konferans) prodüksiyonun performansa etkisi nedir?",
+        "a": "İyi prodüksiyon;<ul><li>konuşmacıların daha profesyonel görünmesini,</li><li>mesajların daha net iletilmesini,</li><li>etkinlikten sonra daha güçlü case ve içerik üretimini</li></ul>sağlar; bu da hem kurumsal itibar hem de gelecek iş fırsatları için önemli katkıdır."
+      },
+      {
+        "q": "Etkinlik prodüksiyonu ROI (yatırım geri dönüşü) nasıl yorumlanmalı?",
+        "a": "Sadece etkinlik günü değil;<ul><li>etkinlik sonrası içeriklerin ürettiği erişim ve etkileşim,</li><li>fuar/lansman özelinde lead ve satış katkısı,</li><li>uzun vadede marka algısı ve referans gücü</li></ul>ile birlikte değerlendirilmelidir."
+      }
+    ]
+  },
+
+  "section6": {
+    "title": "Pain Point: Bütçe Aşımı, Zamanlama, Zayıf Sahne & Yetersiz Kayıt",
+    "items": [
+      {
+        "q": "Bütçe aşımı en çok nerede yaşanıyor?",
+        "a": "<ul><li>son dakika ek ihtiyaçlar (ek kamera, ekstra gün, ek sahne ekipmanı),</li><li>net tanımlanmamış kapsam (ne dahil, ne hariç),</li><li>kurulum ve prova sürelerinin hafife alınması.</li></ul>Şeffaf başlangıç ve net kapsam, bütçe aşımını büyük ölçüde önler."
+      },
+      {
+        "q": "Zamanlama problemleri neden sık görülür?",
+        "a": "<ul><li>kurulum için yeterli zaman tanınmaması,</li><li>prova yapılmaması,</li><li>etkinlik akışının sık sık değişmesi,</li><li>farklı tedarikçiler arasında koordinasyon eksikliği.</li></ul>Profesyonel prodüksiyon, bu riskleri önden planlayarak minimize eder."
+      },
+      {
+        "q": "Zayıf sahne tasarımı ve teknik kurgu neleri olumsuz etkiler?",
+        "a": "<ul><li>canlı etkinlikte katılımcı deneyimini,</li><li>video/foto kaydının kalitesini,</li><li>marka algısını.</li></ul>Sadece teknik değil; sahnenin görsel dili ve mesaj ile uyumu da önemlidir."
+      },
+      {
+        "q": "Yetersiz kayıt/dökümantasyon hangi kayıplara yol açar?",
+        "a": "<ul><li>etkinlik sonrası tanıtım yapılacak video/foto içerik olmaz,</li><li>etkinlik bir daha “kullanılamaz”,</li><li>bütçenin büyük kısmı sadece “o ana” hizmet etmiş olur.</li></ul>Kayıt ve highlight planı, etkinliğin ROI’si için kritiktir."
+      },
+      {
+        "q": "Önceden planlanmayan prodüksiyon hangi sorunlara yol açar?",
+        "a": "<ul><li>ana sahnelerin kaçırılması,</li><li>kötü kadraj ve ışık,</li><li>yamalı ses kayıtları,</li><li>sonradan toparlanamayan görüntüler,</li><li>etki olarak “bu kadar uğraştık ama elimizde doğru düzgün video yok” hissi.</li></ul>Plan, prodüksiyonun en önemli parçasıdır."
+      }
+    ]
+  },
+  "section7": {
+    "title": "GEO & Sektör Odaklı Etkinlik Prodüksiyonu",
+    "items": [
+      {
+        "q": "Türkiye’deki oteller için etkinlik prodüksiyonunda nelere odaklanılmalı?",
+        "a": "<ul><li>otel içi show & gala geceleri,</li><li>DJ/konser etkinlikleri,</li><li>MICE toplantı ve lansmanları,</li><li>wedding/event organizasyonları.</li></ul>Bu alanlarda hem misafir deneyimi hem de çekim & dökümantasyon birlikte düşünülmelidir."
+      },
+      {
+        "q": "Turizm bölgelerinde (Antalya, Bodrum vb.) etkinlik prodüksiyonunda ekstra neler önemli?",
+        "a": "<ul><li>açık hava sahneleri ve hava durumu,</li><li>sezon yoğunluğu,</li><li>yabancı misafir profili (dil, kültür),</li><li>destinasyon görüntülerini etkinlik konseptiyle birleştirme.</li></ul>"
+      },
+      {
+        "q": "Kurumsal lansman ve konferanslarda prodüksiyonun kilit noktaları neler?",
+        "a": "<ul><li>ses netliği (özellikle konuşmalar için),</li><li>ekran içeriklerinin okunabilirliği,</li><li>canlı yayın/stream ihtiyacı,</li><li>after-movie ve konuşma kayıtlarının arşiv değeri.</li></ul>"
+      },
+      {
+        "q": "Etkinliklerde drone ve çok kameralı çekim hangi durumlarda şart?",
+        "a": "<ul><li>büyük sahne ve geniş alan kullanımında,</li><li>kalabalık katılımcılı konser ve festivallerde,</li><li>fuar ve açık alan aktivitelerinde.</li></ul>Küçük toplantı ve workshop’larda daha küçük setler tercih edilebilir."
+      },
+      {
+        "q": "Otel etkinlikleri için profesyonel prodüksiyonun avantajları nelerdir?",
+        "a": "<ul><li>misafir deneyimini güçlendiren sahne ve teknik,</li><li>etkinlik sonrası güçlü video/foto içerik,</li><li>B2B ve OTA tarafında “otelde neler oluyor?” sorusuna etkili cevap,</li><li>markanın “yaşayan ve aktif” olduğuna dair güçlü algı.</li></ul>"
+      }
+    ]
+  },
+  "section8": {
+    "title": "Mini Etkinlik Prodüksiyonu SSS",
+    "items": [
+      {
+        "q": "Her etkinlik için profesyonel prodüksiyon şart mı?",
+        "a": "Her etkinlik için değil; önem ve görünürlük seviyesi yüksek etkinliklerde profesyonel prodüksiyon yatırımının geri dönüşü daha yüksektir."
+      },
+      {
+        "q": "Telefondan çekilen görüntüler hiç kullanılamaz mı?",
+        "a": "Bazı backstage/UGC hissi istenen içeriklerde kullanılabilir; ancak ana etkinlik tanıtımı ve highlight için profesyonel kayıt tercih edilmelidir."
+      },
+      {
+        "q": "Etkinlik prodüksiyonunda “tek kamera” yeterli olur mu?",
+        "a": "Küçük ve basit etkinliklerde olabilir; ancak sahne aksiyonu yüksek veya büyük etkinliklerde çok kameralı çekim çok daha kaliteli sonuç verir."
+      },
+      {
+        "q": "Her etkinlikte mutlaka drone kullanmak gerekiyor mu?",
+        "a": "Hayır; kapalı alan etkinliklerde, drone çoğu zaman gereksiz veya imkânsızdır. Outdoor ve geniş alanlı etkinliklerde değerlidir."
+      },
+      {
+        "q": "Etkinlik öncesi kaç saat/gün kurulum yapılmalı?",
+        "a": "Bu, sahne ve teknik setin büyüklüğüne bağlıdır; ancak “etkinlikten hemen önce kurup açarız” yaklaşımı çok risklidir. Profesyonel setuplar için en azından bir prova süresi planlanmalıdır."
+      },
+      {
+        "q": "Etkinlik prodüksiyonu için her zaman büyük bir bütçe mi gerekir?",
+        "a": "Hayır; ölçek ve kapsam doğrultusunda, daha kompakt ama hedefe uygun prodüksiyon paketleri de kurgulanabilir."
+      },
+      {
+        "q": "Etkinlik sonrası videoları ne kadar süre kullanabilirim?",
+        "a": "Konsepte göre değişse de; highlight videoları genellikle 1–2 yıl boyunca referans ve tanıtım içeriği olarak kullanılabilir."
+      },
+      {
+        "q": "Etkinlik sırasında canlı yayın almak zorunlu mu?",
+        "a": "Zorunlu değil; hedef kitle, içerik ve bütçeye göre kararlaştırılır. Bazı etkinliklerde sadece kayıt almak daha mantıklı olabilir."
+      },
+      {
+        "q": "Etkinlik prodüksiyonu SEO veya dijital pazarlamaya nasıl bağlanır?",
+        "a": "Etkinlik videoları ve fotoğraflar; web ve blog içerikleri, sosyal medya paylaşımları ve kampanya sayfaları için güçlü içerik kaynağıdır; bu da organik ve ücretli performansa dolaylı katkı sağlar."
+      },
+      {
+        "q": "Etkinlik Prodüksiyonu hizmetini tek seferlik ‘konsept + planlama’ olarak alabilir miyim?",
+        "a": "Evet; konsept, sahne & çekim planı, teknik ihtiyaç listesi ve akış önerisi içeren danışmanlık alıp, uygulamayı otel veya yerel ekiplerle yürütmek de mümkündür."
+      }
+    ]
+  },
+  "section9": {
+    "title": "Etkinlik Prodüksiyonu İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile Etkinlik Prodüksiyonu için nasıl teklif alabilirim?",
+        "a": "<ul><li>etkinlik türünüzü (fuar, lansman, konser, gala, otel içi etkinlik vb.),</li><li>lokasyon ve tarih(leri)ni,</li><li>tahmini katılımcı sayısını,</li><li>talep ettiğiniz kapsamı (sahne, ses, ışık, kayıt, canlı yayın vb.),</li><li>etkinlik sonrası içerik beklentilerinizi (highlight video, full kayıt, sosyal medya cut’ları vb.),</li><li>geçmişte yaşadığınız sorunları (bütçe aşımı, zayıf kayıt, koordinasyon vb.)</li></ul>özetleyen kısa bir brief paylaştığınızda; kapsam, süreç, teslimatlar (video + foto + set-up), revizyon yapısı ve bütçe çerçevesini içeren bir Etkinlik Prodüksiyonu yol haritası ve teklif hazırlanabilir."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı etkinlik prodüksiyon tarafında neyi netleştirir?",
+        "a": "<ul><li>etkinliğiniz hangi ölçekte, hangi hedefe hizmet ediyor,</li><li>sahne + teknik + kayıt tarafında hangi bileşenlere gerçekten ihtiyaç var,</li><li>sosyal medya ve video stratejinizle entegrasyon nasıl kurgulanmalı,</li><li>bütçe ve zaman çerçevesinde en mantıklı prodüksiyon paketi hangisi</li></ul>gibi sorulara birlikte net cevap buluruz. Böylece etkinliğiniz için ölçeklenebilir, ölçülebilir ve içerik üreten bir prodüksiyon modeli kurgulanmış olur."
+      }
+    ]
+  }
+  },
+
+  
+   "cta": {
+      "primary": "Etkinlik prodüksiyon hizmeti talep edin",
+      "primaryHref": "/Services/creative/eventProduction",
+      "secondary": "Creative ve Tasarım",
+      "secondaryHref": "/Services/creative"
+    }
+},
+
+"FaqCorporateGift":{
+  "h1": "Kurumsal Hediye Tasarımı SSS",
+
+   "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+   "intro": {
+    "p1":"Kurumsal hediye tasarımı; “üzerine logo basılı promosyon ürün” seçmekten çok daha fazlası. Özellikle otel & turizm ve kurumsal tarafta, verdiğiniz hediye:\n<ul><li>markanızın algısını,</li><li>misafir/çalışan/iş ortağı ile kurduğunuz bağı,</li><li>hatta sosyal medyada alacağınız paylaşılabilirlik ve görünürlüğü</li></ul>\ndoğrudan etkiliyor.",
+    "p2":"Bu SSS sayfası; konsept geliştirme, ürün seçimi, kişiselleştirme, ambalaj tasarımı ve lojistik süreçleriyle ilgili en sık sorulan soruları, otel & kurumsal perspektifle ve “israf etmeyen, gerçekten kullanılan” hediye kurguları odağında toplar."
+   },
+
+   "sections":{
+    "generalQuestions": {
+      "title": "Kurumsal Hediye Tasarımına Genel Bakış",
+      "items": [
+        {
+          "q": "Kurumsal hediye tasarımı tam olarak nedir?",
+          "a": "Kurumsal hediye tasarımı; misafir, çalışan veya iş ortaklarına verilecek hediyelerin:\n<ul><li>hangi konseptte olacağını,</li><li>hangi ürünlerden oluşacağını,</li><li>markanızla görsel ve duygusal uyumunu,</li><li>paket/ambalaj tasarımını,</li><li>kişiselleştirme (isim, not, oda numarası vb.) seviyesini,</li><li>üretim ve lojistik akışını</li></ul>\nbir bütün olarak planlama sürecidir. Amaç, “hediye verdik” kutusu işaretlemek değil, gerçekten hatırlanan ve kullanılan bir deneyim yaratmaktır."
+        },
+        {
+          "q": "Neden “rastgele promosyon” yerine tasarlanmış hediye seti?",
+          "a": "Rastgele promosyon ürünleri:\n<ul><li>çoğu zaman kullanılmıyor,</li><li>çöpe veya çekmeceye gidiyor,</li><li>marka algısına anlamlı katkı sağlamıyor,</li><li>bütçeyi israf ediyor.</li></ul>\n\nTasarımı düşünülmüş hediye setleri ise:\n<ul><li>markanızla uyumlu,</li><li>alıcının gerçekten kullanacağı,</li><li>fotoğrafı/social post’u çekilecek kadar “güzel”</li></ul>\nolduğunda çok daha yüksek ROI üretir."
+        },
+        {
+          "q": "Kurumsal hediye tasarımı kimin için yapılır?",
+          "a": "<ul><li>Otel misafirleri (oda içi “welcome” hediyesi, VIP misafir setleri, tekrar gelen misafirler için sürprizler),</li><li>Çalışanlar (özel günler, yıl sonu, başarı/ödül, onboarding),</li><li>İş ortakları ve acenteler (teşekkür, kampanya, toplantı, fuar sonrası),</li><li>Etkinlik katılımcıları (lansman, workshop, konferans vb.).</li></ul>\n\nHer segment için ürün seçimi, ambalaj ve mesaj dili farklı olmalıdır."
+        },
+        {
+          "q": "Kurumsal hediye tasarımı sadece “hediye seçmek” midir?",
+          "a": "Değil. Hediye tasarımı;\n<ul><li>Konsept (doğal, premium, eğlenceli, minimal, yerel vb.),</li><li>Ürün (ne veriyoruz?),</li><li>Tasarım (görsel dil, marka uyumu),</li><li>Mesaj (kart, not, story),</li><li>Ambalaj (kutu, çanta, paket),</li><li>Lojistik (ne zaman, nasıl, kime ulaşıyor?)</li></ul>\n\nkatmanlarını birlikte düşünmeyi gerektirir."
+        },
+        {
+          "q": "Otel & turizm tarafında kurumsal hediyeler neden stratejik?",
+          "a": "Çünkü hediye:\n<ul><li>misafirle ilk temas (welcome),</li><li>son temas (check-out’ta sürpriz),</li><li>OTA/acenteyle ilişkiyi sıcak tutan küçük jest,</li><li>fuar ve B2B görüşmelerinde “top of mind” olma aracı.</li></ul>\n\nDoğru seçilmiş bir hediye, “fiyat rekabetinin” ötesinde duygusal bağ kurmanıza yardımcı olur."
+        },
+        {
+          "q": "Hediye tasarımı sürdürülebilirlik ve bütçe açısından nasıl ele alınmalı?",
+          "a": "<ul><li>Gereksiz, kullanılmayacak ürünler yerine az ama etkili ürünler,</li><li>mümkün olduğunca kaliteli ve uzun ömürlü materyaller,</li><li>bütçeyi parçalara bölmek yerine önemli segmentlere odaklanmak,</li><li>örneğin: herkese küçük ve anlamsız bir şey vermek yerine, VIP ve tekrar gelen misafirlere daha güçlü hediye setleri planlamak.</li></ul>"
+        }
+      ]
+    },
+    "quickAnswers": {
+      "title": "Sesli Arama için Kısa Sorular",
+      "items": [
+        {
+          "q": "Kurumsal hediye tasarımı nedir, ne işe yarar?",
+          "a": "Markanızın misafir, çalışan veya iş ortaklarına verdiği hediyeleri; konsept, ürün, tasarım ve ambalaj olarak marka kimliğiyle uyumlu, hatırlanabilir ve kullanılabilir hâle getiren tasarım sürecidir."
+        },
+        {
+          "q": "Otel misafirleri için nasıl bir hediye seti hazırlamalıyım?",
+          "a": "Otelin konseptine, misafir profilinize ve oda/konaklama deneyimine uygun; hem pratik hem de hatıra değeri olan, mümkünse lokal dokunuşlar içeren bir set tasarlamalısınız."
+        },
+        {
+          "q": "Marka kimliğine uygun hediye nasıl seçilir?",
+          "a": "Önce markanızın karakteri (luxury, family, genç, minimal vb.) netleştirilir, ardından bu karakteri yansıtan ürün tipleri, renkler, materyaller ve ambalaj tasarımları seçilir."
+        },
+        {
+          "q": "Kişiselleştirme (isim, oda numarası vb.) gerçekten fark yaratır mı?",
+          "a": "Evet; doğru dozda yapılan kişiselleştirme, hediyeyi “toplu promosyon” olmaktan çıkarır, alıcının kendini özel hissetmesini sağlar ve paylaşılma ihtimalini artırır."
+        },
+        {
+          "q": "Hediyelerim sosyal medyada paylaşılabilir olmalı mı?",
+          "a": "Kesinlikle evet. Görsel olarak çekici, hikâyesi olan ve “paylaşmalık” detaylar içeren hediyeler, organik görünürlük ve marka algısı için büyük avantajdır."
+        },
+        {
+          "q": "Kurumsal hediye tasarımı hizmeti kimler için uygundur?",
+          "a": "Otel & turizm markaları, kurumsal şirketler, etkinlik ve konferans düzenleyen markalar, VIP misafir ağırlayan işletmeler ve iş ortaklarıyla ilişkisini güçlendirmek isteyen tüm markalar için uygundur."
+        }
+      ]
+    },
+
+     "section3": {
+      "title": "Hizmet Kapsamı: Konsept, Ürün, Ambalaj, Lojistik",
+      "items": [
+        {
+          "q": "Kurumsal hediye tasarımı nedir, neyi kapsar?",
+          "a": "<ul><li>Konsept geliştirme (tema, stil, mesaj),</li><li>Ürün seçimi (hediye içeriği – tekli veya set),</li><li>Grafik tasarım (etiket, kart, not, logo kullanımı),</li><li>Ambalaj tasarımı (kutu, çanta, şerit, sticker),</li><li>Kişiselleştirme opsiyonları (isim, oda numarası, not),</li><li>Üretim ve baskı sürecinin takibi,</li><li>Lojistik planlama (teslim şekli, tarih, dağıtım yöntemi).</li></ul>"
+        },
+        {
+          "q": "Otel misafirleri için ideal hediye seti nasıl olmalı?",
+          "a": "<ul><li>Kullanışlı: Yolculuk sonrası gerçekten işe yarayan (spa seti, yerel atıştırmalık, uyku seti vb.),</li><li>Hatıra değeri olan: Evine götürüp kullanacağı veya saklayacağı (magnet/sticker değil, daha özgün),</li><li>Konseptle uyumlu: Wellness otelde banyo/spa temalı, city otelde şehir deneyimi odaklı, family otelde çocuklu ailelere uygun,</li><li>Marka dokunuşu: Logo ve renk dünyasının şık ve dozunda kullanıldığı tasarımlar.</li></ul>"
+        },
+        {
+          "q": "Marka kimliğine uygun hediye nasıl seçilir?",
+          "a": "<ul><li>Luxury bir marka için: kaliteli materyaller, sade ama premium görünen ürünler (örneğin özel tasarım kupa, deri kartlık, kaliteli tekstil ürünleri).</li><li>Family/entertainment odaklı otel için: oyun, aktivite, çocuk dostu içerikler, eğlenceli tasarımlar.</li><li>Kurumsal bir B2B marka için: masa üstü kullanılabilecek, günlük hayatta işe yarayan ve “masadan kalkmayan” ürünler.</li></ul><p>Her marka için hediye, marka vaadini somutlaştıran küçük bir “ürün” gibi ele alınmalıdır.</p>"
+        },
+        {
+          "q": "Kurumsal hediyelerde kişiselleştirme neden önemli?",
+          "a": "<ul><li>alıcının kendini özel hissetmesini sağlar,</li><li>“toplu promosyon” hissini kırar,</li><li>sosyal medyada paylaşılma ihtimalini artırır (ismim yazıyor, odama özel…),</li><li>ilişkiyi bir tık daha kişisel boyuta taşır.</li></ul><p>Aşırıya kaçmadan, doğru temas noktalarında kullanıldığında büyük etki yaratır.</p>"
+        },
+        {
+          "q": "Ambalaj tasarımı neden en az hediye kadar önemli?",
+          "a": "<p>Çünkü ilk izlenim, ambalajla başlar.</p><ul><li>şık ve markaya uygun bir kutu/çanta,</li><li>içinde hediye ile uyumlu bir renk/doku,</li><li>kısa ama doğru yerleştirilmiş bir not</li></ul><p>hediyenin değer algısını katlar. “Ucuz ürün + iyi ambalaj” değil; doğru ürün + iyi ambalaj kombinasyonu hedeflenmelidir.</p>"
+        }
+      ]
+    },
+    "section4": {
+      "title": "Süreç & İşleyiş: Brief’ten Üretime",
+      "items": [
+        {
+          "q": "Kurumsal hediye tasarımı sürecine nasıl başlanır?",
+          "a": "<ol><li>Brief & hedef (kime, ne zaman, ne amaçla hediye verilecek?),</li><li>Segment & adet (VIP, tüm misafirler, sadece çalışanlar vb.),</li><li>Bütçe aralığı (adet başı/min–max),</li><li>Marka kimliği & örnekler (beğenilen/beğenilmeyen hediye örnekleri),</li><li>Konsept önerileri ve ürün seçenekleri,</li><li>Tasarım ve numune onayı,</li><li>Üretim ve lojistik planı.</li></ol>"
+        },
+        {
+          "q": "Ürün seçimi nasıl yapılmalı?",
+          "a": "<ul><li>hedef kitlenin gerçekten kullanacağı ürünlere odaklanmak,</li><li>trendleri (ama “tek sezonluk” olmayanları) dikkate almak,</li><li>mümkün olduğunca kaliteli ve güvenli materyaller seçmek,</li><li>lojistik ve stok yönetimi açısından da mantıklı ürünler belirlemek gerekir.</li></ul>"
+        },
+        {
+          "q": "Kişiselleştirme (isim, oda numarası) süreçte nasıl çalışır?",
+          "a": "<ul><li>veri toplama (misafir/çalışan isim listeleri, oda numaraları vb.),</li><li>baskı/gravür/etiket süreçlerinin bu veri ile entegre olması,</li><li>hata riski yüksek olduğu için, en az bir kontrol turu,</li><li>gerektiğinde “kişiselleştirilmiş” ve “genel” versiyonların karışık kullanımı (herkes için kişiselleştirme şart değil).</li></ul>"
+        },
+        {
+          "q": "Üretim ve lojistikte neler planlanmalı?",
+          "a": "<ul><li>üretim süresi ve tedarikçi takvimi,</li><li>kalite kontrol,</li><li>paketleme ve etiketleme,</li><li>otel veya kurumsal için depolama alanı,</li><li>dağıtım şekli (oda içi, resepsiyon, etkinlik girişinde, kargo vb.),</li><li>yedek stok (son dakika talepleri için).</li></ul>"
+        },
+        {
+          "q": "Fiyatlandırma ve sözleşme tarafında neler netleştirilmeli?",
+          "a": "<ul><li>adet ve set içeriği,</li><li>kişiselleştirme olup olmayacağı,</li><li>tasarım revizyon tur sayısı,</li><li>üretim ve teslim tarihleri,</li><li>lojistik ve özel dağıtım ihtiyaçları,</li><li>olası tekrar sipariş koşulları.</li></ul><p>Bunlar netleşmezse, üretim sırasında/belirtilen tarihlerde sürprizler çıkabilir.</p>"
+        }
+      ]
+    },
+    "section5": {
+      "title": "Performans & “Israf Etmeyen” Hediye Kurguları",
+      "items": [
+        {
+          "q": "Hediye tasarımının performansı nasıl ölçülür?",
+          "a": "<ul><li>kullanım oranı (hediye gerçekten kullanılıyor mu?),</li><li>geri bildirim (misafir/çalışan yorumu, memnuniyet),</li><li>tekrar sipariş (aynı kit tekrar isteniyor mu?),</li><li>sosyal medyada bahsedilme/paylaşım (story, post),</li><li>B2B tarafta görüşme/iş hacmine katkısı (özellikle acente & iş ortağı hediyelerinde).</li></ul>"
+        },
+        {
+          "q": "Hediye israfını nasıl önleyebilirim?",
+          "a": "<ul><li>“herkese bir şey” yerine, stratejik segmentlere odaklanmak,</li><li>stok yerine just-in-time veya sezonluk planlar yapmak,</li><li>ürünleri seçerken ekipten ve kullanıcıdan geri bildirim almak,</li><li>“güzel görünür ama kullanılmaz” ürünlerden kaçınmak.</li></ul>"
+        },
+        {
+          "q": "Hediye tasarımı sosyal medyaya nasıl bağlanır?",
+          "a": "<ul><li>görsel olarak “fotoğraflanası” ürün ve ambalaj,</li><li>yanında küçük bir hikâye veya mesaj,</li><li>setin içinde shareable bir detay (örneğin: custom kart, lokal ürün, özel tasarım obje),</li><li>koda/QR’a bağlanan dijital teşekkür veya indirim kartı.</li></ul><p>Bu sayede hediye, yalnızca fiziksel değil, dijital etkileşim de üretir.</p>"
+        },
+        {
+          "q": "Hediyelerim sosyal medyada paylaşılabilir olmalı mı?",
+          "a": "Evet; özellikle otel ve lifestyle markalar için, sosyal medyada paylaşılan bir hediye, geleneksel reklamdan çok daha samimi ve etkili bir görünürlük üretir."
+        },
+        {
+          "q": "Kurumsal hediye tasarımı ROI (yatırım geri dönüşü) nasıl okunmalı?",
+          "a": "<ul><li>hediye başına maliyet vs kullanım oranı,</li><li>hediye sonrası memnuniyet ve sadakat etkisi,</li><li>B2B tarafta iş hacmi ve tekrar iş oranı,</li><li>sosyal medya ve PR tarafındaki görünürlük.</li></ul><p>Sadece “hediye dağıttık” değil, “hediye işe yaradı mı?” sorusuna bakılmalıdır.</p>"
+        }
+      ]
+    },
+
+     "section6": {
+      "title": "Pain Point: Hediye İsrafı, Marka Uyuşmazlığı, Lojistik Sorunlar",
+      "items": [
+        {
+          "q": "Hediye israfı en çok nerede yaşanıyor?",
+          "a": "<ul><li>kime ne verildiğinin planlanmadığı durumlarda,</li><li>“stok olsun, dağıtırız” mantığıyla alınmış ürünlerde,</li><li>kullanılan ürünün hedef kitleyle hiç uyuşmadığı senaryolarda (örneğin çocuklu aile otelinde çok teknik/promosyonel ürünler).</li></ul>"
+        },
+        {
+          "q": "Markayla uyuşmayan hediyeler ne sonuç doğurur?",
+          "a": "<ul><li>marka tonunu ve konumlandırmasını zayıflatır,</li><li>hediyenin “ucuz promosyon” algısı yaratmasına sebep olur,</li><li>bazı durumlarda “ne alaka?” hissiyle negatif algı bile oluşturabilir.</li></ul><p>Örneğin, sürdürülebilirlik vurgusu yapan bir markanın yoğun plastik hediyeler dağıtması gibi.</p>"
+        },
+        {
+          "q": "Lojistik problemler hediye deneyimini nasıl bozar?",
+          "a": "<ul><li>hediye geç veya yanlış kişiye gider,</li><li>stokta yok denir,</li><li>kondisyonu bozuk (ezilmiş, deforme) paket gelir.</li></ul><p>Bu durumda hediye, iyi niyet göstergesi olmaktan çıkıp ek bir şikâyet konusu hâline gelebilir.</p>"
+        },
+        {
+          "q": "Düşük kullanım oranı ne anlama gelir?",
+          "a": "<ul><li>alıcının ihtiyacına/zevkine uymuyor,</li><li>kalitesiz veya gereksiz algılanıyor,</li><li>markanın yanlış bir mesaj verdiği düşünülüyor olabilir.</li></ul><p>Bu, “hediye başına maliyetiniz boşa gidiyor” demektir.</p>"
+        },
+        {
+          "q": "Yanlış ürün seçimi ve plansız hediye kurgusu hangi kayıplara yol açar?",
+          "a": "<ul><li>bütçe israfı,</li><li>stok fazlası,</li><li>marka algısının zarar görmesi,</li><li>lojistik ve depolama maliyetinin artması.</li></ul><p>Bu yüzden hediye, sadece satın alma değil, tasarım ve strateji konusu olarak ele alınmalıdır.</p>"
+        }
+      ]
+    },
+    "section7": {
+      "title": "GEO & Sektör Odaklı Kurumsal Hediye Soruları (5 Soru)",
+      "items": [
+        {
+          "q": "Türkiye’deki oteller için hediye tasarımında nelere odaklanılmalı?",
+          "a": "<ul><li>bölgenin (Antalya, Bodrum, Kapadokya vb.) algısını taşıyan lokal ürünler,</li><li>otel konseptiyle uyumlu (family, adults-only, spa/wellness) içerikler,</li><li>“oda içi welcome” + “VIP misafir” + “acente/iş ortağı” gibi segmentler için farklı setler,</li><li>tekrar gelen misafirler için özel dokunuşlar.</li></ul>"
+        },
+        {
+          "q": "Kurumsal B2B markalar için hediye tasarımında ne farklı?",
+          "a": "<ul><li>masa üstünde “hayatına karışan” ürünler (kaliteli defter, kalem, stand, masa objeleri vb.),</li><li>ofis içi kullanıma uygun, uzun ömürlü materyaller,</li><li>etkinlik ve lansman hediye setleri (özellikle fuar ve konferanslarda).</li></ul>"
+        },
+        {
+          "q": "Etkinlik ve VIP konuklar için hediye tasarımı nasıl planlanır?",
+          "a": "<ul><li>etkinliğin konsept ve temasına göre tema belirlenir,</li><li>VIP vs genel katılımcı ayrımı yapılır,</li><li>VIP misafirlere daha özel ve kişiselleştirilmiş setler,</li><li>genel katılımcıya daha kompakt ama şık çözümler sunulur.</li></ul>"
+        },
+        {
+          "q": "Oda içi hediye (welcome gift) ile check-out hediyesi arasında fark olmalı mı?",
+          "a": "<p>Evet.</p><ul><li>Welcome gift: konaklama deneyimini hemen iyileştiren şeyler (atıştırmalık, spa seti, uyku kiti vb.),</li><li>Check-out hediyesi: misafirin eve götürüp hatırlayacağı/ kullanacağı ürünler (belli objeler, lokal ürünler vb.).</li></ul>"
+        },
+        {
+          "q": "Türkiye geneli misafir profiline uygun hediye seçerken nelere bakmalı?",
+          "a": "<ul><li>pratiklik (yolculuk sonrası/öncesi kullanım),</li><li>kültürel hassasiyetler,</li><li>yaş ve segment (çocuklu aile, genç çift, business konuk vb.),</li><li>trend ve beklentiler (sağlıklı yaşam, sürdürülebilirlik, yerel deneyim).</li></ul>"
+        }
+      ]
+    },
+    "section8": {
+      "title": "Mini Kurumsal Hediye Tasarımı SSS (Micro – 10 Soru)",
+      "items": [
+        { "q": "Herkese aynı hediyeyi vermek şart mı?", "a": "Hayır; segment bazlı hediye planlamak (VIP, tekrar misafir, acente vb.) daha etkili ve bütçe dostudur." },
+        { "q": "Tek ürün mü, hediye seti mi daha iyi?", "a": "Duruma göre değişir; bazen tek, güçlü bir ürün; bazen küçük ama uyumlu ürünlerden oluşan bir set daha iyi çalışır." },
+        { "q": "Hediye mutlaka fiziksel mi olmalı?", "a": "Fiziksel hediyeye ek olarak; deneyim kuponları, indirim kodları, özel etkinlik davetleri gibi dijital/deneyim odaklı hediyeler de çok değerlidir." },
+        { "q": "Hediye bütçem azsa şık bir şey yapamaz mıyım?", "a": "Az ama iyi düşünülmüş, marka uyumlu ve doğru ambalajlanmış küçük hediyeler; çok ama anlamsız hediyelerden daha değerlidir." },
+        { "q": "Sadece logomu koymam yeterli mi?", "a": "Hayır; dozunda ve şık kullanıldığında logo bir dokunuş olur, ama logoyu basıp geçmek, hediyeyi promosyon havasına sokar." },
+        { "q": "Her hediye setine kişiselleştirme eklemek zorunda mıyım?", "a": "Hayır; yüksek hacimli dağıtımlarda genel setler, VIP ve özel segmentlerde kişiselleştirilmiş çözümler en dengeli yaklaşımdır." },
+        { "q": "Hediye kartı veya notu zorunlu mu?", "a": "Kısa bir not veya kart, hediyenin arkasındaki niyeti anlatır; “neden bu hediye” sorusunu cevaplar ve deneyimi güçlendirir." },
+        { "q": "Hediye seçiminde sürdürülebilirlik gerçekten önemli mi?", "a": "Giderek önem kazanıyor; plastik ağırlıklı, tek kullanımlık ürünler yerine daha sürdürülebilir seçenekler tercih etmek, marka algısına pozitif katkı sağlar." },
+        { "q": "Tüm hediye süreçlerini tek seferde mi planlamalıyım?", "a": "Yıllık bir hediye planı yapmak iyi; ancak dinamik kalmak ve geri bildirimlere göre setleri zamanla optimize etmek daha sağlıklıdır." },
+        { "q": "Kurumsal Hediye Tasarımı hizmetini sadece “konsept + öneri” olarak alabilir miyim?", "a": "Evet; konsept, ürün önerisi, tasarım yönlendirmesi ve tedarik/lojistik şeması içeren bir danışmanlık alıp, üretim ve dağıtımı kendi tedarikçilerinizle yönetmeniz de mümkündür." }
+      ]
+    },
+    "section9": {
+      "title": "Kurumsal Hediye Tasarımı İçin İş Birliği ve CTA Soruları",
+      "items": [
+        {
+          "q": "DGTLFACE ile Kurumsal Hediye Tasarımı için nasıl teklif alabilirim?",
+          "a": "<ul><li>markanızın türü (otel, turizm, kurumsal, B2B vb.),</li><li>hedef kitle(ler)iniz (misafir, VIP, çalışan, iş ortağı),</li><li>adet ve segmentler (toplam ve VIP ayrımı),</li><li>kişi başı hediye bütçe aralığınız,</li><li>marka kimliği ve varsa brandbook,</li><li>hazırda kullandığınız veya beğendiğiniz hediye örnekleri,</li><li>yaşadığınız problemler (israf, düşük kullanım, marka uyumsuzluğu, lojistik sorunlar vb.)</li></ul><p>ile kısa bir brief paylaştığınızda; konsept, ürün seti, tasarım, üretim & lojistik akışı ve bütçe çerçevesini içeren bir Kurumsal Hediye Tasarımı yol haritası ve teklif hazırlanabilir.</p>"
+        },
+        {
+          "q": "“Uzmanla görüş” çağrısı hediye tarafında neyi netleştirir?",
+          "a": "<ul><li>kime, ne zaman, hangi hedefle hediye verdiğinizi,</li><li>markanızın nasıl algılanmak istediğini,</li><li>hangi hediye örneklerinin sizde olumlu/olumsuz his uyandırdığını,</li><li>lojistik realitelerinizi (depo, dağıtım, fiyat, tekrar sipariş vb.)</li></ul><p>beraber değerlendirerek; gerçekten işinize yarayan, marka uyumlu, boşa gitmeyen hediye kurgularını netleştiririz.</p>"
+        }
+      ]
+    }
+   },
+   
+   "cta": {
+      "primary": "Kurumsal hediye hizmeti talep edin",
+      "primaryHref": "/Services/creative/corporateGift",
+      "secondary": "Creative ve Tasarım",
+      "secondaryHref": "/Services/creative"
+    }
+
+}
 
 }

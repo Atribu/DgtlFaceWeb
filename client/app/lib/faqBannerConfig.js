@@ -214,6 +214,19 @@ export const FAQ_BANNER_MAP = {
       { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
     ],
   },
+  
+        "creative-sss": {
+    mode: "children",
+    title: "CREATIVE",
+    chips: [
+      { label: "CREATIVE (Genel)", href: "/creative-sss" },
+       { label: "Grafik Motion Tasarım", href: "/grafik-motion-tasarim-sss" },
+      { label: "UI/UX Dizayn", href: "/ui-ux-hizmeti-sss" },
+      { label: "Video Prodüksiyon", href: "/video-ve-produksiyon-sss" },
+      { label: "Etkinlik Prodüksiyon", href: "/etkinlik-produksiyonu-sss" },
+      { label: "Kurumsal Hediye", href: "/kurumsal-hediye-sss" },
+    ],
+  },
 
 
   // ... SMM-SSS, Yazılım-SSS, Creative-SSS vs ekleyeceğiz (9 tane)
