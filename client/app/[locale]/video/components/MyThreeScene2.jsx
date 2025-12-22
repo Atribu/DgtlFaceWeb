@@ -1,0 +1,250 @@
+"use client";
+
+import Link from "next/link";
+import React, { useEffect, useRef } from "react";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { useTranslations } from 'next-intl';
+
+export default function MyThreeScene2() {
+  const mountRef = useRef(null);
+  const t = useTranslations("Homepage.Hero")
+
+  useEffect(() => {
+    if (!mountRef.current) return;
+
+    // Container ve boyutlar
+    const container = mountRef.current;
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    // === SCENE ===
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x160016);
+
+    // === CAMERA ===
+    // Burada z değerini 21 yerine 35 yapıyoruz
+    const camera = new THREE.PerspectiveCamera(60, width / height, 1, 1000);
+    camera.position.set(0, 4, 35);
+
+    // === RENDERER ===
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(width, height);
+    container.appendChild(renderer.domElement);
+
+    // === ORBIT CONTROLS ===
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.enablePan = false;
+    controls.enableZoom = false; // Tekerlek olayını yakalamıyor
+
+    // === PARTİKÜLLER ===
+    const gu = { time: { value: 0 } };
+    let sizes = [];
+    let shift = [];
+
+    function pushShift() {
+      shift.push(
+        Math.random() * Math.PI,
+        Math.random() * Math.PI * 2,
+        (Math.random() * 0.9 + 0.1) * Math.PI * 0.1,
+        Math.random() * 0.9 + 0.1
+      );
+    }
+
+    // 50k küresel
+    let pts = new Array(50000).fill().map(() => {
+      sizes.push(Math.random() * 1.5 + 0.5);
+      pushShift();
+      return new THREE.Vector3()
+        .randomDirection()
+        .multiplyScalar(Math.random() * 0.5 + 9.5);
+    });
+
+    // 100k silindirik
+    for (let i = 0; i < 100000; i++) {
+      let r = 10;
+      let R = 40;
+      let rand = Math.pow(Math.random(), 1.5);
+      let radius = Math.sqrt(R * R * rand + (1 - rand) * r * r);
+      pts.push(
+        new THREE.Vector3().setFromCylindricalCoords(
+          radius,
+          Math.random() * 2 * Math.PI,
+          (Math.random() - 0.5) * 2
+        )
+      );
+      sizes.push(Math.random() * 1.5 + 0.5);
+      pushShift();
+    }
+
+    const g = new THREE.BufferGeometry().setFromPoints(pts);
+    g.setAttribute("sizes", new THREE.Float32BufferAttribute(sizes, 1));
+    g.setAttribute("shift", new THREE.Float32BufferAttribute(shift, 4));
+
+    const m = new THREE.PointsMaterial({
+      size: 0.125,
+      sizeAttenuation: true,
+      alphaTest: 0.5,
+      transparent: true,
+      depthTest: false,
+      blending: THREE.AdditiveBlending,
+      onBeforeCompile: (shader) => {
+        shader.uniforms.time = gu.time;
+        // Vertex Shader
+        shader.vertexShader = `
+          uniform float time;
+          attribute float sizes;
+          attribute vec4 shift;
+          varying vec3 vColor;
+          ${shader.vertexShader}
+        `
+          .replace("gl_PointSize = size;", "gl_PointSize = size * sizes;")
+          .replace(
+            "#include <color_vertex>",
+            `#include <color_vertex>
+             float dd = length(abs(position) / vec3(27., 15., 27));
+             dd = clamp(dd, 0., 1.);
+             
+             vec3 c1 = vec3(84., 124., 207.) / 255.0 * 0.9;  
+             vec3 c2 = vec3(167., 84., 207.) / 255.0 * 0.1; 
+             vColor = mix(c1, c2, dd);
+            `
+          )
+          .replace(
+            "#include <begin_vertex>",
+            `#include <begin_vertex>
+             float t = time;
+             float moveT = mod(shift.x + shift.z * t, PI2);
+             float moveS = mod(shift.y + shift.z * t, PI2);
+             transformed += vec3(
+               cos(moveS) * sin(moveT),
+               cos(moveT),
+               sin(moveS) * sin(moveT)
+             ) * shift.w;
+            `
+          );
+        // Fragment Shader
+        shader.fragmentShader = `
+          varying vec3 vColor;
+          ${shader.fragmentShader}
+        `
+          .replace(
+            /void main\(\)\s*\{/,
+            `void main() {
+             float d = length(gl_PointCoord.xy - 0.5);
+             if (d > 0.5) discard;
+
+             float ringThickness = 0.02;
+             float ringStart = 0.5 - ringThickness;
+             float ringFactor = smoothstep(ringStart, 0.5, d);
+             vec3 borderColor = vec3(0.1, 0.1, 0.3);
+             vec3 finalColor = mix(vColor, borderColor, ringFactor);
+
+             float alpha = smoothstep(0.5, 0.1, d) * 0.5 + 0.5;
+        `
+          )
+          .replace(
+            "vec4 diffuseColor = vec4( diffuse, opacity );",
+            `vec4 diffuseColor = vec4(finalColor, alpha);`
+          );
+      },
+    });
+
+    const p = new THREE.Points(g, m);
+    p.rotation.order = "ZYX";
+    p.rotation.z = 0.2;
+    p.position.x = 15;
+    scene.add(p);
+
+    // Animasyon
+        const clock = new THREE.Clock();
+        const zoomDuration = 2.0;   // 2 saniyede yaklaşma
+        const startZ = 60;
+        const endZ = 35;
+        function animate() {
+      requestAnimationFrame(animate);
+      let elapsed = clock.getElapsedTime();
+      let t = elapsed * 0.5;
+      let a = clock.getElapsedTime() * 0.5;
+      gu.time.value = t * Math.PI;
+      p.rotation.y = t * 0.15;
+      gu.time.valuee = a * Math.PI;
+      p.rotation.y = a * 0.15;
+      if (elapsed < zoomDuration) {
+        // 0 .. 1 arası interpolation
+        let factor = elapsed / zoomDuration;
+        // lineer interpolasyon: z = startZ * (1-factor) + endZ * factor
+        camera.position.z = startZ * (1 - factor) + endZ * factor;
+      } else {
+        // 2sn sonrası sabit endZ
+        camera.position.z = endZ;
+      }
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // Zoom + Scroll
+    let isInside = false;
+    function handleEnter() {
+      isInside = true;
+    }
+    function handleLeave() {
+      isInside = false;
+    }
+    renderer.domElement.addEventListener("mouseenter", handleEnter);
+    renderer.domElement.addEventListener("mouseleave", handleLeave);
+
+    function handleWheel(event) {
+      if (isInside) {
+        const zoomFactor = 0.02;
+        camera.position.z += event.deltaY * zoomFactor;
+      }
+    }
+    renderer.domElement.addEventListener("wheel", handleWheel, { passive: true });
+
+    // Resize
+    function handleResize() {
+      const newW = container.clientWidth;
+      const newH = container.clientHeight;
+      renderer.setSize(newW, newH);
+      camera.aspect = newW / newH;
+      camera.updateProjectionMatrix();
+    }
+
+    if (typeof window !== "undefined") {
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      renderer.domElement.removeEventListener("mouseenter", handleEnter);
+      renderer.domElement.removeEventListener("mouseleave", handleLeave);
+      renderer.domElement.removeEventListener("wheel", handleWheel);
+      if (container.contains(renderer.domElement)) {
+        container.removeChild(renderer.domElement);
+      }
+      renderer.dispose();
+      g.dispose();
+      m.dispose();
+    };
+  }
+  }, []);
+
+  return (
+    <div className="relative w-screen h-[90vh] md:h-[80vh] min-h-[670px] md:min-h-[850px] xl:min-h-[780px]" style={{ position: "relative", width: "100vw" }}>
+      {/* 3D Canvas */}
+      <div
+        ref={mountRef}
+        style={{
+          width: "100%",
+          height: "100%",
+          overflow: "hidden",
+        }}
+      />
+
+
+    </div>
+  );
+}

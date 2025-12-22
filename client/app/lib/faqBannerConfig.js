@@ -46,7 +46,7 @@ const SEO_CHIPS = [
        { label: "Web Sitesi Geliştirme", href: "/web-sitesi-gelistirme-sss" },
       { label: "CMS Entegrasyonu", href: "/cms-entegrasyonu-sss" },
       { label: "KVKK Uyum Hizmeti", href: "/kvkk-uyum-hizmeti-sss" },
-      { label: "Sunucu Güvenlik", href: "/sunucu-güvenlik-sss" },
+      { label: "Sunucu Güvenlik", href: "/sunucu-guvenlik-sss" },
       { label: "Bakım ve Güvenlik", href: "/bakim-destek-sss" },
     ];
 
@@ -107,7 +107,7 @@ const GROUPS = {
       "web-sitesi-gelistirme-sss",
       "cms-entegrasyonu-sss",
       "kvkk-uyum-hizmeti-sss",
-      "sunucu-güvenlik-sss",
+      "sunucu-guvenlik-sss",
       "bakim-destek-sss",
     ],
   },

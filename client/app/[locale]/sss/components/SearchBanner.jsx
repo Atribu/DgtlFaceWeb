@@ -7,6 +7,12 @@ import { useMessages, useLocale } from "next-intl";
 import { FAQ_BANNER_MAP, MAIN_SERVICES_CHIPS } from "@/app/lib/faqBannerConfig";
 import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
+import imgSem from "./images/sem/Sem.webp"
+import imgGoogleAds from "./images/sem/Googleads.webp"
+import imgAdsReport from "./images/sem/Reklamraporlama.webp"
+import imgRemarketing from "./images/sem/RemarketingDisplay.webp"
+import imgTagmanager from "./images/sem/tagmanager.webp"
+import imgYoutubeads from "./images/sem/Youtubeads.webp"
 
 const HEADING_KEY_RE =
   /(^|\.)(h\d+|title|title\d+|heading|heading\d+|header|header\d+|services_title)$/i;
@@ -116,14 +122,14 @@ const results = useMemo(() => {
 
 
   return (
-    <div className="flex w-full items-center justify-center bg-[#547CCF]/10 min-h-[55vh] pt-[100px] lg:min-h-[60vh] lg:pt-[10vh] xl:pt-[8vh]">
+    <div className="flex w-full items-center justify-center bg-[#547CCF]/10 min-h-[55vh] pt-[100px] lg:min-h-[64vh] xl:min-h-[68vh] lg:pt-[10vh] xl:pt-[15vh] bg-cover bg-center"   style={{ backgroundImage: `url(${imgGoogleAds.src})` }}>
       <div className="flex flex-col items-center w-[94%] lg:w-[85%] xl:w-[70%] max-w-[1990px] gap-5 lg:gap-10">
-        <h2 className="text-[28px] md:text-[32px] lg:text-[44px] xl:text-[52px] bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent font-semibold lg:font-bold">
+        <h2 className="text-[24px] md:text-[28px] lg:text-[36px] xl:text-[48px] bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent font-semibold lg:font-bold">
           Sorularınızı Cevaplayalım
         </h2>
 
         {/* search */}
-        <div className="w-full max-w-[820px]">
+        <div className="max-w-[650px] w-full md:w-[48%] lg:w-[55%] xl:w-[70%]">
           <div className="rounded-2xl bg-[#547CCF]/10 border border-[#140f25]/10 px-4 py-1 lg:py-2 xl:py-3 flex items-center gap-3">
             <span className="opacity-70">🔎</span>
     <input
@@ -161,14 +167,14 @@ const results = useMemo(() => {
     </div>
   )}
         </div>
-
+{/* #5490cf */}
         {/* chips */}
-        <div className="grid grid-cols-2 w-full md:grid-cols-5 xl:flex text-white gap-2 md:gap-3 lg:gap-5 items-center justify-center mt-4 lg:mt-0">
+        <div className="grid grid-cols-3 w-full md:w-[57%] lg:w-[80%] xl:w-full lg:grid-cols-5 xl:flex text-white gap-2 md:gap-3 lg:gap-4 xl:gap-5 items-center justify-center mt-2 sm:mt-4 md:pt-10 lg:pt-0 lg:mt-5 xl:mt-10">
           {chips.map((c) => (
             <Link
               key={c.href}
               href={`/${locale}${c.href}`}
-              className="flex items-center justify-center text-center text-[14px] lg:text-[16px] lg:py-2 lg:px-6 py-[9px] xl:py-3 px-4 xl:px-8 rounded-full bg-[#7b69cd] shadow-2xl hover:scale-110 transition-all duration-300 ease-in-out whitespace-nowrap hover:bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
+              className="flex items-center justify-center text-center text-[12px] font-semibold lg:font-medium sm:text-[14px] xl:text-[16px] lg:py-2 lg:px-6 py-[9px] xl:py-3 px-4 xl:px-8 rounded-full bg-[#7b69cd] shadow-2xl hover:scale-110 transition-all duration-300 ease-in-out whitespace-nowrap hover:bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
             >
               {c.label}
             </Link>

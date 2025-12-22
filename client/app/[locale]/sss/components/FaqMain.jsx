@@ -159,16 +159,16 @@ const rich = {
   return (
     <section className="max-w-screen flex justify-center bg-white">
       <div className="w-[95%] lg:w-[98%] py-8 lg:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-6 lg:items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-4 xl:gap-6 lg:items-start">
 
           {/* SOL: TOC */}
          <aside className="lg:col-span-3 lg:sticky lg:top-[13.4%] lg:self-start">
-            <div className=" rounded-2xl bg-[#140f25] text-white p-4 lg:p-5 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
+            <div className="rounded-2xl bg-[#140f25] text-white p-2 lg:p-3 xl:p-5 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
               <p className="text-[12px] tracking-[0.18em] uppercase text-white/60 mb-3">
                 {t("toc.title")}
               </p>
 
-              <div className="flex flex-col gap-2">
+              <div className="grid grid-cols-2 md:flex md:flex-col gap-2">
                 {sections.map((s, idx) => {
                   const active = s.id === activeId;
                   return (
@@ -177,8 +177,8 @@ const rich = {
                       type="button"
                       onClick={() => scrollTo(s.id)}
                       className={[
-                        "text-left rounded-xl px-3 py-2 transition",
-                        active ? "bg-white/10 ring-1 ring-white/20" : "hover:bg-white/5",
+                        "text-left rounded-xl px-3 py-2 transition font-semibold text-[12px]",
+                        active ? "bg-white/10 ring-1 ring-white/20" : "hover:bg-white/5 font-semibold lg:font-normal text-[12px] md:text-[14px] xl:text-[16px]",
                       ].join(" ")}
                     >
                       <div className="flex items-start gap-3">
@@ -200,7 +200,7 @@ const rich = {
                 })}
               </div>
 
-              <p className="mt-4 text-[12px] text-white/55 leading-relaxed">
+              <p className="mt-4 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
                 {t("toc.note")}
               </p>
             </div>
@@ -208,8 +208,8 @@ const rich = {
 
           {/* SAĞ: CONTENT */}
           <div className="lg:col-span-9 mr-[1%]">
-            <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 lg:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
-              <h1 className="text-[22px] lg:text-[34px] font-bold leading-[120%] text-[#140f25]">
+            <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 xl:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
+              <h1 className="text-[22px] md:text-[26px] lg:text-[28px] font-bold leading-[120%] text-[#140f25]">
                 {t("h1")}
               </h1>
 
@@ -217,7 +217,7 @@ const rich = {
               <div
   id="intro"
   ref={(el) => (sectionRefs.current.intro = el)}
-  className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
+  className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-[135%] lg:leading-[135%] lg:leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
 >
  {["p1","p2","p3"].map((k) => {
    const raw = ns?.intro?.[k];
@@ -234,7 +234,7 @@ const rich = {
                 <p className="text-[12px] uppercase tracking-[0.18em] text-white/60 mb-2">
                   {t.rich("aiCapsule.title",rich)}
                 </p>
-                <p className="text-[14px] lg:text-[16px] leading-relaxed text-white/90">
+                <p className="text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
                   {t.rich("aiCapsule.text",rich)}
                 </p>
               </div>
@@ -244,7 +244,7 @@ const rich = {
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-2">
                   {t.rich("voiceSummary.title",rich)}
                 </p>
-                <p className="text-[14px] lg:text-[16px] leading-relaxed text-[#140f25]/90">
+                <p className="text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
                   {t.rich("voiceSummary.text",rich)}
                 </p>
               </div>
@@ -277,7 +277,7 @@ const rich = {
                         <span>{it.q}</span>
                         <span className="mt-1 text-[#140f25]/40 group-open:rotate-180 transition">⌄</span>
                       </summary>
-                      <div className="mt-3 text-[14px] lg:text-[16px] leading-relaxed text-[#140f25]/85 [&:a]:text-black text-start">
+                      <div className="mt-3 text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/85 [&:a]:text-black text-start">
                         {renderRichText(it.a)}
                       </div>
                     </details>
@@ -295,7 +295,7 @@ const rich = {
                  {quickItems.map((it) => (
   <div key={it.q}  className="rounded-2xl bg-[#f2edf9] p-4 lg:p-5 border border-black/5">
                       <p className="font-semibold text-[#140f25]">{it.q}</p>
-                      <p className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-relaxed">
+                      <p className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-[135%] lg:leading-relaxed">
                         {renderRichText(it.a)}
                       </p>
                     </div>
@@ -328,7 +328,7 @@ const rich = {
             </span>
           </summary>
 
-          <div className="mt-3 text-[14px] lg:text-[15px] leading-relaxed text-[#140f25]/90 text-start">
+          <div className="mt-3 text-[14px] lg:text-[15px] leading-[135%] lg:leading-relaxed text-[#140f25]/90 text-start">
           {renderRichText(item.a)}
           </div>
         </details>

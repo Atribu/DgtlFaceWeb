@@ -12060,6 +12060,23 @@
       "p3":""
     },
 
+     "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Teknik SEO; bir sitenin arama motorları tarafından doğru şekilde taranması, anlaşılması ve indexlenmesi için gerekli altyapı sağlığını kurar. Bu kapsam; site hızı ve Core Web Vitals (LCP, CLS, INP), mobil deneyim, sunucu yanıtları, tarama bütçesi, indeks kapsamı, canonical/noindex kullanımı, sitemap–robots uyumu, 301/302 yönlendirmeler ve 404/5xx hata temizliği gibi katmanları içerir. Otel sitelerinde yüksek çözünürlüklü görseller, çok dilli yapılar ve rezervasyon motoru entegrasyonları teknik SEO’yu ekstra kritik hâle getirir; çünkü hız, ölçümleme ve index yönetimi bozulduğunda organik görünürlük düşer ve kullanıcı OTA’ya kaçar. Sağlıklı bir teknik zemin; içerik ve backlink çalışmalarının etkisini büyütür, kullanıcı deneyimini iyileştirir ve dönüşüm oranlarını destekler. Teknik SEO genelde tek seferlik değil; audit + önceliklendirilmiş task listesi + uygulama + yeniden test döngüsüyle periyodik bakım gerektirir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; Teknik SEO’nun kapsamını, Core Web Vitals ve hız iyileştirmelerini, taranabilirlik–index yönetimini, yönlendirme/sitemap/robots yapılarını ve sık görülen teknik hataların SEO ve dönüşüme etkisini açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Teknik SEO nedir, neleri kapsar?”",
+    "q2": "“Core Web Vitals nedir, LCP CLS INP nasıl düzeltilir?”",
+    "q3": "“Sitem indexlenmiyor, Search Console’da nereden bakmalıyım?”",
+    "q4": "“301 yönlendirme, canonical ve robots.txt nasıl doğru kurgulanır?”",
+    "q5": "“Otel sitelerinde hız ve rezervasyon motoru SEO’yu nasıl etkiler?”"
+  },
+
     "sections": {
       "generalQuestions": {
         "title": "Teknik SEO’ya Genel Bakış",
@@ -12288,6 +12305,23 @@
       "voiceSummary": "Kısa Özet",
       "voiceQueries": "Arama Sorguları"
     },
+
+    "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Yerel SEO; sadece klasik organik sıralamalar değil, Google Haritalar ve local pack (3’lü paket) görünürlüğünü artırarak işletmeye çağrı, rota isteği ve web tıklaması (dolayısıyla direkt rezervasyon/satış) getiren optimizasyonların bütünüdür. Otel ve turizmde kullanıcıların büyük bölümü “bölge + otel türü” ve “otel adı + bölge” aramalarında Haritalar sonuçlarından karar verir. Bu yüzden Google Business Profile (kategori, açıklama, NAP, fotoğraflar, özellikler), yorum/puan stratejisi, NAP tutarlılığı (site + dizinler), lokal landing sayfaları ve Hotel/LocalBusiness schema birlikte yönetilmelidir. Doğru kurulum kısa vadede etkileşim metriklerini (çağrı/rota/web tıklaması) artırır; düzenli yorum, içerik ve citation uyumu ile 2–6 ay aralığında harita sıralaması daha belirgin şekilde güçlenir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; Yerel SEO’nun ne olduğunu, Google Haritalar ve local pack’te görünürlüğü artırmak için Google Business Profile optimizasyonu, yorum stratejisi, NAP tutarlılığı ve destinasyon bazlı içerik yaklaşımını açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Yerel SEO nedir, Google Haritalar’da nasıl yükselirim?”",
+    "q2": "“Google Business Profile’ı otel için nasıl optimize etmeliyim?”",
+    "q3": "“Yorumlar harita sıralamasını etkiler mi, nasıl yönetmeliyim?”",
+    "q4": "“NAP tutarlılığı nedir, neden önemli?”",
+    "q5": "“Near me / bana yakın aramalarında nasıl öne çıkarım?”"
+  },
 
     "intro": {
       "p1": "Yerel SEO; “Google’da ilk sayfada çıkmak”tan bir adım daha öteye geçip, Google Haritalar’da, local pack’te (3’lü paket) ve destinasyon bazlı aramalarda işletmenizi öne çıkarmak demektir. Özellikle otel ve turizm tarafında, kullanıcıların çok büyük bölümü “otel adı + bölge” veya “bölge + otel/işletme türü” araması yaptıktan sonra direkt harita sonuçlarından rota, telefon veya web sitesi tıklaması yapar.",
@@ -12547,6 +12581,23 @@
       "voiceSummary": "Kısa Özet",
       "voiceQueries": "Arama Sorguları"
     },
+
+    "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "İçerik SEO; blog yazmakla sınırlı olmayan, site içindeki tüm sayfaları (landing, oda/ürün, kampanya, SSS, blog) arama niyetine göre kurgulayıp organik trafikten gerçek iş sonucu (rezervasyon/satış/lead) üretmeye odaklanan süreçtir. Otel ve turizmde “yüksek trafik ama düşük dönüşüm” problemi genellikle yanlış niyet hedeflemekten (sadece genel rehber içerikler) ve içerik içinde net CTA + iç link mimarisinin kurulmamasından doğar. Doğru yaklaşım; konu kümeleri ve sayfa tipleriyle sağlam bir içerik mimarisi kurmak, başlık/meta kurgusunu CTR odaklı yapmak, içerikleri düzenli güncellemek/konsolide etmek ve ölçümü (GSC + GA4) dönüşüm metrikleriyle bağlamaktır. Teknik SEO altyapı, backlink otorite; içerik SEO ise doğru kullanıcıyı doğru aşamada yakalayan “niyet + sayfa + mesaj” bütünlüğüdür."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; içerik SEO’nun ne olduğunu, otel ve turizmde arama niyetine göre içerik mimarisinin nasıl kurulacağını, trafik yerine rezervasyon odaklı sayfa/blog kurgusunu ve içerik güncelleme–konsolidasyon stratejilerini anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“İçerik SEO nedir, blog yazmaktan farkı ne?”",
+    "q2": "“Otel sitesi için rezervasyon getiren içerik nasıl planlanır?”",
+    "q3": "“Arama niyeti nedir, landing page mi blog mu seçmeliyim?”",
+    "q4": "“Eski blog içeriklerini silmeli miyim yoksa güncellemeli miyim?”",
+    "q5": "“Başlık ve meta açıklama nasıl yazılır, CTR nasıl artırılır?”"
+  }, 
 
     "intro": {
       "p1": "İçerik SEO; “kelime ekledim, blog yazdım” seviyesinin ötesinde, sayfa ve blog içeriklerini arama niyetine göre kurgulayıp hem organik trafik hem de rezervasyon/satışa katkı sağlayacak şekilde planlama işidir. Özellikle otel ve turizm tarafında; sadece “Antalya’da gezilecek yerler” gibi çok trafik alan ama rezervasyon getirmeyen içerikler yerine, doğru kitleyi doğru niyetle yakalayan içerik mimarisi kritik hâle gelir.",
@@ -12855,6 +12906,23 @@
       "voiceQueries": "Arama Sorguları"
     },
 
+    "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Backlink yönetimi; sadece “link almak” değil, sitenize gelen bağlantıların kalitesini, alakasını ve riskini yönetme sürecidir. Otel ve turizm gibi rekabetin yüksek olduğu sektörlerde, doğru kaynaklardan gelen doğal linkler görünürlüğü ve güven sinyalini artırırken; PBN, spam dizinler ve satın alınmış link ağları manuel işlem riskine kadar gidebilen ciddi zararlar doğurabilir. Sağlıklı bir backlink stratejisi; önce mevcut link profilini audit ederek riskli bağlantıları sınıflandırır (kaldırma/temizlik/disavow kararları), sonra içerik + dijital PR + iş ortaklıkları gibi sürdürülebilir yöntemlerle yeni ve ilgili referans domain’ler üretir. Başarı; “kaç link aldık?”tan çok, referans domain kalitesi, risk oranının düşmesi, organik görünürlük/traffic trendleri ve iş hedeflerine (rezervasyon/lead/gelir) katkı üzerinden ölçülmelidir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; backlink’in ne işe yaradığını, zararlı link risklerini nasıl yöneteceğini, otel ve kurumsal siteler için güvenli link kaynaklarını ve backlink performansının nasıl raporlanacağını anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Backlink yönetimi nedir, otel sitesi için neden önemlidir?”",
+    "q2": "“Zararlı backlink nasıl anlaşılır, disavow ne zaman yapılır?”",
+    "q3": "“DoFollow ve NoFollow farkı SEO’da ne kadar önemli?”",
+    "q4": "“Backlink satın almak neden riskli, manuel işlem nasıl önlenir?”",
+    "q5": "“Backlink performansını hangi metriklerle takip etmeliyim?”"
+  },
+
     "intro": {
       "p1": "Backlink yönetimi; sadece “link almak” değil, sitenize gelen bağlantıların kalitesini, uyumunu ve risk düzeyini yönetme sürecidir. Yani hem doğru kaynaklardan otorite kazanmayı, hem de geçmişte alınmış kalitesiz/şüpheli bağlantıların zarar vermesini önlemeyi kapsar. Özellikle otel ve turizm sitelerinde, yanlış backlink stratejileri manuel işleme (manuel işlem cezası) kadar giden riskler taşıyabilir.",
       "p2": "Bu SSS sayfası; backlink yönetimi ile ilgili en sık sorulan soruları, otorite artırımı, link temizliği, riskli bağlantı analizi ve otel/kurumsal siteler için doğru backlink stratejisi üzerinden yanıtlar. Hangi linklerin faydalı, hangilerinin zararlı olduğunu, manuel işlem riskinin nasıl azaltılacağını ve oteller için sektör uyumlu bağlantı kaynaklarının nasıl seçileceğini pratik bir dille açıklar.",
@@ -13157,6 +13225,23 @@
       "voiceSummary": "Kısa Özet",
       "voiceQueries": "Arama Sorguları"
     },
+
+    "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "SEO raporlama; sadece “kaçıncı sıradayız?” takibi değil, organik kanalın trafik kalitesini, dönüşüm ve gelir katkısını görünür kılan karar destek sistemidir. Otel ve turizmde SEO doğru raporlanmadığında; kanal karması (OTA–direct–reklam), içerik yatırımı ve bütçe kararları sezona rağmen ‘tahminle’ verilir. Sağlıklı raporlama; Search Console (görünürlük/sorgu), GA4 (davranış/dönüşüm/gelir), keyword tracking (pozisyon & görünürlük) ve bir dashboard (Looker Studio vb.) katmanını aynı dilde birleştirir. Raporun hedefi tablo üretmek değil; hangi sayfaların ve hangi sorguların iş değeri ürettiğini göstermek, düşüşleri erken yakalamak ve bir sonraki ayın aksiyonlarını (içerik güncelleme, yeni sayfa, teknik öncelik, pazar odağı) netleştirmektir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; SEO raporunun sadece sıralama değil trafik–dönüşüm–gelir üçlüsünü nasıl okuduğunu, Search Console ve GA4 verisini nasıl bir panelde birleştireceğini ve raporu iş kararlarına nasıl bağlayacağını anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“SEO raporlama nedir, raporda neler olmalı?”",
+    "q2": "“Search Console ve GA4 verisi nasıl birlikte okunur?”",
+    "q3": "“Otel için SEO raporunda rezervasyon ve gelir nasıl takip edilir?”",
+    "q4": "“Sadece sıralamaya bakmak neden yeterli değil?”",
+    "q5": "“Organik trafik düştü: raporda nereden başlamalıyım?”"
+  },
 
     "intro": {
       "p1": "SEO raporlama; sadece “kaç kelimede kaçıncı sıradayız?” sorusuna bakmak değil, organik trafiğin kalitesini, dönüşüm ve gelir katkısını net şekilde görebileceğiniz, karar almaya yardımcı bir yapı kurmak demektir. Özellikle otel ve turizmde, SEO raporlarını doğru okumadan kanal karması, bütçe ve içerik kararlarını sağlıklı almak neredeyse imkânsızdır.",
@@ -13475,6 +13560,23 @@
     "p2":"Bu SSS sayfası, Sosyal Medya İçerik Üretimi ile ilgili en sık sorulan soruları; içerik takvimi, format seçimi (post, reels, story), marka tonu, otel/lifestyle senaryoları ve performans takibi üzerinden cevaplar. Amaç, sadece post üretmek değil; rezervasyon, marka algısı ve topluluk tarafında gerçekten işimize yarayan bir sistem kurmayı anlatmaktır.",
     "p3":""
     },
+
+     "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Sosyal medya içerik üretimi; “aradan çıkaralım bir post” değil, marka tonu ve hedef kitleyle uyumlu, planlı ve sonuç odaklı bir üretim sistemidir. Otel ve turizm tarafında düzensiz ya da yanlış kurgulanmış içerikler; düşük etkileşim, zayıf marka algısı ve boşa giden prodüksiyon bütçesi demektir. Sağlıklı bir içerik modeli; aylık içerik takvimi, doğru format dengesi (post–reels–story), konsept ve kategori setleri (oda/tesis, destinasyon, gastronomi, misafir deneyimi, kampanya, perde arkası) ve performans takibiyle beslenen bir test–öğren–optimize döngüsü kurar. Amaç sadece paylaşım yapmak değil; güven üretmek, site/rezervasyon trafiği yaratmak ve topluluğu büyütmektir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; içerik üretimi ile sosyal medya yönetimi farkını, aylık içerik takvimini nasıl kuracağınızı, post–reels–story dengesini ve içeriklerin rezervasyon/talep tarafına katkısını açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Sosyal medya içerik üretimi nedir, neleri kapsar?”",
+    "q2": "“Otel için aylık içerik takvimi nasıl hazırlanır?”",
+    "q3": "“Reels mi post mu story mi: oran nasıl olmalı?”",
+    "q4": "“Sosyal medya içerikleri rezervasyona nasıl katkı sağlar?”",
+    "q5": "“Ajans mı iç ekip mi, hibrit model nasıl kurulur?”"
+  },
     
   "sections":{
         "generalQuestions": {
@@ -13744,6 +13846,23 @@
       "voiceQueries": "Arama Sorguları"
     },
 
+      "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Sosyal medya planlama & strateji; “canımız istediğinde paylaşım yapmak” yerine, doğru kanallarda doğru içerik kategorileri ve kampanya kurgularıyla net KPI’lara bağlı, ölçülebilir bir sistem kurmaktır. Otel ve turizm tarafında yanlış kanal seçimi, dağınık mesaj ve ölçülemeyen hedefler hem zaman hem bütçe israfına yol açar. Sağlıklı bir strateji; kanal rolleri (IG çekirdek, FB destek, TikTok keşif, YouTube derin anlatım), içerik sütunları (oda/tesis, destinasyon, gastronomi, misafir deneyimi, kampanya, perde arkası), 30 günlük planlama mantığı ve içerik–reklam–kampanya entegrasyonunu tek takvimde birleştirir. Amaç; “ne zaman ne paylaşacağız?” kaosunu bitirip, tekrar edilebilir bir takvim + KPI setiyle düzenli optimizasyon yapan yaşayan bir strateji dokümanı oluşturmaktır."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bu SSS; hangi kanallarda olmanız gerektiğini, 30 günlük planı nasıl kuracağınızı, içerik–reklam–kampanya bağlantısını ve KPI’ları nasıl tanımlayıp takip edeceğinizi netleştirir."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Otel için sosyal medya stratejisi nasıl hazırlanır?”",
+    "q2": "“Hangi sosyal medya kanallarında var olmalıyım?”",
+    "q3": "“30 günlük sosyal medya planı nasıl yapılır?”",
+    "q4": "“İçerik planı ile reklam kampanyasını nasıl bağlarım?”",
+    "q5": "“Sosyal medya KPI’ları nasıl belirlenir ve takip edilir?”"
+  },
+
     "intro": {
         "p1":"Sosyal medyada başarılı olmak; “fırsat buldukça post atmak” değil, doğru kanallarda, doğru içerik kategorileri ve doğru kampanya kurgularıyla, net KPI’lara bağlı bir sistem kurmaktan geçer. Özellikle otel ve turizm tarafında, yanlış kanal seçimi, dağınık strateji ve ölçülemeyen hedefler; hem zaman hem de bütçe israfına yol açar.",
         "p2":"Bu SSS sayfası; Sosyal Medya Planlama & Strateji ile ilgili en sık sorulan soruları bir araya getirir:\n• Hangi kanallarda var olmalıyım?\n• Aylık planı nasıl hazırlamalıyım?\n• İçerik, reklam ve kampanya planı birbirine nasıl bağlanır?\n• KPI’larımı nasıl tanımlayıp takip etmeliyim?",
@@ -14001,7 +14120,7 @@
 
 "cta": {
       "primary": "Sosyal medya Planlama & Strateji hizmeti talep edin",
-      "primaryHref": "/Services/smm/reels-video",
+      "primaryHref": "/Services/smm/socialMediaPlanning",
       "secondary": "Sosyal Medya Yönetimi",
       "secondaryHref": "/Services/smm"
     }
@@ -14024,6 +14143,23 @@
      "p2":"Bu SSS sayfası; Reels & Kısa Video Üretimi ile ilgili en sık sorulan soruları; <ul><li>dikey video stratejisi, </li><li>Instagram/TikTok algoritmaları,</li><li> hook–içerik–CTA kurgusu,</li><li> otel ve lifestyle tanıtım içerikleri </li><li> performans ve raporlama </li></ul>üzerinden adım adım açıklar. Amaç, sadece izlenen değil; <b>kaydedilen, paylaşılan ve rezervasyon/talep yaratan</b> kısa videolar üretmek için net bir çerçeve oluşturmaktır.",
      "p3":""
     },
+
+     "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Reels ve kısa videolar; sadece “algoritmanın sevdiği format” değil, marka hikâyesini en hızlı aktaran ve talep yaratmaya en yakın içerik türüdür. Otel ve turizmde misafir karar vermeden önce atmosferi (oda, havuz, plaj, yemek, eğlence) kısa videolarda görmek ister. Başarılı bir kısa video üretimi; dikey video stratejisi, platform dinamikleri (IG/TikTok/Shorts), hook–içerik–CTA kurgusu, doğru çekim planı ve performans ölçümü (izlenme süresi, tamamlanma, kaydetme/paylaşma, tıklama ve rezervasyon katkısı) ile yürütülen sürekli bir test–öğren–optimize döngüsüdür. Hedef; sadece izlenen değil, kaydedilen, paylaşılan ve rezervasyon/talep üreten içerikler üretmektir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Reels & Kısa Video SSS; dikey video stratejisini, hook–içerik–CTA kurgusunu, otel/lifestyle içerik temalarını ve performans ölçümünü pratik bir çerçevede açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Otel için Reels içerik planı nasıl hazırlanır?”",
+    "q2": "“İlk 3 saniyeyi güçlü yapmak için hangi teknikler kullanılır?”",
+    "q3": "“Reels izleniyor ama kaydetme yok; neyi değiştirmeliyim?”",
+    "q4": "“TikTok ve Instagram için aynı videoyu nasıl uyarlamalıyım?”",
+    "q5": "“Reels’in rezervasyona katkısını nasıl ölçerim?”"
+  },
   
     "sections":{
       "generalQuestions": {
@@ -14314,6 +14450,23 @@
         "p2":"Bu SSS sayfası, Sosyal Medya Reklamları ile ilgili en sık sorulan soruları; kanal ve kampanya türü seçimi, hedefleme ve bütçe planlaması, remarketing ve funnel kurgusu, ROAS odaklı optimizasyon ve Türkiye + hedef ülke pazar senaryoları üzerinden, otel & turizm + e-ticaret odaklı bir bakışla cevaplıyor.",
         "p3":""
     },
+
+    "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Sosyal medya reklamları; “postu boost edelim” yaklaşımından çıkıp Meta Ads ve TikTok Ads üzerinden ölçülebilir talep üretme disiplinidir. Otel, turizm ve e-ticarette yanlış kurgu; yüksek gösterim ve tıklama üretip gerçek satış/rezervasyon getirmeyen pahalı bir gürültüye dönüşebilir. Sağlıklı yapı; doğru kurulum (Business Manager, Pixel + CAPI, event’ler), funnel mimarisi (cold → warm → hot), güçlü kreatif testleri, remarketing ve net KPI’larla (CPA/ROAS) sürekli optimize edilen bir sistemdir. Bu SSS; kanal/kampanya seçimi, hedefleme–bütçe planı, remarketing ve ROAS odaklı optimizasyonu Türkiye + hedef ülke pazar senaryolarıyla pratik bir çerçeveye oturtur."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Sosyal medya reklamları SSS; Meta/TikTok kampanyalarını doğru kurup ölçümleyerek, hedefleme ve remarketing ile satış/rezervasyon odaklı performans üretmeyi anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Boost yapmakla Ads Manager kampanyası arasındaki fark nedir?”",
+    "q2": "“Çok gösterim var ama satış yok; nerede hata yapıyorum?”",
+    "q3": "“Otel reklamlarında remarketing funnel nasıl kurulmalı?”",
+    "q4": "“Pixel ve Conversion API olmadan performans reklamı yapılır mı?”",
+    "q5": "“ROAS’ı artırmak için hangi testleri yapmalıyım?”"
+  },
 
  "sections":{
      "generalQuestions": {
@@ -14624,6 +14777,23 @@
       "voiceQueries": "Arama Sorguları"
     },
 
+     "aiCapsule": {
+    "title": "Kısa Özet",
+    "text": "Sosyal medya analiz & raporlama; takipçi sayısı gibi tekil metriklere takılmadan, erişim–etkileşim–kaydetme–tıklama–dönüşüm verileriyle hangi içerik ve kampanyaların gerçekten iş hedeflerine katkı sağladığını ortaya çıkarır. Otel & turizm tarafında sezonsallık, pazar (ülke/dil) kırılımı ve rezervasyon/lead akışı nedeniyle doğru KPI seti ve doğru okuma kritik hâle gelir. Bu SSS; Reels/post/story performansını doğru kıyaslamayı, “erişim var ama etkileşim yok” gibi durumları yorumlamayı ve raporların içerik + reklam stratejisini aksiyona dönüştürecek şekilde nasıl kullanılacağını netleştirir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Sosyal Medya Analiz & Raporlama SSS; içerik ve reklam performansını erişim, etkileşim, tıklama ve dönüşüm verileriyle ölçmeyi; KPI’ları doğru seçip raporu aksiyona çevirmeyi anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Erişim var ama etkileşim yok; neyi değiştirmeliyim?”",
+    "q2": "“Reels performansını hangi metriklerle doğru ölçerim?”",
+    "q3": "“Otel sosyal medya raporunda hangi KPI’lar olmalı?”",
+    "q4": "“Organik mi reklam mı daha çok rezervasyon getiriyor; nasıl anlarım?”",
+    "q5": "“Aylık sosyal medya raporunu aksiyona nasıl çeviririm?”"
+  },
+
     "intro": {
       "p1":"Sosyal medya analizi; “kaç takipçimiz oldu?” sorusunun çok ötesinde, erişim – etkileşim – kaydetme – tıklama – dönüşüm verileriyle hem içerik hem reklam tarafında gerçekten ne iş yaptığımızı anlamamızı sağlar. Özellikle otel ve turizm tarafında, yanlış okunan metrikler ve okunmayan raporlar yüzünden; güzel içeriklere rağmen yanlış kampanyalar, yanlış bütçe kararları ve boşa giden prodüksiyon maliyetleri ortaya çıkar.",
        "p2":"Bu SSS sayfası; Sosyal Medya Analiz & Raporlama konusunda:<ul><li>Hangi KPI’lara bakmalıyız?</li><li>Reels / post / story performansını nasıl yorumlamalıyız?</li><li>Erişim var ama etkileşim yoksa ne anlama geliyor?</li><li>Raporlar içerik ve reklam stratejisini nasıl besler?</li></ul>gibi soruları, otel & turizm + marka iletişimi perspektifinden netleştiren bir çerçeve sunar.",
@@ -14915,23 +15085,21 @@
     },
 
      "aiCapsule": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceSummary": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceQueries": {
-      "title": " Örnek Sorgular",
-      "q1": "",
-      "q2": "",
-      "q3": "",
-      "q4": "",
-      "q5": ""
-    },
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Web sitesi geliştirme; tasarımın ötesinde, markanız için hızlı, güvenli, SEO dostu ve kolay yönetilebilir bir dijital altyapı kurma sürecidir. Otel ve turizm tarafında site; misafirin ilk izlenimini oluşturur ve rezervasyon kararını doğrudan etkiler. Bu SSS; doğru site mimarisi, Next.js gibi modern altyapıların SEO/hız katkısı, rezervasyon/PMS entegrasyonu, Core Web Vitals odaklı performans yaklaşımı ve yayın sonrası bakım–destek gibi kritik başlıklarda uygulanabilir bir çerçeve sunar."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Web Sitesi Geliştirme SSS; kurumsal ve otel sitelerinde doğru mimariyi kurmayı, modern altyapılarla hız ve SEO avantajı kazanmayı, rezervasyon/PMS entegrasyonunu sorunsuz tasarlamayı ve yayın sonrası bakım–performans yönetimini anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Otel web sitesi yaptırırken en önemli 5 kriter nedir?”",
+    "q2": "“Next.js web sitesi SEO için iyi mi?”",
+    "q3": "“Core Web Vitals (LCP, CLS, INP) nasıl iyileştirilir?”",
+    "q4": "“Rezervasyon motoru / PMS entegrasyonu en sağlıklı nasıl yapılır?”",
+    "q5": "“Mevcut yavaş web sitemi bozmadan nasıl modernize ederim?”"
+  },
 
 
     "sections": {
@@ -15223,23 +15391,21 @@
     },
 
       "aiCapsule": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceSummary": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceQueries": {
-      "title": " Örnek Sorgular",
-      "q1": "",
-      "q2": "",
-      "q3": "",
-      "q4": "",
-      "q5": ""
-    },
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "CMS entegrasyonu; web sitenizin içerik yönetimini (sayfalar, blog, kampanya, oda/paket gibi içerikler) pazarlama ekibinin IT’ye bağımlı kalmadan yönetebilmesi için panel + içerik modeli + entegrasyon + yetkilendirme bütünüdür. Doğru kurgu; çok dilli içerik, rol/yetki, onay akışı ve SEO alanlarının düzenli yönetilmesini sağlar; yanlış kurgu ise her değişikliği geliştiriciye bağımlı hâle getirir ve siteyi “dokunulamaz” yapar. Bu sayfa; WordPress, headless/özel CMS seçenekleri, çok dilli yapı, rezervasyon/PMS ve CRM entegrasyonları ile güvenlik–performans dengesi gibi pratik başlıklara odaklanır."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "CMS Entegrasyonu SSS; WordPress veya headless CMS gibi panelleri web sitenize güvenli ve performanslı bağlayarak çok dilli içerikleri, rol/yetki ve onay akışlarını, entegrasyonları (PMS/CRM) ve SEO alanlarını kolay yönetilebilir hâle getirmeyi anlatır."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“CMS entegrasyonu nedir ve neden gerekli?”",
+    "q2": "“WordPress mi headless CMS mi, hangisini seçmeliyim?”",
+    "q3": "“Çok dilli içerik yönetimini CMS’te nasıl kurarım?”",
+    "q4": "“CMS panelinde rol ve yetkileri nasıl ayarlamalıyım?”",
+    "q5": "“Otel sitemde CMS ile kampanya/oda/paket içeriklerini nasıl yönetirim?”"
+  },
 
     "sections": {
       "generalQuestions": {
@@ -15506,23 +15672,21 @@
     },
 
       "aiCapsule": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceSummary": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceQueries": {
-      "title": " Örnek Sorgular",
-      "q1": "",
-      "q2": "",
-      "q3": "",
-      "q4": "",
-      "q5": ""
-    },
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "KVKK uyumu; web sitesine “metin eklemekten” ibaret değil, otel ve kurumsal yapılarda PMS–OTA–web–çağrı merkezi–CRM gibi kanallar arasında akan kişisel verinin uçtan uca kontrol edilmesidir. Bu sayfa; veri minimizasyonu, aydınlatma–rıza kurgusu, çerez yönetimi (kategori bazlı izin), erişim yetkileri ve loglama, saklama süreleri ve imha/anonimleştirme süreçleri gibi teknik ve operasyonel başlıkları bir araya getirir. Amaç; denetlenebilir bir veri düzeni kurmak, ihlal ve uyumsuzluk riskini azaltmak ve misafir/müşteri verisini daha güvenli yönetmektir. İçerik hukuki tavsiye değildir; nihai yorum ve kararlar için hukukçunuzla birlikte çalışılmalıdır."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "KVKK Uyum SSS; web ve yazılım altyapınızda kişisel veriyi doğru amaçla, doğru izinle, güvenli biçimde işlemek için çerez yönetimi, erişim kontrolü, loglama, saklama ve imha süreçlerinin nasıl kurgulanacağını teknik–operasyonel bakışla açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“KVKK uyumlu web sitesi tam olarak ne demek?”",
+    "q2": "“Çerez banner’ı ve izin ekranı nasıl doğru kurgulanır?”",
+    "q3": "“PMS, OTA, CRM ve web arasında veri akışı nasıl kontrol edilir?”",
+    "q4": "“KVKK için loglama ve saklama süreleri nasıl belirlenir?”",
+    "q5": "“KVKK denetimine teknik olarak nasıl hazırlanırım?”"
+  },
 
     "sections": {
       "generalQuestions": {
@@ -15785,23 +15949,21 @@
     },
 
      "aiCapsule": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceSummary": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceQueries": {
-      "title": " Örnek Sorgular",
-      "q1": "",
-      "q2": "",
-      "q3": "",
-      "q4": "",
-      "q5": ""
-    },
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Bu Sunucu Güvenlik SSS sayfası; “hosting + SSL yeter” yaklaşımının modern web dünyasında neden yetersiz kaldığını ve otel & turizm / kurumsal yapılarda veri ve hizmet sürekliliğini korumak için hangi katmanların birlikte yönetilmesi gerektiğini özetler. SSL/TLS, firewall ve WAF, DDoS koruması, erişim yönetimi (IAM), yedekleme–geri yükleme testleri, loglama–izleme ve Next.js / modern dağıtım mimarilerinde (CDN, edge, serverless, env/secrets) güvenlik optimizasyonu gibi başlıklarda “risk azaltma” odaklı bir çerçeve sunar. İçerik bilgilendirme amaçlıdır; kritik sistemlerde pentest ve uzman danışmanlıkla desteklenmelidir."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Sunucu Güvenlik SSS; SSL, firewall/WAF, DDoS koruması, erişim yönetimi, yedekleme, loglama ve modern Next.js altyapılarında doğru konfigürasyon ile web sitenizi ve verilerinizi saldırılara karşı daha dayanıklı hâle getirmenin temel prensiplerini açıklar."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Sunucu güvenliği nedir, web sitesi güvenliğinden farkı ne?”",
+    "q2": "“Otel web sitesi için en kritik güvenlik önlemleri neler?”",
+    "q3": "“SSL/TLS sertifikası tek başına yeterli mi?”",
+    "q4": "“DDoS saldırısına karşı nasıl korunurum?”",
+    "q5": "“Yedekleme ve loglama nasıl doğru kurgulanır?”"
+  },
 
     "sections": {
       "generalQuestions": {
@@ -16065,23 +16227,21 @@
     },
 
      "aiCapsule": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceSummary": {
-      "title": "Kısa Özet",
-      "text": ""
-    },
-
-    "voiceQueries": {
-      "title": " Örnek Sorgular",
-      "q1": "",
-      "q2": "",
-      "q3": "",
-      "q4": "",
-      "q5": ""
-    },
+    "title": "Kısa Özet (Genel Bakış)",
+    "text": "Bu Bakım & Destek Hizmetleri SSS sayfası; canlıya alınmış web siteleri ve dijital altyapılar için bakımın “opsiyonel” değil, iş sürekliliği için zorunlu bir süreç olduğunu netleştirir. Versiyon güncellemeleri, güvenlik yamaları, uptime izleme, hata/log takibi, performans iyileştirme ve içerik/deploy akışları gibi kritik başlıklarda; özellikle otel & kurumsal projelerde rezervasyon/lead kaybı ve itibar riski yaratabilecek sorunları önlemeye odaklanır. Amaç; reaktif ‘arıza çıkınca müdahale’ yaklaşımı yerine, planlı izleme + SLA ile daha hızlı çözüm, daha az kesinti ve daha yüksek performans sağlayan sürdürülebilir bir bakım modeli kurmaktır."
+  },
+  "voiceSummary": {
+    "title": "Kısa Özet",
+    "text": "Bakım & Destek SSS; web sitenizin canlıda güvenli, hızlı ve sorunsuz kalması için güncelleme, güvenlik, uptime izleme, hata takibi ve performans optimizasyonunun nasıl yönetileceğini; otel ve kurumsal projelerde kesinti ve gelir kaybı riskini azaltacak şekilde özetler."
+  },
+  "voiceQueries": {
+    "title": "Örnek Sorgular",
+    "q1": "“Web sitesi bakım ve destek nedir?”",
+    "q2": "“Otel web sitesi için bakım anlaşması gerekli mi?”",
+    "q3": "“Bakım anlaşması ile gerektiğinde çağırma arasındaki fark nedir?”",
+    "q4": "“Web sitesi yavaşladı, neden olur ve nasıl çözülür?”",
+    "q5": "“Uptime izleme ve SLA ne demek?”"
+  },
 
     "sections": {
       "generalQuestions": {
@@ -17732,6 +17892,709 @@
       "secondaryHref": "/Services/creative"
     }
 
-}
+},
+
+ "Faq4LangCallCenter": {
+    "h1": "4 Dilli Çağrı Merkezi SSS",
+
+    "intro": {
+      "p1": "4 dilli çağrı merkezi; “İngilizce bilen bir resepsiyonistimiz var, gerekirse o bakar” seviyesinden çok daha ileri, TR–EN–DE–RU dillerinde standart, satış odaklı ve PMS/OTA entegre bir iletişim yapısı demektir. Özellikle Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlarda, dil bariyeri nedeniyle kaçan rezervasyon sayısı sanıldığından çok daha fazladır.",
+      "p2": "Bu SSS sayfası; TR–EN–DE–RU dillerinde çağrı karşılama, rezervasyon yönetimi, misafir soruları ve şikâyet süreçleri ile PMS/OTA entegrasyonu ve performans raporlaması etrafında, 4 Dilli Çağrı Merkezi hizmetine dair en sık sorulan soruları yanıtlar.",
+      "p3": ""
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "4 Dilli Çağrı Merkezi Nedir? (Genel Sorular)",
+        "items": [
+          {
+            "q": "4 dilli çağrı merkezi tam olarak nedir?",
+            "a": "4 dilli çağrı merkezi; otelinizin telefon, WhatsApp, web chat, OTA mesajları ve benzeri kanallarından gelen misafir taleplerini Türkçe, İngilizce, Almanca ve Rusça dillerinde profesyonel şekilde karşılayan, rezervasyon ve bilgi süreçlerini yöneten misafir iletişim birimidir. Amaç, her dilden misafire aynı standartta, satış odaklı ve PMS entegre bir deneyim sunmaktır."
+          },
+          {
+            "q": "4 dilli çağrı merkezi hangi dilleri kapsar?",
+            "a": "<ul><li>TR – Türkçe,</li><li>EN – İngilizce,</li><li>DE – Almanca,</li><li>RU – Rusça.</li></ul>Bu dört dil, Akdeniz ve Ege resort pazarında ana misafir segmentlerinin büyük bölümünü kapsar. İhtiyaca göre farklı diller ilerleyen aşamalarda eklenebilir."
+          },
+          {
+            "q": "Otelim için neden çok dilli çağrı merkezine ihtiyaç duyabilirim?",
+            "a": "Çünkü özellikle Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlarda misafirler sizinle kendi dillerinde iletişim kurmak ister. Dil bariyeri olduğunda:<ul><li>rezervasyon süreci yarıda kalır,</li><li>fiyat ve konsept yanlış anlaşılır,</li><li>memnuniyet ve yorum skorları düşer.</li></ul>4 dilli çağrı merkezi, bu kayıpları azaltarak rezervasyon, memnuniyet ve marka algısını birlikte güçlendirir."
+          },
+          {
+            "q": "4 dilli çağrı merkezi ile resepsiyon / ön büro arasındaki fark nedir?",
+            "a": "Resepsiyon sahada fiziksel misafir akışını yönetirken, çağrı merkezi çoğunlukla off-site veya back office çalışır ve:<ul><li>rezervasyon talepleri,</li><li>fiyat ve müsaitlik bilgisi,</li><li>teklif ve opsiyon yönetimi,</li><li>şikâyet ve talep kayıtları</li></ul>gibi konuları telefon ve dijital kanallar üzerinden yürütür. 4 dilli yapı, özellikle yoğun sezonda resepsiyonun yükünü ciddi şekilde azaltır."
+          },
+          {
+            "q": "4 dilli çağrı merkezi sadece rezervasyondan mı sorumludur?",
+            "a": "Hayır. Kapsam ihtiyaca göre genişletilebilir ve:<ul><li>sık sorulan soruların yanıtlanması (transfer, konum, otel kuralları),</li><li>şikâyet ve talep yönetimi,</li><li>upsell ve cross-sell (oda yükseltme, ek hizmetler),</li><li>konaklama öncesi, sırası ve sonrası misafir iletişimi</li></ul>gibi süreçleri de içerebilir."
+          },
+          {
+            "q": "4 dilli çağrı merkezi sadece resort oteller için mi mantıklı?",
+            "a": "Hayır. City oteller, butik oteller, adults-only konseptler ve MICE odaklı oteller için de özellikle Almanca, Rusça ve İngilizce pazarlardan direkt talep alan yapılarda oldukça etkilidir."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama Kısa Soruları",
+        "items": [
+          {
+            "q": "4 dilli çağrı merkezi tam olarak nedir?",
+            "a": "TR–EN–DE–RU dillerinde telefon, WhatsApp ve dijital kanallardan gelen misafir taleplerini profesyonel şekilde karşılayan çok dilli rezervasyon ve misafir iletişim hattıdır."
+          },
+          {
+            "q": "TR–EN–DE–RU dillerinde rezervasyon hattı nasıl çalışır?",
+            "a": "Misafir kendi dilinde arar veya yazar; çağrı merkezi temsilcisi o dilde görüşmeyi yönetir, PMS veya OTA üzerinden uygunluk ve fiyatı kontrol eder, teklifi sunar ve rezervasyonu oluşturur."
+          },
+          {
+            "q": "Dil bariyeri rezervasyon dönüşümünü nasıl etkiler?",
+            "a": "Misafir kendini ifade edemediğinde veya anlatılanı net anlamadığında, çoğu zaman iletişimi daha rahat kurabildiği başka bir oteli tercih eder. Bu da doğrudan kaçan rezervasyon anlamına gelir."
+          },
+          {
+            "q": "Çağrı merkezi PMS ve OTA ile entegre çalışır mı?",
+            "a": "Evet. Temsilciler PMS üzerinden oda, fiyat ve müsaitlik bilgilerini görür; OTA’dan gelen mesaj ve talepleri de aynı sistem üzerinden yönetebilir."
+          },
+          {
+            "q": "4 dilli çağrı merkezi kimler için uygundur?",
+            "a": "Türkiye genelinde özellikle Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlarda TR–EN–DE–RU pazarlarına çalışan resort ve şehir otelleri için uygundur."
+          },
+          {
+            "q": "4 dilli çağrı merkezi misafir memnuniyetini nasıl artırır?",
+            "a": "Misafir kendi dilinde hızlı ve net yanıt aldığında kendini güvende hisseder; bu da rezervasyon sürecinden konaklama sonrası yorumlara kadar memnuniyet seviyesini yükseltir."
+          }
+        ]
+      },
+
+       "section3": {
+    "title": "Hizmet Kapsamı: TR–EN–DE–RU Dillerinde Çağrı & Rezervasyon",
+    "items": [
+      {
+        "q": "4 dilli çağrı merkezi hangi süreçleri kapsar?",
+        "a": "<ul><li>inbound ve outbound çağrılar (TR–EN–DE–RU),</li><li>telefon, WhatsApp, web chat ve OTA mesajlarının yönetimi,</li><li>rezervasyon ve opsiyon süreçleri,</li><li>bilgi ve sık sorulan soruların yanıtlanması,</li><li>şikâyet ve talep kaydı oluşturma,</li><li>PMS ve OTA üzerinden rezervasyon açma ve güncelleme,</li><li>performans ve misafir memnuniyeti raporlaması.</li></ul>"
+      },
+      {
+        "q": "TR–EN–DE–RU dillerinde rezervasyon hattı nasıl yapılandırılır?",
+        "a": "<ul><li>her dil için önceden tanımlanmış görüşme ve satış script’leri,</li><li>dil bazlı çağrı yönlendirmesi (IVR veya ön filtreleme),</li><li>temsilcilerin dil yetkinliklerine göre vardiya planlaması,</li><li>dil bazlı performans ve dönüşüm raporlarının hazırlanması.</li></ul>"
+      },
+      {
+        "q": "4 dilli çağrı merkezinde script ve eğitim süreci nasıl yürür?",
+        "a": "Her dil için karşılama, ihtiyaç analizi, teklif ve kapanış aşamalarını kapsayan standart script’ler hazırlanır. Eğitim sürecinde:<ul><li>otel ve konsept bilgisi,</li><li>satış ve ikna teknikleri,</li><li>misafir iletişimi,</li><li>kültürel farklılıklar (ör. Alman, Rus, Britanyalı misafir davranışları)</li></ul>ele alınır. Sadece dil bilmek yeterli değildir; satış ve misafir deneyimi eğitimi de zorunludur."
+      },
+      {
+        "q": "Çağrı merkezi PMS ve OTA ile nasıl entegre olur?",
+        "a": "<ul><li>temsilciler PMS üzerinden gerçek zamanlı uygunluk ve fiyat bilgisi görür,</li><li>rezervasyon açma ve güncelleme işlemlerini yapabilir,</li><li>OTA’dan gelen mesaj ve talepleri sistem üzerinden yönetir,</li><li>kanal bazlı rezervasyon ve gelir raporlarına veri sağlar.</li></ul>"
+      },
+      {
+        "q": "4 dilli çağrı merkezi sadece telefonla mı çalışır?",
+        "a": "Hayır. Genellikle:<ul><li>telefon,</li><li>WhatsApp,</li><li>web chat,</li><li>OTA mesaj kutuları,</li><li>bazı durumlarda sosyal medya DM’leri</li></ul>tek bir çok dilli yapı altında birlikte yönetilir. Misafir hangi kanalı seçerse seçsin, aynı standartta ve kendi dilinde hizmet alır."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Süreç & İşleyiş: Kurulum, Vardiya, Kalite",
+    "items": [
+      {
+        "q": "4 dilli çağrı merkezi kurulumuna nasıl başlanır?",
+        "a": "<ul><li>hedef pazar ve dil setinin netleştirilmesi (TR–EN–DE–RU ve ek diller),</li><li>mevcut çağrı hacmi ve kullanılan kanalların analizi,</li><li>çalışma saatleri ve sezonluk yoğunlukların belirlenmesi,</li><li>PMS ve OTA entegrasyon ihtiyaçlarının tespiti,</li><li>script ve eğitim planının hazırlanması,</li><li>pilot dönem ve optimizasyon süreci.</li></ul>"
+      },
+      {
+        "q": "Vardiya ve çalışma saatleri çok dilli yapıda nasıl planlanır?",
+        "a": "<ul><li>hedef pazarların saat dilimleri,</li><li>sezonluk talep yoğunluğu,</li><li>misafirlerin en sık iletişime geçtiği saat aralıkları,</li><li>otelin check-in ve check-out yoğunlukları</li></ul>dikkate alınır. Örneğin Almanya ve Rusya pazarına çalışan bir resort için, bu ülkelerin akşam saatlerinde DE ve RU dillerinde aktif hat bulunması kritik olabilir."
+      },
+      {
+        "q": "Dil bazlı performans takibi neden önemlidir?",
+        "a": "Çünkü her dil ve pazarın:<ul><li>soru ve talep tipi,</li><li>satışa dönüşüm oranı,</li><li>memnuniyet ve şikâyet profili</li></ul>farklıdır. TR–EN–DE–RU için ayrı performans raporları oluşturmak; eğitim, script revizyonu ve kampanya optimizasyonu ihtiyacını netleştirir."
+      },
+      {
+        "q": "4 dilli çağrı merkezinde kalite ve memnuniyet ölçümü nasıl yapılır?",
+        "a": "<ul><li>rastgele çağrı dinlemeleri ve kalite skorlamaları,</li><li>dil bazlı müşteri memnuniyeti anketleri,</li><li>görüşme kayıtlarının karşılama, bilgi doğruluğu, satış denemesi ve kapanış açısından incelenmesi,</li><li>şikâyet sayıları ve çözüm sürelerinin takibi.</li></ul>Bu veriler, sürekli iyileştirme ve eğitim güncellemelerinde kullanılır."
+      },
+      {
+        "q": "Otel içi ekip ile 4 dilli çağrı merkezi nasıl uyumlu çalışır?",
+        "a": "<ul><li>ortak PMS ve rezervasyon süreçleri,</li><li>net devir–teslim kuralları (VIP notlar, özel talepler),</li><li>düzenli toplantılar ve rapor paylaşımı,</li><li>görev ve yetkilerin net şekilde ayrılması.</li></ul>Bu uyum sağlandığında, çağrı merkezi ve resepsiyon birbirini destekleyen tek bir yapı gibi çalışır."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Raporlama: Dönüşüm, Diller, GEO",
+    "items": [
+      {
+        "q": "4 dilli çağrı merkezi performansı hangi metriklerle ölçülür?",
+        "a": "<ul><li>cevaplanma oranı (dil bazlı),</li><li>ortalama bekleme süresi,</li><li>çağrıdan teklife geçiş oranı,</li><li>tekliften rezervasyona dönüşüm oranı,</li><li>rezervasyon başına gelir,</li><li>şikâyet sayısı ve çözüm süreleri,</li><li>memnuniyet skorları (CSAT vb.).</li></ul>"
+      },
+      {
+        "q": "Dil bariyerleri rezervasyonları nasıl etkiler?",
+        "a": "<ul><li>yanlış veya eksik bilgi güven kaybına yol açar,</li><li>karmaşık iletişim süreci uzatır,</li><li>yanlış anlamalar iptal ve şikâyet doğurur.</li></ul>Sonuçta misafir, daha rahat iletişim kurabildiği başka otellere yönelir. 4 dilli yapı bu kaybı önemli ölçüde azaltır."
+      },
+      {
+        "q": "4 dilli çağrı merkezi doğrudan satış ve gelir artışına nasıl katkı sağlar?",
+        "a": "<ul><li>OTA’dan web veya telefon hattına yönelen misafirin doğru yönetilmesi,</li><li>dil bariyeri nedeniyle kaçan taleplerin kazanılması,</li><li>cross-sell ve upsell fırsatlarının her dilde etkin kullanılması,</li><li>güçlü hizmetin yorum ve tavsiye sayısını artırması.</li></ul>"
+      },
+      {
+        "q": "GEO odaklı (Antalya, Belek, Kemer, Side, Alanya) raporlama neden değerlidir?",
+        "a": "Bu bölgelerde pazar dinamikleri, konsept beklentileri ve sezon süreleri farklılık gösterir. Bölge ve dil bazlı performans raporları; fiyatlama, kampanya ve kapasite planlaması için doğrudan karar verici veri sağlar."
+      },
+      {
+        "q": "Çok dilli çağrı merkezi dijital kampanya performansını nasıl etkiler?",
+        "a": "<ul><li>Google ve Meta kampanyalarından gelen kullanıcılar kendi dilinde profesyonel karşılanırsa dönüşüm ihtimali artar,</li><li>özellikle Almanca ve Rusça pazarlarda çok dilli hat kampanya ROI’sini ciddi şekilde yükseltir.</li></ul>"
+      }
+    ]
+  }
+    }
+  },
+
+   "section6": {
+    "title": "Pain Point: Dil Bariyerleri, Kaçan Rezervasyonlar, Düşük Memnuniyet",
+    "items": [
+      {
+        "q": "Dil bariyerleri sebebiyle en sık hangi problemler yaşanıyor?",
+        "a": "<ul><li>misafir talebini tam anlatamıyor,</li><li>resepsiyon/rezervasyon ekibi anlamakta zorlanıyor,</li><li>yanlış oda/kavram satılıyor,</li><li>fiyat net anlatılamıyor,</li><li>sonrasında memnuniyetsizlik ve şikâyet ortaya çıkıyor.</li></ul>"
+      },
+      {
+        "q": "Yanlış anlaşılmalar rezervasyon sonrası süreçleri nasıl etkiler?",
+        "a": "<ul><li>misafir “ben böyle bir oda istememiştim” diyebilir,</li><li>çocuk sayısı, yatak tipi, ek hizmetler yanlış anlaşılabilir,</li><li>check-in’de tartışma yaşanabilir,</li><li>puan ve yorum skorları düşer.</li></ul>4 dilli çağrı merkezi, talebi baştan netleştirip bu riskleri azaltır."
+      },
+      {
+        "q": "Kaçan rezervasyonların en büyük sebepleri neler?",
+        "a": "<ul><li>cevapsız veya gün geç cevaplanan çağrılar,</li><li>dil bariyeri,</li><li>karışık veya offline rezervasyon süreci,</li><li>güvensiz görünen iletişim (aksan, ton, bilgi eksikliği).</li></ul>"
+      },
+      {
+        "q": "Düşük memnuniyet skorları çağrı merkezi ile nasıl ilişkilidir?",
+        "a": "Rezervasyon öncesi süreçte verilen sözler, beklenti yönetimi ve şikâyetlerin ele alınışı; doğrudan memnuniyet skorlarını etkiler. Çok dilli, eğitimli bir çağrı merkezi, beklentiyi doğru kurar ve şikâyeti profesyonel yönetir."
+      },
+      {
+        "q": "Yanlış kurgulanmış bir 4 dilli çağrı merkezi ne gibi kayıplar yaratır?",
+        "a": "<ul><li>dil bilse de satış ve misafir iletişimi zayıf temsilciler,</li><li>PMS entegrasyonu olmayan süreçler,</li><li>raporlama yapılmayan diller ve pazarlar,</li><li>otel içi ekiplerle kopukluk.</li></ul>Sonuçta “4 dilde hat var” ama beklenen dönüşüm ve memnuniyet artışı yoktur."
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "GEO & Sektör Odaklı Sorular (Antalya, Belek, Kemer, Side, Alanya)",
+    "items": [
+      {
+        "q": "Antalya ve çevre destinasyonlarda 4 dilli çağrı merkezi neden daha kritik?",
+        "a": "Çünkü bu bölgelerde Almanya, Rusya, İngiltere ve iç pazar misafirleri yoğun; TR–EN–DE–RU dillerinde aktif bir hat, bu pazarlardaki rekabette fark yaratan unsurlardan biridir."
+      },
+      {
+        "q": "Belek ve golf/luxury oteller için çok dilli çağrı merkezinin rolü nedir?",
+        "a": "<ul><li>yüksek ADR,</li><li>özel paketler (golf, wellness, VIP transfer vb.),</li><li>uzun konaklama ve özel talepler.</li></ul>Bu tip ürünlerin kendi dilinde doğru anlatılması, kısa bir telefon görüşmesiyle binlerce Euro’luk rezervasyon kazandırabilir."
+      },
+      {
+        "q": "Kemer ve Side gibi eğlence odaklı destinasyonlarda çok dilli çağrı merkezi neye odaklanmalı?",
+        "a": "<ul><li>aile odaklı konsept,</li><li>eğlence ve animasyon programları,</li><li>çocuk ve genç odaklı aktiviteler,</li><li>fiyat–performans dengesi.</li></ul>Bu konular, özellikle DE ve RU pazarlarında çok sorulan başlıklardır."
+      },
+      {
+        "q": "Alanya ve benzeri fiyat/performans bölgelerinde 4 dilli yapı nasıl konumlanmalı?",
+        "a": "<ul><li>uygun fiyat–değer dengesini,</li><li>uzun konaklama fırsatlarını,</li><li>aile ve grup konaklamalarda avantajları</li></ul>kendi dilinde net anlatan bir yapı, direct booking potansiyelini artırır."
+      },
+      {
+        "q": "Türkiye geneli şehir otellerinde çok dilli çağrı merkezi faydalı mı?",
+        "a": "Evet; business ve city otellerde de, özellikle İngilizce, Almanca ve Rusça pazarından gelen iş ve seyahat taleplerini doğru yönetmek için önemlidir. Özellikle İstanbul, Ankara, İzmir gibi noktalarda çok dilli hat direct booking ve MICE taleplerinde katkı sağlar."
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "Mini 4 Dilli Çağrı Merkezi SSS ",
+    "items": [
+      {
+        "q": "Tüm personelin 4 dili bilmesine gerek var mı?",
+        "a": "Hayır; her dil için yeterli sayıda yetkin temsilci olması ve çağrı yönlendirmesinin doğru yapılması yeterlidir."
+      },
+      {
+        "q": "4 dilli çağrı merkezi sadece yüksek sezonda mı çalışmalı?",
+        "a": "Tüm yıl aktif olabilir; ancak yoğun sezonda kapasite artırımı, düşük sezonda daha minimal bir ekip kurgulamak mantıklıdır."
+      },
+      {
+        "q": "WhatsApp ve OTA mesajları da 4 dilli yapıya dahil edilebilir mi?",
+        "a": "Evet; çok dilli mesaj yönetimi, özellikle OTA mesaj kutuları ve WhatsApp için büyük avantaj sağlar."
+      },
+      {
+        "q": "Tüm misafirlerle her zaman ana dilinde konuşmak zorunlu mu?",
+        "a": "Hayır; ama en azından ana pazarlarda (TR–EN–DE–RU) kendi dilini sunabilmek büyük fark yaratır."
+      },
+      {
+        "q": "4 dilli bir hat iç ekiple mi yoksa outsource ile mi yönetilmeli?",
+        "a": "İhtiyaca göre; tamamen iç ekip, tamamen outsource veya hibrit model kurgulanabilir. Önemli olan script, eğitim ve raporlama standartlarının oturmasıdır."
+      },
+      {
+        "q": "Çok dilli çağrı merkezinin ROI’si (yatırım geri dönüşü) nasıl hesaplanır?",
+        "a": "Kaçan rezervasyonların kazanılması, konaklama başına gelir artışı, OTA’dan direct booking’e dönüş ve memnuniyet/yorum skorlarındaki yükseliş üzerinden okunmalıdır."
+      },
+      {
+        "q": "4 dilli hat için ayrı telefon numarası mı gerekir?",
+        "a": "Gerekmeyebilir; IVR veya akıllı yönlendirme ile tek numara üzerinden dil bazlı akış sağlanabilir."
+      },
+      {
+        "q": "Script’ler her dilde bire bir çevrilmeli mi?",
+        "a": "Hayır; her dilde kültürel farklar ve ifade şekilleri dikkate alınarak native seviyeye mümkün olduğunca yakın kurgulanmalıdır."
+      },
+      {
+        "q": "Tüm çağrıları kaydetmek zorunda mıyım?",
+        "a": "Kalite takibi ve eğitim için çağrı kayıtları çok değerlidir; KVKK ve ilgili mevzuata uygun şekilde kayıt ve saklama politikaları belirlenmelidir."
+      },
+      {
+        "q": "4 dilli çağrı merkezini tek otel için mi, zincir için mi düşünmeliyim?",
+        "a": "Her iki model de mümkün; zincir oteller için merkezi bir çok dilli çağrı merkezi, markanın tüm portföyü için daha güçlü bir yapı sunabilir."
+      }
+    ]
+  },
+
+  "section9": {
+    "title": "4 Dilli Çağrı Merkezi İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile 4 Dilli Çağrı Merkezi için nasıl teklif alabilirim?",
+        "a": "<ul><li>otelinizin veya markanızın türü (resort, city, chain vb.),</li><li>hedef pazarlarınız (TR–EN–DE–RU ve varsa ek diller),</li><li>mevcut çağrı ve mesaj hacminiz,</li><li>kullandığınız PMS ve OTA altyapısı,</li><li>çalışma saatleri ve sezonluk yoğunluk bilgileriniz,</li><li>şu anda yaşadığınız temel problemler (dil bariyeri, kaçan çağrılar, memnuniyet sorunları vb.)</li></ul>ile kısa bir brief paylaşırsanız; kapsam, süreç, entegrasyon, SLA ve bütçe çerçevesini içeren bir 4 Dilli Çağrı Merkezi yol haritası ve teklif hazırlanabilir."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı 4 dilli çağrı merkezi tarafında neyi netleştirir?",
+        "a": "Bu görüşmede:<ul><li>gerçekten kaç dilde hat açmanız gerektiğini,</li><li>hangi kanalların (telefon, WhatsApp, OTA mesaj, chat) dahil olacağını,</li><li>iç ekip, outsource ve hibrit opsiyonlarını,</li><li>PMS ve OTA entegrasyonunun nasıl kurgulanacağını,</li><li>raporlama ve performans takibi modelinizi</li></ul>birlikte netleştiririz. Böylece 4 dilli çağrı merkezi, sadece “dil bilen personel” değil, rezervasyon ve misafir memnuniyetini büyüten bir iş modeli hâline gelir."
+      }
+    ]
+  },
+
+  "FaqReservationSupport": {
+    "h1": "Rezervasyon Destek Hizmeti SSS",
+
+    "intro": {
+      "p1": "Rezervasyon hattı, özellikle <b>otel ve turizm</b> tarafında; web sitesi, OTA, telefon, e-posta, WhatsApp ve chat’ten gelen tüm taleplerin kalbidir. Bu noktadaki küçük hatalar; <ul><li>kaçan rezervasyon,</li><li> yanlış fiyat veya oda bilgisi,</li><li> overbooking riski,</li><li> iletişim kopukluğu ve düşük memnuniyet</li></ul> olarak geri döner.",
+      "p2": "Bu SSS sayfasında, <b>Rezervasyon Destek Hizmeti</b> ile ilgili en sık sorulan soruları;<b> telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi, PMS ve OTA entegrasyonu ile satış odaklı script yapıları</b> odağında ele alıyoruz.",
+      "p3": ""
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Rezervasyon Destek Hizmeti Nedir?",
+        "items": [
+          {
+            "q": "Rezervasyon destek hattı tam olarak nedir?",
+            "a": "Rezervasyon destek hattı; otelinizin <b>telefon, e-posta, WhatsApp, web formu ve chat</b> üzerinden aldığı rezervasyon taleplerini profesyonelce karşılayan, satış odaklı script’lerle yöneten ve tüm rezervasyonları <b>PMS’e doğru ve eksiksiz işleyen</b> çağrı merkezi modelidir."
+          },
+          {
+            "q": "Rezervasyon destek hizmeti ile klasik resepsiyon/rezervasyon süreçleri arasındaki fark nedir?",
+            "a": "Klasik modelde resepsiyon veya küçük bir rezervasyon ekibi<ul><li> hem sahadaki operasyonu </li><li>hem de telefon, e-posta ve mesaj trafiğini </li></ul>aynı anda yönetmeye çalışır. Rezervasyon destek modelinde ise <b>özelleşmiş bir ekip</b> sadece rezervasyon süreci ve misafir iletişimi ile ilgilenir. Bu, hem <b>cevaplama oranlarını</b> hem de<b> dönüşüm performansını</b> artırır."
+          },
+          {
+            "q": "Rezervasyon destek hizmeti sadece telefonla mı çalışır?",
+            "a": "Hayır. Kapsama genellikle:<ul><li>telefon (sabit hat ve santral),</li><li>e-posta,</li><li>WhatsApp ve benzeri mesaj kanalları,</li><li>web chat,</li><li>OTA (Booking, Expedia vb.) mesaj kutuları</li></ul>dâhil edilir. Amaç, misafirin rezervasyon için kullandığı tüm kanalları <b>tek bir profesyonel süreç</b> altında toplamak ve “kim baktı, ne oldu” sorusunu ortadan kaldırmaktır."
+          },
+          {
+            "q": "Rezervasyon destek hizmeti hangi oteller için uygundur?",
+            "a": "<ul><li>resort oteller,</li><li>city oteller,</li><li>butik ve konsept oteller,</li><li>zincir oteller ve grup yapılarda merkezi rezervasyon modelleri</li></ul>için uygundur. Özellikle telefon, OTA ve web kanal karması olan ve çağrı hacmi belirli seviyenin üstünde olan oteller en çok faydayı görür."
+          },
+          {
+            "q": "Rezervasyon destek hattı ile otel içi rezervasyon ekibi bir arada çalışabilir mi?",
+            "a": "Evet. Sık kullanılan hibrit modelde;<ul><li> gündüz otel içi rezervasyon ekibi, </li><li>akşam veya yoğun saatlerde ise dış kaynak rezervasyon destek ekibi</li></ul> çalışabilir. Tüm rezervasyon aynı PMS üzerinden işlendiği için, misafir tarafında tek bir deneyim yaşanır."
+          },
+          {
+            "q": "Rezervasyon destek hizmeti sadece satış öncesine mi odaklanır?",
+            "a": "Hayır. Modelin kapsamına:<ul><li>rezervasyon değişiklikleri,</li><li>tarih ve oda değişiklik talepleri,</li><li>iptal süreçleri,</li><li>konaklama öncesi bilgi ve teyit aramaları</li></ul>da kapsama dâhil edilebilir. Amaç, 'rezervasyonla ilgili tüm sorularını' tek bir profesyonel hat üzerinden çözmektir."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "Rezervasyon destek hattı tam olarak nedir?",
+            "a": "Telefon, e-posta, WhatsApp ve chat üzerinden gelen rezervasyon taleplerini satış odaklı script’lerle karşılayıp PMS’e doğru şekilde işleyen profesyonel rezervasyon çağrı merkezidir."
+          },
+          {
+            "q": "Otelim için rezervasyonları dış kaynaktaki bir ekibe devretmek mantıklı mı?",
+            "a": "Çağrı hacmi, pazar yapısı ve mevcut ekip durumu uygunsa; doğru model ve SLA ile dış kaynak rezervasyon destek ekibi, kaçan rezervasyonları azaltıp ekibin yükünü hafifletebilir."
+          },
+          {
+            "q": "Telefonla rezervasyon dönüşümünü nasıl artırabilirim?",
+            "a": "Standart satış script’leri, eğitimli temsilciler, PMS entegrasyonu ve güncel kampanya–konsept bilgisiyle donatılmış bir rezervasyon hattı kullanarak."
+          },
+          {
+            "q": "OTA üzerinden gelen rezervasyon sorularını kim yönetmeli?",
+            "a": "En ideal senaryoda OTA mesajları, rezervasyon destek ekibinin sorumluluğunda olur ve telefon ile aynı satış dili ve süreçle yönetilir."
+          },
+          {
+            "q": "Rezervasyon destek ekibi PMS ile nasıl çalışır?",
+            "a": "Temsilciler PMS üzerinde yetkili kullanıcı olarak oturum açar, oda–fiyat–müsaitlik bilgilerini görür, rezervasyon açar veya günceller ve notları sistemde tutar."
+          },
+          {
+            "q": "Rezervasyon destek hizmeti kimler için uygundur?",
+            "a": "Telefon, e-posta ve dijital kanallardan yoğun rezervasyon trafiği alan ve çağrılara yetişemediğini düşünen tüm otel ve turizm işletmeleri için uygundur."
+          }
+        ]
+      },
+
+      "section3": {
+    "title": "Hizmet Kapsamı: Telefon, E-posta, Chat, OTA",
+    "items": [
+      {
+        "q": "Rezervasyon Destek Hizmeti hangi kanalları kapsar?",
+        "a": "Standart kapsam<ul><li>telefon (gelen–giden çağrılar),</li><li>e-posta rezervasyon talepleri,</li><li>WhatsApp ve benzeri mesaj uygulamaları,</li><li>web sitesi chat ve mesaj kutuları,</li><li>OTA mesaj kutuları ve rezervasyon soruları.</li></ul>İhtiyaca göre sosyal medya DM’leri de rezervasyon sürecine bağlanabilir."
+      },
+      {
+        "q": "Otel rezervasyon çağrı merkezi nedir, ne yapar?",
+        "a": "Otel rezervasyon çağrı merkezi; misafirlerin rezervasyonla ilgili tüm sorularını, taleplerini ve şikâyetlerini profesyonelce karşılayıp:<ul><li>teklif sunar,</li><li>rezervasyon açan,</li><li>değişiklik ve iptal süreçlerini yöneten,</li><li>PMS’e kayıt edip süreci izleyen</li></ul>merkezi bir birimdir. Rezervasyon destek hizmeti, bu yapıyı <b>telefon, e-posta ve chat</b> kanallarında daha geniş kapsamlı hâle getirir."
+      },
+      {
+        "q": "Rezervasyon hattı dönüşümü nasıl artırır?",
+        "a": "<ul><li>gelen her çağrı ve talep için standardize script ve süreç,</li><li>doğru ve güncel fiyat/oda bilgisi,</li><li>cross-sell ve upsell teklifleri,</li><li>itiraz karşılama (fiyat, tarih, oda tipi vb.),</li><li>hızlı dönüş ve takip.</li></ul>BBu sayede “sadece bilgi alınan” çağrıların önemli bir kısmı rezervasyona döner."
+      },
+      {
+        "q": "OTA, telefon ve web rezervasyonları birlikte nasıl yönetilir?",
+        "a": "Rezervasyon destek modeli; web formu, OTA, telefon ve chat gibi tüm kanalların tek bir ekip ve PMS entegrasyonu üzerinden yönetilmesini sağlar.<ul><li>overbooking riski azalır,</li><li>misafir bilgisi tek yerde toplanır,</li><li>kanal bazlı rezervasyon performansı net şekilde görülür.</li></ul>"
+      },
+      {
+        "q": "Rezervasyon sonrası misafir iletişimi rezervasyon desteğe dahil midir?",
+        "a": "Kapsama bağlı olarak;<ul><li>rezervasyon sonrası teyit aramaları,</li><li>konaklama öncesi bilgilendirme,</li><li>no-show riskini azaltan hatırlatma mesajları</li></ul>rezervasyon destek ekibi tarafından yönetilebilir."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Süreç & İşleyiş: Script, PMS, OTA, Ekip",
+    "items": [
+      {
+        "q": "Rezervasyon destek hattı sürecine nasıl başlanır?",
+        "a": "<ul><li>mevcut rezervasyon kanalları ve hacmin analizi,</li><li>kaçan çağrı ve talep kayıtlarının incelenmesi,</li><li>çalışma saatleri ve sezon yoğunluklarının belirlenmesi,</li><li>PMS ve OTA altyapısının teknik analizi,</li><li>script ve eğitim planının hazırlanması,</li><li>pilot uygulama ve optimizasyon.</li></ul>"
+      },
+      {
+        "q": "Rezervasyon destek ekibi PMS ile nasıl çalışır?",
+        "a": "<ul><li>PMS’e kullanıcı bazında erişim tanımlanır,</li><li>oda tipi, fiyat, müsaitlik ve kampanyalar sistem üzerinden takip edilir,</li><li>açılan rezervasyonlar kanal bazlı işaretlenir (web, telefon, OTA),</li><li>özel talepler ve notlar PMS üzerinde kayıt altına alınır.</li></ul>"
+      },
+      {
+        "q": "OTA üzerinden gelen rezervasyon sorularını kim yönetmeli?",
+        "a": "En iyi modelde OTA mesajları ve soruları da rezervasyon destek ekibinin sorumluluğundadır.<ul><li>tek merkezden yanıtlanır,</li><li>çelişkili bilgi verilmez,</li><li>OTA ve direct kanallar arasında bağ kurmak kolaylaşır.</li></ul>"
+      },
+      {
+        "q": "Script’ler rezervasyon dönüşümünde nasıl rol oynar?",
+        "a": "<ul><li>karşılama cümlelerini,</li><li>ihtiyaç analizi sorularını,</li><li>fiyat ve oda anlatımını,</li><li>itiraz karşılamayı,</li><li>kapanış ve takip adımlarını</li></ul>standartlaştırır. Bu hem yeni personel adaptasyonunu kolaylaştırır, hem de “kimin nasıl konuştuğu” yerine <b>verimli bir satış dili</b> oluşturmanızı sağlar."
+      },
+      {
+        "q": "Otel ekibi ve rezervasyon destek ekibi nasıl uyumlu çalışır?",
+        "a": "<ul><li>net görev ve yetki tanımları,</li><li>günlük ve haftalık bilgi paylaşımı (doluluk, kampanya, kapanan tarihler),</li><li>PMS üzerinden ortak not kullanımı,</li><li>şikâyet ve özel talep süreçlerinde açık devir–teslim kuralları</li></ul>ile uyum sağlanır."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Raporlama: Dönüşüm, Overbooking, Kaçan Çağrı",
+    "items": [
+      {
+        "q": "Rezervasyon Destek Hizmeti performansı hangi metriklerle ölçülür?",
+        "a": "<ul><li>cevaplanma oranı,</li><li>çağrı ve talep başına teklif oranı,</li><li>tekliften rezervasyona dönüşüm oranı,</li><li>rezervasyon başına gelir,</li><li>kaçan çağrı ve geri dönüş oranı,</li><li>overbooking ve hata oranları,</li><li>kanal bazlı rezervasyon dağılımı (telefon, web, OTA).</li></ul>"
+      },
+      {
+        "q": "Kaçan rezervasyonlar nasıl azaltılır?",
+        "a": "<ul><li>çağrı hacmine uygun ekip ve vardiya planı,</li><li>tüm kanallar için net SLA ve cevap süresi,</li><li>geri arama ve follow-up süreçleri,</li><li>PMS ve OTA entegrasyonu ile hızlı fiyat/oda yanıtı,</li><li>satış eğitimi ve script desteği.</li></ul>"
+      },
+      {
+        "q": "Overbooking riski nasıl azaltılır?",
+        "a": "<ul><li>tüm rezervasyonların tek PMS üzerinden açılması,</li><li>OTA, telefon ve web rezervasyonlarının ayrı sistemler yerine tek yerde yönetilmesi,</li><li>stop-sell ve kota ayarlarının doğru yapılması,</li><li>manuel müdahaleyi minimumda tutan süreç kurgusu.</li></ul>"
+      },
+      {
+        "q": "Rezervasyon destek hattı direct booking payını nasıl etkiler?",
+        "a": "<ul><li>web veya OTA’dan gelip kararsız kalan misafirin,</li><li>telefon veya WhatsApp üzerinden profesyonel ve satış odaklı bir deneyim yaşaması</li></ul>direct booking oranını artırabilir ve OTA komisyon yükünü azaltır."
+      },
+      {
+        "q": "Rezervasyon sonrası misafir iletişimi nasıl takip edilir?",
+        "a": "<ul><li>PMS notları,</li><li>otomatik veya manuel teyit aramaları ve e-postalar,</li><li>varış öncesi bilgilendirme mesajları,</li><li>no-show ve iptal sonrası analizler.</li></ul>Rezervasyon destek ekibi bu sürecin bir bölümünü üstlenerek misafir deneyimini ve <b>operasyonu destekleyebilir.</b>"
+      }
+    ]
+  },
+
+   "section6": {
+    "title": "Pain Point: Kaçan Rezervasyonlar, Yanlış Fiyat, Overbooking, Kopuk İletişim",
+    "items": [
+      {
+        "q": "Kaçan rezervasyonların başlıca sebepleri nelerdir?",
+        "a": "<ul><li>cevapsız veya geç cevap verilen çağrı ve e-postalar,</li><li>dil bariyeri veya yetersiz iletişim,</li><li>net olmayan fiyat ve oda anlatımı,</li><li>uzun ve karmaşık rezervasyon süreci,</li><li>temsilcinin satış odaklı yaklaşım sergilememesi.</li></ul>"
+      },
+      {
+        "q": "Yanlış fiyat veya oda bilgisi hangi problemlere yol açar?",
+        "a": "<ul><li>check-in anında “bize böyle söylenmemişti” tartışmaları,</li><li>misafir memnuniyetsizliği ve şikâyet,</li><li>OTA ve Google yorumlarında düşük puan,</li><li>otel içi departmanlar arasında suçlama zinciri.</li></ul>Rezervasyon destek hattında güncel PMS/OTA bilgisi üzerinden işlem yapmak ve script’lerle standardizasyon sağlamak bu riski azaltır."
+      },
+      {
+        "q": "Overbooking en sık neden yaşanır ve nasıl önlenir?",
+        "a": "En sık sebepler:<ul><li>farklı kanallardan gelen rezervasyonların ayrı ayrı tutulması,</li><li>manuel kalem veya Excel takibi,</li><li>PMS’te anlık güncelleme yapılmaması.</li></ul>Önlemek için tüm rezervasyonların tek PMS üzerinden yönetilmesi, kanal yönetimiyle entegrasyon ve rezervasyon destek ekibinin sadece sistem üzerinden işlem yapması gerekir."
+      },
+      {
+        "q": "İletişim kopukluğu misafir deneyimini nasıl bozar?",
+        "a": "<ul><li>misafirin birden fazla kanal üzerinden aynı soruyu sormak zorunda kalması,</li><li>“kimse geri dönmedi” hissi,</li><li>farklı temsilcilerin çelişkili bilgi vermesi.</li></ul>Bu durum, misafirin otele olan güvenini ve rezervasyon/sadakat potansiyelini düşürür."
+      },
+      {
+        "q": "Rezervasyon destek hattı yanlış kurgulanırsa ne gibi kayıplar yaşanır?",
+        "a": "<ul><li>yeterli eğitim almamış temsilciler,</li><li>PMS entegrasyonu olmadan sadece not alan yapı,</li><li>raporlanmayan performans,</li><li>otel içi ekiplerle koordinasyonsuzluk.</li></ul>Sonuçta hat vardır ama dönüşüm ve memnuniyet artmaz; sadece ek maliyet oluşur."
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "GEO & Sektör Odaklı Rezervasyon Destek Soruları",
+    "items": [
+      {
+        "q": "Türkiye geneli resort oteller için rezervasyon destek nasıl fark yaratır?",
+        "a": "<ul><li>yüksek sezon çağrı yoğunluğunu yönetir,</li><li>OTA’dan gelen soruları hızlı cevaplar,</li><li>direct booking hedeflerini destekler,</li><li>dil bariyeri sebebiyle kaçan rezervasyonları azaltır.</li></ul>"
+      },
+      {
+        "q": "Antalya, Belek, Kemer, Side, Alanya gibi bölgelerde neye özellikle dikkat edilmeli?",
+        "a": "<ul><li>TR–EN–DE–RU pazarları için dil desteği,</li><li>erken rezervasyon ve sezon kampanyalarının doğru anlatımı,</li><li>aile ve eğlence odaklı konseptler için doğru bilgi ve script kullanımı,</li><li>yoğun sezonda geniş saat aralıklarını kapsayan destek.</li></ul>"
+      },
+      {
+        "q": "City otelleri için rezervasyon destek hattının rolü nedir?",
+        "a": "<ul><li>iş seyahati ve kısa konaklama rezervasyonlarını hızla kapatmak,</li><li>MICE ve toplantı taleplerini profesyonelce karşılamak,</li><li>OTA ve web üzerinden gelen kısa süreli fırsatları doğru yönetmek.</li></ul>"
+      },
+      {
+        "q": "Türkiye geneli için rezervasyon destek modelinde ne tür farklılıklar olabilir?",
+        "a": "<ul><li>Ege ve Akdeniz resort’larda sezonluk hacim artışı ve çok dilli ihtiyaç,</li><li>İstanbul, Ankara, İzmir gibi şehirlerde business ve MICE odaklı talepler,</li><li>Kapadokya gibi destinasyonlarda experience odaklı paket ve özel talepler.</li></ul>Her destinasyon için script ve süreçler hafifçe uyarlanmalıdır."
+      },
+      {
+        "q": "Kurumsal ve otel grupları için merkezi rezervasyon destek modelinin avantajı nedir?",
+        "a": "<ul><li>tüm oteller için tek rezervasyon hattı,</li><li>cross-sell (başka otellere yönlendirme) imkânı,</li><li>konsolide raporlama,</li><li>operasyon ve eğitim maliyetlerinin düşmesi.</li></ul>"
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "Mini Rezervasyon Destek SSS (Micro – 10 Soru)",
+    "items": [
+      {
+        "q": "Sadece resepsiyonla rezervasyonları yönetmek ne zamana kadar mantıklı?",
+        "a": "Belirli bir hacme kadar mümkündür; çağrı ve mesaj sayısı arttığında resepsiyon hem saha hem telefon yükünü taşıyamaz ve satış ile memnuniyet düşer."
+      },
+      {
+        "q": "Rezervasyon destek hattı tüm günü mü kapsamalı?",
+        "a": "Destinasyon ve pazarlarınıza göre değişir; bazı oteller için 09:00–23:00, bazıları için 7/24 model daha uygundur."
+      },
+      {
+        "q": "Sadece OTA rezervasyonları için destek almak mümkün mü?",
+        "a": "Evet; OTA mesajları ve rezervasyon soruları için özel bir OTA rezervasyon destek modeli kurgulanabilir."
+      },
+      {
+        "q": "Tüm rezervasyonları dış kaynağa devretmek zorunda mıyım?",
+        "a": "Hayır; hibrit modelde otel içi rezervasyon ekibinizle birlikte çalışan bir destek ekibi kurulabilir."
+      },
+      {
+        "q": "Rezervasyon destek hattı ile fiyatlandırma kararları kimde kalmalı?",
+        "a": "Çağrı merkezi belirlenen fiyatlarla çalışır; fiyat ve strateji her zaman otelin gelir yönetimi ve satış ekibine aittir."
+      },
+      {
+        "q": "Rezervasyon destek modeli için PMS entegrasyonu şart mı?",
+        "a": "Pratikte evet; PMS entegrasyonu olmayan bir yapı hata ve overbooking riskini ciddi şekilde artırır."
+      },
+      {
+        "q": "Rezervasyon destek hizmeti sezonluk alınabilir mi?",
+        "a": "Evet; özellikle resort bölgelerinde yüksek sezon için kapasite artırımı, düşük sezonda daha minimal yapı mümkündür."
+      },
+      {
+        "q": "Rezervasyon destek ekibi ile satış ekibi aynı KPI’larla mı çalışmalı?",
+        "a": "Kısmen; rezervasyon destek için cevaplanma, dönüşüm ve gelir; satış için ise daha geniş toplam gelir ve kanal KPI’ları belirlenmelidir."
+      },
+      {
+        "q": "Rezervasyon destek hizmetini sadece audit ve süreç tasarımı olarak alabilir miyim?",
+        "a": "Evet; mevcut süreçlerin analiz edildiği, script ve akışların tasarlandığı bir danışmanlık modeli de mümkündür."
+      },
+      {
+        "q": "Rezervasyon Destek Hizmeti ile Çağrı Merkezi Hizmetleri arasındaki fark nedir?",
+        "a": "Çağrı Merkezi Hizmetleri genel misafir iletişimini kapsar; Rezervasyon Destek Hizmeti ise rezervasyon sürecinin uçtan uca (talep → teklif → satış → kayıt) yönetimine odaklanır."
+      }
+    ]
+  },
+
+  "section9": {
+    "title": "Rezervasyon Destek Hizmeti İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile Rezervasyon Destek Hizmeti için nasıl teklif alabilirim?",
+        "a": "<ul><li>otelinizin türü (resort, city, zincir vb.),</li><li>mevcut rezervasyon kanallarınız (telefon, web, OTA, WhatsApp),</li><li>çağrı ve talep hacminiz (günlük/aylık),</li><li>kullandığınız PMS ve OTA altyapısı,</li><li>çalışma saatleri ve sezonluk yoğunluklar,</li><li>yaşadığınız temel problemler (kaçan çağrılar, yanlış fiyat, overbooking, iletişim kopukluğu vb.).</li></ul>ile kısa bir brief paylaştığınızda; <b>kapsam, süreç akışı, entegrasyon, SLA ve bütçe </b> çerçevesini içeren bir Rezervasyon Destek Hizmeti yol haritası ve teklif hazırlanabilir."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı rezervasyon destek tarafında neyi netleştirir?",
+        "a": "<ul><li>dahil edilecek kanalları (telefon, e-posta, WhatsApp, OTA),</li><li>iç ekip, dış kaynak veya hibrit model tercihini,</li><li>PMS ve OTA entegrasyon detaylarını,</li><li>raporlama ve KPI modelinizi,</li><li>sezonluk kapasite ihtiyacınızı.</li></ul>birlikte netleştiririz. Böylece Rezervasyon Destek Hizmeti, sadece “çağrı cevaplayan ekip” değil, <b>satış ve misafir memnuniyetini büyüten bir rezervasyon makinesi</b> hâline gelir."
+      }
+    ]
+  }
+    }
+  },
+
+  "FaqMessageManagement": {
+    "h1": "Mesaj Yönetimi SSS",
+
+    "meta": {
+      "url": "/tr/cagri-merkezi/mesaj-yonetimi-sss",
+      "serviceUrl": "/tr/cagri-merkezi/mesaj-yonetimi",
+      "title": "Mesaj Yönetimi SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+      "description": "Mesaj Yönetimi hakkında sık sorulan sorular; WhatsApp, sosyal medya DM ve OTA mesaj kutusu yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "silo": "Çağrı Merkezi",
+      "locationFocus": "Türkiye geneli + turizm bölgeleri",
+      "sector": "Otel & Turizm",
+      "primaryIntent": "Transactional (Hizmet Talebi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)"
+    },
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Misafir artık sadece telefonla aramıyor. WhatsApp, Instagram DM, Facebook Messenger, web chat, OTA mesaj kutuları… Hepsi aynı anda yanıyor ve çoğu otelde bu mesajlara:<ul><li>geç dönülüyor,</li><li>kimin neye baktığı belli olmuyor,</li><li>bazıları hiç cevaplanmıyor,</li><li>rezervasyon fırsatları ve memnuniyet puanları sessizce kayboluyor.</li></ul>",
+      "p2": "Mesaj Yönetimi SSS sayfası; bu dağınık yapıyı, oteliniz için tek merkez, profesyonel ekip ve SLA odaklı bir mesaj operasyon modeline nasıl çevirebileceğinizi anlatmak için hazırlandı.",
+      "p3": ""
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Mesaj Yönetimi Nedir?",
+        "items": [
+          {
+            "q": "Mesaj yönetimi hizmeti tam olarak nedir?",
+            "a": "Mesaj yönetimi; otelinizin WhatsApp, sosyal medya DM (Instagram, Facebook vb.), web chat ve OTA mesaj kutuları üzerinden aldığı tüm misafir mesajlarını, tek merkezden, belirlenmiş SLA ve standart yanıt diliyle yöneten profesyonel çağrı merkezi modelidir. Amaç, cevapsız veya geç cevaplanan mesajları sıfıra yaklaştırmak ve bu kanalları gerçek bir rezervasyon ve memnuniyet kanalına dönüştürmektir."
+          },
+          {
+            "q": "Sadece telefon çağrılarına bakmak yetmiyor mu?",
+            "a": "Artık misafirlerin büyük kısmı:<ul><li>önce yazışmak,</li><li>sonra telefonla aramak ya da direkt rezervasyon yapmak istiyor.</li></ul>WhatsApp, DM, OTA mesaj kutuları ve web chat üzerinden gelen talepleri ciddiye almayan oteller; telefon hattını ne kadar iyi yönetse de mesaj kanallarında sessizce rezervasyon kaybedebiliyor."
+          },
+          {
+            "q": "Otelim için mesaj yönetimi neden önemlidir?",
+            "a": "<ul><li>misafir, “çevrimiçi” bir otel görmek istiyor,</li><li>mesajlara geç cevap veren otel, daha hızlı dönen rakibe kaybediyor,</li><li>OTA mesajlarına hızlı ve doğru cevap vermek, hem rezervasyon hem skor açısından kritiktir,</li><li>WhatsApp, pek çok kullanıcı için birincil iletişim kanalı hâline geldi.</li></ul>Mesajlar; çağrı merkezi bakış açısıyla yönetilmediğinde, dağınık, kişiye bağlı ve takip edilemeyen bir yapı oluşur."
+          },
+          {
+            "q": "Mesaj yönetimi sadece “mesaj cevaplamak” mı?",
+            "a": "Hayır. Doğru kurgulanmış bir mesaj yönetimi:<ul><li>konu kodlaması (rezervasyon, bilgi, şikâyet, talep, teklif vb.),</li><li>PMS/OTA entegrasyonu (mümkünse),</li><li>SLA tanımı (örneğin WhatsApp: max 5 dk, OTA: max 30 dk),</li><li>dil yönetimi (TR–EN–DE–RU vb.),</li><li>raporlama (kaç mesaj geldi, ne kadar sürede cevaplandı, rezervasyona dönüşüm vb.)</li></ul>gibi katmanları içerir."
+          },
+          {
+            "q": "Mesaj yönetimi hangi tür oteller için uygundur?",
+            "a": "<ul><li>resort oteller (özellikle WhatsApp ve OTA mesaj yoğunluğu yüksek),</li><li>city oteller (iş seyahati mesajları, hızlı bilgi ve rezervasyon talepleri),</li><li>butik ve konsept oteller (DM ve WhatsApp üzerinden yoğun soru alan yapılar),</li><li>zincir oteller (merkezi mesaj operasyonu kurmak isteyen gruplar).</li></ul>"
+          },
+          {
+            "q": "Mesaj yönetimi ile “şikâyet ve yorumlar” arasında nasıl bir ilişki var?",
+            "a": "<ul><li>hızlı ve profesyonel mesaj yanıtı → misafir kendini değerli hisseder,</li><li>sorunlar mesaj üzerinden <b>erken yakalanır</b> → OTA/Google yorumuna dönüşmeden çözülür,</li><li>memnun misafir, mesaj üzerinden aldığı ilgiyi yorumlarına da yansıtır.</li></ul>"
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "Mesaj yönetimi hizmeti nedir, ne işe yarar?",
+            "a": "WhatsApp, sosyal medya DM, web chat ve OTA mesajlarınızı tek merkezde, SLA kontrollü ve satış/memnuniyet odaklı yöneten profesyonel mesaj operasyonudur."
+          },
+          {
+            "q": "Otelim için WhatsApp ve DM’leri profesyonel ekibe devretmek mantıklı mı?",
+            "a": "Mesaj hacminiz yüksekse, cevap süreniz uzunsa veya bazı mesajlar cevapsız kalıyorsa; evet, profesyonel bir ekip ve modelle çalışmak çoğu zaman mantıklıdır."
+          },
+          {
+            "q": "Cevapsız mesajlar rezervasyon kaybına neden olur mu?",
+            "a": "Evet; özellikle karar aşamasındaki misafirler, hızla yanıt alamadığı oteli bırakıp daha hızlı cevap veren rakibe geçer."
+          },
+          {
+            "q": "Tüm mesaj kanallarını tek ekrandan yönetmek mümkün mü?",
+            "a": "Doğru mesaj yönetim platformu ve entegrasyonlar ile WhatsApp, DM, OTA mesajı ve web chat’i tek panelden görmek ve yönetmek mümkündür."
+          },
+          {
+            "q": "Hızlı yanıt süresi misafir memnuniyetini nasıl etkiler?",
+            "a": "“Online” dünyada, hızlı yanıt alan misafir kendini değerli ve güvende hisseder; bu da hem rezervasyon kararını hem memnuniyet skorlarını olumlu etkiler."
+          },
+          {
+            "q": "Mesaj yönetimi hizmeti kimler için uygundur?",
+            "a": "Mesaj kanallarından ciddi trafik alan, “WhatsApp/DM/OTA mesajlarına yetişemiyorum, bazıları kayboluyor” diyen tüm otel ve turizm işletmeleri için uygundur."
+          }
+        ]
+      },
+
+       "section3": {
+      "title": "Hizmet Kapsamı: WhatsApp, DM, Web Chat, OTA",
+      "items": [
+        {
+          "q": "Mesaj Yönetimi hizmeti hangi kanalları kapsar?",
+          "a": "Tipik kapsam:<ul><li>WhatsApp / WhatsApp Business,</li><li>Instagram DM, Facebook Messenger,</li><li>web sitesi canlı chat,</li><li>OTA mesaj kutuları (Booking, Expedia vb.),</li><li>gerekiyorsa diğer mesaj kanalları (ör. Google Business mesajları).</li></ul>Hedef; misafir hangi mecradan yazarsa yazsın, otelin aynı standartta ve hızlı yanıt vermesini sağlamaktır."
+        },
+        {
+          "q": "Sosyal medya ve WhatsApp mesaj yönetimi nedir?",
+          "a": "Sosyal medya ve WhatsApp mesaj yönetimi; bu kanallardan gelen:<ul><li>bilgi talepleri,</li><li>fiyat ve uygunluk soruları,</li><li>şikâyet ve öneriler,</li><li>özel istekler</li></ul>gibi mesajları belirlenmiş ton of voice ve script’lerle karşılayıp, gerekiyorsa rezervasyon ve şikâyet süreçlerine aktaran operasyonudur."
+        },
+        {
+          "q": "OTA ve sosyal medya mesajları tek panelde yönetilebilir mi?",
+          "a": "Kullanılan mesaj yönetim platformuna ve entegrasyonlara bağlı olarak; OTA mesajları, sosyal medya DM’leri, WhatsApp ve web chat tek bir ekran üzerinden yönetilebilir. Bu yapı; kimin, neye, ne zaman cevap verdiğini görmek ve raporlamak açısından büyük kolaylık sağlar."
+        },
+        {
+          "q": "Otel için mesaj yönetimi neden önemlidir?",
+          "a": "<ul><li>misafirlerin giderek artan bir kısmı mesaj kanallarını tercih ediyor,</li><li>mesajlar gerçek zamanlı satış ve memnuniyet fırsatı sunuyor,</li><li>cevapsız veya dağınık mesajlar doğrudan rezervasyon ve marka imajı kaybına yol açıyor.</li></ul>"
+        },
+        {
+          "q": "Mesaj yönetimi sadece bilgi verme mi, yoksa satış da içerir mi?",
+          "a": "Doğru kurgulanan mesaj yönetimi; hem bilgi verme, hem de rezervasyon ve cross-sell/upsell fırsatlarını kapsar. Örneğin WhatsApp üzerinden oda tipi ve fiyat soran bir misafir, doğru diyalog ve yönlendirme ile rezervasyona dönüştürülebilir."
+        }
+      ]
+    },
+
+    "section4": {
+      "title": "Süreç & İşleyiş: Tek Merkez, SLA, Script",
+      "items": [
+        {
+          "q": "Mesaj yönetimi sürecine nasıl başlanır?",
+          "a": "<ul><li>hangi kanalların (WhatsApp, DM, web chat, OTA) kullanıldığının listelenmesi,</li><li>mesaj hacmi ve yoğun saatlerin analizi,</li><li>mevcut cevap süreleri ve kaçırılan mesaj oranının tespiti,</li><li>dil ihtiyaçlarının (TR–EN–DE–RU vb.) belirlenmesi,</li><li>SLA tanımı (ör. WhatsApp 5 dk, OTA 30 dk, DM 60 dk),</li><li>script ve ton of voice dokümanının hazırlanması,</li><li>pilot dönem ve optimizasyon.</li></ul>"
+        },
+        {
+          "q": "Tüm mesaj kanalları tek ekrandan nasıl yönetilebilir?",
+          "a": "Bir mesaj yönetim platformu veya çok kanallı CRM yapısı üzerinden:<ul><li>WhatsApp Business API,</li><li>Instagram/Facebook API,</li><li>web chat entegrasyonu,</li><li>OTA mesaj entegrasyonları</li></ul>tek panele bağlanır. Operasyon ekibi bu panel üzerinden mesajları yanıtlar ve gerektiğinde PMS veya rezervasyon süreçlerine aktarır."
+        },
+        {
+          "q": "Script ve standardize yanıtlar neden önemlidir?",
+          "a": "<ul><li>temsilcilerin yanıt hızını artırır,</li><li>marka tonunun her mesajda tutarlı olmasını sağlar,</li><li>sık sorulan sorularda yanlış veya eksik bilgi riskini azaltır,</li><li>yeni personelin adaptasyon süresini kısaltır.</li></ul>Script’ler, bire bir kopyala–yapıştır değil; şablon + insani dokunuş şeklinde kullanılmalıdır."
+        },
+        {
+          "q": "Mesaj yönetimi ile rezervasyon süreçleri nasıl bağlanır?",
+          "a": "<ul><li>rezervasyonla ilgili mesajlar kategori etiketiyle işaretlenir,</li><li>PMS veya rezervasyon destek ekibine yönlendirilir ya da aynı ekip PMS üzerinden rezervasyon açar,</li><li>mesaj ve rezervasyon notları eşleştirilir; böylece check-in anında resepsiyon tüm geçmişi görebilir.</li></ul>"
+        },
+        {
+          "q": "Mesaj yönetiminde dil ve çok dilli yapı nasıl ele alınır?",
+          "a": "<ul><li>Türkçe mesajlar için TR ekip,</li><li>İngilizce/Almanca/Rusça vb. için çok dilli ekip,</li><li>otomatik dil tespiti (platform destekliyorsa) + manuel kontrol,</li><li>her dil için ayrı SLA ve script setleri.</li></ul>"
+        }
+      ]
+    },
+
+    "section5": {
+      "title": "Performans & Raporlama: Hız, Dönüşüm, Memnuniyet",
+      "items": [
+        {
+          "q": "Mesaj yönetimi performansı hangi metriklerle ölçülür?",
+          "a": "<ul><li>kanal bazlı mesaj sayısı (WhatsApp, DM, OTA, web chat),</li><li>cevaplanma oranı,</li><li>ilk yanıt süresi (first response time),</li><li>çözüm süresi,</li><li>mesaj → rezervasyon dönüşüm oranı,</li><li>memnuniyet ve geri bildirim skorları.</li></ul>"
+        },
+        {
+          "q": "Mesajlara hızlı yanıt vermek rezervasyonları nasıl etkiler?",
+          "a": "Rezervasyon niyetiyle yazan misafir, özellikle kararsız aşamada kısa sürede yanıt aldığında oteli daha güvenilir görür ve rezervasyon yapma ihtimali artar. Yavaş yanıt ise çoğu zaman ilgisizlik ve düzensizlik algısı yaratır."
+        },
+        {
+          "q": "OTA ve sosyal medya mesajları tek panelde yönetilirse ne kazanırım?",
+          "a": "<ul><li>cevapsız veya unutulan mesajlar azalır,</li><li>iş yükü ve performans tek merkezden izlenir,</li><li>hangi kanaldan ne kadar rezervasyon geldiği netleşir,</li><li>ekip yönetimi ve vardiya planlaması kolaylaşır.</li></ul>"
+        },
+        {
+          "q": "Mesaj yönetimiyle şikâyet ve yorumlar nasıl iyileştirilir?",
+          "a": "<ul><li>şikâyet mesajları hızlı ve profesyonelce ele alınır,</li><li>sorunlar OTA veya Google yorumuna dönüşmeden çözülür,</li><li>misafir kendini ciddiye alınmış hisseder.</li></ul>Planlı mesaj yönetimi, negatif yorum oranını düşürür."
+        },
+        {
+          "q": "Mesaj yönetimi misafir memnuniyetini nasıl etkiler?",
+          "a": "<ul><li>hızlı yanıt,</li><li>net ve doğru bilgi,</li><li>tutarlı iletişim dili,</li><li>sorunların erken tespiti</li></ul>misafir memnuniyetini ciddi biçimde artırır. Özellikle WhatsApp gibi kanallarda aktif ve profesyonel olmak, “otel ulaşılabilir ve ilgili” algısı oluşturur."
+        }
+      ]
+    }
+  
+    },
+
+    "cta": {
+      "primary": "Mesaj Yönetimi hizmeti talep edin",
+      "primaryHref": "/tr/cagri-merkezi/mesaj-yonetimi",
+      "secondary": "Çağrı Merkezi Hizmetleri",
+      "secondaryHref": "/tr/cagri-merkezi"
+    }
+  }
 
 }

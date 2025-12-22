@@ -31,7 +31,7 @@ export const FAQ_MAP = {
   "web-sitesi-gelistirme-sss":"FaqWebDevelopment",
   "cms-entegrasyonu-sss":"FaqCMSIntegration",
   "kvkk-uyum-hizmeti-sss":"FaqKVKKCompliance",
-  "sunucu-güvenlik-sss":"FaqServerSecurity",
+  "sunucu-guvenlik-sss":"FaqServerSecurity",
   "bakim-destek-sss":"FaqMaintenanceSupport",
 
   "kurumsal-hediye-sss":"FaqCorporateGift",

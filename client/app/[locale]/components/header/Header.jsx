@@ -178,7 +178,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   }, []);
 
   return (
-    <header className="w-screen text-white fixed h-[80px] z-[999] top-0 flex items-center justify-center lg:mt-[42px] ">
+    <header className="w-screen text-white fixed h-[80px] z-[999] top-0 flex items-center justify-center lg:mt-[20px] xl:mt-[30px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}
@@ -234,18 +234,21 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
         setActiveService(null);
       }}
     >
-      <div className="w-full  py-[10px] px-0 rounded-[24px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/85">
+      <div className="w-full  py-[10px] px-0 rounded-[16px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/90">
         {/* 9 SÜTUNLUK GRID */}
-        <div className="flex justify-between lg:grid lg:grid-cols-5 xl:flex xl:flex-row">
+      <div className="flex justify-between lg:grid lg:grid-cols-5 gap-6 xl:flex xl:flex-row">
      {servicesConfig.map((service) => (
   <div
     key={service.key}
-    className="group flex flex-col items-center text-center gap-1"
+   className="group flex flex-col items-center text-center gap-2 min-w-[170px]"
   >
+
     {/* Üst başlık */}
     <Link
       href={service.href}
-      className={`items-center gap-0 rounded-full px-[6px] xl:px-2 py-1 xl:py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white ${
+      className={`items-center gap-0 rounded-xl px-[6px] xl:px-2 py-1 xl:py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white leading-snug break-words line-clamp-2 shadow-[0_0_0_1px_rgba(255,255,255,0.06)_inset]
+hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
+ ${
         activeService === service.key
           ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-transparent bg-clip-text"
           : " bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
@@ -255,22 +258,34 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       {service.label}
     </Link>
 
-    {service.subLinks && service.subLinks.length > 0 && (
-      <div className="w-full mt-2">
-        <ul className="flex flex-col xl:gap-1 text-[12px] text-white/75">
-          {service.subLinks.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                className="inline-flex px-2 py-1 rounded-full hover:bg-white/10 hover:text-white transition-colors duration-150"
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )}
+{service.subLinks && service.subLinks.length > 0 && (
+  <div
+    className={`relative overflow-hidden w-full mt-2 rounded-xl p-2 transition-colors
+    ${activeService === service.key ? "bg-white/[0.04]" : "bg-transparent"}`}
+  >
+    {/* Spotlight */}
+    <div className="pointer-events-none absolute -top-6 left-1/2 -translate-x-1/2 w-[320px] h-[310px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute inset-0 rounded-full blur-2xl bg-[radial-gradient(closest-side,rgba(255,255,255,0.35),rgba(99,102,241,0.52),transparent)]" />
+    </div>
+
+    {/* Ring */}
+    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+    <ul className="relative z-10 flex flex-col gap-2 text-[12px] text-white/80">
+      {service.subLinks.map((item) => (
+        <li key={item.href}>
+          <Link
+            href={item.href}
+            className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
+          >
+            {item.label}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
   </div>
 ))}
 
@@ -453,17 +468,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
                   <Link
                     key={service.key}
                     href={service.href}
-                     className="
-    gradient-border-button
-    flex items-center justify-center text-center
-    h-[53px]
-    px-3 py-2
-    rounded-[14px]
-    !bg-[#140015]/80
-    text-white/90 text-[12px] !font-normal leading-[120%]
-    hover:!bg-[#140015]
-    transition-colors
-  "
+                      className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
 
                     onClick={() => setIsMenuOpen(false)}
                   >
