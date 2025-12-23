@@ -1,44 +1,51 @@
 "use client";
 
-import Link from "next/link";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import { useTranslations } from 'next-intl';
 
 export default function MyThreeScene() {
   const mountRef = useRef(null);
-  const t = useTranslations("Homepage.Hero")
+
+  const rendererRef = useRef(null);
+  const recorderRef = useRef(null);
+  const chunksRef = useRef([]);
+  const [isRecording, setIsRecording] = useState(false);
 
   useEffect(() => {
     if (!mountRef.current) return;
 
-    // Container ve boyutlar
     const container = mountRef.current;
+    container.innerHTML = "";
+    
     const width = container.clientWidth;
     const height = container.clientHeight;
 
-    // === SCENE ===
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x160016);
 
-    // === CAMERA ===
-    // Burada z değerini 21 yerine 35 yapıyoruz
     const camera = new THREE.PerspectiveCamera(60, width / height, 1, 1000);
     camera.position.set(0, 4, 35);
 
-    // === RENDERER ===
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(width, height);
-    container.appendChild(renderer.domElement);
+    const renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      powerPreference: "high-performance",
+    });
 
-    // === ORBIT CONTROLS ===
+    // Kalite/performans dengesi:
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(width, height);
+
+    container.appendChild(renderer.domElement);
+    rendererRef.current = renderer;
+
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.enablePan = false;
-    controls.enableZoom = false; // Tekerlek olayını yakalamıyor
+    controls.enableZoom = false;
 
-    // === PARTİKÜLLER ===
+    // ... senin particle / shader kodların aynen burada ...
+     // === PARTİKÜLLER ===
     const gu = { time: { value: 0 } };
     let sizes = [];
     let shift = [];
@@ -156,14 +163,17 @@ export default function MyThreeScene() {
     p.rotation.z = 0.2;
     p.position.x = 15;
     scene.add(p);
+    //-------------
 
-    // Animasyon
-        const clock = new THREE.Clock();
-        const zoomDuration = 2.0;   // 2 saniyede yaklaşma
+    let rafId;
+    const clock = new THREE.Clock();
+       const zoomDuration = 2.0;   // 2 saniyede yaklaşma
         const startZ = 60;
         const endZ = 35;
-        function animate() {
-      requestAnimationFrame(animate);
+        
+    function animate() {
+      rafId = requestAnimationFrame(animate);
+      // render loop...
       let elapsed = clock.getElapsedTime();
       let t = elapsed * 0.5;
       let a = clock.getElapsedTime() * 0.5;
@@ -180,31 +190,12 @@ export default function MyThreeScene() {
         // 2sn sonrası sabit endZ
         camera.position.z = endZ;
       }
+
       controls.update();
       renderer.render(scene, camera);
     }
     animate();
 
-    // Zoom + Scroll
-    let isInside = false;
-    function handleEnter() {
-      isInside = true;
-    }
-    function handleLeave() {
-      isInside = false;
-    }
-    renderer.domElement.addEventListener("mouseenter", handleEnter);
-    renderer.domElement.addEventListener("mouseleave", handleLeave);
-
-    function handleWheel(event) {
-      if (isInside) {
-        const zoomFactor = 0.02;
-        camera.position.z += event.deltaY * zoomFactor;
-      }
-    }
-    renderer.domElement.addEventListener("wheel", handleWheel, { passive: true });
-
-    // Resize
     function handleResize() {
       const newW = container.clientWidth;
       const newH = container.clientHeight;
@@ -212,189 +203,92 @@ export default function MyThreeScene() {
       camera.aspect = newW / newH;
       camera.updateProjectionMatrix();
     }
-
-    if (typeof window !== "undefined") {
     window.addEventListener("resize", handleResize);
 
-    // Cleanup
     return () => {
+      cancelAnimationFrame(rafId);
       window.removeEventListener("resize", handleResize);
-      renderer.domElement.removeEventListener("mouseenter", handleEnter);
-      renderer.domElement.removeEventListener("mouseleave", handleLeave);
-      renderer.domElement.removeEventListener("wheel", handleWheel);
-      if (container.contains(renderer.domElement)) {
-        container.removeChild(renderer.domElement);
-      }
+      if (container.contains(renderer.domElement)) container.removeChild(renderer.domElement);
       renderer.dispose();
-      g.dispose();
-      m.dispose();
+        rendererRef.current = null; 
     };
-  }
   }, []);
 
+const startRecording = () => {
+  try {
+    const renderer = rendererRef.current;
+    if (!renderer) {
+      console.log("rendererRef.current is null");
+      return;
+    }
+
+    const canvas = renderer.domElement;
+    if (!canvas.captureStream) {
+      console.log("captureStream not supported");
+      return;
+    }
+
+    const stream = canvas.captureStream(60);
+
+    const mimeCandidates = [
+      "video/webm;codecs=vp9",
+      "video/webm;codecs=vp8",
+      "video/webm",
+    ];
+    const mimeType = mimeCandidates.find((m) => MediaRecorder.isTypeSupported(m)) || "";
+
+    chunksRef.current = [];
+
+    const rec = new MediaRecorder(stream, {
+      mimeType,
+      videoBitsPerSecond: 12_000_000,
+    });
+
+    rec.ondataavailable = (e) => {
+      if (e.data && e.data.size > 0) chunksRef.current.push(e.data);
+    };
+
+    rec.onstop = () => {
+      const blob = new Blob(chunksRef.current, { type: mimeType || "video/webm" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "three-canvas.webm";
+      a.click();
+      URL.revokeObjectURL(url);
+    };
+
+    recorderRef.current = rec;
+    rec.start(1000);
+    setIsRecording(true);
+
+    console.log("Recording started", mimeType);
+  } catch (err) {
+    console.error("Recording error:", err);
+  }
+};
+
+const stopRecording = () => {
+  recorderRef.current?.stop();
+  setIsRecording(false);
+};
+
+
   return (
-    <div className="relative w-screen h-[90vh] md:h-[80vh] min-h-[670px] md:min-h-[850px] xl:min-h-[780px]" style={{ position: "relative", width: "100vw" }}>
-      {/* 3D Canvas */}
-      <div
-        ref={mountRef}
-        style={{
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
-        }}
-      />
+    <div className="relative w-screen h-[90vh]">
+      <div ref={mountRef} style={{ width: "100%", height: "100%", overflow: "hidden" }} />
 
-      {/* Yazılar + Button */}
-      <div
-        className="flex left-[4%] lg:left-[6%] xl:left-[12%] top-[18%] sm:top-[20%] md:top-[21%] lg:top-[24%] xl:top-[32%] flex-col gap-4  justify-center text-start bg-black/40 lg:bg-transparent"
-        style={{
-          position: "absolute",
-          color: "#fff",
-          zIndex: 50,
-        }}
-      >
-        <h1
-          className="w-full md:w-[63%] lg:w-[64%] xl:w-[55%] font-inter28 -tracking-[0.48px] lg:tracking-[-1.12px] leading-[120%] lg:leading-[130%] text-[24px] lg:text-[26px] font-bold "
-        >
-         {t("title")}
-        </h1>
-        <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
-      {t.rich("subtitle", {
-        strong: (chunks) => (
-          <span className="font-extrabold">
-            {chunks}
-          </span>
-        ),
-      })}
-    </p>
-
-    <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]">
-      {t.rich("subtitle2", {
-        strong: (chunks) => (
-          <span className="font-extrabold">
-            {chunks}
-          </span>
-        ),
-      })}
-    </p>
-    
-        <ul className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px] list-disc ml-8">
-          <li > Otel & turizm odaklı 360° dijital pazarlama</li>
-          <li>Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri</li>
-          <li>TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi</li>
-          <li>Looker Studio ile şeffaf, gerçek zamanlı performans raporlama</li>
-        </ul>
-        
-        
-       <div className="flex gap-4">
-         <Link href="/Services" className="flex items-center gradient-border-button w-[184px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button")}</Link>
-        <style jsx>{`
-        .gradient-border-button {
-          position: relative;
-          padding: 3px 0px;
-          font-size: 14px;
-          font-weight: 600;
-          background: transparent;
-          color: #fff;
-          border: none;
-          border-radius: 14px;
-          cursor: pointer;
-          z-index: 1;
-          overflow: hidden;
-        }
-        .gradient-border-button::before {
-          content: '';
-          position: absolute;
-          top: 0; left: 0; right: 0; bottom: 0;
-          border-radius: inherit;
-          padding: 3px;
-          background: linear-gradient(
-            90deg, 
-            #A754CF, /* pembe ton */
-            #54B9CF, /* altın ton */
-            #547DCF, /* açık yeşil ton */
-            #A754CF  /* tekrar pembe */
-          );
-          background-size: 300%;
-          /* "Maskeleme" tekniği: sadece kenarlarda renk gözüksün */
-          -webkit-mask:
-            linear-gradient(#fff 0 0) content-box, 
-            linear-gradient(#fff 0 0);
-          -webkit-mask-composite: xor;
-          mask-composite: exclude;
-          pointer-events: none;
-          transition: background-position 0.1s;
-        }
-
-        /* Hover'da gradientin akışını animasyonla */
-        .gradient-border-button:hover::before {
-          animation: moveBorder 3s linear infinite;
-        }
-
-        @keyframes moveBorder {
-          0% {
-            background-position: 0% 50%;
-          }
-          100% {
-            background-position: 100% 50%;
-          }
-        }
-      `}</style>
-
-       <Link href="/contact" className="flex items-center gradient-border-button w-[130px] h-[42px] text-[14px] ml-3 font-bold justify-center font-inter leading-[16.8px] tracking-[-0.28px] "> {t("button2")}</Link>
-        <style jsx>{`
-        .gradient-border-button {
-          position: relative;
-          padding: 3px 0px;
-          font-size: 14px;
-          font-weight: 600;
-          background: transparent;
-          color: #fff;
-          border: none;
-          border-radius: 14px;
-          cursor: pointer;
-          z-index: 1;
-          overflow: hidden;
-        }
-        .gradient-border-button::before {
-          content: '';
-          position: absolute;
-          top: 0; left: 0; right: 0; bottom: 0;
-          border-radius: inherit;
-          padding: 3px;
-          background: linear-gradient(
-            90deg, 
-            #A754CF, /* pembe ton */
-            #54B9CF, /* altın ton */
-            #547DCF, /* açık yeşil ton */
-            #A754CF  /* tekrar pembe */
-          );
-          background-size: 300%;
-          /* "Maskeleme" tekniği: sadece kenarlarda renk gözüksün */
-          -webkit-mask:
-            linear-gradient(#fff 0 0) content-box, 
-            linear-gradient(#fff 0 0);
-          -webkit-mask-composite: xor;
-          mask-composite: exclude;
-          pointer-events: none;
-          transition: background-position 0.1s;
-        }
-
-        /* Hover'da gradientin akışını animasyonla */
-        .gradient-border-button:hover::before {
-          animation: moveBorder 3s linear infinite;
-        }
-
-        @keyframes moveBorder {
-          0% {
-            background-position: 0% 50%;
-          }
-          100% {
-            background-position: 100% 50%;
-          }
-        }
-      `}</style>
-       </div>
+      {/* Kaydet Butonu (test amaçlı) */}
+      <div className="absolute top-4 right-4 z-[999] flex gap-2">
+        {!isRecording ? (
+          <button onClick={startRecording} className="px-3 py-2 rounded-lg bg-white/80">
+            REC
+          </button>
+        ) : (
+          <button onClick={stopRecording} className="px-3 py-2 rounded-lg bg-red-500 text-white">
+            STOP
+          </button>
+        )}
       </div>
     </div>
   );

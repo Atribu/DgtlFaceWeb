@@ -75,7 +75,7 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
   const [prevTranslate, setPrevTranslate] = useState(0);
   const wheelTimeout = useRef(null);
 
-  const ITEM_HEIGHT = 130;
+  const ITEM_HEIGHT = 160;
   const GAP = 0;
 
   const handleMouseDown = (e) => {
@@ -236,8 +236,8 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                     key={index}
                     className="flex flex-col justify-start items-start gap-2 transition-all duration-700 text-start"
                     style={{
-                      height: `${ITEM_HEIGHT}px + 20px`,
-                      maxHeight: `${ITEM_HEIGHT}px`,
+                      height: `${ITEM_HEIGHT}px + 30px`,
+                      maxHeight: `${ITEM_HEIGHT}+ 40px`,
                       marginBottom:
                         index < items.length - 1 ? `${GAP}px` : "0",
                       opacity: activeIndex === index ? 1 : 0.3,

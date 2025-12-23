@@ -14,10 +14,12 @@ import Section3List from "../../Services/Section3/Section3List";
 import Link from "next/link";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
+import ThreeMainBanner from "./ThreeMainBanner";
 
 const MyThreeScene = dynamic(() => import("../../components/MtThreeScene"), {
   ssr: false,
 });
+
 
 const Section1 = dynamic(() => import("../../components/Section1/Section"), {
   ssr: false,
@@ -63,7 +65,8 @@ export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center max-w-screen overflow-x-hidden">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
-        <MyThreeScene />
+        {/* <MyThreeScene /> */}
+        <ThreeMainBanner/>
         
          <Section4 />
      

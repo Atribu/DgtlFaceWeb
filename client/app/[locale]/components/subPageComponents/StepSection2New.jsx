@@ -1,18 +1,22 @@
 import Image from "next/image";
 import React from "react";
 import LongLineSvg from "./LongLineSvg";
-import PlainRichText from "../common/PlainRichText"; // ✅ yolu projene göre güncelle
+import PlainRichText from "../common/PlainRichText"; 
 
 const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
   const lineHeightMap = {
-    3: 2300,
-    4: 3200,
-    5: 3800,
+    3: 1150,
+    4: 1640,
+    5: 2000,
+    6:2450,
+    7:2880,
+    8:3230,
+     9:3740
   };
 
-  const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3800
+  const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3400
 
-  return (
+return (
     <div className="flex flex-col w-screen h-auto items-center justify-center bg-[#080612] mt-4 lg:mt-0  mb-8 lg:mb-0">
       <div className="flex flex-col w-[90%] lg:w-[85%] gap-1 lg:gap-2 text-white items-center justify-center text-center mb-7 lg:mb-10">
         {/* ÜST BAŞLIK */}

@@ -227,14 +227,14 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.5%] w-[98vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.5%] w-[99vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);
         setActiveService(null);
       }}
     >
-      <div className="w-full  py-[10px] px-0 rounded-[16px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/90">
+      <div className="w-[100%] py-[10px] px-0 rounded-[16px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/90">
         {/* 9 SÜTUNLUK GRID */}
       <div className="flex justify-between lg:grid lg:grid-cols-5 gap-6 xl:flex xl:flex-row">
      {servicesConfig.map((service) => (

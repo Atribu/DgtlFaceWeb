@@ -27,13 +27,14 @@ export default function Footer() {
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
   const serviceCategories = [
     { href: "/Services/sem", label: "SEM (Dijital Reklam Yönetimi)" },
-    { href: "/Services/seo", label: "SEO (Arama Motoru Optimizasyonu)" },
+     { href: "/Services/creative", label: "Creative" },
+   { href: "/Services/pms", label: "PMS & OTA Yönetimi" },
+      { href: "/Services/callcenter", label: "Çağrı Merkezi" },
     { href: "/Services/smm", label: "SMM (Sosyal Medya Pazarlaması)" },
     { href: "/Services/software", label: "Web & Yazılım Hizmetleri" },
+     { href: "/Services/seo", label: "SEO (Arama Motoru Optimizasyonu)" },
         { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama" },
-    { href: "/Services/creative", label: "Creative" },
-    { href: "/Services/callcenter", label: "Çağrı Merkezi" },
-    { href: "/Services/pms", label: "PMS & OTA Yönetimi" },
+
     { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
  
   ];
@@ -175,7 +176,7 @@ export default function Footer() {
         </div>
 
         {/* DESKTOP */}
-        <div className="hidden lg:flex lg:flex-row justify-between items-start h-[200px] xl:h-[240px]">
+        <div className="hidden lg:flex lg:flex-row justify-between items-start h-[200px] xl:h-[240px] py-4">
           {/* ✅ Sol: Hizmetler 5+5 + logo */}
           <div className="flex flex-col items-center justify-between gap-10 w-[31%] mt-10 lg:mt-2 xl:mt-4 text-white font-medium">
             <div>
@@ -183,23 +184,23 @@ export default function Footer() {
               Hizmetler
               </h4>
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
-                <div className="flex flex-col gap-[4px]">
+                <div className="flex flex-col gap-[8px]">
                   {leftServices.map((cat) => (
                     <Link
                       key={cat.href}
                       href={cat.href}
-                      className="hover:underline"
+                      className="hover:underline leading-[110%]"
                     >
                       {cat.label}
                     </Link>
                   ))}
                 </div>
-                <div className="flex flex-col gap-[4px] text-white">
+                <div className="flex flex-col gap-[8px] text-white">
                   {rightServices.map((cat) => (
                     <Link
                       key={cat.href}
                       href={cat.href}
-                      className="hover:underline"
+                      className="hover:underline leading-[110%]"
                     >
                       {cat.label}
                     </Link>
@@ -310,7 +311,7 @@ export default function Footer() {
         </div>
 
         {/* Alt satır */}
-        <div className="text-center text-sm text-gray-400 mt-10 z-[50]">
+        <div className="text-center text-sm text-gray-400 mt-10 lg:mt-20 z-[50]">
           © {new Date().getFullYear()} DGTLFACE. All rights reserved.
         </div>
       </div>

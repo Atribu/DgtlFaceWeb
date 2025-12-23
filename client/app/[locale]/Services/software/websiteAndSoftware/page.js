@@ -3,7 +3,7 @@ import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
 import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
 import React from 'react'
 import image1 from "./images/image1.png"
-import image2 from "./images/image2.png"
+import image2 from "../imagesSoftware/ux.webp"
 import image3 from "./images/image3.png"
 import { useTranslations } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
@@ -12,6 +12,10 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import image4 from "../imagesSoftware/cms.webp"
+import image5 from "../imagesSoftware/website.webp"
+import image6 from "../imagesSoftware/language.webp"
+import image7 from "../imagesSoftware/Minicasesnippet.webp"
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -170,7 +174,7 @@ const page = () => {
          
             const stepData = [1,2,3,4,5,6,7].map(i => ({
               id: i,
-              image: [image1,image2,image3,image1,image2,image3,image1][i-1],
+              image: [image4,image6,image5,image3,image2,image1,image7][i-1],
               header: t(`h3Section.header${i}`),
               text:   t.raw(`h3Section.text${i}`),
                textHtml:   t.raw(`h3Section.text${i}`)
