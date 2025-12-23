@@ -214,9 +214,13 @@ void main() {
   float t = (qnoise * 0.5) + 0.5;
   
   // Renk tanımları (RGB değerleri 0-1 aralığında)
-  vec3 startColor = vec3(167.0/255.0, 84.0/255.0, 207.0/255.0); // #A754CF
-  vec3 midColor   = vec3(84.0/255.0, 185.0/255.0, 207.0/255.0);  // #54B9CF
+  vec3 startColor = vec3(163.0/255.0, 87.0/255.0, 207.0/255.0); // #a357cf
+  vec3 midColor   =  vec3(118.0/255.0, 109.0/255.0, 207.0/255.0); // #756dce
   vec3 endColor   = vec3(84.0/255.0, 124.0/255.0, 207.0/255.0);  // #547CCF
+
+  //   vec3 startColor = vec3(85.0/255.0, 144.0/255.0, 207.0/255.0); // #5590cf
+  // vec3 midColor   = vec3(84.0/255.0, 185.0/255.0, 207.0/255.0);  // #54B9CF
+  // vec3 endColor   = vec3(84.0/255.0, 124.0/255.0, 207.0/255.0);  // #547CCF
   
   vec3 finalColor;
   

@@ -12,7 +12,7 @@ const LogoListSectionBlack = ({
   
 }) => {
   return (
-    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#8d60ce] z-[20] lg:pb-[100px]"  
+    <section className="flex flex-col w-screen items-center justify-center  bg-[#080612] text-[#372550] z-[20] lg:pb-[100px]"  
     // style={{ background:
     //       `
     //   linear-gradient(
@@ -32,7 +32,7 @@ const LogoListSectionBlack = ({
         {/* ÜST KISIM — METİN + ANİMASYON */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[42px] lg:gap-0">
         {/* SOL METİN */}
-        <div className="flex flex-col w-full md:w-[60%] text-center lg:text-start bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent font-inter">
+        <div className="flex flex-col w-full md:w-[60%] text-center lg:text-start bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent font-inter">
           <h2 className="text-[22px] lg:text-[24px] font-semibold font-inter28 leading-[120%] -tracking-[0.48px]">
             {introTitle}
           </h2>
@@ -81,8 +81,8 @@ const LogoListSectionBlack = ({
       [&_a]:underline
       [&_a]:underline-offset-2
       [&_a]:font-bold
-      [&_a]:text-[#55a1ce] 
-      hover:[&_a]:text-[#2f5972]
+      [&_a]:text-[#8d60ce] 
+      hover:[&_a]:text-[#2d1e42]
     "
   />
 )}
@@ -94,8 +94,8 @@ const LogoListSectionBlack = ({
         <DgtlfaceLogoBlackHead
           width={720}
           height={720}
-          className="-scale-x-100 absolute z-1 opacity-80 right-[63%] top-[1%] z-[10]"
-          color="#55a1ce"
+          className="-scale-x-100 absolute z-1 opacity-70 right-[63%] top-[1%] z-[10]"
+          color="#558ccf"
         />
       </div>
       </div>

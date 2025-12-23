@@ -5,12 +5,12 @@ export function AiAnswerBlock({ text }) {
     <section
       className="
         mt-4
-        w-[94%] lg:w-[84%]
+        w-[94%] lg:w-[88%]
         rounded-2xl
         border border-white/10
-        bg-[#443666]
+        bg-[#706fd1]
         px-4 py-3
-        lg:px-6 lg:py-5
+        lg:px-6 lg:py-4
         shadow-[0_14px_40px_rgba(0,0,0,0.45)]
         backdrop-blur-md
       "
@@ -23,7 +23,7 @@ export function AiAnswerBlock({ text }) {
               flex h-10 w-10 lg:h-12 lg:w-12
               items-center justify-center
               rounded-full
-              bg-gradient-to-br from-sky-400 to-indigo-500
+              bg-gradient-to-br from-sky-400 to-indigo-600
               shadow-[0_0_18px_rgba(79,209,255,0.35)]
             "
           >
