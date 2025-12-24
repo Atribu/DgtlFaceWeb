@@ -227,7 +227,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.5%] w-[99vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.7%] 2xl:-translate-x-[42.5%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);
@@ -236,7 +236,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     >
       <div className="w-[100%] py-[10px] px-0 rounded-[16px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/90">
         {/* 9 SÜTUNLUK GRID */}
-      <div className="flex justify-between lg:grid lg:grid-cols-5 gap-6 xl:flex xl:flex-row">
+      <div className="flex justify-between lg:grid lg:grid-cols-5 gap-3 xl:flex xl:flex-row">
      {servicesConfig.map((service) => (
   <div
     key={service.key}
@@ -260,7 +260,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
 {service.subLinks && service.subLinks.length > 0 && (
   <div
-    className={`relative overflow-hidden w-full mt-2 rounded-xl p-2 transition-colors
+    className={`relative overflow-hidden w-full mt-2 rounded-xl p-1 transition-colors
     ${activeService === service.key ? "bg-white/[0.04]" : "bg-transparent"}`}
   >
     {/* Spotlight */}

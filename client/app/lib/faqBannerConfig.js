@@ -60,6 +60,15 @@ const SEO_CHIPS = [
       { label: "Kurumsal Hediye", href: "/kurumsal-hediye-sss" },
     ];
 
+         const Callcenter_CHIPS = [
+      { label: "CALL CENTER", href: "/cagri-merkezi-sss" },
+       { label: "4 Dilli Çağrı Merkezi", href: "/4-dilli-cagri-merkezi-sss" },
+      { label: "Performans Analizi", href: "/performans-analizi-sss" },
+      { label: "Mesaj Yönetimi", href: "/mesaj-yonetimi-sss" },
+      { label: "Satış Sonrası Destek", href: "/satis-sonrasi-destek-sss" },
+      { label: "Rezervasyon Desteği", href: "/rezervasyon-destegi-sss" },
+    ];
+
 const GROUPS = {
   sem: {
     title: "SEM",
@@ -122,6 +131,19 @@ const GROUPS = {
       "video-ve-produksiyon-sss",
       "etkinlik-produksiyonu-sss",
       "kurumsal-hediye-sss",
+    ],
+  },
+
+    callcenter: {
+    title: "Callcenter",
+    chips: Callcenter_CHIPS,
+    slugs: [
+      "cagri-merkezi-sss",
+      "4-dilli-cagri-merkezi-sss",
+      "performans-analizi-sss",
+      "mesaj-yonetimi-sss",
+      "satis-sonrasi-destek-sss",
+      "rezervasyon-destegi-sss",
     ],
   },
 };

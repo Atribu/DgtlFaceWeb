@@ -4,6 +4,9 @@ import VerticalSlider from '@/app/[locale]/components/subPageComponents/Vertical
 import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
+import image3 from "./images/image3.webp"
+import image4 from "./images/image4.webp"
+import image5 from "./images/image5.webp"
 import { useTranslations } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
@@ -167,7 +170,7 @@ const t2 = useTranslations("HotelReservationCallCenterPage.h4Section");
            
               const stepData = [1,2,3,4,5].map(i => ({
                 id: i,
-                image: [image1,image2,image1,image2,image1][i-1],
+                image: [image1,image2,image3,image4,image5][i-1],
                 header: t(`h3Section.header${i}`),
                 text:   t.raw(`h3Section.text${i}`),
                    textHtml:   t.raw(`h3Section.text${i}`)

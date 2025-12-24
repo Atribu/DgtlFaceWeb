@@ -5,7 +5,12 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
-import image4 from "./images/image3.png"
+import image4 from "./images/image4.webp"
+import image5 from "./images/image5.webp"
+import image6 from "./images/image6.webp"
+import image7 from "./images/image7.webp"
+import image8 from "./images/image8.webp"
+import image9 from "./images/image9.webp"
 import {useTranslations} from 'next-intl';
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -170,7 +175,7 @@ const page = () => {
              
                 const stepData = [1,2,3,4,5,6,7,8,9].map(i => ({
                   id: i,
-                  image: [image1,image2,image3,image1,image2,image3,image1,image2,image3][i-1],
+                  image: [image1,image2,image5,image4,image3,image6,image7,image8,image9][i-1],
                   header: t(`h3Section.header${i}`),
                   text:   t(`h3Section.text${i}`),
                    textHtml:   t.raw(`h3Section.text${i}`)

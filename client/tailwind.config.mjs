@@ -20,6 +20,11 @@ export default {
       boxShadow: {
         boxshadow: ["0px 7px 50px 0px rgba(20, 12, 41, 0.05)"],
       },
+
+       screens: {
+        "3xl": "1920px",
+        "4xl": "2560px",
+      },
     },
   },
   plugins: [

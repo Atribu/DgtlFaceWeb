@@ -164,9 +164,9 @@ const page = () => {
    const t = useTranslations("SoftwareMaintenance");
     const t2 = useTranslations("SoftwareMaintenance.h4Section");
             
-               const stepData = [1,2,3,4].map(i => ({
+               const stepData = [1,2,3].map(i => ({
                  id: i,
-                 image: [image1,image2,image3,image1][i-1],
+                 image: [image1,image2,image3][i-1],
                  header: t(`h3Section.header${i}`),
                  text:   t.raw(`h3Section.text${i}`),
                   textHtml:   t.raw(`h3Section.text${i}`)

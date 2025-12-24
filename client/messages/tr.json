@@ -4342,6 +4342,7 @@
     },
 
     "h3Section": {
+      "header":"Video Prodüksiyon",
       "header1": "Senaryo Yazımı ve Storyboard Hazırlama",
       "text1": "<b>“Video storyboard hazırlama, video senaryo yazımı”</b> sürecinde:<ul><li> Çekim gününde neyi, hangi sırayla, hangi açıyla çekeceğimizi planlarız,</li><li> Sahne sahne görsel taslaklar oluştururuz,</li><li> Metin, seslendirme ve müzik seçimlerini önceden kurgularız.</li></ul>Senaryo; hem görsel hem metinsel akışı <b>aynı hizada</b> tutar.",
 
@@ -4458,6 +4459,7 @@
 },
 
 "h3Section": {
+  "header":"Etkinlik Prodüksiyonu",
   "header1": "Lansman Prodüksiyonu",
   "text1": "Yeni bir <b>ürün, marka ya da hizmet lansmanında</b>; sahne akışı, konuşmacılar, demo alanları ve misafir reaksiyonlarını odakta tutarız.\n\n<b>“Lansman prodüksiyonu, kurumsal organizasyon”</b> taleplerinde; hem sahne önünü hem <b>sahne arkasını</b> belgelendiririz.\nElde edilen görüntüler, sonrasında:<ul><li>Kurumsal tanıtım videoları,</li><li>Sosyal medya özetleri,</li><li>PR & basın içerikleri</li></ul>için kullanılır.",
 
@@ -18415,6 +18417,13 @@
       }
     ]
   }
+    },
+
+     "cta": {
+      "primary": "Reservasyon Desteği talep edin",
+      "primaryHref": "/Services/callcenter/reservationSupport",
+      "secondary": "Çağrı Merkezi Hizmetleri",
+      "secondaryHref": "/Services/callcenter"
     }
   },
 
@@ -18585,15 +18594,1460 @@
           "a": "<ul><li>hızlı yanıt,</li><li>net ve doğru bilgi,</li><li>tutarlı iletişim dili,</li><li>sorunların erken tespiti</li></ul>misafir memnuniyetini ciddi biçimde artırır. Özellikle WhatsApp gibi kanallarda aktif ve profesyonel olmak, “otel ulaşılabilir ve ilgili” algısı oluşturur."
         }
       ]
-    }
+    },
+
+     "section6": {
+        "title": "Pain Point: Kaçırılan Mesajlar, Geç Yanıt, Dağınık İletişim",
+        "items": [
+          {
+            "q": "Kaçırılan mesajlar ne tür kayıplar yaratır?",
+            "a": "<ul><li>potansiyel rezervasyon kaybı,</li><li>“yazdım ama kimse dönmedi” hissi,</li><li>sosyal medyada pasif görünüm,</li><li>OTA mesaj kutusunda düşük cevaplama oranı → platform skoru düşebilir.</li></ul>"
+          },
+          {
+            "q": "Geç yanıtlar misafir davranışını nasıl etkiler?",
+            "a": "Misafir, “şimdi yazdım, birkaç saate dönerler” değil, “hemen cevap alırım” beklentisiyle mesaj atıyor. Yanıt gecikince;<ul><li>başka otellere de yazıyor,</li><li>ilk yanıt veren kazançlı çıkıyor.</li></ul>"
+          },
+          {
+            "q": "Farklı platformlarda dağınık iletişim neye yol açar?",
+            "a": "<ul><li>misafirin aynı soruyu birden çok yerde sormasına,</li><li>ekip içinde “kim, neye cevap verdi” karmaşasına,</li><li>eksik veya çelişkili bilgi verilmesine,</li><li>takip edilemeyen süreçlere.</li></ul>Tek panel ve net sorumluluk, bu dağınıklığı ortadan kaldırır."
+          },
+          {
+            "q": "Düşük memnuniyet ve mesaj yönetimi arasındaki ilişki nedir?",
+            "a": "Cevapsız/ geç cevaplanan mesajlar, misafirin gözünde;<ul><li>ilgisizlik,</li><li>organizasyonsuzluk,</li><li>“söz verdiğinde ne kadar arkasında durur?” sorusu</li></ul>yaratır. Bu da hem rezervasyon öncesi hem sonrası memnuniyet üzerinde negatif etki oluşturur."
+          },
+          {
+            "q": "Yanlış kurgulanmış mesaj yönetimi nelerle sonuçlanır?",
+            "a": "<ul><li>mesajların hâlâ kişiye bağlı yürüdüğü,</li><li>raporlanmayan performans,</li><li>PMS/rezervasyon süreçleriyle bağsız iletişim,</li><li>marka tonundan uzak, düzensiz cevaplar.</li></ul>Yani “kanal sayısı artmış ama kalite artmamış” bir durum oluşur."
+          }
+        ]
+      },
+      "section7": {
+        "title": "GEO & Sektör Odaklı Mesaj Yönetimi",
+        "items": [
+          {
+            "q": "Türkiye’deki resort oteller için mesaj yönetimi neden kritik?",
+            "a": "<ul><li>misafir, rezervasyon öncesinde WhatsApp ve OTA mesajları üzerinden çok sayıda soru soruyor,</li><li>sezonda telefon hattı kadar mesaj kutuları da yoğunlaşıyor,</li><li>misafir, otelin ne kadar “online ve ilgili” olduğunu mesajlardan ölçüyor.</li></ul>Profesyonel mesaj yönetimi, resort otellerde özellikle fark yaratır."
+          },
+          {
+            "q": "City otelleri için mesaj yönetimi ne sağlar?",
+            "a": "<ul><li>iş seyahati ve kısa konaklama sorularına hızlı yanıt,</li><li>MICE ve toplantı taleplerinde daha profesyonel iletişim,</li><li>güncel oda–fiyat–müsaitlik bilgisini hızlı paylaşma.</li></ul>"
+          },
+          {
+            "q": "OTA mesaj yönetimi, turizm bölgelerinde neden ayrıca önemli?",
+            "a": "OTA mesaj kutusundaki yanıt hızı ve kalitesi;<ul><li>misafirin oteli tercih etme kararını,</li><li>OTA içi performans skorlarınızı,</li><li>bazı platformlarda listelenme avantajlarını</li></ul>doğrudan etkileyebilir."
+          },
+          {
+            "q": "Çok dilli pazarlara çalışan oteller için mesaj yönetimi nasıl olmalı?",
+            "a": "<ul><li>Türkçe + İngilizce en az,</li><li>hedef pazarlarınıza göre Almanca, Rusça vb. dillerde de yanıt verebilen,</li><li>dil bazlı hazır yanıt setleri ve script’ler içeren bir model en sağlıklısıdır.</li></ul>"
+          },
+          {
+            "q": "Türkiye geneli için mesaj yönetimi hangi senaryoları kapsamalı?",
+            "a": "<ul><li>oda & fiyat soruları,</li><li>kampanya ve paket bilgisi,</li><li>şikâyet ve talep yönetimi,</li><li>transfer ve ekstra hizmet soruları,</li><li>iptal/değişiklik talepleri.</li></ul>Hedef, misafir için “her şeyi WhatsApp ve mesajla çözdüğüm otel” algısı yaratmaktır."
+          }
+        ]
+      },
+      "section8": {
+        "title": "Mini Mesaj Yönetimi SSS",
+        "items": [
+          {
+            "q": "Her otele mutlaka mesaj yönetimi gerekir mi?",
+            "a": "Her mesaj alan otel için evet; kapsam ve derinlik otelin ölçeğine göre değişebilir ama “yazılan mesajları kimse takip etmiyor” durumu kabul edilemez."
+          },
+          {
+            "q": "Sadece WhatsApp’a baksak, DM ve OTA mesajlarını boşlasak olur mu?",
+            "a": "Olmaz; misafir farklı kanalları kullanır, her kanal kendi içinde değerli ve satış potansiyeli taşır."
+          },
+          {
+            "q": "Mesajlara sadece “mesai saatlerinde” yanıt vermek yeterli mi?",
+            "a": "Hedef pazar ve destinasyona göre değişir; ancak özellikle turizm bölgelerinde akşam ve hafta sonu da ciddi mesaj trafiği olabilir."
+          },
+          {
+            "q": "Mesajların tamamını kopyala–yapıştır hazır yanıtlarla cevaplamak doğru mu?",
+            "a": "Hayır; hazır yanıtlar hız için önemlidir ama mutlaka kişisel dokunuş ve soruya özgü küçük uyarlamalar gerekir."
+          },
+          {
+            "q": "Mesaj yönetimi için özel bir platform kullanmak şart mı?",
+            "a": "Şart değil ama mesaj hacmi büyüdükçe, tek tek platformlardan bakmak yerine konsolide bir panel kullanmak büyük avantaj sağlar."
+          },
+          {
+            "q": "Mesaj yönetimini tamamen otel içi ekiple yürütmek mümkün mü?",
+            "a": "Hacim ve insan kaynağı uyumluysa evet; ancak çoğu otelde ekibin ana işi başka olduğu için dış kaynak veya hibrit model tercih ediliyor."
+          },
+          {
+            "q": "Mesajları kim yazmalı, pazarlama mı, çağrı merkezi mi?",
+            "a": "Operasyonu çağrı merkezi yönetir; ton of voice ve kritik içeriklerin çerçevesini pazarlama belirler. Ekipler birlikte çalışmalıdır."
+          },
+          {
+            "q": "Mesajları ne kadar süreyle saklamalıyım?",
+            "a": "Bu, KVKK ve platform politikalarına göre belirlenmelidir; en azından operasyonel takip ve şikâyet yönetimi için bir saklama süresi planı olmalıdır."
+          },
+          {
+            "q": "Mesajlara emoji kullanmak markayı küçültür mü?",
+            "a": "Marka tonunuza ve hedef kitlenize göre; yerinde ve dozunda emoji, mesajları daha samimi ve okunur hâle getirebilir."
+          },
+          {
+            "q": "Mesaj Yönetimi hizmetini sadece audit + süreç tasarımı olarak alabilir miyim?",
+            "a": "Evet; mevcut mesaj süreçlerinizi analiz edip, kanal–SLA–script–ton of voice ve platform önerilerini içeren bir danışmanlık paketi alıp, uygulamayı kendi ekibinizle yürütebilirsiniz."
+          }
+        ]
+      },
+      "section9": {
+        "title": "Mesaj Yönetimi İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile Mesaj Yönetimi için nasıl teklif alabilirim?",
+            "a": "<ul><li>hangi mesaj kanallarını kullandığınızı (WhatsApp, DM, web chat, OTA mesaj vb.),</li><li>günlük/aylık mesaj hacminizi,</li><li>hedef pazar ve dillerinizi,</li><li>şu anki ortalama cevap sürelerinizi,</li><li>yaşadığınız temel problemleri (cevapsız mesaj, geç yanıt, dağınık süreç, düşük memnuniyet vb.)</li></ul>özetleyen kısa bir brief paylaşırsanız;<b> kapsam, süreç, kanal entegrasyonu, SLA ve bütçe</b> çerçevesini içeren bir Mesaj Yönetimi yol haritası ve teklif hazırlanabilir."
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı mesaj yönetimi tarafında neyi netleştirir?",
+            "a": "Bu görüşmede;<ul><li>gerçekten hangi kanalların öncelikli olduğunu,</li><li>çok dilli ihtiyacı,</li><li>iç ekip–dış kaynak–hibrit seçeneklerini,</li><li>PMS/rezervasyon süreçleriyle entegrasyon noktalarını,</li><li>raporlama ve KPI modelinizi</li></ul>birlikte netleştiririz. Böylece Mesaj Yönetimi, sadece “DM ve WhatsApp cevaplama” değil, <b>rezervasyon ve memnuniyeti büyüten, ölçülebilir bir mesaj operasyonu</b> hâline gelir."
+          }
+        ]
+      }
   
     },
 
     "cta": {
       "primary": "Mesaj Yönetimi hizmeti talep edin",
-      "primaryHref": "/tr/cagri-merkezi/mesaj-yonetimi",
+      "primaryHref": "/Services/callcenter/messageManagement",
       "secondary": "Çağrı Merkezi Hizmetleri",
-      "secondaryHref": "/tr/cagri-merkezi"
+      "secondaryHref": "/Services/callcenter"
+    }
+  },
+
+  "FaqAfterSalesSupport": {
+    "h1": "Satış Sonrası Destek SSS",
+
+    "intro": {
+      "p1": "Rezervasyonu aldınız, misafiri ağırladınız… Peki sonrası?",
+      "p2": "Satış sonrası destek; özellikle otel & turizm dünyasında:<ul><li>olumsuz yorumların yönetilmesi,</li><li>şikâyetlerin doğru ele alınması,</li><li>memnuniyetin ölçülmesi,</li><li>tekrar gelmeyen misafir sorununun azaltılması,</li><li>sadakat ve tavsiye oranlarının artırılması</li></ul>için kritik. “Konaklama bitti, bitti” değil; tam tersine ilişkinin geleceği satış sonrası süreçte şekilleniyor.",
+      "p3": "Bu SSS sayfası, <b>Satış Sonrası Destek Hizmeti</b> ile ilgili en sık sorulan soruları; misafir memnuniyeti, şikâyet yönetimi, geri bildirim toplama, sadakat süreçleri ve çağrı merkezi/mesaj kanalları entegrasyonu çerçevesinde toplar."
+    },
+
+    "meta": {
+      "url": "/tr/cagri-merkezi/satis-sonrasi-destek-sss",
+      "serviceUrl": "/tr/cagri-merkezi/satis-sonrasi-destek",
+      "title": "Satış Sonrası Destek SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+      "description": "Satış Sonrası Destek hakkında sık sorulan sorular; misafir memnuniyeti, şikâyet yönetimi ve sadakat süreçleri. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "silo": "Çağrı Merkezi",
+      "locationFocus": "Türkiye geneli + turizm bölgeleri",
+      "sector": "Otel & Turizm",
+      "primaryIntent": "Transactional (Hizmet Talebi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Satış Sonrası Destek Nedir?",
+        "items": [
+          {
+            "q": "Satış sonrası destek hizmeti tam olarak nedir?",
+            "a": "Satış sonrası destek; misafirin rezervasyon yaptıktan sonra, konaklama sırasında veya check-out sonrasında yaşadığı:<ul><li>sorular,</li><li>şikâyetler,</li><li>teşekkür ve öneriler,</li><li>kayıp/unutulan eşya,</li><li>fatura ve belge talepleri</li></ul>gibi tüm iletişim konularını telefon, <b>WhatsApp, DM, OTA mesajları ve e-posta </b>üzerinden profesyonelce yönetme sürecidir. Amaç; “sorunu olan misafiri” yalnız bırakmamak ve “memnun misafiri” sadık misafire çevirmektir."
+          },
+          {
+            "q": "Satış sonrası destek oteller için ne işe yarar?",
+            "a": "<ul><li>olumsuz deneyimi kontrol altına alma,</li><li>şikâyeti yoruma dönüşmeden çözme,</li><li>NPS ve memnuniyet skorlarını yükseltme,</li><li>tekrar rezervasyon ve tavsiye oranını artırma,</li><li>marka itibarını güçlendirme</li></ul>gibi sonuçlar üretir. Yani kısaca: <b>hasarı yönetir, değeri büyütür.</b>"
+          },
+          {
+            "q": "Satış sonrası süreç sadece “şikâyet” midir?",
+            "a": "Hayır. Şikâyet önemli bir parçadır ama satış sonrası süreç;<ul><li>konaklama sonrası teşekkür,</li><li>“sizi tekrar ağırlamak isteriz” tonundaki mesajlar,</li><li>anket ve NPS süreçleri,</li><li>sadakat teklifi (tıpkı “bir sonraki ziyaretinizde…” gibi)</li></ul>gibi pozitif ve proaktif adımları da içerir."
+          },
+          {
+            "q": "Neden satış sonrası destek çağrı merkezi/mesaj kanallarıyla entegre olmalı?",
+            "a": "Çünkü misafir:<ul><li>telefonla arayabilir,</li><li>WhatsApp’tan yazabilir,</li><li>OTA üzerinden mesaj atabilir,</li><li>sosyal medyadan DM gönderebilir.</li></ul>Bunların hepsi <b>aynı şikâyet/konu</b> ile ilgili olabilir. Çok kanallı satış sonrası destek; her kanaldan gelen geri bildirimi tek merkezde toplayarak, şikâyeti/isteği <b>parça parça</b> değil, <b>bütüncül</b> yönetme imkânı verir."
+          },
+          {
+            "q": "Satış sonrası destek hizmeti kimler için uygundur?",
+            "a": "<ul><li>resort oteller,</li><li>city oteller,</li><li>zincir oteller,</li><li>misafir hacmi yüksek ve yorum/şikâyet trafiği çok olan tüm otel yapılanmaları için uygundur.</li></ul>Özellikle “yorum skorları düşük, şikâyetler artıyor, tekrar gelen misafir oranı düşüyor” şikâyetlerini dile getiren oteller için kritik bir yapı taşidir."
+          },
+          {
+            "q": "Satış sonrası destek ile klasik misafir ilişkileri arasında fark nedir?",
+            "a": "Klasik misafir ilişkileri çoğu zaman <b>sahada</b>, otel içinde çalışır. Satış sonrası destek hizmeti ise, hem saha hem de <b>çağrı merkezi/mesaj</b> kanalları üzerinden misafiri takip eder; KPI’larla ölçülen, raporlanan, standardize bir yapı sunar."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "Satış sonrası destek hizmeti tam olarak nedir?",
+            "a": "Misafir soruları, şikâyetleri ve sadakat süreçlerini, konaklama öncesi ve sonrasında çağrı merkezi ve mesaj kanallarından profesyonelce yöneten destek modelidir."
+          },
+          {
+            "q": "Otelimde misafir şikâyetlerini profesyonel bir ekiple yönetmek mantıklı mı?",
+            "a": "Şikâyet hacminiz yüksekse, yorum skorlarınız düşüyorsa veya kriz yönetiminde zorlanıyorsanız; evet, profesyonel bir satış sonrası ekip ile çalışmak çoğu zaman mantıklıdır."
+          },
+          {
+            "q": "Olumsuz yorumları nasıl daha iyi yönetebilirim?",
+            "a": "Yoruma dönüşmeden önce, şikâyeti çağrı merkezi/mesaj kanalı üzerinden yakalayıp çözerek; yoruma dönüşenlerde ise, hızlı, empatik ve çözüm odaklı resmi yanıtlarla yöneterek."
+          },
+          {
+            "q": "Misafir memnuniyetini ölçmek için hangi adımları atmalıyım?",
+            "a": "Anket/NPS süreçleri, çağrı ve mesaj sonrası mini memnuniyet soruları, özellikle çıkış sonrasında kısa geri bildirim toplama ve bunların hepsini düzenli raporlamak."
+          },
+          {
+            "q": "Tekrar gelmeyen misafir sorununu nasıl azaltırım?",
+            "a": "Olumsuz deneyimi tespit edip telafi etmek, memnun misafire de “tekrar gelmesi için” proaktif teklif ve hatırlatma yapmak; yani satış sonrası iletişimi sistematikleştirerek."
+          },
+          {
+            "q": "Satış sonrası destek hizmeti kimler için uygundur?",
+            "a": "Yorum skorlarını iyileştirmek, şikâyetleri profesyonelce yönetmek ve misafir sadakatini artırmak isteyen tüm oteller ve turizm işletmeleri için uygundur."
+          }
+        ]
+      },
+
+      "section3": {
+        "title": "Hizmet Kapsamı: Misafir Memnuniyeti, Şikâyet, Sadakat",
+        "items": [
+          {
+            "q": "Satış sonrası destek hizmeti hangi süreçleri kapsar?",
+            "a": "<ul><li>konaklama öncesi–sırası–sonrası misafir soruları,</li><li>şikâyet & talep yönetimi,</li><li>anket/NPS süreçleri,</li><li>sadakat ve tekrar rezervasyon kampanyalarına destek,</li><li>olumsuz yorum takibi ve yanıt koordinasyonu,</li><li>OTA / Google / yorum platformlarıyla entegre iletişim.</li></ul>"
+          },
+          {
+            "q": "Misafir şikâyetleri nasıl profesyonelce yönetilir?",
+            "a": "<ul><li>şikâyet <b>geç</b> değil, <b>erken</b> tespit edilir,</li><li>misafire hızlı ve empatik şekilde geri dönülür,</li><li>konu, otel içi ilgili departmana net ve kayıtlı şekilde iletilir,</li><li>çözüm sonrası misafire tekrar dönüş yapılarak sonuç paylaşılır.</li></ul>Standart prosedürler ve script’ler, her şikâyetin “kişisel doğaçlama” değil, <b>markanın kurumsal duruşuna uygun</b> yönetilmesini sağlar."
+          },
+          {
+            "q": "Satış sonrası destek sadakati nasıl etkiler?",
+            "a": "<ul><li>olumsuz deneyimi doğru yönetmek,</li><li>misafirin gerçekten dinlendiğini ve çözüm için çaba gösterildiğini hissettirmek,</li><li>bazı durumlarda telafi (yeni konaklama teklifi, upgrade, özel jest vb.)</li></ul>misafirin “bir daha asla gelmem” duygusunu, “sorun yaşadım ama çok iyi yönettikleri için tekrar gelebilirim” noktasına taşıyabilir."
+          },
+          {
+            "q": "Sadakat süreçleri satış sonrası destekle nasıl entegre edilir?",
+            "a": "<ul><li>memnuniyeti yüksek misafirler sadakat programına davet edilir,</li><li>tekrar rezervasyon için özel teklif/hatırlatma yapılır,</li><li>konaklama sonrası belirli segmentlere kişiselleştirilmiş e-posta / WhatsApp akışları sunulur.</li></ul>Çağrı merkezi, bu süreçte hem veri toplar hem de iletişim köprüsü olur."
+          },
+          {
+            "q": "Satış sonrası destek çağrı merkezi/mesaj kanallarına nasıl bağlanır?",
+            "a": "<ul><li>çağrı sonrası “memnuniyet mini sorusu”,</li><li>WhatsApp / DM üzerinden gelen şikâyetlerin kategori kodlarıyla işaretlenmesi,</li><li>şikâyet ve önerilerin CRM / PMS notlarına işlenmesi,</li><li>kritik vakaların misafir ilişkileri / satış sonrası ekibe otomatik atanması.</li></ul>"
+          }
+        ]
+      },
+
+      "section4": {
+        "title": "Süreç & İşleyiş: Şikâyet Akışı, Geri Bildirim, Prosedür",
+        "items": [
+          {
+            "q": "Satış sonrası destek sürecine nasıl başlanır?",
+            "a": "<ol><li>Mevcut şikâyet ve yorum verilerinin analizi (hangi konular, hangi kanallar),</li><li>hangi kanallardan (telefon, WhatsApp, OTA mesaj, e-posta) satış sonrası talepler geldiğinin belirlenmesi,</li><li>mevcut süreçlerin (kim bakıyor, ne yapıyor) haritalanması,</li><li>KPI’ların tanımlanması (yanıt süresi, çözüm oranı, NPS vb.),</li><li>script, prosedür ve raporlama yapısının oluşturulması,</li><li>pilot uygulama ve iyileştirme.</li></ol>"
+          },
+          {
+            "q": "Şikâyet & talep akışı nasıl yapılandırılmalı?",
+            "a": "<ul><li>şikâyet mesajı/çağrısı alındığında kategori bazlı etiketleme,</li><li>misafirin iletişim ve rezervasyon bilgilerinin eklenmesi,</li><li>ilgili departmana yönlendirme ve çözüm süresi tanımlama,</li><li>çözüm sonrası misafire geri dönüş ve memnuniyet kontrolü,</li><li>sürecin kapatılması ve raporlanması.</li></ul>"
+          },
+          {
+            "q": "Olumsuz yorumlar hangi aşamada satış sonrası destek sürecine dahil olmalı?",
+            "a": "<ul><li>mümkünse yorum yazılmadan önce (şikâyet henüz mesaj/çağrı iken),</li><li>yorum yazıldıysa; satış sonrası ekibi yorumu inceleyip yanıt metnini (otel onayıyla) hazırlar ve gerekirse misafirle ekstra iletişime geçer.</li></ul>"
+          },
+          {
+            "q": "Misafir memnuniyeti nasıl ölçülür ve artırılır?",
+            "a": "<ul><li>çıkış / konaklama sonrası kısa anketler,</li><li>belirli temas noktalarında (check-in, restoran, spa vb.) mini geri bildirim formları,</li><li>NPS (Net Promoter Score) çalışmaları,</li><li>şikâyet oranının ve çözüm hızının düzenli takibi.</li></ul>Artırmak için: veriye göre süreç, eğitim ve hizmet iyileştirmeleri yapılmalıdır."
+          },
+          {
+            "q": "Otel içi ekipler satış sonrası destek ekibiyle nasıl entegre çalışır?",
+            "a": "<ul><li>net görev ve yetki tanımları,</li><li>şikâyet aktarma ve geri bildirim prosedürleri,</li><li>periyodik toplantılar ve vaka analizleri,</li><li>başarı hikâyeleri ve kritik vakalar üzerinden eğitim.</li></ul>"
+          }
+        ]
+      },
+
+      "section5": {
+        "title": "Performans & Raporlama: NPS, Yorumlar, Tekrar Misafir",
+        "items": [
+          {
+            "q": "Satış sonrası destek performansı hangi metriklerle ölçülür?",
+            "a": "<ul><li>şikâyet sayısı ve kanal dağılımı,</li><li>şikâyet çözüm süresi,</li><li>ilk yanıt süresi,</li><li>NPS ve memnuniyet skorları,</li><li>olumsuz yorum oranı,</li><li>tekrar rezervasyon oranı,</li><li>sadakat programına katılım oranı.</li></ul>"
+          },
+          {
+            "q": "Olumsuz yorumlar marka itibarını nasıl etkiler?",
+            "a": "<ul><li>OTA, Google ve sosyal medya yorumları, pek çok misafirin karar sürecinde en kritik kaynaklardan biridir.</li><li>Yanlış yönetilen şikâyetler, düşük puanlı ve detaylı olumsuz yorumlar hâline geldiğinde;</li><li>özellikle yüksek rekabetli destinasyonlarda,</li><li>benzer fiyat bandındaki oteller arasında</li></ul> karar değişikliğine yol açabilir."
+          },
+          {
+            "q": "Misafir memnuniyeti nasıl ölçülür ve artırılır?",
+            "a": "<strong>Ölçüm için:</strong><ul><li>anketler,</li><li>NPS,</li><li>şikâyet / teşekkür dağılımı,</li><li>yorum içerikleri.</li></ul><strong>Artırmak için:</strong><ul><li>kök sebep analizi,</li><li>süreç ve hizmet iyileştirmeleri,</li><li>personel eğitimleri,</li><li>pozitif deneyimi öne çıkaran aksiyonlar (upgrade, sürpriz jestler vb.).</li></ul>"
+          },
+          {
+            "q": "Tekrar gelmeyen misafir sorununu nasıl azaltırım?",
+            "a": "<ul><li>memnuniyetsizlik sebeplerini veriye dayalı anlamak,</li><li>özellikle negatif deneyim yaşayan misafire satış sonrası telafi sunmak,</li><li>memnun misafirleri sadakat programına çekmek,</li><li>periyodik hatırlatma ve tekliflerle misafiri yeniden kazanmak.</li></ul>"
+          },
+          {
+            "q": "Satış sonrası destek, OTA ve dijital kampanya performansını nasıl etkiler?",
+            "a": "<ul><li>daha iyi yorum skorları ve daha çok pozitif yorum → OTA listelenme ve dönüşüm performansını artırır,</li><li>memnun ve sadık misafirler → daha düşük maliyetle tekrar rezervasyon,</li><li>iyi yönetilen şikâyet hikâyeleri → sosyal medyada pozitif içerik fırsatları.</li></ul>"
+          }
+        ]
+      },
+
+       "section6": {
+        "title": "Pain Point: Olumsuz Yorumlar, Tekrar Gelmeyen Misafir, Kriz Yönetimi, Düşük NPS",
+        "items": [
+          {
+            "q": "Olumsuz yorumlarla en sık hangi hatalar yapılıyor?",
+            "a": "<ul><li>yorumu görmezden gelmek veya geç yanıt vermek,</li><li>savunmacı/agresif cevaplar,</li><li>“özür yok, çözüm yok” formatında kuru yanıtlar,</li><li>içte hiçbir aksiyon almadan sadece “cevap vermiş olmak için” yanıt yazmak.</li></ul>"
+          },
+          {
+            "q": "Tekrar gelmeyen misafir problemi nereden kaynaklanır?",
+            "a": "<ul><li>beklentinin yanlış kurulması,</li><li>sorun yaşandığında çözüm sunulmaması,</li><li>çıkış sonrasında hiçbir temas olmaması,</li><li>sadakat ve tekrar rezervasyon süreçlerinin olmaması.</li></ul>"
+          },
+          {
+            "q": "Yanlış kriz yönetimi misafir deneyimini nasıl etkiler?",
+            "a": "<ul><li>küçük bir problem,</li><li>yanlış iletişimle “büyük bir kriz” hâline gelebilir;</li></ul>misafir kendini suçlanmış veya önemsenmemiş hissederse, sadece bir daha gelmemekle kalmaz, başkalarına da olumsuz deneyimini anlatır."
+          },
+          {
+            "q": "Düşük NPS skorları ne anlama gelir?",
+            "a": "<ul><li>misafirler, başkalarına otelinizi tavsiye etmeye istekli değil,</li><li>memnuniyet yüzeyde, derin bağ yok,</li><li>sıkıntı yaşayan misafir sayısı yüksek ve şikâyetler yeterince ele alınmamış olabilir.</li></ul>"
+          },
+          {
+            "q": "Satış sonrası destek süreci yanlış kurgulanırsa ne olur?",
+            "a": "<ul><li>şikâyetler kişilere bağlı kalır,</li><li>kimse tam sorumluluk almaz,</li><li>önemli vakalar kaybolur,</li><li>data toplanmaz, iyileştirme yapılamaz,</li><li>sonuçta memnuniyet ve sadakat düşer, kaynaklar boşa harcanır.</li></ul>"
+          }
+        ]
+      },
+
+      "section7": {
+        "title": "GEO & Sektör Odaklı Satış Sonrası Destek Soruları",
+        "items": [
+          {
+            "q": "Türkiye’deki resort oteller için satış sonrası destek neden önemli?",
+            "a": "<ul><li>yüksek hacimli misafir ve sezon yoğunluğu,</li><li>çok uluslu misafir profili,</li><li>OTA ve yorum platformlarına bağımlılık.</li></ul>Bu kombinasyon, satış sonrası süreçleri kritik hâle getirir; hatalı yönetim, çok sayıda olumsuz yoruma ve tekrar tercih kaybına yol açabilir."
+          },
+          {
+            "q": "City otellerinde satış sonrası destek nasıl konumlanmalı?",
+            "a": "<ul><li>business ve MICE misafirleri için hızlı ve profesyonel şikâyet/istek yönetimi,</li><li>şirket ve acente ilişkilerini koruyan kriz yönetimi,</li><li>short stay misafirler için bile hatırlanacak küçük jestler ve takip.</li></ul>"
+          },
+          {
+            "q": "Turizm bölgelerinde (Antalya, Belek, Kemer, Side, Alanya) satış sonrası destek hangi kanallara odaklanmalı?",
+            "a": "<ul><li>OTA ve Google yorumları,</li><li>WhatsApp ve sosyal medya mesajları,</li><li>sezon sonu anketler ve tekrar rezervasyon teklifleri.</li></ul>"
+          },
+          {
+            "q": "Sadakat ve tekrar rezervasyon için bölgesel strateji nasıl olmalı?",
+            "a": "<ul><li>iç pazar ve dış pazar segmentlerine göre farklı iletişim & teklif setleri,</li><li>sezon dışı dönemler için özel tekrar rezervasyon kampanyaları,</li><li>misafirin geçmiş konaklama deneyimine göre kişiselleştirilmiş teklifler.</li></ul>"
+          },
+          {
+            "q": "Türkiye geneli için satış sonrası destek otelin hangi departmanlarıyla daha yakın çalışmalı?",
+            "a": "<ul><li>misafir ilişkileri,</li><li>resepsiyon & ön büro,</li><li>satış & pazarlama,</li><li>gelir yönetimi,</li><li>gerektiğinde operasyon (housekeeping, F&B, teknik servis).</li></ul>"
+          }
+        ]
+      },
+
+      "section8": {
+        "title": "Mini Satış Sonrası Destek SSS (Micro – 10 Soru)",
+        "items": [
+          {
+            "q": "Her şikâyeti “müşteri haklıdır” diye çözüp tazmin etmek zorunda mıyım?",
+            "a": "Hayır; önemli olan adil ve şeffaf olmak, misafiri dinlemek, gereğinde telafi sunmak ama otelinizi de koruyan dengeli bir yaklaşım geliştirmektir."
+          },
+          {
+            "q": "Tüm şikâyetleri online form ile almak zorunda mıyım?",
+            "a": "Formlar faydalıdır, ancak birçok şikâyet telefon ve mesaj yoluyla gelir; kritik olan her kanalın kayıt altına alınması ve sürecin izlenebilmesidir."
+          },
+          {
+            "q": "Sadece resepsiyonun satış sonrası destek yürütmesi yeterli mi?",
+            "a": "Küçük otellerde bir süre mümkündür, ancak hacim büyüdükçe resepsiyonun hem sahayı hem şikâyetleri taşıması zorlaşır; ayrı bir satış sonrası destek modeli daha sağlıklıdır."
+          },
+          {
+            "q": "NPS çalışması yapmak için büyük bir sistem kurmak zorunda mıyım?",
+            "a": "Hayır; basit ama düzenli bir NPS veya memnuniyet sorusu bile, sürekli ve doğru uygulanırsa önemli içgörüler sağlar."
+          },
+          {
+            "q": "Satış sonrası destek olmadan sadece “iyi hizmet” vererek yetinebilir miyim?",
+            "a": "İyi hizmet şart ama yeterli değil; sorun çıktığında ne yapacağınızı, memnuniyeti nasıl ölçeceğinizi ve tekrar rezervasyon/sadakat için hangi adımları atacağınızı sistemleştirmek gerekir."
+          },
+          {
+            "q": "Satış sonrası süreçte tüm misafirlerle iletişime geçmek zorunda mıyım?",
+            "a": "Tüm misafirlerden geri bildirim almak hedef olabilir ama segment bazlı, öncelikli gruplara odaklanmak daha gerçekçidir."
+          },
+          {
+            "q": "Sadece OTA yorumlarına bakmak yeterli mi?",
+            "a": "Hayır; doğrudan kanallar (Google, sosyal medya, e-posta, mesaj) da en az OTA yorumları kadar önemlidir."
+          },
+          {
+            "q": "Satış sonrası destek ekibi, zaman zaman satış öncesi sürece de dahil olabilir mi?",
+            "a": "Evet; özellikle tekrar rezervasyon ve sadakat teklifleri için satış sonrası ekip, satış öncesi sürecin bir parçası hâline gelebilir."
+          },
+          {
+            "q": "Satış sonrası destek hizmetini sadece “audit + danışmanlık” şeklinde alabilir miyim?",
+            "a": "Evet; mevcut süreçlerinizi analiz eden, pain point’leri çıkaran, KPI ve prosedür önerileri sunan bir danışmanlık paketi alıp uygulamayı iç ekibinizle yürütebilirsiniz."
+          },
+          {
+            "q": "Satış sonrası destek olmadan sadece kampanya ve fiyatla sadakat yaratılabilir mi?",
+            "a": "Kısa vadede evet, ama uzun vadede sadece fiyat ve kampanya sadakat yaratmaz; misafir deneyimi ve satış sonrası süreçler güçlenmedikçe sadakat de kırılgan kalır."
+          }
+        ]
+      },
+
+      "section9": {
+        "title": "Satış Sonrası Destek Hizmeti İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile Satış Sonrası Destek için nasıl teklif alabilirim?",
+            "a": "<ul><li>otelinizin türü (resort, city, zincir vb.),</li><li>mevcut misafir iletişim kanallarınız (telefon, WhatsApp, DM, OTA mesajları, e-posta),</li><li>şikâyet ve yorum hacminiz,</li><li>şu anki memnuniyet / NPS skorlarınız (varsa),</li><li>yaşadığınız temel problemler (olumsuz yorumlar, tekrar gelmeyen misafirler, kriz yönetimi zorluğu vb.).</li></ul>ile kısa bir brief paylaşırsanız; <b>kapsam, süreç, KPI seti, entegrasyon ve bütçe</b> çerçevesini içeren bir Satış Sonrası Destek Hizmeti yol haritası ve teklif hazırlanabilir."
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı satış sonrası destek tarafında neyi netleştirir?",
+            "a": "<ul><li>hangi kanallardan satış sonrası iletişim aldığınızı,</li><li>hangi noktada tıkandığınızı (şikâyet hacmi, yorum skorları, tekrar misafir oranı),</li><li>iç ekip–dış kaynak–hibrit model seçeneklerini,</li><li>başlangıç için en kritik KPI ve süreçleri.</li></ul>Böylece satış sonrası destek; sadece “şikâyet geldiğinde bakan ekip” değil, <b>marka itibarını ve sadakati büyüten stratejik bir yapı</b> hâline gelir."
+          }
+        ]
+      }
+    },
+
+    "cta": {
+      "primary": "Satış sonrası destek hizmeti talep edin",
+      "primaryHref": "/Services/callcenter/aftersalesSupport",
+     "secondary": "Çağrı Merkezi Hizmetleri",
+      "secondaryHref": "/Services/callcenter"
+    }
+  },
+
+   "FaqCallCenterPerformanceAnalysis": {
+    "h1": "Çağrı Merkezi Performans Analizi SSS",
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+    "intro": {
+      "p1": "Çağrı merkezi kurduk, telefonlar açılıyor… Peki <b>nasıl gidiyor?</b><ul><li>Kaç çağrı geliyor?</li><li>Kaçı cevaplanıyor, kaçı kaybediliyor?</li><li>Ne kadar bekletiyoruz?</li><li>Kaç tanesini rezervasyona çeviriyoruz?</li><li>Hangi dil, hangi kanal daha verimli?</li><li>Ekip gerçekten ne kadar etkin çalışıyor?</li></ul>",
+      "p2": "<b>Çağrı Merkezi Performans Analizi SSS</b>, işte tam bu soruların cevabını KPI’larla (metriklerle) verir hale gelmeniz için hazırlandı. Amaç, çağrı merkezini “telefon açılan bir yer” değil; <b>ölçülebilen, yönetilebilen, optimize edilebilen bir satış & misafir deneyimi motoru</b> olarak konumlamak.",
+      "p3": ""
+    },
+    "meta": {
+      "url": "/tr/cagri-merkezi/performans-analizi-sss",
+      "serviceUrl": "/tr/cagri-merkezi/performans-analizi",
+      "title": "Çağrı Merkezi Performans Analizi SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+      "description": "Çağrı Merkezi Performans Analizi hakkında sık sorulan sorular; çağrı istatistikleri, hizmet kalitesi metrikleri ve ekip verimliliği. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "silo": "Çağrı Merkezi",
+      "locationFocus": "Türkiye geneli",
+      "sector": "Otel & Turizm + Hizmet Sektörü",
+      "primaryIntent": "Transactional (Hizmet Talebi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)"
+    },
+    "sections": {
+      "generalQuestions": {
+        "title": "Çağrı Merkezi Performans Analizi Nedir? (Genel Sorular)",
+        "items": [
+          {
+            "q": "Çağrı merkezi performans analizi tam olarak nedir?",
+            "a": "Çağrı merkezi performans analizi; inbound/outbound çağrıların, bekleme süresi, cevaplanma oranı, hizmet seviyesi (service level), çözüm oranı, satış/rezervasyon dönüşümü ve agent (temsilci) verimliliği gibi metriklerle:<ul><li>ne kadar iş yaptığınızı,</li><li>bu işi ne kadar kaliteli yaptığınızı,</li><li>bunun otelinize <b>gelir ve memnuniyet olarak ne kazandırdığını</b></li></ul>ölçen ve raporlayan analiz sürecidir."
+          },
+          {
+            "q": "“Telefonlar açılıyor mu?” sorusundan “performans analizi”ne geçiş ne demek?",
+            "a": "Sadece “biri telefona bakıyor mu?”ya bakmak operasyonel hayatta kalma seviyesidir. Performans analizi ise:<ul><li>gelen çağrı hacmi,</li><li>cevapladıklarınız,</li><li>kaybettikleriniz,</li><li>bekleyen, geri dönülen,</li><li>ne kadarını satışa döndürdüğünüz</li></ul>gibi veriler üzerinden <b>verimlilik, kalite ve gelir katkısı</b> okumanızı sağlar."
+          },
+          {
+            "q": "Çağrı merkezi performansı sadece inbound çağrılar için mi geçerli?",
+            "a": "Hayır. Hem inbound (gelen çağrı), hem de outbound (geri aramalar, kampanya aramaları, no-show / teklif takip aramaları) için performans analizleri yapılmalıdır. Özellikle outbound tarafında:<ul><li>ulaşma oranı,</li><li>görüşme oranı,</li><li>teklif → rezervasyon dönüşümü</li></ul>gibi metrikler önemlidir."
+          },
+          {
+            "q": "Otel çağrı merkezi performansı neden ayrı ele alınmalı?",
+            "a": "Otel çağrı merkezi; klasik çağrı merkezinden farklı olarak:<ul><li>rezervasyon ve gelirle doğrudan bağlantılı,</li><li>MICE, acente, OTA ve direct gibi farklı paydaşlarla çalışan,</li><li>çok dilli ve çok kanallı (telefon, WhatsApp, OTA mesajı vb.) bir yapı.</li></ul>Bu yüzden KPI seti de <b>turizm & otel gerçeklerine göre</b> kurgulanmalıdır."
+          },
+          {
+            "q": "Performans analizi olmadan çağrı merkezi yönetmenin riski nedir?",
+            "a": "<ul><li>fazla personel → gereksiz maliyet,</li><li>yetersiz personel → kaçan çağrı ve gelir,</li><li>zayıf script ve eğitim → düşük dönüşüm,</li><li>ölçülemeyen kalite → misafir şikâyetleri ve puan düşüşü.</li></ul>Yani performans analizi yoksa; <b>göz kararı yönetim</b> kaçınılmazdır."
+          },
+          {
+            "q": "Çağrı merkezi performansı nasıl “gelir katkısı” ile bağlanır?",
+            "a": "İyi kurgulanmış analizle;<ul><li>kaç çağrı → kaç teklif,</li><li>kaç teklif → kaç rezervasyon,</li><li>rezervasyon → toplam gelir</li></ul>gibi bir funnel kurarak, çağrı merkezinin <b>aylık/ dönemsel gelir katkısını</b> görmek mümkündür."
+          }
+        ]
+      },
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular ",
+        "items": [
+          {
+            "q": "Çağrı merkezi performans analizi nedir?",
+            "a": "Gelen–giden çağrıları, bekleme süresini, hizmet seviyesini, çözüm ve satış/rezervasyon dönüşümünü KPI’larla ölçen ve raporlayan süreçtir."
+          },
+          {
+            "q": "Otel çağrı merkezi için hangi KPI’lara bakmalıyım?",
+            "a": "Cevaplanma oranı, bekleme süresi, hizmet seviyesi, çağrı başına satış/rezervasyon dönüşümü, agent verimliliği ve misafir memnuniyeti gibi temel KPI’lara."
+          },
+          {
+            "q": "Rezervasyon dönüşüm oranını nasıl ölçerim?",
+            "a": "Çağrı/talep sayısını, teklif sayısını ve yapılan rezervasyon sayısını takip ederek; teklif → rezervasyon oranını hesaplamalısınız."
+          },
+          {
+            "q": "Bekleme süresi ve cevaplanma oranı ne olmalı?",
+            "a": "Hedefler otelinizin hacmine göre değişmekle birlikte; belirli bir hizmet seviyesi hedefi (örneğin “çağrıların %80’ini 20 saniyede cevaplamak”) tanımlanmalıdır."
+          },
+          {
+            "q": "Agent performansını nasıl raporlamalıyım?",
+            "a": "Her temsilci için cevaplanan çağrı sayısı, ortalama görüşme süresi, dönüşüm oranı, kalite skorları ve şikâyet oranları gibi metrikleri takip etmelisiniz."
+          },
+          {
+            "q": "Çağrı merkezi performans analizi kimler için uygundur?",
+            "a": "Inbound/outbound çağrı trafiği olan tüm oteller, turizm markaları ve hizmet sektöründeki işletmeler için uygundur; özellikle rezervasyon hattı olan yapılar için kritik önemdedir."
+          }
+        ]
+      },
+
+      "section3": {
+        "title": "Hizmet Kapsamı: Çağrı İstatistikleri, Kalite, Ekip Verimliliği",
+        "items": [
+          {
+            "q": "Çağrı merkezi performans analizi hangi başlıkları kapsar?",
+            "a": "<ul><li>çağrı istatistikleri (adet, kanal, dil, inbound/outbound),</li><li>hizmet kalitesi metrikleri (cevaplanma oranı, bekleme süresi, hizmet seviyesi, çözüm oranı),</li><li>satış/rezervasyon dönüşüm metrikleri,</li><li>ekip ve agent verimliliği (call handling, occupancy, adherence),</li><li>dil/kanal kırılımları,</li><li>rapor ve dashboard tasarımı.</li></ul>"
+          },
+          {
+            "q": "Çağrı merkezi performansı nasıl ölçülür?",
+            "a": "Aşağıdaki KPI’lar core set olarak ele alınabilir:<ul><li>toplam çağrı sayısı (gelen/giden),</li><li>cevaplanan/ cevaplanamayan çağrı sayısı ve oranı,</li><li>ortalama bekleme süresi,</li><li>hizmet seviyesi (ör. %80 çağrı 20 sn içinde cevaplandı),</li><li>ortalama görüşme süresi (AHT – Average Handle Time),</li><li>çözüm oranı (first call resolution vb.),</li><li>rezervasyon/satış dönüşüm oranı,</li><li>agent bazlı performans metrikleri.</li></ul>"
+          },
+          {
+            "q": "Inbound ve outbound için en önemli KPI’lar nelerdir?",
+            "a": "<ul><li><b>Inbound:</b> cevaplanma oranı, hizmet seviyesi, bekleme süresi, AHT, çözüm oranı, inbound → rezervasyon dönüşümü.</li><li><b>Outbound:</b> ulaşma oranı, görüşme oranı, outbound → teklif → rezervasyon dönüşümü, geri arama verimliliği.</li></ul>"
+          },
+          {
+            "q": "Hizmet kalitesi metrikleri nelerdir?",
+            "a": "<ul><li>hizmet seviyesi (service level),</li><li>first call resolution (ilk çağrıda çözüm),</li><li>bekleme süresi,</li><li>misafir memnuniyet skorları (CSAT, NPS),</li><li>şikâyet oranı ve şikâyet çözüm süresi.</li></ul>"
+          },
+          {
+            "q": "Ekip verimliliği hangi metriklerle ölçülür?",
+            "a": "<ul><li>agent başına çağrı sayısı,</li><li>agent başına rezervasyon/satış sayısı,</li><li>occupancy (konuşma + after-call work süresinin toplam süreye oranı),</li><li>adherence (vardiya uyumu – doğru saatte doğru yerde),</li><li>kalite skorları ve geri bildirimler.</li></ul>"
+          }
+        ]
+      },
+      "section4": {
+        "title": "Süreç & İşleyiş: KPI’lar, Dashboard, Sürekli İyileştirme",
+        "items": [
+          {
+            "q": "Çağrı merkezi performans analizi sürecine nasıl başlanır?",
+            "a": "<ol><li>Mevcut rapor ve verilerin gözden geçirilmesi,</li><li>hedeflerin (gelir, memnuniyet, kapasite) belirlenmesi,</li><li>KPI setinin netleştirilmesi,</li><li>raporlama altyapısının (call center platformu + BI/raporlama araçları) kurulması,</li><li>dashboard ve periyodik rapor formatlarının tasarlanması,</li><li>analiz → aksiyon → takip döngüsünün tanımlanması.</li></ol>"
+          },
+          {
+            "q": "Inbound/outbound çağrı verileri nasıl sınıflandırılmalı?",
+            "a": "<ul><li>inbound/outbound ayrımı,</li><li>kanal bazlı ayrım (telefon, WhatsApp çağrıları, callback vb.),</li><li>kampanya/segment bazlı ayrım (ör. erken rezervasyon, no-show geri araması),</li><li>dil bazlı ayrım (TR–EN–DE–RU vb.),</li><li>misafir tipi bazlı ayrım (bireysel, acente, MICE).</li></ul>"
+          },
+          {
+            "q": "Hizmet seviyesi (service level) nedir, nasıl hesaplanır?",
+            "a": "Hizmet seviyesi; belirli bir süre içinde (ör. 20 saniye) cevaplanan çağrıların, toplam çağrı sayısına oranıdır. Örneğin: “%80/20” hedefi → çağrıların %80’inin 20 saniye içinde cevaplanması."
+          },
+          {
+            "q": "Agent performansını hangi metriklerle değerlendirmeliyim?",
+            "a": "<ul><li>cevaplanan çağrı sayısı,</li><li>ortalama görüşme süresi,</li><li>dönüşüm oranı (rezervasyona dönen çağrılar),</li><li>kalite skorları (script’e ve standartlara uyum),</li><li>şikâyet oranı,</li><li>vardiya uyumu/adherence.</li></ul>"
+          },
+          {
+            "q": "Performans analizinde sık yapılan hatalar neler?",
+            "a": "<ul><li>sadece çağrı adedine bakmak,</li><li>kaliteyi tamamen göz ardı etmek,</li><li>bütün KPI’ları agent bazlı sıralayıp ekip ruhunu kırmak,</li><li>rapor üretip aksiyon almamak,</li><li>inbound/outbound, dil ve kanal kırılımlarını görmezden gelmek.</li></ul>"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Performans & Raporlama: KPI’ları Okumak ve Yorumlamak",
+        "items": [
+          {
+            "q": "Çağrı merkezi performansı nasıl ölçülür?",
+            "a": "Metrikleri sadece tablo olarak görmek değil;<ul><li>trendleri (artış/azalış),</li><li>benchmark’ları (hedefle kıyas),</li><li>korelasyonları (örneğin bekleme süresi artınca dönüşüm düşüyor mu?)</li></ul>ile birlikte yorumlamak gerekir. Ölçmek = saymak değil; <b>hikâyeyi anlamak</b> demektir."
+          },
+          {
+            "q": "Rezervasyon dönüşüm oranı nasıl takip edilir?",
+            "a": "<ul><li>toplam rezervasyon amaçlı çağrı/talep sayısını,</li><li>teklif sunulan çağrı sayısını,</li><li>rezervasyona dönen çağrı sayısını ayrı ayrı takip ederek;</li></ul><b>teklif → rezervasyon</b> oranını hesaplamalısınız. Bu oranı dil, kanal ve kampanya bazında kırmak, satış odaklı iyileştirmeler için çok değerlidir."
+          },
+          {
+            "q": "Inbound ve outbound için en önemli KPI’lar nelerdir?",
+            "a": "Yukarıda saydığımız;<ul><li>inbound için: cevaplanma, hizmet seviyesi, AHT, çözüm ve dönüşüm,</li><li>outbound için: ulaşma, görüşme ve dönüşüm oranları</li></ul>her call center için çekirdek KPI setidir."
+          },
+          {
+            "q": "KPI’lar ekip motivasyonunu nasıl etkiler?",
+            "a": "<ul><li>iyi kurgulanmış KPI’lar,</li><li>adil hedefler,</li><li>şeffaf raporlama,</li><li>başarıyı ödüllendiren sistemle birleştiğinde;</li></ul>ekip motivasyonunu yükseltir.<ul><li>yanlış kurgulanmış KPI’lar (sadece adet baskısı, kaliteyi boğma) ise;</li><li>hem misafir deneyimini hem iç motivasyonu düşürür.</li></ul>"
+          },
+          {
+            "q": "Çağrı merkezi performansını “gelir ve misafir memnuniyeti” ile nasıl bağlarım?",
+            "a": "<ul><li>çağrı merkezinden çıkan rezervasyonlar ve gelir,</li><li>bu çağrıların memnuniyet/yorum skorları,</li><li>temsilci bazlı satış + memnuniyet korelasyonları</li></ul>takip edilerek; “yanıt veriyoruz”dan “gelir ve NPS’i birlikte büyütüyoruz” noktasına geçilebilir."
+          }
+        ]
+      },
+
+       "section6": {
+        "title": "Pain Point: Ölçülemeyen Performans, Yanlış KPI, Düşük Hizmet Seviyesi",
+        "items": [
+          {
+            "q": "Ölçülemeyen performans ne gibi problemlere yol açar?",
+            "a": "<ul><li>gerçekten kaç kişi lazıma cevap veremezsiniz,</li><li>kim iyi, kim gelişime açık bilemezsiniz,</li><li>satış fırsatlarını ve kayıpları göremezsiniz,</li><li>ekip ve üst yönetim “hissedilenler” üzerinden karar verir.</li></ul>"
+          },
+          {
+            "q": "Yanlış KPI’lar hangi sorunları üretir?",
+            "a": "<ul><li>sadece “en kısa konuşan iyidir” derseniz: temsilciler müşteriyi hızlıca kapatmaya çalışır, kalite düşer,</li><li>sadece “sayısal” hedeflerseniz: ekip, misafirin gerçek ihtiyacını görmezden gelebilir,</li><li>sadece “kalite”ye bakarsanız: verimlilik ve kapasite planlaması bozulabilir.</li></ul>"
+          },
+          {
+            "q": "Düşük hizmet seviyesi (service level) ne anlama gelir?",
+            "a": "<ul><li>misafir uzun süre bekliyor,</li><li>bazı çağrılar hiç cevaplanmıyor,</li><li>misafir başka otele kayıyor,</li><li>OTA ve kampanyalar için ayırdığınız bütçe, çağrı merkezinde doğru karşılanmıyor.</li></ul>"
+          },
+          {
+            "q": "Motivasyon sorunları performansı nasıl bozar?",
+            "a": "<ul><li>net hedefler ve adil KPI’lar yoksa,</li><li>iyi performans ödüllendirilmiyorsa,</li><li>geri bildirim sadece “negatif” ise;</li></ul>ekip performansı zamanla düşer; çağrı merkezi “mecburiyetten yapılan iş”e dönüşür."
+          },
+          {
+            "q": "Yanlış kurulan raporlama ne tür karar hatalarına neden olur?",
+            "a": "<ul><li>yanlış KPI ağırlıkları yüzünden gereksiz personel artışı/azaltımı,</li><li>yanlış saat/dil için yanlış kapasite planlaması,</li><li>asıl sorun dönüşüm ve kaliteyken sadece adet odaklı aksiyonlar.</li></ul>"
+          }
+        ]
+      },
+      "section7": {
+        "title": "GEO & Sektör Odaklı Çağrı Merkezi Performansı",
+        "items": [
+          {
+            "q": "Türkiye’deki oteller için çağrı merkezi performans analizi neden önemli?",
+            "a": "<ul><li>turizm bölgelerinde yoğun sezon ve çok dilli çağrılar,</li><li>OTA ve direct kanal karması,</li><li>gelir hedefleri ve memnuniyet skorları aynı anda yönetilmek zorunda.</li></ul>Bu nedenle performans analizine sahip olmayan bir çağrı merkezi, <b>karanlıkta uçuş</b> anlamına gelir."
+          },
+          {
+            "q": "City otelleri için hangi performans metrikleri öne çıkar?",
+            "a": "<ul><li>business/MICE odaklı inbound taleplerin dönüşümü,</li><li>kurumsal ve acente çağrı performansı,</li><li>hızlı karar gerektiren kısa konaklama ve fiyat sorularında hizmet seviyesi.</li></ul>"
+          },
+          {
+            "q": "Çok dilli çağrı merkezlerinde performans analizi nasıl farklılaşır?",
+            "a": "<ul><li>dil bazlı çağrı hacmi,</li><li>dil bazlı cevaplanma ve dönüşüm oranları,</li><li>her dilde hizmet seviyesi ve memnuniyet skorları ayrı izlenmelidir.</li></ul>Özellikle TR–EN–DE–RU gibi 4 dilli yapılarda, her dil ayrı bir pazar gibi düşünülmelidir."
+          },
+          {
+            "q": "Turizm bölgelerinde inbound/outbound dengesi neden önemli?",
+            "a": "<ul><li>inbound: gelen talebi kaçırmamak,</li><li>outbound: no-show, teklif takip, erken rezervasyon ve kampanya satışları.</li></ul>Her ikisi de gelir için kritiktir; performans analizinde bu iki akışın dengesi görülmelidir."
+          },
+          {
+            "q": "Çağrı merkezi performansı otel dijital pazarlama sonuçlarıyla nasıl bağlanır?",
+            "a": "<ul><li>kampanya dönemlerinde çağrı hacmi,</li><li>kampanyadan gelen çağrıların dönüşüm oranı,</li><li>kanal (Google Ads, Meta, OTA vb.) bazlı çağrı–rezervasyon etkisi</li></ul>raporlanarak; dijital pazarlama yatırımlarının, çağrı merkezi performansıyla birleştiğinde nasıl sonuç verdiği görülebilir."
+          }
+        ]
+      },
+      "section8": {
+        "title": "Mini Çağrı Merkezi Performans SSS (Micro – 10 Soru)",
+        "items": [
+          {
+            "q": "Her çağrı merkezi için aynı KPI seti mi kullanılmalı?",
+            "a": "Hayır; otelinizin hedeflerine göre ağırlıklar değişebilir (satış, destek, NPS vb.), ancak çekirdek metrik seti benzer kalır."
+          },
+          {
+            "q": "Sadece çağrı adedine bakmak neden yanlış?",
+            "a": "Adet, hacmi gösterir; ama kalite, dönüşüm ve memnuniyet hakkında tek başına bilgi vermez."
+          },
+          {
+            "q": "“Ne kadar kısa o kadar iyi” anlayışı doğru mu?",
+            "a": "Tamamen yanlış. Amaç, “en kısa görüşme” değil, misafire en iyi deneyimi, makul sürede sunmak olmalıdır."
+          },
+          {
+            "q": "Inbound mu daha önemli, outbound mu?",
+            "a": "Birini diğerine tercih etmek yerine, ikisini birlikte optimize etmek gerekir; inbound talebin kaçmaması, outbound ile fırsatların kovalanması ideal modeldir."
+          },
+          {
+            "q": "Performans analizine başlamak için dev bir BI sistemi mi lazım?",
+            "a": "Hayır; çağrı merkezi platformunuzun temel raporları + basit dashboard’lar bile ilk aşamada çok değerli içgörüler sunabilir."
+          },
+          {
+            "q": "Tüm KPI’ları agent bazlı açık etmek ekip için sağlıklı mı?",
+            "a": "Şeffaflık önemli ama “sadece sıralama ve baskı” motivasyonu düşürebilir; KPI’lar koçluk ve gelişim amacıyla da kullanılmalıdır."
+          },
+          {
+            "q": "Performans raporlarını ne sıklıkla gözden geçirmek gerekir?",
+            "a": "Operasyon yoğunluğuna göre günlük/haftalık operasyon raporları ve aylık/çeyreklik stratejik değerlendirmeler iyi bir dengedir."
+          },
+          {
+            "q": "Sadece inbound KPI’larına bakıp outbound’u unutmak mümkün mü?",
+            "a": "Mümkün ama sağlıksız; outbound tarafı, gelir ve sadakat için büyük potansiyel taşır."
+          },
+          {
+            "q": "Çağrı merkezi performans analizini sadece “geçmiş” için mi kullanmalıyım?",
+            "a": "Hayır; geçmiş veriler, gelecekteki vardiya, kapasite, eğitim ve kampanya planlamaları için karar desteği sağlamalıdır."
+          },
+          {
+            "q": "Çağrı Merkezi Performans Analizi hizmetini sadece “audit + dashboard tasarımı” olarak alabilir miyim?",
+            "a": "Evet; mevcut yapınızı analiz eden, KPI seti ve dashboard tasarımı oluşturan ve ekibinize rapor okuma eğitimi veren bir danışmanlık paketi de mümkündür."
+          }
+        ]
+      },
+      "section9": {
+        "title": "Çağrı Merkezi Performans Analizi İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile Çağrı Merkezi Performans Analizi için nasıl teklif alabilirim?",
+            "a": "<ul><li>inbound/outbound çağrı merkezinizin kapsamını (rezervasyon, bilgi, şikâyet, satış vb.),</li><li>kullandığınız çağrı merkezi platformunu,</li><li>mevcut raporlama durumunuzu (hangi raporları alıyorsunuz?),</li><li>hedeflerinizi (satış, destek, NPS, SLA vb.),</li><li>yaşadığınız temel problemleri (ölçülemeyen performans, düşük hizmet seviyesi, motivasyon sorunları vb.)</li></ul>özetleyen kısa bir brief paylaşırsanız; <b>KPI seti, dashboard tasarımı, analiz süreçleri ve eğitim</b> adımlarını içeren bir Çağrı Merkezi Performans Analizi yol haritası ve teklif hazırlanabilir."
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı performans analizi tarafında neyi netleştirir?",
+            "a": "Bu görüşmede:<ul><li>hangi KPI’ların sizin için “olmazsa olmaz” olduğunu,</li><li>hangi verilerin zaten elinizde olduğunu,</li><li>hangi rapor ve dashboard’lara gerçekten ihtiyacınız olduğunu,</li><li>kısa vadeli (quick win) ve orta vadeli (yapısal iyileştirme) adımları</li></ul>birlikte netleştiririz. Böylece çağrı merkezi performans analizi, sadece Excel tablosu değil, <b>operasyonunuzu ve gelirinizi büyüten bir yönetim aracı</b> hâline gelir."
+          }
+        ]
+      }
+    },
+    "cta": {
+      "primary": "Performans Analizi hizmeti talep edin",
+      "primaryHref": "/Services/callcenter/callPerformance",
+      "secondary": "Çağrı Merkezi Hizmetleri",
+      "secondaryHref": "/Services/callcenter"
+    }
+  },
+
+  "FaqPmsSetupService": {
+    "h1": "PMS Kurulum Hizmeti SSS",
+    "intro": "PMS (Property Management System / Otel Yönetim Sistemi); odalarınızı, fiyatlarınızı, rezervasyonlarınızı, fatura ve operasyon süreçlerinizi “tek yerden” yönettiğiniz beyniniz. Ama yanlış PMS seçimi, hatalı kurulum veya eğitimsiz ekip:<ul><li>günlük operasyonu yavaşlatır,</li><li>veri kaybına yol açar,</li><li>OTA–channel manager–çağrı merkezi entegrasyonunuzu kilitler.</li></ul>Bu SSS sayfası; <b>PMS Kurulum Hizmeti </b> ile ilgili en sık sorulan soruları, <b>PMS seçimi, kurulum süreci, veri geçişi, eğitim ve OTA/channel manager entegrasyonu</b> çerçevesinde toplar.",
+    
+    "meta": {
+      "url": "/tr/pms-ota/pms-kurulum-sss",
+      "serviceUrl": "/tr/pms-ota/pms-kurulum",
+      "title": "PMS Kurulum Hizmeti SSS – Otel Teknolojileri ve Kanal Yönetimi Rehberi | DGTLFACE",
+      "description": "PMS Kurulum Hizmeti hakkında sık sorulan sorular; otel yönetim sistemi seçimi, kurulum süreci ve eğitim aşamaları. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+      "silo": "PMS & OTA",
+      "location": "Türkiye geneli + turizm bölgeleri",
+      "sector": "Otel & Turizm",
+      "primaryIntent": "Transactional",
+      "secondaryIntent": "Bilgilendirici"
+    },
+    "sections": {
+      "generalQuestions": {
+        "title": "PMS ve PMS Kurulum Hizmeti Hakkında Genel Sorular",
+        "items": [
+          {
+            "q": "PMS nedir, otellere ne sağlar?",
+            "a": "PMS (Property Management System); otelin:<ul><li>oda & rezervasyon yönetimini,</li><li>check-in/check-out süreçlerini,</li><li>housekeeping (oda durumu),</li><li>fatura & muhasebe entegrasyonunu,</li><li>rapor ve gelir takibini</li></ul>tek sistem üzerinden yürütmenizi sağlayan otel yönetim yazılımıdır. Excel veya defter yerine PMS kullanmak; hata riskini azaltır, hızı artırır ve operasyonu ölçülebilir hâle getirir."
+          },
+          {
+            "q": "PMS Kurulum Hizmeti tam olarak nedir?",
+            "a": "PMS Kurulum Hizmeti; oteliniz için uygun PMS’in seçilmesi, lisans ve modül yapısının belirlenmesi, sistemin otelinize göre yapılandırılması (oda tipleri, fiyat planları, kullanıcılar vb.), eski sistemlerden veri geçişinin planlanması, personel eğitimleri ve OTA–channel manager entegrasyonuna hazırlık gibi adımları kapsayan profesyonel kurulum ve geçiş sürecidir."
+          },
+          {
+            "q": "Otelim için hangi PMS’i seçmeliyim?",
+            "a": "Bu sorunun tek cevabı yok; karar verirken:<ul><li>otel tipi ve oda sayısı (resort, city, butik, zincir),</li><li>hedef pazar ve kullanılacak kanallar,</li><li>ihtiyaç duyduğunuz modüller (housekeeping, POS, spa, MICE vb.),</li><li>OTA/channel manager entegrasyon desteği,</li><li>bulut tabanlı mı, lokal mi?</li><li>destek & eğitim kalitesi,</li><li>bütçe ve lisans modeli</li></ul>gibi kriterleri birlikte değerlendirmek gerekir. PMS Kurulum Hizmeti sürecinde, bu analiz profesyonelce yapılır."
+          },
+          {
+            "q": "PMS kurulumu hangi aşamalardan oluşur?",
+            "a": "Genel olarak:<ul><li>İhtiyaç analizi & PMS seçimi</li><li>Sözleşme & lisanslama</li><li>Sistem yapılandırması (oda, fiyat, kullanıcı, departman tanımları)</li><li>Eski sistemlerden veri geçiş planı</li><li>Eğitim planı ve otel içi pilot kullanım</li><li>Canlıya geçiş (go-live)</li><li>İlk dönem destek ve optimizasyon</li></ul>"
+          },
+          {
+            "q": "PMS kurulumu sırasında otel operasyonu durur mu?",
+            "a": "Doğru planlanmış bir kurulumda, operasyonu tamamen durdurmaya gerek kalmaz. Genellikle:<ul><li>düşük sezonda veya daha sakin günlerde,</li><li>eski sistem paralelinde test ortamında,</li><li>adım adım geçiş yapılır.</li></ul>Amaç, “bir gecede her şeyi değiştirmek” değil; kontrollü ve güvenli bir geçiş sağlamaktır."
+          },
+          {
+            "q": "PMS Kurulum Hizmeti kimler için uygundur?",
+            "a": "<ul><li>hâlâ Excel/manüel sistem kullanan,</li><li>eski PMS’ini değiştirmek isteyen,</li><li>yeni otel açan,</li><li>OTA ve kanal yönetimi tarafında dağınıklık yaşayan</li></ul>tüm otel ve turizm işletmeleri için uygundur."
+          }
+        ]
+      },
+      "quickAnswers": {
+        "title": "Sesli Arama Kısa Soruları",
+        "items": [
+          {
+            "q": "PMS Kurulum Hizmeti tam olarak nedir?",
+            "a": "Oteliniz için doğru PMS’i seçip, oda–fiyat–rezervasyon ve operasyon süreçlerinizi dijitalleştirecek şekilde kurulumu ve personel eğitimini yöneten profesyonel hizmettir."
+          },
+          {
+            "q": "Otelim için hangi PMS’i seçmeliyim?",
+            "a": "Otel tipi, oda sayısı, modül ihtiyaçlarınız, OTA/channel manager entegrasyonları ve bütçenizi birlikte değerlendirerek karar vermelisiniz."
+          },
+          {
+            "q": "Kurulum ve eğitim süreci ne kadar sürer?",
+            "a": "Oda sayısı, modül kapsamı ve veri geçişinin karmaşıklığına göre değişmekle birlikte; küçük/butik otellerde genelde birkaç hafta, daha büyük ve zincir yapılarda birkaç aya yayılan bir süreçten bahsedebiliriz."
+          },
+          {
+            "q": "Eski sistemlerden PMS’e veri geçişi nasıl yapılır?",
+            "a": "Eski sistemdeki oda, misafir, geçmiş rezervasyon ve fiyat verileri; temizlenip haritalandıktan sonra PMS sağlayıcının sunduğu yöntemlerle (import, API vb.) yeni sisteme aktarılır; kritik alanlar için manuel kontrol yapılır."
+          },
+          {
+            "q": "Personel eğitimi nasıl organize edilir?",
+            "a": "Departman bazlı (resepsiyon, rezervasyon, muhasebe, housekeeping vb.) eğitimler planlanır; hem teorik hem canlı sistem üzerinde pratik yapılır ve go-live sonrası kısa destek seanslarıyla pekiştirilir."
+          },
+          {
+            "q": "PMS Kurulum Hizmeti kimler için uygundur?",
+            "a": "Yeni otel açan, eski PMS’ini değiştiren veya Excel/manüel yapısını profesyonel PMS’e taşımak isteyen tüm oteller için uygundur."
+          }
+        ]
+      },
+
+      "section3": {
+        "title": "Hizmet Kapsamı: PMS Seçimi, Kurulum, Modül Yapısı",
+        "items": [
+          {
+            "q": "PMS Kurulum Hizmeti kapsamına neler girer?",
+            "a": "<ul><li>PMS ihtiyaç analizi ve PMS seçimi konusunda danışmanlık,</li><li>lisans ve modül kurgusunun belirlenmesi,</li><li>sistem kurulum ve yapılandırması (oda planı, fiyat planları, kullanıcı & rol tanımları),</li><li>eski veri analizi ve geçiş planı,</li><li>departman bazlı eğitim programı,</li><li>OTA & channel manager entegrasyonuna hazırlık (mapping, rate plan hazırlığı),</li><li>ilk go-live döneminde teknik & operasyonel destek.</li></ul>"
+          },
+          {
+            "q": "PMS kurulumu hangi modülleri içerir?",
+            "a": "<ul><li>resepsiyon/front office,</li><li>rezervasyon,</li><li>housekeeping (oda durumu, temizlik),</li><li>fatura/muhasebe entegrasyonu,</li><li>bazen POS, spa, MICE, stok vb. modüller.</li></ul>Modül seti, otelinizin operasyon yapısına göre belirlenir."
+          },
+          {
+            "q": "Otel personeli PMS’e nasıl adapte edilir?",
+            "a": "<ul><li>departmanlara özel eğitim planları,</li><li>basit ve pratik dokümanlar,</li><li>test ortamında senaryolu çalışmalar,</li><li>go-live sonrası kısa “soru-cevap” oturumları ve destek hattı</li></ul>ile personelin günlük işlerini yeni sistem içinde rahatça yapabilmesi sağlanır."
+          },
+          {
+            "q": "PMS ile OTA ve channel manager entegrasyonu nasıl hazırlanır?",
+            "a": "PMS kurulumu sırasında:<ul><li>oda tipleri,</li><li>fiyat planları,</li><li>paketler</li></ul>channel manager ve OTA yapısıyla uyumlu isimlendirilir. Kurulum sonrası, channel manager üzerinden PMS–OTA mapping’i yapılır ve test rezervasyonları ile doğrulama sağlanır."
+          },
+          {
+            "q": "PMS Kurulum Hizmeti, PMS sağlayıcının verdiği kurulumdan nasıl farklı?",
+            "a": "PMS sağlayıcısı çoğu zaman ürün kurulumu ve kendi dokümanlarını sunar; PMS Kurulum Hizmeti ise <b>otel tarafındaki operasyonu</b>, OTA/channel manager stratejisini ve personel adaptasyonunu da dikkate alan, uçtan uca bir geçiş ve danışmanlık sürecidir."
+          }
+        ]
+      },
+      "section4": {
+        "title": "Süreç & İşleyiş: Kurulum, Veri Geçişi, Eğitim",
+        "items": [
+          {
+            "q": "PMS kurulumu hangi ana aşamalardan oluşur?",
+            "a": "<ul><li>Analiz: Mevcut süreçler, kullanılan sistemler, oda yapısı, fiyat politikası, entegre sistemler (channel manager, POS vb.) incelenir.</li><li>Tasarım: PMS modül ve yapılandırma planı oluşturulur.</li><li>Yapılandırma: Oda, fiyat, kullanıcı, departman, rol ve rapor tanımları yapılır.</li><li>Veri Geçişi: Eski sistem/Excel’den gerekli veriler yeni PMS’e aktarılır.</li><li>Eğitim: Departman bazlı eğitimler ve test çalışmaları gerçekleştirilir.</li><li>Go-Live: Sistem canlıya alınır, ilk rezervasyon ve işlemler yeni sistemden yönetilir.</li><li>Sonrası Destek: İlk dönem hatalar ve iyileştirme ihtiyaçları takip edilir.</li></ul>"
+          },
+          {
+            "q": "Eski sistemlerden PMS’e veri geçişi nasıl yapılır?",
+            "a": "<ul><li>hangi verilerin gerçekten taşınması gerektiği belirlenir (oda kartları, müşteri kartları, aktif rezervasyonlar, temel geçmiş veri vb.),</li><li>eski veriler temizlenir ve PMS formatına göre haritalanır,</li><li>PMS sağlayıcısının import araçları veya API’leri kullanılarak aktarım yapılır,</li><li>kritik veriler için manuel kontroller yapılır (örneğin, aktif rezervasyonlar ve oda eşleşmeleri).</li></ul>Amaç, “ne bulduysak atalım” değil, <b>sürdürülebilir ve temiz bir veri tabanı</b> kurmaktır."
+          },
+          {
+            "q": "Personel eğitimi nasıl organize edilir?",
+            "a": "<ul><li>resepsiyon/ön büro, rezervasyon, muhasebe, housekeeping gibi departmanlar için ayrı oturumlar yapılır,</li><li>her departmana günlük iş akışlarına uygun senaryolar üzerinden eğitim verilir,</li><li>test ortamında deneme kayıtları ve simülasyonlar yapılır,</li><li>eğitim sonrası kısa quizler veya uygulamalı testlerle anlama seviyesi ölçülür,</li><li>go-live sonrası ilk haftalarda sıkıştırılmış destek sağlanır.</li></ul>"
+          },
+          {
+            "q": "Kurulum ve eğitim süreci ne kadar sürer?",
+            "a": "<ul><li>küçük/butik otellerde ve basit modül setlerinde: genellikle 1–3 hafta,</li><li>daha büyük veya çok modüllü, zincir yapısında: birkaç haftadan birkaç aya uzanan bir süreç gerekebilir.</li></ul>Süre; oda sayısı, modül kapsamı, veri geçişinin karmaşıklığı ve personel yoğunluğuna göre şekillenir."
+          },
+          {
+            "q": "PMS kurulumu sırasında sık yapılan hatalar nelerdir?",
+            "a": "<ul><li>modül ihtiyaçlarının iyi analiz edilmemesi,</li><li>oda & fiyat planı yapısının OTA/channel manager’la uyumlu tasarlanmaması,</li><li>veri geçişinde “hazırlanmamış” ve temizlenmemiş verilerin direkt import edilmesi,</li><li>eğitim süresinin yetersiz planlanması,</li><li>go-live tarihinin, otelin en yoğun dönemine denk getirilmesi.</li></ul>"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Performans & Raporlama: PMS Sonrası Otel Ne Kazanır?",
+        "items": [
+          {
+            "q": "PMS kurulumu sonrası hangi raporları alabilirim?",
+            "a": "<ul><li>doluluk, ADR, RevPAR raporları,</li><li>kanal bazlı satış ve gelir raporları (direct, OTA, acente vb.),</li><li>segment bazlı performans raporları (pazar ve ülke bilinçli),</li><li>housekeeping ve oda durumu raporları,</li><li>fatura ve gelir grupları raporları,</li><li>kullanıcı/işlem logları.</li></ul>Yani “tabelayı” Excel’den çekmek yerine, <b>gerçek zamanlı raporlama</b> mümkün olur."
+          },
+          {
+            "q": "PMS performansı OTA & kanal yönetimini nasıl etkiler?",
+            "a": "Doğru PMS–channel manager–OTA kurgusu;<ul><li>fiyat ve envanterin tüm kanallarda senkron güncellenmesini,</li><li>overbooking riskinin azalmasını,</li><li>farklı pazarlara özel fiyat/kampanya kurgularının daha kolay yönetilmesini sağlar.</li></ul>Verimli bir PMS–OTA kurgusu, otellerde kanal verimliliğini çoğu zaman <b>%20–30 oranında iyileştirebilir.</b>"
+          },
+          {
+            "q": "PMS’e geçmek, çağrı merkezi ve rezervasyon süreçlerini nasıl etkiler?",
+            "a": "<ul><li>çağrı merkezi ve rezervasyon ekibi, fiyat–oda–müsaitlik bilgisine gerçek zamanlı ve tek yerden erişir,</li><li>teklif ve rezervasyon kayıtları standardize olur,</li><li>manuel not ve defter ile çalışma minimuma iner.</li></ul>Bu da hem dönüşüm hem memnuniyet tarafına olumlu yansır."
+          },
+          {
+            "q": "PMS kurulumu operasyonel verimliliği nasıl artırır?",
+            "a": "<ul><li>check-in/out sürelerinin kısalması,</li><li>housekeeping ile resepsiyon arasındaki iletişimin otomatize olması,</li><li>hatalı kayıt ve çakışmaların azalması,</li><li>yönetim ekibinin karar almasını kolaylaştıran raporların hızlı alınması</li></ul>gibi süreçlerle verimlilik artar."
+          },
+          {
+            "q": "PMS performansı nasıl takip edilmelidir?",
+            "a": "<ul><li>sistem kullanım istatistikleri (giriş yapan kullanıcı, işlem sayıları),</li><li>hata raporları ve kullanıcı şikâyetleri,</li><li>raporların doğruluğu,</li><li>OTA/channel manager senkronizasyon logları,</li><li>operasyon ve finans tarafının geri bildirimleri</li></ul>düzenli olarak gözden geçirilmelidir."
+          }
+        ]
+      },
+
+       "painPoints": {
+        "title": "Pain Point: Yanlış PMS, Hatalı Kurulum, Eğitimsiz Ekip, Veri Kaybı",
+        "items": [
+          {
+            "q": "Yanlış PMS seçimi hangi sorunlara yol açar?",
+            "a": "<ul><li>ihtiyacınız olmayan modüller için gereksiz ücret,</li><li>ihtiyaç duyduğunuz modül ve entegrasyonların olmaması,</li><li>kullanıcı dostu olmayan arayüz,</li><li>zayıf destek ve eğitim,</li><li>otel büyüdükçe sistemi “taşıyamama.”</li></ul>Sonuç: bir süre sonra tekrar PMS değiştirme ihtiyacı ve zaman + para kaybı."
+          },
+          {
+            "q": "Hatalı kurulum neleri tetikler?",
+            "a": "<ul><li>odaların veya fiyat planlarının yanlış tanımlanması,</li><li>channel manager ve OTA tarafında mapping hataları,</li><li>raporlarda çelişkili verilere sebep olan yapılandırma sorunları,</li><li>ekipte “sisteme güvenmeme” hali.</li></ul>Bu da PMS’in avantajlarını kullanmak yerine, bir de onunla uğraşmak gibi bir tablo yaratır."
+          },
+          {
+            "q": "Eğitimsiz ekipler PMS’te ne tür problemler yaşar?",
+            "a": "<ul><li>temel işlevleri bile hatalı veya eksik kullanma,</li><li>eski alışkanlıklara (Excel, defter, not) dönme,</li><li>zamanla “PMS işe yaramıyor” algısı,</li><li>yeni gelen personel için ekstra zorluk.</li></ul>"
+          },
+          {
+            "q": "Veri kayıpları ve yanlış veri geçişi nasıl sorun olur?",
+            "a": "<ul><li>aktif rezervasyonların eksik yansıması,</li><li>misafir geçmişi ve tercih bilgilerinin kaybı,</li><li>borç–alacak ve hesap hareketlerinde uyuşmazlık,</li><li>raporların güvenilirliğinin sarsılması.</li></ul>Bu yüzden veri geçişi; hazırlık + temizlik + kontrollü import şeklinde yapılmalıdır."
+          },
+          {
+            "q": "PMS kurulumu sonrası destek alınmazsa ne olur?",
+            "a": "<ul><li>ilk aylarda ortaya çıkan küçük hatalar büyür,</li><li>ekip yanlış alışkanlıklar geliştirir,</li><li>sistemin yeni imkânları hiç keşfedilmez,</li><li>otel, “PMS aldık ama eski kafayla devam ediyoruz” noktasında kalır.</li></ul>"
+          }
+        ]
+      },
+      "geoSector": {
+        "title": "GEO & Sektör Odaklı PMS Kurulum Soruları",
+        "items": [
+          {
+            "q": "Türkiye’deki resort oteller için PMS kurulumu neden önemli?",
+            "a": "<ul><li>yoğun sezon,</li><li>yüksek oda sayısı,</li><li>çok sayıda kanal (OTA, acente, direct),</li><li>farklı pazar ve fiyat karmaları</li></ul>gibi faktörler; manuel sistemi imkânsız hâle getirir. PMS kurulumu, tüm bu karmaşayı yönetilebilir hâle getirir."
+          },
+          {
+            "q": "City & business oteller için PMS kurulumunda öncelikler neler?",
+            "a": "<ul><li>hızlı check-in/out,</li><li>şirket ve acente anlaşmaları,</li><li>MICE & meeting modülleri,</li><li>fatura/muhasebe entegrasyonu</li></ul>city oteller için özellikle önemlidir."
+          },
+          {
+            "q": "Turizm bölgelerinde PMS kurulumu OTA/channel manager stratejisiyle nasıl bağlanmalı?",
+            "a": "<ul><li>oda ve fiyat planları,</li><li>kampanyalar,</li><li>pazar segmentleri (iç pazar, dış pazar, uzun konaklama vb.)</li></ul>PMS kurulumu sırasında, channel manager ve OTA şablonları ile uyumlu olacak şekilde yapılandırılmalıdır."
+          },
+          {
+            "q": "Zincir oteller için PMS kurulumunda ekstra nelere dikkat edilmeli?",
+            "a": "<ul><li>multi-property yönetimi,</li><li>ortak konfigürasyonlar (rapor, segment, kanal tanımları),</li><li>merkezi rezervasyon sistemi entegrasyonu,</li><li>kullanıcı yetkilerinin property bazlı kontrolü.</li></ul>"
+          },
+          {
+            "q": "Türkiye geneli küçük ve butik oteller için PMS’e geçiş ne kazandırır?",
+            "a": "<ul><li>karmaşık gibi görünen rapor ve rezervasyon süreçlerini basitleştirir,</li><li>sahibinin/gm’nin uzaktan oteli takip etmesini kolaylaştırır,</li><li>misafir geçmişi ve direkt ilişkilerin daha sağlıklı yönetilmesini sağlar.</li></ul>"
+          }
+        ]
+      },
+      "miniFaq": {
+        "title": "Mini PMS Kurulum Hizmeti SSS",
+        "items": [
+          {
+            "q": "Her otel için PMS şart mı?",
+            "a": "Belirli bir oda ve rezervasyon hacminin üzerindeki her otel için pratikte evet; manuel sistemler bir noktadan sonra hem riskli hem verimsiz hâle gelir."
+          },
+          {
+            "q": "PMS seçimini sadece fiyata göre yapmak doğru mu?",
+            "a": "Hayır; uzun vadede destek, entegrasyon ve kullanım kolaylığı, lisans bedelinden daha kritik olabilir."
+          },
+          {
+            "q": "PMS değiştirirken eski verileri tamamen taşımak zorunda mıyım?",
+            "a": "Hayır; gereksiz veya eski/verimsiz veriler yerine, temiz ve gerçekten ihtiyaç duyacağınız verileri taşımak daha sağlıklıdır."
+          },
+          {
+            "q": "PMS kurulumunda tüm personeli aynı anda eğitmek zorunda mıyım?",
+            "a": "Departman bazlı ve vardiyalara göre gruplandırılmış eğitimler, hem operasyonu durdurmaz hem de daha etkili öğrenme sağlar."
+          },
+          {
+            "q": "PMS eğitimini yalnızca bir kez yapmak yeterli mi?",
+            "a": "Genellikle hayır; go-live sonrası takip eğitimleri, yeni personel için onboarding eğitimleri gerekir."
+          },
+          {
+            "q": "PMS’i yanlış kullanmak, doğru kurulum kadar büyük risk mi?",
+            "a": "Evet; mükemmel yapılandırılmış bir PMS, yanlış kullanılıyorsa yine hatalı veri ve süreçler üretir. Eğitim ve denetim şarttır."
+          },
+          {
+            "q": "PMS kurulumunu tamamen kendi ekibimle yapmak mantıklı mı?",
+            "a": "Teknik olarak mümkün, ancak ilk kez yapıyorsanız; profesyonel destek almak, ileride doğabilecek büyük hataları ve ek maliyetleri engelleyebilir."
+          },
+          {
+            "q": "PMS kurulumu sonrasında süreçleri yazılı hâle getirmek gerekli mi?",
+            "a": "Evet; özellikle yeni personel ve denetim süreçleri için yazılı SOP’lar (standard operating procedure) oldukça faydalıdır."
+          },
+          {
+            "q": "PMS Kurulum Hizmeti’ni sadece “analiz + seçim önerisi” olarak alabilir miyim?",
+            "a": "Evet; PMS seçimi, modül önerileri ve kurulum yol haritası için danışmanlık alıp, uygulamayı kendi ekibiniz ve PMS sağlayıcınızla yürütmeniz de mümkün."
+          }
+        ]
+      },
+      "cta": {
+        "title": "PMS Kurulum Hizmeti İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile PMS Kurulum Hizmeti için nasıl teklif alabilirim?",
+            "a": "<ul><li>otelinizin türü (resort, city, butik, zincir vb.),</li><li>oda sayınız ve segmentiniz,</li><li>mevcut durumda kullandığınız sistemler (PMS, channel manager, Excel vb.),</li><li>hedef pazar ve kanallarınız (OTA, acente, direct vb.),</li><li>PMS’ten beklentileriniz (modüller, rapor ihtiyacı, entegrasyonlar),</li><li>yaşadığınız temel problemler (manuel süreçler, veri kaybı, entegrasyon eksikliği vb.)</li></ul>ile kısa bir brief paylaşırsanız; <b>PMS seçimi, kurulum, veri geçişi, eğitim ve entegrasyon</b> adımlarını içeren bir PMS Kurulum Hizmeti yol haritası ve teklif hazırlanabilir."
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı PMS kurulum tarafında neyi netleştirir?",
+            "a": "Bu görüşmede:<ul><li>hangi PMS veya PMS türünün sizin için daha uygun olduğunu,</li><li>kurulumun hangi adımlarla, ne kadar sürede ilerleyebileceğini,</li><li>ekip ve departmanlar için nasıl bir eğitim planı gerektiğini,</li><li>OTA/channel manager entegrasyonunun hangi sırayla yapılması gerektiğini</li></ul>birlikte netleştiririz. Böylece PMS’e geçiş, “korkulan bir değişim” değil; otelinizi daha verimli ve ölçülebilir hâle getiren kontrollü bir dönüşüm olur."
+          }
+        ]
+      }
+    },
+
+    "cta": {
+      "primary": "Pms kurulum hizmeti talep edin",
+      "primaryHref": "/Services/pms/pmsInstallation",
+      "secondary": "PMS-OTA Hizmetleri",
+      "secondaryHref": "/Services/pms"
+    }
+  },
+
+   "FaqOtaIntegration": {
+    "h1": "OTA Entegrasyonu SSS",
+    "intro": "OTA entegrasyonu; Booking.com, Expedia, Agoda, otel web sitesi, acente ve PMS’inizin birbirine “doğru” bağlanması demek.\n\nDoğru kurulumda:\n<ul><li>fiyat & envanter tek yerden güncellenir,</li><li>tüm OTA’larda aynı anda senkron görünür,</li><li>overbooking riski düşer,</li><li>kanal verimliliği artar.</li></ul>\n\nYanlış kurulumda:\n<ul><li>yanlış fiyat/oda gider,</li><li>kapalı tarihlerde satış açılır,</li><li>çift rezervasyon (overbooking) yaşanır,</li><li>eksik rezervasyon datası ile raporlama bozulur.</li></ul>\n\nBu SSS sayfası, OTA Entegrasyonu ile ilgili en sık sorulan soruları; PMS–channel manager–OTA veri akışı, oda/fiyat mapping, rate parity, overbooking önleme ve hata yönetimi üzerinden netleştirir.",
+    "sections": {
+      "generalQuestions": {
+        "title": "OTA Entegrasyonuna Genel Bakış",
+        "items": [
+          {
+            "q": "OTA entegrasyonu tam olarak nedir?",
+            "a": "OTA entegrasyonu; PMS’iniz, channel manager ve OTA’lar (Booking.com, Expedia, Agoda vb.) arasında:<ul><li>oda & fiyat,</li><li>müsaitlik & kapanış,</li><li>rezervasyon ve değişiklik</li></ul>verilerinin güvenli, hızlı ve çift yönlü (mümkünse) akmasını sağlayan teknik bağlantılar bütünüdür. Amaç; her kanalda fiyat/envanteri tek tek elle girmek yerine, tek panelden yönetmektir."
+          },
+          {
+            "q": "OTA entegrasyonu olmadan çalışmak ne anlama gelir?",
+            "a": "<ul><li>fiyat ve müsaitlikleri her OTA paneline ayrı ayrı girersiniz,</li><li>kanal sayısı arttıkça hata riski ve iş yükü yükselir,</li><li>overbooking ve yanlış fiyat riski artar,</li><li>raporları birleştirmek zorlaşır.</li></ul>Kısacası: kanal sayınız arttıkça manuel yönetim ölçeklenemez hale gelir."
+          },
+          {
+            "q": "OTA entegrasyonu hangi sistemleri kapsar?",
+            "a": "Tipik mimaride:<ul><li>PMS (otel yönetim sistemi) – odalar, fiyatlar, rezervasyonlar,</li><li>Channel Manager – PMS ile OTA’lar arasındaki köprü,</li><li>OTA’lar – Booking.com, Expedia, Agoda, Hotels.com, vb.,</li><li>Otel web sitesi booking engine’i – çoğu zaman channel manager’la entegre.</li></ul>"
+          },
+          {
+            "q": "OTA entegrasyonu tüm OTA’lar için aynı mı çalışır?",
+            "a": "Prensip aynı olsa da;<ul><li>her OTA’nın entegrasyon protokolü,</li><li>veri alanları,</li><li>bazı özel kural ve kısıtları</li></ul>farklı olabilir. Bu yüzden her OTA için doğru mapping ve test süreci önemlidir."
+          },
+          {
+            "q": "OTA entegrasyonu sadece büyük oteller için mi?",
+            "a": "Hayır. Kanal sayısı + rezervasyon hacmi büyüdükçe, butik otel bile olsanız entegrasyonun değeri artar. Özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda OTA hacmi yüksekse, küçük ve orta ölçekli oteller için bile entegrasyonsuz çalışmak gerçekçi değildir."
+          },
+          {
+            "q": "OTA Entegrasyonu hizmeti kimler için uygundur?",
+            "a": "<ul><li>halihazırda OTA’larla çalışıp hata ve overbooking yaşayan oteller,</li><li>yeni OTA/channel manager ekleyecek oteller,</li><li>PMS’ini yenileyen ve entegre kanal yapısı kurmak isteyen oteller,</li><li>Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda çok kanallı satış yapan tüm tesisler.</li></ul>"
+          }
+        ]
+      },
+      "quickAnswers": {
+        "title": "Sesli Arama Kısa Soruları",
+        "items": [
+          {
+            "q": "OTA entegrasyonu nedir, nasıl çalışır?",
+            "a": "PMS–channel manager–OTA arasında oda, fiyat, müsaitlik ve rezervasyon verilerinin otomatik ve senkron akmasını sağlayan bağlantı yapısıdır."
+          },
+          {
+            "q": "Booking ve Expedia PMS’e nasıl entegre edilir?",
+            "a": "Genellikle PMS → channel manager → OTA şeklinde; channel manager PMS’ten oda/fiyat alır, Booking/Expedia gibi OTA’lara iletir, OTA’dan gelen rezervasyonları da PMS’e geri yazar."
+          },
+          {
+            "q": "Rate parity neden önemlidir, nasıl korunur?",
+            "a": "Rate parity; farklı kanallarda aynı oda için aynı veya kontrollü fiyat sunmak demektir. Entegrasyon ve doğru fiyat planı kurgusuyla, tüm OTA ve web sitenizde fiyat dengesini koruyabilirsiniz."
+          },
+          {
+            "q": "Overbooking nasıl önlenir?",
+            "a": "Tüm kanalların aynı PMS & channel manager üzerinden senkron envanter kullanması, manuel müdahaleyi minimumda tutmak ve kapalı tarihler/stop-sell yönetimini entegre sistem üzerinden yapmakla."
+          },
+          {
+            "q": "Channel manager ile OTA’lar arasında oda/fiyat eşleştirmesi nasıl yapılır?",
+            "a": "Her PMS/OTA oda ve fiyat tipini, channel manager’daki karşılığıyla bire bir eşleştirmeniz (mapping) gerekir; oda–plan–pazar bazlı mapping doğru yapılmazsa yanlış fiyat/yapı yayınlanır."
+          },
+          {
+            "q": "OTA Entegrasyonu SSS kimler için uygundur?",
+            "a": "PMS + channel manager + OTA üçlüsünü stabilize etmek ve fiyat/envanteri tek panelden yönetmek isteyen tüm oteller için uygundur."
+          }
+        ]
+      },
+      "internalLinks": {
+        "servicePage": "<a href=\"/tr/pms-ota/ota-entegrasyonu\">OTA Entegrasyonu hizmet sayfası</a>",
+        "pmsSetupFaq": "<a href=\"/tr/pms-ota/pms-kurulum-sss\">PMS Kurulum Hizmeti SSS</a>"
+      },
+
+       "section3": {
+        "title": "OTA Entegrasyon Mimarisi & Hizmet Kapsamı",
+        "items": [
+          {
+            "q": "OTA entegrasyon mimarisi nasıl kurgulanır?",
+            "a": "Standart mimaride:\n<ol><li>PMS, oda tipleri ve fiyat planlarının kaynağıdır.</li><li>Channel manager, PMS’ten aldığı oda & fiyat verilerini OTA’lara dağıtır.</li><li>OTA’lardan gelen rezervasyonlar, channel manager üzerinden PMS’e geri yazılır.</li><li>Otel web sitesi booking engine’i de çoğu kez channel manager üzerinden PMS’e bağlı çalışır.</li></ol>\n\nBu yapı, tek kaynaktan (PMS) yönetilen fiyat ve envanter demektir."
+          },
+          {
+            "q": "PMS–channel manager–OTA veri akışı nasıl çalışır?",
+            "a": "<ul><li><strong>PMS → Channel Manager:</strong><br/>oda/envanter, fiyat, minimum gece, kapama bilgileri.</li><li><strong>Channel Manager → OTA:</strong><br/>her OTA’ya uygun formatta fiyat & envanter güncellemesi.</li><li><strong>OTA → Channel Manager → PMS:</strong><br/>yeni rezervasyon, değişiklik, iptal ve no-show bilgileri.</li></ul>\n\nBu akış; belirli aralıklarla (pull/push), event bazlı veya gerçek zamanlı olabilir (sisteme göre)."
+          },
+          {
+            "q": "OTA Entegrasyonu hizmeti neleri kapsar?",
+            "a": "<ul><li>mevcut PMS ve channel manager yapısının analizi,</li><li>kullanılacak OTA’ların belirlenmesi ve ön hazırlık,</li><li>oda & fiyat planı yapısının entegrasyona uygun hâle getirilmesi,</li><li>PMS–channel manager–OTA mapping (oda, fiyat, pazar, paket),</li><li>test rezervasyonlarıyla akış doğrulama,</li><li>riskler ve hata yönetimi için prosedürler oluşturma,</li><li>raporlama ve optimizasyon önerileri.</li></ul>"
+          },
+          {
+            "q": "Rate parity nedir, neden kritik?",
+            "a": "Rate parity; aynı oda ve tarih için, kontrol ettiğiniz kanallarda aynı (veya belli fark kuralları içinde) fiyatı sunma prensibidir. Rate parity bozulduğunda:\n<ul><li>OTA’lar ve iş ortaklarıyla anlaşmazlık,</li><li>misafir tarafında “güven” kaybı,</li><li>bazı kanallarda cezalandırılma veya görünürlük kaybı yaşanabilir.</li></ul>"
+          },
+          {
+            "q": "OTA entegrasyonu sadece Booking–Expedia gibi büyük OTA’ları mı kapsar?",
+            "a": "Hayır. Pek çok channel manager; büyük OTA’ların yanında niche OTA’lar, yerel acenteler, metasearch ve hatta web booking engine’iyle entegrasyonu destekler. Önemli olan, sizin için anlamlı kanalları seçip entegrasyon mimarisini buna göre kurmaktır."
+          }
+        ]
+      },
+      "section4": {
+        "title": "Süreç & İşleyiş: Mapping, Test, Devreye Alma",
+        "items": [
+          {
+            "q": "OTA entegrasyon sürecine nasıl başlanır?",
+            "a": "<ol><li>PMS ve channel manager yapınızın analizi,</li><li>hangi OTA’larla çalışılacağının netleştirilmesi,</li><li>oda & fiyat planı yapınızın sadeleştirilmesi/standartlaştırılması,</li><li>PMS & channel manager tarafında gerekli konfigürasyonların yapılması,</li><li>OTA tarafında property ve bağlantı ayarlarının açılması,</li><li>mapping ve test rezervasyonları,</li><li>go-live ve ilk dönem izleme.</li></ol>"
+          },
+          {
+            "q": "Channel manager ile OTA oda/fiyat mapping’i nasıl yapılır?",
+            "a": "<ul><li>PMS’teki her oda tipi, channel manager’daki oda tipine eşlenir.</li><li>PMS’teki her fiyat planı (standart, non-refundable, HB, AI vb.), OTA’daki rate plan’lerle eşleştirilir.</li><li>Pazar/ülke temelli ayrımlar kullanımda ise; bunlar da mapping’e dahil edilir.</li></ul>\n\nMapping sonrası mutlaka test rezervasyonları (gerçek veya dummy) ile kontrol yapılmalıdır."
+          },
+          {
+            "q": "OTA entegrasyonunda test rezervasyonları neden önemlidir?",
+            "a": "Test rezervasyonları;\n<ul><li>fiyatın doğru gidip gitmediğini,</li><li>doğru oda tipine düşüp düşmediğini,</li><li>PMS’e rezervasyonun eksiksiz yazılıp yazılmadığını,</li><li>iptal/değişiklik akışının doğru çalışıp çalışmadığını</li></ul>\nkontrol etmenizi sağlar. Test yapılmadan go-live, ciddi risk taşır."
+          },
+          {
+            "q": "OTA entegrasyonu devreye alındıktan sonra nelere dikkat edilmeli?",
+            "a": "<ul><li>ilk günlerde sık sık PMS–channel manager–OTA log’larını kontrol etmek,</li><li>fiyat, envanter ve kapanışların tüm kanallarda doğru göründüğünden emin olmak,</li><li>açıklama ve fotoğraf içeriklerinin de tutarlı olup olmadığını kontrol etmek,</li><li>hata ve uyarı bildirimlerini (channel manager/PMS dashboard’ları) düzenli takip etmek.</li></ul>"
+          },
+          {
+            "q": "OTA entegrasyonu için ne kadar süre gerekir?",
+            "a": "PMS & channel manager altyapınız hazırsa ve oda/fiyat yapınız çok karışık değilse, tek bir OTA için entegrasyon ve test süreci genellikle birkaç gün içinde tamamlanabilir. Çok sayıda OTA, karmaşık oda/fiyat/pazar yapıları olan zincirlerde ise süreç haftalara yayılabilir."
+          }
+        ]
+      },
+      "section5": {
+        "title": "Performans & Raporlama: OTA Entegrasyonu Ne Kazandırır?",
+        "items": [
+          {
+            "q": "OTA entegrasyonu nasıl gelir artışı sağlar?",
+            "a": "<ul><li>tüm kanallarda aynı anda fiyat ve envanter güncelleme → kampanya ve fiyat kararlarının hızlı yansıması,</li><li>yanlış kapanışların azalması → boş kalan oda sayısının düşmesi,</li><li>kanal bazlı performans raporları → verimli kanallara daha fazla odaklanma.</li></ul>\n\nDoğru PMS–OTA kurgusu, birçok otelde kanal verimliliğini %20–30 oranında iyileştirebilir."
+          },
+          {
+            "q": "OTA performansı PMS & channel manager raporlarına nasıl yansır?",
+            "a": "Doğru entegrasyonla; PMS üzerinden:\n<ul><li>OTA bazlı gece ve gelir,</li><li>pazar ve ülke bazlı performans,</li><li>commission/doğrudan gelir karşılaştırmaları</li></ul>\nraporlanabilir. Bu veriler, satış ve gelir yönetimi için temel input’lardır."
+          },
+          {
+            "q": "OTA entegrasyonu overbooking riskini nasıl azaltır?",
+            "a": "<ul><li>tüm kanalların aynı PMS envanterine bağlı çalışması,</li><li>double manual girişlerin ortadan kalkması,</li><li>gerçek zamanlı veya sık senkronizasyon,</li><li>stop-sell ve minimum gece gibi kuralların merkezi yönetimi</li></ul>\n\noverbooking riskini ciddi şekilde azaltır."
+          },
+          {
+            "q": "OTA entegrasyonu hatalı olursa performansa nasıl yansır?",
+            "a": "<ul><li>yanlış fiyat gönderimi → gelir kaybı veya misafir memnuniyetsizliği,</li><li>yanlış oda mapping’i → misafirin beklediği oda yerine farklı oda tipi,</li><li>kapalı tarihlerin açık görünmesi → overbooking,</li><li>eksik rezervasyon datası → rapor ve karar süreçlerinde hata.</li></ul>"
+          },
+          {
+            "q": "OTA entegrasyonu sonrası hangi raporları düzenli kontrol etmeliyim?",
+            "a": "<ul><li>kanal bazlı gelir ve doluluk,</li><li>pazar/ülke bazlı dağılım,</li><li>iptal ve no-show oranları,</li><li>komisyon yükü ve net gelir,</li><li>mapping ve hata log’ları.</li></ul>"
+          }
+        ]
+      },
+
+       "section6": {
+        "title": "Pain Point: Yanlış Fiyat/Oda, Overbooking, Kapalı Tarihler, Eksik Data",
+        "items": [
+          {
+            "q": "Yanlış fiyat/oda aktarımı neden olur, nasıl önlenir?",
+            "a": "<strong>Nedenler:</strong><ul><li>hatalı mapping,</li><li>sonradan yapılan manuel değişiklikler,</li><li>PMS/fiyat planı yapısının OTA’ya uygun olmaması.</li></ul><strong>Çözüm:</strong><ul><li>mapping’i dikkatle yapmak,</li><li>fiyat değişikliklerini sadece PMS veya channel manager’dan yapmak,</li><li>test rezervasyonları ve düzenli kontrollerle sapmaları erken görmek.</li></ul>"
+          },
+          {
+            "q": "Çift rezervasyon (overbooking) problemi nasıl ortaya çıkar?",
+            "a": "<ul><li>PMS dışında kapasitelerin tutulması (Excel, not defteri),</li><li>bazı OTA’ların entegrasyon dışında kalması,</li><li>channel manager senkronizasyon sorunları,</li><li>stop-sell ve kapama kurallarının sistemden değil manuel yapılması.</li></ul>"
+          },
+          {
+            "q": "Overbooking’i teknik olarak nasıl önleyebilirim?",
+            "a": "<ul><li>tüm satılabilir envanteri PMS & channel manager üzerinden yönetmek,</li><li>manuel stok takibinden kaçınmak,</li><li>tüm OTA’ları entegrasyon kapsamına almak,</li><li>minimum buffer (ör. son oda için manuel onay şartı gibi) tanımlamak,</li><li>mapping ve senkron log’larını düzenli kontrol etmek.</li></ul>"
+          },
+          {
+            "q": "Kapalı tarihlerde satış açılması nasıl engellenir?",
+            "a": "<ul><li>kapama ve stop-sell kararlarını sadece PMS veya channel manager’dan yapmak,</li><li>OTA panellerinden manuel farklı ayar yapmamak,</li><li>kapama kurallarını test ederek devreye almak,</li><li>özel dönemler için (bayram, high season) ekstra kontrollü planlama uygulamak.</li></ul>"
+          },
+          {
+            "q": "Eksik rezervasyon datası hangi sorunlara yol açar?",
+            "a": "<ul><li>PMS’te görünmeyen/eksik rezervasyon → check-in kaosu,</li><li>gelir raporlarında kanal bazlı yanlışlık,</li><li>misafirin geçmiş kayıtlarının eksik olması,</li><li>yanlış forecast ve planlama.</li></ul><p>Bu yüzden entegrasyon log’ları ve channel manager–PMS rezervasyon listeleri düzenli olarak karşılaştırılmalıdır.</p>"
+          }
+        ]
+      },
+      "section7": {
+        "title": "GEO & Sektör Odaklı OTA Entegrasyonu (Antalya, Belek, Kemer, Side, Bodrum, Alanya)",
+        "items": [
+          {
+            "q": "Antalya ve çevre destinasyonlarda OTA entegrasyonu neden kritik?",
+            "a": "<ul><li>yüksek oda sayısı,</li><li>çok sayıda OTA ve acente ile çalışma,</li><li>yoğun sezon ve dinamik fiyatlandırma.</li></ul><p>Bu kombinasyon, manuel OTA yönetimini imkânsız kılar; entegrasyon bu bölgelerde adeta zorunlu altyapı haline gelmiştir.</p>"
+          },
+          {
+            "q": "Belek, Kemer, Side gibi resort destinasyonlarda OTA entegrasyonu nasıl kurgulanmalı?",
+            "a": "<ul><li>ülke/pazar bazlı fiyat planları (DE, RU, UK, TR vb.),</li><li>uzun konaklama & paket ürünler,</li><li>erken rezervasyon ve kampanya dönemlerinin hassas yönetimi,</li><li>minimum gece ve kapanışların merkezi yönetimi.</li></ul>"
+          },
+          {
+            "q": "Bodrum ve Alanya gibi fiyat/performans bölgelerinde neler önemli?",
+            "a": "<ul><li>otelin fiyat–değer dengesini OTA’larda doğru gösterebilmek,</li><li>farklı oda tiplerini karışıklığa yol açmadan sunmak,</li><li>yoğun iptal/no-show dönemlerinde envanteri doğru yönetmek.</li></ul>"
+          },
+          {
+            "q": "Türkiye geneli city oteller için OTA entegrasyonu nasıl konumlanmalı?",
+            "a": "<ul><li>kısa konaklama ve son dakika rezervasyonlarına hızlı yanıt,</li><li>MICE ve corporate segment ile OTA dengesinin kontrolü,</li><li>hafta içi/hafta sonu talep farklarının dinamik yönetimi.</li></ul>"
+          },
+          {
+            "q": "OTA entegrasyonu, otel dijital pazarlama stratejisiyle nasıl bağlanmalı?",
+            "a": "<ul><li>kampanya fiyatlarının OTA + web + direct kanallarda dengeli yayılması,</li><li>metasearch ve remarketing kampanyalarının stok & fiyat hatası olmadan çalışması,</li><li>direct booking kampanyalarının OTA fiyatlarıyla çelişmemesi.</li></ul>"
+          }
+        ]
+      },
+      "section8": {
+        "title": "Mini OTA Entegrasyonu SSS (Micro – 10 Soru)",
+        "items": [
+          {
+            "q": "Her OTA için entegrasyon şart mı?",
+            "a": "Teknik olarak hayır; ancak hacmi anlamlı olan tüm OTA’lar için entegrasyon ciddi zaman ve hata tasarrufu sağlar."
+          },
+          {
+            "q": "Sadece channel manager ile OTA çalışmak yeterli mi, PMS entegrasyonu şart mı?",
+            "a": "Kısa vadede mümkün; ama PMS entegrasyonu yoksa rezervasyonlar yine manuel girilir, hata ve iş yükü artar. Uzun vadede PMS entegrasyonu tavsiye edilir."
+          },
+          {
+            "q": "Tüm fiyatları sadece OTA panelinden yönetmek doğru mu?",
+            "a": "Hayır; fiyatlar PMS veya channel manager’dan yönetilip tüm kanallara yansıtılmalıdır. OTA panelinden yapılan lokal değişiklikler parity bozulmasına neden olabilir."
+          },
+          {
+            "q": "OTA bağlantısını bir kere kurup bırakmak yeterli mi?",
+            "a": "Hayır; mapping değişiklikleri, yeni fiyat planları ve OTA şartları nedeniyle entegrasyon düzenli gözden geçirilmelidir."
+          },
+          {
+            "q": "Entegrasyon hatalarını sadece OTA tarafında aramak doğru mu?",
+            "a": "Değil; PMS, channel manager ve OTA zincirinin her halkası kontrol edilmelidir."
+          },
+          {
+            "q": "Entegrasyonda her değişiklik için test rezervasyonu yapmak şart mı?",
+            "a": "Özellikle oda/fiyat/mapping değişikliği olduğunda evet; küçük bir test rezervasyonu büyük bir hatayı erken yakalayabilir."
+          },
+          {
+            "q": "Fiyatları her kanalda %100 aynı tutmak zorunda mıyım?",
+            "a": "Rate parity politikalarınıza ve OTA anlaşmalarınıza bağlı; ama fark varsa bile bilinçli ve kural bazlı olmalıdır."
+          },
+          {
+            "q": "OTA entegrasyonunda tek tedarikçi ile çalışmak zorunlu mu?",
+            "a": "Hayır; ancak PMS ve channel manager tarafında mümkün olduğunca sade, tek merkezli yapı kurmak karmaşıklığı azaltır."
+          },
+          {
+            "q": "OTA entegrasyonu için IT ekibi şart mı?",
+            "a": "Şart değil; çoğu PMS ve channel manager entegrasyonu panel üzerinden yönetilebilir. Yine de uzman gözetimi önerilir."
+          },
+          {
+            "q": "OTA Entegrasyonu hizmetini sadece audit + yol haritası olarak alabilir miyim?",
+            "a": "Evet; mevcut entegrasyon yapınızı analiz eden, mapping ve riskleri gösteren ve doğru kurulum adımlarını içeren bir danışmanlık paketi alabilirsiniz."
+          }
+        ]
+      },
+      "section9": {
+        "title": "OTA Entegrasyonu İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile OTA Entegrasyonu için nasıl teklif alabilirim?",
+            "a": "<ul><li>mevcut PMS ve channel manager yapınız,</li><li>çalıştığınız OTA listesi (Booking, Expedia, Agoda vb.),</li><li>oda & fiyat planı yapınız,</li><li>yaşadığınız temel problemler (yanlış fiyat/oda, overbooking, kapalı tarihte satış, eksik veri vb.),</li><li>hedeflediğiniz yeni kanallar veya pazarlar</li></ul><p>ile kısa bir brief paylaştığınızda; entegrasyon audit’i, doğru mimari önerisi, mapping planı, test & go-live adımları ve bütçe içeren bir OTA Entegrasyonu yol haritası ve teklif hazırlanabilir.</p>"
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı OTA entegrasyonu tarafında neyi netleştirir?",
+            "a": "<ul><li>hangi PMS–channel manager–OTA kombinasyonunu kullandığınızı,</li><li>nerede hata ve risk yaşadığınızı,</li><li>mapping ve rate parity yaklaşımınızı,</li><li>overbooking ve data kaybı risklerinizi,</li><li>kısa vadeli düzeltmeler ile orta vadeli mimari iyileştirmeleri</li></ul><p>beraber netleştiririz. Böylece OTA entegrasyonu, sadece teknik bağlantı değil; geliri ve verimliliği artıran kontrollü bir kanal yönetimi altyapısı hâline gelir.</p>"
+          }
+        ]
+      }
+    },
+
+        "cta": {
+      "primary": "Ota entegrasyonu hizmeti talep edin",
+      "primaryHref": "/Services/pms/otaContract",
+      "secondary": "PMS-OTA Hizmetleri",
+      "secondaryHref": "/Services/pms"
+    }
+  },
+
+   "FaqChannelManagement": {
+    "h1": "Kanal Yönetimi SSS",
+    "intro": "<p>Oteliniz için asıl soru çoğu zaman şudur:</p><p>“Doluluğu, geliri ve komisyon dengesini hangi kanallarla, nasıl yöneteceğim?”</p><p>OTA (Booking, Expedia vb.) – Web sitesi – Çağrı merkezi – Acente…</p><p>Doğru kurgulanmamış kanal yönetimi, özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda:</p><ul><li>yanlış kanal dengesi,</li><li>yüksek komisyon maliyetleri,</li><li>web yerine OTA’ya kaçan direkt rezervasyonlar,</li><li>kontrolsüz fiyat karmaşası</li></ul><p>olarak geri döner.</p><p>Bu SSS sayfası; Kanal Yönetimi ile ilgili en sık sorulan soruları; OTA–web–çağrı merkezi dengesini, channel manager kullanımını, fiyat/oda envanter stratejilerini, allotment ve stop-sale yönetimini ve kanal verimliliği optimizasyonunu netleştirmek için hazırlandı.</p>",
+    "sections": {
+      "generalQuestions": {
+        "title": "Kanal Yönetimine Genel Bakış (Genel Sorular)",
+        "items": [
+          {
+            "q": "Kanal yönetimi tam olarak nedir?",
+            "a": "<p>Kanal yönetimi; otelinizin OTA, web sitesi, çağrı merkezi, acente ve kurumsal satış kanallarındaki:</p><ul><li>fiyat,</li><li>envanter,</li><li>kampanya ve görünürlük,</li><li>komisyon ve maliyet</li></ul><p>dengesini, tek bir strateji ve mimari altında yönetme sürecidir. Amaç, “oda satılsın da nereden satılırsa satılsın” değil; doğru oda, doğru kanalda, doğru fiyata ve doğru maliyetle satılsın.</p>"
+          },
+          {
+            "q": "Kanal yönetimi neden bu kadar önemli?",
+            "a": "<p>Çünkü:</p><ul><li>OTA’lar güçlü,</li><li>misafirlerin önemli kısmı web/OTA/çağrı merkezi arasında geziyor,</li><li>pazarlama bütçeleri sınırlı,</li><li>yanlış kanal dengesi hem gelir hem de marka algısını etkiliyor.</li></ul><p>Doğru kanal yönetimi; doluluk, gelir ve komisyon üçgenini sağlıklı kurmanızı sağlar.</p>"
+          },
+          {
+            "q": "Kanal yönetimi sadece OTA yönetimi midir?",
+            "a": "<p>Hayır. OTA’lar önemli bir parça ama kanal yönetimi, şu dengenin tamamıdır:</p><ul><li>OTA (Booking, Expedia vb.),</li><li>otel web sitesi (direct booking),</li><li>çağrı merkezi & rezervasyon hattı,</li><li>acenteler ve toptancılar,</li><li>MICE/kurumsal satış.</li></ul>"
+          },
+          {
+            "q": "Channel manager kullanmak zorunda mıyım?",
+            "a": "<p>Teknik olarak hayır; ancak:</p><ul><li>birden fazla OTA ile çalışıyorsanız,</li><li>fiyat/envanteri manuel girmeye çalışıyorsanız,</li><li>hatalar ve overbooking artmışsa</li></ul><p>channel manager, kanal yönetimi için neredeyse zorunlu bir bileşendir.</p>"
+          },
+          {
+            "q": "Kanal yönetimi sadece büyük oteller için mi mantıklı?",
+            "a": "<p>Hayır. Kanal sayınız + oda sayınız + gelir hedefleriniz büyüdükçe, butik otel olsanız bile kanal yönetimi önem kazanır. Özellikle turizm bölgelerinde OTA hacmi yüksekse, küçük oteller bile stratejik kanal yönetiminden ciddi fayda görür.</p>"
+          },
+          {
+            "q": "Kanal Yönetimi SSS kimler için uygundur?",
+            "a": "<ul><li>OTA–web–çağrı merkezi karması olan,</li><li>komisyon yükü artan,</li><li>web yerine OTA’ya kaçan direkt rezervasyon sıkıntısı yaşayan,</li><li>fiyat/envanter karmaşası ve parity sorunları olan</li></ul><p>tüm otel ve turizm markaları için.</p>"
+          }
+        ]
+      },
+      "quickAnswers": {
+        "title": "Sesli Arama Kısa Soruları ",
+        "items": [
+          {
+            "q": "Kanal yönetimi nedir, ne işe yarar?",
+            "a": "Otelinizin OTA, web ve çağrı merkezi satışlarını tek bir strateji altında toplayıp, doğru kanal karması ve fiyatlandırma ile doluluk ve geliri optimize etmenizi sağlar."
+          },
+          {
+            "q": "Otelim için OTA–web–call center dengesini nasıl kurmalıyım?",
+            "a": "Önce hedefinizi (doluluk–gelir–direct share) netleştirip; OTA, web ve çağrı merkezi için ayrı ama uyumlu rol ve hedefler belirlemelisiniz."
+          },
+          {
+            "q": "Channel manager hangi sorunları çözer?",
+            "a": "Fiyat ve envanteri tek panelden yönetmenizi, tüm OTA’larda aynı anda güncellenmesini ve overbooking riskinin teknolojik olarak azaltılmasını sağlar."
+          },
+          {
+            "q": "Yüksek OTA komisyonunu nasıl dengeleyebilirim?",
+            "a": "OTA’ları doluluk ve görünürlük için kullanırken; web ve çağrı merkezi tarafında kampanya, sadakat ve fiyat avantajıyla direct payı artırarak dengeleyebilirsiniz."
+          },
+          {
+            "q": "Yanlış kanal dengesi nelere mal olur?",
+            "a": "Yüksek komisyon, web yerine OTA’ya kaçan rezervasyonlar, doluluk–gelir dengesizliği ve fiyat/kampanya karmaşası gibi problemlere."
+          },
+          {
+            "q": "Kanal Yönetimi hizmeti kimler için uygundur?",
+            "a": "OTA ve direct satış kanallarını birlikte kullanan, özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi turizm destinasyonlarında gelir & komisyon dengesini optimize etmek isteyen oteller için uygundur."
+          }
+        ]
+      },
+
+       "section3": {
+        "title": "Hizmet Kapsamı: Kanal Kurgusu, Fiyat & Envanter Stratejileri",
+        "items": [
+          {
+            "q": "Kanal yönetimi hizmeti neleri kapsar?",
+            "a": "<ul><li>mevcut kanal karmasının analizi (OTA, web, çağrı merkezi, acente vb.),</li><li>PMS–OTA–web–call center akışının haritalanması,</li><li>channel manager yapılandırma önerileri,</li><li>fiyat & envanter stratejisi (BAR, paketler, kampanyalar),</li><li>allotment ve stop-sale kurguları,</li><li>ölçüm ve raporlama yapısının oluşturulması.</li></ul>"
+          },
+          {
+            "q": "OTA–web–çağrı merkezi dengesi nasıl kurulmalıdır?",
+            "a": "<p>Genel prensip:</p><ul><li>OTA → görünürlük ve yeni misafir kazanımı,</li><li>web → direct ve daha düşük komisyonlu rezervasyon,</li><li>çağrı merkezi → kararsız misafiri kazanma, upsell/cross-sell, çok dilli destek.</li></ul><p>Her kanalın rolü net tanımlanmalı, hedefler buna göre set edilmelidir.</p>"
+          },
+          {
+            "q": "Kanal yönetimi fiyatlandırma stratejileriyle nasıl bağlanır?",
+            "a": "<ul><li>OTA’lar için komisyon ve kampanya stratejisi,</li><li>web için direct booking teşviki (esnek iptal, ekstra fayda, paketler),</li><li>çağrı merkezi için upsell/cross-sell script’leri,</li><li>pazar ve sezon bazlı dinamik fiyatlandırma</li></ul><p>aynı çatı altında yönetilmelidir.</p>"
+          },
+          {
+            "q": "Channel manager kullanmak kanal yönetiminde ne kazandırır?",
+            "a": "<ul><li>tek panelden tüm OTA’ların fiyat/envanter yönetimi,</li><li>mapping ve rate plan yönetimi,</li><li>kapama/stop-sell ve minimum gece kurallarının merkezi yönetimi,</li><li>hata ve overbooking riskinin düşmesi,</li><li>raporlama ve log takibi imkânı.</li></ul>"
+          },
+          {
+            "q": "Allotment ve stop-sale kanal yönetiminde nasıl çalışır?",
+            "a": "<ul><li><strong>Allotment:</strong> Belirli bir kanal/partner için rezervasyona ayrılan oda sayısı veya kota.</li><li><strong>Stop-sale:</strong> Belirli bir kanal veya tüm kanallar için, belirli tarih veya oda tiplerinde satışı kapatma.</li></ul><p>Doğru kullanıldıklarında; kanallar arası denge ve fiyat kontrolü sağlarlar.</p>"
+          }
+        ]
+      },
+      "section4": {
+        "title": "Süreç & İşleyiş: Kanal Kurgusu, Allotment, Stop-Sale",
+        "items": [
+          {
+            "q": "Kanal yönetimi sürecine nasıl başlanır?",
+            "a": "<ol><li>Mevcut kanal listesi (OTA, web, çağrı merkezi, acente vb.) çıkarılır.</li><li>Her kanalın doluluk, gelir ve komisyon katkısı analiz edilir.</li><li>PMS–channel manager–OTA ve web akışları haritalanır.</li><li>hedefler (direct payı, toplam gelir, belirli kanal payları) tanımlanır.</li><li>fiyat ve envanter stratejisi buna göre güncellenir.</li></ol>"
+          },
+          {
+            "q": "OTA–web–call center dengesi nasıl planlanmalı?",
+            "a": "<ul><li>Yüksek sezonda OTA’lara görünürlük verip web/direct fiyat dengesini korumak,</li><li>düşük sezonda direct ve call center kampanyalarını öne çıkarmak,</li><li>bazı oda tiplerini sadece web/call center’a özel tutmak,</li><li>yüksek komisyonlu OTA’ların payını uzun vadede kontrollü düşürmek</li></ul><p>gibi taktiklerle planlanabilir.</p>"
+          },
+          {
+            "q": "Allotment yönetiminde yaygın hatalar nelerdir?",
+            "a": "<ul><li>belirli OTA veya acenteye gereğinden fazla kota vermek,</li><li>kota kullanımını düzenli takip etmemek,</li><li>doluluk yükseldiğinde allotment/bireysel stok dengesini ayarlamamak,</li><li>PMS dışında, sadece kağıt/Excel ile allotment yönetmeye çalışmak.</li></ul>"
+          },
+          {
+            "q": "Stop-sale yönetimi nasıl yapılmalıdır?",
+            "a": "<ul><li>stop-sale kararlarını PMS veya channel manager üzerinden almak,</li><li>OTA panellerinde manuel “farklı” kapanışlar yapmamak,</li><li>yüksek talep veya özel dönemlerde (bayram, festival vb.) hangi kanalın kapanacağına önceden karar vermek,</li><li>bu kararları gelir yönetimi ekibiyle birlikte planlamak gerekir.</li></ul>"
+          },
+          {
+            "q": "Kanal yönetimi stratejisinin çağrı merkezi ve PMS tarafıyla entegrasyonu nasıl olmalı?",
+            "a": "<ul><li>çağrı merkezi script ve fiyat bilgisi,</li><li>PMS’teki oda/fiyat planlama,</li><li>channel manager ve OTA ayarları</li></ul><p>aynı stratejinin parçası olmalıdır.</p>"
+          }
+        ]
+      },
+      "section5": {
+        "title": "Performans & Raporlama: Kanal Verimliliği ve Gelir Etkisi",
+        "items": [
+          {
+            "q": "Kanal yönetimi geliri ve doluluğu nasıl etkiler?",
+            "a": "<ul><li>doğru oda tiplerini doğru kanallarda öne çıkarır,</li><li>yüksek komisyonlu kanallara bağımlılığı azaltır,</li><li>direct booking payını artırır,</li><li>yanlış kapanış ve fiyat hatalarını azaltır.</li></ul><p>Bunların hepsi toplam gelir ve kârlılığı doğrudan etkiler.</p>"
+          },
+          {
+            "q": "Kanal performansını hangi metriklerle takip etmeliyim?",
+            "a": "<ul><li>kanal bazlı gece ve gelir,</li><li>komisyon oranı ve net gelir,</li><li>iptal/no-show oranları,</li><li>pazar/ülke bazlı kanal performansı,</li><li>direct vs OTA payı,</li><li>web dönüşüm oranı,</li><li>call center dönüşüm oranı.</li></ul>"
+          },
+          {
+            "q": "Channel manager performansı nasıl okunmalı?",
+            "a": "<ul><li>mapping hatası ve uyarı log’ları,</li><li>fiyat/envanter senkronizasyon başarısı,</li><li>OTA bazlı güncelleme hata oranları,</li><li>entegrasyon kaynaklı overbooking ve yanlış fiyat vakalarının sıklığı.</li></ul>"
+          },
+          {
+            "q": "Fiyat & envanter stratejisi raporlara nasıl yansıtılır?",
+            "a": "<ul><li>hangi dönemde hangi kanal ve fiyat planı daha iyi performans vermiş,</li><li>hangi kampanyalar hangi kanalda daha yüksek doluluk ve gelir üretmiş,</li><li>hangi oda tipleri hangi kanallarda daha iyi satmış</li></ul><p>gibi analizler yapılmalıdır.</p>"
+          },
+          {
+            "q": "Kanal yönetimi raporları ne sıklıkla gözden geçirilmeli?",
+            "a": "<ul><li>operasyonel: haftalık,</li><li>stratejik (fiyat ve kanal karması): aylık/çeyreklik.</li></ul><p>Sezonluk oteller için sezon öncesi/ortası/sonrası analizler, büyük resim için kritiktir.</p>"
+          }
+        ]
+      },
+
+      "section6": {
+        "title": "Pain Point: Yanlış Kanal Dengesi, Yüksek Komisyon, Direct Kaçışı, Fiyat Karmaşası",
+        "items": [
+          {
+            "q": "Yanlış kanal dengesi nelere mal olur?",
+            "a": "<ul><li>yüksek komisyon maliyeti,</li><li>bazı OTA ve acentelere gereğinden fazla bağımlılık,</li><li>web ve call center’ın atıl kalması,</li><li>“kanalları kapatmak zorunda kaldığımız” dönemler.</li></ul>"
+          },
+          {
+            "q": "Yüksek OTA komisyonu nasıl dengelenebilir?",
+            "a": "<ul><li>direct için ekstra fayda (esnek iptal, oda tercihi, küçük jestler),</li><li>paket ve kampanyaları öncelikle web/call center’a konumlandırmak,</li><li>pay ve performans analizlerine göre OTA karmasını optimize etmek,</li><li>uzun vadede bazı OTA’ların payını bilinçli olarak azaltmak.</li></ul>"
+          },
+          {
+            "q": "Web yerine OTA’ya kaçan direkt rezervasyonlar nasıl azaltılır?",
+            "a": "<ul><li>web sitenizde net ve cazip direct booking önerisi,</li><li>OTA’da sizi gören misafiri web veya call center’a çekecek mesaj ve remarketing,</li><li>web fiyat/parity dengesinin iyi kurulması,</li><li>doğrudan kanallar için daha iyi iptal ve ödeme koşulları.</li></ul>"
+          },
+          {
+            "q": "Kontrolsüz fiyat karmaşası ne sonuç doğurur?",
+            "a": "<ul><li>misafir farklı kanallarda farklı fiyat görür → güven kaybı,</li><li>OTA ve iş ortaklarıyla anlaşmazlık,</li><li>yieldsiz fiyatlama (gereksiz indirimler veya aşırı yüksek fiyatlar).</li></ul>"
+          },
+          {
+            "q": "Yanlış kanal dengesi ve hatalı kurulum uzun vadede neleri etkiler?",
+            "a": "<ul><li>gelir ve kârlılık,</li><li>misafir ve OTA ilişkileri,</li><li>operasyon yükü ve ekip yorgunluğu,</li><li>otelin fiyat & marka konumlandırması.</li></ul>"
+          }
+        ]
+      },
+      "section7": {
+        "title": "GEO & Sektör Odaklı Kanal Yönetimi (Antalya, Belek, Kemer, Side, Bodrum, Alanya)",
+        "items": [
+          {
+            "q": "Antalya ve çevre destinasyonlarda kanal yönetimi neden çok kritik?",
+            "a": "<ul><li>yerli + yabancı çoklu pazar,</li><li>yüksek oda sayısı ve sezon baskısı,</li><li>çok sayıda OTA ve acente ile çalışma.</li></ul><p>Bu dinamiklerde, yanlış kanal dengesi hızlı kayıplara ve gereksiz komisyon maliyetine yol açar.</p>"
+          },
+          {
+            "q": "Belek, Kemer, Side gibi resort bölgelerinde hangi kanal öncelikleri öne çıkar?",
+            "a": "<ul><li>early booking için OTA + direct kampanyalar,</li><li>yüksek sezonda direct payı artırma stratejileri,</li><li>golf, wellness, family vb. konseptlere göre kanal ağırlıklarının ayarlanması.</li></ul>"
+          },
+          {
+            "q": "Bodrum ve Alanya gibi fiyat/performans destinasyonlarında kanal stratejisi nasıl olmalı?",
+            "a": "<ul><li>fiyat–değer dengesini doğru anlatan OTA listing’leri,</li><li>uzun konaklama fırsatlarını öne çıkaran web/call center kampanyaları,</li><li>segment bazlı (çocuklu aile, genç çift vb.) kanal tercihleri.</li></ul>"
+          },
+          {
+            "q": "City otelleri için kanal yönetimi nasıl şekillenmeli?",
+            "a": "<ul><li>iş seyahati ve MICE için corporate/acente kanalları,</li><li>short stay ve weekend için OTA + web kampanyaları,</li><li>dinamik fiyatlama ve gün içi fiyat yönetimi.</li></ul>"
+          },
+          {
+            "q": "Kanal yönetimi, otel dijital pazarlama stratejisiyle nasıl entegre olmalı?",
+            "a": "<ul><li>kampanya mesajları ve fiyatları tüm kanallarda uyumlu olmalı,</li><li>direct kampanyalar OTA fiyatlarıyla çelişmeyecek şekilde kurgulanmalı,</li><li>Google Ads, Meta ve metasearch kampanyaları kanal stratejisiyle birlikte planlanmalı.</li></ul>"
+          }
+        ]
+      },
+      "section8": {
+        "title": "Mini Kanal Yönetimi SSS (Micro – 10 Soru)",
+        "items": [
+          {
+            "q": "Her OTA’da olmak zorunda mıyım?",
+            "a": "<p>Hayır; verimli olmayan kanalları analiz edip portföyünüzü sadeleştirmek çoğu zaman daha iyi sonuç verir.</p>"
+          },
+          {
+            "q": "Sadece OTA ile çalışıp web/call center’ı boşlamak mantıklı mı?",
+            "a": "<p>Kısa vadede doluluk sağlar ama uzun vadede yüksek komisyon ve düşük direct pay problemi yaşarsınız.</p>"
+          },
+          {
+            "q": "Kanal yönetimi = yalnızca “fiyat” yönetimi midir?",
+            "a": "<p>Hayır; envanter, kampanya, görünürlük, yorum skoru ve call center entegrasyonu da kanal yönetiminin parçasıdır.</p>"
+          },
+          {
+            "q": "Channel manager olmadan kanal yönetimi yapılabilir mi?",
+            "a": "<p>Çok az kanal ve düşük hacimde evet; ama OTA sayısı ve hacim arttıkça channel manager neredeyse zorunlu hale gelir.</p>"
+          },
+          {
+            "q": "Parity’yi %100 korumak zorunda mıyım?",
+            "a": "<p>Sözleşme ve stratejinize göre değişir; ancak bilinçsiz parity bozulması ciddi sorunlara yol açabilir.</p>"
+          },
+          {
+            "q": "Bütün kanallarda aynı oda tiplerini satmak doğru mu?",
+            "a": "<p>Her zaman değil; bazı oda tipleri sadece direct kanallara ayrılarak direct booking cazibesi yaratabilirsiniz.</p>"
+          },
+          {
+            "q": "Allotment yerine tamamen serbest envanter kullanmak daha mı iyi?",
+            "a": "<p>Bazı durumlarda evet; ama belirli acente/OTA ilişkilerinde allotment hâlâ stratejik bir araçtır.</p>"
+          },
+          {
+            "q": "Kanal yönetimi sadece revenue manager’ın işi midir?",
+            "a": "<p>Hayır; satış, pazarlama, çağrı merkezi ve operasyon ekiplerinin ortak çalışması gerekir.</p>"
+          },
+          {
+            "q": "Kanal yönetimi stratejisini yılda bir kez belirleyip bırakmak yeterli mi?",
+            "a": "<p>Hayır; sezon, pazar ve rekabet değiştikçe kanal stratejisi de yeniden gözden geçirilmelidir.</p>"
+          },
+          {
+            "q": "Kanal Yönetimi hizmetini sadece “audit + strateji” olarak alabilir miyim?",
+            "a": "<p>Evet; mevcut kanal karması ve verimliliğinizi analiz eden, riskleri ve fırsatları gösteren ve yeni strateji & aksiyon planı sunan bir danışmanlık paketi alıp uygulamayı kendi ekibinizle yürütebilirsiniz.</p>"
+          }
+        ]
+      },
+      "section9": {
+        "title": "Kanal Yönetimi İçin İş Birliği ve CTA Soruları",
+        "items": [
+          {
+            "q": "DGTLFACE ile Kanal Yönetimi için nasıl teklif alabilirim?",
+            "a": "<ul><li>otelinizin türü (resort, city, butik, zincir vb.),</li><li>kullandığınız kanallar (OTA listesi, web booking engine, çağrı merkezi, acente vb.),</li><li>mevcut kanal bazlı gelir/komisyon dağılımınız,</li><li>direct pay hedefleriniz,</li><li>yaşadığınız temel problemler (yüksek komisyon, direct kaçışı, fiyat karmaşası vb.)</li></ul><p>ile kısa bir brief paylaşırsanız; mevcut durum analizi, kanal stratejisi, fiyat & envanter kurgusu, KPI seti ve uygulama modeli içeren bir Kanal Yönetimi yol haritası ve teklif hazırlanabilir.</p>"
+          },
+          {
+            "q": "“Uzmanla görüş” çağrısı kanal yönetimi tarafında neyi netleştirir?",
+            "a": "Bu görüşmede:<ul><li>hangi kanalları tutmanız/eklemeniz/azaltmanız gerektiğini,</li><li>OTA–web–call center dengesini,</li><li>channel manager ve PMS tarafındaki geliştirme ihtiyaçlarını,</li><li>kısa vadeli “quick win” fırsatlarını ve orta vadeli stratejik değişiklikleri</li></ul><p>birlikte netleştiririz. Böylece kanal yönetimi, sadece “oda doldurma” değil; kârlı, sürdürülebilir ve ölçülebilir bir gelir yönetimi aracı haline gelir.</p>"
+          }
+        ]
+      }
     }
   }
 

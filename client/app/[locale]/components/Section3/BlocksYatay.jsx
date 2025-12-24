@@ -98,9 +98,9 @@ const Section3 = () => {
         <div className="flex flex-col text-center items-center lg:text-start lg:items-start justify-center h-full lg:min-w-[600px] max-w-[800px] lg:-ml-20">
           <h2 className=" flex flex-row lg:flex-col gap-2 text-[18px] lg:text-[20px] leading-[120%]  font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px]">
             
-            <h2 className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[22px] lg:text-[24px] font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
+            <p className="bg-gradient-to-r from-[#54b9cf] to-[#a754cf] bg-clip-text text-transparent text-[22px] lg:text-[24px] font-semibold lg:leading-[57.60px] pb-1 -tracking-[0.48px] leading-[120%]">
               {t("services_title")}
-            </h2>
+            </p>
           </h2>
 
           <div className="flex flex-col gap-2 w-full">
@@ -124,7 +124,7 @@ const Section3 = () => {
       <div className="flex flex-col lg:flex-row items-center">
         <ul className="w-[92%] lg:w-[70%] grid grid-cols-2 mt-1 md:mt-2 list-disc pl-4 text-start md:pl-6 space-y-1 md:space-y-1.5  font-inter28 text-[12px] md:text-[14px] lg:text-[16px] text-white font-normal leading-[125%] lg:leading-[145%] -tracking-[0.20px]">
         {bullets.map((item, idx) => (
-          <Link href={servicesLink[idx].href} className="hover:underline z-[990]"><li key={idx}>{item}</li></Link>
+          <Link href={servicesLink[idx].href} key={idx} className="hover:underline z-[990]"><p >{item}</p></Link>
         ))}
       </ul>
 

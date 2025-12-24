@@ -165,7 +165,7 @@ const renderRichDescription = (key) => {
                     </h4>
 
                     <div className="flex flex-col items-center justify-center gap-3">
-                      <p
+                      <div
                         className={`
                           w-[94%] mx-auto
                           ${card.textColor}
@@ -175,7 +175,7 @@ const renderRichDescription = (key) => {
                         `}
                       >
                         {renderRichDescription(card.descriptionKey)}
-                      </p>
+                      </div>
 
                       <button
                         type="button"

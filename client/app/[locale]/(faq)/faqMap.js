@@ -38,6 +38,12 @@ export const FAQ_MAP = {
   "etkinlik-produksiyonu-sss":"FaqEventProduction",
   "video-ve-produksiyon-sss":"FaqVideoProduction",
   "ui-ux-hizmeti-sss":"FaqUiUxDesign",
-  "grafik-motion-tasarim-sss":"FaqGraphicMotion"
+  "grafik-motion-tasarim-sss":"FaqGraphicMotion",
+
+    "4-dilli-cagri-merkezi-sss":"Faq4LangCallCenter",
+  "performans-analizi-sss":"FaqCallCenterPerformanceAnalysis",
+  "mesaj-yonetimi-sss":"FaqMessageManagement",
+  "satis-sonrasi-destek-sss":"FaqAfterSalesSupport",
+  "rezervasyon-destegi-sss":"FaqReservationSupport"
 
 };
