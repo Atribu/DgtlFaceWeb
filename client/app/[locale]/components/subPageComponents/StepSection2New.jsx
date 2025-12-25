@@ -9,9 +9,10 @@ const StepSection2 = ({ data, header, text, headerHtml, textHtml }) => {
     4: 1640,
     5: 2000,
     6:2450,
-    7:2880,
+    7:2900,
     8:3230,
-     9:3740
+    9:3740,
+    10:4300
   };
 
   const lineHeight = lineHeightMap[data?.length] ?? 3800; // default: 3400

@@ -50,6 +50,12 @@ export const FAQ_MAP = {
   "ota-entegrasyonu-sss":"FaqOtaIntegration",
   "rezervasyon-yonetimi-sss":"FaqReservationManagement",
   "kanal-yonetimi-sss":"FaqChannelManagement",
-  "online-satis-sss":"FaqOnlineSales"
+  "online-satis-sss":"FaqOnlineSales",
+
+   "looker-studio-sss":"FaqLookerStudioReporting",
+  "benchmark-analiz-sss":"FaqBenchmarkAnalysis",
+  "satis-donusumu-sss":"FaqSalesConversionReporting",
+  "kvkk-veri-guvenligi-sss":"FaqKvkkDataSecurity",
+
 
 };

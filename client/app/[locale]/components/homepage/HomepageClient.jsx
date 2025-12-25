@@ -1,6 +1,5 @@
 "use client";
 
-// import MyThreeScene from "./components/MtThreeScene";
 import Partners from "../../components/Partners/Partners";
 // import Section1 from "./components/Section1/Section";
 import Section2 from "../../components/Section2/Section2";

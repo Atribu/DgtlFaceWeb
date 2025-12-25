@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
 import Script from "next/script";
+import localFont from "next/font/local";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,20 @@ export async function generateMetadata({ params }) {
   };
 }
 
+const inter = localFont({
+  src: [
+    { path: "../../public/Fonts/Inter_18pt-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-Semibold.ttf", weight: "600", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-ExtraBold.ttf", weight: "800", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-Black.ttf", weight: "900", style: "normal" },
+  ],
+  variable: "--font-inter",
+  display: "swap",
+  preload: true,
+});
+
 export default async function RootLayout({ children,  params }) {
    const { locale } = await params;
   
@@ -67,8 +82,7 @@ export default async function RootLayout({ children,  params }) {
         `}
         </Script>
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+     <body className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}>
          <noscript
     dangerouslySetInnerHTML={{
       __html: `
