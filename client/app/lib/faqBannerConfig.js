@@ -69,6 +69,15 @@ const SEO_CHIPS = [
       { label: "Rezervasyon Desteği", href: "/rezervasyon-destegi-sss" },
     ];
 
+             const PmsOta_CHIPS = [
+      { label: "PMS-OTA", href: "/pms-ota-sss" },
+       { label: "Pms Kurulumu", href: "/pms-kurulum-sss" },
+      { label: "Ota Entegrasyonu", href: "/ota-entegrasyonu-sss" },
+      { label: "Rezervasyon Yönetimi", href: "/rezervasyon-yonetimi-sss" },
+      { label: "Kanal Yönetimi", href: "/kanal-yonetimi-sss" },
+      { label: "Online Satış", href: "/online-satis-sss" },
+    ];
+
 const GROUPS = {
   sem: {
     title: "SEM",
@@ -144,6 +153,19 @@ const GROUPS = {
       "mesaj-yonetimi-sss",
       "satis-sonrasi-destek-sss",
       "rezervasyon-destegi-sss",
+    ],
+  },
+
+      pmsota: {
+    title: "PMS-OTA",
+    chips: PmsOta_CHIPS,
+    slugs: [
+      "pms-ota-sss",
+      "pms-kurulum-sss",
+      "ota-entegrasyonu-sss",
+      "rezervasyon-yonetimi-sss",
+      "kanal-yonetimi-sss",
+      "online-satis-sss",
     ],
   },
 };

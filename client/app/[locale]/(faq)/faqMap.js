@@ -40,10 +40,16 @@ export const FAQ_MAP = {
   "ui-ux-hizmeti-sss":"FaqUiUxDesign",
   "grafik-motion-tasarim-sss":"FaqGraphicMotion",
 
-    "4-dilli-cagri-merkezi-sss":"Faq4LangCallCenter",
+  "4-dilli-cagri-merkezi-sss":"Faq4LangCallCenter",
   "performans-analizi-sss":"FaqCallCenterPerformanceAnalysis",
   "mesaj-yonetimi-sss":"FaqMessageManagement",
   "satis-sonrasi-destek-sss":"FaqAfterSalesSupport",
-  "rezervasyon-destegi-sss":"FaqReservationSupport"
+  "rezervasyon-destegi-sss":"FaqReservationSupport",
+
+  "pms-kurulum-sss":"FaqPmsSetupService",
+  "ota-entegrasyonu-sss":"FaqOtaIntegration",
+  "rezervasyon-yonetimi-sss":"FaqReservationManagement",
+  "kanal-yonetimi-sss":"FaqChannelManagement",
+  "online-satis-sss":"FaqOnlineSales"
 
 };
