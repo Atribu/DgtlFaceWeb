@@ -4,7 +4,7 @@ import VerticalSlider from '@/app/[locale]/components/subPageComponents/Vertical
 import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
-import image3 from "./images/image3.png"
+import image3 from "./images/image3.webp"
 import { useTranslations } from "next-intl";
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -167,7 +167,7 @@ const page = () => {
              
                 const stepData = [1,2,3].map(i => ({
                   id: i,
-                  image: [image1,image2,image1][i-1],
+                  image: [image1,image2,image3][i-1],
                   header: t(`h3Section.header${i}`),
                   text:   t.raw(`h3Section.text${i}`),
                    textHtml:   t.raw(`h3Section.text${i}`)

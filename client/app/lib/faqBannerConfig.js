@@ -61,7 +61,7 @@ const SEO_CHIPS = [
     ];
 
          const Callcenter_CHIPS = [
-      { label: "CALL CENTER", href: "/cagri-merkezi-sss" },
+      { label: "Çağrı Merkezi (Genel)", href: "/cagri-merkezi-sss" },
        { label: "4 Dilli Çağrı Merkezi", href: "/4-dilli-cagri-merkezi-sss" },
       { label: "Performans Analizi", href: "/performans-analizi-sss" },
       { label: "Mesaj Yönetimi", href: "/mesaj-yonetimi-sss" },
@@ -70,12 +70,20 @@ const SEO_CHIPS = [
     ];
 
              const PmsOta_CHIPS = [
-      { label: "PMS-OTA", href: "/pms-ota-sss" },
+      { label: "PMS-OTA (Genel)", href: "/pms-ota-sss" },
        { label: "Pms Kurulumu", href: "/pms-kurulum-sss" },
       { label: "Ota Entegrasyonu", href: "/ota-entegrasyonu-sss" },
       { label: "Rezervasyon Yönetimi", href: "/rezervasyon-yonetimi-sss" },
       { label: "Kanal Yönetimi", href: "/kanal-yonetimi-sss" },
       { label: "Online Satış", href: "/online-satis-sss" },
+    ];
+
+          const DigitalAnalysis_CHIPS = [
+      { label: "Dijital Analiz (Genel)", href: "/veri-analiz-ve-raporlama-sss" },
+       { label: "Looker Studio", href: "/looker-studio-sss" },
+      { label: "Benchmark Analiz", href: "/benchmark-analiz-sss" },
+      { label: "Satış Dönüşümü", href: "/satis-donusumu-sss" },
+      { label: "Kvkk Veri Güvenliği", href: "/kvkk-veri-guvenligi-sss" },
     ];
 
 const GROUPS = {
@@ -166,6 +174,18 @@ const GROUPS = {
       "rezervasyon-yonetimi-sss",
       "kanal-yonetimi-sss",
       "online-satis-sss",
+    ],
+  },
+
+   digitalanalysis: {
+    title: "Dijital Analiz",
+    chips: DigitalAnalysis_CHIPS,
+    slugs: [
+      "veri-analiz-ve-raporlama-sss",
+      "looker-studio-sss",
+      "benchmark-analiz-sss",
+      "satis-donusumu-sss",
+      "kvkk-veri-guvenligi-sss"
     ],
   },
 };

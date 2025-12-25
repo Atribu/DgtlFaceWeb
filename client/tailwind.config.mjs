@@ -8,20 +8,20 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        inter24: ["Inter24", "sans-serif"],
-        inter28: ["Inter28", "sans-serif"],
+        inter: ["var(--font-inter)", "system-ui", "sans-serif"],
+        inter24: ["var(--font-inter)", "sans-serif"],
+        inter28: ["var(--font-inter)", "sans-serif"],
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        darkBlue:'#140F25'
+        darkBlue: "#140F25",
       },
       boxShadow: {
         boxshadow: ["0px 7px 50px 0px rgba(20, 12, 41, 0.05)"],
       },
 
-       screens: {
+      screens: {
         "3xl": "1920px",
         "4xl": "2560px",
       },
@@ -32,12 +32,12 @@ export default {
     function ({ addBase }) {
       addBase({
         // body stilleri
-        "body": {
+        body: {
           // Tailwind utility sınıflarını `@apply` ile kullanabiliriz
           "@apply text-black text-center m-0": {},
         },
         // canvas etiketinin varsayılan görünümü
-        "canvas": {
+        canvas: {
           "@apply block w-[380px] h-[380px]": {},
         },
         // paragraflar (isteğe bağlı)

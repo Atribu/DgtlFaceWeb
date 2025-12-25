@@ -4415,7 +4415,7 @@
       "answer2": "<ul><li>Bütçe ve süre; <b>Çekim günü sayısı, </b></li><li>Ekipman seviyesi (drone, 360, ekstra ışık vb.),</li><li><b> Konum sayısı,</b> </li><li>Kurgu süresi ve <b>versiyon sayısı</b> </li></ul>gibi faktörlere göre değişir. DGTLFACE, ilk brief sonrası size <b>net bir kapsam + süre + bütçe</b> planı çıkarır.",
 
       "question3": "Sadece sosyal medya için kısa video paketleri alabilir miyiz?",
-      "answer3": "Evet. Reels, TikTok, YouTube Shorts odaklı; <b>kısa, dinamik ve dikey formatta</b> videolardan oluşan paketler sunuyoruz. Bu paketler, /Services/smm/reelsVideo ve /Services/smm/socialMediaContent ile entegre çalışır. Stok görüntü kullanıyor musunuz, yoksa her şey özgün çekim mi oluyor? (H3) Tercihen otel ve markaya özel çekim yapmayı öneriyoruz; çünkü gerçek mekân ve deneyim hissi çok daha güçlü. Ancak bütçe ve süre kısıtlarında, stok görüntüleri de gerektiği yerde destekleyici olarak kullanabiliyoruz. Kararı projeye göre birlikte veririz.",
+      "answer3": "Evet. Reels, TikTok, YouTube Shorts odaklı; <b>kısa, dinamik ve dikey formatta</b> videolardan oluşan paketler sunuyoruz. Bu paketler, /Services/smm/reelsVideo ve /Services/smm/socialMediaContent ile entegre çalışır. Stok görüntü kullanıyor musunuz, yoksa her şey özgün çekim mi oluyor?  Tercihen otel ve markaya özel çekim yapmayı öneriyoruz; çünkü gerçek mekân ve deneyim hissi çok daha güçlü. Ancak bütçe ve süre kısıtlarında, stok görüntüleri de gerektiği yerde destekleyici olarak kullanabiliyoruz. Kararı projeye göre birlikte veririz.",
 
       "question4": "Stok görüntü kullanıyor musunuz, yoksa her şey özgün çekim mi oluyor?",
       "answer4": "Tercihen otel ve markaya özel çekim yapmayı öneriyoruz; çünkü gerçek mekân ve deneyim hissi çok daha güçlü. Ancak bütçe ve süre kısıtlarında, stok görüntüleri de gerektiği yerde destekleyici olarak kullanabiliyoruz. Kararı projeye göre birlikte veririz.",
@@ -5309,6 +5309,7 @@
     },
 
     "h3Section": {
+      "header":"OTA Entegrasyonunuzu Optimize Edelim",
       "header1": "OTA Fiyat Eşitleme ve Fiyat Stratejisi",
       "text1": "<ul><li>Her kanal için temel <b>fiyat stratejisini</b> (BAR, kampanya, paket) tanımlar,</li><li> <b>OTA fiyat eşitleme yöntemleri ile doğrudan kanal ve OTA kanalları arasında fiyat paritesi</b> sağlama prensibini uygular.</li><li> Pazar bazlı fiyat farklılaştırması gerekiyorsa (örneğin <b>DE, RU, UK</b> pazarına özel fiyatlar), bunu <b>kontrollü senaryolarla</b> yönetir.</li><li>Kampanya dönemlerinde <b>(erken rezervasyon, son dakika, high season)</b> fiyatların OTA’da <b>doğru ve zamanında</b> güncellenmesini sağlar.</li></ul> <b>“OTA fiyat kontrol sistemi, turizm fiyat yönetimi, OTA fiyat stratejisi”</b> gibi kritik alanlarda <b>PMS + kanal yöneticisi + OTA</b> arasında <b>net kurallar</b> kurulur.",
 
@@ -16419,7 +16420,7 @@
       },
 
       "section7": {
-        "title": "Mini Bakım & Destek SSS (Micro – 10 Soru)",
+        "title": "Mini Bakım & Destek SSS ",
         "items": [
           {
             "q": "Yeni site yaptırdım, ilk yıl bakım şart mı?",
@@ -17275,7 +17276,7 @@
       ]
     },
     "section8": {
-      "title": "Mini Video Prodüksiyon SSS (Micro – 10 Soru)",
+      "title": "Mini Video Prodüksiyon SSS ",
       "items": [
         {
           "q": "Her otelin mutlaka büyük prodüksiyonlu tanıtım filmine ihtiyacı var mı?",
@@ -17858,7 +17859,7 @@
       ]
     },
     "section8": {
-      "title": "Mini Kurumsal Hediye Tasarımı SSS (Micro – 10 Soru)",
+      "title": "Mini Kurumsal Hediye Tasarımı SSS ",
       "items": [
         { "q": "Herkese aynı hediyeyi vermek şart mı?", "a": "Hayır; segment bazlı hediye planlamak (VIP, tekrar misafir, acente vb.) daha etkili ve bütçe dostudur." },
         { "q": "Tek ürün mü, hediye seti mi daha iyi?", "a": "Duruma göre değişir; bazen tek, güçlü bir ürün; bazen küçük ama uyumlu ürünlerden oluşan bir set daha iyi çalışır." },
@@ -18359,7 +18360,7 @@
   },
 
   "section8": {
-    "title": "Mini Rezervasyon Destek SSS (Micro – 10 Soru)",
+    "title": "Mini Rezervasyon Destek SSS ",
     "items": [
       {
         "q": "Sadece resepsiyonla rezervasyonları yönetmek ne zamana kadar mantıklı?",
@@ -18928,7 +18929,7 @@
       },
 
       "section8": {
-        "title": "Mini Satış Sonrası Destek SSS (Micro – 10 Soru)",
+        "title": "Mini Satış Sonrası Destek SSS ",
         "items": [
           {
             "q": "Her şikâyeti “müşteri haklıdır” diye çözüp tazmin etmek zorunda mıyım?",
@@ -19209,7 +19210,7 @@
         ]
       },
       "section8": {
-        "title": "Mini Çağrı Merkezi Performans SSS (Micro – 10 Soru)",
+        "title": "Mini Çağrı Merkezi Performans SSS ",
         "items": [
           {
             "q": "Her çağrı merkezi için aynı KPI seti mi kullanılmalı?",
@@ -19760,7 +19761,7 @@
         ]
       },
       "section8": {
-        "title": "Mini OTA Entegrasyonu SSS (Micro – 10 Soru)",
+        "title": "Mini OTA Entegrasyonu SSS ",
         "items": [
           {
             "q": "Her OTA için entegrasyon şart mı?",
@@ -20030,7 +20031,7 @@
         ]
       },
       "section8": {
-        "title": "Mini Kanal Yönetimi SSS (Micro – 10 Soru)",
+        "title": "Mini Kanal Yönetimi SSS ",
         "items": [
           {
             "q": "Her OTA’da olmak zorunda mıyım?",
@@ -20299,7 +20300,7 @@
         ]
       },
       "section8": {
-        "title": "Mini Online Satış SSS (Micro – 10 Soru)",
+        "title": "Mini Online Satış SSS ",
         "items": [
           {
             "q": "Her otel için web booking engine şart mı?",
@@ -20571,7 +20572,7 @@
         ]
       },
       "section8": {
-        "title": "Mini Rezervasyon Yönetimi SSS (Micro – 10 Soru)",
+        "title": "Mini Rezervasyon Yönetimi SSS ",
         "items": [
           {
             "q": "Her otel için rezervasyon yönetimi süreci yazılı olmalı mı?",
@@ -20832,7 +20833,7 @@
         ]
       },
       "section8": {
-        "title": "Mini Looker Studio SSS (Micro – 10 Soru)",
+        "title": "Mini Looker Studio SSS ",
         "items": [
           {
             "q": "Looker Studio tamamen ücretsiz mi?",
@@ -21101,7 +21102,7 @@
       ]
     },
     "section8": {
-      "title": "Mini Benchmark Analizi SSS (Micro – 10 Soru)",
+      "title": "Mini Benchmark Analizi SSS ",
       "items": [
         {
           "q": "Benchmark sadece rakip fiyatına bakmak mıdır?",
@@ -21168,7 +21169,7 @@
 
   },
 
-  "SalesConversionReporting_SSS": {
+  "FaqSalesConversionReporting": {
     "h1":"Satış & Dönüşüm Raporlama SSS",
 
     "intro": {
@@ -21250,23 +21251,23 @@
       "items": [
         {
           "q": "Satış & dönüşüm raporlaması hangi kanalları kapsar?",
-          "a": "<ul><li>Otel web sitesi (booking engine),</li><li>OTA’lar (Booking, Expedia vb.),</li><li>çağrı merkezi & WhatsApp hattı,</li><li>gerekirse corporate/MICE satışları.</li></ul><p>Amaç, tüm kanalları tek satış hunisi mantığında görmek.</p>"
+          "a": "<ul><li>Otel web sitesi (booking engine),</li><li>OTA’lar (Booking, Expedia vb.),</li><li>çağrı merkezi & WhatsApp hattı,</li><li>gerekirse corporate/MICE satışları.</li></ul>Amaç, tüm kanalları tek satış hunisi mantığında görmek."
         },
         {
           "q": "Otel web sitesinde satış hunisi (funnel) nasıl raporlanır?",
-          "a": "<p>GA4 üzerinden:</p><ul><li>oturum → oda arama → oda seçimi → fiyat ekranı → ödeme → rezervasyon</li></ul><p>adımları takip edilir. Her adım için drop-off oranı raporlanır; en büyük kaybın yaşandığı adımlar tespit edilir.</p>"
+          "a": "GA4 üzerinden:<ul><li>oturum → oda arama → oda seçimi → fiyat ekranı → ödeme → rezervasyon</li></ul>adımları takip edilir. Her adım için drop-off oranı raporlanır; en büyük kaybın yaşandığı adımlar tespit edilir."
         },
         {
           "q": "OTA performansı satış & dönüşüm raporlarında nasıl görünmeli?",
-          "a": "<ul><li>OTA bazlı rezervasyon sayısı ve gelir,</li><li>kanal komisyon maliyeti,</li><li>iptal/no-show oranı,</li><li>OTA üzerinden gelen misafirlerin check-in sonrası gelir katkısı</li></ul><p>kısaca “OTA kanalının net katkısı” görünmelidir.</p>"
+          "a": "<ul><li>OTA bazlı rezervasyon sayısı ve gelir,</li><li>kanal komisyon maliyeti,</li><li>iptal/no-show oranı,</li><li>OTA üzerinden gelen misafirlerin check-in sonrası gelir katkısı</li></ul>kısaca “OTA kanalının net katkısı” görünmelidir."
         },
         {
           "q": "Çağrı merkezi satış dönüşüm oranı nasıl hesaplanır?",
-          "a": "<ul><li>Toplam satış/rezervasyon amaçlı çağrı sayısı (veya talep sayısı),</li><li>Teklif verilen çağrı sayısı,</li><li>Rezervasyona dönen çağrı sayısı ve gelir.</li></ul><p>Rezervasyon dönüşüm oranı = Rezervasyona dönen çağrı / satış amaçlı çağrı.</p>"
+          "a": "<ul><li>Toplam satış/rezervasyon amaçlı çağrı sayısı (veya talep sayısı),</li><li>Teklif verilen çağrı sayısı,</li><li>Rezervasyona dönen çağrı sayısı ve gelir.</li></ul>Rezervasyon dönüşüm oranı = Rezervasyona dönen çağrı / satış amaçlı çağrı."
         },
         {
           "q": "Raporlamada offline ve online satışları birlikte görmek mümkün mü?",
-          "a": "<p>Evet. PMS ve CRM verileri; online (web/OTA) ve offline (call center, acente, walk-in) satışları tek tabloda birleştirerek, kanalların birlikte fotoğrafını çıkarabilir.</p>"
+          "a": "Evet. PMS ve CRM verileri; online (web/OTA) ve offline (call center, acente, walk-in) satışları tek tabloda birleştirerek, kanalların birlikte fotoğrafını çıkarabilir."
         }
       ]
     },
@@ -21279,11 +21280,11 @@
         },
         {
           "q": "Satış hunisi (funnel) hangi adımları içermeli?",
-          "a": "<ul><li>Ziyaretçi / trafik (web, OTA listeleri, kampanya tıklamaları),</li><li>Talep (arama, teklif, çağrı, sepet/oda inceleme),</li><li>Rezervasyon (tamamlanan satış),</li><li>Gelir (oda geliri, ek gelirler).</li></ul><p>Her adım ve kanal için oranlar hesaplanır.</p>"
+          "a": "<ul><li>Ziyaretçi / trafik (web, OTA listeleri, kampanya tıklamaları),</li><li>Talep (arama, teklif, çağrı, sepet/oda inceleme),</li><li>Rezervasyon (tamamlanan satış),</li><li>Gelir (oda geliri, ek gelirler).</li></ul>Her adım ve kanal için oranlar hesaplanır."
         },
         {
           "q": "GA4, PMS, OTA ve call center verileri bir funnel’da nasıl birleşir?",
-          "a": "<ul><li>GA4: oturum ve web satış event’leri,</li><li>PMS: gerçekleşen rezervasyon ve gelir,</li><li>OTA: kanal bazlı rezervasyon,</li><li>call center: çağrı ve teklif kayıtları.</li></ul><p>Ortak zaman, kanal ve kampanya alanları üzerinden ilişkilendirilerek tek bir funnel’da gösterilir.</p>"
+          "a": "<ul><li>GA4: oturum ve web satış event’leri,</li><li>PMS: gerçekleşen rezervasyon ve gelir,</li><li>OTA: kanal bazlı rezervasyon,</li><li>call center: çağrı ve teklif kayıtları.</li></ul>Ortak zaman, kanal ve kampanya alanları üzerinden ilişkilendirilerek tek bir funnel’da gösterilir."
         },
         {
           "q": "Offline rapor karmaşası nasıl çözülür?",
@@ -21291,7 +21292,7 @@
         },
         {
           "q": "Satış & dönüşüm raporlaması için minimum hangi sistemlere ihtiyaç var?",
-          "a": "<ul><li>PMS (veya benzeri rezervasyon/gelir sistemi),</li><li>GA4 (web analitik),</li><li>OTA raporları,</li><li>çağrı merkezi/CRM’den alınan basic satış verileri.</li></ul><p>Looker Studio veya benzeri panel aracı ise bunları okunur hale getiren katmandır.</p>"
+          "a": "<ul><li>PMS (veya benzeri rezervasyon/gelir sistemi),</li><li>GA4 (web analitik),</li><li>OTA raporları,</li><li>çağrı merkezi/CRM’den alınan basic satış verileri.</li></ul>Looker Studio veya benzeri panel aracı ise bunları okunur hale getiren katmandır."
         }
       ]
     },
@@ -21300,23 +21301,23 @@
       "items": [
         {
           "q": "Satış & dönüşüm raporu nedir, ne işe yarar?",
-          "a": "<p>Satış & dönüşüm raporu; her kanal için “kaç kişi geldi, kaç kişi talep üretti, kaç kişi rezervasyon yaptı, ne kadar gelir geldi?” sorularına net cevap verir. “Trafik var ama satış yok” problemini nerede yaşadığınızı gösterir.</p>"
+          "a": "Satış & dönüşüm raporu; her kanal için “kaç kişi geldi, kaç kişi talep üretti, kaç kişi rezervasyon yaptı, ne kadar gelir geldi?” sorularına net cevap verir. “Trafik var ama satış yok” problemini nerede yaşadığınızı gösterir."
         },
         {
           "q": "Trafik var ama satış yoksa, sebebi nasıl bulunur?",
-          "a": "<ul><li>Web tarafında: hangi funnel adımında büyük kayıp var?</li><li>OTA tarafında: görünürlük ve fiyat seviyesi pazarla uyumlu mu?</li><li>Çağrı merkezi tarafında: çağrı → teklif → rezervasyon dönüşüm oranı ne?</li></ul><p>Her adımı veriyle inceleyerek gerçek sebebi bulabilirsiniz.</p>"
+          "a": "<ul><li>Web tarafında: hangi funnel adımında büyük kayıp var?</li><li>OTA tarafında: görünürlük ve fiyat seviyesi pazarla uyumlu mu?</li><li>Çağrı merkezi tarafında: çağrı → teklif → rezervasyon dönüşüm oranı ne?</li></ul>Her adımı veriyle inceleyerek gerçek sebebi bulabilirsiniz."
         },
         {
           "q": "Rezervasyon dönüşüm oranı nasıl hesaplanır?",
-          "a": "<ul><li>Rezervasyon dönüşüm oranı (web) = Rezervasyon / Satış amaçlı oturum</li><li>Rezervasyon dönüşüm oranı (OTA) = Rezervasyon / Click-out veya görüntülenme</li><li>Rezervasyon dönüşüm oranı (call center) = Rezervasyona dönen çağrı / satış amaçlı çağrı</li></ul><p>Bu oranlar, satış hunisinin verimliliğini gösterir.</p>"
+          "a": "<ul><li>Rezervasyon dönüşüm oranı (web) = Rezervasyon / Satış amaçlı oturum</li><li>Rezervasyon dönüşüm oranı (OTA) = Rezervasyon / Click-out veya görüntülenme</li><li>Rezervasyon dönüşüm oranı (call center) = Rezervasyona dönen çağrı / satış amaçlı çağrı</li></ul>Bu oranlar, satış hunisinin verimliliğini gösterir."
         },
         {
           "q": "Hangi kanalın daha kârlı olduğu nasıl anlaşılır?",
-          "a": "<ul><li>Kanal bazlı gelir,</li><li>kanal bazlı komisyon ve pazarlama maliyeti,</li><li>operasyon yükü ve geri dönüş (iptal/no-show) oranları</li></ul><p>birlikte analiz edilir. Önemli olan net kâr katkısını görmektir.</p>"
+          "a": "<ul><li>Kanal bazlı gelir,</li><li>kanal bazlı komisyon ve pazarlama maliyeti,</li><li>operasyon yükü ve geri dönüş (iptal/no-show) oranları</li></ul>birlikte analiz edilir. Önemli olan net kâr katkısını görmektir."
         },
         {
           "q": "Satış & dönüşüm raporlaması hedef KPI’larla nasıl bağlanır?",
-          "a": "<ul><li>web dönüşüm oranı,</li><li>direct pay,</li><li>call center dönüşüm oranı,</li><li>OTA pay ve ROI,</li></ul><p>hedefleri belirlenir ve raporlar bu hedeflere göre “yeşil/kırmızı” tabloyu gösterir.</p>"
+          "a": "<ul><li>web dönüşüm oranı,</li><li>direct pay,</li><li>call center dönüşüm oranı,</li><li>OTA pay ve ROI,</li></ul>hedefleri belirlenir ve raporlar bu hedeflere göre “yeşil/kırmızı” tabloyu gösterir."
         }
       ]
     },
@@ -21330,7 +21331,7 @@
         },
         {
           "q": "Yüksek sepet/oda terk oranı ne ifade eder?",
-          "a": "<p>Misafir otel ve oda ile ilgilenmiş; ama:</p><ul><li>fiyat/koşulları beğenmemiş,</li><li>alternatif otellere bakmaya karar vermiş,</li><li>teknik veya UX problemleriyle karşılaşmış olabilir.</li></ul><p>Sebebi, adım adım funnel verisiyle analiz edilmelidir.</p>"
+          "a": "Misafir otel ve oda ile ilgilenmiş; ama:<ul><li>fiyat/koşulları beğenmemiş,</li><li>alternatif otellere bakmaya karar vermiş,</li><li>teknik veya UX problemleriyle karşılaşmış olabilir.</li></ul>Sebebi, adım adım funnel verisiyle analiz edilmelidir."
         },
         {
           "q": "Çağrı sonrası rezervasyona dönmeyen teklifleri nasıl tespit ederim?",
@@ -21351,7 +21352,7 @@
       "items": [
         {
           "q": "Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda satış & dönüşüm raporlaması neden önemli?",
-          "a": "<ul><li>kısa ama yoğun sezon,</li><li>çok kanallı satış yapısı (OTA, web, acente, call center),</li><li>hızlı fiyat ve kampanya kararları.</li></ul><p>Bu bölgelerde hangisinin gerçekten kazandırdığını bilmiyorsanız, bütçeyi yanlış kanal ve kampanyalara harcama riski yüksektir.</p>"
+          "a": "<ul><li>kısa ama yoğun sezon,</li><li>çok kanallı satış yapısı (OTA, web, acente, call center),</li><li>hızlı fiyat ve kampanya kararları.</li></ul>Bu bölgelerde hangisinin gerçekten kazandırdığını bilmiyorsanız, bütçeyi yanlış kanal ve kampanyalara harcama riski yüksektir."
         },
         {
           "q": "Resort oteller için satış & dönüşüm raporlarında nelere odaklanılmalı?",
@@ -21367,52 +21368,52 @@
         },
         {
           "q": "Satış & dönüşüm raporlaması, reklam ve kampanya stratejisine nasıl bağlanır?",
-          "a": "<ul><li>kampanyadan gelen trafik → funnel → rezervasyon → gelir zincirini görerek,</li><li>hangi kampanyaların sadece “trafik”, hangilerinin “gelir” getirdiğini anlarsınız.</li></ul><p>Bu da bütçeyi doğru kampanyalara kaydırmanızı sağlar.</p>"
+          "a": "<ul><li>kampanyadan gelen trafik → funnel → rezervasyon → gelir zincirini görerek,</li><li>hangi kampanyaların sadece “trafik”, hangilerinin “gelir” getirdiğini anlarsınız.</li></ul>Bu da bütçeyi doğru kampanyalara kaydırmanızı sağlar."
         }
       ]
     },
     "section8": {
-      "title": "Mini Satış & Dönüşüm SSS (Micro – 10 Soru)",
+      "title": "Mini Satış & Dönüşüm SSS ",
       "items": [
         {
           "q": "Funnel raporu olmadan sadece rezervasyon sayısına bakmak yeterli mi?",
-          "a": "<p>Hayır; neden o rezervasyon sayısında kaldığınızı görmek için funnel’a ihtiyacınız var.</p>"
+          "a": "Hayır; neden o rezervasyon sayısında kaldığınızı görmek için funnel’a ihtiyacınız var."
         },
         {
           "q": "Web dönüşüm oranım düşük, bu sadece fiyat sorunu mudur?",
-          "a": "<p>Hayır; UX, hız, güven, içerik, hedefleme ve teknik sorunlar da çok etkili olabilir.</p>"
+          "a": "Hayır; UX, hız, güven, içerik, hedefleme ve teknik sorunlar da çok etkili olabilir."
         },
         {
           "q": "OTA’da satış yüksek ama kârlılık düşükse ne yapmalıyım?",
-          "a": "<p>Dönüşümü korumaya çalışırken, direct pay ve OTA karmasını yeniden dengelemeyi düşünmelisiniz.</p>"
+          "a": "Dönüşümü korumaya çalışırken, direct pay ve OTA karmasını yeniden dengelemeyi düşünmelisiniz."
         },
         {
           "q": "Çağrı merkezi raporunu PMS raporundan ayrı tutmak mantıklı mı?",
-          "a": "<p>Hayır; PMS rezervasyon verisi ile çağrı verisini birleştirerek gerçek dönüşüm ve gelir katkısını görmelisiniz.</p>"
+          "a": "Hayır; PMS rezervasyon verisi ile çağrı verisini birleştirerek gerçek dönüşüm ve gelir katkısını görmelisiniz."
         },
         {
           "q": "Tüm kanallar için tek bir dönüşüm oranı mı kullanmalıyım?",
-          "a": "<p>Hayır; her kanalın dönüşüm dinamiği farklıdır, kanal bazlı dönüşüm oranlarına bakmak gerekir.</p>"
+          "a": "Hayır; her kanalın dönüşüm dinamiği farklıdır, kanal bazlı dönüşüm oranlarına bakmak gerekir."
         },
         {
           "q": "Sadece ROAS’a bakmak satış & dönüşüm için yeterli mi?",
-          "a": "<p>Değil; ROAS’ın yanında funnel adımlarını ve rezervasyon sayısını da analiz etmek gerekir.</p>"
+          "a": "Değil; ROAS’ın yanında funnel adımlarını ve rezervasyon sayısını da analiz etmek gerekir."
         },
         {
           "q": "Rezervasyon iptalleri dönüşüm raporuna nasıl yansıtılmalı?",
-          "a": "<p>“Net dönüşüm” ve “brüt dönüşüm” ayrı gösterilmeli; iptal oranları ayrıca raporlanmalıdır.</p>"
+          "a": "“Net dönüşüm” ve “brüt dönüşüm” ayrı gösterilmeli; iptal oranları ayrıca raporlanmalıdır."
         },
         {
           "q": "Satış & dönüşüm raporlaması olmadan kampanya A/B testi yapmak mantıklı mı?",
-          "a": "<p>Hayır; ölçemediğiniz testi yorumlamak da mümkün değildir.</p>"
+          "a": "Hayır; ölçemediğiniz testi yorumlamak da mümkün değildir."
         },
         {
           "q": "Sadece OTA funnel’ına bakmak yeterli mi?",
-          "a": "<p>Değil; web ve call center funnel’larını da görmeden tüm satış resmini anlayamazsınız.</p>"
+          "a": "Değil; web ve call center funnel’larını da görmeden tüm satış resmini anlayamazsınız."
         },
         {
           "q": "Satış & Dönüşüm Raporlama hizmetini sadece “setup + eğitim” olarak alabilir miyim?",
-          "a": "<p>Evet; dashboard/funnel kurulumu ve ekipler için yorumlama eğitimi alıp, günlük kullanım ve analizleri kendi ekibinizle yürütebilirsiniz.</p>"
+          "a": "Evet; dashboard/funnel kurulumu ve ekipler için yorumlama eğitimi alıp, günlük kullanım ve analizleri kendi ekibinizle yürütebilirsiniz."
         }
       ]
     },
@@ -21421,11 +21422,11 @@
       "items": [
         {
           "q": "DGTLFACE ile Satış & Dönüşüm raporu için nasıl teklif alabilirim?",
-          "a": "<ul><li>kullandığınız PMS, GA4, OTA ve çağrı merkezi sistemlerini,</li><li>şu anki raporlama biçiminizi (Excel, mevcut paneller vb.),</li><li>yaşadığınız temel sorunları (trafik var satış yok, offline/online rapor karmaşası vb.),</li><li>hedeflerinizi (direct pay, dönüşüm oranları, kanal kârlılığı)</li></ul><p>özetleyen kısa bir brief paylaştığınızda; veri kaynakları analizi, funnel tasarımı, KPI seti ve dashboard planı içeren bir Satış & Dönüşüm Raporlama yol haritası ve teklif hazırlanabilir.</p>"
+          "a": "<ul><li>kullandığınız PMS, GA4, OTA ve çağrı merkezi sistemlerini,</li><li>şu anki raporlama biçiminizi (Excel, mevcut paneller vb.),</li><li>yaşadığınız temel sorunları (trafik var satış yok, offline/online rapor karmaşası vb.),</li><li>hedeflerinizi (direct pay, dönüşüm oranları, kanal kârlılığı)</li></ul>özetleyen kısa bir brief paylaştığınızda; veri kaynakları analizi, funnel tasarımı, KPI seti ve dashboard planı içeren bir Satış & Dönüşüm Raporlama yol haritası ve teklif hazırlanabilir."
         },
         {
           "q": "“Uzmanla görüş” çağrısı satış & dönüşüm tarafında neyi netleştirir?",
-          "a": "<ul><li>gerçekten nerede kayıp yaşadığınızı (trafik, funnel, rezervasyon, gelir),</li><li>hangi kanallara daha fazla/az odaklanmanız gerektiğini,</li><li>hangi KPI’ları düzenli takip etmeniz gerektiğini</li></ul><p>birlikte netleştiririz. Böylece Satış & Dönüşüm raporlaması, sadece “grafikler ve tablolar” değil; kanal ve kampanya kararlarını besleyen pratik bir yönetim aracı hâline gelir.</p>"
+          "a": "<ul><li>gerçekten nerede kayıp yaşadığınızı (trafik, funnel, rezervasyon, gelir),</li><li>hangi kanallara daha fazla/az odaklanmanız gerektiğini,</li><li>hangi KPI’ları düzenli takip etmeniz gerektiğini</li></ul>birlikte netleştiririz. Böylece Satış & Dönüşüm raporlaması, sadece “grafikler ve tablolar” değil; kanal ve kampanya kararlarını besleyen pratik bir yönetim aracı hâline gelir."
         }
       ]
     }
@@ -21435,6 +21436,283 @@
       "primary": "Satış & Dönüşüm Raporu talep edin",
       "primaryHref": "/Services/digitalAnalysis/digitalSalesAnalysis",
      "secondary": "Dijital Analiz Hizmetleri",
+      "secondaryHref": "/Services/digitalAnalysis"
+    }
+  },
+
+    "FaqKvkkDataSecurity": {
+    "h1": "KVKK & Veri Güvenliği SSS",
+
+    "intro": {
+      "p1": "Otel misafir verisi, artık sadece rezervasyon için kullandığınız bir bilgi değil; <b>KVKK kapsamında korunması gereken</b> kritik bir varlık.<ul><li>PMS, OTA, channel manager</li><li>Çağrı merkezi, WhatsApp, e-posta</li><li>Web sitesi, çerezler, formlar</li><li>CRM, kampanya listeleri</li></ul>Hepsi teknik olarak birbirine bağlı ve her halka, <b>veri güvenliği</b> zincirinin bir parçası.",
+      "p2": "Aşağıdaki SSS; hukuki metin yerine, <b>teknik ve operasyonel çerçeveyi</b> otel perspektifinden anlatır. Her zaman olduğu gibi, <b>nihai hukuki yorum ve uygulama için mutlaka hukuk danışmanınızla</b> çalışmanız gerekir."
+    },
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "KVKK & Veri Güvenliği Hakkında Genel Sorular",
+        "items": [
+          {
+            "q": "KVKK veri güvenliği nedir, neyi kapsar?",
+            "a": "KVKK veri güvenliği; otelinizin işlediği <b>kişisel verilerin</b> (isim, iletişim, rezervasyon bilgisi, ödeme bilgisi, cihaz verileri vb.)<ul><li>yetkisiz erişime karşı korunması,</li><li>amaç dışı veya fazla süreyle saklanmaması,</li><li>izinsiz paylaşılmaması,</li><li>erişim ve değişikliklerin loglanması,</li></ul>için alınan <b>teknik ve organizasyonel</b> önlemler bütünüdür."
+          },
+          {
+            "q": "Otel sektöründe KVKK neden bu kadar kritik?",
+            "a": "Çünkü oteller:<ul><li>kimlik ve iletişim bilgisi,</li><li>rezervasyon ve konaklama geçmişi,</li><li>tercih ve özel istekler (bazı durumlarda sağlık veya özel nitelikli veri),</li><li>ödeme bilgisi,</li></ul>gibi çok katmanlı misafir verisiyle çalışır. Bu verilerin hatalı yönetimi, hem KVKK yaptırım riski hem de <b>misafir güveni ve marka itibarı</b> açısından risklidir."
+          },
+          {
+            "q": "“Hukuki KVKK uyumu” ile “teknik veri güvenliği” arasındaki fark nedir?",
+            "a": "<ul><li>Hukuki tarafta: aydınlatma metni, açık rıza, sözleşmeler, veri envanteri, VERBİS kaydı vb.</li><li>Teknik tarafta: sistem mimarisi, erişim yetkileri, loglama, şifreleme, saklama süreleri, backup ve erişim kayıtları vb.</li></ul>Bu SSS daha çok teknik & operasyonel çerçeveyi; hukuki belgeler ve yorumlar ise <b>avukatınızla birlikte</b> ele alınmalıdır."
+          },
+          {
+            "q": "Hangi sistemler misafir verisi açısından kritik?",
+            "a": "Genellikle:<ul><li>PMS / channel manager / OTA bağlantıları,</li><li>çağrı merkezi & santral kayıtları,</li><li>web sitesi, çerez altyapısı ve formlar,</li><li>CRM, e-posta/SMS kampanya sistemleri,</li><li>güvenlik log’ları ve erişim kayıtları.</li></ul>Bu sistemlerin birbirine nasıl veri aktardığı, <b>KVKK & veri güvenliği tasarımının</b> temelidir."
+          },
+          {
+            "q": "KVKK & Veri Güvenliği SSS kimler için uygundur?",
+            "a": "<ul><li>otel ve zincir otel yapıları,</li><li>resort & city & butik oteller,</li><li>misafir datasını PMS, OTA, call center, web ve CRM’de tutan tüm turizm markaları için.</li></ul>Özellikle veri akışını teknik gözle toparlamak ve denetime hazırlanmak isteyen yönetici ve IT ekipleri için faydalıdır."
+          },
+          {
+            "q": "Bu SSS hukuki tavsiye midir?",
+            "a": "Hayır. Buradaki içerik:<ul><li>genel bilgilendirme ve teknik çerçeve niteliğindedir,</li><li>KVKK kapsamındaki yükümlülükleriniz için <b>hukuk danışmanınızla birlikte </b>detaylandırılmalıdır.</li></ul>"
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama Kısa Soruları (6 Soru – Voice)",
+        "items": [
+          {
+            "q": "KVKK veri güvenliği tam olarak nedir?",
+            "a": "KVKK veri güvenliği; misafir verilerinin yetkisiz erişim, yanlış kullanım ve gereğinden uzun saklanmaya karşı teknik ve organizasyonel tedbirlerle korunmasıdır."
+          },
+          {
+            "q": "Otelimde misafir verisini KVKK’ya uygun nasıl saklamalıyım?",
+            "a": "Verileri; PMS ve bağlı sistemlerde erişim yetkisi sınırlı, loglanmış, saklama süreleri tanımlı ve gereksiz kopyalanmayan bir mimariyle saklamalısınız."
+          },
+          {
+            "q": "PMS, OTA ve çağrı merkezi verileri arasında veri akışını nasıl güvenli kılarım?",
+            "a": "Veri akışında; güvenli bağlantılar (VPN/TLS), role dayalı erişim, mümkünse şifreleme, loglama ve dış sistemlere yapılan aktarımın kayıt altına alınması kritik adımlardır."
+          },
+          {
+            "q": "Çerez yönetimi ve izin kayıtlarını nasıl tutmalıyım?",
+            "a": "Web sitenizde kullanılan çerezler için; KVKK’ya uygun aydınlatma ve tercih ekranları sunmalı, kullanıcı seçimlerini loglayarak hangi iznin ne zaman alındığını kayıt altında tutmalısınız."
+          },
+          {
+            "q": "KVKK denetiminde teknik olarak neler sorulur?",
+            "a": "Genelde; veri envanteri, saklama süreleri, erişim yetkileri, loglama, yedekleme, ihlal süreçleri, çerez/izin yönetimi ve eğitim kayıtlarını içeren teknik & organizasyonel tedbirleriniz sorgulanır."
+          },
+          {
+            "q": "KVKK & Veri Güvenliği SSS kimler için uygundur?",
+            "a": "Otel misafir verisini daha güvenli, loglanmış ve KVKK’ya uyumlu bir mimariyle yönetmek isteyen tüm otel ve turizm markaları için."
+          }
+        ]
+      },
+
+      "section3": {
+    "title": "Hizmet Kapsamı: PMS, OTA, Çağrı Merkezi, Web & CRM",
+    "items": [
+      {
+        "q": "KVKK & veri güvenliği danışmanlığı hangi teknik başlıkları kapsar?",
+        "a": "<ul><li>Veri haritası: PMS, OTA, call center, web, CRM arasındaki veri akışının çıkarılması,</li><li>Erişim & yetki matrisi: kim, hangi sisteme, hangi seviyede erişiyor,</li><li>Loglama çerçevesi: kim, ne zaman, hangi veriye erişti, ne yaptı,</li><li>Saklama & imha politikaları: hangi verinin ne kadar tutulacağı,</li><li>Çerez & izin yönetimi: web ve kampanya tarafındaki izin kayıtları,</li><li>Raporlama & denetim hazırlığı: KVKK denetimi için teknik arka plan dokümantasyonu.</li></ul>"
+      },
+      {
+        "q": "Otel PMS’inde misafir verisi nasıl korunmalı?",
+        "a": "<ul><li>kullanıcılar için kişisel hesap ve güçlü parola politikaları,</li><li>role dayalı erişim (resepsiyon, rezervasyon, muhasebe vb. farklı seviyeler),</li><li>IP veya cihaz bazlı erişim kısıtları (gereken durumlarda),</li><li>kritik alanlara (kart bilgisi vb.) erişimin sınırlanması veya maskeleme,</li><li>tüm erişim ve değişikliklerin loglanması.</li></ul>"
+      },
+      {
+        "q": "OTA ve channel manager bağlantıları veri güvenliği açısından nasıl ele alınmalı?",
+        "a": "<ul><li>entegrasyonların güvenli API veya sertifikalı bağlantılar üzerinden çalışması,</li><li>erişim token ve şifrelerin yetkisiz kişilerle paylaşılmaması,</li><li>OTA panel erişimlerinin kişi/rol bazında yönetilmesi,</li><li>rezervasyon datasının gereksiz export ve e-posta ile gönderiminden kaçınılması.</li></ul>"
+      },
+      {
+        "q": "Çağrı merkezi ve CRM tarafında KVKK & veri güvenliği ne anlama gelir?",
+        "a": "<ul><li>çağrı kayıtlarının KVKK’ya uygun şekilde saklanması ve yetkisiz dinlenmemesi,</li><li>misafir şikâyet ve taleplerinin, gereğinden fazla kopyalanmadan sadece gerekli sistemlerde tutulması,</li><li>CRM’de kampanya için kullanılan verilerin (e-posta, telefon vb.) izin kayıtlarıyla ilişkilendirilmesi,</li><li>çağrı ve kampanya loglarının erişim kontrollü biçimde saklanması.</li></ul>"
+      },
+      {
+        "q": "Loglama KVKK & veri güvenliği kapsamında neden bu kadar önemli?",
+        "a": "Loglar;<ul><li>kim, ne zaman, hangi veriye erişti,</li><li>neyi değiştirdi veya dışarı aktardı</li></ul>sorularına cevap verir. Bu hem iç denetim hem de KVKK denetimi açısından kritik bir kayıt setidir; veri ihlali riskinde de ne olduğunu anlamanın temel yoludur."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Süreç & İşleyiş: Veri Haritası, Saklama Süreleri, Çerez & Loglama",
+    "items": [
+      {
+        "q": "KVKK uyumlu teknik veri haritası nasıl çıkarılır?",
+        "a": "<ul><li>Hangi sistemlerde (PMS, OTA, call center, web, CRM) misafir verisi tuttuğunuzu listelersiniz.</li><li>Bu sistemler arasında hangi verinin, hangi amaçla, hangi yolla aktarıldığını belirlersiniz.</li><li>Hangi verinin nereden girildiği, nerede saklandığı ve nereden silindiği işlenir.</li></ul>Bu teknik veri haritası, hem KVKK hem de IT mimarisi için temel belgedir."
+      },
+      {
+        "q": "Erişim yetkileri KVKK perspektifinden nasıl kurgulanmalı?",
+        "a": "<ul><li>“bilmesi gereken” prensibiyle: herkes sadece işini yapmak için gerekli verilere erişmeli,</li><li>departman bazlı roller (front office, rezervasyon, satış, IT vb.),</li><li>yöneticiler için ekstra yetkiler ama loglanmış erişim,</li><li>eski kullanıcıların (işten ayrılan, departman değiştiren) erişimlerinin zamanında kapatılması.</li></ul>"
+      },
+      {
+        "q": "Veri saklama süresi ve imha süreci nasıl tasarlanmalı?",
+        "a": "<ul><li>her veri türü için (rezervasyon, fatura, log, kampanya listesi vb.) hukuki ve operasyonel gerekliliklere göre saklama süresi belirlenmeli,</li><li>bu süre dolunca verinin anonimleştirilmesi veya imhası için teknik süreç tanımlanmalı,</li><li>imha işlemlerinin de loglanıp gerektiğinde raporlanabilmesi sağlanmalıdır.</li></ul>Burada hukuki süre ve yorum için mutlaka hukuk danışmanınızla çalışmalısınız."
+      },
+      {
+        "q": "Çerez ve izin yönetimi KVKK’ya nasıl uygun hale getirilir?",
+        "a": "<ul><li>web sitesinde kullanılan çerezlerin türleri ve amaçları açıkça belirtilmeli,</li><li>isteğe bağlı (opsiyonel) çerezler için kullanıcıdan seçim alınmalı,</li><li>kullanıcı seçimleri (tarih, IP, tercih) log’lanmalı,</li><li>gerektiğinde bu kayıtlar denetim için sunulabilir olmalıdır.</li></ul>"
+      },
+      {
+        "q": "KVKK denetiminde teknik olarak neler sorulabilir?",
+        "a": "Genellikle;<ul><li>veri envanteri ve veri haritası,</li><li>erişim yetki matrisi,</li><li>loglama ve güvenlik önlemleri,</li><li>çerez ve izin yönetimi kayıtları,</li><li>veri saklama ve imha süreçlerinin kayıtları,</li><li>veri ihlali durumunda izlenecek adımlar</li></ul>ile ilgili teknik dokümantasyon ve örnek kayıtlar incelenir."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Performans & Raporlama: KVKK Uyumunu Nasıl Takip Ederiz?",
+    "items": [
+      {
+        "q": "KVKK veri güvenliği nedir, neyi kapsar?",
+        "a": "Kısa ve pratik tanımıyla KVKK veri güvenliği;<ul><li>veriye kimler erişiyor (yetki),</li><li>veride neler oluyor (loglama),</li><li>veri ne kadar saklanıyor (saklama süresi),</li><li>veri nerelere gidiyor (paylaşım)</li></ul>sorularını teknik düzeyde kontrol altına almaktır."
+      },
+      {
+        "q": "Otel PMS’inde misafir verisi raporlama açısından nasıl izlenmeli?",
+        "a": "<ul><li>kullanıcı giriş/çıkış ve işlem logları,</li><li>kimin hangi kaydı açtığı/değiştirdiği,</li><li>hangi raporların hangi kullanıcılar tarafından alındığı,</li><li>veri export (CSV/Excel) ve e-posta ile gönderim logları</li></ul>düzenli olarak IT ve yönetim tarafından takip edilmelidir."
+      },
+      {
+        "q": "KVKK uyumu için hangi teknik KPI’lar takip edilebilir?",
+        "a": "Hukuki KPI’dan ziyade teknik göstergeler:<ul><li>aktif kullanıcı sayısı vs tanımlı kullanıcı sayısı,</li><li>kapatılması unutulan hesap sayısı,</li><li>log’lanmayan kritik işlem oranı,</li><li>manuel/uygunsuz veri export sayısı,</li><li>veri ihlali/şüpheli durumda tespit süresi.</li></ul>"
+      },
+      {
+        "q": "KVKK & veri güvenliği raporlaması Looker Studio gibi panellere bağlanabilir mi?",
+        "a": "Evet. Log ve erişim kayıtları, belirli metrikler halinde raporlanarak:<ul><li>kim hangi sistemde daha çok işlem yapıyor,</li><li>en çok hangi rapor ve export’lar alınıyor,</li><li>hangi IP veya cihazlardan olağandışı erişim var</li></ul>gibi göstergeleri görsel dashboard’lara taşıyabilirsiniz."
+      },
+      {
+        "q": "KVKK uyumunu “devam eden bir süreç” olarak nasıl yönetmeliyim?",
+        "a": "<ul><li>düzenli (örneğin 6 ayda bir) teknik ve süreç denetimi,</li><li>yeni sistem/entegrasyon devreye girerken veri akışı incelemesi,</li><li>personel değişikliklerinde erişim güncellemesi,</li><li>zaman zaman simüle edilmiş denetim (mini audit) uygulamaları.</li></ul>"
+      }
+    ]
+  },
+
+   "section6": {
+    "title": "Pain Point: Yetkisiz Erişim, Eksik Log, Belirsiz Saklama, Denetim Riski",
+    "items": [
+      {
+        "q": "Yetkisiz kullanıcı erişimi ne gibi riskler doğurur?",
+        "a": "<ul><li>misafir verisinin yanlış kişilerce görülmesi,</li><li>kötü niyetli kullanım (liste çıkarma, dışa aktarma),</li><li>veri ihlali bildirim zorunluluğu,</li><li>KVKK kapsamında idari para cezası ve itibar kaybı riski.</li></ul>"
+      },
+      {
+        "q": "Eksik loglama hangi durumlarda problem olur?",
+        "a": "<ul><li>ne olduğuna dair “iz” olmadığı için olayların geri izlenmesi zorlaşır,</li><li>denetimlerde kim, ne yaptı sorusuna cevap veremezsiniz,</li><li>veri ihlali veya hata durumunda kök sebebi bulmak zorlaşır.</li></ul>"
+      },
+      {
+        "q": "Belirsiz veri saklama politikaları neye yol açar?",
+        "a": "<ul><li>gereğinden fazla veri tutulur → risk ve yük artar,</li><li>gerekli veriler gereğinden kısa süre saklanır → operasyonel ve hukuki sıkıntılar doğar,</li><li>denetimde “hangi veri ne kadar tutuluyor?” sorusuna net cevap verilemez.</li></ul>"
+      },
+      {
+        "q": "WhatsApp, e-posta ve Excel üzerinden misafir verisi paylaşmak ne kadar riskli?",
+        "a": "<ul><li>veriler kontrollü sistemler (PMS, CRM) yerine dağınık ortamlarda kalır,</li><li>silme ve saklama politikalarını uygulamak imkânsızlaşır,</li><li>kimin, hangi dosyaya sahip olduğunu takip etmek zorlaşır.</li></ul>Bu yüzden mümkün olduğunca sistem içi paylaşım tercih edilmelidir."
+      },
+      {
+        "q": "KVKK denetiminde sık karşılaşılan teknik uyumsuzluklar nelerdir?",
+        "a": "<ul><li>tutarsız veya eksik erişim yetki matrisi,</li><li>loglanmayan kritik işlemler,</li><li>saklama süresi ve imha süreçlerinin tanımlanmamış olması,</li><li>çerez/izin kayıtlarının eksik tutulması,</li><li>veri ihlali senaryoları için teknik hazırlık eksikliği.</li></ul>"
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "GEO & Sektör Odaklı KVKK & Veri Güvenliği (Antalya, Belek, Kemer, Side, Bodrum, Alanya)",
+    "items": [
+      {
+        "q": "Türkiye’deki oteller için KVKK veri güvenliği ne anlama gelir?",
+        "a": "Türkiye’de faaliyet gösteren oteller; Türkiye’de yerleşik ve/veya Türkiye’de veri işleyen yapılar olarak KVKK kapsamındadır. Bu, misafir verisiyle ilgili tüm süreçlerin (PMS, OTA, call center, web, CRM) KVKK’ya uygun teknik ve organizasyonel tedbirlerle yürütülmesi gerektiği anlamına gelir."
+      },
+      {
+        "q": "Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda veri güvenliği riski neden yüksek?",
+        "a": "<ul><li>yüksek misafir hacmi,</li><li>çok sayıda acente ve OTA ile çalışma,</li><li>mevsimsel olarak artan geçici personel kullanımı,</li><li>çok sayıda sistem ve entegrasyon.</li></ul>Tüm bunlar, veri erişim ve akış noktalarının sayısını artırır; dolayısıyla KVKK riskini de büyütür."
+      },
+      {
+        "q": "Resort oteller ile city oteller arasında KVKK teknik riskleri değişir mi?",
+        "a": "Temel riskler benzer olsa da:<ul><li>resort’larda misafir sayısı ve OTA/partner sayısı daha yoğun,</li><li>city otellerde corporate ve MICE verisi daha baskın.</li></ul>Bu, veri türleri ve paylaşım noktalarının farklılaşmasına yol açar; KVKK & veri güvenliği tasarımında dikkate alınmalıdır."
+      },
+      {
+        "q": "Yabancı misafir verisi KVKK kapsamında nasıl düşünülmeli?",
+        "a": "Yabancı uyruklu misafirlerin verisi de, Türkiye’de işlenip saklandığı sürece KVKK kapsamına girer. Buna ek olarak, bazı global zincirler için GDPR gibi diğer mevzuatlar da gündeme gelebilir; bu noktada hem yerel hem global uyum için hukuk danışmanınızla birlikte hareket etmek gerekir."
+      },
+      {
+        "q": "Global zincir otellerde, marka standartları ile KVKK teknik gereklilikleri nasıl uyumlu hale getirilir?",
+        "a": "<ul><li>global sistemlerle yerel PMS/CRM arasındaki veri akışları netleştirilmeli,</li><li>hangi verinin hangi ülkede saklandığı ve hangi hukuk düzenine tabi olduğu analiz edilmeli,</li><li>hem zincir IT standartları hem KVKK teknik tedbirleri birlikte ele alınmalıdır.</li></ul>"
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "Mini KVKK & Veri Güvenliği SSS",
+    "items": [
+      {
+        "q": "KVKK uyumu sadece hukuki döküman hazırlamak mıdır?",
+        "a": "Hayır; teknik mimari, erişim kontrolü, loglama, saklama süresi ve eğitim gibi unsurlar da en az hukuki dokümanlar kadar önemlidir."
+      },
+      {
+        "q": "Tüm çalışanların her veriye erişmesi KVKK’ya uygun mu?",
+        "a": "Genellikle hayır; “bilmesi gereken” prensibi gereği, herkes sadece işi için gerekli verilere erişmelidir."
+      },
+      {
+        "q": "Çalışanlara KVKK eğitimi vermek yeterli midir?",
+        "a": "Gerekli ama yeterli değildir; eğitim teknik ve süreç tedbirleriyle desteklenmelidir."
+      },
+      {
+        "q": "Bulut tabanlı PMS kullanmak KVKK açısından sorun olur mu?",
+        "a": "Bulut veya on-prem fark etmeksizin; veri nerede tutuluyor, hangi güvenlik önlemleri var, erişim ve loglama nasıl işliyor sorularına net cevap verebilmeniz gerekir."
+      },
+      {
+        "q": "Çerez ve piksel kullanıyorsam, mutlaka aydınlatma ve izin ekranı mı gerekir?",
+        "a": "İzlenebilirlik sağlayan çerez/piksel türleri için genellikle evet; detaylı değerlendirme için hukuk danışmanınızla çalışmalısınız."
+      },
+      {
+        "q": "Tüm logları sonsuza kadar saklamak KVKK’ya daha mı uygundur?",
+        "a": "Hayır; loglar için de makul saklama süreleri belirlenmeli ve bu süreler sonunda imha/anonimleştirme süreçleri devreye girmelidir."
+      },
+      {
+        "q": "KVKK ihlali olursa bunu raporlamalı mıyım?",
+        "a": "Genel çerçevede veri ihlallerinin belirli süreler içinde ilgili otoriteye bildirilmesi gerekebilir; somut durum için hukuk danışmanınıza başvurmalısınız."
+      },
+      {
+        "q": "Excel’de misafir listesi taşımak KVKK’ya aykırı mı?",
+        "a": "Risklidir; çünkü Excel dosyaları kimin elinde, nerede saklandığı ve ne zaman silineceği kontrol edilemez. Mümkün olduğunca sistem içi ve loglanabilir yapılar tercih edilmelidir."
+      },
+      {
+        "q": "KVKK & veri güvenliği için tek seferlik proje yeterli mi?",
+        "a": "Değil; yeni sistemler, entegrasyonlar, personel değişimleri ve mevzuat güncellemeleri olduğu sürece bu, devam eden bir süreçtir."
+      },
+      {
+        "q": "KVKK teknik tedbirleri nelerdir?",
+        "a": "Genel olarak; erişim kontrolü, şifreleme (uygunsa), loglama, güvenli bağlantılar, saklama ve imha süreçleri, yedekleme ve güvenlik güncellemeleri sayılabilir. Detaylı ve bağlayıcı liste için resmi rehber ve hukuk danışmanınıza başvurmalısınız."
+      }
+    ]
+  },
+
+  "section9": {
+    "title": "KVKK Veri Güvenliği Danışmanlığı İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile KVKK veri güvenliği danışmanlığı için nasıl teklif alabilirim?",
+        "a": "<ul><li>kullandığınız PMS, OTA, channel manager, call center, web ve CRM sistemlerini,</li><li>mevcutta sahip olduğunuz KVKK doküman ve teknik önlemleri,</li><li>yaşadığınızı düşündüğünüz risk alanlarını (yetkisiz erişim, Excel/WhatsApp kullanımı, log eksikliği vb.)</li></ul>özetleyen kısa bir brief paylaşırsanız; teknik veri akışı analizi, risk haritası ve önerilen teknik/süreç iyileştirmeleri içeren bir KVKK & Veri Güvenliği yol haritası ve teklif hazırlanabilir."
+      },
+      {
+        "q": "“Uzmanla görüş” çağrısı KVKK & veri güvenliği tarafında neyi netleştirir?",
+        "a": "<ul><li>hangi sistemlerinizin öncelikli ele alınması gerektiğini,</li><li>nerede en yüksek KVKK teknik riskinin olduğunu (yetki, log, saklama, paylaşım),</li><li>kısa vadede alınabilecek basit tedbirleri ve</li><li>orta vadede kurulacak raporlama & loglama yapısını</li></ul>birlikte netleştiririz. Böylece KVKK & veri güvenliği, sadece “form ve metin” değil; teknik olarak yaşayan ve denetime hazır bir yapı haline gelir."
+      }
+    ]
+  }
+    },
+
+    "cta": {
+      "primary": "KVKK & Veri Güvenliği danışmanlığı talep edin",
+      "primaryHref": "/Services/digitalAnalysis/kvkkDataSecurity",
+      "secondary": "Dijital Analiz Hizmetleri",
       "secondaryHref": "/Services/digitalAnalysis"
     }
   }
