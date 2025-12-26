@@ -168,7 +168,7 @@ const rich = {
                 {t("toc.title")}
               </p>
 
-              <div className="grid grid-cols-2 md:flex md:flex-col gap-2">
+              <div className="grid grid-cols-2 md:flex md:flex-col gap-[6px]">
                 {sections.map((s, idx) => {
                   const active = s.id === activeId;
                   return (
@@ -177,7 +177,7 @@ const rich = {
                       type="button"
                       onClick={() => scrollTo(s.id)}
                       className={[
-                        "text-left rounded-xl px-3 py-2 transition font-semibold text-[12px]",
+                        "text-left rounded-xl px-3 py-[6px] transition font-semibold text-[12px] md:text-[14px] xl:text-[16px]",
                         active ? "bg-white/10 ring-1 ring-white/20" : "hover:bg-white/5 font-semibold lg:font-normal text-[12px] md:text-[14px] xl:text-[16px]",
                       ].join(" ")}
                     >
@@ -200,7 +200,7 @@ const rich = {
                 })}
               </div>
 
-              <p className="mt-4 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
+              <p className="mt-2 2xl:mt-4 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
                 {t("toc.note")}
               </p>
             </div>

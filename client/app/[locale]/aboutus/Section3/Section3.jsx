@@ -48,13 +48,13 @@ const Section3 = () => {
     return (
         <div className='flex flex-col items-center justify-center bg-[#FBFBFD] pt-[48px]'>
             <div className="flex text-center justify-center gap-[24px]">
-            <h3 className='text-[24px] lg:text-[48px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> {t("aboutpage_s3_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("aboutpage_s3_span1")} </span></h3>
+            <h3 className='text-[22px] lg:text-[32px] text-darkBlue font-bold leading-[120%] -tracking-[0.48px] lg:-tracking-[0.96px]'> {t("aboutpage_s3_header1")} <span className='bg-gradient-to-r from-[#54B9CF] to-[#547DCF] bg-clip-text text-transparent'>{t("aboutpage_s3_span1")} </span></h3>
             </div>
-            <div className='hidden lg:flex w-8/12 lg:flex-wrap justify-center gap-8 p-8 mb-[150px]'> {/* flex-wrap ve justify-center eklendi */}
+            <div className='hidden lg:flex w-8/12 lg:w-[95%] lg:flex-wrap justify-center gap-8 p-8 mb-[150px]'> {/* flex-wrap ve justify-center eklendi */}
                 {cardsData.map((card) => (
                     <div key={card.id} className="p-12 bg-white rounded-3xl shadow-[-15px_30px_150px_0px_rgba(20,12,41,0.05)] inline-flex flex-col justify-start items-center gap-4 w-[calc(50%-16px)]"> {/* w-[calc(50%-16px)] eklendi */}
                         <div className="lg:w-96 lg:h-9 relative">
-                            <div className="left-0 top-0 absolute justify-center text-gray-900 text-[20px] lg:text-3xl font-bold font-inter leading-[120%] lg:leading-10">
+                            <div className="left-0 top-0 absolute justify-center text-gray-900 text-[18px] lg:text-[20px] font-bold font-inter leading-[120%] lg:leading-10">
                                 {card.title}
                             </div>
                             <div className="w-0 h-7 left-[215px] top-[5.50px] absolute outline outline-2 outline-offset-[-1px] outline-black/20" />
@@ -96,18 +96,18 @@ const Section3 = () => {
         </div>
       </div>
 
-            <div className="flex flex-col w-[92%] xl:w-[1076px] h-[340px] lg:h-[500px] items-center justify-center rounded-3xl bg-[#140f25] lg:p-8 mb-12">
+            <div className="flex flex-col w-[92%] xl:w-[1076px] h-[340px] lg:h-[400px] items-center justify-center rounded-3xl bg-[#140f25] lg:p-8 mb-12">
                 <div className="flex flex-col items-center justify-center text-center lg:max-w-2xl h-[90%] gap-[18px]">
-                <div className="text-center justify-center whitespace-nowrap text-white lg:mt-7"><span className="text-Main-White text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_header1")}  </span><span className="text-blue-400 text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_span1")}</span></div>
-                <div className="w-[90%] md:w-[597px] text-center justify-center text-Main-White text-sm font-normal font-inter leading-[130%] lg:leading-tight mt-0 lg:mt-5 lg:ml-12 text-white">{t("aboutpage_s3_cta_text1")} </div>
-                  <button className="px-8 py-3 bg-Main-White rounded-3xl bg-white  shadow-[0px_0px_50px_0px_rgba(221,254,254,0.50)] inline-flex justify-center items-center lg:mt-44">
+                <div className="text-center justify-center whitespace-nowrap text-white lg:mt-7"><span className="text-Main-White text-[24px] lg:text-[32px] font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_header1")}  </span><span className="text-blue-400 text-[24px] lg:text-[32px] font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_cta_span1")}</span></div>
+                <div className="w-[90%] md:w-[597px] text-center justify-center text-Main-White text-sm font-normal font-inter leading-[130%] lg:leading-tight mt-0 lg:mt-1 lg:ml-12 text-white">{t("aboutpage_s3_cta_text1")} </div>
+                  <button className="px-8 py-3 bg-Main-White rounded-3xl bg-white  shadow-[0px_0px_50px_0px_rgba(221,254,254,0.50)] inline-flex justify-center items-center lg:mt-10">
                       <p className="justify-start text-Main-Dark-Blue text-lg font-bold font-inter leading-snug ">{t("aboutpage_s3_cta_button1")}</p>
                   </button>
                 </div>
             </div>
-              <div className="w-full h-[250px] lg:mt-24"> {/* Burada width ve height değerlerini istediğin gibi ayarla */}
-                <div className="text-center justify-center text-Main-Dark-Blue text-[24px] lg:text-5xl font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_footer_header1")}</div>
-                <div className="text-center justify-center text-Main-Dark-Blue text-[14px] lg:text-lg font-normal font-inter leading-[130%] lg:leading-relaxed mb-8 -tracking-[0.28px]">{t("aboutpage_s3_footer_text1")}</div>
+              <div className="w-full h-[240px] lg:mt-24"> {/* Burada width ve height değerlerini istediğin gibi ayarla */}
+                <div className="text-center justify-center text-Main-Dark-Blue text-[24px] lg:text-[28px] font-bold font-inter leading-[120%] lg:leading-[57.60px] -tracking-[0.48px]">{t("aboutpage_s3_footer_header1")}</div>
+                <div className="text-center justify-center text-Main-Dark-Blue text-[14px] lg:text-[16px] font-normal font-inter leading-[130%] lg:leading-relaxed mb-8 -tracking-[0.28px]">{t("aboutpage_s3_footer_text1")}</div>
                 <Partners />
               </div>
         </div>

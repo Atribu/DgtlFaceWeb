@@ -74,7 +74,7 @@ const Partner = () => {
             <div className={`relative shrink-0 flex justify-center items-center mr-4  flex-[0_0_auto]
          lg:min-h-[230px]
          lg:w-[240px]
-         md:w-[270px] md:h-[405px]
+         md:w-[270px] md:h-[165px]
          h-[266px] w-[177.3px]" ${isCenter ? 'slide--hover transform' : ''}`} key={index}>
              <Image
                 src={isCenter ? image.hoverSrc : image.src}

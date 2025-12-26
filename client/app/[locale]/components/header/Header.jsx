@@ -178,12 +178,12 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   }, []);
 
   return (
-    <header className="w-screen text-white fixed h-[80px] z-[999] top-0 flex items-center justify-center lg:mt-[20px] xl:mt-[30px]">
+    <header className="w-screen text-white fixed h-[70px] z-[999] top-0 flex items-center justify-center lg:mt-[8px] xl:mt-[15px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}
           <Link href="/">
-            <Logo className="w-auto hidden xl:flex" width={200} height={54} />
+            <Logo className="w-auto hidden xl:flex" width={185} height={50} />
             <Logo className="w-auto hidden lg:flex xl:hidden" width={180} height={40} />
             <Logo2 className="flex lg:hidden" width={42} height={36} color="#fff" />
           </Link>
@@ -227,7 +227,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[42.7%] 2xl:-translate-x-[42.5%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[40.8%] 2xl:-translate-x-[42.5%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);
@@ -240,7 +240,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
      {servicesConfig.map((service) => (
   <div
     key={service.key}
-   className="group flex flex-col items-center text-center gap-2 min-w-[170px]"
+   className="group flex flex-col items-center text-center gap-2 2xl:min-w-[170px]"
   >
 
     {/* Üst başlık */}
@@ -323,7 +323,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             <LangSwitcher />
             <Link
               href="tel:+905326451767"
-              className="hidden lg:inline-block w-[180px] xl:w-[219px] py-[7px] xl:py-[10px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[14px] xl:text-[18px] font-bold leading-[21.6px] tracking-[-0.36]"
+              className="hidden lg:inline-block max-w-[200px] xl:w-[219px] py-[7px] xl:py-[10px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[14px] xl:text-[16px] font-bold leading-[21.6px] tracking-[-0.36]"
             >
               +90 ( 0532 ) 645 17 67
             </Link>

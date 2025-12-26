@@ -48,7 +48,7 @@ const inter = localFont({
   src: [
     { path: "../../public/Fonts/Inter_18pt-Regular.ttf", weight: "400", style: "normal" },
     { path: "../../public/Fonts/Inter_18pt-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-Semibold.ttf", weight: "600", style: "normal" },
+    { path: "../../public/Fonts/Inter_18pt-SemiBold.ttf", weight: "600", style: "normal" },
     { path: "../../public/Fonts/Inter_18pt-Bold.ttf", weight: "700", style: "normal" },
     { path: "../../public/Fonts/Inter_18pt-ExtraBold.ttf", weight: "800", style: "normal" },
     { path: "../../public/Fonts/Inter_18pt-Black.ttf", weight: "900", style: "normal" },

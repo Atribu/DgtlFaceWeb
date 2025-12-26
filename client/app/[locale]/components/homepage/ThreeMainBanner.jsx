@@ -170,16 +170,16 @@ export default function ThreeMainBanner() {
       />
 
       {/* içerik */}
-      <div className="absolute left-[4%] lg:left-[6%] xl:left-[12%] top-[18%] sm:top-[20%] md:top-[21%] lg:top-[24%] xl:top-[32%] flex flex-col gap-4 text-start bg-black/40 lg:bg-transparent p-4 lg:p-0"
+      <div className="absolute left-[4%] lg:left-[6%] xl:left-[9%] top-[18%] sm:top-[20%] md:top-[21%] lg:top-[24%] xl:top-[28%] flex flex-col gap-4 text-start bg-black/40 lg:bg-transparent p-4 lg:p-0"
         style={{ zIndex: 50, color: "#fff" }}
       >
         <h1 className="w-full md:w-[63%] lg:w-[64%] xl:w-[55%] font-inter28 text-[24px] lg:text-[26px] font-bold leading-[120%] lg:leading-[130%]">
           {t("title")}
         </h1>
 
-        <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]"> {t.rich("subtitle", { strong: (chunks) => ( <span className="font-extrabold">{chunks}</span> ), })} </p> <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]"> {t.rich("subtitle2", { strong: (chunks) => ( <span className="font-extrabold">{chunks}</span> ), })} </p> <ul className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px] list-disc ml-8"> <li>Otel & turizm odaklı 360° dijital pazarlama</li> <li>Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri</li> <li>TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi</li> <li>Looker Studio ile şeffaf, gerçek zamanlı performans raporlama</li> </ul>
+        <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[44%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]"> {t.rich("subtitle", { strong: (chunks) => ( <span className="font-extrabold">{chunks}</span> ), })} </p> <p className="w-[95%] md:w-[62%] lg:w-[50%] xl:w-[44%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[115%] lg:leading-[120%] -tracking-[0.28px]"> {t.rich("subtitle2", { strong: (chunks) => ( <span className="font-extrabold">{chunks}</span> ), })} </p> <ul className="lg:w-[40%] font-inter28 text-[14px] lg:text-[16px] font-medium leading-[130%] lg:leading-[25.2px] -tracking-[0.28px] list-disc ml-8"> <li>Otel & turizm odaklı 360° dijital pazarlama</li> <li>Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri</li> <li>TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi</li> <li>Looker Studio ile şeffaf, gerçek zamanlı performans raporlama</li> </ul>
 
-        {/* ... içerik aynı ... */}
+       
         <div className="flex gap-4">
           <Link href="/Services" className="flex items-center gradient-border-button w-[184px] h-[42px] text-[14px] ml-3 font-bold justify-center">
             {t("button")}
