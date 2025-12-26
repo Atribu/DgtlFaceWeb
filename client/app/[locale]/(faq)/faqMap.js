@@ -57,5 +57,12 @@ export const FAQ_MAP = {
   "satis-donusumu-sss":"FaqSalesConversionReporting",
   "kvkk-veri-guvenligi-sss":"FaqKvkkDataSecurity",
 
+    "otel-seo-sss":"FaqHotelSEO",
+  "otel-sosyalmedya-sss":"FaqHotelSocialMedia",
+   "otel-reklam-sss":"FaqHotelAdsManagement",
+   "otel-ota-sss":"FaqHotelOtaManagement",
+   "otel-pms-sss":"FaqHotelPmsIntegration",
+   "otel-cagrimerkezi-sss":"FaqHotelCallCenterReservation"
+
 
 };

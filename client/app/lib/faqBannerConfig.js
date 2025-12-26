@@ -86,6 +86,15 @@ const SEO_CHIPS = [
       { label: "Kvkk Veri Güvenliği", href: "/kvkk-veri-guvenligi-sss" },
     ];
 
+      const Hotel_CHIPS = [
+      { label: "Otel Dijital Dönüşüm", href: "otel-dijital-pazarlama-sss" },
+       { label: "Otel SEO", href: "/otel-seo-sss" },
+      { label: "Otel Sosyal Medya", href: "/otel-sosyalmedya-sss" },
+      { label: "Otel Reklam", href: "/otel-reklam-sss" },
+      { label: "Otel Pms", href: "/otel-pms-sss" },
+      { label: "Otel Çağrı Merkezi", href: "/otel-cagrimerkezi-sss" },
+    ];
+
 const GROUPS = {
   sem: {
     title: "SEM",
@@ -186,6 +195,20 @@ const GROUPS = {
       "benchmark-analiz-sss",
       "satis-donusumu-sss",
       "kvkk-veri-guvenligi-sss"
+    ],
+  },
+
+     hotel: {
+    title: "Otel",
+    chips: Hotel_CHIPS,
+    slugs: [
+      "otel-dijital-pazarlama-sss",
+      "otel-seo-sss",
+      "otel-sosyalmedya-sss",
+      "otel-reklam-sss",
+      "otel-ota-sss",
+      "otel-pms-sss",
+      "otel-cagrimerkezi-sss"
     ],
   },
 };

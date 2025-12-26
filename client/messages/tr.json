@@ -2860,7 +2860,7 @@
   "contentsub_header2": "Arama Niyetine Uygun İçerikler",
   "contentsub_text": "DGTLFACE, içerik SEO hizmetleriyle web sitenizdeki içerikleri arama niyetine göre kurgulayan, blog yapınızı stratejik bir trafik ve dönüşüm motoruna dönüştüren profesyonel bir SEO içerik partneridir. “Kelimeleri yan yana dizmek” yerine; arama niyeti (search intent), anahtar kelime haritalandırma, içerik kümeleri (topic clusters), iç linkleme ve güncelleme döngüsüyle çalışan bir içerik mimarisi kurarız. Amacımız sadece “SEO uyumlu makale” yazmak değil; doğru kullanıcıyı, doğru içerikle çekip, onu blog’dan hizmet sayfalarınıza, oradan da satış/rezervasyon formuna kadar taşıyan eksiksiz bir içerik funnel’ı oluşturmaktır.",
 "contentsub_header3": "İçerik SEO Nedir? Klasik İçerikten Farkı Ne?",
-  "contentsub_text2":"İçerik SEO, bir sayfanın veya blog yazısının sadece anahtar kelime barındırmasından ibaret değildir. DGTLFACE için İçerik SEO: <ul><li> Anahtar kelimeleri arama niyetine göre gruplayan, </li><li> Kullanıcının sorusunu gerçekten cevaplayan, </li><li> Teknik SEO ile uyumlu başlık (H1–H2–H3) ve URL yapısı kullanan, </li><li> İç linklerle site içinde otoriteyi doğru dağıtan, </li><li> Zaman içinde performansa göre güncellenen </li></ul> bir <b>içerik yaşam döngüsüdür</b>. <b>“SEO içerik yazarlığı, blog optimizasyonu, SEO uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma”</b> gibi başlıkların her biri bu döngünün bir parçası. Kısaca: İçerik sadece okunmak için değil, <b>bulunmak ve dönüştürmek</b> için üretilir.",
+  "contentsub_text2":"İçerik SEO, bir sayfanın veya blog yazısının sadece anahtar kelime barındırmasından ibaret değildir. DGTLFACE için İçerik SEO: <ul><li> Anahtar kelimeleri arama niyetine göre gruplayan, </li><li> Kullanıcının sorusunu gerçekten cevaplayan, </li><li> Teknik SEO ile uyumlu başlık ve URL yapısı kullanan, </li><li> İç linklerle site içinde otoriteyi doğru dağıtan, </li><li> Zaman içinde performansa göre güncellenen </li></ul> bir <b>içerik yaşam döngüsüdür</b>. <b>“SEO içerik yazarlığı, blog optimizasyonu, SEO uyumlu makale, içerik stratejisi, anahtar kelime haritalandırma”</b> gibi başlıkların her biri bu döngünün bir parçası. Kısaca: İçerik sadece okunmak için değil, <b>bulunmak ve dönüştürmek</b> için üretilir.",
 
   "content_ai_answer_title": "AI Answer Block – İçerik SEO",
   "content_ai_answer_text": "DGTLFACE, içerik SEO ve blog optimizasyonu ile arama niyetine uygun, anahtar kelime haritalandırılmış, topic cluster mantığıyla kurgulanmış içerik stratejileri sunar. Her içerik için doğru search intent, başlık yapısı, iç linkleme ve güncelleme döngüsü tanımlanır. Özellikle otel ve turizm markaları için destinasyon, deneyim ve SSS odaklı blog yapılarıyla hem organik trafiği hem rezervasyona giden yolu güçlendirir.",
@@ -12686,7 +12686,7 @@
         "items": [
           {
             "q": "İçerik SEO hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Arama niyeti ve anahtar kelime analizi,</li><li>blog ve sayfa mimarisi planı,</li><li>içerik takvimi (konu, başlık, hedef URL),</li><li>sayfa ve blog içerikleri için taslak/outline ve yazım,</li><li>başlık (H1–H2), meta title/description kurguları,</li><li>iç link ve CTA yapılandırması,</li><li>eski içeriklerin audit’i ve güncelleme/ birleştirme önerileri,</li><li>performans takibi ve periyodik revizyon.</li></ul>"
+            "a": "<ul><li>Arama niyeti ve anahtar kelime analizi,</li><li>blog ve sayfa mimarisi planı,</li><li>içerik takvimi (konu, başlık, hedef URL),</li><li>sayfa ve blog içerikleri için taslak/outline ve yazım,</li><li>başlık , meta title/description kurguları,</li><li>iç link ve CTA yapılandırması,</li><li>eski içeriklerin audit’i ve güncelleme/ birleştirme önerileri,</li><li>performans takibi ve periyodik revizyon.</li></ul>"
           },
           {
             "q": "Blog mimarisini nasıl kurgulamak gerekir?",
@@ -17251,7 +17251,7 @@
       ]
     },
     "section7": {
-      "title": "GEO & Sektör Odaklı Video Prodüksiyon Soruları (5 Soru)",
+      "title": "GEO & Sektör Odaklı Video Prodüksiyon Soruları ",
       "items": [
         {
           "q": "Türkiye’deki oteller için video prodüksiyon stratejisi nasıl olmalı?",
@@ -17834,7 +17834,7 @@
       ]
     },
     "section7": {
-      "title": "GEO & Sektör Odaklı Kurumsal Hediye Soruları (5 Soru)",
+      "title": "GEO & Sektör Odaklı Kurumsal Hediye Soruları ",
       "items": [
         {
           "q": "Türkiye’deki oteller için hediye tasarımında nelere odaklanılmalı?",
@@ -21990,6 +21990,16 @@
 
    "FaqHotelSEO": {
     "h1": "Otel SEO SSS",
+
+       "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+    
     "intro": {
       "p1": "Otel SEO, “siteyi biraz optimize edelim, Google’da yukarı çıkalım”dan çok daha fazlası: OTA’larla (Booking, Expedia vb.) rekabet eden, lokasyon odaklı, direkt rezervasyon üreten bir organik yapı kurma işidir.",
       "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm destinasyonlarında, resort, şehir ve butik otellerin SEO → nitelikli trafik → teklif → rezervasyon zincirini doğru kurmasına yardımcı olmak için hazırlandı.",
@@ -22243,7 +22253,7 @@
     ]
   },
   "section8": {
-    "title": "Mini Otel SEO SSS (Micro – 5 Soru)",
+    "title": "Mini Otel SEO SSS ",
     "items": [
       {
         "q": "Otel SEO için “tek seferlik” çalışma yeterli mi?",
@@ -22273,6 +22283,1783 @@
       "primaryHref": "/Services/hotel/seo",
       "secondary": "Dönüşüm takibi & raporlama",
       "secondaryHref": "/otel-dijital-pazarlama-sss"
+    }
+  },
+
+    "FaqHotelSocialMedia": {
+        "h1": "Otel Sosyal Medya SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "intro": {
+      "p1": "Instagram, TikTok, Reels, DM, WhatsApp linkleri, Meta reklamları, influencer’lar… Otel tarafında sosyal medya artık sadece “güzel kare paylaşmak” değil; marka algısı + talep oluşturma + rezervasyon desteği üçlüsünü aynı anda yönetmeniz gereken bir alan.",
+      "p2": "Aşağıda; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarındaki resort ve şehir otelleri için, sosyal medya ile ilgili en sık sorulan 65 soruyu ve kısa, uygulanabilir yanıtları bulacaksınız."
+    },
+
+    "aiCapsule": {
+      "title":"Kısa özet",
+      "text":"Bu SSS; Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarındaki resort ve şehir otelleri için, sosyal medyayı “marka algısı + talep oluşturma + rezervasyon desteği” üçlüsünde yönetmeye yardımcı olur."
+    },
+    "voiceSummary": {
+      "title":"Kısa özet",
+      "text":"Otel sosyal medya yönetimi; Instagram, TikTok ve benzeri kanallarda markayı tutarlı yansıtıp, doğru içerik ve kampanyalarla rezervasyon talebini destekleyen bir iletişim sürecidir."
+    },
+    "voiceQueries": {
+       "title": "Arama Sorguları",
+      "q1":"Otel sosyal medya yönetimi nedir, ne işe yarar?",
+      "q2":"Otelim için Instagram ve TikTok’ta nereden başlamalıyım?",
+      "q3":"Sosyal medyada sadece beğeni değil, rezervasyon isteği de almak mümkün mü?",
+      "q4":"Hangi içerik türleri (oda, havuz, yemek, etkinlik) daha iyi çalışır?",
+      "q5":"Influencer ve UGC kullanımı oteller için güvenli mi?",
+      "q6":"Otel sosyal medyası için ajans mı, iç ekip mi daha mantıklı?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Otel Sosyal Medya’ya Genel Bakış (Genel Sorular)",
+        "items": [
+          {
+            "q": "Otel sosyal medya yönetimi tam olarak nedir?",
+            "a": "Otel sosyal medya yönetimi; Instagram, TikTok, Facebook (Meta), YouTube ve benzeri kanallarda:\n• marka kimliğini tutarlı şekilde yansıtmayı,\n• doğru kitleye düzenli ve anlamlı içerik üretmeyi,\n• community yönetimi ile misafirle iletişimde kalmayı,\n• reklam ve kampanyalarla rezervasyon talebi üretmeyi\n\nkapsayan planlı bir içerik, iletişim ve kampanya yönetimi sürecidir."
+          },
+          {
+            "q": "Otel için sosyal medya hangi kanalları kapsar?",
+            "a": "Çekirdek set genellikle:<ul><li> Instagram (feed, story, Reels, DM),</li><li> TikTok (kısa video, trend & ses kullanımı),</li><li> Facebook (özellikle belirli demografiler ve acente/kulüp iletişimi),</li><li> WhatsApp Business (talep & rezervasyon desteği),</li><li> gerekirse YouTube ve LinkedIn (kurumsal ve B2B).</li></ul>Her otel için bu set, hedef pazarlara göre yeniden kurgulanmalıdır."
+          },
+          {
+            "q": "Sosyal medya gerçekten rezervasyon getirir mi, yoksa sadece imaj mıdır?",
+            "a": "Doğru kurgulanırsa ikisi de:\n• İmaj: konsept, deneyim, misafir yorumları, story ve Reels ile marka algısı oluşur.\n• Rezervasyon: DM, WhatsApp, bağlantı linkleri, web/OTA yönlendirmeleri ve reklamlarda güçlü call-to-action ile gerçek rezervasyon talebi üretilir.\n\nSorun; çoğu otelin sadece “görsel paylaşma” noktasında kalmasıdır."
+          },
+          {
+            "q": "Otel sosyal medyası ile kurumsal marka sosyal medyası arasında fark var mı?",
+            "a": "Evet.\n• Otel hesabı deneyim, odalar, havuz, etkinlikler, misafir hayatı odaklıdır.\n• Kurumsal hesap ise B2B, iş ortakları, HR ve genel kurumsal konuları taşır.\n\nİki hesap birbiriyle uyumlu olmalı; ama içerik dili ve hedef kitlesi farklıdır."
+          },
+          {
+            "q": "Otel sosyal medyasında “marka kimliği” neden önemli?",
+            "a": "Çünkü sosyal medya:\n• fotoğraf kalitesi,\n• renkler, tipografi,\n• kullanılan dil ve ton,\n• story/Reels kurgusu\n\nüzerinden markanızın “nasıl bir yer olduğu” hakkında saniyeler içinde yargı oluşturur. Dağınık, her post’ta farklı bir ton ve görsel dili olan hesaplar güven vermekte zorlanır."
+          },
+          {
+            "q": "Otel sosyal medya stratejisinin otel dijital pazarlaması içindeki yeri nedir?",
+            "a": "SEO, performans reklamları (Google/META), OTA, web, call center ve e-posta gibi kanallarla birlikte:\n• talep ve ilgi yaratma,\n• karar sürecini hızlandırma,\n• markayı “hatırda” tutma\n\ngörevlerini üstlenir. Yani sosyal medya, “ilk kıvılcım + retargeting” katmanıdır."
+          }
+        ]
+      },
+       "quickAnswers": {
+    "title": "Sesli Arama İçin Kısa Sorular ",
+    "items": [
+      {
+        "q": "Otel sosyal medya yönetimi nedir, ne işe yarar?",
+        "a": "Otel sosyal medya yönetimi; Instagram, TikTok ve benzeri kanallarda markanızı tanıtıp, doğru içerik ve kampanyalarla rezervasyon talebi destekleyen bir iletişim kurmanızı sağlar."
+      },
+      {
+        "q": "Otelim için Instagram ve TikTok’ta nereden başlamalıyım?",
+        "a": "Önce marka kimliğini ve hedef kitleyi netleştirip, ardından 1–2 aylık basit bir içerik takvimi (oda, havuz, yemek, deneyim, ekip, kulis) çıkararak ve yüksek kaliteli görsel/video üretimine odaklanarak başlamalısınız."
+      },
+      {
+        "q": "Sosyal medyada sadece beğeni değil, rezervasyon isteği de almak mümkün mü?",
+        "a": "Evet; içerikte ve story/Reels’lerde net CTA’lar, profilde web/WhatsApp/call center linkleri ve reklam kampanyalarında “teklif al / rezervasyon yap” akışı kurarak gerçek rezervasyon isteği üretebilirsiniz."
+      },
+      {
+        "q": "Hangi içerik türleri (oda, havuz, yemek, etkinlik) daha iyi çalışır?",
+        "a": "Genelde:<ul><li> Reels & kısa videolarda oda + manzara + havuz + yemek kombinasyonları,</li><li> story’de günlük hayat, etkinlikler ve kulis içerikleri, </li><li>feed’de konsept ve deneyim anlatan kareler </li></ul>daha iyi çalışır. Ancak bunu kendi kitlenizde test edip ölçmeniz gerekir."
+      },
+      {
+        "q": "Influencer ve UGC kullanımı oteller için güvenli mi?",
+        "a": "Doğru seçildiğinde ve sözleşmeyle çerçevelendiğinde evet. Yanlış influencer seçimi ve kontrolsüz UGC (guest post’ları) marka algısını riske sokabilir; bu yüzden net beklenti, brief ve onay süreci zorunludur."
+      },
+      {
+        "q": "Otel sosyal medyası için ajans mı, iç ekip mi daha mantıklı?",
+        "a": "Çoğu otel için en mantıklı model hibrittir: <ul><li>strateji, kreatif yönlendirme ve reklam tarafında ajans;</li><li> içerik üretimi, çekim organizasyonu ve anlık story’ler için iç ekip. </li></ul>Tamamen iç veya tamamen dış modelde süreklilik ve tutarlılık zor olabilir."
+      }
+    ]
+  },
+
+  "section3": {
+    "title": "İçerik Stratejisi & Formatlar (Instagram, TikTok, Reels)",
+    "items": [
+      {
+        "q": "Otel sosyal medyasında içerik stratejisi nasıl oluşturulur?",
+        "a": "<ul><li>Hedef kitleyi (ülke, yaş, segment) tanımlayın,</li><li>marka vaadinizi netleştirin (family, adults-only, luxury, fiyat/performans vb.),</li><li>temel içerik sütunlarınızı belirleyin (oda, yemek, havuz, etkinlik, ekip, misafir deneyimi, destinasyon),</li><li>bu sütunlardan ayda X adet üretilecek seviyede takvim çıkarın,</li><li>her içerik için “bu neye hizmet ediyor?” sorusunu sorun (bilinirlik, talep, rezervasyon).</li></ul>"
+      },
+      {
+        "q": "Instagram’da otel hesabı için ideal içerik karışımı nedir?",
+        "a": "Örnek bir karışım:<ul><li>%40 video/Reels (oda, manzara, aktiviteler, yemek),</li><li>%30 fotoğraf (konsept, detay, ekip),</li><li>%20 story (günlük hayat, kulis, Q&A),</li><li>%10 kullanıcı veya partner içerikleri (UGC, influencer).</li></ul>Her otel için bu oran test edilerek optimize edilmelidir."
+      },
+      {
+        "q": "TikTok’ta oteller için ne tür içerikler öne çıkıyor?",
+        "a": "<ul><li>eğlenceli, eğitici veya duygusal kısa hikâyeler,</li><li>“öncesi/sonrası” dönüşümler (oda, spa, yemek sunumu),</li><li>trend sesler üzerine kurulmuş otel/vakasyon senaryoları,</li><li>“bir günümüz böyle geçiyor” tarzı içerikler.</li></ul>TikTok’ta doğallık ve tempo Instagram’a göre daha da önemli."
+      },
+      {
+        "q": "Reels ve kısa videolar rezervasyon talebini nasıl etkiler?",
+        "a": "Özellikle:<ul><li>destinasyonun gerçek havasını gösteren videolar,</li><li>oda ve manzaranın “gerçekten” nasıl göründüğünü anlatan içerikler,</li><li>misafir deneyimini (çocuk, çift, arkadaş grubu) sahneleyen videolar</li></ul>karar sürecini hızlandırır. İyi kurgulanmış Reels, tek başına bile onlarca DM ve rezervasyon sorusu getirebilir."
+      },
+      {
+        "q": "Fotoğraf & video çekim planı sosyal medya için nasıl yapılmalı?",
+        "a": "<ul><li>Yıllık/Sezonluk en az 2–3 büyük çekim,</li><li>sezon içi mini çekimler (etkinlikler, özel günler),</li><li>shot list: oda tipleri, ortak alanlar, havuz/plaj, F&B, spa, çocuk alanları, akşam atmosferi, personel/servis anları,</li></ul>şeklinde planlanmalı; sadece “boş oda fotoğrafı” değil, insanlı ve deneyimli kareler de çekilmelidir."
+      },
+      {
+        "q": "Story’ler ile feed post’ları arasındaki denge nasıl kurulmalı?",
+        "a": "<ul><li>Feed: daha kalıcı, marka kimliğini yansıtan, özenli içerikler,</li><li>Story: güncel, anlık, daha doğal ve kulis odaklı içerikler.</li></ul>Otel için günde 1–3 story akışı, haftada 3–5 feed post (veya Reels) iyi bir başlangıç seviyesidir."
+      },
+      {
+        "q": "Kullanıcı tarafından üretilen içerik (UGC) oteller için nasıl kullanılmalı?",
+        "a": "<ul><li>misafirlerden izin alarak (veya UGC sözleşmeleriyle),</li><li>kaliteli ve marka uyumlu post/story’leri yeniden paylaşarak,</li><li>highlight ve UGC odaklı story arşivi oluşturarak,</li><li>kampanya/çekiliş gibi mekanizmalarla UGC üretimini teşvik ederek.</li></ul>UGC, “gerçek misafir gözü” olduğu için güçlü bir güven sinyalidir."
+      },
+      {
+        "q": "Influencer iş birliklerini oteller nasıl seçmeli ve ölçmeli?",
+        "a": "<ul><li>hedef kitlenizle uyumlu (ülke, yaş, ilgi alanı),</li><li>sahici etkileşim ve içerik kalitesine sahip,</li><li>geçmiş branded content performansı iyi olan influencer’lar tercih edilmeli,</li><li>iş birliği sonrası içerik erişimi, tıklama, DM ve rezervasyon talebi takip edilmelidir.</li></ul>Sadece takipçi sayısına bakmak büyük hatadır."
+      },
+      {
+        "q": "Sezon öncesi, sezon içi ve sonrası için içerik temaları nasıl planlanır?",
+        "a": "<ul><li>Sezon öncesi: erken rezervasyon, hazırlık süreci, yeni konsept & yenilemeler, “soon” içerikleri.</li><li>Sezon içi: misafir deneyimi, etkinlikler, servis, anlık hikâyeler.</li><li>Sezon sonrası: teşekkür, sezon özetleri, bakımlar, “gelecek sezon teaser” içerikleri.</li></ul>"
+      },
+      {
+        "q": "Farklı ülke pazarlarına hitap eden içerikler nasıl ayrıştırılmalı?",
+        "a": "<ul><li>dil bazlı ayrı hesaplar veya segmentlenmiş içerik akışları,</li><li>her pazar için farklı mesaj ve vurgular (örneğin Alman pazarında golf & aile; Rus pazarında deniz & eğlence),</li><li>aynı görselin farklı dil ve copy ile kullanılması.</li></ul>Çeviri değil, lokalizasyon mantığıyla çalışmak gerekir."
+      },
+      {
+        "q": "Sosyal medyada kampanya & fiyat paylaşımı nasıl yapılmalı?",
+        "a": "<ul><li>her post’u “fiyat”a çevirmeden,</li><li>özel dönem ve kampanyalarda temiz ve net tasarımlarla,</li><li>detaylar için her zaman web/call center’a yönlendirerek,</li><li>mümkün olduğunca “değer” ve “deneyim” vurgusunu öne çıkararak paylaşmak daha sağlıklıdır.</li></ul>"
+      },
+      {
+        "q": "Otel sosyal medyasında yapay ve fazla reklamvari içerikten nasıl kaçınılır?",
+        "a": "<ul><li>insan ve deneyim odaklı kareler kullanarak,</li><li>misafirin gözünden anlatmaya çalışarak,</li><li>arada mizah ve samimiyet dozunda kullanarak,</li><li>arka planda profesyonel üretim olsa bile, “aşırı pozlu” içeriklerden uzak durarak.</li></ul>"
+      }
+    ]
+  },
+  "section4": {
+    "title": "Community Yönetimi & Misafir İletişimi",
+    "items": [
+      {
+        "q": "Community yönetimi otel sosyal medyasında ne anlama gelir?",
+        "a": "Sadece içerik paylaşmak değil;<ul><li>yorum ve DM’lere cevap vermek,</li><li>sık sorulan sorulara sabırlı ve standart yanıtlar üretmek,</li><li>sadık misafirleri tanıyıp onlarla ilişkide kalmak,</li><li>kriz anlarında doğru iletişimi kurmak</li></ul>anlamına gelir. “Aktif hesap” olmanın kalbidir."
+      },
+      {
+        "q": "Yorumlara ve DM’lere ne kadar hızlı yanıt vermeliyim?",
+        "a": "Hedef:<ul><li>DM’ler için: mümkünse aynı gün, ideali 1–2 saat içinde,</li><li>Yorumlar için: 24 saat içinde.</li></ul>Özellikle rezervasyon ve fiyat sorularına hızlı dönüş, OTA yerine otelinizden rezervasyon alınmasını sağlayabilir."
+      },
+      {
+        "q": "Sosyal medyada rezervasyon sorularını kim ve nasıl yönetmeli?",
+        "a": "En ideali;<ul><li>sosyal medya ekibinin soruları filtreleyip,</li><li>rezervasyon & çağrı merkezi ekibiyle ortak bir WhatsApp/CRM hattına aktarması,</li><li>standart yanıt şablonları ve script’lerle süreci yönetmesidir.</li></ul>“Story’ye bakan kişi”nin aynı zamanda fiyat verip rezervasyon açması, risklidir."
+      },
+      {
+        "q": "Olumsuz yorum ve şikâyetler sosyal medyada nasıl ele alınmalı?",
+        "a": "<ul><li>duygusal tepki vermeden,</li><li>empatik ve çözüm odaklı kısa bir yanıtla,</li><li>misafiri DM/telefon/maile davet ederek,</li><li>çözüm sonrası gerekirse kamuya açık ikinci bir teşekkür/sonuç mesajı ile.</li></ul>Asla “sil gitsin” yaklaşımıyla hareket edilmemelidir (istisnai durumlar hariç)."
+      },
+      {
+        "q": "Sosyal medyada kriz anında (olay, negatif haber vb.) iletişim nasıl olmalı?",
+        "a": "<ul><li>hızla durum değerlendirmesi yapmak,</li><li>hukuki ve PR ekipleriyle birlikte,</li><li>kısa, net, doğru bilgi içeren açıklamalar yapmak,</li><li>gereksiz detay ve savunmadan kaçınmak,</li><li>misafir güvenliğini ve çözüm sürecini vurgulamak önemlidir.</li></ul>“Kriz yokmuş gibi davranmak” çoğu zaman daha büyük kriz üretir."
+      },
+      {
+        "q": "Sosyal medya üzerinden gelen işbirliği / etkinlik talepleri nasıl filtrelenmeli?",
+        "a": "<ul><li>samimi misafir mesajı mı, profesyonel iş birliği mi ayırt edilmeli,</li><li>influencer/partner profili, kitlesi, geçmiş içerikleri incelenmeli,</li><li>marka ve konumlandırmaya uyumlu olmayan talepler nazikçe reddedilmeli,</li><li>her iş birliği için basit bir yazılı anlaşma veya mail onayı alınmalıdır.</li></ul>"
+      },
+      {
+        "q": "Sosyal medya ve çağrı merkezi/rezervasyon ekibi nasıl entegre çalışmalı?",
+        "a": "<ul><li>sosyal medya ekibi rezervasyon sorularını belirli bir formatta (isim, tarih, kişi sayısı, kanal) toplamalı,</li><li>rezervasyon ekibine tek bir kanal üzerinden (WhatsApp Business/CRM) aktarmalı,</li><li>call center performans raporlarına “sosyal medya kaynaklı” olarak işlenmelidir.</li></ul>"
+      },
+      {
+        "q": "Topluluk (community) oluşturmak otel için ne kadar gerçekçi ve gerekli?",
+        "a": "Markanızın türüne göre değişse de:<ul><li>sadık misafirlerden oluşan küçük ama etkili bir topluluk,</li><li>tekrar rezervasyon ve tavsiye zinciri için çok değerlidir.</li></ul>Her otel “dev bir community” kurmak zorunda değil; ama sadık kitleyle ilişkiyi sosyal medya üzerinden de sıcak tutmak önemlidir."
+      }
+    ]
+  },
+  "section5": {
+    "title": "Reklam & Kampanya Kurguları (Meta, TikTok Ads)",
+    "items": [
+      {
+        "q": "Oteller için Meta (Facebook/Instagram) reklamları nasıl konumlanmalı?",
+        "a": "<ul><li>Bilinirlik: video/Reels kampanyaları ile destinasyon ve konsept tanıtımı,</li><li>Trafik: web’e veya kampanya landing page’ine tıklama,</li><li>Dönüşüm: rezervasyon veya lead (form/WhatsApp) aksiyonu.</li></ul>Otel için genelde bu üç amaç bir arada, funnel mantığıyla kullanılmalıdır."
+      },
+      {
+        "q": "TikTok Ads oteller için ne tür fırsatlar sunar?",
+        "a": "İyi kurgulanmış TikTok kampanyaları:<ul><li>genç ve sosyal medyada aktif kitleye,</li><li>eğlenceli ve akılda kalıcı otel/vacation hikâyeleriyle,</li><li>düşük CPM ve yüksek görüntülenme sayısıyla</li></ul>erişmenizi sağlar. Ancak yaratıcı üretim ve içerik dili “gayet TikTok’vari” olmalıdır; Instagram diliyle çalışmaz."
+      },
+      {
+        "q": "Sosyal medya reklamlarında hedef kitle nasıl belirlenmeli?",
+        "a": "<ul><li>ülke, şehir, dil, ilgi alanları, gelir seviyesi ve davranış verileri,</li><li>geçmiş misafir profili (lookalike),</li><li>web ve OTA davranışlarına göre remarketing segmentleri</li></ul>dikkate alınmalıdır. “Herkese gösterelim” yaklaşımı, otel reklamlarında bütçeyi çabuk tüketir."
+      },
+      {
+        "q": "Remarketing kampanyaları otel rezervasyonlarına nasıl katkı sağlar?",
+        "a": "<ul><li>web sitenizi ziyaret etmiş ama rezervasyon yapmamış,</li><li>OTA’da otelinizi incelemiş,</li><li>Instagram profilinizi ziyaret etmiş kullanıcıları,</li></ul>yeniden hedefleyerek “kararsız misafir”in aklını otelinize doğru çekersiniz. Bu, özellikle yüksek sepet (tatil) kararlarında çok etkilidir."
+      },
+      {
+        "q": "Farklı amaçlar için hangi kampanya türleri kullanılmalı?",
+        "a": "<ul><li>Bilinirlik: Reach / Brand Awareness kampanyaları, video görüntüleme.</li><li>Düşünme: Traffic, Engagement, Video Views, profil ziyaretleri.</li><li>Aksiyon: Conversions (rezervasyon), Leads (form/WhatsApp) odaklı kampanyalar.</li></ul>Otel için genelde hepsi gerekir; sadece “Conversions” açmak, üst huniyi boş bırakır."
+      },
+      {
+        "q": "Sosyal medya reklam bütçesi nasıl planlanmalı?",
+        "a": "<ul><li>sezon, pazar ve doluluk hedeflerinize göre aylık/çeyreklik bütçe belirleyin,</li><li>hedef pazarlara (ülke/dil) göre ayrı bütçe tahsisi yapın,</li><li>remarketing kampanyaları için mutlaka küçük ama sürekli bir bütçe ayırın,</li><li>kampanyaları performansa göre haftalık optimize edin.</li></ul>"
+      },
+      {
+        "q": "Sadece “boost post” yapmak yeterli mi?",
+        "a": "Hayır. Boost post; hızlı ama sınırlı bir araçtır.<ul><li>ciddi sonuçlar için Reklam Yöneticisi (Ads Manager) üzerinden tam segmentli, çok kreatifli, çok setli kampanyalar kurgulamak gerekir.</li></ul>"
+      },
+      {
+        "q": "Sosyal medya kampanyalarında teklif (offer) ve call-to-action nasıl kurgulanmalı?",
+        "a": "<ul><li>görsel/video “hayali” satarken,</li><li>metin net bir teklif ve CTA sunmalı:</li></ul>Örn: “Yaz Erken Rezervasyon %20 indirim – Detay ve rezervasyon için hemen tıkla / WhatsApp’tan yaz”."
+      },
+      {
+        "q": "Sosyal medya reklamlarını OTA kampanyaları ve metasearch ile nasıl senkronize ederim?",
+        "a": "<ul><li>aynı dönem ve pazarlarda fiyat ve mesaj uyumu,</li><li>OTA metinlerinde gördüğü oteli sosyal medyada tekrar gören kullanıcı için tanıdıklık,</li><li>direct kanal kampanyalarının OTA kampanyalarına göre “değer odaklı avantaj” sunması.</li></ul>Kanal stratejinizle sosyal medya kampanyalarınızı birlikte planlamalısınız."
+      },
+      {
+        "q": "Sosyal medya üzerinden alınan lead’ler (form, DM, WhatsApp) satış hunisine nasıl bağlanmalı?",
+        "a": "<ul><li>tüm lead’ler tek bir CRM veya en azından tek bir takip sheet’ine akmalı,</li><li>call center/rezervasyon ekibi bu lead’leri belirli bir SLA ile aramalı/yanıtlamalı,</li><li>sonuçlar (rezervasyon / iptal / beklemede) işlenerek kampanya performansına geri besleme yapılmalıdır.</li></ul>"
+      },
+      {
+        "q": "Kampanya sonrası performans analizi nasıl yapılmalı?",
+        "a": "<ul><li>kampanya bazında: gösterim, tıklama, CPC, CPA, ROAS,</li><li>funnel bazında: tıklama → sayfada davranış → rezervasyon/lead,</li><li>kanal bazında: web/OTA/call center takibi,</li><li>kreatif bazında: hangi video/post daha çok talep getirdi?</li></ul>Bu analizler olmadan kampanya sadece “hissettiğimiz” kadar iyidir."
+      },
+      {
+        "q": "Ajansla çalışırken sosyal medya reklam raporlarında nelere dikkat etmeliyim?",
+        "a": "<ul><li>sadece beğeni/takipçi değil, lead ve rezervasyon metriklerinin raporlanması,</li><li>pazar/dil bazlı performans kırılımları,</li><li>kreatif bazlı sonuçlar,</li><li>net öneri ve aksiyon maddeleri (sadece “rapor” değil “yorum” da).</li></ul>"
+      }
+    ]
+  },
+
+   "section6": {
+    "title": "Performans & Raporlama (KPI, Dönüşüm, Gelir)",
+    "items": [
+      {
+        "q": "Otel sosyal medya performansını hangi KPI’larla ölçmeliyim?",
+        "a": "<ul><li>erişim, gösterim, izlenme,</li><li>etkileşim oranı (like, comment, save, share),</li><li>profil ve web site tıklamaları,</li><li>DM/WhatsApp mesaj sayısı,</li><li>lead ve rezervasyon sayısı (ve geliri),</li><li>kanal bazlı ROAS ve CPA.</li></ul>"
+      },
+      {
+        "q": "Beğeni ve takipçi sayısı hâlâ önemli mi?",
+        "a": "Tamamen önemsiz değil ama tek KPI asla olmamalı.<ul><li>kaliteli ve hedef kitlenizle uyumlu bir kitle,</li><li>booking funnel’ına katkısı ölçülmüş bir hesap,</li></ul>sadece yüksek takipçi sayılarına göre çok daha değerlidir."
+      },
+      {
+        "q": "Sosyal medyadan gelen rezervasyon ve gelir nasıl takip edilir?",
+        "a": "<ul><li>UTM ve GA4 kampanya etiketleri,</li><li>rezervasyon motorunda kaynak (source) alanları,</li><li>call center script’lerinde “nereden duydunuz?” sorusunu sistemsel olarak işlemek,</li></ul>gibi mekanizmalarla sosyal medya kaynaklı satışları ayrı işaretleyebilirsiniz."
+      },
+      {
+        "q": "Sosyal medya trafiğini GA4 ve rezervasyon funnel’ı ile nasıl ilişkilendiririm?",
+        "a": "<ul><li>sosyal medya linklerine UTM parametreleri ekleyin,</li><li>GA4’te bu kampanya/source’lar için separate raporlar oluşturun,</li><li>rezervasyon event’lerini (purchase/booking) takip edip bu source’larla eşleyin.</li></ul>"
+      },
+      {
+        "q": "Organik ve ücretli sosyal medya performansını ayrı ayrı nasıl okumalıyım?",
+        "a": "<ul><li>Organik: community gücü, içerik kalitesi, marka algısı.</li><li>Ücretli: hedef kitle, kreatif, teklif ve bütçe verimliliği.</li></ul>İkisi birbirini besler ama raporlamada ayrı sütunlar olarak incelenmelidir."
+      },
+      {
+        "q": "Aylık sosyal medya raporunda neler olmalı?",
+        "a": "<ul><li>içerik sayısı ve türleri (post, story, Reels, TikTok),</li><li>erişim, etkileşim, takipçi değişimi,</li><li>en iyi ve en zayıf performanslı içerikler,</li><li>gelen DM/WhatsApp/lead sayısı,</li><li>reklam kampanyaları ve sonuçları,</li><li>bir sonraki ay için önerilen aksiyonlar.</li></ul>"
+      },
+      {
+        "q": "Sosyal medya testleri (A/B creative, hedef kitle, format) nasıl planlanır?",
+        "a": "<ul><li>aynı kampanya hedefi için 2–3 farklı creative/format/başlık test edin,</li><li>her test için minimum gösterim verisine ulaştığınızdan emin olun,</li><li>kazanan kombinasyonu bir süre ölçekleyip yeni testler ekleyin.</li></ul>"
+      }
+    ]
+  },
+  "section7": {
+    "title": "Pain Point: Beğeni Var, Satış Yok; Düzensiz İçerik, Kriz Yönetimi",
+    "items": [
+      {
+        "q": "Sadece beğeni alan ama rezervasyona katkısı olmayan sosyal medya neden sık görülüyor?",
+        "a": "Çünkü:<ul><li>içerikler sadece görsel estetik ve eğlence odaklı,</li><li>rezervasyon motoruna, çağrı merkezine veya kampanyaya yönlendirme zayıf,</li><li>kitle ve hedef pazar uyumu düşünülmeden içerik üretiliyor.</li></ul>“Ne güzel post” ile “bu otelde kalmak istiyorum” arasındaki köprüyü kurmak gerekir."
+      },
+      {
+        "q": "Düzensiz ve plansız içerik paylaşımı ne tür sorunlara yol açar?",
+        "a": "<ul><li>marka algısı tutarsızlaşır,</li><li>algoritma sizi “düzensiz” hesap olarak görür, erişimler düşer,</li><li>ekip sürekli “son dakika” içerik üretmek zorunda kalır,</li><li>kampanya ve sezon planlaması bozulur.</li></ul>"
+      },
+      {
+        "q": "Kriz anında yanlış sosyal medya iletişimi otel markasına nasıl zarar verir?",
+        "a": "<ul><li>yanlış bilgi verme,</li><li>savunmacı/agresif ton,</li><li>mazeret üretme veya “yokmuş gibi davranma”</li></ul>gibi hatalar; kısa sürede sosyal medyada büyüyerek OTA ve yorum kanallarına da sıçrayabilir. Bu da hem rezervasyon talebi hem employer brand açısından uzun vadeli zarar yaratır."
+      },
+      {
+        "q": "Sosyal medya hesaplarını “kişisel hesap gibi” yönetmenin riskleri nelerdir?",
+        "a": "<ul><li>özensiz dil ve görsel kullanım,</li><li>gereksiz polemik ve kişisel görüş paylaşımı,</li><li>KVKK ve gizlilik açısından sıkıntılı içerik paylaşımları (misafir fotoğrafları vb.).</li></ul>Otel hesabı, kişisel değil kurumsal bir varlıktır; her post markayı temsil eder."
+      },
+      {
+        "q": "Ölçülemeyen sosyal medya performansı bütçe israfına nasıl yol açar?",
+        "a": "Rakam yoksa:<ul><li>hangi kreatif ve kampanyanın işe yaradığını bilemezsiniz,</li><li>performansı düşük işlere para harcamaya devam edersiniz,</li><li>sosyal medya, “masraf kalemi” gibi algılanır.</li></ul>KPI ve dashboard olmadan sosyal medya yönetmek, ışıksız odada yön bulmaya benzer."
+      },
+      {
+        "q": "Her kanalda (Instagram, TikTok, Facebook) aynı içeriği paylaşmak doğru mu?",
+        "a": "Her kanalın dili ve kitlesi farklıdır:<ul><li>TikTok’ta çalışan içerik, Instagram feed’de yapay durabilir,</li><li>Facebook kitlesi farklı demografi ve ilgi alanına sahip olabilir.</li></ul>Ana hikâye aynı kalabilir, ama format ve ton kanala göre uyarlanmalıdır."
+      },
+      {
+        "q": "Yanlış influencer seçimi otel için nasıl bir risk taşır?",
+        "a": "<ul><li>hedef kitlenizle uyumsuz bir influencer; satış değil, sadece “yanlış görünürlük” getirir,</li><li>itibarı problemli profiller, markanızı da olumsuz etkileyebilir,</li><li>anlaşma ve beklentiler net değilse, içerik ve sonuçlar hayal kırıklığı yaratır.</li></ul>Influencer seçimi; mini bir marka iş birliği kararı gibi ciddiyetle ele alınmalıdır."
+      },
+      {
+        "q": "Sosyal medyada gelen rezervasyon sorularına geç cevap vermek neye mal olur?",
+        "a": "<ul><li>kullanıcı bu arada başka otellere de yazar,</li><li>ilk yanıt veren otel çoğu zaman kazanır,</li><li>“online dünyada yavaş otel” algısı oluşur.</li></ul>Talep anında hızlı cevap vermek, özellikle yüksek rekabetli destinasyonlarda direkt satış için kritiktir."
+      }
+    ]
+  },
+  "section8": {
+    "title": "GEO & Lokasyon Odaklı Otel Sosyal Medya (Antalya, Belek, Kemer, Side, Bodrum, Alanya)",
+    "items": [
+      {
+        "q": "Antalya ve çevre destinasyonlarda otel sosyal medya stratejisi nasıl şekillenmeli?",
+        "a": "<ul><li>çok pazar, çok dil, çok OTA olduğu için;</li><li>sosyal medya hem bilinirlik hem direct talep için kullanılır,</li><li>her pazar için ayrı içerik vurguları,</li><li>yoğun sezon öncesi–içi–sonrası için kapsamlı kampanya planı yapılmalıdır.</li></ul>"
+      },
+      {
+        "q": "Belek ve golf/luxury oteller için sosyal medya içeriklerinde nelere odaklanılmalı?",
+        "a": "<ul><li>golf sahaları ve golf deneyimi,</li><li>fine dining ve premium F&B,</li><li>oda & villa detayları,</li><li>kişiselleştirilmiş hizmet ve “butler” deneyimi.</li></ul>Görsel dil; yüksek kalite, sakinlik ve ayrıcalık yansıtmalıdır."
+      },
+      {
+        "q": "Kemer, Side ve Alanya gibi aile & eğlence destinasyonlarında hangi içerikler daha etkili?",
+        "a": "<ul><li>aquapark, animasyon, çocuk kulübü,</li><li>aile aktiviteleri ve eğlence,</li><li>yemek çeşitliliği ve “bol aktivite” vurgusu,</li><li>eğlenceli Reels ve TikTok videoları.</li></ul>Burada karar verici çoğu zaman ailedir; içerik dili buna uygun olmalıdır."
+      },
+      {
+        "q": "Bodrum ve lifestyle/adults-only oteller için sosyal medya tonu nasıl olmalı?",
+        "a": "<ul><li>daha estetik, stil sahibi, “lifestyle” vurgulu,</li><li>gece hayatı, müzik ve beach deneyimi,</li><li>adults-only için romantik, premium ve “saklı cennet” tonları.</li></ul>Şakacı ama seviyeli bir dil tercih edilir."
+      },
+      {
+        "q": "Türkiye geneli şehir otellerinde sosyal medya hangi rolleri üstlenmeli?",
+        "a": "<ul><li>business & MICE için toplantı ve etkinlik alanlarını göstermek,</li><li>kısa konaklama ve “stopover” için pratik bilgi vermek,</li><li>kurumsal imajı güçlendirmek,</li><li>kampanya ve hafta sonu kaçamaklarını duyurmak.</li></ul>"
+      },
+      {
+        "q": "Sosyal medya, OTA sayfalarınızı ve web sitenizi nasıl beslemeli?",
+        "a": "<ul><li>sosyal medya içeriklerinde kullanılan en iyi fotoğraf ve videolar OTA ve web sayfalarında da kullanılmalı,</li><li>sosyal medya ile misafirin zihninde oluşturulan imaj, OTA ve web içerikleriyle tutarlı olmalı,</li><li>sosyal medya üzerinden gelen DM ve yorumlar, OTA/web sayfalarında iyileştirmeler için input olarak değerlendirilmelidir.</li></ul>"
+      }
+    ]
+  }
+    },
+
+     "cta": {
+      "primary": "Otel Sosyal Medya hizmeti talep edin",
+      "primaryHref": "/Services/hotel/socialMedia",
+      "secondary": "Otel Dijital Pazarlama Hizmetleri",
+      "secondaryHref": "/Services/hotel"
+    }
+  },
+
+  "FaqHotelAdsManagement": {
+    "h1": "Otel Reklam Yönetimi SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+    "aiCapsule": {
+      "title":"Kısa Özet",
+      "text":"Otel Reklam Yönetimi; Google Ads, Meta, YouTube ve metasearch kanallarında reklam bütçesini doğru kurgulayarak talep, rezervasyon ve gelir üretmeye odaklanan performans pazarlama yaklaşımıdır. Amaç; sadece görünür olmak değil, OTA bağımlılığını azaltarak direct rezervasyonu büyütmektir."
+    },
+
+    "voiceSummary": {
+      "title":"Kısa Özet",
+      "text":"Otel reklam yönetimi, dijital reklam kanallarını kullanarak doğru misafiri doğru zamanda otelinize yönlendirmeyi ve rezervasyona dönüştürmeyi amaçlayan performans odaklı bir süreçtir."
+    },
+
+    "voiceQueries": {
+          "title": "Arama Sorguları",
+     "q1": "otel reklam yönetimi nedir",
+      "q2":"otel için google ads nasıl kullanılır",
+      "q3":"otel reklamları rezervasyon getirir mi",
+      "q4":"otel meta ve google reklam farkı",
+      "q5":"otel reklam bütçesi nasıl planlanır",
+      "q6":"otel reklam ajansı mı iç ekip mi"
+    },
+
+    "intro": {
+      "p1": "Google Ads, Meta, YouTube, metasearch, programatik display… Yanlış kurulduğunda bütçe yanar; doğru kurulduğunda doluluk ve gelir artar.",
+      "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda çalışan oteller için, reklam → talep → rezervasyon → gelir zincirini netleştirmek amacıyla hazırlandı.",
+      "p3": "Aşağıdaki sorular, otel reklam yönetimini uçtan uca anlamanızı sağlar."
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Otel Reklam Yönetimine Genel Bakış",
+        "items": [
+          {
+            "q": "Otel reklam yönetimi nedir?",
+            "a": "Otel reklam yönetimi; <ul><li>Google Ads,</li><li>Meta (Facebook & Instagram),</li><li>YouTube,</li><li>metasearch,</li><li>gerektiğinde programatik reklamlar</li></ul>üzerinden oda satışı ve rezervasyon odaklı kampanyalar kurma, yönetme, optimize etme ve raporlama sürecidir. Hedef sadece gösterim değil; gelir ve ROAS üretmektir."
+          },
+          {
+            "q": "Neden oteller için dijital reklam zorunlu hale geldi?",
+            "a": "Çünkü misafir;<ul><li>tatilini arama motoru + OTA + sosyal medya kombinasyonuyla planlıyor,</li><li>fiyat ve konsept karşılaştırmasını online yapıyor,</li><li>kararlarının büyük bölümünü mobil ekranlarda veriyor.</li></ul>Bu yolculukta görünmezseniz, sadece OTA’nın listelediği bir otel olursunuz."
+          },
+          {
+            "q": "Otel reklam yönetimi hangi temel kanalları kapsar?",
+            "a": "<ul><li><b>Google Ads:</b> Arama, Performance Max, Display, YouTube, Google Hotel Ads</li><li><b>Meta Ads:</b> Instagram & Facebook kampanyaları</li><li><b>YouTube Ads:</b> video kampanyaları</li><li><b>Programatik:</b> gerekli durumlarda RTB display/video</li></ul>Her kanalın rolü ve bütçe ağırlığı, otelin pazar ve hedeflerine göre belirlenir."
+          },
+          {
+            "q": "Otel reklam yönetimi SEO ve sosyal medyadan nasıl ayrılır?",
+            "a": "<ul><li><b>SEO:</b> uzun vadeli, organik görünürlük ve direct rezervasyon temeli</li><li><b>Sosyal medya:</b> marka algısı, topluluk ve talep oluşturma</li><li><b>Reklam:</b> hızlı trafik, hedeflenmiş talep ve rezervasyon</li></ul>Reklam, doğrudan bütçe harcanan katmandır; ölçümsüz ve stratejisiz bırakılması en riskli alandır."
+          },
+          {
+            "q": "Hangi oteller için performans odaklı reklamcılık özellikle anlamlıdır?",
+            "a": "<ul><li>OTA komisyon yükü yüksek olan,</li><li>yeni açılan ve hızlı doluluk isteyen,</li><li>sezonluk doluluğu direct kanalla büyütmek isteyen,</li><li>belirli ülke ve segmentlere satış hedefi olan</li></ul>oteller için performans reklamcılığı kritik önemdedir."
+          },
+          {
+            "q": "Otel Reklam Yönetimi SSS kimler için uygundur?",
+            "a": "<ul><li>\"Reklam veriyoruz ama rezervasyon gelmiyor\" diyen,</li><li>sadece marka kampanyası açıp geri kalan trafiği OTA’ya bırakan,</li><li>raporları sadece gösterim ve tıklama düzeyinde okuyan</li></ul>özellikle resort ve şehir otelleri için uygundur."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "Otel reklam yönetimi tam olarak nedir?",
+            "a": "Google Ads, Meta, YouTube ve benzeri kanallarda oteliniz için rezervasyon odaklı reklam kampanyalarını planlamak, yönetmek ve optimize etmektir."
+          },
+          {
+            "q": "Google Ads, Meta ve YouTube’u birlikte nasıl kullanmalıyım?",
+            "a": "Genelde <ul><li>Google Ads → niyetli arama + metasearch,</li><li>Meta → ilgi hedefleme ve remarketing,</li><li>YouTube → üst funnel video bilinirlik</li></ul>şeklinde funnel mantığıyla birlikte kurgulanmalıdır."
+          },
+          {
+            "q": "Hangi ülkelere reklam vermeliyim?",
+            "a": "Satış ve gelir datanıza göre; en çok gelir elde ettiğiniz veya büyüme hedeflediğiniz ülkelerden (DE, RU, UK, TR vb.) başlamalısınız."
+          },
+          {
+            "q": "Reklam veriyorum ama rezervasyon gelmiyorsa sorun nerede?",
+            "a": "<ul><li>yanlış veya çok geniş hedefleme,</li><li>hatalı veya eksik dönüşüm takibi,</li><li>zayıf landing page / booking engine deneyimi,</li><li>yanlış kampanya ve teklif stratejileri</li></ul>en sık karşılaşılan nedenlerdir."
+          },
+          {
+            "q": "Otel reklam bütçesi nasıl doğru planlanır?",
+            "a": "<ul><li>her zaman açık marka + remarketing bütçesi,</li><li>sezon ve kampanya dönemlerinde artan bütçe,</li><li>pazar bazlı ROI’ye göre esnek dağılım</li></ul>ile planlanmalıdır."
+          },
+          {
+            "q": "Otel reklamlarını ajans mı, iç ekip mi yönetmeli?",
+            "a": "Çoğu otel için hibrit model idealdir: <ul><li>ajans → teknik kurulum, optimizasyon, raporlama,</li><li>iç ekip → otel bilgisi, görsel/video içerik ve onay süreçleri.</li></ul>"
+          }
+        ]
+      },
+
+      "section3": {
+    "title": "Kanal & Hizmet Kapsamı (Google Ads, Meta, YouTube, Programatik)",
+    "items": [
+      {
+        "q": "Otel reklam yönetimi hangi kanalları kapsar?",
+        "a": "<ul><li>Google Arama kampanyaları (Search),</li><li>Performance Max / Smart kampanyalar,</li><li>Google Hotel Ads / metasearch,</li><li>Display ve YouTube video kampanyaları,</li><li>Meta Ads (Facebook / Instagram),</li><li>gerektiğinde TikTok Ads ve programatik display/video kampanyaları.</li></ul>"
+      },
+      {
+        "q": "Google Ads’te otel için hangi kampanya türleri önceliklidir?",
+        "a": "<ul><li><b>Brand Search:</b> otel adı + destinasyon sorguları,</li><li><b>Non-Brand Search:</b> “antalya aile oteli”, “bodrum balayı oteli” gibi niyetli aramalar,</li><li><b>Google Hotel Ads:</b> fiyat ve metasearch alanı,</li><li><b>Performance Max:</b> otel tipine göre test edilerek,</li><li><b>Dynamic remarketing / display:</b> siteyi ziyaret edenlere geri dönmek için.</li></ul>"
+      },
+      {
+        "q": "Google Hotel Ads oteller için nasıl çalışır?",
+        "a": "Google Hotel Ads; <ul><li>PMS veya channel manager üzerinden fiyat ve müsaitlik akışını alır,</li><li>Google arama ve Maps sonuçlarında otelinizi fiyatlarla gösterir,</li><li>tıklayan kullanıcıyı direkt web booking engine veya OTA’ya yönlendirir.</li></ul>Doğru kurgulandığında, marka aramalarında OTA yerine direct rezervasyonu güçlendirir."
+      },
+      {
+        "q": "Meta Ads ile oda satışı nasıl artırılır?",
+        "a": "<ul><li>destinasyon ve ilgi alanı bazlı yeni kitlelere ulaşarak,</li><li>web ve OTA davranışlarına göre remarketing yaparak,</li><li>DM veya WhatsApp üzerinden lead toplayarak</li></ul>çekici kreatif ve net CTA’larla özellikle kararsız kullanıcılar aksiyona geçirilebilir."
+      },
+      {
+        "q": "YouTube reklamları otel için hangi aşamada rol oynar?",
+        "a": "<ul><li>destinasyon ve marka bilinirliği,</li><li>otel konsepti ve deneyimi anlatma,</li><li>remarketing (siteyi ziyaret edenlere video gösterme)</li></ul>YouTube genellikle üst funnel kanalıdır; last-click değil, destekleyici kanal olarak değerlendirilmelidir."
+      },
+      {
+        "q": "Programatik (RTB) kampanyalar oteller için gerekli mi?",
+        "a": "<ul><li>büyük bütçeli zincir otellerde,</li><li>çok spesifik segment ve pazar hedeflemesi gereken markalarda</li></ul>anlamlı olabilir. Küçük–orta ölçekli oteller için çoğu zaman Google + Meta + metasearch yeterlidir."
+      },
+      {
+        "q": "Remarketing ve RLSA kampanyaları neden kritik?",
+        "a": "<ul><li>otel kararı tek oturumda verilmez,</li><li>karar süreci günler veya haftalar sürebilir.</li></ul>Remarketing ve RLSA, sıcak kullanıcıyı tekrar yakalamak ve OTA yerine direct rezervasyon almak için kritik rol oynar."
+      },
+      {
+        "q": "Brand kampanyaları (otel adı aramaları) yürütmek şart mı?",
+        "a": "<ul><li>OTA ve rakipler marka adınızla reklam veriyorsa,</li><li>brand kampanyaları genellikle en yüksek ROAS’ı sağlıyorsa</li></ul>marka alanını tamamen organik + OTA’ya bırakmak direct fırsat kaybı anlamına gelir."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Hedef Pazar, Segment & Ülke Seçimi",
+    "items": [
+      {
+        "q": "Hangi ülkelere reklam vermeliyim?",
+        "a": "<ul><li>PMS ve OTA raporlarından en çok gelir aldığınız ülkeler,</li><li>büyüme hedeflediğiniz pazarlar,</li><li>bütçe ile anlamlı sonuç üretilebilecek ülkeler</li></ul>belirlenmeli; her ülkeye rastgele reklam vermek yerine 1–2 ana pazara odaklanmak daha verimlidir."
+      },
+      {
+        "q": "Ülke ve pazar bazlı bütçe nasıl bölünmeli?",
+        "a": "<ul><li>pazar büyüklüğü,</li><li>geçmiş gelir performansı,</li><li>hedeflenen büyüme oranı,</li><li>sezon ve uçuş/talep dinamikleri</li></ul>dikkate alınarak; bütçe subjektif değil veri temelli dağıtılmalıdır."
+      },
+      {
+        "q": "Aile, çift ve arkadaş grubu segmentleri nasıl ayrıştırılır?",
+        "a": "<ul><li>kreatif ve mesajın segmente göre uyarlanması,</li><li>yaş, ilgi alanı ve davranış bazlı hedefleme,</li><li>ayrı kampanya veya reklam grupları</li></ul>Aynı kampanyada tüm segmentleri karıştırmak mesaj gücünü düşürür."
+      },
+      {
+        "q": "Yeni açılan oteller için reklam hedefleme yaklaşımı nasıl olmalı?",
+        "a": "<ul><li>önce marka ve destinasyon bilinirliği,</li><li>konsept odaklı kampanyalar,</li><li>OTA ve metasearch görünürlüğü ile eş zamanlı,</li><li>remarketing ve marka aramalarıyla direct talep oluşturma</li></ul>Yeni otel önce hatırlanır, sonra satılır."
+      },
+      {
+        "q": "Oturmuş markalar için reklam stratejisi nasıl farklılaşır?",
+        "a": "<ul><li>yüksek ROAS’lı brand kampanyalar,</li><li>yeni pazar ve segment testleri,</li><li>remarketing ve CRM entegrasyonu ile tekrar rezervasyon</li></ul>öne çıkar."
+      },
+      {
+        "q": "B2B (acente, MICE, corporate) için reklam stratejisi nasıl olmalı?",
+        "a": "<ul><li>LinkedIn ve display kampanyaları,</li><li>toplantı ve grup odaklı landing page’ler,</li><li>lead form ve teklif talebi kurguları</li></ul>B2B reklamcılık, B2C’den daha niş ve farklı bir yapı gerektirir."
+      },
+      {
+        "q": "Meta’da ilgi alanı ve lookalike hedefleme oteller için nasıl kullanılır?",
+        "a": "<ul><li>mevcut misafir listesinden lookalike kitleler,</li><li>seyahat, tatil, aile, golf, lüks gibi ilgi alanları,</li><li>bilinirlikten remarketing’e akan funnel yapısı</li></ul>ile Meta güçlü bir talep oluşturma kanalı haline gelir."
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Süreç & İşleyiş: Kurulum, Tracking, Optimizasyon",
+    "items": [
+      {
+        "q": "Otel reklam yönetimi sürecine nereden başlanır?",
+        "a": "<ol><li>hedefler (doluluk, ADR, gelir, direct pay),</li><li>kanallar ve pazarlar,</li><li>altyapı (GA4, conversion tracking, booking engine),</li><li>kampanya mimarisi,</li><li>kreatif ve mesaj setleri,</li><li>raporlama ve optimizasyon döngüsü.</li></ol>"
+      },
+      {
+        "q": "Dönüşüm takibi (conversion tracking) neden bu kadar kritik?",
+        "a": "<ul><li>hangi kampanya rezervasyon getiriyor,</li><li>hangi anahtar kelime satışa dönüyor,</li><li>ROAS ve CPA değerleri</li></ul>takip edilmezse reklam yönetimi göz kararı yapılır. Otellerde booking engine ve call center entegrasyonu temel şarttır."
+      },
+      {
+        "q": "Otel rezervasyon sistemleriyle dönüşüm takibi nasıl kurulur?",
+        "a": "<ul><li>GA4 event’leri,</li><li>Google Ads ve Meta pixel / Conversion API entegrasyonu,</li><li>rezervasyon onay sayfasında conversion tetikleme,</li><li>mümkünse transaction değeri gönderimi</li></ul>ile sağlıklı tracking kurulmalıdır."
+      },
+      {
+        "q": "Google Ads’te teklif stratejisi nasıl seçilmeli?",
+        "a": "<ul><li>düşük veri dönemlerinde manuel veya eCPC,</li><li>yeterli dönüşüm datası oluştuğunda Maximize Conversions veya ROAS</li></ul>stratejileri tercih edilmelidir."
+      },
+      {
+        "q": "Sezon öncesi, içi ve sonrası kampanya takvimi nasıl oluşturulur?",
+        "a": "<ul><li>sezon öncesi: erken rezervasyon ve bilinirlik,</li><li>sezon içi: last minute, upsell, paket kampanyaları,</li><li>sezon sonrası: brand, remarketing ve sonraki sezon teaser’ları</li></ul>"
+      },
+      {
+        "q": "Erken rezervasyon ve last-minute kampanyaları neden ayrılmalı?",
+        "a": "<ul><li>farklı mesaj ve teklif yapısı,</li><li>farklı hedef kitleler,</li><li>farklı kampanya hedefleri</li></ul>aynı kampanyada karıştırılmamalıdır."
+      },
+      {
+        "q": "Kreatif üretimi reklam performansını ne kadar etkiler?",
+        "a": "<ul><li>otel deneyimini net anlatan görsel/video,</li><li>güçlü CTA,</li><li>segmente uygun mesaj</li></ul>CPA ve ROAS’ı dramatik şekilde değiştirebilir. Kötü kreatifi iyi optimizasyon kurtarmaz."
+      },
+      {
+        "q": "A/B testleri otel reklam yönetiminde nasıl yapılmalı?",
+        "a": "<ul><li>tek seferde tek değişken test edilmeli,</li><li>yeterli veri toplanmalı,</li><li>kazanan versiyon ana kampanyaya taşınmalı,</li><li>düzenli yeni testler yapılmalıdır.</li></ul>"
+      },
+      {
+        "q": "Negatif anahtar kelimeler neden önemlidir?",
+        "a": "<ul><li>alakasız aramaları dışarıda tutar,</li><li>bütçe israfını önler,</li><li>raporların daha temiz olmasını sağlar.</li></ul>"
+      },
+      {
+        "q": "Ajans ile çalışırken süreç ve raporlama nasıl olmalı?",
+        "a": "<ul><li>düzenli aylık veya haftalık raporlar,</li><li>kampanya ve pazar bazlı performans,</li><li>net KPI’lar (ROAS, CPA, rezervasyon),</li><li>neden–sonuç analizi ve aksiyon planları</li></ul>Sadece panel ekran görüntüsü yeterli değildir."
+      }
+    ]
+  },
+
+   "section6": {
+    "title": "Performans, ROAS & Raporlama",
+    "items": [
+      {
+        "q": "Otel reklamlarında ROAS nasıl hesaplanır?",
+        "a": "ROAS = Reklam kaynaklı gelir / reklam harcaması. Örneğin 10.000 € reklam harcamasıyla 50.000 € rezervasyon geliri elde ediliyorsa ROAS = 5 (veya %500) olur."
+      },
+      {
+        "q": "Hangi KPI’lar otel reklam performansını en iyi özetler?",
+        "a": "<ul><li>rezervasyon sayısı ve toplam gelir,</li><li>ROAS ve CPA (rezervasyon başı maliyet),</li><li>doluluk ve ADR üzerindeki etki,</li><li>kanal bazlı performans (Google, Meta, Hotel Ads),</li><li>ülke ve pazar bazlı katkı.</li></ul>"
+      },
+      {
+        "q": "Google Ads ve Meta sonuçlarını birlikte nasıl yorumlamalıyım?",
+        "a": "<ul><li>Google Ads genellikle niyetli arama ve last-click’e daha yakındır,</li><li>Meta daha çok görünürlük, ilgi oluşturma ve remarketing rolündedir.</li></ul>Bu nedenle raporlamada tek kanal yerine funnel içindeki roller birlikte değerlendirilmelidir."
+      },
+      {
+        "q": "Hangi kanalın daha kârlı olduğunu nasıl anlarım?",
+        "a": "<ul><li>kanal bazlı gelir,</li><li>reklam ve komisyon maliyetleri,</li><li>iptal ve no-show oranları,</li><li>operasyonel yük (çağrı, soru trafiği)</li></ul>birlikte analiz edilmelidir. En çok rezervasyon getiren kanal her zaman en kârlı kanal olmayabilir."
+      },
+      {
+        "q": "Reklam bütçesini büyütme veya kısma kararı neye göre alınmalı?",
+        "a": "<ul><li>ROAS hedeflerinin tutturulup tutturulmadığı,</li><li>doluluk ve ADR hedefleri,</li><li>pazar ve sezon dinamikleri,</li><li>otelinizin marj ve kârlılık sınırları</li></ul>baz alınmalıdır."
+      },
+      {
+        "q": "Reklamların SEO, OTA ve call center ile etkileşimini nasıl ölçerim?",
+        "a": "<ul><li>GA4 çok kanallı attribüsyon raporları,</li><li>call center kaynak kayıtları,</li><li>OTA ve direct pay takibi</li></ul>ile reklamların diğer kanalları nasıl tetiklediği görülebilir."
+      },
+      {
+        "q": "Satış & dönüşüm raporlaması reklam yönetimine nasıl bağlanır?",
+        "a": "<ul><li>kampanya bazlı ziyaretçi → talep → rezervasyon → gelir funnel’ı,</li><li>yüksek trafik ama düşük dönüşüm yaratan kampanyaların tespiti,</li><li>bütçe, kreatif ve hedefleme optimizasyonu</li></ul>Satış & dönüşüm panelleri, reklam yönetiminin karar motoru olmalıdır."
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "Pain Point: Yüksek Maliyet, Düşük Dönüşüm, Yanlış Hedefleme",
+    "items": [
+      {
+        "q": "Yüksek reklam maliyeti ama düşük rezervasyon varsa tipik nedenler nelerdir?",
+        "a": "<ul><li>yanlış veya çok geniş hedefleme,</li><li>conversion tracking’in hatalı veya eksik kurulması,</li><li>yanlış kampanya hedefi ve teklif stratejisi,</li><li>zayıf landing page veya booking engine deneyimi.</li></ul>"
+      },
+      {
+        "q": "Yanlış hedefleme otel reklamlarında nasıl israfa yol açar?",
+        "a": "<ul><li>otelinizle ilgisi olmayan demografik ve ilgi alanlarına erişim,</li><li>henüz destinasyon kararı vermemiş kitlelere satış kampanyası,</li><li>sezon ve pazar dinamiklerini dikkate almayan ülke hedeflemeleri</li></ul>bütçenin boşa gitmesine neden olur."
+      },
+      {
+        "q": "Sezon dışı dönemde reklam bütçesi nasıl yanlış kullanılabiliyor?",
+        "a": "<ul><li>düşük talep döneminde agresif satış kampanyaları,</li><li>bilinirlik ve remarketing yerine sadece “şimdi rezervasyon” mesajı,</li><li>sezonla uyumsuz fiyat ve kampanya dili</li></ul>Sezon dışı dönem çoğu zaman brand ve remarketing için daha uygundur."
+      },
+      {
+        "q": "Ölçülemeyen ROAS ve rapor karmaşası hangi riskleri getirir?",
+        "a": "<ul><li>hangi kampanyayı büyütüp hangisini kapatacağınızı bilemezsiniz,</li><li>yönetim ve ajans arasında güven sorunu oluşur,</li><li>reklam bütçesi karanlık kutuya dönüşür,</li><li>iyi performans olsa bile kanıtlanamaz.</li></ul>"
+      },
+      {
+        "q": "“Kampanyayı açtık, bir daha bakmadık” yaklaşımı neden tehlikelidir?",
+        "a": "<ul><li>pazar ve rekabet koşulları sürekli değişir,</li><li>kampanya zamanla yanlış yönde optimize olabilir,</li><li>gereksiz tıklamalar ve düşük kalite skorları bütçeyi tüketir.</li></ul>Reklamlar düzenli takip ve optimizasyon ister."
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "GEO & Destinasyon Odaklı Otel Reklam Yönetimi",
+    "items": [
+      {
+        "q": "Antalya destinasyonunda otel reklam yönetimi nasıl farklılaşır?",
+        "a": "<ul><li>çok yoğun rekabet,</li><li>çok sayıda ülke pazarı (DE, RU, UK, TR),</li><li>kısa ama yoğun sezonlar</li></ul>nedeniyle ülke bazlı kampanya yapısı, Hotel Ads ve remarketing akışları dikkatle kurgulanmalıdır."
+      },
+      {
+        "q": "Belek golf ve luxury otelleri için nelere odaklanılmalı?",
+        "a": "<ul><li>golf sezonu ve paket odaklı arama kampanyaları,</li><li>yüksek ADR’li oda ve villa kreatifleri,</li><li>premium pazarlara yönelik dar ama kaliteli hedeflemeler</li></ul>"
+      },
+      {
+        "q": "Kemer, Side ve Alanya gibi family destinasyonlarında hangi mesajlar öne çıkar?",
+        "a": "<ul><li>aquapark, animasyon ve çocuk kulübü,</li><li>aile odaları ve all inclusive konsept,</li><li>“ailece eğlence + güvenli tatil” vurgusu</li></ul>"
+      },
+      {
+        "q": "Bodrum ve lifestyle / adults-only oteller için reklam dili nasıl olmalı?",
+        "a": "<ul><li>estetik, stil ve deneyim odaklı,</li><li>adults-only için sakin ve romantik ton,</li><li>fiyattan çok atmosfer ve deneyim vurgusu</li></ul>"
+      },
+      {
+        "q": "City otelleri için arama ve sosyal kampanya dengesi nasıl kurulmalı?",
+        "a": "<ul><li>Google Search: brand ve şehir + otel tipi aramaları,</li><li>Meta ve LinkedIn: MICE ve corporate destek,</li><li>remarketing ile araştıran ama almayan kullanıcıyı yakalama</li></ul>"
+      },
+      {
+        "q": "Farklı ülke pazarları için kampanya yapısı nasıl ayrıştırılmalı?",
+        "a": "<ul><li>her ülke için ayrı kampanya veya ad set,</li><li>dil ve kreatiflerin pazara göre lokalize edilmesi,</li><li>sezon ve tatil alışkanlıklarına göre farklı teklif ve flight planları</li></ul>"
+      }
+    ]
+  },
+
+  "section9": {
+    "title": "Mikro Otel Reklam Yönetimi SSS",
+    "items": [
+      {
+        "q": "Sadece Google Ads kullanmak yeterli mi, Meta’yı da eklemeli miyim?",
+        "a": "Google Ads çoğu zaman zorunlu, Meta ise özellikle remarketing ve ilgi odaklı tasarım için güçlü bir destek katmanıdır. Çoğu otel için ikisi birlikte en iyi sonucu verir."
+      },
+      {
+        "q": "Sadece Performance Max kullanmak doğru mu?",
+        "a": "Değil. PMax güçlü olabilir ama: <ul><li>kontrol ve raporlama sınırlıdır, </li><li>brand ve non-brand ayrımı net değildir. </li></ul>En sağlıklısı PMax’i; brand, non-brand ve hotel ads gibi kampanyalarla <b>destekleyici</b> olarak kullanmaktır."
+      },
+
+      {
+        "q": "Remarketing yapmadan otel reklamı yürütmek mantıklı mı?",
+        "a": "Hayır. Otel gibi karar süresi uzun ürünlerde, remarketing yoksa, reklam yapıyorsunuz ama karar aşamasında kullanıcıyı yalnız bırakıyorsunuz demektir."
+      },
+
+      {
+        "q": "Çocuklu aile ve adults-only kitleyi aynı kampanyada hedeflemek doğru mu?",
+        "a": "Genelde hayır. Mesaj, görsel ve teklif tamamen farklıdır; tek kampanyada karışırsa kimseye tam hitap etmez."
+      }
+
+    ]
+  },
+
+  "section10": {
+    "title": "Otel Reklam Yönetimi İçin İş Birliği ve CTA Soruları",
+    "items": [
+      {
+        "q": "DGTLFACE ile otel reklam yönetimi için nasıl teklif alabilirim?",
+        "a": "<ul><li>otelinizin türü (resort, city, butik, zincir),</li><li>hedef pazar ve ülkeleriniz,</li><li>mevcut reklam kanallarınız (Google, Meta, YouTube, metasearch vb.),</li><li>bütçe aralığınız ve sezon stratejiniz,</li><li>yaşadığınız temel problemler (yüksek maliyet, düşük dönüşüm, yanlış hedefleme, ölçümsüzlük vb.)</li></ul>ile kısa bir brief paylaştığınızda; <b>kanal karması, teklif stratejisi, remarketing akışları ve raporlama yapısını</b> içeren bir otel reklam yönetimi yol haritası ve teklif hazırlanabilir."
+      },
+      {
+        "q": "“Uzmanla görüş” görüşmesinde ne netleştiririz?",
+        "a": "<ul><li>hangi pazarlarda hangi kanalların öncelikli olacağını,</li><li>konumlandırma ve fiyat seviyenizle uyumlu mesaj ve kampanya türlerini,</li><li>pazarlama teknolojisi tarafındaki (GA4, pixel, booking engine) eksikleri,</li><li>kısa vadeli hızlı düzeltmeleri ve orta vadeli optimizasyon planını.</li></ul>"
+      },
+      {
+        "q": "Ajans değiştirirken veya reklam yönetimini devrederken nelere dikkat etmeliyim?",
+        "a": "<ul><li>hesap sahipliği (Google Ads, Meta Business Manager size ait olmalı),</li><li>geçmiş veri ve kampanyalara erişim,</li><li>dönüşüm tanımlarının devri ve testleri,</li><li>net sözleşme ve KPI seti.</li></ul>"
+      },
+      {
+        "q": "Reklam, SEO, sosyal medya ve PMS/OTA tarafını tek çatı altında görmek neden önemli?",
+        "a": "Çünkü:<ul><li>reklam yalnızca bir kanal,</li><li>SEO, sosyal medya, OTA ve PMS verileriyle birleştiğinde,</li><li>hangi yatırımın gerçekten gelir ve kârlılığı artırdığını daha net görebilirsiniz.</li></ul>Parçalı bakış çoğu zaman yanlış karar demektir; ortak bir raporlama ve yönetim çerçevesi ise gerçek performansı ortaya çıkarır."
+      }
+
+    ]
+  }
+  
+    },
+     "cta": {
+      "primary": "Otel Reklam Yönetimi talep edin",
+      "primaryHref": "/Services/hotel/adsManagement",
+      "secondary": "Otel Dijital Pazarlama Hizmetleri",
+      "secondaryHref": "/Services/hotel"
+    }
+  },
+
+   "FaqHotelOtaManagement": {
+    "h1": "Otel OTA Yönetimi SSS",
+
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Sesli Özet",
+      "voiceQueries": "Sesli Arama Sorguları"
+    },
+
+    "aiCapsule": "Otel OTA yönetimi; Booking, Expedia, Agoda gibi kanallarda fiyat, stok, kampanya ve görünürlüğü kârlılık ve marka dengesiyle yönetme sürecidir. Doğru kurgulandığında doluluk ve gelir artar, yanlış kurgulandığında komisyon yükü ve marka erozyonu oluşur.",
+
+    "voiceSummary": "Otel OTA yönetimi, online seyahat acentalarında fiyat ve kampanyaları doğru yöneterek hem doluluğu hem kârlılığı korumayı amaçlayan stratejik bir süreçtir.",
+
+    "voiceQueries": [
+      "Otel OTA yönetimi nedir?",
+      "Booking ve Expedia nasıl yönetilmeli?",
+      "OTA komisyonları nasıl düşürülür?",
+      "Rate parity neden önemli?",
+      "OTA ve direct rezervasyon dengesi nasıl kurulur?",
+      "Otel OTA kampanyaları nasıl seçilmeli?"
+    ],
+
+    "intro": {
+      "p1": "OTA’lar (Booking.com, Expedia, Hotelbeds, Agoda vb.) doğru kullanıldığında doluluk ve gelir makinesi, yanlış kullanıldığında ise yüksek komisyon ve marka erozyonu üreten bir yapı haline gelebilir.",
+      "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi rekabeti yüksek destinasyonlarda çalışan resort ve şehir otellerinin, OTA’ları fiyat, stok, kampanya ve marka imajı açısından doğru yönetmesi için hazırlandı.",
+      "p3": "Aşağıda, 65 soru–cevap ile OTA yönetimini hem operasyonel hem stratejik boyutuyla toplu bir çerçeveye oturtuyoruz."
+    },
+
+    "meta": {
+      "url": "/tr/ota-yonetimi/sss",
+      "serviceUrl": "/tr/ota-yonetimi",
+      "title": "Otel OTA Yönetimi SSS – Booking & Expedia Stratejileri | DGTLFACE",
+      "description": "Otel OTA Yönetimi hakkında sık sorulan sorular; Booking, Expedia ve diğer OTA’larda fiyat, stok, kampanya ve marka dengesini doğru kurmak için kapsamlı rehber.",
+      "silo": "OTA Yönetimi",
+      "locationFocus": "Türkiye geneli + turizm destinasyonları",
+      "sector": "Otel & Turizm",
+      "primaryIntent": "Transactional (Hizmet Talebi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Otel OTA Yönetimine Genel Bakış",
+        "items": [
+          {
+            "q": "Otel OTA yönetimi tam olarak nedir?",
+            "a": "Otel OTA yönetimi; Booking.com, Expedia, Hotelbeds, Agoda gibi online seyahat acentalarında (OTA):<ul><li>fiyatlandırma,</li><li>stok/oda ve allotment yönetimi,</li><li>kampanya & görünürlük kurguları,</li><li>rate parity ve komisyon kontrolü</li></ul>gibi unsurların, otelin gelir hedefleri ve marka pozisyonuyla uyumlu şekilde yönetilmesi sürecidir. Amaç, OTA’lardan maksimum verimi alırken kârlılık ve direct kanal dengesini kaybetmemektir."
+          },
+          {
+            "q": "OTA yönetimi oteller için neden bu kadar kritik?",
+            "a": "Çünkü birçok otelde:<ul><li>toplam gelirin büyük bir kısmı OTA’lardan gelir,</li><li>misafirlerin önemli kısmı oteli önce OTA’da keşfeder,</li><li>fiyat ve yorum karşılaştırması OTA ekranında başlar.</li></ul>Bu nedenle OTA’da fiyat, görünürlük, kampanya ve stok yönetimi zayıf olan bir otel, doluluk ve marka algısı tarafında dezavantajlı konuma düşer."
+          },
+          {
+            "q": "OTA yönetimi ne işe yarar, otelin hangi hedeflerine hizmet eder?",
+            "a": "Doğru OTA yönetimi:<ul><li>yüksek sezon doluluğunu destekler,</li><li>omuz sezonlar (shoulder) için talep yaratır,</li><li>belirli ülke pazarı veya segmentlerde büyümeyi hızlandırır,</li><li>marka bilinirliği ve görünürlüğe katkı sağlar,</li><li>doğru kurgulandığında direct rezervasyon için funnel üstü katman görevi görür.</li></ul>"
+          },
+          {
+            "q": "OTA yönetimi ile kanal yönetimi (PMS–channel manager) aynı şey mi?",
+            "a": "<ul><li><b>Kanal yönetimi:</b> PMS–channel manager–OTA hattında teknik fiyat & stok senkronizasyonu,</li><li><b>OTA yönetimi:</b> OTA panel ve kontrat tarafında fiyat, kampanya, görünürlük ve içerik stratejisi.</li></ul>Birbirini tamamlar ama aynı değildir. Teknik entegrasyon hatasız olsa bile stratejisiz OTA ciddi gelir kaybı ve komisyon israfı üretebilir."
+          },
+          {
+            "q": "OTA’lar direct rezervasyonun düşmanı mı, dostu mu?",
+            "a": "Ne tam düşman, ne tam dost.<ul><li>Kısa vadede: görünürlük ve doluluk sağlayan güçlü partnerler.</li><li>Uzun vadede: kontrolsüz kullanıldığında direct kanalı gölgeleyen, komisyon yükü getiren yapılar.</li></ul>Stratejik OTA yönetimi, “dozunda ve kontrollü” çalışmayı öğretir."
+          },
+          {
+            "q": "Otel OTA Yönetimi SSS kimler için uygundur?",
+            "a": "<ul><li>Booking/Expedia gibi kanallardan satış alıp ne kadar kârlı olduğunu bilmeyen,</li><li>kampanya ve ekstranet ayarlarını rastgele veya sadece account manager yönlendirmesiyle yapan,</li><li>rate parity ve direct kanal dengesi konusunda zorlanan</li></ul>özellikle resort ve tatil destinasyonlarındaki oteller için uygundur."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "OTA yönetimi nedir, ne işe yarar?",
+            "a": "Otel OTA yönetimi; Booking, Expedia ve benzeri kanallarda fiyat, stok ve kampanyaları kârlılık ve marka dengesini koruyarak yönetmenizi sağlar."
+          },
+          {
+            "q": "Booking ve Expedia görünürlüğünü nasıl artırabilirim?",
+            "a": "Doğru fiyatlandırma, doluluk ve yorum yönetimiyle; OTA’nın görünürlük faktörlerine uygun kampanya ve kalite skorunu yükselterek."
+          },
+          {
+            "q": "OTA kampanyalarını nasıl doğru seçerim?",
+            "a": "Her kampanyanın maliyetini ve faydasını pazar, tarih ve oda tipi bazında analiz ederek."
+          },
+          {
+            "q": "Rate parity bozulursa ne olur?",
+            "a": "Kullanıcı başka kanalda daha ucuz fiyat görür; OTA ve partnerlerle sorun yaşanır, direct kanalın güvenilirliği zedelenir."
+          },
+          {
+            "q": "OTA gelirini artırırken marka imajımı nasıl korurum?",
+            "a": "Agresif indirimler yerine, kontrollü kampanyalar ve segment/pazar bazlı fiyatlandırma ile."
+          },
+          {
+            "q": "OTA satışları ile direct rezervasyon dengesi nasıl kurulmalı?",
+            "a": "OTA’ları doluluk ve görünürlük için, web ve call center’ı daha kârlı direct satış için planlayarak."
+          }
+        ]
+      },
+
+      "section3": {
+    "title": "OTA Kanal Kapsamı ve Stratejik Kullanım (Booking, Expedia, Hotelbeds, vb.)",
+    "items": [
+      {
+        "q": "Otel OTA yönetimi hangi kanalları kapsar?",
+        "a": "<ul><li>Booking.com,</li><li>Expedia Group (Hotels.com, Orbitz vb.),</li><li>Hotelbeds ve benzeri bedbank’ler,</li><li>Agoda, Trip.com gibi bölgesel/niş OTA’lar,</li><li>belirli pazarlarda güçlü yerel OTA’lar.</li></ul>Her otel için bu karışım, hedef pazar ve segmentlere göre özelleştirilmelidir."
+      },
+      {
+        "q": "Her OTA’ya girmek otel için doğru strateji midir?",
+        "a": "Hayır.<ul><li>çok sayıda düşük hacimli OTA → fiyat ve stok yönetiminde kaos,</li><li>parça parça komisyon ve kampanya yönetimi.</li></ul>En çok potansiyeli olan 5–10 kanala odaklanmak, genelde daha kârlıdır."
+      },
+      {
+        "q": "OTA’larda farklı rol vermek ne demektir?",
+        "a": "<ul><li>pazar giriş OTA’sı,</li><li>bilinirlik ve review OTA’sı,</li><li>talep oluştuğunda “backup satış” OTA’sı</li></ul>olarak konumlandırmaktır. Her OTA’dan aynı performansı beklemek yerine, pazara göre önceliklendirme yapılır."
+      },
+      {
+        "q": "Hotelbeds gibi bedbank’ler OTA stratejisinde nasıl konumlanmalı?",
+        "a": "<ul><li>toptan fiyatlar,</li><li>B2B acente ağı erişimi,</li><li>erken rezervasyon ve belirli pazarlar</li></ul>için anlamlı olabilir. Ancak rate leakage ve parity riskleri nedeniyle çok sıkı kontrol gerektirir."
+      },
+      {
+        "q": "OTA sayısını artırmak her zaman geliri artırır mı?",
+        "a": "Hayır.<ul><li>yönetim maliyeti artar,</li><li>rate parity takibi zorlaşır,</li><li>verimsiz kanallara gereksiz komisyon ödenir.</li></ul>Verimsiz OTA’ları azaltmak çoğu zaman daha sağlıklıdır."
+      },
+      {
+        "q": "Yeni açılan oteller OTA kanal setini nasıl kurgulamalı?",
+        "a": "<ul><li>önce global ve güçlü 2–3 OTA,</li><li>hedef pazarlar için 1–2 yerel OTA veya bedbank,</li><li>performansa göre kademeli genişleme.</li></ul>Her yeni kanal veri ve test ile eklenmelidir."
+      }
+    ]
+  },
+
+  "section4": {
+    "title": "Fiyatlandırma, Kampanya & Rate Parity",
+    "items": [
+      {
+        "q": "OTA’larda fiyatlandırma stratejisi nasıl kurulmalı?",
+        "a": "<ul><li>temel BAR yapısını belirlemek,</li><li>OTA fiyatlarını direct kanal stratejisiyle uyumlu tutmak,</li><li>pazar bazlı net fiyatlama yapmak,</li><li>kampanyaları dönemsel araç olarak kullanmak.</li></ul>"
+      },
+      {
+        "q": "OTA kampanyaları (Genius, Mobile Deal vb.) nasıl seçilmelidir?",
+        "a": "<ul><li>ekstra komisyon/indirim oranı,</li><li>hangi pazar ve tarihte geçerli olduğu,</li><li>sağladığı görünürlük avantajı,</li><li>getirdiği ek satış ve gelir.</li></ul>Bu veriler olmadan kampanya açılmamalıdır."
+      },
+      {
+        "q": "Booking.com Genius programı ne ifade eder?",
+        "a": "Genius;<ul><li>doğru kullanıldığında ekstra satış,</li><li>yanlış kullanıldığında fiyat imajı kaybı</li></ul>yaratabilir. Oda tipi, tarih ve ülke bazlı kontrollü uygulanmalıdır."
+      },
+      {
+        "q": "Mobil fırsatlar ve last-minute kampanyalar ne zaman mantıklıdır?",
+        "a": "<ul><li>mobil pazarın güçlü olduğu ülkelerde,</li><li>kısa vadeli boşluk kapatma dönemlerinde,</li><li>direct kanal parity’sini bozmadan.</li></ul>"
+      },
+      {
+        "q": "Rate parity nedir, neden önemlidir?",
+        "a": "Rate parity;<ul><li>kanallar arası fiyat tutarlılığı sağlar,</li><li>misafir güvenini korur,</li><li>OTA ile ticari sorunları önler,</li><li>direct kanal algısını güçlendirir.</li></ul>"
+      },
+      {
+        "q": "Rate parity bozulursa ne olur?",
+        "a": "<ul><li>direct kanal pahalı algılanır,</li><li>fiyat dumping’i oluşur,</li><li>OTA sıralama ve ticari sorunlar yaşanabilir.</li></ul>"
+      },
+      {
+        "q": "Rate parity nasıl kontrol altında tutulur?",
+        "a": "<ul><li>kanal/pazar bazlı net fiyat politikası,</li><li>bedbank ve B2B anlaşmalarının takibi,</li><li>düzenli fiyat karşılaştırmaları,</li><li>direct kanalda değer bazlı avantajlar.</li></ul>"
+      },
+      {
+        "q": "OTA kampanyaları direct kanal fiyatlarını nasıl etkiler?",
+        "a": "<ul><li>yüksek OTA indirimleri,</li><li>direct kanalın “en iyi fiyat” algısını zayıflatır.</li></ul>Bu yüzden parity sadece fiyat değil, toplam değer üzerinden düşünülmelidir."
+      },
+      {
+        "q": "OTA’da agresif indirim yapmak markaya zarar verir mi?",
+        "a": "Evet.<ul><li>ucuz otel algısı oluşur,</li><li>premium konum zayıflar,</li><li>direct kanal rekabeti zorlaşır.</li></ul>"
+      },
+      {
+        "q": "Fiyatlandırmayı sadece OTA panelinden yapmak doğru mu?",
+        "a": "Hayır.<ul><li>fiyatlama PMS/revenue yönetimi tarafında yapılmalı,</li><li>channel manager üzerinden dağıtılmalı,</li><li>OTA paneli sadece istisnai durumlar için kullanılmalıdır.</li></ul>"
+      }
+    ]
+  },
+
+  "section5": {
+    "title": "Stok, Oda, Allotment & Kanal Dengesi",
+    "items": [
+      {
+        "q": "OTA’larda stok (oda) yönetimi neden bu kadar önemli?",
+        "a": "<ul><li>overbooking riskini azaltır,</li><li>boş oda ve gelir kaybını önler,</li><li>doğru pazar ve kanal karmasını sağlar.</li></ul>Stok, tüm kanallar için tek merkezden yönetilmelidir."
+      },
+      {
+        "q": "Allotment nedir, OTA yönetiminde nasıl kullanılır?",
+        "a": "Allotment;<ul><li>belirli OTA veya partner için ayrılmış oda kotasıdır,</li><li>yüksek hacimli partnerlerde mantıklı olabilir,</li><li>yanlış kullanılırsa direct ve kârlı kanalları boğar.</li></ul>"
+      },
+      {
+        "q": "Stop-sell kararları OTA tarafında nasıl yönetilmeli?",
+        "a": "<ul><li>PMS–channel manager üzerinden,</li><li>planlı ve kademeli,</li><li>kanal ve pazar önceliklerine göre.</li></ul>"
+      },
+      {
+        "q": "OTA satışları ile direct rezervasyon dengesi nasıl kurulmalı?",
+        "a": "<ul><li>yüksek sezonda OTA doluluk desteği,</li><li>direct kanalı kârlılık odaklı kullanmak,</li><li>low/shoulder sezonda OTA’dan direct’e yönlendirme.</li></ul>"
+      },
+      {
+        "q": "OTA rezervasyonları PMS’te nasıl doğru yönetilmeli?",
+        "a": "<ul><li>otomatik PMS entegrasyonu,</li><li>doğru oda/fiyat planı mapping’i,</li><li>iptal ve değişikliklerin anlık işlenmesi,</li><li>kanal bazlı raporlanabilirlik.</li></ul>"
+      },
+      {
+        "q": "OTA stok yönetimindeki hatalar marka imajını nasıl etkiler?",
+        "a": "<ul><li>overselling ve oda bulunamaması,</li><li>yanlış oda satışı,</li><li>beklenti–gerçeklik uyumsuzluğu.</li></ul>Bu durumlar yorum ve sosyal medyada hızlı negatif etki yaratır."
+      },
+      {
+        "q": "Farklı OTA’larda farklı oda tipleri satmak mantıklı mı?",
+        "a": "Kısmen.<ul><li>özel odalar direct veya seçili OTA’lara değer katabilir,</li><li>standart ürünlerde tutarlılık korunmalıdır.</li></ul>"
+      }
+    ]
+  },
+
+  "section6": {
+    "title": "Performans, Raporlama & OTA Gelir Yönetimi",
+    "items": [
+      {
+        "q": "OTA performansını hangi metriklerle ölçmeliyim?",
+        "a": "<ul><li>kanal bazlı gece sayısı,</li><li>kanal bazlı gelir,</li><li>komisyon oranı ve toplam komisyon,</li><li>iptal/no-show oranları,</li><li>net gelir ve kâr marjı,</li><li>pazar ve ülke bazlı dağılım.</li></ul>"
+      },
+      {
+        "q": "Booking ve Expedia görünürlüğü nasıl artırılır?",
+        "a": "<ul><li>yüksek ve tutarlı yorum puanı,</li><li>rekabetçi ve doğru fiyatlama,</li><li>talep dönemlerinde mantıklı kampanyalar (Genius, mobile vb.),</li><li>güncel ve kaliteli içerik/fotoğraf seti,</li><li>iptal ve fiyat sorunlarının azaltılması.</li></ul>Görünürlük, OTA algoritmaları ve kalite sinyallerinin birleşimidir."
+      },
+      {
+        "q": "OTA raporlarını sadece satış olarak görmek neden eksik?",
+        "a": "<ul><li>hangi pazarın daha kârlı olduğunu göremezsiniz,</li><li>oda ve fiyat planı performansını ayırt edemezsiniz,</li><li>kampanyaların gerçek etkisini ölçemezsiniz.</li></ul>Bu durumda OTA yalnızca “var olan” bir kanal olur, optimize edilen bir gelir aracı olmaz."
+      },
+      {
+        "q": "OTA’dan gelen misafir profilini nasıl analiz ederim?",
+        "a": "<ul><li>ülke, yaş ve konaklama süresi,</li><li>oda tipi ve oda başı gelir,</li><li>iptal ve şikâyet oranları,</li><li>yorumlar ve puanlar.</li></ul>Bu veriler, hangi OTA’nın daha nitelikli misafir getirdiğini gösterir."
+      },
+      {
+        "q": "OTA kanalları için hedef ROAS veya net gelir hedefi koymak mantıklı mı?",
+        "a": "Evet.<ul><li>OTA payı,</li><li>komisyon ve pazarlama maliyetleri,</li><li>hedeflenen kârlılık seviyesi</li></ul>dikkate alınarak her kanal için minimum net katkı tanımlanmalıdır."
+      },
+      {
+        "q": "OTA algoritmalarındaki değişiklikleri nasıl takip etmeliyim?",
+        "a": "<ul><li>account manager geri bildirimleri,</li><li>OTA eğitim ve dokümantasyonları,</li><li>sıralama ve görünürlük değişimleri,</li><li>sektör içi paylaşımlar.</li></ul>Tamamı kontrol edilemez ama yakından izlenebilir."
+      },
+      {
+        "q": "OTA & direct kanal pay değişimini raporlamak neden önemli?",
+        "a": "<ul><li>direct pay hedeflerini takip etmek,</li><li>OTA bağımlılığını görmek,</li><li>kampanya ve stratejilerin direct’e katkısını ölçmek.</li></ul>"
+      },
+      {
+        "q": "OTA verilerini revenue management panellerine nasıl bağlarım?",
+        "a": "<ul><li>OTA raporlarını PMS ve revenue araçlarına entegre ederek,</li><li>Looker Studio benzeri panellerle kanal karşılaştırması yaparak,</li><li>fiyat ve kanal kararlarını veriyle destekleyerek.</li></ul>"
+      }
+    ]
+  },
+
+  "section7": {
+    "title": "Pain Point: Yanlış OTA Kampanyaları, Komisyon & Marka Problemleri",
+    "items": [
+      {
+        "q": "Yanlış OTA kampanyaları ne gibi sorunlar yaratır?",
+        "a": "<ul><li>gereksiz indirim ve komisyon artışı,</li><li>sürekli promosyonlu otel algısı,</li><li>direct kanal rekabetinin zorlaşması,</li><li>genel fiyat seviyesinin düşmesi.</li></ul>"
+      },
+      {
+        "q": "Gereksiz komisyon artışı nasıl oluşur?",
+        "a": "<ul><li>üst üste açılan kampanyalar,</li><li>base komisyon üzerine ek programlar,</li><li>tüm tarihlerde açık agresif promosyonlar.</li></ul>Toplam etki hesaplanmadan açılan kampanyalar marj erozyonu yaratır."
+      },
+      {
+        "q": "Fiyat paritesi problemleri uzun vadede neye yol açar?",
+        "a": "<ul><li>fiyatı oynak otel algısı,</li><li>OTA ve partnerlerle ticari gerilim,</li><li>direct kanal güven kaybı,</li><li>bazı kanallarda sıralama düşüşü.</li></ul>"
+      },
+      {
+        "q": "Marka imajını zedeleyen stok yönetimi örnekleri nelerdir?",
+        "a": "<ul><li>satılan oda ile verilen odanın uyuşmaması,</li><li>overbooking nedeniyle misafir taşıma,</li><li>gerçeği yansıtmayan fotoğraf ve içerikler.</li></ul>"
+      },
+      {
+        "q": "OTA’lara aşırı bağımlılık hangi sorunları getirir?",
+        "a": "<ul><li>markanın OTA’ya sıkışması,</li><li>direct kanalların gelişememesi,</li><li>fiyat politikasında OTA baskısı,</li><li>kriz dönemlerinde manevra kaybı.</li></ul>"
+      }
+    ]
+  },
+
+  "section8": {
+    "title": "GEO & Destinasyon Odaklı OTA Yönetimi",
+    "items": [
+      {
+        "q": "Türkiye’deki resort destinasyonlarda OTA yönetimi neden daha zor?",
+        "a": "<ul><li>çok sayıda rakip otel,</li><li>değişken ülke ve uçuş dinamikleri,</li><li>yüksek OTA kampanya baskısı.</li></ul>Bu nedenle veri odaklı ve sofistike yaklaşım gerekir."
+      },
+      {
+        "q": "Antalya ve Belek otellerinde OTA stratejisi nasıl olmalı?",
+        "a": "<ul><li>golf ve luxury segment için seçili OTA’lar,</li><li>aile segmenti için farklı kampanya setleri,</li><li>Almanya ve Rusya pazarları için ayrı anlaşmalar.</li></ul>"
+      },
+      {
+        "q": "Kemer, Side ve Alanya gibi destinasyonlarda hangi taktikler öne çıkar?",
+        "a": "<ul><li>aile ve eğlence odaklı OTA’larda görünürlük,</li><li>erken rezervasyon kampanyaları,</li><li>iptal oranlarını yöneten politikalar.</li></ul>"
+      },
+      {
+        "q": "Bodrum ve lifestyle/adults-only oteller için OTA yönetimi nasıl kurgulanmalı?",
+        "a": "<ul><li>segmentte güçlü OTA’lara odaklanmak,</li><li>premium oda ve paket vurgusu,</li><li>sürekli indirim yerine deneyim odaklı fiyatlama.</li></ul>"
+      },
+      {
+        "q": "City otellerinde OTA ile direct kanal dengesi nasıl kurulmalı?",
+        "a": "<ul><li>business/MICE segmentte direct ve corporate güçlü tutulmalı,</li><li>OTA boşluk ve short-stay dönemlerinde destek rolü üstlenmeli,</li><li>tam OTA bağımlılığından kaçınılmalı.</li></ul>"
+      }
+    ]
+  },
+
+  "section9": {
+    "title": "Mini Otel OTA Yönetimi SSS",
+    "items": [
+      {
+        "q": "OTA yönetimi için ayrı bir kişi veya ekip şart mı?",
+        "a": "Belirli hacmin üzerinde evet.<ul><li>gelir yönetimi,</li><li>online satış,</li><li>OTA yönetimi</li></ul>tek kişiye yüklendiğinde derinleşmek zorlaşır."
+      },
+      {
+        "q": "Tüm OTA kampanyalarını kapatmak direct satış için iyi mi?",
+        "a": "Hayır.<ul><li>görünürlük ve doluluk kaybı yaşanır,</li><li>OTA algoritmalarında pasif konuma düşülebilir.</li></ul>Amaç kampanyayı bitirmek değil, dozunu ayarlamaktır."
+      },
+      {
+        "q": "OTA içerik ve fotoğraflarını ne sıklıkla güncellemeliyim?",
+        "a": "<ul><li>sezon başlarında,</li><li>renovasyon veya konsept değişimlerinde,</li><li>önemli misafir geri bildirimleri geldikçe.</li></ul>"
+      },
+      {
+        "q": "Overbooking sadece channel manager sorunu mudur?",
+        "a": "Hayır.<ul><li>manuel müdahaleler,</li><li>PMS dışı allotment’lar,</li><li>geç işlenen iptaller</li></ul>de overbooking’e yol açabilir."
+      },
+      {
+        "q": "OTA yönetimi için dış destek almak mantıklı mı?",
+        "a": "Evet.<ul><li>yapı kurmak,</li><li>analitik raporlama,</li><li>kampanya ve parity kontrolü</li></ul>için deneyimli destek, deneme-yanılma süresini kısaltır."
+      }
+    ]
+  }
+    },
+
+    "cta": {
+      "primary": "Otel OTA hizmeti talep edin",
+      "primaryHref": "/Services/hotel/otaManagement",
+      "secondary": "Otel Dijital Pazarlama Hizmetleri",
+      "secondaryHref": "/Services/hotel"
+    }
+  },
+
+   "FaqHotelPmsIntegration": {
+    "h1": "Otel PMS Entegrasyonu SSS",
+    "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+    "intro": {
+      "p1": "Otel tarafında kabaca tablo şöyle:<ul><li>PMS bir tarafta,</li><li>web rezervasyon motoru ayrı yerde,</li><li>OTA’lar channel manager üzerinden takla atarak geliyor,</li><li>çağrı merkezi Excel’e not alıp sonra PMS’e girmeye çalışıyor…</li></ul>Sonuç: kopuk sistemler, çift veri girişi, hatalı kartlar, tutmayan fiyat & müsaitlik, rapor karmaşası ve overbooking riski.",
+      "p2": "Bu SSS, özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi yüksek hacimli oteller için, <b>PMS ↔ web ↔ OTA ↔ çağrı merkezi</b> entegrasyon mimarisini otorite seviyesinde netleştirmeyi amaçlıyor.",
+      "p3": ""
+    },
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "PMS entegrasyonu; web rezervasyon motoru, OTA/channel manager ve çağrı merkezi/CRM verisini PMS’te tek gerçek (single source of truth) olarak toplar. Hedef: çift veri girişini azaltmak, fiyat–müsaitlik tutarsızlıklarını önlemek, overbooking riskini düşürmek ve raporlamayı netleştirmek. Başarılı entegrasyon sadece teknik değil; satış, rezervasyon, call center ve yönetimin süreç tasarımını da kapsar."
+      
+    },
+    "voiceSummary": {
+      "title": "Kısa Özet",
+      "text": "PMS entegrasyonu, web–OTA–çağrı merkezi rezervasyonlarını PMS’te birleştirir. Çift veri girişini azaltır, overbooking riskini düşürür, raporlamayı güçlendirir. Channel manager entegrasyonun bir parçasıdır; mimari daha geniştir."
+      
+    },
+    "voiceQueries": {
+      "title": "Arama Sorguları",
+        "q1":"PMS entegrasyonu nedir",
+        "q2":"Otel PMS web rezervasyon motoru entegrasyonu",
+        "q3":"OTA channel manager PMS entegrasyonu",
+        "q4":"Çağrı merkezi rezervasyonları PMS’e nasıl düşer",
+        "q5":"Overbooking nasıl azaltılır PMS entegrasyonu",
+        "q6":"Otel entegrasyon mimarisi PMS OTA web call center"
+      
+    },
+    "meta": {
+      "url": "/tr/otel/pms-entegrasyonu-sss",
+      "serviceUrl": "/tr/otel/pms-entegrasyonu",
+      "title": "Otel PMS Entegrasyonu SSS – Web Sitesi, OTA ve Çağrı Merkezi ile Veri Akışı | DGTLFACE",
+      "description": "Otel PMS entegrasyonu, web rezervasyon motoru, OTA kanalları ve çağrı merkezi sistemleriyle çift yönlü veri akışı ve Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için entegrasyon mimarisi hakkında sık sorulan sorular.",
+      "silo": "Otel Dijital Pazarlama",
+      "locationFocus": "Türkiye geneli + Antalya, Belek, Kemer, Side, Bodrum, Alanya",
+      "sector": "Otel & Turizm",
+      "primaryIntent": "Transactional (PMS entegrasyonu teklifi)",
+      "secondaryIntent": "Bilgilendirici (Otorite)"
+    },
+    "sections": {
+      "generalQuestions": {
+        "title": "PMS Entegrasyonuna Genel Bakış",
+        "items": [
+          {
+            "q": "PMS entegrasyonu tam olarak nedir?",
+            "a": "PMS entegrasyonu; otelinizin otel yönetim sistemi (PMS) ile <ul><li>web rezervasyon motoru,</li><li>OTA’lar ve channel manager,</li><li>çağrı merkezi/santral ve CRM</li></ul>arasında <b>çift yönlü ve kontrollü veri akışı</b> kurulmasıdır. Amaç, tüm rezervasyon, fiyat ve misafir datasını tek merkezde (PMS’te) toplamak ve çift veri girişini ortadan kaldırmaktır."
+          },
+          {
+            "q": "PMS entegrasyonu otel için ne işe yarar?",
+            "a": "<ul><li>tüm kanallardan gelen rezervasyonların PMS’te birleşmesini sağlar,</li><li>fiyat ve müsaitlik bilgilerinin tek noktadan yönetilmesine imkân verir,</li><li>çift veri girişi ve insan hatalarını azaltır,</li><li>raporlamayı ve gelir/kanal analizini kolaylaştırır,</li><li>overbooking ve “tutmayan fiyat–müsaitlik” riskini düşürür.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonu olmadan da çalışabilir miyim?",
+            "a": "Teorik olarak evet; pratikte <ul><li>insan hatası,</li><li>rapor karmaşası,</li><li>overbooking,</li><li>gelir fırsat kaybı</li></ul>riski çok yükselir. Özellikle 20+ oda ve çok kanallı satış yapan otellerde entegrasyonsuz yapı sürdürülebilir değildir."
+          },
+          {
+            "q": "PMS entegrasyonu ile channel manager arasındaki fark nedir?",
+            "a": "<ul><li><b>Channel manager entegrasyonu:</b> PMS ↔ channel manager ↔ OTA hattında fiyat & envanter senkronu,</li><li><b>PMS entegrasyonu:</b> buna ek olarak web rezervasyon motoru, çağrı merkezi ve CRM’in PMS ile konuşmasını kapsayan genel veri omurgası.</li></ul>Yani channel manager, PMS entegrasyon mimarisinin sadece bir parçasıdır."
+          },
+          {
+            "q": "Otel PMS Entegrasyonu SSS kimler için uygundur?",
+            "a": "<ul><li>web + OTA + çağrı merkezinden rezervasyon alan,</li><li>rezervasyonları hâlâ Excel/mail üzerinden takip eden,</li><li>PMS ile diğer sistemler arasında kopukluk yaşayan,</li><li>raporlama ve gelir analizinde zorlanan</li></ul>tüm oteller için uygundur."
+          },
+          {
+            "q": "PMS entegrasyonu sadece zincir oteller için mi anlamlı?",
+            "a": "Hayır. <ul><li>butik,</li><li>şehir,</li><li>resort</li></ul>fark etmeksizin; belirli bir kanal ve rezervasyon hacminin üzerindeki her otel için entegre PMS yapısı anlamlı ve gereklidir."
+          },
+          {
+            "q": "PMS entegrasyonu sadece teknik bir IT işi midir?",
+            "a": "Teknik bir bacağı vardır ama sadece IT işi değildir. <ul><li>satış,</li><li>rezervasyon,</li><li>çağrı merkezi,</li><li>muhasebe ve yönetim</li></ul>tarafının süreç tasarımı ve veri ihtiyaçları dikkate alınmadan yapılan entegrasyonlar sonradan “yarım iş” olur."
+          },
+          {
+            "q": "PMS entegrasyonunda en büyük hedef nedir?",
+            "a": "Kısaca: <b>“Tüm rezervasyon ve misafir datasını, tek PMS üzerinde, tek gerçekle yönetmek.”</b> Bunu da <ul><li>minimum manuel iş,</li><li>minimum hata,</li><li>maksimum raporlama yeteneği</li></ul>ile yapmak."
+          }
+        ]
+      },
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "PMS entegrasyonu nedir, ne işe yarar?",
+            "a": "PMS entegrasyonu; web, OTA ve çağrı merkezi rezervasyonlarını PMS’te tek akışta toplar, çift veri girişini ve fiyat–müsaitlik tutarsızlıklarını azaltır."
+          },
+          {
+            "q": "Web, OTA ve çağrı merkezi verilerini PMS’te nasıl birleştiririm?",
+            "a": "Web rezervasyon motoru, channel manager ve çağrı merkezi sistemleri PMS’e entegre edilerek tüm rezervasyonların otomatik olarak PMS’e düşmesi sağlanmalıdır."
+          },
+          {
+            "q": "Çift veri girişi ve hatalı misafir kartlarını nasıl engellerim?",
+            "a": "Tüm rezervasyonları PMS üzerinden açıp, web/OTA/call center kanallarını PMS’e entegre ederek Excel/mail/defter gibi sistem dışı girişleri minimuma indirmelisiniz."
+          },
+          {
+            "q": "Fiyat ve müsaitlik bilgilerinin tutmaması neye yol açar?",
+            "a": "Yanlış fiyat ve stok; overbooking, revenue kaybı, misafir memnuniyetsizliği ve OTA/partner ilişkilerinde sorunlara yol açar."
+          },
+          {
+            "q": "PMS entegrasyonu overbooking’i gerçekten azaltır mı?",
+            "a": "Evet. Envanter PMS’ten yönetilir ve OTA/web/call center aynı envanteri ortak kullanırsa overbooking riski ciddi ölçüde düşer."
+          },
+          {
+            "q": "PMS entegrasyonu gelir ve raporlamayı nasıl etkiler?",
+            "a": "Tüm rezervasyon ve kanal verisi PMS’te birleştiği için; gelir, kanal performansı, pazar ve segment analizleri tek panelden sağlıklı şekilde raporlanabilir."
+          }
+        ]
+      },
+
+       "section3": {
+        "title": "Entegrasyon Mimarisi & Veri Akışı",
+        "items": [
+          {
+            "q": "PMS entegrasyonu mimarisi nasıl kurgulanır?",
+            "a": "Basit şema:<ul><li>PMS ↔ channel manager ↔ OTA’lar</li><li>PMS ↔ web rezervasyon motoru</li><li>PMS ↔ çağrı merkezi/CRM</li></ul>Tüm rezervasyon ve fiyat/veri akışı bu omurga üzerinden geçmelidir."
+          },
+          {
+            "q": "“Çift yönlü veri akışı” ne demektir?",
+            "a": "<ul><li>PMS’ten fiyat ve envanter bilgisi dış sistemlere gider,</li><li>dış sistemlerden (web, OTA, call center) gelen rezervasyonlar PMS’e geri gelir.</li></ul>Yani sadece “push” değil; <b>push + pull</b> mantığıyla çalışır."
+          },
+          {
+            "q": "PMS ve web rezervasyon motoru arasında hangi veriler gider gelir?",
+            "a": "Genelde:<ul><li><b>PMS → web:</b> fiyat, envanter, oda tipi, sezon ve kampanya bilgileri,</li><li><b>web → PMS:</b> yeni rezervasyonlar, iptal/değişiklikler, misafir bilgileri.</li></ul>"
+          },
+          {
+            "q": "PMS ve channel manager–OTA hattında veri akışı nasıldır?",
+            "a": "<ul><li><b>PMS → channel manager → OTA’lar:</b> oda, fiyat, müsaitlik güncellemeleri,</li><li><b>OTA → channel manager → PMS:</b> rezervasyon, iptal, değişiklikler.</li></ul>Mapping doğru değilse; yanlış oda/fiyat satışı ve “tutmayan müsaitlik” problemi yaşanır."
+          },
+          {
+            "q": "PMS ile çağrı merkezi entegrasyonunda hangi veriler önemlidir?",
+            "a": "<ul><li>çağrı veya lead kaynağı (telefon, WhatsApp, sosyal medya),</li><li>teklif ve rezervasyon kayıtları,</li><li>misafir kartları ve notlar,</li><li>satış sonrası iletişim kayıtları.</li></ul>Çağrı merkezi sadece “telefon açan bir birim” değil; PMS ile entegre çalışan bir <b>satış ve CRM bileşeni</b> olmalıdır."
+          },
+          {
+            "q": "PMS entegrasyonunda API’ler ne rol oynar?",
+            "a": "API’ler; PMS’in diğer sistemlerle kurallı ve güvenli şekilde konuşmasını sağlayan teknik köprülerdir. <ul><li>doğru API seti,</li><li>versiyon & dokümantasyon,</li><li>izin ve güvenlik yönetimi</li></ul>sağlıklı bir entegrasyon için kritiktir."
+          },
+          {
+            "q": "PMS entegrasyonunda middleware / ara katman kullanmak ne işe yarar?",
+            "a": "Bazen PMS, web rezervasyon motoru, call center ve CRM arasında ek veri işleme ve temizleme gerekir. Middleware; <ul><li>loglama,</li><li>veri dönüşümü,</li><li>ek iş kuralları</li></ul>için kullanılabilir. Karmaşık mimarilerde faydalıdır."
+          },
+          {
+            "q": "Entegrasyon mimarisi tasarlanırken hangi departmanlar işin içinde olmalı?",
+            "a": "<ul><li>IT / teknik ekip,</li><li>rezervasyon & satış,</li><li>revenue & kanal yönetimi,</li><li>muhasebe (fatura, folio, gelir dağılımı),</li><li>yönetim.</li></ul>Tek başına IT’nin çözdüğü entegrasyonlar çoğu zaman iş süreçlerine tam uymadığı için tekrar revizyon gerektirir."
+          },
+          {
+            "q": "Eski bir PMS veya kapalı sistemle entegrasyon mümkün mü?",
+            "a": "<ul><li>bazı eski PMS’ler kısıtlı veya hiç API sunmaz,</li><li>bu durumda import–export, dosya/CSV tabanlı entegrasyonlar denenebilir,</li><li>ancak sürdürülebilir ve gerçek zamanlı yapı için uzun vadede entegrasyona açık PMS’e geçiş gerekebilir.</li></ul>"
+          },
+          {
+            "q": "Entegrasyon mimarisinde güvenlik (KVKK & veri güvenliği) nasıl düşünülmeli?",
+            "a": "<ul><li>hangi verinin hangi sisteme gidip geldiği,</li><li>hangi kullanıcıların hangi sistemlere eriştiği,</li><li>loglama ve saklama süreleri,</li><li>çerez ve izin yönetimi</li></ul>KVKK perspektifiyle birlikte ele alınmalıdır. Teknik entegrasyon KVKK’ya uygun değilse risklidir."
+          }
+        ]
+      },
+      "section4": {
+        "title": "Web Rezervasyon Motoru & PMS Entegrasyonu",
+        "items": [
+          {
+            "q": "Web rezervasyonları PMS’e otomatik nasıl düşer?",
+            "a": "<ul><li>booking engine, PMS’e doğrudan veya channel manager üzerinden entegre edilir,</li><li>rezervasyon tamamlandığında PMS API’sine kayıt gönderilir,</li><li>PMS; oda, fiyat planı ve misafir bilgilerini alıp doğru oda tipine işler.</li></ul>"
+          },
+          {
+            "q": "Booking engine ile PMS entegrasyonunda en sık görülen hatalar nelerdir?",
+            "a": "<ul><li>eksik veya yanlış mapping (oda/fiyat planı eşleştirmeleri),</li><li>rezervasyonun PMS’te yanlış tarihe/odaya düşmesi,</li><li>çocuk/ek misafir bilgilerinin hatalı transferi,</li><li>iptal/değişikliklerin PMS’e işlenmemesi.</li></ul>"
+          },
+          {
+            "q": "Web rezervasyonlarında çift veri girişini nasıl engellerim?",
+            "a": "<ul><li>rezervasyon motoru tamamen PMS entegrasyonuna bağlanmalı,</li><li>mail/Excel üzerinden manuel rezervasyon girişi en aza indirilmeli,</li><li>telefon veya DM’den alınan rezervasyonlar bile PMS üzerinden açılmalıdır.</li></ul>"
+          },
+          {
+            "q": "Web kampanyaları (landing page, paketler) PMS ile nasıl uyumlu olmalı?",
+            "a": "<ul><li>landing page’de gösterilen oda ve paketler,</li><li>PMS’te karşılığı olan oda/fiyat planı kombinasyonlarıyla uyumlu olmalı.</li></ul>Aksi durumda rezervasyon motorunda ve PMS’te karmaşa yaşanır."
+          },
+          {
+            "q": "Web rezervasyonlarında “no-show, iptal, değişiklik” PMS’te nasıl takip edilmelidir?",
+            "a": "<ul><li>tüm değişiklikler booking engine → PMS akışında otomatik işlenmeli,</li><li>PMS tarafında statüler (iptal, no-show, stay-over vb.) doğru güncellenmeli,</li><li>raporlar bu statülere göre çekilmelidir.</li></ul>"
+          },
+          {
+            "q": "Fiyat ve müsaitlik tutarsızlıkları web + PMS entegrasyonunda nasıl oluşur?",
+            "a": "<ul><li>PMS’ten booking engine’e fiyat/veri akışının kapalı veya hatalı olması,</li><li>booking engine tarafında “lokal fiyat oynatma” yapılması,</li><li>cache ve güncelleme frekanslarının uyumsuz olması.</li></ul>"
+          },
+          {
+            "q": "Web rezervasyon motoru değiştirirken PMS entegrasyonu açısından neleri kontrol etmeliyim?",
+            "a": "<ul><li>yeni motorun PMS entegrasyon yetenekleri (API, hazır connector),</li><li>mapping ve veri alanlarının uyumu,</li><li>GA4 ve reklam tracking desteği ile birlikte çalışabilirlik,</li><li>KVKK ve güvenlik politikaları.</li></ul>"
+          },
+          {
+            "q": "Web + PMS entegrasyonu raporlama açısından ne kazandırır?",
+            "a": "<ul><li>direkt web kanalından gelen rezervasyonları,</li><li>oda/segment/ülke bazlı dağılımı,</li><li>direct kanalın OTA’lara göre performansını</li></ul>tek panelde takip edebilmenizi sağlar."
+          }
+        ]
+      },
+      "section5": {
+        "title": "OTA & Channel Manager – PMS Senkronizasyonu",
+        "items": [
+          {
+            "q": "OTA ve channel manager PMS ile nasıl senkronize edilir?",
+            "a": "<ul><li>PMS’teki oda ve fiyat planları, channel manager’da mapping ile eşleştirilir,</li><li>PMS’te yapılan fiyat ve envanter değişiklikleri channel manager üzerinden OTA’lara push edilir,</li><li>OTA’dan gelen rezervasyon ve değişiklikler channel manager üzerinden PMS’e yazılır.</li></ul>"
+          },
+          {
+            "q": "Mapping hataları hangi sorunlara yol açar?",
+            "a": "<ul><li>yanlış oda tipinin satılması,</li><li>yanlış fiyat planının gösterilmesi,</li><li>PMS ve OTA arasında “tutmayan stok” ve overbooking riski.</li></ul>Mapping, entegrasyonun en kritik adımlarındandır."
+          },
+          {
+            "q": "PMS entegrasyonu overbooking riskini nasıl azaltır?",
+            "a": "<ul><li>tüm stok PMS’ten yönetilir ve OTA, web, call center aynı stok havuzunu kullanırsa,</li><li>channel manager ve PMS arasındaki senkron iyi çalışıyorsa,</li><li>manuel stok müdahaleleri minimuma indirilirse</li></ul>overbooking riski dramatik şekilde düşer."
+          },
+          {
+            "q": "OTA iptal ve değişikliklerinin PMS’te görünmemesi ne problem yaratır?",
+            "a": "<ul><li>odanın hâlâ dolu görünüp satılamaması veya tam tersi,</li><li>doluluk ve gelir raporlarının yanlışa kayması,</li><li>misafir check-in’inde “sizi göremiyoruz” krizleri.</li></ul>"
+          },
+          {
+            "q": "PMS–OTA entegrasyonu yavaş veya gecikmeli çalışırsa ne olur?",
+            "a": "<ul><li>yüksek sezonda “stale data” (eski veri) problemi oluşur,</li><li>son odaların aynı anda farklı kanallarda satılması overbooking riskini artırır,</li><li>fiyat ve stok kararlarının güncellenmesi gecikir.</li></ul>"
+          },
+          {
+            "q": "Channel manager değiştirirken PMS entegrasyonunu nasıl yönetmeliyim?",
+            "a": "<ul><li>yeni channel manager’ın PMS entegrasyon durumunu ve API’lerini kontrol edin,</li><li>mapping’i sıfırdan gözden geçirin,</li><li>geçişte eski ve yeni sistemi paralel ve kontrollü kullanın,</li><li>test rezervasyonlarıyla tüm akışı doğrulayın.</li></ul>"
+          },
+          {
+            "q": "OTA–PMS entegrasyonunda loglama ve hata raporları neden önemlidir?",
+            "a": "Çünkü şunları ancak loglarla net yakalarsınız:<ul><li>hangi rezervasyonun ne zaman hangi sistemde hata verdiği,</li><li>hangi fiyat/stok güncellemesinin OTA’ya gitmediği,</li><li>hangi iptal/değişikliklerin PMS’te eksik kaldığı.</li></ul>Entegrasyonun sağlığını izlemek için şarttır."
+          },
+          {
+            "q": "OTA entegrasyonu ve PMS entegrasyonu aynı projede mi düşünülmeli?",
+            "a": "Evet. OTA entegrasyonu; PMS entegrasyon mimarisinin bir parçasıdır. Sadece OTA’yı çözüp web/call center’ı dışarıda bırakmak (veya tam tersi), parçalı ve hataya açık bir yapı üretir."
+          }
+        ]
+      },
+      "section6": {
+        "title": "Çağrı Merkezi & PMS Entegrasyonu",
+        "items": [
+          {
+            "q": "Çağrı merkezi rezervasyonları PMS’e nasıl işlenmeli?",
+            "a": "<ul><li>çağrı merkezi, rezervasyonu Excel veya kağıt yerine direkt PMS’te açmalı,</li><li>rezervasyon kaynağı “call center / telefon / WhatsApp” gibi işaretlenmeli,</li><li>PMS kayıtları misafir kartlarıyla ilişkilendirilmelidir.</li></ul>"
+          },
+          {
+            "q": "Çağrı merkezi yazılımı ile PMS entegrasyonu ne kazandırır?",
+            "a": "<ul><li>çağrı–teklif–rezervasyon zinciri,</li><li>misafir geçmişi ve notlar,</li><li>gelir ve kanal katkısı</li></ul>tek panelden takip edilebilir. Ayrıca operatörler, PMS içinden gerçek müsaitlik ve fiyatları görebilir."
+          },
+          {
+            "q": "Çağrı merkezi rezervasyonlarının PMS’ten bağımsız tutulması ne risk taşır?",
+            "a": "<ul><li>“görünmeyen” rezervasyonlar,</li><li>overbooking veya yanlış oda tahsisi,</li><li>call center performansını ve gelir katkısını ölçememe,</li><li>raporların gerçeği yansıtmaması.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonu çağrı merkezi script ve süreçlerine nasıl yansır?",
+            "a": "<ul><li>operatör, PMS’ten gerçek zamanlı oda/fiyat bilgisi görür,</li><li>teklif ve opsiyonlar PMS notlarına işlenir,</li><li>satış sonrası misafir iletişimi de PMS üzerinden izlenir.</li></ul>Bu, hem satış hem CRM tarafında kaliteyi artırır."
+          },
+          {
+            "q": "Çağrı merkeziyle OTA/web arasında PMS üzerinden nasıl köprü kurulur?",
+            "a": "<ul><li>OTA veya web’ten gelen talepler, PMS notlarıyla call center’a devredilir,</li><li>call center, PMS üzerinden rezervasyon/upsell yapar,</li><li>bütün süreç tek misafir kartında birleşir.</li></ul>"
+          },
+          {
+            "q": "Farklı saatlerde çalışan çağrı merkezi ve otel resepsiyonu PMS tarafında nasıl hizalanmalı?",
+            "a": "<ul><li>her birimin PMS içinde kendi rol ve yetkileri olmalı,</li><li>devredilen rezervasyon ve talepler için not ve task sistemi kullanılmalı,</li><li>shift değişimlerinde PMS üzerinden kısa raporlar paylaşılmalıdır.</li></ul>"
+          }
+        ]
+      },
+
+      "section7": {
+        "title": "Performans, Raporlama & Gelir Etkisi",
+        "items": [
+          {
+            "q": "PMS entegrasyonu gelir yönetimini nasıl etkiler?",
+            "a": "<ul><li>tüm kanalların (web, OTA, call center) doluluk ve gelir datası PMS’te birleştiği için,</li><li>kanal ve pazar bazlı performans netleşir,</li><li>gelir ve fiyat kararları daha güvenilir veriye dayanır.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonu raporlama tarafında ne kazandırır?",
+            "a": "<ul><li>tek PMS üzerinden,</li><li>ülke, segment, kanal, oda tipi, kampanya bazlı raporlar,</li><li>günlük, haftalık, aylık performans tablosu</li></ul>hazırlamak kolaylaşır. Raporlar için sürekli Excel birleştirme ihtiyacı azalır."
+          },
+          {
+            "q": "GA4, PMS ve OTA verilerini PMS entegrasyonuyla nasıl bağlarım?",
+            "a": "<ul><li>PMS, rezervasyon ve gelir verisinin ana kaynağı olur,</li><li>GA4 ve OTA raporları PMS verisiyle eşleştirilerek “hangi kanal ve kampanyanın ne kadar gelir ürettiği” netleştirilir.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonu overbooking ve veri hatalarını ne kadar azaltır?",
+            "a": "Doğru kurgulanmış bir entegrasyonda; <ul><li>stok tek merkezden yönetildiği,</li><li>iptal/değişiklikler PMS’e düzgün işlendiği,</li><li>manuel giriş minimuma indiği</li></ul>için overbooking ve veri hataları kayda değer şekilde düşer."
+          },
+          {
+            "q": "Entegrasyon hataları doluluk ve geliri nasıl doğrudan vurur?",
+            "a": "<ul><li>PMS’te dolu görünen, OTA’da boş görünen odalar → satılamayan stok,</li><li>PMS’te boş görünen, OTA’da satılmış odalar → overbooking,</li><li>yanlış fiyat → revenue kaybı veya kullanıcı tepkisi.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonu sonrası direct vs OTA paylarımı daha iyi görebilir miyim?",
+            "a": "Evet. <ul><li>her kanaldan gelen rezervasyon kaynağı PMS’te doğru işaretlenirse,</li><li>direct pay, OTA payı ve kanal kârlılığı net şekilde raporlanabilir.</li></ul>"
+          },
+          {
+            "q": "Entegrasyonun sağlığını takip etmek için hangi teknik KPI’ları kullanabilirim?",
+            "a": "<ul><li>hata veren rezervasyon oranı,</li><li>manuel düzeltme sayısı,</li><li>PMS–OTA–web rezervasyon sayılarındaki fark,</li><li>loglarda görünen hata ve timeout kayıtları.</li></ul>"
+          }
+        ]
+      },
+
+      "section8": {
+        "title": "Pain Point: Kopuk Sistemler, Çift Veri, Hatalı Kartlar",
+        "items": [
+          {
+            "q": "Kopuk sistemler ne anlama gelir, otel için ne sorun yaratır?",
+            "a": "<ul><li>PMS, web, OTA ve çağrı merkezi birbirinden bağımsız çalışıyorsa,</li><li>veri akışı manuel ve parçalıdır,</li><li>her departmanın elinde farklı rakamlar olur.</li></ul>Bu da: overbooking, yanlış fiyat, rapor karmaşası ve verimsiz iş gücüne yol açar."
+          },
+          {
+            "q": "Çift veri girişi neden bu kadar tehlikeli?",
+            "a": "<ul><li>bir rezervasyon birden fazla kez veya farklı şekillerde girilebilir,</li><li>misafir kartı çoğalır,</li><li>iptal/değişiklikler bir yerde işlenir, diğerinde kalır,</li><li>raporlar çelişkili sonuçlar verir.</li></ul>"
+          },
+          {
+            "q": "Hatalı misafir kartları hangi sorunlara yol açar?",
+            "a": "<ul><li>CRM ve sadakat çalışmaları zorlaşır,</li><li>misafir geçmişi ve tercih bilgisi yanlış görünür,</li><li>kişiselleştirme ve remarketing potansiyeli düşer.</li></ul>"
+          },
+          {
+            "q": "Tutmayan fiyat ve müsaitlik bilgileri otel için ne ifade eder?",
+            "a": "<ul><li>misafire OTA’da farklı, telefonda farklı fiyat söylemek,</li><li>dolu odanın boş, boş odanın dolu görünmesi,</li><li>müşteri güvenini zedeler; gelir ve itibar kaybı yaratır.</li></ul>"
+          },
+          {
+            "q": "PMS entegrasyonunda yapılan en yaygın hata ne?",
+            "a": "<b>“Önce entegrasyonu açıp sonra süreçleri düşünmek.”</b> Yani teknik bağlantı yapılır ama iş akışları (kim, neyi, nereden kullanacak?) tasarlanmamıştır. Sonuç: entegrasyon var ama herkes hâlâ Excel kullanıyordur."
+          },
+          {
+            "q": "PMS entegrasyonunu “bir kere kurup unuttuğumuz” model neden yanlıştır?",
+            "a": "<ul><li>PMS, booking engine, OTA ve call center sistemleri zamanla güncellenir,</li><li>yeni pazarlar, yeni oda tipleri ve kampanyalar eklenir,</li><li>entegrasyon ayarları revize edilmezse, hatalar birikir.</li></ul>Entegrasyon, canlı bir organizma gibi periyodik sağlık kontrolü ister."
+          }
+        ]
+      },
+
+      "section9": {
+        "title": "GEO & Destinasyon Odaklı PMS Entegrasyonu",
+        "items": [
+          {
+            "q": "Türkiye’deki resort destinasyonlar için PMS entegrasyonu neden daha kritik?",
+            "a": "<ul><li>oda sayısı yüksek,</li><li>rezervasyon hacmi büyük,</li><li>OTA ve acente sayısı fazla,</li><li>call center ve web trafiği yoğun.</li></ul>Bu kombinasyon, manuel veya kopuk sistemli çalışmayı imkânsız hale getirir."
+          },
+          {
+            "q": "Antalya, Belek, Kemer, Side, Bodrum, Alanya otellerinde entegrasyon öncelikleri neler olmalı?",
+            "a": "<ul><li>PMS ↔ channel manager ↔ OTA hattının sağlam kurulması,</li><li>PMS ↔ web booking engine entegrasyonu,</li><li>PMS ↔ call center/CRM entegrasyonu,</li><li>tüm kanal ve pazarlar için doğru mapping ve raporlama.</li></ul>"
+          },
+          {
+            "q": "City otelleri için PMS entegrasyonu öncelikleri farklı mı?",
+            "a": "<ul><li>corporate ve MICE rezervasyon akışları,</li><li>kısa konaklama ve last minute rezervasyonlar,</li><li>OTA + direct + corporate akışlarının PMS üzerinden yönetimi</li></ul>city otellerde daha fazla öne çıkar."
+          },
+          {
+            "q": "Zincir otellerde PMS entegrasyonu nasıl ele alınmalı?",
+            "a": "<ul><li>multi-property PMS yapıları,</li><li>ortak CRM ve raporlama,</li><li>property bazlı ama grup seviyesinde konsolide veri mimarisi,</li><li>tüm otellerde standardize süreçler.</li></ul>"
+          }
+        ]
+      },
+
+      "section10": {
+        "title": "Mini PMS Entegrasyonu SSS",
+        "items": [
+          {
+            "q": "PMS entegrasyonu için “küçük adım” ile başlamak mümkün mü?",
+            "a": "Evet.<ul><li>önce en kritik akış (örneğin OTA + PMS),</li><li>ardından web ve call center</li></ul>gibi bir sıra izleyerek, entegrasyonu fazlara bölmek mümkündür."
+          },
+          {
+            "q": "PMS entegrasyonu için dış destek almak mantıklı mı?",
+            "a": "Özellikle çok kanallı, çok pazarlı ve entegrasyon deneyimi sınırlı ekiplere sahip oteller için;<ul><li>mimari kurgu,</li><li>test ve go-live planlaması,</li><li>sorun giderme ve raporlama çerçevesi</li></ul>açısından deneyimli bir entegrasyon partneriyle çalışmak, “pahalı hataları” azaltabilir."
+          }
+        ]
+      }
+    
+    },
+    "cta": {
+      "primary": "PMS Entegrasyonu hizmeti talep edin",
+      "primaryHref": "/Services/hotel/pmsIntegration",
+      "secondary": "Otel Dijital Pazarlama Hizmetleri",
+      "secondaryHref": "/Services/hotel"
+    }
+  },
+
+  "FaqHotelCallCenterReservation": {
+    "h1":"Otel Çağrı Merkezi & Rezervasyon SSS",
+
+       "toc": {
+      "title": "İçindekiler",
+      "note": "Başlıklara tıklayarak ilgili bölüme hızlıca gidebilirsiniz.",
+      "intro": "Genel Bakış",
+      "aiCapsule": "Kısa Özet",
+      "voiceSummary": "Kısa Özet",
+      "voiceQueries": "Arama Sorguları"
+    },
+
+      "intro": {
+      "p1": "Telefon, WhatsApp, OTA mesajları, web formu, Instagram DM… Misafir aslında hep aynı şeyi soruyor: “Bu otelde ne zaman, ne fiyata, nasıl kalırım?” Ama otel tarafında tablo çoğu zaman şöyle: <ul><li>Cevapsız veya geri dönülmeyen çağrılar,</li><li>Kimin ne teklif verdiği belli olmayan dağınık süreçler,</li><li>PMS’e hiç girilmemiş rezervasyonlar,</li><li>Satışa dönmeyen, ölçülemeyen aramalar.</li></ul>",
+      "p2": "Bu sayfa; Otel Çağrı Merkezi & Rezervasyon yapısını, özellikle PMS–OTA entegrasyonlu, çok dilli ve satış odaklı bir “direct booking voice channel” haline getirmek isteyen oteller için hazırlandı."
+    },
+
+    "aiCapsule": {
+      "title": "Kısa Özet",
+      "text": "Otel çağrı merkezi; telefon/WhatsApp/OTA mesajı gibi kanalları, PMS’e entegre ve satış odaklı bir “direct booking voice channel” yapısına dönüştürür. Omnichannel (telefon + WhatsApp + OTA inbox + web form + DM) tek bir süreç ve script ile yönetilmeli. Her teklif ve rezervasyon mutlaka PMS’e kaydedilmeli; kaynak alanı (call center/telefon/WhatsApp) işaretlenmeli. KPI ve geri arama (callback) süreçleri olmadan çağrı trafiği ölçülemez ve satışa dönüşmez."
+    },
+
+    "voiceSummary": {
+      "title":"Kısa Özet",
+      "text":"Otel çağrı merkezi; çok kanallı talepleri satış odaklı yönetir, PMS’e kaydeder ve direct rezervasyonu artırır."
+    },
+    "voiceQueries": {
+      "title": "Arama Sorguları",
+      "q1":"Otel çağrı merkezi nedir?",
+      "q2":"Telefonla rezervasyon dönüşümü nasıl artırılır?",
+      "q3":"Cevapsız çağrılar nasıl azaltılır?",
+      "q4":"Call center rezervasyonları PMS’e nasıl işlenir?",
+      "q5":"Çağrı merkezi direct booking’i nasıl artırır?",
+      "q6":"Otel çağrı merkezi outsource mu iç ekip mi olmalı?"
+    },
+
+    "sections": {
+      "generalQuestions": {
+        "title": "Otel Çağrı Merkezi & Rezervasyon Hakkında Genel Sorular",
+        "items": [
+          {
+            "q": "Otel çağrı merkezi & rezervasyon hattı tam olarak nedir?",
+            "a": "Otel çağrı merkezi & rezervasyon hattı; misafirlerin telefon, WhatsApp, OTA mesajları ve web formu gibi kanallardan ilettiği talep, soru ve rezervasyon isteklerini <ul><li>çok dilli,</li><li>satış odaklı,</li><li>PMS ile entegre,</li><li>standart script ve süreçlerle</li></ul>yöneten bir iletişim ve satış yapısıdır. Amaç, bu kanalları “sadece bilgi verilen yer” değil, direkt rezervasyon üreten satış hattı haline getirmektir."
+          },
+          {
+            "q": "Otel çağrı merkezi yönetimi ne işe yarar?",
+            "a": "Doğru kurgulanmış bir çağrı merkezi: <ul><li>cevaplanma oranını yükseltir,</li><li>telefonla rezervasyon dönüşümünü artırır,</li><li>web/OTA kaynaklı kararsız misafiri direct kanala çeker,</li><li>PMS ve OTA ile entegre çalışarak overbooking ve veri hatalarını azaltır,</li><li>satış & dönüşüm raporlarında gerçek “voice channel” katkısını görünür kılar.</li></ul>"
+          },
+          {
+            "q": "Neden otel için özel bir çağrı merkezi & rezervasyon hattı gerekir?",
+            "a": "Çünkü resepsiyon, yoğun sezonda <ul><li>check-in/out,</li><li>oda değişiklikleri,</li><li>misafir talepleri</li></ul>gibi operasyonel yük altında telefonları gerektiği gibi yönetemez. Özel rezervasyon hattı, bu yükü azaltır; misafirle konuşan ekip, tamamen rezervasyon ve satış odaklı olur."
+          },
+          {
+            "q": "Otel çağrı merkezi sadece telefonla mı çalışır?",
+            "a": "Hayır. Modern otel call center yapısı genellikle <ul><li>telefon,</li><li>WhatsApp & SMS,</li><li>OTA mesaj kutuları,</li><li>web chat / canlı destek,</li><li>sosyal medya DM</li></ul>gibi çok kanallı (omnichannel) çalışır. Ama tüm bu kanalların arka planında, tek rezervasyon ve veri kaynağı olarak PMS olmalıdır."
+          },
+          {
+            "q": "Otel çağrı merkezi & rezervasyon hattı hangi departmana bağlı olmalı?",
+            "a": "En sağlıklı modelde: <ul><li>gelir & satış (revenue / sales) hedefleriyle uyumlu,</li><li>PMS ve OTA yönetimiyle yakın çalışan,</li><li>doğrudan GM veya satış/gelir direktörüne raporlayan</li></ul>bir yapı olmalıdır. Sadece “operasyonel yanıt hattı” olarak değil, gelir üreten birim olarak konumlanmalıdır."
+          },
+          {
+            "q": "Otel Çağrı Merkezi & Rezervasyon SSS kimler için uygundur?",
+            "a": "<ul><li>telefon trafiği ve WhatsApp talebi yüksek olan,</li><li>OTA’lardan çok soru/mesaj alan,</li><li>PMS entegrasyonu olmayan veya zayıf olan,</li><li>cevapsız/ölçülemeyen çağrılarla mücadele eden,</li><li>“telefonla satış” açısından standardı olmayan</li></ul>tüm oteller için."
+          },
+          {
+            "q": "Çağrı merkezi içerde mi kurulmalı, outsource mu edilmelidir?",
+            "a": "Bu, oda sayısı, talep hacmi, dil ihtiyacı ve bütçeye bağlı: <ul><li><b>İçeride:</b> maksimum kontrol ve marka tonu; insan kaynağı yükü yüksek.</li><li><b>Outsource:</b> opsiyonel kapasite, çok dil; kontrol ise süreç ve SLA’lerle sağlanmalı.</li><li><b>Hibrit:</b> gündüz otel içi, akşam/gece outsource çağrı merkezi; otel PMS ve script’leri ortak.</li></ul>"
+          },
+          {
+            "q": "Otel çağrı merkezi “müşteri hizmetleri” mi, “satış” hattı mı olmalı?",
+            "a": "İkisi de, ama öncelik satış ve rezervasyondan yana olmalı. <ul><li>önce misafirin ihtiyacını anlayan,</li><li>sonra uygun oda ve konsepti satış odaklı sunan,</li><li>en sonunda gerekli durumlarda şikâyet ve bilgi taleplerini yöneten</li></ul>yapı idealdir."
+          }
+        ]
+      },
+
+      "quickAnswers": {
+        "title": "Sesli Arama İçin Kısa Sorular",
+        "items": [
+          {
+            "q": "Otel çağrı merkezi nedir, ne işe yarar?",
+            "a": "Otel çağrı merkezi; telefon ve mesaj kanallarından gelen rezervasyon ve bilgi taleplerini profesyonel, satış odaklı ve PMS ile entegre şekilde yöneten birimdir."
+          },
+          {
+            "q": "Otel çağrı merkezi & rezervasyon hattı tam olarak nedir?",
+            "a": "Misafirin telefonu veya mesajıyla başlayan süreci, teklif → rezervasyon → PMS kaydı zincirine dönüştüren çok dilli satış hattıdır."
+          },
+          {
+            "q": "Telefonla rezervasyon dönüşümü nasıl artırılır?",
+            "a": "Doğru script, net fiyat & oda bilgisi, PMS’ten anlık stok ve satış odaklı kapanış cümleleriyle; her çağrıyı “denenmiş bir satış fırsatı”na çevirmek gerekir."
+          },
+          {
+            "q": "Cevapsız ve ölçülemeyen çağrılar nasıl azaltılır?",
+            "a": "Çağrı merkezi yazılımı, doğru vardiya planı, geri arama (callback) süreçleri ve KPI takibiyle; gelen her çağrının kaydının tutulması ve geri dönüşlerinin izlenmesi gerekir."
+          },
+          {
+            "q": "Call center rezervasyonları PMS’e nasıl işlenir?",
+            "a": "Operatör, rezervasyonu doğrudan PMS’te açmalı; kanal/source alanına “call center / telefon / WhatsApp” gibi etiket girilmelidir."
+          },
+          {
+            "q": "Otel çağrı merkezi direct booking oranını nasıl etkiler?",
+            "a": "Kararsız veya OTA’da araştırma yapan misafiri, telefonla ikna ederek OTA komisyonu ödenmeden direct rezervasyon almanızı sağlayan en kritik kanallardan biridir."
+          }
+        ]
+      },
+      "section3": {
+        "title": "Hizmet Kapsamı: Kanallar, Diller, Çalışma Saatleri",
+        "items": [
+          {
+            "q": "Otel çağrı merkezi hangi kanalları kapsamalı?",
+            "a": "• Gelen & giden telefon çağrıları,\n• WhatsApp Business / SMS,\n• OTA mesaj kutuları (Booking.com Inbox, Expedia Messaging…),\n• web chat / canlı destek,\n• sosyal medya DM (Instagram/Facebook).\n\nBunların hepsi için tek ekip ve tek süreç tanımlanmalıdır."
+          },
+          {
+            "q": "Çok dilli otel çağrı merkezi nasıl kurgulanır?",
+            "a": "• hangi pazarlardan ne kadar talep geldiği analiz edilir (TR–EN–DE–RU vb.),\n• dil bazlı vardiya ve temsilci planı yapılır,\n• script ve eğitim içerikleri her dil için lokalize edilir,\n• dil bazlı performans metrikleri ayrı raporlanır."
+          },
+          {
+            "q": "Otel çağrı merkezinde hangi diller minimum olmalı?",
+            "a": "Destinasyona göre değişir ama özellikle:\n• Türkiye resort bölgelerinde → TR, EN, DE, RU,\n• city otellerde → TR + EN ve hedef pazar(lar).\n\nYeni pazarlara açıldıkça, call center kapasitesi de bu pazarlara göre genişletilmelidir."
+          },
+          {
+            "q": "Çalışma saatleri nasıl belirlenmeli?",
+            "a": "• gelen çağrı ve mesaj yoğunluğu,\n• hedef pazarın saat farkı,\n• OTA’dan gelen soru/istek yoğunluğu,\n\ngibi verilerle; minimum bir 08:00–23:00 bandı, yüksek hacimli otellerde ise 7/24 veya geç saate kadar hizmet düşünülmelidir."
+          },
+          {
+            "q": "Çağrı merkezi sadece yüksek sezonda mı aktif olmalı?",
+            "a": "Hayır.\n• high season’da yük daha fazla,\n• shoulder ve low sezonda ise doğru kullanılırsa kampanya, CRM ve upsell için çok değerli bir araçtır.\n\nHer sezonda farklı rol alacak şekilde planlamak gerekir."
+          },
+          {
+            "q": "Otel çağrı merkezi sadece inbound (gelen çağrı) mı yönetir?",
+            "a": "En verimli modellerde hem inbound hem outbound vardır:\n• Inbound: misafirin aradığı / mesaj attığı hat,\n• Outbound: teklif takip, opsiyon hatırlatma, CRM aramaları, VIP & Sadakat aramaları."
+          },
+          {
+            "q": "Çağrı merkezi hangi misafir segmentlerini desteklemeli?",
+            "a": "• bireysel FIT misafirler,\n• aile ve balayı segmentleri,\n• MICE & grup rezervasyon ön talepleri (en azından filtreleme ve yönlendirme),\n• OTA & partner kaynaklı sorular."
+          },
+          {
+            "q": "Otel çağrı merkezi ile rezervasyon departmanı aynı ekip mi olmalı?",
+            "a": "Küçük otellerde genellikle evet, ama hacim arttıkça:\n• call center (ilk temas, satış, teklif),\n• rezervasyon (PMS ve oda yönetimi, allotment, kontratlar)\n\nrollerini ayrıştırmak, iş yükü ve uzmanlık açısından daha sağlıklıdır."
+          }
+        ]
+      },
+      "section4": {
+        "title": "Detaylı Süreç & İşleyiş: Çağrı Akışı, Script, Teklif",
+        "items": [
+          {
+            "q": "Otel çağrı merkezinde standart bir çağrı akışı nasıl olmalı?",
+            "a": "Tipik satış odaklı akış:\n1. Karşılama ve otel/hat tanıtımı,\n2. Misafir ihtiyacının anlaşılması (tarih, kişi sayısı, beklenti),\n3. Uygun oda ve konsept seçeneklerinin sunulması,\n4. Fiyat ve değer anlatımı,\n5. İtirazların yönetimi,\n6. Kapanış (rezervasyon alma veya teklif/opsiyon).\n\nHer adım, script’lerle desteklenmelidir."
+          },
+          {
+            "q": "Script nedir, otel çağrı merkezinde neden kritiktir?",
+            "a": "Script; karşılamadan kapanışa kadar ana cümle ve akışları standartlaştıran rehber metindir.\n• her temsilci farklı tarzda olsa da,\n• “marka dili” ve “satış omurgası” aynı kalır.\n\nBu, hem kaliteyi hem ölçülebilirliği artırır."
+          },
+          {
+            "q": "“Script kullanırsak görüşmeler yapay olmaz mı?”",
+            "a": "Doğru yazılmış script:\n• temsilciye çerçeve ve güven verir,\n• birebir ezberletilen cümleler yerine,\n• temel mesaj ve sıralamayı standartlaştırır.\n\nYani script, görüşmenin doğallığını değil, odak ve kaliteyi artırır."
+          },
+          {
+            "q": "Otel çağrı merkezi için örnek satış script bileşenleri neler olabilir?",
+            "a": "• karşılama cümlesi (otel, hat, isim tanıtımı),\n• ihtiyaç analizi soruları,\n• oda/konsept anlatım kalıpları,\n• fiyat sunumu ve değer vurgusu,\n• itirazlara cevap şablonları (fiyat, tarih, kararsızlık),\n• kapanış cümleleri (şimdi rezervasyon, opsiyon açma, teklif gönderme)."
+          },
+          {
+            "q": "Teklif süreçlerini standardize etmek neden önemli?",
+            "a": "• her temsilci farklı formatta, farklı kanaldan (mail, WhatsApp, sözlü) teklif verirse:\n• misafirler çelişkili bilgiler alır,\n• PMS’te teklif takibi zorlaşır,\n• satışa dönüşüm oranı ölçülemez.\n\nStandart teklif şablonları, PMS’te “teklif” olarak kaydedilen bir yapı ile birleşmelidir."
+          },
+          {
+            "q": "WhatsApp üzerinden teklif verirken nelere dikkat edilmeli?",
+            "a": "• kurumsal hat (WhatsApp Business) kullanılmalı,\n• teklif metni ve görsel formatı standart olmalı,\n• şartlar ve tarih/kişi bilgisi çok net yazılmalı,\n• rezervasyonla eşleştirme için PMS’te teklif kaydı açılmalıdır."
+          },
+          {
+            "q": "Çağrı sonrası teklif takip (follow-up) süreci nasıl kurgulanmalı?",
+            "a": "• teklif/PMS kaydı oluşturduktan sonra,\n• belirli bir süre sonra (örneğin 24–48 saat),\n• “hatırlatma” amaçlı kısa bir arama/mesaj,\n• misafirin kararsızlık noktalarına göre script bazlı itiraz karşılama."
+          },
+          {
+            "q": "Opsiyon ve ön rezervasyon süreçleri call center’da nasıl yönetilmeli?",
+            "a": "• opsiyon süreleri net tanımlanmalı (tarih ve saat),\n• PMS’te opsiyon kaydı ve hatırlatma task’ı açılmalı,\n• süre dolmadan önce misafir bilgilendirilmeli,\n• opsiyon dolduğunda sistemsel olarak blok kaldırılmalıdır."
+          },
+          {
+            "q": "“Tek çağrıda rezervasyon” hedefi gerçekçi mi?",
+            "a": "Her zaman değil. Özellikle yüksek tutarlı tatillerde:\n• misafir birkaç oteli ve tarihi kıyaslar,\n• aile veya partnerle görüşmek ister.\n\nAma call center, ilk çağrıda:\n• doğru bilgi ve güven,\n• güçlü değer önerisi,\n• takip (teklif & opsiyon) süreçlerini devreye alarak rezervasyon olasılığını artırmalıdır."
+          },
+          {
+            "q": "Çağrı merkezi satış odaklı çalışırken misafir memnun bizim için nasıl korunur?",
+            "a": "Satış odaklı olmak; misafirin ihtiyacını görmezden gelmek değil, ihtiyaca en uygun çözümü net ve ikna edici şekilde sunmak demektir.\n• yanlış oda, konsept veya tarih satmaya çalışmak,\n• kısa vadeli satış getirip uzun vadeli memnuniyetsizlik ve yorum problemi yaratır.\n\nSatış ve memnuniyet ayrı değil, birlikte düşünülmelidir."
+          },
+          {
+            "q": "Script ve süreçleri ne sıklıkla güncellemeliyim?",
+            "a": "• sezon değişimlerinde,\n• konsept veya fiyat politikanız değiştiğinde,\n• tekrarlayan şikâyet veya hata örüntüsü gördüğünüzde,\n• yeni pazar veya kanal eklediğinizde.\n\nEn azından sezon başında baştan sona gözden geçirmek gerekir."
+          },
+          {
+            "q": "Çağrı merkezi & rezervasyon eğitimlerinde hangi başlıklar olmalı?",
+            "a": "• otel ve konsept bilgisi,\n• PMS ve OTA süreçleri,\n• satış teknikleri ve itiraz karşılama,\n• iletişim ve ton/etik,\n• KVKK & veri güvenliği farkındalığı."
+          }
+        ]
+      },
+      "section5": {
+        "title": "PMS–OTA Entegrasyonu & Veri Bütünlüğü",
+        "items": [
+          {
+            "q": "Çağrı merkezi PMS/OTA ile nasıl entegre çalışır?",
+            "a": "• temsilci PMS’te gerçek zamanlı fiyat ve stok görür,\n• rezervasyonu direkt PMS üzerinde açar,\n• rezervasyon kaynağını (telefon/WhatsApp) işaretler,\n• OTA veya web üzerinden gelen talepler, PMS notlarıyla call center’a devredilir.\n\nBöylece tüm rezervasyonlar tek PMS akışında birleşir."
+          },
+          {
+            "q": "PMS’e işlenmeyen rezervasyonlar ne gibi riskler taşır?",
+            "a": "• check-in listelerinde eksik görünen misafirler,\n• overbooking veya oda tahsisi hataları,\n• gelir ve kanal raporlarında eksik veriler,\n• misafir geçmişi ve CRM çalışmalarında boşluklar."
+          },
+          {
+            "q": "Çağrı merkezi ve PMS entegrasyonunda hangi veri alanları kritik?",
+            "a": "• misafir bilgileri (isim, iletişim, ülke, segment),\n• kanal/source (telefon, WhatsApp, DM vb.),\n• tarih, oda tipi, fiyat planı,\n• talepler/notlar (çocuk, özel istek vb.),\n• rezervasyon statüleri (opsiyon, onaylı, iptal)."
+          },
+          {
+            "q": "Çağrı merkezi rezervasyonları ile OTA/web rezervasyonlarını PMS’te nasıl ayırt ederim?",
+            "a": "PMS’te source/channel alanlarını doğru kullanarak;\n• OTA → ilgili OTA adı,\n• web → direct/web,\n• call center → telefon/WhatsApp,\n\nşeklinde kayıt açmalısınız. Böylece kanal bazlı performans raporları anlamlı hale gelir."
+          },
+          {
+            "q": "PMS entegrasyonu hatalıysa çağrı merkezi ne gibi sorunlar yaşar?",
+            "a": "• PMS’te görünen fiyat ve stok, OTA/web’le uyuşmaz,\n• temsilci misafire yanlış bilgi verebilir,\n• iptal/değişiklikler PMS’te güncellenmez,\n• raporlar ve KPI’lar bozulur.\n\nÇağrı merkezi verimliliği, doğru entegrasyon ile doğrudan bağlantılıdır."
+          },
+          {
+            "q": "Call center yazılımı ile PMS arasında entegrasyon kullanılmalı mı?",
+            "a": "Mümkünse evet.\n• çağrı kayıtları,\n• agent performansı,\n• çağrı → rezervasyon/lead eşleşmesi\n\ndoğrudan PMS/CRM ile eşlenirse, hem satış hem raporlama süreçleri daha güçlü olur."
+          },
+          {
+            "q": "Entegrasyon logları ve hata raporları call center için neden önemlidir?",
+            "a": "• ne zaman hangi rezervasyonun PMS’e yazılamadığını,\n• hangi bağlantıların koptuğunu,\n• hangi alanlarda veri kaybı riski olduğunu\n\nentegrasyon logları gösterir. Bu sayede hem IT hem satış ekipleri, nerede hata olduğunu hızlıca tespit edebilir."
+          },
+          {
+            "q": "PMS + call center entegrasyonunun raporlamaya etkisi nedir?",
+            "a": "• çağrı sayısı,\n• teklif sayısı,\n• rezervasyona dönen çağrı sayısı ve geliri,\n• direct pay ve OTA payı üzerindeki etkisi\n\nPMS ve raporlama panellerinden net görülebilir."
+          },
+          {
+            "q": "Çağrı merkezi & PMS entegrasyonunu test ederken nelere bakmalıyım?",
+            "a": "• test rezervasyonlarının doğru tarih, oda ve fiyata düşüp düşmediği,\n• iptal ve değişikliklerin PMS’te doğru statü alıp almadığı,\n• agent ve source bilgilerinin doğru işaretlenip işaretlenmediği,\n• raporlarda bu test kayıtlarının gözüktüğü."
+          }
+        ]
+      },
+
+       "section6": {
+        "title": "Performans & Raporlama: KPI’lar, Satış & Dönüşüm",
+        "items": [
+          {
+            "q": "Otel çağrı merkezi performansını hangi KPI’larla ölçmeliyim?",
+            "a": "• cevaplanma oranı,\n• ortalama bekleme süresi,\n• satış/rezervasyon amaçlı çağrı sayısı,\n• teklif verilen çağrı sayısı,\n• rezervasyona dönen çağrı sayısı ve geliri,\n• çağrı → rezervasyon dönüşüm oranı (conversion),\n• agent bazlı performans."
+          },
+          {
+            "q": "Telefonla rezervasyon oranını artırmak için hangi metriklere bakmalıyım?",
+            "a": "• çağrı → teklif oranı,\n• teklif → rezervasyon oranı,\n• hangi segment/oda/pazarın daha iyi dönüşüm verdiği,\n• hangi script veya kampanya dilinin daha çok satış ürettiği;\nbu metriklere göre script ve teklif süreçlerini optimize etmelisiniz."
+          },
+          {
+            "q": "Cevapsız çağrılarım rezervasyon kaybına ne kadar neden olur?",
+            "a": "• cevaplanmayan veya geri dönülmeyen her çağrı,\n• en az “niyetli talep” seviyesinde bir satış fırsatıdır.\n\nCevapsız çağrı oranı ve geri arama (callback) başarı oranı takip edilerek; kayıp fırsatlar minimize edilmelidir."
+          },
+          {
+            "q": "Cevapsız ve ölçülemeyen çağrılar nasıl azaltılır?",
+            "a": "• çağrı merkezi yazılımı (ACD, call queue, callback),\n• vardiya planlaması,\n• çağrı kayıt ve etiketleme kuralları,\n• KPI & raporlama kültürü ile;\n\nher çağrı ve temas bir “kayıt” haline getirilirse, ölçülemeyen çağrı kalmaz."
+          },
+          {
+            "q": "Satışa dönüşmeyen aramalar nasıl analiz edilmelidir?",
+            "a": "• misafirin reddetme sebepleri (fiyat, tarih, oda tipi, kararsızlık),\n• hangi segment/ülke/kanaldan geldiği,\n• hangi script/agent ile konuştuğu,\n• teklif sonrası follow-up yapılıp yapılmadığı.\n\nBu analiz, satış fırsatlarını iyileştirmek için güçlü bir yol haritası sunar."
+          },
+          {
+            "q": "Otel çağrı merkezi direct booking oranını nasıl ölçerim?",
+            "a": "• PMS’te source alanında “call center / telefon” olarak işaretlenen rezervasyonları,\n• toplam direct (web + call center) içindeki payına ve OTA payıyla kıyasına bakarak,\n• call center’ın direct pay’e katkısını net ölçebilirsiniz."
+          },
+          {
+            "q": "Call center performansı Satış & Dönüşüm panellerine nasıl bağlanır?",
+            "a": "• GA4 ve reklam panellerinden gelen trafik & lead verisi,\n• call center sisteminden gelen çağrı & teklif verisi,\n• PMS’ten gelen rezervasyon & gelir verisi\n\nLooker Studio gibi bir panelde birleştirilerek; trafik → çağrı → rezervasyon → gelir zinciri raporlanabilir."
+          },
+          {
+            "q": "Agent bazlı performans raporları nasıl kurgulanmalı?",
+            "a": "Her agent için:\n• cevaplanan çağrı sayısı,\n• satış/rezervasyona dönen çağrı sayısı,\n• rezervasyon başına gelir,\n• script & kalite skorları,\n\ngibi metrikler raporlanmalıdır. Amaç, gelişim odaklı, adil ve şeffaf bir performans yönetimidir; “sadece sıralama” baskısı değil."
+          }
+        ]
+      },
+      "section7": {
+        "title": "Pain Point: Cevapsız Çağrılar, Ölçümsüzlük, Satışa Dönmeyen Aramalar",
+        "items": [
+          {
+            "q": "Cevapsız veya ölçülemeyen çağrılar neden bu kadar kritik bir problem?",
+            "a": "Çünkü:\n• “sordum ama ulaşamadım” hissi,\n• direkt olarak OTA’ya veya başka otele gitmek demektir.\n\nHer cevapsız ve kayıt dışı çağrı, potansiyel direct rezervasyon kaybıdır."
+          },
+          {
+            "q": "Standart dışı teklif süreçleri ne tür riskler doğurur?",
+            "a": "• aynı tip misafire farklı temsilciler farklı fiyat verir,\n• PMS’te teklif takibi yapılamaz,\n• misafir ve OTA tarafında güven sorunu doğar,\n• gelir ve marj yönetimi kontrol dışına çıkar."
+          },
+          {
+            "q": "PMS’e işlenmeyen rezervasyonlar call center için ne anlama gelir?",
+            "a": "• raporlarda görünmeyen satış performansı,\n• check-in’de “kayıt yok” krizi,\n• gelir ve kanal analizinde eksik veri.\n\nBu durum, call center’ın gerçek değerini göstermeyi de engeller."
+          },
+          {
+            "q": "Satışa dönüşmeyen aramalar neden sistematik takip edilmelidir?",
+            "a": "• neden satışa dönüşmediğini bilmezseniz (fiyat, tarih, oda, hizmet, iletişim dili),\n• script, fiyat ve kampanya stratejilerinizi iyileştiremezsiniz.\n\nSatışa dönüşmeyen aramalar, öğrenme ve optimizasyon için altın madeni gibidir."
+          },
+          {
+            "q": "“Telefonla rezervasyon süreci ayrı, PMS süreci ayrı” durumunun uzun vadeli etkisi nedir?",
+            "a": "• veri kopukluğu,\n• çok fazla manuel iş,\n• call center ve resepsiyon/rezervasyon ekipleri arasında sürtüşme,\n• yönetim tarafında güven problemi (“gerçek rakam ne?”)."
+          },
+          {
+            "q": "Yanlış script ve ton kullanımı marka imajını nasıl etkiler?",
+            "a": "• çok agresif satış dili,\n• ilgisiz veya bilgisiz tonda konuşan temsilci,\n• yanlış bilgi veya vaatler,\n\notele gelmeden önce misafirin zihninde negatif bir çerçeve oluşturur; yorum ve tavsiyelere de yansır."
+          },
+          {
+            "q": "Çağrı merkezi & rezervasyon sürecinde KVKK ve veri güvenliği neden önemli?",
+            "a": "• telefon görüşmelerinde ve notlarda kişisel veriler işlenir,\n• bu verilerin kim tarafından, ne kadar süreyle ve nerede tutulduğu önemlidir.\n\nKVKK’ya uygun script, kayıt ve loglama süreçleri tasarlamak, hem hukuki hem marka güveni açısından kritiktir."
+          }
+        ]
+      },
+      "section8": {
+        "title": "GEO & Sektör Odaklı Sorular",
+        "items": [
+          {
+            "q": "Türkiye’deki resort destinasyonlarda çağrı merkezi neden ekstra değerli?",
+            "a": "• aile ve grup rezervasyonları,\n• uzun konaklama ve yüksek sepet tutarı,\n• çok dilli ve çok pazarlı yapı,\n\ntelefon ve WhatsApp üzerinden gelen talebi doğru yönettiğinizde, yüksek değerde direct rezervasyon fırsatı sunar."
+          },
+          {
+            "q": "Antalya, Belek, Kemer, Side, Bodrum, Alanya otellerinde çağrı merkezi stratejisi nasıl olmalı?",
+            "a": "• yoğun sezonda 7/24 veya geniş saat aralığı,\n• TR–EN–DE–RU gibi dillerde destek,\n• OTA ve web ile entegre çalışarak direct rezervasyon payını artırmaya odaklı bir yapı."
+          },
+          {
+            "q": "City otellerinde çağrı merkezi & rezervasyon hattının rolü nedir?",
+            "a": "• business & corporate talepleri,\n• kısa konaklamalı rezervasyonlar,\n• MICE ve grup ön talepleri.\n\nCity otellerde call center, özellikle kurumsal ve tekrarlı misafir için kritik bir kontak noktasıdır."
+          },
+          {
+            "q": "Otel çağrı merkezi ve OTA yönetimi birlikte nasıl çalışmalı?",
+            "a": "• OTA’dan gelen mesaj ve soruları call center yönetmeli,\n• OTA üzerinden fiyat/oda araştıran misafir, call center ile direct rezervasyona yönlendirilebilmeli,\n• PMS ve raporlama tarafında, OTA ve call center katkısı birlikte analiz edilmelidir."
+          }
+        ]
+      },
+      "section9": {
+        "title": "Mini Otel Çağrı Merkezi SSS",
+        "items": [
+          {
+            "q": "Küçük oteller için ayrı bir çağrı merkezi şart mı?",
+            "a": "Oda ve çağrı hacmine göre değişir;\n• küçük otellerde resepsiyon/rezervasyon hattı,\n• net script ve süreçlerle “mini call center” gibi yönetilebilir.\n\nYeter ki sahibi bellı bir süreç ve raporlama olsun."
+          },
+          {
+            "q": "Outsource call center tamamen otel dışında mı olmalı?",
+            "a": "Zorunlu değil.\n• PMS erişimi,\n• script ve KPIs,\n• haftalık/aylık joint review toplantıları ile,\n\ndış ekip otelin “uzatılmış rezervasyon ekibi” gibi çalışabilir."
+          },
+          {
+            "q": "Otel çağrı merkezi & rezervasyon yönetimi için dış destek almak mantıklı mı?",
+            "a": "Özellikle çok dilli, 7/24, yüksek hacimli ve OTA–PMS entegrasyonlu yapılar için;\n• süreç tasarımı,\n• script & eğitim,\n• KPI & raporlama sistemi\n\niçin deneyimli bir partnerle çalışmak, deneme–yanılma süresini ve kaybını ciddi biçimde azaltır."
+          }
+        ]
+      }
+    },
+
+     "cta": {
+      "primary": "Otel Çağrı Merkezi hizmeti talep edin",
+      "primaryHref": "/Services/hotel/callCenter",
+      "secondary": "Otel Dijital Pazarlama Hizmetleri",
+      "secondaryHref": "/Services/hotel"
     }
   }
   
