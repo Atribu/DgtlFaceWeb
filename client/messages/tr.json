@@ -12686,7 +12686,7 @@
         "items": [
           {
             "q": "İçerik SEO hizmetiniz neleri kapsıyor?",
-            "a": "<ul><li>Arama niyeti ve anahtar kelime analizi,</li><li>blog ve sayfa mimarisi planı,</li><li>içerik takvimi (konu, başlık, hedef URL),</li><li>sayfa ve blog içerikleri için taslak/outline ve yazım,</li><li>başlık , meta title/description kurguları,</li><li>iç link ve CTA yapılandırması,</li><li>eski içeriklerin audit’i ve güncelleme/ birleştirme önerileri,</li><li>performans takibi ve periyodik revizyon.</li></ul>"
+            "a": "<ul><li>Arama niyeti ve anahtar kelime analizi,</li><li>blog ve sayfa mimarisi planı,</li><li>içerik takvimi (konu, başlık, hedef URL),</li><li>sayfa ve blog içerikleri için taslak/outline ve yazım,</li><li>başlık , meta title/description kurguları,</li><li>iç link ve cla yapılandırması,</li><li>eski içeriklerin audit’i ve güncelleme/ birleştirme önerileri,</li><li>performans takibi ve periyodik revizyon.</li></ul>"
           },
           {
             "q": "Blog mimarisini nasıl kurgulamak gerekir?",
