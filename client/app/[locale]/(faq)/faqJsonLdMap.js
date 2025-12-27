@@ -1,7 +1,8 @@
 // app/[locale]/(faq)/faqJsonLdMap.js
 
 export const FAQ_JSONLD_MAP = {
-    "hizmetler-sss":{
+  
+"hizmetler-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/sss#faq",
@@ -10858,6 +10859,6277 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
+"4-dilli-cagri-merkezi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss#faq",
+  "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi-sss",
+  "inLanguage": "tr",
+  "name": "4 Dilli Çağrı Merkezi SSS",
+  "description": "4 Dilli Çağrı Merkezi hakkında sık sorulan sorular; TR–EN–DE–RU dillerinde çağrı karşılama ve rezervasyon yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Çağrı Merkezi",
+  "dgSectionIndex": 37,
+  "dgParentUrl": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "4 Dilli Çağrı Merkezi SSS",
+  "dgH1": "4 Dilli Çağrı Merkezi SSS",
+  "dgTitle": "4 Dilli Çağrı Merkezi SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+  "dgMetaDescription": "4 Dilli Çağrı Merkezi hakkında sık sorulan sorular; TR–EN–DE–RU dillerinde çağrı karşılama ve rezervasyon yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "TR–EN–DE–RU dillerinde çağrı karşılama ve rezervasyon yönetimi; PMS/OTA entegrasyonu, otel & turizm senaryoları, dil bariyerleri, kaçan rezervasyonlar, memnuniyet ve performans optimizasyonu",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, 4 Dilli Çağrı Merkezi ile ilgili en sık sorulan soruları; TR–EN–DE–RU dillerinde çağrı karşılama, rezervasyon yönetimi, misafir soruları ve şikâyet süreçleri üzerinden açıklar. Amaç, dil bariyerleri nedeniyle kaçan rezervasyonları, yanlış anlaşılmaları ve düşük memnuniyeti önleyerek uluslararası misafir iletişimini standart ve profesyonel bir yapıya oturtmaktır.",
+  "dgAiAnswerCapsule": "4 Dilli Çağrı Merkezi SSS; Türkçe, İngilizce, Almanca ve Rusça konuşan misafirlerle profesyonel, satış odaklı ve PMS/OTA entegrasyonlu bir biçimde iletişim kurmak isteyen oteller için çok dilli çağrı merkezi modelini kısa ve anlaşılır şekilde özetleyen bir rehberdir.",
+  "dgVoiceSearchSummary": "4 dilli çağrı merkezi; otelinizin TR–EN–DE–RU dillerinde telefon, WhatsApp ve OTA mesajları üzerinden rezervasyon ve misafir iletişimini profesyonelce yöneten çok dilli çağrı ve rezervasyon hattıdır.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; 4 Dilli Çağrı Merkezi ile ilgili ‘4 dilli çağrı merkezi nedir, otel için neden çok dilli hat gerekir, TR–EN–DE–RU rezervasyon hattı nasıl çalışır, dil bariyerleri rezervasyonu nasıl etkiler, çağrı merkezi PMS/OTA ile entegre çalışır mı’ gibi sorguları hızlı cevaplarla hedefler.",
+  "dgOneLineSummary": "4 Dilli Çağrı Merkezi SSS; Antalya ve benzeri turizm bölgelerinde TR–EN–DE–RU pazarlarına çalışan oteller için çok dilli çağrı & rezervasyon yapısını, faydalarını ve entegrasyon modelini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "4 dilli çağrı merkezi tam olarak nedir?",
+    "Otelim için neden çok dilli çağrı merkezine ihtiyaç duyabilirim?",
+    "TR–EN–DE–RU dillerinde rezervasyon hattı nasıl çalışır?",
+    "Dil bariyerleri rezervasyon dönüşümünü nasıl etkiler?",
+    "Çağrı merkezi PMS/OTA ile entegre çalışır mı?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; dil bariyerleri nedeniyle yaşanan yanlış anlaşılmalar, kaçan rezervasyonlar, düşük memnuniyet skorları ve PMS/OTA ile kopuk çalışan çağrı süreçlerinin yarattığı verimsizliklere odaklanır ve 4 dilli, script’li ve entegre bir çağrı merkezi modelinin bu problemleri nasıl azaltabileceğine dair yönlendirmeler sunar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-cagri-4dilli-qset-37",
+  "dgJsonLdQuestionStrategy": "4 dilli çağrı merkezi modelinin tanımı, kapsadığı diller, rezervasyon hattının nasıl çalıştığı, PMS/OTA entegrasyonu ve misafir memnuniyeti üzerindeki etkilerini açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; dil bariyerleri, yanlış anlaşılmalar, kaçan rezervasyonlar ve düşük memnuniyet gibi çağrı merkezi pain point’lerine odaklanan sorular; Antalya, Belek, Kemer, Side, Alanya gibi destinasyonlarda 4 dilli yapının önemini vurgulayan GEO soruları ve son olarak teklif/iş birliği sorusu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "4 Dilli Çağrı Merkezi için teklif al",
+    "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (4 Dilli Çağrı Merkezi için teklif al)",
+  "dgCtaCrossLinkNote": "Genel çağrı merkezi yaklaşımı için /tr/cagri-merkezi-hizmetleri ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Profesyonel çağrı merkezi süreçleri, rezervasyon dönüşümlerini ve misafir memnuniyetini belirgin şekilde artırır. TR–EN–DE–RU dillerinde standartlaştırılmış bir çağrı ve rezervasyon hattı, özellikle Antalya ve çevre destinasyonlarda hem kaçan rezervasyonların kazanılmasına hem de uluslararası misafir memnuniyetinin yükselmesine doğrudan katkı sağlar.",
+  "dgResultTimeframe": "4 dilli çağrı merkezinin devreye alınmasından sonraki 1–3 ay içinde dil bazlı cevaplanma ve dönüşüm oranlarında iyileşme; 3–6 ay içinde ise rezervasyon hacmi, direct booking payı ve misafir memnuniyet skorlarında artış beklenebilir (pazar ve sezon yoğunluğuna bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Hedeflenen diller (örneğin yeni dil eklenmesi), çalışma saatleri, kanal kapsamı (WhatsApp, DM vb.) veya DGTLFACE’in çok dilli çağrı merkezi hizmet kapsamı değiştiğinde; ayrıca yeni ülke pazarlarına açılım yapıldığında bu SSS, özellikle voice, GEO ve pain point soruları açısından güncellenmelidir.",
+  "dgNotes": "BÖLÜM 37 – /tr/cagri-merkezi/4-dilli-cagri-merkezi-sss için 4 Dilli Çağrı Merkezi SSS kurgusu. Lokasyon odağı: Türkiye geneli + Antalya (Belek, Kemer, Side, Alanya).",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "4 dilli çağrı merkezi nedir, hangi dilleri kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "4 dilli çağrı merkezi; otelinizin telefon, WhatsApp, web chat ve OTA mesaj kanallarından gelen misafir taleplerini Türkçe, İngilizce, Almanca ve Rusça dillerinde karşılayan, rezervasyon ve bilgi süreçlerini yöneten çok dilli misafir iletişim hattıdır. Amaç; TR–EN–DE–RU pazarlarındaki misafirlerinizin, kendi dillerinde aynı standartta ve satış odaklı bir deneyim yaşamasını sağlamaktır.",
+        "dgShortAnswer": "4 dilli çağrı merkezi, misafirlerinizi TR–EN–DE–RU dillerinde karşılayıp rezervasyon ve bilgi süreçlerini yöneten çok dilli iletişim hattıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Tanım + Diller",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel için çok dilli rezervasyon hattı ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çok dilli rezervasyon hattı; misafirlerin kendi dillerinde rahatça soru sorabildiği, fiyat ve konsept detaylarını anlayabildiği, güvenle rezervasyon yaptırabildiği bir yapı sunar. Böylece dil bariyeri yüzünden kaçan rezervasyonlar azalır, OTA’dan gelen talepler daha iyi yönetilir ve direct booking kanallarınızın gücü artar. Özellikle TR–EN–DE–RU pazarlarının yoğun olduğu destinasyonlarda, çok dilli hat rekabette önemli bir avantajdır.",
+        "dgShortAnswer": "Misafirin kendi dilinde rezervasyon yapmasını sağlayarak dil bariyeri nedeniyle kaçan rezervasyonları azaltır ve direct booking gücünü artırır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Faydalar",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "TR–EN–DE–RU dillerinde rezervasyon hattı nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Misafir; telefonla aradığında, WhatsApp veya OTA mesajıyla ulaştığında, IVR veya ön filtre sayesinde kendi dilini seçer ya da ilgili dilde uzman bir temsilciye yönlendirilir. Temsilciler, PMS üzerinden oda–fiyat–müsaitlik bilgisine ulaşır; teklif sunar, itirazları yönetir ve rezervasyonu sisteme kaydedip misafire kendi dilinde teyit eder. Aynı model, web chat ve diğer mesaj kanalları için de uygulanabilir.",
+        "dgShortAnswer": "Misafir seçtiği dilde temsilciye bağlanır; temsilci PMS üzerinden oda–fiyat görüp teklif ve rezervasyonu o dilde yönetir ve teyit eder.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Çalışma Modeli",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Dil bariyerleri rezervasyonları nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dil bariyerleri; misafirin kendini ifade edemediği, sizin de konsept ve fiyat detaylarını tam anlatamadığınız durumlar yaratır. Bu, yanlış beklenti, güvensizlik ve çoğu zaman misafirin daha rahat iletişim kurabildiği başka bir otele yönelmesiyle sonuçlanır. Özellikle Almanca ve Rusça pazarında, misafirler kendi dillerinde hizmet almayı tercih ettiği için, dil bariyeri doğrudan kaçan rezervasyon anlamına gelir.",
+        "dgShortAnswer": "Kendini ifade edemeyen misafir çoğu zaman daha rahat iletişim kurabildiği başka otele yönelir; dil bariyeri doğrudan kaçan rezervasyon demektir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Dil Bariyeri & Kaçan Rezervasyon",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezi PMS/OTA ile entegre edilebilir mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. 4 dilli çağrı merkezi modelinde, temsilcilerin PMS üzerinde kullanıcı hesabı bulunur ve gerçek zamanlı oda–fiyat–müsaitlik bilgisine erişir. OTA entegrasyonları sayesinde; OTA’dan gelen mesaj ve rezervasyon talepleri de tek panel üzerinden yönetilebilir. Böylece hem kanal karması hem de raporlama tarafında daha şeffaf ve verimli bir yapı kurulmuş olur.",
+        "dgShortAnswer": "Evet; temsilciler PMS üzerinden oda–fiyat–müsaitlik görüp rezervasyon açabilir, OTA mesaj ve taleplerini aynı yapı içinde yönetebilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / PMS & OTA Entegrasyonu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çok dilli çağrı merkezi misafir memnuniyetini nasıl artırır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Misafir; rezervasyon öncesi ve konaklama sürecinde kendi dilinde, hızlı ve net cevap aldığında kendini güvende ve değerli hisseder. Sorular ve şikâyetler doğru anlaşılır, yanlış beklenti daha az oluşur ve sorunlar daha hızlı çözülür. Bu da doğrudan memnuniyet skorlarına ve OTA/Google yorumlarına yansır. Özellikle TR–EN–DE–RU pazarlarında, çok dilli iletişim misafir memnuniyetinde önemli bir kaldıraçtır.",
+        "dgShortAnswer": "Misafir kendi dilinde hızlı ve net cevap aldığında güven ve memnuniyet artar; bu da puan ve yorumlara doğrudan yansır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Memnuniyet",
+      "dgIntent": "Bilgilendirici / Memnuniyet Etkisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "4 dilli çağrı merkezi hangi kanalları yönetebilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Modelin kapsamına göre; klasik telefon hattı, WhatsApp/telefon uygulamaları, web sitesi canlı chat, OTA mesaj kutuları ve gerektiğinde sosyal medya DM kanalları çok dilli olarak yönetilebilir. Amaç, misafirin hangi kanalı tercih ederse etsin, TR–EN–DE–RU dillerinde aynı standartta yanıt almasını sağlamaktır.",
+        "dgShortAnswer": "Telefon, WhatsApp, web chat, OTA mesaj kutuları ve gerekirse sosyal medya DM kanalları çok dilli olarak yönetilebilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Kanal Kapsamı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "4 dilli çağrı merkezi performansı hangi metriklerle ölçülmelidir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dil bazlı cevaplanma oranı, ortalama bekleme süresi, çağrı → teklif oranı, teklif → rezervasyon dönüşüm oranı, rezervasyon başına gelir, şikâyet sayısı ve çözüm süreleri, dil bazlı memnuniyet skorları 4 dilli çağrı merkezi performansını izlemek için temel metriklerdir. Antalya ve çevre destinasyonlarda, özellikle DE ve RU pazarları için bu metriklerin ayrı takip edilmesi değerli içgörüler sunar.",
+        "dgShortAnswer": "Cevaplanma oranı, bekleme süresi, teklif ve rezervasyon dönüşümü, rezervasyon başına gelir ve dil bazlı memnuniyet skorları temel metriklerdir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / KPI’lar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "4 dilli çağrı merkezi hangi turizm bölgeleri için daha kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TR–EN–DE–RU pazarlarını yoğun olarak ağırlayan Antalya, Belek, Kemer, Side ve Alanya gibi destinasyonlarda 4 dilli çağrı merkezi özellikle kritiktir. Bu bölgelerde Almanca ve Rusça konuşan misafir sayısı yüksek olduğu için, bu dillerde profesyonel iletişim ve rezervasyon yönetimi, hem direct booking payını hem de misafir memnuniyetini belirgin şekilde artırabilir.",
+        "dgShortAnswer": "Antalya, Belek, Kemer, Side ve Alanya gibi TR–EN–DE–RU pazarlarının yoğun olduğu bölgelerde 4 dilli çağrı merkezi ciddi rekabet avantajı sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / GEO Odaklı Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "4 dilli çağrı merkezi kurmak için nereden başlamalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Öncelikle hedef pazarlarınızı, hangi dillerde aktif hat ihtiyacınız olduğunu ve mevcut çağrı/mesaj hacmini analiz etmelisiniz. Ardından çalışma saatleri, kapsama alınacak kanallar (telefon, WhatsApp, OTA mesaj kutusu vb.), PMS/OTA entegrasyon durumu ve iç ekip–outsource–hibrit model tercihinizi netleştirerek bir yol haritası oluşturmak gerekir. Bu çerçevede pilot bir uygulama ile başlayıp, performansa göre modeli büyütmek en sağlıklı yaklaşımdır.",
+        "dgShortAnswer": "Önce pazar ve dil ihtiyacınızı, kanal ve entegrasyon yapınızı analiz edip; çalışma saatleri ve model tercihinize göre bir yol haritası ve pilot kurulum planlamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Başlangıç Adımları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile 4 Dilli Çağrı Merkezi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile 4 Dilli Çağrı Merkezi için çalışmak istediğinizde; otelinizin türünü (resort, city, zincir vb.), hedef pazar ve dillerinizi (TR–EN–DE–RU ve varsa ek diller), mevcut çağrı ve mesaj hacminizi, kullandığınız PMS/OTA altyapısını, çalışma saatlerinizi ve şu anda yaşadığınız temel problemleri (dil bariyeri, kaçan çağrılar, düşük memnuniyet vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgiler doğrultusunda kapsam, süreç, entegrasyon, SLA ve bütçe çerçevesini içeren bir 4 Dilli Çağrı Merkezi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel türü, pazar ve diller, çağrı/mesaj hacmi, PMS/OTA altyapısı, çalışma saatleri ve problemleri özetleyen bir brief ile kapsam, süreç, SLA ve bütçe içeren 4 dilli çağrı merkezi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"rezervasyon-destegi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi-sss#faq",
+  "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi-sss",
+  "inLanguage": "tr",
+  "name": "Rezervasyon Destek Hizmeti SSS",
+  "description": "Rezervasyon Destek Hizmeti hakkında sık sorulan sorular; telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Çağrı Merkezi",
+  "dgSectionIndex": 38,
+  "dgParentUrl": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Rezervasyon Destek Hizmeti SSS",
+  "dgH1": "Rezervasyon Destek Hizmeti SSS",
+  "dgTitle": "Rezervasyon Destek Hizmeti SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+  "dgMetaDescription": "Rezervasyon Destek Hizmeti hakkında sık sorulan sorular; telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi; PMS/OTA entegrasyonu, satış odaklı script yapıları, kaçan rezervasyonlar, yanlış fiyat/oda bilgisi, overbooking ve iletişim kopukluğunun azaltılması",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Rezervasyon Destek Hizmeti ile ilgili en sık sorulan soruları; telefon, e-posta ve chat üzerinden rezervasyon süreci yönetimi, PMS/OTA entegrasyonu ve satış odaklı script yapıları üzerinden açıklar. Amaç, kaçan rezervasyonları, yanlış fiyat/oda bilgisini, overbooking risklerini ve dağınık misafir iletişimini profesyonel bir rezervasyon hattıyla toparlamaktır.",
+  "dgAiAnswerCapsule": "Rezervasyon Destek Hizmeti SSS; telefon ve dijital kanallardan gelen rezervasyon taleplerini satış odaklı script’lerle karşılayıp PMS’e doğru ve eksiksiz işlemek isteyen oteller için, rezervasyon çağrı merkezi modelini kısa ve net anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Rezervasyon destek hattı; telefon, e-posta ve chat üzerinden gelen rezervasyon taleplerini satış odaklı bir yaklaşımla yönetip PMS’e doğru ve eksiksiz işleyen profesyonel rezervasyon çağrı merkezi modelidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Rezervasyon Destek Hizmeti ile ilgili ‘rezervasyon destek hattı nedir, rezervasyonları dış ekibe devretmek mantıklı mı, telefonla rezervasyon dönüşümü nasıl artırılır, OTA sorularını kim yönetmeli, rezervasyon ekibi PMS ile nasıl çalışır’ gibi sorgulara kısa cevaplar sağlar.",
+  "dgOneLineSummary": "Rezervasyon Destek Hizmeti SSS; telefon, e-posta, WhatsApp ve chat’ten gelen otel rezervasyon taleplerini tek merkezden, script’li ve PMS entegre şekilde yönetmenin temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Rezervasyon destek hattı tam olarak nedir?",
+    "Otelim için rezervasyonları dış kaynaktaki bir ekibe devretmek mantıklı mı?",
+    "Telefonla rezervasyon dönüşümünü nasıl artırabilirim?",
+    "OTA üzerinden gelen rezervasyon sorularını kim yönetmeli?",
+    "Rezervasyon destek ekibi PMS ile nasıl çalışır?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; kaçan rezervasyonlar, yanlış fiyat/oda bilgisi verilmesi, overbooking, geç veya cevapsız bırakılan çağrı/talepler ve otel–rezervasyon ekibi arasındaki iletişim kopukluğu gibi sorunlara odaklanır ve rezervasyon destek hattının bu problemleri nasıl azaltabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "turizm bölgeleri"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-cagri-rezervasyon-qset-38",
+  "dgJsonLdQuestionStrategy": "Rezervasyon destek hattının tanımı, kapsamı, PMS/OTA entegrasyonu, dönüşüm ve overbooking üzerindeki etkilerini açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; kaçan rezervasyonlar, yanlış fiyat, overbooking ve iletişim kopukluğu gibi pain point’lere odaklanan sorular; Türkiye geneli ve turizm bölgelerinde otel rezervasyon senaryolarına uygun GEO soruları ve son olarak teklif/iş birliği sorusu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Rezervasyon Destek Hizmeti için teklif al",
+    "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Rezervasyon Destek Hizmeti için teklif al)",
+  "dgCtaCrossLinkNote": "Genel çağrı merkezi yaklaşımı için /tr/cagri-merkezi-hizmetleri ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Profesyonel çağrı merkezi süreçleri, rezervasyon dönüşümlerini ve misafir memnuniyetini belirgin şekilde artırır. Rezervasyon Destek Hizmeti; kaçan çağrıları ve dağınık rezervasyon süreçlerini toparlayarak direct booking, OTA ve web kanal performansına doğrudan katkı sağlar.",
+  "dgResultTimeframe": "Rezervasyon destek modelinin devreye alınmasından sonraki 1–3 ay içinde cevaplanma ve dönüşüm oranlarında; 3–6 ay içinde ise rezervasyon hacmi, overbooking azalışı ve misafir memnuniyet skorlarında iyileşmeler beklenebilir (pazar ve sezon yoğunluğuna bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Çalışma saatleri, destek verilen kanallar (telefon, WhatsApp, OTA mesajları), PMS/OTA entegrasyon yöntemi veya DGTLFACE’in rezervasyon destek hizmet kapsamı değiştiğinde; ayrıca otellerin hedef pazarları ya da satış stratejileri revize edildiğinde bu SSS, özellikle script, süreç akışı ve pain point soruları düzeyinde güncellenmelidir.",
+  "dgNotes": "BÖLÜM 38 – /tr/cagri-merkezi/rezervasyon-destegi-sss için Rezervasyon Destek Hizmeti SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Rezervasyon destek hattı tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon destek hattı; otelinizin telefon, e-posta, WhatsApp, web formu ve canlı chat gibi kanallardan aldığı rezervasyon taleplerini profesyonelce karşılayan, satış odaklı script’lerle yöneten ve tüm rezervasyonları PMS’e doğru ve eksiksiz işleyen çağrı merkezi modelidir. Böylece rezervasyon süreci hem misafir hem otel açısından standart ve takip edilebilir hâle gelir.",
+        "dgShortAnswer": "Telefon, e-posta ve chat’ten gelen rezervasyon taleplerini satış odaklı yönetip PMS’e doğru işleyen profesyonel rezervasyon çağrı merkezidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel rezervasyon çağrı merkezi nedir, ne yapar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel rezervasyon çağrı merkezi; misafirlerin rezervasyonla ilgili tüm sorularını, taleplerini ve şikâyetlerini tek bir merkezden karşılayıp, doğru oda–fiyat bilgisi vererek teklif sunan, rezervasyon açan ve PMS’e kayıt eden bir birimdir. Rezervasyon Destek Hizmeti, bu yapıyı telefon + e-posta + chat gibi dijital kanallar için genişleterek çok kanallı bir rezervasyon operasyonu oluşturur.",
+        "dgShortAnswer": "Rezervasyon çağrı merkezi, misafirle rezervasyonla ilgili tüm iletişimi yönetir; teklif verir, rezervasyon açar ve PMS’e eksiksiz işler.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Rol & Görev",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için rezervasyonları dış kaynaktaki bir ekibe devretmek mantıklı mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eğer çağrı ve talep hacminiz mevcut resepsiyon/rezervasyon ekibinizin sağlıklı yönetebileceği seviyenin üstüne çıktıysa, dil ve saat aralığı açısından açıklarınız varsa veya kaçan çağrı/talep oranınız yüksekse; doğru SLA ve entegrasyonlarla çalışan bir dış kaynak rezervasyon destek ekibi ile çalışmak mantıklı olabilir. Böylece iç ekip operasyon ve stratejiye odaklanırken, dış kaynak ekip sahadaki trafiği karşılar.",
+        "dgShortAnswer": "Çağrı hacmi, çalışma saatleri ve dil ihtiyacı mevcut ekibi zorluyorsa; doğru SLA ve entegrasyonlarla dış kaynak rezervasyon desteği mantıklıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Outsource Kararı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon hattı dönüşümü nasıl artırır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon hattı; gelen her çağrı ve talebi standart bir süreçle yöneterek dönüşümü artırır. Satış odaklı script’ler, temsilcilerin ihtiyaç analizi yapmasını, doğru oda–fiyat kombinasyonunu sunmasını, itirazları yönetmesini ve net bir kapanış cümlesiyle rezervasyon talep etmesini sağlar. Bunun yanında, hızlı geri dönüş, follow-up aramaları ve PMS entegrasyonu da ‘bilgi almak için arayan’ misafirlerin önemli bir kısmını rezervasyona dönüştürür.",
+        "dgShortAnswer": "Standart script, hızlı geri dönüş ve PMS entegrasyonu ile ‘sadece bilgi alan’ çağrıların önemli bir kısmını rezervasyona çevirerek dönüşümü artırır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Dönüşüm Artışı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA/telefon/web rezervasyonları birlikte nasıl yönetilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En sağlıklı modelde; OTA, telefon ve web rezervasyonları ayrı Excel veya defterlerde değil, tek PMS üzerinde tutulur. Rezervasyon destek ekibi tüm kanallardan gelen talepleri bu sistem üzerinden açar, günceller ve takip eder. Böylece overbooking riski azalır, misafir bilgisi tek yerde toplanır ve hangi kanalın ne kadar rezervasyon getirdiği net şekilde raporlanabilir.",
+        "dgShortAnswer": "Tüm kanallardan gelen rezervasyonların tek PMS üzerinde açılıp yönetilmesi, hem overbooking riskini hem de takip zorluklarını azaltır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Kanal Bütünlüğü",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon destek ekibi PMS ile nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon destek ekibi, PMS üzerinde kullanıcı bazlı yetkilendirilmiş hesaplarla çalışır. Her temsilci; oda tipi, fiyat, müsaitlik ve kampanyaları PMS üzerinden kontrol eder, rezervasyon açar veya günceller, misafir notlarını ve özel talepleri sisteme işler. Böylece resepsiyon, satış, muhasebe gibi departmanlar da aynı veriyi kullanır ve rezervasyon süreci şeffaf hâle gelir.",
+        "dgShortAnswer": "Temsilciler PMS’e kullanıcı olarak giriş yapar; oda–fiyat–müsaitlik görüp rezervasyon açar/günceller ve tüm notları sistemde tutar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / PMS Entegrasyonu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Kaçan rezervasyonların başlıca sebepleri nelerdir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En sık sebepler; cevapsız veya geç cevaplanan çağrılar ve e-postalar, dil bariyeri ve yetersiz iletişim, net olmayan oda–fiyat anlatımı, uzun ve karmaşık rezervasyon süreçleri ve temsilcinin satış odaklı yaklaşım sergilememesidir. Rezervasyon destek hattı; bu alanlarda standardizasyon sağlayarak kaçan fırsatların önemli kısmını kazanmaya yardımcı olur.",
+        "dgShortAnswer": "Geç veya cevapsız talepler, dil bariyeri, karışık süreç ve zayıf satış yaklaşımı; en büyük kaçan rezervasyon sebepleridir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Kaçan Rezervasyonlar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Overbooking riski nasıl azaltılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Overbooking çoğunlukla; farklı kanallardan gelen rezervasyonların ayrı sistemlerde tutulması, manuel Excel/defter kullanımının devam etmesi ve PMS’in tek referans kaynağı olarak kullanılmaması nedeniyle ortaya çıkar. Tüm rezervasyonların PMS üzerinden yönetilmesi, kanal yönetimi (channel manager) ile entegrasyon, stop-sell ve kota ayarlarının doğru yapılması ve rezervasyon destek ekibinin sadece PMS üzerinden işlem yapması overbooking riskini önemli ölçüde azaltır.",
+        "dgShortAnswer": "Tüm rezervasyonları tek PMS’te tutmak, channel manager entegrasyonu ve doğru stop-sell/kota ayarları overbooking riskini ciddi biçimde düşürür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Overbooking Azaltma",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon destek hattı direct booking payını nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web veya OTA üzerinden oteli araştırıp karar veremeyen misafirler, çoğu zaman telefon veya WhatsApp üzerinden iletişime geçer. Rezervasyon destek hattı; bu misafirlere profesyonel, güven veren ve satış odaklı bir deneyim sunarak, OTA’da kalacak potansiyel rezervasyonu direct kanala çekebilir. Özellikle iyi script ve kampanya entegrasyonuyla direct booking payı anlamlı şekilde artırılabilir.",
+        "dgShortAnswer": "Kararsız misafire profesyonel ve satış odaklı deneyim sunarak OTA’da kalacak potansiyel rezervasyonları direct kanala çekmeye yardımcı olur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Direct Booking Etkisi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon sonrası misafir iletişimi nasıl takip edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon sonrası iletişimde; teyit aramaları veya e-postaları, konaklama öncesi bilgilendirme mesajları (check-in saati, transfer, özel istekler vb.), no-show ve iptal durumlarının analizi ve gerekirse tekrar satış denemeleri (farklı tarih/oda sunmak vb.) önemli rol oynar. Rezervasyon destek ekibi, bu süreçlerin bir kısmını üstlenerek hem misafir deneyimini hem de operasyonu destekleyebilir.",
+        "dgShortAnswer": "Teyit, bilgilendirme ve hatırlatma mesajları ile no-show/iptal analizleri; rezervasyon sonrası iletişimi takip etmek için kritik adımlardır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Sonrası İletişim",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Rezervasyon Destek Hizmeti için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Rezervasyon Destek Hizmeti için çalışmak istediğinizde; otelinizin türünü (resort, city, zincir vb.), mevcut rezervasyon kanallarınızı (telefon, web, OTA, WhatsApp vb.), çağrı ve talep hacminizi (günlük/aylık), kullandığınız PMS/OTA altyapısını, çalışma saatlerinizi ve sezonluk yoğunluk noktalarınızı, ayrıca şu anda yaşadığınız temel problemleri (kaçan çağrılar, yanlış fiyat, overbooking, iletişim kopukluğu vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süreç akışı, entegrasyon, SLA ve bütçe çerçevesini içeren bir Rezervasyon Destek Hizmeti yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel türü, rezervasyon kanalları, çağrı/talep hacmi, PMS/OTA altyapısı, çalışma saatleri ve problemleri özetleyen bir brief ile kapsam, süreç, entegrasyon, SLA ve bütçe içeren Rezervasyon Destek Hizmeti teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    }
+  ]
+},
+
+"mesaj-yonetimi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi-sss#faq",
+  "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi-sss",
+  "inLanguage": "tr",
+  "name": "Mesaj Yönetimi SSS",
+  "description": "Mesaj Yönetimi hakkında sık sorulan sorular; WhatsApp, sosyal medya DM ve OTA mesaj kutusu yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Çağrı Merkezi",
+  "dgSectionIndex": 39,
+  "dgParentUrl": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Mesaj Yönetimi SSS",
+  "dgH1": "Mesaj Yönetimi SSS",
+  "dgTitle": "Mesaj Yönetimi SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+  "dgMetaDescription": "Mesaj Yönetimi hakkında sık sorulan sorular; WhatsApp, sosyal medya DM ve OTA mesaj kutusu yönetimi. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "WhatsApp, sosyal medya DM, web chat ve OTA mesaj kutusu yönetimi; çok kanallı mesaj operasyonu, SLA ve yanıt süresi, script ve ton of voice, kaçırılan mesajlar, rezervasyon kayıpları, memnuniyet ve şikâyet yönetimi",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Mesaj Yönetimi ile ilgili en sık sorulan soruları; WhatsApp, sosyal medya DM, web chat ve OTA mesaj kutuları üzerinden gelen taleplerin profesyonel ve çok kanallı şekilde yönetilmesi odağında toplar. Amaç, geç yanıt, cevapsız mesaj, platformlar arası dağınık iletişim ve düşük memnuniyet sorunlarını, standart yanıt tonuna ve SLA’lere sahip bir mesaj operasyon modeliyle çözmektir.",
+  "dgAiAnswerCapsule": "Mesaj Yönetimi SSS; WhatsApp, Instagram DM, OTA mesajları ve web chat üzerinden gelen misafir taleplerini tek merkezden, çok dilli ve SLA kontrollü yönetmek isteyen oteller için çok kanallı mesaj operasyonunun nasıl kurgulanacağını kısa ve anlaşılır biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Mesaj yönetimi; WhatsApp, sosyal medya DM, OTA mesaj kutusu ve web chat’ten gelen misafir mesajlarını tek merkezden, SLA kontrollü ve satış/memnuniyet odaklı yöneten profesyonel çağrı merkezi modelidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Mesaj Yönetimi ile ilgili ‘mesaj yönetimi hizmeti nedir, WhatsApp ve DM’leri profesyonel ekibe devretmek mantıklı mı, cevapsız mesajlar rezervasyon kaybına neden olur mu, tüm mesaj kanalları tek ekrandan yönetilebilir mi, hızlı yanıt misafir memnuniyetini nasıl etkiler’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Mesaj Yönetimi SSS; otel mesaj kanallarını (WhatsApp, DM, OTA mesaj ve web chat) tek merkezden yöneten, profesyonel ve performans odaklı mesaj operasyon modelini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Mesaj yönetimi hizmeti tam olarak nedir?",
+    "Otelim için WhatsApp ve DM’leri profesyonel ekibe devretmek mantıklı mı?",
+    "Cevapsız mesajlar rezervasyon kaybına neden olur mu?",
+    "Tüm mesaj kanallarını tek ekrandan yönetmek mümkün mü?",
+    "Hızlı yanıt süresi misafir memnuniyetini nasıl etkiler?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; kaçırılan mesajlar, geç yanıtlar, farklı platformlarda dağınık iletişim, düşük dönüşüm ve memnuniyet problemlerine odaklanır ve çok kanallı, script’li ve SLA kontrollü mesaj yönetimi ile bu sorunların nasıl azaltılabileceğini açıklayan yanıtlar içerir.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "turizm bölgeleri"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-cagri-mesaj-qset-39",
+  "dgJsonLdQuestionStrategy": "Mesaj yönetimi hizmetinin tanımı, kapsamı, kanallar, tek panel yönetimi, hızlı yanıtın rezervasyon ve memnuniyet üzerindeki etkisi gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; kaçırılan mesajlar, geç yanıtlar ve dağınık iletişim gibi pain point’lere odaklanan sorular; Türkiye geneli ve turizm bölgelerinde otel mesaj senaryolarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Mesaj Yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Mesaj Yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "Genel çağrı merkezi yaklaşımı için /tr/cagri-merkezi-hizmetleri ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Profesyonel çağrı merkezi süreçleri, rezervasyon dönüşümlerini ve misafir memnuniyetini belirgin şekilde artırır. Mesaj Yönetimi Hizmeti; WhatsApp, DM, OTA mesajları ve web chat’te cevapsız ve geç yanıtlanan mesajları azaltarak hem rezervasyon kayıplarını hem de memnuniyetsizlik nedenlerini minimize eder.",
+  "dgResultTimeframe": "Mesaj yönetimi modeli devreye alındıktan sonraki 1–3 ay içinde cevaplanma ve ilk yanıt sürelerinde; 3–6 ay içinde ise mesaj kanallarından gelen rezervasyon hacmi ve memnuniyet skorlarında iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Mesaj kanallarının kapsamı (WhatsApp, DM, web chat, OTA mesajları), kullanılan mesaj yönetim platformları veya DGTLFACE’in mesaj operasyon modeli (diller, SLA, çalışma saatleri) değiştiğinde; ayrıca platform politikaları (örn. WhatsApp Business, Instagram API) güncellendiğinde bu SSS, özellikle voice, pain point ve kanal açıklamaları bazında güncellenmelidir.",
+  "dgNotes": "BÖLÜM 39 – /tr/cagri-merkezi/mesaj-yonetimi-sss için Mesaj Yönetimi SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Mesaj yönetimi hizmeti tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mesaj yönetimi hizmeti; otelinizin WhatsApp, sosyal medya DM (Instagram, Facebook vb.), web chat ve OTA mesaj kutuları üzerinden aldığı tüm misafir mesajlarını tek merkezden, belirlenmiş SLA ve standart yanıt diliyle yöneten profesyonel çağrı merkezi modelidir. Amaç, cevapsız ve geç cevaplanan mesajları sıfıra yaklaştırmak ve bu kanalları gerçek bir rezervasyon ve memnuniyet kanalı hâline getirmektir.",
+        "dgShortAnswer": "WhatsApp, DM, web chat ve OTA mesajlarını tek merkezden, SLA ve standart yanıt diliyle yöneten profesyonel mesaj operasyonudur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Sosyal medya ve WhatsApp mesaj yönetimi nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sosyal medya ve WhatsApp mesaj yönetimi; bu kanallardan gelen bilgi, fiyat/uygunluk, şikâyet ve özel istek mesajlarının profesyonelce karşılanmasını, marka tonunu koruyarak yanıtlanmasını ve gerektiğinde rezervasyon, şikâyet veya ilgili departmanlara aktarılmasını sağlayan süreçtir. Böylece misafir, hangi kanaldan yazarsa yazsın aynı kalite ve hızda yanıt alır.",
+        "dgShortAnswer": "WhatsApp ve DM’den gelen bilgi, fiyat, şikâyet ve istek mesajlarını profesyonelce karşılayıp ilgili süreçlere aktaran yönetim modelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Kanal Tanımı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için WhatsApp ve DM’leri profesyonel ekibe devretmek mantıklı mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eğer WhatsApp ve sosyal medya DM’lerinizde ciddi mesaj hacmi varsa, bu mesajların bir kısmı cevapsız kalıyor veya geç cevaplanıyorsa, otel içi ekip bunlara ancak ‘fırsat bulduğunda’ bakabiliyorsa; profesyonel bir mesaj yönetim ekibi ile çalışmak mantıklıdır. Böylece misafirle mesaj üzerinden kurulan ilişki kişiye bağlı olmaktan çıkar, süreç haline gelir.",
+        "dgShortAnswer": "Mesaj hacmi yüksek ve cevap süresi uzun veya düzensizse; profesyonel ekip ile mesaj yönetimini standart hâle getirmek çoğu zaman mantıklıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Outsource Kararı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Cevapsız mesajlar rezervasyon kaybına neden olur mu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Özellikle karar aşamasındaki misafirler, aynı anda birden fazla otele mesaj atabiliyor. Cevap alamadıkları veya geç dönüş aldıkları otelleri listeden hızla çıkarıyorlar. Cevapsız mesaj, çoğu zaman sessizce kaybedilmiş bir rezervasyon anlamına gelir; üstelik misafir gözünde marka algısını da aşağı çeker.",
+        "dgShortAnswer": "Evet; cevapsız veya çok geç cevaplanan mesaj, çoğu zaman sessizce kaybedilen bir rezervasyon ve zayıflayan marka algısı demektir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Cevapsız Mesajlar & Kaybı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Geç yanıtlar misafir davranışını nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Misafir, mesaj attığında ‘birkaç güne dönerler’ değil, neredeyse ‘anlık’ yanıt bekliyor. Yanıt geciktikçe; başka otellere de yazıyor, ilk yanıt veren otelle ilerliyor ve sizin mesajınız çoğu zaman gereksiz hâle geliyor. Geç yanıt; sadece memnuniyeti değil, direkt satış/rezervasyon fırsatını da düşürüyor.",
+        "dgShortAnswer": "Geç yanıt; misafirin başka otellere yönelmesine ve ilk yanıt veren otelin seçilmesine yol açarak doğrudan satış fırsatını azaltır.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Geç Yanıt",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Tüm mesaj kanallarını tek ekrandan yönetmek mümkün mü?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru mesaj yönetim platformu ve entegrasyonlarla; WhatsApp Business, Instagram/Facebook DM, web chat ve OTA mesaj kutuları tek bir panelde toplanabilir. Operasyon ekibi bu panel üzerinden mesajları sıralayabilir, filtreleyebilir, yanıtlayabilir ve performansı (yanıt süresi, adet, dönüşüm) takip edebilir. Böylece hem verim artar hem de hiçbir kanal gözden kaçmaz.",
+        "dgShortAnswer": "Evet; uygun platform ve entegrasyonlarla WhatsApp, DM, web chat ve OTA mesajlarını tek panelden yönetmek mümkündür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tek Panel Yönetim",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Mesaj yönetimi performansı hangi metriklerle ölçülür?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mesaj yönetiminde takip edilmesi gereken temel metrikler; kanal bazlı mesaj sayısı (WhatsApp, DM, OTA mesajı, web chat vb.), cevaplanma oranı, ilk yanıt süresi (first response time), çözüm süresi, mesaj → rezervasyon dönüşüm oranı ve misafir memnuniyeti/geri bildirim skorlarıdır. Bu metrikler, hem kapasite planlaması hem de kalite geliştirme için yol gösterir.",
+        "dgShortAnswer": "Mesaj sayısı, cevaplanma oranı, ilk yanıt süresi, çözüm süresi, mesajdan rezervasyona dönüşüm ve memnuniyet skorları takip edilmelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / KPI’lar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Mesaj yönetimiyle şikâyet ve yorumlar nasıl iyileştirilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Misafir, sorununu mesaj üzerinden ilettiğinde; hızlı, empatik ve çözüm odaklı bir yanıt alırsa, yaşadığı olumsuzluğu çoğu zaman OTA veya Google yorumuna taşımadan çözüme kavuşmuş hisseder. Etkili bir mesaj yönetimi; şikâyetleri erken yakalar, ilgili departmanlara aktarır ve çözümü yine aynı kanal üzerinden misafire iletir. Bu da negatif yorum/rating oranını ciddi şekilde düşürür.",
+        "dgShortAnswer": "Şikâyetler mesaj üzerinden erken yakalanıp hızlı ve empatik biçimde çözülürse, negatif yorum ve düşük puanlara dönüşme ihtimali ciddi biçimde azalır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Memnuniyet",
+      "dgIntent": "Bilgilendirici / Şikâyet & Yorum İyileştirme",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Türkiye’deki resort oteller için mesaj yönetimi neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Resort otellerde, özellikle sezon döneminde WhatsApp, OTA mesajları ve sosyal medya DM’lerinden çok sayıda soru gelir: fiyat, konsept, oda tipi, aktiviteler, çocuk imkânları vb. Bu mesajların hızlı, net ve satış odaklı yanıtlanması; hem rezervasyon dönüşüm oranını hem de misafir gözündeki ‘otelin online ilgisi’ algısını belirler. Antalya, Belek, Kemer, Side, Alanya gibi bölgelerde bu kanalların profesyonel yönetimi ciddi rekabet avantajı sağlar.",
+        "dgShortAnswer": "Resort bölgelerde yoğun mesaj trafiği vardır; bu kanalları hızlı ve profesyonel yönetmek, rezervasyon ve online ilgi algısı açısından kritik avantaj sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Resort Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Mesaj yönetimi otel için hangi senaryoları kapsamalıdır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel mesaj yönetiminde; oda & fiyat soruları, kampanya ve paket bilgisi, şikâyet ve talepler, transfer ve ekstra hizmet soruları, iptal/değişiklik talepleri ve özel isteklerin (örneğin alerji, kutlama, çocuk yatağı vb.) yönetimi mutlaka kapsama alınmalıdır. Böylece misafir, ‘her şeyi WhatsApp ve mesajla çözebildiği otel’ hissine sahip olur.",
+        "dgShortAnswer": "Oda/fiyat, kampanya, şikâyet/talep, transfer/ek hizmet ve iptal/değişiklik gibi rezervasyonla ilişkili tüm senaryolar mesaj yönetimi kapsamına alınmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Senaryo Kapsamı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Mesaj Yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Mesaj Yönetimi için çalışmak istediğinizde; hangi mesaj kanallarını kullandığınızı (WhatsApp, Instagram/Facebook DM, web chat, OTA mesajları vb.), günlük/aylık mesaj hacminizi, hedef pazar ve dillerinizi, mevcut ortalama cevap ve çözüm sürelerinizi, şu an yaşadığınız temel problemleri (cevapsız mesaj, geç yanıt, dağınık süreç, düşük memnuniyet vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle, kapsam, süreç, kanal entegrasyonu, SLA ve bütçe çerçevesini içeren bir Mesaj Yönetimi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Kullandığınız kanallar, mesaj hacmi, hedef diller, mevcut yanıt süreleri ve problemleri özetleyen kısa bir brief ile kapsam, süreç, SLA ve bütçe içeren Mesaj Yönetimi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-destek-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek-sss#faq",
+  "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek-sss",
+  "inLanguage": "tr",
+  "name": "Satış Sonrası Destek SSS",
+  "description": "Satış Sonrası Destek hakkında sık sorulan sorular; misafir memnuniyeti, şikâyet yönetimi ve sadakat süreçleri. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Çağrı Merkezi",
+  "dgSectionIndex": 40,
+  "dgParentUrl": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Satış Sonrası Destek SSS",
+  "dgH1": "Satış Sonrası Destek SSS",
+  "dgTitle": "Satış Sonrası Destek SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+  "dgMetaDescription": "Satış Sonrası Destek hakkında sık sorulan sorular; misafir memnuniyeti, şikâyet yönetimi ve sadakat süreçleri. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "misafir memnuniyeti, şikâyet yönetimi ve sadakat süreçleri; çağrı merkezi ve mesaj kanallarıyla entegre satış sonrası destek; olumsuz yorumlar, tekrar gelmeyen misafirler, kriz yönetimi ve NPS/sadakat optimizasyonu",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Satış Sonrası Destek ile ilgili en sık sorulan soruları; misafir memnuniyeti, şikâyet yönetimi, geri bildirim toplama, sadakat süreçleri ve çağrı merkezi/mesaj kanallarıyla entegre müşteri desteği üzerinden açıklar. Amaç, olumsuz yorumlar, tekrar gelmeyen misafirler ve yanlış kriz yönetimi gibi sorunları; standart prosedürlere, KPI’lara ve çok kanallı iletişim yapısına oturtarak çözmektir.",
+  "dgAiAnswerCapsule": "Satış Sonrası Destek SSS; konaklama öncesi ve sonrası misafir soruları, şikâyetler ve sadakat süreçlerini telefon, WhatsApp ve diğer kanallardan profesyonelce yönetmek isteyen oteller için satış sonrası müşteri deneyimini hızlı ve net şekilde özetleyen bir rehberdir.",
+  "dgVoiceSearchSummary": "Satış sonrası destek; misafirlerin konaklama öncesi ve sonrası tüm sorularını, şikâyetlerini ve sadakat süreçlerini çağrı merkezi ve mesaj kanalları üzerinden profesyonelce yöneten hizmet modelidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Satış Sonrası Destek ile ilgili ‘satış sonrası destek hizmeti nedir, misafir şikâyetlerini profesyonel ekibe devretmek mantıklı mı, olumsuz yorumlar nasıl yönetilir, memnuniyet nasıl ölçülür, tekrar gelmeyen misafir sorunu nasıl azaltılır’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Satış Sonrası Destek SSS; otellerde şikâyet, memnuniyet ve sadakat süreçlerini çok kanallı bir çağrı merkezi yapısı içinde nasıl kurgulamanız gerektiğini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Satış sonrası destek hizmeti tam olarak nedir?",
+    "Otelimde misafir şikâyetlerini profesyonel bir ekiple yönetmek mantıklı mı?",
+    "Olumsuz yorumları nasıl daha iyi yönetebilirim?",
+    "Misafir memnuniyetini ölçmek için hangi adımları atmalıyım?",
+    "Tekrar gelmeyen misafir sorununu nasıl azaltırım?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; olumsuz yorumlar, tekrar gelmeyen misafirler, yanlış kriz yönetimi, düşük NPS skorları ve şikâyetlerin kişiye/kanala bağlı dağınık yönetimi gibi problemlere odaklanır ve standartlaştırılmış satış sonrası destek süreçleriyle bu risklerin nasıl azaltılabileceğini ele alır.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "turizm bölgeleri"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-cagri-satis-qset-40",
+  "dgJsonLdQuestionStrategy": "Satış sonrası destek hizmetinin tanımı, oteller için faydaları, misafir şikâyetlerinin profesyonelce nasıl yönetileceği, olumsuz yorumların ve memnuniyet skorlarının marka itibarı üzerindeki etkileri, sadakat ve tekrar rezervasyon süreçlerinde satış sonrası desteğin rolü gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; olumsuz yorumlar, tekrar gelmeyen misafirler, yanlış kriz yönetimi ve düşük NPS skorları gibi pain point’lere odaklanan sorular; Türkiye geneli ve turizm bölgelerindeki otel senaryolarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Satış Sonrası Destek için teklif al",
+    "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Satış Sonrası Destek için teklif al)",
+  "dgCtaCrossLinkNote": "Genel çağrı merkezi yaklaşımı için /tr/cagri-merkezi-hizmetleri ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Profesyonel çağrı merkezi süreçleri, rezervasyon dönüşümlerini ve misafir memnuniyetini belirgin şekilde artırır. Satış Sonrası Destek modeli; olumsuz deneyimi doğru yöneterek yorum skorlarını, sadakati ve tekrar rezervasyon oranını yükseltmeye yardımcı olur.",
+  "dgResultTimeframe": "Satış Sonrası Destek süreçleri devreye alındıktan sonraki 1–3 ay içinde şikâyet çözüm sürelerinde ve olumsuz yorum oranlarında; 3–6 ay içinde ise NPS/memnuniyet skorlarında ve tekrar rezervasyon oranında iyileşme görülmesi beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Misafir iletişim kanalları (telefon, WhatsApp, DM, OTA mesajları), memnuniyet/anket araçları veya DGTLFACE’in satış sonrası destek hizmet kapsamı (örneğin sadece şikâyet + sadakat + NPS) değiştiğinde; ayrıca otellerin misafir deneyimi stratejisi veya hedef pazarları güncellendiğinde bu SSS, özellikle pain point, örnek süreç ve KPI soruları düzeyinde güncellenmelidir.",
+  "dgNotes": "BÖLÜM 40 – /tr/cagri-merkezi/satis-sonrasi-destek-sss için Satış Sonrası Destek SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Satış sonrası destek nedir, oteller için ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Satış sonrası destek; misafirin rezervasyon yaptıktan ve/veya konakladıktan sonra yaşadığı sorular, şikâyetler ve geri bildirimlerin profesyonelce ele alındığı, memnuniyetin ölçülüp artırıldığı ve sadakat süreçlerinin yönetildiği iletişim yapısıdır. Oteller için bu yapı; olumsuz yorumları azaltmak, sorunları büyümeden çözmek, tekrar rezervasyonu teşvik etmek ve marka itibarını korumak açısından kritik rol oynar.",
+        "dgShortAnswer": "Satış sonrası destek, konaklama öncesi/sonrası tüm sorular ve şikâyetleri profesyonelce yöneterek memnuniyet, sadakat ve marka itibarını güçlendirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Tanım & Fayda",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Satış sonrası destek hizmeti tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Satış sonrası destek hizmeti; misafirlerin konaklama öncesi ve sonrasında çağrı merkezi, WhatsApp, e-posta, DM ve OTA mesajları üzerinden ilettikleri soruların, şikâyetlerin ve taleplerin belirlenmiş prosedürlere göre karşılanmasını sağlayan profesyonel hizmet modelidir. Bu modelde, şikâyet ve memnuniyet süreçleri KPI’larla ölçülür, raporlanır ve sürekli iyileştirme odaklı yönetilir.",
+        "dgShortAnswer": "Çağrı ve mesaj kanallarından gelen tüm satış sonrası talepleri prosedür ve KPI’larla yöneten profesyonel destek modelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Misafir şikâyetleri nasıl profesyonelce yönetilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Profesyonel şikâyet yönetiminde; şikâyet erken tespit edilir, sınıflandırılır ve kayıt altına alınır, misafire hızlı ve empatik bir şekilde geri dönüş yapılır, konu ilgili departmana net bir biçimde iletilir, çözüm üretildikten sonra misafire sonucu bildiren bir ikinci ileti yapılır. Tüm bu adımların net bir akış ve script ile tanımlanması, her şikâyetin kişisel doğaçlama yerine markanın kurumsal duruşuna uygun şekilde yönetilmesini sağlar.",
+        "dgShortAnswer": "Şikâyet erken yakalanır, kayıt altına alınır, hızlı ve empatik yanıt + net çözüm sunulur ve süreç misafire tekrar dönülerek kapatılır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Şikâyet Yönetimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelimde misafir şikâyetlerini profesyonel bir ekiple yönetmek mantıklı mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Şikâyet hacminiz belirgin seviyedeyse, yorum skorlarınız düşmeye başladıysa veya kriz anlarında kimin nasıl hareket edeceği net değilse; satış sonrası destek için profesyonel bir çağrı merkezi/operasyon ekibiyle çalışmak mantıklıdır. Böylece sahadaki ekip (resepsiyon/operasyon) üzerindeki baskı azalır, şikâyet süreçleri ölçülebilir ve sürekli iyileştirilebilir hâle gelir.",
+        "dgShortAnswer": "Şikâyet hacmi yüksek, yorum skorları düşük veya kriz yönetiminde zorlanıyorsanız; profesyonel satış sonrası ekiple çalışmak çoğu zaman mantıklıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Outsource Kararı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Olumsuz yorumlar marka itibarını nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA, Google ve sosyal medya yorumları, birçok misafirin otel seçerken baktığı ilk yerlerdir. Düşük puanlar ve çözüm odaklı olmayan olumsuz yorumlar; özellikle rekabetin yüksek olduğu destinasyonlarda, terazi diğer tarafa yakınken misafirin kararını değiştirebilir. Yanlış yönetilen şikâyetler ve yanıtsız bırakılan negatif yorumlar; zaman içinde itibar erozyonuna yol açar.",
+        "dgShortAnswer": "Olumsuz ve kötü yönetilen yorumlar, özellikle rekabetin yüksek olduğu bölgelerde misafirlerin kararını doğrudan olumsuz etkileyerek marka itibarını zayıflatır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & İtibar",
+      "dgIntent": "Bilgilendirici / Yorum & İtibar",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Olumsuz yorumları nasıl daha iyi yönetebilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Olumsuz yorumları yönetirken; hızlı ve sakin yanıt vermek, misafirin duygusunu anladığınızı göstermek, net bir özür ve mümkünse somut çözüm/iyileştirme adımı sunmak, savunmacı ve suçlayıcı bir tondan kaçınmak gerekir. İyi bir satış sonrası süreçte; yorum yazılmadan önce şikâyet yakalanmaya çalışılır, yoruma dönüşen vakalarda ise marka diline uygun ve standardize edilmiş yanıt şablonları kullanılır.",
+        "dgShortAnswer": "Hızlı, empatik, çözüm odaklı ve savunmaya kaçmayan yanıtlar; olumsuz yorumların etkisini azaltır ve bazen pozitif algıya bile çevirebilir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Olumsuz Yorum Yönetimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Misafir memnuniyeti nasıl ölçülür ve artırılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Memnuniyeti ölçmek için; çıkış sonrasında kısa anketler, NPS (Net Promoter Score) çalışmaları, kanal bazlı yorum analizi ve çağrı/mesaj sonrası mini memnuniyet soruları kullanılabilir. Artırmak için ise; bu verilerden çıkan kök sebeplere odaklanmak, hizmet ve süreç iyileştirmeleri yapmak, personel eğitimleri düzenlemek ve pozitif deneyimleri güçlendiren jestler (upgrade, özel ikram vb.) uygulamak gerekir.",
+        "dgShortAnswer": "Anket, NPS ve yorum analiziyle ölçülür; kök sebeplere yönelik süreç/ eğitim iyileştirmeleri ve pozitif jestlerle artırılır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Memnuniyet Ölç & Artır",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Satış sonrası destek sadakati nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Satış sonrası süreç; misafirin ‘sorun yaşadığımda yanımda mıydınız?’ sorusuna verilen cevaptır. Olumsuz bir deneyimi doğru yönetmek, telafi sunmak ve misafiri dinlenmiş hissettirmek; sadakat üzerinde kampanyadan ve fiyattan çok daha güçlü etki yaratabilir. Aynı şekilde, memnun misafire tekrar rezervasyon için proaktif iletişim kurmak da sadakati artırır.",
+        "dgShortAnswer": "Doğru yönetilmiş şikâyet ve proaktif tekrar rezervasyon iletişimi, sadakati fiyat ve kampanyadan daha güçlü etkileyebilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Sadakat Etkisi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Tekrar gelmeyen misafir sorununu nasıl azaltırım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Öncelikle tekrar gelmeyen misafirlerin neden gelmediğini anlamak gerekir: memnuniyetsizlik, beklenti uyumsuzluğu veya sadece hatırlatılmama. Satış sonrası destek; olumsuz deneyimleri tespit edip telafi etmeye, memnun misafiri sadakat programına davet etmeye ve belirli bir zaman sonra kişiselleştirilmiş tekrar rezervasyon teklifleri ile misafire ulaşmaya odaklanır. Bu, ‘gelirlerse ne âlâ’ modelinden ‘geri kazanım’ modeline geçmenizi sağlar.",
+        "dgShortAnswer": "Kök sebepleri analiz edip olumsuz deneyimi telafi etmek ve memnun misafire tekrar rezervasyon için kişiselleştirilmiş iletişim kurmak, tekrar gelmeyen misafir oranını düşürür.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Tekrar Gelmeyen Misafir",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Türkiye’deki resort oteller için satış sonrası destek neden önemli?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Resort otellerde sezon yoğunluğu, çok uluslu misafir profili ve OTA/yorum platformlarına bağımlılık yüksektir. Bu kombinasyonda; küçük yönetim hataları bile çok sayıda olumsuz yoruma ve tekrar tercih kaybına yol açabilir. Satış sonrası destek; tam da bu noktada, şikâyet ve memnuniyet süreçlerini sistematik hâle getirerek sezon boyunca marka itibarını ve sadakati korumanıza yardımcı olur.",
+        "dgShortAnswer": "Resortlarda yüksek hacim ve yoğun sezon, şikâyet ve yorumları kritik hâle getirir; sistematik satış sonrası destek bu riskleri yönetmek için şarttır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Resort Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Satış Sonrası Destek için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Satış Sonrası Destek için çalışmak istediğinizde; otelinizin türünü (resort, city, zincir vb.), satış sonrası iletişim kanallarınızı (telefon, WhatsApp, DM, OTA mesajları, e-posta), şikâyet ve yorum hacminizi, mevcut memnuniyet/NPS skorlarınızı (varsa) ve özellikle yaşadığınız temel problemleri (olumsuz yorumlar, tekrar gelmeyen misafirler, kriz yönetimi zorluğu vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kapsam, süreç, KPI seti, entegrasyon ve bütçe çerçevesini içeren bir Satış Sonrası Destek yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel türü, satış sonrası kanallar, şikâyet/yorum hacmi, mevcut skorlar ve problemleri içeren kısa bir brief ile kapsam, süreç, KPI ve bütçe içeren Satış Sonrası Destek teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    }
+  ]
+},
+
+"performans-analizi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi-sss#faq",
+  "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi-sss",
+  "inLanguage": "tr",
+  "name": "Çağrı Merkezi Performans Analizi SSS",
+  "description": "Çağrı Merkezi Performans Analizi hakkında sık sorulan sorular; çağrı istatistikleri, hizmet kalitesi metrikleri ve ekip verimliliği. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Çağrı Merkezi",
+  "dgSectionIndex": 41,
+  "dgParentUrl": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Çağrı Merkezi Performans Analizi SSS",
+  "dgH1": "Çağrı Merkezi Performans Analizi SSS",
+  "dgTitle": "Çağrı Merkezi Performans Analizi SSS – Çağrı Merkezi Operasyonları Hakkında Kapsamlı Rehber | DGTLFACE",
+  "dgMetaDescription": "Çağrı Merkezi Performans Analizi hakkında sık sorulan sorular; çağrı istatistikleri, hizmet kalitesi metrikleri ve ekip verimliliği. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "çağrı istatistikleri, hizmet kalitesi metrikleri ve ekip verimliliği; inbound/outbound KPI’ları, rezervasyon dönüşümü, hizmet seviyesi, agent performansı, otel & turizm senaryoları, sık yapılan hatalar ve optimizasyon ipuçları",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Çağrı Merkezi Performans Analizi ile ilgili en sık sorulan soruları; çağrı adedi, cevaplanma oranı, bekleme süresi, çözüm oranı, satış/rezervasyon dönüşümü, dil/kanal kırılımları ve agent performansı üzerinden açıklar. Amaç, çağrı merkezi operasyonunu sadece ‘telefon açılıyor mu?’ değil; verimlilik, kalite ve gelir katkısı açısından okumayı öğretmektir.",
+  "dgAiAnswerCapsule": "Çağrı Merkezi Performans Analizi SSS; otel ve hizmet markalarının inbound/outbound çağrılarını, SLA’lerini ve rezervasyon dönüşümlerini KPI’larla izleyip iyileştirmek için hangi metrikleri nasıl takip etmesi gerektiğini kısa ve net biçimde açıklayan bir rehberdir.",
+  "dgVoiceSearchSummary": "Çağrı merkezi performans analizi; inbound/outbound çağrıları, hizmet seviyesi, bekleme süresi, çözüm ve rezervasyon dönüşüm oranlarını KPI’larla ölçüp raporlamanızı sağlayan analiz sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanmış kısa sorular; ‘Çağrı merkezi performans analizi tam olarak nedir?’, ‘Otel çağrı merkezi için hangi KPI’lara bakmalıyım?’, ‘Rezervasyon dönüşüm oranını nasıl ölçerim?’, ‘Bekleme süresi ve cevaplanma oranı ne olmalı?’, ‘Agent performansını nasıl raporlamalıyım?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Çağrı Merkezi Performans Analizi SSS; otel çağrı merkezinin ne kadar iş yaptığını değil, bu işi ne kadar verimli, kaliteli ve gelir odaklı yaptığını ölçmek için gereken metrikleri özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Çağrı merkezi performans analizi tam olarak nedir?",
+    "Otel çağrı merkezi için hangi KPI’lara bakmalıyım?",
+    "Rezervasyon dönüşüm oranını nasıl ölçerim?",
+    "Bekleme süresi ve cevaplanma oranı ne olmalı?",
+    "Agent performansını nasıl raporlamalıyım?",
+    "Çağrı merkezi performans analizi kimler için uygundur?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; ölçülemeyen performans, yanlış KPI seçimi, düşük hizmet seviyesi, motivasyon sorunları ve sadece ‘adet’ odaklı raporlamanın yarattığı kızgınlık ve verimsizlik gibi problemlere odaklanır ve doğru KPI seti, dashboard ve analiz süreçleriyle bu risklerin nasıl azaltılabileceğini ele alır.",
+  "dgGeoFocus": [
+    "Türkiye geneli"
+  ],
+  "dgSectors": [
+    "Otel & Turizm",
+    "Hizmet Sektörü"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-cagri-performans-qset-41",
+  "dgJsonLdQuestionStrategy": "Çağrı merkezi performans analizi tanımı, inbound/outbound için core KPI’lar, rezervasyon dönüşüm oranı, hizmet seviyesi ve agent performansı metriklerini açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; ölçülemeyen performans, yanlış KPI’lar, düşük hizmet seviyesi ve motivasyon sorunları gibi pain point’lere odaklanan sorular ve Türkiye geneli otel & hizmet senaryolarına uygun örnekler içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Çağrı Merkezi Performans Analizi için teklif al",
+    "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Çağrı Merkezi Performans Analizi için teklif al)",
+  "dgCtaCrossLinkNote": "Genel çağrı merkezi yaklaşımı için /tr/cagri-merkezi-hizmetleri ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+    "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+    "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+    "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+    "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Profesyonel çağrı merkezi süreçleri, rezervasyon dönüşümlerini ve misafir memnuniyetini belirgin şekilde artırır. Doğru performans analizi, çağrı merkezi operasyonunun gerçekten ne kadar gelir ve memnuniyet katkısı sağladığını görmeyi ve buna göre ekip, script ve teknoloji yatırımlarını optimize etmeyi mümkün kılar.",
+  "dgResultTimeframe": "Çağrı Merkezi Performans Analizi modelinin devreye alınmasından sonraki 1–3 ay içinde hizmet seviyesi ve cevaplanma oranlarında; 3–6 ay içinde ise rezervasyon dönüşümü, gelir katkısı ve misafir memnuniyet skorlarında iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Çağrı merkezi platformları, raporlama/BI araçları veya DGTLFACE’in call center KPI modeli (ör. yeni metrikler, yeni dashboard yapısı) değiştiğinde; ayrıca otellerin operasyon hedefleri (satış, destek, NPS vb.) revize edildiğinde bu SSS, özellikle KPI tanımları, örnekler ve JSON-LD’de işaretli performans soruları açısından refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 41 – /tr/cagri-merkezi/performans-analizi-sss için Çağrı Merkezi Performans Analizi SSS kurgusu. Lokasyon odağı: Türkiye geneli.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezi performans analizi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çağrı merkezi performans analizi; inbound/outbound çağrı hacmini, cevaplanma oranını, bekleme süresini, hizmet seviyesini, çözüm oranını, satış/rezervasyon dönüşümünü ve ekip verimliliğini KPI’lar üzerinden ölçüp raporlamanızı sağlayan analiz sürecidir. Amaç, ‘telefon açılıyor mu?’ sorusundan ‘çağrı merkezi gelire ve memnuniyete ne katkı sağlıyor?’ sorusuna geçmektir.",
+        "dgShortAnswer": "Inbound/outbound çağrı, hizmet seviyesi, dönüşüm ve ekip verimliliğini KPI’larla ölçüp raporlamanızı sağlayan analiz sürecidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezi performansı nasıl ölçülür?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çağrı merkezi performansını ölçmek için; toplam çağrı sayısı (inbound/outbound), cevaplanan ve kaçan çağrı oranları, ortalama bekleme süresi, hizmet seviyesi (service level), ortalama görüşme süresi (AHT), çözüm oranı, satış/rezervasyon dönüşüm oranı ve agent bazlı performans metrikleri gibi çekirdek KPI’lar takip edilir. Bu metrikler, sadece sayılmakla kalmayıp trend, hedef ve gelir/memnuniyet etkisi açısından yorumlanmalıdır.",
+        "dgShortAnswer": "Cevaplanma, bekleme süresi, hizmet seviyesi, AHT, çözüm ve satış/rezervasyon dönüşüm gibi KPI’lar izlenerek ölçülür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel KPI Seti",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel çağrı merkezi için hangi KPI’lara bakmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel çağrı merkezleri için; inbound cevaplanma oranı, hizmet seviyesi, ortalama bekleme süresi, çağrı başına satış/rezervasyon dönüşüm oranı, rezervasyon başına gelir, dil ve kanal bazlı performans, agent bazlı verimlilik (çağrı sayısı, dönüşüm, kalite), şikâyet oranı ve misafir memnuniyet skorları (CSAT, NPS vb.) temel KPI’lar olarak takip edilmelidir.",
+        "dgShortAnswer": "Cevaplanma, hizmet seviyesi, bekleme süresi, satış/rezervasyon dönüşümü, rezervasyon başına gelir, dil/kanal ve agent bazlı performans ana KPI’lardır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Otel KPI’ları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Inbound ve outbound için en önemli KPI’lar nelerdir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inbound tarafında; cevaplanma oranı, hizmet seviyesi (ör. %80 çağrı 20 sn içinde cevaplanıyor mu?), ortalama bekleme süresi, AHT ve inbound çağrılardan rezervasyona dönüşüm oranı öne çıkar. Outbound tarafında ise; ulaşma oranı (cevaplanan aramalar), gerçek görüşme oranı, outbound → teklif → rezervasyon dönüşümü, kampanya bazlı satış performansı ve geri arama verimliliği en kritik KPI’lar arasındadır.",
+        "dgShortAnswer": "Inbound: cevaplanma, hizmet seviyesi, bekleme, AHT, dönüşüm. Outbound: ulaşma, görüşme ve teklif → rezervasyon dönüşüm oranları öne çıkar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Inbound vs Outbound KPI",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon dönüşüm oranı nasıl takip edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon dönüşüm oranını takip etmek için; çağrı/talep sayısını, teklif sunulan çağrı sayısını ve rezervasyona dönen çağrı sayısını ayrı ayrı kaydetmek gerekir. Dönüşüm, genellikle teklif → rezervasyon oranı üzerinden okunur. Bu oranı dil, kanal (telefon, WhatsApp, OTA mesajı) ve kampanya bazlı kırmak; satış odaklı iyileştirmeler için çok değerli içgörüler sağlar.",
+        "dgShortAnswer": "Toplam talep, teklif ve rezervasyon sayılarını takip ederek; özellikle teklif → rezervasyon oranını dil/kanal/kampanya bazında ölçmelisiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Rezervasyon Dönüşümü",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hizmet seviyesi (service level) nedir, nasıl hesaplanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hizmet seviyesi (service level); belirli bir süre içinde cevaplanan çağrıların toplam çağrı sayısına oranıdır. Örneğin ‘%80/20’ hedefi, çağrıların %80’inin 20 saniye içinde cevaplanması anlamına gelir. Otelinizin büyüklüğüne, kampanya yoğunluğuna ve pazar beklentisine göre uygun bir hizmet seviyesi hedefi tanımlanmalı ve düzenli raporlanmalıdır.",
+        "dgShortAnswer": "Service level, belirlenen süre içinde cevaplanan çağrıların toplam çağrıya oranıdır (örneğin %80 çağrıyı 20 sn içinde cevaplamak gibi).",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Service Level",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Agent performansını hangi metriklerle değerlendirmeliyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agent performansında; cevaplanan çağrı sayısı, ortalama görüşme süresi, inbound/outbound dönüşüm oranı (özellikle rezervasyon/satış), kalite skorları (script ve süreçlere uyum), şikâyet oranı ve vardiya uyumu (adherence) gibi metrikler temel değerlendirme kriterleridir. Amaç, sadece ‘en çok çağrı alan’ değil; hem verimli hem kaliteli, hem de misafir memnuniyeti yüksek temsilcileri tespit etmek olmalıdır.",
+        "dgShortAnswer": "Cevaplanan çağrı, AHT, rezervasyon/satış dönüşümü, kalite skorları, şikâyet oranı ve vardiya uyumu agent performansının çekirdek metrikleridir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Agent KPI’ları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Ölçülemeyen performans ne gibi problemlere yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Performans ölçülmediğinde; kaç personele ihtiyacınız olduğu, çağrı merkezinin gerçekten ne kadar satış ve memnuniyet katkısı sağladığı, hangi saat ve dillerde zorlandığınız, hangi temsilcilerin gelişime açık olduğu gibi kritik sorulara cevap veremezsiniz. Bu da ya gereksiz maliyet artışı ya da gelir kaybı gibi sonuçlar doğurur.",
+        "dgShortAnswer": "Ölçülmeyen performans; gereksiz maliyet, gelir kaybı ve yanlış kapasite kararlarına yol açar; ekibi ‘hissiyatla’ yönetmek zorunda kalırsınız.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Ölçülemeyen Performans",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış KPI’lar hangi sorunları üretir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sadece çağrı adedine veya sadece görüşme süresine odaklanan KPI setleri; temsilcileri misafir deneyimi ve satış/fayda yerine sayılara odaklanmaya iter. Örneğin ‘en kısa konuşan en iyidir’ derseniz, temsilci hızlıca görüşmeyi kapatmaya çalışır ve kalite düşer. Dengesiz KPI’lar hem misafir memnuniyetini hem ekip motivasyonunu bozar.",
+        "dgShortAnswer": "Sadece adet veya süre odaklı KPI’lar; temsilcileri kalite ve satıştan uzaklaştırır, hem misafir deneyimini hem ekip motivasyonunu düşürür.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yanlış KPI’lar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezi performans analizi kimler için uygundur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inbound/outbound çağrı trafiği olan; özellikle rezervasyon hattı, misafir destek hattı veya satış hattı işleten tüm otel, turizm ve hizmet sektörü markaları için uygundur. Küçük hacimli yapılarda bile; temel KPI’ları takip etmek, ileride daha büyük ölçekli bir yapıya geçildiğinde önemli avantaj sağlar.",
+        "dgShortAnswer": "Inbound/outbound çağrı trafiği olan tüm otel, turizm ve hizmet markaları için uygundur; özellikle rezervasyon hattı olan yapılar için kritiktir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Uygunluk",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Çağrı Merkezi Performans Analizi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Çağrı Merkezi Performans Analizi için çalışmak istediğinizde; inbound/outbound çağrı merkezinizin kapsamını (rezervasyon, bilgi, şikâyet, satış vb.), kullandığınız çağrı merkezi platformunu, hangi raporları şu an alabildiğinizi, operasyon hedeflerinizi (satış, destek, NPS, SLA vb.) ve yaşadığınız temel problemleri (ölçülemeyen performans, düşük hizmet seviyesi, motivasyon sorunları vb.) özetleyen bir brief paylaşmanız yeterlidir. Bu bilgilerle KPI seti, dashboard tasarımı, analiz süreçleri ve eğitim adımlarını içeren bir performans analizi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Kapsam, platform, mevcut raporlar, hedefler ve problemleri özetleyen bir brief ile KPI seti, dashboard ve süreç tasarımını içeren Çağrı Merkezi Performans Analizi teklifi alabilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    }
+  ]
+},
+
+"pms-kurulum-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/pms-ota/pms-kurulum-sss#faq",
+  "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum-sss",
+  "inLanguage": "tr",
+  "name": "PMS Kurulum Hizmeti SSS",
+  "description": "PMS Kurulum Hizmeti hakkında sık sorulan sorular; otel yönetim sistemi seçimi, kurulum süreci ve eğitim aşamaları. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "PMS & OTA",
+  "dgSectionIndex": 42,
+  "dgParentUrl": "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "PMS Kurulum Hizmeti SSS",
+  "dgH1": "PMS Kurulum Hizmeti SSS",
+  "dgTitle": "PMS Kurulum Hizmeti SSS – Otel Teknolojileri ve Kanal Yönetimi Rehberi | DGTLFACE",
+  "dgMetaDescription": "PMS Kurulum Hizmeti hakkında sık sorulan sorular; otel yönetim sistemi seçimi, kurulum süreci ve eğitim aşamaları. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel yönetim sistemi seçimi, kurulum süreci ve eğitim aşamaları; PMS modülleri, veri geçişi, OTA & channel manager entegrasyonuna hazırlık, sık yapılan hatalar ve optimizasyon ipuçları",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, PMS Kurulum Hizmeti ile ilgili en sık sorulan soruları; otel yönetim sistemi seçimi, modül yapısı (resepsiyon, housekeeping, fatura vb.), kurulum süreci, eğitim aşamaları ve multi-OTA entegrasyon hazırlığı üzerinden açıklar. Amaç, Excel/manüel sistemlerden profesyonel PMS kullanımına geçerken oluşan soru işaretlerini giderip, operasyonun dijitalleşmesini hızlandırmaktır.",
+  "dgAiAnswerCapsule": "PMS Kurulum Hizmeti SSS; uygun PMS’i seçip oda, fiyat, rezervasyon ve operasyon süreçlerini dijitalleştirmek isteyen otellere, kurulum ve eğitim sürecinin nasıl ilerlediğini kısa ve anlaşılır şekilde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "PMS Kurulum Hizmeti, oteliniz için doğru PMS’i seçip oda–fiyat–rezervasyon ve operasyon süreçlerinizi dijitalleştirecek şekilde kurulum ve personel eğitimini yöneten profesyonel hizmettir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; PMS Kurulum Hizmeti ile ilgili ‘PMS kurulum hizmeti nedir, hangi PMS’i seçmeliyim, kurulum ve eğitim ne kadar sürer, veri geçişi ve personel adaptasyonu nasıl olur?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "PMS Kurulum Hizmeti SSS; otelinizin Excel/manüel yapıdan profesyonel PMS’e geçiş sürecini, seçimden kuruluma ve eğitime kadar tüm aşamalarıyla özetler.",
+
+  "dgVoiceQueryExamples": [
+    "PMS kurulum hizmeti tam olarak nedir?",
+    "Otelim için hangi PMS’i seçmeliyim?",
+    "Kurulum ve eğitim süreci ne kadar sürer?",
+    "Eski sistemlerden PMS’e veri geçişi nasıl yapılır?",
+    "Personel eğitimi nasıl organize edilir?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yanlış PMS seçimi, hatalı kurulum, eğitimsiz ekipler, veri kayıpları ve kurulum sonrası destek eksikliği gibi problemlere odaklanır ve doğru PMS seçimi, kontrollü kurulum, planlı eğitim ve entegrasyon hazırlığı ile bu risklerin nasıl azaltılabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "turizm bölgeleri"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-pms-kurulum-qset-42",
+  "dgJsonLdQuestionStrategy": "PMS’in otellere sağladığı faydaları, PMS Kurulum Hizmeti’nin kapsamını, kurulum ve eğitim aşamalarını, veri geçişi, OTA/channel manager entegrasyon hazırlığı ve yanlış PMS/kurulum seçimlerinde yaşanabilecek riskleri açıklayan sorular; ‘nedir / ne işe yarar / nasıl başlanır’ tipi sesli arama uyumlu sorular; yanlış PMS seçimi, hatalı kurulum, eğitimsiz ekipler ve veri kayıplarına odaklanan pain point soruları; Türkiye geneli ve turizm bölgelerindeki resort/city/zincir otel senaryolarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2500–2600",
+
+  "dgPrimaryCta": {
+    "label": "PMS Kurulum Hizmeti için teklif al",
+    "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (PMS Kurulum Hizmeti için teklif al)",
+  "dgCtaCrossLinkNote": "PMS & OTA stratejisi için /tr/pms-ota-yonetimi ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/sem"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Doğru PMS–OTA kurgusu, otellerde kanal verimliliğini %20–30 oranında iyileştirebilir. Profesyonel PMS Kurulum Hizmeti, bu kurgunun sağlam bir altyapı üzerinde kurulmasını sağlayarak hem operasyonel verimliliği hem de gelir ve raporlama kalitesini artırır.",
+  "dgResultTimeframe": "PMS kurulumu sonrası; ilk haftalarda operasyonel rahatlama ve hata azalışı, 1–3 ay içerisinde raporlama ve gelir yönetimi tarafında iyileşmeler, 3–6 ay içinde ise OTA/channel manager verimliliğinde ve rezervasyon yönetiminde belirgin optimizasyon etkileri görülebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "PMS sağlayıcılarının yetenekleri, entegrasyon yöntemleri veya DGTLFACE’in PMS kurulum/eğitim hizmet kapsamı değiştiğinde; ayrıca otellerin operasyon yapısı (oda sayısı, segment, destinasyon) veya kullanılan OTA/channel manager kombinasyonları güncellendiğinde bu SSS, özellikle süreç, eğitim ve entegrasyon soruları bağlamında güncellenmelidir.",
+  "dgNotes": "BÖLÜM 42 – /tr/pms-ota/pms-kurulum-sss için PMS Kurulum Hizmeti SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "PMS nedir, otellere ne sağlar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS (Property Management System), otelin oda ve rezervasyon yönetimini, check-in/check-out süreçlerini, housekeeping durumunu, fatura/muhasebe entegrasyonunu ve raporlamayı tek bir sistem üzerinden yönetmenizi sağlayan otel yönetim yazılımıdır. Excel, defter ve parça parça sistemler yerine PMS kullanmak; hata riskini azaltır, hızı artırır ve operasyonu ölçülebilir hâle getirir.",
+        "dgShortAnswer": "PMS; oda, rezervasyon, check-in/out, housekeeping, fatura ve raporlama süreçlerini tek sistem üzerinden yöneten otel yönetim yazılımıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / PMS Tanımı & Faydası",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS Kurulum Hizmeti tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS Kurulum Hizmeti; oteliniz için doğru PMS’i seçmenize yardımcı olan, sistemin modül ve yapılandırmasını otel yapınıza göre uyarlayan, eski sistemlerden veri geçişini planlayıp yöneten ve personelinizi departman bazlı eğitimlerle PMS’e adapte eden profesyonel bir kurulum ve geçiş hizmetidir. Bu hizmet, sadece teknik kurulum değil, operasyonel geçiş ve eğitim sürecini de kapsar.",
+        "dgShortAnswer": "PMS Kurulum Hizmeti; doğru PMS’i seçip kurulum, veri geçişi ve personel eğitimini oteliniz için uçtan uca yöneten profesyonel geçiş hizmetidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Hizmet Tanımı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için hangi PMS’i seçmeliyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS seçimi için; otelinizin tipi (resort, city, butik, zincir), oda sayınız, ihtiyaç duyduğunuz modüller (housekeeping, POS, spa, MICE vb.), hedef pazar ve kanallarınız (OTA, acente, direct), entegrasyon ihtiyaçlarınız (channel manager, muhasebe yazılımları vb.), destek & eğitim beklentiniz ve lisans/bütçe yapınız birlikte değerlendirilmelidir. PMS Kurulum Hizmeti kapsamında bu kriterler analiz edilerek size en uygun PMS alternatifleri ve mimari önerilir.",
+        "dgShortAnswer": "PMS seçimi; otel tipi, oda sayısı, modül ve entegrasyon ihtiyaçları, destek kalitesi ve bütçe birlikte değerlendirilerek yapılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / PMS Seçimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS kurulumu hangi aşamalardan oluşur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genel PMS kurulum süreci; 1) Mevcut süreç ve sistemlerin analiz edilmesi, 2) PMS modül ve yapılandırma planının oluşturulması, 3) oda, fiyat planı, kullanıcı ve rol tanımlarının yapılması, 4) eski sistemlerden veri geçiş planı ve uygulaması, 5) departman bazlı eğitimlerin verilmesi ve test ortamında denemeler, 6) go-live (sistemin canlıya alınması) ve 7) ilk dönem destek & optimizasyondan oluşur.",
+        "dgShortAnswer": "Analiz → tasarım → yapılandırma → veri geçişi → eğitim & test → go-live → ilk dönem destek adımlarından oluşur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Kurulum Aşamaları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Eski sistemlerden PMS’e veri geçişi nasıl yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Veri geçişinde öncelikle hangi verilerin gerçekten taşınması gerektiği (aktif rezervasyonlar, misafir kartları, oda ve fiyat tanımları, belirli dönem geçmiş verisi vb.) belirlenir. Eski veriler temizlenir, PMS’in istediği formatlara göre haritalanır ve PMS sağlayıcının sunduğu import araçları veya API’leri aracılığıyla yeni sisteme aktarılır. Özellikle aktif rezervasyonlar ve finansal veriler için manual kontrol ve mutabakat yapılması önemlidir.",
+        "dgShortAnswer": "Taşınacak veriler seçilir, temizlenir ve PMS formatına göre haritalanır; import sonrası özellikle aktif rezervasyon ve finansal veriler manuel kontrol edilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Veri Geçişi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel personeli PMS’e nasıl adapte edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Personel adaptasyonu; resepsiyon, rezervasyon, housekeeping, muhasebe vb. departmanlar için ayrı eğitim oturumları planlanarak sağlanır. Eğitimler, gerçek iş senaryoları üzerinden ve canlı sistemde yapılır. Eğitim sonrası kısa testler veya deneme kayıtlarıyla öğrenme seviyesi ölçülür; go-live sonrası ilk haftalarda hızlı destek ve soru–cevap oturumlarıyla yeni sistemin günlük rutine yerleşmesi kolaylaştırılır.",
+        "dgShortAnswer": "Departman bazlı pratik eğitimler, test ortamı, go-live sonrası kısa destek ve tekrar oturumları ile personel PMS’e adapte edilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Eğitim & Adaptasyon",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış PMS seçimi hangi sorunlara yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yanlış PMS seçimi; ihtiyacınız olmayan modüller için gereksiz ücret ödemenize, ihtiyaç duyduğunuz modül veya entegrasyonların bulunmamasına, kullanıcı deneyiminin zayıf olmasına, destek ve eğitim tarafında sorunlar yaşamanıza ve oteliniz büyüdükçe sistemin sizi ‘taşıyamamasına’ neden olabilir. Bu da birkaç yıl içinde tekrar PMS değiştirme ihtiyacı ve ciddi zaman/para kaybı demektir.",
+        "dgShortAnswer": "Yanlış PMS; gereksiz maliyet, eksik modül/entegrasyon, zayıf kullanım ve birkaç yıl içinde tekrar sistem değiştirme ihtiyacı yaratır.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yanlış PMS Seçimi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hatalı kurulum ve eğitimsiz ekipler ne tür problemler yaratır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hatalı kurulum; oda ve fiyat planlarının yanlış tanımlanması, OTA/channel manager tarafında mapping sorunları, raporlarda çelişkili veriler ve kullanıcıların sisteme güvenmemesi gibi sonuçlar doğurur. Eğitimsiz ekipler ise, sistemi hatalı veya eksik kullanarak eski alışkanlıklara (Excel, defter) geri döner; bu da PMS’in sağlayacağı verimlilik ve kontrol avantajını büyük ölçüde boşa çıkarır.",
+        "dgShortAnswer": "Hatalı kurulum ve eğitimsiz ekip; yanlış oda/fiyat, mapping ve rapor hatalarına ve ‘PMS’e güvenmeme’ algısına yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Kurulum & Eğitim Hataları",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Türkiye’deki resort oteller için PMS kurulumu neden önemlidir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Resort otellerde; yüksek oda sayısı, yoğun sezon, birden çok kanal (OTA, acente, direct), farklı pazar ve fiyat karmaları söz konusudur. Bu karmaşıklığı Excel veya manuel yöntemlerle yönetmek hem hata riskini yükseltir hem de gelir fırsatlarının kaçmasına neden olur. Doğru kurgulanmış bir PMS kurulumu; bu karmaşayı yönetilebilir, ölçülebilir ve optimize edilebilir hâle getirir.",
+        "dgShortAnswer": "Resortlarda yüksek hacim ve kanal karması, manuel yönetimi imkânsız kılar; doğru PMS kurulumu bu karmaşayı yönetilebilir hâle getirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Resort & Turizm Bölgeleri",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS ile OTA ve channel manager entegrasyonu nasıl hazırlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS kurulumu sırasında oda tipleri, fiyat planları ve paketler; channel manager ve OTA yapılarıyla uyumlu olacak şekilde isimlendirilir ve kategorize edilir. Kurulumun ardından channel manager tarafında PMS–OTA mapping’i yapılır, test rezervasyonlarıyla veri akışı doğrulanır ve stop-sell/kota, pazar bazlı fiyatlama gibi fonksiyonlar kademeli olarak aktif edilir. Böylece PMS–OTA–channel manager üçgeni sağlam bir mimari üzerinde çalışır.",
+        "dgShortAnswer": "Kurulum sırasında oda/fiyat yapısı OTA–channel manager ile uyumlu kurulur; sonrasında mapping ve test rezervasyonlarla entegrasyon doğrulanır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Entegrasyon Hazırlığı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile PMS Kurulum Hizmeti için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile PMS Kurulum Hizmeti için çalışmak istediğinizde; otelinizin türünü (resort, city, butik, zincir vb.), oda sayınızı ve segmentinizi, mevcutta kullandığınız sistemleri (PMS, channel manager, Excel vb.), hedef pazar ve kanallarınızı (OTA, acente, direct vb.), PMS’ten beklentilerinizi (modüller, rapor ihtiyacı, entegrasyonlar) ve yaşadığınız temel problemleri (manuel süreçler, veri kaybı, entegrasyon eksikliği vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle PMS seçimi, kurulum, veri geçişi, eğitim ve entegrasyon adımlarını içeren bir PMS Kurulum Hizmeti yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, oda sayısı, mevcut sistemler, hedef pazar/kanallar, PMS beklentileri ve problemleri içeren bir brief ile kapsam, süreç ve bütçeyi içeren PMS Kurulum Hizmeti teklifi alabilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "turizm bölgeleri"
+      ]
+    }
+  ]
+},
+
+"ota-entegrasyonu-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu-sss#faq",
+  "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu-sss",
+  "inLanguage": "tr",
+  "name": "OTA Entegrasyonu SSS",
+  "description": "OTA entegrasyonu, PMS–channel manager bağlantısı, Booking.com–Expedia–otel web sitesi fiyat senkronizasyonu ve Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm destinasyonlarındaki oteller için OTA entegrasyon süreçleri hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "PMS & OTA",
+  "dgSectionIndex": 43,
+  "dgParentUrl": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "OTA Entegrasyonu SSS",
+  "dgH1": "OTA Entegrasyonu SSS",
+  "dgTitle": "OTA Entegrasyonu SSS – Otel Kanal Yönetimi ve PMS Bağlantı Rehberi | DGTLFACE",
+  "dgMetaDescription": "OTA entegrasyonu, PMS–channel manager bağlantısı, Booking.com–Expedia–otel web sitesi fiyat senkronizasyonu ve Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm destinasyonlarındaki oteller için OTA entegrasyon süreçleri hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "OTA entegrasyon mimarisi, PMS–channel manager–OTA veri akışı, oda/fiyat mapping, rate parity, fiyat ve envanter senkronizasyonu, overbooking önleme, hata yönetimi ve kanal verimliliği optimizasyonu",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, OTA Entegrasyonu ile ilgili en sık sorulan soruları; PMS–channel manager–OTA veri akışı, oda/fiyat mapping, rate parity, overbooking önleme ve hata yönetimi üzerinden açıklar. Amaç, Booking, Expedia, Agoda vb. kanallarla çalışan otellerin fiyat/envanter yönetiminde manuel hataları azaltıp, tüm online satış kanallarını senkron ve kontrollü bir yapıya kavuşturmaktır.",
+  "dgAiAnswerCapsule": "OTA Entegrasyonu SSS; PMS + channel manager + OTA üçlüsünü otomatize ederek fiyat ve envanteri tek panelden yönetmek isteyen otellere, entegrasyon mantığını, riskleri ve doğru kurulum adımlarını kısa ve pratik biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "OTA entegrasyonu; PMS, channel manager ve OTA’lar arasında oda, fiyat, envanter ve rezervasyon bilgilerinin otomatik ve senkron akmasını sağlayan bağlantı yapısıdır.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; OTA Entegrasyonu ile ilgili ‘OTA entegrasyonu nedir, Booking/Expedia bağlantısı nasıl kurgulanır, rate parity bozulursa ne olur, overbooking teknik olarak nasıl önlenir, PMS–channel manager–OTA veri akışı nasıl çalışır?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "OTA Entegrasyonu SSS; PMS–channel manager–OTA üçgenini doğru kurarak fiyat ve envanteri tek panelden, hatasız ve verimli yönetmenin temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "OTA entegrasyonu tam olarak nedir?",
+    "Otelimde Booking/Expedia bağlantısını nasıl doğru kurgularım?",
+    "Rate parity bozulursa ne olur?",
+    "Overbooking’i teknik olarak nasıl önleyebilirim?",
+    "PMS, channel manager ve OTA arasında veri akışı nasıl çalışır?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yanlış fiyat/oda aktarımı, çift rezervasyon (overbooking), kapalı tarihlerde satış ve eksik rezervasyon datası gibi problemleri ele alır ve doğru OTA entegrasyonu, mapping, test ve hata yönetimi süreçleriyle bu risklerin nasıl azaltılabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-pms-ota-entegrasyon-qset-43",
+  "dgJsonLdQuestionStrategy": "OTA entegrasyonu tanımı, PMS–channel manager–OTA veri akışının nasıl çalıştığı, Booking/Expedia entegrasyonu, rate parity, overbooking ve oda/fiyat mapping konularını açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yanlış fiyat/oda aktarımı, overbooking, kapalı tarihlerde satış ve eksik rezervasyon datası gibi pain point’lere odaklanan sorular; Türkiye geneli ve Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi resort destinasyonlarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "OTA Entegrasyonu için teklif al",
+    "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (OTA Entegrasyonu için teklif al)",
+  "dgCtaCrossLinkNote": "PMS & OTA stratejisi için /tr/pms-ota-yonetimi ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yanlış fiyat/oda aktarımı, çift rezervasyon (overbooking), kapalı tarihlerde satış ve eksik rezervasyon datası; hem gelir hem itibar kaybına yol açar. Doğru kurgulanmış PMS–channel manager–OTA entegrasyonu, bu riskleri azaltarak kanal verimliliğini ve online satış performansını belirgin şekilde iyileştirir.",
+  "dgResultTimeframe": "OTA entegrasyonu doğru şekilde kurulduktan sonra; ilk haftalarda fiyat/envanter hatalarında azalma, 1–3 ay içinde kanal verimliliği ve doluluk yönetiminde iyileşme, 3–6 ay içinde ise overbooking ve yanlış fiyat kaynaklı sorunların belirgin biçimde azalması beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "OTA platformları (Booking, Expedia vb.), channel manager entegrasyon protokolleri, PMS yetenekleri veya DGTLFACE’in OTA entegrasyon hizmet kapsamı değiştiğinde; ayrıca oteller yeni OTA’lar eklediğinde ya da mevcut yapıdan kaynaklı fiyat/envanter hataları artmaya başladığında bu SSS, özellikle entegrasyon akışı, riskler ve pain point soruları seviyesinde refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 43 – /tr/pms-ota/ota-entegrasyonu-sss için OTA Entegrasyonu SSS kurgusu. Lokasyon odağı: Türkiye geneli + Antalya, Belek, Kemer, Side, Bodrum, Alanya.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "OTA entegrasyonu tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA entegrasyonu; PMS’iniz, channel manager’ınız ve OTA’larınız (Booking.com, Expedia, Agoda vb.) arasında oda, fiyat, envanter ve rezervasyon bilgilerinin otomatik ve senkron şekilde akmasını sağlayan bağlantı yapısıdır. Böylece fiyat ve kontenjanı tek panelden yönetir, her OTA panelinde tek tek manuel işlem yapma ihtiyacını büyük ölçüde ortadan kaldırırsınız.",
+        "dgShortAnswer": "OTA entegrasyonu, PMS–channel manager–OTA arasında oda, fiyat, envanter ve rezervasyon bilgisinin otomatik ve senkron akmasını sağlayan bağlantıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS, channel manager ve OTA arasında veri akışı nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standart mimaride PMS; oda tipleri, fiyat planları ve envanterin kaynağıdır. Channel manager, PMS’ten bu bilgileri alır ve Booking.com, Expedia, Agoda gibi OTA’lara iletir. OTA’lar üzerinden gelen yeni rezervasyonlar, değişiklikler ve iptaller ise channel manager üzerinden PMS’e geri yazılır. Böylece tüm kanallar aynı stok ve fiyat bilgisi ile çalışır; yönetim merkezi ve rapor kaynağı PMS olur.",
+        "dgShortAnswer": "PMS oda/fiyat kaynağıdır; channel manager bu bilgiyi OTA’lara iletir, OTA rezervasyonları da channel manager üzerinden PMS’e geri yazılır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Veri Akışı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Booking ve Expedia PMS’e nasıl entegre edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çoğu mimaride Booking.com ve Expedia doğrudan PMS’e değil, PMS ile entegre çalışan bir channel manager’a bağlanır. PMS’te tanımlı oda ve fiyat planları, channel manager ile senkronize edilir; channel manager da bu bilgileri Booking ve Expedia’ya push eder. OTA’lardan gelen rezervasyonlar ise channel manager üzerinden PMS’e yazılır. Kurulum sırasında her OTA için oda/fiyat mapping’i dikkatle yapılmalı ve test rezervasyonlarıyla akış doğrulanmalıdır.",
+        "dgShortAnswer": "Genellikle PMS → channel manager → OTA yapısı kullanılır; oda/fiyat mapping yapılır, ardından test rezervasyonları ile entegrasyon doğrulanır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Booking–Expedia Entegrasyonu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rate parity neden önemlidir, nasıl korunur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rate parity; aynı oda ve tarih için kontrol ettiğiniz kanallarda uyumlu fiyat sunmanız anlamına gelir. Rate parity bozulursa; misafirler farklı kanallarda farklı fiyat görür, güven kaybı yaşanır ve OTA’larla yaptığınız anlaşmalar risk altına girebilir. Parity’yi korumak için; fiyatlandırmayı PMS veya channel manager’dan yönetip, OTA panellerinde lokal/manuel fiyat değişikliklerinden kaçınmak ve düzenli olarak parity raporlarıyla fiyatları kontrol etmek gerekir.",
+        "dgShortAnswer": "Rate parity, kanallar arası fiyat uyumudur; fiyatları PMS/channel manager’dan yönetip OTA panelinde lokal oynamalardan kaçınarak korunur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Rate Parity",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Channel manager ile OTA’lar arasında oda/fiyat eşleştirmesi nasıl yapılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oda/fiyat mapping sürecinde; PMS’teki her oda tipi, channel manager’daki karşılık oda tipine; PMS’teki her fiyat planı (örneğin: Standart, Non-refundable, HB, AI) OTA’lardaki ilgili rate plan’lere bire bir eşleştirilir. Pazar/ülke bazlı fiyat veya teklif kullanıyorsanız, bu segmentler de mapping şemasına dahil edilir. Mapping sonrası her OTA için test rezervasyonları yapılarak doğru oda ve fiyatın gittiği kontrol edilmelidir.",
+        "dgShortAnswer": "Her PMS oda/fiyat planı, channel manager ve OTA’daki karşılığıyla bire bir eşleştirilir; mapping sonrası test rezervasyonla kontrol şarttır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Mapping",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Overbooking’i teknik olarak nasıl önleyebilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Overbooking’i azaltmak için; tüm satılabilir envanteri PMS & channel manager üzerinden yönetmeli, OTA panellerinde manuel stok oynamalarından kaçınmalı, entegrasyonsuz çalışan kanal veya acente bırakmamalı, senkronizasyon sıklığını yeterince yüksek tutmalı ve özel dönemler için stop-sell ve minimum gece gibi kuralları entegre sistem üzerinden tanımlamalısınız. Ayrıca bazı oteller, son odalar için manuel onay veya küçük bir ‘buffer’ (tam kapasiteye bir iki oda kala satış kısıtı) kullanmayı tercih eder.",
+        "dgShortAnswer": "Tüm stok PMS/channel manager’dan yönetilmeli, manuel stok girişinden kaçınılmalı, tüm kanallar entegre edilmeli ve stop-sell/buffer kuralları tanımlanmalıdır.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Overbooking Önleme",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış fiyat/oda aktarımı ve kapalı tarihlerde satış hangi sorunlara yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yanlış fiyat/oda aktarımı; ya gereksiz indirimle gelir kaybına ya da beklenenden yüksek fiyatla rezervasyon kaybına ve misafir şikâyetine yol açar. Kapalı tarihlerde satış açılması ise overbooking, misafirin diğer otele taşınması, acente/OTA ile itibar ve ilişki problemleri gibi ciddi sonuçlar doğurabilir. Her iki durum da genellikle hatalı mapping, manuel müdahale ve test yapılmadan devreye alınan entegrasyonlardan kaynaklanır.",
+        "dgShortAnswer": "Yanlış fiyat/oda ve kapalı tarihte satış; gelir/rezervasyon kaybı, overbooking ve OTA–misafir nezdinde ciddi itibar sorunlarına yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yanlış Fiyat & Kapalı Tarih Satışı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA entegrasyonu Türkiye’deki resort bölgeler için neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antalya, Belek, Kemer, Side, Bodrum ve Alanya gibi resort destinasyonlarda; oda sayıları yüksek, OTA ve acente sayısı fazla, sezon yoğunluğu yoğundur. Bu koşullarda fiyat ve envanteri manuel yönetmek neredeyse imkânsızdır. Doğru kurgulanmış OTA entegrasyonu; hem hataları hem de operasyon yükünü azaltarak, otelin kanal verimliliğini ve online satış performansını ciddi biçimde artırır.",
+        "dgShortAnswer": "Resort bölgelerde yüksek oda sayısı ve çok OTA ile manuel yönetim imkânsız; OTA entegrasyonu hataları ve iş yükünü azaltıp kanal verimliliğini artırır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Resort Destinasyonlarda Önem",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA entegrasyon performansı nasıl izlenmeli ve raporlanmalıdır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Performansı izlerken; kanal bazlı gelir ve doluluk, iptal ve no-show oranları, mapping ve senkronizasyon hataları, overbooking ve fiyat/parity sapmalarının sayısı, her OTA’nın net gelir katkısı gibi metrikler takip edilmelidir. PMS veya BI araçları üzerinden hazırlanan periyodik rapor ve dashboard’lar, hangi kanal ve pazara nasıl odaklanmanız gerektiği konusunda yol gösterir.",
+        "dgShortAnswer": "Kanal bazlı gelir/doluluk, iptal/no-show, hata/overbooking/parity sapmaları ve net gelir katkısı düzenli raporlanmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Performans Takibi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA Entegrasyonu hizmeti kimler için uygundur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA Entegrasyonu; PMS + channel manager + OTA üçlüsünü kullanmakta olan veya bu yapıya geçmek isteyen, OTA hacmi belirgin olan tüm oteller için uygundur. Özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi resort destinasyonlarda OTA kanal sayısı ve hacmi yüksek olan oteller, entegrasyonsuz veya hatalı entegre yapılardan ciddi ölçüde olumsuz etkilenirler.",
+        "dgShortAnswer": "PMS + channel manager + OTA ile çalışan veya çalışmak isteyen; özellikle OTA hacmi yüksek resort ve city oteller için uygundur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Uygunluk",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile OTA Entegrasyonu için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile OTA Entegrasyonu için çalışmak istediğinizde; mevcut PMS ve channel manager yapınızı, çalıştığınız OTA listesini (Booking, Expedia, Agoda vb.), oda ve fiyat planı yapınızı, yaşadığınız temel problemleri (yanlış fiyat/oda aktarımı, overbooking, kapalı tarihte satış, eksik rezervasyon datası vb.) ve hedeflediğiniz yeni kanal/pazarları özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle entegrasyon audit’i, doğru mimari önerisi, mapping planı, test & go-live adımlarını ve bütçe çerçevesini içeren bir yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "PMS–channel manager yapınızı, OTA listenizi, oda/fiyat yapınızı ve yaşadığınız hata/riskleri özetleyen bir brief ile kapsam, mimari, mapping ve bütçeyi içeren OTA Entegrasyonu teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"kanal-yonetimi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi-sss#faq",
+  "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi-sss",
+  "inLanguage": "tr",
+  "name": "Kanal Yönetimi SSS",
+  "description": "Otel kanal yönetimi, PMS–OTA–web–çağrı merkezi kanal kurgusu, fiyat & envanter stratejileri ve Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için kanal verimliliği optimizasyonu hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "PMS & OTA",
+  "dgSectionIndex": 44,
+  "dgParentUrl": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Kanal Yönetimi SSS",
+  "dgH1": "Kanal Yönetimi SSS",
+  "dgTitle": "Kanal Yönetimi SSS – Otel OTA, Web ve Çağrı Merkezi Satışlarının Optimizasyonu | DGTLFACE",
+  "dgMetaDescription": "Otel kanal yönetimi, PMS–OTA–web–çağrı merkezi kanal kurgusu, fiyat & envanter stratejileri ve Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için kanal verimliliği optimizasyonu hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel kanal kurgusu, OTA–web–çağrı merkezi dengesi, fiyatlandırma stratejileri, allotment ve stop-sale yönetimi, channel manager kullanımı, yanlış kanal dengesi, yüksek komisyon, web yerine OTA’ya kaçan direkt rezervasyonlar, kontrolsüz fiyat karmaşası",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Kanal Yönetimi ile ilgili en sık sorulan soruları; OTA–web–çağrı merkezi kanal karması, channel manager kullanımı, fiyat/oda envanter stratejileri, allotment ve stop-sale yönetimi üzerinden açıklar. Amaç, yanlış kanal dengesi, yüksek komisyon, web yerine OTA’ya kaçan direkt rezervasyonlar ve kontrolsüz fiyat karmaşası gibi problemleri stratejik bir kanal yönetimi modeliyle çözmektir.",
+  "dgAiAnswerCapsule": "Kanal Yönetimi SSS; OTA, web ve çağrı merkezi satışlarını tek bir strateji altında toplayıp, doğru kanal karması ve fiyatlandırma ile doluluk ve geliri optimize etmek isteyen otellere, kanal yönetimi mantığını kısa ve net biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Kanal yönetimi; otelinizin OTA, web ve çağrı merkezi satışlarını tek bir strateji altında toplayarak doğru kanal karması ve fiyatlandırma ile doluluk ve geliri optimize etmenizi sağlayan yönetim modelidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Kanal Yönetimi ile ilgili ‘kanal yönetimi nedir, OTA–web–call center dengesi nasıl kurulur, channel manager hangi sorunları çözer, yüksek OTA komisyonu nasıl dengelenir, yanlış kanal dengesi nelere mal olur?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Kanal Yönetimi SSS; OTA–web–çağrı merkezi dengesini doğru kurarak doluluk, gelir ve komisyon maliyetini optimize etmenin temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Kanal yönetimi tam olarak nedir?",
+    "Otelim için OTA–web–call center dengesini nasıl kurmalıyım?",
+    "Channel manager kullanmak zorunlu mu?",
+    "Yüksek OTA komisyonunu nasıl dengeleyebilirim?",
+    "Yanlış kanal dengesi nelere mal olur?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yanlış kanal dengesi, yüksek OTA komisyon maliyetleri, web yerine OTA’ya kaçan direkt rezervasyonlar ve kontrolsüz fiyat karmaşası gibi problemlere odaklanır ve stratejik kanal yönetimi, doğru fiyat/envanter kurgusu ve channel manager kullanımı ile bu risklerin nasıl azaltılabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-pms-kanal-qset-44",
+  "dgJsonLdQuestionStrategy": "Kanal yönetimi tanımı, OTA–web–call center dengesinin nasıl kurulacağı, channel manager’in rolü, allotment ve stop-sale yönetimi, kanal yönetiminin gelir ve doluluk üzerindeki etkileri gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yanlış kanal dengesi, yüksek komisyon maliyetleri, direct kaçışı ve fiyat karmaşası gibi pain point’lere odaklanan sorular; Türkiye geneli ve Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi resort destinasyonlarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Kanal Yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Kanal Yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "PMS & OTA stratejisi için /tr/pms-ota-yonetimi ve ana SSS sayfasını inceleyin: https://dgtlface.com/tr/sss",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yanlış kanal dengesi, yüksek OTA komisyon maliyetleri ve web yerine OTA’ya kaçan direkt rezervasyonlar, otelin kârlılığını ciddi şekilde düşürebilir. Doğru kurgulanmış kanal yönetimi, OTA–web–çağrı merkezi dengesini kontrollü biçimde yöneterek hem doluluğu hem geliri optimize eder.",
+  "dgResultTimeframe": "Kanal Yönetimi modeli devreye alındıktan sonraki 1–3 ay içinde kanal bazlı gelir/komisyon dengesinde; 3–6 ay içinde ise direct payı, OTA karması ve toplam kârlılıkta iyileşmeler görülmesi beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "OTA mix, channel manager yetenekleri, fiyatlandırma stratejileri veya DGTLFACE’in kanal yönetimi danışmanlık modeli değiştiğinde; ayrıca otellerin hedef pazarları, doluluk hedefleri veya direkt rezervasyon stratejileri revize edildiğinde bu SSS, özellikle kanal dengesi, fiyat/envanter ve pain point soruları bağlamında güncellenmelidir.",
+  "dgNotes": "BÖLÜM 44 – /tr/pms-ota/kanal-yonetimi-sss için Kanal Yönetimi SSS kurgusu. Lokasyon odağı: Türkiye geneli + Antalya, Belek, Kemer, Side, Bodrum, Alanya.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kanal yönetimi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kanal yönetimi; otelinizin OTA, web sitesi, çağrı merkezi, acente ve kurumsal satış kanallarındaki fiyat, envanter, kampanya ve komisyon dengesini tek bir strateji altında yönetme sürecidir. Amaç, oda satmakla kalmayıp, doğru oda–doğru kanal–doğru fiyat–doğru maliyet dengesini kurmaktır.",
+        "dgShortAnswer": "Kanal yönetimi; OTA, web ve çağrı merkezi gibi satış kanallarınızda fiyat, envanter ve komisyon dengesini tek stratejiyle yönetme sürecidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel kanal karması hangi kanalları kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel kanal karması; OTA’lar (Booking, Expedia vb.), otel web sitesi (direct booking), çağrı merkezi & rezervasyon hattı, acenteler ve toptancılar, MICE/kurumsal satış kanalları gibi odanızı satabildiğiniz tüm kanallardan oluşur. Kanal yönetimi, bu kanalların her birine ayrı rol ve hedefler vererek toplam geliri ve kârlılığı artırmayı hedefler.",
+        "dgShortAnswer": "OTA, otel web sitesi, çağrı merkezi, acenteler ve MICE/kurumsal satış kanallarının tamamı otel kanal karmasının parçalarıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Kanal Karması",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA–web–çağrı merkezi dengesi nasıl kurulmalıdır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genel prensipte OTA’lar görünürlük ve yeni misafir kazanımında; web sitesi direct ve daha düşük komisyonlu satışta; çağrı merkezi ise kararsız misafiri kazanma, upsell/cross-sell ve çok dilli destek tarafında konumlanır. Doluluk ve gelir hedeflerinize göre, sezon ve pazar bazlı olarak OTA payını, direct (web + call center) payını ve acente payını belirleyip bu dengeyi periyodik olarak gözden geçirmek gerekir.",
+        "dgShortAnswer": "OTA görünürlük, web direct, çağrı merkezi kararsız misafir ve upsell için konumlandırılmalı; paylar sezon ve pazar bazlı optimize edilmelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / OTA–Web–Call Center Dengesi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Channel manager hangi sorunları çözer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Channel manager; PMS ile OTA’lar arasında köprü görevi görerek fiyat ve envanteri tek panelden yönetmenizi sağlar. OTA panellerine tek tek girip stok ve fiyat güncelleme ihtiyacını azaltır, mapping ve otomatik güncelleme sayesinde yanlış fiyat/oda gönderimi ve overbooking riskini düşürür, hangi kanala ne gönderdiğinizi log’lar üzerinden takip etmenizi kolaylaştırır.",
+        "dgShortAnswer": "Channel manager; fiyat/envanteri tek panelden tüm OTA’lara dağıtarak manuel giriş, hata ve overbooking riskini büyük ölçüde azaltır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Channel Manager Rolü",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Allotment ve stop-sale kanal yönetiminde nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Allotment; belirli bir OTA veya acenteye önceden ayrılan oda kotasıdır. Stop-sale ise, belirli tarih veya oda tiplerinde belirli kanal veya tüm kanallar için satışı kapatma işlemidir. Bu iki mekanizma; hangi kanalda ne kadar envanter satacağınızı ve hangi dönemlerde hangi kanalları açıp kapatacağınızı kontrol altında tutmanızı sağlar. Doğru kullanıldığında, hem doluluk hem de kârlılık açısından önemli bir kaldıraçtır.",
+        "dgShortAnswer": "Allotment belirli kanala kota ayırır, stop-sale belirli tarihlerde satış kapatır; ikisi birlikte kanal bazlı envanter ve kârlılığı kontrol etmenizi sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Allotment & Stop-Sale",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Kanal yönetimi geliri ve doluluğu nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru kanal yönetimi; doğru oda tiplerini doğru kanallarda öne çıkararak, yüksek komisyonlu kanallara gereğinden fazla bağımlılığı azaltarak, direct booking payını artırarak ve yanlış kapanış/fiyat hatalarını minimize ederek toplam gelir ve kârlılığı anlamlı şekilde yükseltebilir. Yanlış kanal yönetimi ise doluluğu doldururken kârlılığı düşürebilir veya tam tersi.",
+        "dgShortAnswer": "Doğru kanal yönetimi; direct payını artırıp yüksek komisyonu kontrol ederek, doluluk ve kârlılığı aynı anda optimize etmenizi sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Gelir & Doluluk Etkisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış kanal dengesi nelere mal olur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yanlış kanal dengesi; yüksek OTA komisyon maliyetleri, bazı OTA veya acentelere gereğinden fazla bağımlılık, otel web sitesi ve çağrı merkezinin atıl kalması, belirli dönemlerde kanalları panikle kapatmak zorunda kalma ve fiyat/kampanya karmaşası gibi sonuçlara yol açar. Uzun vadede bu durum hem gelir hem de marka algısı açısından zarar verir.",
+        "dgShortAnswer": "Yanlış denge; yüksek komisyon, direct kanalların zayıflaması, fiyat karmaşası ve uzun vadede gelir/kârlılık kaybı demektir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yanlış Kanal Dengesi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yüksek OTA komisyonunu nasıl dengeleyebilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yüksek OTA komisyonunu dengelemek için; direct kanallarda (web ve çağrı merkezi) misafire ekstra fayda sunan bir değer önerisi (esnek iptal, özel istek, küçük jestler vb.) oluşturmalı, mümkün olduğunca paket ve kampanyaları direct odaklı kurgulamalı ve OTA karmasını performans analiziyle optimize ederek, komisyonu yüksek ve performansı düşük kanalların payını zamanla azaltmalısınız.",
+        "dgShortAnswer": "Direct kanalları cazip hâle getirip OTA karmasını performansa göre optimize ederek, yüksek komisyon maliyetini dengeleyebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yüksek OTA Komisyonu",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web yerine OTA’ya kaçan direkt rezervasyonlar nasıl azaltılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web yerine OTA’ya kaçışı azaltmak için; web sitenizi güçlü bir direct booking teklifiyle (esnek iptal, en iyi fiyat garantisi, özel faydalar) konumlandırmalı, OTA üzerinden sizi bulan misafiri remarketing ve içerik stratejisiyle web veya çağrı merkezine çekmeli, parity ve fiyatlandırmayı buna göre kurgulamalı ve çağrı merkezi script’lerinizi direct satış odaklı olacak şekilde güncellemelisiniz.",
+        "dgShortAnswer": "Web’i güçlü direct teklifle konumlandırıp remarketing ve çağrı merkezi script’leriyle misafiri OTA’dan web/call center’a çekmek gerekir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Direct Kaçışı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Kanal yönetimi Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antalya, Belek, Kemer, Side, Bodrum ve Alanya gibi destinasyonlarda oda sayıları yüksek, OTA ve acente çeşitliliği fazla, sezon baskısı ve fiyat rekabeti yoğundur. Bu ortamda yanlış kanal dengesi ve fiyatlama, çok hızlı gelir ve itibar kaybına yol açabilir. Stratejik kanal yönetimi, bu bölgelerde hem doluluk hem kârlılık açısından rekabet avantajı yaratır.",
+        "dgShortAnswer": "Resort destinasyonlarda yüksek hacim ve rekabet, kanal yönetimini doluluk ve kârlılık için kritik bir stratejik araç hâline getirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Resort Destinasyonlarda Kanal Yönetimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Kanal Yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Kanal Yönetimi için çalışmak istediğinizde; otelinizin türünü (resort, city, butik, zincir vb.), kullandığınız kanalları (OTA listesi, web booking engine, çağrı merkezi, acente vb.), kanal bazlı gelir ve komisyon dağılımınızı, direct pay hedeflerinizi ve yaşadığınız temel problemleri (yüksek komisyon, direct kaçışı, fiyat karmaşası vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle mevcut durum analizi, kanal stratejisi, fiyat & envanter kurgusu, KPI seti ve uygulama modelini içeren bir Kanal Yönetimi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, kanal karması, gelir/komisyon dağılımı, direct hedefler ve sorunları özetleyen bir brief ile kapsam, strateji ve bütçeyi içeren Kanal Yönetimi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"online-satis-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/pms-ota/online-satis-sss#faq",
+  "url": "https://dgtlface.com/tr/pms-ota/online-satis-sss",
+  "inLanguage": "tr",
+  "name": "Online Satış SSS",
+  "description": "Otel online satış stratejileri, web rezervasyon motoru, OTA ve metasearch kanallarının birlikte yönetimi ve Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonlarındaki oteller için dijital gelir optimizasyonu hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "PMS & OTA",
+  "dgSectionIndex": 45,
+  "dgParentUrl": "https://dgtlface.com/tr/pms-ota/online-satis",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Online Satış SSS",
+  "dgH1": "Online Satış SSS",
+  "dgTitle": "Online Satış SSS – Otel Web, OTA ve Metasearch Satış Stratejileri | DGTLFACE",
+  "dgMetaDescription": "Otel online satış stratejileri, web rezervasyon motoru, OTA ve metasearch kanallarının birlikte yönetimi ve Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonlarındaki oteller için dijital gelir optimizasyonu hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel web sitesi rezervasyonları, OTA dengesi, metasearch ve performans reklamları üzerinden online satış artırma; düşük web rezervasyon oranı, yüksek OTA komisyonu ve dağınık online kanal yönetimini gelir ve doluluk odaklı strateji ile optimize etme",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Online Satış ile ilgili en sık sorulan soruları; otel web sitesi rezervasyonları, OTA dengesi, metasearch ve performans reklamları üzerinden açıklar. Amaç, düşük web rezervasyon oranı, yüksek OTA komisyonu ve dağınık online kanal yönetimini; gelir ve doluluk odaklı, iyi tasarlanmış bir online satış stratejisiyle optimize etmektir.",
+  "dgAiAnswerCapsule": "Online Satış SSS; web, OTA ve metasearch kanallarından maksimum verimi almak, OTA bağımlılığını azaltıp direkt rezervasyon payını artırmak isteyen otellere, online satış stratejisinin temel yapı taşlarını kısa ve net anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Online satış stratejisi; otelinizin web, OTA, metasearch ve çağrı merkezi satışlarını tek bir gelir planı altında yöneterek doluluk ve kârlılığı optimize etmenizi sağlayan çerçevedir.",
+  "dgVoiceNotes": "Sesli arama soruları; ‘online satış stratejisi tam olarak nedir?’, ‘otel web sitemden daha fazla rezervasyon almak için nereden başlamalıyım?’, ‘OTA komisyonlarını nasıl dengeleyebilirim?’, ‘metasearch kanalları online satışa nasıl katkı sağlar?’, ‘web–OTA–call center dengesini nasıl kurmalıyım?’ gibi temel sorgulara hızlı cevap vermek üzere seçilmiştir.",
+  "dgOneLineSummary": "Online Satış SSS; düşük web rezervasyon oranı ve yüksek OTA komisyonunu, doğru kanal dengesi ve fiyatlandırma ile çözmenin temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Online satış stratejisi tam olarak nedir?",
+    "Otel web sitemden daha fazla rezervasyon almak için nereden başlamalıyım?",
+    "OTA komisyonlarını nasıl dengeleyebilirim?",
+    "Metasearch kanalları online satışa nasıl katkı sağlar?",
+    "Web–OTA–call center dengesini nasıl kurmalıyım?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; düşük web rezervasyon oranı, yüksek OTA komisyonu, metasearch ve kampanya yönetimindeki verimsizlikler, web yerine OTA’ya kaçan direkt rezervasyonlar ve kontrolsüz online fiyat/kampanya karmaşası gibi problemlere odaklanır ve stratejik online satış modelinin bu riskleri nasıl azaltabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-pms-online-satis-qset-45",
+  "dgJsonLdQuestionStrategy": "Online satış stratejisinin tanımı, otel web rezervasyonlarının rolü, OTA komisyon dengesinin kurulması, metasearch kanallarının çalışma mantığı ve web–OTA–call center dengesini açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; düşük web rezervasyonu, yüksek OTA komisyonu ve verimsiz kampanyalar gibi pain point’lere odaklanan sorular; Türkiye geneli ve Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda otel online satış senaryolarına uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Online Satış stratejisi için teklif al",
+    "url": "https://dgtlface.com/tr/pms-ota/online-satis"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Online Satış stratejisi için teklif al)",
+  "dgCtaCrossLinkNote": "PMS & OTA ve dijital pazarlama stratejisi için /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu ve /tr/otel-dijital-pazarlama sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Düşük web rezervasyon oranı, yüksek OTA komisyonu ve dağınık online kanal yönetimi; otelin kârlılığını ciddi şekilde azaltır. Doğru kurgulanmış bir online satış stratejisi, web–OTA–call center dengesini ve metasearch/reklam kampanyalarını optimize ederek hem direct payı hem toplam online geliri artırabilir.",
+  "dgResultTimeframe": "Online satış stratejisi devreye alındıktan sonraki 1–3 ay içinde web dönüşüm oranı ve kampanya performansında; 3–6 ay içinde ise direct rezervasyon payı, OTA komisyon yükü ve toplam online gelir/kârlılıkta iyileşme görülmesi beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "OTA politikaları, metasearch dinamikleri (Google Hotel Ads vb.), booking engine/PMS entegrasyon yöntemleri veya DGTLFACE’in online satış optimizasyon hizmet kapsamı değiştiğinde; ayrıca otelin hedef pazarları, kanal karması veya direkt rezervasyon stratejisi güncellendiğinde bu SSS, özellikle fiyat, kanal dengesi ve pain point soruları düzeyinde güncellenmelidir.",
+  "dgNotes": "BÖLÜM 45 – /tr/pms-ota/online-satis-sss için Online Satış SSS kurgusu. Lokasyon odağı: Türkiye geneli + Antalya, Belek, Kemer, Side, Bodrum, Alanya.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Online satış stratejisi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Online satış stratejisi; otelinizin web sitesi rezervasyon motoru, OTA’lar (Booking, Expedia vb.), metasearch (Google Hotel Ads vb.) ve çağrı merkezi gibi tüm online temas noktalarında hangi kanaldan ne kadar doluluk ve gelir elde etmek istediğinizi ve bu hedefe hangi fiyatlandırma, kampanya ve kanal karmasıyla ulaşacağınızı tanımlayan çerçevedir. Amaç, sadece oda doldurmak değil, doluluk ve kârlılığı birlikte optimize etmektir.",
+        "dgShortAnswer": "Online satış stratejisi, web–OTA–metasearch–call center kanallarında doluluk ve kârlılığı birlikte optimize etmeye yönelik gelir planıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel online satış stratejisi nedir, hangi bileşenleri kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel online satış stratejisi; web sitesi ve rezervasyon motorunun performansını, OTA karmasını ve stratejik rolünü, metasearch kullanımını, Google/META gibi performans reklam kampanyalarını ve çağrı merkezi–WhatsApp gibi direct kanalları birlikte ele alan bir planlama sürecidir. Bu strateji, hangi kanalın hangi pazar ve sezonda öncelikli kullanılacağını ve direct/OTA dengesinin nasıl kurulacağını belirler.",
+        "dgShortAnswer": "Otel online satış stratejisi; web, OTA, metasearch, reklam ve çağrı merkezini tek plan altında konumlandıran gelir modelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Çerçeve",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel web sitemden daha fazla rezervasyon almak için nereden başlamalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İlk adımda web sitenizin ve rezervasyon motorunuzun (booking engine) dönüşüm odaklı olup olmadığını analiz etmeniz gerekir. Mobilde hız ve kullanılabilirlik, oda ve fiyat bilgilerinin netliği, güven unsurları (yorum, sertifika, güvenli ödeme), rezervasyon adımlarının sayısı ve direct misafire sunduğunuz ekstra faydalar (esnek iptal, özel istek, küçük jestler) web rezervasyon oranını doğrudan etkiler. Teknik ve UX iyileştirmeleri, kampanyalardan önce gelmelidir.",
+        "dgShortAnswer": "Mobil/hız/UX, booking engine kullanılabilirliği, güven unsurları ve direct faydalarınızı iyileştirerek web dönüşümünü artırmaya başlamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Web Başlangıç",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web rezervasyon oranı nasıl artırılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web rezervasyon oranını artırmak için; site ve booking engine tasarımını sade ve mobil öncelikli hâle getirmek, fiyat ve oda bilgilerinin anlaşılır olmasını sağlamak, doğrudan rezervasyon için net bir değer önerisi sunmak (esnek iptal, özel faydalar), kullanıcıların süreçte takıldığı noktaları analiz ederek adım sayısını azaltmak ve remarketing ile kararsız kullanıcıları tekrar yakalamak gerekir.",
+        "dgShortAnswer": "Sade & mobil UX, güçlü booking engine, net direct avantajlar ve remarketing ile web rezervasyon oranınız ciddi ölçüde artabilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Web Dönüşümü",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA komisyonlarını nasıl dengeleyebilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA komisyonlarını dengelemek için; OTA’ları görünürlük ve doluluk için kullanırken, web ve çağrı merkezi kanallarınızda doğrudan rezervasyonu cazip hâle getirmeniz gerekir. Esnek iptal, özel istek imkânı, küçük jestler veya paket avantajları gibi değerler direct kanalın algısını güçlendirirken, düşük performanslı ve yüksek komisyonlu OTA’ların payını kademeli olarak azaltmak da komisyon yükünü dengeler.",
+        "dgShortAnswer": "Direct kanalları daha cazip hâle getirip düşük performanslı OTA’ların payını azaltarak toplam komisyon yükünü dengeleyebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yüksek OTA Komisyonu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA bağımlılığı nasıl azaltılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA bağımlılığını azaltmak için; direct kanallar için net bir hedef (örneğin toplam rezervasyonun %X’i) koymalı, OTA’dan gelen misafirin sonraki rezervasyonlarını direct’e çekmeyi hedeflemeli, metasearch ve marka arama kampanyalarıyla web’i güçlendirmeli ve OTA karmasını performans analizine göre optimize ederek zamanla bazı OTA’ların payını düşürmelisiniz. Amaç, ‘OTA’yı kapatmak’ değil, ‘dengeyi direct lehine çevirmek’ olmalıdır.",
+        "dgShortAnswer": "Direct hedefler koyup web & call center’ı güçlendirerek ve OTA karmasını performansa göre optimize ederek OTA bağımlılığını azaltabilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / OTA Bağımlılığı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Metasearch kanalları online satışa nasıl katkı sağlar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metasearch kanalları, özellikle Google Hotel Ads; misafir otel adınızı veya destinasyon+otel kombinasyonunu aradığında, web fiyatınızı OTA fiyatlarıyla birlikte gösterir. Bu sayede OTA’da sizi gören misafiri web booking engine’inize çekme fırsatı doğar. Doğru kurgulandığında metasearch, OTA’da keşfedilen oteli direct rezervasyona dönüştüren güçlü bir köprü görevi görür.",
+        "dgShortAnswer": "Metasearch, misafire web fiyatınızı OTA’larla birlikte göstererek OTA’da görülen oteli direct rezervasyona dönüştürmek için güçlü bir köprüdür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Metasearch Katkısı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Metasearch kanalları (Google Hotel Ads vb.) nasıl çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Hotel Ads gibi metasearch kanalları; PMS–channel manager–booking engine entegrasyonu üzerinden sizin fiyat ve müsaitlik bilgilerinizi alır, misafir ilgili oteli aradığında bu fiyatları OTA fiyatlarıyla yan yana gösterir ve tıklamayı otel web rezervasyon motorunuza yönlendirir. Doğru kurulum için; entegrasyon, izleme (tracking) ve teklif stratejilerinin net bir şekilde tanımlanması gerekir.",
+        "dgShortAnswer": "Metasearch; PMS–channel manager–booking engine entegrasyonu ile web fiyatınızı OTA’larla birlikte gösterir ve tıklamayı web rezervasyon motorunuza yönlendirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Metasearch Çalışma Mantığı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Online satışta doğru fiyat stratejisi nasıl kurulur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru fiyat stratejisi; BAR (Best Available Rate) mantığını, sezon/pazar/kampanya farklılıklarını, OTA–web–call center arasındaki parity ve avantaj dengesini ve revenue management verilerini (pick-up, pace, forecast) birlikte dikkate alır. Web ve direct kanallarda her zaman en ucuz olmanız gerekmez; ancak misafirin gözünde ‘mantıklı bir direct avantajı’ yaratmanız önemlidir.",
+        "dgShortAnswer": "Sezon, pazar, kanal ve revenue verilerini birlikte ele alarak; parity’yi ve direct için mantıklı bir avantajı gözeten BAR temelli bir fiyat stratejisi kurmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Fiyat Stratejisi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Online satış stratejisi Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antalya, Belek, Kemer, Side, Bodrum ve Alanya gibi destinasyonlarda oda sayısı yüksek, sezon yoğun ve fiyat rekabeti serttir. Misafirlerin büyük kısmı oteli online bulur ve kararını online kanallarda verir. Bu nedenle doğru konumlandırılmış bir online satış stratejisi; doluluk, kârlılık ve marka algısı açısından bu bölgelerde doğrudan rekabet avantajı yaratır.",
+        "dgShortAnswer": "Resort destinasyonlarda misafir oteli online bulur; doğru online satış stratejisi doluluk, kârlılık ve marka algısı için kritik rekabet avantajı sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Destinasyon Odaklı Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Online Satış stratejisi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Online Satış stratejisi için çalışmak istediğinizde; otelinizin türünü (resort, city, butik, zincir), OTA ve direct kanal karmasını, web rezervasyon oranınızı ve direct payınızı, mevcut OTA komisyon yükünüzü, metasearch ve reklam kampanyası kullanım durumunuzu ve yaşadığınız temel problemleri (düşük web rezervasyonu, yüksek OTA komisyonu, verimsiz kampanyalar vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle online satış audit’i, kanal & fiyat stratejisi, kampanya planı ve KPI setini içeren bir yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, kanal karması, web/direct oranı, OTA komisyonu, metasearch & reklam kullanımı ve problemleri özetleyen bir brief ile kapsam, strateji ve bütçeyi içeren Online Satış teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"rezervasyon-yonetimi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi-sss#faq",
+  "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi-sss",
+  "inLanguage": "tr",
+  "name": "Rezervasyon Yönetimi SSS",
+  "description": "Otel rezervasyon yönetimi, çağrı merkezi ve web rezervasyon akışları, PMS ve OTA ile veri bütünlüğü ile Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için rezervasyon süreç optimizasyonu hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "PMS & OTA",
+  "dgSectionIndex": 46,
+  "dgParentUrl": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Rezervasyon Yönetimi SSS",
+  "dgH1": "Rezervasyon Yönetimi SSS",
+  "dgTitle": "Rezervasyon Yönetimi SSS – Otel Çağrı Merkezi, Web ve OTA Rezervasyon Süreçleri | DGTLFACE",
+  "dgMetaDescription": "Otel rezervasyon yönetimi, çağrı merkezi ve web rezervasyon akışları, PMS ve OTA ile veri bütünlüğü ile Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için rezervasyon süreç optimizasyonu hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "çağrı merkezi, web ve OTA rezervasyonlarının PMS üzerinde tekilleştirilmesi, overbooking önleme ve gelir odaklı rezervasyon süreç kurgusu; dağınık kayıtlar, çakışan rezervasyonlar, eksik misafir verisi ve PMS’e düşmeyen rezervasyon problemlerinin çözümü",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Rezervasyon Yönetimi ile ilgili en sık sorulan soruları; web, OTA ve çağrı merkezi rezervasyonlarının PMS üzerinde tekilleştirilmesi, overbooking önleme, misafir verisi bütünlüğü ve gelir odaklı rezervasyon akışları üzerinden açıklar. Amaç, dağınık rezervasyon kayıtları, çakışan odalar ve PMS’e düşmeyen rezervasyonlar gibi kritik sorunları çözmektir.",
+  "dgAiAnswerCapsule": "Rezervasyon Yönetimi SSS; tüm kanallardan gelen rezervasyonları PMS üzerinde tek akışta toparlamak, overbooking riskini azaltmak ve misafir datasını düzgün yönetmek isteyen otellere, rezervasyon süreç mimarisini kısa ve net anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Rezervasyon yönetimi; web, OTA ve çağrı merkezi rezervasyonlarını PMS üzerinde tekilleştirerek overbooking’i önleyen ve misafir verisini bütünlüklü yöneten süreç kurgusudur.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Rezervasyon Yönetimi ile ilgili ‘rezervasyon yönetimi nedir, web–OTA–call center rezervasyonları tek sistemde nasıl birleştirilir, overbooking nasıl önlenir, PMS’e düşmeyen rezervasyon sorunu nasıl çözülür, rezervasyon akışı gelir odaklı nasıl kurgulanır?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Rezervasyon Yönetimi SSS; web, OTA ve çağrı merkezi rezervasyonlarını PMS üzerinde tek akışta toplayarak hem overbooking riskini hem veri dağınıklığını azaltmanın temel adımlarını özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Rezervasyon yönetimi tam olarak nedir?",
+    "Web, OTA ve çağrı merkezi rezervasyonlarını tek sistemde nasıl birleştiririm?",
+    "Overbooking’i nasıl önlerim?",
+    "PMS’e düşmeyen rezervasyon sorununu nasıl çözerim?",
+    "Rezervasyon akışını gelir odaklı nasıl kurgulamalıyım?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; dağınık rezervasyon kayıtları, çakışan rezervasyonlar, eksik misafir verisi, PMS’e geçmeyen rezervasyonlar, manuel Excel/defter takibi ve entegrasyon hataları gibi problemlere odaklanır ve tekilleştirilmiş, entegre ve gelir odaklı rezervasyon yönetiminin bu riskleri nasıl azalttığını açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-pms-rezervasyon-qset-46",
+  "dgJsonLdQuestionStrategy": "Rezervasyon yönetimi tanımı, önemi, OTA–web–call center rezervasyonlarının PMS’te tekilleştirilmesi, overbooking önleme, PMS’e düşmeyen rezervasyonların tespiti ve gelir odaklı rezervasyon akışları hakkında sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; dağınık rezervasyon kayıtları, çakışan rezervasyonlar, eksik misafir datası ve PMS’e geçmeyen rezervasyonlar gibi pain point’lere odaklanan sorular; Türkiye geneli ve resort destinasyonlar için GEO odaklı bir soru ve kapanışta teklif/iş birliği sorusu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2500–2600",
+
+  "dgPrimaryCta": {
+    "label": "Rezervasyon Yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Rezervasyon Yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "PMS & OTA ve rezervasyon süreçleri için /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/kanal-yonetimi ve /tr/otel/cagri-merkezi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/otel/cagri-merkezi",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Dağınık rezervasyon kayıtları, çakışan rezervasyonlar, eksik misafir verisi ve PMS’e geçmeyen rezervasyonlar; hem gelir hem operasyon hem de misafir memnuniyeti tarafında ciddi riskler yaratır. Doğru kurgulanmış rezervasyon yönetimi, tüm kanallardan gelen rezervasyonları PMS’te tekleştirerek bu riskleri azaltır.",
+  "dgResultTimeframe": "Rezervasyon yönetimi süreci iyileştirildikten sonraki 1–3 ay içinde overbooking ve PMS’e düşmeyen rezervasyon vakalarında azalma; 3–6 ay içinde ise gelir raporlarının doğruluğu, forecast kalitesi ve misafir memnuniyetinde iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "PMS, OTA, channel manager ve çağrı merkezi entegrasyon yöntemleri değiştiğinde; otelin kanal karması veya rezervasyon stratejisi revize edildiğinde; ayrıca DGTLFACE’in rezervasyon yönetimi hizmet kapsamı (flow, script, sorumluluk paylaşımı) güncellendiğinde bu SSS, özellikle süreç akışları, riskler ve pain point soruları açısından refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 46 – /tr/pms-ota/rezervasyon-yonetimi-sss için Rezervasyon Yönetimi SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon yönetimi; web sitesi, OTA, çağrı merkezi, acente ve MICE gibi tüm kanallardan gelen rezervasyonların tek bir PMS üzerinde doğru, eksiksiz ve çakışmasız şekilde yönetilmesini sağlayan süreç yapısıdır. Oteller için kritiktir çünkü bu süreçte yapılan hatalar doğrudan overbooking, yanlış oda/fiyat, PMS’e düşmeyen rezervasyon, eksik misafir verisi ve gelir kaybı olarak geri döner.",
+        "dgShortAnswer": "Rezervasyon yönetimi; tüm kanallardan gelen rezervasyonları PMS’te tek ve doğru akışta yöneterek overbooking ve veri/gelir kaybını azaltan süreçtir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Tanım & Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon yönetimi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon yönetimi; web, OTA ve çağrı merkezi gibi farklı kaynaklardan gelen rezervasyon taleplerini tek bir rezervasyon mimarisi içinde toplayarak, PMS üzerinde tekilleştiren ve bu akışları gelir odaklı kurgulayan süreçtir. Burada amaç, rezervasyonların sadece kayıt altına alınması değil, doğru oda/fiyat ve kanal karmasıyla geliri maksimize etmektir.",
+        "dgShortAnswer": "Web–OTA–call center rezervasyonlarını tek akışta toplayıp PMS’te tekilleştiren, gelire odaklı rezervasyon sürecidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web, OTA ve çağrı merkezi rezervasyonlarını tek sistemde nasıl birleştiririm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tüm rezervasyon kanallarınızı PMS’e bağlayacak bir mimari kurmanız gerekir. OTA rezervasyonlarını channel manager üzerinden PMS’e yazmalı, web rezervasyon motorunu PMS’e veya channel manager’a entegre etmeli ve çağrı merkezi rezervasyonlarını da mutlaka PMS üzerinden açmalısınız. Böylece tüm rezervasyonlar, kanal bilgisiyle birlikte tek bir PMS ekranında görülebilir ve yönetilebilir.",
+        "dgShortAnswer": "OTA, web booking engine ve çağrı merkezi rezervasyonlarını PMS veya PMS+channel manager mimarisi üzerinden tek akışta toplamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tek Sistemde Birleştirme",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA–web–call center rezervasyonları PMS’te nasıl tekilleştirilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tekilleştirme için; her rezervasyon PMS’e tek bir kayıt olarak düşmeli ve source/channel alanı doğru doldurulmalıdır. Aynı misafir için tekrar tekrar kart açmak yerine, misafir kartları birleştirilmeli ve rezervasyonlar bu kartlara bağlanmalıdır. OTA rezervasyon referans numaraları, web booking engine ID’leri ve call center notları PMS kayıtlarına işlenerek hem kanal hem misafir bazında tekilleşmiş bir yapı elde edilir.",
+        "dgShortAnswer": "Her rezervasyon PMS’te tek kayıt olmalı; source/channel alanı, OTA referansı ve misafir kartı birleşimiyle tekilleştirme sağlanmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Tekilleştirme",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Overbooking’i nasıl önlerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Overbooking’i önlemek için; tüm satılabilir envanteri PMS ve channel manager üzerinden yönetmeli, OTA panellerinde manuel stok giriş ve değişiklikleri minimumda tutmalı, entegrasyonsuz çalışan kanal veya acente bırakmamalı, stop-sell ve kapama kararlarını entegre sistemden yapmalı ve özellikle yüksek talep dönemlerinde küçük bir buffer (son birkaç oda için ekstra dikkat) politikasını kullanmalısınız. Ayrıca OTA–PMS rezervasyon raporlarını düzenli karşılaştırmak da önemlidir.",
+        "dgShortAnswer": "Envanteri sadece PMS/channel manager’dan yönetip tüm kanalları entegre ederek, manuel müdahaleyi azaltarak ve stop-sell/buffer kullanarak overbooking riskini düşürebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Overbooking",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS’e düşmeyen rezervasyon sorununu nasıl çözerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Öncelikle düzenli olarak OTA/channel manager rezervasyon raporları ile PMS rezervasyon listesini karşılaştırmalı ve farklılıkları raporlamalısınız. Entegrasyon loglarını inceleyerek sistem kaynaklı hata kodlarını tespit etmek, manuel girilen rezervasyonları ayrı işaretleyip takip etmek ve şüpheli durumlarda odayı double-check etmek gerekir. Ayrıca süreç tarafında, rezervasyonajans–call center–resepsiyon arasında kimin ne zaman PMS’te kontrol yapacağı net tanımlanmalıdır.",
+        "dgShortAnswer": "OTA/channel manager raporlarını PMS ile düzenli karşılaştırıp entegrasyon loglarını kontrol ederek ve süreçte kontrol noktaları tanımlayarak PMS’e düşmeyen rezervasyonları tespit ve minimize edebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / PMS’e Düşmeyen Rezervasyonlar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Eksik misafir verisi ve PMS’e geçmeyen rezervasyonlar nasıl tespit edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eksik misafir verisini tespit etmek için; PMS’teki rezervasyon ve misafir kartlarında zorunlu alanları (ülke, e-posta, segment vb.) analiz etmeli, boş veya hatalı olanları raporlamalısınız. PMS dışında kalan rezervasyonları görmek için ise; OTA ve channel manager raporlarını, call center kayıtlarını ve web booking engine raporlarını periyodik olarak PMS kayıtları ile kıyaslamak gerekir. Bu kıyaslama, hem eksik veri hem eksik rezervasyon tespiti sağlar.",
+        "dgShortAnswer": "PMS’teki zorunlu alanları ve OTA/channel manager/call center raporlarını PMS ile düzenli karşılaştırarak eksik veri ve eksik rezervasyonları tespit edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Eksik Data & Eksik Rezervasyon",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Dağınık rezervasyon kayıtları ve çakışan rezervasyonlar ne gibi sorunlara yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dağınık kayıtlar ve çakışan rezervasyonlar; gerçek doluluğu ve forecast’i görememenize, check-in sırasında oda bulunamaması veya yanlış oda tahsisi gibi operasyonel krizlere, OTA & acentelerle sorunlara ve misafir memnuniyetsizliğine yol açar. Ayrıca gelir ve muhasebe raporlarının doğruluğu da ciddi şekilde bozulur.",
+        "dgShortAnswer": "Dağınık ve çakışan kayıtlar; hatalı doluluk/görünüm, operasyonel kriz, OTA/acenteyle sorun, memnuniyetsizlik ve hatalı gelir raporlarına yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Dağınık & Çakışan Kayıtlar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon akışını gelir odaklı nasıl kurgulamalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gelir odaklı bir rezervasyon akışında; oda tipleri, fiyat planları, minimum gece, paket ürünler ve upsell/cross-sell fırsatları, kanal ve pazar bazlı olarak önceden planlanır. Web, OTA ve çağrı merkezi akışlarınızda, misafirin hangi adımda hangi oda ve fiyat kombinasyonlarını göreceği ve hangi kanalda hangi tekliflerin öne çıkacağı revenue management stratejinizle uyumlu şekilde belirlenmelidir.",
+        "dgShortAnswer": "Oda/fiyat/min. gece/paket ve upsell akışını kanal ve pazar bazlı olarak revenue stratejinizle uyumlu şekilde PMS ve çağrı merkezi süreçlerine yansıtmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Gelir Odaklı Akış",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon süreci gelir yönetimini nasıl etkiler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon verisinin doğru akmadığı veya tekilleşmediği bir yapıda; doluluk, pick-up, kanal ve segment dağılımı gibi temel revenue metrikleri de bozulur. Sağlam bir rezervasyon yönetimi, gerçek zamanlı ve doğru doluluk/güncel oda tablosu, kanal/segment performans verisi ve güvenilir forecast üretmenizi sağlar. Böylece fiyat ve kanal kararları veri temelli alınabilir.",
+        "dgShortAnswer": "Doğru rezervasyon yönetimi; doluluk, pick-up ve kanal/segment dağılımını doğru göstererek fiyat ve kanal kararlarında sağlam temel oluşturur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Revenue Etkisi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Rezervasyon Yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Rezervasyon Yönetimi için çalışmak istediğinizde; otelinizin türünü (resort, city, butik, zincir vb.), kullandığınız PMS, channel manager ve OTA’ları, web booking engine ve çağrı merkezi yapınızı, yaşadığınız temel rezervasyon problemlerini (overbooking, PMS’e düşmeyen rezervasyonlar, eksik misafir verisi, dağınık kayıtlar vb.) ve hedeflediğiniz iyileşmeleri (tek akış, daha doğru data, gelir odaklı akış vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle mevcut durum analizi, rezervasyon süreç mimarisi, entegrasyon ve SOP önerilerini içeren bir Rezervasyon Yönetimi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, PMS–channel manager–OTA yapısı, web/call center akışı, rezervasyon problemleri ve hedeflerinizi özetleyen bir brief ile kapsam, süreç ve bütçeyi içeren Rezervasyon Yönetimi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"looker-studio-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/raporlama/looker-studio-sss#faq",
+  "url": "https://dgtlface.com/tr/raporlama/looker-studio-sss",
+  "inLanguage": "tr",
+  "name": "Looker Studio Raporlama SSS",
+  "description": "Looker Studio ile PMS, OTA, web analitik ve çağrı merkezi verilerinin birleştirilmesi; otel gelir ve pazarlama performansı için dashboard tasarımı hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Raporlama & Veri",
+  "dgSectionIndex": 47,
+  "dgParentUrl": "https://dgtlface.com/tr/raporlama/looker-studio",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Looker Studio Raporlama SSS",
+  "dgH1": "Looker Studio Raporlama SSS",
+  "dgTitle": "Looker Studio Raporlama SSS – Otel Gelir, Pazarlama ve Çağrı Merkezi Panelleri | DGTLFACE",
+  "dgMetaDescription": "Looker Studio ile PMS, OTA, web analitik ve çağrı merkezi verilerinin birleştirilmesi; otel gelir ve pazarlama performansı için dashboard tasarımı hakkında sık sorulan sorular.",
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "PMS, OTA, Google Analytics (GA4), reklam ve çağrı merkezi verilerinin Looker Studio üzerinden birleşik raporlanması; otel gelir, pazarlama ve çağrı merkezi performansı için dashboard tasarımı; dağınık veri kaynakları, manuel Excel rapor yükü, geç gelen yönetim raporları ve yorumlanamayan dashboard’ların iyileştirilmesi",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Looker Studio Raporlama ile ilgili en sık sorulan soruları; PMS, OTA, GA4, reklam ve çağrı merkezi verilerinin tek bir dashboard’ta birleşmesi, otel gelir ve pazarlama performansının görselleştirilmesi ve doğru KPI setlerinin seçilmesi üzerinden açıklar. Amaç, manuel Excel rapor yükünü azaltıp, karar almayı hızlandıran okunabilir paneller oluşturmaktır.",
+  "dgAiAnswerCapsule": "Looker Studio Raporlama SSS; farklı sistemlerden gelen satış, pazarlama ve çağrı merkezi verilerini tek bir canlı dashboard’ta görmek ve kararları veriyle almak isteyen otellere, Looker Studio panel mantığını kısa ve pratik biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Looker Studio raporlama; PMS, OTA, GA4, reklam ve çağrı merkezi verilerini tek bir canlı dashboard’ta birleştirerek otel performansını Excel’siz ve okunabilir şekilde izlemenizi sağlar.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Looker Studio raporlama ile ilgili ‘raporlama paneli nedir, hangi verileri tek panelde görebilirim, gelir/doluluk ve kampanya verisi nasıl birleşir, yönetici olarak hangi KPI’lara bakmalıyım, manuel Excel raporlarından nasıl kurtulurum?’ gibi sorguları hızlı yanıtlarla hedefler.",
+  "dgOneLineSummary": "Looker Studio Raporlama SSS; dağınık veri kaynaklarını tek dashboard’ta toplayarak otel gelir, pazarlama ve çağrı merkezi performansını gerçek zamanlı izlemenin temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Looker Studio raporlama tam olarak nedir?",
+    "Otelim için hangi verileri tek panelde görebilirim?",
+    "Gelir, doluluk ve kampanya verisini nasıl birleştiririm?",
+    "Yönetici olarak hangi KPI’lara bakmalıyım?",
+    "Manuel Excel raporlarından nasıl kurtulabilirim?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; dağınık veri kaynakları, manuel Excel rapor yükü, geç gelen yönetim raporları ve kimsenin kullanmak istemediği karmaşık dashboard’lar gibi problemlere odaklanır ve Looker Studio ile sade, okunabilir ve otomatik güncellenen paneller kurarak bu sorunların nasıl azaltılabileceğini açıklar.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-raporlama-looker-qset-47",
+  "dgJsonLdQuestionStrategy": "Looker Studio raporlamanın tanımı, otel verileri için hangi kaynakların nasıl birleştirileceği, gelir/doluluk ve kampanya verilerinin tek panelde nasıl gösterileceği, yönetici KPI’ları ve manuel Excel rapor yükünden kurtulma yollarına dair sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; dağınık veri, manuel rapor ve okunamayan dashboard pain point’lerine odaklanan sorular; Türkiye geneli ve resort destinasyonlar için GEO odaklı bir soru ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2500–2600",
+
+  "dgPrimaryCta": {
+    "label": "Looker Studio raporlama için teklif al",
+    "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Looker Studio raporlama için teklif al)",
+  "dgCtaCrossLinkNote": "Raporlama & veri stratejisi için /tr/raporlama/satis-donusum, /tr/raporlama/benchmark-analizi, /tr/pms-ota/online-satis ve /tr/otel/reklam-yonetimi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/raporlama/benchmark-analizi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/raporlama/looker-studio",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/raporlama/looker-studio",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Dağınık veri kaynakları, manuel Excel rapor yükü, geç gelen yönetim raporları ve yorumlanamayan dashboard’lar; hem zaman hem de karar kalitesi açısından ciddi kayıplar yaratır. Looker Studio üzerinde kurulmuş iyi tasarlanmış paneller, bu yükü azaltarak otel gelir, pazarlama ve çağrı merkezi kararlarını hızlandırır ve veri kalitesini artırır.",
+  "dgResultTimeframe": "Looker Studio raporlama panelleri devreye alındıktan sonraki 1–3 ay içinde manuel raporlama yükünde ve raporların hazırlanma süresinde azalma; 3–6 ay içinde ise gelir/pazarlama/çağrı merkezi karar hızında ve KPI takibi disiplininde belirgin iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Looker Studio özellikleri, GA4/connector yapıları, veri kaynakları (PMS, OTA, call center) veya DGTLFACE’in dashboard şablonları ve KPI modeli değiştiğinde; ayrıca otellerin raporlama beklentileri (yönetim, pazarlama, gelir) revize edildiğinde bu SSS, özellikle KPI listeleri, örnekler ve pain point soruları açısından güncellenmelidir.",
+  "dgNotes": "BÖLÜM 47 – /tr/raporlama/looker-studio-sss için Looker Studio Raporlama SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Looker Studio raporlama tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Looker Studio raporlama; PMS, OTA, GA4, reklam ve çağrı merkezi gibi farklı veri kaynaklarından gelen bilgileri tek bir canlı dashboard’ta birleştirerek, Excel’e ihtiyaç duymadan otel performansını görsel ve anlaşılır şekilde takip etmenizi sağlayan raporlama yapısıdır. Özellikle otel gelir, pazarlama ve çağrı merkezi ekiplerinin aynı rakamlara bakmasını mümkün kılar.",
+        "dgShortAnswer": "Looker Studio raporlama, PMS–OTA–GA4–reklam–call center verilerini tek bir canlı dashboard’ta birleştiren otel raporlama modelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Looker Studio nedir, otel raporlamasında ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Looker Studio; Google’ın sunduğu, veri görselleştirme ve dashboard oluşturma aracıdır. Otel raporlamasında; PMS, OTA, web analitik (GA4), reklam ve çağrı merkezi verilerini tek bir panelde toplamanıza, bu verileri grafik ve tablolarla görselleştirmenize ve yönetimin karar almasını kolaylaştıran sade paneller hazırlamanıza imkân tanır. Böylece her departmanın kendi Excel’ine değil, ortak bir ‘tek doğru’ kaynağa bakması sağlanır.",
+        "dgShortAnswer": "Looker Studio, farklı veri kaynaklarını tek panelde görmenizi ve otel performansını sade, görsel dashboard’larla izlemenizi sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Looker Studio Genel",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için hangi verileri Looker Studio’da tek panelde görebilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru kurgulandığında; PMS’ten doluluk, ADR, gelir ve segment verilerini; OTA ve kanal yönetimi sistemlerinden kanal bazlı satış, iptal/no-show ve komisyon verilerini; GA4’ten web trafiği, funnel ve rezervasyon event’lerini; reklam panellerinden kampanya performansı ve ROAS’ı; çağrı merkezi sistemlerinden çağrı hacmi, dönüşüm ve hizmet seviyesi gibi metrikleri aynı Looker Studio panelinde görebilirsiniz.",
+        "dgShortAnswer": "PMS, OTA, GA4, reklam ve çağrı merkezi sistemlerinden gelen doluluk, gelir, trafik, kampanya ve çağrı metriklerini tek panelde görebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Veri Kapsamı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "GA4, PMS ve OTA verileri Looker Studio’da nasıl birleşir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GA4 verisi Looker Studio’ya native connector’larla bağlanırken, PMS ve OTA verileri genellikle Google Sheets, CSV veya BigQuery gibi ara katmanlar üzerinden Looker Studio’ya aktarılır. Bu veri kaynakları tarih, kanal, ülke veya kampanya gibi ortak alanlar üzerinden ilişkilendirilir. Böylece, örneğin ‘X kampanyasından gelen trafik → web rezervasyon → PMS’teki gelir’ zincirini tek grafikte görebilirsiniz.",
+        "dgShortAnswer": "GA4 Looker’a doğrudan, PMS/OTA ise Sheets/BigQuery gibi katmanlar üzerinden bağlanır; ortak alanlar üzerinden ilişkilendirilerek tek panelde birleşir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Veri Birleştirme",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel performans panelinde hangi metrikler olmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bir otel performans panelinde; doluluk, ADR, RevPAR, toplam gelir, oda başı gelir, segment ve ülke/pazar bazlı gelir dağılımı, kanal payları (OTA, web, call center), iptal/no-show oranları ve dönemsel karşılaştırmalar (geçen yıl aynı dönem, sezon–sezon) gibi metrikler mutlaka yer almalıdır. Yönetici için bu metrikler sade bir özet ekranında sunulmalı; detaylar ayrı sekmelerde gösterilmelidir.",
+        "dgShortAnswer": "Doluluk, ADR, RevPAR, toplam gelir, segment/ülke ve kanal payları, iptal/no-show ve dönemsel karşılaştırmalar temel performans metrikleridir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Otel KPI Seti",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yönetici olarak hangi KPI’lara bakmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yönetici panelinde; doluluk, ADR, RevPAR, toplam gelir, kanal bazlı gelir ve direct pay, ana pazarlara göre gece/gelir dağılımı, kampanya kaynaklı rezervasyonlar ve temel çağrı merkezi özeti (toplam çağrı, dönüşüm, memnuniyet skoru) gibi KPI’lar tek ekranda ve trend grafikleriyle gösterilmelidir. Amaç, tek bakışta ‘nasıl gidiyoruz?’ sorusuna cevap vermektir.",
+        "dgShortAnswer": "Doluluk, ADR, RevPAR, toplam gelir, direct pay, pazar/kanal dağılımı ve kampanya/çağrı merkezi özetlerini tek bakışta görebileceğiniz KPI’lar yeterlidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Yönetici KPI’ları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Manuel Excel raporlarından nasıl kurtulabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Manuel Excel raporlarından kurtulmak için; veri kaynaklarınızı (PMS, OTA, GA4, reklam, çağrı merkezi) Looker Studio’ya veya arada bir veri ambarına bağlayarak panel ve otomatik mail rapor akışları kurmanız gerekir. Rutin günlük/haftalık raporlarınızı Excel’den Looker Studio paneline taşıdığınızda, export–import iş yükü azalır, raporlar otomatik güncellenir ve ekipler tek kaynaktan veri okur.",
+        "dgShortAnswer": "PMS, OTA, GA4, reklam ve call center verilerini Looker Studio’ya bağlayıp rutin raporları dashboard + otomatik e-posta akışına taşıyarak Excel yükünü ciddi şekilde azaltabilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Manuel Excel Yükü",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Dağınık veri kaynakları ve geç gelen yönetim raporları ne gibi sorunlar yaratır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dağınık veri kaynakları ve geç gelen raporlar; farklı ekiplerin farklı rakamlara bakmasına, toplantılarda önce ‘hangi sayı doğru?’ tartışılmasına, fırsat ve risklerin geç fark edilmesine neden olur. Özellikle turizm bölgelerinde hızlı fiyat ve kanal kararı gerekirken, geç ve manuel raporlar, doğru zamanda doğru aksiyonu almanızı zorlaştırır.",
+        "dgShortAnswer": "Dağınık ve geç raporlar; herkesin farklı sayılara bakmasına, geç karar alınmasına ve fırsat/risklerin kaçırılmasına yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Dağınık Veri & Geç Rapor",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Birden fazla oteli Looker Studio’da tek dashboard’ta raporlayabilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. Eğer PMS ve diğer veri kaynaklarınızda otel ID veya property adını taşıyan alanlar varsa, bu alanlar Looker Studio’da filtre ve segment olarak kullanılabilir. Böylece aynı panel üzerinden tüm otellerinizin toplam performansını görebilir, tek otel veya bölge bazında kırılım yapabilir ve yönetim/holding seviyesinde konsolide raporlama sağlayabilirsiniz.",
+        "dgShortAnswer": "Evet; veri kaynaklarınızda otel ID alanı varsa, Looker Studio’da filtrelerle birden fazla oteli tek dashboard’ta konsolide raporlayabilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Multi-Property Raporlama",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Looker Studio panelleri otel & turizm sektöründe kimler tarafından kullanılmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru tasarlanmış Looker Studio panelleri; yönetim (GM, sahip, bölge direktörü) için özet performans ekranları, gelir yönetimi için detaylı kanal ve fiyat panelleri, pazarlama için trafik, dönüşüm ve kampanya panelleri, çağrı merkezi ve satış ekipleri için çağrı ve rezervasyon performans panelleri sunar. Böylece her ekip, kendi ihtiyacına uygun, anlaşılır ve güncel verilere erişir.",
+        "dgShortAnswer": "Yönetim, gelir, pazarlama ve çağrı merkezi ekipleri için ayrı ama ilişkili Looker Studio panelleri tasarlanmalı ve aktif kullanılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Kullanıcılar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Looker Studio Raporlama için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Looker Studio Raporlama için çalışmak istediğinizde; kullandığınız PMS, OTA, kanal yönetimi, GA4, reklam ve çağrı merkezi sistemlerini, şu anki raporlama yöntemlerinizi (Excel, hazır panel vb.), yönetim/gelir/pazarlama ekiplerinin ihtiyaç duyduğu panel türlerini ve yaşadığınız ana problemleri (dağınık veri kaynakları, manuel Excel rapor yükü, geç gelen raporlar, karmaşık dashboard’lar vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle veri kaynakları analizi, KPI seti ve dashboard tasarım planını içeren bir Looker Studio yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "PMS–OTA–GA4–reklam–call center kaynaklarınızı, mevcut raporlama yapınızı ve sorunlarınızı özetleyen bir brief ile kapsam, KPI ve dashboard tasarımını içeren Looker Studio raporlama teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"benchmark-analiz-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/raporlama/benchmark-analizi-sss#faq",
+  "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi-sss",
+  "inLanguage": "tr",
+  "name": "Benchmark Analizi SSS",
+  "description": "Otel benchmark analizi, rakip set tanımı, pazar ve fiyat karşılaştırma raporları ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonları için gelir odaklı konumlama hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Raporlama & Veri",
+  "dgSectionIndex": 48,
+  "dgParentUrl": "https://dgtlface.com/tr/raporlama/benchmark-analizi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Benchmark Analizi SSS",
+  "dgH1": "Benchmark Analizi SSS",
+  "dgTitle": "Benchmark Analizi SSS – Otel Pazar, Rakip ve Fiyat Karşılaştırma Raporları | DGTLFACE",
+  "dgMetaDescription": "Otel benchmark analizi, rakip set tanımı, pazar ve fiyat karşılaştırma raporları ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonları için gelir odaklı konumlama hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "rakip set belirleme, pazar & fiyat karşılaştırmaları, doluluk ve gelir benchmark raporları ile konumlama stratejisi; yanlış rakip set seçimi, eksik pazar verisi ve hissiyata dayalı fiyatlandırma kararlarını veri odaklı modele dönüştürme",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Benchmark Analizi ile ilgili en sık sorulan soruları; rakip set belirleme, pazar & fiyat karşılaştırmaları, doluluk ve gelir benchmark raporları ve konumlama stratejisi üzerinden açıklar. Amaç, fiyatlandırma ve kanal kararlarını sadece iç hisle değil; bölge ve rakip verisine dayalı, veri odaklı bir yapı ile vermeyi öğretmektir.",
+  "dgAiAnswerCapsule": "Benchmark Analizi SSS; Antalya ve benzeri destinasyonlarda rakip otellerin fiyat, doluluk ve görünürlük verilerini takip ederek kendi konumunu doğru belirlemek isteyen otellere, benchmark mantığını kısa ve uygulanabilir şekilde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Benchmark analizi; otelinizin fiyat, doluluk ve gelir performansını seçtiğiniz rakip set ve bölge ortalamasıyla karşılaştırarak fiyat ve kanal kararlarını veriyle vermenizi sağlayan analiz sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Benchmark Analizi ile ilgili ‘benchmark analizi nedir, otelim için doğru rakip seti nasıl seçerim, rakip fiyatlarını ve kampanyalarını nasıl takip ederim, doluluk ve gelir benchmark’ını nasıl okurum, benchmark sonuçları fiyat stratejimi nasıl etkiler?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Benchmark Analizi SSS; yanlış rakip set ve hissiyata dayalı fiyatlandırma yerine, pazar ve rakip verisine dayalı konumlama ve fiyat stratejisi kurmanın temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Benchmark analizi tam olarak nedir?",
+    "Otelim için doğru rakip setini nasıl seçerim?",
+    "Rakip fiyatlarını ve kampanyalarını nasıl takip ederim?",
+    "Doluluk ve gelir benchmark’ını nasıl okurum?",
+    "Benchmark sonuçları fiyat stratejimi nasıl etkiler?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yanlış rakip set seçimi, eksik pazar verisi, fiyatlandırma kararlarının sadece iç hissiyata göre verilmesi ve bu yüzden gereksiz fiyat kırma veya doluluk kaybı gibi sorunlara odaklanır. Benchmark analizi, bu kararları pazar ve rakip set verisiyle destekleyerek riskleri azaltır.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-raporlama-benchmark-qset-48",
+  "dgJsonLdQuestionStrategy": "Benchmark analizi nedir, rakip set nasıl belirlenir, OTA fiyat karşılaştırmaları ve doluluk/gelir benchmark raporları nasıl kullanılır ve bu veriler fiyat/kampanya kararlarına nasıl yansıtılır gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yanlış rakip set, eksik pazar verisi ve hissiyata dayalı fiyatlandırma gibi pain point’lere odaklanan sorular; Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlara göre GEO odaklı bir soru ve kapanışta teklif/iş birliği sorusu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2500–2600",
+
+  "dgPrimaryCta": {
+    "label": "Benchmark analizi için teklif al",
+    "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Benchmark analizi için teklif al)",
+  "dgCtaCrossLinkNote": "Raporlama & veri ve satış performansı için /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum, /tr/pms-ota/kanal-yonetimi ve /tr/otel/reklam-yonetimi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/raporlama/looker-studio",
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/raporlama/benchmark-analizi",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/raporlama/benchmark-analizi",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yanlış rakip set seçimi, eksik pazar verisi ve hissiyata dayalı fiyatlandırma; gereksiz fiyat indirimleri, doluluk kayıpları ve kârlılık erozyonu yaratabilir. Doğru kurgulanmış benchmark analizi, bölge ve rakip verisini kullanarak fiyat ve kampanya kararlarını güçlendirir.",
+  "dgResultTimeframe": "Benchmark analizi düzenli uygulanmaya başlandıktan sonraki 1–3 ay içinde fiyat ve kampanya kararlarında daha tutarlı bir yapı; 3–6 ay içinde ise ADR, RevPAR ve pazar payı açısından daha dengeli ve kârlı bir konumlanma beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "OTA/pazar verisi erişim yöntemleri, kullanılabilen benchmark araçları, destinasyon talep yapısı veya DGTLFACE’in benchmark raporlama modeli (KPI, frekans, kapsam) değiştiğinde; ayrıca otelin hedef pazarları veya segment konumlandırması revize edildiğinde bu SSS, özellikle örnekler, GEO soruları ve pain point soruları düzeyinde güncellenmelidir.",
+  "dgNotes": "BÖLÜM 48 – /tr/raporlama/benchmark-analizi-sss için Benchmark Analizi SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Benchmark analizi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Benchmark analizi; otelinizin fiyat, doluluk ve gelir performansını, önceden tanımladığınız rakip set ve bölge ortalamasıyla karşılaştırarak pazardaki konumunuzu görmenizi sağlayan analiz sürecidir. Amaç, sadece kendi rakamlarınıza bakmak yerine, pazar ve rakip verisini de işin içine katarak fiyat ve kanal kararlarını daha sağlıklı vermektir.",
+        "dgShortAnswer": "Benchmark analizi, otel performansınızı rakip set ve bölge ortalamasıyla karşılaştırarak pazardaki konumunuzu gösteren analizdir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Benchmark analizi nedir, ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Benchmark analizi; rakiplerinizin ve pazarın fiyat, doluluk ve gelir seviyelerini takip ederek kendi performansınızı bununla kıyaslamanızı sağlar. Böylece hangi dönemlerde pahalı/ucuz kaldığınızı, pazarın gerisinde veya ilerisinde olduğunuzu ve fiyat ya da kanal stratejinizin pazar dinamiğine uygun olup olmadığını objektif biçimde görebilirsiniz.",
+        "dgShortAnswer": "Benchmark analizi, rakip ve pazar verisine bakarak fiyat ve kanal stratejinizin doğru konumda olup olmadığını anlamanızı sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Fayda",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için doğru rakip setini nasıl seçerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru rakip set; sizinle aynı destinasyonda, benzer segmentte (luxury, family, adults-only, budget vb.), benzer oda sayısı ve tesis özelliklerine sahip, benzer fiyat aralığında ve benzer hedef pazarlara çalışan otellerden oluşmalıdır. Sadece lokasyon yakınlığına göre rakip seçmek, yanlış benchmark sonuçlarına ve hatalı fiyat/kampanya kararlarına yol açabilir.",
+        "dgShortAnswer": "Doğru rakip set; benzer destinasyon, segment, oda sayısı, fiyat aralığı ve hedef pazara sahip ‘gerçek’ rakip otellerden oluşmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Rakip Set Seçimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel için doğru rakip set nasıl belirlenir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Önce hangi segmentte konumlandığınızı (ör. family resort, adults-only, city business vb.) netleştirmeli, ardından benzer segment, oda sayısı, fiyat seviyesi, konsept ve hedef pazar kriterlerine göre oteller seçmelisiniz. Bu liste; OTA, metasearch ve pazar raporlarından alınan bilgilerle doğrulanmalı ve gerektiğinde sezonluk olarak güncellenmelidir. Böylece sadece ‘komşu otelleri’ değil, gerçekten sizinle aynı misafir için yarışan otelleri benchmark setine almış olursunuz.",
+        "dgShortAnswer": "Segmentinizi netleştirip benzer konsept, oda sayısı, fiyat seviyesi ve hedef pazara sahip otelleri seçmeli ve bu seti sezonluk gözden geçirmelisiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Rakip Set Kriterleri",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rakip fiyatlarını ve kampanyalarını nasıl takip ederim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rakip fiyat ve kampanyalarını takip etmek için OTA ve metasearch fiyat izleme araçlarından yararlanabilir, belirlenen rakip set için tarih/oda/kana bazlı fiyat raporları alabilirsiniz. Ayrıca belirli dönemlerde OTA’da ve metasearch’te rakiplerin kampanya, indirim, paket ve içerik hareketlerini inceleyerek onların pazardaki agresiflik veya temkinlilik seviyesini görebilirsiniz. Bu veriler, kendi fiyat ve kampanya kararlarınızı desteklemek için kullanılır.",
+        "dgShortAnswer": "OTA/metasearch izleme araçlarıyla rakip set için tarih–oda–kanal bazlı fiyat ve kampanya raporları alarak rakip hareketlerini takip edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Rakip Fiyat Takibi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA fiyat karşılaştırmaları nasıl yorumlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA fiyat karşılaştırmalarında; belli bir tarih ve oda tipi için sizin ve rakiplerinizin fiyat seviyeleri yan yana incelenir. Sürekli en ucuz pozisyondaysanız, gereksiz fiyat kaybı ve marj erozyonu yaşayabilirsiniz; sürekli en pahalı konumdaysanız, doluluk kaybı riski doğar. Pazar ve talep seviyesini de göz önünde bulundurarak, konumunuzu stratejinize uygun şekilde (premium, dengeli veya agresif) bilerek seçmeniz gerekir.",
+        "dgShortAnswer": "Sürekli en ucuz olmak marj kaybı, sürekli en pahalı olmak doluluk kaybı riski taşır; OTA fiyat karşılaştırmaları bu konumu bilinçli seçmenizi sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / OTA Fiyat Karşılaştırması",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Doluluk ve gelir benchmark’ını nasıl okurum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doluluk ve gelir benchmark’ında; kendi doluluk, ADR ve RevPAR değerleriniz bölge ve rakip set ortalamalarıyla kıyaslanır. Siz düşük dolu ama rakipler yüksek doluysa; sorun fiyatta değil, görünürlük ve kanal tarafında olabilir. Siz yüksek dolu, rakipler düşük doluysa ve ADR’iniz de dengedeyse; fiyatı biraz yukarı çekme fırsatı olabilir. Hem doluluk hem fiyat hem de pazar talebini aynı tabloda görmek, doğru yorumu mümkün kılar.",
+        "dgShortAnswer": "Kendi doluluk/ADR/RevPAR değerlerinizi rakip ve bölge ortalamasıyla yan yana görerek; nerede geri, nerede güçlü olduğunuzu anlarsınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Doluluk & Gelir Benchmark",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış rakip set seçimi ve eksik pazar verisi ne gibi problemlere yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yanlış rakip set seçimi; aslında sizinle aynı segmentte olmayan otellerle kendinizi kıyaslamanıza yol açar ve sonuçta yanlış fiyat ve kampanya kararları alırsınız. Eksik pazar verisiyle çalışmak ise talebin gerçek seviyesini görmenizi engeller; pazarda talep artmışken siz hâlâ düşük fiyatta kalabilir veya tam tersine, talep düşmüşken fiyatı gereğinden yüksek tutabilirsiniz. Her iki durumda da hem gelir hem marka konumlandırması zarar görür.",
+        "dgShortAnswer": "Yanlış rakip set ve eksik pazar verisi, hatalı fiyat ve kampanya kararlarına ve uzun vadede gelir/marka konumlanmasının bozulmasına yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yanlış Rakip Set & Eksik Veri",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Fiyatlandırma kararlarının sadece iç hissiyata göre verilmesi neye mal olur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sadece iç hissiyata göre fiyatlandırma yaptığınızda; bazı dönemlerde gereksiz yere fiyat kırar ve kâr marjınızı düşürür, bazı dönemlerde ise pazar talebini görmeden yüksek fiyatta ısrar ederek doluluk ve gelir kaybı yaşarsınız. Uzun vadede, otelinizin fiyat seviyesi pazardan kopar ve marka algınız dengesizleşir. Benchmark verisi bu dalgalanmaları azaltmak için kritik bir kontrol mekanizmasıdır.",
+        "dgShortAnswer": "Sadece hissiyata dayalı fiyatlandırma; gereksiz indirimlere, doluluk & gelir kaybına ve uzun vadede hatalı marka fiyat konumuna yol açar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Hissiyata Dayalı Fiyatlama",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Benchmark verisi fiyat ve kampanya kararlarına nasıl yansıtılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Benchmark verisi; hangi dönem ve segmentte rakiplerinizin sizin üzerinizde veya altınızda konumlandığını, pazar talebiyle birlikte yorumlamanızı sağlar. Yüksek talep ve rakiplerin yüksek fiyat çektiği dönemlerde ADR’inizi artırabilir, talebin zayıf olduğu ve rakiplerin agresif kampanya yaptığı dönemlerde ise segment ve kanal bazlı kampanya stratejinizi revize edebilirsiniz. Önemli olan, benchmark verisini ‘otomatik tepki’ değil, ‘gerekçeli karar’ için kullanmaktır.",
+        "dgShortAnswer": "Benchmark verisi; talep ve rakip seviyesini görerek fiyat ve kampanyaları dönem, pazar ve kanal bazında planlamanızı sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Fiyat & Kampanya Kararları",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Benchmark Analizi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Benchmark Analizi için çalışmak istediğinizde; otelinizin türünü ve lokasyonunu (ör. Antalya, Belek, Kemer, Side, Bodrum, Alanya), hedef pazarlarınızı, mevcut fiyatlandırma ve kanal stratejinizi, kullandığınız OTA ve metasearch kanallarını ve yaşadığınız ana problemleri (yanlış rakip set, fiyat kararsızlığı, OTA rekabeti vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle rakip set önerisi, veri kaynakları, benchmark rapor yapısı ve aksiyon modeli içeren bir yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Destinasyon, segment, hedef pazar, mevcut fiyat/kanal stratejisi ve problemleri içeren bir brief ile kapsam, rakip set ve rapor modelini içeren Benchmark Analizi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"satis-donusumu-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/raporlama/satis-donusum-sss#faq",
+  "url": "https://dgtlface.com/tr/raporlama/satis-donusum-sss",
+  "inLanguage": "tr",
+  "name": "Satış & Dönüşüm Raporlama SSS",
+  "description": "Satış ve dönüşüm raporları, web rezervasyon hunisi, OTA performansı ve çağrı merkezi satış verilerinin birlikte analiz edilmesi hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Raporlama & Veri",
+  "dgSectionIndex": 49,
+  "dgParentUrl": "https://dgtlface.com/tr/raporlama/satis-donusum",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Satış & Dönüşüm Raporlama SSS",
+  "dgH1": "Satış & Dönüşüm Raporlama SSS",
+  "dgTitle": "Satış & Dönüşüm Raporlama SSS – Otel Web, OTA ve Çağrı Merkezi Performans Analizi | DGTLFACE",
+  "dgMetaDescription": "Satış ve dönüşüm raporları, web rezervasyon hunisi, OTA performansı ve çağrı merkezi satış verilerinin birlikte analiz edilmesi hakkında sık sorulan sorular.",
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel web sitesi, OTA ve çağrı merkezi satış & dönüşüm oranlarının uçtan uca raporlanması ve yorumlanması; satış hunisi (funnel) analizi, kanal bazlı kârlılık, yüksek trafik ama düşük rezervasyon, sepet terk oranı ve çağrı sonrası dönmeyen teklif sorunlarının tespiti",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Satış & Dönüşüm Raporlama ile ilgili en sık sorulan soruları; otel web sitesi, OTA ve çağrı merkezi satış & dönüşüm oranlarının uçtan uca raporlanması, funnel analizi ve gelir/kârlılık odaklı yorumlama üzerinden açıklar. Amaç, ‘trafik var ama satış yok’ problemini veriye dayalı olarak tespit edip çözmektir.",
+  "dgAiAnswerCapsule": "Satış & Dönüşüm Raporlama SSS; ziyaretçi → talep → rezervasyon → gelir zincirini net görmek ve hangi kanalın gerçekten para kazandırdığını anlamak isteyen otellere, satış hunisi mantığını kısa ve net biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Satış & dönüşüm raporu; web, OTA ve çağrı merkezi kanallarında ziyaretçiden rezervasyona ve gelire giden zinciri göstererek, ‘trafik var ama satış yok’ problemini tespit etmeyi sağlayan raporlama modelidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; Satış & Dönüşüm Raporlama ile ilgili ‘satış dönüşüm raporu nedir, web ve OTA satışlarımı birlikte nasıl analiz ederim, trafik var ama rezervasyon yoksa nereden başlamalıyım, çağrı merkezinin satışa etkisini nasıl ölçerim, hangi kanal daha kârlı nasıl anlarım?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Satış & Dönüşüm Raporlama SSS; web, OTA ve çağrı merkezi satışlarını tek satış hunisi içinde görüp hangi kanaldan gerçekten kâr ettiğinizi anlamanızı sağlar.",
+
+  "dgVoiceQueryExamples": [
+    "Satış & dönüşüm raporu tam olarak nedir?",
+    "Web ve OTA satışlarımı birlikte nasıl analiz ederim?",
+    "Trafik var ama rezervasyon yoksa nereden başlamalıyım?",
+    "Çağrı merkezinin satışa etkisini nasıl ölçerim?",
+    "Hangi kanal daha kârlı, nasıl anlarım?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yüksek trafik ama düşük rezervasyon, yüksek sepet terk oranı, çağrı sonrası rezervasyona dönmeyen teklif ve offline rapor karmaşası gibi problemlere odaklanır ve satış hunisi bazlı raporlama ile bu sorunların nerede yaşandığını tespit etmeye yardımcı olur.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-raporlama-satis-qset-49",
+  "dgJsonLdQuestionStrategy": "Satış & dönüşüm raporlaması tanımı, otel web–OTA–call center satışlarının birlikte nasıl raporlanacağı, ‘trafik var ama satış yok’ probleminin nasıl analiz edileceği, rezervasyon dönüşüm oranı ve kanal kârlılığının nasıl hesaplanacağı gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yüksek trafik ama düşük rezervasyon, sepet terk ve çağrı sonrası dönmeyen teklif gibi pain point’lere odaklanan sorular; Türkiye geneli ve resort destinasyonlar için GEO odaklı bir soru ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "Satış & Dönüşüm raporu için teklif al",
+    "url": "https://dgtlface.com/tr/raporlama/satis-donusum"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Satış & Dönüşüm raporu için teklif al)",
+  "dgCtaCrossLinkNote": "Raporlama & veri ve online satış stratejisi için /tr/raporlama/looker-studio, /tr/raporlama/benchmark-analizi, /tr/pms-ota/online-satis ve /tr/otel/reklam-yonetimi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/raporlama/looker-studio",
+    "https://dgtlface.com/tr/raporlama/benchmark-analizi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yüksek trafik ama düşük rezervasyon, yüksek sepet terk oranı, çağrı sonrası rezervasyona dönmeyen teklif ve offline rapor karmaşası; hem gelir hem de pazarlama bütçesi açısından ciddi kayıplara yol açar. Satış & dönüşüm raporlaması, bu problemleri funnel bazlı göstererek hangi adım ve kanalda iyileştirme yapılması gerektiğini netleştirir.",
+  "dgResultTimeframe": "Satış & Dönüşüm raporlama modeli devreye alındıktan sonraki 1–3 ay içinde temel funnel metriklerinin ve kanal dönüşüm oranlarının daha net takip edilmesi; 3–6 ay içinde ise web/OTA/call center dönüşüm oranlarında ve kanal kârlılığında iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "GA4, PMS, OTA ve call center veri modelleri, attribution yaklaşımları veya DGTLFACE’in satış & dönüşüm raporlama çerçevesi (funnel tanımları, KPI seti) değiştiğinde; ayrıca otellerin kanal stratejisi veya gelir hedefleri revize edildiğinde bu SSS, özellikle funnel açıklamaları, KPI soruları ve pain point alanları bağlamında güncellenmelidir.",
+  "dgNotes": "BÖLÜM 49 – /tr/raporlama/satis-donusum-sss için Satış & Dönüşüm Raporlama SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Satış & dönüşüm raporu tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Satış & dönüşüm raporu; otel web sitesi, OTA ve çağrı merkezi gibi kanallarda ziyaretçi veya talep sayısından başlayarak, kaçının rezervasyona ve gelire dönüştüğünü gösteren raporlama yapısıdır. Ziyaretçi → talep → rezervasyon → gelir zincirini kanal bazında görmenizi sağlayarak hangi adımda ve hangi kanalda kayıp yaşadığınızı netleştirir.",
+        "dgShortAnswer": "Satış & dönüşüm raporu, ziyaretçi → talep → rezervasyon → gelir zincirini kanal bazında gösteren ve kaybın nerede olduğunu anlatan rapordur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Satış dönüşüm raporu nedir, ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Satış dönüşüm raporu; web, OTA ve çağrı merkezi kanallarında kaç kişinin geldiğini, kaçının talep oluşturduğunu, kaçının rezervasyona dönüştüğünü ve bu rezervasyonların ne kadar gelir getirdiğini gösteren rapor setidir. Bu sayede ‘kaç rezervasyon aldık?’tan ziyade ‘hangi kanal ne kadar verimli ve kârlı çalışıyor?’ sorusuna yanıt verirsiniz.",
+        "dgShortAnswer": "Satış dönüşüm raporu, her kanalda kaç ziyaretçinin rezervasyona ve gelire dönüştüğünü göstererek kanal verimliliğini ortaya koyar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Fayda",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web ve OTA satışlarımı birlikte nasıl analiz ederim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web ve OTA satışlarını birlikte analiz etmek için; GA4’ten gelen web trafik ve rezervasyon event’lerini PMS ve OTA raporlarındaki rezervasyon ve gelir verileriyle ilişkilendirmelisiniz. Böylece aynı panelde, web ve OTA kanalları için ziyaretçi → rezervasyon → gelir zincirini görebilir, hangi kanalda hem sayı hem kârlılık anlamında daha iyi performans aldığınızı analiz edebilirsiniz.",
+        "dgShortAnswer": "GA4 web verisini PMS ve OTA rezervasyon/verileriyle tek panelde birleştirerek web ve OTA funnel’larını yan yana analiz edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Web + OTA Analizi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel web, OTA ve call center satışları birlikte nasıl raporlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web trafiği ve rezervasyon event’leri GA4 üzerinden, OTA rezervasyonları OTA veya channel manager raporlarından, call center satışları ise çağrı merkezi ve PMS verilerinden alınarak ortak bir veri modelinde birleştirilir. Looker Studio veya benzeri bir panel aracılığıyla bu veri; kanal, tarih, pazar ve kampanya kırılımlarıyla tek dashboard üzerinde raporlanabilir. Böylece tüm satış kanalları için uçtan uca funnel’ı aynı ekranda görürsünüz.",
+        "dgShortAnswer": "GA4, OTA/channel manager, PMS ve call center verilerini tek veri modelinde birleştirip Looker Studio gibi bir panelde kanal bazlı funnel olarak raporlamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Çok Kanallı Raporlama",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Trafik var ama rezervasyon yoksa sebebi nasıl bulunur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "‘Trafik var ama rezervasyon yok’ probleminde ilk adım, satış hunisini adım adım incelemektir. Web için; oturum → oda arama → oda seçimi → ödeme sayfası → rezervasyon adımlarındaki drop-off oranlarına bakmalısınız. OTA için; görüntülenme → tıklama → rezervasyon; call center için ise çağrı → teklif → rezervasyon dönüşüm oranlarını inceleyerek kaybın hangi adımda yoğunlaştığını tespit edebilirsiniz.",
+        "dgShortAnswer": "Funnel adımlarını (web’de GA4, OTA’da görüntülenme/tıklama, call center’da çağrı/teklif) analiz ederek kaybın hangi adımda olduğunu tespit etmelisiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Trafik Var Satış Yok",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezinin satışa etkisini nasıl ölçerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çağrı merkezinin satış etkisini ölçmek için; satış amaçlı çağrı sayısını, teklif verilen çağrı sayısını, rezervasyona dönen çağrı sayısını ve bu rezervasyonların gelirini takip etmelisiniz. Bu veriler üzerinden ‘çağrı → teklif → rezervasyon’ dönüşüm oranları hesaplanır. Ayrıca, call center kaynaklı rezervasyonların OTA ve web ile kıyaslandığında ADR ve net gelir katkısı analiz edilerek çağrı merkezinin kârlılık etkisi de ölçülebilir.",
+        "dgShortAnswer": "Çağrı, teklif, rezervasyon ve gelir verilerini kullanarak call center’ın çağrı → rezervasyon dönüşüm ve gelir katkısını hesaplamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Call Center Etkisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rezervasyon dönüşüm oranı nasıl hesaplanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rezervasyon dönüşüm oranı, ilgili kanaldaki ‘satış amaçlı’ etkileşimlere göre hesaplanır. Web için rezervasyon dönüşümü; rezervasyon sayısı / rezervasyon amaçlı oturum (örneğin booking engine’e giren oturumlar). Call center için; rezervasyona dönen çağrı sayısı / satış amaçlı çağrı sayısı. OTA için ise; rezervasyon sayısı / ilgili trafiğe göre (görüntülenme veya tıklama) yorumlanır. Önemli olan, dönüşümü doğru ‘talep bazında’ ölçmektir.",
+        "dgShortAnswer": "Dönüşüm oranı, ilgili kanalda satış amaçlı etkileşim (oturum, çağrı, tıklama) başına rezervasyon sayısı olarak hesaplanmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Dönüşüm Oranı Hesabı",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hangi kanal daha kârlı, nasıl anlarım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kanal kârlılığını anlamak için; her kanal için gelir, OTA komisyonu veya pazarlama maliyeti (örneğin Ads harcaması), iade/iptal oranı ve operasyonel yük gibi faktörleri birlikte değerlendirmelisiniz. Sadece brüt gelir değil, net gelir ve kâr marjı üzerinden kanal bazlı bir tablo oluşturduğunuzda, hangi kanalın daha kârlı olduğu netleşir. Örneğin daha az rezervasyon ama daha yüksek net kârlılık sağlayan kanalları böyle tespit edebilirsiniz.",
+        "dgShortAnswer": "Her kanal için gelir, komisyon/pazarlama maliyeti ve iptal/operasyon yükünü birlikte analiz ederek net kârlılığı kıyaslamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Kanal Kârlılığı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yüksek sepet terk oranı ve çağrı sonrası dönmeyen teklif problemi neyi gösterir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yüksek sepet/oda terk oranı ve call center’da teklif sonrası rezervasyona dönmeyen yüksek oran; kullanıcıların otelinizle ilgilendiğini fakat bir noktada karar veremediğini veya başka bir seçeneğe yöneldiğini gösterir. Bu durum, fiyatlandırma, içerik, güven unsurları, kampanya rekabeti veya satış script’lerinde iyileştirme ihtiyacına işaret eder. Satış & dönüşüm raporlaması, bu kaybın hangi adımda yoğunlaştığını veriye dayalı olarak gösterir.",
+        "dgShortAnswer": "İlgili ama karar veremeyen misafirlerin fazla olduğunu, fiyat/içerik/güven/script tarafında iyileştirme gerektiğini gösterir; funnel analiziyle kayıp noktası tespit edilir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Sepet Terk & Dönmeyen Teklif",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Satış & dönüşüm raporlaması Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda neden kritik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antalya, Belek, Kemer, Side, Bodrum ve Alanya gibi destinasyonlarda; kısa ama yoğun sezon, çok sayıda OTA ve acente, web ve call center üzerinden ciddi talep akışı vardır. Bu ortamda hangi kanalın gerçekten kârlı olduğunu ve ‘trafik var ama satış yok’ probleminin nereden kaynaklandığını bilmeden bütçe ve kanal kararları almak, ciddi gelir fırsatlarını kaçırmanıza yol açabilir. Satış & dönüşüm raporlaması, bu bölgelerde özellikle kritik bir yönetim aracıdır.",
+        "dgShortAnswer": "Yoğun ve kısa sezonda, çok kanallı talep akarken hangi kanalın gerçekten kazandırdığını görmeden karar vermek ciddi gelir kaybı yaratır; bu yüzden bu destinasyonlarda satış & dönüşüm raporlaması kritiktir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Destinasyon Bazlı Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Satış & Dönüşüm raporu için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Satış & Dönüşüm raporu için çalışmak istediğinizde; kullandığınız PMS, GA4, OTA ve çağrı merkezi sistemlerini, mevcut raporlama biçiminizi (Excel, hazır paneller vb.), yaşadığınız temel problemleri (yüksek trafik ama düşük rezervasyon, offline/online rapor karmaşası, çağrı sonrası dönmeyen teklifler vb.) ve hedeflerinizi (direct pay, dönüşüm oranları, kanal kârlılığı) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle veri kaynakları analizi, funnel tasarımı, KPI seti ve dashboard planını içeren bir yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "PMS–GA4–OTA–call center sistemleriniz, mevcut raporlama yapınız, problemleriniz ve hedeflerinizi özetleyen bir brief ile kapsam, funnel ve KPI’ları içeren Satış & Dönüşüm raporlama teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"kvkk-veri-guvenligi-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi-sss#faq",
+  "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi-sss",
+  "inLanguage": "tr",
+  "name": "KVKK & Veri Güvenliği SSS",
+  "description": "KVKK kapsamında otel misafir verilerinin saklanması, PMS–OTA–çağrı merkezi sistemleri arasında veri güvenliği ve raporlama pratikleri hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Raporlama & Veri",
+  "dgSectionIndex": 50,
+  "dgParentUrl": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "KVKK & Veri Güvenliği SSS",
+  "dgH1": "KVKK & Veri Güvenliği SSS",
+  "dgTitle": "KVKK & Veri Güvenliği SSS – Otel Misafir Verisi, Loglama ve Raporlama Süreçleri | DGTLFACE",
+  "dgMetaDescription": "KVKK kapsamında otel misafir verilerinin saklanması, PMS–OTA–çağrı merkezi sistemleri arasında veri güvenliği ve raporlama pratikleri hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "PMS ve bağlı sistemlerde misafir verisi, loglama, saklama süreleri ve KVKK uyumlu raporlama süreçleri; yetkisiz erişim, eksik loglama, belirsiz veri saklama politikaları ve denetim risklerinin teknik açıdan yönetimi",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, KVKK & Veri Güvenliği ile ilgili en sık sorulan soruları; PMS, OTA, çağrı merkezi, web ve CRM sistemlerinde misafir verisinin nasıl saklanması, loglanması, paylaşılması ve raporlanması gerektiği üzerinden açıklar. Amaç, özellikle otellerde yetkisiz erişim, eksik loglama, belirsiz saklama süresi ve denetimlerde ortaya çıkabilecek uyumsuzluk risklerini teknik açıdan yönetilebilir bir çerçeveye oturtmaktır. İçerik teknik ve operasyonel çerçeve sunar; hukuki yorumlar için hukuk danışmanınızla çalışmanız gerekir.",
+  "dgAiAnswerCapsule": "KVKK & Veri Güvenliği SSS; otel ve markaların misafir verisini KVKK’ya uygun, loglanmış, kontrollü ve denetime hazır şekilde yönetmesi için gerekli teknik veri akışı ve güvenlik çerçevesini kısa ve anlaşılır biçimde özetleyen bir rehberdir.",
+  "dgVoiceSearchSummary": "KVKK veri güvenliği; misafir verilerinin PMS, OTA, çağrı merkezi ve web sistemleri arasında yetkisiz erişim, yanlış kullanım ve gereğinden uzun saklamaya karşı teknik tedbirlerle korunmasıdır.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘KVKK veri güvenliği tam olarak nedir?’, ‘Otelimde misafir verisini KVKK’ya uygun nasıl saklamalıyım?’, ‘PMS, OTA ve çağrı merkezi verileri arasında veri akışını nasıl güvenli kılarım?’, ‘Çerez yönetimi ve izin kayıtlarını nasıl tutmalıyım?’, ‘KVKK denetiminde teknik olarak neler sorulur?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "KVKK & Veri Güvenliği SSS; otellerde misafir verisinin PMS, OTA, çağrı merkezi ve web sistemleri arasında KVKK’ya uyumlu ve denetime hazır şekilde yönetilmesi için teknik çerçeveyi özetler.",
+
+  "dgVoiceQueryExamples": [
+    "KVKK veri güvenliği tam olarak nedir?",
+    "Otelimde misafir verisini KVKK’ya uygun nasıl saklamalıyım?",
+    "PMS, OTA ve çağrı merkezi verileri arasında veri akışını nasıl güvenli kılarım?",
+    "Çerez yönetimi ve izin kayıtlarını nasıl tutmalıyım?",
+    "KVKK denetiminde teknik olarak neler sorulur?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yetkisiz kullanıcı erişimi, eksik loglama, belirsiz veri saklama politikaları, Excel/WhatsApp üzerinden kontrolsüz veri paylaşımı ve KVKK denetiminde ortaya çıkabilecek uyumsuzluk riskleri gibi problemlere odaklanır. Teknik veri haritası, erişim yetki matrisi, loglama ve çerez/izin yönetimi tasarımlarıyla bu risklerin nasıl azaltılabileceği anlatılır.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-raporlama-kvkk-qset-50",
+  "dgJsonLdQuestionStrategy": "KVKK veri güvenliği tanımı, otel PMS’inde misafir verisinin korunması, PMS–OTA–çağrı merkezi veri akışlarının güvence altına alınması, çerez ve izin yönetiminin KVKK’ya uygun tasarımı, veri saklama süresi & loglama ve KVKK teknik tedbirlerinin çerçevesi gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yetkisiz erişim, eksik log, belirsiz saklama politikası ve denetim uyumsuzluğu gibi pain point’lere odaklanan sorular; Türkiye geneli ve resort destinasyonlar için GEO odaklı bir soru ve kapanışta teklif/iş birliği sorusunu içerir. İçerik teknik çerçeve sağlar; hukuki uyum için hukuk danışmanı gereklidir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2000–2600",
+
+  "dgPrimaryCta": {
+    "label": "KVKK veri güvenliği danışmanlığı için teklif al",
+    "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (KVKK veri güvenliği danışmanlığı için teklif al)",
+  "dgCtaCrossLinkNote": "KVKK ve teknik veri güvenliği için /tr/yazilim/kvkk-uyum-hizmeti; veri & performans panelleri için /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum ve PMS katmanı için /tr/pms-ota/pms-kurulum sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+    "https://dgtlface.com/tr/raporlama/looker-studio",
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+    "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+    "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yetkisiz kullanıcı erişimi, eksik loglama, belirsiz veri saklama politikaları ve KVKK denetiminde ortaya çıkabilecek uyumsuzluklar; hem hukuki risk hem misafir güveni hem de marka itibarı açısından ciddi sonuçlar yaratabilir. KVKK’ya uyumlu teknik veri akışı, erişim kontrolü, loglama ve raporlama çerçevesi, bu riskleri azaltmaya yardımcı olur.",
+  "dgResultTimeframe": "KVKK & veri güvenliği teknik çerçevesi uygulamaya alındıktan sonraki 1–3 ay içinde erişim, loglama ve saklama süreçlerinin daha görünür ve yönetilebilir hâle gelmesi; 3–6 ay içinde ise denetim hazırlığı, veri ihlali tespit süresi ve iç güven kontrollerinde iyileşme beklenebilir.",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "KVKK mevzuatı, rehberler veya resmi yorumlarda anlamlı değişiklikler olduğunda; 3rd party cookie/pixel yapıları veya veri saklama–loglama teknik standartları güncellendiğinde; ayrıca DGTLFACE’in KVKK teknik uyum & raporlama hizmet kapsamı veya otel veri akışı modelleri değiştiğinde bu SSS, özellikle veri akışı örnekleri, çerez ve risk/pain point soruları düzeyinde refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 50 – /tr/raporlama/kvkk-veri-guvenligi-sss için KVKK & Veri Güvenliği SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "KVKK veri güvenliği tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KVKK veri güvenliği; otelinizin işlediği misafir verilerinin yetkisiz erişim, amaç dışı kullanım ve gereğinden uzun saklamaya karşı teknik ve organizasyonel tedbirlerle korunmasını ifade eder. Bu kapsamda PMS, OTA, çağrı merkezi, web ve CRM gibi sistemlerde tutulan veriler için erişim, loglama, saklama ve paylaşım süreçlerinizin kontrol altında olması beklenir. Hukuki uyum için ayrıca hukuk danışmanınızla çalışmanız gerekir.",
+        "dgShortAnswer": "KVKK veri güvenliği; misafir verilerinin PMS, OTA, call center, web vb. sistemlerde teknik ve organizasyonel tedbirlerle korunmasıdır; hukuki uyum için hukuk danışmanı gerektirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Tanım & Kapsam",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "KVKK veri güvenliği nedir, neyi kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KVKK veri güvenliği; misafir verisine kimlerin eriştiğini, bu verinin hangi sistemlerde ve ne kadar süreyle tutulduğunu, ne şekilde paylaşıldığını ve tüm bu işlemlerin nasıl loglandığını kontrol altında tutmayı kapsar. Otelinizde kullanılan PMS, OTA bağlantıları, çağrı merkezi, web sitesi ve CRM sistemleri bu kapsamın içindedir. KVKK yükümlülüklerinizin hukuki detayları için mutlaka hukuk danışmanınızın yönlendirmesine ihtiyacınız vardır.",
+        "dgShortAnswer": "KVKK veri güvenliği; misafir verisine erişim, saklama, paylaşım ve loglama süreçlerinin teknik olarak kontrol altında tutulmasını kapsar; hukuki kısım için avukatınızla çalışmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Çerçeve",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelimde misafir verisini KVKK’ya uygun nasıl saklamalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genel teknik çerçevede; misafir verilerini PMS ve bağlı sistemlerde role dayalı erişim ile, güçlü parola ve gerektiğinde IP/cihaz kısıtlarıyla korumanız, kritik alanlar için erişimi sınırlamanız, veriye erişim ve değişiklikleri loglamanız ve verileri gereksiz kopyalamadan saklamanız beklenir. Ayrıca saklama süreleri ve imha süreçleri tanımlanmalı ve bu süreçler teknik olarak desteklenmelidir. Bu yapı, hukuk danışmanınızla belirleyeceğiniz KVKK politikaları temel alınarak tasarlanmalıdır.",
+        "dgShortAnswer": "Verileri PMS ve bağlı sistemlerde role dayalı erişim, güçlü şifre, loglama ve tanımlı saklama/imha süreçleriyle saklamalısınız; hukuki sınırlar için hukuk danışmanın rehberliği gereklidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Saklama & Erişim",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel PMS’inde misafir verisi nasıl korunmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS’te misafir verisini korumak için; kullanıcı hesaplarının kişiye özel olması, güçlü parola ve oturum politikalarının kullanılması, departman bazlı rol ve yetkilerin tanımlanması, hassas alanlara erişimin sınırlandırılması veya maskeleme ile yönetilmesi, tüm giriş/çıkış ve değişikliklerin loglanması ve PMS’e erişimin mümkün olduğunca güvenli ağ bağlantıları üzerinden yapılması temel teknik önlemler arasındadır. Bu önlemler, kurumunuzun KVKK politika ve prosedürleriyle uyumlu olmalıdır.",
+        "dgShortAnswer": "PMS’te rol bazlı yetki, güçlü parola, hassas alanlara sınırlı erişim ve kapsamlı loglama ile misafir verisini korumalısınız; hukukî çerçeve için KVKK politikalarınız esas alınmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / PMS Güvenliği",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS, OTA ve çağrı merkezi verileri arasında veri akışını nasıl güvenli kılarım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Veri akışını güvenli kılmak için; PMS–channel manager–OTA entegrasyonlarının SSL/TLS gibi güvenli bağlantılar üzerinden çalıştığından emin olmalı, entegrasyon kullanıcı adı/şifre ve API anahtarlarını sınırlı kişiyle paylaşmalı, erişim loglarını takip etmeli ve gerektiğinde VPN veya IP kısıtlama gibi ek önlemler kullanmalısınız. Çağrı merkezi ve CRM tarafında da verinin sistem dışına (Excel, e-posta vb.) gereksiz çıkmasını önleyecek süreçler tasarlamak önemlidir.",
+        "dgShortAnswer": "Güvenli API/SSL bağlantıları, sınırlı erişim, loglama ve mümkün olduğunda sistem dışına veri çıkışını azaltarak PMS–OTA–call center veri akışını daha güvenli kılabilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Entegrasyon Güvenliği",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çerez ve izin yönetimi KVKK’ya nasıl uygun hale getirilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Teknik olarak; web sitenizde kullanılan çerezleri tür ve amaçlarına göre kategorize etmeli, KVKK’ya uygun bir aydınlatma metni sunmalı ve isteğe bağlı çerezler için kullanıcıya bir tercih ekranı göstermelisiniz. Kullanıcının yaptığı seçimlerin (tarih, tercih durumu vb.) loglanması ve gerektiğinde bu kayıtların sunulabilmesi önemlidir. Hangi çerezler için hangi hukuki temele dayanacağınız ve hangi izinleri isteyeceğiniz konusunda hukuk danışmanınızın görüşü belirleyici olmalıdır.",
+        "dgShortAnswer": "Çerezleri tür/amaç bazında sınıflandırıp tercih ekranı ve aydınlatma sunmalı, kullanıcı seçimlerini loglamalı ve hukuki temel için hukuk danışmanınıza başvurmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Çerez & İzin Yönetimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Veri saklama süresi ve loglama nasıl ayarlanmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Veri saklama süresi ve loglama; hem hukuki gerekliliklere hem de operasyonel ihtiyaçlara göre belirlenmelidir. Örneğin rezervasyon ve fatura verileri için ayrı, çağrı kayıtları ve loglar için ayrı saklama süreleri tanımlanabilir. Bu süreler dolduğunda verinin anonimleştirilmesi veya imhası için teknik süreçler planlanmalı ve bu işlemler de kayıt altına alınmalıdır. Net süre ve yöntemler için hukuk danışmanınızın yönlendirmesi esas alınmalıdır.",
+        "dgShortAnswer": "Her veri türü için hukuki ve operasyonel gerekliliklere göre saklama süreleri tanımlanmalı, süre sonunda anonimleştirme/imha süreçleri teknik olarak uygulanmalıdır; detay için hukuk danışmanı ile çalışılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Saklama & Loglama",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yetkisiz kullanıcı erişimi ve eksik loglama ne gibi KVKK riskleri yaratır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yetkisiz kullanıcı erişimi; misafir verisinin yanlış kişiler tarafından görüntülenmesi veya dışarı çıkarılması anlamına gelebilir ve veri ihlali bildirimi ile idari para cezası gibi KVKK yaptırımlarına konu olabilir. Eksik loglama ise; bir sorun çıktığında ne olduğuna dair iz sürmenizi zorlaştırır ve denetimde ‘kim, ne zaman, ne yaptı?’ sorularına cevap vermenizi engelleyebilir. Bu nedenle hem erişim kontrolü hem loglama KVKK veri güvenliği açısından kritik öneme sahiptir.",
+        "dgShortAnswer": "Yetkisiz erişim veri ihlali ve yaptırım riskini, eksik loglama ise hem iç soruşturma hem denetimde ‘ne oldu?’ sorusuna cevap verememe riskini doğurur.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yetkisiz Erişim & Eksik Loglama",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "KVKK denetiminde teknik olarak neler sorulabilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KVKK denetiminde teknik tarafta genellikle; hangi sistemlerde hangi verilerin tutulduğu, bu sistemler arasında nasıl veri akışı olduğu, kimlerin hangi verilere erişebildiği (yetki matrisi), erişim ve işlem loglarının nasıl tutulduğu, çerez ve izin kayıtlarının nasıl yönetildiği, veri saklama ve imha süreçlerinin nasıl işlediği ve veri ihlali durumunda izleyeceğiniz adımlar gibi konular sorgulanır. Bu alanlar için temiz ve güncel bir teknik dokümantasyon ile örnek kayıtlar hazırlamak önemlidir.",
+        "dgShortAnswer": "Denetimde genelde veri envanteri/akışı, erişim yetkileri, loglama, saklama/imha süreçleri, çerez & izin kayıtları ve ihlal senaryolarına dair teknik kayıtlar talep edilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Teknik Denetim Alanları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Türkiye’deki oteller için KVKK veri güvenliği ne anlama gelir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Türkiye’de faaliyet gösteren oteller; Türkiye’de yerleşik veya Türkiye’de veri işleyen yapılar olarak KVKK kapsamındadır. Bu, misafir verisiyle ilgili tüm teknik süreçlerin (PMS, OTA, call center, web ve CRM) KVKK’ya uygun veri güvenliği tedbirleriyle tasarlanması gerektiği anlamına gelir. Özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda yüksek misafir hacmi, acente ve OTA çeşitliliği bu gerekliliği daha da önemli hâle getirir.",
+        "dgShortAnswer": "Türkiye’deki oteller, misafir verisini işledikleri tüm sistemlerde KVKK’ya uygun teknik tedbirlerle korumak zorundadır; yüksek hacimli resort destinasyonlarda bu gereklilik daha da kritiktir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Türkiye & Resort Bağlamı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile KVKK veri güvenliği danışmanlığı için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile KVKK veri güvenliği danışmanlığı için çalışmak istediğinizde; kullandığınız PMS, OTA, channel manager, çağrı merkezi, web ve CRM sistemlerini, mevcut KVKK doküman ve teknik önlemlerinizi, özellikle risk gördüğünüz alanları (yetkisiz erişim, Excel/WhatsApp kullanımı, eksik loglama, belirsiz saklama vb.) ve denetim veya iç uyum tarafında hedeflerinizi özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle teknik veri akışı analizi, risk haritası ve önerilen iyileştirmeleri içeren bir KVKK & Veri Güvenliği yol haritası ve teklif hazırlanabilir. Hukuki uyum süreci için ise kendi hukuk danışmanınızla birlikte hareket etmeniz gerekir.",
+        "dgShortAnswer": "PMS–OTA–call center–web–CRM yapınızı, mevcut önlemleri ve gördüğünüz riskleri özetleyen bir brief ile teknik analiz ve iyileştirme önerilerini içeren KVKK veri güvenliği danışmanlık teklifi talep edebilirsiniz; hukuki kısım için avukatınızla paralel çalışılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"otel-seo-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/otel/seo-sss#faq",
+  "url": "https://dgtlface.com/tr/otel/seo-sss",
+  "inLanguage": "tr",
+  "name": "Otel SEO SSS",
+  "description": "Otel SEO stratejileri, lokasyon bazlı arama hacimleri, OTA’larla rekabet eden organik görünürlük ve Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyon otelleri için SEO çalışmaları hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Otel Dijital Pazarlama",
+  "dgSectionIndex": 51,
+  "dgParentUrl": "https://dgtlface.com/tr/otel/seo",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Otel SEO SSS",
+  "dgH1": "Otel SEO SSS",
+  "dgTitle": "Otel SEO SSS – Arama Motoru Optimizasyonu ile Direkt Rezervasyon Artırma | DGTLFACE",
+  "dgMetaDescription": "Otel SEO stratejileri, lokasyon bazlı arama hacimleri, OTA’larla rekabet eden organik görünürlük ve Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyon otelleri için SEO çalışmaları hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel web sitesi için teknik SEO, içerik ve lokasyon odaklı anahtar kelime stratejileri; OTA rekabetine rağmen organik görünürlük, Google Travel/Maps entegrasyonu ve direkt rezervasyon artırma; OTA’ların organik alanda otel markasını gölgelemesi, düşük organik trafik ve rezervasyona dönmeyen SEO çalışmaları",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Otel SEO ile ilgili en sık sorulan soruları; otel web sitesi için teknik SEO, destinasyon ve oda tipi odaklı anahtar kelime stratejileri, OTA rekabetine rağmen organik görünürlük, Google Travel/Maps entegrasyonu ve direkt rezervasyon artırma yöntemleri üzerinden açıklar. Amaç, sadece 'otel adı + bölge' ile yetinmeyen, gerçekten talep ve rezervasyon üreten bir organik yapı kurmaktır.",
+  "dgAiAnswerCapsule": "Otel SEO SSS; resort, şehir ve butik otellerin OTA’larla rekabet eden, çok dilli ve lokasyon odaklı SEO stratejisi ile daha fazla direkt rezervasyon ve nitelikli organik trafik elde etmesi için gereken temel prensipleri kısa ve net biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Otel SEO; otel web sitenizin Google’da marka, lokasyon ve deneyim odaklı aramalarda OTA’larla rekabet ederek organik görünürlük ve direkt rezervasyon üretmesini sağlayan arama motoru optimizasyon sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘Otel SEO tam olarak nedir?’, ‘OTA’lar organikte üstte çıkarken otel sitem nasıl öne çıkar?’, ‘Hangi anahtar kelimelere odaklanmalıyım?’, ‘Google Hotel/Travel sonuçlarını nasıl etkilerim?’, ‘SEO çalışması direkt rezervasyonumu gerçekten artırır mı?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Otel SEO SSS; OTA baskısına rağmen otel web sitenizi lokasyon ve deneyim aramalarında öne çıkararak direkt rezervasyon artırmanın temel SEO prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Otel SEO tam olarak nedir?",
+    "OTA’lar organikte üstte çıkarken otel sitem nasıl öne çıkar?",
+    "Hangi anahtar kelimelere odaklanmalıyım (lokasyon, marka, deneyim)?",
+    "Google Hotel/Travel sonuçlarını nasıl etkilerim?",
+    "SEO çalışması direkt rezervasyonumu gerçekten artırır mı?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; OTA’ların organik alanda otel markasını gölgelemesi, marka sorgularında bile OTA sayfalarının üstte çıkması, düşük organik trafik, yanlış anahtar kelime ve sayfa mimarisi nedeniyle rezervasyona dönmeyen SEO çalışmaları ve teknik sorunlar yüzünden Google’ın siteyi verimli tarayamaması gibi sorunlara odaklanır. Otel SEO stratejisi; bu problemleri teknik SEO, içerik ve GEO odaklı anahtar kelime çalışmalarıyla azaltmayı hedefler.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-otel-seo-qset-51",
+  "dgJsonLdQuestionStrategy": "Otel SEO’nun tanımı ve klasik SEO’dan farkı, OTA’larla organik alanda rekabet, hangi anahtar kelime gruplarına (marka, lokasyon, deneyim) odaklanılması gerektiği, Google Hotel/Travel ve Maps sonuçlarının otel SEO stratejisinde nasıl değerlendirileceği ve SEO’nun direkt rezervasyonlara etkisi gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; OTA’ların markayı gölgelemesi, düşük organik trafik ve rezervasyona dönmeyen SEO çalışmaları gibi pain point’lere odaklanan sorular; Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlara uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2800–3200",
+
+  "dgPrimaryCta": {
+    "label": "Otel SEO çalışması için teklif al",
+    "url": "https://dgtlface.com/tr/otel/seo"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Otel SEO çalışması için teklif al)",
+  "dgCtaCrossLinkNote": "Otel dijital pazarlaması için /tr/otel/sosyal-medya, /tr/otel/reklam-yonetimi, /tr/pms-ota/online-satis ve /tr/otel/ota-yonetimi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/otel/sosyal-medya",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/otel/seo",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/otel/seo",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "OTA’ların organik alanda otel markasını gölgelemesi, özellikle destinasyon ve marka sorgularında direct rezervasyon potansiyelini düşürür. Teknik SEO, lokasyon & deneyim odaklı içerik ve Google Hotel/Maps optimizasyonuyla desteklenen bir Otel SEO stratejisi; uzun vadede organik görünürlüğü, direkt rezervasyonları ve OTA bağımlılığına karşı dengeyi iyileştirebilir.",
+  "dgResultTimeframe": "Otel SEO çalışmalarında; teknik ve temel içerik iyileştirmelerinde genellikle 2–3 ay içinde ilk pozitif sinyaller, rekabetli destinasyon sorgularında ise 6–12 ay aralığında daha net organik sıçramalar ve direkt rezervasyon etkisi gözlemlenebilir (domain geçmişi, rekabet ve uygulama kalitesine bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Google arama ve Hotel/Travel algoritmalarında, otel sonuçlarının gösterim biçiminde veya OTA rekabet koşullarında önemli değişiklikler olduğunda; ayrıca otelin hedef pazarları, dil yapısı veya oda/destinasyon stratejisi güncellendiğinde bu SSS, özellikle anahtar kelime, OTA rekabeti ve direct booking/pain point soruları açısından refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 51 – /tr/otel/seo-sss için Otel Dijital Pazarlama – Otel SEO SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Otel SEO tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel SEO; otel web sitenizin Google ve diğer arama motorlarında marka (otel adı), lokasyon (şehir/bölge) ve deneyim odaklı (aile, balayı, spa vb.) aramalarda görünmesini sağlayan arama motoru optimizasyonu sürecidir. Amaç, OTA sonuçlarının altında kaybolmak yerine, misafiri doğrudan kendi sitenize çekerek direkt rezervasyon üretmektir.",
+        "dgShortAnswer": "Otel SEO, otel web sitenizin marka, lokasyon ve deneyim aramalarında görünerek OTA’larla rekabet etmesini ve direkt rezervasyon üretmesini sağlayan SEO sürecidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel SEO nedir, klasik SEO’dan farkı nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Klasik SEO çok çeşitli konu ve anahtar kelimeleri hedefleyebilirken, otel SEO; oda tipi, destinasyon, konsept ve rezervasyon motoru etrafında şekillenen daha niş bir yapıya sahiptir. Burada rakipleriniz sadece diğer oteller değil, aynı zamanda OTA’lar ve metasearch platformlarıdır. KPI’lar da sadece trafik değil, direkt rezervasyon ve teklif talebi odaklıdır.",
+        "dgShortAnswer": "Otel SEO, oda/destinasyon/konsept ve rezervasyon motoru etrafında şekillenen, OTA’larla da rekabet eden daha niş ve rezervasyon odaklı bir SEO türüdür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Klasik vs Otel SEO",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA’lar organikte üstte çıkarken otel sitem nasıl öne çıkar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marka ve destinasyon sorgularında otelinizin resmi sitesi, Google açısından en yetkili kaynak hâline getirilmelidir. Bu; teknik SEO, güçlü marka içerikleri, destinasyon ve oda sayfalarının iyi yapılandırılması, Google Business Profile’ın doğru yönetilmesi ve kaliteli backlink/mention’larla desteklenmesiyle sağlanır. Böylece OTA sayfalarıyla birlikte listelenirken, marka sorgularında kendi sitenizi öne çıkarma şansınız artar.",
+        "dgShortAnswer": "Teknik SEO, marka/destinasyon içerikleri, doğru GBP yönetimi ve kaliteli referanslarla Google’ın gözünde otel sitenizi ‘en yetkili kaynak’ yaparak OTA’larla organikte rekabet edebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / OTA Organik Rekabeti",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hangi anahtar kelimelere odaklanmalıyım (lokasyon, marka, deneyim)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Strateji genelde marka sorgularından başlar; otel adı + destinasyon kombinasyonlarında otel sitenizin güçlü olması gerekir. Ardından lokasyon + otel türü (‘antalya aile oteli’, ‘bodrum adults-only otel’ gibi) ve deneyim odaklı (‘balayı oteli bodrum’, ‘kemer spa oteli’) anahtar kelimeler hedeflenir. Son aşamada destinasyon rehberleri ve blog içerikleriyle daha geniş niyetli aramalar yakalanır.",
+        "dgShortAnswer": "Önce marka sorguları, sonra lokasyon + otel türü, ardından deneyim ve destinasyon rehberi anahtar kelimeleri odak noktası olmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Keyword Stratejisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Resort ve şehir otelleri için SEO stratejisi nasıl kurulur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Resort otellerde SEO stratejisi; sezon, paket ve uzun konaklama odaklıdır (‘early booking belek’, ‘all inclusive kemer resort’ gibi). Şehir otellerinde ise short stay, business ve MICE odaklı sorgular (‘istanbul business hotel’, ‘ankara toplantı oteli’ vb.) öne çıkar. Her iki tipte de oda, destinasyon ve deneyim sayfalarının kullanıcı niyetine göre yapılandırılması kritik önem taşır.",
+        "dgShortAnswer": "Resort’ta sezon/paket/uzun konaklama, şehir otelinde short stay, business ve MICE sorguları önceliklidir; oda ve destinasyon sayfaları bu niyete göre yapılandırılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Resort vs City Strateji",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA’larla organik alanda nasıl rekabet edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel SEO’da OTA’larla rekabet etmek için; önce marka sorgularında otel sitenizin otoritesini artırmalı, ardından lokasyon ve deneyim odaklı sayfalarınızın kalitesini yükseltmelisiniz. Google Business Profile, rich snippet’ler (FAQ, review, schema) ve yüksek kaliteli fotoğraf/içerik ile SERP’te daha zengin ve güven veren bir görünüm oluşturabilirsiniz. Amaç, kullanıcı OTA’yı görse bile, otelin kendi sitesini tıklamak için güçlü bir sebep yaratmaktır.",
+        "dgShortAnswer": "Marka, lokasyon ve deneyim sorgularında teknik + içerik + GBP + rich snippet kombinasyonuyla otel sitenizi daha otoriter ve çekici hâle getirerek OTA’larla rekabet edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / OTA Rekabeti",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Oda ve destinasyon sayfaları SEO için nasıl hazırlanmalı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Her önemli oda tipi için ayrı, benzersiz ve detaylı oda sayfaları; her destinasyon için de misafire gerçekten bilgi veren rehber sayfalar hazırlanmalıdır. Oda sayfalarında oda adı, özellikler, fotoğraf/galeri, SSS ve uygun CTA’lar; destinasyon sayfalarında ise bölgenin öne çıkan yönleri, ulaşım, aktiviteler ve konum avantajlarınız yer almalıdır. Her iki sayfa türü de hedef anahtar kelimelere göre optimize edilmelidir.",
+        "dgShortAnswer": "Oda sayfaları oda odaklı, destinasyon sayfaları bölge odaklı detaylı içerik + SSS + CTA ile zenginleştirilmeli ve ilgili anahtar kelimelere göre optimize edilmelidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Oda & Destinasyon Sayfaları",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA’ların organik alanda otel markamı gölgelemesi hangi sorunlara yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA’lar marka ve destinasyon sorgularında otel sitenizden önce çıkıyorsa; misafir çoğu zaman OTA üzerinden rezervasyon yapar ve siz direct rezervasyon fırsatını kaybedersiniz. Ayrıca kullanıcı, markanın resmi sitesini değil OTA sayfasını ana referans noktası olarak görmeye başlar. Bu da uzun vadede direct kanalınızın zayıflamasına ve komisyon yükünüzün artmasına neden olur.",
+        "dgShortAnswer": "Marka sorgularında OTA’lar öndeyse, direct rezervasyon fırsatı OTA’ya kayar; uzun vadede direct kanal zayıflar ve komisyon yükü artar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Markanın Gölgelemesi",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Google Hotel/Travel sonuçlarını Otel SEO stratejimde nasıl değerlendirmeliyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Hotel/Travel sonuçları, misafirin oteli aradığında gördüğü en kritik alanlardan biridir. Burada görünürlüğünüz; Google Business Profile’ın doğruluğu, fiyat akışlarınız, yorum sayısı ve puanınız, fotoğraflarınız ve otel bilgisiyle ilişkilidir. Otel SEO stratejisinde, web sitenizle birlikte GBP ve Google Hotel/Travel varlığınızı da sürekli güncel tutmanız, direct rezervasyon potansiyelini güçlendirir.",
+        "dgShortAnswer": "SEO, GBP ve Google Hotel/Travel varlığınızla birlikte ele alınmalı; doğru fiyat akışı, yorum, görsel ve profil bilgisi direct rezervasyon potansiyelini artırır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Google Hotel & Travel",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel SEO çalışması direkt rezervasyonumu gerçekten artırır mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru kurgulanmış bir Otel SEO çalışması; marka, lokasyon ve deneyim sorgularında otel sitenizin görünürlüğünü artırarak misafirin OTA yerine doğrudan web siteniz veya call center’ınız üzerinden rezervasyon yapmasını kolaylaştırır. SEO’nun, rezervasyon motoru ve çağrı merkezi script’leriyle birlikte kurgulanması, sadece trafik değil, doğrudan rezervasyon ve teklif sayılarında da artış getirebilir.",
+        "dgShortAnswer": "Evet; Otel SEO, rezervasyon motoru ve call center ile birlikte kurgulandığında yalnızca trafik değil, direkt rezervasyon ve teklif sayısını da artırabilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Direkt Rezervasyon Etkisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile Otel SEO çalışması için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile Otel SEO çalışması için; otelinizin türünü (resort, şehir, butik, zincir), hedef pazarlarınızı ve dillerinizi (TR–EN–DE–RU vb.), mevcut web sitenizi ve booking engine yapınızı, OTA ve direct kanal karmasını, şu anda yaşadığınız temel problemleri (OTA baskısı, düşük organik trafik, sonuç vermeyen SEO çalışmaları vb.) ve direkt rezervasyon hedeflerinizi özetleyen kısa bir brief paylaşırsanız; teknik SEO, içerik ve lokasyon odaklı anahtar kelime stratejisini içeren bir Otel SEO yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, hedef pazar/diller, mevcut site/booking engine, OTA–direct karması, yaşanan sorunlar ve direct hedeflerinizi özetleyen bir brief ile kapsamlı Otel SEO yol haritası ve teklif talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"otel-sosyalmedya-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/otel/sosyal-medya-sss#faq",
+  "url": "https://dgtlface.com/tr/otel/sosyal-medya-sss",
+  "inLanguage": "tr",
+  "name": "Otel Sosyal Medya SSS",
+  "description": "Otel sosyal medya stratejisi, Instagram ve TikTok içerikleri, Meta reklamları ve Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarında marka bilinirliği ile rezervasyon talebi oluşturma hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Otel Dijital Pazarlama",
+  "dgSectionIndex": 52,
+  "dgParentUrl": "https://dgtlface.com/tr/otel/sosyal-medya",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Otel Sosyal Medya SSS",
+  "dgH1": "Otel Sosyal Medya SSS",
+  "dgTitle": "Otel Sosyal Medya SSS – Instagram, TikTok ve Meta Kampanyaları ile Rezervasyon Destek | DGTLFACE",
+  "dgMetaDescription": "Otel sosyal medya stratejisi, Instagram ve TikTok içerikleri, Meta reklamları ve Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi turizm lokasyonlarında marka bilinirliği ile rezervasyon talebi oluşturma hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel markaları için sosyal medya içerik stratejisi, Instagram ve TikTok içerikleri, Reels/kısa video kullanımı, community yönetimi, Meta ve TikTok reklamları, influencer & UGC, rezervasyon destekli kampanya kurguları, sadece beğeni odaklı ama satışa katkı vermeyen sosyal medya, düzensiz içerik, kriz anında yanlış iletişim ve ölçülemeyen performans problemleri",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Otel Sosyal Medya ile ilgili en sık sorulan soruları; Instagram, TikTok ve Meta kampanyaları ile marka bilinirliği, talep oluşturma ve rezervasyon destek süreçleri üzerinden açıklar. Amaç, sadece beğeni toplayan ama satışa katkı vermeyen içeriklerden çıkıp; destinasyon, konsept ve kampanya odaklı, ölçülebilir bir otel sosyal medya stratejisi kurmaktır.",
+  "dgAiAnswerCapsule": "Otel Sosyal Medya SSS; resort ve şehir otellerinin sosyal medyada doğru içerik karışımı, video/Reels kullanımı, topluluk yönetimi ve reklam entegrasyonu ile rezervasyon talebini artırmasını sağlayan temel prensipleri kısa ve uygulanabilir şekilde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Otel sosyal medya yönetimi; Instagram, TikTok ve Meta üzerinde doğru içerik ve kampanya karışımıyla hem marka bilinirliği hem de rezervasyon talebi üreten planlı bir iletişim sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘Otel sosyal medya yönetimi tam olarak nedir?’, ‘Otelim için Instagram ve TikTok’ta nereden başlamalıyım?’, ‘Sosyal medyada sadece beğeni değil rezervasyon isteği de almak mümkün mü?’, ‘Hangi içerik türleri daha iyi çalışır?’, ‘Influencer ve UGC kullanımı güvenli mi?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Otel Sosyal Medya SSS; Instagram, TikTok ve Meta kampanyalarını sadece beğeni değil, ölçülebilir rezervasyon talebi üreten bir otel sosyal medya stratejisine dönüştürmenin temel yol haritasını özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Otel sosyal medya yönetimi tam olarak nedir?",
+    "Otelim için Instagram ve TikTok’ta nereden başlamalıyım?",
+    "Sosyal medyada sadece beğeni değil, rezervasyon isteği de almak mümkün mü?",
+    "Hangi içerik türleri (oda, havuz, yemek, etkinlik) daha iyi çalışır?",
+    "Influencer ve UGC kullanımı güvenli mi?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; sadece beğeni odaklı ama satışa katkı vermeyen sosyal medya kullanımı, düzensiz ve plansız içerik, kriz anında yanlış iletişim, yanlış influencer seçimi ve ölçülemeyen performans gibi sorunlara odaklanır. Otel sosyal medya stratejisi; içerik takvimi, community yönetimi, reklam ve raporlama yapısı ile bu riskleri azaltmayı hedefler.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-otel-sosyal-qset-52",
+  "dgJsonLdQuestionStrategy": "Otel sosyal medya yönetiminin tanımı, hangi kanalları kapsadığı, Instagram ve TikTok’ta nereden başlanacağı, sosyal medyanın rezervasyon desteğine nasıl bağlanacağı, hangi içerik türlerinin daha verimli olduğu ve influencer/UGC kullanımının nasıl yönetileceği gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; sadece beğeni odaklı sosyal medya, düzensiz içerik, kriz anında yanlış iletişim ve ölçülemeyen performans gibi pain point’lere odaklanan sorular; Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlara uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2800–3200",
+
+  "dgPrimaryCta": {
+    "label": "Otel sosyal medya yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Otel sosyal medya yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "Otel dijital pazarlama stratejiniz için /tr/otel/seo, /tr/otel/reklam-yonetimi, /tr/otel/ota-yonetimi ve /tr/pms-ota/online-satis sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/otel/seo",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/sosyal-medya",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/otel/sosyal-medya",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Sadece beğeni odaklı ama satışa katkı vermeyen sosyal medya kullanımı, düzensiz içerik ve ölçülemeyen performans; otel markasının sosyal kanallarda görünürlüğünü artırsa bile rezervasyon ve gelir tarafında beklenen katkıyı veremez. Stratejik içerik, community yönetimi ve reklam entegrasyonu ile kurgulanan bir otel sosyal medya yapısı, hem marka bilinirliğini hem rezervasyon talebini artırabilir.",
+  "dgResultTimeframe": "Otel sosyal medya stratejisi doğru uygulandığında; 1–3 ay içinde erişim, etkileşim ve DM/lead sayılarında; 3–6 ay içinde ise sosyal medya kaynaklı rezervasyon taleplerinde ve kampanya performansında gözle görülür bir iyileşme beklenebilir (içerik kalitesi, bütçe ve rekabete bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Sosyal platform algoritmaları, format öncelikleri (Reels/TikTok), reklam politikaları veya DGTLFACE’in otel SMM hizmet kapsamı (kanal seçimi, içerik paketi, hedef pazarlar) değiştiğinde; ayrıca otelin marka konumlandırması veya hedef ülke pazarı revize edildiğinde bu SSS, özellikle içerik örnekleri, GEO ve pain point soruları düzeyinde güncellenmelidir.",
+  "dgNotes": "BÖLÜM 52 – /tr/otel/sosyal-medya-sss için Otel Dijital Pazarlama – Otel Sosyal Medya SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Otel sosyal medya yönetimi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel sosyal medya yönetimi; Instagram, TikTok, Facebook (Meta) ve benzeri kanallarda otelin marka kimliğini tutarlı bir şekilde yansıtan, doğru hedef kitleye düzenli içerik üreten, DM ve yorumlar üzerinden topluluk yönetimi yapan ve gerektiğinde Meta/TikTok reklamlarıyla rezervasyon talebini destekleyen planlı bir içerik ve kampanya yönetimi sürecidir.",
+        "dgShortAnswer": "Otel sosyal medya yönetimi; Instagram, TikTok ve Meta’da marka kimliğini, içerikleri, topluluk iletişimini ve reklamları planlı şekilde yürüten süreçtir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel sosyal medya yönetimi nedir, hangi kanalları kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel sosyal medya yönetimi; başta Instagram ve TikTok olmak üzere, Facebook (Meta), YouTube ve gerektiğinde LinkedIn gibi kanallarda otelin hedef pazarına uygun içerik ve kampanya üretimini kapsar. Otel türü ve pazara göre bu kanallar değişebilir; ancak çoğu resort ve şehir oteli için Instagram, TikTok, Meta ve WhatsApp Business temel seti oluşturur.",
+        "dgShortAnswer": "Otel sosyal medya yönetimi; otelin hedef pazarına göre Instagram, TikTok, Meta, WhatsApp ve gerekirse YouTube/LinkedIn gibi kanalları kapsayan içerik ve kampanya yönetimidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Kanal Seti",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otelim için Instagram ve TikTok’ta nereden başlamalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Öncelikle hedef pazar ve marka kimliğinizi netleştirip, bu kimliğe uygun bir görsel ve içerik dili belirlemelisiniz. Ardından 1–2 aylık basit bir içerik takvimiyle; odalar, havuz/plaj, F&B, aktiviteler, ekip ve misafir deneyimlerini kısa video (Reels/TikTok) ve fotoğraf formatında üretmeye başlayabilirsiniz. Başlangıçta mükemmel olmaya değil, düzenli ve tutarlı olmaya odaklanmak gerekir.",
+        "dgShortAnswer": "Hedef pazar ve marka kimliğini netleştirip oda, havuz, F&B ve deneyim odaklı kısa video + fotoğraf içeren basit ama düzenli bir içerik takvimiyle başlamalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Başlangıç Adımları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Sosyal medyada sadece beğeni değil, rezervasyon isteği de almak mümkün mü?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet. İçerik ve kampanyalarınızı beğeni ve takipçi dışında, DM, WhatsApp, web rezervasyon sayfası ve çağrı merkezi gibi aksiyon noktalarına yönlendirecek şekilde kurguladığınızda; sosyal medyadan gerçek rezervasyon talebi alabilirsiniz. Bunun için içerikte net CTA kullanmak, profil linklerini doğru yerleştirmek ve Meta/TikTok Ads tarafında ‘teklif al’ ve ‘rezervasyon’ odaklı kampanya türlerinden yararlanmak gerekir.",
+        "dgShortAnswer": "Net CTA’lar, doğru link yerleşimi ve ‘teklif al/rezervasyon’ odaklı reklam kampanyalarıyla sosyal medyadan gerçek rezervasyon isteği almak mümkündür.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Rezervasyon Desteği",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hangi içerik türleri (oda, havuz, yemek, etkinlik) oteller için daha iyi çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genellikle kısa videolarda oda + manzara + havuz + yemek kombinasyonları, story’lerde günlük hayat ve etkinlikler, feed’de ise konsept ve deneyim anlatan kareler daha iyi performans gösterir. Ancak her otel ve pazar için bu farklılık gösterebilir; bu nedenle içerik türlerini test ederek hangi formatın daha çok etkileşim ve rezervasyon talebi ürettiğini düzenli raporlarla takip etmek gerekir.",
+        "dgShortAnswer": "Çoğu otelde oda + manzara + havuz + yemek kombinasyonlu kısa videolar ve deneyim odaklı kareler iyi çalışır; en doğru karışımı test ve raporlamayla bulmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / İçerik Türleri",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Neden sadece beğeni alan ama satışa katkısı olmayan sosyal medya stratejisi sorun yaratır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sadece beğeni ve takipçi artışına odaklanan sosyal medya stratejileri, kısa vadede görünürlük sağlasa da, rezervasyon ve gelir tarafında ölçülebilir katkı üretmeyebilir. Bu durum; bütçenin yanlış içerik ve kampanyalara harcanmasına, yönetim nezdinde sosyal medyanın ‘sadece maliyet kalemi’ olarak algılanmasına ve uzun vadede kanalın gerçek potansiyelinin kullanılmamasına yol açar.",
+        "dgShortAnswer": "Sadece beğeni odaklı sosyal medya, bütçenin yanlış kullanılmasına ve sosyal medyanın gelir üretmeyen ‘maliyet kalemi’ olarak algılanmasına neden olur.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Beğeni Var Satış Yok",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Influencer ve UGC kullanımı otel markaları için güvenli mi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doğru seçildiğinde ve çerçevesi net çizildiğinde evet. Influencer iş birliklerinde; hedef kitle uyumu, içerik kalitesi ve geçmiş markalı içerik performansı incelenmeli, beklenti ve teslimatlar yazılı bir brief ve anlaşma ile netleştirilmelidir. UGC tarafında ise misafir içeriklerinin izni alınarak, marka kimliğiyle uyumlu olanların yeniden paylaşılması ve olası KVKK/gizlilik risklerine dikkat edilmesi gerekir.",
+        "dgShortAnswer": "Doğru influencer seçimi ve net brief/anlaşma ile, izinli ve marka uyumlu UGC kullanımı otel için güvenli ve etkili bir sosyal kanıt aracıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Influencer & UGC",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Düzensiz içerik paylaşımı ve kriz anında yanlış sosyal medya iletişimi ne gibi riskler taşır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Düzensiz içerik, hem algoritma hem kullanıcı gözünde hesabın zayıf görünmesine neden olur; marka algısı ve gönderilen mesajlar tutarsızlaşır. Kriz anında yanlış ton, savunmacı ya da agresif mesajlar, hatalı veya eksik bilgi paylaşımı ise sosyal medyada hızla büyüyerek OTA ve yorum platformlarına da sıçrayabilir. Bu durum, rezervasyon talebi, itibar ve hatta employer brand üzerinde uzun vadeli zarar yaratabilir.",
+        "dgShortAnswer": "Plansız içerik marka tutarlılığını, kriz anında yanlış iletişim ise sosyal medyada büyüyen itibar sorunlarını ve rezervasyon kaybını tetikler.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Düzensiz İçerik & Kriz",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi turizm lokasyonlarında otel sosyal medyası neden kritiktir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bu destinasyonlarda; yoğun rekabet, kısa ama yoğun sezonlar, çok sayıda OTA ve acente, farklı ülke pazarları ve yüksek sosyal medya kullanım oranı söz konusudur. Misafirlerin önemli bir kısmı tatil kararını Instagram, TikTok ve OTA görselleri üzerinden şekillendirir. Bu nedenle sosyal medyada güçlü, tutarlı ve rezervasyon destekli bir varlık, bu bölgelerde doluluk ve gelir için ciddi rekabet avantajı sağlar.",
+        "dgShortAnswer": "Yüksek rekabet ve sosyal medya kullanımının olduğu Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda güçlü bir sosyal medya varlığı doluluk ve gelir için önemli bir rekabet avantajıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Destinasyon Bazlı Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Reels ve kısa videolar otel rezervasyonlarına nasıl katkı sağlar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reels ve kısa videolar; otelin konseptini, odalarını, havuz ve plajını, yemek ve eğlence alanlarını, misafir deneyimlerini birkaç saniye içinde göstermenizi sağlar. Doğru hedef kitleye ulaşıp, içerikte ve açıklamada net call-to-action kullandığınızda kullanıcılar DM, WhatsApp veya web linkleri üzerinden doğrudan rezervasyon veya teklif talebinde bulunabilir. Kısa videolar, özellikle kararsız kullanıcıların “son itki”sini sağlayan güçlü bir araçtır.",
+        "dgShortAnswer": "Reels ve kısa videolar, otel deneyimini hızlıca gösterip doğru CTA’larla kullanıcının DM/WhatsApp/web üzerinden rezervasyon talebine geçmesini kolaylaştırır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Reels & Dönüşüm",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile otel sosyal medya yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile otel sosyal medya yönetimi için çalışmak istediğinizde; otelinizin türünü (resort, şehir, butik, zincir), hedef pazar ve dillerinizi, şu an aktif olduğunuz sosyal medya kanallarını, içerik üretim durumunuzu (çekim sıklığı, ekip vb.), reklam bütçenizi ve yaşadığınız başlıca sorunları (sadece beğeni odaklı kullanım, düzensiz içerik, kriz iletişimi, ölçülemeyen performans vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle içerik stratejisi, community yönetimi, reklam kurguları ve raporlama yapısını içeren bir otel sosyal medya yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, hedef pazar/diller, mevcut kanallar, içerik ve reklam durumu ile sorunlarınızı özetleyen bir brief ile kapsamlı otel sosyal medya stratejisi ve teklif talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"otel-reklam-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi-sss#faq",
+  "url": "https://dgtlface.com/tr/otel/reklam-yonetimi-sss",
+  "inLanguage": "tr",
+  "name": "Otel Reklam Yönetimi SSS",
+  "description": "Otel reklam yönetimi, Google Ads arama ve görüntülü reklamlar, Meta ve programatik kampanyalar ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonlarında rezervasyon odaklı dijital medya kullanımı hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Otel Dijital Pazarlama",
+  "dgSectionIndex": 53,
+  "dgParentUrl": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Otel Reklam Yönetimi SSS",
+  "dgH1": "Otel Reklam Yönetimi SSS",
+  "dgTitle": "Otel Reklam Yönetimi SSS – Google Ads, Meta ve Programatik Kampanyalar | DGTLFACE",
+  "dgMetaDescription": "Otel reklam yönetimi, Google Ads arama ve görüntülü reklamlar, Meta ve programatik kampanyalar ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyonlarında rezervasyon odaklı dijital medya kullanımı hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "Google Ads, Meta ve diğer medya kanallarında otel için performans odaklı kampanya kurulumu, optimizasyonu ve raporlanması; hedef ülke ve pazar seçimi, remarketing ve gelir/ROAS optimizasyonu; yüksek reklam maliyeti, düşük dönüşüm, yanlış hedefleme, sezon dışı harcama ve ölçülemeyen ROAS problemlerini çözmeye yönelik yaklaşım",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Otel Reklam Yönetimi ile ilgili en sık sorulan soruları; Google Ads, Meta Ads, YouTube ve gerekli durumlarda programatik kanallarda otel için performans odaklı kampanya kurulumu, hedef ülke seçimi, bütçe planlaması, remarketing ve gelir/ROAS optimizasyonu üzerinden açıklar. Amaç, yüksek maliyet–düşük dönüşüm döngüsünü kırmaktır.",
+  "dgAiAnswerCapsule": "Otel Reklam Yönetimi SSS; Google/Meta/YouTube kampanyalarından gerçekten rezervasyon ve gelir üretmek isteyen oteller için, hedef pazar, kanal karması, teklif stratejisi ve remarketing akışlarını kısa ve net biçimde özetleyen performans odaklı bir rehberdir.",
+  "dgVoiceSearchSummary": "Otel reklam yönetimi; Google Ads, Meta, YouTube ve benzeri kanallarda oteliniz için rezervasyon odaklı kampanyaları planlayıp yöneterek doluluk ve geliri artırmayı hedefleyen dijital medya sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘Otel reklam yönetimi tam olarak nedir?’, ‘Google Ads, Meta ve YouTube’u birlikte nasıl kullanmalıyım?’, ‘Hangi ülkelere reklam vermeliyim?’, ‘Reklam veriyorum ama rezervasyon gelmiyorsa nerede hata vardır?’, ‘Reklam bütçemi nasıl doğru planlarım?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Otel Reklam Yönetimi SSS; Google Ads, Meta ve YouTube kampanyalarını doğru kanal, hedefleme ve teklif stratejisiyle gerçek rezervasyon ve gelir üreten performans yapısına dönüştürmenin temel çerçevesini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Otel reklam yönetimi tam olarak nedir?",
+    "Google Ads, Meta ve YouTube’u birlikte nasıl kullanmalıyım?",
+    "Hangi ülkelere reklam vermeliyim?",
+    "Reklam veriyorum ama rezervasyon gelmiyorsa nerede hata vardır?",
+    "Reklam bütçemi nasıl doğru planlarım?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yüksek reklam maliyeti, düşük rezervasyon ve dönüşüm oranları, yanlış veya çok geniş hedefleme, sezon dışı gereksiz harcamalar ve ROAS’ın ölçülemediği veya yanlış yorumlandığı kampanya yapıları gibi problemlere odaklanır. Otel reklam yönetimi; doğru kanal karması, hedef pazar seçimi, remarketing akışları ve raporlama çerçevesiyle bu riskleri azaltmayı hedefler.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-otel-reklam-qset-53",
+  "dgJsonLdQuestionStrategy": "Otel reklam yönetiminin tanımı ve kapsamı, Google Ads/Meta/YouTube’un birlikte nasıl kullanılacağı, hedef ülke ve pazarlara göre kampanya planlaması, reklam verirken rezervasyon gelmemesinin tipik nedenleri, bütçe planlama ve ROAS/performans raporlaması gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yüksek reklam maliyeti, düşük dönüşüm, yanlış hedefleme, sezon dışı harcama ve ölçülemeyen ROAS gibi pain point’lere odaklanan sorular; Türkiye geneli ve resort destinasyonlara uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2800–3200",
+
+  "dgPrimaryCta": {
+    "label": "Otel reklam yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/otel/reklam-yonetimi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (Otel reklam yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "Otel dijital pazarlaması için /tr/otel/seo, /tr/otel/sosyal-medya, /tr/pms-ota/online-satis ve /tr/raporlama/satis-donusum sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/otel/seo",
+    "https://dgtlface.com/tr/otel/sosyal-medya",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/raporlama/satis-donusum",
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/otel/reklam-yonetimi",
+    "https://dgtlface.com/tr/otel-dijital-pazarlama",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Google/Meta/YouTube kampanyalarında yüksek maliyet–düşük dönüşüm döngüsü; yanlış hedefleme, eksik dönüşüm takibi ve optimize edilmemiş kampanya kurgularından kaynaklanır. Doğru kanal karması, hedef pazar seçimi, remarketing akışları ve ROAS odaklı raporlama ile otel reklam yönetimi, hem doluluk hem gelir tarafında anlamlı iyileşmeler sağlayabilir.",
+  "dgResultTimeframe": "Doğru kurgulanmış otel reklam yönetimiyle; 1–3 ay içinde kampanya bazlı ROAS ve rezervasyon sayılarında iyileşme, 3–6 ay içinde ise kanal bazlı gelir dağılımı, direct pay ve toplam reklam verimliliğinde daha net bir artış beklenebilir (bütçe, rekabet ve sezon dinamiklerine bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Google/Meta/YouTube reklam ürünlerinde, hedefleme veya kampanya türlerinde önemli değişiklikler olduğunda; Google Hotel Ads/metasearch dinamiklerinde veya DGTLFACE’in otel reklam hizmet kapsamı (hedef pazarlar, kanal stratejisi) güncellendiğinde; ayrıca otelin bütçe ve sezon stratejisi revize edildiğinde bu SSS, özellikle hedef pazar, ROAS ve pain point soruları açısından refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 53 – /tr/otel/reklam-yonetimi-sss için Otel Dijital Pazarlama – Otel Reklam Yönetimi SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Otel reklam yönetimi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel reklam yönetimi; Google Ads, Meta (Facebook/Instagram), YouTube, Google Hotel Ads ve gerektiğinde programatik gibi dijital kanallarda, oteliniz için rezervasyon ve gelir odaklı reklam kampanyalarını planlama, kurma, optimize etme ve raporlama sürecidir. Amaç, sadece tıklama ve gösterim üretmek değil, reklam harcamasının otelin doluluk ve gelirine doğrudan katkı sağlamasını sağlamaktır.",
+        "dgShortAnswer": "Otel reklam yönetimi, Google/Meta/YouTube gibi kanallarda oteliniz için rezervasyon ve gelir odaklı kampanyaları kurup optimize ettiğiniz dijital medya sürecidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel reklam yönetimi nedir, hangi kanalları kapsar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel reklam yönetimi; başta Google Ads (arama, Performance Max, görüntülü ağ, YouTube, Google Hotel Ads) ve Meta Ads (Facebook/Instagram) olmak üzere, hedef pazara göre TikTok Ads ve programatik display/video gibi kanallarda otelinizin tanıtım ve satış kampanyalarının yönetimini kapsar. Hangi kanalın ne kadar kullanılacağı, otelin bütçe, pazar ve hedeflerine göre belirlenir.",
+        "dgShortAnswer": "Google Ads, Meta, YouTube, Google Hotel Ads ve gerekli durumlarda TikTok/programatik kanallar, otel reklam yönetiminin temel kanal setini oluşturur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Kanal Seti",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Google Ads, Meta ve YouTube’u otelim için birlikte nasıl kullanmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genel çerçevede; Google Ads arama ve Google Hotel Ads, niyeti yüksek kullanıcıları (otel ve destinasyon arayanları) yakalamak için kullanılır. Meta Ads; hem yeni kitlelere ulaşmak hem de web ve OTA davranışına göre remarketing yapmak için güçlüdür. YouTube ise destinasyon ve konsept bilinirliği ile üst seviye funnel’ı besler. En sağlıklı model, bu üç kanalı ‘bilinirlik → ilgi → rezervasyon’ hunisi içinde birlikte planlamaktır.",
+        "dgShortAnswer": "Google arama/Hotel Ads niyetli aramayı, Meta yeni kitle ve remarketing’i, YouTube ise bilinirlik ve üst funnel’ı beslemek için birlikte kurgulanmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Kanal Karması",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Hangi ülkelere ve pazarlara reklam vermeliyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bunun tek bir formülü yok; ancak PMS ve OTA verilerinizi inceleyerek en çok gelir elde ettiğiniz ülkeleri ve büyüme hedeflediğiniz pazarları belirlemek doğru başlangıç noktasıdır. Önce 1–3 ana pazarda (örneğin DE, RU, TR) derin ve optimize çalışmak, bütçeyi çok sayıda ülkeye ince ince dağıtmaktan daha verimlidir. Pazar bazlı kampanya yapısı, dil ve kreatif setini de lokal pazar beklentilerine göre uyarlamayı gerektirir.",
+        "dgShortAnswer": "Öncelikle PMS/OTA verilerinizde en çok gelir getiren ve büyümek istediğiniz 1–3 ülke/pazar seçilmeli; bunlar için ayrı kampanya/dil/kreatif setleriyle derin çalışılmalıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Pazar Seçimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Reklam veriyorum ama rezervasyon gelmiyorsa nerede hata vardır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En sık görülen sorunlar; yanlış veya çok geniş hedefleme, dönüşüm takibinin hiç kurulmaması ya da hatalı kurulması, yanlış kampanya türü/teklif stratejisi kullanımı ve zayıf landing page veya rezervasyon motoru deneyimidir. İlk adımda kampanyalarınızın gerçekten dönüşüm verisi alıp almadığını, hedeflediğiniz kitle ile otelinizin fiyat/konsept uyumlu olup olmadığını ve tıklama sonrası kullanıcı deneyimini kontrol etmeniz gerekir.",
+        "dgShortAnswer": "Tipik nedenler; yanlış hedefleme, eksik/hatalı conversion tracking, yanlış kampanya/bidding seçimi ve zayıf landing/booking deneyimidir; önce bu dört alan kontrol edilmelidir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Reklam Var Rezervasyon Yok",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel reklamlarında ROAS nasıl hesaplanır ve nasıl yorumlanır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ROAS (Return On Ad Spend), reklam kaynaklı gelirinizin reklam harcamasına bölünmesiyle hesaplanır. Örneğin Google Ads’den gelen rezervasyon geliriniz 100.000 TL ve reklam harcamanız 20.000 TL ise ROAS = 5 (veya %500) olur. ROAS’ı yorumlarken; komisyon, operasyon ve kâr marjınızı da dikkate almalı, her kampanya ve pazar için minimum kabul edilebilir ROAS hedefleri belirlemelisiniz.",
+        "dgShortAnswer": "ROAS = reklam kaynaklı gelir / reklam harcaması; her kanal ve kampanya için kâr marjınızı da düşünerek minimum kabul edilebilir ROAS hedefi belirlemelisiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / ROAS Hesabı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Neden remarketing otel rezervasyonlarında bu kadar kritik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel, karar süresi genellikle uzun olan bir üründür; misafir birkaç gün veya hafta boyunca farklı otelleri ve fiyatları araştırır. Sitenizi ziyaret etmiş, oda bakmış, ama rezervasyon yapmamış kullanıcıları Google ve Meta üzerinden yeniden hedeflemek (remarketing), bu kararsız kullanıcıların OTA yerine doğrudan otelinizde rezervasyon yapma olasılığını artırır. Remarketing olmadan, reklamlarınız çoğu zaman sadece ilk temas olarak kalır.",
+        "dgShortAnswer": "Otel kararı çoğunlukla tek seferde verilmez; remarketing, sitenizi ziyaret eden ama almayan kararsız kullanıcıyı tekrar yakalamanızı ve direkt rezervasyona çekmenizi sağlar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Remarketing Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yüksek reklam maliyeti ve düşük dönüşüm gördüğümde neye bakmalıyım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Öncelikle kampanyaların doğru kitleyi hedefleyip hedeflemediğine, hangi arama sorgularında ve hangi kreatiflerle gösterildiğine bakmanız gerekir. Ardından dönüşüm takibinin sağlıklı çalıştığından emin olmalı, tıklama sonrası sayfa deneyimini (site hızı, mobil kullanılabilirlik, booking engine adımları) kontrol etmelisiniz. Bu analizle hedeflemeyi daraltmak, kreatifleri yenilemek veya landing page’i iyileştirmek gibi aksiyonlar planlanabilir.",
+        "dgShortAnswer": "Önce hedefleme ve sorguları, sonra conversion tracking ve landing/booking deneyimini kontrol edin; sorun genellikle bu üç alandan birinde veya birkaçında yatar.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Yüksek Maliyet Düşük Dönüşüm",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda otel reklam yönetimi neden daha hassas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bu destinasyonlarda rekabet çok yüksek, sezonlar kısa ama yoğun, hedef pazarlar farklı beklentilere sahip ve OTA baskısı fazladır. Yanlış hedefleme veya zayıf kampanya kurguları, bütçenin çok kısa sürede boşa gitmesine neden olabilir. Dolayısıyla Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi bölgelerde; ülke bazlı kampanya yapısı, Google Hotel Ads/metasearch stratejisi, remarketing ve ROAS takibi çok daha dikkatli kurgulanmalıdır.",
+        "dgShortAnswer": "Yüksek rekabet ve kısa yoğun sezon nedeniyle Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi bölgelerde yanlış reklam kurgusu bütçeyi hızla boşa harcatır; bu yüzden pazar, kanal ve ROAS takibi ekstra hassasiyet ister.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Destinasyon Bazlı Strateji",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Otel reklam bütçemi nasıl doğru planlarım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reklam bütçesini planlarken; sezon hedeflerinizi (doluluk, ADR, gelir), pazar önceliklerinizi, kanal karmasını ve geçmiş kampanya performansını dikkate almanız gerekir. En azından marka ve remarketing için sürekli açık küçük bir minimum bütçe, sezon ve kampanya dönemleri için artan bir performans bütçesi, yeni pazar ve format testleri için de esnek bir test bütçesi ayırmak iyi bir başlangıçtır. Tüm bunlar ROAS ve doluluk verilerine göre periyodik olarak revize edilmelidir.",
+        "dgShortAnswer": "Marka + remarketing için sürekli bir minimum bütçe, sezon/kampanyalar için artan performans bütçesi ve yeni pazar/formatlar için test bütçesi tanımlayıp; bunları ROAS ve doluluk verilerine göre düzenli revize etmelisiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Bütçe Planlama",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile otel reklam yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile otel reklam yönetimi için çalışmak istediğinizde; otelinizin türünü (resort, şehir, butik, zincir), hedef pazar ve ülkelerinizi, şu an aktif olduğunuz reklam kanallarını (Google Ads, Meta, YouTube, Google Hotel Ads vb.), mevcut bütçe aralığınızı, sezon stratejinizi ve yaşadığınız başlıca sorunları (yüksek maliyet, düşük dönüşüm, yanlış hedefleme, ölçülemeyen ROAS vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle kanal karması, teklif stratejileri, remarketing akışları ve raporlama yapısını içeren performans odaklı bir otel reklam yönetimi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, hedef pazarlar, mevcut reklam kanalları, bütçe, sezon stratejisi ve yaşadığınız performans sorunlarını özetleyen bir brief ile kanal karması ve ROAS odaklı otel reklam yönetimi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"otel-ota-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/otel/ota-yonetimi-sss#faq",
+  "url": "https://dgtlface.com/tr/otel/ota-yonetimi-sss",
+  "inLanguage": "tr",
+  "name": "Otel OTA Yönetimi SSS",
+  "description": "Otel OTA yönetimi, Booking.com–Expedia–Hotelbeds gibi kanalların stratejik kullanımı, kampanya ve görünürlük optimizasyonu ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyon otelleri için OTA gelir yönetimi hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Otel Dijital Pazarlama",
+  "dgSectionIndex": 54,
+  "dgParentUrl": "https://dgtlface.com/tr/otel/ota-yonetimi",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Otel OTA Yönetimi SSS",
+  "dgH1": "Otel OTA Yönetimi SSS",
+  "dgTitle": "Otel OTA Yönetimi SSS – Booking, Expedia ve Diğer Kanallarda Verimli Satış | DGTLFACE",
+  "dgMetaDescription": "Otel OTA yönetimi, Booking.com–Expedia–Hotelbeds gibi kanalların stratejik kullanımı, kampanya ve görünürlük optimizasyonu ile Antalya–Belek–Kemer–Side–Bodrum–Alanya destinasyon otelleri için OTA gelir yönetimi hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Fiyatlandırma & sözleşme | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "OTA kanallarında fiyatlandırma, kampanya, görünürlük ve kârlılık odaklı otel satış stratejileri; Booking, Expedia, Hotelbeds vb. kanallarda fiyat, stok ve kampanya yönetimi; rate parity, komisyon ve marka imajı dengesini koruyarak OTA gelirini artırma; yanlış OTA kampanyaları, gereksiz komisyon artışı, fiyat paritesi problemleri ve stok yönetimi kaynaklı marka risklerini azaltma",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Otel OTA Yönetimi ile ilgili en sık sorulan soruları; Booking, Expedia, Hotelbeds vb. kanallarda fiyatlandırma, kampanya kurguları, görünürlük optimizasyonu, rate parity, komisyon yönetimi ve stok/oda dengesi üzerinden açıklar. Amaç, yanlış OTA kampanyaları, gereksiz komisyon artışı, fiyat paritesi problemleri ve marka imajını zedeleyen stok yönetimi gibi sorunları stratejik bir OTA yönetimi modeliyle çözmektir.",
+  "dgAiAnswerCapsule": "Otel OTA Yönetimi SSS; OTA kanallarında daha görünür olup doğru fiyat, kampanya ve stok yönetimiyle gelirini artırmak, ama komisyon ve marka imajını da kontrol altında tutmak isteyen otellere OTA stratejisini kısa ve net anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Otel OTA yönetimi; Booking, Expedia, Hotelbeds gibi kanallarda fiyat, stok ve kampanyaları kârlılık ve marka dengesini koruyarak yöneterek doluluk ve OTA gelirini optimize etme sürecidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘Otel OTA yönetimi tam olarak nedir?’, ‘Booking/Expedia görünürlüğünü nasıl artırabilirim?’, ‘OTA kampanyalarını nasıl doğru seçerim?’, ‘Rate parity bozulursa ne olur?’, ‘OTA gelirini artırırken marka imajımı nasıl korurum?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Otel OTA Yönetimi SSS; Booking/Expedia gibi OTA kanallarını sadece doluluk dolduran değil, kârlılık ve marka imajını gözeterek yönettiğiniz stratejik bir satış aracı haline getirmenin temel ilkelerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Otel OTA yönetimi tam olarak nedir?",
+    "Booking/Expedia görünürlüğünü nasıl artırabilirim?",
+    "OTA kampanyalarını nasıl doğru seçerim?",
+    "Rate parity bozulursa ne olur?",
+    "OTA gelirini artırırken marka imajımı nasıl korurum?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; yanlış OTA kampanyaları, gereksiz komisyon artışı, fiyat paritesi problemleri, bedbank kaynaklı rate leakage ve marka imajını zedeleyen stok yönetimi gibi sorunlara odaklanır. Stratejik OTA yönetimi; kampanya ve komisyon kararlarını veriyle destekleyerek, direct–OTA dengesini koruyarak ve parity kontrol sistemi kurarak bu riskleri azaltmayı hedefler.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-otel-ota-qset-54",
+  "dgJsonLdQuestionStrategy": "Otel OTA yönetiminin tanımı ve kanal kapsamı, Booking/Expedia görünürlüğünü artırma, OTA kampanyalarının (Genius, Mobile Deal vb.) doğru seçimi, rate parity’nin önemi ve bozulmasının etkileri, OTA gelirini artırırken marka imajını ve direct kanal dengesini koruma gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; yanlış OTA kampanyaları, gereksiz komisyon artışı, fiyat paritesi problemleri ve stok/marka riskleri gibi pain point’lere odaklanan sorular; Türkiye geneli ve Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlara uygun GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2800–3200",
+
+  "dgPrimaryCta": {
+    "label": "OTA yönetimi için teklif al",
+    "url": "https://dgtlface.com/tr/otel/ota-yonetimi"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (OTA yönetimi için teklif al)",
+  "dgCtaCrossLinkNote": "Kanal ve OTA stratejiniz için /tr/pms-ota/kanal-yonetimi, /tr/pms-ota/ota-entegrasyonu, /tr/pms-ota/online-satis ve /tr/otel/seo sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/kanal-yonetimi",
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota/online-satis",
+    "https://dgtlface.com/tr/otel/seo",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Yanlış OTA kampanyaları, gereksiz komisyon artışı, fiyat paritesi problemleri ve stok yönetimi kaynaklı misafir memnuniyetsizliği; otelin hem gelir hem itibar tarafında ciddi kayıplar yaşamasına neden olabilir. Stratejik OTA yönetimi, bu kanalları ‘sadece doluluk dolduran’ değil, kârlılık ve marka imajını da besleyen kontrollü satış araçları haline getirmeyi hedefler.",
+  "dgResultTimeframe": "Stratejik OTA yönetimi devreye alındıktan sonraki 1–3 ay içinde kampanya ve komisyon yapısının daha net görünmesi, 3–6 ay içerisinde ise OTA gelir/comission dengesinde ve direct–OTA paylaşımında daha sağlıklı bir tablo beklenebilir (pazar, sezon ve sözleşme koşullarına bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "OTA algoritmaları, kampanya türleri, görünürlük faktörleri veya komisyon yapısında önemli değişiklikler olduğunda; channel manager/PMS entegrasyon yöntemleri güncellendiğinde; ayrıca DGTLFACE’in OTA yönetimi hizmet kapsamı veya otelin hedef pazar/komisyon stratejisi revize edildiğinde bu SSS, özellikle kampanya, rate parity ve pain point soruları açısından refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 54 – /tr/otel/ota-yonetimi-sss için Otel Dijital Pazarlama – Otel OTA Yönetimi SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Otel OTA yönetimi tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel OTA yönetimi; Booking, Expedia, Hotelbeds gibi OTA kanallarında fiyat, stok ve kampanyaları, otelin doluluk, gelir ve marka hedefleriyle uyumlu şekilde yönetmeyi ifade eder. Amaç, bu kanallardan mümkün olan en yüksek verimi alırken komisyon yükünü ve direkt satış kanallarına etkisini kontrol altında tutmaktır.",
+        "dgShortAnswer": "Otel OTA yönetimi, Booking/Expedia gibi kanallarda fiyat, stok ve kampanyaları doluluk, gelir ve marka hedeflerine göre yönettiğiniz süreçtir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA yönetimi nedir, ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA yönetimi; otelinizin çalıştığı online seyahat acentaları (Booking, Expedia, Agoda, Hotelbeds vb.) üzerinde hangi oda tiplerini, hangi fiyatlarla, hangi kampanya ve görünürlük programlarıyla, hangi pazar ve tarihlerde sunacağını planlama ve yönetme sürecidir. İyi OTA yönetimi, hem doluluğu hem de kârlılığı artırırken, kötü OTA yönetimi gereksiz komisyon ve fiyat/kampanya karmaşası üretir.",
+        "dgShortAnswer": "OTA yönetimi, Booking/Expedia gibi kanallarda oda, fiyat, kampanya ve görünürlük kararlarını kârlılık ve marka hedefleriyle uyumlu şekilde yönetmektir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Çerçeve",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Booking/Expedia görünürlüğünü nasıl artırabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Booking ve Expedia görünürlüğünü artırmak için; iyi bir yorum puanı ve yeterli yorum sayısı, rekabetçi ve tutarlı fiyatlandırma, doğru stok yönetimi, ilgili dönemlerde mantıklı kampanya kullanımı (Genius, Mobile Deal vb.) ve güçlü içerik/fotoğraf kalitesi gerekir. Ayrıca iptal/no-show oranlarını düşürmek ve misafir deneyimini iyileştirmek, platformların algoritmasında uzun vadede görünürlüğe olumlu yansır.",
+        "dgShortAnswer": "Görünürlük için yorum puanı, rekabetçi fiyat, doğru stok, seçici kampanyalar ve güçlü içerik/fotoğraflar gerekir; iptal/no-show oranlarını düşürmek de algoritma açısından olumludur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Görünürlük Artırma",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA kampanyaları (Genius, Mobile Deal vb.) nasıl seçilmelidir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Her OTA kampanyası için; ekstra indirim veya komisyon oranı, hangi pazar, tarih ve oda tipinde geçerli olduğu, hangi görünürlük faydasını sağladığı (etiket, sıralama, filtrelerde öne çıkma) ve geçmişte ne kadar ek gece ve gelir getirdiği analiz edilmelidir. Tüm yıl boyunca tüm kampanyaları açık bırakmak yerine, dönemsel ve pazar bazlı, veriye dayalı bir seçim yapmak daha sağlıklıdır.",
+        "dgShortAnswer": "Genius, Mobile Deal vb. kampanyaların ekstra indirim/komisyon, pazar/tarih kapsamı ve geçmiş performansı analiz edilerek seçilmesi; her kampanyanın sürekli değil dönemsel kullanılması gerekir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Kampanya Seçimi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rate parity nedir, neden önemlidir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rate parity; aynı oda ve tarih için kontrolünüz altındaki kanallarda uyumlu fiyat sunma prensibidir. Misafir aynı oteli farklı kanallarda çok farklı fiyatlarla gördüğünde güven kaybı yaşar; OTA ve partnerlerle ticari sorunlar ortaya çıkabilir ve direct kanalınızın ‘adil ve güvenilir fiyat’ algısı zedelenir. Parity, sadece ‘her yerde aynı rakam’ değil, bilinçli bir fiyat ve değer dengesi anlamına gelir.",
+        "dgShortAnswer": "Rate parity, aynı oda/tarih için kanallar arası fiyat dengesidir; güven, OTA ilişkileri ve direct kanal stratejisi açısından kritik bir prensiptir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / Rate Parity Tanımı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Rate parity bozulursa ne olur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rate parity bozulduğunda; misafir aynı oda ve tarihe OTA’da daha düşük fiyat görürse direct kanalınız ‘pahalı’ algılanır ve rezervasyon OTA’ya kayar. Bedbank veya agresif OTA partnerlerinden kaynaklanan fiyat sızıntıları, pazar ve kanal stratejinizi zora sokar. Uzun vadede parity problemleri, OTA ilişkilerini ve marka güvenilirliğini zedeleyebilir.",
+        "dgShortAnswer": "Parite bozulduğunda direct kanal pahalı görünür, rezervasyon OTA’ya kayar ve uzun vadede OTA ilişkileri ile marka güvenilirliği zarar görebilir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Rate Parity Sorunu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA gelirini artırırken marka imajımı nasıl korurum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OTA gelirini artırırken marka imajını korumak için; kampanyaları sürekli ve her yerde geçerli indirimler yerine, belirli pazar ve dönemlere göre cerrahi şekilde kullanmalı, fotoğraf ve içerikleri markanızın konumlandırmasına uygun tutmalı, OTA’larda ‘sürekli ucuzlayan’ bir fiyat algısı yerine ‘değer odaklı’ bir görünüm hedeflemelisiniz. Direct kanalınızda da benzer veya daha iyi değer önerisi sunarak misafirin gözünde kendi sitenizi güçlendirmelisiniz.",
+        "dgShortAnswer": "OTA’da agresif ve sürekli indirim yerine pazar/dönem bazlı kampanyalar, tutarlı görsel/konumlandırma ve direct kanalda değer odaklı avantaj sunarak OTA gelirini artırırken marka imajınızı koruyabilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / OTA Geliri vs Marka",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Yanlış OTA kampanyaları ve gereksiz komisyon artışı otel için ne gibi riskler taşır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yanlış OTA kampanyaları ve üst üste bindirilmiş ek komisyon/indirimler; oda başına marjınızı düşürür, direct kanalınızın rekabetini zorlaştırır ve uzun vadede otelinizi ‘her zaman indirimde’ görünen bir marka haline getirebilir. Ayrıca bu tür kampanyalar, diğer kanallarda da fiyat paritesini bozar ve revenue yönetimi kararlarını karmaşık hale getirir.",
+        "dgShortAnswer": "Yanlış kampanya ve gereksiz komisyonlar oda başı marjı düşürür, direct kanalı zayıflatır, parity’yi bozar ve oteli ‘her zaman indirimde’ algısına iter.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Komisyon & Kampanya Hataları",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Türkiye ve resort destinasyonlar için OTA yönetimi nasıl bir strateji gerektirir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Türkiye’deki resort destinasyonlarda OTA yönetimi; güçlü global OTA’lar (Booking, Expedia), hedef pazarlara göre bedbank ve yerel OTA’lar, pazar bazlı kapasite ve kampanya planlaması ve high season/shoulder/low dönemler için farklı OTA rollerinin tanımlanmasını gerektirir. Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi bölgelerde, OTA ve direct kanal dengesini sezon ve pazar verisine göre sürekli gözden geçirmek gerekir.",
+        "dgShortAnswer": "Türkiye ve resort bölgelerde OTA yönetimi; global ve yerel OTA’lar için pazar bazlı rol ve kampanya planlaması, sezonlara göre OTA–direct dengesini sürekli gözden geçirmeyi gerektirir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Türkiye & Resort Stratejisi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA satışları ile direkt rezervasyon dengesi nasıl kurulmalıdır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sağlıklı bir yapı için OTA’ları görünürlük ve doluluk desteği, direct kanalları (web ve çağrı merkezi) ise daha kârlı ve sadakat odaklı rezervasyon kanalı olarak konumlandırmalısınız. OTA payınızın ne olmasını istediğinizi (örneğin %X üzerinde/altında) belirleyip, sezon ve pazar verilerine göre bu payı yönetmelisiniz. OTA’da çok güçlü olup direct’i ihmal etmek de, tam tersi de uzun vadede sağlıklı değildir.",
+        "dgShortAnswer": "OTA’yı görünürlük ve doluluk, direct kanalı kârlılık ve sadakat odağı olarak konumlandırmalı; OTA payını hedeflediğiniz aralıkta tutacak stratejik bir denge kurmalısınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / OTA–Direct Dengesi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile OTA yönetimi için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile OTA yönetimi için çalışmak istediğinizde; otelinizin türünü (resort, şehir, butik, zincir), çalıştığınız OTA listesini (Booking, Expedia, Hotelbeds vb.), hedef pazarlarınızı, komisyon ve kampanya durumu hakkındaki temel bilgileri ve yaşadığınız başlıca sorunları (yanlış kampanya kullanımı, parity problemleri, yüksek komisyon, stok & marka imajı sorunları vb.) özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle OTA kanal seti, kampanya stratejisi, parity kontrol ve raporlama çerçevesini içeren bir OTA yönetimi yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "Otel tipi, OTA listesi, hedef pazarlar, mevcut komisyon/kampanya durumu ve yaşadığınız sorunları özetleyen bir brief ile kanal seti, kampanya ve parity stratejisini içeren OTA yönetimi teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
+
+"otel-pms-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu-sss#faq",
+  "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu-sss",
+  "inLanguage": "tr",
+  "name": "Otel PMS Entegrasyonu SSS",
+  "description": "Otel PMS entegrasyonu, web rezervasyon motoru, OTA kanalları ve çağrı merkezi sistemleriyle çift yönlü veri akışı ve Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için entegrasyon mimarisi hakkında sık sorulan sorular.",
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Otel Dijital Pazarlama",
+  "dgSectionIndex": 55,
+  "dgParentUrl": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "Otel PMS Entegrasyonu SSS",
+  "dgH1": "Otel PMS Entegrasyonu SSS",
+  "dgTitle": "Otel PMS Entegrasyonu SSS – Web Sitesi, OTA ve Çağrı Merkezi ile Veri Akışı | DGTLFACE",
+  "dgMetaDescription": "Otel PMS entegrasyonu, web rezervasyon motoru, OTA kanalları ve çağrı merkezi sistemleriyle çift yönlü veri akışı ve Antalya–Belek–Kemer–Side–Bodrum–Alanya otelleri için entegrasyon mimarisi hakkında sık sorulan sorular.",
+
+  "dgPrimaryIntent": "Transactional (Hizmet Talebi)",
+  "dgSecondaryIntent": "Bilgilendirici (Otorite)",
+
+  "dgFaqStructure": "Genel sorular | Hizmet kapsamı | Detaylı süreç & işleyiş | Performans ve raporlama | GEO & sektör odaklı sorular | Sesli arama kısa soruları | Pain point odaklı sorular | İlgili hizmet yönlendirmeleri | JSON-LD şema soruları",
+  "dgKeyTopics": "otel PMS’inin web, OTA ve çağrı merkezi ile entegrasyonu; rezervasyon, fiyat ve misafir datasının tek merkezde toplanması; kopuk sistemler, çift veri girişi, hatalı misafir kartları, tutmayan fiyat ve müsaitlik bilgileri; entegrasyon hatalarının gelir, doluluk ve raporlama üzerindeki etkileri",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 55
+  },
+
+  "dgContentFormat": "Paragraf + Liste (Mix)",
+  "dgAuthorityNote": "Bu SSS sayfası, Otel PMS Entegrasyonu ile ilgili en sık sorulan soruları; PMS’in web rezervasyon motoru, OTA kanalları ve çağrı merkezi sistemleriyle çift yönlü veri akışı, rezervasyon/fiyat/misafir datasının tek merkezde toplanması ve entegrasyon hatalarının gelir/doluluk üzerindeki etkisi üzerinden açıklar. Amaç, kopuk sistemler, çift veri girişi, hatalı kartlar ve tutmayan fiyat/müsaitlik sorunlarını ortadan kaldırmaktır.",
+  "dgAiAnswerCapsule": "Otel PMS Entegrasyonu SSS; PMS, web, OTA ve çağrı merkezini aynı veri omurgasına bağlayarak hem operasyonu hem raporlamayı düzenlemek isteyen otellere entegrasyon mimarisini kısa ve anlaşılır biçimde anlatan bir rehberdir.",
+  "dgVoiceSearchSummary": "Otel PMS entegrasyonu; web, OTA ve çağrı merkezi rezervasyonlarını PMS’te tek akışta toplamak, fiyat ve müsaitlik bilgilerini tek merkezden yönetmek ve çift veri girişini azaltmak için kurulan veri entegrasyonu mimarisidir.",
+  "dgVoiceNotes": "Sesli arama için hazırlanan kısa sorular; ‘Otel PMS entegrasyonu tam olarak nedir?’, ‘Web, OTA ve çağrı merkezi verilerini PMS’te nasıl birleştiririm?’, ‘Çift veri girişi ve hatalı misafir kartlarını nasıl engellerim?’, ‘Fiyat ve müsaitlik bilgilerinin tutmaması neye yol açar?’, ‘PMS entegrasyonu gelir ve raporlamayı nasıl etkiler?’ gibi sorguları hedefler.",
+  "dgOneLineSummary": "Otel PMS Entegrasyonu SSS; PMS’i web, OTA ve çağrı merkeziyle entegre ederek tüm rezervasyon ve fiyat datasını tek merkezde toplamanın ve entegrasyon kaynaklı gelir kayıplarını azaltmanın temel prensiplerini özetler.",
+
+  "dgVoiceQueryExamples": [
+    "Otel PMS entegrasyonu tam olarak nedir?",
+    "Web, OTA ve çağrı merkezi verilerini PMS’te nasıl birleştiririm?",
+    "Çift veri girişi ve hatalı misafir kartlarını nasıl engellerim?",
+    "Fiyat ve müsaitlik bilgilerinin tutmaması neye yol açar?",
+    "PMS entegrasyonu gelir ve raporlamayı nasıl etkiler?"
+  ],
+
+  "dgPainPointSummary": "Pain point soruları; kopuk sistemler, çift veri girişi, hatalı misafir kartları, tutmayan fiyat ve müsaitlik bilgileri, OTA/web/call center rezervasyonlarının PMS’te birleşmemesi, yanlış mapping ve entegrasyon hatalarından kaynaklanan overbooking ve rapor karmaşası gibi problemlere odaklanır. PMS entegrasyonu; bu sorunları tek veri omurgası ve doğru entegrasyon mimarisiyle azaltmayı hedefler.",
+  "dgGeoFocus": [
+    "Türkiye geneli",
+    "Antalya",
+    "Belek",
+    "Kemer",
+    "Side",
+    "Bodrum",
+    "Alanya"
+  ],
+  "dgSectors": [
+    "Otel & Turizm"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-otel-pms-qset-55",
+  "dgJsonLdQuestionStrategy": "PMS entegrasyonunun tanımı ve işlevi, web/OTA/çağrı merkezi rezervasyonlarının PMS’te birleştirilmesi, çift veri girişi ve hatalı misafir kartlarının önlenmesi, fiyat–müsaitlik tutarsızlıklarının riskleri, PMS entegrasyonunun overbooking, gelir ve raporlama üzerindeki etkileri gibi konuları açıklayan sorular; ‘nedir / ne işe yarar / nasıl çalışır / nasıl başlanır’ tipi sesli arama uyumlu sorular; kopuk sistemler, çift veri girişi, hatalı misafir kartları ve tutmayan fiyat/müsaitlikten kaynaklanan pain point’lere odaklanan sorular; Türkiye geneli ve resort destinasyonlar için GEO soruları ve kapanışta teklif/iş birliği sorusunu içerir.",
+
+  "dgStatus": "Planlandı",
+  "dgComplexity": "Orta–İleri",
+  "dgWordCountRange": "2800–3200",
+
+  "dgPrimaryCta": {
+    "label": "PMS entegrasyonu için teklif al",
+    "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+  },
+  "dgSecondaryCta": {
+    "label": "Uzmanla görüş",
+    "placement": "Orta + Alt bölüm"
+  },
+  "dgCtaPattern": "Orta bölümde ‘Uzmanla görüş’ çağrısı + sayfa altı ana CTA butonu (PMS entegrasyonu için teklif al)",
+  "dgCtaCrossLinkNote": "PMS ve kanal yapınızı güçlendirmek için /tr/pms-ota/pms-kurulum, /tr/pms-ota/ota-entegrasyonu, /tr/otel/ota-yonetimi ve /tr/otel/cagri-merkezi sayfalarını inceleyin.",
+
+  "dgInternalLinks": [
+    "https://dgtlface.com/tr/pms-ota/pms-kurulum",
+    "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+    "https://dgtlface.com/tr/otel/ota-yonetimi",
+    "https://dgtlface.com/tr/otel/cagri-merkezi",
+    "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+  "dgBacklinksPlannedFrom": [
+    "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+    "https://dgtlface.com/tr/pms-ota-yonetimi",
+    "https://dgtlface.com/tr/hizmetlerimiz"
+  ],
+
+  "dgImpactNote": "Kopuk sistemler, çift veri girişi, hatalı misafir kartları ve tutmayan fiyat/müsaitlik bilgileri; otellerde hem gelir kaybı hem overbooking hem de ciddi raporlama sorunlarına neden olur. Doğru tasarlanmış bir PMS entegrasyonu, tüm rezervasyon ve fiyat akışını tek bir veri omurgasında toplayarak bu riskleri azaltır, operasyonu ve raporlamayı sadeleştirir.",
+  "dgResultTimeframe": "PMS entegrasyon mimarisi kurulduktan ve test edildikten sonraki 1–3 ay içinde çift veri girişi ve stok/fiyat tutarsızlıklarında azalma; 3–6 ay içinde ise overbooking riskinde, rapor kalitesinde ve gelir/kaynak analizinde belirgin iyileşme beklenebilir (sezon, hacim ve teknoloji altyapısına bağlı olarak).",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "PMS versiyonları, entegrasyon API’leri, rezervasyon motoru/OTA bağlantı yöntemleri veya DGTLFACE’in PMS entegrasyon hizmet kapsamı değiştiğinde; ayrıca otelin kanal yapısı, veri akışı veya raporlama ihtiyacı revize edildiğinde bu SSS, özellikle entegrasyon akışı, riskler ve pain point soruları düzeyinde refresh edilmelidir.",
+  "dgNotes": "BÖLÜM 55 – /tr/otel/pms-entegrasyonu-sss için Otel Dijital Pazarlama – Otel PMS Entegrasyonu SSS kurgusu. Lokasyon odağı: Türkiye geneli + turizm bölgeleri.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Otel PMS entegrasyonu tam olarak nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Otel PMS entegrasyonu; otelinizin kullandığı PMS ile web rezervasyon motoru, OTA kanalları (Booking, Expedia vb.), channel manager ve çağrı merkezi/CRM sistemleri arasında çift yönlü veri akışı kuran teknik mimaridir. Bu sayede fiyat, envanter ve rezervasyon bilgileri tek sistem (PMS) üzerinden yönetilir, tüm kanallardan gelen rezervasyonlar PMS’te birleşir ve çift veri girişi büyük ölçüde ortadan kalkar.",
+        "dgShortAnswer": "PMS entegrasyonu, web, OTA, channel manager ve çağrı merkezi verisini PMS’te birleştiren ve fiyat/envanter/rezervasyonları tek merkezden yöneten veri mimarisidir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Tanım",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS entegrasyonu nedir, ne işe yarar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS entegrasyonu; PMS’inizi, web rezervasyon motoru, OTA’lar ve çağrı merkezi gibi satış kanallarıyla entegre ederek tüm rezervasyon, fiyat ve misafir verisinin tek merkezde toplanmasını sağlar. Böylece çift veri girişi, hatalı misafir kartları, tutmayan fiyat ve müsaitlik bilgileri gibi sorunlar azalır; hem operasyon hem raporlama süreçleri sadeleşir.",
+        "dgShortAnswer": "PMS entegrasyonu, satış kanallarını PMS’e bağlayarak tüm rezervasyon ve fiyat datasını tek merkezde toplamanıza ve operasyon/raporlamayı sadeleştirmenize yarar.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel Sorular",
+      "dgIntent": "Bilgilendirici / Genel Fayda",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web, OTA ve çağrı merkezi verilerini PMS’te nasıl birleştiririm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web rezervasyon motoru, OTA/channel manager ve çağrı merkezi sistemlerini PMS ile entegre ederek; tüm rezervasyonların otomatik olarak PMS’e düşmesini sağlamalısınız. Web’den yapılan rezervasyonlar booking engine → PMS hattında, OTA rezervasyonları channel manager → PMS hattında, çağrı merkezi rezervasyonları da doğrudan PMS üzerinden açılarak tek akışta birleşmelidir. Excel, e-posta ve not defteri üzerinden rezervasyon takibinden mümkün olduğunca kaçınmak gerekir.",
+        "dgShortAnswer": "Booking engine, channel manager ve çağrı merkezi sistemlerini PMS’e bağlayıp tüm rezervasyonları bu entegrasyonlar üzerinden PMS’e otomatik düşürerek veriyi tekleştirebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "voice",
+      "dgGroup": "Sesli Arama Soruları",
+      "dgIntent": "Bilgilendirici / Veri Birleştirme",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Web rezervasyonları PMS’e otomatik nasıl düşer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web rezervasyon motorunuz, PMS’e doğrudan veya channel manager üzerinden API entegrasyonu ile bağlanır. Misafir web üzerinden rezervasyonu tamamladığında, rezervasyon detayları (tarih, oda tipi, fiyat planı, misafir bilgileri) PMS’in ilgili endpoint’ine iletilir ve doğru oda/fiyat planına kaydedilir. İptal ve değişiklikler de aynı entegrasyon üzerinden PMS’e geri bildirilmelidir.",
+        "dgShortAnswer": "Booking engine’i PMS API’sine entegre ederek; web’te tamamlanan rezervasyonların oda, fiyat ve misafir bilgileriyle otomatik PMS kaydı yapılmasını sağlayabilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Web → PMS Akışı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "OTA ve channel manager PMS ile nasıl senkronize edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS’te tanımlı oda ve fiyat planları, channel manager’daki karşılıklarıyla (mapping) eşleştirilir. PMS’te yaptığınız fiyat ve envanter değişiklikleri channel manager üzerinden OTA’lara push edilir; OTA’dan gelen rezervasyon, iptal ve değişiklikler ise channel manager üzerinden PMS’e yazılır. Mapping ve senkronizasyon ayarları doğru yapılmazsa; yanlış oda/fiyat satışı ve tutmayan stok sorunlarıyla karşılaşabilirsiniz.",
+        "dgShortAnswer": "PMS oda/fiyat planlarını channel manager’da mapping ile eşleyip PMS → CM → OTA fiyat/envanter akışı ve OTA → CM → PMS rezervasyon akışını kurarak senkronizasyon sağlarsınız.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "classic",
+      "dgGroup": "Detaylı Süreç & İşleyiş",
+      "dgIntent": "Bilgilendirici / PMS–OTA Senkronu",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çağrı merkezi rezervasyonları PMS’e nasıl işlenir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En sağlıklı modelde; çağrı merkezi rezervasyonları Excel veya harici not sistemleri yerine doğrudan PMS üzerinde açılır. Operatör, PMS’te gerçek zamanlı müsaitlik ve fiyatları görerek, rezervasyonu uygun oda ve fiyat planı ile kaydeder ve rezervasyon kaynağını ‘call center / telefon / WhatsApp’ gibi bir alanla işaretler. Çağrı merkezi yazılımı ile PMS arasında entegrasyon varsa, çağrı/lead kayıtları da PMS veya CRM tarafına otomatik aktarılabilir.",
+        "dgShortAnswer": "Call center rezervasyonları doğrudan PMS’te açılmalı, kaynağı işaretlenmeli ve varsa çağrı merkezi yazılımı PMS/CRM ile entegre edilmelidir; böylece Excel üzerinden ayrı takip ihtiyacı azalır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "classic",
+      "dgGroup": "Hizmet Kapsamı",
+      "dgIntent": "Bilgilendirici / Call Center → PMS",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Çift veri girişi ve hatalı misafir kartlarını nasıl engellerim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çift veri girişi ve hatalı misafir kartlarını engellemek için; web, OTA ve çağrı merkezi rezervasyon akışlarını PMS entegrasyonuna bağlayarak tüm kayıtların PMS’te açılmasını sağlamalısınız. Excel, e-posta ve not defterlerinden manuel rezervasyon açmayı minimuma indirmek, PMS’te misafir kartı oluşturma ve birleştirme (merge) kurallarını belirlemek ve personel eğitimi vermek de bu sürecin önemli parçalarıdır.",
+        "dgShortAnswer": "Tüm rezervasyonları PMS entegrasyonu üzerinden açıp manuel/Excel girişlerini azaltarak ve misafir kartı oluşturma/birleştirme kurallarını netleştirerek çift veri girişi ve hatalı kart riskini düşürebilirsiniz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Çift Veri & Hatalı Kartlar",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "Fiyat ve müsaitlik bilgilerinin tutmaması neye yol açar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PMS ile web/OTA tarafında fiyat ve müsaitlik tutmaması; misafire farklı kanallarda farklı fiyatlar göstermenize, dolu odanın boş, boş odanın dolu görünmesine, overbooking riskine ve ciddi misafir memnuniyetsizliğine yol açar. Ayrıca revenue raporları ve forecast hesaplamaları da yanlış veri üzerinde yapılmış olur.",
+        "dgShortAnswer": "Tutmayan fiyat/müsaitlik; misafire çelişkili bilgi, overbooking veya satılamayan stok ve hatalı revenue raporları anlamına gelir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Pain Point Soruları",
+      "dgIntent": "Pain Point / Tutmayan Fiyat & Müsaitlik",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS entegrasyonu overbooking ve veri hatalarını nasıl azaltır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tüm stok PMS’ten yönetilip, web, OTA ve çağrı merkezi aynı envanter havuzunu kullandığında ve iptal/değişiklikler PMS’e düzgün işlendiğinde overbooking riski belirgin ölçüde düşer. Çift veri girişi ve manuel kayıtlar azaldığı için de hatalı rezervasyon, yanlış oda/fiyat kaydı ve tutarsız rapor oranı azalır. Entegrasyon log ve hata raporlarını düzenli takip etmek, kalan hataları da erken aşamada yakalamayı sağlar.",
+        "dgShortAnswer": "Stok tek merkezden (PMS) yönetildiğinde ve tüm kanallar bu stokla senkron çalıştığında overbooking ve veri hataları belirgin ölçüde azalır; log takibi kalan sorunları erken yakalamanıza yardımcı olur.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "classic",
+      "dgGroup": "Performans & Raporlama",
+      "dgIntent": "Bilgilendirici / Overbooking & Veri Hataları",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+
+    {
+      "@type": "Question",
+      "name": "PMS entegrasyonu Türkiye ve resort destinasyonlarda neden daha kritik?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antalya, Belek, Kemer, Side, Bodrum ve Alanya gibi destinasyonlarda oda sayıları yüksek, OTA ve acente sayısı fazla, web ve çağrı merkezi talebi yoğundur. Bu hacimde rezervasyon ve fiyat bilgisini kopuk sistemler ve manuel girişlerle yönetmeye çalışmak; overbooking, gelir kaybı ve ciddi operasyonel stres yaratır. Bu nedenle PMS entegrasyonu, yüksek hacimli resort oteller için lüks değil, temel bir gerekliliktir.",
+        "dgShortAnswer": "Yüksek oda ve rezervasyon hacmi olan Antalya, Belek, Kemer, Side, Bodrum, Alanya gibi destinasyonlarda PMS entegrasyonu, overbooking ve gelir kaybı riskini azaltmak için zorunlu hale gelir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "geo",
+      "dgGroup": "GEO & Sektör Soruları",
+      "dgIntent": "Bilgilendirici / Destinasyon Bazlı Önemi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    },
+
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile PMS entegrasyonu için nasıl teklif alabilirim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE ile PMS entegrasyonu için çalışmak istediğinizde; kullandığınız PMS, booking engine ve channel manager çözümlerini, OTA ve çağrı merkezi yapınızı, mevcutta yaşadığınız ana problemleri (kopuk sistemler, çift veri girişi, hatalı misafir kartları, tutmayan fiyat/müsaitlik vb.) ve raporlama/görünürlük ihtiyaçlarınızı özetleyen kısa bir brief paylaşmanız yeterlidir. Bu bilgilerle PMS, web, OTA ve çağrı merkezini aynı veri omurgasına bağlayan entegrasyon mimarisi ve adımlarını içeren bir yol haritası ve teklif hazırlanabilir.",
+        "dgShortAnswer": "PMS + booking engine + channel manager altyapınızı, OTA/call center yapınızı ve yaşadığınız entegrasyon sorunlarını özetleyen bir brief ile entegrasyon mimarisi ve adımlarını içeren PMS entegrasyonu teklifi talep edebilirsiniz.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA & İş Birliği Süreci",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": [
+        "Türkiye geneli",
+        "Antalya",
+        "Belek",
+        "Kemer",
+        "Side",
+        "Bodrum",
+        "Alanya"
+      ]
+    }
+  ]
+},
 
   "otel-cagri-merkezi-sss": {
     "@context": "https://schema.org",

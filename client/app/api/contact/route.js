@@ -15,20 +15,22 @@ export async function POST(req) {
       );
     }
 
-    const port = Number(process.env.SMTP_PORT || 465);
-    const secure = port === 465;
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+      // Self-signed sertifika için sertifika doğrulamasını devre dışı bırak
+      tls: {
+        rejectUnauthorized: false,
+      },
+    });
 
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,        // mail.dgtlface.com
-  port: 465,
-  secure: true,
-  auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
-});
-await transporter.verify();
-
-
-    // İstersen hızlı doğrulama (deploy’da iyi debug verir)
-    // await transporter.verify();
+    // Bağlantı testi (opsiyonel ama önerilir)
+    await transporter.verify();
 
     const emailContent = `
 ${message}
@@ -48,7 +50,9 @@ ${email ? `- E-posta: ${email}` : ""}
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px;">
           <h2 style="color: #54b9cf;">Yeni İletişim Formu Mesajı</h2>
-          <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 8px;">${String(message)
+          <pre style="white-space: pre-wrap; background: #f5f5f5; padding: 15px; border-radius: 8px;">${String(
+            message
+          )
             .replaceAll("&", "&amp;")
             .replaceAll("<", "&lt;")
             .replaceAll(">", "&gt;")}</pre>
@@ -65,13 +69,18 @@ ${email ? `- E-posta: ${email}` : ""}
 
     await transporter.sendMail(mailOptions);
 
-    return new Response(JSON.stringify({ message: "Mesajınız başarıyla gönderildi!" }), {
-      status: 200,
-    });
+    return new Response(
+      JSON.stringify({ message: "Mesajınız başarıyla gönderildi!" }),
+      { status: 200 }
+    );
   } catch (error) {
     console.error("Mail gönderim hatası:", error);
     return new Response(
-      JSON.stringify({ error: "Mesaj gönderilirken bir hata oluştu: " + (error?.message || error) }),
+      JSON.stringify({
+        error:
+          "Mesaj gönderilirken bir hata oluştu: " +
+          (error?.message || error),
+      }),
       { status: 500 }
     );
   }

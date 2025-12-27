@@ -178,7 +178,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   }, []);
 
   return (
-    <header className="w-screen text-white fixed h-[70px] z-[999] top-0 flex items-center justify-center lg:mt-[8px] xl:mt-[15px]">
+    <header className="w-screen text-white fixed h-[70px] z-[999] top-0 flex items-center justify-center lg:mt-[6px] xl:mt-[10px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}

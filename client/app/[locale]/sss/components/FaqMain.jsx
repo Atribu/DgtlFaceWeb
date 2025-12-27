@@ -234,7 +234,7 @@ const rich = {
                 <p className="text-[12px] uppercase tracking-[0.18em] text-white/60 mb-2">
                   {t.rich("aiCapsule.title",rich)}
                 </p>
-                <p className="text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
+                <p className="dg-ai-capsule text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
                   {t.rich("aiCapsule.text",rich)}
                 </p>
               </div>
@@ -244,7 +244,7 @@ const rich = {
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-2">
                   {t.rich("voiceSummary.title",rich)}
                 </p>
-                <p className="text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
+                <p className="dg-voice-summary text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
                   {t.rich("voiceSummary.text",rich)}
                 </p>
               </div>
@@ -254,7 +254,7 @@ const rich = {
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-3">
                   {t.rich("voiceQueries.title",rich)}
                 </p>
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-5 text-[14px] lg:text-[16px] text-[#140f25]/90 text-start w-[90%] ml-[10%]">
+                <ul className="dg-voice-queries grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-5 text-[14px] lg:text-[16px] text-[#140f25]/90 text-start w-[90%] ml-[10%]">
                {Object.keys(ns?.voiceQueries || {})
   .filter((k) => /^q\d+$/.test(k))
   .sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))

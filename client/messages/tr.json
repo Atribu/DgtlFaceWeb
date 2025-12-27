@@ -23024,9 +23024,9 @@
     ],
 
     "intro": {
-      "p1": "OTA’lar (Booking.com, Expedia, Hotelbeds, Agoda vb.) doğru kullanıldığında doluluk ve gelir makinesi, yanlış kullanıldığında ise yüksek komisyon ve marka erozyonu üreten bir yapı haline gelebilir.",
-      "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi rekabeti yüksek destinasyonlarda çalışan resort ve şehir otellerinin, OTA’ları fiyat, stok, kampanya ve marka imajı açısından doğru yönetmesi için hazırlandı.",
-      "p3": "Aşağıda, 65 soru–cevap ile OTA yönetimini hem operasyonel hem stratejik boyutuyla toplu bir çerçeveye oturtuyoruz."
+      "p1": "OTA’lar (Booking.com, Expedia, Hotelbeds, Agoda vb.) doğru kullanıldığında <b> doluluk ve gelir makinesi</b>, yanlış kullanıldığında ise <b>yüksek komisyon ve marka erozyonu</b> üreten bir yapı haline gelebilir.",
+      "p2": "Bu SSS; özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi rekabeti yüksek destinasyonlarda çalışan resort ve şehir otellerinin, OTA’ları <b>fiyat, stok, kampanya ve marka imajı</b> açısından doğru yönetmesi için hazırlandı.",
+      "p3": "Aşağıda, <b>65 soru–cevap</b> ile OTA yönetimini hem operasyonel hem stratejik boyutuyla toplu bir çerçeveye oturtuyoruz."
     },
 
     "meta": {
@@ -23047,27 +23047,27 @@
         "items": [
           {
             "q": "Otel OTA yönetimi tam olarak nedir?",
-            "a": "Otel OTA yönetimi; Booking.com, Expedia, Hotelbeds, Agoda gibi online seyahat acentalarında (OTA):<ul><li>fiyatlandırma,</li><li>stok/oda ve allotment yönetimi,</li><li>kampanya & görünürlük kurguları,</li><li>rate parity ve komisyon kontrolü</li></ul>gibi unsurların, otelin gelir hedefleri ve marka pozisyonuyla uyumlu şekilde yönetilmesi sürecidir. Amaç, OTA’lardan maksimum verimi alırken kârlılık ve direct kanal dengesini kaybetmemektir."
+            "a": "Otel OTA yönetimi; Booking.com, Expedia, Hotelbeds, Agoda gibi online seyahat acentalarında (OTA):<ul><li>fiyatlandırma,</li><li>stok/oda ve allotment yönetimi,</li><li>kampanya & görünürlük kurguları,</li><li>rate parity ve komisyon kontrolü</li></ul>gibi unsurların, otelin gelir hedefleri ve marka pozisyonuyla uyumlu şekilde yönetilmesi sürecidir. Amaç, OTA’lardan maksimum verimi alırken <b>kârlılık ve direct kanal dengesini</b> kaybetmemektir."
           },
           {
             "q": "OTA yönetimi oteller için neden bu kadar kritik?",
-            "a": "Çünkü birçok otelde:<ul><li>toplam gelirin büyük bir kısmı OTA’lardan gelir,</li><li>misafirlerin önemli kısmı oteli önce OTA’da keşfeder,</li><li>fiyat ve yorum karşılaştırması OTA ekranında başlar.</li></ul>Bu nedenle OTA’da fiyat, görünürlük, kampanya ve stok yönetimi zayıf olan bir otel, doluluk ve marka algısı tarafında dezavantajlı konuma düşer."
+            "a": "Çünkü birçok otelde:<ul><li>toplam gelirin büyük bir kısmı OTA’lardan gelir,</li><li>misafirlerin önemli kısmı oteli önce OTA’da keşfeder,</li><li>fiyat ve yorum karşılaştırması OTA ekranında başlar.</li></ul>Bu nedenle OTA’da <b>fiyat, görünürlük, kampanya ve stok yönetimi</b> zayıf olan bir otel, doluluk ve marka algısı tarafında dezavantajlı konuma düşer."
           },
           {
             "q": "OTA yönetimi ne işe yarar, otelin hangi hedeflerine hizmet eder?",
-            "a": "Doğru OTA yönetimi:<ul><li>yüksek sezon doluluğunu destekler,</li><li>omuz sezonlar (shoulder) için talep yaratır,</li><li>belirli ülke pazarı veya segmentlerde büyümeyi hızlandırır,</li><li>marka bilinirliği ve görünürlüğe katkı sağlar,</li><li>doğru kurgulandığında direct rezervasyon için funnel üstü katman görevi görür.</li></ul>"
+            "a": "Doğru OTA yönetimi:<ul><li><b>yüksek sezon</b> doluluğunu destekler,</li><li><b>omuz sezonlar</b> (shoulder) için talep yaratır,</li><li>belirli <b>ülke pazarı veya segmentlerde</b> büyümeyi hızlandırır,</li><li><b>marka bilinirliği ve görünürlüğe</b> katkı sağlar,</li><li>doğru kurgulandığında <b>direct rezervasyon için funnel üstü</b> katman görevi görür.</li></ul>"
           },
           {
             "q": "OTA yönetimi ile kanal yönetimi (PMS–channel manager) aynı şey mi?",
-            "a": "<ul><li><b>Kanal yönetimi:</b> PMS–channel manager–OTA hattında teknik fiyat & stok senkronizasyonu,</li><li><b>OTA yönetimi:</b> OTA panel ve kontrat tarafında fiyat, kampanya, görünürlük ve içerik stratejisi.</li></ul>Birbirini tamamlar ama aynı değildir. Teknik entegrasyon hatasız olsa bile stratejisiz OTA ciddi gelir kaybı ve komisyon israfı üretebilir."
+            "a": "<ul><li><b>Kanal yönetimi:</b> PMS–channel manager–OTA hattında teknik fiyat & stok senkronizasyonu,</li><li><b>OTA yönetimi:</b> OTA panel ve kontrat tarafında fiyat, kampanya, görünürlük ve içerik stratejisi.</li></ul>Birbirini tamamlar ama aynı değildir. Teknik entegrasyon hatasız olsa bile <b>stratejisiz OTA</b> ciddi gelir kaybı ve komisyon israfı üretebilir."
           },
           {
             "q": "OTA’lar direct rezervasyonun düşmanı mı, dostu mu?",
-            "a": "Ne tam düşman, ne tam dost.<ul><li>Kısa vadede: görünürlük ve doluluk sağlayan güçlü partnerler.</li><li>Uzun vadede: kontrolsüz kullanıldığında direct kanalı gölgeleyen, komisyon yükü getiren yapılar.</li></ul>Stratejik OTA yönetimi, “dozunda ve kontrollü” çalışmayı öğretir."
+            "a": "Ne tam düşman, ne tam dost.<ul><li><b>Kısa vadede</b>: görünürlük ve doluluk sağlayan güçlü partnerler.</li><li><b>Uzun vadede</b>: kontrolsüz kullanıldığında direct kanalı gölgeleyen, komisyon yükü getiren yapılar.</li></ul>Stratejik OTA yönetimi, <b>“dozunda ve kontrollü”</b> çalışmayı öğretir."
           },
           {
             "q": "Otel OTA Yönetimi SSS kimler için uygundur?",
-            "a": "<ul><li>Booking/Expedia gibi kanallardan satış alıp ne kadar kârlı olduğunu bilmeyen,</li><li>kampanya ve ekstranet ayarlarını rastgele veya sadece account manager yönlendirmesiyle yapan,</li><li>rate parity ve direct kanal dengesi konusunda zorlanan</li></ul>özellikle resort ve tatil destinasyonlarındaki oteller için uygundur."
+            "a": "<ul><li>Booking/Expedia gibi kanallardan satış alıp ne kadar kârlı olduğunu bilmeyen,</li><li>kampanya ve ekstranet ayarlarını rastgele veya sadece account manager yönlendirmesiyle yapan,</li><li>rate parity ve direct kanal dengesi konusunda zorlanan</li></ul>özellikle <b>resort ve tatil destinasyonlarındaki</b> oteller için uygundur."
           }
         ]
       },
@@ -23348,8 +23348,8 @@
       "voiceQueries": "Arama Sorguları"
     },
     "intro": {
-      "p1": "Otel tarafında kabaca tablo şöyle:<ul><li>PMS bir tarafta,</li><li>web rezervasyon motoru ayrı yerde,</li><li>OTA’lar channel manager üzerinden takla atarak geliyor,</li><li>çağrı merkezi Excel’e not alıp sonra PMS’e girmeye çalışıyor…</li></ul>Sonuç: kopuk sistemler, çift veri girişi, hatalı kartlar, tutmayan fiyat & müsaitlik, rapor karmaşası ve overbooking riski.",
-      "p2": "Bu SSS, özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi yüksek hacimli oteller için, <b>PMS ↔ web ↔ OTA ↔ çağrı merkezi</b> entegrasyon mimarisini otorite seviyesinde netleştirmeyi amaçlıyor.",
+      "p1": "Otel tarafında kabaca tablo şöyle:<ul><li>PMS bir tarafta,</li><li>web rezervasyon motoru ayrı yerde,</li><li>OTA’lar channel manager üzerinden takla atarak geliyor,</li><li>çağrı merkezi Excel’e not alıp sonra PMS’e girmeye çalışıyor…</li></ul>Sonuç: <b>kopuk sistemler, çift veri girişi, hatalı kartlar, tutmayan fiyat & müsaitlik, rapor karmaşası ve overbooking riski</b>.",
+      "p2": "Bu SSS, özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi yüksek hacimli oteller için, <b>PMS ↔ web ↔ OTA ↔ çağrı merkezi</b> entegrasyon mimarisini otorite seviyesinde netleştirmeyi amaçlıyor.",
       "p3": ""
     },
     "aiCapsule": {
@@ -23397,10 +23397,10 @@
           },
           {
             "q": "PMS entegrasyonu olmadan da çalışabilir miyim?",
-            "a": "Teorik olarak evet; pratikte <ul><li>insan hatası,</li><li>rapor karmaşası,</li><li>overbooking,</li><li>gelir fırsat kaybı</li></ul>riski çok yükselir. Özellikle 20+ oda ve çok kanallı satış yapan otellerde entegrasyonsuz yapı sürdürülebilir değildir."
+            "a": "Teorik olarak evet; pratikte <ul><li>insan hatası,</li><li>rapor karmaşası,</li><li>overbooking,</li><li>gelir fırsat kaybı</li></ul>riski çok yükselir. Özellikle 20+ oda ve çok kanallı satış yapan otellerde entegrasyonsuz yapı <b>sürdürülebilir değildir.</b>"
           },
           {
-            "q": "PMS entegrasyonu ile channel manager arasındaki fark nedir?",
+            "q": "PMS entegrasyonu ile kanal yönetimi (channel manager) arasındaki fark nedir?",
             "a": "<ul><li><b>Channel manager entegrasyonu:</b> PMS ↔ channel manager ↔ OTA hattında fiyat & envanter senkronu,</li><li><b>PMS entegrasyonu:</b> buna ek olarak web rezervasyon motoru, çağrı merkezi ve CRM’in PMS ile konuşmasını kapsayan genel veri omurgası.</li></ul>Yani channel manager, PMS entegrasyon mimarisinin sadece bir parçasıdır."
           },
           {
@@ -23723,7 +23723,7 @@
 
       "intro": {
       "p1": "Telefon, WhatsApp, OTA mesajları, web formu, Instagram DM… Misafir aslında hep aynı şeyi soruyor: “Bu otelde ne zaman, ne fiyata, nasıl kalırım?” Ama otel tarafında tablo çoğu zaman şöyle: <ul><li>Cevapsız veya geri dönülmeyen çağrılar,</li><li>Kimin ne teklif verdiği belli olmayan dağınık süreçler,</li><li>PMS’e hiç girilmemiş rezervasyonlar,</li><li>Satışa dönmeyen, ölçülemeyen aramalar.</li></ul>",
-      "p2": "Bu sayfa; Otel Çağrı Merkezi & Rezervasyon yapısını, özellikle PMS–OTA entegrasyonlu, çok dilli ve satış odaklı bir “direct booking voice channel” haline getirmek isteyen oteller için hazırlandı."
+      "p2": "Bu sayfa; <b>Otel Çağrı Merkezi & Rezervasyon</b> yapısını, özellikle PMS–OTA entegrasyonlu, çok dilli ve satış odaklı bir “direct booking voice channel” haline getirmek isteyen oteller için hazırlandı."
     },
 
     "aiCapsule": {
@@ -23751,23 +23751,23 @@
         "items": [
           {
             "q": "Otel çağrı merkezi & rezervasyon hattı tam olarak nedir?",
-            "a": "Otel çağrı merkezi & rezervasyon hattı; misafirlerin telefon, WhatsApp, OTA mesajları ve web formu gibi kanallardan ilettiği talep, soru ve rezervasyon isteklerini <ul><li>çok dilli,</li><li>satış odaklı,</li><li>PMS ile entegre,</li><li>standart script ve süreçlerle</li></ul>yöneten bir iletişim ve satış yapısıdır. Amaç, bu kanalları “sadece bilgi verilen yer” değil, direkt rezervasyon üreten satış hattı haline getirmektir."
+            "a": "Otel çağrı merkezi & rezervasyon hattı; misafirlerin <b>telefon, WhatsApp, OTA mesajları ve web formu</b> gibi kanallardan ilettiği talep, soru ve rezervasyon isteklerini <ul><li>çok dilli,</li><li>satış odaklı,</li><li>PMS ile entegre,</li><li>standart script ve süreçlerle</li></ul>yöneten bir iletişim ve satış yapısıdır. Amaç, bu kanalları “sadece bilgi verilen yer” değil, <b>direkt rezervasyon üreten satış hattı</b> haline getirmektir."
           },
           {
             "q": "Otel çağrı merkezi yönetimi ne işe yarar?",
-            "a": "Doğru kurgulanmış bir çağrı merkezi: <ul><li>cevaplanma oranını yükseltir,</li><li>telefonla rezervasyon dönüşümünü artırır,</li><li>web/OTA kaynaklı kararsız misafiri direct kanala çeker,</li><li>PMS ve OTA ile entegre çalışarak overbooking ve veri hatalarını azaltır,</li><li>satış & dönüşüm raporlarında gerçek “voice channel” katkısını görünür kılar.</li></ul>"
+            "a": "Doğru kurgulanmış bir çağrı merkezi: <ul><li><b>Cevaplanma oranını</b> yükseltir,</li><li><b>Telefonla rezervasyon dönüşümünü</b> artırır,</li><li>web/OTA kaynaklı kararsız misafiri direct kanala çeker,</li><li>PMS ve OTA ile entegre çalışarak <b>overbooking ve veri hatalarını</b> azaltır,</li><li>Satış & dönüşüm raporlarında <b>gerçek “voice channel” katkısını</b> görünür kılar.</li></ul>"
           },
           {
             "q": "Neden otel için özel bir çağrı merkezi & rezervasyon hattı gerekir?",
-            "a": "Çünkü resepsiyon, yoğun sezonda <ul><li>check-in/out,</li><li>oda değişiklikleri,</li><li>misafir talepleri</li></ul>gibi operasyonel yük altında telefonları gerektiği gibi yönetemez. Özel rezervasyon hattı, bu yükü azaltır; misafirle konuşan ekip, tamamen rezervasyon ve satış odaklı olur."
+            "a": "Çünkü resepsiyon, yoğun sezonda <ul><li>check-in/out,</li><li>oda değişiklikleri,</li><li>misafir talepleri</li></ul>gibi operasyonel yük altında telefonları gerektiği gibi yönetemez. <b>Özel rezervasyon hattı</b>, bu yükü azaltır; misafirle konuşan ekip, tamamen <b>rezervasyon ve satış</b> odaklı olur."
           },
           {
             "q": "Otel çağrı merkezi sadece telefonla mı çalışır?",
-            "a": "Hayır. Modern otel call center yapısı genellikle <ul><li>telefon,</li><li>WhatsApp & SMS,</li><li>OTA mesaj kutuları,</li><li>web chat / canlı destek,</li><li>sosyal medya DM</li></ul>gibi çok kanallı (omnichannel) çalışır. Ama tüm bu kanalların arka planında, tek rezervasyon ve veri kaynağı olarak PMS olmalıdır."
+            "a": "Hayır. Modern otel call center yapısı genellikle <ul><li>telefon,</li><li>WhatsApp & SMS,</li><li>OTA mesaj kutuları,</li><li>web chat / canlı destek,</li><li>sosyal medya DM</li></ul>gibi çok kanallı (omnichannel) çalışır. Ama tüm bu kanalların arka planında, <b>tek rezervasyon ve veri kaynağı olarak PMS</b> olmalıdır."
           },
           {
             "q": "Otel çağrı merkezi & rezervasyon hattı hangi departmana bağlı olmalı?",
-            "a": "En sağlıklı modelde: <ul><li>gelir & satış (revenue / sales) hedefleriyle uyumlu,</li><li>PMS ve OTA yönetimiyle yakın çalışan,</li><li>doğrudan GM veya satış/gelir direktörüne raporlayan</li></ul>bir yapı olmalıdır. Sadece “operasyonel yanıt hattı” olarak değil, gelir üreten birim olarak konumlanmalıdır."
+            "a": "En sağlıklı modelde: <ul><li>gelir & satış (revenue / sales) hedefleriyle uyumlu,</li><li>PMS ve OTA yönetimiyle yakın çalışan,</li><li>doğrudan GM veya satış/gelir direktörüne raporlayan</li></ul>bir yapı olmalıdır. Sadece “operasyonel yanıt hattı” olarak değil, <b>gelir üreten birim</b> olarak konumlanmalıdır."
           },
           {
             "q": "Otel Çağrı Merkezi & Rezervasyon SSS kimler için uygundur?",
@@ -23779,7 +23779,7 @@
           },
           {
             "q": "Otel çağrı merkezi “müşteri hizmetleri” mi, “satış” hattı mı olmalı?",
-            "a": "İkisi de, ama öncelik satış ve rezervasyondan yana olmalı. <ul><li>önce misafirin ihtiyacını anlayan,</li><li>sonra uygun oda ve konsepti satış odaklı sunan,</li><li>en sonunda gerekli durumlarda şikâyet ve bilgi taleplerini yöneten</li></ul>yapı idealdir."
+            "a": "İkisi de, ama öncelik <b>satış ve rezervasyondan</b> yana olmalı. <ul><li>önce misafirin ihtiyacını anlayan,</li><li>sonra uygun oda ve konsepti satış odaklı sunan,</li><li>en sonunda gerekli durumlarda şikâyet ve bilgi taleplerini yöneten</li></ul>yapı idealdir."
           }
         ]
       },
@@ -23793,7 +23793,7 @@
           },
           {
             "q": "Otel çağrı merkezi & rezervasyon hattı tam olarak nedir?",
-            "a": "Misafirin telefonu veya mesajıyla başlayan süreci, teklif → rezervasyon → PMS kaydı zincirine dönüştüren çok dilli satış hattıdır."
+            "a": "Misafirin telefonu veya mesajıyla başlayan süreci, <b>teklif → rezervasyon → PMS kaydı</b> zincirine dönüştüren çok dilli satış hattıdır."
           },
           {
             "q": "Telefonla rezervasyon dönüşümü nasıl artırılır?",
@@ -23809,7 +23809,7 @@
           },
           {
             "q": "Otel çağrı merkezi direct booking oranını nasıl etkiler?",
-            "a": "Kararsız veya OTA’da araştırma yapan misafiri, telefonla ikna ederek OTA komisyonu ödenmeden direct rezervasyon almanızı sağlayan en kritik kanallardan biridir."
+            "a": "Kararsız veya OTA’da araştırma yapan misafiri, telefonla ikna ederek <b>OTA komisyonu ödenmeden</b> direct rezervasyon almanızı sağlayan en kritik kanallardan biridir."
           }
         ]
       },
@@ -23818,7 +23818,7 @@
         "items": [
           {
             "q": "Otel çağrı merkezi hangi kanalları kapsamalı?",
-            "a": "• Gelen & giden telefon çağrıları,\n• WhatsApp Business / SMS,\n• OTA mesaj kutuları (Booking.com Inbox, Expedia Messaging…),\n• web chat / canlı destek,\n• sosyal medya DM (Instagram/Facebook).\n\nBunların hepsi için tek ekip ve tek süreç tanımlanmalıdır."
+            "a": "• Gelen & giden telefon çağrıları,\n• WhatsApp Business / SMS,\n• OTA mesaj kutuları (Booking.com Inbox, Expedia Messaging…),\n• web chat / canlı destek,\n• sosyal medya DM (Instagram/Facebook).\n\nBunların hepsi için <b>tek ekip ve tek süreç</b> tanımlanmalıdır."
           },
           {
             "q": "Çok dilli otel çağrı merkezi nasıl kurgulanır?",
@@ -23830,11 +23830,11 @@
           },
           {
             "q": "Çalışma saatleri nasıl belirlenmeli?",
-            "a": "• gelen çağrı ve mesaj yoğunluğu,\n• hedef pazarın saat farkı,\n• OTA’dan gelen soru/istek yoğunluğu,\n\ngibi verilerle; minimum bir 08:00–23:00 bandı, yüksek hacimli otellerde ise 7/24 veya geç saate kadar hizmet düşünülmelidir."
+            "a": "• gelen çağrı ve mesaj yoğunluğu,\n• hedef pazarın saat farkı,\n• OTA’dan gelen soru/istek yoğunluğu,\n\ngibi verilerle; minimum bir 08:00–23:00 bandı, yüksek hacimli otellerde ise <b>7/24 veya geç saate kadar</b> hizmet düşünülmelidir."
           },
           {
             "q": "Çağrı merkezi sadece yüksek sezonda mı aktif olmalı?",
-            "a": "Hayır.\n• high season’da yük daha fazla,\n• shoulder ve low sezonda ise doğru kullanılırsa kampanya, CRM ve upsell için çok değerli bir araçtır.\n\nHer sezonda farklı rol alacak şekilde planlamak gerekir."
+            "a": "Hayır.\n• high season’da yük daha fazla,\n• shoulder ve low sezonda ise doğru kullanılırsa <b>kampanya, CRM ve upsell</b> için çok değerli bir araçtır.\n\nHer sezonda farklı rol alacak şekilde planlamak gerekir."
           },
           {
             "q": "Otel çağrı merkezi sadece inbound (gelen çağrı) mı yönetir?",
@@ -23859,11 +23859,11 @@
           },
           {
             "q": "Script nedir, otel çağrı merkezinde neden kritiktir?",
-            "a": "Script; karşılamadan kapanışa kadar ana cümle ve akışları standartlaştıran rehber metindir.\n• her temsilci farklı tarzda olsa da,\n• “marka dili” ve “satış omurgası” aynı kalır.\n\nBu, hem kaliteyi hem ölçülebilirliği artırır."
+            "a": "Script; karşılamadan kapanışa kadar <b>ana cümle ve akışları standartlaştıran</b> rehber metindir.\n• her temsilci farklı tarzda olsa da,\n• “marka dili” ve “satış omurgası” aynı kalır.\n\nBu, hem kaliteyi hem ölçülebilirliği artırır."
           },
           {
             "q": "“Script kullanırsak görüşmeler yapay olmaz mı?”",
-            "a": "Doğru yazılmış script:\n• temsilciye çerçeve ve güven verir,\n• birebir ezberletilen cümleler yerine,\n• temel mesaj ve sıralamayı standartlaştırır.\n\nYani script, görüşmenin doğallığını değil, odak ve kaliteyi artırır."
+            "a": "Doğru yazılmış script:\n• temsilciye çerçeve ve güven verir,\n• birebir ezberletilen cümleler yerine,\n• temel mesaj ve sıralamayı standartlaştırır.\n\nYani script, görüşmenin doğallığını değil, <b>odak ve kaliteyi</b> artırır."
           },
           {
             "q": "Otel çağrı merkezi için örnek satış script bileşenleri neler olabilir?",
@@ -23891,11 +23891,11 @@
           },
           {
             "q": "Çağrı merkezi satış odaklı çalışırken misafir memnun bizim için nasıl korunur?",
-            "a": "Satış odaklı olmak; misafirin ihtiyacını görmezden gelmek değil, ihtiyaca en uygun çözümü net ve ikna edici şekilde sunmak demektir.\n• yanlış oda, konsept veya tarih satmaya çalışmak,\n• kısa vadeli satış getirip uzun vadeli memnuniyetsizlik ve yorum problemi yaratır.\n\nSatış ve memnuniyet ayrı değil, birlikte düşünülmelidir."
+            "a": "Satış odaklı olmak; misafirin ihtiyacını görmezden gelmek değil, <b>ihtiyaca en uygun çözümü net ve ikna edici şekilde sunmak</b> demektir.\n• yanlış oda, konsept veya tarih satmaya çalışmak,\n• kısa vadeli satış getirip uzun vadeli memnuniyetsizlik ve yorum problemi yaratır.\n\nSatış ve memnuniyet ayrı değil, <b>birlikte</b> düşünülmelidir."
           },
           {
             "q": "Script ve süreçleri ne sıklıkla güncellemeliyim?",
-            "a": "• sezon değişimlerinde,\n• konsept veya fiyat politikanız değiştiğinde,\n• tekrarlayan şikâyet veya hata örüntüsü gördüğünüzde,\n• yeni pazar veya kanal eklediğinizde.\n\nEn azından sezon başında baştan sona gözden geçirmek gerekir."
+            "a": "• sezon değişimlerinde,\n• konsept veya fiyat politikanız değiştiğinde,\n• tekrarlayan şikâyet veya hata örüntüsü gördüğünüzde,\n• yeni pazar veya kanal eklediğinizde.\n\nEn azından <b>sezon başında</b> baştan sona gözden geçirmek gerekir."
           },
           {
             "q": "Çağrı merkezi & rezervasyon eğitimlerinde hangi başlıklar olmalı?",
@@ -23908,7 +23908,7 @@
         "items": [
           {
             "q": "Çağrı merkezi PMS/OTA ile nasıl entegre çalışır?",
-            "a": "• temsilci PMS’te gerçek zamanlı fiyat ve stok görür,\n• rezervasyonu direkt PMS üzerinde açar,\n• rezervasyon kaynağını (telefon/WhatsApp) işaretler,\n• OTA veya web üzerinden gelen talepler, PMS notlarıyla call center’a devredilir.\n\nBöylece tüm rezervasyonlar tek PMS akışında birleşir."
+            "a": "• temsilci PMS’te gerçek zamanlı fiyat ve stok görür,\n• rezervasyonu direkt PMS üzerinde açar,\n• rezervasyon kaynağını (telefon/WhatsApp) işaretler,\n• OTA veya web üzerinden gelen talepler, PMS notlarıyla call center’a devredilir.\n\nBöylece tüm rezervasyonlar <b>tek PMS akışında</b> birleşir."
           },
           {
             "q": "PMS’e işlenmeyen rezervasyonlar ne gibi riskler taşır?",
@@ -23924,7 +23924,7 @@
           },
           {
             "q": "PMS entegrasyonu hatalıysa çağrı merkezi ne gibi sorunlar yaşar?",
-            "a": "• PMS’te görünen fiyat ve stok, OTA/web’le uyuşmaz,\n• temsilci misafire yanlış bilgi verebilir,\n• iptal/değişiklikler PMS’te güncellenmez,\n• raporlar ve KPI’lar bozulur.\n\nÇağrı merkezi verimliliği, doğru entegrasyon ile doğrudan bağlantılıdır."
+            "a": "• PMS’te görünen fiyat ve stok, OTA/web’le uyuşmaz,\n• temsilci misafire yanlış bilgi verebilir,\n• iptal/değişiklikler PMS’te güncellenmez,\n• raporlar ve KPI’lar bozulur.\n\nÇağrı merkezi verimliliği, <b>doğru entegrasyon</b> ile doğrudan bağlantılıdır."
           },
           {
             "q": "Call center yazılımı ile PMS arasında entegrasyon kullanılmalı mı?",
@@ -23932,7 +23932,7 @@
           },
           {
             "q": "Entegrasyon logları ve hata raporları call center için neden önemlidir?",
-            "a": "• ne zaman hangi rezervasyonun PMS’e yazılamadığını,\n• hangi bağlantıların koptuğunu,\n• hangi alanlarda veri kaybı riski olduğunu\n\nentegrasyon logları gösterir. Bu sayede hem IT hem satış ekipleri, nerede hata olduğunu hızlıca tespit edebilir."
+            "a": "• ne zaman hangi rezervasyonun PMS’e yazılamadığını,\n• hangi bağlantıların koptuğunu,\n• hangi alanlarda veri kaybı riski olduğunu\n\nentegrasyon logları gösterir. Bu sayede hem IT hem satış ekipleri, <b>nerede hata olduğunu</b> hızlıca tespit edebilir."
           },
           {
             "q": "PMS + call center entegrasyonunun raporlamaya etkisi nedir?",
@@ -23974,11 +23974,11 @@
           },
           {
             "q": "Call center performansı Satış & Dönüşüm panellerine nasıl bağlanır?",
-            "a": "• GA4 ve reklam panellerinden gelen trafik & lead verisi,\n• call center sisteminden gelen çağrı & teklif verisi,\n• PMS’ten gelen rezervasyon & gelir verisi\n\nLooker Studio gibi bir panelde birleştirilerek; trafik → çağrı → rezervasyon → gelir zinciri raporlanabilir."
+            "a": "• GA4 ve reklam panellerinden gelen trafik & lead verisi,\n• call center sisteminden gelen çağrı & teklif verisi,\n• PMS’ten gelen rezervasyon & gelir verisi\n\nLooker Studio gibi bir panelde birleştirilerek; <b>trafik → çağrı → rezervasyon → gelir</b> zinciri raporlanabilir."
           },
           {
             "q": "Agent bazlı performans raporları nasıl kurgulanmalı?",
-            "a": "Her agent için:\n• cevaplanan çağrı sayısı,\n• satış/rezervasyona dönen çağrı sayısı,\n• rezervasyon başına gelir,\n• script & kalite skorları,\n\ngibi metrikler raporlanmalıdır. Amaç, gelişim odaklı, adil ve şeffaf bir performans yönetimidir; “sadece sıralama” baskısı değil."
+            "a": "Her agent için:\n• cevaplanan çağrı sayısı,\n• satış/rezervasyona dönen çağrı sayısı,\n• rezervasyon başına gelir,\n• script & kalite skorları,\n\ngibi metrikler raporlanmalıdır. Amaç, <b>gelişim odaklı</b>, adil ve şeffaf bir performans yönetimidir; “sadece sıralama” baskısı değil."
           }
         ]
       },
@@ -23987,7 +23987,7 @@
         "items": [
           {
             "q": "Cevapsız veya ölçülemeyen çağrılar neden bu kadar kritik bir problem?",
-            "a": "Çünkü:\n• “sordum ama ulaşamadım” hissi,\n• direkt olarak OTA’ya veya başka otele gitmek demektir.\n\nHer cevapsız ve kayıt dışı çağrı, potansiyel direct rezervasyon kaybıdır."
+            "a": "Çünkü:\n• “sordum ama ulaşamadım” hissi,\n• direkt olarak OTA’ya veya başka otele gitmek demektir.\n\nHer cevapsız ve kayıt dışı çağrı, <b>potansiyel direct rezervasyon kaybıdır</b>."
           },
           {
             "q": "Standart dışı teklif süreçleri ne tür riskler doğurur?",
@@ -23999,7 +23999,7 @@
           },
           {
             "q": "Satışa dönüşmeyen aramalar neden sistematik takip edilmelidir?",
-            "a": "• neden satışa dönüşmediğini bilmezseniz (fiyat, tarih, oda, hizmet, iletişim dili),\n• script, fiyat ve kampanya stratejilerinizi iyileştiremezsiniz.\n\nSatışa dönüşmeyen aramalar, öğrenme ve optimizasyon için altın madeni gibidir."
+            "a": "• neden satışa dönüşmediğini bilmezseniz (fiyat, tarih, oda, hizmet, iletişim dili),\n• script, fiyat ve kampanya stratejilerinizi iyileştiremezsiniz.\n\nSatışa dönüşmeyen aramalar, <b>öğrenme ve optimizasyon için altın madeni</b> gibidir."
           },
           {
             "q": "“Telefonla rezervasyon süreci ayrı, PMS süreci ayrı” durumunun uzun vadeli etkisi nedir?",
@@ -24020,7 +24020,7 @@
         "items": [
           {
             "q": "Türkiye’deki resort destinasyonlarda çağrı merkezi neden ekstra değerli?",
-            "a": "• aile ve grup rezervasyonları,\n• uzun konaklama ve yüksek sepet tutarı,\n• çok dilli ve çok pazarlı yapı,\n\ntelefon ve WhatsApp üzerinden gelen talebi doğru yönettiğinizde, yüksek değerde direct rezervasyon fırsatı sunar."
+            "a": "• aile ve grup rezervasyonları,\n• uzun konaklama ve yüksek sepet tutarı,\n• çok dilli ve çok pazarlı yapı,\n\ntelefon ve WhatsApp üzerinden gelen talebi <b>doğru yönettiğinizde</b>, yüksek değerde direct rezervasyon fırsatı sunar."
           },
           {
             "q": "Antalya, Belek, Kemer, Side, Bodrum, Alanya otellerinde çağrı merkezi stratejisi nasıl olmalı?",
@@ -24028,7 +24028,7 @@
           },
           {
             "q": "City otellerinde çağrı merkezi & rezervasyon hattının rolü nedir?",
-            "a": "• business & corporate talepleri,\n• kısa konaklamalı rezervasyonlar,\n• MICE ve grup ön talepleri.\n\nCity otellerde call center, özellikle kurumsal ve tekrarlı misafir için kritik bir kontak noktasıdır."
+            "a": "• business & corporate talepleri,\n• kısa konaklamalı rezervasyonlar,\n• MICE ve grup ön talepleri.\n\nCity otellerde call center, özellikle <b>kurumsal ve tekrarlı misafir</b> için kritik bir kontak noktasıdır."
           },
           {
             "q": "Otel çağrı merkezi ve OTA yönetimi birlikte nasıl çalışmalı?",
@@ -24041,7 +24041,7 @@
         "items": [
           {
             "q": "Küçük oteller için ayrı bir çağrı merkezi şart mı?",
-            "a": "Oda ve çağrı hacmine göre değişir;\n• küçük otellerde resepsiyon/rezervasyon hattı,\n• net script ve süreçlerle “mini call center” gibi yönetilebilir.\n\nYeter ki sahibi bellı bir süreç ve raporlama olsun."
+            "a": "Oda ve çağrı hacmine göre değişir;\n• küçük otellerde resepsiyon/rezervasyon hattı,\n• net script ve süreçlerle “mini call center” gibi yönetilebilir.\n\nYeter ki <b>sahibi bellı bir süreç ve raporlama</b> olsun."
           },
           {
             "q": "Outsource call center tamamen otel dışında mı olmalı?",
@@ -24049,7 +24049,7 @@
           },
           {
             "q": "Otel çağrı merkezi & rezervasyon yönetimi için dış destek almak mantıklı mı?",
-            "a": "Özellikle çok dilli, 7/24, yüksek hacimli ve OTA–PMS entegrasyonlu yapılar için;\n• süreç tasarımı,\n• script & eğitim,\n• KPI & raporlama sistemi\n\niçin deneyimli bir partnerle çalışmak, deneme–yanılma süresini ve kaybını ciddi biçimde azaltır."
+            "a": "Özellikle çok dilli, 7/24, yüksek hacimli ve OTA–PMS entegrasyonlu yapılar için;\n• süreç tasarımı,\n• script & eğitim,\n• KPI & raporlama sistemi\n\niçin deneyimli bir partnerle çalışmak, <b>deneme–yanılma süresini ve kaybını</b> ciddi biçimde azaltır."
           }
         ]
       }
