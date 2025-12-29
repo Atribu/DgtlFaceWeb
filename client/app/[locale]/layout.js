@@ -10,6 +10,7 @@ import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
 import Script from "next/script";
 import localFont from "next/font/local";
+import FloatingFaqButton from "./components/common/FloatingFaqButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -95,6 +96,7 @@ export default async function RootLayout({ children,  params }) {
         <HeaderWrapper />
         <CookiePopup />
         {children}
+         <FloatingFaqButton />
         <Footer />
         </NextIntlClientProvider>
       </body>

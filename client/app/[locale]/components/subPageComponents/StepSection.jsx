@@ -191,12 +191,12 @@ const handleCardClick = (href) => {
   ) : (
     <p>{card.text}</p>
   )}
-                      <Link
+                      {/* <Link
                         href={card.buttonLink || "/"}
                         className="gradient-explore-button flex text-[12px] lg:text-[14px] text-white w-[114px] h-[42px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-0 absolute bottom-[34px] "
                       >
                         {buttonText}
-                      </Link>
+                      </Link> */}
                     </div>
 
                     {/* ServicesCarouselWrapper sağ altta */}

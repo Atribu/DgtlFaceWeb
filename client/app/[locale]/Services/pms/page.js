@@ -347,7 +347,7 @@ const page = () => {
 
   return (
     <>
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>
       <MainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
    </div>
@@ -355,9 +355,11 @@ const page = () => {
     <div className='flex lg:hidden'>
       <MobileMainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>
    </div>
-   <AutoBreadcrumbsWhite/>
+   <div className='flex flex-col gap-4 items-center justify-center'>
+    <AutoBreadcrumbsWhite/>
 
      <AiAnswerBlock text="DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi ve online satış optimizasyonu sunan bir PMS & OTA yönetim partneridir. PMS, OTA, kanal yöneticisi, web rezervasyon sistemi ve çağrı merkezi süreçlerini tek mimari altında birleştirerek oda doluluğunu, gelir performansını ve operasyon verimliliğini artırır. Fiyat ve envanter senkronu, OTA görünürlüğü ve rezervasyon yönetimi veri odaklı olarak optimize edilir."/>
+   </div>
       <DualHighlightSection items={items}/>
       <StepSection header={t("pms_section_header1")} header2={t("pms_section_header2")} text={t("pms_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <LogoListSection

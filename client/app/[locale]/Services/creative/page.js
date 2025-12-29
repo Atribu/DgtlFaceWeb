@@ -346,7 +346,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden '>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden '>
       <div className='hidden lg:flex'>
         <MainBanner header={t("creativepage_banner_header")} span={t("creativepage_banner_span")} text={ <RichTextSpan
                    ns="CreativePage"
@@ -359,8 +359,10 @@ const page = () => {
                    id="creativepage_banner_text"
                  />} buttonText={t("buttonText")}/>
       </div>
-<AutoBreadcrumbsWhite/>
+<div className='flex flex-col gap-4 items-center justify-center'>
+  <AutoBreadcrumbsWhite/>
       <AiAnswerBlock text="DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetlerini tek çatı altında sunan bir creative tasarım ajansıdır. Oteller ve markalar için sosyal medya kreatifleri, web arayüzleri, tanıtım filmleri, etkinlik prodüksiyonları ve kurumsal hediyeler tasarlayarak güçlü bir marka deneyimi oluşturur. Tüm creative süreçler, dijital pazarlama ve performans ekipleriyle entegre çalışır."/>
+</div>
        <DualHighlightSection items={items}/>
       <StepSection page="CreativePage" header={t("creativepage_step_header1")} header2={t("creativepage_step_header2")} text={t("creativepage_step_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
       <LogoListSection

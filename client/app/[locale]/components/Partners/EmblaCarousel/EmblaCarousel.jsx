@@ -37,6 +37,7 @@ export default function EmblaCarousel({ slides }) {
                   src={imgObj.src}
                   alt={`Partner ${index + 1}`}
                   className="max-h-17 object-contain"
+                   loading="lazy"
                 />
               </div>
             </div>

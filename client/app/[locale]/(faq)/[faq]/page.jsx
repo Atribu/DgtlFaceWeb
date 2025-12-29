@@ -6,6 +6,9 @@ import { FAQ_MAP } from "../faqMap";
 import { FAQ_JSONLD_MAP } from "../faqJsonLdMap";
 import SearchBanner from "../../sss/components/SearchBanner";
 import FaqMain from "../../sss/components/FaqMain";
+import Breadcrumbs from "./components/Breadcrumbs"; 
+import { FAQ_DEPT_CRUMB_MAP, FAQ_DEPT_LABEL_MAP } from "../../faqRouteMap";
+
 
 function metaFromJsonLd(jsonLd) {
   if (!jsonLd) return null;
@@ -17,7 +20,7 @@ function metaFromJsonLd(jsonLd) {
 }
 
 // Google'a "standart" şekilde yansıtma katmanı
-function buildEnhancedJsonLd(baseJsonLd) {
+function buildEnhancedJsonLd(baseJsonLd, slug) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
 
   const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
@@ -25,12 +28,12 @@ function buildEnhancedJsonLd(baseJsonLd) {
 
   const nodes = [];
 
-  // 1) Asıl FAQPage (orijinal schema)
   nodes.push(baseJsonLd);
 
-  // 2) WebPage speakable (AI capsule + voice summary + voice queries)
-  // Not: Google speakable'ı resmi olarak daha çok news için kullandı ama
-  // burada "sayfada şu bloklar var" sinyalini standart ve temiz şekilde veriyoruz.
+  // ✅ BreadcrumbList ekle
+  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug);
+  if (breadcrumb) nodes.push(breadcrumb);
+
   nodes.push({
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -45,8 +48,6 @@ function buildEnhancedJsonLd(baseJsonLd) {
     },
   });
 
-  // 3) Voice queries'i ayrıca ItemList olarak da ver (standart, anlaşılır)
-  // Kaynak: JSON-LD içindeki dgVoiceQueryExamples alanı
   const voiceQueries = Array.isArray(baseJsonLd.dgVoiceQueryExamples)
     ? baseJsonLd.dgVoiceQueryExamples
     : [];
@@ -65,12 +66,66 @@ function buildEnhancedJsonLd(baseJsonLd) {
     });
   }
 
-  // 4) AI Capsule / Voice Summary'yi "standard" şekilde ayrıca WebPage mainEntityOfPage gibi vermek istersen:
-  // (opsiyonel) Burada sadece aynı WebPage node'una name/description üzerinden zaten bağlıyız.
-  // İstersen ayrıca "about" olarak ekleyebilirsin ama şart değil.
-
   return nodes;
 }
+
+
+/**breadcrumb üretme */
+function buildBreadcrumbJsonLd(baseJsonLd, slug) {
+  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
+
+  const pageUrl = baseJsonLd.url || "";
+  const inLanguage = baseJsonLd.inLanguage || "tr";
+
+  if (!pageUrl) return null;
+
+  // Locale tespiti (sen localePrefix always kullanıyorsun)
+  const locale = pageUrl.includes("/en/") ? "en" : pageUrl.includes("/ru/") ? "ru" : "tr";
+
+  // SSS index URL
+  const faqIndexUrl = `https://dgtlface.com/${locale}/sss`;
+
+  // Departman slug + label + url
+  const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
+  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[deptSlug] || "Kategori") : null;
+  const deptUrl = deptSlug ? `https://dgtlface.com/${locale}/${deptSlug}` : "";
+
+  const items = [];
+
+  // 1) Home
+  items.push({
+    name: "Ana Sayfa",
+    item: `https://dgtlface.com/${locale}`, // istersen routing'e göre /tr/anasayfa da yaparız
+  });
+
+  // 2) SSS index
+  items.push({ name: "SSS", item: faqIndexUrl });
+
+  // 3) Departman (varsa)  ✅ İŞTE BURAYA
+  if (deptUrl && deptLabel) {
+    items.push({ name: deptLabel, item: deptUrl });
+  }
+
+  // 4) Current page
+  items.push({
+    name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || "SSS",
+    item: pageUrl,
+  });
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
+    inLanguage,
+    itemListElement: items.map((it, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: it.name,
+      item: it.item,
+    })),
+  };
+}
+
 
 
 export async function generateMetadata({ params }) {
@@ -93,7 +148,43 @@ export default function Page({ params }) {
 
   if (!pageNs) notFound();
 
-  const jsonLdNodes = buildEnhancedJsonLd(baseJsonLd);
+  const jsonLdNodes = buildEnhancedJsonLd(baseJsonLd, slug);
+
+  const locale = params?.locale || "tr";
+
+// 1) departman slug’ını bul (seo-sss / sem-sss vs)
+const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
+
+// 2) departman label’ı
+const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[deptSlug] || "Kategori") : null;
+
+// 3) URL’leri locale’li üret
+const homeHref = `/${locale}`;            // /tr
+const faqIndexHref = `/${locale}/sss`;    // /tr/sss
+const deptHref = deptSlug ? `/${locale}/${deptSlug}` : null;
+
+// 4) current sayfa label’ında "SSS" tekrarını azalt (opsiyonel)
+// Örn: "SEO SSS" yerine sadece "SEO" demek istiyorsan burada kırparsın
+const currentLabelRaw = baseJsonLd?.dgPageName || baseJsonLd?.name || "SSS";
+const currentLabel = currentLabelRaw.replace(/\s*SSS\s*/gi, " ").trim(); // istersen bunu kaldır
+
+const currentHref =
+  baseJsonLd?.url?.replace("https://dgtlface.com", "") || `/${locale}/${slug}`;
+
+const crumbItems = [
+  { label: "Ana Sayfa", href: homeHref },
+
+  // /sss sayfasında sadece Anasayfa -> SSS göster
+  ...(slug === "sss"
+    ? [{ label: "SSS", href: faqIndexHref }]
+    : [
+        { label: "SSS", href: faqIndexHref },
+        ...(deptSlug ? [{ label: deptLabel, href: deptHref }] : []),
+        { label: (baseJsonLd?.dgPageName || baseJsonLd?.name || "SSS"), href: currentHref },
+      ]),
+];
+
+
 
   return (
     <div className="flex flex-col max-w-full">
@@ -107,6 +198,7 @@ export default function Page({ params }) {
       ) : null}
 
       <SearchBanner faqSlug={slug} />
+       <Breadcrumbs items={crumbItems} />
       <FaqMain pageNs={pageNs} />
     </div>
   );

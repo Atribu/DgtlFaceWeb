@@ -387,9 +387,11 @@ const cards = [
       <div className='flex lg:hidden'>
       <MobileMainBanner  header={t("sem_banner_header")} span={t("sem_banner_span")} text={t("sem_banner_text")}  buttonText={t("buttonText")}/>
    </div>
-   <AutoBreadcrumbsWhite/>
+   <div className='flex flex-col item-center justify-center gap-4'>
+    <AutoBreadcrumbsWhite/>
 
      <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni, hedef kitle ve dönüşüm takibi gibi tüm süreçler entegre ilerler. Özellikle oteller ve turizm markaları için görünürlük, doluluk ve gelir artışını sağlayan, veriye dayalı bir dijital reklam modeli sunar."/>
+   </div>
      <DualHighlightSection items={items} />
       <StepSection header={""} header2={t("sem_section_header1")} text={t("sem_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
        <LogoListSection

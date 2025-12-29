@@ -251,6 +251,7 @@ const renderRichDescription = (key) => {
               width={Dgtlface.width}
               height={Dgtlface.height}
               className="absolute inset-0 w-full h-full object-cover"
+               loading="lazy"
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>
@@ -300,6 +301,7 @@ const renderRichDescription = (key) => {
               height={DgtlfaceImg2.height}
               alt="DGTLFACE: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Partneriniz"
               className="absolute inset-0 w-full h-full object-cover"
+               loading="lazy"
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>
@@ -335,6 +337,7 @@ const renderRichDescription = (key) => {
               height={DgtlfaceImg3.height}
               alt="DGTLFACE: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Partneriniz"
               className="absolute inset-0 w-full h-full object-cover"
+               loading="lazy"
             />
             {/* Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#140f25]/0 via-[#140f25]/50 to-[#140f25]"></div>

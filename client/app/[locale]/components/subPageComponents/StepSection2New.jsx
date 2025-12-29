@@ -77,6 +77,7 @@ return (
                       width={item.image?.width || 444}
                       height={item.image?.height || 312}
                       className="rounded-[22px] flex object-cover w-[300px] md:w-[400px] h-auto lg:w-[444px] lg:h-[312px]"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80 w-[300px] md:w-[400px] lg:w-[444px]" />
                   </div>
@@ -170,6 +171,7 @@ return (
                       width={item.image.width || 444}
                       height={item.image.height}
                       className="rounded-[22px] flex  w-[300px] md:w-[400px] h-auto lg:w-[444px] lg:h-[312px]"
+                      loading="lazy"
                     />
                     <div className="absolute inset-0 rounded-[22px] bg-[linear-gradient(299deg,rgba(84,185,207,0.75)_2.48%,rgba(84,124,207,0.75)_50.42%,rgba(167,84,207,0.75)_97.37%)] mix-blend-color transition-all group-hover:opacity-80  w-[300px] md:w-[400px] h-auto lg:w-[444px]" />
                   </div>

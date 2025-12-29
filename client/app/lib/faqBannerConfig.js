@@ -87,7 +87,7 @@ const SEO_CHIPS = [
     ];
 
       const Hotel_CHIPS = [
-      { label: "Otel Dijital Dönüşüm", href: "otel-dijital-pazarlama-sss" },
+      { label: "Otel Dijital Dönüşüm", href: "/otel-dijital-pazarlama-sss" },
        { label: "Otel SEO", href: "/otel-seo-sss" },
       { label: "Otel Sosyal Medya", href: "/otel-sosyalmedya-sss" },
       { label: "Otel Reklam", href: "/otel-reklam-sss" },

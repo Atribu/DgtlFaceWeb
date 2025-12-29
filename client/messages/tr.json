@@ -22667,9 +22667,9 @@
     },
 
     "intro": {
-      "p1": "Google Ads, Meta, YouTube, metasearch, programatik display… Yanlış kurulduğunda bütçe yanar; doğru kurulduğunda doluluk ve gelir artar.",
-      "p2": "Bu SSS; özellikle Antalya–Belek–Kemer–Side–Bodrum–Alanya gibi destinasyonlarda çalışan oteller için, reklam → talep → rezervasyon → gelir zincirini netleştirmek amacıyla hazırlandı.",
-      "p3": "Aşağıdaki sorular, otel reklam yönetimini uçtan uca anlamanızı sağlar."
+      "p1": "Google Ads, Meta, YouTube, metasearch, programatik display… Yanlış kurulduğunda bütçe yanar; doğru kurulduğunda <b>doluluk ve gelir artar</b>.",
+      "p2": "Bu SSS; özellikle <b>Antalya–Belek–Kemer–Side–Bodrum–Alanya</b> gibi destinasyonlarda çalışan oteller için, <b>reklam → talep → rezervasyon → gelir</b> zincirini netleştirmek amacıyla hazırlandı.",
+      "p3": "Aşağıda <b>65 adet soru–cevap </b> ile otel reklam yönetimini uçtan uca toparlıyoruz."
     },
 
     "sections": {
@@ -22678,11 +22678,11 @@
         "items": [
           {
             "q": "Otel reklam yönetimi nedir?",
-            "a": "Otel reklam yönetimi; <ul><li>Google Ads,</li><li>Meta (Facebook & Instagram),</li><li>YouTube,</li><li>metasearch,</li><li>gerektiğinde programatik reklamlar</li></ul>üzerinden oda satışı ve rezervasyon odaklı kampanyalar kurma, yönetme, optimize etme ve raporlama sürecidir. Hedef sadece gösterim değil; gelir ve ROAS üretmektir."
+            "a": "Otel reklam yönetimi; <ul><li>Google Ads,</li><li>Meta (Facebook & Instagram),</li><li>YouTube,</li><li>metasearch,</li><li>gerektiğinde programatik reklamlar</li></ul>üzerinden <b>oda satışı ve rezervasyon</b> odaklı kampanyalar kurma, yönetme, optimize etme ve raporlama sürecidir. Hedef sadece gösterim değil; <b>gelir ve ROAS</b> üretmektir."
           },
           {
             "q": "Neden oteller için dijital reklam zorunlu hale geldi?",
-            "a": "Çünkü misafir;<ul><li>tatilini arama motoru + OTA + sosyal medya kombinasyonuyla planlıyor,</li><li>fiyat ve konsept karşılaştırmasını online yapıyor,</li><li>kararlarının büyük bölümünü mobil ekranlarda veriyor.</li></ul>Bu yolculukta görünmezseniz, sadece OTA’nın listelediği bir otel olursunuz."
+            "a": "Çünkü misafir;<ul><li>tatilini arama motoru + OTA + sosyal medya kombinasyonuyla planlıyor,</li><li>fiyat ve konsept karşılaştırmasını online yapıyor,</li><li>kararlarının büyük bölümünü mobil ekranlarda veriyor.</li></ul>Bu yolculukta görünmezseniz, <b>sadece OTA’nın listelediği</b> bir otel olursunuz."
           },
           {
             "q": "Otel reklam yönetimi hangi temel kanalları kapsar?",
@@ -22690,7 +22690,7 @@
           },
           {
             "q": "Otel reklam yönetimi SEO ve sosyal medyadan nasıl ayrılır?",
-            "a": "<ul><li><b>SEO:</b> uzun vadeli, organik görünürlük ve direct rezervasyon temeli</li><li><b>Sosyal medya:</b> marka algısı, topluluk ve talep oluşturma</li><li><b>Reklam:</b> hızlı trafik, hedeflenmiş talep ve rezervasyon</li></ul>Reklam, doğrudan bütçe harcanan katmandır; ölçümsüz ve stratejisiz bırakılması en riskli alandır."
+            "a": "<ul><li><b>SEO:</b> uzun vadeli, organik görünürlük ve direct rezervasyon temeli</li><li><b>Sosyal medya:</b> marka algısı, topluluk ve talep oluşturma</li><li><b>Reklam:</b> hızlı trafik, hedeflenmiş talep ve rezervasyon</li></ul>Üçü de birbirini besler ama; reklam yönetimi <b>parayı direkt harcadığınız</b> katmandır – ölçümsüz veya stratejisiz bırakmanız en riskli olanıdır."
           },
           {
             "q": "Hangi oteller için performans odaklı reklamcılık özellikle anlamlıdır?",
@@ -22708,11 +22708,11 @@
         "items": [
           {
             "q": "Otel reklam yönetimi tam olarak nedir?",
-            "a": "Google Ads, Meta, YouTube ve benzeri kanallarda oteliniz için rezervasyon odaklı reklam kampanyalarını planlamak, yönetmek ve optimize etmektir."
+            "a": "Google Ads, Meta, YouTube ve benzeri kanallarda oteliniz için <b>rezervasyon odaklı reklam kampanyalarını planlamak, yönetmek ve optimize etmek</b> demektir."
           },
           {
             "q": "Google Ads, Meta ve YouTube’u birlikte nasıl kullanmalıyım?",
-            "a": "Genelde <ul><li>Google Ads → niyetli arama + metasearch,</li><li>Meta → ilgi hedefleme ve remarketing,</li><li>YouTube → üst funnel video bilinirlik</li></ul>şeklinde funnel mantığıyla birlikte kurgulanmalıdır."
+            "a": "Genelde <ul><li>Google Ads → niyetli arama + metasearch,</li><li>Meta → ilgi hedefleme ve remarketing,</li><li>YouTube → üst funnel video bilinirlik</li></ul>şeklinde <b>funnel mantığıyla</b> birlikte kurgulanmalıdır."
           },
           {
             "q": "Hangi ülkelere reklam vermeliyim?",
@@ -22728,7 +22728,7 @@
           },
           {
             "q": "Otel reklamlarını ajans mı, iç ekip mi yönetmeli?",
-            "a": "Çoğu otel için hibrit model idealdir: <ul><li>ajans → teknik kurulum, optimizasyon, raporlama,</li><li>iç ekip → otel bilgisi, görsel/video içerik ve onay süreçleri.</li></ul>"
+            "a": "Çoğu otel için <b>hibrit model</b> idealdir: <ul><li>ajans → teknik kurulum, optimizasyon, raporlama,</li><li>iç ekip → otel bilgisi, görsel/video içerik ve onay süreçleri.</li></ul>"
           }
         ]
       },
@@ -22750,7 +22750,7 @@
       },
       {
         "q": "Meta Ads ile oda satışı nasıl artırılır?",
-        "a": "<ul><li>destinasyon ve ilgi alanı bazlı yeni kitlelere ulaşarak,</li><li>web ve OTA davranışlarına göre remarketing yaparak,</li><li>DM veya WhatsApp üzerinden lead toplayarak</li></ul>çekici kreatif ve net CTA’larla özellikle kararsız kullanıcılar aksiyona geçirilebilir."
+        "a": "<ul><li>destinasyon ve ilgi alanı bazlı yeni kitlelere ulaşarak,</li><li>web ve OTA davranışlarına göre remarketing yaparak,</li><li>DM veya WhatsApp üzerinden lead toplayarak</li></ul>çekici kreatif ve net CTA’larla özellikle kararsız kullanıcılar <b>aksiyona</b> geçirilebilir."
       },
       {
         "q": "YouTube reklamları otel için hangi aşamada rol oynar?",
@@ -22762,11 +22762,11 @@
       },
       {
         "q": "Remarketing ve RLSA kampanyaları neden kritik?",
-        "a": "<ul><li>otel kararı tek oturumda verilmez,</li><li>karar süreci günler veya haftalar sürebilir.</li></ul>Remarketing ve RLSA, sıcak kullanıcıyı tekrar yakalamak ve OTA yerine direct rezervasyon almak için kritik rol oynar."
+        "a": "Otel kararı genellikle:<ul><li>otel kararı tek oturumda verilmez,</li><li>karar süreci günler veya haftalar sürebilir.</li></ul>Remarketing (web ziyaretçileri ve sepete gelenler) ve RLSA (arama yapan, daha önce sitenizi ziyaret etmiş kullanıcılar) kampanyaları; sıcak kullanıcıyı tekrar yakalamak ve OTA yerine direct rezervasyon almak için <b>altın değerdedir.</b>"
       },
       {
         "q": "Brand kampanyaları (otel adı aramaları) yürütmek şart mı?",
-        "a": "<ul><li>OTA ve rakipler marka adınızla reklam veriyorsa,</li><li>brand kampanyaları genellikle en yüksek ROAS’ı sağlıyorsa</li></ul>marka alanını tamamen organik + OTA’ya bırakmak direct fırsat kaybı anlamına gelir."
+        "a": "OTA ve rakipler otel adınızla arama alanına giriyorsa: <b>evet, genellikle şart</b>.<ul><li>marka kampanyaları ROAS açısından en verimli kampanyalardır,</li><li>marka alanını tamamen organik + OTA’ya bırakmak, direct fırsatı kaybetmek demektir.</li></ul>"
       }
     ]
   },
@@ -22776,31 +22776,31 @@
     "items": [
       {
         "q": "Hangi ülkelere reklam vermeliyim?",
-        "a": "<ul><li>PMS ve OTA raporlarından en çok gelir aldığınız ülkeler,</li><li>büyüme hedeflediğiniz pazarlar,</li><li>bütçe ile anlamlı sonuç üretilebilecek ülkeler</li></ul>belirlenmeli; her ülkeye rastgele reklam vermek yerine 1–2 ana pazara odaklanmak daha verimlidir."
+        "a": "<ul><li>PMS ve OTA raporlarından en çok gelir aldığınız ülkeler,</li><li>büyüme hedeflediğiniz pazarlar,</li><li>bütçe ile anlamlı sonuç üretilebilecek ülkeler</li></ul>belirleyin. Her ülkeye rastgele reklam vermek yerine, <b>en az 1–2 ana pazara</b> seçip derin ve optimize çalışmak daha verimlidir."
       },
       {
         "q": "Ülke ve pazar bazlı bütçe nasıl bölünmeli?",
-        "a": "<ul><li>pazar büyüklüğü,</li><li>geçmiş gelir performansı,</li><li>hedeflenen büyüme oranı,</li><li>sezon ve uçuş/talep dinamikleri</li></ul>dikkate alınarak; bütçe subjektif değil veri temelli dağıtılmalıdır."
+        "a": "<ul><li>pazar büyüklüğü,</li><li>geçmiş gelir performansı,</li><li>hedeflenen büyüme oranı,</li><li>sezon ve uçuş/talep dinamikleri</li></ul>göz önünde bulundurulmalıdır. Bütçeyi sadece “öznel hislere” göre değil, <b>gelir payı ve potansiyel </b> kombinasyonuna göre bölmek gerekir."
       },
       {
         "q": "Aile, çift ve arkadaş grubu segmentleri nasıl ayrıştırılır?",
-        "a": "<ul><li>kreatif ve mesajın segmente göre uyarlanması,</li><li>yaş, ilgi alanı ve davranış bazlı hedefleme,</li><li>ayrı kampanya veya reklam grupları</li></ul>Aynı kampanyada tüm segmentleri karıştırmak mesaj gücünü düşürür."
+        "a": "<ul><li>kreatif ve mesaj → 'aile için', 'balayı', 'yetişkin' tonlarında ayrıştırılmalı,,</li><li>hedefleme → yaş, ilgi alanı, aile durumu, davranış sinyalleri,</li><li>kampanya yapısı → ayrı ad set / reklam grupları.</li></ul>Aynı kampanyada tüm segmentleri karıştırmak, mesajın gücünü düşürür."
       },
       {
         "q": "Yeni açılan oteller için reklam hedefleme yaklaşımı nasıl olmalı?",
-        "a": "<ul><li>önce marka ve destinasyon bilinirliği,</li><li>konsept odaklı kampanyalar,</li><li>OTA ve metasearch görünürlüğü ile eş zamanlı,</li><li>remarketing ve marka aramalarıyla direct talep oluşturma</li></ul>Yeni otel önce hatırlanır, sonra satılır."
+        "a": "<ul><li>önce marka bilinirliği (video/görsel ve erişim),</li><li>destinasyon + konsept odaklı kampanyalar,</li><li>OTA ve metasearch tarafında da görünürlük sağlanırken,</li><li>remarketing ve marka arama kampanyaları ile direct talep kuvvetlendirilmelidir.</li></ul>Yeni otel, önce “hatırlanır” olmayı sonra “satılır” olmayı hedeflemeli."
       },
       {
         "q": "Oturmuş markalar için reklam stratejisi nasıl farklılaşır?",
-        "a": "<ul><li>yüksek ROAS’lı brand kampanyalar,</li><li>yeni pazar ve segment testleri,</li><li>remarketing ve CRM entegrasyonu ile tekrar rezervasyon</li></ul>öne çıkar."
+        "a": "<ul><li>marka araması güçlü olduğu için brand kampanyalar yüksek ROAS getirir,</li><li>pazar genişlediği ölçüde yeni ülke ve segment testleri yapılabilir,</li><li>remarketing & CRM entegrasyonu ile tekrar rezervasyon (loyalty) kampanyaları öne çıkar.</li></ul>"
       },
       {
         "q": "B2B (acente, MICE, corporate) için reklam stratejisi nasıl olmalı?",
-        "a": "<ul><li>LinkedIn ve display kampanyaları,</li><li>toplantı ve grup odaklı landing page’ler,</li><li>lead form ve teklif talebi kurguları</li></ul>B2B reklamcılık, B2C’den daha niş ve farklı bir yapı gerektirir."
+        "a": "<ul><li>LinkedIn, display ve özel landing page’ler,</li><li>toplantı salonları, incentive, grup rezervasyonları odaklı mesajlar,</li><li>lead form ve teklif talebi üzerine kurulu kampanyalar,</li></ul>B2C’den farklı, daha niş bir kanal ve creative seti gerektirir."
       },
       {
         "q": "Meta’da ilgi alanı ve lookalike hedefleme oteller için nasıl kullanılır?",
-        "a": "<ul><li>mevcut misafir listesinden lookalike kitleler,</li><li>seyahat, tatil, aile, golf, lüks gibi ilgi alanları,</li><li>bilinirlikten remarketing’e akan funnel yapısı</li></ul>ile Meta güçlü bir talep oluşturma kanalı haline gelir."
+        "a": "<ul><li>mevcut misafir listesinden lookalike kitleler oluşturabilir,</li><li>seyahat, tatil, aile, golf, lüks gibi ilgi alanlarıyla filtreleyebilir,</li><li>bu kitleleri önce bilinirlik, sonra remarketing funnel’ına alabilirsiniz.</li></ul>"
       }
     ]
   },
@@ -22810,40 +22810,40 @@
     "items": [
       {
         "q": "Otel reklam yönetimi sürecine nereden başlanır?",
-        "a": "<ol><li>hedefler (doluluk, ADR, gelir, direct pay),</li><li>kanallar ve pazarlar,</li><li>altyapı (GA4, conversion tracking, booking engine),</li><li>kampanya mimarisi,</li><li>kreatif ve mesaj setleri,</li><li>raporlama ve optimizasyon döngüsü.</li></ol>"
+        "a": "<ul><li><b>Hedefler:</b> doluluk, ADR, gelir, direct pay,</li><li><b>Kanallar ve pazarlar:</b> Google/Meta/YouTube, ülkeler</li><li><b>Altyapı:</b> GA4, conversion tracking, booking engine, PMS</li><li><b>Kampanya mimarisi:</b> brand, non-brand, remarketing, pazar bazl,</li><li><b>Kreatif & mesaj:</b> görsel, video, metin setleri,</li><li><b>Raporlama & optimizasyon:</b> haftalık ve aylık döngü.</li></ul>"
       },
       {
         "q": "Dönüşüm takibi (conversion tracking) neden bu kadar kritik?",
-        "a": "<ul><li>hangi kampanya rezervasyon getiriyor,</li><li>hangi anahtar kelime satışa dönüyor,</li><li>ROAS ve CPA değerleri</li></ul>takip edilmezse reklam yönetimi göz kararı yapılır. Otellerde booking engine ve call center entegrasyonu temel şarttır."
+        "a": "Tracking olmadan:<ul><li>hangi kampanya rezervasyon getiriyor,</li><li>hangi anahtar kelime satışa dönüyor,</li><li>ROAS ve CPA değerlerini</li></ul>bilemezsiniz. O zaman reklam yönetimi “göz kararı” olur. Özellikle otellerde, booking engine ve call center entegrasyonlarıyla dönüşümü ölçmek temel şarttır."
       },
       {
         "q": "Otel rezervasyon sistemleriyle dönüşüm takibi nasıl kurulur?",
-        "a": "<ul><li>GA4 event’leri,</li><li>Google Ads ve Meta pixel / Conversion API entegrasyonu,</li><li>rezervasyon onay sayfasında conversion tetikleme,</li><li>mümkünse transaction değeri gönderimi</li></ul>ile sağlıklı tracking kurulmalıdır."
+        "a": "booking engine sağlayıcınızla birlikte;<ul><li>GA4 event’leri,</li><li>Google Ads ve Meta pixel/conversion API entegrasyonunu kurmanız gerekir.</li><li>rezervasyon onay sayfasında conversion tetiklenmeli,</li><li>mümkünse transaction değerleri (gelir) de gönderilmelidir.</li></ul>"
       },
       {
         "q": "Google Ads’te teklif stratejisi nasıl seçilmeli?",
-        "a": "<ul><li>düşük veri dönemlerinde manuel veya eCPC,</li><li>yeterli dönüşüm datası oluştuğunda Maximize Conversions veya ROAS</li></ul>stratejileri tercih edilmelidir."
+        "a": "<ul><li>düşük veri dönemlerinde manuel veya eCPC (yarı otomatik) ile,</li><li>yeterli dönüşüm datası oluştuğunda “Maximize Conversions/ROAS” gibi akıllı tekliflerle çalışmak daha sağlıklıdır.</li></ul>Otelin veri hacmi, sezon ve kampanya hedefleri teklif stratejisini belirler."
       },
       {
-        "q": "Sezon öncesi, içi ve sonrası kampanya takvimi nasıl oluşturulur?",
-        "a": "<ul><li>sezon öncesi: erken rezervasyon ve bilinirlik,</li><li>sezon içi: last minute, upsell, paket kampanyaları,</li><li>sezon sonrası: brand, remarketing ve sonraki sezon teaser’ları</li></ul>"
+        "q": "Otel için sezon öncesi, içi ve sonrası kampanya takvimi nasıl oluşturulur? ",
+        "a": "<ul><li><b>Sezon öncesi:</b> erken rezervasyon ve bilinirlik,</li><li><b>Sezon içi:</b> last minute, upsell, paket kampanyaları,</li><li><b>Sezon sonrası:</b> brand, remarketing ve sonraki sezon teaser’ları</li></ul>"
       },
       {
         "q": "Erken rezervasyon ve last-minute kampanyaları neden ayrılmalı?",
-        "a": "<ul><li>farklı mesaj ve teklif yapısı,</li><li>farklı hedef kitleler,</li><li>farklı kampanya hedefleri</li></ul>aynı kampanyada karıştırılmamalıdır."
+        "a": "Her biri için:<ul><li>ayrı mesaj (erken rezervasyon avantajı vs “şimdi gel”),</li><li>ayrı hedef kitle (erken alıcı vs son dakika karar veren),</li><li>ayrı kampanya hedefi (lead, rezervasyon, awareness)</li></ul>tanımlanmalıdır."
       },
       {
-        "q": "Kreatif üretimi reklam performansını ne kadar etkiler?",
-        "a": "<ul><li>otel deneyimini net anlatan görsel/video,</li><li>güçlü CTA,</li><li>segmente uygun mesaj</li></ul>CPA ve ROAS’ı dramatik şekilde değiştirebilir. Kötü kreatifi iyi optimizasyon kurtarmaz."
+        "q": " Kreatif üretimi (görsel/video) performansı ne kadar etkiler?",
+        "a": "Çok. Aynı hedefleme ve bütçede;<ul><li>güçlü bir kreatif,</li><li>otel deneyimini net gösteren video/görsel,</li><li>sdoğru CTA</li></ul>CPA ve ROAS’ı dramatik şekilde değiştirebilir. “Kötü kreatife iyi optimizasyon” pek bir işe yaramaz."
       },
       {
         "q": "A/B testleri otel reklam yönetiminde nasıl yapılmalı?",
-        "a": "<ul><li>tek seferde tek değişken test edilmeli,</li><li>yeterli veri toplanmalı,</li><li>kazanan versiyon ana kampanyaya taşınmalı,</li><li>düzenli yeni testler yapılmalıdır.</li></ul>"
+        "a": "<ul><li>tek seferde tek değişken (başlık, görsel veya hedef kitle) test edilmeli,</li><li>yeterli gösterim ve tıklama datası toplanmalı,</li><li>kazanan versiyon ana kampanyaya taşınmalı,</li><li>düzenli olarak yeni hipotezler test edilmelidir.</li></ul>"
       },
       {
         "q": "Negatif anahtar kelimeler neden önemlidir?",
-        "a": "<ul><li>alakasız aramaları dışarıda tutar,</li><li>bütçe israfını önler,</li><li>raporların daha temiz olmasını sağlar.</li></ul>"
-      },
+        "a": "<ul><li>otelinizle alakasız aramaları dışarıda tutar,</li><li>bütçe israfını önler,</li><li>raporların daha temiz olmasını sağlar.</li></ul>"
+      }, 
       {
         "q": "Ajans ile çalışırken süreç ve raporlama nasıl olmalı?",
         "a": "<ul><li>düzenli aylık veya haftalık raporlar,</li><li>kampanya ve pazar bazlı performans,</li><li>net KPI’lar (ROAS, CPA, rezervasyon),</li><li>neden–sonuç analizi ve aksiyon planları</li></ul>Sadece panel ekran görüntüsü yeterli değildir."

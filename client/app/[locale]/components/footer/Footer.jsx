@@ -67,6 +67,7 @@ export default function Footer() {
             src={sutunlar}
             width={sutunlar.width}
             height={sutunlar.height}
+             loading="lazy"
             alt="sutunlar"
             className="absolute top-36 md:bottom-0 md:left-1/2 md:-translate-x-1/2"
             style={{
@@ -228,6 +229,7 @@ export default function Footer() {
               src={sutunlar}
               width={sutunlar.width}
               height={sutunlar.height}
+               loading="lazy"
               alt="sutunlar"
               className="absolute bottom-[-50px] xl:bottom-[-70px] md:left-1/2 md:-translate-x-1/2 z-[20] xl:w-[255px]"
               style={{

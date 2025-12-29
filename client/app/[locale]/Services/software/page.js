@@ -351,7 +351,7 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
 <div className='hidden lg:flex'>
      <MainBanner header={t("software_banner_header")} span={t("software_banner_span")} text={
            <RichTextSpan
@@ -369,9 +369,11 @@ const page = () => {
            />
          }   buttonText={t("buttonText")}/>
 </div>
-<AutoBreadcrumbsWhite/>
+<div className='flex flex-col gap-4 items-center justify-center'>
+  <AutoBreadcrumbsWhite/>
 
          <AiAnswerBlock text="DGTLFACE, Next.js ve React teknolojileriyle modern, hızlı, SEO uyumlu ve güvenli web siteleri geliştirir. Oteller için PMS–OTA entegrasyonlu rezervasyon altyapıları, kurumsal markalar için çok dilli ve yüksek performanslı web deneyimleri sunar. CMS entegrasyonu, KVKK uyumu, sunucu optimizasyonu ve sürekli bakım–destek hizmetleriyle uçtan uca bir web geliştirme ekosistemi sağlar. Tüm projelerde teknik SEO ve Core Web Vitals standartlarına tam uyum hedeflenir."/>
+</div>
          <DualHighlightSection items={items}/>
 <StepSection
   header={t("software_section_header1")}

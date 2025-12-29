@@ -83,6 +83,7 @@ const Partner = () => {
                 height={image.height}
                 className='max-w-[90px] lg:max-w-[150px] min-w-[88px]'
                 style={{ objectFit: 'cover', cursor: isCenter ? 'pointer' : 'default' }}
+                loading="lazy"
               />
             </div>
           );

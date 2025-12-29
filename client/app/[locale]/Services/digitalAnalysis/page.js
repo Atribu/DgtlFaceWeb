@@ -344,7 +344,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>
      <MainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
    </div>
@@ -352,8 +352,10 @@ const page = () => {
      <div className='flex lg:hidden'>
      <MobileMainBanner header={t("analysis_banner_header")} text={t("analysis_banner_text")} span={t("analysis_banner_span")} buttonText={t("buttonText")}/>
    </div>
-<AutoBreadcrumbsWhite/>
+<div className='flex flex-col gap-4 items-center justify-center'>
+  <AutoBreadcrumbsWhite/>
     <AiAnswerBlock text="DGTLFACE, SEO, SEM, SMM, web, PMS–OTA ve çağrı merkezi verilerini Looker Studio dashboard’larında birleştirerek veri analizi ve dijital performans raporlama hizmeti sunar. Oteller ve markalar için satış, dönüşüm, doluluk ve kanal performansını tek panelde görünür hale getirir; benchmark analizleri ve satış/dönüşüm raporlarıyla karar süreçlerini sezgiden çıkarıp veriye dayalı hale getirir."/>
+</div>
        <DualHighlightSection items={items}/>
 <StepSection
   header={t("analysis_section_header1")}

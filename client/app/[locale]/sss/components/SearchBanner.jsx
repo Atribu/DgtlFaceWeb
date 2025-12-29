@@ -169,7 +169,12 @@ const results = useMemo(() => {
         </div>
 {/* #5490cf */}
         {/* chips */}
-        <div className="grid grid-cols-3 w-full md:w-[57%] lg:w-[80%] xl:w-full lg:grid-cols-5 2xl:flex text-white gap-2 md:gap-3 lg:gap-4 xl:gap-5 items-center justify-center mt-2 sm:mt-4 md:pt-10 lg:pt-0 lg:mt-5 xl:mt-10">
+       <div
+  className={`grid w-full md:w-[57%] lg:w-[80%] xl:w-full lg:grid-cols-5 2xl:flex text-white gap-2 md:gap-3 lg:gap-4 xl:gap-5 items-center justify-center mt-2 sm:mt-4 md:pt-10 lg:pt-0 lg:mt-5 xl:mt-10 sm:grid-cols-3 ${
+    resolvedSlug === "sss" ? "grid-cols-3" : "grid-cols-2"
+  }`}
+>
+
           {chips.map((c) => (
             <Link
               key={c.href}

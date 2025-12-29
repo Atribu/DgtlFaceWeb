@@ -642,5 +642,24 @@
   color: #ffffff; /* hover’da beyaz mesela */
 }
 
+/* Layout shift'i önle */
+.hero-container {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 780px;
+}
+
+/* GPU acceleration */
+.video-layer {
+  transform: translateZ(0);
+  will-change: opacity;
+}
+
+/* Font rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 
 

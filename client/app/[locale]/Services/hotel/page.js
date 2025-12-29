@@ -360,7 +360,7 @@ const page = () => {
       />
 
 
-    <div className='flex flex-col items-center justify-center gap-[48px] md:gap-[75px] lg:gap-[150px] overflow-hidden'>
+    <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>
      <MainBanner header={t("hotel_banner_header")} text={<RichTextSpan
                        ns="Hotel"
@@ -374,8 +374,10 @@ const page = () => {
                        id="hotel_banner_text"
                      />} span={t("hotel_banner_span")} buttonText={t("buttonText")}/>
    </div>
-<AutoBreadcrumbsWhite/>
+<div className='flex flex-col gap-4 items-center justify-center'>
+  <AutoBreadcrumbsWhite/>
     <AiAnswerBlock text="DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümlerini tek çatı altında sunan bir otel dijital pazarlama ve teknoloji partneridir. Amaç sadece görünürlük değil; doluluk, gelir, direkt rezervasyon ve misafir memnuniyetini aynı anda artıran 360° bir dijital mimari kurmaktır. Resort, city, butik veya luxury oteller için özel stratejiler ve yol haritaları hazırlanır."/>
+</div>
        <DualHighlightSection items={items}/>
 <StepSection
   header={t("hotel_section_header1")}
