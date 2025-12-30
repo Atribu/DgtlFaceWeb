@@ -109,8 +109,27 @@ function renderRichText(text) {
     const children = renderRichText(inner);
 
     if (tag === "b") out.push(<b key={`b-${k++}`} className="font-semibold">{children}</b>);
-    else if (tag === "ul") out.push(<ul key={`ul-${k++}`} className="list-disc pl-5 space-y-1">{children}</ul>);
-    else if (tag === "li") out.push(<li key={`li-${k++}`}>{children}</li>);
+    else if (tag === "ul") {
+  out.push(
+    <ul
+      key={`ul-${k++}`}
+      className="mt-2 list-disc list-inside space-y-1 text-left leading-relaxed"
+    >
+      {children}
+    </ul>
+  );
+} else if (tag === "li") {
+  out.push(
+    <li
+      key={`li-${k++}`}
+      className="flex items-start justify-center gap-2"
+    >
+      <span className="mt-[0.35em] leading-none">•</span>
+      <div className="text-center">{children}</div>
+    </li>
+  );
+}
+
     else if (tag === "a") {
       out.push(
         <a
@@ -159,14 +178,14 @@ const rich = {
   return (
     <section className="max-w-screen flex justify-center bg-white">
       <div className="w-[95%] lg:w-[98%] py-8 lg:py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-4 xl:gap-6 lg:items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 lg:gap-4 xl:gap-6 lg:items-start">
 
           {/* SOL: TOC */}
-         <aside className="lg:col-span-3 lg:sticky lg:top-[13.4%] lg:self-start">
-            <div className="rounded-2xl bg-[#140f25] text-white p-2 lg:p-3 xl:p-5 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
-              <p className="text-[12px] tracking-[0.18em] uppercase text-white/60 mb-3">
+         <aside className="lg:col-span-2 lg:sticky lg:top-[10%] lg:self-start">
+            <div className="rounded-2xl bg-[#140f25] text-white p-2 lg:p-3 xl:p-4 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
+              {/* <p className="text-[12px] tracking-[0.18em] uppercase text-white/60 mb-3">
                 {t("toc.title")}
-              </p>
+              </p> */}
 
               <div className="grid grid-cols-2 md:flex md:flex-col gap-[6px]">
                 {sections.map((s, idx) => {
@@ -177,8 +196,8 @@ const rich = {
                       type="button"
                       onClick={() => scrollTo(s.id)}
                       className={[
-                        "text-left rounded-xl px-3 py-[6px] transition font-semibold text-[12px] md:text-[14px] xl:text-[16px]",
-                        active ? "bg-white/10 ring-1 ring-white/20" : "hover:bg-white/5 font-semibold lg:font-normal text-[12px] md:text-[14px] xl:text-[16px]",
+                        "text-left rounded-xl px-3 py-[6px] transition font-semibold text-[12px] md:text-[14px] xl:text-[14px]",
+                        active ? "bg-white/10 ring-1 ring-white/20" : "hover:bg-white/5 font-semibold lg:font-normal text-[12px] md:text-[14px] xl:text-[14px]",
                       ].join(" ")}
                     >
                       <div className="flex items-start gap-3">
@@ -191,7 +210,7 @@ const rich = {
                         <div className="flex-1">
                           <p className={active ? "text-white" : "text-white/80"}>{s.label}</p>
                           {active && (
-                            <div className="mt-2 h-[2px] w-full rounded-full bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF]" />
+                            <div className="mt-1 h-[2px] w-full rounded-full bg-gradient-to-r from-[#54B9CF] via-[#547DCF] to-[#A754CF]" />
                           )}
                         </div>
                       </div>
@@ -200,14 +219,14 @@ const rich = {
                 })}
               </div>
 
-              <p className="mt-2 2xl:mt-4 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
+              <p className="mt-2 2xl:mt-1 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
                 {t("toc.note")}
               </p>
             </div>
           </aside>
 
           {/* SAĞ: CONTENT */}
-          <div className="lg:col-span-9 mr-[1%]">
+          <div className="lg:col-span-8 mr-[1%]">
             <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 xl:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
               <h1 className="text-[22px] md:text-[26px] lg:text-[28px] font-bold leading-[120%] text-[#140f25]">
                 {t("h1")}

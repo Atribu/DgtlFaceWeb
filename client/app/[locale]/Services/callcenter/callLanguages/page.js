@@ -241,7 +241,7 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-    <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden justify-center items-center'>
+    <div className='flex flex-col gap-[12px] lg:gap-[80px] bg-[#080612] overflow-x-hidden items-center justify-center pb-10'>
     <div className='flex flex-col items-center justify-center gap-5'>
         <SubBanner header={t("subbanner_header")} header2={t("subbanner_header2")} text={t.raw("subbanner_text")} header3={t("subbanner_header3")} text2={t.raw("subbanner_text2")} buttonLink="/" buttonText={t("cta_talk_to_us")}/>
       <AutoBreadcrumbs/>

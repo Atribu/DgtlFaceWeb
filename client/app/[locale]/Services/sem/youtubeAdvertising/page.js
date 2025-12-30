@@ -15,6 +15,7 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import StepSection2 from '@/app/[locale]/components/subPageComponents/StepSection2'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -260,7 +261,8 @@ const page = () => {
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
-     <SubBanner
+     <div className='flex flex-col items-center justify-center gap-5'>
+      <SubBanner
    header={t("youtubeadvertising_subbanner_header")}
   header2={t("youtubeadvertising_subbanner_header2")}
   header3={t("youtubeadvertising_subbanner_header3")}
@@ -269,7 +271,9 @@ const page = () => {
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
+<AutoBreadcrumbs />
 <AiAnswerBlock text="DGTLFACE, YouTube reklamlarını marka bilinirliği, rezervasyon ve satış artırma odaklı olarak yönetir. Doğru hedefleme, video format seçimi (bumper, in-stream, discovery), kreatif optimizasyon ve izleme sürelerine göre ölçümleme süreçleri profesyonelce uygulanır. Özellikle oteller ve turizm işletmeleri için video içerikler yüksek etkileşim ve görünürlük sağlar. Kampanyalar Looker Studio panelleriyle düzenli olarak raporlanır ve ROI odaklı şekilde optimize edilir."/>
+     </div>
          <H2LogoSection items={h2items} />
      <StepSection2New data={stepData} header={t("h3Section.header")}/>
        <LogoListSectionBlack

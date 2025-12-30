@@ -13,6 +13,7 @@ import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/Lo
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -244,7 +245,8 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden justify-center items-center'>
-    <SubBanner
+   <div className='flex flex-col items-center justify-center gap-5'>
+     <SubBanner
   header={t("subbanner_header")}
   header2={t("subbanner_header2")}
   text={t.raw("subbanner_text")}
@@ -253,7 +255,9 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
+<AutoBreadcrumbs/>
       <AiAnswerBlock text={t("ai_answer_text")}/>
+   </div>
        <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>

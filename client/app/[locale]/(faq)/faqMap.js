@@ -60,7 +60,7 @@ export const FAQ_MAP = {
     "otel-seo-sss":"FaqHotelSEO",
   "otel-sosyalmedya-sss":"FaqHotelSocialMedia",
    "otel-reklam-sss":"FaqHotelAdsManagement",
-   "otel-ota-sss":"FaqHotelOtaManagement",
+  //  "otel-ota-sss":"FaqHotelOtaManagement",
    "otel-pms-sss":"FaqHotelPmsIntegration",
    "otel-cagrimerkezi-sss":"FaqHotelCallCenterReservation"
 

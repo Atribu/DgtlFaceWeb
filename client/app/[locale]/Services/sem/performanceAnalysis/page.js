@@ -13,6 +13,7 @@ import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMentio
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
+import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -237,7 +238,8 @@ const page = () => {
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
-      <SubBanner
+      <div className='flex flex-col items-center justify-center gap-5'>
+        <SubBanner
   header={t("performanceanalysis_subbanner_header")}
   header2={t("performanceanalysis_subbanner_header2")}
   text={t.raw("performanceanalysis_subbanner_text")}
@@ -246,7 +248,9 @@ const page = () => {
   buttonLink="/"
   buttonText={t("cta_talk_to_us")}
 />
+<AutoBreadcrumbs/>
 <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube, Meta Ads ve diğer dijital kampanyaların verilerini Looker Studio üzerinde tek bir panelde toplar. Tıklama, gösterim, dönüşüm, gelir, ROAS ve funnel metriklerini birlikte analiz ederek hangi kampanyaların gerçekten kazandırdığını ortaya koyar. Özellikle oteller ve turizm işletmeleri için doluluk, rezervasyon ve oda başı gelir (RevPAR) odaklı raporlama yapılır; böylece reklam bütçesi veriyle optimize edilir, sezonsal stratejiler güçlenir."/>
+      </div>
 <H2LogoSection items={h2items} />
 
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
