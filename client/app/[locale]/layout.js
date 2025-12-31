@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
@@ -8,20 +7,15 @@ import HeaderWrapper from "./components/HeaderWrapper";
 import Footer from "./components/footer/Footer";
 import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
-import Script from "next/script";
-import localFont from "next/font/local";
 import FloatingFaqButton from "./components/common/FloatingFaqButton";
+import { GoogleTagManager } from '@next/third-parties/google'
+import { Inter } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-  display: "swap"
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  display: "swap"
+  display: "swap",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-inter", 
 });
 
 export function generateStaticParams() {
@@ -45,19 +39,19 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const inter = localFont({
-  src: [
-    { path: "../../public/Fonts/Inter_18pt-Regular.ttf", weight: "400", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-SemiBold.ttf", weight: "600", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-Bold.ttf", weight: "700", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-ExtraBold.ttf", weight: "800", style: "normal" },
-    { path: "../../public/Fonts/Inter_18pt-Black.ttf", weight: "900", style: "normal" },
-  ],
-  variable: "--font-inter",
-  display: "swap",
-  preload: true,
-});
+// const inter = localFont({
+//   src: [
+//     { path: "../../public/Fonts/Inter_18pt-Regular.ttf", weight: "400", style: "normal" },
+//     { path: "../../public/Fonts/Inter_18pt-Medium.ttf", weight: "500", style: "normal" },
+//     { path: "../../public/Fonts/Inter_18pt-SemiBold.ttf", weight: "600", style: "normal" },
+//     { path: "../../public/Fonts/Inter_18pt-Bold.ttf", weight: "700", style: "normal" },
+//     { path: "../../public/Fonts/Inter_18pt-ExtraBold.ttf", weight: "800", style: "normal" },
+//     { path: "../../public/Fonts/Inter_18pt-Black.ttf", weight: "900", style: "normal" },
+//   ],
+//   variable: "--font-inter",
+//   display: "swap",
+//   preload: true,
+// });
 
 export default async function RootLayout({ children,  params }) {
    const { locale } = await params;
@@ -71,27 +65,16 @@ export default async function RootLayout({ children,  params }) {
 
   return (
     <html lang={locale}>
-      <head>
-        {/* Google Tag Manager – script */}
-        <Script id="gtm-base" strategy="afterInteractive">
-          {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-TM2KPGV9');
-        `}
-        </Script>
-      </head>
-     <body className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}>
-         <noscript
+      <GoogleTagManager gtmId="GTM-TM2KPGV9" />
+     <body className={`${inter.variable} antialiased`}>
+         {/* <noscript
     dangerouslySetInnerHTML={{
       __html: `
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM2KPGV9"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>
       `,
     }}
-  />
+  /> */}
         <NextIntlClientProvider locale={locale} messages={messages}>
         <HeaderWrapper />
         <CookiePopup />
@@ -103,3 +86,15 @@ export default async function RootLayout({ children,  params }) {
     </html>
   );
 }
+
+{/* <head>
+        <Script id="gtm-base" strategy="afterInteractive">
+          {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TM2KPGV9');
+        `}
+        </Script>
+      </head> */}

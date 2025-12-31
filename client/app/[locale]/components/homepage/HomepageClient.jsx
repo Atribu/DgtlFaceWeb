@@ -1,23 +1,18 @@
-"use client";
+
 
 import Partners from "../../components/Partners/Partners";
-// import Section1 from "./components/Section1/Section";
+ import Section1 from "../Section1/Section";
 import Section2 from "../../components/Section2/Section2";
 import BlocksYatay from "../../components/Section3/BlocksYatay";
 import Section4 from "../../components/Section4/Section4";
 import WhyUsSection from "../../components/Section5/WhyUsSection";
-import dynamic from "next/dynamic";
 import Contact from "../../components/Section6/ContactMain.jsx";
 import QuestionsSection2 from "../../components/subPageComponents/QuestionSection2";
 import Section3List from "../../Services/Section3/Section3List";
 import Link from "next/link";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
-import ThreeMainBanner from "./ThreeMainBanner";
 
-const Section1 = dynamic(() => import("../../components/Section1/Section"), {
-  ssr: false,
-});
 
 const faqs = [
     {
@@ -57,10 +52,10 @@ const faqs = [
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col justify-center items-center max-w-screen overflow-x-hidden">
+    <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
        
-        <ThreeMainBanner/>
+        {/* <ThreeMainBanner/> */}
         
          <Section4 />
      
@@ -82,19 +77,7 @@ Strateji, kreatif, medya satın alma, yazılım geliştirme, PMS–OTA yönetimi
             </ul>
             </div>
            
-           
-            {/* <p className="text-[12px] w-[90%] md:text-[14px] lg:text-[16px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black  mt-0">
-              DGTLFACE, kendini yalnızca bir <span className="font-bold">dijital pazarlama ajansı</span> olarak
-              değil; markanızın büyüme hedeflerine odaklanmış bir <span className="font-bold">teknoloji
-              partneri</span> olarak konumlandırır. Strateji, kreatif üretim, medya
-              satın alma, yazılım ve çağrı merkezi ekiplerini aynı masa
-              etrafında toplayarak; kampanyalarınızı, web sitenizi, PMS–OTA
-              altyapınızı ve müşteri iletişiminizi tek bir çatı altında yönetir.
-              Böylece dağınık ajans yapılarının oluşturduğu veri kopukluğunu
-              ortadan kaldırır, tüm kanallarda <span className="font-bold">tutarlı bir marka deneyimi ve
-              ölçülebilir sonuç</span> üretiriz. Kararları sezgiyle değil, gerçek
-              zamanlı veri ve raporlarla almanızı sağlarız.
-            </p> */}
+
           </div>
           <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start ">
             <button className="gradient-darktext-header relative flex border w-[90%] py-[12px] px-auto items-center justify-center lg:px-[1px] lg:py-[23px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black">
@@ -115,18 +98,6 @@ DGTLFACE olarak oteller için tam kapsamlı dijital çözüm setleri sunuyoruz:
 </ul>
             </div>
            
-
-
-            {/* <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-0">
-              Otel ve turizm markaları, klasik ajans hizmetlerinden çok daha
-              fazlasına ihtiyaç duyar: <span className="font-bold">doluluk oranı, RevPAR, direkt rezervasyon
-              oranı, OTA görünürlüğü ve misafir memnuniyeti</span> gibi metrikler her
-              gün değişir. DGTLFACE, bu dinamik yapıya uygun olarak; <Link href="/Services/seo" className="text-[#58b5cf] font-semibold">SEO</Link> , <Link href="/sem" className="text-[#8978cf] font-semibold">SEM</Link> ,
-             <Link href="/Services/smm" className="text-[#58b5cf] font-semibold"> Sosyal Medya Yönetimi</Link> , <Link href="/Services/pms" className="text-[#58b5cf] font-semibold">PMS & OTA Yönetimi </Link>, <Link href="/Services/callcenter" className="text-[#58b5cf] font-semibold">Çağrı Merkezi
-              Hizmetleri</Link> ve <Link href="/Services/digitalAnalysis" className="text-[#58b5cf] font-semibold">Veri Analizi & Raporlama</Link> çözümlerini bir araya
-              getirir. Tüm dijital kanallarda tek hedefe kilitleniriz: doğru
-              misafiri, doğru zamanda, doğru kanaldan kazanmak.
-            </p> */}
           </div>
         </div>
 
@@ -167,18 +138,6 @@ Bu sayede Antalya, Belek, Side, Kemer ve Alanya gibi destinasyonlarda <span clas
                  <li>Çağrı Merkezi KPI Panelleri</li>
             </ul>
             </div>
-            
-            {/* <p className="text-[12px] md:text-[14px] lg:text-[16px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[90%] mt-0">
-              DGTLFACE’te her kampanya, her kreatif ve her entegrasyon mutlaka
-              bir <span className="font-bold">veri katmanı</span> ile desteklenir. <Link href="/Services/digitalAnalysis" className="text-[#58b5cf] font-semibold">Looker Studio Raporlama</Link> , 
-              <Link href="/sem" className="text-[#58b5cf] font-semibold">SEM Reklam Raporlama</Link> , <Link href="/Services/seo" className="text-[#58b5cf] font-semibold">SEO Performans Raporlama</Link> ve çağrı merkezi KPI
-              panelleri ile tüm kanallardaki performansınızı tek ekrandan takip
-              edebilir hale getiriyoruz. Sadece rapor sunmuyor, veriyi
-              okunabilir hale getirip <span className="">“Bugün neyi değiştirmeliyiz ki yarın daha
-              fazla satış / rezervasyon alalım?”</span> sorusuna yanıt üretiyoruz.
-              Böylece stratejileriniz statik değil, <span className="font-bold">sürekli optimize edilen
-              yaşayan yapılar</span> haline geliyor.
-            </p> */}
           </div>
         </div>
 

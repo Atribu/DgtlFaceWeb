@@ -1,4 +1,5 @@
 import HomepageClient from "./components/homepage/HomepageClient"
+import ThreeMainBanner from "./components/homepage/ThreeMainBanner";
 
 export async function generateMetadata() {
   const title =
@@ -201,7 +202,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-      <main >
+      <main className="flex flex-col gap-[30px] lg:gap-[48px] max-w-screen overflow-x-hidden">
+        <ThreeMainBanner/>
         <HomepageClient/>
       </main>
     </>

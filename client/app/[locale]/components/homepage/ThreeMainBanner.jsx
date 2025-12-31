@@ -1,8 +1,6 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
-import imgBanner from "./images/herobanner.png";
+import imgBanner from "./images/herobanner2.webp";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -11,14 +9,14 @@ export default function ThreeMainBanner() {
 
   return (
     <div
-      className="relative w-screen overflow-hidden bg-black"
+      className="relative w-screen overflow-hidden bg-black "
       style={{
         height: "91vh",
         minHeight: "690px",
         aspectRatio: "16/9",
       }}
     >
-      {/* Background Image (LCP için kritik) */}
+ 
       <div className="absolute inset-0" style={{ zIndex: 0 }}>
         <Image
           src={imgBanner}
@@ -26,7 +24,7 @@ export default function ThreeMainBanner() {
           fill
           priority
           fetchPriority="high"
-          quality={80}
+          quality={75}
           className="object-cover"
           sizes="100vw"
           placeholder="blur"
@@ -57,7 +55,6 @@ export default function ThreeMainBanner() {
             zIndex: 50,
             color: "#fff",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
-            backdropFilter: "blur(1px)",
           }}
         >
           {t("title")}
@@ -69,7 +66,6 @@ export default function ThreeMainBanner() {
             zIndex: 50,
             color: "#fff",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
-            backdropFilter: "blur(1px)",
           }}
         >
           {t.rich("subtitle", {
@@ -83,7 +79,7 @@ export default function ThreeMainBanner() {
             zIndex: 50,
             color: "#fff",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
-            backdropFilter: "blur(1px)",
+
           }}
         >
           {t.rich("subtitle2", {
@@ -97,7 +93,7 @@ export default function ThreeMainBanner() {
             zIndex: 50,
             color: "#fff",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
-            backdropFilter: "blur(1px)",
+
           }}
         >
           <li>Otel & turizm odaklı 360° dijital pazarlama</li>
@@ -112,7 +108,7 @@ export default function ThreeMainBanner() {
             zIndex: 50,
             color: "#fff",
             backgroundColor: "rgba(0, 0, 0, 0.4)",
-            backdropFilter: "blur(1px)",
+
           }}
         >
           <Link
