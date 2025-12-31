@@ -1,9 +1,14 @@
 "use client";
 import React from "react";
-import FireballExplosion from "./Animation/FireballExplosion";
 import { useTranslations } from 'next-intl';
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 import RichText from "../common/RichText";
+import dynamic from "next/dynamic";
+
+const FireballExplosion = dynamic(
+  () => import("./Animation/FireballExplosion"),
+  { ssr: false }
+);
 
 const Section = () => {
   const t = useTranslations("Homepage.partners")
