@@ -1,11 +1,10 @@
+"use client"
 import React, { useEffect, useState, useCallback } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 import bookToHolidays from './Before/booktoholidays.svg';
-import dgtlface from './Before/dgtlface.svg';
-import freshfruit from './Before/freshfruitturkey.svg';
 import miramare from './Before/miramare.svg';
 import portnature from './Before/portnature.svg';
 import evtatilim from './Before/evtatilim.svg';
@@ -14,8 +13,6 @@ import lago from './Before/lago.svg';
 import irenic from './Before/irenic.svg';
 
 import bookToHolidaysHover from './After/booktoholidays.svg';
-import dgtlfaceHover from './After/dgtlface.svg';
-import freshfruitHover from './After/freshfruitturkey.svg';
 import miramareHover from './After/miramare.svg';
 import portnatureHover from './After/portnature.svg';
 import evtatilimHover from './After/evtatilim.svg';

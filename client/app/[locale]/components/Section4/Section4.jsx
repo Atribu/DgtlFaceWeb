@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Partner from "./SliderImage/Partner";
 import { useTranslations } from 'next-intl';
