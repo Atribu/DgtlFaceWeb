@@ -36,7 +36,7 @@ export async function generateMetadata({ params }) {
     icons: {
       icon: [
         { url: '/favicon.ico' },
-        { url: '/favicon32x32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
         { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' }, 
          { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' }, 
       ],
@@ -46,19 +46,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// const inter = localFont({
-//   src: [
-//     { path: "../../public/Fonts/Inter_18pt-Regular.ttf", weight: "400", style: "normal" },
-//     { path: "../../public/Fonts/Inter_18pt-Medium.ttf", weight: "500", style: "normal" },
-//     { path: "../../public/Fonts/Inter_18pt-SemiBold.ttf", weight: "600", style: "normal" },
-//     { path: "../../public/Fonts/Inter_18pt-Bold.ttf", weight: "700", style: "normal" },
-//     { path: "../../public/Fonts/Inter_18pt-ExtraBold.ttf", weight: "800", style: "normal" },
-//     { path: "../../public/Fonts/Inter_18pt-Black.ttf", weight: "900", style: "normal" },
-//   ],
-//   variable: "--font-inter",
-//   display: "swap",
-//   preload: true,
-// });
 
 export default async function RootLayout({ children,  params }) {
    const { locale } = await params;

@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
-import { GUI } from "dat.gui"; // dat.gui kurulu olduğundan emin olun (npm i dat.gui)
+// import { GUI } from "dat.gui"; // dat.gui kurulu olduğundan emin olun (npm i dat.gui)
 
 // GLSL Shader kodlarını string olarak tutuyoruz
 const vertexShader = `
@@ -237,183 +237,110 @@ void main() {
 
 function FireballExplosion() {
   const containerRef = useRef(null);
-  const guiRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+  // const guiRef = useRef(null);
 
   useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.05 } // %5 görünse bile başlasın
+    );
+
+    if (containerRef.current) observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    // EĞER GÖRÜNÜR DEĞİLSE HİÇBİR ŞEY YAPMA
+    if (!isVisible || !containerRef.current) return;
+
     let renderer, scene, camera, animationId;
     let _primitive, mat;
 
-    // Tema: beyaz arka plan
-    const Theme = { _darkred: 0xffffff }; 
-
+    // Temel Kurulum
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(Theme._darkred);
+    scene.background = new THREE.Color(0xffffff);
 
-    // Kamera; başlangıçta geçici boyutlar kullanıyoruz (sonra setRendererSize güncelleyecek)
     camera = new THREE.PerspectiveCamera(55, 1, 1, 1000);
     camera.position.z = 12;
 
-    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
-
-    // Container'ın içine canvas'ı ekliyoruz
-    if (containerRef.current) {
-      containerRef.current.appendChild(renderer.domElement);
-    }
-
-    // Canvas boyutunu container'ın boyutlarına göre ayarlayan fonksiyon
-    function setRendererSize() {
-      if (containerRef.current) {
-        const width = containerRef.current.clientWidth;
-        const height = containerRef.current.clientHeight;
-        renderer.setSize(width, height);
-        camera.aspect = width / height;
-        camera.updateProjectionMatrix();
-      }
-    }
-    setRendererSize();
-
-    // Pencere yeniden boyutlandığında container boyutlarını güncelle
-    const onWindowResize = () => {
-      setRendererSize();
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    
+    // Boyutlandırma
+    const updateSize = () => {
+      if (!containerRef.current) return;
+      const width = containerRef.current.clientWidth;
+      const height = containerRef.current.clientHeight;
+      renderer.setSize(width, height);
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
     };
-    window.addEventListener("resize", onWindowResize);
 
-    // SHADER MATERIAL
+    containerRef.current.appendChild(renderer.domElement);
+    updateSize();
+    window.addEventListener("resize", updateSize);
+
+    // Material & Geometry (Optimize edildi: 30 detail)
     mat = new THREE.ShaderMaterial({
-      wireframe: false,
       uniforms: {
         time: { value: 0.0 },
-        pointscale: { value: 0.0 },
-        decay: { value: 0.0 },
-        complex: { value: 0.0 },
-        waves: { value: 0.0 },
-        eqcolor: { value: 0.0 },
-        fragment: { value: true },
-        redhell: { value: true },
+        pointscale: { value: 1.0 },
+        decay: { value: 0.1 },
+        complex: { value: 0.3 },
+        waves: { value: 20.0 },
+        eqcolor: { value: 11.0 },
+        fragment: { value: true }
       },
       vertexShader,
       fragmentShader,
     });
 
-    // GEOMETRY: IcosahedronGeometry(3.5, 150)
-    const geo = new THREE.IcosahedronGeometry(3.5, 50);
+    const geo = new THREE.IcosahedronGeometry(3.5, 30); // 50'den 30'a çektik (TBT dostu)
     const mesh = new THREE.Points(geo, mat);
     _primitive = new THREE.Object3D();
     _primitive.add(mesh);
     scene.add(_primitive);
 
-    // OPTIONS & GUI (dat.GUI)
-    const options = {
-      perlin: {
-        vel: 0.002,
-        speed: 0.0005,
-        perlins: 1.0,
-        decay: 0.1,
-        complex: 0.3,
-        waves: 20.0,
-        eqcolor: 11.0,
-        fragment: true,
-        redhell: true,
-      },
-      spin: {
-        sinVel: 0.0,
-        ampVel: 80.0,
-      },
-    };
-
-    guiRef.current = new GUI({ autoPlace: false });
-    const camGUI = guiRef.current.addFolder("Camera");
-    camGUI.add(camera.position, "z", 3, 20).name("Zoom").listen();
-    camGUI.add(options.perlin, "vel", 0.0, 0.02).name("Velocity").listen();
-
-    const mathGUI = guiRef.current.addFolder("Math Options");
-    mathGUI.add(options.spin, "sinVel", 0.0, 0.5).name("Sine").listen();
-    mathGUI.add(options.spin, "ampVel", 0.0, 90.0).name("Amplitude").listen();
-
-    const perlinGUI = guiRef.current.addFolder("Setup Perlin Noise");
-    perlinGUI.add(options.perlin, "perlins", 1.0, 5.0).name("Size").step(1);
-    perlinGUI.add(options.perlin, "speed", 0.0, 0.0005).name("Speed").listen();
-    perlinGUI.add(options.perlin, "decay", 0.0, 1.0).name("Decay").listen();
-    perlinGUI.add(options.perlin, "waves", 0.0, 20.0).name("Waves").listen();
-    perlinGUI.add(options.perlin, "fragment", true).name("Fragment");
-    perlinGUI.add(options.perlin, "complex", 0.1, 1.0).name("Complex").listen();
-    perlinGUI.add(options.perlin, "redhell", true).name("Electroflow");
-    perlinGUI.add(options.perlin, "eqcolor", 0.0, 15.0).name("Hue").listen();
-    perlinGUI.open();
-
     const start = Date.now();
     const animate = () => {
       animationId = requestAnimationFrame(animate);
-      const performance = Date.now() * 0.003;
+      
+      _primitive.rotation.y += 0.002;
+      mat.uniforms["time"].value = 0.0005 * (Date.now() - start);
 
-      _primitive.rotation.y += options.perlin.vel;
-      _primitive.rotation.x =
-        (Math.sin(performance * options.spin.sinVel) * options.spin.ampVel) *
-        (Math.PI / 180);
-
-      mat.uniforms["time"].value =
-        options.perlin.speed * (Date.now() - start);
-      mat.uniforms["pointscale"].value = options.perlin.perlins;
-      mat.uniforms["decay"].value = options.perlin.decay;
-      mat.uniforms["complex"].value = options.perlin.complex;
-      mat.uniforms["waves"].value = options.perlin.waves;
-      mat.uniforms["eqcolor"].value = options.perlin.eqcolor;
-      mat.uniforms["fragment"].value = options.perlin.fragment;
-      mat.uniforms["redhell"].value = options.perlin.redhell;
-
-      camera.lookAt(scene.position);
       renderer.render(scene, camera);
     };
     animate();
 
+    // TEMİZLİK (Cleanup) - Çok önemli!
     return () => {
+      window.removeEventListener("resize", updateSize);
       cancelAnimationFrame(animationId);
-      window.removeEventListener("resize", onWindowResize);
-
-      if (guiRef.current) {
-        guiRef.current.destroy();
+      if (containerRef.current && renderer.domElement) {
+        containerRef.current.removeChild(renderer.domElement);
       }
-
-      scene.traverse((obj) => {
-        if (obj.geometry) obj.geometry.dispose();
-        if (obj.material) {
-          if (Array.isArray(obj.material)) {
-            obj.material.forEach((m) => m.dispose());
-          } else {
-            obj.material.dispose();
-          }
-        }
-      });
+      geo.dispose();
+      mat.dispose();
       renderer.dispose();
     };
-  }, []);
+  }, [isVisible]);
 
   return (
-    <>
-      <div
-      ref={containerRef}
-      className="
-      relative
-      flex items-center justify-center
-      w-[200px] h-[200px]
-      lg:w-[380px] lg:h-[380px]
-      bg-transparent m-0 p-0
-    "
+  <div
+    ref={containerRef}
+    className="relative flex items-center justify-center w-[200px] h-[200px] lg:w-[380px] lg:h-[380px] bg-transparent"
   >
-
-      <div style={{
-          position: "absolute",
-          zIndex: 10,
-          color: "#000", // İstediğiniz renk
-          fontSize: "22px",
-          fontWeight: "bold",
-          pointerEvents: "none", // Metne tıklamaları engeller, arka plan ile etkileşim sağlar
-        }}>
-            DGTLFACE
-      </div>
+    {/* Yazının z-index'ini 20 yaparak en üste aldık */}
+    <div className="absolute z-[20] text-[22px] lg:text-[28px] font-medium pointer-events-none text-darkBlue tracking-normal font-inter uppercase">
+      DGTLFACE
     </div>
     
-    </>
+    {!isVisible && (
+      <div className="absolute inset-0 bg-gray-50/10 animate-pulse rounded-full border border-gray-100" />
+    )}
+  </div>
   );
 }
 
