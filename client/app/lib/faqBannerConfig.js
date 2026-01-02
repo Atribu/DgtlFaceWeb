@@ -1,5 +1,5 @@
 // lib/faqBannerConfig.js
-import imgGeneral from "@/public/images/sss/SSSgenel.webp"
+import imgGeneral from "@/public/images/sss/SSSGENEL.webp"
 
 import imgSeo1 from "@/public/images/sss/SEO/SEOgenel.webp"
 import imgSeo2 from "@/public/images/sss/SEO/TeknikSEO.webp"
