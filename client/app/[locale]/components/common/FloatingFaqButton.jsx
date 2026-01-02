@@ -51,7 +51,7 @@ export default function FloatingFaqButton() {
         </span>
 
              <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-white ring-1 ring-white/15">
-          <span className="text-[22px] font-black bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent">
+          <span className="text-[22px] font-bold bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent">
             ?
           </span>
         </span>

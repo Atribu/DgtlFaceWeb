@@ -4,17 +4,22 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
-import Footer from "./components/footer/Footer";
-import CookiePopup from "./components/Cookies/CookiePopup";
+// import Footer from "./components/footer/Footer";
+// import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
-import FloatingFaqButton from "./components/common/FloatingFaqButton";
+// import FloatingFaqButton from "./components/common/FloatingFaqButton";
 import { GoogleTagManager } from '@next/third-parties/google'
 import { Inter } from "next/font/google";
+import dynamic from 'next/dynamic';
+
+const Footer = dynamic(() => import("./components/footer/Footer"));
+const CookiePopup = dynamic(() => import("./components/Cookies/CookiePopup"));
+const FloatingFaqButton = dynamic(() => import("./components/common/FloatingFaqButton"));
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-inter", 
 });
 
@@ -22,29 +27,78 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-
 export async function generateMetadata({ params }) {
-  const { locale } = await params; 
-
+  const { locale } = params;
   const pathname = "/";
 
   const seoData = getSeoData(pathname, locale);
 
   return {
-    title: seoData.title,
+    // ✅ mutlaka ekle (OG url'ler doğru oluşsun)
+    metadataBase: new URL("https://dgtlface.com"),
+
+    // ✅ title template doğru yerde
+    title: {
+      default: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+      template: "%s | DGTLFACE",
+    },
+
     description: seoData.description,
+
+    // ✅ canonical + diller
+    alternates: {
+      canonical: `/${locale}/anasayfa`,
+      languages: {
+        tr: "/tr/anasayfa",
+        en: "/en",
+        ru: "/ru",
+        // sende route neyse ona göre
+      },
+    },
+
     icons: {
       icon: [
-        { url: '/favicon.ico' },
-        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' }, 
-         { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' }, 
+        { url: "/favicon.ico" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
       ],
-      shortcut: '/favicon.ico',
-      apple: '/apple-touch-icon.png', 
+      apple: [{ url: "/apple-icon.png", sizes: "180x180" }],
+      shortcut: "/favicon.ico",
+    },
+
+    // ✅ Google’da görsel için kritik alanlar:
+    openGraph: {
+      type: "website",
+      url: `https://dgtlface.com/${locale}/anasayfa`,
+      siteName: "DGTLFACE",
+      title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+      description: seoData.description,
+      images: [
+        {
+          url: "/og/og-home.png", // bunu oluşturacağız
+          width: 1200,
+          height: 630,
+          alt: "DGTLFACE",
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ru_RU",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+      description: seoData.description,
+      images: ["/og/og-home.png"],
+    },
+
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
+
 
 
 export default async function RootLayout({ children,  params }) {
@@ -61,14 +115,6 @@ export default async function RootLayout({ children,  params }) {
     <html lang={locale}>
       <GoogleTagManager gtmId="GTM-TM2KPGV9" />
      <body className={`${inter.variable} antialiased`}>
-         {/* <noscript
-    dangerouslySetInnerHTML={{
-      __html: `
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM2KPGV9"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe>
-      `,
-    }}
-  /> */}
         <NextIntlClientProvider locale={locale} messages={messages}>
         <HeaderWrapper />
         <CookiePopup />
@@ -80,15 +126,3 @@ export default async function RootLayout({ children,  params }) {
     </html>
   );
 }
-
-{/* <head>
-        <Script id="gtm-base" strategy="afterInteractive">
-          {`
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-TM2KPGV9');
-        `}
-        </Script>
-      </head> */}

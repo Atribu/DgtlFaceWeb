@@ -1,6 +1,6 @@
 export const FAQ_MAP = {
   "sss": "FaqGeneral",
-  "hizmetler-sss": "FaqServices",
+  "hizmetlerimiz-sss": "FaqServices",
   "seo-sss": "FaqSeo",
   "sem-sss": "FaqSem",
   "smm-sss": "FaqSmm",

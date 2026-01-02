@@ -236,7 +236,7 @@ const rich = {
               <div
   id="intro"
   ref={(el) => (sectionRefs.current.intro = el)}
-  className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-[135%] lg:leading-[135%] lg:leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
+  className="scroll-mt-[120px] mt-4 space-y-3 text-[#140f25]/90 leading-[135%] lg:leading-relaxed text-[14px] lg:text-[16px] [&_li]:text-start [&_li]:ml-[30%]"
 >
  {["p1","p2","p3"].map((k) => {
    const raw = ns?.intro?.[k];
@@ -314,9 +314,9 @@ const rich = {
                  {quickItems.map((it) => (
   <div key={it.q}  className="rounded-2xl bg-[#f2edf9] p-4 lg:p-5 border border-black/5">
                       <p className="font-semibold text-[#140f25]">{it.q}</p>
-                      <p className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-[135%] lg:leading-relaxed">
+                      <div className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-[135%] lg:leading-relaxed">
                         {renderRichText(it.a)}
-                      </p>
+                      </div>
                     </div>
                   ))}
                 </div>

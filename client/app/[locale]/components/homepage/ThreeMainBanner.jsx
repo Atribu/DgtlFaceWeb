@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imgBanner from "./images/herobanner2.webp";
+// import imgBanner from "@/public/images/homepage/herobanner2.webp";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -19,15 +19,15 @@ export default function ThreeMainBanner() {
  
       <div className="absolute inset-0" style={{ zIndex: 0 }}>
         <Image
-          src={imgBanner}
+          src="/images/homepage/herobanner2.webp"
           alt="DGTLFACE - Dijital Pazarlama ve Web Tasarım"
           fill
           priority
           fetchPriority="high"
+          loading="eager"
           quality={75}
           className="object-cover"
           sizes="100vw"
-          placeholder="blur"
         />
       </div>
 
@@ -43,7 +43,7 @@ export default function ThreeMainBanner() {
 
       {/* İçerik */}
       <div
-        className="absolute w-full md:w-[63%] lg:w-[64%] xl:w-[55%] left-[2%] lg:left-[6%] xl:left-[8%] 2xl:left-[10%] top-[15%] sm:top-[20%] md:top-[21%] lg:top-[24%] xl:top-[28%] flex flex-col gap-4 text-start p-4 lg:p-0 will-change-transform"
+        className="absolute w-full md:w-[63%] lg:w-[64%] xl:w-[55%] left-[2%] lg:left-[6%] xl:left-[8%] 2xl:left-[10%] top-[15%] sm:top-[20%] md:top-[21%] lg:top-[24%] 2xl:top-[26%] 3xl:top-[28%] flex flex-col gap-4 text-start p-4 lg:p-0 will-change-transform"
         style={{
           zIndex: 50,
           color: "#fff",
@@ -113,7 +113,7 @@ export default function ThreeMainBanner() {
         >
           <Link
             href="/Services"
-            className="flex items-center gradient-border-button w-[184px] h-[42px] text-sm font-bold justify-center"
+            className="flex items-center gradient-border-button min-w-[184px] h-[42px] text-sm font-bold justify-center"
             aria-label="Hizmetlerimizi İnceleyin"
           >
             {t("button")}

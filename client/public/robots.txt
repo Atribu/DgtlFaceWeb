@@ -1,0 +1,10 @@
+# Tüm botlara izin ver
+User-agent: *
+Allow: /
+
+# Taranmasını istemediğiniz özel klasörler varsa buraya ekleyin (örneğin admin paneli)
+# Disallow: /admin
+# Disallow: /private
+
+# Site haritanızı ekleyin (Alan adınızı dgtlface.com olarak baz alıyorum)
+Sitemap: https://dgtlface.com/sitemap.xml

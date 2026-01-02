@@ -1,4 +1,6 @@
 // lib/faqBannerConfig.js
+import imgGeneral from "@/public/images/sss/SSSgenel.webp"
+
 import imgSeo1 from "@/public/images/sss/SEO/SEOgenel.webp"
 import imgSeo2 from "@/public/images/sss/SEO/TeknikSEO.webp"
 import imgSeo3 from "@/public/images/sss/SEO/contentSeo.webp"
@@ -298,8 +300,8 @@ export const FAQ_BANNER_ASSET_MAP = {
   // ---------------------------------------------------------
   // GENEL SSS
   // ---------------------------------------------------------
-  "sss": imgSem1, // genel bir görsel seç (istersen ayrı bir genel görsel koy)
-  "hizmetler-sss": imgSem1, // sende bu slug var
+  "sss": imgGeneral, // genel bir görsel seç (istersen ayrı bir genel görsel koy)
+  "hizmetler-sss": imgGeneral, // sende bu slug var
 
   // ---------------------------------------------------------
   // SEO

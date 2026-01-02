@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Facebook from "./Icons/fc.jsx";
 import Instagram from "./Icons/instagram.jsx";
 import Linkedin from "./Icons/linkedin.jsx";
 import WhatsApp from "./Icons/whatsapp.jsx";
 import Youtube from "./Icons/youtube.jsx";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../header/svg/DgtlFaceLogo.jsx";
 import sutunlar from "./images/sutunlar.png";
 import { PiYoutubeLogo } from "react-icons/pi";
@@ -95,7 +96,7 @@ export default function Footer() {
                 <span className="font-semibold text-[13px] opacity-80">
                   {t("footer_block_corporate") ?? "Kurumsal"}
                 </span>
-                <div className="flex flex-wrap justify-center gap-2 max-w-[260px]">
+                <div className="flex flex-wrap justify-center gap-3 font-semibold max-w-[290px]">
                   {corporateLinks.map((link) => (
                     <Link
                       key={link.href}
@@ -155,14 +156,24 @@ export default function Footer() {
                 >
                   <WhatsApp className="w-9 h-9 z-[20]" />
                 </Link>
+               
                 <Link
-                  href="https://www.facebook.com/dgtlface"
+                  href="https://t.me/Dgtlfaceofficial"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex z-[20]"
+                   className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
                 >
-                  <Facebook className="w-9 h-9 z-[20]" />
+                    <FaTelegramPlane size={15}/>
                 </Link>
+                    <Link
+                  href="https://x.com/dgtlface"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                   className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                >
+                   <FaXTwitter size={16}/>
+                </Link>
+               
                 <Link
                   href="https://www.youtube.com/@dgtlface"
                   target="_blank"
@@ -293,13 +304,23 @@ export default function Footer() {
                 <WhatsApp className="w-9 h-9 z-[20]" />
               </Link>
               <Link
-                href="https://www.facebook.com/dgtlface"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex z-[20]"
-              >
-                <Facebook className="w-9 h-9 z-[20]" />
-              </Link>
+                  href="https://t.me/Dgtlfaceofficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                   className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                >
+                    <FaTelegramPlane size={15}/>
+                </Link>
+                
+                     <Link
+                  href="https://x.com/dgtlface"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex z-[20] border-white border-[2px] rounded-full items-center justify-center p-2"
+                >
+                   <FaXTwitter size={16}/>
+                </Link>
+            
               <Link
                 href="https://www.youtube.com/@dgtlface"
                 target="_blank"

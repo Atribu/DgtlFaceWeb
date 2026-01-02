@@ -7,7 +7,6 @@ import { useMessages, useLocale } from "next-intl";
 import { FAQ_BANNER_MAP, MAIN_SERVICES_CHIPS, FAQ_BANNER_ASSET_MAP } from "@/app/lib/faqBannerConfig";
 import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
-import imgSem from "./images/sem/Sem.webp"
 
 const HEADING_KEY_RE =
   /(^|\.)(h\d+|title|title\d+|heading|heading\d+|header|header\d+|services_title)$/i;
@@ -77,6 +76,12 @@ export default function SearchBanner({ faqSlug }) {
     return parts[parts.length - 1];
   }, [faqSlug, pathname]);
 
+    // ✅ Root sayfa tespiti
+  const isFaqRoot = resolvedSlug === "sss";
+  const isServicesRoot = resolvedSlug === "hizmetlerimiz-sss";
+  const isRootMode = isFaqRoot || isServicesRoot;
+
+
   const chipConf = FAQ_BANNER_MAP[resolvedSlug] || { mode: "main" };
   const chips =
     chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIPS;
@@ -120,7 +125,7 @@ const results = useMemo(() => {
 
   return (
     <div className="flex w-full items-center lg:items-end justify-center bg-[#547CCF]/10 min-h-[55vh] pt-[100px] lg:min-h-[64vh] xl:min-h-[68vh] lg:pt-[3vh] xl:pt-0 bg-cover bg-center"   style={{ backgroundImage: `url(${bannerImg.src})` }}>
-      <div className="flex flex-col items-center w-[97%] lg:w-[98%] xl:w-[92%] gap-5 lg:gap-10 lg:mb-10 xl:mb-16 2xl:mb-[11vh] 3xl:mb-[14vh] 4xl:mb-[200px]">
+      <div className="flex flex-col items-center w-[97%] lg:w-[98%] xl:w-[92%] gap-5 lg:gap-8 lg:mb-10 xl:mb-16 2xl:mb-[11vh] 3xl:mb-[14vh] 4xl:mb-[200px]">
         <h2 className="text-[24px] md:text-[28px] lg:text-[36px] xl:text-[48px] bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent font-semibold lg:font-bold">
           Sorularınızı Cevaplayalım
         </h2>
@@ -168,23 +173,48 @@ const results = useMemo(() => {
   )}
 </div>
 
+  {/* ✅ SSS / Hizmetlerimiz SSS toggle (sadece root sayfalarda göster) */}
+{isRootMode && (
+  <div className="mt-1 flex items-center justify-center gap-2">
+    <Link
+      href={`/${locale}/sss`}
+      className={[
+        "px-4 py-2 rounded-full text-[12px] sm:text-[13px] font-semibold transition",
+        isFaqRoot
+          ? "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] text-white"
+          : "bg-white/15 text-white border border-white/20 hover:bg-white/20",
+      ].join(" ")}
+    >
+      SSS (Genel)
+    </Link>
+
+    <Link
+      href={`/${locale}/hizmetlerimiz-sss`}
+      className={[
+        "px-4 py-2 rounded-full text-[12px] sm:text-[13px] font-semibold transition",
+        isServicesRoot
+          ? "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] text-white"
+          : "bg-white/15 text-white border border-white/20 hover:bg-white/20",
+      ].join(" ")}
+    >
+      Hizmetlerimiz SSS
+    </Link>
+  </div>
+)}
+
+
+
 {/* #5490cf */}
         {/* chips */}
-        {/* chips */}
 {(() => {
-  const isRoot = resolvedSlug === "sss";
-
-  // children modunda title var: "SEO", "SEM" vs.
-  const groupTitle = chipConf?.title || "";
-
-  // children listesinde genelde ilk chip "SEO (Genel)" gibi oluyor
-  // Onu “üst seviye / parent” gibi ayrı göstereceğiz
+    const isRoot = isRootMode;
   const parentChip = !isRoot && chips?.length ? chips[0] : null;
   const childChips = !isRoot && chips?.length ? chips.slice(1) : chips;
+  
 
   return (
-    <div className={` mt-3 sm:mt-3 lg:mt-4 items-center justify-center ${
-    resolvedSlug === "sss" ? " w-[90%] md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[1240px]" : "w-full md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[900px]"
+    <div className={` mt-0 sm:mt-0 lg:-mt-7 items-center justify-center ${
+    isRootMode ? " w-[90%] md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[1240px]" : "w-full md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[900px]"
   }`}>
       {/* ✅ ALT SAYFALARDA ÜST BAR: SSS’ye dön + grup etiketi */}
       {!isRoot && (
@@ -264,7 +294,7 @@ const results = useMemo(() => {
                 // aktif chip vurgusu
                 isActive
                   ? "ring-1 ring-white/25 bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
-                  : "bg-[#5592ce]/80",
+                  : "bg-[#5592ce]",
                 "hover:bg-gradient-to-r hover:from-[#A754CF] hover:via-[#547CCF] hover:to-[#54B9CF]",
               ].join(" ")}
             >
@@ -277,22 +307,6 @@ const results = useMemo(() => {
   );
 })()}
 
-       {/* <div
-  className={`grid w-full md:w-[57%] lg:w-[80%] xl:w-full lg:grid-cols-5 2xl:flex text-white gap-2 md:gap-3 lg:gap-4 xl:gap-5 items-center justify-center mt-2 sm:mt-4 md:pt-10 lg:pt-0 lg:mt-5 xl:mt-10 sm:grid-cols-3 ${
-    resolvedSlug === "sss" ? "grid-cols-3" : "grid-cols-2"
-  }`}
->
-
-          {chips.map((c) => (
-            <Link
-              key={c.href}
-              href={`/${locale}${c.href}`}
-              className="flex items-center justify-center text-center text-[12px] font-semibold lg:font-medium sm:text-[14px] xl:text-[16px] lg:py-2 lg:px-6 py-[9px] xl:py-3 px-4 xl:px-8 rounded-full bg-[#7b69cd] shadow-2xl hover:scale-110 transition-all duration-300 ease-in-out whitespace-nowrap hover:bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
-            >
-              {c.label}
-            </Link>
-          ))}
-        </div> */}
       </div>
     </div>
   );

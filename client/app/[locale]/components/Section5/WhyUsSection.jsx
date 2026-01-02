@@ -1,5 +1,5 @@
 "use client";
-import React, {useCallback} from 'react';
+import React from 'react';
 import Dgtlface from "./Images/dgtlfaceoffice.png";
 import DgtlfaceImg2 from "./Images/ofis1.webp";
 import DgtlfaceImg3 from "./Images/ofis2.webp";
@@ -12,14 +12,6 @@ export default function WhyUsSection() {
    const t = useTranslations("Homepage.whyussection")
    
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
 
 
   const cards = [

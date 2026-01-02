@@ -170,18 +170,25 @@ const currentLabel = currentLabelRaw.replace(/\s*SSS\s*/gi, " ").trim(); // iste
 
 const currentHref =
   baseJsonLd?.url?.replace("https://dgtlface.com", "") || `/${locale}/${slug}`;
+  
+  const isFaqRoot = slug === "sss";
+const isServicesRoot = slug === "hizmetlerimiz-sss";
 
 const crumbItems = [
   { label: "Ana Sayfa", href: homeHref },
 
-  // /sss sayfasında sadece Anasayfa -> SSS göster
-  ...(slug === "sss"
+ ...(isFaqRoot
     ? [{ label: "SSS", href: faqIndexHref }]
-    : [
-        { label: "SSS", href: faqIndexHref },
-        ...(deptSlug ? [{ label: deptLabel, href: deptHref }] : []),
-        { label: (baseJsonLd?.dgPageName || baseJsonLd?.name || "SSS"), href: currentHref },
-      ]),
+    : isServicesRoot
+      ? [
+          { label: "SSS", href: faqIndexHref },
+          { label: "Hizmetlerimiz SSS", href: `/${locale}/hizmetlerimiz-sss` },
+        ]
+      : [
+          { label: "SSS", href: faqIndexHref },
+          ...(deptSlug ? [{ label: deptLabel, href: deptHref }] : []),
+          { label: (baseJsonLd?.dgPageName || baseJsonLd?.name || "SSS"), href: currentHref },
+        ]),
 ];
 
 

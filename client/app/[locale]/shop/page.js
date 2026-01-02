@@ -162,7 +162,7 @@ export default function ShopPageSingleFile() {
         
         {/* ÜRÜN LİSTESİ (Shop Bölümü) */}
         <main className="w-full lg:w-3/4 p-4 sm:p-6 lg:p-8 order-2 lg:order-1 mt-32">
-          <h1 className="text-4xl font-extrabold text-white mb-8">Dijital Hizmetler Mağazası</h1>
+          <h1 className="text-4xl font-bold text-white mb-8">Dijital Hizmetler Mağazası</h1>
          
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">

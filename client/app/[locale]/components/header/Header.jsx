@@ -227,7 +227,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[40.8%] 2xl:-translate-x-[42.5%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
+      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[40.8%] 2xl:-translate-x-[41.3%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => {
         setIsOpen(false);
@@ -240,7 +240,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
      {servicesConfig.map((service) => (
   <div
     key={service.key}
-   className="group flex flex-col items-center text-center gap-2 2xl:min-w-[170px]"
+   className="group flex flex-col items-center text-center gap-2 3xl:min-w-[170px]"
   >
 
     {/* Üst başlık */}
