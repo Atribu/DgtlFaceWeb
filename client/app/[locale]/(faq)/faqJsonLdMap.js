@@ -301,7 +301,7 @@ export const FAQ_JSONLD_MAP = {
   "dgLanguage": "TR",
   "dgPriority": "High",
 
-  "dgPageName": "Google Ads & Dijital Reklam Yönetimi SSS (SEM Sık Sorulan Sorular)",
+  "dgPageName": "SEM Sık Sorulan Sorular",
   "dgH1": "Google Ads & Dijital Reklam Yönetimi SSS (SEM Sık Sorulan Sorular)",
   "dgTitle": "Google Ads & Dijital Reklam Yönetimi SSS – Dijital Reklam Yönetimi İçin En Kapsamlı Rehber | DGTLFACE",
   "dgMetaDescription": "Google Ads & Dijital Reklam Yönetimi hakkında sık sorulan sorular; Google Ads, YouTube Ads, Display, Remarketing ve otel odaklı performans kampanyaları. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
@@ -616,7 +616,7 @@ export const FAQ_JSONLD_MAP = {
   "dgLanguage": "TR",
   "dgPriority": "High",
 
-  "dgPageName": "SEO Hizmetleri SSS (Arama Motoru Optimizasyonu Soruları)",
+  "dgPageName": "SEO Hizmetleri SSS ",
   "dgH1": "SEO Hizmetleri SSS (Arama Motoru Optimizasyonu Soruları)",
   "dgTitle": "SEO Hizmetleri SSS – Arama Motoru Optimizasyonu İçin Kapsamlı Rehber | DGTLFACE",
   "dgMetaDescription": "SEO Hizmetleri hakkında sık sorulan sorular; teknik SEO, içerik SEO’su, otel ve destinasyon bazlı yerel SEO stratejileri. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
@@ -929,7 +929,7 @@ export const FAQ_JSONLD_MAP = {
   "dgLanguage": "TR",
   "dgPriority": "High",
 
-  "dgPageName": "Sosyal Medya Yönetimi SSS (SMM Sık Sorulan Sorular)",
+  "dgPageName": "Sosyal Medya Yönetimi SSS ",
   "dgH1": "Sosyal Medya Yönetimi SSS (SMM Sık Sorulan Sorular)",
   "dgTitle": "Sosyal Medya Yönetimi SSS – Sosyal Medya Stratejileri İçin Kapsamlı Rehber | DGTLFACE",
   "dgMetaDescription": "Sosyal Medya Yönetimi hakkında sık sorulan sorular; içerik üretimi, planlama, topluluk yönetimi ve reklam performansı. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",
@@ -1238,7 +1238,7 @@ export const FAQ_JSONLD_MAP = {
   "dgLanguage": "TR",
   "dgPriority": "High",
 
-  "dgPageName": "Web & Yazılım Hizmetleri SSS (Altyapı ve Geliştirme Soruları)",
+  "dgPageName": "Web & Yazılım Hizmetleri SSS",
   "dgH1": "Web & Yazılım Hizmetleri SSS (Altyapı ve Geliştirme Soruları)",
   "dgTitle": "Web & Yazılım Hizmetleri SSS – Web & Yazılım Altyapıları İçin Kapsamlı Rehber | DGTLFACE",
   "dgMetaDescription": "Web & Yazılım Hizmetleri hakkında sık sorulan sorular; kurumsal web siteleri, rezervasyon altyapıları ve entegre yazılım çözümleri. DGTLFACE’in otel ve turizm odaklı profesyonel yaklaşımını bu SSS sayfasında bulabilirsiniz.",

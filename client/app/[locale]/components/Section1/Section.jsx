@@ -41,7 +41,7 @@ const Section = () => {
       {/* Sağ Kısım: Three.js Sahnesi */}
       <div className="flex relative lg:p-6 items-center justify-center h-[370px] md:h-auto">
         <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-4 ">
-        <FireballExplosion />
+        {/* <FireballExplosion /> */}
         </div>
       </div>
       </div>

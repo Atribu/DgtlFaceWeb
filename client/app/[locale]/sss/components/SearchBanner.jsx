@@ -125,7 +125,7 @@ const results = useMemo(() => {
 
   return (
     <div className="flex w-full items-center lg:items-end justify-center bg-[#547CCF]/10 min-h-[55vh] pt-[100px] lg:min-h-[64vh] xl:min-h-[68vh] lg:pt-[3vh] xl:pt-0 bg-cover bg-center"   style={{ backgroundImage: `url(${bannerImg.src})` }}>
-      <div className="flex flex-col items-center w-[97%] lg:w-[98%] xl:w-[92%] gap-5 lg:gap-8 lg:mb-10 xl:mb-16 2xl:mb-[11vh] 3xl:mb-[14vh] 4xl:mb-[200px]">
+      <div className="flex flex-col items-center w-[97%] lg:w-[98%] xl:w-[82%] xl:max-w-[1120px] gap-5 lg:gap-8 lg:mb-10 xl:mb-16 2xl:mb-[11vh] 3xl:mb-[14vh] 4xl:mb-[200px]">
         <h2 className="text-[24px] md:text-[28px] lg:text-[36px] xl:text-[48px] bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-transparent font-semibold lg:font-bold">
           Sorularınızı Cevaplayalım
         </h2>
@@ -133,7 +133,7 @@ const results = useMemo(() => {
         {/* search */}
       {/* search */}
 <div className="relative max-w-[650px] w-full md:w-[48%] lg:w-[55%] xl:w-[70%] z-[60]">
-  <div className="rounded-2xl bg-[#547CCF]/10 border border-[#140f25]/10 px-4 py-1 lg:py-2 xl:py-3 flex items-center gap-3">
+  <div className="rounded-2xl bg-[#ffffff]/90 border border-[#140f25]/10 px-4 py-1 lg:py-2 xl:py-3 flex items-center gap-3">
     <span className="opacity-70">🔎</span>
 
     <input
@@ -148,7 +148,7 @@ const results = useMemo(() => {
         }
       }}
       placeholder="Ara: başlıklar…"
-      className="w-full bg-transparent outline-none text-[#ffffff] placeholder:text-[#547CCF]"
+      className="w-full bg-transparent outline-none text-[#ffffff] placeholder:text-[#547CCF] placeholder:font-medium lg:text-[15px]"
     />
   </div>
 
@@ -263,46 +263,55 @@ const results = useMemo(() => {
      
 
       {/* ✅ GRID: root’ta büyük, alt sayfalarda daha sık ve küçük */}
-      <div
+      {/* ✅ GRID: root’ta büyük, alt sayfalarda daha sık ve küçük */}
+<div
+  className={[
+    "grid gap-1 md:gap-2 lg:gap-[10px]",
+    isRoot
+      ? "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10 items-center justify-center"
+      : "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5",
+  ].join(" ")}
+>
+  {(isRoot ? chips : childChips).map((c, idx) => {
+    const list = isRoot ? chips : childChips;
+
+    // ✅ XL’de 5 kolon varken 9 eleman (5+4) senaryosunda 2. satırı ortala
+    // 6. elemanı (idx=5) 2. kolondan başlat → 2-5 arası yayılır, 4’lü blok ortalanır
+    const shouldCenterLastRow =
+      isRoot && list.length === 9 && idx === 5;
+
+    const isActive = resolvedSlug === c.href.replace("/", "");
+
+    return (
+      <Link
+        key={c.href}
+        href={`/${locale}${c.href}`}
         className={[
-          "grid gap-1 md:gap-2",
+          "flex items-center justify-center text-center rounded-full",
+          "border border-white/10 backdrop-blur",
+          "transition-all duration-300 ease-in-out whitespace-nowrap mt-[10px] lg:mt-5",
+           isRoot ? "xl:col-span-2" : "",
+
+          // ✅ sadece bu senaryoda devreye girsin
+          shouldCenterLastRow ? "xl:col-start-2" : "",
+
           isRoot
-            ? // /sss: ana departmanlar
-              "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-9 "
-            : 
-              "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 ",
+            ? "px-4 py-[6px] md:py-2 text-[12px] sm:text-[13px] md:text-[14px] xl:text-[15px] font-semibold bg-[#7b69cd]/80 hover:scale-[1.04]"
+            : "px-3 py-[6px] md:py-2 text-[11px] sm:text-[12px] md:text-[14px] xl:text-[15px] font-semibold bg-[#5592ce] ",
+
+          isActive
+            ? "ring-1 ring-white/25 bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
+            : "bg-[#5592ce]",
+
+          "hover:bg-gradient-to-r hover:from-[#A754CF] hover:via-[#547CCF] hover:to-[#54B9CF]",
         ].join(" ")}
       >
-        {(isRoot ? chips : childChips).map((c) => {
-          const isActive = resolvedSlug === c.href.replace("/", ""); 
-          // Not: resolvedSlug = "seo-sss" gibi; href="/seo-sss"
-          // İstersen daha net: isActive = `/${resolvedSlug}` === c.href
+        {c.label}
+      </Link>
+    );
+  })}
+</div>
 
-          return (
-            <Link
-              key={c.href}
-              href={`/${locale}${c.href}`}
-              className={[
-                "flex items-center justify-center text-center rounded-full",
-                "border border-white/10 backdrop-blur",
-                "transition-all duration-300 ease-in-out whitespace-nowrap mt-[10px] lg:mt-5",
-                isRoot
-                  ? // root: biraz daha büyük
-                    "px-4 py-[6px] md:py-2 text-[12px] sm:text-[13px] md:text-[14px] xl:text-[15px] font-semibold bg-[#7b69cd]/80 hover:scale-[1.04]"
-                  : // alt: daha küçük
-                    "px-3 py-[6px] md:py-2 text-[11px] sm:text-[12px] md:text-[14px] xl:text-[15px] font-semibold bg-white/10 hover:bg-white/15",
-                // aktif chip vurgusu
-                isActive
-                  ? "ring-1 ring-white/25 bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]"
-                  : "bg-[#5592ce]",
-                "hover:bg-gradient-to-r hover:from-[#A754CF] hover:via-[#547CCF] hover:to-[#54B9CF]",
-              ].join(" ")}
-            >
-              {c.label}
-            </Link>
-          );
-        })}
-      </div>
     </div>
   );
 })()}
