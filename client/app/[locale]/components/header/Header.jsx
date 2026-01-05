@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect, useMemo } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "@/LangSwitcher";
@@ -14,12 +14,12 @@ import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
-import dynamic from "next/dynamic";
 
-const MegaMenuContent = dynamic(() => import("./MegaMenuContent"), {
-  ssr: false,
-  loading: () => <div className="hidden lg:block h-[180px]" />,
-});
+
+
+
+
+
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -31,11 +31,12 @@ const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const dropdownRef = useRef(null);
 
+  const [activeService, setActiveService] = useState(null);
     // 🔹 MOBİL "Hizmetler" paneli için
     const [mobileMenuView, setMobileMenuView] = useState("main"); // "main" | "services"
 const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
-  const servicesConfig =  useMemo(() => ([
+  const servicesConfig = [
      {
     key: "sem",
     label: t("search_engine_marketing"),
@@ -85,7 +86,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       { label: t("software_server"), href: "/Services/software/serverManagementService" },
       { label: t("software_maintenance"), href: "/Services/software/websiteMaintanceService" },
 
-      
+
     ],
   },
 
@@ -126,9 +127,9 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
     ],
   },
- 
-  
- 
+
+
+
   {
     key: "digital_analysis",
     label: t("digital_analysis_reporting"),
@@ -154,9 +155,9 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       { label: t("hotel_callcenter"), href: "/Services/hotel/callCenter" },
     ],
   },
-]), [t]);
+];
 
-const [activeService, setActiveService] = useState(servicesConfig[0]?.key ?? null);
+
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -184,20 +185,20 @@ const [activeService, setActiveService] = useState(servicesConfig[0]?.key ?? nul
     setIsMounted(true);
   }, []);
 
-  const closeTimer = useRef(null);
 
-const openMega = () => {
-  if (closeTimer.current) clearTimeout(closeTimer.current);
-  setIsOpen(true);
-  if (!activeService && servicesConfig.length) setActiveService(servicesConfig[0].key);
-};
 
-const closeMega = () => {
-  closeTimer.current = setTimeout(() => {
-    setIsOpen(false);
-    setActiveService(null);
-  }, 120);
-};
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   return (
@@ -226,8 +227,16 @@ const closeMega = () => {
               {/* SERVICES + MEGA DROPDOWN */}
             <li
   className="relative"
-    onMouseEnter={openMega}
-  onMouseLeave={closeMega}
+  onMouseEnter={() => {
+    setIsOpen(true);
+    if (!activeService && servicesConfig.length > 0) {
+      setActiveService(servicesConfig[0].key);
+    }
+  }}
+  onMouseLeave={() => {
+    setIsOpen(false);
+    setActiveService(null);
+  }}
   ref={dropdownRef}
 >
   <Link href="/Services">
@@ -242,57 +251,79 @@ const closeMega = () => {
   {/* MEGA MENÜ */}
   {isMounted && isOpen && (
     <div
-      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[40.8%] 2xl:-translate-x-[42.3%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
-        onMouseEnter={openMega}
-      onMouseLeave={closeMega}
+      className="hidden lg:block absolute top-[calc(100%+8px)] 4xl:top-[calc(100%+10px)] left-[50%] -translate-x-[38%] xl:left-[50%] xl:-translate-x-[40.8%] 2xl:-translate-x-[41.3%] 3xl:-translate-x-[43.2%] 4xl:-translate-x-[44.8%] w-[98.8vw] z-10"
+      onMouseEnter={() => setIsOpen(true)}
+      onMouseLeave={() => {
+        setIsOpen(false);
+        setActiveService(null);
+      }}
     >
       <div className="w-[100%] py-[10px] px-0 rounded-[16px] shadow-lg border gradient-subTitle-div backdrop-blur-2xl !bg-[#080612]/90">
         {/* 9 SÜTUNLUK GRID */}
-      <div className="flex justify-between lg:grid lg:grid-cols-5 gap-0 px-2 xl:flex xl:flex-row">
-{servicesConfig.map((service) => {
-  const isActive = activeService === service.key;
+      <div className="flex justify-between lg:grid lg:grid-cols-5 gap-3 xl:flex xl:flex-row">
+     {servicesConfig.map((service) => (
+  <div
+    key={service.key}
+   className="group flex flex-col items-center text-center gap-2 3xl:min-w-[170px]"
+  >
 
-  return (
-    <div
-      key={service.key}
-      className="group flex flex-col items-center text-center gap-1 4xl:min-w-[170px]"
-      onMouseEnter={() => setActiveService(service.key)}
-    >
-       <Link
+    {/* Üst başlık */}
+    <Link
+
+
       href={service.href}
       className={`items-center gap-0 rounded-xl px-[6px] xl:px-2 py-1 xl:py-[6px] text-[14px] font-semibold -tracking-[0.28px] transition-colors duration-150 bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white leading-snug break-words line-clamp-2 shadow-[0_0_0_1px_rgba(255,255,255,0.06)_inset]
 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
  ${
         activeService === service.key
-          ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70  text-white"
-          : " bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-transparent bg-clip-text"
+          ? "bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-transparent bg-clip-text"
+          : " bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 text-white"
       }`}
       onMouseEnter={() => setActiveService(service.key)}
     >
       {service.label}
     </Link>
 
-      {/* ✅ SADECE aktif olanın subLinks'i render */}
-      {isActive && service.subLinks?.length > 0 && (
-        <div className="relative overflow-hidden w-full mt-2 rounded-xl p-0 bg-[#8e73d0]/[0.3]">
-          <ul className="relative z-10 flex flex-col gap-2 text-[12px] text-white/80">
-            {service.subLinks.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  prefetch={false}
-                  className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+{service.subLinks && service.subLinks.length > 0 && (
+  <div
+    className={`relative overflow-hidden w-full mt-2 rounded-xl p-1 transition-colors
+    ${activeService === service.key ? "bg-white/[0.04]" : "bg-transparent"}`}
+  >
+    {/* Spotlight */}
+    <div className="pointer-events-none absolute -top-6 left-1/2 -translate-x-1/2 w-[320px] h-[310px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      <div className="absolute inset-0 rounded-full blur-2xl bg-[radial-gradient(closest-side,rgba(255,255,255,0.35),rgba(99,102,241,0.52),transparent)]" />
+
+
+
+
+
+
+
+
+
+
     </div>
-  );
-})}
+
+    {/* Ring */}
+    <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+    <ul className="relative z-10 flex flex-col gap-2 text-[12px] text-white/80">
+      {service.subLinks.map((item) => (
+        <li key={item.href}>
+          <Link
+            href={item.href}
+            className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
+          >
+            {item.label}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
+  </div>
+))}
 
         </div>
       </div>
@@ -456,7 +487,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             </button>
           </div>
         </div>
-        
+
         <div
           className={`
             col-span-2 w-full
@@ -466,7 +497,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           `}
         >
           <div className="w-full">
-           
+
             <div className="max-h-[320px] overflow-y-auto pr-1">
               <div className="grid grid-cols-2 gap-[10px]">
                 {servicesConfig.map((service) => (
@@ -552,7 +583,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 </div>
 
         </div>
-        
+
       </div>
 
       <style jsx>{`

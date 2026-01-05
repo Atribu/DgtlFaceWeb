@@ -27,14 +27,28 @@ export default function Footer() {
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
   const serviceCategories = [
-    { href: "/Services/sem", label: "SEM (Dijital Reklam Yönetimi)" },
+    { href: "/Services/sem", label: "SEM" },
      { href: "/Services/creative", label: "Creative" },
    { href: "/Services/pms", label: "PMS & OTA Yönetimi" },
       { href: "/Services/callcenter", label: "Çağrı Merkezi" },
-    { href: "/Services/smm", label: "SMM (Sosyal Medya Pazarlaması)" },
+    { href: "/Services/smm", label: "SMM" },
     { href: "/Services/software", label: "Web & Yazılım Hizmetleri" },
-     { href: "/Services/seo", label: "SEO (Arama Motoru Optimizasyonu)" },
+     { href: "/Services/seo", label: "SEO" },
         { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama" },
+
+    { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
+ 
+  ];
+
+    const sssCategories = [
+    { href: "/Services/sem", label: "SEM SSS" },
+     { href: "/Services/creative", label: "Creative SSS" },
+   { href: "/Services/pms", label: "PMS & OTA Yönetimi SSS" },
+      { href: "/Services/callcenter", label: "Çağrı Merkezi SSS" },
+    { href: "/Services/smm", label: "SMM SSS" },
+    { href: "/Services/software", label: "Yazılım SSS" },
+     { href: "/Services/seo", label: "SEO SSS" },
+        { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama SSS" },
 
     { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
  
@@ -45,6 +59,11 @@ export default function Footer() {
   const rightServices = serviceCategories.slice(5, 10);
 
   const allServices = [...leftServices, ...rightServices];
+
+    const leftServicesSSS = sssCategories.slice(0, 5);
+  const rightServicesSSS = sssCategories.slice(5, 10);
+
+  const allServicesSSS = [...leftServicesSSS, ...rightServicesSSS];
 
   return (
     <footer className="flex bg-[#140f25] text-white pb-4 pt-12 lg:pt-0 lg:pb-0 lg:py-4 relative overflow-y-hidden max-w-screen items-center justify-center lg:min-h-[360px]">
@@ -220,7 +239,37 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <Logo className="w-44 flex" />
+
+            <div>
+         <h4 className="text-[14px] font-semibold mb-2">
+              SSS
+              </h4>
+              <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
+                <div className="flex flex-col gap-[8px]">
+                  {leftServicesSSS.map((cat) => (
+                    <Link
+                      key={cat.href}
+                      href={cat.href}
+                      className="hover:underline leading-[110%]"
+                    >
+                      {cat.label}
+                    </Link>
+                  ))}
+                </div>
+                <div className="flex flex-col gap-[8px] text-white">
+                  {rightServicesSSS.map((cat) => (
+                    <Link
+                      key={cat.href}
+                      href={cat.href}
+                      className="hover:underline leading-[110%]"
+                    >
+                      {cat.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+            {/* <Logo className="w-44 flex" /> */}
           </div>
 
           {/* Orta: CTA bloğu (aynı) */}
@@ -235,6 +284,7 @@ export default function Footer() {
               <p className="text-[16px] font-noral leading-[130%] -tracking-[0.32px] w-[90%]">
                 {t("text")}
               </p>
+                <Logo className="w-44 flex mt-10 -ml-4" />
             </div>
             <Image
               src={sutunlar}
@@ -249,18 +299,11 @@ export default function Footer() {
                   "linear-gradient(to top, transparent 0%, black 50%)",
               }}
             />
-            <Link
-              href="/contact"
-              className="z-[50] absolute top-[190px] xl:top-[220px] max-w-[160px] xl:max-w-[172px] whitespace-nowrap inline-flex px-5 xl:px-6 py-2 xl:py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
-            >
-              <span className="text-[#140F25] text-[18px] font-bold leading-[120%] -tracking-[0.36px] font-inter">
-                {t("buttonText")}
-              </span>
-            </Link>
+            
           </div>
 
           {/* ✅ Sağ: Kurumsal + sosyal medya */}
-          <div className="flex flex-col gap-10 z-[20] mt-10 xl:mt-4 w-[30%]">
+          <div className="flex flex-col gap-8 z-[20] mt-10 xl:mt-4 w-[30%] items-center justify-center">
             <div>
               <h4 className="text-[14px] font-semibold mb-2">
                 {t("footer_block_corporate") ?? "Kurumsal"}
@@ -330,7 +373,26 @@ export default function Footer() {
                 <PiYoutubeLogo size={21} />
               </Link>
             </div>
+
+            <Link
+              href="/contact"
+              className="z-[50] flex xl:top-[220px] max-w-[160px] xl:max-w-[172px] whitespace-nowrap px-5 xl:px-6 py-2 xl:py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
+            >
+              <span className="text-[#140F25] text-[18px] font-bold leading-[120%] -tracking-[0.36px] font-inter">
+                {t("buttonText")}
+              </span>
+            </Link>
+
+            {/* <Link
+              href="/contact"
+              className="z-[50] absolute top-[190px] xl:top-[220px] max-w-[160px] xl:max-w-[172px] whitespace-nowrap inline-flex px-5 xl:px-6 py-2 xl:py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
+            >
+              <span className="text-[#140F25] text-[18px] font-bold leading-[120%] -tracking-[0.36px] font-inter">
+                {t("buttonText")}
+              </span>
+            </Link> */}
           </div>
+          
         </div>
 
         {/* Alt satır */}

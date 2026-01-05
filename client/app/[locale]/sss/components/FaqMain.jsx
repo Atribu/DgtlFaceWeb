@@ -129,10 +129,10 @@ function renderRichText(text) {
   out.push(
     <li
       key={`li-${k++}`}
-      className="flex items-start justify-center gap-2"
+      className="flex items-start justify-center lg:justify-start gap-2"
     >
       <span className="mt-[0.35em] leading-none">•</span>
-      <div className="text-center">{children}</div>
+      <div className="text-center lg:text-left">{children}</div>
     </li>
   );
 }
@@ -341,8 +341,8 @@ const rich = {
                 </h2>
 
                 <div className="mt-4 space-y-3 text-start">
-                 {generalItems.map((it) => (
-  <details key={it.q} className="group rounded-2xl border border-black/5 bg-white p-4 lg:p-5">
+                 {generalItems.map((it,idx) => (
+                <details key={it.q} id={`generalQuestions-q-${idx}`} className="group rounded-2xl border border-black/5 bg-white p-4 lg:p-5 scroll-mt-[100px]">
                       <summary className="cursor-pointer list-none font-semibold text-[#140f25] flex items-start justify-between gap-3">
                         <span>{it.q}</span>
                         <span className="mt-1 text-[#140f25]/40 group-open:rotate-180 transition">⌄</span>
@@ -362,8 +362,8 @@ const rich = {
                 </h2>
 
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-                 {quickItems.map((it) => (
-  <div key={it.q}  className="rounded-2xl bg-[#f2edf9] p-4 lg:p-5 border border-black/5">
+                 {quickItems.map((it,idx) => (
+  <div key={it.q}   id={`quickAnswers-q-${idx}`}  className="rounded-2xl bg-[#f2edf9] p-4 lg:p-5 border border-black/5 scroll-mt-[100px]">
                       <p className="font-semibold text-[#140f25]">{it.q}</p>
                       <div className="mt-2 text-[14px] lg:text-[16px] text-[#140f25]/85 leading-[135%] lg:leading-relaxed">
                         {renderRichText(it.a)}
@@ -387,9 +387,9 @@ const rich = {
 
     {/* Q&A listesi */}
     <div className="space-y-3">
-    {section.items.map((item) => (
-  <details key={`${section.id}-${item.q}`}
-          className="group rounded-xl border border-black/5 bg-white p-4 transition hover:shadow-md"
+    {section.items.map((item, idx) => (
+  <details key={`${section.id}-${item.q}`} id={`${section.id}-q-${idx}`}   // örn: section3-q-0
+          className="group rounded-xl border border-black/5 bg-white p-4 transition hover:shadow-md scroll-mt-[100px]"
         >
           <summary className="cursor-pointer list-none font-medium text-[#140f25] flex items-start justify-between gap-3">
             <span>{item.q}</span>
