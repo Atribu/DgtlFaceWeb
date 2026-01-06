@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations, useLocale, useMessages } from "next-intl"; // ✅ useMessages eklendi
+import { BLOG_MAP } from "../(blog)/[faq]/blog/blogMap"
 
 const GRADIENT =
   "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
@@ -142,21 +143,55 @@ function DepartmentChips({ items, value, onChange }) {
 export default function BlogPageV2() {
   const t = useTranslations("Blog");
   const locale = useLocale(); // ✅ Link için burada kullanacağız
+   const messages = useMessages(); // ✅ tr.json (messages) burada
+
   const [query, setQuery] = useState("");
   const [dept, setDept] = useState("all");
+
+  const ALL_POSTS = useMemo(() => {
+    const blogPosts = messages?.BlogPosts || {};
+
+    // BLOG_MAP: { sem: { "slug": "PostKey" }, seo: { ... } }
+    const out = [];
+
+    for (const [department, slugMap] of Object.entries(BLOG_MAP || {})) {
+      for (const [slug, postKey] of Object.entries(slugMap || {})) {
+        const post = blogPosts?.[postKey];
+        if (!post) continue; // JSON’da yoksa listeleme
+
+        out.push({
+          id: `${department}:${slug}`,
+          dept: department,
+          slug,
+          title: post.title || "",
+          excerpt: post.h1Intro || post.excerpt || "",
+          updatedAt:
+            post.byline?.updatedAt ||
+            post.byline?.publishedAt ||
+            post.updatedAt ||
+            post.publishedAt ||
+            "",
+          readingTime: post.byline?.readingTime || post.readingTime || "",
+        });
+      }
+    }
+
+    return out;
+  }, [messages]);
 
   const filteredPosts = useMemo(() => {
     const q = query.trim().toLowerCase();
 
-    return MOCK_POSTS.filter((p) => {
+    return ALL_POSTS.filter((p) => {
       const deptOk = dept === "all" ? true : p.dept === dept;
       const qOk = q
-        ? p.title.toLowerCase().includes(q) || p.excerpt.toLowerCase().includes(q)
+        ? (p.title || "").toLowerCase().includes(q) ||
+          (p.excerpt || "").toLowerCase().includes(q)
         : true;
 
       return deptOk && qOk;
     });
-  }, [query, dept]);
+  }, [ALL_POSTS, query, dept]);
 
   return (
     <main className="min-h-screen bg-black text-white">
@@ -253,7 +288,7 @@ export default function BlogPageV2() {
                   {p.title}
                 </h2>
 
-                <p className="mt-2 text-sm text-white/60">
+                <p className="mt-2 text-sm text-white/60 line-clamp-2">
                   {p.excerpt}
                 </p>
 

@@ -24103,8 +24103,2460 @@
     { "id": "overview", "title": "Genel Bakış", "body": ["...", "..."] },
     { "id": "crawl-index", "title": "Crawl ve Index", "body": ["..."] }
   ]
-}
+},
+
+ "BlogPosts": {
+    "BlogGoogleAdsOtellerIcinNasilCalisir": {
+  "title": "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
+  "slug": "google-ads-oteller-icin-nasil-calisir",
+  "department": "sem",
+   "updatedAt":"5 Ocak 2026",
+  "excerpt": "Google Ads’e “reklam veriyorum” diye değil, rezervasyon üreten ölçülebilir bir sistem kuruyorum diye bakarsanız sonuç alırsınız. Otellerde işler genelde sezon, pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya, Belek, Side, Kemer, Bodrum) kırılımında değişir; bu yüzden en başta hedefi netleştirmek gerekir. Bu rehber; kavramları sade anlatır, kampanya türlerini otel örnekleriyle bağlar ve ilk kampanyaya adım adım götürür.",
+  "seo": {
+    "metaTitle": "Oteller İçin Google Ads Nasıl Çalışır? | DGTLFACE",
+    "metaDescription": "Google Ads ile oteliniz için görünürlük ve direkt rezervasyon üretin. Kampanya türleri, hedefler, ilk kurulum ve dönüşüm takibiyle hızlı başlangıç rehberi."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SEM",
+      "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+      "Blog # / URL (Child): Blog #1 — /tr/sem/blog/google-ads-oteller-icin-nasil-calisir",
+      "Blog Tipi: Core",
+      "Intent: Informational (Beginner)",
+      "Zorluk / Seviye: Beginner–Intermediate",
+      "Word Count Range: 2300–2700",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/sem/blog/google-ads-oteller-icin-nasil-calisir"
+    ],
+    "strategySummary": "Bu blog, hub sayfa olan “Google Ads Yönetimi”nin (hizmet/rehber) altında child olarak konumlanır: amaç, “Google Ads oteller için nasıl çalışır?” gibi başlangıç sorgularını yakalayıp kullanıcıyı ölçüm + ilk kampanya kurulumuna yönlendirmektir. Persona; otel sahibi/GM, satış–pazarlama müdürü veya ajans yöneticisi; funnel’da awareness → consideration bandında, “nereden başlamalıyım?” sorusuna cevap arar. Ana iş sorusu: “Google Ads’i otelimde direkt rezervasyon üreten ölçülebilir bir sisteme nasıl dönüştürürüm?” Bu içerik, rakip giriş yazılarındaki “kavram anlatımı”nı aşarak otel örnekleri + rezervasyon funnel + çok dilli pazar (Türkiye, Almanya, Rusya) kurgusuyla fark yaratır."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "",
+    "readingTime": ""
+  },
+  "modules": {
+    "answerBlock": "Google Ads, otellerin doğru misafiri doğru anda yakalayıp tıklama bazlı reklamlarla rezervasyona yönlendirdiği bir performans kanalıdır. Mantık; hedef (doluluk/direkt rezervasyon) → kampanya türü seçimi (Search/Display/Video) → anahtar kelime/segment → açılış sayfası → dönüşüm takibi sırasıyla ilerleyen bir “rezervasyon funnel”ıdır. Başlangıçta en kritik adım; tek bir otel hedefi seçmek, Search ile başlamak ve temel ölçümü (form/arama/rezervasyon) doğru kurmaktır.",
+    "sgeSummary": "Oteller için Google Ads; hedef belirleme, kampanya türü seçimi, doğru arama niyeti ve basit dönüşüm takibiyle kurulan, rezervasyona giden ölçülebilir bir reklam funnel’ıdır.",
+    "voiceAnswer": "Google Ads, otelinize uygun arama yapan misafiri reklama getirip ölçümle rezervasyona dönüştürür.",
+    "aiFactSheet": [
+      "Hedef kitle: GM, satış–pazarlama, ajans yöneticisi (beginner)",
+      "Ana KPI: Direkt rezervasyon, CPA, ROAS, dönüşüm oranı, gelir/rezervasyon",
+      "Kritik entity’ler: Google Ads, Search Network, Display Network, YouTube, GA4, Tag Manager, booking engine",
+      "Funnel: Arama niyeti → tıklama → açılış sayfası → rezervasyon/lead → optimizasyon",
+      "GEO sinyali: Antalya / Belek / Side / Kemer / Bodrum örnekleri + Türkiye, Almanya, Rusya pazar notu",
+      "Risk: Ölçüm yoksa “öğrenme” yok; bütçe boşa akar",
+      "En hızlı kazanım: Search kampanyası + net landing + basit dönüşüm seti"
+    ]
+  },
+  "h1": {
+    "title": "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
+    "intro": "Google Ads’e “reklam veriyorum” diye değil, rezervasyon üreten ölçülebilir bir sistem kuruyorum diye bakarsanız sonuç alırsınız. Otellerde işler genelde sezon, pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya, Belek, Side, Kemer, Bodrum) kırılımında değişir; bu yüzden en başta hedefi netleştirmek gerekir. Bu rehber; kavramları sade anlatır, kampanya türlerini otel örnekleriyle bağlar ve ilk kampanyaya adım adım götürür.",
+    "quickSummary": [
+      "1. Hedefi seç → 2) Search ile başla → 3) Landing’i netleştir → 4) Dönüşümü ölç → 5) Basit optimizasyon yap"
+    ],
+    "ctaPrimary": {
+      "label": "Google Ads Başlangıç Analizi Talep Et",
+      "text": "15 dakikada mevcut durumunuzu netleştirelim; oteliniz için ilk kampanya planını çıkaralım.",
+      "href": "/tr/sem/google-ads-yonetimi"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Google Ads Başlangıç Analizi Talep Et",
+      "text": "Hangi kampanya türüyle başlayacağınızı, hedef pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya/Belek/Side/Kemer/Bodrum) kırılımıyla birlikte netleştirelim.",
+      "href": "/tr/sem/google-ads-yonetimi"
+    },
+    "secondary": {
+      "label": "Google Ads Hesap Kurulum Checklist’ini İndir",
+      "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+      "href": "#download"
+    }
+  },
+  "internalLinks": [
+    {
+      "label": "Google Ads yönetimi hizmet ve sistem yaklaşımı",
+      "href": "/tr/sem/google-ads-yonetimi"
+    },
+    {
+      "label": "SEM kategorisi ve diğer rehberler",
+      "href": "/tr/sem"
+    },
+    {
+      "label": "Online satış / kanal stratejisi (PMS–OTA)",
+      "href": "/tr/pms-ota/online-satis"
+    },
+    {
+      "label": "Otel dijital pazarlama çatı yaklaşımı",
+      "href": "/tr/otel-dijital-pazarlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "google-ads-temel-kavramlar",
+      "title": "Google Ads Temel Kavramlar (Otel Diliyle)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Google Ads’te başarı, “çok kampanya açmak” değil; doğru niyeti yakalamaktır. Oteller için temel kavramları otel operasyonuyla eşleyelim:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Arama niyeti: “Belek her şey dahil otel” diyen biri, satın almaya daha yakındır.",
+            "Teklif stratejisi (bidding): Sisteme “hedefim rezervasyon” demediğiniz sürece, algoritma sizi yanlış yöne optimize edebilir.",
+            "Kalite puanı: Reklam metni + anahtar kelime + açılış sayfası uyumu. Otelde bunun karşılığı “misafir doğru sayfaya mı geldi?” sorusudur."
+          ]
+        },
+        { "type": "h3", "text": "Otel için “en kritik üçlü”" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Niyet (arama sorgusu), 2) Landing (oda/konsept/destinasyon sayfası), 3) Ölçüm (rezervasyon/lead)."
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "Mini Check",
+          "items": [
+            "Reklam tıklayınca açılan sayfa “tek hedefe” mi hizmet ediyor?",
+            "Fiyat/konsept/konum mesajı ilk ekranda net mi?",
+            "Telefon araması/WhatsApp/rezervasyon ölçülüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "İlk kampanyadan önce “1 hedef + 1 landing + 1 ölçüm” üçlüsünü hazırlayın.",
+            "İlk hafta hedefi büyütmeyin; doğru ölçüm ve temiz trafik hedefleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kampanya-turleri",
+      "title": "Kampanya Türleri (Search / Display / Video) ve Ne Zaman Kullanılır?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Google Ads’i tek bir şey sanmak hata: aslında farklı kanalların aynı panelde birleşmiş halidir. Otellerde başlangıç için en kontrollü kanal genelde Search’tür; çünkü kullanıcı zaten “otel arıyordur”."
+        },
+        { "type": "h3", "text": "Search (Arama Ağı) – “Niyet yüksek, kontrol yüksek”" },
+        {
+          "type": "p",
+          "text": "Search, “Bodrum butik otel”, “Antalya resort fiyat”, “Side aile oteli” gibi sorgularda görünmenizi sağlar. Başlangıçta hedef; marka dışı ama satın almaya yakın sorguların küçük bir setini yakalamaktır."
+        },
+        { "type": "h3", "text": "Display (Görüntülü) – “Farkındalık + yeniden hedefleme”" },
+        {
+          "type": "p",
+          "text": "Display, geniş kitleye görünürlük sağlar ama “başlangıçta” ölçüm/landing hazır değilse para yakabilir. Otellerde en iyi kullanım; remarketing (siteyi gezip rezervasyon yapmayanlara geri dönmek) senaryosudur."
+        },
+        { "type": "h3", "text": "Video (YouTube) – “Hikâye + pazar genişletme”" },
+        {
+          "type": "p",
+          "text": "Video kampanyaları, özellikle Almanya/Rusya gibi pazarlarda konsepti anlatmakta güçlüdür (kids club, spa, denize sıfır, aquapark gibi). Ama ölçüm kurgusu ve yaratıcı içerik kalitesi şart."
+        },
+        { "type": "h4", "text": "Arama Ağı vs Görüntülü Ağ (Basit fark)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Search: “Ben arıyorum” momenti",
+            "Display/Video: “Ben keşfediyorum” momenti"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "Beginner seviyede: Search ile başla, Display’i remarketing olarak ekle.",
+            "Video’yu, “konsept anlatımı” güçlü olduğunda ve temel ölçüm oturduğunda devreye al."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-ozelinde-hedefler",
+      "title": "Otel Özelinde Hedefler (Rezervasyon Üreten Hedef Seçimi)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Burada kritik soru şu: Google Ads’te “hedef” dediğiniz şey, algoritmanın pusulasıdır. Otellerde en sık hedefler:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Direkt rezervasyon (booking engine dönüşümü)",
+            "Teklif/lead (form, WhatsApp, arama)",
+            "Marka araması koruma (brand defense)"
+          ]
+        },
+        { "type": "h3", "text": "Otelim için Google Ads’te hedefi nasıl seçmeliyim?" },
+        {
+          "type": "p",
+          "text": "Net cevap: İlk 30 gün için tek hedef seçin: ya direkt rezervasyon ya da lead. Booking engine entegrasyonunuz hazır değilse, önce “arama + form/arama” ile başlayın; ölçüm oturunca rezervasyon hedefini büyütün."
+        },
+        { "type": "h3", "text": "Otel hedeflerine göre örnek senaryolar" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya/Belek resort: Sezon başında Search ile “aile oteli / her şey dahil / aquapark” niyetini yakala; remarketing ile geri çağır.",
+            "Bodrum butik otel: Daha niş sorgular + landing’de güçlü görsel/konsept; arama hacmi küçük ama dönüşüm oranı yüksek olabilir.",
+            "Side/Kemer: Fiyat–performans ve konum odaklı sorgular; landing’de oda tiplerini hızlı göster."
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "Mini Check",
+          "items": [
+            "Sezon/hedef pazar net mi? (Türkiye mi, Almanya mı, Rusya mı?)",
+            "Landing’de “konsept vaadi” ilk 5 saniyede anlaşılıyor mu?",
+            "Dönüşüm olarak neyi sayıyorsunuz? (Rezervasyon, form, arama)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "“Her şey olsun” hedefi yerine, tek hedef ile öğrenme başlatın.",
+            "Hedef pazara göre dil/para birimi/mesaj uyumunu kontrol edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hesap-kurulumu",
+      "title": "Hesap Kurulumu (Hızlı ama Doğru Kurulum)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kurulumda amaç “paneli doldurmak” değil; ölçülebilir bir yapı kurmaktır. Aksi halde optimizasyon yapacak veri oluşmaz."
+        },
+        { "type": "h3", "text": "Kurulum sırası (en güvenli yol)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Hedef tanımı: Direkt rezervasyon mu, lead mi?",
+            "Hesap yapısı: Kampanya → reklam grubu → ilan",
+            "Temel ölçüm: GA4 / Tag Manager / dönüşüm aksiyonları",
+            "Landing sayfalar: destinasyon + konsept + oda odaklı"
+          ]
+        },
+        { "type": "h3", "text": "Turizm odaklı temel terimler (kısa sözlük)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "ADR: Ortalama günlük fiyat",
+            "Occupancy: Doluluk",
+            "LOS: Konaklama süresi",
+            "Channel mix: Kanal karması (direct/OTA/metasearch vb.)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "“Ölçüm yoksa reklam yok” kuralını benimseyin.",
+            "Her kampanya için tek ana landing belirleyin (dağıtmayın)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ilk-kampanya-adimlari",
+      "title": "İlk Kampanya Adımları (Başlangıç için Basit Reçete)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, beginner içeriklerin en çok eksik kaldığı yer: “tamam, peki şimdi ne yapacağım?” kısmı. Basit ama etkili bir başlangıç reçetesi:"
+        },
+        { "type": "h3", "text": "İlk kampanyayı kurarken nelere dikkat etmeliyim?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dar başla: 10–20 anahtar kelime / net tema",
+            "Mesaj eşleşmesi: Reklam metni landing’de birebir karşılık bulsun",
+            "Negatif kelime: “iş ilanı”, “bedava”, “staj” gibi alakasızları filtrele",
+            "Bütçe disiplini: İlk hafta öğrenme; ikinci hafta düzenleme"
+          ]
+        },
+        { "type": "h3", "text": "Basit dönüşüm kurgusu (beginner)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Dönüşüm 1: Rezervasyon tamamlandı (varsa)",
+            "Dönüşüm 2: Telefon araması",
+            "Dönüşüm 3: WhatsApp tıklaması / form gönderimi"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Booking engine “purchase” dönüşümü ilk gün hazır değilse, lead dönüşümleriyle başlayın; 2–4 hafta içinde rezervasyon dönüşümünü ekleyin."
+        },
+        {
+          "type": "ctaInline",
+          "variant": "secondary",
+          "label": "Google Ads Hesap Kurulum Checklist’ini İndir",
+          "desc": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+          "href": "#download"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "İlk kampanyayı “tek destinasyon + tek konsept” gibi dar bir çerçeveyle açın.",
+            "7 gün veri toplayın; sonra reklam metni ve negatif kelimelerle temizlik yapın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olcumleme-temelleri",
+      "title": "Ölçümleme Temelleri (Optimizasyonun Yakıtı)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Google Ads’te optimizasyon “hissettiğinize” göre değil, ölçtüğünüze göre yapılır. Otellerde ölçüm, sadece “rezervasyon sayısı” değildir; gelir, pazar, cihaz, dil kırılımı da gerekir."
+        },
+        { "type": "h3", "text": "Hangi metrikleri ilk 30 gün takip etmeliyim?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "CTR (tıklama oranı): Mesaj ve niyet uyumu",
+            "CVR (dönüşüm oranı): Landing ve teklif uyumu",
+            "CPA: Dönüşüm başı maliyet",
+            "ROAS (varsa): Gelir / reklam maliyeti",
+            "Cihaz kırılımı: Mobilde rezervasyon kaçıyor mu?"
+          ]
+        },
+        { "type": "h3", "text": "Google Ads oteller için nasıl çalışır?" },
+        {
+          "type": "p",
+          "text": "Net cevap: Misafir arama yapar, reklamınız görünür, tıklar, landing’e gelir ve rezervasyon/lead bırakır; siz de dönüşümü ölçüp bütçeyi en kârlı sorgulara kaydırırsınız."
+        },
+        {
+          "type": "p",
+          "text": "Technical SEO Notu (içerik içi): Ölçüm katmanında GA4 ve Tag Manager kurulumu düzgün değilse, kampanya performansı “yanlış sinyalle” optimize olur. Google Ads dönüşüm aksiyonları ve GA4 event eşlemesi, özellikle çok dilli otel sitelerinde (TR/EN/DE/RU) kritik."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? (SXO)",
+          "items": [
+            "Dönüşüm tanımlarınızı 1 sayfada dokümante edin (ne, nerede, nasıl sayılıyor?).",
+            "Landing performansını (hız, mobil UX, form basitliği) iyileştirmeden bütçe büyütmeyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sonuc-baslangic-plani",
+      "title": "Sonuç: Oteller İçin “Başlangıç Planı” (Özet + Yol Haritası)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Beginner seviyede hedef; “mükemmel hesap” değil, doğru öğrenme başlatmaktır. Siz ölçümü kurup Search ile niyeti yakaladığınızda, Ads paneli artık bir “rezervasyon motoru” gibi çalışmaya başlar. Unutmayın: OTA komisyonları birçok pazarda ciddi maliyet kalemidir; direkt rezervasyon stratejisi bu nedenle kritiktir."
+        },
+        {
+          "type": "ctaInline",
+          "variant": "primary",
+          "label": "Google Ads Başlangıç Analizi Talep Et",
+          "desc": "Hangi kampanya türüyle başlayacağınızı, hedef pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya/Belek/Side/Kemer/Bodrum) kırılımıyla birlikte netleştirelim.",
+          "href": "/tr/sem/google-ads-yonetimi"
+        }
+      ]
+    },
+    {
+      "id": "secondary-cta-asset",
+      "title": "Google Ads Hesap Kurulum Checklist’ini İndir — SEM / Oteller için başlangıç (v1.0)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu doküman, otellerin Google Ads’e başlarken en sık yaptığı kurulum hatalarını önlemek ve 14 günde “ölçülebilir ilk kampanya”yı ayağa kaldırmak için hazırlanmıştır. Ekip içi görev dağılımı ve ajans–otel iletişimini hızlandırır."
+        },
+        { "type": "p", "text": "Kim Kullanır? (1 satır)" },
+        {
+          "type": "p",
+          "text": "Otel satış–pazarlama ekibi, GM, ajans yöneticisi veya performans uzmanı."
+        },
+        { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Checklist ile mevcut durumu işaretleyin.",
+            "“Problem → Kök Neden → Çözüm” tablosuyla açıkları netleştirin.",
+            "14 günlük sprint planını uygulayıp KPI’ları “önce/sonra” karşılaştırın."
+          ]
+        },
+        { "type": "h3", "text": "A) Ölçüm & Önceliklendirme Checklist’i" },
+        { "type": "h4", "text": "Hedef & Strateji" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tek bir ana hedef seçildi (rezervasyon veya lead)",
+            "Hedef pazar tanımlandı (Türkiye / Almanya / Rusya)",
+            "Destinasyon mesajı net (Antalya / Belek / Side / Kemer / Bodrum)",
+            "1–2 ana landing sayfası belirlendi"
+          ]
+        },
+        { "type": "h4", "text": "Hesap & Yapı" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kampanya yapısı planlandı (tema bazlı)",
+            "Reklam grubu sayısı “az ve net” tutuldu",
+            "Negatif kelime listesi taslağı hazırlandı",
+            "Marka kampanyası ile marka dışı kampanya ayrıldı"
+          ]
+        },
+        { "type": "h4", "text": "Ölçüm" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "GA4 temel kurulum kontrol edildi",
+            "Tag Manager tetikleyicileri doğrulandı",
+            "Dönüşümler tanımlandı (rezervasyon / arama / WhatsApp / form)",
+            "Çok dilli sayfalarda ölçüm kırılımı planlandı (TR/EN/DE/RU)"
+          ]
+        },
+        { "type": "h4", "text": "Landing & UX" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Mobil hız kabul edilebilir (ilk ekran hızlı)",
+            "İlk ekranda konsept + fayda net",
+            "CTA görünür (rezervasyon / teklif / arama)",
+            "Güven unsurları var (yorum/puan, iade/iptal, iletişim)"
+          ]
+        },
+        { "type": "h3", "text": "C) 14 Günlük Sprint Planı (Gün 1–14)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Gün 1–2: Hedef (rezervasyon/lead) + pazar + destinasyon mesajı netleştirme",
+            "Gün 3: Landing seçimi ve “ilk ekran” düzeni",
+            "Gün 4: GA4/GTM dönüşüm taslağı (arama/WhatsApp/form/rezervasyon)",
+            "Gün 5: Search kampanya planı (tema + kelime seti + negatif liste)",
+            "Gün 6: Reklam metinleri (3 varyasyon) + uzantılar",
+            "Gün 7: Yayın + ilk kontrol (dönüşüm testleri)",
+            "Gün 8–9: Arama terimleri temizliği + negatif kelime ekleme",
+            "Gün 10: Cihaz/ülke kırılımı kontrolü (TR/DE/RU)",
+            "Gün 11: Landing mikro iyileştirme (başlık/CTA/hız)",
+            "Gün 12: Bütçe–teklif küçük ayar (agresif değil)",
+            "Gün 13: Remarketing planı (Display) taslağı",
+            "Gün 14: İlk rapor + “sonraki 14 gün” backlog"
+          ]
+        },
+        { "type": "h3", "text": "B) Problem → Kök Neden → Çözüm Tablosu" },
+        {
+          "type": "table",
+          "title": "Problem → Kök Neden → Çözüm",
+          "columns": ["Problem", "Kök Neden", "Çözüm"],
+          "rows": [
+  [
+    "Trafik var, rezervasyon yok",
+    "Landing hedefi dağınık / mesaj uyumsuz",
+    "Tek hedefli landing + reklam metni eşlemesi"
+  ],
+  [
+    "Bütçe hızlı bitiyor",
+    "Çok geniş anahtar kelime / yanlış eşleme",
+    "Daraltılmış kelime seti + negatif kelimeler"
+  ],
+  [
+    "Dönüşüm görünmüyor",
+    "Ölçüm eksik / yanlış event",
+    "GA4 + GTM dönüşüm doğrulama, test rezervasyon"
+  ],
+  [
+    "Mobilde performans düşük",
+    "Hız / UX zayıf",
+    "Görsel optimizasyon + kısa form + net CTA"
+  ],
+  [
+    "Almanya / Rusya pazarı zayıf",
+    "Dil / para birimi uyumsuz",
+    "Dil uyumlu landing + mesaj lokalizasyonu"
+  ]
+]
+
+        },
+        { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
+        {
+          "type": "table",
+          "title": "Öncesi/Sonrası KPI Tablosu",
+          "columns": ["KPI", "Önce (Gün 1)", "Sonra (Gün 14)", "Not"],
+          "rows": [
+  ["CTR", "0", "0", "TBD"],
+  ["CVR", "0", "0", "TBD"],
+  ["CPA", "0", "0", "TBD"],
+  ["Dönüşüm", "0", "0", "TBD"],
+  ["ROAS", "0", "0", "TBD"]
+]
+
+        },
+        { "type": "h3", "text": "E) Deliverables Listesi" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "1 kampanya planı (tema + kelime seti)",
+            "3 reklam metni varyasyonu",
+            "Negatif kelime listesi v1",
+            "Dönüşüm ölçüm dokümanı (ne/nasıl sayılıyor)",
+            "14 günlük sprint backlog’u",
+            "İlk rapor şablonu (1 sayfa)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ / PAA Bölümü (5–10)",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Google Ads oteller için nasıl çalışır?",
+              "a": "Arama yapan misafir reklamınızı görür, tıklar, landing’e gelir ve rezervasyon/lead bırakır. Siz dönüşümü ölçerek bütçeyi en verimli sorgulara kaydırırsınız."
+            },
+            {
+              "q": "Otelim için Google Ads’e nereden başlamalıyım?",
+              "a": "Önce tek hedef seçin (rezervasyon ya da lead), ardından Search kampanyasıyla dar bir kelime seti kurun. Ölçüm doğrulanmadan bütçeyi büyütmeyin."
+            },
+            {
+              "q": "İlk kampanyayı kurarken nelere dikkat etmeliyim?",
+              "a": "Dar başlamak, reklam–landing mesajını eşlemek ve negatif kelimelerle alakasız trafiği kesmek en kritik üç adımdır. İlk hafta veri toplayıp ikinci hafta temizlik yapın."
+            },
+            {
+              "q": "Search mı Display mi önce başlamalıyım?",
+              "a": "Beginner seviyede Search daha kontrollüdür. Display’i en iyi “remarketing” olarak, yani siteyi gezip rezervasyon yapmayanlara dönüş için kullanırsınız."
+            },
+            {
+              "q": "Dönüşüm takibi olmadan reklam verebilir miyim?",
+              "a": "Teknik olarak evet ama optimize edemezsiniz. Ölçüm yoksa “hangi tıklama para kazandırdı” sorusunun cevabı olmaz."
+            },
+            {
+              "q": "Almanya ve Rusya pazarına reklam verirken neyi değiştirmeliyim?",
+              "a": "Dil ve teklif mesajı lokal olmalı; mümkünse o dilde landing ve uygun para birimi deneyimi sunulmalı. Aksi halde tıklama gelir, dönüşüm düşer."
+            },
+            {
+              "q": "Otel reklamlarında hangi KPI’lara bakmalıyım?",
+              "a": "İlk 30 günde CTR, CVR ve CPA; ölçüm oturunca ROAS ve gelir kırılımı daha anlamlı hale gelir."
+            },
+            {
+              "q": "Bütçem küçükse Google Ads işe yarar mı?",
+              "a": "Evet; dar anahtar kelime seti ve net landing ile küçük bütçede bile öğrenme başlatabilirsiniz. Hedef “kontrollü büyüme” olmalı."
+            },
+            {
+              "q": "Marka kampanyası şart mı?",
+              "a": "Genelde evet; marka aramalarında görünür olup OTA’lara kaptırmamak için koruma sağlar. Ancak bütçe/stratejiye göre ölçeklenir."
+            },
+            {
+              "q": "Otel web sitesi yavaşsa reklam performansı etkilenir mi?",
+              "a": "Evet. Yavaş ve karışık sayfalar dönüşümü düşürür; reklam maliyeti artarken gelir artmayabilir."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Google Ads oteller için nasıl çalışır?",
+      "a": "Arama yapan misafir reklamınızı görür, tıklar, landing’e gelir ve rezervasyon/lead bırakır. Siz dönüşümü ölçerek bütçeyi en verimli sorgulara kaydırırsınız."
+    },
+    {
+      "q": "Otelim için Google Ads’e nereden başlamalıyım?",
+      "a": "Önce tek hedef seçin (rezervasyon ya da lead), ardından Search kampanyasıyla dar bir kelime seti kurun. Ölçüm doğrulanmadan bütçeyi büyütmeyin."
+    },
+    {
+      "q": "İlk kampanyayı kurarken nelere dikkat etmeliyim?",
+      "a": "Dar başlamak, reklam–landing mesajını eşlemek ve negatif kelimelerle alakasız trafiği kesmek en kritik üç adımdır. İlk hafta veri toplayıp ikinci hafta temizlik yapın."
+    },
+    {
+      "q": "Search mı Display mi önce başlamalıyım?",
+      "a": "Beginner seviyede Search daha kontrollüdür. Display’i en iyi “remarketing” olarak, yani siteyi gezip rezervasyon yapmayanlara dönüş için kullanırsınız."
+    },
+    {
+      "q": "Dönüşüm takibi olmadan reklam verebilir miyim?",
+      "a": "Teknik olarak evet ama optimize edemezsiniz. Ölçüm yoksa “hangi tıklama para kazandırdı” sorusunun cevabı olmaz."
+    },
+    {
+      "q": "Almanya ve Rusya pazarına reklam verirken neyi değiştirmeliyim?",
+      "a": "Dil ve teklif mesajı lokal olmalı; mümkünse o dilde landing ve uygun para birimi deneyimi sunulmalı. Aksi halde tıklama gelir, dönüşüm düşer."
+    },
+    {
+      "q": "Otel reklamlarında hangi KPI’lara bakmalıyım?",
+      "a": "İlk 30 günde CTR, CVR ve CPA; ölçüm oturunca ROAS ve gelir kırılımı daha anlamlı hale gelir."
+    },
+    {
+      "q": "Bütçem küçükse Google Ads işe yarar mı?",
+      "a": "Evet; dar anahtar kelime seti ve net landing ile küçük bütçede bile öğrenme başlatabilirsiniz. Hedef “kontrollü büyüme” olmalı."
+    },
+    {
+      "q": "Marka kampanyası şart mı?",
+      "a": "Genelde evet; marka aramalarında görünür olup OTA’lara kaptırmamak için koruma sağlar. Ancak bütçe/stratejiye göre ölçeklenir."
+    },
+    {
+      "q": "Otel web sitesi yavaşsa reklam performansı etkilenir mi?",
+      "a": "Evet. Yavaş ve karışık sayfalar dönüşümü düşürür; reklam maliyeti artarken gelir artmayabilir."
+    }
+  ]
+},
+
+     "BlogGoogleAdsHesapVeKampanyaMimarisi": {
+      "title": "Google Ads Hesap Yapısı: Otel Kampanya Mimarisi | DGTLFACE",
+      "slug": "google-ads-hesap-ve-kampanya-mimarisi",
+      "department": "sem",
+       "updatedAt":"5 Ocak 2026",
+      "excerpt": "Otel Google Ads hesabını doğru kurun: brand/generic ayrımı, ülke–dil–cihaz kırılımları ve kampanya–reklam grubu hiyerarşisiyle ölçeklenebilir mimari rehberi.",
+      "seo": {
+        "metaTitle": "Google Ads Hesap Yapısı: Otel Kampanya Mimarisi | DGTLFACE",
+        "metaDescription": "Otel Google Ads hesabını doğru kurun: brand/generic ayrımı, ülke–dil–cihaz kırılımları ve kampanya–reklam grubu hiyerarşisiyle ölçeklenebilir mimari rehberi."
+      },
+      "blueprint": {
+        "sheetSummary": [
+          "Silo: SEM",
+          "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+          "Blog # / URL (Child): Blog #2 — /tr/sem/blog/google-ads-hesap-ve-kampanya-mimarisi",
+          "Blog Tipi: Core",
+          "Intent: Informational + Strategic",
+          "Zorluk / Seviye: Intermediate–Expert",
+          "Word Count Range: 2300–2700",
+          "Refresh Cycle: 365 gün",
+          "SERP hedefi: Featured Snippet + PAA"
+        ],
+        "strategySummary": "Bu içerik SEM silo’sunda “başlangıç” yazısından sonra gelen authority (otorite taşıyan) yapı yazısıdır: sonraki tüm kampanya/keyword/ölçüm bloglarına referans olacak bir “mimari standard” üretir. Persona; otel satış–pazarlama yöneticisi, GM veya ajans yöneticisi; funnel’da consideration → planlama bandında, “hesabı doğru kurmazsam bütçe boşa gider mi?” kaygısını taşır. Ana iş sorusu: “Otel için Google Ads hesabını, brand/generic + ülke/dil + cihaz + segment kırılımlarıyla nasıl ölçeklenebilir kurarım?” Rakiplerden fark: turizm/otel özelinde ülke-dil-oda tipi kırılımlarını, tek hesapta çoklu otel senaryosunu ve “SKAG gibi aşırı mikro yapılar yerine modern best practice” yaklaşımını netleştirmek."
+      },
+      "modules": {
+        "answerBlock": "Otel Google Ads hesabı; hesap → kampanya → reklam grubu → ilan/keyword hiyerarşisinde, her katmanda tek bir mantığa göre bölünerek ölçeklenir. En iyi pratik; brand ve generic aramaları ayrı kampanyalarda yönetmek, ülke/dil (ör. Türkiye–Almanya–Rusya) ve gerekirse cihaz kırılımlarıyla bütçeyi kontrol etmektir. Aşırı mikro (SKAG gibi) yapılar yerine; niyet/tema bazlı reklam grupları + net landing eşleşmesi + doğru ölçüm, modern optimizasyonun temelidir.",
+        "sgeSummary": "Otel hesabını; brand/generic ayrımı, ülke–dil kırılımları ve kampanya→ad group→keyword hiyerarşisiyle kur. Aşırı mikro yapı yerine tema bazlı düzen + net hedef kullan.",
+        "voiceAnswer": "Otel Google Ads hesabını brand ve generic’i ayırıp ülke/dil kırılımlarıyla kontrol ederek kurarsın.",
+        "aiFactSheet": [
+          "Hedef kitle: Otel GM / satış–pazarlama / ajans yöneticisi (Intermediate–Expert)",
+          "KPI: CPA, ROAS, dönüşüm oranı (CVR), gelir/rezervasyon, paylaşılan bütçe verimliliği",
+          "Entity’ler: Google Ads Campaign, Ad Group, Brand Campaign, Generic Campaign, Match Types, Smart Bidding, GA4",
+          "GEO: Antalya, Belek, Kemer, Side, Bodrum örnekleri + Türkiye/Almanya/Rusya pazar kırılımı",
+          "Funnel rolü: Yapı doğruysa ölçüm + optimizasyon hızlanır; yanlışsa bütçe “bulanık” dağılır",
+          "Risk: Brand bütçesi generic tarafından “yutulur”; raporlama ve karar alma bozulur",
+          "Hızlı kazanım: Brand ve generic’i ayır + naming convention + landing eşleşmesi"
+        ]
+      },
+      "h1": {
+        "title": "Google Ads Hesap ve Kampanya Mimarisi Nasıl Kurulur?",
+        "intro": "Google Ads’te performans, çoğu otelde “ayar çekmekten” önce mimari ile kazanılır. Çünkü hesap yapısı; bütçeyi nasıl kontrol edeceğinizi, veriyi nasıl okuyacağınızı ve algoritmanın neyi “öğrenmesini” istediğinizi belirler. Google Ads katmanlı bir sistemdir: hesap → kampanyalar → reklam grupları şeklinde organize olur; kampanyalar bütçe ve hedefleme ayarlarını, reklam grupları ise benzer anahtar kelime ve reklam setlerini taşır.",
+        "quickSummary": [
+          "1. Mimariyi “iş hedefi”ne göre böl",
+          "2. Brand ve generic’i ayır",
+          "3. Ülke/dil kırılımlarıyla kontrol kur",
+          "4. Kampanya → Ad Group → Landing eşleşmesini netleştir",
+          "5. Aşırı mikro yapıdan kaçın, modern optimizasyona alan bırak"
+        ],
+        "ctaPrimary": {
+          "label": "Hesap & Kampanya Mimarisi Analizi Al",
+          "text": "Tek bir toplantıda mevcut hesabınızı haritalayıp (brand/generic, ülke/dil, cihaz, segment) yeniden yapı planını çıkaralım.",
+          "href": "/tr/sem/google-ads-yonetimi"
+        }
+      },
+      "sections": [
+        {
+          "id": "campaign-structure-mantigi",
+          "title": "Campaign Structure Mantığı (Neden Mimari = Performans?)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Bir otelde aynı anda şu soruların hepsine yanıt vermeniz gerekir:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Brand aramaları kaçırıyor muyum?",
+                "Antalya/Belek gibi destinasyonlarda hangi sorgu para kazandırıyor?",
+                "Almanya veya Rusya pazarı ayrı mı yönetilmeli?",
+                "Mobilde dönüşüm düşüyor mu?"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Bu soruların tamamı, ancak hesap yapınız “okunabilir” ise cevaplanır. Google Ads’in kendi yardım dokümanları da hesap/organizasyonun “kategori veya iş hedefi” gibi mantıklarla kurulmasını ve site yapısından (landing sayfalar) beslenmesini önerir."
+            },
+            {
+              "type": "h3",
+              "text": "Google Ads kampanya yapısı nasıl olmalı?"
+            },
+            {
+              "type": "p",
+              "text": "Net cevap (2–3 cümle): Otel hesabında kampanya yapısı; iş hedefi + niyet + pazar kırılımına göre kurulmalıdır. Brand ve generic ayrı kampanyalar olmalı; ülke/dil gibi büyük kırılımlar kampanya seviyesinde yönetilmeli, reklam grubu seviyesinde ise tema/segment (oda tipi, konsept) net olmalıdır. “Tek kampanyaya her şeyi doldurmak” raporu bozar ve optimizasyonu yavaşlatır."
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Önce 4 kolon yazın: Brand / Generic / Ülke-Dil / Segment",
+                "Sonra her kolonu kampanya–ad group seviyesine doğru dağıtın (aşağıdaki şablonla)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "otel-icin-hesap-organizasyonu",
+          "title": "Otel İçin Hesap Organizasyonu (Tek Otel mi, Çoklu Otel mi?)",
+          "blocks": [
+            {
+              "type": "h3",
+              "text": "Tek otel senaryosu (en temiz başlangıç)"
+            },
+            {
+              "type": "p",
+              "text": "Tek bir otel için ideal yaklaşım:"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Kampanya kırılımı: Brand ve Generic",
+                "Pazar kırılımı: Türkiye + (varsa) Almanya + Rusya",
+                "Segment kırılımı: “aile”, “adult only”, “spa”, “beachfront” veya “oda tipi” gibi net temalar"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Burada amaç; “çok kampanya” değil, az ama okunabilir bir mimaridir."
+            },
+            {
+              "type": "h3",
+              "text": "Tek hesapta birden fazla otel (multi-property) senaryosu"
+            },
+            {
+              "type": "p",
+              "text": "Bu senaryoda iki güvenli yol var:"
+            },
+            {
+              "type": "ol",
+              "items": [
+                "Otel bazlı kampanya setleri (her otelin brand/generic kampanyaları ayrı)",
+                "Pazar bazlı kampanya setleri (ülke/dil öncelikliyse; otel ayrımı ad group ve landing ile)"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Pratikte, oteller birbirinden çok farklıysa (Belek resort vs Bodrum butik) “otel bazlı” ayrım daha temiz olur."
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Multi-property’de naming convention şart: kampanya adında OTEL_KODU + MARKET + BRAND/GENERIC standardı kullanın.",
+                "Landing eşleşmesini %100 netleştirin; aksi halde oteller birbirinin trafiğini “kirletir”."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hiyerarsi-katmanlar",
+          "title": "Kampanya–Reklam Grubu–Keyword Hiyerarşisi (Doğru Katmana Doğru Karar)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Google Ads’te kampanya; bütçe, lokasyon, dil gibi “üst ayarlar”ı taşır; reklam grubu ise birbirine benzer anahtar kelimeler ve reklamları bir araya getirir."
+            },
+            {
+              "type": "p",
+              "text": "Bu yüzden kararları doğru katmana koymak hız kazandırır:"
+            },
+            {
+              "type": "h3",
+              "text": "Kampanya seviyesine koy (kontrol + raporlama için)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Brand vs Generic",
+                "Ülke / pazar (Türkiye, Almanya, Rusya)",
+                "Dil (TR/EN/DE/RU)"
+              ]
+            },
+            {
+              "type": "h3",
+              "text": "Reklam grubu seviyesine koy (tema + niyet için)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Oda tipi (standart, suite, family)",
+                "Konsept (her şey dahil, balayı, spa)",
+                "Destinasyon alt temaları (Belek golf, Side aile, Kemer doğa)"
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "Keyword set mantığı (modern pratik)"
+            },
+            {
+              "type": "p",
+              "text": "Aşırı mikro keyword parçalamak yerine; niyet/tema odaklı setler daha sürdürülebilirdir. Çünkü Google tarafında eşleşmeler ve otomasyon (smart bidding, close variants) mikro yapıları eskisi kadar avantajlı kılmayabilir."
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Kampanya seviyesinde “bütçe kontrol” kur, reklam grubu seviyesinde “tema netliği” kur.",
+                "Her reklam grubu için tek bir “ana landing” belirle (oda/konsept sayfası)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-vs-generic",
+          "title": "Brand vs Generic (Otel Hesabında Neden Ayrılmalı?)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Brand kampanyalar, kullanıcı zaten otelinizi bildiği için genelde daha “sıcak” trafik üretir; generic aramalar ise daha yüksek hacim getirir ama niyet daha dağınık olabilir."
+            },
+            {
+              "type": "p",
+              "text": "Bu yüzden birçok hesap yapısı rehberi, branded kampanyaların ayrı yönetilmesini özellikle vurgular."
+            },
+            {
+              "type": "h3",
+              "text": "Brand ve generic kampanyalar neden ayrılmalı?"
+            },
+            {
+              "type": "p",
+              "text": "Net cevap (2–3 cümle): Brand ve generic ayrı değilse, bütçe ve rapor “karışır”: brand, düşük maliyetle yüksek dönüşüm getirirken generic daha pahalı ama ölçeklidir. Ayrım; bütçeyi korumanızı, performansı doğru okumanızı ve optimizasyonu hedefe göre yapmanızı sağlar. Ayrıca marka bütçesi kısıldığında generic kampanyalar marka sorgularını yakalayabilir ve rapor yanıltır."
+            },
+            {
+              "type": "h3",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Brand kampanyasını “bütçe korumalı” düşünün (daima açık kalsın).",
+                "Generic’i ölçeklerken pazar/dil kırılımlarıyla kontrol kurun."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geo-dil-ulke-kirilimlari",
+          "title": "GEO + Dil + Ülke Kırılımları (Turizmde “Pazar” Mimariyi Belirler)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Otel reklamcılığı “tek ülke” gibi görünse de pratikte pazarlar davranış olarak ayrışır. Antalya–Belek resort ile Bodrum butik otelin arama niyeti bile farklıdır; üstüne Almanya ve Rusya pazarı eklendiğinde dil/para birimi/mesaj da değişir."
+            },
+            {
+              "type": "h3",
+              "text": "Ne zaman ayrı kampanya? Ne zaman aynı kampanya?"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Ayrı kampanya: Pazarlar farklı dil/landing gerektiriyorsa (DE/RU ayrı), bütçe kontrolü kritikse",
+                "Aynı kampanya: Tek dil/tek landing ile yönetilecek küçük ölçekli başlangıçsa (Varsayım: sınırlı bütçe)"
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "Otel örneği (GEO doğal kullanım)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Belek / Antalya: “resort + her şey dahil + aile” temaları",
+                "Side: “aile + çocuk” temaları",
+                "Kemer: “doğa + denize sıfır” temaları",
+                "Bodrum: “butik + manzara + premium” temaları"
+              ]
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Almanya/Rusya hedefleniyorsa: kampanya adında MARKET_DE / MARKET_RU standardı kullanın.",
+                "Dil/landing uyumunu sağlamadan sadece hedeflemeyi açmak, dönüşümü düşürür."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "device-breakout",
+          "title": "Device Breakout (Mobil/Desktop Ayrımı Ne Zaman Mantıklı?)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Mobil ve desktop kullanıcı davranışı otellerde farklılaşabilir: mobilde araştırma yüksek, desktop’ta ödeme/rezervasyon oranı daha iyi olabilir (pazara göre değişir)."
+            },
+            {
+              "type": "h3",
+              "text": "Cihazı kampanya seviyesinde ayırmak ne zaman gerekli?"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Bütçe büyükse ve cihaz performansı çok farklıysa",
+                "Landing deneyimi cihazlara göre ayrışıyorsa (mobil sayfa daha sade, desktop daha detay)",
+                "Teklif stratejisi cihaz bazında farklılaşacaksa"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Aksi halde, cihaz kırılımını kampanya yerine “raporlama + ayar” ile yönetmek daha temiz olabilir."
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Önce cihaz kırılımını raporda görün: CTR/CVR/CPA farkı gerçekten büyük mü?",
+                "Büyük fark varsa, cihaz kampanyası aç; yoksa tek kampanya + cihaz teklif ayarı yeter."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bid-strategy-uyumu",
+          "title": "Bid Strategy Uyumu (Mimari + Optimizasyon Birlikte Çalışmalı)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Hesap mimarisi, teklif stratejisiyle uyumlu değilse Google’a “yanlış sinyal” verirsiniz. Örnek: brand ve generic aynı kampanyadaysa, smart bidding “kolay dönüşüm” olan brand’e yüklenebilir; bu da generic büyümeyi yavaşlatır."
+            },
+            {
+              "type": "h3",
+              "text": "Aşırı mikro yapı (SKAG) neden her zaman iyi fikir değil?"
+            },
+            {
+              "type": "p",
+              "text": "SKAG gibi tek-keyword aşırı parçalı yapılar; eskiden kontrol avantajı sağlasa da modern dönemde eşleşmelerin genişlemesi ve otomasyon nedeniyle her hesapta “default” tercih değildir; hesap ihtiyacına göre seçilmelidir."
+            },
+            {
+              "type": "p",
+              "text": "Pratik öneri: “Niyet kümeleri” (tema bazlı ad group) + güçlü reklam metni + doğru negatif kelimeler, çoğu otel hesabında daha sürdürülebilir olur."
+            },
+            {
+              "type": "h4",
+              "text": "Ne yapmalıyım? (SXO)"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "Önce mimariyi “okunabilir” kur; sonra smart bidding’i devreye al.",
+                "Brand ve generic’i ayır; aksi halde optimizasyon stratejisi bulanıklaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sonuc-altin-mimari",
+          "title": "Sonuç: Oteller İçin Örnek “Altın Mimari” (1 sayfada)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Altın kural: Mimari; bütçe kontrolü + rapor okunabilirliği + landing eşleşmesi sağlar. Google Ads hesabınızı “operasyon el kitabı” gibi düşünün: siz yokken bile biri açıp anlayabilmeli."
+            },
+            {
+              "type": "p",
+              "text": "Önerilen Mimari (özet):"
+            },
+            {
+              "type": "p",
+              "text": "• Campaigns:\n1. BRAND_TR\n2. GENERIC_TR_GEO (Antalya/Belek/Side/Kemer/Bodrum temaları)\n3. (Varsa) GENERIC_DE / GENERIC_RU\n• Ad groups: konsept/oda tipi/niyet kümeleri\n• Her ad group: tek ana landing + net mesaj"
+            },
+            {
+              "type": "cta",
+              "variant": "primary",
+              "label": "Hesap & Kampanya Mimarisi Analizi Al",
+              "text": "30 dakikada hesabınızı haritalayıp “brand/generic + market + segment” yeniden yapı planını çıkaralım.",
+              "href": "/tr/sem/google-ads-yonetimi"
+            }
+          ]
+        }
+      ],
+      "ctaModule": {
+        "primary": {
+          "label": "Hesap & Kampanya Mimarisi Analizi Al",
+          "text": "Tek bir toplantıda mevcut hesabınızı haritalayıp (brand/generic, ülke/dil, cihaz, segment) yeniden yapı planını çıkaralım.",
+          "href": "/tr/sem/google-ads-yonetimi"
+        },
+        "secondary": {
+          "label": "Örnek Kampanya Yapısı Şablonunu İndir",
+          "text": "Tek hesapta mimariyi 10 dakikada planlar; ekibinize doğrudan uygulanabilir bir kurulum taslağı verirsiniz.",
+          "href": ""
+        }
+      },
+      "asset": {
+        "title": "Örnek Kampanya Yapısı Şablonunu İndir — SEM / Otel Google Ads Mimari Şablonu (v1.0)",
+        "purpose": "Bu şablon, otel Google Ads hesabını kurarken brand/generic, ülke/dil, GEO, cihaz ve segment kırılımlarını tek sayfada planlamanızı sağlar. Ajans–otel arasında “kim neyi kuruyor?” karmaşasını azaltır ve ölçeklenebilir naming convention üretir.",
+        "whoUses": "Ajans yöneticisi, performans uzmanı, otel satış–pazarlama yöneticisi.",
+        "howToUse": [
+          "Boş alanları otelinize göre doldurun (pazar, dil, destinasyon, segment).",
+          "Örnek yapıyla karşılaştırıp eksik kırılımları tamamlayın.",
+          "Kurulum sonrası kontrol listesiyle canlıya çıkmadan doğrulayın."
+        ],
+        "template": {
+          "emptyFields": {
+            "accountInfo": [
+              "Otel/Tesis Kodu: ______",
+              "Destinasyon(lar): ______ (Antalya/Belek/Side/Kemer/Bodrum vb.)",
+              "Hedef Pazar(lar): ______ (TR/DE/RU)",
+              "Diller: ______ (TR/EN/DE/RU)",
+              "Ana hedef: ______ (Rezervasyon / Lead)"
+            ],
+            "campaignSet": [
+              "BRAND_TR_______",
+              "GENERIC_TR_GEO_______",
+              "(Varsa) GENERIC_DE_______",
+              "(Varsa) GENERIC_RU_______",
+              "(Varsa) REMARKETING_DISPLAY_______",
+              "(Varsa) VIDEO_AWARENESS_______"
+            ],
+            "adGroupThemes": [
+              "Tema 1: ______ (örn. “Belek resort her şey dahil”) → Landing: ______",
+              "Tema 2: ______ (örn. “Side aile oteli”) → Landing: ______",
+              "Tema 3: ______ (örn. “Kemer denize sıfır”) → Landing: ______",
+              "Tema 4: ______ (oda tipi: suite/family) → Landing: ______"
+            ],
+            "measurement": [
+              "Rezervasyon: ______ (event adı)",
+              "Telefon araması: ______",
+              "WhatsApp tıklaması: ______",
+              "Form gönderimi: ______"
+            ]
+          },
+          "rules": [
+            "Kampanya seviyesinde “kontrol” kur: pazar/dil/brand-generic ayrımını kampanyada yap.",
+            "Reklam grubunda “tema” kur: oda tipi/konsept/destinasyon niyet kümeleri kullan.",
+            "Her ad group = tek ana landing: mesaj–landing uyumu bozulmasın.",
+            "Naming convention standardını yazılı hale getir: herkes aynı dili konuşsun.",
+            "Ölçüm yoksa canlı yok: dönüşüm tanımı netleşmeden ölçekleme yapma."
+          ],
+          "filledExample": {
+            "otelKodu": "BLK_RESORT01",
+            "destinasyon": "Belek / Antalya",
+            "hedefPazar": "TR + DE",
+            "anaHedef": "Direkt rezervasyon",
+            "kampanyalar": [
+              "BRAND_TR_BLK_RESORT01",
+              "GENERIC_TR_GEO_BLK_RESORT01",
+              "GENERIC_DE_BLK_RESORT01"
+            ],
+            "genericTrGeoAdGroups": [
+              "“belek resort her şey dahil” → /tr/…/belek-resort",
+              "“antalya aile oteli” → /tr/…/aile-oteli",
+              "“belek golf oteli” → /tr/…/golf"
+            ],
+            "olcum": [
+              "purchase_booking",
+              "call_click",
+              "whatsapp_click"
+            ]
+          },
+          "controlList": [
+            "Brand ve generic kampanyalar ayrıldı",
+            "Ülke/dil kırılımları kampanya seviyesinde net",
+            "Ad group temaları “niyet kümeleri” ile kuruldu",
+            "Her ad group tek ana landing’e bağlı",
+            "Ölçüm event’leri test edildi",
+            "Naming convention dokümana yazıldı",
+            "Raporlamada brand/generic ayrı görülebiliyor"
+          ],
+          "deliverables": [
+            "Hesap mimari planı (tek sayfa)",
+            "Kampanya isimlendirme standardı",
+            "Ad group tema listesi + landing eşleşmesi",
+            "Ölçüm event listesi (GA4/GTM)"
+          ]
+        }
+      },
+      "faq": [
+        {
+          "q": "Google Ads kampanya yapısı nasıl olmalı?",
+          "a": "Otel hesabında yapı; brand/generic ayrımı + pazar (TR/DE/RU) + tema bazlı ad group’larla kurulmalı. Kampanya kontrol, ad group tema içindir."
+        },
+        {
+          "q": "Brand ve generic kampanyalar neden ayrılmalı?",
+          "a": "Bütçe ve rapor netleşir: brand genelde daha sıcak, generic daha ölçekli ama daha pahalı olabilir. Ayrım, optimizasyonu hızlandırır."
+        },
+        {
+          "q": "Oteller için Google Ads hesabı nasıl organize edilir?",
+          "a": "Hesap → kampanya → reklam grubu hiyerarşisini iş hedefi ve site yapısına göre kurun; her ad group bir landing’e bağlansın."
+        },
+        {
+          "q": "Tek hesapta birden fazla otel yönetilir mi?",
+          "a": "Evet; otel bazlı kampanya setleriyle (otel A brand/generic, otel B brand/generic) daha okunabilir olur. Landing eşleşmesi şart."
+        },
+        {
+          "q": "Ülke/dil kırılımlarını nasıl yapmalıyım?",
+          "a": "Dil/landing farklıysa kampanyayı ayırın (DE/RU ayrı). Küçük başlangıçta tek kampanya + raporlama da mümkün; bütçe büyüyünce ayrım gerekir."
+        },
+        {
+          "q": "Cihaz (mobil/desktop) için ayrı kampanya açmalı mıyım?",
+          "a": "Performans farkı büyükse ve teklif/landing farklı yönetilecekse evet; değilse tek kampanya + cihaz ayarlarıyla yönetmek daha temiz olur."
+        },
+        {
+          "q": "SKAG hâlâ gerekli mi?",
+          "a": "Her hesap için değil. Modern dönemde aşırı mikro yapılar her zaman avantaj sağlamayabilir; tema/niyet bazlı gruplar çoğu otelde daha sürdürülebilirdir."
+        },
+        {
+          "q": "Brand kampanyası bütçesi biterse ne olur?",
+          "a": "Brand sorgularını generic kampanyalar yakalayabilir ve rapor karışır; brand’i korumak genelde daha sağlıklıdır."
+        }
+      ],
+      "seo100Checklist": {
+        "onPage": [
+          "Title 55–60 karakter bandında",
+          "Meta description 150–170 karakter bandında",
+          "H1 net ve niyete uygun",
+          "H2’ler sheet “Main Structure” ile uyumlu",
+          "En az 2 AEO soru başlığı + net cevap bloğu var",
+          "Entity’ler (Brand Campaign, Generic Campaign, Ad Group) doğal geçti",
+          "GEO örnekleri (Antalya/Belek/Side/Kemer/Bodrum) spam olmadan var",
+          "İç linkler hedef sayfalara yönlendirildi",
+          "Word count 2300–2700 hedeflendi",
+          "“Ne yapmalıyım?” aksiyon listeleri her ana bölümde var",
+          "Featured snippet’e uygun kısa tanım blokları var",
+          "PAA soruları FAQ’de kısa cevaplandı"
+        ],
+        "sxoUx": [
+          "İlk ekranda hızlı özet kutusu var",
+          "CTA yerleşimi intent kuralına uygun (2 primary, 1 secondary)",
+          "Mimari anlatım şema ve tablolarla destekleniyor",
+          "Okuma akışı beginner’dan expert’e kademeli",
+          "“Tek sayfada altın mimari” özeti var",
+          "Kullanıcı kararlarını hızlandıran şablon/asset mevcut"
+        ],
+        "mediaSnippet": [
+          "Hesap hiyerarşisi şeması “Buraya” notu var",
+          "Brand vs generic örnek tablo “Buraya” notu var",
+          "Ülke/dil kırılım şeması “Buraya” notu var",
+          "Asset PDF tasarım notları eklendi",
+          "Tablolar okunabilir, aşırı değil",
+          "Snippet blokları kısa ve net"
+        ],
+        "technicalSeo": [
+          "Heading hiyerarşisi doğru (H1→H2→H3→H4/H5)",
+          "Schema JSON-LD tek blokta (@graph)",
+          "WebSite/WebPage/Article/BreadcrumbList/FAQPage eklendi",
+          "HowTo schema eklendi (sheet Schema Type = HowTo)",
+          "speakable tanımlandı",
+          "Canonical/indexleme planı hazır",
+          "Çok dilli ise hreflang planı ",
+          "İç linkler 200 ve redirect zinciri yok"
+        ]
+      },
+      "internalLinks": [
+        {
+          "label": "Google Ads yönetimi (hub)",
+          "href": "/tr/sem/google-ads-yonetimi"
+        },
+        {
+          "label": "Otel reklam yönetimi (çatı yaklaşım)",
+          "href": "/tr/otel/reklam-yonetimi"
+        },
+        {
+          "label": "Online satış / PMS–OTA bakışı",
+          "href": "/tr/pms-ota/online-satis"
+        }
+      ]
+    },
+
+  "BlogGoogleAdsButceVeTeklifStratejileri": {
+    "title": "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+    "slug": "google-ads-butce-ve-teklif-stratejileri",
+    "department": "sem",
+    "updatedAt":"5 Ocak 2026",
+    "excerpt": "Otel Google Ads’te “bütçeyi arttırdım ama sonuç gelmedi” problemi çoğu zaman bütçeden değil, bütçenin nerede ve nasıl harcandığını kontrol eden mimari + bid kararlarından çıkar. Bu rehber; günlük/aylık bütçe modelini, sezon dalgasını (yüksek sezon/düşük sezon) ve manual–smart bidding farkını otel senaryolarıyla birleştirir. Hedefimiz basit: brand kampanyayı güvenceye al, hedef KPI’ı netleştir, pazara göre bütçe dağıt ve verin kadar otomasyona geç.",
+    "seo": {
+      "metaTitle": "Otel Google Ads Bütçe & Teklif Stratejileri | DGTLFACE",
+      "metaDescription": "Otel Google Ads bütçesini sezon ve pazara göre planlayın. Manual CPC vs Smart Bidding, Target ROAS/CPA, örnek hesaplama ve brand önceliğiyle net strateji."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog # / URL (Child): Blog #3 — /tr/sem/blog/google-ads-butce-ve-teklif-stratejileri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 180 gün",
+        "SERP hedefi: Featured Snippet + PAA",
+        "Canonical: /tr/sem/blog/google-ads-butce-ve-teklif-stratejileri"
+      ],
+      "strategySummary": "Bu içerik, SEM silo’sunda “hesap mimarisi” yazısından sonra gelen karar ve bütçe yazısıdır: okur artık “nasıl kurarım?”dan “ne kadar ayırırım ve nasıl teklif veririm?” aşamasına geçer. Persona; GM / satış–pazarlama / ajans yöneticisi; funnel’da consideration → conversion bandında, “bütçeyi yanlış dağıtırsam sezonu kaçırır mıyım?” sorusunu taşır. Ana iş sorusu: “Brand’i koruyup (zorunlu), generic’i ölçekleyerek (hacim) sezona göre bütçe ve bid stratejisini nasıl kurarım?” Rakip gap’i kapatma planı: otel özelinde pazar (TR/DE/RU) kırılımı + sezon dalgası + minimum veri olmadan Smart Bidding’e agresif geçmeme standardı ve örnek bütçe hesaplamaları."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Oteller için Google Ads bütçe ve teklif stratejisi; brand kampanyayı “zorunlu” koruyup, generic kampanyaları pazar/sezon dalgasına göre ölçeklemekle başlar. Bütçeyi günlük değil, aylık hedef + 30,4 gün mantığıyla planlamak; sonra kampanya türüne göre Manual veya Smart Bidding seçmek gerekir. Smart Bidding; Target CPA/ROAS, Maximize Conversions ve Maximize Conversion Value gibi stratejilerle açık artırma anında teklifleri optimize eder.",
+      "sgeSummary": "Brand’e öncelik ver, hedef CPA/ROAS’ı tanımla, bütçeyi sezon ve pazara göre kaydır. Yeterli dönüşüm verisi yoksa Smart Bidding’e agresif geçme.",
+      "voiceAnswer": "Brand’i koru, hedef ROAS/CPA belirle, sezona göre bütçeyi kaydır ve verin kadar Smart Bidding kullan.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM / satış–pazarlama / ajans yöneticisi (Intermediate)",
+        "KPI: ROAS, CPA, dönüşüm oranı, gelir/rezervasyon, toplam spend kontrolü",
+        "Entity’ler: Smart Bidding, Target ROAS, Target CPA, Maximize Conversions, Maximize Conversion Value, Manual CPC",
+        "GEO: Antalya / Belek / Side / Kemer / Bodrum (yüksek/düşük sezon örnekleri)",
+        "Funnel: Brand (koruma) + Generic (ölçek) + ölçüm → optimizasyon",
+        "Risk: Veri yetersizken agresif hedef CPA/ROAS → öğrenme bozulabilir",
+        "Hızlı kazanım: Bütçe modelini netleştir + brand payını sabitle + 1–2 bid testi kuralı koy"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+      "intro": "Otel Google Ads’te “bütçeyi arttırdım ama sonuç gelmedi” problemi çoğu zaman bütçeden değil, bütçenin nerede ve nasıl harcandığını kontrol eden mimari + bid kararlarından çıkar. Bu rehber; günlük/aylık bütçe modelini, sezon dalgasını (yüksek sezon/düşük sezon) ve manual–smart bidding farkını otel senaryolarıyla birleştirir. Hedefimiz basit: brand kampanyayı güvenceye al, hedef KPI’ı netleştir, pazara göre bütçe dağıt ve verin kadar otomasyona geç.",
+      "quickSummary": [
+        "1. Aylık hedefi yaz → 2) Günlüğe çevir (÷30,4) → 3) Brand’i sabitle → 4) Generic’i pazara göre ölçekle",
+        "5) Veri yoksa “agresif Target ROAS/CPA” yok → 6) 2 haftalık bid test planı uygula"
+      ],
+      "ctaPrimary": {
+        "label": "Bütçe & Teklif Stratejisi Danışmanlığı Al",
+        "text": "Otelinizin pazar (TR/DE/RU), sezon ve hedef ROAS/CPA verilerine göre 1 toplantıda bütçe–bid yol haritası çıkaralım.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Bütçe & Teklif Stratejisi Danışmanlığı Al",
+        "text": "Otelinizin pazar (TR/DE/RU), sezon ve hedef ROAS/CPA verilerine göre 1 toplantıda bütçe–bid yol haritası çıkaralım.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Bütçe Hesaplama Excel Şablonunu İndir",
+        "text": "Toplantıya girmeden önce 10 dakikada hedef bütçe, günlük limit ve kampanya dağılımını netleştirirsiniz.",
+        "href": "#download"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Google Ads yönetimi (hub)",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Reklam raporlama (ölçüm ve karar)",
+        "href": "/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "Online satış / kanal stratejisi",
+        "href": "/tr/pms-ota/online-satis"
+      }
+    ],
+    "sections": [
+      {
+        "id": "google-ads-butcesi-nasil-belirlenir",
+        "title": "Google Ads bütçesi nasıl belirlenir? (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Net cevap (2–3 cümle): Google Ads’te bütçeyi “günlük harcama” gibi değil, aylık hedef gibi planlayın; ardından günlük ortalamayı aylık bütçe / 30,4 ile hesaplayın. Google, bazı günler daha fazla bazı günler daha az harcayabilir; ancak ay sonunda aylık limit, ortalama günlük bütçenin 30,4 katını aşmayacak şekilde optimize eder."
+          },
+          { "type": "h3", "text": "Otel için bütçe belirleme formülü (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık Ads bütçesi (₺ / €): hedeflediğin harcama",
+              "Günlük ortalama bütçe: Aylık bütçe ÷ 30,4",
+              "Hedef rezervasyon sayısı (aylık): Aylık bütçe ÷ hedef CPA",
+              "Hedef CPA (Varsayım): “1 rezervasyonun reklam maliyeti” veya “1 lead’in maliyeti”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Varsayım",
+            "items": [
+              "“Minimum günlük bütçe” sabit bir rakam değildir; pazarın CPC seviyesi, hedefleme ve dönüşüm oranına göre değişir.",
+              "Bu yüzden “tek sayı” yerine hedef CPA/ROAS üzerinden gitmek daha doğrudur."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Önce hedef KPI’ı yaz (CPA mı ROAS mı?)",
+              "Sonra 30 günlük planla başla; 7 günde değil, 30 günde karar ver"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-icin-butce-planlama-katmanlar",
+        "title": "Otel İçin Bütçe Planlama (Brand “zorunlu”, diğerleri “opsiyonel”)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel hesabında bütçe planı, “her kampanyaya biraz” değil; öncelik sıralamasıdır."
+          },
+          { "type": "h3", "text": "1) Zorunlu katman: Brand kampanya (koruma)" },
+          {
+            "type": "p",
+            "text": "Brand aramalar genelde daha “sıcak” olduğu için, bütçe kesildiğinde direkt rezervasyon hattı zarar görebilir. Bu yüzden brand’i “her zaman açık” düşünmek, otel operasyonunda “telefon hattı açık olsun” gibidir."
+          },
+          { "type": "h3", "text": "2) Büyüme katmanı: Generic (hacim)" },
+          {
+            "type": "p",
+            "text": "Generic aramalar; daha fazla hacim getirir ama genelde daha pahalı ve daha değişkendir. Burada doğru hamle; pazarı ve sezonu okuyarak bütçeyi ölçeklemek."
+          },
+          { "type": "h3", "text": "3) Opsiyonel katman: Discovery/Display/Video (farkındalık ve yeniden yakalama)" },
+          {
+            "type": "p",
+            "text": "Bu katman, ölçüm ve landing oturduğunda “ekstra büyüme” sağlar. Aksi halde, kısıtlı bütçede brand/generic’i zayıflatabilir."
+          },
+          {
+            "type": "mediaNote",
+            "text": " Brand vs Generic vs Opsiyonel katman diyagramı (pasta veya katmanlı bar)."
+          },
+          {
+            "type": "ctaInline",
+            "variant": "primary",
+            "label": "Bütçe & Teklif Stratejisi Danışmanlığı Al",
+            "desc": "Brand/generic/opsiyonel katmanlarını otelinizin pazarına göre netleştirip bütçeyi “doğru yere” sabitleyelim.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Brand’in “minimum payını” sabitle (sezonda bile düşürme)",
+              "Generic’i pazar (TR/DE/RU) bazında ayrı takip et",
+              "Opsiyoneli, sadece ölçüm oturduğunda aç"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gunluk-aylik-butce-modeli-304",
+        "title": "Günlük/Aylık Bütçe Modeli (30,4 kuralı + overdelivery gerçeği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads, “average daily budget” ile çalışır; bu, ay boyunca günlük ortalama harcama seviyesidir. Bazı günler talep artınca harcama yükselebilir; ama ay sonunda, ortalama günlük bütçenin 30,4 güne göre hesaplanan aylık limitini aşmayacak şekilde dengelemeye çalışır."
+          },
+          { "type": "h3", "text": "Otel örneği (Varsayım ile)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık bütçe: ₺304.000",
+              "Günlük ortalama: ₺304.000 ÷ 30,4 ≈ ₺10.000",
+              "Bazı günler: ₺12.000 harcayabilir, bazı günler ₺8.000 harcayabilir; hedef ay sonunda dengelemek."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Günlük harcamaya takılıp panikleme; 7 günlük trendi izle",
+              "“Ay ortası bitti, bütçe bitti” sorunu ya mimari ya da hedefleme genişliğidir"
+            ]
+          },
+          {
+            "type": "mediaNote",
+            "text": "Buraya: “Bütçe planlama tablosu” (aylık hedef → 30,4 → kampanya bazlı dağıtım)."
+          }
+        ]
+      },
+      {
+        "id": "manual-vs-smart-bidding",
+        "title": "Manuel vs Akıllı Teklif Stratejileri (Manual CPC mi, Smart Bidding mi?)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Smart Bidding, her açık artırmada (auction-time) Google’ın AI’ı ile dönüşüm ihtimaline göre teklifleri optimize eden stratejilerin genel adıdır. Target CPA, Target ROAS, Maximize Conversions ve Maximize Conversion Value bu gruba girer."
+          },
+          { "type": "h3", "text": "Manual (kontrol odaklı) ne zaman?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yeni hesap, veri az (özellikle rezervasyon dönüşümü yeni)",
+              "Landing ve ölçüm daha oturmamış",
+              "Pazar çok oynak; önce “temiz trafik” toplamak istiyorsun"
+            ]
+          },
+          { "type": "h3", "text": "Smart Bidding (sonuç odaklı) ne zaman?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dönüşüm ölçümü sağlam",
+              "Yeterli “dönüşüm döngüsü” oluşmuş (algoritmanın öğrenmesi için zaman)",
+              "Hedefin net: ya daha çok dönüşüm ya daha yüksek dönüşüm değeri"
+            ]
+          },
+          {
+            "type": "mediaNote",
+            "text": "Buraya: Mini karşılaştırma tablosu (Manual CPC vs Max Conversions vs Target CPA vs Target ROAS) — kısaca “ne zaman?”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Veri azsa: önce “ölçüm + stabil trafik”, sonra smart bidding",
+              "Veri varsa: hedef CPA/ROAS’ı gerçekçi belirleyip kademeli sıkılaştır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "target-roas-target-cpa-ne-zaman",
+        "title": "Hedef ROAS / Hedef CPA ve ne zaman kullanılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Target ROAS, Smart Bidding içinde dönüşüm değerini optimize eder; her açık artırmada dönüşüm değerini tahmin edip ROAS’i maksimize edecek şekilde teklifleri ayarlar."
+          },
+          {
+            "type": "p",
+            "text": "Target CPA ise “bir dönüşüm için ortalama kaç ödemek istiyorum?” hedefini alır ve dönüşüm olasılığına göre teklifleri buna göre ayarlar."
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Varsayım",
+            "items": [
+              "Sheet’teki “Hedef TO” ifadesi, otel ekiplerinde yaygın şekilde “hedef edinme maliyeti” (Target CPA) anlamında kullanılıyor.",
+              "Eğer siz “TO”yu başka bir KPI olarak (örn. dönüşüm oranı) kullanıyorsanız, hedef seti buna göre revize edilir."
+            ]
+          },
+          { "type": "h3", "text": "ROAS mı CPA mı? (otel karar ağacı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Booking engine geliri ölçülüyorsa: ROAS daha mantıklı (değer optimizasyonu)",
+              "Lead/arama/WhatsApp ağırlıktaysa: CPA daha pratik (maliyet kontrolü)"
+            ]
+          },
+          { "type": "h3", "text": "Teknik Not (Kilitli): Veri yokken agresif hedefle smart bidding’e geçme" },
+          {
+            "type": "p",
+            "text": "Google, dönüşüm verisi ve dönüşüm döngüsü oluştuktan sonra strateji değişimini önerir; yeni bir bid stratejisini devreye alınca algoritmanın uyum sağlaması için birkaç dönüşüm döngüsü beklemek gerekir. Bu yüzden “daha ilk haftada” Target ROAS/CPA’yı çok sıkı koymak, öğrenmeyi boğabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "İlk 2–4 hafta: “ölçüm doğruluğu + stabil trafik”",
+              "Sonra: hedef CPA/ROAS’ı kademeli yaklaştır (bir anda sert düşürme)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezonluk-butce-kaydirma",
+        "title": "Sezonluk Bütçe Kaydırma (Antalya/Belek/Side için yüksek-düşük sezon modeli)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sahil resort’larda talep dalgası serttir: yüksek sezonda rekabet artar; düşük sezonda talep düşer ama fırsat maliyeti farklılaşır."
+          },
+          { "type": "h3", "text": "Yüksek sezon (Varsayım: Antalya/Belek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: sabit ve güçlü (kaçırma maliyeti yüksek)",
+              "Generic: hacim büyütme, ama hedef CPA/ROAS disiplinli",
+              "Opsiyonel: remarketing daha verimli olabilir (site trafiği artar)"
+            ]
+          },
+          { "type": "h3", "text": "Düşük sezon (Varsayım: Side/Kemer/Bodrum kırılımı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand: yine korunur",
+              "Generic: daha niş segmentlere daraltılır",
+              "Opsiyonel: “farkındalık” değil, daha çok “yeniden yakalama” odaklı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Key Statistics / Data Point (satırdan + çerçeve)",
+            "items": [
+              "Varsayım/benchmark: Otellerde pazarlama bütçesi gelirlerin belirli bir yüzdesiyle planlanır; birçok kaynak “%5–10” bandını genel bir referans olarak anıyor, otelin segmentine ve büyüme hedeflerine göre değişiyor.",
+              "Sheet notunu güvenli yorum: “Performans reklam harcaması / ciro” oranını tek başına standart kabul etmeyin; pazar, doluluk, fiyat (ADR) ve OTA payı bu oranı ciddi değiştirir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Sezona 6–8 hafta kala: bütçeyi “hazırlık” moduna al, ölçümü sağlamlaştır",
+              "Sezon içinde: brand’i koru, generic’i pazar bazlı optimize et",
+              "Sezon bitince: raporlama ile öğrenimleri çıkar (Internal Link: /tr/sem/reklam-raporlama)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yeni-hesap-vs-olgun-hesap",
+        "title": "Yeni Hesap vs Olgun Hesap Yaklaşımı (bid geçiş planı)",
+        "blocks": [
+          { "type": "h3", "text": "Yeni hesap (veya ölçüm yeni kurulduysa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Öncelik: doğru dönüşüm ölçümü + temiz trafik",
+              "Bid: agresif hedef ROAS/CPA yerine kademeli yaklaşım",
+              "Test: 14 günlük küçük testler, büyük reset’ler değil"
+            ]
+          },
+          { "type": "h3", "text": "Olgun hesap (düzenli dönüşüm geliyorsa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bid: Target CPA/ROAS ile optimizasyon daha anlamlı",
+              "Bütçe: pazar bazlı ölçekleme (TR/DE/RU ayrı)",
+              "Deneme: kampanya bazlı kontrollü A/B (bid stratejisi denemeleri)"
+            ]
+          },
+          {
+            "type": "ctaInline",
+            "variant": "secondary",
+            "label": "Bütçe Hesaplama Excel Şablonunu İndir",
+            "desc": "Toplantıya girmeden önce 10 dakikada hedef bütçe, günlük limit ve kampanya dağılımını netleştirirsiniz.",
+            "href": "#download"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Yeni hesapta: “önce veri”",
+              "Olgun hesapta: “hedefi sıkılaştır + bütçeyi pazar bazlı yönet”"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc-butce-bid-sistemi",
+        "title": "Sonuç: 3 adımda otel bütçe & bid sistemi (özet)",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brand’i sabitle (zorunlu katman)",
+              "Hedef KPI’ı seç (ROAS mı CPA mı?) ve 30,4 ile bütçeyi planla",
+              "Verin kadar otomasyona geç: Smart Bidding güçlüdür ama öğrenme döngüsü ister"
+            ]
+          },
+          {
+            "type": "ctaInline",
+            "variant": "primary",
+            "label": "Bütçe & Teklif Stratejisi Danışmanlığı Al",
+            "desc": "180 günlük güncelleme periyoduna uygun şekilde, oteliniz için sezon–pazar–bid stratejisi planını birlikte çıkaralım.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu audit sheet; otelinizin Google Ads bütçesini aylık hedef → günlük ortalama (30,4) modeline çevirir, brand/generic/opsiyonel katmanlara dağıtır ve bid stratejisi seçimini “veri olgunluğu”na göre skorlar. Sonuç olarak “ne kadar harcayacağım ve hangi bid ile başlayacağım?” sorusunu tek sayfada netleştirir."
+          },
+          { "type": "p", "text": "Kim Kullanır? (1 satır)" },
+          {
+            "type": "p",
+            "text": "Otel satış–pazarlama yöneticisi, GM veya ajans performans yöneticisi."
+          },
+          { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Aylık hedef bütçeyi ve hedef KPI’ı (ROAS/CPA) girin.",
+              "Pazar (TR/DE/RU) ve sezon durumuna göre dağıtımı işaretleyin.",
+              "Skor tablosuna göre bid stratejisini seçin ve “ilk 10 aksiyon”u uygulayın."
+            ]
+          },
+          { "type": "h3", "text": "A) Ölçüm Alanları + Skor (0–5)" },
+          { "type": "h4", "text": "1) Ölçüm Hazırlığı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 dönüşüm kurulumu: 0–5",
+              "Booking engine gelir ölçümü (varsa): 0–5",
+              "Telefon/WhatsApp/form ölçümü: 0–5"
+            ]
+          },
+          { "type": "h4", "text": "2) Veri Olgunluğu" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 30 günde dönüşüm sayısı yeterliliği: 0–5 (Varsayım: “yeterli” eşik sektöre göre değişir)",
+              "Dönüşüm döngüsü stabil mi?: 0–5"
+            ]
+          },
+          { "type": "h4", "text": "3) Mimari Netliği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand & generic ayrımı: 0–5",
+              "Ülke/dil kırılımı: 0–5",
+              "Landing eşleşmesi: 0–5"
+            ]
+          },
+          { "type": "h4", "text": "4) Bütçe Disiplini" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık hedef belirli mi?: 0–5",
+              "Günlük ortalama doğru hesaplandı mı?: 0–5",
+              "Brand minimum payı sabit mi?: 0–5"
+            ]
+          },
+          { "type": "h4", "text": "Skor Yorumlama (R/Y/G)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–25 Kırmızı: Ölçüm/mimari oturmadan smart bidding agresif olmaz",
+              "26–40 Sarı: Kademeli smart bidding + gevşek hedef",
+              "41+ Yeşil: Target ROAS/CPA ile kontrollü optimizasyon"
+            ]
+          },
+          { "type": "h3", "text": "B) Kırmızı/Sarı/Yeşil Yorum Alanları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kırmızı (risk): ____________________",
+              "Sarı (iyileştirme): ____________________",
+              "Yeşil (güçlü yön): ____________________"
+            ]
+          },
+          { "type": "h3", "text": "C) İlk 10 Aksiyon Listesi (öncelikli)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brand kampanyayı sabitle (bütçe koruması)",
+              "Aylık bütçe hedefini yaz",
+              "Günlük ortalamayı 30,4 ile hesapla",
+              "TR/DE/RU pazarlarını raporda ayır",
+              "Ölçümü doğrula (rezervasyon/lead)",
+              "Smart Bidding’e geçiş planı yap (veri olgunluğuna göre)",
+              "Generic’i niyet kümeleriyle daralt",
+              "Sezon planını 6–8 hafta önceden hazırla",
+              "14 günlük bid test takvimi oluştur",
+              "Haftalık raporlama ritmi kur (Internal Link: /tr/sem/reklam-raporlama)"
+            ]
+          },
+          { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
+          {
+            "type": "table",
+            "title": "Öncesi/Sonrası KPI Tablosu",
+            "columns": ["KPI", "Önce", "Sonra", "Not"],
+            "rows": [
+              ["ROAS", "TBD", "TBD", "Ölçüm gerekiyorsa"],
+              ["CPA", "TBD", "TBD", "Lead/rezervasyon bazlı"],
+              ["CVR", "TBD", "TBD", "Landing etkisi"],
+              ["Spend", "TBD", "TBD", "Aylık hedefe uyum"],
+              ["Brand payı", "TBD", "TBD", "Koruma seviyesi"]
+            ]
+          },
+          { "type": "h3", "text": "E) Deliverables + “Buraya” notları" },
+          { "type": "h4", "text": "Deliverables" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Excel audit sheet (bütçe + pazar + bid seçimi)",
+              "14 günlük test planı tabı",
+              "Brand/generic dağıtım tabı",
+              "Sezon planı tabı"
+            ]
+          },
+          {
+            "type": "mediaNote",
+            "text": "Buraya: Excel’in içinde “Bid Strategy seçici” mini tablo (Manual / Max Conversions / Target CPA / Target ROAS)."
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "FAQ / PAA Bölümü",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "q": "Google Ads bütçesi nasıl belirlenir?",
+                "a": "Aylık hedef bütçeyi belirleyin ve günlük ortalamayı aylık bütçe/30,4 ile hesaplayın. Google bazı günler daha fazla harcasa da ay sonunda limit bu mantıkla dengelenir."
+              },
+              {
+                "q": "Oteller için minimum günlük Google Ads bütçesi ne olmalı?",
+                "a": "Tek bir “minimum” yok; hedef pazarın CPC’si, dönüşüm oranınız ve hedef CPA/ROAS’ınıza bağlıdır. En sağlıklı yöntem, hedef CPA üzerinden “aylık kaç rezervasyon/lead istiyorum?” diye hesaplamaktır."
+              },
+              {
+                "q": "Hangi bid stratejisi ne zaman kullanılmalı?",
+                "a": "Veri azsa kontrollü başlayın; veri ve ölçüm oturunca Smart Bidding (Maximize Conversions/Value, Target CPA/ROAS) daha anlamlı olur."
+              },
+              {
+                "q": "Target ROAS nedir, ne zaman seçmeliyim?",
+                "a": "Target ROAS, dönüşüm değerini optimize ederek hedeflediğiniz ROAS’e ulaşmaya çalışır; gelir ölçümü sağlıklıysa daha iyi çalışır."
+              },
+              {
+                "q": "Target CPA nedir, ne zaman seçmeliyim?",
+                "a": "Target CPA, hedeflediğiniz ortalama dönüşüm maliyetine göre teklifleri otomatik ayarlar; özellikle lead odaklı dönüşümlerde pratik olur."
+              },
+              {
+                "q": "Google bazı günler bütçeyi aşarsa sorun mu?",
+                "a": "Bu normal olabilir; Google günlük harcamayı dalgalandırabilir ama ay sonunda aylık limite göre dengelemeyi hedefler."
+              },
+              {
+                "q": "Sezonda bütçeyi nasıl kaydırmalıyım?",
+                "a": "Brand’i sabit tutun; generic’i talep dalgasına göre ölçekleyin. Düşük sezonda daha niş segmentlere daraltıp CPA/ROAS disiplinini artırın."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Google Ads bütçesi nasıl belirlenir?",
+        "a": "Aylık hedef bütçeyi belirleyin ve günlük ortalamayı aylık bütçe/30,4 ile hesaplayın. Google bazı günler daha fazla harcasa da ay sonunda limit bu mantıkla dengelenir."
+      },
+      {
+        "q": "Oteller için minimum günlük Google Ads bütçesi ne olmalı?",
+        "a": "Tek bir “minimum” yok; hedef pazarın CPC’si, dönüşüm oranınız ve hedef CPA/ROAS’ınıza bağlıdır. En sağlıklı yöntem, hedef CPA üzerinden “aylık kaç rezervasyon/lead istiyorum?” diye hesaplamaktır."
+      },
+      {
+        "q": "Hangi bid stratejisi ne zaman kullanılmalı?",
+        "a": "Veri azsa kontrollü başlayın; veri ve ölçüm oturunca Smart Bidding (Maximize Conversions/Value, Target CPA/ROAS) daha anlamlı olur."
+      },
+      {
+        "q": "Target ROAS nedir, ne zaman seçmeliyim?",
+        "a": "Target ROAS, dönüşüm değerini optimize ederek hedeflediğiniz ROAS’e ulaşmaya çalışır; gelir ölçümü sağlıklıysa daha iyi çalışır."
+      },
+      {
+        "q": "Target CPA nedir, ne zaman seçmeliyim?",
+        "a": "Target CPA, hedeflediğiniz ortalama dönüşüm maliyetine göre teklifleri otomatik ayarlar; özellikle lead odaklı dönüşümlerde pratik olur."
+      },
+      {
+        "q": "Google bazı günler bütçeyi aşarsa sorun mu?",
+        "a": "Bu normal olabilir; Google günlük harcamayı dalgalandırabilir ama ay sonunda aylık limite göre dengelemeyi hedefler."
+      },
+      {
+        "q": "Sezonda bütçeyi nasıl kaydırmalıyım?",
+        "a": "Brand’i sabit tutun; generic’i talep dalgasına göre ölçekleyin. Düşük sezonda daha niş segmentlere daraltıp CPA/ROAS disiplinini artırın."
+      }
+    ]
+  },
+
+   "BlogCoreWebVitalsOtelVeNextjsRehberi": {
+    "title": "Core Web Vitals Rehberi: Otel & Next.js | DGTLFACE",
+    "slug": "core-web-vitals-otel-ve-nextjs-rehberi",
+    "department": "seo",
+    "updatedAt":"5 Ocak 2026",
+    "excerpt": "Core Web Vitals (LCP, CLS, INP) otel sitelerinde dönüşümü etkiler. Next.js için ölçüm, teşhis ve pratik fix’lerle CWV’yi iyileştirin.",
+    "seo": {
+      "metaTitle": "Core Web Vitals Rehberi: Otel & Next.js | DGTLFACE",
+      "metaDescription": "Core Web Vitals (LCP, CLS, INP) otel sitelerinde dönüşümü etkiler. Next.js için ölçüm, teşhis ve pratik fix’lerle CWV’yi iyileştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog No / URL: Blog #1 — /tr/seo/blog/core-web-vitals-otel-ve-nextjs-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty: Intermediate–Expert",
+        "Word Count Range: 2300–2700"
+      ],
+      "strategySummary": "Bu içerik, Teknik SEO silosunda “CWV giriş otoritesi” olarak hub rolü oynar; hız/performans alt başlıklarına (LCP/CLS/INP, Next.js optimizasyonu, görsel/hero, rezervasyon modülleri, script yönetimi) internal link ile otorite taşır. Hedef persona, otel sahibi / satış–pazarlama müdürü / ajans yöneticisi ve teknik ekip (front-end/dev) arasında köprü kuran karar vericidir. Funnel’da ağırlıkla consideration (MoFu): “Sorunu doğru teşhis et → uygulanabilir fix listesi çıkar → ölç → iyileştir” akışını verir. Ana iş sorusu: “Core Web Vitals’ı iyileştirirsem sıralama + dönüşüm etkisini nasıl garanti altına alırım ve Next.js’te bunu hangi adımlarla yaparım?” Varsayım: İçerik, otel/resort sitelerinde yaygın olan hero görsel + slider + rezervasyon kutusu + 3. parti script kombinasyonunu temel problem seti kabul eder."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Core Web Vitals, Google’ın kullanıcı deneyimini ölçmek için kullandığı temel metrik setidir: LCP (en büyük içerik ne kadar hızlı görünüyor), CLS (sayfa yerleşimi ne kadar stabil), INP (etkileşim gecikmesi). Otel sitelerinde büyük hero görseller, slider’lar, rezervasyon modülleri ve üçüncü parti script’ler bu metrikleri sık bozar. Next.js’te doğru görsel stratejisi, font yönetimi, lazy-load/prefetch dengesi ve CDN/cache kurgusuyla CWV iyileştirmeleri hem SEO’yu hem dönüşümü güçlendirir.",
+      "sgeSummary": "Otel ve Next.js sitelerinde LCP, CLS ve INP’yi doğru ölçüp; görsel/hero, font, rezervasyon modülü ve script optimizasyonlarıyla Core Web Vitals’ı iyileştirerek SEO + dönüşüm kazanırsınız.",
+      "voiceAnswer": "Core Web Vitals; LCP, CLS ve INP ile otel sitenizin hız, stabilite ve etkileşim kalitesini ölçer.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM’leri, satış–pazarlama, ajans yöneticileri, teknik ekip (Next.js)",
+        "KPI hedefleri: LCP < 2.5s, CLS < 0.1, INP < 200ms (good band)",
+        "Kritik entity’ler: Core Web Vitals, LCP, CLS, INP, Next.js, Image Optimization, CDN, RUM",
+        "Funnel rolü: MoFu (teşhis → çözüm planı → aksiyon listesi → analiz talebi)",
+        "Otel özel riskler: hero görsel + slider, sticky header, dinamik rezervasyon kutusu, GTM/3. parti script yükü",
+        "Ölçüm yaklaşımı: Field data (CrUX/RUM) + Lab (Lighthouse/PSI) birlikte değerlendirme",
+        "Çıktı hedefi: Featured Snippet + PAA cevap blokları + uygulama adımları"
+      ]
+    },
+    "h1": {
+      "title": "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber",
+      "intro": "Core Web Vitals (CWV), Google’ın “sayfa deneyimi” yaklaşımında gerçek kullanıcı deneyimini ölçmek için kullandığı metrik setidir. Otel web siteleri genelde görsel ağırlıklı, etkileşimli (menüler, modüller, takvimler) ve pazarlama script’leriyle dolu olduğu için CWV problemleri daha sık görülür. Bu rehberde LCP, CLS ve INP’yi nasıl okuyacağınızı, otel senaryosunda neden bozulduğunu ve Next.js gibi modern framework’lerde adım adım nasıl düzelteceğinizi pratik bir şekilde ilerleteceğiz.\nBuraya: “CWV metriklerini gösteren örnek PageSpeed / CrUX ekranı” görseli.",
+      
+      "quickSummary": [
+        "Ölç → teşhis et → önceliklendir → sprint ile uygula"
+      ],
+      "ctaPrimary": {
+        "label": "Core Web Vitals Analizi Talep Et",
+        "text": "Otel sitenizde LCP/CLS/INP’yi netleştirip 14 günlük aksiyon planı çıkarmak isteyen ekipler için.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Core Web Vitals Analizi Talep Et",
+        "text": "Otel sitenizde LCP/CLS/INP’yi netleştirip 14 günlük aksiyon planı çıkarmak isteyen ekipler için.",
+        "href": "/tr/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "CWV İyileştirme Checklist’ini İndir",
+        "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+        "href": "#download"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO (hub)", "href": "/tr/seo/teknik-seo" },
+      { "label": "Web sitesi geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "label": "Reklam raporlama", "href": "/tr/sem/reklam-raporlama" }
+    ],
+    "sections": [
+      {
+        "id": "cwv-giris",
+        "title": "Core Web Vitals’a Giriş: LCP, CLS, INP",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Core Web Vitals’ı doğru iyileştirmek için önce metriklerin ne ölçtüğünü ve “lab vs field” farkını netleştirmek gerekir. Lighthouse/PageSpeed gibi araçlar size bir laboratuvar simülasyonu verir; CrUX ve RUM ise gerçek kullanıcı verisini gösterir. Otel sitelerinde karar verici hatası genelde şudur: “Skor düşük → her şeyi aynı anda düzelt” yaklaşımı. Doğrusu: en büyük etkiyi veren kök nedeni bulup sırayla çözmektir."
+          },
+           { "type": "media", "slot": "hotel-hero-reservation-schema" },
+          { "type": "h3", "text": "LCP nedir ve otel sitesinde neden düşer? " },
+          {
+            "type": "p",
+            "text": "LCP (Largest Contentful Paint), kullanıcı ekranda “asıl içerik” olarak algıladığı en büyük öğenin (genellikle hero görsel, büyük başlık alanı veya ana kart) ne kadar sürede göründüğünü ölçer. Otel sayfalarında LCP’yi bozan klasik sebepler: büyük WebP/JPG’ler, yanlış responsive kırılımlar, render-blocking CSS/JS ve CDN/cache eksikleri."
+          },
+          { "type": "h3", "text": "CLS nedir ve hangi kaymalar tehlikeli? " },
+          {
+            "type": "p",
+            "text": "CLS (Cumulative Layout Shift), sayfa yüklenirken öğelerin zıplamasını ölçer. Sticky header, geç yüklenen fontlar, sonradan açılan banner’lar, dinamik rezervasyon kutuları ve ölçüsüz görseller CLS’yi yükseltir. Otelde CLS sadece skor değil, “rezervasyon formu alanı kaydı” gibi dönüşüm kıran bir problemdir."
+          },
+          { "type": "h3", "text": "INP nedir, neden FID yerine kritik oldu? " },
+          {
+            "type": "p",
+            "text": "INP (Interaction to Next Paint), kullanıcı tıklayıp etkileşime geçtiğinde sayfanın gerçekten tepki verme hızını ölçer. Menü açılışları, takvim seçimi, filtreler ve modal’lar INP’nin ana sahasıdır. Otel sitelerinde 3. parti script’ler ve ağır JS bundle, INP’yi görünmez şekilde bozar."
+          },
+          {
+            "type": "checklist",
+            "title": "☑ Mini Check (Teşhis) ",
+            "items": [
+              "LCP öğesi hero görsel mi, yoksa büyük bir text block mu?",
+              "CLS “rezervasyon kutusu / header / banner” kaynaklı mı?",
+              "INP, mobilde menü/rezervasyon etkileşimlerinde mi patlıyor?",
+              "Field (CrUX/RUM) ile Lab sonuçları tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Önce field data ile en kötü sayfa şablonlarını seç.",
+              "LCP öğesini tespit et; “hero mı, slider mı?” netleştir.",
+              "CLS için zıplayan öğeleri videolu şekilde kayıt altına al.",
+              "INP için en çok kullanılan etkileşimleri (menü, takvim, CTA) test et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-turizm-cwv-kritik",
+        "title": "Otel ve Turizm Sitelerinde CWV Neden Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel web sitesi, sadece bir vitrin değil; rezervasyon yolculuğunun başladığı ve çoğu zaman “OTA yerine direct booking” kararının verildiği yerdir. CWV burada iki katmanlı etki üretir:\n\t1.\tSEO görünürlüğü: Google, benzer içerik kalitesinde sayfalar arasında “daha iyi deneyimi” avantajlı konumlayabilir.\n\t2.\tDönüşüm: Sayfa geç açılırsa kullanıcı “fiyat/oda görmeden” çıkar; layout kayarsa form doldurmaz; etkileşim gecikirse güven kaybeder."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (GEO sinyali): Antalya, Belek, Side, Kemer gibi destinasyon sorgularında rekabet yoğun olduğu için performans farkı, aynı kalitede içerikler arasında belirleyici olabilir."
+          },
+          { "type": "h3", "text": "CWV SEO’yu gerçekten etkiler mi? " },
+          {
+            "type": "p",
+            "text": "Evet, CWV doğrudan “tek başına sıralama garantisi” değildir; ancak içerik ve otorite benzerken daha iyi deneyim sunan sayfalar avantaj yakalayabilir. Ayrıca CWV iyileştirmesi çoğu zaman daha hızlı gezinme ve daha yüksek dönüşüm getirerek dolaylı SEO sinyallerini de güçlendirir (daha uzun oturum, daha fazla sayfa, daha az terk)."
+          },
+          { "type": "h3", "text": "Otel sitesinde “kök neden” nerede saklanır? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero ve slider görselleri (LCP)",
+              "Sticky header + dinamik banner (CLS)",
+              "Rezervasyon modülü JS yükü (INP)",
+              "GTM/analytics/chat/heatmap script’leri (INP + LCP)",
+              "Font yükleme ve fallback stratejisi (CLS)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Buraya",
+            "items": [
+              "“Otel sayfası üst alanı (hero + rezervasyon kutusu) şema görseli”."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "En çok trafik alan 3 şablonu seç: anasayfa, oda detayı, kampanya/landing.",
+              "Her şablonda “LCP öğesi + CLS kayması + en ağır script” üçlüsünü işaretle.",
+              "İyileştirmeyi “tek sprint = tek hedef” mantığıyla yönet."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lcp-iyilestirme",
+        "title": "LCP İyileştirme Yöntemleri (Otel + Next.js)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "LCP’de amaç: kullanıcı ilk ekranda “asıl içeriği” mümkün olan en kısa sürede görsün. Otel sitelerinde LCP çoğunlukla hero görsel ve üst bloktaki büyük bileşenlerdir. Next.js tarafında doğru stratejiyle LCP’yi iyileştirmek genelde en hızlı kazanım sağlar."
+          },
+          { "type": "h3", "text": "Hero görsel stratejisi: doğru dosya, doğru boyut, doğru öncelik " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görseli “tek büyük dosya” yerine responsive kırılımlara uygun üretin (mobil/desktop).",
+              "Hero için modern format (WebP/AVIF) ve sıkıştırma şart.",
+              "Next.js’te hero görselinde öncelik mantığı (priority) ve doğru sizes yaklaşımı kritik.",
+              "CDN üzerinde cache (immutable) ve doğru TTL ile servis edin."
+            ]
+          },
+          { "type": "h4", "text": "Görsel yükleme yapısı LCP’yi nasıl bozar? " },
+          {
+            "type": "p",
+            "text": "Slider üstüne slider, overlay’li video, üstte büyük JS ile render edilen hero; hepsi LCP’yi geciktirir. Özellikle otel sitelerinde “ilk ekranda 3 farklı görsel + animasyon + rezervasyon kutusu” LCP’yi çökertir."
+          },
+          { "type": "h3", "text": "Render-blocking kaynakları azaltma " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik CSS’i küçült; gereksiz global CSS’i parçala.",
+              "Üçüncü parti script’leri (chat, heatmap, ekstra pixel’ler) “kritik yol”dan çıkar.",
+              "Fontları optimize et (aşağıda CLS bölümünde detay)."
+            ]
+          },
+          { "type": "h3", "text": "CDN + cache + preconnect mantığı " },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde görsel/asset yoğunluğu yüksek olduğu için CDN ve caching LCP’yi dramatik etkiler.\n\t•\tStatik asset’leri CDN’e koy\n\t•\tUzun cache + fingerprint kullan\n\t•\tGerekli origin’lere preconnect (abartmadan)"
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Buraya",
+            "items": [
+              "“Öncesi/Sonrası LCP karşılaştırma tablosu” (sayfa şablonu bazlı)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "LCP öğesini netleştir (çoğu zaman hero).",
+              "Hero görselini yeniden üret: AVIF/WebP + doğru boyutlar.",
+              "Kritik üst alanı sadeleştir: “tek odak, tek mesaj, tek CTA”.",
+              "3. parti script’leri geciktir: önce içerik, sonra ölçüm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cls-cozmek",
+        "title": "CLS Problemlerini Çözmek (Layout Stabilitesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CLS, özellikle otel sitelerinde “kullanıcı güveni” ve “form doldurma” davranışını doğrudan etkiler. CLS’yi düşürmenin temel prensibi: Yüklenmeden önce her şeyin alanını rezerve et. Görsel, font, banner, rezervasyon kutusu… Hepsi."
+          },
+          { "type": "h3", "text": "Sticky header ve dinamik üst bantlar " },
+          {
+            "type": "p",
+            "text": "Sticky header açılıp kapanırken yükseklik değiştiriyorsa veya sonradan promosyon bandı ekleniyorsa CLS artar.\n\t•\tHeader yüksekliğini sabitleyin\n\t•\tPromosyon bandına önceden yer ayırın (boşluk dahil)\n\t•\t“Scroll ile büyüyen header” animasyonlarını ölçülü kullanın"
+          },
+          { "type": "h3", "text": "Rezervasyon kutuları ve dinamik modüller " },
+          {
+            "type": "p",
+            "text": "Takvim, fiyat widget’ı, oda seçimi gibi modüller sonradan DOM’a ekleniyorsa veya yükseklikleri değişiyorsa CLS üretir.\n\t•\tSkeleton kullanın (yükseklik sabit)\n\t•\t“Sonradan içerik ekleme” yerine placeholder alanı baştan koyun\n\t•\tModal/popup’ları layout dışı yönetin (fixed/overlay)"
+          },
+          { "type": "h3", "text": "Font yükleme (CLS’nin gizli faili) " },
+          {
+            "type": "p",
+            "text": "Web font geç yüklenince metin genişliği değişir ve layout zıplar.\n\t•\tfont-display: swap\n\t•\tKritik fontları preload\n\t•\tFallback font metrik uyumunu iyileştir (benzer x-height)"
+          },
+          {
+            "type": "checklist",
+            "title": "☑ Mini Check (CLS) ",
+            "items": [
+              "Görsellerin width/height veya aspect-ratio tanımı var mı?",
+              "Rezervasyon kutusu yükseklik sabit mi?",
+              "Font swap sonrası başlıklar zıplıyor mu?",
+              "Sticky header yüksekliği değişiyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Zıplamanın videosunu al, hangi öğe kaydırıyor tespit et.",
+              "Her dinamik blok için “önceden ayrılmış alan” kuralını uygula.",
+              "Font preload + swap stratejisini düzelt.",
+              "CLS’yi “şablon bazlı” takip et: anasayfa/oda/blog farklı davranır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "inp-performans",
+        "title": "INP ve Etkileşim Performansı (Menü, Takvim, CTA)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "INP, otel sitelerinde “menü açılmıyor”, “takvim geç tepki veriyor”, “CTA tıklandı ama bir şey olmuyor” hissini yaratır. Bu his, özellikle mobilde rezervasyon niyeti yüksek kullanıcıyı kaybettirir. INP’yi iyileştirmek çoğu zaman “daha az JS, daha doğru öncelik” demektir."
+          },
+          { "type": "h3", "text": "Ağır JS bundle ve gereksiz hydration " },
+          {
+            "type": "p",
+            "text": "Modern framework’lerde en sık hata: her şeyi client-side yapmak.\n\t•\tGereksiz state ve büyük UI kütüphanelerini azaltın\n\t•\tKritik etkileşim dışındaki bileşenleri server/partial yapın\n\t•\tTek sayfada 6 farklı slider/animasyon aynı anda çalışmasın"
+          },
+          { "type": "h3", "text": "Üçüncü parti script’ler ve GTM yönetimi " },
+          {
+            "type": "p",
+            "text": "Analytics, remarketing, chat, heatmap… INP’yi öldüren klasikler.\n\t•\tÖnce kritik içerik, sonra tracking\n\t•\tGTM’de gereksiz tag’leri temizle\n\t•\t“Her sayfada her script” yaklaşımını bırak"
+          },
+          { "type": "h3", "text": "Buton/menü etkileşimleri için pratik iyileştirmeler " },
+          {
+            "type": "p",
+            "text": "\t•\tTıklama sonrası hızlı görsel geri bildirim (loading state)\n\t•\tAğır işlemleri main thread’den ayırma (mümkünse)\n\t•\tErişilebilir, basit DOM yapısı"
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Buraya",
+            "items": [
+              "“INP sorununa örnek: mobil menü açılış gecikmesi” mini ekran kaydı / GIF notu."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Mobilde en sık kullanılan 3 etkileşimi seç: menü, takvim, CTA.",
+              "INP’ye en çok katkı yapan script/bundle’ı tespit et.",
+              "Gereksiz client bileşenleri azalt; kritik olmayanları ertele.",
+              "Tag/script yönetimini sadeleştir: ölçüm var ama performans da var."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nextjs-cwv-optimizasyon",
+        "title": "Next.js ve Modern Framework’lerde CWV Optimizasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js, doğru kullanıldığında CWV için güçlü avantajlar sunar; yanlış kullanıldığında da “her şey JS, her şey client” ile performansı hızla bozar. Bu bölümde otel sitelerinde en çok işe yarayan pratik yaklaşımı topluyoruz."
+          },
+          { "type": "h3", "text": "Next.js Image Component ve görsel pipeline " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Doğru sizes ve responsive strateji",
+              "Hero görselinde öncelik (first paint odaklı)",
+              "Lazy-load: içerik altı görsellerde",
+              "CDN: görsel servisinde kritik"
+            ]
+          },
+          { "type": "h3", "text": "Lazy load, prefetch ve CDN ayarları " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Prefetch her zaman iyi değildir; kritik rotaları seçin",
+              "Lazy-load ile “aşırı tembellik” yapmayın (önemli içerik gecikmesin)",
+              "CDN caching kurgusu: statik asset + görsel + font"
+            ]
+          },
+          { "type": "h3", "text": "Otel rezervasyon modüllerinin CWV’ye etkisi " },
+          {
+            "type": "p",
+            "text": "Rezervasyon modülü genelde dış servis, widget veya ağır JS taşır.\n\t•\tWidget’ı kritik yol dışına çıkarın\n\t•\tÖnce “kullanıcı görsün”, sonra “detay yükle” yaklaşımı\n\t•\tModülün açılışını hızlı geri bildirimle yönet"
+          },
+          { "type": "h3", "text": "Otel sitesi için örnek “CWV iyileştirme sırası” " },
+          {
+            "type": "p",
+            "text": "Önce LCP (hero/görsel), sonra CLS (rezervasyon kutusu + font + header), en son INP (script/bundle + etkileşimler). Çünkü LCP ve CLS çoğu otel sitesinde hızlı kazanım sağlar; INP ise genelde daha teknik refactor gerektirir."
+          },
+          {
+            "type": "ctaInline",
+            "variant": "secondary",
+            "label": "CWV İyileştirme Checklist’ini İndir",
+            "desc": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+            "href": "#download"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Next.js’te görsel stratejisini standardize et (hero vs content images).",
+              "Rezervasyon modülünü “kritik yol dışı” kurgula.",
+              "Script/Tag yönetimini sadeleştir; “az ama doğru ölçüm”.",
+              "Şablon bazlı ölçüm + sprint bazlı iyileştirme ritmi kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ozet-uygulama-plani",
+        "title": "Özet ve Uygulama Planı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Core Web Vitals, otel sitelerinde “görsel kalite” ile “performans” arasında doğru denge kurmayı zorunlu kılar. LCP için hero ve üst alanı, CLS için rezervasyon kutusu/header/font stabilitesini, INP için de etkileşimleri ve script yükünü yönetmek gerekir. En iyi sonuç, tek seferde “her şeyi düzeltmek” değil; ölç → teşhis et → önceliklendir → sprint ile uygula döngüsünü kalıcı hale getirmektir.\nBuraya: “Öncesi/Sonrası KPI mini tablosu” (LCP/CLS/INP hedefleri ve mevcut durum)."
+          },
+          {
+            "type": "ctaInline",
+            "variant": "primary",
+            "label": "Core Web Vitals Analizi Talep Et",
+            "desc": "Otel sitenizde en kritik 3 şablon için (anasayfa/oda/landing) ölçüm + kök neden + sprint planı çıkarmak isteyen ekipler için.",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "CWV İyileştirme Checklist’ini İndir — Teknik SEO / Core Web Vitals (v1.0)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu doküman, otel ve Next.js sitelerinde Core Web Vitals iyileştirmesini ölçülebilir ve sprint yönetilebilir hale getirir. LCP/CLS/INP için kök neden analizi yapmanıza, önceliklendirme ile hızlı kazanım çıkarmanıza ve 14 günlük planla uygulamayı tamamlamanıza yardım eder."
+          },
+          { "type": "p", "text": "Kim Kullanır? (1 satır)" },
+          {
+            "type": "p",
+            "text": "Otel web projesinden sorumlu ajans/teknik ekip + satış–pazarlama ortak kullanım dokümanı."
+          },
+          { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "En çok trafik alan 3 şablonu seç (anasayfa/oda/landing) ve ölç.",
+              "Aşağıdaki checklist ile kök nedenleri işaretle, çözüm tablosunu doldur.",
+              "14 günlük sprint planını görev listesi gibi ekip içinde dağıt ve “öncesi/sonrası” KPI’yı raporla."
+            ]
+          },
+          { "type": "h3", "text": "A) Ölçüm & Önceliklendirme Checklist’i [ ]" },
+          { "type": "h4", "text": "Ölçüm (Field + Lab)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PageSpeed Insights + Lighthouse ile lab sonuçlarını aldım",
+              "CrUX / RUM ile field sonuçlarını aldım (varsa)",
+              "En kötü 3 şablonu belirledim (trafik + dönüşüm)",
+              "LCP öğesini tespit ettim (hero/görsel/text blok)",
+              "CLS kaymasına sebep olan öğeyi tespit ettim (header/banner/modül/font)",
+              "INP’yi bozan etkileşimi tespit ettim (menü/takvim/CTA)",
+              "3. parti script listesini çıkardım (GTM dahil)",
+              "Görsel teslim formatlarını kontrol ettim (WebP/AVIF, boyutlar)",
+              "Font stratejisini kontrol ettim (preload, swap, fallback)",
+              "CDN/cache ayarlarını doğruladım (TTL, immutable, compression)"
+            ]
+          },
+          { "type": "h4", "text": "Önceliklendirme" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“En büyük etki” = LCP mi CLS mi? netleştirdim",
+              "Hızlı kazanım (1–3 gün) işleri ayırdım",
+              "Refactor (4–14 gün) işleri ayrı sprint’e koydum"
+            ]
+          },
+          { "type": "h3", "text": "B) Problem → Kök Neden → Çözüm Tablosu" },
+          {
+            "type": "table",
+            "title": "Problem → Kök Neden → Çözüm",
+            "columns": ["Problem", "Kök Neden", "Çözüm", "Etki (LCP/CLS/INP)", "Zorluk"],
+            "rows": [
+              ["LCP yüksek", "Hero görsel büyük / yanlış boyut", "AVIF/WebP + doğru sizes + CDN cache", "LCP", "Orta"],
+              ["CLS yüksek", "Rezervasyon kutusu yükseklik değişiyor", "Skeleton + sabit alan + ölçülü dinamik yük", "CLS", "Orta"],
+              ["INP yüksek", "GTM + 3. parti script + ağır JS", "Script geciktirme + tag temizlik + bundle azaltma", "INP", "Zor"],
+              ["CLS yüksek", "Font swap kaynaklı zıplama", "Preload + font-display swap + uyumlu fallback", "CLS", "Orta"],
+              ["LCP yüksek", "Render-blocking CSS/JS", "Kritik CSS küçültme + erteleme", "LCP", "Orta"]
+            ]
+          },
+          { "type": "h3", "text": "C) 14 Günlük Sprint Planı (Gün 1–14)" },
+          {
+            "type": "table",
+            "title": "14 Günlük Sprint Planı",
+            "columns": ["Gün", "Aksiyon"],
+            "rows": [
+              ["Gün 1", "Ölçüm seti + şablon seçimi + LCP öğesi tespiti"],
+              ["Gün 2", "Hero görsel pipeline planı (format/boyut/CDN)"],
+              ["Gün 3", "Hero optimizasyon uygulama + yeniden ölçüm"],
+              ["Gün 4", "CLS kaynak tespiti (header/banner/modül/font)"],
+              ["Gün 5", "Görsel aspect-ratio + skeleton + sabit alan düzenlemeleri"],
+              ["Gün 6", "Font preload/swap + fallback iyileştirme"],
+              ["Gün 7", "CLS yeniden ölçüm + regression kontrol"],
+              ["Gün 8", "INP sorunlu etkileşim seçimi (menü/takvim/CTA)"],
+              ["Gün 9", "3. parti script envanteri + GTM temizlik listesi"],
+              ["Gün 10", "Script geciktirme / koşullu yükleme uygulama"],
+              ["Gün 11", "Bundle/hydration azaltma (kritik olmayan client bileşenleri)"],
+              ["Gün 12", "INP yeniden ölçüm (mobil öncelik)"],
+              ["Gün 13", "“Öncesi/Sonrası” KPI raporu + notlar"],
+              ["Gün 14", "Kalıcı izleme (RUM/CrUX) + sonraki sprint backlog"]
+            ]
+          },
+          { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
+          {
+            "type": "table",
+            "title": "Öncesi/Sonrası KPI Tablosu",
+            "columns": ["Metrik", "Mevcut", "Hedef", "Sonuç", "Not"],
+            "rows": [
+              ["LCP", "TBD", "< 2.5s", "TBD", "Hero + cache"],
+              ["CLS", "TBD", "< 0.1", "TBD", "Header/modül/font"],
+              ["INP", "TBD", "< 200ms", "TBD", "Script/bundle"]
+            ]
+          },
+          { "type": "h3", "text": "E) Deliverables Listesi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ölçüm raporu (field + lab)",
+              "Şablon bazlı CWV kök neden analizi",
+              "14 günlük sprint görev listesi",
+              "Öncesi/sonrası KPI karşılaştırması",
+              "“Kalıcı izleme” önerisi (RUM/CrUX)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Buraya",
+            "items": [
+              "Asset PDF kapak görseli + 1 sayfa “özet tablo” mockup."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "faq",
+        "title": "FAQ / PAA Bölümü",
+        "blocks": [
+          {
+            "type": "faq",
+            "items": [
+              {
+                "q": "Core Web Vitals nedir?",
+                "a": "Core Web Vitals; LCP, CLS ve INP metrikleriyle sayfanın yükleme hızı, yerleşim stabilitesi ve etkileşim performansını ölçen Google odaklı kullanıcı deneyimi setidir."
+              },
+              {
+                "q": "CWV SEO’yu gerçekten etkiler mi?",
+                "a": "CWV tek başına sıralama garantisi değildir; ancak benzer içerik kalitesinde sayfalar arasında daha iyi deneyim avantaj sağlar. Ayrıca hız iyileştirmeleri dönüşümü artırarak dolaylı SEO sinyallerini güçlendirebilir."
+              },
+              {
+                "q": "Otel sitesi için LCP ve CLS nasıl iyileştirilir?",
+                "a": "LCP için genelde hero görseli optimize edilir (format, boyut, CDN, öncelik). CLS için rezervasyon kutusu, header ve font kaynaklı zıplamalar sabit alan/skeleton ve font stratejisiyle çözülür."
+              },
+              {
+                "q": "Next.js ile Core Web Vitals nasıl optimize edilir?",
+                "a": "Next.js’te görsel optimizasyonu (Image pipeline), caching/CDN, render-blocking kaynakları azaltma, gereksiz client bileşenlerini azaltma ve 3. parti script’leri doğru yükleme sırası CWV’yi iyileştirir."
+              },
+              {
+                "q": "INP neden önemlidir, otel sitesinde nerede bozulur?",
+                "a": "INP, kullanıcı tıklamasına sayfanın ne kadar hızlı tepki verdiğini ölçer. Otel sitelerinde menü, takvim, filtre ve CTA etkileşimleri; ayrıca ağır JS ve 3. parti script’ler INP’yi bozar."
+              },
+              {
+                "q": "PageSpeed skoru yükseldi ama CrUX düzelmedi, neden?",
+                "a": "Lab skorları simülasyondur; CrUX gerçek kullanıcı verisidir. Trafik profili, cihaz dağılımı, ağ koşulları ve bazı sayfa şablonlarının hâlâ sorunlu olması CrUX’un geç toparlanmasına neden olabilir."
+              },
+              {
+                "q": "Rezervasyon modülü CWV’yi nasıl etkiler?",
+                "a": "Rezervasyon widget’ı ağır JS ve geç yüklenen içerik üretirse LCP/CLS/INP’yi etkiler. Doğru yaklaşım, modülü kritik yol dışı kurgulamak ve layout alanını önceden rezerve etmektir."
+              },
+              {
+                "q": "Otel sitesinde CWV iyileştirme sırası nasıl olmalı?",
+                "a": "Genelde en hızlı kazanım: LCP (hero) → CLS (rezervasyon/header/font) → INP (script/bundle/etkileşim). Çünkü LCP/CLS daha hızlı aksiyonlarla düzelirken INP daha teknik iyileştirme gerektirir."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-100-checklist",
+        "title": "SEO 100 Checklist (On-Page + SXO + Media + Teknik)",
+        "blocks": [
+          { "type": "h3", "text": "6.1 On-Page & İçerik" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H1, Title ve meta description primary keyword ile uyumlu",
+              "LCP/CLS/INP tanımları otel + Next.js bağlamında net",
+              "AEO için en az 2 soru-cevap blok (CWV nedir? / Sıra nasıl?)",
+              "Entity Theme (CWV, LCP, CLS, INP, Next.js) doğal ve dengeli dağıtıldı",
+              "Semantic Theme (page experience, performance optimisation) içerikte görünür",
+              "PAA soruları ile FAQ semantik olarak genişletildi",
+              "“Ne yapmalıyım?” aksiyon listeleri her ana bölüm sonunda var"
+            ]
+          },
+          { "type": "h3", "text": "6.2 SXO & UX" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik akışı “ölç → teşhis → öncelik → sprint” mantığında",
+              "Teknik terimler karar vericiye sade anlatıldı",
+              "Kısa checklist’ler ve tablo formatları ile okunabilirlik yüksek",
+              "CTA yerleşimi intent kuralına uygun (Primary 2, Secondary 1)",
+              "Mobil kullanıcı senaryosu (menü/takvim/CTA) özellikle ele alındı"
+            ]
+          },
+          { "type": "h3", "text": "6.3 Media & Snippet" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CWV örnek rapor ekranı için “Buraya” notu var",
+              "Öncesi/sonrası LCP-CLS karşılaştırma tablosu planlandı",
+              "INP etkileşim örneği için kısa ekran kaydı/GIF önerildi",
+              "Featured Snippet hedefli kısa tanım blokları içerikte mevcut"
+            ]
+          },
+          { "type": "h3", "text": "6.4 Teknik SEO" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Canonical/URL yapısı net (blog URL doğru)",
+              "Internal link targets 3 adet ve bağlama uygun",
+              "Schema planı: WebSite, WebPage, Article, BreadcrumbList, FAQPage (+ speakable)",
+              "Görsel ve font optimizasyon notları CLS/LCP ile tutarlı",
+              "Refresh cycle (365 gün) notu içerikte karşılandı (güncellenecek hedefler/ekranlar)"
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Core Web Vitals nedir?",
+        "a": "Core Web Vitals; LCP, CLS ve INP metrikleriyle sayfanın yükleme hızı, yerleşim stabilitesi ve etkileşim performansını ölçen Google odaklı kullanıcı deneyimi setidir."
+      },
+      {
+        "q": "CWV SEO’yu gerçekten etkiler mi?",
+        "a": "CWV tek başına sıralama garantisi değildir; ancak benzer içerik kalitesinde sayfalar arasında daha iyi deneyim avantaj sağlar. Ayrıca hız iyileştirmeleri dönüşümü artırarak dolaylı SEO sinyallerini güçlendirebilir."
+      },
+      {
+        "q": "Otel sitesi için LCP ve CLS nasıl iyileştirilir?",
+        "a": "LCP için genelde hero görseli optimize edilir (format, boyut, CDN, öncelik). CLS için rezervasyon kutusu, header ve font kaynaklı zıplamalar sabit alan/skeleton ve font stratejisiyle çözülür."
+      },
+      {
+        "q": "Next.js ile Core Web Vitals nasıl optimize edilir?",
+        "a": "Next.js’te görsel optimizasyonu (Image pipeline), caching/CDN, render-blocking kaynakları azaltma, gereksiz client bileşenlerini azaltma ve 3. parti script’leri doğru yükleme sırası CWV’yi iyileştirir."
+      },
+      {
+        "q": "INP neden önemlidir, otel sitesinde nerede bozulur?",
+        "a": "INP, kullanıcı tıklamasına sayfanın ne kadar hızlı tepki verdiğini ölçer. Otel sitelerinde menü, takvim, filtre ve CTA etkileşimleri; ayrıca ağır JS ve 3. parti script’ler INP’yi bozar."
+      },
+      {
+        "q": "PageSpeed skoru yükseldi ama CrUX düzelmedi, neden?",
+        "a": "Lab skorları simülasyondur; CrUX gerçek kullanıcı verisidir. Trafik profili, cihaz dağılımı, ağ koşulları ve bazı sayfa şablonlarının hâlâ sorunlu olması CrUX’un geç toparlanmasına neden olabilir."
+      },
+      {
+        "q": "Rezervasyon modülü CWV’yi nasıl etkiler?",
+        "a": "Rezervasyon widget’ı ağır JS ve geç yüklenen içerik üretirse LCP/CLS/INP’yi etkiler. Doğru yaklaşım, modülü kritik yol dışı kurgulamak ve layout alanını önceden rezerve etmektir."
+      },
+      {
+        "q": "Otel sitesinde CWV iyileştirme sırası nasıl olmalı?",
+        "a": "Genelde en hızlı kazanım: LCP (hero) → CLS (rezervasyon/header/font) → INP (script/bundle/etkileşim). Çünkü LCP/CLS daha hızlı aksiyonlarla düzelirken INP daha teknik iyileştirme gerektirir."
+      }
+    ]
+  }
+
+  }
 
   
 
 }
+

@@ -1,12 +1,13 @@
 // Türkçe yorum: department + slug -> tr.json key
 export const BLOG_MAP = {
-  seo: {
-    "seo-teknik-kontrol-listesi": "BlogSeoTeknik",
+  sem: {
+    "google-ads-oteller-icin-nasil-calisir": "BlogGoogleAdsOtellerIcinNasilCalisir",
+    "google-ads-hesap-ve-kampanya-mimarisi":"BlogGoogleAdsHesapVeKampanyaMimarisi",
+    "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri"
   },
-
-  // örnekler:
-  // sem: { "semde-2026-trendleri": "BlogSem2026Trends" },
-  // creative: { "creative-marka-dili-ve-gorsel-sistem": "BlogCreativeBrandSystem" },
+  seo: {
+    "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi"
+  }
 };
 
 
@@ -19,3 +20,4 @@ export const BLOG_INDEX = [
   // diğer bloglar buraya
   // { slug: "semde-2026-trendleri", department: "sem", key: "BlogSem2026" },
 ];
+
