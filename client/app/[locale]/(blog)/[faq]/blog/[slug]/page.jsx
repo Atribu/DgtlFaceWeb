@@ -306,8 +306,8 @@ export default async function BlogDetailPage({ params }) {
               ) : null}
 
               {factSheet.length > 0 ? (
-                <div className="rounded-3xl border border-white/10 bg-black/20 p-5">
-                  <p className="text-sm font-medium text-white">AI Fact Sheet</p>
+                <div className="rounded-3xl border border-white/10 bg-black/20 p-5 text-left">
+                  <p className="text-sm font-medium text-white text-center">Maddeler</p>
                   <ul className="mt-3 space-y-2 text-sm text-white/75">
                     {factSheet.map((x, i) => (
                       <li key={i}>• {x}</li>
@@ -329,7 +329,7 @@ export default async function BlogDetailPage({ params }) {
             {quickSummary.length > 0 ? (
               <div className="mt-4 rounded-3xl border border-white/10 bg-black/20 p-5">
                 <p className="text-sm font-medium text-white">Hızlı Özet</p>
-                <ul className="mt-3 space-y-2 text-sm text-white/75">
+                <ul className="mt-3 space-y-2 text-sm text-white/75 text-left ml-[40%]">
                   {quickSummary.map((x, i) => (
                     <li key={i}>• {x}</li>
                   ))}
@@ -441,13 +441,13 @@ export default async function BlogDetailPage({ params }) {
 
           {/* ASIDE (Sticky) */}
           <aside className="hidden lg:block">
-            <div className="sticky top-24 space-y-3">
+            <div className="sticky top-[74px] space-y-3">
               <BlogToc sections={sections} />
 
               {/* Sticky Mini CTA */}
-              <div className="rounded-3xl border border-white/10 bg-white/5 p-5">
-                <p className="text-sm font-medium text-white">Sticky Mini CTA</p>
-                <p className="mt-2 text-sm text-white/70">
+              <div className="rounded-3xl border border-white/10 bg-white/5 px-3 py-2 4xl:p-5">
+                <p className="text-sm font-medium text-white"></p>
+                <p className="mt-0 text-sm font-medium text-white/90">
                   Hızlıca analiz al veya checklist indir.
                 </p>
 
@@ -480,7 +480,7 @@ export default async function BlogDetailPage({ params }) {
 
               {/* Hızlı Kontrol (TOC altında 3 madde) - quickSummary’dan ilk 3 */}
               {quickSummary.length > 0 ? (
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-5">
+                <div className="rounded-3xl border border-white/10 bg-white/5 px-3 py-2 4xl:p-5">
                   <p className="text-sm font-medium text-white">Hızlı Kontrol</p>
                   <ul className="mt-3 space-y-2 text-sm text-white/75">
                     {quickSummary.slice(0, 3).map((x, i) => (

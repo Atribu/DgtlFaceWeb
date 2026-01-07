@@ -3,7 +3,7 @@ export default function BlogToc({ sections }) {
   if (!sections?.length) return null;
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-3 xl:py-4 xl:px-3">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-3 xl:pt-4 xl:pb-2 xl:px-3">
       <div className="flex items-center justify-between gap-3">
             <span className="h-2 w-14 rounded-full bg-white/20" />
         <p className="text-sm font-medium text-white">İçindekiler</p>

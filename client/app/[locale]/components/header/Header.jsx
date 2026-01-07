@@ -15,12 +15,6 @@ import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
 
-
-
-
-
-
-
 const Header = () => {
   const t = useTranslations("Header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -185,30 +179,14 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     setIsMounted(true);
   }, []);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
-    <header className="w-screen text-white fixed h-[70px] z-[999] top-0 flex items-center justify-center lg:mt-[6px] xl:mt-[10px]">
+    <header className="w-screen text-white fixed h-[66px] z-[999] top-0 flex items-center justify-center lg:mt-[6px] xl:mt-[7px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}
           <Link href="/">
-            <Logo className="w-auto hidden xl:flex" width={185} height={50} />
-            <Logo className="w-auto hidden lg:flex xl:hidden" width={180} height={40} />
+            <Logo className="w-auto hidden xl:flex" width={180} height={40} />
+            <Logo className="w-auto hidden lg:flex xl:hidden" width={170} height={35} />
             <Logo2 className="flex lg:hidden" width={42} height={36} color="#fff" />
           </Link>
 
