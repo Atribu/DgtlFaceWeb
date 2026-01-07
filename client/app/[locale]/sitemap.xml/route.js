@@ -1,7 +1,7 @@
 // app/[locale]/sitemap.xml/route.js
 import { NextResponse } from "next/server";
-import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap"; // <- path'i projene göre düzelt
-import { routing } from "@/i18n/routing"; // <- senin routing.js nerede ise ona göre düzelt
+import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
+import { routing } from "@/i18n/routing"; 
 
 const SITE_URL = "https://www.dgtlface.com";
 
@@ -75,13 +75,18 @@ export async function GET(_req, { params }) {
     p.startsWith("/tr/") ? p : `/tr${p === "/" ? "" : p}`
   );
 
+    const TR_SSS_EXTRA_PATHS = [
+    "/tr/sss",
+    "/tr/hizmetlerimiz-sss",
+  ];
+
   // birleşim + uniq
   const unique = Array.from(
     new Set([
       ...routingTrWithPrefix,
       ...faqSlugTr,
-      // istersen ekstra manuel ekle:
-      // "/tr/sss",
+     ...TR_SSS_EXTRA_PATHS,
+      
     ])
   );
 

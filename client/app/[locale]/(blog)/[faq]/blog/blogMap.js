@@ -7,6 +7,10 @@ export const BLOG_MAP = {
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi"
+  },
+
+  hotel:{
+    "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir"
   }
 };
 

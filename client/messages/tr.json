@@ -24195,6 +24195,9 @@
     {
       "id": "google-ads-temel-kavramlar",
       "title": "Google Ads Temel Kavramlar (Otel Diliyle)",
+       "preBlocks": [
+    { "type": "media", "slot": "account-schema" }
+  ],
       "blocks": [
         {
           "type": "p",
@@ -24217,6 +24220,7 @@
             "Niyet (arama sorgusu), 2) Landing (oda/konsept/destinasyon sayfası), 3) Ölçüm (rezervasyon/lead)."
           ]
         },
+        {"type":"media", "slot":"exploration-reservation"},
         {
           "type": "checklist",
           "title": "Mini Check",
@@ -24269,6 +24273,7 @@
             "Display/Video: “Ben keşfediyorum” momenti"
           ]
         },
+        {"type":"media", "slot":"funnel-diagram"},
         {
           "type": "callout",
           "variant": "action",
@@ -24460,224 +24465,6 @@
           "items": [
             "Dönüşüm tanımlarınızı 1 sayfada dokümante edin (ne, nerede, nasıl sayılıyor?).",
             "Landing performansını (hız, mobil UX, form basitliği) iyileştirmeden bütçe büyütmeyin."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sonuc-baslangic-plani",
-      "title": "Sonuç: Oteller İçin “Başlangıç Planı” (Özet + Yol Haritası)",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Beginner seviyede hedef; “mükemmel hesap” değil, doğru öğrenme başlatmaktır. Siz ölçümü kurup Search ile niyeti yakaladığınızda, Ads paneli artık bir “rezervasyon motoru” gibi çalışmaya başlar. Unutmayın: OTA komisyonları birçok pazarda ciddi maliyet kalemidir; direkt rezervasyon stratejisi bu nedenle kritiktir."
-        },
-        {
-          "type": "ctaInline",
-          "variant": "primary",
-          "label": "Google Ads Başlangıç Analizi Talep Et",
-          "desc": "Hangi kampanya türüyle başlayacağınızı, hedef pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya/Belek/Side/Kemer/Bodrum) kırılımıyla birlikte netleştirelim.",
-          "href": "/tr/sem/google-ads-yonetimi"
-        }
-      ]
-    },
-    {
-      "id": "secondary-cta-asset",
-      "title": "Google Ads Hesap Kurulum Checklist’ini İndir — SEM / Oteller için başlangıç (v1.0)",
-      "blocks": [
-        {
-          "type": "p",
-          "text": "Bu doküman, otellerin Google Ads’e başlarken en sık yaptığı kurulum hatalarını önlemek ve 14 günde “ölçülebilir ilk kampanya”yı ayağa kaldırmak için hazırlanmıştır. Ekip içi görev dağılımı ve ajans–otel iletişimini hızlandırır."
-        },
-        { "type": "p", "text": "Kim Kullanır? (1 satır)" },
-        {
-          "type": "p",
-          "text": "Otel satış–pazarlama ekibi, GM, ajans yöneticisi veya performans uzmanı."
-        },
-        { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
-        {
-          "type": "list",
-          "style": "ol",
-          "items": [
-            "Checklist ile mevcut durumu işaretleyin.",
-            "“Problem → Kök Neden → Çözüm” tablosuyla açıkları netleştirin.",
-            "14 günlük sprint planını uygulayıp KPI’ları “önce/sonra” karşılaştırın."
-          ]
-        },
-        { "type": "h3", "text": "A) Ölçüm & Önceliklendirme Checklist’i" },
-        { "type": "h4", "text": "Hedef & Strateji" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "Tek bir ana hedef seçildi (rezervasyon veya lead)",
-            "Hedef pazar tanımlandı (Türkiye / Almanya / Rusya)",
-            "Destinasyon mesajı net (Antalya / Belek / Side / Kemer / Bodrum)",
-            "1–2 ana landing sayfası belirlendi"
-          ]
-        },
-        { "type": "h4", "text": "Hesap & Yapı" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "Kampanya yapısı planlandı (tema bazlı)",
-            "Reklam grubu sayısı “az ve net” tutuldu",
-            "Negatif kelime listesi taslağı hazırlandı",
-            "Marka kampanyası ile marka dışı kampanya ayrıldı"
-          ]
-        },
-        { "type": "h4", "text": "Ölçüm" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "GA4 temel kurulum kontrol edildi",
-            "Tag Manager tetikleyicileri doğrulandı",
-            "Dönüşümler tanımlandı (rezervasyon / arama / WhatsApp / form)",
-            "Çok dilli sayfalarda ölçüm kırılımı planlandı (TR/EN/DE/RU)"
-          ]
-        },
-        { "type": "h4", "text": "Landing & UX" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "Mobil hız kabul edilebilir (ilk ekran hızlı)",
-            "İlk ekranda konsept + fayda net",
-            "CTA görünür (rezervasyon / teklif / arama)",
-            "Güven unsurları var (yorum/puan, iade/iptal, iletişim)"
-          ]
-        },
-        { "type": "h3", "text": "C) 14 Günlük Sprint Planı (Gün 1–14)" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "Gün 1–2: Hedef (rezervasyon/lead) + pazar + destinasyon mesajı netleştirme",
-            "Gün 3: Landing seçimi ve “ilk ekran” düzeni",
-            "Gün 4: GA4/GTM dönüşüm taslağı (arama/WhatsApp/form/rezervasyon)",
-            "Gün 5: Search kampanya planı (tema + kelime seti + negatif liste)",
-            "Gün 6: Reklam metinleri (3 varyasyon) + uzantılar",
-            "Gün 7: Yayın + ilk kontrol (dönüşüm testleri)",
-            "Gün 8–9: Arama terimleri temizliği + negatif kelime ekleme",
-            "Gün 10: Cihaz/ülke kırılımı kontrolü (TR/DE/RU)",
-            "Gün 11: Landing mikro iyileştirme (başlık/CTA/hız)",
-            "Gün 12: Bütçe–teklif küçük ayar (agresif değil)",
-            "Gün 13: Remarketing planı (Display) taslağı",
-            "Gün 14: İlk rapor + “sonraki 14 gün” backlog"
-          ]
-        },
-        { "type": "h3", "text": "B) Problem → Kök Neden → Çözüm Tablosu" },
-        {
-          "type": "table",
-          "title": "Problem → Kök Neden → Çözüm",
-          "columns": ["Problem", "Kök Neden", "Çözüm"],
-          "rows": [
-  [
-    "Trafik var, rezervasyon yok",
-    "Landing hedefi dağınık / mesaj uyumsuz",
-    "Tek hedefli landing + reklam metni eşlemesi"
-  ],
-  [
-    "Bütçe hızlı bitiyor",
-    "Çok geniş anahtar kelime / yanlış eşleme",
-    "Daraltılmış kelime seti + negatif kelimeler"
-  ],
-  [
-    "Dönüşüm görünmüyor",
-    "Ölçüm eksik / yanlış event",
-    "GA4 + GTM dönüşüm doğrulama, test rezervasyon"
-  ],
-  [
-    "Mobilde performans düşük",
-    "Hız / UX zayıf",
-    "Görsel optimizasyon + kısa form + net CTA"
-  ],
-  [
-    "Almanya / Rusya pazarı zayıf",
-    "Dil / para birimi uyumsuz",
-    "Dil uyumlu landing + mesaj lokalizasyonu"
-  ]
-]
-
-        },
-        { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
-        {
-          "type": "table",
-          "title": "Öncesi/Sonrası KPI Tablosu",
-          "columns": ["KPI", "Önce (Gün 1)", "Sonra (Gün 14)", "Not"],
-          "rows": [
-  ["CTR", "0", "0", "TBD"],
-  ["CVR", "0", "0", "TBD"],
-  ["CPA", "0", "0", "TBD"],
-  ["Dönüşüm", "0", "0", "TBD"],
-  ["ROAS", "0", "0", "TBD"]
-]
-
-        },
-        { "type": "h3", "text": "E) Deliverables Listesi" },
-        {
-          "type": "list",
-          "style": "ul",
-          "items": [
-            "1 kampanya planı (tema + kelime seti)",
-            "3 reklam metni varyasyonu",
-            "Negatif kelime listesi v1",
-            "Dönüşüm ölçüm dokümanı (ne/nasıl sayılıyor)",
-            "14 günlük sprint backlog’u",
-            "İlk rapor şablonu (1 sayfa)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "faq",
-      "title": "FAQ / PAA Bölümü (5–10)",
-      "blocks": [
-        {
-          "type": "faq",
-          "items": [
-            {
-              "q": "Google Ads oteller için nasıl çalışır?",
-              "a": "Arama yapan misafir reklamınızı görür, tıklar, landing’e gelir ve rezervasyon/lead bırakır. Siz dönüşümü ölçerek bütçeyi en verimli sorgulara kaydırırsınız."
-            },
-            {
-              "q": "Otelim için Google Ads’e nereden başlamalıyım?",
-              "a": "Önce tek hedef seçin (rezervasyon ya da lead), ardından Search kampanyasıyla dar bir kelime seti kurun. Ölçüm doğrulanmadan bütçeyi büyütmeyin."
-            },
-            {
-              "q": "İlk kampanyayı kurarken nelere dikkat etmeliyim?",
-              "a": "Dar başlamak, reklam–landing mesajını eşlemek ve negatif kelimelerle alakasız trafiği kesmek en kritik üç adımdır. İlk hafta veri toplayıp ikinci hafta temizlik yapın."
-            },
-            {
-              "q": "Search mı Display mi önce başlamalıyım?",
-              "a": "Beginner seviyede Search daha kontrollüdür. Display’i en iyi “remarketing” olarak, yani siteyi gezip rezervasyon yapmayanlara dönüş için kullanırsınız."
-            },
-            {
-              "q": "Dönüşüm takibi olmadan reklam verebilir miyim?",
-              "a": "Teknik olarak evet ama optimize edemezsiniz. Ölçüm yoksa “hangi tıklama para kazandırdı” sorusunun cevabı olmaz."
-            },
-            {
-              "q": "Almanya ve Rusya pazarına reklam verirken neyi değiştirmeliyim?",
-              "a": "Dil ve teklif mesajı lokal olmalı; mümkünse o dilde landing ve uygun para birimi deneyimi sunulmalı. Aksi halde tıklama gelir, dönüşüm düşer."
-            },
-            {
-              "q": "Otel reklamlarında hangi KPI’lara bakmalıyım?",
-              "a": "İlk 30 günde CTR, CVR ve CPA; ölçüm oturunca ROAS ve gelir kırılımı daha anlamlı hale gelir."
-            },
-            {
-              "q": "Bütçem küçükse Google Ads işe yarar mı?",
-              "a": "Evet; dar anahtar kelime seti ve net landing ile küçük bütçede bile öğrenme başlatabilirsiniz. Hedef “kontrollü büyüme” olmalı."
-            },
-            {
-              "q": "Marka kampanyası şart mı?",
-              "a": "Genelde evet; marka aramalarında görünür olup OTA’lara kaptırmamak için koruma sağlar. Ancak bütçe/stratejiye göre ölçeklenir."
-            },
-            {
-              "q": "Otel web sitesi yavaşsa reklam performansı etkilenir mi?",
-              "a": "Evet. Yavaş ve karışık sayfalar dönüşümü düşürür; reklam maliyeti artarken gelir artmayabilir."
-            }
           ]
         }
       ]
@@ -25986,7 +25773,7 @@
             "type": "p",
             "text": "Core Web Vitals’ı doğru iyileştirmek için önce metriklerin ne ölçtüğünü ve “lab vs field” farkını netleştirmek gerekir. Lighthouse/PageSpeed gibi araçlar size bir laboratuvar simülasyonu verir; CrUX ve RUM ise gerçek kullanıcı verisini gösterir. Otel sitelerinde karar verici hatası genelde şudur: “Skor düşük → her şeyi aynı anda düzelt” yaklaşımı. Doğrusu: en büyük etkiyi veren kök nedeni bulup sırayla çözmektir."
           },
-           { "type": "media", "slot": "hotel-hero-reservation-schema" },
+           { "type": "media", "slot": "cwv-psi-crux-screen" },
           { "type": "h3", "text": "LCP nedir ve otel sitesinde neden düşer? " },
           {
             "type": "p",
@@ -26043,6 +25830,7 @@
             "text": "Evet, CWV doğrudan “tek başına sıralama garantisi” değildir; ancak içerik ve otorite benzerken daha iyi deneyim sunan sayfalar avantaj yakalayabilir. Ayrıca CWV iyileştirmesi çoğu zaman daha hızlı gezinme ve daha yüksek dönüşüm getirerek dolaylı SEO sinyallerini de güçlendirir (daha uzun oturum, daha fazla sayfa, daha az terk)."
           },
           { "type": "h3", "text": "Otel sitesinde “kök neden” nerede saklanır? " },
+         
           {
             "type": "list",
             "style": "ul",
@@ -26054,6 +25842,8 @@
               "Font yükleme ve fallback stratejisi (CLS)"
             ]
           },
+            { "type": "media", "slot": "hotel-hero-reservation-schema" },
+
           {
             "type": "callout",
             "variant": "note",
@@ -26113,6 +25903,8 @@
             "type": "p",
             "text": "Otel sitelerinde görsel/asset yoğunluğu yüksek olduğu için CDN ve caching LCP’yi dramatik etkiler.\n\t•\tStatik asset’leri CDN’e koy\n\t•\tUzun cache + fingerprint kullan\n\t•\tGerekli origin’lere preconnect (abartmadan)"
           },
+        { "type": "media", "slot": "after-comparison-table" },
+
           {
             "type": "callout",
             "variant": "note",
@@ -26156,7 +25948,9 @@
           {
             "type": "p",
             "text": "Web font geç yüklenince metin genişliği değişir ve layout zıplar.\n\t•\tfont-display: swap\n\t•\tKritik fontları preload\n\t•\tFallback font metrik uyumunu iyileştir (benzer x-height)"
+
           },
+           { "type": "media", "slot": "cumulative-order-shift" },
           {
             "type": "checklist",
             "title": "☑ Mini Check (CLS) ",
@@ -26202,7 +25996,9 @@
           {
             "type": "p",
             "text": "\t•\tTıklama sonrası hızlı görsel geri bildirim (loading state)\n\t•\tAğır işlemleri main thread’den ayırma (mümkünse)\n\t•\tErişilebilir, basit DOM yapısı"
+
           },
+          {"type":"media", "slot":"inp-problem"},
           {
             "type": "callout",
             "variant": "note",
@@ -26259,6 +26055,7 @@
             "text": "Rezervasyon modülü genelde dış servis, widget veya ağır JS taşır.\n\t•\tWidget’ı kritik yol dışına çıkarın\n\t•\tÖnce “kullanıcı görsün”, sonra “detay yükle” yaklaşımı\n\t•\tModülün açılışını hızlı geri bildirimle yönet"
           },
           { "type": "h3", "text": "Otel sitesi için örnek “CWV iyileştirme sırası” " },
+          { "type": "media", "slot": "media-optimization" },
           {
             "type": "p",
             "text": "Önce LCP (hero/görsel), sonra CLS (rezervasyon kutusu + font + header), en son INP (script/bundle + etkileşimler). Çünkü LCP ve CLS çoğu otel sitesinde hızlı kazanım sağlar; INP ise genelde daha teknik refactor gerektirir."
@@ -26289,8 +26086,10 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Core Web Vitals, otel sitelerinde “görsel kalite” ile “performans” arasında doğru denge kurmayı zorunlu kılar. LCP için hero ve üst alanı, CLS için rezervasyon kutusu/header/font stabilitesini, INP için de etkileşimleri ve script yükünü yönetmek gerekir. En iyi sonuç, tek seferde “her şeyi düzeltmek” değil; ölç → teşhis et → önceliklendir → sprint ile uygula döngüsünü kalıcı hale getirmektir.\nBuraya: “Öncesi/Sonrası KPI mini tablosu” (LCP/CLS/INP hedefleri ve mevcut durum)."
+            "text": "Core Web Vitals, otel sitelerinde “görsel kalite” ile “performans” arasında doğru denge kurmayı zorunlu kılar. LCP için hero ve üst alanı, CLS için rezervasyon kutusu/header/font stabilitesini, INP için de etkileşimleri ve script yükünü yönetmek gerekir. En iyi sonuç, tek seferde “her şeyi düzeltmek” değil; ölç → teşhis et → önceliklendir → sprint ile uygula döngüsünü kalıcı hale getirmektir.\n"
+
           },
+          {"type":"media", "slot":"cwv-goal"},
           {
             "type": "ctaInline",
             "variant": "primary",
@@ -26386,6 +26185,7 @@
               ["Gün 14", "Kalıcı izleme (RUM/CrUX) + sonraki sprint backlog"]
             ]
           },
+          
           { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
           {
             "type": "table",
@@ -26409,6 +26209,7 @@
               "“Kalıcı izleme” önerisi (RUM/CrUX)"
             ]
           },
+          {"type":"media", "slot":"optimization-layers"},
           {
             "type": "callout",
             "variant": "note",
@@ -26493,6 +26294,7 @@
             ]
           },
           { "type": "h3", "text": "6.3 Media & Snippet" },
+          { "type": "media", "slot": "after-delivery-list" },
           {
             "type": "list",
             "style": "ul",
@@ -26552,6 +26354,437 @@
         "a": "Genelde en hızlı kazanım: LCP (hero) → CLS (rezervasyon/header/font) → INP (script/bundle/etkileşim). Çünkü LCP/CLS daha hızlı aksiyonlarla düzelirken INP daha teknik iyileştirme gerektirir."
       }
     ]
+  },
+
+   "BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir": {
+    "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
+    "slug": "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir",
+    "department": "hotel",
+    "updatedAt": "2026-01-05",
+    "publishedAt": "2026-01-05",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel SEO ile OTA rekabetine rağmen direct booking artırın. Teknik altyapı, çok dilli hreflang ve destinasyon içerikleriyle Google Hotel Pack’te güçlenin. KPI setiyle ölçün ve sürdürülebilir sistem kurun.",
+    "seo": {
+      "metaTitle": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın | DGTLFACE",
+      "metaDescription": "Otel SEO ile OTA rekabetine rağmen direct booking artırın. Teknik SEO, çok dilli hreflang ve destinasyon içerikleriyle Google Hotel Pack’te güçlenin. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa (Hub) / URL: Otel SEO — /tr/otel/seo",
+        "Blog / URL: /tr/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir"
+      ],
+      "strategySummary": "Bu yazı “Otel SEO” silosunun manifesto/101 içeriği olarak çalışır: sonraki Core ve Trend içeriklere çerçeve ve ölçüm dili sağlar. Hedef persona; otel sahibi/GM ve satış–pazarlama ekibidir. Karar ihtiyacı “OTA bağımlılığını azaltıp direct booking’i büyütmek için nereden başlamalıyım?” sorusudur. İçerik, stratejiyi netleştirir; uygulanabilir adımları ve KPI’ları tanımlar; kullanıcıyı hizmet sayfası ve ilgili alt rehberlere iç linklerle taşır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-05",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel SEO, otelinizi yalnızca “otel adı” aramalarında değil; destinasyon, konsept ve deneyim sorgularında da görünür kılarak OTA bağımlılığını azaltmayı hedefleyen turizm odaklı bir SEO modelidir. Başarı; teknik altyapı (indexlenebilirlik + hız), çok dilli yapı (hreflang), destinasyon içerikleri ve güçlü oda/tesis sayfalarının birlikte çalışmasıyla gelir. Doğru kurgu ile organikten gelen talep artar ve direct rezervasyon payı anlamlı şekilde büyür.",
+      "sgeSummary": "Otel SEO; teknik altyapı, çok dilli hreflang, destinasyon içerikleri ve oda/tesis sayfalarıyla OTA’lara rağmen direct booking üretmek için tasarlanmış turizm odaklı özel bir SEO yaklaşımıdır.",
+      "voiceAnswer": "Otel SEO, OTA rekabetine rağmen organikten talep getirip direct rezervasyonu artıran bir sistemdir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "Ana hedef: OTA payını dengelemek, direct booking büyütmek",
+        "KPI odağı: Organik rezervasyon payı, gelir, dönüşüm oranı, marka talebi, Hotel Pack görünürlüğü",
+        "Temel entity’ler: Hotel SEO, OTA, Google Hotel Pack, Direct Booking, Destination SEO",
+        "Funnel: Consideration → Conversion’a hazırlık",
+        "GEO sinyali: Antalya, Belek, Side, Kemer, Bodrum + Avrupa pazarları (DE/RU/UK)",
+        "En kritik kaldıraç: Çok dilli yapı + oda/tesis sayfası kalitesi + destinasyon içerik seti"
+      ]
+    },
+    "h1": {
+      "title": "Otel SEO Nedir? OTA Rekabetine Rağmen Google’da Nasıl Kazanılır?",
+      "intro": "OTA’lar (Booking vb.) oteller için bir “dağıtım kanalı” olabilir; ama SERP’te çoğu zaman sizin markanızın önüne geçen bir rekabet katmanı da yaratır. Otel SEO’nun amacı OTA’yı “bitirmek” değil; Google’da doğru sorgu kümelerinde doğru sayfa türleriyle görünür olup, talebi otel web sitesine taşıyacak sürdürülebilir bir sistem kurmaktır. Bu rehber; teknik altyapıdan çok dilli yapıya, destinasyon içeriklerinden KPI setine kadar otel SEO’yu tek çerçevede toplar.",
+      "quickSummary": [
+        "1) Marka vs destinasyon sorgularını ayır",
+        "2) Sorgu kümesi → sayfa türü eşleştir",
+        "3) Teknik temel + hreflang’ı düzelt",
+        "4) Oda/tesis sayfalarını karar kolaylaştıracak şekilde güçlendir",
+        "5) KPI setiyle gelir + rezervasyon etkisini birlikte oku"
+      ],
+      "ctaPrimary": {
+        "label": "Otel SEO Analizi & Yol Haritası Talep Et",
+        "text": "Otelinizin mevcut görünürlüğünü, OTA payını ve direct booking fırsatlarını netleştirelim (GM & satış–pazarlama için).",
+        "href": "/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel SEO Analizi & Yol Haritası Talep Et",
+        "text": "OTA payınızı dengelemek ve organikten direct rezervasyonu büyütmek için öncelik listesini çıkaralım.",
+        "href": "/otel/seo"
+      },
+      "secondary": {
+        "label": "Otel SEO Kontrol Listesi (PDF) İndir",
+        "text": "Ekibinizin mevcut durumu hızlı tarayıp 14 günlük öncelik planı çıkarmasını sağlar.",
+        "href": "/otel/seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Otel SEO hizmet sayfası", "href": "/otel/seo" },
+      { "label": "Otel dijital pazarlama çatı yaklaşımı", "href": "/otel-dijital-pazarlama" },
+      { "label": "Teknik SEO rehberi", "href": "/seo/teknik-seo" },
+      { "label": "Yerel SEO rehberi", "href": "/seo/yerel-seo" },
+      { "label": "SEO hizmetleri", "href": "/seo-hizmetleri" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO Nedir? Otel Sitelerinde Hız ve Index Temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı",
+        "href": "/seo/yerel-seo"
+      }
+    ],
+    "sections": [
+
+      {
+        "id": "otel-seo-nedir-farki",
+        "title": "Otel SEO nedir ve neden klasik SEO’dan farklıdır?",
+        "blocks": [
+         
+          {
+            "type": "p",
+            "text": "Otel SEO, “genel SEO” kurallarını bilir ama turizmin gerçeklerine uyarlanmış bir yapı kurar: sezonluk talep, çoklu pazarlar, çoklu dil, oda/konsept çeşitliliği, Google Hotel Pack ve metasearch katmanı… Klasik SEO çoğu zaman “ürün sayfası + blog” mantığıyla ilerler; otelde ise “oda sayfası + teklif sayfası + deneyim/destinasyon içerikleri + çok dilli mimari” birlikte çalışmak zorundadır."
+          },
+          { "type": "h3", "text": "Otel SEO’nun OTA ve metasearch’e rağmen nasıl çalıştığı" },
+          {
+            "type": "p",
+            "text": "OTA’lar genellikle “marka araması” (otel adınız) ve “destinasyon + otel” sorgularında güçlüdür. Otel SEO ise iki şeyi hedefler: (1) Marka talebini korumak (resmî site güveni), (2) Marka dışı talebi büyütmek (destinasyon/konsept/deneyim aramalarında görünürlük)."
+          },
+          { "type": "h3", "text": "Marka aramaları vs destinasyon aramaları ayrımı (en kritik ayrım)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka aramaları: “X Hotel”, “X Hotel fiyat”, “X Hotel iletişim”",
+              "Destinasyon aramaları: “Belek aile oteli”, “Side her şey dahil resort”, “Bodrum balayı oteli”, “Antalya denize sıfır otel”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Markada hedef; kullanıcıya “resmî site” güveni verip direct akışı kolaylaştırmaktır. Destinasyonda hedef; talebi ilk kez yakalayıp, oteli doğru konsept vaadiyle konumlandırmaktır."
+          },
+
+           { "type": "media", "slot": "divider-01" }
+        ]
+      },
+
+      {
+        "id": "ota-rekabetinde-konumlanma",
+        "title": "OTA rekabetine rağmen Google’da nasıl konumlanırsınız?",
+        "blocks": [
+          { "type": "media", "slot": "divider-02" },
+          {
+            "type": "p",
+            "text": "OTA rekabeti “sıralama” problemi gibi görünür; ama çoğu otelde aslında bir konumlanma ve sayfa türü problemidir. Google, farklı sorgu tiplerinde farklı SERP bileşenleri gösterir: organik sonuçlar, Hotel Pack, harita, PAA, snippet… Otel SEO burada iki hedefi birleştirir: 1. Hotel Pack ve yerel sinyallerde görünürlük, 2. Organikte niyete uygun “doğru sayfa türleri” ile cevap."
+          },
+          { "type": "h3", "text": "Google Hotel Pack / Travel katmanını doğru okumak" },
+          {
+            "type": "p",
+            "text": "Google Hotel Pack genellikle şu sinyallerle çalışır: işletme bilgilerinin tutarlılığı (adres/telefon/konum), kullanıcı deneyimi ve güven (site hızı, mobil, içerik bütünlüğü), inceleme ve otorite sinyalleri (yorumlar, marka aramaları, referanslar). Kritik nokta: Hotel Pack “SEO’dan ayrı bir evren” değildir; doğru kurgu ile organik + yerel + marka sinyalleri birlikte çalışır."
+          },
+          { "type": "h3", "text": "Oda/tesis sayfalarının SEO rolü (neden çoğu otel burada kaybediyor?)" },
+          {
+            "type": "p",
+            "text": "Oda sayfaları genellikle “3 foto + 5 özellik + fiyat” şeklinde bırakılıyor. Oysa direct booking’i büyüten şey, kullanıcının kararını kolaylaştıran içeriktir: kim için uygun, fark yaratan özellikler, SSS ve iptal/esneklik netliği, yakın çevre/destinasyon bağlamı (ör. Belek’te golf, Side’da antik kent erişimi)."
+          },
+          { "type": "h3", "text": "Fark yaratan çerçeve (Competitor Gap’i kapatma)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "OTA rekabeti (SERP gerçekliği)",
+              "Hotel Pack / Travel katmanı",
+              "Çok dilli yapı (hreflang) ve pazar mantığı (DE/RU/UK)",
+              "Direct booking KPI seti (sadece trafik değil, gelir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "SERP’i sorgu kümelerine ayırın: marka / destinasyon / konsept / oda / teklif.",
+              "Her sorgu kümesi için doğru sayfa türünü belirleyin (oda–tesis–destinasyon–blog).",
+              "Hotel Pack için NAP tutarlılığı + hız + güven sinyallerini güçlendirin.",
+              "Oda sayfalarına kısa SSS blokları ekleyerek PAA alanını hedefleyin."
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "direct-booking-strateji-adimlari",
+        "title": "Direct booking odaklı otel SEO stratejisinin temel adımları",
+        "blocks": [
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "p",
+            "text": "Otel SEO’da “başarı”, sadece daha fazla trafik değildir; doğru trafikten direct rezervasyon üretmektir. Bu da funnel mantığını netleştirmeyi gerektirir: kullanıcı önce destinasyon/konseptte sizi keşfeder, sonra oda/teklif sayfasına iner, sonra rezervasyon akışına geçer."
+          },
+          { "type": "h3", "text": "1) Sorgu kümeleri → sayfa türleri eşlemesi (en hızlı kazanım)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon / deneyim sorguları → Destinasyon/deneyim landing + ilgili blog içerikleri",
+              "Oda / konaklama sorguları → Oda sayfaları (zengin içerik + SSS)",
+              "Teklif / kampanya sorguları → Teklif sayfaları (net koşullar + güven)",
+              "Marka sorguları → Anasayfa/marka sayfası (resmî site sinyali)"
+            ]
+          },
+          { "type": "h3", "text": "2) İç link mimarisi: silo otoritesini dağıtma" },
+          {
+            "type": "p",
+            "text": "Bu içerik “101” olduğundan, iç link hedefleri kritik: otoriteyi hizmet sayfasına ve alt rehberlere taşımak gerekir. Hub → service → blog → oda/teklif mantığıyla akış kurulduğunda, Google da kullanıcı da siteyi daha iyi “anlar”."
+          },
+          { "type": "h3", "text": "3) İçerik seti planı (TR + Avrupa pazarları)" },
+          {
+            "type": "p",
+            "text": "Çok dilli pazarlarda hedef; her dili “kopya çeviri” ile değil, niyet ve pazar beklentisine göre uyarlamaktır. Örnek: TR (Belek aile oteli), DE (Belek Familienhotel), RU (Анталья семейный отель), EN/UK (Antalya family resort)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (90 gün planı)",
+            "items": [
+              "Sorgu kümesi → sayfa türü tablonuzu çıkarın ve eksikleri işaretleyin.",
+              "Önce destinasyon/konsept sayfalarını tamamlayın; blogları oda/teklif sayfalarına iç linkle bağlayın.",
+              "Çok dilli yapıyı (hreflang) teknik olarak doğrulayın; sonra içerik üretin.",
+              "Her dil için en az 1–2 “kazandıran” destinasyon sayfasıyla başlayın."
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "teknik-icerik-yerel-ucgen",
+        "title": "Teknik SEO + içerik + yerel SEO üçgeni",
+        "blocks": [
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "p",
+            "text": "Otel SEO’nun sürdürülebilir olması için üçgenin üç köşesi birlikte çalışmalıdır. Teknik temel zayıfsa içerik boşa gider; içerik yoksa teknik tek başına direct booking getirmez; yerel sinyaller zayıfsa Hotel Pack tarafı eksik kalır."
+          },
+          { "type": "h3", "text": "Canonical, index kontrolü ve sayfa tutarlılığı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sabit canonical ile kopya URL riskini azaltın (özellikle parametre/UTM).",
+              "Indexlenebilirlik kontrollerini netleştirin (robots, sitemap, noindex).",
+              "365 günlük refresh döngüsü ile “yaşlanan” sayfaları tazeleyin."
+            ]
+          },
+          { "type": "h3", "text": "Çok dilli yapı ve hreflang (TR/EN/DE/RU)" },
+          {
+            "type": "p",
+            "text": "Çok dilli otel sitelerinde en sık hata: diller var ama Google’a “bunlar eşdeğer” denmiyor. Hreflang doğru kurulmadığında; DE kullanıcısına TR sayfası, RU kullanıcıya EN sayfası gösterilebilir. Pratik kural: Her dil sayfası karşılıklı hreflang referansı taşır; dil + ülke hedeflemesi stratejiye göre yapılır; dil sayfaları birbirinin kopyası değil pazar beklentisine uyarlanmış olmalıdır."
+          },
+          { "type": "h3", "text": "İçerik + yerel sinyallerin birleştiği nokta" },
+          {
+            "type": "p",
+            "text": "Yerel SEO sadece Google Business Profile değildir; otel sitesinde de yerel bağlam güçlendirilmelidir: ulaşım, çevre deneyimleri, sezon içgörüleri, harita/konum bileşenleri, tutarlı iletişim bilgisi."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (teknik öncelikler)",
+            "items": [
+              "Önce index & canonical sorunlarını temizleyin; sonra içerik üretimini hızlandırın.",
+              "Hreflang’ı doğrulayın (dil sayfaları arası karşılıklılık).",
+              "Yerel sinyalleri içerik stratejisine bağlayın: destinasyon sayfaları + blog + oda sayfaları.",
+              "Schema’ları tek parça @graph mantığıyla planlayın; FAQPage’i gerçek sorularla besleyin."
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "kpi-olcum",
+        "title": "Otel SEO başarısını ölçen KPI’lar (doluluk, RevPAR ve organik rezervasyon birlikte)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel SEO raporlama hatalarının çoğu şuradan gelir: yalnızca “trafik artışı”na bakmak. Oysa otelde kritik olan, SEO’nun gelir ve rezervasyon davranışına etkisidir. KPI seti; marka talebi, Hotel Pack görünürlüğü, direct funnel ve gelir metriklerini birlikte okumalıdır."
+          },
+          { "type": "h3", "text": "Otel SEO KPI seti (pratik ve yönetilebilir)" },
+         {
+  "type": "table",
+  "caption": "Tablo: Otel SEO KPI Seti (örnek çerçeve)",
+  "headers": ["KPI", "Ne ölçer?", "Kaynak", "Not / kullanım"],
+  "rows": [
+    ["Organik oturum (brand / non-brand)", "Talep değişimi", "GA4", "Brand & destinasyon ayrımı şart"],
+    ["Organik direct booking dönüşüm oranı", "Kalite + funnel", "GA4 + booking engine", "Mikro adımlar ayrı izlenmeli"],
+    ["Organik rezervasyon payı", "Kanal dengesi", "PMS/CRS + GA4", "Varsayım bandı: bazı otellerde %10–25 görülebilir"],
+    ["Hotel Pack görünürlüğü / tıklama", "Yerel + SERP payı", "GBP/Looker/3rd party", "Destinasyon sorguları için kritik"],
+    ["Ortalama oda geliri / RevPAR ilişkisi", "Gelir etkisi", "PMS/BI", "SEO tek başına değil; ama trend korelasyonu okunur"],
+    ["Marka arama hacmi trendi", "Marka talebi", "Search Console / Trends", "Kampanya + PR etkisini de yakalar"]
+  ]
+},
+          {
+            "type": "p",
+            "text": "Key data point (yumuşatılmış kullanım): İyi kurgulanmış bir otel SEO yapısında, bazı tesislerde organik kanalın direct booking tarafında toplam online rezervasyon içindeki payının %10–25 bandına doğru çıkabildiği görülebilir (tesis, pazar, sezon ve ürün-fiyat stratejisine bağlıdır)."
+          },
+          { "type": "h3", "text": "KPI okuma hataları (en sık 3 hata)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Brand / non-brand ayrımı yapmamak (gerçek büyümeyi göremezsiniz)",
+              "“Trafik arttı” deyip dönüşüm adımlarını ölçmemek",
+              "SEO raporunu RevPAR/dolulukla aynı pano üzerinde okumamak"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (raporlama ritmi)",
+            "items": [
+              "KPI setinizi 10–12 metrikte sabitleyin; haftalık/aylık ritim belirleyin.",
+              "Brand/non-brand ve pazar (DE/RU/UK/TR) kırılımlarını rapora ekleyin.",
+              "Hotel Pack + organik + direct funnel metriklerini tek panoda birleştirin.",
+              "365 günlük refresh döngüsüyle içerikleri düzenli tazeleyin."
+            ]
+          }
+        ]
+      },
+
+{
+  "id": "otel-seo-checklist-pdf",
+  "title": "Otel SEO Kontrol Listesi (PDF) İndir — Otel SEO ",
+  "blocks": [
+    {
+      "type": "download_asset",
+  "assetType": "pdf",
+  "version": "v1.0",
+  "title": "Otel SEO Kontrol Listesi (PDF) İndir — Otel SEO (v1.0)",
+  "purpose": "Bu asset, OTA rekabeti altında kalan otellerin mevcut SEO durumunu hızlıca taraması, en kritik darboğazları (teknik, içerik, yerel, çok dilli) işaretlemesi ve 14 gün içinde uygulanabilir bir öncelik planı çıkarması için tasarlanmıştır. Sonuç, “ne yapacağımızı biliyoruz” noktasına gelmenizi sağlar.",
+  "whoFor": "GM/otel sahibi, satış-pazarlama yöneticisi ve ajans/SEO sorumlusu.",
+  "steps": [
+    "Checklist’i 30–45 dakikada doldurun (kırmızı/sarı/yeşil işaretleyin).",
+    "“Problem → Kök Neden → Çözüm” tablosunda ilk 10 aksiyonu seçin.",
+    "14 günlük sprint planını uygulayın ve KPI kartıyla önce/sonra farkını ölçün."
+  ],
+  "checklist": [
+    "Brand vs non-brand organik trafik ayrımı raporda var",
+    "Hotel Pack metrikleri ölçülüyor",
+    "Oda sayfalarında SSS + karar kolaylaştıran içerik var",
+    "Destinasyon içerik seti (Antalya/Belek/Side/Kemer/Bodrum) planlı",
+    "TR/EN/DE/RU hreflang karşılıklı ve hatasız",
+    "Canonical/index sorunları temiz",
+    "İç link hedefleri (hub → service → blog) çalışıyor",
+    "Direct booking funnel mikro dönüşümleri izleniyor"
+  ],
+  "href": "/downloads/otel-seo-kontrol-listesi-v1.0.pdf",
+  "buttonLabel": "PDF’i İndir"
+    }
+  ]
+},
+
+      {
+        "id": "sonuc",
+        "title": "Sonuç: OTA’ya rağmen kazanmanın yolu “tek hamle” değil, sistemdir",
+        "blocks": [
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "p",
+            "text": "Otel SEO, tek bir “SEO çalışması” değil; teknik temel + içerik seti + yerel sinyal + KPI okuma sistemidir. OTA’lar güçlü kalabilir; fakat siz doğru sorgu kümelerinde doğru sayfa türleriyle görünür olup, direct booking akışını hızlandırabilirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Bu yazı silonun temel taşıdır; devam içeriklerinde oda sayfası optimizasyonu, destinasyon sayfaları, hreflang, Hotel Pack stratejisi ve ölçüm panoları derinleştirilecektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel SEO Analizi & Yol Haritası Talep Et",
+            "text": "OTA payınızı dengelemek ve organikten direct rezervasyonu büyütmek için (GM & satış–pazarlama için).",
+            "href": "/otel/seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel SEO Kontrol Listesi (PDF) İndir",
+            "text": "Ekibinizin 30–45 dakikada hızlı tarama yapıp 14 günlük sprint önceliği çıkarmasını sağlar.",
+            "href": "/otel/seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel SEO nedir, klasik SEO’dan farkı nedir?",
+        "a": "Otel SEO, turizmin çok dilli ve sezonluk talebine uyarlanmış, destinasyon/konsept aramalarından direct booking üretmeyi hedefleyen özel bir SEO modelidir. Klasik SEO’ya göre oda/tesis sayfaları, Hotel Pack ve hreflang daha kritik rol oynar."
+      },
+      {
+        "q": "OTA’lara rağmen otelim Google’da nasıl üst sıralara çıkar?",
+        "a": "Markalı ve destinasyon sorgularını ayırın. Her sorgu kümesine doğru sayfa türüyle cevap verin. Teknik temel + güçlü oda sayfaları + destinasyon içerikleri ve yerel sinyaller birlikte güçlenince SERP payı artar."
+      },
+      {
+        "q": "Direct booking için SEO’ya nereden başlamalıyım?",
+        "a": "Önce ölçüm ve KPI setini kurun. Sonra canonical/index ve hreflang gibi temel teknik hataları temizleyin. Ardından oda sayfalarını karar kolaylaştıran içerikle güçlendirip destinasyon/konsept içerik setini planlayın."
+      },
+      {
+        "q": "Otel SEO’da hangi KPI’lara bakmalıyım?",
+        "a": "Brand/non-brand organik talep, Hotel Pack görünürlüğü, direct booking dönüşüm oranı ve organik rezervasyon payı birlikte izlenmelidir. Trafiğin yanında rezervasyon ve gelir etkisini rapora dahil edin."
+      },
+      {
+        "q": "Google Hotel Pack ile SEO ilişkili mi?",
+        "a": "Evet. Hotel Pack görünürlüğü yerel sinyaller, marka güveni ve web deneyimiyle ilişkilidir. Site hızı, içerik tutarlılığı ve yerel bağlam güçlendikçe Hotel Pack performansı da iyileşebilir."
+      },
+      {
+        "q": "Çok dilli otel sitelerinde hreflang neden bu kadar önemli?",
+        "a": "Hreflang, Google’a hangi dil sayfasının hangi kullanıcıya gösterileceğini net söyler. Hatalı kurulum yanlış dilde sayfa gösterimine ve organik kayba yol açar."
+      },
+      {
+        "q": "Destinasyon içerikleri gerçekten rezervasyon getirir mi?",
+        "a": "Doğru niyetle kurgulanır ve oda/teklif sayfalarına güçlü iç linklerle bağlanırsa, destinasyon içerikleri keşif talebini yakalar ve funnel’ı besler. Başarı, içerik setinin sistemli olmasına bağlıdır."
+      },
+      {
+        "q": "Otel SEO ne kadar sürede sonuç verir?",
+        "a": "Teknik ve içerik olgunluğuna göre değişir. Kısa vadede (4–8 hafta) ölçüm ve sayfa iyileştirmeleriyle trend görülebilir; orta vadede (3–6 ay) destinasyon seti ve otorite artışıyla daha net sonuçlar alınır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-seo-nedir-ota...-hero-01.webp",
+          "h1-context — 1920×1080 — otel-seo...-h1-context-02.webp",
+          "divider-01 — 1600×1200 — ...-divider-03.webp",
+          "divider-02 — 1600×1200 — ...-divider-04.webp",
+          "diagram-05 — 1920×1080 — ...-diagram-05.webp",
+          "checklist-06 — 1200×1200 — ...-checklist-06.webp",
+          "kpi-table-07 — 1200×1200 — ...-kpi-07.webp",
+          "proof-08 — 1200×1200 — ...-proof-08.webp",
+          "table-kpi-set — (tablo görseli)",
+          "table-problem-root-solution — (tablo görseli)",
+          "table-before-after-kpi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (parametreli sayfalar dahil)",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "TR/EN/DE/RU hreflang karşılıklılık kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
   }
 
   }
