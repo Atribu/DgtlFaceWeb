@@ -152,7 +152,7 @@ switch (block.type) {
             <ul className="mt-3 space-y-2 text-sm text-white/70">
               {block.checklist.map((x, i) => (
                 <li key={i} className="flex gap-2">
-                  <span className="text-white/40">▢</span>
+                  <span className="text-white/40">▢ ✅ </span>
                   <span className="whitespace-pre-line">{x}</span>
                 </li>
               ))}
@@ -176,7 +176,7 @@ switch (block.type) {
         </a>
 
         <span className="text-xs text-white/50">
-          Ücretsiz • PDF
+          Ücretsiz • PDF / Excel
         </span>
       </div>
     </section>

@@ -115,15 +115,15 @@ export const BLOG_MEDIA_MAP = {
       caption: "Google Ads Otel Kurulum Checklist"
     },
 
-                "": {
+                "sprint-plan": {
       src: "/images/blog/sem/SEM1-1/SEM1-1-9.jpeg",
-      alt: "Core Web Vitals rehberi banner",
+      alt: "14 günlük Google Ads Sprint Planı",
       caption: ""
     },
 
-                "": {
+                "deliverables": {
       src: "/images/blog/sem/SEM1-1/SEM1-1-10.jpeg",
-      alt: "Core Web Vitals rehberi banner",
+      alt: "Paket içeriği (deliverables)",
       caption: ""
     },
 
@@ -131,6 +131,328 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+    "google-ads-hesap-ve-kampanya-mimarisi": {
+      banner: {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-1.jpeg",
+      alt: "Google Ads hesap ve kampanya mimarisi",
+      caption: "Google Ads hesap ve kampanya mimarisi"
+    },
+
+        "account-campaigns": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-2.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+            "two-hotel": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-3.jpeg",
+      alt: " “Tek hesapta 2 otel” örnek mimari diyagramı (otel A / otel B blokları)",
+      caption: "“Tek hesapta 2 otel” örnek mimari diyagramı (otel A / otel B blokları)"
+    },
+
+            "": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-4.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+            "brand-generic": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-5.jpeg",
+      alt: "Brand vs Generic Kampanya Yapısı",
+      caption: ""
+    },
+
+                "country-lang": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-6.jpeg",
+      alt: "Ülke/Dil Kırılımlı Kampanya Mimarisi",
+      caption: "Ülke/Dil Kırılımlı Kampanya Mimarisi"
+    },
+
+    "": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-9.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "": {
+      src: "/images/blog/sem/SEM1-2/SEM1-2-10.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+  
+  },
+
+
+  "google-ads-butce-ve-teklif-stratejileri": {
+      banner: {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-1.jpeg",
+      alt: "Google Ads hesap ve kampanya mimarisi",
+      caption: "Google Ads hesap ve kampanya mimarisi"
+    },
+
+        "budget-planning": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-2.jpeg",
+      alt: "Bütçe Planlama Tablosu",
+      caption: "Bütçe Planlama Tablosu"
+    },
+
+            "layer-diagram": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-3.jpeg",
+      alt: "Brand vs Generic vs Opsiyonel katman diyagramı ",
+      caption: "Brand vs Generic vs Opsiyonel katman diyagramı "
+    },
+
+            "budget-shifting": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-4.jpeg",
+      alt: "Sezonluk Bütçe Kaydırma Stratejisi",
+      caption: "Sezonluk Bütçe Kaydırma Stratejisi"
+    },
+
+            "bidding-table": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-5.jpeg",
+      alt: "Manuel Teklif Verme vs Akıllı Teklif Verme",
+      caption: "Manuel Teklif Verme vs Akıllı Teklif Verme"
+    },
+
+                "decision-tree": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-6.jpeg",
+      alt: "Otel Karar Ağacı",
+      caption: ""
+    },
+
+    "transition-plan": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-7.jpeg",
+      alt: "Bid Geçiş Planı",
+      caption: "Bid Geçiş Planı"
+    },
+
+                "download-image": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "doc-example": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-9.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "doc-example2": {
+      src: "/images/blog/sem/SEM1-3/SEM1-3-10.jpeg",
+      alt: "",
+      caption: ""
+    },
+  },
+
+   "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": {
+      banner: {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-1.jpeg",
+      alt: "Google Ads hesap ve kampanya mimarisi",
+      caption: "Google Ads hesap ve kampanya mimarisi"
+    },
+
+        "content-pillar": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-2.jpeg",
+      alt: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+      caption: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+    },
+
+            "persona-cards": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-3.jpeg",
+      alt: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi) ",
+      caption: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi)"
+    },
+
+            "format-distribution": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-4.jpeg",
+      alt: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)",
+      caption: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)"
+    },
+
+            "pillar-table": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-5.jpeg",
+      alt: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)",
+      caption: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)"
+    },
+
+                "30-days": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-6.jpeg",
+      alt: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)",
+      caption: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)"
+    },
+
+    "transition-plan": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-7.jpeg",
+      alt: "Bid Geçiş Planı",
+      caption: "Bid Geçiş Planı"
+    },
+
+                "download-image": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "format-distribution-diagram": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-9.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "4key-benefits": {
+      src: "/images/blog/smm/SMM1-1/SMM1-1-10.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+  },
+
+     "oteliniz-icin-dogru-pms-nasil-secilir": {
+      banner: {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-1.jpeg",
+      alt: "Google Ads hesap ve kampanya mimarisi",
+      caption: "Google Ads hesap ve kampanya mimarisi"
+    },
+
+        "content-pillar": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-2.jpeg",
+      alt: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+      caption: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+    },
+
+            "persona-cards": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-3.jpeg",
+      alt: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi) ",
+      caption: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi)"
+    },
+
+            "format-distribution": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-4.jpeg",
+      alt: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)",
+      caption: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)"
+    },
+
+            "pillar-table": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-5.jpeg",
+      alt: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)",
+      caption: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)"
+    },
+
+                "30-days": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-6.jpeg",
+      alt: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)",
+      caption: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)"
+    },
+
+    "transition-plan": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-7.jpeg",
+      alt: "Bid Geçiş Planı",
+      caption: "Bid Geçiş Planı"
+    },
+
+                "download-image": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "format-distribution-diagram": {
+      src: "/images/blog/smm/PMS-OTA1-1/Pms1-1-9.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+                "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-10.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+
+                    "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-11.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+                    "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-12.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+                    "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-13.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+                    "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-14.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+                    "4key-benefits": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-15.jpeg",
+      alt: "Content Pillars'ın 4 temel faydası",
+      caption: "Content Pillars'ın 4 temel faydası"
+    },
+  },
+
+     "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": {
+      banner: {
+      src: "/images/blog/software/Software1-1/Software1-1-1.jpeg",
+      alt: "Google Ads hesap ve kampanya mimarisi",
+      caption: "Google Ads hesap ve kampanya mimarisi"
+    },
+
+        "golive-diagram": {
+      src: "/images/blog/software/Software1-1/Software1-1-2.jpeg",
+      alt: "“Go-Live Öncesi 40 Madde Checklist” kısa tablo görseli",
+      caption: "“Go-Live Öncesi 40 Madde Checklist” kısa tablo görseli"
+    },
+
+            "redirect-map": {
+      src: "/images/blog/software/Software1-1/Software1-1-3.jpeg",
+      alt: "Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not) ",
+      caption: "Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not)"
+    },
+
+            "lang-hreflang": {
+      src: "/images/blog/software/Software1-1/Software1-1-4.jpeg",
+      alt: " Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)",
+      caption: " Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)"
+    },
+
+            "security-cards": {
+      src: "/images/blog/software/Software1-1/Software1-1-5.jpeg",
+      alt: "Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)",
+      caption: "Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)"
+    },
+
+                "download-image": {
+      src: "/images/blog/software/Software1-1/Software1-1-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+    "go-live-package": {
+      src: "/images/blog/software/Software1-1/Software1-1-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+              
+  },
 
 
       "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir": {

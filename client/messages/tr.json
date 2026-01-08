@@ -24356,6 +24356,7 @@
             "Landing sayfalar: destinasyon + konsept + oda odaklı"
           ]
         },
+        {"type":"media", "slot":"setup-checklist"},
         { "type": "h3", "text": "Turizm odaklı temel terimler (kısa sözlük)" },
         {
           "type": "list",
@@ -24430,6 +24431,37 @@
       ]
     },
     {
+  "id": "google-ads-download",
+  "title": "Google Ads Hesap Kurulum Checklist’ini İndir — SEM / Google Ads (v1.0)",
+  "blocks": [
+    {
+      "type": "download_asset",
+      "assetType": "pdf",
+      "version": "v1.0",
+      "title": "Google Ads Hesap Kurulum Checklist’ini İndir — SEM / Google Ads (v1.0)",
+      "purpose": "Bu PDF, oteller için Google Ads’i “rezervasyon üreten ölçülebilir sistem” şeklinde kurmanız için tasarlandı. Hesap yapısı (brand/non-brand), pazar kırılımları (TR/DE/RU), dönüşüm takibi (GA4/GTM/booking engine) ve 14 günlük başlangıç sprint planını tek dokümanda toplar.",
+      "whoFor": "GM/otel sahibi, satış–pazarlama yöneticisi ve ajans/performans uzmanı.",
+      "steps": [
+        "Hedefi seç (rezervasyon mı lead mi?) ve pazar/dil kırılımlarını belirle (TR/DE/RU).",
+        "Hesap yapısını kur (kampanya → reklam grubu → ilan), naming standardını oturt.",
+        "Dönüşümleri ölç (GA4/GTM + arama/WhatsApp/form/booking) ve 14 günlük sprint planıyla uygula."
+      ],
+      "checklist": [
+        "Brand vs non-brand ayrımı yapıldı",
+        "TR/DE/RU pazar dil/konum hedefleme planlandı",
+        "GA4 + GTM kurulu ve dönüşümler tanımlı (arama/WhatsApp/form/booking)",
+        "Landing sayfaları (destinasyon/konsept/oda) tek hedefe hizmet ediyor",
+        "Negatif kelime listesi hazır (iş ilanı/bedava/staj vb.)",
+        "Remarketing yalnızca ölçüm oturduktan sonra devreye alınacak",
+        "Bütçe ve teklif stratejisi “öğrenme” sürecine uygun"
+      ],
+      "href": "/downloads/google-ads-hesap-kurulum-checklist-v1.0.pdf",
+      "buttonLabel": "PDF’i İndir"
+    },
+    {"type":"media", "slot":"sprint-plan"}
+  ]
+},
+    {
       "id": "olcumleme-temelleri",
       "title": "Ölçümleme Temelleri (Optimizasyonun Yakıtı)",
       "blocks": [
@@ -24468,7 +24500,26 @@
           ]
         }
       ]
-    }
+    },
+
+    {
+          "id": "sonuc-baslangic-plani",
+          "title": "Sonuç: Oteller İçin “Başlangıç Planı” (Özet + Yol Haritası)",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Beginner seviyede hedef; “mükemmel hesap” değil, doğru öğrenme başlatmaktır. Siz ölçümü kurup Search ile niyeti yakaladığınızda, Ads paneli artık bir “rezervasyon motoru” gibi çalışmaya başlar. Unutmayın: OTA komisyonları birçok pazarda ciddi maliyet kalemidir; direkt rezervasyon stratejisi bu nedenle kritiktir."
+            },
+            {"type":"media", "slot":"initial-plan"},
+            {
+              "type": "ctaInline",
+              "variant": "primary",
+              "label": "Google Ads Başlangıç Analizi Talep Et",
+              "desc": "Hangi kampanya türüyle başlayacağınızı, hedef pazar (Türkiye/Almanya/Rusya) ve destinasyon (Antalya/Belek/Side/Kemer/Bodrum) kırılımıyla birlikte netleştirelim.",
+              "href": "/tr/sem/google-ads-yonetimi"
+            }
+          ]
+        }
   ],
   "faq": [
     {
@@ -24572,6 +24623,9 @@
         {
           "id": "campaign-structure-mantigi",
           "title": "Campaign Structure Mantığı (Neden Mimari = Performans?)",
+                 "preBlocks": [
+    { "type": "media", "slot": "account-campaigns" }
+  ],
           "blocks": [
             {
               "type": "p",
@@ -24654,6 +24708,7 @@
               "type": "p",
               "text": "Pratikte, oteller birbirinden çok farklıysa (Belek resort vs Bodrum butik) “otel bazlı” ayrım daha temiz olur."
             },
+            {"type":"media", "slot":"two-hotel"},
             {
               "type": "h4",
               "text": "Ne yapmalıyım? (SXO)"
@@ -24742,8 +24797,43 @@
             },
             {
               "type": "p",
-              "text": "Net cevap (2–3 cümle): Brand ve generic ayrı değilse, bütçe ve rapor “karışır”: brand, düşük maliyetle yüksek dönüşüm getirirken generic daha pahalı ama ölçeklidir. Ayrım; bütçeyi korumanızı, performansı doğru okumanızı ve optimizasyonu hedefe göre yapmanızı sağlar. Ayrıca marka bütçesi kısıldığında generic kampanyalar marka sorgularını yakalayabilir ve rapor yanıltır."
+              "text": "Brand ve generic ayrı değilse, bütçe ve rapor “karışır”: brand, düşük maliyetle yüksek dönüşüm getirirken generic daha pahalı ama ölçeklidir. Ayrım; bütçeyi korumanızı, performansı doğru okumanızı ve optimizasyonu hedefe göre yapmanızı sağlar. Ayrıca marka bütçesi kısıldığında generic kampanyalar marka sorgularını yakalayabilir ve rapor yanıltır."
             },
+             {"type":"media", "slot":"brand-generic"},
+             {
+              "type": "p",
+              "text": "Brand kampanyası (kampanya):"
+            },
+             {
+              "type": "p",
+              "text": "Ad groups: “otel adı + varyasyon”, “otel adı + fiyat”, “otel adı + rezervasyon”"
+            },
+             {
+              "type": "p",
+              "text": "Generic kampanya (kampanya):"
+            },
+             {
+              "type": "p",
+              "text": "Ad groups: “belek resort”, “antalya her şey dahil”, “side aile oteli”, “kemer denize sıfır”"
+            },
+             {
+              "type": "p",
+              "text": "Not: Generic içinde ayrıca “oda tipi” ad group’ları açılabilir (suite, family)."
+            },
+
+               {
+              "type": "p",
+              "text": "Key Statistics / Data Point (satır + gerçekçi çerçeve):"
+            },
+
+             {
+              "type": "ul",
+              "items": [
+                "Brand aramalar genelde daha yüksek dönüşüm oranına eğilimlidir; generic ise daha yüksek hacim ama daha düşük dönüşüm potansiyeli taşıyabilir.  ",
+                "Varsayım (satırdaki benchmark’ı güvenli ifade): Bazı otellerde brand kampanyaları çok yüksek CVR’lere (ör. %40+ gibi) çıkabilir; bu, marka bilinirliği + landing kalitesi + pazar koşullarına bağlıdır."
+              ]
+            },
+             
             {
               "type": "h3",
               "text": "Ne yapmalıyım? (SXO)"
@@ -24789,6 +24879,7 @@
                 "Bodrum: “butik + manzara + premium” temaları"
               ]
             },
+            {"type":"media","slot":"country-lang"},
             {
               "type": "h4",
               "text": "Ne yapmalıyım? (SXO)"
@@ -24872,9 +24963,40 @@
             }
           ]
         },
+
+        {
+  "id": "google-ads-architecture-download",
+  "title": "Örnek Kampanya Yapısı Şablonunu İndir — SEM / Otel Google Ads Mimari Şablonu (v1.0)",
+  "blocks": [
+    {
+      "type": "download_asset",
+      "assetType": "pdf",
+      "version": "v1.0",
+      "title": "Örnek Kampanya Yapısı Şablonunu İndir — SEM / Otel Google Ads Mimari Şablonu (v1.0)",
+      "purpose": "Bu şablon, otel Google Ads hesabını kurarken brand/generic, ülke/dil, GEO, cihaz ve segment kırılımlarını tek sayfada planlamanızı sağlar. Ajans–otel arasında “kim neyi kuruyor?” karmaşasını azaltır ve ölçeklenebilir naming convention üretir.",
+      "whoFor": "Ajans yöneticisi, performans uzmanı, otel satış–pazarlama yöneticisi.",
+      "steps": [
+        "Boş alanları otelinize göre doldurun (pazar, dil, destinasyon, segment).",
+        "Örnek yapıyla karşılaştırıp eksik kırılımları tamamlayın.",
+        "Kurulum sonrası kontrol listesiyle canlıya çıkmadan doğrulayın."
+      ],
+      "checklist": [
+        "Brand ve generic kampanyalar ayrıldı",
+        "Ülke/dil kırılımları kampanya seviyesinde net",
+        "Ad group temaları “niyet kümeleri” ile kuruldu",
+        "Her ad group tek ana landing’e bağlı",
+        "Ölçüm event’leri test edildi",
+        "Naming convention yazılı hale getirildi",
+        "Raporlamada brand/generic ayrı görülebiliyor"
+      ],
+      "href": "/downloads/otel-google-ads-mimari-sablon-v1.0.pdf",
+      "buttonLabel": "PDF’i İndir"
+    }
+  ]
+},
         {
           "id": "sonuc-altin-mimari",
-          "title": "Sonuç: Oteller İçin Örnek “Altın Mimari” (1 sayfada)",
+          "title": "Sonuç: Oteller İçin Örnek “Altın Mimari” ",
           "blocks": [
             {
               "type": "p",
@@ -25173,6 +25295,8 @@
       {
         "id": "google-ads-butcesi-nasil-belirlenir",
         "title": "Google Ads bütçesi nasıl belirlenir? (AEO)",
+        "preBlocks": [
+          {"type":"media", "slot":"budget-planning"}],
         "blocks": [
           {
             "type": "p",
@@ -25232,6 +25356,7 @@
             "type": "p",
             "text": "Bu katman, ölçüm ve landing oturduğunda “ekstra büyüme” sağlar. Aksi halde, kısıtlı bütçede brand/generic’i zayıflatabilir."
           },
+          {"type":"media", "slot":"layer-diagram"},
           {
             "type": "mediaNote",
             "text": " Brand vs Generic vs Opsiyonel katman diyagramı (pasta veya katmanlı bar)."
@@ -25316,10 +25441,7 @@
               "Hedefin net: ya daha çok dönüşüm ya daha yüksek dönüşüm değeri"
             ]
           },
-          {
-            "type": "mediaNote",
-            "text": "Buraya: Mini karşılaştırma tablosu (Manual CPC vs Max Conversions vs Target CPA vs Target ROAS) — kısaca “ne zaman?”"
-          },
+          {"type":"media","slot":"bidding-table"},
           {
             "type": "callout",
             "variant": "action",
@@ -25366,6 +25488,7 @@
             "type": "p",
             "text": "Google, dönüşüm verisi ve dönüşüm döngüsü oluştuktan sonra strateji değişimini önerir; yeni bir bid stratejisini devreye alınca algoritmanın uyum sağlaması için birkaç dönüşüm döngüsü beklemek gerekir. Bu yüzden “daha ilk haftada” Target ROAS/CPA’yı çok sıkı koymak, öğrenmeyi boğabilir."
           },
+           {"type":"media","slot":"decision-tree"},
           {
             "type": "callout",
             "variant": "action",
@@ -25405,6 +25528,7 @@
               "Opsiyonel: “farkındalık” değil, daha çok “yeniden yakalama” odaklı"
             ]
           },
+          {"type":"media","slot":"budget-shifting"},
           {
             "type": "callout",
             "variant": "note",
@@ -25440,6 +25564,7 @@
               "Test: 14 günlük küçük testler, büyük reset’ler değil"
             ]
           },
+          {"type":"media","slot":"transition-plan"},
           { "type": "h3", "text": "Olgun hesap (düzenli dönüşüm geliyorsa)" },
           {
             "type": "list",
@@ -25468,6 +25593,41 @@
           }
         ]
       },
+
+   {
+  "id": "google-ads-budget-bid-audit-download",
+  "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
+  "blocks": [
+    {
+      "type": "download_asset",
+      "assetType": "excel",
+      "version": "v1.0",
+      "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
+      "purpose": "Bu audit sheet; otelinizin Google Ads bütçesini aylık hedef → günlük ortalama (30,4) modeline çevirir, brand/generic/opsiyonel katmanlara dağıtır ve bid stratejisi seçimini “veri olgunluğu”na göre skorlar. Sonuç olarak “ne kadar harcayacağım ve hangi bid ile başlayacağım?” sorusunu tek sayfada netleştirir.",
+      "whoFor": "Otel satış–pazarlama yöneticisi, GM veya ajans performans yöneticisi.",
+      "steps": [
+        "Aylık hedef bütçeyi ve hedef KPI’ı (ROAS/CPA) girin.",
+        "Pazar (TR/DE/RU) ve sezon durumuna göre dağıtımı işaretleyin.",
+        "Skor tablosuna göre bid stratejisini seçin ve “ilk 10 aksiyon”u uygulayın."
+      ],
+      "checklist": [
+        "GA4 dönüşüm kurulumu tamam (rezervasyon/lead)",
+        "Booking engine gelir ölçümü varsa doğrulandı",
+        "Telefon/WhatsApp/form dönüşümleri ölçülüyor",
+        "Brand & generic ayrımı net (raporda ayrı okunuyor)",
+        "Ülke/dil kırılımları kampanya seviyesinde planlandı (TR/DE/RU)",
+        "Landing eşleşmeleri net (ad group → tek ana landing)",
+        "Aylık hedef bütçe belirlendi ve günlük ortalama 30,4 ile hesaplandı",
+        "Brand minimum payı sabitlendi (koruma seviyesi)",
+        "Bid stratejisi veri olgunluğuna göre seçildi (Manual/Max Conv/TCPA/TROAS)",
+        "Haftalık raporlama ritmi kuruldu (Internal Link: /tr/sem/reklam-raporlama)"
+      ],
+      "href": "/downloads/sem-otel-budget-bid-audit-sheet-v1.0.xlsx",
+      "buttonLabel": "Excel’i İndir"
+    },
+    {"type":"media","slot":"download-image"}
+  ]
+},
       {
         "id": "sonuc-butce-bid-sistemi",
         "title": "Sonuç: 3 adımda otel bütçe & bid sistemi (özet)",
@@ -25487,176 +25647,6 @@
             "label": "Bütçe & Teklif Stratejisi Danışmanlığı Al",
             "desc": "180 günlük güncelleme periyoduna uygun şekilde, oteliniz için sezon–pazar–bid stratejisi planını birlikte çıkaralım.",
             "href": "/tr/sem/google-ads-yonetimi"
-          }
-        ]
-      },
-      {
-        "id": "secondary-cta-asset",
-        "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Bu audit sheet; otelinizin Google Ads bütçesini aylık hedef → günlük ortalama (30,4) modeline çevirir, brand/generic/opsiyonel katmanlara dağıtır ve bid stratejisi seçimini “veri olgunluğu”na göre skorlar. Sonuç olarak “ne kadar harcayacağım ve hangi bid ile başlayacağım?” sorusunu tek sayfada netleştirir."
-          },
-          { "type": "p", "text": "Kim Kullanır? (1 satır)" },
-          {
-            "type": "p",
-            "text": "Otel satış–pazarlama yöneticisi, GM veya ajans performans yöneticisi."
-          },
-          { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
-          {
-            "type": "list",
-            "style": "ol",
-            "items": [
-              "Aylık hedef bütçeyi ve hedef KPI’ı (ROAS/CPA) girin.",
-              "Pazar (TR/DE/RU) ve sezon durumuna göre dağıtımı işaretleyin.",
-              "Skor tablosuna göre bid stratejisini seçin ve “ilk 10 aksiyon”u uygulayın."
-            ]
-          },
-          { "type": "h3", "text": "A) Ölçüm Alanları + Skor (0–5)" },
-          { "type": "h4", "text": "1) Ölçüm Hazırlığı" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "GA4 dönüşüm kurulumu: 0–5",
-              "Booking engine gelir ölçümü (varsa): 0–5",
-              "Telefon/WhatsApp/form ölçümü: 0–5"
-            ]
-          },
-          { "type": "h4", "text": "2) Veri Olgunluğu" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Son 30 günde dönüşüm sayısı yeterliliği: 0–5 (Varsayım: “yeterli” eşik sektöre göre değişir)",
-              "Dönüşüm döngüsü stabil mi?: 0–5"
-            ]
-          },
-          { "type": "h4", "text": "3) Mimari Netliği" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Brand & generic ayrımı: 0–5",
-              "Ülke/dil kırılımı: 0–5",
-              "Landing eşleşmesi: 0–5"
-            ]
-          },
-          { "type": "h4", "text": "4) Bütçe Disiplini" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Aylık hedef belirli mi?: 0–5",
-              "Günlük ortalama doğru hesaplandı mı?: 0–5",
-              "Brand minimum payı sabit mi?: 0–5"
-            ]
-          },
-          { "type": "h4", "text": "Skor Yorumlama (R/Y/G)" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "0–25 Kırmızı: Ölçüm/mimari oturmadan smart bidding agresif olmaz",
-              "26–40 Sarı: Kademeli smart bidding + gevşek hedef",
-              "41+ Yeşil: Target ROAS/CPA ile kontrollü optimizasyon"
-            ]
-          },
-          { "type": "h3", "text": "B) Kırmızı/Sarı/Yeşil Yorum Alanları" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Kırmızı (risk): ____________________",
-              "Sarı (iyileştirme): ____________________",
-              "Yeşil (güçlü yön): ____________________"
-            ]
-          },
-          { "type": "h3", "text": "C) İlk 10 Aksiyon Listesi (öncelikli)" },
-          {
-            "type": "list",
-            "style": "ol",
-            "items": [
-              "Brand kampanyayı sabitle (bütçe koruması)",
-              "Aylık bütçe hedefini yaz",
-              "Günlük ortalamayı 30,4 ile hesapla",
-              "TR/DE/RU pazarlarını raporda ayır",
-              "Ölçümü doğrula (rezervasyon/lead)",
-              "Smart Bidding’e geçiş planı yap (veri olgunluğuna göre)",
-              "Generic’i niyet kümeleriyle daralt",
-              "Sezon planını 6–8 hafta önceden hazırla",
-              "14 günlük bid test takvimi oluştur",
-              "Haftalık raporlama ritmi kur (Internal Link: /tr/sem/reklam-raporlama)"
-            ]
-          },
-          { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
-          {
-            "type": "table",
-            "title": "Öncesi/Sonrası KPI Tablosu",
-            "columns": ["KPI", "Önce", "Sonra", "Not"],
-            "rows": [
-              ["ROAS", "TBD", "TBD", "Ölçüm gerekiyorsa"],
-              ["CPA", "TBD", "TBD", "Lead/rezervasyon bazlı"],
-              ["CVR", "TBD", "TBD", "Landing etkisi"],
-              ["Spend", "TBD", "TBD", "Aylık hedefe uyum"],
-              ["Brand payı", "TBD", "TBD", "Koruma seviyesi"]
-            ]
-          },
-          { "type": "h3", "text": "E) Deliverables + “Buraya” notları" },
-          { "type": "h4", "text": "Deliverables" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Excel audit sheet (bütçe + pazar + bid seçimi)",
-              "14 günlük test planı tabı",
-              "Brand/generic dağıtım tabı",
-              "Sezon planı tabı"
-            ]
-          },
-          {
-            "type": "mediaNote",
-            "text": "Buraya: Excel’in içinde “Bid Strategy seçici” mini tablo (Manual / Max Conversions / Target CPA / Target ROAS)."
-          }
-        ]
-      },
-      {
-        "id": "faq",
-        "title": "FAQ / PAA Bölümü",
-        "blocks": [
-          {
-            "type": "faq",
-            "items": [
-              {
-                "q": "Google Ads bütçesi nasıl belirlenir?",
-                "a": "Aylık hedef bütçeyi belirleyin ve günlük ortalamayı aylık bütçe/30,4 ile hesaplayın. Google bazı günler daha fazla harcasa da ay sonunda limit bu mantıkla dengelenir."
-              },
-              {
-                "q": "Oteller için minimum günlük Google Ads bütçesi ne olmalı?",
-                "a": "Tek bir “minimum” yok; hedef pazarın CPC’si, dönüşüm oranınız ve hedef CPA/ROAS’ınıza bağlıdır. En sağlıklı yöntem, hedef CPA üzerinden “aylık kaç rezervasyon/lead istiyorum?” diye hesaplamaktır."
-              },
-              {
-                "q": "Hangi bid stratejisi ne zaman kullanılmalı?",
-                "a": "Veri azsa kontrollü başlayın; veri ve ölçüm oturunca Smart Bidding (Maximize Conversions/Value, Target CPA/ROAS) daha anlamlı olur."
-              },
-              {
-                "q": "Target ROAS nedir, ne zaman seçmeliyim?",
-                "a": "Target ROAS, dönüşüm değerini optimize ederek hedeflediğiniz ROAS’e ulaşmaya çalışır; gelir ölçümü sağlıklıysa daha iyi çalışır."
-              },
-              {
-                "q": "Target CPA nedir, ne zaman seçmeliyim?",
-                "a": "Target CPA, hedeflediğiniz ortalama dönüşüm maliyetine göre teklifleri otomatik ayarlar; özellikle lead odaklı dönüşümlerde pratik olur."
-              },
-              {
-                "q": "Google bazı günler bütçeyi aşarsa sorun mu?",
-                "a": "Bu normal olabilir; Google günlük harcamayı dalgalandırabilir ama ay sonunda aylık limite göre dengelemeyi hedefler."
-              },
-              {
-                "q": "Sezonda bütçeyi nasıl kaydırmalıyım?",
-                "a": "Brand’i sabit tutun; generic’i talep dalgasına göre ölçekleyin. Düşük sezonda daha niş segmentlere daraltıp CPA/ROAS disiplinini artırın."
-              }
-            ]
           }
         ]
       }
@@ -26100,6 +26090,39 @@
         ]
       },
       {
+  "id": "cwv-download",
+  "title": "CWV İyileştirme Checklist’ini İndir — Teknik SEO / Core Web Vitals (v1.0)",
+  "blocks": [
+    {
+      "type": "download_asset",
+      "assetType": "pdf",
+      "version": "v1.0",
+      "title": "CWV İyileştirme Checklist’ini İndir — Teknik SEO / Core Web Vitals (v1.0)",
+      "purpose": "Bu doküman, otel ve Next.js sitelerinde Core Web Vitals iyileştirmesini ölçülebilir ve sprint yönetilebilir hale getirir. LCP/CLS/INP için kök neden analizi yapmanıza, önceliklendirme ile hızlı kazanım çıkarmanıza ve 14 günlük planla uygulamayı tamamlamanıza yardım eder.",
+      "whoFor": "Otel web projesinden sorumlu ajans/teknik ekip + satış–pazarlama ortak kullanım dokümanı.",
+      "steps": [
+        "En çok trafik alan 3 şablonu seç (anasayfa/oda/landing) ve ölç.",
+        " checklist ile kök nedenleri işaretle, çözüm tablosunu doldur.",
+        "14 günlük sprint planını görev listesi gibi ekip içinde dağıt ve “öncesi/sonrası” KPI’yı raporla."
+      ],
+      "checklist": [
+        "PageSpeed Insights + Lighthouse ile lab sonuçlarını aldım",
+        "CrUX / RUM ile field sonuçlarını aldım (varsa)",
+        "En kötü 3 şablonu belirledim (trafik + dönüşüm)",
+        "LCP öğesini tespit ettim (hero/görsel/text blok)",
+        "CLS kaymasına sebep olan öğeyi tespit ettim (header/banner/modül/font)",
+        "INP’yi bozan etkileşimi tespit ettim (menü/takvim/CTA)",
+        "3. parti script listesini çıkardım (GTM dahil)",
+        "Görsel teslim formatlarını kontrol ettim (WebP/AVIF, boyutlar)",
+        "Font stratejisini kontrol ettim (preload, swap, fallback)",
+        "CDN/cache ayarlarını doğruladım (TTL, immutable, compression)"
+      ],
+      "href": "/downloads/cwv-iyilestirme-checklist-v1.0.pdf",
+      "buttonLabel": "PDF’i İndir"
+    }
+  ]
+},
+      {
         "id": "secondary-cta-asset",
         "title": "CWV İyileştirme Checklist’ini İndir — Teknik SEO / Core Web Vitals (v1.0)",
         "blocks": [
@@ -26220,49 +26243,7 @@
           }
         ]
       },
-      {
-        "id": "faq",
-        "title": "FAQ / PAA Bölümü",
-        "blocks": [
-          {
-            "type": "faq",
-            "items": [
-              {
-                "q": "Core Web Vitals nedir?",
-                "a": "Core Web Vitals; LCP, CLS ve INP metrikleriyle sayfanın yükleme hızı, yerleşim stabilitesi ve etkileşim performansını ölçen Google odaklı kullanıcı deneyimi setidir."
-              },
-              {
-                "q": "CWV SEO’yu gerçekten etkiler mi?",
-                "a": "CWV tek başına sıralama garantisi değildir; ancak benzer içerik kalitesinde sayfalar arasında daha iyi deneyim avantaj sağlar. Ayrıca hız iyileştirmeleri dönüşümü artırarak dolaylı SEO sinyallerini güçlendirebilir."
-              },
-              {
-                "q": "Otel sitesi için LCP ve CLS nasıl iyileştirilir?",
-                "a": "LCP için genelde hero görseli optimize edilir (format, boyut, CDN, öncelik). CLS için rezervasyon kutusu, header ve font kaynaklı zıplamalar sabit alan/skeleton ve font stratejisiyle çözülür."
-              },
-              {
-                "q": "Next.js ile Core Web Vitals nasıl optimize edilir?",
-                "a": "Next.js’te görsel optimizasyonu (Image pipeline), caching/CDN, render-blocking kaynakları azaltma, gereksiz client bileşenlerini azaltma ve 3. parti script’leri doğru yükleme sırası CWV’yi iyileştirir."
-              },
-              {
-                "q": "INP neden önemlidir, otel sitesinde nerede bozulur?",
-                "a": "INP, kullanıcı tıklamasına sayfanın ne kadar hızlı tepki verdiğini ölçer. Otel sitelerinde menü, takvim, filtre ve CTA etkileşimleri; ayrıca ağır JS ve 3. parti script’ler INP’yi bozar."
-              },
-              {
-                "q": "PageSpeed skoru yükseldi ama CrUX düzelmedi, neden?",
-                "a": "Lab skorları simülasyondur; CrUX gerçek kullanıcı verisidir. Trafik profili, cihaz dağılımı, ağ koşulları ve bazı sayfa şablonlarının hâlâ sorunlu olması CrUX’un geç toparlanmasına neden olabilir."
-              },
-              {
-                "q": "Rezervasyon modülü CWV’yi nasıl etkiler?",
-                "a": "Rezervasyon widget’ı ağır JS ve geç yüklenen içerik üretirse LCP/CLS/INP’yi etkiler. Doğru yaklaşım, modülü kritik yol dışı kurgulamak ve layout alanını önceden rezerve etmektir."
-              },
-              {
-                "q": "Otel sitesinde CWV iyileştirme sırası nasıl olmalı?",
-                "a": "Genelde en hızlı kazanım: LCP (hero) → CLS (rezervasyon/header/font) → INP (script/bundle/etkileşim). Çünkü LCP/CLS daha hızlı aksiyonlarla düzelirken INP daha teknik iyileştirme gerektirir."
-              }
-            ]
-          }
-        ]
-      },
+      
       {
         "id": "seo-100-checklist",
         "title": "SEO 100 Checklist (On-Page + SXO + Media + Teknik)",
@@ -26785,7 +26766,1295 @@
         ]
       }
     }
-  }
+  },
+
+   "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi": {
+    "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+    "slug": "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+    "department": "smm",
+    "updatedAt": "",
+    "excerpt": "Sosyal medya içerik stratejisi için content pillars’ı belirleyin, post/story/reels dengesini kurun. Otel ve B2B markalar için örneklerle 30 günlük plan çıkarın.",
+    "seo": {
+      "metaTitle": "Sosyal Medya İçerik Stratejisi: Content Pillars | DGTLFACE",
+      "metaDescription": "Sosyal medya içerik stratejisi için content pillars’ı belirleyin, post/story/reels dengesini kurun. Otel ve B2B markalar için örneklerle 30 günlük plan çıkarın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog No / URL: Blog #1 — /tr/smm/blog/sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700"
+      ],
+      "strategySummary": "Bu blog, SMM silo’sunda “İçerik Üretimi” hizmet sayfasını (hub) besleyen otorite taşıyan bir core child içeriktir: hedef kitlenin “içerik stratejisi” ihtiyacını netleştirir, terimleri standardize eder ve uygulamaya dönük bir model sunar. Amaç; “aklımıza geldikçe paylaşım” yaklaşımından çıkıp content pillars + format dengesi + takvim dağılımı ile sürdürülebilir bir yayın sistemine geçirmektir. Hedef persona: otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi (B2B). Funnel’daki yeri ağırlıkla Consideration (MoFu): kişi doğru modeli görür, içerik karmaşasının nedenini anlar ve stratejik destek ihtiyacını somutlaştırır. Ana iş sorusu: “Markam için doğru içerik kategorilerini (pillar) nasıl belirlerim ve post/story/reels dengesini nasıl kurarım ki hem etkileşim hem satış potansiyeli artsın?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "İyi bir sosyal medya içerik stratejisi “ne bulursak paylaşmak” değildir; content pillars (içerik kategorileri) ve bu kategorilere bağlı format dengesi üzerine kurulur. Otel ve B2B markalar için bilgilendirici, ilham verici, satış odaklı ve sosyal kanıt içerikleri doğru oranda planlandığında; hem etkileşim hem de lead/rezervasyon potansiyeli artar. Pillar’ları netleştirip her birine konu listesi çıkarın; sonra bunları post/story/reels/video’ya dengeli dağıtın.",
+      "sgeSummary": "Content pillars; içerik kategorilerinizdir. Persona ve hedefe göre pillar seti kurup, post/story/reels dengesini planlayın. Otel ve B2B için örnek pillar tablosu + 30 günlük dağılımla başlayın.",
+      "voiceAnswer": "Sosyal medya stratejisi, content pillars’ı belirleyip post–story–reels dengesini takvime dağıtarak kurulur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM / satış–pazarlama / ajans yöneticisi (Türkiye geneli; Antalya–Belek–Side–Kemer–Bodrum örnekleri).",
+        "KPI’lar: Reach, engagement rate, takipçi kalitesi, link tıklaması, DM/lead, rezervasyon/teklif formu.",
+        "Model: Pillar (kategori) → konu listesi → format miks → yayın takvimi → ölçüm/iterasyon.",
+        "Entity’ler: content pillars, persona, funnel, content calendar, format mix, social proof, UGC, case study.",
+        "Funnel: Awareness → Consideration → Conversion; pillar’lar funnel’a dağıtılır.",
+        "Risk: Pillar tanımı yoksa 3–6 ayda feed dağılır, tutarlılık kaybolur (sheet notu).",
+        "Çözüm: Pillar tablosu + format dağılım diyagramı + 30 günlük checklist."
+      ]
+    },
+    "h1": {
+      "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+      "intro": "Sosyal medya hesabı büyütmenin en büyük tuzağı şudur: “Bugün ne paylaşsak?” sorusunu her gün yeniden sormak. Bu yaklaşım kısa vadede hareket üretir ama orta vadede marka dilini bozar, ekip motivasyonunu düşürür ve en önemlisi ölçümü zorlaştırır. Çünkü içerikler bir “sistem” değil, “tekil fikirler” olarak akar.\n\nBu yazıda; content pillars (içerik kategorileri) ile stratejiyi nasıl kuracağınızı, post/story/reels/video/carousel dengesini nasıl planlayacağınızı ve otel/destinasyon markaları ile B2B hizmet markaları için örnek pillar setlerini adım adım göreceksiniz. ",
+      "ctaPrimary": {
+        "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
+        "text": "Marka türünüze (otel/B2B) göre pillar setini ve format dengesini 30 gün içinde netleştirmek isteyen ekipler için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
+        "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: Buraya: /tr/smm/icerik-uretimi)",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir",
+        "text": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. (Link hedefi önerisi: Buraya: /tr/smm/planlama-strateji)",
+        "href": "#download"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "/tr/smm/icerik-uretimi",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      {
+        "label": "/tr/smm/planlama-strateji",
+        "href": "/tr/smm/planlama-strateji"
+      },
+      {
+        "label": "/tr/seo/icerik-seo",
+        "href": "/tr/seo/icerik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "content-pillars-nedir",
+        "title": "Content Pillars Nedir? Neden “Strateji”nin Omurgasıdır?",
+
+        "blocks": [
+          { "type": "h3", "text": "Content pillars nedir? (AEO – Soru/Cevap)" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Content pillars, markanızın sosyal medyada sürekli konuşacağı ana içerik kategorileridir.\nPillar’lar; konularınızı rastgele değil, persona + hedef + funnel mantığıyla sınıflandırır. Böylece hem ekip “ne üreteceğini” bilir hem de performans verisi anlamlı hale gelir: hangi kategori hangi KPI’yı besliyor?"
+          },
+          {
+            "type": "p",
+            "text": "Bir otel için “oda” içerikleri tek başına pillar değildir; “oda” pillar’ının içine; oda tipi anlatımı, oda içi deneyim, fiyat/teklif mantığı, SSS, rezervasyon güveni gibi alt temalar girer. Bir B2B ajans için de “hizmet” pillar’ı tek başına yetmez; case study, know-how, süreç, ekip, perde arkası gibi alt kategoriler gerekir."
+          },
+          {"type":"media","slot":"content-pillar"},
+          { "type": "p", "text": "Buraya: Örnek “Pillar Tanım Tablosu” (görsel/tablolu alan — 6–8 sütunlu)" },
+          { "type": "h4", "text": "Pillar’ların 4 temel faydası" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tutarlılık: Feed “dağınık konu listesi” olmaktan çıkar.",
+              "Hız: Üretim süreci hızlanır; konu seçimi değil, üretim konuşulur.",
+              "Ölçüm: Performans raporu “post bazlı” değil “pillar bazlı” okunur.",
+              "Dönüşüm: Funnel’a göre pillar dağılımı yapıldığında satış/lead yolu açılır."
+            ]
+          },
+          {"type":"media","slot":"4key-benefits"},
+          {
+            "type": "checklist",
+            "title": "Mini Check",
+            "items": [
+              "Son 30 günde paylaştığınız içerikleri 5 kategoriye ayırabiliyor musunuz?",
+              "Her kategori için “başarı metriği” (KPI) söyleyebiliyor musunuz?",
+              "Ekip “bu hafta hangi pillar’lar var?” sorusuna 10 saniyede cevap verebiliyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Neden çoğu hesap 3–6 ay sonra dağılır?" },
+          {
+            "type": "p",
+            "text": "Sheet notundaki kritik gözlem çok yaygın: Pillar çalışması yapılmadan içerik üretimine başlanırsa, 3–6 ay sonra feed’in nereden nereye gittiği takip edilemez. Bunun nedeni “yetersiz içerik” değil, yetersiz sınıflandırmadır. Üretim arttıkça karmaşa büyür; konsept kayar; takipçi kitlesi “marka ne anlatıyor?” diye zorlanır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Son 60 gün içeriklerinizi çıkarın (link/ekran görüntüsü).",
+              "6–8 pillar adayını yazın (aşağıdaki modelle).",
+              "Her içeriği tek bir pillar’a bağlayın (zorlanıyorsanız pillar hatalıdır)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hedef-personaya-gore-pillar",
+        "title": "Hedef ve Persona’ya Göre İçerik Kategorileri Nasıl Belirlenir?",
+
+        "blocks": [
+          { "type": "h3", "text": "1) Persona → Problem → İçerik vaadi" },
+          {
+            "type": "p",
+            "text": "Pillar tasarımında en sağlam yol: persona sorunlarını içerik vaadine çevirmektir.\n\t•\tOtel (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda):\n\t•\tProblem: “Benzer oteller arasında fark görünmüyor.”\n\t•\tİçerik vaadi: “Deneyimi netleştir, güven üret, rezervasyona giden yolu kısalt.”\n\t•\tB2B hizmet markası (ajans/teknoloji):\n\t•\tProblem: “Hizmet var ama somut sonuç ve süreç görünmüyor.”\n\t•\tİçerik vaadi: “Süreci şeffaflaştır, kanıt göster, karar riskini azalt.”"
+          },
+          {"type":"media","slot":"persona-cards"},
+          { "type": "p", "text": "Buraya: Persona kartları (2 kart: Otel GM + Ajans yöneticisi)" },
+          { "type": "h3", "text": "2) Funnel’a göre pillar dağılımı (AIO)" },
+          {
+            "type": "p",
+            "text": "Burada amaç; content pillar’ları yalnız “konu” değil, funnel fonksiyonu olarak düşünmek:\n\t•\tAwareness: keşif, ilham, destinasyon/trend, değer önerisi\n\t•\tConsideration: know-how, karşılaştırma, SSS, süreç, kanıt\n\t•\tConversion: teklif, kampanya, rezervasyon akışı, demo/görüşme, net CTA"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Başlangıç seti olarak çoğu otel/B2B marka için Awareness %40 – Consideration %40 – Conversion %20 dengesi sağlıklı bir ilk denemedir; 30 gün sonra KPI’ya göre optimize edilir."
+          },
+          { "type": "h3", "text": "3) 4 ana içerik sınıfı (pratik model)" },
+          { "type": "p", "text": "Bu sınıflar, hem otel hem B2B için evrensel çalışır:" },
+          { "type": "h4", "text": "A) Bilgilendirici (Know-how)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Nasıl yapılır?”, “En sık hata”, “Kısa rehber”",
+              "KPI: Kaydetme, paylaşım, profil tıklaması"
+            ]
+          },
+          { "type": "h4", "text": "B) İlham verici (Brand/Experience)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim, atmosfer, hikâye, kulis",
+              "KPI: İzlenme, takip, yorum kalitesi"
+            ]
+          },
+          { "type": "h4", "text": "C) Satış odaklı (Offer/Conversion)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya, paket, hizmet anlatımı, net teklif",
+              "KPI: DM, link tıklaması, form/rezervasyon"
+            ]
+          },
+          { "type": "h4", "text": "D) Sosyal kanıt (Social Proof)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorumlar, UGC, case study, önce/sonra, müşteri sesi",
+              "KPI: Güven sinyali, DM/lead artışı, dönüşüm oranı"
+            ]
+          },
+          {
+            "type": "checklist",
+            "title": "Mini Check",
+            "items": [
+              "Son 20 postunuzun yüzde kaçı “sosyal kanıt”?",
+              "Satış odaklı içeriklerin “değer açıklaması” var mı, yoksa sadece duyuru mu?",
+              "Bilgilendirici içeriklerde “tek çıkarım cümlesi” net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "4 ana sınıfı marka gerçekliğinize uyarlayın.",
+              "Her sınıfı 2–3 pillar’a bölün (toplam 6–8 pillar).",
+              "Her pillar için 10 konu başlığı çıkarın (bir sonraki bölümde örnekler var)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "format-dengesi",
+        "title": "Format Dengesi: Post, Story, Reels, Video, Carousel Oranı Nasıl Kurulur?",
+        "preBlocks": [
+          { "type": "media", "slot": "format-distribution-diagram" }
+        ],
+        "blocks": [
+          { "type": "h2", "text": "Hangi formatları hangi oranda kullanmalıyım? (AEO – Soru/Cevap)" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Tek doğru oran yok; oranı hedef KPI + üretim kapasitesi + içerik türü belirler.\nBaşlangıç için güvenli yaklaşım: Reels/video keşfi büyütür, carousel bilgiyi taşır, story ilişkiyi güçlendirir, post ise kimliği sabitler; 30 gün test edip pillar bazında optimize edin."
+          },
+          { "type": "h3", "text": "Formatların rolü (hızlı karar matrisi)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels / Kısa video: keşif + erişim",
+              "Carousel: kaydetme + otorite",
+              "Story: ilişki + DM + anlık bağ",
+              "Tekil post (foto/grafik): marka dili + net mesaj"
+            ]
+          },
+           {"type":"media","slot":"format-distribution"},
+          { "type": "p", "text": "Buraya: Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)" },
+          {
+            "type": "p",
+            "text": "Varsayım (başlangıç “denge” örneği):\n\t•\tOtel hesabı: Reels %35, Story %35, Carousel %20, Post %10\n\t•\tB2B hizmet hesabı: Carousel %35, Reels %25, Story %25, Post %15\nBu oranlar “ilk 30 gün” içindir; en doğru karar KPI sonrası verilir."
+          },
+          { "type": "h3", "text": "Pillar × Format eşlemesi (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Know-how pillar’ı → carousel + kısa video (özet)",
+              "Sosyal kanıt pillar’ı → reels (önce/sonra), carousel (case breakdown), story (yorum)",
+              "Satış pillar’ı → post (net teklif), story (CTA), reels (kısa fayda)",
+              "İlham/deneyim pillar’ı → reels + story"
+            ]
+          },
+          { "type": "h4", "text": "Hızlı örnek: “Otel deneyimi” pillar’ı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels: 15 sn “gün batımı + 3 sebep”",
+              "Story: anket + soru kutusu (misafir ihtiyacı)",
+              "Carousel: “5 deneyim noktası + rota”",
+              "Post: tek kare “konsept vaadi”"
+            ]
+          },
+          {
+            "type": "checklist",
+            "title": "Mini Check",
+            "items": [
+              "Her formatın “tek işi” var mı?",
+              "Carousel’lerinizde 1 ana fikir + 3 destek var mı?",
+              "Story’lerde DM’ye giden mikro CTA var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Önce pillar setini netleştirin, sonra format oranı belirleyin.",
+              "Her pillar’a “varsayılan format” atayın (birincil/ikincil).",
+              "30 gün sonunda “pillar bazlı KPI” ile oranları güncelleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-ornek-pillars",
+        "title": "Otel ve B2B Markalar İçin Örnek Content Pillars (Hazır Setler)",
+        "preBlocks": [
+         
+        ],
+        "blocks": [
+          { "type": "h2", "text": "Oteller için örnek pillar seti (oda/deneyim/destinasyon/SSS)" },
+          {
+            "type": "p",
+            "text": "Aşağıdaki set, Türkiye geneli otellerde çok sık çalışır; destinasyon örneklerini Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerle “doğal” bağlayabilirsiniz."
+          },
+          { "type": "h3", "text": "Otel Pillar 1: Oda & Konaklama Netliği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi farkları, kapasite, “kim için uygun?”",
+              "Konfor detayları, “rezervasyon öncesi bilmen gerekenler”"
+            ]
+          },
+          { "type": "h3", "text": "Otel Pillar 2: Deneyim & Aktiviteler" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Spa, beach, çocuk kulübü, etkinlik takvimi",
+              "“1 gün planı” içerikleri (story + reel)"
+            ]
+          },
+          { "type": "h3", "text": "Otel Pillar 3: Destinasyon & Rota" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yakın noktalar, mevsimsel öneriler",
+              "“Bodrum’da 48 saat” / “Side’de aile rotası” gibi"
+            ]
+          },
+          { "type": "h3", "text": "Otel Pillar 4: SSS & Rezervasyon Güveni (AEO için güçlü)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İptal/iadeler, transfer, check-in/out, çocuk politikası",
+              "(İlgili destek içerik: Buraya: /tr/seo/icerik-seo — içerik + arama niyeti uyumu)"
+            ]
+          },
+          { "type": "h3", "text": "Otel Pillar 5: Sosyal Kanıt & Misafir Sesi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorumlar, UGC, mini röportajlar, “önce/sonra” hizmet kalitesi",
+              "“En çok sorulan 5 soru” story serileri"
+            ]
+          },
+          {"type":"media","slot":"pillar-table"},
+          { "type": "p", "text": "Buraya: Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)" },
+          { "type": "h2", "text": "B2B hizmet markaları için örnek pillar seti (case/know-how/ekip/perde arkası)" },
+          {
+            "type": "p",
+            "text": "B2B’de karar verici, “bilgi” kadar “risk azaltma” ister. Bu yüzden sosyal kanıt ve süreç pillar’ları kritik."
+          },
+          { "type": "h3", "text": "B2B Pillar 1: Know-how (Eğitici)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mini rehberler, “3 sık hata”, checklist’ler",
+              "Carousel + kısa video kombinasyonu"
+            ]
+          },
+          { "type": "h3", "text": "B2B Pillar 2: Case Study / Kanıt" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Öncesi–Sonrası KPI”",
+              "Süreç adımları, öğrenimler, sık yapılan yanlışlar"
+            ]
+          },
+          { "type": "h3", "text": "B2B Pillar 3: Süreç & Metodoloji (şeffaflık)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sprint planı, teklif çerçevesi, briefing formatı",
+              "“Nasıl çalışıyoruz?” içerikleri"
+            ]
+          },
+          { "type": "h3", "text": "B2B Pillar 4: Ekip & Perde Arkası (insan + güven)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Uzmanlık alanları, toplantı ritmi, araçlar",
+              "Story’lerde “günlük akış”"
+            ]
+          },
+          { "type": "h3", "text": "B2B Pillar 5: Offer / Hizmet Netliği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Paket, kapsam, kim için, ne zaman sonuç",
+              "Net CTA ile"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Otel/B2B için hazır setten başlayın (5 pillar).",
+              "6. pillar’ı “marka farkı”na göre ekleyin (ör. sürdürülebilirlik, gastronomi, teknoloji).",
+              "Her pillar’a 10 konu fikri üretin (aşağıdaki şablonla)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-takvimi-30-gun",
+        "title": "İçerik Takvimine Pillar’ların Dağıtılması (30 Günlük Uygulama)",
+
+        "blocks": [
+          { "type": "h3", "text": "Pillar → Konu Listesi → Takvim: 3 adımda sistem" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pillar başına 10 konu çıkarın (toplam 60–80 konu havuzu).",
+              "Her konuya format atayın (reels/story/carousel/post).",
+              "30 gün takvime dağıtın: haftalık ritim + ölçüm noktaları."
+            ]
+          },
+           {"type":"media","slot":"30-days"},
+          { "type": "p", "text": "Buraya: 30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)" },
+          { "type": "h3", "text": "Örnek: 1 haftalık dağılım (otel)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pzt: Carousel (SSS: “Çocuk politikası”)",
+              "Sal: Reels (Deneyim: 15 sn)",
+              "Çar: Story serisi (anket + soru kutusu)",
+              "Per: Post (satış: paket/teklif)",
+              "Cum: Reels (destinasyon: rota)",
+              "Cts: UGC/story (sosyal kanıt)",
+              "Paz: “Haftanın özeti” (story + kısa video)"
+            ]
+          },
+          { "type": "h3", "text": "En sık 5 hata (ve düzeltme)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Pillar yok → konu karmaşası",
+              "Her şeye reels → bilgi taşınmaz",
+              "Her şeye carousel → keşif düşer",
+              "Sadece satış → takipçi kalitesi düşer",
+              "Ölçüm yok → öğrenme yok"
+            ]
+          },
+          {
+            "type": "checklist",
+            "title": "Mini Check (İlk 30 gün)",
+            "items": [
+              "Haftada en az 2 pillar görünür mü?",
+              "1 “sosyal kanıt” içerik var mı?",
+              "1 “SSS / güven” içerik var mı?",
+              "CTA’lar doğru yerde mi? (aşağıdaki CTA modülüne göre)"
+            ]
+          },
+          {
+            "type": "ctaInline",
+            "variant": "secondary",
+            "label": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir",
+            "desc": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. (Link hedefi önerisi: Buraya: /tr/smm/planlama-strateji)",
+            "href": "#download"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: “Sistem” kurarsanız içerik üretimi kolaylaşır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Content pillars; sosyal medyada “ne anlatıyoruz?” sorusunun kalıcı cevabıdır. Format dengesi ise “nasıl anlatıyoruz?” kısmını çözer. Bu ikisini takvim dağılımı ve KPI ölçümüyle birleştirdiğinizde; içerik üretimi stres değil, yönetilebilir bir süreç olur. Özellikle otel ve B2B markalarda; sosyal kanıt + know-how + SSS/güven katmanları olmadan satış odaklı içerikler tek başına sürdürülebilir performans vermez."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
+            "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: Buraya: /tr/smm/icerik-uretimi)",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "download",
+        "title": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir — SMM / İçerik Stratejisi (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "excel",
+            "version": "v1.0",
+            "title": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir — SMM / İçerik Stratejisi (v1.0)",
+            "purpose": "Bu şablon; marka için content pillar setini netleştirip her pillar’a konu havuzu çıkararak 30 günlük format dengeli bir içerik takvimi oluşturmanızı sağlar. Ekip içi üretimi hızlandırır, ölçümü pillar bazına taşır ve “bugün ne paylaşsak?” stresini ortadan kaldırır.",
+            "whoFor": "Otel satış–pazarlama ekipleri, sosyal medya yöneticileri, ajans içerik ekipleri, marka yöneticileri.",
+            "steps": [
+              "6–8 pillar seçin ve her birine KPI/format atayın.",
+              "Her pillar için 10 konu fikri üretin (toplam 60–80).",
+              "Konuları 30 güne dağıtın; haftalık ölçümle oranları güncelleyin."
+            ],
+            "checklist": [
+              "6–8 pillar var mı?",
+              "Her pillar’ın KPI’sı tek mi?",
+              "Satış + sosyal kanıt + bilgilendirici dengesi var mı?",
+              "30 gün takvim dolu mu?",
+              "Haftalık ölçüm noktası belirlendi mi?"
+            ],
+            "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.xlsx",
+            "buttonLabel": "Excel’i İndir"
+          },
+          { "type": "p", "text": "Buraya: Şablonun görsel versiyonu (Google Sheet/Notion template ekran görüntüsü)" },
+          {
+            "type": "p",
+            "text": "E) Deliverables\n\t•\tPillar tablosu (dolu)\n\t•\t60–80 konu havuzu\n\t•\t30 günlük format dengeli takvim\n\t•\tKPI takip şablonu"
+          },
+          {"type":"media","slot":"format-distribution-diagram"}
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Sosyal medya content pillars nedir?",
+        "a": "Content pillars, markanızın düzenli içerik üreteceği ana kategori setidir. Persona, hedef ve funnel’a göre tanımlanır; tutarlılık ve ölçüm sağlar."
+      },
+      {
+        "q": "Markam için içerik kategorilerini nasıl belirlerim?",
+        "a": "Önce 1–2 persona seçin, bu kişilerin problemlerini çıkarın ve içerik vaadine dönüştürün. Ardından 6–8 pillar belirleyip her birine KPI ve format atayın."
+      },
+      {
+        "q": "Hangi formatları (post/story/reels) hangi oranda kullanmalıyım?",
+        "a": "Tek doğru oran yoktur; hedef KPI ve üretim kapasitesi belirler. Başlangıç için pillar setinizi kurup 30 gün test edin; sonra pillar bazlı sonuçlara göre oranları güncelleyin."
+      },
+      {
+        "q": "Otel markası için örnek içerik kategorileri neler?",
+        "a": "Oda netliği, deneyimler, destinasyon/rota, SSS & güven, sosyal kanıt/UGC ve kampanya/teklif iyi çalışan temel pillar’lardır."
+      },
+      {
+        "q": "B2B hizmet markasında en kritik pillar hangisidir?",
+        "a": "Case study (kanıt) ve süreç/metodoloji pillar’ları karar riskini azaltır. Know-how içerikleri otorite üretir, offer içerikleri dönüşümü tamamlar."
+      },
+      {
+        "q": "Content pillar’lar kaç ayda bir güncellenmeli?",
+        "a": "Pazar ve öncelikler değiştikçe pillar seti yılda 1–2 kez gözden geçirilmelidir (Refresh Cycle: 365). Büyük kampanya/konsept değişimlerinde daha sık revize edilebilir."
+      },
+      {
+        "q": "Pillar setim var ama etkileşim düşük, sorun ne olabilir?",
+        "a": "Format eşlemesi yanlış olabilir (ör. her şeyi post yapmak), hook zayıf olabilir veya sosyal kanıt eksik kalmış olabilir. Pillar bazlı KPI analizi ile hangi kategori/fonksiyonun düştüğünü bulun."
+      },
+      {
+        "q": "“Sadece satış” içerikleri neden çalışmıyor?",
+        "a": "Çünkü takipçi önce güven ve değer ister. Sosyal kanıt + bilgilendirici + SSS katmanı olmadan satış içerikleri duyuru gibi algılanır, dönüşüm maliyetini yükseltir."
+      }
+    ],
+    "seo100Checklist": {
+      "onPage": [
+        "H1, sayfa niyetini net anlatıyor mu?",
+        "Title 55–60 karakter bandında mı?",
+        "Meta description 150–170 karakter bandında mı?",
+        "Primary keyword ilk 100 kelimede geçiyor mu?",
+        "Semantic keyword’ler doğal dağılıyor mu?",
+        "Content pillars terimi ilk bölümde açıklanıyor mu?",
+        "Format dengesi kavramı örneklerle anlatılıyor mu?",
+        "Otel ve B2B örnekleri ayrışıyor mu?",
+        "İçerik “sistem” mantığıyla akıyor mu?",
+        "Her ana bölümde mini checklist var mı?",
+        "AEO için en az 2 soru-cevap bloğu var mı?",
+        "AIO için entity/funnel/format ilişkisi açık mı?",
+        "Kısa paragraflar (3–5 satır) korunuyor mu?",
+        "Listeler 5–7 maddeyi geçmiyor mu?",
+        "Kullanıcı dili danışman/stratejist tonda mı?",
+        "Jargon varsa açıklanıyor mu?",
+        "“Ne yapmalıyım?” aksiyonları her ana bölümde var mı?",
+        "İç link hedefleri içerikte anlamlı yerde mi?",
+        "Gereksiz tekrar/keyword stuffing yok mu?",
+        "Word count 2300–2700 bandına yakın mı?",
+        "Featured snippet hedefi için kısa tanım blokları var mı?",
+        "PAA soruları içerikte cevaplanıyor mu?",
+        "CTA’lar intent kuralına göre konumlandı mı?",
+        "İçerikte “30 gün plan” net mi?",
+        "Refresh notu (yıllık gözden geçirme) var mı?"
+      ],
+      "sxoUx": [
+        "İlk ekranda “ne öğreneceğim” net mi?",
+        "Sayfada taranabilirlik yüksek mi (başlık hiyerarşisi)?",
+        "Her bölüm sonunda aksiyon listesi var mı?",
+        "CTA buton metinleri net mi?",
+        "Secondary CTA “ne işe yarar” cümlesi var mı?",
+        "Şablon/asset kullanım adımları açık mı?",
+        "Örnekler hedef kitleye uygun mu (otel/B2B)?",
+        "Hook cümleleri okunabilir mi?",
+        "Tablo/diyagram yerleri “Buraya” ile belirtilmiş mi?",
+        "Mobilde paragraflar kısa mı?",
+        "İçerik “tek bir model” etrafında dönüyor mu?",
+        "KPI’lar anlaşılır mı?",
+        "Persona örnekleri gerçekçi mi?",
+        "“En sık hatalar” bölümü var mı?",
+        "Ölçüm/iterasyon adımı net mi?",
+        "30 günlük örnek dağılım var mı?",
+        "“Hangi oran?” sorusuna koşullu cevap var mı?",
+        "Dönüşüm odaklı ama agresif olmayan CTA dili var mı?",
+        "İç linkler kullanıcı niyetini bölmüyor mu?",
+        "İçerikte yön kaybı yaratacak uzun yan konular yok mu?",
+        "“Otel” ve “B2B” ayrımı net mi?",
+        "İçerik sonunda özet ve next step var mı?",
+        "Okuma akışında gereksiz tekrar yok mu?",
+        "Terimler tutarlı mı (pillar/format/KPI)?",
+        "Asset bölümünde deliverables net mi?"
+      ],
+      "mediaSnippet": [
+        "Pillar tablosu için görsel alan işaretlendi mi?",
+        "Format dağılım diyagramı için alan işaretlendi mi?",
+        "Persona kartları için alan işaretlendi mi?",
+        "30 günlük takvim görseli için alan işaretlendi mi?",
+        "Tablolar “tek ekran anlaşılır” tasarlanabilir mi?",
+        "Her görsel için amaç net mi (öğretici mi/kanıt mı)?",
+        "Görsel sayısı abartısız mı?",
+        "Diyagramlar yazıdaki kararları destekliyor mu?",
+        "Görsellerde marka/kurum gizlilik riski yok mu?",
+        "Carousel örnekleri metinle uyumlu mu?",
+        "Reels örnekleri metinle uyumlu mu?",
+        "Snippet’e uygun kısa tanımlar var mı?",
+        "FAQ cevapları 2–4 cümle bandında mı?",
+        "Örnek oranlar “Varsayım” olarak işaretleniyor mu?",
+        "CTA blokları görsel callout olarak tasarlanabilir mi?",
+        "“Mini Check” alanları UI bileşeni gibi okunuyor mu?",
+        "Tablo sütunları net mi (Pillar/Amaç/KPI/Format)?",
+        "Diyagram etiketleri kısa mı?",
+        "Kullanıcı aksiyonu için “tek adım” net mi?",
+        "Asset şablonunun görsel karşılığı planlandı mı?",
+        "İçerikte “Buraya” notları doğru yerde mi?",
+        "Video önerisi gerekiyorsa işaretlenmiş mi? (Varsayım: isteğe bağlı)",
+        "Görsel yoğunluğu performansı bozmayacak şekilde planlanabilir mi?",
+        "Görsel alt metinleri (alt) üretilebilir mi? (Varsayım)",
+        "Paylaşılabilir özet grafik fikri var mı? (Varsayım)"
+      ],
+      "technicalSeo": [
+        "URL slug anlaşılır ve kısa mı?",
+        "Sayfa canonical doğru kurgulanabilir mi? (Varsayım)",
+        "H1 tekil mi?",
+        "H2/H3 hiyerarşisi tutarlı mı?",
+        "İç linkler doğru sayfalara gidiyor mu?",
+        "/tr/smm ile uyumlu bilgi mimarisi var mı?",
+        "/tr/seo/icerik-seo iç linki anlamlı bağlamda mı?",
+        "FAQ schema eklemeye uygun Q&A formatı var mı?",
+        "JSON-LD @graph zorunluları mevcut mu?",
+        "BreadcrumbList hiyerarşisi mantıklı mı?",
+        "Article alanları (headline/description/date) hazır mı? (Varsayım: datePublished eklenecek)",
+        "speakable alanı H1 + answer block’u kapsıyor mu?",
+        "HowTo eklenecekse adımlar net mi?",
+        "Görseller için lazy-load planlanabilir mi? (Varsayım)",
+        "LCP’yi bozacak hero görsel yok mu? (Varsayım)",
+        "İçerik içi anchor link (TOC) eklenebilir mi? (Varsayım)",
+        "Structured data’da URL/@id tutarlı mı?",
+        "Organization bilgisi tutarlı mı?",
+        "Dil/locale işaretleri doğru mu? (Varsayım: hreflang)",
+        "Open Graph meta üretilebilir mi? (Varsayım)",
+        "Schema’da FAQ sayısı 3–5 ile sınırlı mı?",
+        "SGE/voice blokları sayfada bulunabilir mi (CSS sınıfları)? (Varsayım)",
+        "İçerik güncelleme periyodu (365) notu var mı?",
+        "Heading’ler gelecekte PAA genişletmeye uygun mu?",
+        "Site genelinde aynı terim sözlüğü kullanılıyor mu?"
+      ]
+    }
+  },
+
+  "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde": {
+  "title": "Kurumsal Web Sitesi Go-Live Checklist’i | DGTLFACE",
+  "slug": "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde",
+  "department": "yazilim",
+  "excerpt": "Kurumsal web sitesi yayına çıkmadan önce teknik SEO, Core Web Vitals, formlar ve KVKK’yı 40 maddede kontrol edin. Go-live riskini azaltın.",
+  "seo": {
+    "metaTitle": "Kurumsal Web Sitesi Go-Live Checklist’i | DGTLFACE",
+    "metaDescription": "Kurumsal web sitesi yayına çıkmadan önce teknik SEO, Core Web Vitals, formlar ve KVKK’yı 40 maddede kontrol edin. Go-live riskini azaltın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Yazılım",
+      "Sayfa Adı / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+      "Blog No / URL: Blog #1 — /tr/yazilim/blog/kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde",
+      "Blog Tipi: Core",
+      "Intent: Informational + Tactical (MoFu)",
+      "Zorluk / Seviye: Intermediate",
+      "Word Count Range: 2300–2700"
+    ],
+    "strategySummary": "Bu içerik, “Web Sitesi Geliştirme” hizmet sayfasına otorite taşıyan core child rolünde çalışır: go-live (yayına çıkış) sürecini sistemleştirerek hem ajans hem işletme tarafında “yayın sonrası sürpriz” riskini azaltır. Persona tarafında otel sahibi / satış-pazarlama müdürü / ajans yöneticisi için consideration → conversion köprüsüdür: “Yayına çıkmadan önce neyi nasıl kontrol edeceğim?” sorusunu net bir checklist’e dönüştürür. Ana iş sorusu: Go-live öncesi teknik + içerik/SEO + form/entegrasyon + KVKK adımlarını tek çatı altında nasıl güvenli tamamlarım? İçerik sonunda kullanıcıyı “analiz talebi” CTA’sına ve indirilebilir şablona yönlendirerek uygulanabilir bir araç sunar."
+  },
+  "modules": {
+    "answerBlock": "İyi bir kurumsal web sitesi proje “bitti” sayılmaz; yayına çıkış (go-live) checklist’i tamamlandığında gerçekten biter. Bu checklist; teknik kontroller (hız, mobil, HTTPS, redirect, hata sayfaları), içerik-SEO (title/meta, H etiketleri, iç link, hreflang), formlar-entegrasyonlar (test akışı, CRM/PMS/OTA), güvenlik ve KVKK/çerez adımlarını tek çatı altında toplar. Böylece yayına çıktıktan sonraki ilk günlerde oluşan sürpriz hatalar ve itibar kaybı minimuma iner.",
+    "sgeSummary": "Kurumsal sitenizi yayına almadan önce teknik, içerik-SEO, formlar/entegrasyonlar ve KVKK’yı 40 maddelik checklist ile doğrulayın; go-live sonrası hata ve geri dönüş riskini düşürün.",
+    "voiceAnswer": "Web sitenizi yayına almadan önce hız, HTTPS, SEO, formlar, entegrasyonlar ve KVKK’yı checklist ile kontrol edin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel & B2B marka yöneticileri, ajans ekipleri, ürün/IT sorumluları",
+      "KPI: Go-live sonrası kritik hata sayısı, form dönüşümü, CWV (LCP/INP/CLS), indexlenme hızı",
+      "Temel entity: SSL/TLS, redirect, Core Web Vitals, hreflang, KVKK, cookie banner, CRM/PMS/OTA",
+      "Funnel: MoFu (taktik rehber) → CTA ile değerlendirme/analiz talebi",
+      "Risk alanları: Form akışı, entegrasyonlar, 404/500, canonical/hreflang, çerez & aydınlatma",
+      "GEO bağlamı: Türkiye’de otel/destinasyon siteleri (Antalya/Belek/Side/Kemer/Bodrum) ve B2B kurumsallar",
+      "Çıktı formatı: Tablo checklist + akış diyagramı + indirilebilir şablon"
+    ]
+  },
+  "h1": {
+    "title": "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
+    "intro": "Bir web sitesi “geliştirildi” diye yayına hazır olmaz; yayına çıkış (go-live), yazılım kalitesini, içerik disiplinini ve hukuki uyumu aynı anda test eden kritik bir aşamadır. Otel sitelerinde (Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon odaklı sayfalar dahil) form/rezervasyon akışı ve hız problemleri doğrudan gelir kaybına döner; B2B sitelerde ise lead form + CRM akışı bozulursa pazarlama bütçesi boşa yanar. Bu rehber, teknik + içerik/SEO + entegrasyon + KVKK adımlarını tek çatı altında checklist’e dönüştürür: ekipler arası “top bende mi sende mi?” tartışmasını bitirir, yayın sonrası sürprizleri azaltır.",
+    "quickSummary": [
+      "Teknik (HTTPS, hız, redirect, hata yönetimi)",
+      "İçerik-SEO (title/meta, H yapısı, iç link, index)",
+      "Form-Entegrasyon (test akışı, mail/CRM, rezervasyon)",
+      "KVKK-Güvenlik (çerez banner, politikalar, veri işleme, yedekleme)"
+    ],
+    "ctaPrimary": {
+      "label": "Go-Live Checklist Analizi Talep Et",
+      "text": "Go-live öncesi sitenizi 40 maddeye göre hızlıca tarayalım; otel ve B2B projelerde yayın riskini netleştirelim.",
+      "href": "/tr/yazilim/web-sitesi-gelistirme"
+    }
+  },
+  "sections": [
+    {
+      "id": "yayina-hazirlik-mantigi",
+      "title": "Yayına Hazırlık Mantığı",
+      "preBlocks": [
+        {"type":"media","slot":"golive-diagram"}],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Go-live sürecini bir “tek tuş” değil, kontrollü bir geçiş olarak düşünün: staging → pre-prod → prod. Çünkü yayına çıkışta hata yapmak pahalıdır: arama motoru taraması yanlış sinyal alır, kullanıcı ilk izlenimde kaybolur, form/rezervasyon akışı kırılır. En iyi pratik; kontrol listesini bloklara ayırıp (Teknik / İçerik-SEO / Form-Entegrasyon / Güvenlik-KVKK) her blok için “sorumlu + kanıt” tanımlamaktır."
+        },
+        {
+          "type": "p",
+          "text": "Go-live hygiene yaklaşımı: “Her madde geçti mi?” değil, “kanıt var mı?” (ekran görüntüsü, test linki, rapor, log, e-posta) sorusudur. Bu, özellikle ajans-müşteri ilişkilerinde netlik sağlar."
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Her kontrol maddesine sorumlu kişi ve kanıt türü atandı mı?",
+            "Go-live günü için geri dönüş (rollback) planı var mı?",
+            "Yayın sonrası ilk 72 saat için izleme (monitoring) planı belirlendi mi?"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Buraya: Go-live akış diyagramı (Staging → Pre-Prod → Prod → 72 Saat İzleme)"
+        }
+      ]
+    },
+    {
+      "id": "teknik-kontroller",
+      "title": "Teknik Kontroller (Hız, Mobil, HTTPS)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Teknik blok, görünmeyen ama en çok hasar veren alandır. “Site açılıyor” yeterli değil; performans, güvenlik, yönlendirme ve hata yönetimi doğru değilse SEO ve dönüşüm aynı anda düşer. Özellikle mobil trafikte (otel ve B2B’de çoğu zaman çoğunluk) hız ve etkileşim metrikleri (Core Web Vitals) kritik."
+        },
+        {
+          "type": "h3",
+          "text": "SSL/TLS, HTTPS ve Güvenli Geçiş"
+        },
+        {
+          "type": "p",
+          "text": "HTTPS yalnızca “kilit ikonu” değildir; doğru yapılandırılmadığında karışık içerik (mixed content), yanlış redirect zinciri ve güvenlik başlıkları eksikliği üretir."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "SSL sertifikası geçerli mi, tüm alan adlarını kapsıyor mu?",
+            "HTTP → HTTPS yönlendirmesi tek adımda mı?",
+            "HSTS planı var mı? (Varsayım: Kurumsal projelerde önerilir)"
+          ]
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Tüm sayfalar HTTPS mi?",
+            "Mixed content yok mu?",
+            "Tek adım 301 redirect çalışıyor mu?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Redirect, URL Yapısı, 404/500 ve Logik"
+        },
+        {
+          "type": "p",
+          "text": "Go-live sonrası en sık sorun: eski URL’lerin boşa düşmesi, yanlış 302 kullanımı, 404 artışı. URL hijyeni, özellikle içerik migrasyonlarında “trafik kaybı” riskini belirler."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Redirect haritası hazır mı? (Eski → Yeni)",
+            "404 sayfası kullanıcıyı yönlendiriyor mu?",
+            "500/502 gibi sunucu hataları için alarm var mı?"
+          ]
+        },
+        {"type":"media","slot":"redirect-map"},
+        {
+          "type": "note",
+          "text": "Buraya: Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not)"
+        },
+        {
+          "type": "h3",
+          "text": "Core Web Vitals (LCP, INP, CLS) ve Mobil Deneyim"
+        },
+        {
+          "type": "p",
+          "text": "Core Web Vitals yalnızca SEO değil, satın alma/lead performansını da etkiler. En azından ana şablon sayfalarda hedef koyun: LCP, INP, CLS izlenmeli."
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Görsel optimizasyon (WebP/AVIF, lazy-load) yapıldı mı?",
+            "JS/CSS şişkinliği azaltıldı mı?",
+            "Mobil menü, slider, pop-up davranışları test edildi mi?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Teknik SEO Temeli (Robots, Sitemap, Canonical)"
+        },
+        {
+          "type": "p",
+          "text": "Teknik SEO notunuzla uyumlu olarak, bu blog içeriği ayrıca /tr/seo/teknik-seo içeriğine köprü kurmalıdır."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "robots.txt doğru mu? Prod’da staging engelleri kaldırıldı mı?",
+            "sitemap.xml güncel mi, Search Console’a hazır mı?",
+            "canonical’lar doğru mu (özellikle filtreli sayfalar vs.)?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "İlgili iç link: /tr/seo/teknik-seo (teknik kontrol detayları)"
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Index/noindex kuralları prod’da doğrulandı mı?",
+            "Canonical kendini mi işaret ediyor?",
+            "Sitemap’te hatalı/çift URL yok mu?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icerik-seo-kontrolleri",
+      "title": "İçerik ve SEO Kontrolleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Yayına çıkışta içerik kontrolü “metin var mı?” değil; arama niyeti + semantik kapsama + sayfa mimarisi kontrolüdür. H1-H3 hiyerarşisi, title/meta kalitesi, iç link ağı ve çok dilli etiketler (varsa) aynı anda doğru olmalı."
+        },
+        {
+          "type": "h3",
+          "text": "Title/Meta, H1–H3 ve Snippet Kurgusu"
+        },
+        {
+          "type": "p",
+          "text": "Her sayfanın tek bir amacı ve tek bir “ana cümlesi” olmalı. Title/meta bu cümleyi taşır; H1 bu cümleyi sahaya indirir."
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Title 55–60 karakter bandında mı?",
+            "Meta description 150–170 karakter mi, fayda+CTA hissi var mı?",
+            "H1 tek mi, H2/H3 mantıklı mı?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "İç Linkler ve Navigasyon (SXO)"
+        },
+        {
+          "type": "p",
+          "text": "İç link yalnız SEO için değil, kullanıcı için “sonraki adım”dır. Kullanıcı nereden geldi, nereye gidecek? Go-live sonrası özellikle otel sitelerinde “oda/teklif/rezervasyon” yolları, B2B’de “hizmet/teklif al” yolları net olmalı."
+        },
+        {
+          "type": "h4",
+          "text": "Ne yapmalıyım? (SXO)"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "En çok trafik alan 10 sayfayı seç → her birine “sonraki adım” linki ekle",
+            "Menü + footer’da en kritik 5 rota sabitle",
+            "İletişim/teklif aksiyonunu her şablonda görünür tut"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Çok Dilli Yapı (Varsa) — Hreflang ve Dil Etiketleri"
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Sitenizde çok dil olabilir (TR/EN/DE/RU gibi). Bu durumda hreflang en sık hata alan yerdir: yanlış self-reference, eksik dönüşler, yanlış canonical."
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Her dil sayfası karşılıklı hreflang ile bağlı mı?",
+            "Default (x-default) stratejisi belirlendi mi?",
+            "Dil switcher yanlış sayfaya atmıyor mu?"
+          ]
+        },
+        {"type":"media","slot":"lang-hreflang"},
+        {
+          "type": "note",
+          "text": "Buraya: Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)"
+        }
+      ]
+    },
+    {
+      "id": "form-rezervasyon-entegrasyon-testleri",
+      "title": "Form, Rezervasyon ve Entegrasyon Testleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm go-live’ın “para kazandıran” kısmıdır. Otel sitelerinde rezervasyon/teklif akışı; B2B’de lead form + CRM akışı kesintisiz çalışmalı. “Form gidiyor gibi” görünür ama e-posta düşmüyorsa veya CRM’e lead yazılmıyorsa, dönüşüm sıfırlanır."
+        },
+        {
+          "type": "h3",
+          "text": "Form ve rezervasyon akışını nasıl test ederim?"
+        },
+        {
+          "type": "p",
+          "text": "Form/rezervasyon testini “tek tık” değil, uçtan uca senaryo olarak kurgulayın: test formu → doğrulama → e-posta/CRM kaydı → bildirim → raporlama. En az 3 senaryo çalışın: normal, eksik alan, hata üret (captcha/timeout). Sonuçları kanıtla (mail screenshot, CRM kaydı, analytics event)."
+        },
+        {
+          "type": "h4",
+          "text": "Test E-postaları, SMTP ve Bildirimler"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Test maili gönderildi mi (Gmail/Outlook farklı test)?",
+            "SMTP/DKIM/SPF (Varsayım) doğrulandı mı?",
+            "Admin bildirimleri + kullanıcı teşekkür mesajı doğru mu?"
+          ]
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Her form için test kaydı ve kanıt var mı?",
+            "Spam’e düşme riski kontrol edildi mi?",
+            "Hata mesajları kullanıcı dostu mu?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Otel Özelinde PMS/OTA Link Testleri"
+        },
+        {
+          "type": "p",
+          "text": "Otel projelerinde kritik nokta: rezervasyon motoru, PMS bağlantısı, OTA yönlendirmeleri ve kampanya kodları. Özellikle Antalya-Belek gibi yoğun rekabetli destinasyonlarda, bir gün “rezervasyon akışı bozuk” kalmak bile pahalıdır."
+        },
+        {
+          "type": "h4",
+          "text": "Ne yapmalıyım? (SXO)"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Rezervasyon CTA’larını 3 cihazda test et (iOS/Android/Desktop)",
+            "Kampanya kodu / tarih seçimi / oda seçimi adımlarını kayıt altına al",
+            "Hata halinde kullanıcıyı boş sayfada bırakma: “alternatif teklif formu” aç"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B2B Özelinde Lead Form ve CRM Akışı"
+        },
+        {
+          "type": "p",
+          "text": "B2B’de “lead” demek satış pipeline demektir. Go-live sonrası ilk 30 günde kritik hata sayısı düşüyorsa, bunun önemli nedeni form+CRM akışının doğru kurulmasıdır (sheet data point)."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "CRM’e lead düşüyor mu?",
+            "Kaynak/medium doğru yakalanıyor mu?",
+            "Sales ekibine bildirim gidiyor mu?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guvenlik-kvkk-adimlari",
+      "title": "Güvenlik ve KVKK Adımları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "KVKK ve güvenlik, “sonradan ekleriz” alanı değildir. Çerez banner, aydınlatma metinleri, açık rıza, form onay kutuları ve veri saklama süreçleri go-live’ın parçasıdır. Özellikle otel sitelerinde remarketing, analitik, rezervasyon motoru gibi üçüncü taraflar devreye girdiğinde KVKK karmaşıklaşır."
+        },
+        {
+          "type": "h3",
+          "text": "KVKK, Çerez Banner ve Politikalar"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Aydınlatma metni, gizlilik politikası, çerez politikası yayınlandı mı?",
+            "Çerez banner kategori bazlı yönetiyor mu? (Varsayım: önerilir)",
+            "Formlarda açık rıza / bilgilendirme doğru mu?"
+          ]
+        },
+        {
+          "type": "h4",
+          "text": "☑ Mini Check"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Çerez tercihi kaydediliyor mu?",
+            "Ret/accept sonrası tag davranışı doğru mu?",
+            "Politika sayfaları footer’dan erişilebilir mi?"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Temel Güvenlik (WAF, Rate Limit, Yedekleme)"
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Kurumsal projelerde minimum güvenlik standardı istenir."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Admin panelleri korunuyor mu (2FA, güçlü parola politikası)?",
+            "Rate limit / bot koruması var mı?",
+            "Yedekleme ve geri yükleme test edildi mi?"
+          ]
+        },
+         {"type":"media","slot":"security-cards"},
+        {
+          "type": "note",
+          "text": "Buraya: Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)"
+        }
+      ]
+    },
+    {
+      "id": "otel-b2b-ek-kontroller",
+      "title": "Otel ve B2B İçin Ek Kontroller",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Her sektörün “kritik sayfaları” farklıdır. Otelde: oda/teklif/rezervasyon akışı, sezon sayfaları, destinasyon içerikleri (Antalya, Belek, Side, Kemer, Bodrum) ve kampanya landing’leri. B2B’de: hizmet sayfaları, vaka çalışmaları, teklif formu, referans/sertifika alanları."
+        },
+        {
+          "type": "h3",
+          "text": "Otel Siteleri İçin Ek Kontrol Seti"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Destinasyon sayfalarında hız ve görsel optimizasyon",
+            "Rezervasyon CTA’larının görünürlüğü",
+            "Sezon kampanya landing’lerinde tracking"
+          ]
+        },
+        {
+          "type": "h4",
+          "text": "Ne yapmalıyım? (SXO)"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "“Rezervasyon/teklif” CTA’larını sayfa üstü + orta + alt konuma sabitle",
+            "Mobilde sticky CTA’yı test et (kapanma/çakışma yok)",
+            "Kampanya sayfalarını 7 gün boyunca günlük kontrol et"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B2B Kurumsal Siteler İçin Ek Kontrol Seti"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lead form event’leri ölçülüyor mu (GA4/GTM)?",
+            "Case study / referanslar erişilebilir mi?",
+            "Satış ekibi için “lead kalitesi” alanları var mı?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aeo-ozet-soru",
+      "title": "Kurumsal web sitesi yayına çıkmadan önce neler kontrol edilmeli?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Özet olarak 4 blok: Teknik (HTTPS, hız, redirect, hata yönetimi), İçerik-SEO (title/meta, H yapısı, iç link, index), Form-Entegrasyon (test akışı, mail/CRM, rezervasyon), KVKK-Güvenlik (çerez banner, politikalar, veri işleme, yedekleme). Bu blokların her biri için “kanıt” üretirseniz go-live sonrası sürprizler ciddi biçimde azalır."
+        }
+      ]
+    },
+    {
+      "id": "go-live-checklist-download",
+      "title": "“Kurumsal Web Sitesi Yayına Çıkış Checklist” Şablonunu İndir — Web Sitesi Geliştirme (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "“Kurumsal Web Sitesi Yayına Çıkış Checklist” Şablonunu İndir — Web Sitesi Geliştirme (v1.0)",
+          "purpose": "Bu şablon, go-live öncesi kontrol maddelerini Teknik / İçerik-SEO / Form-Entegrasyon / KVKK-Güvenlik bloklarına ayırır ve her madde için “sorumlu + kanıt” disiplinini kurar. Böylece yayın sonrası ilk 30 günde ortaya çıkan kritik hataları ve beklenmedik geri dönüşleri anlamlı ölçüde azaltacak bir uygulama standardı oluşturur. Otel (destinasyon sayfaları dahil) ve B2B projelerde ekip içi koordinasyonu hızlandırır.",
+          "whoFor": "Ajans proje yöneticisi, geliştirici, SEO uzmanı, içerik editörü, otel/B2B marka yöneticisi.",
+          "steps": [
+            "Şablonu projeye kopyalayın ve sayfa türlerinize göre (ana sayfa, hizmet, blog, landing) madde kanıtlarını ekleyin.",
+            "Go-live öncesi 60 dakikalık “kontrol toplantısı” yapın: her madde için kanıt toplayın.",
+            "Yayın sonrası 14 günlük sprint planıyla kalan iyileştirmeleri sıraya koyun ve KPI’ları takip edin."
+          ],
+          "checklist": [
+            "HTTPS tek adım 301 — Kanıt: redirect test ekranı",
+            "Mixed content yok — Kanıt: tarayıcı console raporu",
+            "CWV ölçümü — Kanıt: PageSpeed/CrUX çıktısı",
+            "404/500 izleme — Kanıt: monitoring ekranı (Varsayım)",
+            "Title/Meta kontrol — Kanıt: sayfa listesi",
+            "H1-H3 hiyerarşisi — Kanıt: örnek 5 sayfa",
+            "Canonical/hreflang — Kanıt: kaynak kod kontrolü",
+            "Form test kaydı — Kanıt: e-posta + CRM screenshot",
+            "Rezervasyon akışı (otel) — Kanıt: ekran kaydı",
+            "GA4/GTM event — Kanıt: debug view",
+            "Çerez banner davranışı — Kanıt: kabul/ret senaryosu",
+            "Politika sayfaları — Kanıt: link + tarih",
+            "Form rıza kutusu — Kanıt: form ekranı"
+          ],
+          "href": "/downloads/kurumsal-web-sitesi-yayina-cikis-checklist-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {
+          "type": "note",
+          "text": "Buraya: İndirilebilir PDF/Sheet görseli (kapak + 1 sayfa preview)"
+        }
+      ]
+    }
+  ],
+  "ctaModule": {
+    "primary": {
+      "label": "Go-Live Checklist Analizi Talep Et",
+      "text": "Go-live öncesi sitenizi 40 maddeye göre tarayalım; otel ve B2B projelerde yayın riskini netleştirelim.",
+      "href": "/tr/yazilim/web-sitesi-gelistirme"
+    },
+    "secondary": {
+      "label": "“Kurumsal Web Sitesi Yayına Çıkış Checklist” Şablonunu İndir",
+      "text": "Ekipte görev dağıtımı yapın; go-live gününü 40 madde üzerinden 1 saatlik kontrol toplantısına çevirin.",
+      "href": "/downloads/kurumsal-web-sitesi-yayina-cikis-checklist-v1.0.pdf"
+    }
+  },
+  "asset": {
+    "title": "“Kurumsal Web Sitesi Yayına Çıkış Checklist” Şablonunu İndir — Web Sitesi Geliştirme (v1.0)",
+    "purpose": "Bu şablon, go-live öncesi kontrol maddelerini Teknik / İçerik-SEO / Form-Entegrasyon / KVKK-Güvenlik bloklarına ayırır ve her madde için “sorumlu + kanıt” disiplinini kurar. Böylece yayın sonrası ilk 30 günde ortaya çıkan kritik hataları ve beklenmedik geri dönüşleri anlamlı ölçüde azaltacak bir uygulama standardı oluşturur. Otel (destinasyon sayfaları dahil) ve B2B projelerde ekip içi koordinasyonu hızlandırır.",
+    "whoUses": "Ajans proje yöneticisi, geliştirici, SEO uzmanı, içerik editörü, otel/B2B marka yöneticisi.",
+    "howToUse": [
+      "Şablonu projeye kopyalayın ve sayfa türlerinize göre (ana sayfa, hizmet, blog, landing) madde kanıtlarını ekleyin.",
+      "Go-live öncesi 60 dakikalık “kontrol toplantısı” yapın: her madde için kanıt toplayın.",
+      "Yayın sonrası 14 günlük sprint planıyla kalan iyileştirmeleri sıraya koyun ve KPI’ları takip edin."
+    ],
+    "template": {
+      "A_olcum_ve_onceliklendirme_checklisti": [
+        "Kural: Her satır “Kanıt” içerir (screenshot/link/log).",
+        "Teknik",
+        "• HTTPS tek adım 301 — Kanıt: redirect test ekranı",
+        "• Mixed content yok — Kanıt: tarayıcı console raporu",
+        "• CWV ölçümü — Kanıt: PageSpeed/CrUX çıktısı",
+        "• 404/500 izleme — Kanıt: monitoring ekranı (Varsayım)",
+        "İçerik-SEO",
+        "• Title/Meta kontrol — Kanıt: sayfa listesi",
+        "• H1-H3 hiyerarşisi — Kanıt: örnek 5 sayfa",
+        "• Canonical/hreflang — Kanıt: kaynak kod kontrolü",
+        "Form-Entegrasyon",
+        "• Form test kaydı — Kanıt: e-posta + CRM screenshot",
+        "• Rezervasyon akışı (otel) — Kanıt: ekran kaydı",
+        "• GA4/GTM event — Kanıt: debug view",
+        "KVKK",
+        "• Çerez banner davranışı — Kanıt: kabul/ret senaryosu",
+        "• Politika sayfaları — Kanıt: link + tarih",
+        "• Form rıza kutusu — Kanıt: form ekranı"
+      ],
+      "B_problem_kok_neden_cozum_tablosu": "tablo görsel olarak gönderildi",
+      "C_14_gunluk_sprint_plani": [
+        "Gün 1: Go-live sonrası hata raporu toplama (404/500, form, CWV)",
+        "Gün 2: Redirect düzeltmeleri + sitemap güncelleme",
+        "Gün 3: Form/CRM teslim oranı iyileştirme",
+        "Gün 4: Görsel optimizasyon (hero + galeri)",
+        "Gün 5: JS/CSS azaltma + lazy-load düzeni",
+        "Gün 6: KVKK/çerez davranışı test-düzelt",
+        "Gün 7: İç link iyileştirme (kritik 10 sayfa)",
+        "Gün 8: Meta/heading kalite düzeltmeleri",
+        "Gün 9: Otel rezervasyon akışı A/B test (Varsayım)",
+        "Gün 10: B2B lead kalitesi alanları düzeni",
+        "Gün 11: Schema test & düzeltme",
+        "Gün 12: Monitoring + alarm eşikleri (Varsayım)",
+        "Gün 13: “Hızlı kazanım” deploy",
+        "Gün 14: KPI raporu + sonraki sprint backlog"
+      ],
+      "D_oncesi_sonrasi_kpi_tablosu": "tablo görsel olarak gönderildi",
+      "E_deliverables_listesi": [
+        "Go-live checklist (tablo) + kanıt alanları",
+        "Redirect haritası şablonu",
+        "14 günlük sprint planı",
+        "KPI takip tablosu",
+        "Buraya: “PDF kapak + 1 sayfa preview” görsel notu",
+        "Buraya: Basit go-live akış diyagramı notu"
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": "Kurumsal web sitesi yayına çıkmadan önce neler kontrol edilmeli?",
+      "a": "Teknik (HTTPS, hız, redirect, hata yönetimi), içerik-SEO (title/meta, H yapısı, index), form-entegrasyon (test akışı, CRM/PMS/OTA) ve KVKK (çerez, politikalar, rıza) bloklarını kanıtla doğrulayın."
+    },
+    {
+      "q": "Web sitesi go-live checklist’i nasıl hazırlanır?",
+      "a": "Maddeleri bloklara ayırın, her maddeye “sorumlu + kanıt” ekleyin, go-live günü 60 dakikalık kontrol toplantısıyla sonuçlandırın ve yayın sonrası 14 günlük sprint planı çıkarın."
+    },
+    {
+      "q": "Otel sitesi için ekstra hangi testleri yapmalıyım?",
+      "a": "Rezervasyon motoru adımlarını (tarih-oda-fiyat-ödeme) cihaz bazlı test edin; kampanya kodları ve destinasyon sayfalarında hız/CTA görünürlüğünü doğrulayın."
+    },
+    {
+      "q": "B2B sitesi için ekstra hangi testleri yapmalıyım?",
+      "a": "Lead formun CRM’e düşmesini, kaynak/medium bilgisini ve satış ekibine bildirim akışını kanıtla doğrulayın; referans/case rotalarını görünür tutun."
+    },
+    {
+      "q": "Form ve rezervasyon akışını nasıl test ederim?",
+      "a": "Uçtan uca senaryo kurun: normal-eksik-hata senaryosu çalıştırın; e-posta/CRM kaydı ve analytics event’lerini ekran görüntüsüyle kanıtlayın."
+    },
+    {
+      "q": "Go-live sonrası ilk 72 saatte ne yapmalıyım?",
+      "a": "404/500, form teslimi ve CWV metriklerini günlük kontrol edin; kritik hataları aynı gün düzeltin, geri kalanları sprint planına koyun."
+    },
+    {
+      "q": "Hreflang hataları go-live’ı nasıl etkiler?",
+      "a": "Yanlış hreflang indexlenmeyi böler, yanlış dil sayfasını sıralatır ve dönüşümü düşürür; karşılıklı eşleşme ve self-reference doğrulaması şarttır."
+    },
+    {
+      "q": "KVKK ve çerez banner go-live’da neden kritik?",
+      "a": "Ret/accept senaryoları doğru değilse hem hukuki risk hem ölçüm hatası oluşur; izin yönetimi ve politika sayfaları go-live’ın parçasıdır."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Web Sitesi Geliştirme (hub)",
+      "href": "/tr/yazilim/web-sitesi-gelistirme"
+    },
+    {
+      "label": "Teknik SEO",
+      "href": "/tr/seo/teknik-seo"
+    },
+    {
+      "label": "KVKK uyum hizmeti",
+      "href": "/tr/yazilim/kvkk-uyum-hizmeti"
+    },
+    {
+      "label": "CMS entegrasyonu",
+      "href": "/tr/yazilim/cms-entegrasyonu"
+    }
+  ]
+}
+
 
   }
 

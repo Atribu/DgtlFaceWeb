@@ -18,7 +18,7 @@ const BLOG_DEPARTMENTS_V2 = [
   { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/Services/pms" },
   { id: "call-center", label: "Çağrı Merkezi", href: "/Services/callcenter" },
   { id: "smm", label: "SMM", href: "/Services/smm" },
-  { id: "software", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
+  { id: "yazılım", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
   { id: "seo", label: "SEO", href: "/Services/seo" },
   { id: "data-analytics", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
   { id: "hotel-digital", label: "Otel Dijital Dönüşüm", href: "/Services/hotel" },

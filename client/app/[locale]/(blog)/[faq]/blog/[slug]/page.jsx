@@ -482,7 +482,7 @@ export default async function BlogDetailPage({ params }) {
               {quickSummary.length > 0 ? (
                 <div className="rounded-3xl border border-white/10 bg-white/5 px-3 py-2 4xl:p-5">
                   <p className="text-sm font-medium text-white">Hızlı Kontrol</p>
-                  <ul className="mt-3 space-y-2 text-sm text-white/75">
+                  <ul className="mt-1 space-y-2 text-xs text-white/75">
                     {quickSummary.slice(0, 3).map((x, i) => (
                       <li key={i}>• {x}</li>
                     ))}

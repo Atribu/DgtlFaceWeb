@@ -9,19 +9,19 @@ export const BLOG_MAP = {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi"
   },
 
+    smm: {
+    "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi"
+  },
+
+    yazilim: {
+    "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde"
+  },
+
   hotel:{
     "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir"
   }
 };
 
 
-export const BLOG_INDEX = [
-  {
-    slug: "seo-teknik-kontrol-listesi",
-    department: "seo",
-    key: "BlogSeoTeknik",
-  },
-  // diğer bloglar buraya
-  // { slug: "semde-2026-trendleri", department: "sem", key: "BlogSem2026" },
-];
+
 
