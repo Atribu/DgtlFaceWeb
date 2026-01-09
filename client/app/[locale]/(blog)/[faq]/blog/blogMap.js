@@ -16,6 +16,22 @@ export const BLOG_MAP = {
     yazilim: {
     "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde"
   },
+         creative: {
+    "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi"
+  },
+
+       callcenter: {
+    "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir"
+  },
+
+     "pms-ota": {
+    "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir"
+  },
+
+      "veri-analizi": {
+    "looker-studio-oteller-icin-nedir-nasil-calisir": "BlogLookerStudioOtellerIcinNedirNasilCalisir"
+  },
+
 
   hotel:{
     "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir"

@@ -7451,11 +7451,11 @@
 },
 {
   "q": "Bu SSS içeriği ne sıklıkla güncelleniyor?",
-  "a": "En az 180 günde bir (yaklaşık 6 ayda bir), yeni hizmetler, sektörler veya üretken arama (GEO) genişlemelerine göre gözden geçirilir. Önemli model değişikliklerinde ise daha erken güncelleme yapılır."
+  "a": "En az 180 günde bir (yaklaşık 6 ayda bir), yeni hizmetler, sektörler veya üretken arama  genişlemelerine göre gözden geçirilir. Önemli model değişikliklerinde ise daha erken güncelleme yapılır."
 },
 {
   "q": "DGTLFACE’in genel SSS yapısı ileride genişletilecek mi?",
-  "a": "Evet. Bu sayfa, DGTLFACE’in çatı SSS yapısını temsil ediyor; ileride yeni sektörler, üretken arama (GEO) odaklı içerik blokları veya hizmetler eklendikçe, soru seti güncellenecek ve zenginleştirilecektir."
+  "a": "Evet. Bu sayfa, DGTLFACE’in çatı SSS yapısını temsil ediyor; ileride yeni sektörler, üretken arama  odaklı içerik blokları veya hizmetler eklendikçe, soru seti güncellenecek ve zenginleştirilecektir."
 }
 
         ]
@@ -24233,7 +24233,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "İlk kampanyadan önce “1 hedef + 1 landing + 1 ölçüm” üçlüsünü hazırlayın.",
             "İlk hafta hedefi büyütmeyin; doğru ölçüm ve temiz trafik hedefleyin."
@@ -24277,7 +24277,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Beginner seviyede: Search ile başla, Display’i remarketing olarak ekle.",
             "Video’yu, “konsept anlatımı” güçlü olduğunda ve temel ölçüm oturduğunda devreye al."
@@ -24329,7 +24329,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "“Her şey olsun” hedefi yerine, tek hedef ile öğrenme başlatın.",
             "Hedef pazara göre dil/para birimi/mesaj uyumunu kontrol edin."
@@ -24371,7 +24371,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "“Ölçüm yoksa reklam yok” kuralını benimseyin.",
             "Her kampanya için tek ana landing belirleyin (dağıtmayın)."
@@ -24422,7 +24422,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "İlk kampanyayı “tek destinasyon + tek konsept” gibi dar bir çerçeveyle açın.",
             "7 gün veri toplayın; sonra reklam metni ve negatif kelimelerle temizlik yapın."
@@ -24493,7 +24493,7 @@
         {
           "type": "callout",
           "variant": "action",
-          "title": "Ne yapmalıyım? (SXO)",
+          "title": "Ne yapmalıyım? ",
           "items": [
             "Dönüşüm tanımlarınızı 1 sayfada dokümante edin (ne, nerede, nasıl sayılıyor?).",
             "Landing performansını (hız, mobil UX, form basitliği) iyileştirmeden bütçe büyütmeyin."
@@ -24654,7 +24654,7 @@
             },
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24711,7 +24711,7 @@
             {"type":"media", "slot":"two-hotel"},
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24768,7 +24768,7 @@
             },
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24836,7 +24836,7 @@
              
             {
               "type": "h3",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24868,7 +24868,7 @@
             },
             {
               "type": "h4",
-              "text": "Otel örneği (GEO doğal kullanım)"
+              "text": "Otel örneği "
             },
             {
               "type": "ul",
@@ -24882,7 +24882,7 @@
             {"type":"media","slot":"country-lang"},
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24919,7 +24919,7 @@
             },
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -24952,7 +24952,7 @@
             },
             {
               "type": "h4",
-              "text": "Ne yapmalıyım? (SXO)"
+              "text": "Ne yapmalıyım? "
             },
             {
               "type": "ul",
@@ -25294,7 +25294,7 @@
     "sections": [
       {
         "id": "google-ads-butcesi-nasil-belirlenir",
-        "title": "Google Ads bütçesi nasıl belirlenir? (AEO)",
+        "title": "Google Ads bütçesi nasıl belirlenir? ",
         "preBlocks": [
           {"type":"media", "slot":"budget-planning"}],
         "blocks": [
@@ -25325,7 +25325,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce hedef KPI’ı yaz (CPA mı ROAS mı?)",
               "Sonra 30 günlük planla başla; 7 günde değil, 30 günde karar ver"
@@ -25371,7 +25371,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Brand’in “minimum payını” sabitle (sezonda bile düşürme)",
               "Generic’i pazar (TR/DE/RU) bazında ayrı takip et",
@@ -25401,7 +25401,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Günlük harcamaya takılıp panikleme; 7 günlük trendi izle",
               "“Ay ortası bitti, bütçe bitti” sorunu ya mimari ya da hedefleme genişliğidir"
@@ -25445,7 +25445,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Veri azsa: önce “ölçüm + stabil trafik”, sonra smart bidding",
               "Veri varsa: hedef CPA/ROAS’ı gerçekçi belirleyip kademeli sıkılaştır"
@@ -25492,7 +25492,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İlk 2–4 hafta: “ölçüm doğruluğu + stabil trafik”",
               "Sonra: hedef CPA/ROAS’ı kademeli yaklaştır (bir anda sert düşürme)"
@@ -25541,7 +25541,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sezona 6–8 hafta kala: bütçeyi “hazırlık” moduna al, ölçümü sağlamlaştır",
               "Sezon içinde: brand’i koru, generic’i pazar bazlı optimize et",
@@ -25585,7 +25585,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Yeni hesapta: “önce veri”",
               "Olgun hesapta: “hedefi sıkılaştır + bütçeyi pazar bazlı yönet”"
@@ -25726,7 +25726,7 @@
     },
     "h1": {
       "title": "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber",
-      "intro": "Core Web Vitals (CWV), Google’ın “sayfa deneyimi” yaklaşımında gerçek kullanıcı deneyimini ölçmek için kullandığı metrik setidir. Otel web siteleri genelde görsel ağırlıklı, etkileşimli (menüler, modüller, takvimler) ve pazarlama script’leriyle dolu olduğu için CWV problemleri daha sık görülür. Bu rehberde LCP, CLS ve INP’yi nasıl okuyacağınızı, otel senaryosunda neden bozulduğunu ve Next.js gibi modern framework’lerde adım adım nasıl düzelteceğinizi pratik bir şekilde ilerleteceğiz.\nBuraya: “CWV metriklerini gösteren örnek PageSpeed / CrUX ekranı” görseli.",
+      "intro": "Core Web Vitals (CWV), Google’ın “sayfa deneyimi” yaklaşımında gerçek kullanıcı deneyimini ölçmek için kullandığı metrik setidir. Otel web siteleri genelde görsel ağırlıklı, etkileşimli (menüler, modüller, takvimler) ve pazarlama script’leriyle dolu olduğu için CWV problemleri daha sık görülür. Bu rehberde LCP, CLS ve INP’yi nasıl okuyacağınızı, otel senaryosunda neden bozulduğunu ve Next.js gibi modern framework’lerde adım adım nasıl düzelteceğinizi pratik bir şekilde ilerleteceğiz.",
       
       "quickSummary": [
         "Ölç → teşhis et → önceliklendir → sprint ile uygula"
@@ -25792,7 +25792,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce field data ile en kötü sayfa şablonlarını seç.",
               "LCP öğesini tespit et; “hero mı, slider mı?” netleştir.",
@@ -25812,7 +25812,7 @@
           },
           {
             "type": "p",
-            "text": "Varsayım (GEO sinyali): Antalya, Belek, Side, Kemer gibi destinasyon sorgularında rekabet yoğun olduğu için performans farkı, aynı kalitede içerikler arasında belirleyici olabilir."
+            "text": "Varsayım : Antalya, Belek, Side, Kemer gibi destinasyon sorgularında rekabet yoğun olduğu için performans farkı, aynı kalitede içerikler arasında belirleyici olabilir."
           },
           { "type": "h3", "text": "CWV SEO’yu gerçekten etkiler mi? " },
           {
@@ -25845,7 +25845,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "En çok trafik alan 3 şablonu seç: anasayfa, oda detayı, kampanya/landing.",
               "Her şablonda “LCP öğesi + CLS kayması + en ağır script” üçlüsünü işaretle.",
@@ -25906,7 +25906,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "LCP öğesini netleştir (çoğu zaman hero).",
               "Hero görselini yeniden üret: AVIF/WebP + doğru boyutlar.",
@@ -25954,7 +25954,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Zıplamanın videosunu al, hangi öğe kaydırıyor tespit et.",
               "Her dinamik blok için “önceden ayrılmış alan” kuralını uygula.",
@@ -26000,7 +26000,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Mobilde en sık kullanılan 3 etkileşimi seç: menü, takvim, CTA.",
               "INP’ye en çok katkı yapan script/bundle’ı tespit et.",
@@ -26060,7 +26060,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Next.js’te görsel stratejisini standardize et (hero vs content images).",
               "Rezervasyon modülünü “kritik yol dışı” kurgula.",
@@ -26341,7 +26341,7 @@
     "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın",
     "slug": "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir",
     "department": "hotel",
-    "updatedAt": "2026-01-05",
+   "updatedAt":"5 Ocak 2026",
     "publishedAt": "2026-01-05",
     "readingTime": "9 dk okuma",
     "author": "DGTLFACE Editorial",
@@ -26495,7 +26495,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "SERP’i sorgu kümelerine ayırın: marka / destinasyon / konsept / oda / teklif.",
               "Her sorgu kümesi için doğru sayfa türünü belirleyin (oda–tesis–destinasyon–blog).",
@@ -26554,7 +26554,7 @@
         "id": "teknik-icerik-yerel-ucgen",
         "title": "Teknik SEO + içerik + yerel SEO üçgeni",
         "blocks": [
-          { "type": "media", "slot": "checklist-06" },
+          { "type": "media", "slot": "checklist" },
           {
             "type": "p",
             "text": "Otel SEO’nun sürdürülebilir olması için üçgenin üç köşesi birlikte çalışmalıdır. Teknik temel zayıfsa içerik boşa gider; içerik yoksa teknik tek başına direct booking getirmez; yerel sinyaller zayıfsa Hotel Pack tarafı eksik kalır."
@@ -26679,7 +26679,7 @@
         "id": "sonuc",
         "title": "Sonuç: OTA’ya rağmen kazanmanın yolu “tek hamle” değil, sistemdir",
         "blocks": [
-          { "type": "media", "slot": "proof-08" },
+          { "type": "media", "slot": "deliverables" },
           {
             "type": "p",
             "text": "Otel SEO, tek bir “SEO çalışması” değil; teknik temel + içerik seti + yerel sinyal + KPI okuma sistemidir. OTA’lar güçlü kalabilir; fakat siz doğru sorgu kümelerinde doğru sayfa türleriyle görünür olup, direct booking akışını hızlandırabilirsiniz."
@@ -26747,11 +26747,11 @@
           "banner (hero/cover) — 1920×1080 — otel-seo-nedir-ota...-hero-01.webp",
           "h1-context — 1920×1080 — otel-seo...-h1-context-02.webp",
           "divider-01 — 1600×1200 — ...-divider-03.webp",
-          "divider-02 — 1600×1200 — ...-divider-04.webp",
+          "divider-02 — 1600×1200 — ...-scenario.webp",
           "diagram-05 — 1920×1080 — ...-diagram-05.webp",
-          "checklist-06 — 1200×1200 — ...-checklist-06.webp",
-          "kpi-table-07 — 1200×1200 — ...-kpi-07.webp",
-          "proof-08 — 1200×1200 — ...-proof-08.webp",
+          "checklist — 1200×1200 — ...-checklist.webp",
+          "kpi-table-07 — 1200×1200 — ...-score-card.webp",
+          "deliverables — 1200×1200 — ...-deliverables.webp",
           "table-kpi-set — (tablo görseli)",
           "table-problem-root-solution — (tablo görseli)",
           "table-before-after-kpi — (tablo görseli)"
@@ -26772,7 +26772,7 @@
     "title": "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
     "slug": "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
     "department": "smm",
-    "updatedAt": "",
+  "updatedAt":"8 Ocak 2026",
     "excerpt": "Sosyal medya içerik stratejisi için content pillars’ı belirleyin, post/story/reels dengesini kurun. Otel ve B2B markalar için örneklerle 30 günlük plan çıkarın.",
     "seo": {
       "metaTitle": "Sosyal Medya İçerik Stratejisi: Content Pillars | DGTLFACE",
@@ -26821,12 +26821,12 @@
     "ctaModule": {
       "primary": {
         "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
-        "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: Buraya: /tr/smm/icerik-uretimi)",
+        "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: ",
         "href": "/tr/smm/icerik-uretimi"
       },
       "secondary": {
         "label": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir",
-        "text": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. (Link hedefi önerisi: Buraya: /tr/smm/planlama-strateji)",
+        "text": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. (Link hedefi önerisi: ",
         "href": "#download"
       }
     },
@@ -26850,7 +26850,7 @@
         "title": "Content Pillars Nedir? Neden “Strateji”nin Omurgasıdır?",
 
         "blocks": [
-          { "type": "h3", "text": "Content pillars nedir? (AEO – Soru/Cevap)" },
+          { "type": "h3", "text": "Content pillars nedir? " },
           {
             "type": "p",
             "text": "Kısa cevap: Content pillars, markanızın sosyal medyada sürekli konuşacağı ana içerik kategorileridir.\nPillar’lar; konularınızı rastgele değil, persona + hedef + funnel mantığıyla sınıflandırır. Böylece hem ekip “ne üreteceğini” bilir hem de performans verisi anlamlı hale gelir: hangi kategori hangi KPI’yı besliyor?"
@@ -26890,7 +26890,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Son 60 gün içeriklerinizi çıkarın (link/ekran görüntüsü).",
               "6–8 pillar adayını yazın (aşağıdaki modelle).",
@@ -26910,7 +26910,7 @@
             "text": "Pillar tasarımında en sağlam yol: persona sorunlarını içerik vaadine çevirmektir.\n\t•\tOtel (Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda):\n\t•\tProblem: “Benzer oteller arasında fark görünmüyor.”\n\t•\tİçerik vaadi: “Deneyimi netleştir, güven üret, rezervasyona giden yolu kısalt.”\n\t•\tB2B hizmet markası (ajans/teknoloji):\n\t•\tProblem: “Hizmet var ama somut sonuç ve süreç görünmüyor.”\n\t•\tİçerik vaadi: “Süreci şeffaflaştır, kanıt göster, karar riskini azalt.”"
           },
           {"type":"media","slot":"persona-cards"},
-          { "type": "p", "text": "Buraya: Persona kartları (2 kart: Otel GM + Ajans yöneticisi)" },
+
           { "type": "h3", "text": "2) Funnel’a göre pillar dağılımı (AIO)" },
           {
             "type": "p",
@@ -26970,7 +26970,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "4 ana sınıfı marka gerçekliğinize uyarlayın.",
               "Her sınıfı 2–3 pillar’a bölün (toplam 6–8 pillar).",
@@ -26986,7 +26986,7 @@
           { "type": "media", "slot": "format-distribution-diagram" }
         ],
         "blocks": [
-          { "type": "h2", "text": "Hangi formatları hangi oranda kullanmalıyım? (AEO – Soru/Cevap)" },
+          { "type": "h2", "text": "Hangi formatları hangi oranda kullanmalıyım? " },
           {
             "type": "p",
             "text": "Kısa cevap: Tek doğru oran yok; oranı hedef KPI + üretim kapasitesi + içerik türü belirler.\nBaşlangıç için güvenli yaklaşım: Reels/video keşfi büyütür, carousel bilgiyi taşır, story ilişkiyi güçlendirir, post ise kimliği sabitler; 30 gün test edip pillar bazında optimize edin."
@@ -27003,7 +27003,6 @@
             ]
           },
            {"type":"media","slot":"format-distribution"},
-          { "type": "p", "text": "Buraya: Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)" },
           {
             "type": "p",
             "text": "Varsayım (başlangıç “denge” örneği):\n\t•\tOtel hesabı: Reels %35, Story %35, Carousel %20, Post %10\n\t•\tB2B hizmet hesabı: Carousel %35, Reels %25, Story %25, Post %15\nBu oranlar “ilk 30 gün” içindir; en doğru karar KPI sonrası verilir."
@@ -27042,7 +27041,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce pillar setini netleştirin, sonra format oranı belirleyin.",
               "Her pillar’a “varsayılan format” atayın (birincil/ikincil).",
@@ -27090,13 +27089,12 @@
               "“Bodrum’da 48 saat” / “Side’de aile rotası” gibi"
             ]
           },
-          { "type": "h3", "text": "Otel Pillar 4: SSS & Rezervasyon Güveni (AEO için güçlü)" },
+          { "type": "h3", "text": "Otel Pillar 4: SSS & Rezervasyon Güveni " },
           {
             "type": "list",
             "style": "ul",
             "items": [
-              "İptal/iadeler, transfer, check-in/out, çocuk politikası",
-              "(İlgili destek içerik: Buraya: /tr/seo/icerik-seo — içerik + arama niyeti uyumu)"
+              "İptal/iadeler, transfer, check-in/out, çocuk politikası"
             ]
           },
           { "type": "h3", "text": "Otel Pillar 5: Sosyal Kanıt & Misafir Sesi" },
@@ -27163,7 +27161,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Otel/B2B için hazır setten başlayın (5 pillar).",
               "6. pillar’ı “marka farkı”na göre ekleyin (ör. sürdürülebilirlik, gastronomi, teknoloji).",
@@ -27188,7 +27186,6 @@
             ]
           },
            {"type":"media","slot":"30-days"},
-          { "type": "p", "text": "Buraya: 30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)" },
           { "type": "h3", "text": "Örnek: 1 haftalık dağılım (otel)" },
           {
             "type": "list",
@@ -27229,7 +27226,7 @@
             "type": "ctaInline",
             "variant": "secondary",
             "label": "Content Pillars & Format Dağılımı Planlama Şablonunu İndir",
-            "desc": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. (Link hedefi önerisi: Buraya: /tr/smm/planlama-strateji)",
+            "desc": "Ekibinize boş şablon olarak verin; 30 günlük takvimi 60 dakikada çıkarıp görev listesine çevirebilirsiniz. ",
             "href": "#download"
           }
         ]
@@ -27246,7 +27243,7 @@
             "type": "cta",
             "variant": "primary",
             "label": "İçerik Stratejisi & Content Pillars Analizi Talep Et",
-            "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: Buraya: /tr/smm/icerik-uretimi)",
+            "text": "Mevcut hesabınızın pillar analizini çıkarıp, 30 günlük format dengesi ve konu havuzunu birlikte netleştirelim. (Link hedefi önerisi: ",
             "href": "/tr/smm/icerik-uretimi"
           }
         ]
@@ -27277,7 +27274,6 @@
             "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.xlsx",
             "buttonLabel": "Excel’i İndir"
           },
-          { "type": "p", "text": "Buraya: Şablonun görsel versiyonu (Google Sheet/Notion template ekran görüntüsü)" },
           {
             "type": "p",
             "text": "E) Deliverables\n\t•\tPillar tablosu (dolu)\n\t•\t60–80 konu havuzu\n\t•\t30 günlük format dengeli takvim\n\t•\tKPI takip şablonu"
@@ -27436,6 +27432,7 @@
   "title": "Kurumsal Web Sitesi Go-Live Checklist’i | DGTLFACE",
   "slug": "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde",
   "department": "yazilim",
+  "updatedAt":"8 Ocak 2026",
   "excerpt": "Kurumsal web sitesi yayına çıkmadan önce teknik SEO, Core Web Vitals, formlar ve KVKK’yı 40 maddede kontrol edin. Go-live riskini azaltın.",
   "seo": {
     "metaTitle": "Kurumsal Web Sitesi Go-Live Checklist’i | DGTLFACE",
@@ -27508,10 +27505,6 @@
             "Go-live günü için geri dönüş (rollback) planı var mı?",
             "Yayın sonrası ilk 72 saat için izleme (monitoring) planı belirlendi mi?"
           ]
-        },
-        {
-          "type": "note",
-          "text": "Buraya: Go-live akış diyagramı (Staging → Pre-Prod → Prod → 72 Saat İzleme)"
         }
       ]
     },
@@ -27568,10 +27561,7 @@
           ]
         },
         {"type":"media","slot":"redirect-map"},
-        {
-          "type": "note",
-          "text": "Buraya: Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not)"
-        },
+
         {
           "type": "h3",
           "text": "Core Web Vitals (LCP, INP, CLS) ve Mobil Deneyim"
@@ -27656,7 +27646,7 @@
         },
         {
           "type": "h3",
-          "text": "İç Linkler ve Navigasyon (SXO)"
+          "text": "İç Linkler ve Navigasyon "
         },
         {
           "type": "p",
@@ -27664,7 +27654,7 @@
         },
         {
           "type": "h4",
-          "text": "Ne yapmalıyım? (SXO)"
+          "text": "Ne yapmalıyım? "
         },
         {
           "type": "ol",
@@ -27694,11 +27684,7 @@
             "Dil switcher yanlış sayfaya atmıyor mu?"
           ]
         },
-        {"type":"media","slot":"lang-hreflang"},
-        {
-          "type": "note",
-          "text": "Buraya: Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)"
-        }
+        {"type":"media","slot":"lang-hreflang"}
       ]
     },
     {
@@ -27751,7 +27737,7 @@
         },
         {
           "type": "h4",
-          "text": "Ne yapmalıyım? (SXO)"
+          "text": "Ne yapmalıyım? "
         },
         {
           "type": "ul",
@@ -27827,11 +27813,7 @@
             "Yedekleme ve geri yükleme test edildi mi?"
           ]
         },
-         {"type":"media","slot":"security-cards"},
-        {
-          "type": "note",
-          "text": "Buraya: Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)"
-        }
+         {"type":"media","slot":"security-cards"}
       ]
     },
     {
@@ -27856,7 +27838,7 @@
         },
         {
           "type": "h4",
-          "text": "Ne yapmalıyım? (SXO)"
+          "text": "Ne yapmalıyım? "
         },
         {
           "type": "ol",
@@ -27923,10 +27905,6 @@
           ],
           "href": "/downloads/kurumsal-web-sitesi-yayina-cikis-checklist-v1.0.pdf",
           "buttonLabel": "PDF’i İndir"
-        },
-        {
-          "type": "note",
-          "text": "Buraya: İndirilebilir PDF/Sheet görseli (kapak + 1 sayfa preview)"
         }
       ]
     }
@@ -27995,9 +27973,7 @@
         "Go-live checklist (tablo) + kanıt alanları",
         "Redirect haritası şablonu",
         "14 günlük sprint planı",
-        "KPI takip tablosu",
-        "Buraya: “PDF kapak + 1 sayfa preview” görsel notu",
-        "Buraya: Basit go-live akış diyagramı notu"
+        "KPI takip tablosu"
       ]
     }
   },
@@ -28053,7 +28029,2132 @@
       "href": "/tr/yazilim/cms-entegrasyonu"
     }
   ]
-}
+},
+
+"BlogOtelinizIcinDogruPmsNasilSecilir": {
+    "title": "Otel PMS Seçimi: Adım Adım İhtiyaç ve Entegrasyon | DGTLFACE",
+    "slug": "oteliniz-icin-dogru-pms-nasil-secilir",
+    "department": "pms-ota",
+    "updatedAt": "9 Ocak 2026",
+    "excerpt": "Oteliniz için doğru PMS’i seçin: ihtiyaç analizi, bulut vs klasik, Channel Manager/OTA entegrasyon kontrolü, demo-pilot planı ve kurulum yol haritası. Ön analiz isteyin.",
+    "seo": {
+      "metaTitle": "Otel PMS Seçimi: Adım Adım İhtiyaç ve Entegrasyon | DGTLFACE",
+      "metaDescription": "Oteliniz için doğru PMS’i seçin: ihtiyaç analizi, bulut vs klasik, Channel Manager/OTA entegrasyon kontrolü, demo-pilot planı ve kurulum yol haritası. Ön analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog No / URL: Blog #1 — /tr/pms-ota/blog/oteliniz-icin-dogru-pms-nasil-secilir",
+        "Blog Tipi: Core",
+        "Intent: Informational (Beginner)",
+        "Difficulty / Expertise: Intermediate–Expert (içerik beginner-friendly, karar aşamasında “doğru sorularla” derinleşir)",
+        "Hedef kelime bandı: 3000–3500 kelime",
+        "Refresh Cycle: 365 gün",
+        "Stratejik not: Bu içerik, PMS & OTA silosunda “PMS seçimi & kurulum öncesi” authority (parent) blog’u; diğer teknik PMS içeriklerine referans taşıyıcı."
+      ],
+      "strategySummary": "Bu blog, PMS & OTA Yönetimi silosunda “doğru PMS seçimi” kararını çerçeveleyen otorite taşıyan bir Core içeriktir: hem üst yönetime (GM/Satış-Pazarlama) “iş etkisi + risk” anlatır, hem IT/Operasyon’a “soru seti + proje köprüsü” sunar. Funnel’da Consideration (MoFu) ağırlıklıdır; doğru soru setiyle kullanıcıyı “demo/pilot → sözleşme → kurulum projesi” akışına taşır. Ana iş sorusu: “Bu PMS, OTA/Channel Manager, Call Center, muhasebe ve gelir yönetimi akışlarını yıllarca taşıyacak mı?” Antalya–Belek–Side gibi resort yoğun bölgeler ile Bodrum gibi butik/villa segmentlerinde ihtiyaç farkını netleştirerek yanlış seçim riskini azaltır."
+    },
+    "modules": {
+      "answerBlock": "Doğru PMS seçimi, sadece resepsiyon ekranını değil; OTA bağlantıları, gelir yönetimi, raporlama ve departmanlar arası iş akışını yıllarca etkiler. İyi bir seçim için önce otel tipinize göre ihtiyaç analizi yapın (resort/city/butik/villa), sonra modül ve entegrasyonları (PMS–Channel Manager–OTA–Call Center–muhasebe–API) kontrol edin. Demo/pilot sürecini ölçülebilir KPI’larla yürütün ve seçimden sonra kurulum projesine net bir planla geçin.",
+      "sgeSummary": "Bu rehber, oteliniz için PMS seçimini ihtiyaç analizi, modül/entegrasyon kontrolü, demo-pilot ölçümü ve sözleşme sonrası kurulum planına bağlayarak adım adım netleştirir.",
+      "voiceAnswer": "PMS seçerken otel tipinize uygun modülleri, entegrasyonları, demo KPI’larını ve kurulum planını kontrol edin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, operasyon, IT/entegrasyon sorumlusu",
+        "Funnel: Consideration → conversion (demo/pilot ve kurulum öncesi)",
+        "Kritik entity’ler: PMS, Channel Manager, OTA, Call Center, Revenue Management, API entegrasyonu",
+        "KPI örnekleri: check-in süresi, overbooking/iptal oranı, kanal maliyeti, rapor doğruluğu, personel zaman tasarrufu",
+        "Risk/etki: Yanlış PMS seçimi entegrasyon ve operasyon maliyetlerini artırır; doğru seçim dijital omurgayı taşır",
+        "GEO bağlamı: Antalya/Belek/Side resort yoğunluğu vs Bodrum butik/villa ihtiyaç farkı",
+        "Çıktı vaat: Karar matrisi + checklist + “seçim→kurulum” proje köprüsü"
+      ]
+    },
+    "h1": {
+      "title": "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber",
+      "intro": "PMS (Property Management System), otelin operasyonel kalbi gibi görünür; fakat gerçekte dağıtım (OTA/Channel Manager), gelir (Revenue Management), iletişim (Call Center), muhasebe/raporlama ve misafir deneyimi bu omurganın üstüne kurulur. Bu yüzden “kısa vadeli ekran/alışkanlık” yerine “uzun vadeli entegrasyon ve ölçek” perspektifiyle karar vermek gerekir.",
+      "quickSummary": [
+        "Kim için? Resort/city/butik/villa otel yöneticileri, satış–pazarlama ve operasyon/IT ekipleri",
+        "Ne sağlar? İhtiyaç analizi → karar matrisi → demo/pilot KPI planı → seçimden kurulum projesine geçiş",
+        "Neden şimdi? Yanlış PMS seçimi, ileride entegrasyon/operasyon yükünü büyütür; doğru seçim yıllarca dijital omurgayı taşır."
+      ],
+      "ctaPrimary": {
+        "label": "PMS Seçim & Kurulum Ön Analizi Talep Et",
+        "text": "Fayda: 30–45 dakikalık ön görüşmeyle otel tipinize göre ihtiyaçları çıkarır, entegrasyon risklerini ve doğru demo KPI’larını netleştiririz.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "sections": [
+      {
+        "id": "pms-nedir-ve-hangi-sorunu-cozer",
+        "title": "PMS Nedir ve Hangi Sorunu Çözer?",
+         "preBlocks": [
+          {"type":"media","slot":"flowchart"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS, temel olarak rezervasyon–konaklama–faturalama–housekeeping–ön büro süreçlerinin tek merkezden yönetilmesini sağlar. Ancak otellerde asıl kazanım, “tek ekranda işlem”den çok verinin tek kaynak (single source of truth) haline gelmesidir: doğru oda stoğu, doğru fiyat/kontrat, doğru misafir profili ve doğru rapor çıktısı."
+          },
+          {
+            "type": "p",
+            "text": "PMS’in çözdüğü sorunları 4 başlıkta düşünün:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              "Operasyon: check-in/out hızı, oda durum doğruluğu, housekeeping koordinasyonu",
+              "Dağıtım: Channel Manager/OTA ile stok/fiyat senkronu, overbooking riskinin düşmesi",
+              "Gelir & rapor: satış kanal maliyeti, iptal/no-show trendleri, gelir raporları (RMS ile uyum)",
+              "Deneyim: misafir notları/tercihler, tekrar konaklama sinyalleri, çağrı merkezi ile tutarlı bilgi"
+            ]
+          },
+          { "type": "h4", "text": "☑ Mini Check" },
+          {
+            "type": "p",
+            "text": "“PMS’ten beklentim bir yazılım mı, yoksa işletme akışını standartlaştıran bir omurga mı?”"
+          },
+           {"type":"media","slot":"infographic"},
+          { "type": "h4", "text": "Ne yapmalıyım?" },
+          {
+            "type": "ul",
+            "items": [
+              "PMS’i “ön büro ekranı” değil, “veri + entegrasyon omurgası” olarak tanımla",
+              "En kritik 3 akışı yaz: rezervasyon → check-in → fatura; OTA → stok/fiyat; rapor → karar",
+              "Bu 3 akışta kimler rol alıyor? (resepsiyon, gelir, satış, muhasebe, call center)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-tipine-gore-pms-ihtiyac-analizi",
+        "title": "Otel Tipine Göre PMS İhtiyaç Analizi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı PMS, farklı otel tiplerinde bambaşka sonuç verir. Antalya–Belek–Side hattında resort oteller; yüksek hacim, çoklu outlet, yoğun sezon dalgalanması ve grup/kontrat yönetimiyle öne çıkar. Bodrum’da butik/villa segmentinde ise hızlı satış, esnek fiyat paketleri, farklı kanal karışımı ve “az kişiyle çok iş” kritik olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki 3 katmanla ihtiyaç analizi yapın:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Zorunlu (Must-have): oda/envanter, check-in/out, fatura/folyo, housekeeping, raporlar",
+              "Büyüme (Scale): çoklu mülk/çoklu outlet, grup/kontrat, CRM temel entegrasyonları",
+              "Rekabet (Moat): Revenue Management uyumu, call center akışı, ileri raporlama, otomasyon"
+            ]
+          },
+          { "type": "h3", "text": "Karar Matrisi (Otel Tipi × İhtiyaçlar)" },
+          {
+            "type": "table",
+            "headers": [
+              "İhtiyaç / Otel Tipi",
+              "Resort (Antalya/Belek/Side)",
+              "City Hotel",
+              "Butik",
+              "Villa"
+            ],
+            "rows": [
+              ["Yüksek hacimde hızlı check-in/out", "Çok kritik", "Kritik", "Orta", "Orta"],
+              ["Grup / kontrat / allotment", "Çok kritik", "Orta", "Düşük", "Düşük"],
+              ["OTA + Channel Manager senkron", "Çok kritik", "Kritik", "Kritik", "Kritik"],
+              ["Çoklu outlet / POS / fatura akışı", "Kritik", "Orta", "Düşük-Orta", "Düşük"],
+              ["Housekeeping yoğunluğu", "Çok kritik", "Kritik", "Orta", "Düşük-Orta"],
+              ["Gelir yönetimi (RMS) uyumu", "Çok kritik", "Kritik", "Orta", "Orta"],
+              ["Call center entegrasyonu", "Kritik", "Orta", "Orta", "Orta"],
+              ["Esnek paket/uzun konaklama", "Orta", "Düşük", "Orta", "Kritik"]
+            ]
+          },
+          { "type": "h4", "text": "☑ Mini Check" },
+          {
+            "type": "p",
+            "text": "“Otel tipimde en pahalı hata hangisi: overbooking mi, rapor körlüğü mü, ekip zamanı mı?”"
+          },
+          {
+            "type": "p",
+            "text": "PMS seçiminizi değerlendirirken PMS + Channel Manager + OTA + Call Center + Revenue Management zincirini aynı anda düşünün; çünkü bu beşli ayrı ayrı optimize edilirse toplamda kopuk bir sistem çıkar. Bu zincirin nasıl yönetileceğine dair çatı yaklaşım için: /tr/pms-ota-yonetimi ve entegrasyon detayları için: /tr/pms-ota/ota-entegrasyonu."
+          },
+          { "type": "h4", "text": "Ne yapmalıyım?" },
+          {
+            "type": "ul",
+            "items": [
+              "Otel tipini netleştir (resort/city/butik/villa) ve 10 maddelik “must-have” listesi çıkar",
+              "Sezonsallık ve kanal karışımını yaz (OTA payı, direkt payı, çağrı merkezi payı)",
+              "“Entegrasyon olmazsa olmaz” 5 sistemi belirle (OTA/CM, muhasebe, POS, RMS, call center)"
+            ]
+          },
+          {
+            "type": "cta_secondary",
+            "label": "PMS Seçim Checklist’ini İndir",
+            "text": "Ne işe yarar? Satın alma toplantısından önce 10 dakikada eksikleri görür, demo/pilot sürecini aynı checklist’le yönetirsiniz.",
+            "href": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "pms-secerken-nelere-dikkat-etmeliyim",
+        "title": "PMS seçerken nelere dikkat etmeliyim?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS seçerken önce otel tipinize göre ihtiyaçları çıkarın, sonra modül ve entegrasyonları doğrulayın (OTA/Channel Manager, muhasebe, call center, API). Demo/pilot sürecini KPI’larla ölçün (hız, doğruluk, rapor) ve sözleşmede veri taşıma, destek/SLA ve entegrasyon kapsamını netleştirerek kurulum projesine planla geçin."
+          },
+          { "type": "h3", "text": "PMS Seçerken Sorulması Gereken Sorular (Soru seti)" },
+          {
+            "type": "p",
+            "text": "Aşağıdaki soru seti, “ürün tanıtımı” tuzağını kırıp gerçek satın alma kararına götürür:"
+          },
+          { "type": "h4", "text": "1) Operasyon soruları" },
+          {
+            "type": "ul",
+            "items": [
+              "Resepsiyon ve housekeeping akışı kaç adım? Gereksiz tıklama var mı?",
+              "Yoğun check-in gününde süreç tıkanıyor mu? (performans testi)",
+              "Kullanıcı yetkileri departman bazlı yönetilebiliyor mu?"
+            ]
+          },
+          { "type": "h4", "text": "2) Dağıtım & kanal soruları (OTA/CM)" },
+          {
+            "type": "ul",
+            "items": [
+              "Channel Manager/OTA senkronu “anlık” mı, “periyodik” mi? Overbooking riski nasıl yönetiliyor?",
+              "İptal/no-show akışı otomatik mi, manuel mi?"
+            ]
+          },
+          { "type": "h4", "text": "3) Entegrasyon soruları (kritik bölüm)" },
+          {
+            "type": "ul",
+            "items": [
+              "PMS–OTA–Call Center–Muhasebe–RMS arasında hangi veriler hangi yönde akar?",
+              "API entegrasyonu var mı, yoksa “hazır konektör” mü? (aşağıda teknik not)",
+              "Entegrasyon hataları nasıl raporlanır, kim müdahale eder?"
+            ]
+          },
+          { "type": "h4", "text": "4) Rapor & karar soruları" },
+          {
+            "type": "ul",
+            "items": [
+              "Standart raporlar yeterli mi? Özel rapor gerekirse nasıl yapılır?",
+              "Kanal maliyeti ve gelir analizi çıkarılabiliyor mu?"
+            ]
+          },
+          { "type": "h4", "text": "5) Sözleşme & risk soruları" },
+          {
+            "type": "ul",
+            "items": [
+              "Veri taşıma (migration) kapsamı ve sorumluluk kimde?",
+              "Destek modeli/SLA nedir? Sezonda acil destek nasıl işler?",
+              "Çıkış planı (veri ihracı, sözleşme sonu) net mi?"
+            ]
+          },
+          { "type": "h4", "text": "☑ Mini Check" },
+          {
+            "type": "p",
+            "text": "“Satın aldığım şey yazılım mı, yoksa süreç + entegrasyon + destek paketi mi?”"
+          },
+          { "type": "h3", "text": "Bulut vs On-Premise (Klasik) PMS: Ne zaman hangisi?" },
+          {
+            "type": "ul",
+            "items": [
+              "Bulut PMS: İnternet üzerinden çalışır; güncellemeler daha hızlı olabilir, çoklu lokasyonda erişim kolaydır.",
+              "Klasik/On-premise PMS: Otelin kendi sunucusunda çalışır; bazı tesislerde kontrol/alışkanlık avantajı olabilir ama bakım ve güncelleme yükü artabilir."
+            ]
+          },
+          { "type": "h4", "text": "Ne yapmalıyım?" },
+          {
+            "type": "ul",
+            "items": [
+              "Demo öncesi soru setini tek sayfaya indir (satın alma toplantısında kullan)",
+              "Entegrasyon haritasını çıkarmadan fiyat konuşma",
+              "Sözleşmede “veri taşıma + destek + entegrasyon kapsamı” maddelerini yazılı netleştir"
+            ]
+          },
+
+           { "type": "media", "slot": "cloud-pms" }
+          
+        ]
+      },
+      {
+        "id": "demo-pilot-ve-referans-kontrolu",
+        "title": "Demo, Pilot ve Referans Kontrolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Demo, genelde “en iyi senaryo” sunumudur; pilot ise gerçek hayatta sistemin sınavıdır. Bu yüzden demo/pilot planını ölçülebilir hale getirin."
+          },
+          { "type": "h3", "text": "Demo Planı (1–2 hafta): Ne ölçmeliyim?" },
+          {
+            "type": "ul",
+            "items": [
+              "Check-in/out senaryosu (yoğun gün simülasyonu)",
+              "OTA/Channel Manager senkron testi (stok/fiyat güncelleme + iptal akışı)",
+              "Rapor doğruluğu (aynı gün, farklı raporların tutarlılığı)",
+              "Yetkilendirme (departman bazlı erişim, log kayıtları)"
+            ]
+          },
+          { "type": "h3", "text": "Pilot Planı (2–4 hafta): “Gerçek veriyle” prova" },
+          {
+            "type": "p",
+            "text": "Pilot’ta hedef, ekibin işi “daha hızlı” yapması kadar, sistemin hata anında nasıl davrandığını da görmektir: entegrasyon kesildiğinde ne olur, raporlar nasıl etkilenir, manuel fallback var mı?"
+          },
+          { "type": "h3", "text": "Referans Kontrolü: Sorulacak 7 net soru" },
+          {
+            "type": "ul",
+            "items": [
+              "Bizim otel tipimize benzer tesiste kaç aydır kullanılıyor?",
+              "Sezonda destek hızı nasıl?",
+              "En büyük sürpriz ne oldu? (maliyet/entegrasyon/ekip adaptasyonu)",
+              "Veri taşıma ne kadar sürdü?",
+              "OTA/Channel Manager senkronunda problem yaşandı mı?",
+              "Raporlar karar almaya yetiyor mu?",
+              "Tekrar seçseler neyi farklı yaparlardı?"
+            ]
+          },
+            { "type": "media", "slot": "pilot-phase" },
+          { "type": "h4", "text": "☑ Mini Check" },
+          {
+            "type": "p",
+            "text": "“Referans aramasında ‘memnun musunuz?’ değil, ‘en büyük sürpriz neydi?’ sorulur.”"
+          },
+          { "type": "h4", "text": "Ne yapmalıyım?" },
+          {
+            "type": "ul",
+            "items": [
+              "Demo’yu “sunum” değil “test” formatına çevir",
+              "Pilot için başlangıç–bitiş kriteri koy (başarılı sayılma şartları)",
+              "Referans sorularını yazılı al (sonradan sözleşmeye madde olur)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-seciminden-kurulum-projesine-gecis",
+        "title": "PMS Seçiminden Kurulum Projesine Geçiş",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Seçim tamamlandığında asıl risk başlar: kurulum “IT işi” gibi görülür ve operasyon sahiplenmezse proje uzar. Doğru yaklaşım: kurulum projesini iş dönüşümü olarak yönetmektir."
+          },
+          { "type": "h3", "text": "Kurulum Projesi Yol Haritası (örnek)" },
+          {
+            "type": "ol",
+            "items": [
+              "Kickoff: hedefler, kapsam, entegrasyon listesi, sorumlular",
+              "Veri hazırlığı: oda tipleri, fiyat planları, misafir veri seti, kontratlar",
+              "Entegrasyon: OTA/Channel Manager, muhasebe, call center, RMS",
+              "Eğitim: ön büro, housekeeping, muhasebe, satış",
+              "Go-live: aşamalı geçiş, günlük kontrol listesi",
+              "Stabilizasyon: ilk 30 gün rapor doğrulama + süreç düzeltme"
+            ]
+          },
+           {"type":"media","slot":"sprint-plan"},
+          { "type": "h3", "text": "“PMS Seçim Dosyası” İskeleti " },
+          {
+            "type": "p",
+            "text": "Bu yazıyla birlikte ekibinize verilebilecek pratik bir iskelet:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "/01_Ihtiyac-Analizi/ (otel tipi, must-have listesi, süreç akışları)",
+              "/02_Entegrasyon-Haritasi/ (PMS–OTA–Call Center–Muhasebe–RMS veri akış şeması)",
+              "/03_Demo-Pilot/ (KPI kartı, senaryo listesi, test sonuçları)",
+              "/04_Sozlesme-SLA/ (kapsam, veri taşıma, destek, çıkış planı)",
+              "/05_Kurulum-Proje/ (takvim, sorumluluk matrisi, eğitim planı)",
+              "/06_Raporlama/ (standart raporlar, karar dashboard ihtiyaçları)"
+            ]
+          },
+          { "type": "h4", "text": "☑ Mini Check" },
+          {
+            "type": "p",
+            "text": "“Seçim dosyam yoksa, kurulum projem kontrolsüz büyür.”"
+          },
+          { "type": "h3", "text": "Teknik Not :" },
+          {
+            "type": "ul",
+            "items": [
+              "Bulut tabanlı PMS: Yazılıma internet üzerinden erişirsiniz; güncellemeler sağlayıcı tarafından yönetilir.",
+              "API entegrasyonu: İki sistemin (ör. PMS ve call center) belirli verileri “kurallı şekilde” birbirine aktarmasıdır; böylece manuel kopyala-yapıştır azalır ve hata riski düşer."
+            ]
+          },
+          { "type": "h4", "text": "İlgili iç linkler" },
+          {
+            "type": "ul",
+            "items": [
+              "PMS & OTA çerçevesi: /tr/pms-ota-yonetimi",
+              "Kurulum & destek: /tr/pms-ota/pms-kurulum",
+              "OTA entegrasyonu: /tr/pms-ota/ota-entegrasyonu",
+              "Kanal yönetimi: /tr/pms-ota/kanal-yonetimi"
+            ]
+          },
+          { "type": "h4", "text": "Ne yapmalıyım?" },
+          {
+            "type": "ul",
+            "items": [
+              "Kurulum projesine “iş sahibi” ata (operasyon + IT birlikte)",
+              "Veri taşıma ve entegrasyon kapsamını go-live öncesi netleştir",
+              "İlk 30 gün için “stabilizasyon” kontrol listesi hazırla"
+            ]
+          },
+          {
+            "type": "cta_primary",
+            "label": "PMS Seçim & Kurulum Ön Analizi Talep Et",
+            "text": "Fayda: Otel tipinize göre karar matrisi + entegrasyon haritası + demo KPI planını birlikte çıkaralım; yanlış seçim riskini azaltın.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "pms-secim-checklist-download",
+        "title": "PMS Seçim Checklist’ini İndir — PMS & OTA (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "formats": ["pdf", "sheets"],
+            "version": "v1.0",
+            "title": "PMS Seçim Checklist’ini İndir — PMS & OTA (v1.0)",
+            "purpose": "Bu doküman, oteliniz için PMS seçimini “hissiyat” yerine ölçülebilir kontrol listesi ve 14 günlük sprint planı ile yönetmeniz için hazırlanmıştır. Demo/pilot sürecinde aynı kriterlerle değerlendirme yapar, seçim sonrası kurulum projesine geçişte kapsam kaymasını azaltırsınız.",
+            "whoFor": "GM/Satış–Pazarlama + Operasyon (Ön Büro/Housekeeping) + IT/Entegrasyon sorumlusu (tek dokümanda ortak dil için).",
+            "steps": [
+              "Ölçüm checklist’ini otel tipinize göre işaretleyin (Must/Should/Could)",
+              "Demo/pilot sırasında kırmızı–sarı–yeşil notlar alın ve kanıt ekleyin",
+              "Sonuçları 14 günlük sprint planına çevirip kurulum projesini başlatın"
+            ],
+            "href": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
+            "sheetHref": "/downloads/pms-secim-checklist-pms-ota-v1.0.xlsx",
+            "buttonLabel": "PDF’i İndir",
+            "secondaryButtonLabel": "Sheets’i İndir",
+            "checklist": [
+           
+                "• Hızlı check-in/out akışı (yoğun gün senaryosu)",
+                "• Housekeeping oda statüleri gerçek zamanlı/kolay güncellenir",
+                "• Departman bazlı yetkilendirme ve log kayıtları",
+                "• Misafir notları/tercihler alanları ve arama",
+            
+                "• Stok/fiyat senkronu tutarlı ve izlenebilir",
+                "• İptal/no-show akışı net (otomatik/manuel)",
+                "• Overbooking risk yönetimi senaryosu",
+           
+                "• Kanal bazlı performans (maliyet/gelir) görülebilir",
+                "• İptal, no-show, pickup trendleri izlenebilir",
+                "• Revenue Management uyumu (veri çıkışı/entegrasyon)",
+            
+                "• Muhasebe/POS/veri ihracı senaryosu net",
+                "• Call center entegrasyonu (rezervasyon notları, fiyat/uygunluk)",
+                "• API veya hazır entegrasyon kapsamı yazılı",
+         
+                "• Veri taşıma kapsamı, sorumlusu, takvimi",
+                "• Destek/SLA ve sezon acil destek prosedürü",
+                "• Çıkış planı (veri ihracı, sözleşme sonu süreç)"
+              ],
+            "template": {
+              
+              "B_problem_kok_neden_cozum_tablosu": {
+                "headers": ["Problem", "Kök Neden", "Çözüm", "Kanıt/Not"],
+                "rows": [
+                  ["Overbooking riski", "Senkron gecikmesi / süreç hatası", "CM/OTA senkron testleri + uyarı akışı", ""],
+                  ["Check-in uzuyor", "Fazla adım / eğitim eksikliği", "Akış sadeleştirme + role bazlı ekran", ""],
+                  ["Raporlar tutmuyor", "Veri alanları/kurallar farklı", "Rapor sözlüğü + veri standartları", ""],
+                  ["Entegrasyon kopuyor", "API/konnektör sınırları belirsiz", "Entegrasyon kapsam dokümanı + izleme", ""]
+                ]
+              },
+              "C_14_gunluk_sprint_plani_gun_1_14": [
+                "Gün 1: Kickoff + hedef KPI’lar + otel tipi ihtiyaç listesi",
+                "Gün 2: Entegrasyon haritası (PMS–OTA–CM–Call Center–Muhasebe–RMS)",
+                "Gün 3: Demo senaryoları ve test verisi hazırlanır",
+                "Gün 4: Demo #1 (operasyon) + kırmızı/sarı/yeşil notlar",
+                "Gün 5: Demo #2 (OTA/CM + iptal/no-show)",
+                "Gün 6: Raporlama doğrulama + rapor sözlüğü taslağı",
+                "Gün 7: Referans görüşmeleri (7 soru) + risk listesi",
+                "Gün 8: Pilot kapsamı ve başarı kriterleri",
+                "Gün 9–10: Pilot (gerçek veri) + entegrasyon gözlemi",
+                "Gün 11: Sözleşme maddeleri kontrol (veri taşıma/SLA/entegrasyon)",
+                "Gün 12: Kurulum proje planı (takvim + sorumluluk matrisi)",
+                "Gün 13: Eğitim planı (ön büro/housekeeping/muhasebe/satış)",
+                "Gün 14: Karar toplantısı: matrise göre seç + go-live yol haritası"
+              ],
+              "D_oncesi_sonrasi_kpi_tablosu": {
+                "headers": ["KPI", "Önce (Mevcut)", "Hedef (PMS sonrası)", "Ölçüm Yöntemi"],
+                "rows": [
+                  ["Ortalama check-in süresi", "", "", "Zaman örneklemi"],
+                  ["Overbooking olayı", "", "", "Kanal kayıtları"],
+                  ["İptal/no-show takibi", "", "", "Rapor"],
+                  ["Kanal maliyeti görünürlüğü", "", "", "Dashboard"],
+                  ["Ekip zamanı (rezervasyon işlemleri)", "", "", "Süre ölçümü"]
+                ]
+              },
+              "E_deliverables_listesi": [
+                "PMS İhtiyaç Analizi (otel tipine göre)",
+                "Entegrasyon Haritası + kapsam dokümanı",
+                "Demo/Pilot KPI kartı + test sonuçları",
+                "Sözleşme risk maddeleri listesi (SLA/veri taşıma/çıkış planı)",
+                "Kurulum proje planı + eğitim planı"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Seçim & Kurulum Ön Analizi Talep Et",
+        "text": "Otel tipinize göre ihtiyaç ve entegrasyon risklerini netleştirerek demo/pilot planını ölçülebilir hale getirir.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Seçim Checklist’ini İndir",
+        "text": "Satın alma toplantısından önce eksikleri görür, demo/pilotu aynı checklist’le standartlaştırırsınız.",
+        "href": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf"
+      }
+    },
+    "asset": {
+      "title": "PMS Seçim Checklist’ini İndir — PMS & OTA (v1.0)",
+      "purpose": "Bu doküman, oteliniz için PMS seçimini “hissiyat” yerine ölçülebilir kontrol listesi ve 14 günlük sprint planı ile yönetmeniz için hazırlanmıştır. Demo/pilot sürecinde aynı kriterlerle değerlendirme yapar, seçim sonrası kurulum projesine geçişte kapsam kaymasını azaltırsınız.",
+      "whoUses": "GM/Satış–Pazarlama + Operasyon (Ön Büro/Housekeeping) + IT/Entegrasyon sorumlusu (tek dokümanda ortak dil için).",
+      "howToUse": [
+        "Ölçüm checklist’ini otel tipinize göre işaretleyin (Must/Should/Could)",
+        "Demo/pilot sırasında kırmızı–sarı–yeşil notlar alın ve kanıt ekleyin",
+        "Sonuçları 14 günlük sprint planına çevirip kurulum projesini başlatın"
+      ],
+      "downloads": {
+        "pdf": "/downloads/pms-secim-checklist-pms-ota-v1.0.pdf",
+        "sheets": "/downloads/pms-secim-checklist-pms-ota-v1.0.xlsx"
+      }
+    },
+    "faq": [
+      {
+        "q": "Otelim için doğru PMS’i nasıl seçerim?",
+        "a": "Önce otel tipinize göre ihtiyaçları çıkarın (resort/city/butik/villa). Sonra modül ve entegrasyonları (OTA/Channel Manager, call center, muhasebe, API) doğrulayın. Demo/pilot sürecini KPI’larla ölçüp sözleşmede veri taşıma ve destek/SLA’yı netleştirin."
+      },
+      {
+        "q": "PMS seçerken nelere dikkat etmeliyim?",
+        "a": "En kritik üç alan: ihtiyaç analizi, entegrasyon kapsamı ve demo/pilot ölçümü. “Var” denilen özelliklerin gerçek iş akışında çalıştığını kanıt isteyin. Sezonda destek süreçleri ve veri taşıma sorumluluğu mutlaka yazılı olmalı."
+      },
+      {
+        "q": "Bulut PMS ile klasik PMS arasındaki fark nedir?",
+        "a": "Bulut PMS’e internet üzerinden erişilir ve güncellemeler genelde daha hızlı yönetilir. Klasik PMS otelin kendi altyapısında çalışabilir; bazı yapılarda kontrol avantajı olsa da bakım/güncelleme yükü artabilir. Kararı, erişim ihtiyacı ve entegrasyon/destek modeliyle birlikte verin."
+      },
+      {
+        "q": "PMS seçiminden sonra proje sürecini nasıl başlatırım?",
+        "a": "Kurulumu “iş dönüşümü” olarak planlayın: kickoff, veri hazırlığı, entegrasyon, eğitim, go-live ve ilk 30 gün stabilizasyon. Operasyon ve IT’nin birlikte sahiplenmesi, kapsam kaymasını ciddi azaltır."
+      },
+      {
+        "q": "Channel Manager zorunlu mu, PMS tek başına yeter mi?",
+        "a": "OTA ağırlığı yüksek otellerde Channel Manager, stok/fiyat senkronu ve overbooking riskini yönetmede kritik rol oynar. Bazı PMS’ler dahili kanal modülleri sunsa da kapsam ve güvenilirlik test edilmelidir. Seçimi “entegrasyon haritası” üzerinden yapın."
+      },
+      {
+        "q": "Veri taşıma (migration) sürecinde en sık hata nedir?",
+        "a": "Oda tipleri, fiyat planları ve misafir verisinin “saha gerçeği”yle uyuşmaması sık görülür. Bu yüzden veri temizliği ve alan eşleştirme (mapping) pilot öncesi yapılmalı. Sorumluluk ve takvim sözleşmede net olmalıdır."
+      },
+      {
+        "q": "PMS entegrasyonlarında “API” ne işe yarar?",
+        "a": "API, sistemlerin veriyi kurallı şekilde birbirine aktarmasını sağlar; manuel işlem ve hata riski düşer. Örneğin call center uygunluk/fiyat bilgisine hızlı erişebilir, muhasebe verisi standart çıkar. Entegrasyon kapsamı yazılı olmazsa sürpriz maliyet doğabilir."
+      },
+      {
+        "q": "Demo’da nelere bakmalıyım, satış sunumu yeterli mi?",
+        "a": "Demo’yu test senaryosuna çevirin: yoğun check-in, OTA iptal akışı, rapor doğruluğu ve yetkilendirme. “Gösterildi” değil “ölçüldü” yaklaşımıyla karar alın. Pilot sonuçlarıyla masaya oturmak pazarlık gücünü artırır."
+      },
+      {
+        "q": "Sözleşmede hangi maddeler kritik?",
+        "a": "Veri taşıma kapsamı, destek/SLA, entegrasyonların net listesi ve çıkış planı (veri ihracı) mutlaka yazılı olmalı. Sezonda acil destek prosedürü ayrıca tanımlanmalıdır. Gizli maliyetlerin çoğu bu maddeler net değilken çıkar."
+      }
+    ],
+    "internalLinks": [
+      { "label": "PMS Kurulum & Destek", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "OTA Entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+      { "label": "Kanal Yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" }
+    ],
+
+    "excludedFromPage": [
+      "BÖLÜM 1 – Genel Blueprint & Strateji",
+      "BÖLÜM 2 – Meta Bilgiler (Title & Description)",
+      "BÖLÜM 3 – Answer Block, SGE Özeti, Voice Cevabı, AI Fact Sheet",
+      "BÖLÜM 4.5 – CTA MODÜLÜ (V2.1 / Dinamik, Kilitli)",
+      "BÖLÜM 4.6 – Secondary CTA Asset Üretimi (V2.1 / Dinamik, Kilitli) (yönerge metinleri)",
+      "BÖLÜM 6 SEO checklist (sayfaya basılmayacak)"
+    ]
+  },
+
+  "Blog4DilliCagriMerkeziNedirNasilCalisir": {
+  "title": "4 Dilli Çağrı Merkezi: Oteller İçin Nasıl Çalışır?",
+  "slug": "4-dilli-cagri-merkezi-nedir-nasil-calisir",
+  "department": "callcenter",
+  "updatedAt": "9 Ocak 2026",
+  "publishedAt": "2026-01-09",
+  "readingTime": "8 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "4 dilli çağrı merkezi (TR–EN–DE–RU) otellerde telefon+WhatsApp+OTA mesajlarını tek akışta yönetir. Yanıt hızını artırır, kaçan talebi azaltır ve teklif–takip standardıyla dönüşümü iyileştirir.",
+  "seo": {
+    "metaTitle": "4 Dilli Çağrı Merkezi: Oteller İçin Nasıl Çalışır? | DGTLFACE",
+    "metaDescription": "4 dilli çağrı merkezi (TR–EN–DE–RU) otellere rezervasyon, bilgi ve satış desteğini telefon+WhatsApp+OTA’dan tek akışta yönetir. İhtiyaç analizi talep edin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Çağrı Merkezi",
+      "Sayfa Adı / URL: 4 Dilli Çağrı Merkezi — /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+      "Blog / URL: /tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-nedir-nasil-calisir",
+      "Blog Tipi: Core (Cluster giriş / otorite taşıyıcı)",
+      "Intent: Informational + Transactional",
+      "Zorluk / Seviye: Beginner–Intermediate",
+      "Word Count Range: 2300–2700",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-nedir-nasil-calisir"
+    ],
+    "strategySummary": "Bu yazı, “4 dilli çağrı merkezi” kavramını otel/turizm özelinde tanımlayan ve satış, rezervasyon ve destek süreçleriyle bağlayan cluster’ın parent (authority) içeriğidir. Hedef persona; Antalya–Belek–Side–Kemer–Bodrum gibi çok pazar karmalı destinasyonlarda talep yönetmek isteyen GM ve satış–pazarlama ekibidir. Funnel’da awareness (kavramı anlama), consideration (doğru partner/operasyon modeli) ve conversion (ihtiyaç analizi talebi) katmanlarını kapsar. Ana iş sorusu: “TR–EN–DE–RU talebi kaçırmadan, OTA + WhatsApp + telefon üzerinden rezervasyon ve memnuniyeti nasıl büyütürüm?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-01-09",
+    "readingTime": "8 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "4 dilli çağrı merkezi; misafir ve müşteriyi Türkçe, İngilizce, Almanca ve Rusça dillerinde tek bir operasyon üzerinden karşılayıp rezervasyon, bilgi ve satış süreçlerini yöneten profesyonel iletişim yapısıdır. Oteller için kritik faydası; farklı pazarlardan gelen talepleri telefon, WhatsApp, OTA mesajları ve e-posta üzerinden kaçırmadan yönetmek, dönüşüm kaybını azaltmak ve marka algısını güçlendirmektir. Doğru kurulum, kanal entegrasyonu ve ölçülebilir KPI setiyle çalışır.",
+    "sgeSummary": "4 dilli çağrı merkezi (TR–EN–DE–RU), otellerde telefon+WhatsApp+OTA mesajlarını tek ekip ve süreçle yönetir; rezervasyon dönüşümünü ve misafir memnuniyetini iyileştirir.",
+    "voiceAnswer": "4 dilli çağrı merkezi, otelin TR–EN–DE–RU taleplerini tek operasyonda karşılayıp rezervasyona dönüştürür.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel GM, satış–pazarlama, rezervasyon departmanı, ajans yöneticisi",
+      "KPI’lar: Yanıt süresi, kaçan çağrı oranı, dönüşüm oranı, lead kalitesi, memnuniyet (CSAT)",
+      "Kanallar: Telefon + WhatsApp + OTA mesajları + e-posta (tek iş kuyruğu)",
+      "Entity seti: Multilingual Call Center, TR–EN–DE–RU, WhatsApp Support, OTA Messages, Hotel Reservation Support, DGTLFACE",
+      "Funnel rolü: İlk temas → ihtiyaç anlama → teklif → rezervasyon / upsell",
+      "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum gibi çok pazar karmalı destinasyonlar",
+      "Operasyon prensibi: Script + eğitim + kalite + entegrasyon + raporlama"
+    ]
+  },
+  "h1": {
+    "title": "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?",
+    "intro": "Otellerde “talep” artık tek kanaldan gelmiyor: telefon, WhatsApp, OTA mesajları ve e-posta aynı anda akıyor. Üstelik misafir profili tek dil değil; özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi destinasyonlarda TR–EN–DE–RU karması günlük operasyonun parçası. 4 dilli çağrı merkezi yaklaşımı, bu trafiği tek süreçte birleştirip hem rezervasyon dönüşümünü hem de misafir deneyimini ölçülebilir hale getirir.",
+    "quickSummary": [
+      "1) Telefon/WhatsApp/OTA/e-posta akışını tek kuyruğa alın",
+      "2) TR–EN–DE–RU dil hacmini oranlayın ve vardiyayı planlayın",
+      "3) WhatsApp + OTA mesajları için SLA belirleyin",
+      "4) Teklif + follow-up (outbound) disiplinini standartlaştırın",
+      "5) KPI setiyle yanıt süresi, kaçan talep, dönüşüm ve CSAT’ı görünür kılın"
+    ],
+    "ctaPrimary": {
+      "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
+      "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
+      "href": "/cagri-merkezi-hizmetleri"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
+      "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
+      "href": "/cagri-merkezi-hizmetleri"
+    },
+    "secondary": {
+      "label": "TR–EN–DE–RU Çağrı Merkezi Başlangıç Check-list’ini İndir",
+      "text": "Ekibinize görev listesi olarak verin; 14 günlük devreye alma sprint planı gibi kullanın.",
+      "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "Çağrı merkezi hizmetleri", "href": "/cagri-merkezi-hizmetleri" },
+    { "label": "Rezervasyon desteği", "href": "/cagri-merkezi/rezervasyon-destegi" },
+    { "label": "Mesaj yönetimi", "href": "/cagri-merkezi/mesaj-yonetimi" },
+    { "label": "Otel çağrı merkezi", "href": "/otel/cagri-merkezi" },
+    { "label": "PMS & OTA rezervasyon yönetimi", "href": "/pms-ota/rezervasyon-yonetimi" }
+  ],
+  "relatedPosts": [
+    { "title": "Rezervasyon Desteği: Lead → Teklif → Takip Süreci", "href": "/cagri-merkezi/rezervasyon-destegi" },
+    { "title": "OTA Mesaj Yönetimi: Kaçan Mesajları Sıfırlama", "href": "/cagri-merkezi/mesaj-yonetimi" }
+  ],
+  "sections": [
+    
+    {
+      "id": "aeo-tanim",
+      "title": "4 dilli çağrı merkezi nedir, nasıl çalışır? ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "4 dilli çağrı merkezi, misafirin ya da müşterinin Türkçe, İngilizce, Almanca ve Rusça dillerinde tek bir operasyon üzerinden karşılandığı; bilgi, satış ve rezervasyon süreçlerinin standart script ve KPI’larla yönetildiği iletişim yapısıdır. “Çağrı merkezi” deyince yalnız telefon düşünülür; oysa otel özelinde WhatsApp ve OTA mesajları çoğu zaman çağrıdan daha belirleyicidir."
+        },
+        { "type": "h3", "text": "AEO özeti (4–6 madde)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Tanım: TR–EN–DE–RU dillerinde tek ekip/süreçle destek + satış yönetimi",
+            "Kanallar: Telefon, WhatsApp, OTA mesajları, e-posta (tek akış)",
+            "Amaç: Talebi kaçırmamak, daha hızlı yanıt vermek, rezervasyona çevirmek",
+            "Otel senaryosu: Fiyat/uygunluk → teklif → follow-up → rezervasyon",
+            "Kalite: Script, eğitim, kalite dinleme, raporlama",
+            "Entegrasyon: PMS/CRM’e not/lead aktarımı ve pipeline takibi"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check: “Çok dilli destek” ihtiyacınız var mı?",
+          "items": [
+            "Gün içinde en az 2 farklı dilden düzenli talep geliyor mu?",
+            "WhatsApp’ta 15–30 dk üstü yanıt gecikmesi yaşanıyor mu?",
+            "OTA mesajları “resepsiyon” tarafında dağınık mı kalıyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Talep kanallarını (tel/WA/OTA/e-posta) tek listeye çıkarın.",
+            "Dil bazlı hacmi (TR/EN/DE/RU) kabaca oranlayın.",
+            "“Yanıt süresi” ve “kaçan fırsat” için 2 KPI belirleyin."
+          ]
+        },
+        { "type": "media", "slot": "diagram" }
+      ]
+    },
+    {
+      "id": "neden-4-dil",
+      "title": "Neden “4 dil”? TR–EN–DE–RU pazar haritası ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Türkiye’de turizm talebi aynı anda birden fazla pazarın davranışını taşır. Almanca konuşan misafirler daha planlı ve detay sorulu ilerlerken, Rusça konuşan segmentte hızlı teyit ve kısa yanıtlar kritik olabilir; İngilizce segment daha çok “genel bilgi + karşılaştırma” akışıyla gelir. 4 dil yaklaşımı, bu davranış farklarını ayrı ekipler yerine tek sistem içinde “script + eğitim” ile normalize eder."
+        },
+        { "type": "h3", "text": "3 maddede “neden 4 dil?”" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Yanıt hızı artar (dil bekleme kuyruğu azalır).",
+            "Dönüşüm kaybı düşer (takip ve teklif standardı oluşur).",
+            "Marka algısı güçlenir (tutarlı dil/ton ve süreç)."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlarda hedef pazarlarınızı netleştirip “dil bazlı” vardiya planı çıkarın.",
+            "Sık sorular için 4 dilde “hazır cevap bankası” oluşturun."
+          ]
+        },
+        { "type": "media", "slot": "map" }
+      ]
+    },
+    {
+      "id": "resepsiyon-vs-cagri",
+      "title": "Çağrı merkezi vs klasik resepsiyon: fark nerede başlar?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Klasik resepsiyon, sahadaki operasyonu yürütür; çağrı merkezi ise “talep yönetimi ve satış” disiplinidir. Resepsiyonun önceliği check-in/out, misafir sorunları, operasyonel akışken; çağrı merkezi telefon/WhatsApp/OTA taleplerini fırsata çevirmeye odaklanır. Bu ayrım netleşmediğinde, resepsiyon talebi yanıtlamaya çalışırken hem sahada hem satışta performans düşer."
+        },
+        { "type": "h3", "text": "En sık karışan 3 nokta" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Soru yanıtlamak ≠ satış süreci: Teklif ve follow-up yoksa talep boşa gider.",
+            "Kanal karmaşası: OTA mesajı, WhatsApp ve telefon farklı kişilerde kalır.",
+            "Ölçüm yokluğu: Yanıt süresi, kaçan çağrı, dönüşüm oranı takip edilmez."
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Tekliflerinizin kaçında “takip planı” var?",
+            "WhatsApp talepleri tek ekranda görülebiliyor mu?"
+          ]
+        },
+        {"type":"media","slot":"lang-callcenter"},
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Resepsiyon ve çağrı merkezi rollerini yazılı hale getirin.",
+            "Teklif + takip (follow-up) zorunlu adımlarını tanımlayın.",
+            "Haftalık 1 sayfalık KPI raporu çıkarın."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operasyon-inbound-outbound",
+      "title": "Operasyon yapısı: Inbound, Outbound ve kanal yönetimi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "4 dilli çağrı merkezinde operasyon iki ana hattan ilerler: Inbound (gelen talep) ve Outbound (takip/geri arama/upsell). Otel tarafında gerçek değer, outbound disiplininin oturmasıyla ortaya çıkar; çünkü birçok rezervasyon “ilk mesajda” kapanmaz."
+        },
+        { "type": "h3", "text": "Inbound akışı (otel örneği)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Talep al (tel/WA/OTA/e-posta)",
+            "İhtiyaç netleştir (tarih, kişi, oda, bütçe, özel istek)",
+            "Uygunluk & teklif üret",
+            "Teklifi ilet + takip planı koy (bugün/yarın/48 saat)"
+          ]
+        },
+        { "type": "h3", "text": "Outbound akışı (satış disiplini)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "“Fiyat aldım” deyip kaybolan talebi geri kazanma",
+            "Alternatif tarih/oda sunma",
+            "Paket/upsell (transfer, upgrade, özel konsept)"
+          ]
+        },
+        { "type": "media", "slot": "inbound-outbound" },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Outbound’u “opsiyonel” değil standart yapın.",
+            "4 dilde 10 temel senaryo script’i oluşturun (fiyat, uygunluk, iptal, transfer vb).",
+            "Her kanal için SLA belirleyin (ör. WA: 10–15 dk)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entegrasyon-pms-crm",
+      "title": "Entegrasyon: WhatsApp + OTA mesaj + e-posta → PMS/CRM",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Çok dilli operasyonun sürdürülebilir olması için, konuşmaların “kişide kalmaması” gerekir. Bu yüzden PMS/CRM entegrasyonu (en azından lead kaydı + notlar + durum takibi) kritik hale gelir. Ayrıca çağrı kayıtları, veri saklama ve KVKK tarafında minimum standartlar belirlenmelidir."
+        },
+        { "type": "h3", "text": "Minimum entegrasyon seviyesi (başlangıç)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Lead kaydı (ad, tarih, kanal, dil, talep tipi)",
+            "Durum (yeni/teklif iletildi/takipte/kazanıldı/kaybedildi)",
+            "Not alanı + konuşma özeti",
+            "Raporlama (haftalık KPI)"
+          ]
+        },
+        { "type": "h3", "text": "KVKK ve kayıt notu (temel)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Çağrı kaydı politikası, bilgilendirme metni ve saklama süresi net olmalı.",
+            "Erişim yetkileri rol bazlı olmalı (kim, neyi görüyor?)."
+          ]
+        },
+        { "type": "media", "slot": "integrated" },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Tek ekranda lead” hedefiyle başlayın; mükemmel entegrasyon bekleyip gecikmeyin.",
+            "KVKK için kayıt/saklama prensiplerini yazılı hale getirin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kullanim-senaryolari",
+      "title": "Oteller ve markalar için kullanım senaryoları (ikonlu)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu model yalnız “rezervasyon” değil; bilgi, satış ve itibar yönetimini de kapsar. Otel/turizm dışında da benzer mantık çalışır; ancak otelde talep yoğunluğu ve sezon baskısı daha yüksektir."
+        },
+        { "type": "h3", "text": "Otellerde 5 net senaryo" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Rezervasyon öncesi bilgi (konsept, oda, çocuk, transfer)",
+            "Fiyat/uygunluk ve teklif hazırlama",
+            "WhatsApp’tan hızlı dönüş + takip",
+            "OTA mesaj yönetimi (iptal, değişiklik, teyit)",
+            "Memnuniyet sinyali yakalama (şikayet/teşekkür → doğru ekibe aktarım)"
+          ]
+        },
+        { "type": "h3", "text": "Diğer sektörlere kısa örnek" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Sağlık turizmi: çok dilli lead yönetimi",
+            "Gayrimenkul: yabancı alıcı teklif ve randevu süreci"
+          ]
+        },
+        { "type": "media", "slot": "hotel-scenario" },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Senaryoları “en çok para kaçırılan” 2 başlıktan başlatın: fiyat/uygunluk + WhatsApp dönüş."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "partner-secimi",
+      "title": "Doğru partneri seçerken nelere bakmalısınız?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içerikler çoğu zaman konuyu “BPO/kurumsal” anlatır; otel tarafında kritik olan, partnerin turizm sezonsallığını ve OTA + WhatsApp gerçekliğini bilmesidir. Ayrıca “4 dil var” demek yetmez; script, kalite, raporlama ve entegrasyon modeli görünür olmalıdır."
+        },
+        { "type": "h3", "text": "Seçim kriterleri (5 madde)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Otel rezervasyon funnel deneyimi (lead→teklif→takip→kapanış)",
+            "Kanal yetkinliği (WhatsApp + OTA mesajları süreçte mi?)",
+            "Eğitim & kalite modeli (dinleme, puanlama, koçluk)",
+            "Raporlama (KPI seti + haftalık görünürlük)",
+            "Entegrasyon yaklaşımı (PMS/CRM not–durum–rapor akışı)"
+          ]
+        },
+        {"type":"media","slot":"partner-selection"},
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Partner size “örnek rapor” ve “örnek script” gösteriyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Partnerden 1 haftalık pilot plan + KPI hedefi isteyin.",
+            "“Söz” değil, süreç dokümanı ve rapor şablonu talep edin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7-adim-sxo",
+      "title": "4 dilli çağrı merkezi devreye almak için 7 adım ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölümü bir “uygulama planı” gibi düşünün: kısa, net, uygulanabilir."
+        },
+        { "type": "h3", "text": "7 adım checklist" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Kanal envanteri: tel/WA/OTA/e-posta akışlarını çıkar",
+            "Dil hacmi: TR/EN/DE/RU oranlarını belirle",
+            "SLA: kanal bazlı yanıt sürelerini tanımla",
+            "Script: 10 temel senaryo için 4 dilde cevap bankası",
+            "Lead sistemi: CRM/PMS’e minimum kayıt düzeni kur",
+            "KPI: yanıt süresi + dönüşüm + kaçan çağrı + CSAT",
+            "Pilot: 7–14 gün pilot → rapor → iyileştirme"
+          ]
+        },
+         
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Pilotla başlayın; 2 haftada “kazanç/eksik” netleşir.",
+            "KPI’ları haftalık aynı formatta izleyin."
+          ]
+        },
+         {"type":"media","slot":"7-steps"}
+      ]
+    },
+   
+    {
+      "id": "download-asset-tr-en-de-ru",
+      "title": "TR–EN–DE–RU Çağrı Merkezi Başlangıç Check-list’ini İndir — Çağrı Merkezi / Otel (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "TR–EN–DE–RU Çağrı Merkezi Başlangıç Check-list’ini İndir — Çağrı Merkezi / Otel (v1.0)",
+          "purpose": "Bu doküman, otelinizde TR–EN–DE–RU çok dilli çağrı merkezi kurulumunu 14 günde devreye almak için gerekli minimum adımları ve kontrol noktalarını toplar. Kanal (telefon/WhatsApp/OTA/e-posta) akışını tek sisteme bağlayıp KPI’ları görünür hale getirmenizi sağlar.",
+          "whoFor": "Otel GM, satış–pazarlama müdürü, rezervasyon sorumlusu, operasyon/çağrı merkezi yöneticisi.",
+          "steps": [
+            "Aşağıdaki checklist’i ekip toplantısında işaretleyin (60 dakika).",
+            "Problem–kök neden–çözüm tablosunu doldurup ilk 10 aksiyonu seçin.",
+            "14 günlük sprint planıyla uygulayın; gün 7 ve gün 14’te KPI kontrolü yapın."
+          ],
+          "checklist": [
+            "Kanallar listelendi: Telefon / WhatsApp / OTA Mesaj / E-posta",
+            "Dil hacmi oranlandı: TR / EN / DE / RU (kabaca %)",
+            "Kanal bazlı SLA belirlendi (WA yanıt süresi dahil)",
+            "“Lead kaydı” zorunlu alanları belirlendi (ad, tarih, kanal, dil, durum)",
+            "10 temel senaryo script’i tanımlandı (fiyat, uygunluk, iptal, transfer vb.)",
+            "Outbound takip kuralı yazıldı (bugün/yarın/48 saat)",
+            "Kalite modeli belirlendi (dinleme, puanlama, koçluk)",
+            "KPI seti netleşti (yanıt süresi, kaçan çağrı, dönüşüm, CSAT)",
+            "KVKK kayıt/saklama prensibi yazıldı",
+            "Haftalık 1 sayfalık rapor formatı hazır"
+          ],
+          "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        },
+        {"type":"media","slot":"sprint-plan"},
+        {
+          "type": "table",
+          "caption": "Tablo: Problem → Kök Neden → Çözüm (örnek)",
+          "headers": ["Problem", "Kök Neden", "Çözüm", "Sorumlu", "Öncelik"],
+          "rows": [
+            ["WhatsApp geç yanıt", "Tek kişi, vardiya yok", "SLA + vardiya + hazır cevap bankası", "TBD", "Yüksek"],
+            ["OTA mesajları kaçıyor", "Resepsiyonda dağınık", "Tek kuyruk + sorumlu atama", "TBD", "Yüksek"],
+            ["Teklifler kapanmıyor", "Outbound yok", "Takip kuralı + script", "TBD", "Yüksek"],
+            ["Dil uyumsuzluğu", "Eğitim/terminoloji yok", "4 dil terminoloji seti", "TBD", "Orta"],
+            ["KPI görünmüyor", "Raporlama yok", "Haftalık dashboard", "TBD", "Orta"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sonuc-ve-cta",
+      "title": "Sonuç: Çok dilli talebi kaçırmamak için sistem kurun",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "4 dilli çağrı merkezi, otellerde TR–EN–DE–RU taleplerin tek süreçte yönetilmesini sağlar: kanal karmaşasını azaltır, yanıt hızını artırır, teklif–takip standardıyla dönüşüm kaybını düşürür. En büyük fark, ölçülebilir KPI seti ve outbound disiplininin oturmasıyla ortaya çıkar."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "4 Dilli Çağrı Merkezi İhtiyaç Analizi Talep Et",
+          "text": "Otelinizin TR–EN–DE–RU talep akışını kanallara göre çıkarıp en doğru operasyon modelini netleştirelim.",
+          "href": "/cagri-merkezi-hizmetleri"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "TR–EN–DE–RU Çağrı Merkezi Başlangıç Check-list’ini İndir",
+          "text": "Ekibinize görev listesi olarak verin; 14 günlük devreye alma sprint planı gibi kullanın.",
+          "href": "/downloads/tr-en-de-ru-cagri-merkezi-baslangic-checklist-v1.0.pdf"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "4 dilli çağrı merkezi nedir?",
+      "a": "4 dilli çağrı merkezi, TR–EN–DE–RU dillerinde gelen talepleri tek ekip ve süreçle karşılayan, rezervasyon ve destek akışını yöneten profesyonel iletişim yapısıdır. Otellerde telefon, WhatsApp ve OTA mesajlarını tek akışta toplar."
+    },
+    {
+      "q": "Çok dilli çağrı merkezi otellere ne kazandırır?",
+      "a": "Yanıt hızını artırır, kaçan talep oranını düşürür ve teklif–takip standardı sayesinde dönüşümü iyileştirir. Ayrıca misafir deneyiminde dil bariyerini kaldırarak marka algısını güçlendirir."
+    },
+    {
+      "q": "TR–EN–DE–RU çağrı merkezi nasıl çalışır?",
+      "a": "Talepler kanallardan (tel/WA/OTA/e-posta) tek kuyrukta toplanır; agent dili ve senaryoya göre script ile yanıtlar. Lead kaydı, durum takibi ve raporlama ile süreç ölçülür ve sürekli optimize edilir."
+    },
+    {
+      "q": "4 dilli çağrı merkezi ile klasik resepsiyon arasındaki fark nedir?",
+      "a": "Resepsiyon saha operasyonuna odaklanır; çağrı merkezi talep yönetimi ve satış disiplinidir. Çağrı merkezinde script, outbound takip, KPI raporlama ve kanal entegrasyonu standarttır."
+    },
+    {
+      "q": "WhatsApp ve OTA mesajları neden bu kadar kritik?",
+      "a": "Çünkü otelde talebin önemli kısmı yazılı kanallardan gelir ve gecikme hızlıca kayba dönüşür. Tek kuyruk ve SLA ile yönetildiğinde hem hız hem dönüşüm artar."
+    },
+    {
+      "q": "Entegrasyon şart mı, nereden başlamalıyım?",
+      "a": "Mükemmel entegrasyon beklemeden minimum lead kaydı + durum takibiyle başlayabilirsiniz. Önemli olan konuşmaların “kişide kalmaması” ve KPI’ların görünür olmasıdır."
+    },
+    {
+      "q": "KVKK açısından nelere dikkat edilmeli?",
+      "a": "Çağrı kaydı bilgilendirmesi, saklama süresi, erişim yetkileri ve veri işleme politikası net olmalıdır. Roller ve kayıt prensipleri yazılı hale getirilmelidir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez. Bölüm 6 SEO 100 Checklist sayfaya bastırılmadı; sadece burada referans olarak tutulur.",
+      "mediaPack": [
+        "hero-01 (hero/cover) — 1920×1080 — 4-dilli-cagri-merkezi-hero-01.webp",
+        "diagram-01 (mimari şema) — 1920×1080 — 4-dilli-cagri-merkezi-mimari-01.webp",
+        "map-02 (pazar haritası) — 1600×1200 — tr-en-de-ru-pazar-haritasi-02.webp",
+        "flow-03 (kanal akış diyagramı) — 1920×1080 — kanal-akis-yk-03.webp",
+        "icons-04 (kullanım senaryoları ikon seti) — 1600×1200 — senaryolar-ikon-04.webp",
+        "checklist-05 (7 adım görseli) — 1600×1200 — 7-adim-checklist-05.webp",
+        "asset-checklist-onepage-06 (PDF tek sayfa tasarım) — 1200×1600 — checklist-onepage-06.webp",
+        "sprint-timeline-07 (14 gün timeline) — 1920×1080 — sprint-14gun-07.webp",
+        "deliverables-flow-08 (agent→PMS/CRM diyagram) — 1920×1080 — deliverables-flow-08.webp",
+        "table-problem-root-solution (asset tablo görseli) — (görsel referans)",
+        "table-before-after-kpi (asset tablo görseli) — (görsel referans)"
+      ],
+      "technicalChecklist": [
+        "Title 55–60 karakter: primary keyword + marka",
+        "Meta description 150–170 karakter: fayda + CTA",
+        "H1 tek ve sayfada 1 kez",
+        "H2’ler mimariyle uyumlu + en az 1 H2 soru formatında ",
+        "Entity/Semantic theme doğal serpiştirme (Multilingual Call Center, WhatsApp Support, OTA Messages vb.)",
+        "CTA yoğunluğu: Primary 2 kez, Secondary 1 kez",
+        "FAQ cevapları net (2–4 cümle)",
+        "Schema: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+        "Canonical: self-canonical varsayımı",
+        "İç link hedefleri: /cagri-merkezi-hizmetleri, /cagri-merkezi/rezervasyon-destegi, /cagri-merkezi/mesaj-yonetimi, /otel/cagri-merkezi, /pms-ota/rezervasyon-yonetimi",
+        "KVKK/çağrı kayıt notu: politika + saklama + rol bazlı erişim"
+      ]
+    }
+  }
+},
+
+"BlogMarkaSosyalMedyaGorselDiliRehberi": {
+  "title": "Marka Sosyal Medya Görsel Dili Rehberi (Otel & B2B)",
+  "slug": "marka-sosyal-medya-gorsel-dili-rehberi",
+  "department": "creative",
+  "updatedAt": "9 Ocak 2026",
+  "publishedAt": "2026-01-09",
+  "readingTime": "9 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Logo, renk, tipografi, fotoğraf dili ve grid ile tutarlı bir sosyal medya görsel dili kurun. Otel & B2B senaryolarıyla hızlı uygulayın; üretimi hızlandırın, revizyonu azaltın ve feed’i sistemleştirin.",
+  "seo": {
+    "metaTitle": "Sosyal Medya Görsel Dili Rehberi (Otel & B2B) | DGTLFACE",
+    "metaDescription": "Logo, renk, tipografi, fotoğraf dili ve grid ile tutarlı bir sosyal medya görsel dili kurun. Otel & B2B örnekleriyle hızlı uygulayın; checklist’i indirin."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Creative",
+      "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+      "Blog / URL: /tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 2300–2700",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/creative/blog/marka-sosyal-medya-gorsel-dili-rehberi"
+    ],
+    "strategySummary": "Bu içerik, Creative silosu içinde otorite taşıyan “core rehber” rolünde; hem tasarım ekipleri hem de otel/B2B karar vericileri için “görsel dili sistemleştirme” ihtiyacını çözer. Silo sayfanız (/tr/creative/grafik-motion-tasarim) için güçlü bir child/authority blog olarak iç linkle dönüşüm akışını besler. Funnel’da ağırlıkla consideration (MoFu): “güzel post” yerine marka görsel dili modeli kurarak sürdürülebilir üretim vaadi. Ana iş sorusu: “Feed neden dağınık görünüyor ve bunu minimum eforla nasıl sisteme bağlarım?” Hedef persona: otel sahibi / satış–pazarlama müdürü / ajans yöneticisi (uygulayıcıyla aynı masada)."
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-01-09",
+    "readingTime": "9 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Sosyal medyada güçlü bir marka algısı için “her post ayrı telden çalmasın” yaklaşımı şarttır. Bunun yolu; logo kullanımı, renk paleti, tipografi, ikon/illüstrasyon stili, fotoğraf dili ve grid/boşluk kurallarını tek bir stil rehberi altında standardize etmektir. Otel markalarında destinasyon/oda/deneyim; B2B’de ekip/ürün/dashboard görselleri aynı sistemle yönetilir. Böylece üretim hızlanır, onay süreçleri kısalır, feed profesyonelleşir.",
+    "sgeSummary": "Logo, renk, tipografi, fotoğraf dili ve grid’i standartlaştırın; feed/story/reels tutarlılığı için basit bir stil rehberi oluşturun. Otel & B2B senaryolarıyla hızlı uygulayın.",
+    "voiceAnswer": "Instagram’da profesyonel görünmek için renk–tipografi–fotoğraf–grid kurallarını tek sayfalık bir stil rehberinde sabitleyin.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel/turizm ve B2B markalarda GM, S&M, ajans yöneticisi, tasarım ekibi",
+      "KPI: Üretim süresi, revizyon sayısı, onay süresi, etkileşim oranı, kaydetme oranı",
+      "Entity: Brand Visual Identity, Social Media Visuals, Style Guide, Grid System, Typography",
+      "Funnel: Consideration → Conversion (tutarlılık güveni artırır)",
+      "GEO: Türkiye geneli; Antalya/Belek/Side/Kemer/Bodrum örnek senaryoları",
+      "Çıktı: Stil rehberi + görsel dil checklist’i + örnek feed/stories mockup",
+      "Risk: “Güzel post” odaklı üretim → marka algısı dağılır, ekip bağımlılığı artar"
+    ]
+  },
+  "h1": {
+    "title": "Marka Sosyal Medya Görsel Dili Rehberi",
+    "intro": "Sosyal medyada “profesyonel görünmek” çoğu zaman pahalı prodüksiyon değil, tutarlı görsel dil meselesidir. Bugün feed’iniz iyi görünse bile, kural seti yoksa yarın yeni bir kampanyada parçalanır. Bu rehber; logo, renk, tipografi, fotoğraf dili ve grid üzerinden, otel ve B2B markalar için uygulanabilir bir stil rehberi modeli sunar.",
+    "quickSummary": [
+      "1) Son 30 post ile feed dağınıklığını teşhis et",
+      "2) Logo–renk–tipografi–fotoğraf–grid kurallarını sabitle",
+      "3) Feed/Story/Reels için minimum spec oluştur",
+      "4) Şablon + preset ile üretimi hızlandır, revizyonu azalt",
+      "5) 14 günlük sprint planıyla sistemi devreye al"
+    ],
+    "ctaPrimary": {
+      "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
+      "text": "Feed’i dağıtan 5 ana problemi 15 dakikada netleştirelim; tasarım ekibi + karar verici için.",
+      "href": "/creative/grafik-motion-tasarim"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
+      "text": "Mevcut feed’inizi hızlıca haritalayıp logo/renk/tipografi/fotoğraf/grid hatalarını önceliklendiriyoruz.",
+      "href": "/creative/grafik-motion-tasarim"
+    },
+    "secondary": {
+      "label": "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir",
+      "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi uygulayın, feed’i sistemli şekilde toparlayın.",
+      "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf"
+    }
+  },
+  "internalLinks": [
+    { "label": "Grafik & Motion Tasarım", "href": "/creative/grafik-motion-tasarim" },
+    { "label": "İçerik üretimi", "href": "/smm/icerik-uretimi" },
+    { "label": "UI/UX Tasarım", "href": "/creative/ui-ux-tasarim" }
+  ],
+  "relatedPosts": [
+    { "title": "Grafik & Motion Tasarım: Sosyal medya üretim sistemi", "href": "/creative/grafik-motion-tasarim" },
+    { "title": "İçerik Üretimi: Süreç ve yayın planı", "href": "/smm/icerik-uretimi" }
+  ],
+  "sections": [
+
+    {
+      "id": "marka-gorsel-dili-nedir",
+      "title": "Marka Görsel Dili Nedir?",
+      "preBlocks":[{"type":"media","slot":"mockup-goodbad"}],
+
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Görsel dil, markanın her temas noktasında “aynı kişi konuşuyormuş” hissi veren tasarım kurallarıdır. Sosyal medyada görsel dil; hızla akan içerik içinde tanınabilirlik, güven ve profesyonellik üretir. Burada amaç “her post aynı” yapmak değil; çeşitliliği sistem içinde üretmektir: kampanyalar değişir ama DNA değişmez."
+        },
+        {
+          "type": "h3",
+          "text": " Marka görsel dili nedir, sosyal medya için neden önemlidir?"
+        },
+        {
+          "type": "p",
+          "text": "Net cevap: Görsel dil; logo, renk, tipografi, fotoğraf dili ve grid gibi bileşenlerin tutarlı kullanım kurallarıdır. Sosyal medyada önemlidir çünkü kullanıcı 1–2 saniyede karar verir; tutarlılık, markayı hızlı tanınır kılar ve güveni artırır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Bir postu markanızdan bağımsız görsem “Bu siz misiniz?” diyebilir miyim?",
+            "9’lu feed görünümünde ortak ritim var mı?",
+            "Kampanya görselleri “marka dışı” gibi mi duruyor?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Son 30 postu + son 10 story + 12 reels kapağını tek panoda toplayın (Figma/Canva board).",
+            "Dağınıklığın kaynağını etiketleyin: renk mi, font mu, fotoğraf tonu mu, grid mi, ikon mu?",
+            "5 bileşeni sabitleyin: renk, tipografi, fotoğraf dili, grid, ikon/etiket stili.",
+            "Kritik kararları 1 sayfalık “quick spec”e yazın (onay süresini kısaltır).",
+            "Yeni içerik üretimine başlamadan önce 3 örnek şablonla “pilot” yapın (1 hafta)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bilesenler",
+      "title": "Sosyal Medya İçin Görsel Dil Bileşenleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Sosyal medya görsel dili, bir “tasarım seti” değil; bir operasyon sistemidir. En iyi sistem; yeni bir tasarımcı geldiğinde bile aynı kaliteyi çıkarır. Aşağıda bileşenleri tek tek sabitleyip, ardından aynı modelin otel ve B2B senaryolarına nasıl uyarlanacağını göreceksiniz."
+        },
+        { "type": "h3", "text": "Logo Kullanımı" },
+        {
+          "type": "p",
+          "text": "Logo, sosyal medyada her yere basılacak bir damga değil; dozajı yönetilen bir imzadır. Her postta büyük logo, hem estetiği bozar hem de mesajı zayıflatır. En iyi pratik: logo kullanımını format bazlı tanımlamak (feed, story, reels cover)."
+        },
+        { "type": "h4", "text": "Logo Dozaj Kuralları" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Feed: Köşede küçük, “safe area” ile",
+            "Story: Son karede veya highlight cover’da daha güçlü",
+            "Reels: Kapakta küçük; videonun içinde watermark gerekiyorsa minimal"
+          ]
+        },
+        { "type": "media", "slot": "logo-safearea" },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Logo için minimum boyut + safe area ölçüsü belirleyin ve şablonlara gömün.",
+            "Feed/story/reels için logo kullanım senaryosu yazın: “nerede, ne kadar, ne zaman?”.",
+            "Logo büyütmek yerine: headline hiyerarşisi + marka rengi + tipografi ile tanınırlığı artırın.",
+            "Kampanya dönemlerinde “logo panik” kuralı koyun: kampanya ≠ dev logo."
+          ]
+        },
+
+        { "type": "h3", "text": "Renk Paleti" },
+        {
+          "type": "p",
+          "text": "Renk paleti iki katmandır: core palette (marka rengi ailesi) + support palette (kampanya/season tonları). Otel markalarında yaz/kış sezonu; B2B’de ürün lansmanı gibi dönemsel değişimler “support” katmanında yönetilir."
+        },
+        { "type": "h4", "text": "Renk Sistemi (Pratik Model)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Core: 2 ana + 2 nötr (arka plan/typography)",
+            "Support: 4–6 vurgu (kampanya, CTA, ikon)",
+            "“Kırmızı çizgi”: Kontrast ve erişilebilirlik"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Aynı CTA rengi her formatta aynı mı?",
+            "Arka plan renkleri metni boğuyor mu?",
+            "Story’de renk “parlıyor” ama feed’de sönüyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Paleti “hex listesi” olarak değil, kullanım rolü olarak tanımlayın (CTA/Headline/Background/Badge).",
+            "Core ve support renkleri ayrı sayfada gösterin; support kullanımını oranlayın (ör. %20 sınırı).",
+            "Otel tarafında destinasyon tonlarını support palette’te “sınırlı” kullanın; her posta yeni ton eklemeyin.",
+            "B2B’de kontrast testini standartlaştırın: dashboard görseli + metin bindirme için 2–3 arka plan kuralı."
+          ]
+        },
+
+        { "type": "h3", "text": "Tipografi" },
+        {
+          "type": "p",
+          "text": "Tipografi, feed’in “ses tonu”dur. Aynı mesaj; yanlış font/hiyerarşiyle amatör görünür. Sosyal medyada tipografiyi basitleştirin: 1 başlık fontu + 1 gövde fontu + net boyut sistemi."
+        },
+        { "type": "h4", "text": "Tipografi Hiyerarşisi (Feed/Story)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "H (Headline): 32–48 px (format bazlı)",
+            "Sub: 18–24 px",
+            "Body: 14–18 px (story’de minimum okunurluk)",
+            "Satır aralığı: okunurluk odaklı"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“3 kademe” kuralını sabitleyin: Headline/Sub/Body dışında seviye açmayın.",
+            "Uzun metinleri tek görsele yığmayın; carousel’e bölün (1 fikir = 1 slide).",
+            "Story için minimum okunurluk ölçüsü belirleyin (mobil test: 1 metre kuralı).",
+            "B2B’de dashboard üstüne metin koyarken kontrastı 2 varyantla test edin (açık/koyu)."
+          ]
+        },
+
+        { "type": "h3", "text": "İkon ve İllüstrasyon Stili" },
+        {
+          "type": "p",
+          "text": "İkonlar “mikro dil” taşır: çizgi kalınlığı, köşe radius’u, doluluk oranı… Hepsi tutarlı olmalı. Otel markasında ikonlar deneyimi (spa, beach, room); B2B’de fonksiyonu (rapor, sistem, süreç) anlatır."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "İkonlar aynı çizgi kalınlığında mı?",
+            "Dolu ikon ile çizgi ikon karışmış mı?",
+            "İllüstrasyon stili fotoğraf diliyle çarpışıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Tek bir ikon seti seçin (outline ya da filled) ve karıştırmayın.",
+            "Badge/etiket sistemini ikonlarla birlikte tanımlayın (kategori + renk + ikon).",
+            "İllüstrasyon kullanacaksanız, fotoğrafla aynı posttaki kuralı yazın (ör. %70 foto / %30 grafik).",
+            "Otel için deneyim ikonlarını sabitleyin (spa/beach/kids/pool/food); B2B için süreç ikonlarını sabitleyin (report/security/integration)."
+          ]
+        },
+
+        { "type": "h3", "text": "Fotoğraf Dili" },
+        {
+          "type": "p",
+          "text": "Fotoğraf dili; “ne çekiyoruz?” kadar “nasıl düzenliyoruz?” sorusudur. Otellerde destinasyon/oda/deneyim; B2B’de ekip/ürün/dashboard. Aynı kategori içinde bile ışık, renk, kadraj ve boşluk yönetimi standardize edilmezse feed parçalanır."
+        },
+        { "type": "h4", "text": "Otel Fotoğraf Dili (Destinasyon/Oda/Deneyim)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Antalya/Belek gibi resort bölgelerde: sıcak, ferah, geniş açı ama abartısız",
+            "Side/Kemer: doğa/deneyim dengesi",
+            "Bodrum: minimalist, kontrastı düşük, “premium” ton"
+          ]
+        },
+        { "type": "h4", "text": "B2B Fotoğraf Dili (Ekip/Ürün/Dashboard)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ekip: doğal, sahici, yapay “stock” hissinden uzak",
+            "Ürün: yakın plan + kullanım bağlamı",
+            "Dashboard: gerçek ekran görüntüsü + sade anotasyon"
+          ]
+        },
+        { "type": "media", "slot": "photo-grid" },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "3 fotoğraf kategorisi belirleyin ve her biri için 3 kural yazın (ışık/kadraj/renk).",
+            "Renk düzenini tek “preset”te sabitleyin (2 varyant: bright + premium).",
+            "Feed’de preset zorunlu olsun; story’de “ham” serbestse bile minimum düzeltme kuralı koyun.",
+            "Otel tarafında sezona göre support ton değişimini preset’in içinde yönetin (her çekimde yeniden renk aramayın)."
+          ]
+        },
+
+        { "type": "h3", "text": "Grid ve Boşluk Kullanımı" },
+        {
+          "type": "p",
+          "text": "Grid, görsel dilin görünmez omurgasıdır. Boşluk (whitespace) ise premium algının en hızlı yoludur. Grid kuralları; özellikle carousel ve story şablonlarında üretimi hızlandırır."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "2–3 temel şablon çıkarın: tek görsel, carousel, story serisi (ve hepsine aynı grid mantığı).",
+            "Safe area, kenar boşlukları, metin bloklarını sabitleyin; sürpriz margin bırakmayın.",
+            "Reels kapaklarında 3–5 kelimelik kısa başlık standardı koyun.",
+            "Grid’i “hız aracı” yapın: 10 dakikada üretim hedefi (kapak/quote/duyuru)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "format-tutarliligi",
+      "title": "Feed/Story/Reels Arası Tutarlılık",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "En sık hata: feed tasarlanır, story “günlük” gider, reels kapakları rastgele kalır. Oysa kullanıcı markayı kanallar arası birlikte görür. Tutarlılık; her formatı aynı yapmak değil, aynı sistem altında farklılaştırmaktır."
+        },
+        { "type": "h3", "text": "Feed Tutarlılığı: “9’lu görünüm testi”" },
+        {
+          "type": "p",
+          "text": "9’lu görünümde; renk ritmi, tipografik ağırlık ve fotoğraf–grafik dengesi okunmalı. Eğer 9 postta 9 farklı tasarım dili varsa, kullanıcı “ajans değişmiş” hissi alır."
+        },
+        { "type": "h3", "text": "Story Tutarlılığı: “Seri mantığı”" },
+        {
+          "type": "p",
+          "text": "Story; hızlı üretim alanı ama yine de şablon ister. 3’lü seri modeli iyi çalışır: 1) Hook — 2) Değer — 3) CTA/sonraki adım."
+        },
+        { "type": "h3", "text": "Reels Tutarlılığı: Kapak + Alt yazı standardı" },
+        {
+          "type": "p",
+          "text": "Reels’in algısı, çoğu zaman kapakta başlar. Kapaklar aynı grid ve tipografiyle gelmeli; alt yazılar “ses tonu” standardında olmalı."
+        },
+        {
+          "type": "callout",
+          "variant": "check",
+          "title": "Mini Check",
+          "items": [
+            "Reels kapakları feed ile aynı aileden mi?",
+            "Story’de metin boyutu okunuyor mu?",
+            "CTA görseli her formatta aynı rolü taşıyor mu?"
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir",
+          "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi uygulayın, feed’i sistemli şekilde toparlayın.",
+          "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf"
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "3 format için “minimum spec” yazın (renk rolü, font kademe, grid, logo senaryosu).",
+            "Reels kapaklarını 10 dakikada üretilecek kadar sadeleştirin (tek başlık + tek grid).",
+            "Story seri modelini haftalık rutine bağlayın (örn. Pazartesi Hook, Çarşamba Değer, Cuma CTA).",
+            "Kampanya dönemlerinde bile core kuralları bozmayın; support palette + şablon varyantı ile çözün."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stil-rehberi-yapisi",
+      "title": "Örnek Stil Rehberi Yapısı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stil rehberi; 50 sayfalık brandbook olmak zorunda değil. Sosyal medya için en iyi form: 6–10 sayfalık uygulama rehberi + şablon dosyaları. Amaç: “nasıl karar verdik?” sorusunu kapatmak ve üretimi hızlandırmak."
+        },
+        { "type": "media", "slot": "quick-spec" },
+        { "type": "h3", "text": "Stil Rehberi İçindekiler (Önerilen)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Amaç & kapsam (hangi kanallar?)",
+            "Logo kullanımı (safe area + örnek)",
+            "Renk sistemi (rol bazlı)",
+            "Tipografi (3 kademe)",
+            "Grid & şablonlar (feed/story/reels)",
+            "Fotoğraf dili (preset + örnek)",
+            "İkon/illüstrasyon kuralları",
+            "Do/Don’t (iyi/kötü örnekler)"
+          ]
+        },
+        
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Önce “quick spec” çıkarın; sonra 6–10 sayfalık rehbere genişletin.",
+            "Rehberi şablon dosyalarıyla birlikte teslim edin (Figma/Canva linkleri + kullanım notu).",
+            "Revizyonu azaltmak için Do/Don’t sayfasını zorunlu kılın (ajans–müşteri aynı dili konuşur).",
+            "İçerik üretim süreçlerinizi desteklemek için “İçerik Üretimi” rehberine bağlayın.",
+            "Rehberi 365 günlük cycle ile tazeleyin (sezon, kampanya, yeni kanal)."
+          ]
+        },
+         { "type": "media", "slot": "do-dont" }
+      ]
+    },
+    {
+      "id": "otel-b2b-senaryolari",
+      "title": "Otel ve B2B İçin Görsel Dil Senaryoları",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Aynı görsel dil modeli; farklı sektörlerde farklı “vurgu alanları” ister. Otellerde duygu ve deneyim; B2B’de netlik ve güven baskındır. Buradaki kritik nokta: görsel dilinize sektörel varyant tanımlamak (ama ana DNA’yı bozmamak)."
+        },
+        { "type": "h3", "text": "Otel Senaryosu: Destinasyon + Oda + Deneyim Dengesi" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Destinasyon: Antalya/Belek gibi bölgelerde “geniş his” ve sıcak tonlar",
+            "Oda: detay + konfor göstergeleri (ışık, tekstil, düzen)",
+            "Deneyim: spa, restoran, etkinlik; ikon/etiket sistemiyle kategorize"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Varsayım: Otel markalarında tutarlı görsel dil uygulaması sonrası, kreatif üretim süresi %20–30 kısalır; revizyon sayısı azalır (özellikle kampanya dönemlerinde)."
+        },
+        { "type": "h3", "text": "B2B Senaryosu: Ekip + Ürün + Dashboard Netliği" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Ekip görselleri: güven ve gerçeklik",
+            "Ürün: “ne işe yarar”ı anlatan minimal şema/ikon",
+            "Dashboard: okunur anotasyon + tek CTA"
+          ]
+        },
+        { "type": "h3", "text": " Otel ve B2B markaları için sosyal medya stil rehberi nasıl hazırlanır?" },
+        {
+          "type": "p",
+          "text": "Net cevap: Aynı omurgayı kullanın (logo–renk–tipografi–fotoğraf–grid), sonra sektöre göre fotoğraf dili ve şablonları varyantlayın. Otelde deneyim kategorileri, B2B’de ürün/süreç şemaları öne çıkar; ancak core renk ve tipografi değişmez."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "“Tek rehber + iki varyant” yaklaşımı kurun (Otel/B2B): fotoğraf dili + şablonlar varyant, core kurallar sabit.",
+            "Support palette’i sezon/kampanya için kullanın; core palette’i asla değiştirmeyin.",
+            "Her senaryo için 3 şablon çıkarın: feed post, story seri, reels kapak.",
+            "Grafik & motion ihtiyaçlarınızı hizmet sayfasına bağlayın.",
+            "Ekip bağımlılığını azaltmak için: şablon + quick spec + onay akışı üçlüsünü aynı anda kurun."
+          ]
+        },
+        { "type": "p", "text": "İç link: /tr/creative/grafik-motion-tasarim" }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç ve Uygulama Planı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Görsel dil; “tasarım işi” değil, marka operasyonudur. İyi kurulan bir görsel dil; içerik üretimini hızlandırır, ekibin karar yorgunluğunu azaltır ve marka algısını tekleştirir. Bu rehberi bir kez kurup, yılda en az 1 kez (rebrand, sezon konsepti, yeni kanal eklemeleriyle) güncellediğinizde, sosyal medya üretiminiz “sürdürülebilir sistem”e dönüşür."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "14 günlük sprint planıyla başlayın: önce kurallar, sonra şablon, sonra pilot içerik.",
+            "Pilot sonrası KPI’ları izleyin: üretim süresi, revizyon sayısı, onay süresi (en hızlı kazanım).",
+            "Sistem oturduktan sonra: ayda 1 kez “9’lu feed audit” rutini koyun.",
+            "Sezon/kampanya değişimlerinde sadece support palette + mesaj şablonu değiştirin; DNA’yı bozmayın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Marka Sosyal Medya Görsel Dil Analizi Talep Et",
+          "text": "Mevcut feed’inizi hızlıca haritalayıp; logo/renk/tipografi/fotoğraf/grid hatalarını önceliklendiriyoruz.",
+          "href": "/creative/grafik-motion-tasarim"
+        },
+        {"type":"media", "slot":"problem-sol"}
+      ]
+    },
+    {
+      "id": "download-asset",
+      "title": "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir — Creative / Sosyal Medya Görsel Dili (v1.0)",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "pdf",
+          "version": "v1.0",
+          "title": "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir — Creative / Sosyal Medya Görsel Dili (v1.0)",
+          "purpose": "Bu asset, sosyal medya görsel dilinizi logo–renk–tipografi–fotoğraf–grid ekseninde hızlıca denetleyip standartlaştırmanız için hazırlanmıştır. 14 günlük sprint planı ile ekip içi görev dağılımını netleştirir, “revizyon döngüsünü” kısaltır. Otel ve B2B senaryoları için aynı omurgayı koruyarak varyant çıkarabilirsiniz.",
+          "whoFor": "Sosyal medya yöneticisi, tasarımcı, ajans yöneticisi ve marka/marketing karar vericisi.",
+          "steps": [
+            "Mevcut feed’i topla: Son 30 post + story örnekleri + reels kapaklarını bir araya getir.",
+            "Checklist’i doldur: Kırmızı/Sarı/Yeşil ve puanlama ile sorunları önceliklendir.",
+            "Sprint’e uygula: 14 günde şablonları, preset’i ve onay akışını kur; sonra içerik üretimine geç."
+          ],
+          "checklist": [
+            "Logo safe-area ve minimum boyut tanımlı",
+            "Logo kullanım senaryosu (feed/story/reels) net",
+            "Core palette + support palette ayrımı yapıldı",
+            "CTA rengi rol bazlı sabit",
+            "Tipografi 3 kademe (Headline/Sub/Body) kuralı var",
+            "Fotoğraf dili: Otel (destinasyon/oda/deneyim) tanımlı",
+            "Fotoğraf dili: B2B (ekip/ürün/dashboard) tanımlı",
+            "Grid: 2–3 temel şablon belirlendi",
+            "İkon seti tek stile sabit (outline/filled)",
+            "Do/Don’t örnekleri üretildi",
+            "9’lu feed testinde ritim var",
+            "Story seri modeli (Hook/Değer/CTA) standart",
+            "Reels kapakları aynı grid ve tipografiyle",
+            "Kampanya dönemlerinde core kurallar bozulmuyor",
+            "Onay süreci “quick spec” ile yönetiliyor"
+          ],
+          "href": "/downloads/marka-gorsel-dil-feed-tutarlilik-checklist-v1.0.pdf",
+          "buttonLabel": "PDF’i İndir"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Marka görsel dili nedir, sosyal medya için neden önemlidir?",
+      "a": "Görsel dil; logo, renk, tipografi, fotoğraf dili ve grid gibi bileşenlerin tutarlı kullanım kurallarıdır. Sosyal medyada 1–2 saniyede algı oluştuğu için tutarlılık tanınırlığı ve güveni artırır."
+    },
+    {
+      "q": "Feed’de renk ve tipografi tutarlılığı nasıl sağlanır?",
+      "a": "Core palette + support palette ayrımı yapın ve her renge rol atayın (CTA, arka plan, vurgu gibi). Tipografide 3 kademe (headline/sub/body) standardı belirleyip şablonlara sabitleyin."
+    },
+    {
+      "q": "Otel ve B2B markaları için sosyal medya stil rehberi nasıl hazırlanır?",
+      "a": "Aynı omurgayı koruyun (logo–renk–tipografi–fotoğraf–grid), sektöre göre fotoğraf dili ve şablonları varyantlayın. Otelde deneyim, B2B’de netlik önceliklidir ama core kurallar değişmez."
+    },
+    {
+      "q": "Logo, ikon ve fotoğraf dili aynı anda nasıl yönetilir?",
+      "a": "Önce fotoğraf dilini “kategori + preset” ile sabitleyin, sonra ikon stilini (outline/filled) tek sete indirin. Logo kullanımını format bazlı dozajlayın; böylece aynı postta çarpışma azalır."
+    },
+    {
+      "q": "Reels kapakları neden feed’den kopuk görünür?",
+      "a": "Çünkü kapaklar ayrı bir şablon sistemiyle tasarlanmamıştır. Tek grid + tek tipografi standardı belirleyip tüm kapakları aynı aileye alın."
+    },
+    {
+      "q": "Stil rehberi kaç sayfa olmalı, brandbook şart mı?",
+      "a": "Sosyal medya için 6–10 sayfalık uygulama rehberi çoğu zaman yeterlidir. Kritik olan uzunluk değil; şablonlarla birlikte uygulanabilir olmasıdır."
+    },
+    {
+      "q": "Tutarlı görsel dil etkileşimi artırır mı?",
+      "a": "Tutarlılık doğrudan “beğeni” değil, daha çok tanınırlık, kaydetme ve güven metriklerini iyileştirir. Uzun vadede kampanya performansını stabil hale getirir."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez. Bölüm 6 SEO 100 Checklist sadece kontrol amaçlıdır; sayfaya bastırılmaz.",
+      "mediaPack": [
+        "hero-01 (hero/cover) — 1920×1080 — gorsel-dil-hero-01.webp",
+        "mockup-good-bad-02 — 1600×1200 — feed-iyi-kotu-02.webp",
+        "logo-safe-area-03 — 1600×1200 — logo-safe-area-03.webp",
+        "photo-grid-04 — 1600×1200 — otel-vs-b2b-photo-grid-04.webp",
+        "quick-spec-05 — 1200×1600 — quick-spec-05.webp",
+        "do-dont-06 — 1600×1200 — do-dont-06.webp"
+      ],
+      "technicalChecklist": [
+        "BÖLÜM 6 SEO 100 Checklist (1–100) bu sayfa için referans olarak tutulur.",
+        "Title 55–60 karakter, primary keyword + bağlam + marka",
+        "Meta description 150–170 karakter, fayda + CTA",
+        "H1 tek ve 1 kez",
+        "AEO soru blokları en az 2 adet (H3)",
+        "Primary CTA 2 kez, Secondary CTA 1 kez",
+        "Download asset (PDF) sayfada sadece indirme modülü olarak gösterilir",
+        "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
+        "Schema planı: WebSite/WebPage/Article/BreadcrumbList/FAQPage",
+        "Refresh cycle: 365 gün"
+      ]
+    }
+  }
+},
+
+"BlogLookerStudioOtellerIcinNedirNasilCalisir": {
+    "title": "Looker Studio: Türkiye Otelleri KPI Dashboard | DGTLFACE",
+    "slug": "looker-studio-oteller-icin-nedir-nasil-calisir",
+    "department": "veri-analizi",
+    "updatedAt": "9 Ocak 2026",
+    "publishedAt": "2026-01-09",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Looker Studio ile otel KPI raporlama nasıl kurulur? GA4, Google Ads, Meta Ads ve gerekirse PMS/OTA verilerini tek panelde toplayın; trafik→rezervasyon→gelir akışını izleyin.",
+    "seo": {
+      "metaTitle": "Looker Studio: Türkiye Otelleri KPI Dashboard | DGTLFACE",
+      "metaDescription": "Looker Studio ile otel KPI raporlama nasıl kurulur? GA4, Google Ads, Meta Ads ve gerekirse PMS/OTA verilerini tek panelde toplayın; trafik→rezervasyon→gelir akışını izleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Looker Studio Raporlama — /tr/raporlama/looker-studio",
+        "Blog / URL: /tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir",
+        "Blog Tipi: Core",
+        "Intent: Informational (Beginner)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/looker-studio-oteller-icin-nedir-nasil-calisir"
+      ],
+      "strategySummary": "Bu içerik, “Raporlama” silosunda temel kavramları doğru çerçeveleyen ve sonraki ileri seviye raporlama içeriklerine köprü kuran otorite taşıyan child/core rehber rolünde. Hedef persona, otel sahibi/GM ile satış–pazarlama yöneticisi ve ajans tarafında raporlamayı standardize etmek isteyen ekipler. Funnel’da awareness → consideration bandında, “veriyi tek panelde görüp daha hızlı karar almak” ihtiyacını netleştirir. Yazının ana iş sorusu: “Looker Studio ile otelim için hangi verileri birleştirip, hangi KPI’ları tek dashboard’ta izlemeliyim ve ilk paneli nasıl kurarım?” Refresh Cycle 365 olduğu için, temel kavramlar zamana dayanıklı tutulur; örnekler ve ekran akışları yılda 1 kez güncellenebilir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-09",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Looker Studio, otellerin SEO, reklam, sosyal medya ve rezervasyon verilerini tek bir dashboard üzerinde birleştirmesini sağlayan ücretsiz bir raporlama aracıdır. GA4, Google Ads, Meta Ads, Search Console ve ihtiyaç halinde PMS/OTA çıktıları bağlanarak; trafik, rezervasyon ve gelir performansı günlük/haftalık izlenir. Bu rehberde Looker Studio’nun mantığını, otel KPI setini ve “ilk dashboard” kurulumunu adım adım anlatarak yönetimin sorduğu sorulara tek panelden cevap vermeyi hedefliyoruz.",
+      "sgeSummary": "Looker Studio, otel verilerini tek panelde toplar: GA4 + Ads + Search Console (+ PMS/OTA). Trafik→rezervasyon→gelir KPI’larıyla yönetim raporu dakikalara iner; ilk dashboard adım adım kurulabilir.",
+      "voiceAnswer": "Looker Studio, otelinizin GA4 ve reklam verilerini tek dashboard’ta birleştirip KPI’ları izlemenizi sağlar.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans raporlama ekipleri",
+        "Ana KPI’lar: Doluluk, ADR, RevPAR, gelir, rezervasyon, ROAS, CPA, organik görünürlük",
+        "Entity’ler: Looker Studio, GA4, Google Ads, Meta Ads, Search Console, PMS, OTA, KPI Dashboard",
+        "Geo bağlamı: Antalya, Belek, Side, Kemer, Bodrum örnek senaryoları (spam yok)",
+        "Funnel: Awareness/Consideration (veri görünürlüğü → karar hızı)",
+        "Çıktı: Trafik→rezervasyon→gelir akış diyagramı + yönetim paneli + rapor rutini",
+        "Başarı ölçütü: Rapor hazırlama süresi azalır; karar alma hızı ve tutarlılığı artar"
+      ]
+    },
+    "h1": {
+      "title": "Looker Studio Oteller İçin Nedir, Nasıl Çalışır? Temel Rehber",
+      "intro": "Bu rehber, Looker Studio’nun otel tarafında nasıl değer ürettiğini; hangi veri kaynaklarını birleştirmeniz gerektiğini; hangi KPI setiyle “yönetim paneli” kuracağınızı ve ilk dashboard’u adım adım nasıl yayına alacağınızı netleştirir. Hedef; rapor üretimini hızlandırmak değil, trafik→rezervasyon→gelir akışını tek ekranda görüp karar almayı standardize etmektir.",
+      "quickSummary": [
+        "1) Looker Studio’nun otel tarafında hangi kararları kolaylaştırdığını netleştir",
+        "2) GA4 + Ads + Search Console (+ gerekirse PMS/OTA) kaynaklarını seç",
+        "3) Trafik→rezervasyon→gelir KPI setiyle ilk dashboard’u kur ve rutine bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Looker Studio Otel Dashboard Analizi Talep Et",
+        "text": "Otelinizin mevcut raporlarını tek panel planına çevirip, GM için KPI setini netleştirmek isteyenler için.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Looker Studio Otel Dashboard Analizi Talep Et",
+        "text": "Mevcut raporlarınızı sadeleştirip, oteliniz için doğru KPI setini ve panel mimarisini hızla kuralım.",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Örnek Otel Performans Paneli Demo Linkini İste",
+        "text": "Örnek paneli inceleyip kendi oteliniz için KPI ekranını daha hızlı netleştirirsiniz.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Looker Studio Raporlama (Hizmet)", "href": "/raporlama/looker-studio" },
+      { "label": "Raporlama (Silo)", "href": "/raporlama" },
+      { "label": "Veri Analizi & Raporlama", "href": "/veri-analiz-ve-raporlama" },
+      { "label": "Reklam Raporlama (SEM)", "href": "/sem/reklam-raporlama" },
+      { "label": "SEO Raporlama", "href": "/seo/seo-raporlama" },
+      { "label": "Sosyal Medya Analiz & Raporlama", "href": "/smm/analiz-raporlama" },
+      { "label": "PMS & OTA / Online Satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      { "title": "SEO Raporlama: Otel Organik Görünürlük ve Talep Takibi", "href": "/seo/seo-raporlama" },
+      { "title": "Reklam Raporlama: Google Ads & Meta Ads KPI Okuma", "href": "/sem/reklam-raporlama" },
+      { "title": "PMS & OTA: Online Satış Performansı Nasıl Okunur?", "href": "/pms-ota/online-satis" }
+    ],
+    "sections": [
+      {
+        "id": "h1-giris-ozet",
+        "title": "Looker Studio Oteller İçin Nedir, Nasıl Çalışır? Temel Rehber",
+        "blocks": [
+         
+          { "type": "p", "text": "Bu yazıda 3 şeyi netleştireceğiz: (1) Looker Studio ne işe yarar ve otel tarafında hangi kararları kolaylaştırır, (2) Hangi veri kaynakları bağlanır ve hangi KPI seti “yönetim paneli” için idealdir, (3) İlk dashboard’u adım adım kurup günlük/haftalık rapor rutinine bağlarız." },
+          { "type": "media", "slot": "panel-report" },
+          { "type": "cta", "variant": "primary", "label": "Looker Studio Otel Dashboard Analizi Talep Et", "text": "Otelinizin mevcut raporlarını tek panel planına çevirip, GM için KPI setini netleştirmek isteyenler için.", "href": "/raporlama/looker-studio" }
+        ]
+      },
+      {
+        "id": "looker-studio-oteller-icin-nedir",
+        "title": "Looker Studio oteller için nedir, ne işe yarar?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio (eski adıyla Data Studio), farklı kaynaklardan gelen verileri tek bir yerde toplayıp okunabilir, paylaşılabilir ve otomatik güncellenen dashboard’lara dönüştürür. Otel özelinde değerinin sebebi “rapor üretmek” değil; karar vermek için gerekli sinyalleri (trafik, talep, rezervasyon, gelir, maliyet) aynı ekranda buluşturmasıdır. Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi sezon dalgalanması yüksek destinasyonlarda “bu hafta ne oldu?” sorusuna hızlı cevap vermek kritik hale gelir."
+          },
+          { "type": "h3", "text": "Kısa cevap " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ne işe yarar? GA4 + reklam + organik + (varsa) PMS/OTA verilerini tek panelde toplar.",
+              "Sonuç? Yönetim raporları saatler yerine dakikalarda çıkar; ekip aynı “tek doğru kaynak”tan konuşur.",
+              "Kimler için? GM, satış–pazarlama, revenue ve ajans ekipleri."
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (otel bağlamı)" },
+          {
+            "type": "p",
+            "text": "“Geçen hafta doluluk düştü” cümlesi tek başına eksik kalır. Looker Studio panelinde aynı anda: trafik kaynağı değişti mi (organik mi düştü, reklam mı?), rezervasyon dönüşümü mü düştü (web’de form/engine sorunu), gelir mi düştü, ADR mi (fiyat/segment etkisi) gibi sorulara tek bakışta yaklaşabilirsiniz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (1 dakikalık kontrol)",
+            "items": [
+              "Şu an raporlar Excel + ekran görüntüsü ile mi hazırlanıyor?",
+              "GM toplantısında herkes farklı sayı mı söylüyor?",
+              "“Trafik var ama rezervasyon yok” sorusunu net cevaplayamıyor musunuz?",
+              "Üçüne de “evet” ise, Looker Studio paneli ilk hızlı kazanımdır."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Yönetimin sorduğu 5 soruyu yaz: “Gelir neden değişti?”, “Hangi kanal kazandırıyor?”",
+              "Bu sorulara karşılık gelecek KPI’ları seç (doluluk, ADR, RevPAR, ROAS vb.)",
+              "GA4 + Ads + Search Console’ı bağlamayı hedefle (ilk sürüm)",
+              "“Trafik→Rezervasyon→Gelir” akışını tek sayfada kurgula",
+              "Haftalık 15 dakikalık panel rutini oluştur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanim-alanlari",
+        "title": "Oteller için kullanım alanları (yönetimin gerçek sorularına göre)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Looker Studio’nun otel tarafında en iyi çalıştığı yer, “kanal bazlı performansı” yalnız metriklerle değil, hikâye akışıyla göstermesidir: trafik geliyor → dönüşüm oluyor → gelir oluşuyor. Böylece pazarlama, satış ve revenue ekipleri aynı panelde konuşur."
+          },
+          { "type": "h3", "text": "En yaygın 6 kullanım alanı" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Dijital Performans Paneli: SEO + Ads + sosyal kaynaklar, tek ekranda",
+              "Rezervasyon Funnel Takibi: ziyaret → arama → oda görüntüleme → rezervasyon",
+              "Kampanya Raporları: erken rezervasyon, last-minute, paket kampanyalar",
+              "Pazar/Dil Segmenti: TR/EN/DE/RU bazlı talep ve dönüşüm okuması",
+              "İtibar & Talep Sinyali: organik görünürlük + marka aramaları trendi",
+              "Ajans/İç Ekip SLA: rapor rutini, KPI hedefleri, aksiyon listesi"
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (yönetim sorusu → panel cevabı)" },
+          { "type": "p", "text": "Soru: “Bu ay reklam harcaması arttı ama gelir neden artmadı?” Panel cevabı: ROAS düştüyse → dönüşüm oranı mı düştü, ADR mi düştü, trafik kalitesi mi?" },
+          { "type": "media", "slot": "section" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (kullanım alanı seçimi)",
+            "items": [
+              "En acil ihtiyacım “GM raporu” mu, “kampanya raporu” mu?",
+              "Günlük mü haftalık mı karar alıyorum?",
+              "KPI setim satış (gelir) odaklı mı, talep (trafik) odaklı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“GM Paneli” ile başla: az metrik, net hikâye",
+              "Sonra “Kampanya Paneli” ekle: ROAS/CPA + dönüşüm",
+              "Üçüncü aşama: pazar/dil segmenti + sezon karşılaştırması",
+              "Her panel için “sahibi” belirle (kim güncelliyor, kim takip ediyor)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-kaynaklari",
+        "title": "Bağlanabilecek veri kaynakları (GA4, Ads, PMS/OTA dahil)",
+        "blocks": [
+          { "type": "p", "text": "Otel için ideal yaklaşım: önce kolay bağlanan dijital kaynaklar, sonra ihtiyaç oldukça PMS/OTA gibi operasyonel kaynaklar. Bu, paneli hızlı canlıya alıp iteratif geliştirmeyi sağlar." },
+          { "type": "h3", "text": "Temel dijital kaynaklar (ilk sürüm)" },
+          { "type": "list", "style": "ul", "items": ["GA4: trafik, davranış, dönüşüm olayları (rezervasyon/lead)", "Search Console: organik görünürlük, sorgular, sayfa performansı", "Google Ads: maliyet, tıklama, dönüşüm, ROAS/CPA", "Meta Ads: kampanya performansı, maliyet, dönüşüm (uygunsa)"] },
+          { "type": "p", "text": "Mini örnek: GA4’te “booking_start” event’i varsa, Ads kampanyasıyla ilişkilendirip “harcama → booking_start → booking_complete” akışını panelde gösterebilirsiniz." },
+          { "type": "h3", "text": "PMS/OTA verisi ne zaman eklenmeli?" },
+          { "type": "p", "text": "Otel tarafında fark yaratan nokta: PMS/OTA çıktılarının “gelir gerçekliği” için panelle konuşmasıdır. PMS/OTA entegrasyonu için ilk hedef, “tam entegrasyon” değil; standart bir export (Google Sheets/BigQuery/CSV) üzerinden temel gelir ve doluluk özetini taşımaktır." },
+          { "type": "list", "style": "ul", "items": ["Web rezervasyonu dışı gelir (OTA, call center) büyüktür", "Doluluk/ADR/RevPAR raporları ayrı sistemlerde dağınıktır", "Yönetim toplantısında “gelir gerçekliği” tartışması yaşanır"] },
+          { "type": "media", "slot": "flow-diagram" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (bağlantı hazırlığı)",
+            "items": [
+              "GA4’te dönüşümler doğru mu? (rezervasyon/lead)",
+              "Reklam hesaplarında UTM standardı var mı?",
+              "PMS/OTA’dan haftalık export formatı sabit mi? (kolonlar değişmiyor)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk etap: GA4 + Search Console + Google Ads bağla",
+              "İkinci etap: Meta Ads ekle (kampanya yoğunluğu varsa)",
+              "Üçüncü etap: PMS/OTA “özet tablo” ile ekle (doluluk, ADR, gelir)",
+              "Her kaynak için “veri sözlüğü” oluştur (tanım/hesap yöntemi)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-dashboard-yapisi",
+        "title": "Temel KPI’lar ve otel dashboard yapısı (trafik → rezervasyon → gelir)",
+        "blocks": [
+          { "type": "p", "text": "Otel paneli, “her şeyi gösteren ekran” değil; az ama doğru KPI seti ile yönetimin kararını hızlandıran bir sistem olmalı. En iyi pratik: dashboard’ı 3 katmanda düşünmek: Talep (trafik) → Dönüşüm (rezervasyon) → Sonuç (gelir)." },
+          { "type": "h3", "text": "Otel KPI Seti (çekirdek 10 metrik)" },
+          { "type": "list", "style": "ol", "items": ["Sessions / Users (GA4)", "Organic Clicks & Impressions (GSC)", "Conversion Rate (GA4)", "Bookings / Leads (GA4 / rezervasyon motoru)", "Revenue (PMS/OTA veya engine)", "Occupancy (PMS)", "ADR", "RevPAR", "Ad Spend (Ads/Meta)", "ROAS / CPA (kanala göre)"] },
+          { "type": "p", "text": "Mini örnek: Bodrum’da sezon başında trafik artıyor ama rezervasyon dönüşümü düşüyorsa; problem pazarlama değil, çoğu zaman fiyat/teklif sayfası veya rezervasyon adımı sürtünmesi olabilir. Panel, bu ayrımı hızlı yaptırır." },
+          { "type": "h3", "text": "“GM Paneli” için ideal dashboard yerleşimi (1 sayfa)" },
+          { "type": "list", "style": "ul", "items": ["Üst satır: Gelir, doluluk, ADR/RevPAR (PMS/OTA)", "Orta satır: Rezervasyon funnel (GA4 events)", "Alt satır: Kanal performansı (Ads + organik)"] },
+          { "type": "media", "slot": "score-card" },
+          { "type": "p", "text": "Key Statistics : Çoğu tesiste Looker Studio ile “haftalık rapor hazırlama” süreci saatler yerine dakikalara iner; asıl kazanç, raporun hazırlanması değil kararın gecikmemesidir." },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (KPI netliği)",
+            "items": [
+              "Her KPI için tek tanım var mı? (örn. “rezervasyon” hangi kaynak?)",
+              "Kanal bazlı karşılaştırmada aynı dönemi mi kıyaslıyorsunuz?",
+              "“Gelir” PMS mi, engine mi, OTA dahil mi? net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "KPI’ları 10–12 ile sınırla (ilk sürüm)",
+              "Tanımları yaz: “Bu metrik nereden geliyor, nasıl hesaplanıyor?”",
+              "Yönetim için 1 sayfalık GM Paneli hazırla",
+              "Ajans/ekip için ikinci sayfada detay kırılım ekle"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Otel Looker Studio KPI Seti: Kaynak & Amaç Matrisi",
+            "headers": ["KPI", "Kaynak", "Ne anlatır?", "Yönetim sorusu"],
+            "rows": [
+              ["Doluluk", "PMS", "Talep & kapasite", "“Bu hafta doluluk neden değişti?”"],
+              ["ADR", "PMS", "Fiyat kalitesi", "“Ortalama fiyat doğru mu?”"],
+              ["RevPAR", "PMS", "Gelir verimi", "“Oda başına gelir nasıl gidiyor?”"],
+              ["Rezervasyon", "Engine/GA4", "Dönüşüm hacmi", "“Web satışında trend ne?”"],
+              ["Gelir", "PMS/OTA", "Gerçek sonuç", "“Toplam gelir nereye gidiyor?”"],
+              ["ROAS/CPA", "Ads/Meta", "Reklam verimi", "“Hangi kampanya kazandırıyor?”"],
+              ["Organik tıklama", "GSC", "SEO talebi", "“Organik görünürlük artıyor mu?”"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ilk-dashboard-kurulum",
+        "title": "İlk otel dashboard’unu kurma adımları (How-To)",
+        "blocks": [
+          { "type": "p", "text": "Bu bölüm, “looker studio nedir oteller için” aramasından gelen kullanıcıyı sonuca götüren adım adım kurulum planıdır. Teknik terimleri sade tuttuk; hedef “ilk çalışan panel”." },
+          { "type": "media", "slot": "checklist" },
+          { "type": "h3", "text": "How-To Bloğu — 7 adımda ilk panel" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedefi tanımla: “GM Paneli” mi “Kampanya Paneli” mi?",
+              "Kaynakları seç: GA4 + Search Console + Google Ads (başlangıç)",
+              "Temel KPI setini belirle: 10–12 metrik (çekirdek set)",
+              "Funnel olaylarını netleştir: booking_start / booking_complete gibi",
+              "Looker Studio’da veri modeli kur: tarih, kanal, kampanya, cihaz kırılımları",
+              "Dashboard tasarla: üstte KPI kartları, ortada funnel, altta kanal karşılaştırma",
+              "Paylaşım & rutin: haftalık 15 dk, “aksiyon listesi” ile kapat"
+            ]
+          },
+          { "type": "p", "text": "Mini örnek (Side / Antalya): Sezonda “erken rezervasyon” kampanyası açtınız. Panelde aynı hafta harcama + tıklama artarken booking_start artıp booking_complete düşüyorsa; çoğu zaman rezervasyon adımında sürtünme (mobil hız, fiyat/uygunluk, ödeme adımı) vardır." },
+          { "type": "h3", "text": "Sık yapılan 5 hata (ve hızlı çözüm)" },
+          { "type": "list", "style": "ul", "items": ["KPI tanımları net değil → Çözüm: veri sözlüğü", "UTM standardı yok → Çözüm: kampanya isimlendirme kuralı", "“Gelir” kaynağı karışık → Çözüm: PMS/engine ayrımı", "Dashboard çok kalabalık → Çözüm: GM paneli tek sayfa", "Rutin yok → Çözüm: haftalık aksiyon toplantısı"] },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (yayına çıkmadan)",
+            "items": [
+              "Tarih filtreleri doğru mu? (son 7 gün / son 30 gün)",
+              "Kanal isimleri tutarlı mı? (Organic, Paid Search, Paid Social)",
+              "Mobil/desktop kırılımı görülebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Çalışan en basit paneli” yayına al (MVP)",
+              "Sonra PMS/OTA özetini ekle (gelir gerçekliği)",
+              "Yönetim sorularına göre iteratif geliştir",
+              "30 gün sonra paneli sadeleştir (fazlalıkları at)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "turizm-ozel-senaryolar",
+        "title": "Fark yaratan bölüm — Turizm özel senaryolar ve örnek panel kurguları (Competitor Gap)",
+        "blocks": [
+          { "type": "p", "text": "Rakip içerikler Looker Studio’yu genelde “genel pazarlama raporu” gibi anlatır. Otel tarafında fark yaratan, panelin operasyon + satış + pazarlama üçlüsünü aynı hikâyede birleştirmesidir." },
+          { "type": "h3", "text": "3 turizm özel senaryo (kısa ama derin)" },
+          { "type": "list", "style": "ol", "items": ["Sezon dalgalanması paneli: geçen yıl aynı hafta vs bu yıl (doluluk/ADR/RevPAR)", "Kanal karma paneli: OTA + web + call center (PMS/OTA özetleriyle)", "Destinasyon/konsept paneli: “Belek aile resort” vs “Bodrum butik” segment farkı"] },
+          { "type": "media", "slot": "scenario" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Örnek Otel Performans Paneli Demo Linkini İste",
+            "text": "Örnek paneli inceleyip kendi oteliniz için KPI ekranını daha hızlı netleştirirsiniz.",
+            "href": "/raporlama/looker-studio"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (senaryo seçimi)",
+            "items": [
+              "En kritik sorunum: talep mi (trafik), dönüşüm mü, gelir mi?",
+              "OTA ağırlığım yüksek mi? (PMS/OTA özet şart)",
+              "Sezon kıyaslaması olmadan karar veriyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce “Sezon kıyas” sayfasını ekle (yönetim için çok değerli)",
+              "OTA + web gelirlerini aynı çerçevede göster (özet)",
+              "Segment/konsept kırılımını sadece gerekli olduğunda aç (sadelik)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rapor-rutini-ve-final",
+        "title": "Rapor rutini ve “bugün uygulayabileceğiniz 5 adım” ",
+        "blocks": [
+          { "type": "p", "text": "Dashboard kurulduğunda asıl güç, raporun “hazır olması” değil; karar rutininin standartlaşmasıdır. Looker Studio, herkesin aynı sayfaya baktığı bir “tek doğru kaynak” haline geldiğinde; ajans–otel iletişimi daha az sürtüşmeyle ilerler." },
+          { "type": "h3", "text": "Günlük / haftalık rapor senaryoları" },
+          { "type": "list", "style": "ul", "items": ["Günlük (10 dk): trafik + rezervasyon + harcama kontrolü", "Haftalık (15–30 dk): kanal kıyas, kampanya etkisi, aksiyon listesi", "Aylık (45 dk): sezon kıyası, hedef sapması, bütçe optimizasyonu"] },
+          { "type": "h3", "text": "Bugün uygulayabileceğiniz 5 adım" },
+          { "type": "list", "style": "ol", "items": ["GA4’te dönüşüm olaylarınızı netleştirin (rezervasyon/lead)", "Google Ads ve Meta Ads’te kampanya isimlerini standardize edin", "Looker Studio’da 1 sayfalık GM Paneli taslağı çıkarın", "Trafik→rezervasyon→gelir akışını tek ekrana koyun", "Haftalık toplantıyı “aksiyon listesi” ile kapatın"] },
+          { "type": "media", "slot": "deliverables" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (rutin)",
+            "items": [
+              "Toplantı sonunda 3–5 aksiyon çıkıyor mu?",
+              "Bir sonraki hafta aksiyonların sonucu panelde görülüyor mu?",
+              "Panel sahipliği net mi? (kim bakıyor, kim güncelliyor)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Paneli “karar toplantısına” bağla (rapor değil aksiyon üret)",
+              "İç linklerle diğer raporlama alanlarına ilerle: SEO/Ads/SMM rapor sayfaları",
+              "Yılda 1 kez (Refresh 365) KPI setini ve panel düzenini gözden geçir",
+              "İkinci aşamada PMS/OTA özetini ekleyerek gelir gerçekliğini güçlendir"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Looker Studio Otel Dashboard Analizi Talep Et",
+            "text": "Mevcut raporlarınızı sadeleştirip, oteliniz için doğru KPI setini ve panel mimarisini hızla kurmak isteyenler için.",
+            "href": "/raporlama/looker-studio"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Looker Studio nedir, oteller için ne işe yarar?",
+        "a": "Looker Studio, GA4 ve reklam gibi kaynakları tek panelde birleştirir. Otel KPI’larını (doluluk, gelir, dönüşüm) tek ekranda izleyerek karar almayı hızlandırır."
+      },
+      {
+        "q": "Otelim için Looker Studio dashboard’unu nasıl kurarım?",
+        "a": "Önce GA4 + Search Console + Google Ads’i bağlayın, sonra çekirdek KPI setini seçin. Tek sayfalık GM paneliyle başlayıp ihtiyaç oldukça PMS/OTA özetini ekleyin."
+      },
+      {
+        "q": "Hangi verileri Looker Studio’ya bağlayabilirim?",
+        "a": "GA4, Search Console, Google Ads ve Meta Ads yaygın kaynaklardır. İsterseniz PMS/OTA verisini Sheets/CSV gibi ara formatlarla özet olarak taşıyabilirsiniz."
+      },
+      {
+        "q": "Looker Studio otel KPI’larını takip etmek için nasıl kullanılır?",
+        "a": "KPI kartları + funnel + kanal kıyası şeklinde yapı kurun. Haftalık rutinle paneli sadece rapor değil, aksiyon üretme aracına çevirin."
+      },
+      {
+        "q": "PMS/OTA verisini bağlamak şart mı?",
+        "a": "Şart değil; ilk sürüm dijital kaynaklarla hızlı sonuç verir. PMS/OTA özetleri, “gelir gerçekliği” ve kanal karma (OTA + web) için ikinci aşamada eklenir."
+      },
+      {
+        "q": "Dashboard çok kalabalık olursa ne olur?",
+        "a": "Karar hızı düşer ve ekip aynı sayfada buluşamaz. İlk paneli 10–12 KPI ile sınırlayıp, detay kırılımları ayrı sayfaya taşıyın."
+      },
+      {
+        "q": "Looker Studio ücretsiz mi?",
+        "a": "Temel kullanım ücretsizdir; bazı gelişmiş senaryolar (kurumsal veri kaynakları, modelleme) ek yapı gerektirebilir. Otel için MVP panel çoğu zaman ücretsiz katmanla başlar."
+      },
+      {
+        "q": "Yönetim raporunu kaç sıklıkla güncellemeliyim?",
+        "a": "Günlük 10 dakikalık kontrol ve haftalık 15–30 dakikalık aksiyon toplantısı iyi bir başlangıçtır. Aylık olarak sezon kıyası ve hedef sapmasını değerlendirirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 (hero/cover) — 1920×1080 — looker-studio-oteller-icin-nedir-nasil-calisir-hero-01.webp — alt: Looker Studio ile otel KPI dashboard kurulumunu anlatan kapak görseli",
+          "h1-context-02 — 1920×1080 — looker-studio-oteller-icin-nedir-nasil-calisir-h1-context-02.webp — alt: Otel verilerini tek panelde birleştiren raporlama bağlam görseli",
+          "divider-03 — 1600×1200 — looker-studio-oteller-icin-nedir-nasil-calisir-divider-03.webp — alt: Otel raporlama kullanım alanlarını bölen bölüm ayırıcı görseli",
+          "scenario — 1600×1200 — looker-studio-oteller-icin-nedir-nasil-calisir-scenario.webp — alt: Turizm odaklı örnek panel senaryolarını bölen ayırıcı görsel",
+          "diagram-05 — 1920×1080 — looker-studio-oteller-icin-nedir-nasil-calisir-diagram-05.webp — alt: Veri kaynaklarından otel dashboard’a trafik rezervasyon gelir akış diyagramı",
+          "checklist — 1200×1200 — looker-studio-oteller-icin-nedir-nasil-calisir-checklist.webp — alt: İlk otel dashboard kurulum adımlarını özetleyen kontrol kartı görseli",
+          "score-card — 1200×1200 — looker-studio-oteller-icin-nedir-nasil-calisir-score-card.webp — alt: Otel KPI skor kartı ile doluluk ADR RevPAR özet panel görseli",
+          "deliverables — 1200×1200 — looker-studio-oteller-icin-nedir-nasil-calisir-deliverables.webp — alt: Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
+          "table-01 — (tablo görseli) — Otel Looker Studio KPI Seti: Kaynak & Amaç Matrisi"
+        ],
+        "technicalChecklist": [
+          "Blog URL ve sayfa URL canonical/URL yapısı tutarlı",
+          "Schema: Article + FAQPage @graph içinde üretildi",
+          "BreadcrumbList: Ana sayfa → silo → hizmet → blog mantığında",
+          "speakable alanı H1 ve Answer Block’u kapsıyor",
+          "GA4 dönüşümleri ve UTM standardı kurulum planına dahil",
+          "Kanal isimleri ve tarih filtreleri tutarlı",
+          "Refresh Cycle: 365 gün; yılda 1 kez örnek akışlar ve ekranlar güncellenebilir"
+        ]
+      }
+    }
+  }
+
 
 
   }

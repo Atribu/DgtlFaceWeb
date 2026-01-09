@@ -16,12 +16,12 @@ const BLOG_DEPARTMENTS_V2 = [
   { id: "sem", label: "SEM", href: "/Services/sem" },
   { id: "creative", label: "Creative", href: "/Services/creative" },
   { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/Services/pms" },
-  { id: "call-center", label: "Çağrı Merkezi", href: "/Services/callcenter" },
+  { id: "callcenter", label: "Çağrı Merkezi", href: "/Services/callcenter" },
   { id: "smm", label: "SMM", href: "/Services/smm" },
-  { id: "yazılım", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
+  { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
   { id: "seo", label: "SEO", href: "/Services/seo" },
-  { id: "data-analytics", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
-  { id: "hotel-digital", label: "Otel Dijital Dönüşüm", href: "/Services/hotel" },
+  { id: "veri-analizi", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
+  { id: "hotel", label: "Otel Dijital Dönüşüm", href: "/Services/hotel" },
 ];
 
 // Şimdilik mock data

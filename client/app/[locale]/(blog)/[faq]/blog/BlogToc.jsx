@@ -3,14 +3,14 @@ export default function BlogToc({ sections }) {
   if (!sections?.length) return null;
 
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-3 xl:pt-4 xl:pb-2 xl:px-3">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-3 xl:pt-4 xl:pb-2 xl:px-[8px]">
       <div className="flex items-center justify-between gap-3">
             <span className="h-2 w-14 rounded-full bg-white/20" />
         <p className="text-sm font-medium text-white">İçindekiler</p>
         <span className="h-2 w-14 rounded-full bg-white/20" />
       </div>
 
-      <nav className="mt-2 flex flex-col gap-2">
+      <nav className="mt-2 flex flex-col gap-[6px]">
         {sections.map((s, idx) => (
           <a
             key={s.id}

@@ -341,8 +341,8 @@ export default async function BlogDetailPage({ params }) {
       ) : null}
 
       {/* 2 KOLONLU GÖVDE */}
-      <section className="mx-auto w-full max-w-[1600px] px-4 pb-16 pt-10">
-        <div className="grid gap-8 lg:grid-cols-[1fr_340px]">
+      <section className="mx-auto w-full lg:w-[95%] 2xl:max-w-[1450px]  3xl:max-w-[1700px] px-4 pb-16 pt-10">
+        <div className="grid gap-8 lg:grid-cols-[1fr_360px]">
           {/* MAIN CONTENT */}
           <article className="min-w-0 space-y-10">
             <div className="space-y-10 text-center lg:text-left">
@@ -441,7 +441,7 @@ export default async function BlogDetailPage({ params }) {
 
           {/* ASIDE (Sticky) */}
           <aside className="hidden lg:block">
-            <div className="sticky top-[74px] space-y-3">
+            <div className="sticky top-[74px] space-y-2">
               <BlogToc sections={sections} />
 
               {/* Sticky Mini CTA */}

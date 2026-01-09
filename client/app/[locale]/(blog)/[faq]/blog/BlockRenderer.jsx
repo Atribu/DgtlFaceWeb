@@ -35,13 +35,13 @@ switch (block.type) {
 
       return (
         <figure className="mt-6 w-full">
-          <div className={`relative aspect-[16/9]  w-full overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize2}`}>
+          <div className={`relative aspect-[5/3] w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize2}`}>
             <Image
               src={media.src}
               alt={media.alt || ""}
               fill
               
-              className="object-cover "
+              className="object-center "
               priority={Boolean(block.priority)}
             />
           </div>

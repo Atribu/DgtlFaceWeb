@@ -5,8 +5,8 @@ export const BLOG_MEDIA_MAP = {
   "core-web-vitals-otel-ve-nextjs-rehberi": {
       banner: {
       src: "/images/blog/seo/SEO1-1/SEO1-1-1.jpeg",
-      alt: "Core Web Vitals rehberi banner",
-      caption: ""
+      alt: "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber",
+      caption: "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber"
     },
 
 
@@ -69,8 +69,8 @@ export const BLOG_MEDIA_MAP = {
     "google-ads-oteller-icin-nasil-calisir": {
       banner: {
       src: "/images/blog/sem/SEM1-1/SEM1-1-1.jpeg",
-      alt: "Core Web Vitals rehberi banner",
-      caption: ""
+      alt: "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
+      caption: "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi"
     },
 
         "account-schema": {
@@ -199,8 +199,8 @@ export const BLOG_MEDIA_MAP = {
   "google-ads-butce-ve-teklif-stratejileri": {
       banner: {
       src: "/images/blog/sem/SEM1-3/SEM1-3-1.jpeg",
-      alt: "Google Ads hesap ve kampanya mimarisi",
-      caption: "Google Ads hesap ve kampanya mimarisi"
+      alt: "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+      caption: "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?"
     },
 
         "budget-planning": {
@@ -261,8 +261,8 @@ export const BLOG_MEDIA_MAP = {
    "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": {
       banner: {
       src: "/images/blog/smm/SMM1-1/SMM1-1-1.jpeg",
-      alt: "Google Ads hesap ve kampanya mimarisi",
-      caption: "Google Ads hesap ve kampanya mimarisi"
+      alt: "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
+      caption: "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi"
     },
 
         "content-pillar": {
@@ -323,47 +323,47 @@ export const BLOG_MEDIA_MAP = {
      "oteliniz-icin-dogru-pms-nasil-secilir": {
       banner: {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-1.jpeg",
-      alt: "Google Ads hesap ve kampanya mimarisi",
-      caption: "Google Ads hesap ve kampanya mimarisi"
+      alt: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber",
+      caption: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber"
     },
 
-        "content-pillar": {
+        "flowchart": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-2.jpeg",
-      alt: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
-      caption: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
+      alt: "PMS → Channel Manager/OTA → Call Center → Muhasebe",
+      caption: "PMS → Channel Manager/OTA → Call Center → Muhasebe"
     },
 
-            "persona-cards": {
+            "infographic": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-3.jpeg",
-      alt: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi) ",
-      caption: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi)"
+      alt: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim ",
+      caption: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim"
     },
 
-            "format-distribution": {
+            "table": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-4.jpeg",
-      alt: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)",
-      caption: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)"
+      alt: "",
+      caption: ""
     },
 
-            "pillar-table": {
+            "cloud-pms": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-5.jpeg",
-      alt: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)",
-      caption: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)"
+      alt: "Bulut vs On-Premise (Klasik) PMS: Ne zaman hangisi?",
+      caption: "Bulut vs On-Premise (Klasik) PMS"
     },
 
-                "30-days": {
+                "performance": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-6.jpeg",
-      alt: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)",
-      caption: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)"
+      alt: "Performans Genel Bakış",
+      caption: "Performans Genel Bakış"
     },
 
-    "transition-plan": {
+    "pilot-phase": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-7.jpeg",
-      alt: "Bid Geçiş Planı",
-      caption: "Bid Geçiş Planı"
+      alt: "Demo, Pilot ve Referans Kontrolü",
+      caption: "Demo, Pilot ve Referans Kontrolü"
     },
 
-                "download-image": {
+                "": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-8.jpeg",
       alt: "",
       caption: ""
@@ -381,38 +381,102 @@ export const BLOG_MEDIA_MAP = {
       caption: "Content Pillars'ın 4 temel faydası"
     },
 
-                    "4key-benefits": {
+                    "download-image": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-11.jpeg",
-      alt: "Content Pillars'ın 4 temel faydası",
-      caption: "Content Pillars'ın 4 temel faydası"
+      alt: "Otel Pms-Ota Kontrol Listesi",
+      caption: "Otel Pms-Ota Kontrol Listesi"
     },
-                    "4key-benefits": {
+                    "sprint-plan": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-12.jpeg",
-      alt: "Content Pillars'ın 4 temel faydası",
-      caption: "Content Pillars'ın 4 temel faydası"
+      alt: "“Kurulum Gantt” mini görsel (4–8 hafta örnek plan)",
+      caption: "“Kurulum Gantt” mini görsel (4–8 hafta örnek plan)"
     },
-                    "4key-benefits": {
+                    "problem-solution": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-13.jpeg",
-      alt: "Content Pillars'ın 4 temel faydası",
-      caption: "Content Pillars'ın 4 temel faydası"
+      alt: "",
+      caption: ""
     },
-                    "4key-benefits": {
+                    "before-after": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-14.jpeg",
-      alt: "Content Pillars'ın 4 temel faydası",
-      caption: "Content Pillars'ın 4 temel faydası"
+      alt: "",
+      caption: ""
     },
-                    "4key-benefits": {
+                    "delivery": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-15.jpeg",
-      alt: "Content Pillars'ın 4 temel faydası",
-      caption: "Content Pillars'ın 4 temel faydası"
+      alt: "",
+      caption: ""
     },
+  },
+
+   "4-dilli-cagri-merkezi-nedir-nasil-calisir": {
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-1.jpeg",
+      alt: "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?",
+      caption: "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?"
+    },
+
+          "diagram": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-2.jpeg",
+      alt: ": 4 dilli çağrı merkezi mimari",
+      caption: ": 4-dilli-cagri-merkezi-mimari"
+    },
+
+             "map": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-3.jpeg",
+      alt: "Otel SEO çerçevesi ayırıcı",
+      caption: "Otel SEO’nun klasik SEO’dan farkını özetleyen bölüm ayracı."
+    },
+
+           "lang-callcenter": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-4.jpeg",
+      alt: "4 dilli çağrı merkezi nedir nasıl çalışır",
+      caption: "4-dilli-cagri-merkezi-nedir-nasil-calisir"
+    },
+
+          "inbound-outbound": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-5.jpeg",
+      alt: "Operasyon yapısı: Inbound, Outbound ve kanal yönetimi",
+      caption: "Operasyon yapısı: Inbound, Outbound"
+    },
+
+      "integrated": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-6.jpeg",
+      alt: " Entegrasyon: WhatsApp + OTA mesaj + e-posta → PMS/CRM",
+      caption: " Entegrasyon: Mesaj -> Lead Dönüşümü"
+    },
+
+     "hotel-scenario": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-7.jpeg",
+      alt: "Oteller ve markalar için kullanım senaryoları ",
+      caption: "Oteller ve markalar için kullanım senaryoları (ikonlu)"
+    },
+
+            "partner-selection": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-8.jpeg",
+      alt: "Doğru partneri seçerken nelere bakmalısınız?",
+      caption: "Seçim kriterleri (5 madde)"
+    },
+
+                "7-steps": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-9.jpeg",
+      alt: "4 dilli çağrı merkezi devreye almak için 7 adım",
+      caption: "4 dilli çağrı merkezi devreye almak için 7 adım"
+    },
+
+                "sprint-plan": {
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-10.jpeg",
+      alt: "TR-EN-DE-RU Çağrı Merkezi Başlangıç Check-List & Sprint Planı",
+      caption: "TR-EN-DE-RU Çağrı Merkezi Başlangıç Check-List & Sprint Planı"
+    }
+
+  
   },
 
      "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": {
       banner: {
       src: "/images/blog/software/Software1-1/Software1-1-1.jpeg",
-      alt: "Google Ads hesap ve kampanya mimarisi",
-      caption: "Google Ads hesap ve kampanya mimarisi"
+      alt: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
+      caption: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde"
     },
 
         "golive-diagram": {
@@ -502,6 +566,110 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Otel1-1/Otel1-1-8.jpeg",
       alt: "Otel SEO yol haritası çıktıları",
       caption: "Yol haritası, backlog ve ölçüm panosu gibi teslimatlar."
+    }
+
+  
+  },
+
+     "marka-sosyal-medya-gorsel-dili-rehberi": {
+      banner: {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-1.jpeg",
+      alt: "Marka Sosyal Medya Görsel Dili Rehberi",
+      caption: "Marka Sosyal Medya Görsel Dili Rehberi"
+    },
+
+          "mockup-goodbad": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-2.jpeg",
+      alt: "Marka sosyal medya görsel dili rehberi",
+      caption: "Marka sosyal medya görsel dili rehberi"
+    },
+
+             "logo-safearea": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-3.jpeg",
+      alt: "Sosyal Medya İçin Görsel Dil Bileşenleri",
+      caption: "Logo Dozaj & Safe Area Kuralları"
+    },
+
+           "photo-grid": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-4.jpeg",
+      alt: "B2B Fotoğraf Dili (Ekip/Ürün/Dashboard)",
+      caption: "Sektörel fotoğraf dili örnekleri"
+    },
+
+          "quick-spec": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-5.jpeg",
+      alt: "Örnek Stil Rehberi Yapısı",
+      caption: "Marka Görsel Dili"
+    },
+
+      "do-dont": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-6.jpeg",
+      alt: "Örnek Stil Rehberi Yapısı",
+      caption: "Görsel Dili"
+    },
+
+     "download": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-7.jpeg",
+      alt: "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir — Creative / Sosyal Medya Görsel Dili (v1.0)",
+      caption: "download pdf"
+    },
+
+            "problem-sol": {
+      src: "/images/blog/creative/Creative1-1/Creative1-1-8.jpeg",
+      alt: "Problem→Kök Neden→Çözüm tablosu",
+      caption: "Problem -> Kök Neden -> Çözüm Tablosu"
+    }
+
+  
+  },
+
+  "looker-studio-oteller-icin-nedir-nasil-calisir": {
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-1.jpeg",
+      alt: "Looker Studio ile otel KPI dashboard kurulumunu anlatan kapak görseli",
+      caption: "Looker Studio ile otel KPI dashboard kurulumunu anlatan kapak görseli"
+    },
+
+          "panel-report": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-2.jpeg",
+      alt: "Otel verilerini tek panelde birleştiren raporlama bağlam görseli",
+      caption: "Otel verilerini tek panelde birleştiren raporlama bağlam görseli"
+    },
+
+             "section": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-3.jpeg",
+      alt: "Otel raporlama kullanım alanlarını bölen bölüm ayırıcı görseli",
+      caption: "Otel raporlama kullanım alanlarını bölen bölüm ayırıcı görseli"
+    },
+
+           "scenario": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-4.jpeg",
+      alt: "Turizm odaklı örnek panel senaryolarını bölen ayırıcı görsel",
+      caption: "Turizm odaklı örnek panel senaryolarını bölen ayırıcı görsel"
+    },
+
+          "flow-diagram": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-5.jpeg",
+      alt: "Veri kaynaklarından otel dashboard’a trafik rezervasyon gelir akış diyagramı",
+      caption: "Veri kaynaklarından otel dashboard’a trafik rezervasyon gelir akış diyagramı"
+    },
+
+      "checklist": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-6.jpeg",
+      alt: "İlk otel dashboard kurulum adımlarını özetleyen kontrol kartı görseli",
+      caption: "İlk otel dashboard kurulum adımlarını özetleyen kontrol kartı görseli"
+    },
+
+     "score-card": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-7.jpeg",
+      alt: "Otel KPI skor kartı ile doluluk ADR RevPAR özet panel görseli",
+      caption: "Otel KPI skor kartı ile doluluk ADR RevPAR özet panel görseli"
+    },
+
+            "deliverables": {
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-8.jpeg",
+      alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
+      caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
     }
 
   
