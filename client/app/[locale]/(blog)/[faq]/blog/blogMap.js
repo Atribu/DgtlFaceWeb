@@ -6,7 +6,8 @@ export const BLOG_MAP = {
     "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri"
   },
   seo: {
-    "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi"
+    "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
+    "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin"
   },
 
     smm: {

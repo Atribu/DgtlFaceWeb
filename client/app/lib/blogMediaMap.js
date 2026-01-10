@@ -1,6 +1,6 @@
 // app/lib/blogMediaMap.js
 
-// Türkçe yorum: Slot bazlı görsel atamaları (slug → slot → media objesi)
+//  Slot bazlı görsel atamaları (slug → slot → media objesi)
 export const BLOG_MEDIA_MAP = {
   "core-web-vitals-otel-ve-nextjs-rehberi": {
       banner: {
@@ -140,8 +140,8 @@ export const BLOG_MEDIA_MAP = {
 
         "account-campaigns": {
       src: "/images/blog/sem/SEM1-2/SEM1-2-2.jpeg",
-      alt: "",
-      caption: ""
+      alt: "Campaign Structure Mantığı ",
+      caption: "Campaign Structure Mantığı "
     },
 
             "two-hotel": {
@@ -159,7 +159,7 @@ export const BLOG_MEDIA_MAP = {
             "brand-generic": {
       src: "/images/blog/sem/SEM1-2/SEM1-2-5.jpeg",
       alt: "Brand vs Generic Kampanya Yapısı",
-      caption: ""
+      caption: "Brand vs Generic Kampanya Yapısı"
     },
 
                 "country-lang": {
@@ -333,20 +333,20 @@ export const BLOG_MEDIA_MAP = {
       caption: "PMS → Channel Manager/OTA → Call Center → Muhasebe"
     },
 
-            "infographic": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-3.jpeg",
+            "infographic2": {
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-32.jpeg",
       alt: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim ",
       caption: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim"
     },
 
             "table": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-4.jpeg",
-      alt: "",
-      caption: ""
+      alt: "Otel Tipine Göre PMS İhtiyaç Analizi",
+      caption: "Otel Tipine Göre PMS İhtiyaç Analizi"
     },
 
             "cloud-pms": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-52.jpeg",
       alt: "Bulut vs On-Premise (Klasik) PMS: Ne zaman hangisi?",
       caption: "Bulut vs On-Premise (Klasik) PMS"
     },
@@ -363,10 +363,10 @@ export const BLOG_MEDIA_MAP = {
       caption: "Demo, Pilot ve Referans Kontrolü"
     },
 
-                "": {
+                "project-plan": {
       src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-8.jpeg",
-      alt: "",
-      caption: ""
+      alt: "PMS Seçiminden Kurulum Projesine Geçiş",
+      caption: "PMS Seçiminden Kurulum Projesine Geçiş"
     },
 
                 "format-distribution-diagram": {
@@ -672,6 +672,69 @@ export const BLOG_MEDIA_MAP = {
       caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
     }
 
+  
+  },
+
+  "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin": {
+      banner: {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-1.jpeg",
+      alt: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
+      caption: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji"
+    },
+
+          "silo": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-2.jpeg",
+      alt: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
+      caption: "Silo Bazlı Site Mimarisi"
+    },
+
+           "flat-deep": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-3.jpeg",
+      alt: "Flat vs derin yapı: Hangisi daha sağlıklı?",
+      caption: "Mimari Derinlik: Flat vs Deep"
+    },
+
+     "domain-subdomain": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-4.jpeg",
+      alt: "Çok otelli yapılarda domain/subdomain kararı",
+      caption: "Domain Subdomain karar ağacı"
+    },
+
+          "silo-hierarchy": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-5.jpeg",
+      alt: "Otel Sitelerinde Oda, Konsept ve Destinasyon Sayfaları",
+      caption: "Otel Sitelerinde Oda, Konsept ve Destinasyon Sayfaları"
+    },
+
+      "silo-schema": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-6.jpeg",
+      alt: "Ajans ve Hizmet Sitelerinde Hizmet Silo’ları",
+      caption: "Ajans ve Hizmet Sitelerinde Hizmet Silo’ları"
+    },
+
+     "good-bad-url": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-7.jpeg",
+      alt: "URL Yapısı ve Anahtar Kelime Kullanımı",
+      caption: "URL Yapısı ve Anahtar Kelime Kullanımı"
+    },
+
+            "flow": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-8.jpeg",
+      alt: "Breadcrumb, Dahili Link ve Menü Yapısı",
+      caption: "Breadcrumb, Dahili Link ve Menü Yapısı"
+    },
+
+                "silo-breadcrumbs": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-9.jpeg",
+      alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
+      caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
+    },
+
+                "download": {
+      src: "/images/blog/seo/SEO1-2/SEO1-2-10.jpeg",
+      alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
+      caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
+    }
   
   },
 };

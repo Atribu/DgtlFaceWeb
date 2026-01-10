@@ -25272,7 +25272,7 @@
         "href": "/tr/sem/google-ads-yonetimi"
       },
       "secondary": {
-        "label": "Bütçe Hesaplama Excel Şablonunu İndir",
+        "label": "Bütçe Hesaplama Pdf Şablonunu İndir",
         "text": "Toplantıya girmeden önce 10 dakikada hedef bütçe, günlük limit ve kampanya dağılımını netleştirirsiniz.",
         "href": "#download"
       }
@@ -25578,7 +25578,7 @@
           {
             "type": "ctaInline",
             "variant": "secondary",
-            "label": "Bütçe Hesaplama Excel Şablonunu İndir",
+            "label": "Bütçe Hesaplama Pdf Şablonunu İndir",
             "desc": "Toplantıya girmeden önce 10 dakikada hedef bütçe, günlük limit ve kampanya dağılımını netleştirirsiniz.",
             "href": "#download"
           },
@@ -25596,13 +25596,13 @@
 
    {
   "id": "google-ads-budget-bid-audit-download",
-  "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
+  "title": "Bütçe Hesaplama Pdf Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
   "blocks": [
     {
       "type": "download_asset",
       "assetType": "excel",
       "version": "v1.0",
-      "title": "Bütçe Hesaplama Excel Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
+      "title": "Bütçe Hesaplama Pdf Şablonunu İndir — SEM / Otel Budget & Bid Audit Sheet (v1.0)",
       "purpose": "Bu audit sheet; otelinizin Google Ads bütçesini aylık hedef → günlük ortalama (30,4) modeline çevirir, brand/generic/opsiyonel katmanlara dağıtır ve bid stratejisi seçimini “veri olgunluğu”na göre skorlar. Sonuç olarak “ne kadar harcayacağım ve hangi bid ile başlayacağım?” sorusunu tek sayfada netleştirir.",
       "whoFor": "Otel satış–pazarlama yöneticisi, GM veya ajans performans yöneticisi.",
       "steps": [
@@ -25622,8 +25622,8 @@
         "Bid stratejisi veri olgunluğuna göre seçildi (Manual/Max Conv/TCPA/TROAS)",
         "Haftalık raporlama ritmi kuruldu (Internal Link: /tr/sem/reklam-raporlama)"
       ],
-      "href": "/downloads/sem-otel-budget-bid-audit-sheet-v1.0.xlsx",
-      "buttonLabel": "Excel’i İndir"
+      "href": "/downloads/sem-otel-budget-bid-audit-sheet-v1.0.pdf",
+      "buttonLabel": "PDF İndir"
     },
     {"type":"media","slot":"download-image"}
   ]
@@ -27271,8 +27271,8 @@
               "30 gün takvim dolu mu?",
               "Haftalık ölçüm noktası belirlendi mi?"
             ],
-            "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.xlsx",
-            "buttonLabel": "Excel’i İndir"
+            "href": "/downloads/smm-content-pillars-format-dagilimi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Pdf'i İndir"
           },
           {
             "type": "p",
@@ -28112,7 +28112,7 @@
             "type": "p",
             "text": "“PMS’ten beklentim bir yazılım mı, yoksa işletme akışını standartlaştıran bir omurga mı?”"
           },
-           {"type":"media","slot":"infographic"},
+           {"type":"media","slot":"infographic2"},
           { "type": "h4", "text": "Ne yapmalıyım?" },
           {
             "type": "ul",
@@ -28144,6 +28144,7 @@
               "Rekabet (Moat): Revenue Management uyumu, call center akışı, ileri raporlama, otomasyon"
             ]
           },
+          {"type":"media","slot":"table"},
           { "type": "h3", "text": "Karar Matrisi (Otel Tipi × İhtiyaçlar)" },
           {
             "type": "table",
@@ -28347,7 +28348,7 @@
               "Stabilizasyon: ilk 30 gün rapor doğrulama + süreç düzeltme"
             ]
           },
-           {"type":"media","slot":"sprint-plan"},
+           {"type":"media","slot":"project-plan"},
           { "type": "h3", "text": "“PMS Seçim Dosyası” İskeleti " },
           {
             "type": "p",
@@ -29682,7 +29683,7 @@
         "Title 55–60 karakter, primary keyword + bağlam + marka",
         "Meta description 150–170 karakter, fayda + CTA",
         "H1 tek ve 1 kez",
-        "AEO soru blokları en az 2 adet (H3)",
+        "AEO soru blokları en az 2 adet ",
         "Primary CTA 2 kez, Secondary CTA 1 kez",
         "Download asset (PDF) sayfada sadece indirme modülü olarak gösterilir",
         "Internal link targets: /tr/creative/grafik-motion-tasarim, /tr/smm/icerik-uretimi, /tr/creative/ui-ux-tasarim",
@@ -30153,9 +30154,489 @@
         ]
       }
     }
+  },
+
+    "BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin": {
+    "title": "Site Mimarisi & URL Yapısı: Otel/Ajans SEO | DGTLFACE",
+    "slug": "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin",
+    "department": "seo",
+    "updatedAt": "10 Ocak 2026",
+    "publishedAt": "2026-01-10",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve ajans siteleri için silo yapısı, URL kuralları, breadcrumb ve dahili link stratejisi. Tarama/indeksleme verimini artırın, siteyi ölçeklenebilir kurun.",
+    "seo": {
+      "metaTitle": "Site Mimarisi & URL Yapısı: Otel/Ajans SEO | DGTLFACE",
+      "metaDescription": "Otel ve ajans siteleri için silo yapısı, URL kuralları, breadcrumb ve dahili link stratejisi. Tarama/indeksleme verimini artırın, siteyi ölçeklenebilir kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700",
+        "Canonical: /tr/seo/blog/site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin"
+      ],
+      "strategySummary": "Bu içerik, Teknik SEO silosunda “site mimarisi + URL stratejisi” ana referans (hub) görevi görür ve hem SEO hem Web & Yazılım silosu arasında bilgi mimarisi köprüsü kurar. Hedef persona: otel sahibi/GM, satış–pazarlama müdürü ve birlikte çalışan ajans/teknik ekip (Next.js kullanan ekip dahil). Funnel’da consideration (MoFu) ağırlıklıdır: “mimariyi doğru kur → tarama/indeksleme verimini artır → içerik üretimini ve linklemeyi ölçekle” yaklaşımını standardize eder. Ana iş sorusu: “Oda, destinasyon ve hizmet sayfalarını nasıl silo’larım; URL ve iç link yapısını hem kullanıcı hem Google için nasıl sadeleştiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-09",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Site mimarisi ve URL yapısı, Google’ın sitenizi tarama (crawl), anlamlandırma ve sıralama sürecini doğrudan etkiler. Otel sitelerinde oda, konsept ve destinasyon sayfalarını net silo’lar altında gruplayıp; URL’leri kısa, sade ve anahtar kelime uyumlu tasarlamak hem kullanıcıyı hem arama motorlarını hızlandırır. Ajans sitelerinde ise hizmet silo’ları ve iç link akışı doğru kurulmazsa otorite dağılır. Doğru mimari, içerik üretimini ve linklemeyi ölçeklenebilir yapar.",
+      "sgeSummary": "Otel ve ajans sitelerinde silo’ları netleştir, URL’leri kısa ve tutarlı kurgula; breadcrumb + dahili link yapısıyla tarama/indeksleme verimini artırıp hem UX hem SEO performansını yükselt.",
+      "voiceAnswer": "SEO için ideal mimari; net silo’lar, kısa URL’ler ve güçlü dahili link yapısıyla kurulur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/ajans karar vericileri + teknik ekip (Next.js)",
+        "KPI/başarı ölçütleri (pratik): Tarama verimi, indeks kapsamı, organik giriş, kategori/hizmet sayfası görünürlüğü",
+        "Kritik entity’ler: Site architecture, silos, URL structure, hotel rooms, destinations, services, internal linking",
+        "Semantik tema: Information architecture, crawlability, internal linking design",
+        "Funnel rolü: MoFu (plan → yapı → standart → uygulama)",
+        "Teknik not çekirdeği: Çok dillilik (TR/EN/DE/RU), canonical + hreflang, slug standardı",
+        "Çıktı hedefi: Featured snippet + PAA (mimari/URL/breadcrumb soruları)"
+      ]
+    },
+    "h1": {
+      "title": "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
+      "intro": "Doğru site mimarisi; Google’ın sitenizi daha verimli taramasını, sayfalar arasındaki ilişkiyi daha doğru anlamasını ve kullanıcıların siteyi daha kolay gezmesini sağlar. Otel sitelerinde en büyük hata, oda–destinasyon–konsept sayfalarını “rastgele” büyütmek; ajans sitelerinde ise hizmetleri karıştırıp otoriteyi dağıtmaktır. Bu rehberde; silo mantığını kuracak, URL kurallarını standardize edecek, breadcrumb ve dahili link akışıyla mimariyi “SEO + UX” açısından ölçeklenebilir hale getireceğiz.",
+      "quickSummary": [
+        "1) Site mimarisini (hiyerarşi + iç link akışı) netleştir",
+        "2) Otel/ajans için silo mantığını kur ve hub sayfaları belirle",
+        "3) URL standardı + breadcrumb + dahili link ile tarama/indeksleme verimini artır"
+      ],
+      "ctaPrimary": {
+        "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
+        "text": "Otel/ajans sitenizde mevcut sayfa envanterini çıkarıp, silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
+        "text": "Mevcut envanteri çıkarıp silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Silo & URL Yapısı Planlama Şablonunu İndir",
+        "text": "Tek sayfada URL kurallarını, silo haritasını ve iç link akışını netleştirip ekibe standart olarak dağıtırsınız.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "label": "SEO Hizmetleri", "href": "/seo-hizmetleri" },
+      { "label": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" }
+    ],
+    "relatedPosts": [
+      { "title": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "title": "SEO Hizmetleri", "href": "/seo-hizmetleri" },
+      { "title": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" }
+    ],
+    "sections": [
+      {
+        "id": "h1-giris",
+        "title": "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Doğru site mimarisi; Google’ın sitenizi daha verimli taramasını, sayfalar arasındaki ilişkiyi daha doğru anlamasını ve kullanıcıların siteyi daha kolay gezmesini sağlar. Otel sitelerinde en büyük hata, oda–destinasyon–konsept sayfalarını “rastgele” büyütmek; ajans sitelerinde ise hizmetleri karıştırıp otoriteyi dağıtmaktır. Bu rehberde; silo mantığını kuracak, URL kurallarını standardize edecek, breadcrumb ve dahili link akışıyla mimariyi “SEO + UX” açısından ölçeklenebilir hale getireceğiz."
+          },
+          { "type": "media", "slot": "silo" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
+            "text": "Otel/ajans sitenizde mevcut sayfa envanterini çıkarıp, silo+URL standardını 2 haftalık planla netleştirmek isteyen ekipler için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "site-mimarisi-nedir",
+        "title": "Site Mimarisi Nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Site mimarisi (site architecture), sayfalarınızın hiyerarşisini, kategorizasyonunu ve iç link akışını tanımlayan “bilgi mimarisi” planıdır. Google açısından bu yapı; hangi sayfanın “ana”, hangisinin “alt”, hangisinin “destek” içerik olduğunu anlamayı kolaylaştırır. Kullanıcı açısından ise doğru mimari; aradığı odayı, destinasyonu veya hizmeti 3 tık içinde bulmasını sağlar.\nVarsayım: “3 tık” kuralı mutlak bir SEO kuralı değil; pratik UX hedefidir."
+          },
+          { "type": "h3", "text": "Site mimarisi nedir, SEO’yu nasıl etkiler? " },
+          {
+            "type": "p",
+            "text": "Site mimarisi; içerikleri silo’lara ayırıp sayfalar arası iç link ilişkisini kurar. Bu sayede Google sitenizi daha verimli tarar, hangi sayfaların önemli olduğunu daha doğru anlar ve kullanıcılar daha az kayıpla hedef sayfaya ulaşır."
+          },
+          { "type": "h3", "text": "Flat vs derin yapı: Hangisi daha sağlıklı? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Flat (daha düz) yapı: Önemli sayfalara daha az tıkla ulaşılır; tarama/otorite dağılımı daha hızlıdır.",
+              "Derin yapı: Kategori sayısı artar ama kritik sayfalar “çok aşağıda” kalırsa görünürlük zorlaşır."
+            ]
+          },
+          {"type":"media","slot":"flat-deep"},
+          { "type": "h3", "text": "Pratik hedef: “Kritik sayfalar üst katmanda” " },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde kritik sayfalar: oda tipleri, konsept sayfaları, destinasyon sayfaları, kampanya landing’leri, iletişim/rezervasyon akışı. Ajans sitelerinde kritik sayfalar: hizmet sayfaları + vaka çalışmaları + teklif/iletişim."
+          },
+          { "type": "h3", "text": "☑ Mini Check (Mimari) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En çok gelir/lead getiren sayfalar “en fazla 3–4 tık” içinde mi?",
+              "Aynı niyetli sayfalar aynı silo altında mı?",
+              "Menü ve breadcrumb mimariyi yansıtıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sayfa envanteri çıkar (oda/destinasyon/hizmet/blog).",
+              "“Kritik sayfalar listesi” yap ve üst katmana taşı.",
+              "Derinliği artıran gereksiz ara kategori sayfalarını azalt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "silo-ve-kategori-yapisi",
+        "title": "Silo ve Kategori Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Silo yapısı, aynı niyet ve temaya sahip sayfaları tek bir mantık altında toplar. Bu hem kullanıcıya “ben neredeyim?” hissi verir, hem Google’a “bu bölümün konusu şu” diye net sinyal gönderir. Silo kurmadığınızda en sık sonuç: içerikler büyür ama otorite dağılımı ve crawlability zayıflar."
+          },
+          { "type": "h3", "text": "Hizmet silo’ları mı, konu silo’ları mı? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel siteleri: Oda & konaklama deneyimi odaklı silo + destinasyon odaklı silo birlikte yürür.",
+              "Ajans siteleri: Hizmet silo’ları (SEO/SEM/SMM/Web) genelde en doğru ana omurgadır."
+            ]
+          },
+          { "type": "h3", "text": "Çok otelli yapılarda domain/subdomain kararı " },
+          {
+            "type": "p",
+            "text": "Çok otelli bir grupta üç model görürsünüz:\n\t1.\tTek domain / çok marka sayfası (tek otorite havuzu)\n\t2.\tHer otel ayrı domain (marka bağımsızlığı yüksek)\n\t3.\tSubdomain (çoğu zaman yönetim kolaylığı için seçilir ama otorite bölünmesi riski vardır)\n\nVarsayım: “En doğru” model; markaların bağımsızlığı, içerik hacmi, yönetim ekibi ve hedef pazarlara göre değişir. Burada amaç “standart karar çerçevesi” vermektir."
+          },
+          { "type": "h3", "text": "Karar çerçevesi (özet) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek ekip + ortak otorite + ortak teknoloji ⇒ tek domain daha verimli",
+              "Marka bağımsız + ayrı hedef pazar + ayrı içerik ⇒ ayrı domain mantıklı",
+              "Teknik zorunluluk/legacy ⇒ subdomain düşünülebilir (ama planlı)"
+            ]
+          },
+          { "type": "media", "slot": "domain-subdomain" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Silo’ları önce “niyet”e göre ayır (rezervasyon, destinasyon, hizmet).",
+              "Her silo için 1 hub sayfa belirle (kategori/hizmet).",
+              "Çok otelli yapıysa domain kararını “otorite + yönetim + pazar” üçgeniyle ver."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-oda-konsept-destinasyon",
+        "title": "Otel Sitelerinde Oda, Konsept ve Destinasyon Sayfaları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde SEO’yu ölçekleyen asıl yapı; oda tipleri, konseptler ve destinasyonlar arasındaki doğru hiyerarşidir. Burada hedef; kullanıcı “Antalya’da aile oteli” ararken destinasyon → konsept → oda gibi net bir yol bulsun; Google da bu ilişkiyi kolayca okusun."
+          },
+          { "type": "h3", "text": "Oda tipi sayfaları nasıl konumlanmalı? " },
+          {
+            "type": "p",
+            "text": "Oda tipi sayfaları genelde “money page”’dir; çünkü rezervasyon niyeti yüksektir. Oda sayfaları; konsept ve destinasyonla bağlanmalı ama her yerde tekrar edilmemelidir.\n\t•\tOda sayfaları: özellikler, kapasite, galeri, fiyat/rezervasyon CTA\n\t•\tOda sayfası linkleri: konsept, destinasyon ve ilgili kampanyalara akmalı"
+          },
+          { "type": "h3", "text": "Destinasyon sayfaları (Antalya/Belek/Side/Kemer/Bodrum) nasıl silo’lanmalı? " },
+          {
+            "type": "p",
+            "text": "Destinasyon sayfaları “lokasyon niyeti” taşıdığı için ayrı bir alt yapı ister:\n\t•\t/tr/destinasyon/antalya gibi net bir kök\n\t•\tDestinasyon altında: “ne yapılır”, “sezon”, “ulaşım”, “yakın konseptler”\n\t•\tOtel marka sayfalarıyla dengeli iç link"
+          },
+          { "type": "media", "slot": "silo-hierarchy" },
+          { "type": "h3", "text": "Kampanya ve sezon sayfaları: Ne zaman ayrı URL? " },
+          {
+            "type": "p",
+            "text": "Kampanyalar kısa ömürlü ise ayrı URL yerine ana sayfa içinde yönetmek daha güvenli olabilir. Sezonluk kampanyalar tekrarlanıyorsa (ör. yaz erken rezervasyon) ayrı URL mantıklı olur.\nVarsayım: Kampanya URL’leri 90–180 gün içinde güncellenecek şekilde “evergreen” tasarlanırsa daha sürdürülebilir olur."
+          },
+          { "type": "h3", "text": "☑ Mini Check (Otel mimarisi) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda, destinasyon ve konsept sayfaları ayrı niyet taşıyor mu?",
+              "Aynı sayfayı farklı URL’lerle çoğaltıyor muyuz? (kanibalizasyon riski)",
+              "Destinasyon sayfasında ilgili oda/konsept linkleri var mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda sayfalarını “rezervasyon niyeti” için optimize et ve üst katmanda tut.",
+              "Destinasyonları ayrı alt silo yap; Antalya/Belek/Side/Kemer/Bodrum gibi.",
+              "Kampanya URL’lerini “süre + tekrar” kriteriyle karar ver."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ajans-hizmet-silolari",
+        "title": "Ajans ve Hizmet Sitelerinde Hizmet Silo’ları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ajans sitelerinde ana sorun: hizmetler çoğalınca her şey “aynı kategoriye” yığılır ve Google hangi hizmetin ne kadar önemli olduğunu net göremez. Hizmet silo’ları; hem “ticari niyetli” sayfaları düzenler, hem blog içeriklerinin doğru hizmete otorite taşımasını sağlar."
+          },
+          { "type": "h3", "text": "Hizmet silo’larını nasıl kurmalıyım? " },
+          {
+            "type": "p",
+            "text": "Önce ana hizmetleri (SEO/SEM/SMM/Web) belirle; her hizmet için bir hub hizmet sayfası oluştur. Blog içerikleri, SSS ve vaka çalışmaları bu hub’a iç link ile bağlanır. Böylece otorite dağılmadan, her hizmet kendi içinde büyür."
+          },
+          { "type": "h3", "text": "SEO ve Web & Yazılım arasında köprü " },
+          {
+            "type": "p",
+            "text": "Bu içerik özelinde hedef: Teknik SEO ile Web Sitesi Geliştirme sayfası arasında “mimari + URL + route” köprüsü kurmak. Next.js gibi framework’lerde route yapısı doğrudan URL standardına dönüşür; bu yüzden yazılım ekibi ile SEO ekibinin aynı sözlüğü konuşması gerekir."
+          },
+          { "type": "media", "slot": "silo-schema" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Her hizmet için 1 hub + 3–6 destek içerik hedefi belirle.",
+              "Blog içeriklerini “hizmet hub”’ına otorite taşıyacak şekilde bağla.",
+              "Teknik ekip ile URL standardını (slug, dil, canonical) yazılı hale getir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "url-yapisi-ve-anahtar-kelime",
+        "title": "URL Yapısı ve Anahtar Kelime Kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "URL; hem kullanıcıya hem arama motoruna “bu sayfa ne hakkında?” sinyali verir. İyi URL kısa, okunabilir, tutarlı ve gereksiz parametrelerden arındırılmıştır. Kötü URL ise gereksiz klasör derinliği, anlamsız ID’ler, karışık dil yapısı ve kopya sayfalar üretir."
+          },
+          { "type": "h3", "text": "Otel sitesi için URL yapısı nasıl olmalı? " },
+          {
+            "type": "p",
+            "text": "Oda, destinasyon ve konsept sayfalarını net klasör yapısı altında topla; URL’lerde gereksiz kelime ve tarih kullanma. Dil (TR/EN/DE/RU) yapısını baştan belirle ve her dilde slug standardını tutarlı uygula."
+          },
+          { "type": "h3", "text": "SEO dostu URL kuralları (dil, karakter, anahtar kelime) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Küçük harf, tire ile ayrım: site-mimarisi-url-yapisi",
+              "Türkçe karakter dönüşümü standardı (ş/ı/ğ)",
+              "Gereksiz stop-word’leri azalt",
+              "Aynı niyeti taşıyan sayfaları farklı URL’lerle çoğaltma"
+            ]
+          },
+          { "type": "h3", "text": "URL örnekleri: iyi vs kötü " },
+          { "type": "media", "slot": "good-bad-url" },
+          {
+            "type": "p",
+            "text": "Örnek tablo (kısa):\n\t•\t✅ /tr/destinasyon/antalya (net, kısa)\n\t•\t✅ /tr/odalar/deluxe-oda (niyet belirgin)\n\t•\t❌ /tr/page?id=123&cat=9 (anlamsız)\n\t•\t❌ /tr/antalya/otel/antalya-otel-antalya (spammy/tekrar)"
+          },
+          { "type": "h3", "text": "Çok dillilik + canonical/hreflang stratejisi " },
+          {
+            "type": "p",
+            "text": "Çok dilli sitelerde asıl kritik hata: her dilin URL’ini üretip hreflang/canonical ile ilişkilendirmemek.\n\t•\tHer dil için net route: /tr/..., /en/..., /de/..., /ru/...\n\t•\tAynı içeriğin farklı dil versiyonları hreflang ile bağlanır\n\t•\tCanonical, doğru dil sayfasını işaret eder (yanlış canonical çok zarar verir)"
+          },
+          { "type": "h3", "text": "Next.js route yapısı ile teknik SEO uyumu " },
+          {
+            "type": "p",
+            "text": "Next.js’te route yapısı URL standardıdır. Bu yüzden:\n\t•\tDinamik route’lar (ör. destinasyon/oda) “kural seti” ile üretilmeli\n\t•\tParametreli sayfalar indeks stratejisiyle yönetilmeli (kopya üretme riski)\n\t•\tSitemap ve breadcrumb üretimi route yapısıyla uyumlu olmalı"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "URL standardını 1 sayfalık dokümana çevir (slug, dil, klasör).",
+              "Çok dilli ise hreflang + canonical’ı teknik checklist’e bağla.",
+              "Next.js route’larını SEO ekibiyle birlikte “kural seti” olarak kilitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "breadcrumb-ic-link-menu",
+        "title": "Breadcrumb, Dahili Link ve Menü Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mimariyi kullanıcıya hissettiren üç katman vardır: menü, breadcrumb, dahili linkler. Bu üçü tutarlı değilse kullanıcı “neredeyim?” der; Google da silo sınırlarını net okuyamaz."
+          },
+          { "type": "h3", "text": "Breadcrumb SEO’ya nasıl yardım eder? " },
+          {
+            "type": "p",
+            "text": "Breadcrumb, sayfanın hiyerarşisini açıkça gösterir. Kullanıcı üst kategoriye hızlı döner; arama motoru ise sayfanın hangi silo altında olduğunu daha net anlar."
+          },
+          { "type": "h3", "text": "Dahili linklerin Google crawl mantığına etkisi " },
+          {
+            "type": "p",
+            "text": "Dahili link; otoriteyi ve tarama önceliğini dağıtır. En kritik sayfalar, menü ve içerik içi linklerle “üst katmanda” beslenmelidir. Blog içerikleri; ilgili hizmet/oda/destinasyon sayfasına link vermiyorsa “otorite taşıma” görevi zayıflar."
+          },
+          { "type": "h3", "text": "Menü tasarımı: SEO mu UX mi? " },
+          {
+            "type": "p",
+            "text": "İyi menü, hem UX hem SEO’dur. Ama menüye her şeyi koymak doğru değildir. Çözüm:\n\t•\tMenü: ana silo’lar\n\t•\tMega menü / alt menü: kritik alt sayfalar\n\t•\tDiğer sayfalar: içerik içi link + sitemap"
+          },
+          { "type": "h3", "text": "Yapılmaması gerekenler " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı sayfaya 5 farklı anchor ile link vermek (kafa karıştırır)",
+              "Her sayfadan her sayfaya linklemek (otoriteyi sulandırır)",
+              "Breadcrumb ile URL yapısının çelişmesi"
+            ]
+          },
+          { "type": "media", "slot": "flow" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Menü + breadcrumb + URL yapısını tek mimari çizimde birleştir.",
+              "Blog içeriklerini mutlaka ilgili hub sayfalara bağla.",
+              "Link yoğunluğunu kontrol et: az ama doğru, niyet uyumlu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sprint-ozeti-olcek",
+        "title": "Sprint Özeti ve Ölçekleme Notu ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi planlanmış mimari; sonraki içerik üretimini, dahili linklemeyi ve yeni sayfa eklemeyi çok daha kolay ve sağlıklı hale getirir. Özellikle otel sitelerinde oda/destinasyon sayfaları büyüdükçe, ajans sitelerinde hizmet sayfaları arttıkça mimari “kendiliğinden” bozulur; bu yüzden standardı yazılı hale getirip periyodik gözden geçirmek gerekir."
+          },
+          { "type": "media", "slot": "silo-breadcrumbs" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Site Mimarisi & URL Yapısı Analizi Talep Et",
+            "text": "Mevcut yapınızı çıkarıp (envanter + silo haritası + URL standardı) 2 haftalık uygulanabilir plan isteyen ekipler için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "silo-url-sablon-download",
+        "title": "Silo & URL Yapısı Planlama Şablonunu İndir — Teknik SEO / Site Architecture",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Silo & URL Yapısı Planlama Şablonunu İndir — Teknik SEO / Site Architecture (v1.0)",
+            "purpose": "Bu şablon, otel veya ajans sitenizin sayfa envanterini çıkarıp silo’ları, URL kurallarını ve dahili link akışını tek dokümanda standardize etmenizi sağlar. Böylece yeni sayfa ekledikçe mimari bozulmaz; SEO ve yazılım ekipleri aynı kuralla üretim yapar.",
+            "whoFor": "Otel/ajans tarafında karar verici + SEO uzmanı + web geliştirme ekibi birlikte.",
+            "steps": [
+              "Sayfa envanterini çıkarıp şablondaki “Sayfa Listesi” bölümünü doldurun.",
+              "Silo haritasını netleştirip URL kurallarını kilitleyin (dil/slug/canonical/hreflang).",
+              "İç link akışını (hub → child → CTA) işleyip menü/breadcrumb ile hizalayın."
+            ],
+            "checklist": [
+              "Her silo için net bir hub sayfa var",
+              "URL kuralları yazılı ve ekipte paylaşıldı",
+              "Çok dilli canonical/hreflang kuralı net",
+              "Menü, breadcrumb ve URL yapısı çelişmiyor",
+              "Blog içerikleri ilgili hub’lara link veriyor"
+            ],
+            "href": "/downloads/silo-url-yapisi-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Silo & URL Yapısı Planlama Şablonunu İndir",
+            "text": "Tek sayfada kuralları netleştirip ekibe standart olarak dağıtırsınız.",
+            "href": "/downloads/silo-url-yapisi-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Site mimarisi nedir, SEO’yu nasıl etkiler?",
+        "a": "Site mimarisi; sayfaların hiyerarşisini ve iç link ilişkisini kurar. Google’ın tarama/anlamlandırma sürecini kolaylaştırır; kullanıcıların hedef sayfalara daha az kayıpla ulaşmasını sağlar."
+      },
+      {
+        "q": "Otel sitesi için URL yapısı nasıl olmalı?",
+        "a": "URL’ler kısa, okunabilir ve niyeti yansıtan klasör yapısıyla olmalıdır. Oda, destinasyon ve konsept sayfaları ayrı silo altında planlanmalı; çok dilli ise /tr/ /en/ /de/ /ru/ gibi net dil yapısı kullanılmalıdır."
+      },
+      {
+        "q": "Hizmet sayfalarını nasıl silo’lamalıyım?",
+        "a": "Ajans sitelerinde ana hizmetler için hub sayfalar oluşturup (SEO/SEM/SMM/Web), blog/SSS/case içeriklerini ilgili hub’a bağlamak en ölçeklenebilir yöntemdir."
+      },
+      {
+        "q": "Breadcrumb ve dahili linkler SEO’ya nasıl yardım eder?",
+        "a": "Breadcrumb, sayfanın hangi hiyerarşide olduğunu gösterir; dahili link ise otoriteyi ve tarama önceliğini dağıtır. Doğru kurgu, kritik sayfaların daha güçlü görünürlük almasına yardımcı olur."
+      },
+      {
+        "q": "Flat mi derin yapı mı daha iyi?",
+        "a": "Kritik sayfalara hızlı ulaşım sağlayan daha düz yapı genelde daha sağlıklıdır. Ancak kategori büyüdükçe kontrollü bir derinlik gerekebilir; önemli olan “kritik sayfaların aşağıda kaybolmaması”dır."
+      },
+      {
+        "q": "Çok dilli sitelerde canonical ve hreflang nasıl düşünülmeli?",
+        "a": "Her dilin kendi URL’i olmalı; dil varyasyonları hreflang ile birbirine bağlanmalı ve canonical işaretlemesi doğru dil sayfasına yapılmalıdır. Yanlış canonical, görünürlüğe ciddi zarar verebilir."
+      },
+      {
+        "q": "Next.js sitelerde URL ve mimari nasıl kilitlenmeli?",
+        "a": "Route yapısı URL standardıdır; bu yüzden slug kuralları, dil prefix’i, dinamik route kuralları ve sitemap/breadcrumb üretimi yazılı bir standartla kilitlenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "silo — (otel + ajans örnekleri yan yana) — Silo bazlı site haritası şeması",
+          "domain-subdomain — Domain / subdomain karar ağacı mini diyagramı",
+          "destinasyon-hiyerarsisi-semasi — Destinasyon hiyerarşisi şeması (Antalya → Belek/Side/Kemer örnek akış)",
+          "hizmet-silo-minisema — Hizmet silo yapısı: Hizmet sayfası → Blog → SSS → Case mini şema",
+          "good-bad-url — İyi/Kötü URL örnek tablosu",
+          "flow — İç link akışı örneği: Blog → Hizmet hub → SSS → İletişim mini harita",
+          "silo-breadcrumbs — Silo & URL standardı 1 sayfalık özet görseli",
+          "asset-cover — Şablon PDF kapak + “Silo Haritası” görseli + URL örnekleri tablosu"
+        ],
+        "technicalChecklist": [
+          "Silo yapısı: Hub → child → destek içerikler net",
+          "URL standardı: küçük harf + tire + kısa slug; stop-word azaltma",
+          "Çok dillilik: /tr/ /en/ /de/ /ru/ route standardı",
+          "Canonical + hreflang: karşılıklılık ve doğru canonical kuralı yazılı",
+          "BreadcrumbList: silo hiyerarşisini doğru yansıtıyor",
+          "İç link: blog → hub sayfa otorite taşıma kuralı uygulanıyor",
+          "Next.js: dinamik route kural seti, parametreli sayfalar için indeks stratejisi",
+          "Kopya/kanibalizasyon: aynı niyeti taşıyan sayfalar farklı URL’lerle çoğaltılmıyor"
+        ]
+      }
+    }
   }
-
-
 
   }
 

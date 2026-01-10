@@ -189,7 +189,7 @@ export default async function BlogDetailPage({ params }) {
               </Link>
             </li>
             <li className="text-white/30">›</li>
-            <li className="text-white/80">{post.title}</li>
+            <li className="text-white/80 text-left">{post.title}</li>
           </ol>
         </nav>
 
@@ -197,7 +197,7 @@ export default async function BlogDetailPage({ params }) {
       </div>
 
       {/* HERO / COVER */}
-      <header className="relative mt-8 h-[60vh] w-full overflow-hidden">
+      <header className="relative mt-3 h-[40vh] lg:h-[60vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           {/* Cover image */}
           {bannerMedia?.src ? (
@@ -212,21 +212,27 @@ export default async function BlogDetailPage({ params }) {
           ) : null}
 
           {/* Overlay katmanları */}
-          <div className="absolute inset-0 bg-[#120014]/55" />
+          {/* <div className="absolute inset-0 bg-[#120014]/55" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_55%)]" />
           <div className="absolute inset-0 opacity-25 blur-3xl">
             <div
               className={`absolute -top-28 left-1/2 h-[420px] w-[950px] -translate-x-1/2 rounded-full ${GRADIENT}`}
             />
-          </div>
+          </div> */}
         </div>
 
         {/* HERO overlay title (opsiyonel) */}
-          <div className="relative mx-auto flex h-full w-full max-w-[1400px] flex-col items-center justify-center px-4 text-center">
-            <h1 className="max-w-4xl text-2xl font-semibold tracking-tight md:text-4xl">
+          
+      </header>
+
+      {/* intro + Primary CTA #1 (hero altı) */}
+      <section className="mx-auto w-full max-w-[1600px] px-4 pt-3 lg:pt-4 items-center justify-center flex flex-col text-center">
+     <h1 className="max-w-4xl text-2xl font-semibold tracking-tight lg:text-3xl">
               {h1Title}
             </h1>
-              <div className="mt-4 flex flex-wrap items-center gap-2 text-xs text-white/70 md:text-sm">
+            <div className="relative mx-auto flex h-full w-full max-w-[1400px] flex-col items-center justify-center px-0 lg:px-4 text-center">
+            
+              <div className="mt-4 flex items-center justify-center gap-1 lg:gap-2 text-xs text-white/70 md:text-sm w-[100%]">
           <Badge>{readingTime}</Badge>
           <span className="text-white/30">•</span>
           <Badge>{formatDateTR(updatedAt)}</Badge>
@@ -234,13 +240,8 @@ export default async function BlogDetailPage({ params }) {
           <Badge>{author}</Badge>
         </div>
           </div>
-      </header>
-
-      {/* intro + Primary CTA #1 (hero altı) */}
-      <section className="mx-auto w-full max-w-[1600px] px-4 pt-10 items-center justify-center flex flex-col text-center">
-
         {h1Intro ? (
-          <p className="mt-6 text-center text-base leading-7 text-white/70 md:text-lg whitespace-pre-line">
+          <p className="mt-6 text-center text-sm leading-7 text-white/70 md:text-base whitespace-pre-line">
             {h1Intro}
           </p>
         ) : null}
@@ -282,14 +283,14 @@ export default async function BlogDetailPage({ params }) {
 
       {/* BÖLÜM 3 ÜST MODÜL (H1’den sonra) */}
       {(answerBlock || sgeSummary || factSheet.length > 0 || voiceAnswer || quickSummary.length > 0) ? (
-        <section className="mx-auto w-full max-w-[1600px] px-4 pt-10">
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+        <section className="mx-auto w-full max-w-[1600px] px-1 md:pt-2 lg:px-4 pt-6 lg:pt-10">
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-4 lg:p-6">
             {answerBlock ? (
-              <div className="rounded-3xl border border-white/10 bg-black/20 p-5">
-                <p className="text-xs font-medium uppercase tracking-wide text-white/60">
+              <div className="rounded-3xl border border-white/10 bg-black/20 p-3 lg:p-5">
+                <p className="text-xs font-medium uppercase tracking-wide text-white">
                   Öne Çıkan Cevap
                 </p>
-                <div className="mt-3 text-sm leading-7 text-white/80 whitespace-pre-line">
+                <div className="mt-3 text-sm leading-6 lg:.leading-7 text-white/80 whitespace-pre-line">
                   {answerBlock}
                 </div>
               </div>
@@ -297,7 +298,7 @@ export default async function BlogDetailPage({ params }) {
 
             <div className="mt-4 grid gap-4 md:grid-cols-2">
               {sgeSummary ? (
-                <div className="rounded-3xl border border-white/10 bg-black/20 p-5">
+                <div className="rounded-3xl border border-white/10 bg-black/20 p-3 lg:p-5">
                   <p className="text-sm font-medium text-white">Özet</p>
                   <p className="mt-3 text-sm leading-6 text-white/75 whitespace-pre-line">
                     {sgeSummary}
@@ -306,7 +307,7 @@ export default async function BlogDetailPage({ params }) {
               ) : null}
 
               {factSheet.length > 0 ? (
-                <div className="rounded-3xl border border-white/10 bg-black/20 p-5 text-left">
+                <div className="rounded-3xl border border-white/10 bg-black/20 p-3 lg:p-5 text-left">
                   <p className="text-sm font-medium text-white text-center">Maddeler</p>
                   <ul className="mt-3 space-y-2 text-sm text-white/75">
                     {factSheet.map((x, i) => (
@@ -318,7 +319,7 @@ export default async function BlogDetailPage({ params }) {
             </div>
 
             {voiceAnswer ? (
-              <div className="mt-4 rounded-3xl border border-white/10 bg-black/20 p-5">
+              <div className="mt-4 rounded-3xl border border-white/10 bg-black/20 p-3 lg:p-5">
                 <p className="text-sm font-medium text-white">Kısa Cevap</p>
                 <p className="mt-2 text-sm text-white/75 whitespace-pre-line">
                   {voiceAnswer}
@@ -327,9 +328,9 @@ export default async function BlogDetailPage({ params }) {
             ) : null}
 
             {quickSummary.length > 0 ? (
-              <div className="mt-4 rounded-3xl border border-white/10 bg-black/20 p-5">
+              <div className="mt-4 rounded-3xl border border-white/10 bg-black/20 p-3 lg:p-5">
                 <p className="text-sm font-medium text-white">Hızlı Özet</p>
-                <ul className="mt-3 space-y-2 text-sm text-white/75 text-left ml-[40%]">
+                <ul className="mt-3 space-y-2 text-sm text-white/75 text-center lg:text-left xl:ml-[35%]">
                   {quickSummary.map((x, i) => (
                     <li key={i}>• {x}</li>
                   ))}
@@ -395,7 +396,7 @@ export default async function BlogDetailPage({ params }) {
             {/* FAQ */}
             {faqItems.length > 0 ? (
               <div className="space-y-4">
-                <h2 className="text-xl font-semibold">{faqTitle}</h2>
+                <h2 className="text-xl lg:text-2xl font-semibold">{faqTitle}</h2>
                 <Accordion items={faqItems} />
               </div>
             ) : null}

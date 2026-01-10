@@ -31,8 +31,6 @@ switch (block.type) {
     );
   }
 
-  
-
       return (
         <figure className="mt-6 w-full">
           <div className={`relative aspect-[5/3] w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize2}`}>
@@ -271,21 +269,21 @@ switch (block.type) {
 
     case "h2":
       return (
-        <h2 className={`mt-10 text-2xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
+        <h2 className={`mt-10 text-xl lg:text-2xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
           {block.text}
         </h2>
       );
 
     case "h3":
       return (
-        <h3 className={`mt-8 text-xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
+        <h3 className={`mt-8 text-lg lg:text-xl font-semibold tracking-tight text-white ${alignmentClasses}`}>
           {block.text}
         </h3>
       );
 
     case "h4":
       return (
-        <h4 className={`mt-6 text-base font-semibold tracking-tight text-white ${alignmentClasses}`}>
+        <h4 className={`mt-6 text-base lg:text-lg font-semibold tracking-tight text-white ${alignmentClasses}`}>
           {block.text}
         </h4>
       );
