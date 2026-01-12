@@ -737,6 +737,339 @@ export const BLOG_MEDIA_MAP = {
     }
   
   },
+
+  "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur": {
+      banner: {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-1.jpeg",
+      alt: "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+      caption: "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?"
+    },
+
+          "monthly-smm": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-2.jpeg",
+      alt: "Aylık İçerik Takvimi Nedir ve Neyi Çözer?",
+      caption: "Aylık Sosyal Medya İçerik Operasyon Modeli"
+    },
+
+           "sheets-excel": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-3.jpeg",
+      alt: "İçerik takviminde hangi sütunlar olmalı?",
+      caption: "Aylık Sosyal Medya İçerik Takvimi"
+    },
+
+     "content-status-flow": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-4.jpeg",
+      alt: "Revizyon ve Onay Süreci Nasıl Yönetilir?",
+      caption: "İçerik Durum Akışı"
+    },
+
+          "hotel-weekly": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-5.jpeg",
+      alt: "Otel için örnek haftalık yayın ritmi",
+      caption: "Aylık İçerik Ritim Dağılımı "
+    },
+
+      "kpi-column-example-calendar": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-6.jpeg",
+      alt: "Raporlama ile Takvimi Beslemek",
+      caption: "KPI sütunlu aylık örnek takvim"
+    },
+
+     "excel-example": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-7.jpeg",
+      alt: "Aylık Sosyal Medya İçerik Takvimi Şablonu",
+      caption: "Aylık Sosyal Medya İçerik Takvimi Şablonu"
+    },
+
+            "flow": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-8.jpeg",
+      alt: "İçerik Üretim Durum Akışı ve Sorumluluklar",
+      caption: "İçerik Üretim Durum Akışı ve Sorumluluklar"
+    },
+
+    "excel-view": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-9.jpeg",
+      alt: "Aylık Takvim Filtreleme & Görünüm Örneği",
+      caption: "Aylık Takvim Filtreleme & Görünüm Örneği"
+    },
+
+                "monthly-revision": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-10.jpeg",
+      alt: "Aylık Revizyon Toplantısı Modeli",
+      caption: "Aylık Revizyon Toplantısı Modeli"
+    },
+
+                    "checklist": {
+      src: "/images/blog/smm/SMM1-2/SMM1-2-11.jpeg",
+      alt: "İlk Ay için Minimum 20 İçerik Planı Checklist’i",
+      caption: "İlk Ay için Minimum 20 İçerik Planı Checklist’i"
+    }
+  
+  },
+
+
+
+    "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur": {
+      banner: {
+      src: "/images/blog/software/Software1-2/Software1-2-1.jpeg",
+      alt: "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?",
+      caption: "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?"
+    },
+
+          "architectural-map": {
+      src: "/images/blog/software/Software1-2/Software1-2-2.jpeg",
+      alt: "Kurumsal Next.js Mimari Haritası",
+      caption: "Kurumsal Next.js Mimari Haritası"
+    },
+
+           "rendering-strategies": {
+      src: "/images/blog/software/Software1-2/Software1-2-3.jpeg",
+      alt: "SSR/SSG/ISR tercihi: Kurumsal projede render stratejisini nasıl seçersiniz?",
+      caption: "Next.js Render Stratejileri: SSR vs SSG vs ISR"
+    },
+
+     "folder-structure": {
+      src: "/images/blog/software/Software1-2/Software1-2-4.jpeg",
+      alt: "Örnek Next.js App Router Klasör Yapısı",
+      caption: "Örnek Next.js App Router Klasör Yapısı"
+    },
+
+          "critical-layers": {
+      src: "/images/blog/software/Software1-2/Software1-2-5.jpeg",
+      alt: "Otel ve B2B örnek mimariler: aynı Next.js, farklı kritik katmanlar",
+      caption: "Otel vs B2B Next.js Mimari Odakları "
+    },
+
+      "download": {
+      src: "/images/blog/software/Software1-2/Software1-2-6.jpeg",
+      alt: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
+      caption: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)"
+    },
+
+     "strategy-package": {
+      src: "/images/blog/software/Software1-2/Software1-2-7.jpeg",
+      alt: "Next.js Kurumsal Mimari Strateji Paketi",
+      caption: "Next.js Kurumsal Mimari Strateji Paketi"
+    },  
+  },
+  
+
+   "oteller-icin-sosyal-medya-post-tasarim-rehberi": {
+      banner: {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-1.jpeg",
+      alt: "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
+      caption: "Oteller İçin Sosyal Medya Post Tasarım Rehberi"
+    },
+
+          "instagram-post": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-2.jpeg",
+      alt: "Örnek feed grid’i: 9/12 post set ile sistem kurun",
+      caption: "Örnek feed grid’i: 9/12 post set ile sistem kurun"
+    },
+
+           "hotel-template": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-3.jpeg",
+      alt: "Otel sosyal medya post tasarımı nasıl olmalı?",
+      caption: "Otel Post Şablon Seti"
+    },
+
+     "composition": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-4.jpeg",
+      alt: "Oda, havuz, restoran ve deneyim fotoğraflarını kurgulamak",
+      caption: "Kompozisyon Kuralı: Önce Duygu, Sonra Bilgi"
+    },
+
+          "price-cta": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-5.jpeg",
+      alt: "Yazı alanı, fiyat/CTA kullanımı",
+      caption: "Yazı alanı, fiyat/CTA kullanımı"
+    },
+
+
+
+     "9-grid-plan": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-6.jpeg",
+      alt: "9 Postluk Set Planı: Denge & Akış",
+      caption: "9 Postluk Set Planı: Denge & Akış"
+    },  
+
+          "download": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-7.jpeg",
+      alt: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
+      caption: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)"
+    },
+
+         "strategy": {
+      src: "/images/blog/creative/Creative1-2/Creative1-2-8.jpeg",
+      alt: "Next.js Kurumsal Mimari Strateji Paketi",
+      caption: "Next.js Kurumsal Mimari Strateji Paketi"
+    },  
+  },
+
+
+   "tr-en-de-ru-cagri-script-tasarimi": {
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-1.jpeg",
+      alt: "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları",
+      caption: "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları"
+    },
+
+          "call-flow": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-2.jpeg",
+      alt: "4 dilli çağrı script’i nasıl tasarlanmalı? ",
+      caption: "İdeal Çağrı Akışı"
+    },
+
+           "basic-greeting": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-3.jpeg",
+      alt: " TR–EN–DE–RU temel selamlama ve açılış (kültürel uyum)",
+      caption: " TR–EN–DE–RU temel selamlama ve açılış (kültürel uyum)"
+    },
+
+     "good-bad-script-comparison": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-4.jpeg",
+      alt: "İtiraz karşılama (fiyat itirazı) — kısa şablon",
+      caption: "İtiraz karşılama (fiyat itirazı) — kısa şablon"
+    },
+
+          "agent-screen-notes-mockup": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-5.jpeg",
+      alt: "OTA, WhatsApp ve DM’den gelen talepler için kısa script’ler",
+      caption: "OTA, WhatsApp ve DM’den gelen talepler için kısa script’ler"
+    },
+
+
+
+     "management-cycle": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-6.jpeg",
+      alt: "Şikayet yönetim döngüsü",
+      caption: "Şikayet yönetim döngüsü"
+    },  
+
+          "quality-education": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-7.jpeg",
+      alt: "Script, ton ve marka dili uyumunu korumak (kalite & eğitim)",
+      caption: "Kalite ve Eğitim Rutini"
+    },
+
+         "7-step-plan": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-8.jpeg",
+      alt: "7 Adımda Script Devreye Alma",
+      caption: "7 Adımda Script Devreye Alma"
+    },  
+
+              "download": {
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-9.jpeg",
+      alt: "",
+      caption: ""
+    },
+  },
+
+   "seo-sem-smm-verilerini-tek-panelde-birlestirmek": {
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-1.jpeg",
+      alt: "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek",
+      caption: "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek"
+    },
+
+          "single-panel": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-2.jpeg",
+      alt: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak",
+      caption: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak"
+    },
+
+           "common-kpi-panel": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-3.jpeg",
+      alt: " Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
+      caption: "Ortak KPI Paneli"
+    },
+
+     "good-bad-script-comparison": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-4.jpeg",
+      alt: "İtiraz karşılama (fiyat itirazı) — kısa şablon",
+      caption: "İtiraz karşılama (fiyat itirazı) — kısa şablon"
+    },
+
+          "looker-studio": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-5.jpeg",
+      alt: "Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
+      caption: "Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)"
+    },
+
+
+
+     "installation-steps": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-6.jpeg",
+      alt: "Kanal bazlı performans karşılaştırması (funnel + katkı okuması)",
+      caption: "Çok Kanallı Dashboard Kurulum Adımları"
+    },  
+
+          "performance": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-7.jpeg",
+      alt: "SEO - SEM - SMM Performansı",
+      caption: "SEO - SEM - SMM Performansı"
+    },
+
+         "gains": {
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-8.jpeg",
+      alt: "",
+      caption: "Raporlama Çıktıları ve Kazanımlar"
+    }
+  },
+
+
+
+   "hotel": {
+      banner: {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-1.jpeg",
+      alt: "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?",
+      caption: "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?"
+    },
+
+          "w": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-2.jpeg",
+      alt: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak",
+      caption: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak"
+    },
+
+           "e": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-3.jpeg",
+      alt: " Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
+      caption: "Ortak KPI Paneli"
+    },
+
+     "10-": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-4.jpeg",
+      alt: "",
+      caption: "Oda Sayfası: 10 Kritik Alan"
+    },
+
+          "google-travel": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-5.jpeg",
+      alt: "",
+      caption: "Google Traverl'dan Doğrudan Rezervasyon Akış"
+    },
+
+
+
+     "checklist": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-6.jpeg",
+      alt: "",
+      caption: "Oda Sayfası Seo ve Ux Hızlı Kontrol"
+    },  
+
+          "performance-panel": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-7.jpeg",
+      alt: "SEO - SEM - SMM Performansı",
+      caption: "Performans Paneli"
+    },
+
+         "download": {
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
 };
 
 export function getMediaBySlot(slug, slot) {

@@ -22,15 +22,17 @@ export const routing = defineRouting({
       tr: "/antalya-dijital-pazarlama-ajansi/hakkimizda",
       ru: "/o-nas",
     },
-    "/blog": { // https://www.dgtlface.com/tr/blog
-      en: "/blog",
-      tr: "/antalya-dijital-pazarlama-blog",
-      ru: "/blog",
-    },
+
     "/contact": { // https://www.dgtlface.com/tr/contact
       en: "/contact",
       tr: "/antalya-dijital-pazarlama-iletisim",
       ru: "/kontakty",
+    },
+
+        "/blogs": { 
+      en: "/blogs",
+      tr: "/bloglar",
+      ru: "/blogs",
     },
     
     //---------------------------------------------------------

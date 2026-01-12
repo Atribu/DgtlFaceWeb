@@ -34,7 +34,7 @@ export const seoConfig = {
       description: "История, миссия и экспертная команда DGTLFACE, переопределяющие цифровой маркетинг с фокусом на туризм в Анталии.",
     },
   },
-  "/blog": { // TR Slug: /antalya-dijital-pazarlama-blog
+  "/blogs": { // TR Slug: /antalya-dijital-pazarlama-blog
     tr: {
       title: "Antalya Dijital Pazarlama Blog | SEO, Yazılım ve Turizm Trendleri",
       description: "Dijital pazarlama, SEO, yazılım ve turizm sektöründeki en güncel trendler ve uzman görüşleri için blogumuzu takip edin.",

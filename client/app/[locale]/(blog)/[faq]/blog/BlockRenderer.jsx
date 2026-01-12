@@ -7,6 +7,7 @@ export default function BlockRenderer({ block, locale, slug }) {
   if (!block) return null;
 
   const alignmentClasses = "text-center lg:text-left";
+   const imageSize4 = "max-w-[1700px]";
   const imageSize1 = "max-w-[800px]";
   const imageSize2 = "max-w-[700px]";
   const imageSize3 = "max-w-[600px]";
@@ -33,7 +34,7 @@ switch (block.type) {
 
       return (
         <figure className="mt-6 w-full">
-          <div className={`relative aspect-[5/3] w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize2}`}>
+          <div className={`relative aspect-[5/3] w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize1}`}>
             <Image
               src={media.src}
               alt={media.alt || ""}

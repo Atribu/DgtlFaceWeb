@@ -11,26 +11,31 @@ export const BLOG_MAP = {
   },
 
     smm: {
-    "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi"
+    "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi",
+    "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur"
   },
 
     yazilim: {
-    "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde"
+    "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde",
+    "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur"
   },
          creative: {
-    "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi"
+    "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
+    "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi"
   },
 
        callcenter: {
-    "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir"
+    "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir",
+    "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi"
   },
 
      "pms-ota": {
     "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir"
   },
 
-      "veri-analizi": {
-    "looker-studio-oteller-icin-nedir-nasil-calisir": "BlogLookerStudioOtellerIcinNedirNasilCalisir"
+      "veri-analizi-raporlama": {
+    "looker-studio-oteller-icin-nedir-nasil-calisir": "BlogLookerStudioOtellerIcinNedirNasilCalisir",
+    "seo-sem-smm-verilerini-tek-panelde-birlestirmek":"BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek"
   },
 
 

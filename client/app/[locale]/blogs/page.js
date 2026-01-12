@@ -19,7 +19,7 @@ const BLOG_DEPARTMENTS_V2 = [
   { id: "smm", label: "SMM", href: "/Services/smm" },
   { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
   { id: "seo", label: "SEO", href: "/Services/seo" },
-  { id: "veri-analizi", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
+  { id: "veri-analizi-raporlama", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
   { id: "hotel", label: "Otel Dijital Dönüşüm", href: "/Services/hotel" },
 ];
 

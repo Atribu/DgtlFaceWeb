@@ -6,6 +6,7 @@ import SectionRenderer from "../SectionRenderer";
 import BlogToc from "../BlogToc";
 import Image from "next/image";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
+import BlogBreadcrumbs from "../BlogBreadcrumbs";
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
@@ -174,30 +175,17 @@ export default async function BlogDetailPage({ params }) {
   return (
     <main className="min-h-screen bg-[#120014] text-white">
       {/* TOP BAR: Breadcrumbs + Meta */}
-      <div className="mx-auto w-full max-w-[1400px] px-4 pt-24">
-        <nav className="text-sm text-white/60">
-          <ol className="flex flex-wrap items-center gap-2">
-            <li>
-              <Link href={`/${locale}/${department}`} className="hover:text-white">
-                {deptName}
-              </Link>
-            </li>
-            <li className="text-white/30">›</li>
-            <li>
-              <Link href={`/${locale}/bloglar`} className="hover:text-white">
-                Blog
-              </Link>
-            </li>
-            <li className="text-white/30">›</li>
-            <li className="text-white/80 text-left">{post.title}</li>
-          </ol>
-        </nav>
-
-      
-      </div>
-
+      <div className="mx-auto w-full max-w-[1400px] px-4 pt-20">
+  <BlogBreadcrumbs
+    locale={locale}
+    department={department}
+    deptName={deptName}
+    postTitle={post.title}
+    // blogIndexHref={`/${locale}/bloglar`} // opsiyonel
+  />
+</div>
       {/* HERO / COVER */}
-      <header className="relative mt-3 h-[40vh] lg:h-[60vh] w-full overflow-hidden">
+      <header className="relative mt-3 h-[40vh] lg:h-[60vh] 2xl:h-[65vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           {/* Cover image */}
           {bannerMedia?.src ? (
@@ -381,14 +369,15 @@ export default async function BlogDetailPage({ params }) {
                     </Link>
                   ) : null}
 
-                  {ctaSecondary?.label ? (
-                    <Link
+                  {/* {ctaSecondary?.label ? (
+                    <a
+                     download
                       href={ctaSecondary.href ? `/${locale}${ctaSecondary.href}`.replace(`/${locale}/${locale}`, `/${locale}`) : "#"}
                       className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-[#9060cf] px-4 py-2 text-sm text-white/80 transition hover:bg-white/10 gap-[2px]"
                     >
                       {asText(ctaSecondary.label)} <span className="rotate-90 font-bold">→</span>
-                    </Link>
-                  ) : null}
+                    </a>
+                  ) : null} */}
                 </div>
               </div>
             ) : null}

@@ -496,7 +496,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
         {/* 3. satır: Blog + Contact */}
         <Link
-          href="/blog"
+          href="/blogs"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
         >
           <BlogSvg className="flex" width={34} height={34} />

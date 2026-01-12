@@ -26121,185 +26121,8 @@
       "buttonLabel": "PDF’i İndir"
     }
   ]
-},
-      {
-        "id": "secondary-cta-asset",
-        "title": "CWV İyileştirme Checklist’ini İndir — Teknik SEO / Core Web Vitals (v1.0)",
-        "blocks": [
-          {
-            "type": "p",
-            "text": "Bu doküman, otel ve Next.js sitelerinde Core Web Vitals iyileştirmesini ölçülebilir ve sprint yönetilebilir hale getirir. LCP/CLS/INP için kök neden analizi yapmanıza, önceliklendirme ile hızlı kazanım çıkarmanıza ve 14 günlük planla uygulamayı tamamlamanıza yardım eder."
-          },
-          { "type": "p", "text": "Kim Kullanır? (1 satır)" },
-          {
-            "type": "p",
-            "text": "Otel web projesinden sorumlu ajans/teknik ekip + satış–pazarlama ortak kullanım dokümanı."
-          },
-          { "type": "p", "text": "Nasıl Kullanılır? (3 adım)" },
-          {
-            "type": "list",
-            "style": "ol",
-            "items": [
-              "En çok trafik alan 3 şablonu seç (anasayfa/oda/landing) ve ölç.",
-              "Aşağıdaki checklist ile kök nedenleri işaretle, çözüm tablosunu doldur.",
-              "14 günlük sprint planını görev listesi gibi ekip içinde dağıt ve “öncesi/sonrası” KPI’yı raporla."
-            ]
-          },
-          { "type": "h3", "text": "A) Ölçüm & Önceliklendirme Checklist’i [ ]" },
-          { "type": "h4", "text": "Ölçüm (Field + Lab)" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "PageSpeed Insights + Lighthouse ile lab sonuçlarını aldım",
-              "CrUX / RUM ile field sonuçlarını aldım (varsa)",
-              "En kötü 3 şablonu belirledim (trafik + dönüşüm)",
-              "LCP öğesini tespit ettim (hero/görsel/text blok)",
-              "CLS kaymasına sebep olan öğeyi tespit ettim (header/banner/modül/font)",
-              "INP’yi bozan etkileşimi tespit ettim (menü/takvim/CTA)",
-              "3. parti script listesini çıkardım (GTM dahil)",
-              "Görsel teslim formatlarını kontrol ettim (WebP/AVIF, boyutlar)",
-              "Font stratejisini kontrol ettim (preload, swap, fallback)",
-              "CDN/cache ayarlarını doğruladım (TTL, immutable, compression)"
-            ]
-          },
-          { "type": "h4", "text": "Önceliklendirme" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "“En büyük etki” = LCP mi CLS mi? netleştirdim",
-              "Hızlı kazanım (1–3 gün) işleri ayırdım",
-              "Refactor (4–14 gün) işleri ayrı sprint’e koydum"
-            ]
-          },
-          { "type": "h3", "text": "B) Problem → Kök Neden → Çözüm Tablosu" },
-          {
-            "type": "table",
-            "title": "Problem → Kök Neden → Çözüm",
-            "columns": ["Problem", "Kök Neden", "Çözüm", "Etki (LCP/CLS/INP)", "Zorluk"],
-            "rows": [
-              ["LCP yüksek", "Hero görsel büyük / yanlış boyut", "AVIF/WebP + doğru sizes + CDN cache", "LCP", "Orta"],
-              ["CLS yüksek", "Rezervasyon kutusu yükseklik değişiyor", "Skeleton + sabit alan + ölçülü dinamik yük", "CLS", "Orta"],
-              ["INP yüksek", "GTM + 3. parti script + ağır JS", "Script geciktirme + tag temizlik + bundle azaltma", "INP", "Zor"],
-              ["CLS yüksek", "Font swap kaynaklı zıplama", "Preload + font-display swap + uyumlu fallback", "CLS", "Orta"],
-              ["LCP yüksek", "Render-blocking CSS/JS", "Kritik CSS küçültme + erteleme", "LCP", "Orta"]
-            ]
-          },
-          { "type": "h3", "text": "C) 14 Günlük Sprint Planı (Gün 1–14)" },
-          {
-            "type": "table",
-            "title": "14 Günlük Sprint Planı",
-            "columns": ["Gün", "Aksiyon"],
-            "rows": [
-              ["Gün 1", "Ölçüm seti + şablon seçimi + LCP öğesi tespiti"],
-              ["Gün 2", "Hero görsel pipeline planı (format/boyut/CDN)"],
-              ["Gün 3", "Hero optimizasyon uygulama + yeniden ölçüm"],
-              ["Gün 4", "CLS kaynak tespiti (header/banner/modül/font)"],
-              ["Gün 5", "Görsel aspect-ratio + skeleton + sabit alan düzenlemeleri"],
-              ["Gün 6", "Font preload/swap + fallback iyileştirme"],
-              ["Gün 7", "CLS yeniden ölçüm + regression kontrol"],
-              ["Gün 8", "INP sorunlu etkileşim seçimi (menü/takvim/CTA)"],
-              ["Gün 9", "3. parti script envanteri + GTM temizlik listesi"],
-              ["Gün 10", "Script geciktirme / koşullu yükleme uygulama"],
-              ["Gün 11", "Bundle/hydration azaltma (kritik olmayan client bileşenleri)"],
-              ["Gün 12", "INP yeniden ölçüm (mobil öncelik)"],
-              ["Gün 13", "“Öncesi/Sonrası” KPI raporu + notlar"],
-              ["Gün 14", "Kalıcı izleme (RUM/CrUX) + sonraki sprint backlog"]
-            ]
-          },
-          
-          { "type": "h3", "text": "D) Öncesi/Sonrası KPI Tablosu" },
-          {
-            "type": "table",
-            "title": "Öncesi/Sonrası KPI Tablosu",
-            "columns": ["Metrik", "Mevcut", "Hedef", "Sonuç", "Not"],
-            "rows": [
-              ["LCP", "TBD", "< 2.5s", "TBD", "Hero + cache"],
-              ["CLS", "TBD", "< 0.1", "TBD", "Header/modül/font"],
-              ["INP", "TBD", "< 200ms", "TBD", "Script/bundle"]
-            ]
-          },
-          { "type": "h3", "text": "E) Deliverables Listesi" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Ölçüm raporu (field + lab)",
-              "Şablon bazlı CWV kök neden analizi",
-              "14 günlük sprint görev listesi",
-              "Öncesi/sonrası KPI karşılaştırması",
-              "“Kalıcı izleme” önerisi (RUM/CrUX)"
-            ]
-          },
-          {"type":"media", "slot":"optimization-layers"},
-          {
-            "type": "callout",
-            "variant": "note",
-            "title": "Buraya",
-            "items": [
-              "Asset PDF kapak görseli + 1 sayfa “özet tablo” mockup."
-            ]
-          }
-        ]
-      },
+}  
       
-      {
-        "id": "seo-100-checklist",
-        "title": "SEO 100 Checklist (On-Page + SXO + Media + Teknik)",
-        "blocks": [
-          { "type": "h3", "text": "6.1 On-Page & İçerik" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "H1, Title ve meta description primary keyword ile uyumlu",
-              "LCP/CLS/INP tanımları otel + Next.js bağlamında net",
-              "AEO için en az 2 soru-cevap blok (CWV nedir? / Sıra nasıl?)",
-              "Entity Theme (CWV, LCP, CLS, INP, Next.js) doğal ve dengeli dağıtıldı",
-              "Semantic Theme (page experience, performance optimisation) içerikte görünür",
-              "PAA soruları ile FAQ semantik olarak genişletildi",
-              "“Ne yapmalıyım?” aksiyon listeleri her ana bölüm sonunda var"
-            ]
-          },
-          { "type": "h3", "text": "6.2 SXO & UX" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "İçerik akışı “ölç → teşhis → öncelik → sprint” mantığında",
-              "Teknik terimler karar vericiye sade anlatıldı",
-              "Kısa checklist’ler ve tablo formatları ile okunabilirlik yüksek",
-              "CTA yerleşimi intent kuralına uygun (Primary 2, Secondary 1)",
-              "Mobil kullanıcı senaryosu (menü/takvim/CTA) özellikle ele alındı"
-            ]
-          },
-          { "type": "h3", "text": "6.3 Media & Snippet" },
-          { "type": "media", "slot": "after-delivery-list" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "CWV örnek rapor ekranı için “Buraya” notu var",
-              "Öncesi/sonrası LCP-CLS karşılaştırma tablosu planlandı",
-              "INP etkileşim örneği için kısa ekran kaydı/GIF önerildi",
-              "Featured Snippet hedefli kısa tanım blokları içerikte mevcut"
-            ]
-          },
-          { "type": "h3", "text": "6.4 Teknik SEO" },
-          {
-            "type": "list",
-            "style": "ul",
-            "items": [
-              "Canonical/URL yapısı net (blog URL doğru)",
-              "Internal link targets 3 adet ve bağlama uygun",
-              "Schema planı: WebSite, WebPage, Article, BreadcrumbList, FAQPage (+ speakable)",
-              "Görsel ve font optimizasyon notları CLS/LCP ile tutarlı",
-              "Refresh cycle (365 gün) notu içerikte karşılandı (güncellenecek hedefler/ekranlar)"
-            ]
-          }
-        ]
-      }
     ],
     "faq": [
       {
@@ -29084,7 +28907,7 @@
       "note": "Bu alan ekip içi/teknik. UI’da gösterilmez. Bölüm 6 SEO 100 Checklist sayfaya bastırılmadı; sadece burada referans olarak tutulur.",
       "mediaPack": [
         "hero-01 (hero/cover) — 1920×1080 — 4-dilli-cagri-merkezi-hero-01.webp",
-        "diagram-01 (mimari şema) — 1920×1080 — 4-dilli-cagri-merkezi-mimari-01.webp",
+        "architectural-map (mimari şema) — 1920×1080 — 4-dilli-cagri-merkezi-mimari-01.webp",
         "map-02 (pazar haritası) — 1600×1200 — tr-en-de-ru-pazar-haritasi-02.webp",
         "flow-03 (kanal akış diyagramı) — 1920×1080 — kanal-akis-yk-03.webp",
         "icons-04 (kullanım senaryoları ikon seti) — 1600×1200 — senaryolar-ikon-04.webp",
@@ -29697,7 +29520,7 @@
 "BlogLookerStudioOtellerIcinNedirNasilCalisir": {
     "title": "Looker Studio: Türkiye Otelleri KPI Dashboard | DGTLFACE",
     "slug": "looker-studio-oteller-icin-nedir-nasil-calisir",
-    "department": "veri-analizi",
+    "department": "veri-analizi-raporlama",
     "updatedAt": "9 Ocak 2026",
     "publishedAt": "2026-01-09",
     "readingTime": "11 dk okuma",
@@ -30633,6 +30456,2395 @@
           "İç link: blog → hub sayfa otorite taşıma kuralı uygulanıyor",
           "Next.js: dinamik route kural seti, parametreli sayfalar için indeks stratejisi",
           "Kopya/kanibalizasyon: aynı niyeti taşıyan sayfalar farklı URL’lerle çoğaltılmıyor"
+        ]
+      }
+    }
+  },
+
+   "BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur": {
+    "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur? | DGTLFACE",
+    "slug": "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur",
+    "department": "smm",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Aylık içerik takvimiyle kanal–format–konu–pillar planını netleştirin. Otel ve B2B için örnek tablo, onay akışı ve performansla revizyon modeli.",
+    "seo": {
+      "metaTitle": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur? | DGTLFACE",
+      "metaDescription": "Aylık içerik takvimiyle kanal–format–konu–pillar planını netleştirin. Otel ve B2B için örnek tablo, onay akışı ve performansla revizyon modeli."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2200–2700",
+        "Canonical: /tr/smm/blog/aylik-sosyal-medya-icerik-takvimi-nasil-kurulur"
+      ],
+      "strategySummary": "Bu içerik, SMM silo’sunda “İçerik Üretimi” hizmet sayfasını besleyen uygulama odaklı core child içeriktir; okuyucuyu “son dakika paylaşım” döngüsünden çıkarıp aylık plan + operasyon disiplinine taşır. Hedef persona; otel GM/satış–pazarlama müdürü ve ajans yöneticisidir: “kim, neyi, ne zaman üretecek?” sorusunu standartlaştırmak ister. Funnel’da ağırlıkla Consideration (MoFu): kullanıcı sistem kurmak ister, şablon ve süreç ihtiyacı belirginleşir. Ana iş sorusu: “Aylık içerik takvimini hangi sütunlarla kurarım, onay/revizyonu nasıl yönetirim ve performans verisiyle takvimi nasıl beslerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "8 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Aylık sosyal medya içerik takvimi; “hangi gün, hangi kanalda, hangi format ve konu yayınlanacak?” sorusunu en baştan netleştirerek üretimi son dakika stresinden çıkarır. Takvimde tarih, kanal, format, konu, content pillar ve dil alanları; brief–tasarım–onay–yayın durumlarıyla birlikte yönetilmelidir. Otel ve B2B markalar sezon/kampanya yoğunluğuna göre esnek ama planlı akış kurar; performans raporlarıyla takvim her ay revize edilir.",
+      "sgeSummary": "Aylık içerik takvimi; tarih–kanal–format–konu–pillar–dil sütunlarıyla kurulur. Durum akışı (brief/tasarım/onay/yayın) eklenir. Otel/B2B için örnek plan yap, performansla revize et.",
+      "voiceAnswer": "Aylık içerik planı, sütunları doğru kurup onay akışı ekleyerek ve performansla revize edilerek yapılır.",
+      "aiFactSheet": [
+        "Hedef kitle: Türkiye geneli otel/destinasyon ve B2B sosyal medya ekipleri; Antalya, Belek, Side, Kemer, Bodrum örnekleri.",
+        "KPI’lar: yayın tutarlılığı, üretim hızı, son dakika iptali, erişim/etkileşim, link tıklaması, DM/lead.",
+        "Model: tarih + kanal + format + konu + pillar + dil → durum akışı → yayın → raporlama → revizyon.",
+        "Entity’ler: content calendar, approval workflow, status tracking, content pillar, A/B test, reporting loop.",
+        "Funnel: Awareness/Consideration/Conversion içerikleri takvim içinde dengelenir.",
+        "Operasyon: sorumlular, SLA’lar ve revizyon sayısı standardize edilirse gecikme azalır.",
+        "Gözlem: editoryal takvim kullanan hesaplarda “son dakika iptali” ve yetiştirememe daha az görülür (sheet notu)."
+      ]
+    },
+    "h1": {
+      "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+      "intro": "Sosyal medya üretiminde en pahalı şey “fazla iş” değil; plansızlık yüzünden tekrar iş üretmektir. Bugün çekilen içerik yarın kampanya değiştiği için çöpe gider; tasarım revizyonu uzar; onay beklerken yayın günü kaçar. Bu döngüyü kıran en pratik sistem: aylık içerik takvimi + durum akışı + raporlamayla beslenen revizyon döngüsüdür.\n\nBu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım.\nBuraya: İç link merkezi — /tr/smm/icerik-uretimi",
+      "ctaPrimary": {
+        "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
+        "text": "Ekibinizin üretim kapasitesine göre sütun yapısı, onay akışı ve aylık ritmi netleştirmek isteyen otel/B2B ekipleri için. (Hedef: /tr/smm/icerik-uretimi)",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
+        "text": "Üretim ritmini, sütun setini ve onay akışını 30 günde netleştirmek isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir",
+        "text": "Durum akışıyla takibi kolaylaştırır; ay boyunca üretimi son dakika kaosundan çıkarır.",
+        "href": "/download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" },
+      { "label": "Planlama & Strateji", "href": "/smm/planlama-strateji" },
+      { "label": "Analiz & Raporlama", "href": "/smm/analiz-raporlama" }
+    ],
+    "sections": [
+      {
+        "id": "h1-giris",
+        "title": "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal medya üretiminde en pahalı şey “fazla iş” değil; plansızlık yüzünden tekrar iş üretmektir. Bugün çekilen içerik yarın kampanya değiştiği için çöpe gider; tasarım revizyonu uzar; onay beklerken yayın günü kaçar. Bu döngüyü kıran en pratik sistem: aylık içerik takvimi + durum akışı + raporlamayla beslenen revizyon döngüsüdür."
+          },
+          {
+            "type": "p",
+            "text": "Bu rehberde; takvimin hangi sütunlarla kurulacağını, otel ve B2B markalar için örnek ritmi, onay–revizyon akışını ve performans verisiyle takvimi nasıl güncelleyeceğinizi adım adım anlatacağım.\nBuraya: İç link merkezi — /tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
+            "text": "Ekibinizin üretim kapasitesine göre sütun yapısı, onay akışı ve aylık ritmi netleştirmek isteyen otel/B2B ekipleri için. (Hedef: /tr/smm/icerik-uretimi)",
+            "href": "/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "takvim-nedir-neyi-cozer",
+        "title": "Aylık İçerik Takvimi Nedir ve Neyi Çözer?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aylık içerik takvimi; 30 günlük dönem için “ne, nerede, nasıl, kimle” sorularını tek tabloda birleştirir:\n\t•\tNe? (Konu/mesaj)\n\t•\tNerede? (Kanal: Instagram, TikTok, LinkedIn, X, YouTube Shorts vb.)\n\t•\tNasıl? (Format: reels, story, carousel, post, video)\n\t•\tKimle? (sorumlu kişi/ekip)\n\t•\tNe zaman? (tarih/saat)"
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında takvim; sezon, doluluk, kampanya ve deneyim yoğunluğu ile birlikte yürür. B2B tarafında ise “case/know-how/offer” dengesini koruyarak pipeline’ı besler. Türkiye geneli çalışan markalarda (özellikle destinasyon odaklı otellerde) bu sistem, yoğun haftalarda bile yayın tutarlılığını korumanın en kısa yoludur."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 30 günde kaç içerik “son dakika” çıktı?",
+              "Kaç içerik onay beklerken yayın gününü kaçırdı?",
+              "Kaç içerik revizyonla tekrar tasarıma döndü?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "monthly-smm"
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aylık takvimi “yayın listesi” değil, operasyon panosu gibi tasarla.",
+              "İçeriğin durumunu (brief/tasarım/onay/yayın) mutlaka takip et.",
+              "Ay sonunda raporla → bir sonraki ayın planını güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sutunlar-neler-olmali",
+        "title": "İçerik takviminde hangi sütunlar olmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: Minimumda Tarih, Kanal, Format, Konu, Pillar, Dil; operasyonda ise Durum, Sorumlu, Onaylayan, Son teslim tarihi, KPI hedefi sütunları olmalı."
+          },
+          { "type": "h3", "text": "Minimum (çekirdek) sütun seti" },
+          {
+            "type": "p",
+            "text": "Aşağıdaki 6 sütun, takvimi “plan” haline getirir:\n\t1.\tTarih / Saat\n\t2.\tKanal (IG/TT/LI/X/YT)\n\t3.\tFormat (Reels/Story/Carousel/Post/Video)\n\t4.\tKonu / Mesaj (1 cümle net)\n\t5.\tContent Pillar (kategori)\n\t6.\tDil (TR/EN/DE/RU gibi) (Varsayım: çoklu dil varsa)"
+          },
+          {
+            "type": "media",
+            "slot": "sheets-excel"
+          },
+          { "type": "h3", "text": "Operasyon (üretim) sütunları: gecikmeyi azaltan set" },
+          {
+            "type": "p",
+            "text": "Üretim kaosunu bitiren kısım burası:\n\t•\tDurum: Brief → Tasarım → Revizyon → Onay → Planlandı → Yayında\n\t•\tSorumlu: metin/tasarım/video (tek kişi değil, rol bazlı)\n\t•\tOnaylayan: marka sahibi/GM/marketing lead/ajans AM\n\t•\tSon Teslim: yayın tarihinden X gün önce (SLA)\n\t•\tAsset Link: Drive/Dropbox/Notion linki (Varsayım)\n\t•\tKampanya Etiketi: sezon/kampanya adı\n\t•\tHedef KPI: (reach / ER / link click / DM)\n\t•\tNotlar: çekim lokasyonu, görsel ihtiyacı, legal uyarı vb."
+          },
+          { "type": "h3", "text": "B2B ve otel için önerilen ek sütunlar (pratik)" },
+          {
+            "type": "p",
+            "text": "\t•\tB2B: Funnel aşaması (ToFu/MoFu/BoFu), CTA türü (Link/DM/Yorum)\n\t•\tOtel: konsept/deneyim alanı (spa, beach, kids, gastronomi), destinasyon etiketi (Antalya/Belek/Side/Kemer/Bodrum)"
+          },
+          {
+            "type": "media",
+            "slot": "excel-view"
+          },
+          { "type": "h3", "text": "☑ Mini Check:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Konu” sütunu 1 cümle ve tek mesaj mı?",
+              "“Pillar” sütunu yoksa feed dağınıklaşıyor mu?",
+              "Durum sütunu yoksa üretim nerede takılıyor anlaşılmıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Çekirdeği 6 sütunla kur, sonra operasyon sütunlarını ekle.",
+              "Durum sütununu “tek doğru kaynak” yap (WhatsApp’tan takip etme).",
+              "KPI hedefini satır bazında yaz; ay sonunda rapor okumak kolaylaşır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-ritim",
+        "title": "Otel ve B2B Markalar İçin Örnek Aylık Takvim (Ritim + Dağılım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takvim kurarken hedef “her gün içerik” değil; sürdürülebilir ritimdir. Aşağıdaki örnekler, Intermediate seviye ekipler için gerçekçidir."
+          },
+          { "type": "h3", "text": "Otel için örnek haftalık yayın ritmi (Varsayım)" },
+          {
+            "type": "p",
+            "text": "\t•\tReels/Shorts: 2–3 / hafta (deneyim, destinasyon, kulis)\n\t•\tStory: 4–6 gün / hafta (anket, soru kutusu, repost, mini duyuru)\n\t•\tCarousel: 1–2 / hafta (SSS, oda/konsept açıklaması, rota)\n\t•\tPost: 1 / hafta (kampanya, net teklif, brand message)"
+          },
+          {
+            "type": "media",
+            "slot": "hotel-weekly"
+          },
+          { "type": "h3", "text": "B2B için örnek haftalık yayın ritmi (Varsayım)" },
+          {
+            "type": "p",
+            "text": "\t•\tCarousel: 2 / hafta (know-how + mini rehber)\n\t•\tReels/Video: 1–2 / hafta (kısa içgörü, “3 hata”, mini vaka)\n\t•\tPost: 1 / hafta (offer / net CTA / duyuru)\n\t•\tStory: 3–5 gün / hafta (kulis, ekip, anket, “soru”)"
+          },
+          { "type": "h3", "text": "Çoklu dil + çoklu kanal yönetimi (kritik pratik)" },
+          {
+            "type": "p",
+            "text": "Çoklu dil (TR/EN/DE/RU) veya çoklu kanal varsa tek satırda boğulmayın:\n\t•\tAynı içeriği “Master Content ID” ile bağlayın (Varsayım)\n\t•\tDil varyantlarını ayrı satır yapın (Dil sütunuyla)\n\t•\tKanal kırılımını (IG/LI) ayrı satır yapın (Kanal sütunuyla)\nBöylece “aynı içerik” farklı kanalda farklı formatla yönetilebilir."
+          },
+          { "type": "h3", "text": "☑ Mini Check:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı içeriğin farklı dillerde kim tarafından çevrildiği belli mi?",
+              "Aynı gün aynı kanalda “birbiriyle çakışan” içerik var mı?",
+              "Otel içeriklerinde destinasyon geçişleri doğal mı (spam değil)?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Ritim”i ekibin üretim kapasitesine göre seç.",
+              "Her hafta en az 1 sosyal kanıt + 1 bilgilendirici + 1 satış içeriği dengesini koru.",
+              "Otelde sezon yoğunluğunda story ağırlığını artır, reels’i “hazır havuz”dan besle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "revizyon-onay-sureci",
+        "title": "Revizyon ve Onay Süreci Nasıl Yönetilir? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: Takvimde “Durum + Son Teslim + Onaylayan” alanlarını zorunlu tut ve revizyon sayısını baştan sınırla; böylece yayın günü sürpriz olmaz."
+          },
+          { "type": "h3", "text": "Durum akışı (brief → tasarım → onay → yayın)" },
+          {
+            "type": "p",
+            "text": "Önerilen temel akış:\n\t1.\tBrief hazır (metin/amaç net)\n\t2.\tTasarım/kurgu (görsel/video üretimi)\n\t3.\tRevizyon (limitli: 1–2 tur)\n\t4.\tOnay (tek karar verici)\n\t5.\tPlanlandı (yayın saati net)\n\t6.\tYayında (link/UTM/kayıt)"
+          },
+          { "type": "media", "slot": "content-status-flow" },
+          { "type": "h3", "text": "SLA (son teslim) kuralı: gecikmeyi bitiren pratik" },
+          {
+            "type": "p",
+            "text": "\t•\tReels/Video: yayın tarihinden 3–5 gün önce “final cut”\n\t•\tCarousel/Post: yayın tarihinden 2 gün önce final tasarım\n\t•\tStory: yayın gününden en geç 12–24 saat önce (istisna: canlı anlar)"
+          },
+          { "type": "h3", "text": "Revizyonu kontrol altında tutan 3 kural" },
+          {
+            "type": "p",
+            "text": "\t1.\tTek onaylayan (multi-stakeholder kaosu yok)\n\t2.\tRevizyon limiti (1–2 tur)\n\t3.\tBrief netliği (mesaj tek cümle)"
+          },
+          { "type": "media", "slot": "flow" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir",
+            "text": "Aynı tabloyu ekibinize görev listesi gibi verin; durum akışıyla “nerede takıldık?” sorusunu 1 dakikada görürsünüz. (Hedef: /tr/smm/planlama-strateji)",
+            "href": "/download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "raporlama-ile-besleme",
+        "title": "Raporlama ile Takvimi Beslemek (A/B Test + Revizyon Döngüsü)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aylık takvim “bir kere yap, unut” değildir. Asıl değer; raporlamanın takvime geri akmasıdır. Aynı takvim yapısı performans verileriyle eşleştiğinde; hangi gün/format/pillar kombinasyonunun daha iyi çalıştığı kolayca görünür (sheet notu)."
+          },
+          { "type": "h3", "text": "Takvimde raporlamaya bağlanacak alanlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik ID / URL",
+              "KPI sonuçları (reach, ER, clicks, DM)",
+              "Not (neden iyi/kötü?)",
+              "Sonraki ay kararı (aynıla / geliştir / kaldır)"
+            ]
+          },
+          { "type": "media", "slot": "kpi-column-example-calendar" },
+          { "type": "h3", "text": "Basit A/B test mantığı (taktik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı pillar içinde iki farklı hook dene (başlık/ilk 2 saniye)",
+              "Aynı konu farklı formatta dene (carousel vs reels)",
+              "Aynı offer farklı CTA ile dene (DM vs link)"
+            ]
+          },
+          { "type": "h3", "text": "Aylık revizyon toplantısı (30 dakika şablon)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "En iyi 5 içerik: ortak payda ne?",
+              "En kötü 5 içerik: kopan halka ne?",
+              "Sonraki ay: hangi pillar % artırılacak?",
+              "Operasyon: nerede tıkandık (durum sütunu verisi)?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ay sonu “pillar bazlı” rapor çıkar (sadece post bazlı değil).",
+              "Takvim şablonuna gerekirse yeni sütun ekle (kampanya etiketi, hedef KPI).",
+              "Bir sonraki ayın ilk haftasını “öğrenime göre” güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "minimum-20-checklist",
+        "title": "İlk Ay için Minimum 20 İçerik Planı Checklist’i",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "20 satır içerik planlandı (tarih/kanal/format/konu/pillar/dil dolu)",
+              "Haftada min: 2 reels/video, 1 carousel, 1 satış/offer içeriği var (Varsayım: genel ritim)",
+              "4 içerik sosyal kanıt (yorum/UGC/case)",
+              "4 içerik bilgilendirici (mini rehber/SSS)",
+              "2 içerik “kampanya/teklif” net CTA",
+              "Durum sütunu aktif (brief→tasarım→onay→yayın)",
+              "Sorumlu + onaylayan alanları dolu",
+              "KPI hedefi satır bazında yazıldı",
+              "Ay sonu revizyon toplantısı tarihi belirlendi",
+              "İç link ve süreç sayfalarıyla uyum kontrol edildi (/tr/smm/planlama-strateji, /tr/smm/analiz-raporlama)"
+            ]
+          },
+           { "type": "media", "slot": "checklist" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aylık içerik takvimi; hem otelleri (sezon/kampanya yoğunluğu) hem de B2B markaları (know-how + kanıt + offer dengesi) “son dakika” döngüsünden çıkarır. Takvimde doğru sütunlar, net durum akışı ve ay sonu raporlamayla beslenen revizyon modeli kurulduğunda; yayın tutarlılığı artar, revizyon azalır, ekip daha hızlı üretir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
+            "text": "Mevcut üretim kapasitenize göre takvim sütun setini, onay SLA’larını ve aylık ritmi birlikte standardize edelim. (Hedef: /tr/smm/icerik-uretimi)",
+            "href": "/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "smm-download-asset",
+        "title": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir — SMM / Monthly Plan",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir — SMM / Monthly Plan (v1.0)",
+            "purpose": "Bu şablon; aylık içerik planınızı tarih–kanal–format–konu–pillar–dil çekirdeğiyle kurmanızı ve üretimi brief/tasarım/onay/yayın durumlarıyla takip etmenizi sağlar. Otel ve B2B ekiplerinde gecikme ve son dakika iptallerini azaltır; ay sonunda raporlamayla takvimi revize etmeyi kolaylaştırır.",
+            "whoFor": "Otel satış–pazarlama ekipleri, sosyal medya yöneticileri, ajans içerik ekipleri, marka yöneticileri.",
+            "steps": [
+              "Çekirdek sütunları doldur (30 gün için 20+ içerik).",
+              "Durum akışı + sorumlu/onaylayan alanlarını aktif kullan (SLA koy).",
+              "Ay sonunda KPI sonuçlarını işle, sonraki ay sütun/ritim revizyonu yap."
+            ],
+            "template": {
+              "A_Bos_Sablon_Alanlari": {
+                "1_Ust_Bilgi_Setup": [
+                  "Marka / Hesap: __________",
+                  "Sektör: (Otel / B2B / Diğer) __________",
+                  "Dönem: (Ay/Yıl) __________",
+                  "Hedef KPI seti (3–5): __________",
+                  "Kanal seti: (IG/TT/LI/X/YT) __________",
+                  "Dil seti: (TR/EN/DE/RU) __________ (Varsayım: çoklu dil varsa)"
+                ],
+                "2_Icerik_Takvimi_Tablo_30_satir_oneri": [
+                  "Tarih: ___",
+                  "Saat: ___",
+                  "Kanal: ___",
+                  "Format: ___",
+                  "Konu/Mesaj (1 cümle): ___",
+                  "Content Pillar: ___",
+                  "Dil: ___",
+                  "Funnel (ToFu/MoFu/BoFu): ___ (Varsayım: B2B’de önerilir)",
+                  "Kampanya Etiketi: ___",
+                  "CTA Türü (Link/DM/Yorum/Kaydet): ___",
+                  "Hedef KPI: ___",
+                  "Durum (Brief/Tasarım/Revizyon/Onay/Planlandı/Yayında): ___",
+                  "Sorumlu (Metin/Tasarım/Video): ___",
+                  "Onaylayan: ___",
+                  "Son Teslim (SLA): ___",
+                  "Asset Link: ___ (Drive/Notion/Dropbox – Varsayım)",
+                  "Not: ___"
+                ],
+                "3_Haftalik_Ritim_Ozeti": [
+                  "Haftalık içerik adedi: ___",
+                  "Reels/Video: ___ | Carousel: ___ | Post: ___ | Story gün sayısı: ___",
+                  "“Minimum 20 içerik” hedefi: (Evet/Hayır) ___"
+                ],
+                "4_Ay_Sonu_Raporlama_Alani": [
+                  "En iyi 5 içerik (ID + sebep): __________",
+                  "En zayıf 5 içerik (ID + sebep): __________",
+                  "En iyi çalışan pillar: __________",
+                  "En iyi çalışan format: __________",
+                  "Sonraki ay revizyon kararı (3 madde): __________"
+                ],
+                "Buraya": "Google Sheets’te örnek şablon ekran görüntüsü + filtrelenebilir başlık satırı"
+              },
+              "B_Nasil_doldurulur_5_kural": [
+                "“Konu” alanını tek cümle yaz; iki mesajı aynı satıra koyma.",
+                "Durum sütununu zorunlu yap; ekip WhatsApp’tan değil buradan takip etsin.",
+                "Reels/Video için SLA’yı daha erken koy (3–5 gün); story’yi daha esnek bırak.",
+                "Revizyonu 1–2 turla sınırla; tek onaylayan belirle.",
+                "Ay sonunda KPI’yı satır bazında işle; bir sonraki ayı “öğrenime göre” güncelle."
+              ],
+              "C_Doldurulmus_1_Ornek_kisa": {
+                "Marka": "Antalya’da resort otel (Varsayım)",
+                "Hedef": "DM + web tıklaması + rezervasyon güveni",
+                "Kanal": "Instagram + TikTok (Varsayım)",
+                "Dil": "TR + EN (Varsayım)",
+                "Ornek_satir": [
+                  "Tarih: 12/03 | Saat: 20:30 | Kanal: IG | Format: Carousel",
+                  "Konu: “Rezervasyon öncesi en çok sorulan 5 soru”",
+                  "Pillar: SSS & Güven | Dil: TR | CTA: DM | KPI: Kaydetme + DM",
+                  "Durum: Onay | Sorumlu: Tasarım | Onaylayan: Marketing Lead",
+                  "Son Teslim: 10/03 | Not: “Çocuk politikası + iptal koşulu slaytı ekle”"
+                ]
+              },
+              "D_Kontrol_listesi": [
+                "20+ içerik satırı dolu mu?",
+                "Tarih–kanal–format–konu–pillar–dil çekirdeği her satırda var mı?",
+                "Durum + sorumlu + onaylayan alanları dolu mu?",
+                "SLA’lar yayın tarihinden önce mi?",
+                "KPI hedefi satır bazında yazıldı mı?",
+                "Ay sonu rapor alanı boş bırakılmadı mı?"
+              ],
+              "E_Deliverables": [
+                "Aylık içerik takvimi (30 gün)",
+                "Durum akışı + SLA kurgusu",
+                "KPI’lı ay sonu rapor alanı",
+                "Buraya: Durum akışı (flow) diyagramı görseli + örnek filtre görünümü"
+              ]
+            },
+            "href": "/downloads/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Aylık sosyal medya içerik takvimi nasıl hazırlanır?",
+        "a": "Önce çekirdek sütunları (tarih, kanal, format, konu, pillar, dil) kurun. Sonra durum akışı ve sorumlulukları ekleyin; ay sonunda KPI sonuçlarıyla takvimi revize edin."
+      },
+      {
+        "q": "İçerik takviminde hangi sütunlar olmalı?",
+        "a": "Minimumda tarih–kanal–format–konu–pillar–dil olmalı. Operasyon için durum, sorumlu, onaylayan, son teslim ve hedef KPI sütunları eklenmelidir."
+      },
+      {
+        "q": "Otel ve B2B markalar için yayın sıklığı ne olmalı?",
+        "a": "Tek doğru yok; kapasiteye göre sürdürülebilir ritim seçilir. Otelde story daha sık, B2B’de carousel/know-how daha güçlü olabilir; 30 gün test edip optimize edin."
+      },
+      {
+        "q": "Takvimi performansa göre nasıl revize ederim?",
+        "a": "Ay sonunda en iyi/en kötü içerikleri çıkarın; hangi pillar/format kombinasyonu çalıştı görün. Sonraki ay oranları ve konu havuzunu bu öğrenime göre güncelleyin."
+      },
+      {
+        "q": "Onay süreci nasıl yönetilir?",
+        "a": "Takvimde tek onaylayan belirleyin ve revizyon turunu sınırlandırın. SLA ile içeriklerin yayın gününden önce finalleşmesini zorunlu kılın."
+      },
+      {
+        "q": "Çoklu dil içerik planı takvimde nasıl gösterilir?",
+        "a": "Dil sütunu ekleyip her dil varyantını ayrı satır olarak planlayın. Aynı içeriği “ID” ile bağlamak takip ve ölçümü kolaylaştırır (Varsayım)."
+      },
+      {
+        "q": "“Son dakika paylaşım” stresi nasıl biter?",
+        "a": "Durum akışı + son teslim kuralı koyup takvimi tek doğru kaynak yapın. Üretim tıkanıklıkları görünür olur ve önceden çözülür."
+      },
+      {
+        "q": "İçerik iptalleri neden azalır?",
+        "a": "Çünkü plan netleşince çekim/tasarım/onay sırası standardize olur. Takvim kullanan ekiplerde yetiştirememe ve iptal problemi belirgin şekilde azalır (sheet gözlemi)."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "ctaSpec": {
+          "4_5_1_CTA_Kaynak_Kurali": [
+            "Primary CTA (sheet): Aylık İçerik Takvimi & Operasyon Analizi Talep Et",
+            "Secondary CTA (sheet): Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir"
+          ],
+          "4_5_2_CTA_Tur_Siniflandirmasi": "Secondary CTA: Download Asset (Template/Şablon)",
+          "4_5_3_CTA_Yogunlugu": [
+            "Intent: Informational + Tactical (MoFu)",
+            "Primary CTA: 2 kez (H1 giriş sonunda + Son 1/3’te)",
+            "Secondary CTA: 1 kez (orta bölüm / operasyon akışı sonrası)"
+          ],
+          "4_5_4_CTA_Yazim_Sablonu": [
+            "CTA (Primary): Aylık İçerik Takvimi & Operasyon Analizi Talep Et — Üretim ritmini, sütun setini ve onay akışını 30 günde netleştirmek isteyen ekipler için.",
+            "CTA (Secondary): Aylık Sosyal Medya İçerik Takvimi Şablonunu İndir — “Durum akışıyla takibi kolaylaştırır; ay boyunca üretimi son dakika kaosundan çıkarır.”"
+          ],
+          "4_5_5_Internal_Link_Targets": [
+            "/tr/smm/icerik-uretimi",
+            "/download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
+            "/tr/smm/analiz-raporlama"
+          ],
+          "placementNotes": [
+            "Primary CTA → /tr/smm/icerik-uretimi",
+            "Secondary CTA → /download/aylik-sosyal-medya-icerik-takvimi-sablonu-v1.0.pdf",
+            "Raporlama bağlantısı içerik içinde → /tr/smm/analiz-raporlama"
+          ]
+        },
+        "mediaPack": [
+          "sheets-excel — Örnek Google Sheets/Excel tablo görseli (başlık satırı + 3 örnek satır)",
+          "hotel-weekly — Aylık dağılım diyagramı (haftalara bölünmüş)",
+          "content-status-flow — İçerik durumu flow diyagramı (brief/tasarım/onay/yayın)",
+          "kpi-column-example-calendar — KPI sütunu örnekli takvim ekran görüntüsü",
+          "asset-template-preview — Google Sheets şablon ekran görüntüsü + filtrelenebilir başlık satırı",
+          "asset-flow-proof — Durum akışı (flow) diyagramı görseli + örnek filtre görünümü"
+        ],
+        "technicalChecklist": [
+          "Takvim çekirdek sütunları: tarih, kanal, format, konu, pillar, dil",
+          "Operasyon sütunları: durum, sorumlu, onaylayan, son teslim (SLA), asset link",
+          "Revizyon yönetimi: tek onaylayan + 1–2 tur revizyon limiti + brief netliği",
+          "Raporlama döngüsü: ay sonu KPI sonuçları takvime geri yazılır",
+          "A/B test: hook/format/CTA varyasyonlarıyla aylık öğrenim çıkarılır",
+          "İç link uyumu: /tr/smm/icerik-uretimi, /tr/smm/planlama-strateji, /tr/smm/analiz-raporlama"
+        ]
+      }
+    }
+  },
+
+   "BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur": {
+    "title": "Next.js Kurumsal Site Mimarisi Nasıl Kurulur? | DGTLFACE",
+    "slug": "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur",
+    "department": "yazilim",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Next.js’te SSR/SSG/ISR kararını, /[locale]/ route mimarisini ve PMS/CRM/CMS entegrasyonlarını doğru planlayın. Otel & B2B için ölçeklenebilir yapı.",
+    "seo": {
+      "metaTitle": "Next.js Kurumsal Site Mimarisi Nasıl Kurulur? | DGTLFACE",
+      "metaDescription": "Next.js’te SSR/SSG/ISR kararını, /[locale]/ route mimarisini ve PMS/CRM/CMS entegrasyonlarını doğru planlayın. Otel & B2B için ölçeklenebilir yapı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (MoFu)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur"
+      ],
+      "strategySummary": "Bu içerik, “Web Sitesi Geliştirme” hizmet sayfasını teknik otoriteyle besleyen core child rolündedir: Next.js’i “sadece framework” değil, kurumsal mimari karar sistemi olarak konumlandırır. Funnel’da consideration aşamasını güçlendirir; ajans ve marka tarafında “SSR mi SSG mi, URL ve locale stratejisi nasıl olmalı, entegrasyonlar nasıl ölçeklenir?” gibi kararları netleştirir. Ana iş sorusu: Next.js’te doğru render stratejisi + URL/route mimarisi + entegrasyon planı ile performans/SEO avantajını nasıl korurum? Otel projelerinde rezervasyon/oda/fiyat gibi dinamik katmanlar; B2B’de lead + CMS/CRM ölçeği bu mimarinin test alanıdır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Next.js, kurumsal web sitelerinde hız ve SEO avantajı sağlar; fakat mimari kararlar yanlışsa bu avantaj hızla kaybolur. Doğru yaklaşım; SSR/SSG/ISR seçimlerini sayfa tipine göre yapmak, /[locale]/ gibi net bir URL/route hiyerarşisi kurmak, layout–shared component–design system yapısını ölçeklenebilir tasarlamak ve PMS/CRM/CMS gibi entegrasyonları baştan modellemektir. Otel ve B2B projelerinde bu mimari, performans ve geliştirme hızını belirler.",
+      "sgeSummary": "Next.js kurumsal site mimarisinde kritik üç karar: SSR/SSG/ISR seçimi, /[locale]/ route–URL hiyerarşisi ve PMS/CRM/CMS entegrasyon modeli. Bu üçü doğruysa hız ve SEO korunur.",
+      "voiceAnswer": "Kurumsal Next.js mimarisi için render stratejisini seçin, URL/locale yapısını netleştirin, entegrasyonları modelleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans teknik lideri, ürün/IT, pazarlama yöneticisi, otel/B2B marka sahibi",
+        "KPI: CWV (LCP/INP/CLS), indexlenme hızı, sayfa üretim hızı, deploy hatası, geliştirme sprint hızı",
+        "Entity set: Next.js, App Router, SSR/SSG/ISR, routing, layouts, server components, CMS/CRM/PMS, caching, CDN",
+        "Funnel: MoFu (stratejik karar) → CTA ile mimari analiz/karar checklist’i",
+        "Risk alanları: Yanlış render seçimi, URL karmaşası, çok dil hreflang uyumsuzluğu, entegrasyonların “sonradan” eklenmesi",
+        "GEO bağlamı: Türkiye; otel destinasyon sayfaları (Antalya/Belek/Side/Kemer/Bodrum) + B2B servis sayfaları",
+        "Çıktı formatı: Mimari diyagram + karşılaştırma tablosu + “mimari karar checklist’i”"
+      ]
+    },
+    "h1": {
+      "title": "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?",
+      "intro": "Next.js, kurumsal web sitelerinde “hız + SEO + modern geliştirme deneyimi” üçlüsünü aynı potada toplar. Ancak Next.js’i sadece proje başlatıp birkaç sayfa yazmak olarak görmek, en büyük hatadır: asıl değer, mimari kararların doğru verilmesinde ortaya çıkar. SSR/SSG/ISR seçimleri, URL/route hiyerarşisi, locale stratejisi ve PMS/CRM/CMS gibi entegrasyonların baştan modellenmesi; otel ve B2B projelerinde hem performansı hem de ölçeklenebilirliği belirler. Bu rehber, karar noktalarını netleştirip “kurumsal ölçekte” uygulanabilir bir mimari şablon sunar.",
+      "quickSummary": [
+        "1) Sayfaları tipe göre sınıflandır (blog/hizmet/landing/dinamik akış)",
+        "2) Sayfa tipine göre SSR/SSG/ISR kararını ver",
+        "3) /[locale]/ route–URL hiyerarşisini netleştir",
+        "4) Layout + shared components + design system’i standarda bağla",
+        "5) CMS/CRM/PMS entegrasyonlarını baştan modelle ve KPI’larla ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Next.js Kurumsal Site Mimari Analizi Talep Et",
+        "text": "Otel ve B2B projeniz için render stratejisi, URL/locale ve entegrasyon modelini birlikte netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Next.js Kurumsal Site Mimari Analizi Talep Et",
+        "text": "Projenize özel SSR/SSG/ISR karar matrisi, route standardı ve entegrasyon planını birlikte netleştirelim (otel & B2B için).",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir",
+        "text": "Teknik ekip ve iş tarafı aynı masada 20 dakikada kararları netleştirir; yanlış render/URL seçimi riskini düşürür.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      { "label": "Web Sitesi Geliştirme (Hub)", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "label": "Teknik SEO rehberi", "href": "/tr/seo/teknik-seo" },
+      { "label": "CMS entegrasyonu", "href": "/tr/yazilim/cms-entegrasyonu" },
+      { "label": "Sunucu & güvenlik", "href": "/tr/yazilim/sunucu-guvenlik" }
+    ],
+    "relatedPosts": [
+      { "title": "Teknik SEO: Kurumsal sitelerde index, canonical ve schema temeli", "href": "/tr/seo/teknik-seo" },
+      { "title": "CMS Entegrasyonu: Modüler içerik bloklarıyla ölçekleme", "href": "/tr/yazilim/cms-entegrasyonu" },
+      { "title": "Sunucu & Güvenlik: Deploy, monitoring ve stabilizasyon", "href": "/tr/yazilim/sunucu-guvenlik" }
+    ],
+    "sections": [
+      {
+        "id": "kurumsal-nextjs-mimari-haritasi",
+        "title": "Kurumsal Next.js Mimari Haritası: Karar noktalarını tek çerçevede toplayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal ölçekte Next.js’in değeri, “tek tek sayfalar” değil; kararların standarda dönüşmesidir. Routing → Rendering → Data → Components → Deploy hattını netleştirdiğinizde hem CWV hem SEO hem de geliştirme hızı birlikte iyileşir."
+          },
+          { "type": "media", "slot": "architectural-map" }
+        ]
+      },
+      {
+        "id": "nextjs-neden-kurumsal",
+        "title": "Next.js neden kurumsal web siteleri için güçlü?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal sitede ihtiyaçlar nettir: hızlı açılan sayfalar, iyi indexlenen içerik, esnek içerik yönetimi, ölçülebilir dönüşüm ve entegrasyonlara hazır altyapı. Next.js; server-side rendering, static generation, incremental static regeneration, modern routing ve component mimarisiyle bunu mümkün kılar. Ayrıca ekip ölçeği büyüdükçe, iyi tasarlanmış bir Next.js mimarisi “geliştirme hızını” da korur."
+          },
+          { "type": "h3", "text": "Kurumsal ölçek için avantajlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SEO dostu HTML üretimi (doğru render stratejisiyle)",
+              "Performans (route bazlı code splitting, caching yaklaşımı)",
+              "Esneklik (CMS/CRM/PMS gibi sistemlerle çalışabilme)",
+              "Ölçeklenebilir UI (design system + shared components)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "“Hangi sayfalar SEO kritik?” listem var mı?",
+              "İçerik yönetimi (CMS) ve satış akışı (CRM/PMS) modele dahil mi?",
+              "Çok dilli yapı (Varsayım) en baştan tasarlandı mı?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ssr-ssg-isr-tercihi",
+        "title": "SSR/SSG/ISR tercihi: Kurumsal projede render stratejisini nasıl seçersiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yanlış render seçimi, Next.js projelerinde en sık yaşanan “performans/SEO fırsatı boşa gitti” sebebidir. Bu kararı “teknik zevk” ile değil, sayfa tipi + veri güncelliği + kullanıcı beklentisi ile verin."
+          },
+          { "type": "h3", "text": "SSR, SSG ve ISR arasındaki fark nedir, hangisini seçmeliyim?" },
+          {
+            "type": "p",
+            "text": "SSG (Static) sayfayı derleme anında üretir; içerik sık değişmiyorsa en hızlı ve stabil çözümdür. SSR her istekte üretir; veri anlık değişiyorsa (ör. fiyat, oda müsaitliği) uygundur ama caching şarttır. ISR ise static hızını korurken belirli aralıklarla sayfayı yeniler; kurumsal içerik + dönemsel güncellenen sayfalar için idealdir."
+          },
+          { "type": "h3", "text": "Karar matrisi (kurumsal pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SSG için uygun: Kurumsal hizmet sayfaları, bloglar, “hakkımızda”, sabit içerikler",
+              "ISR için uygun: Kampanya sayfaları, sezon/etkinlik sayfaları, “yakın zamanda güncellenen” içerikler",
+              "SSR için uygun: Otel oda fiyat/müsaitlik, rezervasyon adımı, kullanıcıya göre değişen içerikler (B2B teklif paneli vb.)"
+            ]
+          },
+          { "type": "media", "slot": "rendering-strategies" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Her sayfa tipi için render stratejisi seçildi mi?",
+              "SSR kullanılan sayfalarda caching yaklaşımı var mı? (Varsayım)",
+              "ISR için revalidate stratejisi belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Sitenizdeki sayfaları 4 gruba ayırın: Blog, Hizmet, Landing, Dinamik (rezervasyon/teklif).",
+              "Her grup için SSR/SSG/ISR kararını yazılı hale getirin.",
+              "En kritik 10 sayfada CWV hedefi belirleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dosya-route-mimarisi",
+        "title": "Dosya ve route mimarisi: URL hiyerarşisi, locale ve ekip ölçeği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal projelerde “dosya düzeni” sadece düzen değil, ekip ölçeğini taşıyan sistemdir. Route mimarisi; URL hiyerarşisini, locale yapısını ve SEO düzenini doğrudan etkiler."
+          },
+          { "type": "h3", "text": "/[locale]/ yapısı ve SEO uyumlu URL tasarımı" },
+          {
+            "type": "p",
+            "text": "Çok dilli (Varsayım) yapılarda /tr/, /en/ gibi net locale segmentleri; hreflang ve içerik yönetimini kolaylaştırır. URL’ler; kategori–alt kategori–detay mantığıyla “okunabilir” olmalıdır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "/tr/yazilim/web-sitesi-gelistirme (hizmet hub)",
+              "/tr/yazilim/blog/... (child içerik)",
+              "Otel projeleri için destinasyon/konsept sayfalarında aşırı parametre kullanımından kaçınma (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Locale segmentleri tutarlı mı?",
+              "Blog ve hizmet URL’leri aynı silo dilini konuşuyor mu?",
+              "Dinamik parametreler canonical ile yönetiliyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Layout, shared component ve design system yapısı" },
+          {
+            "type": "p",
+            "text": "Kurumsal projede “her sayfa kendi başına” yaklaşımı sürdürülemez. Çözüm: layout hiyerarşisi + shared component kütüphanesi + tasarım sistemi."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Global Layout: header/footer, dil switcher, temel grid",
+              "Silo Layout: yazılım/otel/seo gibi alanların ortak şablonu",
+              "Component katmanı: Button, Card, CTA, Form, Section blokları",
+              "“Content block” yaklaşımı: CMS’ten gelen modüler bloklar (Varsayım)"
+            ]
+          },
+          { "type": "media", "slot": "folder-structure" },
+          { "type": "h3", "text": "Otel ve B2B için örnek klasör yapısı (öneri)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel odaklı (Varsayım): /(site)/[locale]/hotel/... | /(site)/[locale]/rooms/... | /(site)/[locale]/offers/... | /(booking)/[locale]/reservation/... (SSR + caching yaklaşımı)",
+              "B2B odaklı: /(site)/[locale]/services/... | /(site)/[locale]/case-studies/... | /(site)/[locale]/contact/... | /(app)/[locale]/dashboard/... (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Silo bazlı route standardı belirleyin (hizmet/blog/case).",
+              "UI bileşenlerini “design system” altında toplayın.",
+              "İçerik bloklarını tekrar kullanılabilir hale getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-performans-best-practices",
+        "title": "SEO ve performans için best practice’ler: meta değil, sistem",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal Next.js sitesinde SEO “meta tag” değil; render, URL, içerik, performans ve schema toplamıdır. Teknik SEO ile tutarlı bir mimari kurmak, ileride maliyeti düşürür."
+          },
+          { "type": "h3", "text": "Metadata, canonical, schema ve iç link stratejisi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her sayfada doğru title/meta",
+              "Canonical ve pagination (Varsayım) düzeni",
+              "JSON-LD @graph standardı",
+              "İç link: hizmet → blog → ilgili teknik sayfalar zinciri"
+            ]
+          },
+          { "type": "h3", "text": "Performans pratikleri (CWV odaklı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görsel optimizasyon (WebP/AVIF, doğru boyut)",
+              "Route bazlı yük azaltma (ağır script’leri sınırlama)",
+              "Caching stratejisi (SSR/ISR’de kritik) (Varsayım)",
+              "Üçüncü taraf script disiplini (tag/ads/chat) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "LCP öğesi optimize mi?",
+              "INP’yi bozan ağır JS var mı?",
+              "CLS oluşturan layout zıplaması çözüldü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "En çok trafik alan 10 sayfada CWV ölç.",
+              "Görsel–script–font kaynaklarını sadeleştir.",
+              "Deploy sonrası 72 saat izleme rutini kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornek-mimariler",
+        "title": "Otel ve B2B örnek mimariler: aynı Next.js, farklı kritik katmanlar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de “aynı Next.js” farklı problemleri çözer. Otelde dinamik fiyat/müsaitlik + rezervasyon akışı; B2B’de içerik ölçeği + lead üretimi + CRM bağlantısı kritik."
+          },
+          { "type": "h3", "text": "Otel ve B2B site mimarisi Next.js’te nasıl tasarlanır?" },
+          {
+            "type": "p",
+            "text": "Otel için: içerik sayfaları (SSG/ISR) + rezervasyon akışı (SSR) ayrıştırılır; PMS/rezervasyon motoru entegrasyonu ve ölçümleme (event tracking) en baştan kurgulanır. B2B için: hizmet/case içerikleri (SSG/ISR) ölçeklenir; lead form ve CRM akışı “kanıtlı test” ile yayınlanır; içerik yönetimi (CMS) modüler bloklar üzerinden yürür."
+          },
+          { "type": "media", "slot": "critical-layers" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir",
+            "text": "Teknik ekip ve iş tarafı aynı masada 20 dakikada kararları netleştirir; yanlış render/URL seçimi riskini düşürür.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "nextjs-mimari-checklist-pdf",
+        "title": "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
+            "purpose": "Bu checklist, kurumsal Next.js projelerinde en kritik mimari kararları (SSR/SSG/ISR, URL/locale, route–layout, entegrasyon modeli) tek sayfada toplar. Teknik ekip ile iş tarafının aynı dilden konuşmasını sağlar ve “yanlış karar nedeniyle performans/SEO kaybı” riskini azaltır. Otel ve B2B projelerinde ölçeklenebilir yapı için hızlı başlangıç standardı sunar.",
+            "whoFor": "Ajans teknik lideri, proje yöneticisi, ürün/IT, SEO/performance uzmanı, marka yöneticisi.",
+            "steps": [
+              "Proje sayfalarını sınıflandırın (blog/hizmet/landing/dinamik akış).",
+              "Render stratejisi + URL/locale + entegrasyon kararlarını checklist’te işaretleyin ve kanıtlayın.",
+              "14 günlük sprint planıyla “mimari borçları” kapatın ve CWV/SEO KPI’larını takip edin."
+            ],
+            "checklist": [
+              "Sayfa tipleri listelendi (blog/hizmet/landing/dinamik)",
+              "SSR/SSG/ISR matrisi çıkarıldı",
+              "ISR revalidate stratejisi belirlendi (Varsayım)",
+              "SSR caching yaklaşımı belirlendi (Varsayım)",
+              "/[locale]/ stratejisi net",
+              "Blog/hizmet URL hiyerarşisi tutarlı",
+              "Dinamik parametreler canonical ile yönetiliyor",
+              "Çok dil hreflang planı var (Varsayım)",
+              "Shared component seti tanımlı",
+              "Layout hiyerarşisi net",
+              "UI kit / design tokens var (Varsayım)",
+              "Content block modeli (CMS) belirlendi (Varsayım)",
+              "CMS entegrasyonu tanımlı",
+              "CRM lead akışı modeli var",
+              "Otel ise PMS/rezervasyon entegrasyonu modeli var",
+              "Güvenlik/log/monitoring planı var (Varsayım)"
+            ],
+            "href": "/downloads/nextjs-kurumsal-site-mimari-karar-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          { "type": "h3", "text": "B) Problem → Kök Neden → Çözüm tablosu" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Kurumsal Next.js mimarisini “karar sistemi” olarak kurun",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js ile kurumsal site mimarisinde başarı; framework bilgisi kadar, kararların yazılı standarda dönüşmesine bağlıdır: render stratejisi, URL/locale hiyerarşisi, component sistemi ve entegrasyon modeli. Bu 4’lü doğru kurulduğunda hem SEO hem CWV hem de geliştirme hızı birlikte yükselir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Next.js Kurumsal Site Mimari Analizi Talep Et",
+            "text": "Projenize özel SSR/SSG/ISR karar matrisi, route standardı ve entegrasyon planını çıkaralım; otel/B2B’de ölçeklenebilir bir yapı kuralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {"type":"media","slot":"strategy-package"},
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir",
+            "text": "Teknik ekip ve iş tarafı aynı masada 20 dakikada kararları netleştirir; yanlış render/URL seçimi riskini düşürür.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Next.js ile kurumsal web sitesi mimarisi nasıl olmalı?",
+        "a": "Render stratejisini (SSR/SSG/ISR) sayfa tipine göre seçin, /[locale]/ gibi net URL/route hiyerarşisi kurun, component/design system’i ölçekleyin ve CMS/CRM/PMS entegrasyonlarını baştan modelleyin."
+      },
+      {
+        "q": "SSR, SSG ve ISR arasındaki fark nedir, hangisini seçmeliyim?",
+        "a": "SSG sabit içerikler için en hızlı çözümdür; SSR anlık veri gereken sayfalara uygundur; ISR ise içerik güncelliği olan sayfalarda statik hız + periyodik güncelleme sağlar."
+      },
+      {
+        "q": "Kurumsal sitede klasör ve route yapısını nasıl kurarım?",
+        "a": "Silo bazlı route standardı belirleyin, layout hiyerarşisi oluşturun, shared component’leri design system altında toplayın ve blog/hizmet/dinamik akışları ayrı katmanlar halinde yönetin."
+      },
+      {
+        "q": "Otel sitesi mimarisinde Next.js’te en kritik katman nedir?",
+        "a": "Rezervasyon/oda/fiyat gibi dinamik akışların SSR + caching ile ayrıştırılması ve içerik sayfalarının SSG/ISR ile hızlı servis edilmesi kritik katmandır."
+      },
+      {
+        "q": "B2B kurumsal sitede en kritik katman nedir?",
+        "a": "Lead form + CRM akışının kanıtla test edilmesi, içerik yönetiminin (CMS) modüler bloklarla ölçeklenmesi ve performansın CWV hedefleriyle yönetilmesi kritik katmandır."
+      },
+      {
+        "q": "/[locale]/ yapısı SEO’yu nasıl etkiler?",
+        "a": "Net locale segmentleri, hreflang ve index yönetimini kolaylaştırır; yanlış kurulum ise kopya sayfa ve yanlış dil sıralaması riskini artırır."
+      },
+      {
+        "q": "Next.js’te SEO ve performansı birlikte nasıl korurum?",
+        "a": "Render kararlarını doğru verin, metadata+schema standardı kurun, görselleri optimize edin, üçüncü taraf script’leri disipline edin ve CWV metriklerini düzenli izleyin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "architectural-map — (H1 altı) Kurumsal Next.js Mimari Haritası — Routing → Rendering → Data → Components → Deploy",
+          "rendering-strategies — SSR/SSG/ISR karşılaştırma tablosu (görsel notu)",
+          "folder-structure — Örnek klasör/route mimarisi diyagramı (görsel notu)",
+          "critical-layers — Otel vs B2B Mimari Haritası (görsel notu)",
+          "table-problem-root-solution-visual-05 — Problem→Kök Neden→Çözüm tablo görseli",
+          "table-kpi-before-after-visual-06 — Öncesi/Sonrası KPI tablo görseli"
+        ],
+        "technicalChecklist": [
+          "Sayfa tipleri envanteri çıkarıldı (blog/hizmet/landing/dinamik)",
+          "SSR/SSG/ISR karar matrisi yazılı hale getirildi",
+          "/[locale]/ route–URL standardı belirlendi",
+          "Canonical/index stratejisi (parametreli sayfalar dahil) net",
+          "Hreflang karşılıklılık planı mevcut (Varsayım: çok dilli ise)",
+          "Schema @graph tek blok standardı planlandı",
+          "CWV izleme ve deploy sonrası 72 saat monitoring rutini tanımlandı",
+          "CMS/CRM/PMS entegrasyon veri sözleşmesi çıkarıldı (plan/doküman)"
+        ]
+      }
+    }
+  },
+
+  "BlogOtellerIcinSosyalMedyaPostTasarimRehberi": {
+    "title": "Oteller İçin Instagram Post Tasarım Rehberi | DGTLFACE",
+    "slug": "oteller-icin-sosyal-medya-post-tasarim-rehberi",
+    "department": "creative",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oda/tesis/deneyim post şablonlarıyla otel feed’inizi sistemleştirin. Fiyat/CTA dengesini doğru kurun, 9/12 post setleriyle sezonluk plan yapın.",
+    "seo": {
+      "metaTitle": "Oteller İçin Instagram Post Tasarım Rehberi | DGTLFACE",
+      "metaDescription": "Oda/tesis/deneyim post şablonlarıyla otel feed’inizi sistemleştirin. Fiyat/CTA dengesini doğru kurun, 9/12 post setleriyle sezonluk plan yapın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog / URL: /tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "GEO: Özellikle Antalya, Belek, Kemer, Side, Bodrum, Alanya destinasyon otelleri",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/oteller-icin-sosyal-medya-post-tasarim-rehberi"
+      ],
+      "strategySummary": "Bu içerik, Creative silosu içinde oteller için “uygulanabilir tasarım sistemi” veren core rehber rolünde; /tr/creative/grafik-motion-tasarim sayfasına otorite ve dönüşüm taşıyan bir child olarak konumlanır. Funnel’da ağırlıkla consideration → conversion: “güzel fotoğraf” yerine doluluk, güven ve rezervasyon niyeti üreten post yapısı. Hedef persona: otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; ekibe hızlı uygulanabilir şablon seti sunar. Ana iş sorusu: “Oda/tesis/deneyim içeriklerini nasıl bir post sistemine bağlarım ve fiyat/CTA’yı feed’i bozmadan nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel sosyal medya post tasarımında hedef sadece “güzel fotoğraf” değil; oda doluluğu, marka algısı ve misafir güveni üretmektir. Oda/tesis/deneyim içeriklerini “önce duygu sonra bilgi” kompozisyonuyla kurgulayın; metin alanını sınırlı tutup hiyerarşiyi netleştirin. Fiyat/CTA’yı abartmadan, şablon setleri ve 9/12 postluk grid planıyla sezon/destinasyon hikâyesine bağlayın. Böylece feed tutarlı kalır ve rezervasyon niyeti güçlenir.",
+      "sgeSummary": "Otel postlarını oda–tesis–deneyim setleriyle planlayın; “önce duygu sonra bilgi” hiyerarşisi kurun. Fiyat/CTA’yı minimal kullanın, 9/12 post grid’i sezonluk şablonlarla yönetin.",
+      "voiceAnswer": "Oteliniz için Instagram’da oda–tesis–deneyim şablonları kullanın; fiyat/CTA’yı minimal tutup 9’lu set planlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM/Owner, Satış–Pazarlama, Ajans yöneticisi, tasarım ekibi",
+        "KPI: Rezervasyon niyeti, web tıklaması, kaydetme, DM/WhatsApp tıklaması, kampanya CTR, üretim süresi",
+        "Entity: Hotel Social Media Visuals, Room Posts, Facility Posts, Campaign CTA, Guest Review Posts",
+        "GEO: Antalya, Belek, Kemer, Side, Bodrum, Alanya (destinasyon setleri)",
+        "Funnel: MoFu → BoFu (kampanya/teklif ve güven sinyalleriyle)",
+        "Çıktı: Feed grid mockup + post şablon seti + 9/12 post checklist",
+        "Risk: Fiyat/CTA’yı görsele yığmak → premium algı düşer, dönüşüm zayıflar"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
+      "intro": "Otel Instagram’ında “güzel fotoğraf” tek başına yetmez; hedef doluluk, güven ve rezervasyon niyeti üretmektir. Bunun için oda/tesis/deneyim içeriklerini rastgele paylaşmak yerine; post türleri + şablon setleri + grid planı ile sistem kurmak gerekir. Bu rehber; oda–havuz–restoran–deneyim görsellerini kompozisyon kurallarıyla ele alır, fiyat/CTA kullanımını premium algıyı bozmadan standardize eder ve 9/12 postluk set planı verir.",
+      "quickSummary": [
+        "1) Hedefleri 3’e indir: algı / teklif / dönüşüm",
+        "2) Post türlerini sabitle: oda, tesis, deneyim, kampanya, misafir yorumu, SSS",
+        "3) “Önce duygu sonra bilgi” kompozisyonu uygula",
+        "4) Fiyat/CTA’yı minimal kullan; detayları caption’a taşı",
+        "5) 9/12 post setleriyle sezon/destinasyon hikâyesine bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Otel Sosyal Medya Tasarım Analizi Talep Et",
+        "text": "Mevcut feed’inizde oda/tesis/deneyim dengesi ve fiyat/CTA hatalarını netleştirip 2 haftalık plan çıkaralım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel Sosyal Medya Tasarım Analizi Talep Et",
+        "text": "Mevcut feed’inizde oda/tesis/deneyim dengesi ve fiyat/CTA hatalarını netleştirip 2 haftalık plan çıkaralım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Otel İçin 9/12 Postluk Sosyal Medya Tasarım Checklist’ini İndir",
+        "text": "Ekibinize görev listesi olarak verin; 2 haftada 9/12 post setinizi standartlaştırıp kampanya dönemlerini daha hızlı yönetirsiniz.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "Otel sosyal medya", "href": "/tr/otel/sosyal-medya" },
+      { "label": "İçerik üretimi", "href": "/tr/smm/icerik-uretimi" }
+    ],
+    "relatedPosts": [
+      { "title": "Grafik & Motion Tasarım: Oteller için yaratıcı sistem", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "title": "Otel sosyal medya: içerik ve dönüşüm yaklaşımı", "href": "/tr/otel/sosyal-medya" }
+    ],
+    "sections": [
+      {
+        "id": "feed-grid-mockup",
+        "title": "Örnek feed grid’i: 9/12 post set ile sistem kurun",
+        "blocks": [
+          { "type": "media", "slot": "instagram-post" }
+       
+        ]
+      },
+      {
+        "id": "otel-markalari-sosyal-medya-hedefleri",
+        "title": "Otel markaları için sosyal medya hedefleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sosyal medya tasarımında tasarım kararları (renk, metin alanı, CTA, fotoğraf seçimi) “estetik” değil, hedefe bağlıdır. Genel hedefler: marka algısı (premium/güven), teklif görünürlüğü (kampanya), ve dönüşüm kanalları (web/DM/WhatsApp). Bu üçü dengelenmezse feed ya “dergi gibi” kalır (dönüşüm yok) ya da “broşür gibi” olur (premium algı düşer)."
+          },
+          { "type": "h3", "text": "Otel sosyal medya post tasarımı nasıl olmalı?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Post tasarımı, oda/tesis/deneyim içeriklerini şablon setleriyle planlamalı; görsel hiyerarşide “önce duygu sonra bilgi” kurmalı ve fiyat/CTA’yı minimal, okunur ve premium algıyı bozmayacak şekilde yerleştirmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Son 12 postunuzda “oda–tesis–deneyim” dengesi var mı?",
+              "Kampanya postları premium algıyı bozuyor mu?",
+              "Her postta tek net mesaj var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hedefleri 3’e indir: algı / teklif / dönüşüm.",
+              "Post türlerini sabitle: oda, tesis, deneyim, kampanya, misafir yorumu, SSS.",
+              "CTA’yı tek kanala bağla: web mi, DM mi, WhatsApp mı?",
+              "İleri seviye: sezon/destinasyon setleriyle (Antalya/Belek/Side/Kemer/Bodrum/Alanya) story anlatısı kur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feed-yapisi-icerik-turleri",
+        "title": "Feed yapısı ve içerik türleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Feed, otelinizin vitrini; içerik türleri ise vitrindeki ürün gruplarıdır. En iyi otel feed’leri “sürekli aynı fotoğraf” yerine, farklı post türlerini tutarlı bir tasarım sistemi içinde döndürür. Böylece hem algoritma hem kullanıcı gözünde “aktif ve planlı marka” görünümü oluşur."
+          },
+          { "type": "h3", "text": "Temel otel post türleri (set mantığı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda postları: konfor + detay + “neden burada kalmalıyım?”",
+              "Tesis postları: havuz, plaj, spa, kids club",
+              "Restoran/Bar: imza lezzet + atmosfer",
+              "Deneyim: etkinlik, show, aktivite, destinasyon",
+              "Kampanya/teklif: fiyat/avantaj + sınırlı mesaj",
+              "Misafir yorumu: sosyal kanıt",
+              "SSS postları: iptal koşulu, check-in/out, çocuk konsepti vb."
+            ]
+          },
+            { "type": "media", "slot": "hotel-template" },
+          { "type": "h3", "text": "Tekil post vs carousel" },
+          {
+            "type": "p",
+            "text": "Tekil post, “tek mesaj” için idealdir; carousel ise hem dönüşüm hem eğitim için güçlüdür. Otellerde carousel en iyi şu işlerde çalışır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tanıtımı (5 kare: atmosfer → detay → özellik → konsept → CTA)",
+              "Deneyim serisi (gün programı, aktiviteler)",
+              "SSS (3–5 soru)",
+              "Kampanya (avantajlar + koşullar)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Oda ve SSS içeriklerini carousel’e taşı.",
+              "Deneyim postlarını tekil + story seri ile destekle.",
+              "Kampanya postlarını “tek kare broşür” yerine 2–3 karede sadeleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "foto-kompozisyon-kurgusu",
+        "title": "Oda, havuz, restoran ve deneyim fotoğraflarını kurgulamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel içeriğinin başarısı; fotoğraf seçimi kadar kompozisyon ve anlatıdır. “Önce duygu sonra bilgi” kuralı, premium algıyı korurken bilgiyi de verir. İlk kare (veya ilk bakış) duyguyu verir; ikinci katmanda bilgi gelir: özellik, konsept, avantaj."
+          },
+          { "type": "h3", "text": "“Önce duygu sonra bilgi” kompozisyonu" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Duygu katmanı: atmosfer, ışık, boşluk, kadraj",
+              "Bilgi katmanı: kısa headline + 1 alt satır (maks)",
+              "Kanıt katmanı: badge/ikon (örn: “Adults Only”, “All Inclusive”, “Spa”, “Kids Friendly”)",
+              "CTA katmanı: çok minimal (story’de daha güçlü)"
+            ]
+          },
+          { "type": "h3", "text": "Oda postları: 3 kare modeli" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Odanın “his” karesi (geniş, ferah)",
+              "Detay (banyo, manzara, yatak, materyal)",
+              "“Neden” (m², konsept, ayrıcalık) + çok minimal CTA"
+            ]
+          },
+          { "type": "h3", "text": "Havuz/plaj: kalabalık yönetimi" },
+          {
+            "type": "p",
+            "text": "Havuz/plaj fotoğraflarında en büyük risk; kaos ve düşük premium algıdır. Kadraj ve boşluk yönetimiyle “ferahlık” korunmalı."
+          },
+          { "type": "h3", "text": "Restoran: lezzet + atmosfer dengesi" },
+          {
+            "type": "p",
+            "text": "Sadece tabak çekimi yerine “mekân + servis + lezzet” üçlemesi daha ikna edicidir. B2C’de iştah; B2B’de kalite sinyali üretir."
+          },
+          { "type": "media", "slot": "composition" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her kategori için 3 kadraj standardı belirle.",
+              "Fotoğraf preset’ini sabitle (renk/kontrast).",
+              "İlk kareyi “duygu” için seç; bilgiyi 2. katmana taşı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metin-fiyat-cta",
+        "title": "Yazı alanı, fiyat/CTA kullanımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel feed’lerinde en sık hata: görsele fazla metin ve fiyat yığmak. Bu, premium algıyı düşürür ve okunurluğu bozar. Doğru yaklaşım: metni görselde minimum, detayları caption’da net, CTA’yı ise tek kanala bağlı yönetmek."
+          },
+          { "type": "h3", "text": "Fiyat ve kampanya bilgisini görsele nasıl yerleştirmeliyim?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Fiyat/teklif mesajını görselde tek satır headline + küçük bir “badge” ile verin; koşul ve detayları caption’a taşıyın. Görselde birden fazla fiyat/koşul yazmak yerine, carousel’de “avantajlar” ve “koşullar”ı ayrı karelere bölün."
+          },
+          { "type": "h3", "text": "Fiyat/CTA tasarım kuralları (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat tek satır, okunur ama bağırmayan boyutta",
+              "“% / indirim / sınırlı” gibi vurgu 1 adet",
+              "CTA: tek (örn: “Rezervasyon için WhatsApp”)",
+              "Logo + CTA + fiyat aynı anda “dominant” olmayacak (bir tanesi ana)"
+            ]
+          },
+          {"type":"media","slot":"price-cta"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Görselde 2’den fazla sayı var mı? (genelde hata)",
+              "CTA birden fazla mı? (web + DM + telefon = hata)",
+              "Metin fotoğrafı boğuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kampanya postlarında “1 mesaj” kuralı koy.",
+              "Fiyatı büyütmek yerine, avantajı netleştir (örn: “Ücretsiz transfer”).",
+              "CTA’yı story’ye taşı; feed’de daha yumuşat."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "post-setleri-kampanya-sablonlari",
+        "title": "Örnek post setleri ve kampanya şablonları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel pazarlama ekipleri için en hızlı kazanç, “tek tek post tasarlamak” değil; set üretmektir. 9/12 postluk set; sezon, destinasyon ve konsept değişiminde hızlı adaptasyon sağlar. Set mantığı, kampanya dönemlerinde bile feed’in dağılmasını engeller."
+          },
+          { "type": "h3", "text": "9 veya 12 postluk otel sosyal medya seti nasıl planlanır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Seti 3’e bölün: (1) Algı postları (oda/deneyim), (2) Güven postları (misafir yorumu/SSS), (3) Teklif postları (kampanya). 9’lu sette 5 algı + 2 güven + 2 teklif; 12’li sette 7 algı + 3 güven + 2 teklif dengesi iyi çalışır."
+          },
+          { "type": "h3", "text": "Örnek 9’lu set dağılımı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1–2: Oda (his + detay)",
+              "3: Deneyim (aktivite/show)",
+              "4: Tesis (havuz/plaj/spa)",
+              "5: Restoran (atmosfer + imza lezzet)",
+              "6: Misafir yorumu (sosyal kanıt)",
+              "7: SSS (3 soru)",
+              "8–9: Kampanya (avantaj + minimal CTA)"
+            ]
+          },
+          { "type": "media", "slot": "9-grid-plan" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon başında 9’lu seti “çekirdek set” yap.",
+              "Destinasyon varyantı çıkar: Antalya/Belek/Side/Kemer/Bodrum/Alanya.",
+              "Kampanyayı setin içine “sınırlı” koy; feed’i broşürleştirme."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel İçin 9/12 Postluk Sosyal Medya Tasarım Checklist’ini İndir",
+            "text": "Ekibinize görev listesi olarak verin; 2 haftada 9/12 post setinizi standartlaştırıp kampanya dönemlerini daha hızlı yönetirsiniz.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-hizli-uygulama-plani",
+        "title": "Sonuç ve hızlı uygulama planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel post tasarımı; fotoğraf seçimi + minimal metin + doğru CTA dengesi + set planlama ile sistemleştiğinde, kampanya dönemleri bile tutarlı ilerler. Bu rehberdeki modelin amacı; pazarlama ekibinin “her seferinde sıfırdan” başlamasını engelleyip, 2 haftada uygulanabilir bir şablon düzenine geçirmektir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Sosyal Medya Tasarım Analizi Talep Et",
+            "text": "Feed’inizi 9/12 set sistemine oturtup, kampanya ve oda içeriklerini premium algıyı bozmadan standardize edelim.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "otel-9-12-post-checklist-asset",
+        "title": "Otel İçin 9/12 Postluk Sosyal Medya Tasarım Checklist’ini İndir — Creative / Otel Post Tasarım Sistemi (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel İçin 9/12 Postluk Sosyal Medya Tasarım Checklist’ini İndir — Creative / Otel Post Tasarım Sistemi (v1.0)",
+            "purpose": "Bu asset, otel Instagram feed’inizi oda–tesis–deneyim–güven–kampanya dengesinde 9/12 post setlerine dönüştürmek için hazırlanmıştır. Fiyat/CTA kullanımını premium algıyı bozmadan standardize eder ve kampanya dönemlerinde set üretimini hızlandırır. 14 günlük sprint planı ile ekip içi görevleri netleştirir.",
+            "whoFor": "Otel satış–pazarlama ekibi, sosyal medya yöneticisi, tasarımcı/ajans ve GM/owner.",
+            "steps": [
+              "Son 30 postu topla; 9’lu görünümde set dengesini kontrol et.",
+              "Checklist ile oda/tesis/deneyim ve fiyat/CTA hatalarını skorla, önceliklendir.",
+              "14 günlük sprint ile 9/12 post şablon setini üret ve yayın akışına bağla."
+            ],
+            "checklist": [
+              "9’lu set planı var mı? (5 algı + 2 güven + 2 teklif)",
+              "12’li set planı var mı? (7 algı + 3 güven + 2 teklif)",
+              "Oda postları düzenli mi?",
+              "Tesis postları (havuz/plaj/spa) dengeli mi?",
+              "Restoran/deneyim postları tekrarsız mı?",
+              "Misafir yorumu postları aylık rutinde mi?",
+              "SSS postları (3–5 soru) var mı?",
+              "“Önce duygu sonra bilgi” kuralı uygulanıyor mu?",
+              "Oda postlarında 3 kare model kullanılıyor mu?",
+              "Havuz/plaj görsellerinde kalabalık/kaos yönetiliyor mu?",
+              "Restoran postlarında “atmosfer + lezzet” dengesi var mı?",
+              "Preset/renk düzeni tutarlı mı?",
+              "Görselde 2’den fazla sayı var mı? (genelde hata)",
+              "CTA tek mi? (web veya DM veya WhatsApp)",
+              "Fiyat/avantaj tek mesaj mı?",
+              "Koşullar caption’a taşındı mı?",
+              "Kampanya postları premium algıyı bozuyor mu?"
+            ],
+            "href": "/downloads/otel-9-12-postluk-sosyal-medya-tasarim-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel sosyal medya post tasarımı nasıl olmalı?",
+        "a": "Oda–tesis–deneyim içerikleri şablon setleriyle planlanmalı, “önce duygu sonra bilgi” hiyerarşisi kurulmalı ve fiyat/CTA minimal kullanılmalıdır. Set planı (9/12) ile tutarlılık korunur."
+      },
+      {
+        "q": "Oda ve tesis fotoğraflarını feed’de nasıl kullanmalıyım?",
+        "a": "Oda için “his + detay + neden” (3 kare model) iyi çalışır; tesis içeriklerinde kategorileri dengeli döndürmek (havuz/plaj/spa) gerekir. Tekrarı azaltmak için preset ve kadraj standardı koyun."
+      },
+      {
+        "q": "Fiyat ve kampanya bilgisini görsele nasıl yerleştirmeliyim?",
+        "a": "Görselde tek headline + küçük badge yeterlidir; koşulları caption’a taşıyın. Birden fazla fiyat/koşulu tek görsele yığmak yerine carousel ile bölün."
+      },
+      {
+        "q": "9 veya 12 postluk otel sosyal medya seti nasıl planlanır?",
+        "a": "9’lu sette 5 algı + 2 güven + 2 teklif; 12’li sette 7 algı + 3 güven + 2 teklif dengesi iyi çalışır. Kampanyayı set içine sınırlı koyarak feed’i broşürleştirmeyin."
+      },
+      {
+        "q": "Tekil post mu carousel mi daha iyi?",
+        "a": "Tekil post tek mesaj için hızlıdır; carousel oda tanıtımı, SSS ve kampanya avantajlarını anlatmakta daha etkilidir. Otellerde dönüşüm odaklı içeriklerde carousel genelde daha iyi sonuç verir."
+      },
+      {
+        "q": "CTA’yı nereye koymalıyım: görsel mi caption mı?",
+        "a": "Feed’de CTA’yı yumuşak tutup caption’da netleştirin; story’de daha güçlü CTA kullanın. En önemlisi tek kanal seçmek (web/DM/WhatsApp) ve standardize etmektir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "instagram-post — Otel için örnek feed grid’i (9/12 post set) mockup",
+          "hotel-template — Oda/havuz/restoran/deneyim şablonlarını gösteren mockup seti (4 kart)",
+          "composition — Oda/Havuz/Restoran/Deneyim için 4’lü örnek kompozisyon şeması",
+          "9-grid-plan — 9/12 post grid mockup görseli (etiketli)",
+          "table-problem-root-solution-visual-06 — Problem→Kök Neden→Çözüm tablo görseli + iyi/kötü kampanya post örnekleri",
+          "table-kpi-before-after-visual-07 — Öncesi/Sonrası KPI tablosu görseli (Varsayım)"
+        ],
+        "technicalChecklist": [
+          "Son 30 post analizi yapıldı; 9/12 set dengesine göre sınıflandı",
+          "Post türleri standardı sabitlendi (oda/tesis/deneyim/güven/teklif)",
+          "Kompozisyon standardı tanımlandı (“önce duygu sonra bilgi”, oda 3 kare modeli)",
+          "Kampanya postlarında minimal headline + badge + detay caption standardı belirlendi",
+          "CTA tek kanala indirildi (web veya DM veya WhatsApp) ve standardize edildi",
+          "Şablon seti üretimi planlandı (oda/tesis/restoran/deneyim + misafir yorumu + SSS + kampanya)",
+          "14 günlük sprint planı görev sahipleriyle operasyonel hale getirildi"
+        ]
+      }
+    }
+  },
+
+  "BlogTrEnDeRuCagriScriptTasarimi": {
+    "title": "TR–EN–DE–RU Çağrı Script’i: Otel Konuşma Akışları | DGTLFACE",
+    "slug": "tr-en-de-ru-cagri-script-tasarimi",
+    "department": "callcenter",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteller için TR–EN–DE–RU çağrı script’i nasıl yazılır? Açılış, ihtiyaç analizi, rezervasyon, şikâyet ve WhatsApp/OTA kısa metinleri tabloyla veriyoruz. Danışmanlık alın.",
+    "seo": {
+      "metaTitle": "TR–EN–DE–RU Çağrı Script’i: Otel Konuşma Akışları | DGTLFACE",
+      "metaDescription": "Oteller için TR–EN–DE–RU çağrı script’i nasıl yazılır? Açılış, ihtiyaç analizi, rezervasyon, şikâyet ve WhatsApp/OTA kısa metinleri tabloyla veriyoruz. Danışmanlık alın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa (Hub) / URL: 4 Dilli Çağrı Merkezi — /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+        "Blog / URL: /tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi",
+        "Blog Tipi: Core (cluster içinde “script & konuşma akışı” authority)",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Hedef kelime bandı: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/cagri-merkezi/blog/tr-en-de-ru-cagri-script-tasarimi"
+      ],
+      "strategySummary": "Bu yazı, “4 dilli çağrı merkezi” cluster’ında operasyonu satışa çeviren ana kaldıraç olan script & conversation flow konusunu otel özelinde standardize eden otorite içeriği olacak. Persona; Antalya/Belek/Side/Bodrum gibi destinasyonlarda çok dilli talebi yöneten GM, satış–pazarlama ve rezervasyon lideri (veya çağrı merkezi yöneticisi). Funnel’da consideration → conversion köprüsü: “Script olmadan kalite/KPI sürdürülemez” mesajını netleştirip danışmanlık talebine bağlar. Ana iş sorusu: “TR–EN–DE–RU’da tutarlı, nazik ve satış odaklı konuşmayı; telefon + WhatsApp + OTA mesajlarında nasıl aynı standarda oturturum?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "4 dilli çağrı merkezinde iyi tasarlanmış script’ler; agent’ların her dilde tutarlı, nazik ve satış odaklı konuşmasını sağlar. Açılış, ihtiyaç analizi, fiyat/oda anlatımı, itiraz karşılama ve kapanış bölümleri TR–EN–DE–RU misafirlerin kültürel beklentilerine göre uyarlanmalı; hem OTA mesajları hem de doğrudan rezervasyon senaryolarını kapsamalıdır. Script’ler “ezber” değil; ölçülebilir KPI’lara bağlanan konuşma akışlarıdır.",
+      "sgeSummary": "TR–EN–DE–RU çağrı script’i; otelde açılış, ihtiyaç analizi, teklif, itiraz ve kapanışı standartlaştırır. Telefon + WhatsApp + OTA mesajları için kısa metin şablonlarıyla dönüşüm ve kaliteyi artırır.",
+      "voiceAnswer": "Otel çağrıları için script; açılış–ihtiyaç–teklif–itiraz–kapanış akışını dört dilde standartlaştırır.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış–pazarlama, rezervasyon lideri, çağrı merkezi kalite/eğitim sorumlusu",
+        "KPI bağları: Yanıt süresi, teklif oranı, follow-up oranı, dönüşüm, CSAT/şikâyet çözüm hızı",
+        "Entity seti: Call Script, Conversation Flow, TR–EN–DE–RU, Hotel Reservation, Complaint Handling, OTA & WhatsApp",
+        "Kanal kapsamı: Telefon konuşması + WhatsApp/DM kısa metinleri + OTA mesaj şablonları",
+        "Operasyon çıktısı: Onboarding kısalır, ton tutarlılığı artar, “kaçan fırsat” azalır (yönlü)",
+        "GEO bağlamı: Antalya/Belek/Side/Bodrum (DE & RU pazarı için kültürel uyum örnekleri)",
+        "SERP hedefi: How-to snippet + PAA + FAQ"
+      ]
+    },
+    "h1": {
+      "title": "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları",
+      "intro": "“Misafir telefonda ne söylemeliyim?” “Almanca ve Rusça’da nasıl karşılamalıyım?” Bu sorular, özellikle Antalya–Belek–Side–Bodrum gibi çok dilli destinasyonlarda rezervasyon kaybının en görünmez nedeni olabilir. Script, agent’ı robotlaştırmak için değil; aynı kaliteyi, aynı satış dilini ve aynı KPI standardını dört dilde tekrar üretmek için vardır. Aşağıdaki rehber; telefon konuşması, WhatsApp/DM kısa metinleri ve OTA mesajları için pratik akışlar ve şablonlar sunar.",
+      "ctaPrimary": {
+        "label": "TR–EN–DE–RU Çağrı Script Tasarım Danışmanlığı Al",
+        "text": "Otelinizin senaryolarına göre 4 dilde konuşma akışlarını ve hazır şablonları birlikte standartlaştıralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "heroMediaNote": "Buraya: Hero görsel (16:9) — “4 dil + konuşma akışı + kanal ikonları (telefon/WA/OTA)” temalı."
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "TR–EN–DE–RU Çağrı Script Tasarım Danışmanlığı Al",
+        "text": "Otelinizin senaryolarına göre 4 dilde konuşma akışlarını ve hazır şablonları birlikte standartlaştıralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "secondary": {
+        "label": "4 Dilli Çağrı Script Template’ini İndir",
+        "text": "Teklif istemeden önce kapsamı doğru tanımlarsınız; ekibe hazır konuşma bankası olarak dağıtırsınız.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "internalLinks": [
+      { "label": "Rezervasyon desteği", "href": "/tr/cagri-merkezi/rezervasyon-destegi" },
+      { "label": "Mesaj yönetimi", "href": "/tr/cagri-merkezi/mesaj-yonetimi" },
+      { "label": "Otel çağrı merkezi", "href": "/tr/otel/cagri-merkezi" },
+      { "label": "4 dilli çağrı merkezi", "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi" }
+    ],
+    "sections": [
+      {
+        "id": "neden-script-akis-kritik",
+        "title": "Neden script ve konuşma akışı kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Script; “ne söyleyeceğim?” stresini azaltır ama asıl değeri kapatma (closing) disiplinini kurmasıdır. Çok dilli ortamda her agent kendi stilini yaratırsa, marka dili parçalanır; misafir aynı otelle 2 farklı dilde 2 farklı kalite yaşar. Script, bu dağınıklığı “standardize edilmiş akış” ve “mikro cümle bankası” ile toparlar."
+          },
+          { "type": "h3", "text": "Script’in otel tarafında 3 somut faydası" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tutarlılık: Aynı konsept, aynı vaat, aynı ton",
+              "Hız: Yanıt süreleri düşer; teklif daha hızlı çıkar",
+              "Dönüşüm: İtiraz karşılama ve takip (follow-up) standart olur"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Aynı soruya farklı agent’lar farklı cevap veriyor mu?",
+              "Fiyat soran misafirin kaçı “takip edilmeden” kayboluyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Script’i “cümle listesi” değil, akış olarak tasarlayın.",
+              "Script’in her adımını en az 1 KPI ile ilişkilendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dort-dilde-script-nasil",
+        "title": "4 dilli çağrı script’i nasıl tasarlanmalı? (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi bir 4 dilli script tasarımı; açılış, ihtiyaç analizi, çözüm/teklif, itiraz karşılama ve kapanış adımlarını tek çatı akış içinde kurar; sonra her dil için kültürel uyumlu mikro cümlelerle uyarlarsınız. Telefon, WhatsApp ve OTA mesajlarının “metin uzunluğu” ve “cevap ritmi” farklıdır; bu yüzden aynı akışın farklı kanal sürümleri gerekir."
+          },
+          { "type": "h3", "text": "AEO Checklist (5–7 madde)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Açılış standardı: İsim + otel + yardım cümlesi",
+              "İhtiyaç analizi: Tarih–kişi–oda–bütçe–özel istek",
+              "Çözüm/teklif: 1 ana + 1 alternatif seçenek",
+              "Güven sinyali: Kısa kanıt (konsept/konum/iptal politikası netliği)",
+              "İtiraz karşılama: “fiyat/koşul/konum/odalar dolu” kalıpları",
+              "Kapanış: Net CTA + takip zamanı (bugün/yarın/48 saat)",
+              "Dil/ton uyumu: DE ve RU pazarı için selam/kapanış nüansları"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce TR akışı finalize edin; sonra EN/DE/RU’yu “kelime kelime” değil, kültür–ton bazında uyarlayın.",
+              "Kanal bazlı versiyonlar oluşturun (telefon vs WhatsApp vs OTA)."
+            ]
+          },
+          { "type": "media", "slot": "call-flow" }
+        ]
+      },
+      {
+        "id": "acilis-selamlama-tablosu",
+        "title": "TR–EN–DE–RU temel selamlama ve açılış (kültürel uyum)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Açılış, misafirin “güven eşiğidir”. Aynı cümleyi çevirmek yeterli olmaz; bazı pazarlarda resmiyet, bazı pazarlarda hız öne çıkar. Aşağıdaki şablonlar “güvenli başlangıç” sağlar; otelinizin marka tonuna göre (resmi/samimi) küçük ayarlarla oturtabilirsiniz."
+          },
+          { "type": "h3", "text": "4 dil açılış şablonları (tablo)" },
+          {
+            "type": "html_note",
+            "text": "Buraya: HTML tablo (mobilde yatay kaydırma) — 4 dil yan yana."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Açılışınızda mutlaka şunlar var mı?",
+              "Agent adı + otel adı + “yardım” cümlesi + ihtiyaç sorusu"
+            ]
+          },
+          {"type":"media","slot":"basic-greeting"}
+        ]
+      },
+      {
+        "id": "rezervasyon-akisi",
+        "title": "Rezervasyon senaryosu: fiyat, müsaitlik, teklif ve follow-up akışı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon konuşmaları iki şeye takılır: “uygunluk” ve “fiyat”. Script, bu iki başlığı yönetirken aynı zamanda misafiri “karar vermeye” taşır: alternatif sunar, netleştirir ve takip zamanı koyar. Antalya veya Belek gibi yüksek sezon baskısı olan bölgelerde “alternatif” sunamayan konuşma, dönüşümü kaybeder."
+          },
+          { "type": "h3", "text": "Rezervasyon akışının iskeleti" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İhtiyaç analizi → uygunluk → 1 ana teklif + 1 alternatif",
+              "Kısa değer önerisi (konsept/avantaj)",
+              "Net kapanış (rezervasyon linki / ödeme / geri dönüş zamanı)"
+            ]
+          },
+          { "type": "h3", "text": "İtiraz karşılama (fiyat itirazı) — kısa şablon" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Empati → gerekçe → seçenek → kapanış"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "good-bad-script-comparison",
+            "note": "Buraya: “İyi/Kötü Script” karşılaştırma görseli (aynı senaryo)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Fiyat itirazı için 3 kalıp hazırlayın (indirim, alternatif tarih, farklı oda).",
+              "Her teklifin sonuna “takip zamanı” ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bilgi-talepleri",
+        "title": "Bilgi talepleri: konsept, konum, transfer, iptal/değişiklik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bilgi talepleri “satışa dönüşmeyen” gibi görünür ama doğru script ile rezervasyona bağlanır. Burada amaç; uzun anlatım değil, net cevap + 1 soru ile ilerlemek (ihtiyaç analizi)."
+          },
+          { "type": "h3", "text": "Bilgi script’i kuralı (kısa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 net cevap",
+              "1 açıklayıcı detay",
+              "1 yönlendirici soru (“tarih/kişi/oda tercihi”)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "En çok sorulan 10 bilgi sorusunu çıkarın; her biri için 4 dilde 3 satırlık şablon yazın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sikayet-kriz",
+        "title": "Şikâyet ve kriz senaryoları: empati + çözüm + kayıt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Şikâyette hedef; “haklısınız” demek değil, kontrolü almak ve doğru ekibe doğru formatta aktarmaktır. Script burada iki parçalıdır: (1) empatik karşılama (2) çözüm adımı + kayıt."
+          },
+          { "type": "h3", "text": "Şikâyet script’i mini akış" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Empati (duyguyu anlama)",
+              "Net bilgi toplama (oda no/tarih/kanıt)",
+              "Çözüm aksiyonu + geri dönüş zamanı",
+              "Kayıt (PMS/CRM notu)"
+            ]
+          },
+          {"type":"media","slot":"management-cycle"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Geri dönüş zamanı” cümlesini zorunlu yapın.",
+              "Şikâyetleri etiketleyin (temizlik/yemek/oda/transfer vb.)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-whatsapp-dm-kisa",
+        "title": "OTA, WhatsApp ve DM’den gelen talepler için kısa script’ler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Telefon script’i uzun olabilir; WhatsApp/DM/OTA mesajı ise kısa ve net olmalı. Burada asıl hedef “tek mesajda kapatmak” değil; hızlı yanıt + ihtiyaç sorusu + sonraki adım."
+          },
+          { "type": "h3", "text": "Kısa mesaj kuralı (3 satır)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Selam + otel + “yardım”",
+              "1 net bilgi",
+              "1 ihtiyaç sorusu / CTA"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "4 Dilli Çağrı Script Template’ini İndir",
+            "text": "Ekibinize hazır şablon bankası olarak verin; WhatsApp/OTA mesajlarını 2 dakikada standardize edin.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "media",
+            "slot": "agent-screen-notes-mockup",
+            "note": "Buraya: Agent ekran notları mockup’ı (etiketler + hazır cevaplar)."
+          }
+        ]
+      },
+      {
+        "id": "ton-marka-dili-kalite",
+        "title": "Script, ton ve marka dili uyumunu korumak (kalite & eğitim)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Script’i yazmak kolay; yaşatmak zordur. Yaşaması için “eğitim + kalite dinleme + güncelleme döngüsü” gerekir. Özellikle DE ve RU pazarı için selamlama/kapanış cümleleri “fazla samimi” veya “fazla sert” algılanabilir; bu yüzden marka tonunu 2 seviyede tanımlamak işe yarar: resmi ve dostça-resmi."
+          },
+          { "type": "h3", "text": "Script yönetim modeli (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık 1 kalite dinleme oturumu",
+              "En sık 5 soru için şablon güncelleme",
+              "Yeni agent için onboarding paketi (script + örnek konuşma)"
+            ]
+          },
+          {"type":"media","slot":"quality-education"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Script’i “versiyonlu doküman” yapın (v1.0, v1.1…).",
+              "Güncelleme tetikleyicileri: sezon, fiyat politikası, kampanya, yeni konsept."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uygulama-plani-7-adim",
+        "title": "Uygulama planı: Oteller için 7 adımda script devreye alma (SXO)",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "10 senaryo seç (rezervasyon, iptal, şikâyet, transfer…)",
+              "TR akışı çıkar (Açılış→İhtiyaç→Teklif→İtiraz→Kapanış)",
+              "EN/DE/RU uyarlama (kültür–ton bazlı)",
+              "Telefon + WhatsApp + OTA kısa versiyonları üret",
+              "HTML tabloları hazırlayıp mobil kaydırma UX’ini test et",
+              "Kalite formu ve KPI bağlantısı kur",
+              "14 günlük pilot → geri bildirim → v1.1 güncelleme"
+            ]
+          },
+          {"type":"media","slot":"7-step-plan"},
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "TR–EN–DE–RU Çağrı Script Tasarım Danışmanlığı Al",
+            "text": "Otelinize özel senaryoları seçip 4 dilde “hazır konuşma bankası + akış” paketini birlikte çıkaralım.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "secondary-asset-template",
+        "title": "4 Dilli Çağrı Script Template’ini İndir — Çağrı Merkezi / Otel Script & Akış (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "4 Dilli Çağrı Script Template’ini İndir — Çağrı Merkezi / Otel Script & Akış (v1.0)",
+            "purpose": "Bu şablon, otellerin TR–EN–DE–RU çağrı ve mesajlaşma senaryoları için konuşma akışını ve hazır cümle bankasını tek dokümanda standartlaştırmak içindir. Agent onboarding süresini kısaltır, ton tutarlılığını artırır ve WhatsApp/OTA kısa metinlerinde hız kazandırır.",
+            "whoFor": "Rezervasyon lideri, çağrı merkezi kalite/eğitim sorumlusu, satış–pazarlama ekibi.",
+            "steps": [
+              "Otelinize en uygun 10 senaryoyu seçin (rezervasyon, iptal, şikâyet…).",
+              "TR akışını doldurun; sonra EN/DE/RU’yu kültür–ton uyumuyla uyarlayın.",
+              "Telefon + WhatsApp/OTA kısa versiyonlarını çıkarıp pilotta test edin."
+            ],
+            "href": "/downloads/4-dilli-cagri-script-template-otel-akis-v1.0.pdf",
+            "buttonLabel": "Template’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "4 dilli çağrı script’i nasıl yazılır?",
+        "a": "Önce tek bir konuşma akışı kurun (açılış–ihtiyaç–teklif–itiraz–kapanış), sonra her dil için kültür ve ton uyumuyla uyarlayın. Kanal bazlı (telefon vs WhatsApp/OTA) kısa versiyonlar üretin."
+      },
+      {
+        "q": "TR–EN–DE–RU açılış cümleleri nasıl olmalı?",
+        "a": "Agent adı + otel adı + yardım cümlesi + ihtiyaç sorusu içermeli. DE ve RU’da daha “dostça-resmi” tonda, net ve kısa yapı genelde daha güvenli çalışır."
+      },
+      {
+        "q": "Rezervasyon ve şikâyet için script’leri nasıl ayırmalıyım?",
+        "a": "Rezervasyonda hedef kapanış ve takip planıdır; şikâyette hedef kontrolü almak, bilgi toplamak, çözüm ve geri dönüş zamanını netleştirmektir. KPI’ları da farklı tanımlayın."
+      },
+      {
+        "q": "OTA ve WhatsApp mesajları için kısa metinleri nasıl kurgularım?",
+        "a": "3 satır kuralı uygulayın: selam + net bilgi + ihtiyaç sorusu/CTA. Uzun açıklama yerine bir sonraki adımı tetikleyen soru sorun."
+      },
+      {
+        "q": "Script’ler agent onboarding’i nasıl etkiler?",
+        "a": "Standart akış ve cümle bankası sayesinde yeni agent daha hızlı “doğru tonu” yakalar; ilk günlerden itibaren tutarlı hizmet ve satış dili oluşur (yönlü)."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "call-flow — Konuşma Akışı Diyagramı (Açılış→İhtiyaç→Teklif→İtiraz→Kapanış)",
+          "good-bad-script-comparison — “İyi/Kötü Script” karşılaştırma görseli (aynı senaryo)",
+          "agent-screen-notes-mockup — Agent ekran notları mockup’ı (etiketler + hazır cevaplar)",
+          "hero-16x9 — Hero görsel (4 dil + konuşma akışı + kanal ikonları: telefon/WA/OTA)",
+          "html-table-4lang — HTML tablo (mobilde yatay kaydırma) 4 dil yan yana"
+        ],
+        "technicalChecklist": [
+          "Açılış→İhtiyaç→Teklif→İtiraz→Kapanış akışı tek çatı altında tanımlandı",
+          "TR akışı finalize edilip EN/DE/RU kültür–ton uyumuyla uyarlanacak şekilde kural seti yazıldı",
+          "Telefon + WhatsApp/OTA kanal versiyonları ayrıştırıldı (metin uzunluğu/ritim farkı)",
+          "Açılış şablonları için 4 dil yan yana HTML tablo notu eklendi (mobil yatay kaydırma)",
+          "Fiyat itirazı ve follow-up zamanı kuralı zorunlu hale getirildi",
+          "Şikâyet akışında geri dönüş zamanı ve kayıt (PMS/CRM notu) adımı zorunlu hale getirildi",
+          "Script yönetimi için versiyonlama (v1.0/v1.1) ve haftalık kalite dinleme döngüsü tanımlandı"
+        ]
+      }
+    }
+  },
+
+  "BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek": {
+    "title": "SEO+SEM+SMM Tek Panel: Otel Dashboard | DGTLFACE",
+    "slug": "seo-sem-smm-verilerini-tek-panelde-birlestirmek",
+    "department": "veri-analizi-raporlama",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "SEO, Google Ads ve sosyal medya verisini Looker Studio’da birleştirin. Organik trafik, ROAS, etkileşim ve rezervasyon dönüşümlerini tek ekranda kıyaslayın; bütçeyi kanala göre optimize edin.",
+    "seo": {
+      "metaTitle": "SEO+SEM+SMM Tek Panel: Otel Dashboard | DGTLFACE",
+      "metaDescription": "SEO, Google Ads ve sosyal medya verisini Looker Studio’da birleştirin. Organik trafik, ROAS, etkileşim ve rezervasyon dönüşümlerini tek ekranda kıyaslayın; bütçeyi kanala göre optimize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog / URL: https://dgtlface.com/tr/raporlama/blog/seo-sem-smm-verilerini-tek-panelde-birlestirmek",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
+        "Not (Varsayım): Sheet’te “Content Style: Intermediate Strategy” yazsa da V2.3 kilidi gereği seviye Intermediate–Expert bandında üretilmiştir."
+      ],
+      "strategySummary": "Bu blog, raporlama silosunda “kanal bazlı düşünmeyi kırıp” SEO + SEM + SMM + rezervasyon verisini tek panelde konuşturan authority (referans) içerik rolünde; ileride diğer blogların iç link verdiği merkez yazı olarak konumlanır. Hedef persona, resort otellerde (Antalya/Belek/Side gibi) pazarlama bütçesini yöneten ekipler ve ajans yöneticileridir. Funnel’da consideration → conversion bandında, “hangi kanal gerçekten rezervasyon ve gelir getiriyor?” kararını kolaylaştırır. Ana iş sorusu: “Çok kanallı performansı tek dashboard’ta nasıl birleştirir, ortak KPI’larla kanal katkısını nasıl kıyaslarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oteller için SEO, SEM ve SMM verilerini ayrı ayrı izlemek yerine Looker Studio’da tek panelde birleştirmek, kanal katkısını net görmeyi sağlar. Organik trafik ve görünürlük (SEO), reklam harcaması/ROAS ve dönüşümler (SEM) ile erişim/etkileşim ve tıklamalar (SMM) aynı dashboard’ta yan yana olduğunda, hangi kanalın gerçekten rezervasyon ve gelir ürettiği anlaşılır. Bu rehberde veri kaynaklarını bağlayıp ortak KPI panosu tasarlamayı adım adım anlatıyoruz.",
+      "sgeSummary": "SEO, Ads ve sosyal verilerini Looker Studio’da tekleştir: organik trafik, ROAS, etkileşim ve rezervasyonu aynı panelde kıyasla. Ortak KPI panosu ile bütçe ve stratejiyi kanala göre optimize et.",
+      "voiceAnswer": "Looker Studio’da SEO, reklam ve sosyal veriyi tek panelde birleştirip hangi kanalın rezervasyon getirdiğini görürsünüz.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış–pazarlama, revenue, ajans yöneticisi",
+        "Ana KPI’lar: Organik trafik, marka araması, ROAS, CPA, rezervasyon dönüşümü, gelir, etkileşim oranı",
+        "Entity’ler: SEO Performance, Google Ads, Meta Ads, Social Media Metrics, Reservation Conversions, Multi-Channel Dashboard",
+        "Geo bağlamı: Antalya / Belek / Side resort otel senaryoları (doğal kullanım)",
+        "Funnel: Consideration → Conversion (bütçe dağılımı ve kanal katkısı)",
+        "Çıktı: Çok kanallı funnel + ortak KPI panosu + 3 hazır dashboard fikri",
+        "Başarı ölçütü: “Kanal katkısı” netleşir; optimizasyon hızı artar"
+      ]
+    },
+    "h1": {
+      "title": "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek",
+      "intro": "Özet Kutusu (SXO):\nBu rehber, otellerde “SEO ayrı, reklam ayrı, sosyal ayrı” raporlama alışkanlığını bitirmek için hazırlandı. Looker Studio’da tek panel kurarak (1) veri kaynaklarını bağlayacak, (2) SEO–SEM–SMM için ortak KPI setini tanımlayacak, (3) kanal bazlı funnel ve katkı kıyasıyla bütçe/stratejiyi optimize edeceksiniz.",
+      "mediaNotes": [
+        "Buraya: [Hero / Cover] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-hero-01.webp — “Çok kanallı otel performans dashboard’unu anlatan kapak görseli”",
+        "Buraya: [H1 sonrası Context] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-h1-context-02.webp — “SEO SEM SMM verilerinin tek panelde birleştiği otel bağlam görseli”"
+      ],
+      "ctaPrimary": {
+        "label": "SEO + SEM + SMM Dashboard Kurulum Danışmanlığı Al",
+        "text": "Çok kanallı veriyi tek panelde birleştirip kanal katkısını net görmek isteyen oteller için",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "SEO + SEM + SMM Dashboard Kurulum Danışmanlığı Al",
+        "text": "Çok kanallı raporu tek standarda oturtup bütçeyi kanal katkısına göre optimize etmek isteyen oteller için",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Multi-Channel Otel Performans Dashboard Örneğini İndir",
+        "text": "Hazır şablonla sayfa düzenini ve KPI setini hızlıca uyarlayıp zaman kazanırsınız.",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Looker Studio Raporlama",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      },
+      {
+        "label": "Raporlama",
+        "href": "https://dgtlface.com/tr/raporlama"
+      },
+      {
+        "label": "Satış dönüşüm raporlama",
+        "href": "https://dgtlface.com/tr/raporlama/satis-donusum"
+      },
+      {
+        "label": "SEO raporlama",
+        "href": "https://dgtlface.com/tr/seo/seo-raporlama"
+      },
+      {
+        "label": "Reklam raporlama",
+        "href": "https://dgtlface.com/tr/sem/reklam-raporlama"
+      },
+      {
+        "label": "SMM analiz raporlama",
+        "href": "https://dgtlface.com/tr/smm/analiz-raporlama"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tek-panelde-nasil-birlestirirsiniz",
+        "title": "SEO, SEM ve SMM verilerini tek panelde nasıl birleştirirsiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap (AEO – net çözüm):\nLooker Studio’da tek panel için önce GA4’ü “ortak omurga” yaparsınız; SEO (Search Console), SEM (Google Ads), SMM (Meta Ads / sosyal metrikler) verilerini bağlar, ardından “ortak KPI panosu” ile kanalları aynı ölçekte kıyaslarsınız. Son adımda, trafik→dönüşüm→gelir akışını tek ekranda gösterip kanal katkısını görünür kılarsınız."
+          },
+          {
+            "type": "h3",
+            "text": "4–5 adımda özet How-To"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedefi tanımla: “Hangi kanal rezervasyon getiriyor?”",
+              "Ortak omurgayı kur: GA4 (dönüşüm/rezervasyon olayları)",
+              "Kanal kaynaklarını bağla: Search Console + Google Ads + Meta Ads / sosyal metrikler",
+              "Ortak KPI panosu tasarla: aynı tarih aralığı + aynı segmentler (ülke/dil/cihaz)",
+              "Kanal katkısını yorumla: funnel + ROAS/CPA + organik katkı + etkileşim destek rolü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "GA4’te rezervasyon/lead dönüşümleri net mi?",
+              "Kampanya isimlendirme/UTM standardı var mı?",
+              "Aynı raporda “trafik” ve “gelir” aynı döneme mi bakıyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GA4 dönüşümlerini düzeltmeden paneli büyütme",
+              "Önce tek sayfa “Executive (GM) Paneli” çıkar",
+              "Sonra kanal detay sayfalarını ekle (SEO/Ads/Social)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ortak-kpi-mantigi",
+        "title": "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok kanallı panelin kilidi, her kanalı aynı KPI ile boğmak değil; ortak KPI’lar + kanal özel KPI’lar dengesini kurmaktır. SEO çoğunlukla organic traffic ve talep sinyali üretir; Ads genelde paid bookings ve hızlı hacim sağlar; Social ise erişim/etkileşimle talebi besler ve remarketing havuzunu büyütür. Otel özelinde bu üçü, rezervasyon dönüşümünde birbirini etkiler."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış):\nİyi kurgulanmış panellerde, çoğu tesiste reklam harcamasının yalnızca belli kampanyalarda yüksek ROAS ürettiği; organik trafiğin ise özellikle marka aramalarında güçlü olduğu daha görünür hale gelir."
+          },
+          {
+            "type": "media",
+            "slot": "single-panel",
+            "note": "Buraya: [Section Divider 01] — 4:3 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-divider-03.webp — “Ortak KPI mantığına geçiş bölüm ayırıcı görseli”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "“Başarı” tanımı tek mi? (rezervasyon/günlük gelir)",
+              "Kanallar aynı “atribüsyon” mantığıyla mı okunuyor?",
+              "Marka araması trendi takip ediliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ortak KPI’ları 8–12 ile sınırla",
+              "Kanal özel KPI’ları ayrı blokta tut",
+              "“Kanal rolü” notlarını dashboard’a metin kutusu olarak ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-kaynaklarini-baglamak",
+        "title": "Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kısımda amaç “hepsini bir günde bitirmek” değil; tek panelin ilk sürümünü (MVP) çıkarıp sonra geliştirmektir. Antalya/Belek/Side gibi resort otellerde sezon baskısı varken, “çalışan panel” çok hızlı değer üretir."
+          },
+          {
+            "type": "h3",
+            "text": "GA4 (omurga) — dönüşümler ve segmentler"
+          },
+          {
+            "type": "p",
+            "text": "GA4, bütün kanalların aynı “sonuç” noktasına bağlandığı yer olmalı: rezervasyon, lead, telefon/WhatsApp gibi mikro dönüşümler. GA4’te dönüşüm mantığı netleşmeden çok kanallı rapor yanıltıcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "SEO KPI’ları (Search Console + GA4)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Organik tıklamalar, gösterimler, sorgular",
+              "Landing page performansı (otel sayfaları / kampanyalar)",
+              "Marka vs marka dışı talep sinyali"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SEM KPI’ları (Google Ads)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Harcama, tıklama, dönüşüm, ROAS/CPA",
+              "Kampanya bazlı katkı (özellikle remarketing vs acquisition)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "SMM KPI’ları (Meta Ads + sosyal metrikler)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erişim, etkileşim, link tıklaması",
+              "Video izlenme / içerik etkileşimi (talep besleme)",
+              "Remarketing havuzu büyümesi (dolaylı katkı)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "looker-studio",
+            "note": "Buraya: [Diagram / Flow] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-diagram-05.webp — “Kanal verilerinden GA4 omurgasına ve dashboard’a akış diyagramı”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Tüm kaynaklar aynı zaman diliminde mi? (timezone)",
+              "Kampanya adları tutarlı mı?",
+              "KPI’lar aynı segmentte kıyaslanıyor mu? (TR/DE/RU, mobil vs)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce GA4 + GSC + Google Ads’i bağla",
+              "Sonra Meta Ads / sosyal metrikleri ekle",
+              "Her kaynak için “tanım notu” kutusu koy (yanlış okumayı azaltır)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ortak-kpi-panosu-tasarimi",
+        "title": "Ortak KPI panosu tasarlamak (Executive Panel + Kanal Sayfaları)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Tek panel” derken en büyük hata, her şeyi tek sayfaya sıkıştırmaktır. Doğru yaklaşım:\n• 1 sayfa Executive Panel (GM için)\n• 3 sayfa SEO / SEM / SMM detay\n• 1 sayfa Kanal bazlı karşılaştırma + funnel"
+          },
+          {
+            "type": "h3",
+            "text": "Executive Panel (GM) — tek bakışta karar"
+          },
+          {
+            "type": "p",
+            "text": "Üst sıra: Rezervasyon, gelir, ROAS/CPA (özet)\nOrta sıra: Trafik→dönüşüm akışı\nAlt sıra: Kanal katkısı kıyası (organik/paid/social)"
+          },
+          {
+            "type": "media",
+            "slot": "common-kpi-panel",
+            "note": "Buraya: [KPI / Score Card] — 1:1 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-kpi-07.webp — “Çok kanallı KPI skor kartı paneli görseli”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "GM panelinde “aksiyon” üretmeyen metrik var mı? çıkar",
+              "Panelde net 1–2 “hikâye” var mı? (talep→satış)",
+              "Kanal katkısı tek grafikte görülebiliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GM panelini sade tut (maks 12 KPI)",
+              "Detayı SEO/Ads/Social sayfalarına taşı",
+              "Haftalık toplantıda sadece GM paneliyle başla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kanal-bazli-karsilastirma",
+        "title": "Kanal bazlı performans karşılaştırması (funnel + katkı okuması)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok kanallı karşılaştırmada hedef, “hangi kanal daha iyi” tartışması değil; hangi kanal hangi aşamada güçlü sorusunu yanıtlamaktır:\n• SEO: talep + organik görünürlük + marka araması sinyali\n• Ads: hızlı hacim + hedefli dönüşüm\n• Social: üst hunide talep besleme + remarketing yakıtı"
+          },
+          {
+            "type": "media",
+            "slot": "installation-steps",
+            "note": "Buraya: [Section Divider 02] — 4:3 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-divider-04.webp — “Kanal bazlı funnel karşılaştırmasına geçiş ayırıcı görseli”"
+          },
+          {
+            "type": "media",
+            "slot": "dashboard-multi-channel-diagram",
+            "note": "Buraya: [Dashboard Grafiği / Multi-channel] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-diagram-06.webp — “SEO SEM SMM KPI’larını tek panelde gösteren çok kanallı dashboard grafiği”\n(Not: Media setinde “diagram” tek type geçtiği için bu görseli diagram varyasyonu olarak kurgula.)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Funnel’da kopuş hangi aşamada? (trafik, dönüşüm, gelir)",
+              "Ads’te yüksek harcama her kampanyada mı ROAS üretiyor?",
+              "Organik trafik “marka dışı”da artıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Yüksek harcama kampanyalarını ROAS’a göre sınıflandır",
+              "Organik tarafta marka vs marka dışı ayrımını netleştir",
+              "Social’de etkileşim → tıklama → remarketing etkisini panelde görünür yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3-dashboard-fikri",
+        "title": "Hemen uygulayabileceğin 3 dashboard fikri (SXO)",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Kanal Katkısı” Sayfası: Organik + Paid + Social → rezervasyon/günlük gelir kıyası",
+              "“Kampanya Sağlığı” Sayfası: Ads kampanya bazlı ROAS/CPA + landing performansı",
+              "“Sezon Kıyas” Sayfası: Bu yıl vs geçen yıl aynı hafta (Antalya/Belek/Side senaryosu)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "gains",
+            "note": "Buraya: [Checklist / Framework Card] — 1:1 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-checklist-08.webp — “Üç hazır dashboard fikrini özetleyen framework kartı görseli”"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Multi-Channel Otel Performans Dashboard Örneğini İndir",
+            "text": "Hazır panel şablonunu indirip KPI ve sayfa düzenini hızlıca uyarlarsınız.",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "SEO + SEM + SMM Dashboard Kurulum Danışmanlığı Al",
+            "text": "Çok kanallı raporu tek standarda oturtup bütçeyi kanal katkısına göre optimize etmek isteyenler için",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      
+      {
+        "id": "kpi-matrisi-tablo",
+        "title": "SEO–SEM–SMM Ortak KPI Matrisi (Otel)",
+        "blocks": [
+          {
+            "type": "table",
+            "name": "SEO–SEM–SMM Ortak KPI Matrisi (Otel)",
+            "headers": [
+              "Kanal",
+              "KPI örnekleri",
+              "Funnel rolü",
+              "Yönetim kararı"
+            ],
+            "rows": [
+              [
+                "SEO",
+                "Organik tıklama, görünürlük, marka araması",
+                "Talep üretimi",
+                "İçerik/teknik öncelik"
+              ],
+              [
+                "SEM",
+                "Harcama, ROAS, CPA, dönüşüm",
+                "Hızlı hacim",
+                "Bütçe/kampanya optimizasyonu"
+              ],
+              [
+                "SMM",
+                "Erişim, etkileşim, tıklama",
+                "Talep besleme",
+                "İçerik formatı/remarketing"
+              ],
+              [
+                "Ortak",
+                "Rezervasyon dönüşümü, gelir",
+                "Sonuç",
+                "Kanal katkısı kıyası"
+              ]
+            ],
+            "note": "Tablo (1 adet) — konuya uygun seçim: Kanal → KPI → Funnel aşaması → Karar"
+          }
+        ]
+      },
+      {
+        "id": "secondary-asset-dashboard-ornek",
+        "title": "Multi-Channel Otel Performans Dashboard Örneğini İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Multi-Channel Otel Performans Dashboard Örneğini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu asset, oteller için SEO–SEM–SMM verilerini Looker Studio’da tek panelde birleştirmek üzere hazır bir “çok kanallı dashboard” iskeleti sunar. KPI seti, sayfa düzeni ve kanal katkısı okumayı standartlaştırır; ekibin aynı panel üzerinden karar almasını hızlandırır.",
+            "whoFor": "GM, satış–pazarlama, revenue ekipleri ve ajans raporlama yöneticileri.",
+            "steps": [
+              "GA4 + Search Console + Google Ads + Meta Ads kaynaklarını bağlayın.",
+              "KPI kartlarını kendi otel hedeflerinize göre düzenleyin (rezervasyon, gelir, ROAS/CPA).",
+              "Haftalık “kanal katkısı” toplantısında paneli aksiyon listesiyle kapatın."
+            ],
+            "templateType": "Template (indirilebilir örnek/şablon)",
+            "emptyFields": [
+              "Otel Adı: ________ | Destinasyon (Antalya/Belek/Side vb.): ________",
+              "Dönem: Son 7g / 30g / Sezon: ________",
+              "GA4 Dönüşüm Tanımı (booking/lead): ________",
+              "SEO KPI Seti (GSC): ________",
+              "SEM KPI Seti (Ads): ________",
+              "SMM KPI Seti (Meta/Social): ________",
+              "Ortak KPI Seti (Rezervasyon/Gelir/ROAS): ________",
+              "Kanal Katkısı Notları (rol tanımı): ________",
+              "Haftalık Aksiyon Listesi (3–5 madde): ________"
+            ],
+            "rules": [
+              "KPI sayısını sınırlayın: GM panelinde 10–12’yi geçmeyin.",
+              "Aynı dönemi kıyaslayın: tarih aralıklarını kilitleyin.",
+              "Tanım yazın: “Rezervasyon” hangi kaynak? “Gelir” PMS mi? netleştirin.",
+              "Kampanya isimleri/UTM standardı olmadan kanal kıyası yapmayın.",
+              "Her hafta aynı 3 soruyla başlayın: “Ne değişti? Neden? Ne yapacağız?”"
+            ],
+            "example": "Dönem: Son 30 gün | Ortak KPI: Rezervasyon dönüşümü + gelir + ROAS | Not: Marka araması güçlü, ancak acquisition kampanyalarında ROAS düşük → bütçe yeniden dağıtımı",
+            "checklist": [
+              "GA4 dönüşümleri doğru",
+              "GSC marka vs marka dışı ayrımı var",
+              "Ads kampanya isimleri standart",
+              "Social metrikleri “destek rolü” olarak yorumlanıyor",
+              "Kanal katkısı tek sayfada görülebiliyor"
+            ],
+            "deliverables": [
+              "Executive (GM) panel taslağı",
+              "SEO/SEM/SMM detay sayfaları planı",
+              "Kanal katkısı funnel sayfası",
+              "Haftalık aksiyon rutini şablonu"
+            ],
+            "assetMediaNotes": [
+              "Buraya: [Diagram] — çok kanallı funnel akışı",
+              "Buraya: [Checklist Card] — KPI seti ve rutin özeti",
+              "Buraya: [Proof Card] — deliverables + güven unsuru"
+            ],
+            "href": "/downloads/multi-channel-otel-performans-dashboard-veri-analizi-raporlama-v1.0",
+            "buttonLabel": "Dashboard Örneğini İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "SEO, SEM ve SMM verilerini tek panelde nasıl raporlarım?",
+        "a": "GA4’ü omurga yapın; Search Console, Google Ads ve Meta Ads/sosyal metrikleri bağlayın. Ortak KPI panosu ile kanalların katkısını aynı ekranda kıyaslayın."
+      },
+      {
+        "q": "Oteller için SEO–SEM–SMM performansı Looker Studio’da nasıl takip edilir?",
+        "a": "Executive panelde ortak KPI’ları (rezervasyon, gelir, ROAS/CPA) özetleyin. Ayrı sayfalarda SEO/SEM/SMM detaylarını gösterip funnel ile kanal rolünü netleştirin."
+      },
+      {
+        "q": "Çok kanallı performans dashboard’u nasıl kurulur?",
+        "a": "Önce GA4 dönüşümlerini doğrulayın, sonra kaynakları bağlayın. KPI setini 10–12 ile sınırlayıp GM paneliyle başlayın, iteratif büyütün."
+      },
+      {
+        "q": "Hangi KPI’lar SEO–SEM–SMM için ortak olmalı?",
+        "a": "Rezervasyon dönüşümü, gelir ve (varsa) ROAS/CPA ortak “sonuç” KPI’larıdır. Trafik ve etkileşim ise kanala göre destek KPI’larıdır."
+      },
+      {
+        "q": "Sosyal medya KPI’ları satışa nasıl bağlanır?",
+        "a": "Social metrikleri (erişim/etkileşim/tıklama) genelde talebi besler. Panelde remarketing ve dönüşüm etkisini birlikte okuyarak dolaylı katkıyı görünür kılın."
+      },
+      {
+        "q": "Kanalları kıyaslarken en büyük hata nedir?",
+        "a": "Tanımlar net değilken (rezervasyon/gelir kaynağı, dönem, segment) kıyas yapmak. Önce veri sözlüğü ve dönem/segment standardı kurun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-hero-01.webp (16:9) — Alt: “SEO SEM SMM verilerini tek otel dashboard’ta birleştirmeyi anlatan kapak görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-h1-context-02.webp (16:9) — Alt: “Otelde çok kanallı verinin tek panelde buluştuğu bağlam görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-divider-03.webp (4:3) — Alt: “Ortak KPI panosuna geçişi ayıran bölüm görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-divider-04.webp (4:3) — Alt: “Kanal bazlı performans kıyasına geçişi ayıran bölüm görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-diagram-05.webp (16:9) — Alt: “SEO Ads sosyal veriden GA4 omurgasına ve dashboard’a akış diyagramı”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-checklist-06.webp (1:1) — Alt: “Çok kanallı dashboard kurulum adımlarını özetleyen kontrol kartı görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-kpi-07.webp (1:1) — Alt: “Otel için SEO SEM SMM ortak KPI skor kartı panel görseli”",
+          "seo-sem-smm-verilerini-tek-panelde-birlestirmek-proof-08.webp (1:1) — Alt: “Çok kanallı raporlama çıktıları ve güven unsurlarını gösteren kanıt kartı”"
+        ],
+        "tablePack": [
+          "SEO–SEM–SMM Ortak KPI Matrisi (Otel) — Kanal → KPI örnekleri → Funnel rolü → Yönetim kararı"
+        ],
+        "ctaRules": [
+          "Primary CTA 2 kez: H1 giriş sonunda + son 1/3",
+          "Secondary CTA 1 kez: orta/son-orta",
+          "Primary CTA metni kilitli",
+          "Secondary CTA metni kilitli"
         ]
       }
     }
