@@ -7,7 +7,8 @@ export const BLOG_MAP = {
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
-    "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin"
+    "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin",
+    "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu"
   },
 
     smm: {
@@ -30,7 +31,8 @@ export const BLOG_MAP = {
   },
 
      "pms-ota": {
-    "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir"
+    "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir",
+    "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim"
   },
 
       "veri-analizi-raporlama": {
@@ -40,7 +42,8 @@ export const BLOG_MAP = {
 
 
   hotel:{
-    "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir"
+    "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir",
+    "oda-sayfalari-google-travel-icin-nasil-optimize-edilir":"BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir"
   }
 };
 

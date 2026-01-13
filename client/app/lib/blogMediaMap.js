@@ -1019,7 +1019,7 @@ export const BLOG_MEDIA_MAP = {
 
 
 
-   "hotel": {
+   "oda-sayfalari-google-travel-icin-nasil-optimize-edilir": {
       banner: {
       src: "/images/blog/hotel/Hotel1-2/Hotel1-2-1.jpeg",
       alt: "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?",
@@ -1032,13 +1032,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak"
     },
 
-           "e": {
+           "landing-page": {
       src: "/images/blog/hotel/Hotel1-2/Hotel1-2-3.jpeg",
       alt: " Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
       caption: "Ortak KPI Paneli"
     },
 
-     "10-": {
+     "10-critical-areas": {
       src: "/images/blog/hotel/Hotel1-2/Hotel1-2-4.jpeg",
       alt: "",
       caption: "Oda Sayfası: 10 Kritik Alan"
@@ -1066,6 +1066,115 @@ export const BLOG_MEDIA_MAP = {
 
          "download": {
       src: "/images/blog/hotel/Hotel1-2/Hotel1-2-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
+  "pms-kurulum-projesi-adim-adim": {
+      banner: {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-1.jpeg",
+      alt: "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?",
+      caption: "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?"
+    },
+
+          "6-step": {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-2.jpeg",
+      alt: "PMS Kurulum Projesinin Aşamaları",
+      caption: "PMS Kurulum Projesi: 6 Adımda Başarı Yolculuğu"
+    },
+
+           "phase-plan": {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-3.jpeg",
+      alt: "Faz Mantığı ",
+      caption: "Faz Mantığı "
+    },
+
+     "matrix": {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-4.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist": {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+
+
+     "download": {
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-6.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+   "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu": {
+      banner: {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-1.jpeg",
+      alt: "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?",
+      caption: "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?"
+    },
+
+          "robots-sitemap": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-2.jpeg",
+      alt: "robots.txt ve sitemap.xml",
+      caption: "robots.txt ve sitemap.xml"
+    },
+
+           "sitemap-structure": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-3.jpeg",
+      alt: "Sitemap index (çoklu sitemap yönetimi) ",
+      caption: "İdeal Otel Sitemap Yapısı "
+    },
+
+     "crawl-budget": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-4.jpeg",
+      alt: "Tarama Bütçesini Yönetmek (Crawl Budget)",
+      caption: "Crawl Budget Yönetimi: Verimli vs İsraf"
+    },
+
+          "reservation": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-5.jpeg",
+      alt: "Hangi Sayfalar Engellenmeli / Açık Olmalı?",
+      caption: "Rezervasyon Adımları İndeks Riski"
+    },
+
+     "robots-example-code": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-6.jpeg",
+      alt: "Örnek robots.txt (otel odaklı, güvenli başlangıç)",
+      caption: "Örnek otel robots.txt dosyası"
+    },
+
+        "sitemap-example": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-7.jpeg",
+      alt: "",
+      caption: "Örnek sitemap.xml dosyası"
+    },
+
+        "search-console": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-8.jpeg",
+      alt: "Test ve Doğrulama Süreci (Search Console)",
+      caption: "Google Search Console Paneli"
+    },
+
+        "performance": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-9.jpeg",
+      alt: "",
+      caption: "Öncesi/Sonrası: Tarama & Keşif Performansı"
+    },
+
+        "download": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-10.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+            "sitemap-file": {
+      src: "/images/blog/seo/SEO1-3/SEO1-3-11.png",
       alt: "",
       caption: ""
     }

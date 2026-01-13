@@ -32000,7 +32000,7 @@
       },
       {
         "id": "dort-dilde-script-nasil",
-        "title": "4 dilli çağrı script’i nasıl tasarlanmalı? (AEO)",
+        "title": "4 dilli çağrı script’i nasıl tasarlanmalı? ",
         "blocks": [
           {
             "type": "p",
@@ -32222,7 +32222,7 @@
       },
       {
         "id": "uygulama-plani-7-adim",
-        "title": "Uygulama planı: Oteller için 7 adımda script devreye alma (SXO)",
+        "title": "Uygulama planı: Oteller için 7 adımda script devreye alma ",
         "blocks": [
           {
             "type": "list",
@@ -32361,7 +32361,7 @@
     },
     "h1": {
       "title": "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek",
-      "intro": "Özet Kutusu (SXO):\nBu rehber, otellerde “SEO ayrı, reklam ayrı, sosyal ayrı” raporlama alışkanlığını bitirmek için hazırlandı. Looker Studio’da tek panel kurarak (1) veri kaynaklarını bağlayacak, (2) SEO–SEM–SMM için ortak KPI setini tanımlayacak, (3) kanal bazlı funnel ve katkı kıyasıyla bütçe/stratejiyi optimize edeceksiniz.",
+      "intro": "Özet Kutusu :\nBu rehber, otellerde “SEO ayrı, reklam ayrı, sosyal ayrı” raporlama alışkanlığını bitirmek için hazırlandı. Looker Studio’da tek panel kurarak (1) veri kaynaklarını bağlayacak, (2) SEO–SEM–SMM için ortak KPI setini tanımlayacak, (3) kanal bazlı funnel ve katkı kıyasıyla bütçe/stratejiyi optimize edeceksiniz.",
       "mediaNotes": [
         "Buraya: [Hero / Cover] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-hero-01.webp — “Çok kanallı otel performans dashboard’unu anlatan kapak görseli”",
         "Buraya: [H1 sonrası Context] — 16:9 — seo-sem-smm-verilerini-tek-panelde-birlestirmek-h1-context-02.webp — “SEO SEM SMM verilerinin tek panelde birleştiği otel bağlam görseli”"
@@ -32661,7 +32661,7 @@
       },
       {
         "id": "3-dashboard-fikri",
-        "title": "Hemen uygulayabileceğin 3 dashboard fikri (SXO)",
+        "title": "Hemen uygulayabileceğin 3 dashboard fikri ",
         "blocks": [
           {
             "type": "list",
@@ -32845,6 +32845,1531 @@
           "Secondary CTA 1 kez: orta/son-orta",
           "Primary CTA metni kilitli",
           "Secondary CTA metni kilitli"
+        ]
+      }
+    }
+  },
+
+   "BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir": {
+    "title": "Oda Sayfası SEO: Google Travel ile Direct Booking | DGTLFACE",
+    "slug": "oda-sayfalari-google-travel-icin-nasil-optimize-edilir",
+    "department": "hotel",
+    "updatedAt": "12 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oda sayfalarını mini landing page’e çevirin: Room type, rate plan, USP, görsel, FAQ ve schema ile Google Travel görünürlüğünü ve booking engine tıklamasını artırın.",
+    "seo": {
+      "metaTitle": "Oda Sayfası SEO: Google Travel ile Direct Booking | DGTLFACE",
+      "metaDescription": "Oda sayfalarını mini landing page’e çevirin: Room type, rate plan, USP, görsel, FAQ ve schema ile Google Travel görünürlüğünü ve booking engine tıklamasını artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa (Hub) / URL: Otel SEO — /tr/otel/seo",
+        "Blog / URL: /tr/otel/blog/oda-sayfalari-google-travel-icin-nasil-optimize-edilir",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/otel/blog/oda-sayfalari-google-travel-icin-nasil-optimize-edilir"
+      ],
+      "strategySummary": "Bu yazı, “Otel SEO” silosunda en yüksek dönüşüm etkisi olan varlıklardan biri olan oda tipi sayfalarını (Room Pages) playbook formatında standardize eder. Hedef persona; GM/satış-pazarlama ve web/ajans ekibidir; karar ihtiyacı “oda sayfalarını mini landing page’e çevirip Google Travel/Hotel Pack görünürlüğünü ve booking engine tıklamasını nasıl artırırım?” sorusudur. Funnel’da consideration → conversion köprüsü kurar: oda sayfasını hem SEO hem UX hem de rezervasyon akışının kritik bir adımı olarak ele alır. Bu içerik, blog #1’de kurulan manifesto çerçevesini alıp uygulama standardına dönüştürür ve ilgili teknik/operasyon sayfalarına iç linkle otorite dağıtır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-12",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Oda sayfaları otel SEO’da “fiyat gösteren teknik sayfa” değil, misafirin oda seçimini ve direct booking kararını veren ana varlıklardır. Doğru oda başlığı, zengin açıklama, güçlü görseller, net USP’ler, FAQ ve iç link yapısı; hem Google Travel/Hotel Pack bağlamında görünürlüğü hem de booking engine’e giden tıklamayı güçlendirir. Oda sayfasını mini landing page gibi kurgulayın: içerik + UX + schema aynı anda çalışsın.",
+      "sgeSummary": "Oda sayfanızı mini landing page’e dönüştürün: room type, rate plan, USP, görsel, FAQ, iç link ve Room schema ile Google Travel görünürlüğünü ve direct booking dönüşümünü artırın.",
+      "voiceAnswer": "Oda sayfasını mini landing page yapın; USP, görsel, FAQ ve schema ile booking engine tıklamasını artırın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış-pazarlama, web/ajans ekibi",
+        "Ana hedef: Oda sayfası → booking engine tıklamasını artırmak, Google Travel görünürlüğünü güçlendirmek",
+        "KPI odağı: Room page → booking engine CTR, dönüşüm oranı, non-brand organik tıklama, rich result görünümü",
+        "Entity’ler: RoomType, RatePlan, Hotel, Amenities, Google Travel Listing, FAQ, Review",
+        "Funnel: Consideration → Conversion",
+        "GEO örnekleme: Antalya/Belek/Side/Kemer/Bodrum (sea view, family, swim-up oda tipleri)",
+        "En kritik kaldıraç: İçerik standardı + UX blokları + Room schema + iç link ağı"
+      ]
+    },
+    "h1": {
+      "title": "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?",
+      "intro": "Oda sayfanız, misafirin “hangi oda?” kararını verdiği yerdir; yani SEO tarafında yakaladığınız talebin rezervasyona dönüşüp dönüşmeyeceğini belirleyen kritik ekrandır. Birçok otelde oda sayfaları yalnızca birkaç fotoğraf ve kısa bir açıklamayla geçiliyor; bu da hem Google Travel bağlamında sayfanın “değerini” düşürüyor hem de booking engine’e geçişi zayıflatıyor. Bu playbook, oda sayfanızı mini landing page standardına taşıyarak hem görünürlüğü hem dönüşümü aynı anda iyileştirmeyi hedefler.",
+      "quickSummary": [
+        "Oda başlığını “Room Type + ayırt edici değer” ile netleştir (örn. Sea View Family Room).",
+        "İlk ekrana 3–5 USP + net CTA koy (rezervasyona giden yol kısa olsun).",
+        "Açıklamayı “kim için + fayda + detay” yapısında yaz; sadece özellik listeleme.",
+        "Fotoğraf setini oda kararını kolaylaştıracak sırada kurgula (geniş açı → detay → banyo → manzara).",
+        "FAQ + (varsa) review snippet ile belirsizliği azalt."
+      ],
+      "ctaPrimary": {
+        "label": "Oda Sayfası SEO & UX Analizi Talep Et",
+        "text": "Oda tiplerinizin (Standard/Deluxe/Suite) hangi bloklarda kayıp yaşadığını netleştirmek için (GM & satış-pazarlama için).",
+        "href": "/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Oda Sayfası SEO & UX Analizi Talep Et",
+        "text": "Oda tiplerinizde (Standard/Deluxe/Suite) kayıp yaşadığınız blokları ve hızlı kazanımları netleştirmek için (GM & satış-pazarlama için).",
+        "href": "/otel/seo"
+      },
+      "secondary": {
+        "label": "Oda Sayfası SEO Wireframe & Checklist’ini İndir",
+        "text": "Sayfanıza 1:1 uygulanabilir blok şablonu verip oda sayfasını 14 günde standardize etmenizi sağlar.",
+        "href": "/otel/seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Otel SEO rehberi", "href": "/otel/seo" },
+      { "label": "Otel dijital pazarlama hub", "href": "/otel-dijital-pazarlama" },
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "label": "İçerik SEO", "href": "/seo/icerik-seo" },
+      { "label": "Online satış / PMS-OTA bağlamı", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      { "title": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "title": "İçerik SEO", "href": "/seo/icerik-seo" }
+    ],
+    "sections": [
+      {
+        "id": "oda-sayfalarinin-seodaki-rolu",
+        "title": "Oda sayfalarının SEO’daki rolü nedir ve neden “mini landing page” gibi düşünülmelidir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda sayfası, otel ürününüzün en somut parçasıdır: oda tipi, kapasite, manzara, konsept, avantajlar, uygunluk… Google açısından da bu sayfa “hotel entity”nin altındaki en güçlü niyet sayfalarından biridir. Bu nedenle oda sayfası; sadece “bilgi” değil, aynı zamanda ikna ve dönüşüm ekranıdır. Rakiplerin çoğu otel genel SEO’suna odaklanır; fakat room page’leri ayrı bir varlık ve mini funnel olarak ele alan rehber azdır—bu içerik o boşluğu kapatır."
+          },
+          { "type": "h3", "text": "Oda sayfası SEO için nasıl hazırlanır? " },
+          { "type": "p", "text": "Kısa cevap (bullet mini cevap):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda başlığını “Room Type + ayırt edici değer” ile netleştir (örn. Sea View Family Room).",
+              "İlk ekrana 3–5 USP + net CTA koy (rezervasyona giden yol kısa olsun).",
+              "Açıklamayı “kim için + fayda + detay” yapısında yaz; sadece özellik listeleme.",
+              "Fotoğraf setini oda kararını kolaylaştıracak sırada kurgula (geniş açı → detay → banyo → manzara).",
+              "FAQ + (varsa) review snippet ile belirsizliği azalt."
+            ]
+          },
+          { "type": "h3", "text": "RoomPage → booking decision ilişkisini açık kur (AIO)" },
+          { "type": "p", "text": "RoomType ve RatePlan mantığını görünür kılın:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "RoomType → partOf → Hotel",
+              "RoomPage → influences → booking decision",
+              "RatePlan → defines → price/conditions"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bunu hem içerikte hem de schema tarafında “okunabilir” hale getirdiğinizde arama niyeti ile sayfa içeriği eşleşir."
+          },
+          { "type": "p", "text": "☑ Mini Check (H2-1):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfası ilk ekranda USP + CTA + güven sinyali veriyor mu?",
+              "Oda açıklaması “kim için ve neden iyi”yi net söylüyor mu?",
+              "FAQ blokları oda kararındaki belirsizlikleri kapatıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Oda sayfasını “mini landing page” olarak yeniden bloklayın.",
+              "İlk ekranı (above-the-fold) dönüşüm odaklı düzenleyin: USP + CTA + kısa özet.",
+              "FAQ ve iç linklerle karar yolculuğunu tamamlayın."
+            ]
+          },
+          { "type": "media", "slot": "landing-page" }
+        ]
+      },
+      {
+        "id": "room-type-rate-plan",
+        "title": "Room Type ve Rate Plan yapısını oda sayfasında nasıl doğru kurarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel tarafında oda tipleri (Standard/Deluxe/Suite) ile rate plan’lar (esnek, iadesiz, HB/AI vb.) çoğu zaman rezervasyon motorunda doğru durur ama sayfa üzerinde “anlaşılır” değildir. Kullanıcı karar verirken yalnız fiyat değil; iptal koşulu, kahvaltı dahil mi, çocuk politikası, manzara gibi detayları net görmek ister. Bu bölüm, oda sayfasında room type ve rate plan mantığını hem UX hem SEO uyumlu hale getirir."
+          },
+          { "type": "h3", "text": "Oda tipi sayfalarında hangi içerikler olmalı? " },
+          { "type": "p", "text": "Kısa cevap (bullet mini cevap):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda özeti: kapasite, metrekare, yatak tipi, manzara (tek satırda)",
+              "“Kim için ideal?” bloğu (aile/çift/iş)",
+              "5–7 amenity/özellik (seçilmiş, gereksiz kalabalık yok)",
+              "Rate plan özet kartları (en az 2 plan: esnek vs iadesiz)",
+              "“Rezervasyon motoruna geçiş” CTA’sı (net ve kısa)"
+            ]
+          },
+          { "type": "h3", "text": "Rate plan’ı sayfa içinde “seçilebilir” hale getir" },
+          { "type": "p", "text": "Varsayım: booking engine fiyat/uygunluk bilgisini gerçek zamanlı yönetiyor. Sayfada ise kullanıcıyı boğmadan şunu yapın:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Fiyatlar rezervasyon ekranında günceldir” notu",
+              "2–3 rate plan kartı: Esnek / İadesiz / Paket gibi",
+              "Her kartta: iptal koşulu + 1 fayda + CTA"
+            ]
+          },
+          { "type": "p", "text": "☑ Mini Check (H2-2):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi ve rate plan ayrımı kullanıcı için anlaşılır mı?",
+              "Rate plan kartlarında koşullar 1–2 cümlede net mi?",
+              "Booking engine’e geçiş yolu tek ve açık mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Rate plan’ları “kısa kartlar”la özetleyin, detay için booking engine’e taşıyın.",
+              "Oda sayfasında “kim için” ve “neden” bloklarını ekleyin.",
+              "CTA’yı gereksiz tekrar etmeden kritik noktalara yerleştirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorsel-metin-usp",
+        "title": "Görsel, metin ve USP’leri direct booking’i artıracak şekilde nasıl kurgularsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda sayfasında iki şey misafir kararını hızlandırır: görsel doğruluk ve fayda netliği. “Güzel foto” tek başına yetmez; fotoğraf seti bir hikâye anlatmalı ve metin, fotoğrafta görünen faydayı desteklemelidir. USP’ler (unique selling points) ise “bu odanın farkı ne?” sorusunu 10 saniyede cevaplamalıdır."
+          },
+          { "type": "h3", "text": "Oda açıklaması iyi yazılmış vs zayıf örnek (competitor gap’i kapat)" },
+          {
+            "type": "p",
+            "text": "Rakiplerin zayıf kaldığı yer: oda açıklamasının “etiket listesi” olması. Fark yaratan yaklaşım:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Problem → Çözüm → Kanıt mini yapısı (kısa)",
+              "Aile odasıysa “çocuklu aile akışı” üzerinden anlatım",
+              "Sea view ise “deneyim” dili + somut detay (balkon, oturma alanı)"
+            ]
+          },
+          { "type": "h3", "text": "“Hemen sayfanıza ekleyebileceğiniz 10 alan” checklist’i " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda başlığı (Room Type + ayırt edici değer)",
+              "3–5 USP (ikonlu kısa)",
+              "Kapasite / metrekare / yatak tipi (tek satır)",
+              "Görsel galeri (sıralı)",
+              "“Kim için ideal?” bloğu",
+              "Amenity/özellik (seçilmiş 5–7)",
+              "Rate plan kartları (2–3)",
+              "FAQ (4–8 soru)",
+              "İç linkler (destinasyon/deneyim/otel SEO rehberi)",
+              "Güven sinyali (iptal/ödeme netliği + iletişim)"
+            ]
+          },
+          { "type": "p", "text": "☑ Mini Check (H2-3):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "USP’ler 10 saniyede “farkı” anlatıyor mu?",
+              "Görsel seti oda kararını kolaylaştırıyor mu?",
+              "Metin fotoğrafla tutarlı mı, “abartı” içeriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "USP’leri 3–5 maddeye indirip “karar hızlandırıcı” yapın.",
+              "Galeriyi karar akışına göre sıralayın (genel → detay → banyo → manzara).",
+              "Oda açıklamasını “kim için + fayda + kanıt” yapısına taşıyın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Sayfası SEO & UX Analizi Talep Et",
+            "text": "Oda tiplerinizde (Standard/Deluxe/Suite) kayıp yaşadığınız blokları ve hızlı kazanımları netleştirmek için (GM & satış-pazarlama için).",
+            "href": "/otel/seo"
+          },
+          { "type": "media", "slot": "10-critical-areas" }
+        ]
+      },
+      {
+        "id": "google-travel-uyumlu-yapi",
+        "title": "Google Travel / Hotel Pack ile uyumlu oda sayfası yapısı nasıl olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Travel/Hotel Pack tarafında görünürlük tek başına “oda sayfası” ile gelmez; fakat oda sayfasının kalitesi ve tutarlılığı otelin bütünsel sinyallerini güçlendirir. Burada amaç; kullanıcıya “resmî, tutarlı, anlaşılır” bir deneyim sunmak ve sayfa içeriğini Google’ın anlayacağı şekilde yapılandırmaktır."
+          },
+          { "type": "h3", "text": "Google Hotel / Travel sonuçları oda sayfalarıyla nasıl ilişkilidir? " },
+          { "type": "p", "text": "Kısa cevap (bullet mini cevap):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfası, otelin “ürün detayı”dır; kullanıcı kararını burada netleştirir.",
+              "Schema (Hotel + Room) ve tutarlı içerik, entity algısını güçlendirir.",
+              "Yerel ve otel varlığı sinyalleri güçlü olduğunda, oda sayfası dönüşümü yükseltir."
+            ]
+          },
+          { "type": "h3", "text": "Review ve FAQ snippet’leri ile belirsizliği azalt" },
+          {
+            "type": "p",
+            "text": "Oda sayfasında micro-copy kritik: “kahvaltı dahil mi?”, “ek yatak olur mu?”, “balkon var mı?”, “manzara garanti mi?” gibi sorulara kısa cevaplar dönüşümü yükseltir."
+          },
+          { "type": "p", "text": "☑ Mini Check (H2-4):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfasında FAQ ile belirsizlikler kapanıyor mu?",
+              "Görsel + metin + koşullar tutarlı mı?",
+              "Sayfa hız ve görsel optimizasyonu doğru mu? (lazy-load, alt text)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Oda sayfasına 4–8 FAQ ekleyin ve JSON-LD ile destekleyin.",
+              "Görsellerde lazy-load + doğru alt text + ölçü optimizasyonu uygulayın.",
+              "Oda sayfasını destinasyon/deneyim içeriklerine bağlayarak “niyet genişletin”."
+            ]
+          },
+          { "type": "media", "slot": "google-travel" }
+        ]
+      },
+      {
+        "id": "ic-link-schema-stratejisi",
+        "title": "Oda sayfaları için iç link ve schema stratejisi nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Oda sayfası, içerik silosunun “paraya en yakın” sayfasıdır. Bu yüzden hem iç link mimarisinde hem schema’da oda sayfasını bir “uç nokta” değil, funnel’ın aktif bir parçası olarak ele alın. İç linkler, kullanıcıyı doğru bağlama taşır; schema ise Google’a “bu sayfa ne?”yi net anlatır."
+          },
+          { "type": "h3", "text": "İç link planı (hotel SEO + teknik + içerik)" },
+          { "type": "p", "text": "Oda sayfalarından şu hedeflere bağlayın:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel SEO rehberi: https://dgtlface.com/tr/otel/seo",
+              "Otel dijital pazarlama hub: https://dgtlface.com/tr/otel-dijital-pazarlama",
+              "Teknik SEO: https://dgtlface.com/tr/seo/teknik-seo",
+              "İçerik SEO: https://dgtlface.com/tr/seo/icerik-seo",
+              "Online satış / PMS-OTA bağlamı: https://dgtlface.com/tr/pms-ota/online-satis"
+            ]
+          },
+          { "type": "h3", "text": "Hotel + Room schema (teknik notla uyumlu)" },
+          { "type": "p", "text": "Her oda sayfasında:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hotel entity’si ile ilişki",
+              "RoomType / amenity / occupancy / bed details (site verisine göre)",
+              "FAQPage (oda özel sorularla)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu, “RoomPage → influences → booking decision” ilişkisinin teknik karşılığıdır."
+          },
+          { "type": "p", "text": "☑ Mini Check (H2-5):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfası iç linkleri silo stratejisine uygun mu?",
+              "Hotel + Room schema planlı mı?",
+              "Oda sayfası alt text ve görsel optimizasyonu doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Oda sayfasını “SEO + UX + dönüşüm” üçlüsüyle standardize edin.",
+              "İç linkleri hem kullanıcı hem Google için anlamlı bağlamlarla kurun.",
+              "Room schema ve FAQPage’i oda sayfası özelinde üretin."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış kullanım): Oda tipi sayfaları iyileştirildiğinde, bazı otellerde room page → booking engine tıklama oranının teorik olarak %10–30 aralığında iyileşebildiği görülebilir (tesis, trafik kalitesi ve UX’e bağlıdır)."
+          },
+          { "type": "h3", "text": "Kapanış: Oda sayfasını “ürün sayfası” değil “karar sayfası” yapın" },
+          {
+            "type": "p",
+            "text": "Oda sayfanız; Google’dan yakalanan talebin rezervasyona dönüşmesi için en kritik ekrandır. Standart bir şablonla (wireframe), içerik blokları ve schema birlikte çalıştığında hem Google Travel tarafındaki algı güçlenir hem de direct booking akışı hızlanır. Bu yazıyı, tüm oda tiplerinize (Standard/Deluxe/Suite; sea view, family room, swim-up room) uygulanacak bir playbook olarak kullanın."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oda Sayfası SEO & UX Analizi Talep Et",
+            "text": "Oda sayfalarınızın tıklama ve dönüşüm kaybını netleştirip hızlı bir iyileştirme planı almak için (GM & satış-pazarlama için).",
+            "href": "/otel/seo"
+          },
+          { "type": "media", "slot": "performance-panel" }
+        ]
+      },
+      {
+        "id": "oda-sayfasi-wireframe-checklist-indir",
+        "title": "Oda Sayfası SEO Wireframe & Checklist’ini İndir — Otel SEO / Room SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Oda Sayfası SEO Wireframe & Checklist’ini İndir — Otel SEO / Room SEO (v1.0)",
+            "purpose": "Bu asset, oda sayfanızı “mini landing page” standardına taşımanız için wireframe bloklarını ve uygulama checklist’ini verir. Hedef; Google Travel uyumunu güçlendirmek, belirsizlikleri FAQ ile kapatmak ve booking engine tıklamasını artıracak net bir sayfa akışı kurmaktır.",
+            "whoFor": "Web/ajans ekibi + satış-pazarlama + GM onayıyla içerik editörü.",
+            "steps": [
+              "Wireframe’deki 10 alanı mevcut oda sayfanızla karşılaştırın.",
+              "Kırmızı kalan blokları önceliklendirip “Problem → Kök Neden → Çözüm” tablosunu doldurun.",
+              "14 günlük sprint planıyla tüm oda tiplerine (sea view, family, swim-up) standardı uygulayın."
+            ],
+            "wireframe": [
+              "Oda Başlığı (Room Type + ayırt edici değer)",
+              "Hero Galeri (geniş → detay → banyo → manzara)",
+              "3–5 USP (ikonlu) + Kapasite/Metrekare/Yatak tipi satırı",
+              "Net CTA (Rezervasyon / Uygunluk Gör)",
+              "“Kim için ideal?” (aile/çift/iş)",
+              "Amenity/Özellik seti (5–7 seçilmiş)",
+              "Rate Plan kartları (Esnek / İadesiz / Paket)",
+              "Oda açıklaması (kim için + fayda + kanıt)",
+              "FAQ (4–8 soru) + (varsa) review alıntı blokları",
+              "İç linkler (destinasyon/deneyim/otel SEO rehberi)"
+            ],
+            "checklist": [
+              "İlk ekran: USP + CTA + kısa özet var",
+              "Oda başlığı “room type + değer” mantığında",
+              "Galeri sırası karar akışına göre düzenli",
+              "Rate plan kartları anlaşılır ve kısa",
+              "FAQ oda kararını etkileyen 4–8 soruyu kapsıyor",
+              "Lazy-load + alt text uygulanmış",
+              "Hotel + Room schema planlı",
+              "Oda sayfası iç linkleri silo hedeflerine bağlı"
+            ],
+            "tables": [
+              {
+                "type": "table",
+                "caption": "Problem → Kök Neden → Çözüm Tablosu",
+                "headers": ["Problem", "Kök Neden", "Çözüm"],
+                "rows": [
+                  ["Oda sayfası trafik alıyor, dönüşüm düşük", "USP/CTA/FAQ zayıf", "Above-the-fold yeniden kurgula + FAQ ekle"],
+                  ["Kullanıcı rate plan’ı anlamıyor", "Koşullar görünmüyor", "2–3 rate plan kartı + kısa koşul satırı"],
+                  ["Görsel “güzel” ama ikna etmiyor", "Galeri sırası yanlış", "Genel → detay → banyo → manzara sırası"],
+                  ["Google oda sayfasını “anlamıyor”", "Schema yok / tutarsız", "Hotel + Room schema + tutarlı içerik"]
+                ]
+              },
+              {
+                "type": "table",
+                "caption": "Öncesi/Sonrası KPI Tablosu (örnek)",
+                "headers": ["KPI", "Önce", "Sonra (14 gün)"],
+                "rows": [
+                  ["Room page → booking engine CTR", "0", "TBD"],
+                  ["Room page dönüşüm oranı", "0", "TBD"],
+                  ["Non-brand oda sayfası tıklaması", "0", "TBD"],
+                  ["FAQ etkileşimi / scroll derinliği", "0", "TBD"]
+                ]
+              }
+            ],
+            "sprintPlan": [
+              "Gün 1–2: Wireframe gap analizi (tüm oda tipleri)",
+              "Gün 3–4: Above-the-fold düzeni + USP/CTA blokları",
+              "Gün 5–6: Galeri düzeni + görsel optimizasyon (lazy-load/alt text)",
+              "Gün 7–8: Rate plan kartları + açıklama revizyonu",
+              "Gün 9–10: FAQ seti (oda özel) + snippet uyumu",
+              "Gün 11–12: İç link planı (destinasyon/deneyim/SEO rehberleri)",
+              "Gün 13: Schema kontrolü (Hotel + Room + FAQPage)",
+              "Gün 14: KPI ölçümü + ikinci sprint backlog"
+            ],
+            "deliverables": [
+              "Room Page wireframe (blok şablonu)",
+              "Room SEO checklist",
+              "14 günlük sprint backlog",
+              "KPI ölçüm kartı"
+            ],
+            "href": "/downloads/oda-sayfasi-seo-wireframe-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          { "type": "media", "slot": "checklist" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Oda sayfası SEO için nasıl hazırlanır?",
+        "a": "Oda sayfasını mini landing page gibi kurgulayın: net başlık, 3–5 USP, güçlü görsel seti, “kim için ideal?” bloğu, rate plan kartları ve 4–8 FAQ ekleyin. İç link ve Room schema ile yapıyı güçlendirin."
+      },
+      {
+        "q": "Google Hotel / Travel sonuçları oda sayfalarıyla nasıl ilişkilidir?",
+        "a": "Oda sayfaları otelin ürün detayını netleştirir ve kullanıcı kararını hızlandırır. Tutarlı içerik ve schema, otelin entity algısını güçlendirirken dönüşüm tarafında booking engine’e geçişi iyileştirir."
+      },
+      {
+        "q": "Oda tipi sayfalarında hangi içerikler olmalı?",
+        "a": "Oda özeti (kapasite/metrekare/yatak), USP’ler, galeri, açıklama, amenity seti, rate plan özetleri, FAQ, iç linkler ve net CTA temel içeriklerdir. Bu bloklar bir standarda bağlanmalıdır."
+      },
+      {
+        "q": "Oda sayfasından rezervasyon motoruna geçişi nasıl güçlendiririm?",
+        "a": "İlk ekranda tek ve net CTA, rate plan kartları ve belirsizliği kapatan FAQ ile karar süresini kısaltın. Görsel seti ve USP’leri kullanıcı niyetiyle hizalayın."
+      },
+      {
+        "q": "Oda sayfasında FAQ gerçekten gerekli mi?",
+        "a": "Evet; kahvaltı/iptal/ek yatak/manzara garantisi gibi sorular belirsizliği azaltır ve dönüşümü artırır. Ayrıca PAA ve snippet alanlarında görünürlük şansını güçlendirir."
+      },
+      {
+        "q": "Oda sayfası görsellerini nasıl optimize etmeliyim?",
+        "a": "Galeriyi karar akışına göre sıralayın ve görsellerde lazy-load, doğru boyut ve alt text kullanın. Bu hem hız hem erişilebilirlik hem de SEO için fayda sağlar."
+      },
+      {
+        "q": "Room schema kullanmak şart mı?",
+        "a": "Zorunlu olmasa da otel/oda ilişkisini daha net anlattığı için önerilir. Hotel + Room + FAQPage kombinasyonu, sayfanın yapısını arama motorlarına daha iyi taşır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero (cover) — 1920×1080 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-hero-01.webp — “Oda sayfası optimizasyonu + Google Travel + direct booking bağlamı”",
+          "h1-context — 1920×1080 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-h1-context-02.webp — “Room page mini landing page + booking engine geçişi + otel satış bağlamı”",
+          "landing-page — 1600×1200 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-landing-page.webp — “Room page = mini funnel + SEO+UX birleşimi + otel bağlamı”",
+          "10-critical-areas — 1600×1200 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-10-critical-areas.webp — “Oda içeriği + görsel + USP kurgusu + otel satış bağlamı”",
+          "google-travel — 1920×1080 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-google-travel.webp — “Google Travel/Hotel Pack → room page → booking engine mini akışı”",
+          "checklist — 1200×1200 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-checklist.webp — “Room page SEO checklist + hızlı uygulama + otel UX bağlamı”",
+          "kpi-07 — 1200×1200 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-kpi-07.webp — “Room page → booking engine KPI’ları + dönüşüm hedefi + otel bağlamı”",
+          "performance-panel — 1200×1200 — oda-sayfalari-google-travel-icin-nasil-optimize-edilir-performance-panel.webp — “Wireframe + checklist + sprint çıktıları + güven unsuru”"
+        ],
+        "technicalChecklist": [
+          "Oda sayfaları için above-the-fold blok standardı (USP + CTA + kısa özet)",
+          "Galeri sırası standardı (genel → detay → banyo → manzara)",
+          "Görsel optimizasyon (lazy-load, ölçü, alt text)",
+          "Rate plan kart yapısı (2–3 kart + kısa koşul satırı)",
+          "FAQ seti (4–8 soru) + FAQPage JSON-LD",
+          "Hotel + Room schema + tutarlı içerik",
+          "İç link ağı (hub → teknik → içerik → online satış bağlamı)"
+        ]
+      }
+    }
+  },
+
+  "BlogPmsKurulumProjesiAdimAdim": {
+    "title": "Otel PMS Kurulum Projesi: Go-Live ve İlk 90 Gün",
+    "slug": "pms-kurulum-projesi-adim-adim",
+    "department": "pms-ota",
+   "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-12",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel PMS kurulumunu proje gibi yönetin: ekip/rol dağılımı, veri hazırlığı, modül kurulumu, test–cutover–go-live ve ilk 90 gün destek planı. Danışmanlık isteyin.",
+    "seo": {
+      "metaTitle": "Otel PMS Kurulum Projesi: Go-Live ve İlk 90 Gün | DGTLFACE",
+      "metaDescription": "Otel PMS kurulumunu proje gibi yönetin: ekip/rol dağılımı, veri hazırlığı, modül kurulumu, test–cutover–go-live ve ilk 90 gün destek planı. Danışmanlık isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog / URL: /tr/pms-ota/blog/pms-kurulum-projesi-adim-adim",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Canonical: /tr/pms-ota/blog/pms-kurulum-projesi-adim-adim"
+      ],
+      "strategySummary": "Bu içerik, PMS & OTA silosunda “PMS kurulum & destek” sayfasını besleyen proje yönetimi odaklı ana blog (authority playbook) rolündedir. Funnel’da “consideration → conversion” köprüsü kurar: okuyucuya sadece ne yapılacağını değil, kimin neyi ne zaman yapacağını vererek danışmanlık talebine hazırlar. Ana iş sorusu: “Go-Live gününde resepsiyon durmadan, kanal/rezervasyon akışı bozulmadan ve raporlama oturarak geçişi nasıl yönetirim?” Antalya / Belek / Side gibi yüksek odalı resort bölgelerinde sezon öncesi cutover risklerini senaryolarla işleyerek “doğru zamanlama + doğru kontrol listesi” değerini öne çıkarır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "PMS kurulumunu “kurduk bitti” diye görmek, resepsiyon ve gelir tarafında en pahalı hatalara yol açar. Başarılı PMS Implementation; doğru proje ekibi ve rol dağılımı, eksiksiz veri hazırlığı, modül/parametre kurulumu, test senaryoları ve kontrollü Cutover ile Go-Live planını birlikte yönetir. Asıl farkı ise Go-Live sonrası ilk 90 gün oluşturur: günlük/haftalık kontrol listesi, hata–düzeltme ritmi ve rapor doğrulama döngüsü.",
+      "sgeSummary": "Bu playbook, PMS kurulumunu fazlara ayırır: analiz–veri hazırlığı–kurulum–test–cutover/go-live–ilk 90 gün destek. Roller, Gantt planı ve checklist ile uygulanabilir hale getirir.",
+      "voiceAnswer": "PMS kurulumunda önce ekip ve planı kurun, veriyi hazırlayın, test edin, kontrollü go-live ve 90 gün destek uygulayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, ön büro, satış, muhasebe, IT/entegrasyon, gelir yönetimi",
+        "Funnel: Operational rehber → danışmanlık / checklist indirme → proje kickoff",
+        "Kritik entity’ler: PMS Implementation, Project Plan, Go-Live, Cutover, Pilot Hotel",
+        "KPI odak: check-in hızı, rezervasyon hataları/overbooking, kanal senkron doğruluğu, rapor tutarlılığı",
+        "Risk/etki: Kötü yönetilen kurulum resepsiyonda karmaşa ve gelir kaybı riski yaratır; iyi yönetim riskleri minimize eder",
+        "GEO: Antalya/Belek/Side resort’larda sezon öncesi cutover zamanlaması kritik",
+        "Çıktı vaat: Gantt + RACI + Go-Live checklist + “ilk 90 gün” destek ritmi"
+      ]
+    },
+    "h1": {
+      "title": "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?",
+      "intro": "PMS geçişi çoğu otelde “yazılım kurulum işi” diye başlar; ama gerçek hayatta bu bir operasyon + gelir + dağıtım dönüşümüdür. Doğru Project Plan olmadan yapılan geçişlerde en sık sonuç şudur: resepsiyon tıkanır, kanal/rezervasyon akışında tutarsızlıklar oluşur ve raporlar güven kaybeder. Bu rehber, PMS Implementation sürecini baştan sona fazlara, rollere ve kontrol listelerine bölerek yönetilebilir hale getirir.",
+      "quickSummary": [
+        "1) Faz mantığını netleştir (Analiz → Veri → Kurulum → Test → Go-Live → İlk 90 Gün)",
+        "2) RACI ile rol ve sorumluluğu yazılı hale getir",
+        "3) Veri hazırlığına “tek kaynak dosya” standardı koy",
+        "4) Test senaryolarını iş günü gerçekliğine göre çalış",
+        "5) Cutover + rollback planı olmadan go-live yapma"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Kurulum Projesi Danışmanlığı Talep Et",
+        "text": "Proje kapsamını netleştirir, Gantt + rol matrisi + test/cutover planını otelinize göre birlikte çıkarırız (kim için: GM/ön büro/IT/muhasebe).",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Kurulum Projesi Danışmanlığı Talep Et",
+        "text": "Go-live ve ilk 90 gün risklerini planlayarak proje ekibinizi net bir yol haritasıyla yönetirsiniz.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir",
+        "text": "Cutover adımlarını ve ilk 90 gün kontrol ritmini tek sayfada standartlaştırırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS Kurulum & Destek", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "Rezervasyon yönetimi", "href": "/tr/pms-ota/rezervasyon-yonetimi" },
+      { "label": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+      { "label": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" }
+    ],
+    "relatedPosts": [
+      { "title": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" },
+      { "title": "Rezervasyon yönetimi", "href": "/tr/pms-ota/rezervasyon-yonetimi" },
+      { "title": "Kanal yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+      { "title": "OTA entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" }
+    ],
+    "sections": [
+      
+      {
+        "id": "pms-kurulum-asamalari",
+        "title": "PMS Kurulum Projesinin Aşamaları",
+        "preBlocks":[{
+          "type":"media","slot":"6-step"
+        }],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS kurulum projesi otel büyüklüğüne, entegrasyon sayısına ve sezon takvimine göre değişir; ama faz mantığı neredeyse hep aynıdır. Bu yüzden “ne kadar sürer?” sorusundan önce “hangi fazlar var ve kim sorumlu?” sorusunu netleştirmek gerekir. Özellikle Antalya / Belek / Side gibi çok odalı resort’larda sezon öncesi “son dakika” cutover denemeleri, gereksiz risk yaratır."
+          },
+          { "type": "h3", "text": "6 Faz Mantığı (üst seviye)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Analiz & kapsam (hedef, süreçler, entegrasyon haritası)",
+              "Veri hazırlığı (oda planı, fiyatlar, şirket/acenteler, kullanıcı yetkileri)",
+              "Kurulum & parametre (modüller, iş kuralları, kullanıcı rolleri)",
+              "Test (senaryolar, entegrasyon testleri, rapor doğrulama)",
+              "Cutover & Go-Live (pilot tarih/otel, geçiş planı, geri dönüş planı)",
+              "İlk 90 gün destek (günlük/haftalık kontrol, iyileştirme döngüsü)"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Proje planı Gantt şeması” (haftalara bölünmüş)" },
+          { "type": "media", "slot": "phase-plan" },
+          { "type": "callout", "variant": "action", "title": "☑ Mini Check", "items": ["Go-Live’ı ‘tarih’ değil, ‘hazırlık seviyesi’ belirliyor."] },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Fazları yazılı hale getir, her fazın çıktısını tanımla (deliverable)",
+              "Sezon takvimine göre cutover riskini değerlendir (yüksek sezonda agresif geçiş yapma)",
+              "“Geri dönüş planı” (rollback) olmadan go-live tarihi koyma"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "proje-ekibi-rol-dagilimi",
+        "title": "Proje Ekibi ve Rol Dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS kurulumunda en sık hata “tek kişinin üzerine bırakmak”tır. Başarılı projelerde ekip departmanlar arası kurulur: ön büro ve operasyon iş akışını sahiplenir; satış/gelsin diye değil, veri doğruluğu ve kanal akışını korumak için masadadır; muhasebe rapor ve faturalama kurallarını netleştirir; IT/entegrasyon ise “sistemler konuşsun” diye süreci taşır."
+          },
+          { "type": "h3", "text": "Minimum ekip (çekirdek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Proje sahibi (Sponsor): GM / otel sahibi (öncelik ve karar)",
+              "Proje yöneticisi (PM): iç ekipten veya danışman (takvim, risk, koordinasyon)",
+              "Ön Büro lideri: check-in/out, folyo, kullanıcı akışları",
+              "Satış/Rezervasyon: fiyat planları, şirket/acenteler, sözleşmeler",
+              "Muhasebe: fatura, vergi/kurallar, rapor doğrulama",
+              "IT/Entegrasyon: PMS–Channel Manager–OTA–rezervasyon akışı, API/bağlantılar",
+              "Gelir/Revenue (varsa): fiyat/raporlama, talep/kanal mantığı"
+            ]
+          },
+          { "type": "h3", "text": "RACI (Rol & Sorumluluk Matrisi)" },
+          {
+            "type": "p",
+            "text": "Buraya: Rol matrisi görseli (R=Responsible, A=Accountable, C=Consulted, I=Informed)"
+          },
+          { "type": "media", "slot": "matrix" },
+          {
+            "type": "table",
+            "caption": "Tablo: RACI (Rol & Sorumluluk Matrisi) — örnek",
+            "headers": ["İş Paketi", "Sponsor", "PM", "Ön Büro", "Satış/Rez.", "Muhasebe", "IT/Ent."],
+            "rows": [
+              ["Kapsam & hedefler", "A", "R", "C", "C", "C", "C"],
+              ["Veri hazırlığı", "I", "R", "C", "R", "R", "C"],
+              ["Entegrasyon haritası", "I", "C", "I", "C", "I", "R"],
+              ["Test senaryoları", "I", "R", "R", "C", "C", "C"],
+              ["Cutover/Go-Live", "A", "R", "R", "C", "C", "R"],
+              ["İlk 90 gün destek", "A", "R", "R", "C", "C", "R"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek sayfalık RACI çıkar ve kickoff’ta imzalı hale getir",
+              "Proje iletişimini sabitle: haftalık toplantı + günlük kısa durum (go-live haftasında)",
+              "“Karar sahibi kim?” sorusunu netleştir (özellikle cutover kararları)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-toplama-on-hazirlik",
+        "title": "Veri Toplama ve Ön Hazırlık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS kurulumunun başarısı genelde “kurulum ekranlarında” değil, veri kalitesinde belirlenir. Oda planı, fiyat planları, şirket/acenteler, kullanıcı yetkileri ve iş kuralları dağınıksa, PMS ne kadar iyi olursa olsun go-live sonrası ekip zorlanır. Bu faz, projenin “en sık sıkıcı ama en kritik” kısmıdır."
+          },
+          { "type": "h3", "text": "Toplanacak ana veri setleri" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda envanteri: oda tipleri, oda özellikleri, oda–kat planı",
+              "Fiyat & paketler: BAR, paket, sezon, min. konaklama, iptal koşulları",
+              "Şirket/acenteler: cari kartlar, kontrat koşulları, komisyon yapıları",
+              "Kullanıcılar & yetkiler: departman bazlı roller, log ve onay akışları",
+              "Vergi/fatura kuralları: muhasebe ile birebir doğrulama",
+              "Rezervasyon akışı: kaynaklar, kanal kırılımı, manuel/otomatik süreçler"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Veri Hazırlık Kontrol Tablosu” (sorumlu, son tarih, durum)" },
+          { "type": "h3", "text": "Pilot Hotel / Pilot Tarih seçimi" },
+          {
+            "type": "p",
+            "text": "Çok tesisli yapılarda veya yüksek sezon baskısında “Pilot Hotel” veya “pilot tarih” seçmek riski düşürür. Pilot, sistemin gerçek veride nasıl davrandığını gösterir; aynı zamanda Cutover öncesi ekibin eğitim ve alışma süresini de sağlar."
+          },
+          { "type": "callout", "variant": "action", "title": "☑ Mini Check", "items": ["Pilot yoksa go-live, pilot olur."] },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Veri şablonlarını tekleştir (tek kaynak dosya mantığı)",
+              "Satış–muhasebe–ön büro arasında “fiyat/kontrat” uzlaşmasını yazılı al",
+              "Pilot tarihini sezon takvimiyle çakıştırma (Antalya/Belek/Side’de yüksek sezon öncesi özellikle)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modul-parametre-kurulumu",
+        "title": "Modül ve Parametre Kurulumu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu faz, “ekranları açtık” değil; otelin iş kurallarını PMS’e çevirmek demektir. Modül bazında ilerlemek, hem test sürecini kolaylaştırır hem de değişikliklerin etkisini kontrol edilebilir kılar. Bu noktada PMS’i Channel Manager, OTA, rezervasyon yönetimi ve gerekiyorsa Call Center akışlarıyla birlikte düşünmek şarttır."
+          },
+          { "type": "h3", "text": "Modül bazlı ilerleme örneği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ön Büro: check-in/out akışı, folyo, depozit, misafir kartı",
+              "Rezervasyon yönetimi: fiyat/uygunluk, opsiyon, iptal/no-show kuralları",
+              "Housekeeping: oda statüleri, görev dağılımı, kontrol listeleri",
+              "Muhasebe: fatura şablonları, gelir hesapları, rapor formatı",
+              "Entegrasyon: PMS–Channel Manager–OTA senkronu, API bağlantıları"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “PMS modül haritası diyagramı”" },
+          { "type": "media", "slot": "module-map-01" },
+          { "type": "h3", "text": "Teknik not (sade dille)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "API entegrasyonu: Sistemlerin belirli verileri kurallı şekilde birbirine aktarmasıdır; manuel hatayı azaltır.",
+              "Parametre kurulumu: Otelin iş kurallarının (iptal şartı, vergi, komisyon, yetki) PMS’de tanımlanmasıdır."
+            ]
+          },
+          { "type": "callout", "variant": "action", "title": "☑ Mini Check", "items": ["Kuralları PMS’ye doğru yazmazsanız, ekip ‘yanlış doğru’ ile yaşar."] },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kuralları departman bazlı doğrula: satış–muhasebe–ön büro aynı sayfada mı?",
+              "Entegrasyon kapsamını yazılılaştır (hangi veri, hangi yönde, hangi sıklıkla)",
+              "Kurulum değişikliklerini ‘değişiklik günlüğü’ (change log) ile takip et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-go-live-ilk-90-gun",
+        "title": "Test, Go-Live ve İlk 90 Gün Destek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Test, “çalışıyor mu?” değil; “iş günü gerçekliğinde çalışıyor mu?” sorusudur. Go-Live gününde resepsiyonun ayakta kalması için test senaryoları (normal gün, yoğun gün, iptal/no-show, kanal senkron) önceden çalışılmalıdır. Sonra Cutover planı gelir: go-live’a geçiş adımları ve geri dönüş (rollback) planı net değilse, risk büyür."
+          },
+          { "type": "h3", "text": "Go-Live öncesi mutlaka test edilmesi gerekenler" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Check-in/out uçtan uca (rezervasyon → folyo → fatura)",
+              "Channel Manager/OTA stok/fiyat senkronu + iptal akışı",
+              "Kullanıcı yetkileri (kim neyi görür/değiştirir)",
+              "Rapor doğrulama (muhasebe ile “aynı gerçek”)",
+              "Entegrasyon hata senaryosu (bağlantı kesilirse ne olur?)"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Go-live checklist tablosu” (öncesi/sonrası)" },
+          { "type": "media", "slot": "checklist" },
+          { "type": "h3", "text": "İlk 90 gün destek: gerçek başarı burada başlar" },
+          {
+            "type": "p",
+            "text": "İlk 90 gün; günlük küçük sorunların biriktiği, süreçlerin oturduğu ve “PMS’e güven”in oluştuğu dönemdir. İyi yönetilmeyen projelerde bu dönemde resepsiyon ve gelir tarafında karmaşa büyür; iyi yönetilen projelerde ise riskler sistematik kontrolle minimize edilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Go-live haftasında günlük 15 dk “hızlı durum” ritmi kur",
+              "İlk 30 gün rapor doğrulama döngüsü yap (muhasebe + PM + ön büro)",
+              "90 gün için haftalık kontrol listesi + iyileştirme backlog’u oluştur"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-kurulum-nereden-baslamali",
+        "title": "PMS kurulumunda nereden başlamalıyım?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS kurulumunda en doğru başlangıç, yazılım ekranları değil proje planı ve rol dağılımıdır. Önce proje ekibini kurup fazları ve çıktıları netleştirin; ardından oda/fiyat/şirket verisini tek kaynaktan toparlayın. Demo/test senaryolarını belirleyip Cutover–Go-Live planını “geri dönüş adımı”yla birlikte yazın. Son olarak ilk 90 gün için günlük/haftalık kontrol ritmini tanımlayın."
+          }
+        ]
+      },
+      {
+        "id": "aeo-adim-adim-yonetim",
+        "title": "PMS kurulum projesini nasıl adım adım yönetmelisiniz?",
+        "blocks": [
+          { "type": "p", "text": "Aşağıdaki liste, AEO için “net ve uygulanabilir” faz özetidir:" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Analiz & kapsam: hedefler, entegrasyon haritası, riskler",
+              "Veri hazırlığı: oda/fiyat/şirket verileri, kullanıcı yetkileri, kurallar",
+              "Kurulum: modül ve parametrelerin otel iş akışına göre tanımı",
+              "Test: senaryolar + entegrasyon + rapor doğrulama",
+              "Cutover & Go-Live: pilot tarih/otel, geçiş adımları, rollback planı",
+              "İlk 90 gün destek: günlük/haftalık kontrol listeleri, iyileştirme backlog’u"
+            ]
+          },
+          { "type": "callout", "variant": "action", "title": "☑ Mini Check", "items": ["Fazlar netse, sorunlar ‘panik’ değil ‘ticket’ olur."] },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir",
+            "text": "Go-live haftasında ekibe görev listesi olarak verin; cutover ve ilk 90 gün kontrol ritmini tek sayfada standartlaştırın.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "geo-resort-cutover-riski",
+        "title": "Örnek Senaryolar: Resort’larda Sezon Öncesi Cutover Riski (GEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya / Belek / Side gibi çok odalı resort’larda en yaygın risk, yüksek sezon öncesi “son hafta” go-live kararıdır. Bu yaklaşım, eğitim/takip süresini kısaltır ve resepsiyon–kanal–muhasebe zincirinde hataya toleransı düşürür. Daha güvenli senaryo: pilot tarih ile düşük riskli dönemde geçiş, ardından sezona “stabilize olmuş” sistemle girme."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon takvimine göre “riskli pencereleri” işaretle",
+              "Pilot + kademeli geçiş planı yap (Pilot Hotel veya pilot tarih)",
+              "Go-live sonrası ilk 14 gün için “yoğun destek” planı ayır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "secondary-asset-pms-checklist",
+        "title": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir — PMS Implementation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "PMS Go-Live Öncesi & Sonrası Checklist’ini İndir — PMS Implementation (v1.0)",
+            "purpose": "Bu doküman, PMS Go-Live sürecini “tek gün” gibi değil, Cutover + Go-Live + İlk 90 Gün olarak yönetmeniz için hazırlanmıştır. Ekibinize görev listesi verir, kritik test ve rapor doğrulama adımlarını atlamamanızı sağlar. Özellikle yüksek sezon öncesi geçişlerde riskleri görünür hale getirir.",
+            "whoFor": "GM/PM + Ön Büro + Muhasebe + IT/Entegrasyon (Go-Live haftasında ortak kontrol dili için).",
+            "steps": [
+              "Go-Live tarihinden 2–4 hafta önce öncesi checklist’i tamamlayın ve kanıt ekleyin.",
+              "Cutover/Go-Live gününde adım adım tabloyu işaretleyin; sapmaları not edin.",
+              "İlk 90 gün için haftalık kontrol ritmi ve aksiyon backlog’u oluşturun."
+            ],
+            "checklist": [
+              "Proje ekibi + RACI yayınlandı (PM, ön büro, muhasebe, IT net)",
+              "Oda/fiyat/şirket verileri tek kaynak dosyada doğrulandı",
+              "Kullanıcı rolleri ve yetkiler test edildi (log/iz kayıtları dahil)",
+              "Channel Manager/OTA senkron testi yapıldı (stok/fiyat/iptal)",
+              "Rezervasyon akışı test edildi (opsiyon/iptal/no-show senaryoları)",
+              "Rapor doğrulama yapıldı (muhasebe ile tutarlılık)",
+              "Eğitim planı tamamlandı (ön büro/housekeeping/muhasebe/satış)",
+              "Cutover planı yazılı (geçiş adımları + rollback)",
+              "Go-Live gün destek planı (kim, hangi saat aralığı) hazır",
+              "Günlük 15 dk hızlı durum ritmi (ilk 14 gün)",
+              "Haftalık rapor doğrulama (ilk 30 gün)",
+              "Entegrasyon hata izleme ve kayıt sistemi (ticket/backlog)",
+              "Süreç iyileştirme backlog’u ve sprint planı",
+              "90 gün sonunda “stabilizasyon kapanış” toplantısı"
+            ],
+            "href": "/downloads/pms-go-live-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+          
+        ]
+      },
+      {
+        "id": "sonuc-cta",
+        "title": "Sonuç: Go-Live’ı “kurulum” değil “stabilizasyon” olarak yönetin",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu içerik, PMS kurulumunu “yazılım kurulum işi” gibi değil; fazlara bölünmüş bir operasyon + gelir dönüşümü gibi ele alır. Rol dağılımı (RACI), faz planı (Gantt), test senaryoları ve Cutover/rollback planı net olduğunda go-live riski düşer. Asıl başarı ise ilk 90 gün destek ritmiyle oluşur: rapor doğrulama, hata–düzeltme döngüsü ve iyileştirme backlog’u."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Kurulum Projesi Danışmanlığı Talep Et",
+            "text": "Otel tipinize göre Gantt + RACI + test/cutover + ilk 90 gün destek planını birlikte hazırlarız; geçiş risklerini minimize edersiniz.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS kurulum projesi nasıl yönetilir?",
+        "a": "Fazlara bölün: analiz, veri hazırlığı, kurulum, test, cutover/go-live ve ilk 90 gün destek. RACI ile rol dağılımını netleştirin, test senaryolarını yazılı hale getirin ve go-live sonrası günlük/haftalık kontrol ritmi kurun."
+      },
+      {
+        "q": "PMS kurulumu ne kadar sürer?",
+        "a": "Süre otel büyüklüğü, entegrasyon sayısı ve veri hazırlık durumuna göre değişir. Ancak faz mantığı genelde aynıdır: veri hazırlığı ve test iyi yapılırsa go-live riski düşer; acele edilen projeler go-live sonrası daha uzun sürer."
+      },
+      {
+        "q": "Hangi departmanlar proje ekibinde olmalı?",
+        "a": "Minimumda GM/PM, ön büro, satış/rezervasyon, muhasebe ve IT/entegrasyon bulunmalı. Çünkü kurallar, veri doğruluğu ve entegrasyonlar departmanlar arasıdır. “Sadece IT” ile yönetilen projelerde operasyon sahiplenmesi zayıf kalır."
+      },
+      {
+        "q": "Go-live öncesi mutlaka neler test edilmeli?",
+        "a": "Check-in/out uçtan uca, Channel Manager/OTA senkronu (stok/fiyat/iptal), kullanıcı yetkileri, rapor doğrulama ve entegrasyon hata senaryoları test edilmelidir. Ayrıca cutover adımları ve geri dönüş planı yazılı olmalıdır."
+      },
+      {
+        "q": "Cutover nedir, neden önemlidir?",
+        "a": "Cutover, eski sistemden yeni PMS’e geçişin adım adım yönetildiği geçiş planıdır. Doğru plan yoksa go-live gününde karmaşa artar. İyi cutover planı, rollback (geri dönüş) adımıyla birlikte riski kontrol eder."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero — 1920×1080 — pms-kurulum-projesi-adim-adim-hero-01.webp",
+          "h1-context — 1920×1080 — pms-kurulum-projesi-adim-adim-h1-context-02.webp",
+          "phase-plan — 1920×1080 — pms-kurulum-projesi-adim-adim-gantt-03.webp",
+          "matrix — 1920×1080 — pms-kurulum-projesi-adim-adim-raci-04.webp",
+          "module-map-01 — 1920×1080 — pms-kurulum-projesi-adim-adim-module-map-05.webp",
+          "checklist — 1920×1080 — pms-kurulum-projesi-adim-adim-go-live-checklist-06.webp",
+          "table-problem-root-solution — 1600×1200 — pms-kurulum-projesi-adim-adim-problem-root-solution-07.webp",
+          "table-kpi-before-after — 1600×1200 — pms-kurulum-projesi-adim-adim-kpi-08.webp"
+        ],
+        "technicalChecklist": [
+          "Fazlar ve deliverable listesi yazılı",
+          "RACI tek sayfa ve kickoff’ta onaylı",
+          "Tek kaynak veri dosyası (oda/fiyat/şirket) doğrulandı",
+          "Test senaryoları (iş günü gerçekliği) yazılı ve çalışıldı",
+          "Cutover runbook + rollback adımı hazır",
+          "İlk 90 gün rapor doğrulama ritmi tanımlı",
+          "Ticket/backlog standardı ve sorumlulukları net"
+        ]
+      }
+    }
+  },
+
+   "BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu": {
+    "title": "robots.txt & Sitemap: Otel Sitelerinde Tarama | DGTLFACE",
+    "slug": "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu",
+    "department": "seo",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "13 Ocak 2026",
+    "readingTime": "6 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "robots.txt ve XML sitemap ile rezervasyon adımları, filtreler ve sistem sayfalarını yönetin. Oda/destinasyon/kampanya sayfalarını doğru taratın, tarama bütçesini koruyun.",
+    "seo": {
+      "metaTitle": "robots.txt & Sitemap: Otel Sitelerinde Tarama | DGTLFACE",
+      "metaDescription": "robots.txt ve XML sitemap ile rezervasyon adımları, filtreler ve sistem sayfalarını yönetin. Oda/destinasyon/kampanya sayfalarını doğru taratın, tarama bütçesini  koruyun.",
+      "primaryKeyword": "robots.txt, XML sitemap (otel SEO)"
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog No / URL: Blog #3 — /tr/seo/blog/robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty Level / Expertise: Intermediate",
+        "Word Count Range: 2200–2600"
+      ],
+      "strategySummary": "Bu içerik, teknik SEO denetimlerinin “ilk 10 kontrol” listesindeki iki kritik alanı (robots.txt + XML sitemap) otel odaklı ve rezervasyon akışı hassasiyetleriyle standardize eden bir hub içeriktir. Hedef persona; otel sahibi/GM ve satış–pazarlama müdürünün yanında, uygulamayı yapan ajans/teknik ekip (web geliştirme + SEO) ekibidir. Funnel’da MoFu ağırlıklıdır: “hızlı kontrol → riskleri kapat → tarama verimini artır → doğru sayfaları daha hızlı indexlet” yaklaşımını verir. Ana iş sorusu: “Botların gereksiz sayfalara değil oda/destinasyon/kampanya sayfalarına odaklanmasını nasıl sağlarım ve yanlışlıkla siteyi kapatmadan nasıl test ederim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "robots.txt ve XML sitemap, Google botlarının sitenizde neyi tarayacağını ve hangi URL’leri önceliklendireceğini yönetmenizi sağlayan iki temel teknik SEO aracıdır. Otel sitelerinde admin/test/staging sayfaları, filtre URL’leri ve rezervasyon adımları gereksiz tarama yükü üretir; buna karşılık oda, destinasyon ve kampanya sayfaları hızlı ve doğru taranmalıdır. Doğru robots kuralları, doğru sitemap segmentasyonu ve Search Console testleriyle tarama bütçesini verimli kullanır, önemli sayfaların daha hızlı indexlenmesini desteklersiniz.",
+      "sgeSummary": "Otel sitelerinde robots.txt ile gereksiz sistem/filtre/rezervasyon adımlarını sınırla; XML sitemap’i oda–destinasyon–kampanya olarak böl; Search Console testleriyle taramayı güvenle yönetin.",
+      "voiceAnswer": "robots.txt taramayı sınırlar, XML sitemap önemli URL’leri botlara listeler; ikisi birlikte taramayı yönetir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici ekip",
+        "Kritik entity’ler: robots.txt, XML sitemap, crawl budget, indexation control, booking steps, hotel pages",
+        "KPI: Önemli URL’lerin daha hızlı taranması, indeks kapsamı sorunlarının azalması, gereksiz taramanın düşmesi",
+        "Funnel: MoFu (kontrol → düzeltme → doğrulama → bakım)",
+        "Risk uyarısı: “Yanlışlıkla tüm siteyi kapatma” ve “kanonik sayfaları dışarıda bırakma”",
+        "Otel özel alanlar: Rezervasyon adımları, filtre URL’leri, çok dilli yapı, çok otelli yapı",
+        "Çıktı hedefi: Featured snippet + PAA (robots/sitemap/crawl budget soruları)"
+      ]
+    },
+    "h1": {
+      "title": "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?",
+      "intro": "robots.txt ve XML sitemap, Google’ın sitenizi nasıl “gördüğünü” şekillendiren iki temel kontrol panelidir. Otel siteleri; görsel ağırlığı, kampanya sayfaları, çok dilli yapı ve özellikle rezervasyon adımları / filtre URL’leri nedeniyle tarama verimi açısından daha kırılgandır. Buradaki hedef “botları engellemek” değil; botlara doğru yolu göstermek ve gereksiz yerlere harcadıkları zamanı azaltmaktır. Bu rehberde; hangi sayfaların sınırlandırılması gerektiğini, sitemap’i nasıl segmentleyeceğinizi ve Search Console ile nasıl doğrulayacağınızı adım adım ele alacağız.",
+      "ctaPrimary": {
+        "label": "robots.txt & Sitemap Analizi Talep Et",
+        "text": "Otel sitenizde tarama risklerini kapatıp, hangi URL’lerin indexlenip hangilerinin dışarıda kalacağını netleştirmek isteyen ekipler için.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "robots.txt & Sitemap Analizi Talep Et",
+        "text": "Otel sitenizde tarama risklerini kapatıp, önemli URL’lerin doğru keşfedilmesini isteyen ekipler için",
+        "href": "/tr/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "robots.txt ve Sitemap Kontrol Listesini İndir",
+        "text": "Teknik ekibe görev listesi olarak verin; 14 günlük audit sprint’i gibi uygulayın.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO", "href": "/tr/seo/teknik-seo" },
+      { "label": "Rezervasyon Yönetimi", "href": "/tr/pms-ota/rezervasyon-yonetimi" },
+      { "label": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" }
+    ],
+    "sections": [
+      {
+        "id": "robots-nedir",
+        "title": "robots.txt Nedir?",
+        "preBlocks":[{"type":"media","slot":"robots-sitemap"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "robots.txt, arama motoru botlarına “bu siteyi tararken hangi klasör ve URL desenlerine yaklaşma / yaklaş” diyen bir yönerge dosyasıdır. En kritik nokta şudur: robots.txt indeksleme komutu değildir, tarama komutudur."
+          },
+          {
+            "type": "h3",
+            "text": "robots.txt nedir, ne işe yarar? "
+          },
+          {
+            "type": "p",
+            "text": "robots.txt, botların hangi URL’leri tarayıp taramayacağını belirler. Amaç; gereksiz sayfaları sınırlayıp tarama bütçesini önemli sayfalara yönlendirmektir."
+          },
+          {
+            "type": "h3",
+            "text": "robots.txt ile “taramayı durdurmak” ne zaman yanlış olur?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CSS/JS gibi render için gerekli dosyaları engellemek",
+              "Kanonik sayfaları robots ile kapatmak",
+              "Yanlışlıkla Disallow: / ile tüm siteyi kapatmak"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (robots temel)",
+            "items": [
+              "/robots.txt 200 dönüyor mu?",
+              "Yanlışlıkla Disallow: / var mı?",
+              "CSS/JS kritik dosyalar engelli mi?",
+              "Sitemap satırı doğru mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "robots.txt’yi tarama kontrolü olarak konumla",
+              "Kritik varlıkları (CSS/JS) engelleme",
+              "Her değişiklikten sonra Search Console robots testini çalıştır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-sayfalar",
+        "title": "Hangi Sayfalar Engellenmeli / Açık Olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve turizm sitelerinde amaç, botların zamanını “gelir getiren ve arama niyetiyle uyumlu” sayfalara ayırmaktır: oda, destinasyon, kampanya, konsept ve hizmet sayfaları. Buna karşılık; yönetim panelleri, test ortamları, teşekkür sayfaları, filtre kombinasyonları ve rezervasyon adımlarının çoğu tarama yükü üretir ve indekslenmesi genellikle istenmez."
+          },
+          {
+            "type": "h3",
+            "text": "Otel sitesinde robots.txt ile engellenmesi sık görülen alanlar"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Admin / CMS: /admin/, /wp-admin/ vb.",
+              "Test/Staging: /staging/, /test/ veya ayrı alt alan adı",
+              "Teşekkür / form sonuç: /thank-you, /tesekkurler",
+              "Arama/filtre parametreleri: ?sort=, ?filter= gibi sonsuz kombinasyonlar",
+              "Rezervasyon adımları (booking steps): /booking/step-1, /checkout, /payment gibi"
+            ]
+          },
+          {"type":"media","slot":"reservation"},
+          {
+            "type": "h3",
+            "text": "Rezervasyon adımları: Neden “index” riskli? "
+          },
+          {"type":"p","text":"Rezervasyon akışı çoğu zaman: kullanıcıya özel, oturum bazlı, parametreli ve tekrarlanan URL’ler üretir. Bunların indexlenmesi:"},
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kopya URL üretimi",
+              "Tarama bütçesi kaybı",
+              "Kullanıcıların SERP’ten yanlış sayfaya inmesi (dönüşüm kırılması) gibi sonuçlar doğurur."
+            ]
+          },
+          {"type":"p","text":"Varsayım: Rezervasyon motoru bazen üçüncü parti bir altyapıda olabilir; bu durumda kontrol alanınız domain/subdomain düzeyinde değişir."},
+          {"type":"h3","text":"Örnek robots.txt (otel odaklı, güvenli başlangıç)"},
+          { "type": "media", "slot": "robots-example-code" },
+
+           {"type":"p","text":"Kritik not (kilitli gerçek): robots pattern desteği sınırlıdır; her parametre kuralı her botta aynı çalışmayabilir. Parametre yönetimini “tek başına robots” ile değil; canonical/noindex ve URL tasarımıyla birlikte ele alın."},
+           {"type":"h4","text":"Commons mistakes (en yaygın hatalar) "},
+           {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Disallow: / ile tüm siteyi kapatma",
+              "Sitemap satırını yanlış URL ile yazma",
+              "Kanonik sayfaları veya görsel/CDN yollarını yanlışlıkla engelleme",
+              "Staging’i açık bırakıp Google’ın test ortamını indexlemesi"
+            ]
+          },
+{"type":"p","text":"Ne yapmalıyım? "},
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Engellenecekler” listesini otel özelinde standartlaştır (admin + booking + filtre).",
+              "Parametre çöplüğünü robots + canonical + Search Console parametre yönetimi ile birlikte çöz.",
+              "Rezervasyon akışını index yerine dönüşüm odaklı (analytics) yönetecek şekilde ayır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xml-sitemap",
+        "title": "XML Sitemap Türleri (Genel, Haber, Görsel vb.) ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "XML sitemap, botlara “bu site için önemli URL listesi burada” diyen bir envanter dosyasıdır. Sitemap, Google’a garanti vermez ama keşfi hızlandırır ve özellikle büyük/çok dilli yapılarda kontrol sağlar. Otel sitelerinde genellikle standart (urlset) sitemap yeterlidir; ancak görsel ağırlığı yüksek sayfalarda image sitemap mantığı da düşünülür."
+          },
+          {
+            "type": "h3",
+            "text": "XML sitemap nasıl hazırlanır? "
+          },
+          {
+            "type": "p",
+            "text": "Sitemap, indexlenmesini istediğiniz kanonik URL’leri listeleyen bir XML dosyasıdır. Büyük sitelerde sitemap index kullanılır; URL’ler içerik türüne, diline veya silo’suna göre ayrı sitemaps’lere bölünür."
+          },
+          {"type":"h3","text":"Sitemap index (çoklu sitemap yönetimi)"},
+          { "type": "media", "slot": "sitemap-example" },
+         {"type":"h3","text":"URL entry örneği (kanonik + güncelleme sinyali)"},
+         { "type": "media", "slot": "sitemap-file" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sitemap’i kanonik URL listesi olarak tut",
+              "Büyük yapılarda sitemap index kullan",
+              "lastmod değerini gerçek güncellemeyle uyumlu ver"
+            ]
+          }
+        ]
+      },
+      {
+  "id": "otel-sitemap-yapisi",
+  "title": "Otel ve Turizm Sitelerinde Sitemap Yapısı",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Otel sitelerinde sitemap stratejisi, site mimarisine paralel olmalıdır: oda, destinasyon, kampanya gibi “ticari niyetli” sayfalar ayrı takip edilirse hem tarama hem raporlama kolaylaşır. Ayrıca çok dilli yapı (TR/EN/DE/RU) varsa, dil bazlı sitemaps veya dil prefix’ine göre segmentasyon önem kazanır."
+    },
+    {
+      "type": "h3",
+      "text": "Dil bazlı sitemap senaryosu"
+    },
+    {
+      "type": "p",
+      "text": "Örnek:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        "sitemap-tr.xml → /tr/ URL’leri",
+        "sitemap-en.xml → /en/ URL’leri",
+        "sitemap-de.xml → /de/ URL’leri",
+        "sitemap-ru.xml → /ru/ URL’leri"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu yaklaşım, Search Console’da dil bazında kapsama ve hata takibini kolaylaştırır."
+    },
+    {
+      "type": "h3",
+      "text": "Çok otelli yapı: birden fazla sitemap yaklaşımı"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        "Tek domain / çok otel: otel bazlı sitemap bölümü (örn. sitemap-hotel-a.xml)",
+        "Ayrı domain: her domain kendi sitemap setini yönetir",
+        "Ayrı rezervasyon motoru domain’i: sitemap, ana siteyle karışmamalı; index stratejisi net olmalı"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Teknik not: “Host” direktifi robots.txt’de bazı arama motorlarında anlamlı olabilir; Google için temel olan Sitemap bildirimidir. (Host kullanımı varsa bile stratejiyi bunun üzerine kurma.)"
+    },
+
+    {
+      "type": "callout",
+      "variant": "action",
+      "title": "Ne yapmalıyım? ",
+      "items": [
+        "Oda/destinasyon/kampanya sitemaps’lerini ayrı yönet.",
+        "Çok dilli ise Search Console takip kolaylığı için dil bazlı bölmeyi düşün.",
+        "Çok otelli yapıda domain/subdomain kararına göre sitemap stratejisini yeniden çiz."
+      ]
+    }
+  ]
+},
+      {
+  "id": "crawl-budget-yonetimi",
+  "title": "Tarama Bütçesini Yönetmek (Crawl Budget)",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Crawl budget, Google botlarının sitenize ayırdığı tarama kaynaklarının pratik karşılığıdır. Çok sayıda gereksiz URL üretirseniz (filtre parametreleri, test sayfaları, kopya varyasyonlar), botlar enerjisini boşa harcar ve önemli sayfalarınız geç taranır veya geç güncellenir. Otel sitelerinde bu risk; kampanya dönemlerinde ve yoğun içerik üretiminde daha görünür olur."
+    },
+    {
+      "type": "h3",
+      "text": "Tarama bütçesini bozan otel senaryoları"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        "Filtre URL’lerinin indexlenebilir gibi görünmesi",
+        "“Teşekkürler” ve rezervasyon adımlarının açık kalması",
+        "Staging ortamının crawl edilebilir olması",
+        "Aynı sayfanın çok sayıda URL varyasyonuyla erişilebilir olması (kanibalizasyon)"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "Hızlı kontrol: “Crawl hygiene” yaklaşımı"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        "Gereksiz URL üretimini azalt (parametre/filtre yönetimi)",
+        "404 ve redirect zincirlerini temizle",
+        "Sitemap’te sadece “temiz” kanonik URL’leri tut",
+        "İç linklerde “çöp URL” üretme"
+      ]
+    },
+    {"type":"media","slot":"crawl-budget"},
+    {
+      "type": "callout",
+      "variant": "action",
+      "title": "Ne yapmalıyım? ",
+      "items": [
+        "Parametre ve filtre URL’lerini kontrol altına al (robots + canonical + noindex).",
+        "Sitemap’i “temiz liste” yap; bozuk veya redirect URL’leri sitemap’e sokma.",
+        "Staging/test ortamını kesin kapat (auth + robots + noindex)."
+      ]
+    }
+  ]
+},
+     {
+  "id": "test-ve-dogrulama-search-console",
+  "title": "Test ve Doğrulama Süreci (Search Console)",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "robots ve sitemap değişikliklerinde “tek yanlış satır” büyük hasar üretebilir; bu yüzden test ve doğrulama süreci kilit önemdedir. Hedef; değişiklikleri canlıya almadan önce kontrol etmek, canlıda ise Search Console üzerinden doğru okunup okunmadığını düzenli olarak izlemektir."
+    },
+    {
+      "type": "h3",
+      "text": "Search Console’da robots ve sitemap testleri"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        "robots.txt test: belirli bir URL bot tarafından engelleniyor mu?",
+        "sitemap gönderimi: sitemap okunuyor mu, kaç URL keşfediliyor?",
+        "indeks kapsamı: “excluded” nedenleri artıyor mu?",
+        "URL Inspection: kritik sayfalar taranabiliyor mu?"
+      ]
+    },
+    {
+      "type": "h3",
+      "text": "En kritik güvenlik kuralı"
+    },
+    {
+      "type": "p",
+      "text": "robots.txt ile engellediğiniz URL’ler “tarama dışı” kalır; ancak indeksleme hedefiniz varsa, doğru araç çoğu zaman noindex + canonical + iç link düzeni olur. robots ile “yanlış sayfayı kapatmak” kolaydır; geri dönüşü ise zaman alıcı ve risklidir."
+    },
+     {"type":"media","slot":"search-console"},
+    {
+      "type": "cta",
+      "variant": "secondary",
+      "label": "robots.txt ve Sitemap Kontrol Listesini İndir",
+      "text": "Teknik ekibe görev listesi olarak verin; 14 günlük audit sprint’i gibi uygulayın.",
+      "href": "/tr/seo/teknik-seo"
+    },
+    {
+      "type": "callout",
+      "variant": "action",
+      "title": "Ne yapmalıyım? ",
+      "items": [
+        "Değişiklik öncesi/sonrası ölçüm al (kapsam, keşif, tarama).",
+        "Search Console üzerinden “kritik 10 URL” ile tek tek doğrula.",
+        "Hata görürsen ilk 24 saatte geri dönüş planını hazır tut."
+      ]
+    }
+  ]
+},
+     {
+  "id": "kapanis-otel-odakli-tarama-kontrolu",
+  "title": "Otel Odaklı “Tarama Kontrolü” Mantığı",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "robots.txt ve sitemap birlikte kullanıldığında, botlara aynı anda iki net mesaj verirsiniz: “gereksiz sayfalar burada değil” ve “asıl sayfalar burada”. Otel sitelerinde rezervasyon adımları ve filtre URL’leri en büyük tarama bütçesi sızıntısıdır; oda, destinasyon ve kampanya sayfaları ise en yüksek iş değerini taşır. Doğru kurguyla hem index kapsamı daha temiz olur hem de yeni içerikler daha hızlı keşfedilir."
+    },
+    {
+      "type": "media",
+      "slot": "performance"
+    },
+    {
+      "type": "cta",
+      "variant": "primary",
+      "label": "robots.txt & Sitemap Analizi Talep Et",
+      "text": "Otel sitenizde hangi URL’lerin taranacağını ve sitemap segmentasyonunu netleştirip, riskleri kapatmak isteyen ekipler için.",
+      "href": "/tr/seo/teknik-seo"
+    }
+  ]
+},
+{
+  "id": "robots-sitemap-download-asset",
+  "title": "robots.txt ve Sitemap Kontrol Listesini İndir — Teknik SEO / Tarama Kontrolü",
+  "blocks": [
+    {
+      "type": "download_asset",
+      "assetType": "pdf",
+      "version": "v1.0",
+      "title": "robots.txt ve Sitemap Kontrol Listesini İndir — Teknik SEO / Tarama Kontrolü (v1.0)",
+      "purpose": "Bu doküman, otel sitelerinde robots.txt ve XML sitemap yapılandırmasını hızlı ve güvenli şekilde denetlemek için hazırlanmış bir kontrol listesidir. Amaç; admin/test/staging/rezervasyon adımları ve filtre URL’leri gibi tarama bütçesini tüketen alanları kapatırken, oda, destinasyon ve kampanya sayfalarının daha hızlı ve doğru keşfedilmesini sağlamaktır.",
+      "whoFor": "SEO uzmanı, web geliştirici ve otel dijital ekibi (ortak denetim checklist’i).",
+      "steps": [
+        "Mevcut robots.txt ve sitemap setini çıkarın (URL listesi + Search Console durumu).",
+        "Checklist ile riskleri işaretleyin ve Problem → Kök Neden → Çözüm tablosunu doldurun.",
+        "14 günlük sprint planını uygulayıp öncesi/sonrası kapsama ve keşif metriklerini karşılaştırın."
+      ],
+      "checklist": {
+        "robotsTxt": [
+          "/robots.txt erişilebilir ve 200 dönüyor",
+          "Yanlışlıkla Disallow: / kuralı yok",
+          "Admin/test/staging alanları engelli",
+          "Rezervasyon adımları (booking/checkout/payment) tarama dışı",
+          "Filtre/parametre desenleri kontrol altında (utm, gclid, filter, sort)",
+          "CSS/JS gibi kritik render dosyaları engellenmiyor",
+          "Sitemap satırı doğru ve güncel"
+        ],
+        "sitemap": [
+          "Sitemap yalnızca kanonik ve indexlenebilir URL’ler içeriyor",
+          "Sitemap index ile bölümlenmiş (pages / rooms / destinations / campaigns)",
+          "Çok dilli yapıda dil bazlı takip kurgusu net",
+          "lastmod değerleri gerçek güncellemeyle tutarlı",
+          "Redirect veya 404 URL’ler sitemap’e girmiyor"
+        ],
+        "searchConsole": [
+          "Sitemap Search Console’a gönderildi ve okunuyor",
+          "Kritik 10 URL URL Inspection ile test edildi",
+          "Coverage raporunda ani excluded artışı yok",
+          "robots testinde kritik sayfalar yanlışlıkla engelli değil"
+        ]
+      },
+      "sprintPlan": [
+        "Gün 1: Mevcut robots + sitemap envanteri, Search Console durumu",
+        "Gün 2: Engellenecek URL sınıfları listesi (admin/test/staging/booking/filter)",
+        "Gün 3: robots.txt düzenleme + kritik URL testleri",
+        "Gün 4: Sitemap segmentasyon planı (pages/rooms/destinations/campaigns)",
+        "Gün 5: Sitemap index üretimi + lastmod standardı",
+        "Gün 6: Search Console’a sitemap gönderimi + okunabilirlik kontrolü",
+        "Gün 7: Kapsama raporu baseline + risk kontrolü",
+        "Gün 8: Parametre/filtre stratejisi (canonical/noindex) kararları",
+        "Gün 9: Booking path index risklerinin kapatılması",
+        "Gün 10: Staging/test ortam güvenliği (auth + engel)",
+        "Gün 11: İç linklerin çöp URL üretmeyecek şekilde temizlenmesi",
+        "Gün 12: Kritik 20 URL ile URL Inspection doğrulaması",
+        "Gün 13: Öncesi/sonrası kapsama ve keşif kıyası",
+        "Gün 14: Bakım planı + dokümantasyon (ekip standardı)"
+      ],
+      "deliverables": [
+        "robots.txt son sürüm ve test kayıtları",
+        "Sitemap index + silo/dil bazlı sitemap seti",
+        "Search Console doğrulama ekran görüntüleri",
+        "Parametre ve booking path strateji notu",
+        "14 günlük sprint görev listesi"
+      ],
+      "href": "/downloads/robots-sitemap-kontrol-listesi-v1.0.pdf",
+      "buttonLabel": "PDF’i İndir"
+    }
+  ]
+}
+
+
+    ],
+  "faqTitle": "FAQ / PAA Bölümü",
+  "faq": [
+    {
+      "q": "robots.txt nedir, ne işe yarar?",
+      "a": "robots.txt, arama motoru botlarına hangi URL’leri tarayıp taramayacaklarını söyleyen yönerge dosyasıdır. Amaç, gereksiz sayfaları sınırlayıp taramayı önemli sayfalara yönlendirmektir."
+    },
+    {
+      "q": "Otel sitesinde hangi sayfalar robots.txt ile engellenmeli?",
+      "a": "Genellikle admin/test/staging alanları, teşekkür sayfaları, filtre ve parametre URL’leri ile rezervasyon adımları (checkout/payment gibi) tarama dışı bırakılır. Oda, destinasyon ve kampanya sayfaları açık kalmalıdır."
+    },
+    {
+      "q": "XML sitemap nasıl hazırlanır?",
+      "a": "XML sitemap, indexlenmesini istediğiniz kanonik URL’leri listeleyen XML dosyasıdır. Büyük sitelerde sitemap index kullanılır ve URL’ler oda, destinasyon, kampanya veya dil bazında ayrı sitemaps’lere bölünür."
+    },
+    {
+      "q": "Tarama bütçesi (crawl budget) nasıl yönetilir?",
+      "a": "Gereksiz URL üretimini azaltmak, filtre ve parametreleri kontrol etmek, sitemap’i temiz tutmak ve staging veya booking gibi riskli alanları kapatmak crawl budget’ı korur. Böylece önemli sayfalar daha hızlı taranır."
+    },
+    {
+      "q": "robots.txt ile bir sayfayı engellersem Google index’ten düşer mi?",
+      "a": "Her zaman değil. robots.txt taramayı engeller; sayfa daha önce indexlenmişse URL görünebilir. İndeks yönetimi için noindex, canonical ve gerekirse URL kaldırma süreçleri gerekir."
+    },
+    {
+      "q": "Sitemap’e noindex sayfalar koymalı mıyım?",
+      "a": "Hayır. Sitemap, yalnızca kanonik ve indexlenebilir URL listesidir. noindex, redirect veya 404 URL’leri sitemap’e eklemek keşfi kirletir ve raporlamayı zorlaştırır."
+    },
+    {
+      "q": "Staging ortamını Google’dan nasıl korurum?",
+      "a": "En güvenlisi HTTP auth (şifre) ile erişimi tamamen kapatmaktır. Ek olarak robots ve noindex uygulanabilir; ancak tek başına robots.txt’ye güvenmek risklidir."
+    }
+  ],
+    "internal": {
+      "locked": {
+        "note": "UI’da render edilmez. Teknik ekip içindir.",
+        "mediaPack": [
+          "robots-sitemap-code — 1920×1080 — robots-sitemap-code-example.webp",
+          "hotel-sitemap-diagram — 1920×1080 — hotel-sitemap-structure.webp",
+          "robots-example-code — 1600×1200 — robots-example-safe.webp",
+          "sitemapindex-example — 1600×1200 — sitemapindex-example.webp",
+          "before-after-index-cleanup — 1600×1200 — index-cleanup-before-after.webp"
+        ],
+        "technicalChecklist": [
+          "robots.txt erişilebilir ve test edildi",
+          "Yanlış Disallow kuralı yok",
+          "Sitemap sadece kanonik URL’leri içeriyor",
+          "Dil/silo bazlı sitemap segmentasyonu yapıldı",
+          "Search Console doğrulamaları tamamlandı"
         ]
       }
     }
