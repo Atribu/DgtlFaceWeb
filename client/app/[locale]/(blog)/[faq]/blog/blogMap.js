@@ -13,21 +13,25 @@ export const BLOG_MAP = {
 
     smm: {
     "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi",
-    "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur"
+    "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur",
+    "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi"
   },
 
     yazilim: {
     "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde",
-    "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur"
+    "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur",
+    "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu":"BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
-    "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi"
+    "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi",
+    "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin"
   },
 
        callcenter: {
     "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir",
-    "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi"
+    "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi",
+    "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk"
   },
 
      "pms-ota": {

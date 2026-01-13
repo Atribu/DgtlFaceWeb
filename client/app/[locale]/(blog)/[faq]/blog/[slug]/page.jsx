@@ -185,7 +185,7 @@ export default async function BlogDetailPage({ params }) {
   />
 </div>
       {/* HERO / COVER */}
-      <header className="relative mt-3 h-[40vh] lg:h-[60vh] 2xl:h-[65vh] w-full overflow-hidden">
+      <header className="relative mt-3 h-[40vh] lg:h-[60vh] 2xl:h-[70vh] w-full overflow-hidden">
         <div className="absolute inset-0">
           {/* Cover image */}
           {bannerMedia?.src ? (
@@ -195,7 +195,7 @@ export default async function BlogDetailPage({ params }) {
               fill
               priority
               sizes="100vw"
-              className="object-cover"
+              className="object-contain"
             />
           ) : null}
 

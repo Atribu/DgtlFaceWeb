@@ -34373,6 +34373,1777 @@
         ]
       }
     }
+  },
+
+   "BlogMarkaKimligiGorselDilVeFeedTutarliligi": {
+    "title": "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+    "slug": "marka-kimligi-gorsel-dil-ve-feed-tutarliligi",
+    "department": "smm",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Renk paleti, tipografi ve foto/video stilini netleştirerek marka kimliğini sosyal medyada koruyun. Grid pattern’leri ve format tutarlılığıyla profesyonel feed kurun.",
+    "seo": {
+      "metaTitle": "Instagram Feed Tutarlılığı: Görsel Dil Rehberi | DGTLFACE",
+      "metaDescription": "Renk paleti, tipografi ve foto/video stilini netleştirerek marka kimliğini sosyal medyada koruyun. Grid pattern’leri ve format tutarlılığıyla profesyonel feed kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog No / URL: Blog #4 — /tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/marka-kimligi-gorsel-dil-ve-feed-tutarliligi"
+      ],
+      "strategySummary": "Bu blog, SMM silo’sunda “içerik üretimi”ni sadece konu/planlama değil, görsel dil ve tanınabilirlik boyutuyla tamamlayan core içeriktir ve aynı zamanda Creative silo’su ile SMM arasında köprü görevi görür. Hedef persona; otel/grup markalarında GM veya satış–pazarlama müdürü ile B2B ajans/marka yöneticisidir: içerik “iyi” olsa bile feed “zayıf” görünüyorsa sorun genelde görsel standart eksikliğidir. Funnel’da MoFu (consideration) ağırlıklıdır: kullanıcı “tasarım dili + guideline + pattern” ihtiyacını netleştirir ve analiz/şablon talebine yaklaşır. Ana iş sorusu: “Marka kimliğini sosyal medyada nasıl korurum; renk, tipografi, foto/video stili ve grid pattern’leriyle feed tutarlılığını nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medyada içerik üretmek sadece “ne söyleyeceğiz?” değil, “nasıl görüneceğiz?” sorusuna da tutarlı yanıt vermektir. Net tanımlanmış renk paleti, tipografi ve foto/video stili; feed’i profesyonel gösterir ve kullanıcıların markayı diğer hesaplar arasında hızla tanımasını sağlar. Grid pattern’leri, post–story–reels uyumu ve doğru logo kullanımıyla görsel dil standardı kurduğunuzda; içerikler tek tek iyi olmanın ötesine geçer, bütün olarak güçlü görünür.",
+      "sgeSummary": "Görsel dil; renk paleti, tipografi, foto/video stili ve grid pattern’leriyle kurulur. Logo kullanımı ve format kuralları netleşince feed tutarlılığı artar; marka daha tanınır görünür.",
+      "voiceAnswer": "Instagram feed’i profesyonel göstermek için renk–tipografi–foto stilini sabitleyin ve grid pattern’leriyle tutarlılık kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: TR geneli otel/grup markaları ve B2B ajans/markalar (ör. Antalya/Belek/Kemer/Bodrum destinasyon otelleri).",
+        "KPI’lar: marka tanınabilirliği, profil dönüşümü, kaydetme/paylaşım, DM/lead, içerik üretim hızı (revizyon düşüşü).",
+        "Model: brand guideline → social content guideline → grid pattern → format kuralları → ölçüm/iterasyon.",
+        "Entity’ler: brand identity, visual language, grid design, color palette, typography, creative guideline, consistency.",
+        "Risk: görsel kimliği oturmamış hesaplarda “hatırlanma” ve “tanıma” düşer; içerikler tek tek iyi olsa bile bütün zayıf görünür.",
+        "Çözüm: mini stil kılavuzu + pattern seti + post/story/reels kuralları + örnek şablon.",
+        "Operasyon: dosya adları + alt metin standardı ileride SEO/erişilebilirlik uyumunu güçlendirir."
+      ]
+    },
+    "h1": {
+      "title": "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+      "intro": "Sosyal medyada içerikleriniz iyi olabilir; başlıklar düzgün, fikirler güçlü, videolar kaliteli… ama yine de hesap “dağınık” görünüyorsa problem genelde içerikte değil görsel standartta olur. Kullanıcılar Instagram’da (ve hatta LinkedIn’de) hesabınıza 3–5 saniye bakıp şu kararı verir: “Bu marka profesyonel mi? Tanınır mı? Güven verir mi?” Bu kararın büyük kısmı, metinden önce görsel dil ile şekillenir.\n\nBu rehberde; marka kimliğini sosyal medyada korumak için renk paleti, tipografi, foto/video stil rehberi, grid pattern’leri ve format tutarlılığı adımlarını netleştireceğiz. Otel ve B2B markaları için uygulanabilir örnekler, mini stil kılavuzu ve feed mockup’ı üzerinden ilerleyeceğiz.",
+      "quickSummary": [
+        "1) Renk paleti, tipografi ve foto/video stilini kilitle",
+        "2) Brand guideline’ı sosyal medya guideline’a çevir",
+        "3) 2 ana grid/pattern seç ve 30 gün çıkma",
+        "4) Post–story–reels format kurallarını tekleştir",
+        "5) KPI’larla ölç ve iterasyon yap"
+      ],
+      "ctaPrimary": {
+        "label": "Marka Kimliği & Görsel Dil Analizi Talep Et",
+        "text": "Feed’i profesyonel ve tanınabilir hale getirmek isteyen otel/grup markaları ve B2B ekipleri için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Marka Kimliği & Görsel Dil Analizi Talep Et",
+        "text": "Feed’ini profesyonel ve tanınabilir hale getirmek isteyen otel/B2B ekipleri için.",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Sosyal Medya Stil & Feed Tasarım Şablonunu İndir",
+        "text": "Ekibinize kılavuz gibi verin; 1 günde renk–tipografi–pattern standartlarını çıkarırsınız.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "internalLinks": [
+      { "label": "İçerik Üretimi", "href": "/tr/smm/icerik-uretimi" },
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "SMM", "href": "/tr/smm" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "marka-kimligi-ve-sosyal-medya-baglantisi",
+        "title": "Marka Kimliği ve Sosyal Medya Bağlantısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Marka kimliği; logodan ibaret değildir. Bir kullanıcının zihninde “bu marka kim?” sorusunun cevabını oluşturan renk, yazı karakteri, fotoğraf dili, kompozisyon, ikon seti, ton ve tekrar eden görsel kalıpların toplamıdır. Sosyal medya bu kimliğin en hızlı test edildiği alandır; çünkü kullanıcı aynı anda yüzlerce marka görür ve sadece tutarlı olanlar “tanınır” hale gelir."
+          },
+          {
+            "type": "p",
+            "text": "Otel tarafında bu etki daha da kritiktir: Antalya, Belek, Kemer, Bodrum gibi destinasyonlarda benzer sahil/oda görselleri arasında fark yaratmak için “güzel foto” yetmez; aynı kaliteyi her paylaşımda sürdüren bir dil gerekir. B2B tarafında ise güven ve otorite, “düzenli ve profesyonel görünüm” sinyaliyle başlar."
+          },
+          {
+            "type": "h3",
+            "text": "Sosyal medyada marka kimliği nasıl korunur?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Marka kimliğini korumak için 4 şey sabitlenir: renk paleti, tipografi, foto/video stil rehberi ve grid/pattern sistemi.\nBunlar sabitlenince içerik ekibi “her paylaşımda sıfırdan tasarım” yapmaz; aynı dili tekrar eder. Tekrar = tanınabilirlik demektir."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "9 gönderiye bakınca “bu marka” diyebiliyor musunuz?",
+              "Aynı içeriği farklı tasarımcı yapsa bile aynı görünür mü?",
+              "Story’deki dilinizle feed’deki diliniz birbirini tanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Brand guideline’ı “sosyal medya guideline”a çevirin (aşağıda şablon var).",
+              "3 ana pattern seçin (ör. 3’lü blok + alternasyon + kampanya şablonu).",
+              "1 ay boyunca bu pattern’lerden çıkmayın; sonra ölçün."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "renk-tipografi-ve-gorsel-stil",
+        "title": "Renk Paleti, Tipografi ve Görsel Stil",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir feed’in “pro” görünmesi için ilk şart, tasarımın az karar vermesidir: yani seçeneklerin baştan kısıtlanması. 18 renk, 6 font, 12 gölge… bunlar yaratıcılığı artırmaz; dağınıklığı artırır. Sosyal medya dili, az ama tutarlı seçimi sever."
+          },
+          {
+            "type": "h3",
+            "text": "Renk paleti nasıl seçilmeli?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: 1 ana renk, 1 ikincil renk ve 2 nötr renk (açık/koyu) ile başlayın; sonra 1 vurgu (accent) rengi ekleyin.\nOtel markalarında ana renk genelde “his” taşır (deniz, güneş, doğa). B2B’de ise ana renk “güven ve netlik” taşır (daha kurumsal ve düşük doygunluk)."
+          },
+          {
+            "type": "h4",
+            "text": "Ana ve ikincil renk paleti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana renk: marka imzası (CTA, başlık barları, ikonlar)",
+              "İkincil renk: bölüm ayrımı (etiket, alt başlık, çerçeve)",
+              "Nötrler: arka planlar (beyaz/krem + koyu gri)",
+              "Accent: dikkat çeken küçük vuruş (etiket, ok, highlight)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Mini Stil Kılavuzu görseli (renk swatch + hex + kullanım notu)\n• Önerilen dosya adı: stil-kilavuzu-renk-paleti-dgtlface.webp\n• Alt text: “Sosyal medya için ana/ikincil/nötr renk paleti örneği”"
+          },
+          { "type": "media", "slot": "stil-kilavuzu-renk-paleti" },
+          {
+            "type": "h3",
+            "text": "Tipografi seçimi (2 font kuralı)"
+          },
+          {
+            "type": "p",
+            "text": "Tipografide hedef; “farklı olmak” değil, okunabilir olmaktır. Sosyal medyada kullanıcı hızlı kaydırır; metin 1–2 saniyede okunmazsa geçilir."
+          },
+          {
+            "type": "h4",
+            "text": "Tipografi kural seti"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Maksimum 2 font ailesi: 1 başlık, 1 gövde",
+              "Maksimum 3 ağırlık: Regular / Medium / Bold",
+              "Tüm caps’i sınırlı kullanın: kısa etiketlerde (spam değil)",
+              "Satır aralığı: mobilde nefesli (özellikle carousel)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Tipografi örneği (başlık/gövde/etiket ölçüleri)\n• Dosya adı: stil-kilavuzu-tipografi-ornekleri.webp\n• Alt text: “Sosyal medya postlarında tipografi hiyerarşisi örneği”"
+          },
+          { "type": "media", "slot": "stil-kilavuzu-tipografi" },
+          {
+            "type": "h3",
+            "text": "Fotoğraf / video stil rehberi (ışık, kadraj, ton)"
+          },
+          {
+            "type": "p",
+            "text": "Otel feed’i çoğu zaman fotoğraf ağırlıklıdır; bu yüzden “fotoğraf dili” kimliğin %60’ıdır. B2B’de ise görsel dil; grafik, ekran görüntüsü ve insan odaklı içeriklerin dengesiyle kurulur."
+          },
+          {
+            "type": "h4",
+            "text": "Foto/video stil rehberi maddeleri"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Işık: doğal ve temiz (aşırı filtre yok)",
+              "Ton: sıcak/soğuk sabit (iki farklı dünya yaratmayın)",
+              "Kadraj: 3 sabit kadraj türü belirleyin (geniş, orta, detay)",
+              "İnsan kullanımı: otelde deneyim hissi, B2B’de güven hissi",
+              "Kapak (thumbnail): reels’te sabit şablon veya sabit etiket"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "10 referans görsel seçin ve “olması gereken ton”u tanımlayın.",
+              "3 kadraj tipi belirleyin; çekimleri buna göre standartlaştırın.",
+              "Reels kapaklarını ya şablon yapın ya da tek tip etiketle sabitleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grid-feed-tasarimi-ve-patternler",
+        "title": "Grid/Feed Tasarımı ve Pattern’ler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Grid tasarımı” demek, her postu aynı yapmak değildir. Grid; tekrar eden bir düzen demektir: kullanıcı 9’lu görünümde markayı “okur” ve tanır."
+          },
+          {
+            "type": "h3",
+            "text": "Grid pattern’leri: 3 pratik model"
+          },
+          {
+            "type": "p",
+            "text": "Aşağıdaki pattern’ler otel ve B2B’de en çok işe yarayan, üretimi kolay sistemlerdir:"
+          },
+          {
+            "type": "h4",
+            "text": "1) 3’lü bloklar (Pillar blokları)"
+          },
+          {
+            "type": "p",
+            "text": "Her 3 post bir pillar’a ait görünür:\n• 1: bilgilendirici (carousel)\n• 2: deneyim/duygu (foto/reels)\n• 3: sosyal kanıt/CTA (yorum/teklif)"
+          },
+          {
+            "type": "h4",
+            "text": "2) Alternasyon (foto – grafik – foto)"
+          },
+          {
+            "type": "p",
+            "text": "Özellikle otellerde foto yoğunluğu yüksek olduğu için araya “grafik/etiket” koymak düzen verir:\n• Foto (deneyim) → Grafik (SSS) → Foto (oda) → Grafik (kampanya)"
+          },
+          {
+            "type": "h4",
+            "text": "3) Kampanya şablonu (aylık sabit seri)"
+          },
+          {
+            "type": "p",
+            "text": "Ayda 4 kez tekrarlanan seri: “Haftanın Odası”, “Haftanın Deneyimi”, “Haftanın Rota Önerisi”, “Haftanın SSS’si”."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Feed/Grid mockup (9’lu örnek + 3 pattern varyasyonu)\n• Dosya adı: feed-grid-mockup-otel-b2b.webp\n• Alt text: “Otel ve B2B hesapları için grid pattern örnekleri”"
+          },
+          { "type": "media", "slot": "feed-grid-mockup-otel-b2b" },
+          {
+            "type": "h3",
+            "text": "Feed tasarımı SEO ve etkileşimi etkiler mi?"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Dolaylı olarak evet. Feed tutarlılığı; profil dönüşümünü, kaydetme/geri dönme davranışını ve marka güvenini artırır. Bu da algoritmik dağılımı ve kullanıcı aksiyonlarını (DM, link tıklaması) olumlu etkiler.\nSEO tarafında doğrudan “Instagram grid SEO” yoktur; fakat marka aramaları ve dönüşüm üzerinde etkisi vardır: kullanıcı markayı hatırlarsa, Google’da arar ve siteye gider."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "9’lu grid’de en az 3 farklı içerik türü görünüyor mu?",
+              "Renk ve yazı dili aynı dünyada mı?",
+              "Reels kapakları grid’i bozuyor mu, tamamlıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 ana pattern seçin, 1 yardımcı pattern ekleyin (toplam 2).",
+              "30 gün bu pattern’den çıkmayın; sonra kademeli geliştirin.",
+              "En çok kaydedilen içerik türünü pattern’de öne alın."
+            ]
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Sosyal Medya Stil & Feed Tasarım Şablonunu İndir — SMM + Creative (v1.0)",
+            "purpose": "Bu şablon; sosyal medya için renk paleti, tipografi, foto/video stili, grid pattern’leri ve format kurallarını tek sayfalık bir kılavuza dönüştürür. Otel ve B2B hesaplarında “her postta yeniden tasarım” döngüsünü kırar, revizyonları azaltır ve feed tutarlılığını hızla yükseltir.",
+            "whoFor": "Otel/grup markası pazarlama ekipleri, ajans creative ekipleri, sosyal medya yöneticileri.",
+            "steps": [
+              "Mevcut marka guideline’ından renk/font/logo kurallarını çıkarın.",
+              "10 referans post seçip foto/video stilini tanımlayın; 2 pattern belirleyin.",
+              "Story ve reels için şablon setini ekleyin; 30 gün bu standarttan çıkmayın."
+            ],
+            "checklist": [
+              "1 ana + 1 ikincil + 2 nötr + 1 accent renk var mı?",
+              "Maksimum 2 font kullanıldı mı?",
+              "3 kadraj tipi belirlendi mi?",
+              "2 grid pattern seçildi mi?",
+              "Story için 3 şablon hazır mı?",
+              "Reels kapak kuralı sabit mi?",
+              "Dosya adı + alt text standardı tanımlandı mı?"
+            ],
+            "href": "/downloads/sosyal-medya-stil-feed-tasarım-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "post-story-reels-tutarlilik",
+        "title": "Post, Story ve Reels’te Tutarlılık",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok hesap, feed’de “güzel” görünür ama story/reels’te kimlik kaybolur. Halbuki kullanıcı yolculuğu şöyledir: reels ile keşfeder → profile gelir → story’de bağ kurar → DM/rezervasyon aksiyonu verir. Bu zincirde görsel kimlik koparsa dönüşüm düşer."
+          },
+          {
+            "type": "h3",
+            "text": "Formatlar arası tutarlılık için 5 kural"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sabit etiket sistemi: kategori etiketi (ODA / DENEYİM / SSS)",
+              "Sabit tipografi hiyerarşisi: başlık/alt başlık/CTA",
+              "Sabit renk kullanımı: aynı vurgu rengi",
+              "Sabit ikon seti: özellikle SSS ve bilgi içeriklerinde",
+              "Sabit CTA dili: “DM’ye yaz” / “profil link” / “web sayfası” gibi"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Story’de kimliği koruma (hızlı yöntem)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2–3 story şablonu seçin (anket, soru kutusu, duyuru)",
+              "Her şablonda aynı başlık barı + aynı font",
+              "Foto üstüne “şeffaf bar” ile okunabilirlik"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Reels’te kimliği koruma (kapak + alt yazı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kapak için sabit layout (sol üst etiket + alt başlık)",
+              "Alt yazı fontu ve boyutu sabit",
+              "0–2 saniye hook kuralı (metin + görsel)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Story template set (3 şablon) + reels cover set (3 şablon)"
+          },
+          { "type": "media", "slot": "sss-reels" },
+          
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 haftalık story şablon setini oluşturun.",
+              "Reels kapaklarını sabitleyin (ya şablon ya etiket).",
+              "CTA dilini tekleştirin (her formatta farklı CTA kullanmayın)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-ornekleri",
+        "title": "Otel ve B2B İçin Görsel Dil Örnekleri",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Otel örneği: “Deneyim odaklı, premium ama sıcak”"
+          },
+          {
+            "type": "p",
+            "text": "• Renk: sıcak nötr + 1 deniz tonu accent\n• Tipografi: zarif başlık + okunur gövde\n• Foto stili: doğal ışık, temiz ton, fazla filtre yok\n• Grid: alternasyon + haftalık seri\n• CTA: “DM/WhatsApp ile hızlı bilgi” (sezonda pratik)"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Otel “mini style guide” (1 sayfa PDF görseli)\n• Dosya adı: otel-gorsel-dil-mini-style-guide.webp\n• Alt text: “Otel sosyal medya görsel dil rehberi mini kılavuz”"
+          },
+          { "type": "media", "slot": "otel-mini-style-guide" },
+          {
+            "type": "h3",
+            "text": "B2B örneği: “Net, ölçülebilir, güven odaklı”"
+          },
+          {
+            "type": "p",
+            "text": "• Renk: kurumsal ana renk + 1 accent (grafik vurgusu)\n• Tipografi: güçlü başlık, sade gövde\n• Görsel stili: case/diagram/ekip görüntüsü dengesi\n• Grid: 3’lü blok (know-how / proof / offer)\n• CTA: “Analiz talep et / teklif al” (BoFu uyumlu)"
+          },
+          {
+            "type": "p",
+            "text": "Buraya: B2B feed mockup (9’lu grid: 3 kategori)"
+          },
+          { "type": "media", "slot": "package-balance" }
+        ]
+      },
+      {
+        "id": "teknik-not-dosya-adi-alt-metin",
+        "title": "Teknik Not: Dosya adları, alt metin ve erişilebilirlik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Görsel dil “estetik” kadar “düzen”dir. Blog içindeki örnek görsellerin dosya adları ve alt metinleri; ileride Creative ve SEO sayfalarıyla da uyumlu olmalı. (Buraya: /tr/creative/grafik-motion-tasarim) ve SMM içerik akışıyla standardize edilmelidir. (Buraya: /tr/smm)\n\nVarsayım: Görsel dosya adlarında tireli, açıklayıcı ve Türkçe karakter içermeyen yapı tercih edilir."
+          },
+          {
+            "type": "h3",
+            "text": "Örnek:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "instagram-feed-grid-pattern-otel.webp",
+              "Alt text: “Otel hesabı için 3’lü blok grid pattern örneği”",
+              "renk-paleti-tipografi-sosyal-medya.webp",
+              "Alt text: “Sosyal medya için renk paleti ve tipografi hiyerarşisi örneği”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her görselin 1 cümle alt text’i olsun (ne gösteriyor?).",
+              "Dosya adları tema + format + amaç içersin.",
+              "Görselleri “örnek” olarak etiketleyin (kullanıcı yanlış anlamasın)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Marka kimliği sosyal medyada; tek tek postlardan değil, bütün olarak tutarlı görünen bir sistemden anlaşılır. Renk paleti, tipografi ve foto/video stilini sabitlediğinizde; grid pattern’leriyle tekrar eden düzen kurduğunuzda ve post–story–reels tutarlılığını sağladığınızda; içerikleriniz hem daha profesyonel görünür hem de marka daha hızlı tanınır. Otel ve B2B’de bu fark, “güzel içerik” ile “güven veren marka” arasındaki çizgidir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Marka Kimliği & Görsel Dil Analizi Talep Et",
+            "text": "Feed’inizi 30 gün içinde tanınabilir bir sisteme oturtmak için.",
+            "href": "/tr/smm/icerik-uretimi"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Sosyal Medya Stil & Feed Tasarım Şablonunu İndir",
+            "text": "Ekibinize görev listesi gibi dağıtın; 1 günde görsel dil standardını çıkarıp revizyonları azaltırsınız.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Marka kimliği sosyal medyada nasıl uygulanır?",
+        "a": "Renk paleti, tipografi, foto/video stili ve grid pattern’leri sabitlenerek uygulanır. Sonra post/story/reels formatlarında aynı etiket–CTA–şablon sistemiyle tutarlılık korunur."
+      },
+      {
+        "q": "Instagram feed’imi nasıl profesyonel gösterebilirim?",
+        "a": "2 font kuralı + 4–5 renk paleti ile başlayın. Reels kapaklarını ve story şablonlarını sabitleyip 2 grid pattern seçerek 30 gün aynı sistemle ilerleyin."
+      },
+      {
+        "q": "Feed tasarımı SEO ve etkileşimi etkiler mi?",
+        "a": "SEO’ya doğrudan etki etmez; ancak marka tanınabilirliği ve profil dönüşümünü artırarak dolaylı etki yaratır. Tutarlı feed, kaydetme/geri dönme davranışını ve DM/lead aksiyonlarını yükseltebilir."
+      },
+      {
+        "q": "Renk paleti ve tipografiyi nasıl seçmeliyim?",
+        "a": "1 ana + 1 ikincil + 2 nötr + 1 accent renk ve maksimum 2 font ailesiyle başlayın. Okunabilirliği önceliklendirin ve sosyal medya ölçeklerine göre ölçüleri sabitleyin."
+      },
+      {
+        "q": "Otel ve B2B için görsel dil rehberi nasıl olmalı?",
+        "a": "Otelde foto/video stili (ışık, ton, kadraj) daha baskındır; B2B’de grafik/kanıt/case dili daha baskındır. İkisi de pattern ve şablon sistemiyle tutarlılık ister."
+      },
+      {
+        "q": "Reels kapakları feed’i bozuyor, ne yapmalıyım?",
+        "a": "Kapaklarda sabit şablon veya sabit kategori etiketi kullanın. Başlık alanı ve tipografiyi sabitleyerek grid’de bütünlük sağlayın."
+      },
+      {
+        "q": "Marka guideline’ı sosyal medya guideline’a nasıl çevrilir?",
+        "a": "Logo–renk–font kurallarını alın; sosyal medya için şablon (post/story/reels), pattern ve CTA kullanım kuralları ekleyin. 1 sayfalık mini style guide ile ekip içinde standartlaştırın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "stil-kilavuzu-renk-paleti-dgtlface.webp",
+          "stil-kilavuzu-tipografi-ornekleri.webp",
+          "feed-grid-mockup-otel-b2b.webp",
+          "sss-reels.webp",
+          "otel-gorsel-dil-mini-style-guide.webp",
+          "package-balance.webp"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 giriş sonunda, Sonuç bölümünde)",
+          "Secondary CTA: 1 kez (orta bölümde download asset olarak)",
+          "Internal Link Targets: /tr/smm/icerik-uretimi, /tr/creative/grafik-motion-tasarim, /tr/smm",
+          "Secondary CTA türü: Download Asset → Template/Şablon",
+          "Dosya adı standardı: tireli, açıklayıcı, Türkçe karakter yok",
+          "Alt text standardı: “Ne gösteriyor + kim için + kısa bağlam”"
+        ],
+        "deliverables": [
+          "1 sayfalık “mini style guide” (PDF)",
+          "9’lu feed mockup (2 varyasyon)",
+          "Story template set (3 şablon)",
+          "Reels cover set (3 şablon)",
+          "“Dosya adı + alt text” standardı dokümanı",
+          "Örnek feed/grid mockup + mini stil kılavuzu görselleri"
+        ]
+      }
+    }
+  },
+
+  "BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu": {
+    "title": "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu",
+    "slug": "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu",
+    "department": "yazilim",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "LCP, CLS, INP hedeflerine yaklaşmak için görsel, kod ve cache optimizasyonu yapın. Next.js ipuçları + otel/B2B checklist ile hız ve SEO’yu güçlendirin.",
+    "seo": {
+      "metaTitle": "Core Web Vitals ve Hız Optimizasyonu Rehberi | DGTLFACE",
+      "metaDescription": "LCP, CLS, INP hedeflerine yaklaşmak için görsel, kod ve cache optimizasyonu yapın. Next.js ipuçları + otel/B2B checklist ile hız ve SEO’yu güçlendirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa Adı / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog No / URL: Blog #3 — /tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical (MoFu)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “performans standardı” oluşturan otorite child rolünde: CWV (LCP/CLS/INP) üzerinden hem SEO hem UX hem de reklam landing kalitesini aynı anda ele alır. Funnel’da MoFu konumunda; “neden yavaş?” sorusundan “hangi adımları hangi sırayla yapmalıyım?” kararına taşır. Ana iş sorusu: Core Web Vitals hedeflerini yakalamak için görsel–kod–sunucu/cache katmanlarında önceliklendirilmiş bir planı nasıl kurarım? Otel projelerinde yoğun görsel ve rezervasyon akışı; B2B’de dashboard/demo sayfaları performansın stres testidir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Hızlı bir web sitesi; SEO, kullanıcı deneyimi ve reklam performansı için temel şarttır. Core Web Vitals (LCP, CLS, INP) iyileştirmesi “tek ayar” değil, planlı bir optimizasyon sürecidir: önce en büyük içerik öğesini (LCP) hızlandırın, sonra layout zıplamalarını (CLS) düzeltin, ardından etkileşim gecikmesini (INP) azaltın. Görsel/font optimizasyonu, kod bölme, caching ve Next.js doğru kullanımı; otel ve B2B sitelerinde terk oranını düşürür.",
+      "sgeSummary": "CWV iyileştirmesi için 3 katman: görsel-font optimizasyonu, JS/kod yükünü azaltma, sunucu-cache/CDN düzeni. LCP→CLS→INP sırasıyla ilerleyin; Next.js’te Image ve caching’i doğru kurun.",
+      "voiceAnswer": "Web siteniz yavaşsa önce görselleri optimize edin, sonra JS yükünü azaltın, cache/CDN’i düzeltin.",
+      "aiFactSheet": [
+        "Hedef kitle: Ajans teknik ekipleri, pazarlama yöneticileri, otel/B2B site sahipleri",
+        "KPI: LCP, CLS, INP; bounce rate; dönüşüm; organik görünürlük; reklam landing kalite sinyalleri",
+        "Entity set: Core Web Vitals, PageSpeed, caching, CDN, WebP/AVIF, lazy-load, code splitting, Next.js Image",
+        "Funnel: MoFu (teknik rehber) → analiz/rapor + checklist indirme",
+        "Risk alanları: Büyük hero görsel, font bloklama, üçüncü taraf script’ler, JS şişkinliği, kötü cache politikası",
+        "GEO bağlamı: Türkiye’de otel destinasyon sayfaları (Antalya/Belek/Side/Kemer/Bodrum) ve B2B kurumsallar",
+        "Çıktı formatı: CWV tablo + optimizasyon akış diyagramı + performans checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu",
+      "intro": "Web siteniz yavaşsa sorun “tek bir şey” değildir; genelde görsel yükü + JS yükü + sunucu/cache birleşir. Özellikle otel sitelerinde (Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon sayfaları yoğun görsel taşır) hız düştüğünde terk oranı artar; B2B’de ise demo/dashboard sayfaları ağırlaştığında lead kalitesi ve dönüşüm düşer. Bu rehber; Core Web Vitals (LCP, CLS, INP) metriklerini “ne olduğu” düzeyinde bırakmadan, hangi sırayla hangi aksiyonu yapmanız gerektiğini verir. Hedefimiz: CWV iyileştirmesini “bir kere yap bitti” değil, 180 günlük ölç–iyileştir–koru döngüsüyle standarda bağlamak.",
+      "quickSummary": [
+        "1) LCP öğesini (hero) tespit et ve hızlandır",
+        "2) CLS kaynaklarını sabitle (img ölçüsü, font, banner)",
+        "3) INP için JS ve 3rd-party yükünü azalt",
+        "4) Next.js Image, code splitting ve caching’i doğru kur",
+        "5) Ölç–iyileştir–koru döngüsünü 180 güne bağla"
+      ],
+      "ctaPrimary": {
+        "label": "Web Sitesi Performans & CWV Analizi Talep Et",
+        "text": "Otel veya B2B siteniz için LCP/CLS/INP kök nedenlerini çıkarıp uygulanabilir bir iyileştirme planı oluşturalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Web Sitesi Performans & CWV Analizi Talep Et",
+        "text": "Otel veya B2B siteniz için LCP/CLS/INP kök nedenlerini çıkarıp uygulanabilir bir iyileştirme planı oluşturalım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Web Sitesi Performans & Core Web Vitals Checklist Şablonunu İndir",
+        "text": "Ekibinize görev listesi olarak verin; LCP→CLS→INP sırasıyla 2 haftalık sprint planı gibi kullanın.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      { "label": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "label": "Teknik SEO", "href": "/tr/seo/teknik-seo" },
+      { "label": "Sunucu Güvenlik", "href": "/tr/yazilim/sunucu-guvenlik" },
+      { "label": "KVKK & Veri Güvenliği", "href": "/tr/raporlama/kvkk-veri-guvenligi" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+
+      {
+        "id": "core-web-vitals-nedir",
+        "title": "Core Web Vitals Nedir? (LCP, CLS, INP)",
+         "preBlocks":[{"type":"media","slot":"cwv-table"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Core Web Vitals, Google’ın kullanıcı deneyimini ölçmek için öne çıkardığı metrik setidir. Pratikte size şunu söyler: sayfa ne kadar hızlı “anlamlı” yükleniyor (LCP), arayüz zıplıyor mu (CLS), kullanıcı tıkladığında site ne kadar çabuk tepki veriyor (INP). CWV tek başına “sıralama garantisi” değildir; ama hız kötü ise SEO, UX ve reklam verimi aynı anda yara alır."
+          },
+          {
+            "type": "h3",
+            "text": "LCP (Largest Contentful Paint) – “Sayfanın en büyük öğesi ne zaman geliyor?”"
+          },
+          {
+            "type": "p",
+            "text": "LCP genelde hero görsel, büyük başlık alanı veya üst banner’dan gelir. Otel sitelerinde LCP çoğunlukla dev bir görsel/slider; B2B’de ise büyük bir hero + video veya ağır bir UI bileşeni olabilir."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: LCP “en büyük öğe” örnekleri (hero görsel / slider / video poster)"
+          },
+          { "type": "media", "slot": "lcp" },
+          {
+            "type": "h3",
+            "text": "CLS (Cumulative Layout Shift) – “Sayfa zıplıyor mu?”"
+          },
+          {
+            "type": "p",
+            "text": "CLS, kullanıcı daha tıklamadan sayfanın yer değiştirmesidir. En sık neden: boyutu tanımlanmamış görseller, geç yüklenen fontlar, sonradan giren banner’lar (cookie bar / promo)."
+          },
+          {
+            "type": "h3",
+            "text": "INP (Interaction to Next Paint) – “Tıklayınca gecikiyor mu?”"
+          },
+          {
+            "type": "p",
+            "text": "INP, ağır JS ve main thread bloklarıyla bozulur. Üçüncü taraf script’ler (tag/ads/chat), büyük bundle’lar, kötü event handler’lar INP’yi aşağı çeker."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP öğesi (hero/üst alan) net mi?",
+              "Görsellerin boyutları (width/height) tanımlı mı?",
+              "Sayfada ağır JS/3rd-party script’ler var mı?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hiz-optimizasyonu-oncelikler",
+        "title": "Hız Optimizasyonu İçin Öncelikler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Performans işini “her şeye dokunayım” diye yapmak en hızlı yolu kaybettirir. Doğru sıra: LCP → CLS → INP. Çünkü kullanıcı önce “sayfa geldi mi?” der, sonra “sayfa sabit mi?” der, sonra “site tepki veriyor mu?” der."
+          },
+          {
+            "type": "h3",
+            "text": "LCP, CLS ve INP değerlerimi nasıl iyileştiririm?"
+          },
+          {
+            "type": "p",
+            "text": "LCP için hero görselini küçültün, doğru format (WebP/AVIF) kullanın ve caching/CDN’den servis edin. CLS için görsel ölçülerini sabitleyin, font yüklemeyi optimize edin ve geç gelen banner’ları kontrollü yerleştirin. INP için JS yükünü azaltın, code splitting uygulayın ve üçüncü taraf script’leri disipline edin."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "PageSpeed/CrUX ile en kötü 5 sayfayı seç",
+              "Her sayfada önce LCP öğesini hedefle (hero)",
+              "CLS kaynaklarını sabitle (img ölçüsü, font, banner)",
+              "INP için JS ve 3rd-party azalt (önceliklendirme)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Optimizasyon akış diyagramı (Ölç → LCP düzelt → CLS düzelt → INP düzelt → tekrar ölç)"
+          },
+          { "type": "media", "slot": "performance-cycle" }
+        ]
+      },
+      {
+        "id": "gorsel-font-optimizasyonu",
+        "title": "Görsel ve Font Optimizasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurumsal sitelerde performansın %60’ı çoğu zaman görsel + font katmanında çözülür. Otel siteleri yoğun fotoğraf taşır; B2B siteleri ise daha “UI ağırlıklı” olsa bile font ve ikon yükleri ağırlaşabilir."
+          },
+          {
+            "type": "h3",
+            "text": "Görsel boyutu ve formatları (WebP, responsive images)"
+          },
+          {
+            "type": "p",
+            "text": "• Görselleri doğru formatta servis edin (WebP/AVIF).\n• Responsive images kullanın: mobilde 2000px görsel göndermeyin.\n• Hero görseline özel yaklaşım: tek, optimize, cache’li."
+          },
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hero görseli gerçekten “tek ve optimize” mi?",
+              "Galeri görselleri lazy-load mu?",
+              "Görsellerin boyutları CSS ile değil kaynakta doğru mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Font optimizasyonu (FOIT/FOUT kontrolü)"
+          },
+          {
+            "type": "p",
+            "text": "CLS’nin gizli faili fontlardır. Fontlar geç gelince sayfa zıplar. Çözüm: font sayısını azaltma, doğru preload ve fallback stratejisi.\n\nVarsayım: Kurumsal projede 2 font ailesi + 2–3 weight üstüne çıkmamak hedeflenir."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Font yükleme şeması (preload → swap → fallback)"
+          },
+          { "type": "media", "slot": "font-loading" }
+        ]
+      },
+      {
+        "id": "nextjs-performans-ipuclari",
+        "title": "Next.js Özelinde Performans İpuçları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js size performans için güçlü araçlar verir; ama yanlış kullanım “kolay yavaşlık” üretir."
+          },
+          {
+            "type": "h3",
+            "text": "Lazy-loading, code splitting, caching"
+          },
+          {
+            "type": "p",
+            "text": "• Component bazlı bölme (route bazlı code splitting zaten var; ağır componentleri ayrıca böl)\n• ISR/SSG ile static hızını kullan (uygun sayfalarda)\n• SSR gereken yerlerde caching stratejisi (Varsayım) planla"
+          },
+          {
+            "type": "h3",
+            "text": "Next/Image kullanımı"
+          },
+          {
+            "type": "p",
+            "text": "Next/Image doğru kullanıldığında LCP’ye büyük katkı sağlar; yanlış kullanıldığında (oversized, yanlış priority) LCP’yi boğar."
+          },
+           {"type":"media","slot":"nextjs-performance"},
+          {
+            "type": "h3",
+            "text": "☑ Mini Check"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP öğesi olan görselde “priority” mantıklı mı?",
+              "Görsellerde doğru width/height var mı?",
+              "Placeholder/blur stratejisi UX’i bozuyor mu?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-performans-checklist",
+        "title": "Otel ve B2B İçin Performans Checklist’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Performans standartlarını “sektöre göre” daraltmak işleri kolaylaştırır."
+          },
+          {
+            "type": "h3",
+            "text": "Otel siteleri (yüksek görsel yük)"
+          },
+          {
+            "type": "p",
+            "text": "• Hero/slider sadeleştirme\n• Galeri ve oda görselleri lazy-load\n• Rezervasyon akışı ayrı performans test seti\n• Destinasyon sayfalarında (Antalya/Belek/Side/Kemer/Bodrum) görsel boyut disiplini"
+          },
+          
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Slider yerine tek hero + hafif galeri tercih et (gerekiyorsa)",
+              "Rezervasyon CTA ve akışını “hızlı yol” olarak koru",
+              "İlk ekranda LCP’yi garanti altına al"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "B2B siteleri (UI + script yükü)"
+          },
+          {
+            "type": "p",
+            "text": "• Üçüncü taraf script’leri azaltma\n• Demo/dashboard sayfalarını ayrı optimize etme\n• Form dönüşüm akışında gecikmeleri temizleme"
+          },
+          {"type":"media","slot":"hotel-b2b"},
+          {
+            "type": "h3",
+            "text": "Core Web Vitals nedir, web sitesi performansını nasıl etkiler?"
+          },
+          {
+            "type": "p",
+            "text": "Core Web Vitals; sayfanın hızlı yüklenip yüklenmediğini (LCP), arayüzün stabil olup olmadığını (CLS) ve etkileşime hızlı yanıt verip vermediğini (INP) ölçer. Bu metrikler kötü olduğunda kullanıcı daha içerik görmeden çıkar; SEO ve reklam landing verimi de birlikte düşer. Bu yüzden CWV iyileştirmesi, performans çalışmalarının “ölçülebilir omurgasıdır”."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Web Sitesi Performans & Core Web Vitals Checklist Şablonunu İndir",
+            "text": "Ekibinize görev listesi olarak verin; LCP→CLS→INP sırasıyla 2 haftalık sprint planı gibi kullanın.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-performans-dongu",
+        "title": "Sonuç: Performans “Bir Kez” Değil, Döngüdür",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CWV optimizasyonu bir kere yapılınca bitmez; tasarım güncellemeleri, yeni içerik ve üçüncü taraf script’ler performansı tekrar aşağı çekebilir. Bu yüzden hedef: ölç–iyileştir–koru döngüsünü kurmak ve 180 günlük refresh ile eşikleri güncel tutmaktır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Web Sitesi Performans & CWV Analizi Talep Et",
+            "text": "En kötü 5 sayfanızı CWV’ye göre analiz edelim; uygulanabilir aksiyon listesi ve sprint planıyla hızınızı kalıcı iyileştirelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "cwv-checklist-download-asset",
+        "title": "Web Sitesi Performans & Core Web Vitals Checklist Şablonunu İndir — Yazılım (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Web Sitesi Performans & Core Web Vitals Checklist Şablonunu İndir — Yazılım (v1.0)",
+            "purpose": "Bu asset, Core Web Vitals performans iyileştirmesini “rastgele optimizasyon” olmaktan çıkarıp önceliklendirilmiş bir süreç haline getirir. LCP→CLS→INP sırasıyla ilerleyen checklist, görsel/font, JS/kod ve sunucu/cache katmanlarında net aksiyonlar verir. Otel ve B2B sitelerinde hız kaynaklı terk ve dönüşüm kaybını azaltmak için operasyonel bir standart sunar.",
+            "whoFor": "Front-end geliştirici, performance/SEO uzmanı, proje yöneticisi, pazarlama yöneticisi.",
+            "steps": [
+              "PageSpeed/CrUX ile en kötü 5 sayfayı seçin ve CWV metriklerini not edin.",
+              "Checklist’i LCP→CLS→INP sırasıyla uygulayın; her madde için kanıt (rapor/screenshot) ekleyin.",
+              "14 günlük sprint planıyla düzeltmeleri planlayın; 30 gün sonunda KPI’ları karşılaştırın."
+            ],
+            "checklist": [
+              "PageSpeed + CWV metrikleri alındı (LCP/CLS/INP)",
+              "En kötü 5 sayfa belirlendi",
+              "LCP öğesi tespit edildi (hero/görsel/başlık)",
+              "CLS kaynakları listelendi (img ölçüsü/font/banner)",
+              "INP kaynakları listelendi (JS/3rd-party/main thread)",
+              "Hero görsel formatı WebP/AVIF",
+              "Hero boyutu küçültüldü",
+              "Responsive images uygulandı",
+              "Caching/CDN kontrol edildi (Varsayım)",
+              "Kritik CSS/JS sadeleştirildi (Varsayım)",
+              "Görsellere width/height verildi",
+              "Font swap/fallback planı yapıldı",
+              "Cookie/promo banner sabit alanla yönetildi",
+              "Geç yüklenen bileşenler layout’u itelemiyor",
+              "Üçüncü taraf script’ler azaltıldı",
+              "Ağır componentler lazy-load",
+              "Code splitting (büyük modüller)",
+              "Event handler’lar optimize",
+              "Main thread blokları temizlendi (Varsayım)"
+            ],
+            "href": "/downloads/web-sitesi-performans-cwv-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Core Web Vitals nedir, web sitesi performansını nasıl etkiler?",
+        "a": "Core Web Vitals; sayfanın hızlı yüklenmesini (LCP), stabil kalmasını (CLS) ve hızlı tepki vermesini (INP) ölçer. Kötü değerler terk oranını artırır; SEO ve reklam verimini düşürür."
+      },
+      {
+        "q": "LCP, CLS ve INP değerlerimi nasıl iyileştiririm?",
+        "a": "LCP için hero görselini optimize edin ve cache/CDN kullanın; CLS için görsel ölçülerini sabitleyin ve font yüklemeyi düzeltin; INP için JS/3rd-party script yükünü azaltın."
+      },
+      {
+        "q": "Otel ve B2B sitelerinde hız optimizasyonu için neler yapmalıyım?",
+        "a": "Otelde görsel/slider yükünü kontrol edip rezervasyon akışını ayrı optimize edin; B2B’de JS ve üçüncü taraf script’leri azaltıp form/CRM akışını hızlandırın."
+      },
+      {
+        "q": "Next.js projelerinde performans artırmanın yolları nelerdir?",
+        "a": "Next/Image ile görselleri optimize edin, sayfa tipine göre SSR/SSG/ISR seçin, code splitting uygulayın ve caching stratejisini doğru kurgulayın."
+      },
+      {
+        "q": "Performans iyileştirmesi bir kere yapılır mı?",
+        "a": "Hayır. Tasarım, içerik ve script değiştikçe performans dalgalanır; bu yüzden düzenli ölçüm ve periyodik iyileştirme döngüsü gerekir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "cwv-table-01 — CWV tablo görseli (LCP/CLS/INP | hedef | yaygın neden | hızlı çözüm)",
+          "lcp — LCP “en büyük öğe” örnekleri (hero/slider/video poster)",
+          "performance-cycle — Optimizasyon akış diyagramı (Ölç → LCP → CLS → INP → tekrar ölç)",
+          "font-loading — Font yükleme şeması (preload → swap → fallback)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 giriş sonunda, Sonuç bölümünde)",
+          "Secondary CTA: 1 kez (orta bölümde)",
+          "Secondary CTA türü: Download Asset (Checklist)",
+          "Internal Link Targets: /tr/yazilim/web-sitesi-gelistirme, /tr/seo/teknik-seo, /tr/yazilim/sunucu-guvenlik, /tr/raporlama/kvkk-veri-guvenligi",
+          "Intent: Informational + Technical (MoFu)",
+          "Refresh döngüsü: 180 gün içerik döngüsü metinde geçiyor; teknik takip listesine eklendi"
+        ]
+      }
+    }
+  },
+
+  "BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin": {
+    "title": "Motion Graphic Hikâye Anlatımı Rehberi | DGTLFACE",
+    "slug": "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin",
+    "department": "creative",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Motion graphic ile 10–20 sn’de net hikâye kurun: hook, sahne planı, logo/stinger ve CTA. Otel & B2B senaryoları + storyboard checklist’i ile başlayın.",
+    "seo": {
+      "metaTitle": "Motion Graphic Hikâye Anlatımı Rehberi | DGTLFACE",
+      "metaDescription": "Motion graphic ile 10–20 sn’de net hikâye kurun: hook, sahne planı, logo/stinger ve CTA. Otel & B2B senaryoları + storyboard checklist’i ile başlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog No / URL: Blog #3 — /tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "GEO: Türkiye geneli; motion ile ürün/deneyim anlatmak isteyen otel ve B2B markalar",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin"
+      ],
+      "strategySummary": "Bu içerik, Creative silosu içinde “motion üretimi”ni yazılım/After Effects tekniğinden ayırıp hikâye ve sahne kurgusu üzerinden sistemleştiren otorite (core) rehber rolünde. /tr/creative/grafik-motion-tasarim sayfasına güçlü bir child içerik olarak iç link ile dönüşüm taşır; ayrıca video üretimi ve reels video ekseninde çapraz otorite kurar. Funnel’da consideration → conversion: ekip “ne çekeceğini/neyi anlatacağını” netleştirir, prodüksiyon ve revizyon azalır. Ana iş sorusu: “10–20 saniyede mesajı akılda kalıcı hale getiren motion hikâyeyi nasıl kurarım?” Hedef persona: otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi + içerik/tasarım ekibi."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-13",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Motion graphic; karmaşık bir konuyu birkaç sahnede “hissedilir ve anlaşılır” hâle getiren güçlü bir anlatım aracıdır. Etkili sonuç için üç şey gerekir: net hikâye yapısı (giriş–gelişme–çözüm), ilk 3 saniyede güçlü hook, ve sade animasyon prensipleri (timing, easing, overshoot). Otellerde deneyim/tesis, B2B’de ürün/özellik anlatımı bu modelle 10–20 saniyede akılda kalır. Storyboard ve sahne planı revizyonu düşürür.",
+      "sgeSummary": "10–20 saniyelik motion video için hook’u ilk 3 saniyeye koyun, 3–5 sahnelik storyboard çıkarın, mesajı tek cümleye indirin ve finalde net CTA + ending/stinger kullanın.",
+      "voiceAnswer": "Hook’u ilk 3 saniyeye yerleştir, 3–5 sahne storyboard yap, tek mesaj ver ve CTA ile bitir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel & B2B pazarlama ekipleri, ajanslar, içerik/tasarım ekipleri",
+        "KPI: İzlenme tamamlama oranı, ilk 3 sn tutunma, CTA tıklaması, revizyon sayısı, prodüksiyon süresi",
+        "Entity: Motion Graphic, Storyboard, Hook, Scene Planning, Stinger/Ending, CTA",
+        "Funnel: MoFu → BoFu (mesaj netliği + hız)",
+        "Formatlar: Reels/TikTok (9:16), YouTube Shorts (9:16), Web hero video (16:9)",
+        "Risk: “Efekt” odaklı üretim → mesaj kaybolur, retention düşer",
+        "Çıktı: Storyboard örneği + hook→mesaj→CTA diyagramı + senaryo checklist"
+      ]
+    },
+    "h1": {
+      "title": "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
+      "intro": "Motion graphic üretiminde sorun çoğu zaman “animasyon yapamamak” değil, neyi anlatacağını netleştirememektir. 10–20 saniyede iyi bir motion video; tek mesaj, güçlü hook, basit sahne planı ve finalde net CTA ile çalışır. Bu rehber, After Effects butonlarından değil; hikâye yapısı + storyboard + sahne akışı üzerinden, otel ve B2B örnekleriyle uygulanabilir bir sistem kurar.",
+      "quickSummary": [
+        "1) Tek mesajı 1 cümlede netleştir",
+        "2) Hook’u ilk 3 saniyeye koy",
+        "3) 3–5 sahnelik storyboard çıkar",
+        "4) Basit animasyon prensipleriyle (timing/easing) premium his üret",
+        "5) Ending/stinger + tek CTA ile bitir"
+      ],
+      "ctaPrimary": {
+        "label": "Motion Graphic Hikâye Anlatımı Analizi Talep Et",
+        "text": "Mevcut videolarınızda ilk 3 saniye, sahne akışı ve CTA hatalarını çıkarıp 2 haftalık iyileştirme planı yapalım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Motion Graphic Hikâye Anlatımı Analizi Talep Et",
+        "text": "Mevcut videolarınızda ilk 3 saniye, sahne akışı ve CTA hatalarını çıkarıp 2 haftalık iyileştirme planı yapalım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Motion Graphic Senaryo & Storyboard Checklist’ini İndir",
+        "text": "Toplantıya girmeden önce 10 dakikada sahne akışınızı netleştirir; 14 günlük sprint planıyla prodüksiyon ve revizyonu düşürürsünüz.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "Video Prodüksiyon", "href": "/tr/creative/video-produksiyon" },
+      { "label": "Reels Video", "href": "/tr/smm/reels-video" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+    
+      {
+        "id": "motion-graphic-nedir",
+        "title": "Motion Graphic Nedir, Nerede Fark Yaratır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Motion graphic, “görsel + metin + hareket”i birleştirerek algıyı hızlandırır. Özellikle sosyal platformlarda kullanıcı kararını saniyeler içinde verdiği için, motion; dikkat çekme ve mesajı hızlı iletme avantajı sağlar. Web tarafında ise hero video gibi alanlarda “marka vaadini” ilk ekranda hissettirir."
+          },
+          { "type": "h3", "text": "Motion graphic nedir, hangi durumlarda kullanılmalı?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Motion graphic; metin ve grafik öğeleri hareketle birleştirerek mesajı hızla anlatan video türüdür. Ürün/özellik anlatımı, kampanya duyurusu, otel deneyim tanıtımı, dashboard/rapor gibi “anlatması zor” konularda en etkili olur."
+          },
+          { "type": "h3", "text": "☑ Mini Check:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesajı statik görselle anlatmak 3–4 cümle sürüyor mu? → motion iyi aday",
+              "İlk 3 saniyede merak uyandıracak bir “problem/vaat” var mı?",
+              "Tek videoda birden fazla mesaj vermeye çalışıyor musun? (hata)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesajı tek cümleye indir (tek vaat).",
+              "3–5 sahne storyboard çıkar.",
+              "Formatı seç: 9:16 mı 16:9 mu?",
+              "CTA’yı en baştan planla (sonradan ekleme değil)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hikaye-yapisi",
+        "title": "Hikâye Yapısı (Giriş–Gelişme–Çözüm)",
+        "blocks": [
+           { "type": "media", "slot": "video-timeline" },
+          {
+            "type": "p",
+            "text": "Motion’da hikâye, film senaryosu kadar uzun değildir; ama iskelet aynı çalışır. Kısa form videoda amaç: önce problemi/vaadi hissettir, sonra çözümü göster, sonra tek aksiyon iste."
+          },
+          { "type": "h3", "text": "Mikro Hikâye Şablonu (10–20 sn)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Giriş (0–3 sn): Hook (problem/vaat/kontrast)",
+              "Gelişme (3–12 sn): 2–3 sahnede kanıt/özellik/deneyim",
+              "Çözüm (12–18 sn): net sonuç (fayda)",
+              "Final (18–20 sn): CTA + ending/stinger"
+            ]
+          },
+          { "type": "h4", "text": "“Tek Mesaj” Kuralı" },
+          {
+            "type": "p",
+            "text": "Bir motion videoda 1 ana mesaj; 1 destek mesajı yeter. Üçüncü mesaj genelde “gürültü” olur."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: 10–20 sn zaman çizelgesi (0–3 / 3–12 / 12–18 / 18–20)."
+          },
+          { "type": "media", "slot": "video-flow" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mesajı tek cümle yaz (kim için + ne fayda).",
+              "Gelişmeyi 2–3 sahneye sınırla.",
+              "Çözümü “göster” (ikon/number/önce-sonra).",
+              "Finalde tek CTA kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hook-ilk-3-saniye",
+        "title": "Hook ve İlk 3 Saniye",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal videoda ilk 3 saniye, videonun kaderidir. Hook “bağırmak” değil; izleyicinin beynine bir soru bırakmaktır. Hook üç tipte iyi çalışır: problem, vaat, kontrast."
+          },
+          { "type": "h3", "text": "İlk 3 saniyede dikkat çekmek için neler yapmalıyım?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Hook’u ilk kareye koy; tek kısa cümle kullan; güçlü kontrast (önce/sonra, hata/çözüm) veya net vaat (X’i 10 saniyede anlatıyorum) ver. Görsel hareketi “mesajı taşıyan” kadar kullan, süsleme yapma."
+          },
+          { "type": "h4", "text": "Hook Formülleri (Pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Problem: “Neden videolar izlenmiyor?”",
+              "Vaat: “10 saniyede mesajı netleştir.”",
+              "Kontrast: “Efekt değil, hikâye kazanır.”",
+              "Sayı: “3 sahnede anlat.”"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook cümlesi 7–10 kelimeyi geçiyor mu? (kısalt)",
+              "İlk karede ana kelime okunuyor mu?",
+              "İlk 3 sn içinde “ne izleyeceğim?” belli mi?"
+            ]
+          },
+          {"type":"media","slot":"hook-example"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hook’u 2 alternatif yaz, test et.",
+              "İlk karede mesaj; ikinci karede kanıt.",
+              "Hook sonrası “gelişme”yi hızlandır (gereksiz intro yok)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ending-stinger",
+        "title": "Logo/Stinger ve Ending Yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ending; videonun “hatırlanma” noktasıdır. Logo/stinger iyi kullanılırsa marka sinyali güçlenir; kötü kullanılırsa izleyici kopar. Kural: ending kısa, temiz ve CTA ile ilişkili olmalı."
+          },
+          { "type": "h3", "text": "Ending Şablonu (2–3 sn)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0.5 sn: Logo/stinger",
+              "1.0 sn: kısa vaat/sonuç cümlesi",
+              "1.0 sn: CTA (tek kanal)"
+            ]
+          },
+          { "type": "h4", "text": "“Logo Her Karede” Tuzağı" },
+          {
+            "type": "p",
+            "text": "Logo watermark şart değilse, her karede logo “gürültü” üretir. Brand cue’lar (renk/typography) zaten yeterli olabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Ending’i 2–3 sn ile sınırla.",
+              "CTA’yı tek kanala bağla (web/DM/WhatsApp).",
+              "Stinger’ı görsel dilinizle uyumlu yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-senaryolar",
+        "title": "Otel ve B2B İçin Motion Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve B2B’de motion aynı sistemle kurulur, sadece “kanıt türü” değişir. Otelde kanıt: deneyim, atmosfer, sosyal kanıt. B2B’de kanıt: özellik, süreç, sayı ve sonuç."
+          },
+          { "type": "h3", "text": "Otel Senaryoları (Tesis/Deneyim)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Deneyim motion: 3 sahne “his → kanıt → CTA”",
+              "Tesis motion: kategori ikonları + kısa fayda",
+              "Sezon/destinasyon: Antalya/Belek/Side/Kemer/Bodrum gibi bölgeler “support element” olarak (spam değil)"
+            ]
+          },
+          { "type": "h3", "text": "Örnek 12 sn Otel Akışı (Varsayım):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "0–2 sn: “Tatil planı mı? 3 sahnede oteli hisset.”",
+              "2–8 sn: plaj → havuz → restoran (ikon + 2 kelime)",
+              "8–12 sn: “Tarih seç – teklif al” + CTA"
+            ]
+          },
+          { "type": "h3", "text": "B2B Senaryoları (Ürün/Özellik Explainer)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Problem: “Raporlar dağınık mı?”",
+              "Çözüm: 2 özellik + 1 sonuç",
+              "Kanıt: sayı/önce-sonra (tek metrik)"
+            ]
+          },
+          { "type": "h3", "text": "Otel ve B2B için motion graphic senaryosu nasıl yazılır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce tek mesajı yaz (kim için + fayda), sonra 3–5 sahne planla (hook → kanıt → çözüm → CTA). Otelde kanıt sahneleri deneyim/tesis görüntüsü; B2B’de özellik/sonuç grafiği olur. Ending’de logo/stinger ve tek CTA şarttır."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: Otel vs B2B “sahne kartları” karşılaştırma şeması."
+          },
+          { "type": "media", "slot": "scenario-hotel-b2b" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Otelde: görsel his + kısa metin; B2B’de: net metin + basit grafik.",
+              "Her videoda 1 CTA ve 1 kanal.",
+              "Storyboard’u onaylatmadan prodüksiyona girme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "animasyon-prensipleri",
+        "title": "Basit Animasyon Prensipleri (Timing, Easing, Overshoot)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu rehber yazılım odaklı değil; ama motion kalitesini en çok belirleyen üç prensip var. “Sert ve lineer” animasyon amatör hissettirir; doğru easing ve timing ise premium algı üretir."
+          },
+          { "type": "h3", "text": "3 Temel Prensip" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Timing: her şeyin süresi (çok hızlı → anlaşılmaz, çok yavaş → sıkıcı)",
+              "Easing: giriş/çıkış yumuşaklığı (lineer değil)",
+              "Overshoot: küçük taşma/geri gelme (dozunda kullan)"
+            ]
+          },
+           {"type":"media","slot":"storyboard"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Metin animasyonlarını sade tut (fade/slide).",
+              "Easing kullanmadan yayınlama.",
+              "Overshoot’u sadece “vurguda” kullan (her yerde değil)."
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": "sonuc-uygulama-plani",
+        "title": "Sonuç ve Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Motion graphic’te başarı; “efekt” değil, hikâye + sahne planı + hook + CTA ile gelir. Storyboard ve akış diyagramı olan ekiplerde revizyon azalır, mesaj netliği artar ve videolar daha iyi performans verir. Bu rehberi 10–20 saniyelik formatlara göre uygularsanız, hem sosyal platformlarda tutunma hem de web hero video etkisi yükselir."
+          },
+         
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Motion Graphic Hikâye Anlatımı Analizi Talep Et",
+            "text": "Elinizdeki 3 videoyu audit edip hook/sahne/CTA iyileştirmelerini çıkaralım; 14 günlük sprint planı verelim.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "motion-storyboard-download-asset",
+        "title": "Motion Graphic Senaryo & Storyboard Checklist’ini İndir — Creative / Motion Storytelling (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Motion Graphic Senaryo & Storyboard Checklist’ini İndir — Creative / Motion Storytelling (v1.0)",
+            "purpose": "Bu asset, 10–20 saniyelik motion videolarda hook–story–CTA akışını hızla kurmanız için tasarlandı. Storyboard ve sahne planı sayesinde prodüksiyon başlamadan mesaj netleşir, revizyon döngüsü kısalır. Otel ve B2B senaryoları için aynı iskeletin nasıl varyantlanacağını da içerir.",
+            "whoFor": "Ajans yöneticisi, içerik stratejisti, motion designer, otel/B2B pazarlama ekibi.",
+            "steps": [
+              "Tek mesajı yaz: kim için + fayda (1 cümle).",
+              "3–5 sahne storyboard çıkar: hook → kanıt → çözüm → CTA.",
+              "14 günlük sprint ile şablon ve örnek akışları üretip yayın rutinine bağla."
+            ],
+            "checklist": [
+              "Hook ilk karede mi?",
+              "Hook 7–10 kelime bandında mı?",
+              "“Ne izleyeceğim?” 3 saniyede anlaşılıyor mu?",
+              "Hook tipi seçildi mi? (problem/vaat/kontrast/sayı)",
+              "Sahne sayısı 3–5 aralığında mı?",
+              "Her sahnede tek mesaj var mı?",
+              "Gelişme 2–3 sahnede kanıt veriyor mu?",
+              "Final sahnesi CTA + ending içeriyor mu?",
+              "Timing (hız) anlaşılır mı?",
+              "Easing kullanıldı mı?",
+              "Overshoot sadece vurgu anlarında mı?",
+              "Metin animasyonu sade mi?",
+              "CTA tek mi?",
+              "Kanal tek mi? (web/DM/WhatsApp)",
+              "Ending 2–3 saniye mi?",
+              "Logo/stinger dozajı doğru mu?"
+            ],
+            "href": "/downloads/motion-graphic-senaryo-storyboard-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          { "type": "media", "slot": "template" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Motion graphic nedir, hangi durumlarda kullanılmalı?",
+        "a": "Motion graphic; metin ve grafik öğeleri hareketle birleştirerek mesajı hızla anlatan video türüdür. Ürün/özellik anlatımı, deneyim tanıtımı ve kampanya duyurularında özellikle etkilidir."
+      },
+      {
+        "q": "Motion graphic ile hikâye nasıl kurgulanır?",
+        "a": "Tek mesaj belirleyin, 3–5 sahne storyboard çıkarın ve akışı hook → kanıt → çözüm → CTA olarak kurun. Kısa formda gereksiz intro’yu çıkarın."
+      },
+      {
+        "q": "İlk 3 saniyede dikkat çekmek için neler yapmalıyım?",
+        "a": "Hook’u ilk kareye koyun, 7–10 kelimelik kısa cümle kullanın ve problem/vaat/kontrast gibi net bir tetikleyici seçin. İlk 3 saniyede “ne izleyeceğim” anlaşılmalı."
+      },
+      {
+        "q": "Otel ve B2B için motion graphic senaryosu nasıl yazılır?",
+        "a": "Aynı iskeletle yazılır: tek mesaj + 3–5 sahne planı + net CTA. Otelde kanıt sahneleri deneyim/tesis, B2B’de özellik/sonuç (sayı) üzerinden ilerler."
+      },
+      {
+        "q": "Motion videolar kaç saniye olmalı, kaç sahne idealdir?",
+        "a": "Sosyal için 10–20 saniye aralığı pratik bir banttır. 3–5 sahne idealdir; daha fazlası mesajı dağıtabilir."
+      },
+      {
+        "q": "Logo/stinger ne zaman kullanılmalı?",
+        "a": "En iyi kullanım finalde 2–3 saniyelik ending içinde, CTA ile birlikte olan stinger’dır. Her karede logo kullanmak genelde algıyı zayıflatır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hook-message-cta-01 — Hook→Mesaj→CTA akış şeması (tek sayfa)",
+          "storyboard-example-02 — 3–5 sahnelik storyboard örneği (frame + kısa metin)",
+          "storyboard — 10–20 sn zaman çizelgesi (0–3 / 3–12 / 12–18 / 18–20)",
+          "scenario-hotel-b2b — Otel vs B2B sahne kartları karşılaştırma şeması",
+          "hook-cards-05 — Hook örnekleri mini kart seti (4 tip)",
+          "template — Storyboard PDF kapak + sahne kartları mockup"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 giriş sonunda, Sonuç bölümünde)",
+          "Secondary CTA: 1 kez (orta bölümde)",
+          "Secondary CTA türü: Download Asset (Checklist)",
+          "Internal Link Targets: /tr/creative/grafik-motion-tasarim, /tr/creative/video-produksiyon, /tr/smm/reels-video",
+          "Intent: Informational + Tactical",
+          "GEO: Türkiye geneli; otel ve B2B markalar"
+        ]
+      }
+    }
+  },
+
+  "Blog4DilliAgentSecimiEgitimVeKochluk": {
+    "title": "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli",
+    "slug": "4-dilli-agent-secimi-egitim-ve-kocluk",
+    "department": "callcenter",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR–EN–DE–RU agent profili nasıl seçilir? Dil seviyesi, aksan, turizm bilgisi, onboarding, QA skor kartı ve koçluk döngüsünü oteller için pratik planla anlatıyoruz. Danışmanlık alın.",
+    "seo": {
+      "metaTitle": "4 Dilli Agent Seçimi & Eğitim: Otel Koçluk Modeli | DGTLFACE",
+      "metaDescription": "TR–EN–DE–RU agent profili nasıl seçilir? Dil seviyesi, aksan, turizm bilgisi, onboarding, QA skor kartı ve koçluk döngüsünü oteller için pratik planla anlatıyoruz. Danışmanlık alın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa Adı / URL: 4 Dilli Çağrı Merkezi — /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+        "Blog No / URL: Blog #3 — /tr/cagri-merkezi/blog/4-dilli-agent-secimi-egitim-ve-kochluk",
+        "Blog Tipi: Core (cluster içinde “insan kaynağı + eğitim + kalite” authority)",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Hedef kelime bandı: 2500–2800",
+        "Canonical: /tr/cagri-merkezi/blog/4-dilli-agent-secimi-egitim-ve-kochluk"
+      ],
+      "strategySummary": "Bu yazı, 4 dilli çağrı merkezi cluster’ında “script” ve “performans” kadar belirleyici olan agent seçimi + onboarding + koçluk döngüsü ayağını otel/turizm özelinde standardize eden otorite içerik olacak. Hedef persona; Antalya–Belek–Side–Kemer gibi yoğun sezon baskısı olan destinasyonlarda TR–EN–DE–RU talebi yönetmek isteyen GM ve satış–pazarlama lideri (veya çağrı merkezi yöneticisi). Funnel’da consideration → conversion: doğru agent profilini tanımlayıp eğitim/QA modelini kuran otellerin sürdürülebilir kalite ve verim elde edeceğini gösterir. Ana iş sorusu: “Almanca ve Rusça konuşabilen, turizmi de bilen agent’ı nasıl seçer; ekibi uzun vadede nasıl motive ve performanslı tutarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-13",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "4 dilli çağrı merkezinin kalitesi; büyük ölçüde doğru agent profili ve düzenli eğitim/koçluk modeline bağlıdır. Dil seviyesi kadar turizm bilgisi, empati, problem çözme ve performansın sürdürülebilir şekilde yönetilmesi; hem misafir memnuniyetini hem operasyon verimliliğini belirler. TR–EN–DE–RU ekip kurulumunda onboarding, shadowing, dinleme–geri bildirim döngüsü ve tükenmişlik yönetimi birlikte tasarlanmalıdır.",
+      "sgeSummary": "TR–EN–DE–RU çağrı merkezi ekibi için doğru agent profili; dil + kültürel uyum + turizm bilgisi + empatiyle tanımlanır. Onboarding, QA skor kartı ve koçluk döngüsü kaliteyi sürdürülebilir kılar.",
+      "voiceAnswer": "Doğru agent; dil seviyesi, turizm bilgisi ve empatiyle seçilir; koçluk ve QA döngüsüyle sürekli geliştirilir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM, satış–pazarlama, rezervasyon lideri, çağrı merkezi yöneticisi",
+        "Entity seti: Call Center Agent Profile, Language Level, Tourism Knowledge, QA & Coaching, Burnout Management",
+        "KPI bağları: FCR (ilk temasta çözüm), CSAT, yanıt süresi, kalite skoru, devir oranı (attrition)",
+        "Eğitim yöntemleri: Shadowing, call listening, role-play, senaryo bazlı script eğitimi",
+        "Kalite sistemi: QA skor kartı + düzenli koçluk seansı + aylık gelişim planı",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer’de sezon yoğunluğuna uygun vardiya–mola tasarımı",
+        "Risk: Hatalı işe alım ve zayıf eğitim → yüksek devir + kalite dalgalanması (yönlü)"
+      ]
+    },
+    "h1": {
+      "title": "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli",
+      "intro": "“Almanca ve Rusça konuşabilen ama turizmi de bilen agent’ı nereden bulurum?” “Ekibimi nasıl uzun vadede motive tutarım?” Bu soruların ortak noktası şu: 4 dilli çağrı merkezinde kalite, yalnızca süreç ve teknolojiyle değil; doğru insan + doğru eğitim + doğru koçluk döngüsüyle sürdürülebilir olur. Özellikle Antalya, Belek, Side ve Kemer gibi destinasyonlarda sezon baskısı artınca, iyi kurulmayan ekipler hızlı tükenir; bu da misafir deneyimini ve satış dönüşümünü doğrudan etkiler. Bu rehber, TR–EN–DE–RU agent ekibini seçmekten onboarding’e ve QA/koçluk modeline kadar uygulanabilir bir çerçeve sunar.",
+      "ctaPrimary": {
+        "label": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
+        "text": "Otelinizin pazarı ve sezon gerçekliğine göre ideal agent profili + eğitim + koçluk sistemini birlikte kuralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
+        "text": "Otelinizin pazarı ve sezon gerçekliğine göre ideal agent profili + eğitim + koçluk sistemini birlikte kuralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "secondary": {
+        "label": "Agent Profil & Eğitim Planı Şablonunu İndir",
+        "text": "Toplantıya girmeden önce 10 dakikada eksiklerinizi netleştirirsiniz; işe alım ve onboarding’i tek dokümanda standardize edersiniz.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "internalLinks": [
+      { "label": "4 Dilli Çağrı Merkezi", "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+      { "label": "Çağrı Merkezi Hizmetleri", "href": "/tr/cagri-merkezi-hizmetleri" },
+      { "label": "Performans Analizi", "href": "/tr/cagri-merkezi/performans-analizi" },
+      { "label": "Otel Dijital Pazarlama", "href": "/tr/otel-dijital-pazarlama" }
+    ],
+    "sections": [
+    
+      {
+        "id": "agent-profili-aeo",
+        "title": "4 dilli çağrı merkezi için doğru agent profili nasıl oluşturulur? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Doğru agent profili; “4 dil biliyor” demekten fazlasıdır. Dil seviyesi, aksan anlaşılabilirliği, kültürel uyum ve turizm/otel süreç bilgisini aynı profil tanımında birleştirmeniz gerekir. Ayrıca empati, stres yönetimi ve öğrenme isteği; yoğun sezonda performansın sürdürülebilir olmasını sağlar."
+          },
+          { "type": "h3", "text": "AEO Checklist (5–7 madde)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Dil seviyesi: TR ana dil + EN/DE/RU hedef pazara göre minimum seviye",
+              "Aksan & anlaşılabilirlik: “mükemmel aksan” değil, net ve anlaşılır konuşma",
+              "Kültürel uyum: selamlama, resmiyet seviyesi, hız beklentisi",
+              "Turizm bilgisi: oda tipleri, konsept, iptal/değişiklik, transfer temel kavramları",
+              "Empati & ton: şikâyette sakin kalma, çözüm odaklı iletişim",
+              "Öğrenme isteği: script’e uyum + geri bildirimi uygulama",
+              "Satış disiplini: teklif + follow-up alışkanlığı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Profil tanımını “dil” değil, senaryo üzerinden yazın (rezervasyon, bilgi, şikâyet).",
+              "Her kriteri bir testle ölçün (role-play, kısa yazılı senaryo, terminoloji testi)."
+            ]
+          },
+          { "type": "p", "text": "Buraya: “İdeal Agent Persona Kartları” (TR–EN–DE–RU varyantları)." },
+          { "type": "media", "slot": "ideal-persona-cards" }
+        ]
+      },
+      {
+        "id": "dil-aksan-kulturel-uyum",
+        "title": "Dil seviyesi, aksan ve kültürel uyum: pratik kriter seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dil değerlendirmesi yalnız sertifika işi değildir; çağrı merkezinde “hızlı anlama + net anlatma + stres altında tutarlılık” gerekir. Otel bağlamında DE ve RU pazarlarında bazı cümlelerin resmiyet seviyesi ve kapanış tarzı daha önemlidir; yanlış ton, “soğuk” veya “fazla samimi” algısı yaratabilir."
+          },
+          { "type": "h3", "text": "Minimum kriter yaklaşımı (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Minimum seviye: Varsayım: EN/DE/RU için “misafirle akıcı ihtiyaç analizi yapabilme”",
+              "Aksan kriteri: anlaşılır telaffuz + doğru tempo (hızlı konuşma değil)",
+              "Kültürel uyum örneği:",
+              "DE: netlik + yapı + söz verdiğin saat/kuralı tutma",
+              "RU: hızlı teyit + net çözüm adımı + kararlı kapanış"
+            ]
+          },
+          {"type":"media","slot":"expectation"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mülakatta 2 dakikalık “telefon simülasyonu” yaptırın (her dilde 1 mini senaryo).",
+              "“Takip zamanı” söyleyebiliyor mu? Bu, satış disiplininin güçlü sinyalidir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "onboarding-script-egitimi",
+        "title": "Otel & turizm bilgisi + script eğitimi: onboarding’i nasıl tasarlamalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir agent dili iyi konuşsa bile, turizm terminolojisini ve otel süreçlerini bilmeden kaliteli satış/destek veremez. Onboarding’in amacı; agent’a “her şeyi öğretmek” değil, en çok gelen senaryoları standart akışla yönetmeyi öğretmektir. Script burada eğitim materyalidir: konuşma akışını ve cümle bankasını birlikte verir."
+          },
+          { "type": "h3", "text": "Onboarding eğitim modülleri (öneri plan)" },
+          { "type": "p", "text": "Buraya: Eğitim planı ve modül tablosu (hafta/konu/çıktı)." },
+          { "type": "media", "slot": "onboarding-plan" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Modül 1: Otel ürün bilgisi (oda tipleri, konsept, sezon)",
+              "Modül 2: Rezervasyon akışı (tarih→kişi→teklif→follow-up)",
+              "Modül 3: Şikâyet yönetimi (empati→bilgi→çözüm→kayıt)",
+              "Modül 4: Kanallar (telefon + WhatsApp + OTA mesajları)",
+              "Modül 5: Marka dili & ton (resmi / dostça-resmi)",
+              "Modül 6: KVKK & kayıt prensipleri (minimum uyum) (teknik notla bağlantılı)"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check: Onboarding sonunda agent şunları yapabiliyor mu?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10 senaryoyu script’le yönetmek",
+              "3 satırlık WhatsApp/OTA kısa metin yazmak",
+              "Şikâyeti kayıt altına alıp geri dönüş zamanı vermek"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Eğitimleri “bilgi” değil “senaryo” bazlı kurun.",
+              "Her modülün sonunda role-play ile ölçün."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qa-kocluluk-modeli",
+        "title": "Sürekli koçluk, dinleme ve geri bildirim döngüsü ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitim bir defalık değildir; sezonda ekip değişir, kampanyalar değişir, sorular değişir. Bu yüzden koçluk modelinin amacı; kaliteyi “güncel” tutmaktır. En basit ve etkili sistem: düzenli dinleme + skor kartı + kısa koçluk seansı + takip."
+          },
+          { "type": "media", "slot": "score-card" },
+          { "type": "h3", "text": "QA skor kartı (çekirdek başlıklar)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açılış standardı",
+              "İhtiyaç analizi (doğru soru seti)",
+              "Teklif netliği + alternatif sunum",
+              "İtiraz karşılama",
+              "Kapanış + follow-up",
+              "Ton & empati",
+              "Kayıt/CRM notu (varsa)"
+            ]
+          },
+          { "type": "p", "text": "Buraya: QA ve koçluk döngüsü diyagramı (haftalık)." },
+          { "type": "media", "slot": "coaching-cycle" },
+          { "type": "h3", "text": "Koçluk ritmi (uygulanabilir)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: 1 dinleme seti + 15 dk koçluk",
+              "Aylık: 1 gelişim hedefi + mini eğitim (30 dk)",
+              "Sezon içi: “hızlı düzeltme” listesi (top 5 hata)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Koçluğu “hata arama” değil “performans geliştirme” olarak konumlayın.",
+              "Skor kartını agent ile şeffaf paylaşın; hedefler net olsun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tukenmislik-yonetimi",
+        "title": "Agent deneyimi ve tükenmişlik yönetimi (sezon gerçeği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yoğun sezonda tükenmişlik, kaliteyi sessizce düşürür: ton sertleşir, sabır azalır, satış kapanışları zayıflar. Bu yüzden vardiya, mola ve motivasyon uygulamaları “HR konusu” değil, operasyon performans konusudur. Antalya ve Kemer gibi yüksek hacimli bölgelerde küçük ergonomi iyileştirmeleri bile fark yaratır."
+          },
+          { "type": "h3", "text": "Tükenmişlik sinyalleri (erken uyarı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yanıt temposunda düşüş, daha kısa/cut-off cümleler",
+              "Şikâyetlerde empati azalması",
+              "QA skorlarında dalgalanma",
+              "Devir niyeti konuşmaları"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Tükenmişlik sinyalleri” mini infografik." },
+          { "type": "media", "slot": "burnout" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sezon planında “mikro mola” ve rotasyon tasarlayın.",
+              "En zor vardiyalara en güçlü agent’ı sürekli koymayın; dengeleyin."
+            ]
+          },
+           { "type": "media", "slot": "shift-break" }
+        ]
+      },
+      {
+        "id": "hizli-uygulama-sxo",
+        "title": "Oteller için hızlı uygulama: Agent işe alım ve eğitim checklist’i ",
+        "blocks": [
+          { "type": "p", "text": "Bu bölüm, “hemen başlayayım” diyen yönetici için pratik bir plan." },
+          { "type": "h3", "text": "7 adım uygulama" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef pazar + dil hacmi çıkar (TR/EN/DE/RU)",
+              "Agent profil kartını yaz (kriter + test)",
+              "Role-play mülakat kurgula (rezervasyon + şikâyet)",
+              "2 haftalık onboarding planını çıkar (modül + çıktı)",
+              "QA skor kartını oluştur (7–10 madde)",
+              "Koçluk ritmini sabitle (haftalık + aylık)",
+              "Sezon tükenmişlik planı (vardiya/mola/rotasyon)"
+            ]
+          },
+          {"type":"media","slot":"7-step"},
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Agent Profil & Eğitim Planı Şablonunu İndir",
+            "text": "İK ve operasyonu aynı sayfaya getirirsiniz; işe alım kriterlerini ve 2 haftalık onboarding planını tek dokümanda standardize edersiniz.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
+            "text": "Oteliniz için TR–EN–DE–RU ekibi kurulumdan koçluk sistemine kadar uçtan uca tasarlayalım.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "download-asset-template",
+        "title": "Agent Profil & Eğitim Planı Şablonunu İndir — Çağrı Merkezi / Otel TR–EN–DE–RU (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Agent Profil & Eğitim Planı Şablonunu İndir — Çağrı Merkezi / Otel TR–EN–DE–RU (v1.0)",
+            "purpose": "Bu şablon, otel çağrı merkezinde TR–EN–DE–RU agent işe alımını “kriter + test + onboarding planı” şeklinde tek standarda bağlamak içindir. Yanlış işe alım riskini azaltır; eğitim ve koçluk modelini daha ilk günden ölçülebilir hale getirir.",
+            "whoFor": "GM, satış–pazarlama lideri, çağrı merkezi yöneticisi, İK ve eğitim/kalite sorumlusu.",
+            "steps": [
+              "Dil/pazar önceliğinize göre agent profil kriterlerini doldurun.",
+              "Role-play testlerini uygulayıp skorlayın; en güçlü 2 adayı seçin.",
+              "14 günlük onboarding planını işletin; gün 7 ve gün 14’te QA ile ölçün."
+            ],
+            "href": "/downloads/agent-profil-egitim-plani-sablonu-tr-en-de-ru-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "4 dilli çağrı merkezi için agent’ları nasıl seçmeliyim?",
+        "a": "Dil seviyesi + anlaşılabilirlik + turizm bilgisi + empati + satış disiplini kriterlerini birlikte ölçün. Role-play (rezervasyon + şikâyet) ile sahada performansı test etmeden karar vermeyin."
+      },
+      {
+        "q": "Dil seviyesi ve aksan için hangi kriterlere bakmalıyım?",
+        "a": "Mükemmel aksan şart değildir; net ve anlaşılır konuşma, doğru tempo ve stres altında tutarlılık daha kritiktir. DE ve RU pazarlarında resmiyet/ton uyumu özellikle önem taşır."
+      },
+      {
+        "q": "Otel & turizm eğitimi çağrı merkezi ekibine nasıl verilmeli?",
+        "a": "Senaryo bazlı onboarding yapın: rezervasyon, bilgi, iptal/değişiklik ve şikâyet akışları. Script, role-play ve shadowing ile öğrenmeyi hızlandırın; gün 7’de QA ölçümüyle düzeltme verin."
+      },
+      {
+        "q": "Koçluk ve kalite dinleme süreçleri nasıl tasarlanmalı?",
+        "a": "Haftalık dinleme + kısa koçluk, aylık gelişim hedefi ve sezon içi “top 5 hata” düzeltme listesiyle yürütün. QA skor kartını şeffaf paylaşıp ölçülebilir hedef koyun."
+      },
+      {
+        "q": "Ekibimi uzun vadede motive tutmak için ne yapmalıyım?",
+        "a": "Vardiya–mola–rotasyon planını sezon başında kurun ve en zor vardiyaları sürekli aynı kişilere yüklemeyin. Koçluğu “hata arama” değil gelişim olarak konumlayın; küçük başarıları görünür kılın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "cta": {
+          "primarySheet": "4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al",
+          "secondarySheet": "Agent Profil & Eğitim Planı Şablonunu İndir",
+          "secondaryType": "Download Asset (Template)",
+          "density": {
+            "primary": "2 kez (H1 giriş sonunda ✅, Son 1/3’te ✅)",
+            "secondary": "1 kez (orta/özet/uygulama planı ✅)"
+          },
+          "writeTemplates": [
+            "CTA (Primary): 4 Dilli Çağrı Merkezi Agent Seçimi & Eğitim Danışmanlığı Al — Otelinizin pazarı ve sezon gerçekliğine göre ideal agent profili + eğitim + koçluk sistemini birlikte kuralım.",
+            "CTA (Secondary): Agent Profil & Eğitim Planı Şablonunu İndir — Toplantıya girmeden önce 10 dakikada eksiklerinizi netleştirirsiniz; işe alım ve onboarding’i tek dokümanda standardize edersiniz."
+          ],
+          "internalLinkTargets": [
+            "/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+            "/tr/cagri-merkezi-hizmetleri",
+            "/tr/cagri-merkezi/performans-analizi",
+            "/tr/otel-dijital-pazarlama"
+          ]
+        }
+      }
+    }
   }
 
   }

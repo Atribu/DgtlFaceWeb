@@ -1179,6 +1179,225 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     }
   },
+
+   "marka-kimligi-gorsel-dil-ve-feed-tutarliligi": {
+      banner: {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-1.jpeg",
+      alt: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+      caption: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?"
+    },
+
+          "content-format-pillar": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-2.jpeg",
+      alt: "",
+      caption: "20 İçerik Format ve Pillar Dağılımı"
+    },
+
+           "": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-3.jpeg",
+      alt: " ",
+      caption: "Bu odayı kimler tercih etmeli "
+    },
+
+     "sss-reels": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-4.jpeg",
+      alt: "",
+      caption: "SSS Reels Senaryo Şablonu"
+    },
+
+          "instagram-9-grid": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+     "operation-flow": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-6.jpeg",
+      alt: "",
+      caption: "İçerik Operasyon Akışı"
+    },
+
+        "content-calendar": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-7.jpeg",
+      alt: "",
+      caption: "1 Aylık Otel İçerik Takvimi"
+    },
+
+        "download": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+        "package-balance": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-9.jpeg",
+      alt: "",
+      caption: "1 Ayda 20 İçerik: Paket Dengesi"
+    }
+  },
+
+   "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu": {
+      banner: {
+      src: "/images/blog/software/Software1-3/Software1-3-1.jpeg",
+      alt: "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu",
+      caption: "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu"
+    },
+
+          "cwv-table": {
+      src: "/images/blog/software/Software1-3/Software1-3-2.jpeg",
+      alt: "Core Web Vitals Nedir? (LCP, CLS, INP)",
+      caption: "Core Web Vitals: Hedefler ve Çözümler"
+    },
+
+           "lcp": {
+      src: "/images/blog/software/Software1-3/Software1-3-3.jpeg",
+      alt: "LCP (Largest Contentful Paint) – “Sayfanın en büyük öğesi ne zaman geliyor?”",
+      caption: "LCP Nedir? "
+    },
+
+     "performance-cycle": {
+      src: "/images/blog/software/Software1-3/Software1-3-4.jpeg",
+      alt: "Hız Optimizasyonu İçin Öncelikler",
+      caption: "Performans Optimizasyon Döngüsü (Öncelik Sırası)"
+    },
+
+          "font-loading": {
+      src: "/images/blog/software/Software1-3/Software1-3-5.jpeg",
+      alt: "Font optimizasyonu (FOIT/FOUT kontrolü)",
+      caption: "Font Yükleme Stratejisi"
+    },
+
+     "nextjs-performance": {
+      src: "/images/blog/software/Software1-3/Software1-3-6.jpeg",
+      alt: "Next.js Özelinde Performans İpuçları",
+      caption: "Next.js Performans Araçları"
+    },
+
+        "hotel-b2b": {
+      src: "/images/blog/software/Software1-3/Software1-3-7.jpeg",
+      alt: " Otel ve B2B İçin Performans Checklist’i",
+      caption: "Sektörel Odak: Otel vs B2B Performans Riskleri"
+    },
+
+        "download": {
+      src: "/images/blog/software/Software1-3/Software1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
+  "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin": {
+      banner: {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-1.jpeg",
+      alt: "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
+      caption: "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin"
+    },
+
+          "video-flow": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-2.jpeg",
+      alt: "“Tek Mesaj” Kuralı",
+      caption: "10-20 Sn Motion Video Akışı (Tek Mesaj Kuralı)"
+    },
+
+           "storyboard": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-3.jpeg",
+      alt: "Hikâye Yapısı (Giriş–Gelişme–Çözüm)",
+      caption: "Storyboard Örneği: Otel Rezervasyon Kampanyası"
+    },
+
+     "video-timeline": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-4.jpeg",
+      alt: "Mikro Hikâye Şablonu (10–20 sn)",
+      caption: "10-20 Sn Motion Video Zaman Çizelgesi"
+    },
+
+          "scenario-hotel-b2b": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-5.jpeg",
+      alt: "Otel ve B2B için motion graphic senaryosu nasıl yazılır?",
+      caption: "Senorya Karşılaştırması: Otel vs B2B"
+    },
+
+     "hook-example": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-6.jpeg",
+      alt: "Hook ve İlk 3 Saniye",
+      caption: "Hook Örnekleri"
+    },
+
+        "download": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+        "template": {
+      src: "/images/blog/creative/Creative1-3/Creative1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+   "4-dilli-agent-secimi-egitim-ve-kocluk": {
+      banner: {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-1.jpeg",
+      alt: "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli",
+      caption: "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli"
+    },
+
+          "ideal-persona-cards": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-2.jpeg",
+      alt: "4 dilli çağrı merkezi için doğru agent profili nasıl oluşturulur?",
+      caption: "4 dilli çağrı merkezi için doğru agent profili nasıl oluşturulur?"
+    },
+
+           "expectation": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-3.jpeg",
+      alt: "Dil seviyesi, aksan ve kültürel uyum: pratik kriter seti",
+      caption: "Dil seviyesi, aksan ve kültürel uyum: pratik kriter seti"
+    },
+
+     "onboarding-plan": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-4.jpeg",
+      alt: "Otel & turizm bilgisi + script eğitimi: onboarding’i nasıl tasarlamalısınız?",
+      caption: "Otel & turizm bilgisi + script eğitimi: onboarding’i nasıl tasarlamalısınız?"
+    },
+
+          "score-card": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-5.jpeg",
+      alt: "",
+      caption: "Çağrı Kalite Skor Kartı"
+    },
+
+     "coaching-cycle": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-6.jpeg",
+      alt: "Sürekli koçluk, dinleme ve geri bildirim döngüsü (QA modeli)",
+      caption: "Sürekli koçluk, dinleme ve geri bildirim döngüsü (QA modeli)"
+    },
+
+        "burnout": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-7.jpeg",
+      alt: "Agent deneyimi ve tükenmişlik yönetimi (sezon gerçeği)",
+      caption: "Sezon İçi Tükenmişlik (Burnout) Sinyalleri"
+    },
+
+        "shift-break": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-8.jpeg",
+      alt: "",
+      caption: "Yoğun Sezon: Örnek Vardiya ve Mola Tasarımı"
+    },
+
+    "7-step": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-9.jpeg",
+      alt: "",
+      caption: "7 Adımda Hızlı Uygulama: 4 Dilli Ekip Kurulumu"
+    },
+
+    "download": {
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
 };
 
 export function getMediaBySlot(slug, slot) {
