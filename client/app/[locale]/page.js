@@ -202,7 +202,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
-      <main className="flex flex-col gap-[30px] lg:gap-[48px] max-w-screen overflow-x-hidden">
+      <main className="flex flex-col gap-[10px] lg:gap-[20px] max-w-screen overflow-x-hidden">
         <ThreeMainBanner/>
         <HomepageClient/>
       </main>

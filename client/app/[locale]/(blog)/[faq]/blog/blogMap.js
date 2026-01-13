@@ -36,7 +36,8 @@ export const BLOG_MAP = {
 
      "pms-ota": {
     "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir",
-    "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim"
+    "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim",
+    "pms-data-migration-ve-temizlik-sureci":"BlogPmsDataMigrationVeTemizlikSureci"
   },
 
       "veri-analizi-raporlama": {

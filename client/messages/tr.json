@@ -26734,7 +26734,7 @@
           },
           {"type":"media","slot":"persona-cards"},
 
-          { "type": "h3", "text": "2) Funnel’a göre pillar dağılımı (AIO)" },
+          { "type": "h3", "text": "2) Funnel’a göre pillar dağılımı " },
           {
             "type": "p",
             "text": "Burada amaç; content pillar’ları yalnız “konu” değil, funnel fonksiyonu olarak düşünmek:\n\t•\tAwareness: keşif, ilham, destinasyon/trend, değer önerisi\n\t•\tConsideration: know-how, karşılaştırma, SSS, süreç, kanıt\n\t•\tConversion: teklif, kampanya, rezervasyon akışı, demo/görüşme, net CTA"
@@ -32957,7 +32957,7 @@
               "FAQ + (varsa) review snippet ile belirsizliği azalt."
             ]
           },
-          { "type": "h3", "text": "RoomPage → booking decision ilişkisini açık kur (AIO)" },
+          { "type": "h3", "text": "RoomPage → booking decision ilişkisini açık kur " },
           { "type": "p", "text": "RoomType ve RatePlan mantığını görünür kılın:" },
           {
             "type": "list",
@@ -33625,7 +33625,6 @@
             ]
           },
           { "type": "p", "text": "Buraya: “PMS modül haritası diyagramı”" },
-          { "type": "media", "slot": "module-map-01" },
           { "type": "h3", "text": "Teknik not (sade dille)" },
           {
             "type": "list",
@@ -34535,7 +34534,6 @@
             "type": "p",
             "text": "Buraya: Mini Stil Kılavuzu görseli (renk swatch + hex + kullanım notu)\n• Önerilen dosya adı: stil-kilavuzu-renk-paleti-dgtlface.webp\n• Alt text: “Sosyal medya için ana/ikincil/nötr renk paleti örneği”"
           },
-          { "type": "media", "slot": "stil-kilavuzu-renk-paleti" },
           {
             "type": "h3",
             "text": "Tipografi seçimi (2 font kuralı)"
@@ -34562,7 +34560,6 @@
             "type": "p",
             "text": "Buraya: Tipografi örneği (başlık/gövde/etiket ölçüleri)\n• Dosya adı: stil-kilavuzu-tipografi-ornekleri.webp\n• Alt text: “Sosyal medya postlarında tipografi hiyerarşisi örneği”"
           },
-          { "type": "media", "slot": "stil-kilavuzu-tipografi" },
           {
             "type": "h3",
             "text": "Fotoğraf / video stil rehberi (ışık, kadraj, ton)"
@@ -34642,7 +34639,7 @@
             "type": "p",
             "text": "Buraya: Feed/Grid mockup (9’lu örnek + 3 pattern varyasyonu)\n• Dosya adı: feed-grid-mockup-otel-b2b.webp\n• Alt text: “Otel ve B2B hesapları için grid pattern örnekleri”"
           },
-          { "type": "media", "slot": "feed-grid-mockup-otel-b2b" },
+     
           {
             "type": "h3",
             "text": "Feed tasarımı SEO ve etkileşimi etkiler mi?"
@@ -34753,7 +34750,7 @@
             "type": "p",
             "text": "Buraya: Story template set (3 şablon) + reels cover set (3 şablon)"
           },
-          { "type": "media", "slot": "sss-reels" },
+        
           
           {
             "type": "callout",
@@ -34783,7 +34780,7 @@
             "type": "p",
             "text": "Buraya: Otel “mini style guide” (1 sayfa PDF görseli)\n• Dosya adı: otel-gorsel-dil-mini-style-guide.webp\n• Alt text: “Otel sosyal medya görsel dil rehberi mini kılavuz”"
           },
-          { "type": "media", "slot": "otel-mini-style-guide" },
+       
           {
             "type": "h3",
             "text": "B2B örneği: “Net, ölçülebilir, güven odaklı”"
@@ -34795,8 +34792,7 @@
           {
             "type": "p",
             "text": "Buraya: B2B feed mockup (9’lu grid: 3 kategori)"
-          },
-          { "type": "media", "slot": "package-balance" }
+          }
         ]
       },
       {
@@ -36141,6 +36137,382 @@
             "/tr/cagri-merkezi/performans-analizi",
             "/tr/otel-dijital-pazarlama"
           ]
+        }
+      }
+    }
+  },
+
+   "BlogPmsDataMigrationVeTemizlikSureci": {
+    "title": "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
+    "slug": "pms-data-migration-ve-temizlik-sureci",
+    "department": "pms-ota",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "13 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS geçişinde data migration’ı yönetin: hangi veriler taşınır/temizlenir, alan eşleme (mapping), test–doğrulama, hata log’u ve KVKK notları. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "PMS Data Migration: Veri Temizliği ve Mapping Rehberi | DGTLFACE",
+      "metaDescription": "PMS geçişinde data migration’ı yönetin: hangi veriler taşınır/temizlenir, alan eşleme (mapping), test–doğrulama, hata log’u ve KVKK notları. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog No / URL: Blog #3 — /tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Difficulty Level / Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Canonical: /tr/pms-ota/blog/pms-data-migration-ve-temizlik-sureci"
+      ],
+      "strategySummary": "Bu içerik, PMS Kurulum & Destek silosunda “data migration & temizlik” alt cluster’ının ana otorite yazısıdır ve PMS Implementation sürecinin en riskli adımını yönetilebilir hale getirir. Funnel’da “operasyonel rehber → süreç analizi talebi → checklist indir” akışını kurar; IT ve operasyon ekiplerini ortak bir çalışma zemininde buluşturur. Ana iş sorusu: “Eski PMS/Excel’den veriyi taşırken neyi taşımamalıyım, nasıl temizlemeliyim ve go-live sonrası kaliteyi nasıl korurum?” Antalya / Belek gibi yıllardır aynı PMS’i kullanan büyük veri hacimli oteller için “duplicate/çöp veri + tarihçe sınırı + alan eşleme” risklerini senaryolaştırarak çözüm sunar."
+    },
+    "modules": {
+      "answerBlock": "Data migration, PMS geçişinde “yeni sistem açıldı mı?” kadar kritiktir. Eski PMS/Excel’deki kirli, eksik veya gereksiz veriyi aynen taşımak; yıllarca sürecek raporlama hataları, yanlış misafir profilleri ve operasyonel karmaşa üretir. Doğru yaklaşım; önce hangi verinin taşınacağına karar vermek, sonra Data Mapping (alan eşleme) yapmak, test ortamında deneme importlarıyla doğrulamak ve go-live sonrası ilk raporlarla kalite kontrol döngüsü kurmaktır.",
+      "sgeSummary": "Bu rehber, PMS geçişinde data migration’ı veri seçimi, temizlik, mapping, test importları, doğrulama ve go-live sonrası veri kalite kontrol adımlarına bölerek yönetir.",
+      "voiceAnswer": "Eski PMS verisini taşımadan önce seçin, temizleyin, alanları eşleyin, test import yapın ve raporla doğrulayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/operasyon, ön büro, satış/rezervasyon, IT/entegrasyon, raporlama",
+        "Entity’ler: Data Migration, Data Mapping, Data Quality, PMS, Legacy System",
+        "Kritik risk: Duplicate/çöp kayıtlar → raporlama gürültüsü → kişiselleştirme/CRM hatası",
+        "KPI/çıktı: mapping doğruluğu, import hata oranı, rapor tutarlılığı, veri kalite skorları",
+        "KVKK notu: gereksiz kişisel veri taşımama, saklama süresi, maskeleme (kısa teknik blok)",
+        "GEO senaryosu: Antalya/Belek’te yılların biriktiği misafir kartı verisi (yüksek hacim)",
+        "Sonuç: “export/import” değil, kontrollü kalite projesi"
+      ]
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Data Migration Süreç Analizi Talep Et",
+        "text": "Hangi verinin taşınacağını, nasıl temizleneceğini ve mapping/test planını netleştirerek geçiş riskini azaltırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "Data Alan Haritası & Migration Test Checklist’ini İndir",
+        "text": "IT ve operasyonun aynı dosyada alan eşleme, temizlik ve doğrulama adımlarını standartlaştırmasını sağlar.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "Hizmet/kurulum", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA çatı", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "KVKK & veri güvenliği", "href": "/tr/raporlama/kvkk-veri-guvenligi" }
+    ],
+    "h1": {
+      "title": "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
+      "intro": "PMS geçişi çoğu zaman ekranlar ve modüller üzerinden değerlendirilir; ancak başarının görünmeyen tarafı veridir. Eski sistemdeki “çöp”, “duplicate” veya eksik kayıtları aynen taşımak, yeni PMS’te daha hızlı bir operasyon değil; daha hızlı bir karmaşa üretir. Bu rehber, data migration sürecini veri seçimi → temizlik → data mapping → test import → doğrulama → go-live sonrası kalite kontrol adımlarına ayırarak hem IT hem operasyonun aynı planla ilerlemesini sağlar.",
+      "ctaPrimary": {
+        "label": "PMS Data Migration Süreç Analizi Talep Et",
+        "text": "Veri alanlarını birlikte sınıflandırır (taşınır/temizlenir/taşınmaz), mapping + test planını çıkarır; go-live sonrası rapor gürültüsü riskini azaltırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "sections": [
+      
+      {
+        "id": "neden-kritik",
+        "title": "Data Migration Neden Kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Data migration, bir PMS Implementation projesinde “bir defalık” bir adım gibi görünür; ama etkisi yıllar sürer. Misafir kartları hatalıysa kişiselleştirme bozulur, şirket/acenteler kirliyse ticari raporlar karışır, fiyat anlaşmaları yanlış taşınırsa gelir tarafı risk alır. Üstelik veri kalitesi düşerse, ekip yeni PMS’i “suçlar” ve benimseme (adoption) zayıflar."
+          },
+          {
+            "type": "p",
+            "text": "Örnek (yönlü ifade): Veri temizliği yapılmadan taşınan CRM/misafir kartları; raporlama ve kişiselleştirme projelerinde ciddi gürültü yaratır; doğru migration bunun tam tersi etki yapar."
+          },
+          { "type": "p", "text": "☑ Mini Check: “Yeni PMS’te 1 ay sonra raporlara güvenecek miyiz?”" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Migration’ı “IT export/import” değil “data quality projesi” olarak tanımla",
+              "“Hangi veriyi neden taşıyoruz?” sorusunu yazılı cevapla",
+              "Go-live sonrası ilk raporları kalite kontrol aracı gibi kullanmayı planla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-veriler",
+        "title": "Hangi Veriler Taşınmalı, Hangileri Temizlenmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En büyük hata, “madem geçiyoruz, her şeyi taşıyalım” yaklaşımıdır. Doğru yaklaşım: veriyi operasyonel zorunluluk, ticari devamlılık ve analitik değer katmanlarına ayırmak ve her katmanda “taşınır/temizlenir/taşınmaz” kararı vermektir. Ayrıca “tarihçe” konusu kritik: her otel, geçmişin ne kadarını yeni PMS’te canlı tutacağına karar vermelidir."
+          },
+          { "type": "h3", "text": "Veri sınıflandırma: Taşınır / Temizlenir / Taşınmaz" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Taşınır (çekirdek): oda planı, fiyat planları, şirket/acenteler, kullanıcı yetkileri, aktif rezervasyon/konaklama kuralları",
+              "Temizlenerek taşınır: misafir kartları, CRM alanları, tarihçe seçimi (kural setiyle)",
+              "Taşınmaz (genelde): gereksiz kişisel notlar, artık kullanılmayan eski kodlar, “tanımsız” serbest metin alanları (KVKK riskli olabilir)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buraya: “Data alan listesi tablosu” (alan adı, kaynak, hedef, taşınır/temizlenir/taşınmaz, sorumlu)"
+          },
+          { "type": "media", "slot": "data-classfication" },
+          { "type": "h3", "text": "Antalya/Belek senaryosu: yılların biriktiği misafir kartı verisi" },
+          {
+            "type": "p",
+            "text": "Antalya / Belek gibi yıllardır aynı PMS’i kullanan otellerde en sık durum şudur: misafir kartı sayısı çoktur ama kayıtların önemli kısmı duplicate, eksik veya tutarsızdır. Bu yüzden “hepsini taşıma” yerine; tekilleştirme (dedup), alan standardı ve tarihçe sınırı ile taşımak daha güvenlidir."
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check: “Taşıdığım veri, yeni PMS’te karar kalitesini artıracak mı; yoksa gürültü mü üretecek?”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Veri alanlarını 3 sınıfa ayır: taşınır/temizlenir/taşınmaz",
+              "Tarihçe sınırını belirle (Varsayım: aktif + seçilmiş değerli tarihçe)",
+              "Misafir kartlarında dedup kuralı yaz (telefon/e-posta/ad-soyad kombinasyonları)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aktarim-adimlari",
+        "title": "Eski Sistemden PMS’e Veri Aktarım Adımları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration’ın başarısı, adımların netliğine bağlıdır. “Excel’den içeri atarız” yaklaşımı yerine, data mapping + kontrollü import + doğrulama üçlüsüyle ilerlemek gerekir."
+          },
+          { "type": "h3", "text": "Adım adım migration akışı (uygulamalı)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Legacy System envanteri: hangi kaynaklar var? (eski PMS, Excel, farklı departman dosyaları)",
+              "Alan eşleme (Data Mapping): kaynak alan → hedef PMS alanı → dönüşüm kuralı",
+              "Temizlik kuralları: duplicate, boş alan, format standardı (telefon, ülke, e-posta vb.)",
+              "Test ortamında deneme import: küçük örneklem + kontrollü genişleme",
+              "Doğrulama raporları: sayım kontrolü, örnek kayıt kontrolü, kritik rapor tutarlılığı",
+              "Üretim import + log: hatalar ve düzeltmeler kayıt altına alınır",
+              "Go-live sonrası kalite kontrol: ilk raporlar + saha geri bildirimiyle düzeltme döngüsü"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Eski→Yeni alan eşleme (mapping) diyagramı”" },
+          { "type": "media", "slot": "pms-data-migration-flow" },
+          { "type": "p", "text": "☑ Mini Check: “Mapping dokümanım yoksa, veri taşıma şans işidir.”" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mapping dokümanını tek dosyada tut (versiyon kontrol gibi düşün)",
+              "Test import’ları “örneklem” ile başlat; sonra kapsama büyüt",
+              "Her import için hata log’u tut (kim düzeltti, ne düzeldi)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-dogrulama",
+        "title": "Test, Doğrulama ve Hata Listeleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Migration testleri sadece “yükledi mi?” değildir; “yükledikten sonra raporlar ve iş akışı doğru mu?” testidir. Bu yüzden doğrulama, hem IT hem operasyon checklist’i içermelidir."
+          },
+          { "type": "h3", "text": "Migration test checklist’i (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaynak kayıt sayısı vs hedef kayıt sayısı (toleranslı kontrol)",
+              "Zorunlu alanlar dolu mu? (oda tipi, fiyat planı, şirket/acenteler)",
+              "Format doğruluğu (telefon, e-posta, ülke kodu)",
+              "Duplicate kontrol sonucu (kaç kayıt birleşti/atıldı)",
+              "Örnek misafir kartı: “tek kayıt” davranışı doğru mu?",
+              "Örnek rezervasyon/fiyat: kural doğru çalışıyor mu?",
+              "Rapor doğrulama: muhasebe ile temel tutarlılık"
+            ]
+          },
+          { "type": "p", "text": "Buraya: “Migration test checklist’i” görseli + “Hata & düzeltme log” örneği" },
+          { "type": "media", "slot": "checklist" },
+        
+          { "type": "h3", "text": "Hata & düzeltme log mantığı (minimum)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hata ID / Tarih",
+              "Kaynak veri / hedef alan",
+              "Hata tipi (format/boş/duplicate/mapping)",
+              "Düzeltme aksiyonu",
+              "Sorumlu kişi",
+              "Yeniden test sonucu"
+            ]
+          },
+          { "type": "p", "text": "☑ Mini Check: “Hata log’um yoksa, aynı hatayı tekrar üretirim.”" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hata log’u olmadan ‘tamam’ deme",
+              "Doğrulama için 20–30 kritik kayıt örneklemi seç (departman bazlı)",
+              "İlk raporları “kalite alarmı” gibi kullan"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kaliteyi-koru",
+        "title": "Geçiş Sonrası Veri Kalitesini Korumak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Go-live’dan sonra veri kalitesi korunmazsa, birkaç ay içinde eski sorunlar geri gelir. Data Quality için minimum bir “ritim” gerekir: standart giriş kuralları, periyodik temizlik ve raporlama kontrolü."
+          },
+          { "type": "h3", "text": "Basit ama etkili kalite ritmi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık: duplicate kontrolü (misafir kartı, şirket/acenteler)",
+              "Aylık: alan doluluk ve format raporu",
+              "90 gün: mapping ve iş kuralı gözden geçirme (ne bozuluyor?)",
+              "Eğitim: en çok hata yapılan 3 alan için mini eğitim"
+            ]
+          },
+          { "type": "p", "text": "☑ Mini Check: “Kalite kuralı yoksa, PMS’e değil veri disiplinine ihtiyacınız vardır.”" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Zorunlu alanlar” standardını yayınla (operasyon + satış)",
+              "Basit bir Data Quality dashboard’u tanımla (doluluk, duplicate, hata trendi)",
+              "90 günde bir “veri sözlüğü” güncelle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aeo-yonetim",
+        "title": "PMS data migration sürecini nasıl yönetmelisiniz?",
+        "blocks": [
+          { "type": "list", "style": "ol", "items": [
+            "Veriyi sınıflandırın: taşınır/temizlenir/taşınmaz kararını verin",
+            "Data Mapping yapın: kaynak→hedef alan + dönüşüm kuralı dokümante edin",
+            "Temizlik kuralları belirleyin: duplicate, format, boş alan, tarihçe sınırı",
+            "Test import uygulayın: örneklem → genişletme yaklaşımıyla ilerleyin",
+            "Doğrulayın: sayım + örnek kayıt + kritik rapor tutarlılığı",
+            "Go-live sonrası kalite ritmi kurun: hata log’u + rapor kontrol döngüsü"
+          ]},
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Data Alan Haritası & Migration Test Checklist’ini İndir",
+            "text": "Ne işe yarar? IT ve operasyonun aynı dosyada alan eşleme, temizlik kuralı ve test doğrulama adımlarını birlikte yönetmesini sağlar; go-live sonrası veri gürültüsünü düşür [sic].",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "voice-search-block",
+        "title": "Eski PMS’ten veriyi nasıl taşıyacağım?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önce hangi veriyi taşıyacağınıza karar verin (çekirdek + temizlenerek taşınacaklar).",
+              "Alanları eşleyin (mapping): kaynak alan → yeni PMS alanı → dönüşüm kuralı.",
+              "Duplicate ve çöp kayıtları temizleyin; test ortamında küçük import’la başlayın.",
+              "Hata log’u tutun, düzeltip yeniden import edin.",
+              "Go-live sonrası ilk raporlarla veriyi doğrulayın ve kalite ritmi kurun."
+            ]
+          },
+          {"type":"media","slot":"mapping-schema"}
+        ]
+      },
+      {
+        "id": "kvkk-technical-note",
+        "title": "KVKK Kısa Teknik Notu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Data migration sırasında gereksiz kişisel veriyi “alışkanlıkla” taşımak, hem risk hem maliyettir. KVKK’ya uygun saklama süresi yaklaşımıyla; sadece operasyonel/ticari devamlılık için gerekli veriyi taşıyın, gereksiz alanları dışarıda bırakın. Gerekli durumlarda maskeleme (ör. tam veri yerine kısmi görünüm) ve erişim yetkisi (role-based access) ile riski azaltın."
+          },
+          {
+            "type": "p",
+            "text": "İç linkler:\n\t•\tKVKK & veri güvenliği: /tr/raporlama/kvkk-veri-guvenligi\n\t•\tPMS & OTA çatı: /tr/pms-ota-yonetimi\n\t•\tHizmet/kurulum: /tr/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+     
+      {
+        "id": "download-asset",
+        "title": "Data Alan Haritası & Migration Test Checklist’ini İndir — PMS Data Migration (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Data Alan Haritası & Migration Test Checklist’ini İndir — PMS Data Migration (v1.0)",
+            "purpose": "Bu doküman, PMS geçişindeki data migration sürecini tek dosyada yönetmeniz için hazırlanmıştır: alan haritası (taşınır/temizlenir/taşınmaz) + mapping tablosu + test/doğrulama checklist’i. IT ve operasyon aynı çalışma zemininde ilerler; go-live sonrası rapor gürültüsü ve yanlış kayıt riskleri azalır.",
+            "whoFor": "IT/entegrasyon + ön büro + satış/rezervasyon + muhasebe (ortak doğrulama için).",
+            "steps": [
+              "Alan haritasında her veri alanını taşınır/temizlenir/taşınmaz olarak işaretleyin.",
+              "Mapping tablosunu doldurun ve test import’la doğrulayın (örneklem → genişletme).",
+              "Hata log’u ile düzeltmeleri takip edip go-live sonrası ilk raporlarla kaliteyi kontrol edin."
+            ],
+            "href": "/downloads/data-alan-haritasi-migration-test-checklist-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+        
+          { "type": "media", "slot": "download" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS geçişinde hangi veriler taşınmalı?",
+        "a": "Operasyon ve ticari devamlılık için gerekli çekirdek veriler (oda planı, fiyat planları, şirket/acenteler, kullanıcı yetkileri) taşınmalı; misafir kartları gibi alanlar ise temizlenerek taşınmalıdır. Gereksiz/riski yüksek serbest metin kişisel notlar çoğu zaman taşınmamalıdır."
+      },
+      {
+        "q": "Eski sistemdeki hatalı kayıtları nasıl temizlerim?",
+        "a": "Önce duplicate kuralı belirleyin (telefon/e-posta/isim kombinasyonları), sonra format standardı uygulayın (telefon/e-posta/ülke). Boş kritik alanları tespit edip “tamamlama/atma” kararı verin. Temizlik kurallarını dokümante edip test import’ta doğrulayın."
+      },
+      {
+        "q": "Data migration testleri nasıl yapılır?",
+        "a": "Test ortamında küçük örneklemle başlayın, mapping doğrulandıktan sonra kapsamı büyütün. Sayım kontrolü, örnek kayıt kontrolü ve kritik rapor tutarlılığı doğrulaması yapın. Her import için hata log’u tutup düzeltme–yeniden test döngüsü uygulayın."
+      },
+      {
+        "q": "Go-live sonrası veri kalitesini nasıl kontrol ederim?",
+        "a": "İlk 30 gün rapor doğrulama ritmi kurun (muhasebe + operasyon). Haftalık duplicate kontrolü ve alan doluluk raporu alın. En çok hata yapılan 2–3 alan için mini eğitim ve standart giriş kuralı yayınlayın."
+      },
+      {
+        "q": "Data migration’da KVKK açısından nelere dikkat edilmeli?",
+        "a": "Gereksiz kişisel veriyi taşımayın, saklama süresi yaklaşımıyla kapsamı daraltın. Rol bazlı erişim ve gerekiyorsa maskeleme uygulayın. KVKK gereksinimleri için veri güvenliği sayfasına bağlanın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "cta": {
+          "primarySheet": "PMS Data Migration Süreç Analizi Talep Et",
+          "secondarySheet": "Data Alan Haritası & Migration Test Checklist’ini İndir",
+          "secondaryType": "Download Asset (harita + checklist)",
+          "density": {
+            "primary": "2 kez (H1 giriş sonu + son 1/3) ✅",
+            "secondary": "1 kez (orta bölüm/AEO sonrası) ✅"
+          }
+          
         }
       }
     }

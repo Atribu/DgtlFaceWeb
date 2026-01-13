@@ -1398,6 +1398,44 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     }
   },
+
+  "pms-data-migration-ve-temizlik-sureci": {
+      banner: {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-1.jpeg",
+      alt: "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
+      caption: "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?"
+    },
+
+          "pms-data-migration-flow": {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-2.jpeg",
+      alt: "Adım adım migration akışı (uygulamalı)",
+      caption: "Pms Data Migration Akışı"
+    },
+
+           "data-classfication": {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-3.jpeg",
+      alt: "Hangi Veriler Taşınmalı, Hangileri Temizlenmeli?",
+      caption: "Veri Sınıflandırma Stratejileri"
+    },
+
+     "mapping-schema": {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-4.jpeg",
+      alt: "",
+      caption: "Yeni Alan Eşleme Şeması"
+    },
+
+          "checklist": {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-5.jpeg",
+      alt: "Migration test checklist’i",
+      caption: "Migration Doğrulama Checklist"
+    },
+
+     "download": {
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-6.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
 };
 
 export function getMediaBySlot(slug, slot) {

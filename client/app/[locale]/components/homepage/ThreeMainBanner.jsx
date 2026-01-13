@@ -11,7 +11,7 @@ export default function ThreeMainBanner() {
     <div
       className="relative w-screen overflow-hidden bg-black "
       style={{
-        height: "91vh",
+        height: "92vh",
         minHeight: "690px",
         aspectRatio: "16/9",
       }}

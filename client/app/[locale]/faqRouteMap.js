@@ -95,7 +95,7 @@ export const FAQ_ROUTE_MAP = [
   // -----------------------------
   // Genel fallback (istersen)
   // -----------------------------
-  { match: /^\/hizmetlerimiz(\/.*)?$/, slug: "hizmetler-sss" },
+  { match: /^\/hizmetlerimiz(\/.*)?$/, slug: "hizmetlerimiz-sss" },
 ];
 
 // app/[locale]/(faq)/faqRouteMap.js
@@ -107,7 +107,7 @@ export const FAQ_DEPT_CRUMB_MAP = {
   "sss": null, // departman yok
 
   // Services (SSS index altı)
-  "hizmetler-sss": "hizmetler-sss",
+  "hizmetler-sss": "hizmetlerimiz-sss",
 
   // SEO altları → seo-sss'e bağla
   "seo-sss": "seo-sss",
