@@ -26569,8 +26569,8 @@
         "mediaPack": [
           "banner (hero/cover) — 1920×1080 — otel-seo-nedir-ota...-hero-01.webp",
           "h1-context — 1920×1080 — otel-seo...-h1-context-02.webp",
-          "divider-01 — 1600×1200 — ...-divider-03.webp",
-          "divider-02 — 1600×1200 — ...-scenario.webp",
+          "blog-page — 1600×1200 — ...-divider-03.webp",
+          "topic-cluster — 1600×1200 — ...-scenario.webp",
           "diagram-05 — 1920×1080 — ...-diagram-05.webp",
           "checklist — 1200×1200 — ...-checklist.webp",
           "kpi-table-07 — 1200×1200 — ...-score-card.webp",
@@ -34531,8 +34531,8 @@
             ]
           },
           {
-            "type": "p",
-            "text": "Buraya: Mini Stil Kılavuzu görseli (renk swatch + hex + kullanım notu)\n• Önerilen dosya adı: stil-kilavuzu-renk-paleti-dgtlface.webp\n• Alt text: “Sosyal medya için ana/ikincil/nötr renk paleti örneği”"
+            "type": "media",
+            "slot":"color-palette"
           },
           {
             "type": "h3",
@@ -34557,8 +34557,8 @@
             ]
           },
           {
-            "type": "p",
-            "text": "Buraya: Tipografi örneği (başlık/gövde/etiket ölçüleri)\n• Dosya adı: stil-kilavuzu-tipografi-ornekleri.webp\n• Alt text: “Sosyal medya postlarında tipografi hiyerarşisi örneği”"
+            "type": "media",
+            "slot":"typography-guide"
           },
           {
             "type": "h3",
@@ -34636,8 +34636,8 @@
             "text": "Ayda 4 kez tekrarlanan seri: “Haftanın Odası”, “Haftanın Deneyimi”, “Haftanın Rota Önerisi”, “Haftanın SSS’si”."
           },
           {
-            "type": "p",
-            "text": "Buraya: Feed/Grid mockup (9’lu örnek + 3 pattern varyasyonu)\n• Dosya adı: feed-grid-mockup-otel-b2b.webp\n• Alt text: “Otel ve B2B hesapları için grid pattern örnekleri”"
+            "type": "media",
+            "slot":"pattern"
           },
      
           {
@@ -34747,8 +34747,8 @@
             ]
           },
           {
-            "type": "p",
-            "text": "Buraya: Story template set (3 şablon) + reels cover set (3 şablon)"
+            "type": "media",
+            "slot": "story-reels-template"
           },
         
           
@@ -34777,8 +34777,8 @@
             "text": "• Renk: sıcak nötr + 1 deniz tonu accent\n• Tipografi: zarif başlık + okunur gövde\n• Foto stili: doğal ışık, temiz ton, fazla filtre yok\n• Grid: alternasyon + haftalık seri\n• CTA: “DM/WhatsApp ile hızlı bilgi” (sezonda pratik)"
           },
           {
-            "type": "p",
-            "text": "Buraya: Otel “mini style guide” (1 sayfa PDF görseli)\n• Dosya adı: otel-gorsel-dil-mini-style-guide.webp\n• Alt text: “Otel sosyal medya görsel dil rehberi mini kılavuz”"
+            "type": "media",
+            "slot":"visual-language-guide"
           },
        
           {
@@ -34790,8 +34790,8 @@
             "text": "• Renk: kurumsal ana renk + 1 accent (grafik vurgusu)\n• Tipografi: güçlü başlık, sade gövde\n• Görsel stili: case/diagram/ekip görüntüsü dengesi\n• Grid: 3’lü blok (know-how / proof / offer)\n• CTA: “Analiz talep et / teklif al” (BoFu uyumlu)"
           },
           {
-            "type": "p",
-            "text": "Buraya: B2B feed mockup (9’lu grid: 3 kategori)"
+            "type": "media",
+            "slot": "b2b-feed-mockup"
           }
         ]
       },
@@ -34837,6 +34837,7 @@
             "type": "p",
             "text": "Marka kimliği sosyal medyada; tek tek postlardan değil, bütün olarak tutarlı görünen bir sistemden anlaşılır. Renk paleti, tipografi ve foto/video stilini sabitlediğinizde; grid pattern’leriyle tekrar eden düzen kurduğunuzda ve post–story–reels tutarlılığını sağladığınızda; içerikleriniz hem daha profesyonel görünür hem de marka daha hızlı tanınır. Otel ve B2B’de bu fark, “güzel içerik” ile “güven veren marka” arasındaki çizgidir."
           },
+          {"type":"media","slot":""},
           {
             "type": "cta",
             "variant": "primary",
@@ -36514,6 +36515,1080 @@
           }
           
         }
+      }
+    }
+  },
+
+    "BlogPmsOtaVerileriniLookerStudioyaBaglamak": {
+    "title": "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek",
+    "slug": "pms-ota-verilerini-looker-studioya-baglamak",
+    "department": "veri-analizi-raporlama",
+    "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "14 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS ve OTA verilerini Looker Studio’ya taşıyın. Doluluk, gelir, RevPAR, iptal/no-show ve kanal katkısını GA4+Ads ile birleştirip OTA–web–call center satışını tek panelde kıyaslayın.",
+    "seo": {
+      "metaTitle": "PMS+OTA Verisiyle Otel Satış Dashboard’u | DGTLFACE",
+      "metaDescription": "PMS ve OTA verilerini Looker Studio’ya taşıyın. Doluluk, gelir, RevPAR, iptal/no-show ve kanal katkısını GA4+Ads ile birleştirip OTA–web–call center satışını tek panelde kıyaslayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #3 — https://dgtlface.com/tr/raporlama/blog/pms-ota-verilerini-looker-studioya-baglamak",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Revenue)",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
+        "Refresh Cycle: 180 (6 ay) — PMS/OTA tarafı daha hızlı değiştiği için panel örnekleri ve KPI’lar güncellenecek.",
+        "Canonical: /tr/raporlama/blog/pms-ota-verilerini-looker-studioya-baglamak"
+      ],
+      "strategySummary": "Bu içerik, raporlama silosunda “gerçek satış verisi” katmanını kuran revenue-odaklı authority yazıdır; GA4/Ads odaklı raporlamayı PMS/OTA ile gelir gerçekliğine bağlar. Hedef persona, resort otellerde (Antalya/Bodrum gibi) satış kanal dağılımını yönetmek isteyen GM, satış–pazarlama ve revenue ekipleridir. Funnel’da consideration → conversion bandında; “hangi kanal ne kadar gelir ve kârlılık getiriyor?” sorusunu karar seviyesine taşır. Ana iş sorusu: “PMS–OTA–GA4–Ads verisini aynı panelde birleştirip kanal bazlı doluluk, gelir ve RevPAR’ı nasıl izlerim?”"
+    },
+    "modules": {
+      "answerBlock": "PMS ve OTA verilerini Looker Studio’ya bağlayarak oteller, kanal bazlı doluluk, gelir ve rezervasyon dönüşümlerini tek panelde görebilir. PMS’den oda, gelir, oda tipi ve ülke kırılımları; OTA panellerinden kanal performansı, iptal/no-show ve komisyon etkileri alınır. Bu veriler GA4 ve reklam metrikleriyle birleştiğinde, OTA–web–call center satışlarının gerçek katkısı netleşir. Bu rehber, veri hazırlığı ve dashboard kurgusunu adım adım anlatır.",
+      "sgeSummary": "PMS/OTA verisini Looker Studio’ya aktar: doluluk, gelir, RevPAR, iptal/no-show’u tek panelde izle. GA4+Ads ile birleştirerek OTA, web ve call center kanal katkısını karşılaştır.",
+      "voiceAnswer": "PMS ve OTA verisini Looker Studio’ya bağlayıp doluluk, gelir ve kanal katkısını tek ekranda izleyebilirsiniz.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış–pazarlama, revenue, raporlama yöneticisi",
+        "Ana KPI’lar: Occupancy, Revenue, ADR, RevPAR, cancellations, no-show, channel mix, net revenue",
+        "Entity’ler: PMS, OTA, Channel Manager, GA4, Ads, Revenue, Occupancy, RevPAR, Hotel Sales Dashboard",
+        "Geo bağlamı: Antalya / Bodrum resort kanal dağılımı örnekleri (doğal)",
+        "Funnel: Revenue odaklı (gelir gerçekliği → kanal stratejisi)",
+        "Çıktı: PMS/OTA→Looker Studio akış diyagramı + kanal gelir grafiği + satış KPI tablosu",
+        "Başarı ölçütü: Kanal mix görünür olur; komisyon/gelir dengesi daha hızlı optimize edilir"
+      ]
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS & OTA + Looker Studio Entegrasyon Analizi Talep Et",
+        "text": "(Kanal bazlı net gelir, doluluk ve RevPAR’ı tek panelde görünür kılmak isteyen oteller için)",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "PMS/OTA Satış Dashboard Örnek Şablonunu İndir",
+        "text": "Hazır şablonla OTA–web–call center kanal mix ve RevPAR ekranlarını hızlıca uyarlarsınız.",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Looker Studio Raporlama", "href": "https://dgtlface.com/tr/raporlama/looker-studio" },
+      { "label": "Satış & Dönüşüm", "href": "https://dgtlface.com/tr/raporlama/satis-donusum" },
+      { "label": "PMS & OTA Yönetimi", "href": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+      { "label": "Online Satış", "href": "https://dgtlface.com/tr/pms-ota/online-satis" },
+      { "label": "Çağrı Merkezi Performans Analizi", "href": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi" },
+      { "label": "Raporlama", "href": "https://dgtlface.com/tr/raporlama" }
+    ],
+    "h1": {
+      "title": "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek",
+      "summaryBox": "Bu yazı, “dijital metrik” raporlamasını “satış gerçekliği” ile birleştirmek için tasarlandı. PMS’den oda ve gelir verisini, OTA panellerinden kanal performansını alıp Looker Studio’da tekleştirecek; ardından GA4+Ads ile eşleştirerek OTA–web–call center satışlarının katkısını karşılaştıracağız. Sonunda, bu dashboard ile cevaplayabileceğiniz 7 kritik soruyu ve güncelleme rutinini vereceğiz.",
+      "media": [
+        {
+          "type": "image",
+          "slot": "hero",
+          "ratio": "16:9",
+          "size": "1920x1080",
+          "file": "pms-ota-verilerini-looker-studioya-baglamak-hero-01.webp",
+          "alt": "PMS ve OTA verisiyle otel satış dashboard kurulumunu anlatan kapak görseli",
+          "note": "Buraya: [Hero / Cover] — 16:9 (1920×1080) — pms-ota-verilerini-looker-studioya-baglamak-hero-01.webp — “PMS ve OTA verisiyle otel satış dashboard’unu anlatan kapak görseli”"
+        },
+        {
+          "type": "image",
+          "slot": "h1-context",
+          "ratio": "16:9",
+          "size": "1920x1080",
+          "file": "pms-ota-verilerini-looker-studioya-baglamak-h1-context-02.webp",
+          "alt": "Otel satışlarının kanal bazlı veriyle tek panelde görüldüğü bağlam görseli",
+          "note": "Buraya: [H1 sonrası Context] — 16:9 (1920×1080) — pms-ota-verilerini-looker-studioya-baglamak-h1-context-02.webp — “Otel satışlarının kanal bazlı veriyle tek panelde görüldüğü bağlam görseli”"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "PMS & OTA + Looker Studio Entegrasyon Analizi Talep Et",
+        "text": "(Kanal bazlı gelir, doluluk ve RevPAR’ı tek panelde görmek isteyen resort oteller için)",
+        "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+      }
+    },
+    "sections": [
+      {
+        "id": "pms-ota-rolu",
+        "title": "PMS ve OTA verilerinin rolü (satışın “gerçek” tarafı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "GA4 ve Ads verisi “talep ve dijital davranış” tarafını gösterir; ancak otel satışında kararın özü PMS/OTA gelir gerçekliğidir. Çünkü “tıklama ve dönüşüm” her zaman “check-in ve net gelir” anlamına gelmeyebilir. İptal/no-show, komisyon, oda tipi dağılımı ve ülke kırılımı gibi revenue sinyalleri çoğu zaman PMS/OTA’da yaşar."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Antalya/Bodrum bağlamı):\nYoğun sezonda web rezervasyonu artıyor gibi görünürken, PMS’de no-show yükseliyorsa; revenue tarafında strateji “hacim” değil “kalite”ye dönmelidir. Bu ayrımı tek panelde görmek, yanlış optimizasyonu engeller."
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check:\n\t•\tKanal bazlı geliri “gerçekleşen gelir” olarak görüyor musunuz?\n\t•\tİptal/no-show oranlarını kanal kırılımında izliyor musunuz?\n\t•\tKomisyon etkisini net gelir hesabında dikkate alıyor musunuz?"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. PMS/OTA’da “tek gerçek gelir” tanımını netleştir",
+              "2. Kanal, ülke, oda tipi kırılımlarını standartlaştır",
+              "3. GA4/Ads’i “talep” katmanı olarak, PMS/OTA’yı “sonuç” katmanı olarak kurgula"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aeo-baglama",
+        "title": "PMS ve OTA verilerini Looker Studio’ya nasıl bağlarsınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap :\nÖnce PMS ve OTA’dan kritik alanları (tarih, oda tipi, kanal, ülke, gelir, iptal/no-show) standart bir export formatında hazırlayın. Sonra uygun connector/ara katman (Sheets/CSV, veri ambarı veya entegrasyon) üzerinden Looker Studio’ya taşıyın. En sonda, GA4 ve Ads verisiyle aynı tarih/kanal sözlüğünde eşleştirip kanal bazlı doluluk–gelir panelini kurun."
+          },
+          { "type": "h3", "text": "Adım adım entegrasyon planı (veri hazırlığı + connector + güvenlik)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Veri sözlüğü oluştur: Kanal isimleri, oda tipi, ülke kodu, para birimi",
+              "Export standardı belirle: günlük/haftalık, aynı kolonlar sabit",
+              "Ara katman seç: Google Sheets/CSV ile MVP veya daha kurumsal yapı",
+              "Looker Studio data source kur: tarih, kanal, ülke, oda tipi boyutları",
+              "Güvenlik notu: erişim yetkileri, maskeleme (gerekirse), paylaşım kuralları",
+              "Eşleştirme: GA4 kampanya/UTM → kanal sözlüğü ile bağla",
+              "Dashboard: Kanal mix + revenue KPI + iptal/no-show + RevPAR"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check:\n\t•\tTarih formatı tek mi? (YYYY-MM-DD gibi)\n\t•\tPara birimi ve KDV/komisyon dahil-hariç net mi?\n\t•\tKanal isimleri “OTA / Web / Call Center” gibi tutarlı mı?"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. “MVP export” ile başla, sonra otomasyona geç",
+              "2. Önce tek otel/tek dönemle doğrula (pilot)",
+              "3. Yetkilendirmeyi en baştan planla (paylaşım riski)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "veri-kaynaklarini-hazirlama",
+        "title": "Looker Studio için veri kaynaklarını hazırlama (kritik alanlar)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu kısım, teknik kısmı sade tutarken revenue kararını güçlendiren alanları netleştirir. Amaç: “her alanı almak” değil, panelin karar sorularını cevaplaması."
+          },
+          { "type": "h3", "text": "PMS’den çekilebilecek kritik veri alanları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih: rezervasyon tarihi / konaklama tarihi ayrımı (tanım sabit)",
+              "Oda tipi / segment: oda kategorisi, paket/plan",
+              "Kanal: web direct, OTA, call center, acente vb.",
+              "Ülke / pazar: ülke kırılımı",
+              "Gelir: brüt gelir, net gelir (komisyon/indirim ayrı alan)",
+              "Geceleme: room nights, stay length (varsa)"
+            ]
+          },
+          {"type":"media","slot":"data-fields"},
+          { "type": "h3", "text": "OTA raporlarındaki KPI’lar (Booking/Expedia vb. mantığı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal bazlı rezervasyon adedi",
+              "İptal ve no-show göstergeleri",
+              "Komisyon/ücret etkisi (varsa ayrıştırılmış)",
+              "Pazar/ülke kırılımı (varsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış):\nİyi kurulmuş satış panellerinde, toplam gelirin kanallara dağılımı netleştiğinde “hangi kanalda hangi koşulda kârlı büyüyoruz?” sorusuna daha hızlı yaklaşılır; oranlar otelden otele değişir."
+          },
+          {
+            "type": "p",
+            "text": "Buraya: [Section Divider 01] — 4:3 — pms-ota-verilerini-looker-studioya-baglamak-divider-03.webp — “PMS ve OTA veri alanlarına geçiş bölüm ayırıcı görseli”"
+          },
+          {
+            "type": "image",
+            "ratio": "4:3",
+            "file": "pms-ota-verilerini-looker-studioya-baglamak-divider-03.webp",
+            "alt": "PMS ve OTA kritik veri alanlarına geçişi ayıran bölüm görseli"
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check:\n\t•\tKanal ve ülke kırılımı export’ta var mı?\n\t•\tİptal/no-show ayrı alan olarak geliyor mu?\n\t•\tNet gelir hesabı (komisyon dahil-hariç) tanımlı mı?"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. “Kritik alanlar” listesini kilitle (kolonlar değişmesin)",
+              "2. Brüt ve net geliri ayrı tut",
+              "3. Rezervasyon tarihi vs konaklama tarihi ayrımını netleştir"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-tanimlari",
+        "title": "Rezervasyon, doluluk ve gelir KPI’larını tanımlama (Revenue çekirdeği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS/OTA paneli, yalnızca “gelir” değil; occupancy ve RevPAR gibi verim KPI’larını da netleştirir. Revenue ekibinin diliyle konuşacak bir çekirdek set kurmak gerekir."
+          },
+          { "type": "h3", "text": "Önerilen çekirdek KPI seti (otel satış dashboard’u)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Occupancy (Doluluk)",
+              "Revenue (Gelir – net/brüt ayrımıyla)",
+              "ADR",
+              "RevPAR",
+              "Cancellation Rate",
+              "No-show Rate",
+              "Channel Mix (OTA/Web/Call Center payı)"
+            ]
+          },
+          {
+           "type":"media","slot":"kpi-set"
+          },
+          {
+            "type": "image",
+            "ratio": "1:1",
+            "file": "pms-ota-verilerini-looker-studioya-baglamak-checklist-06.webp",
+            "alt": "Otel satış KPI setini doluluk gelir RevPAR ile özetleyen kontrol kartı"
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check:\n\t•\tRevPAR hesap yöntemi sabit mi?\n\t•\tNo-show ve iptal tanımı herkes için aynı mı?\n\t•\tKanal mix “pay” olarak da görünüyor mu?"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. KPI tanımlarını dashboard’a “not” olarak ekle",
+              "2. Kanal mix’i hem “pay” hem “gelir” olarak göster",
+              "3. İptal/no-show’u kanal bazında ayrı kartlarda izle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4-ads-birlestirme",
+        "title": "PMS/OTA + GA4 + Ads verisini birleştirmek (eşleştirme mantığı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, AIO tarafında entity ilişkisini netleştirir:\n\t•\tPMS → stores → room & revenue data\n\t•\tOTA → reports → channel performance\n\t•\tGA4 → measures → onsite behavior & conversions\n\t•\tAds → drives → paid bookings / demand"
+          },
+          {
+            "type": "p",
+            "text": "Amaç, hepsini “tek kanal sözlüğünde” konuşturmak: aynı tarih, aynı kanal isimleri, aynı segment mantığı."
+          },
+          { "type": "h3", "text": "Eşleştirme için 3 pratik yaklaşım" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kanal sözlüğü tablosu: UTM/kampanya → kanal grubu (OTA/Web/Call Center)",
+              "Tarih standardı: konaklama tarihi vs rezervasyon tarihi ayrımı (seç ve kilitle)",
+              "Net gelir katmanı: komisyon/indirim etkisini ayrı alanlarda tut"
+            ]
+          },
+          {
+            "type": "media",
+            "slot":"data-transfer"
+          },
+          {
+            "type": "image",
+            "ratio": "16:9",
+            "file": "pms-ota-verilerini-looker-studioya-baglamak-diagram-05.webp",
+            "alt": "PMS OTA GA4 Ads verisinin satış dashboard’ta birleşme akış diyagramı"
+          },
+          {
+            "type": "p",
+            "text": "☑ Mini Check:\n\t•\tAds kampanya verisi GA4 dönüşümleriyle tutarlı mı?\n\t•\tPMS gelir verisi ile “web engine” raporu arasında fark var mı?\n\t•\tKanal sınıflandırması herkes için aynı mı?"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Önce “kanal sözlüğü”nü düzelt, sonra raporu büyüt",
+              "2. Farkları açıklayan bir “veri notu” alanı ekle",
+              "3. İlk 30 günde sadece 1–2 ana senaryoyu hedefle (kanal mix + RevPAR)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-dashboardlar",
+        "title": "Oteller için örnek satış dashboard’ları (OTA vs Web vs Call Center)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm rakip gap’i kapatır: çoğu içerik yalnız GA4/Ads’te kalır; burada “satış gerçekliği” görselleştirilir. Özellikle Antalya ve Bodrum gibi yoğun bölgelerde, kanal mix stratejisi kararları çok hızlı alınır."
+          },
+          {"type":"media","slot":"sales-reality"},
+          { "type": "h3", "text": "Örnek panel sayfaları (öneri)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sayfa 1: Executive Sales (GM) — gelir, doluluk, ADR/RevPAR, kanal mix",
+              "Sayfa 2: Channel Mix — OTA vs Web vs Call Center gelir trendi",
+              "Sayfa 3: Quality — iptal/no-show, net gelir, komisyon etkisi",
+              "Sayfa 4: Demand Bridge — GA4 + Ads talep → satış ilişkisi"
+            ]
+          },
+          {
+            "type": "media",
+            "slot":"score-card"
+          },
+          
+         
+          
+          { "type": "h3", "text": "Bu dashboard ile cevaplayabileceğiniz 7 soru " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Toplam gelirin kanallara dağılımı nasıl? (OTA/Web/Call Center)",
+              "Hangi kanalda iptal/no-show daha yüksek?",
+              "Net gelirde komisyon etkisi hangi kanalda kritik?",
+              "RevPAR artışı hangi segmentten geliyor?",
+              "Hangi pazar/ülke daha kârlı?",
+              "Ads harcaması hangi kanalda “gerçek satış”a dönüyor?",
+              "Sezonda (Antalya/Bodrum) hangi hafta kanal stratejisi değişmeli?"
+            ]
+          },
+
+           {
+            "type": "media",
+           "slot":"gains"
+          },
+          
+          
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS/OTA Satış Dashboard Örnek Şablonunu İndir",
+            "text": "“Hazır şablonla kanal mix, RevPAR ve iptal/no-show ekranlarını hızlıca uyarlarsınız.”",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS & OTA + Looker Studio Entegrasyon Analizi Talep Et",
+            "text": "(Kanal katkısı ve net gelir görünürlüğüyle satış stratejisini güçlendirmek isteyen oteller için)",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+         "id": "download-asset-template",
+        "title": "PMS/OTA Satış Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "PMS/OTA Satış Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, PMS ve OTA gelir gerçekliğini Looker Studio’da tek panelde birleştirmeniz için hazır KPI sayfaları sunar. OTA–web–call center kanal katkısını, RevPAR ve iptal/no-show kalitesiyle birlikte okumanızı sağlar. Revenue toplantılarında “tek doğru ekran” üzerinden karar almayı hızlandırır.",
+            "whoFor": "Resort otellerde GM, revenue, satış–pazarlama ve raporlama ekipleri.",
+            "steps": [
+              "PMS/OTA export alanlarını standardize edip (tarih, kanal, ülke, gelir) Sheets/CSV’ye alın.",
+              "Looker Studio’da kaynakları bağlayıp kanal sözlüğü ile sınıflandırın.",
+              "Executive Sales + Channel Mix + Quality sayfalarıyla haftalık aksiyon rutinine geçin."
+            ],
+
+            "checklist": [
+              "Ölçüm alanları + skor (0–2 / 0–5):",
+              "Kırmızı/Sarı/Yeşil yorum alanları:",
+              "İlk 10 aksiyon listesi:",
+              "Öncesi/Sonrası tablosu (örnek şablon):"
+            ],
+
+            "href": "/downloads/pms-ota-satis-dashboard-ornek-sablon-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "ctaRules": {
+      "intent": "Informational + Transactional (Revenue)",
+      "primaryCount": "3 kez (H1 sonrası, orta bölüm, final) ✅",
+      "secondaryCount": "1 kez ✅",
+      "secondaryType": "Download Asset",
+      "internalLinkTargets": [
+        "https://dgtlface.com/tr/raporlama/looker-studio",
+        "https://dgtlface.com/tr/raporlama/satis-donusum",
+        "https://dgtlface.com/tr/pms-ota-yonetimi",
+        "https://dgtlface.com/tr/pms-ota/online-satis",
+        "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+        "https://dgtlface.com/tr/raporlama"
+      ]
+    },
+    
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS verileri Looker Studio’ya nasıl bağlanır?",
+        "a": "Önce PMS’den kritik alanları standart export formatına alın (tarih, kanal, gelir, oda tipi, ülke). Sonra Sheets/CSV veya entegrasyon katmanı üzerinden Looker Studio’ya taşıyıp dashboard’ta boyutları doğru sınıflandırın."
+      },
+      {
+        "q": "OTA performansı Looker Studio’da nasıl raporlanır?",
+        "a": "OTA raporlarından rezervasyon, iptal/no-show ve kanal gelir verisini alın. Kanal sözlüğüyle OTA’yı tek başlık altında toplayıp web ve call center ile aynı ekranda kıyaslayın."
+      },
+      {
+        "q": "Kanal bazlı doluluk ve gelir dashboard’u nasıl kurulur?",
+        "a": "Executive panelde doluluk, gelir, ADR/RevPAR ve kanal mix’i gösterin. İkinci sayfada iptal/no-show ve net gelir kalitesini kanal bazında ekleyin."
+      },
+      {
+        "q": "PMS–OTA–GA4 verilerini aynı panelde göstermek mümkün mü?",
+        "a": "Evet; PMS/OTA “sonuç” verisini, GA4/Ads “talep” verisini sağlar. Ortak tarih ve kanal sözlüğüyle eşleştirildiğinde aynı dashboard’ta anlamlı karşılaştırma yapılır."
+      },
+      {
+        "q": "En büyük entegrasyon hatası nedir?",
+        "a": "Kanal isimleri ve gelir tanımı net değilken raporu büyütmek. Önce veri sözlüğünü ve net/brüt gelir ayrımını kilitleyin."
+      }
+    ]
+  },
+
+  "BlogDestinasyonIcerigiIleDirectBookingSeoStratejisi": {
+    "title": "Destinasyon İçeriğiyle Direct Booking SEO | DGTLFACE",
+    "slug": "destinasyon-icerigi-ile-direct-booking-seo-stratejisi",
+    "department": "hotel",
+    "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Antalya/Belek/Side aramalarını rezervasyona bağlayın. Topic cluster, deneyim içerikleri, SGE/Voice Q&A ve blog→oda→rezervasyon iç link modeliyle direct booking’i büyütün.",
+    "seo": {
+      "metaTitle": "Destinasyon İçeriğiyle Direct Booking SEO | DGTLFACE",
+      "metaDescription": "Antalya/Belek/Side aramalarını rezervasyona bağlayın. Topic cluster, deneyim içerikleri, SGE/Voice Q&A ve blog→oda→rezervasyon iç link modeliyle direct booking’i büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa Adı / URL: Otel SEO — https://dgtlface.com/tr/otel/seo",
+        "Blog No / URL: Blog #3 — https://dgtlface.com/tr/otel/blog/destinasyon-icerigi-ile-direct-booking-seo-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500"
+      ],
+      "strategySummary": "Bu yazı, otel SEO silosunda “trafik” üretmekle kalmayıp trafiği rezervasyona bağlayan en kritik yaklaşımı (destinasyon içerik cluster’ı) standartlaştırır. Hedef persona GM/satış-pazarlama ve içerik/SEO ekibidir; karar ihtiyacı “Antalya/Belek/Side gibi bilgi niyetli aramaları oda sayfası ve rezervasyon motoruna nasıl taşıyıp direct booking’e çeviririm?” sorusudur. Funnel’da ToFu → MoFu → BoFu geçişini kurar: blog hub → blog post → oda sayfası → rezervasyon motoru zincirini tasarlar. Rakiplerin zayıf kaldığı “cluster var ama CTA ve iç link yok” boşluğunu kapatır ve otoriteyi /tr/otel/seo ile hub sayfalara dağıtır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "“Antalya otel” yerine “Antalya’da çocuklu aileler için en iyi bölge” gibi arayan misafirin ilk durağı destinasyon içerikleridir. İyi kurgulanmış bir destinasyon blog cluster’ı; organik trafiği büyütürken, doğru noktalarda oda sayfası ve rezervasyon motoruna iç link vererek direct booking funnel’ını besler. Bu yaklaşım, “trafik için blog” değil; trafik + rezervasyon için içerik mimarisi kurmaktır: hub → içerik → oda → rezervasyon.",
+      "sgeSummary": "Destinasyon içeriklerini blog hub + topic cluster olarak kurgulayın; deneyim odaklı yazılarda Q&A blokları ve oda/rezervasyon iç linkleriyle bilgi niyetini direct booking’e bağlayın.",
+      "voiceAnswer": "Destinasyon bloglarını, oda sayfasına ve rezervasyon motoruna iç link veren direct booking funnel’ının ilk adımı yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış-pazarlama, SEO/içerik ekibi",
+        "Ana hedef: Bilgi niyetini (Antalya tatili) rezervasyona bağlamak",
+        "KPI odağı: Blog→oda geçiş oranı, booking engine tıklaması, non-brand trafik, segment sayfa performansı",
+        "Entity’ler: Destination (Antalya/Belek/Side/Kemer/Bodrum), Activity (golf/spa/family), Season, Hotel, RoomType",
+        "Funnel: ToFu (rehber) → MoFu (segment) → BoFu (oda/teklif)",
+        "GEO sinyali: Antalya/Belek/Side + Kemer/Bodrum; Avrupa pazarları (DE/UK/RU)",
+        "En kritik kaldıraç: Cluster haritası + CTA’lı iç link zinciri + SGE/Voice Q&A"
+      ]
+    },
+    "h1": {
+      "title": "“Antalya Otel” Değil, “Antalya Tatili”: Destinasyon İçeriğiyle Direct Booking SEO Stratejisi",
+      "intro": "Misafir çoğu zaman “Antalya otel fiyatları” diye başlamaz; “Antalya’da nerede kalınır?”, “çocuklu aile için en uygun bölge”, “Belek’te golf için hangi dönem iyi” gibi tatil niyeti sorularıyla başlar. Bu niyet yakalanmazsa, kullanıcı OTA’ların rehberleri ve listelerine gider. Destinasyon içeriği, otel web sitesinin “ilk temas” katmanıdır: doğru kurgulanırsa kullanıcıyı blogdan oda sayfasına, oradan rezervasyon motoruna taşıyan bir funnel’a dönüşür.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Destinasyon İçerik & Direct Booking Funnel Analizi Talep Et",
+        "text": "Antalya/Belek/Side içeriklerinizin hangi noktada OTA’ya kaybettirdiğini tespit edip funnel planı çıkarmak için (GM & satış-pazarlama için).",
+        "href": "/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Destinasyon İçerik & Direct Booking Funnel Analizi Talep Et",
+        "text": "Destinasyon içeriklerinizin OTA’ya kaybettirdiği noktaları bulup blog→oda→rezervasyon planı çıkarmak için (GM & satış-pazarlama için).",
+        "href": "https://dgtlface.com/tr/otel/seo"
+      },
+      "secondary": {
+        "label": "Destinasyon SEO Topic Cluster Taslaklarını İndir",
+        "text": "Antalya/Belek/Side için hazır cluster haritası verip içerik üretimini 90 günlük plana oturtmanızı sağlar.",
+        "href": "https://dgtlface.com/tr/seo/icerik-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel SEO hizmet sayfası",
+        "href": "https://dgtlface.com/tr/otel/seo"
+      },
+      {
+        "label": "Otel dijital pazarlama hub",
+        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "İçerik SEO",
+        "href": "https://dgtlface.com/tr/seo/icerik-seo"
+      },
+      {
+        "label": "Yerel SEO",
+        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+      },
+      {
+        "label": "SMM içerik üretimi (destinasyon içerik süreci)",
+        "href": "https://dgtlface.com/tr/smm/icerik-uretimi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      
+      {
+        "id": "destinasyon-icerikleri-neden-kritik",
+        "title": "Destinasyon içerikleri otel SEO’da neden kritiktir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel SEO’nun en büyük açığı, marka dışı talebi yakalayamamaktır. Marka talebi sınırlıdır; büyüme ise destinasyon/deneyim aramalarından gelir. Destinasyon içerikleri; Google’a “bu otel sadece bir bina değil, bu tatil deneyimini anlatan bir kaynak” sinyali verir. Daha önemlisi, doğru iç link ve CTA kurgusuyla destinasyon içeriği “bilgi”yi rezervasyona bağlayan bir yol olur."
+          },
+          {
+            "type": "h3",
+            "text": "Otel blogları SEO için nasıl kullanılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blogu “tek tek yazılar” değil topic cluster olarak kurgulayın.",
+              "Her rehber yazıda 1–2 net CTA bloğu ile oda/teklif sayfalarına bağlayın.",
+              "Segment (aile/çift/golf/spa) içeriklerini “oda tipi” ve “paket” sayfalarına eşleyin.",
+              "Rehberler için FAQ/Q&A blokları ekleyip SGE/Voice görünürlüğü hedefleyin."
+            ]
+          },
+          {"type":"media","slot":"funnel-panel"},
+          {
+            "type": "h3",
+            "text": "“Trafik olsun diye blog” yaklaşımı neden yetmez?"
+          },
+          {
+            "type": "p",
+            "text": "Rakip oteller destinasyon içerik yazıyor ama çoğu:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTA koymuyor,",
+              "oda/rezervasyon iç link vermiyor,",
+              "hub/cluster mimarisi kurmuyor."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sonuç: trafik var ama rezervasyon yok. Bu yazının modeli “trafik + rezervasyon” için içerik mimarisi sunar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (H2-1):",
+            "items": [
+              "Destinasyon içerikleri bir “cluster haritası” içinde mi?",
+              "Her yazıda oda/teklif sayfasına giden 1–2 iç link var mı?",
+              "Segmentlere (aile/çift/golf/spa) göre CTA blokları planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "1. Antalya/Belek/Side için hub sayfa + cluster planı çıkarın.",
+              "2. Her cluster yazısında “oda/konsept” CTA bloklarını standartlaştırın.",
+              "3. Blog→oda→rezervasyon zincirini analytics ile ölçülebilir hale getirin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "blog-page"
+          }
+        ]
+      },
+      {
+        "id": "topic-cluster-nasil-kurulur",
+        "title": "Antalya / Belek / Side için topic cluster nasıl kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Destinasyon içerikleri rastgele yazılmamalı; “hub → alt konular → segment içerikler” şeklinde bir topic cluster mimarisi kurulmalıdır. Burada amaç, hem Google’a konu otoritesi göstermek hem de kullanıcıyı karar yolculuğunda doğru sonraki adıma taşımaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya destinasyon hub’ı: ana sayfa gibi düşünün"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: “destinasyon hub” blog içinde bir üst sayfa gibi çalışır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Antalya’da nerede kalınır?” hızlı özet",
+              "Bölgelere göre (Belek/Side/Kemer) kısa karşılaştırma",
+              "Segmentlere göre (aile/çift/golf/spa) içerik girişleri",
+              "“Bu konseptteki odalar” CTA blokları"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Örnek cluster haritası (AIO triple mantığıyla)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DestinationContent → leadsTo → Hotel & Room pages",
+              "Activity (golf/spa/family) → matches → RoomType/Offer",
+              "Season → influences → Destination choice"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Örnek alt kümeler:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya Tatili: “ilk kez gelenler”, “ulaşım”, “sezon”",
+              "Belek: “golf”, “aile resort”, “transfer”",
+              "Side: “tarihi geziler”, “çift konsepti”, “sahil”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (H2-2):",
+            "items": [
+              "Hub sayfanız bölgeleri ve segmentleri tek yerde bağlıyor mu?",
+              "Her alt içerik, bir sonraki adımı (oda/teklif) işaret ediyor mu?",
+              "Sezon ve pazar (DE/UK/RU) bağlamı içerikte doğal mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "1. Hub sayfayı “içindekiler + hızlı karar” formatında yazın.",
+              "2. Her alt içerikte 1 ana segment ve 1 oda/teklif CTA’sı kullanın.",
+              "3. İç linkleri zincirleyin: Otel Dijital → Otel SEO → Destinasyon hub → Blog → Oda."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "topic-cluster"
+          }
+        ]
+      },
+      {
+        "id": "deneyim-bazli-icerik",
+        "title": "Deneyim bazlı içerik (plaj, çocuklu aile, spa, golf) direct booking’e nasıl bağlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Deneyim içerikleri, “otel adı” bilmeyen kullanıcıyı yakalar. Asıl kritik nokta, bu kullanıcıyı OTA listesine kaptırmadan, otelin kendi site içinde bir konsept/oda sayfasına yönlendirmektir. Örneğin “çocuklu aile” içeriği, sonunda “Family Room” veya “Kids Concept” sayfasına; “golf” içeriği “Golf package” veya “Belek’e yakın transfer” bilgisine bağlanmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Çocuklu aile segmenti için hangi içerikler yazılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Antalya’da çocuklu aile için en iyi bölgeler”",
+              "“Belek’te aile resort seçerken 7 kriter”",
+              "“Side’da çocukla yapılacaklar listesi”",
+              "“Aile odası seçimi: metrekare, yatak, güvenlik, çocuk menüsü”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Her yazının sonunda: “Bu konseptteki odalarımızı incele” CTA + ilgili oda sayfasına iç link."
+          },
+          {
+            "type": "h3",
+            "text": "Golf segmenti için içerik eşlemesi"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Belek golf tatili için en iyi dönem” → sezon + transfer + paket",
+              "“Golf resort seçerken oda konforu ve ulaşım” → oda sayfası + rezervasyon"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede bilgi niyeti BoFu sayfalara “akıtılır”."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (H2-3):",
+            "items": [
+              "Her deneyim içeriği bir “oda/teklif” sayfasına bağlanıyor mu?",
+              "CTA’lar segment dilinde mi (aile, çift, golf)?",
+              "İçerikte kısa program/plan (x günde Antalya) var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "1. Deneyim yazılarını oda tipleriyle eşleyin (family room, sea view, swim-up).",
+              "2. CTA’yı “rezervasyon” diye bağırmadan, konsept/oda inceleme şeklinde konumlandırın.",
+              "3. “x günde Antalya” gibi programlarla kullanıcıyı sayfada tutun ve güven oluşturun."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Destinasyon İçerik & Direct Booking Funnel Analizi Talep Et",
+            "text": "Destinasyon içeriklerinizin OTA’ya kaybettirdiği noktaları bulup blog→oda→rezervasyon planı çıkarmak için (GM & satış-pazarlama için).",
+            "href": "https://dgtlface.com/tr/otel/seo"
+          }
+        ]
+      },
+      {
+        "id": "blog-oda-rezervasyon-funnel",
+        "title": "Blog → oda → rezervasyon funnel’ı nasıl kurgulanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Buradaki temel prensip: her içerik “bir sonraki adıma” sahip olmalı. Kullanıcı rehber okuduktan sonra ne yapacak? Bölge seçtiyse hangi oda? Oda seçtiyse hangi teklif? Bu zincir kurgulanmazsa, kullanıcı Google’a geri döner ve OTA’ya gider."
+          },
+          {
+            "type": "h3",
+            "text": "İç link zinciri (kilitli hedeflere uygun)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel SEO hizmet sayfası: https://dgtlface.com/tr/otel/seo",
+              "Otel dijital pazarlama hub: https://dgtlface.com/tr/otel-dijital-pazarlama",
+              "İçerik SEO: https://dgtlface.com/tr/seo/icerik-seo",
+              "Yerel SEO: https://dgtlface.com/tr/seo/yerel-seo",
+              "SMM içerik üretimi (destinasyon içerik süreci): https://dgtlface.com/tr/smm/icerik-uretimi"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Funnel ölçümü (Varsayım: ölçülebilirlik standardı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Blog yazısında “oda sayfası” link tıklaması",
+              "Oda sayfasında booking engine CTA tıklaması",
+              "Booking engine’de rezervasyon tamamlama"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu sayede “destinasyon içerikleri gerçekten rezervasyon getiriyor mu?” sorusu ölçülebilir olur."
+          },
+          {"type":"media","slot":"destination-funnel"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (H2-4):",
+            "items": [
+              "Blog yazılarında oda/teklif linkleri ölçülüyor mu?",
+              "Oda sayfası CTA tıklaması izleniyor mu?",
+              "Funnel raporu aylık düzenli okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "1. CTA bloklarını şablonlaştırın (aynı format, farklı segment).",
+              "2. Blog yazılarında “yakınlık” mantığı: ilgili oda/teklif linki aynı sayfada.",
+              "3. Funnel ölçümünü GA4/etiketlemeyle kurup rapora bağlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sge-voice-optimizasyon",
+        "title": "Destinasyon içeriğini SGE ve Voice Search için nasıl optimize edersiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "SGE ve voice tarafında kullanıcılar daha “soru” odaklıdır: “Antalya’da ailemle nereye gitmeliyim?” gibi. Bu yüzden destinasyon içerikleri, klasik uzun paragraflar yerine hızlı cevap blokları ve mini özetlerle güçlendirilmelidir."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya destinasyon içerikleri direct booking’e nasıl bağlanır? "
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "H2’leri soru başlığı yapın ve hemen altında 2–3 cümle net cevap verin.",
+              "Cevabın içinde “konsept/oda” anchor’ı verin (aile odası, sea view, swim-up).",
+              "Her yazıda 1 “kısa program” (ör. 3 günde Antalya) ekleyin.",
+              "FAQ bloklarıyla PAA alanını hedefleyin."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Sesli aramalar için konuşma dili Q&A blokları"
+          },
+          {
+            "type": "p",
+            "text": "Örnek voice chip tonu:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Çocuklu aile için Belek genelde daha rahat; Side ise geziler için daha avantajlı olabilir.”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ardından: “Bu konseptteki odalarımızı inceleyin” gibi yumuşak CTA."
+          },
+          {"type":"media","slot":"destination"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (H2-5):",
+            "items": [
+              "Soru başlıklı H2’ler ve net cevap blokları var mı?",
+              "Q&A’lar oda/rezervasyon anchor’larına bağlanıyor mu?",
+              "Metin konuşma diline uygun, jargon düşük mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "1. Her destinasyon yazısına 3–5 soru-cevap bloğu ekleyin.",
+              "2. Voice uyumlu kısa özetleri ilk ekranın altına yerleştirin.",
+              "3. CTA’yı “konseptteki odalar” üzerinden segmentleyin."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış kullanım):\nDestinasyon cluster’ları oturan otellerde, blog → oda sayfası geçiş oranının ve blog kaynaklı direct rezervasyon katkısının anlamlı şekilde artabildiği görülebilir (tesis, içerik kalitesi ve link/CTA kurgusuna bağlıdır)."
+          }
+        ]
+      },
+      {
+        "id": "kapanis",
+        "title": "“Antalya otel” yarışını OTA’ya bırakmayın, “Antalya tatili” niyetini siz yakalayın",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Destinasyon içerikleri, otelinizi OTA listelerinden ayıran en güçlü kaldıraçtır: doğru cluster, doğru segment ve doğru iç link zinciri. Bu rehberle hedef; Antalya/Belek/Side gibi bilgi niyetli aramaları, oda sayfası ve rezervasyon motoruna bağlayan bir sistem kurmaktır. Her yıl (Refresh 365) sezon örneklerini ve görsel haritaları güncelleyerek bu yapıyı evergreen tutabilirsiniz."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Destinasyon İçerik & Direct Booking Funnel Analizi Talep Et",
+            "text": "Antalya/Belek/Side içerik setinizi cluster + CTA + ölçüm modeliyle kurmak için (GM & satış-pazarlama için).",
+            "href": "https://dgtlface.com/tr/otel/seo"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Destinasyon SEO Topic Cluster Taslaklarını İndir",
+            "text": "Antalya/Belek/Side için hazır cluster haritası verip içerik üretimini 90 günlük plana oturtmanızı sağlar.",
+            "href": "https://dgtlface.com/tr/seo/icerik-seo"
+          },
+          {
+            "type": "media",
+            "slot": "destination-checklist"
+          }
+        ]
+      },
+      {
+        "id": "destinasyon-topic-cluster-asset",
+        "title": "Destinasyon SEO Topic Cluster Taslaklarını İndir — Otel SEO / Destinasyon İçerik (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Destinasyon SEO Topic Cluster Taslaklarını İndir — Otel SEO / Destinasyon İçerik (v1.0)",
+            "purpose": "Bu asset, Antalya/Belek/Side/Kemer/Bodrum için destinasyon içeriklerini hub + cluster mantığında planlamanız ve her içeriği oda/rezervasyon adımına bağlamanız için tasarlanmıştır. Amaç; “trafik” yerine trafik + rezervasyon üreten içerik sistemini 90 günlük bir plana oturtmaktır.",
+            "whoFor": "SEO/içerik ekibi + satış-pazarlama (segment) + web ekibi (CTA/link uygulaması).",
+            "steps": [
+              "Hub sayfasını seçin (Antalya Tatili Hub) ve alt segmentleri belirleyin (aile/çift/golf/spa).",
+              "Her cluster yazısı için “hedef oda/teklif” ve CTA anchor’ını işaretleyin.",
+              "90 günlük yayın planına yerleştirip blog→oda→rezervasyon ölçümünü kurun."
+            ],
+            "checklist": [
+              "Hub sayfa + 8–12 cluster yazısı planlandı",
+              "Her yazıda oda/teklif hedefi tanımlı",
+              "CTA metni segment diliyle uyumlu",
+              "Q&A blokları (3–5 soru) eklendi",
+              "Ölçüm planı (blog→oda→rezervasyon) kuruldu"
+            ],
+            "href": "/downloads/destinasyon-seo-topic-cluster-taslaklari.pdf",
+            "buttonLabel": "Taslakları İndir",
+            "template": {
+              "title": "Template: Cluster Plan Şablonu (doldurulabilir)",
+              "fields": [
+                "Hub Sayfa: ____________ (örn. Antalya Tatili)",
+                "Ana Niyet: ____________ (bilgi/karar)",
+                "Segment(ler): ____________ (aile/çift/golf/spa)"
+              ],
+              "clusterItems": [
+                "1. Başlık: ____________ | Niyet: ___ | Hedef oda/teklif: ___ | CTA anchor: ___",
+                "2. Başlık: ____________ | Niyet: ___ | Hedef oda/teklif: ___ | CTA anchor: ___",
+                "3. Başlık: ____________ | Niyet: ___ | Hedef oda/teklif: ___ | CTA anchor: ___"
+              ],
+              "sgeVoiceQA": [
+                "S1: ____________",
+                "S2: ____________",
+                "S3: ____________"
+              ],
+              "rules": [
+                "Her yazının tek ana segmenti olsun (aile veya golf gibi).",
+                "Her yazı en az 1 oda/teklif hedefi taşısın.",
+                "CTA “rezervasyon” diye bağırmasın; “bu konseptteki odalar” dili kullansın.",
+                "Her yazıda 1 mini program (örn. “3 günde Antalya”) veya yapılacaklar listesi ekleyin.",
+                "Q&A bloklarını konuşma dilinde yazın, 2–3 cümlede cevaplayın."
+              ],
+              "example": "Hub: Antalya Tatili\nCluster yazısı: “Antalya’da çocuklu aile için en iyi bölge hangisi?”\nHedef oda: Family Room / Kids Concept\nCTA anchor: “Bu konseptteki aile odalarımızı inceleyin”\nQ&A: “Belek mi Side mı?”, “Transfer kolay mı?”, “Sezon ne zaman?”"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cluster-segment-eslestirme-tablosu",
+        "title": "Antalya/Belek/Side segment → içerik → hedef sayfa eşleştirme",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Antalya/Belek/Side segment → içerik → hedef sayfa eşleştirme tablosu (cluster planlama için)",
+            "headers": [
+              "Segment",
+              "Örnek içerik başlığı",
+              "Niyet",
+              "Hedef sayfa",
+              "CTA anchor"
+            ],
+            "rows": [
+              [
+                "Çocuklu aile",
+                "Antalya’da çocuklu aile için en iyi bölgeler",
+                "Bilgi → Karar",
+                "Family Room / Kids Concept",
+                "Bu konseptteki aile odalarımızı inceleyin"
+              ],
+              [
+                "Golf",
+                "Belek golf tatili için en iyi dönem",
+                "Bilgi → Karar",
+                "Golf package / Transfer / Oda",
+                "Golf konseptindeki odalarımızı inceleyin"
+              ],
+              [
+                "Spa/Relax",
+                "Antalya’da spa odaklı tatil için en iyi bölgeler",
+                "Bilgi → Karar",
+                "Spa package / Oda",
+                "Spa konseptindeki odalarımızı inceleyin"
+              ],
+              [
+                "Çift",
+                "Side’da çift konsepti: geziler + sahil planı",
+                "Bilgi → Karar",
+                "Honeymoon/Sea View / Offer",
+                "Bu konseptteki odalarımızı inceleyin"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel blogları SEO için nasıl kullanılmalı?",
+        "a": "Blogu tekil yazılar yerine topic cluster olarak kurgulayın ve her yazıyı oda/teklif sayfalarına iç linklerle bağlayın. Böylece bilgi niyeti direct booking funnel’ına akar."
+      },
+      {
+        "q": "Antalya destinasyon içerikleri direct booking’e nasıl bağlanır?",
+        "a": "H2’leri soru formatında yazıp kısa cevap blokları ekleyin; içerik içinde ilgili oda/konsept anchor’ları verin. Yazı sonunda segment bazlı CTA ile oda sayfasına yönlendirin."
+      },
+      {
+        "q": "Çocuklu aile, çift, golf gibi segmentler için hangi içerikler yazılmalı?",
+        "a": "Segment bazlı rehberler (bölge seçimi, sezon, yapılacaklar) yazılmalı ve her rehber sonunda ilgili oda tipi veya paket sayfasına link verilmelidir. Segment dili, CTA metninde de korunmalıdır."
+      },
+      {
+        "q": "Destinasyon blog → rezervasyon funnel’ı nasıl kurgulanır?",
+        "a": "Hub sayfa → cluster içerik → oda sayfası → booking engine zinciri kurulur. Her adımda “bir sonraki adıma” iç link ve ölçüm (tıklama/CTR) tanımlanır."
+      },
+      {
+        "q": "Destinasyon içerikleri sadece trafik mi getirir?",
+        "a": "CTA ve iç link kurgusu yoksa çoğunlukla sadece trafik getirir. Oda/teklif sayfasına bağlanan ve ölçülen bir funnel içinde ise direct booking katkısı üretebilir."
+      },
+      {
+        "q": "SGE ve voice için destinasyon içerikleri nasıl yazılmalı?",
+        "a": "Soru başlıkları, 2–3 cümle net cevaplar, konuşma dili Q&A blokları ve kısa özetler kullanılmalıdır. Bu bloklardan oda/rezervasyon sayfalarına doğal anchor’lar verilmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-hero-01.webp — “Destinasyon içerik cluster + direct booking funnel + otel pazarlama bağlamı”",
+          "H1-context — 1920×1080 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-h1-context-02.webp — “Antalya tatili niyeti + segment içerik + rezervasyon geçişi bağlamı”",
+          "Section Divider 01 — 1600×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-divider-03.webp — “Topic cluster mantığı + otel SEO silo bağlantısı + rezervasyon bağlamı”",
+          "Section Divider 02 — 1600×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-divider-04.webp — “Antalya/Belek/Side cluster haritası + segment bağlamı + CTA yönlendirme”",
+          "Checklist / Framework Card — 1200×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-checklist-06.webp — “Destinasyon içerik checklist + cluster kuralları + otel bağlamı”",
+          "KPI / Score Card — 1200×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-kpi-07.webp — “Blog→oda→rezervasyon KPI’ları + funnel ölçümü + yönetim bağlamı”",
+          "Deliverables / Proof Card — 1200×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-proof-08.webp — “Topic cluster deliverables + içerik planı + güven unsuru”"
+        ],
+        "technicalChecklist": []
       }
     }
   }

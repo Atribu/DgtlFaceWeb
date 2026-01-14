@@ -1182,57 +1182,57 @@ export const BLOG_MEDIA_MAP = {
 
    "marka-kimligi-gorsel-dil-ve-feed-tutarliligi": {
       banner: {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-1.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-1.jpeg",
       alt: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
       caption: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?"
     },
 
-          "content-format-pillar": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-2.jpeg",
-      alt: "",
-      caption: "20 İçerik Format ve Pillar Dağılımı"
+          "color-palette": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-2.jpeg",
+      alt: "Renk paleti nasıl seçilmeli?",
+      caption: "Mini Renk Paleti Kılavuzu"
     },
 
-           "": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-3.jpeg",
-      alt: " ",
-      caption: "Bu odayı kimler tercih etmeli "
+           "typography-guide": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-3.jpeg",
+      alt: "Tipografi seçimi (2 font kuralı)",
+      caption: "Sosyal Medya Tipografi Kılavuzu "
     },
 
-     "sss-reels": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-4.jpeg",
-      alt: "",
-      caption: "SSS Reels Senaryo Şablonu"
+     "pattern": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-4.jpeg",
+      alt: "Grid/Feed Tasarımı ve Pattern’ler",
+      caption: "Tutarlı Pattern"
     },
 
-          "instagram-9-grid": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-5.jpeg",
-      alt: "",
-      caption: ""
+          "story-reels-template": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-5.jpeg",
+      alt: "Post, Story ve Reels’te Tutarlılık",
+      caption: "Post, Story ve Reels’te Tutarlılık"
     },
 
-     "operation-flow": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-6.jpeg",
-      alt: "",
-      caption: "İçerik Operasyon Akışı"
+     "visual-language-guide": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-6.jpeg",
+      alt: "Otel sosyal medya görsel dil rehberi mini kılavuz",
+      caption: "Otel sosyal medya görsel dil rehberi mini kılavuz"
     },
 
-        "content-calendar": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-7.jpeg",
+        "b2b-feed-mockup": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-7.jpeg",
       alt: "",
-      caption: "1 Aylık Otel İçerik Takvimi"
+      caption: "B2B Feed Mockup"
     },
 
         "download": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-8.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-8.jpeg",
       alt: "",
       caption: ""
     },
 
-        "package-balance": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-9.jpeg",
-      alt: "",
-      caption: "1 Ayda 20 İçerik: Paket Dengesi"
+        "feed-package": {
+      src: "/images/blog/smm/SMM1-4/SMM1-4-9.jpeg",
+      alt: "Marka Kimliği & Feed Tutarlılığı Paketi",
+      caption: "Marka Kimliği & Feed Tutarlılığı Paketi"
     }
   },
 
@@ -1436,6 +1436,167 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     }
   },
+
+
+  "pms-ota-verilerini-looker-studioya-baglamak": {
+      banner: {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-1.jpeg",
+      alt: "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek",
+      caption: "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek"
+    },
+
+          "sales-reality": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-2.jpeg",
+      alt: "Oteller için örnek satış dashboard’ları (OTA vs Web vs Call Center)",
+      caption: "Kanal Bazlı Satış Gerçekliği"
+    },
+
+           "data-fields": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-3.jpeg",
+      alt: "PMS’den çekilebilecek kritik veri alanları",
+      caption: "PMS’den çekilebilecek kritik veri alanları"
+    },
+
+     "revpar": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-4.jpeg",
+      alt: "",
+      caption: "Kanal Bazlı RevPAR Karşılaştırması"
+    },
+
+          "data-transfer": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-5.jpeg",
+      alt: "",
+      caption: "Looker Studio verileri aktarma"
+    },
+
+     "kpi-set": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-6.jpeg",
+      alt: "",
+      caption: "Otel Satış KPI Seti"
+    },
+
+    "score-card": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+    "gains": {
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-8.jpeg",
+      alt: "",
+      caption: "Satış Dashboard Çıktıları ve Kazanımlar"
+    }
+  },
+
+
+  "destinasyon-icerigi-ile-direct-booking-seo-stratejisi": {
+      banner: {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-1.jpeg",
+      alt: "“Antalya Otel” Değil, “Antalya Tatili”: Destinasyon İçeriğiyle Direct Booking SEO Stratejisi",
+      caption: "“Antalya Otel” Değil, “Antalya Tatili”: Destinasyon İçeriğiyle Direct Booking SEO Stratejisi"
+    },
+
+          "blog-page": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-2.jpeg",
+      alt: "Otel blogları SEO için nasıl kullanılmalı?",
+      caption: "Otel blogları SEO için nasıl kullanılmalı?"
+    },
+
+           "topic-cluster": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-3.jpeg",
+      alt: "Antalya / Belek / Side için topic cluster nasıl kurulur?",
+      caption: "Topic Cluster Sistemi"
+    },
+
+     "destination": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-4.jpeg",
+      alt: "Destinasyon içeriğini SGE ve Voice Search için nasıl optimize edersiniz?",
+      caption: "Antalya Destinasyon Stratejisi"
+    },
+
+          "destination-funnel": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-5.jpeg",
+      alt: "Blog → oda → rezervasyon funnel’ı nasıl kurgulanır?",
+      caption: "Looker Studio verileri aktarma"
+    },
+
+     "destination-checklist": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-6.jpeg",
+      alt: "“Antalya otel” yarışını OTA’ya bırakmayın, “Antalya tatili” niyetini siz yakalayın",
+      caption: "Destinasyon İçerik Checklist: uygulama Standardı"
+    },
+
+    "funnel-panel": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-9.png",
+      alt: "Destinasyon içerikleri otel SEO’da neden kritiktir?",
+      caption: "Destinasyon İçerik Performans ve Funnel Paneli"
+    },
+
+    "download": {
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
+
+   "": {
+      banner: {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-1.jpeg",
+      alt: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
+      caption: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?"
+    },
+
+          "content-format-pillar": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-2.jpeg",
+      alt: "",
+      caption: "20 İçerik Format ve Pillar Dağılımı"
+    },
+
+           "": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-3.jpeg",
+      alt: " ",
+      caption: "Bu odayı kimler tercih etmeli "
+    },
+
+     "sss-reels": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-4.jpeg",
+      alt: "",
+      caption: "SSS Reels Senaryo Şablonu"
+    },
+
+          "instagram-9-grid": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+     "operation-flow": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-6.jpeg",
+      alt: "",
+      caption: "İçerik Operasyon Akışı"
+    },
+
+        "content-calendar": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-7.jpeg",
+      alt: "",
+      caption: "1 Aylık Otel İçerik Takvimi"
+    },
+
+        "download": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-8.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+        "package-balance": {
+      src: "/images/blog/smm/SMM1-3/SMM1-3-9.jpeg",
+      alt: "",
+      caption: "1 Ayda 20 İçerik: Paket Dengesi"
+    }
+  },
+  
 };
 
 export function getMediaBySlot(slug, slot) {

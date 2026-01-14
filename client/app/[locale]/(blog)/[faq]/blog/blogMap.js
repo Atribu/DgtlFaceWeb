@@ -14,6 +14,7 @@ export const BLOG_MAP = {
     smm: {
     "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi",
     "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur",
+    "":"",
     "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi"
   },
 
@@ -42,13 +43,15 @@ export const BLOG_MAP = {
 
       "veri-analizi-raporlama": {
     "looker-studio-oteller-icin-nedir-nasil-calisir": "BlogLookerStudioOtellerIcinNedirNasilCalisir",
-    "seo-sem-smm-verilerini-tek-panelde-birlestirmek":"BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek"
+    "seo-sem-smm-verilerini-tek-panelde-birlestirmek":"BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek",
+    "pms-ota-verilerini-looker-studioya-baglamak":"BlogPmsOtaVerileriniLookerStudioyaBaglamak"
   },
 
 
   hotel:{
     "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir",
-    "oda-sayfalari-google-travel-icin-nasil-optimize-edilir":"BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir"
+    "oda-sayfalari-google-travel-icin-nasil-optimize-edilir":"BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir",
+    "destinasyon-icerigi-ile-direct-booking-seo-stratejisi":"BlogDestinasyonIcerigiIleDirectBookingSeoStratejisi"
   }
 };
 

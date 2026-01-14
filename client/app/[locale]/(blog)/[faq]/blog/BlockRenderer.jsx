@@ -1,18 +1,29 @@
+"use client"
 // components/blog/BlockRenderer.jsx
 import Link from "next/link";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import Image from "next/image";
+import { useMemo, useState } from "react";
 
 export default function BlockRenderer({ block, locale, slug }) {
   if (!block) return null;
 
   const alignmentClasses = "text-center lg:text-left";
-   const imageSize4 = "max-w-[1700px]";
-  const imageSize1 = "max-w-[800px]";
+   const imageSize4 = "max-w-[1000px]";
+  const imageSize1 = "max-w-[760px]";
   const imageSize2 = "max-w-[700px]";
   const imageSize3 = "max-w-[600px]";
 
   const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
+
+    const [isSquare, setIsSquare] = useState(false);
+
+  // İstersen tolerans ekle (ör: kareye çok yakınları da 1:1 yap)
+  const SQUARE_TOLERANCE = 0.02; // %2
+
+  const aspectClass = useMemo(() => {
+    return isSquare ? "aspect-square" : "aspect-[5/3]";
+  }, [isSquare]);
 
 switch (block.type) {
     case "note":
@@ -34,23 +45,33 @@ switch (block.type) {
 
       return (
         <figure className="mt-6 w-full">
-          <div className={`relative aspect-[5/3] w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize1}`}>
-            <Image
-              src={media.src}
-              alt={media.alt || ""}
-              fill
-              
-              className="object-center "
-              priority={Boolean(block.priority)}
-            />
-          </div>
+      <div
+        className={`relative w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize1} ${aspectClass}`}
+      >
+        <Image
+          src={media.src}
+          alt={media.alt || ""}
+          fill
+          className="object-cover object-center"
+          priority={Boolean(block?.priority)}
+          onLoadingComplete={(img) => {
+            const w = img.naturalWidth || 0;
+            const h = img.naturalHeight || 0;
+            if (!w || !h) return;
 
-          {media.caption ? (
-            <figcaption className="mt-2 text-sm text-white/60">
-              {media.caption}
-            </figcaption>
-          ) : null}
-        </figure>
+            const ratio = w / h; // 1 => kare
+            const square = Math.abs(ratio - 1) <= SQUARE_TOLERANCE;
+            setIsSquare(square);
+          }}
+        />
+      </div>
+
+      {media.caption ? (
+        <figcaption className="mt-2 text-sm text-white/60">
+          {media.caption}
+        </figcaption>
+      ) : null}
+    </figure>
       );
     }
 
