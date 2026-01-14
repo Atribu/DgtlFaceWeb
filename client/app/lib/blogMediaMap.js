@@ -1541,46 +1541,46 @@ export const BLOG_MEDIA_MAP = {
 
 
 
-   "": {
+   "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli": {
       banner: {
       src: "/images/blog/smm/SMM1-3/SMM1-3-1.jpeg",
-      alt: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
-      caption: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?"
+      alt: "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+      caption: "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli"
     },
 
           "content-format-pillar": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-2.jpeg",
-      alt: "",
+      alt: "1 Ayda 20 İçerik İçin Format ve Pillar Dağılımı",
       caption: "20 İçerik Format ve Pillar Dağılımı"
     },
 
-           "": {
+           "carousel": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-3.jpeg",
-      alt: " ",
-      caption: "Bu odayı kimler tercih etmeli "
+      alt: "Oda, Deneyim, Destinasyon ve SSS İçerikleri (Hazır konu + iskelet)",
+      caption: "5 içerik önerisi"
     },
 
      "sss-reels": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-4.jpeg",
-      alt: "",
+      alt: "Tema 4: SSS (4 içerik önerisi) ",
       caption: "SSS Reels Senaryo Şablonu"
     },
 
           "instagram-9-grid": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-5.jpeg",
-      alt: "",
-      caption: ""
+      alt: "Reels + Post + Story Kombinasyonu: Haftalık Sprint Mantığı",
+      caption: "Reels + Post + Story Kombinasyonu: Haftalık Sprint Mantığı"
     },
 
      "operation-flow": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-6.jpeg",
-      alt: "",
+      alt: "İçerik durum akışı (operasyon)",
       caption: "İçerik Operasyon Akışı"
     },
 
         "content-calendar": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-7.jpeg",
-      alt: "",
+      alt: "Örnek 1 Aylık Takvim (20 içerik) + Görsel/Text Fikirleri",
       caption: "1 Aylık Otel İçerik Takvimi"
     },
 
@@ -1592,10 +1592,300 @@ export const BLOG_MEDIA_MAP = {
 
         "package-balance": {
       src: "/images/blog/smm/SMM1-3/SMM1-3-9.jpeg",
-      alt: "",
+      alt: "Neden “İçerik Paketi” Mantığı?",
       caption: "1 Ayda 20 İçerik: Paket Dengesi"
     }
   },
+
+  "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":{
+     banner: {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-1.jpeg",
+      alt: "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi",
+      caption: "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi"
+    },
+
+          "schema": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-2.jpeg",
+      alt: "TR-EN-DE-RU Otel Hedefleme Şeması",
+      caption: "Otel Hedefleme Şeması"
+    },
+
+           "hreflang-tag-code": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-3.jpeg",
+      alt: "hreflang etiketleri",
+      caption: "hreflang etiketleri"
+    },
+
+     "lang-matching": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-4.jpeg",
+      alt: "Arama Motoru İçin Doğru Dil Eşleştirme",
+      caption: "Arama Motoru İçin Doğru Dil Eşleştirme"
+    },
+
+          "root": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-5.jpeg",
+      alt: "TR–EN–DE–RU Yapısı Nasıl Kurulur?",
+      caption: "TR–EN–DE–RU Yapısı Nasıl Kurulur?"
+    },
+
+     "self-canonical": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-6.jpeg",
+      alt: "Canonical ve hreflang birlikte nasıl kullanılmalı?",
+      caption: "Canonical ve hreflang birlikte nasıl kullanılmalı?"
+    },
+
+        "hreflang-mistake": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-7.jpeg",
+      alt: "TR–EN–DE–RU yapısında en sık yapılan hatalar nelerdir?",
+      caption: "Sık Karşılşılan hreflang Hata Senaryoları"
+    },
+
+        "search-console": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-8.jpeg",
+      alt: "",
+      caption: "Uluslararası Hedefleme"
+    },
+
+        "excel-table": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-9.jpeg",
+      alt: "TR–EN–DE–RU eşleştirme tablosu",
+      caption: "TR–EN–DE–RU eşleştirme tablosu"
+    },
+
+    "download": {
+      src: "/images/blog/seo/SEO1-4/SEO1-4-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+   "google-ads-kalite-puani-nedir-nasil-yukseltilir":{
+     banner: {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-1.jpeg",
+      alt: "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
+      caption: "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?"
+    },
+
+          "panel": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-2.jpeg",
+      alt: "Kalite Puanı nedir?",
+      caption: "Google Ads Kalite Teşhis Paneli"
+    },
+
+           "quality-score": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-3.jpeg",
+      alt: " Kalite Puanı Bileşenleri ",
+      caption: "Kalite Puanı Teşhisi"
+    },
+
+     "quality-scenario": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-4.jpeg",
+      alt: "“İyi vs Kötü” kalite puanı karşılaştırması (otel örneği)",
+      caption: "İyi vs Kötü Kalite Puanı Senaryosu"
+    },
+
+          "ctr-improvement": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-5.jpeg",
+      alt: "Beklenen TO (Expected CTR) nasıl iyileştirilir?",
+      caption: "Reklam Metni A/B Testi: CTR İyileştirme"
+    },
+
+     "landing": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-6.jpeg",
+      alt: "Oteller İçin Kalite Puanı Örnekleri (arama → reklam → sayfa) ",
+      caption: "Mükemmel Uyum: Arama -> Reklam -> Landing"
+    },
+
+        "landing-checklist": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-7.jpeg",
+      alt: "Otel landing’inde “LP experience”i yükselten 6 kural",
+      caption: "İyileştirme Listesi"
+    },
+
+        "action-plan": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-8.jpeg",
+      alt: "Reklam Alaka Düzeyi (Ad Relevance) nasıl artırılır?",
+      caption: "Sorunlu Bileşen -> Aksiyon Planı"
+    },
+
+        "10-step-plan": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-9.jpeg",
+      alt: "10 adımlık otel odaklı iyileştirme planı",
+      caption: "10 Adımlık Kalite Puanı iyleştirme Planı"
+    },
+
+    "roas-graphic": {
+      src: "/images/blog/sem/SEM1-4/SEM1-4-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+     "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":{
+     banner: {
+      src: "/images/blog/software/Software1-4/Software1-4-1.jpeg",
+      alt: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
+      caption: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik"
+    },
+
+          "subfolder-vs-domain": {
+      src: "/images/blog/software/Software1-4/Software1-4-2.jpeg",
+      alt: "Dil Mimarisi (Subfolder/Domains)",
+      caption: "Dil Mimarisi (Subfolder/Domains)"
+    },
+
+           "decision-table": {
+      src: "/images/blog/software/Software1-4/Software1-4-3.jpeg",
+      alt: "Mimari Karar Tablosu: Seo, Operasyon, Maliyet",
+      caption: "Mimari Karar Tablosu: Seo, Operasyon, Maliyet"
+    },
+
+     "lang-mapping-table": {
+      src: "/images/blog/software/Software1-4/Software1-4-4.jpeg",
+      alt: "URL ve Hreflang Stratejisi",
+      caption: "Url ve İçerik Eşleşme Haritası"
+    },
+
+          "hreflang-switcher": {
+      src: "/images/blog/software/Software1-4/Software1-4-5.jpeg",
+      alt: "Hreflang etiketleri nasıl çalışır?",
+      caption: "Hreflang (Kod) ve Dil Switcher (Ön Yüz) Entegrasyonu"
+    },
+
+     "cms": {
+      src: "/images/blog/software/Software1-4/Software1-4-6.jpeg",
+      alt: "CMS tarafında dil yönetimi",
+      caption: "CMS Çok Dilli İçerik Operasyon Akışı"
+    },
+
+        "otel-vs-b2b": {
+      src: "/images/blog/software/Software1-4/Software1-4-7.jpeg",
+      alt: "Otel ve B2B İçin Çok Dilli UX Örnekleri",
+      caption: "Sektörel Lokalizasyon Odağı: Otel vs B2B Ux"
+    },
+
+        "download": {
+      src: "/images/blog/software/Software1-4/Software1-4-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+    "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":{
+     banner: {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-1.jpeg",
+      alt: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
+      caption: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik"
+    },
+
+          "color-palette": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-2.jpeg",
+      alt: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+      caption: "Marka Renk Paleti: Core ve Support Rol Dağılımı"
+    },
+
+           "typography-hierarchy": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-3.jpeg",
+      alt: "Tipografi Hiyerarşisi (Başlık–Gövde–Vurgu)",
+      caption: "Tipografi Hiyerarşisi:Başşlık, Gövde, Vurgu"
+    },
+
+     "typography-readability": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-4.jpeg",
+      alt: "Ekran Okunabilirliği ve Ağırlık/Kerning",
+      caption: "Kontrast ve Okunabilirlik: Kötü vs İyi"
+    },
+
+          "color-example": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-5.jpeg",
+      alt: "Otel ve B2B İçin Örnek Palet & Font Kombinasyonları",
+      caption: "Örnek Renk ve Tipografi KOmbinasyonları"
+    },
+
+     "problem-solution-table": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-6.jpeg",
+      alt: "Problem -> Kök Neden -> Çözüm Tablosu",
+      caption: "Problem -> Kök Neden -> Çözüm Tablosu"
+    },
+
+        "checklist": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-7.jpeg",
+      alt: "",
+      caption: "Marka Renk ve Tipgrafi Seçim Kontrol Listesi"
+    },
+
+        "download": {
+      src: "/images/blog/creative/Creative1-4/Creative1-4-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+  "4-dilli-cagri-merkezi-multi-channel-entegrasyon":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-1.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "integration": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-2.jpeg",
+      alt: "Hedef Entegrasyon",
+      caption: "Hedef Entegrasyon"
+    },
+
+           "multi-channel": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-3.jpeg",
+      alt: "Multi-channel Entegrasyon Mimarisi",
+      caption: "Multi-channel Entegrasyon Mimarisi"
+    },
+
+    "": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-4.jpeg",
+      alt: "",
+      caption: "Kanallar Aarsı Kesintisiz Geçiş"
+    },
+
+     "ota-message": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "message-example": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+     "multi-channel-agent": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-7.jpeg",
+      alt: "Multi-channel Agent",
+      caption: ""
+    },
+
+        
+
+        "matrix": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-8.jpeg",
+      alt: "Önceliklendirme için pratik matris",
+      caption: "Sezonluk Kanal Önceliklendirme Matrisi"
+    },
+
+
+        "7-step-plan": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-9.jpeg",
+      alt: "",
+      caption: "7 Adımda Multi-channel Entegrasyon Planı"
+    },
+
+
+        "download": {
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  }
   
 };
 

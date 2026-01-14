@@ -37118,7 +37118,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1. Antalya/Belek/Side için hub sayfa + cluster planı çıkarın.",
               "2. Her cluster yazısında “oda/konsept” CTA bloklarını standartlaştırın.",
@@ -37196,7 +37196,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1. Hub sayfayı “içindekiler + hızlı karar” formatında yazın.",
               "2. Her alt içerikte 1 ana segment ve 1 oda/teklif CTA’sı kullanın.",
@@ -37268,7 +37268,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1. Deneyim yazılarını oda tipleriyle eşleyin (family room, sea view, swim-up).",
               "2. CTA’yı “rezervasyon” diye bağırmadan, konsept/oda inceleme şeklinde konumlandırın.",
@@ -37338,7 +37338,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1. CTA bloklarını şablonlaştırın (aynı format, farklı segment).",
               "2. Blog yazılarında “yakınlık” mantığı: ilgili oda/teklif linki aynı sayfada.",
@@ -37406,7 +37406,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "1. Her destinasyon yazısına 3–5 soru-cevap bloğu ekleyin.",
               "2. Voice uyumlu kısa özetleri ilk ekranın altına yerleştirin.",
@@ -37589,6 +37589,2554 @@
           "Deliverables / Proof Card — 1200×1200 — destinasyon-icerigi-ile-direct-booking-seo-stratejisi-proof-08.webp — “Topic cluster deliverables + içerik planı + güven unsuru”"
         ],
         "technicalChecklist": []
+      }
+    }
+  },
+
+  "BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli": {
+    "title": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+    "slug": "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli",
+    "department": "smm",
+       "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel ve turizm markaları için 1 ayda 20 içerik paketi: oda–deneyim–destinasyon–SSS temaları, reels/post/story dengesi ve örnek takvim + metin iskeletleri.",
+    "seo": {
+      "metaTitle": "Otel İçin 1 Ayda 20 İçerik Modeli | DGTLFACE",
+      "metaDescription": "Otel ve turizm markaları için 1 ayda 20 içerik paketi: oda–deneyim–destinasyon–SSS temaları, reels/post/story dengesi ve örnek takvim + metin iskeletleri."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa Adı / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog No / URL: Blog #3 — /tr/smm/blog/otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700"
+      ],
+      "strategySummary": "Bu blog, otel/turizm markalarında sosyal medya üretimini “her gün fikir bulma” stresinden çıkarıp paket modeline oturtan core içeriktir ve doğrudan /tr/smm/icerik-uretimi sayfasına lead taşır. Hedef persona; Antalya–Belek–Kemer–Bodrum gibi destinasyon odaklı otellerde GM/satış–pazarlama ekibi ve ajans yöneticisidir; ekip “her ay sürdürülebilir içerik” ister. Funnel’da Consideration → Conversion köprüsüdür: tema/format dengesi ile hem marka dili hem rezervasyon hunisi beslenir. Ana iş sorusu: “1 ayda 20 içerik nasıl planlanır; oda/deneyim/destinasyon/SSS temaları ile reels–post–story dengesi nasıl kurulur?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Otel ve turizm markalarında sürdürülebilir sosyal medya yönetimi, her ay 20–30 içerik üretecek paket modeli ile kolaylaşır. Oda, deneyim, destinasyon ve SSS temaları etrafında kurgulanan 20 içeriklik set; hem feed tutarlılığını korur hem de rezervasyon hunisini besler. Pratik bir dağılım: 8 feed post, 8 reels ve 4 story serisi. Her içerik için konu + metin iskeleti çıkarıp sezona göre uyarlayın.",
+      "sgeSummary": "Otel hesabı için 1 ay/20 içerik modeli: 8 post + 8 reels + 4 story serisi. Temalar: oda, deneyim, destinasyon, SSS. Takvimle dağıt, sezona göre uyarlayıp ölç.",
+      "voiceAnswer": "Otel hesabında ayda 20 içerik için 8 post, 8 reels ve 4 story serisini oda–deneyim–destinasyon–SSS temalarıyla planlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM/satış–pazarlama, sosyal medya sorumlusu, ajans AM; destinasyon odaklı Türkiye (Antalya, Belek, Kemer, Bodrum).",
+        "KPI’lar: yayın tutarlılığı, reach, izlenme (reels), kaydetme (carousel), DM/WhatsApp, web tıklaması, rezervasyon niyeti.",
+        "Model: 20 içerik = (8 post) + (8 reels) + (4 story serisi) → tema/format dengesi → takvim → ölçüm → revizyon.",
+        "Entity’ler: hotel social content, content pack, destination marketing, FAQ/SSS, reels/post/story mix, seasonal campaign.",
+        "Funnel: Awareness (destinasyon/deneyim) + Consideration (oda/SSS) + Conversion (kampanya/CTA).",
+        "Operasyon: metin iskeleti + görsel brief standardı olursa üretim hızlanır.",
+        "Gözlem: paket modeli kullanan oteller sezon boyunca daha az tıkanır ve feed tutarlılığı korunur (sheet notu)."
+      ]
+    },
+    "h1": {
+      "title": "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
+      "intro": "Otel sosyal medya yönetiminde sorun çoğu zaman “ekip yok” değil; sistem yoktur. Her gün “bugün ne paylaşacağız?” sorusuyla ilerleyen hesaplar, sezon ortasında tıkanır ve feed tutarlılığı bozulur. Çözüm; içerikleri tek tek değil, paket gibi düşünmektir: her ay tekrar edilebilir bir 20 içerik iskeleti kurarsınız, sonra sadece sezona/konsepte göre uyarlarsınız.\n\nBu rehberde; otel ve turizm markaları için 1 ayda 20 içerik modelini (8 post + 8 reels + 4 story serisi) tema/format dengesiyle kuracağız. Oda, deneyim, destinasyon ve SSS içeriklerini rezervasyon hunisine göre dağıtıp; örnek takvim, görsel/metin iskeletleri ve sezonluk uyarlama mantığını vereceğim.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
+        "text": "Antalya/Belek/Kemer/Bodrum gibi destinasyonlarda sürdürülebilir yayın ritmi kurmak isteyen otel ekipleri için.",
+        "href": "/tr/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
+        "text": "(1 cümle fayda + kim için)",
+        "href": "/tr/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir",
+        "text": "(ne işe yarar? 1 cümle)",
+        "href": "/tr/otel/sosyal-medya"
+      }
+    },
+    "internalLinks": [
+      { "label": "İçerik Üretimi", "href": "/tr/smm/icerik-uretimi" },
+      { "label": "Otel Sosyal Medya", "href": "/tr/otel/sosyal-medya" },
+      { "label": "Otel Dijital Pazarlama", "href": "/tr/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      
+      {
+        "id": "neden-icerik-paketi",
+        "title": "Neden “İçerik Paketi” Mantığı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İçerik paketi; “20 içerik üreteceğiz” hedefini bir “checklist”e çevirir. Böylece:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üretim planlanır (son dakika çekimi azalır)",
+              "Tasarım dili standartlaşır (feed tutarlılığı artar)",
+              "İçerik karmaşası azalır (tema/pillar netleşir)",
+              "Ölçüm kolaylaşır (hangi içerik tipi işe yarıyor görünür)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Özellikle turizmde sezon baskısı, kampanya değişimi ve yoğun operasyon nedeniyle “ad-hoc paylaşım” en hızlı yıpratan yöntemdir. Paket modeli ise ekibe “bu ayın iskeleti”ni verir: herkes ne yapacağını bilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Bu ay kaç içeriğiniz “çekim yetişmedi” diye iptal oldu?",
+              "Oda/deneyim/destinasyon içerikleri dengeli mi, yoksa tek temaya mı yüklendiniz?",
+              "SSS içerikleri yoksa DM’ler aynı sorularla mı doluyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "20 içerik iskeletini kur, ardından sezon/konsept detaylarını giydir.",
+              "Her içerik türü için 1 metin iskeleti belirle (aşağıda hazır).",
+              "Ay sonunda “format + tema” bazında KPI okuyup revize et."
+            ]
+          },
+          {"type":"media","slot":"package-balance"}
+        ]
+      },
+      {
+        "id": "format-ve-pillar-dagilimi",
+        "title": "1 Ayda 20 İçerik İçin Format ve Pillar Dağılımı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu modelin amacı “her güne içerik” değil; dengeli bir minimum paket vermektir."
+          },
+          {
+            "type": "h3",
+            "text": "Önerilen format dağılımı (20 içerik)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "8 Feed Post (oda, restoran, deneyim, kampanya/teklif)",
+              "8 Reels (oda turu, deneyim, destinasyon, kısa SSS cevapları)",
+              "4 Story Serisi (anket, soru kutusu, backstage, mini duyuru)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "content-format-pillar"
+          },
+          {
+            "type": "h3",
+            "text": "Pillar/tema dağılımı (otel için)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda (netlik + güven)",
+              "Deneyim (duygu + keşif)",
+              "Destinasyon (arama niyeti + ilham)",
+              "SSS (itiraz azaltma + dönüşüm)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım (başlangıç denge):\n\t•\tOda: 5 içerik\n\t•\tDeneyim: 6 içerik\n\t•\tDestinasyon: 5 içerik\n\t•\tSSS: 4 içerik\nToplam: 20. (Sezon/kampanya yoğunluğuna göre esnetilir.)"
+          },
+          {
+            "type": "h3",
+            "text": "Funnel dağılımı "
+          },
+          {
+            "type": "p",
+            "text": "Bu 20 içerik seti, tema–format–funnel ilişkisiyle çalışır: Destinasyon ve deneyim içerikleri awareness üretir; oda ve SSS içerikleri consideration’da güveni artırır; kampanya ve net CTA’lı post/reels’ler conversion’ı tamamlar. Böylece feed “güzel görüntüler”den ibaret kalmaz; rezervasyon niyetine giden yolu kısaltan bir sistem olur."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Bu ay setinizde en az 4 SSS içeriği var mı?",
+              "Reels’lerin yarısı “sadece manzara” mı, yoksa net mesaj taşıyor mu?",
+              "Post’ların en az 2’si net CTA (DM/WhatsApp/link) içeriyor mu?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tema-konu-iskeletleri",
+        "title": "Oda, Deneyim, Destinasyon ve SSS İçerikleri (Hazır konu + iskelet)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümde her tema için hem örnek konular hem de metin iskeleti veriyorum. Böylece ekip her içerikte sıfırdan yazmak zorunda kalmaz."
+          },
+          {
+            "type": "h3",
+            "text": "Tema 1: ODA (5 içerik önerisi)"
+          },
+          {
+            "type": "p",
+            "text": "Örnek konu fikirleri:\n\t1.\t“Standart vs Deluxe: Kim için hangisi?”\n\t2.\t“Aile odası: çocuklu misafire 3 avantaj”\n\t3.\t“Oda turu: 15 saniyede 5 detay”\n\t4.\t“Manzara/konum farkı: hangi oda daha mantıklı?”\n\t5.\t“Oda içi konfor: uyku kalitesi + sessizlik + alan”"
+          },
+          {
+            "type": "p",
+            "text": "Metin iskeleti (Post/Carousel):\n\t•\tHook: “Bu odayı kimler tercih etmeli?”\n\t•\t3 fayda: (konfor / alan / kullanım senaryosu)\n\t•\tMini kanıt: (detay/amenity)\n\t•\tCTA: “DM’den oda tipini yaz, uygun seçeneği önerelim.” (Varsayım)"
+          },
+          {
+            "type": "media",
+            "slot": "carousel"
+          },
+          {
+            "type": "h3",
+            "text": "Tema 2: DENEYİM (6 içerik önerisi)"
+          },
+          {
+            "type": "p",
+            "text": "Örnek konu fikirleri:\n\t1.\t“Spa: 1 saatlik reset rutini”\n\t2.\t“Gastronomi: şefin 3 imza dokunuşu”\n\t3.\t“Çocuk kulübü: ebeveynler için gerçek rahatlık”\n\t4.\t“Beach/Pool: günün en iyi saatleri”\n\t5.\t“Akşam etkinliği: 20 saniyede atmosfer”\n\t6.\t“Backstage: hazırlık süreci (güven + kalite)”"
+          },
+          {
+            "type": "p",
+            "text": "Metin iskeleti (Reels):\n\t•\t0–2 sn: Hook (tek cümle)\n\t•\t2–12 sn: 3 sahne (detay → his → kanıt)\n\t•\t12–15 sn: CTA (DM/WhatsApp/link)"
+          },
+          {
+            "type": "h3",
+            "text": "Tema 3: DESTİNASYON (5 içerik önerisi)"
+          },
+          {
+            "type": "p",
+            "text": "Örnek konu fikirleri:\n\t1.\t“Antalya’da 48 saat: aile rotası”\n\t2.\t“Belek’te golf + resort günü”\n\t3.\t“Kemer’de doğa/deniz dengesi”\n\t4.\t“Bodrum’da gün batımı noktaları (yakın çevre)”\n\t5.\t“Side’de tarih + sahil kombosu”"
+          },
+          {
+            "type": "p",
+            "text": "Metin iskeleti (Carousel):\n\t•\tHook: “Destinasyonda 1 günde yapılacak 5 şey”\n\t•\tListe (5 madde)\n\t•\tHarita/mesafe notu (Varsayım)\n\t•\tCTA: “Planını DM’den gönder, sana rota önerelim.”\n\nNot: GEO sinyali doğal geçer; spam yapılmaz (bu blogda amaç örnek vermek)."
+          },
+          {
+            "type": "h3",
+            "text": "Tema 4: SSS (4 içerik önerisi) – (AEO için güçlü)"
+          },
+          {
+            "type": "p",
+            "text": "Bu içerikler DM yükünü azaltır, güven üretir.\n\nÖrnek konu fikirleri:\n\t1.\t“Check-in/check-out saatleri ve esneklik”\n\t2.\t“Çocuk politikası: ücretsiz yaş aralığı” (Varsayım)\n\t3.\t“İptal/iade koşulları (net ve kısa)” (Varsayım)\n\t4.\t“Transfer/ulaşım seçenekleri”"
+          },
+          {
+            "type": "p",
+            "text": "SSS metin iskeleti (Reels kısa cevap):\n\t•\tSoru: “En çok sorulan soru: ___”\n\t•\t1 cümle net cevap\n\t•\t1 cümle “detay nerede?” (SSS sayfası / DM) (Varsayım)\n\t•\tCTA: “Sorun varsa DM’den yazın.”"
+          },
+          {
+            "type": "media",
+            "slot": "sss-reels"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "SSS’leri ayda en az 4 içerik olarak standardize et.",
+              "Her SSS içeriğinin sonunda tek CTA kullan (DM veya link).",
+              "Aynı soruyu farklı formatla tekrar et (reels + story Q&A)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "haftalik-sprint",
+        "title": "Reels + Post + Story Kombinasyonu: Haftalık Sprint Mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu 20 içerik paketini haftalara “sprint” gibi bölerseniz üretim hızlanır."
+          },
+          {
+            "type": "h3",
+            "text": "1 haftalık mini paket (5 içerik) örneği"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2 Reels: (1 deneyim, 1 oda/SSS)",
+              "2 Feed: (1 carousel destinasyon/SSS, 1 post offer/brand)",
+              "1 Story serisi: (anket + soru kutusu + backstage)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "instagram-9-grid"
+          },
+          {
+            "type": "h3",
+            "text": "İçerik durum akışı (operasyon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brief (metin + görsel ihtiyacı)",
+              "Çekim/asset hazırlığı",
+              "Tasarım/kurgulama",
+              "Onay",
+              "Yayın + rapor notu"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "operation-flow"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir",
+            "text": "Ekibinize aylık görev listesi olarak verin; 20 içeriği tema/format dengesiyle 60 dakikada takvime dökersiniz. (Hedef: /tr/otel/sosyal-medya)",
+            "href": "/tr/otel/sosyal-medya"
+          }
+        ]
+      },
+      {
+        "id": "aylik-takvim",
+        "title": "Örnek 1 Aylık Takvim (20 içerik) + Görsel/Text Fikirleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo; 20 içeriği “tema + format + funnel + CTA” ile örnekler. (Günler örnektir, kendi yoğunluğunuza göre kaydırabilirsiniz.)"
+          },
+          {
+            "type": "media",
+            "slot": "content-calendar"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "8 reels’in en az 3’ü SSS/oda netliği taşıyor mu?",
+              "8 post’un en az 2’si social proof (yorum/UGC) içeriyor mu? (Varsayım: eklenebilir)",
+              "4 story serisinin 2’si soru kutusu/anket içeriyor mu?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezonluk-uyarlama",
+        "title": "Sezonluk Uyarlama: Yaz/Kış, Bayram, Yoğunluk Dönemleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Paket modelinin gücü; aynı iskeletin her sezon “giydirilmesi”dir:\n\t•\tYaz: beach/pool, aile aktiviteleri, open-air gastronomi\n\t•\tKış: spa/wellness, indoor deneyimler, gastronomi, romantik paketler\n\t•\tBayram: minimum 3 içerik “planlama + yoğunluk + erken rezervasyon”\n\t•\tYoğun dönem: story ağırlığı artar, reels “stok içerik”ten beslenir"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Paketin %20’sini “sezon etiketi” ile esnek bırak.",
+              "Reels çekimlerini 1 günde toplu çek (batch).",
+              "Bayram/özel günleri takvime 30 gün önce işaretle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel/turizm markaları için 1 ayda 20 içerik modeli; üretimi sürdürülebilir hale getirir, feed tutarlılığını korur ve rezervasyon hunisini sistemli biçimde besler. Oda–deneyim–destinasyon–SSS temalarıyla kurulan 20’lik paket; sezon boyunca çoğaltılabilir ve segmentlere (aile/çift/luxury) göre özelleştirilebilir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel İçerik Paketi & Aylık Model Analizi Talep Et",
+            "text": "20 içeriklik paketi otelinize göre uyarlayıp 30 günlük takvimi birlikte netleştirelim. (Hedef: /tr/smm/icerik-uretimi)",
+            "href": "/tr/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "secondary-asset",
+        "title": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir — SMM / Tourism Content Pack (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel & Turizm Markaları İçin 1 Ay 20 İçerik Planlama Şablonunu İndir — SMM / Tourism Content Pack (v1.0)",
+            "purpose": "Bu şablon; otel hesabınız için 1 ayda 20 içerik üretimini (8 post + 8 reels + 4 story serisi) tek tabloda planlamanızı sağlar. Oda/deneyim/destinasyon/SSS temalarını formatlarla eşleyip, takvim ve CTA mantığını standartlaştırarak sezon boyunca sürdürülebilir ritim kurmanıza yardımcı olur.",
+            "whoFor": "Otel satış–pazarlama ekipleri, sosyal medya yöneticileri, ajans içerik/creative ekipleri.",
+            "steps": [
+              "Otelinizin hedef segmentini seçin (aile/çift/luxury) ve tema oranlarını ayarlayın.",
+              "20 içeriği tabloya girin: format + tema + konu + CTA + çekim notu.",
+              "Haftalık sprint planına bölün; ay sonunda KPI ile oranları güncelleyin."
+            ],
+            "href": "/tr/otel/sosyal-medya",
+            "buttonLabel": "Şablonu İndir",
+            "template": {
+              "blank": [
+                "A) Boş Şablon Alanları (başlıklar + boşluklar)\n\n1) Setup\n\t•\tOtel / Marka: __________\n\t•\tDestinasyon: __________ (örn. Antalya/Belek/Kemer/Bodrum)\n\t•\tSegment: (Aile/Çift/Luxury/Genel) __________\n\t•\tDönem: (Ay/Yıl) __________\n\t•\tAna CTA: __________ (DM/WhatsApp/Link) (Varsayım)\n\t•\tKanal: (IG ağırlık) __________",
+                "2) 20 İçerik Tablosu (tek sayfa)\nSütunlar:\n\t•\t(1–20): ___\n\t•\tHafta: (1–4) ___\n\t•\tFormat: (Post/Reels/Story) ___\n\t•\tTema: (Oda/Deneyim/Destinasyon/SSS) ___\n\t•\tKonu başlığı: ___\n\t•\tHook (ilk cümle): ___\n\t•\tGörsel/çekim brief: ___\n\t•\tMetin iskeleti: (3 madde) ___\n\t•\tCTA: ___\n\t•\tFunnel: (Awareness/Consideration/Conversion) ___\n\t•\tNot (sezon uyarlaması): ___",
+                "3) Haftalık Sprint Planı\n\t•\tHafta 1: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 2: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 3: 2 Reels + 2 Post + 1 Story Serisi\n\t•\tHafta 4: 2 Reels + 2 Post + 1 Story Serisi\n\nBuraya: Şablonun Google Sheets görüntüsü (20 satır + filtre)"
+              ],
+              "howToFillRules": [
+                "Her içerik tek tema + tek mesaj taşısın (karışık brief revizyonu artırır).",
+                "8 reels’in en az 3’ü “oda/SSS netliği” taşısın (güven katmanı).",
+                "4 story serisinin 2’sinde anket/soru kutusu olsun (etkileşim + içgörü).",
+                "Haftalık sprint mantığıyla batch üretim yapın (1 çekim günü).",
+                "Ay sonunda “tema+format” bazında KPI okuyup oranları yeniden kalibre edin."
+              ],
+              "exampleFilledShort": "C) Doldurulmuş 1 örnek (kısa)\n\t•\t#3 | Hafta 1 | Reels | Tema: Oda\n\t•\tKonu: “Aile odası: 15 saniyede 3 avantaj”\n\t•\tHook: “Çocuklu aileler için en rahat seçim neden bu?”\n\t•\tBrief: geniş açı oda turu + çocuk yatağı detayı + balkon\n\t•\tMetin: (1) alan/konfor (2) pratik detay (3) güven/SSS\n\t•\tCTA: “DM: AİLE yaz, oda seçeneklerini gönderelim.” (Varsayım)\n\t•\tFunnel: Consideration\n\t•\tSezon notu: yaz dönemi “kids club” kesiti ekle",
+              "checklist": [
+                "8 Post / 8 Reels / 4 Story serisi tamam mı?",
+                "Tema dağılımı (oda/deneyim/destinasyon/SSS) dengeli mi?",
+                "Haftalara bölündü mü?",
+                "Her içerikte hook + CTA var mı?",
+                "Sezon uyarlama notu eklendi mi?",
+                "1 çekim günü planlandı mı?"
+              ],
+              "deliverables": [
+                "20 içerik tablosu (dolu)",
+                "Haftalık sprint planı (Hafta 1–4)",
+                "Hook + CTA kütüphanesi (Opsiyonel) (Varsayım)",
+                "Buraya: 1 haftalık feed mockup (3x3)",
+                "Buraya: 20 içerik dağılım grafiği (tema + format)"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel için aylık kaç sosyal medya içeriği üretmeliyim?",
+        "a": "Başlangıç için sürdürülebilir minimum hedef ayda 20 içerik iyi çalışır. Bu set; 8 post, 8 reels ve 4 story serisiyle dengeli bir ritim sağlar."
+      },
+      {
+        "q": "1 ayda 20 içerik nasıl planlanır?",
+        "a": "Önce format dağılımını (8 post + 8 reels + 4 story) sabitleyin. Sonra oda/deneyim/destinasyon/SSS temalarını içeriklere paylaştırıp haftalık sprintlere bölün."
+      },
+      {
+        "q": "Oda/deneyim/destinasyon içeriklerini nasıl dengelerim?",
+        "a": "Deneyim ve destinasyon awareness üretir; oda ve SSS güveni artırır. 20’lik pakette SSS’yi en az 4 içerik olarak standardize etmek dengeler."
+      },
+      {
+        "q": "Reels ve post dengesini nasıl kurmalıyım?",
+        "a": "Reels keşif ve hız sağlar; post/carousel bilgi taşır ve kaydetme üretir. Bu modelde 8 reels + 8 post dengesi, hem erişim hem tutarlılık sağlar."
+      },
+      {
+        "q": "SSS içerikleri gerçekten gerekli mi?",
+        "a": "Evet; SSS içerikleri itirazları azaltır ve DM yükünü düşürür. Rezervasyon kararını hızlandıran “güven” katmanıdır."
+      },
+      {
+        "q": "Sezonda yoğunken içerik üretimini nasıl sürdürürüm?",
+        "a": "Batch üretim yapın: reels çekimlerini 1 günde toplayın, story’leri daha esnek kullanın. Paketin %20’sini “esnek içerik” olarak bırakın."
+      },
+      {
+        "q": "Bu model luxury veya aile segmentine uyarlanabilir mi?",
+        "a": "Evet; tema oranlarını ve örnek konuları segmentin “değer algısı”na göre değiştirirsiniz. İskelet aynı kalır, içerik giydirme değişir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "placeholders": [
+          "Buraya: 20 içerik format/pillar dağılım tablosu (20 satır; Tema + Format + Funnel + CTA)",
+          "Buraya: Oda içerikleri için 1 carousel örneği (5 slayt)",
+          "Buraya: “SSS kısa cevap” reels script şablonu (ekran yazısı + voiceover)",
+          "Buraya: Otel için 1 haftalık feed mockup (3x3 grid örneği)",
+          "Buraya: İçerik durumu flow diyagramı (brief/tasarım/onay/yayın)",
+          "Buraya: 20 satırlık aylık takvim tablosu (Google Sheets görseli)",
+          "Buraya: Şablonun Google Sheets görüntüsü (20 satır + filtre)"
+        ]
+      }
+    }
+  },
+
+  "BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi": {
+    "title": "hreflang Rehberi: TR–EN–DE–RU Otel SEO | DGTLFACE",
+    "slug": "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi",
+    "department": "seo",
+    "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR–EN–DE–RU otel sitelerinde hreflang haritalaması, canonical ilişkisi ve URL/directory stratejisi. Yanlış dil sonucu sorunlarını çözün, pazarı doğru hedefleyin.",
+    "seo": {
+      "primaryKeyword": "hreflang, çok dilli teknik SEO (otel)",
+      "metaTitle": "hreflang Rehberi: TR–EN–DE–RU Otel SEO | DGTLFACE",
+      "metaDescription": "TR–EN–DE–RU otel sitelerinde hreflang haritalaması, canonical ilişkisi ve URL/directory stratejisi. Yanlış dil sonucu sorunlarını çözün, pazarı doğru hedefleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog No / URL: Blog #4 — /tr/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Difficulty Level / Expertise: Intermediate–Expert",
+        "Word Count Range: 2300–2700"
+      ],
+      "strategySummary": "Bu içerik, çok dilli otel projelerinde en sık “yanlış pazarda yanlış dilde sıralanma” problemine çözüm üreten teknik SEO referans (hub) içeriğidir ve TR–EN–DE–RU haritalama standardını kilitler. Hedef persona; otel sahibi/GM ve satış–pazarlama tarafı (pazar hedefleme), ajans/SEO uzmanı ve uygulamayı yapan geliştirici ekip (Next.js/directory yapısı) birlikte. Funnel’da MoFu ağırlıklıdır: “doğru dil/bölge hedefleme → hreflang + canonical uyumu → test/doğrulama → bakım” akışını verir. Ana iş sorusu: “Otel sitemde yanlış dil çıkıyor; TR–EN–DE–RU yapısını nasıl kurarım ve canonical/hreflang çakışmalarını nasıl engellerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "hreflang, çok dilli otel sitelerinde doğru dil versiyonunun doğru kullanıcıya gösterilmesini sağlayan teknik sinyaldir. TR–EN–DE–RU gibi yapılarda aynı sayfanın dil versiyonları birbirine doğru şekilde bağlanmazsa Google yanlış dilde sonuç gösterebilir, kullanıcı deneyimi düşer ve otorite dağılabilir. Sağlıklı kurgu; net bir URL/directory stratejisi (örn. /tr/, /en/, /de/, /ru/), her sayfada karşılıklı hreflang etiketleri, doğru canonical seçimi ve Search Console üzerinden test/doğrulama adımlarıyla kurulur.",
+      "sgeSummary": "TR–EN–DE–RU otel sitelerinde hreflang etiketleriyle dil sayfalarını doğru eşleştir; canonical ve URL yapısını çakışmayacak şekilde kurgula; Search Console ile doğrulayıp bakım ritmi oluştur.",
+      "voiceAnswer": "hreflang, çok dilli otel sitenizde doğru dil sayfasını doğru pazarda göstermek için kullanılır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yönetimi + ajans/SEO + geliştirici ekip",
+        "Kritik entity’ler: hreflang, multilingual SEO, hotel site, TR EN DE RU, canonical, x-default",
+        "KPI: Yanlış dilde görünme azalması, doğru pazarda CTR artışı, duplicate risklerinin düşmesi",
+        "Funnel: MoFu (teşhis → haritalama → uygulama → test → bakım)",
+        "Teknik çekirdek: dil–ülke kodları (tr-TR, de-DE vb.), x-default, karşılıklılık (reciprocal)",
+        "Otel özel senaryo: Türkiye odaklı ama Avrupa pazarı hedefleyen çok dilli yapı",
+        "Çıktı hedefi: Featured snippet + PAA (hreflang nedir/kurulum/hatalar/canonical ilişkisi)"
+      ]
+    },
+    "h1": {
+      "title": "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi",
+      "intro": "Çok dilli otel sitelerinde “yanlış dilde sonuç çıkması”, iyi içerik olsa bile satışa giden yolu kıran bir problemdir. Kullanıcı Almanca ararken Türkçe sayfaya düşerse güven kaybeder, siteden çıkar ve dönüşüm düşer. hreflang bu problemi çözmek için vardır; ama yanlış kurulduğunda canonical ile çakışır, duplicate içerik üretir ve otoriteyi böler. Bu rehberde TR–EN–DE–RU yapısını directory stratejisiyle kuracak, hreflang–canonical ilişkisini doğru bağlayacak ve Search Console üzerinden test ederek hataları kapatacağız.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "hreflang & Çok Dilli SEO Analizi Talep Et",
+        "text": "TR–EN–DE–RU haritalamanızı çıkarıp, yanlış dil/yanlış pazar görünürlüğünü hızlıca düzeltmek isteyen ekipler için.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "hreflang & Çok Dilli SEO Analizi Talep Et",
+        "text": "TR–EN–DE–RU haritalamanızı çıkarıp yanlış dil/yanlış pazar görünürlüğünü düzeltmek isteyen ekipler için",
+        "href": "/tr/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "hreflang Haritalama & Kontrol Şablonunu İndir",
+        "text": "TR–EN–DE–RU sayfa eşleştirmesini tek tabloda kilitler; audit sırasında 10 dakikada boşlukları yakalarsınız.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO", "href": "/tr/seo/teknik-seo" },
+      { "label": "Otel SEO", "href": "/tr/otel/seo" },
+      { "label": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "hreflang-nedir",
+        "title": "hreflang Nedir? ",
+        "preBlocks":[{"type":"media","slot":"schema"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "hreflang, arama motoruna “bu sayfanın şu dil/bölge versiyonu budur” diyen bir eşleştirme sinyalidir. Amaç; aynı içerik ailesinin (ör. oda sayfası) dil versiyonlarını doğru şekilde birbirine bağlayıp, kullanıcının arama diline ve konum sinyallerine göre doğru sayfayı göstermektir. hreflang bir “sıralama hack’i” değil; uluslararası sitelerde doğru sayfayı doğru kullanıcıya götüren teknik bir yönlendirme katmanıdır."
+          },
+          {
+            "type": "h3",
+            "text": "hreflang nedir, ne işe yarar? "
+          },
+          {
+            "type": "p",
+            "text": "hreflang, aynı sayfanın farklı dil/bölge versiyonlarını birbirine bağlar ve Google’ın arama yapan kullanıcıya doğru dil sayfasını göstermesine yardımcı olur."
+          },
+          {
+            "type": "h3",
+            "text": "hreflang olmadan ne olur? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Google dil versiyonlarını “duplicate” gibi algılayabilir",
+              "Yanlış dilde SERP sonucu görülür (özellikle EN/DE aramalarda TR çıkması)",
+              "CTR düşer, bounce artar, dönüşüm etkilenir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Hangi diller var (TR/EN/DE/RU) netleştir.",
+              "“Eşleştirme tablosu” olmadan uygulamaya geçme.",
+              "hreflang’ı canonical ile birlikte planla (çakışma yok)."
+            ]
+          },
+          {"type":"media","slot":"lang-matching"}
+        ]
+      },
+      {
+        "id": "dil-ve-bolge-hedefleme",
+        "title": "Çok Dilli Otel Sitelerinde Dil ve Bölge Hedefleme ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dil (language) ile bölge (region) hedefleme birbirinden farklıdır. Örneğin Almanca (de) dili Almanya (DE), Avusturya (AT) ve İsviçre (CH) kullanıcılarına hitap edebilir. Otel sitelerinde pratik yaklaşım çoğu zaman “dil bazlı”dır; fakat bazı projelerde “ülke bazlı” varyasyonlar (fiyat, kampanya, içerik) gerekebilir."
+          },
+          {
+            "type": "h3",
+            "text": "Türkiye odaklı ama Avrupa pazarı hedefleyen otel senaryosu "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR: yerel kullanıcı + yerel aramalar",
+              "EN: global/uluslararası aramalar",
+              "DE/RU: turizmde güçlü hedef pazarlar"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu modelde hedef: kullanıcı diliyle aynı sayfaya düşsün ve rezervasyon yolculuğu kesilmesin."
+          },
+          {
+            "type": "h3",
+            "text": "Dil–ülke kodu: ne zaman tr-TR / de-DE kullanmalıyım? "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İçerik ülke spesifikse (para birimi, kampanya, yasal metin, pazar mesajı) dil-ülke mantıklı",
+              "İçerik sadece dil bazlıysa dil yeterli olabilir (de, ru, en, tr)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (sheet): Bu rehberde otel senaryosunda pratikte sık kullanılan format olan tr-TR, en-US/en-GB, de-DE, ru-RU ve x-default yaklaşımını örnekleyeceğiz."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce “dil mi ülke mi?” kararını yazılı hale getir.",
+              "Pazarlara göre dönüşüm hedeflerini (EN/DE/RU) ayır.",
+              "x-default sayfanı (genelde dil seçici veya EN) netleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-yapisi",
+        "title": "TR–EN–DE–RU Yapısı Nasıl Kurulur? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "En sağlıklı yaklaşım, dil versiyonlarını tek bir domain altında directory ile yönetmektir. Böylece otorite tek havuzda toplanır; hreflang ve canonical yönetimi daha şeffaf olur."
+          },
+          {"type":"media","slot":"root"},
+          {
+            "type": "h3",
+            "text": "URL ve Directory Stratejisi "
+          },
+          {
+            "type": "p",
+            "text": "Örnek şema:\n\t•\tTR: https://site.com/tr/...\n\t•\tEN: https://site.com/en/...\n\t•\tDE: https://site.com/de/...\n\t•\tRU: https://site.com/ru/..."
+          },
+          {
+            "type": "p",
+            "text": "Bu yapı, hem kullanıcıya hem arama motoruna net sinyal verir. Otel sitelerinde oda/destinasyon/kampanya sayfaları bu directory yapısının altında silo’lanır."
+          },
+          {
+            "type": "h4",
+            "text": "Örnek sayfa ailesi (oda sayfası) "
+          },
+          {
+            "type": "p",
+            "text": "\t•\t/tr/odalar/deluxe-oda\n\t•\t/en/rooms/deluxe-room\n\t•\t/de/zimmer/deluxe-zimmer\n\t•\t/ru/nomera/deluxe-nomer\nVarsayım: Slug’lar dilde doğal, kısa ve tutarlı olacak şekilde çevrilir; birebir aynı slug zorunlu değildir."
+          },
+          {
+            "type": "h3",
+            "text": "hreflang etiketleri (karşılıklılık şart) "
+          },
+          {
+            "type": "p",
+            "text": "hreflang’ın en kritik kuralı: reciprocal (karşılıklı) bağlantıdır. Yani TR sayfası EN/DE/RU’yu işaret eder; EN de TR/DE/RU’yu işaret eder."
+          },
+          {
+            "type": "media",
+            "slot": "hreflang-tag-code"
+          },
+          {
+            "type": "h3",
+            "text": "x-default ne zaman kullanılır? "
+          },
+          {
+            "type": "p",
+            "text": "x-default, “dil/bölge seçimi olmayan kullanıcıya varsayılan olarak hangi sayfayı gösterelim?” sinyalidir. Otel sitelerinde iki yaygın kullanım vardır:\n\t•\tDil seçici landing (varsa)\n\t•\tEN versiyonu (global default)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Directory yapısını (/tr/ /en/ /de/ /ru/) kilitle.",
+              "Her sayfa ailesi için TR–EN–DE–RU eşleştirme tablosu çıkar.",
+              "hreflang’ı her dil sayfasında karşılıklı uygula + x-default ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "canonical-ve-hreflang",
+        "title": "Canonical ve hreflang İlişkisi ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Canonical, Google’a “bu sayfanın asıl (tercih edilen) versiyonu budur” der. Çok dilli sitelerde en sık hata: tüm dilleri tek bir canonical’a (örn. TR’ye) bağlamak. Bu, diller arası görünürlüğü zayıflatır ve yanlış dilde sıralanma sorunlarını büyütür."
+          },
+          {
+            "type": "h3",
+            "text": "Canonical ve hreflang birlikte nasıl kullanılmalı? "
+          },
+          {
+            "type": "p",
+            "text": "Her dil sayfası kendi kendine canonical olmalı (self-referential canonical) ve aynı zamanda diğer dil versiyonlarına hreflang ile bağlanmalıdır. Böylece Google her dili ayrı bir sayfa ailesi olarak tanır, ama doğru kullanıcıya doğru dili gösterir."
+          },
+          {
+            "type": "h4",
+            "text": "Doğru örnek (self canonical) "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR sayfası canonical → TR URL",
+              "EN sayfası canonical → EN URL",
+              "DE sayfası canonical → DE URL",
+              "RU sayfası canonical → RU URL"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "Yanlış örnek (en yaygın) "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "EN/DE/RU canonical → TR (tüm diller TR’ye işaret ediyor)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Sonuç: Google “asıl sayfa TR” der, diğer diller zayıflar."
+          },
+          {"type":"media","slot":"self-canonical"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Her dil sayfasında self canonical kontrolü yap.",
+              "Dil switcher linkleri canonical/hreflang ile çelişmesin.",
+              "Parametreli URL’lerde canonical’ı “temiz kanonik URL”e bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hatalar-ve-test",
+        "title": "En Sık Yapılan Hatalar ve Test Süreci ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli otel sitelerinde hatalar genellikle “kurulum var ama haritalama yanlış” şeklinde gelir. Bu da en can sıkıcı senaryodur: içerik doğru, ama Google yanlış pazara yanlış dili çıkarır."
+          },
+          {
+            "type": "h3",
+            "text": "TR–EN–DE–RU yapısında en sık yapılan hatalar nelerdir? "
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Karşılıklılık yok: bir dil diğerini işaretliyor ama tersi yok",
+              "Yanlış kod: de-EN gibi hatalı dil–ülke kombinasyonları",
+              "x-default yok veya yanlış sayfaya gidiyor",
+              "Canonical çakışması: tüm diller tek canonical’a bağlı",
+              "Dil switcher doğru görünse bile hreflang eksik",
+              "404 veren dil eşleri (sayfa var sanılıyor ama yok)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Search Console hreflang raporları ile doğrulama "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hreflang hataları (missing return links, invalid hreflang)",
+              "URL Inspection ile sayfa düzeyi kontrol",
+              "İndeks kapsamı: yanlış dil/ülke varyasyonları dışlanıyor mu?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Otel adı ve marka aramalarında doğru dil sonucunu göstermek "
+          },
+          {
+            "type": "p",
+            "text": "Marka + destinasyon aramalarında (örn. “Belek resort”, “Antalya hotel”) doğru dil sayfasına yönlenmek kritik. Bu nedenle:\n\t•\tDil versiyonları arasında içerik eşleşmesi net olmalı\n\t•\tHreflang haritasında marka sayfaları (home, rooms, offers) eksiksiz olmalı"
+          },
+          {
+            "type": "media",
+            "slot": "hreflang-mistake"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "hreflang Haritalama & Kontrol Şablonunu İndir",
+            "text": "TR–EN–DE–RU sayfa eşleştirmesini tek tabloda kilitler; audit sırasında 10 dakikada boşlukları yakalarsınız.\n(Internal Link Targets: /tr/seo/teknik-seo veya /tr/yazilim/web-sitesi-gelistirme altında asset alanına bağlanır; yoksa blog içi anchor.)",
+            "href": "/tr/seo/teknik-seo"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Önce “kritik 20 sayfa” için (home/rooms/offers/contact) haritalama doğrula.",
+              "Search Console’da hreflang hatalarını kapat, sonra uzun kuyruk sayfalara geç.",
+              "Yeni dil eklenince otomatik test checklist’i çalıştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nextjs-uygulama-notlari",
+        "title": "Uygulama Notları: Next.js ve Çok Dilli SEO (Pratik) ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js gibi framework’lerde çok dillilik genelde route seviyesinde yönetilir. Burada kilit konu: her dil sayfasında doğru canonical ve hreflang tag’lerinin “server-side” doğru basılması ve sitemap’in dil bazlı üretimidir."
+          },
+          {
+            "type": "h3",
+            "text": "Minimum uygulanabilir kontrol seti "
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Route: /tr/, /en/, /de/, /ru/",
+              "Canonical: self-referential",
+              "Hreflang: tüm dil eşleri + x-default",
+              "Sitemap: dil bazlı veya directory bazlı segment",
+              "Dil switcher: gerçek URL’lere link (JS ile gizli yönlendirme değil)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Route standardını ve slug çeviri politikasını dokümante et.",
+              "Hreflang/canonical üretimini template haline getir (tüm sayfalarda aynı mantık).",
+              "Dil bazlı sitemap + hreflang tutarlılığını periyodik test et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ozet-bakim",
+        "title": "Özet ve Bakım Planı  ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "hreflang, çok dilli otel sitelerinde “doğru pazara doğru dil” garantisinin temelidir. Ancak tek başına yetmez: URL/directory standardı, self canonical kuralı, karşılıklı hreflang haritalaması ve Search Console test ritmi birlikte çalışmalıdır. Yeni dil eklenmeleri, domain/directory değişimleri veya redesign sonrası bu sistem mutlaka yeniden audit edilmelidir; aksi halde yanlış dilde sıralanma sorunları tekrarlar."
+          },
+          {"type":"media","slot":"excel-table"},
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "hreflang & Çok Dilli SEO Analizi Talep Et",
+            "text": "Yanlış dil/yanlış pazar görünürlüğünü hızlıca teşhis edip, haritalama standardını kalıcılaştırmak isteyen ekipler için.\n(Internal Link Targets: /tr/seo/teknik-seo, /tr/otel/seo, /tr/yazilim/web-sitesi-gelistirme)",
+            "href": "/tr/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "secondary-asset",
+        "title": "hreflang Haritalama & Kontrol Şablonunu İndir — Teknik SEO / Multilingual (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "hreflang Haritalama & Kontrol Şablonunu İndir — Teknik SEO / Multilingual (v1.0)",
+            "purpose": "Bu şablon, TR–EN–DE–RU dil versiyonlarının doğru eşleştirilmesini ve hreflang/canonical uyumunun denetlenmesini standardize eder. Amaç; yanlış dilde SERP sonucu, karşılıklılık hataları ve canonical çakışmalarını hızlıca tespit edip düzeltmektir.",
+            "whoFor": "SEO uzmanı + geliştirici + otel dijital ekibi (ortak mapping & audit tablosu).",
+            "steps": [
+              "Kritik sayfaları (home/rooms/offers/contact) listele ve dil eşlerini gir.",
+              "Hreflang kodlarını ve canonical hedeflerini şablona işleyip tutarlılığı kontrol et.",
+              "Search Console bulgularını tabloya ekleyip “fix backlog” üret."
+            ],
+            "href": "/downloads/hreflang-haritalama-kontrol-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir",
+            "template": {
+              "blank": [
+                "A) Boş şablon alanları\n1) Proje Bilgisi\n\t•\tDomain: ______\n\t•\tDiller: TR / EN / DE / RU\n\t•\tHedef pazar notu: ______ (örn. Türkiye + Avrupa)\n\t•\tVarsayılan sayfa (x-default): ______",
+                "2) URL Şeması\n\t•\tTR directory: /tr/\n\t•\tEN directory: /en/\n\t•\tDE directory: /de/\n\t•\tRU directory: /ru/",
+                "3) Sayfa Eşleştirme Tablosu (Mapping)"
+              ],
+              "howToFillRules": [
+                "Önce kritik sayfalar ile başla (para kazandıranlar).",
+                "Her dil URL’i gerçekten 200 dönüyor mu doğrula (404 eş = hreflang kırılır).",
+                "Hreflang seti her sayfada tam + karşılıklı olmalı.",
+                "Canonical kuralı: her dil self canonical.",
+                "x-default’ı tek bir “varsayılan” sayfaya bağla (tutarlı)."
+              ],
+              "exampleFilledShort": "C) Doldurulmuş 1 örnek (kısa)\nCanonical: TR sayfası → TR, EN → EN, DE → DE, RU → RU.",
+              "checklist": [
+                "Tüm dillerde return links var",
+                "Kodlar geçerli (tr-TR, de-DE, ru-RU vb.)",
+                "x-default doğru ve tek",
+                "Canonical self ve çakışmasız",
+                "Sitemap dil bazlı tutarlı"
+              ],
+              "deliverables": [
+                "Haritalama tablosu (XLS/Sheets)",
+                "örnek doldurulmuş versiyon",
+                "fix backlog listesi",
+                "Buraya: Şablon kapak görseli + “mapping örnek tablosu” ekranı"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "hreflang nedir, ne işe yarar?",
+        "a": "hreflang, aynı sayfanın farklı dil/bölge versiyonlarını birbirine bağlar ve Google’ın doğru kullanıcıya doğru dil sayfasını göstermesine yardımcı olur."
+      },
+      {
+        "q": "Çok dilli otel sitesi için hreflang nasıl kurulur?",
+        "a": "Her dil için net URL yapısı oluşturulur (/tr/, /en/, /de/, /ru/). Her sayfada tüm dil versiyonlarına hreflang etiketleri eklenir ve karşılıklılık (return link) sağlanır; x-default belirlenir."
+      },
+      {
+        "q": "TR–EN–DE–RU yapısında en sık yapılan hatalar nelerdir?",
+        "a": "Karşılıklılık eksikliği, hatalı dil–ülke kodları, x-default yanlışlığı, 404 veren dil eşleri ve tüm dillerin tek canonical’a bağlanması en yaygın hatalardır."
+      },
+      {
+        "q": "Canonical ve hreflang birlikte nasıl kullanılmalı?",
+        "a": "Her dil sayfası self canonical olmalı ve aynı sayfanın diğer dil versiyonlarına hreflang ile bağlanmalıdır. Tüm dilleri tek bir canonical’a toplamak yanlış dil sonuçlarını artırabilir."
+      },
+      {
+        "q": "Otel sitemde yanlış dil çıkıyor, nasıl çözerim?",
+        "a": "Önce eşleştirme tablosu çıkarın, hreflang setinin tam ve karşılıklı olduğundan emin olun. Canonical’ların self olduğunu doğrulayın ve Search Console hreflang hatalarını temizleyin."
+      },
+      {
+        "q": "x-default ne zaman gerekir?",
+        "a": "Kullanıcının dili/bölgesi net değilse gösterilecek varsayılan sayfayı belirtmek için kullanılır. Otel sitelerinde genelde EN veya dil seçici sayfa x-default olur."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "placeholders": [
+          "Buraya: “Dil–ülke şeması diyagramı (TR/EN/DE/RU + hedef pazar)”",
+          "Buraya: “hreflang kod örneklerini gösteren kod blok görseli”",
+          "Buraya: “hreflang kod bloğu görseli”",
+          "Buraya: “Sık hata senaryoları tablosu (Belirti → Neden → Çözüm)” görseli",
+          "Buraya: “TR–EN–DE–RU eşleştirme tablosu (örnek)” görseli",
+          "Buraya: Şablon kapak görseli + “mapping örnek tablosu” ekranı"
+        ]
+      }
+    }
+  },
+
+    "BlogGoogleAdsKalitePuaniNedirNasilYukseltilir": {
+    "title": "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
+    "slug": "google-ads-kalite-puani-nedir-nasil-yukseltilir",
+    "department": "sem",
+   "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Kalite Puanı (Quality Score) nedir, nasıl yükseltilir? Expected CTR, Ad Relevance ve Landing Page Experience’ı otel landing’leriyle optimize edip CPC’yi düşürün.",
+    "seo": {
+      "metaTitle": "Google Ads Kalite Puanı: Oteller İçin Artırma Rehberi | DGTLFACE",
+      "metaDescription": "Kalite Puanı (Quality Score) nedir, nasıl yükseltilir? Expected CTR, Ad Relevance ve Landing Page Experience’ı otel landing’leriyle optimize edip CPC’yi düşürün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog / URL: /tr/sem/blog/google-ads-kalite-puani-nedir-nasil-yukseltilir",
+        "Blog Tipi: Core",
+        "Intent: Informational",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "SERP hedefi: Featured Snippet + PAA"
+      ],
+      "strategySummary": "Bu içerik, SEM silo’sunda “mimari + bütçe” yazılarından sonra gelen verimlilik/optimizasyon köprü yazısıdır: hem Google Ads performansını artırır hem de teknik SEO/UX tarafına doğal bağ kurar. Persona; GM / satış–pazarlama / ajans yöneticisi; “CPC şişti, reklam sıralaması zayıf, dönüşüm maliyeti yükseldi” problemini çözecek somut aksiyon planı arar. Ana iş sorusu: “Otel oda/destinasyon aramalarında Quality Score’u yükseltip daha düşük maliyetle daha iyi sıralama alabilir miyim?” Rakip gap’i: e-ticaret örnekleri yerine otel/destinasyon senaryoları + mobil hız (LP experience) + teknik SEO ayrımı ile anlatmak."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Kalite Puanı (Quality Score), Google Ads’te anahtar kelime seviyesinde 1–10 arası görünen ve reklam kalitenizi rakiplere göre “teşhis” eden bir göstergedir. Üç bileşenden oluşur: Beklenen TO (Expected CTR), Reklam Alaka Düzeyi (Ad Relevance) ve Açılış Sayfası Deneyimi (Landing Page Experience). Bu üçlü güçlendikçe reklamınız daha ilgili kabul edilir; Ad Rank içinde kalite sinyali güçlenir ve çoğu senaryoda maliyet/verimlilik iyileşir.",
+      "sgeSummary": "Kalite Puanını artırmak için expected CTR, ad relevance ve landing page experience’ı birlikte iyileştir: keyword-reklam-landing uyumu kur, metin test et, mobil hız ve UX’i güçlendir.",
+      "voiceAnswer": "Kalite Puanı, beklenen tıklama oranı, reklam alaka düzeyi ve açılış sayfası deneyiminin birleşimidir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM / satış–pazarlama / ajans yöneticisi (Intermediate)",
+        "KPI: CPC, CPA, dönüşüm oranı, Ad Rank/üst sıra görünürlüğü",
+        "Entity’ler: Quality Score, Expected CTR, Ad Relevance, Landing Page Experience",
+        "GEO sinyali: Antalya / Belek / Kemer oda-destinasyon aramaları üzerinden senaryo",
+        "Funnel: Arama niyeti → reklam → landing → rezervasyon/lead → optimizasyon",
+        "Risk: Quality Score’u “SEO puanı” sanıp yanlış metrik kovalamak (teknik ayrım şart)",
+        "Hızlı kazanım: Keyword-ad-landing eşleşmesini daralt + negatif KW temizliği + 2 reklam metni testi"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
+      "intro": "Kalite Puanı, otellerde özellikle “oda tipi + destinasyon” aramalarında (ör. Belek resort, Antalya aile oteli, Kemer denize sıfır) CPC’yi şişiren en görünmez sebeplerden biridir: reklam ve sayfa, arayan kişinin niyetine net cevap vermiyorsa Google bunu “kalite” sinyaliyle geri yansıtır. Quality Score’u bir “kural kitabı” değil, teşhis paneli gibi düşünün: hangi bileşenin sizi aşağı çektiğini söyler, siz de doğru noktaya müdahale edersiniz. Google da bunu zaten “diagnostic tool” olarak tanımlar.",
+      "quickSummary": [
+        "1) Expected CTR: reklamın tıklanma ihtimali",
+        "2) Ad Relevance: reklam–keyword niyeti uyumu",
+        "3) Landing Page Experience: sayfanın faydası, uyumu, deneyimi",
+        "Hedef: Üçünde de “Average/Above Average” seviyesine çıkmak"
+      ],
+      "ctaPrimary": {
+        "label": "Kalite Puanı Analizi Talep Et",
+        "text": "Otel kampanyanızda hangi anahtar kelimelerin Quality Score’u düşürdüğünü 30 dakikada çıkarıp aksiyon listesi verelim.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kalite Puanı Analizi Talep Et",
+        "text": "Otel kampanyanızda hangi anahtar kelimelerin Quality Score’u düşürdüğünü 30 dakikada çıkarıp aksiyon listesi verelim.",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      "secondary": {
+        "label": "Açılış Sayfası Hız & UX Raporu Al",
+        "text": "“Sayfanın hız + mobil UX” kırılımında rezervasyon kaçıran noktaları 1 raporda netleştirirsiniz.",
+        "href": "/tr/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Google Ads Yönetimi", "href": "/tr/sem/google-ads-yonetimi" },
+      { "label": "Teknik SEO", "href": "/tr/seo/teknik-seo" },
+      { "label": "Veri Analiz ve Raporlama", "href": "/tr/veri-analiz-ve-raporlama" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Google Ads Yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "title": "Teknik SEO",
+        "href": "/tr/seo/teknik-seo"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kalite-puani-nedir-aeo",
+        "title": "Kalite Puanı nedir? ",
+        "blocks": [
+          { "type": "media", "slot": "panel" },
+          {
+            "type": "p",
+            "text": "Kalite Puanı, Search kampanyalarında anahtar kelime seviyesinde 1–10 arası görünen ve reklam kalitenizi rakiplere göre kıyaslayan bir göstergedir. Üç bileşenin birleşik performansına dayanır: Expected CTR, Ad Relevance, Landing Page Experience. Amaç; “neyi düzeltmeliyim?” sorusuna teşhis sağlamaktır."
+          },
+          {
+            "type": "p",
+            "text": "Teknik ayrım (çok önemli): Quality Score, organik SEO’nun “puanı” değildir; reklam kalitesini teşhis eder. Ad Rank ise reklamın sıralamasını belirler ve teklif + reklam/landing kalitesi gibi birçok faktörden oluşur."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Quality Score’u “hedef KPI” değil, sorun bulma aracı olarak kullanın.",
+              "Önce “hangi bileşen below average?” sorusunu cevaplayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kalite-puani-bilesenleri",
+        "title": "Kalite Puanı Bileşenleri (3’lü yapı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads, Quality Score’u üç ana bileşene göre değerlendirir: Expected CTR, Ad Relevance, Landing Page Experience. Her bileşen “Above average / Average / Below average” olarak etiketlenebilir; bu da size müdahale alanını gösterir."
+          },
+           { "type": "media", "slot": "quality-score" },
+          { "type": "h3", "text": "“İyi vs Kötü” kalite puanı karşılaştırması (otel örneği)" },
+         
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Keyword, reklam başlığında “aynı niyetle” geçiyor mu?",
+              "Reklamın vaat ettiği şey, sayfanın ilk ekranında var mı?",
+              "Kullanıcı 5 saniyede “doğru yerdeyim” diyebiliyor mu?"
+            ]
+          },
+           { "type": "media", "slot": "quality-scenario" }
+        ]
+      },
+      {
+        "id": "expected-ctr-nasil-iyilestirilir",
+        "title": "Beklenen TO (Expected CTR) nasıl iyileştirilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Expected CTR, reklamınız gösterildiğinde tıklanma olasılığını ifade eder. “Below average” görüyorsanız, çoğu zaman sorun reklam metninin niyete net cevap vermemesi veya teklif/vaadin belirsiz olmasıdır."
+          },
+          { "type": "h3", "text": "Otel için 5 hızlı CTR hamlesi" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Başlığa destinasyonu ve ana vaadi koy (ör. “Side Aile Oteli – Aquapark”)",
+              "“Kim için?” belirt (aile / balayı / yetişkin)",
+              "Fiyat söyleyemiyorsan değer söyle (ücretsiz iptal, transfer, erken rezervasyon)",
+              "2 farklı CTA test et (Rezervasyon Yap / Teklif Al)",
+              "Reklam varlıklarını (sitelink/callout) “oda-konsept”e göre düzenle (dağılma yok)"
+            ]
+          },
+          { "type": "media", "slot": "ctr-improvement" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "CTR’yi “daha çok tık” diye değil, daha doğru tık diye optimize edin.",
+              "En iyi CTR, yanlış trafiği getiriyorsa CPA’yı bozar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ad-relevance-nasil-artirilir",
+        "title": "Reklam Alaka Düzeyi (Ad Relevance) nasıl artırılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ad relevance, reklamın hedeflediği keyword’ün arkasındaki arama niyetiyle ne kadar uyumlu olduğunu ifade eder. Google, alaka düzeyi düşükse bunu “Below average/Average” şeklinde işaretleyip iyileştirme önerir."
+          },
+          {"type":"media","slot":"action-plan"},
+          { "type": "h3", "text": "Keyword–Ad–Landing uyumu (otel standardı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 reklam grubu = 1 niyet kümesi (oda tipi/konsept/destinasyon)",
+              "Reklam metninde aynı niyeti birebir karşıla",
+              "Landing’de aynı niyeti ilk ekranda ispatla (foto + başlık + teklif)"
+            ]
+          },
+          { "type": "h3", "text": "Negatif KW temizliği (çoğu otelde en hızlı kazanım)" },
+          {
+            "type": "p",
+            "text": "“iş ilanı”, “staj”, “bedava”, “yorum”, “şikayet” gibi niyet dışı sorgular CTR’yi ve dönüşümü bozar → expected CTR ve relevance bileşenlerini indirebilir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 7 günde Search terms raporunda “niyet dışı” sorgu var mı?",
+              "Generic kampanyada brand sorgular karışmış mı?",
+              "Aynı reklam grubu içinde 2 farklı niyet var mı?"
+            ]
+          },
+         
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "İlk temizlik: 20–50 negatif kelime ile başla.",
+              "Sonra reklam gruplarını “niyet kümeleri”ne böl."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "landing-page-experience-nasil-iyilestirilir",
+        "title": "Açılış Sayfası Deneyimi (Landing Page Experience) nasıl iyileştirilir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Landing page experience, reklamı tıklayan kişinin sayfada ne kadar ilgili ve faydalı bir deneyim yaşadığını ifade eder. Google, bileşen olarak açıkça “landing page experience”ı Quality Score’un parçası sayar ve geliştirme önerileri verir."
+          },
+          { "type": "h3", "text": "Otel landing’inde “LP experience”i yükselten 6 kural" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek niyet, tek sayfa: “Belek aile resort” araması → aile konsept landing",
+              "İlk ekranda: destinasyon + konsept + ana CTA (Rezervasyon / Teklif)",
+              "Mobilde hız ve okunabilirlik: görsel şişkinliği yok, CTA görünür",
+              "Güven unsurları: puan/yorum, iptal politikası, iletişim",
+              "İçerik uyumu: reklam vaadi sayfada birebir var",
+              "Form/rezervasyon akışı: kısa, net, gereksiz alan yok"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Core Web Vitals (CWV) SEO tarafında doğrudan önemlidir; Ads tarafında ise “landing page experience” içinde hız/UX iyileştirmeleri pratikte kaliteyi destekler. Ama ikisini aynı metrik sanmayın—birinin adı “SEO performansı”, diğerinin odağı “reklam sonrası deneyim”."
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Açılış Sayfası Hız & UX Raporu Al",
+            "text": "“Sayfanın hız + mobil UX” kırılımında rezervasyon kaçıran noktaları 1 raporda netleştirirsiniz.",
+            "href": "/tr/seo/teknik-seo"
+          },
+          { "type": "media", "slot": "landing-checklist" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Landing’i Ads’e göre “özelleştirmeden” ölçekleme yapmayın.",
+              "En hızlı iyileştirme: ilk ekran + CTA + mobil hız."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oteller-icin-kalite-puani-ornekleri",
+        "title": "Oteller İçin Kalite Puanı Örnekleri (arama → reklam → sayfa)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler genelde e-ticaret örneklerinden gider; otelde ise niyet daha “destinasyon + konsept”tir. Aşağıda üç gerçekçi senaryo:"
+          },
+          { "type": "h3", "text": "Senaryo 1 — Antalya / Belek (resort)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama: “Belek her şey dahil resort”",
+              "Reklam: “Belek Her Şey Dahil Resort – Aquapark & Kids Club”",
+              "Landing: Belek resort sayfası (aile konsepti + fiyat/teklif + rezervasyon)",
+              "Beklenen: relevance ↑, CTR ↑, LP exp ↑"
+            ]
+          },
+          { "type": "h3", "text": "Senaryo 2 — Kemer (doğa/konum)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama: “Kemer denize sıfır otel”",
+              "Reklam: “Kemer Denize Sıfır – Spa & Doğa Manzarası”",
+              "Landing: Kemer konum sayfası + harita + ulaşım + oda tipleri"
+            ]
+          },
+          { "type": "h3", "text": "Senaryo 3 — Otel hatası (en sık)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Arama: “Side aile oteli”",
+              "Reklam: Genel “Antalya otelleri”",
+              "Landing: Ana sayfa",
+              "Sonuç: niyet dağılır → QS bileşenleri düşer"
+            ]
+          },
+           {"type":"media","slot":"landing"}
+        ]
+      },
+      {
+        "id": "kalite-puani-nasil-yukseltilir",
+        "title": "Kalite Puanı nasıl yükseltilir? (AEO + İyileştirme Adımları)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kalite Puanını yükseltmek için, her keyword grubunu doğru reklamla eşleştirip doğru landing’e gönderin; sonra reklam metinlerini test edin, negatif kelimelerle niyet dışı trafiği temizleyin ve mobil hız/UX’i iyileştirin."
+          },
+          { "type": "h3", "text": "10 adımlık otel odaklı iyileştirme planı" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "QS’su düşük keyword’leri listele (1–3, 4–6, 7–10)",
+              "Her keyword için bileşen durumunu yaz (Exp CTR / Relevance / LP exp)",
+              "Düşük olan bileşene göre aksiyon seç (aşağıdaki tablo)",
+              "Reklam gruplarını niyet kümelerine böl (oda tipi/konsept/destinasyon)",
+              "2 reklam metni varyasyonu test et (14 gün)",
+              "Negatif KW temizliği yap (haftalık rutin)",
+              "Landing’in ilk ekranını Ads niyetine göre düzenle",
+              "Mobil hız ve CTA görünürlüğünü iyileştir",
+              "Varlıkları (sitelink/callout) niyete göre hizala",
+              "30 gün sonunda: kazanımları scale et, kaybedenleri kapat"
+            ]
+          },
+          { "type": "media", "slot": "10-step-plan" },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (satırdan, güvenli çerçeve): Kalite Puanı iyileştiğinde maliyet ve verimlilikte iyileşme görülebileceğine dair vaka örnekleri paylaşan kaynaklar var; ancak sonuçlar sektör, rekabet ve landing kalitesine göre ciddi değişir (garanti değildir). Örnek vaka anlatımlarında CPC’de düşüşler raporlanmıştır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "1 haftada “mimari + negatif” ile temizlik, 2 haftada “reklam testi”, 4 haftada “landing” iyileştirme döngüsü kurun.",
+              "QS artışı hedef değil; CPC/CPA/ROAS iyileşmesi hedef."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kalite Puanı Analizi Talep Et",
+            "text": "Otel kampanyanızda hangi anahtar kelimelerin Quality Score’u düşürdüğünü 30 dakikada çıkarıp aksiyon listesi verelim.",
+            "href": "/tr/sem/google-ads-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kalite Puanı nedir?",
+        "a": "Kalite Puanı, Search kampanyalarında anahtar kelime seviyesinde 1–10 arası görünen ve reklam kalitenizi üç bileşenle değerlendiren teşhis göstergesidir."
+      },
+      {
+        "q": "Google Ads kalite puanı nasıl yükseltilir?",
+        "a": "Keyword–reklam–landing uyumunu kurun, reklam metinlerini test edin, negatif kelimelerle niyet dışı trafiği temizleyin ve mobil hız/UX’i iyileştirin."
+      },
+      {
+        "q": "Oteller için ideal kalite puanı kaç olmalı?",
+        "a": "“İdeal” tek sayı yok; hedefiniz üç bileşenin “Average/Above average” olması ve CPC/CPA trendinin iyileşmesidir."
+      },
+      {
+        "q": "Quality Score Ad Rank’ı etkiler mi?",
+        "a": "Ad Rank, teklif ve reklam/landing kalitesi dahil birçok faktörle hesaplanır; kalite tarafı güçlendikçe rekabette avantaj doğabilir."
+      },
+      {
+        "q": "Landing page experience neye bakar?",
+        "a": "Google, landing’in ne kadar ilgili ve faydalı olduğunu Quality Score’un bileşeni olarak değerlendirir; “Below average” ise sayfayı güncellemeniz önerilir."
+      },
+      {
+        "q": "Negatif anahtar kelimeler kalite puanını etkiler mi?",
+        "a": "Dolaylı etkiler: niyet dışı tıklamalar CTR’yi ve dönüşümü düşürür; bu da expected CTR ve relevance bileşenlerini aşağı çekebilir."
+      },
+      {
+        "q": "Kalite Puanı SEO puanı mı?",
+        "a": "Hayır. Quality Score reklam kalitesini teşhis eder; SEO organik görünürlükle ilgilidir. Ad Rank ise reklam sıralamasını belirleyen daha geniş bir faktör setidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "quality-score-3-bilesen-hero — (Expected CTR / Ad Relevance / Landing Page Experience görseli)",
+          "mini-table-iyi-vs-kotu-qscore — (İyi vs kötü QS mini tablo görseli)",
+          "ab-ads-copy-example — (2 reklam metni varyasyonu A/B görseli)",
+          "landing-checklist — (Landing Page Experience checklist görseli)",
+          "action-plan — (Arama → Reklam → Landing akış şeması)",
+          "10-step-plan — (Bileşen → Aksiyon mini tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Quality Score bileşen kırılımı: Exp CTR / Relevance / LP exp (Above/Average/Below) kontrolü",
+          "Search terms üzerinden negatif KW temizliği (haftalık rutin)",
+          "Reklam grubu mimarisi: 1 niyet kümesi = 1 ad group",
+          "Landing ilk ekran: destinasyon + konsept + ana CTA görünürlüğü",
+          "Mobil hız/UX iyileştirmeleri (LP experience destekleyici)",
+          "CTA yerleşimleri: Primary 2 kez, Secondary 1 kez"
+        ]
+      }
+    }
+  },
+
+   "BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu": {
+    "title": "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
+    "slug": "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru",
+    "department": "yazilim",
+    "updatedAt": "13 Ocak 2026",
+    "publishedAt": "2026-01-13",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR/EN/DE/RU çok dilli siteyi subfolder vs domain seçimi, URL–hreflang–canonical kurgusu ve lokalizasyon süreciyle planlayın. Otel & B2B için rehber.",
+    "seo": {
+      "metaTitle": "TR–EN–DE–RU Çok Dilli Site Planlama Rehberi | DGTLFACE",
+      "metaDescription": "TR/EN/DE/RU çok dilli siteyi subfolder vs domain seçimi, URL–hreflang–canonical kurgusu ve lokalizasyon süreciyle planlayın. Otel & B2B için rehber."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog / URL: /tr/yazilim/blog/cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (MoFu)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700"
+      ],
+      "strategySummary": "Bu içerik, Web Sitesi Geliştirme silo’sunda “çok dilli mimari standardı” kuran otorite child rolünde çalışır: TR–EN–DE–RU kurulumunu sadece çeviri değil dil mimarisi + URL/hreflang + içerik/lokalizasyon operasyonu olarak ele alır. Funnel’da consideration’ı güçlendirir; otel ve B2B markalarda “hangi dil, hangi yapı, hangi içerik önceliği?” kararını netleştirir. Ana iş sorusu: Çok dilli siteyi subfolder mı domain mi kurmalı, hreflang/canonical’ı nasıl yönetmeli ve çeviri–lokalizasyon sürecini nasıl ölçeklemeliyim? Otelde destinasyon/oda içerikleri; B2B’de hizmet sayfaları + blog cluster’ları bu modelin sahasıdır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Çok dilli kurumsal web sitesi, otel ve B2B markalar için global pazarda bulunabilirlik ve güven sağlar; fakat yanlış kurulum dil karışması, duplicate content ve bozuk UX üretir. Doğru yaklaşım; dil mimarisini (subfolder/domain) baştan seçmek, URL hiyerarşisini netleştirmek, hreflang + canonical kurallarını tutarlı uygulamak ve çeviri yerine lokalizasyon süreci kurmaktır. TR–EN–DE–RU hedefinde içerik önceliği ve CMS dil yönetimi maliyeti belirler.",
+      "sgeSummary": "Çok dilli site için 3 adım: dil mimarisini seç (subfolder/domain), URL–hreflang–canonical’ı standardize et, içerik/lokalizasyon sürecini (CMS + kalite) kur. Otel/B2B’de öncelik listesi şart.",
+      "voiceAnswer": "İngilizce-Almanca-Rusça ekleyecekseniz mimariyi seçin, hreflang/canonical kurun, içerik lokalizasyon sürecini planlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel yöneticileri, satış-pazarlama, ajans teknik lideri, içerik yöneticisi",
+        "KPI: Dil bazlı organik trafik, doğru ülke/dil sıralaması, dönüşüm, bounce rate, çeviri maliyeti/süre",
+        "Entity set: multilingual website, subfolder/subdomain/domain, hreflang, canonical, locale switcher, localization, CMS",
+        "Funnel: MoFu (stratejik plan) → analiz + planlama şablonu",
+        "Risk alanları: Yanlış hreflang, canonical çakışması, otomatik çeviri “kopya”, yanlış dil switcher, URL tutarsızlığı",
+        "GEO bağlamı: Türkiye çıkışlı otel/turizm ve B2B; destinasyon sinyali (Antalya/Belek/Side/Kemer/Bodrum) kontrollü",
+        "Çıktı formatı: Dil-URL diyagramı + hreflang mockup + çok dilli SEO checklist"
+      ]
+    },
+    "h1": {
+      "title": "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
+      "intro": "Çok dilli site “sayfayı çevirmek” değildir; pazar, niyet ve güven inşasıdır. Otel tarafında (Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon aramalarında) doğru dilde doğru içerik göstermezseniz rezervasyon kaçırırsınız. B2B’de ise yabancı dilde “yarım çeviri” güveni düşürür, lead kalitesini bozar. Bu nedenle TR–EN–DE–RU gibi dört dil hedefliyorsanız, önce mimariyi (subfolder/domain), sonra URL/hreflang/canonical standardını, en sonunda da içerik-lokalizasyon sürecini kurmanız gerekir. Bu rehber; teknik ekip ve içerik ekibinin aynı masada ilerlemesi için uygulanabilir bir model sunar.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Çok Dilli Web Sitesi Strateji Analizi Talep Et",
+        "text": "TR/EN/DE/RU hedefiniz için mimari seçimi, hreflang/canonical standardı ve içerik öncelik planını birlikte çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çok Dilli Web Sitesi Strateji Analizi Talep Et",
+        "text": "TR/EN/DE/RU hedefiniz için mimari seçimi, hreflang/canonical standardı ve içerik öncelik planını birlikte çıkaralım.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Çok Dilli URL/Hreflang & İçerik Planlama Şablonunu İndir",
+        "text": "Dil eşleşme tablosunu ve yayın sırasını tek dokümanda toplarsınız; duplicate riskini ve yanlış dil yönlendirmelerini azaltırsınız.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "internalLinks": [
+      { "label": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "label": "Otel SEO", "href": "/tr/otel/seo" },
+      { "label": "Yerel SEO", "href": "/tr/seo/yerel-seo" },
+      { "label": "CMS Entegrasyonu", "href": "/tr/yazilim/cms-entegrasyonu" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Web Sitesi Geliştirme",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      {
+        "title": "Yerel SEO",
+        "href": "/tr/seo/yerel-seo"
+      }
+    ],
+    "sections": [
+     
+      {
+        "id": "neden-cok-dilli-web-sitesi",
+        "title": "Neden Çok Dilli Web Sitesi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli site, iki temel fayda üretir: bulunabilirlik (uluslararası aramalarda görünürlük) ve güven (kullanıcı kendi dilinde doğru bilgi görür). Oteller için bu, doğrudan rezervasyon kanalına etki eder; B2B’de ise teklif talebinin “ciddiyetini” artırır. Ancak çok dilli yapı, yanlış kurulursa üçüncü bir sonuç doğurur: Google’ın dil/ülke hedefini karıştırması ve kullanıcıların yanlış dil sayfasına düşmesi."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi pazarlar ve diller öncelikli (EN/DE/RU) net mi?",
+              "Her dilde “aynı” içerik mi, yoksa lokalize içerik mi hedefleniyor?",
+              "Çeviri bütçesi ve üretim kapasitesi gerçekçi mi?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dil-mimarisi-subfolder-domain",
+        "title": "Dil Mimarisi (Subfolder/Domains)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli mimaride en kritik karar: dilleri tek site altında mı (subfolder), ayrı alan adlarında mı (ccTLD/ayrı domain) yöneteceksiniz?"
+          },
+          { "type": "media", "slot": "subfolder-vs-domain" },
+          { "type": "h3", "text": "Subfolder mı, farklı domain mi kullanmalıyım?" },
+          {
+            "type": "p",
+            "text": "Genel pratikte subfolder (/tr/, /en/, /de/, /ru/) çoğu marka için daha yönetilebilir ve otoriteyi tek domain’de topladığı için avantajlıdır. Ayrı domain/ccTLD daha “ülke odaklı” kontrol sağlar ama içerik, SEO ve operasyon maliyetini artırır. Otel ve B2B’de, tek markanın otoritesini büyütmek istiyorsanız subfolder çoğu zaman daha rasyoneldir."
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: DGTLFACE yaklaşımı olarak TR/EN/DE/RU için subfolder önerilir (kolay yönetim + otorite konsolidasyonu)."
+          },
+          
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek marka otoritesini büyütmek mi, ülke bazlı ayrı marka mı?",
+              "İçerik üretim kapasiteniz kaç dilde sürdürülebilir?",
+              "Teknik ekip hreflang/canonical standardını uygulayacak mı?"
+            ]
+          },
+          { "type": "media", "slot": "decision-table" }
+        ]
+      },
+      {
+        "id": "url-hreflang-canonical-stratejisi",
+        "title": "URL ve Hreflang Stratejisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli yapıda SEO’nun omurgası: URL standardı + hreflang + canonical üçlüsüdür. Birini doğru yapıp diğerini bozarsanız, Google kararsız kalır."
+          },
+          { "type": "h3", "text": "URL standardı (örnek TR/EN/DE/RU)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR: /tr/...",
+              "EN: /en/...",
+              "DE: /de/...",
+              "RU: /ru/..."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İdeal yaklaşım: Her dil sayfası “eşleşen” bir versiyona sahip olur (tam birebir olmak zorunda değil, ama eşleşme haritası olmalı). Dil switcher, kullanıcıyı aynı içeriğin doğru dil versiyonuna götürmelidir."
+          },
+          { "type": "media", "slot": "lang-mapping-table" },
+          { "type": "h3", "text": "Hreflang etiketleri nasıl çalışır?" },
+          {
+            "type": "p",
+            "text": "Hreflang, arama motoruna “bu sayfanın şu dillerde alternatifleri var” bilgisini verir. Kural: karşılıklı (reciprocal) olmalı; yani TR sayfası EN’i gösteriyorsa EN de TR’yi göstermelidir. Ayrıca canonical ile çakışmamalı: canonical farklı bir dil sayfasını işaret ederse Google karışır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hreflang karşılıklı mı?",
+              "Canonical her sayfada “kendini” mi işaret ediyor?",
+              "Dil/ülke kodları doğru mu (tr-TR, en, de, ru)? (Varsayım)"
+            ]
+          },
+          { "type": "h3", "text": "Duplicate content riskine karşı canonical kurgusu" },
+          {
+            "type": "p",
+            "text": "Çok dilli sitelerde “makine çevirisiyle” üretilen kopya içerikler veya aynı metnin küçük farklarla çoğaltılması duplicate riskini artırır. Canonical bu riski yönetmek için değil, doğru sayfayı işaretlemek için kullanılmalı. Dil sayfalarını birbirine canonical’lamak çoğu durumda hatadır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "URL standardını yazılı hale getir",
+              "Hreflang eşleşme tablosu oluştur",
+              "Canonical politikasını belirle (self-canonical)",
+              "Dil switcher’ı eşleşmeye bağla"
+            ]
+          },
+          {"type":"media","slot":"hreflang-switcher"}
+        ]
+      },
+      {
+        "id": "icerik-ceviri-lokalizasyon-sureci",
+        "title": "İçerik ve Çeviri Süreçleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli başarısızlıkların %50’si teknik değil, içerik operasyonu kaynaklıdır. “Hepsini çeviririz” demek kolaydır; sürdürülebilir olan ise önceliklendirilmiş içerik planıdır."
+          },
+          { "type": "h3", "text": "Makine çeviri vs profesyonel çeviri vs lokalizasyon" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Makine çeviri: hızlı, ucuz; kalite kontrol yoksa güveni düşürür",
+              "Profesyonel çeviri: daha pahalı; terim tutarlılığı sağlar",
+              "Lokalizasyon: “pazar dili + örnek + CTA” uyarlaması; en yüksek etki"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: TR/EN/DE/RU planında minimum yaklaşım: makine çeviri + editör kontrol; kritik sayfalarda profesyonel çeviri/lokalizasyon."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kritik sayfalar (hizmet/rezervasyon/teklif) profesyonel mi?",
+              "Blog cluster’larında “lokal örnek” var mı?",
+              "CTA’lar dil/pazar davranışına uyarlanıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "CMS tarafında dil yönetimi" },
+          {
+            "type": "p",
+            "text": "CMS çok dilli yönetimin “fabrika bandıdır”. Dil alanları, içerik blokları, çeviri iş akışı, onay mekanizması yoksa site kısa sürede dağılır."
+          },
+          { "type": "media", "slot": "cms" }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-icin-cok-dilli-ux",
+        "title": "Otel ve B2B İçin Çok Dilli UX Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli UX, SEO kadar kritiktir: kullanıcı yanlış dilde landing’e düşerse hızlıca çıkar."
+          },
+          { "type": "h3", "text": "Otel için (destinasyon içerikleri + rezervasyon)" },
+          {
+            "type": "p",
+            "text": "Otel sitelerinde çok dilli yapı, destinasyon ve konsept sayfalarında “yerel güven” üretir. Ancak her dili aynı metinle doldurmak yerine; EN/DE/RU için yerel beklenti (transfer, sezon, aile/çift konsepti, iptal koşulları) gibi alanlar netleşmelidir."
+          },
+          {"type":"media","slot":"otel-vs-b2b"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Dil switcher’ı görünür ve doğru eşleşmeli yap",
+              "EN/DE/RU’da “rezervasyon CTA” ve güven unsurlarını güçlendir",
+              "Destinasyon sayfalarında spam olmadan bölge sinyali: Antalya/Belek/Side/Kemer/Bodrum"
+            ]
+          },
+          { "type": "h3", "text": "B2B için (hizmet sayfaları + blog cluster)" },
+          {
+            "type": "p",
+            "text": "B2B’de çok dilli hedef, “hizmet sayfasını çevirdim bitti” değildir; case study, referans, süreç anlatımı ve teklif akışı da dille uyumlu olmalıdır."
+          },
+          { "type": "h3", "text": "Otel ve B2B siteleri için çok dilli içerik süreci nasıl yönetilir?" },
+          {
+            "type": "p",
+            "text": "Önce “hangi sayfalar mutlaka çevrilecek?” listesini çıkarın (hizmet/rezervasyon/teklif). Sonra blog ve cluster’ları pazar önceliğine göre aşamalı yayınlayın. Her dil için terim sözlüğü + kalite kontrol (review) koyun ve CMS’te çeviri iş akışını standardize edin; böylece maliyet ve kalite yönetilebilir kalır."
+          }
+        ]
+      },
+      {
+        "id": "cok-dilli-sablon-download",
+        "title": "(Orta Bölüm) CTA (Secondary): Çok Dilli URL/Hreflang & İçerik Planlama Şablonunu İndir —",
+        "blocks": [
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Çok Dilli URL/Hreflang & İçerik Planlama Şablonunu İndir",
+            "text": "Dil eşleşme tablosunu ve yayın sırasını tek dokümanda toplarsınız; duplicate riskini ve yanlış dil yönlendirmelerini azaltırsınız.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Çok Dilli URL/Hreflang & İçerik Planlama Şablonunu İndir — Yazılım (v1.0)",
+            "purpose": "Bu şablon, TR–EN–DE–RU çok dilli projelerde dil mimarisini, URL eşleşmelerini, hreflang/canonical kurallarını ve içerik yayın sırasını tek dokümanda toplar. Amaç; teknik ve içerik ekipleri arasında tek kaynak gerçek oluşturup dil karışması ve duplicate riskini azaltmaktır. Çeviri maliyeti ve operasyonu yönetilebilir hale getirir.",
+            "whoFor": "Proje yöneticisi, SEO uzmanı, geliştirici, içerik/çeviri koordinatörü.",
+            "steps": [
+              "Dil mimarisi kararını seçin (subfolder/domain) ve URL standardını doldurun.",
+              "TR sayfaları için EN/DE/RU eşleşme haritasını çıkarın; hreflang/canonical kurallarını işaretleyin.",
+              "İçerik yayın sırasını (kritik sayfalar → cluster) planlayın ve kalite kontrol adımlarını ekleyin."
+            ],
+            "checklist": [
+              "Dil mimarisi belirlendi",
+              "URL/slug politikası yazıldı",
+              "Eşleşme tablosu tamamlandı",
+              "Hreflang karşılıklı doğrulandı",
+              "Canonical self-canonical",
+              "Switcher eşleşmeye bağlı",
+              "İçerik dalga planı net",
+              "Çeviri kalite süreci tanımlı"
+            ],
+            "href": "/downloads/cok-dilli-url-hreflang-icerik-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-cok-dilli-basari",
+        "title": "Sonuç: Çok Dilli Başarı = Mimari + Süreç + Kalite",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU çok dilli site başarısı, üç ayaklıdır:\n\t1.\tDoğru mimari (subfolder/domain),\n\t2.\tDoğru teknik standart (URL–hreflang–canonical–switcher),\n\t3.\tSürdürülebilir içerik/lokalizasyon operasyonu (CMS + kalite).\nBu üçü birlikte kurulduğunda Google dil hedefinizi doğru anlar, kullanıcı doğru dilde doğru içerik görür ve dönüşüm tarafı stabil kalır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çok Dilli Web Sitesi Strateji Analizi Talep Et",
+            "text": "Dil mimarinizi, hreflang/canonical standardınızı ve içerik öncelik planınızı birlikte netleştirip uygulama planına dönüştürelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çok dilli kurumsal web sitesi nasıl planlanır?",
+        "a": "Dil mimarisini seçin, URL–hreflang–canonical standardını kurun ve içerik/lokalizasyon sürecini dalgalar halinde planlayın."
+      },
+      {
+        "q": "Subfolder mı, farklı domain mi kullanmalıyım?",
+        "a": "Çoğu marka için subfolder daha yönetilebilir ve tek domain otoritesini büyütür; ayrı domain daha pahalı ve operasyonu ağırdır."
+      },
+      {
+        "q": "Hreflang etiketleri nasıl çalışır?",
+        "a": "Hreflang, sayfanın dil alternatiflerini belirtir; karşılıklı olmalı ve canonical ile çakışmamalıdır, yoksa Google dil hedefini karıştırabilir."
+      },
+      {
+        "q": "Otel ve B2B siteleri için çok dilli içerik süreci nasıl yönetilir?",
+        "a": "Önce kritik sayfaları çevirin/lokalize edin, sonra blog cluster’ları dalgalarla yayınlayın; CMS’te çeviri–review–publish iş akışı kurun."
+      },
+      {
+        "q": "Makine çeviri kullanırsam SEO zarar görür mü?",
+        "a": "Kontrolsüz makine çeviri güven ve kaliteyi düşürür; editör kontrolü ve kritik sayfalarda profesyonel/lokalizasyon yaklaşımı gerekir."
+      },
+      {
+        "q": "Dil switcher yanlış yönlendirirse ne olur?",
+        "a": "Kullanıcı yanlış dilde kalır, bounce artar; ayrıca Google yanlış dil sinyali alabilir. Eş içerik → eş URL mantığı şarttır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "multilingual-architecture-diagram-tr-en-de-ru — (TR/EN/DE/RU → URL yapısı diyagramı + küçük notlar)",
+          "subfolder-vs-domain — (Subfolder vs Domain | SEO | operasyon | maliyet | risk)",
+          "lang-mapping-table — (TR URL | EN URL | DE URL | RU URL eşleşme tablosu)",
+          "cms — (Draft → Translate → Review → Publish akış görseli)",
+          "hreflang-switcher-mockup — (Hreflang + switcher mockup ekranı)"
+        ],
+        "technicalChecklist": [
+          "Dil mimarisi kararı (subfolder/subdomain/domain) yazılı hale getirildi",
+          "URL/slug politikası standardize edildi",
+          "TR–EN–DE–RU eşleşme tablosu oluşturuldu",
+          "Hreflang karşılıklılık (reciprocal) doğrulandı",
+          "Canonical politikası: self-canonical (dil sayfaları arasında çapraz canonical yok)",
+          "Dil switcher: eş içerik → eş URL mantığı ile bağlandı",
+          "İçerik dalga planı (kritik sayfalar → cluster) netleştirildi",
+          "CMS çeviri iş akışı: Draft → Translate → Review → Publish kuruldu",
+          "Terim sözlüğü şablonu oluşturuldu"
+        ]
+      }
+    }
+  },
+
+  "BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber": {
+    "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+    "slug": "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber",
+    "department": "creative",
+   "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Renk psikolojisi, palet kurgusu ve tipografi hiyerarşisiyle markanız için sade bir görsel sistem kurun. Otel & B2B örnekleri + checklist ile hızlı başlayın.",
+    "seo": {
+      "metaTitle": "Markalar İçin Renk ve Tipografi Seçimi Rehberi | DGTLFACE",
+      "metaDescription": "Renk psikolojisi, palet kurgusu ve tipografi hiyerarşisiyle markanız için sade bir görsel sistem kurun. Otel & B2B örnekleri + checklist ile hızlı başlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog / URL: /tr/creative/blog/renk-ve-tipografi-secimi-markalar-icin-pratik-rehber",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate",
+        "Word Count Range: 2300–2700",
+        "GEO: Türkiye geneli; otel, turizm, SaaS ve kurumsal B2B markalar"
+      ],
+      "strategySummary": "Bu içerik, Creative silosu içinde “görsel sistemin temeli” olan renk + tipografi kararlarını sade ama stratejik bir modele bağlayan core (otorite) rehber rolündedir. /tr/creative/grafik-motion-tasarim ve /tr/creative/ui-ux-tasarim sayfalarına iç link ile hem otorite hem dönüşüm taşır; ayrıca teknik SEO tarafında erişilebilirlik/okunabilirlik sinyalleriyle çapraz fayda üretir. Funnel’da awareness → consideration: karar vericinin “beğeniyle seçim” alışkanlığını kırıp sektör/persona/konumlandırma tabanlı sistem kurar. Ana iş sorusu: “Markam için hangi renk ve fontları seçmeliyim ve bunu tüm kanallarda tutarlı nasıl uygularım?” Hedef persona: otel sahibi/GM, satış–pazarlama, ajans yöneticisi, ürün/marka ekipleri."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Renk ve tipografi, markanın ilk bakışta verdiği hissi belirler ve web–sosyal medya–offline tüm temas noktalarında algıyı konsolide eder. Doğru yaklaşım: sektör ve hedef kitleye göre 1 ana + 2 destek renk belirlemek, kontrast/erişilebilirliği kontrol etmek ve tipografide 1 başlık + 1 gövde fontu ile net hiyerarşi kurmaktır. Otelde premium/rahat/aile; B2B’de kurumsal/dijital/yenilikçi kombinasyonlar farklı çalışır.",
+      "sgeSummary": "Konumlandırmayı netleştir, 1 ana + 2 destek renkle palet kur, kontrastı kontrol et. Tipografide 1 başlık + 1 gövde fontu seç, hiyerarşi ve okunabilirliği şablonlara sabitle.",
+      "voiceAnswer": "Konumlandırmanı belirle; 1 ana 2 destek renk seç, kontrastı kontrol et, 1 başlık 1 gövde fontu kullan.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm, SaaS ve kurumsal B2B marka ekipleri + ajanslar",
+        "KPI: Tasarım karar süresi, revizyon sayısı, okunabilirlik, dönüşüm (CTA netliği), marka tutarlılığı",
+        "Entity: Color Psychology, Brand Palette, Type Hierarchy, Accessibility Contrast, Persona/Sector Fit",
+        "Funnel: Awareness → Consideration (sistem kurma)",
+        "Kanallar: Web, sosyal medya, sunum/print (offline)",
+        "Risk: “Beğeniye göre seçim” → tutarsızlık, düşük güven, maliyetli revizyon",
+        "Çıktı: Örnek palet+font kartları + kontrast/hiyerarşi mockup + seçim checklist’i"
+      ]
+    },
+    "h1": {
+      "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+      "intro": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce renk ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Renk & Tipografi Seçimi Analizi Talep Et",
+        "text": "(Mevcut renk/font setinizi sektör–persona–konumlandırma açısından denetleyip 2 haftalık uygulama planı çıkaralım.)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Renk & Tipografi Seçimi Analizi Talep Et",
+        "text": "(Mevcut renk/font setinizi sektör–persona–konumlandırma açısından denetleyip 2 haftalık uygulama planı çıkaralım.)",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Marka Renk & Tipografi Seçim Checklist’ini İndir",
+        "text": "Toplantıya girmeden önce 10 dakikada palet ve tipografi kararlarınızı netleştirir; revizyon döngüsünü ciddi şekilde azaltırsınız.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "UI/UX Tasarım", "href": "/tr/creative/ui-ux-tasarim" },
+      { "label": "Teknik SEO", "href": "/tr/seo/teknik-seo" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Grafik & Motion Tasarım",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      {
+        "title": "UI/UX Tasarım",
+        "href": "/tr/creative/ui-ux-tasarim"
+      }
+    ],
+    "sections": [
+      {
+        "id": "renk-tipografi-giris",
+        "title": "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir markanın ilk “göz temasında” verdiği his, çoğu zaman metinden önce renk ve tipografi ile oluşur. Sorun şu: pek çok ekip bu seçimi “beğeni” ile yapar; sonra web, sosyal medya ve offline materyaller birbirinden kopar ve revizyonlar bitmez. Bu rehber; sektör, hedef kitle ve konumlandırmayı baz alarak 1 ana + 2 destek renk ve 1–2 font ile sade ama güçlü bir sistem kurmanı sağlar; otel ve B2B örnekleriyle uygulanabilir hale getirir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Renk & Tipografi Seçimi Analizi Talep Et",
+            "text": "(Mevcut renk/font setinizi sektör–persona–konumlandırma açısından denetleyip 2 haftalık uygulama planı çıkaralım.)",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          { "type": "media", "slot": "color-palette" }
+        ]
+      },
+      {
+        "id": "renk-psikolojisi-marka-algisi",
+        "title": "Renk Psikolojisi ve Marka Algısı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Renk psikolojisi “her renge tek anlam” yüklemek değildir; bağlam, kültür ve sektörle birlikte çalışır. Aynı mavi; otelde “sakinlik”, B2B’de “güven” çağrıştırabilir; ama yanlış ton ve kontrast seçiminde “ucuz” algısı da üretebilir. Bu yüzden renk kararını “trend” değil, konumlandırma ve persona ile kurmak gerekir."
+          },
+          { "type": "h3", "text": "Marka için doğru renk paleti nasıl seçilir? " },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce konumlandırmayı netleştir (premium mu, aile mi, yenilikçi mi?), sonra 1 ana + 2 destek rengi rol bazlı seç (CTA, arka plan, vurgu), en son kontrast ve erişilebilirlik testini yap. Palet “hex listesi” değil, kullanım kuralı olmalı."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Markanız “premium/rahat/enerjik/kurumsal” hangisi? (tek kelimeyle)",
+              "Ana renk CTA’da mı yoksa sadece marka vurgusunda mı kullanılacak?",
+              "Arka plan–metin kontrastı her yerde okunuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Markayı 1 cümleyle tanımla: “Kim için, hangi fayda, hangi his?”",
+              "2. Ana rengi “rol” olarak belirle (CTA mı, vurgu mu?).",
+              "3. Destek renkleri işlevsel seç (badge, link, arka plan).",
+              "4. Son adım: kontrast testlerini yap ve kural setini yaz."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ana-renk-paleti-nasil-kurulur",
+        "title": "Ana/Renk Paleti Nasıl Kurulur? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Palet kurmanın pratik yolu: Core (marka) + Support (işlev) şeklinde iki katman kullanmaktır. Core renkler marka kimliğini taşır; support renkler UI/CTA ve içerik tiplerine hizmet eder. Sektör farkı burada görünür: otelde “atmosfer”; B2B’de “netlik” baskındır."
+          },
+          { "type": "h3", "text": "Palet İskeleti (Sade Model) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 Ana renk: Marka sinyali (primary)",
+              "2 Destek renk:",
+              "Destek-1: CTA/Link (action)",
+              "Destek-2: Badge/Info (info)",
+              "Nötrler: Arka plan + metin + yüzey (2–3 ton)"
+            ]
+          },
+          { "type": "h4", "text": "Sıcak/Soğuk Tonlar ve Sektör Uyumu " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel: sıcak tonlar “misafirperverlik”, soğuk tonlar “rahatlık/serinlik” taşıyabilir",
+              "B2B: soğuk/nötr tonlar “güven”, vurgu renkleri “yenilik” sinyali verir"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Paleti “rol tablosu” olarak yaz: CTA, link, arka plan, badge.",
+              "2. Sezonluk renkleri support katmanda sınırlı tut (kampanya dönemi).",
+              "3. Aynı paleti web + sosyal + sunum şablonlarına sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tipografi-hiyerarsisi",
+        "title": "Tipografi Hiyerarşisi (Başlık–Gövde–Vurgu) ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tipografi; “ne söylediğin” kadar “nasıl söylediğin”dir. Güçlü hiyerarşi; kullanıcıya nereden başlayacağını ve neyi önemli görmesi gerektiğini söyler. En büyük hata: çok font kullanmak veya her yerde aynı ağırlıkla yazmaktır."
+          },
+          { "type": "h3", "text": "Başlık ve gövde fontu seçerken nelere dikkat edilmeli? " },
+          {
+            "type": "p",
+            "text": "Net cevap: Başlık fontu karakter taşır, gövde fontu okunabilirlik taşır. İkisini uyumlu seç; gövdede ekran okunabilirliği yüksek bir font kullan; 2 fontu geçme. Ağırlık ve harf aralığını (kerning/letter spacing) hiyerarşiye göre standardize et."
+          },
+          { "type": "h4", "text": "“İki Font Kuralı” (Kilit Pratik) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1 başlık fontu: marka tonu",
+              "1 gövde fontu: yüksek okunabilirlik",
+              "Vurgu için yeni font açma; ağırlık/italik/renk kullan"
+            ]
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gövde metni mobilde 16px civarı okunuyor mu?",
+              "Başlık–gövde arasında net kontrast var mı?",
+              "3’ten fazla font ağırlığı kullanıyor musunuz? (genelde hata)"
+            ]
+          },
+          {"type":"media","slot":"typography-hierarchy"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. H1/H2/H3 + body boyutlarını 3 kademe ile sabitle.",
+              "2. Başlık fontunu “daha az ama daha etkili” kullan.",
+              "3. Vurguyu font değiştirmeden yönet (bold/renk/boşluk)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ekran-okunabilirligi-kerning-weight",
+        "title": "Ekran Okunabilirliği ve Ağırlık/Kerning ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ekranda tipografi; basılı işlerden farklı çalışır. İnce fontlar mobilde kaybolur, sıkı kerning okunurluğu düşürür. Burada amaç “şık” değil, okunur ve hızlı taranır metin üretmektir."
+          },
+          { "type": "h3", "text": "Okunabilirlik Pratikleri " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gövde: 16–18px (mobil öncelik)",
+              "Satır aralığı: rahat (metni nefes aldır)",
+              "Ağırlık: 400–500 gövde, 600–700 başlık (çoğu senaryoda yeter)",
+              "Letter spacing: küçük ayar (abartma)"
+            ]
+          },
+          { "type": "media", "slot": "typography-readability" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Mobilde 3 ekran testi yap: ana sayfa, hizmet sayfası, blog.",
+              "2. Çok ince fontları (light) sadece büyük başlıklarda kullan.",
+              "3. CTA butonlarında harf aralığını aşırı artırma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-ornek-kombinasyonlar",
+        "title": "Otel ve B2B İçin Örnek Palet & Font Kombinasyonları ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölümün amacı “tek doğru palet” vermek değil; karar modelini örneklendirmek. Otelde konsept (premium/rahat/aile) ve destinasyon hissi; B2B’de sektör (SaaS/kurumsal) ve persona (CEO/CMO/operasyon) tonu belirler."
+          },
+          { "type": "h3", "text": "Otel Örnekleri (Konsept Bazlı) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Premium: nötr + düşük doygun vurgu; tipografide güçlü başlık",
+              "Rahat/Resort: sıcak nötr + yumuşak vurgu; gövdede akışkan okuma",
+              "Aile: daha enerjik vurgu; ama yine de kontrol (gürültü yok)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Antalya/Belek gibi resort bölgelerde “ferahlık ve premium” algısı, aşırı doygun renklerden daha iyi performans verir."
+          },
+          {"type":"media","slot":"color-example"},
+          { "type": "h3", "text": "B2B Örnekleri (Persona Bazlı) " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kurumsal: güçlü nötrler + sınırlı vurgu",
+              "Dijital/SaaS: daha net kontrast + modern tipografi",
+              "Yenilikçi: vurgu rengi belirgin; ama UI’da kontrollü"
+            ]
+          },
+          { "type": "h3", "text": "Otel ve B2B için örnek renk & font kombinasyonları neler? " },
+          {
+            "type": "p",
+            "text": "Net cevap: Otelde premium/rahat/aile konseptine göre paletin doygunluğunu ve nötr ağırlığını değiştir; B2B’de güven (nötr/soğuk) + yenilik (vurgu) dengesini kur. Her iki tarafta da 1 ana + 2 destek renk ve 1 başlık + 1 gövde fontu yaklaşımı tutarlılık sağlar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1. Konsept/persona’yı yazılı hale getir.",
+              "2. Paleti rol bazlı tabloyla sabitle.",
+              "3. Tipografi hiyerarşisini component’lere bağla (web + sosyal şablon).",
+              "4. UI/UX uygulaması için ilgili sayfaya bağlan. (İç link: /tr/creative/ui-ux-tasarim)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc-uygulama-plani",
+        "title": "Sonuç ve Uygulama Planı ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Renk ve tipografi; marka tutarlılığının “temel taşı”dır. Bu ikisi sistemleştiğinde, yeni sayfa ve kampanya üretiminde tasarım karar süresi kısalır, revizyon azalır ve tüm kanallarda aynı his korunur. Bu rehberdeki modelle önce karar çerçevesini kur, sonra paleti ve tipografiyi şablonlara göm; yılda en az 1 kez güncelleyerek (trendler/erişilebilirlik) sistemi canlı tut."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Renk & Tipografi Seçimi Analizi Talep Et",
+            "text": "(Mevcut sisteminizi audit edip; otel/B2B persona’nıza uygun, erişilebilir ve uygulanabilir bir set çıkaralım.)",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          },
+          { "type": "media", "slot": "problem-solution-table" }
+        ]
+      },
+      {
+        "id": "checklist-pdf",
+        "title": "Marka Renk & Tipografi Seçim Checklist’ini İndir — Creative / Design Basics",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Marka Renk & Tipografi Seçim Checklist’ini İndir — Creative / Design Basics (v1.0)",
+            "purpose": "Bu asset, renk ve tipografi seçiminde “beğeni” yerine konumlandırma + persona + erişilebilirlik temelli karar vermeniz için hazırlanmıştır. 1 ana + 2 destek renk ve 1 başlık + 1 gövde fontu sistemini hızlıca kurmanıza yardımcı olur. 14 günlük sprint planı ile web ve sosyal şablonlara uygulamayı standardize eder.",
+            "whoFor": "Marka yöneticisi, pazarlama ekibi, UI/UX tasarımcısı, ajans ve içerik ekipleri.",
+            "steps": [
+              "Konumlandırma ve persona’yı 1 cümleyle netleştir.",
+              "Paleti rol bazlı seç (CTA/arka plan/vurgu) ve kontrastı kontrol et.",
+              "Tipografi hiyerarşisini kur ve 14 günlük sprint ile şablonlara uygula."
+            ],
+            "checklist": [
+              "Konumlandırma & Persona: Marka tonu tek kelimeyle net mi? (premium/rahat/kurumsal/yenilikçi)",
+              "Konumlandırma & Persona: Hedef kitle/persona yazılı mı?",
+              "Konumlandırma & Persona: Kanallar belli mi? (web/sosyal/offline)",
+              "Renk Paleti: Ana renk rolü net mi? (marka mı CTA mı?)",
+              "Renk Paleti: Destek-1 CTA/link için tanımlı mı?",
+              "Renk Paleti: Destek-2 badge/info için tanımlı mı?",
+              "Renk Paleti: Nötrler (arka plan/yüzey/metin) ayrıldı mı?",
+              "Renk Paleti: Sezon/kampanya renkleri support katmanda mı?",
+              "Kontrast & Erişilebilirlik: Metin–arka plan kontrastı okunuyor mu?",
+              "Kontrast & Erişilebilirlik: CTA buton metni her zeminde okunuyor mu?",
+              "Kontrast & Erişilebilirlik: Renkler “sadece renkle” bilgi vermiyor mu? (ikon/etiket desteği var mı?)",
+              "Tipografi: 2 fontu geçmiyor mu?",
+              "Tipografi: H1/H2/H3 + body hiyerarşisi sabit mi?",
+              "Tipografi: Mobilde gövde 16–18px okunur mu?",
+              "Tipografi: Ağırlıklar kontrol altında mı (çok fazla weight yok)?",
+              "Skor (Varsayım: 0–2) — 0: yok — 1: kısmi — 2: net/uygulanıyor"
+            ],
+            "href": "/downloads/marka-renk-tipografi-checklist-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          { "type": "media", "slot": "checklist" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "palette-type-combo-cards-6 — 6 kart: Otel premium/rahat/aile + B2B kurumsal/dijital/yenilikçi",
+          "contrast-hierarchy-mockup-good-bad — Kontrast ve hiyerarşi örnek mockup (iyi/kötü karşılaştırma)",
+          "typography-mockup-readable-vs-unreadable-kerning-weight — “Okunur vs okunmaz” tipografi mockup",
+          "problem-solution-table — Problem → Kök Neden → Çözüm tablosu görsel alanı",
+          "palette-type-quick-spec-cover — “Palette + Type quick spec” kapak görseli (tek sayfa)"
+        ],
+        "technicalChecklist": [
+          "CTA hedefleri: /tr/creative/grafik-motion-tasarim, /tr/creative/ui-ux-tasarim, /tr/seo/teknik-seo",
+          "Kontrast ve erişilebilirlik kontrol alanları içerikte işlendi",
+          "Renk paleti rol tablosu (CTA/link/arka plan/badge) deliverable olarak listelendi",
+          "Tipografi hiyerarşisi (H1/H2/H3/body) standardı deliverable olarak listelendi",
+          "Checklist + Sprint Plan asset (v1.0) üretildi (Download Asset zorunlu)"
+        ]
+      }
+    }
+  },
+
+  "Blog4DilliCagriMerkeziMultiChannelEntegrasyon": {
+    "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM",
+    "slug": "4-dilli-cagri-merkezi-multi-channel-entegrasyon",
+    "department": "callcenter",
+    "updatedAt": "14 Ocak 2026",
+    "publishedAt": "2026-01-14",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteller için telefon, WhatsApp, OTA mesajları ve sosyal DM’leri 4 dilli çağrı merkezi + PMS/CRM ile tek akışta yönetin. Önceliklendirme, raporlama ve kontrol listesi içeride.",
+    "seo": {
+      "metaTitle": "4 Dilli Multi-Channel Entegrasyon: WhatsApp + OTA + DM | DGTLFACE",
+      "metaDescription": "Oteller için telefon, WhatsApp, OTA mesajları ve sosyal DM’leri 4 dilli çağrı merkezi + PMS/CRM ile tek akışta yönetin. Önceliklendirme, raporlama ve kontrol listesi içeride."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa Adı / URL: 4 Dilli Çağrı Merkezi — /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+        "Blog No / URL: Blog #4 — /tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-multi-channel-entegrasyon",
+        "Blog Tipi: Core (cluster içinde “multi-channel iletişim & entegrasyon” authority)",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Hedef kelime bandı: 2500–2800"
+      ],
+      "strategySummary": "Bu yazı, 4 dilli çağrı merkezi cluster’ında “tek kanal” yaklaşımından çıkıp telefon + WhatsApp + OTA mesajları + sosyal DM taleplerini tek operasyonda birleştiren unified inbox / entegre iletişim modelini otel özelinde anlatan otorite içerik olacak. Persona; Antalya–Belek–Side–Kemer gibi yüksek sezonda aynı anda çok kanaldan talep alan GM ve satış–pazarlama lideri (veya rezervasyon yöneticisi). Funnel’da consideration → conversion: entegrasyonun “teknoloji projesi” değil, kaçan talebi azaltan operasyon standardı olduğunu netleştirip danışmanlık talebine bağlar. Ana iş sorusu: “Misafir hem telefondan hem WhatsApp’tan hem OTA’dan hem DM’den yazıyor; hepsini tek yerden nasıl yönetirim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "4 dilli çağrı merkezi; sadece telefonu değil, WhatsApp, web chat, OTA mesajları ve sosyal medya DM’lerini de tek merkezden yönetebildiğinde gerçek anlamda “multi-channel misafir iletişimi” sağlar. Oteller için kritik olan; tüm kanalları tek kuyrukta toplamak, TR–EN–DE–RU agent’lara doğru yönlendirmek, konuşmaları PMS/CRM’de tek misafir görünümünde birleştirmek ve sezonda kanal önceliklendirme kurallarıyla kaçan talebi azaltmaktır. Bu yapı, hız ve tutarlılık sağlar.",
+      "sgeSummary": "Telefon + WhatsApp + OTA mesajları + sosyal DM’leri 4 dilli çağrı merkeziyle tek kuyrukta birleştirip PMS/CRM’e bağlayın; önceliklendirme ve raporlama ile yanıt süresi ve kaçan talep düşer.",
+      "voiceAnswer": "Tüm kanalları tek kuyrukta toplayıp TR–EN–DE–RU ekibe dağıtın ve PMS/CRM’de tek misafir görünümü oluşturun.",
+      "aiFactSheet": [
+        "Entity seti: Multi-Channel Communication, Phone, WhatsApp, OTA Messages, Social DM, PMS/CRM Integration",
+        "Hedef kitle: Otel GM, satış–pazarlama, rezervasyon lideri, operasyon/BT koordinasyonu",
+        "KPI’lar: İlk yanıt süresi, kaçan talep oranı, çözüm süresi, dönüşüm, kanal başına yük, CSAT",
+        "Kanal gerçekliği: Telefon + WhatsApp + OTA mesaj + Instagram DM/Messenger + web chat",
+        "Operasyon prensibi: Tek kuyruk → doğru agent → kayıt/etiket → follow-up → rapor",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer’de sezonda “kanal önceliklendirme” zorunlu",
+        "Risk: Kötü kurgu → agent’lar kanallar arasında kaybolur; iyi kurgu → hız ve tutarlılık artar (yönlü)"
+      ]
+    },
+    "h1": {
+      "title": "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM",
+      "intro": "“Misafir bize hem telefondan hem WhatsApp’tan hem OTA mesajından yazıyor; hepsini nasıl tek yerden yönetebilirim?” Bu soru, Antalya, Belek, Side ve Kemer gibi yoğun sezon destinasyonlarında artık günlük gerçeklik. Multi-channel yaklaşımın amacı “daha çok kanal açmak” değil; kanalları tek kuyruk ve tek süreç altında toplayıp TR–EN–DE–RU agent ekibiyle tutarlı bir misafir deneyimi üretmektir. Bu rehber, konsept düzeyde (BT/hukuk onayı gerektiren detaylara girmeden) pratik bir entegrasyon çerçevesi sunar.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Multi-Channel Çağrı Merkezi Entegrasyon Danışmanlığı Al",
+        "text": "Otelinizin telefon+WhatsApp+OTA+DM trafiğini tek akışa çevirip KPI’larla yönetilebilir hale getirelim.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Multi-Channel Çağrı Merkezi Entegrasyon Danışmanlığı Al",
+        "text": "Otelinizin telefon+WhatsApp+OTA+DM trafiğini tek akışa çevirip KPI’larla yönetilebilir hale getirelim.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "secondary": {
+        "label": "Multi-Channel Entegrasyon Akış & Kontrol Listesini İndir",
+        "text": "Ekibinize görev listesi olarak verin; 14 günlük devreye alma sprint planı gibi kullanın.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "internalLinks": [
+      { "label": "4 Dilli Çağrı Merkezi", "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+      { "label": "Mesaj Yönetimi", "href": "/tr/cagri-merkezi/mesaj-yonetimi" },
+      { "label": "Çağrı Merkezi Hizmetleri", "href": "/tr/cagri-merkezi-hizmetleri" },
+      { "label": "Otel Dijital Pazarlama", "href": "/tr/otel-dijital-pazarlama" },
+      { "label": "PMS & OTA Rezervasyon Yönetimi", "href": "/tr/pms-ota/rezervasyon-yonetimi" }
+    ],
+    "relatedPosts": [
+      { "title": "4 Dilli Çağrı Merkezi", "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi" }
+    ],
+    "sections": [
+    
+      {
+        "id": "multi-channel-nedir",
+        "title": "Multi-channel iletişim nedir, oteller için neden kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-channel iletişim; misafirle birden fazla temas noktasında (telefon, WhatsApp, OTA mesaj, sosyal DM) aynı kaliteyi ve aynı bilgiyi koruyarak konuşabilmektir. Otellerde kritik olmasının nedeni: misafir kararını tek kanalda vermez; önce WhatsApp’tan sorar, sonra OTA’dan yazar, en son telefonda teyit eder. Kanallar birbirinden kopuksa “aynı misafire iki farklı cevap” verilir ve güven kaybı oluşur."
+          },
+          { "type": "h3", "text": "3 ana problem (kopuk yapıda)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tekrarlayan bilgi: Misafir aynı şeyi 3 kez anlatır",
+              "Kaçan talep: DM/OTA mesajı “görülmeden” kaybolur",
+              "Tutarsız fiyat/koşul: Farklı kanalda farklı bilgi → iptal riski"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanalları listeleyin ve tek bir “sorumluluk matrisi” çıkarın.",
+              "“Tek misafir görünümü” (unified guest view) hedefini belirleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "multi-channel-nasil-kurulur",
+        "title": "4 dilli çağrı merkezi ile multi-channel misafir iletişimi nasıl kurulur? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-channel kurulum; kanalları tek kuyrukta toplamak, TR–EN–DE–RU agent’lara doğru yönlendirmek, konuşmaları PMS/CRM’e işlemek ve sezonda kanal önceliklendirme kurallarıyla yönetmekten oluşur. Burada başarıyı belirleyen şey; platform adı değil, operasyon tasarımıdır."
+          },
+          { "type": "h3", "text": "AEO Checklist (5–7 madde)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kanal envanteri: Telefon, WhatsApp, web chat, OTA mesaj, sosyal DM",
+              "Tek kuyruk: Tüm konuşmaların tek inbox’ta toplanması",
+              "Routing: Dil + senaryo (rezervasyon/şikâyet/bilgi) bazlı dağıtım",
+              "Etiketleme: Kanal, dil, konu, aciliyet, gelir potansiyeli",
+              "PMS/CRM kayıt: Tek misafir görünümü + durum takibi (pipeline)",
+              "Önceliklendirme: Sezonda kanal SLA ve öncelik kuralları",
+              "Raporlama: Yanıt süresi, kaçan talep, çözüm süresi, dönüşüm"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tek kuyruk + routing + etiket” üçlüsünü kurmadan kanalları büyütmeyin.",
+              "Önceliklendirmeyi yazılı kural haline getirin (kim, neye, ne zaman döner?)."
+            ]
+          },
+          { "type": "media", "slot": "multi-channel" }
+        ]
+      },
+      {
+        "id": "telefon-whatsapp-webchat-akis",
+        "title": "Telefon, WhatsApp ve web chat akışı (karşılıklı yönlendirme senaryoları)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Telefon hızlıdır; WhatsApp kalıcıdır; web chat anlıktır. Otellerde pratikte en iyi model; “WhatsApp’ı kayıt ve takip kanalı” gibi kullanmak ve telefondan gelen konuşmayı doğru anda WhatsApp’a taşımaktır. Böylece teklif, link, görsel, koşul gibi bilgiler kaybolmaz."
+          },
+          { "type": "h3", "text": "Karşılıklı yönlendirme örnekleri (konsept düzey)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Telefondan WhatsApp’a: “Teklif ve oda seçeneklerini WhatsApp’tan paylaşayım; yazılı kalsın.”",
+              "WhatsApp’tan telefona: “2 dakika arayıp tarih/kişi detayını netleştireyim; hızlı ilerleyelim.”",
+              "Web chat: Hızlı soru → WhatsApp’a taşıma (takip için)"
+            ]
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WhatsApp teklifleri “etiket + durum” ile takip ediliyor mu?",
+              "Telefonda verilen fiyat/koşul WhatsApp’ta kayıt altına alınıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "WhatsApp için 3 satırlık standart şablonlar oluşturun (selam + net bilgi + soru).",
+              "Telefon görüşmesi sonrası “kısa özet” mesajını zorunlu yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-mesaj-yonetimi",
+        "title": "OTA ve rezervasyon platformu mesaj yönetimi (tek merkez)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA mesaj kutuları, misafirin kararını etkileyen kritik temas noktalarıdır. Bu mesajlar resepsiyonda dağınık kalırsa yanıt gecikir, puan ve iptal riski artar. Multi-channel modelde OTA mesajları da aynı akışın parçası olmalı: dil yönlendirme, etiketleme, kayıt ve follow-up."
+          },
+          { "type": "h3", "text": "OTA mesajları için 4 kural" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SLA: yanıt süresi hedefi (sezon/yoğunluk bazlı)",
+              "Standart cevap bankası: iptal/değişiklik, ödeme, check-in/out",
+              "Kayıt: önemli konuşmaları PMS/CRM notuna düşme",
+              "Escalation: kriz/şikâyet → doğru birime hızlı devretme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "OTA mesajlarını “satış kanalı” gibi görün: hız + netlik + kapanış.",
+              "Escalation kuralını yazın (hangi mesaj hangi ekibe gider?)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sosyal-dm-messenger",
+        "title": "Instagram DM, Facebook Messenger ve sosyal yorumlar (çağrı merkezine devir)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sosyal DM ve yorumlar genelde “pazarlama” tarafında kalır; oysa çoğu mesaj rezervasyon niyetlidir. Multi-channel yapıda DM’ler çağrı merkezi akışına devredilir; pazarlama ise içerik/itibar yönetimine odaklanır. Böylece satış fırsatı kaçmadan, marka dili de korunur."
+          },
+          { "type": "h3", "text": "Devir modelinin temel prensibi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazarlama: görünür yanıt + itibar",
+              "Çağrı merkezi: ihtiyaç analizi + teklif + follow-up + kayıt"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "DM’de “ilk cevap” şablonunu pazarlama ve çağrı merkezi birlikte belirlesin.",
+              "Yorumlardan DM’e taşıma cümlelerini standartlaştırın."
+            ]
+          },
+          { "type": "media", "slot": "message-example" }
+        ]
+      },
+      {
+        "id": "unified-guest-view",
+        "title": "4 dilli agent ve PMS/CRM ile uçtan uca entegrasyon (unified guest view)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Tek ekranda tüm kanalların görünmesi yetmez; önemli olan, misafirin konuşmalarının tek profile bağlanmasıdır. Böylece misafir bugün WhatsApp’tan yazıp yarın telefonda aradığında agent “kim, ne istemiş, hangi teklif gitmiş” bilgisini görür. Bu yaklaşım, özellikle yoğun sezonda tutarlılığı korur."
+          },
+          { "type": "h3", "text": "Unified guest view için minimum alanlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İsim/telefon/e-posta (varsa)",
+              "Dil (TR/EN/DE/RU)",
+              "Kanal geçmişi (tel/WA/OTA/DM)",
+              "Talep konusu + durum (pipeline)",
+              "Teklif özeti + follow-up zamanı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Tek misafir görünümü”nü hedefleyin; mükemmel entegrasyon bekleyip gecikmeyin.",
+              "Etiket + durum + follow-up üçlüsünü zorunlu yapın."
+            ]
+          },
+          { "type": "media", "slot": "multi-channel-agent" }
+        ]
+      },
+      {
+        "id": "sezon-onceliklendirme",
+        "title": "Yoğun sezonda kanal önceliklendirme stratejileri (GEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya, Belek, Side ve Kemer gibi destinasyonlarda sezon piklerinde aynı anda onlarca talep gelir. Multi-channel yapıda başarının anahtarı, “her kanala eşit davranmak” değil; önceliklendirme kuralları koymaktır. Örneğin rezervasyon niyeti yüksek taleplere daha hızlı dönüş, şikâyetlerde hızlı escalation gibi."
+          },
+          { "type": "h3", "text": "Önceliklendirme için pratik matris" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yüksek öncelik: rezervasyon/uygunluk + “bugün/yarın” tarihli talepler",
+              "Orta öncelik: genel bilgi + ileri tarih",
+              "Kritik: şikâyet/kriz → anında devret"
+            ]
+          },
+          {"type":"media","slot":"matrix"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kanal bazlı SLA belirleyin (sezon–düşük sezon farklı).",
+              "“Kritik mesaj” etiketini ve escalation akışını yazılılaştırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uygulama-plani-7-adim",
+        "title": "Uygulama planı: Multi-channel entegrasyonu 7 adımda devreye almak ",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kanalları çıkar (tel/WA/web chat/OTA/DM)",
+              "Tek inbox hedefi belirle (tek kuyruk)",
+              "Routing kuralı yaz (dil + senaryo)",
+              "Etiket seti oluştur (dil/konu/aciliyet/gelir)",
+              "PMS/CRM minimum kayıt alanlarını tanımla",
+              "SLA + önceliklendirme matrisini uygula",
+              "Haftalık rapor + iyileştirme döngüsü kur"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Multi-Channel Entegrasyon Akış & Kontrol Listesini İndir",
+            "text": "Ekibinize görev listesi olarak verin; 14 günlük devreye alma sprint planı gibi kullanın.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Multi-Channel Çağrı Merkezi Entegrasyon Danışmanlığı Al",
+            "text": "Otelinizin telefon+WhatsApp+OTA+DM trafiğini tek akışa çevirip KPI’larla yönetilebilir hale getirelim.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "download-asset-multichannel",
+        "title": "Multi-Channel Entegrasyon Akış & Kontrol Listesini İndir — Çağrı Merkezi / Otel (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Multi-Channel Entegrasyon Akış & Kontrol Listesini İndir — Çağrı Merkezi / Otel (v1.0)",
+            "purpose": "Bu doküman, otellerde telefon + WhatsApp + OTA mesajları + sosyal DM kanallarını tek kuyrukta birleştirip TR–EN–DE–RU ekiple yönetmek için minimum kontrol noktalarını sunar. 14 günlük sprint planıyla entegrasyonu “operasyon standardı” olarak devreye almanıza yardımcı olur.",
+            "whoFor": "GM, satış–pazarlama lideri, rezervasyon lideri, çağrı merkezi yöneticisi, BT/operasyon koordinatörü.",
+            "steps": [
+              "Checklist’i ekiple işaretleyin; eksikleri kırmızıya alın.",
+              "Problem–kök neden–çözüm tablosundan ilk 10 aksiyonu seçin.",
+              "14 günlük sprint planını uygulayıp KPI’ları haftalık izleyin."
+            ],
+            "checklist": [
+              "[ ] Kanal envanteri çıkarıldı (tel/WA/web chat/OTA/DM)",
+              "[ ] Tek kuyruk (unified inbox) hedefi yazıldı",
+              "[ ] Dil bazlı routing kuralı tanımlandı (TR/EN/DE/RU)",
+              "[ ] Senaryo bazlı routing kuralı tanımlandı (rezervasyon/bilgi/şikâyet)",
+              "[ ] Etiket seti oluşturuldu (dil/konu/aciliyet/gelir)",
+              "[ ] Kanal bazlı SLA belirlendi (sezon–düşük sezon)",
+              "[ ] Escalation akışı yazıldı (kriz/şikâyet)",
+              "[ ] PMS/CRM minimum alanlar tanımlandı (tek misafir görünümü)",
+              "[ ] Follow-up zorunluluğu tanımlandı (zaman + durum)",
+              "[ ] Haftalık KPI raporu şablonu hazır"
+            ],
+            "href": "/downloads/multichannel-entegrasyon-akis-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          { "type": "media", "slot": "7-step-plan" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "4 dilli çağrı merkezi ile hangi kanallar entegre edilebilir?",
+        "a": "Telefon, WhatsApp, web chat, OTA mesajları ve sosyal medya DM’leri (Instagram/Messenger) aynı kuyrukta birleştirilebilir. Önemli olan tek akış + routing + kayıt standardıdır."
+      },
+      {
+        "q": "Telefon, WhatsApp ve OTA mesajlarını tek merkezden nasıl yönetirim?",
+        "a": "Tek inbox/tek kuyruk hedefiyle kanalları toplayın; dili ve senaryoyu routing kuralı yapın. PMS/CRM’de tek misafir görünümü oluşturup etiket ve durum takibiyle follow-up’ı standardize edin."
+      },
+      {
+        "q": "Sosyal medya DM’lerini çağrı merkezine bağlamak mümkün mü?",
+        "a": "Evet, operasyonel olarak mümkündür: pazarlama ilk görünür yanıtı verir; çağrı merkezi ihtiyaç analizi, teklif ve follow-up sürecini yürütür. Devir, etiketleme ve SLA kuralları yazılı olmalıdır."
+      },
+      {
+        "q": "Multi-channel yapı misafir deneyimini nasıl etkiler?",
+        "a": "Yanıt süresi kısalır, tutarsız bilgi azalır ve misafir aynı kaliteyi her kanalda görür. Kötü kurguda ise kanallar arası kaybolma artar ve deneyim bozulur."
+      },
+      {
+        "q": "Yoğun sezonda hangi kanal öncelikli olmalı?",
+        "a": "Rezervasyon niyeti yüksek talepler ve kriz/şikâyet mesajları önceliklidir; genel bilgi talepleri ikinci sıraya alınabilir. Kanal bazlı SLA ve öncelik matrisi sezon başında tanımlanmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "multichannel-funnel-diagram-hero — Multi-channel funnel diyagramı (ilk ekran)",
+          "multi-channel — Kanal–agent–PMS/CRM akış şeması",
+          "message-example — DM ekran mockup’ı + “devir” butonu/etiketleme örneği",
+          "multi-channel-agent — “Tek ekranda tüm kanallar” UI örneği (mockup)",
+          "7-step-plan — PDF tek sayfa “Kanal Önceliklendirme Matrisi” görseli",
+          "problem-rootcause-solution-table — Problem → Kök Neden → Çözüm tablosu"
+        ],
+        "technicalChecklist": [
+          "CTA hedefleri: /tr/cagri-merkezi/4-dilli-cagri-merkezi, /tr/cagri-merkezi/mesaj-yonetimi, /tr/cagri-merkezi-hizmetleri, /tr/otel-dijital-pazarlama, /tr/pms-ota/rezervasyon-yonetimi",
+          "Intent: Informational + Transactional; Primary CTA 2 kez, Secondary CTA 1 kez (uygulama planı bölümünde)",
+          "Secondary CTA Download Asset ⇒ Checklist + Sprint Plan (v1.0) üretildi",
+          "Operasyon akışı: Tek kuyruk → routing → etiket → PMS/CRM kayıt → follow-up → rapor standardize edildi"
+        ]
       }
     }
   }

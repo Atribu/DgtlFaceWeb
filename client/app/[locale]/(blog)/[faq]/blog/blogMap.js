@@ -3,36 +3,41 @@ export const BLOG_MAP = {
   sem: {
     "google-ads-oteller-icin-nasil-calisir": "BlogGoogleAdsOtellerIcinNasilCalisir",
     "google-ads-hesap-ve-kampanya-mimarisi":"BlogGoogleAdsHesapVeKampanyaMimarisi",
-    "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri"
+    "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri",
+    "google-ads-kalite-puani-nedir-nasil-yukseltilir":"BlogGoogleAdsKalitePuaniNedirNasilYukseltilir"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
     "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin",
-    "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu"
+    "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu",
+    "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi"
   },
 
     smm: {
     "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi",
     "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur",
-    "":"",
+    "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli":"BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli",
     "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi"
   },
 
     yazilim: {
     "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde",
     "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur",
-    "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu":"BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu"
+    "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu":"BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu",
+    "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":"BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
     "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi",
-    "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin"
+    "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin",
+    "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber"
   },
 
        callcenter: {
     "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir",
     "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi",
-    "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk"
+    "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk",
+    "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon"
   },
 
      "pms-ota": {
