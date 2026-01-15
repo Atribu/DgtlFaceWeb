@@ -39826,6 +39826,7 @@
               "Tutarsız fiyat/koşul: Farklı kanalda farklı bilgi → iptal riski"
             ]
           },
+          {"type":"media","slot":"integration"},
           {
             "type": "callout",
             "variant": "action",
@@ -39868,7 +39869,7 @@
               "Önceliklendirmeyi yazılı kural haline getirin (kim, neye, ne zaman döner?)."
             ]
           },
-          { "type": "media", "slot": "multi-channel" }
+          { "type": "media", "slot": "multi-channel-integration" }
         ]
       },
       {
@@ -39897,6 +39898,7 @@
               "Telefonda verilen fiyat/koşul WhatsApp’ta kayıt altına alınıyor mu?"
             ]
           },
+          { "type": "media", "slot": "phone-message" },
           {
             "type": "callout",
             "variant": "action",
@@ -39927,6 +39929,7 @@
               "Escalation: kriz/şikâyet → doğru birime hızlı devretme"
             ]
           },
+          {"type":"media","slot":"ota-message-center"},
           {
             "type": "callout",
             "variant": "action",
@@ -40046,6 +40049,7 @@
               "Haftalık rapor + iyileştirme döngüsü kur"
             ]
           },
+          { "type": "media", "slot": "7-step-plan" },
           {
             "type": "cta",
             "variant": "secondary",
@@ -40092,8 +40096,8 @@
             ],
             "href": "/downloads/multichannel-entegrasyon-akis-kontrol-listesi-v1.0.pdf",
             "buttonLabel": "PDF’i İndir"
-          },
-          { "type": "media", "slot": "7-step-plan" }
+          }
+          
         ]
       }
     ],
@@ -40136,6 +40140,1393 @@
           "Intent: Informational + Transactional; Primary CTA 2 kez, Secondary CTA 1 kez (uygulama planı bölümünde)",
           "Secondary CTA Download Asset ⇒ Checklist + Sprint Plan (v1.0) üretildi",
           "Operasyon akışı: Tek kuyruk → routing → etiket → PMS/CRM kayıt → follow-up → rapor standardize edildi"
+        ]
+      }
+    }
+  },
+
+  "BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin": {
+    "title": "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
+    "slug": "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin",
+    "department": "pms-ota",
+    "updatedAt": "15 Ocak 2026",
+    "publishedAt": "2026-01-15",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS eğitim planını kurun: rol bazlı oturumlar, vardiya takvimi, senaryo/role-play, mini sınav–yetki, dokümantasyon ve ilk 60 gün destek ritmi. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "PMS Eğitim Planı: Resepsiyon Onboarding ve Takip | DGTLFACE",
+      "metaDescription": "PMS eğitim planını kurun: rol bazlı oturumlar, vardiya takvimi, senaryo/role-play, mini sınav–yetki, dokümantasyon ve ilk 60 gün destek ritmi. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog No / URL: Blog #4 — /tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Operational",
+        "Difficulty Level / Expertise: Intermediate–Expert (içerik “playbook” ve HR+operasyon uygulamalı)",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Canonical: /tr/pms-ota/blog/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin"
+      ],
+      "strategySummary": "Bu içerik, PMS Kurulum & Destek silosunda “eğitim & onboarding” alt cluster’ının ana otorite yazısıdır ve PMS Implementation’ın başarısını belirleyen “insan + süreç” tarafını sahiplenir. Funnel’da “operasyonel rehber → onboarding analizi talebi → eğitim şablonu indir” akışını kurar; HR, resepsiyon ve proje ekibini aynı plana toplar. Ana iş sorusu: “Yeni PMS’i ekibe hızlı ve hatasız nasıl benimsetirim; vardiya düzeni bozulmadan nasıl eğitirim?” Antalya/Belek/Side gibi yüksek sirkülasyonlu resepsiyon ekiplerinde iyi kurgulanmış eğitim planının hataları ve öğrenme süresini azalttığını örneklerle göstererek risk azaltır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "En iyi PMS bile onu doğru kullanamayan ekiplerde değer üretmez. Bu yüzden PMS Training planı, kurulum kadar kritiktir: departman bazlı eğitim setleri (Reception, Reservation Team, Revenue, Accounting), vardiyaya uygun takvim, senaryo ve role-play çalışmaları, mini sınavlarla yetki verme ve ilk 30–60 gün “soru toplama + refresh” oturumları. Eğitimi kayıt altına alıp kullanıcı rehberiyle desteklerseniz adaptasyon hızlanır, hatalar azalır.",
+      "sgeSummary": "Bu rehber, PMS eğitimini rol bazlı içerik setleri, vardiya takvimi, uygulamalı senaryolar, mini ölçme-değerlendirme ve ilk 60 gün destek/refresh döngüsüyle planlamayı anlatır.",
+      "voiceAnswer": "Ekibi yeni PMS’e alıştırmak için rol bazlı eğitim, senaryo çalışması, mini sınav ve 60 gün destek planı kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: HR, GM/operasyon, resepsiyon, rezervasyon, gelir, muhasebe, proje ekibi",
+        "Entity’ler: PMS Training, Reception, Reservation Team, Revenue, Accounting, Onboarding",
+        "Kritik risk: Eğitimsiz/ yetkisiz kullanım → yanlış fiyat/tarih/oda işlemleri → gelir ve itibar riski",
+        "KPI’lar: işlem hatası oranı, check-in süresi, ilk 30 gün ticket sayısı, eğitim katılım/başarı oranı",
+        "Format: sınıf + uygulamalı + on-the-job dengesi",
+        "GEO: Antalya/Belek/Side’de vardiya ve sirkülasyon yüksek → plan şart",
+        "Çıktı: eğitim takvimi + rol matrisi + senaryo listesi + feedback formu"
+      ]
+    },
+    "h1": {
+      "title": "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
+      "intro": "Yeni PMS’i “kurduk” demek, ekibin “doğru kullanmaya başladığı” anlamına gelmez. Resepsiyon ve operasyon tarafında yanlış tarih, yanlış fiyat, yanlış oda/kontrat gibi hatalar; kısa sürede gelir ve itibar riski doğurabilir. Bu yüzden eğitim planı, bir “kullanım gösterimi” değil; rol bazlı onboarding, senaryo pratikleri, ölçme-değerlendirme ve ilk 60 gün destek ritmi olan bir proje parçasıdır. Bu rehber, HR + operasyon + proje ekibinin birlikte uygulayacağı bir Training Playbook sunar.",
+      "quickSummary": [
+        "1. Hedef kitleyi belirleyin: Reception, Reservation Team, Revenue, Accounting rolleri ayrı ele alın",
+        "2. İçeriği rol bazlı parçalayın: kritik işlemler + iş kuralları + sık hata noktaları",
+        "3. Formatı planlayın: sınıf + uygulamalı + role-play + on-the-job dengesi kurun",
+        "4. Ölçüm koyun: mini sınav/sertifika + yetki verme kriteri belirleyin",
+        "5. Takip döngüsü kurun: ilk 30–60 gün Q&A + refresh oturumları + soru havuzu",
+        "6. Dokümantasyonu yapılandırın: kayıtlar, rehberler, varsa LMS ile sürdürülebilir hale getirin"
+      ],
+      "ctaPrimary": {
+        "label": "PMS Eğitim & Onboarding Analizi Talep Et",
+        "text": "Otelinize özel rol matrisi, vardiya takvimi, senaryo seti ve 60 günlük destek planını çıkarır; hataları ve öğrenme süresini azaltırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Eğitim & Onboarding Analizi Talep Et",
+        "text": "Vardiya düzenini bozmadan rol bazlı eğitim, senaryo ve 60 gün destek ritmiyle adaptasyonu hızlandırırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir",
+        "text": "HR + operasyonun eğitim oturumlarını, içerik setlerini ve ölçümü tek şablonda standartlaştırmasını sağlar.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS kurulum & eğitim bağlamı", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "PMS & OTA çatı", "href": "/tr/pms-ota-yonetimi" },
+      {
+        "label": "Çağrı merkezi rezervasyon desteği (role-play için)",
+        "href": "/tr/cagri-merkezi/rezervasyon-destegi"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      
+      {
+        "id": "pms-egitimi-neden-projenin-kalbidir",
+        "title": "PMS Eğitimi Neden Projenin Kalbidir?",
+        "preBlocks":[{
+          "type":"media","slot":"pms-cycle"
+        }],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS Implementation’da teknik kurulum tek başına başarı getirmez; başarıyı belirleyen şey, sistemin günlük iş akışına “doğru davranış” olarak yerleşmesidir. Bu da ancak eğitimle olur: doğru kişi doğru modülü öğrenir, doğru senaryoyu prova eder, doğru yetkiyle canlıya çıkar. Antalya/Belek/Side gibi yoğun operasyonlu destinasyonlarda vardiya baskısı nedeniyle eğitim “araya sıkışırsa” hatalar artar; eğitim proje planına bağlanırsa riskler azalır."
+          },
+          {
+            "type": "callout",
+            "variant": "warning",
+            "title": "Risk uyarısı",
+            "items": [
+              "Yetkisiz veya eğitimsiz PMS kullanımı; yanlış fiyat, tarih ve oda işlemleri üzerinden ciddi gelir ve itibar riski doğurabilir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Ekip, go-live gününde sadece ‘nereden tıklanacağını’ mı biliyor; yoksa ‘doğru iş kuralını’ mı?"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğitimi proje planında “kritik yol” (critical path) olarak konumlandır",
+              "Rol bazlı hedef belirle: kim hangi işlemi hatasız yapmalı?",
+              "Go-live sonrası destek ritmini eğitim planına dahil et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitime-kimler-katilmali-roller",
+        "title": "Eğitime Kimler Katılmalı, Rollere Göre Eğitim Setleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitimde “herkese her şeyi anlatmak” hızlı unutulmaya yol açar. Doğru yaklaşım: rol bazlı eğitim setleri ve her rol için net çıktı: hangi işlemler, hangi kurallar, hangi ekranlar."
+          },
+          { "type": "h3", "text": "Rol bazlı eğitim matrisi (örnek)" },
+          { "type": "media", "slot": "role-based-education-matrix" },
+          {
+            "type": "table",
+            "caption": "Rol bazlı eğitim matrisi (örnek)",
+            "headers": [
+              "Rol / Departman",
+              "Öğrenmesi gereken çekirdek",
+              "Pratik senaryo",
+              "Ölçüm"
+            ],
+            "rows": [
+              [
+                "Reception (Resepsiyon)",
+                "check-in/out, folyo, oda değişikliği, misafir notu",
+                "yoğun giriş günü",
+                "işlem hatası + süre"
+              ],
+              [
+                "Reservation Team (Rezervasyon)",
+                "fiyat/uygunluk, opsiyon, iptal/no-show",
+                "telefonla rezervasyon",
+                "doğru fiyat/kural"
+              ],
+              [
+                "Revenue",
+                "fiyat planı mantığı, rapor okuma",
+                "pickup/iptal analizi",
+                "rapor doğruluğu"
+              ],
+              [
+                "Accounting (Muhasebe)",
+                "fatura kuralları, rapor doğrulama",
+                "gün sonu kapanış",
+                "tutarlılık"
+              ],
+              [
+                "Satış",
+                "şirket/acenteler, kontratlar",
+                "kurumsal rezervasyon",
+                "kontrat doğruluğu"
+              ]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Kim yanlış işlem yaparsa en pahalı sonuç doğar? Önce onu eğit."
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her rol için 10–15 “kritik işlem” listesi çıkar",
+              "Rol bazlı yetki planını eğitimle birlikte tasarla",
+              "HR, vardiya planını eğitim takvimine göre revize et"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sinif-uygulamali-on-the-job-dengesi",
+        "title": "Sınıf, Uygulamalı ve On-the-Job Eğitim Dengesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sınıf eğitimi kavramı anlatır; uygulamalı eğitim kas hafızası oluşturur; on-the-job ise gerçek hayata taşır. En etkili model, bunların dengeli birleşimidir. Özellikle resepsiyon gibi operasyonel rollerde “role-play” olmadan eğitim eksik kalır."
+          },
+          { "type": "h3", "text": "Önerilen format karışımı (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sınıf / kısa teori: iş kuralları, akış mantığı, sık hata noktaları",
+              "Uygulamalı: test ortamında ekran başında senaryo yürütme",
+              "Role-play: misafir/çağrı merkezi diyalogları ile rezervasyon/konaklama akışı",
+              "On-the-job: go-live haftasında gölge (shadowing) + kontrollü uygulama"
+            ]
+          },
+          { "type": "media", "slot": "pms-role-play" },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Ekip, ‘normal gün’ü değil ‘problemli gün’ü de çalıştı mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her rol için 5–7 senaryoluk role-play paketi hazırla",
+              "Test ortamında ‘yanlış yapmaya izin veren’ pratik oturum planla",
+              "Go-live haftası için shadowing planı yaz"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitim-materyalleri-ve-kullanici-rehberleri",
+        "title": "Eğitim Materyalleri ve Kullanıcı Rehberleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eğitimden 2 hafta sonra ekip, “notu nerede?” sorusuna dönüyorsa dokümantasyon zayıftır. Bu yüzden eğitim materyalleri tek seferlik sunum değil, yaşayan bir rehber olmalı: kısa iş akış kartları, sık hata listesi, mini video kayıtları, ekran görüntülü adım adım rehber."
+          },
+          { "type": "h3", "text": "Minimum eğitim paketi (somut)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“1 sayfa” iş akış kartları (Reception hızlı kılavuz)",
+              "Sık hata & çözüm listesi",
+              "Ekran görüntülü mini rehberler",
+              "10 soruluk mini sınav + başarı eşiği",
+              "Yetki verme kriteri (sertifika mantığı)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "LMS notu (sheet’e göre): Eğitim oturumları kayıt altına alınmalı; dokümantasyon düzenli tutulmalı; varsa LMS üzerinden içerikler yapılandırılmalı."
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Hızlı kılavuz”u resepsiyon masasına uygun formatta çıkar",
+              "Kayıtları (video/slide) tek arşivde tut, erişim yetkisini role göre ver",
+              "Mini sınav/sertifika ile “yetki”yi bağla (kim canlıda hangi işlemi yapabilir?)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitim-sonrasi-destek-ve-refresh",
+        "title": "Eğitim Sonrası Destek ve Refresh Oturumları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Gerçek adaptasyon go-live’dan sonra başlar. İlk 30–60 gün; soruların biriktiği, hataların ortaya çıktığı ve doğru alışkanlığın yerleştiği dönemdir. Bu nedenle eğitim planına “destek ritmi” eklenmelidir: soru havuzu, haftalık mini oturumlar, tekrar eğitim (refresh) ve yetki revizyonu."
+          },
+          { "type": "h3", "text": "İlk 30–60 gün destek modeli (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Günlük: ilk 10 gün kısa Q&A (15 dk)",
+              "Haftalık: en çok hata yapılan 3 işlem üzerine mini refresh",
+              "30. gün: rol bazlı performans ve yetki gözden geçirme",
+              "60. gün: süreç standardı + dokümantasyon güncelleme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Soru havuzu yoksa, aynı soruyu her vardiya tekrar yaşarsınız."
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek kanal “soru toplama” sistemi kur (form/board)",
+              "Haftalık en çok hata yapılan 3 işlem raporu çıkar",
+              "60. gün dokümantasyonu güncelle, eğitim paketini v2’ye çevir"
+            ]
+          },
+          {"type":"media","slot":"weekly-pms"}
+        ]
+      },
+      {
+        "id": "pms-egitim-plani-nasil-hazirlanmali",
+        "title": "PMS eğitim planını nasıl hazırlamalısınız?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedef kitleyi belirleyin: Reception, Reservation Team, Revenue, Accounting rolleri ayrı ele alın",
+              "İçeriği rol bazlı parçalayın: kritik işlemler + iş kuralları + sık hata noktaları",
+              "Formatı planlayın: sınıf + uygulamalı + role-play + on-the-job dengesi kurun",
+              "Ölçüm koyun: mini sınav/sertifika + yetki verme kriteri belirleyin",
+              "Takip döngüsü kurun: ilk 30–60 gün Q&A + refresh oturumları + soru havuzu",
+              "Dokümantasyonu yapılandırın: kayıtlar, rehberler, varsa LMS ile sürdürülebilir hale getirin"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir",
+            "text": "HR ve operasyonun vardiya planına göre eğitim oturumlarını, rol bazlı içerikleri ve ölçme-değerlendirmeyi tek şablonda standartlaştırmasını sağlar.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      },
+      {
+        "id": "ekibi-yeni-pms-e-nasil-alistiracagim",
+        "title": "Ekibi yeni PMS’e nasıl alıştıracağım?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rolleri ayırın: resepsiyon, rezervasyon, muhasebe, gelir ekibi farklı eğitim almalı.",
+              "Vardiya takvimiyle kısa oturumlar planlayın; test ortamında senaryolar çalışın.",
+              "Role-play ile problemli günleri prova edin (iptal/no-show, oda değişimi, yoğun giriş).",
+              "Mini sınavla yetki verin; ilk 60 gün soru toplama ve haftalık refresh oturumu yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geo-senaryosu-antalya-belek-side",
+        "title": "GEO Senaryosu — Antalya/Belek/Side’de yüksek sirkülasyonlu resepsiyon ekipleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya / Belek / Side gibi destinasyonlarda resepsiyon ekibinde sirkülasyon yüksekse, eğitim “tek seferlik” olamaz. Bu durumda iki kritik hamle işe yarar: (1) vardiya bazlı mikro eğitim, (2) rol bazlı hızlı kılavuz + refresh ritmi. Bu sayede yeni başlayan personel, sistemde kritik hataları daha az yapar; öğrenme süresi kısalır."
+          }
+        ]
+      },
+      {
+        "id": "cta-asset-pms-egitim-takvimi-sablon",
+        "title": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir — PMS Training (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "PMS Eğitim Takvimi & Rol Bazlı İçerik Şablonunu İndir — PMS Training (v1.0)",
+            "purpose": "Bu şablon, PMS eğitimini “tek oturum” yerine vardiya düzenine uygun takvim, rol bazlı içerik seti ve ölçme-değerlendirme yapısıyla planlamanız için hazırlanmıştır. Go-live sonrası ilk 60 gün için soru toplama ve refresh oturumlarını da içerir. HR + operasyon + proje ekibi aynı planla ilerler.",
+            "whoFor": "HR + Operasyon (Reception/Reservation) + Proje ekibi + IT/entegrasyon (eğitim ve canlı geçiş koordinasyonu).",
+            "steps": [
+              "Rolleri seçin ve her rol için “kritik işlemler” listesini doldurun.",
+              "Vardiya takvimine göre oturumları yerleştirin; senaryoları role-play ile planlayın.",
+              "Mini sınav/sertifika ile yetki verin; 60 gün Q&A + refresh döngüsünü işletin."
+            ],
+            "checklist": [
+              "Rol listesi net (Reception, Reservation Team, Revenue, Accounting)",
+              "Her rol için 10–15 kritik işlem listesi hazır",
+              "Eğitim formatı karışımı belirlendi (sınıf/uygulamalı/role-play/on-the-job)",
+              "Vardiya bazlı takvim tasarlandı (kim, ne zaman)",
+              "Test ortamı hazır (senaryo çalışmaları için)",
+              "Mini sınav + başarı eşiği belirlendi",
+              "Yetki verme kriterleri yazılı (sertifika mantığı)",
+              "Go-live sonrası 60 gün destek/refresh planı takvimde"
+            ],
+            "href": "/downloads/pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "son-cta",
+        "title": "PMS Eğitim & Onboarding Analizi Talep Et",
+        "blocks": [
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "PMS Eğitim & Onboarding Analizi Talep Et",
+            "text": "Fayda: Otelinize özel rol matrisi + senaryo seti + 60 günlük destek/refresh planını birlikte kurarız; hata riskini düşürürsünüz.",
+            "href": "/tr/pms-ota/pms-kurulum"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS eğitimi nasıl planlanmalı?",
+        "a": "Rol bazlı planlayın: resepsiyon, rezervasyon, muhasebe ve gelir ekipleri için ayrı içerik seti oluşturun. Vardiya düzenine göre kısa oturumlar + uygulamalı senaryolar kurgulayın. Mini sınavla yetki verin ve ilk 60 gün refresh/Q&A döngüsü kurun."
+      },
+      {
+        "q": "Hangi departman hangi PMS modüllerini öğrenmeli?",
+        "a": "Resepsiyon check-in/out ve folyo; rezervasyon fiyat/uygunluk ve iptal; muhasebe fatura ve rapor doğrulama; gelir ekibi fiyat planı mantığı ve rapor okuma gibi modüllere odaklanmalı. Her rol için kritik işlemler listesi çıkarılmalıdır."
+      },
+      {
+        "q": "Eğitimleri ne kadar süre ile ve hangi formatta yapmalıyım?",
+        "a": "Tek uzun eğitim yerine, kısa sınıf anlatımı + test ortamında uygulama + role-play + go-live haftasında on-the-job modelini kullanın. Vardiyaya göre tekrarlı oturumlar planlamak unutmayı azaltır."
+      },
+      {
+        "q": "Eğitim sonrası destek süreci nasıl yönetilir?",
+        "a": "İlk 10 gün günlük kısa Q&A, sonrasında haftalık refresh oturumları önerilir. Soru havuzu toplayın, en çok hata yapılan 3 işlem üzerine mini eğitim yapın. 30. ve 60. gün yetki ve dokümantasyonu gözden geçirin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "egitim-akisi-semasi — (H1 altı) Hazırlık → Eğitim Oturumları → Uygulama/Role-play → Mini sınav/Yetki → Go-Live destek → Refresh",
+          "rol-bazli-egitim-matrisi-gorseli — (H3) Rol bazlı eğitim matrisi görseli",
+          "ornek-senaryo-roleplay-listesi — (PDF/Sheets) Örnek senaryo & role-play listesi",
+          "egitim-takvimi-semasi-hafta-bazli — Eğitim takvimi şeması (hafta bazlı)",
+          "problem-kok-neden-cozum-tablosu — Problem → Kök Neden → Çözüm tablosu",
+          "oncesi-sonrasi-kpi-tablosu-egitim-etkisi — Öncesi/Sonrası KPI tablosu (Eğitim Etkisi)",
+          "feedback-formu-ve-hizli-kilavuz-ornegi — feedback formu + hızlı kılavuz örneği"
+        ],
+        "technicalChecklist": [
+          "Primary CTA → /tr/pms-ota/pms-kurulum",
+          "Secondary CTA → /tr/pms-ota/pms-kurulum (download varsayımı)",
+          "İç linkler → /tr/cagri-merkezi/rezervasyon-destegi, /tr/pms-ota-yonetimi",
+          "Intent: Informational + Operational",
+          "Primary CTA: 2 kez (H1 giriş sonu + son 1/3) ✅",
+          "Secondary CTA: 1 kez (orta bölüm/AEO sonrası) ✅"
+        ]
+      }
+    }
+  },
+
+  "BlogCokOtelliYapilardaLookerStudioMimarisi": {
+    "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+    "slug": "cok-otelli-yapilarda-looker-studio-mimarisi",
+    "department": "veri-analizi-raporlama",
+     "updatedAt": "15 Ocak 2026",
+    "publishedAt": "2026-01-15",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulur? Grup KPI paneli + otel bazlı drill-down, property veri yapısı, naming convention ve rol bazlı erişimle zincir raporlamayı standardize edin.",
+    "seo": {
+      "metaTitle": "Grup Otellerde Looker Studio Mimarisi | DGTLFACE",
+      "metaDescription": "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulur? Grup KPI paneli + otel bazlı drill-down, property veri yapısı, naming convention ve rol bazlı erişimle zincir raporlamayı standardize edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #4 — https://dgtlface.com/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (Multi-Property)",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
+        "Not (Varsayım): Sheet’te “Expert Strategy (Multi-Property)” yazsa da V2.3 kilidi gereği seviye Intermediate–Expert bandında üretilmiştir.",
+        "Refresh Cycle: 365 gün",
+        "Canonical: https://dgtlface.com/tr/raporlama/blog/cok-otelli-yapilarda-looker-studio-mimarisi"
+      ],
+      "strategySummary": "Bu blog, raporlama silosunda “tek otel paneli” yaklaşımını aşarak, zincir/grup yapılarda multi-property veri mimarisi ve katmanlı dashboard tasarımını standardize eden authority içeriktir. Hedef persona, zincir GM’leri, yatırımcı/merkez ofis yöneticileri ve grup satış–pazarlama liderleridir; ayrıca ajans tarafında raporlama mimarisi kuran ekiplerdir. Funnel’da awareness → consideration bandında, “grup seviyesinde yönetim KPI’ları + otel bazlı drill-down” modelini netleştirir. Ana iş sorusu: “Farklı destinasyonlarda (Antalya + Bodrum gibi) birden fazla oteli tek raporlama sisteminde nasıl organize eder ve doğru yetkilendirme ile yönetim paneli kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Çok otelli yapılarda Looker Studio’nun doğru çalışması için veri kaynaklarını property bazlı organize etmek, üstte grup KPI paneli (doluluk, ADR, RevPAR, gelir), altta her otel için detay dashboard katmanları kurmak gerekir. Kullanıcılar rolüne göre (merkez ofis, satış, operasyon) yalnız ihtiyaç duyduğu görünümleri görmelidir. Bu rehber, zincir oteller için ideal veri mimarisini, naming convention’ı ve örnek multi-property senaryolarını adım adım açıklar.",
+      "sgeSummary": "Multi-property Looker Studio: veri kaynaklarını otel bazlı düzenle, üstte grup KPI özeti, altta otel drill-down sayfaları kur. Rol bazlı erişim ve naming convention ile zincir raporlamayı ölçekle.",
+      "voiceAnswer": "Grup otellerde Looker Studio’yu, üstte grup KPI özeti ve altta otel bazlı detay paneller şeklinde kurun.",
+      "aiFactSheet": [
+        "Hedef kitle: Zincir GM, yatırımcı, merkez ofis yönetimi, grup pazarlama, ajans raporlama lideri",
+        "Ana KPI’lar: Occupancy, ADR, RevPAR, total revenue, channel mix, destination segmentation",
+        "Entity’ler: Hotel Group, Property, PMS, OTA, Looker Studio Report, User Role, Destination",
+        "Geo bağlamı: Antalya + Bodrum destinasyon kırılımları (doğal)",
+        "Funnel: Awareness/Consideration (mimari karar → ölçeklenebilir raporlama)",
+        "Çıktı: Group→Hotels→Dashboards şeması + grup KPI kartları + drill-down mockup",
+        "Başarı ölçütü: Tek doğruluk standardı + hızlı bütçe/kampanya kararı + erişim kontrolü"
+      ]
+    },
+    "h1": {
+      "title": "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+      "intro": "Bu yazıda multi-property raporlamayı “merkez ofis paneli + otel sayfaları” benzetmesiyle kuracağız. Önce property bazlı veri yapısını ve naming convention’ı netleştirip, sonra grup ve otel seviyesi dashboard katmanlarını tasarlayacağız. Ardından rol bazlı erişim, filtre/view yaklaşımı ve Antalya–Bodrum gibi destinasyon kırılımlarını ekleyerek ölçeklenebilir bir mimari çıkaracağız. Son bölümde “X otelli grup senaryosu” ile örnek panel akışını göstereceğiz.",
+      "quickSummary": [
+        "1. Tek KPI sözlüğü: Occupancy/ADR/RevPAR tanımları grup çapında sabit",
+        "2. Property ID standardı: Her veri kaynağı otel kimliğiyle eşleşir",
+        "3. Katmanlı rapor: Grup Executive → Otel detay → Kanal/destinasyon sayfaları",
+        "4. Rol bazlı erişim: Yönetim, satış, operasyon için farklı görünüm",
+        "5. Destinasyon kırılımı: Antalya, Bodrum gibi GEO katmanı rapora dahil"
+      ],
+      "ctaPrimary": {
+        "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
+        "text": "Birden çok otelde KPI standardı ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
+        "text": "Birden çok otelde KPI standardı, property veri modeli ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için",
+        "href": "/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Multi-Property Otel Dashboard Örnek Şablonunu İndir",
+        "text": "Hazır şablonla grup paneli ve otel drill-down sayfalarını hızlıca kurup standardı oturtursunuz.",
+        "href": "/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Raporlama çatı sayfası", "href": "https://dgtlface.com/tr/raporlama" },
+      { "label": "Looker Studio Raporlama", "href": "https://dgtlface.com/tr/raporlama/looker-studio" },
+      { "label": "Benchmark analizi", "href": "https://dgtlface.com/tr/raporlama/benchmark-analizi" },
+      { "label": "PMS & OTA yönetimi", "href": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+      { "label": "PMS & OTA online satış", "href": "https://dgtlface.com/tr/pms-ota/online-satis" },
+      { "label": "Otel dijital pazarlama", "href": "https://dgtlface.com/tr/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "aeo-mimari-modeli",
+        "title": "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulmalı? ",
+        "preBlocks":[{"type":"media","slot":"office-panel"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok otelli mimariyi 4 parçayla kurun: (1) Property bazlı veri yapısı ve ortak sözlük, (2) üstte grup KPI özet dashboard’u, (3) altta otel bazlı drill-down dashboard katmanları, (4) rol bazlı erişim ve filtre/view kurgusu. Böylece hem grup toplam performansı tek ekranda görünür olur, hem de her otelin detayına kontrollü şekilde inilir."
+          },
+          { "type": "h3", "text": "4–5 maddelik ideal model (özet)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek KPI sözlüğü: Occupancy/ADR/RevPAR tanımları grup çapında sabit",
+              "Property ID standardı: Her veri kaynağı otel kimliğiyle eşleşir",
+              "Katmanlı rapor: Grup Executive → Otel detay → Kanal/destinasyon sayfaları",
+              "Rol bazlı erişim: Yönetim, satış, operasyon için farklı görünüm",
+              "Destinasyon kırılımı: Antalya, Bodrum gibi GEO katmanı rapora dahil"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Grup içinde KPI tanımları her otelde aynı mı?",
+              "“Property ID” tüm kaynaklarda var mı?",
+              "Erişim yetkisi olmadan “tek rapor linki” paylaşılıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. Önce KPI sözlüğünü kilitle",
+              "2. Sonra veri modelini property bazlı kur",
+              "3. En son dashboard sayfalarını çoğalt (ölçek)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yonetim-ihtiyaclari",
+        "title": "Grup ve zincir oteller için raporlama ihtiyaçları (yönetim odaklı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Zincir yapılarda raporlamanın amacı yalnız “performansı görmek” değil; kaynak dağıtımı (bütçe, kampanya, ekip) kararını hızlandırmaktır. Yatırımcı/merkez ofis, önce grup toplam KPI’ları görmek ister; sonra “hangi otel neden sapıyor?” sorusuyla drill-down’a iner."
+          },
+          { "type": "h3", "text": "Üst seviye yönetim KPI’ları (örnek):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup toplam doluluk, ADR, RevPAR, gelir",
+              "Oteller arası benchmark (en iyi / en zayıf)",
+              "Destinasyon bazlı kırılım (Antalya vs Bodrum)"
+            ]
+          },
+          { "type": "media", "slot": "management-summary" },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "“Grup paneli” 1 sayfada özetlenebiliyor mu?",
+              "Otel bazlı sapma sebepleri (kanal, pazar, sezon) görülebiliyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. 1 sayfa Executive (Board) paneli tasarla",
+              "2. Her KPI kartı için “drill-down linki” planla",
+              "3. Benchmark sayfasını ayrı katman yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "property-veri-yapisi-naming",
+        "title": "Veri kaynaklarını property bazlı organize etmek (veri yapısı + naming convention)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Multi-property raporlamada en kritik konu, “veri kaynaklarının çoğalması” değil; düzenli çoğalmasıdır. Bu yüzden naming convention ve property sözlüğü, ilk günden kurulmalıdır."
+          },
+          { "type": "h3", "text": "Property veri modeli (pratik yaklaşım)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Property ID: Grup içindeki her otel için tekil kod",
+              "Destination: Antalya, Bodrum vb.",
+              "Brand/Concept: resort, city hotel, butik vb. (varsa)",
+              "Channel taxonomy: OTA/Web/Call Center/Agency standardı",
+              "KPI definitions: ADR/RevPAR formülleri sabit"
+            ]
+          },
+          {"type":"media","slot":"data-model"},
+          { "type": "h3", "text": "Naming convention örneği (basit ve ölçeklenebilir)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Data source: PMS_{PropertyID} / OTA_{PropertyID} / GA4_{PropertyID}",
+              "Dashboard: GROUP_Executive / HOTEL_{PropertyID}_Executive / HOTEL_{PropertyID}_Channels",
+              "Sayfa isimleri: 01_Executive, 02_Benchmark, 03_Channels, 04_Destination"
+            ]
+          },
+          { "type": "p", "text": "Teknik Not (sade): Subdomain / View / Filter yaklaşımı" },
+          {
+            "type": "p",
+            "text": "Tek bir raporda property filtresiyle tüm otelleri gösterebilirsiniz; ancak yönetim için grup raporu, otel ekipleri için otel raporu ayrı olduğunda karmaşıklık azalır. Filtreler ortak kalır, görünüm sadeleşir."
+          },
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Aynı kanal farklı isimle geçiyor mu? (“Booking”, “OTA”, “B.com”)",
+              "Property bazlı veri kaynakları adlandırması tutarlı mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. “Property sözlüğü” tablosu oluştur (ID, destinasyon, marka)",
+              "2. Kanal taksonomisini kilitle",
+              "3. Rapor isimlendirmesini standartlaştır"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dashboard-katmanlari",
+        "title": "Grup ve otel seviyesi dashboard katmanları (tasarım modeli)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Doğru katman, “tek rapor her şeye yeter” yaklaşımını bırakıp, yönetimle operasyonun ihtiyacını ayırır."
+          },
+          { "type": "h3", "text": "Katman 1 — Group Executive (merkez ofis/board)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Grup toplam KPI kartları: doluluk, ADR, RevPAR, gelir",
+              "Top-5 / Bottom-5 oteller",
+              "Destinasyon kırılımı (Antalya + Bodrum)"
+            ]
+          },
+          { "type": "media", "slot": "adr-revpar" },
+          { "type": "h3", "text": "Katman 2 — Hotel Executive (otel GM sayfası)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel KPI özetleri",
+              "Kanal mix (OTA/Web/Call Center)",
+              "Trend ve hedef sapması"
+            ]
+          },
+          { "type": "h3", "text": "Katman 3 — Drill-down (analiz sayfaları)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal performansı, pazar/ülke, segment/oda tipi",
+              "Kampanya / sezon kıyası",
+              "Benchmark analizi"
+            ]
+          },
+          { "type": "media", "slot": "drill-down-schema" },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Yönetim paneli “tek bakışta” karar üretiyor mu?",
+              "Otel ekipleri yalnız kendi oteline mi odaklanıyor?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. Yönetim panelinde metrik sayısını kısıtla (12 KPI)",
+              "2. Analiz sayfalarını drill-down’a taşı",
+              "3. Benchmark sayfasını mutlaka ekle (grup farkı burada çıkar)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rol-ve-erisim-modeli",
+        "title": "Kullanıcı ve erişim yetkileri (User Role modeli)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Zincir yapılarda güvenlik ve “doğru kişiye doğru ekran” yaklaşımı şarttır. Looker Studio raporlarını rol bazlı tasarlamak, yanlış paylaşımı ve karmaşayı azaltır."
+          },
+          { "type": "h3", "text": "Rol önerisi (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Board / Investor: Group Executive + Benchmark (detay kısıtlı)",
+              "Merkez Ofis Yönetim: Group + tüm drill-down",
+              "Otel GM: kendi oteli + sınırlı benchmark",
+              "Satış & Pazarlama: kanal performansı + kampanya sayfaları",
+              "Operasyon: doluluk, no-show, oda tipi kırılımları (varsa)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Multi-Property Raporlama: Rol Bazlı Dashboard Matrisi",
+            "headers": ["Rol", "Görünüm", "KPI seti (örnek)", "Yetki notu"],
+            "rows": [
+              ["Board/Investor", "Group Executive", "Doluluk, ADR, RevPAR, gelir", "Detay kısıtlı"],
+              ["Merkez Ofis Yönetim", "Group + Drill-down", "Tüm KPI + benchmark", "Tam erişim"],
+              ["Otel GM", "Hotel Executive", "Otel KPI + kanal mix", "Diğer oteller sınırlı"],
+              ["Satış & Pazarlama", "Kanal/Kampanya", "ROAS, CPA, funnel", "Kampanya odaklı"],
+              ["Operasyon", "Operasyon paneli", "doluluk, no-show, oda tipi", "Hassas gelir kısıtlı"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini Check",
+            "items": [
+              "Otel ekipleri diğer otellerin hassas verisini görüyor mu?",
+              "Link paylaşımı kontrolsüz mü?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. Rol bazlı rapor versiyonları oluştur",
+              "2. Paylaşım kurallarını yazılı hale getir",
+              "3. Hassas KPI’ları (net gelir vb.) sadece yetkili role aç"
+            ]
+          },
+          {"type":"media","slot":"gains"}
+        ]
+      },
+      {
+        "id": "x-otel-grubu-vaka-kutusu",
+        "title": "Çok otelli örnek dashboard senaryoları (X otel grubu vaka kutusu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Vaka Kutusu (SXO – örnek senaryo):\n5 otelli bir zincir düşünün: 3 otel Antalya’da, 2 otel Bodrum’da. Group Executive panelde grup toplam doluluk ve RevPAR görünür; aynı ekranda oteller arası sapmalar listelenir. Bir otelde RevPAR düşüyorsa, otel drill-down sayfasında kanal mix ve pazar kırılımıyla “neden” netleşir; kampanya/bütçe kararı daha hızlı alınır."
+          },
+          { "type": "media", "slot": "hotel-based-revpar" },
+          { "type": "h3", "text": "Ne yapmalıyım? (SXO final aksiyon listesi)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "1. Property sözlüğünü ve KPI tanımlarını kilitle",
+              "2. Group Executive’i 1 sayfada çıkar (pilot)",
+              "3. Otel bazlı drill-down sayfalarını şablonla çoğalt",
+              "4. Rol bazlı erişim kurallarını uygula",
+              "5. Destinasyon kırılımını (Antalya/Bodrum) standart filtreye ekle"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Multi-Property Otel Dashboard Örnek Şablonunu İndir",
+            "text": "Hazır şablonla grup paneli ve otel drill-down sayfalarını hızlıca kurarsınız.",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Grup Oteller İçin Looker Studio Mimari Analizi Talep Et",
+            "text": "Zincir raporlamada ölçeklenebilir mimari ve erişim modeli isteyenler için",
+            "href": "https://dgtlface.com/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "download-asset-multi-property-sablon",
+        "title": "Multi-Property Otel Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Multi-Property Otel Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu asset, zincir/grup oteller için Looker Studio raporlamasında “grup paneli + otel drill-down” katmanlarını hazır bir şablonla sunar. Property ID sözlüğü, naming convention ve rol bazlı dashboard matrisiyle hızlı kurulum sağlar. Antalya–Bodrum gibi destinasyon kırılımlarını standart filtreye dahil ederek çok otelli raporu ölçekler.",
+            "whoFor": "Zincir GM’ler, merkez ofis yöneticileri, yatırımcı raporlama ekipleri ve ajans raporlama liderleri.",
+            "steps": [
+              "Property sözlüğünü (ID, destinasyon, marka) oluşturup veri kaynaklarını bu ID ile eşleştir.",
+              "Group Executive ve Hotel Executive sayfalarını şablondan çoğalt.",
+              "Rol bazlı erişim matrisine göre rapor linklerini paylaştır."
+            ],
+            "checklist": [
+              "Property ID sözlüğü tamam",
+              "Naming convention uygulandı",
+              "Group panel 12 KPI sınırında",
+              "Rol bazlı erişim linkleri ayrıldı",
+              "Benchmark sayfası var"
+            ],
+            "href": "/downloads/cok-otelli-yapilarda-looker-studio-mimarisi-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çok otelli yapılarda Looker Studio dashboard’u nasıl tasarlanır?",
+        "a": "Üstte grup KPI özet paneli, altta otel bazlı drill-down sayfaları kurun. Veri kaynaklarını property ID ile eşleyip rol bazlı erişimle doğru kişiye doğru ekranı verin."
+      },
+      {
+        "q": "Grup oteller için tek dashboard mu, otel bazlı dashboard mu kullanılmalı?",
+        "a": "Yönetim için grup paneli, otel ekipleri için otel bazlı panel idealdir. Tek raporda her şeyi toplamak karmaşayı artırır; katmanlı yapı ölçeklenir."
+      },
+      {
+        "q": "Chain hotel KPI’ları Looker Studio’da nasıl gösterilir?",
+        "a": "Grup seviyesinde doluluk, ADR, RevPAR ve gelir kartlarıyla başlayın. Sonra otel bazlı sayfalarda kanal mix ve destinasyon/pazar kırılımlarını drill-down olarak açın."
+      },
+      {
+        "q": "Farklı şehirlerdeki otelleri aynı panelde nasıl raporlarım?",
+        "a": "Property ID + destinasyon alanı ile veri modelini kurup standart filtre ekleyin. Antalya ve Bodrum gibi destinasyonları tek panelde kıyaslayacak segmentler oluşturun."
+      },
+      {
+        "q": "Multi-property raporlama için en kritik kural nedir?",
+        "a": "KPI tanımları ve naming convention’ın grup çapında sabitlenmesi. Bu olmadan kıyas ve benchmark sağlıklı çalışmaz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 16:9 — cok-otelli-yapilarda-looker-studio-mimarisi-hero-01.webp — “Grup oteller için multi-property dashboard mimarisini anlatan kapak görseli”",
+          "h1-context-02 — 16:9 — cok-otelli-yapilarda-looker-studio-mimarisi-h1-context-02.webp — “Merkez ofis paneli ve otel bazlı drill-down sayfalarını gösteren bağlam görseli”",
+          "management-summary— 4:3 — cok-otelli-yapilarda-looker-studio-mimarisi-divider-03.webp — “Grup raporlama ihtiyaçlarına geçişi ayıran bölüm görseli”",
+          "hotel-based-revpar — 16:9 — cok-otelli-yapilarda-looker-studio-mimarisi-diagram-05.webp — “Group hotels dashboards yapısını gösteren multi property raporlama şeması”",
+          "checklist-06 — 1:1 — cok-otelli-yapilarda-looker-studio-mimarisi-checklist-06.webp — “Property veri modeli ve naming convention kurallarını özetleyen kontrol kartı”",
+          "adr-revpar — 1:1 — cok-otelli-yapilarda-looker-studio-mimarisi-kpi-07.webp — “Grup seviyesinde doluluk ADR RevPAR KPI özet kartlarını gösteren panel görseli”",
+          "drill-down-schema — 1:1 — cok-otelli-yapilarda-looker-studio-mimarisi-schema.webp — “Multi property raporlama katmanları ve erişim modeli çıktıları kanıt kartı”",
+          "table-role-dashboard-matrix — (tablo) “Multi-Property Raporlama: Rol Bazlı Dashboard Matrisi”"
+        ],
+        "technicalChecklist": [
+          "CTA (Primary): Grup Oteller İçin Looker Studio Mimari Analizi Talep Et — (Birden çok otelde KPI standardı, property veri modeli ve erişim yetkisiyle ölçeklenebilir raporlama kurmak isteyen zincirler için)",
+          "CTA (Secondary): Multi-Property Otel Dashboard Örnek Şablonunu İndir — “Hazır şablonla grup paneli ve otel drill-down sayfalarını hızlıca kurup standardı oturtursunuz.”",
+          "Secondary CTA Türü: Download Asset",
+          "CTA Yoğunluğu (Intent: Informational + Strategic / MoFu): Primary CTA: 2 kez ✅ (H1 sonunda + son 1/3) | Secondary CTA: 1 kez ✅",
+          "Link Yerleşimi (Internal Link Targets): https://dgtlface.com/tr/raporlama, https://dgtlface.com/tr/raporlama/looker-studio, https://dgtlface.com/tr/raporlama/benchmark-analizi, https://dgtlface.com/tr/pms-ota-yonetimi, https://dgtlface.com/tr/pms-ota/online-satis, https://dgtlface.com/tr/otel-dijital-pazarlama"
+        ]
+      }
+    }
+  },
+
+  "BlogCokDilliOtelSeoTrEnDeRuYapi": {
+    "title": "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi",
+    "slug": "cok-dilli-otel-seo-tr-en-de-ru-yapi",
+    "department": "hotel",
+    "updatedAt": "15 Ocak 2026",
+    "publishedAt": "2026-01-15",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Çok dilli otel SEO sadece çeviri değildir. URL mimarisi + hreflang + pazar odaklı içerik haritasıyla yanlış dil sorununu bitirin, direct booking’i büyütün.",
+    "seo": {
+      "metaTitle": "TR–EN–DE–RU Çok Dilli Otel SEO Blueprint | DGTLFACE",
+      "metaDescription": "Çok dilli otel SEO sadece çeviri değildir. URL mimarisi + hreflang + pazar odaklı içerik haritasıyla yanlış dil sorununu bitirin, direct booking’i büyütün."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa Adı / URL: Otel SEO — https://dgtlface.com/tr/otel/seo",
+        "Blog No / URL: Blog #4 — https://dgtlface.com/tr/otel/blog/cok-dilli-otel-seo-tr-en-de-ru-yapi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500"
+      ],
+      "strategySummary": "Bu yazı, otel SEO silosunda “çok dilli yapı” konusunu yalnız teknik bir hreflang meselesi olmaktan çıkarıp pazar odaklı içerik mimarisi ve direct booking büyümesiyle birleştiren temel blueprint’tir. Hedef persona GM/satış-pazarlama + web/ajans ekibidir; karar ihtiyacı “TR–EN–DE–RU yapıda Google’ın yanlış dili göstermesini nasıl engellerim ve her pazarda ayrı talep yaratacak içerik haritasını nasıl kurarım?” sorusudur. Funnel’da MoFu ağırlıklıdır: mimariyi netleştirir, içerik lokalizasyonunu standardize eder, KPI/raporlama düzenini kurar. Rakiplerin “sadece İngilizce” bakışını kırarak DE/RU pazarına özel turizm SEO modelini tek çerçevede sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "TBD",
+      "readingTime": "TBD"
+    },
+    "modules": {
+      "answerBlock": "TR–EN–DE–RU otel sitelerinde SEO, metin çevirmekten ibaret değildir; her pazarın arama niyeti ve teklif dili farklıdır. URL mimarisi ve hreflang doğru kurulmazsa Google yanlış dili gösterebilir; bu da bounce ve dönüşüm kaybı yaratır. Doğru yaklaşım: tek otel varlığını koruyan net mimari + her dil için ayrı keyword/içerik haritası + lokalizasyon. Böylece dört pazarda da direct booking güçlenir.",
+      "sgeSummary": "Çok dilli otel SEO’da önce URL mimarisi ve hreflang’ı doğru kurun; sonra her pazar için ayrı keyword ve lokal içerik haritasıyla Google’ın yanlış dil göstermesini engelleyip direct booking’i büyütün.",
+      "voiceAnswer": "Dört dilde SEO için URL mimarisini netleştirip hreflang’ı doğru kurun ve her pazara özel içerik üretin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, satış-pazarlama, web/ajans, içerik ekibi",
+        "Ana hedef: Yanlış dil gösterimini azaltmak, her pazarda talep + direct booking üretmek",
+        "KPI odağı: Dil bazlı organik trafik, yanlış dil kaynaklı bounce, booking funnel dönüşümü, pazar payı (DE/RU/UK/TR)",
+        "Entity’ler: Language, Country/Market, Hreflang, Hotel, Destination, Market Segment",
+        "Funnel: MoFu (mimari & içerik sistemi) → BoFu (teklif/oda dönüşümü)",
+        "GEO sinyali: Antalya/Belek/Side/Kemer/Bodrum + pazar örnekleri (DE/RU/UK/TR)",
+        "En kritik kaldıraç: Hreflang + canonical seti + pazar odaklı keyword haritaları"
+      ]
+    },
+    "h1": {
+      "title": "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi",
+      "intro": "Çok dilli otel sitelerinde en sık yanılgı şu: “Metni çevirdik, bitti.” Oysa Almanya’dan arayan kullanıcı “Hotel Antalya Türkei” gibi bir niyetle gelirken, TR iç pazarı “Antalya otel” diye arar; RU pazarı ise farklı bir dil ve beklenti setine sahiptir. Eğer URL mimarisi, canonical ve hreflang seti doğru değilse Google yanlış dili gösterebilir; kullanıcı daha ilk ekranda güveni kaybeder ve OTA’ya döner. Bu rehber, TR–EN–DE–RU yapıda hem teknik hem içerik tarafını pazar odaklı bir blueprint’e bağlar.",
+      "quickSummary": [
+        "Önce URL mimarisini seçin (klasör/alt domain/ccTLD) ve tutarlı uygulayın.",
+        "Her dil sayfasını canonical + hreflang ile doğru eşleyin; x-default ekleyin.",
+        "Her pazar için ayrı keyword/içerik haritası çıkarın (sadece çeviri yapmayın).",
+        "Dil seçici UX’i iyileştirin: kullanıcı dil değiştirmeden rezervasyona gidebilsin.",
+        "Dil bazlı KPI ve Search Console raporlama düzeni kurun."
+      ],
+      "ctaPrimary": {
+        "label": "Çok Dilli Otel SEO Mimarisi Analizi Talep Et",
+        "text": "TR/EN/DE/RU yapınızda yanlış dil sorunlarını, hreflang/canonical açıklarını ve pazar içerik haritasını netleştirmek için (GM & satış-pazarlama için).",
+        "href": "https://dgtlface.com/tr/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çok Dilli Otel SEO Mimarisi Analizi Talep Et",
+        "text": "TR/EN/DE/RU yapınızda yanlış dil sorunlarını, hreflang/canonical açıklarını ve pazar içerik haritasını netleştirmek için (GM & satış-pazarlama için).",
+        "href": "https://dgtlface.com/tr/otel/seo"
+      },
+      "secondary": {
+        "label": "TR–EN–DE–RU İçin Keyword & Hreflang Blueprint’ini İndir",
+        "text": "Her dil için keyword haritası ve hreflang setini tek şablonda verip uygulamayı hızlandırmanızı sağlar.",
+        "href": "https://dgtlface.com/tr/seo/yerel-seo"
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Otel SEO",
+        "href": "https://dgtlface.com/tr/otel/seo"
+      },
+      {
+        "label": "Otel dijital pazarlama",
+        "href": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+      },
+      {
+        "label": "SEO hizmetleri",
+        "href": "https://dgtlface.com/tr/seo-hizmetleri"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "cok-dilli-zorluklar",
+        "title": "Çok dilli otel sitelerinde SEO zorlukları nelerdir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli yapıda sorunlar genelde üç başlıkta çıkar: (1) Google yanlış dili gösterir, (2) diller birbirini kopya gibi görünüp kanibalizasyon yaratır, (3) içerik “çeviri” olduğu için pazar niyetini karşılamaz ve dönüşüm üretmez. Otel bağlamında bu etkiler büyüktür çünkü kullanıcı “tatil” kararı verirken güven ve tutarlılık arar. Yanlış dil sayfasına düşen kullanıcı, çoğu zaman geri dönüp OTA listesine gider."
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli otel SEO’su nasıl yapılır? (AEO)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Önce URL mimarisini seçin (klasör/alt domain/ccTLD) ve tutarlı uygulayın.",
+              "Her dil sayfasını canonical + hreflang ile doğru eşleyin; x-default ekleyin.",
+              "Her pazar için ayrı keyword/içerik haritası çıkarın (sadece çeviri yapmayın).",
+              "Dil seçici UX’i iyileştirin: kullanıcı dil değiştirmeden rezervasyona gidebilsin.",
+              "Dil bazlı KPI ve Search Console raporlama düzeni kurun."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "AIO triple mantığıyla “pazar hedefleme”yi netleştirin"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LanguageVersion → targets → specific market (DE içerik Almanya niyetine göre)",
+              "Destination → matches → Market intent (Belek golf DE’de farklı, TR’de farklı anlatılır)",
+              "Offer/RoomType → supports → booking decision (her dilde karar blokları)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "Önce teknik doğruluk (canonical + hreflang) sonra içerik lokalizasyonu.",
+              "Dil seçiciyi “başka sayfaya atma” değil “aynı niyeti doğru dilde sürdürme” olarak tasarlayın.",
+              "DE/RU pazarında destinasyon + teklif içeriklerini ayrı planlayın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "4-lang"
+          }
+        ]
+      },
+      {
+        "id": "url-mimarisi",
+        "title": "TR–EN–DE–RU için URL ve site mimarisini nasıl seçmelisiniz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mimari seçimi (alt domain / klasör / ccTLD) sadece “teknik” değil, operasyon ve içerik yönetimi kararıdır. Otellerde genellikle yönetilebilirlik ve tek otorite havuzu nedeniyle klasör yapısı daha pratiktir (Varsayım: tek domain). Önemli olan, seçtiğiniz modeli her dil için tutarlı uygulamanız ve her dilin kendine ait içerik ekosistemini kurmanızdır."
+          },
+          {
+            "type": "h3",
+            "text": "TR–EN–DE–RU için URL yapısını nasıl kurmalıyım? (AEO)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek domain + dil klasörleri: /tr/, /en/, /de/, /ru/",
+              "Her sayfanın her dilde “eşleniği” olmalı (aynı otel varlığı, farklı pazar dili).",
+              "Dil sayfaları canonical olarak kendi URL’ine işaret etmeli (self-canonical).",
+              "Dil seçimi x-default ile desteklenmeli (ana yönlendirme stratejisiyle uyumlu)."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Site mimarisi: “aynı menü her dilde” şart değil"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: EN sayfaları her pazara hitap eden genel bir katman olabilir; ama DE/RU pazarı için destinasyon ve teklif içerikleri farklı ağırlık ister. Bu yüzden menü ve içerik blokları her dilde birebir aynı olmak zorunda değildir; önemli olan otel varlığının tutarlılığı ve kullanıcı yolculuğunun bozulmamasıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "Dil klasörlerini netleştirin; URL standardını sabitleyin.",
+              "DE/RU menüsünde pazarın aradığı içerik türlerine daha görünür yer verin.",
+              "“Dil değiştirme”yi sayfayı sıfırlayan değil, niyeti koruyan bir aksiyon yapın."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "architecture"
+          }
+        ]
+      },
+      {
+        "id": "hreflang-kontrol",
+        "title": "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hreflang, Google’a “bu sayfanın farklı dil sürümleri var” demenin en net yoludur. Hatalı kurulduğunda ise tam tersine: Google yanlış dili gösterebilir, sayfalar birbirini kanibalize edebilir. Otellerde bunun etkisi daha serttir çünkü yanlış dilde fiyat/teklif metni güven kırar."
+          },
+          {
+            "type": "h3",
+            "text": "Hreflang yapısını nasıl kurmalıyım? (AEO)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her sayfa kendi dil eşdeğerlerini karşılıklı referanslamalı (reciprocal).",
+              "Dil ve ülke kodlarını stratejiye göre seçin (örn. de-DE, ru-RU).",
+              "x-default ile varsayılan dili tanımlayın (özellikle global trafik için).",
+              "Hreflang + canonical birlikte düşünülmeli (kendi kendine canonical, yanlış eşleşme yok).",
+              "Dil sayfaları “404/redirect” olmamalı; her dilde gerçek içerik bulunmalı."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Dil sinyalleri (meta, html lang, içerik)"
+          },
+          {
+            "type": "p",
+            "text": "Hreflang tek başına yetmez; HTML lang etiketi, meta ve sayfa içeriği gerçekten o dilde olmalıdır. Aksi halde Google “dil sinyalini” tutarsız görür. Özellikle DE/RU sayfalarında otomatik çeviri kokusu dönüşümü düşürür."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "Hreflang’ı sayfa türlerine göre test edin: oda/teklif/destinasyon/blog.",
+              "x-default’ı yönlendirme stratejinizle uyumlu kurun.",
+              "Search Console’da dil kırılımlarını izleyip sorunlu URL’leri hızla düzeltin."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "hreflang-canonical"
+          }
+        ]
+      },
+      {
+        "id": "lokalizasyon",
+        "title": "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli otel içeriklerinde asıl kazanç, pazarın niyetini yakalamaktır. TR iç pazar “kampanya ve fiyat” diline daha duyarlı olabilirken, DE pazarı “güven, koşullar, planlama”, RU pazarı “aile ve hizmet beklentisi” gibi farklı tonlar isteyebilir (Varsayım: pazar davranışları sektörel genellemelerle). Bu yüzden her dil için ayrı keyword haritası ve içerik planı gerekir."
+          },
+          {"type":"media","slot":"market-oriented-content"},
+          {
+            "type": "h3",
+            "text": "Almanca ve Rusça pazarda hangi otel keyword’leri öne çıkar? (AEO)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "DE: “Hotel Antalya Türkei”, “Familienhotel Belek”, “All Inclusive Resort Side”",
+              "RU: “семейный отель Анталья”, “Белек гольф отель”, “Сиде all inclusive”",
+              "TR: “Antalya otel”, “Belek aile oteli”, “Side her şey dahil”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Buradaki hedef: her dili birebir çevirmek değil, aynı konsepti pazarın arama biçimine uyarlamaktır."
+          },
+          {
+            "type": "h3",
+            "text": "Antalya/Belek/Side örneğiyle segment + pazar eşlemesi (GEO + AIO)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya: ilk kez gelenler, ulaşım, sezon",
+              "Belek: golf, aile resort, premium konsept",
+              "Side: deneyim + geziler, çift konsepti"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Dil bazlı örnek keyword haritası tablosu (TR/EN/DE/RU)",
+            "headers": ["Dil", "Örnek sorgu tipi", "İçerik türü", "Hedef sayfa", "CTA"],
+            "rows": [
+              ["TR", "“Antalya aile oteli”", "Blog/Hub", "Destinasyon hub", "“Aile odalarını incele”"],
+              ["EN", "“Antalya family resort”", "Blog/Hub", "Destinasyon hub", "“See family rooms”"],
+              ["DE", "“Familienhotel Belek”", "Blog/Hub", "DE destinasyon hub", "“Familienzimmer ansehen”"],
+              ["RU", "“семейный отель Анталья”", "Blog/Hub", "RU destinasyon hub", "“семейные номера”"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "items": [
+              "Dil bazlı keyword haritası çıkarın (destinasyon + segment + oda/teklif).",
+              "DE/RU içeriklerinde “güven ve koşullar” bloklarını daha görünür yapın.",
+              "Her dilde rezervasyona giden yol aynı netlikte olmalı (funnel kopmasın)."
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "content-checklist"
+          }
+        ]
+      },
+      {
+        "id": "kpi-raporlama",
+        "title": "Çok dilli otel SEO KPI ve raporlama nasıl yapılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli SEO’da “toplam trafik” bakışı yanıltır; dil bazında performans ve hata kaynaklarını görmeniz gerekir. Yanlış dil gösterimi kaynaklı bounce düşmeden dönüşüm artışı beklemek zordur. Bu nedenle raporlama; dil/pazar kırılımları ve funnel metrikleriyle kurulmalıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Çok dilli otel SEO performansını nasıl raporlarım? (AEO)"
+          },
+          {
+            "type": "p",
+            "text": "Kısa cevap (bullet mini cevap):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her dil klasörü için ayrı rapor kırılımı oluşturun (/tr, /en, /de, /ru).",
+              "Search Console’da her dil için ayrı property/filtre yaklaşımı kullanın.",
+              "KPI setini dil bazında okuyun: non-brand trafik, bounce, oda→booking CTR, rezervasyon katkısı.",
+              "Yanlış dil landing sayfalarını düzenli listeleyin ve hreflang/canonical düzeltin."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış kullanım): Doğru çok dilli yapı kurulan otellerde, yanlış dil gösterimi kaynaklı bounce oranlarının düştüğü ve DE/RU pazarından organik direct booking katkısının belirgin şekilde artabildiği görülebilir (site kalitesi ve içerik lokalizasyonuna bağlıdır)."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çok Dilli Otel SEO Mimarisi Analizi Talep Et",
+            "text": "TR/EN/DE/RU yapınızda yanlış dil sorunlarını, hreflang/canonical açıklarını ve pazar içerik haritasını netleştirmek için (GM & satış-pazarlama için).",
+            "href": "https://dgtlface.com/tr/otel/seo"
+          },
+          {
+            "type": "media",
+            "slot": "seo-funnel-paneli"
+          }
+        ]
+      },
+      {
+        "id": "keyword-hreflang-blueprint-indir",
+        "title": "TR–EN–DE–RU İçin Keyword & Hreflang Blueprint’ini İndir",
+        "blocks": [
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "TR–EN–DE–RU İçin Keyword & Hreflang Blueprint’ini İndir",
+            "text": "Her dil için keyword haritası ve hreflang setini tek şablonda verip uygulamayı hızlandırmanızı sağlar.",
+            "href": "https://dgtlface.com/tr/seo/yerel-seo"
+          },
+          {
+            "type": "download_asset",
+            "assetType": "blueprint",
+            "version": "v1.0",
+            "title": "TR–EN–DE–RU İçin Keyword & Hreflang Blueprint’ini İndir — Multilingual Otel SEO (v1.0)",
+            "purpose": "Bu blueprint, dört dilde otel siteniz için URL mimarisi, hreflang seti ve pazar odaklı keyword/içerik haritasını tek şablonda birleştirir. Hedef; yanlış dil gösterimi riskini düşürmek, DE/RU pazarlarında doğru destinasyon/teklif içerikleriyle direct booking’i büyütmektir.",
+            "whoFor": "Web/SEO ekibi + içerik yöneticisi + satış-pazarlama (pazar/teklif dili onayı).",
+            "steps": [
+              "URL mimarisi seçimini kesinleştir (klasör/alt domain/ccTLD) ve tüm dillerde uygula.",
+              "Hreflang setini sayfa türlerine göre çıkar (oda/teklif/destinasyon/blog) ve reciprocal test yap.",
+              "Her dil için keyword haritasını doldur ve 90 günlük içerik planına bağla."
+            ],
+            "auditSheet": {
+              "caption": "Audit Sheet (skor tablosu: 0–2)",
+              "headers": ["Kontrol Alanı", "Skor (0–2)", "Not"],
+              "rows": [
+                ["Dil klasör mimarisi tutarlı", "0", "TBD"],
+                ["Self-canonical doğru", "0", "TBD"],
+                ["Reciprocal hreflang doğru", "0", "TBD"],
+                ["x-default mevcut", "0", "TBD"],
+                ["HTML lang tutarlı", "0", "TBD"],
+                ["Dil bazlı keyword haritası var", "0", "TBD"],
+                ["DE/RU lokalizasyon kalitesi", "0", "TBD"],
+                ["Dil bazlı KPI raporu var", "0", "TBD"]
+              ]
+            },
+            "templateNotes": [
+              "Template: Dil Bazlı Keyword & İçerik Haritası",
+              "Destinasyon: Antalya / Belek / Side / Kemer / Bodrum",
+              "Segment: Family / Couple / Golf / Spa",
+              "Sayfa türü: Hub / Blog / Room / Offer"
+            ],
+            "first10Actions": [
+              "Hreflang reciprocal test (oda/teklif/destinasyon)",
+              "x-default stratejisi ve uygulaması",
+              "Dil seçici UX (niyet korumalı)",
+              "DE/RU pazar içerik planı (destinasyon + teklif)",
+              "Dil bazlı Search Console raporlama",
+              "Canonical çakışmalarını temizleme",
+              "Çeviri değil lokalizasyon guideline’ı çıkarma",
+              "Dil bazlı internal link haritası",
+              "Dil bazlı KPI dashboard",
+              "365 refresh planı"
+            ],
+            "deliverables": [
+              "Hreflang şeması görseli",
+              "Keyword haritası tablosu görseli",
+              "Dil seçici/navigasyon wireframe mockup",
+              "KPI kartı"
+            ],
+            "href": "/downloads/cok-dilli-otel-seo-tr-en-de-ru-yapi-v1.0.pdf",
+            "buttonLabel": "Blueprint’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çok dilli otel SEO’su nasıl yapılır?",
+        "a": "Önce URL mimarisi ve hreflang/canonical setini doğru kurun; sonra her dil için ayrı keyword ve içerik haritasıyla pazar odaklı lokalizasyon yapın. Dil bazlı KPI raporlamasıyla performansı izleyin."
+      },
+      {
+        "q": "TR–EN–DE–RU için URL ve hreflang yapısını nasıl kurmalıyım?",
+        "a": "Genellikle tek domain + dil klasörleri (/tr, /en, /de, /ru) yönetilebilir bir çözümdür. Her sayfa kendi kendine canonical olmalı, hreflang karşılıklı kurulmalı ve x-default eklenmelidir."
+      },
+      {
+        "q": "Almanca ve Rusça pazarda hangi otel keyword’leri öne çıkar?",
+        "a": "DE’de “Hotel Antalya Türkei”, “Familienhotel Belek” gibi ifadeler; RU’da ise aile/golf/destinasyon odaklı Rusça sorgular öne çıkar. Bu yüzden içerik birebir çeviri değil, pazarın arama biçimine uyarlanmalıdır."
+      },
+      {
+        "q": "Çok dilli otel SEO performansını nasıl raporlarım?",
+        "a": "Dil klasörlerine göre ayrı rapor kırılımları oluşturun ve Search Console’da dil bazlı izleme yapın. Blog→oda→booking funnel metriklerini dil bazında okuyun."
+      },
+      {
+        "q": "Hreflang hatası yüzünden yanlış dil çıkıyor, ne yapmalıyım?",
+        "a": "Önce hreflang karşılıklılığını (reciprocal) ve canonical çelişkilerini kontrol edin; x-default ve HTML lang tutarlılığını doğrulayın. Sorunlu URL’leri Search Console verisiyle tespit edip düzeltin."
+      },
+      {
+        "q": "Her dilde menü ve içerik birebir aynı olmak zorunda mı?",
+        "a": "Hayır; önemli olan otel varlığının tutarlılığı ve kullanıcı yolculuğunun bozulmamasıdır. DE/RU pazarı için destinasyon/teklif içeriklerinin ağırlığı farklılaştırılabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — cok-dilli-otel-seo-tr-en-de-ru-yapi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — cok-dilli-otel-seo-tr-en-de-ru-yapi-h1-context-02.webp",
+          "4-lang — 1600×1200 — cok-dilli-otel-seo-tr-en-de-ru-yapi-4-lang.webp",
+          "architecture — 1600×1200 — cok-dilli-otel-seo-tr-en-de-ru-yapi-architecture.webp",
+          "hreflang-canonical — 1920×1080 — cok-dilli-otel-seo-tr-en-de-ru-yapi-hreflang-canonical.webp",
+          "content-checklist — 1200×1200 — cok-dilli-otel-seo-tr-en-de-ru-yapi-content-checklist.webp",
+          "seo-funnel-paneli — 1200×1200 — cok-dilli-otel-seo-tr-en-de-ru-yapi-seo-funnel-paneli.webp",
+          "proof-08 — 1200×1200 — cok-dilli-otel-seo-tr-en-de-ru-yapi-proof-08.webp"
+        ],
+        "technicalChecklist": [
+          "Dil klasör mimarisi tutarlı",
+          "Self-canonical doğru",
+          "Reciprocal hreflang doğru",
+          "x-default mevcut",
+          "HTML lang tutarlı",
+          "Dil bazlı keyword haritası var",
+          "DE/RU lokalizasyon kalitesi",
+          "Dil bazlı KPI raporu var"
         ]
       }
     }

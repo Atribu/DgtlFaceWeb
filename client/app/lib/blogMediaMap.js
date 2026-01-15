@@ -1774,8 +1774,8 @@ export const BLOG_MEDIA_MAP = {
     "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":{
      banner: {
       src: "/images/blog/creative/Creative1-4/Creative1-4-1.jpeg",
-      alt: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
-      caption: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik"
+      alt: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
+      caption: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber"
     },
 
           "color-palette": {
@@ -1824,32 +1824,32 @@ export const BLOG_MEDIA_MAP = {
   "4-dilli-cagri-merkezi-multi-channel-entegrasyon":{
      banner: {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-1.jpeg",
-      alt: "",
-      caption: ""
+      alt: "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM",
+      caption: "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM"
     },
 
           "integration": {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-2.jpeg",
-      alt: "Hedef Entegrasyon",
+      alt: "3 ana problem (kopuk yapıda)",
       caption: "Hedef Entegrasyon"
     },
 
-           "multi-channel": {
+           "multi-channel-integration": {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-3.jpeg",
-      alt: "Multi-channel Entegrasyon Mimarisi",
+      alt: "4 dilli çağrı merkezi ile multi-channel misafir iletişimi nasıl kurulur?",
       caption: "Multi-channel Entegrasyon Mimarisi"
     },
 
-    "": {
+    "phone-message": {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-4.jpeg",
-      alt: "",
-      caption: "Kanallar Aarsı Kesintisiz Geçiş"
+      alt: "Telefon, WhatsApp ve web chat akışı (karşılıklı yönlendirme senaryoları)",
+      caption: "Kanallar Arası Kesintisiz Geçiş"
     },
 
-     "ota-message": {
+     "ota-message-center": {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-5.jpeg",
-      alt: "",
-      caption: ""
+      alt: "OTA ve rezervasyon platformu mesaj yönetimi (tek merkez)",
+      caption: "OTA ve rezervasyon platformu mesaj yönetimi (tek merkez)"
     },
 
           "message-example": {
@@ -1882,6 +1882,144 @@ export const BLOG_MEDIA_MAP = {
 
         "download": {
       src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+  "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-1.jpeg",
+      alt: "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
+      caption: "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?"
+    },
+
+          "pms-cycle": {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-2.jpeg",
+      alt: "",
+      caption: "Pms Eğitim ve Adaptasyon Döngüsü"
+    },
+
+           "role-based-education-matrix": {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-3.jpeg",
+      alt: "Eğitime Kimler Katılmalı, Rollere Göre Eğitim Setleri",
+      caption: "Rol Bazlı Pms Eğitim Matrisi"
+    },
+
+    "pms-role-play": {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-4.jpeg",
+      alt: "",
+      caption: "Pms Role-Play Senaryosu"
+    },
+
+     "weekly-pms": {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-5.jpeg",
+      alt: "",
+      caption: "Haftalık Pms Eğitim Takvimi"
+    },
+
+          "download": {
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-6.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+  "cok-otelli-yapilarda-looker-studio-mimarisi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-1.jpeg",
+      alt: "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
+      caption: "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı"
+    },
+
+          "office-panel": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-2.jpeg",
+      alt: "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulmalı?",
+      caption: "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulmalı?"
+    },
+
+           "management-summary": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-3.jpeg",
+      alt: " Grup ve zincir oteller için raporlama ihtiyaçları (yönetim odaklı)",
+      caption: " Grup ve zincir oteller için raporlama ihtiyaçları (yönetim odaklı)"
+    },
+
+    "hotel-based-revpar": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-4.jpeg",
+      alt: "Çok otelli örnek dashboard senaryoları (X otel grubu vaka kutusu)",
+      caption: "Çok otelli örnek dashboard senaryoları (X otel grubu vaka kutusu)"
+    },
+
+     "drill-down-schema": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-5.jpeg",
+      alt: "",
+      caption: "Haftalık Pms Eğitim Takvimi"
+    },
+
+          "data-model": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-6.jpeg",
+      alt: "Property veri modeli (pratik yaklaşım)",
+      caption: "Property veri modeli (pratik yaklaşım)"
+    },
+
+      "adr-revpar": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-7.jpeg",
+      alt: "Grup ve otel seviyesi dashboard katmanları (tasarım modeli)",
+      caption: "Grup ve otel seviyesi dashboard katmanları (tasarım modeli)"
+    },
+
+          "gains": {
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-8.jpeg",
+      alt: "Multi-Property Raporlama Çıktıları ve Kazanımlar",
+      caption: "Multi-Property Raporlama Çıktıları ve Kazanımlar"
+    }
+  },
+
+  "cok-dilli-otel-seo-tr-en-de-ru-yapi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-1.jpeg",
+      alt: "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi",
+      caption: "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi"
+    },
+
+          "4-lang": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-2.jpeg",
+      alt: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?",
+      caption: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?"
+    },
+
+           "architecture": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-3.jpeg",
+      alt: "TR–EN–DE–RU için URL ve site mimarisini nasıl seçmelisiniz?",
+      caption: "Sorunlu Yapı - Doğru Mimari"
+    },
+
+    "market-oriented-content": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-4.jpeg",
+      alt: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?",
+      caption: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?"
+    },
+
+     "hreflang-canonical": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-5.jpeg",
+      alt: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi",
+      caption: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi"
+    },
+
+          "content-checklist": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-6.jpeg",
+      alt: "Lokalizasyon ve İçerik Kontrol Listesi",
+      caption: "Lokalizasyon ve İçerik Kontrol Listesi"
+    },
+
+      "seo-funnel-paneli": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-7.jpeg",
+      alt: "Çok dilli otel SEO KPI ve raporlama nasıl yapılır?",
+      caption: "Dil Bazlı Seo Performans ve Funnel Paneli"
+    },
+
+          "download": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-8.jpeg",
       alt: "",
       caption: ""
     }
