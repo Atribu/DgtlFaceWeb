@@ -41530,6 +41530,632 @@
         ]
       }
     }
+  },
+
+   "BlogGoogleAdsDonusumKurgusuVeTakibi": {
+    "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
+    "slug": "google-ads-donusum-kurgusu-ve-takibi",
+    "department": "sem",
+    "updatedAt": "TBD",
+    "publishedAt": "TBD",
+    "readingTime": "TBD",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel dönüşüm takibini doğru kurun: rezervasyon, form, telefon, WhatsApp ve mikro etkileşimler. GA4 + GTM ile ölçün, Ads’e aktarın, cross-domain hatalarını önleyin.",
+    "refreshCycleDays": 180,
+    "seo": {
+      "metaTitle": "Oteller İçin Google Ads Dönüşüm Takibi (GA4+GTM) | DGTLFACE",
+      "metaDescription": "Otel dönüşüm takibini doğru kurun: rezervasyon, form, telefon, WhatsApp ve mikro etkileşimler. GA4 + GTM ile ölçün, Ads’e aktarın, cross-domain hatalarını önleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: Google Ads Yönetimi — /tr/sem/google-ads-yonetimi",
+        "Blog # / URL (Child): Blog #5 — /tr/sem/blog/google-ads-donusum-kurgusu-ve-takibi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700 (hedef)",
+        "Refresh Cycle: 180 gün",
+        "SERP Target: SGE How-To Answer + Featured Snippet",
+        "İç link rolü: Bu blog, /tr/sem/donusum-takibi-tag-manager sayfasına “teknik otorite” desteği veren ana parça."
+      ],
+      "strategySummary": "Bu yazı SEM silo’sunda “bütçe/teklif”ten sonra gelen en kritik teknik köprüdür: doğru dönüşüm kurgusu yoksa Smart Bidding “yanlış sinyale” göre optimize olur. Persona; otel GM / satış-pazarlama / ajans yöneticisi + teknik ekip; ana acısı “hangi kampanya gerçekten rezervasyon getiriyor?” sorusunun cevabını alamamak ve cross-domain booking engine yüzünden attribution’ın bozulmasıdır. Ana iş sorusu: “Otel için form + telefon + WhatsApp + rezervasyon + mikro etkileşimleri tek ölçüm şemasında nasıl kurarım ve Google Ads’e doğru aktarırım?” Bu içerik; GA4 + GTM yapısını otel rezervasyon motoru, call center ve raporlama ile uçtan uca bağlayarak rakiplerin “teorik anlatım” boşluğunu kapatır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "TBD",
+      "readingTime": "TBD"
+    },
+    "modules": {
+      "answerBlock": "Otellerde Google Ads dönüşüm kurgusu yalnızca “form gönderimi” değildir; rezervasyon, telefon araması, WhatsApp tıklaması ve hatta fiyat görüntüleme/oda detayı tıklaması gibi mikro etkileşimleri kapsayan katmanlı bir ölçüm setidir. GA4’te olayları (events) tanımlayıp önemli olanları “key event” olarak işaretler, GTM/Google tag ile tetiklersiniz. Google Ads tarafında dönüşümleri primary/secondary ayırarak (bid optimizasyonu vs gözlem) doğru sinyal gönderirsiniz.",
+      "sgeSummary": "Otel dönüşüm setini “primary/secondary” kurgula; GA4’te event→key event yap, GTM ile tetikle, Ads’e import et. Cross-domain booking engine ve call tracking hatalarını önce düzelt.",
+      "voiceAnswer": "Otel dönüşüm takibi; rezervasyon, arama, WhatsApp ve formu GA4+GTM ile ölçüp Ads’e aktarmaktır.",
+      "aiFactSheet": [
+        "Hedef kitle: GM / satış-pazarlama / ajans yöneticisi + teknik ekip (Intermediate–Expert)",
+        "KPI: CPA, rezervasyon sayısı, lead kalitesi, ROAS, call conversion oranı",
+        "Entity’ler: GA4 event, key event, Google Tag Manager, Google Ads conversion, call conversions, cross-domain measurement, server-side tagging",
+        "GEO: Antalya/Belek otel örneğinde booking engine cross-domain senaryosu",
+        "Risk: cross-domain yanlışsa referral/attribution bozulur; Ads optimizasyonu sapar",
+        "Hızlı kazanım: Primary/secondary dönüşümleri sadeleştir + cross-domain’i düzelt + call tracking’i aktif et"
+      ]
+    },
+    "h1": {
+      "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
+      "intro": "Otel reklamlarında performansı “bütçe” değil, çoğu zaman ölçüm doğruluğu belirler. Çünkü Google Ads (özellikle otomatik teklif stratejileri) dönüşüm sinyalini referans alır: dönüşüm yanlışsa optimizasyon da yanlıştır. Bu rehberde; otel özelinde dönüşüm türlerini sınıflandıracağız, GA4 + GTM mimarisini kuracağız, Google Ads’te primary/secondary dönüşüm ayrımıyla sinyali temizleyeceğiz ve booking engine cross-domain hatalarını engelleyeceğiz.",
+      "quickSummaryTitle": "Hızlı Özet Kutusu (SXO):",
+      "quickSummary": [
+        "1. Dönüşümleri katmanla (primary/secondary)",
+        "2. GA4 event isim standardı kur",
+        "3. GTM ile tetikleri “tek kaynak gerçek” yap",
+        "4. Ads’te primary aksiyonlar = bid sinyali, secondary = gözlem",
+        "5. Booking engine cross-domain’i düzelt (yoksa attribution bozulur)"
+      ],
+      "ctaPrimary": {
+        "label": "Dönüşüm Kurulumu & Audit Hizmeti Al",
+        "text": "1 toplantıda otelinizin dönüşüm haritasını çıkarıp GA4+GTM+Ads kurulum planını netleştirelim. (Internal Link: /tr/sem/donusum-takibi-tag-manager veya /tr/sem/google-ads-yonetimi)",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Dönüşüm Kurulumu & Audit Hizmeti Al",
+        "text": "Otelinizin dönüşüm haritasını çıkarıp GA4+GTM+Ads kurulumunu “tek doğru ölçüm” standardıyla kurarız.",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      "secondary": {
+        "label": "GA4 + GTM Dönüşüm Checklist’ini İndir",
+        "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      "rules": {
+        "intent": "Informational + Technical (MoFu ağırlıklı)",
+        "density": {
+          "primary": "2 kez",
+          "secondary": "1 kez"
+        },
+        "placement": [
+          "Primary CTA: H1 giriş sonunda (ilk ekran)",
+          "Secondary CTA: Orta bölümde (GA4+GTM / Cross-domain sonrası ideal)",
+          "Primary CTA: Son 1/3’te (Conversion set + sonuç bölümü)"
+        ]
+      }
+    },
+    "internalLinks": [
+      {
+        "label": "Dönüşüm Takibi (Tag Manager)",
+        "href": "/tr/sem/donusum-takibi-tag-manager"
+      },
+      {
+        "label": "Google Ads Yönetimi",
+        "href": "/tr/sem/google-ads-yonetimi"
+      },
+      {
+        "label": "Satış & Dönüşüm Raporlama",
+        "href": "/tr/raporlama/satis-donusum"
+      }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "hero",
+        "title": "GTM yapısı diyagramı",
+        "blocks": [
+          {
+            "type": "media",
+            "slot": "gtm-structure-diagram",
+            "note": "Buraya: “GTM yapısı” diyagramı (GA4 config → event tags → Google Ads conversion tags → QA)."
+          }
+        ]
+      },
+      {
+        "id": "donusum-turleri",
+        "title": "Dönüşüm Türleri (Form, Telefon, WhatsApp, Rezervasyon) ve Otel Gerçeği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel funnel’ında “dönüşüm” tek bir aksiyon değildir. Direkt rezervasyon kadar, call center’a giden aramalar ve WhatsApp sohbetleri de gelir üretir. Bu nedenle dönüşümleri iki katmanda düşünmelisiniz:"
+          },
+          {
+            "type": "h3",
+            "text": "Primary conversions (iş hedefi – bid sinyali)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rezervasyon tamamlandı (booking engine purchase/booking)",
+              "Nitelikli telefon araması (ör. 60+ saniye)",
+              "Nitelikli form (teklif/rezervasyon formu)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Google Ads’te primary dönüşümler, “Conversions” kolonuna girer ve otomatik teklif stratejilerinin optimize ettiği ana sinyaldir."
+          },
+          {
+            "type": "h3",
+            "text": "Secondary conversions (mikro/yardımcı – gözlem)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WhatsApp tıklaması",
+              "Oda detay görüntüleme",
+              "Fiyat/availability görüntüleme",
+              "Harita yol tarifi tıklaması"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Secondary dönüşümler, optimizasyonu şişirmeden “niyet” ve “UX darboğazı” göstermek için idealdir."
+          },
+          {
+            "type": "media",
+            "slot": "primary-vs-secondary-table",
+            "note": "Buraya: “Primary vs Secondary conversion set” örnek tablosu (kampanya bazında)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Primary sayısını az tut (1–3 ana dönüşüm).",
+              "Secondary’yi fazla tutabilirsin ama “bid sinyali” yapma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aeo-howto",
+        "title": "Google Ads dönüşüm takibi nasıl kurulur? (AEO – numbered list şart)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sesli aramada okunabilir 2–3 cümlelik adım blokları (Voice-First):"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Önce otelinizin primary dönüşümlerini seçin (rezervasyon, nitelikli arama, nitelikli form).",
+              "GA4’te ilgili event’leri üretin ve önemli olanları key event olarak işaretleyin.",
+              "Google Tag / GTM ile etiketleri kurup test edin; sonra Google Ads’te dönüşümleri primary/secondary ayırarak kampanyalara doğru hedef olarak uygulayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ga4-gtm-yapisi",
+        "title": "GA4 + Tag Manager Yapısı (Event → Key Event → Ads)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "GA4 artık “event tabanlı” çalışır. Mantık şu: önce doğru event’i üretir, sonra bu event’i “önemli” olarak işaretlersin ve raporlarsın. GA4 arayüzünde bir event’i key event olarak işaretleme adımı Admin > Events alanından yönetilir."
+          },
+          {
+            "type": "h3",
+            "text": "Event isim standardı (otel için pratik şema)"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Sitende TR/EN/DE/RU var; event isimleri dil bağımsız tutulmalı."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "booking_complete (primary)",
+              "lead_form_submit (primary)",
+              "call_click (secondary → call tracking ile primary olabilir)",
+              "whatsapp_click (secondary)",
+              "room_detail_view (secondary)",
+              "price_view (secondary)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Event adlarını “iş anlamı”na göre koy; sayfa URL’sine bağımlı yapma.",
+              "Aynı davranışı farklı sayfalarda tek event altında topla (raporlama kolaylaşır)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ads-primary-secondary-goals",
+        "title": "Google Ads tarafı: Primary/Secondary + Account-default goals (sinyal temizliği)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads’te dönüşümler iki kritik katmanla kontrol edilir:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Primary vs Secondary conversion actions (hangisi bid için kullanılacak?)",
+              "Account-default conversion goals (hangi hedefler varsayılan olarak kampanyalara uygulanacak?)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Oteller için önerilen “Conversion Set” (örnek)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Goal: Purchases/Bookings → booking_complete = Primary",
+              "Goal: Leads → lead_form_submit = Primary, whatsapp_click = Secondary",
+              "Goal: Calls → “calls from ads / website” = Primary (nitelik filtresi ile)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Not: Conversion goals, conversion actions’ları gruplar; bir action’ın goal içinde “primary_for_goal” olması bid ve “Conversions” raporunu etkiler (Ads API mantığı da bunu doğrular)."
+          },
+          {
+            "type": "media",
+            "slot": "goal-actions-schema",
+            "note": "Buraya: “Goal → actions → primary/secondary” görsel şeması."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Yeni kampanyada “account-default” goals yüzünden yanlış dönüşüm optimize ediliyorsa, kampanya hedeflerini netleştir.",
+              "“Her şeyi primary” yapma; bid sinyalini kirletir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gtm-ads-tag",
+        "title": "Tag Manager ile Google Ads dönüşüm etiketi kurma (web)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Ads dönüşüm etiketlerini GTM ile kuracaksan, Conversion ID ve Label’ı Google Ads dönüşüm aksiyonundan alıp GTM’de “Google Ads Conversion Tracking” tag’i ile kullanırsın. Web dönüşüm kurulumunun resmi akışı da “Conversions on a website” üzerinden başlar ve uygun bağlantı yöntemini seçtirir (scan / tag önerisi vb.)."
+          },
+          {
+            "type": "h3",
+            "text": "Otel örneği: Rezervasyon (booking_complete)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Trigger: “Rezervasyon teşekkür sayfası” veya booking engine event",
+              "Tag: Google Ads Conversion Tracking",
+              "QA: test booking / debug view / Ads tag diagnostics"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Booking engine farklı domaindeyse, aşağıdaki cross-domain bölümünü mutlaka uygulayacaksın."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "“Teşekkür sayfası yoksa” event bazlı tetik kullan (booking engine event).",
+              "Üretimde yayınlamadan önce 3 test senaryosu: mobil, desktop, farklı dil."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "call-tracking",
+        "title": "Call Tracking (telefon araması) – Otelde dönüşümün yarısı burada",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel satışında telefon araması çoğu zaman “yüksek niyet”tir. Google Ads, telefon aramalarını dönüşüm olarak ölçmek için farklı seçenekler sunar: ads üzerinden aramalar, call assets/call ads ve web sitesindeki call link tıklamaları gibi."
+          },
+          {
+            "type": "h3",
+            "text": "Nitelik filtresi (call length threshold)"
+          },
+          {
+            "type": "p",
+            "text": "Google Ads, bir aramayı dönüşüm saymak için “minimum arama süresi” gibi eşikler kullanmana izin verir; böylece kısa/kalitesiz aramaları elemiş olursun."
+          },
+          {
+            "type": "media",
+            "slot": "calls-flow-diagram",
+            "note": "Buraya: “Calls from ads / calls from website” akış diyagramı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Call center kullanan otellerde arama dönüşümü = gerçek gelir sinyali.",
+              "Minimum süre eşiğini iş modeline göre koy (ör. 30–60 sn)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cross-domain",
+        "title": "Cross-domain rezervasyon motoru (booking engine) – en kritik teknik tuzak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel sitelerinde rezervasyon motoru sıkça ayrı bir domain/subdomain olur. GA4’te cross-domain measurement doğru kurulmazsa, kullanıcı domain değiştirince “yeni oturum / referral” gibi görünür ve attribution bozulur. Google’ın resmi yönergesi; cross-domain measurement’ı Admin’den yapılandırmayı ve aynı tag ID’nin ilgili domainlerde kullanıldığını doğrulamayı anlatır."
+          },
+          {
+            "type": "h3",
+            "text": "Cross-domain için pratik checklist"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Web data stream tag ID (G-…): tüm domainlerde aynı property/tag ID mi?",
+              "GA4 Admin > Data streams > Configure cross-domain: booking engine domain’i eklendi mi?",
+              "Referral exclusion / unwanted referrals kontrol edildi mi? (özellikle ödeme sağlayıcıları)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teknik Not (kırmızı çizgi): Cross-domain hatalıysa Ads tarafında “hangi kampanya rezervasyon getirdi?” raporu da bozulur; çünkü temel kaynak/medium verisi sapar."
+          },
+          {
+            "type": "media",
+            "slot": "cross-domain-schema",
+            "note": "Buraya: “Ana site → booking engine (domain değişimi) → dönüşüm” şeması (yanına “doğru/yanlış” örneği)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Önce cross-domain’i düzelt, sonra Smart Bidding’i agresifleştir.",
+              "Booking engine vendor’ı ile aynı GA4 property/tag kuralını netleştir."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "GA4 + GTM Dönüşüm Checklist’ini İndir",
+            "text": "Ekibinize görev listesi olarak verin; 14 günlük sprint planı gibi kullanın.",
+            "href": "/tr/sem/donusum-takibi-tag-manager"
+          }
+        ]
+      },
+      {
+        "id": "ota-web-dengesi",
+        "title": "OTA ve Web Arasındaki Denge (ölçüm perspektifi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu blogun amacı OTA yönetimi yapmak değil; ama ölçüm kurgusunda OTA’yı “gerçeklik” olarak kabul etmelisin: kullanıcı kimi zaman OTA’dan görüp siteye gelir ya da tam tersi olur. Bu yüzden:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web dönüşümlerini temiz ölç",
+              "Call center dönüşümlerini ayrı takip et",
+              "Raporlamada “web + call + lead” setini tek çatıya koy (Internal Link: /tr/raporlama/satis-donusum)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO):",
+            "items": [
+              "Web dönüşümü düşük, call yüksekse: landing/UX değil “rezervasyon alışkanlığı” olabilir; call center entegrasyonunu güçlendir.",
+              "Web dönüşümü yüksekse: booking engine akışını koru; cross-domain’i bozmadan güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conversion-sets",
+        "title": "Otel Özelinde Önerilen Conversion Setleri (ready-to-use)",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "Set-A (Direkt rezervasyon odaklı – resort)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Primary: booking_complete, nitelikli call_conversion",
+              "Secondary: whatsapp_click, room_detail_view, price_view"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Set-B (Lead + teklif odaklı – butik / düşük sezon)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Primary: lead_form_submit, nitelikli call_conversion",
+              "Secondary: whatsapp_click, availability_check"
+            ]
+          },
+          {
+            "type": "h4",
+            "text": "“Primary/Secondary” kuralını unutma"
+          },
+          {
+            "type": "p",
+            "text": "Primary = optimizasyon sinyali; Secondary = gözlem."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Dönüşüm Kurulumu & Audit Hizmeti Al",
+            "text": "Dönüşüm setinizi (Set-A/Set-B) otelinizin Antalya/Belek gibi sezon dinamiklerine göre netleştirip kurulum checklist’i çıkaralım. (Internal Link: /tr/sem/donusum-takibi-tag-manager)",
+            "href": "/tr/sem/donusum-takibi-tag-manager"
+          },
+          {
+            "type": "p",
+            "text": "Word Count hedefi: 2300–2700 bandı."
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "GA4 + GTM Dönüşüm Checklist’ini İndir — SEM / Otel Conversion Tracking (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist_sprint_fix",
+            "version": "v1.0",
+            "title": "GA4 + GTM Dönüşüm Checklist’ini İndir — SEM / Otel Conversion Tracking (v1.0)",
+            "purpose": "Bu doküman, otellerde GA4 + GTM + Google Ads dönüşüm takibini hatasız kurmak için hazırlanmış “tek sayfa + sprint planı” rehberidir. Rezervasyon motoru cross-domain, call tracking ve primary/secondary dönüşüm ayrımını tek standartta toplar.",
+            "whoFor": "Otel satış-pazarlama + ajans performans ekibi + web/IT ekibi.",
+            "steps": [
+              "Checklist’te mevcut durumu işaretleyin.",
+              "Problem → kök neden → çözüm tablosuyla açıkları netleştirin.",
+              "14 günlük sprint planını uygulayıp KPI’larda önce/sonra farkını ölçün."
+            ],
+            "sections": [
+              {
+                "label": "A) Ölçüm & Önceliklendirme Checklist’i",
+                "items": [
+                  "Dönüşüm Seti",
+                  "• Primary dönüşümler seçildi (rezervasyon / nitelikli arama / nitelikli form)",
+                  "• Secondary dönüşümler tanımlandı (WhatsApp, oda detayı, fiyat görüntüleme)",
+                  "• Google Ads’te primary/secondary ayarı yapıldı",
+                  "GA4 (Event & Key Event)",
+                  "• Event isim standardı yazıldı (booking_complete vb.)",
+                  "• Gerekli event’ler üretiliyor",
+                  "• Kritik event’ler GA4’te “key event” olarak işaretlendi",
+                  "GTM / Tag",
+                  "• Google Ads Conversion Tracking tag’leri GTM’de kuruldu",
+                  "• Trigger’lar test edildi (debug)",
+                  "• Prod yayında 3 senaryo test edildi (mobil/desktop/dil)",
+                  "Call Tracking",
+                  "• Calls from ads ölçümü aktif (call length threshold belirlendi)",
+                  "• Website call click dönüşümü kuruldu (call link tıklaması)",
+                  "Cross-domain Booking Engine",
+                  "• Cross-domain measurement GA4 Admin’den kuruldu",
+                  "• Aynı tag ID tüm domainlerde kullanılıyor",
+                  "• Referral exclusion kontrol edildi"
+                ],
+                "notes": [
+                  "Buraya: Checklist’in 1 sayfalık PDF tasarımı (ikonlu)."
+                ]
+              },
+              {
+                "label": "B) Problem → Kök Neden → Çözüm Tablosu",
+                "notes": [
+                  "Buraya: Problem → Kök Neden → Çözüm tablosu."
+                ]
+              },
+              {
+                "label": "C) 14 Günlük Sprint Planı (Gün 1–14)",
+                "items": [
+                  "Gün 1: Conversion set kararı (Primary/Secondary)",
+                  "Gün 2: GA4 event isim standardı + event listesi",
+                  "Gün 3: GA4 key event işaretleme",
+                  "Gün 4: GTM tag/trigger kurulumları (Ads conversion tags)",
+                  "Gün 5: Call conversions (ads + website) kurulum",
+                  "Gün 6: Booking engine cross-domain kurulumu",
+                  "Gün 7: End-to-end QA (test rezervasyon/test call/test form)",
+                  "Gün 8–9: Google Ads’te primary/secondary düzeni + account-default goal kontrolü",
+                  "Gün 10: Raporlama şablonu (GA4 + Ads + satış dönüşüm)",
+                  "Gün 11: Enhanced conversions değerlendirme (varsa)",
+                  "Gün 12: (Opsiyonel) Server-side tagging planı",
+                  "Gün 13: Dashboard görünümü taslağı (Internal Link: /tr/raporlama/satis-donusum)",
+                  "Gün 14: İlk sonuç raporu + backlog"
+                ],
+                "notes": [
+                  "Buraya: Sprint zaman çizelgesi görseli."
+                ]
+              },
+              {
+                "label": "D) Öncesi/Sonrası KPI Tablosu",
+                "notes": [
+                  "Buraya: Öncesi/Sonrası KPI tablosu."
+                ]
+              },
+              {
+                "label": "E) Deliverables Listesi",
+                "items": [
+                  "Conversion map (Primary/Secondary) dokümanı",
+                  "GA4 event + key event listesi",
+                  "GTM tag/trigger listesi",
+                  "Cross-domain kurulum notu",
+                  "Call conversion kurulum notu",
+                  "QA test senaryoları + raporlama şablonu"
+                ],
+                "notes": [
+                  "Buraya: “Örnek dönüşüm tablosu” (primary/secondary) PDF."
+                ]
+              }
+            ],
+            "href": "TBD",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google Ads dönüşüm takibi nasıl kurulur?",
+        "a": "Önce primary dönüşümleri seçin, GA4’te event’leri üretip önemli olanları “key event” yapın, GTM/Google tag ile tetikleyip Ads’te primary/secondary ayrımıyla hedeflere bağlayın."
+      },
+      {
+        "q": "Oteller için hangi dönüşümler ölçülmeli?",
+        "a": "Minimum set: rezervasyon, nitelikli telefon araması ve nitelikli form (primary). WhatsApp ve oda/fiyat etkileşimleri secondary olarak izlenebilir."
+      },
+      {
+        "q": "GA4’te event’i dönüşüme nasıl çeviririm?",
+        "a": "GA4 Admin > Events bölümünde event’i oluşturup “Mark as key event” ile işaretleyin (izin gerekir)."
+      },
+      {
+        "q": "Cross-domain rezervasyon motorunda en sık hata nedir?",
+        "a": "Cross-domain measurement kurulmadığında domain geçişi referral gibi görünür ve attribution bozulur; GA4 Admin’den cross-domain kuralını tanımlamak gerekir."
+      },
+      {
+        "q": "Google Ads’te primary ve secondary dönüşüm farkı ne?",
+        "a": "Primary dönüşümler bidding optimizasyonu ve “Conversions” raporuna girer; secondary dönüşümler gözlem amaçlıdır ve bid sinyalini şişirmez."
+      },
+      {
+        "q": "Call tracking’i nasıl kurarım?",
+        "a": "Google Ads, reklamlardan gelen aramaları dönüşüm olarak ölçebilir; ayrıca web sitesindeki call link tıklamalarını da tag ile takip edebilirsiniz (minimum çağrı süresi eşiği tanımlanabilir)."
+      },
+      {
+        "q": "GTM ile Google Ads dönüşüm etiketi nasıl eklenir?",
+        "a": "Google Ads dönüşüm aksiyonundan Conversion ID/Label alın, GTM’de “Google Ads Conversion Tracking” tag’i ile kurup tetikleyiciyi belirleyin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "serpTarget": "SGE How-To Answer + Featured Snippet",
+        "wordCountTarget": "2300–2700",
+        "refreshCycleDays": 180,
+        "ctaLock": {
+          "primary": "Dönüşüm Kurulumu & Audit Hizmeti Al",
+          "secondary": "GA4 + GTM Dönüşüm Checklist’ini İndir",
+          "secondaryType": "Download Asset (Checklist / Sprint / Fix)",
+          "density": {
+            "primary": 2,
+            "secondary": 1
+          },
+          "internalLinkTargets": [
+            "/tr/sem/donusum-takibi-tag-manager",
+            "/tr/sem/google-ads-yonetimi"
+          ]
+        }
+      }
+    }
   }
 
   }

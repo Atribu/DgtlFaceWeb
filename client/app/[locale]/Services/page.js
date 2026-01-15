@@ -380,7 +380,7 @@ const cards = [
       } buttonText={t("servicespage_s1_button1")}/>
       </div>
 
-<AutoBreadcrumbsWhite/>
+  <AutoBreadcrumbsWhite/>
      <AiAnswerBlock text="DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital pazarlama çözümleri sunan bir teknoloji partneridir. Entegre dijital pazarlama mimarisi, veri odaklı raporlama ve turizm sektörüne özel uzmanlıkla; görünürlük, rezervasyon ve gelir artışını birlikte yönetir."/>
      <DualHighlightSection items={items} />
       <Section2 />

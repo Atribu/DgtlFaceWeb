@@ -2023,6 +2023,56 @@ export const BLOG_MEDIA_MAP = {
       alt: "",
       caption: ""
     }
+  },
+
+  "google-ads-donusum-kurgusu-ve-takibi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-1.jpeg",
+      alt: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
+      caption: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?"
+    },
+
+          "4-lang": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-2.jpeg",
+      alt: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?",
+      caption: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?"
+    },
+
+           "architecture": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-3.jpeg",
+      alt: "TR–EN–DE–RU için URL ve site mimarisini nasıl seçmelisiniz?",
+      caption: "Sorunlu Yapı - Doğru Mimari"
+    },
+
+    "market-oriented-content": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-4.jpeg",
+      alt: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?",
+      caption: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?"
+    },
+
+     "hreflang-canonical": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-5.jpeg",
+      alt: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi",
+      caption: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi"
+    },
+
+          "content-checklist": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-6.jpeg",
+      alt: "Lokalizasyon ve İçerik Kontrol Listesi",
+      caption: "Lokalizasyon ve İçerik Kontrol Listesi"
+    },
+
+      "seo-funnel-paneli": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-7.jpeg",
+      alt: "Çok dilli otel SEO KPI ve raporlama nasıl yapılır?",
+      caption: "Dil Bazlı Seo Performans ve Funnel Paneli"
+    },
+
+          "download": {
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-8.jpeg",
+      alt: "",
+      caption: ""
+    }
   }
   
 };

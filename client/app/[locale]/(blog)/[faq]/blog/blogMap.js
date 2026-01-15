@@ -4,7 +4,8 @@ export const BLOG_MAP = {
     "google-ads-oteller-icin-nasil-calisir": "BlogGoogleAdsOtellerIcinNasilCalisir",
     "google-ads-hesap-ve-kampanya-mimarisi":"BlogGoogleAdsHesapVeKampanyaMimarisi",
     "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri",
-    "google-ads-kalite-puani-nedir-nasil-yukseltilir":"BlogGoogleAdsKalitePuaniNedirNasilYukseltilir"
+    "google-ads-kalite-puani-nedir-nasil-yukseltilir":"BlogGoogleAdsKalitePuaniNedirNasilYukseltilir",
+    "google-ads-donusum-kurgusu-ve-takibi":"BlogGoogleAdsDonusumKurgusuVeTakibi"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",

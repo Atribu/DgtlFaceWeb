@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useRef} from "react";
+import { useMemo, useState, useRef, useEffect} from "react";
 import Link from "next/link";
 import { useTranslations, useLocale, useMessages } from "next-intl"; 
 import { BLOG_MAP } from "../(blog)/[faq]/blog/blogMap"
@@ -36,7 +36,7 @@ function BlogCard({ p, locale, t, GRADIENT }) {
   return (
     <Link
      href={`/${locale}/${p.dept}/blog/${p.slug}`}
-      className="group w-[260px] sm:w-[280px] lg:w-[320px] flex-none rounded-3xl border border-white/10 bg-white/5 p-4 transition hover:bg-white/10 snap-start"
+      className="group w-[260px] sm:w-[280px] lg:w-[320px] flex-none rounded-3xl border border-white/10 bg-white/5  transition hover:bg-[#547CCF]/50 snap-start"
     >
       <div className="mb-2 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
         <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
@@ -58,7 +58,8 @@ function BlogCard({ p, locale, t, GRADIENT }) {
         </div>
       )}
 
-      <h3 className="text-[15px] lg:text-[16px] font-semibold tracking-tight text-white line-clamp-2">
+     <div className="flex flex-col p-3">
+       <h3 className="text-[15px] lg:text-[16px] font-semibold tracking-tight text-white line-clamp-2">
         {p.title}
       </h3>
 
@@ -74,9 +75,133 @@ function BlogCard({ p, locale, t, GRADIENT }) {
           {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
         </Link>
       </div>
+     </div>
     </Link>
   );
 }
+
+function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
+  const [active, setActive] = useState(0);
+
+  // Türkçe yorum: 5 saniyede bir sonraki slide
+  useEffect(() => {
+    if (!posts?.length) return;
+    const id = setInterval(() => {
+      setActive((prev) => (prev + 1) % posts.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, [posts]);
+
+  if (!posts?.length) return null;
+
+  const p = posts[active];
+
+  return (
+    <section className="relative h-[85vh] overflow-hidden bg-black">
+      {/* Türkçe yorum: arka plan görsel */}
+      {p.banner?.src ? (
+        <Image
+          src={p.banner.src}
+          alt={p.banner.alt || p.title}
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+      ) : (
+        <div className="absolute inset-0">
+          <div className={`absolute -top-28 left-1/2 h-[520px] w-[90%] -translate-x-1/2 rounded-full ${GRADIENT} opacity-60 blur-3xl`} />
+        </div>
+      )}
+
+      {/* Türkçe yorum: Netflix benzeri karartma (okunabilirlik) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/0" />
+      <div className="absolute inset-0 bg-black/25" />
+
+      {/* Türkçe yorum: Arama overlay (yeri değişti ama aynı işlev) */}
+      
+      {/* Türkçe yorum: Sol içerik (header + text + buton) */}
+      <div className="relative z-10 mx-auto flex h-full w-full xl:w-[96%] max-w-[1900px] px-4">
+        <div className="flex w-full items-center">
+          <div className="max-w-2xl text-left">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
+              <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+              <span className="capitalize">{p.dept.replace("-", " ")}</span>
+            </div>
+
+            <h1 className="text-2xl md:text-3xl lg:text-5xl font-semibold tracking-tight text-white">
+              {p.title}
+            </h1>
+
+            <p className="mt-4 max-w-xl text-sm md:text-base lg:text-lg text-white/80 line-clamp-3 ">
+              {p.excerpt}
+            </p>
+
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <Link
+                href={`/${locale}/${p.dept}/blog/${p.slug}`}
+                className={`inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+              >
+                {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
+              </Link>
+
+        <div className="flex items-center justify-end">
+          <div className="w-full max-w-[520px]">
+            <div className="relative">
+              <input
+                ref={inputRef}
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t("searchPlaceholder")}
+                className="w-full rounded-2xl border border-white/30 bg-black/40 px-4 py-3 text-sm text-white outline-none backdrop-blur
+                           focus:border-white/40 focus:bg-black/50"
+              />
+              {query.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setQuery("")}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-3 py-2 text-xs text-white/80 transition hover:text-white"
+                >
+                  {t("clear")}
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+
+          <button
+                type="button"
+                onClick={() => inputRef.current?.focus()}
+                className="rounded-2xl border border-white/20 bg-white/5 px-5 py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10"
+              >
+                {t("searchButton")}
+              </button>
+    
+
+            </div>
+
+            {/* Türkçe yorum: alt mini progress/dots */}
+            <div className="mt-8 flex items-center gap-2">
+              {posts.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`Slide ${i + 1}`}
+                  onClick={() => setActive(i)}
+                  className={[
+                    "h-1.5 rounded-full transition",
+                    i === active ? "w-10 bg-white/90" : "w-5 bg-white/30 hover:bg-white/50",
+                  ].join(" ")}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 
 function BlogRail({ title, posts, locale, t, GRADIENT }) {
   const railRef = useRef(null);
@@ -92,7 +217,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT }) {
   if (!posts?.length) return null;
 
   return (
-    <section className="mt-8">
+    <section className="mt-4">
       <div className="mb-3 flex items-center justify-between">
         <h2 className="text-base lg:text-lg font-semibold text-white/90">
           {title}
@@ -103,19 +228,50 @@ function BlogRail({ title, posts, locale, t, GRADIENT }) {
           <button
             type="button"
             onClick={() => scrollByAmount(-1)}
-            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-white/80 hover:bg-white/10 transition"
             aria-label="Sola kaydır"
-          >
-            ‹
-          </button>
+             className="flex h-8 w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
+                 hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+            ><span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
+               
+              <span className="sr-only">Previous</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M15 5L9 12L15 19"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
           <button
             type="button"
             onClick={() => scrollByAmount(1)}
-            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-white/80 hover:bg-white/10 transition"
-            aria-label="Sağa kaydır"
-          >
-            ›
-          </button>
+             className="flex h-8 w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
+                 hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+            >
+                              <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
+              <span className="sr-only">Next</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M9 5L15 12L9 19"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
         </div>
       </div>
 
@@ -276,21 +432,27 @@ const rails = useMemo(() => {
   return out;
 }, [sortedFiltered]);
 
+// Türkçe yorum: Netflix hero için son eklenen 5 post
+const heroPosts = useMemo(() => {
+  return sortedFiltered.slice(0, 5);
+}, [sortedFiltered]);
+
+
 
 
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Banner */}
-      <section className="relative h-[40vh] lg:h-[45vh] overflow-hidden">
+      {/* <section className="relative h-[40vh] lg:h-[45vh] overflow-hidden">
         <div className="absolute inset-0 opacity-30 blur-3xl">
           <div
-            className={`absolute -top-28 left-1/2 h-[420px] w-[900px] -translate-x-1/2 rounded-full ${GRADIENT}`}
+            className={`absolute -top-28 left-1/2 h-[420px] w-[80%] -translate-x-1/2 rounded-full ${GRADIENT}`}
           />
         </div>
 
         <div className="absolute inset-0 bg-black/60" />
 
-        <div className="relative mx-auto flex h-full w-full max-w-[1500px] flex-col justify-center items-center px-4 mt-[3%]">
+        <div className="relative mx-auto flex h-full w-full  xl:w-[96%] max-w-[1900px] flex-col justify-center items-center px-4 mt-[3%]">
           <div className="max-w-2xl">
             <h1 className="text-2xl font-semibold tracking-tight md:text-3xl lg:text-5xl">
               {t("title")}
@@ -331,10 +493,20 @@ const rails = useMemo(() => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <HeroSlider
+  posts={heroPosts}
+  locale={locale}
+  t={t}
+  query={query}
+  setQuery={setQuery}
+  inputRef={inputRef}
+  GRADIENT={GRADIENT}
+/>
 
 {/* Results (Netflix rails) */}
-<section className="mx-auto w-full max-w-[1500px] px-4 py-2 lg:py-4">
+<section className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:py-4">
   <div className="mb-1 flex items-end justify-between gap-4">
     <p className="text-sm text-white/60">
       {t("results", { count: filteredPosts.length })}
@@ -363,7 +535,7 @@ const rails = useMemo(() => {
 
 
       {/* Departments */}
-      {/* <section className="mx-auto w-full max-w-[1500px] px-4">
+      {/* <section className="mx-auto w-full max-w-[1900px] px-4">
         <div className="-mt-12 lg:-mt-8 rounded-3xl border border-white/10 bg-black/60 p-4 backdrop-blur-xl">
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <DepartmentChips
