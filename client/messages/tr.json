@@ -38464,6 +38464,7 @@
             "type": "p",
             "text": "hreflang, çok dilli otel sitelerinde “doğru pazara doğru dil” garantisinin temelidir. Ancak tek başına yetmez: URL/directory standardı, self canonical kuralı, karşılıklı hreflang haritalaması ve Search Console test ritmi birlikte çalışmalıdır. Yeni dil eklenmeleri, domain/directory değişimleri veya redesign sonrası bu sistem mutlaka yeniden audit edilmelidir; aksi halde yanlış dilde sıralanma sorunları tekrarlar."
           },
+         
           {"type":"media","slot":"excel-table"},
           {
             "type": "cta",
@@ -41536,9 +41537,9 @@
     "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
     "slug": "google-ads-donusum-kurgusu-ve-takibi",
     "department": "sem",
-    "updatedAt": "TBD",
-    "publishedAt": "TBD",
-    "readingTime": "TBD",
+    "updatedAt": "15 Ocak 2026",
+    "publishedAt": "2026-01-15",
+    "readingTime": "9 dk okuma",
     "author": "DGTLFACE Editorial",
     "excerpt": "Otel dönüşüm takibini doğru kurun: rezervasyon, form, telefon, WhatsApp ve mikro etkileşimler. GA4 + GTM ile ölçün, Ads’e aktarın, cross-domain hatalarını önleyin.",
     "refreshCycleDays": 180,
@@ -41637,17 +41638,6 @@
     "relatedPosts": [],
     "sections": [
       {
-        "id": "hero",
-        "title": "GTM yapısı diyagramı",
-        "blocks": [
-          {
-            "type": "media",
-            "slot": "gtm-structure-diagram",
-            "note": "Buraya: “GTM yapısı” diyagramı (GA4 config → event tags → Google Ads conversion tags → QA)."
-          }
-        ]
-      },
-      {
         "id": "donusum-turleri",
         "title": "Dönüşüm Türleri (Form, Telefon, WhatsApp, Rezervasyon) ve Otel Gerçeği",
         "blocks": [
@@ -41692,7 +41682,7 @@
           },
           {
             "type": "media",
-            "slot": "primary-vs-secondary-table",
+            "slot": "transformation-layers",
             "note": "Buraya: “Primary vs Secondary conversion set” örnek tablosu (kampanya bazında)."
           },
           {
@@ -41708,7 +41698,7 @@
       },
       {
         "id": "aeo-howto",
-        "title": "Google Ads dönüşüm takibi nasıl kurulur? (AEO – numbered list şart)",
+        "title": "Google Ads dönüşüm takibi nasıl kurulur? ",
         "blocks": [
           {
             "type": "p",
@@ -41722,7 +41712,8 @@
               "GA4’te ilgili event’leri üretin ve önemli olanları key event olarak işaretleyin.",
               "Google Tag / GTM ile etiketleri kurup test edin; sonra Google Ads’te dönüşümleri primary/secondary ayırarak kampanyalara doğru hedef olarak uygulayın."
             ]
-          }
+          },
+          {"type":"media","slot":"goals-hierarchy"}
         ]
       },
       {
@@ -41797,11 +41788,7 @@
             "type": "p",
             "text": "Not: Conversion goals, conversion actions’ları gruplar; bir action’ın goal içinde “primary_for_goal” olması bid ve “Conversions” raporunu etkiler (Ads API mantığı da bunu doğrular)."
           },
-          {
-            "type": "media",
-            "slot": "goal-actions-schema",
-            "note": "Buraya: “Goal → actions → primary/secondary” görsel şeması."
-          },
+
           {
             "type": "callout",
             "variant": "action",
@@ -41867,7 +41854,7 @@
           },
           {
             "type": "media",
-            "slot": "calls-flow-diagram",
+            "slot": "call-tracking",
             "note": "Buraya: “Calls from ads / calls from website” akış diyagramı."
           },
           {
@@ -42098,9 +42085,10 @@
                 ]
               }
             ],
-            "href": "TBD",
+            "href": "/downloads/ga4-gtm-donusum-checklist-v1.0.pdf",
             "buttonLabel": "Checklist’i İndir"
-          }
+          },
+          {"type":"media","slot":"google-ads-checklist"}
         ]
       }
     ],
@@ -42154,6 +42142,454 @@
             "/tr/sem/google-ads-yonetimi"
           ]
         }
+      }
+    }
+  },
+
+  "BlogNextjsTeknikSeoJSSorunlariVeCozumleri": {
+    "title": "Next.js Teknik SEO: JS Sorunları ve Çözümleri",
+    "slug": "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri",
+    "department": "seo",
+    "updatedAt": "15 Ocak 2026",
+    "publishedAt": "2026-01-15",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google’ın JS tarama-render mantığı, SSR/SSG/CSR seçimleri, meta+schema yönetimi ve dinamik route/canonical kurallarıyla Next.js sitenizi SEO dostu hale getirin.",
+    "seo": {
+      "metaTitle": "Next.js Teknik SEO: JS Sorunları ve Çözümleri | DGTLFACE",
+      "metaDescription": "Google’ın JS tarama-render mantığı, SSR/SSG/CSR seçimleri, meta+schema yönetimi ve dinamik route/canonical kurallarıyla Next.js sitenizi SEO dostu hale getirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Teknik SEO — /tr/seo/teknik-seo",
+        "Blog / URL: /tr/seo/blog/javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Technical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri"
+      ],
+      "strategySummary": "Bu içerik, teknik SEO ile modern frontend (JavaScript/Next.js) kesişiminde “en sık görülen SEO kırılmaları” için teşhis + çözüm çerçevesi sunan hub içeriktir ve diğer performans/URL/hreflang/robots gibi içeriklere otorite taşır. Hedef persona: otel ve ajans projelerinde karar veren GM/satış–pazarlama yöneticisi + uygulayıcı SEO uzmanı + geliştirici ekip (Next.js). Funnel’da MoFu ağırlıklıdır: “riskleri gör → doğru render stratejisini seç (SSR/SSG/CSR) → meta/schema/canonical’ı standardize et → dinamik route/filtre yapısını kontrol altına al” akışını verir. Ana iş sorusu: “Next.js ile yaptığım site SEO uyumlu mu ve Google içeriği ilk HTML’de görebiliyor mu; filtre/rezervasyon yapıları görünürlüğe zarar veriyor mu?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-15",
+      "readingTime": "8 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "JavaScript ve Next.js tabanlı siteler, doğru kurulduğunda hızlı ve SEO dostu olabilir; yanlış kurulumda ise Google’ın içeriği görmesi ve sayfayı anlaması zorlaşır. Kritik kural şudur: Google’ın ilk HTML çıktısında ana içerik ve önemli linkler görünmelidir. SSR/SSG seçimi, meta ve structured data yönetimi, dinamik route/parametrelerin canonical stratejisi ve filtre/rezervasyon akışlarının indeks kontrolü birlikte planlandığında modern JS siteleri de güçlü organik görünürlük üretebilir.",
+      "sgeSummary": "Next.js SEO’da başarı; Google’ın ilk HTML’de içerik görmesi, SSR/SSG’nin doğru seçilmesi, meta+schema/canonical standardı ve filtre/rezervasyon URL’lerinin kontrol altına alınmasıyla gelir.",
+      "voiceAnswer": "Next.js siteniz SEO uyumlu olabilir; yeter ki ana içerik ilk HTML’de gelsin ve canonical doğru olsun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/ajans yöneticileri + SEO + geliştirici (Next.js)",
+        "Kritik entity’ler: JavaScript SEO, Next.js, SSR, SSG, CSR, dynamic routes, canonical, hotel filters",
+        "KPI: İndeks kapsamı temizliği, doğru sayfanın sıralanması, crawl/render verimi, CWV ve dönüşüm etkisi",
+        "Funnel: MoFu (teşhis → düzelt → doğrula → ölçekle)",
+        "Risk alanları: İlk HTML’de içerik yok, lazy load/infinite scroll, parametre çöplüğü, yanlış canonical, meta/schema eksikleri",
+        "Otel özel: oda listesi + filtre, rezervasyon akışı, kampanya landing’leri",
+        "Teknik not: Google’ın iki aşamalı tarama/render süreci ve render bütçesi kavramı"
+      ]
+    },
+    "h1": {
+      "title": "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri",
+      "intro": "Next.js ve modern JavaScript framework’leri; hız, UX ve geliştirme verimliliği için güçlüdür. Ancak yanlış render stratejisi ve yanlış URL/meta kurgusu, Google’ın sayfayı taramasını ve içeriği anlamasını zorlaştırabilir. Otel ve ajans projelerinde risk genelde aynı yerde patlar: oda listeleme/filtre, rezervasyon adımları, dinamik route’lar, meta+schema ve performansı bozan 3. parti script’ler. Bu rehber, “Google nasıl görüyor?” sorusuyla başlayıp SSR/SSG/CSR seçimini, meta/schema ve canonical standardını ve gerçek hayatta sık görülen sorun–çözüm senaryolarını adım adım netleştirir.",
+      "quickSummary": [
+        "1) Google’ın ilk HTML’de ne gördüğünü kontrol et",
+        "2) Para sayfalarında SSR/SSG/ISR kararını doğru ver",
+        "3) Meta + schema + canonical standardını kilitle",
+        "4) Dinamik route/filtre URL’lerini kontrol altına al",
+        "5) Tag/script yükünü azaltıp CWV’yi stabilize et"
+      ],
+      "ctaPrimary": {
+        "label": "JS & Next.js Teknik SEO Analizi Talep Et",
+        "text": "Next.js sitenizde Google’ın ilk HTML çıktısında ne gördüğünü test edip, render + canonical + meta sorunlarını hızlıca kapatmak isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "JS & Next.js Teknik SEO Analizi Talep Et",
+        "text": "Render/indeks/meta/canonical risklerini tek denetimde çıkarıp uygulanabilir fix listesi isteyen ekipler için.",
+        "href": "/seo/teknik-seo"
+      },
+      "secondary": {
+        "label": "Next.js & JS SEO Kontrol Listesini İndir",
+        "text": "Teknik ekibe görev listesi olarak verin; 2 haftalık teşhis–fix sprint’i gibi uygulayın.",
+        "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Teknik SEO (Hub)", "href": "/seo/teknik-seo" },
+      { "label": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "label": "Dönüşüm Takibi & Tag Manager", "href": "/sem/donusum-takibi-tag-manager" }
+    ],
+    "relatedPosts": [
+      { "title": "Teknik SEO (Hub): Kapsam ve Standartlar", "href": "/seo/teknik-seo" },
+      { "title": "Web Sitesi Geliştirme: Next.js Mimari Kararları", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "title": "Dönüşüm Takibi: Tag Manager ve Performans Dengesi", "href": "/sem/donusum-takibi-tag-manager" }
+    ],
+    "sections": [
+      {
+        "id": "giris-nextjs-js-teknik-seo",
+        "title": "Giriş: Google nasıl görüyor? (Next.js + JS teknik SEO çerçevesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js ve modern JavaScript framework’leri; hız, UX ve geliştirme verimliliği için güçlüdür. Ancak yanlış render stratejisi ve yanlış URL/meta kurgusu, Google’ın sayfayı taramasını ve içeriği anlamasını zorlaştırabilir. Otel ve ajans projelerinde risk genelde aynı yerde patlar: oda listeleme/filtre, rezervasyon adımları, dinamik route’lar, meta+schema ve performansı bozan 3. parti script’ler. Bu rehber, “Google nasıl görüyor?” sorusuyla başlayıp SSR/SSG/CSR seçimini, meta/schema ve canonical standardını ve gerçek hayatta sık görülen sorun–çözüm senaryolarını adım adım netleştirir."
+          },
+          { "type": "media", "slot": "diagram-ssr-ssg-csr" },
+          { "type": "media", "slot": "table-problem-root-solution-cover" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "JS & Next.js Teknik SEO Analizi Talep Et",
+            "text": "Next.js sitenizde Google’ın ilk HTML çıktısında ne gördüğünü test edip, render + canonical + meta sorunlarını hızlıca kapatmak isteyen ekipler için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "google-js-render-sureci",
+        "title": "Google’ın JS Siteleri Nasıl İşlediği?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google, JavaScript siteleri “sadece HTML” gibi okumaz; tarama ve render süreçleri vardır. Pratikte iki kritik gerçek önemlidir: 1. İlk taramada Google HTML’i alır ve “hemen görünen” sinyalleri okur (title, meta, linkler, içerik). 2. JavaScript ile sonradan yüklenen içerik, bazı senaryolarda gecikebilir veya her zaman güvenilir şekilde işlenmeyebilir."
+          },
+          { "type": "p", "text": "Varsayım: Burada amaç korkutmak değil; “kritik içerik ilk HTML’de olsun” standardını kilitlemektir." },
+          { "type": "h3", "text": "Google JavaScript siteleri nasıl işler?" },
+          {
+            "type": "p",
+            "text": "Google önce sayfanın HTML’ini tarar; ardından gerekli görürse JavaScript’i çalıştırıp render eder. Bu yüzden ana içerik ve önemli linklerin ilk HTML’de bulunması SEO açısından daha güvenlidir."
+          },
+          { "type": "h3", "text": "Render bütçesi (rendering budget) neden konuşulur?" },
+          {
+            "type": "p",
+            "text": "Her site için sınırsız render kapasitesi yoktur. Ağır JS, çok sayıda URL varyasyonu ve gereksiz sayfa üretimi; render verimini düşürür. Otel sitelerinde filtre URL’leri ve dinamik listeler bu riski büyütür."
+          },
+          {"type":"media","slot":"render-time"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“View Source” ve “Inspect URL” ile Google’ın ilk HTML’de ne gördüğünü kontrol et.",
+              "Ana içerik + ana linkler ilk HTML’de değilse SSR/SSG yönüne kay.",
+              "Filtre/parametre URL’lerini kontrol altına al (canonical/noindex)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ssr-ssg-csr-farklari",
+        "title": "SSR, SSG ve CSR Farkları",
+        "blocks": [
+          { "type": "p", "text": "Bu üç yaklaşımın SEO etkisi, “Google içeriği ne zaman görebiliyor?” sorusuna cevap verir." },
+          { "type": "h3", "text": "SSR (Server-Side Rendering)" },
+          {
+            "type": "p",
+            "text": "Sunucu, isteğe göre sayfayı render eder ve HTML’i içerikle birlikte gönderir. SEO için güvenlidir; dinamik sayfalarda (oda liste, kampanya) güçlüdür."
+          },
+          { "type": "h3", "text": "SSG (Static Site Generation)" },
+          {
+            "type": "p",
+            "text": "Sayfa build sırasında üretilir, CDN’den hızlı servis edilir. SEO için genelde en stabil yöntemdir; içerik sık değişmiyorsa ideal."
+          },
+          { "type": "h3", "text": "CSR (Client-Side Rendering)" },
+          {
+            "type": "p",
+            "text": "İçerik tarayıcıda JS ile oluşur. Eğer ana içerik ilk HTML’de yoksa SEO riski artar. Bazı interaktif parçalar için uygundur; ama “ana içerik” CSR’a bırakılmamalıdır."
+          },
+          { "type": "h3", "text": "SSR, SSG ve CSR farkı nedir, SEO’yu nasıl etkiler?" },
+          {
+            "type": "p",
+            "text": "SSR/SSG’de ana içerik HTML’de hazır gelir, Google daha hızlı ve doğru anlar. CSR’da içerik JS ile sonradan geldiği için Google’ın içeriği görmesi gecikebilir; kritik sayfalar için risklidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Para sayfaları (oda/destinasyon/hizmet/kampanya) SSR/SSG olsun.",
+              "CSR’ı sadece interaktif bileşenlere indir (filtre UI, modal vb.).",
+              "İçerik değişim sıklığına göre SSG/ISR veya SSR seç."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nextjs-seo-riskleri",
+        "title": "Next.js ve Modern Framework’lerde SEO Riskleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Next.js SEO’da başarılıdır; fakat bazı hatalar “sessiz” yaşanır: site görünür, kullanıcı okur, ama Google’ın gördüğü sayfa zayıf olur."
+          },
+          { "type": "h3", "text": "İlk HTML çıktısında içerik görünüyor mu?" },
+          {
+            "type": "p",
+            "text": "En kritik teşhis sorusu budur. Otel oda listesi veya ajans hizmet sayfası “boş bir shell” olarak geliyorsa, Google ilk turda yeterli sinyal alamaz."
+          },
+          { "type": "h3", "text": "Lazy load ve infinite scroll taramayı nasıl etkiler?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Lazy load görseller için doğru; ama metin içerik ve ana ürün/oda listesi lazy olursa tarama ve keşif zayıflar.",
+              "Infinite scroll, paginated alternatif olmadan kullanılırsa “derin içerik” keşfedilemeyebilir."
+            ]
+          },
+          { "type": "h3", "text": "Script ve üçüncü taraf tag’lerin performansa etkisi (SEO + CWV)" },
+          {
+            "type": "p",
+            "text": "Ağır tag’ler CWV’yi bozar, özellikle mobilde INP/LCP etkilenir. Ayrıca render sürecini yavaşlatıp “geç içerik” hissi yaratır. Varsayım: Tag yönetimi için ayrı içerik/sayfa var (Internal Link Targets’te var)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Ana içerik SSR/SSG ile gelsin; lazy only “non-critical”.",
+              "Infinite scroll varsa mutlaka paginated URL’ler olsun.",
+              "Tag’leri sadeleştir; ölçüm var ama performans da var."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "meta-ve-structured-data",
+        "title": "Meta ve Structured Data Yönetimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Modern JS sitelerde meta yönetimi yanlış olursa, sayfalar aynı title/description ile gezer ve Google hangi sayfanın ne olduğunu ayırt edemez. Structured data (JSON-LD) eksikse snippet fırsatları kaçabilir."
+          },
+          { "type": "h3", "text": "Next.js meta yönetimi (head / metadata)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her sayfanın title/description’ı route bazında unique olmalı",
+              "OG/Twitter meta’ları tutarlı olmalı",
+              "Canonical ve hreflang gibi kritik etiketler template ile yönetilmeli"
+            ]
+          },
+          { "type": "h3", "text": "Structured data (JSON-LD) ne zaman kırılır?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Client-side inject edilirse bazen geç gelebilir",
+              "Duplicate schema üretilebilir",
+              "URL/@id tutarsız olabilir"
+            ]
+          },
+          { "type": "media", "slot": "meta-schema-checklist" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Meta’ları route bazında dinamik ve sunucu tarafı üret.",
+              "JSON-LD’yi sayfada tek kaynak gerçek olarak standardize et.",
+              "Rich Results Test + URL Inspection ile doğrula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dinamik-route-parametreler",
+        "title": "Dinamik Route ve Parametreler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel ve ajans sitelerinde dinamik route kaçınılmazdır: oda detayları, bloglar, kampanyalar, hizmet alt sayfaları. Risk, kontrolsüz parametrelerle “sonsuz URL” üretmektir."
+          },
+          { "type": "h3", "text": "Dinamik URL parametreleri ve canonical kullanımı" },
+          {
+            "type": "p",
+            "text": "Parametreli URL’ler (filtre/sıralama/utm) kanonik sayfaya canonical vermeli ve gerekiyorsa noindex ile desteklenmelidir. Aksi halde kanibalizasyon ve crawl budget sızıntısı olur."
+          },
+          { "type": "h3", "text": "Dinamik otel listeleme ve filtre sayfaları SEO’ya zarar verir mi?" },
+          {
+            "type": "p",
+            "text": "Zarar verebilir; özellikle her filtre kombinasyonu ayrı indekslenebilir URL üretirse. Çözüm: filtre UI’ı kullanıcıya açık kalsın ama indeks stratejisi canonical/noindex ve kontrollü, değer üreten “landing filtre sayfaları” ile yönetilsin."
+          },
+          {"type":"media","slot":"dynamic-url"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Parametre URL’leri için index stratejisini yaz (hangisi index, hangisi noindex).",
+              "Canonical’ı “temiz” kanonik URL’e bağla.",
+              "Değer üreten filtre kombinasyonları için ayrı landing yaklaşımı kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ornek-senaryolar",
+        "title": "Otel ve Ajans Siteleri İçin Örnek Sorun–Çözüm Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “gerçekte ne oluyor?” sorusuna kısa teşhis–çözüm kalıplarıyla cevap verir."
+          },
+          { "type": "h3", "text": "Senaryo 1: Oda listesi Google’da görünmüyor" },
+          {
+            "type": "p",
+            "text": "Belirti: Oda listesi sayfası indexlenmiyor veya zayıf sıralanıyor. Kök neden: Liste CSR ile geliyor; ilk HTML boş/sinyal zayıf. Çözüm: Liste SSR/SSG/ISR ile gelsin; kritik metin ve linkler HTML’de olsun."
+          },
+          { "type": "h3", "text": "Senaryo 2: Filtre kombinasyonları binlerce URL üretiyor" },
+          {
+            "type": "p",
+            "text": "Belirti: Search Console’da tarama bütçesi boşa gidiyor; “Duplicate” artıyor. Kök neden: Parametreler indexlenebilir, canonical yok veya yanlış. Çözüm: canonical standardı + noindex + parametre kontrolü; sadece değerli kombinasyonlar için ayrı landing."
+          },
+          { "type": "h3", "text": "Senaryo 3: Meta title/description her sayfada aynı" },
+          {
+            "type": "p",
+            "text": "Belirti: Google hangi sayfanın ne olduğunu ayırt edemiyor, CTR düşüyor. Kök neden: Meta template statik veya yanlış route mapping. Çözüm: Route bazlı meta üretimi + içerik/silo anahtar kelimeleriyle standardizasyon."
+          },
+          { "type": "h3", "text": "Senaryo 4: JSON-LD bazen görünmüyor veya duplicate" },
+          {
+            "type": "p",
+            "text": "Belirti: Rich Results dalgalı, schema hata veriyor. Kök neden: Client-side inject veya iki yerde schema basılıyor. Çözüm: Tek yerden server-side JSON-LD; url/@id tutarlı."
+          },
+          { "type": "h3", "text": "Senaryo 5: Tag Manager ve 3. parti script’ler CWV’yi çökertiyor" },
+          {
+            "type": "p",
+            "text": "Belirti: LCP/INP kötüleşiyor, mobilde etkileşim gecikiyor. Kök neden: Gereksiz tag yükü, yanlış tetikleme, kritik path’i bloklama. Çözüm: Tag temizlik + geciktirme + kritik ölçüm seti; performans ile uyum."
+          },
+          { "type": "media", "slot": "table-problem-diagnosis-fix-test" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Next.js & JS SEO Kontrol Listesini İndir",
+            "text": "Teknik ekibe görev listesi olarak verin; 2 haftalık teşhis–fix sprint’i gibi kullanın.",
+            "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Önce “para sayfaları”nda HTML görünürlüğünü düzelt.",
+              "Parametre/filtre stratejisini kilitle, canonical/noindex standardı kur.",
+              "Meta+schema’yı template hale getir, test rutinini oturt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ozet-bakim-plani",
+        "title": "Özet ve Bakım Planı",
+        "blocks": [
+           {"type":"media","slot":"365-days-cycle"},
+          {
+            "type": "p",
+            "text": "Modern JS/Next.js sitelerde SEO başarısı, “Google’ın gördüğü sayfa” ile “kullanıcının gördüğü sayfanın” aynı olmasına dayanır. SSR/SSG seçimleri, meta/schema standardı, dinamik route ve canonical stratejisi doğru kurulduğunda Next.js son derece SEO dostudur; üstelik performans avantajıyla rekabette öne çıkar. Ancak Google’ın JS işleme süreçleri ve Next.js sürümleri zamanla güncellenebileceği için bu rehberdeki kontrol noktaları 365 gün periyotla yeniden gözden geçirilmelidir."
+          },
+          { "type": "media", "slot": "sprint-plan-mini-14-days" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "JS & Next.js Teknik SEO Analizi Talep Et",
+            "text": "Render/indeks/meta/canonical risklerini tek denetimde çıkarıp uygulanabilir fix listesi isteyen ekipler için.",
+            "href": "/seo/teknik-seo"
+          }
+        ]
+      },
+      {
+        "id": "nextjs-js-seo-checklist-pdf",
+        "title": "Next.js & JS SEO Kontrol Listesini İndir — Teknik SEO / JS Troubleshooting",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Next.js & JS SEO Kontrol Listesini İndir — Teknik SEO / JS Troubleshooting (v1.0)",
+            "purpose": "Bu doküman, Next.js/JavaScript tabanlı sitelerde teknik SEO risklerini teşhis → önceliklendir → sprint ile düzelt yaklaşımıyla yönetmek için hazırlanmıştır. Ana hedef; Google’ın ilk HTML’de içerik ve linkleri görebilmesi, meta+schema standardının tutarlı olması ve parametre/filtre URL’lerinin kontrol altına alınmasıdır.",
+            "whoFor": "SEO uzmanı + geliştirici + proje yöneticisi (otel/ajans) birlikte.",
+            "steps": [
+              "“İlk HTML görünürlüğü” testini yap ve riskli şablonları seç.",
+              "Checklist ile kök nedenleri işaretle, çözüm tablosunu doldur.",
+              "14 günlük sprint planıyla fix’leri uygula ve Search Console/PSI ile doğrula."
+            ],
+            "checklist": [
+              "View Source’da ana içerik görünüyor",
+              "URL Inspection “Rendered HTML” içerik ve linkleri içeriyor",
+              "Önemli iç linkler (oda/hizmet) HTML’de mevcut",
+              "Infinite scroll varsa paginated alternatif var",
+              "Para sayfaları SSR/SSG/ISR",
+              "CSR sadece interaktif parçalar",
+              "Title/description route bazlı unique",
+              "Canonical self ve tutarlı",
+              "JSON-LD tek kaynaktan üretiliyor (duplicate yok)",
+              "Filtre URL’leri indeks stratejisi net (canonical/noindex)",
+              "UTM/gclid vb. canonical temiz URL’e gidiyor",
+              "3. parti tag envanteri çıkarıldı",
+              "Kritik path’i bloklayan script yok",
+              "CWV (LCP/CLS/INP) ölçümü yapıldı"
+            ],
+            "href": "/downloads/nextjs-js-seo-kontrol-listesi-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google JavaScript siteleri nasıl işler?",
+        "a": "Google önce HTML’i tarar, sonra gerektiğinde JavaScript’i çalıştırıp render eder. Ana içerik ve linklerin ilk HTML’de olması daha güvenlidir."
+      },
+      {
+        "q": "Next.js SEO dostu mu?",
+        "a": "Evet. SSR/SSG/ISR doğru kullanılır, meta+schema ve canonical standardı doğru kurulursa Next.js oldukça SEO dostudur."
+      },
+      {
+        "q": "SSR, SSG ve CSR farkı nedir, SEO’yu nasıl etkiler?",
+        "a": "SSR/SSG’de içerik HTML’de hazır gelir ve Google sayfayı hızlı anlar. CSR’da içerik JS ile sonradan geldiği için kritik sayfalarda SEO riski artabilir."
+      },
+      {
+        "q": "Dinamik otel listeleme ve filtre sayfaları SEO’ya zarar verir mi?",
+        "a": "Kontrolsüz parametrelerle binlerce indekslenebilir URL üretilirse zarar verebilir. Canonical/noindex ve değerli kombinasyonlar için landing yaklaşımıyla yönetilmelidir."
+      },
+      {
+        "q": "Lazy load SEO’ya zarar verir mi?",
+        "a": "Görseller için çoğu zaman faydalıdır; ancak ana metin içerik ve kritik liste (oda listesi gibi) lazy olursa tarama ve keşif zayıflayabilir."
+      },
+      {
+        "q": "Canonical neden kritik?",
+        "a": "Parametreli ve benzer sayfalar arasında “asıl URL”i belirler. Yanlış canonical, yanlış sayfanın sıralanmasına ve kanibalizasyona yol açabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — javascript-nextjs-teknik-seo-hero-01.webp",
+          "diagram-ssr-ssg-csr — 1920×1080 — javascript-nextjs-ssr-ssg-csr-diagram-02.webp",
+          "table-problem-root-solution-cover — 1600×1200 — javascript-nextjs-problem-root-solution-03.webp",
+          "meta-schema-checklist — 1200×1200 — javascript-nextjs-meta-schema-checklist-04.webp",
+          "table-problem-diagnosis-fix-test — 1600×1200 — javascript-nextjs-diagnosis-fix-test-05.webp",
+          "sprint-plan-mini-14-days — 1600×1200 — javascript-nextjs-sprint-plan-06.webp",
+          "pdf-cover — 1920×1080 — nextjs-js-seo-checklist-pdf-cover-07.webp"
+        ],
+        "technicalChecklist": [
+          "View Source ve URL Inspection ile ilk HTML içerik kontrolü",
+          "Para sayfalarında SSR/SSG/ISR standardı",
+          "Route bazlı meta (title/description/OG) benzersizliği",
+          "Canonical standardı (parametre/UTM temizliği dahil)",
+          "JSON-LD tek kaynak (duplicate yok) ve @id/URL tutarlılığı",
+          "Filtre/parametre indeks stratejisi (canonical/noindex) dokümante",
+          "Infinite scroll varsa pagination alternatifi",
+          "3. parti tag envanteri + geciktirme/koşullu yükleme",
+          "CWV izleme (PSI + RUM) ve INP/LCP backlog"
+        ]
       }
     }
   }

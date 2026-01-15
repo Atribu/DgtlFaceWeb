@@ -191,7 +191,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
           </Link>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] border border-[#547dcf]">
+          <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] ">
             <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
               <li>
                 <a

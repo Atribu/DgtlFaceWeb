@@ -2027,51 +2027,125 @@ export const BLOG_MEDIA_MAP = {
 
   "google-ads-donusum-kurgusu-ve-takibi":{
      banner: {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-1.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-1.jpeg",
       alt: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
       caption: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?"
     },
 
-          "4-lang": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-2.jpeg",
-      alt: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?",
-      caption: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?"
+          "transformation-layers": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-2.jpeg",
+      alt: "Dönüşüm Türleri (Form, Telefon, WhatsApp, Rezervasyon) ve Otel Gerçeği",
+      caption: "Otel İçin Dönüşüm Katmanları: Birincil vs İkincil"
     },
 
-           "architecture": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-3.jpeg",
-      alt: "TR–EN–DE–RU için URL ve site mimarisini nasıl seçmelisiniz?",
-      caption: "Sorunlu Yapı - Doğru Mimari"
+           "goals-hierarchy": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-3.jpeg",
+      alt: "Google Ads dönüşüm takibi nasıl kurulur?",
+      caption: "Google Ads Dönüşüm Hiyerarşisi: Hedef (Goal) ve Aksiyonları"
     },
 
-    "market-oriented-content": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-4.jpeg",
-      alt: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?",
-      caption: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?"
+    "call-tracking": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-4.jpeg",
+      alt: "",
+      caption: "Otel telefon Araması Dönüşüm Akışı"
     },
 
-     "hreflang-canonical": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-5.jpeg",
-      alt: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi",
-      caption: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi"
+     "cross-domain-schema": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-5.jpeg",
+      alt: "Cross-domain rezervasyon motoru (booking engine) – en kritik teknik tuzak",
+      caption: "Çapraz Alan Adı Takibi: Yanlış vs Doğru Kurgu"
     },
 
-          "content-checklist": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-6.jpeg",
+          "google-ads-checklist": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-6.jpeg",
       alt: "Lokalizasyon ve İçerik Kontrol Listesi",
-      caption: "Lokalizasyon ve İçerik Kontrol Listesi"
+      caption: "Otel Google Ads Dönüşüm Kurulumu Kontrol Listesi"
     },
 
-      "seo-funnel-paneli": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-7.jpeg",
-      alt: "Çok dilli otel SEO KPI ve raporlama nasıl yapılır?",
-      caption: "Dil Bazlı Seo Performans ve Funnel Paneli"
+      "problem-solution": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-7.jpeg",
+      alt: "",
+      caption: "Dönüşüm Takibi Sorun Giderme Tablosu"
     },
 
-          "download": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-8.jpeg",
+          "sprint-plan": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-8.jpeg",
+      alt: "",
+      caption: "14 Günlük Dönüşüm Kurulumu Sprint Planı"
+    },
+
+     "kpi-before - after": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-9.jpeg",
+      alt: "",
+      caption: "Dönüşüm Kurulumu Etkisi: Öncesi vs Sonrası (KPI)"
+    },
+
+     "project-delivery-output": {
+      src: "/images/blog/sem/SEM1-5/SEM1-5-10.jpeg",
+      alt: "",
+      caption: "Project Teslim Çıktıları ve Örnek Dönüşüm Seti"
+    }
+  },
+
+   "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":{
+     banner: {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-1.jpeg",
+      alt: "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri",
+      caption: "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri"
+    },
+
+          "diagram-ssr-ssg-csr": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-2.jpeg",
+      alt: " Google nasıl görüyor? (Next.js + JS teknik SEO çerçevesi)",
+      caption: "SSR, SSG VE CSR Google İçeriği Ne Zaman Görür?"
+    },
+
+           "table-problem-root-solution-cover": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-3.jpeg",
+      alt: "Next.js & SEO Sorunları ve Çözümleri",
+      caption: "Özet: Next.js & SEO Sorunları ve Çözümleri"
+    },
+
+    "render-time": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-4.jpeg",
+      alt: "Google’ın JS Siteleri Nasıl İşlediği?",
+      caption: "Google'ın İki Aşamalı JS Tarama ve Render Süreci"
+    },
+
+     "meta-schema-checklist": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-5.jpeg",
+      alt: "",
+      caption: "Next.js Meta ve Schema Kontrol Listesi"
+    },
+
+          "dynamic-url": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-6.jpeg",
+      alt: "Dinamik Route ve Parametreler",
+      caption: "Dinamik URL ve Canonical İlişkisi (Otel Örneği)"
+    },
+
+      "table-problem-diagnosis-fix-test": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-7.jpeg",
+      alt: "Otel ve Ajans Siteleri İçin Örnek Sorun–Çözüm Senaryoları",
+      caption: "Next.js SEO: Gerçek Hayat Sorun-Çözüm Senaryoları"
+    },
+
+          "365-days-cycle": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-8.jpeg",
+      alt: "Özet ve Bakım Planı",
+      caption: "Next.js SEO: 365 Günlük Bakım ve Test Döngüsü"
+    },
+
+     "download": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-9.jpeg",
       alt: "",
       caption: ""
+    },
+
+     "sprint-plan-mini-14-days": {
+      src: "/images/blog/seo/SEO1-5/SEO1-5-10.jpeg",
+      alt: "Özet ve Bakım Planı",
+      caption: "14 Günlük Next.js SEO Fix Sprint Planı"
     }
   }
   

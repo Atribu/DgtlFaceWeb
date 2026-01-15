@@ -80,7 +80,59 @@ function BlogCard({ p, locale, t, GRADIENT }) {
   );
 }
 
-function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
+function StickySearchBar({ t, query, setQuery, inputRef, GRADIENT, noResults }) {
+  return (
+    <section className="sticky top-0 z-40 border-b border-white/10 bg-black/55 backdrop-blur-xl">
+      <div className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-3">
+        <div className="flex items-center justify-between gap-3">
+          {/* Sol: küçük başlık */}
+          <div className="hidden md:flex items-center gap-2 text-white">
+            <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+            <span className="text-sm">{t("searchButton")}</span>
+          </div>
+
+          {/* Orta: input */}
+          <div className="relative flex-1 max-w-[820px]">
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60">
+              🔎
+            </span>
+
+            <input
+              ref={inputRef}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={t("searchPlaceholder")}
+              className="w-full rounded-2xl border border-white/20 bg-white/10 px-4 py-3 pl-10 text-sm text-white outline-none
+                         focus:border-white/35 focus:bg-white/15"
+            />
+
+            {query.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-3 py-2 text-xs text-white/80 transition hover:text-white"
+              >
+                {t("clear")}
+              </button>
+            )}
+          </div>
+
+          {/* Sağ: focus butonu (mobilde de iyi) */}
+          <button
+            type="button"
+            onClick={() => inputRef.current?.focus()}
+            className={`shrink-0 rounded-2xl px-4 py-3 text-sm font-medium text-white transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+          >
+            {t("searchButton")}
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noResults }) {
   const [active, setActive] = useState(0);
 
   // Türkçe yorum: 5 saniyede bir sonraki slide
@@ -115,8 +167,8 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
       )}
 
       {/* Türkçe yorum: Netflix benzeri karartma (okunabilirlik) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/0" />
-      <div className="absolute inset-0 bg-black/25" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/0" />
+      <div className="absolute inset-0 bg-black/0" />
 
       {/* Türkçe yorum: Arama overlay (yeri değişti ama aynı işlev) */}
       
@@ -137,14 +189,13 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
               {p.excerpt}
             </p>
 
-            <div className="mt-6 flex flex-wrap items-center gap-3">
+            <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
                 href={`/${locale}/${p.dept}/blog/${p.slug}`}
                 className={`inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
-
         <div className="flex items-center justify-end">
           <div className="w-full max-w-[520px]">
             <div className="relative">
@@ -153,7 +204,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("searchPlaceholder")}
-                className="w-full rounded-2xl border border-white/30 bg-black/40 px-4 py-3 text-sm text-white outline-none backdrop-blur
+                className="w-full rounded-2xl border border-white/30 bg-black/50 px-4 py-3 text-sm text-white outline-none backdrop-blur
                            focus:border-white/40 focus:bg-black/50"
               />
               {query.length > 0 && (
@@ -166,17 +217,20 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT }) {
                 </button>
               )}
             </div>
+            {noResults && (
+  <p className="mt-2 text-xs text-white/70">
+    “{query}” için sonuç bulunamadı. Yazımı kontrol edin ya da daha genel arayın.
+  </p>
+)}
           </div>
         </div>
-
-          <button
+              <button
                 type="button"
                 onClick={() => inputRef.current?.focus()}
                 className="rounded-2xl border border-white/20 bg-white/5 px-5 py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10"
               >
                 {t("searchButton")}
               </button>
-    
 
             </div>
 
@@ -342,13 +396,15 @@ function DepartmentChips({ items, value, onChange }) {
 
 export default function BlogPageV2() {
   const t = useTranslations("Blog");
-  const locale = useLocale(); // ✅ Link için burada kullanacağız
-   const messages = useMessages(); // ✅ tr.json (messages) burada
+  const locale = useLocale();
+   const messages = useMessages(); 
 
    const inputRef = useRef(null);
 
   const [query, setQuery] = useState("");
   const [dept, setDept] = useState("all");
+
+  const resultsRef = useRef(null);
 
 const ALL_POSTS = useMemo(() => {
   const blogPosts = messages?.BlogPosts || {};
@@ -405,23 +461,43 @@ const filteredPosts = useMemo(() => {
   });
 }, [ALL_POSTS, query, dept]);
 
+const isSearching = query.trim().length >= 2;
+const hasResults = isSearching && filteredPosts.length > 0;
+const noResults = isSearching && filteredPosts.length === 0;
+
+
 // Türkçe yorum: tarihe göre (sondan başa) sıralama
 const sortedFiltered = useMemo(() => {
   return [...filteredPosts].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
 }, [filteredPosts]);
 
+
+
+// Türkçe yorum: tüm postlar (her zaman) tarihe göre sıralı
+const sortedAll = useMemo(() => {
+  return [...ALL_POSTS].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
+}, [ALL_POSTS]);
+
+// Rails hangi listeyi gösterecek?
+const displaySorted = hasResults ? sortedFiltered : sortedAll;
+
+// Üstte yazan count ne olsun?
+const visibleCount = hasResults ? filteredPosts.length : sortedAll.length;
+
+// Türkçe yorum: arama sonuç yoksa bile sayfa boş kalmasın, fallback olarak tüm listeyi göster
+// const displaySorted = useMemo(() => {
+//   return sortedFiltered.length ? sortedFiltered : sortedAll;
+// }, [sortedFiltered, sortedAll]);
+
 // Türkçe yorum: departman rail’leri (Tümü + her departman)
 const rails = useMemo(() => {
-  // 1) Tümü rail’i
-  const out = [
-    { id: "all", title: "Tümü", posts: sortedFiltered },
-  ];
+   const out = [{ id: "all", title: "Tümü", posts: displaySorted }];
 
   // 2) Departman rail’leri
   const deptItems = BLOG_DEPARTMENTS_V2.filter((d) => d.id !== "all");
 
   for (const d of deptItems) {
-    const posts = sortedFiltered.filter((p) => p.dept === d.id);
+    const posts = displaySorted.filter((p) => p.dept === d.id);
     out.push({
       id: d.id,
       title: d.label,
@@ -430,14 +506,12 @@ const rails = useMemo(() => {
   }
 
   return out;
-}, [sortedFiltered]);
+}, [displaySorted]);
 
 // Türkçe yorum: Netflix hero için son eklenen 5 post
 const heroPosts = useMemo(() => {
-  return sortedFiltered.slice(0, 5);
-}, [sortedFiltered]);
-
-
+   return sortedAll.slice(0, 5); // her zaman en yeni 5
+ }, [sortedAll]);
 
 
   return (
@@ -503,114 +577,35 @@ const heroPosts = useMemo(() => {
   setQuery={setQuery}
   inputRef={inputRef}
   GRADIENT={GRADIENT}
+  noResults={noResults}
 />
 
+{/* <StickySearchBar
+  t={t}
+  query={query}
+  setQuery={setQuery}
+  inputRef={inputRef}
+  GRADIENT={GRADIENT}
+    noResults={noResults}
+/> */}
+
 {/* Results (Netflix rails) */}
-<section className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:py-4">
+<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:py-4">
   <div className="mb-1 flex items-end justify-between gap-4">
     <p className="text-sm text-white/60">
-      {t("results", { count: filteredPosts.length })}
+      {t("results", { count: visibleCount })}
     </p>
   </div>
 
-  {sortedFiltered.length === 0 ? (
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-center text-white/70">
-      {t("empty")}
-    </div>
-  ) : (
-    <div className="space-y-2">
-      {rails.map((r) => (
-        <BlogRail
-          key={r.id}
-          title={r.title}
-          posts={r.posts}
-          locale={locale}
-          t={t}
-          GRADIENT={GRADIENT}
-        />
-      ))}
-    </div>
-  )}
+<div className="space-y-2">
+   {rails.map((r) => (
+     <BlogRail key={r.id} title={r.title} posts={r.posts} locale={locale} t={t} GRADIENT={GRADIENT} />
+   ))}
+ </div>
 </section>
 
 
-      {/* Departments */}
-      {/* <section className="mx-auto w-full max-w-[1900px] px-4">
-        <div className="-mt-12 lg:-mt-8 rounded-3xl border border-white/10 bg-black/60 p-4 backdrop-blur-xl">
-          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-            <DepartmentChips
-              items={BLOG_DEPARTMENTS_V2}
-              value={dept}
-              onChange={setDept}
-            />
-          </div>
-        </div>
-      </section> */}
-
-      {/* Results */}
-      {/* <section className="mx-auto w-full max-w-6xl px-4 py-4 lg:py-6">
-        <div className="mb-4 flex items-end justify-between gap-4">
-          <p className="text-sm text-white/60">
-            {t("results", { count: filteredPosts.length })}
-          </p>
-        </div>
-
-        {filteredPosts.length === 0 ? (
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-center text-white/70">
-            {t("empty")}
-          </div>
-        ) : (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {filteredPosts.map((p) => (
-              <article
-                key={p.id}
-                className="group rounded-3xl border border-white/10 bg-white/5 p-5 transition hover:bg-white/10"
-              >
-                <div className="mb-3 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-0 text-xs lg:text-sm text-white/80">
-                  <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
-                  <span className="capitalize">{p.dept.replace("-", " ")}</span>
-                </div>
-
-{p.banner?.src && (
-  <div className="mb-4 overflow-hidden rounded-2xl border border-white/10 bg-black/30">
-    <div className="relative aspect-[16/9] w-full">
-      <Image
-        src={p.banner.src}
-        alt={p.banner.alt || p.title}
-        fill
-        className="object-cover"
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        priority={false}
-      />
-    </div>
-  </div>
-)}
-
-
-                <h2 className="text-lg font-semibold tracking-tight text-white">
-                  {p.title}
-                </h2>
-
-                <p className="mt-2 text-sm text-white/80 line-clamp-2">
-                  {p.excerpt}
-                </p>
-
-                <div className="mt-5">
-                  <Link
-                    href={`/${locale}/${p.dept}/blog/${p.slug}`}
-                    className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
-                  >
-                    {t("readMore")}
-                    <span className="transition group-hover:translate-x-0.5">
-                      →
-                    </span>
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
-        )}
-      </section> */}
+      
     </main>
   );
 }

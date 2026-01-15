@@ -11,7 +11,8 @@ export const BLOG_MAP = {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
     "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin",
     "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu",
-    "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi"
+    "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi",
+    "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri"
   },
 
     smm: {
