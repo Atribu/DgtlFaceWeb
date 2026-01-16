@@ -2,6 +2,58 @@
 
 //  Slot bazlı görsel atamaları (slug → slot → media objesi)
 export const BLOG_MEDIA_MAP = {
+
+  "bos":{
+     banner: {
+      src: "/images/blog/creative/Software1-5/Software1-5-1.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.jpeg",
+      alt: "Rezervasyon Funnel’i (Tarih→Oda→Fiyat→Ödeme)",
+      caption: "Rezerasyon Funnel Ux ve Drop-off Noktaları"
+    },
+
+           "": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.jpeg",
+      alt: "Otel ve Turizm Sitelerinde Kullanıcı Yolculuğu",
+      caption: "Otel Misafiri Dijital Yolculuğu"
+    },
+
+    "": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.jpeg",
+      alt: "Ana Sayfa, Oda ve Teklif Sayfaları için UX İlkeleri",
+      caption: "Oda Sayfası Ux: Kötü vs İyi (Dönüşüm Odaklı)"
+    },
+
+     "": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "mobil-mockup-whatsapp": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+      "download": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "drop-off-analysis": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
   "core-web-vitals-otel-ve-nextjs-rehberi": {
       banner: {
       src: "/images/blog/seo/SEO1-1/SEO1-1-1.jpeg",
@@ -2146,6 +2198,162 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/seo/SEO1-5/SEO1-5-10.jpeg",
       alt: "Özet ve Bakım Planı",
       caption: "14 Günlük Next.js SEO Fix Sprint Planı"
+    }
+  },
+
+   "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":{
+     banner: {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-1.jpeg",
+      alt: "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+      caption: "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji"
+    },
+
+          "localization-5-areas-diagram": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-2.jpeg",
+      alt: "“Kopya Çeviri” Yerine Lokalizasyon",
+      caption: "Lokalizasyon Çerçevesi: 5 Sabit Alan"
+    },
+
+           "caption-compare-table-tr-en-de-ru": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-3.jpeg",
+      alt: "TR–EN–DE–RU İçin Örnek İçerik Kurguları",
+      caption: "TR-EN-DE-RU Caption Lokalizasyon Örneği"
+    },
+
+    "mockup-4-language-same-visual": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-4.jpeg",
+      alt: "Aynı içeriğin 4 dilde versiyon mockup’ı",
+      caption: "Aynı içeriğin 4 dilde versiyon mockup’ı"
+    },
+
+     "flow-tr-to-multilang": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-5.jpeg",
+      alt: "İçerik Takvimi ve Ekip Organizasyonu",
+      caption: "Çok Dilli İçerik Onay Akışı (SLA)"
+    },
+
+          "download": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+      "smm-strategy-package": {
+      src: "/images/blog/smm/SMM1-5/SMM1-5-7.jpeg",
+      alt: "Çok Dilli SMMS Strateji Paketi",
+      caption: "Çok Dilli SMMS Strateji Paketi"
+    }
+  },
+
+   "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":{
+     banner: {
+      src: "/images/blog/software/Software1-5/Software1-5-1.jpeg",
+      alt: "Otel ve Turizm Web Siteleri İçin Dönüşüm Odaklı UX ve Rezervasyon Funnel’i",
+      caption: "Otel ve Turizm Web Siteleri İçin Dönüşüm Odaklı UX ve Rezervasyon Funnel’i"
+    },
+
+          "funnel-flow-diagram-dropoff-checked": {
+      src: "/images/blog/software/Software1-5/Software1-5-2.jpeg",
+      alt: "Rezervasyon Funnel’i (Tarih→Oda→Fiyat→Ödeme)",
+      caption: "Rezerasyon Funnel Ux ve Drop-off Noktaları"
+    },
+
+           "hotel-guest-digital-journey": {
+      src: "/images/blog/software/Software1-5/Software1-5-3.jpeg",
+      alt: "Otel ve Turizm Sitelerinde Kullanıcı Yolculuğu",
+      caption: "Otel Misafiri Dijital Yolculuğu"
+    },
+
+    "ux-room-page": {
+      src: "/images/blog/software/Software1-5/Software1-5-4.jpeg",
+      alt: "Ana Sayfa, Oda ve Teklif Sayfaları için UX İlkeleri",
+      caption: "Oda Sayfası Ux: Kötü vs İyi (Dönüşüm Odaklı)"
+    },
+
+     "friction-relief-points": {
+      src: "/images/blog/software/Software1-5/Software1-5-5.jpeg",
+      alt: "Funnel adımları ve hedef friksiyon seviyesi",
+      caption: "Rezervasyon Funnel Friksiyon & Çözüm Noktaları"
+    },
+
+          "mobil-mockup-whatsapp": {
+      src: "/images/blog/software/Software1-5/Software1-5-6.jpeg",
+      alt: "Mobil UX ve Call Center Entegrasyonu",
+      caption: "Mobil Ux: Sticky Cta & Hızlı İletişim"
+    },
+
+      "download": {
+      src: "/images/blog/software/Software1-5/Software1-5-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "drop-off-analysis": {
+      src: "/images/blog/software/Software1-5/Software1-5-8.jpeg",
+      alt: "Sonuç: Dönüşüm Odaklı Otel UX’i = 3 Blok + 1 Entegrasyon Katmanı",
+      caption: "Funnel Drop-Off Analizi"
+    }
+  },
+
+   "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":{
+     banner: {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-1.jpeg",
+      alt: "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+      caption: "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım"
+    },
+
+          "main-message-concept": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.jpeg",
+      alt: "Kampanya İçin Görsel Set Nasıl Kurulur? (Feed, Story, Reels, Banner)",
+      caption: "Kampanya İçin Görsel Set Nasıl Kurulur? (Feed, Story, Reels, Banner)"
+    },
+
+           "hero-image": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.jpeg",
+      alt: "Mesaj ve Görsel Varyasyonları",
+      caption: "Mesaj ve Görsel Varyasyonları"
+    },
+
+    "headline-test": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.jpeg",
+      alt: "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?",
+      caption: "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?"
+    },
+
+     "ab-test-cycle": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.jpeg",
+      alt: "A/B Test Kurgusu",
+      caption: "A/B Test Kurgusu"
+    },
+
+          "": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+      "download": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "ab-test-panel": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.jpeg",
+      alt: "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?",
+      caption: "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?"
+    },
+
+              "performance-design-system": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-9.jpeg",
+      alt: "Performans Tasarım Sistemi",
+      caption: "Performans Tasarım Sistemi"
+    },
+
+              "sablon": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-10.jpeg",
+      alt: "",
+      caption: ""
     }
   }
   

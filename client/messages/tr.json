@@ -42592,8 +42592,1257 @@
         ]
       }
     }
-  }
+  },
 
+  "BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu": {
+    "title": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+    "slug": "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru",
+    "department": "smm",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "8 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "TR–EN–DE–RU içerik üretiminde kopya çeviriyi bırakın. Pazar/persona odaklı lokalizasyonla ton, CTA, örnek ve hashtag’i uyarlayın; takvim ve onay akışını kurun.",
+    "seo": {
+      "metaTitle": "Çok Dilli Sosyal Medya: TR–EN–DE–RU Strateji | DGTLFACE",
+      "metaDescription": "TR–EN–DE–RU içerik üretiminde kopya çeviriyi bırakın. Pazar/persona odaklı lokalizasyonla ton, CTA, örnek ve hashtag’i uyarlayın; takvim ve onay akışını kurun."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: İçerik Üretimi — /tr/smm/icerik-uretimi",
+        "Blog / URL: /tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru"
+      ],
+      "strategySummary": "Bu blog, SMM içerik üretimini “çeviri” seviyesinden çıkarıp lokalizasyon + pazar/persona yönetimi seviyesine taşır; çok dilli otel grupları ve B2B hizmet sağlayıcıları için “tek içerik → 4 pazar” operasyonunu standardize eder. Hedef persona; çok pazarda çalışan otel/grup markası (TR–EN–DE–RU) satış–pazarlama ekipleri ve ajans yöneticileridir. Funnel’da MoFu ağırlıklıdır: kullanıcı, “aynı postu bire bir çevirmek” yaklaşımının neden düşük performans verdiğini görür ve süreç/şablon ihtiyacını netleştirir. Ana iş sorusu: “TR–EN–DE–RU’da aynı içeriği nasıl lokalize ederim; ton/CTA/örnek/hashtag farklarını nasıl yönetirim ve takvim–ekip organizasyonunu nasıl kurarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-15",
+      "readingTime": "8 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Çok dilli sosyal medya içerik üretimi, Türkçe metni “copy–paste çeviri” yapmak değildir. Her dilde hedef pazarın tüketim ve iletişim alışkanlıklarına göre; mesajı, tonu, CTA’yı ve hatta görsel tercihlerini lokalize etmek gerekir. TR–EN–DE–RU’da aynı post; farklı persona, farklı beklenti ve farklı aksiyonlarla çalışır. En iyi yaklaşım: tek master içeriği koruyup her dil için caption, CTA, örnek ve hashtag setini yeniden kurgulamak.",
+      "sgeSummary": "TR–EN–DE–RU sosyal medyada bire bir çeviri yerine lokalizasyon yapın: persona/pazar farkına göre mesaj, ton, CTA ve hashtag’i uyarlayın. Takvim ve onay sürecini dil bazında yönetin.",
+      "voiceAnswer": "4 dilde sosyal medya yönetirken metni bire bir çevirmeyin; pazar ve persona odaklı lokalizasyonla CTA’yı uyarlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Çok pazarlı otel grupları, turizm markaları, B2B hizmet sağlayıcıları (TR–EN–DE–RU).",
+        "KPI’lar: dil bazlı engagement, profil dönüşümü, DM/lead, link tıklaması, rezervasyon niyeti, yorum kalitesi.",
+        "Model: master içerik → dil bazlı persona → lokal mesaj/CTA → caption/hashtag seti → onay akışı → ölçüm/iterasyon.",
+        "Entity’ler: localisation, multilingual content, market segmentation, persona-based messaging, multilingual workflow.",
+        "Risk: her dilde aynı metni kullanan hesaplarda etkileşim/geri dönüş düşer; lokalize içerik daha yüksek performans verir (sheet notu).",
+        "Operasyon: “tek takvim + dil kırılımı” ve dil bazlı onay SLA’ları üretimi hızlandırır.",
+        "GEO: Otel gruplarında destinasyon/konsept mesajı dil bazında farklı vurgulanır (spam değil)."
+      ]
+    },
+    "h1": {
+      "title": "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
+      "intro": "Çok dilli sosyal medya yönetimi, çoğu ekipte yanlış yerden başlar: “Türkçe metni yazalım, sonra çevirelim.” Sonuç genelde şudur: İngilizce “fazla düz”, Almanca “fazla resmi”, Rusça “fazla kısa” ya da “fazla sert” görünür; CTA çalışmaz; yorum dili uyumsuz kalır. Çünkü problem çeviri kalitesinden çok, mesajın pazara göre yeniden kurgulanmamasıdır.\n\nBu rehberde; TR–EN–DE–RU için çok dilli içerik üretimini lokalizasyon modeli ile ele alacağız: hangi içerikler hangi dillere çevrilmeli, copy–paste çeviri yerine nasıl uyarlanmalı, aynı tasarım mı ayrı tasarım mı, caption/hashtag/emoji kullanımında kültürel farklar ve ekip–onay–takvim organizasyonu nasıl kurulmalı?",
+      "quickSummary": [
+        "1) Tek master içeriği tanımla",
+        "2) Her dil için persona + CTA niyetini seç",
+        "3) Çeviri değil: mesaj/ton/CTA/örnek/hashtag’i lokalize et",
+        "4) İçerikleri 1/2/3 seviye diye sınıflandır (her dile değil, doğru dile)",
+        "5) Tek takvim + dil kırılımı + onay SLA ile operasyonu hızlandır"
+      ],
+      "ctaPrimary": {
+        "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
+        "text": "TR–EN–DE–RU’da tutarlı ama pazar uyumlu içerik sistemi kurmak isteyen otel/B2B ekipleri için.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
+        "text": "TR–EN–DE–RU pazarlarında mesajı ve CTA’yı doğru kalibre etmek isteyen ekipler için.",
+        "href": "/smm/icerik-uretimi"
+      },
+      "secondary": {
+        "label": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir",
+        "text": "Her dil için hook–fayda–CTA yapısını 10 dakikada kurar; çeviri karmaşasını lokalizasyon sistemine çevirirsiniz.",
+        "href": "/downloads/tr-en-de-ru-caption-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "İçerik Üretimi (Hub)", "href": "/smm/icerik-uretimi" },
+      { "label": "Otel SEO", "href": "/otel/seo" },
+      { "label": "Otel Dijital Pazarlama", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      { "title": "İçerik Üretimi: Süreç, Takvim ve Operasyon", "href": "/smm/icerik-uretimi" },
+      { "title": "Otel SEO: Çok Dilli Görünürlük Mantığı", "href": "/otel/seo" },
+      { "title": "Otel Dijital Pazarlama: Çatı Yaklaşım", "href": "/otel-dijital-pazarlama" }
+    ],
+    "sections": [
+      
+      {
+        "id": "neden-cok-dilli-sosyal-medya",
+        "title": "Neden Çok Dilli Sosyal Medya?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok pazarlı markalarda sosyal medya iki işi aynı anda yapar: 1. Marka algısı (güven, konsept, kalite) 2. Talep üretimi (DM/WhatsApp, web tıklaması, rezervasyon/teklif)"
+          },
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU’da “aynı içeriği aynı cümlelerle” paylaşmak, bu iki işi zayıflatır; çünkü her pazarın beklentisi ve karar verme dili farklıdır. Almanca konuşan kitle daha “net bilgi + güven”, İngilizce kitle daha “genel deneyim + net CTA”, Rusça kitle daha “hızlı fayda + pratik bilgi” bekleyebilir. (Bu genellemeler başlangıç varsayımıdır; gerçek veriye göre güncellenmelidir.)"
+          },
+          { "type": "h3", "text": "Çok dilli sosyal medya içerik stratejisi nasıl kurulur?" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Tek bir “master içerik” omurgası oluşturun; sonra her dil için persona/pazar farkına göre mesaj, ton, CTA, örnek ve hashtag katmanını yeniden yazın. Böylece marka tutarlılığı korunur ama içerik her pazarda “yerel” gibi görünür."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Aynı post 4 dilde aynı CTA’yı mı kullanıyor?",
+              "Dil bazında yorumlar aynı kalitede mi?",
+              "Dil bazında kaydetme/DM oranları farklı mı (ölçüyor musunuz)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Her dil için 1 persona tanımla (tek cümle).",
+              "Her dil için 1 CTA tarzı seç (DM mi, link mi?).",
+              "Ay sonunda dil bazlı KPI ile revize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-icerik-hangi-dil",
+        "title": "Hangi İçerikler Hangi Dillere Çevrilmeli?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli yönetimde en büyük hata: her şeyi her dile çevirmek. Doğru yaklaşım; içerikleri “değer” ve “risk” açısından sınıflandırmaktır."
+          },
+          { "type": "h3", "text": "3 seviye içerik sınıflandırması (pratik)" },
+          { "type": "h3", "text": "Seviye 1 — Her dilde olmalı (Core)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept/vaat (marka tanımı)",
+              "SSS/itiraz azaltma (check-in, transfer, iptal vb.)",
+              "En iyi deneyimler (kanıt + his)"
+            ]
+          },
+          { "type": "h3", "text": "Seviye 2 — Pazara göre seçmeli (Selective)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya/paket (hedef pazar uyumu)",
+              "Etkinlik/animasyon (pazar ilgisi)",
+              "Destinasyon/rota (pazarın aradığı tür)"
+            ]
+          },
+          { "type": "h3", "text": "Seviye 3 — Tek dilde kalabilir (Local-only)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yerel etkinlik duyuruları (TR ağırlıklı)",
+              "Operasyonel kısa bildirimler (TR/RU ağırlıklı olabilir) (Varsayım)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "İçerikleri 1/2/3 diye etiketle.",
+              "Seviye 1’i mutlaka 4 dile üret.",
+              "Seviye 2’yi pazar verisine göre seç.",
+              "Seviye 3’ü kaynak dilde bırak."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kopya-ceviri-yerine-lokalizasyon",
+        "title": "“Kopya Çeviri” Yerine Lokalizasyon",
+        "blocks": [
+          { "type": "p", "text": "Lokalizasyon; kelime çevirmek değil, ikna modelini çevirmektir." },
+          { "type": "h3", "text": "Lokalizasyon ile çeviri arasındaki fark nedir?" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Çeviri “ne söylendiğini” taşır; lokalizasyon “neden ikna edeceğini” taşır. Aynı cümle 4 dilde doğru çevrilebilir ama 4 pazarda aynı etkiyi üretmez; çünkü CTA, örnek ve bağlam pazarın beklentisine göre değişmelidir."
+          },
+          { "type": "h3", "text": "Lokalizasyonun 5 sabit alanı" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hook (ilk cümle): merak mı, fayda mı, güven mi?",
+              "Kanıt türü: social proof / sayısal bilgi / deneyim detayı",
+              "CTA: DM mi, link mi, “check availability” mi?",
+              "Örnek: yerel referans (seyahat motivasyonu)",
+              "Hashtag/emoji: kültürel dozaj"
+            ]
+          },
+          { "type": "h3", "text": "Emoji ve ton farkları (kısa kural)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aşırı emoji, premium algıyı düşürebilir.",
+              "B2B’de emoji minimum; otelde kontrollü.",
+              "Her dilde aynı emoji seti “yapay” durabilir. (Varsayım)"
+            ]
+          },
+          { "type": "media", "slot": "localization-5-areas-diagram" }
+        ]
+      },
+      {
+        "id": "ornek-icerik-kurgulari",
+        "title": "TR–EN–DE–RU İçin Örnek İçerik Kurguları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada “tek içerik → 4 dil” mantığını örnekle gösteriyoruz. Amaç; aynı görselin üzerine farklı caption stratejisi oturtmak."
+          },
+          { "type": "h3", "text": "Master içerik örneği (Varsayım)" },
+          {
+            "type": "p",
+            "text": "Konu: “Aile odası + kids club + kısa SSS” (Otel)\n• Master mesaj: “Aileler için rahatlık + pratik bilgi + net aksiyon”\n• CTA hedefi: DM / WhatsApp / link (markaya göre)"
+          },
+          { "type": "h3", "text": "Caption karşılaştırma tablosu" },
+          { "type": "media", "slot": "caption-compare-table-tr-en-de-ru" },
+          {
+            "type": "p",
+            "text": "Aşağıdaki örnekler “stil gösterimi” içindir; marka tonuna göre uyarlanır:"
+          },
+          { "type": "h3", "text": "TR Caption (örnek)" },
+          {
+            "type": "p",
+            "text": "“Çocuklu tatilde en önemli şey: rahatlık + hız. Aile odamız ve kids club ile gününüz kolaylaşır.\nDetayları DM’den yazın: ‘AİLE’.”"
+          },
+          { "type": "h3", "text": "EN Caption (örnek)" },
+          {
+            "type": "p",
+            "text": "“Family trips should feel easy. Spacious room + kids club = more time to relax.\nDM ‘FAMILY’ for options & availability.”"
+          },
+          { "type": "h3", "text": "DE Caption (örnek)" },
+          {
+            "type": "p",
+            "text": "“Familienurlaub braucht Klarheit: Zimmergröße, Komfort und Ablauf.\nSchreiben Sie ‘FAMILIE’ per DM – wir senden Optionen & Verfügbarkeit.”"
+          },
+          { "type": "h3", "text": "RU Caption (örnek)" },
+          {
+            "type": "p",
+            "text": "“Семейный отдых должен быть простым: комфортный номер + детский клуб.\nНапишите в DM «СЕМЬЯ» — отправим варианты и доступность.”"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Bu örnekler “yaklaşım” göstermek için; gerçek metinler pazar verisiyle kalibre edilir."
+          },
+          { "type": "h3", "text": "Aynı içeriğin 4 dilde versiyon mockup’ı" },
+          { "type": "media", "slot": "mockup-4-language-same-visual" }
+        ]
+      },
+      {
+        "id": "ayni-tasarim-mi-ayri-tasarim-mi",
+        "title": "Aynı tasarım mı, ayrı tasarım mı? (Çok dilli görsel/metin düzeni)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu karar, marka ölçeği ve ekip kapasitesine bağlıdır."
+          },
+          { "type": "h3", "text": "Karar matrisi (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek tasarım + farklı caption (minimum model): hızlı ve sürdürülebilir",
+              "Tek tasarım + dil etiketi (orta model): grid tutarlılığı + dil ayrımı",
+              "Dil bazlı ayrı tasarım (advanced): yüksek etki ama yüksek maliyet"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Başlangıçta “tek tasarım + farklı caption” ile başla.",
+              "Reels kapaklarında dil etiketini minimal kullan (TR/EN/DE/RU).",
+              "En iyi çalışan pazarda (ör. DE) ayrı tasarımı sadece kampanya içeriklerinde dene."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "takvim-ve-ekip-organizasyonu",
+        "title": "İçerik Takvimi ve Ekip Organizasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli içerikte asıl darboğaz “yazmak” değil, onay ve versiyon yönetimidir."
+          },
+          { "type": "h3", "text": "Takvim yapısı (tek takvim, dil kırılımı)" },
+          {
+            "type": "p",
+            "text": "Aylık takvimde minimum sütunlar:\n• Tarih | Kanal | Format | Konu | Pillar | Dil | Durum | Sorumlu | Onaylayan | Asset Link"
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: Çok dilde en sağlıklı yöntem; her dil varyantını ayrı satırda planlamak ve “Master Content ID” ile bağlamaktır."
+          },
+          { "type": "h3", "text": "Onay süreci (dil bazlı SLA)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "TR: içerik sahibi + marka onayı",
+              "EN/DE/RU: lokalizasyon kontrolü + marka onayı",
+              "Revizyon limiti: 1–2 tur"
+            ]
+          },
+          { "type": "media", "slot": "flow-tr-to-multilang" },
+          { "type": "h3", "text": "Hashtag ve kültürel kullanım notu" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hashtag seti dil/pazar bazlı olmalı (aynı seti kopyalama).",
+              "CTA dili ve “resmiyet” seviyesi pazara göre değişebilir.",
+              "Emoji dozu premium algıya göre ayarlanmalı."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teknik-not-web-seo-uyum",
+        "title": "Teknik Not: Çok dilli web/SEO stratejisiyle uyum",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu blogdaki dil örnekleri; web tarafındaki TR–EN–DE–RU stratejisiyle aynı masada olmalı. İç link hedefleri:\n• /tr/otel/seo (çok dilli görünürlük mantığı)\n• /tr/seo/icerik-seo (içerik standardı)\n• /tr/otel-dijital-pazarlama (turizm pazarlama çerçevesi)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Sosyal medya CTA’larını web’deki ilgili sayfalarla aynı hizada tut.",
+              "Dil bazlı “vaat” cümlesini web’deki değer önerisiyle çeliştirme.",
+              "UTM ve landing sayfa eşleşmelerini dil bazında kontrol et. (Varsayım)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: 4 dilde içerik yönetimi çeviri değil, sistemdir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "TR–EN–DE–RU sosyal medya yönetimi; çeviri değil, lokalizasyon operasyonudur. Tek master içeriği koruyup her dilde persona/pazar farkına göre mesaj, ton, CTA ve hashtag’i yeniden kurguladığınızda; içerik hem tutarlı hem de “yerel” görünür. Bu yaklaşım, çok pazarlı otel grupları ve B2B markalarda etkileşimi ve geri dönüşü yükseltirken; ekip içi revizyon maliyetini düşürür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Çok Dilli SMM İçerik & Lokalizasyon Analizi Talep Et",
+            "text": "TR–EN–DE–RU içerik sisteminizi standardize edelim.",
+            "href": "/smm/icerik-uretimi"
+          }
+        ]
+      },
+      {
+        "id": "tr-en-de-ru-caption-template-pdf",
+        "title": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir — Multilingual SMM",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir — Multilingual SMM (v1.0)",
+            "purpose": "Bu şablon; tek bir “master içerik”ten yola çıkarak TR–EN–DE–RU için hook, fayda, CTA, örnek ve hashtag katmanlarını dil/pazar bazlı yeniden kurmanıza yardımcı olur. Bire bir çeviri hatalarını azaltır, lokalizasyon kalitesini standardize eder ve dil bazlı onay sürecini hızlandırır.",
+            "whoFor": "Çok pazarlı otel grupları, turizm markaları, B2B hizmet sağlayıcıları; ajans içerik ve account ekipleri.",
+            "steps": [
+              "Master içeriği 1 cümleyle yaz (tek mesaj).",
+              "Her dil için persona + CTA niyetini belirle.",
+              "Şablondaki alanları doldurup dil bazlı onaydan geçir; takvime satır satır işle."
+            ],
+            "checklist": [
+              "Master mesaj tek mi?",
+              "Her dil için persona tanımı var mı?",
+              "Hook’lar lokal mi (copy değil)?",
+              "CTA pazara uygun mu?",
+              "Hashtag setleri farklı mı?",
+              "Onay akışı ve SLA net mi?"
+            ],
+            "href": "/downloads/tr-en-de-ru-caption-sablonu-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "TR–EN–DE–RU Sosyal Medya İçerik & Caption Şablonunu İndir",
+            "text": "Her dili ayrı persona gibi yönetip aynı içeriği 4 pazara “doğal” taşımanız için.",
+            "href": "/smm/icerik-uretimi"
+          },
+
+           { "type": "media", "slot": "smm-strategy-package" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Çok dilli sosyal medya içerik üretimi nasıl yapılır?",
+        "a": "Tek master içeriği belirleyip her dil için persona/pazar farkına göre mesaj, ton, CTA ve hashtag’i lokalize ederek yapılır. Bire bir çeviri yerine “ikna modelini” uyarlayın."
+      },
+      {
+        "q": "Aynı post’u tüm dillere bire bir çevirmek doğru mu?",
+        "a": "Genelde hayır. Dil bazında beklenti ve iletişim alışkanlığı değişir; bire bir çeviri içerik “doğru ama etkisiz” kalabilir. Lokalizasyon gerekir."
+      },
+      {
+        "q": "TR–EN–DE–RU için caption’ları nasıl uyarlamalıyım?",
+        "a": "Hook’u yerel beklentiye göre yazın, 2 faydayı pazara uygun seçin, CTA’yı (DM/link) dil bazında kalibre edin. Hashtag setini her dilde ayrı kurun."
+      },
+      {
+        "q": "Çok dilli içerik takvimini nasıl yönetirim?",
+        "a": "Tek takvimde “Dil” sütunu ile varyantları ayrı satırda planlayın ve Master Content ID ile bağlayın. Dil bazlı onay SLA’ları belirleyin."
+      },
+      {
+        "q": "Lokalizasyon ile çeviri arasındaki fark nedir?",
+        "a": "Çeviri metni taşır; lokalizasyon pazarın ikna modeline göre mesajı ve CTA’yı yeniden yazar. Amaç, her pazarda aynı etkiyi üretmektir."
+      },
+      {
+        "q": "Aynı tasarım mı kullanmalıyım, ayrı tasarım mı?",
+        "a": "Başlangıçta tek tasarım + dil bazlı caption en sürdürülebilir modeldir. Daha sonra en iyi performans veren pazarda kampanya içeriklerini ayrı tasarımla test edebilirsiniz."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — cok-dilli-smm-tr-en-de-ru-hero-01.webp",
+          "localization-5-areas-diagram — 1200×1200 — cok-dilli-lokalizasyon-5-alan-02.webp",
+          "caption-compare-table-tr-en-de-ru — 1600×1200 — caption-karsilastirma-tablosu-03.webp",
+          "mockup-4-language-same-visual — 1920×1080 — 4-dil-tek-gorsel-mockup-04.webp",
+          "flow-tr-to-multilang — 1600×1200 — dil-bazli-onay-akisi-05.webp",
+          "pdf-cover — 1920×1080 — tr-en-de-ru-caption-template-cover-06.webp"
+        ],
+        "technicalChecklist": [
+          "Dil bazlı persona tanımları (TR/EN/DE/RU) tek cümleyle yazıldı",
+          "Master içerik ID sistemi (tek kaynak → 4 dil) kuruldu",
+          "Dil bazlı CTA niyeti belirlendi (DM/link/WhatsApp)",
+          "Dil bazlı hashtag setleri ayrıştırıldı (kopyalama yok)",
+          "Takvim sütunları standardize edildi (Dil, Durum, Onaylayan, SLA, Asset Link)",
+          "Dil bazlı onay SLA’ları tanımlandı (revizyon limiti 1–2 tur)",
+          "Aylık KPI takibi dil kırılımında raporlanacak (ER, DM, link click, yorum kalitesi)"
+        ]
+      }
+    }
+  },
+
+   "BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli": {
+    "title": "Otel UX ve Rezervasyon Funnel Rehberi | DGTLFACE",
+    "slug": "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli",
+    "department": "yazilim",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Ana sayfa, oda sayfası ve rezervasyon akışını dönüşüm odaklı tasarlayın. Güven unsurları, mobil UX ve call center entegrasyonu ile direkt rezervasyonu artırın.",
+    "seo": {
+      "metaTitle": "Otel UX ve Rezervasyon Funnel Rehberi | DGTLFACE",
+      "metaDescription": "Ana sayfa, oda sayfası ve rezervasyon akışını dönüşüm odaklı tasarlayın. Güven unsurları, mobil UX ve call center entegrasyonu ile direkt rezervasyonu artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: Web Sitesi Geliştirme — /tr/yazilim/web-sitesi-gelistirme",
+        "Blog No / URL: Blog #5 — /tr/yazilim/blog/otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli",
+        "Blog Tipi: Core",
+        "Intent: Transactional + Informational (BoFu + MoFu hibrit)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli"
+      ],
+      "strategySummary": "Bu içerik, DGTLFACE’in otel odaklı değer önerisini “sadece tasarım”dan çıkarıp dönüşüm (direct booking) ve funnel performansı üzerinden otoriteye bağlayan core child rolünde. Funnel’da consideration → conversion köprüsüdür: otelci ve ajans tarafında ana sayfa/oda sayfası/rezervasyon akışı kararlarını netleştirir; call center ve PMS/OTA entegrasyonlarını UX’in parçası yapar. Ana iş sorusu: Ziyaretçiyi minimum friksiyonla “tarayıcı”dan “rezervasyon yapan misafir”e nasıl çeviririm; aynı trafikle direkt rezervasyonu nasıl artırırım? Bu içerik, Antalya–Belek–Kemer–Side–Bodrum destinasyon odaklı oteller için pratik bir “conversion modeli” sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-16",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel web sitesinde amaç “güzel görünmek” değil, güven veren ve friksiyonsuz bir rezervasyon deneyimi sunmaktır. Dönüşüm odaklı yapı 3 bloktan oluşur: ana sayfa (net değer önerisi + hızlı arama), oda/teklif sayfaları (fotoğraf, özellikler, fiyat/koşullar, sosyal kanıt) ve rezervasyon funnel’i (tarih→oda→fiyat→ödeme) içinde sade adımlar, ilerleme göstergesi ve güven işaretleri. Mobilde ara/WhatsApp kısayolları ve call center entegrasyonu dönüşümü güçlendirir.",
+      "sgeSummary": "Otel dönüşümü 3 noktada kazanılır: ana sayfada hızlı arama + net mesaj, oda sayfasında fiyat/koşul+güven+yorum, rezervasyon akışında kısa adımlar ve mobilde tek tık iletişim.",
+      "voiceAnswer": "Otel sitenizde ana sayfa, oda sayfası ve rezervasyon akışını sadeleştirip güven unsurları ekleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM, satış/pazarlama, e-ticaret/revenue, ajans UX ekibi",
+        "KPI: Direkt rezervasyon oranı, funnel drop-off, form tamamlama, call center “rezervasyon amaçlı arama” oranı",
+        "Entity set: hotel website UX, booking funnel, social proof, review score, call center integration, PMS/OTA, payment",
+        "Funnel: BoFu (rezervasyon/teklif) + MoFu (karar ve plan)",
+        "Risk alanları: Karmaşık adımlar, belirsiz fiyat/koşul, düşük güven, mobilde zor kullanım, entegrasyon kopukluğu",
+        "GEO bağlamı: Antalya, Belek, Kemer, Side, Bodrum (doğal geçiş; spam yok)",
+        "Çıktı formatı: Funnel diyagramı + iyi/kötü oda sayfası mockup + otel UX checklist"
+      ]
+    },
+    "h1": {
+      "title": "Otel ve Turizm Web Siteleri İçin Dönüşüm Odaklı UX ve Rezervasyon Funnel’i",
+      "intro": "Otel ve turizm web sitelerinde kullanıcı “beğenmek” için değil, karar vermek için gelir: tarih bakar, oda karşılaştırır, fiyat/koşul okur, güven arar ve en sonunda rezervasyon adımına geçer. Bu yolculukta “küçük friksiyonlar” (belirsiz fiyat, yavaş sayfa, uzun form, güven eksikliği) birikir ve rezervasyon drop-off olarak karşınıza çıkar. İyi UX; ana sayfa, oda sayfası ve rezervasyon akışını tek bir “conversion modeli” içinde birleştirir. Özellikle Antalya, Belek, Kemer, Side ve Bodrum gibi rekabetçi destinasyonlarda, aynı trafikle daha fazla direkt rezervasyon almanın anahtarı funnel tasarımıdır.",
+      "quickSummary": [
+        "Otel dönüşümü 3 noktada kazanılır: ana sayfada hızlı arama + net mesaj",
+        "Oda sayfasında fiyat/koşul+güven+yorum",
+        "Rezervasyon akışında kısa adımlar ve mobilde tek tık iletişim"
+      ],
+      "ctaPrimary": {
+        "label": "Otel Web UX & Rezervasyon Funnel Analizi Talep Et",
+        "text": "Sitenizin ana sayfa–oda–rezervasyon akışını birlikte analiz edip drop-off noktalarını ve hızlı kazanımları netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel Web UX & Rezervasyon Funnel Analizi Talep Et",
+        "text": "Sitenizin ana sayfa–oda–rezervasyon akışını analiz edip drop-off noktalarını ve hızlı kazanımları netleştirelim.",
+        "href": "/tr/yazilim/web-sitesi-gelistirme"
+      },
+      "secondary": {
+        "label": "Otel & Turizm Web Sitesi UX + Rezervasyon Funnel Planlama Şablonunu İndir",
+        "text": "Ekibinizle ana sayfa–oda–funnel kararlarını tek dokümana toplarsınız; revizyonları sprint planına çevirirsiniz.",
+        "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "label": "Otel Dijital Pazarlama", "href": "/tr/otel-dijital-pazarlama" },
+      { "label": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" },
+      { "label": "Çağrı Merkezi Hizmetleri", "href": "/tr/cagri-merkezi-hizmetleri" }
+    ],
+    "relatedPosts": [
+      { "title": "Web Sitesi Geliştirme", "href": "/tr/yazilim/web-sitesi-gelistirme" },
+      { "title": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" }
+    ],
+    "sections": [
+     
+      {
+        "id": "kullanici-yolculugu",
+        "title": "Otel ve Turizm Sitelerinde Kullanıcı Yolculuğu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir otel sitesinde kullanıcı yolculuğu genelde 5 niyete ayrılır: keşif, karşılaştırma, doğrulama, rezervasyon, iletişim. Sorun şu: çoğu site keşfi güzel yapar ama “doğrulama” (güven + koşullar + şeffaf fiyat) aşamasını zayıf bırakır. Sonuç: kullanıcı ya OTA’ya döner ya da “soru amaçlı” call center araması yapar."
+          },
+          {
+            "type": "p",
+            "text": "Bu yüzden hedef: call center’ı “bilgi alma” kanalından çıkarıp rezervasyon tamamlama kanalına yaklaştırmaktır. UX’iniz, kullanıcıyı soru sormaya değil, karar vermeye itmeli."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Kullanıcı ilk 10 saniyede “doğru oteldeyim” hissini alıyor mu?",
+              "Tarih/fiyat bilgisine en kısa yol kaç tık?",
+              "Güven unsurları (puan, yorum, politika) görünür mü?"
+            ]
+          },
+          { "type": "media", "slot": "hotel-guest-digital-journey" }
+        ]
+      },
+      {
+        "id": "ana-sayfa-oda-teklif-ux-ilkeleri",
+        "title": "Ana Sayfa, Oda ve Teklif Sayfaları için UX İlkeleri",
+        "blocks": [
+          { "type": "h3", "text": "Ana sayfa — net değer önerisi + hızlı arama kutusu" },
+          {
+            "type": "p",
+            "text": "Ana sayfanın işi “her şeyi anlatmak” değil, hızlı arama ve doğru yönlendirme sağlamaktır. Otel sitelerinde en kritik bileşen çoğu zaman “tarih + kişi + oda” arama alanıdır. Bu alan görünür değilse veya mobilde kayboluyorsa funnel daha baştan zayıflar."
+          },
+          { "type": "h3", "text": "Ana sayfada olmazsa olmazlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Net değer önerisi (konsept + destinasyon + güçlü farklılık)",
+              "Hızlı arama (tarih/kişi)",
+              "3–5 ana USP (ör. denize sıfır, aile konsepti, spa, çocuk kulübü)",
+              "Sosyal kanıt (puan, review sayısı, ödül)",
+              "“Direkt rezervasyon avantajı” mesajı (Varsayım: rate parity stratejisi)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Arama modülü ilk ekranda mı?",
+              "Mobilde tek elle kullanılabiliyor mu?",
+              "“Direkt rezervasyon” avantajı net mi?"
+            ]
+          },
+          { "type": "h3", "text": "Otel web sitesi UX’i nasıl olmalı?" },
+          {
+            "type": "p",
+            "text": "Otel web UX’i üç katmanı birlikte optimize etmelidir: ana sayfada hızlı arama ve net mesaj, oda sayfasında şeffaf fiyat/koşul ve güven, rezervasyon akışında kısa adımlar ve minimum form alanı. Kullanıcı her adımda “doğru seçimi yaptığını” hissetmeli; güven unsurları ve sosyal kanıt görünür olmalıdır."
+          },
+          { "type": "h3", "text": "Oda sayfaları — fotoğraf, özellik, fiyat ve koşullar" },
+          {
+            "type": "p",
+            "text": "Oda sayfası, karar anıdır. Kullanıcı burada şu soruları cevaplamak ister: “Bu oda bana uygun mu, fiyat/koşul nedir, iptal/iade nasıl, güvenebilir miyim?” Eğer bu bilgiler dağınıksa, kullanıcı “bir daha bakarım” diyerek çıkar."
+          },
+          { "type": "h3", "text": "Oda sayfasında kritik bloklar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fotoğraf galerisi (mobilde hızlı, kategorili)",
+              "Oda özellikleri (net, taranabilir)",
+              "Fiyat + dahil olanlar (açık)",
+              "Koşullar (iptal, ödeme, check-in/out)",
+              "Sosyal kanıt (yorum, puan, UGC)",
+              "Güven işaretleri (SSL, ödeme altyapısı, 3D Secure vb. “logo spam” olmadan)"
+            ]
+          },
+          { "type": "media", "slot": "ux-room-page" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Fiyat ve koşul aynı ekranda mı?",
+              "Fotoğraf galerisi hızla açılıyor mu?",
+              "“Rezervasyon” CTA’sı kayboluyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Teklif/Kampanya sayfaları — tek amaç, tek akış" },
+          {
+            "type": "p",
+            "text": "Kampanya sayfası “mini landing page” gibi çalışmalı: çok fazla link, çok fazla opsiyon funnel’ı bozar. Hedef: kampanyayı anlat → güven ver → uygun tarihe yönlendir → rezervasyona geçir."
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? (SXO)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda sayfasında “fiyat/koşul” bloklarını sabitle",
+              "CTA’yı mobilde sticky yap (Varsayım)",
+              "Kampanya sayfalarında tek amaç: rezervasyon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-funneli",
+        "title": "Rezervasyon Funnel’i (Tarih→Oda→Fiyat→Ödeme)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon funnel’i, tasarım değil “satış süreci”dir. Her ek alan, her belirsiz metin, her yavaş yükleme drop-off demektir. Bu akışta ideal yaklaşım: adımları kısalt, kullanıcıya nerede olduğunu göster, güveni her adımda yeniden üret."
+          },
+          { "type": "media", "slot": "funnel-flow-diagram-dropoff-checked" },
+          { "type": "h3", "text": "Funnel adımları ve hedef friksiyon seviyesi" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tarih seçimi (kolay, hızlı, alternatif önerisi)",
+              "Oda seçimi (karşılaştırma, filtre, net farklar)",
+              "Fiyat & paket (dahil olanlar, vergi/ücret şeffaflığı)",
+              "Misafir bilgileri (minimum alan, otomatik doldurma)",
+              "Ödeme (güven + hata toleransı)"
+            ]
+          },
+          { "type": "media", "slot": "friction-relief-points" },
+          { "type": "h3", "text": "Rezervasyon funnel’i hangi adımlardan oluşur?" },
+          {
+            "type": "p",
+            "text": "Tipik otel rezervasyon funnel’i; tarih seçimi → oda seçimi → fiyat/paket → misafir bilgileri → ödeme adımlarından oluşur. Başarılı funnel’lar, bu adımları kısa tutar, kullanıcıya ilerleme göstergesi sunar ve her adımda güven işaretlerini görünür kılar."
+          },
+          { "type": "h3", "text": "İlerleme göstergesi, hata yönetimi ve “geri dönüş” kolaylığı" },
+          {
+            "type": "p",
+            "text": "Kullanıcı tarih seçti, odasını seçti; ödeme sayfasında hata aldıysa “başa dönüp her şeyi tekrar girme” onu kaybettirir. İyi funnel; hatayı yönetir ve kullanıcıyı sistemden düşürmez."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "İlerleme barı var mı?",
+              "Hata olursa kullanıcı seçimini kaybediyor mu?",
+              "Ödeme sayfasında güven unsurları net mi?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Web UX & Rezervasyon Funnel Analizi Talep Et",
+            "text": "Rezervasyon akışınızın tarih→oda→fiyat→ödeme adımlarında nerede kayıp yaşadığınızı ölçelim; hızlı kazanım planı çıkaralım.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      },
+      {
+        "id": "guven-ve-sosyal-kanit",
+        "title": "Güven Unsurları ve Sosyal Kanıt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel satışında güven, görsel kadar güçlüdür. “Review puanı”, “yorum sayısı”, “UGC içerik” ve şeffaf koşullar (iptal/ödeme) kullanıcıyı OTA’dan siteye çekebilir."
+          },
+          { "type": "h3", "text": "Sosyal kanıt (review, puan, UGC)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Puanı tek başına değil: “kaç yorumdan” geldiğiyle göster",
+              "UGC’yi (misafir fotoğrafları) kontrollü kullan (spam değil)",
+              "“Ödül/sertifika” alanı minimal"
+            ]
+          },
+          { "type": "h3", "text": "Politika ve şeffaflık" },
+          {
+            "type": "p",
+            "text": "İptal/ödeme koşulları belirsizse kullanıcı ya arar ya kaçar. Koşulları “küçük yazı” yapmayın; net ve kısa verin."
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? (SXO)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfasına “koşullar özeti” koy (3 madde)",
+              "Ödeme adımında “güven + iade” mikro metinleri ekle",
+              "Review puanı + yorum sayısını her kritik sayfada görünür yap"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-ux-call-center-entegrasyonu",
+        "title": "Mobil UX ve Call Center Entegrasyonu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde kullanıcı daha sabırsızdır: otel aramasının büyük kısmı mobilde başlar. Bu yüzden “ara/WhatsApp” kısayolları, özellikle kararsız kullanıcı için kritik olabilir. Ama hedef; call center’ı “bilgi alma” değil rezervasyon tamamlama kanalına yaklaştırmaktır."
+          },
+          { "type": "h3", "text": "Mobilde otel rezervasyon deneyimini nasıl iyileştiririm?" },
+          {
+            "type": "p",
+            "text": "Mobilde ilk ekranı sadeleştirin, arama modülünü görünür tutun, CTA’yı (rezervasyon) sticky hale getirin, form alanlarını minimuma indirin ve Apple/Google autofill gibi kolaylaştırıcıları kullanın. Ayrıca “Ara/WhatsApp” kısa yollarını, rezervasyon adımında takılma anlarına konumlandırın."
+          },
+          { "type": "h3", "text": "Call center ve PMS entegrasyonu" },
+          {
+            "type": "p",
+            "text": "Call center entegrasyonu sadece “telefon numarası” değildir; CRM/call tracking, rezervasyon referansı, misafir bilgisinin aktarımı gibi süreçler gerekir. Ayrıca PMS & OTA entegrasyonu, müsaitlik ve fiyat bilgisini doğru taşımıyorsa UX ne kadar iyi olursa olsun funnel kırılır."
+          },
+          { "type": "media", "slot": "mobil-mockup-whatsapp" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel & Turizm Web Sitesi UX + Rezervasyon Funnel Planlama Şablonunu İndir",
+            "text": "Ekibinizle birlikte ana sayfa–oda–funnel kararlarını tek dokümana toplarsınız; revizyonları sprint planına çevirirsiniz.",
+            "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "download-asset-ux-funnel-template",
+        "title": "Otel & Turizm Web Sitesi UX + Rezervasyon Funnel Planlama Şablonunu İndir — Yazılım",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel & Turizm Web Sitesi UX + Rezervasyon Funnel Planlama Şablonunu İndir — Yazılım (v1.0)",
+            "purpose": "Bu şablon, otel web sitesinde dönüşüm odaklı UX kararlarını (ana sayfa, oda sayfası, rezervasyon funnel’i, mobil ve call center) tek dokümanda toplar. Amaç; ekiplerin dağınık revizyonlarını “önceliklendirilmiş sprint planına” çevirmek ve direkt rezervasyon hedefini ölçülebilir hale getirmektir. PMS/OTA ve ödeme entegrasyonu risklerini de aynı plan içinde görünür kılar.",
+            "whoFor": "Otel satış/pazarlama, revenue/e-commerce, ajans UX/UI, geliştirici, call center sorumlusu.",
+            "steps": [
+              "Mevcut funnel’ı (tarih→oda→fiyat→ödeme) çıkarın ve drop-off noktalarını işaretleyin.",
+              "Şablondaki “Ana sayfa / Oda / Funnel / Mobil / Güven” bloklarını doldurup hedef KPI belirleyin.",
+              "14 günlük sprint planına aksiyonları dağıtın; önce hızlı kazanımları (LCP/hız, CTA, form kısaltma) uygulayın."
+            ],
+            "checklist": [
+              "Önce KPI’yı yazmadan UX konuşmayın; “ne artacak?” net olsun.",
+              "Oda sayfasında fiyat/koşul/güven aynı ekranda görünür olsun.",
+              "Funnel’da adım sayısını azaltın; her adımda ilerleme göstergesi kullanın.",
+              "Mobilde CTA’yı kaybetmeyin; “ara/WhatsApp”ı tıkanma anına koyun.",
+              "Entegrasyon risklerini (PMS/OTA/ödeme) planın parçası yapın."
+            ],
+            "href": "/downloads/otel-ux-rezervasyon-funnel-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Dönüşüm Odaklı Otel UX’i = 3 Blok + 1 Entegrasyon Katmanı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu modelde başarı; (1) ana sayfa (hızlı arama + net mesaj), (2) oda sayfası (şeffaf fiyat/koşul + güven), (3) rezervasyon funnel’i (kısa adımlar + iyi hata yönetimi) ve (4) entegrasyon katmanı (PMS/OTA + ödeme + call center) birlikte çalıştığında gelir. Bu yaklaşım, aynı trafikle daha fazla direkt rezervasyon almanıza ve OTA bağımlılığını azaltmanıza yardımcı olur."
+          },
+          {"type":"media","slot":"drop-off-analysis"},
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Web UX & Rezervasyon Funnel Analizi Talep Et",
+            "text": "Funnel drop-off noktalarınızı çıkarıp hızlı kazanım listesi ve 2 haftalık sprint planıyla dönüşümünüzü büyütelim.",
+            "href": "/tr/yazilim/web-sitesi-gelistirme"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel web sitesi UX’i nasıl olmalı?",
+        "a": "Ana sayfada hızlı arama ve net mesaj, oda sayfasında şeffaf fiyat/koşul ve güven, rezervasyon akışında kısa adımlar ve iyi hata yönetimi olmalı."
+      },
+      {
+        "q": "Oda sayfasında neler olmalı?",
+        "a": "Hızlı açılan fotoğraf galerisi, oda özellikleri, fiyat ve dahil olanlar, iptal/ödeme koşulları, yorum/puan gibi sosyal kanıt ve görünür rezervasyon CTA’sı."
+      },
+      {
+        "q": "Rezervasyon funnel’i hangi adımlardan oluşur?",
+        "a": "Genelde tarih seçimi → oda seçimi → fiyat/paket → misafir bilgileri → ödeme adımlarından oluşur; her adım minimum friksiyonla tasarlanmalıdır."
+      },
+      {
+        "q": "Mobilde otel rezervasyon deneyimini nasıl iyileştiririm?",
+        "a": "Arama modülünü görünür tutun, CTA’yı sticky yapın, form alanlarını azaltın, otomatik doldurmayı kullanın ve tıkanma anlarında ara/WhatsApp kısa yolu sunun."
+      },
+      {
+        "q": "Sosyal kanıt (yorum/puan) dönüşümü nasıl etkiler?",
+        "a": "Karar anında güveni hızlandırır; özellikle fiyat ve koşullar yanında görünür olduğunda “rezervasyon” kararını kolaylaştırır."
+      },
+      {
+        "q": "Call center entegrasyonu UX’in parçası mı?",
+        "a": "Evet. Kullanıcının takıldığı adımda hızlı yardım kanalı sunmak drop-off’u azaltır; hedef “soru amaçlı” değil “rezervasyon amaçlı” aramayı artırmaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "funnel-ux-diagram-h1 — (H1 altı) “Rezervasyon Funnel UX Diyagramı” (Liste→Oda→Tarih→Fiyat→Ödeme) + drop-off ikonları",
+          "hotel-guest-digital-journey — Kullanıcı yolculuğu şeması (Keşif→Karşılaştırma→Güven→Rezervasyon→After)",
+          "ux-room-page — “İyi vs Kötü Oda Sayfası” karşılaştırmalı mockup (aynı ekran)",
+          "funnel-flow-diagram-dropoff-checked — Funnel akış diyagramı + “drop-off noktaları” işaretleri",
+          "mobil-mockup-whatsapp — Mobil ekran mockup (sticky CTA + WhatsApp + “yardım”)"
+        ],
+        "technicalChecklist": [
+          "Arama modülü (tarih/kişi/oda) ilk ekranda ve mobilde tek elle kullanılabilir",
+          "Oda sayfasında fiyat + koşul + güven aynı ekranda ve CTA görünür",
+          "Funnel adım sayısı sade ve ilerleme göstergesi mevcut",
+          "Ödeme adımında güven + hata toleransı var; seçimler kaybolmuyor",
+          "Call center kısa yol (Ara/WhatsApp) tıkanma anlarına konumlandırıldı",
+          "PMS/OTA müsaitlik & fiyat entegrasyonu doğrulandı",
+          "Ödeme entegrasyonu güven sinyalleri “logo spam” olmadan verildi",
+          "Drop-off noktaları ölçümü ve KPI takibi planlandı"
+        ]
+      }
+    }
+  },
+
+  "BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim": {
+    "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+    "slug": "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim",
+    "department": "creative",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Feed–story–reels–banner için kampanya görsel seti kurun. Mesaj, görsel ve CTA varyasyonlarını A/B test edin; CTR/CVR içgörülerini yeni tasarıma taşıyın.",
+    "seo": {
+      "metaTitle": "Kampanya Görsel Seti ve A/B Test Rehberi | DGTLFACE",
+      "metaDescription": "Feed–story–reels–banner için kampanya görsel seti kurun. Mesaj, görsel ve CTA varyasyonlarını A/B test edin; CTR/CVR içgörülerini yeni tasarıma taşıyın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa (Hub) / URL: Grafik & Motion Tasarım — /tr/creative/grafik-motion-tasarim",
+        "Blog No / URL: Blog #5 — /tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2300–2700",
+        "GEO: Türkiye geneli; kampanya ağırlıklı çalışan otel, turizm ve performans odaklı B2B markalar",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim"
+      ],
+      "strategySummary": "Bu içerik, Creative silosunu “beğeni odaklı tasarım”dan çıkarıp test-driven creatives (performans tasarım) yaklaşımına bağlayan core otorite rehberidir. /tr/creative/grafik-motion-tasarim sayfasına dönüşüm taşıyan bir child içerik olarak konumlanır ve /tr/smm/sosyal-medya-reklamlari ile /tr/sem/remarketing-ve-display sayfalarına köprü kurarak creative + performance ekiplerini aynı dilde buluşturur. Funnel’da consideration → conversion: kampanya boyunca “set + varyasyon + ölçüm” döngüsü kurulur. Ana iş sorusu: “Kampanya görsellerini hangi değişkenlerle test edip, kazananı tasarım diline nasıl geri beslerim?” Hedef persona: otel satış–pazarlama, performans pazarlama, ajans yöneticisi ve tasarım ekibi."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-16",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Performans odaklı tasarım, tek bir “beğenilen” görsel üretmek değil; test edilebilir varyasyonlarla öğrenen bir sistem kurmaktır. Kampanya görsellerini feed–story–reels–banner seti olarak kurgulayıp mesaj (headline), görsel (hero) ve CTA öğelerini kontrollü şekilde değiştirerek A/B test edin. Sonuçları CTR/CVR gibi metriklerle yorumlayıp “kazanan kombinasyonu” şablon dilinize geri besleyin. Otel ve B2B’de bu yaklaşım tıklama ve dönüşümü anlamlı ölçüde iyileştirebilir.",
+      "sgeSummary": "Kampanyayı set olarak tasarla (feed/story/reels/banner). A/B testte tek seferde tek değişken değiştir (headline, hero, CTA). CTR/CVR’ye göre kazananı seç, yeni tasarıma standart yap.",
+      "voiceAnswer": "Mesaj–görsel–CTA’yı ayrı ayrı test et; her format için set kur, CTR/CVR’ye göre kazananı standartlaştır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm + performans odaklı B2B ekipleri, ajanslar",
+        "KPI: CTR, CVR, CPA/ROAS (Varsayım: erişim/etkileşim yanında dönüşüm odaklı), kreatif üretim süresi, revizyon hızı",
+        "Entity: Campaign Visual Sets, A/B Testing, Headline Variations, Hero Visual, CTA, Multi-format Ads",
+        "Funnel: MoFu → BoFu (kampanya performansı)",
+        "Kanallar: Feed, Story, Reels, Banner (display/remarketing)",
+        "Risk: Çok değişkeni aynı anda değiştirmek → öğrenme kaybolur",
+        "Çıktı: Set diyagramı + A/B test sonuç tablosu + planlama şablonu"
+      ]
+    },
+    "h1": {
+      "title": "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
+      "intro": "Kampanya kreatiflerinde en büyük tuzak “bu güzel oldu” diyerek tek görsele takılı kalmaktır. Performans odaklı tasarım ise set hâlinde üretim + kontrollü varyasyon + ölçüm döngüsüdür: feed, story, reels ve banner birbirini besler; A/B testler mesaj, görsel ve CTA’nın hangi kombinasyonla çalıştığını veriyle gösterir. Bu rehber, otel ve B2B kampanyaları için set kurma mantığını, test değişkenlerini ve sonuçların tasarım diline nasıl geri besleneceğini pratik bir çerçeveyle anlatır.",
+      "quickSummary": [
+        "Set mantığı: tek mesaj, çok format (feed/story/reels/banner)",
+        "A/B test kuralı: tek seferde tek değişken (headline/hero/CTA)",
+        "Metrik okuma: CTR (çekicilik) + CVR (uyum) birlikte yorumlanır",
+        "Kazanan içgörü: şablon standardına yazılır, tasarım diline geri beslenir",
+        "Otel & B2B: kanıt türü değişir ama test döngüsü aynı kalır"
+      ],
+      "ctaPrimary": {
+        "label": "Kampanya Görsel Set & A/B Test Analizi Talep Et",
+        "text": "Mevcut kampanya kreatiflerinizi set mantığı + test değişkenleriyle audit edip 14 günlük test planı çıkaralım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Kampanya Görsel Set & A/B Test Analizi Talep Et",
+        "text": "Mevcut kampanya kreatiflerinizi set mantığı + test değişkenleriyle audit edip 14 günlük test planı çıkaralım.",
+        "href": "/tr/creative/grafik-motion-tasarim"
+      },
+      "secondary": {
+        "label": "Kampanya Mesaj–Görsel–CTA A/B Test Planlama Şablonunu İndir",
+        "text": "Her kampanyada hipotez, varyasyon ve sonuçları tek tabloda toplar; kazananı tasarım diline hızlıca taşırsınız.",
+        "href": "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "label": "Sosyal Medya Reklamları", "href": "/tr/smm/sosyal-medya-reklamlari" },
+      { "label": "Remarketing ve Display", "href": "/tr/sem/remarketing-ve-display" }
+    ],
+    "relatedPosts": [
+      { "title": "Grafik & Motion Tasarım", "href": "/tr/creative/grafik-motion-tasarim" },
+      { "title": "Sosyal Medya Reklamları", "href": "/tr/smm/sosyal-medya-reklamlari" },
+      { "title": "Remarketing ve Display", "href": "/tr/sem/remarketing-ve-display" }
+    ],
+    "sections": [
+    
+      {
+        "id": "kampanya-gorsel-set-nasil-kurulur",
+        "title": "Kampanya İçin Görsel Set Nasıl Kurulur? (Feed, Story, Reels, Banner)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kampanya seti, tek bir görselin farklı ölçülere uyarlanması değil; her formatın davranışına uygun “aynı mesaj ailesi”dir. Feed daha çok vitrin ve kanıt; story daha çok hızlı aksiyon; reels daha çok dikkat/retention; banner daha çok hatırlatma/remarketing işlevi görür. Set kurgusu; mesajın tutarlılığını korurken formatın avantajını kullanır."
+          },
+          { "type": "h3", "text": "Kampanya görsel seti nasıl hazırlanır?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce kampanyanın ana mesajını ve tek CTA kanalını belirle; sonra aynı mesajı feed/story/reels/banner formatlarına uygun şablonlarla üret. Son olarak her format için 1–2 kontrollü varyasyon çıkarıp A/B test planına bağla."
+          },
+          { "type": "h3", "text": "Set İskeleti (Pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ana Mesaj: 1 cümle (kime + fayda)",
+              "Alt Mesajlar: 2–3 kısa kanıt (özellik/avantaj/sosyal kanıt)",
+              "Hero Görsel: tek ana görsel konsepti",
+              "CTA: tek kanal (web/DM/WhatsApp)",
+              "Format şablonları: feed/story/reels/banner"
+            ]
+          },
+          {"type":"media","slot":"main-message-concept"},
+          {
+            "type": "h3",
+            "text": "Ne yapmalıyım?"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kampanya brief’ini 1 sayfaya indir (mesaj + kanıt + CTA).",
+              "Format başına “minimum” şablon çıkar (metin alanı, safe area, logo).",
+              "Seti 2 faza böl: Faz-1 “mesaj doğrulama”, Faz-2 “performans optimizasyonu”."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mesaj-ve-gorsel-varyasyonlari",
+        "title": "Mesaj ve Görsel Varyasyonları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Varyasyon, “rastgele farklı tasarım” değildir; hipotezli değişikliktir. Kampanyada genellikle üç şey test edilir: headline (mesaj), hero görsel (görsel kanıt) ve CTA (aksiyon tetikleyicisi). Buradaki kritik kural: aynı testte birden fazla şeyi değiştirme; yoksa neyin kazandığını bilemezsin."
+          },
+           {"type":"media","slot":"hero-image"},
+          { "type": "h3", "text": "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Uyum, aynı renk/typography ailesi ve aynı ana mesajla sağlanır; farklılık formatın davranışına göre şablon dilindedir. Feed “kanıt”, story “tek aksiyon”, reels “hook + akış”, banner “hatırlatma” rolü taşır."
+          },
+          { "type": "h3", "text": "Varyasyon Türleri (Kontrollü)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Headline varyasyonu: aynı görsel, farklı başlık",
+              "Hero görsel varyasyonu: aynı mesaj, farklı ana görsel",
+              "CTA varyasyonu: aynı mesaj+görsel, farklı CTA ifadesi (kanal aynı)"
+            ]
+          },
+          {"type":"media","slot":"headline-test"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Her varyasyonda sadece 1 öğe mi değişti?",
+              "Mesaj aynı persona’ya mı konuşuyor?",
+              "CTA kanalında karmaşa var mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Varyasyonları “A/B/C” diye değil “Hipotez-1/2” diye adlandır.",
+              "Her varyasyonun “neden”ini yaz (beklenen etki).",
+              "Kaybedeni de arşivle; öğrenim deposu yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ab-test-kurgusu",
+        "title": "A/B Test Kurgusu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A/B test, tasarım zevkini değil performansı ölçer; ama doğru kurgu olmadan “gürültü” üretir. İyi bir test; net hedef (CTR mi CVR mi?), yeterli süre, tek değişken ve doğru segmentasyon ister. Otellerde sezon ve destinasyon etkisi; B2B’de persona ve teklif tipi etkisi test sonuçlarını değiştirir."
+          },
+          { "type": "h3", "text": "A/B testlerinde hangi tasarım öğelerini değiştirmeliyim?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Öncelik sırası genelde: (1) Headline/mesaj, (2) Hero görsel, (3) CTA ifadesi. Bir testte sadece bir öğeyi değiştir; hedef metriği (CTR/CVR) baştan belirle."
+          },
+          { "type": "h3", "text": "Test Değişken Haritası (Pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj: problem/vaat/kanıt vurgusu",
+              "Görsel: oda/deneyim/ürün close-up vs geniş plan",
+              "CTA: “Teklif Al” vs “Planla” gibi mikro ifade (kanal sabit)"
+            ]
+          },
+          { "type": "media", "slot": "ab-test-cycle" },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Önce CTR’ı optimize et (mesaj/görsel), sonra CVR’a geç (landing + CTA uyumu).",
+              "Test süresini çok kısa tutma (Varsayım: en az 5–7 gün veya yeterli hacim).",
+              "Kazananı “şablon standardı”na yaz (süreçleşsin)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-ve-b2b-senaryolari",
+        "title": "Otel ve B2B İçin Performans Odaklı Görsel Senaryoları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aynı test mantığı otel ve B2B’de farklı kanıt türleriyle çalışır. Otelde kanıt: deneyim, konsept, sosyal kanıt; B2B’de kanıt: sonuç, metrik, süreç. Kampanya türü de senaryoyu belirler."
+          },
+          { "type": "h3", "text": "Otel Senaryoları (Erken Rezervasyon / Son Dakika / Paket)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Erken rezervasyon: “avantaj + güven + sınırlılık”",
+              "Son dakika: “hız + net teklif + tek CTA”",
+              "Paket: “ne dahil + kim için + kısa fayda”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "GEO notu (doğal kullanım): Antalya/Belek/Side/Kemer/Bodrum/Alanya gibi destinasyonlarda kampanya setlerinde “destinasyon hissi” support katmanda kullanılmalı; ana mesaj boğulmamalı."
+          },
+          { "type": "h3", "text": "B2B Senaryoları (Ürün/Servis Kampanyaları)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ürün: 1 problem → 1 çözüm → 1 sonuç metriği",
+              "Servis: 3 deliverable → 1 süreç → 1 garanti/kanıt",
+              "Retargeting banner: kısa hatırlatma + tek CTA"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Otelde: hero görsel “his” verir; metin “kanıt”tır.",
+              "B2B’de: metin “netlik” verir; görsel “kanıt”tır (grafik/screenshot).",
+              "Setleri platform bazlı değil, funnel bazlı kurgula (ilk temas / retarget / conversion)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuclari-yorumlama-ve-geri-besleme",
+        "title": "Test Sonuçlarını Yorumlama ve Yeni Tasarıma Taşıma",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "A/B testin amacı “kazananı bulmak” kadar, kazananın neden kazandığını anlamaktır. Eğer sonuçları tasarım diline geri beslemezseniz, her kampanya sıfırdan başlar. Burada yapılacak iş: kazanan mesaj kalıbını, görsel tipini ve CTA ifadesini “kampanya tasarım sistemi”ne yazmaktır."
+          },
+          { "type": "h3", "text": "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?" },
+          {
+            "type": "p",
+            "text": "Net cevap: Önce hedef metriği seç (CTR mı CVR mı), sonra aynı koşullarda varyasyonları çalıştır. CTR farkı mesaj/görselin çekiciliğini, CVR farkı teklif–landing uyumunu gösterir. Kazananı şablon standardı yap; kaybedeni “öğrenim notu” olarak arşivle."
+          },
+          {"type":"media","slot":"ab-test-panel"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "CTR kazandı ama CVR düştü mü? (landing/teklif uyumu sorunu)",
+              "CVR kazandı ama CTR düşük mü? (hook/mesaj sorunu)",
+              "Kazananı şablona yazdın mı? (asıl kazanç burada)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kazananın “neden”ini 2 cümle yaz.",
+              "Bir sonraki kampanyada aynı iskeleti yeni teklife uygula.",
+              "Remarketing setinde kazanan mesajı “hatırlatma” diline çevir."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Kampanya Mesaj–Görsel–CTA A/B Test Planlama Şablonunu İndir",
+            "text": "Her kampanyada test hipotezlerini ve sonuçları tek tabloda toplar; sonraki tasarımlara içgörü olarak hızlıca taşırsınız.",
+            "href": "/tr/smm/sosyal-medya-reklamlari"
+          }
+        ]
+      },
+      {
+        "id": "sonuc-ve-uygulama-plani",
+        "title": "Sonuç ve Uygulama Planı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Performans odaklı tasarım; “güzel görsel”i değil, kazanan kombinasyonu üretir. Kampanyayı set mantığıyla kurup mesaj/görsel/CTA varyasyonlarını kontrollü test ettiğinizde, ekip içi tartışmalar “zevk”ten “veri”ye döner. Bu rehberin hedefi; creative ve performance ekiplerine ortak bir dil vererek, kampanya üretimini hızlandırmak ve sonuçları tasarım sistemine kalıcı şekilde taşımaktır."
+          },
+          {"type":"media","slot":"performance-design-system"},
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Kampanya Görsel Set & A/B Test Analizi Talep Et",
+            "text": "Mevcut kampanyalarınız için set + test yol haritası çıkaralım; 14 günde ilk içgörüyü üretelim.",
+            "href": "/tr/creative/grafik-motion-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "ab-test-planlama-sablonu-indir",
+        "title": "Kampanya Mesaj–Görsel–CTA A/B Test Planlama Şablonunu İndir — Creative / Performance Design",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Kampanya Mesaj–Görsel–CTA A/B Test Planlama Şablonunu İndir — Creative / Performance Design (v1.0)",
+            "purpose": "Bu şablon, kampanya kreatiflerini “set + varyasyon + ölçüm” mantığıyla planlamanız için hazırlandı. Mesaj, görsel ve CTA değişkenlerini hipotez bazlı yazdırır; CTR/CVR sonuçlarını tek yerde toplayarak kazanan içgörüyü bir sonraki tasarıma taşımayı kolaylaştırır.",
+            "whoFor": "Performans pazarlama uzmanı, kreatif stratejist, tasarım ekibi ve ajans yöneticisi.",
+            "steps": [
+              "Kampanya ana mesajını ve hedef metriği yaz (CTR mi CVR mi?).",
+              "Her testte tek değişken seç (headline/hero/CTA) ve varyasyonları gir.",
+              "Sonuçları ekle; kazananı “şablon standardı” olarak işaretle ve sonraki sete taşı."
+            ],
+            "checklist": [
+              "Her testte tek değişken değiştir (aksi halde öğrenim kaybolur).",
+              "Hedef metriği baştan seç: CTR (çekicilik) / CVR (uyum).",
+              "Varyasyon adlarını hipoteze göre yaz (örn: “Kısa Headline”).",
+              "Kazananı seçtikten sonra şablon standardı haline getir (süreçleşsin).",
+              "Kaybedeni silme; “öğrenim arşivi”nde tut."
+            ],
+            "href": "/downloads/kampanya-mesaj-gorsel-cta-ab-test-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          {"type":"media","slot":"sablon"}
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Kampanya görsel seti nasıl hazırlanır?",
+        "a": "Ana mesajı ve tek CTA kanalını belirleyin; sonra feed/story/reels/banner formatlarına uygun şablonlarla aynı mesaj ailesini üretin. Ardından 1–2 kontrollü varyasyon çıkarıp A/B test planına bağlayın."
+      },
+      {
+        "q": "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?",
+        "a": "Aynı mesaj, aynı görsel dil (renk/typography) ve aynı CTA mantığıyla uyum sağlanır. Fark format rolündedir: feed kanıt, story aksiyon, reels dikkat, banner hatırlatma."
+      },
+      {
+        "q": "A/B testlerinde hangi tasarım öğelerini değiştirmeliyim?",
+        "a": "Öncelik genelde headline/mesaj, sonra hero görsel, sonra CTA ifadesidir. Bir testte tek değişken değiştirerek CTR/CVR gibi metriklerle kazananı net görürsünüz."
+      },
+      {
+        "q": "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?",
+        "a": "Önce hedef metriği seçin (CTR mi CVR mi), varyasyonları aynı koşullarda çalıştırın. CTR mesaj/görsel çekiciliğini, CVR teklif–landing uyumunu gösterir; kazananı şablona standart yapın."
+      },
+      {
+        "q": "Çok fazla varyasyon üretmek doğru mu?",
+        "a": "Başlangıçta 2 varyasyon (A/B) yeterlidir. Öğrenim geldikçe yeni hipotezle 1 değişkeni test ederek ilerlemek daha sağlıklıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "set-diyagram-tek-mesaj-cok-format — Kampanya set diyagramı (feed/story/reels/banner) — “tek mesaj, çok format” şeması",
+          "ab-test-varyasyonlari-sonuc-ozet-tablosu — Örnek A/B test varyasyonları ve sonuç özet tablosu (headline/hero/CTA)",
+          "ab-test-cycle — A/B test plan tablosu (Değişken / Hipotez / Metrik / Süre / Sonuç)",
+          "tek-sayfa-birlesik-gorsel — “Kampanya seti + test tablosu” birleşik tek sayfa görsel"
+        ],
+        "technicalChecklist": [
+          "Set mantığı: feed/story/reels/banner formatları aynı mesaj ailesiyle üretildi",
+          "A/B test kuralı: her testte tek değişken değiştirildi (headline/hero/CTA)",
+          "Hedef metrik seçimi net: CTR mi CVR mi baştan belirlendi",
+          "Varyasyon isimleri hipotez bazlı (Hipotez-1/2) adlandırıldı",
+          "Kazanan içgörü 2 cümleyle yazıldı ve şablon standardına işlendi",
+          "Kaybeden varyasyonlar öğrenim arşivine eklendi",
+          "Remarketing/display setleri funnel rolüne göre kurgulandı",
+          "Creative ↔ performance köprü linkleri doğal şekilde yerleştirildi"
+        ]
+      }
+    }
+  }
   }
 
   

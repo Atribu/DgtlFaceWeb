@@ -19,20 +19,23 @@ export const BLOG_MAP = {
     "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": "BlogSosyalMedyaIcerikStratejisiContentPillarsVeFormatDengesi",
     "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur",
     "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli":"BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli",
-    "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi"
+    "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi",
+    "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":"BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu"
   },
 
     yazilim: {
     "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": "BlogKurumsalWebSitesiChecklistYayinaCikmadanOnce40Madde",
     "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur",
     "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu":"BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu",
-    "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":"BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu"
+    "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":"BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu",
+    "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":"BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
     "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi",
     "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin",
-    "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber"
+    "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber",
+    "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim"
   },
 
        callcenter: {
