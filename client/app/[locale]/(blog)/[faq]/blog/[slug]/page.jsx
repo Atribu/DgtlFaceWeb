@@ -175,7 +175,7 @@ export default async function BlogDetailPage({ params }) {
   return (
     <main className="min-h-screen bg-[#120014] text-white">
       {/* TOP BAR: Breadcrumbs + Meta */}
-      <div className="mx-auto w-full max-w-[1400px] px-4 pt-20">
+      <div className="mx-auto w-full max-w-[1400px] px-4 pt-[70px]">
   <BlogBreadcrumbs
     locale={locale}
     department={department}
@@ -256,7 +256,7 @@ export default async function BlogDetailPage({ params }) {
                 src={h1ContextMedia.src}
                 alt={h1ContextMedia.alt || ""}
                 fill
-                sizes="100vw"
+               sizes="(max-width: 768px) 100vw, 1000px"
                 className="object-cover"
               />
             </div>

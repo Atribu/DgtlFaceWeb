@@ -602,13 +602,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Keşif → oda/teklif → rezervasyon akışı için sayfa türleri haritası."
     },
 
-      "checklist-06": {
+      "checklist": {
       src: "/images/blog/hotel/Otel1-1/Otel1-1-6.jpeg",
       alt: "Otel SEO üçgeni ve kontrol listesi",
       caption: "Teknik + içerik + yerel üçgeni için hızlı kontrol kartı."
     },
 
-     "kpi-table-07": {
+     "kpi-table": {
       src: "/images/blog/hotel/Otel1-1/Otel1-1-7.jpeg",
       alt: "Otel SEO KPI seti tablosu",
       caption: "Trafik değil: gelir + rezervasyon + Hotel Pack metrikleri birlikte."
@@ -2449,7 +2449,107 @@ export const BLOG_MEDIA_MAP = {
       alt: "",
       caption: ""
     }
-  }
+  },
+
+  "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-1.jpeg",
+      alt: "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+      caption: "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama"
+    },
+
+          "hotel-performance": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-2.jpeg",
+      alt: "Yöneticiler için executive dashboard nasıl tasarlanmalı?",
+      caption: "Otel Performans Özeti"
+    },
+
+           "kpi-set": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-3.jpeg",
+      alt: "Yönetim için doğru KPI setini belirleme",
+      caption: "Yönetim KPI Seti"
+    },
+
+    "executive-panel": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-4.jpeg",
+      alt: "Executive dashboard tasarım prensipleri ",
+      caption: "Yönetim Paneli"
+    },
+
+     "looker-studio-schema": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-5.jpeg",
+      alt: "Otomatik Looker Studio raporlama nasıl kurulur?",
+      caption: "Otomatik Looker Studio raporlama nasıl kurulur?"
+    },
+
+          "dashboard-design-principles": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-6.jpeg",
+      alt: "Önerilen layout",
+      caption: "Tasarım Prensipleri"
+    },
+
+      "analysis-revpar-adr": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-7.jpeg",
+      alt: "Satış/Revenue: doluluk, ADR/RevPAR, kanal mix, iptal/no-show",
+      caption: "Satış/Revenue: doluluk, ADR/RevPAR, kanal mix, iptal/no-show"
+    },
+
+          "decision-outcomes": {
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-8.jpeg",
+      alt: "Yönetim toplantılarında dashboard nasıl kullanılmalı?",
+      caption: "Yönetim Toplantısı & Karar Çıktıları"
+    }
+  },
+
+  "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-1.jpeg",
+      alt: "OTA Rekabetine Karşı Teknik Otel SEO: Site Mimarisi ve Dahili Linkleme OTA’yı Nasıl Dengeler?",
+      caption: "OTA Rekabetine Karşı Teknik Otel SEO: Site Mimarisi ve Dahili Linkleme OTA’yı Nasıl Dengeler?"
+    },
+
+          "hotel-entity": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-2.jpeg",
+      alt: "Otel sitesi için ideal site mimarisi nasıl olmalı? ",
+      caption: "Kullanıcı Yolu & Rezervasyon Bağlamı"
+    },
+
+           "direct-booking": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-3.jpeg",
+      alt: "Kategori → Oda → Deneyim → Blog → SSS → Rezervasyon akışı nasıl kurulmalı?",
+      caption: "Direct Booking Yolu"
+    },
+
+    "internal-linking-diagram": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-4.jpeg",
+      alt: "",
+      caption: "İç Linkleme Şeması"
+    },
+
+     "ideal-hotel-site-flow": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-5.jpeg",
+      alt: "",
+      caption: "İdeal Otel Site Akışı"
+    },
+
+          "checklist": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-6.jpeg",
+      alt: "",
+      caption: "Mimari & İç Link Teknik Checklist"
+    },
+
+      "technical-seo-kpi": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-7.jpeg",
+      alt: "",
+      caption: "Teknik Seo & Otorite KPI'ları"
+    },
+
+          "download": {
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
 
   
 };

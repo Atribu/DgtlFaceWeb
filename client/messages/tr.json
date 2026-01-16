@@ -26502,7 +26502,7 @@
         "id": "sonuc",
         "title": "Sonuç: OTA’ya rağmen kazanmanın yolu “tek hamle” değil, sistemdir",
         "blocks": [
-          { "type": "media", "slot": "deliverables" },
+          { "type": "media", "slot": "kpi-table" },
           {
             "type": "p",
             "text": "Otel SEO, tek bir “SEO çalışması” değil; teknik temel + içerik seti + yerel sinyal + KPI okuma sistemidir. OTA’lar güçlü kalabilir; fakat siz doğru sorgu kümelerinde doğru sayfa türleriyle görünür olup, direct booking akışını hızlandırabilirsiniz."
@@ -32972,7 +32972,7 @@
             "type": "p",
             "text": "Bunu hem içerikte hem de schema tarafında “okunabilir” hale getirdiğinizde arama niyeti ile sayfa içeriği eşleşir."
           },
-          { "type": "p", "text": "☑ Mini Check (H2-1):" },
+          { "type": "p", "text": "☑ Mini Check " },
           {
             "type": "list",
             "style": "ul",
@@ -33027,7 +33027,7 @@
               "Her kartta: iptal koşulu + 1 fayda + CTA"
             ]
           },
-          { "type": "p", "text": "☑ Mini Check (H2-2):" },
+          { "type": "p", "text": "☑ Mini Check " },
           {
             "type": "list",
             "style": "ul",
@@ -33088,7 +33088,7 @@
               "Güven sinyali (iptal/ödeme netliği + iletişim)"
             ]
           },
-          { "type": "p", "text": "☑ Mini Check (H2-3):" },
+          { "type": "p", "text": "☑ Mini Check " },
           {
             "type": "list",
             "style": "ul",
@@ -33142,7 +33142,7 @@
             "type": "p",
             "text": "Oda sayfasında micro-copy kritik: “kahvaltı dahil mi?”, “ek yatak olur mu?”, “balkon var mı?”, “manzara garanti mi?” gibi sorulara kısa cevaplar dönüşümü yükseltir."
           },
-          { "type": "p", "text": "☑ Mini Check (H2-4):" },
+          { "type": "p", "text": "☑ Mini Check " },
           {
             "type": "list",
             "style": "ul",
@@ -33201,7 +33201,7 @@
             "type": "p",
             "text": "Bu, “RoomPage → influences → booking decision” ilişkisinin teknik karşılığıdır."
           },
-          { "type": "p", "text": "☑ Mini Check (H2-5):" },
+          { "type": "p", "text": "☑ Mini Check " },
           {
             "type": "list",
             "style": "ul",
@@ -37108,7 +37108,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "☑ Mini Check (H2-1):",
+            "title": "☑ Mini Check ",
             "items": [
               "Destinasyon içerikleri bir “cluster haritası” içinde mi?",
               "Her yazıda oda/teklif sayfasına giden 1–2 iç link var mı?",
@@ -37186,7 +37186,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "☑ Mini Check (H2-2):",
+            "title": "☑ Mini Check ",
             "items": [
               "Hub sayfanız bölgeleri ve segmentleri tek yerde bağlıyor mu?",
               "Her alt içerik, bir sonraki adımı (oda/teklif) işaret ediyor mu?",
@@ -37258,7 +37258,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "☑ Mini Check (H2-3):",
+            "title": "☑ Mini Check ",
             "items": [
               "Her deneyim içeriği bir “oda/teklif” sayfasına bağlanıyor mu?",
               "CTA’lar segment dilinde mi (aile, çift, golf)?",
@@ -37328,7 +37328,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "☑ Mini Check (H2-4):",
+            "title": "☑ Mini Check ",
             "items": [
               "Blog yazılarında oda/teklif linkleri ölçülüyor mu?",
               "Oda sayfası CTA tıklaması izleniyor mu?",
@@ -37396,7 +37396,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "☑ Mini Check (H2-5):",
+            "title": "☑ Mini Check ",
             "items": [
               "Soru başlıklı H2’ler ve net cevap blokları var mı?",
               "Q&A’lar oda/rezervasyon anchor’larına bağlanıyor mu?",
@@ -40583,7 +40583,7 @@
         "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
         "mediaPack": [
           "egitim-akisi-semasi — (H1 altı) Hazırlık → Eğitim Oturumları → Uygulama/Role-play → Mini sınav/Yetki → Go-Live destek → Refresh",
-          "rol-bazli-egitim-matrisi-gorseli — (H3) Rol bazlı eğitim matrisi görseli",
+          "rol-bazli-egitim-matrisi-gorseli —  Rol bazlı eğitim matrisi görseli",
           "ornek-senaryo-roleplay-listesi — (PDF/Sheets) Örnek senaryo & role-play listesi",
           "egitim-takvimi-semasi-hafta-bazli — Eğitim takvimi şeması (hafta bazlı)",
           "problem-kok-neden-cozum-tablosu — Problem → Kök Neden → Çözüm tablosu",
@@ -41152,7 +41152,7 @@
           },
           {
             "type": "h3",
-            "text": "Çok dilli otel SEO’su nasıl yapılır? (AEO)"
+            "text": "Çok dilli otel SEO’su nasıl yapılır? "
           },
           {
             "type": "p",
@@ -41185,7 +41185,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce teknik doğruluk (canonical + hreflang) sonra içerik lokalizasyonu.",
               "Dil seçiciyi “başka sayfaya atma” değil “aynı niyeti doğru dilde sürdürme” olarak tasarlayın.",
@@ -41208,7 +41208,7 @@
           },
           {
             "type": "h3",
-            "text": "TR–EN–DE–RU için URL yapısını nasıl kurmalıyım? (AEO)"
+            "text": "TR–EN–DE–RU için URL yapısını nasıl kurmalıyım? "
           },
           {
             "type": "p",
@@ -41235,7 +41235,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Dil klasörlerini netleştirin; URL standardını sabitleyin.",
               "DE/RU menüsünde pazarın aradığı içerik türlerine daha görünür yer verin.",
@@ -41258,7 +41258,7 @@
           },
           {
             "type": "h3",
-            "text": "Hreflang yapısını nasıl kurmalıyım? (AEO)"
+            "text": "Hreflang yapısını nasıl kurmalıyım? "
           },
           {
             "type": "p",
@@ -41286,7 +41286,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Hreflang’ı sayfa türlerine göre test edin: oda/teklif/destinasyon/blog.",
               "x-default’ı yönlendirme stratejinizle uyumlu kurun.",
@@ -41310,7 +41310,7 @@
           {"type":"media","slot":"market-oriented-content"},
           {
             "type": "h3",
-            "text": "Almanca ve Rusça pazarda hangi otel keyword’leri öne çıkar? (AEO)"
+            "text": "Almanca ve Rusça pazarda hangi otel keyword’leri öne çıkar? "
           },
           {
             "type": "p",
@@ -41356,7 +41356,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyonları)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Dil bazlı keyword haritası çıkarın (destinasyon + segment + oda/teklif).",
               "DE/RU içeriklerinde “güven ve koşullar” bloklarını daha görünür yapın.",
@@ -41379,7 +41379,7 @@
           },
           {
             "type": "h3",
-            "text": "Çok dilli otel SEO performansını nasıl raporlarım? (AEO)"
+            "text": "Çok dilli otel SEO performansını nasıl raporlarım? "
           },
           {
             "type": "p",
@@ -41583,7 +41583,7 @@
     "h1": {
       "title": "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
       "intro": "Otel reklamlarında performansı “bütçe” değil, çoğu zaman ölçüm doğruluğu belirler. Çünkü Google Ads (özellikle otomatik teklif stratejileri) dönüşüm sinyalini referans alır: dönüşüm yanlışsa optimizasyon da yanlıştır. Bu rehberde; otel özelinde dönüşüm türlerini sınıflandıracağız, GA4 + GTM mimarisini kuracağız, Google Ads’te primary/secondary dönüşüm ayrımıyla sinyali temizleyeceğiz ve booking engine cross-domain hatalarını engelleyeceğiz.",
-      "quickSummaryTitle": "Hızlı Özet Kutusu (SXO):",
+      "quickSummaryTitle": "Hızlı Özet Kutusu :",
       "quickSummary": [
         "1. Dönüşümleri katmanla (primary/secondary)",
         "2. GA4 event isim standardı kur",
@@ -41688,7 +41688,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Primary sayısını az tut (1–3 ana dönüşüm).",
               "Secondary’yi fazla tutabilirsin ama “bid sinyali” yapma."
@@ -41747,7 +41747,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Event adlarını “iş anlamı”na göre koy; sayfa URL’sine bağımlı yapma.",
               "Aynı davranışı farklı sayfalarda tek event altında topla (raporlama kolaylaşır)."
@@ -41792,7 +41792,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Yeni kampanyada “account-default” goals yüzünden yanlış dönüşüm optimize ediliyorsa, kampanya hedeflerini netleştir.",
               "“Her şeyi primary” yapma; bid sinyalini kirletir."
@@ -41828,7 +41828,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "“Teşekkür sayfası yoksa” event bazlı tetik kullan (booking engine event).",
               "Üretimde yayınlamadan önce 3 test senaryosu: mobil, desktop, farklı dil."
@@ -41860,7 +41860,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Call center kullanan otellerde arama dönüşümü = gerçek gelir sinyali.",
               "Minimum süre eşiğini iş modeline göre koy (ör. 30–60 sn)."
@@ -41901,7 +41901,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Önce cross-domain’i düzelt, sonra Smart Bidding’i agresifleştir.",
               "Booking engine vendor’ı ile aynı GA4 property/tag kuralını netleştir."
@@ -41936,7 +41936,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO):",
+            "title": "Ne yapmalıyım? :",
             "items": [
               "Web dönüşümü düşük, call yüksekse: landing/UX değil “rezervasyon alışkanlığı” olabilir; call center entegrasyonunu güçlendir.",
               "Web dönüşümü yüksekse: booking engine akışını koru; cross-domain’i bozmadan güncelle."
@@ -42710,7 +42710,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Her dil için 1 persona tanımla (tek cümle).",
               "Her dil için 1 CTA tarzı seç (DM mi, link mi?).",
@@ -42760,7 +42760,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "İçerikleri 1/2/3 diye etiketle.",
               "Seviye 1’i mutlaka 4 dile üret.",
@@ -42873,7 +42873,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Başlangıçta “tek tasarım + farklı caption” ile başla.",
               "Reels kapaklarında dil etiketini minimal kullan (TR/EN/DE/RU).",
@@ -42933,7 +42933,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sosyal medya CTA’larını web’deki ilgili sayfalarla aynı hizada tut.",
               "Dil bazlı “vaat” cümlesini web’deki değer önerisiyle çeliştirme.",
@@ -43228,7 +43228,7 @@
             "type": "p",
             "text": "Kampanya sayfası “mini landing page” gibi çalışmalı: çok fazla link, çok fazla opsiyon funnel’ı bozar. Hedef: kampanyayı anlat → güven ver → uygun tarihe yönlendir → rezervasyona geçir."
           },
-          { "type": "h3", "text": "Ne yapmalıyım? (SXO)" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
           {
             "type": "list",
             "style": "ol",
@@ -43314,7 +43314,7 @@
             "type": "p",
             "text": "İptal/ödeme koşulları belirsizse kullanıcı ya arar ya kaçar. Koşulları “küçük yazı” yapmayın; net ve kısa verin."
           },
-          { "type": "h3", "text": "Ne yapmalıyım? (SXO)" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
           {
             "type": "list",
             "style": "ul",
@@ -44668,6 +44668,893 @@
           "Intent: Informational + Transactional",
           "Primary CTA: 2 kez (H1 giriş sonunda, son 1/3)",
           "Secondary CTA: 1 kez"
+        ]
+      }
+    }
+  },
+
+   "BlogYonetimIcinExecutiveDashboardVeOtomatikRaporlama": {
+    "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+    "slug": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama",
+    "department": "veri-analizi-raporlama",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "GM/Owner için 10–15 KPI’lı executive dashboard kurun. Doluluk, gelir, RevPAR, kanal mix ve kampanya performansını tek panelde toplayın; Looker Studio ile haftalık/aylık otomatik e-posta özetleri gönderin.",
+    "seo": {
+      "metaTitle": "Otel Executive Dashboard + Otomatik Rapor | DGTLFACE",
+      "metaDescription": "GM/Owner için 10–15 KPI’lı executive dashboard kurun. Doluluk, gelir, RevPAR, kanal mix ve kampanya performansını tek panelde toplayın; Looker Studio ile haftalık/aylık otomatik e-posta özetleri gönderin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Looker Studio Raporlama — https://dgtlface.com/tr/raporlama/looker-studio",
+        "Blog No / URL: Blog #5 — https://dgtlface.com/tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic (C-Level)",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
+        "Not (Varsayım): “Executive-Level Guide” içeriği C-level hedefli olsa da V2.3 kilidi gereği seviye Intermediate–Expert bandında, jargon minimumla üretildi.",
+        "Canonical: /tr/raporlama/blog/yonetim-icin-executive-dashboard-ve-otomatik-raporlama"
+      ],
+      "strategySummary": "Bu içerik, raporlama silosunda üst yönetim için “tek panel” standardını koyan authority yazıdır: yüzlerce grafiği değil, doğru 10–15 KPI’ı tek bakışta okutmayı hedefler. Hedef persona GM/Owner ve zincir/bağımsız otel yönetimidir; ayrıca yönetim toplantılarına veri hazırlayan satış–pazarlama/revenue ekipleri. Funnel’da awareness → consideration bandında, “Excel slayt yerine canlı panel” dönüşümünü sağlar ve otomatik raporlama ile sürdürülebilir rutin kurdurur. Ana iş sorusu: “Yönetim için hangi KPI seti, hangi layout ve hangi otomasyonla haftalık/aylık karar toplantısı daha hızlı yapılır?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-16",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otellerde yöneticilerin ihtiyacı yüzlerce grafik değil; doluluk, gelir, RevPAR, kanal dağılımı ve kampanya performansı gibi 10–15 kritik KPI’ı tek bakışta görebileceği bir executive dashboard’tur. Looker Studio ile PMS/OTA, GA4 ve reklam verileri tek panelde birleşir; otomatik e-posta/PDF raporlama sayesinde haftalık ve aylık özetler yönetime düzenli gider. Bu rehber, KPI seçimi, tasarım prensipleri ve otomasyonu adım adım anlatır.",
+      "sgeSummary": "Executive dashboard: 10–15 KPI ile tek bakışta karar. Looker Studio’da doluluk, gelir, RevPAR, kanal mix ve kampanyaları birleştir; haftalık/aylık otomatik e-posta raporlarıyla yönetime özet gönder.",
+      "voiceAnswer": "Yönetim için Looker Studio’da 10–15 KPI’lı tek panel kurup otomatik e-posta raporlarıyla düzenli özet gönderin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM, Owner, yatırımcı/board, üst yönetim",
+        "Ana KPI’lar: Occupancy, Revenue, ADR, RevPAR, channel mix, ROAS/CPA, booking conversion",
+        "Entity’ler: Executive Dashboard, GM, Owner, KPI, Revenue, Occupancy, RevPAR, Email Report, Meeting",
+        "Geo bağlamı: Antalya, Bodrum gibi destinasyonlarda sezon etkisi (doğal)",
+        "Funnel: C-level karar (özet → aksiyon → takip)",
+        "Çıktı: executive wireframe + rol bazlı özet kartlar + e-posta raporlama akışı",
+        "Başarı ölçütü: Toplantı süresi kısalır; aksiyon netliği artar"
+      ]
+    },
+    "h1": {
+      "title": "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
+      "intro": "Bu yazı, yönetim raporlamasını “tek slide” mantığından “tek panel” mantığına taşır. Önce yönetimin gerçekten baktığı 10–15 KPI setini seçecek, sonra bu KPI’ları tek ekranda okutacak layout prensiplerini kuracağız. Ardından Looker Studio’da otomatik e-posta/PDF rapor döngüsünü (haftalık/aylık) planlayıp, toplantı akışını “panel → aksiyon listesi → takip” düzenine bağlayacağız.",
+      "ctaPrimary": {
+        "label": "Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
+        "text": "GM/Owner seviyesinde KPI standardı ve otomatik rapor rutini kurmak isteyen oteller için",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
+        "text": "GM/Owner seviyesinde KPI standardı ve otomatik rapor rutini kurmak isteyen oteller için",
+        "href": "/tr/raporlama/looker-studio"
+      },
+      "secondary": {
+        "label": "Executive Dashboard Örnek Şablonunu İndir",
+        "text": "Wireframe mantığındaki şablonla 10–15 KPI’lı tek paneli hızlıca uyarlarsınız.",
+        "href": "/tr/raporlama/looker-studio"
+      }
+    },
+    "internalLinks": [
+      { "label": "Raporlama", "href": "/tr/raporlama" },
+      { "label": "Looker Studio Raporlama", "href": "/tr/raporlama/looker-studio" },
+      { "label": "Satış Dönüşüm Raporlama", "href": "/tr/raporlama/satis-donusum" },
+      { "label": "Benchmark Analizi", "href": "/tr/raporlama/benchmark-analizi" },
+      { "label": "Online Satış", "href": "/tr/pms-ota/online-satis" },
+      { "label": "Veri Analiz ve Raporlama", "href": "/tr/veri-analiz-ve-raporlama" }
+    ],
+    "sections": [
+      
+      {
+        "id": "aeo-executive-dashboard-nasil-tasarlanmali",
+        "title": "Yöneticiler için executive dashboard nasıl tasarlanmalı?",
+        "blocks": [
+          { "type": "h3", "text": "Kısa cevap :" },
+          { "type": "p", "text": "Executive dashboard, çok kanallı veriyi tek ekranda özetleyen bir “karar panelidir”. En iyi tasarım; 10–15 KPI’ı üstte özet kartlar, ortada trend ve sapma, altta kanal katkısı şeklinde katmanlar. Her KPI’nın “ne yapalım?” aksiyonuna bağlandığı kısa notlar, dashboard’u rapor değil yönetim aracı yapar." },
+          { "type": "h3", "text": "KPI seçimi + layout prensipleri (madde madde)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI sayısı: 10–15 (fazlası karar hızını düşürür)",
+              "KPI türleri: Sonuç (gelir/RevPAR) + verim (ADR) + risk (iptal/no-show varsa) + büyüme (rezervasyon dönüşümü)",
+              "Tek ekran kuralı: Yönetim paneli tek sayfa; detaylar drill-down",
+              "Trend kuralı: Her KPI için “son 7/30 gün” trendi ve hedef sapması",
+              "Kanal kuralı: OTA/Web/Call Center + kampanya performansı özeti",
+              "Karar kuralı: Panelde “bu hafta 3 aksiyon” alanı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "• Bu KPI “karar” üretiyor mu, yoksa sadece bilgi mi?\n• GM paneli tek ekranda okunuyor mu?\n• Kanal katkısı net mi?"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "KPI setini 15’te kilitle",
+              "Her KPI’ya 1 cümle “aksiyon notu” ekle",
+              "Detay analizleri ayrı sayfalara taşı"
+            ]
+          },
+          {"type":"media","slot":"hotel-performance"}
+        ]
+      },
+      {
+        "id": "kpi-seti-belirleme",
+        "title": "Yönetim için doğru KPI setini belirleme (GM/Owner odaklı 10–15)",
+        "blocks": [
+          { "type": "p", "text": "Yönetim KPI’ları departman KPI’larından farklıdır: amaç “operasyon detayı” değil, performans resmi + risk + yön görmektir. Antalya/Bodrum gibi sezonlu destinasyonlarda yönetim paneli, sezon sapmasını erken yakalamalıdır." },
+          { "type": "h3", "text": "Önerilen 12 KPI çekirdeği (otel executive)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Occupancy (Doluluk)",
+              "Revenue (Gelir)",
+              "ADR",
+              "RevPAR",
+              "Channel Mix (OTA/Web/Call Center payı)",
+              "Booking / Lead hacmi (web/CRM)",
+              "Booking Conversion Rate (GA4/engine)",
+              "Paid Spend (Ads)",
+              "ROAS veya CPA (kampanya verimi)",
+              "Organic Demand (marka araması/organik trend)",
+              "Cancellation Rate (varsa)",
+              "No-show Rate (varsa)"
+            ]
+          },
+          { "type": "p", "text": "Varsayım (veri noktası): Çoğu otelde yönetim için en büyük değer, metrik sayısını artırmak değil; aynı KPI setini her hafta aynı düzende okuyabilmektir." },
+          {
+            "type": "image",
+            "src": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama-divider-03.webp",
+            "alt": "GM için KPI seti bölümüne geçişi ayıran bölüm görseli",
+            "ratio": "4:3",
+            "slot": "divider-01"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "• RevPAR/ADR hesap tanımı herkes için aynı mı?\n• Gelir kaynağı (PMS/OTA/web) net mi?\n• Kanal mix “pay” ve “gelir” olarak görünüyor mu?"
+          },
+          {"type":"media","slot":"kpi-set"},
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "KPI tanımlarını panelin içinde not olarak yaz",
+              "Kanal mix’i pay + gelir olarak göster",
+              "Risk KPI’larını (iptal/no-show) opsiyonel kart olarak ekle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tasarim-prensipleri-wireframe",
+        "title": "Executive dashboard tasarım prensipleri (wireframe mantığı)",
+        "blocks": [
+          { "type": "p", "text": "Rakip yazıların çoğu teknik detaylara boğuluyor; burada yönetim tarafı için “okunabilirlik” esas. “Tek slide yerine tek panel” prensibi şu üç şeye dayanır: hızlı tarama, net kıyas, net aksiyon." },
+          {"type":"media","slot":"dashboard-design-principles"},
+          { "type": "h3", "text": "Önerilen layout (1 sayfa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Üst sıra (KPI kartları): Occupancy, Revenue, RevPAR, ADR, Channel Mix",
+              "Orta sıra (Trend + sapma): son 30 gün trendi + hedef/YoY kıyas (varsa)",
+              "Alt sıra (kanal katkısı): OTA/Web/Call Center + kampanya özeti",
+              "Sağ alt (Aksiyon kutusu): “Bu hafta 3 aksiyon” + sahibi + tarih"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama-kpi-07.webp",
+            "alt": "GM owner için 10–15 KPI’lı executive skor kartı panel görseli",
+            "ratio": "1:1",
+            "slot": "kpi-card"
+          },
+          {
+            "type": "image",
+            "src": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama-checklist-06.webp",
+            "alt": "Executive dashboard tasarım prensiplerini özetleyen kontrol kartı görseli",
+            "ratio": "1:1",
+            "slot": "framework-card"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "• Her kartta “trend” ve “sapma” var mı?\n• Panelde gereksiz renk/kalabalık var mı?\n• Aksiyon kutusu doldurulabiliyor mu?"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kartları standartlaştır (boyut/başlık)",
+              "2–3 grafikten fazlasını GM paneline koyma",
+              "Aksiyon kutusunu toplantı ritüeline bağla"
+            ]
+          },
+          {"type":"media","slot":"executive-panel"}
+        ]
+      },
+      {
+        "id": "aeo-otomatik-raporlama",
+        "title": "Otomatik Looker Studio raporlama nasıl kurulur?",
+        "blocks": [
+          { "type": "h3", "text": "Kısa cevap :" },
+          { "type": "p", "text": "Executive paneli haftalık/aylık ritme bağlamak için Looker Studio’da raporu paylaşım kurallarıyla hazırlayın; ardından otomatik e-posta/PDF gönderim döngüsünü planlayın. Yönetimin aynı paneli aynı gün/saatte alması, karar takibini standardize eder." },
+          { "type": "h3", "text": "6 adımda otomatik e-posta / PDF raporlama" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Alıcı listesi: GM/Owner/board + departman özetleri (gerekirse ayrı)",
+              "Zamanlama: haftalık (Pzt) + aylık (ayın 1’i)",
+              "İçerik: executive sayfa + benchmark (varsa) + aksiyon alanı",
+              "Format: e-posta gövdesi kısa özet + PDF ek (tek sayfa)",
+              "Yetki: rol bazlı erişim (herkes her şeyi görmesin)",
+              "Toplantı ritmi: rapor → 10 dk okuma → 10 dk aksiyon"
+            ]
+          },
+          {"type":"media","slot":"looker-studio-schema"},
+          {
+            "type": "image",
+            "src": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama-diagram-05.webp",
+            "alt": "Looker Studio otomatik e-posta raporlama akışını anlatan diyagram görseli",
+            "ratio": "16:9",
+            "slot": "flow-diagram"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "• Alıcılar doğru role göre mi?\n• Rapor tek sayfa mı?\n• Rapor gönderimi toplantı gününden önce mi?"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Haftalık raporu “sabit gün/saat”e bağla",
+              "Aylık raporda sadece trend + sapma + karar notu göster",
+              "PDF’yi tek sayfa tut (yönetim için)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "departman-ozetleri",
+        "title": "Farklı departmanlar için özet paneller (yönetim panelini bozmadan)",
+        "blocks": [
+          { "type": "p", "text": "Executive paneli bozmadan, departmanlara “kendi özet ekranını” vermek mümkündür. Böylece yönetim tek ekranda kalırken ekipler detay ekranlarla aksiyon üretir." },
+          { "type": "h3", "text": "Özet panel önerileri (kısa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazarlama: kanal performansı, ROAS/CPA, dönüşüm trendi",
+              "Satış/Revenue: doluluk, ADR/RevPAR, kanal mix, iptal/no-show",
+              "Operasyon: doluluk ve oda tipi/segment, misafir akışı (varsa)"
+            ]
+          },
+          {
+            "type": "image",
+            "src": "yonetim-icin-executive-dashboard-ve-otomatik-raporlama-divider-04.webp",
+            "alt": "Departman özet panellerine geçişi ayıran bölüm görseli",
+            "ratio": "4:3",
+            "slot": "divider-02"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "• Departman panelleri executive paneli kirletiyor mu?\n• Her departman panelinde 5–8 KPI var mı?"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Executive paneli tek sayfa bırak",
+              "Departman sayfalarını drill-down olarak konumlandır",
+              "Linkleri rol bazında paylaş"
+            ]
+          },
+          {"type":"media","slot":"analysis-revpar-adr"}
+        ]
+      },
+      {
+        "id": "toplanti-kullanimi",
+        "title": "Yönetim toplantılarında dashboard nasıl kullanılmalı? (10 dakikada cevap)",
+        "blocks": [
+          { "type": "p", "text": "Bu dashboard’un amacı toplantıyı uzatmak değil, kısaltmaktır. En iyi pratik, paneli “soru seti” ile kullanmaktır." },
+          { "type": "h3", "text": "10 dakikada cevaplayabileceğiniz sorular" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bu hafta doluluk ve RevPAR sapması var mı?",
+              "Gelir artışı/düşüşü hangi otel/segmentten geldi?",
+              "Kanal mix değişti mi (OTA/Web/Call Center)?",
+              "Ads harcaması ile net sonuç uyumlu mu (ROAS/CPA)?",
+              "Dönüşüm oranında düşüş varsa nerede (funnel)?",
+              "Risk sinyali var mı (iptal/no-show)?",
+              "Bu hafta 3 aksiyonumuz ne?"
+            ]
+          },
+          { "type": "p", "text": "Senaryo (Varsayım): Executive dashboard kullanan otellerde, haftalık yönetim toplantıları Excel slaytları yerine tek panelden yapıldığında, süre kısalır ve aksiyon sahipliği daha netleşir." },
+{"type":"media","slot":"decision-outcomes"},
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Executive Dashboard Örnek Şablonunu İndir",
+            "text": "Wireframe mantığındaki şablonla 10–15 KPI’lı tek paneli hızlıca uyarlarsınız.",
+            "href": "/tr/raporlama/looker-studio"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
+            "text": "Yönetim paneli + otomatik rapor döngüsünü tek standarda oturtmak isteyen oteller için",
+            "href": "/tr/raporlama/looker-studio"
+          }
+        ]
+      },
+      {
+        "id": "download-asset",
+        "title": "Executive Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Executive Dashboard Örnek Şablonunu İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu şablon, oteller için 10–15 KPI’lı executive paneli wireframe mantığında hızlıca kurmanızı sağlar. KPI yerleşimi, “trend + sapma + kanal katkısı” düzeni ve toplantı aksiyon kutusunu standartlaştırır. Haftalık/aylık otomatik rapor döngüsüyle yönetimin aynı özet üzerinden karar almasını kolaylaştırır.",
+            "whoFor": "GM, Owner, merkez ofis yönetimi; raporu hazırlayan satış–pazarlama/revenue ekipleri.",
+            "steps": [
+              "KPI tanımlarını kilitle (gelir kaynağı, RevPAR formülü, kanal mix).",
+              "Şablonu Looker Studio’da doldur: kartlar → trend → kanal katkısı → aksiyon kutusu.",
+              "Haftalık/aylık e-posta raporunu aynı panel üzerinden planla."
+            ],
+            "template": {
+              "checklist": [
+                "KPI seti 10–15 ile kilitlendi",
+                "KPI tanımları yazıldı (ADR/RevPAR/gelir)",
+                "Kanal taksonomisi sabit (OTA/Web/Call Center)",
+                "Trend dönemleri sabit (7/30 gün)",
+                "Toplantı aksiyon alanı tasarlandı"
+              ],
+              "sprint14Gun": [
+                "Gün 1–2: KPI sözlüğü + kanal taksonomisi",
+                "Gün 3–4: Executive wireframe (tek sayfa)",
+                "Gün 5–6: Veri kaynakları bağlama ve doğrulama",
+                "Gün 7–8: Trend/sapma grafikleri + benchmark (opsiyonel)",
+                "Gün 9: Aksiyon kutusu + toplantı akışı",
+                "Gün 10–11: Rol bazlı erişim ve paylaşım",
+                "Gün 12: Otomatik e-posta/PDF raporlama kurgusu",
+                "Gün 13: Pilot toplantı (10 dk soru seti)",
+                "Gün 14: Revizyon + rutin kilidi"
+              ],
+              "beforeAfter": [
+                "Önce: rapor hazırlama süresi ___ | toplantı süresi ___ | aksiyon netliği ___",
+                "Sonra: tek panel ___ | toplantı süresi ___ | aksiyon sayısı ___"
+              ],
+              "deliverables": [
+                "Executive panel (1 sayfa)",
+                "KPI sözlüğü + kanal taksonomisi",
+                "Otomatik rapor döngüsü (haftalık/aylık)",
+                "Toplantı soru seti + aksiyon şablonu"
+              ],
+              "slots": [
+                "Buraya: [Diagram] — otomatik raporlama akışı",
+                "Buraya: [KPI Card] — 10–15 KPI kart wireframe’i",
+                "Buraya: [Proof Card] — toplantı akışı/çıktı seti"
+              ]
+            },
+            "href": "/downloads/executive-dashboard-ornek-sablonunu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "executive-kpi-seti",
+        "title": "Executive KPI Seti (GM/Owner) — Kaynak & Karar",
+        "columns": ["KPI", "Kaynak", "Karar/Not"],
+        "rows": [
+          ["Occupancy (Doluluk)", "PMS / Channel Manager", "Kapasite, fiyat ve kanal stratejisi sapma kontrolü"],
+          ["Revenue (Gelir)", "PMS + Finans", "Gelir trendi ve hedef sapması"],
+          ["ADR", "PMS", "Fiyatlama verimi ve segment etkisi"],
+          ["RevPAR", "PMS", "Toplam performansın tek sayı özeti (doluluk + ADR)"],
+          ["Channel Mix", "PMS/OTA/Engine", "OTA/Web/Call Center payı ve gelir etkisi"],
+          ["Booking/Lead Hacmi", "GA4/CRM/Engine", "Talep trendi ve sezon sinyali"],
+          ["Booking Conversion Rate", "GA4/Booking Engine", "Funnel kalitesi ve UX/teklif uyumu"],
+          ["Paid Spend", "Ads Platformları", "Harcama kontrolü ve bütçe ritmi"],
+          ["ROAS/CPA", "Ads + Gelir", "Kampanya verimi ve ölçekleme kararı"],
+          ["Organic Demand", "GA4/Search Console", "Marka talebi ve pazar sinyali"],
+          ["Cancellation Rate (ops.)", "PMS/OTA", "Risk ve tahmin sapması"],
+          ["No-show Rate (ops.)", "PMS", "Operasyon riski ve gelir kaybı"]
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Executive dashboard nedir, oteller için nasıl tasarlanır?",
+        "a": "Executive dashboard, yöneticinin tek bakışta karar vermesi için 10–15 kritik KPI’ı özetleyen tek sayfalık paneldir. Üstte KPI kartları, ortada trend/sapma, altta kanal katkısı düzeni en pratik modeldir."
+      },
+      {
+        "q": "Genel Müdür için hangi KPI’lar Looker Studio’da gösterilmeli?",
+        "a": "Doluluk, gelir, ADR, RevPAR, kanal mix, rezervasyon dönüşümü ve kampanya verimi (ROAS/CPA) çekirdeği oluşturur. Risk için iptal/no-show kartları eklenebilir."
+      },
+      {
+        "q": "Otomatik Looker Studio e-posta raporu nasıl kurulur?",
+        "a": "Executive raporu paylaşıma hazır hale getirip alıcı listesi ve haftalık/aylık zamanlamayı planlarsınız. PDF formatında tek sayfalık özet gönderimi, yönetimin düzenli okumasını kolaylaştırır."
+      },
+      {
+        "q": "Yönetim toplantılarında dashboard nasıl kullanılmalı?",
+        "a": "Paneli sabit bir soru setiyle açın: sapma var mı, neden, ne yapacağız? Toplantıyı “3 aksiyon + sahip + tarih” ile kapatın."
+      },
+      {
+        "q": "En büyük hata nedir?",
+        "a": "Yönetim paneline departman detaylarını yığmak. Executive paneli tek ekran tutup detayları drill-down sayfalara taşıyın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero — 16:9 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-hero-01.webp | Alt: “Yönetim için otel executive dashboard tasarımını anlatan kapak görseli”",
+          "H1 context — 16:9 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-h1-context-02.webp | Alt: “Tek panel yaklaşımıyla otel KPI özetini gösteren bağlam görseli”",
+          "Divider — 4:3 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-divider-03.webp | Alt: “GM için KPI seti bölümüne geçişi ayıran bölüm görseli”",
+          "Divider — 4:3 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-divider-04.webp | Alt: “Departman özet panellerine geçişi ayıran bölüm görseli”",
+          "Diagram / Flow — 16:9 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-diagram-05.webp | Alt: “Looker Studio otomatik e-posta raporlama akışını anlatan diyagram görseli”",
+          "Checklist / Framework Card — 1:1 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-checklist-06.webp | Alt: “Executive dashboard tasarım prensiplerini özetleyen kontrol kartı görseli”",
+          "KPI / Score Card — 1:1 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-kpi-07.webp | Alt: “GM owner için 10–15 KPI’lı executive skor kartı panel görseli”",
+          "Deliverables / Proof Card — 1:1 — yonetim-icin-executive-dashboard-ve-otomatik-raporlama-proof-08.webp | Alt: “Yönetim toplantısı karar akışı ve dashboard çıktıları kanıt kartı”"
+        ],
+        "tableStandard": "Tablo adı: “Executive KPI Seti (GM/Owner) — Kaynak & Karar”",
+        "ctaLock": [
+          "CTA (Primary): Executive Dashboard Tasarım ve Kurulum Danışmanlığı Al",
+          "CTA (Secondary): Executive Dashboard Örnek Şablonunu İndir",
+          "Secondary CTA Türü: Download Asset",
+          "CTA Yoğunluğu (Intent: Informational + Strategic / MoFu): Primary 2 kez, Secondary 1 kez",
+          "Link Yerleşimi (Internal Link Targets): /tr/raporlama, /tr/raporlama/looker-studio, /tr/raporlama/satis-donusum, /tr/raporlama/benchmark-analizi, /tr/pms-ota/online-satis, /tr/veri-analiz-ve-raporlama (Varsayım)"
+        ]
+      }
+    }
+  },
+
+  "BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi": {
+    "title": "OTA’ya Karşı Teknik Otel SEO: Mimari & İç Link | DGTLFACE",
+    "slug": "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi",
+    "department": "hotel",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "6 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Site mimarisi ve internal linking ile otel entity otoritesi kurun. Kategori→oda→deneyim→blog→SSS zinciri, CWV+schema+log analiziyle OTA rekabetini dengeleyin.",
+    "seo": {
+      "metaTitle": "OTA’ya Karşı Teknik Otel SEO: Mimari & İç Link | DGTLFACE",
+      "metaDescription": "Site mimarisi ve internal linking ile otel entity otoritesi kurun. Kategori→oda→deneyim→blog→SSS zinciri, CWV+schema+log analiziyle OTA rekabetini dengeleyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa Adı / URL: Otel SEO — https://dgtlface.com/tr/otel/seo",
+        "Blog No / URL: Blog #5 — https://dgtlface.com/tr/otel/blog/ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic + Technical",
+        "Difficulty/Expertise = Intermediate–Expert",
+        "Word Count = 3000–3500",
+        "Varsayım: Sheet’te “Expert” yazsa da V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.",
+        "Canonical: /tr/otel/blog/ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi"
+      ],
+      "strategySummary": "Bu içerik, OTA rekabetine karşı “tek tek optimizasyon” yerine iskelet kuran teknik/stratejik bir playbook’tur: site mimarisi + dahili linkleme ile otelin “otel entity” otoritesini güçlendirir. Hedef persona GM/satış-pazarlama + teknik ekip/ajans; karar ihtiyacı “OTA’lar SERP’te güçlü iken, kendi sitemi nasıl yapılandırıp Google’a net bir otel varlığı anlatırım ve kullanıcıyı rezervasyon motoruna taşırım?” sorusudur. Funnel’da MoFu ağırlıklı ama BoFu’ya köprü kurar: kategori→oda→deneyim→blog→SSS zinciriyle hem index kalitesini hem dönüşüm yolunu iyileştirir. Rakiplerin “ya sadece CWV/log” ya “genel SEO” anlatımını aşarak hibrit bir çerçeve sunar."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "OTA’ların Google’daki gücüne rağmen, otel siteniz doğru kurgulanmış site mimarisi ve internal linking ile “otel + destinasyon + konsept” aramalarında kendi otoritesini kurabilir. Kategori→oda→deneyim→blog→SSS zinciri Google’a net bir Hotel Entity anlatır, kullanıcıyı da adım adım rezervasyon motoruna taşır. Üstüne CWV, schema ve log bazlı temizlik eklendiğinde indexlenen kaliteli URL oranı ve tıklama payı zamanla yükselir.",
+      "sgeSummary": "OTA’yı dengelemek için siteyi “otel entity iskeleti” gibi kurun: kategori→oda→deneyim→blog→SSS iç link zinciri + schema + CWV + log temizliği ile otorite ve dönüşüm artar.",
+      "voiceAnswer": "Otel sitenizi kategori→oda→deneyim→SSS zinciriyle bağlayın; iç linkler otel entity otoritesini güçlendirir ve rezervasyonu hızlandırır.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/satış-pazarlama, teknik ekip/ajans, içerik yöneticisi",
+        "Ana hedef: OTA’ya rağmen “otel entity” otoritesi + direct booking yolu",
+        "KPI odağı: Indexlenen kaliteli URL oranı, brand/destinasyon tıklama payı, room→booking CTR, CWV (mobil), crawl verimliliği",
+        "Entity’ler: Hotel, Room, Destination, FAQ, Review, BookingEngine, OTA, InternalLink",
+        "Funnel: MoFu (mimari) → BoFu (oda/teklif/booking)",
+        "GEO bağlamı: Antalya/Belek/Side/Kemer/Bodrum (OTA ağırlığı yüksek destinasyonlar)",
+        "En kritik kaldıraç: Mimari + internal link + schema + log/CWV temizlik"
+      ]
+    },
+    "h1": {
+      "title": "OTA Rekabetine Karşı Teknik Otel SEO: Site Mimarisi ve Dahili Linkleme OTA’yı Nasıl Dengeler?",
+      "intro": "OTA’lar SERP’te güçlü çünkü çok sayıda içerik sayfası, güçlü iç link ağları ve yüksek otoriteyle çalışırlar. Otel siteleri ise çoğu zaman “birkaç sayfa + dağınık blog” halinde kaldığı için Google’a net bir yapı anlatamaz; kullanıcı da rezervasyona giden yolu bulmakta zorlanır. Bu rehberin amacı, siteyi “OTA’yı taklit eden bir içerik çöplüğü”ne çevirmek değil; otelinizi tek bir Hotel Entity olarak güçlendiren, temiz bir mimari ve internal linking iskeleti kurmaktır. Sonuç, hem tarama/index kalitesi hem de direct booking akışının netleşmesidir.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Otel Site Mimarisi & Internal Linking Teknik Analizi Talep Et",
+        "text": "Hangi sayfaların otorite taşıdığını, hangilerinin crawl bütçesi ve dönüşümü zayıflattığını netleştirmek için (GM & teknik ekip için).",
+        "href": "/otel/seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel Site Mimarisi & Internal Linking Teknik Analizi Talep Et",
+        "text": "Site mimarinizi OTA’ya karşı güçlendiren link iskeletini ve teknik darboğazları netleştirmek için (GM & teknik ekip için).",
+        "href": "/otel/seo"
+      },
+      "secondary": {
+        "label": "Otel SEO İçin Site Haritası & İç Linkleme Blueprint’ini İndir",
+        "text": "Hub/child/sibling link planını hazır şablonla verip mimariyi 14 günde uygulanabilir hale getirmenizi sağlar.",
+        "href": "/seo/seo-raporlama"
+      }
+    },
+    "internalLinks": [
+      { "label": "Otel SEO", "href": "/otel/seo" },
+      { "label": "Otel Dijital Pazarlama", "href": "/otel-dijital-pazarlama" },
+      { "label": "Teknik SEO", "href": "/seo/teknik-seo" },
+      { "label": "SEO Raporlama", "href": "/seo/seo-raporlama" },
+      { "label": "PMS & OTA / Online Satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+     
+      {
+        "id": "otel-sitesi-ideal-site-mimarisi",
+        "title": "Otel sitesi için ideal site mimarisi nasıl olmalı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İdeal mimari, Google’a iki şeyi net anlatır: (1) “Bu otel hangi destinasyon/konseptlerde güçlü?” (2) “Kullanıcı rezervasyona nasıl gider?” Bu yüzden mimariyi sadece menü gibi değil, niyet akışı gibi düşünmek gerekir. Otellerde en sağlıklı iskelet, “hub sayfalar + child sayfalar + destekleyici blog/SSS” yaklaşımıdır."
+          },
+          { "type": "h3", "text": "Kısa cevap (bullet mini cevap):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hub: /tr/otel/seo ve /tr/otel-dijital-pazarlama gibi çatı sayfalar",
+              "Kategori (konsept): aile, çift, golf, spa, deniz manzaralı, swim-up (Varsayım: otel ürün yapınıza göre)",
+              "Oda sayfaları: Standard/Deluxe/Suite ve segment odalar (family room, sea view room)",
+              "Deneyim/destinasyon: Antalya/Belek/Side/Kemer/Bodrum rehberleri ve deneyimler",
+              "SSS: karar ve risk azaltma (iptal, transfer, çocuk konsepti, ödeme)",
+              "Rezervasyon: booking engine yolu her sayfada net"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda sayfaları “ürün sayfası” değil “karar sayfası” gibi mi?",
+              "Destinasyon/deneyim içerikleri oda sayfalarına bağlanıyor mu?",
+              "SSS blokları kritik sayfalara yerleştirilmiş mi?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hub sayfaları belirleyin ve tüm içerikleri bu hub’lara bağlayın.",
+              "Kategori→oda→rezervasyon yolunu her sayfada görünür kılın.",
+              "SSS’yi “footer’da gizli” değil, dönüşüm sayfalarında “risk azaltıcı” blok yapın."
+            ]
+          },
+          { "type": "media", "slot": "hotel-entity" }
+        ]
+      },
+      {
+        "id": "kategori-oda-deneyim-blog-sss-rezervasyon-akisi",
+        "title": "Kategori → Oda → Deneyim → Blog → SSS → Rezervasyon akışı nasıl kurulmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu akış, hem Google’a topical authority sağlar hem de kullanıcıyı kararsızlıktan çıkarır. Bir kullanıcı “Belek aile oteli” aradığında önce destinasyon/konsept içeriğiyle gelir, ardından “Family Room” gibi oda sayfasına iner, sonra teklif/rezervasyon adımına geçer. Akış koparsa kullanıcı OTA’ya döner."
+          },
+          { "type": "h3", "text": "Akışı sayfa türlerine göre netleştirin (AIO)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "InternalLinks → reinforce → Hotel Entity & topical authority",
+              "DestinationContent → leadsTo → Room/Offer pages",
+              "FAQ → reduces → booking friction"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bu ilişkileri hem içerikte hem site mimarisinde görünür kılın."
+          },
+          { "type": "h3", "text": "Breadcrumb + menü + footer = aynı hikâye" },
+          {
+            "type": "p",
+            "text": "Varsayım: kullanıcı farklı girişlerden gelir. Breadcrumb, menü ve footer linkleri birbirini desteklemezse Google da kullanıcı da “site haritasını” anlayamaz."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Breadcrumb: Home → Otel SEO → Konsept/Kategori → Oda → Rezervasyon gibi",
+              "Menü: pazarın aradığı ana sayfa türlerini öne çıkarır",
+              "Footer: hub sayfaları ve SSS’yi sağlam bağlar"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Breadcrumb, sayfa türünü net anlatıyor mu?",
+              "Menüde oda/teklif yolları kaybolmuyor mu?",
+              "SSS linkleri dönüşüm sayfalarına yakın mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Sticky rezervasyon barı veya net CTA ile “rezervasyon yolu”nu sabitleyin.",
+              "Blog yazılarında oda/teklif linklerini “yakınlık” mantığıyla verin.",
+              "Oda sayfalarında ilgili deneyim/destinasyon içeriklerine sibling link ekleyin."
+            ]
+          },
+          { "type": "media", "slot": "direct-booking" }
+        ]
+      },
+      {
+        "id": "internal-linking-ota-karsi-ise-yarar-mi",
+        "title": "Internal linking OTA’ya karşı gerçekten işe yarar mı? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Evet; çünkü internal linkler Google’a “hangi sayfalar önemli, hangi konu kümeleri birbirine bağlı” bilgisini taşır. OTA’ların avantajı, her şeyi birbirine bağlayan devasa bir link ağına sahip olmalarıdır. Otel sitelerinde ise amaç, aynı ölçeği yakalamak değil; doğru sayfalara otorite akıtmak ve “otel entity”yi netleştirmektir."
+          },
+          { "type": "h3", "text": "Kısa cevap (bullet mini cevap):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parent → child linklerle hub otoritesini dağıtın (otel SEO → oda sayfaları).",
+              "Sibling linklerle kullanıcıyı yatayda gezdirin (family room ↔ kids concept ↔ aile rehberi).",
+              "Anchor’ları “otel + destinasyon + konsept” mantığıyla doğal kullanın.",
+              "SSS ve review bloklarını dönüşüm sayfalarına bağlayın."
+            ]
+          },
+          { "type": "h3", "text": "Parent/Child/Sibling iç link şeması (kopyala-uygula)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parent: /tr/otel/seo (otorite)",
+              "Child: oda sayfaları, destinasyon hub, SSS sayfaları",
+              "Sibling: oda ↔ deneyim ↔ teklif sayfaları (niyet yakınlığına göre)"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parent sayfalar child sayfalara düzenli link veriyor mu?",
+              "Sibling linkler “yakın niyet” üzerinden mi?",
+              "Anchor’lar tekrar/stuffing yapmadan doğal mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“En çok otorite taşıyan 10 sayfa”yı belirleyip link dağıtımını planlayın.",
+              "Her oda sayfasına 3–6 ilgili sibling link ekleyin (deneyim, destinasyon, SSS).",
+              "Blog yazılarında 1–2 net oda/teklif CTA linkini standartlaştırın."
+            ]
+          },
+          { "type": "media", "slot": "internal-linking-diagram" }
+        ]
+      },
+      {
+        "id": "ota-ve-fiyat-karsilastirma-sayfalarina-karsi-savunmaci-seo",
+        "title": "OTA ve fiyat karşılaştırma sayfalarına karşı savunmacı SEO nasıl yapılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Savunmacı SEO’nun amacı “OTA’yı yok etmek” değil; özellikle marka/destinasyon/konsept sorgularında resmî site sinyalini güçlendirmek ve kullanıcının kararını kendi sitenizde tamamlamasını sağlamaktır. Bunun için üç katman birlikte çalışır: (1) mimari + iç link, (2) schema + snippet, (3) UX + güven."
+          },
+          { "type": "h3", "text": "Savunma katmanları" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resmî site sinyali: tutarlı iletişim, hızlı açılış, net CTA",
+              "Snippet alanı: FAQ ve net cevap blokları (PAA)",
+              "Güven blokları: iptal/ödeme netliği, transfer bilgisi, yorum özeti (Varsayım: veriniz varsa)"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Markalı sorguda resmî site hissi güçlü mü?",
+              "FAQ blokları ile PAA hedefleniyor mu?",
+              "Fiyat/koşul belirsizliği azaltılıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Markalı sorgu giriş sayfalarında SSS + güven bloklarını görünür yapın.",
+              "Oda sayfalarında koşulları “kısa ve net” özetleyin; detay rezervasyonda.",
+              "“Konseptteki odalar” CTA’sı ile OTA yerine site içi yol gösterin."
+            ]
+          },
+          {"type":"media","slot":"ideal-hotel-site-flow"}
+        ]
+      },
+      {
+        "id": "cwv-schema-log-ince-ayarlar",
+        "title": "Core Web Vitals, schema ve log bazlı SEO ince ayarları ne kadar kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mimari ve internal link “iskelet”tir; CWV, schema ve log analizi ise iskeletin “verimli çalışmasını” sağlar. Mobil CWV zayıfsa kullanıcı rezervasyona gitmeden çıkar; loglar kirliyse Google gereksiz URL’lere crawl bütçesi harcar; schema yoksa sayfanın yapısı daha zor anlaşılır."
+          },
+          { "type": "h3", "text": "Core Web Vitals (mobil) öncelik sırası (Varsayım)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Görsel optimizasyon (lazy-load, doğru boyut, webp)",
+              "Render-blocking azaltma (gereksiz script)",
+              "Kritik sayfalarda (oda/teklif) gereksiz bileşenleri azaltma"
+            ]
+          },
+          { "type": "h3", "text": "Log analizi ile crawl bütçesi temizliği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Parametreli/tekrarlı URL’leri tespit et",
+              "“Kullanıcı için değeri olmayan” sayfaları noindex/canonical ile kontrol et (site yapınıza göre)",
+              "Önemli sayfaların daha sık crawl edilmesini sağla (internal link + sitemap)"
+            ]
+          },
+          { "type": "h3", "text": "Key Statistics / Data Point (yumuşatılmış kullanım):" },
+          {
+            "type": "p",
+            "text": "Doğru site mimarisi + iç linkleme kurulan projelerde, zaman içinde indexlenen kaliteli URL oranının ve brand/destinasyon sorgularında tıklanma payının artabildiği; log/SERP okumalarıyla bunun izlenebildiği görülebilir (site hacmi ve uygulama kalitesine bağlıdır)."
+          },
+          { "type": "h3", "text": "☑ Mini Check " },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobilde oda/teklif sayfaları hızlı açılıyor mu?",
+              "Schema (Hotel/Room/FAQ/Review) tutarlı mı?",
+              "Parametreli URL’ler crawl bütçesini yiyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Önce “para sayfaları”: oda/teklif/rezervasyon akışını CWV açısından iyileştirin.",
+              "Schema’yı @graph ile standardize edin (Hotel + Room + FAQ + Review).",
+              "Log analiziyle gereksiz URL’leri temizleyip internal link ağıyla önemli sayfaları güçlendirin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Site Mimarisi & Internal Linking Teknik Analizi Talep Et",
+            "text": "Mimari, iç link, CWV ve crawl verimliliğini tek planla optimize etmek için (GM & teknik ekip için).",
+            "href": "/otel/seo"
+          },
+          { "type": "media", "slot": "checklist" }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "Otel SEO İçin Site Haritası & İç Linkleme Blueprint’ini İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "blueprint/toolkit",
+            "version": "v1.0",
+            "title": "Otel SEO İçin Site Haritası & İç Linkleme Blueprint’ini İndir — Teknik Mimari (v1.0)",
+            "purpose": "Bu asset, otel siteniz için hub/child/sibling iç link planını ve sayfa türü eşlemesini hazır bir blueprint olarak verir. Amaç; OTA rekabetinde otelin “entity” otoritesini güçlendirmek, crawl bütçesini verimli kullanmak ve kullanıcıyı net biçimde rezervasyon motoruna taşımaktır.",
+            "whoFor": "Teknik SEO + içerik ekibi + web geliştirici + satış-pazarlama (CTA/funnel).",
+            "steps": [
+              "Hub sayfaları seçin ve child sayfa envanterini çıkarın.",
+              "Internal link planını (parent/child/sibling) tabloya dökün ve anchor setini netleştirin.",
+              "14 günlük sprint planıyla önce “para sayfaları” (oda/teklif) sonra destekleyici içerikleri bağlayın."
+            ],
+            "checklist": [
+              "Tek domain/tek protokol, temiz URL standardı",
+              "Hub sayfalar (otel SEO, otel dijital) belirli",
+              "Oda sayfaları segmentlere bağlanıyor (aile/golf/spa)",
+              "Blog/destinasyon içerikleri oda sayfalarına CTA ile akıyor",
+              "SSS blokları dönüşüm sayfalarında risk azaltıyor",
+              "Breadcrumb + menü + footer aynı hikâyeyi anlatıyor",
+              "Anchor seti: “otel + destinasyon + konsept” doğal ve tekrarsız",
+              "Log: parametreli/kopya URL’ler kontrol altında",
+              "CWV: oda/teklif sayfaları mobilde öncelikli"
+            ],
+            "href": "/downloads/otel-seo-site-haritasi-ic-linkleme-blueprint-v1.0.pdf",
+            "buttonLabel": "Blueprint’i İndir"
+          },
+          { "type": "media", "slot": "technical-seo-kpi" },
+          {
+            "type": "table",
+            "caption": "Parent/Child/Sibling link planı + sayfa türü eşleştirme tablosu (mimari tasarım için)",
+            "headers": [],
+            "rows": []
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel sitesi için ideal site mimarisi nasıl olmalı?",
+        "a": "Hub sayfalar (otel SEO/dijital), oda sayfaları, destinasyon/deneyim içerikleri ve SSS bloklarının rezervasyon akışına bağlandığı bir iskelet kurun. Amaç, kullanıcıyı kategoriden odaya ve booking engine’e net şekilde taşımaktır."
+      },
+      {
+        "q": "Internal linking OTA’ya karşı gerçekten işe yarar mı?",
+        "a": "Evet; internal linkler Google’a hangi sayfanın önemli olduğunu ve konu kümelerinin ilişkisini anlatır. Hub→child→sibling link ağı, otel entity otoritesini güçlendirip doğru sorgularda tıklama payını artırabilir."
+      },
+      {
+        "q": "Otel SEO’da hangi sayfalar birbirine bağlanmalı?",
+        "a": "Blog/destinasyon içerikleri oda/teklif sayfalarına, oda sayfaları ilgili deneyim ve SSS’lere, hub sayfalar ise tüm child sayfalara bağlanmalıdır. Bağlantılar niyet yakınlığına göre planlanmalıdır."
+      },
+      {
+        "q": "Core Web Vitals ve tarama bütçesi otel siteleri için ne kadar kritik?",
+        "a": "Mobil CWV zayıfsa kullanıcı rezervasyona gitmeden çıkar; tarama bütçesi kirliyse Google gereksiz URL’lere gider. Oda/teklif sayfalarını CWV’de önceliklendirmek ve log ile parametreli URL’leri temizlemek kritiktir."
+      },
+      {
+        "q": "OTA ve fiyat karşılaştırma sayfalarına karşı ne yapmalıyım?",
+        "a": "Resmî site sinyalini güçlendirin: net mimari, güçlü SSS/FAQ, güven ve koşul netliği, iyi internal link ağı ve doğru schema ile kullanıcıyı site içinde tutacak bir yol oluşturun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-hero-01.webp — “Site mimarisi + internal linkleme + OTA rekabeti + otel direct booking bağlamı”",
+          "h1-context — 1920×1080 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-h1-context-02.webp — “Otel entity iskeleti + kullanıcı yolu + rezervasyon motoru bağlamı”",
+          "hotel-entity — 1600×1200 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-divider-03.webp — “İdeal mimari katmanları + hub/child mantığı + direct booking yolu”",
+          "internal-linking-diagram — 1600×1200 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-divider-04.webp — “Internal linking parent/child/sibling şeması + otel entity güçlendirme”",
+          "direct-booking — 1920×1080 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-direct-booking.webp — “Home → hub → child sayfalar → oda/blog/SSS → booking akışı diyagramı”",
+          "technical-seo-kpi — 1200×1200 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-technical-seo-kpi.webp — “Site mimarisi & iç link kontrol listesi + uygulanabilir adımlar”",
+        
+          "checklist — 1200×1200 — ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi-proof-08.webp — “Blueprint çıktıları + teknik ince ayar deliverables”"
+        ],
+        "technicalChecklist": [
+          "Mimari & İç Link Checklist’i (0–5 skor)",
+          "Problem → Kök Neden → Çözüm Tablosu",
+          "14 Günlük Sprint Planı (Gün 1–14)",
+          "Deliverables: Site mimarisi diyagramı, iç link plan tablosu, anchor set kütüphanesi, teknik temizlik listesi (CWV + log + schema)"
         ]
       }
     }
