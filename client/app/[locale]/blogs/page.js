@@ -38,13 +38,9 @@ function BlogCard({ p, locale, t, GRADIENT }) {
      href={`/${locale}/${p.dept}/blog/${p.slug}`}
       className="group w-[260px] sm:w-[280px] lg:w-[320px] flex-none rounded-3xl border border-white/10 bg-white/5  transition hover:bg-[#547CCF]/50 snap-start"
     >
-      <div className="mb-2 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
-        <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
-        <span className="capitalize">{p.dept.replace("-", " ")}</span>
-      </div>
 
       {p.banner?.src && (
-        <div className="mb-3 overflow-hidden rounded-2xl border border-white/10 bg-black/30">
+        <div className="-mb-1 overflow-hidden rounded-2xl border border-white/10 bg-black/30">
           <div className="relative aspect-[16/9] w-full">
             <Image
               src={p.banner.src}
@@ -58,21 +54,27 @@ function BlogCard({ p, locale, t, GRADIENT }) {
         </div>
       )}
 
-     <div className="flex flex-col p-3">
-       <h3 className="text-[15px] lg:text-[16px] font-semibold tracking-tight text-white line-clamp-2">
+     <div className="flex flex-col p-2 lg:p-3 items-center justify-center">
+
+      <div className="mb-2 flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
+        <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+        <span className="capitalize">{p.dept.replace("-", " ")}</span>
+      </div>
+
+       <h3 className="text-[14px] lg:text-[16px] font-semibold tracking-tight leading-[130%] text-white line-clamp-2">
         {p.title}
       </h3>
 
-      <p className="mt-2 text-sm text-white/70 line-clamp-2">
+      <p className="mt-1 lg:mt-2 text-[12px] lg:text-[14px] text-white/70 line-clamp-2 leading-[125%]">
         {p.excerpt}
       </p>
 
-      <div className="mt-4">
+      <div className="mt-3 lg:mt-4">
         <Link
           href={`/${locale}/${p.dept}/blog/${p.slug}`}
-          className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+          className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-3 py-[6px] md:py-1 lg:py-1.5 text-xs md:text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99]  ${GRADIENT}`}
         >
-          {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
+          {t("readMore")} <span className="transition group-hover:translate-x-0.5 group-hover:text-[18px]">→</span>
         </Link>
       </div>
      </div>
@@ -181,18 +183,18 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               <span className="capitalize">{p.dept.replace("-", " ")}</span>
             </div>
 
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-semibold tracking-tight text-white">
+            <h1 className="text-2xl md:text-3xl xl:text-[38px] 4xl:text-5xl lg:leading-[120%] font-semibold tracking-tight text-white">
               {p.title}
             </h1>
 
-            <p className="mt-4 max-w-xl text-sm md:text-base lg:text-lg text-white/80 line-clamp-3 ">
+            <p className="mt-4 max-w-xl text-sm md:text-base lg:text-lg lg:leading-[130%] text-white/80 line-clamp-3 ">
               {p.excerpt}
             </p>
 
             <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
                 href={`/${locale}/${p.dept}/blog/${p.slug}`}
-                className={`inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+                className={`inline-flex items-center gap-2 rounded-2xl px-4 4xl:px-5 py-2 4xl:py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
@@ -204,14 +206,14 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("searchPlaceholder")}
-                className="w-full rounded-2xl border border-white/30 bg-black/50 px-4 py-3 text-sm text-white outline-none backdrop-blur
+                className="w-full rounded-2xl border border-white/30 bg-black/50 px-4 4xl:px-5 py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
                            focus:border-white/40 focus:bg-black/50"
               />
               {query.length > 0 && (
                 <button
                   type="button"
                   onClick={() => setQuery("")}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-3 py-2 text-xs text-white/80 transition hover:text-white"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-4 4xl:px-5 py-2 4xl:py-3 text-xs text-white/80 transition hover:text-white"
                 >
                   {t("clear")}
                 </button>
@@ -227,9 +229,9 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               <button
                 type="button"
                 onClick={() => inputRef.current?.focus()}
-                className="rounded-2xl border border-white/20 bg-white/5 px-5 py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10"
+                className="rounded-2xl border border-white/20 bg-white/5 px-4 4xl:px-5 py-1.5 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
               >
-                {t("searchButton")}
+                {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
               </button>
 
             </div>
@@ -271,7 +273,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT }) {
   if (!posts?.length) return null;
 
   return (
-    <section className="mt-4">
+    <section className="mt-4 mb-10">
       <div className="mb-3 flex items-center justify-between">
         <h2 className="text-base lg:text-lg font-semibold text-white/90">
           {title}
@@ -515,7 +517,7 @@ const heroPosts = useMemo(() => {
 
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-[#150016] text-white">
       {/* Banner */}
       {/* <section className="relative h-[40vh] lg:h-[45vh] overflow-hidden">
         <div className="absolute inset-0 opacity-30 blur-3xl">
@@ -597,7 +599,7 @@ const heroPosts = useMemo(() => {
     </p>
   </div>
 
-<div className="space-y-2">
+<div className="space-y-4 md:space-y-7 lg:space-y-12">
    {rails.map((r) => (
      <BlogRail key={r.id} title={r.title} posts={r.posts} locale={locale} t={t} GRADIENT={GRADIENT} />
    ))}

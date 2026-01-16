@@ -191,7 +191,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
           </Link>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] ">
+          <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] border border-[#547dcf] rounded-[20px]">
             <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
               <li>
                 <a
@@ -566,7 +566,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
       <style jsx>{`
         .gradient-border-nav {
-          border-radius: 20px;
+         border-radius:20px;
           position: relative;
           background-color: rgba(20, 15, 37, 0.1);
           backdrop-filter: blur(10px);
@@ -575,9 +575,9 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
         .gradient-border-nav::before {
           content: "";
+          border-radius:20px;
           position: absolute;
           inset: 0;
-          border-radius: 20px;
           padding: 0.3px;
           background: linear-gradient(90deg, #a754cf, #54b9cf, #547dcf, #a754cf);
           background-size: 100%;

@@ -42,14 +42,16 @@ export const BLOG_MAP = {
     "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir",
     "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi",
     "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk",
-    "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon"
+    "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon",
+    "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama"
   },
 
      "pms-ota": {
     "oteliniz-icin-dogru-pms-nasil-secilir": "BlogOtelinizIcinDogruPmsNasilSecilir",
     "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim",
     "pms-data-migration-ve-temizlik-sureci":"BlogPmsDataMigrationVeTemizlikSureci",
-    "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin"
+    "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin",
+    "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri"
   },
 
       "veri-analizi-raporlama": {

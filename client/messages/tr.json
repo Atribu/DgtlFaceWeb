@@ -43842,6 +43842,835 @@
         ]
       }
     }
+  },
+
+   "Blog4DilliCagriMerkeziKPIKaliteVeRaporlama": {
+    "title": "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
+    "slug": "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama",
+    "department": "callcenter",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "4 dilli çağrı merkezi KPI’ları: yanıt süresi, FCR, dönüşüm, NPS/CSAT ve QA. TR–EN–DE–RU dil bazlı analiz + dashboard kurgusu ve KPI checklist’i bu rehberde.",
+    "seo": {
+      "metaTitle": "4 Dilli Çağrı Merkezi KPI & Raporlama Framework’ü | DGTLFACE",
+      "metaDescription": "4 dilli çağrı merkezi KPI’ları: yanıt süresi, FCR, dönüşüm, NPS/CSAT ve QA. TR–EN–DE–RU dil bazlı analiz + dashboard kurgusu ve KPI checklist’i bu rehberde."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa (Hub) / URL: 4 Dilli Çağrı Merkezi — /tr/cagri-merkezi/4-dilli-cagri-merkezi",
+        "Blog No / URL: Blog #5 — /tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama",
+        "Blog Tipi: Core (cluster içinde “performans & raporlama” authority)",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 2500–2800",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/cagri-merkezi/blog/4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama"
+      ],
+      "strategySummary": "Bu yazı, 4 dilli çağrı merkezi cluster’ında “yatırımın işe yarayıp yaramadığını” netleştiren KPI + kalite (QA) + raporlama framework’ünü otel özelinde standardize eden otorite içerik olacak. Persona; Antalya–Belek–Side–Bodrum gibi çok pazar karmalı destinasyonlarda TR–EN–DE–RU talebi yöneten GM ve satış–pazarlama lideri (veya rezervasyon/çağrı merkezi yöneticisi). Funnel’da consideration → conversion: KPI’ları rezervasyon/satış etkisine bağlayıp “maliyet merkezi” algısını kırar ve danışmanlık talebine bağlar. Ana iş sorusu: “4 dilli çağrı merkezim var ama neyi, nasıl ölçeceğimi bilmiyorum; hangi dashboard’la yönetmeliyim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-16",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "4 dilli çağrı merkezinde hangi KPI’lara bakacağınızı bilmek; yatırımın gerçekten sonuç üretip üretmediğini anlamanın tek yoludur. Yanıt süresi, cevaplanma/terk oranı, FCR (ilk temasta çözüm), dil bazlı performans, rezervasyon/satış dönüşümü ve NPS/CSAT gibi memnuniyet skorlarının birlikte raporlanması; TR–EN–DE–RU operasyonun sağlığını objektif gösterir. Bu rehber, KPI + QA + dashboard modelini pratik bir çerçevede kurar.",
+      "sgeSummary": "Otel 4 dilli çağrı merkezi için KPI modeli; hız (yanıt/terk), çözüm (FCR), gelir (rezervasyon dönüşümü) ve kalite (QA, CSAT/NPS) metriklerini dil bazlı dashboard’ta birleştirir.",
+      "voiceAnswer": "Yanıt süresi, terk oranı, FCR, dönüşüm ve CSAT/NPS’yi dil bazında tek dashboard’ta izleyin.",
+      "aiFactSheet": [
+        "Entity seti: Call Center KPI, Multilingual Performance, QA & Monitoring, Reservation & Sales Conversion, NPS & CSAT, Dashboard",
+        "KPI grupları: Hız, çözüm, gelir, kalite, kapasite/yoğunluk",
+        "Dil bazlı analiz: TR–EN–DE–RU hacim + kalite + dönüşüm karşılaştırması",
+        "Rapor hedefi: Yönetimin “tek sayfada” karar alacağı dashboard",
+        "Data kaynakları: Çağrı merkezi yazılımı + CRM/PMS + analitik (GA4) + raporlama aracı (Looker Studio vb.)",
+        "GEO bağlamı: Antalya/Belek/Side/Bodrum sezon yoğunluğu → önceliklendirme ve kapasite metrikleri",
+        "İçgörü: Ölçülen yapı ROI’yi görünür kılar; ölçülmeyen yapı “maliyet merkezi” algısında kalır (yönlü)"
+      ]
+    },
+    "h1": {
+      "title": "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
+      "intro": "“4 dilli çağrı merkezim var ama neyi, nasıl ölçeceğimi bilmiyorum.” Bu cümle, 4 dil (TR–EN–DE–RU) ve çok kanal (telefon/WhatsApp/OTA/DM) trafiği olan otellerde en sık gördüğümüz yönetim problemidir: ekip çalışıyor ama yatırımın etkisi görünmüyor. Oysa doğru KPI seti; hız, çözüm, gelir ve kaliteyi aynı tabloda birleştirip operasyonun “sağlık raporunu” çıkarır. Bu rehber, KPI’ları otel rezervasyon/satış etkisine bağlayan ve yönetim dashboard’ına dönüştüren pratik bir framework sunar.",
+      "quickSummary": [
+        "KPI’ları 5 grupta yönet: hız, erişim, çözüm, gelir, kalite + kapasite",
+        "Dil bazlı (TR–EN–DE–RU) kırılım olmadan ortalama yanıltır",
+        "Follow-up disiplini çoğu zaman dönüşüm kaybının ana sebebidir",
+        "QA skor kartı “script akışı”na bağlanır, koçluk ritmiyle yaşar",
+        "Dashboard: tek sayfada karar (executive) + derinlik (dil/kanal/kalite/gelir)"
+      ],
+      "ctaPrimary": {
+        "label": "4 Dilli Çağrı Merkezi KPI & Raporlama Danışmanlığı Al",
+        "text": "KPI setinizi otel hedeflerinize bağlayıp, TR–EN–DE–RU dil bazlı dashboard’ı birlikte kuralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "4 Dilli Çağrı Merkezi KPI & Raporlama Danışmanlığı Al",
+        "text": "KPI setinizi otel hedeflerinize bağlayıp, TR–EN–DE–RU dil bazlı dashboard’ı birlikte kuralım.",
+        "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+      },
+      "secondary": {
+        "label": "4 Dilli Çağrı Merkezi KPI & Dashboard Şablonunu İndir",
+        "text": "Toplantıya girmeden önce 10 dakikada KPI setinizi netleştirirsiniz; haftalık raporu aynı formatta standardize edersiniz.",
+        "href": "/downloads/4-dilli-cagri-merkezi-kpi-dashboard-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "4 Dilli Çağrı Merkezi", "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi" },
+      { "label": "Çağrı Merkezi Performans Analizi", "href": "/tr/cagri-merkezi/performans-analizi" },
+      { "label": "Looker Studio Raporlama", "href": "/tr/raporlama/looker-studio" },
+      { "label": "Satış Dönüşüm Raporlama", "href": "/tr/raporlama/satis-donusum" }
+    ],
+    "relatedPosts": [
+      { "title": "Looker Studio Raporlama", "href": "/tr/raporlama/looker-studio" },
+      { "title": "Çağrı Merkezi Performans Analizi", "href": "/tr/cagri-merkezi/performans-analizi" }
+    ],
+    "sections": [
+    
+      {
+        "id": "kpi-hangi-kpilara-bakmali",
+        "title": "4 dilli çağrı merkezi performansı için hangi KPI’lara bakmalısınız?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "4 dilli çağrı merkezi KPI’ları, tek bir listedeki metriklerden ibaret değildir; 5 gruba ayrılır: hız, çözüm, gelir, kalite ve kapasite/yoğunluk. Bu grupları birlikte izlediğinizde “hızlıyız ama dönüşmüyor mu?”, “dönüşüyor ama kalite düşüyor mu?” gibi kritik soruları net yanıtlayabilirsiniz."
+          },
+          { "type": "h3", "text": "AEO Checklist (5–7 madde)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Yanıt süresi / ilk yanıt süresi (kanal bazlı)",
+              "Cevaplanma oranı & terk oranı (kaçan talep)",
+              "FCR (First Call Resolution) / ilk temasta çözüm oranı",
+              "Rezervasyon & satış dönüşümü (teklif→kapanış + follow-up)",
+              "QA kalite skoru (dinleme skor kartı)",
+              "CSAT / NPS & şikâyet trendi (memnuniyet)",
+              "Dil bazlı yoğunluk & kapasite (TR–EN–DE–RU iş yükü)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI’ları “tek liste” değil, bu 5 grupta dashboard’a yerleştirin.",
+              "Her KPI için “hedef bandı” ve “aksiyon tetikleyicisi” tanımlayın (hangi eşikte ne yapılır?)."
+            ]
+          },
+          { "type": "media", "slot": "5-key-kpi-groups" }
+        ]
+      },
+      {
+        "id": "kpi-framework",
+        "title": "4 dilli çağrı merkezinde takip edilmesi gereken ana KPI’lar",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki framework; yönetimin hızlı karar alması için KPI’ları anlaşılır sınıflara böler. Burada amaç, “her şeyi ölçmek” değil; doğru metriklerle doğru aksiyonu tetiklemektir."
+          },
+          { "type": "h3", "text": "1) Hız KPI’ları (Speed)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk yanıt süresi (telefon/WhatsApp/OTA/DM ayrı)",
+              "Ortalama yanıt süresi",
+              "SLA uyum oranı (sezon–düşük sezon farklı)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "SLA’yı sezona göre güncelleyin (Antalya/Belek/Side gibi yoğun dönemlerde gerçekçi band)."
+            ]
+          },
+          { "type": "h3", "text": "2) Erişim KPI’ları (Reach / Kaçan Talep)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cevaplanma oranı",
+              "Terk oranı (abandon)",
+              "Kaçan talep sayısı (kanal bazlı)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kaçan talebi “geri kazanım” için outbound listesine bağlayın."
+            ]
+          },
+          { "type": "h3", "text": "3) Çözüm KPI’ları (Resolution)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "FCR (ilk temasta çözüm)",
+              "Ortalama çözüm süresi",
+              "Tekrarlı temas oranı (aynı konu tekrar)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "FCR düşüyorsa: script + bilgi bankası + escalation kuralı kontrol."
+            ]
+          },
+          { "type": "h3", "text": "4) Gelir KPI’ları (Revenue / Conversion)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teklif oranı (talep→teklif)",
+              "Takip (follow-up) oranı",
+              "Teklif→rezervasyon dönüşümü",
+              "Upsell oranı (varsa)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dönüşüm düşükse önce follow-up disiplinini ölçün; çoğu kayıp burada olur."
+            ]
+          },
+          { "type": "h3", "text": "5) Kalite KPI’ları (Quality)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "QA skor kartı ortalaması",
+              "CSAT (hızlı memnuniyet)",
+              "NPS (genel tavsiye) (Varsayım: ölçüm uygulanabiliyor)",
+              "Şikâyet trendleri (konu bazlı)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "QA ile CSAT’ı aynı grafikte izleyin: “kalite düşmeden hızlanıyor muyuz?”"
+            ]
+          },
+          {"type":"media","slot":"kpi-goals-table"}
+        ]
+      },
+      {
+        "id": "dil-bazli-performans",
+        "title": "Dil bazlı performans ve yoğunluk analizi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "4 dilli operasyonda toplam ortalama tek başına anlamlı değildir. TR ve EN hızlıyken DE veya RU tarafı geride kalabilir; bu da belirli pazarda “kaçan talep” yaratır. Dil bazlı analiz, kapasite planını ve eğitim ihtiyacını netleştirir."
+          },
+          { "type": "h3", "text": "Dil bazlı karşılaştırmada 4 metrik" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hacim (kaç talep?)",
+              "Hız (ilk yanıt süresi)",
+              "Kalite (QA + CSAT)",
+              "Gelir etkisi (teklif→rezervasyon)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya/Belek gibi DE/RU ağırlıklı bölgelerde vardiyayı dil hacmine göre dengeleyin.",
+              "Belirli dilde QA düşükse: kültürel ton + terminoloji eğitimi ekleyin."
+            ]
+          },
+          { "type": "media", "slot": "lang-based-performance-analysis" }
+        ]
+      },
+      {
+        "id": "qa-coaching",
+        "title": "Kalite dinleme, skor kartı ve geri bildirim",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "QA’nın amacı “hata aramak” değil, standardı yaşatmak ve gelişimi izlemektir. Skor kartı, script akışına bağlı olmalı: açılış–ihtiyaç–teklif–itiraz–kapanış. Düzenli dinleme periyodu ve kısa koçluk seansları, kalite dalgalanmasını azaltır."
+          },
+          {"type":"media","slot":"qa-coaching-cycle"},
+          { "type": "h3", "text": "QA skor kartı başlıkları (çekirdek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açılış standardı",
+              "İhtiyaç analizi (doğru soru seti)",
+              "Teklif netliği + alternatif sunum",
+              "İtiraz karşılama",
+              "Kapanış + follow-up",
+              "Ton & empati",
+              "Kayıt disiplini (CRM/PMS notu)"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Haftalık dinleme + 15 dk koçluk ritmi kurun.",
+              "QA düşüşlerinde “top 3 düzeltme” listesiyle hızlı müdahale edin."
+            ]
+          },
+          { "type": "media", "slot": "qa-score-card" }
+        ]
+      },
+      {
+        "id": "gelir-ve-memnuniyet",
+        "title": "Rezervasyon, satış ve memnuniyet ölçümü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yönetim KPI’lara “işe yarıyor mu?” diye bakar; bu sorunun cevabı, KPI’ları gelir ve memnuniyetle ilişkilendirmekten geçer. Çağrı merkezi; rezervasyon funnel’ında “ilk temas ve takip” aşamasını taşır. Bu yüzden dönüşüm KPI’ları tek başına değil, CSAT/şikâyet trendiyle birlikte okunmalıdır."
+          },
+          { "type": "h3", "text": "Bağlantı mantığı (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hız ↑ → kaçan talep ↓",
+              "Follow-up ↑ → teklif→rezervasyon ↑",
+              "QA ↑ → CSAT ↑ → şikâyet ↓"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dönüşüm raporunu “dil + kanal” kırılımında okuyun.",
+              "Şikâyet trendi artıyorsa kalite/ton eğitimine yatırım yapın."
+            ]
+          },
+          {"type":"media","slot":"kpi-revenue"}
+        ]
+      },
+      {
+        "id": "dashboard-raporlama",
+        "title": "Yönetim için dashboard ve raporlama yapısı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dashboard; yönetimin 5 dakikada karar aldığı tek sayfa olmalı. Çekirdek: KPI özet kutuları + dil bazlı karşılaştırma + kanal performansı + QA trend + dönüşüm hunisi. Looker Studio veya benzeri panelle veri birleştirilebilir; ancak kurulumun BT/analitik ekiple birlikte yapılması gerekir."
+          },
+          { "type": "h3", "text": "Dashboard sayfa yapısı (öneri)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Sayfa 1 (Executive): 8–10 KPI kutusu + trend",
+              "Sayfa 2 (Dil): TR–EN–DE–RU karşılaştırma",
+              "Sayfa 3 (Kanal): telefon/WA/OTA/DM",
+              "Sayfa 4 (Kalite): QA + CSAT/NPS + şikâyet konuları",
+              "Sayfa 5 (Gelir): teklif→rezervasyon, follow-up, upsell"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Executive sayfa”yı sabitleyin; diğer sayfalar analitik derinlik olsun.",
+              "Haftalık rapor ritmi kurun: KPI → içgörü → aksiyon."
+            ]
+          },
+          { "type": "media", "slot": "dashboard-mockup" }
+        ]
+      },
+      {
+        "id": "kpi-checklist",
+        "title": "4 dilli çağrı merkezi KPI checklist’i",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, yönetim ekibinin duvara asacağı kadar net olmalı."
+          },
+          { "type": "h3", "text": "10 maddelik hızlı KPI checklist" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk yanıt süresi (kanal bazlı)",
+              "Cevaplanma oranı",
+              "Terk oranı",
+              "Kaçan talep sayısı",
+              "FCR",
+              "Ortalama çözüm süresi",
+              "Teklif oranı",
+              "Follow-up oranı",
+              "Teklif→rezervasyon dönüşümü",
+              "QA skoru + CSAT trendi"
+            ]
+          },
+          {"type":"media","slot":"kpi-checklist"},
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "4 Dilli Çağrı Merkezi KPI & Dashboard Şablonunu İndir",
+            "text": "Toplantıya girmeden önce 10 dakikada KPI setinizi netleştirirsiniz; haftalık raporu aynı formatta standardize edersiniz.",
+            "href": "/downloads/4-dilli-cagri-merkezi-kpi-dashboard-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "4 Dilli Çağrı Merkezi KPI & Raporlama Danışmanlığı Al",
+            "text": "KPI’ları otel hedeflerinize bağlayıp TR–EN–DE–RU dashboard’ı birlikte kuralım.",
+            "href": "/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "kpi-dashboard-asset",
+        "title": "4 Dilli Çağrı Merkezi KPI & Dashboard Şablonunu İndir — Çağrı Merkezi / Otel",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "4 Dilli Çağrı Merkezi KPI & Dashboard Şablonunu İndir — Çağrı Merkezi / Otel (v1.0)",
+            "purpose": "Bu şablon, 4 dilli çağrı merkezi KPI’larını (hız–çözüm–gelir–kalite–kapasite) tek çatı altında tanımlayıp yönetim dashboard’ına dönüştürmek için hazırlanmıştır. TR–EN–DE–RU dil bazlı performansı ve rezervasyon/satış etkisini aynı raporda okuyup aksiyon üretmenizi sağlar.",
+            "whoFor": "GM, satış–pazarlama lideri, rezervasyon/çağrı merkezi yöneticisi, analitik/raporlama sorumlusu.",
+            "steps": [
+              "KPI envanterini doldurun ve hedef bandı belirleyin.",
+              "Dil ve kanal kırılımlarını seçip dashboard sayfa iskeletini kurun.",
+              "Haftalık rapor ritmiyle KPI → içgörü → aksiyon döngüsünü işletin."
+            ],
+            "checklist": [
+              "KPI’lar 5 gruba ayrıldı (hız/çözüm/gelir/kalite/kapasite).",
+              "Dil bazlı (TR–EN–DE–RU) tablo dolduruldu.",
+              "Kanal bazlı (telefon/WhatsApp/OTA/DM) tablo dolduruldu.",
+              "Her KPI için hedef bandı + alarm eşiği + aksiyon tetikleyici yazıldı.",
+              "QA skor kartı script akışına bağlandı.",
+              "Haftalık rapor: “3 içgörü + 3 aksiyon” formatı tanımlandı."
+            ],
+            "href": "/downloads/4-dilli-cagri-merkezi-kpi-dashboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "4 dilli çağrı merkezinde hangi KPI’lar önemli?",
+        "a": "Hız (yanıt süresi, cevaplanma/terk), çözüm (FCR), gelir (teklif→rezervasyon, follow-up), kalite (QA, CSAT/NPS) ve kapasite/yoğunluk KPI’larını birlikte izlemek gerekir. Tek bir metrik, doğru resmi vermez."
+      },
+      {
+        "q": "Dil bazlı performansı nasıl takip edebilirim?",
+        "a": "TR–EN–DE–RU için hacim, ilk yanıt süresi, QA/CSAT ve dönüşümü aynı tabloda karşılaştırın. Toplam ortalama yerine dil kırılımı, vardiya ve eğitim ihtiyacını daha net gösterir."
+      },
+      {
+        "q": "Rezervasyon ve satış dönüşümünü çağrı merkezi KPI’larına nasıl bağlarım?",
+        "a": "Talep→teklif, teklif→rezervasyon ve follow-up oranını ölçün; bunları dil ve kanal bazında raporlayın. Dönüşüm düşüyorsa çoğu zaman problem follow-up disiplinindedir."
+      },
+      {
+        "q": "Kalite dinleme ve QA sürecini nasıl raporlamalıyım?",
+        "a": "Script akışına bağlı bir QA skor kartı kullanın ve haftalık dinleme+koçluk ritmi kurun. QA trendini CSAT/şikâyet trendiyle birlikte okuyun."
+      },
+      {
+        "q": "Yönetim dashboard’ı nasıl olmalı?",
+        "a": "İlk sayfa “executive” olmalı: 8–10 KPI kutusu + trend. Ardından dil, kanal, kalite ve gelir sayfalarıyla analitik derinlik eklenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "dashboard-mockup-executive-01 — Örnek Dashboard Mockup (ilk ekran) — tek sayfada KPI özet",
+          "5-key-kpi-groups — KPI’ların (hız/çözüm/gelir/kalite/kapasite) gruplandığı tablo",
+          "lang-based-performance-analysis — TR–EN–DE–RU dil/pazar bazlı performans grafikleri örneği",
+          "qa-score-card — QA skor kartı şeması + koçluk döngüsü diyagramı",
+          "dashboard-mockup — Dashboard sayfa yapısı mockup’ı (executive/dil/kanal/kalite/gelir)"
+        ],
+        "technicalChecklist": [
+          "KPI’lar 5 grupta toplandı: hız/erişim/çözüm/gelir/kalite + kapasite",
+          "Dil bazlı (TR–EN–DE–RU) kırılım zorunlu (toplam ortalama tek başına kullanılmadı)",
+          "Kanal bazlı kırılım (telefon/WhatsApp/OTA/DM) planlandı",
+          "Her KPI için hedef bandı + alarm eşiği + aksiyon tetikleyici tanımlandı",
+          "QA skor kartı script akışına bağlandı (açılış–ihtiyaç–teklif–itiraz–kapanış)",
+          "Haftalık rapor ritmi: KPI → içgörü → aksiyon (3 içgörü + 3 aksiyon) olarak standardize edildi",
+          "Raporlama aracı olarak Looker Studio vb. ile veri birleştirme mantığı yazıldı"
+        ]
+      }
+    }
+  },
+
+   "BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri": {
+    "title": "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
+    "slug": "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri",
+    "department": "pms-ota",
+    "updatedAt": "16 Ocak 2026",
+    "publishedAt": "2026-01-16",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "PMS kurulumunda sık yapılan 12 hatayı görün: data migration, eğitim, entegrasyon testleri ve sezon ortası go-live tuzakları. “Yanlış vs doğru” çözümlerle riski azaltın.",
+    "seo": {
+      "metaTitle": "PMS Kurulumunda 12 Hata: Riskleri Önleyin | DGTLFACE",
+      "metaDescription": "PMS kurulumunda sık yapılan 12 hatayı görün: data migration, eğitim, entegrasyon testleri ve sezon ortası go-live tuzakları. “Yanlış vs doğru” çözümlerle riski azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı / URL: PMS Kurulum & Destek — /tr/pms-ota/pms-kurulum",
+        "Blog No / URL: Blog #5 — /tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "Difficulty Level / Expertise: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365",
+        "SERP Target Type: Featured Snippet + PAA",
+        "Canonical: /tr/pms-ota/blog/pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri"
+      ],
+      "strategySummary": "Bu içerik, PMS Kurulum & Destek silosunda “hata & anti-pattern” alt cluster’ının çekirdek uyarı yazısıdır ve satış görüşmeleri/kickoff toplantıları için “aynı tuzaklara düşmeme” rehberi gibi çalışır. Funnel’da “farkındalık → risk analizi ihtiyacı → danışmanlık talebi” köprüsü kurar: okuyucu, kurulumun en pahalı risklerini net görür. Ana iş sorusu: “PMS geçişinde neleri kesinlikle yapmamalıyım ve bunları nasıl önlerim?” Antalya/Belek/Side/Bodrum gibi sezonsallığı yüksek destinasyonlarda “yanlış zamanda go-live” senaryolarıyla etkiyi somutlaştırır ve Risk Analizi CTA’sını doğal biçimde güçlendirir."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-16",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "PMS kurulum projelerinde tekrar eden 12 hata vardır: veri temizliği yapmadan Data Migration, eğitimi son güne bırakmak, Integration Test planını zayıf kurmak, Channel Manager/OTA akışını yeterince test etmemek ve yüksek sezonda hazırlıksız go-live yapmak bunların başında gelir. Bu rehber, her hatayı “yanlış vs doğru” formatında açıklar; pratik çözüm, kontrol listesi ve risk–etki yaklaşımıyla aynı tuzaklara düşmeden PMS Implementation’ı güvenle yönetmenize yardımcı olur.",
+      "sgeSummary": "Bu yazı, PMS kurulumunda sık görülen 12 anti-pattern’i “böyle yapmayın, yerine şöyle yapın” mantığıyla özetler; sezon, veri, eğitim ve entegrasyon testlerinde riskleri azaltır.",
+      "voiceAnswer": "PMS geçişinde veriyi temizlemeden taşımayın, eğitimi ertelemeyin, OTA entegrasyonlarını test etmeden sezonda go-live yapmayın.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, operasyon, IT/entegrasyon, satış–rezervasyon, muhasebe, gelir",
+        "Entity’ler: PMS Implementation, Data Migration, Integration Test, Training, Seasonality",
+        "Kritik risk: sezonda go-live + test eksikliği → resepsiyonda kaos ve gelir riski",
+        "KPI sinyalleri: hata/ticket sayısı, check-in süresi, OTA senkron hatası, rapor tutarsızlığı",
+        "Çıktı: 12 hata + çözüm checklist’i + risk–etki matrisi + 5 adımlık önleme planı",
+        "GEO: Antalya/Belek/Side/Bodrum sezonsallığı → zamanlama kritik",
+        "Amaç: hızlı self-check → risk analizi ihtiyacı"
+      ]
+    },
+    "h1": {
+      "title": "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
+      "intro": "PMS kurulumunda “her şey planlıydı ama canlıda karıştı” cümlesi tesadüf değildir; genelde aynı hata setleri tekrar eder. Data Migration’ı hafife almak, eğitimi son güne bırakmak, kanal/OTA entegrasyon testlerini eksik yapmak ve sezon ortasında hazırlıksız go-live denemek; resepsiyon ve gelir tarafında hızlı kaosa dönebilir. Bu rehber, 12 hatayı anti-pattern mantığıyla ortaya koyar: “böyle yapmayın” ve “yerine şöyle yapın” formatında, pratik çözümler ve kontrol listeleri sunar.",
+      "ctaPrimary": {
+        "label": "PMS Kurulum Risk Analizi Talep Et",
+        "text": "Sezon, veri ve entegrasyon risklerinizi go-live öncesi görünür kılar; kaos riskini azaltırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "PMS Kurulum Risk Analizi Talep Et",
+        "text": "Sezon, veri ve entegrasyon risklerinizi go-live öncesi görünür kılar; kaos riskini azaltırsınız.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      },
+      "secondary": {
+        "label": "PMS Kurulumunda Sık Yapılan Hatalar Checklist’ini İndir",
+        "text": "Kickoff öncesi hızlı self-check yapar; 12 tuzağı tek sayfada işaretleyerek boşlukları netleştirirsiniz.",
+        "href": "/tr/pms-ota/pms-kurulum"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS Kurulum & Destek", "href": "/tr/pms-ota/pms-kurulum" },
+      { "label": "OTA Entegrasyonu", "href": "/tr/pms-ota/ota-entegrasyonu" },
+      { "label": "Kanal Yönetimi", "href": "/tr/pms-ota/kanal-yonetimi" },
+      { "label": "PMS & OTA Yönetimi", "href": "/tr/pms-ota-yonetimi" }
+    ],
+    "sections": [
+     
+      {
+        "id": "nerede-yanlis-gidiyoruz",
+        "title": "Sık Yapılan Hatalar: Nerede Yanlış Gidiyoruz?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PMS Implementation projelerinde hatalar genellikle 4 bölgede toplanır: süreç/veri, eğitim/değişim, entegrasyon/test, zamanlama/sezonsallık. “Tek bir teknik hata” gibi görünen problemler bile çoğu zaman bu dört alanın birleşiminden doğar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check",
+            "text": "“Sorun PMS mi, yoksa plan + veri + eğitim + test eksikliği mi?”"
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hataları kategoriye ayır: veri, süreç, eğitim, entegrasyon, sezon",
+              "Her hata için “risk–etki” notu ekle",
+              "Önleyici aksiyonları proje planına bağla"
+            ]
+          },
+          {"type":"media","slot":"data-migration"}
+        ]
+      },
+      {
+        "id": "aeo-list-12-hata",
+        "title": "PMS kurulumunda sık yapılan hatalar hangileridir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki liste, “PMS geçişinde neleri yapmamalıyım?” sorusunun net cevabıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Data Migration’ı export/import sanmak (temizlik ve mapping yok)",
+              "Tarihçe sınırını belirlemeden her veriyi taşımak",
+              "Duplicate/çöp veriyi temizlemeden misafir kartlarını taşımak",
+              "Kuralları (fiyat, iptal, vergi, komisyon) departmanlar arası doğrulamamak",
+              "Eğitimi go-live’a sıkıştırmak (özellikle Reception)",
+              "Sadece resepsiyonu eğitip muhasebe/rezervasyonu atlamak",
+              "Yetki planı olmadan canlıya çıkmak (yetkisiz işlemler)",
+              "Integration Test planı kurmamak (senaryo bazlı test yok)",
+              "Channel Manager / OTA entegrasyonunu yeterince test etmemek",
+              "Eski sistemle çift kayıt dönemini yönetmemek (kim nereye giriyor?)",
+              "Sezon ortasında veya sezona çok yakın hazırlıksız go-live yapmak",
+              "Go-live sonrası ilk 30–90 gün destek ritmi kurmamak (ticket/backlog yok)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "surec-veri-hatalari",
+        "title": "Süreç ve Veri Tarafında Hatalar",
+        "blocks": [
+          { "type": "h3", "text": "Hata 1: Data Migration’ı hafife almak" },
+          { "type": "p", "text": "Yanlış: “Veriyi alır atarız, sonra düzeltiriz.”" },
+          { "type": "p", "text": "Doğru: Taşınır/temizlenir/taşınmaz kararı + mapping + test import + doğrulama raporu." },
+          { "type": "p", "text": "Pratik çözüm: Migration test checklist’i + hata/düzeltme log’u." },
+           {"type":"media","slot":"12-critical errors-solution"},
+
+          { "type": "h3", "text": "Hata 2: Her şeyi taşımak (tarihçe sınırı yok)" },
+          { "type": "p", "text": "Yanlış: Yılların verisini filtrelemeden taşıma → rapor gürültüsü." },
+          { "type": "p", "text": "Doğru: Aktif ve değerli tarihçeyi seçmek; gereksiz alanları dışarıda bırakmak." },
+          { "type": "p", "text": "Pratik çözüm: “Tarihçe politikası” (Varsayım: aktif + seçilmiş değerli dönem)." },
+
+          { "type": "h3", "text": "Hata 3: Kuralları departmanlar arası doğrulamamak" },
+          { "type": "p", "text": "Yanlış: Satış ayrı, muhasebe ayrı kural biliyor → canlıda çakışma." },
+          { "type": "p", "text": "Doğru: Tek “kural sözlüğü” (iptal/vergi/komisyon/fiyat planı) + imzalı onay." },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kural sözlüğünü tek dosyada topla",
+              "Muhasebe ile rapor doğrulama kriterini canlı öncesi yazılı al"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "egitim-degisim-hatalari",
+        "title": "Eğitim ve Değişim Yönetimi Hataları",
+        "blocks": [
+          { "type": "h3", "text": "Hata 4: Eğitimi son güne bırakmak" },
+          { "type": "p", "text": "Yanlış: “Sistem gelince öğretiriz.”" },
+          { "type": "p", "text": "Doğru: Rol bazlı PMS Training + senaryo/role-play + mini sınav + yetki verme." },
+          { "type": "p", "text": "Pratik çözüm: Go-live öncesi 2 haftalık eğitim sprint’i + 60 gün refresh ritmi." },
+
+          { "type": "h3", "text": "Hata 5: Sadece resepsiyonu eğitmek" },
+          { "type": "p", "text": "Yanlış: Muhasebe/rezervasyon eğitimsiz → rapor/fiyat/kurallar bozulur." },
+          { "type": "p", "text": "Doğru: Reception + Reservation Team + Accounting + Revenue aynı plana dahil." },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rol matrisi çıkar",
+              "Her rol için 10–15 kritik işlem listesi belirle",
+              "Yetki planını eğitim başarısına bağla"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entegrasyon-test-hatalari",
+        "title": "Entegrasyon ve Test Hataları",
+        "blocks": [
+          { "type": "h3", "text": "Hata 6: Integration Test planı olmadan canlıya çıkmak" },
+          { "type": "p", "text": "Yanlış: “Tek tek baktık çalışıyor.”" },
+          { "type": "p", "text": "Doğru: Senaryo bazlı test: yoğun check-in, iptal/no-show, OTA senkron, rapor doğrulama, hata senaryosu." },
+          { "type": "p", "text": "Pratik çözüm: Test senaryoları + kabul kriterleri (pass/fail)." },
+
+          { "type": "h3", "text": "Hata 7: OTA/Channel Manager’ı yeterince test etmemek" },
+          { "type": "p", "text": "Yanlış: Stok/fiyat tutarsızlığı → overbooking/gelir riski." },
+          { "type": "p", "text": "Doğru: Kanal yönetimi ve OTA entegrasyonu için ayrı test paketi + izleme." },
+          { "type": "p", "text": "Teknik not (kilitli): Kanal yönetimi ve OTA entegrasyon testleri, go-live riskini belirleyen en kritik kontrol noktalarındandır." },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İç linkler: /tr/pms-ota/ota-entegrasyonu",
+              "İç linkler: /tr/pms-ota/kanal-yonetimi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5-adim-onleme",
+        "title": "Bu Hataları Önlemek İçin Yol Haritası",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Risk–Etki analizi yapın: sezon takvimi + veri hacmi + entegrasyon sayısı",
+              "Veri & migration planını kilitleyin: mapping + temizlik + test import + doğrulama",
+              "Test planını senaryo bazlı kurun: entegrasyon + kanal/OTA + rapor doğrulama",
+              "Eğitimi rol bazlı yönetin: mini sınav + yetki + go-live shadowing",
+              "Go-live sonrası 30–90 gün destek ritmi kurun: ticket/backlog + haftalık kontrol + refresh"
+            ]
+          },
+          { "type": "media", "slot": "pms-risk-impact-matrix" }
+        ]
+      },
+      {
+        "id": "voice-short-anti-pattern",
+        "title": "PMS geçişinde neleri yapmamam lazım?",
+        "blocks": [
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Veriyi temizlemeden ve mapping yapmadan taşımayın.",
+              "Entegrasyon ve OTA/Channel Manager testlerini “göz kararı” geçmeyin.",
+              "Eğitimi go-live’a sıkıştırmayın; rol bazlı plan ve mini sınavla yetki verin.",
+              "Sezonda veya sezona çok yakın hazırlıksız go-live yapmayın; cutover planı yazılı olsun.",
+              "Go-live sonrası 30–90 gün destek ritmi olmadan projeyi “bitti” saymayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "geo-senaryo",
+        "title": "Antalya/Belek/Side/Bodrum’da “yanlış zamanda go-live”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Antalya / Belek / Side / Bodrum gibi sezonsallığı yüksek destinasyonlarda “yüksek sezonda sistem değişimi” riskin en pahalı halidir. Resepsiyon yoğunluğu, kanal hacmi ve ekip sirkülasyonu nedeniyle küçük hatalar bile büyür. Daha güvenli yaklaşım: sezon dışı/pilot dönem + kontrollü cutover + güçlü test ve eğitim."
+          }
+        ]
+      },
+     
+      {
+        "id": "download-asset",
+        "title": "PMS Kurulumunda Sık Yapılan Hatalar Checklist’ini İndir — PMS Implementation",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "PMS Kurulumunda Sık Yapılan Hatalar Checklist’ini İndir — PMS Implementation (v1.0)",
+            "purpose": "Bu doküman, PMS kurulumunda en sık yapılan 12 hatayı proje başlamadan “tek sayfada” kontrol etmenizi sağlar. Her hata için risk notu ve karşı aksiyon içerir; kickoff toplantılarında uyarı dokümanı olarak kullanılabilir. Sezon ortası go-live, migration ve entegrasyon testlerinde riskleri erken görmenize yardım eder.",
+            "whoFor": "GM/PM + ön büro + muhasebe + IT/entegrasyon + satış/rezervasyon (kickoff öncesi ortak kontrol için).",
+            "steps": [
+              "12 maddeyi “Var/Yok/Riskli” olarak işaretleyin ve kanıt notu ekleyin.",
+              "“Riskli” maddeler için karşı aksiyonları proje planına ekleyin.",
+              "Go-live’dan 2 hafta önce aynı checklist ile ikinci kontrol yapın."
+            ],
+            "template": {
+              "veriSurec": [
+                "(1) Migration planı var (mapping + temizlik + test import)",
+                "(2) Tarihçe sınırı belirlendi",
+                "(3) Duplicate/çöp veri temizliği yapıldı",
+                "(4) Kural sözlüğü (iptal/vergi/komisyon/fiyat) departmanlarca onaylandı"
+              ],
+              "egitimDegisim": [
+                "(5) Rol bazlı eğitim planı + senaryo paketi hazır",
+                "(6) Muhasebe/rezervasyon/gelir eğitimleri kapsamda",
+                "(7) Yetki planı sınav/sertifika ile bağlı"
+              ],
+              "entegrasyonTest": [
+                "(8) Senaryo bazlı Integration Test planı var",
+                "(9) OTA/CM test paketi ayrı çalışıldı",
+                "(10) Çift kayıt dönemi kuralı yazılı (kim nereye girer?)"
+              ],
+              "zamanlamaDestek": [
+                "(11) Sezon ortası go-live planlanmadı / risk yönetimi var",
+                "(12) Go-live sonrası 30–90 gün destek ritmi (ticket/backlog) var"
+              ],
+              "sprint14Gun": [
+                "Gün 1: Risk–etki matrisi + sezon takvimi analizi",
+                "Gün 2: Migration kapsamı + tarihçe sınırı",
+                "Gün 3: Mapping v1 + temizlik kuralları",
+                "Gün 4: Test import #1 + hata log’u",
+                "Gün 5: Integration test senaryoları yazımı",
+                "Gün 6: OTA/CM test paketi",
+                "Gün 7: Kural sözlüğü departman onayı",
+                "Gün 8: Rol bazlı eğitim takvimi",
+                "Gün 9: Role-play senaryoları + mini sınav",
+                "Gün 10: Çift kayıt dönemi kuralı + iletişim planı",
+                "Gün 11: Cutover runbook + rollback",
+                "Gün 12: Go-live destek planı (kim, ne zaman)",
+                "Gün 13: 30–90 gün kontrol ritmi + backlog",
+                "Gün 14: İkinci self-check (12 hata checklist’i)"
+              ],
+              "deliverables": [
+                "12 Hata Self-Check PDF/Sheets",
+                "Risk–Etki matrisi",
+                "Migration mapping + test checklist",
+                "OTA/CM test paketi",
+                "Cutover runbook + rollback",
+                "Eğitim planı + mini sınav",
+                "30–90 gün destek ritmi (backlog)"
+              ]
+            },
+            "href": "/tr/downloads/pms-kurulumunda-yaygin-yapilan-hatalar-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "PMS kurulumunda en sık yapılan hatalar nelerdir?",
+        "a": "En yaygın hatalar; veriyi temizlemeden taşımak, eğitimi son güne bırakmak, entegrasyon ve OTA/Channel Manager testlerini eksik yapmak ve sezon ortasında hazırlıksız go-live denemektir. Bu hatalar genelde rapor tutarsızlığı, resepsiyon karmaşası ve gelir riskine yol açar."
+      },
+      {
+        "q": "PMS geçişini yüksek sezonda yapmak doğru mu?",
+        "a": "Sezonsallığı yüksek destinasyonlarda yüksek sezonda go-live risklidir; küçük aksaklıklar hızla büyür. Daha güvenli yaklaşım; sezon dışı/pilot dönem, kontrollü cutover ve güçlü test–eğitim planıdır."
+      },
+      {
+        "q": "Data migration sırasında hangi hatalardan kaçınmalıyım?",
+        "a": "Mapping olmadan import, duplicate/çöp veriyi taşımak ve tarihçe sınırı koymamak en sık hatalardır. Test ortamında deneme importları ve doğrulama raporlarıyla ilerlemek gerekir."
+      },
+      {
+        "q": "Entegrasyon testlerini nasıl planlamalıyım?",
+        "a": "Senaryo bazlı plan yapın: yoğun check-in, iptal/no-show, OTA senkron, rapor doğrulama ve hata senaryosu. Kabul kriterleri (pass/fail) ve hata log’u olmadan test “tamam” sayılmamalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "yanlis-vs-dogru-pms-senaryo-01 — “Yanlış vs Doğru” PMS kurulum senaryosu ekran örnekleri (markasız/örnek arayüz)",
+          "checklist-12-hata-cozum-tablosu-02 — “12 hata & çözüm checklist tablosu” (self-check)",
+          "risk-etki-matrisi-03 — Risk–Etki matrisi görseli (yüksek/orta/düşük) + aksiyon eşlemesi"
+        ],
+        "ctaLock": [
+          "Primary CTA (sheet): PMS Kurulum Risk Analizi Talep Et",
+          "Secondary CTA (sheet): PMS Kurulumunda Sık Yapılan Hatalar Checklist’ini İndir",
+          "Intent: Informational + Transactional",
+          "Primary CTA: 2 kez (H1 giriş sonunda, son 1/3)",
+          "Secondary CTA: 1 kez"
+        ]
+      }
+    }
   }
   }
 

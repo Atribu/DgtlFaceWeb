@@ -12,20 +12,20 @@ export const BLOG_MEDIA_MAP = {
 
           "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-2.jpeg",
-      alt: "Rezervasyon Funnel’i (Tarih→Oda→Fiyat→Ödeme)",
-      caption: "Rezerasyon Funnel Ux ve Drop-off Noktaları"
+      alt: "",
+      caption: ""
     },
 
            "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-3.jpeg",
-      alt: "Otel ve Turizm Sitelerinde Kullanıcı Yolculuğu",
-      caption: "Otel Misafiri Dijital Yolculuğu"
+      alt: "",
+      caption: ""
     },
 
     "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-4.jpeg",
-      alt: "Ana Sayfa, Oda ve Teklif Sayfaları için UX İlkeleri",
-      caption: "Oda Sayfası Ux: Kötü vs İyi (Dönüşüm Odaklı)"
+      alt: "",
+      caption: ""
     },
 
      "": {
@@ -2355,7 +2355,102 @@ export const BLOG_MEDIA_MAP = {
       alt: "",
       caption: ""
     }
+  },
+
+   "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-1.jpeg",
+      alt: "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
+      caption: "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi"
+    },
+
+          "5-key-kpi-groups": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-2.jpeg",
+      alt: "4 dilli çağrı merkezi performansı için hangi KPI’lara bakmalısınız?",
+      caption: "5 Temel KPI Grubu"
+    },
+
+           "kpi-goals-table": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-3.jpeg",
+      alt: "4 dilli çağrı merkezinde takip edilmesi gereken ana KPI’lar",
+      caption: "Örnek Kpi Heddef Tablosu"
+    },
+
+    "lang-based-performance-analysis": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-4.jpeg",
+      alt: "Dil bazlı performans ve yoğunluk analizi",
+      caption: "Dil Bazlı Performans Analizi"
+    },
+
+     "qa-score-card": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-5.jpeg",
+      alt: "Kalite dinleme, skor kartı ve geri bildirim",
+      caption: "QA Kalite Skor Kartı"
+    },
+
+          "qa-coaching-cycle": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-6.jpeg",
+      alt: "Kalite dinleme, skor kartı ve geri bildirim",
+      caption: "QA & Koçluk Döngüsü"
+    },
+
+      "kpi-revenue": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-7.jpeg",
+      alt: "Bağlantı mantığı",
+      caption: "Kpi Gelir Dönüşüm Yolculuğu"
+    },
+
+          "dashboard-mockup": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-8.jpeg",
+      alt: "Yönetim için dashboard ve raporlama yapısı",
+      caption: "Yönetim için dashboard ve raporlama yapısı"
+    },
+
+          "kpi-checklist": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-9.jpeg",
+      alt: "4 dilli çağrı merkezi KPI checklist’i",
+      caption: "4 dilli çağrı merkezi KPI checklist’i"
+    },
+
+          "download": {
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-10.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+  "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-1.jpeg",
+      alt: "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
+      caption: "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri"
+    },
+
+          "data-migration": {
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-2.jpeg",
+      alt: "Sık Yapılan Hatalar: Nerede Yanlış Gidiyoruz?",
+      caption: "Yanlış vs Doğru: Pms Veri Aktarımı"
+    },
+
+           "12-critical errors-solution": {
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-3.jpeg",
+      alt: "PMS kurulumunda sık yapılan hatalar hangileridir?",
+      caption: "Pms Kurulumunda 12 Kritik Hata & Çözüm Listesi"
+    },
+
+    "pms-risk-impact-matrix": {
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-4.jpeg",
+      alt: "Bu Hataları Önlemek İçin Yol Haritası",
+      caption: "Pms Kurulum Risk-Etki Matrisi"
+    },
+
+     "download": {
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-5.jpeg",
+      alt: "",
+      caption: ""
+    }
   }
+
   
 };
 
