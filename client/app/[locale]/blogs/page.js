@@ -12,9 +12,9 @@ const GRADIENT =
 
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
-  { id: "sem", label: "SEM", href: "/Services/sem" },
-    { id: "seo", label: "SEO", href: "/Services/seo" },
-      { id: "smm", label: "SMM", href: "/Services/smm" },
+  { id: "sem", label: "SEM - Dijital Reklam Yöntimi", href: "/Services/sem" },
+    { id: "seo", label: "SEO - Arama Motoru Optimizasyonu", href: "/Services/seo" },
+      { id: "smm", label: "SMM - Sosyal Medya Pazarlaması", href: "/Services/smm" },
    { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
   { id: "creative", label: "Creative", href: "/Services/creative" },
     { id: "callcenter", label: "Çağrı Merkezi", href: "/Services/callcenter" },
@@ -35,52 +35,98 @@ function toTs(dateStr) {
 function BlogCard({ p, locale, t, GRADIENT }) {
   return (
     <Link
-     href={`/${locale}/${p.dept}/blog/${p.slug}`}
-      className="group w-[260px] sm:w-[280px] lg:w-[320px] flex-none rounded-3xl border border-white/10 bg-white/5  transition hover:bg-[#547CCF]/50 snap-start"
+      href={`/${locale}/${p.dept}/blog/${p.slug}`}
+      className="
+        group relative w-[260px] sm:w-[280px] lg:w-[320px] xl:w-[450px] 2xl:w-[500px] flex-none
+         border border-white/10 bg-white/5
+        transition hover:bg-[#547CCF]/30 snap-start overflow-hidden"
     >
-
-      {p.banner?.src && (
-        <div className="-mb-1 overflow-hidden rounded-2xl border border-white/10 bg-black/30">
+      {p.banner?.src ? (
+        <div className="relative overflow-hidden">
+          {/* Görsel */}
           <div className="relative aspect-[16/9] w-full">
             <Image
               src={p.banner.src}
               alt={p.banner.alt || p.title}
               fill
-              className="object-cover"
-              sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 320px"
+              sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 420px"
+              className="object-cover transition duration-300 ease-out group-hover:scale-[1.03]"
               priority={false}
             />
+
+            {/* Hafif genel degrade (her zaman, modern görünüm) */}
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/35 via-black/10 to-black/0" />
+
+{/* ✅ Hover’da Netflix gibi: üstte az, altta çok karartma */}
+<div
+  className="
+    pointer-events-none absolute inset-0
+    opacity-0 transition duration-300 ease-out
+    group-hover:opacity-100
+    bg-gradient-to-b
+    from-black/20 via-black/50 to-black/90
+  "
+/>
+
+            {/* ✅ Hover’da gelen başlık + yazı (aşağıdan kayar) */}
+            <div
+              className="
+                absolute inset-x-0 bottom-[54px]  /* alttaki bar’ın üstünden başlasın */
+                px-3 lg:px-4
+                translate-y-6 opacity-0
+                transition duration-300 ease-out
+                group-hover:translate-y-0 group-hover:opacity-100
+              "
+            >
+              {/* Yazıların arka planı (karartma + blur) */}
+              <div className="border border-white/10 bg-black/30 backdrop-blur-md p-3">
+
+                <h3 className="text-[14px] lg:text-[15px] font-semibold leading-[130%] text-white line-clamp-2">
+                  {p.title}
+                </h3>
+                <p className="mt-1 text-[12px] text-white/75 leading-[125%] line-clamp-2">
+                  {p.excerpt}
+                </p>
+              </div>
+            </div>
+
+            {/* ✅ Resmin en altında sabit bar: departman + buton */}
+            <div
+              className="
+                absolute inset-x-0 bottom-0
+                px-3 lg:px-4 pb-3 lg:pb-4
+              "
+            >
+              <div className="flex items-center justify-between gap-2">
+                {/* departman pill */}
+                <div className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/45 backdrop-blur-md px-3 py-1 text-[11px] text-white/85">
+                  <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
+                  <span className="capitalize">{p.dept.replace("-", " ")}</span>
+                </div>
+
+                {/* buton */}
+                <span
+                  className={`
+                    inline-flex items-center gap-2 
+                    px-2 py-1 text-xs md:text-sm
+                    font-medium text-white transition
+                    hover:opacity-95 active:scale-[0.99]
+                    border backdrop-blur-md 
+                  `}
+                >
+                  {t("readMore")}
+                  <span className="transition group-hover:translate-x-0.5">→</span>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-      )}
-
-     <div className="flex flex-col p-2 lg:p-3 items-center justify-center">
-
-      <div className="mb-2 flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
-        <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
-        <span className="capitalize">{p.dept.replace("-", " ")}</span>
-      </div>
-
-       <h3 className="text-[14px] lg:text-[16px] font-semibold tracking-tight leading-[130%] text-white line-clamp-2">
-        {p.title}
-      </h3>
-
-      <p className="mt-1 lg:mt-2 text-[12px] lg:text-[14px] text-white/70 line-clamp-2 leading-[125%]">
-        {p.excerpt}
-      </p>
-
-      <div className="mt-3 lg:mt-4">
-        <Link
-          href={`/${locale}/${p.dept}/blog/${p.slug}`}
-          className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-3 py-[6px] md:py-1 lg:py-1.5 text-xs md:text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99]  ${GRADIENT}`}
-        >
-          {t("readMore")} <span className="transition group-hover:translate-x-0.5 group-hover:text-[18px]">→</span>
-        </Link>
-      </div>
-     </div>
+      ) : null}
     </Link>
   );
 }
+
+
 
 function StickySearchBar({ t, query, setQuery, inputRef, GRADIENT, noResults }) {
   return (
@@ -198,7 +244,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
-        <div className="flex items-center justify-end">
+        {/* <div className="flex items-center justify-end">
           <div className="w-full max-w-[520px]">
             <div className="relative">
               <input
@@ -232,7 +278,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                 className="rounded-2xl border border-white/20 bg-white/5 px-4 4xl:px-5 py-1.5 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
               >
                 {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
-              </button>
+              </button> */}
 
             </div>
 
@@ -250,6 +296,44 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                   ].join(" ")}
                 />
               ))}
+            </div>
+            <div className="flex flex-row items-start justify-start gap-2 mt-8 lg:mt-16">
+               <div className="flex items-center justify-end">
+          <div className="w-full max-w-[720px]">
+            <div className="relative">
+              <input
+                ref={inputRef}
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t("searchPlaceholder")}
+                className="w-full lg:min-w-[300px] rounded-2xl border border-white/30 bg-black/50 px-4 4xl:px-5 py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
+                           focus:border-white/40 focus:bg-black/50"
+              />
+              {query.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setQuery("")}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-4 4xl:px-5 py-2 4xl:py-3 text-xs text-white/80 transition hover:text-white"
+                >
+                  {t("clear")}
+                </button>
+              )}
+            </div>
+            {noResults && (
+  <p className="mt-2 text-xs text-white/70">
+    “{query}” için sonuç bulunamadı. Yazımı kontrol edin ya da daha genel arayın.
+  </p>
+)}
+          </div>
+        </div>
+              <button
+                type="button"
+                onClick={() => inputRef.current?.focus()}
+                className="rounded-2xl border border-white/20 bg-white/5 px-4 4xl:px-5 py-1.5 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
+              >
+                {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
+              </button>
+
             </div>
           </div>
         </div>
@@ -335,7 +419,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT }) {
         {/* Türkçe yorum: Netflix gibi yatay rail */}
         <div
           ref={railRef}
-          className="flex gap-4 overflow-x-auto pb-2 pr-2 snap-x snap-mandatory scroll-smooth
+          className="flex gap-1 lg:gap-2 overflow-x-auto pb-2 pr-2 snap-x snap-mandatory scroll-smooth
                      [scrollbar-width:thin] [scrollbar-color:rgba(255,255,255,0.25)_transparent]"
         >
           {posts.map((p) => (
@@ -518,59 +602,6 @@ const heroPosts = useMemo(() => {
 
   return (
     <main className="min-h-screen bg-[#150016] text-white">
-      {/* Banner */}
-      {/* <section className="relative h-[40vh] lg:h-[45vh] overflow-hidden">
-        <div className="absolute inset-0 opacity-30 blur-3xl">
-          <div
-            className={`absolute -top-28 left-1/2 h-[420px] w-[80%] -translate-x-1/2 rounded-full ${GRADIENT}`}
-          />
-        </div>
-
-        <div className="absolute inset-0 bg-black/60" />
-
-        <div className="relative mx-auto flex h-full w-full  xl:w-[96%] max-w-[1900px] flex-col justify-center items-center px-4 mt-[3%]">
-          <div className="max-w-2xl">
-            <h1 className="text-2xl font-semibold tracking-tight md:text-3xl lg:text-5xl">
-              {t("title")}
-            </h1>
-
-            <p className="mt-4 text-sm md:text-base text-white/80 lg:text-lg">
-              {t("subtitle")}
-            </p>
-
-            <div className="mt-4 md:mt-6 lg:mt-8 flex flex-col gap-3 sm:flex-row items-center justify-center">
-              <div className="relative w-full">
-                <input
-                ref={inputRef}
-                  value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  placeholder={t("searchPlaceholder")}
-                  className="w-full rounded-2xl border border-white/50 bg-white/15 px-4 py-2 lg:py-3 text-sm text-white outline-none transition
-                             focus:border-white/20 focus:bg-white/10"
-                />
-
-                {query.length > 0 && (
-                  <button
-                    type="button"
-                    onClick={() => setQuery("")}
-                    className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-3 py-2 text-xs text-white/80 transition hover:text-white"
-                  >
-                    {t("clear")}
-                  </button>
-                )}
-              </div>
-
-              <button
-                type="button" onClick={()=> inputRef.current?.focus()}
-                className={`rounded-2xl px-5 py-2 max-w-[120px] lg:py-3 text-sm font-medium text-white transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
-              >
-                {t("searchButton")}
-              </button>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <HeroSlider
   posts={heroPosts}
   locale={locale}
@@ -592,7 +623,7 @@ const heroPosts = useMemo(() => {
 /> */}
 
 {/* Results (Netflix rails) */}
-<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:py-4">
+<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:pt-4 lg:pb-16">
   <div className="mb-1 flex items-end justify-between gap-4">
     <p className="text-sm text-white/60">
       {t("results", { count: visibleCount })}

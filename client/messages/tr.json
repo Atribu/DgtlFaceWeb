@@ -40948,10 +40948,10 @@
         "blocks": [
           {
             "type": "p",
-            "text": "Vaka Kutusu (SXO – örnek senaryo):\n5 otelli bir zincir düşünün: 3 otel Antalya’da, 2 otel Bodrum’da. Group Executive panelde grup toplam doluluk ve RevPAR görünür; aynı ekranda oteller arası sapmalar listelenir. Bir otelde RevPAR düşüyorsa, otel drill-down sayfasında kanal mix ve pazar kırılımıyla “neden” netleşir; kampanya/bütçe kararı daha hızlı alınır."
+            "text": "Vaka Kutusu \n5 otelli bir zincir düşünün: 3 otel Antalya’da, 2 otel Bodrum’da. Group Executive panelde grup toplam doluluk ve RevPAR görünür; aynı ekranda oteller arası sapmalar listelenir. Bir otelde RevPAR düşüyorsa, otel drill-down sayfasında kanal mix ve pazar kırılımıyla “neden” netleşir; kampanya/bütçe kararı daha hızlı alınır."
           },
           { "type": "media", "slot": "hotel-based-revpar" },
-          { "type": "h3", "text": "Ne yapmalıyım? (SXO final aksiyon listesi)" },
+          { "type": "h3", "text": "Ne yapmalıyım? " },
           {
             "type": "list",
             "style": "ul",
@@ -42273,7 +42273,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "“View Source” ve “Inspect URL” ile Google’ın ilk HTML’de ne gördüğünü kontrol et.",
               "Ana içerik + ana linkler ilk HTML’de değilse SSR/SSG yönüne kay.",
@@ -42310,7 +42310,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Para sayfaları (oda/destinasyon/hizmet/kampanya) SSR/SSG olsun.",
               "CSR’ı sadece interaktif bileşenlere indir (filtre UI, modal vb.).",
@@ -42349,7 +42349,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Ana içerik SSR/SSG ile gelsin; lazy only “non-critical”.",
               "Infinite scroll varsa mutlaka paginated URL’ler olsun.",
@@ -42390,7 +42390,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Meta’ları route bazında dinamik ve sunucu tarafı üret.",
               "JSON-LD’yi sayfada tek kaynak gerçek olarak standardize et.",
@@ -42421,7 +42421,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Parametre URL’leri için index stratejisini yaz (hangisi index, hangisi noindex).",
               "Canonical’ı “temiz” kanonik URL’e bağla.",
@@ -42474,7 +42474,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Önce “para sayfaları”nda HTML görünürlüğünü düzelt.",
               "Parametre/filtre stratejisini kilitle, canonical/noindex standardı kur.",
@@ -45558,7 +45558,2273 @@
         ]
       }
     }
+  },
+
+   "BlogOtellerIcinYouTubeReklamTurleri": {
+    "title": "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?",
+    "slug": "oteller-icin-youtube-reklam-turleri",
+    "department": "sem",
+    "updatedAt": "17 Ocak 2026",
+    "publishedAt": "2026-01-17",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteller için YouTube reklam türlerini (skippable, bumper, discovery) funnel’a göre seçin; bütçeyi verimli kullanın, doğru mesajı doğru kitleye taşıyın. Analiz isteyin.",
+    "seo": {
+      "metaTitle": "Oteller İçin YouTube Reklam Türleri (Antalya) | DGTLFACE",
+      "metaDescription": "Oteller için YouTube reklam türlerini (skippable, bumper, discovery) funnel’a göre seçin; bütçeyi verimli kullanın, doğru mesajı doğru kitleye taşıyın. Analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog No + Blog URL: Blog #1 — https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-reklam-turleri",
+        "Blog Tipi (Core/Trend): Core",
+        "Intent: Informational + Strategic",
+        "Refresh Cycle (90/180/365): 365 (yıllık güncelleme önerisi)",
+        "Varsayım: Breadcrumb silo URL’si https://dgtlface.com/tr/sem/ olarak ele alındı.",
+        "(V2.3 Kilidi) Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
+        "Varsayım: V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.",
+        "Canonical: /tr/sem/blog/oteller-icin-youtube-reklam-turleri"
+      ],
+      "strategySummary": "Bu yazı SEM silo’sunda YouTube tarafı için “format rehberi” rolündedir ve hedefleme, kreatif üretim, bütçe dağılımı ve ölçüm yazılarına temel karar çerçevesi sağlar. Hedef persona; otel sahibi/GM, satış-pazarlama müdürü ve ajans yöneticisidir: doğru formatı doğru hedefle eşleştirip bütçeyi verimli kullanmak ister. Funnel’da ağırlık consideration (MoFu) olsa da, format seçimi conversion katmanında CPA’yı da doğrudan etkiler. Bu içerik, “hangi format ne zaman?” kararını netleştirerek kampanya planlamasını standardize eder; böylece ajans–otel iletişiminde brief, kreatif üretim ve raporlama aynı çerçevede ilerler."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Oteller için YouTube reklamlarında skippable (TrueView), non-skippable, bumper ve discovery/in-feed gibi formatlar bulunur. Her formatın mesaj süresi, izlenme zorunluluğu ve maliyet mantığı farklıdır. Bilinirlikte net tek mesaj için bumper/non-skippable; değerlendirmede hikâye ve değer önerisi için skippable; keşif ve ilgi bazlı yayılım için discovery daha etkilidir. Doğru formatı doğru KPI ve landing ile eşleştirmek, bütçeyi boşa yakmayı engeller.",
+      "sgeSummary": "Bilinirlikte bumper/non-skippable, değerlendirmede skippable, keşifte discovery kullanın. Formatı funnel ve KPI ile eşleştirip kreatifi otel konseptine göre varyantlayın.",
+      "voiceAnswer": "Otel için bilinirlikte bumper, dönüşümde skippable; keşif trafiğinde discovery formatı daha uygundur.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış-pazarlama, ajans yöneticisi",
+        "KPI: Reach/Ad Recall → View Rate/CPV → Lead/rezervasyon/CPA",
+        "Entity: TrueView (skippable), non-skippable, bumper, discovery/in-feed, hotel branding",
+        "Funnel: Upper / Mid / Low + Discovery katmanı",
+        "GEO: Antalya–Belek–Kemer örnek senaryolarıyla bağlam",
+        "Karar anahtarı: Mesaj uzunluğu × hedef × kreatif kapasite × ölçüm altyapısı"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?",
+      "intro": "YouTube, otellerde “ilham”ı tetikleyen en güçlü kanallardan biridir: misafir, arama yapmadan önce destinasyonu ve konsepti videoyla zihninde canlandırır. Sektörde sık görülen içgörü şu: çoğu tesiste YouTube, marka görünürlüğü açısından ilk 3 kanal içinde anılır; bu nedenle formatı hedefe göre seçmeden bütçe büyütmek genelde verimsizleşir. Bu rehber; TrueView/skippable, non-skippable, bumper ve discovery/in-feed formatlarını otel funnel’ına bağlayıp pratik bir seçim sistemi verir.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "YouTube Reklam Format Analizi Talep Et",
+        "text": "(Bütçesini formatlara doğru dağıtmak isteyen otel GM’i ve satış-pazarlama ekipleri için)",
+        "href": "/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube Reklam Format Analizi Talep Et",
+        "text": "(Bütçesini formatlara doğru dağıtmak isteyen otel GM’i ve satış-pazarlama ekipleri için)",
+        "href": "/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Format–Hedef Eşleştirme Tablosunu İndir",
+        "text": "Funnel hedefinize göre doğru YouTube formatını 2 dakikada seçip planlayın.",
+        "href": "/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      { "label": "YouTube Reklam Yönetimi", "href": "/sem/youtube-reklam-yonetimi" },
+      { "label": "Video Prodüksiyon", "href": "/creative/video-produksiyon" },
+      { "label": "Otel Reklam Yönetimi", "href": "/otel/reklam-yonetimi" },
+      { "label": "SEM", "href": "/sem" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      {
+        "id": "youtube-reklam-turleri-nelerdir",
+        "title": "YouTube reklam türleri nelerdir? ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube reklam türleri; izleyicinin reklamı atlayabildiği (skippable/TrueView), atlayamadığı (non-skippable), 6 saniyelik kısa hatırlatma (bumper) ve arama/keşif alanlarında görünen (discovery/in-feed) formatlar olarak özetlenir. Temel fark; mesaj süresi, izlenme zorunluluğu, tıklama davranışı ve KPI yaklaşımıdır. Otel branding’de “destinasyon + konsept” aynı karede anlaşılmalı; aksi halde formatın avantajı kaybolur."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Skippable (TrueView): 5. saniyeden sonra atlanabilir; hikâye + CTA taşır.",
+              "Non-skippable: 15–20 sn zorunlu; tek mesaj/tek vaat ister.",
+              "Bumper: 6 sn; hatırlatma ve frekans yönetimi için.",
+              "Discovery / In-Feed: seçilerek izlenir; keşif ve ilgi bazlı yayılım için."
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hedefim bilinirlik mi, talep mi, dönüşüm mü?",
+              "6s/15s/30s gibi video varyantlarım var mı?",
+              "Landing + ölçüm (GA4/Ads) hazır mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hedefi tek cümleye indir.",
+              "Video envanterini (6s/15s/30s) çıkar.",
+              "KPI’yı formatla eşleştir (CPM/CPV/CPA)."
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "skippable-vs-non-skippable",
+        "title": "Skippable vs Non-Skippable: Ne zaman hangisi?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Skippable format otellerde “hikâye” taşımak için idealdir: resort otelde deneyim (aile-aquapark), city hotel’de lokasyon-iş konforu, butik otelde atmosfer-hikâye. Kritik nokta: ilk 5 saniyede değer önerisini vermezsen izleyici reklamı atlar. Non-skippable ise “tek mesaj, tek vaat” ile güçlüdür: sezon açılışı, erken rezervasyon duyurusu veya tek konsept (ör. Belek’te golf) gibi net anlatımlarda çalışır; ama dağınık mesaj marka algısını yıpratabilir."
+          },
+          { "type": "h3", "text": "Mini örnekler:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya resort (skippable): “Aile konsepti + aquapark” 20–30 sn tur.",
+              "Belek golf (non-skippable): 15 sn “Golf sezonu + premium paket” tek vaat.",
+              "Kemer doğa/aktivite (skippable): deneyim odaklı kısa hikâye + “fiyatları gör”."
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İlk 5 saniyede destinasyon/konsept net mi?",
+              "Tek teklifim var mı (tarih, paket, avantaj)?",
+              "Frekans ve hedeflemeyi kontrol edecek planım var mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Skippable için 5 saniyelik “hook” yaz.",
+              "Non-skippable için tek mesaj kuralını uygula (1 vaat + 1 kanıt + 1 çağrı).",
+              "KPI’ları ayrı raporla; aynı hedefte iki formatı karıştırma."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "bumper-ads",
+        "title": "Bumper Ads: 6 saniyede hatırlatma nasıl yapılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bumper reklam “öğretmez, hatırlatır”. Otellerde en iyi kullanım; bir skippable kampanyanın ardından aynı mesajı kısa bir cümleyle tekrar etmek ve frekansı yönetmektir. Bumper’ı tek başına kullanırsan, izleyiciye “neden umursamalıyım?” cevabını vermek zorlaşır; bu yüzden bumper’ı genelde bilinirlik katmanında tamamlayıcı düşün."
+          },
+          { "type": "h3", "text": "Bumper’da işe yarayan 3 şablon:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept + tek vaat: “Aile Dostu • Aquapark • Her Şey Dahil”",
+              "Tarih baskısı: “Nisan’a Kadar Erken Rezervasyon”",
+              "Lokasyon çıpası: “Belek’te Golf Sezonu Başladı”"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mesaj 6 saniyede okunuyor mu (mobil test)?",
+              "Tek vaat + tek CTA var mı?",
+              "3 bumper varyantı hazırladım mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Bumper’ı “hatırlatma katmanı” olarak konumla.",
+              "3 varyant test et (lokasyon/konsept/teklif).",
+              "Frekans ve kreatif yorgunluğunu haftalık izle."
+            ]
+          },
+          { "type": "media", "slot": "divider-02" }
+        ]
+      },
+      {
+        "id": "discovery-infeed",
+        "title": "Discovery & In-Feed: Keşif trafiğini otele nasıl çevirirsin?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Discovery/in-feed formatı, izleyicinin videoyu “seçerek” izlediği alandır; bu yüzden otellerde ilham ve araştırma aşamasında değerlidir. Ama tipik hata; landing ve ölçüm hazırlamadan trafik çekmektir. SXO burada belirleyici: video vaadi, sayfa içeriği ve CTA aynı çizgide değilse kullanıcı kaybolur."
+          },
+          { "type": "h3", "text": "Otel için discovery kısa kullanım kuralı:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“İlham içeriği” üret: oda turu, deneyim, destinasyon.",
+              "Başlık/thumbnail arama niyetiyle uyumlu olsun.",
+              "İzleyenleri remarketing havuzuna taşı; dönüşüm için skippable’a geçir."
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Thumbnail “otel + konsept”i 1 saniyede anlatıyor mu?",
+              "Landing aynı vaadi sürdürüyor mu?",
+              "İzleyenleri remarketing listesine alıyor muyum?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Discovery’yi keşif ve havuz büyütme olarak kurgula.",
+              "Landing’i hız ve net teklif için optimize et.",
+              "Kreatif süreç için /tr/creative/video-produksiyon ile brief’i standardize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hangi-format-ne-zaman",
+        "title": "Hangi format ne zaman kullanılmalı? (AEO + Karar Çerçevesi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: Upper funnel’da bumper/non-skippable ile net mesaj + erişim; mid funnel’da skippable ile hikâye + değerlendirme; low funnel’da skippable remarketing ile teklif + aksiyon; discovery ile sürekli keşif havuzu büyütme en dengeli yaklaşımdır. Formatı yanlış aşamada kullanırsan ya gereksiz pahalı izlenme alırsın ya da dönüşümü erken zorlayıp kitleyi kaçırırsın."
+          },
+          {
+            "type": "table",
+            "caption": "Otel YouTube reklam formatı × funnel × KPI karşılaştırması (1 adet tablo)",
+            "headers": [],
+            "rows": []
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Her katman için ayrı KPI seti tanımladım mı?",
+              "Kreatifi katmana göre uyarladım mı?",
+              "Remarketing akışım net mi?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kampanyayı 3 katmanlı kur (Upper→Mid→Low) + Discovery.",
+              "Her katmanda tek ana formatla başla; sonra genişlet.",
+              "Aynı otel için 2 persona senaryosu seç (aile/çift veya iş/kaçamak)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Format–Hedef Eşleştirme Tablosunu İndir",
+            "text": "Funnel hedefinize göre doğru YouTube formatını 2 dakikada seçip planlayın.",
+            "href": "/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "olcum-teknik-kalite",
+        "title": "Ölçüm + teknik kalite: CPV/CPM/CPA’yı doğru okuyun",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube’da en yaygın hata; awareness kampanyasını CPA ile, conversion kampanyasını yalnız CPV ile okumaktır. Otel tarafında doğru yaklaşım; katman başına KPI seti ve “köprü metrikler” (ör. oda sayfası görüntüleme, fiyat görüntüleme, iletişim tıklaması) ile raporlamaktır. Kreatif kalitesi de (çözünürlük, aspect ratio, ses/altyazı) marka algısını doğrudan etkiler; düşük kalite video, en iyi planı bile zayıflatır."
+          },
+          { "type": "h3", "text": "Pratik teknik not:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "16:9 (1920×1080) ana video + mümkünse 9:16 kısa varyant üret.",
+              "Ses net, altyazı açık; ilk 2–3 saniyede otel/destinasyon görünür olsun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-bosluk-matris",
+        "title": "Rakip içeriklerdeki boşluk: otel senaryosu + destinasyon/konsept matrisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler genelde format tanımında kalır; otel tarafında ise karar, “format”tan çok “senaryo” üzerinden verilir. Bu yüzden burada iki pratik kuralı netleştiriyoruz: (1) destinasyon (Antalya/Belek/Kemer gibi) ve konsept (aile, golf, balayı, city break) tek karede anlaşılmalı; (2) her senaryo için tek hedef ve tek KPI seti seçilmelidir. Bu yaklaşım, “hotel youtube ad formats” arayanların beklediği pratik eşleştirmeyi sağlar ve “bumper ads otel kullanımı” gibi spesifik kullanım senaryolarını netleştirir."
+          },
+          { "type": "h3", "text": "Mini örnek (matris mantığı):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya aile: Skippable (hikâye) → Bumper (hatırlatma) → Skippable remarketing (teklif)",
+              "Belek golf: Non-skippable (tek mesaj) → Discovery (ilgi bazlı) → Skippable (fiyat/teklif)",
+              "Kemer aktivite: Discovery (keşif) → Skippable (deneyim) → Skippable remarketing (tarih/avantaj)"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 + Ads dönüşüm event’leri doğru mu?",
+              "Landing hızı ve mesaj uyumu kontrol edildi mi?",
+              "6s/15s/30s varyantları ve altyazı hazır mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Katman KPI’larını ayrı raporla; haftalık optimizasyon ritmi kur.",
+              "Dönüşüm düşerse önce landing/akışa bak; sonra bütçe artır.",
+              "Destinasyon × konsept × format matrisiyle (Antalya/Belek/Kemer) 3 senaryo test et."
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Format seçimi bir “medya kararı” değil, bir “funnel kararıdır”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bumper/non-skippable ile net mesaj ve frekans kurar, skippable ile hikâyeyi ve teklifi taşır, discovery ile keşif havuzunu büyütürsün. Başarı; formatı doğru aşamada, doğru kreatifle ve doğru KPI ile çalıştırmaktan gelir. Ölçüm ve landing altyapısı zayıfsa bütçe yanar; bu nedenle kreatif + ölçüm + sayfa üçlüsünü birlikte ele almak gerekir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube Reklam Format Analizi Talep Et",
+            "text": "(YouTube bütçesini performansa bağlamak isteyen otel yöneticileri ve ajans ekipleri için)",
+            "href": "/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "Format–Hedef Eşleştirme Tablosunu İndir",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "table/template",
+            "version": "v1.0",
+            "title": "Format–Hedef Eşleştirme Tablosunu İndir — SEM / YouTube Reklam Türleri (v1.0)",
+            "purpose": "YouTube kampanyasında hedef, funnel, format ve KPI’ları tek sayfada hizalar. Ajans–otel brief’ini hızlandırır ve raporlama karmaşasını azaltır.",
+            "whoFor": "Satış-pazarlama ekibi, dijital pazarlama uzmanı, ajans media planner.",
+            "steps": [
+              "Hedef + funnel seç.",
+              "Format + KPI setini doldur.",
+              "14 günlük testle 2 kreatif varyantı karşılaştır."
+            ],
+            "checklist": [
+              "Hedef net",
+              "Format uygun",
+              "KPI seti doğru",
+              "Landing hazır",
+              "Test planı var"
+            ],
+            "href": "/downloads/format-hedef-eslestirme-tablosu-youtube-v1.0",
+            "buttonLabel": "Tabloyu İndir"
+          },
+      
+          { "type": "media", "slot": "checklist-06" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube reklam türleri nelerdir?",
+        "a": "Skippable (TrueView), non-skippable, bumper ve discovery/in-feed en yaygın formatlardır. Farkları; mesaj süresi, zorunlu izlenme ve KPI yaklaşımıdır."
+      },
+      {
+        "q": "Oteller için hangi YouTube reklam formatı daha etkili?",
+        "a": "Hedefe göre değişir. Bilinirlikte bumper/non-skippable, değerlendirmede skippable, keşifte discovery daha iyi çalışır; dönüşümde skippable + remarketing + iyi landing gerekir."
+      },
+      {
+        "q": "Bumper reklam ile tanıtım filmi arasındaki fark ne?",
+        "a": "Bumper 6 saniyelik hatırlatma formatıdır; tanıtım filmi ise skippable gibi formatlarda hikâye ve konsept anlatımı taşır."
+      },
+      {
+        "q": "YouTube’da marka bilinirliği için hangi format kullanılmalı?",
+        "a": "Bumper ve non-skippable formatlar bilinirlikte güçlüdür. Kısa, net mesaj ve frekans yönetimiyle çalışır."
+      },
+      {
+        "q": "Skippable reklamda ilk 5 saniye neden önemli?",
+        "a": "Çünkü 5. saniyeden sonra izleyici reklamı atlayabilir. İlk 5 saniye değer önerisini net vermezse view rate düşer."
+      },
+      {
+        "q": "Discovery reklam oteller için ne zaman mantıklıdır?",
+        "a": "İlham ve araştırma aşamasında mantıklıdır; izleyici videoyu seçerek izler. Başlık/thumbnail ve landing uyumu olmazsa trafik boşa gidebilir."
+      },
+      {
+        "q": "YouTube reklamlarında hangi KPI’lara bakmalıyım?",
+        "a": "Upper’da reach/frekans; mid’de view rate/CPV; low’da CPA ve dönüşüm event’leri önemlidir. Katman KPI’larını karıştırmak yanlış optimizasyon üretir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 16:9 (1920×1080) — oteller-icin-youtube-reklam-turleri-hero-01.webp — Oteller için YouTube reklam format seçimini özetleyen stratejik hero görseli",
+          "h1-context — 16:9 (1920×1080) — oteller-icin-youtube-reklam-turleri-h1-context-02.webp — YouTube hedefi ve otel funnel eşlemesini hızlı anlatan bağlam görseli",
+          "divider-01 — 4:3 (1600×1200) — oteller-icin-youtube-reklam-turleri-divider-03.webp — Skippable ve non-skippable karşılaştırmasına geçiş için otel temalı ayırıcı görseli",
+          "divider-02 — 4:3 (1600×1200) — oteller-icin-youtube-reklam-turleri-divider-04.webp — Discovery ve karar bölümüne geçiş için otel temalı ayırıcı görseli",
+          "diagram-05 — 16:9 (1920×1080) — oteller-icin-youtube-reklam-turleri-diagram-05.webp — Funnel aşamasına göre YouTube format seçimini gösteren otel karar diyagramı",
+          "checklist-06 — 1:1 (1200×1200) — oteller-icin-youtube-reklam-turleri-checklist-06.webp — Otel YouTube reklam format seçimi için mini checklist kartı görseli",
+          "kpi-07 — 1:1 (1200×1200) — oteller-icin-youtube-reklam-turleri-kpi-07.webp — YouTube kampanyasında 5 KPI ile performansı özetleyen otel skor kartı",
+          "proof-08 — 1:1 (1200×1200) — oteller-icin-youtube-reklam-turleri-proof-08.webp — Otel YouTube reklam planı deliverables ve güven unsurlarını gösteren kart"
+        ],
+        "technicalChecklist": [
+          "Tablo (1 adet): KPI seti / format karşılaştırma tablosu: “Otel YouTube reklam formatı × funnel × KPI” (BÖLÜM 4 içinde)",
+          "CTA Modülü (V2.3): Primary CTA 2 kez (H1 giriş sonu + son 1/3), Secondary CTA 1 kez (orta bölüm)",
+          "Secondary CTA Asset (v1.0): Format–Hedef eşleştirme tablosu şablonu + kontrol listesi + deliverables"
+        ]
+      }
+    }
+  },
+
+    "BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin": {
+    "title": "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
+    "slug": "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin",
+    "department": "seo",
+  "updatedAt": "17 Ocak 2026",
+    "publishedAt": "2026-01-17",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google Haritalar sıralama faktörlerini (Local Pack, GBP, yorumlar, NAP) otel örnekleriyle öğrenin; hızlı aksiyon planı ve checklist ile görünürlüğünüzü artırın.",
+    "seo": {
+      "metaTitle": "Google Haritalar Sıralama Faktörleri: Oteller | DGTLFACE",
+      "metaDescription": "Google Haritalar sıralama faktörlerini (Local Pack, GBP, yorumlar, NAP) otel örnekleriyle öğrenin; hızlı aksiyon planı ve checklist ile görünürlüğünüzü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa Adı / URL: Yerel SEO (Local SEO) — https://dgtlface.com/tr/seo/yerel-seo",
+        "Blog No / URL: Blog #1 — https://dgtlface.com/tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert | Word Count: 3000–3500",
+        "SERP hedefi: Featured Snippet + PAA",
+        "Ana iş sorusu: “Otelim/işletmem Google Haritalar’da nasıl daha üstte çıkar ve bunu sürdürülebilir şekilde nasıl yönetirim?”",
+        "Refresh Cycle: 365 gün (arayüz/Local Pack davranışı değiştikçe ekran örnekleri ve yönergeler güncellenir).",
+        "Canonical: /tr/seo/blog/google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin"
+      ],
+      "strategySummary": "Bu içerik, Yerel SEO hizmet sayfasının otorite taşıyan “child” yazısı olarak Local Pack/Haritalar görünürlüğü konusunda temel çerçeveyi kurar ve ardından uygulanabilir aksiyon planına bağlar. Hedef persona; otel sahibi/GM, satış–pazarlama yöneticisi ve ajans yöneticisidir; “neden görünmüyoruz?” sorusunu ölçülebilir sinyallere indirger. Funnel tarafında ağırlıkla consideration (MoFu): kullanıcı, Google Business Profile + yorumlar + NAP + site üçgeninde hangi adımın en büyük etkiyi vereceğini anlamak ister. SERP hedefi Featured Snippet + PAA olduğu için içerik, soru formatlı başlıklar ve kısa cevap bloklarıyla “cevap odaklı” kurgulanır. Ana iş sorusu: “Otelim/işletmem Google Haritalar’da nasıl daha üstte çıkar ve bunu sürdürülebilir şekilde nasıl yönetirim?”\nRefresh Cycle: 365 gün (arayüz/Local Pack davranışı değiştikçe ekran örnekleri ve yönergeler güncellenir)."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Google Haritalar’da üst sıralara çıkmak; yakınlık (distance), ilişkililik (relevance) ve otorite (prominence) dengesini doğru kurmakla ilgilidir. Oteller için en kritik alanlar; doğru Google Business Profile kategorileri ve içerikleri, düzenli yorum alma/yanıtlama, tüm kanallarda NAP tutarlılığı ve hızlı–mobil uyumlu bir web sitesidir. Bu sinyalleri birlikte yönettiğinizde Local Pack’te daha görünür olur, harita trafiğini rezervasyona daha kolay taşırsınız.",
+      "sgeSummary": "Local Pack’te yükselmek için: GBP’yi doğru kategori ve içerikle optimize edin, yorum kalitesini yönetin, NAP’ı tüm dizinlerde tutarlı hale getirin, web sitenizi hızlı ve mobil uyumlu tutun.",
+      "voiceAnswer": "GBP’yi doğru doldurun, düzenli yorum alın–yanıtlayın, NAP’ı tutarlı tutun ve sitenizi hızlandırın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/yerel işletme sahipleri, GM’ler, satış–pazarlama ekipleri, ajanslar",
+        "KPI’lar: Harita görüntülenmesi, rota isteği, arama–tıklama, arama–arama (call), web tıklaması, rezervasyon lead’i",
+        "Çekirdek entity’ler: Google Maps, Local Pack, Google Business Profile, Reviews, NAP Consistency",
+        "Funnel: Consideration → Conversion",
+        "Geo: Antalya / Belek / Side / Kemer / Bodrum örnekleri (doğal kullanım)",
+        "Ana çerçeve: Distance + Relevance + Prominence + “GBP–NAP–Site üçgeni”",
+        "SERP hedefi: Featured Snippet + PAA + Voice kısa cevap"
+      ]
+    },
+    "h1": {
+      "title": "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
+      "intro": "Google Haritalar (Google Maps) ve Local Pack, özellikle mobil odaklı kullanıcı davranışında “ilk temas noktası” haline geldi. Oteller için bu alan; yalnızca rota veya telefon araması değil, aynı zamanda rezervasyon niyetinin en hızlı toplandığı kanallardan biridir. Bu rehberde, “neden üstte değiliz?” sorusunu soyut öneriler yerine ölçülebilir sinyallere ayıracağız: yakınlık–ilişkililik–otorite, Google Business Profile (GBP), yorumlar, NAP ve web sitesi etkisi.",
+      "quickSummary": [
+        "Birçok çalışmada/analizde, kullanıcıların otel aramalarında ilk harita sonuçlarına yoğunlaştığı ve ikinci sayfaya çok nadir indiği gözlemleniyor; bu yüzden hedef, “sırf trafik” değil ilk 3–5 görünür alanda kalıcı yer edinmek olmalı.",
+        "Aşağıdaki yapı, hem SERP/SGE hem de Voice için cevap odaklı; aynı zamanda ekiplerin uygulayabileceği “ilk 30 gün” planını içerir."
+      ],
+      "ctaPrimary": {
+        "label": "Google Haritalar & Local Pack Analizi Talep Et",
+        "text": "Harita görünürlüğünü artırmak isteyen oteller ve yerel işletmeler için, sinyal bazlı net aksiyon planı çıkarın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Google Haritalar & Local Pack Analizi Talep Et",
+        "text": "Harita görünürlüğünü artırmak isteyen oteller ve yerel işletmeler için, sinyal bazlı net aksiyon planı çıkarın.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
+        "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "internalLinks": [
+      { "label": "Yerel SEO (Local SEO)", "href": "/seo/yerel-seo" },
+      { "label": "Otel SEO", "href": "/otel/seo" }
+    ],
+    "relatedPosts": [],
+    "sections": [
+      
+      {
+        "id": "maps-local-pack-nasil-calisir",
+        "title": "Google Haritalar ve Local Pack nasıl çalışır? (Mantık + SERP davranışı)",
+        "blocks": [
+          { "type": "media", "slot": "divider-03" },
+          {
+            "type": "p",
+            "text": "Google Haritalar sonuçlarını üç katmanda düşünmek pratik olur:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Local Pack (3-pack): Arama sayfasında görünen 3’lü harita sonuçları (en kritik alan).",
+              "Local Finder: “Daha fazla yer” ekranı; sıralama daha geniş ama yine rekabetçi.",
+              "Maps içi sonuçlar: Filtreler, kategori seçimleri ve kullanıcı geçmişi etkisi artar."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otel aramalarında (ör. “Belek resort”, “Side aile oteli”, “Bodrum butik otel”), kullanıcılar çoğunlukla harita kartı → yorumlar → fotoğraflar → web/arama akışını izler. Bu yüzden harita tarafındaki sinyaller yalnızca görünürlük değil, tıklama ve dönüşüm oranı üzerinde de doğrudan etkilidir."
+          },
+          { "type": "h3", "text": "Local Pack’te görünmek neden zor?" },
+          {
+            "type": "p",
+            "text": "Çünkü Google, harita sonuçlarını “en iyi işletme” mantığıyla değil, çoğu zaman kullanıcının bağlamına en uygun işletmeyi göstermek üzere kurgular. Bu bağlam; konum (yakınlık), arama niyeti (ilişkililik) ve güven/ün (otorite) ile şekillenir."
+          },
+          { "type": "h3", "text": "☑ Mini Check (Local Pack Temel Kontrolü)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hangi sorgularda (otel + bölge + konsept) Local Pack çıkıyor, takip ediyor musunuz?",
+              "Harita kartınızda “web tıklaması / rota / arama” aksiyonları görünür mü?",
+              "İlk 3 sonuçla aranızdaki farkı (yorum, kategori, içerik) karşılaştırdınız mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım? (3–6 aksiyon)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kullanıcıların aradığı 10 ana sorguyu belirleyin (örn. “Kemer denize sıfır otel”).",
+              "Her sorguda Local Pack’te çıkan 3–5 rakibi not alın (kategori/yorum/NAP/site).",
+              "GBP içerik kalitesi + yorum profili + NAP + site hızını birlikte değerlendirin.",
+              "“Yerel SEO NAP tutarlılığı” kontrolünü tek seferlik değil, süreç haline getirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "distance-relevance-prominence",
+        "title": "Yakınlık, İlişkililik ve Otorite nedir? (Distance–Relevance–Prominence)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Haritalar sıralama faktörleri, pratikte bu üç ana kavramın bileşimidir. Çoğu ekip yalnızca birine odaklanır (ör. “daha çok yorum alalım”) ama sonuç, dengesiz kalır."
+          },
+          { "type": "h3", "text": "Yakınlık (Distance): “Kullanıcıya ne kadar yakınsınız?”" },
+          {
+            "type": "p",
+            "text": "Yakınlık, özellikle mobilde güçlüdür. Antalya’da bir kullanıcı “yakınımdaki otel” yazdığında, harita sonuçları çoğu zaman “en iyi marka”dan ziyade en yakın uygun seçenekleri öne çıkarır. Burada yapılacaklar sınırlı gibi görünse de oteller için kritik bir detay vardır: doğru pin konumu ve doğru adres standardı."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otelin giriş noktası/pin’i yanlışsa, “yakınlık” sinyaliniz bozulur.",
+              "Birden fazla giriş (ana kapı/otopark) ve yanlış pin, rota deneyimini de kötüleştirir."
+            ]
+          },
+          { "type": "h3", "text": "İlişkililik (Relevance): “Aranan şeye ne kadar uygunsunuz?”" },
+          {
+            "type": "p",
+            "text": "İlişkililik, GBP’nin kategori–açıklama–özellikler–hizmetler alanlarında ve kullanıcı sinyallerinde şekillenir. Örn. “aile oteli”, “spa resort”, “denize sıfır” gibi konseptler; doğru kategori/atribüt eşleşmesi ve içerik diliyle güçlenir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bir otel “Resort Hotel” kategorisinde ama açıklamada/atribütlerde spa, çocuk kulübü, aquapark yoksa; sorgu eşleşmesi zayıflar.",
+              "“Hotel local pack optimizasyonu” dediğimiz şeyin büyük kısmı; bu eşleşmeyi netleştirmektir."
+            ]
+          },
+          { "type": "h3", "text": "Otorite (Prominence): “Ne kadar bilinir ve güvenilirsiniz?”" },
+          {
+            "type": "p",
+            "text": "Otorite, yalnızca yorum sayısı değildir. Yorum kalitesi, cevaplar, harici mention’lar, yerel alıntılar (citations), marka aramaları ve web sinyalleri birlikte çalışır. Otellerde sezonluk dalgalanma (yüksek sezonda yorum patlaması) iyi yönetilmezse “istikrar” kaybolabilir."
+          },
+          { "type": "h3", "text": "☑ Mini Check (3’lü Çekirdek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pin ve adres standart mı?",
+              "Kategori + açıklama + atributler, hedef sorgularla eşleşiyor mu?",
+              "Otoriteyi yalnız yorumla değil, NAP + web + mention ile destekliyor musunuz?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yakınlık: pin/adres doğruluğunu doğrulayın; giriş noktasını netleştirin.",
+              "İlişkililik: hedef sorgulara göre kategori/atribüt haritası çıkarın.",
+              "Otorite: yorum yönetimini ve yerel alıntıları “süreç” olarak tasarlayın.",
+              "Üçünü birlikte izleyin: tek sinyal optimize etmek çoğu zaman yetmez."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gbp-sinyalleri",
+        "title": "Google Business Profile sinyalleri: Kategori, içerik ve güncellik",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Business Profile, harita görünürlüğünün “kontrol paneli” gibidir. Oteller için GBP’nin en önemli farkı; tek sefer doldurulup bırakılmaması, düzenli güncellenmesi gerektiğidir."
+          },
+          {
+            "type": "p",
+            "text": "Teknik not: Google Business Profile’ın doğrulanmış olması ve her ay en az 1–2 kez (post, fotoğraf, Q&A, özellik güncellemesi) güncellenmesi, istikrar açısından güçlü bir sinyaldir."
+          },
+          { "type": "media", "slot": "divider-04" },
+          { "type": "h3", "text": "1) Doğru kategori seçimi (birincil + ikincil)" },
+          {
+            "type": "p",
+            "text": "Birincil kategori, “hangi yarışın içindesiniz?” sorusunu belirler. Otellerde genellikle “Hotel / Resort Hotel / Boutique Hotel” gibi kategorilerde rekabet ederken, ikincil kategoriler konsepti güçlendirir (spa, restoran, etkinlik alanı vb. işletmenin gerçek sunumuna göre)."
+          },
+          { "type": "h3", "text": "2) Açıklama, özellikler ve hizmetler: “Relevance motoru”" },
+          {
+            "type": "p",
+            "text": "Açıklama alanı, anahtar kelime doldurmak için değil; konsept–lokasyon–değer önerisi anlatmak içindir. Örn. “Side’de aile odaklı resort” ifadesi; hem kullanıcıya hem sisteme niyet sinyali taşır. Atribütler (havuz, spa, çocuk kulübü, plaj, otopark) ve hizmetler (transfer, etkinlik, restoranlar) eksiksizse ilişkililik artar."
+          },
+          { "type": "h3", "text": "3) Fotoğraf ve medya: tıklanmayı artıran “davranış sinyali”" },
+          {
+            "type": "p",
+            "text": "Otel profillerinde fotoğraf kalitesi, kullanıcıyı “rota/arama/web” aksiyonuna iter. Fotoğrafları sezon başı/ortası güncellemek, yeni konseptleri eklemek ve oda/deneyim/restaurant ayrımını netlemek özellikle etkilidir."
+          },
+          { "type": "h3", "text": "4) GBP postları ve güncelleme disiplini" },
+          {
+            "type": "p",
+            "text": "Postlar (kampanya, etkinlik, duyuru) harita kartında etkileşim üretir. Burada hedef: spam değil, “aktif işletme” sinyalidir."
+          },
+          { "type": "h3", "text": "☑ Mini Check (GBP Sağlamlaştırma)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP doğrulama tamam mı?",
+              "Birincil kategori doğru mu; ikinciller gerçek hizmeti destekliyor mu?",
+              "Atribütler (spa, çocuk, plaj vb.) tam mı?",
+              "Ayda 1–2 düzenli güncelleme rutini var mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kategori/atribüt haritasını hedef sorgulara göre yeniden düzenleyin.",
+              "Fotoğrafları “oda/deneyim/yeme-içme” klasör mantığıyla güncelleyin.",
+              "Ayda 1–2 post: kampanya değil, işletme güncelliği odaklı.",
+              "Q&A alanını yönetin: sık soruların cevaplarını siz ekleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yorumlar-review-stratejisi",
+        "title": "Yorumlar ve puanlama: Review stratejisi (otel odaklı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yorumlar, Local Pack’te hem otorite hem de dönüşüm tarafını etkiler. Otellerde yorum yönetimi “sadece puan” değil; sezonluk operasyon, hizmet kalitesi ve beklenti yönetimiyle iç içedir."
+          },
+          { "type": "h3", "text": "Yorum sayısı mı, yorum kalitesi mi?" },
+          {
+            "type": "p",
+            "text": "İkisi de önemli ama denge kritik:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yorum sayısı “varlık” ve “hacim” sinyali verir.",
+              "Yorum kalitesi (detay, güncellik, hizmet unsurları) “ilişkililik” ve kullanıcı iknasını güçlendirir.",
+              "Yanıt disiplini, olumsuz yorumlarda bile güven üretir."
+            ]
+          },
+          { "type": "h3", "text": "Yorum yanıtları: “Prominence” tarafında görünmez kaldıraç" },
+          {
+            "type": "p",
+            "text": "Olumsuz yorumlara savunma değil; çözüm odaklı, kısa ve tutarlı yanıt vermek, işletmenin “aktif” ve “güvenilir” algısını artırır. Örn. Belek’te bir resort için “check-in yoğunluğu” şikayetini, süreç iyileştirmesiyle bağlamak hem kullanıcıyı hem algoritmayı etkiler."
+          },
+          { "type": "h3", "text": "Yorum alma sistemi (etik ve sürdürülebilir)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konaklama sonrası otomatik e-posta/WhatsApp tetikleyicileri (izinli)",
+              "Ön büro/CRM süreçlerinde “doğru an” (check-out sonrası 24–72 saat)",
+              "QR ile yorum isteme: agresif değil, nazik ve kısa"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check (Review Yönetimi)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 30 günde yeni yorum var mı (istikrar)?",
+              "Olumsuz yorumlara 24–72 saat içinde yanıt veriliyor mu?",
+              "Yanıtlarda aynı dil/ton standardı korunuyor mu?",
+              "Yorumlarda geçen hizmet unsurları (spa, plaj, kahvaltı) profile yansıtılıyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Yorum alma ritmi” kurun (haftalık hedef, sorumlu, kanal).",
+              "Yanıt şablonları oluşturun (TR/EN; kısa, çözüm odaklı).",
+              "Operasyon geri bildirimiyle yorumları bağlayın (kalite döngüsü).",
+              "Yorumları yalnız puan değil, içerik olarak da değerlendirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nap-tutarliligi-citations",
+        "title": "NAP tutarlılığı ve yerel alıntılar: Görünürlüğün omurgası",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Yerel SEO NAP tutarlılığı” (Name–Address–Phone), çoğu işletmede dağınık kalır: farklı dizinlerde farklı telefon, eski adres, yanlış web linki… Bu da Google’ın “tekil işletme kimliği” oluşturmasını zorlaştırır."
+          },
+          { "type": "h3", "text": "NAP neden bu kadar etkili?" },
+          {
+            "type": "p",
+            "text": "Çünkü NAP; harita ekosisteminde işletmenin doğrulanabilir kimlik sinyali gibidir. Özellikle çok kanallı otellerde (OTA profilleri, acente sayfaları, etkinlik platformları, yerel dizinler) tutarsızlık hızla büyür."
+          },
+          { "type": "h3", "text": "Yerel alıntılar (citations) nerelerde çıkar?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yerel dizinler / şehir rehberleri",
+              "Turizm portal listeleri",
+              "Harita dışı platformlar (menü/etkinlik/rezervasyon listeleri)",
+              "Marka mention’ları ve basın içerikleri"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Örnek: Kemer’de bir otelin telefon numarası, web sitesinde farklı, GBP’de farklı, bir yerel dizinde farklıysa; “güven” sinyali kırılır. Bu, özellikle rekabetçi Local Pack sorgularında (ör. “Kemer resort”) sıralama stabilitesini düşürebilir."
+          },
+          { "type": "h3", "text": "☑ Mini Check (NAP Denetimi)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İşletme adı her yerde aynı formatta mı (kısaltma farkı yok)?",
+              "Adres aynı yazım standardında mı (cadde/mahalle/ilçe)?",
+              "Telefon tekil mi, santral mi, çağrı merkezi mi (net mi)?",
+              "En az 10 kritik dizinde NAP aynı mı?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek bir “NAP master” dokümanı oluşturun (resmi format).",
+              "Kritik dizinleri önceliklendirin (etki × çaba).",
+              "Eski/yanlış kayıtları temizleyin, yeni kayıtları standardize edin.",
+              "NAP takibini aylık değil, en az çeyreklik rutine bağlayın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Google Haritalar Optimizasyon Checklist’ini İndir",
+            "text": "NAP + GBP + Site üçgeninde eksikleri 30 dakikada tespit edip hızlı aksiyon çıkarırsınız.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      },
+      {
+        "id": "site-teknik-seo-etkisi",
+        "title": "Web sitesi ve teknik SEO etkisi: Hız, mobil ve yapılandırılmış veri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Haritalar sıralaması “sadece GBP” değildir. Web sitesi; otel için hem otorite hem de “son tıklama” dönüşüm alanıdır. Üstelik hızlı ve mobil uyumlu bir site; harita üzerinden gelen trafiğin kaybolmasını engeller."
+          },
+          { "type": "h3", "text": "1) Mobil hız ve sayfa deneyimi" },
+          {
+            "type": "p",
+            "text": "Harita trafiği çoğunlukla mobil gelir. Site yavaşsa, kullanıcı “geri” yapar ve Google bu davranışı görür. Core Web Vitals, görsel optimizasyonu ve kritik CSS/JS yönetimi; harita dönüşümünü güçlendirir."
+          },
+          { "type": "h3", "text": "2) Yerel açılış sayfaları (konum + konsept)" },
+          {
+            "type": "p",
+            "text": "Otelin tek bir ana sayfası yerine, yerel niyete uygun landing yapısı (örn. “Belek’te aile resort”, “Side spa oteli”) hem organik hem harita performansını destekler. Burada amaç, spam değil; gerçek hizmet/konsept anlatımıdır."
+          },
+          { "type": "h3", "text": "3) Schema ve entity bağlama (AIO gereksinimi)" },
+          {
+            "type": "p",
+            "text": "AIO tarafında “Google Business Profile, reviews, NAP, distance, relevance, prominence” gibi entity’leri tek içerikte anlamlı bağlamak gerekir. Web sitesi; Organization/LocalBusiness/Hotel (duruma göre) ve FAQ/HowTo gibi şemalarla arama motoruna “net” sinyal verir."
+          },
+          { "type": "h3", "text": "4) Harita embed ve iletişim sayfası" },
+          {
+            "type": "p",
+            "text": "İletişim sayfasında doğru NAP, harita embed, çalışma saatleri ve yönlendirme linkleri; kullanıcı güvenini yükseltir. Embed tek başına “sıralama hack’i” değildir; ama tutarlılık ve kullanıcı deneyimi sağlar."
+          },
+          { "type": "h3", "text": "Fark yaratan çerçeve: GBP + NAP + Site üçgeni (otel örneği)" },
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman “global local SEO” anlatır; otel özelinde en kritik fark, bu üç alanın aynı anda yönetilmesidir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP: kategori/atribüt/medya/güncellik",
+              "NAP: tüm platformlarda tekil kimlik",
+              "Site: hız + konum/konsept landing + schema + dönüşüm akışı"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bodrum’da bir butik otel düşünün: GBP mükemmel ama NAP dağınık ve site yavaşsa, görünürlük kısa süreli olur. Ya da NAP kusursuz ama GBP içeriği zayıfsa, ilişkililik kaybı yaşarsınız. Üçgeni birlikte optimize etmek, “hotel local pack optimizasyonu”nun en pratik ve sürdürülebilir yoludur."
+          },
+          { "type": "h3", "text": "☑ Mini Check (Site + Local Pack Köprüsü)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil hız hedefi var mı (özellikle blog/landing)?",
+              "Yerel landing’lerde (konum/konsept) içerik özgün mü?",
+              "İletişim sayfasında NAP + embed + CTA net mi?",
+              "Schema/FAQ/HowTo ile “cevap odaklı” yapı kuruldu mu?"
+            ]
+          },
+          { "type": "h3", "text": "Ne yapmalıyım?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Harita trafiğinin geldiği sayfaları hızlandırın (ilk ekran odaklı).",
+              "Konum/konsept landing yapısını planlayın (spam değil, gerçek değer).",
+              "İletişim + rezervasyon akışında sürtünmeyi azaltın (mobil UX).",
+              "Yerel SEO’yu “tek kanal” değil, siteyle entegre düşünün."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "text": "(Hedef sayfa: https://dgtlface.com/tr/otel/seo)"
+          }
+        ]
+      },
+      {
+        "id": "ilk-30-gun-sprint",
+        "title": "İlk 30 günde yapılacaklar: Local Pack görünürlüğü için otel sprinti",
+        "blocks": [
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "p",
+            "text": "Bu bölüm, SXO gereksinimi gereği “hemen uygulanabilir” planı verir. Amaç: 30 gün içinde görünürlük stabilitesi ve ölçülebilir aksiyonlar."
+          },
+          { "type": "h3", "text": "Hafta 1: Temel doğrulama ve ölçüm" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GBP doğrulama, kategori/atribüt kontrolü",
+              "NAP master doküman oluşturma",
+              "Harita KPI baseline: görüntülenme, rota, arama, web tıklaması",
+              "Rakip 3-pack benchmark (Antalya/Belek/Side/Kemer/Bodrum örnek sorgular)"
+            ]
+          },
+          { "type": "h3", "text": "Hafta 2: İçerik ve güven sinyalleri" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fotoğraf seti güncelleme (oda/deneyim/yeme-içme)",
+              "GBP post rutini (1–2 içerik)",
+              "Yorum alma akışı: check-out sonrası tetik",
+              "Olumsuz yorum yanıt standardı"
+            ]
+          },
+          { "type": "h3", "text": "Hafta 3: NAP ve citations temizliği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10–20 kritik dizinde NAP standardizasyonu",
+              "Eski kayıtların düzeltilmesi",
+              "Web site iletişim sayfası NAP + embed + CTA"
+            ]
+          },
+          { "type": "h3", "text": "Hafta 4: Site hız + landing + schema" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Mobil hız iyileştirmeleri (görsel/JS)",
+              "Konum/konsept landing taslağı",
+              "FAQ + HowTo + (uygunsa) LocalBusiness/Hotel schema planı",
+              "30 günlük KPI karşılaştırması ve sonraki 90 gün roadmap"
+            ]
+          },
+          { "type": "h3", "text": "☑ Mini Check (30 Günlük Sprint Çıkışı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Baseline KPI kaydedildi mi?",
+              "GBP güncellik rutini başladı mı?",
+              "NAP standardı 10+ dizinde sağlandı mı?",
+              "Site mobil hız iyileştirmesi yapıldı mı?"
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Harita görünürlüğü “tek hamle” değil, sistemdir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Haritalar sıralama faktörleri; yakınlık–ilişkililik–otorite üçlüsünü GBP + yorum + NAP + site üzerinden yönetmeyi gerektirir. Bu rehberdeki yaklaşımın farkı, otel/turizm bağlamında “üçgen” modeliyle ilerlemesidir: tek bir alanı parlatmak yerine, sistemi dengede tutmak. Düzenli güncelleme rutini ve ölçüm disiplini kurduğunuzda, Local Pack görünürlüğü daha stabil hale gelir ve harita trafiğini rezervasyona bağlamak kolaylaşır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Haritalar & Local Pack Analizi Talep Et",
+            "text": "Harita görünürlüğünü büyütmek isteyen oteller ve yerel işletmeler için, 30 günlük sprint planını ve KPI hedeflerini netleştirin.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "Google Haritalar Optimizasyon Checklist’ini İndir — SEO / Yerel SEO (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist/sprint-plan",
+            "version": "v1.0",
+            "title": "Google Haritalar Optimizasyon Checklist’ini İndir — SEO / Yerel SEO (v1.0)",
+            "purpose": "Bu checklist; otel ve yerel işletmelerin Google Haritalar/Local Pack görünürlüğünü etkileyen temel sinyalleri (GBP, yorumlar, NAP, site) tek sayfada toplar. 30 dakikada mevcut durumu çıkarır, ardından 14 günlük sprint planıyla uygulanabilir aksiyonlara dönüşür. Böylece “ne yapacağız?” sorusu netleşir ve KPI’lar ölçülebilir hale gelir.",
+            "whoFor": "Otel sahibi/GM, satış–pazarlama müdürü, dijital ekip veya ajans proje yöneticisi.",
+            "steps": [
+              "Checklist’i doldurun (mevcut durum + eksik sinyal).",
+              "Problem–kök neden–çözüm tablosundan ilk 3 önceliği seçin.",
+              "14 günlük sprint planını uygulayın; 1. ve 14. gün KPI karşılaştırması yapın."
+            ],
+            "href": "/downloads/google-haritalar-optimizasyon-checklist-yerel-seo-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "tablo-local-pack-sinyal-matrisi",
+        "title": "Tablo: Local Pack Sinyal Matrisi (GBP / Reviews / NAP / Site) – KPI & Hızlı Aksiyon",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Local Pack Sinyal Matrisi (GBP / Reviews / NAP / Site) – KPI & Hızlı Aksiyon",
+            "headers": [
+              "Sinyal Alanı",
+              "Ne ölçülür?",
+              "Hızlı kazanım",
+              "Risk",
+              "Sorumlu"
+            ],
+            "rows": []
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google Haritalar sıralama faktörleri nelerdir?",
+        "a": "Harita sıralaması temelde yakınlık, ilişkililik ve otorite bileşimidir. Otellerde bunun pratik karşılığı; doğru GBP yönetimi, güçlü yorum profili, NAP tutarlılığı ve web sitesi performansıdır."
+      },
+      {
+        "q": "Otelim Google Haritalar’da nasıl üst sıralara çıkar?",
+        "a": "GBP’yi doğru kategori/atribütlerle optimize edin, düzenli yorum alın ve yanıtlayın, NAP’ı tüm platformlarda tutarlı hale getirin, mobil hız ve kullanıcı deneyimini iyileştirin. Bu dört alan birlikte yönetildiğinde Local Pack görünürlüğü daha stabil olur."
+      },
+      {
+        "q": "Yakınlık, ilişkililik ve otorite ne demek?",
+        "a": "Yakınlık kullanıcıya mesafeyi, ilişkililik işletmenin aranan niyetle uyumunu, otorite ise güven ve bilinirliği ifade eder. Otellerde pin doğruluğu (yakınlık), kategori/atribüt (ilişkililik) ve yorum+mention+site sinyalleri (otorite) birlikte çalışır."
+      },
+      {
+        "q": "Yorumlar yerel sıralamayı etkiler mi?",
+        "a": "Evet; yorum sayısı, güncellik, içerik kalitesi ve yanıt disiplini “otorite” ve dönüşüm tarafını güçlendirir. Özellikle otellerde olumsuz yorumlara hızlı ve çözüm odaklı yanıt, güven sinyali oluşturur."
+      },
+      {
+        "q": "NAP tutarlılığı nedir ve neden önemli?",
+        "a": "NAP; işletme adı, adres ve telefon bilgisinin tüm kanallarda aynı formatta olmasıdır. Tutarsızlık, işletme kimliği sinyalini zayıflatır ve görünürlük dalgalanmalarına neden olabilir."
+      },
+      {
+        "q": "Google Business Profile’ı ne sıklıkla güncellemeliyim?",
+        "a": "Doğrulama sonrası, ayda en az 1–2 güncelleme (post, fotoğraf, Q&A, atribut) iyi bir rutindir. Amaç spam değil, “aktif işletme” sinyali ve kullanıcı etkileşimidir."
+      },
+      {
+        "q": "Harita embed eklemek sıralamayı artırır mı?",
+        "a": "Embed tek başına “sıralama hilesi” değildir; ancak iletişim sayfasında doğru NAP + embed + CTA kombinasyonu kullanıcı deneyimini ve tutarlılığı güçlendirir."
+      },
+      {
+        "q": "Çok lokasyonlu işletmelerde (zincir otel) neye dikkat edilmeli?",
+        "a": "Her lokasyonun GBP’si ayrı kimlik gibi yönetilmeli; NAP standardı korunmalı ve lokasyon sayfaları özgün içerikle desteklenmelidir. Aksi halde “iç rekabet” ve tutarsızlık oluşabilir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 16:9 (1920×1080) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-hero-01.webp — Google Haritalar sıralama faktörleri özeti, otel görünürlüğünü anlatan kapak görseli",
+          "h1-context — 16:9 (1920×1080) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-h1-context-02.webp — Local Pack 3’lü sonuç ekranı, otel araması bağlamında görünürlüğü gösteren görsel",
+          "divider-03 — 4:3 (1600×1200) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-divider-03.webp — Local Pack mantığına giriş, otel harita görünürlüğü bölüm ayraç görseli",
+          "divider-04 — 4:3 (1600×1200) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-divider-04.webp — GBP optimizasyon bölümüne geçiş, otel profil yönetimi ayraç görseli",
+          "diagram-05 — 16:9 (1920×1080) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-diagram-05.webp — GBP–NAP–Site üçgeni diyagramı, otel Local Pack karar akışını anlatan şema",
+          "checklist-06 — 1:1 (1200×1200) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-checklist-06.webp — 30 gün Local Pack checklist’i, otel görünürlüğü için hızlı kontrol kartı",
+          "kpi-07 — 1:1 (1200×1200) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-kpi-07.webp — Harita KPI seti, otel için önce–sonra performans paneli",
+          "proof-08 — 1:1 (1200×1200) — google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin-proof-08.webp — Yerel SEO çıktı seti, otel için deliverables ve güven unsuru kartı"
+        ],
+        "ctaRules": [
+          "Primary CTA: 2 kez (H1 giriş sonunda + son 1/3)",
+          "Secondary CTA: 1 kez (NAP/citations bölümünde)"
+        ],
+        "tableNote": [
+          "Tablo (1 adet – konuya uygun seçim): Local Pack Sinyal Matrisi (GBP / Reviews / NAP / Site) – KPI & Hızlı Aksiyon",
+          "Sütun örneği: Sinyal Alanı | Ne ölçülür? | Hızlı kazanım | Risk | Sorumlu"
+        ]
+      }
+    }
+  },
+
+  "BlogSosyalMedyaStratejisiNasilYazilirFramework": {
+  "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+  "slug": "sosyal-medya-stratejisi-nasil-yazilir-framework",
+  "department": "smm",
+  "updatedAt": "17 Ocak 2026",
+  "publishedAt": "2026-01-17",
+  "readingTime": "12 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Sosyal medya stratejisi nasıl yazılır? Audit, hedef/KPI, persona, content pillars, kanal planı, takvim–kaynak ve raporlama adımlarını otel ve B2B markalar için uygulanabilir bir framework ile kurgulayın.",
+  "seo": {
+    "metaTitle": "Sosyal Medya Stratejisi Nasıl Yazılır? Otel & B2B | DGTLFACE",
+    "metaDescription": "Sosyal medya stratejisi nasıl yazılır? Audit, hedef/KPI, persona, content pillars, kanal planı, takvim ve raporlama adımlarını otel ve B2B markalar için uygulanabilir bir framework ile kurgulayın."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: SMM",
+      "Sayfa (Hub) / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+      "Blog / URL: /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework",
+      "Blog Tipi: Core",
+      "Intent: Informational + Strategic",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/smm/blog/sosyal-medya-stratejisi-nasil-yazilir-framework"
+    ],
+    "strategySummary": "Bu içerik, SMM silosunda “planlama ve strateji” hizmet sayfasını besleyen otorite taşıyan child rolünde; içerik üretimi ve raporlama sayfalarına giden yolu netleştirir. Hedef persona, otel grubu yöneticileri, satış-pazarlama liderleri ve B2B/hizmet markalarının ajans/marketing yöneticileridir. Funnel’da consideration → conversion köprüsünü kurar: “strateji dokümanı”nı somut bir çerçeveye indirerek karar almayı kolaylaştırır. Ana iş sorusu: “Biz sosyal medyayı günlük paylaşım değil, KPI’lı bir iş sistemi olarak nasıl yönetiriz ve bunun dokümanı nasıl yazılır?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-01-17",
+    "readingTime": "12 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "İyi bir sosyal medya stratejisi, “daha çok takipçi” hedefinden ibaret değildir. Önce mevcut durumu (audit) çıkarır, ardından SMART hedefleri ve KPI setini tanımlar, persona ve müşteri yolculuğunu netleştirir. Sonrasında content pillars ile kanal eşleştirmesi yapar, takvim–bütçe–kaynak planını oluşturur ve ölçüm/optimizasyon döngüsünü kurar. Otel ve B2B markalarda bu doküman, içerikten rapora kadar tüm kararların pusulası olur.",
+    "sgeSummary": "Sosyal medya stratejisi; audit → hedef/KPI → persona → content pillars & kanallar → takvim/bütçe/kaynak → ölçüm/optimizasyon adımlarıyla yazılır. Otel ve B2B markalar için doküman şarttır.",
+    "voiceAnswer": "Audit yapın, hedef ve KPI belirleyin, personayı netleştirin, içerik sütunlarını kurun, takvim planlayın, düzenli ölçün.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel grupları + B2B/hizmet markaları (TR geneli; Antalya/Belek/Side/Kemer/Bodrum örnekleriyle)",
+      "Ana KPI seti: erişim, etkileşim oranı, tıklama/traffic, lead, satış/rezervasyon katkısı, CAC/CPA (varsa)",
+      "Entity’ler: Social Media Strategy, Audit, Goals & KPIs, Personas, Content Pillars, Content Calendar",
+      "Funnel: Awareness → Consideration → Conversion (doküman köprü görevi görür)",
+      "En kritik çıktı: “tek çatı strateji dokümanı” + aylık/çeyreklik plan + ölçüm şablonu",
+      "Risk: ad hoc paylaşım → tutarsız mesaj + ölçülemeyen ROI",
+      "Kazanım: kararlar kişiye değil çerçeveye bağlanır; ekip değişiminde kopukluk azalır"
+    ]
+  },
+  "h1": {
+    "title": "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+    "intro": "İçerik üretimi kolay; sonuç üreten içerik sistemi kurmak zordur. Otel ve B2B/hizmet markalarının çoğu, sosyal medyayı “paylaşım takvimi” zanneder: birkaç içerik fikri, biraz tasarım, birkaç reklam… Oysa strateji dokümanı; hedefi, KPI’ı, kitleyi, mesajı, kanalı, bütçeyi ve ölçümü tek çatı altında bağlayan dokümante edilmiş plandır. Bu yazıda, markanız için stratejiyi “herkesin aynı sayfaya baktığı” bir sistem haline getirecek adım adım framework’ü bulacaksınız.",
+    "quickSummary": [
+      "1) Audit: Mevcut durumu çıkar",
+      "2) Hedef & KPI: Nereye gittiğini ve nasıl ölçeceğini yaz",
+      "3) Persona: Kime hangi kararı kolaylaştırdığını netleştir",
+      "4) Content Pillars & Kanallar: Ne anlatacağını ve nerede anlatacağını eşleştir",
+      "5) Takvim/Kaynak: Uygulanabilir üretim sistemini kur",
+      "6) Ölçüm/Revizyon: Öğrenim döngüsüyle stratejiyi yaşayan hale getir"
+    ],
+    "ctaPrimary": {
+      "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
+      "text": "Mevcut planınızın kör noktalarını bulalım ve stratejiyi KPI’lı bir sisteme çevirelim (otel grupları ve B2B ekipleri için).",
+      "href": "/smm/planlama-strateji"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
+      "text": "Stratejinizi doküman değil, karar sistemi haline getirecek 90 günlük öncelik listesini çıkaralım.",
+      "href": "/smm/planlama-strateji"
+    },
+    "secondary": {
+      "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
+      "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
+      "href": "/smm/planlama-strateji"
+    }
+  },
+  "internalLinks": [
+    { "label": "SMM Planlama & Strateji hizmet sayfası", "href": "/smm/planlama-strateji" },
+    { "label": "SMM İçerik Üretimi", "href": "/smm/icerik-uretimi" },
+    { "label": "SMM Analiz & Raporlama", "href": "/smm/analiz-raporlama" },
+    { "label": "İçerik SEO rehberi", "href": "/seo/icerik-seo" }
+  ],
+  "relatedPosts": [
+    {
+      "title": "Sosyal Medya İçerik Üretimi: Sistem ve Workflow Nasıl Kurulur?",
+      "href": "/smm/icerik-uretimi"
+    },
+    {
+      "title": "Sosyal Medya Analiz & Raporlama: KPI Panosu ve Öğrenim Döngüsü",
+      "href": "/smm/analiz-raporlama"
+    }
+  ],
+  "sections": [
+    {
+      "id": "audit-nedeyiz",
+      "title": "1) Mevcut Durum Analizi (Audit) – “Neredeyiz?”",
+      "blocks": [
+        { "type": "media", "slot": "h1-context" },
+        {
+          "type": "p",
+          "text": "Audit, “ne paylaştık?” listesinden ibaret değildir; kanal sağlığı + içerik performansı + kitle sinyali + rakip kıyası çıkarımıdır. Otel gruplarında (örn. Antalya–Belek–Side hattında sezonluk kampanya baskısı olan yapılarda) audit; sezon, pazar ve teklif değişimlerinin sosyal performansa etkisini de kapsar. B2B/hizmet markalarında ise audit, “hangi içerik türü hangi niyeti tetikliyor?” sorusuna cevap üretmelidir."
+        },
+        { "type": "h3", "text": "Audit’te hangi başlıklara bakmalıyım?" },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Cevap (AEO bloğu)",
+          "items": [
+            "Audit’te kanal bazında hedef, içerik türleri, etkileşim oranı, erişim trendi, trafik/lead katkısı, takipçi kalitesi, yorum/DM sinyalleri ve rakip kıyası birlikte değerlendirilmelidir."
+          ]
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Kanal envanteri: Instagram, LinkedIn, X, YouTube, TikTok (varsa) + topluluk kanalları",
+            "İçerik envanteri: format (carousel/reel/video), konu (pillar), teklif (kampanya), dil/locale (TR/EN/DE/RU gibi)",
+            "Performans: erişim, etkileşim oranı, kaydetme, paylaşım, tıklama, izlenme süresi, profil aksiyonları",
+            "Dönüşüm sinyali: web tıklamaları, form/WhatsApp/arama yönlendirmeleri (etiketlenebiliyorsa)",
+            "Rakip kıyası: mesaj konumlandırma, yayın sıklığı, format karışımı, “en çok etkileşim alan temalar”"
+          ]
+        },
+        { "type": "h3", "text": "Mini örnek (otel)" },
+        {
+          "type": "p",
+          "text": "Kemer’de bir resort, “erken rezervasyon” kampanyasını yalnızca görsel post’larla duyuruyor; reel ve story akışı yok. Audit’te görülür: yüksek erişim var ama tıklama/rezervasyon sinyali zayıf. Çözüm: aynı kampanyayı “3 aşamalı” içerik sistemiyle (teaser → kanıt/sosyal proof → net CTA) yeniden kurgulamak."
+        },
+        { "type": "h3", "text": "☑ Mini Check (Audit hızlı kontrol)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Son 90 günde en iyi 10 içerik neden iyi performans verdi? (format + tema + hook)",
+            "En kötü 10 içerikte ortak hata var mı? (mesaj belirsizliği, CTA yokluğu, hedef kitle uyumsuzluğu)",
+            "Kanal bazında tek bir “başarı tanımı” var mı? (IG = kaydetme/DM; LinkedIn = lead/meeting gibi)",
+            "Rakiplerde “bizde olmayan” ama sonuç üreten bir format/tema var mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "14 günlük içerik ve performans verisini tek tabloya toplayın.",
+            "En iyi içerikleri “tema + format + hook” etiketleriyle sınıflayın.",
+            "Rakiplerden 3 format ve 3 tema benchmark’ı seçin.",
+            "Audit çıktılarını tek sayfalık “bulgular & öneriler” özetine çevirin."
+          ]
+        },
+        { "type": "media", "slot": "divider-01" }
+      ]
+    },
+    {
+      "id": "hedef-kpi",
+      "title": "2) Hedef ve KPI Tanımı – “Nereye gidiyoruz, nasıl ölçeceğiz?”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Strateji dokümanının kalbi, hedef ve KPI setidir. “Takipçi artsın” hedef değil, sonuç göstergesi bile olmayabilir. Otel için sosyal medya; rezervasyon, call center, teklif sayfaları ve marka güveniyle birlikte düşünülür. B2B/hizmet tarafında ise satış döngüsü uzun olduğu için KPI seti “mikro dönüşüm → lead → meeting → teklif” zincirinde kurulmalıdır."
+        },
+        { "type": "h3", "text": "KPI ve hedefleri nasıl belirlerim?" },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Cevap (AEO bloğu)",
+          "items": [
+            "Önce iş hedefini netleştirin (rezervasyon, lead, marka bilinirliği), ardından her hedefi 1 ana KPI + 2 destek KPI ile ölçün; ölçüm kaynağını ve raporlama sıklığını stratejiye yazın."
+          ]
+        },
+        { "type": "h3", "text": "SMART hedef örnekleri" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Otel: “Q2’de organik sosyal trafikten web’e gelen kullanıcı sayısını %X artırmak” (Varsayım: %X hedefi iç veriye göre netleştirilir.)",
+            "B2B: “LinkedIn üzerinden ayda N adet nitelikli görüşme talebi (meeting request) oluşturmak”"
+          ]
+        },
+        { "type": "h3", "text": "Örnek KPI seti (çekirdek)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Awareness: erişim, video izlenme oranı, marka araması trendi (Varsayım: Search Console/GA4 ile izlenir)",
+            "Consideration: kaydetme, paylaşım, profil tıklaması, site tıklaması",
+            "Conversion: form/WhatsApp/telefon tıklaması, lead sayısı, CPA/CPL (Varsayım: tag/UTM varsa)"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check (Hedef-KPI uyumu)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Her hedefin ölçümü “tek ekranda” raporlanabilir mi?",
+            "KPI’lar kanalın doğasına uygun mu? (IG kaydetme ≠ LinkedIn lead)",
+            "90 günlük baseline var mı? (yoksa Varsayım: ilk 30 gün baseline)",
+            "KPI sorumlusu ve raporlama ritmi yazıyor mu?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Hedefleri 3 katmanda yazın: İş hedefi → Pazarlama hedefi → Kanal KPI’ı.",
+            "KPI’ları “1 ana + 2 destek” kuralıyla sadeleştirin.",
+            "Ölçüm kaynağını ekleyin (GA4, platform insights, CRM).",
+            "90 günlük baseline çıkarıp gerçekçi hedef bandı belirleyin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persona-kime",
+      "title": "3) Hedef Kitle ve Persona – “Kime, hangi kararı kolaylaştırıyoruz?”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Persona, sadece demografi değildir; ihtiyaç, itiraz, karar kriteri ve içerik tüketim davranışıdır. Otel tarafında persona; yerli/yabancı pazar, aile/çift, sezon ve bütçe gibi parametrelerle değişir. B2B/hizmet tarafında ise persona çoğunlukla “rol temelli”dir: GM, satış-pazarlama müdürü, dijital pazarlama sorumlusu, ajans sahibi gibi."
+        },
+        { "type": "h3", "text": "Persona’yı dokümana nasıl yazmalıyım?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Hedef/iş sorusu: “Ne karar verecek?”",
+            "Pain point: “Neden zorlanıyor?”",
+            "İtirazlar: “Neye takılır?”",
+            "İçerik tetikleyicileri: “Hangi format/kanıt ikna eder?”",
+            "CTA davranışı: “DM mi, form mu, telefon mu?”"
+          ]
+        },
+        { "type": "h3", "text": "Otel persona mini örneği (TR geneli)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Persona: “Satış & Pazarlama Müdürü (otel grubu)”",
+            "Pain point: “Sezonda kampanya çok; mesaj tutarlılığı bozuluyor.”",
+            "İtiraz: “Ajanslar çok konuşuyor, ölçüm yok.”",
+            "Tetikleyici: “KPI dashboard + örnek içerik seti + case.”",
+            "CTA: “15 dk görüşme / analiz talebi”"
+          ]
+        },
+        { "type": "h3", "text": "B2B persona mini örneği" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Persona: “Ajans yöneticisi”",
+            "Pain point: “Müşteri brief’i dağınık; içerik üretimi ad hoc.”",
+            "Tetikleyici: “Template + süreç + rol dağılımı.”",
+            "CTA: “Template indir / analiz talep et”"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check (Persona kalitesi)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Persona sayısı 2–4 aralığında mı? (fazla persona = odak kaybı)",
+            "Her persona için 1 ana karar sorusu yazıldı mı?",
+            "İtirazlara cevap verecek “kanıt” türü tanımlandı mı?",
+            "Persona → içerik sütunu (pillar) eşleşmesi yapıldı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Persona’ları “rol + karar sorusu” formatında yazın.",
+            "Her persona için 3 içerik tetikleyicisi belirleyin (kanıt/rehber/örnek).",
+            "Persona’ları funnel aşamasına bağlayın (ToFu/MoFu/BoFu).",
+            "Persona içgörülerini audit bulgularıyla doğrulayın (yorum/DM analizi)."
+          ]
+        },
+        { "type": "media", "slot": "divider-02" }
+      ]
+    },
+    {
+      "id": "pillars-kanallar",
+      "title": "4) Content Pillars ve Kanallar – “Ne anlatacağız, nerede anlatacağız?”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“Content pillars”, markanın sosyal medyada tekrar edilebilir ve ölçülebilir tema sütunlarıdır. Otellerde tipik sütunlar: deneyim, oda/konsept, kampanya/teklif, destinasyon, sosyal kanıt (yorum/UGC), sürdürülebilirlik/kalite. B2B/hizmet markalarında: problem–çözüm, framework’ler, case/kanıt, kulis/süreç, eğitim/mini ders, teklif/CTA."
+        },
+        { "type": "h3", "text": "Strateji dokümanında hangi başlıklar olmalı?" },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Cevap (AEO bloğu)",
+          "items": [
+            "Minimum başlıklar: Audit, hedef/KPI, persona, content pillars, kanal stratejisi, içerik takvimi, bütçe/kaynak planı, ölçüm ve revizyon; her başlık için “hangi soruya cevap veriyoruz?” yazılmalıdır."
+          ]
+        },
+        { "type": "h3", "text": "Pillar → Kanal eşleştirme örneği" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Instagram: deneyim + UGC + kısa rehber + DM tetikleyici içerikler",
+            "LinkedIn: framework + case + KPI + yönetim özetleri (B2B)",
+            "YouTube: uzun form rehber + kampanya anlatımı + “nasıl yapılır” serileri",
+            "X: hızlı içgörü + trend yorum + thread (Varsayım: hedef kitle uygunsa)"
+          ]
+        },
+        { "type": "h3", "text": "Predictive keywords’leri doğal dağıtım (başlık stuffing yok)" },
+        {
+          "type": "p",
+          "text": "“Sosyal medya stratejisi nasıl yazılır”, “sosyal medya strateji dokümanı örneği”, “sosyal medyada hedef ve KPI belirleme” gibi varyasyonlar; H2/H3’lere değil, paragraf akışına serpiştirilmelidir."
+        },
+        { "type": "h3", "text": "☑ Mini Check (Pillar sağlamlığı)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "4–6 pillar var mı? (az = içerik kıtlığı, çok = dağınıklık)",
+            "Her pillar’ın hedefi var mı? (awareness/consideration/conversion)",
+            "Her pillar için 3 format önerisi yazıldı mı? (carousel/reel/video/infografik)",
+            "Kanal rolü net mi? (IG topluluk, LinkedIn lead, YouTube otorite gibi)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Pillar’ları “tema + vaad + KPI” üçlüsüyle tanımlayın.",
+            "Kanal başına “rol” belirleyin ve KPI’ı buna bağlayın.",
+            "Her pillar için 10 içerik fikri havuzu oluşturun (audit bulgularıyla).",
+            "İç link planını ekleyin: /tr/smm/icerik-uretimi ve /tr/seo/icerik-seo ile uyumlu."
+          ]
+        },
+        { "type": "media", "slot": "diagram-05" }
+      ]
+    },
+    {
+      "id": "takvim-kaynak",
+      "title": "5) Takvim, Bütçe ve Kaynak Planı – “Bu işi kim, ne zaman, hangi kaynakla yapacak?”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Strateji dokümanı, “iyi fikirler listesi” değil; uygulanabilir üretim sistemidir. Bu yüzden takvim ve kaynak planı şarttır. Otel tarafında sezonluk yoğunluk, çekim takvimi, kampanya dönemleri ve çok dilli içerik ihtiyacı (TR/EN/DE/RU) planı doğrudan etkiler. B2B/hizmet tarafında ise uzmanlık içeriği (framework, case, analiz) için “subject matter” katkısı gereklidir."
+        },
+        { "type": "h3", "text": "Aylık/çeyreklik planı nasıl kurmalıyım?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Aylık plan: içerik dağılımı (pillar + format), kampanya takvimi, yayın günleri",
+            "Çeyreklik plan: tema odakları, büyük kampanyalar, büyük prodüksiyonlar (video/çekim)",
+            "Kaynak planı: rol dağılımı (strateji, metin, tasarım, video, yayın, community, rapor)"
+          ]
+        },
+        { "type": "h3", "text": "Örnek rol dağılımı (basit)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Strateji & editör: içerik çerçevesi + QA",
+            "Tasarım/video: üretim",
+            "Community: yorum/DM yönetimi",
+            "Performance: boost/ads ve rapor",
+            "Onay: marka/hukuk (Varsayım: gerekiyorsa)"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check (Kaynak gerçekçiliği)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Haftalık üretim kapasitesi yazıyor mu? (adet + format)",
+            "Onay süreci (SLA) net mi? (48 saat gibi)",
+            "Çok dilli içerikte çeviri/lokalizasyon akışı var mı?",
+            "Bütçe kalemleri ayrıldı mı? (prodüksiyon, tasarım, reklam, araçlar)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Takvimi “pillar x format” matrisiyle kurun.",
+            "Üretim kapasitenizi gerçekçi yazın (az ama sürdürülebilir).",
+            "Onay sürecini ve sorumluları stratejiye ekleyin.",
+            "Bütçeyi “prodüksiyon + dağıtım + araçlar” diye ayırın."
+          ]
+        },
+        { "type": "media", "slot": "checklist-06" }
+      ]
+    },
+    {
+      "id": "olcum-raporlama",
+      "title": "6) Ölçüm, Raporlama ve Revizyon – “Sistemi nasıl iyileştireceğiz?”",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Stratejinin “yaşayan doküman” olması, ölçüm ve revizyon döngüsüyle mümkündür. Çoğu ekipte, paylaşım yapılır ama öğrenim birikmez. Oysa yazılı stratejisi olan ekiplerde, kararların “kişiye bağlı inisiyatif” yerine “çerçeveye bağlı” ilerlediği ve ekip değişimlerinde daha az kopukluk yaşandığı görülür (genel gözlem)."
+        },
+        { "type": "h3", "text": "Raporlama ve optimizasyon süreci nasıl olmalı?" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Haftalık: yayın düzeni, community sinyali, hızlı öğrenimler",
+            "Aylık: KPI seti, en iyi/çarpan içerikler, pillar performansı, kanal rol doğrulaması",
+            "Çeyreklik: hedef revizyonu, bütçe/format optimizasyonu, büyük kampanya retrospektifi",
+            "Yıllık (Refresh Cycle 365): strateji dokümanı güncellemesi (ideal: 6 ayda 1 ara revizyon)"
+          ]
+        },
+        { "type": "h3", "text": "“Fark yaratan” bölüm – Stratejiyi doküman değil, karar sistemi yapın (Competitor Gap)" },
+        {
+          "type": "list",
+          "style": "ol",
+          "items": [
+            "Her pillar için “başarının tanımı” (KPI)",
+            "Her KPI için “ne zaman pivot ederiz?” eşiği (Varsayım: 2–3 ay trendle)",
+            "Her format için “hook kütüphanesi” (tekrar edilebilir açılışlar)"
+          ]
+        },
+        { "type": "h3", "text": "☑ Mini Check (Ölçüm döngüsü)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "KPI raporu tek sayfada mı? (yönetici özeti)",
+            "“Ne öğrendik?” bölümü var mı? (3 madde)",
+            "A/B test planı var mı? (hook/format/CTA)",
+            "Revizyon ritmi yazıyor mu? (aylık + çeyreklik)"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Aylık raporda “en iyi 5 içerik: neden iyi?” analizini zorunlu tutun.",
+            "Pillar başına 1 iyileştirme aksiyonu çıkarın.",
+            "Hook/CTA A/B testini 30 günlük döngüye bağlayın.",
+            "Strateji dokümanını yılda en az 1 kez (ideal 6 ayda 1) güncelleyin."
+          ]
+        },
+        { "type": "media", "slot": "kpi-07" },
+        { "type": "media", "slot": "proof-08" }
+      ]
+    },
+    {
+      "id": "strateji-outline-tablosu",
+      "title": "Strateji Dokümanı Outline Tablosu (Bölüm–Amaç–Sorular–Çıktı)",
+      "blocks": [
+        {
+          "type": "table",
+          "caption": "Tablo: Sosyal Medya Strateji Dokümanı Outline (örnek)",
+          "headers": ["Bölüm", "Amaç", "Ana soru", "Çıktı"],
+          "rows": [
+            ["Audit", "Mevcut durumu netleştirmek", "Neredeyiz ve neden?", "Bulgular & öneriler özeti"],
+            ["Hedef & KPI", "Başarı tanımı koymak", "Nereye gidiyoruz, nasıl ölçeceğiz?", "1 ana KPI + 2 destek KPI seti"],
+            ["Persona", "Kararı kolaylaştırmak", "Kime hangi itirazı çözüyoruz?", "2–4 persona kartı + tetikleyiciler"],
+            ["Content Pillars", "Tema sistemini kurmak", "Ne anlatacağız?", "4–6 pillar matrisi (tema–vaad–KPI)"],
+            ["Kanal Rolü", "Dağıtım stratejisi", "Nerede anlatacağız?", "Kanal rolleri + KPI eşleşmesi"],
+            ["Takvim & Kaynak", "Uygulanabilirlik", "Kim ne zaman yapacak?", "Aylık plan + rol dağılımı + SLA"],
+            ["Ölçüm & Revizyon", "Öğrenim döngüsü", "Nasıl iyileştireceğiz?", "Haftalık/aylık/çeyreklik ritim + revizyon tarihi"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smm-framework-template-indir",
+      "title": "Sosyal Medya Strateji Framework & Template’ini İndir — SMM Planlama ve Strateji",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "template",
+          "version": "v1.0",
+          "title": "Sosyal Medya Strateji Framework & Template’ini İndir — SMM Planlama ve Strateji (v1.0)",
+          "purpose": "Bu şablon, sosyal medya stratejinizi audit’ten ölçüme kadar tek dosyada kurmanız için hazırlanmıştır. Otel grupları ve B2B/hizmet markaları için KPI’lı, persona temelli ve uygulanabilir bir plan üretmenizi sağlar. Ekip içi kararları “kişiye bağlı” olmaktan çıkarıp “çerçeveye bağlı” hale getirir.",
+          "whoFor": "Otel sahibi/GM, satış-pazarlama müdürü, ajans yöneticisi veya sosyal medya lideri.",
+          "steps": [
+            "Audit bölümünü son 90 gün verisiyle doldurun.",
+            "Hedef/KPI ve persona kartlarını netleştirin, content pillars matrisi kurun.",
+            "Takvim–kaynak planını oluşturup aylık rapor döngüsüyle revizyon tarihini yazın."
+          ],
+          "checklist": [
+            "Audit bulguları 3 maddede özetlendi",
+            "KPI seti kanal rolüyle eşleşiyor",
+            "Persona kartlarında itiraz + kanıt yazıyor",
+            "Pillar matrisi 4–6 aralığında",
+            "Takvim kapasiteye uygun",
+            "Aylık rapor şablonu var",
+            "Revizyon tarihi işlendi"
+          ],
+          "href": "/downloads/sosyal-medya-strateji-framework-template-v1.0.pdf",
+          "buttonLabel": "Template’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc-tek-sayfa-ozet",
+      "title": "Sonuç: Strateji dokümanı sonunda “tek sayfa özet” (yöneticiler için)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Otel sahibi/GM veya ajans yöneticisi, 20 sayfa doküman okumaz. Bu yüzden dokümanın sonunda “1 sayfa” özet üretin: hedefler + KPI seti, persona’lar + ana mesajlar, pillar’lar + kanal rolleri, takvim kapasitesi + kaynak planı, ölçüm ritmi + revizyon tarihi."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım?",
+          "items": [
+            "Yöneticiler için 1 sayfa özet ekleyin.",
+            "İç linkleri netleştirin: /tr/smm/planlama-strateji → /tr/smm/icerik-uretimi → /tr/smm/analiz-raporlama ve /tr/seo/icerik-seo.",
+            "Dokümanı ekip onboarding dokümanı gibi kullanın."
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "Sosyal Medya Strateji Dokümanı Analizi Talep Et",
+          "text": "Stratejiyi KPI’lı sisteme çevirip 90 günde ölçülebilir ilerleme görmek isteyen ekipler için.",
+          "href": "/smm/planlama-strateji"
+        },
+        {
+          "type": "cta",
+          "variant": "secondary",
+          "label": "Sosyal Medya Strateji Framework & Template’ini İndir",
+          "text": "Audit’ten ölçüme kadar stratejiyi 1 günde yapılandırıp ekipçe aynı çerçevede ilerlemenizi sağlar.",
+          "href": "/smm/planlama-strateji"
+        }
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "Sosyal medya stratejisi nasıl yazılır?",
+      "a": "Audit ile başlayın; hedef ve KPI’ı netleştirin, personayı yazın, content pillars ve kanal rolünü tanımlayın. Takvim–kaynak planını ekleyip ölçüm/optimizasyon döngüsüyle dokümanı yaşayan hale getirin."
+    },
+    {
+      "q": "Strateji dokümanında hangi başlıklar olmalı?",
+      "a": "Audit, hedef/KPI, persona, content pillars, kanal stratejisi, takvim–bütçe–kaynak planı ve ölçüm/raporlama bölümleri minimum gerekliliktir. Her başlık “hangi soruya cevap veriyoruz?” çerçevesiyle yazılmalıdır."
+    },
+    {
+      "q": "KPI ve hedefleri nasıl belirlerim?",
+      "a": "Önce iş hedefini seçin (rezervasyon/lead/bilinirlik). Her hedefi 1 ana KPI + 2 destek KPI ile ölçün ve ölçüm kaynağını belirtin (platform analytics, GA4, CRM). Baseline veriniz yoksa ilk 30 gün “başlangıç ölçümü” yapın."
+    },
+    {
+      "q": "Otel/B2B markası için sosyal medya stratejisi örneği nasıl olmalı?",
+      "a": "Otellerde pillar’lar deneyim/teklif/destinasyon/UGC çevresinde; KPI’lar ise trafik ve rezervasyon sinyallerine bağlanır. B2B’de pillar’lar framework/case/rehber etrafında; KPI’lar lead ve meeting talebine bağlanır."
+    },
+    {
+      "q": "Content pillars nedir, kaç tane olmalı?",
+      "a": "Content pillars, markanın tekrar edilebilir tema sütunlarıdır. Genelde 4–6 pillar idealdir; daha azı içerik çeşitliliğini kısar, daha fazlası odak kaybına yol açar."
+    },
+    {
+      "q": "Hangi kanala odaklanmalıyım?",
+      "a": "Kanal seçimi persona ve KPI’a göre yapılır. IG topluluk ve talep toplama, LinkedIn B2B otorite ve lead, YouTube uzun form otorite ve arama trafiği için güçlüdür. Birincil kanalı seçip ikincil kanalları destekleyici rolde kurgulayın."
+    },
+    {
+      "q": "Strateji dokümanı ne sıklıkla güncellenmeli?",
+      "a": "En az yılda 1 kez güncelleyin; ideal olarak 6 ayda 1 ara kontrol yapın. Persona, kanal dinamikleri ve hedefler değiştiğinde revizyon şarttır."
+    },
+    {
+      "q": "Strateji ile içerik takvimi aynı şey mi?",
+      "a": "Hayır. Strateji, hedef–KPI–persona–pillar–kanal–ölçüm sistemidir. Takvim bu sistemin uygulama planıdır."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "banner (hero/cover) — 1920×1080 — sosyal-medya-stratejisi-nasil-yazilir-framework-hero-01.webp",
+        "h1-context — 1920×1080 — sosyal-medya-stratejisi-nasil-yazilir-framework-h1-context-02.webp",
+        "divider-01 — 1600×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-divider-03.webp",
+        "divider-02 — 1600×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-divider-04.webp",
+        "diagram-05 — 1920×1080 — sosyal-medya-stratejisi-nasil-yazilir-framework-diagram-05.webp",
+        "checklist-06 — 1200×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-checklist-06.webp",
+        "kpi-07 — 1200×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-kpi-07.webp",
+        "proof-08 — 1200×1200 — sosyal-medya-stratejisi-nasil-yazilir-framework-proof-08.webp"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN/DE/RU hreflang (varsa) karşılıklılık kontrolü",
+        "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+        "İç linklerde kırık link ve redirect zinciri yok",
+        "CWV izleme ve backlog oluşturuldu"
+      ]
+    }
   }
+},
+
+"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi": {
+  "title": "CMS İçerik Modeli: Kurumsal Web Siteleri İçin Content Type ve Field Tasarımı",
+  "slug": "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi",
+  "department": "yazilim",
+  "updatedAt": "17 Ocak 2026",
+  "publishedAt": "2026-01-17",
+  "readingTime": "13 dk okuma",
+  "author": "DGTLFACE Editorial",
+  "excerpt": "Kurumsal web, otel ve B2B projeleri için CMS içerik modeli nasıl kurulur? Content type, field, relation ve SEO/meta alanlarını tasarla; Next.js’e veri akışını stabil hale getir, yeniden mimari ihtiyacını düşür.",
+  "seo": {
+    "metaTitle": "Kurumsal Web Siteleri İçin CMS İçerik Modeli Rehberi | DGTLFACE",
+    "metaDescription": "Kurumsal web, otel ve B2B projeleri için CMS içerik modeli nasıl kurulur? Content type, field, relation ve SEO/meta alanlarını tasarla, Next.js’e akışı hızlandır. Analiz talep et."
+  },
+  "blueprint": {
+    "sheetSummary": [
+      "Silo: Yazılım",
+      "Sayfa Adı / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+      "Blog No / URL: Blog #1 — /tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi",
+      "Blog Tipi: Core",
+      "Intent: Informational + Tactical",
+      "Zorluk / Seviye: Intermediate–Expert",
+      "Word Count Range: 3000–3500",
+      "Refresh Cycle: 365 gün",
+      "Canonical: /tr/yazilim/blog/cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi"
+    ],
+    "strategySummary": "Bu içerik, “CMS entegrasyonu” hizmet sayfasını besleyen otorite taşıyan core rehber rolünde konumlanır: içerik ekibi (editoryal) ile yazılım ekibi (Next.js) arasındaki “aynı dili konuşma” problemini çözer. Hedef persona; otel sahibi/GM, satış-pazarlama lideri ve ajans yöneticisi kadar, projeyi yöneten ürün sahibi ve teknik lideri de kapsar. Funnel’da consideration (MoFu) ağırlıklıdır: “Hangi CMS, nasıl model, hangi alanlar, nasıl sürdürülebilir?” kararını hızlandırır. Ana iş sorusu: “Şimdiki ihtiyaç + 6/12 aylık roadmap’i düşünerek, CMS içerik modelini nasıl tasarlarsam yeniden mimari ihtiyacını azaltırım?”"
+  },
+  "byline": {
+    "author": "DGTLFACE Editorial",
+    "updatedAt": "2026-01-17",
+    "readingTime": "13 dk okuma"
+  },
+  "modules": {
+    "answerBlock": "Kurumsal web sitelerinde CMS içerik modeli; sayfa, blog, oda, paket, referans gibi içerikleri content type’lara ayırıp her birinin field setini (metin, rich text, medya, relation, lokalizasyon, SEO/meta) doğru tasarlama işidir. Amaç; içerik ekibinin hızlı üretim yapması ve Next.js tarafında tutarlı, esnek sayfa üretiminin sorunsuz çalışmasıdır. Modeli “bugün + 6/12 ay roadmap” ile kurmak, sonradan “CMS yetmiyor” revizyonlarını azaltır.",
+    "sgeSummary": "CMS içerik modelini content type + field + relation mantığıyla kur. SEO/meta, lokalizasyon ve URL/slug kurallarını baştan tanımla; Next.js veri akışını stabil hale getir, yeniden mimari ihtiyacını düşür.",
+    "voiceAnswer": "CMS’de az ama doğru: content type’ları ayır, zorunlu alanları netleştir, SEO/meta ve relation’ı standartlaştır.",
+    "aiFactSheet": [
+      "Hedef kitle: Otel/B2B kurumsal web ekipleri, ajanslar, ürün/teknik liderler",
+      "Ana KPI: İçerik yayına alma hızı, hatasız sayfa üretimi, bakım maliyeti, SEO tutarlılığı",
+      "Entity’ler: CMS Content Model, Content Types, Fields, Relations, SEO Fields",
+      "Funnel: Consideration (Informational + Tactical) → Hizmet talebine hazırlık",
+      "GEO sinyali: Türkiye geneli; örneklerde Antalya/Belek/Side/Kemer/Bodrum bağlamı",
+      "Teknik omurga: URL/slug, schema, hreflang, Next.js data fetching ve cache stratejisi",
+      "Fark yaratan açı: Modelleme + governance + versioning + migration planı (panel anlatımı değil)"
+    ]
+  },
+  "h1": {
+    "title": "CMS İçerik Modeli: Kurumsal Web Siteleri İçin Content Type ve Field Tasarımı",
+    "intro": "Kurumsal bir web sitesi “sayfa eklemek”ten ibaret değildir; içerik üretimi, SEO, çok dil, kampanya dönemleri ve ürün/hizmet büyüdükçe content architecture bir anda teknik bir probleme dönüşür. Doğru kurgulanmış bir CMS içerik modeli, içerik ekibinin işini kolaylaştırırken Next.js tarafında tutarlı ve ölçeklenebilir sayfa üretimini mümkün kılar. Bu rehberde, “şimdiki ihtiyaç + 6/12 aylık roadmap” perspektifiyle schema-aware modelling yaklaşımını da ekleyerek, otel ve B2B sitelerinde sürdürülebilir bir model kurmayı adım adım anlatıyorum.",
+    "quickSummary": [
+      "CMS içerik modelini “panel” değil, veri sözleşmesi (content contract) olarak düşün",
+      "Content type’ları şablon/SEO/ilişki/workflow farkına göre ayır",
+      "Field’ları çekirdek + opsiyonel olarak standardize et (SEO/meta dahil)",
+      "Relations’ı site mimarisi ve internal linking ile eşleştir (blog↔service, oda↔paket)",
+      "Çok dil + slug + hreflang + schema tetikleyicilerini modelin parçası yap",
+      "Versioning + migration + governance ile modeli sürdürülebilir hale getir"
+    ],
+    "ctaPrimary": {
+      "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
+      "text": "İçerik ekibi + Next.js geliştirme ekibi aynı modelde buluşsun diye, kurumsal web projeleri için net bir field planı çıkarırız.",
+      "href": "/yazilim/cms-entegrasyonu"
+    }
+  },
+  "ctaModule": {
+    "primary": {
+      "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
+      "text": "Kurumsal web, otel ve B2B projelerinde içerik ekibi + Next.js ekibi için net, sürdürülebilir field planı çıkarın.",
+      "href": "/yazilim/cms-entegrasyonu"
+    },
+    "secondary": {
+      "label": "CMS Content Model & Field Checklist Şablonunu İndir",
+      "text": "İçerik tipleri, zorunlu alanlar ve SEO/meta standardını 30 dakikada kontrol edip modelinizi hızla netleştirmenizi sağlar.",
+      "href": "/yazilim/cms-entegrasyonu"
+    }
+  },
+  "internalLinks": [
+    { "label": "CMS & Panel Entegrasyonu", "href": "/yazilim/cms-entegrasyonu" },
+    { "label": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+    { "label": "İçerik SEO", "href": "/seo/icerik-seo" },
+    { "label": "Teknik SEO", "href": "/seo/teknik-seo" }
+  ],
+  "relatedPosts": [
+    { "title": "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?", "href": "/yazilim/blog/nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur" },
+    { "title": "Hreflang ve Çok Dilli Teknik SEO: Haritalama Rehberi", "href": "/seo/blog/hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi" }
+  ],
+  "sections": [
+    
+    {
+      "id": "cms-icerik-modeli-nedir",
+      "title": "CMS İçerik Modeli Nedir?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CMS içerik modeli; içerikleri (sayfa, blog, oda, paket, kampanya, case study vb.) content type’lara ayırıp her tipin alanlarını (fields) ve ilişkilerini (relations) tanımlama disiplinidir. Bu disiplin iyi kurulmadığında; editoryal ekip her içerikte farklı ekranlar görür, geliştirici ekip her sayfa tipinde yeni koşullar yazar, SEO tarafında meta ve schema tutarsızlaşır. İyi kurulduğunda ise aynı içerik “panelde net”, “kodda öngörülebilir” ve “SERP/SGE’de daha tutarlı” görünür."
+        },
+        {
+          "type": "p",
+          "text": "Bu noktada kritik fikir şu: CMS’i “panel” değil, ürünün veri sözleşmesi (content contract) olarak düşünmek. Çünkü Next.js gibi modern framework’lerde sayfa üretimi; verinin şekline, zorunluluklarına, lokalizasyonuna ve cache mantığına bağlıdır. Yanlış model, performansı ve sürdürülebilirliği doğrudan etkiler."
+        },
+        { "type": "h3", "text": "CMS içerik modeli neden “yeniden mimari” ihtiyacını azaltır?" },
+        {
+          "type": "p",
+          "text": "İçerik modeli proje başında doğru tasarlanan sitelerde, yeni sayfa/özellik eklerken “CMS yetmiyor, tablo değiştirelim” ihtiyacı belirgin şekilde azalır. Bunun nedeni; içerik tipleri ve field setlerinin, yalnız bugünü değil 6/12 aylık roadmap’i taşıyacak şekilde kurgulanmasıdır. “Genelde/çoğu projede” en pahalı revizyonlar; URL/slug değişiklikleri, ilişki alanlarının sonradan eklenmesi ve çok dilli yapıların geç düşünülmesinden çıkar."
+        },
+        { "type": "h3", "text": "CMS içerik modeli nedir, nasıl tasarlanır? " },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Kısa cevap",
+          "items": [
+            "Önce içerik envanteri çıkar, sonra content type’ları belirle, field’ları standardize et, relation ve SEO/meta alanlarını sabitle, ardından Next.js veri akışını bu sözleşmeye göre kur."
+          ]
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Envanter: Hangi içerikler var ve hangileri büyüyecek?",
+            "Sözleşme: Hangi tip hangi alanları zorunlu kılar?",
+            "Governance: Kim hangi alanı doldurur, kim onaylar?",
+            "Versioning: Model değişirse migration nasıl yapılır?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "☑ Mini Check",
+          "items": [
+            "“Blog” ile “Sayfa” aynı tipte mi? (Genelde hatalı)",
+            "SEO/meta alanları her içerikte standart mı?",
+            "Çok dil ve slug kuralları yazılı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "İçerik envanteri çıkar (sayfa/blog/SSS/case/oda/paket).",
+            "6/12 aylık roadmap’te eklenecek içerik tiplerini işaretle.",
+            "“Zorunlu alan seti”ni yaz (başlık, slug, özet, görsel, SEO).",
+            "Relation ihtiyacını belirle (oda→paket, blog→hizmet, case→sektör).",
+            "Modeli dokümante et ve onay mekanizması kur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content-type-tanimlama",
+      "title": "Content Type Tanımlama (Sayfa, Blog, Oda, Paket, Referans vb.)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Content type tasarımı, “panelde kaç menü var?” sorusu değil; hangi içerikler farklı yaşam döngüsüne ve farklı şablona sahip? sorusudur. Bir content type; hem editoryal ekranı hem de front-end şablonunu temsil eder. İçerik türleri karışırsa, editoryal ekip doğru alanı bulamaz; geliştirici ekip de “her ihtimal” için kod yazar."
+        },
+        { "type": "media", "slot": "content-type" },
+        { "type": "h3", "text": "Hangi içerikler için ayrı content type açmalıyım? " },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Kısa cevap",
+          "items": [
+            "Şablonu, SEO kurgusu, ilişki ihtiyacı veya editoryal akışı farklı olan her içerik ayrı type olmalıdır."
+          ]
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Farklı şablon: Oda sayfası ile blog aynı olamaz.",
+            "Farklı SEO alanları: “Hizmet sayfası” ile “SSS” meta yapısı değişir.",
+            "Farklı ilişki: Oda→paket→kampanya gibi ilişkiler blogdan farklıdır.",
+            "Farklı workflow: Case study onay süreci blogdan farklı olabilir."
+          ]
+        },
+        {"type":"media","slot":"different-content"},
+        { "type": "h3", "text": "Otel sitesi için örnek content type seti" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Room (Oda): kapasite, metrekare, özellikler, galeri, fiyat/CTA, sezon etiketi",
+            "Package (Paket): tarih aralığı, dahil olanlar, fiyat bandı, şartlar",
+            "Destination (Destinasyon): bölge, ulaşım, harita, deneyimler",
+            "Campaign (Kampanya): teaser/launch/reminder alanları, bitiş tarihi",
+            "FAQ: soru/cevap tekrar eden yapı",
+            "Blog: kategori/etiket, yazar, okuma süresi, içerik blokları"
+          ]
+        },
+        { "type": "h3", "text": "B2B kurumsal site için örnek content type seti" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Service (Hizmet): problem–çözüm, süreç, deliverables, CTA blokları",
+            "Case Study: problem/müdahale/sonuç + KPI kartı",
+            "Reference/Partner: logo, sektör, proje türü",
+            "Resource (Rehber/İndirilebilir): asset yönetimi",
+            "FAQ: satış engellerini çözen soru seti",
+            "Blog: thought leadership + how-to"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "☑ Mini Check",
+          "items": [
+            "“Service” ve “Blog” ayrıldı mı?",
+            "“FAQ” bağımsız bir type mı (tekrar kullanılabilirlik)?",
+            "Kampanya içerikleri “tarih” alanına sahip mi (bitince otomatik pasif)?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Şablonları listele: hangi sayfa hangi blokları kullanıyor?",
+            "Her şablon için ayrı type mı yoksa “blok tabanlı” yaklaşım mı karar ver.",
+            "Oda/paket/destinasyon gibi ilişkili tipleri erken tanımla.",
+            "SSS ve case gibi tekrar kullanılan içerikleri ayrı type yap.",
+            "İçerik ekibinin panel deneyimini test et (editorial UX)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field-tasarimi",
+      "title": "Field Tasarımı (Metin, Rich Text, Media, Relation, Lokalizasyon)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Field tasarımı; “hangi alanlar var?” değil, hangi alanlar zorunlu, hangileri opsiyonel, hangileri standardize? sorusudur. İyi bir field seti; editoryal ekibi korur (yanlış veri girişi azalır) ve front-end tarafını hızlandırır (her sayfa için özel koşul yazma ihtiyacı düşer)."
+        },
+        { "type": "media", "slot": "mandatory-optional" },
+        { "type": "h3", "text": "Field seviyesinde zorunlu/opsiyonel alanlar nasıl belirlenir?" },
+        {
+          "type": "p",
+          "text": "Zorunluluk, genelde üç şeye göre belirlenir: SEO, sayfa şablonu, iş akışı. Örneğin blogda “kapak görseli” zorunlu olabilir; ama “Video” opsiyonel kalabilir. Service sayfasında “Primary CTA” zorunludur; “Secondary CTA” roadmap’e göre opsiyonel kalabilir."
+        },
+        { "type": "h3", "text": "Önerilen field kategorileri (genel)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Identity: title, slug, locale, status (draft/published)",
+            "Content: summary, body (rich text / block editor), sections",
+            "Media: cover image, gallery, video, attachments",
+            "SEO: meta title, meta description, canonical, robots, OG image",
+            "Relations: category, tags, related posts, related services",
+            "Governance: author, reviewer, publish date, version"
+          ]
+        },
+                { "type": "media", "slot": "field-design" },
+        { "type": "h3", "text": "SEO/Meta alanları (schema ve SERP uyumu)" },
+        {
+          "type": "p",
+          "text": "Kurumsal projelerde en sık hata: SEO alanlarını içerik alanına karıştırmak. SEO alanları her içerikte standart olmalı ve şunları kapsamalı: Meta Title/Meta Description, Canonical URL (özellikle benzer içerikler), OG Image ve sosyal paylaşım alanları, Index/noindex, follow/nofollow, Structured data tetikleyicileri (ör. FAQ var mı?). Teknik SEO Notu ile uyum: URL/slug standardı, schema kurgusu ve çok dilde hreflang yaklaşımı içerik modelinin parçası olmalı."
+        },
+        { "type": "h3", "text": "Media ve relation alanları: Ne zaman şart?" },
+        {
+          "type": "p",
+          "text": "Media alanlarını “görsel yükledik bitti” diye düşünmeyin. Hero, OG, kart görselleri ve galeri farklı ihtiyaçlardır. Relation alanları ise içerikleri birbirine bağlayarak hem kullanıcı deneyimini hem internal linking’i güçlendirir: Blog → Service ilişkilendirme (iç link hedefleri), Room → Package, Destination ilişkisi (otel bağlamı), Case Study → Service, Sector ilişkisi (B2B bağlamı)."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "☑ Mini Check",
+          "items": [
+            "Slug alanı tekil ve versiyonlanabilir mi?",
+            "Meta Title/Description her type’ta var mı?",
+            "Relation alanları “çoklu seçim” mi, “tek seçim” mi doğru?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Field setini “çekirdek + opsiyonel” diye ikiye ayır.",
+            "SEO/meta alanlarını tüm type’larda standartlaştır.",
+            "Medya alanlarını amaçlarına göre ayır (hero/og/gallery).",
+            "Relation’ları “site mimarisi” ile eşleştir (blog↔service, oda↔paket).",
+            "Çok dilli yapı + slug/hreflang kuralını dokümante et."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otel-b2b-ornek-modeller",
+      "title": "Otel ve B2B İçin Örnek İçerik Modelleri",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bu bölüm, rakiplerin çoğunun atladığı “ileri tasarım” katmanını kapatır: yalnız içerik tipi saymak yerine, modeli büyüten ilişkileri ve SEO sözleşmesini netleştirir. Otel projelerinde oda/paket/destinasyon ilişkileri; B2B projelerinde service/case/reference ilişkileri kritik fark yaratır."
+        },
+        { "type": "media", "slot": "hotel-b2b" },
+        { "type": "h3", "text": "Otel modeli örneği (Room–Package–Destination–Campaign)" },
+        {
+          "type": "p",
+          "text": "Aşağıdaki model, Türkiye’de özellikle Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon odaklı aramalarda “yerel sayfa + deneyim + teklif” mimarisini taşır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Room → (relation) Package (çoklu)",
+            "Package → (relation) Campaign (opsiyonel)",
+            "Destination → (relation) Room / Package (çoklu)",
+            "Blog → (relation) Destination / Service (çoklu)",
+            "FAQ → hem Service hem Room altında yeniden kullanılabilir"
+          ]
+        },
+        { "type": "h3", "text": "B2B modeli örneği (Service–Case Study–Reference–FAQ)" },
+        {
+          "type": "p",
+          "text": "B2B tarafında amaç; “hizmet + kanıt + süreç + SSS” ile satış engellerini kırmaktır:"
+        },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Service → (relation) Case Study (çoklu)",
+            "Case Study → (relation) Reference/Partner (çoklu)",
+            "FAQ → Service’lere bağlanır",
+            "Blog → Service’lere bağlanır (otorite → dönüşüm yolu)"
+          ]
+        },
+        { "type": "h3", "text": "Örnek içerik modeli tablosu (1 tablo – Media Pack ile uyumlu)" },
+        {
+          "type": "table",
+          "caption": "Örnek içerik modeli tablosu (1 tablo – Media Pack ile uyumlu)",
+          "headers": [
+            "Content Type",
+            "Zorunlu Alanlar (çekirdek)",
+            "Opsiyonel Alanlar",
+            "İlişkiler (Relations)",
+            "SEO/Meta"
+          ],
+          "rows": [
+            [
+              "Blog",
+              "Title, Slug, Summary, Body, Cover",
+              "Author, Reading time, Video",
+              "Category, Tags, Related Service",
+              "Meta title/desc, OG, canonical"
+            ],
+            [
+              "Service",
+              "Title, Slug, Problem/Solution, CTA",
+              "Secondary CTA, Proof blocks",
+              "Related Blog, Related Cases",
+              "Meta + schema tetikleyici"
+            ],
+            [
+              "Room (Otel)",
+              "Title, Slug, Gallery, Features",
+              "Video, 360, Season tag",
+              "Packages, Destination",
+              "Meta + Room/Hotel uyumu"
+            ],
+            [
+              "Package",
+              "Title, Date range, Inclusions",
+              "Price band, Terms",
+              "Rooms, Campaign",
+              "Meta + landing uyumu"
+            ],
+            [
+              "FAQ",
+              "Question, Answer",
+              "Category",
+              "Service/Room ilişkisi",
+              "FAQPage uyumu"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "☑ Mini Check",
+          "items": [
+            "Room/Package/Destination ilişkisi net mi?",
+            "Service/Case/Reference zinciri kurulmuş mu?",
+            "FAQ içerikleri tekrar kullanılabilir mi?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Otel tarafında Room–Package–Destination ilişkisini önce tasarla.",
+            "B2B tarafında Service–Case–Reference üçlüsünü “kanıt zinciri” olarak kur.",
+            "Blog’u yalnız içerik değil, dönüşüm yolu (blog→service) olarak bağla.",
+            "FAQ’ları bağımsız type yap; birden fazla yerde kullan.",
+            "Modeli tablo + diyagramla dokümante et."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cms-nextjs-veri-akisi",
+      "title": "CMS’ten Next.js’e Veri Akışı",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CMS modeli iyi olsa bile, veri akışı ve yayınlama mimarisi doğru değilse ekipler yine zorlanır. Next.js tarafında amaç; CMS’den gelen veriyi öngörülebilir, cache’lenebilir, çok dilli ve SEO uyumlu bir şekilde sayfaya dönüştürmektir. Bu yüzden “schema-aware modelling” yaklaşımıyla, model ve front-end sözleşmesi birlikte düşünülmelidir."
+        },
+        { "type": "media", "slot": "cms-model" },
+        { "type": "h3", "text": "Veri akışı planı (önerilen)" },
+        {
+          "type": "list",
+          "style": "ul",
+          "items": [
+            "Draft/Preview: içerik ekibi ön izleme görür (staging/preview)",
+            "Publish: publish tetikleyince cache invalidation (revalidate) çalışır",
+            "SEO üretimi: meta + canonical + OG + schema aynı sözleşmeden gelir",
+            "i18n: locale bazlı slug, hreflang ve içerik fallback kuralları belirlenir"
+          ]
+        },
+        { "type": "h3", "text": "URL/Slug, hreflang, schema uyumu (Technical SEO)" },
+        {
+          "type": "p",
+          "text": "İçerik modeli; slug’ı yalnız “metin alanı” olarak değil, URL sözleşmesi olarak ele almalıdır. Çok dilli projelerde slug yönetimi kritikleşir: örneğin TR/EN içerikler birebir aynı olmaz; hreflang mantığı ve canonical kuralları baştan tanımlanmalıdır. Ayrıca schema türleri (FAQ/HowTo/Article/Service) CMS’de “tetikleyici alanlar” ile yönetilirse, front-end tarafında manuel iş azalır."
+        },
+        {
+          "type": "p",
+          "text": "İç link uyumu: Bu yaklaşımın altyapı mantığı /tr/yazilim/web-sitesi-gelistirme ve içerik stratejisi /tr/seo/icerik-seo ile birlikte ele alınmalıdır."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "☑ Mini Check",
+          "items": [
+            "Preview akışı var mı (editoryal UX)?",
+            "Publish sonrası cache temizliği/yenileme net mi?",
+            "Schema ve hreflang kuralı modelde yazılı mı?"
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Preview + publish akışını dokümante et (kim, neyi onaylar?).",
+            "CMS’de schema tetikleyicilerini standartlaştır (FAQ var mı, HowTo var mı?).",
+            "Locale + slug + hreflang kuralını yaz ve test et.",
+            "Revalidate/cache stratejisini içerik tipine göre belirle.",
+            "İç link hedeflerini (blog→service) modelde relation olarak kur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "versioned-modelling",
+      "title": "Fark Yaratan Mini Bölüm: Modeli “Versioned” Tasarla",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rakip içeriklerin çoğu CMS’i sadece “panel” olarak anlatıyor; oysa sürdürülebilirlik versioning + migration + governance ile gelir. “Yeni bir content type eklemek” kaçınılmazdır; önemli olan bunu kontrollü yapmak. Yılda en az 1 kez (Refresh Cycle: 365) model gözden geçirilmeli; yeni içerik tipleri ve SEO ihtiyaçları geldikçe field setleri versioned şekilde güncellenmelidir."
+        },
+        {
+          "type": "callout",
+          "variant": "action",
+          "title": "Ne yapmalıyım? ",
+          "items": [
+            "Model değişikliklerini “v1.0 / v1.1” gibi versiyonla.",
+            "Migration notu tut: eski içeriklere ne olacak?",
+            "Field deprecate politikası belirle (kaldırma yerine pasifleştirme).",
+            "Editoryal rehberi güncelle ve eğitim planı yap.",
+            "Yıllık model review takvimi oluştur (365 gün)."
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "cms-checklist-asset",
+      "title": "CMS Content Model & Field Checklist Şablonunu İndir — Yazılım / CMS içerik modeli",
+      "blocks": [
+        {
+          "type": "download_asset",
+          "assetType": "checklist",
+          "version": "v1.0",
+          "title": "CMS Content Model & Field Checklist Şablonunu İndir — Yazılım / CMS içerik modeli (v1.0)",
+          "purpose": "Bu asset; kurumsal web, otel ve B2B projelerinde CMS içerik modelini “az ama doğru” kurmak için content type + field + relation + SEO/meta kontrolünü hızlandırır. Modelin roadmap’i taşıyıp taşımadığını ve Next.js veri akışına uygunluğunu 30–60 dakikada netleştirmenizi sağlar.",
+          "whoFor": "İçerik lideri, ürün sahibi, teknik lider, SEO uzmanı ve ajans proje yöneticisi.",
+          "steps": [
+            "Mevcut içerik envanterinizi çıkarın ve type’ları işaretleyin.",
+            "Field checklist’i doldurun; eksikleri “v1.1 backlog” olarak yazın.",
+            "14 günlük sprint planıyla düzenlemeleri uygulayın ve KPI’ları ölçün."
+          ],
+          "checklist": [
+            "İçerik envanteri çıkarıldı (sayfa/blog/SSS/case/oda/paket)",
+            "Content type seti şablonlara göre ayrıldı",
+            "Zorunlu alan seti tanımlandı (title/slug/summary/body/cover)",
+            "SEO/meta alanları tüm type’larda standart",
+            "Relation alanları site mimarisi ile eşleşiyor (blog↔service, oda↔paket)",
+            "Çok dil (locale) + slug + hreflang kuralı dokümante",
+            "Preview/publish workflow net (editorial UX)",
+            "Schema tetikleyicileri (FAQ/HowTo/Article/Service) tanımlı",
+            "Model versioning planı var (v1.0/v1.1)",
+            "Annual review (365) takvimi var"
+          ],
+          "href": "/downloads/cms-content-model-field-checklist-v1.0.pdf",
+          "buttonLabel": "Checklist’i İndir"
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "title": "Sonuç: “Az ama doğru” model, hız + sürdürülebilirlik getirir",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "CMS içerik modelini doğru kurduğunuzda, içerik ekibi daha hızlı ve hatasız üretim yapar; Next.js tarafında sayfa üretimi daha öngörülebilir hale gelir; SEO/meta ve schema çıktıları tutarlı olur. En büyük kazanım ise şudur: 6/12 aylık roadmap büyüdüğünde bile “yeniden mimari” ihtiyacı azalır."
+        },
+        {
+          "type": "cta",
+          "variant": "primary",
+          "label": "CMS İçerik Modeli & Alan Tasarımı Analizi Talep Et",
+          "text": "Kurumsal web, otel ve B2B projelerinde içerik ekibi + Next.js ekibi için net, sürdürülebilir field planı çıkarın.",
+          "href": "/yazilim/cms-entegrasyonu"
+        },
+        {"type":"media","slot":"software-content-team"}
+      ]
+    }
+  ],
+  "faqTitle": "Sık Sorulan Sorular",
+  "faq": [
+    {
+      "q": "CMS içerik modeli nedir, nasıl tasarlanır?",
+      "a": "CMS içerik modeli; content type, field ve relation kurgusuyla içeriklerin “veri sözleşmesini” tanımlar. Envanter çıkarıp type’ları ayırın, çekirdek field setini standartlaştırın, SEO/meta ve çok dil kurallarını ekleyin, Next.js veri akışını buna göre kurun."
+    },
+    {
+      "q": "Hangi içerikler için ayrı content type açmalıyım?",
+      "a": "Şablonu, SEO kurgusu, ilişki ihtiyacı veya workflow’u farklı olan içerikler ayrı type olmalıdır. Oda/paket/destinasyon gibi ilişkili içerikler ve service/case/SSS gibi farklı amaçlı içerikler aynı type’ta birleşmemelidir."
+    },
+    {
+      "q": "Otel siteleri için örnek CMS alanları neler olmalı?",
+      "a": "Room için galeri, özellikler, kapasite; Package için tarih aralığı ve dahil olanlar; Destination için harita/ulaşım ve deneyimler gibi alanlar gerekir. Her type’ta meta title/description, canonical, OG görsel gibi SEO alanları standart olmalıdır."
+    },
+    {
+      "q": "B2B kurumsal sitelerde service ve case study modeli nasıl kurulmalı?",
+      "a": "Service; problem–çözüm–süreç–deliverables–CTA alanlarını içerir. Case study; problem–müdahale–sonuç ve KPI kartları ile service’e relation üzerinden bağlanır; referans/partner içerikleri kanıt zincirini güçlendirir."
+    },
+    {
+      "q": "CMS’ten Next.js’e içerik akışı nasıl planlanır?",
+      "a": "Preview/publish workflow’u kurup yayın sonrası cache yenileme (revalidate) stratejisi belirleyin. Locale + slug + hreflang kuralları ve schema tetikleyicileri (FAQ/HowTo/Article/Service) CMS modeline eklenirse Next.js tarafı daha stabil olur."
+    },
+    {
+      "q": "SEO/meta alanları CMS’de nasıl standardize edilmeli?",
+      "a": "Meta title/description, canonical, robots, OG image gibi alanları tüm içerik tiplerinde aynı isim ve mantıkla tutun. Böylece editoryal ekip tutarlı veri girer, front-end tek sözleşmeyle SEO üretir."
+    },
+    {
+      "q": "Relation alanları ne zaman zorunludur?",
+      "a": "İç link stratejisi ve sayfa mimarisi relation’a dayanıyorsa zorunludur. Örneğin blog→service veya oda→paket ilişkileri, hem kullanıcı deneyimini hem SEO internal linking’i doğrudan etkiler."
+    }
+  ],
+  "internal": {
+    "locked": {
+      "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+      "mediaPack": [
+        "Hero / Cover — 1920×1080 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-hero-01.webp",
+        "H1 Context — 1920×1080 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-h1-context-02.webp",
+        "Section Divider 01 — 1600×1200 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-divider-03.webp",
+        "Section Divider 02 — 1600×1200 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-divider-04.webp",
+        "Diagram / Flow — 1920×1080 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-diagram-05.webp",
+        "Checklist / Framework Card — 1200×1200 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-checklist-06.webp",
+        "KPI / Score Card — 1200×1200 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-kpi-07.webp",
+        "Deliverables / Proof Card — 1200×1200 — cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi-proof-08.webp"
+      ],
+      "altText": [
+        "CMS içerik modeli rehberini özetleyen görsel, otel ve B2B bağlamı",
+        "Content type ve field ilişkisinin özeti, kurumsal web ekipleri bağlamı",
+        "İçerik tiplerini ayırma prensibi görseli, otel pazarlama bağlamı",
+        "Field tasarım akışını bölen görsel, B2B kurumsal site bağlamı",
+        "Content type–field–relation diyagramı, otel ve B2B mimari bağlamı",
+        "CMS field checklist özeti kartı, editoryal ekip operasyon bağlamı",
+        "Yayın hızı ve hata oranı KPI kartı, kurumsal web proje bağlamı",
+        "Content model çıktıları ve güven unsurları kartı, otel ve B2B bağlamı"
+      ],
+      "technicalChecklist": [
+        "Canonical kontrolü (parametreli sayfalar dahil)",
+        "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+        "TR/EN/DE/RU hreflang (varsa) karşılıklılık kontrolü",
+        "Schema tetikleyicileri: FAQ/HowTo/Article/Service alanları ve @graph üretimi",
+        "Preview/publish akışı + revalidate/cache invalidation doğrulandı",
+        "Relation alanları internal link stratejisiyle eşleşiyor (blog↔service, oda↔paket)",
+        "Slug sözleşmesi: uniqueness + locale fallback + redirect politikası",
+        "Versioning/migration notları tutuluyor (v1.0/v1.1)",
+        "Refresh Cycle 365: model review takvimi oluşturuldu"
+      ]
+    }
+  }
+}
+
+
+
   }
 
   

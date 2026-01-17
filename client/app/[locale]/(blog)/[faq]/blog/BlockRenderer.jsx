@@ -56,17 +56,16 @@ switch (block.type) {
   className="object-cover object-center"
   loading="lazy"
   quality={75}
-          // className="object-cover object-center"
-          // priority={Boolean(block?.priority)}
-          // onLoadingComplete={(img) => {
-          //   const w = img.naturalWidth || 0;
-          //   const h = img.naturalHeight || 0;
-          //   if (!w || !h) return;
+          priority={Boolean(block?.priority)}
+          onLoadingComplete={(img) => {
+            const w = img.naturalWidth || 0;
+            const h = img.naturalHeight || 0;
+            if (!w || !h) return;
 
-          //   const ratio = w / h; // 1 => kare
-          //   const square = Math.abs(ratio - 1) <= SQUARE_TOLERANCE;
-          //   setIsSquare(square);
-          // }}
+            const ratio = w / h; // 1 => kare
+            const square = Math.abs(ratio - 1) <= SQUARE_TOLERANCE;
+            setIsSquare(square);
+          }}
         />
       </div>
 

@@ -5,14 +5,17 @@ export const BLOG_MAP = {
     "google-ads-hesap-ve-kampanya-mimarisi":"BlogGoogleAdsHesapVeKampanyaMimarisi",
     "google-ads-butce-ve-teklif-stratejileri":"BlogGoogleAdsButceVeTeklifStratejileri",
     "google-ads-kalite-puani-nedir-nasil-yukseltilir":"BlogGoogleAdsKalitePuaniNedirNasilYukseltilir",
-    "google-ads-donusum-kurgusu-ve-takibi":"BlogGoogleAdsDonusumKurgusuVeTakibi"
+    "google-ads-donusum-kurgusu-ve-takibi":"BlogGoogleAdsDonusumKurgusuVeTakibi",
+
+    "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
     "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin":"BlogSiteMimarisiVeUrlYapisiOtelVeAjansSiteleriIcin",
     "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu",
     "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi",
-    "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri"
+    "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri",
+    "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin"
   },
 
     smm: {
@@ -20,7 +23,9 @@ export const BLOG_MAP = {
     "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur":"BlogAylikSosyalMedyaIcerikTakvimiNasilKurulur",
     "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli":"BlogOtelVeTurizmMarkalariIcin1Ayda20IcerikModeli",
     "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi",
-    "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":"BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu"
+    "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":"BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu",
+
+    "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework"
   },
 
     yazilim: {
@@ -28,7 +33,9 @@ export const BLOG_MAP = {
     "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur":"BlogNextjsIleKurumsalWebSitesiMimarisiNasilKurulur",
     "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu":"BlogWebSitesiPerformansRehberiCoreWebVitalsVeHizOptimizasyonu",
     "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":"BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu",
-    "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":"BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli"
+    "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":"BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli",
+
+    "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",

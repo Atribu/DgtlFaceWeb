@@ -122,8 +122,8 @@ export default async function BlogDetailPage({ params }) {
   if (post.department !== department) notFound();
 
   // Media (wireframe slotları)
-  const bannerMedia = getMediaBySlot(slug, "banner");       // HERO / COVER
-  const h1ContextMedia = getMediaBySlot(slug, "h1-context"); // H1 sonrası context görseli
+  const bannerMedia = getMediaBySlot(slug, "banner");      
+  const h1ContextMedia = getMediaBySlot(slug, "h1-context");
 
   // Meta bilgileri
   const updatedAt = post.updatedAt || post.publishedAt || "";

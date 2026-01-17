@@ -2551,6 +2551,207 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+   "oteller-icin-youtube-reklam-turleri":{
+     banner: {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-1.jpeg",
+      alt: "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?",
+      caption: "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-2.jpeg",
+      alt: "",
+      caption: "YouTube hedefi ve otel funnel eşlemesini hızlı anlatan bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-3.jpeg",
+      alt: "",
+      caption: "Skippable ve non-skippable karşılaştırmasına geçiş için otel temalı ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-4.jpeg",
+      alt: "",
+      caption: "Discovery ve karar bölümüne geçiş için otel temalı ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-5.jpeg",
+      alt: "",
+      caption: "Funnel aşamasına göre YouTube format seçimini gösteren otel karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-6.jpeg",
+      alt: "",
+      caption: "Otel YouTube reklam format seçimi için mini checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-7.jpeg",
+      alt: "",
+      caption: "YouTube kampanyasında 5 KPI ile performansı özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-1/SEM2-1-8.jpeg",
+      alt: "",
+      caption: "Otel YouTube reklam planı deliverables ve güven unsurlarını gösteren kart"
+    }
+  },
+
+
+  "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":{
+     banner: {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-1.jpeg",
+      alt: "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
+      caption: "Google Haritalar sıralama faktörleri özeti, otel görünürlüğünü anlatan kapak görseli"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-2.jpeg",
+      alt: "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
+      caption: "Local Pack 3’lü sonuç ekranı, otel araması bağlamında görünürlüğü gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-3.jpeg",
+      alt: "Google Haritalar ve Local Pack nasıl çalışır? (Mantık + SERP davranışı)",
+      caption: "Local Pack mantığına giriş, otel harita görünürlüğü bölüm ayraç görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-4.jpeg",
+      alt: "Google Business Profile sinyalleri: Kategori, içerik ve güncellik",
+      caption: "GBP optimizasyon bölümüne geçiş, otel profil yönetimi ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-5.jpeg",
+      alt: "İlk 30 günde yapılacaklar: Local Pack görünürlüğü için otel sprinti",
+      caption: "GBP–NAP–Site üçgeni diyagramı, otel Local Pack karar akışını anlatan şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-6.jpeg",
+      alt: "Mini Check (30 Günlük Sprint Çıkışı)",
+      caption: "30 gün Local Pack checklist’i, otel görünürlüğü için hızlı kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-7.jpeg",
+      alt: "Harita KPI seti, otel için önce–sonra performans paneli",
+      caption: "Harita KPI seti, otel için önce–sonra performans paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-1/SEO2-1-8.jpeg",
+      alt: "Yerel SEO çıktı seti, otel için deliverables ve güven unsuru kartı",
+      caption: "Yerel SEO çıktı seti, otel için deliverables ve güven unsuru kartı"
+    }
+  },
+
+  "sosyal-medya-stratejisi-nasil-yazilir-framework":{
+     banner: {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-1.jpeg",
+      alt: "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
+      caption: "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework"
+    },
+
+          "h1-context": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-2.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-3.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-4.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-6.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-7.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-1/SMM2-1-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  },
+
+  "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":{
+    banner: {
+      src: "/images/blog/software/Software2-1/Software2-1-1.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "content-type": {
+      src: "/images/blog/software/Software2-1/Software2-1-2.jpeg",
+      alt: "Content Type Tanımlama (Sayfa, Blog, Oda, Paket, Referans vb.)",
+      caption: "Content Type Tanımlama (Sayfa, Blog, Oda, Paket, Referans vb.)"
+    },
+
+           "different-content": {
+      src: "/images/blog/software/Software2-1/Software2-1-3.jpeg",
+      alt: "Hangi içerikler için ayrı content type açmalıyım?",
+      caption: "Hangi içerikler için ayrı content type açmalıyım?"
+    },
+
+    "mandatory-optional": {
+      src: "/images/blog/software/Software2-1/Software2-1-4.jpeg",
+      alt: "Field Tasarımı (Metin, Rich Text, Media, Relation, Lokalizasyon)",
+      caption: "Field Tasarımı (Metin, Rich Text, Media, Relation, Lokalizasyon)"
+    },
+
+     "hotel-b2b": {
+      src: "/images/blog/software/Software2-1/Software2-1-5.jpeg",
+      alt: "Otel ve B2B İçin Örnek İçerik Modelleri",
+      caption: "Otel ve B2B İçin Örnek İçerik Modelleri"
+    },
+
+          "field-design": {
+      src: "/images/blog/software/Software2-1/Software2-1-6.jpeg",
+      alt: "Önerilen field kategorileri ",
+      caption: "Önerilen field kategorileri "
+    },
+
+      "cms-model": {
+      src: "/images/blog/software/Software2-1/Software2-1-7.jpeg",
+      alt: "CMS’ten Next.js’e Veri Akışı",
+      caption: "CMS’ten Next.js’e Veri Akışı"
+    },
+
+          "software-content-team": {
+      src: "/images/blog/software/Software2-1/Software2-1-8.jpeg",
+      alt: "“Az ama doğru” model, hız + sürdürülebilirlik getirir",
+      caption: "Yazılım ve İçerik Ekipleri İçin Ortak Dil"
+    }
+  }
+
   
 };
 
