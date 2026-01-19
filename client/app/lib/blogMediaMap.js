@@ -2750,8 +2750,159 @@ export const BLOG_MEDIA_MAP = {
       alt: "“Az ama doğru” model, hız + sürdürülebilirlik getirir",
       caption: "Yazılım ve İçerik Ekipleri İçin Ortak Dil"
     }
-  }
+  },
 
+
+  "otel-rezervasyon-ux-temelleri":{
+     banner: {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-1.jpeg",
+      alt: "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+      caption: "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber"
+    },
+
+          "reservation-mobil": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-2.jpeg",
+      alt: "Otel rezervasyon UX’i neden kritik?",
+      caption: "Otel rezervasyon UX’i neden kritik?"
+    },
+
+           "": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-3.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+    "4-step-diagram": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-4.jpeg",
+      alt: "Otel rezervasyon süreci kaç adım olmalı?",
+      caption: "İdeal Otel Rezervasyon Hunisi"
+    },
+
+     "": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-6.jpeg",
+      alt: "Otel rezervasyon UX’i için hızlı uygulanabilir kontrol listesi kartı",
+      caption: "Otel Ux Hızlı Kontrol Listesi"
+    },
+
+      "funnel-kpi": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-7.jpeg",
+      alt: "Rezervasyon dönüşüm KPI’larını özetleyen skor kartı ",
+      caption: "Rezervasyon Funnel KPI'ları"
+    },
+
+          "": {
+      src: "/images/blog/creative/Creative2-1/Creative2-1-8.jpeg",
+      alt: "",
+      caption: "Ux Analizi Çıktıları & Güven Kanıtı"
+    }
+  },
+
+  "otel-rezervasyon-cagri-merkezi-nedir-akis":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-1.jpeg",
+      alt: "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+      caption: "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?"
+    },
+
+          "flow": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-2.jpeg",
+      alt: "Otel Rezervasyon Çağrı Merkezinin Temel Rolü",
+      caption: "Otel Rezervasyon Çağrı Merkezinin Temel Rolü"
+    },
+
+           "pms-notes": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-3.jpeg",
+      alt: "PMS’te Kayıt Oluştururken Kritik Alanlar",
+      caption: "PMS’te Kayıt Oluştururken Kritik Alanlar"
+    },
+
+    "matrix-callcenter-reservation": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-4.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+     "5-steps-diagram": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-5.jpeg",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-6.jpeg",
+      alt: "10 Adım (hızlı checklist)",
+      caption: "10 Adım (hızlı checklist)"
+    },
+
+      "kpi-panel": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-7.jpeg",
+      alt: "KPI’ları Doğru Okuma",
+      caption: "KPI’ları Doğru Okuma"
+    },
+
+          "download": {
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-8.jpeg",
+      alt: "",
+      caption: ""
+    }
+  
+  },
+
+  "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":{
+      banner: {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-1.jpeg",
+      alt: "OTA Entegrasyonu Nedir? Booking & Expedia ile Oteliniz Nasıl Çalışır?",
+      caption: "OTA Entegrasyonu Nedir? Booking & Expedia ile Oteliniz Nasıl Çalışır?"
+    },
+
+          "channel-manager": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-2.jpeg",
+      alt: "PMS ve channel manager bağlam görseli, Booking-Expedia entegrasyonu",
+      caption: "PMS ve channel manager bağlam görseli, Booking-Expedia entegrasyonu"
+    },
+
+           "ota-integrationdistinction": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-3.jpeg",
+      alt: "OTA entegrasyonu kavram ayrımı görseli, otel operasyon çerçevesi",
+      caption: "OTA entegrasyonu kavram ayrımı görseli, otel operasyon çerçevesi"
+    },
+
+    "price-inventory-transition": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-4.jpeg",
+      alt: "Fiyat ve envanter yönetimi geçiş görseli, otel gelir yönetimi",
+      caption: "Fiyat ve envanter yönetimi geçiş görseli, otel gelir yönetimi"
+    },
+
+     "rate-inventory-synchronization": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-5.jpeg",
+      alt: "PMS’den OTA’ya veri akışı diyagramı, rate ve inventory senkronu",
+      caption: "PMS’den OTA’ya veri akışı diyagramı, rate ve inventory senkronu"
+    },
+
+          "checklist": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-6.jpeg",
+      alt: "OTA entegrasyonu kontrol çerçevesi kartı, otel satış süreci",
+      caption: "OTA entegrasyonu kontrol çerçevesi kartı, otel satış süreci"
+    },
+
+      "ota-kpi": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-7.jpeg",
+      alt: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı”",
+      caption: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı"
+    },
+
+          "deliverables": {
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-8.jpeg",
+      alt: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi",
+      caption: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi"
+    }
+  }
   
 };
 

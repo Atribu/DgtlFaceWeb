@@ -47821,9 +47821,1815 @@
       ]
     }
   }
-}
+},
 
+"BlogOtelRezervasyonUXTemelleri": {
+    "title": "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+    "slug": "otel-rezervasyon-ux-temelleri",
+    "department": "creative",
+    "updatedAt": "19 Ocak 2026",
+    "publishedAt": "2026-01-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel rezervasyon UX’i için misafir yolculuğunu keşiften ödemeye sadeleştirin. Booking funnel, mikro kopya, güven unsurları ve GA4 ölçümüyle dönüşümü artırın.",
+    "seo": {
+      "metaTitle": "Otel Rezervasyon UX’i: 3 Adımda Funnel Rehberi | DGTLFACE",
+      "metaDescription": "Otel rezervasyon UX’i için misafir yolculuğunu keşiften ödemeye sadeleştirin. Booking funnel, mikro kopya, güven unsurları ve GA4 ölçümüyle dönüşümü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı / Kodu: UI & UX Tasarımı (creative-2)",
+        "Sayfa URL: Varsayım: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+        "Blog Tipi / No: Core / 1",
+        "Blog URL: Varsayım: https://dgtlface.com/tr/creative/blog/otel-rezervasyon-ux-temelleri",
+        "Blog Başlık / H1: Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+        "Intent: Informational (Beginner)",
+        "(V2.3 Kilidi) Difficulty/Expertise: Intermediate–Expert",
+        "(V2.3 Kilidi) Word Count: 3000–3500",
+        "Canonical: /tr/creative/blog/otel-rezervasyon-ux-temelleri"
+      ],
+      "strategySummary": "Bu içerik, UI/UX silo’sunda “otel rezervasyon UX rehberi” olarak parent/hub rolü üstlenir; ileride mobil UX, ödeme güveni, çok dilli akış, PMS/OTA entegrasyonu gibi daha niş içeriklere iç link dağıtan “otorite taşıyıcı” sayfa olur. Hedef persona; otel sahibi, satış-pazarlama yöneticisi ve ajans tarafında dönüşüm sorumlusu yöneticidir. Funnel aşaması ağırlıklı olarak consideration (MoFu): “rezervasyon funnel optimizasyonu” ile doğrudan dönüşüm artışı kararını kolaylaştırır. Ana iş sorusu: “Misafir keşiften ödeme adımına kadar kaç adımda, hangi sırayla ve hangi UX ilkeleriyle en az sürtünmeyle ilerler; bunu nasıl ölçer ve sürekli iyileştiririm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-19",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "İyi tasarlanmış bir otel rezervasyon UX’i, misafirin keşif aşamasından ödeme adımına kadar takılmadan ilerlemesini sağlar. Net tarih/kişi seçimi, anlaşılır oda tipleri, şeffaf fiyatlama, sürtünmesi düşük form alanları ve güven veren ödeme ekranı temel yapı taşlarıdır. Bu rehber; rezervasyon akışını kaç adımda kurmanız gerektiğini, her ekranda hangi bilgilerin “kritik” olduğunu ve GA4 ile funnel’ı nasıl ölçeceğinizi pratik örneklerle açıklar.",
+      "sgeSummary": "Otel rezervasyon UX’i, misafir yolculuğunu 3–4 net ekranda tamamlatmayı hedefler: keşif → seçim → bilgi/form → ödeme. Şeffaf fiyat, güven unsurları ve GA4 ölçümü dönüşümü artırır.",
+      "voiceAnswer": "Otel rezervasyon UX’i, adımları azaltıp güveni artırarak misafiri hızlıca ödeme ekranına taşır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi, satış-pazarlama yöneticisi, ajans yöneticisi",
+        "KPI’lar: Conversion Rate, step drop-off, form completion, ödeme terk oranı, mobil dönüşüm",
+        "Entity: Reservation Funnel, Hotel Website, Booking Engine, Conversion Rate, GA4",
+        "Geo sinyali: Antalya/Belek/Side/Kemer/Bodrum örnek senaryolar",
+        "Funnel: Consideration → Conversion",
+        "Öne çıkan fark: PMS/OTA entegrasyonu + çok dilli misafir yolculuğu (TR–EN–DE–RU)",
+        "Hızlı kazanım: Adım sayısını azalt + mikro kopya + güven blokları + ölçüm/iterasyon"
+      ]
+    },
+    "h1": {
+      "title": "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
+      "intro": "Otel web sitelerinde rezervasyon akışı, çoğu zaman “tasarım” değil, gelir üretim hattı gibi çalışır: misafir doğru odayı bulur, güven duyar, fiyatı anlar ve ödeme adımına gider. Bu zincirin herhangi bir halkasında gereksiz sürtünme (fazla adım, belirsiz fiyat, güvensiz ödeme algısı, karmaşık form) oluştuğunda, rezervasyon funnel’ı kırılır ve Conversion Rate düşer. Bu rehber; resort, city ve butik otel senaryolarını dikkate alarak, misafir yolculuğunu keşiften ödeme adımına kadar “az adım + net bilgi + yüksek güven” prensibiyle kurmanız için bir çerçeve sunar.",
+      "quickSummary": [
+        "1. Rezervasyon sürecini “güven ve netlik” etrafında 3–4 ekranda tamamlatın.",
+        "2. Her adımda tek ana karar verdirin: tarih/kişi → oda seçimi → bilgi → ödeme.",
+        "3. GA4 ile drop-off noktalarını ölçüp her sprintte tek bir sürtünmeyi iyileştirin."
+      ],
+      "ctaPrimary": {
+        "label": "Otel Rezervasyon UX Analizi Talep Et",
+        "text": "mevcut rezervasyon akışınızda kayıp noktalarını bulup otel ekibiniz için net bir iyileştirme planı çıkarın.",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Otel Rezervasyon UX Analizi Talep Et",
+        "text": "Rezervasyon akışında kayıp noktalarını netleştirip otel ekibiniz için uygulanabilir iyileştirme planı çıkarın.",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      "secondary": {
+        "label": "Rezervasyon Funnel Checklist’ini İndir",
+        "text": "Rezervasyon akışınızı 10 dakikada kontrol edip ilk 5 düzeltmeyi önceliklendirmenizi sağlar.",
+        "href": "/creative/ui-ux-tasarim#rezervasyon-funnel-checklist"
+      }
+    },
+    "internalLinks": [
+      { "label": "UI & UX Tasarımı", "href": "/creative/ui-ux-tasarim" },
+      { "label": "Otel dijital pazarlama", "href": "/otel-dijital-pazarlama" },
+      { "label": "Rezervasyon yönetimi (PMS/OTA)", "href": "/pms-ota/rezervasyon-yonetimi" },
+      { "label": "Web sitesi geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "label": "Web & yazılım hizmetleri", "href": "/web-ve-yazilim-hizmetleri" }
+    ],
+    "relatedPosts": [
+      { "title": "UI & UX Tasarımı", "href": "/creative/ui-ux-tasarim" },
+      { "title": "Otel dijital pazarlama", "href": "/otel-dijital-pazarlama" }
+    ],
+    "sections": [
+      {
+        "id": "otel-rezervasyon-ux-neden-kritik",
+        "title": "Otel rezervasyon UX’i neden kritik?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon UX’i, otel web sitesinin “görünüşünden” daha fazlasıdır; misafirin zihnindeki üç soruyu aynı anda cevaplar: “Bana uygun mu?”, “Fiyat ve koşullar net mi?”, “Buradan güvenle ödeyebilir miyim?” Resort otellerde (ör. Belek’te aile odaklı resort) misafir genellikle paket/konsept arar; city otellerde hız ve işlev önceliklidir; butik otellerde ise hikâye ve güven sinyali daha belirleyicidir. Bu nedenle tek bir “genel checkout” yaklaşımı, otel özelinde çoğu zaman yeterli olmaz."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belirsiz fiyat: kişi başı mı, oda başı mı, vergiler dahil mi?",
+              "Oda karşılaştırması zayıf: “hangisi bana uygun?” sorusu yanıtsız kalır.",
+              "Form yükü: gereksiz alanlar ve uzun doğrulama akışları.",
+              "Ödeme güveni: kart ekranında güven/iptal koşulları görünmez."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (H2-1)",
+            "items": [
+              "Fiyat bileşenleri (vergi/ücret) ilk ekranda net mi?",
+              "Oda farkları (metrekare, manzara, iptal) 10 saniyede anlaşılır mı?",
+              "Mobilde tek elle doldurulabilir mi?",
+              "Ödeme ekranında iptal/iadeye dair kısa güven metni var mı?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (Belek resort): Aile odası arayan kullanıcı, “2 yetişkin + 2 çocuk” seçtiğinde oda tipleri otomatik filtrelenmiyorsa ya da çocuk yaş politikası belirsizse, misafir OTA’ya dönme eğilimi gösterir. Burada UX’in görevi, kullanıcıyı “kuralla boğmak” değil; doğru odaya yönlendirmek ve güveni artırmaktır."
+          },
+          {"type":"media","slot":"reservation-mobil"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Fiyat şeffaflığını tek satır “özet fiyat” alanıyla standardize edin.",
+              "Oda kartlarına “en kritik 3 fark” rozetini ekleyin (iptal, manzara, konsept).",
+              "Mobil form alanlarını yarıya indirin; gereksiz alanları rezervasyon sonrası toplayın.",
+              "Ödeme ekranına 2 güven unsuru ekleyin: “SSL/Güvenli ödeme” + “iptal koşulu özeti”."
+            ]
+          }
+        ]
+      },
+      
+      {
+        "id": "misafir-yolculugu-kesiften-rezervasyona",
+        "title": "Misafir yolculuğu: keşiften rezervasyona",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Misafir yolculuğu (guest journey design), otel web sitesinde “sayfalar dizisi” değil; kararların sıralı bir akışıdır. Keşif aşamasında kullanıcı; destinasyon, konsept ve uygunluk arar. Seçim aşamasında oda ve fiyatı karşılaştırır. Form aşamasında sürtünme yaşarsa vazgeçer. Ödeme aşamasında güven yetersizse, “son anda” OTA’ya kayabilir ya da arayıp çağrı merkezine döner. Bu nedenle UX, Reservation Funnel ve Conversion Rate hedefiyle birlikte tasarlanmalı; ölçüm tarafı en başta planlanmalıdır (GA4)."
+          },
+          { "type": "h3", "text": "Keşif aşaması (Discovery) – “Doğru teklifi hızlı bulma”" },
+          {
+            "type": "p",
+            "text": "Keşifte hedef; misafirin 10–20 saniyede “benim için uygun” hissini almasıdır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort (Kemer/Side örneği): konsept (her şey dahil), çocuk alanları, plaj, transfer.",
+              "City (iş/şehir): konum, ulaşım, kahvaltı, hızlı check-in.",
+              "Butik (Bodrum gibi): oda hikâyesi, deneyim, fotoğraf kalitesi, güven (yorumlar)."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Discovery)",
+            "items": [
+              "İlk ekran “destinasyon + konsept + net CTA” veriyor mu?",
+              "Tarih/kişi alanı görünür ve anlaşılır mı?",
+              "Oda/teklif sayfasına giden yol tek tıklama mı?"
+            ]
+          },
+          { "type": "h3", "text": "Seçim aşaması (Selection) – “Karşılaştırmayı kolaylaştırma”" },
+          {
+            "type": "p",
+            "text": "Oda kartlarında “çok bilgi” değil, karar bilgisi olmalı: iptal, kahvaltı/konsept, manzara, yatak tipi, metrekare, ekstra ücretler. Kullanıcı, 6 kart içinde kaybolursa “kararsızlık friksiyonu” oluşur."
+          },
+          { "type": "h3", "text": "Mikro kopya (örnek):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bugün ücretsiz iptal” (net)",
+              "“Vergiler dahil, sürpriz yok” (güven)",
+              "“Aile için ideal: iki ayrı yatak alanı” (persona)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Selection)",
+            "items": [
+              "Oda kartında “en kritik 3 fark” görünür mü?",
+              "Fiyatın oda/kişi mantığı tek cümleyle net mi?",
+              "Karşılaştırma (en az 2 oda) mümkün mü?"
+            ]
+          },
+          { "type": "h3", "text": "Karar destek (Trust & Proof) – “Güven bloklarını doğru yerde kullanma”" },
+          {
+            "type": "p",
+            "text": "Güven unsurları; her yere serpiştirilen rozetler değil, kararın zorlaştığı yerde kullanılan destekleyicilerdir: oda seçim ekranında yorum/puan, form ekranında iptal koşulu özeti, ödeme ekranında güvenli ödeme bilgisi."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Keşif ekranında “tek ana CTA” belirleyin: “Tarih seç → Fiyat gör”.",
+              "Oda kartlarını karar odaklı sadeleştirin: 6 bilgi → 3 karar bilgisi.",
+              "Güven bloklarını doğru anlara yerleştirin: seçimde yorum, formda iptal, ödemede güvenli ödeme.",
+              "Çok dilli akış varsa (TR–EN–DE–RU), fiyat/iptal metinlerini birebir çeviri değil, lokalizasyon ile güncelleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-rezervasyon-kac-adim",
+        "title": "Otel rezervasyon süreci kaç adım olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kısa cevap: çoğu otel için 3–4 adım idealdir. “Az adım” hedefi tek başına yeterli değildir; amaç, her adımda tek bir karar verdirip belirsizliği azaltmaktır. Örnek ideal akış:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Uygunluk (tarih/kişi)",
+              "Oda seçimi (fiyat + koşul netliği)",
+              "Bilgi (kısa form)",
+              "Ödeme (güven + doğrulama)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bazı tesislerde (çok paketli resort, çoklu oda seçimleri) 4 adım zorunlu olabilir; ama 5+ adım genellikle drop-off’u artırır. Sektör örneklerinde, rezervasyon adım sayısını 5’ten 3’e indirmek, dönüşümde %10–30 bandında artış gösterebiliyor (sonuçlar kanal, trafik kalitesi ve fiyat politikalarına göre değişir; aralık olarak düşünülmelidir)."
+          },
+          {
+            "type": "media",
+            "slot": "4-step-diagram"
+          },
+          { "type": "h3", "text": "Adım tasarımında 3 alt kural" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Tek karar / tek ekran: Aynı ekranda hem oda seçtirip hem upsell yaparsanız karar yükü artar.",
+              "Geri dönüş güvenli olmalı: Kullanıcı bir önceki adıma dönünce seçimler kaybolmamalı.",
+              "Hata mesajı değil, çözüm sunun: “Hatalı alan” demek yerine “Telefon formatı: 5xx…” gibi."
+            ]
+          },
+          { "type": "h3", "text": "Mobil ve desktop davranışları (pratik ayrım)" },
+          {
+            "type": "p",
+            "text": "Mobilde kullanıcı daha sabırsızdır; tek elle doldurma, otomatik klavye türleri, kısa alanlar ve hızlı doğrulama kritiktir. Desktop’ta karşılaştırma ve detay daha toleranslıdır. Bu yüzden mobilde “minimum alan” yaklaşımı, desktop’ta “karar destek” yaklaşımı daha iyi çalışır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Adımlar)",
+            "items": [
+              "Her adım tek karar verdiriyor mu?",
+              "Geri dönüşte seçimler korunuyor mu?",
+              "Mobilde klavye türleri doğru mu (email/telefon)?",
+              "Hata mesajları çözüm öneriyor mu?"
+            ]
+          },
 
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Akışı 3–4 adım hedefiyle yeniden çizin; “olmazsa olmaz” alanları ayırın.",
+              "Mobilde form alanlarını azaltın; gereksiz bilgileri rezervasyon sonrası toplayın.",
+              "Her adım için tek bir KPI tanımlayın (drop-off, completion).",
+              "Uygunluk ekranında “tarih/kişi” netliğini artırın (takvim UX + kişi seçici)."
+            ]
+          }
+        ]
+      },
+     
+      {
+        "id": "temel-ux-ilkeleri",
+        "title": "Rezervasyon akışında temel UX ilkeleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, “booking funnel optimisation” için uygulanabilir ilkeleri otel bağlamına indirger. Hedef, her ekranda netlik + güven + hız üçlüsünü sağlamak."
+          },
+          { "type": "h3", "text": "Bilgi mimarisi – önce “kritik”, sonra “nice-to-have”" },
+          {
+            "type": "p",
+            "text": "Oda kartında 20 özellik listesi yerine, karar etkisi en yüksek 5 bilgi verin:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Konsept (BB/HB/AI) veya kahvaltı dahil mi?",
+              "İptal koşulu özeti (kısa)",
+              "Vergiler/ücretler dahil mi?",
+              "Oda büyüklüğü + yatak tipi",
+              "Check-in/out saatleri"
+            ]
+          },
+          { "type": "h3", "text": "Mikro kopya – “dil”, dönüşümün bir parçasıdır" },
+          {
+            "type": "p",
+            "text": "Mikro kopya; buton etiketleri, alan ipuçları ve küçük açıklamalardır. Otelde özellikle şu üç noktada fark yaratır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat açıklaması: “Toplam fiyat (vergiler dahil)”",
+              "İptal: “X tarihe kadar ücretsiz iptal”",
+              "Ödeme güveni: “Güvenli ödeme (SSL)”"
+            ]
+          },
+          { "type": "h3", "text": "Görsel hiyerarşi – misafirin gözünü doğru sıraya taşıma" },
+          {
+            "type": "p",
+            "text": "İyi hiyerarşi; kullanıcının önce fiyatı, sonra koşulu, sonra CTA’yı görmesini sağlar. “Her şey aynı yoğunlukta” görünürse karar uzar."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (UX ilkeleri)",
+            "items": [
+              "Oda kartında fiyat + iptal + CTA ilk 2 saniyede görülüyor mu?",
+              "Metinler kısa ve eylem odaklı mı?",
+              "“Vergi/ücret” belirsizliği kalıyor mu?"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Oda kartlarını “karar bilgisi” odaklı sadeleştirin; 5 maddeyi geçmeyin.",
+              "Mikro kopyayı standardize edin: fiyat/iptal/ödeme için 3 sabit şablon oluşturun.",
+              "CTA’ları tekleştirin: her ekranda bir ana CTA, bir ikincil CTA.",
+              "“Güven unsurlarını” rozet olarak değil, kısa kanıt metni olarak konumlandırın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "form-guven-odeme",
+        "title": "Form, güven ve ödeme adımı deneyimi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon formu ve ödeme ekranı, genelde “en çok terk” edilen kısımdır. Kullanıcı, bu noktada çoktan oda seçmiş ve fiyatı kabul etmiştir; geriye kalan tek şey “kolayca tamamlamak” ve “güvende hissetmek”tir."
+          },
+          { "type": "h3", "text": "Form tasarımı – alan sayısını azalt, hatayı engelle" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ad/soyad, e-posta, telefon çoğu durumda yeterlidir (diğerleri opsiyonel olabilir).",
+              "Alan türleri doğru olmalı (telefon alanı telefon klavyesi açmalı).",
+              "Hata mesajı “neden” söylemeli, çözüm göstermeli."
+            ]
+          },
+          { "type": "h3", "text": "Güven unsurları – doğru yerde kısa, net" },
+          {
+            "type": "p",
+            "text": "Ödeme ekranında; iptal koşulu, gizlilik, güvenli ödeme bilgisi görünür olmalı. “10 rozet” yerine “2 net güven mesajı + 1 kısa koşul özeti” çoğu zaman daha etkilidir."
+          },
+          { "type": "h3", "text": "Ödeme adımı – sürtünmeyi azaltma (özellikle mobil)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tek sayfa ödeme (mümkünse)",
+              "Zorunlu alanları minimumda tutma",
+              "3DS gibi adımlarda kullanıcıyı hazırlayan mikro kopya"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ödeme)",
+            "items": [
+              "Ödeme ekranında iptal özeti 1–2 satır görünüyor mu?",
+              "Güvenli ödeme mesajı net mi?",
+              "Mobilde 3DS adımı öncesi kısa bilgilendirme var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Form alanlarını sınıflandırın: “zorunlu” vs “sonra sor” (post-booking).",
+              "Ödeme ekranına 2 satır güven + 1 satır iptal özeti ekleyin.",
+              "Mobil ödeme akışını ayrı test edin; tek elle tamamlanabilir mi bakın.",
+              "Çağrı merkezi entegrasyonu varsa “yardım/geri arama” opsiyonunu görünür kılın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "olcum-ve-iterasyon",
+        "title": "Oteller için UX ölçümü ve sürekli iyileştirme",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi UX “bir kere yap ve bitir” değildir; ölç, düzelt, tekrar ölç döngüsüdür. Burada GA4, rezervasyon funnel’ını görünür kılan ana araçtır. Önemli olan, GA4’te sadece “purchase” değil, adım adım ilerlemeyi ölçmektir: tarih seçimi, oda seçimi, form başlatma, ödeme başlatma, ödeme tamamlama."
+          },
+          {
+            "type": "p",
+            "text": "Entity graph’i güçlendirme (doğal bağ): Reservation Funnel + Hotel Website + Conversion Rate + GA4 kavramlarını aynı ölçüm çerçevesinde ele aldığınızda, hem ekip içi kararlar netleşir hem de içerik otoritesi artar. Ayrıca süreç, PMS & OTA ve çağrı merkezi operasyonlarıyla da kesişir: OTA’dan gelen misafirin web’e dönmesi, ödeme ekranında takılan misafirin çağrı merkezine bağlanması gibi."
+          },
+          { "type": "h3", "text": "Önerilen temel KPI seti:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Step drop-off (%): her adımda terk oranı",
+              "Form completion rate",
+              "Ödeme başlatma → ödeme tamamlama oranı",
+              "Mobil vs desktop dönüşüm farkı",
+              "Hata oranı (validation errors) ve hatalı alan dağılımı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "funnel-kpi"
+          },
+          { "type": "h3", "text": "14 günlük UX sprint yaklaşımı (pratik ritim)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gün 1–2: Ölçüm + drop-off analizi",
+              "Gün 3–6: Tek sürtünme seç (ör. form alanı) ve çöz",
+              "Gün 7–10: Test + izleme",
+              "Gün 11–14: Sonuç + sonraki sprint backlog"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Ölçüm)",
+            "items": [
+              "Funnel adımlarınız GA4’te event olarak tanımlı mı?",
+              "Mobil ve desktop ayrı raporlanıyor mu?",
+              "Haftalık 1 metrik + 1 değişiklik prensibi var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "GA4’te rezervasyon adımlarını event bazında kurun (başlat/ileri/terk).",
+              "Her sprintte tek bir “drop-off” noktasını iyileştirin.",
+              "PMS/OTA ve çağrı merkezi temas noktalarını aynı yolculuğa bağlayın.",
+              "Çok dilli yolculukta (TR–EN–DE–RU) fiyat/iptal dilini pazar beklentisine göre uyarlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-ota-cok-dilli",
+        "title": "Fark yaratan mini bölüm – PMS/OTA entegrasyonu ve çok dilli misafir yolculuğu",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok kaynak otel rezervasyon UX’ini “genel e-ticaret checkout” gibi anlatır; fakat otelde kritik iki katman çoğu zaman eksik kalır:\n\t1.\tPMS/OTA gerçekliği: Uygunluk, fiyat, iptal koşulları ve paketler sistemlerden beslenir; arayüzde net görünmezse misafir güven kaybeder.\n\t2.\tÇok dilli akış: Aynı UX kurgusu, her pazarda aynı algıyı yaratmaz; özellikle iptal, vergi ve ödeme metinleri lokal beklentiye göre düzenlenmelidir."
+          },
+          { "type": "h3", "text": "Destinasyon örneği 1 – Belek resort akışı:" },
+          {
+            "type": "p",
+            "text": "Aile odaklı kullanıcılar için “kişi/çocuk yaş seçimi” net olmalı; konsept ve ücretsiz iptal rozetleri oda seçimi ekranında görünmeli. “Transfer” gibi ek değerler ayrı bir upsell ekranında sunulmalı; ana akışa yük bindirmemeli."
+          },
+          { "type": "h3", "text": "Destinasyon örneği 2 – Bodrum butik otel akışı:" },
+          {
+            "type": "p",
+            "text": "Kullanıcı daha çok görsel ve güven arar; oda kartlarında fotoğraf önceliği, yorum/puan blokları ve kısa hikâye etkili olur. Ödeme ekranında güven unsuru ve iptal özeti öne alınır; “iletişim/yardım” erişimi görünür olur."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Entegrasyon & Dil)",
+            "items": [
+              "Uygunluk/fiyat kaynağı (PMS/booking engine) arayüzde “net” mi?",
+              "İptal/vergiler her dilde aynı netlikte mi?",
+              "OTA’dan gelen kullanıcı için güven blokları yeterli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Sistemden gelen fiyat/koşul verisini “tek satır özet” olarak standartlaştırın.",
+              "Çok dilli metinleri birebir çeviri değil, lokalizasyonla düzeltin.",
+              "OTA rakibine karşı “web avantajı” (esnek iptal, özel teklif, call support) bloğu ekleyin.",
+              "İç linklerle entity graph’i güçlendirin:\n\t•\t“otel dijital pazarlama” → https://dgtlface.com/tr/otel-dijital-pazarlama\n\t•\t“rezervasyon yönetimi (PMS/OTA)” → https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi\n\t•\t“web sitesi geliştirme” → https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme\n\t•\t“web & yazılım hizmetleri” → https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kapanis-5-adim",
+        "title": "Hemen uygulayabileceğiniz 5 UX adımı (kapanış)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu rehberin amacı; “mükemmel tasarım” değil, ölçülebilir dönüşüm artışıdır. Önce akışı sadeleştirin, sonra güveni artırın, ardından ölçümle iterasyon yapın."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Rezervasyon akışını 3–4 adım hedefiyle yeniden çizin.",
+              "Oda kartlarını karar bilgisine göre sadeleştirin (iptal + fiyat netliği + 3 fark).",
+              "Form alanlarını minimuma indirin; mobilde tek elle doldurulabilir yapın.",
+              "Ödeme ekranına 2 satır güven + iptal özeti ekleyin.",
+              "GA4 ile drop-off raporu kurun; her 14 günde tek bir sürtünmeyi iyileştirin."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Otel Rezervasyon UX Analizi Talep Et",
+            "text": "rezervasyon funnel’ınızda en yüksek kayıp yaratan adımı tespit edip iyileştirme yol haritası alın.",
+            "href": "/creative/ui-ux-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-funnel-checklist-asset",
+        "title": "Rezervasyon Funnel Checklist’ini İndir — Creative / Otel Rezervasyon UX (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Rezervasyon Funnel Checklist’ini İndir — Creative / Otel Rezervasyon UX (v1.0)",
+            "purpose": "Bu checklist, otel web sitenizdeki rezervasyon funnel’ını hızlıca tarayıp en yüksek kayıp yaratan sürtünmeleri tespit etmeniz için tasarlandı. 10 dakikalık kontrolle “adım sayısı, fiyat netliği, form yükü, ödeme güveni” başlıklarında öncelik listesi çıkarır. Ardından 14 günlük sprint planıyla iyileştirmeleri uygulamaya çevirmenizi sağlar.",
+            "whoFor": "Otel sahibi / satış-pazarlama yöneticisi / ajans yöneticisi ve web ekibi (UI/UX + dev + performans).",
+            "steps": [
+              "Mevcut rezervasyon akışınızı baştan sona mobilde tamamlayın ve checklist’i işaretleyin.",
+              "“Kırmızı” çıkan 3 alanı seçin; her biri için kök neden ve çözüm yazın.",
+              "14 günlük sprint planına göre tek tek uygulayın; GA4’te drop-off değişimini ölçün."
+            ],
+            "checklist": [
+              "Akış 3–4 adımda tamamlanıyor mu? (5+ ise risk)",
+              "Fiyat “vergiler dahil” net mi?",
+              "Oda kartında iptal koşulu özeti var mı?",
+              "Mobil form alanları minimum mu?",
+              "Ödeme ekranında 2 satır güven + iptal özeti var mı?",
+              "GA4 event’leri adım bazlı kurulmuş mu?",
+              "Çok dilli metinler lokalize mi (TR–EN–DE–RU)?",
+              "PMS/booking engine’den gelen koşullar arayüzde anlaşılır mı?",
+              "Çağrı merkezi desteği görünür mü (yardım/geri arama)?"
+            ],
+            "table": {
+              "title": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": ["Problem", "Kök Neden", "Çözüm"],
+              "rows": []
+            },
+            "sprintPlan": [
+              "Gün 1: Mevcut akış haritası + ekran görüntüleri (mobil/desktop)",
+              "Gün 2: GA4 drop-off raporu (varsa) + sorun listesini puanla",
+              "Gün 3: Sprint hedefi seç (tek ana sorun)",
+              "Gün 4: Çözüm taslağı (wireframe / mikro kopya)",
+              "Gün 5: Geliştirme planı + iş kırılımı",
+              "Gün 6–7: Uygulama (MVP)",
+              "Gün 8: QA (mobil öncelikli)",
+              "Gün 9–10: Yayın + izleme (event’ler çalışıyor mu?)",
+              "Gün 11: İlk metrik kontrol (drop-off değişimi)",
+              "Gün 12: Küçük düzeltmeler (kopya/alan/hata mesajı)",
+              "Gün 13: Sonuç özeti + öğrenimler",
+              "Gün 14: Backlog: bir sonraki sprint konusu"
+            ],
+            "beforeAfterKpi": [
+              "Drop-off (form): Önce ___% → Sonra ___%",
+              "Drop-off (ödeme): Önce ___% → Sonra ___%",
+              "Conversion Rate: Önce ___% → Sonra ___%",
+              "Mobil dönüşüm: Önce ___% → Sonra ___%"
+            ],
+            "deliverables": [
+              "Rezervasyon akış haritası (3–4 adım)",
+              "Oda kartı karar bilgisi şablonu",
+              "Form alan listesi (zorunlu/opsiyonel)",
+              "Ödeme ekranı güven metni şablonu",
+              "GA4 event planı (adım bazlı)",
+              "14 günlük sprint backlog"
+            ],
+            "mediaNotes": [
+              "Buraya: [Diagram] — 1920×1080 — otel-rezervasyon-ux-temelleri-diagram-05.webp — “Rezervasyon akışını gösteren diyagram”",
+              "Buraya: [Checklist Card] — 1200×1200 — otel-rezervasyon-ux-temelleri-checklist-07.webp — “Kontrol listesi özet kartı”"
+            ],
+            "href": "/downloads/rezervasyon-funnel-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel rezervasyon UX’i nasıl olmalı?",
+        "a": "Misafirin yolculuğunu 3–4 net adımda tamamlatmalı; fiyat/koşul şeffaflığı ve ödeme güveni görünür olmalıdır. Mobilde form alanları minimum tutulmalı, her adım tek karar verdirerek ilerlemelidir."
+      },
+      {
+        "q": "Rezervasyon süreci kaç adım olmalı?",
+        "a": "Çoğu otel için 3–4 adım idealdir: uygunluk → oda seçimi → kısa form → ödeme. 5+ adım, özellikle mobilde drop-off riskini yükseltir; ölçümle doğrulayıp kademeli sadeleştirmek gerekir."
+      },
+      {
+        "q": "Otel web sitemde rezervasyon funnel’ını nasıl basitleştiririm?",
+        "a": "Gereksiz ara ekranları kaldırın, oda kartlarında karar bilgisine odaklanın ve form alanlarını azaltın. Ödeme ekranına güven + iptal özeti ekleyin; GA4 ile hangi adımda kayıp olduğunu görüp sprint bazlı iyileştirin."
+      },
+      {
+        "q": "Oteller için iyi bir rezervasyon sayfası nasıl tasarlanır?",
+        "a": "Tarih/kişi seçimi net olmalı, oda kartları karşılaştırmayı kolaylaştırmalı ve fiyat “vergiler dahil” açıkça belirtilmelidir. İptal koşulu ve güven unsurları, kararın zorlaştığı yerde kısa ve net biçimde gösterilmelidir."
+      },
+      {
+        "q": "Mobilde rezervasyon ekranı nasıl olmalı?",
+        "a": "Tek elle kullanım hedeflenmeli; alan sayısı azaltılmalı ve klavye türleri doğru seçilmelidir. Hata mesajları çözüm öneren biçimde yazılmalı, geri dönüşlerde seçimler kaybolmamalıdır."
+      },
+      {
+        "q": "Ödeme adımında misafirin güvenini nasıl artırırım?",
+        "a": "“Güvenli ödeme” mesajını netleştirin, iptal/iadeyi 1–2 satır özetleyin ve sürpriz ücret algısını kaldırın. 3DS gibi adımlar öncesi kısa bilgilendirme de terk oranını düşürür."
+      },
+      {
+        "q": "GA4 ile rezervasyon funnel’ını nasıl takip ederim?",
+        "a": "Uygunluk araması, oda seçimi, form başlatma, ödeme başlatma ve satın alma gibi adımları event olarak tanımlayın. Drop-off’ları adım bazlı raporlayıp her sprintte tek bir sorunu iyileştirin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — otel-rezervasyon-ux-temelleri-hero-01.webp — Alt: “Otel rezervasyon UX’i için dönüşüm odaklı misafir yolculuğu kapak görseli”",
+          "H1 sonrası Context — 1920×1080 — otel-rezervasyon-ux-temelleri-h1-context-02.webp — Alt: “Otel web sitesinde rezervasyon yolculuğu bağlamını anlatan açıklayıcı görsel”",
+          "Section Divider 01 — 1600×1200 — otel-rezervasyon-ux-temelleri-divider-03.webp — Alt: “Rezervasyon UX’i bölüm geçişini destekleyen sade ayırıcı görsel”",
+          "Section Divider 02 — 1600×1200 — otel-rezervasyon-ux-temelleri-divider-06.webp — Alt: “Ödeme ve güven bölümüne geçişi destekleyen ayırıcı görsel”",
+          "Diagram / Flow — 1920×1080 — otel-rezervasyon-ux-temelleri-diagram-05.webp — Alt: “Otel rezervasyon funnel akışını adım adım gösteren diyagram görseli”",
+          "Checklist / Framework Card — 1200×1200 — otel-rezervasyon-ux-temelleri-checklist-07.webp — Alt: “Otel rezervasyon UX’i için hızlı uygulanabilir kontrol listesi kartı”"
+        ],
+        "technicalChecklist": [
+          "GA4 event planı (adım bazlı) kuruldu",
+          "Mobil/desktop funnel raporu ayrıldı",
+          "Form validation error dağılımı izleniyor",
+          "İptal/vergiler metinleri tüm dillerde (TR–EN–DE–RU) lokalize edildi",
+          "PMS/booking engine’den gelen fiyat/koşul verisi tek satır özet formatında",
+          "Ödeme ekranında 2 satır güven + iptal özeti yerleşimi"
+        ]
+      }
+    }
+  },
+
+   "BlogOtelRezervasyonCagriMerkeziNedirAkis": {
+    "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+    "slug": "otel-rezervasyon-cagri-merkezi-nedir-akis",
+    "department": "callcenter",
+    "updatedAt": "19 Ocak 2026",
+    "publishedAt": "2026-01-19",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel rezervasyon çağrı merkezi akışını kurun: karşılama, ihtiyaç analizi, müsaitlik-fiyat, PMS/OTA kaydı ve onay. Script + checklist ile kaçan rezervasyonu azaltın.",
+    "seo": {
+      "metaTitle": "Otel Rezervasyon Çağrı Akışı Nasıl Çalışır? (PMS) | DGTLFACE",
+      "metaDescription": "Otel rezervasyon çağrı merkezi akışını kurun: karşılama, ihtiyaç analizi, müsaitlik-fiyat, PMS/OTA kaydı ve onay. Script + checklist ile kaçan rezervasyonu azaltın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa Adı / URL: Rezervasyon Desteği (Otel) — Varsayım: https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi",
+        "Sayfa Kodu: cagri-merkezi-2",
+        "Blog No / URL: Blog #1 — Varsayım: https://dgtlface.com/tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "V2.3 Kilidi: Difficulty/Expertise = Intermediate–Expert, Word Count = 3000–3500",
+        "Not: Sheet “Beginner Friendly Guide” diyor. Varsayım: V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/cagri-merkezi/blog/otel-rezervasyon-cagri-merkezi-nedir-akis"
+      ],
+      "strategySummary": "Bu içerik, “Rezervasyon Desteği” silo’sunda temel otorite (parent/hub) rolünü üstlenir: “otel rezervasyon çağrı merkezi nedir?” sorusunu netleştirir ve sonraki yazılara (upsell, kalite, KPI, 4 dil, PMS/OTA süreçleri) referans noktası olur. Hedef persona; resort otellerde yoğun sezonda telefon trafiği yaşayan otel sahibi / satış-pazarlama / ön büro lideri ve operasyonu ölçeklemek isteyen ajans yöneticisidir. Funnel’da ağırlıkla consideration → conversion: süreç standardı kurup kaçan rezervasyonları azaltmaya odaklanır. Ana iş sorusu şudur: “Misafir ‘müsaitlik var mı?’ dediğinde, bu aramayı güvenle yönetip PMS’te doğru kayda nasıl dönüştürürüm?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-19",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel rezervasyon çağrı merkezi; misafirin “müsaitlik/fiyat” sorusundan başlayıp, ihtiyaç analizi yaparak doğru oda ve teklifi sunan, rezervasyonu PMS’te kaydeden ve onayı şeffaf biçimde ileten standart bir satış/operasyon akışıdır. Doğru tasarlanmış bir çağrı akışı; güven veren açılış, doğru sorular, net teklif, doğru kayıt ve hızlı onay adımlarıyla resepsiyon yükünü azaltır, kaçan aramaları düşürür ve çok dilli misafir deneyimini tutarlı hale getirir.",
+      "sgeSummary": "Rezervasyon çağrı merkezi; karşılama → ihtiyaç analizi → müsaitlik/fiyat → PMS/OTA kaydı → onay akışını standartlaştırır. Script + checklist ile kalite yükselir, resepsiyon telefonu azalır.",
+      "voiceAnswer": "Otel rezervasyon hattı, aramayı standart sorularla yönetip PMS’te kayda çeviren süreç bütünüdür.",
+      "aiFactSheet": [
+        "Hedef kitle: Resort otel yöneticileri, satış/pazarlama, ön büro, çağrı merkezi lideri",
+        "KPI odakları: cevaplanma/terk oranı, dönüşüm, ortalama işlem süresi, doğruluk (PMS kayıt kalitesi)",
+        "Entity: Hotel Reservation Call Center, PMS, OTA, Multilingual Agent, Reservation Funnel",
+        "Funnel: Consideration → Conversion (telefonla satış + kayıt)",
+        "Geo: Antalya / Belek / Side / Kemer / Bodrum (sezon yoğunluğu senaryoları)",
+        "Çıktı: akış diyagramı + script/checklist + rol paylaşımı matrisi + onay standardı"
+      ]
+    },
+    "h1": {
+      "title": "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
+      "intro": "Otel web sitesi, OTA, sosyal medya ve reklamlar misafiri aramaya yönlendirir; arama geldiğinde ise “otel rezervasyon çağrı merkezi” aslında rezervasyon funnel’ının kapanış kapısıdır. Buradaki amaç sadece telefonu açmak değil; güven veren bir karşılama ile ihtiyacı doğru anlamak, uygun oda/teklifi doğru anlatmak, PMS üzerinde hatasız kayıt yapmak ve onayı net biçimde iletmektir. Özellikle Antalya, Belek, Side, Kemer, Bodrum gibi resort bölgelerde yoğun sezon dönemlerinde resepsiyonun aynı anda check-in/out ve misafir ilişkileri ile uğraştığını düşünürsek, dedike bir rezervasyon akışı telefon trafiğini yönetilebilir hale getirir.",
+      "ctaPrimary": {
+        "label": "Rezervasyon Çağrı Akışı Analizi Talep Et",
+        "text": "(Yoğun sezonda aramaı kaybını azaltmak isteyen resort oteller için 15 dk’lık hızlı değerlendirme)",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon Çağrı Akışı Analizi Talep Et",
+        "text": "(Yoğun sezonda kaçan aramaları azaltmak isteyen resort oteller için)",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Çağrı Akışı & Script Checklist’ini İndir",
+        "text": "Agent’ların aynı soruları aynı sırayla sormasını sağlayıp kayıt kalitesini standardize eder.",
+        "href": "/cagri-merkezi/rezervasyon-destegi#rezervasyon-cagri-akisi-script-checklist"
+      }
+    },
+    "internalLinks": [
+      { "label": "Rezervasyon Desteği (Otel)", "href": "/cagri-merkezi/rezervasyon-destegi" },
+      { "label": "4 Dilli Çağrı Merkezi", "href": "/cagri-merkezi/4-dilli-cagri-merkezi" },
+      { "label": "Rezervasyon yönetimi (PMS/OTA)", "href": "/pms-ota/rezervasyon-yonetimi" }
+    ],
+    "relatedPosts": [
+      { "title": "Rezervasyon Desteği (Otel)", "href": "/cagri-merkezi/rezervasyon-destegi" },
+      { "title": "4 Dilli Çağrı Merkezi", "href": "/cagri-merkezi/4-dilli-cagri-merkezi" }
+    ],
+    "sections": [
+      
+      {
+        "id": "otel-rezervasyon-cagri-merkezinin-temel-rolu",
+        "title": "Otel Rezervasyon Çağrı Merkezinin Temel Rolü",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rezervasyon çağrı merkezi, resepsiyonun “her şeyi yapan” yapısından farklı olarak, tek bir hedefe kilitlenir: arama → doğru teklif → doğru kayıt → net onay. Bu yapı; kampanya, minimum konaklama, çocuk politikası, iptal koşulları, oda tipleri ve upsell seçeneklerini standardize ettiği için hem misafir deneyimini hem de gelir yönetimini destekler. Ayrıca çağrı merkezi; web/ads/OTA trafiğinin “sesli kanal” dönüşümünü ölçülebilir hale getirerek pazarlama ile operasyon arasındaki köprüyü kurar."
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (resort senaryosu):\nBelek’te yüksek sezonda misafir “2 yetişkin + 1 çocuk, 5 gece” diye arar. Resepsiyon o sırada check-in kuyruğundadır. Çağrı merkezi ise 60 saniyede ihtiyacı netleştirir, aile odası/standart seçeneklerini sunar, kampanya koşullarını özetler, PMS’te doğru ülke/dil/kanal alanlarını doldurur ve e-posta/SMS onayıyla süreci kapatır."
+          },
+          {"type":"media","slot":"flow"},
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (Rol tanımı)",
+            "items": [
+              "Rezervasyon hattının hedefi net mi? (satış + kayıt + onay)",
+              "Script, kampanya ve koşullar tek kaynaktan yönetiliyor mu?",
+              "PMS alanları standardı var mı? (kanal/ülke/dil/not)",
+              "Resepsiyon ile “kim neyi yapar?” çizgisi yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Rezervasyon hattı hedefini tek cümleye indir (“Aramayı PMS kaydına çeviririz”).",
+              "Oda/teklif bilgisini tek kaynakta topla (kampanya + koşul + upsell).",
+              "PMS kayıt alanları için minimum standart tanımla (kanal, dil, ülke, not)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-rezervasyon-cagri-akisi-nasil-olmali",
+        "title": "Otel rezervasyon çağrı akışı nasıl olmalı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu bölüm, misafirlerin en sık sorduğu “rezervasyon çağrı akışı nasıl olmalı?” sorusuna hızlı ve uygulanabilir bir standart verir. Akışın temel mantığı şudur: önce güven ve netlik, sonra ihtiyaç analizi, sonra teklif, sonra kayıt ve onay."
+          },
+          { "type": "h3", "text": "5 Adımda Standart Çağrı Akışı (Karşılama → Kapanış)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Karşılama + güven (kimlik, kayıt/kvkk bilgilendirmesi, “yardım edeyim” dili)",
+              "İhtiyaç analizi (tarih, kişi sayısı, oda tercihi, bütçe/öncelik)",
+              "Müsaitlik & fiyat sunumu (2 seçenekli teklif: iyi/daha iyi)",
+              "Kayıt & teyit (PMS kaydı, misafir bilgileri, özel notlar)",
+              "Onay & kapanış (özet, iptal/ön ödeme, mail/SMS, takip adımı)"
+            ]
+          },
+          { "type": "h3", "text": "AEO Checklist (5–7 madde – zorunlu)" },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (AEO – çağrı akışı kontrolü)",
+            "items": [
+              "Açılışta amaç net mi? (“Müsaitlik ve fiyat için birkaç soru soracağım”)",
+              "Tarih + kişi sayısı + oda tercihi ilk 60 saniyede alınıyor mu?",
+              "Teklif 2 seçenekli mi? (alternatif + gerekçe)",
+              "Koşullar 1 cümleyle özetleniyor mu? (iptal/ön ödeme)",
+              "PMS kaydı sırasında ülke/dil/kanal alanları doğru mu?",
+              "Onay kanalı net mi? (e-posta/SMS/WhatsApp)",
+              "Kapanışta “sonraki adım” var mı? (link, geri arama, takip)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "5-steps-diagram",
+            "note": "Buraya: [Diagram / Flow] — 16:9 (1920×1080) — otel-rezervasyon-cagri-merkezi-nedir-akis-5-steps-diagram.webp — “Rezervasyon çağrısının 5 adımlı akışını gösteren otel odaklı diyagram”"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Akışı tek sayfaya indir (5 adım) ve tüm agent’lara aynı formatta dağıt.",
+              "Teklifi “iki seçenek + 1 fark” kuralıyla standardize et.",
+              "Kapanışta mutlaka “onay kanalı + takip adımı” söyle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-ota-ile-rezervasyon-isleme",
+        "title": "PMS & OTA ile Rezervasyon İşleme (PMS Based Reservation Processing)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel rezervasyon çağrı merkezini güçlü yapan şey, konuşmayı “güzel” yönetmekten öte, konuşmayı doğru kayda çevirebilmesidir. PMS entegrasyonu; oda tipleri, fiyat planları, kısıtlar (min stay), allotment ve kampanyaların tek ekrandan yönetilmesini sağlar. OTA tarafı ise talebi etkiler: misafir bazen OTA’daki fiyatı referans alır, bazen web’deki kampanyayı sorar; agent’ın görevi burada şeffaf olmak ve doğru kanala yönlendirmeyi kuralına göre yapmaktır."
+          },
+          { "type": "h3", "text": "PMS’te Kayıt Oluştururken Kritik Alanlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal/Source: Telefon / Web / Kampanya / Partner (standart isim)",
+              "Ülke + dil: raporlama ve çok dilli takip için zorunlu",
+              "Tarih + kişi sayısı: çocuk yaşı dahil net",
+              "Oda tipi + fiyat planı: “hangi plan satıldı?” görünür olmalı",
+              "Not alanı: özel istek, transfer, ödeme notu, konuşulan teklif"
+            ]
+          },
+          {"type":"media","slot":"pms-notes"},
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (PMS kayıt kalitesi)",
+            "items": [
+              "Kanal seçimi standarda uyuyor mu?",
+              "Dil/ülke boş bırakılıyor mu? (bırakılmamalı)",
+              "Özel istekler “not”a yazılıyor mu?",
+              "Fiyat planı adı konuşulan teklif ile aynı mı?"
+            ]
+          },
+          { "type": "h3", "text": "OTA ile Çatışmayı Yönetme (Kısa rehber)" },
+          {
+            "type": "p",
+            "text": "Misafir “OTA’da daha ucuz gördüm” dediğinde iki kritik hata olur: (1) savunmaya geçmek, (2) net cevap verememek. Doğru yaklaşım; OTA fiyatını doğrulamak, web avantajını netleştirmek (esneklik, upgrade, direkt iletişim) ve mümkünse eşdeğer teklifi şeffaf şekilde sunmaktır."
+          },
+
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "PMS’te “kanal/ülke/dil/not” alanlarını zorunlu standarda bağla.",
+              "OTA fiyat itirazı için 3 cümlelik “şeffaf yanıt” şablonu oluştur.",
+              "Satılan fiyat planı adlarını pazarlama/gelir ekibiyle hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "multilingual-agent",
+        "title": "TR–EN–DE–RU Misafirler İçin Örnek Senaryolar (Multilingual Agent)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Çok dilli rezervasyon hattında “çeviri” tek başına çözüm değildir; amaç, her dilde aynı karar kalitesini üretmektir. Bu yüzden her dil için aynı yapı korunur: açılış → ihtiyaç analizi → teklif → koşullar → kayıt → onay. Dil farkı; ton ve güven unsurlarında görünür olur (özellikle iptal/ön ödeme gibi hassas konular)."
+          },
+          { "type": "h3", "text": "4 Dil İçin Ortak Script Mantığı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Açılış cümlesi: kısa + güven verici + yönlendiren",
+              "İhtiyaç soruları: aynı sıra (tarih → kişi → oda → bütçe/öncelik)",
+              "Teklif dili: iki seçenek + gerekçe (manzara/konum/konsept)",
+              "Koşul cümlesi: 1 cümlede net (iptal/ön ödeme)",
+              "Onay: mail/SMS + “kontrol edin” + “sorunuz olursa” kapanışı"
+            ]
+          },
+          { "type": "h3", "text": "Mini Diyalog Örnekleri (kısa, yapı odaklı)" },
+          {
+            "type": "p",
+            "text": "TR (Açılış): “Merhaba, rezervasyon hattına hoş geldiniz. Müsaitlik ve fiyat için birkaç soru soracağım.”\nDE (Mantık): “Ich kläre Verfügbarkeit und Preis—darf ich kurz Datum und Personenzahl fragen?”\nEN (Mantık): “Let me check availability and the best rate—what dates and how many guests?”\nRU (Mantık): “Давайте уточним даты и гостей, затем предложу 2 варианта.”"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (çok dillilik)",
+            "items": [
+              "Her dilde aynı soru sırası var mı?",
+              "Koşul cümlesi net ve tek cümle mi?",
+              "Onay kanalında “kontrol” ve “takip” adımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "4 dilde “aynı iskelet” script üret, kelime kelime değil mantık mantık çevir.",
+              "İptal/ön ödeme cümlesini her dilde tek cümleye indir.",
+              "Çok dilli kalite dinleme formunda aynı kriterleri kullan."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İç link önerisi: Çok dilli operasyonu derinleştirmek için Varsayım: https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+          }
+        ]
+      },
+      {
+        "id": "rol-paylasimi",
+        "title": "Çağrı Merkezi vs Resepsiyon — Rol Paylaşımı Nasıl Ayrılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğu zaman süreci resepsiyon perspektifinden anlatır; oysa dedike rezervasyon hattı, resepsiyonun kritik anlarını korur ve kaliteyi artırır. Rol paylaşımı net değilse iki problem yaşanır: (1) misafir iki farklı kişiden farklı cevap duyar, (2) kayıtlar dağınık olur."
+          },
+          { "type": "h3", "text": "Rol Paylaşımı Matrisi (Tablo)" },
+          {
+            "type": "media",
+            "slot": "matrix-callcenter-reservation"
+          },
+          {
+            "type": "table",
+            "title": "H3: Rol Paylaşımı Matrisi (Tablo)",
+            "headers": ["İş Adımı", "Çağrı Merkezi", "Resepsiyon"],
+            "rows": [
+              ["Müsaitlik & fiyat sorgusu", "✅ Ana sorumluluk", "⚠️ Yoğunlukta destek"],
+              ["Kampanya/koşul anlatımı", "✅ Script standardı", "⚠️ İstisna/özel durum"],
+              ["PMS’te rezervasyon kaydı", "✅ Standart kayıt", "✅ Check-in ile teyit"],
+              ["Özel istek/not yönetimi", "✅ Not + takip", "✅ Operasyonel uygulama"],
+              ["Check-in/out & misafir ilişkileri", "❌", "✅ Ana sorumluluk"],
+              ["OTA/kanal sorunları", "⚠️ İlk triage", "✅ final çözüm/operasyon"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (rol netliği)",
+            "items": [
+              "“Kim fiyat verir?” yazılı mı?",
+              "“Kim PMS kaydı açar?” tek mi?",
+              "İstisna durumlar (overbooking, özel fiyat) tanımlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Rol matrisi çıkar ve SOP (prosedür) olarak yayınla.",
+              "İstisna durumlarda “tek karar noktası” belirle.",
+              "Misafir iletişiminde tek ses olabilmek için script + bilgi kaynağını birleştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-adim-kalite-kpi",
+        "title": "“1 Rezervasyon Çağrısının 10 Adımı” + Kalite ve Ölçüm (KPI)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu noktada amaç; aramaları sadece yönetmek değil, ölçülebilir hale getirmektir. Net bir akış, çoğu tesiste kaçan rezervasyonları azaltır ve resepsiyon telefon yükünü rahatlatır (yönlü içgörü; tesis/segment farkına göre değişir). Burada ölçüm; “daha çok konuşma” değil, “daha doğru kayıt ve daha yüksek dönüşüm” için yapılır."
+          },
+          { "type": "h3", "text": "10 Adım (hızlı checklist)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Selamlama + hat tanımı",
+              "KVKK / kayıt bilgilendirmesi (gerekiyorsa)",
+              "Tarih aralığı",
+              "Yetişkin/çocuk + çocuk yaşı",
+              "Oda tercihi / konsept beklentisi",
+              "2 seçenekli teklif (iyi/daha iyi)",
+              "Koşulların 1 cümle özeti",
+              "Misafir bilgileri + iletişim teyidi",
+              "PMS kaydı + notlar",
+              "Onay gönderimi + takip adımı"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "checklist"
+          },
+          { "type": "h3", "text": "KPI’ları Doğru Okuma (3–5 panel mantığı)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cevaplanma & terk oranı: yoğunluğu ve vardiya planını gösterir",
+              "Dönüşüm (arama → rezervasyon): script/teklif kalitesi + müsaitlik yönetimi",
+              "Ortalama işlem süresi: hız ile kalite dengesini gösterir",
+              "Kayıt doğruluğu: PMS hataları, yanlış oda/fiyat planı, eksik not",
+              "Takip başarısı: onay açılma/geri dönüş (kanal seçimi)"
+            ]
+          },
+          {
+            "type": "media",
+            "slot": "kpi-panel"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (kalite)",
+            "items": [
+              "Teklif iki seçenekli mi?",
+              "Koşullar tek cümle mi?",
+              "PMS kaydı alanları eksiksiz mi?",
+              "Onay ve takip adımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“10 adım” checklist’i kalite formunun çekirdeği yap.",
+              "KPI’ları 5 karta indir; haftalık toplantıda tek panel gibi yönet.",
+              "PMS kayıt hatalarını “kök neden” başlığıyla geri besle (eğitim + script)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sezon-uygulama-notlari",
+        "title": "Resort Bölgelerde (Antalya/Belek/Side/Kemer/Bodrum) Sezon Yoğunluğu İçin Uygulama Notları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Resort bölgelerde sezon; aynı anda kampanya soruları, transfer talepleri, aile konsepti beklentileri ve fiyat itirazlarını büyütür. Bu yüzden çağrı akışı; sadece “rezervasyon kaydı” değil, yük azaltma stratejisidir. Örneğin Bodrum’da kısa konaklama ve fiyat hassasiyeti daha baskınken, Side/Belek tarafında aile konsepti ve uzun konaklama soruları daha sık gelir; akış aynı kalır ama “soru öncelikleri” küçük farklarla düzenlenir."
+          },
+          { "type": "h3", "text": "Sezon SOP (kısa)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Yoğunlukta hedef”: önce ihtiyaç netliği, sonra teklif, sonra kayıt",
+              "“İstisna yönetimi”: overbooking / min-stay / kampanya kapanışı",
+              "“Takip planı”: arayan ama karar vermeyenlere geri arama slotu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "Mini Check (sezon hazır oluş)",
+            "items": [
+              "Kampanya koşulları tek dokümanda güncel mi?",
+              "Overbooking/istina senaryoları yazılı mı?",
+              "Geri arama planı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Sezon öncesi “kampanya + koşul” dokümanını çağrı script’i ile birleştir.",
+              "İstisnalar için tek karar noktası belirle (gelir/ön büro lideri).",
+              "Kararsız aramalar için geri arama slotları oluştur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competitor-gap-mini-bolum",
+        "title": "Resepsiyon Anlatısından “Dedike Rezervasyon Hattı”na Geçiş",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Pek çok içerik “resepsiyon nasıl rezervasyon alır?” diye anlatır; ancak ölçeklenebilir çözüm, rezervasyon hattını PMS + OTA + çok dillilik + kalite ölçümü ile tek bir sistem olarak tasarlamaktır. Fark yaratan nokta; konuşmayı “güzel” yapmak değil, konuşmayı standart kayda dönüştürmektir: kanal/ülke/dil/not standardı, iki seçenekli teklif kuralı ve onay-takip disiplini. Bu yaklaşım, özellikle yüksek sezonda kayıp talebi azaltmaya ve ekip stresini düşürmeye yardımcı olur (yönlü içgörü)."
+          },
+          {
+            "type": "media",
+            "slot": "download"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Çağrı Akışı Analizi Talep Et",
+            "text": "(Rezervasyon hattını standardize etmek isteyen oteller için: script + KPI + rol ayrımı hızlı plan)",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
+      },
+      {
+        "id": "secondary-cta-asset",
+        "title": "Rezervasyon Çağrı Akışı & Script Checklist’ini İndir — Çağrı Merkezi / Rezervasyon Desteği (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Rezervasyon Çağrı Akışı & Script Checklist’ini İndir — Çağrı Merkezi / Rezervasyon Desteği (v1.0)",
+            "purpose": "Bu asset; otel rezervasyon hattındaki konuşmayı “rastgele” olmaktan çıkarıp tek akış + tek script + tek kayıt standardı haline getirir. Agent’ların aynı soruları aynı sırayla sormasını, teklifin iki seçenekli yapılmasını ve PMS’te alanların eksiksiz doldurulmasını hedefler. Sonuç olarak kalite artar, resepsiyon üzerindeki telefon yükü yönetilebilir hale gelir.",
+            "whoFor": "Çağrı merkezi lideri, ön büro müdürü, satış/pazarlama yöneticisi ve eğitim/kalite sorumlusu.",
+            "steps": [
+              "Script’i 10 adımlık akışa göre tüm agent’lara dağıtın (tek sayfa).",
+              "1 hafta kalite dinlemelerinde checklist ile puanlayın, boş kalan adımları görün.",
+              "14 günlük sprint planıyla eğitim + süreç + raporlama düzenini oturtun."
+            ],
+            "checklist": [
+              "Açılış + hat tanımı + güven cümlesi standardı var",
+              "İhtiyaç analizi soru sırası sabit",
+              "Teklif “2 seçenek + fark” kuralıyla yapılıyor",
+              "Koşullar tek cümlede anlatılıyor (iptal/ön ödeme)",
+              "PMS alan standardı var (kanal/ülke/dil/not)",
+              "Onay kanalı + takip adımı her çağrıda var",
+              "Haftalık KPI paneli ve kalite toplantısı var"
+            ],
+            "table": {
+              "title": "Problem → Kök Neden → Çözüm Tablosu",
+              "headers": ["Problem", "Kök Neden", "Çözüm"],
+              "rows": []
+            },
+            "sprintPlan": [
+              "Gün 1–2: Mevcut çağrı örneklerini dinle, en sık 5 hatayı çıkar",
+              "Gün 3: 10 adımlık akış + TR script’i finalize et",
+              "Gün 4: EN/DE/RU mantık çevirilerini üret (aynı iskelet)",
+              "Gün 5: PMS alan standardı (kanal/ülke/dil/not) SOP yayınla",
+              "Gün 6–7: Agent eğitimleri + role-play (2 seçenekli teklif)",
+              "Gün 8: Kalite formu (checklist) ile ilk ölçümü yap",
+              "Gün 9–10: OTA fiyat itirazı için 3 cümle yanıt şablonu ekle",
+              "Gün 11: Onay mesaj şablonları (mail/SMS) standardize et",
+              "Gün 12: Rol matrisi + istisna akışını resepsiyonla netleştir",
+              "Gün 13: KPI panelini (5 kart) hazırla",
+              "Gün 14: Haftalık ritim: kalite + KPI + eğitim geri besleme"
+            ],
+            "beforeAfterKpi": [],
+            "deliverables": [
+              "10 adımlık çağrı akışı (tek sayfa)",
+              "TR/EN/DE/RU script iskeleti",
+              "PMS alan standardı SOP",
+              "Rol paylaşımı matrisi",
+              "KPI paneli (5 kart) + kalite formu"
+            ],
+            "mediaNotes": [
+              "Buraya: [Checklist Card] — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-checklist.webp — “10 adım checklist kartı”",
+              "Buraya: [KPI Card] — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-kpi-panel.webp — “5 KPI paneli”",
+              "Buraya: [Proof Card] — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-download.webp — “Deliverables kanıt kartı”"
+            ],
+            "href": "/downloads/rezervasyon-cagri-akisi-script-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel rezervasyon çağrı merkezi nedir?",
+        "a": "Misafirin müsaitlik ve fiyat sorusunu standart sorularla yönetip, doğru teklife dönüştüren ve PMS’te kaydı tamamlayan süreç/ekip yapısıdır. Amaç; hızlı, tutarlı ve ölçülebilir rezervasyon kapatmadır."
+      },
+      {
+        "q": "Rezervasyon çağrı akışı nasıl olmalı?",
+        "a": "Karşılama → ihtiyaç analizi → müsaitlik/fiyat → PMS kaydı → onay/kapanış sırasıyla ilerlemelidir. Akışın gücü, aynı soruları aynı sırayla sormak ve teklifi netleştirmektir."
+      },
+      {
+        "q": "Çağrı merkezi ile resepsiyonun rolü nasıl ayrılır?",
+        "a": "Çağrı merkezi “arama→teklif→kayıt→onay”ı yönetirken, resepsiyon check-in/out ve operasyonel uygulamayı yürütür. Rol matrisi yazılı olmazsa misafir farklı cevaplar duyabilir."
+      },
+      {
+        "q": "Rezervasyon onayını telefon sonrası nasıl iletmeliyim?",
+        "a": "E-posta/SMS ile “tarih, oda, fiyat planı, koşullar” özetini göndermek en güvenli yöntemdir. Mesaj sonunda “kontrol edin, sorunuz olursa geri dönün” takip adımı eklenmelidir."
+      },
+      {
+        "q": "Misafir OTA’da daha ucuz gördüğünü söylerse ne yapmalıyım?",
+        "a": "Önce şeffaf biçimde doğrulayın, sonra web avantajını net anlatın (esneklik/upgrade/direkt iletişim). Mümkünse eşdeğer teklifi sunup kararı kolaylaştırın."
+      },
+      {
+        "q": "PMS’te hangi alanlar mutlaka doldurulmalı?",
+        "a": "Kanal/source, ülke, dil, tarih/kişi, oda tipi, fiyat planı ve not alanı minimum standarttır. Bu alanlar raporlama ve takip kalitesini doğrudan etkiler."
+      },
+      {
+        "q": "Çok dilli rezervasyon hattında en sık hata nedir?",
+        "a": "Kelime kelime çeviri yapıp akış mantığını kaybetmektir. Doğru yöntem; her dilde aynı soru sırası ve aynı karar kalitesini korumaktır."
+      },
+      {
+        "q": "Çağrı kayıtları (call recording) ve KVKK nasıl yönetilmeli?",
+        "a": "Çağrı başında bilgilendirme net yapılmalı ve kayıt saklama/erişim prosedürü yazılı olmalıdır. Ayrıca script içine kısa ve anlaşılır bir bilgilendirme cümlesi eklenmelidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "refreshCycleDays": 365,
+        "mediaPack": [
+          "Hero / Cover — 16:9 — otel-rezervasyon-cagri-merkezi-nedir-akis-hero-01.webp — “Otel rezervasyon çağrı merkezi sürecini hero görselde özetleyen sahne”",
+          "H1 sonrası Context — 16:9 — otel-rezervasyon-cagri-merkezi-nedir-akis-h1-context-02.webp — “Rezervasyon çağrısı akışını tek bakışta anlatan otel bağlamlı görsel”",
+          "Section Divider 02 — 4:3 — otel-rezervasyon-cagri-merkezi-nedir-akis-divider-04.webp — “Çağrı merkezi ve resepsiyon rol paylaşımını anlatan operasyon şeması”",
+          "Diagram / Flow — 16:9 — otel-rezervasyon-cagri-merkezi-nedir-akis-5-steps-diagram.webp — “Karşılama–analiz–teklif–kayıt–onay adımlarını gösteren çağrı akış diyagramı”",
+          "Checklist / Framework Card — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-checklist.webp — “Bir rezervasyon çağrısının 10 adımını özetleyen checklist kartı”",
+          "KPI / Score Card — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-kpi-panel.webp — “Çağrı merkezi performansını gösteren 5 KPI kartı ve skor paneli”",
+          "Deliverables / Proof Card — 1:1 — otel-rezervasyon-cagri-merkezi-nedir-akis-download.webp — “Script, checklist, rol matrisi ve raporlama çıktıları kanıt kartı”"
+        ],
+        "tableStandard": "Tablo (1 adet – içerikte kullanıldı): “Çağrı Merkezi vs Resepsiyon Rol Paylaşımı Matrisi”",
+        "ctaRules": [
+          "Primary CTA (sheet): Rezervasyon Çağrı Akışı Analizi Talep Et",
+          "Secondary CTA (sheet): Rezervasyon Çağrı Akışı & Script Checklist’ini İndir",
+          "Secondary CTA Türü: Download Asset (checklist)",
+          "Primary CTA: 2 kez (H1 giriş sonunda + içeriğin son 1/3’ünde)",
+          "Secondary CTA: 1 kez (orta bölümde)"
+        ],
+        "internalLinkTargets": [
+          "/tr/cagri-merkezi/rezervasyon-destegi",
+          "/tr/cagri-merkezi/4-dilli-cagri-merkezi",
+          "/tr/pms-ota/rezervasyon-yonetimi"
+        ]
+      }
+    }
+  },
+
+    "BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik": {
+    "title": "OTA Entegrasyonu: Booking & Expedia Mantığı",
+    "slug": "ota-entegrasyonu-nedir-booking-expedia-temel-mantik",
+    "department": "pms-ota",
+    "updatedAt": "5 Ocak 2026",
+    "publishedAt": "2026-01-05",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "OTA entegrasyonu nedir? PMS + channel manager ile Booking & Expedia’da fiyat–envanteri senkron yönetin; overbooking’i azaltın, görünürlüğü artırın.",
+    "seo": {
+      "metaTitle": "OTA Entegrasyonu: Booking & Expedia Mantığı | DGTLFACE",
+      "metaDescription": "OTA entegrasyonu nedir? PMS + channel manager ile Booking & Expedia’da fiyat–envanteri senkron yönetin; overbooking’i azaltın, görünürlüğü artırın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa Adı / URL: OTA Entegrasyonu (Booking, Expedia) — https://dgtlface.com/tr/pms-ota/ota-entegrasyonu",
+        "Blog No / URL: Blog #1 — https://dgtlface.com/tr/pms-ota/blog/ota-entegrasyonu-nedir-booking-expedia-temel-mantik",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Evaluation)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Canonical: /tr/pms-ota/blog/ota-entegrasyonu-nedir-booking-expedia-temel-mantik"
+      ],
+      "strategySummary": "Bu yazı, “PMS & OTA Yönetimi” silosunda temel kavram rehberi (hub/otorite taşıyan child) rolünü üstlenir: “OTA entegrasyonu”nu yüzeysel anlatmak yerine PMS → Channel Manager → OTA akışını netleştirerek sonraki detay yazılara zemin hazırlar. Hedef persona; resort otel sahibi, satış-pazarlama yöneticisi ve/veya ajans yöneticisidir; amaç değerlendirme (evaluation) aşamasında “Bu entegrasyon bizim otelde nasıl çalışacak, riskleri ve kazanımları ne?” sorusunu cevaplatmaktır. Funnel’da consideration → conversion geçişini kolaylaştırır: operasyonel hata riskini (overbooking, fiyat tutarsızlığı) düşürürken görünürlük ve gelir yönetimine etkisini somutlar. Ana iş sorusu: “Booking/Expedia ile çalışırken fiyat–envanteri hangi sistem yönetmeli, hangi kurallar kritik ve kurulumdan önce neyi doğrulamalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-05",
+      "readingTime": "9 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "OTA entegrasyonu, otelinizin PMS ve/veya channel manager üzerinden Booking.com, Expedia gibi online satış kanallarına oda, fiyat ve müsaitlik bilgisini otomatik aktarmasıdır. Doğru kurulduğunda rate + inventory tüm kanallarda senkron ilerler; overbooking riski azalır, fiyat tutarsızlığı düşer ve resepsiyonun manuel güncelleme yükü ciddi ölçüde azalır. En kritik nokta, “tek kaynak gerçek” (PMS mi, channel manager mı?) ve eşleştirme kurallarının net tanımlanmasıdır.",
+      "sgeSummary": "OTA entegrasyonu, PMS/channel manager üzerinden Booking & Expedia’ya fiyat–envanter aktarımıdır. Senkronizasyon overbooking’i azaltır, görünürlüğü artırır; başarı “tek kaynak” ve eşleştirme kurallarına bağlıdır.",
+      "voiceAnswer": "OTA entegrasyonu, PMS ve channel manager ile Booking/Expedia’da fiyat ve müsaitliği otomatik senkron yönetmektir.",
+      "aiFactSheet": [
+        "Hedef kitle: Resort otel sahibi, satış-pazarlama ve rezervasyon ekipleri, ajans yöneticileri",
+        "KPI’lar: overbooking oranı, fiyat tutarlılığı, iptal oranı, net ADR/RevPAR, kanal bazlı dönüşüm",
+        "Entity’ler: OTA, Booking.com, Expedia, PMS, Channel Manager, Inventory, Rate, Availability, Restriction",
+        "Funnel: consideration → evaluation → conversion (kurulum kararı + risk azaltma)",
+        "GEO bağlamı: Antalya, Belek, Side, Kemer, Bodrum (ve benzeri turizm destinasyonları)",
+        "Temel ilişki: PMS → sends Rates & Inventory → Channel Manager → distributes → OTAs"
+      ]
+    },
+    "h1": {
+      "title": "OTA Entegrasyonu Nedir? Booking & Expedia ile Oteliniz Nasıl Çalışır?",
+      "intro": "Otel satışında “OTA ile çalışıyoruz” demek, aslında tek bir teknik omurgaya yaslanmak demektir: fiyat (rate), envanter (inventory) ve kısıtlar (min stay, stop sell vb.) doğru sistemden çıkacak, doğru kanallara dağılacak ve geri bildirimler (rezervasyon, iptal) yine doğru yere düşecektir. Buradaki kritik konu “kanala bağlanmak” değil; PMS + channel manager + OTA üçlüsünün tek kaynak gerçek mantığında yönetilmesidir. Özellikle Antalya, Belek, Side, Kemer ve Bodrum gibi yoğun sezon dalgalanması yaşayan destinasyonlarda küçük bir senkron hatası bile overbooking, yanlış fiyat, misafir memnuniyetsizliği ve gelir kaybına dönüşebilir.",
+      "quickSummary": [
+        "OTA entegrasyonu, fiyat + müsaitlik + kısıtları Booking/Expedia’ya otomatik taşır.",
+        "Hedef: tek ekran yönetim, daha az manuel iş, daha az hata.",
+        "Başarı şartı: tek kaynak gerçek, doğru eşleştirme ve test senaryoları."
+      ],
+      "ctaPrimary": {
+        "label": "OTA Entegrasyon Analizi Talep Et",
+        "text": "Mevcut PMS/CM yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirin.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "OTA Entegrasyon Analizi Talep Et",
+        "text": "Mevcut PMS/CM yapınıza göre riskleri ve hızlı kazanımları 15 dakikada netleştirin.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      "secondary": {
+        "label": "OTA Entegrasyonu Öncesi Hazırlık Checklist’ini İndir",
+        "text": "Kurulumdan önce oda–rate–kural eşleşmelerinizi 15 dakikada kontrol edip sürpriz hataları azaltın.",
+        "href": "/downloads/ota-entegrasyonu-oncesi-hazirlik-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "PMS kurulum", "href": "/pms-ota/pms-kurulum" },
+      { "label": "Kanal yönetimi", "href": "/pms-ota/kanal-yonetimi" },
+      { "label": "OTA entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+      { "label": "OTA yönetimi", "href": "/otel/ota-yonetimi" },
+      { "label": "Silo hub", "href": "/pms-ota-yonetimi" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "PMS Kurulum: Otel Operasyonu İçin Temel Kurulum Adımları",
+        "href": "/pms-ota/pms-kurulum"
+      },
+      {
+        "title": "Kanal Yönetimi Nedir? Channel Manager ile Kurallar ve Dağıtım",
+        "href": "/pms-ota/kanal-yonetimi"
+      }
+    ],
+    "sections": [
+      
+      {
+        "id": "ota-entegrasyonu-nedir-neden-onemlidir",
+        "title": "OTA entegrasyonu nedir ve neden önemlidir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA entegrasyonu, otelin envanter ve fiyat bilgisinin (ve çoğu zaman kısıtların) Booking.com, Expedia, Agoda gibi kanallara otomatik senkron aktarılmasıdır. Buradaki “entegrasyon” bir defalık bağlantı değil; günlük operasyonun kalbinde çalışan sürekli bir veri akışıdır. Bu akış doğru tasarlanmadığında “satış açıldı” gibi görünen durum aslında hatalı fiyat, yanlış müsaitlik veya kısıtların çalışmaması anlamına gelebilir."
+          },
+          { "type": "h3", "text": "Neden önemlidir? (Özet etkiler)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overbooking riskini azaltır: aynı oda tipinin birden fazla kanalda çakışmasını önler.",
+              "Fiyat tutarlılığı sağlar: web / OTA / B2B kanal fiyatları kontrol altına alınır.",
+              "Operasyon yükünü düşürür: resepsiyon ve rezervasyon ekibi “manuel güncelleme” yerine “kontrol ve optimizasyon” yapar.",
+              "Gelir yönetimini hızlandırır: sezon, doluluk ve talep değişimlerine daha hızlı tepki verirsiniz."
+            ]
+          },
+          { "type": "h3", "text": "4–5 maddelik kısa yanıt bloğu (AEO gereği)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "OTA entegrasyonu, PMS/channel manager üzerinden rate + inventory bilgisini OTA’lara taşır.",
+              "“Tek kaynak gerçek” belirlenir: PMS mi yoksa channel manager mı ana yönetim panelidir.",
+              "OTA’lar gelen rezervasyon/iptali geri gönderir; PMS ve raporlama doğru beslenir.",
+              "Doğru kurulum, fiyat tutarlılığı + müsaitlik doğruluğu + kısıtların çalışması demektir.",
+              "Yanlış kurulum, çoğu zaman “görünmez hata” üretir: gelir kaybı ve misafir memnuniyetsizliği."
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (resort senaryosu)" },
+          {
+            "type": "p",
+            "text": "Belek’te bir resort düşünün: A oda tipi için son dakika kampanyası açtınız. Eğer kampanya fiyatı Booking’de güncellenip Expedia’da kalırsa, aynı gün içinde iki farklı fiyat algısı oluşur. Bu durum sadece gelir kaybı değil; misafirin “neden farklı?” sorusuyla itibar riskine de dönüşür."
+          },
+          { "type": "h3", "text": "☑ Mini Check (H2-1): “Entegrasyon var mı, yok mu?”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "En az bir kanalda fiyat/oda güncellemesi yaptığımda diğer kanal 5–15 dakika içinde güncelleniyor mu?",
+              "Kısıtlar (min stay / stop sell) her kanalda aynı davranıyor mu?",
+              "Rezervasyon iptali PMS’e doğru işleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "“Tek kaynak gerçek”i belirleyin (PMS mi, channel manager mı?).",
+              "Oda tipleri ve rate plan’ları için “eşleştirme haritası” çıkarın.",
+              "3 temel test senaryosu tanımlayın: fiyat değişimi, stop-sell, iptal.",
+              "İç bağlantılarla (bilgi derinliği): PMS kurulum ve kanal yönetimi sayfalarını inceleyin."
+            ]
+          },
+          
+          { "type": "media", "slot": "channel-manager" }
+        ]
+      },
+      {
+        "id": "booking-expedia-temel-mantik",
+        "title": "Booking & Expedia entegrasyonunun temel mantığı",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Booking ve Expedia’nın farklı extranet alışkanlıkları olsa da entegrasyon mantığı aynı çekirdeğe oturur:\n\t•\tOda tipi (room type)\n\t•\tRate plan (fiyat planı)\n\t•\tMüsaitlik (availability/inventory)\n\t•\tKısıtlar (restrictions: min stay, CTA, CTD, stop sell)\n\nBu parçaların her biri, PMS veya channel manager’da bir “tanım” olarak yaşar. OTA tarafında da karşılığı vardır. Entegrasyon “tanımlar arası doğru eşleşme” demektir."
+          },
+          {
+            "type": "p",
+            "text": "En çok yapılan hata: “Oda tipi aynı ya” diyerek, rate plan’ları ve kısıtları eksik eşleştirmek. Sonuç: sistem çalışıyor sanırsınız ama promosyonlar, minimum konaklama veya kapama kuralları bir kanalda farklı davranır."
+          },
+          { "type": "h3", "text": "Temel mantığı sadeleştirelim (otelde karar diliyle):" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Benim “satacağım şey” oda tipi mi, paket mi? (room vs package)",
+              "Benim “fiyat mantığım” hangi rate plan’larla ilerliyor? (refund / non-refund / early booking)",
+              "Benim “kural setim” ne? (min stay, stop sell, arrival/departure kapama)",
+              "Bu tanımlar OTA’da bire bir karşılık buluyor mu?"
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (Antalya yaz sezonu):" },
+          {
+            "type": "p",
+            "text": "Antalya’da yaz yoğunluğunda 3 gece min stay kuralı koydunuz. Booking’de çalışıyor ama Expedia’da çalışmıyorsa, Expedia’dan 1 gecelik satış alırsınız. Bu, operasyonu bozar (oda planı, housekeeping ritmi) ve gelir yönetimini çarpıtır."
+          },
+          { "type": "h3", "text": "☑ Mini Check (H2-2): “Rate plan eşleşmesi”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Refundable / Non-refundable rate plan’lar ayrı ayrı eşleşti mi?",
+              "Promosyonlar (EB, last minute) için ayrı plan mı var, aynı plan üzerinde indirim mi?",
+              "Min stay / stop sell kuralları kanal bazlı tutarlı mı?"
+            ]
+          },
+          {"type":"media","slot":"ota-integrationdistinction"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rate plan’ları “listele → sadeleştir → eşleştir” yaklaşımıyla düzenleyin.",
+              "Promosyonları tek bir yerde yönetmeye karar verin (CM tarafı genelde daha güvenli).",
+              "“Kanallar arası tutarlılık” için haftalık kontrol ritmi oluşturun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pms-channel-manager-ota-uclu",
+        "title": "PMS + Channel Manager + OTA üçlüsü nasıl çalışır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu üçlü aslında bir “dağıtım zinciri”dir. En pratik anlatım şudur:\n\t•\tPMS: Otelin “operasyonel gerçekliği” (check-in/out, oda durumu, misafir kayıtları, konaklama akışı).\n\t•\tChannel Manager: Satış kanallarına “dağıtım ve kural motoru” (rate, inventory, restriction dağıtımı).\n\t•\tOTA: Talebin geldiği vitrin (görünürlük, dönüşüm, rezervasyon, iptal)."
+          },
+          {
+            "type": "p",
+            "text": "AIO gereği ilişkiyi açık edelim: PMS → sends → Rates & Inventory → to Channel Manager → distributes → to OTA.\nBazı kurulumlarda fiyat/kısıtlar PMS’ten değil, channel manager’dan yönetilir; PMS sadece rezervasyon “son kayıt” olur. Önemli olan, tek bir yönetim noktası belirleyip çakışmayı önlemektir."
+          },
+          {"type":"media","slot":"rate-inventory-synchronization"},
+          { "type": "h3", "text": "Kritik karar: “Tek kaynak gerçek” neresi?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Eğer PMS fiyat/kısıt yönetiminde zayıfsa, channel manager merkez olur.",
+              "Eğer PMS güçlü RMS/price rules sunuyorsa, PMS merkez olabilir; CM dağıtır.",
+              "Her iki tarafta da kural yazmak: en yaygın hatadır."
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (Side / Kemer operasyonu):" },
+          {
+            "type": "p",
+            "text": "Side’deki otelde resepsiyon PMS’ten oda kapatıyor, pazarlama CM’den kampanya açıyor. Aynı gün iki farklı panelde iki farklı kural yazılırsa, bir OTA’da satış kapanır, diğerinde açık kalır. Bu da “bir kanaldan satış geldi ama aslında oda kapalıydı” gibi kriz üretir."
+          },
+          { "type": "h3", "text": "☑ Mini Check (H2-3): “Tek kaynak gerçek testi”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat/kısıt değişikliğini tek bir panelden mi yapıyoruz?",
+              "Aynı kural iki yerde yazılı mı? (PMS + CM)",
+              "Güncelleme gecikmesini (latency) ölçtük mü? (5–15 dk normal, saatler risk)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Organizasyonda “kim hangi paneli yönetiyor?” sorusunu yazılı hale getirin.",
+              "PMS/CM rollerini netleştirin: PMS operasyon, CM dağıtım ve kural motoru.",
+              "En az 1 kez “uçtan uca test günü” planlayın (fiyat değişimi + stop sell + iptal)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "OTA Entegrasyonu Öncesi Hazırlık Checklist’ini İndir",
+            "text": "Kurulumdan önce oda–rate–kural eşleşmelerinizi 15 dakikada kontrol edip sürpriz hataları azaltın.",
+            "href": "/downloads/ota-entegrasyonu-oncesi-hazirlik-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "fiyat-envanter-kisit-kurallari",
+        "title": "Fiyat ve envanter akışının temel kuralları",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Entegrasyonun “kalite standardı” şu iki soruda saklıdır:\n\t1.\tFiyat nerede yönetiliyor? (rate rules, promosyonlar, paketler)\n\t2.\tEnvanter nerede güncelleniyor? (availability, allotment, stop-sell)"
+          },
+          { "type": "h3", "text": "1) Rate (Fiyat) kuralları – minimum set" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rate plan hiyerarşisi: BAR, non-refundable, early booking, last minute…",
+              "Parite yönetimi: Web/OTA/B2B fiyatlarının kontrol mantığı",
+              "Komisyon etkisi: OTA komisyonu sonrası net gelire bakış (net ADR)"
+            ]
+          },
+          { "type": "h3", "text": "2) Inventory (Envanter) kuralları – minimum set" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipi bazında müsaitlik: “Toplam oda” değil, “satılabilir oda” mantığı",
+              "Stop-sell disiplini: bakım/operasyon/overbooking riskinde anında kapama",
+              "Allotment ve serbest satış: B2B allotment’ları OTA’lara taşımamayı netleştirme"
+            ]
+          },
+          { "type": "h3", "text": "3) Restriction (Kısıtlar) – çoğu otelin atladığı bölüm (Competitor gap’i kapatan mini bölüm)" },
+          {
+            "type": "p",
+            "text": "Birçok içerik “oda ve fiyat”ta kalır; fark yaratan kısım kısıtların doğru yönetimidir:\n\t•\tMin stay (minimum konaklama)\n\t•\tCTA/CTD (arrival/departure kapama)\n\t•\tStop sell (tam kapama)\n\t•\tClose to arrival / close to departure\nBu kurallar doğru çalışmadığında, “doluluğu yönetiyorum” zannedersiniz ama kanal bazında dengesiz satış alırsınız."
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış benchmark):\nBazı resort otellerde, doğru kurgulanmış OTA entegrasyonu ile online satışların önemli bir kısmının (çoğu benchmark’ta OTA ağırlığının yüksek seyrettiği) senkron ve hatasız yönetilebildiği görülür; kritik olan oranı kovalamak değil, hata maliyetini sıfıra yakınlatmaktır."
+          },
+          { "type": "h3", "text": "☑ Mini Check (H2-4): “3 katman kuralı”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rate plan’lar sade mi, çoğalmış mı? (gereksiz planlar risk)",
+              "Inventory güncellemeleri tek yerden mi?",
+              "Restriction setimiz yazılı mı, kanallarda tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rate plan’ları sadeleştirip “ana plan + promosyon” yapısına çekin.",
+              "Envanteri “satılabilir oda” mantığıyla yönetip stop-sell prosedürü yazın.",
+              "Restriction’ları bir tabloya dökün ve her kanalda test edin (min stay + CTA/CTD)."
+            ]
+          },
+          { "type": "media", "slot": "price-inventory-transition" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Entegrasyon Analizi Talep Et",
+            "text": "PMS/CM kurulumunuzda fiyat–envanter–kısıt hatalarını büyümeden tespit edip düzeltme planı alın.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "ota-entegrasyonu-gelir-etkisi",
+        "title": "OTA entegrasyonunun otel gelirine etkisi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA entegrasyonu “teknik bir kurulum” gibi görünse de gelir tarafında üç net çıktısı vardır:"
+          },
+          { "type": "h3", "text": "1) Görünürlük → Dönüşüm etkisi" },
+          {
+            "type": "p",
+            "text": "OTA’larda görünürlük sadece reklamla değil; doğru müsaitlik ve rekabetçi, tutarlı fiyatla da ilgilidir. Yanlış eşleşme yüzünden “kapalı” görünen oda tipi, görünürlüğünüzü düşürür. Bu da daha az tıklama, daha az rezervasyon demektir."
+          },
+          { "type": "h3", "text": "2) Operasyon hatası maliyeti (gizli maliyet)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overbooking olduğunda sadece “bir misafir” kaybetmezsiniz; transfer, upgrade, iade, itibar ve personel zamanı dahil katlanarak büyüyen bir maliyet üretirsiniz.",
+              "Fiyat tutarsızlığında, misafir “aynı oda iki farklı fiyat” gördüğünde güven kırılır."
+            ]
+          },
+          { "type": "h3", "text": "3) Gelir yönetimi hızı" },
+          {
+            "type": "p",
+            "text": "Doğru entegrasyon, ekibinizin zamanı “manuel güncelleme”den “gelir optimizasyonu”na kaydırır. Özellikle Bodrum, Kemer, Alanya gibi dönemsel talebin sert değiştiği destinasyonlarda hızlı aksiyon, fark yaratır."
+          },
+          { "type": "h3", "text": "Mini örnek (Bodrum hafta sonu talebi):" },
+          {
+            "type": "p",
+            "text": "Hafta sonu talebi yükseldi; BAR’ı artırdınız. Eğer güncelleme bir kanalda gecikirse, düşük fiyattan satış alır ve “yüksek talep gününde” gelir kaybedersiniz."
+          },
+          { "type": "h3", "text": "☑ Mini Check (H2-5): “Gelir etkisi ölçüm seti”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kanal bazlı net ADR takibi var mı? (komisyon sonrası)",
+              "Overbooking / relocations kaydı tutuluyor mu?",
+              "Fiyat tutarsızlığı şikâyeti izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Net gelir” perspektifiyle kanal raporlaması kurun (komisyon sonrası).",
+              "Hata maliyetini görünür kılın: overbooking/relocation log’u tutun.",
+              "Haftalık “kural ve kısıt” denetimiyle görünmez hataları yakalayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ota-entegrasyonu-oncesi-kontrol-listesi",
+        "title": "OTA entegrasyonu öncesi kontrol listesi (fark yaratan kapanış bölümü)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yazının hedefi, entegrasyona başlamadan önce “en kritik 10 şeyi” netleştirmek. Aşağıdaki mini kutu, projeyi problemsiz başlatmak için yeterli bir çerçeve sunar."
+          },
+          { "type": "h3", "text": "☑ Mini Check (Final): “Entegrasyona başlamadan önce”" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS sürüm/entegrasyon yetkinliği doğrulandı mı?",
+              "Channel manager seçimi, OTA sayısı ve ihtiyaçlara göre yapıldı mı?",
+              "Oda tipleri ve rate plan’lar sadeleştirildi mi?",
+              "Restriction set (min stay/CTA/CTD/stop sell) yazılı mı?",
+              "Test senaryoları belirlendi mi (fiyat, stop-sell, iptal, no-show)?",
+              "Roller net mi: kim PMS, kim CM panelini yönetiyor?",
+              "İç link planı hazır mı (rehber → detay yazılar)?"
+            ]
+          },
+          { "type": "media", "slot": "checklist" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Entegrasyon Analizi Talep Et",
+            "text": "Booking/Expedia kurulumunuz için oda–rate–kural haritasını çıkarıp riskleri netleştirelim.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          },
+          {
+            "type": "p",
+            "text": "İç link önerileri (Technical SEO notu ile uyumlu):\n\t•\tPMS kurulum: https://dgtlface.com/tr/pms-ota/pms-kurulum\n\t•\tKanal yönetimi: https://dgtlface.com/tr/pms-ota/kanal-yonetimi\n\t•\tOTA yönetimi: https://dgtlface.com/tr/otel/ota-yonetimi\n\t•\tSilo hub (Varsayım): https://dgtlface.com/tr/pms-ota-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "ota-entegrasyonu-hata-matrisi",
+        "title": "OTA Entegrasyonu Hata Matrisi (Operasyon + Gelir)",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "OTA Entegrasyonu Hata Matrisi (Operasyon + Gelir)",
+            "headers": ["Hata", "Kök Neden", "Çözüm", "KPI etkisi"],
+            "rows": [
+              [
+                "Overbooking",
+                "Tek kaynak gerçek belirsiz; envanter iki panelden güncelleniyor",
+                "Tek yönetim paneli belirle; inventory akışını tekleştir; stop-sell prosedürü yaz",
+                "Overbooking oranı düşer; misafir memnuniyeti artar"
+              ],
+              [
+                "Fiyat tutarsızlığı (kanallar arası)",
+                "Rate plan eşleşmesi eksik; promosyon farklı çalışıyor",
+                "Rate plan’ları “listele→sadeleştir→eşleştir”; promosyon yönetimini tek yere al",
+                "Fiyat tutarlılığı artar; net ADR korunur"
+              ],
+              [
+                "Stop-sell / restriction çalışmıyor",
+                "Restriction set OTA’da karşılık bulmuyor; eksik mapping",
+                "Restriction tablosu çıkar; min stay/CTA/CTD/stop-sell test senaryolarını çalıştır",
+                "Operasyon stabilitesi artar; iptal/şikâyet azalır"
+              ],
+              [
+                "İptal/no-show PMS’e yanlış işleniyor",
+                "Geri bildirim akışı bozuk; PMS entegrasyon yetkinliği doğrulanmadı",
+                "PMS sürüm/entegrasyon kontrolü; uçtan uca iptal/no-show test günü",
+                "İptal oranı takibi doğru olur; raporlama kalitesi artar"
+              ],
+              [
+                "Güncelleme gecikmesi (latency) yüksek",
+                "Kanal/PMS servisleri gecikiyor; alarm eşiği yok",
+                "Latency ölç; alarm eşikleri belirle; yoğun sezon senaryosu simülasyonu yap",
+                "Gelir kaybı azalır; hızlı aksiyon mümkün olur"
+              ]
+            ]
+          },
+          {"type":"media","slot":"deliverables"}
+        ]
+      },
+      {
+        "id": "ota-entegrasyonu-checklist-asset",
+        "title": "OTA Entegrasyonu Öncesi Hazırlık Checklist’i — PMS & OTA Yönetimi (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "OTA Entegrasyonu Öncesi Hazırlık Checklist’i — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu checklist, Booking/Expedia entegrasyonuna başlamadan önce otelin oda tipi–rate plan–kısıt–envanter eşleştirmelerini hızlıca doğrulamanız için hazırlanmıştır. Hedef, canlıya çıkış sonrası ortaya çıkan “görünmez hataları” (fiyat tutarsızlığı, stop-sell çalışmaması, iptal akışı bozukluğu) daha kurulum aşamasında yakalamaktır. Sonuç olarak ekip, entegrasyonu “bağladık” değil, “ölçtük ve doğruladık” seviyesine taşır.",
+            "whoFor": "Rezervasyon müdürü, gelir yöneticisi (RM), ön büro lideri ve entegrasyon tarafında ajans/IT.",
+            "steps": [
+              "PMS + channel manager panellerinden oda tipi ve rate plan listesini çıkarın.",
+              "Aşağıdaki checklist ile eşleştirme ve kural setini doğrulayın.",
+              "14 günlük sprint planıyla testleri tamamlayıp canlıya çıkın."
+            ],
+            "checklist": [
+              "“Tek kaynak gerçek” seçildi: PMS mi CM mi?",
+              "Oda tipleri sade ve net: “satılabilir oda” mantığı hazır",
+              "Rate plan’lar temiz: BAR / refundable / non-refundable / promosyonlar",
+              "Restriction set yazılı: min stay / CTA / CTD / stop-sell",
+              "Kanal bazlı test listesi var: Booking + Expedia + (varsa Agoda vb.)",
+              "Rezervasyon iptal/no-show akışı PMS’e doğru işleniyor",
+              "Güncelleme gecikmesi ölçüldü (latency)",
+              "Raporlama KPI’ları belirlendi (overbooking, net ADR, parity)"
+            ],
+            "sprintPlan14Days": [
+              "Gün 1: Mevcut sistem haritası (PMS/CM/OTA) + roller",
+              "Gün 2: Oda tipleri temizliği + mapping taslağı",
+              "Gün 3: Rate plan sadeleştirme + parite yaklaşımı",
+              "Gün 4: Restriction set dokümantasyonu (min stay/CTA/CTD/stop-sell)",
+              "Gün 5: Booking test-1 (fiyat güncelleme + görünüm)",
+              "Gün 6: Expedia test-1 (fiyat güncelleme + görünüm)",
+              "Gün 7: Inventory test (kapama, allotment, stop-sell)",
+              "Gün 8: İptal/no-show testleri + PMS kayıt kontrolü",
+              "Gün 9: Latency ölçümü + alarm eşikleri",
+              "Gün 10: Raporlama KPI seti ve dashboard taslağı",
+              "Gün 11: Sezon senaryosu (Antalya/Belek yoğunluk) simülasyonu",
+              "Gün 12: “Hata matrisi” üzerinden düzeltmeler",
+              "Gün 13: Canlı öncesi son kontrol + onay listesi",
+              "Gün 14: Canlıya çıkış + ilk hafta izleme planı"
+            ],
+            "deliverables": [
+              "Oda tipi + rate plan mapping dokümanı",
+              "Restriction set tablosu (kanal bazlı)",
+              "Test senaryoları ve sonuç kayıtları",
+              "KPI izleme şablonu + aksiyon planı",
+              "Hata matrisi ve düzeltme backlog’u"
+            ],
+            "href": "/downloads/ota-entegrasyonu-oncesi-hazirlik-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+          { "type": "media", "slot": "ota-kpi" },
+          { "type": "media", "slot": "kpi-07" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "OTA entegrasyonu nedir?",
+        "a": "OTA entegrasyonu, PMS ve/veya channel manager üzerinden Booking, Expedia gibi kanallara fiyat ve müsaitlik bilgisinin otomatik aktarılmasıdır. Amaç, kanallar arasında tutarlılık sağlayıp manuel hataları azaltmaktır."
+      },
+      {
+        "q": "Oteller için Booking ve Expedia entegrasyonu nasıl çalışır?",
+        "a": "Oda tipi ve rate plan’lar sistemlerde eşleştirilir; ardından rate + inventory + kısıtlar OTA’ya dağıtılır. Rezervasyon ve iptal geri bildirimleri PMS’e düşerek operasyonu besler."
+      },
+      {
+        "q": "PMS + channel manager + OTA üçlüsü nasıl bir akışla çalışır?",
+        "a": "PMS operasyonel kayıtları tutar, channel manager dağıtım ve kural motoru gibi çalışır, OTA ise satış vitrini ve talep kaynağıdır. En kritik konu, “tek kaynak gerçek”in neresi olduğuna karar vermektir."
+      },
+      {
+        "q": "OTA entegrasyonu otel gelirini ve görünürlüğünü nasıl etkiler?",
+        "a": "Doğru entegrasyon, görünürlük ve dönüşümü destekler; fiyat tutarlılığı ve doğru müsaitlik sayesinde gelir kaybı azaltılır. Hata maliyetleri (overbooking, yanlış fiyat) düşer."
+      },
+      {
+        "q": "OTA entegrasyonu için channel manager şart mı?",
+        "a": "Birçok otelde evet; çünkü kanal bazlı kural yönetimi ve dağıtım kolaylığı sağlar. Ancak PMS’inizin entegrasyon kabiliyeti güçlü ise bazı senaryolarda daha yalın kurulumlar da mümkündür."
+      },
+      {
+        "q": "Overbooking’i tamamen bitirir mi?",
+        "a": "Tek başına “sıfırlar” demek doğru olmaz; ama doğru senkron ve tek panel yönetimi ile risk dramatik biçimde düşer. Asıl güvence, test senaryoları ve izleme ritmidir."
+      },
+      {
+        "q": "En sık yapılan kurulum hatası nedir?",
+        "a": "Fiyat/kısıtların hem PMS’te hem channel manager’da yazılması ve eşleşmelerin eksik kalmasıdır. Bu çakışmalar, kanallar arasında tutarsız davranış üretir."
+      },
+      {
+        "q": "Entegrasyon sonrası ilk hafta ne izlenmeli?",
+        "a": "Güncelleme gecikmesi, fiyat tutarlılığı, stop-sell davranışı ve iptal akışı izlenmelidir. Ayrıca kanal bazlı net ADR ve overbooking olayları kayıt altına alınmalıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-hero-01.webp — “OTA entegrasyonu akışını anlatan hero görseli, otel satış bağlamı”",
+          "h1-context-02 — 1920×1080 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-h1-context-02.webp — “PMS ve channel manager bağlam görseli, Booking-Expedia entegrasyonu”",
+          "divider-03 — 1600×1200 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-divider-03.webp — “OTA entegrasyonu kavram ayrımı görseli, otel operasyon çerçevesi”",
+          "divider-04 — 1600×1200 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-divider-04.webp — “Fiyat ve envanter yönetimi geçiş görseli, otel gelir yönetimi”",
+          "diagram-05 — 1920×1080 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-diagram-05.webp — “PMS’den OTA’ya veri akışı diyagramı, rate ve inventory senkronu”",
+          "ota-kpi — 1200×1200 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-ota-kpi.webp — “OTA entegrasyonu kontrol çerçevesi kartı, otel satış süreci”",
+          "kpi-07 — 1200×1200 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-kpi-07.webp — “Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı”",
+          "checklist — 1200×1200 — ota-entegrasyonu-nedir-booking-expedia-temel-mantik-checklist.webp — “OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi”",
+          "table-error-root-solution-kpi — (tablo) — “OTA Entegrasyonu Hata Matrisi (Operasyon + Gelir)”"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (parametreli sayfalar dahil)",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu",
+          "Tek kaynak gerçek (PMS mi CM mi?) yazılı hale getirildi",
+          "Rate plan / room type mapping dokümanı üretildi",
+          "Restriction set (min stay/CTA/CTD/stop-sell) kanal bazlı doğrulandı",
+          "Latency ölçümü ve alarm eşikleri belirlendi",
+          "Booking + Expedia uçtan uca test senaryoları kaydedildi (fiyat, stop-sell, iptal, no-show)"
+        ]
+      }
+    }
+  }
 
   }
 

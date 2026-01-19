@@ -42,7 +42,8 @@ export const BLOG_MAP = {
     "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi",
     "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin",
     "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber",
-    "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim"
+    "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim",
+    "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri"
   },
 
        callcenter: {
@@ -50,7 +51,8 @@ export const BLOG_MAP = {
     "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi",
     "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk",
     "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon",
-    "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama"
+    "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama",
+    "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis"
   },
 
     "pms-ota": {
@@ -58,7 +60,8 @@ export const BLOG_MAP = {
     "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim",
     "pms-data-migration-ve-temizlik-sureci":"BlogPmsDataMigrationVeTemizlikSureci",
     "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin",
-    "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri"
+    "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
+    "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik"
   },
 
     "veri-analizi-raporlama": {

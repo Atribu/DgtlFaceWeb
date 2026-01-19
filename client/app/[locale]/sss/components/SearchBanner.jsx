@@ -266,7 +266,7 @@ export default function SearchBanner({ faqSlug }) {
       {/* ✅ GRID: root’ta büyük, alt sayfalarda daha sık ve küçük */}
 <div
   className={[
-    "grid gap-1 md:gap-2 lg:gap-[10px]",
+    "grid gap-1 md:gap-2 lg:gap-[5px]",
     isRoot
       ? "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10 items-center justify-center"
       : "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5",

@@ -38,7 +38,7 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     // HİZMETLER ANA KATEGORİLERİ (SERVICES)
     //---------------------------------------------------------
-    "/Services": { // https://www.dgtlface.com/tr/Services
+    "/Services": { 
       en: "/services",
       tr: "/hizmetlerimiz",
       ru: "/uslugi",
@@ -351,18 +351,18 @@ export const routing = defineRouting({
       ru: "/uslugi/hotel/veb-platezhi",
     },
 
-    "/faq": {
-      en: "/faq",
-      tr: "/sss",
-      ru: "/faq",
-    },
+    // "/faq": {
+    //   en: "/faq",
+    //   tr: "/sss",
+    //   ru: "/faq",
+    // },
 
-    // Dinamik FAQ sayfası (senin yapın /faq/[faq] ise)
-    "/faq/[faq]": {
-      en: "/faq/[faq]",
-      tr: "/[faq]", // TR'de root altında: /hizmetler-sss, /seo-sss vb.
-      ru: "/faq/[faq]",
-    },
+    // // Dinamik FAQ sayfası (senin yapın /faq/[faq] ise)
+    // "/faq/[faq]": {
+    //   en: "/faq/[faq]",
+    //   tr: "/[faq]", // TR'de root altında: /hizmetler-sss, /seo-sss vb.
+    //   ru: "/faq/[faq]",
+    // },
 
     "/[department]/blog/[slug]": {
   en: "/[department]/blog/[slug]",
