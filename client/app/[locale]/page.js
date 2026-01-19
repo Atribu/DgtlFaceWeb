@@ -32,7 +32,7 @@ export async function generateMetadata() {
       siteName: "DGTLFACE",
       images: [
         {
-          url: "https://dgtlface.com/og-default.jpg",
+          url: "https://dgtlface.com/og/og-home.png",
           width: 1200,
           height: 630,
           alt: "DGTLFACE – Dijital Pazarlama & Teknoloji Partneri",

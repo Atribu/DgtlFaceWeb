@@ -7,7 +7,8 @@ export const BLOG_MAP = {
     "google-ads-kalite-puani-nedir-nasil-yukseltilir":"BlogGoogleAdsKalitePuaniNedirNasilYukseltilir",
     "google-ads-donusum-kurgusu-ve-takibi":"BlogGoogleAdsDonusumKurgusuVeTakibi",
 
-    "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri"
+    "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri",
+    "oteller-icin-youtube-hedefleme-yapisi":"BlogOtellerIcinYouTubeHedeflemeYapisi"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -15,6 +16,7 @@ export const BLOG_MAP = {
     "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu":"BlogRobotsTxtVeSitemapOtelSitelerindeTaramaKontrolu",
     "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi",
     "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri",
+
     "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin"
   },
 
@@ -43,6 +45,7 @@ export const BLOG_MAP = {
     "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin",
     "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber",
     "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim",
+
     "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri"
   },
 
@@ -52,6 +55,7 @@ export const BLOG_MAP = {
     "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk",
     "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon",
     "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama",
+
     "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis"
   },
 
@@ -69,7 +73,9 @@ export const BLOG_MAP = {
     "seo-sem-smm-verilerini-tek-panelde-birlestirmek":"BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek",
     "pms-ota-verilerini-looker-studioya-baglamak":"BlogPmsOtaVerileriniLookerStudioyaBaglamak",
     "cok-otelli-yapilarda-looker-studio-mimarisi":"BlogCokOtelliYapilardaLookerStudioMimarisi",
-    "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":"BlogYonetimIcinExecutiveDashboardVeOtomatikRaporlama"
+    "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":"BlogYonetimIcinExecutiveDashboardVeOtomatikRaporlama",
+
+    "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir"
   },
 
 
@@ -78,7 +84,9 @@ export const BLOG_MAP = {
     "oda-sayfalari-google-travel-icin-nasil-optimize-edilir":"BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir",
     "destinasyon-icerigi-ile-direct-booking-seo-stratejisi":"BlogDestinasyonIcerigiIleDirectBookingSeoStratejisi",
     "cok-dilli-otel-seo-tr-en-de-ru-yapi":"BlogCokDilliOtelSeoTrEnDeRuYapi",
-    "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":"BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi"
+    "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":"BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi",
+
+    "otel-instagram-strateji-rehberi":"BlogOtelInstagramStratejiRehberi"
   }
 };
 

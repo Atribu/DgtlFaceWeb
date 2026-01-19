@@ -363,6 +363,7 @@ export const routing = defineRouting({
     //   tr: "/[faq]", // TR'de root altında: /hizmetler-sss, /seo-sss vb.
     //   ru: "/faq/[faq]",
     // },
+    
 
     "/[department]/blog/[slug]": {
   en: "/[department]/blog/[slug]",

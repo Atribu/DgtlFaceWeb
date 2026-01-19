@@ -2902,6 +2902,156 @@ export const BLOG_MEDIA_MAP = {
       alt: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi",
       caption: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi"
     }
+  },
+
+  "otel-benchmark-analizi-nedir-nasil-yapilir":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-1.jpeg",
+      alt: "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi",
+      caption: "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi"
+    },
+
+          "performance": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-2.jpeg",
+      alt: "Otel KPI’larının rakip setiyle kıyaslandığı başlangıç bağlam görseli",
+      caption: "Otel KPI’larının rakip setiyle kıyaslandığı başlangıç bağlam görseli"
+    },
+
+           "adr-occupancy-rate": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-3.jpeg",
+      alt: "Benchmark amacı ve faydasını anlatan bölüm ayırıcı otel görseli",
+      caption: "Benchmark amacı ve faydasını anlatan bölüm ayırıcı otel görseli"
+    },
+
+    "internal-external-benchmarks": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-4.jpeg",
+      alt: "İç ve dış benchmark farkını sade kutularla anlatan otel görseli",
+      caption: "İç ve dış benchmark farkını sade kutularla anlatan otel görseli"
+    },
+
+     "flowchart": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-5.jpeg",
+      alt: "Hotel KPI’larının Competitor Set ile karşılaştırıldığı akış diyagramı görseli",
+      caption: "Hotel KPI’larının Competitor Set ile karşılaştırıldığı akış diyagramı görseli"
+    },
+
+          "checklist": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-6.jpeg",
+      alt: "Benchmark için KPI ve rakip seti seçimini özetleyen kontrol kartı görseli",
+      caption: "Benchmark için KPI ve rakip seti seçimini özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-score-cards": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-7.jpeg",
+      alt: "Doluluk ADR RevPAR ve kanal payı için örnek KPI skor kartı görseli",
+      caption: "Doluluk ADR RevPAR ve kanal payı için örnek KPI skor kartı görseli"
+    },
+
+          "deliverables-cards": {
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-8.jpeg",
+      alt: "Benchmark çıktıları ve aksiyon planını gösteren deliverables kartı görseli",
+      caption: "Benchmark çıktıları ve aksiyon planını gösteren deliverables kartı görseli"
+    }
+  },
+
+  "otel-instagram-strateji-rehberi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-1.jpeg",
+      alt: "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi",
+      caption: "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi"
+    },
+
+          "instagram-strategy": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-2.jpeg",
+      alt: "Instagram profil konumlandırması için hızlı kontrol görseli",
+      caption: "Instagram profil konumlandırması için hızlı kontrol görseli"
+    },
+
+           "instagram-otel": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-3.jpeg",
+      alt: "Otel Instagram stratejisi bölüm ayırıcı görseli",
+      caption: "Otel Instagram stratejisi bölüm ayırıcı görseli"
+    },
+
+    "hotel-content-themes": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-4.jpeg",
+      alt: "Otel içerik temaları oda tesis deneyim destinasyon ayırıcı görseli",
+      caption: "Otel içerik temaları oda tesis deneyim destinasyon ayırıcı görseli"
+    },
+
+     "direct-booking-flow": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-5.jpeg",
+      alt: " Instagramdan direkt rezervasyona funnel akışını gösteren diyagram",
+      caption: "Instagramdan direkt rezervasyona funnel akışını gösteren diyagram"
+    },
+
+          "checklist": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-6.jpeg",
+      alt: "Otel Instagram bio ve funnel kontrol listesini özetleyen kart",
+      caption: "Otel Instagram bio ve funnel kontrol listesini özetleyen kart"
+    },
+
+      "performance-cards": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-7.jpeg",
+      alt: "Otel Instagram KPI setini gösteren skor kart görseli",
+      caption: "Otel Instagram KPI setini gösteren skor kart görseli"
+    },
+
+          "download": {
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-8.jpeg",
+      alt: "Otel sosyal medya teslimatlarını ve güven kanıtlarını gösteren kart",
+      caption: "Otel sosyal medya teslimatlarını ve güven kanıtlarını gösteren kart"
+    }
+  },
+
+  "oteller-icin-youtube-hedefleme-yapisi":{
+    banner: {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-1.jpeg",
+      alt: "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?",
+      caption: "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?"
+    },
+
+          "funnel-layers": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-2.jpeg",
+      alt: "Funnel’a göre hedefleme katmanlarını gösteren bağlam görseli",
+      caption: "Funnel’a göre hedefleme katmanlarını gösteren bağlam görseli"
+    },
+
+           "targeting": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-3.jpeg",
+      alt: "Hedefleme katmanlarına geçiş için ayırıcı görsel",
+      caption: "Hedefleme katmanlarına geçiş için ayırıcı görsel"
+    },
+
+    "remarketing": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-4.jpeg",
+      alt: " Remarketing ve hata senaryolarına geçiş için ayırıcı görsel",
+      caption: " Remarketing ve hata senaryolarına geçiş için ayırıcı görsel"
+    },
+
+     "hotel-youtube-flow": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-5.jpeg",
+      alt: "Upper–Mid–Low hedefleme katmanlarını ve remarketing akışını gösteren diyagram",
+      caption: "Upper–Mid–Low hedefleme katmanlarını ve remarketing akışını gösteren diyagram"
+    },
+
+          "checklist": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-6.jpeg",
+      alt: "YouTube hedefleme kurulumunu 7 adımda özetleyen checklist kartı",
+      caption: "YouTube hedefleme kurulumunu 7 adımda özetleyen checklist kartı"
+    },
+
+      "kpi-panel": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-7.jpeg",
+      alt: "Hedefleme kalitesi için KPI skor kartı ",
+      caption: "Hedefleme kalitesi için KPI skor kartı (5 metrik)"
+    },
+
+          "download": {
+      src: "/images/blog/sem/SEM2-2/SEM2-2-8.jpeg",
+      alt: "Hedefleme deliverables seti: segment planı, listeler, test planı",
+      caption: "Hedefleme deliverables seti: segment planı, listeler, test planı"
+    }
   }
   
 };

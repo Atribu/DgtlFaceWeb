@@ -26333,7 +26333,7 @@
         "id": "direct-booking-strateji-adimlari",
         "title": "Direct booking odaklı otel SEO stratejisinin temel adımları",
         "blocks": [
-          { "type": "media", "slot": "diagram-05" },
+          { "type": "media", "slot": "instagram-strategy" },
           {
             "type": "p",
             "text": "Otel SEO’da “başarı”, sadece daha fazla trafik değildir; doğru trafikten direct rezervasyon üretmektir. Bu da funnel mantığını netleştirmeyi gerektirir: kullanıcı önce destinasyon/konseptte sizi keşfeder, sonra oda/teklif sayfasına iner, sonra rezervasyon akışına geçer."
@@ -47929,7 +47929,7 @@
           {
             "type": "callout",
             "variant": "check",
-            "title": "Mini Check (H2-1)",
+            "title": "Mini Check ",
             "items": [
               "Fiyat bileşenleri (vergi/ücret) ilk ekranda net mi?",
               "Oda farkları (metrekare, manzara, iptal) 10 saniyede anlaşılır mı?",
@@ -47945,7 +47945,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Fiyat şeffaflığını tek satır “özet fiyat” alanıyla standardize edin.",
               "Oda kartlarına “en kritik 3 fark” rozetini ekleyin (iptal, manzara, konsept).",
@@ -48021,7 +48021,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Keşif ekranında “tek ana CTA” belirleyin: “Tarih seç → Fiyat gör”.",
               "Oda kartlarını karar odaklı sadeleştirin: 6 bilgi → 3 karar bilgisi.",
@@ -48087,7 +48087,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Akışı 3–4 adım hedefiyle yeniden çizin; “olmazsa olmaz” alanları ayırın.",
               "Mobilde form alanlarını azaltın; gereksiz bilgileri rezervasyon sonrası toplayın.",
@@ -48158,7 +48158,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Oda kartlarını “karar bilgisi” odaklı sadeleştirin; 5 maddeyi geçmeyin.",
               "Mikro kopyayı standardize edin: fiyat/iptal/ödeme için 3 sabit şablon oluşturun.",
@@ -48214,7 +48214,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Form alanlarını sınıflandırın: “zorunlu” vs “sonra sor” (post-booking).",
               "Ödeme ekranına 2 satır güven + 1 satır iptal özeti ekleyin.",
@@ -48276,7 +48276,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "GA4’te rezervasyon adımlarını event bazında kurun (başlat/ileri/terk).",
               "Her sprintte tek bir “drop-off” noktasını iyileştirin.",
@@ -48317,7 +48317,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sistemden gelen fiyat/koşul verisini “tek satır özet” olarak standartlaştırın.",
               "Çok dilli metinleri birebir çeviri değil, lokalizasyonla düzeltin.",
@@ -48584,7 +48584,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Rezervasyon hattı hedefini tek cümleye indir (“Aramayı PMS kaydına çeviririz”).",
               "Oda/teklif bilgisini tek kaynakta topla (kampanya + koşul + upsell).",
@@ -48636,7 +48636,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Akışı tek sayfaya indir (5 adım) ve tüm agent’lara aynı formatta dağıt.",
               "Teklifi “iki seçenek + 1 fark” kuralıyla standardize et.",
@@ -48686,7 +48686,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "PMS’te “kanal/ülke/dil/not” alanlarını zorunlu standarda bağla.",
               "OTA fiyat itirazı için 3 cümlelik “şeffaf yanıt” şablonu oluştur.",
@@ -48733,7 +48733,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "4 dilde “aynı iskelet” script üret, kelime kelime değil mantık mantık çevir.",
               "İptal/ön ödeme cümlesini her dilde tek cümleye indir.",
@@ -48785,7 +48785,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Rol matrisi çıkar ve SOP (prosedür) olarak yayınla.",
               "İstisna durumlarda “tek karar noktası” belirle.",
@@ -48853,7 +48853,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "“10 adım” checklist’i kalite formunun çekirdeği yap.",
               "KPI’ları 5 karta indir; haftalık toplantıda tek panel gibi yönet.",
@@ -48893,7 +48893,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "Sezon öncesi “kampanya + koşul” dokümanını çağrı script’i ile birleştir.",
               "İstisnalar için tek karar noktası belirle (gelir/ön büro lideri).",
@@ -49175,7 +49175,7 @@
             "type": "p",
             "text": "Belek’te bir resort düşünün: A oda tipi için son dakika kampanyası açtınız. Eğer kampanya fiyatı Booking’de güncellenip Expedia’da kalırsa, aynı gün içinde iki farklı fiyat algısı oluşur. Bu durum sadece gelir kaybı değil; misafirin “neden farklı?” sorusuyla itibar riskine de dönüşür."
           },
-          { "type": "h3", "text": "☑ Mini Check (H2-1): “Entegrasyon var mı, yok mu?”" },
+          { "type": "h3", "text": "☑ Mini Check : “Entegrasyon var mı, yok mu?”" },
           {
             "type": "list",
             "style": "ul",
@@ -49188,7 +49188,7 @@
           {
             "type": "callout",
             "variant": "action",
-            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "title": "Ne yapmalıyım? ",
             "items": [
               "“Tek kaynak gerçek”i belirleyin (PMS mi, channel manager mı?).",
               "Oda tipleri ve rate plan’ları için “eşleştirme haritası” çıkarın.",
@@ -49228,7 +49228,7 @@
             "type": "p",
             "text": "Antalya’da yaz yoğunluğunda 3 gece min stay kuralı koydunuz. Booking’de çalışıyor ama Expedia’da çalışmıyorsa, Expedia’dan 1 gecelik satış alırsınız. Bu, operasyonu bozar (oda planı, housekeeping ritmi) ve gelir yönetimini çarpıtır."
           },
-          { "type": "h3", "text": "☑ Mini Check (H2-2): “Rate plan eşleşmesi”" },
+          { "type": "h3", "text": "☑ Mini Check : “Rate plan eşleşmesi”" },
           {
             "type": "list",
             "style": "ul",
@@ -49279,7 +49279,7 @@
             "type": "p",
             "text": "Side’deki otelde resepsiyon PMS’ten oda kapatıyor, pazarlama CM’den kampanya açıyor. Aynı gün iki farklı panelde iki farklı kural yazılırsa, bir OTA’da satış kapanır, diğerinde açık kalır. Bu da “bir kanaldan satış geldi ama aslında oda kapalıydı” gibi kriz üretir."
           },
-          { "type": "h3", "text": "☑ Mini Check (H2-3): “Tek kaynak gerçek testi”" },
+          { "type": "h3", "text": "☑ Mini Check : “Tek kaynak gerçek testi”" },
           {
             "type": "list",
             "style": "ul",
@@ -49345,7 +49345,7 @@
             "type": "p",
             "text": "Key Statistics / Data Point (yumuşatılmış benchmark):\nBazı resort otellerde, doğru kurgulanmış OTA entegrasyonu ile online satışların önemli bir kısmının (çoğu benchmark’ta OTA ağırlığının yüksek seyrettiği) senkron ve hatasız yönetilebildiği görülür; kritik olan oranı kovalamak değil, hata maliyetini sıfıra yakınlatmaktır."
           },
-          { "type": "h3", "text": "☑ Mini Check (H2-4): “3 katman kuralı”" },
+          { "type": "h3", "text": "☑ Mini Check : “3 katman kuralı”" },
           {
             "type": "list",
             "style": "ul",
@@ -49407,7 +49407,7 @@
             "type": "p",
             "text": "Hafta sonu talebi yükseldi; BAR’ı artırdınız. Eğer güncelleme bir kanalda gecikirse, düşük fiyattan satış alır ve “yüksek talep gününde” gelir kaybedersiniz."
           },
-          { "type": "h3", "text": "☑ Mini Check (H2-5): “Gelir etkisi ölçüm seti”" },
+          { "type": "h3", "text": "☑ Mini Check : “Gelir etkisi ölçüm seti”" },
           {
             "type": "list",
             "style": "ul",
@@ -49626,6 +49626,1704 @@
           "Restriction set (min stay/CTA/CTD/stop-sell) kanal bazlı doğrulandı",
           "Latency ölçümü ve alarm eşikleri belirlendi",
           "Booking + Expedia uçtan uca test senaryoları kaydedildi (fiyat, stop-sell, iptal, no-show)"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelBenchmarkAnaliziNedirNasilYapilir": {
+    "title": "Otel Benchmark Analizi: KPI & Rakip Seti Antalya",
+    "slug": "otel-benchmark-analizi-nedir-nasil-yapilir",
+    "department": "veri-analizi-raporlama",
+    "updatedAt": "19 Ocak 2026",
+    "publishedAt": "2026-01-19",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel benchmark analizi ile ADR, RevPAR, doluluk ve kanal karmasını rakip seti ve geçmiş dönemle kıyaslayın. Rakip seti seçimi, iç/dış benchmark ve hızlı başlangıç adımları.",
+    "seo": {
+      "metaTitle": "Otel Benchmark Analizi: KPI & Rakip Seti Antalya | DGTLFACE",
+      "metaDescription": "Otel benchmark analizi ile ADR, RevPAR, doluluk ve kanal karmasını rakip seti ve geçmiş dönemle kıyaslayın. Rakip seti seçimi, iç/dış benchmark ve hızlı başlangıç adımları."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa Adı / URL: Benchmark Analizi — https://dgtlface.com/tr/raporlama/benchmark-analizi",
+        "Blog No / URL: Blog #1 — https://dgtlface.com/tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir",
+        "Blog Tipi: Core",
+        "Intent: Informational (Beginner)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/otel-benchmark-analizi-nedir-nasil-yapilir"
+      ],
+      "strategySummary": "Bu yazı, “benchmark” alt silosunun kavramsal kapısı olarak çalışır: otel yönetimi ve pazarlama ekiplerinin “performansım iyi mi kötü mü?” sorusunu sadece kendi verisine değil, rakip seti ve pazar bağlamına oturtur. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisi; karar anı ise çoğunlukla consideration (MoFu): fiyat, kampanya ve kanal stratejisini “hisse” değil veriyle yönetmeye geçiş. Bu içerik, daha teknik blog’lara (ör. kanal karması analizi, PMS–OTA gelir kıyası, dönüşüm oranı raporlama) iç link vererek “Benchmark 101” referansı olur. Ana iş sorusu: “Hangi KPI’ları, kimlerle ve hangi periyotta kıyaslayıp; fiyat/dağıtım/website satış kararlarını daha doğru alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-19",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Otel benchmark analizi; doluluk, ADR, RevPAR ve kanal dağılımı gibi KPI’ları hem geçmiş performansınızla (iç benchmark) hem de rakip seti/pazar ortalamasıyla (dış benchmark) kıyaslayarak “gerçek resmi” görmenizi sağlayan çerçevedir. Doğru rakip setini seçmek, KPI’ları aynı tanım ve periyotta ölçmek ve düzenli raporlama rutini kurmak; fiyat, kampanya ve kanal stratejisini veriyle yönetmenin ilk adımıdır.",
+      "sgeSummary": "Benchmark; otel KPI’larını (doluluk, ADR, RevPAR, kanal karması) rakip seti ve geçmiş dönemle kıyaslayıp fiyat ve satış kararlarını veriyle yönlendirme yöntemidir.",
+      "voiceAnswer": "Otel benchmark analizi, KPI’larınızı rakip seti ve geçmiş dönemle kıyaslayıp stratejinizi netleştirir.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, revenue, ajans",
+        "KPI seti: Doluluk, ADR, RevPAR, kanal karması, web/OTA payı",
+        "Entity ilişkisi: Hotel → compares → KPIs with CompetitorSet",
+        "Funnel: Consideration (MoFu) → fiyat/kanal/kampanya kararları",
+        "Geo bağlamı: Antalya, Belek, Side, Kemer, Bodrum gibi turizm bölgeleri",
+        "Çıktı: Rakip seti tanımı + KPI kıyas tablosu + aksiyon listesi",
+        "Rutin: 30/90 günlük takip, 365 gün “referans” içerik"
+      ]
+    },
+    "h1": {
+      "title": "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi",
+      "intro": "Otel performansını sadece “geçen yıla göre %X arttık” diye okumak, çoğu zaman eksik bir resim verir. Çünkü aynı dönemde pazar büyümüş olabilir, rakipler agresif fiyat kırmış olabilir ya da talep bölgesel olarak (ör. Antalya–Belek hattında) kaymış olabilir. Benchmark analizi, tam da bu yüzden; otelinizi pazarın içinde konumlandırır ve “iyi gidiyor muyuz?” sorusunu kıyas çerçevesi ile yanıtlar. Bu rehberde benchmark’ın ne olduğunu, hangi KPI’larla çalışıldığını, rakip setinin nasıl seçileceğini ve basit bir rutini nasıl kuracağınızı adım adım anlatacağız.",
+      "quickSummary": [
+        "Benchmark; KPI’ları hem geçmiş dönemle (iç) hem rakip seti/pazarla (dış) kıyaslar.",
+        "Hedef, “iyi/kötü” yerine göreli konum ve aksiyon üretmektir.",
+        "Doğru rakip seti + standart KPI tanımı, kıyasın temel şartıdır.",
+        "Haftalık mini kontrol + aylık rapor rutiniyle fiyat/kanal/kampanya kararları netleşir."
+      ],
+      "ctaPrimary": {
+        "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
+        "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
+        "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      "secondary": {
+        "label": "Basitleştirilmiş Otel Benchmark Checklist’ini İndir",
+        "text": "KPI tanımı, rakip set filtresi ve 14 günlük başlangıç planını tek sayfada hızla uygularsınız.",
+        "href": "/downloads/basitlesitirilmis-otel-benchmark-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Raporlama hub", "href": "/raporlama" },
+      { "label": "Benchmark hizmet sayfası", "href": "/raporlama/benchmark-analizi" },
+      { "label": "Satış dönüşüm raporlama", "href": "/raporlama/satis-donusum" },
+      { "label": "PMS–OTA online satış", "href": "/pms-ota/online-satis" },
+      { "label": "Otel dijital pazarlama", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      { "title": "Satış Dönüşüm Raporlama: Direct Booking Funnel KPI’ları", "href": "/raporlama/satis-donusum" },
+      { "title": "PMS–OTA Online Satış: Kanal Performansı ve Gelir Kıyasları", "href": "/pms-ota/online-satis" }
+    ],
+    "sections": [
+     
+      {
+        "id": "otel-benchmark-analizi-nedir",
+        "title": "Otel benchmark analizi nedir ve neden yapılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Benchmark analizi, en basit tanımıyla; Hotel KPI setinizi belirleyip bu KPI’ları iki ayrı aynada okumanızdır:\n\t1.\tİç benchmark: Kendi geçmiş döneminizle kıyas (YoY, MoM, sezon/sezon)\n\t2.\tDış benchmark: Competitor Set (rakip seti) veya pazar ortalamasıyla kıyas"
+          },
+          {
+            "type": "p",
+            "text": "Bu çerçeve, KPI’larınızı “tek başına” değil bağlam içinde yorumlamayı sağlar. Örneğin doluluğunuz artmış olabilir; ancak aynı dönemde rakip set doluluğu daha hızlı arttıysa, aslında pay kaybediyor olabilirsiniz. Tam tersi de mümkündür: Doluluğunuz sabit kalır ama rakipler düşerse, pazarda göreli olarak güçlenirsiniz."
+          },
+          {
+            "type": "p",
+            "text": "Burada kritik nokta: Benchmark “kim haklı?” tartışması değildir; “hangi karar daha doğru?” sorusuna veriyle yaklaşmaktır. Fiyatlama (ADR), gelir (RevPAR), kanal payı (Channel Mix) ve web–OTA dengesi gibi kararlar; ancak rakip seti ve pazar bağlamıyla birlikte okununca netleşir."
+          },
+          { "type": "h3", "text": "Hızlı cevap (AEO bloğu – 3–4 madde):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel benchmark analizi; doluluk, ADR, RevPAR ve kanal karmasını rakip seti + geçmiş dönemle kıyaslama yöntemidir.",
+              "Amaç, performansı “iyi/kötü” yerine göreli konum olarak ölçmektir.",
+              "Doğru rakip seti ve doğru KPI tanımı olmadan kıyas yanıltır.",
+              "Düzenli rutine bağlandığında fiyat, kampanya ve kanal stratejisi hızla iyileşir."
+            ]
+          },
+          { "type": "media", "slot": "performance" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Kıyas” yapmadan önce KPI tanımlarını yazılı hale getirdim (ADR/RevPAR tanımı)",
+              "Kıyas periyodunu sabitledim (haftalık/aylık)",
+              "İç (geçmiş) ve dış (rakip/pazar) benchmark’ı ayrı raporluyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "“Benchmark hedefi”ni tek cümle yaz: Fiyat ve kanal stratejisini veriyle yöneteceğim.",
+              "KPI tanımlarını standartlaştır (ADR/RevPAR/kanal payı).",
+              "Rakip seti seçimi için H2-3’teki filtreleri uygula ve listeyi sabitle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "temel-kpi-seti",
+        "title": "Oteller için kullanılan temel KPI’lar (ADR, RevPAR, doluluk, kanal karması)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Benchmark’ın kalbi KPI’lardır; ama KPI seçmek kadar aynı tanımı kullanmak önemlidir. “ADR” bir otelde sadece oda gelirinden hesaplanırken, başka bir otelde paket gelirleri karışabiliyorsa kıyas bozulur. Bu yüzden KPI’ları hem tanım hem kaynak açısından netleştirmek gerekir."
+          },
+          { "type": "h3", "text": "Doluluk (Occupancy) – “Talep ve satış başarısı” göstergesi" },
+          {
+            "type": "p",
+            "text": "Doluluk, çoğu yönetim toplantısının ilk KPI’ıdır; fakat tek başına yeterli değildir. Doluluk artarken ADR düşüyorsa, gelir kalitesi düşebilir. Rakip seti doluluğa bakarken “aynı segmentte miyiz?” sorusu mutlaka sorulmalıdır."
+          },
+          { "type": "h3", "text": "ADR (Average Daily Rate) – “Fiyat disiplininiz”" },
+          {
+            "type": "p",
+            "text": "ADR, fiyatlama ve segment stratejisinin kısa özeti gibidir. Benchmark’ta ADR’yi kıyaslarken; iptal/iadeler, paket–oda ayrımı ve net–brüt gelir tanımı tek standarda oturtulmalıdır."
+          },
+          { "type": "h3", "text": "RevPAR (Revenue per Available Room) – “Doluluk + fiyatın birleşimi”" },
+          {
+            "type": "p",
+            "text": "RevPAR, ADR ve doluluğu birlikte okur. Bu yüzden benchmark’ta en güçlü KPI’lardan biridir. Ancak RevPAR’ı kıyaslarken “available room” tanımının (kapalı bloklar, out-of-order odalar) tutarlı olduğundan emin olun."
+          },
+          { "type": "h3", "text": "Kanal dağılımı (Channel Mix) – “Gelir nereden geliyor?”" },
+          {
+            "type": "p",
+            "text": "Kanal karması, web, OTA, acente, çağrı merkezi, kurumsal gibi kaynaklara ayrılır. Benchmark; sadece “hangi kanaldan satış geldi?” değil, aynı zamanda “hangi kanal ne kadar kârlı?” sorusunu da tetikler."
+          },
+          { "type": "h3", "text": "Web/OTA payı – “Bağımsız satış gücü”" },
+          {
+            "type": "p",
+            "text": "Web payı, doğrudan satışın (direct) göstergesidir. OTA payı yüksekse, görünürlük avantajınız olabilir; ama marjınız düşebilir. Benchmark’ta amaç; “OTA’yı sıfırla” değil, dengeli büyüme hedeflemektir."
+          },
+          {
+            "type": "table",
+            "caption": "Temel KPI Benchmark Matrisi (KPI / Tanım / Kaynak / Aksiyon Notu)",
+            "headers": ["KPI", "Kısa Tanım", "Veri Kaynağı", "Benchmark'ta Aksiyon Notu"],
+            "rows": [
+              ["Doluluk", "Satılan oda / müsait oda", "PMS / rapor", "Rakip set trendi ile birlikte yorumla"],
+              ["ADR", "Oda geliri / satılan oda", "PMS / finans", "Segment kırılımı olmadan tek sayı yanıltır"],
+              ["RevPAR", "Oda geliri / müsait oda", "PMS / rapor", "Fiyat + doluluğu birlikte optimize et"],
+              ["Kanal Karması", "Satışların kanal dağılımı", "PMS/CRS/Channel Manager", "Web payı hedefi ve OTA bağımlılığı kontrolü"],
+              ["Web/OTA Payı", "Direct vs OTA oranı", "Analytics + PMS + OTA rapor", "Web dönüşüm ve kampanya etkisini bağla"]
+            ]
+          },
+          { "type": "media", "slot": "adr-occupancy-rate" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "ADR ve RevPAR hesap tanımlarını “tek sayfa” dokümana yazdım",
+              "Kanal karmasını aynı kanal isimleriyle raporluyorum (web/OTA/çağrı)",
+              "KPI’ları “haftalık trend + aylık özet” olarak iki katmanda izliyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "KPI’ları 5–7 çekirdeğe indir (doluluk, ADR, RevPAR, kanal karması, web/OTA payı).",
+              "Her KPI için veri kaynağını sabitle (PMS mi, kanal yöneticisi mi?).",
+              "KPI’ları “segment kırılımı” ile okuyabileceğin bir rapor düzeni kur (ör. leisure vs corporate)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-seti-secimi",
+        "title": "Rakip seti nasıl seçilir? (Competitor Set) — en kritik adım",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip seti seçimi, benchmark’ın en kritik adımıdır. Çünkü yanlış rakip seti, doğru KPI’ları bile yanlış yorumlatır. Rakip setini seçerken üç ana filtre işe yarar: bölge, segment, fiyat bandı."
+          },
+          { "type": "h3", "text": "Bölge: Aynı talep havuzunu paylaşıyor musunuz?" },
+          {
+            "type": "p",
+            "text": "Örneğin Antalya’da şehir oteli ile Belek’te resort kıyaslamak, çoğu KPI’da yanıltıcı olur. Aynı şekilde Side ve Kemer gibi destinasyonlar bile sezon dinamikleri açısından ayrışabilir. Burada amaç; “yakın” oteli değil, aynı talep havuzunda rekabet ettiğiniz oteli seçmektir."
+          },
+          { "type": "h3", "text": "Segment: Ürün vaadi ve misafir profili benzer mi?" },
+          {
+            "type": "p",
+            "text": "Aile konsepti, yetişkin oteli, ultra her şey dahil, butik, MICE odaklı gibi segmentler; fiyat ve doluluk davranışını doğrudan etkiler. Segment eşleşmeden ADR kıyası genellikle “elma–armut” olur."
+          },
+          { "type": "h3", "text": "Fiyat aralığı: ADR bandı yakın mı?" },
+          {
+            "type": "p",
+            "text": "Rakip setinde ADR bandı çok farklıysa; doluluk davranışı ve kanal karması da farklılaşır. Bu yüzden rakip setini seçerken, yakın ADR bandı olan otelleri tercih edin."
+          },
+          { "type": "h3", "text": "Rakip seti boyutu: Kaç otel ideal?" },
+          {
+            "type": "p",
+            "text": "Pratikte 4–8 otel çoğu işletme için yeterlidir. Daha azı “tek rakibe takılma” riskini, daha fazlası “ortalama içinde kaybolma” riskini getirir."
+          },
+          { "type": "media", "slot": "flowchart" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Rakip setini bölge + segment + ADR bandı ile filtreledim",
+              "Rakip set listemi yazılı hale getirip 90 gün boyunca sabit tuttum",
+              "Rakip set değişecekse “neden” ve “ne değişti” notunu rapora ekledim"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "6 otellik ilk rakip setini çıkar (Antalya/Belek/Side/Kemer/Bodrum bağlamına göre).",
+              "Rakip seti için “sezon–sezon” kıyası hedefle; tek haftalık dalgalanmaya aşırı tepki verme.",
+              "Rakip seti KPI’larını aynı tanımda toplayabileceğin veri kaynaklarını seç (H2-5’te)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ic-vs-dis-benchmark",
+        "title": "İç (Internal) vs Dış (External) benchmark: farkı ve doğru kullanım",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İç benchmark, “kendi gelişimini” ölçer; dış benchmark ise “pazardaki yerini” gösterir. İkisini ayrı okumazsanız; ya gereksiz özgüven oluşur (“biz büyüdük”) ya da gereksiz panik (“biz düştük”) oluşur."
+          },
+          { "type": "h3", "text": "İç benchmark (geçmiş dönemle kıyas)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "YoY (yıl/yıl), MoM (ay/ay), sezon/sezon kıyasları",
+              "Operasyonel iyileştirmelerin etkisini görme (ör. fiyat–doluluk optimizasyonu)",
+              "Pazarlama yatırımı sonrası dönüşüm trendi"
+            ]
+          },
+          { "type": "h3", "text": "Dış benchmark (rakip seti / pazar ortalamasıyla kıyas)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pay kazanımı/kaybı sinyali",
+              "Bölge talep değişimini yakalama",
+              "Kanal stratejisinin rekabetçi olup olmadığını görme"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Veri noktası (Key Statistics / Data Point – içerikte kullanıldı):\nBirçok tesiste sadece “doluluğumuz geçen yıla göre %X arttı” bilgisi kullanılır; ancak benchmark analizinde aynı dönemde rakip set doluluğunun nasıl değiştiğini görmek, daha doğru resmi verir."
+          },
+          { "type": "media", "slot": "internal-external-benchmarks" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "İç benchmark raporumda en az 3 dönem kıyası var (YoY + MoM + sezon)",
+              "Dış benchmark raporumda rakip set ortalaması ayrı satırda",
+              "“İç iyi – dış kötü” durumunda aksiyon planı üretiyorum (fiyat/kanal)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "Raporu iki sekmeye ayır: Internal ve External.",
+              "Her KPI için “hangi kıyas daha anlamlı?” notu ekle (RevPAR dış kıyasta güçlü).",
+              "90 gün boyunca aynı formatla devam et; sonra formatı iyileştir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "benchmark-nasil-yapilir-5-adim",
+        "title": "Adım adım benchmark analizi nasıl yapılır? (5 adım How-To)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki 5 adım, “başlangıç rehberi” için yeterli bir benchmark rutini kurar. Amaç; mükemmel model kurmak değil, doğru soruları düzenli sormaktır."
+          },
+          { "type": "h3", "text": "Adım 1 — Hedefi ve KPI setini sabitle" },
+          {
+            "type": "p",
+            "text": "Önce “neden benchmark?” sorusunu netleştirin: fiyatlama mı, kanal karması mı, web payı mı? Sonra 5–7 KPI seçin (doluluk, ADR, RevPAR, kanal karması, web/OTA payı)."
+          },
+          { "type": "h3", "text": "Adım 2 — Rakip setini belirle (Competitor Set)" },
+          {
+            "type": "p",
+            "text": "Bölge + segment + ADR bandıyla 4–8 otelden oluşan liste çıkarın. Antalya–Belek–Side–Kemer gibi destinasyonlarda “aynı talep havuzu” filtresi özellikle kritiktir."
+          },
+          { "type": "h3", "text": "Adım 3 — Veri kaynaklarını seç ve tanımları standardize et" },
+          {
+            "type": "p",
+            "text": "Veri nereden geliyor? PMS mi, channel manager mı, OTA raporu mu, web analytics mi? KPI tanımlarını yazılı hale getirin (özellikle ADR/RevPAR)."
+          },
+          { "type": "h3", "text": "Adım 4 — Kıyas tablosunu kur (Internal + External)" },
+          {
+            "type": "p",
+            "text": "Aylık bir tabloyla başlayın: KPI’lar satır, dönemler sütun olsun; bir sütunda rakip set ortalaması bulunsun. Burada amaç “tek sayfada resim” görmektir."
+          },
+          { "type": "h3", "text": "Adım 5 — Aksiyon üret ve takip et (Sprint yaklaşımı)" },
+          {
+            "type": "p",
+            "text": "Her rapor sonunda 3–6 aksiyon çıkarın: fiyat testi, kanal bütçesi, web dönüşüm iyileştirmesi, kampanya zamanlaması gibi. Sonraki raporda bu aksiyonların KPI etkisini not edin."
+          },
+          {
+            "type": "p",
+            "text": "Fark yaratan mini bölüm (AI Competitor Gap Notes’u kapatır):\nRakip içeriklerin çoğu benchmark’ı tanımlar ama otel özelinde “KPI seti + rakip seti seçimi + iç/dış benchmark ayrımı”nı aynı yazıda uygulanabilir şablon ile vermez. Bu rehberi fark yaratan hale getirmek için; yazının sonunda “Basitleştirilmiş Otel Benchmark Checklist + 14 günlük sprint planı” ekliyoruz (BÖLÜM 4.6)."
+          },
+          { "type": "media", "slot": "checklist" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "KPI setim 5–7 aralığında ve tanımları yazılı",
+              "Rakip setim 4–8 otel ve 90 gün sabit",
+              "Rapor sonunda aksiyon listesi üretiyor ve takip ediyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "Bu hafta: KPI tanımı + rakip seti (1 saat).",
+              "Bu ay: Aylık benchmark tablosu (1 kez).",
+              "14 gün: Sprint aksiyonları + takip (BÖLÜM 4.6)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Basitleştirilmiş Otel Benchmark Checklist’ini İndir",
+            "text": "KPI tanımı, rakip set filtresi ve 14 günlük başlangıç planını tek sayfada hızla uygularsınız.",
+            "href": "/downloads/basitlesitirilmis-otel-benchmark-checklist-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "bugun-baslayin-3-mini-benchmark",
+        "title": "Bugün başlayın: “Hemen yapabileceğiniz 3 küçük benchmark” (hızlı kazanım)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Benchmark’ı “büyük proje” gibi görürseniz başlaması zorlaşır. O yüzden 3 küçük kıyasla başlayın; bir hafta içinde bile içgörü üretir."
+          },
+          { "type": "h3", "text": "Mini benchmark #1 — Web/OTA payı: “Direct güçleniyor mu?”" },
+          {
+            "type": "p",
+            "text": "Web payı trendine bakın: son 30 gün vs önceki 30 gün. Aynı dönemde OTA payı artıyorsa, direct satışın pay savaşı kaybediyor olabilirsiniz. Buradan çıkacak aksiyon; web dönüşüm ve teklif sayfası optimizasyonu olabilir."
+          },
+          { "type": "h3", "text": "Mini benchmark #2 — ADR vs Doluluk: “Fiyat doğru yerde mi?”" },
+          {
+            "type": "p",
+            "text": "ADR artarken doluluk düşüyorsa, segment kayması olabilir. Rakip seti ADR artışına rağmen doluluğu koruyorsa, sizin “fiyat/ürün vaadi” iletişiminiz zayıf olabilir."
+          },
+          { "type": "h3", "text": "Mini benchmark #3 — Kanal karması: “Hangi kanal şişiyor?”" },
+          {
+            "type": "p",
+            "text": "Kanal karmasında ani artışlar, genelde kampanya veya fiyat parity değişimiyle ilişkilidir. Eğer OTA payı büyüyorsa, komisyon maliyeti ve marj etkisini not edin."
+          },
+          { "type": "media", "slot": "kpi-score-cards" },
+          { "type": "h3", "text": "☑ Mini Check :" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Web/OTA payını 30 günlük trendle izledim",
+              "ADR–doluluk ilişkisini birlikte okudum (tek KPI’ya takılmadım)",
+              "Kanal karmasında “ani artış” için 1 neden + 1 aksiyon yazdım"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? :",
+            "items": [
+              "Bu akşam: Web/OTA payını çıkar ve not al.",
+              "Yarın: ADR–doluluk grafiğini yorumla (segment/teklif).",
+              "Bu hafta: Kanal karmasında 1 iyileştirme aksiyonu seç ve uygula."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Benchmark Analizi ve Rakip Set Çalışması Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde doğru rakip seti ve KPI setiyle net yol haritası için",
+            "href": "/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Teknik not (Technical SEO):\nCanonical, hizmet sayfası mantığıyla /tr/raporlama/benchmark-analizi üzerinde kurgulanmalı; blog sayfası Article + FAQPage işaretlemesiyle yayınlanmalı ve iç linkler raporlama + PMS–OTA + otel dijital pazarlama silo’larına dengeli dağıtılmalıdır."
+          }
+        ]
+      },
+      {
+        "id": "benchmark-checklist-asset",
+        "title": "Basitleştirilmiş Otel Benchmark Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "checklist",
+            "version": "v1.0",
+            "title": "Basitleştirilmiş Otel Benchmark Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu asset, benchmark analizini “büyük proje” olmaktan çıkarıp tek sayfada uygulanabilir rutine çevirir. KPI tanımlarını standardize eder, rakip seti seçimini filtrelerle netleştirir ve 14 günlük sprint planıyla ilk çıktıyı hızlıca almanızı sağlar. Özellikle sezon yoğun destinasyonlarda (Antalya/Belek/Side/Kemer/Bodrum) aynı talep havuzunda doğru kıyası kurmak için tasarlanmıştır.",
+            "whoFor": "GM/otel sahibi, satış–pazarlama, revenue yönetimi, ajans/raporlama ekipleri.",
+            "steps": [
+              "KPI tanımlarını doldur (ADR/RevPAR/doluluk/kanal karması).",
+              "Rakip setini filtrelerle seç ve 90 gün sabitle.",
+              "14 günlük sprint planını uygula; her hafta KPI trendini kontrol et."
+            ],
+            "checklist": [
+              "KPI tanımlarını yazdım (ADR/RevPAR/doluluk)",
+              "Veri kaynaklarını sabitledim (PMS/CRS/Analytics/OTA)",
+              "Rakip setini (4–8 otel) bölge+segment+ADR bandıyla seçtim",
+              "İç benchmark periyodunu seçtim (YoY, MoM, sezon)",
+              "Dış benchmark kaynağını seçtim (rakip set / pazar ort.)",
+              "Kanal karmasını standart adlandırdım (web/OTA/çağrı/kurumsal)",
+              "Haftalık “mini kontrol” günü belirledim (30 dk)",
+              "Aksiyon listesi formatını sabitledim (3–6 madde)"
+            ],
+            "sprintPlan14Days": [
+              "Gün 1: Hedef cümlesi + KPI setini netleştir",
+              "Gün 2: KPI tanımlarını yaz (ADR/RevPAR/doluluk)",
+              "Gün 3: Veri kaynaklarını doğrula (PMS/Analytics/OTA raporları)",
+              "Gün 4: Rakip set aday listesi çıkar (10 otel)",
+              "Gün 5: Filtrele ve 4–8 otele indir (bölge/segment/ADR bandı)",
+              "Gün 6: Benchmark tablo şablonunu kur (Internal + External)",
+              "Gün 7: İlk ölçümü al ve “fotoğraf” raporu çıkar (tek sayfa)",
+              "Gün 8: 3 mini benchmark uygula (web/OTA, ADR–doluluk, kanal karması)",
+              "Gün 9: 3–6 aksiyon çıkar (fiyat testi, kanal bütçesi, web dönüşüm)",
+              "Gün 10: Aksiyon sahiplerini ata (kim, ne zaman)",
+              "Gün 11: İç link planı (raporlama + PMS–OTA + dijital pazarlama)",
+              "Gün 12: İletişim/teklif sayfası hızlı kontrol (web payı için)",
+              "Gün 13: Haftalık mini kontrol ritmini başlat (30 dk)",
+              "Gün 14: Sprint kapanış: çıktı + öğrenim + sonraki 14 gün planı"
+            ],
+            "deliverables": [
+              "Rakip seti listesi (4–8 otel) + seçim gerekçesi",
+              "KPI tanım dokümanı (1 sayfa)",
+              "Internal + External benchmark tablosu (aylık)",
+              "14 günlük aksiyon planı + haftalık mini kontrol ritmi"
+            ],
+            "href": "/downloads/basitlesitirilmis-otel-benchmark-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel benchmark analizi nedir?",
+        "a": "Otel benchmark analizi; doluluk, ADR, RevPAR ve kanal karması gibi KPI’ları hem geçmiş dönemle hem de rakip seti/pazar ortalamasıyla kıyaslayarak performansı bağlama oturtan yöntemdir."
+      },
+      {
+        "q": "Otelim için benchmark çalışmasını nasıl yaparım?",
+        "a": "Önce KPI setini ve tanımlarını sabitleyin, sonra 4–8 otelden oluşan rakip setini (bölge/segment/ADR bandı) belirleyin. Aylık bir tabloyla internal + external kıyası kurup her raporda 3–6 aksiyon üretin."
+      },
+      {
+        "q": "Hangi KPI’ları rakiplerle kıyaslamalıyım?",
+        "a": "Başlangıç için doluluk, ADR, RevPAR, kanal karması ve web/OTA payı yeterlidir. KPI tanımlarını standartlaştırmadan kıyas yapmak yanıltıcı olabilir."
+      },
+      {
+        "q": "Rakip seti nasıl seçilir?",
+        "a": "Rakip seti; aynı talep havuzunda bulunan, benzer segmentte ve yakın ADR bandında olan otellerden seçilmelidir. 4–8 otel, pratikte yeterli ve yönetilebilir bir aralıktır."
+      },
+      {
+        "q": "İç benchmark ile dış benchmark arasındaki fark nedir?",
+        "a": "İç benchmark, kendi performansınızı geçmiş dönemle kıyaslar; dış benchmark ise rakip seti/pazarla kıyaslayıp göreli konumunuzu gösterir. İkisini birlikte okumak doğru karar aldırır."
+      },
+      {
+        "q": "Benchmark analizi ne sıklıkla yapılmalı?",
+        "a": "Haftalık kısa kontrol (trend) ve aylık detaylı rapor iyi bir başlangıçtır. Sezon dinamikleri güçlü destinasyonlarda sezon/sezon kıyası da eklenmelidir."
+      },
+      {
+        "q": "OTA verileriyle benchmark yapmak güvenilir mi?",
+        "a": "OTA verileri sinyal üretir ama tek başına “kesin gerçek” gibi kullanılmamalıdır. PMS/finans/analytics gibi kaynaklarla çapraz doğrulama yapıldığında daha güvenilir içgörü sağlar."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — otel-benchmark-analizi-nedir-nasil-yapilir-hero-01.webp — “Otel benchmark analiziyle KPI ve rakip setini özetleyen kapak görseli”",
+          "h1-context-02 — 1920×1080 — otel-benchmark-analizi-nedir-nasil-yapilir-h1-context-02.webp — “Otel KPI’larının rakip setiyle kıyaslandığı başlangıç bağlam görseli”",
+          "performance — 1600×1200 — otel-benchmark-analizi-nedir-nasil-yapilir-performance.webp — “Benchmark amacı ve faydasını anlatan bölüm ayırıcı otel görseli”",
+          "internal-external-benchmarks — 1600×1200 — otel-benchmark-analizi-nedir-nasil-yapilir-internal-external-benchmarks.webp — “İç ve dış benchmark farkını sade kutularla anlatan otel görseli”",
+          "flowchart — 1920×1080 — otel-benchmark-analizi-nedir-nasil-yapilir-flowchart.webp — “Hotel KPI’larının Competitor Set ile karşılaştırıldığı akış diyagramı görseli”",
+          "adr-occupancy-rate — 1200×1200 — otel-benchmark-analizi-nedir-nasil-yapilir-adr-occupancy-rate.webp — “Benchmark için KPI ve rakip seti seçimini özetleyen kontrol kartı görseli”",
+          "checklist — 1200×1200 — otel-benchmark-analizi-nedir-nasil-yapilir-checklist.webp — “Doluluk ADR RevPAR ve kanal payı için örnek KPI skor kartı görseli”",
+          "kpi-score-cards — 1200×1200 — otel-benchmark-analizi-nedir-nasil-yapilir-kpi-score-cards.webp — “Benchmark çıktıları ve aksiyon planını gösteren deliverables kartı görseli”",
+          "table-kpi-benchmark-matrix — (tablo) — “Temel KPI Benchmark Matrisi (KPI / Tanım / Kaynak / Aksiyon Notu)”"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (service: /tr/raporlama/benchmark-analizi, blog: Article + FAQPage)",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linkler raporlama + PMS–OTA + otel dijital pazarlama silo’larına dengeli dağıtıldı",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu",
+          "KPI tanımları (ADR/RevPAR/Doluluk/Kanal Karması/Web-OTA Payı) dokümante edildi",
+          "Rakip seti seçimi için bölge+segment+ADR bandı filtresi rapor formatına eklendi",
+          "Internal + External benchmark ayrımı rapor şablonunda iki katmanlı tasarlandı",
+          "Haftalık mini kontrol (30 dk) + aylık rapor ritmi planlandı"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelInstagramStratejiRehberi": {
+    "title": "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi",
+    "slug": "otel-instagram-strateji-rehberi",
+    "department": "hotel",
+    "updatedAt": "19 Ocak 2026",
+    "publishedAt": "2026-01-19",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel Instagram stratejisini kurun: hedef pazar, feed–story–reels dengesi, destinasyon içerikleri ve bio’dan direkt rezervasyona funnel. Ücretsiz analiz isteyin.",
+    "seo": {
+      "metaTitle": "Otel Instagram Stratejisi: Antalya’da Rezervasyon | DGTLFACE",
+      "metaDescription": "Otel Instagram stratejisini kurun: hedef pazar, feed–story–reels dengesi, destinasyon içerikleri ve bio’dan direkt rezervasyona funnel. Ücretsiz analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa Adı / URL: Otel Sosyal Medya Yönetimi — https://dgtlface.com/tr/otel/sosyal-medya",
+        "Blog No / URL: Blog #1 — https://dgtlface.com/tr/otel/blog/otel-instagram-strateji-rehberi",
+        "Blog Tipi: Core",
+        "Intent: Informational (Beginner–Intermediate)",
+        "(V2.3 Kilidi): Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
+        "Canonical: /tr/otel/blog/otel-instagram-strateji-rehberi"
+      ],
+      "strategySummary": "Bu yazı, Otel Sosyal Medya silo’sunun “giriş seviyesi strateji” içeriği olarak hub/anchor rolü oynar; sonraki Reels, içerik takvimi ve performans yazılarına iç link taşıyan ana referans sayfa gibi çalışır. Hedef persona; otel sahibi, satış-pazarlama müdürü ve ajans yöneticisidir: “Instagram sadece görünürlük değil, direct booking niyeti üreten bir vitrin mi?” sorusunu netleştirir. Funnel’da ağırlıkla consideration → conversion geçişini güçlendirir (bio/link ve rezervasyon akışı). Ana iş sorusu: “Otel Instagram hesabımı hangi hedefle, hangi içerik dengesiyle ve hangi funnel ile konumlandırırsam sürdürülebilir talep yaratırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "Otel Instagram hesabını doğru konumlandırmak; hedef pazar/persona netliği, feed–story–reels dengesine dayalı bir içerik planı ve bio/link alanından rezervasyon sayfasına uzanan basit ama ölçülebilir bir direct booking funnel ile başlar. Oda–tesis–deneyim–destinasyon temalarını haftalık ritimle üretin, Story serileri ve Highlight’larla güven inşa edin, Reels’te kısa senaryolarla niyet üretin. Son adım: CTA ve KPI’ları standartlaştırın.",
+      "sgeSummary": "Hedef pazarını tanımla, içerik temalarını (oda–deneyim–destinasyon) dengele, feed–story–reels ritmi kur, bio/link bölümünü WhatsApp veya rezervasyon sayfasına bağla, KPI ile ölç.",
+      "voiceAnswer": "Otel Instagram’ını hedef pazar + içerik dengesi + bio’dan rezervasyona net bir funnel ile konumlandır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi / pazarlama müdürü / ajans yöneticisi",
+        "KPI: profil ziyaret→link tıklama, DM/WhatsApp talep, web yönlendirme, rezervasyon niyeti sinyalleri",
+        "Entity: Instagram, Reels, Story, Hotel/Resort, Destination, Direct Booking, Funnel",
+        "Geo: Antalya, Belek, Side, Kemer, Bodrum örnekleri doğal kullanılır",
+        "Funnel: Awareness (destinasyon/deneyim) → Consideration (oda/tesis/kanıt) → Conversion (bio/link/WhatsApp)",
+        "Çıktı: içerik temaları + takvim + profil/bio optimizasyonu + ölçüm şablonu",
+        "Risk: “Genel işletme Instagram” anlatımına sıkışma; otel dikeyinde tema+funnel netleşmezse rezervasyon etkisi zayıflar"
+      ]
+    },
+    "h1": {
+      "title": "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi",
+      "intro": "Instagram, oteller için “görsel vitrin” olmanın ötesinde, doğru kurgulandığında talep üretim hattının (demand engine) ilk temas noktasıdır. Konumlandırma; “ne paylaşıyorum?” sorusundan önce “kime, hangi niyet aşamasında, hangi aksiyonla ulaşıyorum?” sorusunu yanıtlar. Bu rehberde, bir otel/resort Instagram hesabını marka algısı + direct booking niyeti ekseninde, ölçülebilir bir içerik ve funnel yapısına oturtacağız.",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "Oteliniz İçin Instagram & Sosyal Medya Analizi Talep Edin",
+        "text": "15 dakikada mevcut hesabınızın funnel, içerik dengesi ve KPI kurulumunu oteliniz için netleştirelim.",
+        "href": "/otel/sosyal-medya"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Oteliniz İçin Instagram & Sosyal Medya Analizi Talep Edin",
+        "text": "15 dakikada hesabınızın içerik dengesi, funnel’ı ve KPI setini oteliniz için netleştirelim.",
+        "href": "/otel/sosyal-medya"
+      },
+      "secondary": {
+        "label": "Otel Instagram İçerik Takvimi Örneğini İndir",
+        "text": "1 ay boyunca tema/format/CTA dengesini hazır şablonla kurup üretimi hızlandırın.",
+        "href": "/smm/icerik-uretimi"
+      }
+    },
+    "internalLinks": [
+      { "label": "Otel Sosyal Medya Yönetimi", "href": "/otel/sosyal-medya" },
+      { "label": "SMM", "href": "/smm" },
+      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" },
+      { "label": "Planlama ve Strateji", "href": "/smm/planlama-strateji" },
+      { "label": "Reels & Video", "href": "/smm/reels-video" },
+      { "label": "Video Prodüksiyon", "href": "/creative/video-produksiyon" },
+      { "label": "Otel Dijital Pazarlama", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      { "title": "Planlama ve Strateji", "href": "/smm/planlama-strateji" },
+      { "title": "Reels & Video", "href": "/smm/reels-video" },
+      { "title": "İçerik Üretimi", "href": "/smm/icerik-uretimi" }
+    ],
+    "sections": [
+      
+      {
+        "id": "instagram-otel-satislarinda-ne-ise-yarar",
+        "title": "Instagram Otel Satışlarında Ne İşe Yarar?",
+        "preBlocks":[{ "type": "media", "slot": "instagram-otel" }],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Instagram’ın otel satışlarına etkisi, tek bir “rezervasyon gelir mi?” sorusuna sıkışmaz. Instagram; ilham → güven → niyet üretir ve doğru bağlandığında bu niyet, web/WhatsApp/call center üzerinden satışa taşınır. Bazı sektör benchmark’larında tatil kararı alan kullanıcıların %60+ gibi oranlarda sosyal medya/Instagram’dan ilham aldığı raporlanır; bu veriyi “kesin rakam” gibi değil, davranış eğilimi olarak okuyup stratejiyi ona göre kurmak gerekir."
+          },
+          { "type": "h3", "text": "Hızlı Yanıt Bloğu (AEO – 4–5 madde)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Vitrin: Oda, tesis ve deneyim içerikleriyle ilk izlenimi güçlendirir.",
+              "Güven: Misafir deneyimi, UGC ve kanıt içerikleriyle “risk” hissini azaltır.",
+              "Niyet: Reels/Story ile “gitmek istiyorum” sinyalini yükseltir (booking intent).",
+              "Yönlendirme: Bio/link + Story link + DM/WhatsApp ile talebi tek akışta toplar.",
+              "Ölçüm: Basit KPI setiyle (profil→link→talep) performans takibi sağlar."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Profilime giren biri 5 saniyede “bu otel kimin için?” sorusuna cevap buluyor mu?",
+              "Bio/link akışı tek bir hedefe (rezervasyon veya WhatsApp) bağlı mı?",
+              "Son 9 post “oda–tesis–deneyim–destinasyon” dengesini gösteriyor mu?",
+              "Story Highlight’lar satışa yardımcı mı (odalar, konsept, ulaşım, SSS)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Instagram’ı “görsel albüm” değil, funnel’ın giriş kapısı olarak yeniden tanımla.",
+              "3 KPI seç: profil ziyaret→link tıklama→talep (DM/WhatsApp/form).",
+              "Feed’de güven, Story’de ilişki, Reels’te keşif/erişim hedefle."
+            ]
+          }
+          
+        ]
+      },
+      {
+        "id": "hedef-kitle-ve-pazar-analizi",
+        "title": "Hedef Kitle ve Pazar Analizi: Kimin İçin, Hangi Mesaj?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel Instagram’ında en kritik hata, “herkese hitap edelim” yaklaşımıdır. Otel/resort içerikleri doğal olarak geniş kitle çeker; fakat satış ve talep üretmek için persona + pazar netliği gerekir. Antalya’daki her tesis ile Bodrum’daki butik otelin aynı içerik ritmi ve mesaj çerçevesiyle büyümesi beklenmez."
+          },
+          { "type": "h3", "text": "Persona ve Ülke Pazarı Segmentasyonu" },
+          { "type": "p", "text": "Instagram stratejisini 2 katmanda kur:" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Persona: Aile, çift, balayı, arkadaş grubu, business/meeting, wellness.",
+              "Pazar: TR, DE, RU, UK vb. (dil/ton, sezon, motivasyon farklıdır)."
+            ]
+          },
+          { "type": "p", "text": "Mini örnek (otel bağlamı):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belek resort için aile pazarı: “çocuk kulübü, aquapark, geniş oda” temaları; CTA çoğunlukla WhatsApp teklif.",
+              "Bodrum butik için çift pazarı: “sunset, gastronomy, deneyim”; CTA “müsaitlik sor” + web yönlendirme."
+            ]
+          },
+          { "type": "media", "slot": "instagram-strategy" },
+          { "type": "h3", "text": "Brand vs Direct Rezervasyon Hedefleri" },
+          {
+            "type": "p",
+            "text": "İki hedefi aynı anda yönetebilirsin ama öncelik şarttır:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Brand hedefi: görünürlük, kaydetme, paylaşım, profil ziyareti",
+              "Direct booking hedefi: link tıklama, WhatsApp/DM talep, web’e yönlendirme"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pratik kural: Her 10 içerikte en az 3’ü funnel içerik olsun (fiyat/teklif/odaya yönlendirme/SSS). Aksi halde hesabın “güzel ama satışsız” kalma riski büyür."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "1 ana persona + 1 ikincil persona belirledim mi?",
+              "1 ana pazar + 1 ikincil pazarın sezon motivasyonlarını yazdım mı?",
+              "Son 30 günde kaç içerik “talep” üretmeye yönelikti?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 sayfalık “persona kartı” çıkar (motivasyon, itiraz, içerik beklentisi).",
+              "Hedefi netleştir: bu çeyrek brand mı, direct booking mi?",
+              "Pazar bazlı mikro içerik: aynı çekim, farklı caption/CTA ile lokalize et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gorsel-dil-renk-ton",
+        "title": "Görsel Dil, Renk ve Ton: Hesabın “Marka İmzası”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel Instagram’ında kalite algısı, sadece kamera ve fotoğrafla değil, tutarlı bir görsel dil ile oluşur. Kullanıcı mobilde hızlı tarar; hesabın ilk ekranı (grid + bio + highlight) “premium mu?” sorusunu 3–5 saniyede yanıtlar."
+          },
+          { "type": "h3", "text": "Görsel Dil Standardı (Basit ama Keskin)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "2–3 ana renk tonu (marka paleti)",
+              "2 tip kadraj: oda/tesis (kanıt) + deneyim/destinasyon (ilham)",
+              "Tipografi ve ikon seti: aynı çizgide, minimal",
+              "“Önce-sonra” gibi performans kreatifleri için tek şablon"
+            ]
+          },
+          { "type": "p", "text": "Mini örnek:\nKemer’de doğa/yeşil vurgusu olan bir tesis; grid’de “mavi + yeşil + beyaz” dengesini korur, Reels kapaklarında aynı font/ikon kullanır." },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Son 12 içerikte renk tonu ve kadraj tutarlı mı?",
+              "Reels kapakları birbirine benziyor mu (seri hissi)?",
+              "Story template’leri (kampanya/SSS) aynı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 dakikalık “grid audit” yap: uyumsuz 3 içeriği tespit et.",
+              "3 şablon tasarla: kampanya, SSS, deneyim serisi.",
+              "Reels kapaklarını “seri” mantığına geçir (örn. 01/02/03)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feed-story-reels-dengesi",
+        "title": "Feed, Story ve Reels Dengesini Kurmak (Ritim = Sonuç)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Instagram’da tek bir formatla büyümek zorlaştı. Oteller için ideal yaklaşım: Reels keşif/erişim, Story ilişki/kanıt, Feed güven/pozisyon. Burada “çok paylaşım” değil, doğru ritim ve içerik rolü önemlidir."
+          },
+          { "type": "h3", "text": "Önerilen Basit Dağılım (Başlangıç için)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Reels: haftada 2–3 (keşif + destinasyon + deneyim)",
+              "Story: günlük 5–12 frame (günlük yaşam + kanıt + mini SSS)",
+              "Feed: haftada 2 (oda/tesis + deneyim/teklif)"
+            ]
+          },
+          { "type": "h3", "text": "Story Serileri ve Highlight’lar" },
+          { "type": "p", "text": "Story’yi “günlük rastgele” değil, seri mantığıyla kurgula:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bugün Otelde: kısa tur + atmosfer",
+              "Oda Detayı: 3 frame (görsel + özellik + CTA)",
+              "SSS: ulaşım, çocuk, konsept, iade/iptal",
+              "Kanıt: misafir yorumu, UGC, ödül/sertifika"
+            ]
+          },
+          { "type": "p", "text": "Highlight seti (minimum): Odalar, Konsept, Deneyim, Ulaşım, SSS, Kampanyalar" },
+          { "type": "h3", "text": "Reels için Kısa Format Senaryo Örnekleri" },
+          {
+            "type": "p",
+            "text": "Reels’te amaç; kullanıcıya “buraya gitmeliyim” dedirtmek ve profili/biolink’i tıklatacak niyeti artırmaktır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Senaryo 1 (7–9 sn): 3 sahne: oda → havuz → akşam deneyimi (tek cümle caption)",
+              "Senaryo 2 (10–12 sn): “1 günde otelde 5 an” (hızlı montaj)",
+              "Senaryo 3 (12–15 sn): “Belek’te çocuklu tatil” (problem→çözüm)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Reels: keşif hedefli mi, yoksa sadece “güzel video” mu?",
+              "Story: her gün en az 1 CTA (kaydet/DM/link) içeriyor mu?",
+              "Feed: son 9 post “kanıt + deneyim + teklif” dengesini veriyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 haftalık ritim planı yaz: hangi gün Reels, hangi gün feed.",
+              "Story’de her gün 1 “kanıt” (yorum/UGC) ve 1 “CTA” koy.",
+              "Reels kapaklarını konuya göre etiketle: Oda / Deneyim / Destinasyon."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icerik-temalari-dortlu-sistem",
+        "title": "İçerik Temaları: Oda, Tesis, Deneyim, Destinasyon (4’lü Sistem)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel Instagram içerikleri “rastgele post” değil, tema sistemiyle çalışmalı. Bu sistem, hem üretimi kolaylaştırır hem de kullanıcıya net bir değer önerisi sunar: “Bu otel bana ne vaat ediyor?” Temaları dört ana kümede topla."
+          },
+          { "type": "h3", "text": "Tema 1: Oda (Kanıt + Konfor)" },
+          {
+            "type": "p",
+            "text": "Oda içeriği satışa en yakın içeriktir; net özellik ve fayda içerir.\nÖnerilen formatlar: oda turu reels, carousel oda özellikleri, story “oda SSS”."
+          },
+          { "type": "p", "text": "Mini örnek:\nSide’de denize sıfır bir otel: “balkon manzarası + oda ölçüsü + yatak tipi + aile düzeni” gibi net bilgiler." },
+          { "type": "h3", "text": "Tema 2: Tesis (Güven + Kapsam)" },
+          {
+            "type": "p",
+            "text": "Tesis içeriği, kullanıcı itirazlarını çözer: “kalabalık mı, hizmet iyi mi, çocuk var mı?”\nÖnerilen formatlar: “tesiste 5 durak” reels, facility map story, highlight “konsept”."
+          },
+          { "type": "h3", "text": "Tema 3: Deneyim (Duygu + Niyet)" },
+          {
+            "type": "p",
+            "text": "Deneyim; spa, gastronomi, etkinlik, animasyon, beach, sunset gibi “anı” üretir.\nÖnerilen formatlar: 10–12 sn reels, story seri, feed “deneyim foto”."
+          },
+          { "type": "h3", "text": "Tema 4: Destinasyon (Keşif + Planlama)" },
+          {
+            "type": "p",
+            "text": "Destinasyon içerikleri, özellikle Antalya/Belek/Kemer gibi bölgelerde “gitme motivasyonunu” artırır.\nÖnerilen formatlar: “Antalya’da 1 gün” reels, “Kemer’de doğa rotası” story, “Bodrum’da 3 öneri” carousel."
+          },
+          { "type": "media", "slot": "hotel-content-themes" },
+          { "type": "h3", "text": "Rakiplerin Atladığı Nokta: Tema + Funnel Birlikte Tasarlanmalı" },
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu “genel işletme Instagram” kalıbında kalır: güzel fotoğraf, genel öneri, zayıf CTA. Otel dikeyinde fark; tema sistemiyle üretim disiplinini kurup, her temayı rezervasyon niyeti taşıyan funnel adımlarına bağlamaktır. Yani “destinasyon videosu” sadece izlenme için değil, sonunda “müsaitlik sor” aksiyonuna hizmet etmelidir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Son 30 içerikte 4 tema dengeli mi (oda/tesis/deneyim/destinasyon)?",
+              "Her temanın bir CTA karşılığı var mı (DM, link, kaydet)?",
+              "2 içerikten biri “kanıt” üretiyor mu (yorum/UGC/sertifika)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "4 temayı haftaya dağıt: pazartesi oda, çarşamba deneyim, cuma destinasyon gibi.",
+              "Her tema için 1 CTA standardı yaz (örn. oda→WhatsApp, destinasyon→kaydet).",
+              "Aylık planı tema dengesine göre kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bio-link-funnel-direct-booking",
+        "title": "Bio, Link ve Rezervasyon Funnel’ını Tasarlamak (Direct Booking)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İyi bir içerik planı, kötü bir bio/link yapısında “boşa akar”. Otel Instagram’ında funnel; profil→biolink→rezervasyon/WhatsApp akışının kesintisiz olmasıdır. Kullanıcının zihninde soru nettir: “Buradan nasıl fiyat alacağım / nasıl rezervasyon yapacağım?”"
+          },
+          { "type": "h3", "text": "Bio (3 satır kuralı)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Kim için? (aile / çift / resort / butik)",
+              "Fark: (konsept, lokasyon, deneyim)",
+              "Aksiyon: “Müsaitlik & teklif için WhatsApp” veya “Rezervasyon”"
+            ]
+          },
+          { "type": "h3", "text": "Link in bio: Linktree mi, Landing mi?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Başlangıç: link in bio aracı (linktree benzeri) olabilir; ama 5–7 linkle kullanıcıyı dağıtma.",
+              "İdeal: tek bir landing: oda tipleri + konsept + teklif + WhatsApp + SSS (mobil hızlı)."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek:\nBelek’te resort için landing: “Erken Rezervasyon”, “Aile Odaları”, “Transfer”, “WhatsApp” ve “SSS”."
+          },
+          { "type": "h3", "text": "Funnel Adımları (Basit)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Reels/Story: niyet → profil ziyareti",
+              "Profil: güven → biolink tıklama",
+              "Landing: net seçenek → teklif/rezervasyon",
+              "WhatsApp/Call: hız → kapanış"
+            ]
+          },
+          { "type": "media", "slot": "direct-booking-flow" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel Instagram İçerik Takvimi Örneğini İndir",
+            "text": "1 ay boyunca tema/format/CTA dengesini hazır şablonla kurup üretimi hızlandırın.",
+            "href": "/smm/icerik-uretimi"
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Bio’da tek hedef var mı (rezervasyon veya WhatsApp)?",
+              "Biolink’te 1 ana CTA + 1 destek CTA’dan fazla var mı?",
+              "Landing’de mobil hız ve “hemen teklif al” aksiyonu net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bio’yu 3 satıra indir ve tek hedefe bağla.",
+              "Link sayısını azalt: 1 ana landing + 1 destek sayfa yeter.",
+              "Story’de haftada en az 2 kez “teklif/rezervasyon” CTA’sı kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "takvim-1-aylik-plan",
+        "title": "Otel Sosyal Medya Takviminin Temel Çerçevesi (1 Aylık Plan)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Takvim, “ne paylaşacağız?” sorusunu üretim hattına çevirir. Otellerde takvim; sezon (yaz/kış), kampanya (erken rezervasyon), event (bayram), pazar (DE/RU) gibi değişkenlere göre esner; ama iskelet sabit kalır: tema + format + CTA."
+          },
+          { "type": "h3", "text": "Sezonluk Tema ve Kampanyalar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Antalya/Belek yaz: aile + havuz + beach + aktivite",
+              "Bodrum yaz: gastronomi + sunset + deneyim",
+              "Kemer: doğa + outdoor + sakinlik"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kampanya içerikleri (erken rezervasyon, uzun konaklama, ücretsiz transfer) takvime “anlık” değil, planlı girer."
+          },
+          { "type": "h3", "text": "1 Aylık İçerik Takvimi Örneği (Tablo)" },
+          {
+            "type": "table",
+            "caption": "Tablo: 1 Aylık Tema × Format × CTA Planı",
+            "headers": [
+              "Hafta",
+              "Tema Oda",
+              "Tema Tesis",
+              "Tema Deneyim",
+              "Tema Destinasyon",
+              "Reels (2–3)",
+              "Feed (2)",
+              "Story Serisi",
+              "Ana CTA"
+            ],
+            "rows": [
+              [
+                "1",
+                "Aile odası turu",
+                "Çocuk kulübü",
+                "Akşam show",
+                "Belek’te 1 gün",
+                "Oda turu + 5 an",
+                "Oda + deneyim",
+                "SSS + Kanıt",
+                "WhatsApp teklif"
+              ],
+              [
+                "2",
+                "Manzara/upgrade",
+                "Spa & wellness",
+                "Gastronomi",
+                "Antalya rota",
+                "Spa + destinasyon",
+                "Tesis + teklif",
+                "Highlight güncelle",
+                "Rezervasyon landing"
+              ],
+              [
+                "3",
+                "Oda detay carousel",
+                "Beach alanı",
+                "Aktivite",
+                "Side öneri",
+                "Aktivite + oda",
+                "Destinasyon + kanıt",
+                "UGC serisi",
+                "DM / WhatsApp"
+              ],
+              [
+                "4",
+                "Suit/konsept oda",
+                "Transfer/ulaşım",
+                "Çocuk aktiviteleri",
+                "Kemer doğa",
+                "Konsept + rota",
+                "Kampanya + deneyim",
+                "Kampanya seri",
+                "Teklif / fiyat sor"
+              ]
+            ]
+          },
+          { "type": "h3", "text": "KPI ile Takvim Yönetimi (Basit Skor Kartı)" },
+          {
+            "type": "p",
+            "text": "Sadece “beğeni” değil, talep sinyallerini izle:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Profil ziyaretleri (haftalık trend)",
+              "Link tıklama / WhatsApp tıklama",
+              "DM sayısı (talep içerikli)",
+              "Kaydetme (destinasyon/rehber içeriklerinde kritik)"
+            ]
+          },
+          { "type": "media", "slot": "performance-cards" },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Takvimde her hafta 4 tema var mı?",
+              "Reels/Story/Feed rol dağılımı net mi?",
+              "Haftalık KPI raporu 10 dakikada çıkıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1 aylık takvimi “tema×format×CTA” tablosu olarak kilitle.",
+              "Haftalık 30 dk içerik toplantısı koy (üretim + yayın + ölçüm).",
+              "KPI’ları 4 metrikte sabitle; her hafta aynı şekilde raporla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "download-asset-takvim-sablonu",
+        "title": "Otel Instagram İçerik Takvimi Örneğini İndir — Otel / sosyal-medya (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel Instagram İçerik Takvimi Örneğini İndir — Otel / sosyal-medya (v1.0)",
+            "purpose": "Bu şablon, otel Instagram içerik üretimini “rastgele paylaşım”dan çıkarıp tema×format×CTA sistemine oturtur. 30 gün içinde feed–story–reels dengesini korurken direct booking funnel’a hizmet eden bir yayın ritmi kurmanızı sağlar. Ajans/otel iç ekibi için haftalık planlama ve KPI takibini aynı dosyada toplar.",
+            "whoFor": "Otel satış-pazarlama ekibi, sosyal medya uzmanı ve otel hesaplarını yöneten ajanslar.",
+            "steps": [
+              "Persona + pazar hedefini seçin (1 ana, 1 ikincil).",
+              "4 tema (oda/tesis/deneyim/destinasyon) için haftalık dağılımı doldurun.",
+              "Her içeriğe 1 net CTA atayın ve haftalık KPI raporunu güncelleyin."
+            ],
+            "checklist": [
+              "Bu ay hedef (brand/direct) net mi?",
+              "4 tema dengesi var mı?",
+              "Haftalık Reels sayısı 2–3 mü?",
+              "Story serileri + highlight güncellemeleri planlandı mı?",
+              "KPI raporu formatı sabit mi?"
+            ],
+            "href": "/downloads/otel-instagram-icerik-takvimi-örnegi-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Basit Strateji → Tutarlı Üretim → Ölçülebilir Funnel",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel Instagram hesabını konumlandırmak; estetikten önce strateji, stratejiden önce hedef işidir. Hedef pazar/persona netliği, 4’lü tema sistemi ve bio’dan rezervasyona bağlanan funnel kurulduğunda, içerik üretimi “zor iş” olmaktan çıkar; tekrarlanabilir bir sisteme dönüşür. Bu sistem büyüdükçe, /tr/smm/icerik-uretimi ve /tr/smm/reels-video gibi destek içeriklerle üretim hızlanır; creative/video üretimle kalite standardı yükselir."
+          },
+          {"type":"media","slot":"checklist"},
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Oteliniz İçin Instagram & Sosyal Medya Analizi Talep Edin",
+            "text": "Hangi temalar, hangi formatlar ve hangi funnel adımlarıyla oteliniz için en hızlı talep artışını sağlayacağımızı birlikte çıkaralım.",
+            "href": "/otel/sosyal-medya"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel Instagram hesabı nasıl yönetilmeli?",
+        "a": "Önce hedef pazar ve persona belirlenir, sonra 4 tema (oda–tesis–deneyim–destinasyon) üzerinden feed–story–reels ritmi kurulur. Bio/link alanı tek bir funnel hedefine bağlanır ve KPI ile haftalık ölçüm yapılır."
+      },
+      {
+        "q": "Oteller için Instagram stratejisi nasıl oluşturulur?",
+        "a": "Strateji; hedef (brand vs direct booking), içerik rol dağılımı (reels keşif, story ilişki, feed güven) ve net CTA akışı ile oluşturulur. Son adım, içerik takvimi ve raporlama standardıdır."
+      },
+      {
+        "q": "Otel Instagram hesabı rezervasyon getirebilir mi?",
+        "a": "Evet, ama “tek başına” değil; Instagram, rezervasyon niyeti üretir ve bu niyet bio/link/WhatsApp/web ile satış kanalına aktarılır. Funnel net değilse hesap güzel görünür ama talep düşük kalır."
+      },
+      {
+        "q": "Oteller için feed, story ve reels dengesi nasıl olmalı?",
+        "a": "Başlangıç için reels haftada 2–3, feed haftada 2, story günlük 5–12 frame önerilir. Önemli olan sayı değil; her formatın rolünün net olmasıdır."
+      },
+      {
+        "q": "Otel Instagram bio kısmına ne yazılmalı?",
+        "a": "3 satır kuralını kullanın: kim için, farkı ne, aksiyon ne. “Müsaitlik & teklif için WhatsApp” gibi tek hedefli bir yönlendirme daha iyi çalışır."
+      },
+      {
+        "q": "Reels oteller için neden önemli?",
+        "a": "Reels, keşif alanında görünürlük sağlar ve destinasyon/deneyim içerikleriyle “gitme niyeti” üretir. Reels sonrası profil ve link tıklamasını artıracak CTA kurgusu şarttır."
+      },
+      {
+        "q": "Oteller için içerik temaları neler olmalı?",
+        "a": "Oda (kanıt), tesis (güven), deneyim (duygu), destinasyon (keşif) dört temel temadır. Bu yapı üretimi hızlandırır ve kullanıcıya net bir değer önerisi sunar."
+      },
+      {
+        "q": "Otel Instagram performansı hangi KPI’larla ölçülür?",
+        "a": "Profil ziyaretleri, link/WhatsApp tıklaması, DM talep sayısı ve kaydetme oranı temel KPI setidir. Beğeni tek başına yeterli performans göstergesi değildir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — otel-instagram-strateji-rehberi-hero-01.webp — Otel Instagram stratejisi ile rezervasyon niyeti anlatan hero görseli",
+          "H1 sonrası Context — 1920×1080 — otel-instagram-strateji-rehberi-h1-context-02.webp — Otel Instagram profil konumlandırması için hızlı kontrol görseli",
+          "Divider 01 — 1600×1200 — otel-instagram-strateji-rehberi-divider-03.webp — Otel Instagram stratejisi bölüm ayırıcı görseli",
+          "Divider 02 — 1600×1200 — otel-instagram-strateji-rehberi-divider-04.webp — Otel içerik temaları oda tesis deneyim destinasyon ayırıcı görseli",
+          "Diagram / Flow — 1920×1080 — otel-instagram-strateji-rehberi-diagram-05.webp — Instagramdan direkt rezervasyona giden funnel akışını gösteren diyagram",
+          "Checklist / Framework Card — 1200×1200 — otel-instagram-strateji-rehberi-direct-booking-flow.webp — Otel Instagram bio ve funnel kontrol listesini özetleyen kart",
+          "KPI / Score Card — 1200×1200 — otel-instagram-strateji-rehberi-performance-cards.webp — Otel Instagram KPI setini gösteren skor kart görseli",
+          "Deliverables / Proof Card — 1200×1200 — otel-instagram-strateji-rehberi-proof-08.webp — Otel sosyal medya teslimatlarını ve güven kanıtlarını gösteren kart"
+        ],
+        "technicalChecklist": [
+          "Primary CTA hedefi: https://dgtlface.com/tr/otel/sosyal-medya veya https://dgtlface.com/tr/otel-dijital-pazarlama",
+          "Secondary CTA hedefi: https://dgtlface.com/tr/smm/icerik-uretimi veya takvim asset sayfası",
+          "Intent = Informational (MoFu): Primary CTA 2 kez (H1 giriş sonunda + son 1/3), Secondary CTA 1 kez (orta bölüm / funnel veya takvim kısmı)",
+          "Tablo adı: 1 Aylık Tema × Format × CTA Planı",
+          "Tablo amacı: üretimi standardize etmek ve funnel CTA’sını takvime bağlamak",
+          "Tablo yeri: “Otel Sosyal Medya Takviminin Temel Çerçevesi” bölümünde"
+        ]
+      }
+    }
+  },
+
+  "BlogOtellerIcinYouTubeHedeflemeYapisi": {
+    "title": "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?",
+    "slug": "oteller-icin-youtube-hedefleme-yapisi",
+    "department": "sem",
+  "updatedAt": "19 Ocak 2026",
+    "publishedAt": "2026-01-19",
+    "readingTime": "9 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Oteller için YouTube hedefleme yapısını kurun: in-market seyahat, ilgi alanı, custom intent ve remarketing’i funnel’a göre birleştirin. Şablonu indirin, analiz isteyin.",
+    "seo": {
+      "metaTitle": "YouTube Hedefleme Yapısı: Oteller İçin Rehber | DGTLFACE",
+      "metaDescription": "Oteller için YouTube hedefleme yapısını kurun: in-market seyahat, ilgi alanı, custom intent ve remarketing’i funnel’a göre birleştirin. Şablonu indirin, analiz isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa Adı + Sayfa URL: YouTube Reklam Yönetimi — https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
+        "Blog No + Blog URL: Blog #2 — https://dgtlface.com/tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi",
+        "Blog Tipi (Core/Trend): Core",
+        "Intent: Informational + Strategic",
+        "Refresh Cycle (90/180/365): 365",
+        "(V2.3 Kilidi) Difficulty/Expertise = Intermediate–Expert; Word Count = 3000–3500",
+        "Varsayım: V2.3 seviye kilidi gereği Intermediate–Expert ve 3000–3500 bandı uygulanmıştır.",
+        "Canonical: /tr/sem/blog/oteller-icin-youtube-hedefleme-yapisi"
+      ],
+      "strategySummary": "Bu yazı YouTube silo’sunda “format rehberi” (#1) sonrası, kampanyanın en kritik katmanı olan hedefleme mimarisini otel/turizm özelinde standardize eden authority içeriktir. Hedef persona; otel sahibi/GM, satış-pazarlama müdürü ve kampanyayı yöneten ajans ekibidir: “boşa gösterim”i azaltıp gerçek rezervasyon niyetine yakın kitleye ulaşmak ister. Funnel’da upper-mid-low katmanları için segment karışımı + remarketing kurgusunu netleştirerek karar almayı kolaylaştırır. Bu içerik, ileride remarketing, raporlama ve otel reklam yönetimi içeriklerine parent-hub gibi iç link taşıyacak şekilde tasarlanmıştır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "",
+      "readingTime": ""
+    },
+    "modules": {
+      "answerBlock": "YouTube’da oteller için hedefleme yapısı, tek bir segment seçmekten çok funnel katmanlarına göre segment kombinasyonu kurmaktır. Upper’da geniş in-market travel + ilgili ilgi alanları; mid’de destinasyon ve konsept odaklı custom intent/custom segment; low’da GA4/web remarketing listeleri ve yüksek niyetli ziyaretçiler çalışır. Placement/kanaI hedefleme destekleyici kullanılır. Doğru hedefleme, CPV yükselse bile ziyaret/rezervasyon başı maliyeti düşürebilir.",
+      "sgeSummary": "Hedeflemeyi pazar→segment→remarketing şeklinde kurun. In-market + ilgi alanı ile başla, custom intent ile daralt, GA4 remarketing ile dönüşüm katmanını güçlendir.",
+      "voiceAnswer": "Otellerde YouTube hedefleme: pazar seç, in-market ve custom intent kur, GA4 remarketing ile tamamla.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel GM’i, satış-pazarlama, ajans performance ekibi",
+        "KPI: View rate/CPV → engaged sessions → CPA/lead/rezervasyon",
+        "Entity: in-market travel, custom intent, remarketing, placements, hotel audience",
+        "Funnel: Upper (geniş) / Mid (niyet) / Low (remarketing)",
+        "GEO: Antalya–Belek–Kemer–Side senaryolarıyla segment varyasyonu",
+        "Risk: yanlış hedefleme → boşa gösterim → düşük kalite trafik",
+        "Ölçüm: GA4 etiketleme + listelerin doğru oluşması kritik"
+      ]
+    },
+    "h1": {
+      "title": "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?",
+      "intro": "YouTube kampanyalarında “format” doğru olsa bile hedefleme mimarisi zayıfsa bütçe hızlıca boşa gider. Oteller için asıl oyun, seyahat niyetini (in-market), destinasyon/konsept ilgisini (custom intent) ve rezervasyona yakın sinyalleri (remarketing) aynı yapı içinde doğru sırayla kullanmaktır. Bu rehber, hedefleme türlerini tek tek anlatmak yerine otel/turizm bağlamında karar verebileceğiniz bir sistem sunar.\nKey data point: Doğru hedefleme kurulan kampanyalarda CPV artmış görünse bile, genelde site ziyareti/lead/rezervasyon başı maliyet daha verimli hale gelir. (Varsayım: sektörel genel içgörü olarak yumuşatılmıştır; kesin rakam verilmemiştir.)",
+      "quickSummary": [],
+      "ctaPrimary": {
+        "label": "YouTube Hedefleme Analizi Talep Et",
+        "text": "(Kitleyi boşa göstermeden rezervasyon niyetine yaklaştırmak isteyen otel ekipleri için)",
+        "href": "/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube Hedefleme Analizi Talep Et",
+        "text": "(Boşa gösterimi azaltıp rezervasyon niyetine yakın kitleye ulaşmak isteyen otel ekipleri için)",
+        "href": "/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Hedef Kitle Segment & Yapılandırma Şablonunu İndir",
+        "text": "“Destinasyon ve konseptinize göre segmentleri 10 dakikada planlayıp test akışını başlatın.”",
+        "href": "/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      { "label": "YouTube Reklam Yönetimi", "href": "/sem/youtube-reklam-yonetimi" },
+      { "label": "Remarketing ve Display", "href": "/sem/remarketing-ve-display" },
+      { "label": "Reklam Raporlama", "href": "/sem/reklam-raporlama" },
+      { "label": "Otel Reklam Yönetimi", "href": "/otel/reklam-yonetimi" }
+    ],
+    "relatedPosts": [
+      { "title": "YouTube Reklam Yönetimi", "href": "/sem/youtube-reklam-yonetimi" },
+      { "title": "Remarketing ve Display", "href": "/sem/remarketing-ve-display" },
+      { "title": "Reklam Raporlama", "href": "/sem/reklam-raporlama" }
+    ],
+    "sections": [
+  
+      {
+        "id": "youtube-hedefleme-turleri-aeo",
+        "title": "YouTube hedefleme türleri nelerdir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube hedefleme türleri; demografi (yaş, hane, ebeveyn durumu vb.), ilgi alanı, in-market (satın alma/seyahat niyeti), custom segments/custom intent, placement/kanaI hedefleme ve remarketing listeleri olarak sınıflanır. Otellerde başarı, bu hedeflemeleri “tek kampanyada karıştırmak” değil; funnel katmanlarına göre ayırıp doğru kombinasyonlarla çalıştırmaktır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Upper/Mid/Low funnel ayrımı yaptım mı?",
+              "GA4 listeleri oluşuyor mu (etiketleme doğru mu)?",
+              "Destinasyon + konsept için ayrı custom intent listem var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce hedef ve pazar tanımla.",
+              "Sonra segmentleri katmanlı kur.",
+              "En son remarketing ve ölçümü kilitle."
+            ]
+          },
+          { "type": "media", "slot": "targeting" }
+        ]
+      },
+      {
+        "id": "adim-1-pazar-tanimla",
+        "title": "Adım 1: “Pazar”ı tanımla (destinasyon + konsept + sezon)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hedefleme, “kitle seçimi” değil, önce pazarı tanımlama işidir. Antalya’daki all inclusive bir resort ile Side’de çift odaklı bir konseptin aynı hedefleme havuzunda çalışması çoğu zaman kaliteyi düşürür. Bu yüzden ilk adımda 3 şeyi netleştir:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Destinasyon: Antalya / Belek / Kemer / Side gibi",
+              "Konsept: aile, balayı, golf, iş, city break, butik",
+              "Sezon & teklif: erken rezervasyon, sezon açılışı, son dakika"
+            ]
+          },
+          { "type": "p", "text": "Mini örnek:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belek + golf: premium niyet, dar kitle, yüksek değerli rezervasyon",
+              "Antalya + aile: geniş kitle, yüksek hacim, paket odaklı mesaj"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Destinasyon ve konsept tek cümlede net mi?",
+              "1 ana teklifim var mı (paket/avantaj)?",
+              "Landing sayfam bu pazara özel mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her destinasyon/konsept için ayrı kampanya iskeleti çıkar.",
+              "Tek mesaj + tek KPI seti belirle.",
+              "Kreatifi (video/thumbnail) bu pazara göre brief’le."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adim-2-funnel-katmanlari",
+        "title": "Adım 2: Funnel bazlı hedefleme katmanlarını kur",
+        "blocks": [
+          { "type": "p", "text": "Buradaki hedef; aynı anda her şeyi hedeflemek değil, niyete göre katman katman ilerlemek." },
+          {"type":"media","slot":"hotel-youtube-flow"},
+          { "type": "h3", "text": "Upper Funnel: In-market travel + geniş ilgi alanları" },
+          {
+            "type": "p",
+            "text": "Upper’da amaç, “seyahat niyeti olan” ama henüz karar vermemiş kişilere ulaşmaktır. In-market travel segmentleri ve ilgili ilgi alanları burada çalışır. Demografik filtreleri sadece aşırı daraltma riskini azaltacak şekilde kullanmak daha sağlıklıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Upper’da çok dar custom intent kullanmıyorum, doğru mu?",
+              "Frekans ve kreatif yorgunluğu planım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "1–2 in-market travel segmentiyle başla.",
+              "İlgi alanını “konseptle” eşleştir.",
+              "İzleyenleri remarketing havuzuna topla."
+            ]
+          },
+          { "type": "h3", "text": "Mid Funnel: Custom intent / Custom segments ile “destinasyon niyeti” yakala" },
+          {
+            "type": "p",
+            "text": "Mid funnel, oteller için en kritik katmandır. Örnek: “antalya all inclusive”, “belek golf hotel”, “kemer aile oteli” gibi arama sinyallerinden custom intent listeleri üretmek, “hedefe yakın” kitleyi yakalar. Burada segment listesini çok uzatmak yerine, 10–30 ana niyet ifadesiyle başlamak daha yönetilebilir olur."
+          },
+          { "type": "p", "text": "Mini örnek custom intent listesi:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“antalya all inclusive resort”",
+              "“belek golf hotel”",
+              "“side balayı oteli”",
+              "“kemer aile oteli aquapark”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Custom intent listemde destinasyon + konsept birlikte mi?",
+              "Liste çok geniş değil mi (alakasız niyetler var mı)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10–30 niyet ifadesiyle başla.",
+              "2 haftalık testten sonra listeyi rafine et.",
+              "Mid kampanyayı “hikâye + kanıt” mesajıyla besle."
+            ]
+          },
+          { "type": "h3", "text": "Low Funnel: Remarketing ile “rezervasyona yakın sinyal”" },
+          { "type": "p", "text": "Low’da iş, web/GA4 listelerine dayanır:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Son 30 gün site ziyaretçileri",
+              "Oda sayfası görüntüleyenler",
+              "Fiyat/availability adımına yaklaşanlar",
+              "İletişim/WhatsApp tıklayanlar (Varsayım: event seti mevcutsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Burada ana risk: listeler doğru oluşmuyorsa reklam “boş havuza” döner. Bu yüzden teknik SEO notundaki gibi GA4 etiketleme ve liste uyumu kilittir."
+          },
+           { "type": "media", "slot": "funnel-layers" },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "GA4 remarketing listelerim doluyor mu?",
+              "Event’ler doğru tetikleniyor mu?",
+              "Dönüşüm sayfası/ölçüm zinciri sağlam mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce ölçümü doğrula, sonra bütçeyi artır.",
+              "Low’da tek hedef: aksiyon (lead/rezervasyon).",
+              "Kreatifte teklif + net CTA kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "placement-kanal-hedefleme",
+        "title": "Placement ve kanal hedefleme: ne zaman mantıklı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Placement/kanaI hedefleme, otellerde iki amaçla mantıklıdır:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Belirli seyahat içerik üreticilerinde “marka uyumu” yakalamak",
+              "Mid/upper katmanda mesajı “doğru bağlama” taşımak"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ama tek başına placement’a yaslanmak risklidir: ölçek sınırlanır ve maliyet dalgalanır. En iyi pratik: placement’ı, in-market/custom intent katmanlarının yanında kontrollü ek katman olarak düşünmektir."
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Placement listem marka güvenliği açısından uygun mu?",
+              "Ölçek ihtiyacım placement ile karşılanır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10–30 kanal/placement ile pilot yap.",
+              "Performans iyi ise listeyi genişlet.",
+              "Placement’ı tek kampanyanın omurgası yapma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanlis-hedefleme-hatalar",
+        "title": "Yanlış hedefleme → boşa gösterim: otellerde en sık 5 hata",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip yazıların eksik bıraktığı yer tam burası: hedeflemeyi “teorik tanım” olarak anlatıp otel senaryosunda karıştırma mantığını vermemeleri. Otellerde sık görülen hatalar:"
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Upper’da aşırı dar hedefleme (ölçek yok)",
+              "Mid’de custom intent listesini gereksiz şişirmek",
+              "Low’da remarketing listeleri hazır değilken agresif bütçe",
+              "Destinasyon/konsept ayrımı yapmadan tek kampanya",
+              "KPI’yı katmana göre ayırmamak (CPV/CPA karışması)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her katman için KPI ayrı mı?",
+              "Destinasyon/konsept kampanya ayrımı var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Kampanya iskeletini katmanlı kur.",
+              "Segmentleri 2 haftada bir rafine et.",
+              "Ölçümü ve raporlamayı ayrı hatlarda yönet."
+            ]
+          },
+          { "type": "media", "slot": "remarketing" }
+        ]
+      },
+      {
+        "id": "ornek-segment-plani-tablosu",
+        "title": "Örnek segment planı: Antalya–Belek–Kemer–Side",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki tablo, destinasyon ve konsept bazında hedefleme miksini pratikleştirir. Amaç, “hangi segmentleri nasıl karıştıracağım?” sorusuna hızlı cevap vermek."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Örnek audience segment tablosu (destinasyon × funnel × segment tipi)",
+            "headers": ["Destinasyon", "Upper", "Mid", "Low"],
+            "rows": [
+              ["Antalya", "In-market travel + aile ilgisi", "“antalya all inclusive” custom intent", "site ziyaretçi + oda sayfası"],
+              ["Belek", "In-market + premium/aktivite", "“belek golf hotel” custom intent", "fiyat/availability yakınları"],
+              ["Kemer", "In-market + doğa/aktivite", "“kemer aile oteli aquapark”", "remarketing + teklif"],
+              ["Side", "In-market + çift/balayı", "“side balayı oteli”", "remarketing + iletişim"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check",
+            "items": [
+              "Segment tablosu bende “tek sayfa plan” oldu mu?",
+              "Her destinasyonda 1–2 ana konsept seçtim mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "2 destinasyonla başla, sonra ölçekle.",
+              "Aynı anda 10 kampanya açma; test disiplinini koru.",
+              "İç linklerle remarketing ve raporlama çerçevesini tamamla."
+            ]
+          },
+          {"type":"media","slot":"kpi-panel"}
+        ]
+      },
+      {
+        "id": "download-asset-segment-sablonu",
+        "title": "Hedef Kitle Segment & Yapılandırma Şablonunu İndir — SEM / YouTube Hedefleme (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Hedef Kitle Segment & Yapılandırma Şablonunu İndir — SEM / YouTube Hedefleme (v1.0)",
+            "purpose": "Otelin destinasyon/konseptine göre YouTube hedeflemeyi katmanlı (Upper–Mid–Low) kurar. Segmentleri düzenli test edip “boşa gösterim”i azaltacak standart bir plan formatı sağlar.",
+            "whoFor": "Otel satış-pazarlama ekibi, ajans media buyer, performans uzmanı.",
+            "steps": [
+              "Pazar (destinasyon+konsept) seç.",
+              "Upper/Mid/Low segmentlerini doldur.",
+              "14 gün test sonrası segmentleri rafine et."
+            ],
+            "checklist": [
+              "3 katman tanımlı",
+              "Custom intent listesi hazır",
+              "Remarketing listeleri doluyor",
+              "KPI’lar katmana uygun",
+              "14 gün test planı var"
+            ],
+            "href": "/downloads/hedef-kitle-segment-yapilandirma-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          { "type": "media", "slot": "checklist" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Hedefleme bir “liste seçimi” değil, bir mimaridir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube hedeflemesini pazar→segment→remarketing sırasıyla kurduğunda, gösterim kalitesi artar ve kampanya yönetimi sadeleşir. Destinasyon/konsept ayrımı, segmentleri karıştırma disiplini ve GA4 uyumlu liste yapısı bu işin omurgasıdır. Bu temel kurulduğunda, format seçiminden kreatife ve raporlamaya kadar tüm SEM akışı daha öngörülebilir hale gelir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube Hedefleme Analizi Talep Et",
+            "text": "(Boşa gösterimi azaltıp niyete yakın kitleye ulaşmak isteyen otel ekipleri için)",
+            "href": "/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "YouTube hedefleme türleri nelerdir?",
+        "a": "Demografi, ilgi alanı, in-market segmentler, custom intent/custom segments, placement/kanaI hedefleme ve remarketing listeleri temel hedefleme türleridir."
+      },
+      {
+        "q": "Oteller için YouTube hedefleme yapısı nasıl olmalı?",
+        "a": "Pazar tanımıyla başlayıp (destinasyon+konsept), upper’da in-market, mid’de custom intent, low’da GA4 remarketing katmanıyla ilerleyen yapı en verimli yaklaşımdır."
+      },
+      {
+        "q": "In-market ve custom intent hedeflemeleri hangi durumlarda kullanılır?",
+        "a": "In-market daha geniş “seyahat niyeti” için upper’da; custom intent ise destinasyon/konsept aramalarına yakın, daha niyetli kitle için mid’de kullanılır."
+      },
+      {
+        "q": "Remarketing listeleri YouTube’da nasıl çalışır?",
+        "a": "GA4/web verisiyle oluşturulan listeler üzerinden, siteyi ziyaret eden veya belirli sayfalarda davranış gösteren kullanıcılara tekrar reklam göstermeyi sağlar."
+      },
+      {
+        "q": "Placement hedefleme otellerde ne zaman mantıklıdır?",
+        "a": "Marka uyumu yüksek seyahat kanallarında kontrollü test için mantıklıdır; tek başına omurga yapmak yerine destekleyici katman olarak kullanılmalıdır."
+      },
+      {
+        "q": "Yanlış hedefleme boşa gösterimi nasıl artırır?",
+        "a": "Segmentler katmanlı kurulmaz ve KPI’lar ayrıştırılmazsa alakasız kitleye gösterim artar; kalite trafik düşer, bütçe verimsizleşir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 (1920×1080) — oteller-icin-youtube-hedefleme-yapisi-hero-01.webp — Oteller için YouTube hedefleme mimarisini özetleyen hero görseli",
+          "H1 sonrası “Context” görseli — 16:9 (1920×1080) — oteller-icin-youtube-hedefleme-yapisi-h1-context-02.webp — Funnel’a göre hedefleme katmanlarını gösteren bağlam görseli",
+          "Section Divider 01 — 4:3 (1600×1200) — oteller-icin-youtube-hedefleme-yapisi-divider-03.webp — Hedefleme katmanlarına geçiş için ayırıcı görsel",
+          "Section Divider 02 — 4:3 (1600×1200) — oteller-icin-youtube-hedefleme-yapisi-divider-04.webp — Remarketing ve hata senaryolarına geçiş için ayırıcı görsel",
+          "Diagram / Flow — 16:9 (1920×1080) — oteller-icin-youtube-hedefleme-yapisi-diagram-05.webp — Upper–Mid–Low hedefleme katmanlarını ve remarketing akışını gösteren diyagram",
+          "Checklist / Framework Card — 1:1 (1200×1200) — oteller-icin-youtube-hedefleme-yapisi-checklist.webp — YouTube hedefleme planını doldurma adımlarını özetleyen checklist kartı",
+          "KPI / Score Card — 1:1 (1200×1200) — oteller-icin-youtube-hedefleme-yapisi-kpi-07.webp — Hedefleme kalitesi için KPI skor kartı (5 metrik)",
+          "Deliverables / Proof Card — 1:1 (1200×1200) — oteller-icin-youtube-hedefleme-yapisi-proof-08.webp — Hedefleme deliverables seti: segment planı, listeler, test planı"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: YouTube Hedefleme Analizi Talep Et",
+          "Secondary CTA: Hedef Kitle Segment & Yapılandırma Şablonunu İndir",
+          "Secondary CTA türü: Download Asset (şablon)",
+          "Intent = Informational + Strategic (MoFu): Primary CTA 2 kez (H1 giriş sonu + son 1/3), Secondary CTA 1 kez (orta bölüm)",
+          "Primary CTA → /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA → Varsayım: /tr/sem/youtube-reklam-yonetimi içinde indirilebilir kaynak",
+          "Destek linkler → /tr/sem/remarketing-ve-display, /tr/sem/reklam-raporlama, /tr/otel/reklam-yonetimi",
+          "Tablo (1 adet): Örnek audience segment tablosu (destinasyon × funnel × segment tipi)"
         ]
       }
     }
