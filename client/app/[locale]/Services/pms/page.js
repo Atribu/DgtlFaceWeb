@@ -212,7 +212,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("Pms");
      const t2 = useTranslations("Pms.h4Section");
       
@@ -380,4 +380,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

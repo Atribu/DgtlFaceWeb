@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from "next/link";
 
 export default function RegisterPage() {
   const [name, setName]           = useState('')
@@ -56,9 +57,9 @@ export default function RegisterPage() {
         </button>
         <p className="mt-4 text-sm">
           Zaten üye misin?{' '}
-          <a href="/panel/login" className="text-blue-600 underline">
+          <Link href="/panel/login" className="text-blue-600 underline">
             Giriş Yap
-          </a>
+          </Link>
         </p>
       </form>
     </div>

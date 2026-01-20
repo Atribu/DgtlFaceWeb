@@ -177,7 +177,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("RemarketingDisplay");
      const t2 = useTranslations("RemarketingDisplay.h4Section");
 
@@ -288,4 +288,4 @@ const cards = [
   )
 }
 
-export default page
+export default Page

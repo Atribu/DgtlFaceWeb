@@ -120,7 +120,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("TagManager");
    const t2 = useTranslations("TagManager.h4Section");
 
@@ -232,4 +232,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

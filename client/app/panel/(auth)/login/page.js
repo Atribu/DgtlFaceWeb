@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from "next/link";
 
 export default function LoginPage() {
   const [email, setEmail]     = useState('')
@@ -40,7 +41,7 @@ export default function LoginPage() {
           Giriş
         </button>
         <p className="mt-4 text-sm">
-          Hesabın yok mu? <a href="/panel/register" className="text-blue-600 underline">Kayıt Ol</a>
+          Hesabın yok mu? <Link href="/panel/register" className="text-blue-600 underline">Kayıt Ol</Link>
         </p>
       </form>
     </div>

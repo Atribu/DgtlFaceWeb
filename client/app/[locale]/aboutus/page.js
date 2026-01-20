@@ -6,7 +6,7 @@ import Section4 from './Section4/Section4'
 import QuestionsSection from '../components/subPageComponents/QuestionsSection'
 import Contact from '../components/Section6/ContactMain.jsx'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='flex flex-col overflow-hidden gap-[48px] md:gap-[75px] lg:gap-[150px]'>
         <Section1 />
@@ -18,4 +18,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

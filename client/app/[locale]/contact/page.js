@@ -4,7 +4,7 @@ import AltSection from './Section1/AltSection.jsx'
 import Location from "./Section2/Location.jsx"
 import ContactMain from '../components/Section6/ContactMain.jsx'
 
-const page = () => {
+const Page = () => {
   return (
     <div className='flex flex-col overflow-hidden gap-[50px] lg:gap-[70px]'>
         <Contact />
@@ -15,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
