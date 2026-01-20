@@ -163,7 +163,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("CallCenterPerformancePage");
   const t2 = useTranslations("CallCenterPerformancePage.h4Section");
              
@@ -274,4 +274,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -164,7 +164,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("ChannelManagementPage");
 const t2 = useTranslations("ChannelManagementPage.h4Section");
            
@@ -268,4 +268,4 @@ const t2 = useTranslations("ChannelManagementPage.h4Section");
   )
 }
 
-export default page
+export default Page

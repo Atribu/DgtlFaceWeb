@@ -169,7 +169,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("HotelCallCenter");
    const t2 = useTranslations("HotelCallCenter.h4Section");
            
@@ -282,4 +282,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -164,7 +164,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("GraphicMotion");
     const t2 = useTranslations("GraphicMotion.h4Section");
            
@@ -272,4 +272,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

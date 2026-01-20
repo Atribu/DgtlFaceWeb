@@ -165,7 +165,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
     const t = useTranslations("KvkkSecurityPage");
  const t2 = useTranslations("KvkkSecurityPage.h4Section");
            
@@ -275,4 +275,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

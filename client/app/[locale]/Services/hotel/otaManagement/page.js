@@ -174,7 +174,7 @@ const homeJsonLd = {
 }
 
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("OtaManagementPage");
    const t2 = useTranslations("OtaManagementPage.h4Section");
            
@@ -288,4 +288,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

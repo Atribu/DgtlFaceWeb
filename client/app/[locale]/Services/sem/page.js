@@ -227,7 +227,7 @@ export async function generateMetadata() {
 
 
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("Sem");
   const t2 = useTranslations("Sem.h4Section");
 
@@ -412,4 +412,4 @@ const cards = [
   )
 }
 
-export default page
+export default Page

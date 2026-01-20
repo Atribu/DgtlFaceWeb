@@ -168,7 +168,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const t = useTranslations("UiUxPage");
     const t2 = useTranslations("UiUxPage.h4Section");
            
@@ -276,4 +276,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

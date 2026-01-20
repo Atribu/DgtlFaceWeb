@@ -163,7 +163,7 @@ const homeJsonLd = {
   ]
 }
 
-const page = () => {
+const Page = () => {
   const images = [image1, image2, image3].filter(Boolean);
   const t = useTranslations("CallCenter4LangPage");
 const t2 = useTranslations("CallCenter4LangPage.h4Section");
@@ -267,4 +267,4 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
   )
 }
 
-export default page
+export default Page

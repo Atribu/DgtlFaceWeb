@@ -17,7 +17,8 @@ export const BLOG_MAP = {
     "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":"BlogHreflangVeCokDilliTeknikSeoOtelSiteleriIcinHaritalamaRehberi",
     "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri",
 
-    "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin"
+    "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin",
+    "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist"
   },
 
     smm: {
@@ -27,7 +28,8 @@ export const BLOG_MAP = {
     "marka-kimligi-gorsel-dil-ve-feed-tutarliligi":"BlogMarkaKimligiGorselDilVeFeedTutarliligi",
     "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":"BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu",
 
-    "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework"
+    "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework",
+    "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi"
   },
 
     yazilim: {
@@ -37,7 +39,8 @@ export const BLOG_MAP = {
     "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":"BlogCokDilliKurumsalWebSitesiPlanlamaTrEnDeRu",
     "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":"BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli",
 
-    "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi"
+    "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi",
+    "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
@@ -46,7 +49,8 @@ export const BLOG_MAP = {
     "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":"BlogRenkVeTipografiSecimiMarkalarIcinPratikRehber",
     "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim",
 
-    "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri"
+    "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri",
+    "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi"
   },
 
        callcenter: {
@@ -56,7 +60,8 @@ export const BLOG_MAP = {
     "4-dilli-cagri-merkezi-multi-channel-entegrasyon":"Blog4DilliCagriMerkeziMultiChannelEntegrasyon",
     "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama",
 
-    "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis"
+    "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis",
+    "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma"
   },
 
     "pms-ota": {
