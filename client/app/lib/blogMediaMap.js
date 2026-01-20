@@ -3052,7 +3052,258 @@ export const BLOG_MEDIA_MAP = {
       alt: "Hedefleme deliverables seti: segment planı, listeler, test planı",
       caption: "Hedefleme deliverables seti: segment planı, listeler, test planı"
     }
-  }
+  },
+
+    "google-business-profile-otel-optimizasyon-checklist":{
+     banner: {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-1.webp",
+      alt: "Google Business Profile Otel Optimizasyon Checklist’i",
+      caption: "Google Business Profile Otel Optimizasyon Checklist’i"
+    },
+
+          "google-business-profile": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-2.webp",
+      alt: "GBP profil ekranı bağlamı, otel kartında kritik alanları gösteren görsel",
+      caption: "GBP profil ekranı bağlamı, otel kartında kritik alanları gösteren görsel"
+    },
+
+           "hotel-profile-building": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-3.webp",
+      alt: "GBP adım adım optimizasyon başlangıcı, otel profil tamlığı ayraç görseli",
+      caption: "GBP adım adım optimizasyon başlangıcı, otel profil tamlığı ayraç görseli"
+    },
+
+    "direct-booking": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-4.webp",
+      alt: "Fotoğraf/özellikler/rezervasyon alanlarına geçiş, otel odaklı ayraç görseli",
+      caption: "Fotoğraf/özellikler/rezervasyon alanlarına geçiş, otel odaklı ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-5.webp",
+      alt: "GBP alan akışı (kategori→özellik→medya→SSS→rezervasyon), otel optimizasyon diyagramı",
+      caption: "GBP alan akışı (kategori→özellik→medya→SSS→rezervasyon), otel optimizasyon diyagramı"
+    },
+
+          "checklist": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-6.webp",
+      alt: "İlk 30 dakikada yapılacak 10 iş, otel GBP checklist kartı",
+      caption: "İlk 30 dakikada yapılacak 10 iş, otel GBP checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-7.webp",
+      alt: "Harita KPI seti (görüntülenme/tıklama/arama), otel performans kartı",
+      caption: "Harita KPI seti (görüntülenme/tıklama/arama), otel performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-2/SEO2-2-8.webp",
+      alt: "Otel GBP optimizasyon deliverables seti, güven unsuru kartı",
+      caption: "Otel GBP optimizasyon deliverables seti, güven unsuru kartı"
+    }
+  },
+
+  "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-1.webp",
+      alt: "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?",
+      caption: "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?"
+    },
+
+          "crm-process": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-2.webp",
+      alt: "Analytics CRM DM ve anket verileriyle persona çıkarma sürecini özetleyen içerik görseli",
+      caption: "Analytics CRM DM ve anket verileriyle persona çıkarma sürecini özetleyen içerik görseli"
+    },
+
+           "target-audience-pool": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-3.webp",
+      alt: "Hedef kitle veri kaynaklarını tek çatıya toplayan otel odaklı bölüm ayırıcı görseli",
+      caption: "Hedef kitle veri kaynaklarını tek çatıya toplayan otel odaklı bölüm ayırıcı görseli"
+    },
+
+    "b2b": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-4.webp",
+      alt: "Persona’ya göre mesaj format ve CTA farklılaşmasını gösteren B2B odaklı bölüm görseli",
+      caption: "Persona’ya göre mesaj format ve CTA farklılaşmasını gösteren B2B odaklı bölüm görseli"
+    },
+
+     "flowchart": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-5.webp",
+      alt: "Persona kartını içerik takvimiyle eşleştiren akışı otel bağlamında anlatan diyagram",
+      caption: "Persona kartını içerik takvimiyle eşleştiren akışı otel bağlamında anlatan diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-6.webp",
+      alt: "Persona kartı alanlarını uygulanabilir checklist olarak özetleyen sosyal medya strateji kartı",
+      caption: "Persona kartı alanlarını uygulanabilir checklist olarak özetleyen sosyal medya strateji kartı"
+    },
+
+      "kpi": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-7.webp",
+      alt: "Persona bazlı KPI takibini otel ve B2B için skor kart formatında gösteren görsel",
+      caption: "Persona bazlı KPI takibini otel ve B2B için skor kart formatında gösteren görsel"
+    },
+
+          "persona-card": {
+      src: "/images/blog/smm/SMM2-2/SMM2-2-8.webp",
+      alt: "Persona kartları ve takvim eşleşmesi çıktılarıyla güven unsurlarını özetleyen proof görseli",
+      caption: "Persona kartları ve takvim eşleşmesi çıktılarıyla güven unsurlarını özetleyen proof görseli"
+    }
+  },
+
+  "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":{
+     banner: {
+      src: "/images/blog/software/Software2-2/Software2-2-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "rbac-approval-workflow": {
+      src: "/images/blog/software/Software2-2/Software2-2-2.webp",
+      alt: "RBAC ve onay akışı özetini gösteren görsel, kurumsal web bağlamı",
+      caption: "RBAC ve onay akışı özetini gösteren görsel, kurumsal web bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software2-2/Software2-2-3.webp",
+      alt: "Rol ve yetki ayrımını anlatan görsel, otel operasyon bağlamı",
+      caption: "Rol ve yetki ayrımını anlatan görsel, otel operasyon bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software2-2/Software2-2-4.webp",
+      alt: "Otel ve B2B panel risklerini ayıran görsel, kurumsal site bağlamı",
+      caption: "Otel ve B2B panel risklerini ayıran görsel, kurumsal site bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-2/Software2-2-5.webp",
+      alt: "Onay akışı ve loglama ilişkisi diyagramı, otel ve B2B bağlamı",
+      caption: "Onay akışı ve loglama ilişkisi diyagramı, otel ve B2B bağlamı"
+    },
+
+      "checklist-06": {
+      src: "/images/blog/software/Software2-2/Software2-2-6.webp",
+      alt: "Panel güvenlik checklist kartı, içerik ve IT ekipleri bağlamı",
+      caption: "Panel güvenlik checklist kartı, içerik ve IT ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-2/Software2-2-7.webp",
+      alt: "Kriz yanıt süresi ve yanlış yayın KPI kartı, otel ve B2B bağlamı",
+      caption: "Kriz yanıt süresi ve yanlış yayın KPI kartı, otel ve B2B bağlamı"
+    },
+
+      "": {
+      src: "/images/blog/software/Software2-2/Software2-2-8.webp",
+      alt: "RBAC ve onay çıktıları proof kartı, kurumsal web bağlamı",
+      caption: "RBAC ve onay çıktıları proof kartı, kurumsal web bağlamı"
+    }
+  },
+
+  "otel-mobile-first-ui-ux-rehberi":{
+     banner: {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-1.webp",
+      alt: "Otel Web Siteleri İçin Mobile-First UI/UX Rehberi",
+      caption: "Otel Web Siteleri İçin Mobile-First UI/UX Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-2.webp",
+      alt: "Mobilde otel rezervasyon yolculuğunu özetleyen bağlam görseli",
+      caption: "Mobilde otel rezervasyon yolculuğunu özetleyen bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-3.webp",
+      alt: "Mobile-first bölüm geçişini destekleyen ayırıcı görsel",
+      caption: "Mobile-first bölüm geçişini destekleyen ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-4.webp",
+      alt: "CWV ve performans bölümüne geçişi destekleyen ayırıcı görsel",
+      caption: "CWV ve performans bölümüne geçişi destekleyen ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-5.webp",
+      alt: "Thumb-zone ve sticky rezervasyon barı yerleşimini gösteren diyagram",
+      caption: "Thumb-zone ve sticky rezervasyon barı yerleşimini gösteren diyagram"
+    },
+
+          "checklist-07": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-6.webp",
+      alt: "Mobil otel UX için hızlı uygulanabilir checklist kartı",
+      caption: "Mobil otel UX için hızlı uygulanabilir checklist kartı"
+    },
+
+      "kpi-08": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-7.webp",
+      alt: "Mobil Core Web Vitals metrikleri ve UX etkisini özetleyen skor kartı",
+      caption: "Mobil Core Web Vitals metrikleri ve UX etkisini özetleyen skor kartı"
+    },
+
+          "proof-09": {
+      src: "/images/blog/creative/Creative2-2/Creative2-2-8.webp",
+      alt: "Mobile-first UX analizi çıktıları ve aksiyon planını anlatan kanıt kartı",
+      caption: "Mobile-first UX analizi çıktıları ve aksiyon planını anlatan kanıt kartı"
+    }
+  },
+
+"telefonla-rezervasyon-donusum-orani-artirma":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-1.webp",
+      alt: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
+      caption: "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-2.webp",
+      alt: "Dönüşüm artırma adımlarını tek bakışta özetleyen otel bağlamlı görse",
+      caption: "Dönüşüm artırma adımlarını tek bakışta özetleyen otel bağlamlı görse"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-3.webp",
+      alt: "Dönüşüm ölçümü ve mini funnel’ı anlatan bölüm ayırıcı görsel",
+      caption: "Dönüşüm ölçümü ve mini funnel’ı anlatan bölüm ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-4.webp",
+      alt: "Teklif kurgusu ve seçenek yapısını anlatan bölüm ayırıcı görsel",
+      caption: "Teklif kurgusu ve seçenek yapısını anlatan bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-5.webp",
+      alt: "Koçluk & QA döngüsü veya dönüşüm funnel diyagramı",
+      caption: "Koçluk & QA döngüsü veya dönüşüm funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-6.webp",
+      alt: "AEO dönüşüm checklist kartı (analiz–teklif–itiraz–kapanış)",
+      caption: "AEO dönüşüm checklist kartı (analiz–teklif–itiraz–kapanış)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-7.webp",
+      alt: "Dönüşüm KPI’larını 5 kartta gösteren skor paneli",
+      caption: "Dönüşüm KPI’larını 5 kartta gösteren skor paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-2/Callcenter2-2-8.webp",
+      alt: "Script tablosu + itiraz kartları + rol-play + koçluk çıktıları",
+      caption: "Script tablosu + itiraz kartları + rol-play + koçluk çıktıları"
+    }
+  },
+
   
 };
 

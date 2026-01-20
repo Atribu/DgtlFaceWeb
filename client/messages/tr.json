@@ -51327,6 +51327,2613 @@
         ]
       }
     }
+  },
+
+  "BlogGoogleBusinessProfileOtelOptimizasyonChecklist": {
+    "title": "GBP Otel Optimizasyon Checklist’i: Eksiksiz Profil",
+    "slug": "google-business-profile-otel-optimizasyon-checklist",
+    "department": "seo",
+    "updatedAt": "20 Ocak 2026",
+    "publishedAt": "2026-01-20",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Google Business Profile’ı otel özelinde optimize edin: kategori, özellikler (amenities), fotoğraf seti, SSS, mesajlar ve rezervasyon linki. 30 dakikalık checklist + hızlı aksiyon planı ile Local Pack görünürlüğünü ve tıklama/rezervasyon lead’ini artırın.",
+    "seo": {
+      "metaTitle": "GBP Otel Optimizasyon Checklist’i: Eksiksiz Profil | DGTLFACE",
+      "metaDescription": "Google Business Profile’ı otel özelinde optimize edin: kategori, özellikler, fotoğraflar, SSS, mesajlar ve rezervasyon linki. 30 dakikalık checklist + aksiyon planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog / URL: /tr/seo/blog/google-business-profile-otel-optimizasyon-checklist",
+        "Blog Tipi: Core",
+        "Intent: Informational + Tactical",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/google-business-profile-otel-optimizasyon-checklist"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO hizmet sayfasının altında “uygulama” odaklı bir child içerik olarak, Google Business Profile (GBP) optimizasyonunu otel özelinde somut checklist’e çevirir. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç “profil eksikleri yüzünden harita görünürlüğü kaçırıyoruz” problemini 30–60 dakikalık hızlı aksiyonlara dönüştürmektir. Funnel tarafında consideration → conversion köprüsünde konumlanır; çünkü GBP’de doğru kategori/özellik/rezervasyon linki seti doğrudan “arama–tıklama–rezervasyon” akışını etkiler. SERP hedefi Featured Snippet + PAA olduğundan içerik, numaralı adımlar ve kısa cevap bloklarıyla yapılandırılır. Ana iş sorusu: “Otelimin Google Haritalar kartını eksiksiz doldurup daha çok tıklama ve rezervasyon lead’i nasıl alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-20",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Google Business Profile (GBP) otel optimizasyonu, harita kartınızı “tam çalışan vitrini”ne çevirmektir: doğru ana kategori ve ikincil kategoriler, eksiksiz açıklama/özellikler (amenities), kaliteli fotoğraf–video seti, güncel telefon–adres–web bilgisi ve net rezervasyon linki. Ayrıca SSS, mesajlar ve check-in/politika gibi otel alanları doğru doldurulursa Local Pack görünürlüğü ve tıklama oranı artar. En kritik kural: GBP’deki NAP bilgileri siteniz ve OTA profilleriyle tutarlı olmalıdır.",
+      "sgeSummary": "Otel GBP’nizi optimize etmek için: kategorileri doğru seçin, özellikleri/amenities’i tamamlayın, fotoğraf seti kurun, telefon–adres–web’i tutarlı tutun ve rezervasyon linkini net bağlayın.",
+      "voiceAnswer": "Kategorileri doğru seçip tüm alanları doldurun, fotoğrafları güncelleyin ve rezervasyon linki ile NAP’ı tutarlı tutun.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "KPI’lar: Harita görüntülenme, web tıklaması, rota isteği, arama (call), rezervasyon lead’i",
+        "Entity’ler: Google Business Profile, category, attributes, photos, booking link, hotel",
+        "Funnel: Consideration → Conversion",
+        "Geo: Antalya / Belek / Side / Kemer / Bodrum (örnek kullanım)",
+        "Ana çerçeve: “Profil tamlığı + tutarlılık + güncellik”",
+        "SERP hedefi: Featured Snippet + PAA + Voice checklist yanıtları"
+      ]
+    },
+    "h1": {
+      "title": "Google Business Profile Otel Optimizasyon Checklist’i",
+      "intro": "Tam optimize edilmemiş bir Google Business Profile, oteller için yarım bırakılmış bir vitrin gibidir: kullanıcı sizi görür ama güvenmez; tıklar ama aradığını bulamaz; rezervasyon linkine ulaşamaz ve geri döner. Oysa kategori, açıklama, fotoğraf, özellikler (amenities), telefon ve rezervasyon linki gibi alanları eksiksiz doldurmak; harita görünürlüğünü, tıklama oranlarını ve doğrudan rezervasyon potansiyelini artırma eğilimindedir (özellikle mobilde). Bu rehber, “ne dolduracağım?” sorusunu otel özelinde net bir checklist’e çevirir ve ilk 30 dakikada yapılacakları sıralar.",
+      "quickSummary": [
+        "1) Doğrulama + NAP standardını sabitle",
+        "2) Birincil/ikincil kategori ve amenities setini tamamla",
+        "3) Minimum fotoğraf setini kur, güncelliği rutine bağla",
+        "4) Rezervasyon linki + mobil hız ile “son adım”ı kaybetme",
+        "5) SSS + mesajlarla PAA/Voice uyumlu cevap altyapısı kur"
+      ],
+      "ctaPrimary": {
+        "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
+        "text": "Harita kartını eksiksiz kurup tıklama ve rezervasyon lead’i artırmak isteyen oteller için uygulanabilir plan çıkarın.",
+        "href": "/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
+        "text": "Harita kartınızı otel odaklı checklist’e göre tamamlayıp performansı KPI’larla izleyin.",
+        "href": "/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Otel GBP Alan & Checklist Şablonunu İndir",
+        "text": "Profil alanlarını tek sayfada görüp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
+        "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Yerel SEO (Local SEO) hizmet sayfası", "href": "/seo/yerel-seo" },
+      { "label": "Otel SEO hizmet sayfası", "href": "/otel/seo" },
+      { "label": "Rezervasyon desteği (çağrı merkezi)", "href": "/cagri-merkezi/rezervasyon-destegi" }
+    ],
+    "relatedPosts": [
+      { "title": "Yerel SEO Nedir? Hotel Pack ve NAP Tutarlılığı", "href": "/seo/yerel-seo" },
+      { "title": "Otel SEO: OTA’ya Rağmen Direct Booking Kazanın", "href": "/otel/blog/otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir" }
+    ],
+    "sections": [
+
+      {
+        "id": "adim-adim-gbp-optimizasyon",
+        "title": "Google Business Profile nasıl optimize edilir? (Otel için adım adım)",
+        "blocks": [
+          { "type": "media", "slot": "google-business-profile" },
+          {
+            "type": "p",
+            "text": "AEO gereksinimi gereği bu bölüm, numaralı liste formatında net ilerler. Amaç “her şeyi aynı anda” yapmak değil; önce görünürlüğü etkileyen çekirdek alanları tamamlayıp sonra gelişmiş alanlara geçmektir."
+          },
+          { "type": "h3", "text": "1) İlk kurulum ve doğrulama (Foundation)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Profil sahipliğini doğrulayın (doğrulama yoksa sıralama ve güven sinyali zayıflar).",
+              "İşletme adı, adres ve telefon (NAP) standardını tek formatta belirleyin.",
+              "Çalışma saatleri ve sezon/özel gün güncellemelerini planlayın."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Mini örnek (otel bağlamı)",
+            "items": [
+              "Side’de sezonsal çalışan bir otel, sezon kapanışını “geçici kapalı” gibi yanlış işaretlerse görünürlük dalgalanabilir.",
+              "Bunun yerine sezon saatlerini ve “açılış tarihi” güncellemelerini düzenli yönetmek gerekir."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Kurulum)",
+            "items": [
+              "GBP doğrulama tamam mı?",
+              "NAP tek formatta mı?",
+              "Çalışma saatleri ve sezon bilgisi güncel mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Doğrulama → NAP standardı → çalışma saatleri sırasıyla ilerleyin.",
+              "İlk hafta içinde en az 10 kritik alanı “tam” hale getirin.",
+              "Profil güncelleme sorumlusu atayın (operasyon + pazarlama koordinasyonu)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kategori-ve-attributes",
+        "title": "Otelim için hangi kategoriyi seçmeliyim? (Category + Attributes)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel GBP’sinde kategori, “hangi arama niyetinde” görünür olacağınızı belirler. Birincil kategori yanlışsa, ne kadar fotoğraf yükleseniz de ilişkililik sinyali zayıf kalır. Birincil kategori; otelin tipine göre “Hotel / Resort Hotel / Boutique Hotel” gibi, ikincil kategoriler ise gerçek hizmeti destekleyecek şekilde seçilmelidir (ör. spa, restoran, etkinlik alanı gibi; işletmenin gerçekten sunduğu ölçüde)."
+          },
+          { "type": "h3", "text": "Doğru kategori seçimi için hızlı kural seti" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Birincil kategori: En geniş ama en doğru tanım (ör. resort’sanız “Resort Hotel”).",
+              "İkincil kategoriler: Sunduğunuz ana deneyimleri destekler (spa/restaurant).",
+              "Tutarlılık: Web sitenizde “butik otel” diyorsanız GBP’de “resort” seçmek çelişki yaratabilir."
+            ]
+          },
+          { "type": "h3", "text": "Attributes / Amenities: Otel için görünürlük + dönüşüm sinyali" },
+          {
+            "type": "p",
+            "text": "Otel özellikleri (spa, aquapark, all inclusive, çocuk kulübü, plaj, otopark) sadece “bilgi” değildir; aynı zamanda arama sorgularıyla eşleşen bir relevance sinyalidir. Antalya–Belek gibi rekabetçi bölgelerde, “aile resort” niyetinde amenities alanı eksik olan profiller geride kalabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Kategori + Özellikler)",
+            "items": [
+              "Birincil kategori gerçek otel tipini yansıtıyor mu?",
+              "İkincil kategoriler konsepti destekliyor mu?",
+              "Amenities alanı eksiksiz mi (spa, çocuk, plaj vb.)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 hedef sorgu seçin (“Belek all inclusive resort” gibi) ve kategorilerle eşleştirin.",
+              "Amenities alanını “satış broşürü” gibi değil, gerçek hizmet listesi gibi doldurun.",
+              "Sezonluk değişen imkanları (ör. aquapark sezon) net belirtin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "profil-tamligi-checklist",
+        "title": "GBP’de hangi alanları doldurmak zorunlu? (Profil tamlığı checklist)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bir otel GBP profilinde “zorunlu” alanları, kullanıcı yolculuğuna göre düşünmek daha doğru: kullanıcı harita kartında önce güven sinyali arar, sonra karar sinyali arar, sonra aksiyon (web/rezervasyon/arama) ister."
+          },
+          { "type": "h3", "text": "Zorunlu çekirdek alanlar (ilk 30 dakikada yapılacak 10 şey)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "İşletme adı (standart)",
+              "Adres (pin uyumu kontrol)",
+              "Telefon (tekil ve ulaşılabilir)",
+              "Web sitesi URL (doğru sayfa)",
+              "Rezervasyon linki (mümkünse direkt)",
+              "Birincil + ikincil kategori",
+              "Açıklama (konsept + lokasyon + değer önerisi)",
+              "Amenities / attributes (temel set)",
+              "Fotoğraf seti (minimum: dış cephe, lobby, oda, havuz/plaj, F&B)",
+              "SSS / Q&A (en az 5 soru)"
+            ]
+          },
+          { "type": "media", "slot": "checklist" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Tamlık)",
+            "items": [
+              "Rezervasyon linki var mı ve çalışıyor mu?",
+              "Açıklama “otel + bölge + konsept” netliği taşıyor mu?",
+              "En az 5–10 temel fotoğraf yüklü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Önce aksiyon alanlarını (web/rezervasyon/arama) tamamlayın.",
+              "Sonra “karar” alanlarını (fotoğraf/amenities/SSS) güçlendirin.",
+              "En son “gelişmiş” alanlara geçin (mesajlar, politika, check-in)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Otel GBP Alan & Checklist Şablonunu İndir",
+            "text": "Profil alanlarını tek sayfada görüp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
+            "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf"
+          }
+        ]
+      },
+      {
+        "id": "medya-yonetimi",
+        "title": "Fotoğraf ve video yönetimi (güven + tıklama sinyali)",
+        "blocks": [
+          { "type": "media", "slot": "direct-booking" },
+          {
+            "type": "p",
+            "text": "Fotoğraf ve video, otellerde “ilk izlenim”i oluşturur. GBP’de iyi bir görsel set, sadece kullanıcıyı ikna etmez; aynı zamanda kart etkileşimini artırarak “profil aktif ve tercih edilebilir” sinyali üretir."
+          },
+          { "type": "h3", "text": "Oteller için minimum fotoğraf seti (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Dış cephe / giriş (pin doğruluğu da destekler)",
+              "Lobby / resepsiyon",
+              "Oda tiplerinden örnek (en çok satan 1–2 oda)",
+              "Havuz / plaj (varsa)",
+              "Restoran / kahvaltı",
+              "Spa / fitness (varsa)",
+              "Aile alanları / kids club (varsa)",
+              "Toplantı/etkinlik alanı (MICE otelleri için)"
+            ]
+          },
+          { "type": "h3", "text": "Görsel kalite standardı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aynı konseptte, benzer ışık/renk kalitesi",
+              "Eski fotoğrafları temizleme (yanlış beklenti yaratır)",
+              "Sezon güncellemeleri (özellikle Bodrum/Side sezonluk görsel farkı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Medya)",
+            "items": [
+              "Fotoğraflar güncel mi (son 12 ay)?",
+              "Oda/deneyim/F&B ayrımı net mi?",
+              "Eski/yanıltıcı fotoğraflar temizlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "30 dakikada minimum seti kurun; 30 gün içinde genişletin.",
+              "En çok aranan oda tipini ve ana konsepti öne çıkarın.",
+              "Fotoğrafları “katalog” değil, “karar destek” mantığıyla seçin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-koprusu",
+        "title": "Hizmetler, oda tipleri ve fiyat sinyalleri (rezervasyon odaklı kurgu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel GBP’sinde kullanıcı “fiyatı” doğrudan görmese bile, fiyat algısı ve uygunluk sinyali; rezervasyon linki, oda tipi netliği ve hizmet açıklığıyla güçlenir."
+          },
+          { "type": "h3", "text": "Rezervasyon linkleri: “Son adım”ı kaybetmeyin" },
+          {
+            "type": "p",
+            "text": "Rezervasyon linki yoksa, harita kartı çoğu zaman OTA’ya veya rakiplere gider. Bu rehberin otel odaklı farkı şudur: GBP’yi sadece “tanıtım” değil, rezervasyon aksiyonu için optimize eder."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Direct booking link (tercihen)",
+              "Kampanya/teklif landing’i (sezonluk)",
+              "WhatsApp/çağrı merkezi entegrasyonu (varsa) → dönüşüm köprüsü"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Rezervasyon Köprüsü)",
+            "items": [
+              "Rezervasyon linki doğru sayfaya gidiyor mu?",
+              "Mobilde hızlı açılıyor mu?",
+              "Alternatif aksiyon (arama/WhatsApp) net mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Rezervasyon linkini “genel ana sayfa” yerine ilgili landing’e bağlayın (Varsayım: mümkünse).",
+              "Çağrı merkezi desteği varsa, ölçüm planı kurun.",
+              "CTA’yı netleştirin: “Rezervasyon yap / teklif al / ara”."
+            ]
+          },
+          {"type":"media","slot":"hotel-profile-building"}
+        ]
+      },
+      {
+        "id": "sss-mesajlar",
+        "title": "SSS, mesajlar ve rezervasyon iletişimi ",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "PAA ve Voice gereksinimi, GBP içeriğinde “soru–cevap” düşünmeyi zorunlu kılar. Otellerde tipik sorular; check-in/out, çocuk politikası, evcil hayvan, otopark, transfer, plaj mesafesi gibi alanlarda yoğunlaşır."
+          },
+          { "type": "h3", "text": "SSS alanı için otel odaklı 7 soru örneği" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Check-in ve check-out saatleri nedir?",
+              "Her şey dahil mi?",
+              "Plaja mesafe ne kadar?",
+              "Çocuk kulübü var mı?",
+              "Otopark ücretsiz mi?",
+              "Evcil hayvan kabul ediliyor mu?",
+              "Transfer hizmeti var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (SSS/Mesajlar)",
+            "items": [
+              "En az 5–7 SSS eklendi mi?",
+              "Mesajlar açık mı ve yanıt SLA var mı?",
+              "SSS’ler Google’daki PAA niyetiyle uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "SSS’leri “kısa ve net” yazın (2–3 cümle).",
+              "Mesajlar açıksa, yanıt sorumlusu ve saat aralığı belirleyin.",
+              "En çok sorulan 10 soruyu sezon başında güncelleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gelismis-alanlar",
+        "title": "Otel özelinde gelişmiş alanlar: Check-in, politika, amenities seti",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu alanlar genellikle atlanır ama otellerde “karar verme sürtünmesi”ni azaltır. Örneğin, Belek’te bir aile resort’ta çocuk politikası ve amenities net değilse, kullanıcı başka karta geçebilir."
+          },
+          { "type": "h3", "text": "Gelişmiş alanlar checklist’i" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Check-in/check-out saatleri",
+              "İptal/ücret politikası (kısa, net)",
+              "Çocuk/ekstra yatak bilgisi",
+              "Sigara politikası",
+              "Ödeme/ön provizyon bilgisi (Varsayım: genel)",
+              "SPA/havuz kullanım koşulları (sezon)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Gelişmiş)",
+            "items": [
+              "Politika alanları net mi?",
+              "Sezonluk imkanlar belirtilmiş mi?",
+              "Kullanıcı sürtünmesi azaltıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Belirsiz” alanları kısaltıp netleştirin.",
+              "Operasyonla birlikte güncelleyin (yanlış bilgi en büyük risk).",
+              "Sezon değişiminde tek sefer “profil güncelleme günü” planlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nap-teknik-not",
+        "title": "Teknik not: NAP tutarlılığı (site + OTA + GBP)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Teknik SEO notu gereği vurguluyoruz: Profildeki telefon, web ve adres bilgilerinin web siteniz ve OTA profilleriyle tutarlı olması gerekir. Bir yerde farklı numara veya farklı adres yazımı, işletme kimliği sinyalini zayıflatabilir ve ekip içinde raporlama/ölçüm karmaşası yaratır."
+          },
+          { "type": "media", "slot": "kpi-07" },
+          {
+            "type": "table",
+            "caption": "Tablo: GBP Otel Profil Alanları (Etki ve Öncelik)",
+            "headers": ["Alan", "Zorunluluk", "Etki (Relevance/Prominence/Conversion)", "Not"],
+            "rows": [
+              ["Doğrulama", "Zorunlu", "Prominence", "Doğrulama yoksa güven ve stabilite düşer"],
+              ["NAP (Ad/Adres/Telefon)", "Zorunlu", "Relevance + Prominence", "Site + OTA + GBP tutarlılığı kritik"],
+              ["Birincil kategori", "Zorunlu", "Relevance", "Yanlış kategori ilişkililiği kırar"],
+              ["İkincil kategoriler", "Kritik", "Relevance", "Sadece gerçekten sunulan hizmetlerle uyumlu seçin"],
+              ["Rezervasyon linki", "Kritik", "Conversion", "Genel ana sayfa yerine mümkünse ilgili landing’e bağlayın"],
+              ["Açıklama", "Kritik", "Relevance", "Konsept + lokasyon + değer önerisi net olmalı"],
+              ["Amenities/Attributes", "Kritik", "Relevance + Conversion", "Arama niyetleriyle eşleşir; eksikse geride kalır"],
+              ["Fotoğraf seti", "Kritik", "Prominence + Conversion", "Güncellik ve kalite tıklama davranışını etkiler"],
+              ["SSS (Q&A)", "Gelişmiş", "Conversion", "PAA/Voice uyumu ve sürtünme azaltma"],
+              ["Mesajlar", "Gelişmiş", "Conversion", "Yanıt SLA yoksa risk oluşturur"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc-competitor-gap",
+        "title": "Sonuç: Otel için GBP “profil tamlığı” sadece görünürlük değil, rezervasyon sistemidir",
+        "blocks": [
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "p",
+            "text": "Birçok rehber GBP’yi genel işletme perspektifiyle anlatır; bu içerikte fark, otel/turizm için kategori + amenities + rezervasyon linki üçlüsünü tek çerçevede ele almaktır. Otel için “profil tamlığı” yalnız görünürlük değil, doğrudan rezervasyon akışının da parçasıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (hızlı kazanım planı)",
+            "items": [
+              "Profil tamlığını ölçün (tam/eksik alan listesi çıkarın).",
+              "Rezervasyon linki + mobil hız + SSS üçlüsünü ilk haftada tamamlayın.",
+              "30 gün içinde fotoğraf/yorum rutiniyle istikrar sağlayın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Google Business Profile Optimizasyon Çalışması Talep Et",
+            "text": "Harita kartını eksiksiz kurup tıklama ve rezervasyon lead’i artırmak isteyen oteller için uygulanabilir plan çıkarın.",
+            "href": "/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "otel-gbp-asset-download",
+        "title": "Otel GBP Alan & Checklist Şablonunu İndir — Yerel SEO",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Otel GBP Alan & Checklist Şablonunu İndir — SEO / Yerel SEO (v1.0)",
+            "purpose": "Bu şablon; otellerin Google Business Profile alanlarını “zorunlu–kritik–gelişmiş” şeklinde sınıflandırarak tek sayfada yönetmesini sağlar. 30 dakikada profil eksiklerini çıkarır, ardından fotoğraf/SSS/rezervasyon linki gibi alanlarda hızlı kazanım planı üretir. Böylece harita kartı daha tutarlı görünür ve tıklama/arama aksiyonları artma eğilimi gösterir.",
+            "whoFor": "Otel sahibi/GM, satış–pazarlama müdürü, dijital ekip veya ajans yöneticisi.",
+            "steps": [
+              "Şablondaki alanları kendi oteliniz için doldurun ve “eksik”leri işaretleyin.",
+              "Etki sütununa göre ilk 10 aksiyonu seçin (yüksek etki–düşük efor).",
+              "14 günlük sprint planıyla uygulayın; 1. ve 14. gün KPI karşılaştırması yapın."
+            ],
+            "checklist": [
+              "NAP site ve OTA ile tutarlı",
+              "Rezervasyon linki çalışıyor + mobil hızlı",
+              "Fotoğraflar güncel (son 12 ay)",
+              "Kategori/amenities hedef sorgularla uyumlu",
+              "SSS hazır + kısa yanıtlar"
+            ],
+            "href": "/downloads/otel-gbp-alan-checklist-sablonu-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Google Business Profile nasıl optimize edilir?",
+        "a": "Doğrulama ve NAP tutarlılığıyla başlayın; doğru kategorileri seçin, amenities/özellikleri tamamlayın, fotoğraf seti kurun ve rezervasyon linkini net bağlayın. SSS ve mesaj yönetimiyle kullanıcı sürtünmesini azaltın."
+      },
+      {
+        "q": "Otelim için hangi kategoriyi seçmeliyim?",
+        "a": "Birincil kategori otel tipinizi en doğru tanımlayan seçenek olmalı (otel/resort/butik). İkincil kategoriler yalnızca gerçekten sunduğunuz hizmetleri desteklemelidir."
+      },
+      {
+        "q": "GBP’de hangi alanları doldurmak zorunlu?",
+        "a": "Adres, telefon, web, çalışma saatleri, kategori, açıklama, amenities ve temel fotoğraf seti çekirdek alanlardır. Oteller için rezervasyon linki ve SSS de “zorunlu gibi” düşünülmelidir."
+      },
+      {
+        "q": "Fotoğraf ve özellikler yerel sıralamayı etkiler mi?",
+        "a": "Fotoğraf/özellikler, ilişkililik ve tıklama davranışını güçlendirir; bu da görünürlük ve dönüşüm tarafına pozitif yansıyabilir. Özellikle otellerde güncel ve kaliteli görseller karar anını etkiler."
+      },
+      {
+        "q": "Rezervasyon linki eklemek neden önemli?",
+        "a": "Harita kartından gelen niyeti doğrudan rezervasyona taşır ve kullanıcıyı “başka platforma” kaçırma riskini azaltır. Mobilde hızlı ve net bir landing’e bağlamak en iyi pratiktir."
+      },
+      {
+        "q": "SSS ve mesajlar oteller için gerçekten gerekli mi?",
+        "a": "Evet; check-in/out, çocuk politikası, plaj mesafesi gibi sorular karar sürtünmesini azaltır. Mesajlar açıksa, hızlı yanıt disiplini güven üretir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — google-business-profile-otel-optimizasyon-checklist-hero-01.webp",
+          "h1-context-02 — 1920×1080 — google-business-profile-otel-optimizasyon-checklist-h1-context-02.webp",
+          "google-business-profile — 1600×1200 — google-business-profile-otel-optimizasyon-checklist-google-business-profile.webp",
+          "direct-booking — 1600×1200 — google-business-profile-otel-optimizasyon-checklist-direct-booking.webp",
+          "diagram-05 — 1920×1080 — google-business-profile-otel-optimizasyon-checklist-diagram-05.webp",
+          "checklist — 1200×1200 — google-business-profile-otel-optimizasyon-checklist-checklist.webp",
+          "kpi-07 — 1200×1200 — google-business-profile-otel-optimizasyon-checklist-kpi-07.webp",
+          "proof-08 — 1200×1200 — google-business-profile-otel-optimizasyon-checklist-proof-08.webp",
+          "table-gbp-alanlari — (tablo görseli opsiyonel)"
+        ],
+        "technicalChecklist": [
+          "Canonical kontrolü (parametreli sayfalar dahil)",
+          "Indexlenebilirlik (robots/sitemap/noindex) kontrolü",
+          "NAP standardı (site + OTA + GBP) tek format",
+          "Schema @graph tek blok (WebSite/WebPage/Article/BreadcrumbList/FAQPage)",
+          "İç linklerde kırık link ve redirect zinciri yok",
+          "CWV izleme ve backlog oluşturuldu"
+        ]
+      }
+    }
+  },
+
+   "BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi": {
+    "title": "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?",
+    "slug": "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi",
+    "department": "smm",
+    "updatedAt": "20 Ocak 2026",
+    "publishedAt": "2026-01-20",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Hedef kitle verilerini (analytics, CRM, DM, anket) okuyun; 2–4 persona çıkarın. Otel ve B2B için mesaj, format ve CTA’ları persona’ya göre planlayın.",
+    "seo": {
+      "metaTitle": "Hedef Kitle & Persona ile Sosyal Medya Stratejisi | DGTLFACE",
+      "metaDescription": "Hedef kitle verilerini (analytics, CRM, DM, anket) okuyun; 2–4 persona çıkarın. Otel ve B2B için mesaj, format ve CTA’ları persona’ya göre planlayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog / URL: /tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi"
+      ],
+      "strategySummary": "Bu içerik, SMM “planlama ve strateji” sayfasını güçlendiren ve içerik üretimi/raporlama süreçlerine veri tabanlı temel sağlayan otorite taşıyan child içeriktir. Hedef persona; otel gruplarında GM ve satış-pazarlama liderleri, B2B/hizmet markalarında pazarlama müdürü ve ajans yöneticileridir. Funnel’da consideration ağırlıklıdır; “kime konuşuyorum?” sorusunu netleştirerek içerik tonu, format ve CTA kararlarını sistemleştirir. Ana iş sorusu: “Hedef kitle verisini nereden toplarım, 2–4 persona’yı nasıl çıkarırım ve bunu takvime nasıl bağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-20",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sosyal medyada herkese aynı tonda konuşmak, kimseyle tam bağ kuramamak demektir. GA4/insights, CRM, DM/yorumlar ve anketlerden hedef kitle verisini toplayıp 2–4 ana persona çıkardığınızda; her persona’nın derdi, beklentisi ve itirazına göre mesaj, format ve CTA’yı uyarlarsınız. Otel ve B2B hesaplarda bu “persona-first” yaklaşım, etkileşimi ve lead/rezervasyon kalitesini artıran uygulanabilir bir strateji omurgasıdır.",
+      "sgeSummary": "Veriyi toplayın (analytics+CRM+DM+anket), 2–4 persona kartı oluşturun, persona’ya göre mesaj/format/CTA tasarlayın ve takvimde “persona sütunu” ile planı uygulayın.",
+      "voiceAnswer": "Analytics ve CRM’den veri toplayın, 2–4 persona çıkarın, her persona’ya özel mesaj ve CTA’yı takvime bağlayın.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel/turizm + B2B hizmet + ajans projeleri (TR)",
+        "KPI odağı: engagement kalitesi, tıklama/lead, rezervasyon katkısı (Varsayım: ölçüm altyapısı mevcutsa)",
+        "Entity’ler: personas, audience research, CRM/analytics insights, targeted messaging",
+        "Model: “persona-first planning” + “data-informed strategy”",
+        "Funnel: Awareness → Consideration (mesaj uyumu) → Conversion (CTA uyumu)",
+        "Çıktı: 2–4 persona kartı + persona→içerik eşleşmesi + takvimde persona sütunu",
+        "Risk: Persona sunumda kalır, takvime yansımaz → içerik tonu/CTA dağılır"
+      ]
+    },
+    "h1": {
+      "title": "Hedef Kitle ve Persona Araştırması ile Sosyal Medya Stratejisi Nasıl Kurulur?",
+      "intro": "Sosyal medyada “herkese hitap edelim” yaklaşımı, pratikte “kimseye tam hitap edememek”tir. Otel ve B2B hesaplarda aynı içerik tonu, aynı örnekler ve aynı CTA ile ilerlemek; doğru kişiyi yakalamayı zorlaştırır, etkileşim görünse bile dönüşüm kalitesini düşürür. Çözüm, veriye dayalı hedef kitle araştırması ile 2–4 ana persona çıkarmak ve içerik planını bu persona’lara bağlamaktır. Bu yazıda, veri kaynaklarından başlayıp persona kartlarına ve takvimde “persona sütunu”na kadar adım adım, uygulanabilir bir sistem kuracağız.",
+      "quickSummary": [
+        "1) Analytics/CRM/DM/anket verisini tek tabloda topla",
+        "2) 2–4 persona kartı çıkar (karar sorusu + itiraz + kanıt + CTA)",
+        "3) Persona’ya göre mesaj/format/CTA’yı eşleştir",
+        "4) Takvimde “persona sütunu” ile planı çalıştır",
+        "5) Persona bazlı performansı aylık kıyasla ve revize et"
+      ],
+      "ctaPrimary": {
+        "label": "Hedef Kitle & Persona Analizi Talep Et",
+        "text": "(otel ve B2B ekipleri için mevcut içerik tonunun “kime konuştuğunu” netleştirip takvime bağlamak için)",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Hedef Kitle & Persona Analizi Talep Et",
+        "text": "(otel ve B2B ekipleri için hedef kitle sinyallerini 2–4 persona’ya çevirip takvimi netleştirmek için)",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir",
+        "text": "“persona’ları takvime bağlayıp her içerikte doğru mesaj ve CTA’yı sistematikleştirmenizi sağlar”",
+        "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Planlama ve Strateji", "href": "/smm/planlama-strateji" },
+      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" },
+      { "label": "İçerik SEO", "href": "/seo/icerik-seo" }
+    ],
+    "relatedPosts": [
+      { "title": "Sosyal Medya İçerik Üretimi: Sistemli Üretim Akışı", "href": "/smm/icerik-uretimi" },
+      { "title": "İçerik SEO: İçeriklerin Arama Talebiyle Uyumlanması", "href": "/seo/icerik-seo" }
+    ],
+    "sections": [
+      
+      {
+        "id": "veri-toplama",
+        "title": "1) Hedef Kitle Verilerini Toplama – “Varsayım değil, sinyal”",
+        "preBlocks":[{"type":"media","slot":"crm-process"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Persona “tahmin” ile yazılırsa, içerik stratejisi de tahmine dönüşür. Oysa elinizde zaten veri vardır: web analitiği, platform insights, CRM/rezervasyon/lead kayıtları, DM’ler, yorumlar ve mini anketler. Ama bu veri dağınıktır; ilk adım onu tek çatıya toplamaktır."
+          },
+          { "type": "h3", "text": "Hedef kitle verilerini nereden toplamalıyım?" },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): GA4 ve sosyal medya insights ile davranış sinyallerini, CRM/rezervasyon verisiyle gelir/lead kalitesini, DM/yorum ve anketlerle motivasyon/itirazları toplayın; sonra tek tabloda birleştirip segmentleyin."
+          },
+          { "type": "h3", "text": "Veri kaynakları (pratik liste):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "GA4 (veya web analytics): en çok okunan içerikler, kaynak/medium, device, landing page, dönüşüm sinyalleri",
+              "Platform insights: etkileşim türü (kaydetme/paylaşma), izlenme süresi, takipçi aktif saatleri",
+              "CRM / rezervasyon / lead: pazar, talep türü, satış döngüsü, iptal nedenleri (Varsayım: erişim varsa)",
+              "DM + yorum analizi: sık sorular, itirazlar, “hangi kelimelerle anlatıyorlar?”",
+              "Mini anket: 3–5 soru ile motivasyon ve karar kriteri toplama"
+            ]
+          },
+          { "type": "h3", "text": "Mini örnek (otel):" },
+          {
+            "type": "p",
+            "text": "Side/Belek hattında bir tesis, IG’de yüksek erişim alıyor ama DM’den gelen sorular hep “fiyat/transfer/çocuk konsepti” etrafında. Bu, içerik setinde “deneyim” çok, “karar kriteri” az olduğuna işaret eder. Çözüm: persona kartına “itirazlar ve karar kriterleri” ekleyip içerik pillars’ı güncellemek."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Veri toplama):",
+            "items": [
+              "En az 2 nicel kaynak (analytics/insights) + 2 nitel kaynak (DM/anket) var mı?",
+              "Veriler tek tabloda toplandı mı? (kanal + içerik + persona notu)",
+              "Segment için minimum kriter belirlendi mi? (pazar/rol/niyet)",
+              "Son 90 gün baz alındı mı? (Varsayım: 90 gün “başlangıç”)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "GA4 ve insights’tan 90 günlük özet alın (top içerikler + en iyi formatlar).",
+              "CRM’den “en değerli lead/rezervasyon profili”ni çıkarın (Varsayım: mümkünse).",
+              "DM/yorumları 5 tema altında etiketleyin (fiyat, güven, süreç, deneyim, itiraz).",
+              "Tek bir “Audience Evidence Sheet” oluşturun."
+            ]
+          },
+          { "type": "media", "slot": "target-audience-pool" }
+        ]
+      },
+      {
+        "id": "persona-nedir",
+        "title": "2) Persona Nedir ve Nasıl Oluşturulur? – “2–4 kart, net kararlar”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Persona, “yaş/şehir” değil; karar sorusu + motivasyon + itiraz + içerik tetikleyici bileşimidir. Bu yüzden 10 persona değil, 2–4 güçlü persona daha değerlidir. Persona sayısı arttıkça takvim karmaşıklaşır; uygulanabilirlik düşer."
+          },
+          { "type": "h3", "text": "Persona nedir, sosyal medya stratejisinde neden önemlidir?" },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Persona, hedef kitlenin karar alma davranışını temsil eden profildir; mesaj, format ve CTA’yı doğru kişi için tasarlamayı sağlar ve içerik planını ölçülebilir hale getirir."
+          },
+          { "type": "h3", "text": "Persona kartı hangi alanları içermeli?" },
+          { "type": "h3", "text": "Persona kartı şablonu (öneri):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Persona adı (kısa): “Aile Tatilcisi”, “MICE Karar Verici”, “GM”, “Pazarlama Müdürü”",
+              "Karar sorusu: “Bu kişi hangi kararı vermeye çalışıyor?”",
+              "Pain point: “Neye takılıyor?”",
+              "İtiraz: “Neye güvenmiyor / neyi risk görüyor?”",
+              "İçerik tetikleyici: “Hangi kanıt/örnek ikna eder?”",
+              "Tercih edilen format: reel, carousel, case, mini rehber",
+              "CTA davranışı: DM, form, telefon, teklif"
+            ]
+          },
+          {"type":"media","slot":"persona-card"},
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Persona kalitesi):",
+            "items": [
+              "Persona sayısı 2–4 aralığında mı?",
+              "Her persona için 1 karar sorusu var mı?",
+              "İtiraz + kanıt çifti yazıldı mı?",
+              "Persona → format/CTA eşleşmesi yapıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 veri sinyali toplayıp 2–4 persona’da birleştirin.",
+              "Persona’ları “rol/niyet” temelli yazın (otel=misafir segmenti + karar verici; B2B=rol).",
+              "Her persona için 1 ana CTA seçin (herkese her şey yok).",
+              "Persona kartlarını takvimde bir sütuna dönüştürün."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "persona-mesaj-format-cta",
+        "title": "3) Farklı Persona’lar İçin Farklı Mesaj ve Formatlar – “Aynı içerik, farklı paket”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Persona-first SMM’de amaç, aynı “değer önerisini” farklı persona’ların diline çevirmektir. Bu; hook, örnek, kanıt ve CTA’nın persona’ya göre değişmesi demektir."
+          },
+          { "type": "h3", "text": "Persona-first SMM modeli (AIO paragrafı)" },
+          {
+            "type": "p",
+            "text": "Persona, hedef kitle, mesaj, format ve CTA birbirine bağlı bir sistemdir: persona karar sorusunu belirler, mesaj o soruya cevap verir, format mesajın en hızlı anlaşılmasını sağlar, CTA ise persona’nın doğal aksiyonuna uyumlanır. Bu nedenle persona kartı, takvimde “konu seçimi” kadar kritik bir planlama değişkenidir."
+          },
+          { "type": "h3", "text": "Mini örnek (aynı konu, farklı persona):" },
+          {
+            "type": "p",
+            "text": "Konu: “Erken rezervasyon avantajı”"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Persona: Aile Tatilcisi → mesaj: çocuk konsepti + güven + fiyat şeffaflığı → format: carousel “paket neler içeriyor?” → CTA: WhatsApp/DM",
+              "Persona: MICE karar verici → mesaj: kapasite + salon + operasyon güveni → format: kısa case + checklist → CTA: teklif/görüşme",
+              "Persona: GM → mesaj: gelir yönetimi + sezon stratejisi → format: mini rapor/scorecard → CTA: analiz talebi"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Mesaj uyumu):",
+            "items": [
+              "Hook persona’nın dilinden mi?",
+              "Kanıt türü persona’ya uygun mu? (yorum, case, metrik, süreç)",
+              "CTA tek ve net mi?",
+              "Format “en hızlı anlaşılan” mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her persona için 3 hook kalıbı yazın (problem, hedef, itiraz).",
+              "Her persona için 1 kanıt formatı belirleyin (UGC, case, checklist, scorecard).",
+              "CTA’yı persona davranışına göre sadeleştirin (DM vs form).",
+              "İçerik üretim brief’ini persona alanıyla standartlaştırın."
+            ]
+          },
+          { "type": "media", "slot": "b2b" }
+        ]
+      },
+      {
+        "id": "otel-b2b-persona-ornekleri",
+        "title": "4) Otel ve B2B Persona Örnekleri – “Saha uyumlu kartlar”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Burada amaç “kopyala-yapıştır persona” değil; kart mantığını göstermek. Örnekleri kendi verinizle doldurduğunuzda gerçek değer oluşur."
+          },
+          {"type":"media","slot":"kpi"},
+          { "type": "h3", "text": "Otel hesabı için örnek persona’lar neler?" },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Oteller için tipik persona’lar; Aile tatilcisi, çift/romantik kaçamak, MICE/kurumsal etkinlik karar vericisi ve “fiyat odaklı karşılaştırıcı” segmentleridir; her biri farklı kanıt ve CTA ister."
+          },
+          { "type": "h3", "text": "Örnek Persona Kartları (kısa):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Aile Tatilcisi (TR/DE pazar – Varsayım): karar sorusu “çocuk konsepti güvenli mi?” → kanıt “UGC + SSS + paket içeriği” → CTA “DM/WhatsApp”",
+              "MICE Karar Verici: karar sorusu “operasyon sorunsuz yürür mü?” → kanıt “case + kapasite tablosu + süreç akışı” → CTA “teklif/görüşme”",
+              "Fiyat Karşılaştırıcı: karar sorusu “en iyi değeri alıyor muyum?” → kanıt “fiyat şeffaflığı + iptal koşulu + avantaj listesi” → CTA “fiyat teklifi / web tıklama”"
+            ]
+          },
+          { "type": "h3", "text": "B2B persona örnekleri:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Pazarlama Müdürü: karar sorusu “KPI’ı nasıl iyileştiririm?” → kanıt “framework + dashboard örneği” → CTA “analiz”",
+              "Ajans yöneticisi: karar sorusu “müşteri brief’i nasıl sistemleşir?” → kanıt “template + süreç” → CTA “şablon indir”",
+              "GM: karar sorusu “dağınık kanal/ajans yapısı nasıl toparlanır?” → kanıt “tek çatı plan + KPI seti” → CTA “görüşme”"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Persona Kartı Örnek Tablosu (Otel + B2B)",
+            "headers": ["Persona", "Karar Sorusu", "Pain Point", "İtiraz", "En iyi format", "CTA"],
+            "rows": [
+              ["Aile Tatilcisi", "Çocuk konsepti güvenli mi?", "Belirsizlik", "Fiyat/koşul", "Carousel + UGC", "DM/WhatsApp"],
+              ["MICE Karar Verici", "Operasyon sorunsuz mu?", "Risk", "Kapasite/süreç", "Case + Checklist", "Teklif/Görüşme"],
+              ["Pazarlama Müdürü (B2B)", "KPI’ı nasıl artırırım?", "Ölçüm eksik", "Ajans güveni", "Framework + Scorecard", "Analiz"],
+              ["Ajans Yöneticisi", "Planı nasıl sistemlerim?", "Dağınık brief", "Zaman", "Template + süreç", "Şablon indir"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Örneklerin uygulanabilirliği):",
+            "items": [
+              "Örnek persona’lar sizin gelir hedefinizle uyumlu mu?",
+              "Her persona için “kanıt” tanımı var mı?",
+              "CTA kanal davranışına uyuyor mu?",
+              "Persona dili içerik diline çevrildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu örnekleri kopyalamayın; kendi DM/CRM verinizle doldurun.",
+              "Otel persona’larını pazar/season parametresiyle güçlendirin.",
+              "B2B persona’larında “rol + KPI” eşleşmesini netleştirin.",
+              "Persona kartlarını 1 sayfalık tabloya çevirin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "takvime-baglama",
+        "title": "5) Persona’ları İçerik Takvimine Bağlamak – “Persona sütunu ile sistem”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Persona sunumda kalırsa sonuç üretmez. Stratejiye gerçek etkisi, takvimde persona değişkeni olarak görünmesiyle başlar. Takvimde her içerik satırında “persona” alanı olduğunda; içerik tonu, örnekler ve CTA otomatik olarak netleşir."
+          },
+          { "type": "h3", "text": "Persona’ları içerik takvimine nasıl işlerim?" },
+          {
+            "type": "p",
+            "text": "Cevap (AEO bloğu): Takvimde her içerik için bir “persona sütunu” ekleyin; içerik pillar’ı, formatı ve CTA’yı persona kartına bağlayın; aylık raporda persona bazında performansı karşılaştırın."
+          },
+          { "type": "h3", "text": "Takvim satırı önerilen kolonlar (özet):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Tarih",
+              "Kanal",
+              "Pillar",
+              "Persona (zorunlu)",
+              "Hook",
+              "Format",
+              "Kanıt türü (UGC/case/checklist)",
+              "CTA (tek)",
+              "Link/UTM (Varsayım: altyapı varsa)",
+              "KPI hedefi"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Key Statistics / Data Point (yumuşatılmış):\nBirçok projede persona çalışması takvime yansıdığında, içerik tonu ve örnekler hedef kitleyle daha iyi rezonans yakaladığı için engagement ve lead kalitesinde artış görülebiliyor (kesin rakam iddiası olmadan)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Takvim bağlamı):",
+            "items": [
+              "Her içerikte persona sütunu dolu mu?",
+              "Persona’ya göre CTA tekleştirildi mi?",
+              "Persona bazlı performans raporu planlandı mı?",
+              "90 günlük revizyon noktası belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Takvime persona sütunu ekleyin (bugün).",
+              "İlk 30 gün persona bazlı baseline çıkarın (Varsayım).",
+              "En iyi 5 içerikte persona ortaklığını analiz edin.",
+              "6 ayda 1 ara revizyon, yılda 1 tam revizyon planlayın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir",
+            "text": "“persona’ları takvime bağlayıp her içerikte doğru mesaj ve CTA’yı sistematikleştirmenizi sağlar”",
+            "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf"
+          },
+          { "type": "media", "slot": "flowchart" }
+        ]
+      },
+     
+      {
+        "id": "download-asset",
+        "title": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir — SMM Persona-First Planlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Persona Kartları & İçerik Eşleştirme Şablonunu İndir — SMM Persona-First Planlama (v1.0)",
+            "purpose": "Bu şablon, hedef kitle verilerini (analytics/CRM/DM/anket) tek tabloda birleştirip 2–4 persona kartına dönüştürmeniz için tasarlanmıştır. Her persona’yı mesaj, format ve CTA ile eşleştirerek içerik takvimine doğrudan bağlar. Otel ve B2B hesaplarda içerik tonu ve dönüşüm kalitesini artırmaya yardımcı olur.",
+            "whoFor": "Otel satış-pazarlama ekibi, GM, B2B pazarlama müdürü veya ajans strateji ekibi.",
+            "steps": [
+              "Veri sinyallerini tabloya girin (GA4/insights/CRM/DM/anket).",
+              "2–4 persona kartını doldurun (karar sorusu, itiraz, kanıt, CTA).",
+              "Takvimde persona sütununu aktif edin ve persona bazlı performansı raporlayın."
+            ],
+            "checklist": [
+              "Audience Evidence Sheet tek tabloda",
+              "2–4 persona kartı dolu",
+              "Persona→mesaj/format/CTA matrisi hazır",
+              "Takvimde persona sütunu aktif",
+              "Aylık persona bazlı performans kıyası planlı"
+            ],
+            "href": "/downloads/persona-kartlari-icerik-eslestirme-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          { "type": "media", "slot": "checklist-06" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Persona nedir, sosyal medya stratejisinde neden önemlidir?",
+        "a": "Persona, hedef kitlenin karar alma davranışını temsil eder; mesaj, format ve CTA’yı doğru kişiye göre tasarlamayı sağlar. Stratejiyi “varsayım” olmaktan çıkarıp ölçülebilir hale getirir."
+      },
+      {
+        "q": "Hedef kitle verilerini nereden toplamalıyım?",
+        "a": "GA4/analytics ve platform insights nicel sinyali verir; CRM/rezervasyon/lead verisi kaliteyi gösterir. DM/yorum ve mini anketler motivasyon ve itirazları ortaya çıkarır; birlikte kullanıldığında persona netleşir."
+      },
+      {
+        "q": "Otel hesabı için örnek persona’lar neler?",
+        "a": "Aile tatilcisi, çift/romantik segment, MICE karar verici ve fiyat karşılaştırıcı gibi persona’lar sık görülür. Her biri farklı kanıt türü ve CTA ister."
+      },
+      {
+        "q": "Persona’ları içerik takvimine nasıl işlerim?",
+        "a": "Takvimde “persona sütunu” ekleyin; her içerik satırında persona’yı seçip mesaj/format/CTA’yı persona kartına bağlayın. Aylık raporda persona bazlı performansı kıyaslayın."
+      },
+      {
+        "q": "Kaç persona ile başlamalıyım?",
+        "a": "2–4 ana persona idealdir. Fazla persona takvim karmaşıklığını artırır ve uygulanabilirliği düşürür."
+      },
+      {
+        "q": "Persona çalışması ne sıklıkla güncellenmeli?",
+        "a": "En az yılda 1 kez revize edilmeli; ideal olarak 6 ayda 1 ara kontrol yapılmalıdır. Pazar ve hedef kitle değiştikçe persona kartları güncellenir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-divider-03.webp",
+          "divider-04 — 1600×1200 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi-proof-08.webp",
+          "table-persona-card-examples — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Persona sayısı 2–4 aralığında tutuldu",
+          "Takvimde persona sütunu zorunlu alan olarak planlandı",
+          "Persona→mesaj/format/CTA eşleşmesi çıkarıldı",
+          "Aylık persona bazlı performans raporu kurgulandı",
+          "6 ay ara kontrol + yılda 1 tam revizyon planı tanımlandı"
+        ]
+      }
+    }
+  },
+
+   "BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi": {
+    "title": "Rol Tabanlı Yetkilendirme ve Kullanıcı Yönetimi: CMS Panelinde Güvenlik Mimarisi",
+    "slug": "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi",
+    "department": "yazilim",
+    "updatedAt": "20 Ocak 2026",
+    "publishedAt": "2026-01-20",
+    "readingTime": "12 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "CMS panelinde RBAC, onay akışı ve aktivite logları ile fiyat/kampanya ve KVKK risklerini azaltın. Otel & B2B için rol–yetki mimarisi kurun. Analiz talep edin.",
+    "seo": {
+      "metaTitle": "CMS Paneli RBAC ve Kullanıcı Yönetimi Rehberi | DGTLFACE",
+      "metaDescription": "CMS panelinde RBAC, onay akışı ve aktivite logları ile fiyat/kampanya ve KVKK risklerini azaltın. Otel & B2B için rol–yetki mimarisi kurun. Analiz talep edin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Yazılım",
+        "Sayfa (Hub) / URL: CMS & Panel Entegrasyonu — /tr/yazilim/cms-entegrasyonu",
+        "Blog / URL: /tr/yazilim/blog/rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/yazilim/blog/rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi"
+      ],
+      "strategySummary": "Bu blog, “CMS & Panel Entegrasyonu” sayfasını besleyen otorite taşıyan core güvenlik rehberi rolündedir ve “panelde herkes her şeyi değiştirebiliyor” problemini stratejik çerçeveye oturtur. Hedef persona; otel ve B2B kurumsal web projelerinde karar veren GM/owner, satış-pazarlama lideri ve ajans yöneticisi kadar, IT ve ürün sahibini de kapsar. Funnel açısından consideration (MoFu) ağırlıklıdır: doğru RBAC, onay ve loglama mimarisi ile riskleri azaltıp operasyonu sürdürülebilir hale getirme kararını kolaylaştırır. Ana iş sorusu: “Rol tabanlı yetkilendirme + onay akışı + aktivite loglarıyla; fiyat/kampanya ve KVKK kritik alanlarını nasıl güvenceye alırım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-20",
+      "readingTime": "12 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "CMS panel güvenliği, yalnız “login” değil; kim, neyi, ne zaman, hangi onayla değiştirebilir sorusunun cevabıdır. Rol tabanlı yetkilendirme (RBAC) ile Admin/Editor/Yazar/Görüntüleme gibi rolleri netleştirir, fiyat ve kampanya gibi kritik alanlara erişimi sınırlandırırsınız. Onay akışı (controlled publishing) yanlış yayını önler; aktivite logları da “kim neyi değiştirdi?” sorusunu hızla yanıtlayıp kriz yönetimini kolaylaştırır.",
+      "sgeSummary": "RBAC ile rol–yetki matrisini kur, kritik alanları (fiyat/kampanya/KVKK) ayrı izinlerle koru. Onay akışıyla kontrollü yayın yap; aktivite loglarıyla tüm değişiklikleri izlenebilir hale getir.",
+      "voiceAnswer": "Panelde sınır koymak için RBAC kurun, kritik alanları kilitleyin, yayınları onaya bağlayın ve log tutun.",
+      "aiFactSheet": [
+        "Hedef kitle: Çok kullanıcılı otel ve B2B CMS panelleri; IT + içerik + pazarlama ekipleri",
+        "Ana KPI: Yanlış yayın sayısı, kritik alan değişiklik sayısı, geri dönüş süresi, erişim ihlali riski",
+        "Entity’ler: CMS RBAC, Roles & Permissions, Approval Workflow, Activity Logging, Controlled Publishing",
+        "GEO: Türkiye geneli; Antalya/Belek/Side/Kemer/Bodrum gibi destinasyonlu otel operasyonları örneklendirilebilir",
+        "Funnel: MoFu (Informational + Strategic) → güvenli panel mimarisi → hizmet talebi",
+        "Risk odağı: fiyat/kampanya alanları, kişisel veri içeren alanlar (KVKK), içerik bütünlüğü",
+        "Fark yaratan açı: “Panel” anlatımı değil; governance + audit + approval + incident-ready yapı"
+      ]
+    },
+    "h1": {
+      "title": "Rol Tabanlı Yetkilendirme ve Kullanıcı Yönetimi: CMS Panelinde Güvenlik Mimarisi",
+      "intro": "Bir CMS paneli, yayınlanan içerik kadar içerik üzerinde kimlerin ne yapabildiğiyle tanımlanır. Otel sitelerinde fiyat/kampanya gibi alanlar, B2B projelerde hizmet/ürün sayfaları ve case içerikleri; yanlış bir tıklamayla gelir kaybına, itibar zedelenmesine veya KVKK risklerine dönüşebilir. Bu yüzden “tek admin şifresi” veya “herkes editor” yaklaşımı, büyüyen ekiplerde kaçınılmaz olarak kaos üretir. Çözüm; RBAC (roles & permissions), onay akışı (controlled publishing) ve aktivite logları (activity logging) ile kurulmuş, izlenebilir bir panel güvenlik mimarisidir.",
+      "quickSummary": [
+        "RBAC ile rol–yetki matrisini çıkar ve aksiyonları ayır (view/edit/publish/delete/user management)",
+        "Kritik alanları (fiyat/kampanya/KVKK) field-level permission ile koru",
+        "Controlled publishing ile draft→review→publish akışını zorunlu kıl",
+        "Kritik değişikliklerde ikinci onay uygula (Finance/Compliance)",
+        "Activity logging + alarm ile incident-ready bir panel oluştur"
+      ],
+      "miniCheck": "“Kim neyi değiştirdi?” sorusuna birkaç dakika içinde cevap veremiyorsanız, paneliniz incident’e hazır değildir.",
+      "ctaPrimary": {
+        "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
+        "text": "Çok kullanıcılı otel ve B2B CMS panellerinde rol–yetki, onay ve loglama mimarisini netleştirip kritik alanları güvenceye almanız için.",
+        "href": "/yazilim/cms-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
+        "text": "Rol–yetki matrisi, onay akışı ve loglama politikasını otel ve B2B ekibiniz için netleştirin.",
+        "href": "/yazilim/cms-entegrasyonu"
+      },
+      "secondary": {
+        "label": "CMS RBAC & Onay Akışı Tasarım Şablonunu İndir",
+        "text": "Rol matrisini ve yayın akışını hızlıca tasarlayıp kritik alanları (fiyat/kampanya/KVKK) korumaya almanızı sağlar.",
+        "href": "/downloads/cms-rbac-onay-akisi-tasarim-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "CMS & Panel Entegrasyonu", "href": "/yazilim/cms-entegrasyonu" },
+      { "label": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" },
+      { "label": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "label": "KVKK Veri Güvenliği", "href": "/raporlama/kvkk-veri-guvenligi" }
+    ],
+    "relatedPosts": [
+      { "title": "CMS & Panel Entegrasyonu", "href": "/yazilim/cms-entegrasyonu" },
+      { "title": "KVKK Uyum Hizmeti", "href": "/yazilim/kvkk-uyum-hizmeti" },
+      { "title": "Web Sitesi Geliştirme", "href": "/yazilim/web-sitesi-gelistirme" }
+    ],
+    "sections": [
+      {
+        "id": "rbac-nedir",
+        "title": "Rol Tabanlı Erişim (RBAC) Nedir?",
+        "preBlocks":[{"type":"media","slot":"rbac-approval-workflow"}],
+        "blocks": [
+          {
+            "type": "p",
+            "text": "RBAC (Role-Based Access Control), kullanıcıları tek tek izinlerle boğmak yerine onları roller altında toplar ve her role net yetki sınırları tanımlar. Bu yaklaşımın amacı “yasaklamak” değil; en az ayrıcalık (least privilege) ve görev ayrılığı (separation of duties) ilkeleriyle hatayı ve suistimali azaltmaktır. Örneğin bir otelde kampanya metnini pazarlama ekibi güncelleyebilir; ama kampanya fiyatı alanı yalnızca “Revenue/Finance” rolüyle değiştirilebilir ve yayın mutlaka onaydan geçer."
+          },
+          {
+            "type": "p",
+            "text": "RBAC’in pratikte iyi çalışması için iki şart kritiktir:\n1. Rollerin iş tanımına göre belirlenmesi (organizasyon haritası),\n2. Yetkilerin içerik tipi + alan seviyesi + aksiyon seviyesi (görüntüle/düzenle/yayınla/sil) olarak tasarlanması."
+          },
+          { "type": "h3", "text": "RBAC nedir, CMS panelinde nasıl kurulur? (AEO – Soru formatı)" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Önce rollerinizi çıkarın, sonra her rol için “görebilir / düzenleyebilir / yayınlayabilir / silebilir” aksiyonlarını belirleyin; kritik alanları (fiyat, kampanya, KVKK) ayrı izinlerle kilitleyin ve yayınları onaya bağlayın.\n• RBAC yalnız “sayfaya erişim” değildir; çoğu projede asıl risk alan (field) düzeyinden gelir.\n• “Yayınlama” (publish) yetkisi, “düzenleme” yetkisinden ayrı tasarlanmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "“Edit” yetkisi olan herkes “Publish” da yapabiliyor mu? (Risk)",
+              "Fiyat/kampanya alanları için ayrı izin var mı?",
+              "KVKK içeren alanlara erişim sınırlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Roller listesini organizasyona göre çıkar (IT, içerik, pazarlama, satış, revenue/finance).",
+              "Aksiyonları ayır: view / edit / publish / delete / manage users.",
+              "Kritik alanları “field-level permission” ile kilitle.",
+              "Publish’i onaya bağla; acil durum prosedürü tanımla.",
+              "Rolleri yılda en az 1 kez (365) gözden geçir."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kullanici-tipleri",
+        "title": "CMS Kullanıcı Tipleri (Admin, Editor, Yazar, Sadece Görüntüleme vb.)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok projede hata, “rol sayısı az olsun” diye tüm kullanıcıları Editor yapmaktan çıkar. Oysa küçük gibi görünen rol ayrımları, hem güvenliği hem editoryal hızı artırır. Buradaki hedef; karmaşık bir “kurumsal IAM” kurmak değil, doğru minimum rol seti ile kontrolü netleştirmektir."
+          },
+          { "type": "media", "slot": "divider-03" },
+          { "type": "h3", "text": "Önerilen temel roller (çekirdek set)" },
+          {
+            "type": "p",
+            "text": "Aşağıdaki set, Türkiye geneli otel ve B2B projelerinde çoğu ekibi kapsar:"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Admin (Sistem): kullanıcı yönetimi, rol/izin yönetimi, sistem ayarları",
+              "Content Admin / Publisher: yayın takvimi, onay, publish/unpublish",
+              "Editor: içerik düzenleme, medya ekleme, taslak yönetimi",
+              "Author (Yazar): içerik üretimi, taslak oluşturma (publish yok)",
+              "Reviewer (Onaycı): inceleme, yorum, onay/red (edit sınırlı)",
+              "Viewer (Sadece görüntüleme): raporlama/denetim amaçlı erişim",
+              "Revenue/Finance (Otel): fiyat/oda/paket kritik alanları (dar kapsam)",
+              "Compliance/Legal (KVKK): kişisel veri içeren alanlar, izin denetimi (dar kapsam)"
+            ]
+          },
+          { "type": "h3", "text": "Rol–yetki matrisi (örnek tablo – uygulamaya dönük)" },
+          {
+            "type": "p",
+            "text": "Not: Bu tablo, “RBAC rol–yetki matrisi” media önerisiyle uyumludur."
+          },
+          {
+            "type": "table",
+            "caption": "RBAC Rol–Yetki Matrisi (Örnek)",
+            "headers": [
+              "Aksiyon / Alan",
+              "Admin",
+              "Publisher",
+              "Editor",
+              "Author",
+              "Reviewer",
+              "Revenue/Finance",
+              "Viewer"
+            ],
+            "rows": [
+              ["Kullanıcı/Rol yönetimi", "✅", "❌", "❌", "❌", "❌", "❌", "❌"],
+              ["İçerik düzenleme", "✅", "✅", "✅", "✅", "⚠️ (yorum)", "⚠️ (kendi alanı)", "❌"],
+              ["Yayınla / yayından al", "✅", "✅", "❌", "❌", "❌", "❌", "❌"],
+              ["Fiyat alanı değişikliği", "✅", "⚠️ (onay)", "❌", "❌", "❌", "✅", "❌"],
+              ["Kampanya koşulu/CTA", "✅", "✅", "✅", "⚠️ (taslak)", "❌", "⚠️ (fiyat hariç)", "❌"],
+              ["Log görüntüleme", "✅", "✅", "✅", "❌", "✅", "✅", "✅"],
+              ["Silme (delete)", "⚠️ (kısıtlı)", "⚠️ (kısıtlı)", "❌", "❌", "❌", "❌", "❌"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "“Delete” yetkisi sadece Admin’de mi?",
+              "Revenue/Finance rolü alan bazlı mı? (oda/paket fiyatı)",
+              "Viewer rolü audit ve rapor için yeterli mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Editor herkes” yaklaşımını bırak; publish ve user management’ı ayır.",
+              "Gelir etkileyen alanlara özel rol/izin tanımla (fiyat, kampanya).",
+              "KVKK alanlarına erişimi daralt; viewer rolünü denetim için kullan.",
+              "Silme işlemlerini kısıtla ve ikinci onaya bağla.",
+              "Rolleri “sahip” yerine “iş” üzerinden tanımla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "controlled-publishing",
+        "title": "İçerik Onay Süreçleri (Controlled Publishing)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "RBAC tek başına yetmez; çünkü çoğu hatanın kaynağı “yetkisiz erişim” değil, hız baskısı altında yanlış yayındır. Controlled publishing; taslak–inceleme–onay–yayın zincirini netleştirerek bu riski düşürür. Özellikle otellerde Antalya, Belek, Side, Kemer, Bodrum gibi destinasyon sezonlarında kampanya içerikleri hızlı güncellenir; bu dönemlerde “acil yayın” ihtiyaçları artar. İyi bir onay akışı; hız ile güvenliği aynı anda yönetir."
+          },
+          { "type": "media", "slot": "diagram-05" },
+          { "type": "h3", "text": "Minimum uygulanabilir onay akışı (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Author/Editor: taslak oluşturur → “Review” durumuna gönderir",
+              "Reviewer: içerik + SEO + risk kontrolü yapar → onaylar / reddeder",
+              "Publisher: yayınlar (ve gerekiyorsa planlar)",
+              "Revenue/Finance: fiyat/kampanya alanı değiştiyse “zorunlu ek onay”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Kritik yaklaşım: “Yayın” yetkisi tek bir rolde toplandığında, hatanın üretime çıkma olasılığı ciddi düşer."
+          },
+          { "type": "h3", "text": "Canlıya yayın/onay süreci nasıl tasarlanmalı? (AEO – Soru formatı)" },
+          {
+            "type": "p",
+            "text": "Kısa cevap: Publish yetkisini sınırlayın, taslak→review→publish adımlarını zorunlu kılın ve fiyat/kampanya gibi kritik değişikliklerde ikinci onay ekleyin.\n• “Acil değişiklik” için ayrı prosedür tanımlayın: kim, hangi koşulda, hangi süreyle publish yapabilir?\n• Her onay adımı bir log kaydı üretmelidir (kim onayladı, hangi sürüm)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Publish tek bir rolde mi?",
+              "Fiyat/kampanya değişikliklerinde ikinci onay var mı?",
+              "Acil yayın prosedürü yazılı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Draft/Review/Approved/Published durumlarını standartlaştır.",
+              "Publish rolünü sınırla; planlı yayın ve geri alma (rollback) ekle.",
+              "Kritik alan değişikliklerinde zorunlu ikinci onay uygula.",
+              "“Acil yayın” için zaman sınırlı yetki ver (ör. geçici publish).",
+              "Onay adımlarını log ve bildirimle görünür kıl."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "activity-logging",
+        "title": "Loglama ve Aktivite Takibi (Activity Logging)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Loglar; “güzel bir rapor” değil, kanıt zinciridir. Bir kriz anında en kritik soru şudur: Kim, neyi, ne zaman değiştirdi? RBAC ve loglama kurgusu olan panellerde bu soruya dakikalar yerine saniyeler içinde cevap bulabilirsiniz; bu da hem kriz yönetimini hem geri dönüş (rollback) sürecini hızlandırır. Özellikle otel tarafında fiyat/kampanya hatası gelir kaybına dönüşebileceği için, loglar bir “IT detayı” değil, doğrudan “iş güvenliği”dir."
+          },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "h3", "text": "Loglarda ne tutulmalı? (minimum set)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kim: kullanıcı id, rol, IP / cihaz (uygunsa)",
+              "Ne: içerik tipi, içerik id, alan adı (field), eski/yeni değer (maskelenmiş)",
+              "Ne zaman: timestamp, timezone",
+              "Nasıl: aksiyon türü (edit/publish/unpublish/delete/login)",
+              "Bağlam: ilgili onay adımı, ticket/issue referansı (varsa)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "KVKK notu: Kişisel veri içeren alanlarda “eski/yeni değer” logu maskeleme/özetleme ile tutulmalı; ham veri loglamak risk yaratabilir."
+          },
+          { "type": "h3", "text": "Login güvenliği, IP/2FA ve log korelasyonu" },
+          {
+            "type": "p",
+            "text": "“Panel güvenliği” çoğu zaman login tarafında başlar:\n• 2FA zorunluluğu (en az publisher/admin)\n• IP allowlist (IT/VPN üzerinden erişim)\n• SSO (kurumsal)\n• Oturum yönetimi (timeout, cihaz tanıma)\n\nBu kontrol katmanı ile loglar birleştiğinde, şüpheli davranışları daha hızlı yakalarsınız: örneğin gece saatinde farklı IP’den seri publish işlemleri, anomali alarmı üretebilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Admin/Publisher için 2FA zorunlu mu?",
+              "Loglar en az 90–365 gün saklanıyor mu? (ihtiyaca göre)",
+              "Kritik alan değişikliklerinde otomatik bildirim var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "“Login / edit / publish / delete” loglarını ayrı kategoriyle tut.",
+              "Field-level logu kritik alanlarda zorunlu yap (fiyat, kampanya).",
+              "Log retention politikasını belirle (365 gün önerisi; ihtiyaca göre).",
+              "Anomali kuralları ekle (çoklu publish, farklı IP, gece saatleri).",
+              "KVKK alanlarında log maskeleme ve erişim kısıtı uygula."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otel-b2b-ornekleri",
+        "title": "Otel ve B2B İçin Güvenli Panel Mimari Örnekleri",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Güvenli panel mimarisi, “her projede aynı” değildir; çünkü otel ile B2B’de risk alanları farklıdır. Otelde gelir etkileyen alanlar (fiyat/kampanya/oda müsaitliği) ve sezon baskısı öne çıkar; B2B’de ise hizmet sayfaları, referans/case içerikleri ve marka itibarı odaklı yayınlar öne çıkar. Yine de ortak çatı; governance + controlled publishing + audit logs yaklaşımıdır."
+          },
+          { "type": "media", "slot": "divider-04" },
+          { "type": "h3", "text": "Otel senaryosu: fiyat/kampanya alanı nasıl korunmalı?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Kampanya metni: pazarlama ekibi taslaklar, reviewer kontrol eder",
+              "Kampanya fiyatı: yalnız Revenue/Finance düzenler",
+              "Yayın: Publisher yapar",
+              "Değişiklik sonrası: otomatik log + bildirim (IT + revenue)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek: Side’de bir erken rezervasyon kampanyasında “%15 indirim” metni yanlışlıkla “%51” olursa, loglar ve onay akışı hatayı hızla geri almanızı sağlar; ayrıca sorumluluğu netleştirir."
+          },
+          { "type": "h3", "text": "B2B senaryosu: hizmet sayfaları ve case içerikleri" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Service sayfası: editor düzenler, reviewer doğrular (vaat/uyum kontrolü)",
+              "Case study: kanıtlar (KPI) ve izinler kontrol edilir",
+              "Yayın: publisher yapar, değişiklikler versiyonlanır"
+            ]
+          },
+          { "type": "h3", "text": "KVKK odaklı alanlar ve erişim kısıtları (Technical SEO + uyum notu)" },
+          {
+            "type": "p",
+            "text": "Panelde kişisel veriye temas eden alanlar (form kayıtları, CRM senkronları, müşteri notları) varsa erişim kısıtları doğru tanımlanmalıdır. RBAC kurgusunun /tr/yazilim/kvkk-uyum-hizmeti ve veri güvenliği yaklaşımının /tr/raporlama/kvkk-veri-guvenligi ile uyumlu ilerlemesi önemlidir."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bağlantı: /tr/yazilim/kvkk-uyum-hizmeti",
+              "Bağlantı: /tr/raporlama/kvkk-veri-guvenligi",
+              "Bağlantı: /tr/yazilim/web-sitesi-gelistirme"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Otelde fiyat alanı ayrı rolde mi?",
+              "B2B’de case içerikleri onaydan geçiyor mu?",
+              "KVKK alanlarına erişim ve log görüntüleme sınırlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Otel için revenue/finance rolünü alan bazlı kurgula.",
+              "B2B’de “vaat ve kanıt” kontrolünü reviewer adımına ekle.",
+              "KVKK alanlarını ayrı permission ile koru; loglara erişimi sınırla.",
+              "Yayın sonrası geri alma (rollback) prosedürü yaz.",
+              "Ekip büyüdükçe rol matrisini güncelle (365 gün döngü)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "governance-incident-ready",
+        "title": "(Fark Yaratan Mini Bölüm) Rakip Açığını Kapat: Governance + Incident-Ready Panel",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok rakip içerik “RBAC var” deyip geçer; ama gerçek hayatta kayıp, governance eksikliğinden gelir: rol matrisi dokümante değildir, onay adımları esnetilir, loglar izlenmez. Rol tabanlı mimarisi olmayan CMS kurulumlarında yanlış içerik yayınlama ve fiyat/kampanya hataları; ciddi gelir ve itibar kaybına dönüşebilir. Bu yüzden panelinizi “incident-ready” düşünün: alarm, geri alma, kanıt zinciri ve sorumluluklar net olmalı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check:",
+            "items": [
+              "Kritik değişikliklerde bildirim ve alarm var mı?",
+              "Yayın geri alma süreci 1–2 adım mı?",
+              "Denetim için Viewer rolü aktif mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? ",
+            "items": [
+              "Rol–yetki matrisini dokümante et ve ekiplerle paylaş.",
+              "Onay akışını “istisna” değil “standart” yap.",
+              "Logları düzenli incele; anomali kuralları tanımla.",
+              "Kritik alanlar için değişiklik sonrası otomatik bildirim kur.",
+              "Yıllık (365) güvenlik review ve rol güncelleme takvimi oluştur."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Güvenli panel, hızlı ekip demektir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "RBAC, onay akışı ve loglama; yalnız güvenlik değil, aynı zamanda operasyonel hız sağlar. Çünkü doğru sınırlar konduğunda içerik ekibi korkmadan üretir, IT ekipleri kriz yerine iyileştirmeye odaklanır ve yönetim “kim yaptı?” sorusuna net yanıt alır. Türkiye genelinde çok kullanıcılı otel ve B2B projelerinde bu üçlü; paneli kaostan çıkarıp kontrollü büyümeye taşır."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "CMS Rol & Yetki Yapısı Analizi Talep Et",
+            "text": "Rol matrisinizi, onay akışınızı ve loglama politikalarınızı kritik alanları (fiyat/kampanya/KVKK) koruyacak şekilde birlikte tasarlayalım.",
+            "href": "/yazilim/cms-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "download-asset",
+        "title": "CMS RBAC & Onay Akışı Tasarım Şablonu (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "CMS RBAC & Onay Akışı Tasarım Şablonunu İndir — Yazılım / CMS güvenlik mimarisi (v1.0)",
+            "purpose": "Bu şablon, CMS panelinizde RBAC rol–yetki matrisini ve controlled publishing (onay akışı) kurgusunu hızlıca tasarlamanıza yardımcı olur. Otel projelerinde fiyat/kampanya alanlarını, B2B projelerinde hizmet/case içeriklerini güvenli şekilde yönetmek için “kim, neyi, hangi onayla yapar” sorusunu netleştirir.",
+            "whoFor": "IT lideri, ürün sahibi, içerik lideri, pazarlama/revenue yöneticisi ve ajans proje yöneticisi.",
+            "steps": [
+              "Roller ve içerik tiplerini doldurun (mevcut ekip yapınıza göre).",
+              "Yetkileri aksiyon + alan seviyesinde işaretleyin (view/edit/publish/delete).",
+              "Onay akışını seçin (standart + kritik alan ek onayı) ve log/uyarı kurallarını ekleyin."
+            ],
+            "template": {
+              "organizasyonVeRoller": [
+                "Proje: __________",
+                "Ekipler: IT / İçerik / Pazarlama / Revenue-Finance / Compliance (KVKK) / Diğer: __________",
+                "Roller (liste):",
+                "Admin: __________",
+                "Publisher: __________",
+                "Editor: __________",
+                "Author: __________",
+                "Reviewer: __________",
+                "Revenue/Finance: __________",
+                "Viewer: __________"
+              ],
+              "icerikTipleri": [
+                "Page / Blog / Campaign / Room / Package / Service / Case Study / FAQ / Diğer: __________"
+              ],
+              "rolYetkiMatrisi": [
+                "Aksiyonlar: [ ] View  [ ] Edit  [ ] Submit to review  [ ] Approve/Reject  [ ] Publish/Unpublish  [ ] Delete  [ ] Manage users",
+                "Kritik alanlar:",
+                "Fiyat alanı  [ ] Kampanya koşulları  [ ] KVKK alanları  [ ] Ödeme/rezervasyon bağlantıları"
+              ],
+              "onayAkisi": [
+                "Standart akış: Draft → Review → Approved → Published",
+                "Kritik değişiklik akışı (fiyat/kampanya/KVKK): Draft → Review → Finance/Compliance Onayı → Approved → Published",
+                "Acil yayın prosedürü: Kim? ________ Süre? ________ Sonradan onay? ________"
+              ],
+              "loglamaVeAlarm": [
+                "Tutulacak loglar: login / edit / publish / delete / role change",
+                "Alarm:",
+                "Farklı IP + seri publish",
+                "Gece saatleri publish",
+                "Kritik alan değişikliği (fiyat/kampanya/KVKK)",
+                "Retention: ________ gün (Varsayım: 365)"
+              ],
+              "kurallar": [
+                "Publish yetkisini minimumda tutun; “edit” ile karıştırmayın.",
+                "Kritik alanları (fiyat/kampanya/KVKK) mutlaka ayrı izinle koruyun.",
+                "Delete yetkisini kısıtlayın; mümkünse ikinci onaya bağlayın.",
+                "Onay akışında “istisna”ları yazın (acil yayın).",
+                "Logları denetim için erişilebilir, KVKK için maskeli tutun."
+              ],
+              "kisaOrnek": [
+                "Editor: Blog yazısını düzenler, review’a gönderir (publish yok)",
+                "Reviewer: içerik/SEO kontrolü yapar, onaylar",
+                "Publisher: yayınlar",
+                "Finance: kampanya fiyatı değiştiyse ek onay verir"
+              ],
+              "kontrolListesi": [
+                "Rol matrisi dokümante edildi",
+                "Publish yetkisi sınırlandı",
+                "Kritik alanlar ayrı izinlerle korundu",
+                "Onay akışı ve acil prosedür yazıldı",
+                "Log + alarm + retention politikası belirlendi"
+              ],
+              "deliverables": [
+                "RBAC rol–yetki matrisi dokümanı",
+                "Onay akışı diyagramı",
+                "Log ve alarm kuralları dokümanı"
+              ]
+            },
+            "href": "/downloads/cms-rbac-onay-akisi-tasarim-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          { "type": "media", "slot": "checklist-06" },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "RBAC nedir, CMS panelinde nasıl kurulur?",
+        "a": "RBAC, kullanıcıları rollere ayırıp her role net izinler tanımlama yaklaşımıdır. CMS’de önce rollerinizi çıkarın, sonra view/edit/publish/delete aksiyonlarını belirleyin; kritik alanları ayrı izinle koruyup yayınları onaya bağlayın."
+      },
+      {
+        "q": "Hangi roller hangi yetkilere sahip olmalı?",
+        "a": "Admin kullanıcı/rol yönetimini tutmalı; Publisher yayınlama yapmalı; Editor içerik düzenlemeli; Author taslak üretmeli; Reviewer onaylamalı; Viewer sadece denetim amaçlı görmeli. Gelir etkileyen alanlar için (fiyat) ayrı “Finance/Revenue” rolü önerilir."
+      },
+      {
+        "q": "Otel ve B2B sitelerinde fiyat ve kampanya alanlarını kim yönetmeli?",
+        "a": "Otelde fiyat alanları Revenue/Finance rolünde olmalı ve yayın öncesi ek onay gerektirmelidir. Kampanya metinleri pazarlama tarafından hazırlanabilir; ancak fiyat/koşul alanları kontrol altında tutulmalıdır. B2B’de ise hizmet/case sayfalarında vaat ve kanıt kontrolü reviewer adımına eklenmelidir."
+      },
+      {
+        "q": "CMS kullanıcı aksiyonlarını nasıl loglamalıyım?",
+        "a": "Login, edit, publish, delete ve rol değişikliği gibi aksiyonlar mutlaka loglanmalıdır. Kritik alan değişikliklerinde field-level kayıt (maskeli) tutulmalı; kim/ne/zaman bağlamı net olmalı ve gerektiğinde alarm üretmelidir."
+      },
+      {
+        "q": "Panelde herkes her şeyi değiştirebiliyor, nasıl sınırlarım?",
+        "a": "Publish yetkisini sınırlayıp taslak–review–publish akışı kurun. Kritik alanları ayrı izinle kilitleyin ve ikinci onay ekleyin. Böylece içerik üretimi devam ederken riskli değişiklikler kontrol altında kalır."
+      },
+      {
+        "q": "Onay akışı hızlı çalışmazsa ekip yavaşlamaz mı?",
+        "a": "Doğru tasarlanmış onay akışı yavaşlatmaz; hatayı azaltıp geri dönüş ihtiyacını düşürür. “Acil yayın” için zaman sınırlı istisna prosedürü tanımlarsanız hız ve kontrol birlikte yürür."
+      },
+      {
+        "q": "KVKK açısından panelde nelere dikkat etmeliyim?",
+        "a": "Kişisel veri içeren alanlara erişimi rol bazında daraltın ve loglarda ham veri tutmaktan kaçının (maskeleme/özet). Ayrıca loglara erişimi de sınırlayarak “denetim” ile “veri erişimi”ni birbirinden ayırın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-hero-01.webp",
+          "h1-context-02 — 1920×1080 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-h1-context-02.webp",
+          "divider-03 — 1600×1200 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-divider-03.webp",
+          "divider-04 — 1600×1200 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-divider-04.webp",
+          "diagram-05 — 1920×1080 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-diagram-05.webp",
+          "checklist-06 — 1200×1200 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-checklist-06.webp",
+          "kpi-07 — 1200×1200 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-kpi-07.webp",
+          "proof-08 — 1200×1200 — rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi-proof-08.webp",
+          "table-rbac-role-permission-matrix — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "RBAC aksiyonları view/edit/publish/delete/user management olarak ayrıldı",
+          "Kritik alanlar (fiyat/kampanya/KVKK) field-level permission ile tanımlandı",
+          "Controlled publishing akışı draft→review→publish olarak standartlaştırıldı",
+          "Kritik değişikliklerde ikinci onay (Finance/Compliance) kurgulandı",
+          "Activity logging + alarm + retention (365 gün öneri) belirlendi"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelMobileFirstUIUXRehberi": {
+    "title": "Otel Mobile-First UX: Rezervasyon ve CWV Rehberi",
+    "slug": "otel-mobile-first-ui-ux-rehberi",
+    "department": "creative",
+    "updatedAt": "20 Ocak 2026",
+    "publishedAt": "2026-01-20",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Mobile-first otel UX ile mobil rezervasyonu kolaylaştırın: thumb-zone CTA, sticky rezervasyon barı, kısa form ve Core Web Vitals (LCP/CLS/INP) odaklı hız iyileştirmeleri.",
+    "seo": {
+      "metaTitle": "Otel Mobile-First UX: Rezervasyon ve CWV Rehberi | DGTLFACE",
+      "metaDescription": "Mobile-first otel UX ile mobil rezervasyonu kolaylaştırın: thumb-zone CTA, sticky rezervasyon barı, kısa form ve Core Web Vitals (LCP/CLS/INP) odaklı hız iyileştirmeleri."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Creative",
+        "Sayfa Adı / Kodu: UI & UX Tasarımı (creative-2)",
+        "Sayfa URL: https://dgtlface.com/tr/creative/ui-ux-tasarim",
+        "Blog Tipi / No: Core / 2",
+        "Blog URL: https://dgtlface.com/tr/creative/blog/otel-mobile-first-ui-ux-rehberi",
+        "Blog Başlık / H1: Otel Web Siteleri İçin Mobile-First UI/UX Rehberi",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/creative/blog/otel-mobile-first-ui-ux-rehberi"
+      ],
+      "strategySummary": "Bu içerik, Creative/UI-UX silo’sunda “mobile-first otel UX” başlığını otorite düzeyinde sahiplenerek; teknik (Core Web Vitals) ile dönüşüm (Reservation Funnel) arasındaki köprüyü kuran hub rolü oynar. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; karar sorusu net: “Mobilde rezervasyonu hızlandırıp dönüşümü nasıl artırırım, bunu CWV ile nasıl ölçerim?” Funnel aşaması consideration → conversion; çünkü içerik hem pratik uygulama adımları verir hem de “analiz talebi / mini rapor” CTA’larıyla hizmet talebine bağlanır. Refresh Cycle 365 olduğundan, CWV metrikleri ve best-practice’ler yılda bir kez gözden geçirilecek şekilde konumlandırılır."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-20",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Mobile-first yaklaşım, otel web sitelerinde trafiğin büyük kısmını oluşturan mobil kullanıcıların rezervasyon sürecini sürtünmesiz hale getirir. Basitleştirilmiş navigasyon, tek elle erişilebilen CTA’lar (thumb zone), sticky rezervasyon barı, kısa formlar ve hızlı yüklenen sayfalar dönüşümü destekler. Bu rehber; mobil oda listesi–detay farklarını, ödeme deneyimini ve Core Web Vitals (LCP/CLS/INP) ile UX–dönüşüm ilişkisini otel özelinde pratik örneklerle anlatır.",
+      "sgeSummary": "Otel sitesinde mobile-first UX; thumb-zone CTA, sticky rezervasyon barı ve kısa form ile rezervasyon adımlarını azaltır. LCP/CLS/INP iyileştirmeleri mobil memnuniyet ve dönüşümü destekler.",
+      "voiceAnswer": "Mobile-first otel UX, tek elle kullanım ve hızlı sayfalarla mobil rezervasyonu daha kolay tamamlatır.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama, ajans yöneticisi",
+        "KPI’lar: Conversion Rate, step drop-off, mobil form completion, ödeme terk oranı, LCP/CLS/INP",
+        "Entity: Mobile UX, Core Web Vitals, Hotel Website, Reservation Funnel, Responsive Design, Booking Engine",
+        "Geo sinyali: Antalya, Belek, Bodrum gibi mobil trafiği yüksek destinasyon senaryoları",
+        "Funnel: Consideration → Conversion",
+        "Fark yaratan blok: Sticky rezervasyon barı + CWV–UX–dönüşüm ilişkisi (otel özelinde)",
+        "Hızlı kazanım: Navigasyonu sadeleştir + CTA’yı thumb-zone’a al + performansı (LCP/CLS/INP) iyileştir"
+      ]
+    },
+    "h1": {
+      "title": "Otel Web Siteleri İçin Mobile-First UI/UX Rehberi",
+      "intro": "Mobil kullanıcı, otel web sitesinde “gezinmek” istemez; hızla karar vermek ister: uygunluk var mı, oda benim ihtiyacıma uyuyor mu, fiyat/koşul net mi, güvenle ödeyebilir miyim? Mobile-first UI/UX, bu soruları en az sürtünmeyle yanıtlayacak şekilde tasarım ve içerik mimarisini mobil öncelikli kurar. Özellikle Antalya/Belek gibi resort destinasyonlarında kullanıcı, çoğu zaman sosyal medya–arama–harita gibi kaynaklardan mobilde gelir; hızlıca “tarih seç–oda seç–öde” hattına girmek ister. Bu yazıda; mobile UX, Reservation Funnel, Core Web Vitals ve dönüşüm ilişkisini otel özelinde bir çerçeveye oturtacağız.",
+      "quickSummary": [
+        "1) Mobil ana hedefi netleştir: “Tarih seç → uygunluk → oda seç → öde”",
+        "2) CTA’yı thumb-zone’a taşı ve sticky rezervasyon barı ile erişilebilir kıl",
+        "3) Oda kartlarını karar bilgisine göre sadeleştir (toplam fiyat + iptal + 3 fark)",
+        "4) Form/ödemede alanları azalt, hata mesajlarını çözüm odaklı yaz",
+        "5) CWV (LCP/CLS/INP) metriklerini mobilde ayrı takip edip sprint ritmiyle iyileştir"
+      ],
+      "ctaPrimary": {
+        "label": "Mobile-First UX Analizi Talep Et",
+        "text": "Mobil rezervasyon akışınızda en çok kayıp yaratan adımı tespit edip, otel ekibiniz için uygulanabilir bir iyileştirme planı alın.",
+        "href": "/creative/ui-ux-tasarim"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Mobile-First UX Analizi Talep Et",
+        "text": "Mobil rezervasyon akışında kayıp noktalarını bulup otel ekibiniz için net iyileştirme planı çıkarın.",
+        "href": "/creative/ui-ux-tasarim"
+      },
+      "secondary": {
+        "label": "Core Web Vitals & UX Mini Raporunu İndir",
+        "text": "Mobilde hangi CWV metriğinin hangi ekranda sorun yarattığını görüp ilk 10 aksiyonu önceliklendirmenizi sağlar.",
+        "href": "/seo/teknik-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "UI & UX Tasarımı hizmet sayfası", "href": "/creative/ui-ux-tasarim" },
+      { "label": "Web sitesi geliştirme", "href": "/yazilim/web-sitesi-gelistirme" },
+      { "label": "Teknik SEO rehberi", "href": "/seo/teknik-seo" },
+      { "label": "Reklam & raporlama yaklaşımı", "href": "/sem/reklam-raporlama" },
+      { "label": "Otel dijital pazarlama çatı yaklaşımı", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Teknik SEO: Core Web Vitals ve performans temeli",
+        "href": "/seo/teknik-seo"
+      },
+      {
+        "title": "Otel web sitesi geliştirme: performans ve dönüşüm altyapısı",
+        "href": "/yazilim/web-sitesi-gelistirme"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hero",
+        "title": "Mobile-first UI/UX ile mobil rezervasyonu hızlandırın",
+        "blocks": [
+       
+          {
+            "type": "p",
+            "text": "Mobilde rezervasyon deneyimi; hız, netlik ve tek elle kullanım üzerinden kazanılır. Bu rehber, otel sitelerinde mobile-first UI/UX’in nasıl kurgulanacağını; thumb-zone CTA, sticky rezervasyon barı, kısa form/ödeme tasarımı ve Core Web Vitals (LCP/CLS/INP) üzerinden ölçüm–iyileştirme döngüsüyle birlikte ele alır."
+          },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Mobilde “tek elle kullanım + hızlı karar” beklentisi yüksektir; CTA ve navigasyon buna göre konumlanmalıdır.",
+              "Mobilde performans (LCP/CLS/INP) bozulduğunda sadece hız değil, güven algısı da düşer.",
+              "Otel rezervasyonu “yüksek niyetli” bir akıştır; küçük sürtünmeler bile ödeme terkine yol açabilir."
+            ]
+          },
+          { "type": "media", "slot": "h1-context" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobile-First UX Analizi Talep Et",
+            "text": "Mobil rezervasyon akışınızda en çok kayıp yaratan adımı tespit edip, otel ekibiniz için uygulanabilir bir iyileştirme planı alın.",
+            "href": "/creative/ui-ux-tasarim"
+          }
+        ]
+      },
+      {
+        "id": "otel-mobile-first-ux-nasil-olmali",
+        "title": "Otel web siteleri için mobile-first UX nasıl olmalı?",
+        "blocks": [
+          { "type": "media", "slot": "divider-01" },
+          {
+            "type": "p",
+            "text": "Mobile-first otel UX; “desktop’u küçültmek” değil, mobildeki gerçek kullanım davranışına göre öncelikleri yeniden sıralamak demektir. Kullanıcı mobilde genellikle kısa oturumlarla, dikkat bölünerek ve tek elle ilerler; bu yüzden arayüz “daha az seçenek, daha net yönlendirme” prensibiyle çalışmalıdır. İdeal yaklaşım: (1) en kritik aksiyonu (rezervasyon) thumb-zone’a koymak, (2) navigasyonu minimumda tutmak, (3) form ve ödeme adımını kısaltmak, (4) performansı CWV ile sürekli izleyip iyileştirmek."
+          },
+          { "type": "h3", "text": "Mobile-first ≠ sadece responsive" },
+          {
+            "type": "p",
+            "text": "Responsive tasarım ekranı uydurur; mobile-first ise “mobilde en kritik işi” merkeze alır. Örneğin mobilde oda listesi ekranında; filtre, fiyat netliği, iptal koşulu ve CTA önceliklidir. Desktop’ta detay toleransı artar, fakat mobilde “karar bilgisi” ilk ekranda görünmezse kullanıcı kayar."
+          },
+          { "type": "h3", "text": "Tek elle kullanım (thumb zone) bir tasarım kuralıdır" },
+          {
+            "type": "p",
+            "text": "Baş parmağın erişim alanı, CTA ve ana navigasyon için “doğal bölge”dir. CTA’yı üstte saklamak, dönüşümü gereksiz yere zorlaştırır. Özellikle resort kullanıcılarında “tarih seç–fiyat gör” aksiyonu aşağı bölgede, tek dokunuşla çalışmalıdır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (H2-1)",
+            "items": [
+              "Mobilde ana CTA (Rezervasyon / Tarih seç) thumb-zone içinde mi?",
+              "İlk ekranda fiyat/koşul netliği var mı (vergiler, iptal özeti)?",
+              "Navigasyon 1–2 seviyeyi geçiyor mu? (geçiyorsa sadeleşmeli)",
+              "Oda listesinde “karar bilgisi” ilk ekranda görünüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Mobil ana hedefi tek cümle tanımla: “Tarih seç → uygunluk → oda seç → öde”.",
+              "CTA’yı thumb-zone’a taşı; üst menüye bağımlılığı azalt.",
+              "Oda kartlarını karar bilgisine göre sadeleştir (iptal + toplam fiyat + 3 fark).",
+              "Core Web Vitals metriklerini (LCP/CLS/INP) mobilde ayrı takip etmeyi standartlaştır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-rezervasyon-davranislari",
+        "title": "Mobilde rezervasyon davranışları (resort, city, butik farkı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobil rezervasyon davranışı, otelin konseptine göre değişir. Resort otellerde kullanıcı “paket/konsept” ve aile ihtiyaçlarıyla gelir; city otellerde hız ve konum önceliklidir; butik otellerde görsel güven ve hikâye etkisi büyüktür. Bu farkı doğru okumazsanız “tek tip mobil arayüz” iyi niyetli ama zayıf sonuç veren bir şablon olur."
+          },
+          { "type": "h3", "text": "Resort destinasyon senaryosu (Antalya/Belek)" },
+          {
+            "type": "p",
+            "text": "Belek’te bir resort için mobil yolculuk genelde “aile kararı”dır: 2 yetişkin + çocuk yaşı, konsept (AI/HB), iptal esnekliği. Kullanıcı “çocuk politikası” ve “toplam fiyat” net değilse OTA’ya geri döner. Bu yüzden mobilde; kişi seçici, konsept bilgisi, iptal özeti ve güven sinyali daha erken görünmelidir."
+          },
+          { "type": "h3", "text": "City otel senaryosu" },
+          {
+            "type": "p",
+            "text": "City otelde kullanıcı mobilde hızlı karar verir: konum, ulaşım, tek gece/iş seyahati. Burada “sticky rezervasyon barı” ve hızlı ödeme, daha yüksek etkili olur; detaylar ikinci plandadır."
+          },
+          { "type": "h3", "text": "Butik otel senaryosu (Bodrum)" },
+          {
+            "type": "p",
+            "text": "Butik otelde mobilde görsel ve güven birincil faktördür. Fotoğraf kalitesi, yorumlar ve net iptal koşulu kararın büyük kısmını taşır. Mobilde “galeri + oda özeti + güven” blokları doğru sıraya konulmalıdır."
+          },
+          {
+            "type": "p",
+            "text": "Key data point (yumuşatılmış kullanım): Çoğu otelde analitiklerde mobil trafiğin %60–80 bandına çıkabildiği görülür; bu yüzden mobil hız ve daha basit akış, pratikte dönüşümü destekleyen en büyük kaldıraçlardan biridir (tesis, pazar ve kanal karışımına göre değişir)."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (H2-2)",
+            "items": [
+              "Resort akışında kişi/çocuk seçimi ve konsept net mi?",
+              "City akışında “hızlı rezervasyon” yolu (sticky bar + kısa form) var mı?",
+              "Butik akışında yorum/güven ve iptal özeti görünür mü?",
+              "Mobilde “toplam fiyat” (vergiler dahil) tek satırda anlaşılır mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "3 persona çıkar: resort aile / city iş / butik deneyim; mobil ekranları buna göre sırala.",
+              "“Karar bilgisi”ni ilk ekrana taşı: iptal, toplam fiyat, konsept, yorum.",
+              "Oda listesi ve oda detayı ekranlarını mobilde ayrı tasarla (aynı sayfayı şişirme).",
+              "Mobil ölçümü (GA4 event’ler) adım adım kur: tarih seçimi → oda seçimi → form → ödeme."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-navigasyon-sticky-bar",
+        "title": "Mobil navigasyon ve menü tasarımı (thumb zone + sticky rezervasyon barı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu “mobil uyumlu menü” düzeyinde kalır; oysa otelde kritik olan, kullanıcıyı menüde dolaştırmadan rezervasyon aksiyonuna taşımaktır. Burada iki yapı öne çıkar: (1) thumb-zone odaklı CTA yerleşimi, (2) sticky rezervasyon barı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Voice-First mini blok",
+            "items": [
+              "“Telefonumdan otel rezervasyonu yaparken neden zorlanıyorum?”",
+              "Çünkü mobilde menü kalabalığı, üstte saklanan CTA’lar, uzun formlar ve yavaş yüklenen görseller karar hızını düşürür. Mobile-first tasarım; CTA’yı erişilebilir yapar, adımları kısaltır ve sayfayı hızlandırarak rezervasyonu daha kolay tamamlatır."
+            ]
+          },
+          { "type": "h3", "text": "Menü mimarisi: 5 öğeyi geçmeyen “çekirdek menü”" },
+          {
+            "type": "p",
+            "text": "Mobil menüde hedef; her şeyi göstermek değil, en kritik yolları netleştirmektir: Odalar, Teklifler, Konsept/Deneyim, Konum, İletişim (veya Rezervasyon). Diğerleri “ikincil” alanlara taşınır."
+          },
+          { "type": "h3", "text": "Sticky rezervasyon barı: ne zaman, nasıl?" },
+          {
+            "type": "p",
+            "text": "Sticky bar; kullanıcı oda detayı veya teklif sayfasında gezerken “tarih seç–fiyat gör” aksiyonunu her zaman erişilebilir tutar. Ancak agresif tasarlanırsa rahatsız eder. Kural: Bar, içerik okunabilirliğini bozmamalı (yüksekliği kontrollü), CTA tek olmalı ve “tarih seçili değilse” tarih seçiciye götürmelidir."
+          },
+          { "type": "h3", "text": "Oda listesi vs oda detayı (mobilde ayrı düşün)" },
+          {
+            "type": "p",
+            "text": "Mobil oda listesinde amaç: hızlı karşılaştırma. Oda detayında amaç: güven + ikna + net CTA. Liste ekranını detay ekranı gibi şişirmek, kullanıcıyı yorar."
+          },
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (H2-3)",
+            "items": [
+              "Menüde 5 ana öğe var mı, fazlaysa sadeleştirildi mi?",
+              "Sticky bar tek CTA içeriyor mu? (tarih seç–fiyat gör)",
+              "Oda listesi karşılaştırma odaklı mı, yoksa gereksiz detayla dolu mu?",
+              "CTA thumb-zone’da ve her kritik ekranda görünür mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Mobil menüyü 5 ana yola indir; geri kalanları ikincil alana taşı.",
+              "Sticky rezervasyon barı kurgula: tek CTA + durum bazlı davranış (tarih seçili/ değil).",
+              "Oda listesinde “karar bilgisi”ni standardize et: toplam fiyat + iptal + 3 fark.",
+              "Teknik altyapı için iç link ver: /yazilim/web-sitesi-gelistirme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-form-odeme",
+        "title": "Mobil form ve ödeme deneyimi (kısa form + güven + hız)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Mobilde form, en büyük terk sebeplerinden biridir. Kullanıcı oda seçtiyse, artık “kolay tamamlama” ister; gereksiz alanlar ve belirsiz hata mesajları ödeme terkini artırır. Otelde ayrıca güven unsurları (iptal koşulu, güvenli ödeme, gizlilik) kritik rol oynar."
+          },
+          { "type": "h3", "text": "Form alanlarını ikiye ayır: “şimdi” ve “sonra”" },
+          {
+            "type": "p",
+            "text": "Rezervasyonu tamamlamak için çoğu zaman ad/soyad, e-posta ve telefon yeterlidir. Kimlik bilgisi, özel istekler, transfer detayları gibi alanlar “sonra” toplanabilir. Bu yaklaşım, mobilde completion rate’i destekler."
+          },
+          { "type": "h3", "text": "Mikro kopya (mobilde “kısa + net”)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Toplam fiyat (vergiler dahil)”",
+              "“X tarihe kadar ücretsiz iptal” (varsa)",
+              "“Güvenli ödeme (SSL) – kart bilgileriniz korunur”"
+            ]
+          },
+          { "type": "h3", "text": "Ödeme adımı: güven ve sürtünme dengesi" },
+          {
+            "type": "p",
+            "text": "Ödeme ekranında, kullanıcı “son adımda” kaybolmamalı. İptal özeti ve güvenli ödeme metni görünür olmalı; 3DS gibi adımlara kısa bir hazırlık cümlesi eklenmeli."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (H2-4)",
+            "items": [
+              "Mobil form alanları minimum mu (zorunlu alanlar gerçekten zorunlu mu)?",
+              "Hata mesajları çözüm söylüyor mu (format örneği veriyor mu)?",
+              "Ödeme ekranında iptal özeti 1–2 satır var mı?",
+              "Güvenli ödeme metni net ve “sakin” mi (rozet spam yok)?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobile-First UX Analizi Talep Et",
+            "text": "Form/ödeme adımında drop-off’u artıran sürtünmeleri tespit edip mobil dönüşüm için net aksiyon listesi alın.",
+            "href": "/creative/ui-ux-tasarim"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Form alanlarını yarıya indir; “sonra toplanacak” alanları ayır.",
+              "Hata mesajlarını “nasıl düzeltilir” formatına çevir.",
+              "Ödeme ekranına 2 güven unsuru + 1 satır iptal özeti ekle.",
+              "Rezervasyon akışını event bazında ölç (GA4) ve 14 günde bir tek sürtünme düzelt."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cwv-performans-ux-iliskisi",
+        "title": "Mobil performans, Core Web Vitals ve UX ilişkisi (CWV → güven → dönüşüm)",
+        "blocks": [
+          { "type": "media", "slot": "divider-02" },
+          {
+            "type": "p",
+            "text": "Mobile-first UX’in “gizli motoru” performanstır. Mobilde sayfa yavaşsa, kullanıcı sadece beklemez; güveni de düşer: “Ödeme güvenli mi, site sağlıklı mı?” Bu yüzden Core Web Vitals (LCP/CLS/INP) metrikleri, UX ve Conversion Rate ile aynı cümlede konuşulmalıdır. Burada amaç “tek seferlik hız” değil; sürekli iyileştirme döngüsüdür."
+          },
+          { "type": "h3", "text": "LCP/CLS/INP’yi otel bağlamında yorumlama" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "LCP (Largest Contentful Paint): Mobilde hero görsel, galeri veya büyük oda fotoğrafı geç gelirse kullanıcı “site ağır” hisseder.",
+              "CLS (Cumulative Layout Shift): Oda kartları kayıyor, fiyat/CTA oynuyorsa kullanıcı yanlış tıklar ve sinirlenir.",
+              "INP (Interaction to Next Paint): Filtre, tarih seçici, kişi seçici gecikiyorsa rezervasyon akışı tıkanır."
+            ]
+          },
+          { "type": "h3", "text": "Mobilde görsel/video kullanımı: doğru yerde, doğru yük" },
+          {
+            "type": "p",
+            "text": "Otel siteleri görsel ağırlıklıdır; ama mobile-first kuralı şudur: “görsel kalite” ile “yük performansı” birlikte planlanır. Lazy-load, doğru boyutlandırma, kritik görsellerin önceliklendirilmesi ve gereksiz script’lerin azaltılması, mobil deneyimi belirgin şekilde iyileştirir."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: CWV → UX semptomu → pratik çözüm",
+            "headers": ["Metrik", "Mobilde görülen UX semptomu", "Otel siteleri için pratik çözüm"],
+            "rows": [
+              ["LCP", "İlk ekran geç açılır, kullanıcı beklemez", "Hero görseli optimize et, kritik CSS/JS azalt, görseli doğru boyutlandır"],
+              ["CLS", "Fiyat/CTA kayar, yanlış tıklama olur", "Görsellere sabit boyut ver, font/placeholder kullan, geç yüklenen banner’ları kontrol et"],
+              ["INP", "Tarih/kişi seçici geç tepki verir", "Ağır script’leri azalt, etkileşim bileşenlerini optimize et, üçüncü taraf tag’leri sadeleştir"]
+            ]
+          },
+          { "type": "media", "slot": "kpi-08" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (H2-5)",
+            "items": [
+              "Mobilde LCP’yi büyüten öğe (hero/galeri) optimize mi?",
+              "CLS kaynakları tespit edildi mi (kayan fiyat/CTA)?",
+              "INP’yi bozan etkileşimler (takvim/filtre) sade mi?",
+              "Lazy-load görseller doğru uygulanmış mı (kritik görsel gecikmiyor mu)?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Core Web Vitals & UX Mini Raporunu İndir",
+            "text": "Mobilde hangi metrik, hangi ekranda sorun çıkarıyor? sorusuna tek sayfalık ölçüm + aksiyon özetiyle net cevap alın.",
+            "href": "/seo/teknik-seo"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Mobil CWV ölçümünü rutinleştir: LCP/CLS/INP haftalık kontrol + aylık sprint.",
+              "Oda listesi ve galeri sayfalarını performans önceliği yap (görsel ağırlık).",
+              "Üçüncü taraf tag’leri sadeleştir; rezervasyon adımında gereksiz script çalıştırma.",
+              "Teknik SEO içeriğine iç link ver: /seo/teknik-seo"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mobil-ux-checklist-kapanis",
+        "title": "Mobil UX checklist ile taranabilir kapanış (hızlı uygulama)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu yazıdaki hedef; “mükemmel tasarım” değil, mobilde rezervasyonu daha hızlı ve daha güvenli tamamlatmaktır. Aşağıdaki checklist’i 15 dakikada uygulayarak, ilk sprint backlog’unu çıkarabilirsiniz."
+          },
+          { "type": "media", "slot": "checklist-07" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "CTA thumb-zone’da mı?",
+              "Sticky rezervasyon barı var mı ve tek CTA mı?",
+              "Oda kartı: toplam fiyat + iptal + 3 fark net mi?",
+              "Form alanları minimum mu?",
+              "Ödeme ekranı güven + iptal özeti içeriyor mu?",
+              "CWV (LCP/CLS/INP) mobilde takip ediliyor mu?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Mobile-First UX Analizi Talep Et",
+            "text": "Mobil rezervasyon deneyimini Antalya/Bodrum/Belek gibi destinasyon senaryolarıyla test edip, “en hızlı kazanım” planını birlikte çıkaralım.",
+            "href": "/creative/ui-ux-tasarim"
+          },
+          {
+            "type": "p",
+            "text": "Internal link (zorunlu): Bu içerikten “mobil rezervasyon deneyimi” anchor’ı ile /otel-dijital-pazarlama sayfasına link verin."
+          },
+          { "type": "media", "slot": "proof-09" }
+        ]
+      },
+      {
+        "id": "cwv-ux-mini-rapor-download",
+        "title": "Core Web Vitals & UX Mini Raporunu İndir — Mobile-First Otel UX",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Core Web Vitals & UX Mini Raporunu İndir — Mobile-First Otel UX (v1.0)",
+            "purpose": "Bu mini rapor, otel web sitenizde mobil deneyimi bozan CWV (LCP/CLS/INP) problemlerini “ekran bazlı” tespit edip, kullanıcı sürtünmesi ve dönüşüm etkisiyle birlikte önceliklendirmenizi sağlar. Amaç; teknik metrikleri soyut bırakmadan “hangi sayfada neyi düzeltmeliyim?” sorusuna net cevap vermektir. Çıktı, 14 günlük sprint planına dönüşecek şekilde tasarlanmıştır.",
+            "whoFor": "Otel pazarlama ekibi + ajans + yazılım/teknik ekip (ortak dil için).",
+            "steps": [
+              "Mobilde 3 kritik sayfayı seçin: Ana sayfa / Oda listesi / Oda detayı–rezervasyon.",
+              "Her sayfa için CWV + UX gözlemini skorlayın (0–5) ve R/Y/G notu ekleyin.",
+              "“İlk 10 aksiyon” listesini çıkarıp 14 günde bir sprintte uygulayın; GA4 drop-off ile doğrulayın."
+            ],
+            "checklist": [
+              "Sayfa 1 (Oda listesi): LCP/CLS/INP + UX sürtünmesi skorlandı",
+              "Sayfa 2 (Oda detayı): galeri, sticky bar ve güven blokları kontrol edildi",
+              "Sayfa 3 (Rezervasyon/ödeme): form alanları, hata mesajı ve 3DS sürtünmesi tarandı",
+              "Kırmızı/Sarı/Yeşil notları eklendi",
+              "İlk 10 aksiyon backlog’u çıkarıldı",
+              "Öncesi/Sonrası KPI alanları dolduruldu (Conversion Rate, drop-off, CWV durumu)"
+            ],
+            "href": "/downloads/core-web-vitals-ux-mini-raporu-mobile-first-otel-ux-v1.0.pdf",
+            "buttonLabel": "PDF’i İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel web sitem mobile-first nasıl tasarlanır?",
+        "a": "Mobilde en kritik aksiyonu (rezervasyon) merkeze alıp CTA’yı thumb-zone’a taşıyın, navigasyonu sadeleştirin ve form/ödeme adımını kısaltın. Ardından CWV (LCP/CLS/INP) ölçümüyle hız ve etkileşimi sürekli iyileştirin."
+      },
+      {
+        "q": "Mobil rezervasyon deneyimini nasıl iyileştiririm?",
+        "a": "Oda listesinde karar bilgisini netleştirin (toplam fiyat, iptal, 3 fark), sticky rezervasyon barıyla CTA’yı sürekli erişilebilir yapın ve mobil form alanlarını azaltın. Hata mesajlarını çözüm odaklı yazıp ödeme ekranında güven + iptal özetini görünür kılın."
+      },
+      {
+        "q": "Core Web Vitals otel UX’ini nasıl etkiler?",
+        "a": "LCP yavaşsa ilk ekran geç açılır ve kullanıcı güven kaybeder; CLS yüksekse fiyat/CTA kayar ve yanlış tıklamalar artar; INP kötüyse takvim/filtre gibi etkileşimler gecikir. Bu sorunlar rezervasyon funnel’ında drop-off’u yükseltebilir."
+      },
+      {
+        "q": "Mobilde sticky rezervasyon butonu nasıl kullanılmalı?",
+        "a": "Sticky bar tek bir ana CTA içermeli (ör. “Tarih seç–Fiyat gör”) ve ekranı kapatacak kadar büyük olmamalıdır. Tarih seçili değilse tarih seçiciye, seçiliyse uygunluk/oda seçimine yönlendiren “durum bazlı” çalışmalıdır."
+      },
+      {
+        "q": "“Telefonumdan otel rezervasyonu yaparken neden zorlanıyorum?”",
+        "a": "Genellikle menü kalabalığı, üstte saklanan CTA, uzun formlar ve yavaş sayfalar karar hızını düşürür. Mobile-first tasarım, CTA’yı erişilebilir yapar, adımları kısaltır ve performansı iyileştirerek süreci kolaylaştırır."
+      },
+      {
+        "q": "Mobil oda listesi mi, oda detayı mı daha kritik?",
+        "a": "Mobil oda listesi hızlı karşılaştırma içindir; oda detayı ise güven ve ikna katmanıdır. Listeyi gereksiz detayla şişirmek yerine karar bilgisini öne alın; detayı “ikna” için optimize edin."
+      },
+      {
+        "q": "Mobile-first indexing için otel sitesinde nelere dikkat etmeliyim?",
+        "a": "Mobilde içerik ve yapı desktop ile tutarlı olmalı; kritik içerik mobilde saklanmamalıdır. Görselleri optimize edin, lazy-load’u doğru kullanın ve LCP/CLS/INP iyileştirmelerini mobil ölçümle takip edin."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 1920×1080 — otel-mobile-first-ui-ux-rehberi-hero-01.webp — Alt: “Mobile-first otel UX ile rezervasyon dönüşümünü anlatan kapak görseli”",
+          "H1 sonrası Context — 1920×1080 — otel-mobile-first-ui-ux-rehberi-h1-context-02.webp — Alt: “Mobilde otel rezervasyon yolculuğunu özetleyen bağlam görseli”",
+          "Section Divider 01 — 1600×1200 — otel-mobile-first-ui-ux-rehberi-divider-03.webp — Alt: “Mobile-first bölüm geçişini destekleyen ayırıcı görsel”",
+          "Section Divider 02 — 1600×1200 — otel-mobile-first-ui-ux-rehberi-divider-06.webp — Alt: “CWV ve performans bölümüne geçişi destekleyen ayırıcı görsel”",
+          "Diagram / Flow — 1920×1080 — otel-mobile-first-ui-ux-rehberi-diagram-05.webp — Alt: “Thumb-zone ve sticky rezervasyon barı yerleşimini gösteren diyagram”",
+          "Checklist / Framework Card — 1200×1200 — otel-mobile-first-ui-ux-rehberi-checklist-07.webp — Alt: “Mobil otel UX için hızlı uygulanabilir checklist kartı”",
+          "KPI / Score Card — 1200×1200 — otel-mobile-first-ui-ux-rehberi-kpi-08.webp — Alt: “Mobil Core Web Vitals metrikleri ve UX etkisini özetleyen skor kartı”",
+          "Deliverables / Proof Card — 1200×1200 — otel-mobile-first-ui-ux-rehberi-proof-09.webp — Alt: “Mobile-first UX analizi çıktıları ve aksiyon planını anlatan kanıt kartı”"
+        ],
+        "technicalChecklist": [
+          "Sticky rezervasyon barı (tek CTA) davranış kontrolü (tarih seçili/ değil)",
+          "Oda listesi kartlarında karar bilgisi standardı (toplam fiyat + iptal + 3 fark)",
+          "Form alanları: zorunlu/opsiyonel ayrımı ve hata mesajı standardı",
+          "Mobil CWV ölçümü: LCP/CLS/INP sayfa bazlı takip (Ana sayfa / Oda listesi / Oda detayı / Ödeme)",
+          "Görsel optimizasyonu: doğru boyutlandırma + sıkıştırma + kritik görsel önceliklendirme",
+          "Üçüncü taraf script/tag sadeleştirme (özellikle rezervasyon/ödeme adımı)",
+          "GA4 event’leri: tarih seçimi → oda seçimi → form → ödeme (drop-off analizi)",
+          "Refresh Cycle: 365 gün (best-practice ve metrik eşikleri yıllık gözden geçirme)"
+        ]
+      }
+    }
+  },
+
+   "BlogTelefonlaRezervasyonDonusumOraniArtirma": {
+    "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
+    "slug": "telefonla-rezervasyon-donusum-orani-artirma",
+    "department": "callcenter",
+    "updatedAt": "20 Ocak 2026",
+    "publishedAt": "2026-01-20",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Rezervasyon çağrılarında dönüşümü artırın: doğru sorular, iki seçenekli teklif, itiraz karşılama ve güvenli kapanış. Script örnekleri + koçluk döngüsüyle ekibi hızla iyileştirin.",
+    "seo": {
+      "metaTitle": "Telefonla Rezervasyon Dönüşümü Nasıl Artırılır? | DGTLFACE",
+      "metaDescription": "Rezervasyon çağrılarında dönüşümü artırın: doğru sorular, iki seçenekli teklif, itiraz karşılama ve güvenli kapanış. Script örnekleri + koçluk döngüsüyle ekibi hızla iyileştirin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Çağrı Merkezi",
+        "Sayfa Adı / URL: Rezervasyon Desteği (Otel) — /tr/cagri-merkezi/rezervasyon-destegi",
+        "Sayfa Kodu: cagri-merkezi-2",
+        "Blog Tipi: Core",
+        "Blog No / URL: Blog #2 — /tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma",
+        "Blog Başlık / H1: Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
+        "Intent: Transactional + Informational",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 180 gün",
+        "Canonical: /tr/cagri-merkezi/blog/telefonla-rezervasyon-donusum-orani-artirma"
+      ],
+      "strategySummary": "Bu blog, “Rezervasyon Desteği” silo’sunda doğrudan dönüşüm odaklı (BoFu/MoFu hibrit) bir satış-koçluk içeriğidir: çağrıyı “bilgi verme”den “rezervasyona kapatma”ya taşır. Hedef persona; call center lideri/ön büro yöneticisi, satış-pazarlama müdürü ve rezervasyon hattında kalite/dönüşüm sorumluluğu alan ekiptir. Funnel aşaması consideration → conversion: soru seti + teklif kurgusu + itiraz yönetimi + kapanış teknikleriyle dönüşümü artırmayı hedefler. Ana iş sorusu: “Misafir ‘düşüneyim’ deyip kapatıyorsa; hangi adım eksik ve bunu script/koçlukla nasıl düzeltiriz?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-20",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Rezervasyon çağrılarında dönüşümü artırmak; fiyat söylemekten çok, doğru sorularla ihtiyacı netleştirmek, iki seçenekli net bir teklif sunmak, itirazları sakin ve şeffaf şekilde karşılamak ve kapanışı güvenle yönetmekle olur. İyi yazılmış call script’leri tek başına yeterli değildir: düzenli dinleme, koçluk ve QA döngüsüyle sürekli optimize edilmelidir. Bu yaklaşım, özellikle yoğun resort sezonunda kaçan aramaları azaltır.",
+      "sgeSummary": "Dönüşüm artışı için 4 adım: hızlı ihtiyaç analizi, iki seçenekli teklif, itiraz kartlarıyla yanıt, net kapanış. Script + koçluk/QA döngüsü, ekibin performansını sürdürülebilir yükseltir.",
+      "voiceAnswer": "Dönüşümü artırmak için doğru sorular sorun, iki seçenek sunun, itirazları yönetin ve net kapanış yapın.",
+      "aiFactSheet": [
+        "Hedef kitle: Rezervasyon hattı yöneticileri, ön büro, satış/pazarlama, QA/koçluk sorumluları",
+        "KPI: çağrı→rezervasyon dönüşümü, terk oranı, kapanış oranı, upsell oranı, QA skoru",
+        "Entity: Reservation Conversion, Call Script, Objection Handling, Upsell Opportunity, Coaching & QA",
+        "Funnel: MoFu → BoFu (ikna + kapatma)",
+        "Geo: Antalya / Belek / Side / Kemer (yoğun sezon senaryoları)",
+        "Çıktı: script tablosu + itiraz kartları + rol-play planı + koçluk döngüsü"
+      ]
+    },
+    "h1": {
+      "title": "Rezervasyon Çağrılarında Dönüşüm Oranı Nasıl Artırılır? Script ve Teknikler",
+      "intro": "“Misafir hep ‘düşüneyim’ deyip kapatıyor” cümlesi, çoğu otel rezervasyon hattında en sık duyulan şikâyettir. Bu genelde “fiyat pahalı” probleminden önce, ihtiyacın netleşmemesi, teklifin belirsiz kalması veya kapanışta güvenli bir yönlendirme yapılmamasıyla ilgilidir. Telefonla rezervasyon dönüşümü; doğru soru seti, seçenek kurgusu, itiraz karşılama ve koçluk döngüsüyle bir “kas” gibi gelişir. Özellikle Antalya, Belek, Side, Kemer gibi resort bölgelerde sezon yoğunluğunda, küçük iyileştirmeler bile kaçan aramaları anlamlı biçimde azaltabilir (yönlü içgörü).",
+      "quickSummary": [
+        "1) Dönüşümü mini-funnel KPI’larıyla ölç (teklif + kapanış denemesi dahil)",
+        "2) İlk 90 saniyede ihtiyaç analizini standartlaştır (tarih + kişi + öncelik)",
+        "3) Teklifi iki seçenekli kur (iyi / daha iyi) ve farkı tek cümleyle söyle",
+        "4) İtirazları kartlarla yönet, her itirazdan bir alternatif üret",
+        "5) Script’i koçluk/QA döngüsüne bağla: dinle → düzelt → rol-play → ölç"
+      ],
+      "ctaPrimary": {
+        "label": "Rezervasyon Çağrısı Dönüşüm Analizi Talep Et",
+        "text": "Telefonla satışta “düşüneyim” oranını düşürmek isteyen oteller için; script + KPI + QA hızlı değerlendirme alın.",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Rezervasyon Çağrısı Dönüşüm Analizi Talep Et",
+        "text": "Dönüşüm + QA + script optimizasyonu için ekibinize özel aksiyon planı çıkaralım.",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      "secondary": {
+        "label": "Rezervasyon Satış Script & İtiraz Kartları Paketini İndir",
+        "text": "Ekibin aynı itiraza aynı netlikte cevap verip daha çok kapanış denemesi yapmasını sağlar.",
+        "href": "/cagri-merkezi/performans-analizi"
+      }
+    },
+    "internalLinks": [
+      { "label": "Rezervasyon desteği hizmet sayfası", "href": "/cagri-merkezi/rezervasyon-destegi" },
+      { "label": "Performans analizi ve QA yaklaşımı", "href": "/cagri-merkezi/performans-analizi" },
+      { "label": "Online satış ve kanal stratejisi", "href": "/pms-ota/online-satis" },
+      { "label": "Otel dijital pazarlama çatı yaklaşımı", "href": "/otel-dijital-pazarlama" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "Rezervasyon Desteği: çağrı kalitesi ve kapanış standardı",
+        "href": "/cagri-merkezi/rezervasyon-destegi"
+      },
+      {
+        "title": "Performans analizi: QA, dinleme ve koçluk döngüsü",
+        "href": "/cagri-merkezi/performans-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "hero",
+        "title": "Telefonla rezervasyonda “düşüneyim” oranını düşürün",
+        "blocks": [
+          { "type": "media", "slot": "hero" },
+          {
+            "type": "p",
+            "text": "Telefonla rezervasyon dönüşümü, “fiyat söyleme” değil; ihtiyaç analizi → net teklif → itiraz yönetimi → güvenli kapanış akışını doğru çalıştırmaktır. Bu rehber; script mantığını, ölçüm (mini funnel KPI’ları) ve koçluk/QA döngüsüyle birleştirerek, resort sezonunda kaçan aramaları azaltmaya odaklanır."
+          },
+          { "type": "media", "slot": "h1-context" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Çağrısı Dönüşüm Analizi Talep Et",
+            "text": "Telefonla satışta kaçan aramaları azaltmak isteyen oteller için; script + KPI + QA hızlı değerlendirme alın.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
+      },
+      {
+        "id": "donusum-nedir-nasil-olculur",
+        "title": "Dönüşüm (Conversion) nedir, nasıl ölçülür?",
+        "blocks": [
+          { "type": "media", "slot": "divider-01" },
+          {
+            "type": "p",
+            "text": "Rezervasyon çağrısında dönüşüm; bir aramanın “bilgi alma”dan çıkıp PMS’te onaylanmış rezervasyona (veya net takip aksiyonuna) dönüşmesidir. Ölçüm olmazsa iyileştirme “hissetmeye” kalır. Bu yüzden dönüşümü tek metrikle değil, mini funnel olarak takip etmek gerekir: çağrı geldi → konuşma başladı → teklif sunuldu → kapanış denendi → rezervasyon / takip."
+          },
+          { "type": "h3", "text": "Otel rezervasyon hattı için mini funnel KPI seti" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Cevaplanma oranı: kaç çağrı karşılanıyor?",
+              "Terk oranı: misafir beklerken kapatıyor mu?",
+              "Teklif oranı: kaç çağrıda net teklif verildi?",
+              "Kapanış denemesi oranı: “rezervasyonu alalım mı?” net soruldu mu?",
+              "Dönüşüm oranı: çağrı→rezervasyon",
+              "Upsell oranı: daha iyi oda/ek hizmet seçildi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (ölçüm)",
+            "items": [
+              "Dönüşümü “rezervasyon” ve “takip” olarak ikiye ayırdın mı?",
+              "Kapanış denemesi KPI’ını ölçüyor musun?",
+              "QA skorunu dönüşümle birlikte izliyor musun?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "6 KPI’ı sabitle ve haftalık tek panelde izle.",
+              "Kapanış denemesi ölçmeden “dönüşüm düşüklüğü” yorumlama.",
+              "QA + dönüşüm korelasyonunu takip et (yönlü içgörü çıkar)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "soru-sorma-ihtiyac-analizi",
+        "title": "Rezervasyon çağrısında soru sorma ve ihtiyaç analizi",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dönüşümün en büyük kırılma noktası, ilk 60–90 saniyedir. Agent doğru soruları sormazsa misafir “genel fiyat” alır ve kapatır. Doğru sorular ise misafiri bir persona’ya indirger: kim, ne zaman, kaç kişi, ne istiyor, neye önem veriyor?"
+          },
+          { "type": "h3", "text": "90 saniyede profil çıkartan soru seti" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Hangi tarihler arasında düşünüyorsunuz?”",
+              "“Kaç yetişkin/çocuk? Çocuk yaşları?”",
+              "“Oda tercihiniz ve önceliğiniz ne? (konum/manzara/konsept)”",
+              "“Bütçe aralığınız var mı, yoksa en iyi fırsatı mı arıyorsunuz?”",
+              "“Sizin için iptal esnekliği mi, fiyat mı daha kritik?”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (analiz kalitesi)",
+            "items": [
+              "Tarih + kişi + oda tercihi ilk 5 soruda alınıyor mu?",
+              "“Öncelik” sorusu soruluyor mu? (fiyat mı esneklik mi?)",
+              "Misafir konuşurken not alınıyor mu? (PMS not alanı standardı)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Soru setini sabitle; her agent aynı sırayla sorsun.",
+              "“Öncelik” sorusunu zorunlu yap: teklif kurgusunu belirler.",
+              "İhtiyaç analizi tamamlanmadan fiyat söyleme refleksini kır."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "teklif-sunumu-iki-secenek",
+        "title": "Teklif sunumu ve seçenek yapısı (oda, fiyat, kampanya)",
+        "blocks": [
+          { "type": "media", "slot": "divider-02" },
+          {
+            "type": "p",
+            "text": "Tek seçenekli teklif genellikle “tamam, düşüneyim” ile biter. İki seçenekli teklif ise karar mekanizmasını kolaylaştırır: iyi / daha iyi. Burada amaç manipülasyon değil; misafirin önceliğine göre kısa ve net karşılaştırma yapmaktır."
+          },
+          { "type": "h3", "text": "“İyi / Daha iyi” teklif şablonu (örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Seçenek 1 (İyi): Standart Oda + kahvaltı, şu tarih aralığında şu koşulla",
+              "Seçenek 2 (Daha iyi): Aile odası / daha iyi manzara + daha esnek koşul (varsa)",
+              "Fark cümlesi (tek cümle): “Farkı şu: … (alan/konum/esneklik)”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (teklif netliği)",
+            "items": [
+              "İki seçenek verildi mi?",
+              "Fark tek cümleyle söylendi mi?",
+              "Koşullar (iptal/ön ödeme) tek cümleyle özetlendi mi?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Çağrısı Dönüşüm Analizi Talep Et",
+            "text": "Teklif kurgusu + kapanış denemesi KPI’ı + QA skoruyla hızlı bir iyileştirme planı çıkaralım.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Teklifi her zaman iki seçenekli sun.",
+              "Koşulları tek cümlede netleştir (belirsizlik dönüşümü öldürür).",
+              "Kampanya varsa “süre/kısıt” bilgisini şeffaf biçimde ekle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "itiraz-yonetimi-sosyal-kanit",
+        "title": "İtiraz karşılama, kısıtlılık ve sosyal kanıt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "İtirazlar genelde 3 başlıkta toplanır: fiyat, tarih/müsaitlik, iptal/ön ödeme. İtiraz yönetimi; uzun açıklama yapmak değil, misafirin kaygısını netleştirip “bir sonraki adımı” kolaylaştırmaktır."
+          },
+          { "type": "h3", "text": "İtiraz kartları mantığı (Objection Handling)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Fiyat itirazı: “Haklısınız; şu an iki alternatif var…”",
+              "Tarih itirazı: “İsterseniz 1 gün kaydırınca şu seçenek açılıyor…”",
+              "İptal itirazı: “Şu plan esnek; şu plan avantajlı, farkı bu…”"
+            ]
+          },
+          { "type": "h3", "text": "Kısıtlılık (scarcity) dürüst kullanım" },
+          {
+            "type": "p",
+            "text": "“Şu an son 2 oda” gibi ifadeler doğruysa ve doğrulanabiliyorsa dönüşümü destekler. Yanlış/abartılı kısıtlılık güveni zedeler."
+          },
+          { "type": "h3", "text": "Sosyal kanıt (otel bağlamında)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu dönemde aile konsepti tercih eden misafirler genelde … seçiyor.”",
+              "“Benzer profilde misafirler şu oda tipinde daha memnun kalıyor.”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (itiraz yönetimi)",
+            "items": [
+              "İtiraz “kaygı” olarak anlaşıldı mı? (fiyat mı, güven mi?)",
+              "Alternatif önerildi mi? (tarih/oda/koşul)",
+              "Dürüst kısıtlılık kullanıldı mı?"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: İtiraz → Cevap → Alternatif (script tablosu)",
+            "headers": ["İtiraz", "Net cevap (kısa)", "Alternatif öneri (1 adım)"],
+            "rows": [
+              ["Fiyat yüksek", "Anlıyorum; iki seçenek sunayım ve farkını netleştireyim.", "Alternatif oda veya 1 gün kaydırma + esnek/avantajlı plan"],
+              ["Tarih tutmuyor / müsaitlik yok", "O tarih dolu; yakın alternatifleri birlikte açalım.", "±1 gün aralığı veya benzer oda tipinde seçenek"],
+              ["İptal/ön ödeme endişesi", "İki plan var: biri esnek, biri daha avantajlı; farkı bu.", "Esnek iptal planı veya daha düşük fiyatlı şartlı plan"],
+              ["OTA daha ucuz", "Şeffafça kontrol edelim; direktte şu avantaj/koşul var.", "Aynı koşullu fiyat karşılaştırması + direkt avantaj (upgrade/iptal)"],
+              ["Kararsızım / düşüneyim", "Haklısınız; önceliğiniz fiyat mı esneklik mi? Ona göre netleştireyim.", "Opsiyon açma + net takip zamanı (örn. 2 saat)"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10–15 itiraz kartını standardize et; agent ezberlemesin, kullanmayı öğrensin.",
+              "“Alternatif öner” kuralını koy: her itiraz bir seçenek doğursun.",
+              "Kısıtlılık ifadesini sadece doğrulanabilir bilgiyle kullan."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aeo-soru-cevap",
+        "title": "Rezervasyon çağrılarında dönüşüm oranı nasıl artırılır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dönüşümü artırmak için hedef; çağrıyı analiz–teklif–itiraz–kapanış döngüsünde akıtmak ve bunu koçluk/QA ile sürdürülebilir hale getirmektir."
+          },
+          { "type": "h3", "text": "AEO checklist (5–7 madde)" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (AEO – dönüşüm artırma)",
+            "items": [
+              "İlk 90 saniyede tarih + kişi + öncelik netleşti",
+              "Teklif iki seçenekli ve fark tek cümle",
+              "Koşullar (iptal/ön ödeme) tek cümleyle söylendi",
+              "İtirazlar için kartlar kullanıldı, alternatif önerildi",
+              "Kapanış “net soru” ile yapıldı (“rezervasyonu oluşturalım mı?”)",
+              "PMS kaydı alanları eksiksiz (kanal/ülke/dil/not)",
+              "Haftalık dinleme + koçluk döngüsü işliyor"
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "AEO checklist’i QA formunun çekirdeği yap.",
+              "Kapanış denemesi KPI’ını zorunlu ölç.",
+              "Koçluk toplantılarını “1 hata → 1 düzeltme → 1 test” ritmine bağla."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "script-kocluk-surekli-iyilestirme",
+        "title": "Script, koçluk ve sürekli iyileştirme (Coaching & QA)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Script’ler standardı kurar; koçluk ise standardı “canlı” tutar. Dönüşüm odaklı hatlarda en büyük fark; konuşmaların düzenli dinlenmesi, mikro iyileştirmelerin hızlı uygulanması ve yeni kampanya/koşullara göre script’in güncellenmesidir. Refresh Cycle 180 gün tam da bu yüzden kritiktir: sezon, kampanya ve itiraz kalıpları değişir."
+          },
+          { "type": "h3", "text": "Koçluk döngüsü (haftalık)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "10 çağrı dinle",
+              "3 ortak hata çıkar",
+              "1 düzeltme (script cümlesi + teklif kuralı) yayınla",
+              "1 rol-play yaptır",
+              "1 hafta KPI/QA etkisini ölç"
+            ]
+          },
+          { "type": "h3", "text": "5 mini rol-play fikri (hemen test edilebilir)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Fiyat yüksek” itirazı → iki seçenek + alternatif tarih",
+              "“İptal koşulu” itirazı → esnek plan vs avantajlı plan",
+              "“Kararsızım” → sosyal kanıt + net kapanış",
+              "“OTA daha ucuz” → şeffaflık + değer farkı",
+              "“Aile odası lazım” → ihtiyaç soruları + upsell fırsatı"
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check (koçluk)",
+            "items": [
+              "Haftalık dinleme sayısı sabit mi?",
+              "Her hafta 1 mikro düzeltme var mı?",
+              "Rol-play zorunlu mu?"
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Rezervasyon Çağrısı Dönüşüm Analizi Talep Et",
+            "text": "Dönüşüm + QA + script optimizasyonu için ekibinize özel aksiyon planı çıkaralım.",
+            "href": "/cagri-merkezi/rezervasyon-destegi"
+          }
+        ]
+      },
+      {
+        "id": "rezervasyon-satis-script-itiraz-kartlari-download",
+        "title": "Rezervasyon Satış Script & İtiraz Kartları Paketini İndir — Çağrı Merkezi / Dönüşüm",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Rezervasyon Satış Script & İtiraz Kartları Paketini İndir — Çağrı Merkezi / Dönüşüm (v1.0)",
+            "purpose": "Bu paket, rezervasyon hattında dönüşümü artırmak için hazır konuşma iskeleti (script) ve itirazlara hızlı yanıt kartları sunar. Amaç; ekibin aynı soru setiyle ilerlemesi, teklifi iki seçenekli kurması, itirazları standart cevaplayıp kapanışı netleştirmesidir. Koçluk/QA döngüsüne bağlandığında sürdürülebilir performans artışı sağlar (yönlü içgörü).",
+            "whoFor": "Rezervasyon agent’ları, takım lideri, QA/koç ve ön büro/satış yöneticisi.",
+            "steps": [
+              "Script’i çağrı akışına göre 1 sayfa olarak dağıtın.",
+              "İtiraz kartlarını agent ekranına/CRM notlarına ekleyin.",
+              "Haftalık 10 çağrı dinleyip kart kullanımını ve kapanış denemesini ölçün."
+            ],
+            "checklist": [
+              "Açılış ve ihtiyaç analizi soru sırası sabitlendi",
+              "İki seçenekli teklif şablonu eklendi (iyi / daha iyi)",
+              "Koşul özeti tek cümle standardı tanımlandı (iptal/ön ödeme)",
+              "Kapanış sorusu standardı var (“rezervasyonu oluşturalım mı?”)",
+              "10–15 itiraz kartı hazır (fiyat / iptal / OTA / kararsızlık)",
+              "Haftalık koçluk ritmi tanımlandı (10 çağrı → 3 hata → 1 düzeltme → rol-play)"
+            ],
+            "href": "/downloads/rezervasyon-satis-script-itiraz-kartlari-v1.0.pdf",
+            "buttonLabel": "Paketi İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Rezervasyon çağrılarında dönüşüm oranı nasıl artırılır?",
+        "a": "Hızlı ihtiyaç analizi, iki seçenekli teklif, itiraz kartlarıyla net yanıt ve güvenli kapanışla artırılır. Script tek başına değil, koçluk/QA döngüsüyle sürekli iyileştirilmelidir."
+      },
+      {
+        "q": "Telefonda misafire hangi soruları sormalıyım?",
+        "a": "Tarih aralığı, kişi sayısı/çocuk yaşları, oda tercihi ve öncelik (fiyat mı esneklik mi) temel set olmalı. Bu bilgiler olmadan verilen fiyat, kararı kolaylaştırmaz."
+      },
+      {
+        "q": "İtirazları (fiyat, tarih, iptal) nasıl karşılamalıyım?",
+        "a": "İtirazı kaygı olarak anlayıp iki alternatif sunarak ilerlemek gerekir. Koşulları tek cümlede netleştirip bir sonraki adımı (kayıt/opsiyon) önermek dönüşümü artırır."
+      },
+      {
+        "q": "Script dönüşüme nasıl etki eder?",
+        "a": "Script, soruların sırasını ve teklif kurgusunu standartlaştırır; agent’lar aynı kaliteyi üretir. Bu standard, kapanış denemesini artırdığı için dönüşümü destekler."
+      },
+      {
+        "q": "Koçluk ve QA neden kritiktir?",
+        "a": "Çünkü itiraz kalıpları ve kampanya koşulları değişir. Düzenli dinleme/geri bildirim, script’in canlı kalmasını ve performansın sürdürülebilir yükselmesini sağlar."
+      },
+      {
+        "q": "“Düşüneyim” diyen misafirleri nasıl azaltırım?",
+        "a": "Genelde teklif belirsizdir veya kapanış net değildir. İki seçenek + fark cümlesi ve net kapanış sorusu (“rezervasyonu oluşturalım mı?”) bu oranı düşürür. Gerekirse kısa bir opsiyon ve net takip zamanı tanımlayın."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "Hero / Cover — 16:9 — telefonla-rezervasyon-donusum-orani-artirma-hero-01.webp — “Telefon rezervasyon dönüşüm funnel’ını otel bağlamında anlatan hero görsel”",
+          "H1 sonrası Context — 16:9 — telefonla-rezervasyon-donusum-orani-artirma-h1-context-02.webp — “Dönüşüm artırma adımlarını tek bakışta özetleyen otel bağlamlı görsel”",
+          "Section Divider 01 — 4:3 — telefonla-rezervasyon-donusum-orani-artirma-divider-03.webp — “Dönüşüm ölçümü ve mini funnel’ı anlatan bölüm ayırıcı görsel”",
+          "Section Divider 02 — 4:3 — telefonla-rezervasyon-donusum-orani-artirma-divider-04.webp — “Teklif kurgusu ve seçenek yapısını anlatan bölüm ayırıcı görsel”",
+          "Diagram / Flow — 16:9 — telefonla-rezervasyon-donusum-orani-artirma-diagram-05.webp — “Koçluk & QA döngüsü veya dönüşüm funnel diyagramı”",
+          "Checklist / Framework Card — 1:1 — telefonla-rezervasyon-donusum-orani-artirma-checklist-06.webp — “AEO dönüşüm checklist kartı (analiz–teklif–itiraz–kapanış)”",
+          "KPI / Score Card — 1:1 — telefonla-rezervasyon-donusum-orani-artirma-kpi-07.webp — “Dönüşüm KPI’larını 5 kartta gösteren skor paneli”",
+          "Deliverables / Proof Card — 1:1 — telefonla-rezervasyon-donusum-orani-artirma-proof-08.webp — “Script tablosu + itiraz kartları + rol-play + koçluk çıktıları”"
+        ],
+        "technicalChecklist": [
+          "Mini funnel KPI paneli: cevaplanma/terk/teklif/kapanış denemesi/dönüşüm/upsell",
+          "Kapanış denemesi KPI’ı zorunlu ölçümde",
+          "Soru seti standardı (tarih + kişi + öncelik) ve PMS not alanı",
+          "İki seçenekli teklif şablonu (iyi / daha iyi) ve koşul özeti (1 cümle)",
+          "İtiraz kartları seti (10–15) ve her itirazda alternatif öner kuralı",
+          "Dürüst scarcity kuralı (doğrulanabilir bilgi)",
+          "Haftalık koçluk ritmi: dinle → hata → düzelt → rol-play → ölç",
+          "Refresh Cycle 180 gün: sezon/kampanya/itiraz kalıpları güncellemesi"
+        ]
+      }
+    }
   }
 
   }

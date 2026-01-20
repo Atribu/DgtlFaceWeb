@@ -283,7 +283,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
             </div>
 
             {/* Türkçe yorum: alt mini progress/dots */}
-            <div className="mt-8 flex items-center gap-2">
+            <div className="mt-10 flex items-center gap-2">
               {posts.map((_, i) => (
                 <button
                   key={i}

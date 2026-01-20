@@ -43,30 +43,72 @@ switch (block.type) {
     );
   }
 
+// Türkçe yorum: oran eşik değeri. 1.4 altı = kareye yakın
+const RATIO_SQUARE_THRESHOLD = 1.4;
+
+// Türkçe yorum: aspect state’i: default 5/3
+const [aspectClass, setAspectClass] = useState("aspect-[5/3]");
+// Türkçe yorum: fit state’i: default cover
+const [fitClass, setFitClass] = useState("object-cover");
+
+const aspectFromJson = (() => {
+  const a = String(block?.aspect || "").trim();
+  if (!a) return null;
+
+  if (a === "square" || a === "1/1") return "aspect-square";
+  if (a === "4/3") return "aspect-[4/3]";
+  if (a === "100/73" || a === "73") return "aspect-[100/73]";
+  if (a === "5/3") return "aspect-[5/3]";
+  return null;
+})();
+
+const fitFromJson = block?.fit === "contain"
+  ? "object-contain"
+  : block?.fit === "cover"
+  ? "object-cover"
+  : null;
+
+// Türkçe yorum: JSON varsa her zaman onu kullan (senin isteğin buydu)
+const finalAspect = aspectFromJson || aspectClass;
+const finalFit = fitFromJson || fitClass;
+
+
+
       return (
         <figure className="mt-6 w-full">
-      <div
-        className={`relative w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize1} ${aspectClass}`}
-      >
-        <Image
-          src={media.src}
-          alt={media.alt || ""}
-          fill
-          sizes="(max-width: 768px) 100vw, 760px"
-  className="object-cover object-center"
+    <div className={`relative w-full h-auto overflow-hidden rounded-2xl border border-white/10 bg-white/5 ${imageSize1} ${finalAspect}`}>
+
+       <Image
+  src={media.src}
+  alt={media.alt || ""}
+  fill
+  sizes="(max-width: 768px) 100vw, 760px"
+  className={`${finalFit} object-center`}
   loading="lazy"
   quality={75}
-          priority={Boolean(block?.priority)}
-          onLoadingComplete={(img) => {
-            const w = img.naturalWidth || 0;
-            const h = img.naturalHeight || 0;
-            if (!w || !h) return;
+  priority={Boolean(block?.priority)}
+  onLoadingComplete={(img) => {
+    // Türkçe yorum: JSON override varsa otomatik hesap yapma
+    if (aspectFromJson || fitFromJson) return;
 
-            const ratio = w / h; // 1 => kare
-            const square = Math.abs(ratio - 1) <= SQUARE_TOLERANCE;
-            setIsSquare(square);
-          }}
-        />
+    const w = img.naturalWidth || 0;
+    const h = img.naturalHeight || 0;
+    if (!w || !h) return;
+
+    const ratio = w / h;
+
+    if (ratio < RATIO_SQUARE_THRESHOLD) {
+      // Türkçe yorum: kareye yakınsa kare yap ve tamamı görünsün
+      setAspectClass("aspect-square");
+      setFitClass("object-contain"); // istersen cover yapabilirsin
+    } else {
+      // Türkçe yorum: geniş/dikdörtgense default
+      setAspectClass("aspect-[5/3]");
+      setFitClass("object-cover");
+    }
+  }}
+/>
+
       </div>
 
       {media.caption ? (
