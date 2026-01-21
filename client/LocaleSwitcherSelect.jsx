@@ -4,15 +4,12 @@ import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import trData from "@/messages/tr.json";
 import enData from "@/messages/en.json";
-import ruData from "@/messages/ru.json";
 
 // locale'a göre JSON'u döndüren yardımcı fonksiyon
 function getLocaleData(locale) {
   switch (locale) {
     case "en":
       return enData;
-    case "ru":
-      return ruData;
     default:
       return trData;
   }

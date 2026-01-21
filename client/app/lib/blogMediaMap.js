@@ -56,62 +56,62 @@ export const BLOG_MEDIA_MAP = {
 
   "core-web-vitals-otel-ve-nextjs-rehberi": {
       banner: {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-1.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-1.webp",
       alt: "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber",
       caption: "Core Web Vitals Nedir? Otel ve Next.js Siteleri İçin Teknik Rehber"
     },
 
 
     "cwv-psi-crux-screen": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-2.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-2.webp",
       alt: "PageSpeed ve CrUX örnek ekranı",
       caption: "CWV metrikleri için PageSpeed/Lighthouse (lab) ve CrUX/RUM (field) farkını gösteren örnek ekran.",
     },
     "hotel-hero-reservation-schema": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-3.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-3.webp",
        alt: "Otel hero + rezervasyon kutusu şeması",
       caption: "Hero görsel + rezervasyon modülü kombinasyonu CWV’de en sık kök neden setidir.", 
      
     },
     "media-optimization": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-4.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-4.webp",
       alt: "Görsel Optimizasyon Akışı",
       caption: "NEXT.JS Hero Görsel Optimizasyon Akışı",
     },
 
     "after-comparison-table": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-5.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-5.webp",
       alt: "Öncesi/Sonrası LCP karşılaştırma",
       caption: "Şablon bazlı LCP iyileştirmesi öncesi/sonrası tablo örneği.",
     },
 
         "cumulative-order-shift": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-6.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-6.webp",
       alt: "CLS Kümülatif Düzen Kayması",
       caption: "CLS Kümülatif Düzen Kayması Karşılaştırması.",
     }, 
 
         "inp-problem": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-7.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-7.webp",
       alt: "INP sorunu örneği",
       caption: "Mobil menü / etkileşim gecikmesi gibi INP sorunlarına örnek.",
     },
 
         "optimization-layers": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-8.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-8.webp",
       alt: "Optimizasyon Katmanları",
       caption: "NEXT.JS CWV Optimizasyon Katmanları",
     },
 
         "cwv-goal": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-9.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-9.webp",
       alt: "CWV Hedef vs. Mevcut Durum",
       caption: "CWV Hedef vs. Mevcut Durum (Örnek Otel Sitesi)",
     },
 
 
     "after-delivery-list": {
-      src: "/images/blog/seo/SEO1-1/SEO1-1-10.jpeg",
+      src: "/images/blog/seo/SEO1-1/SEO1-1-10.webp",
       alt: "Deliverables listesi",
       caption: "Teslimatlar / yapılacaklar listesi örneği.",
     },
@@ -120,61 +120,61 @@ export const BLOG_MEDIA_MAP = {
 
     "google-ads-oteller-icin-nasil-calisir": {
       banner: {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-1.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-1.webp",
       alt: "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi",
       caption: "Google Ads Oteller İçin Nasıl Çalışır? Temel Mantık ve Başlangıç Rehberi"
     },
 
         "account-schema": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-2.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-2.webp",
       alt: "Hesap → kampanya → reklam grubu → ilan → tıklama → rezervasyon” şeması ",
       caption: "Hesap → kampanya → reklam grubu → ilan → tıklama → rezervasyon” şeması "
     },
 
             "exploration-reservation": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-3.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-3.webp",
       alt: " Basit funnel diyagramı (Awareness: Video/Display → Consideration: Search → Conversion: Booking Engine)",
       caption: " Basit funnel diyagramı (Awareness: Video/Display → Consideration: Search → Conversion: Booking Engine)"
     },
 
             "funnel-diagram": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-4.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-4.webp",
       alt: " Basit funnel diyagramı (Awareness: Video/Display → Consideration: Search → Conversion: Booking Engine)",
       caption: " Basit funnel diyagramı (Awareness: Video/Display → Consideration: Search → Conversion: Booking Engine)"
     },
 
             "": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-5.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-5.webp",
       alt: "Core Web Vitals rehberi banner",
       caption: ""
     },
 
                 "control-checklist": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-6.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-6.webp",
       alt: "Google Ads Otel Kurulum Kontrol Listesi",
       caption: "Google Ads Otel Kurulum Kontrol Listesi"
     },
 
     "initial-plan": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-7.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-7.webp",
       alt: "Başlangıç Planı",
       caption: "Başlangıç Planı"
     },
 
                 "setup-checklist": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-8.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-8.webp",
       alt: "Google Ads Otel Kurulum Checklist",
       caption: "Google Ads Otel Kurulum Checklist"
     },
 
                 "sprint-plan": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-9.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-9.webp",
       alt: "14 günlük Google Ads Sprint Planı",
       caption: ""
     },
 
                 "deliverables": {
-      src: "/images/blog/sem/SEM1-1/SEM1-1-10.jpeg",
+      src: "/images/blog/sem/SEM1-1/SEM1-1-10.webp",
       alt: "Paket içeriği (deliverables)",
       caption: ""
     },
@@ -185,61 +185,61 @@ export const BLOG_MEDIA_MAP = {
 
     "google-ads-hesap-ve-kampanya-mimarisi": {
       banner: {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-1.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-1.webp",
       alt: "Google Ads hesap ve kampanya mimarisi",
       caption: "Google Ads hesap ve kampanya mimarisi"
     },
 
         "account-campaigns": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-2.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-2.webp",
       alt: "Campaign Structure Mantığı ",
       caption: "Campaign Structure Mantığı "
     },
 
             "two-hotel": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-3.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-3.webp",
       alt: " “Tek hesapta 2 otel” örnek mimari diyagramı (otel A / otel B blokları)",
       caption: "“Tek hesapta 2 otel” örnek mimari diyagramı (otel A / otel B blokları)"
     },
 
             "": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-4.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-4.webp",
       alt: "",
       caption: ""
     },
 
             "brand-generic": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-5.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-5.webp",
       alt: "Brand vs Generic Kampanya Yapısı",
       caption: "Brand vs Generic Kampanya Yapısı"
     },
 
                 "country-lang": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-6.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-6.webp",
       alt: "Ülke/Dil Kırılımlı Kampanya Mimarisi",
       caption: "Ülke/Dil Kırılımlı Kampanya Mimarisi"
     },
 
     "": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-7.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-7.webp",
       alt: "",
       caption: ""
     },
 
                 "": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-8.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-8.webp",
       alt: "",
       caption: ""
     },
 
                 "": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-9.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-9.webp",
       alt: "",
       caption: ""
     },
 
                 "": {
-      src: "/images/blog/sem/SEM1-2/SEM1-2-10.jpeg",
+      src: "/images/blog/sem/SEM1-2/SEM1-2-10.webp",
       alt: "",
       caption: ""
     },
@@ -250,61 +250,61 @@ export const BLOG_MEDIA_MAP = {
 
   "google-ads-butce-ve-teklif-stratejileri": {
       banner: {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-1.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-1.webp",
       alt: "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
       caption: "Google Ads Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?"
     },
 
         "budget-planning": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-2.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-2.webp",
       alt: "Bütçe Planlama Tablosu",
       caption: "Bütçe Planlama Tablosu"
     },
 
             "layer-diagram": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-3.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-3.webp",
       alt: "Brand vs Generic vs Opsiyonel katman diyagramı ",
       caption: "Brand vs Generic vs Opsiyonel katman diyagramı "
     },
 
             "budget-shifting": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-4.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-4.webp",
       alt: "Sezonluk Bütçe Kaydırma Stratejisi",
       caption: "Sezonluk Bütçe Kaydırma Stratejisi"
     },
 
             "bidding-table": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-5.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-5.webp",
       alt: "Manuel Teklif Verme vs Akıllı Teklif Verme",
       caption: "Manuel Teklif Verme vs Akıllı Teklif Verme"
     },
 
                 "decision-tree": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-6.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-6.webp",
       alt: "Otel Karar Ağacı",
       caption: ""
     },
 
     "transition-plan": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-7.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-7.webp",
       alt: "Bid Geçiş Planı",
       caption: "Bid Geçiş Planı"
     },
 
                 "download-image": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-8.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-8.webp",
       alt: "",
       caption: ""
     },
 
                 "doc-example": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-9.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-9.webp",
       alt: "",
       caption: ""
     },
 
                 "doc-example2": {
-      src: "/images/blog/sem/SEM1-3/SEM1-3-10.jpeg",
+      src: "/images/blog/sem/SEM1-3/SEM1-3-10.webp",
       alt: "",
       caption: ""
     },
@@ -312,61 +312,61 @@ export const BLOG_MEDIA_MAP = {
 
    "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi": {
       banner: {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-1.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-1.webp",
       alt: "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi",
       caption: "Sosyal Medya İçerik Stratejisi: Content Pillars ve Format Dengesi"
     },
 
         "content-pillar": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-2.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-2.webp",
       alt: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi",
       caption: "sosyal-medya-icerik-stratejisi-content-pillars-ve-format-dengesi"
     },
 
             "persona-cards": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-3.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-3.webp",
       alt: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi) ",
       caption: "Persona kartları (2 kart: Otel GM + Ajans yöneticisi)"
     },
 
             "format-distribution": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-4.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-4.webp",
       alt: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)",
       caption: "Format dağılım diyagramı (post/story/reels/carousel yüzdeleri)"
     },
 
             "pillar-table": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-5.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-5.webp",
       alt: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)",
       caption: "Otel pillar tablosu (Pillar adı | Amaç | Ana format | KPI | 10 konu fikri)"
     },
 
                 "30-days": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-6.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-6.webp",
       alt: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)",
       caption: "30 günlük örnek takvim (hafta 1–4; pillar ve format etiketli)"
     },
 
     "transition-plan": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-7.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-7.webp",
       alt: "Bid Geçiş Planı",
       caption: "Bid Geçiş Planı"
     },
 
                 "download-image": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-8.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-8.webp",
       alt: "",
       caption: ""
     },
 
                 "format-distribution-diagram": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-9.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-9.webp",
       alt: "",
       caption: ""
     },
 
                 "4key-benefits": {
-      src: "/images/blog/smm/SMM1-1/SMM1-1-10.jpeg",
+      src: "/images/blog/smm/SMM1-1/SMM1-1-10.webp",
       alt: "Content Pillars'ın 4 temel faydası",
       caption: "Content Pillars'ın 4 temel faydası"
     },
@@ -374,87 +374,87 @@ export const BLOG_MEDIA_MAP = {
 
      "oteliniz-icin-dogru-pms-nasil-secilir": {
       banner: {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-1.webp",
       alt: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber",
       caption: "Oteliniz İçin Doğru PMS Nasıl Seçilir? Adım Adım Seçim ve Kurulum Öncesi Rehber"
     },
 
         "flowchart": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-2.webp",
       alt: "PMS → Channel Manager/OTA → Call Center → Muhasebe",
       caption: "PMS → Channel Manager/OTA → Call Center → Muhasebe"
     },
 
             "infographic2": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-32.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-32.webp",
       alt: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim ",
       caption: "“PMS’in kapsamı” mini infografik: Operasyon / Dağıtım / Gelir / Deneyim"
     },
 
             "table": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-4.webp",
       alt: "Otel Tipine Göre PMS İhtiyaç Analizi",
       caption: "Otel Tipine Göre PMS İhtiyaç Analizi"
     },
 
             "cloud-pms": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-52.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-52.webp",
       alt: "Bulut vs On-Premise (Klasik) PMS: Ne zaman hangisi?",
       caption: "Bulut vs On-Premise (Klasik) PMS"
     },
 
                 "performance": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-6.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-6.webp",
       alt: "Performans Genel Bakış",
       caption: "Performans Genel Bakış"
     },
 
     "pilot-phase": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-7.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-7.webp",
       alt: "Demo, Pilot ve Referans Kontrolü",
       caption: "Demo, Pilot ve Referans Kontrolü"
     },
 
                 "project-plan": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-8.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-8.webp",
       alt: "PMS Seçiminden Kurulum Projesine Geçiş",
       caption: "PMS Seçiminden Kurulum Projesine Geçiş"
     },
 
                 "format-distribution-diagram": {
-      src: "/images/blog/smm/PMS-OTA1-1/Pms1-1-9.jpeg",
+      src: "/images/blog/smm/PMS-OTA1-1/Pms1-1-9.webp",
       alt: "",
       caption: ""
     },
 
                 "4key-benefits": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-10.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-10.webp",
       alt: "Content Pillars'ın 4 temel faydası",
       caption: "Content Pillars'ın 4 temel faydası"
     },
 
                     "download-image": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-11.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-11.webp",
       alt: "Otel Pms-Ota Kontrol Listesi",
       caption: "Otel Pms-Ota Kontrol Listesi"
     },
                     "sprint-plan": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-12.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-12.webp",
       alt: "“Kurulum Gantt” mini görsel (4–8 hafta örnek plan)",
       caption: "“Kurulum Gantt” mini görsel (4–8 hafta örnek plan)"
     },
                     "problem-solution": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-13.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-13.webp",
       alt: "",
       caption: ""
     },
                     "before-after": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-14.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-14.webp",
       alt: "",
       caption: ""
     },
                     "delivery": {
-      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-15.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-1/Pms1-1-15.webp",
       alt: "",
       caption: ""
     },
@@ -462,61 +462,61 @@ export const BLOG_MEDIA_MAP = {
 
    "4-dilli-cagri-merkezi-nedir-nasil-calisir": {
       banner: {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-1.webp",
       alt: "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?",
       caption: "4 Dilli Çağrı Merkezi Nedir, Oteller İçin Nasıl Çalışır?"
     },
 
           "diagram": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-2.webp",
       alt: ": 4 dilli çağrı merkezi mimari",
       caption: ": 4-dilli-cagri-merkezi-mimari"
     },
 
              "map": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-3.webp",
       alt: "Otel SEO çerçevesi ayırıcı",
       caption: "Otel SEO’nun klasik SEO’dan farkını özetleyen bölüm ayracı."
     },
 
            "lang-callcenter": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-4.webp",
       alt: "4 dilli çağrı merkezi nedir nasıl çalışır",
       caption: "4-dilli-cagri-merkezi-nedir-nasil-calisir"
     },
 
           "inbound-outbound": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-5.webp",
       alt: "Operasyon yapısı: Inbound, Outbound ve kanal yönetimi",
       caption: "Operasyon yapısı: Inbound, Outbound"
     },
 
       "integrated": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-6.webp",
       alt: " Entegrasyon: WhatsApp + OTA mesaj + e-posta → PMS/CRM",
       caption: " Entegrasyon: Mesaj -> Lead Dönüşümü"
     },
 
      "hotel-scenario": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-7.webp",
       alt: "Oteller ve markalar için kullanım senaryoları ",
       caption: "Oteller ve markalar için kullanım senaryoları (ikonlu)"
     },
 
             "partner-selection": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-8.webp",
       alt: "Doğru partneri seçerken nelere bakmalısınız?",
       caption: "Seçim kriterleri (5 madde)"
     },
 
                 "7-steps": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-9.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-9.webp",
       alt: "4 dilli çağrı merkezi devreye almak için 7 adım",
       caption: "4 dilli çağrı merkezi devreye almak için 7 adım"
     },
 
                 "sprint-plan": {
-      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-10.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-10.webp",
       alt: "TR-EN-DE-RU Çağrı Merkezi Başlangıç Check-List & Sprint Planı",
       caption: "TR-EN-DE-RU Çağrı Merkezi Başlangıç Check-List & Sprint Planı"
     }
@@ -526,43 +526,43 @@ export const BLOG_MEDIA_MAP = {
 
      "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": {
       banner: {
-      src: "/images/blog/software/Software1-1/Software1-1-1.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-1.webp",
       alt: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
       caption: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde"
     },
 
         "golive-diagram": {
-      src: "/images/blog/software/Software1-1/Software1-1-2.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-2.webp",
       alt: "“Go-Live Öncesi 40 Madde Checklist” kısa tablo görseli",
       caption: "“Go-Live Öncesi 40 Madde Checklist” kısa tablo görseli"
     },
 
             "redirect-map": {
-      src: "/images/blog/software/Software1-1/Software1-1-3.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-3.webp",
       alt: "Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not) ",
       caption: "Redirect haritası örnek tablo (Eski URL | Yeni URL | Kod | Not)"
     },
 
             "lang-hreflang": {
-      src: "/images/blog/software/Software1-1/Software1-1-4.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-4.webp",
       alt: " Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)",
       caption: " Hreflang örnek eşleşme tablosu (TR/EN/DE/RU URL)"
     },
 
             "security-cards": {
-      src: "/images/blog/software/Software1-1/Software1-1-5.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-5.webp",
       alt: "Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)",
       caption: "Güvenlik kontrol kartı (2FA • Backup • WAF • Logs)"
     },
 
                 "download-image": {
-      src: "/images/blog/software/Software1-1/Software1-1-6.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-6.webp",
       alt: "",
       caption: ""
     },
 
     "go-live-package": {
-      src: "/images/blog/software/Software1-1/Software1-1-7.jpeg",
+      src: "/images/blog/software/Software1-1/Software1-1-7.webp",
       alt: "",
       caption: ""
     },
@@ -573,49 +573,49 @@ export const BLOG_MEDIA_MAP = {
 
       "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir": {
       banner: {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-1.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-1.webp",
       alt: "Otel SEO stratejisi ve direct booking hedefi",
       caption: "Otel SEO: OTA rekabetine rağmen direct booking hedefi için çerçeve."
     },
 
           "h1-context": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-2.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-2.webp",
       alt: "OTA rekabeti ve Google görünürlüğü bağlamı",
       caption: "Marka ve destinasyon sorgularında görünürlük farkı."
     },
 
              "divider-01": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-3.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-3.webp",
       alt: "Otel SEO çerçevesi ayırıcı",
       caption: "Otel SEO’nun klasik SEO’dan farkını özetleyen bölüm ayracı."
     },
 
            "divider-02": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-4.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-4.webp",
       alt: "SERP bileşenleri ve OTA rekabeti",
       caption: "Hotel Pack + organik + PAA katmanını birlikte okuma."
     },
 
           "diagram-05": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-5.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-5.webp",
       alt: "Direct booking funnel ve sayfa türleri",
       caption: "Keşif → oda/teklif → rezervasyon akışı için sayfa türleri haritası."
     },
 
       "checklist": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-6.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-6.webp",
       alt: "Otel SEO üçgeni ve kontrol listesi",
       caption: "Teknik + içerik + yerel üçgeni için hızlı kontrol kartı."
     },
 
      "kpi-table": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-7.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-7.webp",
       alt: "Otel SEO KPI seti tablosu",
       caption: "Trafik değil: gelir + rezervasyon + Hotel Pack metrikleri birlikte."
     },
 
             "proof-08": {
-      src: "/images/blog/hotel/Otel1-1/Otel1-1-8.jpeg",
+      src: "/images/blog/hotel/Otel1-1/Otel1-1-8.webp",
       alt: "Otel SEO yol haritası çıktıları",
       caption: "Yol haritası, backlog ve ölçüm panosu gibi teslimatlar."
     }
@@ -625,49 +625,49 @@ export const BLOG_MEDIA_MAP = {
 
      "marka-sosyal-medya-gorsel-dili-rehberi": {
       banner: {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-1.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-1.webp",
       alt: "Marka Sosyal Medya Görsel Dili Rehberi",
       caption: "Marka Sosyal Medya Görsel Dili Rehberi"
     },
 
           "mockup-goodbad": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-2.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-2.webp",
       alt: "Marka sosyal medya görsel dili rehberi",
       caption: "Marka sosyal medya görsel dili rehberi"
     },
 
              "logo-safearea": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-3.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-3.webp",
       alt: "Sosyal Medya İçin Görsel Dil Bileşenleri",
       caption: "Logo Dozaj & Safe Area Kuralları"
     },
 
            "photo-grid": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-4.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-4.webp",
       alt: "B2B Fotoğraf Dili (Ekip/Ürün/Dashboard)",
       caption: "Sektörel fotoğraf dili örnekleri"
     },
 
           "quick-spec": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-5.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-5.webp",
       alt: "Örnek Stil Rehberi Yapısı",
       caption: "Marka Görsel Dili"
     },
 
       "do-dont": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-6.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-6.webp",
       alt: "Örnek Stil Rehberi Yapısı",
       caption: "Görsel Dili"
     },
 
      "download": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-7.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-7.webp",
       alt: "Marka Görsel Dil & Feed Tutarlılık Checklist’ini İndir — Creative / Sosyal Medya Görsel Dili (v1.0)",
       caption: "download pdf"
     },
 
             "problem-sol": {
-      src: "/images/blog/creative/Creative1-1/Creative1-1-8.jpeg",
+      src: "/images/blog/creative/Creative1-1/Creative1-1-8.webp",
       alt: "Problem→Kök Neden→Çözüm tablosu",
       caption: "Problem -> Kök Neden -> Çözüm Tablosu"
     }
@@ -677,49 +677,49 @@ export const BLOG_MEDIA_MAP = {
 
   "looker-studio-oteller-icin-nedir-nasil-calisir": {
       banner: {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-1.webp",
       alt: "Looker Studio ile otel KPI dashboard kurulumunu anlatan kapak görseli",
       caption: "Looker Studio ile otel KPI dashboard kurulumunu anlatan kapak görseli"
     },
 
           "panel-report": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-2.webp",
       alt: "Otel verilerini tek panelde birleştiren raporlama bağlam görseli",
       caption: "Otel verilerini tek panelde birleştiren raporlama bağlam görseli"
     },
 
              "section": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-3.webp",
       alt: "Otel raporlama kullanım alanlarını bölen bölüm ayırıcı görseli",
       caption: "Otel raporlama kullanım alanlarını bölen bölüm ayırıcı görseli"
     },
 
            "scenario": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-4.webp",
       alt: "Turizm odaklı örnek panel senaryolarını bölen ayırıcı görsel",
       caption: "Turizm odaklı örnek panel senaryolarını bölen ayırıcı görsel"
     },
 
           "flow-diagram": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-5.webp",
       alt: "Veri kaynaklarından otel dashboard’a trafik rezervasyon gelir akış diyagramı",
       caption: "Veri kaynaklarından otel dashboard’a trafik rezervasyon gelir akış diyagramı"
     },
 
       "checklist": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-6.webp",
       alt: "İlk otel dashboard kurulum adımlarını özetleyen kontrol kartı görseli",
       caption: "İlk otel dashboard kurulum adımlarını özetleyen kontrol kartı görseli"
     },
 
      "score-card": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-7.webp",
       alt: "Otel KPI skor kartı ile doluluk ADR RevPAR özet panel görseli",
       caption: "Otel KPI skor kartı ile doluluk ADR RevPAR özet panel görseli"
     },
 
             "deliverables": {
-      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-1/Reporting1-1-8.webp",
       alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
       caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
     }
@@ -729,61 +729,61 @@ export const BLOG_MEDIA_MAP = {
 
   "site-mimarisi-ve-url-yapisi-otel-ve-ajans-siteleri-icin": {
       banner: {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-1.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-1.webp",
       alt: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
       caption: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji"
     },
 
           "silo": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-2.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-2.webp",
       alt: "Site Mimarisi ve URL Yapısı: Otel ve Ajans Siteleri İçin SEO Dostu Strateji",
       caption: "Silo Bazlı Site Mimarisi"
     },
 
            "flat-deep": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-3.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-3.webp",
       alt: "Flat vs derin yapı: Hangisi daha sağlıklı?",
       caption: "Mimari Derinlik: Flat vs Deep"
     },
 
      "domain-subdomain": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-4.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-4.webp",
       alt: "Çok otelli yapılarda domain/subdomain kararı",
       caption: "Domain Subdomain karar ağacı"
     },
 
           "silo-hierarchy": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-5.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-5.webp",
       alt: "Otel Sitelerinde Oda, Konsept ve Destinasyon Sayfaları",
       caption: "Otel Sitelerinde Oda, Konsept ve Destinasyon Sayfaları"
     },
 
       "silo-schema": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-6.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-6.webp",
       alt: "Ajans ve Hizmet Sitelerinde Hizmet Silo’ları",
       caption: "Ajans ve Hizmet Sitelerinde Hizmet Silo’ları"
     },
 
      "good-bad-url": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-7.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-7.webp",
       alt: "URL Yapısı ve Anahtar Kelime Kullanımı",
       caption: "URL Yapısı ve Anahtar Kelime Kullanımı"
     },
 
             "flow": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-8.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-8.webp",
       alt: "Breadcrumb, Dahili Link ve Menü Yapısı",
       caption: "Breadcrumb, Dahili Link ve Menü Yapısı"
     },
 
                 "silo-breadcrumbs": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-9.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-9.webp",
       alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
       caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
     },
 
                 "download": {
-      src: "/images/blog/seo/SEO1-2/SEO1-2-10.jpeg",
+      src: "/images/blog/seo/SEO1-2/SEO1-2-10.webp",
       alt: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı",
       caption: "Otel raporlama çıktıları ve güven unsurlarını gösteren deliverables kartı"
     }
@@ -792,67 +792,67 @@ export const BLOG_MEDIA_MAP = {
 
   "aylik-sosyal-medya-icerik-takvimi-nasil-kurulur": {
       banner: {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-1.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-1.webp",
       alt: "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?",
       caption: "Aylık Sosyal Medya İçerik Takvimi Nasıl Kurulur?"
     },
 
           "monthly-smm": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-2.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-2.webp",
       alt: "Aylık İçerik Takvimi Nedir ve Neyi Çözer?",
       caption: "Aylık Sosyal Medya İçerik Operasyon Modeli"
     },
 
            "sheets-excel": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-3.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-3.webp",
       alt: "İçerik takviminde hangi sütunlar olmalı?",
       caption: "Aylık Sosyal Medya İçerik Takvimi"
     },
 
      "content-status-flow": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-4.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-4.webp",
       alt: "Revizyon ve Onay Süreci Nasıl Yönetilir?",
       caption: "İçerik Durum Akışı"
     },
 
           "hotel-weekly": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-5.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-5.webp",
       alt: "Otel için örnek haftalık yayın ritmi",
       caption: "Aylık İçerik Ritim Dağılımı "
     },
 
       "kpi-column-example-calendar": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-6.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-6.webp",
       alt: "Raporlama ile Takvimi Beslemek",
       caption: "KPI sütunlu aylık örnek takvim"
     },
 
      "excel-example": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-7.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-7.webp",
       alt: "Aylık Sosyal Medya İçerik Takvimi Şablonu",
       caption: "Aylık Sosyal Medya İçerik Takvimi Şablonu"
     },
 
             "flow": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-8.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-8.webp",
       alt: "İçerik Üretim Durum Akışı ve Sorumluluklar",
       caption: "İçerik Üretim Durum Akışı ve Sorumluluklar"
     },
 
     "excel-view": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-9.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-9.webp",
       alt: "Aylık Takvim Filtreleme & Görünüm Örneği",
       caption: "Aylık Takvim Filtreleme & Görünüm Örneği"
     },
 
                 "monthly-revision": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-10.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-10.webp",
       alt: "Aylık Revizyon Toplantısı Modeli",
       caption: "Aylık Revizyon Toplantısı Modeli"
     },
 
                     "checklist": {
-      src: "/images/blog/smm/SMM1-2/SMM1-2-11.jpeg",
+      src: "/images/blog/smm/SMM1-2/SMM1-2-11.webp",
       alt: "İlk Ay için Minimum 20 İçerik Planı Checklist’i",
       caption: "İlk Ay için Minimum 20 İçerik Planı Checklist’i"
     }
@@ -863,43 +863,43 @@ export const BLOG_MEDIA_MAP = {
 
     "nextjs-ile-kurumsal-web-sitesi-mimarisi-nasil-kurulur": {
       banner: {
-      src: "/images/blog/software/Software1-2/Software1-2-1.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-1.webp",
       alt: "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?",
       caption: "Next.js ile Kurumsal Web Sitesi Mimarisi Nasıl Kurulur?"
     },
 
           "architectural-map": {
-      src: "/images/blog/software/Software1-2/Software1-2-2.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-2.webp",
       alt: "Kurumsal Next.js Mimari Haritası",
       caption: "Kurumsal Next.js Mimari Haritası"
     },
 
            "rendering-strategies": {
-      src: "/images/blog/software/Software1-2/Software1-2-3.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-3.webp",
       alt: "SSR/SSG/ISR tercihi: Kurumsal projede render stratejisini nasıl seçersiniz?",
       caption: "Next.js Render Stratejileri: SSR vs SSG vs ISR"
     },
 
      "folder-structure": {
-      src: "/images/blog/software/Software1-2/Software1-2-4.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-4.webp",
       alt: "Örnek Next.js App Router Klasör Yapısı",
       caption: "Örnek Next.js App Router Klasör Yapısı"
     },
 
           "critical-layers": {
-      src: "/images/blog/software/Software1-2/Software1-2-5.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-5.webp",
       alt: "Otel ve B2B örnek mimariler: aynı Next.js, farklı kritik katmanlar",
       caption: "Otel vs B2B Next.js Mimari Odakları "
     },
 
       "download": {
-      src: "/images/blog/software/Software1-2/Software1-2-6.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-6.webp",
       alt: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
       caption: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)"
     },
 
      "strategy-package": {
-      src: "/images/blog/software/Software1-2/Software1-2-7.jpeg",
+      src: "/images/blog/software/Software1-2/Software1-2-7.webp",
       alt: "Next.js Kurumsal Mimari Strateji Paketi",
       caption: "Next.js Kurumsal Mimari Strateji Paketi"
     },  
@@ -908,31 +908,31 @@ export const BLOG_MEDIA_MAP = {
 
    "oteller-icin-sosyal-medya-post-tasarim-rehberi": {
       banner: {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-1.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-1.webp",
       alt: "Oteller İçin Sosyal Medya Post Tasarım Rehberi",
       caption: "Oteller İçin Sosyal Medya Post Tasarım Rehberi"
     },
 
           "instagram-post": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-2.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-2.webp",
       alt: "Örnek feed grid’i: 9/12 post set ile sistem kurun",
       caption: "Örnek feed grid’i: 9/12 post set ile sistem kurun"
     },
 
            "hotel-template": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-3.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-3.webp",
       alt: "Otel sosyal medya post tasarımı nasıl olmalı?",
       caption: "Otel Post Şablon Seti"
     },
 
      "composition": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-4.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-4.webp",
       alt: "Oda, havuz, restoran ve deneyim fotoğraflarını kurgulamak",
       caption: "Kompozisyon Kuralı: Önce Duygu, Sonra Bilgi"
     },
 
           "price-cta": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-5.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-5.webp",
       alt: "Yazı alanı, fiyat/CTA kullanımı",
       caption: "Yazı alanı, fiyat/CTA kullanımı"
     },
@@ -940,19 +940,19 @@ export const BLOG_MEDIA_MAP = {
 
 
      "9-grid-plan": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-6.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-6.webp",
       alt: "9 Postluk Set Planı: Denge & Akış",
       caption: "9 Postluk Set Planı: Denge & Akış"
     },  
 
           "download": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-7.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-7.webp",
       alt: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)",
       caption: "“Next.js Kurumsal Site Mimari Karar” Checklist Şablonunu İndir — Yazılım (v1.0)"
     },
 
          "strategy": {
-      src: "/images/blog/creative/Creative1-2/Creative1-2-8.jpeg",
+      src: "/images/blog/creative/Creative1-2/Creative1-2-8.webp",
       alt: "Next.js Kurumsal Mimari Strateji Paketi",
       caption: "Next.js Kurumsal Mimari Strateji Paketi"
     },  
@@ -961,31 +961,31 @@ export const BLOG_MEDIA_MAP = {
 
    "tr-en-de-ru-cagri-script-tasarimi": {
       banner: {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-1.webp",
       alt: "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları",
       caption: "TR–EN–DE–RU Çağrı Script Tasarımı: Oteller İçin Konuşma Akışları"
     },
 
           "call-flow": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-2.webp",
       alt: "4 dilli çağrı script’i nasıl tasarlanmalı? ",
       caption: "İdeal Çağrı Akışı"
     },
 
            "basic-greeting": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-3.webp",
       alt: " TR–EN–DE–RU temel selamlama ve açılış (kültürel uyum)",
       caption: " TR–EN–DE–RU temel selamlama ve açılış (kültürel uyum)"
     },
 
      "good-bad-script-comparison": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-4.webp",
       alt: "İtiraz karşılama (fiyat itirazı) — kısa şablon",
       caption: "İtiraz karşılama (fiyat itirazı) — kısa şablon"
     },
 
           "agent-screen-notes-mockup": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-5.webp",
       alt: "OTA, WhatsApp ve DM’den gelen talepler için kısa script’ler",
       caption: "OTA, WhatsApp ve DM’den gelen talepler için kısa script’ler"
     },
@@ -993,25 +993,25 @@ export const BLOG_MEDIA_MAP = {
 
 
      "management-cycle": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-6.webp",
       alt: "Şikayet yönetim döngüsü",
       caption: "Şikayet yönetim döngüsü"
     },  
 
           "quality-education": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-7.webp",
       alt: "Script, ton ve marka dili uyumunu korumak (kalite & eğitim)",
       caption: "Kalite ve Eğitim Rutini"
     },
 
          "7-step-plan": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-8.webp",
       alt: "7 Adımda Script Devreye Alma",
       caption: "7 Adımda Script Devreye Alma"
     },  
 
               "download": {
-      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-9.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-2/Callcenter1-2-9.webp",
       alt: "",
       caption: ""
     },
@@ -1019,31 +1019,31 @@ export const BLOG_MEDIA_MAP = {
 
    "seo-sem-smm-verilerini-tek-panelde-birlestirmek": {
       banner: {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-1.webp",
       alt: "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek",
       caption: "SEO, SEM ve SMM Verilerini Looker Studio’da Tek Panelde Birleştirmek"
     },
 
           "single-panel": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-2.webp",
       alt: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak",
       caption: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak"
     },
 
            "common-kpi-panel": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-3.webp",
       alt: " Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
       caption: "Ortak KPI Paneli"
     },
 
      "good-bad-script-comparison": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-4.webp",
       alt: "İtiraz karşılama (fiyat itirazı) — kısa şablon",
       caption: "İtiraz karşılama (fiyat itirazı) — kısa şablon"
     },
 
           "looker-studio": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-5.webp",
       alt: "Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
       caption: "Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)"
     },
@@ -1051,19 +1051,19 @@ export const BLOG_MEDIA_MAP = {
 
 
      "installation-steps": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-6.webp",
       alt: "Kanal bazlı performans karşılaştırması (funnel + katkı okuması)",
       caption: "Çok Kanallı Dashboard Kurulum Adımları"
     },  
 
           "performance": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-7.webp",
       alt: "SEO - SEM - SMM Performansı",
       caption: "SEO - SEM - SMM Performansı"
     },
 
          "gains": {
-      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-2/Reporting1-2-8.webp",
       alt: "",
       caption: "Raporlama Çıktıları ve Kazanımlar"
     }
@@ -1073,31 +1073,31 @@ export const BLOG_MEDIA_MAP = {
 
    "oda-sayfalari-google-travel-icin-nasil-optimize-edilir": {
       banner: {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-1.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-1.webp",
       alt: "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?",
       caption: "Oda Sayfaları Google Travel ve Direct Booking İçin Nasıl Optimize Edilir?"
     },
 
           "w": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-2.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-2.webp",
       alt: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak",
       caption: "Ortak KPI mantığı: Her kanalın rolünü tek ölçekte okumak"
     },
 
            "landing-page": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-3.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-3.webp",
       alt: " Veri kaynaklarını Looker Studio’ya bağlamak (pratik kurulum)",
       caption: "Ortak KPI Paneli"
     },
 
      "10-critical-areas": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-4.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-4.webp",
       alt: "",
       caption: "Oda Sayfası: 10 Kritik Alan"
     },
 
           "google-travel": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-5.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-5.webp",
       alt: "",
       caption: "Google Traverl'dan Doğrudan Rezervasyon Akış"
     },
@@ -1105,19 +1105,19 @@ export const BLOG_MEDIA_MAP = {
 
 
      "checklist": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-6.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-6.webp",
       alt: "",
       caption: "Oda Sayfası Seo ve Ux Hızlı Kontrol"
     },  
 
           "performance-panel": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-7.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-7.webp",
       alt: "SEO - SEM - SMM Performansı",
       caption: "Performans Paneli"
     },
 
          "download": {
-      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-8.jpeg",
+      src: "/images/blog/hotel/Hotel1-2/Hotel1-2-8.webp",
       alt: "",
       caption: ""
     }
@@ -1126,31 +1126,31 @@ export const BLOG_MEDIA_MAP = {
 
   "pms-kurulum-projesi-adim-adim": {
       banner: {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-1.webp",
       alt: "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?",
       caption: "Otel PMS Kurulum Projesi Adım Adım Nasıl Yönetilir?"
     },
 
           "6-step": {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-2.webp",
       alt: "PMS Kurulum Projesinin Aşamaları",
       caption: "PMS Kurulum Projesi: 6 Adımda Başarı Yolculuğu"
     },
 
            "phase-plan": {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-3.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-3.webp",
       alt: "Faz Mantığı ",
       caption: "Faz Mantığı "
     },
 
      "matrix": {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-4.webp",
       alt: "",
       caption: ""
     },
 
           "checklist": {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-5.webp",
       alt: "",
       caption: ""
     },
@@ -1158,7 +1158,7 @@ export const BLOG_MEDIA_MAP = {
 
 
      "download": {
-      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-6.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-2/Pms1-2-6.webp",
       alt: "",
       caption: ""
     }
@@ -1166,61 +1166,61 @@ export const BLOG_MEDIA_MAP = {
 
    "robots-txt-ve-sitemap-otel-sitelerinde-tarama-kontrolu": {
       banner: {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-1.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-1.webp",
       alt: "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?",
       caption: "robots.txt ve XML Sitemap ile Otel Sitelerinde Tarama Kontrolü Nasıl Sağlanır?"
     },
 
           "robots-sitemap": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-2.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-2.webp",
       alt: "robots.txt ve sitemap.xml",
       caption: "robots.txt ve sitemap.xml"
     },
 
            "sitemap-structure": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-3.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-3.webp",
       alt: "Sitemap index (çoklu sitemap yönetimi) ",
       caption: "İdeal Otel Sitemap Yapısı "
     },
 
      "crawl-budget": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-4.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-4.webp",
       alt: "Tarama Bütçesini Yönetmek (Crawl Budget)",
       caption: "Crawl Budget Yönetimi: Verimli vs İsraf"
     },
 
           "reservation": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-5.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-5.webp",
       alt: "Hangi Sayfalar Engellenmeli / Açık Olmalı?",
       caption: "Rezervasyon Adımları İndeks Riski"
     },
 
      "robots-example-code": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-6.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-6.webp",
       alt: "Örnek robots.txt (otel odaklı, güvenli başlangıç)",
       caption: "Örnek otel robots.txt dosyası"
     },
 
         "sitemap-example": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-7.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-7.webp",
       alt: "",
       caption: "Örnek sitemap.xml dosyası"
     },
 
         "search-console": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-8.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-8.webp",
       alt: "Test ve Doğrulama Süreci (Search Console)",
       caption: "Google Search Console Paneli"
     },
 
         "performance": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-9.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-9.webp",
       alt: "",
       caption: "Öncesi/Sonrası: Tarama & Keşif Performansı"
     },
 
         "download": {
-      src: "/images/blog/seo/SEO1-3/SEO1-3-10.jpeg",
+      src: "/images/blog/seo/SEO1-3/SEO1-3-10.webp",
       alt: "",
       caption: ""
     },
@@ -1234,55 +1234,55 @@ export const BLOG_MEDIA_MAP = {
 
    "marka-kimligi-gorsel-dil-ve-feed-tutarliligi": {
       banner: {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-1.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-1.webp",
       alt: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?",
       caption: "Marka Kimliği, Görsel Dil ve Feed Tutarlılığı Nasıl Kurulur?"
     },
 
           "color-palette": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-2.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-2.webp",
       alt: "Renk paleti nasıl seçilmeli?",
       caption: "Mini Renk Paleti Kılavuzu"
     },
 
            "typography-guide": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-3.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-3.webp",
       alt: "Tipografi seçimi (2 font kuralı)",
       caption: "Sosyal Medya Tipografi Kılavuzu "
     },
 
      "pattern": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-4.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-4.webp",
       alt: "Grid/Feed Tasarımı ve Pattern’ler",
       caption: "Tutarlı Pattern"
     },
 
           "story-reels-template": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-5.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-5.webp",
       alt: "Post, Story ve Reels’te Tutarlılık",
       caption: "Post, Story ve Reels’te Tutarlılık"
     },
 
      "visual-language-guide": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-6.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-6.webp",
       alt: "Otel sosyal medya görsel dil rehberi mini kılavuz",
       caption: "Otel sosyal medya görsel dil rehberi mini kılavuz"
     },
 
         "b2b-feed-mockup": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-7.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-7.webp",
       alt: "",
       caption: "B2B Feed Mockup"
     },
 
         "download": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-8.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-8.webp",
       alt: "",
       caption: ""
     },
 
         "feed-package": {
-      src: "/images/blog/smm/SMM1-4/SMM1-4-9.jpeg",
+      src: "/images/blog/smm/SMM1-4/SMM1-4-9.webp",
       alt: "Marka Kimliği & Feed Tutarlılığı Paketi",
       caption: "Marka Kimliği & Feed Tutarlılığı Paketi"
     }
@@ -1290,49 +1290,49 @@ export const BLOG_MEDIA_MAP = {
 
    "web-sitesi-performans-rehberi-core-web-vitals-ve-hiz-optimizasyonu": {
       banner: {
-      src: "/images/blog/software/Software1-3/Software1-3-1.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-1.webp",
       alt: "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu",
       caption: "Web Sitesi Performans Rehberi: Core Web Vitals ve Hız Optimizasyonu"
     },
 
           "cwv-table": {
-      src: "/images/blog/software/Software1-3/Software1-3-2.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-2.webp",
       alt: "Core Web Vitals Nedir? (LCP, CLS, INP)",
       caption: "Core Web Vitals: Hedefler ve Çözümler"
     },
 
            "lcp": {
-      src: "/images/blog/software/Software1-3/Software1-3-3.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-3.webp",
       alt: "LCP (Largest Contentful Paint) – “Sayfanın en büyük öğesi ne zaman geliyor?”",
       caption: "LCP Nedir? "
     },
 
      "performance-cycle": {
-      src: "/images/blog/software/Software1-3/Software1-3-4.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-4.webp",
       alt: "Hız Optimizasyonu İçin Öncelikler",
       caption: "Performans Optimizasyon Döngüsü (Öncelik Sırası)"
     },
 
           "font-loading": {
-      src: "/images/blog/software/Software1-3/Software1-3-5.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-5.webp",
       alt: "Font optimizasyonu (FOIT/FOUT kontrolü)",
       caption: "Font Yükleme Stratejisi"
     },
 
      "nextjs-performance": {
-      src: "/images/blog/software/Software1-3/Software1-3-6.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-6.webp",
       alt: "Next.js Özelinde Performans İpuçları",
       caption: "Next.js Performans Araçları"
     },
 
         "hotel-b2b": {
-      src: "/images/blog/software/Software1-3/Software1-3-7.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-7.webp",
       alt: " Otel ve B2B İçin Performans Checklist’i",
       caption: "Sektörel Odak: Otel vs B2B Performans Riskleri"
     },
 
         "download": {
-      src: "/images/blog/software/Software1-3/Software1-3-8.jpeg",
+      src: "/images/blog/software/Software1-3/Software1-3-8.webp",
       alt: "",
       caption: ""
     }
@@ -1341,49 +1341,49 @@ export const BLOG_MEDIA_MAP = {
 
   "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin": {
       banner: {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-1.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-1.webp",
       alt: "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin",
       caption: "Motion Graphic ile Hikâye Anlatımı: Sosyal Medya ve Web İçin"
     },
 
           "video-flow": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-2.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-2.webp",
       alt: "“Tek Mesaj” Kuralı",
       caption: "10-20 Sn Motion Video Akışı (Tek Mesaj Kuralı)"
     },
 
            "storyboard": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-3.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-3.webp",
       alt: "Hikâye Yapısı (Giriş–Gelişme–Çözüm)",
       caption: "Storyboard Örneği: Otel Rezervasyon Kampanyası"
     },
 
      "video-timeline": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-4.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-4.webp",
       alt: "Mikro Hikâye Şablonu (10–20 sn)",
       caption: "10-20 Sn Motion Video Zaman Çizelgesi"
     },
 
           "scenario-hotel-b2b": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-5.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-5.webp",
       alt: "Otel ve B2B için motion graphic senaryosu nasıl yazılır?",
       caption: "Senorya Karşılaştırması: Otel vs B2B"
     },
 
      "hook-example": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-6.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-6.webp",
       alt: "Hook ve İlk 3 Saniye",
       caption: "Hook Örnekleri"
     },
 
         "download": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-7.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-7.webp",
       alt: "",
       caption: ""
     },
 
         "template": {
-      src: "/images/blog/creative/Creative1-3/Creative1-3-8.jpeg",
+      src: "/images/blog/creative/Creative1-3/Creative1-3-8.webp",
       alt: "",
       caption: ""
     }
@@ -1391,61 +1391,61 @@ export const BLOG_MEDIA_MAP = {
 
    "4-dilli-agent-secimi-egitim-ve-kocluk": {
       banner: {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-1.webp",
       alt: "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli",
       caption: "4 Dilli Çağrı Merkezi Agent Seçimi, Eğitim ve Koçluk Modeli"
     },
 
           "ideal-persona-cards": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-2.webp",
       alt: "4 dilli çağrı merkezi için doğru agent profili nasıl oluşturulur?",
       caption: "4 dilli çağrı merkezi için doğru agent profili nasıl oluşturulur?"
     },
 
            "expectation": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-3.webp",
       alt: "Dil seviyesi, aksan ve kültürel uyum: pratik kriter seti",
       caption: "Dil seviyesi, aksan ve kültürel uyum: pratik kriter seti"
     },
 
      "onboarding-plan": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-4.webp",
       alt: "Otel & turizm bilgisi + script eğitimi: onboarding’i nasıl tasarlamalısınız?",
       caption: "Otel & turizm bilgisi + script eğitimi: onboarding’i nasıl tasarlamalısınız?"
     },
 
           "score-card": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-5.webp",
       alt: "",
       caption: "Çağrı Kalite Skor Kartı"
     },
 
      "coaching-cycle": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-6.webp",
       alt: "Sürekli koçluk, dinleme ve geri bildirim döngüsü (QA modeli)",
       caption: "Sürekli koçluk, dinleme ve geri bildirim döngüsü (QA modeli)"
     },
 
         "burnout": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-7.webp",
       alt: "Agent deneyimi ve tükenmişlik yönetimi (sezon gerçeği)",
       caption: "Sezon İçi Tükenmişlik (Burnout) Sinyalleri"
     },
 
         "shift-break": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-8.webp",
       alt: "",
       caption: "Yoğun Sezon: Örnek Vardiya ve Mola Tasarımı"
     },
 
     "7-step": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-9.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-9.webp",
       alt: "",
       caption: "7 Adımda Hızlı Uygulama: 4 Dilli Ekip Kurulumu"
     },
 
     "download": {
-      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-10.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-3/Callcenter1-3-10.webp",
       alt: "",
       caption: ""
     }
@@ -1453,37 +1453,37 @@ export const BLOG_MEDIA_MAP = {
 
   "pms-data-migration-ve-temizlik-sureci": {
       banner: {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-1.webp",
       alt: "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?",
       caption: "PMS Geçişinde Data Migration ve Temizlik Süreci Nasıl Yönetilir?"
     },
 
           "pms-data-migration-flow": {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-2.webp",
       alt: "Adım adım migration akışı (uygulamalı)",
       caption: "Pms Data Migration Akışı"
     },
 
            "data-classfication": {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-3.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-3.webp",
       alt: "Hangi Veriler Taşınmalı, Hangileri Temizlenmeli?",
       caption: "Veri Sınıflandırma Stratejileri"
     },
 
      "mapping-schema": {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-4.webp",
       alt: "",
       caption: "Yeni Alan Eşleme Şeması"
     },
 
           "checklist": {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-5.webp",
       alt: "Migration test checklist’i",
       caption: "Migration Doğrulama Checklist"
     },
 
      "download": {
-      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-6.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-3/Pms1-3-6.webp",
       alt: "",
       caption: ""
     }
@@ -1492,49 +1492,49 @@ export const BLOG_MEDIA_MAP = {
 
   "pms-ota-verilerini-looker-studioya-baglamak": {
       banner: {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-1.webp",
       alt: "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek",
       caption: "PMS ve OTA Verilerini Looker Studio’ya Bağlamak: Otel Satışlarını Veriyle Görmek"
     },
 
           "sales-reality": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-2.webp",
       alt: "Oteller için örnek satış dashboard’ları (OTA vs Web vs Call Center)",
       caption: "Kanal Bazlı Satış Gerçekliği"
     },
 
            "data-fields": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-3.webp",
       alt: "PMS’den çekilebilecek kritik veri alanları",
       caption: "PMS’den çekilebilecek kritik veri alanları"
     },
 
      "revpar": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-4.webp",
       alt: "",
       caption: "Kanal Bazlı RevPAR Karşılaştırması"
     },
 
           "data-transfer": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-5.webp",
       alt: "",
       caption: "Looker Studio verileri aktarma"
     },
 
      "kpi-set": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-6.webp",
       alt: "",
       caption: "Otel Satış KPI Seti"
     },
 
     "score-card": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-7.webp",
       alt: "",
       caption: ""
     },
 
     "gains": {
-      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-3/Reporting1-3-8.webp",
       alt: "",
       caption: "Satış Dashboard Çıktıları ve Kazanımlar"
     }
@@ -1543,37 +1543,37 @@ export const BLOG_MEDIA_MAP = {
 
   "destinasyon-icerigi-ile-direct-booking-seo-stratejisi": {
       banner: {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-1.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-1.webp",
       alt: "“Antalya Otel” Değil, “Antalya Tatili”: Destinasyon İçeriğiyle Direct Booking SEO Stratejisi",
       caption: "“Antalya Otel” Değil, “Antalya Tatili”: Destinasyon İçeriğiyle Direct Booking SEO Stratejisi"
     },
 
           "blog-page": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-2.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-2.webp",
       alt: "Otel blogları SEO için nasıl kullanılmalı?",
       caption: "Otel blogları SEO için nasıl kullanılmalı?"
     },
 
            "topic-cluster": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-3.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-3.webp",
       alt: "Antalya / Belek / Side için topic cluster nasıl kurulur?",
       caption: "Topic Cluster Sistemi"
     },
 
      "destination": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-4.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-4.webp",
       alt: "Destinasyon içeriğini SGE ve Voice Search için nasıl optimize edersiniz?",
       caption: "Antalya Destinasyon Stratejisi"
     },
 
           "destination-funnel": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-5.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-5.webp",
       alt: "Blog → oda → rezervasyon funnel’ı nasıl kurgulanır?",
       caption: "Looker Studio verileri aktarma"
     },
 
      "destination-checklist": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-6.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-6.webp",
       alt: "“Antalya otel” yarışını OTA’ya bırakmayın, “Antalya tatili” niyetini siz yakalayın",
       caption: "Destinasyon İçerik Checklist: uygulama Standardı"
     },
@@ -1585,7 +1585,7 @@ export const BLOG_MEDIA_MAP = {
     },
 
     "download": {
-      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-8.jpeg",
+      src: "/images/blog/hotel/Hotel1-3/Hotel1-3-8.webp",
       alt: "",
       caption: ""
     }
@@ -1595,55 +1595,55 @@ export const BLOG_MEDIA_MAP = {
 
    "otel-ve-turizm-markalari-icin-1-ayda-20-icerik-modeli": {
       banner: {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-1.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-1.webp",
       alt: "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli",
       caption: "Otel ve Turizm Markaları İçin 1 Ayda 20 İçerik Modeli"
     },
 
           "content-format-pillar": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-2.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-2.webp",
       alt: "1 Ayda 20 İçerik İçin Format ve Pillar Dağılımı",
       caption: "20 İçerik Format ve Pillar Dağılımı"
     },
 
            "carousel": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-3.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-3.webp",
       alt: "Oda, Deneyim, Destinasyon ve SSS İçerikleri (Hazır konu + iskelet)",
       caption: "5 içerik önerisi"
     },
 
      "sss-reels": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-4.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-4.webp",
       alt: "Tema 4: SSS (4 içerik önerisi) ",
       caption: "SSS Reels Senaryo Şablonu"
     },
 
           "instagram-9-grid": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-5.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-5.webp",
       alt: "Reels + Post + Story Kombinasyonu: Haftalık Sprint Mantığı",
       caption: "Reels + Post + Story Kombinasyonu: Haftalık Sprint Mantığı"
     },
 
      "operation-flow": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-6.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-6.webp",
       alt: "İçerik durum akışı (operasyon)",
       caption: "İçerik Operasyon Akışı"
     },
 
         "content-calendar": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-7.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-7.webp",
       alt: "Örnek 1 Aylık Takvim (20 içerik) + Görsel/Text Fikirleri",
       caption: "1 Aylık Otel İçerik Takvimi"
     },
 
         "download": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-8.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-8.webp",
       alt: "",
       caption: ""
     },
 
         "package-balance": {
-      src: "/images/blog/smm/SMM1-3/SMM1-3-9.jpeg",
+      src: "/images/blog/smm/SMM1-3/SMM1-3-9.webp",
       alt: "Neden “İçerik Paketi” Mantığı?",
       caption: "1 Ayda 20 İçerik: Paket Dengesi"
     }
@@ -1651,61 +1651,61 @@ export const BLOG_MEDIA_MAP = {
 
   "hreflang-ve-cok-dilli-teknik-seo-otel-siteleri-icin-haritalama-rehberi":{
      banner: {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-1.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-1.webp",
       alt: "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi",
       caption: "hreflang ve Çok Dilli Teknik SEO: Otel Siteleri İçin TR–EN–DE–RU Haritalama Rehberi"
     },
 
           "schema": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-2.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-2.webp",
       alt: "TR-EN-DE-RU Otel Hedefleme Şeması",
       caption: "Otel Hedefleme Şeması"
     },
 
            "hreflang-tag-code": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-3.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-3.webp",
       alt: "hreflang etiketleri",
       caption: "hreflang etiketleri"
     },
 
      "lang-matching": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-4.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-4.webp",
       alt: "Arama Motoru İçin Doğru Dil Eşleştirme",
       caption: "Arama Motoru İçin Doğru Dil Eşleştirme"
     },
 
           "root": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-5.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-5.webp",
       alt: "TR–EN–DE–RU Yapısı Nasıl Kurulur?",
       caption: "TR–EN–DE–RU Yapısı Nasıl Kurulur?"
     },
 
      "self-canonical": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-6.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-6.webp",
       alt: "Canonical ve hreflang birlikte nasıl kullanılmalı?",
       caption: "Canonical ve hreflang birlikte nasıl kullanılmalı?"
     },
 
         "hreflang-mistake": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-7.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-7.webp",
       alt: "TR–EN–DE–RU yapısında en sık yapılan hatalar nelerdir?",
       caption: "Sık Karşılşılan hreflang Hata Senaryoları"
     },
 
         "search-console": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-8.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-8.webp",
       alt: "",
       caption: "Uluslararası Hedefleme"
     },
 
         "excel-table": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-9.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-9.webp",
       alt: "TR–EN–DE–RU eşleştirme tablosu",
       caption: "TR–EN–DE–RU eşleştirme tablosu"
     },
 
     "download": {
-      src: "/images/blog/seo/SEO1-4/SEO1-4-10.jpeg",
+      src: "/images/blog/seo/SEO1-4/SEO1-4-10.webp",
       alt: "",
       caption: ""
     }
@@ -1713,61 +1713,61 @@ export const BLOG_MEDIA_MAP = {
 
    "google-ads-kalite-puani-nedir-nasil-yukseltilir":{
      banner: {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-1.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-1.webp",
       alt: "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?",
       caption: "Google Ads Kalite Puanı (Quality Score) Nedir, Nasıl Yükseltilir?"
     },
 
           "panel": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-2.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-2.webp",
       alt: "Kalite Puanı nedir?",
       caption: "Google Ads Kalite Teşhis Paneli"
     },
 
            "quality-score": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-3.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-3.webp",
       alt: " Kalite Puanı Bileşenleri ",
       caption: "Kalite Puanı Teşhisi"
     },
 
      "quality-scenario": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-4.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-4.webp",
       alt: "“İyi vs Kötü” kalite puanı karşılaştırması (otel örneği)",
       caption: "İyi vs Kötü Kalite Puanı Senaryosu"
     },
 
           "ctr-improvement": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-5.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-5.webp",
       alt: "Beklenen TO (Expected CTR) nasıl iyileştirilir?",
       caption: "Reklam Metni A/B Testi: CTR İyileştirme"
     },
 
      "landing": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-6.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-6.webp",
       alt: "Oteller İçin Kalite Puanı Örnekleri (arama → reklam → sayfa) ",
       caption: "Mükemmel Uyum: Arama -> Reklam -> Landing"
     },
 
         "landing-checklist": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-7.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-7.webp",
       alt: "Otel landing’inde “LP experience”i yükselten 6 kural",
       caption: "İyileştirme Listesi"
     },
 
         "action-plan": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-8.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-8.webp",
       alt: "Reklam Alaka Düzeyi (Ad Relevance) nasıl artırılır?",
       caption: "Sorunlu Bileşen -> Aksiyon Planı"
     },
 
         "10-step-plan": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-9.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-9.webp",
       alt: "10 adımlık otel odaklı iyileştirme planı",
       caption: "10 Adımlık Kalite Puanı iyleştirme Planı"
     },
 
     "roas-graphic": {
-      src: "/images/blog/sem/SEM1-4/SEM1-4-10.jpeg",
+      src: "/images/blog/sem/SEM1-4/SEM1-4-10.webp",
       alt: "",
       caption: ""
     }
@@ -1775,49 +1775,49 @@ export const BLOG_MEDIA_MAP = {
 
      "cok-dilli-kurumsal-web-sitesi-planlama-tr-en-de-ru":{
      banner: {
-      src: "/images/blog/software/Software1-4/Software1-4-1.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-1.webp",
       alt: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik",
       caption: "Çok Dilli Kurumsal Web Sitesi Planlama: TR–EN–DE–RU İçin Mimari ve İçerik"
     },
 
           "subfolder-vs-domain": {
-      src: "/images/blog/software/Software1-4/Software1-4-2.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-2.webp",
       alt: "Dil Mimarisi (Subfolder/Domains)",
       caption: "Dil Mimarisi (Subfolder/Domains)"
     },
 
            "decision-table": {
-      src: "/images/blog/software/Software1-4/Software1-4-3.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-3.webp",
       alt: "Mimari Karar Tablosu: Seo, Operasyon, Maliyet",
       caption: "Mimari Karar Tablosu: Seo, Operasyon, Maliyet"
     },
 
      "lang-mapping-table": {
-      src: "/images/blog/software/Software1-4/Software1-4-4.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-4.webp",
       alt: "URL ve Hreflang Stratejisi",
       caption: "Url ve İçerik Eşleşme Haritası"
     },
 
           "hreflang-switcher": {
-      src: "/images/blog/software/Software1-4/Software1-4-5.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-5.webp",
       alt: "Hreflang etiketleri nasıl çalışır?",
       caption: "Hreflang (Kod) ve Dil Switcher (Ön Yüz) Entegrasyonu"
     },
 
      "cms": {
-      src: "/images/blog/software/Software1-4/Software1-4-6.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-6.webp",
       alt: "CMS tarafında dil yönetimi",
       caption: "CMS Çok Dilli İçerik Operasyon Akışı"
     },
 
         "otel-vs-b2b": {
-      src: "/images/blog/software/Software1-4/Software1-4-7.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-7.webp",
       alt: "Otel ve B2B İçin Çok Dilli UX Örnekleri",
       caption: "Sektörel Lokalizasyon Odağı: Otel vs B2B Ux"
     },
 
         "download": {
-      src: "/images/blog/software/Software1-4/Software1-4-8.jpeg",
+      src: "/images/blog/software/Software1-4/Software1-4-8.webp",
       alt: "",
       caption: ""
     }
@@ -1825,49 +1825,49 @@ export const BLOG_MEDIA_MAP = {
 
     "renk-ve-tipografi-secimi-markalar-icin-pratik-rehber":{
      banner: {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-1.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-1.webp",
       alt: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
       caption: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber"
     },
 
           "color-palette": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-2.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-2.webp",
       alt: "Renk ve Tipografi Seçimi: Markalar İçin Pratik Rehber",
       caption: "Marka Renk Paleti: Core ve Support Rol Dağılımı"
     },
 
            "typography-hierarchy": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-3.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-3.webp",
       alt: "Tipografi Hiyerarşisi (Başlık–Gövde–Vurgu)",
       caption: "Tipografi Hiyerarşisi:Başşlık, Gövde, Vurgu"
     },
 
      "typography-readability": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-4.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-4.webp",
       alt: "Ekran Okunabilirliği ve Ağırlık/Kerning",
       caption: "Kontrast ve Okunabilirlik: Kötü vs İyi"
     },
 
           "color-example": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-5.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-5.webp",
       alt: "Otel ve B2B İçin Örnek Palet & Font Kombinasyonları",
       caption: "Örnek Renk ve Tipografi KOmbinasyonları"
     },
 
      "problem-solution-table": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-6.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-6.webp",
       alt: "Problem -> Kök Neden -> Çözüm Tablosu",
       caption: "Problem -> Kök Neden -> Çözüm Tablosu"
     },
 
         "checklist": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-7.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-7.webp",
       alt: "",
       caption: "Marka Renk ve Tipgrafi Seçim Kontrol Listesi"
     },
 
         "download": {
-      src: "/images/blog/creative/Creative1-4/Creative1-4-8.jpeg",
+      src: "/images/blog/creative/Creative1-4/Creative1-4-8.webp",
       alt: "",
       caption: ""
     }
@@ -1875,43 +1875,43 @@ export const BLOG_MEDIA_MAP = {
 
   "4-dilli-cagri-merkezi-multi-channel-entegrasyon":{
      banner: {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-1.webp",
       alt: "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM",
       caption: "4 Dilli Çağrı Merkezi ile Multi-Channel Entegrasyon: Telefon, WhatsApp, OTA ve DM"
     },
 
           "integration": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-2.webp",
       alt: "3 ana problem (kopuk yapıda)",
       caption: "Hedef Entegrasyon"
     },
 
            "multi-channel-integration": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-3.webp",
       alt: "4 dilli çağrı merkezi ile multi-channel misafir iletişimi nasıl kurulur?",
       caption: "Multi-channel Entegrasyon Mimarisi"
     },
 
     "phone-message": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-4.webp",
       alt: "Telefon, WhatsApp ve web chat akışı (karşılıklı yönlendirme senaryoları)",
       caption: "Kanallar Arası Kesintisiz Geçiş"
     },
 
      "ota-message-center": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-5.webp",
       alt: "OTA ve rezervasyon platformu mesaj yönetimi (tek merkez)",
       caption: "OTA ve rezervasyon platformu mesaj yönetimi (tek merkez)"
     },
 
           "message-example": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-6.webp",
       alt: "",
       caption: ""
     },
 
      "multi-channel-agent": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-7.webp",
       alt: "Multi-channel Agent",
       caption: ""
     },
@@ -1919,21 +1919,21 @@ export const BLOG_MEDIA_MAP = {
         
 
         "matrix": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-8.webp",
       alt: "Önceliklendirme için pratik matris",
       caption: "Sezonluk Kanal Önceliklendirme Matrisi"
     },
 
 
         "7-step-plan": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-9.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-9.webp",
       alt: "",
       caption: "7 Adımda Multi-channel Entegrasyon Planı"
     },
 
 
         "download": {
-      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-10.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-4/Callcenter1-4-10.webp",
       alt: "",
       caption: ""
     }
@@ -1941,37 +1941,37 @@ export const BLOG_MEDIA_MAP = {
 
   "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":{
      banner: {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-1.webp",
       alt: "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?",
       caption: "PMS Eğitim Planı: Resepsiyon ve Operasyon Ekiplerini Yeni Sisteme Nasıl Hazırlarsınız?"
     },
 
           "pms-cycle": {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-2.webp",
       alt: "",
       caption: "Pms Eğitim ve Adaptasyon Döngüsü"
     },
 
            "role-based-education-matrix": {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-3.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-3.webp",
       alt: "Eğitime Kimler Katılmalı, Rollere Göre Eğitim Setleri",
       caption: "Rol Bazlı Pms Eğitim Matrisi"
     },
 
     "pms-role-play": {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-4.webp",
       alt: "",
       caption: "Pms Role-Play Senaryosu"
     },
 
      "weekly-pms": {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-5.webp",
       alt: "",
       caption: "Haftalık Pms Eğitim Takvimi"
     },
 
           "download": {
-      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-6.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-4/Pms1-4-6.webp",
       alt: "",
       caption: ""
     }
@@ -1979,49 +1979,49 @@ export const BLOG_MEDIA_MAP = {
 
   "cok-otelli-yapilarda-looker-studio-mimarisi":{
      banner: {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-1.webp",
       alt: "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı",
       caption: "Çok Otelli Yapılarda Looker Studio Mimarisi: Grup Oteller İçin Dashboard Tasarımı"
     },
 
           "office-panel": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-2.webp",
       alt: "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulmalı?",
       caption: "Çok otelli yapılarda Looker Studio mimarisi nasıl kurulmalı?"
     },
 
            "management-summary": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-3.webp",
       alt: " Grup ve zincir oteller için raporlama ihtiyaçları (yönetim odaklı)",
       caption: " Grup ve zincir oteller için raporlama ihtiyaçları (yönetim odaklı)"
     },
 
     "hotel-based-revpar": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-4.webp",
       alt: "Çok otelli örnek dashboard senaryoları (X otel grubu vaka kutusu)",
       caption: "Çok otelli örnek dashboard senaryoları (X otel grubu vaka kutusu)"
     },
 
      "drill-down-schema": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-5.webp",
       alt: "",
       caption: "Haftalık Pms Eğitim Takvimi"
     },
 
           "data-model": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-6.webp",
       alt: "Property veri modeli (pratik yaklaşım)",
       caption: "Property veri modeli (pratik yaklaşım)"
     },
 
       "adr-revpar": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-7.webp",
       alt: "Grup ve otel seviyesi dashboard katmanları (tasarım modeli)",
       caption: "Grup ve otel seviyesi dashboard katmanları (tasarım modeli)"
     },
 
           "gains": {
-      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-4/Reporting1-4-8.webp",
       alt: "Multi-Property Raporlama Çıktıları ve Kazanımlar",
       caption: "Multi-Property Raporlama Çıktıları ve Kazanımlar"
     }
@@ -2029,49 +2029,49 @@ export const BLOG_MEDIA_MAP = {
 
   "cok-dilli-otel-seo-tr-en-de-ru-yapi":{
      banner: {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-1.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-1.webp",
       alt: "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi",
       caption: "Çok Dilli Otel SEO: TR–EN–DE–RU Yapıda Hreflang, Site Mimarisi ve İçerik Stratejisi"
     },
 
           "4-lang": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-2.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-2.webp",
       alt: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?",
       caption: "Çok dilli otel sitelerinde SEO zorlukları nelerdir?"
     },
 
            "architecture": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-3.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-3.webp",
       alt: "TR–EN–DE–RU için URL ve site mimarisini nasıl seçmelisiniz?",
       caption: "Sorunlu Yapı - Doğru Mimari"
     },
 
     "market-oriented-content": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-4.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-4.webp",
       alt: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?",
       caption: "Lokalizasyon: “sadece çeviri değil, pazar odaklı içerik” nasıl yapılır?"
     },
 
      "hreflang-canonical": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-5.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-5.webp",
       alt: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi",
       caption: "Hreflang ve dil/site sinyallerini doğru kurmak için kontrol listesi"
     },
 
           "content-checklist": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-6.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-6.webp",
       alt: "Lokalizasyon ve İçerik Kontrol Listesi",
       caption: "Lokalizasyon ve İçerik Kontrol Listesi"
     },
 
       "seo-funnel-paneli": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-7.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-7.webp",
       alt: "Çok dilli otel SEO KPI ve raporlama nasıl yapılır?",
       caption: "Dil Bazlı Seo Performans ve Funnel Paneli"
     },
 
           "download": {
-      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-8.jpeg",
+      src: "/images/blog/hotel/Hotel1-4/Hotel1-4-8.webp",
       alt: "",
       caption: ""
     }
@@ -2079,61 +2079,61 @@ export const BLOG_MEDIA_MAP = {
 
   "google-ads-donusum-kurgusu-ve-takibi":{
      banner: {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-1.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-1.webp",
       alt: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?",
       caption: "Google Ads’te Dönüşüm Kurgusu ve Takibi Oteller İçin Nasıl Kurulur?"
     },
 
           "transformation-layers": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-2.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-2.webp",
       alt: "Dönüşüm Türleri (Form, Telefon, WhatsApp, Rezervasyon) ve Otel Gerçeği",
       caption: "Otel İçin Dönüşüm Katmanları: Birincil vs İkincil"
     },
 
            "goals-hierarchy": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-3.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-3.webp",
       alt: "Google Ads dönüşüm takibi nasıl kurulur?",
       caption: "Google Ads Dönüşüm Hiyerarşisi: Hedef (Goal) ve Aksiyonları"
     },
 
     "call-tracking": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-4.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-4.webp",
       alt: "",
       caption: "Otel telefon Araması Dönüşüm Akışı"
     },
 
      "cross-domain-schema": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-5.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-5.webp",
       alt: "Cross-domain rezervasyon motoru (booking engine) – en kritik teknik tuzak",
       caption: "Çapraz Alan Adı Takibi: Yanlış vs Doğru Kurgu"
     },
 
           "google-ads-checklist": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-6.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-6.webp",
       alt: "Lokalizasyon ve İçerik Kontrol Listesi",
       caption: "Otel Google Ads Dönüşüm Kurulumu Kontrol Listesi"
     },
 
       "problem-solution": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-7.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-7.webp",
       alt: "",
       caption: "Dönüşüm Takibi Sorun Giderme Tablosu"
     },
 
           "sprint-plan": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-8.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-8.webp",
       alt: "",
       caption: "14 Günlük Dönüşüm Kurulumu Sprint Planı"
     },
 
      "kpi-before - after": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-9.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-9.webp",
       alt: "",
       caption: "Dönüşüm Kurulumu Etkisi: Öncesi vs Sonrası (KPI)"
     },
 
      "project-delivery-output": {
-      src: "/images/blog/sem/SEM1-5/SEM1-5-10.jpeg",
+      src: "/images/blog/sem/SEM1-5/SEM1-5-10.webp",
       alt: "",
       caption: "Project Teslim Çıktıları ve Örnek Dönüşüm Seti"
     }
@@ -2141,61 +2141,61 @@ export const BLOG_MEDIA_MAP = {
 
    "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":{
      banner: {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-1.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-1.webp",
       alt: "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri",
       caption: "JavaScript ve Next.js Tabanlı Sitelerde Teknik SEO Sorunları ve Çözümleri"
     },
 
           "diagram-ssr-ssg-csr": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-2.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-2.webp",
       alt: " Google nasıl görüyor? (Next.js + JS teknik SEO çerçevesi)",
       caption: "SSR, SSG VE CSR Google İçeriği Ne Zaman Görür?"
     },
 
            "table-problem-root-solution-cover": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-3.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-3.webp",
       alt: "Next.js & SEO Sorunları ve Çözümleri",
       caption: "Özet: Next.js & SEO Sorunları ve Çözümleri"
     },
 
     "render-time": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-4.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-4.webp",
       alt: "Google’ın JS Siteleri Nasıl İşlediği?",
       caption: "Google'ın İki Aşamalı JS Tarama ve Render Süreci"
     },
 
      "meta-schema-checklist": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-5.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-5.webp",
       alt: "",
       caption: "Next.js Meta ve Schema Kontrol Listesi"
     },
 
           "dynamic-url": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-6.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-6.webp",
       alt: "Dinamik Route ve Parametreler",
       caption: "Dinamik URL ve Canonical İlişkisi (Otel Örneği)"
     },
 
       "table-problem-diagnosis-fix-test": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-7.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-7.webp",
       alt: "Otel ve Ajans Siteleri İçin Örnek Sorun–Çözüm Senaryoları",
       caption: "Next.js SEO: Gerçek Hayat Sorun-Çözüm Senaryoları"
     },
 
           "365-days-cycle": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-8.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-8.webp",
       alt: "Özet ve Bakım Planı",
       caption: "Next.js SEO: 365 Günlük Bakım ve Test Döngüsü"
     },
 
      "download": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-9.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-9.webp",
       alt: "",
       caption: ""
     },
 
      "sprint-plan-mini-14-days": {
-      src: "/images/blog/seo/SEO1-5/SEO1-5-10.jpeg",
+      src: "/images/blog/seo/SEO1-5/SEO1-5-10.webp",
       alt: "Özet ve Bakım Planı",
       caption: "14 Günlük Next.js SEO Fix Sprint Planı"
     }
@@ -2203,43 +2203,43 @@ export const BLOG_MEDIA_MAP = {
 
    "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":{
      banner: {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-1.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-1.webp",
       alt: "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji",
       caption: "Çok Dilli Sosyal Medya İçerik Üretimi: TR–EN–DE–RU İçin Strateji"
     },
 
           "localization-5-areas-diagram": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-2.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-2.webp",
       alt: "“Kopya Çeviri” Yerine Lokalizasyon",
       caption: "Lokalizasyon Çerçevesi: 5 Sabit Alan"
     },
 
            "caption-compare-table-tr-en-de-ru": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-3.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-3.webp",
       alt: "TR–EN–DE–RU İçin Örnek İçerik Kurguları",
       caption: "TR-EN-DE-RU Caption Lokalizasyon Örneği"
     },
 
     "mockup-4-language-same-visual": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-4.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-4.webp",
       alt: "Aynı içeriğin 4 dilde versiyon mockup’ı",
       caption: "Aynı içeriğin 4 dilde versiyon mockup’ı"
     },
 
      "flow-tr-to-multilang": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-5.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-5.webp",
       alt: "İçerik Takvimi ve Ekip Organizasyonu",
       caption: "Çok Dilli İçerik Onay Akışı (SLA)"
     },
 
           "download": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-6.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-6.webp",
       alt: "",
       caption: ""
     },
 
       "smm-strategy-package": {
-      src: "/images/blog/smm/SMM1-5/SMM1-5-7.jpeg",
+      src: "/images/blog/smm/SMM1-5/SMM1-5-7.webp",
       alt: "Çok Dilli SMMS Strateji Paketi",
       caption: "Çok Dilli SMMS Strateji Paketi"
     }
@@ -2247,49 +2247,49 @@ export const BLOG_MEDIA_MAP = {
 
    "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":{
      banner: {
-      src: "/images/blog/software/Software1-5/Software1-5-1.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-1.webp",
       alt: "Otel ve Turizm Web Siteleri İçin Dönüşüm Odaklı UX ve Rezervasyon Funnel’i",
       caption: "Otel ve Turizm Web Siteleri İçin Dönüşüm Odaklı UX ve Rezervasyon Funnel’i"
     },
 
           "funnel-flow-diagram-dropoff-checked": {
-      src: "/images/blog/software/Software1-5/Software1-5-2.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-2.webp",
       alt: "Rezervasyon Funnel’i (Tarih→Oda→Fiyat→Ödeme)",
       caption: "Rezerasyon Funnel Ux ve Drop-off Noktaları"
     },
 
            "hotel-guest-digital-journey": {
-      src: "/images/blog/software/Software1-5/Software1-5-3.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-3.webp",
       alt: "Otel ve Turizm Sitelerinde Kullanıcı Yolculuğu",
       caption: "Otel Misafiri Dijital Yolculuğu"
     },
 
     "ux-room-page": {
-      src: "/images/blog/software/Software1-5/Software1-5-4.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-4.webp",
       alt: "Ana Sayfa, Oda ve Teklif Sayfaları için UX İlkeleri",
       caption: "Oda Sayfası Ux: Kötü vs İyi (Dönüşüm Odaklı)"
     },
 
      "friction-relief-points": {
-      src: "/images/blog/software/Software1-5/Software1-5-5.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-5.webp",
       alt: "Funnel adımları ve hedef friksiyon seviyesi",
       caption: "Rezervasyon Funnel Friksiyon & Çözüm Noktaları"
     },
 
           "mobil-mockup-whatsapp": {
-      src: "/images/blog/software/Software1-5/Software1-5-6.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-6.webp",
       alt: "Mobil UX ve Call Center Entegrasyonu",
       caption: "Mobil Ux: Sticky Cta & Hızlı İletişim"
     },
 
       "download": {
-      src: "/images/blog/software/Software1-5/Software1-5-7.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-7.webp",
       alt: "",
       caption: ""
     },
 
           "drop-off-analysis": {
-      src: "/images/blog/software/Software1-5/Software1-5-8.jpeg",
+      src: "/images/blog/software/Software1-5/Software1-5-8.webp",
       alt: "Sonuç: Dönüşüm Odaklı Otel UX’i = 3 Blok + 1 Entegrasyon Katmanı",
       caption: "Funnel Drop-Off Analizi"
     }
@@ -2297,61 +2297,61 @@ export const BLOG_MEDIA_MAP = {
 
    "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":{
      banner: {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-1.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
       alt: "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım",
       caption: "Kampanya Görsel Setleri ve A/B Testleri: Performans Odaklı Tasarım"
     },
 
           "main-message-concept": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-2.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
       alt: "Kampanya İçin Görsel Set Nasıl Kurulur? (Feed, Story, Reels, Banner)",
       caption: "Kampanya İçin Görsel Set Nasıl Kurulur? (Feed, Story, Reels, Banner)"
     },
 
            "hero-image": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-3.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
       alt: "Mesaj ve Görsel Varyasyonları",
       caption: "Mesaj ve Görsel Varyasyonları"
     },
 
     "headline-test": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-4.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
       alt: "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?",
       caption: "Feed, story, reels ve banner görselleri nasıl birbiriyle uyumlu olmalı?"
     },
 
      "ab-test-cycle": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-5.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
       alt: "A/B Test Kurgusu",
       caption: "A/B Test Kurgusu"
     },
 
           "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-6.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
       alt: "",
       caption: ""
     },
 
       "download": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-7.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
       alt: "",
       caption: ""
     },
 
           "ab-test-panel": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-8.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
       alt: "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?",
       caption: "Otel ve B2B kampanyalarında görsel performansını nasıl ölçerim?"
     },
 
               "performance-design-system": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-9.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-9.webp",
       alt: "Performans Tasarım Sistemi",
       caption: "Performans Tasarım Sistemi"
     },
 
               "sablon": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-10.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-10.webp",
       alt: "",
       caption: ""
     }
@@ -2359,61 +2359,61 @@ export const BLOG_MEDIA_MAP = {
 
    "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":{
      banner: {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-1.webp",
       alt: "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi",
       caption: "4 Dilli Çağrı Merkezi KPI, Kalite ve Raporlama Rehberi"
     },
 
           "5-key-kpi-groups": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-2.webp",
       alt: "4 dilli çağrı merkezi performansı için hangi KPI’lara bakmalısınız?",
       caption: "5 Temel KPI Grubu"
     },
 
            "kpi-goals-table": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-3.webp",
       alt: "4 dilli çağrı merkezinde takip edilmesi gereken ana KPI’lar",
       caption: "Örnek Kpi Heddef Tablosu"
     },
 
     "lang-based-performance-analysis": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-4.webp",
       alt: "Dil bazlı performans ve yoğunluk analizi",
       caption: "Dil Bazlı Performans Analizi"
     },
 
      "qa-score-card": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-5.webp",
       alt: "Kalite dinleme, skor kartı ve geri bildirim",
       caption: "QA Kalite Skor Kartı"
     },
 
           "qa-coaching-cycle": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-6.webp",
       alt: "Kalite dinleme, skor kartı ve geri bildirim",
       caption: "QA & Koçluk Döngüsü"
     },
 
       "kpi-revenue": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-7.webp",
       alt: "Bağlantı mantığı",
       caption: "Kpi Gelir Dönüşüm Yolculuğu"
     },
 
           "dashboard-mockup": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-8.webp",
       alt: "Yönetim için dashboard ve raporlama yapısı",
       caption: "Yönetim için dashboard ve raporlama yapısı"
     },
 
           "kpi-checklist": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-9.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-9.webp",
       alt: "4 dilli çağrı merkezi KPI checklist’i",
       caption: "4 dilli çağrı merkezi KPI checklist’i"
     },
 
           "download": {
-      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-10.jpeg",
+      src: "/images/blog/callcenter/Callcenter1-5/Callcenter1-5-10.webp",
       alt: "",
       caption: ""
     }
@@ -2421,31 +2421,31 @@ export const BLOG_MEDIA_MAP = {
 
   "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":{
      banner: {
-      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-1.webp",
       alt: "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
       caption: "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri"
     },
 
           "data-migration": {
-      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-2.webp",
       alt: "Sık Yapılan Hatalar: Nerede Yanlış Gidiyoruz?",
       caption: "Yanlış vs Doğru: Pms Veri Aktarımı"
     },
 
            "12-critical errors-solution": {
-      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-3.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-3.webp",
       alt: "PMS kurulumunda sık yapılan hatalar hangileridir?",
       caption: "Pms Kurulumunda 12 Kritik Hata & Çözüm Listesi"
     },
 
     "pms-risk-impact-matrix": {
-      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-4.webp",
       alt: "Bu Hataları Önlemek İçin Yol Haritası",
       caption: "Pms Kurulum Risk-Etki Matrisi"
     },
 
      "download": {
-      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-5.webp",
       alt: "",
       caption: ""
     }
@@ -2453,49 +2453,49 @@ export const BLOG_MEDIA_MAP = {
 
   "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":{
      banner: {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-1.webp",
       alt: "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama",
       caption: "Yöneticiler İçin Executive Dashboard ve Otomatik Looker Studio Raporlama"
     },
 
           "hotel-performance": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-2.webp",
       alt: "Yöneticiler için executive dashboard nasıl tasarlanmalı?",
       caption: "Otel Performans Özeti"
     },
 
            "kpi-set": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-3.webp",
       alt: "Yönetim için doğru KPI setini belirleme",
       caption: "Yönetim KPI Seti"
     },
 
     "executive-panel": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-4.webp",
       alt: "Executive dashboard tasarım prensipleri ",
       caption: "Yönetim Paneli"
     },
 
      "looker-studio-schema": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-5.webp",
       alt: "Otomatik Looker Studio raporlama nasıl kurulur?",
       caption: "Otomatik Looker Studio raporlama nasıl kurulur?"
     },
 
           "dashboard-design-principles": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-6.webp",
       alt: "Önerilen layout",
       caption: "Tasarım Prensipleri"
     },
 
       "analysis-revpar-adr": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-7.webp",
       alt: "Satış/Revenue: doluluk, ADR/RevPAR, kanal mix, iptal/no-show",
       caption: "Satış/Revenue: doluluk, ADR/RevPAR, kanal mix, iptal/no-show"
     },
 
           "decision-outcomes": {
-      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting1-5/Reporting1-5-8.webp",
       alt: "Yönetim toplantılarında dashboard nasıl kullanılmalı?",
       caption: "Yönetim Toplantısı & Karar Çıktıları"
     }
@@ -2503,49 +2503,49 @@ export const BLOG_MEDIA_MAP = {
 
   "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":{
      banner: {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-1.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-1.webp",
       alt: "OTA Rekabetine Karşı Teknik Otel SEO: Site Mimarisi ve Dahili Linkleme OTA’yı Nasıl Dengeler?",
       caption: "OTA Rekabetine Karşı Teknik Otel SEO: Site Mimarisi ve Dahili Linkleme OTA’yı Nasıl Dengeler?"
     },
 
           "hotel-entity": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-2.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-2.webp",
       alt: "Otel sitesi için ideal site mimarisi nasıl olmalı? ",
       caption: "Kullanıcı Yolu & Rezervasyon Bağlamı"
     },
 
            "direct-booking": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-3.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-3.webp",
       alt: "Kategori → Oda → Deneyim → Blog → SSS → Rezervasyon akışı nasıl kurulmalı?",
       caption: "Direct Booking Yolu"
     },
 
     "internal-linking-diagram": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-4.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-4.webp",
       alt: "",
       caption: "İç Linkleme Şeması"
     },
 
      "ideal-hotel-site-flow": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-5.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-5.webp",
       alt: "",
       caption: "İdeal Otel Site Akışı"
     },
 
           "checklist": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-6.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-6.webp",
       alt: "",
       caption: "Mimari & İç Link Teknik Checklist"
     },
 
       "technical-seo-kpi": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-7.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-7.webp",
       alt: "",
       caption: "Teknik Seo & Otorite KPI'ları"
     },
 
           "download": {
-      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-8.jpeg",
+      src: "/images/blog/hotel/Hotel1-5/Hotel1-5-8.webp",
       alt: "",
       caption: ""
     }

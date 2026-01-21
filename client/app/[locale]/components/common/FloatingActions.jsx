@@ -33,8 +33,6 @@ export default function FloatingActions({ shareTitle }) {
   return (
     <div className="fixed bottom-5 left-5 z-[60] flex flex-col gap-2">
       {/* Play */}
-     
-
       {/* Share */}
      <button
   type="button"

@@ -1,4 +1,6 @@
 import React from 'react'
+import { getSeoData } from "@/app/lib/seo-utils";
+import { routing } from "@/i18n/routing";
 import Section1 from "./Section1/Section1.jsx"
 import Section2 from './Section2/Section2.jsx'
 import Section3 from './Section3/Section3.jsx'
@@ -18,8 +20,70 @@ import { AiAnswerBlock } from '../components/common/AiAnswerBlock.jsx'
 import VerticalSlider2 from '../components/subPageComponents/VerticalSlider2.jsx'
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
-import AutoBreadcrumbs from '../components/common/AutoBreadcrumbs.jsx'
 import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
+
+const OG_DEFAULT = "/og/og-home.png";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfaya özel pathname ver (seo-utils nasıl bekliyorsa)
+  // routing'de "/Services" -> tr: "/hizmetlerimiz" olduğu için canonical'ı ordan üretmek daha sağlam.
+  const pathnameKey = "/Services";
+
+  const seoData = getSeoData(pathnameKey, locale);
+  const title =
+    seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
+  const description =
+    seoData?.description ||
+    "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
+
+  // Türkçe yorum: doğru URL (locale prefix + tr'de /hizmetlerimiz)
+  // next-intl routing'in ürettiği path'i kullanmak en garantisi (eğer helper'ın varsa)
+  // Elinde helper yoksa direkt:
+  const url =
+    locale === "tr"
+      ? "https://dgtlface.com/tr/hizmetlerimiz"
+      : "https://dgtlface.com/en/services";
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: "/tr/hizmetlerimiz",
+        en: "/en/services",
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: OG_DEFAULT, // public/og/og-default.png
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [OG_DEFAULT],
+    },
+  };
+}
 
 const homeJsonLd = {
   "@context": "https://schema.org",

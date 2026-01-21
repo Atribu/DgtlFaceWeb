@@ -70,6 +70,7 @@ export const BLOG_MAP = {
     "pms-data-migration-ve-temizlik-sureci":"BlogPmsDataMigrationVeTemizlikSureci",
     "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin",
     "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
+    
     "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik"
   },
 

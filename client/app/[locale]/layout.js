@@ -53,7 +53,6 @@ export async function generateMetadata({ params }) {
       languages: {
         tr: "/tr/anasayfa",
         en: "/en",
-        ru: "/ru",
         // sende route neyse ona göre
       },
     },

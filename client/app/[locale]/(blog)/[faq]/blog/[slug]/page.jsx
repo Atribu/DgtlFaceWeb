@@ -8,6 +8,68 @@ import Image from "next/image";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 
+export async function generateMetadata({ params }) {
+  const { locale, faq, slug } = params;
+  const department = faq;
+
+  // Türkçe yorum: Locale set et
+  setRequestLocale(locale);
+
+  // Türkçe yorum: Post key bul
+  const postKey = BLOG_MAP?.[department]?.[slug];
+  if (!postKey) notFound();
+
+  const messages = await getMessages();
+  const post = messages?.BlogPosts?.[postKey];
+  if (!post) notFound();
+
+  // Türkçe yorum: Başlık & açıklama (elinde hangi alanlar varsa)
+  const title = post?.meta?.title || post?.title || "DGTLFACE Blog";
+  const description =
+    post?.meta?.description ||
+    post?.description ||
+    post?.h1?.intro ||
+    "DGTLFACE blog içeriği.";
+
+  // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
+  const url = `https://dgtlface.com/${locale}/${department}/blog/${slug}`;
+
+  // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
+  const bannerMedia = getMediaBySlot(slug, "banner");
+  const ogImage = bannerMedia?.src || "/og/og-default.png";
+
+  return {
+    title: {
+      absolute: `${title} | DGTLFACE`,
+    },
+    description,
+
+    openGraph: {
+      type: "article",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ru_RU",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
 
 // Türkçe yorum: Tarih formatlama
