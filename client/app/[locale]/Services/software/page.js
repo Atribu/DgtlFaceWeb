@@ -332,7 +332,7 @@ const Page = () => {
   title: t(`software_services_title${i}`),
   subTitle: t(`software_services_subtitle${i}`),
      text: t(`software_services_text${i}`),
-  features: [1,2,3,4,5].map(j => t(`software_services_feature${i}_${j}`)),
+  features: [1,2,3,4].map(j => t(`software_services_feature${i}_${j}`)),
   buttonLink: [
      "/yazilim/web-sitesi-gelistirme",
     "/yazilim/cms-entegrasyonu",
@@ -372,7 +372,7 @@ const Page = () => {
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
 
-         <AiAnswerBlock text="DGTLFACE, Next.js ve React teknolojileriyle modern, hızlı, SEO uyumlu ve güvenli web siteleri geliştirir. Oteller için PMS–OTA entegrasyonlu rezervasyon altyapıları, kurumsal markalar için çok dilli ve yüksek performanslı web deneyimleri sunar. CMS entegrasyonu, KVKK uyumu, sunucu optimizasyonu ve sürekli bakım–destek hizmetleriyle uçtan uca bir web geliştirme ekosistemi sağlar. Tüm projelerde teknik SEO ve Core Web Vitals standartlarına tam uyum hedeflenir."/>
+         <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
          <DualHighlightSection items={items}/>
 <StepSection
@@ -394,7 +394,7 @@ const Page = () => {
       <VerticalSlider2 page="Software" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin web geliştirme, Next.js–React altyapısı, UI/UX süreçleri ve otel teknolojileri dokümantasyonundan derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

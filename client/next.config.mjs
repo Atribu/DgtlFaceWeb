@@ -32,6 +32,100 @@ const nextConfig = {
     optimizePackageImports: ["lucide-react", "date-fns"],
   },
 
+   async redirects() {
+    return [
+       {
+        source: "/tr/seo-hizmetleri",
+        destination: "/tr/seo",
+        permanent: true, // 301
+      },
+
+      // slash ile gelirse
+      {
+        source: "/tr/seo-hizmetleri/",
+        destination: "/tr/seo",
+        permanent: true,
+      },
+      // TR eski sosyal linkler -> yeni canonical sayfalar
+      {
+        source: "/tr/sosyal-medya-yonetimi",
+        destination: "/tr/smm",
+        permanent: true, // 301
+      },
+      {
+        source: "/tr/sosyal-medya-yonetimi/",
+        destination: "/tr/smm",
+        permanent: true,
+      },
+
+      {
+        source: "/tr/web-ve-yazilim-hizmetleri",
+        destination: "/tr/yazilim",
+        permanent: true,
+      },
+      {
+        source: "/tr/web-ve-yazilim-hizmetleri/",
+        destination: "/tr/yazilim",
+        permanent: true,
+      },
+
+            {
+        source: "/tr/creative-ve-tasarim",
+        destination: "/tr/creative",
+        permanent: true,
+      },
+      {
+        source: "/tr/creative-ve-tasarim/",
+        destination: "/tr/creative",
+        permanent: true,
+      },
+
+                {
+        source: "/tr/cagri-merkezi-hizmetleri",
+        destination: "/tr/cagri-merkezi",
+        permanent: true,
+      },
+      {
+        source: "/tr/cagri-merkezi-hizmetleri/",
+        destination: "/tr/cagri-merkezi",
+        permanent: true,
+      },
+
+                    {
+        source: "/tr/pms-ota-yonetimi",
+        destination: "/tr/pms-ota",
+        permanent: true,
+      },
+      {
+        source: "/tr/pms-ota-yonetimi/",
+        destination: "/tr/pms-ota",
+        permanent: true,
+      },
+
+                        {
+        source: "/tr/veri-analiz-ve-raporlama",
+        destination: "/tr/raporlama",
+        permanent: true,
+      },
+      {
+        source: "/tr/veri-analiz-ve-raporlama/",
+        destination: "/tr/raporlama",
+        permanent: true,
+      },
+
+                           {
+        source: "/tr/otel-dijital-pazarlama",
+        destination: "/tr/otel",
+        permanent: true,
+      },
+      {
+        source: "/tr/otel-dijital-pazarlama/",
+        destination: "/tr/otel",
+        permanent: true,
+      },
+    ];
+  },
+
   webpack: (config, { isServer }) => {
     config.module.rules.push({
       test: /\.(webm|mp4)$/,

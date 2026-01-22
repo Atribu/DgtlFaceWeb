@@ -2,6 +2,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function RichTextSpan({ ns, id, className = "" }) {
   const t = useTranslations(ns);
@@ -18,6 +19,32 @@ export default function RichTextSpan({ ns, id, className = "" }) {
           </ul>
         ),
         li: (chunks) => <li>{chunks}</li>,
+
+        a: (chunks) => (
+          <Link
+            href={chunks?.props?.href || "#"}
+            className="underline font-semibold hover:text-[#58b5cf]"
+          >
+            {chunks}
+          </Link>
+        ),
+
+          callPerformance: (chunks) => (
+          <Link
+            href="/Services/callcenter/callPerformance"
+            className="underline font-semibold hover:text-[#58b5cf]"
+          >
+            {chunks}
+          </Link>
+        ),
+        lookerStudio: (chunks) => (
+          <Link
+            href="/Services/digitalAnalysis/lookerStudio"
+            className="underline font-semibold hover:text-[#58b5cf]"
+          >
+            {chunks}
+          </Link>
+        ),
       })}
     </span>
   );

@@ -264,7 +264,8 @@ const Page = () => {
       introDescription={""}
       cards={cards}
     />
-      <VerticalSlider page="WebPayment" itemCount={4}/>
+      <VerticalSlider page="OnlineSalesOptimizationPage" itemCount={4}/>
+      {/* WebPayment */}
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
      <AiSourceMention text="Bu bilgi, DGTLFACE’in online satış optimizasyon süreçleri, OTA ve web rezervasyon dönüşüm projeleri ve otel gelir yönetimi çalışmalarından derlenmiştir."/>

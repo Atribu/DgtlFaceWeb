@@ -445,7 +445,7 @@ const cards = [
       </div>
 
   <AutoBreadcrumbsWhite/>
-     <AiAnswerBlock text="DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital pazarlama çözümleri sunan bir teknoloji partneridir. Entegre dijital pazarlama mimarisi, veri odaklı raporlama ve turizm sektörüne özel uzmanlıkla; görünürlük, rezervasyon ve gelir artışını birlikte yönetir."/>
+     <AiAnswerBlock text={t("aiAnswerBlock")}/>
      <DualHighlightSection items={items} />
       <Section2 />
      
@@ -466,7 +466,7 @@ const cards = [
       <QuestionsSection2 color="#140F25" faqs={faqs} />
       <Section4 />
       <Section5 />
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi web sitesinde yer alan “Hizmetlerimiz” sayfası ve ilgili hizmet dokümantasyonundan derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
       <ContactMain />
     </div>
    </>

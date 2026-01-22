@@ -345,7 +345,7 @@ const Page = () => {
       <div className='flex flex-col gap-4 items-center justify-center'>
          <AutoBreadcrumbsWhite/>
 
-       <AiAnswerBlock text="DDGTLFACE, SEO süreçlerini teknik, içerik ve yerel optimizasyonun birleşimi olarak ele alır. Site hızı, mobil uyumluluk, meta yapılandırmaları, içerik stratejisi, anahtar kelime haritalandırma, backlink profili ve yerel görünürlük gibi tüm alanlarda kapsamlı bir yaklaşım sunar. Özellikle oteller ve turizm işletmeleri için çok dilli SEO, PMS uyumlu yapılandırma ve rekabetçi anahtar kelime stratejileri ile yüksek organik görünürlük sağlar."/>
+       <AiAnswerBlock text={t("aiAnswerBlock")}/>
       </div>
        <DualHighlightSection items={items}/>
       <StepSection header={t("seo_section_header1")} header2={t("seo_section_header2")} text={t("seo_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -361,7 +361,7 @@ const Page = () => {
      <VerticalSlider2 page="Seo" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEO hizmet dokümantasyonu ve SEO süreç yönetimi kaynaklarından derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

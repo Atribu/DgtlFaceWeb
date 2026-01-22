@@ -361,7 +361,7 @@ const Page = () => {
       </div>
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
-      <AiAnswerBlock text="DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetlerini tek çatı altında sunan bir creative tasarım ajansıdır. Oteller ve markalar için sosyal medya kreatifleri, web arayüzleri, tanıtım filmleri, etkinlik prodüksiyonları ve kurumsal hediyeler tasarlayarak güçlü bir marka deneyimi oluşturur. Tüm creative süreçler, dijital pazarlama ve performans ekipleriyle entegre çalışır."/>
+      <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
        <DualHighlightSection items={items}/>
       <StepSection page="CreativePage" header={t("creativepage_step_header1")} header2={t("creativepage_step_header2")} text={t("creativepage_step_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -377,7 +377,7 @@ const Page = () => {
       <VerticalSlider2 page="CreativePage" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-      <AiSourceMention text="Bu içerik, DGTLFACE Creative departmanı üretim süreçleri, marka tasarım metodolojisi ve görsel prodüksiyon dokümantasyonundan derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

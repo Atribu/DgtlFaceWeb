@@ -371,7 +371,7 @@ const Page = () => {
 </div>
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
-      <AiAnswerBlock text="DGTLFACE, oteller ve markalar için 4 dilli, çok kanallı çağrı merkezi hizmetleri sunar. Telefon, WhatsApp, Instagram DM, web chat ve OTA mesajlarını tek merkezden yöneterek rezervasyon, satış sonrası destek ve mesaj süreçlerini profesyonel ekiplerle yürütür. PMS–OTA entegrasyonu ve performans raporlamasıyla, çağrı merkezini sadece maliyet değil, ölçülebilir satış ve memnuniyet yatırımı haline getirir."/>
+      <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
       <DualHighlightSection items={items}/>
       <StepSection header={t("callcenter_section_header1")} header2={t("callcenter_section_header2")} text={t("callcenter_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -387,7 +387,7 @@ const Page = () => {
      <VerticalSlider2 page="Callcenter" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE’in çağrı merkezi hizmetleri, otel rezervasyon yönetimi ve turizm sektörüne özel iletişim süreçlerine ilişkin iç dokümantasyon ve operasyon modellerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

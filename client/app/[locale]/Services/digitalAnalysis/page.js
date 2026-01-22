@@ -354,7 +354,7 @@ const Page = () => {
    </div>
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
-    <AiAnswerBlock text="DGTLFACE, SEO, SEM, SMM, web, PMS–OTA ve çağrı merkezi verilerini Looker Studio dashboard’larında birleştirerek veri analizi ve dijital performans raporlama hizmeti sunar. Oteller ve markalar için satış, dönüşüm, doluluk ve kanal performansını tek panelde görünür hale getirir; benchmark analizleri ve satış/dönüşüm raporlarıyla karar süreçlerini sezgiden çıkarıp veriye dayalı hale getirir."/>
+    <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
        <DualHighlightSection items={items}/>
 <StepSection
@@ -374,12 +374,10 @@ const Page = () => {
       bgColor="#ffffff"
       textColor="#140f25"
     />
-
-
         <VerticalSlider2 page="DigitalAnalysis" itemCount={4}/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE dijital raporlama, performans analitiği, otel pazarlaması ve Looker Studio dashboard süreçlerine ait resmi çalışma yöntemlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

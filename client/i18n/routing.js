@@ -215,8 +215,9 @@ export const routing = defineRouting({
     "/Services/seo": { // https://www.dgtlface.com/tr/Services/seo
       en: "/services/seo-search-engine-optimization",
       tr: "/seo",
-     
     },
+    
+
     "/Services/seo/backlinkSeo": { // https://www.dgtlface.com/tr/Services/seo/offpageSeo
       en: "/services/seo/off-page-seo",
       tr: "/seo/backlink-yonetimi",

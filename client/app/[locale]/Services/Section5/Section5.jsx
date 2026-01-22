@@ -5,56 +5,22 @@ import { useTranslations } from 'next-intl';
 const Section5 = () => {
    const t = useTranslations('ServicesPage');
   // Kartlar için veri dizisi (6 adet)
-  const testimonialsData = [
-    {
-      id: 1,
-      name: "Ahmet Sönmez",
-      role: "Melodie Hotel Satış Müdürü",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE ile çalışmaya başladıktan sonra otelimizin doğrudan rezervasyonları %40 arttı. Özellikle PMS ve OTA yönetimindeki uzmanlıkları, operasyonel yükümüzü inanılmaz hafifletti. Antalya'da turizm odaklı dijital ajans arayan herkese tavsiye ederim.",
-    },
-    {
-      id: 2,
-      name: "Elif Özcan",
-      role: "E-Ticaret Marka Yöneticisi",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE, işimiz için ezber bozan bir etki yarattı. Hazırladıkları yeni SEM kampanyaları ile ROI'miz ilk ayda %55 yükseldi. Yaratıcılıkları ve veriye dayalı profesyonellikleri gerçekten eşsiz.",
-    },
-    {
-      id: 3,
-      name: "Murat Bilgiç",
-      role: "Kurumsal İletişim Direktörü",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE ekibi inanılmaz yetenekli. Yeni kurumsal kimlik ve web sitesi projemiz beklentilerimizin çok ötesinde teslim edildi. Kurumsal imajımızı elit bir seviyeye taşıdılar.",
-    },
-    {
-      id: 4,
-      name: "Deniz Kaya",
-      role: "Start-up Kurucu Ortağı",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE'in detaylara gösterdiği dikkat ve yenilikçi teknik SEO çözümleri sayesinde, sıfırdan kurduğumuz sitemiz 4 ay gibi kısa sürede hedef anahtar kelimelerde ilk sayfaya yerleşti. Başarımızın büyük bir kısmı onlara ait.",
-    },
-    {
-      id: 5,
-      name: "Cemil Arslan",
-      role: "Mobil Uygulama Proje Yöneticisi",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE ile çalışmak harika bir deneyimdi. Geliştirdikleri UI/UX tasarımları hem estetik hem de işlevsel açıdan mükemmel. Kullanıcılarımızdan aldığımız geri bildirimler müthiş pozitif.",
-    },
-    {
-      id: 6,
-      name: "Berna Akın",
-      role: "Eğitim Kurumu Pazarlama Uzmanı",
-      image: "https://placehold.co/79x79",
-      comment:
-        "DGTLFACE'in veri odaklı sosyal medya stratejisi, marka bilinirliğimizi ve etkileşimimizi kısa sürede katladı. Her ay düzenli ve şeffaf raporlamaları sayesinde nereye yatırım yaptığımızı net bir şekilde görüyoruz.",
-    },
-  ];
+const t2 = useTranslations("ServicesPage.testimonials.items");
+
+const testimonialsData = [
+  { id: 1, key: "t1" },
+  { id: 2, key: "t2" },
+  { id: 3, key: "t3" },
+  { id: 4, key: "t4" },
+  { id: 5, key: "t5" },
+  { id: 6, key: "t6" }
+].map(({ id, key }) => ({
+  id,
+  name: t2(`${key}.name`),
+  role: t2(`${key}.role`),
+  image: t2(`${key}.image`),
+  comment: t2(`${key}.comment`)
+}));
 
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef(null);

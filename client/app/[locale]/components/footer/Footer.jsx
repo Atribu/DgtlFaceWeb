@@ -27,30 +27,30 @@ export default function Footer() {
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
   const serviceCategories = [
-    { href: "/Services/sem", label: "SEM" },
-     { href: "/Services/creative", label: "Creative" },
-   { href: "/Services/pms", label: "PMS & OTA Yönetimi" },
-      { href: "/Services/callcenter", label: "Çağrı Merkezi" },
-    { href: "/Services/smm", label: "SMM" },
-    { href: "/Services/software", label: "Web & Yazılım Hizmetleri" },
-     { href: "/Services/seo", label: "SEO" },
-        { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama" },
+    { href: "/Services/sem", label: t("sem") },
+     { href: "/Services/creative", label: t("creative") },
+   { href: "/Services/pms", label: t("pms") },
+      { href: "/Services/callcenter", label: t("callcenter") },
+    { href: "/Services/smm", label: t("smm") },
+    { href: "/Services/software", label: t("software") },
+     { href: "/Services/seo", label: t("seo") },
+        { href: "/Services/digitalAnalysis", label: t("reporting") },
 
-    { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
+    { href: "/Services/hotel", label:t("hotel") },
  
   ];
 
     const sssCategories = [
-    { href: "/Services/sem", label: "SEM SSS" },
-     { href: "/Services/creative", label: "Creative SSS" },
-   { href: "/Services/pms", label: "PMS & OTA Yönetimi SSS" },
-      { href: "/Services/callcenter", label: "Çağrı Merkezi SSS" },
-    { href: "/Services/smm", label: "SMM SSS" },
-    { href: "/Services/software", label: "Yazılım SSS" },
-     { href: "/Services/seo", label: "SEO SSS" },
-        { href: "/Services/digitalAnalysis", label: "Veri Analizi & Raporlama SSS" },
+    { href: "/Services/sem", label: t("semSSS") },
+     { href: "/Services/creative", label: t("creativeSSS") },
+   { href: "/Services/pms", label: t("pmsSSS") },
+      { href: "/Services/callcenter", label: t("callcenterSSS") },
+    { href: "/Services/smm", label: t("smmSSS") },
+    { href: "/Services/software", label: t("softwareSSS") },
+     { href: "/Services/seo", label: t("seoSSS") },
+        { href: "/Services/digitalAnalysis", label: t("reportingSSS") },
 
-    { href: "/Services/hotel", label: "Otel Dijital Dönüşüm" },
+    { href: "/Services/hotel", label: t("hotelSSS") },
  
   ];
 
@@ -212,7 +212,7 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-10 w-[31%] mt-10 lg:mt-2 xl:mt-4 text-white font-medium">
             <div>
          <h4 className="text-[14px] font-semibold mb-2">
-              Hizmetler
+              {t("link_services")}
               </h4>
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">
@@ -242,7 +242,7 @@ export default function Footer() {
 
             <div>
          <h4 className="text-[14px] font-semibold mb-2">
-              SSS
+              {t("faq")}
               </h4>
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">

@@ -25,6 +25,11 @@ const inter = Inter({
   variable: "--font-inter", 
 });
 
+const ogLocaleMap = {
+  tr: "tr_TR",
+  en: "en_US",
+};
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -83,7 +88,7 @@ export async function generateMetadata({ params }) {
           alt: "DGTLFACE",
         },
       ],
-      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ru_RU",
+      locale: ogLocaleMap[locale] ?? "en_US",
     },
 
     twitter: {
@@ -103,7 +108,7 @@ export async function generateMetadata({ params }) {
 
 
 export default async function RootLayout({ children,  params }) {
-   const { locale } = await params;
+   const { locale } =  params;
   
   if (!routing.locales.includes(locale)) {
     notFound();

@@ -271,7 +271,7 @@ const Page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs/>
-<AiAnswerBlock text="DGTLFACE, Google Ads kampanyalarını sadece tıklama odağında değil; satış, rezervasyon ve gerçek dönüşüm odağında yönetir. Anahtar kelime stratejisi, negatif kelimeler, bütçe ve teklif (bid) optimizasyonu, reklam metni testleri ve kalite puanı iyileştirmesini bir arada ele alır. Özellikle otel ve turizm işletmeleri için oda doluluğu, rezervasyon ve gelir artışını hedefleyen arama ağı, marka ve remarketing kampanyaları kurgulanır ve Looker Studio panelleriyle şeffaf şekilde raporlanır."/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
       <H2LogoSection items={h2items} />
 
@@ -287,7 +287,7 @@ const Page = () => {
       <VerticalSlider page="GoogleAdsAdvertising" itemCount={3}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi Google Ads yönetimi dokümantasyonu ve SEM hizmet tanımlarından derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

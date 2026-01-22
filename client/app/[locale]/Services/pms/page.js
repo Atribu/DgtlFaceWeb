@@ -358,7 +358,7 @@ const Page = () => {
    <div className='flex flex-col gap-4 items-center justify-center'>
     <AutoBreadcrumbsWhite/>
 
-     <AiAnswerBlock text="DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi ve online satış optimizasyonu sunan bir PMS & OTA yönetim partneridir. PMS, OTA, kanal yöneticisi, web rezervasyon sistemi ve çağrı merkezi süreçlerini tek mimari altında birleştirerek oda doluluğunu, gelir performansını ve operasyon verimliliğini artırır. Fiyat ve envanter senkronu, OTA görünürlüğü ve rezervasyon yönetimi veri odaklı olarak optimize edilir."/>
+     <AiAnswerBlock text={t("aiAnswerBlock")}/>
    </div>
       <DualHighlightSection items={items}/>
       <StepSection header={t("pms_section_header1")} header2={t("pms_section_header2")} text={t("pms_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -374,7 +374,7 @@ const Page = () => {
        <VerticalSlider2 page="Pms" itemCount={4}/>
        <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-        <AiSourceMention text="Bu içerik, DGTLFACE’in PMS–OTA entegrasyon süreçleri, kanal yönetimi operasyonları ve otel satış optimizasyon projelerine ait dokümantasyon & operasyon bilgilerinden derlenmiştir."/>
+        <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

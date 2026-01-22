@@ -272,7 +272,7 @@ const Page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs />
-<AiAnswerBlock text="DGTLFACE, YouTube reklamlarını marka bilinirliği, rezervasyon ve satış artırma odaklı olarak yönetir. Doğru hedefleme, video format seçimi (bumper, in-stream, discovery), kreatif optimizasyon ve izleme sürelerine göre ölçümleme süreçleri profesyonelce uygulanır. Özellikle oteller ve turizm işletmeleri için video içerikler yüksek etkileşim ve görünürlük sağlar. Kampanyalar Looker Studio panelleriyle düzenli olarak raporlanır ve ROI odaklı şekilde optimize edilir."/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
      </div>
          <H2LogoSection items={h2items} />
      <StepSection2New data={stepData} header={t("h3Section.header")}/>
@@ -285,7 +285,7 @@ const Page = () => {
     />
       <VerticalSlider page="YoutubeAdvertising" itemCount={3}/>
        <QuestionsSection2 variant="light" faqs={faqs} />
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi YouTube reklam yönetimi hizmet dokümantasyonundan derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

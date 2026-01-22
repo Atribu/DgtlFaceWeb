@@ -1,6 +1,8 @@
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
+import { useTranslations } from "next-intl";
 
 export function AiAnswerBlock({ text }) {
+  const t = useTranslations("Homepage");
   return (
     <section
       className="
@@ -33,7 +35,7 @@ export function AiAnswerBlock({ text }) {
           {/* Etiket sadece mobile’da ikonun yanında dursun */}
           <div className="md:hidden flex flex-col">
             <span className="text-[12px] font-semibold uppercase tracking-[0.18em] text-indigo-200">
-              Kısa Özet
+               {t("shortSummaryLabel")}
             </span>
           </div>
         </div>
@@ -42,7 +44,7 @@ export function AiAnswerBlock({ text }) {
         <div className="flex-1 space-y-[2px] lg:space-y-1">
           {/* Desktop / tablet label */}
           <p className="hidden md:block text-[11px] lg:text-xs font-semibold uppercase tracking-[0.18em] text-indigo-200">
-            Kısa Özet
+             {t("shortSummaryLabel")}
           </p>
 
           <p

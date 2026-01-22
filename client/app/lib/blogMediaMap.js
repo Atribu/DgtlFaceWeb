@@ -2553,49 +2553,49 @@ export const BLOG_MEDIA_MAP = {
 
    "oteller-icin-youtube-reklam-turleri":{
      banner: {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-1.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-1.webp",
       alt: "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?",
       caption: "Oteller İçin YouTube Reklam Türleri: Hangi Format Ne Zaman Kullanılmalı?"
     },
 
           "h1-context": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-2.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-2.webp",
       alt: "",
       caption: "YouTube hedefi ve otel funnel eşlemesini hızlı anlatan bağlam görseli"
     },
 
            "divider-01": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-3.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-3.webp",
       alt: "",
       caption: "Skippable ve non-skippable karşılaştırmasına geçiş için otel temalı ayırıcı görseli"
     },
 
     "divider-02": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-4.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-4.webp",
       alt: "",
       caption: "Discovery ve karar bölümüne geçiş için otel temalı ayırıcı görseli"
     },
 
      "diagram-05": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-5.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-5.webp",
       alt: "",
       caption: "Funnel aşamasına göre YouTube format seçimini gösteren otel karar diyagramı"
     },
 
           "checklist-06": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-6.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-6.webp",
       alt: "",
       caption: "Otel YouTube reklam format seçimi için mini checklist kartı görseli"
     },
 
       "kpi-07": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-7.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-7.webp",
       alt: "",
       caption: "YouTube kampanyasında 5 KPI ile performansı özetleyen otel skor kartı"
     },
 
           "proof-08": {
-      src: "/images/blog/sem/SEM2-1/SEM2-1-8.jpeg",
+      src: "/images/blog/sem/SEM2-1/SEM2-1-8.webp",
       alt: "",
       caption: "Otel YouTube reklam planı deliverables ve güven unsurlarını gösteren kart"
     }
@@ -2604,49 +2604,49 @@ export const BLOG_MEDIA_MAP = {
 
   "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":{
      banner: {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-1.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-1.webp",
       alt: "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
       caption: "Google Haritalar sıralama faktörleri özeti, otel görünürlüğünü anlatan kapak görseli"
     },
 
           "h1-context": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-2.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-2.webp",
       alt: "Google Haritalar Sıralama Faktörleri: Otel ve Yerel İşletmeler İçin Temel Rehber",
       caption: "Local Pack 3’lü sonuç ekranı, otel araması bağlamında görünürlüğü gösteren görsel"
     },
 
            "divider-03": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-3.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-3.webp",
       alt: "Google Haritalar ve Local Pack nasıl çalışır? (Mantık + SERP davranışı)",
       caption: "Local Pack mantığına giriş, otel harita görünürlüğü bölüm ayraç görseli"
     },
 
     "divider-04": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-4.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-4.webp",
       alt: "Google Business Profile sinyalleri: Kategori, içerik ve güncellik",
       caption: "GBP optimizasyon bölümüne geçiş, otel profil yönetimi ayraç görseli"
     },
 
      "diagram-05": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-5.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-5.webp",
       alt: "İlk 30 günde yapılacaklar: Local Pack görünürlüğü için otel sprinti",
       caption: "GBP–NAP–Site üçgeni diyagramı, otel Local Pack karar akışını anlatan şema"
     },
 
           "checklist-06": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-6.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-6.webp",
       alt: "Mini Check (30 Günlük Sprint Çıkışı)",
       caption: "30 gün Local Pack checklist’i, otel görünürlüğü için hızlı kontrol kartı"
     },
 
       "kpi-07": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-7.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-7.webp",
       alt: "Harita KPI seti, otel için önce–sonra performans paneli",
       caption: "Harita KPI seti, otel için önce–sonra performans paneli"
     },
 
           "proof-08": {
-      src: "/images/blog/seo/SEO2-1/SEO2-1-8.jpeg",
+      src: "/images/blog/seo/SEO2-1/SEO2-1-8.webp",
       alt: "Yerel SEO çıktı seti, otel için deliverables ve güven unsuru kartı",
       caption: "Yerel SEO çıktı seti, otel için deliverables ve güven unsuru kartı"
     }
@@ -2654,49 +2654,49 @@ export const BLOG_MEDIA_MAP = {
 
   "sosyal-medya-stratejisi-nasil-yazilir-framework":{
      banner: {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-1.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-1.webp",
       alt: "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework",
       caption: "Sosyal Medya Stratejisi Nasıl Yazılır? Adım Adım Framework"
     },
 
           "h1-context": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-2.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-2.webp",
       alt: "",
       caption: ""
     },
 
            "divider-01": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-3.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-3.webp",
       alt: "",
       caption: ""
     },
 
     "divider-02": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-4.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-4.webp",
       alt: "",
       caption: ""
     },
 
      "diagram-05": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-5.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-5.webp",
       alt: "",
       caption: ""
     },
 
           "checklist-06": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-6.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-6.webp",
       alt: "",
       caption: ""
     },
 
       "kpi-07": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-7.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-7.webp",
       alt: "",
       caption: ""
     },
 
           "proof-08": {
-      src: "/images/blog/smm/SMM2-1/SMM2-1-8.jpeg",
+      src: "/images/blog/smm/SMM2-1/SMM2-1-8.webp",
       alt: "",
       caption: ""
     }
@@ -2704,49 +2704,49 @@ export const BLOG_MEDIA_MAP = {
 
   "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":{
     banner: {
-      src: "/images/blog/software/Software2-1/Software2-1-1.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-1.webp",
       alt: "",
       caption: ""
     },
 
           "content-type": {
-      src: "/images/blog/software/Software2-1/Software2-1-2.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-2.webp",
       alt: "Content Type Tanımlama (Sayfa, Blog, Oda, Paket, Referans vb.)",
       caption: "Content Type Tanımlama (Sayfa, Blog, Oda, Paket, Referans vb.)"
     },
 
            "different-content": {
-      src: "/images/blog/software/Software2-1/Software2-1-3.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-3.webp",
       alt: "Hangi içerikler için ayrı content type açmalıyım?",
       caption: "Hangi içerikler için ayrı content type açmalıyım?"
     },
 
     "mandatory-optional": {
-      src: "/images/blog/software/Software2-1/Software2-1-4.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-4.webp",
       alt: "Field Tasarımı (Metin, Rich Text, Media, Relation, Lokalizasyon)",
       caption: "Field Tasarımı (Metin, Rich Text, Media, Relation, Lokalizasyon)"
     },
 
      "hotel-b2b": {
-      src: "/images/blog/software/Software2-1/Software2-1-5.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-5.webp",
       alt: "Otel ve B2B İçin Örnek İçerik Modelleri",
       caption: "Otel ve B2B İçin Örnek İçerik Modelleri"
     },
 
           "field-design": {
-      src: "/images/blog/software/Software2-1/Software2-1-6.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-6.webp",
       alt: "Önerilen field kategorileri ",
       caption: "Önerilen field kategorileri "
     },
 
       "cms-model": {
-      src: "/images/blog/software/Software2-1/Software2-1-7.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-7.webp",
       alt: "CMS’ten Next.js’e Veri Akışı",
       caption: "CMS’ten Next.js’e Veri Akışı"
     },
 
           "software-content-team": {
-      src: "/images/blog/software/Software2-1/Software2-1-8.jpeg",
+      src: "/images/blog/software/Software2-1/Software2-1-8.webp",
       alt: "“Az ama doğru” model, hız + sürdürülebilirlik getirir",
       caption: "Yazılım ve İçerik Ekipleri İçin Ortak Dil"
     }
@@ -2755,49 +2755,49 @@ export const BLOG_MEDIA_MAP = {
 
   "otel-rezervasyon-ux-temelleri":{
      banner: {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-1.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-1.webp",
       alt: "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber",
       caption: "Otel Rezervasyon UX’i Nasıl Tasarlanır? Misafir Yolculuğu için Temel Rehber"
     },
 
           "reservation-mobil": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-2.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-2.webp",
       alt: "Otel rezervasyon UX’i neden kritik?",
       caption: "Otel rezervasyon UX’i neden kritik?"
     },
 
            "": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-3.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-3.webp",
       alt: "",
       caption: ""
     },
 
     "4-step-diagram": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-4.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-4.webp",
       alt: "Otel rezervasyon süreci kaç adım olmalı?",
       caption: "İdeal Otel Rezervasyon Hunisi"
     },
 
      "": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-5.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-5.webp",
       alt: "",
       caption: ""
     },
 
           "checklist": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-6.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-6.webp",
       alt: "Otel rezervasyon UX’i için hızlı uygulanabilir kontrol listesi kartı",
       caption: "Otel Ux Hızlı Kontrol Listesi"
     },
 
       "funnel-kpi": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-7.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-7.webp",
       alt: "Rezervasyon dönüşüm KPI’larını özetleyen skor kartı ",
       caption: "Rezervasyon Funnel KPI'ları"
     },
 
           "": {
-      src: "/images/blog/creative/Creative2-1/Creative2-1-8.jpeg",
+      src: "/images/blog/creative/Creative2-1/Creative2-1-8.webp",
       alt: "",
       caption: "Ux Analizi Çıktıları & Güven Kanıtı"
     }
@@ -2805,49 +2805,49 @@ export const BLOG_MEDIA_MAP = {
 
   "otel-rezervasyon-cagri-merkezi-nedir-akis":{
     banner: {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-1.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-1.webp",
       alt: "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?",
       caption: "Otel Rezervasyon Çağrı Merkezi Nedir, Akış Nasıl Çalışır?"
     },
 
           "flow": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-2.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-2.webp",
       alt: "Otel Rezervasyon Çağrı Merkezinin Temel Rolü",
       caption: "Otel Rezervasyon Çağrı Merkezinin Temel Rolü"
     },
 
            "pms-notes": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-3.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-3.webp",
       alt: "PMS’te Kayıt Oluştururken Kritik Alanlar",
       caption: "PMS’te Kayıt Oluştururken Kritik Alanlar"
     },
 
     "matrix-callcenter-reservation": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-4.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-4.webp",
       alt: "",
       caption: ""
     },
 
      "5-steps-diagram": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-5.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-5.webp",
       alt: "",
       caption: ""
     },
 
           "checklist": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-6.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-6.webp",
       alt: "10 Adım (hızlı checklist)",
       caption: "10 Adım (hızlı checklist)"
     },
 
       "kpi-panel": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-7.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-7.webp",
       alt: "KPI’ları Doğru Okuma",
       caption: "KPI’ları Doğru Okuma"
     },
 
           "download": {
-      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-8.jpeg",
+      src: "/images/blog/callcenter/Callcenter2-1/Callcenter2-1-8.webp",
       alt: "",
       caption: ""
     }
@@ -2856,49 +2856,49 @@ export const BLOG_MEDIA_MAP = {
 
   "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":{
       banner: {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-1.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-1.webp",
       alt: "OTA Entegrasyonu Nedir? Booking & Expedia ile Oteliniz Nasıl Çalışır?",
       caption: "OTA Entegrasyonu Nedir? Booking & Expedia ile Oteliniz Nasıl Çalışır?"
     },
 
           "channel-manager": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-2.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-2.webp",
       alt: "PMS ve channel manager bağlam görseli, Booking-Expedia entegrasyonu",
       caption: "PMS ve channel manager bağlam görseli, Booking-Expedia entegrasyonu"
     },
 
            "ota-integrationdistinction": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-3.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-3.webp",
       alt: "OTA entegrasyonu kavram ayrımı görseli, otel operasyon çerçevesi",
       caption: "OTA entegrasyonu kavram ayrımı görseli, otel operasyon çerçevesi"
     },
 
     "price-inventory-transition": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-4.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-4.webp",
       alt: "Fiyat ve envanter yönetimi geçiş görseli, otel gelir yönetimi",
       caption: "Fiyat ve envanter yönetimi geçiş görseli, otel gelir yönetimi"
     },
 
      "rate-inventory-synchronization": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-5.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-5.webp",
       alt: "PMS’den OTA’ya veri akışı diyagramı, rate ve inventory senkronu",
       caption: "PMS’den OTA’ya veri akışı diyagramı, rate ve inventory senkronu"
     },
 
           "checklist": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-6.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-6.webp",
       alt: "OTA entegrasyonu kontrol çerçevesi kartı, otel satış süreci",
       caption: "OTA entegrasyonu kontrol çerçevesi kartı, otel satış süreci"
     },
 
       "ota-kpi": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-7.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-7.webp",
       alt: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı”",
       caption: "Overbooking ve fiyat tutarlılığı KPI kartı, otel kanal performansı"
     },
 
           "deliverables": {
-      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-8.jpeg",
+      src: "/images/blog/pms/PMS-OTA2-1/Pms2-1-8.webp",
       alt: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi",
       caption: "OTA entegrasyonu deliverables kartı, otel ekipleri için çıktı listesi"
     }
@@ -2906,49 +2906,49 @@ export const BLOG_MEDIA_MAP = {
 
   "otel-benchmark-analizi-nedir-nasil-yapilir":{
      banner: {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-1.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-1.webp",
       alt: "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi",
       caption: "Otel Benchmark Analizi Nedir, Nasıl Yapılır? Temel Kavramlar ve Başlangıç Rehberi"
     },
 
           "performance": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-2.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-2.webp",
       alt: "Otel KPI’larının rakip setiyle kıyaslandığı başlangıç bağlam görseli",
       caption: "Otel KPI’larının rakip setiyle kıyaslandığı başlangıç bağlam görseli"
     },
 
            "adr-occupancy-rate": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-3.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-3.webp",
       alt: "Benchmark amacı ve faydasını anlatan bölüm ayırıcı otel görseli",
       caption: "Benchmark amacı ve faydasını anlatan bölüm ayırıcı otel görseli"
     },
 
     "internal-external-benchmarks": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-4.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-4.webp",
       alt: "İç ve dış benchmark farkını sade kutularla anlatan otel görseli",
       caption: "İç ve dış benchmark farkını sade kutularla anlatan otel görseli"
     },
 
      "flowchart": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-5.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-5.webp",
       alt: "Hotel KPI’larının Competitor Set ile karşılaştırıldığı akış diyagramı görseli",
       caption: "Hotel KPI’larının Competitor Set ile karşılaştırıldığı akış diyagramı görseli"
     },
 
           "checklist": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-6.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-6.webp",
       alt: "Benchmark için KPI ve rakip seti seçimini özetleyen kontrol kartı görseli",
       caption: "Benchmark için KPI ve rakip seti seçimini özetleyen kontrol kartı görseli"
     },
 
       "kpi-score-cards": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-7.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-7.webp",
       alt: "Doluluk ADR RevPAR ve kanal payı için örnek KPI skor kartı görseli",
       caption: "Doluluk ADR RevPAR ve kanal payı için örnek KPI skor kartı görseli"
     },
 
           "deliverables-cards": {
-      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-8.jpeg",
+      src: "/images/blog/analysisReporting/Reporting2-1/Reporting2-1-8.webp",
       alt: "Benchmark çıktıları ve aksiyon planını gösteren deliverables kartı görseli",
       caption: "Benchmark çıktıları ve aksiyon planını gösteren deliverables kartı görseli"
     }
@@ -2956,49 +2956,49 @@ export const BLOG_MEDIA_MAP = {
 
   "otel-instagram-strateji-rehberi":{
      banner: {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-1.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-1.webp",
       alt: "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi",
       caption: "Otel Instagram Hesabı Nasıl Konumlandırılır? Temel Strateji Rehberi"
     },
 
           "instagram-strategy": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-2.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-2.webp",
       alt: "Instagram profil konumlandırması için hızlı kontrol görseli",
       caption: "Instagram profil konumlandırması için hızlı kontrol görseli"
     },
 
            "instagram-otel": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-3.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-3.webp",
       alt: "Otel Instagram stratejisi bölüm ayırıcı görseli",
       caption: "Otel Instagram stratejisi bölüm ayırıcı görseli"
     },
 
     "hotel-content-themes": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-4.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-4.webp",
       alt: "Otel içerik temaları oda tesis deneyim destinasyon ayırıcı görseli",
       caption: "Otel içerik temaları oda tesis deneyim destinasyon ayırıcı görseli"
     },
 
      "direct-booking-flow": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-5.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-5.webp",
       alt: " Instagramdan direkt rezervasyona funnel akışını gösteren diyagram",
       caption: "Instagramdan direkt rezervasyona funnel akışını gösteren diyagram"
     },
 
           "checklist": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-6.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-6.webp",
       alt: "Otel Instagram bio ve funnel kontrol listesini özetleyen kart",
       caption: "Otel Instagram bio ve funnel kontrol listesini özetleyen kart"
     },
 
       "performance-cards": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-7.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-7.webp",
       alt: "Otel Instagram KPI setini gösteren skor kart görseli",
       caption: "Otel Instagram KPI setini gösteren skor kart görseli"
     },
 
           "download": {
-      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-8.jpeg",
+      src: "/images/blog/hotel/Hotel2-1/Hotel2-1-8.webp",
       alt: "Otel sosyal medya teslimatlarını ve güven kanıtlarını gösteren kart",
       caption: "Otel sosyal medya teslimatlarını ve güven kanıtlarını gösteren kart"
     }
@@ -3006,49 +3006,49 @@ export const BLOG_MEDIA_MAP = {
 
   "oteller-icin-youtube-hedefleme-yapisi":{
     banner: {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-1.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-1.webp",
       alt: "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?",
       caption: "Oteller İçin YouTube Hedefleme Yapısı Nasıl Kurulur?"
     },
 
           "funnel-layers": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-2.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-2.webp",
       alt: "Funnel’a göre hedefleme katmanlarını gösteren bağlam görseli",
       caption: "Funnel’a göre hedefleme katmanlarını gösteren bağlam görseli"
     },
 
            "targeting": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-3.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-3.webp",
       alt: "Hedefleme katmanlarına geçiş için ayırıcı görsel",
       caption: "Hedefleme katmanlarına geçiş için ayırıcı görsel"
     },
 
     "remarketing": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-4.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-4.webp",
       alt: " Remarketing ve hata senaryolarına geçiş için ayırıcı görsel",
       caption: " Remarketing ve hata senaryolarına geçiş için ayırıcı görsel"
     },
 
      "hotel-youtube-flow": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-5.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-5.webp",
       alt: "Upper–Mid–Low hedefleme katmanlarını ve remarketing akışını gösteren diyagram",
       caption: "Upper–Mid–Low hedefleme katmanlarını ve remarketing akışını gösteren diyagram"
     },
 
           "checklist": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-6.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-6.webp",
       alt: "YouTube hedefleme kurulumunu 7 adımda özetleyen checklist kartı",
       caption: "YouTube hedefleme kurulumunu 7 adımda özetleyen checklist kartı"
     },
 
       "kpi-panel": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-7.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-7.webp",
       alt: "Hedefleme kalitesi için KPI skor kartı ",
       caption: "Hedefleme kalitesi için KPI skor kartı (5 metrik)"
     },
 
           "download": {
-      src: "/images/blog/sem/SEM2-2/SEM2-2-8.jpeg",
+      src: "/images/blog/sem/SEM2-2/SEM2-2-8.webp",
       alt: "Hedefleme deliverables seti: segment planı, listeler, test planı",
       caption: "Hedefleme deliverables seti: segment planı, listeler, test planı"
     }

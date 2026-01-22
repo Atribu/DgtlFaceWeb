@@ -340,7 +340,7 @@ const Page = () => {
        </div>
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
-       <AiAnswerBlock text="DGTLFACE, sosyal medya stratejisi, içerik üretimi, Reels & video, planlama, reklam yönetimi ve performans analizi gibi tüm SMM süreçlerini uçtan uca yönetir. Instagram, Facebook, YouTube ve TikTok için profesyonel içerikler üretir; turizm ve otel markaları için çok dilli sosyal medya yapılarını kurgular. SMM’i yalnızca estetik görsellerle sınırlamaz; veri odaklı yapı, reklam entegrasyonu ve rezervasyon odaklı içeriklerle markanız için gerçek iş sonucu üretir."/>
+       <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
        <DualHighlightSection items={items}/>
       <StepSection header={t("smm_section_header1")} header2={t("smm_section_header2")} text={t("smm_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -356,7 +356,7 @@ const Page = () => {
       <VerticalSlider2 page="Smm" itemCount={4}/>
       <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi sosyal medya yönetimi dokümantasyonundan ve sosyal medya strateji & içerik üretim süreçlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

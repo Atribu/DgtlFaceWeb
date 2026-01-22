@@ -96,10 +96,10 @@ export default function ThreeMainBanner() {
 
           }}
         >
-          <li>Otel & turizm odaklı 360° dijital pazarlama</li>
-          <li>Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri</li>
-          <li>TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi</li>
-          <li>Looker Studio ile şeffaf, gerçek zamanlı performans raporlama</li>
+          <li>{t("list1")}</li>
+          <li>{t("list2")}</li>
+          <li>{t("list3")}</li>
+          <li>{t("list4")}</li>
         </ul>
 
         <div

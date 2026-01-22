@@ -333,42 +333,13 @@ const cards = [
 ];
 
 
-  const faqs = [
-    {
-      question: "DGTLFACE hangi tür işletmeler için Google Ads ve SEM hizmeti veriyor?",
-      answer:
-        "DGTLFACE, ağırlıklı olarak oteller ve turizm markaları ile çalışsa da; hizmet, sağlık, gayrimenkul, B2B ve e-ticaret alanlarında da dönüşüm odaklı SEM hizmeti sunar.",
-    },
-    {
-      question:
-        "Sadece Google Ads mi yönetiyorsunuz?",
-      answer:
-        "Ana odağımız Google Ads olsa da Meta Ads, YouTube Ads, Display ve diğer reklam ağlarını tek strateji altında yönetiriz.",
-    },
-    {
-      question: "Google Ads kampanyalarıyla ne kadar sürede sonuç alırım?",
-      answer:
-        "Genelde 2–4 hafta optimizasyon + test sürecidir. Ardından ölçekleme ve performans artırma aşamasına geçilir.",
-    },
-
-    {
-      question: "Küçük bütçelerde profesyonel yönetim gerekli mi?",
-      answer:
-        "Evet. Küçük bütçelerde yapılan hatalar daha hızlı boşa harcama yaratır. DGTLFACE ile bütçenin her kuruşu dönüşüm potansiyeline göre yönetilir.",
-    },
-
-    {
-      question: "DGTLFACE ile çalışmaya başlamak için süreç nasıl işliyor?",
-      answer:
-        "Hesap analizi → Hedef–pazar planı → Kampanya kurulumları → Dönüşüm takibi + raporlama → İlk 30–60 gün agresif optimizasyon.",
-    },
-
-    {
-      question: "Antalya dışında da çalışıyor musunuz?",
-      answer:
-        "Evet. Antalya merkezliyiz ama Türkiye ve yurt dışındaki birçok marka ile online olarak çalışıyoruz.",
-    },
-  ];
+   const faqs = Array.from({ length: 6 }, (_, i) => {
+    const idx = i + 1;
+    return {
+      question: t(`faqs.question${idx}`),
+      answer: t(`faqs.answer${idx}`)
+    };
+  });
 
   
   return (
@@ -390,7 +361,7 @@ const cards = [
    <div className='flex flex-col items-center justify-center gap-4'>
     <AutoBreadcrumbsWhite/>
 
-     <AiAnswerBlock text="DGTLFACE, Google Ads, YouTube Ads, Remarketing ve Display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni, hedef kitle ve dönüşüm takibi gibi tüm süreçler entegre ilerler. Özellikle oteller ve turizm markaları için görünürlük, doluluk ve gelir artışını sağlayan, veriye dayalı bir dijital reklam modeli sunar."/>
+     <AiAnswerBlock text={t("aiAnswerBlock")}/>
    </div>
      <DualHighlightSection items={items} />
       <StepSection header={""} header2={t("sem_section_header1")} text={t("sem_section_text")} servicesData={servicesData} buttonText={t("buttonText")}/>
@@ -405,7 +376,7 @@ const cards = [
     />
       <VerticalSlider2 page="Sem" itemCount={4}/>
      <QuestionsSection2 color="#140F25" faqs={faqs} />
-     <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi SEM dokümantasyonu ve hizmet tanımlarından derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
       <Contact/>
     </div>
     </>

@@ -339,7 +339,7 @@ const Page = () => {
   title: t(`hotel_services_title${i}`),
   subTitle: t(`hotel_services_subtitle${i}`),
      text: t(`hotel_services_text${i}`),
-  features: [1,2,3,4,5,6].map(j => t(`hotel_services_feature${i}_${j}`)),
+  features: [1,2,3,4].map(j => t(`hotel_services_feature${i}_${j}`)),
   buttonLink: [
     "/otel/seo",
     "/otel/sosyal-medya",
@@ -376,7 +376,7 @@ const Page = () => {
    </div>
 <div className='flex flex-col gap-4 items-center justify-center'>
   <AutoBreadcrumbsWhite/>
-    <AiAnswerBlock text="DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümlerini tek çatı altında sunan bir otel dijital pazarlama ve teknoloji partneridir. Amaç sadece görünürlük değil; doluluk, gelir, direkt rezervasyon ve misafir memnuniyetini aynı anda artıran 360° bir dijital mimari kurmaktır. Resort, city, butik veya luxury oteller için özel stratejiler ve yol haritaları hazırlanır."/>
+    <AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
        <DualHighlightSection items={items}/>
 <StepSection
@@ -401,7 +401,7 @@ const Page = () => {
         <VerticalSlider2 page="Hotel" itemCount={4}/>
       <QuestionsSection color="#140F25"/>
       <Contact/>
-      <AiSourceMention text="Bu bilgi, DGTLFACE dijital raporlama, performans analitiği, otel pazarlaması ve Looker Studio dashboard süreçlerine ait resmi çalışma yöntemlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )
