@@ -249,7 +249,7 @@ const Page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs/>
-<AiAnswerBlock text="DGTLFACE, Google Ads, YouTube, Meta Ads ve diğer dijital kampanyaların verilerini Looker Studio üzerinde tek bir panelde toplar. Tıklama, gösterim, dönüşüm, gelir, ROAS ve funnel metriklerini birlikte analiz ederek hangi kampanyaların gerçekten kazandırdığını ortaya koyar. Özellikle oteller ve turizm işletmeleri için doluluk, rezervasyon ve oda başı gelir (RevPAR) odaklı raporlama yapılır; böylece reklam bütçesi veriyle optimize edilir, sezonsal stratejiler güçlenir."/>
+<AiAnswerBlock text={t("aiSourceMention")}/>
       </div>
 <H2LogoSection items={h2items} />
 
@@ -266,7 +266,7 @@ const Page = () => {
     </div>
  
        <QuestionsSection2 variant="light" faqs={faqs} />
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi reklam raporlama ve performans analizi dokümantasyonundan, Looker Studio raporlama pratiklerinden ve SEM süreçlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

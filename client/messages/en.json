@@ -1892,131 +1892,543 @@
 },
 
 
-"GoogleAdsAdvertising":{
-  "cta_talk_to_us": "Talk to us",
- "googleadsadvertising_subbanner_header": "Google Ads Advertising",
-  "googleadsadvertising_subbanner_header2": "Services",
-  "googleadsadvertising_subbanner_text": "Track the effectiveness of your Google Ads campaigns by monitoring conversions, attributing sales, and optimizing your advertising ROI.",
+"GoogleAdsAdvertising": {
+  "aiAnswerBlock": "DGTLFACE manages Google Ads campaigns not just for clicks, but with a focus on sales, bookings, and real conversions. We combine keyword strategy, negative keywords, budget and bidding optimization, ad copy testing, and Quality Score improvements in one unified system. Especially for hotels and tourism businesses, we build Search, Brand, and Remarketing campaigns aimed at occupancy, reservations, and revenue growth—and report everything transparently via Looker Studio dashboards.",
+  "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official Google Ads management documentation and SEM service definitions.",
 
-  "googleadsadvertising_step1_header": "Keyword and Audience Research Services",
-  "googleadsadvertising_step1_text": "Keyword and audience research are core to a successful strategy. We analyze your market, competitors, and customers to identify the most effective keywords and audience segments for your campaigns.",
+  "cta_talk_to_us": "Get in Touch to Optimize Your Google Ads Campaign",
+  "googleadsadvertising_subbanner_header": "Google Ads Campaign Management -",
+  "googleadsadvertising_subbanner_header2": "Professional Optimization Service",
+  "googleadsadvertising_subbanner_text": "DGTLFACE is a professional Google Ads agency that designs campaign management not just to generate clicks, but to build a performance channel that delivers sales and bookings. With Search Network, brand and generic campaigns, tourism & hotel-focused queries, and device/country targeting, we direct your budget to measurable conversions—not random clicks. We answer questions like “How can I reduce Google Ads costs?”, “How can I increase conversion rates?”, and “What should sales-focused Google Ads settings look like?” by unifying strategy, setup, optimization, and reporting. This turns Google Ads into a <b>controllable, transparent, and scalable</b> revenue engine for your brand.",
+  "googleadsadvertising_subbanner_header3": "Conversion-Driven Growth with Google Ads Management",
+  "googleadsadvertising_subbanner_text2": "Google Ads helps you reach high-intent users <b>at the exact moment they search</b>. At DGTLFACE, we evaluate an account not only by impressions and clicks, but by conversion volume, cost per acquisition (CPA), and revenue generated. We modularize the campaign structure by: <ul><li>Brand vs. generic separation,</li><li>Country / language / device splits,</li><li>Intent stages (information – comparison – purchase)</li></ul> So in scenarios like <b>“tourism Google Ads campaigns, Google Ads for hotels, Google advertising in tourism”</b>, each segment gets a dedicated goal, message, and budget model. The goal: <b>more conversions with more controlled costs.</b>",
 
-  "googleadsadvertising_step2_header": "Ad Copy and Visual Design Services",
-  "googleadsadvertising_step2_text": "We craft ads that both attract attention and drive action by pairing persuasive copy with effective visuals. Our creative team produces tailored assets that resonate across digital platforms.",
+  "googleadsadvertising_stepheader": "Audience & Keyword Strategy",
+  "googleadsadvertising_steptext": "Successful professional Google Ads management is built on <b>the right audience + the right keywords + the right message</b>. DGTLFACE: <ul><li>Combines keyword research with sector competition,</li><li>Balances broad / phrase / exact match with negative keywords,</li><li>Applies techniques like <b>“Google Ads keyword strategies, Search campaign optimization, improving Quality Score”</b> in daily optimizations.</li></ul> This reduces cost per click (CPC) while increasing Quality Score—so you get more clicks and more conversions with the same budget.",
 
-  "googleadsadvertising_step3_header": "Ad Campaign Creation Services",
-  "googleadsadvertising_step3_text": "We ensure consistent messaging across channels—digital ads, social, PPC, email, and more—to boost brand awareness and generate qualified leads.",
+  "googleadsadvertising_step1_header": "How We Reduce Google Ads Costs",
+  "googleadsadvertising_step1_text": "Reducing Google Ads costs doesn’t mean simply lowering bids. DGTLFACE improves efficiency by: cleaning irrelevant search terms, removing low-performing keywords, strengthening ad copy and extensions, and improving landing page experience. This leads to improvements in both CPC and cost per conversion (CPA). Result: more sales and bookings with the same budget.",
 
-  "googleadsadvertising_step4_header": "Google Ads Targeting & Budget Management",
-  "googleadsadvertising_step4_text": "We design campaigns to reach precise audiences with relevant keywords, optimizing bids and spend by performance to maximize return on investment."
+  "googleadsadvertising_step2_header": "Sales-Focused Google Ads Settings",
+  "googleadsadvertising_step2_text": "Not every campaign has the same goal. Some focus on brand awareness, others on direct sales. In sales-focused campaigns, DGTLFACE uses: conversion-focused bidding strategies (Target CPA, Target ROAS, etc.), correct device and location splits, strong ad extensions (price, callouts, sitelinks), and clear calls-to-action (Book Now, Get a Quote, etc.) to apply conversion rate optimization techniques. This ensures your account prioritizes campaigns that generate sales—not just traffic.",
+
+  "googleadsadvertising_step2_1header": "Google Ads Management for Hotels & Tourism Brands",
+  "googleadsadvertising_step2_1text": "In hotels and tourism, Google Ads can directly impact occupancy and room revenue when managed correctly. DGTLFACE builds separate campaign and ad group structures for: brand queries (hotel name + region), destination queries (e.g., Antalya family hotel), concept queries (spa hotel, luxury resort, aquapark hotel), and seasonal intent queries (early booking, last minute). For requests like “increase hotel sales with Google Ads” or “Booking-integrated Google Ads”, we also consider your PMS and OTA infrastructure to strengthen your direct booking channel.",
+
+  "googleadsadvertising_step2_2header": "Tourism & Hotel Keyword Architecture",
+  "googleadsadvertising_step2_2text": "Search behavior varies by country and market. DGTLFACE analyzes market-specific queries, seasonal demand waves, and destination competition in depth. In structures like “hotel Google Ads, tourism Google Ads campaigns, resort ads”, we re-segment campaigns by country, language, and season, creating different messaging and budget setups for Germany, Russia, the UK, and the domestic market.",
+
+  "googleadsadvertising_step5_header": "Conversion Tracking, Tag Manager & Data Infrastructure",
+  "googleadsadvertising_step5_text": "Poor conversion tracking can make even the best Google Ads campaign meaningless. DGTLFACE builds your measurement infrastructure end-to-end with Google Tag Manager, Google Analytics 4, form & booking tracking, phone click tracking, and WhatsApp click tracking. We answer questions like “How do I reduce ad costs?”, “Which campaign actually drives sales?”, and “Which countries are more profitable for hotel ads?” with real data—not assumptions. For deeper detail, you can direct users to the <a href=\"/Services/sem/tagManager\">conversion tracking & Tag Manager</a> page.",
+
+  "googleadsadvertising_step6_header": "Ad Reporting & Continuous Optimization",
+  "googleadsadvertising_step6_text": "DGTLFACE turns Google Ads reporting from a basic “impressions–clicks table” into actionable insights. With Looker Studio dashboards, we show: performance by campaign/ad group/keyword/device/country, conversions and CPA, and—if revenue data is integrated—ROAS and profitability in a single panel. We combine your needs for “Google Ads reporting, performance analysis, advertising reporting for hotels” with the <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> service. In every reporting meeting, the focus is less on “what happened” and more on “what we will change next month to drive more sales.”",
+
+  "h2Section": {
+    "header1": "Audience & Keyword Strategy",
+    "text1": "Successful professional Google Ads management is built on <b>the right audience + the right keywords + the right message</b>. DGTLFACE: <ul><li>Combines keyword research with sector competition,</li><li>Balances broad / phrase / exact match with negative keywords,</li><li>Applies techniques like <b>“Google Ads keyword strategies, Search campaign optimization, improving Quality Score”</b> in daily optimizations.</li></ul> This reduces CPC while increasing Quality Score—so you get more clicks and more conversions with the same budget.",
+    "header2": "Google Ads Management for Hotels & Tourism Brands",
+    "text2": "Scenarios like hotel Google Ads management and tourism advertising require industry-specific expertise. DGTLFACE builds separate strategies for: <ul><li>Brand + destination searches (“hotel name + region”),</li><li>Concept searches (family hotel, adults-only, spa hotel, luxury resort, etc.),</li><li>Seasonal queries (early booking, last minute, half board, ultra all inclusive, etc.),</li><li>Competitor/comparison intent (price comparison, reviews)</li></ul> So you don’t only show for your own name, but across every critical touchpoint of the guest’s research journey.",
+    "header3": "Campaign Setup, Testing & Continuous Optimization",
+    "text3": "At DGTLFACE, Google Ads is not “set and forget.” We build a cycle for every account: <ul><li>Audit: account structure, competition, goals</li><li>Strategy: architecture, budget split, country/language/device segmentation</li><li>Setup: campaigns, ad groups, keywords, ads, extensions</li><li>Testing: first 2–4 weeks of creative/bid/targeting tests</li><li>Optimization: scale/cut decisions based on CPA and conversion quality</li><li>Reporting: weekly/monthly performance & action plan</li></ul> Over time, the account becomes <b>cleaner, more efficient, and more profitable</b>.",
+    "header4": "Ad Reporting & Performance Analysis",
+    "text4": "DGTLFACE transforms reporting into <b>usable insights</b>. With Looker Studio and Google Ads reporting tools, we analyze: <ul><li>Performance by campaign/ad group/keyword,</li><li>Country/device/time breakdowns,</li><li>Conversions and CPA,</li><li>Revenue & ROAS (if available)</li></ul> For needs like “how to prepare a Google Ads report” or “hotel advertising reporting,” we use the <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> structure. In meetings, we focus on “what we change next month,” not just “what happened.”"
+  },
+
+  "h3Section": {
+    "header": "Google Ads Optimization Techniques & Implementation Processes",
+    "header1": "How We Reduce Google Ads Costs",
+    "text1": "The answer to <b>“How do I reduce Google Ads costs?”</b> is not just lowering bids—it’s cleaning and strengthening the account intelligently. DGTLFACE: <ul><li>Adds irrelevant queries as negatives,</li><li>Prunes low-quality, non-converting keywords,</li><li>Tests ad copy based on CTR and Quality Score,</li><li>Optimizes landing page experience,</li><li>Reallocates budget from weak campaigns to strong performers.</li></ul> Result: <b>more conversions with the same budget or the same conversions at a lower cost</b>.",
+    "header2": "Sales-Focused Google Ads Settings",
+    "text2": "Not every campaign serves the same purpose. For sales-focused setups, DGTLFACE treats the following as a single performance system: <ul><li>Smart bidding strategies (Target CPA / Target ROAS),</li><li>Conversion-focused campaign types,</li><li>Device, location, time/day optimization,</li><li>Ad extensions (callouts, price extensions, etc.)</li></ul> This is how “sales-focused Google Ads settings” translate into measurable improvements inside the account.",
+    "header3": "Tourism & Hotel-Focused Campaign Structures",
+    "text3": "When we talk about <b>“tourism Google Ads campaigns”</b>, we segment beyond country and language—by audience intent: <ul><li>Family resort seekers,</li><li>Adults-only concept seekers,</li><li>SPA & wellness-focused searches,</li><li>Luxury / villa & premium audiences,</li><li>City hotel / business travel queries</li></ul> Each segment gets different ad copy, bids, and often a <b>different landing page</b>. This directly increases conversion rates.",
+    "header4": "How We Write Google Ads Copy",
+    "text4": "Ad copy sits at the core of campaign performance. DGTLFACE: <ul><li>Reflects search intent in the headline,</li><li>Communicates clear benefits and offers (price, campaign, advantage),</li><li>Uses strong CTAs (Get a Quote, Book Now, View Prices, etc.),</li><li>Runs A/B tests to validate messaging.</li></ul> This improves CTR and Quality Score—reducing CPC over time.",
+    "header5": "Conversion Tracking, Tag Manager & Data Infrastructure",
+    "text5": "Without conversion tracking, even the best campaign cannot prove its value. DGTLFACE sets up: <ul><li>Google Tag Manager,</li><li>GA4 events & conversions,</li><li>Tracking for forms, bookings, phone clicks, WhatsApp clicks, quote requests,</li><li>Cross-domain tracking (especially if the booking engine is on a separate domain)</li></ul> For tracking and setup needs, we connect the flow with the <a href=\"/Services/sem/tagManager\">conversion tracking & Tag Manager</a> page so you can clearly see which campaign, keyword, and ad drives how many (and what-value) conversions."
+  },
+
+  "h4Section": {
+    "header": "Why Google Ads Management with DGTLFACE?",
+    "card1title": "Not an Agency—A Performance & Revenue Partner",
+    "card2title": "Antalya-Based Expertise in Tourism & Service Industries",
+    "card3title": "Google Ads Integrated with SEO–SMM–Hotel Operations",
+
+    "card1description": "DGTLFACE is not just an agency that “changes settings in the panel”—we act as a <b>partner that owns your performance and revenue goals</b>. We work integrated with SEO, SMM, web & development, PMS–OTA, and call center teams. This makes Google Ads part of a system where SEO feeds demand, social supports awareness, the website converts, and PMS/OTA + call center connects to final revenue.",
+    "card2description": "Behind searches like <b>“Google Ads Antalya, Antalya Google advertising agency, Google Ads management Turkey”</b> is a structure that understands tourism and service businesses from the field. As an Antalya-based team, we reflect hands-on experience from destinations like Belek, Side, Kemer, Lara, and Alanya directly into your Google Ads strategy—so campaigns align not only technically, but also with <b>seasonality and market realities</b>.",
+    "card3description": "Google Ads performance becomes meaningful when read alongside SEO, SMM, web, OTA, PMS, and call center data. DGTLFACE combines Google Ads with: <ul><li>SEO for organic & brand demand,</li><li>SMM for awareness & interest,</li><li>Web & development for speed & conversion,</li><li>PMS–OTA for occupancy/pricing/channel signals,</li><li>Call center for reservation & closing</li></ul> so improvements happen not only inside the ad account, but across the entire digital system."
+  },
+
+  "verticalSlider": {
+    "header": "Micro Layer ",
+    "header2": "Key Areas that Deepen Your Google Ads Structure",
+
+    "title1": "The Right Balance Between Manual and Automated Bidding ",
+    "span1": "Strategies",
+    "text1": "The answer to “Should we switch to automated bidding or stay manual?” is: <b>the right balance</b>. DGTLFACE uses manual bidding for low-data campaigns to maintain flexible control, and activates smart strategies like Target CPA / Target ROAS when enough conversion data accumulates—so you benefit from Google’s machine learning while keeping costs under control.",
+    "button1": "Learn More",
+
+    "title2": "Negative Keywords and ",
+    "span2": "Traffic Cleaning",
+    "text2": "The hidden hero of a successful Google Ads account: <b>negative keyword management</b>. DGTLFACE regularly analyzes search terms to identify irrelevant and low-intent queries, protecting your budget from “junk clicks.” For hotel and tourism projects, filtering wrong-intent searches is one of the fastest ways to improve efficiency.",
+    "button2": "Explore",
+
+    "title3": "Device, Region and ",
+    "span3": "Time-Based Optimization",
+    "text3": "Performance differs by device, time, and location. DGTLFACE analyzes performance by device (mobile/desktop/tablet), region (country/city/destination), and time/day. Cutting weak combinations and scaling strong ones shifts budget to the areas that produce the most conversions.",
+    "button3": "Learn More",
+
+    "title4": "Booking-Integrated Google Ads ",
+    "span4": "Structures",
+    "text4": "When we say “Booking-integrated Google Ads,” we evaluate the journey through both OTA and direct booking perspectives. DGTLFACE aligns your Google Ads with OTA strategy, pricing policy, and Google Hotel Ads setups to increase visibility while optimizing the <b>commission vs. profitability balance</b>.",
+    "button4": "Review"
+  },
+
+  "faq": {
+    "header": "Frequently Asked Questions About Google Ads Management",
+
+    "question1": "Do you review my account before starting Google Ads management?",
+    "answer1": "Yes. Before starting, DGTLFACE always performs an account audit. If you have an existing account, we analyze historical data. If not, we plan a structure from scratch based on your industry and target audience. This enables more controlled and efficient execution from day one.",
+
+    "question2": "How soon can I expect results from Google Ads?",
+    "answer2": "It depends on competition, industry, and budget, but the first 2–4 weeks are typically a test & learning period. During this time, we collect data and run A/B tests. After that, optimization brings more stable and scalable performance.",
+
+    "question3": "Is professional Google Ads management worth it with a small budget?",
+    "answer3": "Absolutely. Small budgets can burn quickly when mistakes happen. With professional management, we allocate your budget to the most efficient campaigns, keywords, and targeting—so you can achieve meaningful results even with limited spend.",
+
+    "question4": "Do you only use Search, or do you also run Display and YouTube?",
+    "answer4": "We use the right mix based on your needs. Search is the core, Display is used for visibility and remarketing, and YouTube is effective for storytelling—especially in tourism. We determine the ideal combination together based on account data.",
+
+    "question5": "How do we start Google Ads management with DGTLFACE?",
+    "answer5": "We begin with a quick intro + account audit. We listen to your goals, budget, and current situation. Then we prepare a Google Ads roadmap including campaign architecture, conversion tracking, and reporting routines. After approval, we launch setup, Tag Manager & GA4 integrations, and the first optimization phase."
+  }
 },
 
-"GoogleWebtools":{
-   "cta_talk_to_us": "Talk to us",
-  "googlewebtools_subbanner_header": "Google Webtools",
-  "googlewebtools_subbanner_header2": "Services",
-  "googlewebtools_subbanner_text": "In the vast and ever-evolving digital landscape, harnessing Google’s web tools is essential to maximize your online presence. DGTLFACE provides professional setup services that deliver insights, better performance, and measurable results.",
+"YoutubeAdvertising": {
+  "aiAnswerBlock": "DGTLFACE manages YouTube advertising with a focus on brand awareness, bookings, and sales growth. Professional execution includes precise targeting, choosing the right video formats (bumper, in-stream, discovery), creative optimization, and measurement based on watch time and engagement. Especially for hotels and tourism businesses, video content drives high visibility and interaction. Campaigns are reported regularly via Looker Studio dashboards and optimized with a strong ROI focus.",
+  "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official YouTube Ads management service documentation.",
 
-  "googlewebtools_step1_header": "Comprehensive Google Analytics Integration",
-  "googlewebtools_step1_text": "Elevate your site’s performance with end-to-end Analytics setup. Track behavior, understand traffic sources, and measure KPIs to make data-driven decisions.",
+  "cta_talk_to_us": "Contact Us to Optimize Your YouTube Ads Campaign",
+  "youtubeadvertising_subbanner_header": "YouTube Video Advertising Management – ",
+  "youtubeadvertising_subbanner_header2": "Goal-Driven Video Advertising Strategies",
+  "youtubeadvertising_subbanner_text": "DGTLFACE is a professional <b>YouTube Ads agency</b> that delivers your brand story to the right audience, in the right format, at the right time. We don’t run video campaigns just to get “views”—we design them to generate brand awareness, engagement, and sales/booking conversions. We manage TrueView, bumper ads, in-stream, Shorts, and remarketing campaigns under one roof, and answer questions like “How do I set a YouTube ad budget?”, “What are the best YouTube targeting techniques?”, “How can video content increase sales?”, and “Which YouTube ads build brand awareness?” with strategy + setup + optimization + reporting. This turns YouTube into not only a visibility channel, but a <b>real performance engine</b> for your brand.",
+  "youtubeadvertising_subbanner_header3": "Combining Brand and Performance with YouTube Ads",
+  "youtubeadvertising_subbanner_text2": "YouTube is the world’s largest video platform and a powerful part of the Google ecosystem. DGTLFACE uses YouTube Ads simultaneously for: <ul><li>Brand awareness and image (visibility, reach, watch time),</li><li>Engagement and website traffic (clicks, site visits, remarketing lists),</li><li>Sales and bookings (users moving to the bottom of the funnel).</li></ul> Topics like <b>“video advertising management, YouTube media buying, YouTube remarketing”</b> work in sync with your Google Search & Display campaigns. The goal is to make YouTube not a separate silo, but the video engine that feeds your entire SEM architecture.",
 
-  "googlewebtools_step2_header": "Google Ads Setup & Optimization",
-  "googlewebtools_step2_text": "Kickstart paid marketing with campaign creation, keyword selection, and bid management tailored to your goals.",
+  "youtubeadvertising_stepheader": "YouTube Ad Formats & Targeting Strategy",
+  "youtubeadvertising_steptext": "Each YouTube ad format plays a different role. When designing campaign strategy, DGTLFACE uses combinations such as: Bumper Ads (6s) → high frequency, memorability, campaign messaging; Skippable In-Stream → storytelling, product/hotel showcase, remarketing; Non-Skippable In-Stream → short and strong message, guaranteed visibility; In-Feed Video Ads → Discovery, search results, and YouTube home feed; YouTube Shorts Ads → mobile-first visibility with short vertical videos. On the audience side, we use multi-layer targeting with: demographics (age, gender), interest & behavior segments, custom intent audiences (searched terms, visited sites), and channel/video/topic targeting. This turns queries like “what are YouTube ad formats?”, “YouTube campaign optimization guide”, “YouTube ad costs 2026”, and “YouTube targeting techniques” into practical, daily operating actions.",
 
-  "googlewebtools_step3_header": "Implementation of Google Tag Manager",
-  "googlewebtools_step3_text": "Manage tags without editing code. Deploy and update analytics, conversion, and remarketing tags from one centralized place for seamless data collection.",
+  "youtubeadvertising_step1_header": "How Do We Set a YouTube Ads Budget?",
+  "youtubeadvertising_step1_text": "There is no single answer to “How do I set a YouTube ad budget?”—it depends on your goal and market. DGTLFACE plans budget based on: whether the goal is awareness or sales/bookings, which countries and time periods we will run, the number of video assets and variations, and how YouTube will integrate with other campaigns (Search, Display, Remarketing). Even for small businesses, the right targeting + right format + right message combination can achieve visibility + engagement + conversion.",
 
-  "googlewebtools_step4_header": "Google Search Console Setup & Integration",
-  "googlewebtools_step4_text": "Submit sitemaps, monitor indexing and performance, and resolve issues to ensure your website is optimized for Google Search."
+  "youtubeadvertising_step2_header": "YouTube Targeting Techniques",
+  "youtubeadvertising_step2_text": "In a successful YouTube campaign, “who sees it?” is as critical as “what they watch.” DGTLFACE targets using: custom audiences based on search intent, specific competitor channels and videos, interest categories (travel, family, luxury, etc.), and remarketing lists (site visitors, video viewers, channel subscribers). This transforms “YouTube campaign optimization” and “YouTube targeting techniques” into a real implementation playbook.",
+
+  "youtubeadvertising_step2_1header": "YouTube Ads for Hotels & Tourism Brands",
+  "youtubeadvertising_step2_1text": "In tourism, YouTube is one of the strongest channels for making guests truly feel the hotel experience. DGTLFACE, in areas like “YouTube ads for tourism, YouTube video ads for hotels, resort YouTube campaign management”: produces video creatives using room, lobby, pool, aquapark, restaurant, SPA, and event footage; creates different video narratives for segments like family, adults-only/couples-only, luxury, and city hotels; designs campaigns with language and messaging tailored to markets (DE, RU, UK, etc.); and connects YouTube campaigns with Search and remarketing inside a single funnel. Result: users see you on YouTube, encounter you again in Search, are reminded via remarketing, and make booking decisions faster.",
+
+  "youtubeadvertising_step2_2header": "How Do We Structure a Hotel YouTube Ads Campaign?",
+  "youtubeadvertising_step2_2text": "When building a “hotel YouTube campaign,” DGTLFACE starts with key questions: Which markets (countries) will we target? Which concept should we communicate (family, adults-only, luxury, etc.)? Where else will this video be used (Reels, TikTok, website, trade fair screens, etc.)? Which KPI are we targeting: visibility, site visits, or a funnel toward bookings? Based on these, we define video lengths (15–30–60s), formats (horizontal/vertical), and headline & thumbnail combinations. This turns “tourism YouTube campaigns, hotel video ad strategy, resort YouTube ads management” into a hotel-specific blueprint.",
+
+  "youtubeadvertising_step5_header": "Creative & Production Integrated with YouTube Ads",
+  "youtubeadvertising_step5_text": "YouTube performance depends not only on media buying, but also on the creative layer. DGTLFACE brings two teams together: <a href=\"/Services/creative/videoProduction\">Creative & video production → </a> and <a href=\"/Services/sem/youtubeAdvertising\">YouTube campaign & media planning → </a> Script, storyboard, shooting plan, editing, music, subtitles, and multilingual versions are created with YouTube Ads requirements (duration, format, hook, CTA) in mind. Topics like “YouTube bumper ads, YouTube media buying, tourism video production, hotel promo film” become the outcome of a strong collaboration between media and creative teams.",
+
+  "youtubeadvertising_step6_header": "Conversion Tracking, Analytics & YouTube Reporting",
+  "youtubeadvertising_step6_text": "To understand YouTube’s real impact, we look beyond views and measure on-site behavior and conversions. DGTLFACE: integrates YouTube Ads with GA4 and Tag Manager; tracks the funnel from campaign → click → session → page depth → conversion; and analyzes view-through rate, average watch time, and common drop-off points. We answer questions like “YouTube ad costs 2026” and “YouTube campaign optimization guide” by pairing them with “What did this video do to which audience?” For detailed reporting and dashboard structures, we also use <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> and <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>.",
+
+  "youtubeadvertising_step7_header": "Reels, Short-Form Video & YouTube Shorts Sync",
+  "youtubeadvertising_step7_text": "Short-form video consumption is everywhere: TikTok, Reels, Shorts… DGTLFACE synchronizes your YouTube Shorts campaigns with Reels & short-form production (/Services/smm/reelsVideo). From a single shoot day, we produce: Reels versions, Shorts versions, Story formats, and cropped versions for feed and ads—optimizing production cost while keeping a consistent video language across platforms. This makes “YouTube Shorts ads management” not a standalone task, but a natural part of your overall short-video strategy.",
+
+  "h2Section": {
+    "header1": "YouTube Ad Formats & Targeting Strategy",
+    "text1": "Each YouTube ad format plays a different role. When designing campaign strategy, DGTLFACE uses: <ul><li>Bumper Ads (6s) → high frequency, memorability, campaign messaging</li><li>Skippable In-Stream → storytelling, product/hotel showcase, remarketing</li><li>Non-Skippable In-Stream → short and strong message, guaranteed visibility</li><li>In-Feed Video Ads → Discovery, search results, and YouTube home feed</li><li>YouTube Shorts Ads → mobile-first visibility with short vertical videos</li></ul> On the audience side, we use multi-layer targeting with: <ul><li>Demographics (age, gender)</li><li>Interest & behavior segments</li><li>Custom intent audiences (searched terms, visited sites)</li><li>Channel/video/topic targeting</li></ul> This turns topics like <b>“YouTube ad formats, YouTube campaign optimization guide, YouTube ad costs 2026, YouTube targeting techniques”</b> into concrete daily operations.",
+    "header2": "YouTube Ads for Hotels & Tourism Brands",
+    "text2": "In tourism, YouTube is one of the strongest channels for making guests truly feel the hotel experience. DGTLFACE, in areas like <b>“YouTube ads for tourism, YouTube video ads for hotels, resort YouTube campaign management”</b>: <ul><li>Produces video creatives using room, lobby, pool, aquapark, restaurant, SPA, and event footage</li><li>Creates different narratives for segments like family, adults-only/couples-only, luxury, and city hotels</li><li>Designs campaigns with messaging tailored to markets (DE, RU, UK, etc.)</li><li>Connects YouTube with Search and remarketing inside a single funnel</li></ul> Result: users see you on YouTube, encounter you again in Search, are reminded via remarketing, and <b>make booking decisions faster</b>.",
+    "header3": "Creative & Production Integrated with YouTube Ads",
+    "text3": "YouTube performance depends not only on media buying, but also on the <b>creative layer</b>. DGTLFACE connects: <ul><li><a href=\"/Services/creative/videoProduction\">Creative & video production → </a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube campaign & media planning → </a></li></ul> Script, storyboard, shooting plan, editing, music, subtitles, and multilingual versions are built with YouTube Ads needs (duration, format, hook, CTA) in mind. Topics like “YouTube bumper ads, YouTube media buying, tourism video production, hotel promo film” become the output of a strong media + creative system.",
+    "header4": "Conversion Tracking, Analytics & YouTube Reporting",
+    "text4": "To understand YouTube’s real impact, we measure beyond views and analyze site behavior and conversions. DGTLFACE: <ul><li>Integrates YouTube Ads with GA4 and Tag Manager</li><li>Tracks campaign → click → session → page depth → conversion funnel</li><li>Analyzes view-through rate, average watch time, and drop-off points</li></ul> We combine “YouTube ad costs 2026” and “YouTube campaign optimization guide” with the question <b>“What did this video do to which audience?”</b>. For detailed reporting and dashboards, we also use <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> and <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>."
+  },
+
+  "h3Section": {
+    "header": "YouTube Ads Optimization Techniques & Campaign Build Process",
+    "header1": "How Do We Set a YouTube Ads Budget?",
+    "text1": "There is no single answer to “How do I set a YouTube ad budget?”—it depends on your goal and market. DGTLFACE plans budget based on: <ul><li>whether the goal is awareness or sales/bookings,</li><li>which countries and seasons we will run,</li><li>the number of video assets and variations,</li><li>how YouTube integrates with other campaigns (Search, Display, Remarketing)</li></ul> Even for small businesses, the right targeting + format + message combination can achieve <b>visibility + engagement + conversion</b>.",
+    "header2": "YouTube Targeting Techniques",
+    "text2": "In a successful YouTube campaign, “who sees it?” is as critical as “what they watch.” DGTLFACE targets using: <ul><li>custom audiences based on search intent</li><li>specific competitor channels and videos</li><li>interest categories (travel, family, luxury, etc.)</li><li>remarketing lists (site visitors, video viewers, channel subscribers)</li></ul> This turns <b>“YouTube campaign optimization guide, YouTube targeting techniques”</b> into a real implementation playbook.",
+    "header3": "How Do We Structure a Hotel YouTube Ads Campaign?",
+    "text3": "When building a “hotel YouTube campaign,” DGTLFACE starts with key questions: <ul><li>Which markets (countries) will we target?</li><li>Which concept should we communicate (family, adults-only, luxury, etc.)?</li><li>Where else will this video be used (Reels, TikTok, website, trade fair screens, etc.)?</li><li>Which KPI are we targeting: visibility, site visits, or a funnel toward bookings?</li></ul> Based on these, we define video lengths (15–30–60s), formats (horizontal/vertical), and headline & thumbnail combinations. This turns <b>“tourism YouTube campaigns, hotel video ad strategy, resort YouTube ads management”</b> into a hotel-specific blueprint.",
+    "header4": "Reels, Short-Form Video & YouTube Shorts Sync",
+    "text4": "Short-form video consumption is everywhere: TikTok, Reels, Shorts… DGTLFACE synchronizes YouTube Shorts campaigns with Reels & short-form production (/Services/smm/reelsVideo). From a single shoot day, we produce: <ul><li>Reels versions</li><li>Shorts versions</li><li>Story formats</li><li>cropped versions for feed and ads</li></ul> optimizing production cost and ensuring a <b>consistent video language</b> across platforms. This makes <b>“YouTube Shorts ads management”</b> a natural part of your overall short-video strategy."
+  },
+
+  "h4Section": {
+    "header": "Why YouTube Ads Management with DGTLFACE?",
+    "card1title": "Not a Video Agency—A Video + Performance Partner",
+    "card2title": "Antalya-Based, Tourism-Focused YouTube Ads Expertise",
+    "card3title": "YouTube Strategy Integrated with SEO–SEM–SMM",
+
+    "card1description": "DGTLFACE positions itself not only as a team that “shoots videos” or “runs campaigns,” but as a <b>hybrid partner combining video + performance</b>. Creative & production, SMM, SEM, web, and analytics teams work together for YouTube. This ensures YouTube ads: <ul><li>Increase brand awareness</li><li>Feed social media and website traffic</li><li>Create warm audiences for remarketing</li><li>Strengthen the booking/sales funnel</li></ul> Video becomes not an abstract brand investment, but a <b>measurable performance tool</b>.",
+    "card2description": "Behind searches like <b>“YouTube ads management Antalya, Antalya YouTube advertising agency, YouTube Ads Turkey, Antalya video advertising service”</b> is a team that understands tourism, video production, and performance together. As an Antalya-based agency, DGTLFACE runs YouTube campaigns for resort, city hotel, boutique hotel, and villa/luxury segments, reflecting seasonality and market dynamics in campaign strategy.",
+    "card3description": "YouTube Ads can deliver more when integrated with <b>SEO</b> (brand & destination demand), <b>SEM</b> (Search & Display), <b>SMM</b> (Reels & short-form), and <b>web experience</b>. DGTLFACE connects your YouTube strategy to the same game plan as <a href=\"/Services/sem\">(Google Ads & SEM)</a>, <a href=\"/Services/smm\">(SMM)</a>, <a href=\"/Services/creative\">(Creative)</a>, and <a href=\"/Services/hotel\">(Hotel umbrella strategy)</a>."
+  },
+
+  "verticalSlider": {
+    "header": "Micro Layer ",
+    "header2": "Key Areas that Deepen Your SEM Structure",
+
+    "title1": "Re-Capturing Warm Audiences with YouTube Remarketing ",
+    "span1": "Effectively",
+    "text1": "Users who watched your video, visited your channel, or came to your site via YouTube are a high-value remarketing audience. DGTLFACE shows tailored “reminder, campaign, trust-building” videos and creatives to move them closer to booking/purchase. Especially in hotel and tourism projects, remarketing videos perform strongly with messages like <b>early booking, special discounts, limited availability</b>.",
+    "button1": "Learn More",
+
+    "title2": "Fast and Effective Messaging with ",
+    "span2": "YouTube Shorts Ads",
+    "text2": "Vertical short-form video matches today’s attention span. DGTLFACE produces 10–30 second Shorts creatives with fast, clear, and emotional messaging. This format is ideal for: <ul><li>mobile users</li><li>younger audiences</li><li>quick concept showcases</li></ul> The same creatives can be synchronized with Reels & TikTok to create <b>multi-channel visibility</b>.",
+    "button2": "Explore",
+
+    "title3": "Mobile-First ",
+    "span3": "YouTube Experience",
+    "text3": "Most YouTube consumption happens on mobile. That’s why it’s critical to: <ul><li>deliver the message in the first 3–5 seconds</li><li>use subtitles</li><li>produce vertical and square variants</li><li>send traffic to mobile-optimized landing pages</li></ul> DGTLFACE optimizes creatives and campaign settings based on mobile consumption realities.",
+    "button3": "Learn More",
+
+    "title4": "Increasing Sales with Video Content ",
+    "span4": "in Tourism",
+    "text4": "<b>“Increasing sales with video content”</b> works extremely well in tourism. Instead of reading long text, users prefer experiencing a hotel’s atmosphere, rooms, pools, and surroundings through a 30–60 second video. DGTLFACE turns these videos into multi-format assets usable across YouTube + Reels + web + OTA pages, and continuously pushes them through YouTube campaigns to support the path to purchase.",
+    "button4": "Review"
+  },
+
+  "faq": {
+    "header": "Frequently Asked Questions About YouTube Ads Management",
+
+    "question1": "Do YouTube ads really drive sales and bookings?",
+    "answer1": "Yes—when structured correctly, YouTube becomes a demand and trust-building channel that strongly supports Search, remarketing, and social media. DGTLFACE designs YouTube Ads not as a standalone channel, but together with other SEM and hotel digital marketing modules, so you can see its sales contribution clearly in reports.",
+
+    "question2": "What is the minimum budget I need for YouTube ads?",
+    "answer2": "It depends on your industry, target markets, and whether your goal is awareness or performance. Trying to reach very large audiences with a very small budget is usually inefficient. DGTLFACE first clarifies goals and markets, then recommends a sensible starting budget and a growth plan.",
+
+    "question3": "Can I use my existing videos in YouTube ads?",
+    "answer3": "Yes. However, they often aren’t perfectly aligned with ad requirements (duration, hook, CTA, vertical/horizontal ratios). If needed, we adapt your existing assets to ad formats—or produce new creatives through <a href=\"/Services/creative/videoProduction\">video production</a> specifically for the campaign.",
+
+    "question4": "How do you report YouTube ads performance?",
+    "answer4": "We connect YouTube Ads data to GA4 and Looker Studio dashboards and show views, view-through rate, average watch time, clicks, on-site behavior, and conversions in one panel. For detailed reporting and visual dashboards, we use <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> and <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a> setups.",
+
+    "question5": "How do we start a YouTube ads project with DGTLFACE?",
+    "answer5": "We begin by clarifying goals (awareness / demand / bookings), target markets, and your current video assets. Then we prepare a YouTube Ads roadmap covering creative needs, campaign architecture, and budget. After approval, we move into creative production/adaptation, campaign setup, GA4 & Tag Manager integration, and the first optimization phase."
+  }
 },
 
-"WebTraffic":{
-  "cta_talk_to_us": "Talk to us",
-    "webtraffic_subbanner_header": "Web Traffic Tracking",
-  "webtraffic_subbanner_header2": "Services",
-  "webtraffic_subbanner_text": "We strategically acquire targeted web traffic through a blend of proven methodologies, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and content optimization. Each strategy is meticulously tailored to your unique goals.",
+"RemarketingDisplay": {
+  "aiAnswerBlock": "DGTLFACE re-targets users who have previously interacted with your website by segmenting them into smart remarketing audiences and running remarketing & display campaigns. We use Google Display Network, YouTube, Meta, and OTA-driven traffic flows to recover cart abandoners, room/detail page visitors, and users who requested an offer but didn’t convert—each with tailored messages. Especially for hotels and tourism brands, this structure adds a powerful retargeting layer that meaningfully increases conversion rate and ROAS.",
+"aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s remarketing and display advertising service documentation and performance marketing processes.",
+  "cta_talk_to_us": "Contact Us to Optimize Your Google Ads Campaign",
+  "remarketing_subbanner_header": "Remarketing & Display Advertising Management - ",
+  "remarketing_subbanner_header2": "Conversion-Focused Retargeting",
+  "remarketing_subbanner_text": "DGTLFACE helps you recover lost conversion potential by re-targeting users who have already interacted with your brand through remarketing and display advertising. We build retargeting campaigns for users who visited your website but left without purchasing, abandoned the cart/checkout, browsed hotel pages but didn’t book, or watched your video without taking action. In areas like “remarketing management, Google Display ads, retargeting campaigns, conversion growth strategies, display advertising,” we create a conversion-first system powered by data—so your budget focuses less on cold clicks and more on <b>warm audiences who already know you</b>.",
+  "remarketing_subbanner_header3": "What Is Remarketing? Why Is It So Important?",
+  "remarketing_subbanner_text2": "Remarketing is the process of re-engaging users who have already touched your brand but haven’t converted yet—by bringing them back with the right message and offer. For DGTLFACE, remarketing covers segments such as: <ul><li>Users who visited your site but didn’t submit a form/book</li><li>Cart/checkout abandoners</li><li>Users who viewed key pages (rooms, pricing, campaigns…)</li><li>Users who watched your YouTube videos</li><li>Users who engaged with your social media content</li></ul> Topics like <b>“how to run remarketing, Google Analytics remarketing lists, remarketing campaign settings, funnel-based remarketing strategy”</b> are designed per project as <b>segment + message + frequency + channel</b>. The goal is to bring users back at the right time with the right message—without annoying them.",
 
-  "webtraffic_step1_header": "User Behavior Analysis",
-  "webtraffic_step1_text": "Every visitor has a story, a goal, and preferences. Through DGTLFACE’s user behavior analysis, we decode these stories by meticulously examining user actions.",
+  "remarketing_stepheader": "Display Ads for Brand Recall and New Touchpoints",
+  "remarketing_steptext": "Display advertising supports both brand recall and remarketing performance when structured properly. DGTLFACE plans Display + Remarketing with a clear system: audience list quality (GA4/Tag Manager lists), segmentation by funnel stage, creative variations (offers, trust signals, urgency), placements and exclusions, and frequency control. We combine <b>GDN</b> (Google Display Network) reach with <b>retargeting logic</b>—so display campaigns become not “random banners everywhere,” but a measurable part of your growth funnel.",
 
-  "webtraffic_step2_header": "Web Traffic Source Analysis",
-  "webtraffic_step2_text": "Knowing where traffic comes from matters. We dive into sources—search engines, social platforms, direct, and paid—to understand and improve acquisition performance.",
+  "remarketing_step1_header": "How Do We Set a Remarketing & Display Budget?",
+  "remarketing_step1_text": "There’s no single answer to “What should my remarketing/display budget be?”—it depends on your traffic volume, funnel length, and conversion value. DGTLFACE plans budget by evaluating: audience pool size (list volume), conversion goal (lead, booking, purchase), seasonality and country strategy, creative count and refresh cadence, and how remarketing will integrate with Search, YouTube, and Social Ads. The goal is not spending more—it’s getting <b>more conversions from the same audience pool</b> with better structure.",
 
-  "webtraffic_step3_header": "Shopping Ads",
-  "webtraffic_step3_text": "By identifying elements that drive engagement and conversions, we deliver clear recommendations. Our goal-oriented analysis aligns every part of your site with business objectives to maximize ROI and growth."
+  "remarketing_step2_header": "Remarketing Targeting Techniques",
+  "remarketing_step2_text": "In remarketing, “who sees what” is everything. DGTLFACE uses targeting such as: <ul><li>GA4-based audiences (page depth, engagement, key actions)</li><li>Funnel-step audiences (listing → detail → cart → checkout)</li><li>Custom segments (similar users, intent-based audiences)</li><li>Placement & domain targeting (quality inventory)</li><li>Exclusions (converted users, low-value segments)</li></ul> This turns topics like <b>“remarketing lists, display targeting techniques, funnel remarketing strategy”</b> into a real execution set.",
+
+  "remarketing_step2_1header": "Remarketing & Display for Hotels and Tourism Brands",
+  "remarketing_step2_1text": "In tourism, the user journey is long: destination research → hotel research → price comparison → booking. Users enter and exit many websites multiple times before deciding. DGTLFACE builds hotel remarketing & display systems that target: <ul><li>Guests who viewed room details but didn’t book</li><li>Users who checked rates/availability and left</li><li>Visitors in specific country & language combinations</li><li>Users who saw you on OTA channels and later visited your website</li></ul> By tailoring visuals, messaging, and offers to your hotel concept, we turn remarketing from “following banners” into a <b>deliberate persuasion layer</b> within the booking journey.",
+
+  "remarketing_step2_2header": "How Do We Build a Remarketing Funnel Strategy?",
+  "remarketing_step2_2text": "DGTLFACE starts with one question: <b>Where did the user drop off?</b> We then design funnel-stage messaging: upper funnel (content readers), mid funnel (room/service detail viewers), and lower funnel (cart/checkout/booking-step visitors). For each segment we apply different creatives, bids, and calls-to-action. This is how “recovering cart abandoners, hotel remarketing strategy, booking remarketing tactics” becomes a practical, measurable system: <b>not the same banner for everyone—only the right message for the point where they got stuck.</b>",
+
+  "remarketing_step5_header": "Creative + Production Integrated with Display & Remarketing",
+  "remarketing_step5_text": "Remarketing performance depends heavily on creative quality and variation. DGTLFACE aligns the creative system with media strategy: <a href=\"/tr/creative/video-produksiyon\">Creative & production → </a> and Display/Remarketing planning →. We build and test different visual angles: rooms, pools, restaurant, SPA, kids areas, seasonal campaigns, social proof (ratings/reviews), urgency messages, and country/language versions. This turns “banner production, display creatives, remarketing ad variations” into a structured testing and improvement loop.",
+
+  "remarketing_step6_header": "Conversion Tracking, Analytics, and Remarketing Reporting",
+  "remarketing_step6_text": "Without proper tracking, remarketing becomes guesswork. DGTLFACE connects GA4 and Tag Manager, tracks funnel steps end-to-end (list → detail → cart → checkout → thank you), and reports: impressions, reach, frequency, clicks, view-through impact, assisted conversions, and CPA/ROAS (when revenue is available). We combine the question “what did we spend?” with <b>“what did remarketing actually recover?”</b>. For dashboards we use <a href=\"/Services/sem/performanceAnalysis\">ad performance reporting</a> and <a href=\"/Services/digitalAnalysis/lookerStudio\">Looker Studio</a>.",
+
+  "remarketing_step7_header": "Multi-Channel Remarketing Sync: Search, YouTube, Social + Display",
+  "remarketing_step7_text": "The strongest remarketing systems are multi-channel—not single-channel. DGTLFACE integrates remarketing with: <ul><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Search campaigns → </a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube video campaigns → </a></li><li><a href=\"/Services/smm/socialMediaAds\">Social media ads → </a></li><li>Web & booking funnel</li><li>Call center and OTA strategy</li></ul> This way you don’t move users from banner to banner—you guide them step-by-step to booking/sales with a <b>video + search + social + display</b> combination.",
+
+  "h2Section": {
+    "header1": "Display Ads for Brand Recall and New Touchpoints",
+    "text1": "Display ads are powerful both for activating remarketing lists and reaching new relevant audiences. On the Google Display Network (GDN), DGTLFACE manages visibility and conversions together using: <ul><li>Impressions for remarketing lists</li><li>Interest & topic targeting</li><li>Custom segments (lookalike-like signals, intent-based users)</li><li>Placement and domain-level targeting</li></ul> For topics like <b>“display optimization, tourism display advertising, display advertising strategies”</b>, we design creative, targeting, frequency, and bidding under one roof—so display becomes not just impressions, but an <b>active part</b> of your digital sales funnel.",
+    "header2": "Funnel-Based Remarketing Strategies",
+    "text2": "Many brands run remarketing, but few think in funnels. DGTLFACE segments users by where they are in the conversion journey: <ul><li>Upper funnel: users who visited only blog/content pages</li><li>Mid funnel: users who explored room/product/service details</li><li>Lower funnel: cart/checkout visitors, booking-step users who dropped off</li></ul> We use different creatives, bids, and calls-to-action for each segment. Needs like <b>“recover cart abandoners, remarketing strategies for hotels, hotel remarketing campaigns, booking remarketing tactics”</b> come from this funnel approach. In short: <b>not the same banner for everyone—only the right message for the point where they got stuck.</b>",
+    "header3": "Remarketing & Display for Hotels and Tourism Brands",
+    "text3": "In tourism, the user journey is long: destination research → hotel research → price comparison → booking. Users jump between websites repeatedly. DGTLFACE builds hotel remarketing and tourism display campaigns targeting: <ul><li>Guests who viewed room details but didn’t book</li><li>Users who checked pricing/availability and left</li><li>Visitors in specific country & language combinations</li><li>Users who saw you on OTAs and later visited your website</li></ul> By customizing visuals, messaging, and offers to your hotel concept, we make remarketing not “following banners,” but a <b>deliberate persuasion layer</b>.",
+    "header4": "Remarketing Integrated with YouTube, Search, and Social Media",
+    "text4": "The best remarketing systems are multi-channel, not single-channel. DGTLFACE integrates remarketing with: <ul><li><a href=\"/Services/sem/googleAdsAdvertising\">Google Search campaigns → </a></li><li><a href=\"/Services/sem/youtubeAdvertising\">YouTube video campaigns → </a></li><li><a href=\"/Services/smm/socialMediaAds\">Social media ads → </a></li><li>Web & booking funnel</li><li>Call center and OTA strategy</li></ul> This way you guide users not from banner to banner, but toward booking/sales with a <b>video + search + social + display</b> combination."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Remarketing & Display Service Details",
+    "header1": "Remarketing Management – The Art of Recovering Warm Audiences",
+    "text1": "Remarketing management is the process of recovering users who already showed interest in your brand through smart segmentation. DGTLFACE: <ul><li>Segments users based on visited pages and actions</li><li>Defines audience “temperature” (cold → warm → hot)</li><li>Shapes messages and offers accordingly</li><li>Controls frequency and duration to prevent ad fatigue</li></ul> We apply techniques like <b>“Google Analytics remarketing lists, remarketing campaign settings, funnel-based remarketing strategy”</b> using <b>real behavioral data</b> for each brand.",
+    "header2": "Google Display Ads – The Right Visual for the Right Person",
+    "text2": "Google Display plays a critical role in reaching new users and activating remarketing lists. DGTLFACE delivers “<b>display optimization, Google Display Network (GDN) optimization</b>” by using: <ul><li>Responsive display ads and custom banner designs</li><li>High-quality, selected placements via domain/placement targeting</li><li>Topic/interest and custom segment targeting</li><li>Creatives tested across formats and sizes</li></ul> The goal isn’t being everywhere—it’s showing up <b>on the right sites, to the right users, at the right frequency</b>.",
+    "header3": "Remarketing for Cart/Checkout Abandoners",
+    "text3": "For e-commerce and booking-driven websites, the most valuable segment is <b>cart/checkout abandoners</b>. DGTLFACE uses tailored creatives for these users: <ul><li>Price reminders</li><li>Campaign/discount code messaging</li><li>Urgency and limited availability</li><li>Social proof (reviews/ratings)</li></ul> So “<b>how to recover cart abandoners</b>” becomes not theory—it becomes part of daily Remarketing & Display optimization."
+  },
+
+  "h4Section": {
+    "header": "Why Remarketing & Display Management with DGTLFACE?",
+    "card1title": "A Conversion-Focused Retargeting Model",
+    "card2title": "Integrated with Tracking and Data Infrastructure",
+    "card3title": "Integrated with SEM, SMM, and Hotel Digital Architecture",
+
+    "card1description": "DGTLFACE builds remarketing not because “everyone does it,” but as a <b>deliberate part of the conversion funnel</b>. Each audience list represents a different stage of the journey—and we design messages, banners, and offers accordingly. Result: a real remarketing engine that delivers <b>more conversions with the same budget or the same conversions at a lower cost</b>.",
+    "card2description": "Remarketing only works properly with correct conversion tracking. With <a href=\"/Services/sem/tagManager\">conversion tracking via Tag Manager</a>, DGTLFACE tracks actions such as: <ul><li>Forms, bookings, quote requests, phone/WhatsApp clicks</li><li>Funnel steps (listing → detail → cart → checkout → thank you)</li></ul> This turns remarketing lists from “page viewers” into <b>users whose exact funnel drop-off point we know</b>.",
+    "card3description": "We design Remarketing & Display together with Google Search, YouTube, social ads, hotel digital marketing (/Services/hotel/pmsIntegration), and web/booking infrastructure. The user: <ul><li>Sees you in Search and visits the site</li><li>Then sees display/remarketing banners after leaving</li><li>Gets reinforced with YouTube and social videos</li><li>Returns via Search and direct channels</li></ul> and turns step-by-step from <b>cold to warm to hot</b>."
+  },
+
+  "verticalSlider": {
+    "header": "Micro Layer ",
+    "header2": "Key Areas that Deepen Your SEM Structure",
+
+    "title1": "Funnel-Based ",
+    "span1": "Remarketing Segmentation",
+    "text1": "DGTLFACE doesn’t leave remarketing lists as “all site visitors.” We build page/action-based segments: content readers, room/product detail viewers, cart users, checkout visitors, etc. Using a different offer and creative model for each segment can significantly increase remarketing ROAS.",
+    "button1": "Learn More",
+
+    "title2": "Booking & OTA-Based ",
+    "span2": "Remarketing Tactics",
+    "text2": "In hotels, many guests start on OTAs and then come to your website—or the opposite. With booking remarketing tactics, DGTLFACE aims to re-capture OTA-origin users in your web and campaign ecosystem and reinforce web-origin users with your OTA ratings and reviews—so OTA and direct channels work together inside one remarketing system.",
+    "button2": "Explore",
+
+    "title3": "Frequency & ",
+    "span3": "Ad Fatigue Management",
+    "text3": "The biggest remarketing mistake is overwhelming users. DGTLFACE uses frequency caps, duration limits, and creative refresh calendars to keep you visible without becoming annoying. Instead of “they’re following me everywhere,” we create “I keep seeing this hotel/brand—maybe I should check it out.”",
+    "button3": "Learn More",
+
+    "title4": "Hotel-Specific ",
+    "span4": "Remarketing Creatives",
+    "text4": "For hotel remarketing campaigns, we don’t use generic banners. We highlight real attraction points: rooms, pools, restaurant, SPA, kids areas, etc. Changing creatives based on the room type or concept the user viewed (family, adults-only, SPA, etc.) improves both click-through rate and conversions.",
+    "button4": "Review"
+  },
+
+  "faq": {
+    "header": "Frequently Asked Questions About Remarketing & Display Advertising Management",
+    "question1": "Do I need a large budget to run remarketing?",
+    "answer1": "No. Remarketing is often one of the smartest investments for small and mid-sized budgets, because you’re targeting users who already know you. What matters is having enough traffic to build meaningful audience lists and applying correct segmentation.",
+    "question2": "Is remarketing only done on Google?",
+    "answer2": "No. Besides Google Display and YouTube remarketing, you can also build retargeting systems on Meta (Instagram & Facebook), some OTA-related flows, and even email/SMS. DGTLFACE usually prioritizes Google & Meta first, then expands to other channels where relevant.",
+    "question3": "Are display ads only for brand awareness?",
+    "answer3": "Display is very strong for awareness, but with the right targeting and creative it can also be conversion-driven—especially in remarketing and custom audience setups. In many cases, display meaningfully supports the sales and booking funnel.",
+    "question4": "Can remarketing annoy users?",
+    "answer4": "If structured incorrectly, yes. That’s why frequency, duration, excluded segments, and creative refresh planning matter. DGTLFACE keeps you visible at a healthy pace—without overwhelming the user.",
+    "question5": "How do we start a Remarketing & Display project with DGTLFACE?",
+    "answer5": "First, we analyze your current traffic, conversion tracking, and campaign setup. Then we create a <b>Remarketing & Display Roadmap</b> covering audience lists, display strategy, creative needs, and reporting. After approval, we start with Tag Manager & GA4 integrations, list setups, creative production, and the first testing phase."
+  }
 },
 
-"YandexAdvertising":{
-  "cta_talk_to_us": "Talk to us",
-"yandexadvertising_subbanner_header": "Yandex Advertising",
-  "yandexadvertising_subbanner_header2": "Services",
-  "yandexadvertising_subbanner_text": "With our dedicated team of digital marketing specialists, we craft customised Yandex advertising campaigns designed to align with your business goals and resonate with your audience. Whether you aim to grow traffic, boost conversions, or raise brand awareness, we’ve got you covered.",
+"TagManager": {
+  "aiAnswerBlock": "DGTLFACE makes the real performance of your advertising visible through Google Tag Manager and GA4 conversion tracking. From form submissions and bookings to phone calls, WhatsApp clicks, and cross-domain booking journeys—every key action is measured correctly. With advanced setups such as Meta Conversions API, call tracking, PMS integration, and booking-to-GA4 tracking, the data flow becomes seamless. This ensures decisions are driven by clear data—not assumptions.",
+  "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s conversion tracking and measurement documentation.",
+  "cta_talk_to_us": "Contact Us to Optimize Your Google Ads Campaign",
+  "tagmanager_subbanner_header": "Conversion Tracking & Google Tag Manager – ",
+  "tagmanager_subbanner_header2": "Measure Your Advertising Data Correctly",
+  "tagmanager_subbanner_text": "DGTLFACE is a measurement & data partner that makes the real performance of your digital ad investments visible through conversion tracking and Google Tag Manager setup. We don’t just track clicks from Google Ads, Meta Ads, YouTube, Display, Remarketing, and other campaigns—we build an end-to-end tracking architecture so you can accurately measure forms, bookings, phone calls, WhatsApp clicks, sales, and quote requests. Topics such as <b>“Google Analytics conversion tracking, conversion tracking, enhanced ecommerce tracking, ad performance measurement”</b> become not a one-time setup, but a <b>reliable data infrastructure</b> that runs continuously. This way, you manage your budget with numbers—not guesswork.",
+  "tagmanager_subbanner_header3": "Why Is Advertising Risky Without Conversion Tracking?",
+  "tagmanager_subbanner_text2": "Running ads without conversion tracking is like sprinting in a dark room. You can see clicks, but you can’t answer:<ul><li>How many people submitted a form?</li><li>How many completed a booking?</li><li>How many sales came via phone or WhatsApp?</li><li>Which campaign actually generated revenue?</li><li>Which audience wasted the budget?</li></ul>DGTLFACE sets up processes like <b>“conversion tracking with Google Analytics, Analytics 4 conversion setup”</b> correctly—so you clearly see what works and what burns budget. We reduce wasted spend and scale the winning campaigns.",
 
-  "yandexadvertising_step1_header": "Yandex Display Advertising Services",
-  "yandexadvertising_step1_text": "We run specialised campaigns that effectively reach your audience by leveraging Yandex’s powerful display capabilities. This includes crafting compelling visuals, strategic placement across Yandex’s network, and continuous optimisation for maximum ROI.",
+  "tagmanager_stepheader": "Measurement Blueprint: Events, Conversions & Data Quality",
+  "tagmanager_steptext": "A solid measurement setup is built on <b>clear event design + clean triggers + reliable attribution</b>. DGTLFACE structures your tracking by:<ul><li>Defining what matters (lead, booking, purchase, call, WhatsApp, quote request)</li><li>Mapping key funnel steps (listing → detail → cart/checkout → confirmation)</li><li>Preventing duplicate events and data pollution</li><li>Validating everything via Preview/Debug and GA4 real-time checks</li></ul>This turns topics like <b>“GTM event tracking, GA4 conversion setup, data accuracy in analytics”</b> into a system you can trust.",
 
-  "yandexadvertising_step2_header": "Yandex Maps Advertising Management",
-  "yandexadvertising_step2_text": "A strategic service to increase your visibility on Yandex Maps and reach nearby customers more effectively. We help your business stand out in search results and on the map, differentiating you from competitors in local searches.",
+  "tagmanager_step1_header": "How Do We Plan Conversion Tracking Correctly?",
+  "tagmanager_step1_text": "The goal isn’t to track “everything”—it’s to track the actions that reflect real business outcomes. DGTLFACE designs a conversion plan by considering: your business model (hotel, ecommerce, lead-gen), your funnel structure, your channel mix (Ads, SEO, social, call center), and your critical KPIs (CPA, ROAS, revenue, booking value). Then we translate this into a documented GA4 + GTM architecture that is stable and scalable.",
 
-  "yandexadvertising_step3_header": "Yandex Advertising Analysis & Reporting Services",
-  "yandexadvertising_step3_text": "We meticulously track and analyse every aspect of your Yandex ads—from click-through and conversion rates to audience behaviour—to deliver actionable reports and recommendations, so you invest wisely and maximise ROI."
+  "tagmanager_step2_header": "GTM & GA4 Setup: Events, Triggers and Testing",
+  "tagmanager_step2_text": "DGTLFACE sets up Google Tag Manager and GA4 with a clean, testable structure: triggers, variables, and tags are organized; naming conventions are standardized; and conversion events are validated end-to-end. We test via GTM Preview, GA4 DebugView, and platform diagnostics to ensure your numbers match reality—before going live.",
+
+  "tagmanager_step2_1header": "Hotels & Tourism: Booking Funnel and Revenue-Driven Tracking",
+  "tagmanager_step2_1text": "In hotels and tourism, success isn’t clicks or forms—it’s <b>real bookings and revenue</b>. DGTLFACE builds hotel-specific measurement flows such as room selection → date selection → guest info → payment steps, tracks booking engine behavior, and ensures conversions are connected to meaningful values. When possible, we align GA4 conversion data with PMS/operation data so reporting reflects real business outcomes.",
+
+  "tagmanager_step2_2header": "Cross-Domain Tracking for Booking Engines",
+  "tagmanager_step2_2text": "Many booking engines run on a different domain. DGTLFACE implements cross-domain tracking so the user journey doesn’t break when switching domains. We maintain session continuity and attribution integrity—so conversions are not lost and your campaigns are optimized with accurate data.",
+
+  "tagmanager_step5_header": "Meta Conversions API, Call Tracking & Advanced Integrations",
+  "tagmanager_step5_text": "For higher measurement accuracy, DGTLFACE connects advanced components into one model: <ul><li>Meta Pixel + <b>Conversions API (CAPI)</b></li><li>Call tracking (dynamic numbers / click-to-call)</li><li>WhatsApp click & chat-start tracking</li><li>PMS integration and booking-to-GA4 mapping (where feasible)</li></ul>This reduces attribution gaps and makes multi-touch performance clearer.",
+
+  "tagmanager_step6_header": "Reporting & Ongoing Measurement Optimization",
+  "tagmanager_step6_text": "DGTLFACE doesn’t stop at setup. We continuously validate and improve measurement quality by monitoring event consistency, removing duplicated triggers, fixing attribution issues, and keeping conversions aligned with business reality. We connect GA4 and ad platforms to Looker Studio dashboards so you can see performance clearly and take action faster.",
+
+  "tagmanager_step7_header": "Cleaning Tracking Errors and Data Pollution",
+  "tagmanager_step7_text": "Common issues like double-triggered events, incorrect conversion definitions, broken cross-domain sessions, and noisy data can mislead optimization. DGTLFACE audits and cleans tracking setups so your decisions are based on reliable, consistent metrics.",
+
+  "h2Section": {
+    "header1": "Flexible and Secure Tag Management with Google Tag Manager",
+    "text1": "Google Tag Manager (GTM) is a central orchestration layer that lets you control tracking codes from a single panel. With DGTLFACE:<ul><li>Your tags (GA4, Google Ads, Meta Pixel, Hotjar, etc.) are migrated into GTM</li><li>Dependency on IT decreases</li><li>Code conflicts and data pollution are eliminated</li><li>Versioning, preview, and debugging prevent faulty releases</li></ul>Topics like <b>“How to set up Google Tag Manager, cross-domain tracking, Analytics 4 conversion setup”</b> become documented, business-specific processes.",
+    "header2": "GA4 Events, Conversion Events & Booking / Ecommerce Configuration",
+    "text2": "DGTLFACE builds conversion measurement in GA4 with a structured approach:<ul><li>Event-based tracking (click, scroll, view, form submit, etc.)</li><li>Defining conversion events</li><li>Enhanced ecommerce tracking (view → add to cart → purchase)</li><li>Hotel booking funnels (room → dates → guest info → payment)</li><li><b>Booking-to-GA4 tracking & cross-domain measurement</b></li></ul>This makes <b>“Analytics 4 conversion setup”</b> not just a technical task, but a <b>data schema that mirrors your business</b>.",
+    "header3": "Conversion Tracking for Hotels & Tourism Brands",
+    "text3": "In hotel and tourism projects, success should be measured by <b>real bookings and revenue</b>. DGTLFACE sets up:<ul><li>Hotel booking conversion tracking</li><li>Cross-domain tracking when the booking engine is on a different domain</li><li>Separating price checks vs. confirmed bookings</li><li>PMS alignment when feasible</li><li>Phone & WhatsApp conversion tracking</li></ul>Result: bookings in GA4 align with operational reality.",
+    "header4": "Multi-Channel Tracking: Google Ads, Meta Ads, Calls & WhatsApp",
+    "text4": "Modern customer journeys are multi-channel. A visitor may:<ul><li>Search on Google → click an ad</li><li>Tap WhatsApp</li><li>Call by phone</li><li>Convert later via remarketing</li></ul>DGTLFACE consolidates these into one model:<ul><li>Google Ads conversion tracking</li><li>Meta Pixel + Conversions API (CAPI)</li><li>Call tracking</li><li>Click-to-call events</li><li>WhatsApp click & chat-start tracking</li></ul>So the funnel remains measurable end-to-end."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Conversion Tracking & Tag Manager Service Details",
+    "header1": "Google Tag Manager Setup",
+    "text1": "DGTLFACE:<ul><li>Creates and configures your GTM account</li><li>Migrates all tracking codes into GTM</li><li>Builds the event & trigger structure</li><li>Validates with Preview/Debug and GA4 checks</li></ul>The answer to “How to set up Tag Manager?” becomes a documented GTM architecture tailored to your business.",
+    "header2": "Designing Conversion Events",
+    "text2": "Every business defines “conversion” differently. DGTLFACE separates actions into clean events such as:<ul><li>Lead form submission</li><li>Booking completion</li><li>WhatsApp start</li><li>Phone call</li><li>Cart/checkout actions</li><li>Demo/quote requests</li></ul>We remove incorrect events and make reporting reliable.",
+    "header3": "Cross-Domain Tracking & Booking Engines",
+    "text3": "Hotel booking engines often run on a different domain. DGTLFACE implements:<ul><li>Cross-domain GA4 configuration</li><li>Client ID continuity</li><li>Booking-to-GA4 tracking</li><li>Optional PMS sync where feasible</li></ul>So the funnel doesn’t break when domains change—conversions remain accurate."
+  },
+
+  "h4Section": {
+    "header": "Why Conversion Tracking & Tag Manager with DGTLFACE?",
+    "card1title": "We Don’t Treat Tracking as “Just Installing a Script”",
+    "card2title": "Integrated Measurement Across Ads, Web, PMS & Call Center",
+    "card3title": "Antalya-Based, Tourism-Focused Measurement Expertise",
+    "card1description": "We first answer “What should we measure?” and then build the technical layer. Result: your reports reflect <b>real business outcomes</b>.",
+    "card2description": "DGTLFACE connects the conversion layer with:<ul><li><a href=\"/Services/sem\">SEM →</a></li><li><a href=\"/Services/smm\">SMM →</a></li><li><a href=\"/Services/software\">Web & Software →</a></li><li><a href=\"/Services/hotel/otaManagement\">PMS & OTA →</a></li><li><a href=\"/Services/callcenter\">Call Center →</a></li><li><a href=\"/Services/digitalAnalysis\">Reporting →</a></li></ul>That’s what real 360° measurement looks like.",
+    "card3description": "DGTLFACE builds measurement architecture using tourism realities—especially for Antalya–Belek–Side–Kemer hotels—such as:<ul><li>Country/market differences</li><li>OTA vs Direct conversion balance</li><li>Phone + WhatsApp booking behaviors</li></ul>"
+  },
+
+  "verticalSlider": {
+    "header": "Micro Layer ",
+    "header2": "Areas That Deepen the Google Tag Manager Setup",
+    "title1": "Hotel Booking ",
+    "span1": "Conversion Tracking",
+    "text1": "Tracking each step as events (room → dates → guest → payment) and separating canceled/failed bookings.",
+    "button1": "Learn More",
+    "title2": "PMS Conversion ",
+    "span2": "Integration",
+    "text2": "Matching PMS data to GA4 conversions (country, revenue, room type) where feasible.",
+    "button2": "Explore",
+    "title3": "Phone & WhatsApp ",
+    "span3": "Conversions",
+    "text3": "Click-to-call + call tracking + WhatsApp chat-start measurement.",
+    "button3": "Learn More",
+    "title4": "Fixing Conversion Tracking ",
+    "span4": "Errors",
+    "text4": "Duplicate events, wrong conversion mappings, and data pollution are audited and cleaned.",
+    "button4": "Review"
+  },
+
+  "faq": {
+    "header": "FAQ - Conversion Tracking & Google Tag Manager",
+    "question1": "Why is conversion tracking so critical?",
+    "answer1": "Because you need accurate measurement to know whether ads truly generate revenue.",
+    "question2": "How many steps does a GTM setup include?",
+    "answer2": "Tracking plan → Tag setup → Trigger setup → Testing → Publish.",
+    "question3": "Do you set up Meta Conversions API?",
+    "answer3": "Yes. We implement server-side CAPI to improve conversion accuracy.",
+    "question4": "How do you track hotel booking conversions?",
+    "answer4": "Through cross-domain GA4, booking engine events, and (when feasible) PMS alignment.",
+    "question5": "Is cross-domain tracking necessary?",
+    "answer5": "Yes. If the booking engine is on a different domain, it prevents conversion loss and broken attribution."
+  }
 },
 
-"OffpageSeo":{
-  "cta_talk_to_us": "Talk to us",
-   "offpage_subbanner_header": "Off-Page SEO",
-  "offpage_subbanner_header2": "Services",
-  "offpage_subbanner_text": "We enhance your site’s credibility and search rankings by earning high-quality backlinks from reputable sources in your industry. DGTLFACE’s off-page optimization strategies create a holistic digital marketing approach that strengthens your online presence.",
+"PerformanceAnalysis": {
+  "aiAnswerBlock": "DGTLFACE consolidates data from Google Ads, YouTube, Meta Ads, and other digital campaigns into a single Looker Studio dashboard. By analyzing clicks, impressions, conversions, revenue, ROAS, and funnel metrics together, we reveal which campaigns truly drive results. For hotels and tourism businesses, reporting is aligned with occupancy, bookings, and revenue per available room (RevPAR), enabling data-driven budget optimization and stronger seasonal strategies.",
+  "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official ad reporting and performance analysis documentation, Looker Studio reporting practices, and SEM processes.",
+  "cta_talk_to_us": "Ad Performance Analysis & Reporting",
+  "performanceanalysis_subbanner_header": "Ad Performance Analysis & Reporting – ",
+  "performanceanalysis_subbanner_header2": "Manage Your Campaigns with Data",
+  "performanceanalysis_subbanner_text": "With DGTLFACE’s reporting and performance analysis service, we act as a <b>data & optimization partner</b> that brings the performance of Google Ads, YouTube, Meta Ads (Instagram & Facebook), Display, Remarketing, and other digital channels under one roof. We don’t only review impressions and clicks—we analyze conversions, costs, revenue, and profitability together. Needs such as <b>“SEM performance analysis, Google Ads reporting, Meta Ads reporting, dashboard building, ad analytics”</b> become trackable in real time with Looker Studio and GA4-based dashboards. The goal isn’t just to generate reports—it’s to make sure you clearly know <b>what to do next</b> based on the report.",
+  "performanceanalysis_subbanner_header3": "Why Can’t Performance Be Managed Without Reporting?",
+  "performanceanalysis_subbanner_text2": "Each ad platform shows lots of data on its own, but if you can’t see the full picture, optimization turns into guesswork:<ul><li>Which campaign actually drives sales/bookings?</li><li>Which channel delivers better cost per conversion?</li><li>Which country/market is more profitable on which device?</li><li>Which message/creative performs best?</li></ul>DGTLFACE combines processes like <b>“SEM analysis, Google Ads conversion reports, YouTube ad reporting, Meta Ads conversion analysis”</b> into one unified performance view. This clarifies which campaigns to scale, which to pause, and where to allocate new budget.",
 
-  "offpage_step1_header": "Backlinking Efforts",
-  "offpage_step1_text": "Our backlink strategy focuses on acquiring high-quality, relevant links from trusted industry sources. We plan and execute every step to drive targeted traffic, raise domain authority, and fuel your marketing success.",
+  "performanceanalysis_stepheader": "From Data to Decisions: Dashboard-Driven Performance Management",
+  "performanceanalysis_steptext": "A good reporting system doesn’t just display numbers—it creates a decision-making loop. DGTLFACE structures your reporting as:<ul><li><b>Single source of truth</b> (Looker Studio + GA4 + ad platforms)</li><li><b>Funnel clarity</b> (click → session → engagement → conversion → revenue)</li><li><b>Breakdowns that matter</b> (country, device, time, campaign type)</li><li><b>Actionable insights</b> (what to stop, what to scale, what to fix)</li></ul>This turns reporting into a practical operating system for growth—not a monthly PDF.",
 
-  "offpage_step2_header": "Social Media Sharing Optimizations",
-  "offpage_step2_text": "We craft posts and interactions that tell your brand story, engage your audience, and spark shares. From striking visuals and videos to informative articles and interactive polls, each piece is designed to capture attention.",
+  "performanceanalysis_step1_header": "How Do We Define the Right KPIs?",
+  "performanceanalysis_step1_text": "Before building dashboards, DGTLFACE defines the KPI set that matches your business model. Depending on your goals, we prioritize metrics like CPC, CPA, ROAS, revenue, bookings, lead volume, and assisted conversions. For hotels, we extend this to occupancy impact, market mix, direct vs OTA balance, and RevPAR alignment—so reporting reflects real business outcomes.",
 
-  "offpage_step3_header": "Brand Collaborations & Online Review Management",
-  "offpage_step3_text": "We actively monitor and engage with online reviews to help build audience trust. DGTLFACE delivers a comprehensive strategy that elevates reputation, nurtures communities, and drives long-term loyalty and growth.",
+  "performanceanalysis_step2_header": "Campaign & Channel Segmentation for Clear Insights",
+  "performanceanalysis_step2_text": "DGTLFACE structures reporting by segmenting your campaigns into meaningful groups—brand vs generic search, prospecting vs remarketing, awareness vs conversion, market/country clusters, and device splits. This makes it easy to identify what’s driving results, what’s underperforming, and where budget should be shifted.",
 
-  "offpage_step4_header": "Blog, Forum, Content Marketing",
-  "offpage_step4_text": "Blogs, forums, and content marketing are core pillars for engaging audiences, building brand awareness, and driving website traffic."
-  
+  "performanceanalysis_step2_1header": "Hotels & Tourism: Seasonal and Market-Based Reporting",
+  "performanceanalysis_step2_1text": "In tourism, performance changes by season, market, and demand waves. DGTLFACE builds hotel-focused reporting views such as:<ul><li>Market performance (DE, RU, UK, domestic, etc.)</li><li>Seasonal campaign comparisons (early booking, high season, last minute)</li><li>Direct booking vs OTA influence</li><li>Call center and WhatsApp contribution where applicable</li></ul>So decisions are aligned with real tourism dynamics—not generic benchmarks.",
+
+  "performanceanalysis_step2_2header": "Creative & Message Performance: What Actually Works?",
+  "performanceanalysis_step2_2text": "Performance isn’t only about targeting and budgets—the message matters. DGTLFACE compares creative formats, headlines, offers, CTAs, and landing page variants. We connect creative performance to conversion and revenue metrics so you can see what truly influences results—not just CTR.",
+
+  "performanceanalysis_step5_header": "Looker Studio Dashboards: Real-Time, Customized, Actionable",
+  "performanceanalysis_step5_text": "DGTLFACE builds custom Looker Studio dashboards by connecting:<ul><li>Google Ads</li><li>Meta Ads (Instagram & Facebook)</li><li>YouTube</li><li>Display & Remarketing</li><li>GA4 (and optionally PMS/OTA data where feasible)</li></ul>Dashboards include comparisons, trend views, breakdowns (country/device/time), and funnel reporting (click → session → conversion). The outcome: one clear place to track performance and make faster decisions.",
+
+  "performanceanalysis_step6_header": "Interpretation & Optimization: Not Just Reporting",
+  "performanceanalysis_step6_text": "DGTLFACE reporting is designed to drive action. We highlight waste areas (high spend / low return), identify scalable winners (low CPA / high ROAS), and recommend specific optimizations: budget shifts, targeting refinements, creative tests, and landing page improvements. Reporting becomes a recurring improvement cycle.",
+
+  "performanceanalysis_step7_header": "Attribution & Assisted Conversions: Seeing the Full Funnel",
+  "performanceanalysis_step7_text": "Not every channel converts on the last click. DGTLFACE includes assisted conversion views, attribution model clarity (last click, data-driven, etc.), and cross-channel influence. This prevents undervaluing upper-funnel channels like YouTube and Display when they contribute to conversions indirectly.",
+
+  "h2Section": {
+    "header1": "Multi-Channel Advertising Dashboards with Looker Studio",
+    "text1": "Looker Studio is a powerful tool for visualizing and interpreting your ad data. With DGTLFACE’s <a href=\"/Services/digitalAnalysis/lookerStudio\">looker studio</a> infrastructure, we connect data from:<ul><li>Google Ads</li><li>Meta Ads (Instagram & Facebook)</li><li>YouTube</li><li>Display & Remarketing</li><li>(If applicable) other ad platforms</li></ul>into one dashboard. For needs such as <b>“Looker Studio ad reports, digital performance dashboards, multi-channel reporting, automated reporting”</b>, we design custom panels featuring:<ul><li>Cross-campaign comparisons</li><li>Spend vs conversions vs ROAS by channel</li><li>Country/device/time period breakdowns</li><li>Funnel performance (click → session → conversion)</li></ul>",
+    "header2": "Channel, Campaign and Creative-Level Advertising Analysis",
+    "text2": "To optimize effectively, performance must be read on three levels:<ul><li><b>Channel level:</b> Is Google Ads, Meta, or YouTube more efficient?</li><li><b>Campaign/ad set level:</b> Which campaigns truly hit their goals?</li><li><b>Creative/message level:</b> Which visuals, headlines, and CTAs work best?</li></ul>DGTLFACE reads <b>“SEM performance analysis, Google Ads conversion reports, YouTube ad reports, Meta Ads conversion analysis”</b> through a <b>channel → campaign → creative</b> hierarchy. This helps us:<ul><li>Identify high-spend / low-return areas</li><li>Scale high-performing areas with efficient spend</li><li>Clearly compare Creative A vs Creative B</li></ul>The result: reporting answers not only “What happened?” but “What should we do next?”",
+    "header3": "Advertising Reporting for Hotels & Tourism Brands",
+    "text3": "In tourism and hospitality, ad reporting should be interpreted alongside <b>occupancy, RevPAR, channel mix, and direct booking ratio</b>. DGTLFACE produces hotel-specific views such as:<ul><li>Bookings & revenue by campaign</li><li>Market performance (DE, RU, UK, domestic, etc.)</li><li>OTA vs direct comparisons</li><li>Separate analysis for early booking, high season, and last minute campaigns</li><li>Combining call center / web / OTA contributions where applicable</li></ul>Needs like <b>“hotel ad reporting, tourism ad analytics, OTA performance, hotel campaign performance”</b> turn into dashboards integrated with your reporting stack.",
+    "header4": "Integrating Conversion Tracking with Reporting",
+    "text4": "Healthy reporting depends on <b>accurate conversion tracking</b>. DGTLFACE designs reporting together with <a href=\"/Services/sem/tagManager\">conversion tracking & tag manager</a>:<ul><li>GA4 and GTM conversion setup</li><li>Syncing Google Ads & Meta Ads conversion data</li><li>Including phone, WhatsApp, and booking data where applicable</li><li>Clarifying attribution models (last click, data-driven, etc.)</li></ul>So the “conversion” number in your reports represents outcomes that matter to your business."
+  },
+
+  "h3Section": {
+    "header": "DGTLFACE Advertising Reporting Service Details",
+    "header1": "How Do We Build an Ad Performance Report?",
+    "text1": "When DGTLFACE prepares an ad performance report, we:<ul><li>Define a KPI set aligned with your business (CPC, CPA, ROAS, bookings, leads, etc.)</li><li>Show all channels (Google, Meta, YouTube, Display, etc.) in the same framework</li><li>Categorize campaigns by purpose (brand, sales, remarketing, awareness, etc.)</li><li>Add period comparisons (previous period, same period last year)</li><li>End the report with clear action items</li></ul>For needs such as <b>“How to prepare an ad performance report, Google Ads reporting template, Meta Ads report, hotel ad reporting”</b>, you receive not only data—but <b>insights + an action plan</b> every month.",
+    "header2": "SEM Analysis: Google Ads, YouTube and Display Performance",
+    "text2": "SEM analysis evaluates Google Ads + YouTube + Display & Remarketing together. DGTLFACE:<ul><li>Groups campaigns by goal (search, brand, display, video, remarketing, etc.)</li><li>Reads each group’s CPA, conversion volume, ROAS, and traffic quality separately</li><li>Connects processes like “How to do SEM analysis, Google Ads conversion reports, YouTube ad reports” into one performance picture</li></ul>Example: search may convert efficiently while display brings mostly awareness. We show this clearly and recommend <b>budget reallocation</b> accordingly.",
+    "header3": "Meta Ads & Social Advertising Reporting",
+    "text3": "For Meta Ads reporting, we look beyond CPM and engagement—we focus on conversion and sales impact. DGTLFACE provides:<ul><li>Dashboards by campaign objective (traffic, conversion, leads, messages)</li><li>Format-level comparisons (Reels, carousel, single image, etc.)</li><li>Centralized metrics for <b>“Meta Ads conversion analysis, social KPI tracking”</b></li></ul>We align these insights with SMM content and creative strategy via <a href=\"/Services/smm/socialMediaReporting\">social reporting & analysis</a>.",
+    "header4": "Hotel-Specific Reporting and Revenue Impact",
+    "text4": "For hotels, reporting must align with PMS and revenue tracking. DGTLFACE combines:<ul><li>Channel-based revenue and booking data (where available)</li><li>Google Ads & Meta & YouTube campaign data</li><li>Hotel metrics such as occupancy and RevPAR</li></ul>into the same dashboard. This makes tasks like <b>“Google Ads sales analysis, Meta Ads conversion reports, hotel sales reporting”</b> useful not only for marketing—but for <b>management decisions</b>."
+  },
+
+  "h4Section": {
+    "header": "Why Advertising Reporting & SEM Analysis with DGTLFACE?",
+    "card1title": "Not Just Reports—A Decision Support System",
+    "card2title": "Full Integration of Ads, Measurement and Reporting",
+    "card3title": "Antalya-Based, Tourism & Performance-Focused Analytics",
+    "card1description": "DGTLFACE reporting doesn’t follow the “send a PDF at month-end and done” mindset. For us:<ul><li><b>Dashboard →</b> a live panel you can check daily/weekly</li><li><b>Monthly report →</b> summary + interpretation + action list</li><li><b>Strategy meetings →</b> where we decide “what we learned and what we change next”</li></ul>Reporting doesn’t just describe the past—it defines the next step. That makes us a <b>decision support partner</b>, not a report factory.",
+    "card2description": "Reporting is incomplete if it isn’t integrated with conversion tracking (Tag Manager & GA4) and campaign management. DGTLFACE manages all three layers together:<ul><li><a href=\"/Services/sem/tagManager \">Setup →</a></li><li><a href=\"/Services/sem/googleAdsAdvertising \">Campaigns →</a></li><li><a href=\"/Services/sem/performanceAnalysis  \">Reporting →</a></li></ul>This minimizes the risk of optimizing based on <b>incorrectly measured data</b>.",
+    "card3description": "<b>“Ad reporting Antalya, SEM reporting Turkey, digital reporting Antalya”</b> implies a team that understands tourism and service industries in real life. As an Antalya-based agency, DGTLFACE interprets reports with:<ul><li>Seasonal demand shifts</li><li>Market behavior by country</li><li>OTA vs direct channel dynamics</li></ul>So charts become not just “up-and-down lines,” but insights grounded in <b>business reality</b>."
+  },
+
+  "verticalSlider": {
+    "header": " Micro Layer ",
+    "header2": "Areas That Deepen Performance Analysis & Reporting",
+    "title1": "How to Improve ",
+    "span1": "Conversion Rate",
+    "text1": "Improving conversion rate isn’t only about “more budget.” DGTLFACE optimizes consistently through:<ul><li>More accurate targeting</li><li>Clearer messaging & creative</li><li>Better landing page experience</li><li>Smart time/device/location breakdowns</li></ul>We show in reports what changed and how much it impacted results—building a <b>data-driven optimization culture</b>.",
+    "button1": "Learn More",
+    "title2": "Finding Bottlenecks with ",
+    "span2": "Funnel Analysis",
+    "text2": "In funnel analysis, we track each step:<ul><li>Ad impression</li><li>Click</li><li>Site session</li><li>Key action (form/booking)</li><li>Real sale/booking</li></ul>If the biggest loss happens at a specific step, we identify whether the issue is creative, targeting, page speed, or form UX—clearly and objectively.",
+    "button2": "Explore",
+    "title3": "Making Scale/Pause Decisions ",
+    "span3": "Based on Data",
+    "text3": "Statements like “pause this campaign” or “increase budget here” should be based on reports—not gut feeling. DGTLFACE shows, by channel and campaign:<ul><li>Conversion volume</li><li>Cost per conversion</li><li>Revenue / ROAS</li><li>Assisted conversions</li></ul>and provides concrete recommendations on what to scale and what to stop.",
+    "button3": "Learn More",
+    "title4": "For Hotels: Linking RevPAR, Occupancy ",
+    "span4": "and Ad Performance",
+    "text4": "In hotels, it’s not only clicks and conversions—RevPAR, occupancy, and revenue per room matter. DGTLFACE connects ad data with operational metrics where possible and reports:<ul><li>How ad spend impacts occupancy and revenue</li><li>Which campaigns bring higher RevPAR</li><li>Which markets deliver stronger room revenue</li></ul>So advertising decisions directly support <b>revenue optimization</b>.",
+    "button4": "Review"
+  },
+
+  "faq": {
+    "header": "FAQ - Advertising Reporting & Performance Analysis",
+    "question1": "Which metrics should I track in ad performance reporting?",
+    "answer1": "Typically: clicks, impressions, CTR, conversion volume, CPA, ROAS, and—when applicable—revenue/bookings. For hotels, add occupancy, market mix, and RevPAR.",
+    "question2": "How often do you prepare reports?",
+    "answer2": "Depending on the campaign structure, we recommend:<ul><li>Daily live monitoring (dashboard)</li><li>Weekly summary</li><li>Monthly strategy report + meeting</li></ul>In peak season, we can design tighter reporting rhythms.",
+    "question3": "Can I see all channels in one dashboard?",
+    "answer3": "Yes. We combine Google Ads, Meta Ads, YouTube, GA4, and—if needed—PMS/OTA data into one Looker Studio dashboard.",
+    "question4": "Do you provide hotel-specific reporting?",
+    "answer4": "Yes. We add hotel KPIs such as occupancy, booking volume, channel-based revenue, RevPAR, and OTA vs direct ratios into your reports.",
+    "question5": "What do you do if you detect data loss or incorrect measurement?",
+    "answer5": "We audit tags/GA4/CAPI, identify the technical issue, and fix it. If needed, we run a GTM & GA4 audit under <a href=\"/Services/sem/tagManager\">conversion tracking & tag manager</a>."
+  }
 },
 
-"OnpageSeo":
-{
-  "cta_talk_to_us": "Talk to us",
-  "onpage_subbanner_header": "On-Page SEO",
-  "onpage_subbanner_header2": "Services",
-  "onpage_subbanner_text": "Improving your website’s performance and user experience goes hand in hand with effective on-page optimisation. We run comprehensive audits to fix issues like broken links, slow load times and unoptimised content.",
-
-  "onpage_step1_header": "Keyword Research & Analysis",
-  "onpage_step1_text": "Uncover the potential of your content with in-depth keyword research. Using professional SEO tools, we analyse competitors and audiences to find highly relevant queries with meaningful search volume.",
-
-  "onpage_step2_header": "On-Page URL Optimization",
-  "onpage_step2_text": "We refine URL structure by avoiding unnecessary parameters, incorporating target keywords and adding category cues when appropriate. Strategic URL optimisation strengthens visibility and clarity.",
-
-  "onpage_step3_header": "Web Optimization & Performance Enhancement",
-  "onpage_step3_text": "We accelerate load times with image compression, code minimisation and efficient caching to ensure smooth operation across devices and browsers.",
-
-  "onpage_step4_header": "Local Optimization Initiatives",
-  "onpage_step4_text": "We boost your presence in local search by tailoring content with local keywords and signals, increasing relevance to nearby audiences and communities."
-},
-
-"OriginalCopywriting":{
-  "cta_talk_to_us": "Talk to us",
-    "copywriting_subbanner_header": "Original Copywriting",
-  "copywriting_subbanner_header2": "Services",
-  "copywriting_subbanner_text": "Introducing our SEO-compatible copywriting service—where creativity meets strategy to craft compelling content that captivates audiences and climbs search rankings. Our seasoned writers sculpt narratives that speak to readers while satisfying the algorithms shaping the digital landscape.",
-
-  "copywriting_step1_header": "Target Audience Analysis",
-  "copywriting_step1_text": "One-size-fits-all marketing is over. In today’s hyper-connected world, personalisation and relevance are essential. Our analysts dive deep into audience psychology to uncover desires, challenges and aspirations—insights that power precise, resonant messaging.",
-
-  "copywriting_step2_header": "Detecting & Determining Effective Titles & Sub-Headings",
-  "copywriting_step2_text": "We strengthen site structure, internal links and navigation to improve UX and surface key content. By optimising technical elements and crafting clear, keyword-aligned headings, we raise search visibility and organic traffic.",
-
-  "copywriting_step3_header": "Revision & Quality Control Work",
-  "copywriting_step3_text": "Perfection is a journey. Our revision and QC process brings a meticulous editorial eye to tone, clarity, accuracy, structure and SEO signals—elevating every piece to publication-ready quality."
-},
 
 "SeoReporting":{
   "cta_talk_to_us": "Talk to us",

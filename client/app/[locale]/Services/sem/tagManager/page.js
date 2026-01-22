@@ -211,7 +211,7 @@ const Page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs/>
-<AiAnswerBlock text="DGTLFACE, Google Tag Manager ve GA4 dönüşüm takibi ile reklamlarınızın gerçek performansını görünür hale getirir. Form gönderimi, rezervasyon, telefon araması, WhatsApp tıklaması ve cross-domain rezervasyon işlemleri dahil tüm aksiyonlar doğru şekilde ölçülür. Meta Conversion API, call tracking, PMS entegrasyonu ve booking-to-GA4 tracking gibi gelişmiş yapılarla veri akışı kusursuz hale getirilir. Böylece kararlar tahmine değil, net verilere dayanır."/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
       <H2LogoSection items={h2items} />
 
@@ -226,7 +226,7 @@ const Page = () => {
     />
         <VerticalSlider page="TagManager" itemCount={4}/>
       <QuestionsSection2 variant="light" faqs={faqs} />
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin dönüşüm takibi ve veri ölçümleme dokümantasyonundan derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

@@ -2108,6 +2108,8 @@
   },
 
     "RemarketingDisplay": {
+      "aiAnswerBlock":"DGTLFACE, remarketing ve display reklam yönetimiyle sitenizle daha önce etkileşime geçmiş kullanıcıları segmentlere ayırarak yeniden hedefler. Google Display Network, YouTube, Meta ve OTA trafiğini; sepeti terk eden, oda bakan veya teklif alıp vazgeçen kitleler için ayrı mesajlarla geri kazanır. Bu yapı, özellikle oteller ve turizm markaları için dönüşüm oranını ve ROAS’ı anlamlı şekilde yükselten güçlü bir yeniden hedefleme katmanı sunar.",
+      "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin remarketing ve display reklam yönetimi hizmet dokümantasyonundan ve performans pazarlama süreçlerinden derlenmiştir.",
     "cta_talk_to_us": "Google Ads Kampanyanızı Optimizasyonu İçin İletişime Geçin",
     "remarketing_subbanner_header": "Remarketing ve Display Reklam Yönetimi - ",
     "remarketing_subbanner_header2": "Dönüşüm Odaklı Yeniden Hedefleme",
@@ -2213,6 +2215,8 @@
   },
 
   "TagManager": {
+    "aiAnswerBlock":"DGTLFACE, Google Tag Manager ve GA4 dönüşüm takibi ile reklamlarınızın gerçek performansını görünür hale getirir. Form gönderimi, rezervasyon, telefon araması, WhatsApp tıklaması ve cross-domain rezervasyon işlemleri dahil tüm aksiyonlar doğru şekilde ölçülür. Meta Conversion API, call tracking, PMS entegrasyonu ve booking-to-GA4 tracking gibi gelişmiş yapılarla veri akışı kusursuz hale getirilir. Böylece kararlar tahmine değil, net verilere dayanır.",
+    "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin dönüşüm takibi ve veri ölçümleme dokümantasyonundan derlenmiştir.",
     "cta_talk_to_us": "Google Ads Kampanyanızı Optimizasyonu İçin İletişime Geçin",
     "tagmanager_subbanner_header": "Dönüşüm Takibi ve Google Tag Manager – ",
     "tagmanager_subbanner_header2": "Reklam Verilerinizi Doğru Ölçün",
@@ -2318,6 +2322,8 @@
 
 
     "PerformanceAnalysis": {
+      "aiAnswerBlock":"DGTLFACE, Google Ads, YouTube, Meta Ads ve diğer dijital kampanyaların verilerini Looker Studio üzerinde tek bir panelde toplar. Tıklama, gösterim, dönüşüm, gelir, ROAS ve funnel metriklerini birlikte analiz ederek hangi kampanyaların gerçekten kazandırdığını ortaya koyar. Özellikle oteller ve turizm işletmeleri için doluluk, rezervasyon ve oda başı gelir (RevPAR) odaklı raporlama yapılır; böylece reklam bütçesi veriyle optimize edilir, sezonsal stratejiler güçlenir.",
+      "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin resmi reklam raporlama ve performans analizi dokümantasyonundan, Looker Studio raporlama pratiklerinden ve SEM süreçlerinden derlenmiştir.",
     "cta_talk_to_us": "Reklam Performans Analizi ve Raporlama",
     "performanceanalysis_subbanner_header": "Reklam Performans Analizi ve Raporlama – ",
     "performanceanalysis_subbanner_header2": "Kampanyalarınızı Veriyle Yönetin",
@@ -2424,110 +2430,6 @@
   },
 
 
-  "GoogleWebtools": {
-    "cta_talk_to_us": "Google Araçları Kurulumu İçin İletişime Geçin",
-    "googlewebtools_subbanner_header": "Profesyonel Google Web Araçları",
-    "googlewebtools_subbanner_header2": "Kurulum ve Entegrasyon Hizmetleri",
-    "googlewebtools_subbanner_text": "Geniş ve sürekli değişen dijital dünyada Google’ın web araçlarını etkin kullanmak çevrim içi varlığınızı en üst düzeye çıkarır. DGTLFACE, doğru içgörü sağlayan, performansı artıran ve ölçülebilir sonuçlar sunan profesyonel kurulum hizmetleri sağlar.",
-
-    "googlewebtools_step1_header": "Kapsamlı Google Analytics 4 (GA4) Entegrasyonu",
-    "googlewebtools_step1_text": "Uçtan uca GA4 kurulumu ile sitenizin performansını yükseltin. Kullanıcı davranışlarını izleyin, trafik kaynaklarını anlayın ve kritik KPI’ları ölçerek veri odaklı kararlar alın. E-ticaret takibi dahil.",
-
-    "googlewebtools_step2_header": "Google Ads Dönüşüm ve Kampanya Kurulumu",
-    "googlewebtools_step2_text": "Hedeflerinize uygun kampanya kurgusu, anahtar kelime seçimi ve teklif yönetimi ile ücretli pazarlamaya güçlü bir başlangıç yapın. Doğru dönüşüm takibi ile reklam bütçenizin verimliliğini garanti altına alın.",
-
-    "googlewebtools_step3_header": "Google Tag Manager (GTM) Kurulumu ve Yönetimi",
-    "googlewebtools_step3_text": "Kod düzenlemeden etiketleri yönetin. Analitik, dönüşüm ve yeniden pazarlama etiketlerini tek merkezden dağıtın ve güncelleyin; veri toplama sürecini sadeleştirin ve hızlandırın.",
-
-    "googlewebtools_step4_header": "Google Search Console (GSC) Kurulumu ve Entegrasyonu",
-    "googlewebtools_step4_text": "Site haritası gönderin, indeksleme ve organik performansı izleyin, hataları hızla çözerek web sitenizi Google Arama için teknik olarak optimize edin."
-  },
-
-  "WebTraffic": {
-    "cta_talk_to_us": "Trafik Analizi ve Optimizasyonu İçin Bize Ulaşın",
-    "webtraffic_subbanner_header": "Hedefli Web Trafiği ve",
-    "webtraffic_subbanner_header2": "Kullanıcı Davranışı Analiz Hizmetleri",
-    "webtraffic_subbanner_text": "Arama motoru optimizasyonu (SEO), tıklama başına ödeme (PPC) reklamcılığı ve sosyal medya pazarlaması gibi yöntemlerle yüksek nitelikli ve hedefli web trafiği ediniriz. Her strateji, dönüşüm hedeflerinize titizlikle uyarlanır.",
-
-    "webtraffic_step1_header": "Derinlemesine Kullanıcı Davranışı Analizi",
-    "webtraffic_step1_text": "Her ziyaretçinin bir hikâyesi ve satın alma yolculuğu vardır. DGTLFACE’in kullanıcı davranışı analiziyle bu hikâyeleri, Isı Haritaları (Heatmaps), Kayıt Oynatmaları ve Dönüşüm Hunisi (Funnel) incelemeleri ile çözümleriz. Kullanıcıyı anlar, deneyimi iyileştiririz.",
-
-    "webtraffic_step2_header": "Web Trafik Kaynak ve Kanal Analizi",
-    "webtraffic_step2_text": "Trafiğin nereden geldiğini (Organik, Paid, Referral, Direct) bilmek kritik önemdedir. Tüm kanalları derinlemesine analiz eder, hangi kaynağın en kârlı müşteriyi getirdiğini belirleyerek pazarlama bütçenizin optimizasyonunu sağlarız.",
-
-    "webtraffic_step3_header": "Dönüşüm Oranı Optimizasyonu (CRO) Önerileri",
-    "webtraffic_step3_text": "Etkileşim ve dönüşümü artıran unsurları belirleyerek net iyileştirme önerileri sunarız. Hedef odaklı analizimiz, sitenizin her unsurunu iş hedeflerinizle hizalayarak yatırım getirisini (ROI) ve büyümeyi en üst düzeye taşır."
-  },
-
-"YandexAdvertising": {
-    "cta_talk_to_us": "Yandex Reklam Stratejisi İçin Bize Ulaşın",
-    "yandexadvertising_subbanner_header": "Rusya Pazarına Özel Yandex",
-    "yandexadvertising_subbanner_header2": "Reklamcılığı ve Performans Hizmetleri",
-    "yandexadvertising_subbanner_text": "Dijital pazarlama uzmanlarımızla, işletme hedeflerinizle uyumlu ve özellikle Rusya ve çevre pazarlardaki kitlenizde karşılık bulan özelleştirilmiş Yandex reklam kampanyaları kurguluyoruz. İster trafik artırın, ister dönüşüm ya da marka bilinirliğini yükseltin; yanınızdayız.",
-
-    "yandexadvertising_step1_header": "Yandex Görüntülü ve Arama Ağı Reklam Yönetimi",
-    "yandexadvertising_step1_text": "Yandex Direct’in güçlü görsel reklam yeteneklerinden yararlanarak hedef kitlenize etkili ve verimli şekilde ulaşan özel kampanyalar yürütürüz. Bu; dikkat çekici görsellerin üretilmesini, Yandex Reklam Ağı’nda (YAN) stratejik konumlandırmayı ve maksimum YG için sürekli optimizasyonu kapsar.",
-
-    "yandexadvertising_step2_header": "Yandex Haritalar ve Yerel İşletme Reklam Yönetimi",
-    "yandexadvertising_step2_text": "Yandex Haritalar’da görünürlüğünüzü artırarak yakın çevrenizdeki potansiyel müşterilere (özellikle turizm sektöründe) daha etkili ulaşmanızı sağlayan stratejik bir hizmettir. İşletmenizi arama sonuçlarında ve harita üzerinde öne çıkarıp yerel aramalarda rekabet avantajı sağlarız.",
-
-    "yandexadvertising_step3_header": "Yandex Metrica Analiz ve Kapsamlı Raporlama",
-    "yandexadvertising_step3_text": "Tıklama oranından (CTR) dönüşümlere, Webvisor ile kitle davranışından etkileşim örüntülerine kadar tüm metrikleri titizlikle izleyip analiz ederiz. Uygulanabilir rapor ve öneriler sunarak bütçenizi akıllıca kullanmanızı ve YG’yi en üst düzeye çıkarmanızı sağlarız."
-  },
-
-  "OffpageSeo": {
-    "cta_talk_to_us": "Alan Adı Otoritenizi Güçlendirin",
-    "offpage_subbanner_header": "Site Dışı (Off-Page) SEO",
-    "offpage_subbanner_header2": "ve Dijital Otorite Hizmetleri",
-    "offpage_subbanner_text": "Sektörünüzde saygın sitelerden yüksek kaliteli geri bağlantılar (backlinkler) edinerek web sitenizin güvenilirliğini (Domain Authority) ve arama sıralamalarını kalıcı olarak yükseltiyoruz. DGTLFACE’in off-page optimizasyon stratejileri, çevrim içi varlığınızı güçlendiren bütüncül bir dijital pazarlama yaklaşımı sunar.",
-
-    "offpage_step1_header": "Stratejik Backlink Kazanımı ve Outreach Çalışmaları",
-    "offpage_step1_text": "Backlink stratejimiz, sektörünüzde güvenilir ve yüksek trafikli kaynaklardan kaliteli ve ilgili bağlantılar edinmeye odaklanır. Hedefli organik trafik, alan adı otoritesi ve pazarlama başarısı için her adımı titizlikle planlar, zararlı bağlantılardan arındırma (Disavow) süreçlerini yönetiriz.",
-
-    "offpage_step2_header": "Sosyal Medya Sinyalleri Optimizasyonu",
-    "offpage_step2_text": "Marka hikâyenizi anlatan, hedef kitlenizi etkileşime davet eden ve paylaşımı tetikleyen içerikler kurguluyoruz. Sosyal sinyallerin (paylaşım, beğeni) arama motorları üzerindeki dolaylı etkisinden faydalanarak içeriğinizin erişimini ve keşfedilebilirliğini artırırız.",
-
-    "offpage_step3_header": "Marka İtibarı ve Çevrim İçi Yorum Yönetimi",
-    "offpage_step3_text": "Platformlardaki yorumları aktif biçimde izler, onlarla profesyonelce etkileşime geçer ve kitlenizle güven inşa etmenize yardımcı oluruz. Olumlu bir çevrim içi itibar (Reputation Management) oluşturarak uzun vadeli sadakat ve organik büyümeyi destekleriz.",
-
-    "offpage_step4_header": "Yüksek Otoriteli Blog ve İçerik Pazarlaması",
-    "offpage_step4_text": "Otoriter sitelerde yayımlanan misafir blog yazıları (Guest Blogging) ve yüksek kaliteli içerik pazarlaması; kitleyi etkilemek, marka bilinirliği oluşturmak ve web sitenize nitelikli yönlendirme trafiği çekmek için stratejinin ayrılmaz parçalarıdır."
-  },
-
-  "OnpageSeo": {
-    "cta_talk_to_us": "Site İçi Optimizasyon İçin Bize Ulaşın",
-    "onpage_subbanner_header": "Site İçi (On-Page) SEO",
-    "onpage_subbanner_header2": "ve İçerik Optimizasyon Hizmetleri",
-    "onpage_subbanner_text": "Web sitenizin organik performansı ve kullanıcı deneyimi, etkili site içi optimizasyonla doğrudan ilişkilidir. Kırık linkler, yavaş yükleme ve anahtar kelime uyumsuzluğu gibi sorunları kapsamlı analizlerle tespit edip gideririz.",
-
-    "onpage_step1_header": "Derinlemesine Anahtar Kelime Araştırması ve İçerik Haritası",
-    "onpage_step1_text": "Profesyonel SEO araçlarıyla rakipleri ve hedef kitlenizi analiz ederek yüksek arama hacmine ve satın alma niyetine sahip sorguları belirleriz. Bu, içeriğinizin potansiyelini açığa çıkararak doğru hedef kitleye ulaşmanızı sağlar.",
-
-    "onpage_step2_header": "SEO Uyumlu Meta Etiket ve URL Optimizasyonu",
-    "onpage_step2_text": "Başlık Etiketlerini (Title Tag) ve Meta Açıklamalarını kullanıcıyı tıklamaya teşvik edecek şekilde optimize ederiz. URL yapınızı gereksiz parametrelerden arındırır, hedef anahtar kelimeleri kullanarak görünürlüğünüzü ve anlaşılabilirliği güçlendiririz.",
-
-    "onpage_step3_header": "Web Optimizasyonu ve Site İçi Bağlantı Mimarisi",
-    "onpage_step3_text": "Görüntü sıkıştırma, kod minimizasyonu ve etkin önbellekleme gibi yöntemlerle yükleme sürelerini hızlandırırız. İç Bağlantı (Internal Linking) mimarisini güçlendirerek sayfa otoritesinin doğru dağıtılmasını sağlarız.",
-
-    "onpage_step4_header": "Yerel SEO Optimizasyonu ve Google My Business",
-    "onpage_step4_text": "Yerel anahtar kelimeler, sinyaller ve Google My Business (İşletme Profili) optimizasyonları ile içeriğinizi yerel arama sonuçlarındaki görünürlüğünüzü artırır, hedeflediğiniz coğrafi bölgedeki müşterilere daha alakalı hale getiririz."
-  },
-
-  "OriginalCopywriting": {
-    "cta_talk_to_us": "SEO Uyumlu Metin Yazarlığı İçin Bize Ulaşın",
-    "copywriting_subbanner_header": "Yüksek Dönüşümlü Özgün Metin",
-    "copywriting_subbanner_header2": "Yazarlığı (SEO Copywriting) Hizmetleri",
-    "copywriting_subbanner_text": "Yaratıcılıkla stratejiyi buluşturan SEO uyumlu metin yazarlığı hizmetimiz; hem kitlenizi etkileyen hem de arama sonuçlarında yükselen içerikler üretir. Deneyimli yazarlarımız, okuyucuya hitap eden ve dijital dünyanın algoritmalarını (E-A-T) tatmin eden anlatılar kurgular.",
-
-    "copywriting_step1_header": "Hedef Kitle Niyeti (Search Intent) Analizi",
-    "copywriting_step1_text": "Tek tip pazarlama dönemi bitti. Analistlerimiz, kitlenizin psikolojisine derinlemesine inerek arama niyetini, sorunlarını ve beklentilerini açığa çıkarır; bu içgörüler de nokta atışı, etkili ve dönüşüm odaklı mesajları besler.",
-
-    "copywriting_step2_header": "SEO ve Okunabilirlik Odaklı İçerik Yapılandırması",
-    "copywriting_step2_text": "Kullanıcı deneyimini (UX) geliştirmek için net ve anahtar kelimeyle uyumlu Başlık Hiyerarşileri (H1-H6) oluştururuz. İçeriklerinizi mantıksal olarak yapılandırarak hem arama motorlarının hem de okuyucuların içeriği kolayca sindirmesini sağlarız.",
-
-    "copywriting_step3_header": "Profesyonel Revizyon ve Kalite Kontrol (KK)",
-    "copywriting_step3_text": "Mükemmellik bir yolculuktur. Revizyon ve KK sürecimiz; ton, açıklık, doğruluk, yapı ve teknik SEO sinyallerini titizlikle gözden geçirerek her içeriği yayına hazır, hata içermeyen ve otoriteyi destekleyen seviyeye taşır."
-  },
 
   "SeoReporting": {
   "cta_talk_to_us": "Organik Verilerinizi Netleştirin",

@@ -265,7 +265,7 @@ const cards = [
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs/>
-<AiAnswerBlock text="DGTLFACE, remarketing ve display reklam yönetimiyle sitenizle daha önce etkileşime geçmiş kullanıcıları segmentlere ayırarak yeniden hedefler. Google Display Network, YouTube, Meta ve OTA trafiğini; sepeti terk eden, oda bakan veya teklif alıp vazgeçen kitleler için ayrı mesajlarla geri kazanır. Bu yapı, özellikle oteller ve turizm markaları için dönüşüm oranını ve ROAS’ı anlamlı şekilde yükselten güçlü bir yeniden hedefleme katmanı sunar."/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
  <H2LogoSection items={h2items} />
   <StepSection2New data={stepData} header={t("h3Section.header")}/>
@@ -282,7 +282,7 @@ const cards = [
      
    
      <QuestionsSection2 variant="light" faqs={faqs} />
-      <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin remarketing ve display reklam yönetimi hizmet dokümantasyonundan ve performans pazarlama süreçlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
 </>
   )
