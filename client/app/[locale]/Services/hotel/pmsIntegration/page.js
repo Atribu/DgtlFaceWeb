@@ -273,7 +273,7 @@ const Page = () => {
       <VerticalSlider page="PmsIntegrationPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel PMS entegrasyon projeleri, Elektraweb ve benzeri sistemlerle yaptığı dijital entegrasyon çalışmalarına ait dahili dokümantasyon ve saha tecrübelerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

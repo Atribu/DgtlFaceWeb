@@ -262,7 +262,7 @@ const t2 = useTranslations("ChannelManagementPage.h4Section");
       <VerticalSlider page="ChannelManagementPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in kanal yönetimi, PMS & OTA entegrasyonu ve otel gelir & doluluk optimizasyon süreçlerine ait dokümantasyon ve proje tecrübelerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

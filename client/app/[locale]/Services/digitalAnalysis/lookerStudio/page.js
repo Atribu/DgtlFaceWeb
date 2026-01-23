@@ -272,7 +272,7 @@ const Page = () => {
       <VerticalSlider page="LookerStudioReportingPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in Looker Studio tabanlı raporlama projeleri, otel performans panelleri ve çok kaynaklı veri entegrasyonu süreçlerine ait iç dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

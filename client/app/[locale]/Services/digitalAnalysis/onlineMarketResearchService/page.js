@@ -271,7 +271,7 @@ const Page = () => {
       <VerticalSlider page="BenchmarkAnalysisPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in benchmark raporlama, rakip karşılaştırma, OTA fiyat analizleri ve turizm sektörüne özel veri karşılaştırma süreçlerine ait iç dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

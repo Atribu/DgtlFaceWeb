@@ -263,7 +263,7 @@ const t2 = useTranslations("PmsSetupPage.h4Section");
       <VerticalSlider page="PmsSetupPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in PMS kurulum & eğitim süreçleri, Elektraweb ve otel yönetim yazılımlarıyla yaptığı entegrasyon projelerine ait dahili dokümantasyon ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

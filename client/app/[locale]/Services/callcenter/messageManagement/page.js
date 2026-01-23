@@ -272,7 +272,7 @@ const t2 = useTranslations("SocialMediaMessageManagementPage.h4Section");
       <VerticalSlider page="SocialMediaMessageManagementPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in mesaj & yorum yönetimi operasyonlarına, otel & turizm odaklı çok kanallı iletişim süreçlerine ve sosyal medya destek modellerine ilişkin dahili dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
 </>
   )

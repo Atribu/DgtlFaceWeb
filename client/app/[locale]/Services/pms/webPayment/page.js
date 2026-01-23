@@ -268,7 +268,7 @@ const Page = () => {
       {/* WebPayment */}
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in online satış optimizasyon süreçleri, OTA ve web rezervasyon dönüşüm projeleri ve otel gelir yönetimi çalışmalarından derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

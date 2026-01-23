@@ -273,7 +273,7 @@ const Page = () => {
       <VerticalSlider page="SalesConversionReportingPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in satış & dönüşüm analizi, otel satış raporlama, çok kanallı funnel incelemeleri ve gelir analizi projelerine ait iç dokümantasyon ve pratiklerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   );

@@ -277,7 +277,7 @@ const Page = () => {
       <VerticalSlider page="WebDev" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin kurumsal web geliştirme, Next.js/React projeleri ve otel web sitesi çözümlerine dair dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

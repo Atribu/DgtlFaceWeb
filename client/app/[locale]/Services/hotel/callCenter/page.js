@@ -276,7 +276,7 @@ const Page = () => {
       <VerticalSlider page="HotelCallCenter" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel çağrı merkezi, rezervasyon yönetimi, PMS/OTA entegrasyonu ve çok dilli misafir iletişimi süreçlerine ait resmi iç dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

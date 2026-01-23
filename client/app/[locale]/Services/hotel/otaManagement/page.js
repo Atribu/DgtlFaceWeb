@@ -282,7 +282,7 @@ const Page = () => {
       <VerticalSlider page="OtaManagementPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in OTA optimizasyon projeleri, Booking & Expedia performans yönetimi ve turizm satış teknolojileri dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

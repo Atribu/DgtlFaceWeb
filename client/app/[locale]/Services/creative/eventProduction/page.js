@@ -278,7 +278,7 @@ const Page = () => {
       <VerticalSlider page="EventProductionPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Creative Prodüksiyon ekibinin etkinlik çekimi, otel etkinlik prodüksiyonları, 360° & drone deneyimleri ve kurumsal organizasyon projelerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

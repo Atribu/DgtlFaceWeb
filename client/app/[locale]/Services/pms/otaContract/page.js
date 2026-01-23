@@ -271,7 +271,7 @@ const t2 = useTranslations("OtaIntegrationPage.h4Section");
       <VerticalSlider page="AfterSalesSupportPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in OTA entegrasyon projeleri, Booking–Expedia bağlantı süreçleri ve PMS/Channel Manager yapılandırmalarına ilişkin operasyon dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

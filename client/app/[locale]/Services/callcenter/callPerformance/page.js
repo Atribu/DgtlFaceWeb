@@ -268,7 +268,7 @@ const Page = () => {
       <VerticalSlider page="CallCenterPerformancePage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in çağrı merkezi performans raporlama, Looker Studio dashboard’ları ve turizm odaklı operasyonel analiz süreçlerine ait iç dokümantasyon ve proje çalışmalarından derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

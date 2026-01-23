@@ -280,8 +280,7 @@ const Page = () => {
 <AutoBreadcrumbs/>
      <AiAnswerBlock text={t("ai_answer_text")}/>
 </div>
-       <H2LogoSection items={h2items} />
-
+<H2LogoSection items={h2items} />
  <StepSection2New data={stepData} header={t("h3Section.header")}/>
     <div>
          <LogoListSectionBlack
@@ -294,7 +293,7 @@ const Page = () => {
       <VerticalSlider page="OtelSeoPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu içerik, DGTLFACE’in otel SEO projeleri, turizm sektörüne özel içerik & teknik SEO dokümantasyonu ve Google Travel/Hotel çalışmalarından derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

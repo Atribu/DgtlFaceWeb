@@ -270,7 +270,7 @@ const t2 = useTranslations("AfterSalesSupportPage.h4Section");
       <VerticalSlider page="AfterSalesSupportPage" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in satış sonrası müşteri destek operasyonları, turizm misafir memnuniyeti süreçleri ve CRM–Çağrı Merkezi entegrasyon modellerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

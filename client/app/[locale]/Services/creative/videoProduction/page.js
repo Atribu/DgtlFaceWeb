@@ -271,7 +271,7 @@ const Page = () => {
       <VerticalSlider page="VideoPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text=" Bu bilgi, DGTLFACE Creative departmanının video prodüksiyon, otel tanıtım filmi, 360° ve drone çekimlerine yönelik proje dokümantasyonlarından ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

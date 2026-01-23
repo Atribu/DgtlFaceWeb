@@ -276,7 +276,7 @@ const Page = () => {
       <VerticalSlider page="ServerSecurity" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in web güvenliği, sunucu yönetimi, veri koruma ve PMS/rezervasyon güvenlik süreçlerine ait teknik dokümantasyon ve projelerden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

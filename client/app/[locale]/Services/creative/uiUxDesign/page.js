@@ -270,7 +270,7 @@ const Page = () => {
       <VerticalSlider page="WebDev" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Creative & Web ekiplerinin UI/UX tasarım süreçleri, otel rezervasyon arayüzleri, Figma projeleri ve dijital deneyim tasarımı dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

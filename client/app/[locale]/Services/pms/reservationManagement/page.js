@@ -268,7 +268,7 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
       <VerticalSlider page="ReservationManagementPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel rezervasyon yönetimi, PMS rezervasyon modülü kurulumları ve OTA–Call Center–Web akışlarını birleştiren operasyon projelerine ilişkin dokümantasyon ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

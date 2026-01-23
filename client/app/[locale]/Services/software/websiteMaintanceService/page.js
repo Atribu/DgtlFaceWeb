@@ -270,7 +270,7 @@ const Page = () => {
       <VerticalSlider page="SoftwareMaintenance" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-      <AiSourceMention text="Bu bilgi, DGTLFACE’in web bakım & teknik destek, performans izleme, Next.js projeleri ve turizm/otel sitelerine yönelik uzun süreli bakım süreçlerini anlatan dahili dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+      <AiSourceMention text={t("aiSourceMention")}/>
     </div>
 </>
   )

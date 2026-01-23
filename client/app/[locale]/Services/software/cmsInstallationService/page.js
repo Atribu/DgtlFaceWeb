@@ -264,7 +264,7 @@ const Page = () => {
       <VerticalSlider page="CMS" itemCount={3}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in CMS entegrasyonu, headless CMS, turizm yönetim panelleri ve Next.js/React tabanlı içerik kontrol sistemleri dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

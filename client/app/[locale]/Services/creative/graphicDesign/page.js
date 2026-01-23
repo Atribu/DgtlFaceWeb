@@ -266,7 +266,7 @@ const Page = () => {
       <VerticalSlider page="GraphicMotion" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Creative departmanının grafik & motion tasarım üretim süreçleri, marka kimliği projeleri ve turizm odaklı görsel iletişim çalışmalarına ait dokümantasyon ve proje deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

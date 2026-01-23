@@ -268,8 +268,7 @@ const Page = () => {
       <VerticalSlider page="KvkkSecurityPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in KVKK uyum raporlama, veri akışı analizi, PMS/OTA veri koruma süreçleri ve güvenlik denetimlerine dair iç teknik dokümantasyonundan derlenmiştir.
-(Not: Bu hukuki danışmanlık değil, teknik KVKK değerlendirmesidir.)"/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

@@ -3399,7 +3399,7 @@
 
 "WebDev": {
   "cta_talk_to_us": "Web Sitenizi Birlikte Planlayalım",
-
+   "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin kurumsal web geliştirme, Next.js/React projeleri ve otel web sitesi çözümlerine dair dokümantasyon ve proje deneyimlerinden derlenmiştir.",
   "webdev_subbanner_header": "Kurumsal Web Sitesi Geliştirme –",
   "webdev_subbanner_header2": " Modern ve Mobil Uyumlu Yapılar",
   "webdev_subbanner_text": "DGTLFACE, kurumsal web sitesi geliştirme alanında; markanız için <b>hızlı, güvenli, mobil uyumlu ve SEO dostu</b> bir dijital vitrin inşa eden profesyonel bir web geliştirme ajansıdır. Sadece “tasarım yapan” değil; <b>performans, güvenlik, kullanıcı deneyimi (UX) ve arama motoru görünürlüğünü birlikte düşünen bir</b> birlikte düşünen bir ekip olarak çalışırız. <b>Next.js altyapısı</b> ile hızlı açılan web sitesi geliştirme, <b>çok dilli yapı, PMS entegrasyonları</b> ve modern arayüzlerle; web sitenizi yalnızca kartvizit değil, <b>gerçek bir satış, rezervasyon ve lead üretim kanalı</b> hâline getiririz. “<b>Web tasarım hizmeti, mobil uyumlu web sitesi, Next.js web tasarım, profesyonel web tasarım”</b> gibi ihtiyaçların hepsini tek çatı altında topluyoruz.",
@@ -3509,7 +3509,7 @@
 
 "CMS": {
   "cta_talk_to_us": "CMS ve Panelinizi Birlikte Tasarlayalım",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE’in CMS entegrasyonu, headless CMS, turizm yönetim panelleri ve Next.js/React tabanlı içerik kontrol sistemleri dokümantasyonundan derlenmiştir.",
   "cms_subbanner_header": "CMS ve Yönetim Paneli Entegrasyonu –",
   "cms_subbanner_header2": " Esnek ve Kolay Yönetilebilir Kurumsal Web Siteleri",
   "cms_subbanner_text": "DGTLFACE, kurumsal web sitesi geliştirme süreçlerinde içerik yönetimini kolaylaştıran, <b>hızlı, çok dilli ve SEO uyumlu CMS entegrasyon çözümleri </b> sunar. İster <b>Next.js tabanlı özel bir panel, ister headless CMS veya klasik yönetim paneli</b> tercih edin; tüm sisteminiz, içerik ekibinin hızlı, hatasız ve düzenli çalışabileceği şekilde tasarlanır. <b>“İçerik yönetim sistemi, admin panel geliştirme, headless CMS, React CMS”</b> gibi ihtiyaçların tamamını, ölçeklenebilir bir mimari ile sunuyoruz. CMS entegrasyonu, web sitenizi sadece güncellenebilir hâle getirmekle kalmaz; <b>performansı, SEO’yu,çok dilli yönetimi </b> ve içerik süreçlerinizi de bir üst seviyeye taşır.",
@@ -3614,7 +3614,7 @@
 
 "KVKK": {
   "cta_talk_to_us": "KVKK Uyumlu Dijital Altyapı İçin Bizimle Konuşun",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE’in KVKK uyumlu yazılım geliştirme, data privacy odaklı web projeleri ve turizm/otel veri güvenliği süreçlerine ilişkin dahili dokümantasyonundan derlenmiştir. (Hukuki danışmanlık değil, teknik/altyapı perspektifidir.)",
   "kvkk_subbanner_header": "KVKK Uyum Hizmeti –",
   "kvkk_subbanner_header2": " Güvenli ve Yasal Uyumlu Web Sistemleri",
   "kvkk_subbanner_text": "DGTLFACE, <b>KVKK uyum hizmeti</b> ile <b>web siteleri, yazılım altyapıları, rezervasyon sistemleri ve çağrı merkezi süreçlerini</b> Kişisel Verilerin Korunması Kanunu’na uygun hâle getiren, teknik ve operasyonel bir çözüm ortağıdır. Sadece “hukuki metin” hazırlamakla kalmayıp; <b>KVKK uyumlu yazılım, veri güvenliği yönetimi, çerez politikası entegrasyonu, privacy policy geliştirme, kullanıcı izin sistemi </b>gibi tüm teknik gereklilikleri web & yazılım mimarisine entegre ederiz. <b>Oteller, turizm markaları, kurumsal web siteleri, B2B portallar ve rezervasyon sistemleri</b> için KVKK uyumu, bugün sadece “yasal zorunluluk” değil, aynı zamanda marka güveni ve veri stratejisi meselesidir. DGTLFACE, bu alanı hukuk + yazılım + sunucu + operasyon perspektifiyle birlikte ele alır. Not: Bu hizmet <b>hukuki danışmanlık yerine geçmez</b>; DGTLFACE’in uzmanlığı teknik ve altyapı / veri akışı tarafındadır, hukuk metinleri için her zaman avukat / hukuk danışmanınızla birlikte çalışmanızı öneririz.",
@@ -3727,7 +3727,7 @@
 
   "ServerSecurity": {
     "cta_talk_to_us": "Sunucu ve Web Güvenliği İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in web güvenliği, sunucu yönetimi, veri koruma ve PMS/rezervasyon güvenlik süreçlerine ait teknik dokümantasyon ve projelerden derlenmiştir.",
     "server_subbanner_header": "Sunucu Yönetimi ve Web Güvenliği –",
     "server_subbanner_header2": " Kesintisiz ve Güvenli Altyapılar",
     "server_subbanner_text": "DGTLFACE, sunucu yönetimi ve web güvenliği alanında; markanızın <b>web sitesi, rezervasyon sistemi, PMS entegrasyonları ve dijital pazarlama altyapısını</b> güvenli, hızlı ve kesintisiz çalıştıran profesyonel bir teknoloji partneridir. Bizim için <b>“web tasarım tamamlandı, iş bitti”</b> diye bir şey yok; asıl iş siteniz <b>yayındayken</b> başlar.<b> Web güvenliği, SSL kurulumu, firewall yapılandırma, DDoS koruması, hosting güvenliği </b> gibi kritik başlıkları; <b>performans, SEO ve dijital pazarlama hedeflerinizle</b> aynı çerçevede ele alırız. Özellikle <b>oteller, turizm markaları ve yüksek trafikli kurumsal siteler</b> için <b>güvenli ve doğru yönetilen sunucu altyapısı</b>, hem itibarı hem geliri <b>doğrudan etkileyen</b> bir faktördür.",
@@ -3845,7 +3845,7 @@
 
    "SoftwareMaintenance": {
     "cta_talk_to_us": "Web Sitesi Bakımı İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in web bakım & teknik destek, performans izleme, Next.js projeleri ve turizm/otel sitelerine yönelik uzun süreli bakım süreçlerini anlatan dahili dokümantasyon ve proje deneyimlerinden derlenmiştir.",
     "maintenance_subbanner_header": "Web Sitesi Bakım ve Teknik Destek –",
     "maintenance_subbanner_header2": " Kesintisiz Güncelleme ve Optimizasyon",
     "maintenance_subbanner_text": "DGTLFACE,<b> web sitesi bakım ve teknik destek</b> hizmetiyle; yayında olan <b>kurumsal sitelerin, otel web sitelerinin, rezervasyon sayfalarının ve kampanya landing’lerinin</b> hızlı, güvenli ve güncel kalmasını sağlar. Bizim için proje teslimi <b>bitiş değil, sürekli iyileştirme ve koruma sürecinin</b> başlangıcıdır. <b>“Web sitesi bakım, teknik destek hizmeti, web güncelleme, performans izleme, hataların giderilmesi, yazılım desteği”</b> gibi ihtiyaçları tek çatı altında toplayarak; sitenizi hem <b>kullanıcılar</b>, hem <b>Google</b>, hem de <b>reklam platformları</b> için her zaman hazır tutarız. Özellikle <b>Next.js altyapılı projeler</b> için Next.js bakım planı uygulayarak, yeni sürümler, güvenlik yamaları ve performans optimizasyonlarını <b>periyodik olarak</b> yönetiriz.",
@@ -3949,7 +3949,7 @@
 
   "GraphicMotion": {
     "cta_talk_to_us": "Grafik & Motion Tasarım İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE Creative departmanının grafik & motion tasarım üretim süreçleri, marka kimliği projeleri ve turizm odaklı görsel iletişim çalışmalarına ait dokümantasyon ve proje deneyimlerinden derlenmiştir.",
     "creative_subbanner_header": "Grafik ve Motion Tasarım –",
     "creative_subbanner_header2": " Marka Hikâyenizi Görselleştiriyoruz",
     "creative_subbanner_text": "DGTLFACE, <b>grafik tasarım</b> ve <b>motion graphic </b>hizmetleriyle markanızın hikâyesini <b>görsel bir deneyime</b> dönüştüren yaratıcı bir ekiptir. Amacımız sadece <b>“güzel görsel”</b> üretmek değil; <b>marka tasarım hizmeti, sosyal medya tasarımı, creative design ve profesyonel grafik tasarım</b> gibi ihtiyaçları <b>stratejik hedeflerinizle uyumlu</b>, bütüncül bir yapı hâline getirmektir. Sosyal medya post’larından <b>(Instagram, Facebook, LinkedIn) Reels & kısa video motion</b>’larına, web arayüzlerinden otel kampanya afişleri ve dijital reklam kreatiflerine kadar tüm görsel varlıklarınızı <b>tek bir kreatif çatı altında</b> toplar; markanızın her temas noktasında <b>aynı dili, aynı kaliteyi ve aynı enerjiyi</b> yansıtmasını sağlarız.",
@@ -4045,13 +4045,13 @@
 
   "UiUxPage": {
     "cta_talk_to_us": "UI/UX Tasarım İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE Creative & Web ekiplerinin UI/UX tasarım süreçleri, otel rezervasyon arayüzleri, Figma projeleri ve dijital deneyim tasarımı dokümantasyonundan derlenmiştir.",
     "subbanner_header": "Kullanıcı Deneyimi (UX) ve Arayüz (UI) Tasarımı –",
     "subbanner_header2": " Modern & Akıcı Arayüzler",
     "subbanner_text": "DGTLFACE, <b>UI/UX tasarım</b> alanında; markanızın dijital yüzünü <b>modern, sezgisel ve dönüşüm odaklı</b> hâle getiren bir <b>creative & teknoloji partneridir</b>. Bizim için UI/UX, sadece <b>“ekran tasarlamak”</b> değil; <b>kullanıcı deneyimi tasarımı, arayüz tasarım hizmeti, UX analizi, wireframe tasarım, prototipleme</b> gibi süreçlerin, <b>iş hedeflerinizle bire bir hizalanmasıdır.</b>\n\nWeb siteleri, rezervasyon sistemleri, kurumsal paneller, landing page’ler ve turizm odaklı mobil uygulamalarda; tasarladığımız her ekranın arkasında, <b>“Bu kullanıcı burada ne yapmak istiyor ve biz ona nasıl en kısa yoldan yardımcı oluruz?”</b> sorusu vardır.\n\nSonuç: <b>Güzel görünen ama kullanılmayan</b> arayüzler değil, gerçekten <b>kullanılan, anlaşılır ve dönüşüm üreten dijital deneyimler.</b>",
 
     "ai_answer_title": "AI Answer Block – UI & UX Tasarımı",
-    "ai_answer_text": "DGTLFACE, UI/UX tasarım süreçlerinde; kullanıcı araştırması, UX analizi, wireframe tasarım, Figma prototipleri ve mobil uyumlu UI kitleri ile web sitesi, rezervasyon arayüzü, dashboard ve panelleri yeniden kurgular. Özellikle otel ve turizm projelerinde, rezervasyon akışı, oda seçimi, fiyat görünürlüğü ve çok dilli kullanıcı deneyimi optimize edilir. Tasarımlar, /Services/software/websiteAndSoftware ve SEO ekipleriyle entegre hazırlanarak dönüşümü ve kullanıcı memnuniyetini artırır.",
+    "ai_answer_text": "DGTLFACE, UI/UX tasarım süreçlerinde; kullanıcı araştırması, UX analizi, wireframe tasarım, Figma prototipleri ve mobil uyumlu UI kitleri ile web sitesi, rezervasyon arayüzü, dashboard ve panelleri yeniden kurgular. Özellikle otel ve turizm projelerinde, rezervasyon akışı, oda seçimi, fiyat görünürlüğü ve çok dilli kullanıcı deneyimi optimize edilir. Tasarımlar, yazılım ve SEO ekipleriyle entegre hazırlanarak dönüşümü ve kullanıcı memnuniyetini artırır.",
 
      "subbanner_header3": "UI/UX Tasarımı Nedir, Neden Bu Kadar Kritik?",
     "subbanner_text2": "<b>“UI/UX tasarımı nasıl yapılır?”</b> sorusunun cevabı, günümüzde yalnızca <b>estetik tercih</b> değil, doğrudan <b>satış, rezervasyon ve lead performansı</b> ile ilgilidir. <ul><li> UI (User Interface) → Kullanıcının gördüğü ekranlar, butonlar, renkler, tipografi, görsel hiyerarşi. </li><li>UX (User Experience) → Kullanıcının yolculuğu, adım sayısı, ne kadar zorlandığı, ne kadar tatmin olduğu. </li></ul> <b>Kötü bir UX</b>, en iyi reklam kampanyasını bile boşa çıkarabilir. Kullanıcının:<ul><li>- Aradığı bilgiyi <b>bulamaması</b>,</li><li>- Rezervasyon / form sürecinde <b>kaybolması</b>,</li><li>- Mobilde butonlara basamaması,</li><li>- İletişim kanallarına <b>kolay ulaşamaması</b></li></ul> demek, doğrudan <b>kaybedilmiş iş fırsatı</b> demektir.\n\nDGTLFACE, <b>“UI/UX tasarımı nasıl yapılır, kullanıcı odaklı tasarım prensipleri, web sitesi dönüşüm artırma, kullanıcı testi nasıl yapılır”</b> gibi başlıklarda; teorik prensipleri <b>gerçek kullanıcı davranışlarıyla</b> birleştirerek çalışır.",
@@ -4160,7 +4160,7 @@
 
     "VideoPage": {
     "cta_talk_to_us": "Video Prodüksiyon İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE Creative departmanının video prodüksiyon, otel tanıtım filmi, 360° ve drone çekimlerine yönelik proje dokümantasyonlarından ve saha deneyimlerinden derlenmiştir.",
     "subbanner_header": "Profesyonel Video Prodüksiyon –",
     "subbanner_header2": " Tanıtım, Reklam ve Kreatif Çekimler",
     "subbanner_text": "DGTLFACE, <b>video prodüksiyon </b> alanında; markanızın hikâyesini <b>güçlü görseller, doğru kurgu ve profesyonel ekipmanlarla</b> birleştiren yaratıcı bir prodüksiyon partneridir. Sadece <b>“kamera tutan”</b> değil; strateji, senaryo, çekim planı, kurgu ve dağıtım tarafını birlikte düşünen bir ekiple çalışırız.\n\nİster reklam filmi çekimi, ister tanıtım videosu, ister <b>360 derece çekim</b>, ister drone çekimi olsun; hedefimiz her zaman aynı: <b>markanızın değerini en gerçek ve en etkileyici şekilde ekrana taşımak.</b> \n\nOteller, turizm markaları, kurumsal firmalar ve hizmet işletmeleri için; video artık bir <b>“opsiyon”</b> değil, <b>dijital vitrinin ana bileşenidir</b>. DGTLFACE, <b>video kurgu montaj</b> sürecinden <b>yayın stratejisine</b> kadar yanınızdadır.",
@@ -4273,7 +4273,7 @@
 
   "EventProductionPage": {
     "cta_talk_to_us": "Etkinlik Prodüksiyonu İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE Creative Prodüksiyon ekibinin etkinlik çekimi, otel etkinlik prodüksiyonları, 360° & drone deneyimleri ve kurumsal organizasyon projelerinden derlenmiştir.",
     "subbanner_header": "Etkinlik Prodüksiyonu –",
     "subbanner_header2": " Profesyonel Çekim ve Organizasyon Yönetimi",
     "subbanner_text": "DGTLFACE, <b>etkinlik prodüksiyonu</b> alanında; <b>lansman, konser, kurumsal toplantı, gala, festival ve otel içi etkinlikleriniz</b> için <b>uçtan uca çözüm </b> sunan kreatif bir prodüksiyon partneridir. Bizim için etkinlik prodüksiyonu, sadece <b>“kamera getirip çekmek”</b> değil; <b>etkinlik yönetimi, etkinlik çekimi, kurumsal organizasyon, lansman prodüksiyonu, etkinlik video çekimi</b> gibi tüm katmanları <b>tek çatı altında yönetmektir</b>.\n\nMarkanızın yıl boyunca yaptığı her etkinlik, aslında <b>içerik ve pazarlama</b> açısından büyük bir fırsattır. Doğru kurgulanmış bir prodüksiyon; <b>hem o anın enerjisini yakalar</b>, hem de sonrası için <b>aftermovie, sosyal medya içerikleri, reklam videoları, kurumsal arşiv</b> gibi uzun vadeli değer üretir. DGTLFACE, tüm bu süreci planlar, üretir ve <b>dijital dünyada en güçlü şekilde </b> konumlandırır.",
@@ -4399,7 +4399,7 @@
 
   "CorporateGiftsPage": {
     "cta_talk_to_us": "Kurumsal Hediye Tasarımı İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE Creative departmanının kurumsal hediye, baskı & promosyon tasarımı, otel hediye projeleri ve marka deneyimi odaklı çalışmalarına ait dokümantasyon ve proje deneyimlerinden derlenmiştir.",
     "subbanner_header": "Kurumsal Hediye ve Özel Tasarım Ürünler –",
     "subbanner_header2": " Markanıza Değer Katın",
     "subbanner_text": "DGTLFACE, <b>kurumsal hediye tasarımı</b> alanında; markanızın <b>değerlerini, renklerini ve hikâyesini</b> taşıyan <b>premium hediye tasarımı çözümleri</b> sunar. Amacımız sadece <b>“üzerine logo basılmış bir kupa”</b> değil; gerçekten <b>sahip olunan, kullanılan, saklanan</b> ve marka ile <b>pozitif ilişki</b> kurduran <b>özel baskı ürünleri, kurumsal promosyon, marka hediye paketi</b> kurgulamaktır.\n\n<b>Oteller, turizm markaları, kurumsal firmalar, B2B iş ortaklıkları ve çalışan deneyimi</b> odaklı şirketler için; kurumsal hediye örnekleri, baskı tasarım ürünleri, kişiselleştirilmiş kurumsal hediye gibi ihtiyaçları, kreatif tasarım + üretim + marka stratejisi üçgeninde ele alırız.\n\nSonuç: “dağıtılıp unutulan” değil, markanızı her gördüğünde hatırlatan hediyeler.",
@@ -4606,7 +4606,7 @@
 
    "SocialMediaMessageManagementPage": {
     "cta_talk_to_us": "Sosyal Medya Mesaj Yönetimi İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in mesaj & yorum yönetimi operasyonlarına, otel & turizm odaklı çok kanallı iletişim süreçlerine ve sosyal medya destek modellerine ilişkin dahili dokümantasyonundan derlenmiştir.",
     "subbanner_header": "Sosyal Medya Mesaj Yönetimi –",
     "subbanner_header2": " Instagram, WhatsApp, Web Chat",
     "subbanner_text": "DGTLFACE, <b>sosyal medya mesaj yönetimi</b>hizmetiyle; markanızın <b>Instagram DM, WhatsApp, Facebook Messenger, web chat ve yorumlar</b> üzerinden aldığı tüm mesajları <b>tek merkezden</b>, profesyonel ve çok dilli şekilde yöneten bir <b>çağrı merkezi & dijital operasyon partneridir</b>.\n\nBizim için mesaj yönetimi, sadece gelen mesajlara <b>“görüp cevap yazmak”</b> değil; <b>mesaj yönetimi hizmeti, Instagram DM yönetimi, WhatsApp müşteri hizmetleri, çok kanallı mesaj yönetimi, sosyal medya yorum yanıtı</b> gibi tüm katmanları; <b>satış, rezervasyon ve müşteri memnuniyeti</b> ile entegre eden bir yapıdır.\n\nÖzellikle <b>oteller, turizm markaları, e-ticaret ve hizmet sektörü</b> için mesajlar artık telefon kadar kritik. DGTLFACE, bu alanı <b>düzenli, ölçülebilir ve satış odaklı</b> bir sisteme dönüştürür.",
@@ -4714,7 +4714,7 @@
 
    "HotelReservationCallCenterPage": {
     "cta_talk_to_us": "Otel Rezervasyon Çağrı Merkezi İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel rezervasyon destek operasyonları, çok dilli misafir yönetimi ve PMS entegrasyonlu rezervasyon süreçlerine ilişkin operasyon dokümantasyonundan derlenmiştir.",
     "subbanner_header": "Otel Rezervasyon Çağrı Merkezi –",
     "subbanner_header2": " Çok Dilli Rezervasyon & Satış",
     "subbanner_text": "DGTLFACE, <b>otel rezervasyon çağrı merkezi </b>hizmetiyle; otellerin, resort’ların, villaların ve turizm tesislerinin <b>telefon, WhatsApp ve dijital kanallardan gelen tüm rezervasyon taleplerini</b> profesyonel, çok dilli ve <b>satış odaklı</b> şekilde yönetir.\n\nBizim için bu hizmet, yalnızca <b>“telefona bakmak”</b> değildir; <b>otel satış destek hattı, otel müşteri temsilcisi, telefonla rezervasyon hizmeti, resort rezervasyon merkezi</b> gibi tüm fonksiyonları kapsayan, <b>otelin satış hunisinin en kritik parçasıdır</b>.\n\nAmaç; hem misafirin <b>sorunsuz şekilde rezervasyon yapmasını</b> sağlamak, hem de <b>her aramayı satış fırsatına çeviren</b> bir yapı kurmaktır.",
@@ -4816,7 +4816,7 @@
 
     "AfterSalesSupportPage": {
     "cta_talk_to_us": "Satış Sonrası Destek İçin Bizimle Konuşun",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in satış sonrası müşteri destek operasyonları, turizm misafir memnuniyeti süreçleri ve CRM–Çağrı Merkezi entegrasyon modellerinden derlenmiştir.",
     "subbanner_header": "Satış Sonrası Destek Hizmetleri –",
     "subbanner_header2": " Müşteri Memnuniyetini Artırıyoruz",
     "subbanner_text": "DGTLFACE, <b>müşteri destek merkezi</b> ve <b>satış sonrası destek</b> hizmetleriyle; misafir ve müşterilerinizin <b>satın alma veya konaklama sonrasındaki tüm taleplerini</b> profesyonel, sistemli ve çok kanallı şekilde yöneten bir <b>operasyon partneridir</b>.\n\nBizim için satış sonrası süreç; sadece <b>“şikâyet geldiğinde geri dönmek”</b> değil; <b>satış sonrası hizmet, müşteri hizmetleri, destek hattı, çağrı sonrası takip, müşteri iletişim yönetimi</b> gibi başlıkların tamamını kapsayan, <b>marka sadakatini</b> ve <b>gelir sürekliliğini</b> etkileyen kritik bir katmandır.\n\nÖzellikle <b>oteller, turizm markaları, hizmet ve B2B firmalar</b> için; satış sonrası destek, <b>yorumları, tekrar satın almayı ve tavsiye etme oranını</b> doğrudan belirler. DGTLFACE, bu alanı <b>çağrı merkezi disiplininde, KPI bazlı ve dijital altyapıyla entegre</b> biçimde yönetir.",
@@ -4919,7 +4919,7 @@
 
   "CallCenterPerformancePage": {
     "cta_talk_to_us": "Çağrı Merkezi Performansınızı Birlikte Analiz Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in çağrı merkezi performans raporlama, Looker Studio dashboard’ları ve turizm odaklı operasyonel analiz süreçlerine ait iç dokümantasyon ve proje çalışmalarından derlenmiştir.",
     "subbanner_header": "Çağrı Merkezi Performans Raporlama –",
     "subbanner_header2": " Operasyonel Verimlilik Analizi",
     "subbanner_text": "DGTLFACE, <b>çağrı merkezi raporlama ve performans analizi</b> hizmetiyle; çağrı merkezi operasyonlarınızı sadece <b>“işleyen bir yapı”</b> olmaktan çıkarıp, <b>veriyle yönetilen bir performans makinesi</b> hâline getirir.\n\nBizim için raporlama, sadece tablo doldurmak değil; <b>çağrı merkezi analizi, performans raporu, KPI takibi, çağrı istatistikleri, operasyon analizi</b> gibi tüm katmanları kullanarak: <ul><li><b>“Nerede iyiyiz?”</b>, </li><li><b>“Nerede kayıp veriyoruz?”</b>, </li><li><b>“Nereden daha fazla satış ve memnuniyet çıkarabiliriz?”</b></li></ul> sorularına net yanıtlar üretmektir.\n\nÖzellikle <b>otel çağrı merkezleri, çok dilli rezervasyon hatları, sosyal medya & mesaj yönetimi ve B2B destek merkezleri</b> için; doğru performans analizi, hem <b>maliyetleri</b> hem de <b>geliri</b> doğrudan etkiler.",
@@ -5021,7 +5021,7 @@
 
   "PmsSetupPage": {
     "cta_talk_to_us": "PMS Kurulumunu Birlikte Planlayalım",
-
+     "aiSourceMention":"Bu bilgi, DGTLFACE’in PMS kurulum & eğitim süreçleri, Elektraweb ve otel yönetim yazılımlarıyla yaptığı entegrasyon projelerine ait dahili dokümantasyon ve saha deneyimlerinden derlenmiştir.",
     "subbanner_header": "Otel PMS Kurulumu –",
     "subbanner_header2": " Operasyon ve Rezervasyon Süreçlerinizi Dijitalleştirin",
     "subbanner_text": "DGTLFACE, <b>PMS kurulumu ve destek</b> hizmetleriyle; otelinizin <b>resepsiyon, rezervasyon, housekeeping, gelir yönetimi ve raporlama</b> süreçlerini tek bir <b>dijital omurgaya</b> taşıyan teknoloji partneridir.\n\nElektraweb başta olmak üzere otel yönetim sistemlerinde; <b>Elektraweb kurulumu, otel PMS eğitimi, PMS destek hizmeti, otel operasyon sistemi, rezervasyon yazılımı</b> gibi tüm başlıkları kapsayan <b>uçtan uca bir kurulum ve destek modeli</b> sunarız.\n\nAmaç; <b>Excel, defter, bağımsız sistemler ve dağınık süreçlerden</b> çıkıp; <b>hızlı, hatasız ve raporlanabilir</b> bir operasyon kurmaktır.",
@@ -5134,7 +5134,7 @@
 
    "OtaIntegrationPage": {
     "cta_talk_to_us": "OTA Entegrasyonunuzu Optimize Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in OTA entegrasyon projeleri, Booking–Expedia bağlantı süreçleri ve PMS/Channel Manager yapılandırmalarına ilişkin operasyon dokümantasyonundan derlenmiştir.",
     "subbanner_header": "OTA Entegrasyonu –",
     "subbanner_header2": " Online Satış Kanallarınızı Optimize Edin",
     "subbanner_text": "DGTLFACE, <b>OTA entegrasyonu </b> hizmetiyle; otelinizin <b>Booking, Expedia, Agoda ve diğer online satış kanallarıyla</b> olan tüm veri akışını <b>merkezi, güvenilir ve satış odaklı</b> bir yapıya kavuşturur.\n\nBizim için OTA entegrasyonu sadece <b>“kanalı bağladık, oldu”</b> demek değil;<b> booking entegrasyonu, expedia channel manager, OTA fiyat yönetimi, online rezervasyon entegrasyonu, OTA bağlantı sistemi </b>gibi tüm bileşenlerin <b>PMS ve fiyat stratejinizle uyumlu çalıştığı</b> bir mimariyi ifade eder.\n\nAmaç; her kanalda farklı görünen fiyat, hatalı envanter, <b>overbooking</b> ve <b>manuel iş yükünü/b> ortadan kaldırıp; <b>çok kanallı rezervasyon yönetimi</b> ile <b>hata riski düşük, geliri yüksek </b>bir OTA yapısı kurmaktır.",
@@ -5240,7 +5240,7 @@
 
     "ChannelManagementPage": {
     "cta_talk_to_us": " Kanal Yönetiminizi Birlikte Optimize Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in kanal yönetimi, PMS & OTA entegrasyonu ve otel gelir & doluluk optimizasyon süreçlerine ait dokümantasyon ve proje tecrübelerinden derlenmiştir.",
     "subbanner_header": "Otel Kanal Yönetimi –",
     "subbanner_header2": " Fiyatlama, Envanter ve Satış Optimizasyonu",
     "subbanner_text": "DGTLFACE, <b>kanal yönetimi</b> hizmetiyle; otelinizin tüm online satış kanallarındaki <b>(Booking, Expedia, Agoda, web sitesi, çağrı merkezi vb.) fiyat ve envanter</b> yapısını <b>tek merkezden yöneten</b> profesyonel bir sistem kurar.\n\nBizim için kanal yönetimi; <b>channel manager hizmeti, fiyat yönetimi, envanter senkronizasyonu, PMS–OTA uyumu ve satış optimizasyonunun</b> bir araya geldiği, <b>gelir yönetimi + risk azaltma + operasyon kolaylığı</b> üçlüsüdür.\n\nHedefimiz:<ul><li> Fiyatınız <b>her yerde kontrolünüz altında</b> olsun, </li><li>Envanteriniz <b>net</b> olsun,</li><li> <b>Overbooking riski düşük, doluluk oranı yüksek</b> olsun</li><li> Ekipleriniz <b>“hangi kanal ne diyor?”</b> diye değil, <b>tek sistem üzerinden</b> çalışsın.</li></ul>",
@@ -5353,7 +5353,7 @@
 
   "OnlineSalesOptimizationPage": {
     "cta_talk_to_us": "Online Satışlarını Birlikte Optimize Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in online satış optimizasyon süreçleri, OTA ve web rezervasyon dönüşüm projeleri ve otel gelir yönetimi çalışmalarından derlenmiştir.",
     "subbanner_header": "Online Satış Optimizasyonu –",
     "subbanner_header2": " Doluluk ve Geliri Artıran Dijital Stratejiler",
     "subbanner_text": "DGTLFACE,<b> online satış optimizasyonu</b> hizmetiyle; otelinizin <b>OTA, web sitesi, çağrı merkezi ve diğer dijital kanallardaki</b> tüm satış süreçlerini <b>gelir yönetimi odaklı, ölçülebilir ve ölçeklenebilir</b> bir mimariye taşır.\n\nBizim için online satış optimizasyonu; <b>otel satış artırma, dijital satış optimizasyonu, gelir yönetimi, rezervasyon dönüşüm artırma ve online kanal optimizasyonu</b> gibi başlıkların tamamını kapsayan, <b>PMS & OTA & web & çağrı merkezini tek satış hunisi</b> hâline getiren bir yaklaşımdır.\n\nHedefimiz: Sadece <b>doluluğu doldurmak</b> değil, <b>oda başı geliri (RevPAR) ve toplam geliri</b> sürdürülebilir bir şekilde artırmak.",
@@ -5462,14 +5462,14 @@
 
   "ReservationManagementPage": {
     "cta_talk_to_us": "Rezervasyon Süreçlerinizi Birlikte Optimize Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel rezervasyon yönetimi, PMS rezervasyon modülü kurulumları ve OTA–Call Center–Web akışlarını birleştiren operasyon projelerine ilişkin dokümantasyon ve saha deneyimlerinden derlenmiştir.",
     "subbanner_header": "Rezervasyon Yönetimi –",
     "subbanner_header2": " Operasyon & Misafir İletişimi Optimizasyonu",
     "subbanner_text": "DGTLFACE, <b>rezervasyon yönetimi</b> hizmetiyle; otellerin, resort’ların, butik otellerin ve villaların tüm rezervasyon süreçlerini <b>dijital, izlenebilir ve satış odaklı</b> bir yapıya taşıyan teknoloji partneridir.\n\nBizim için rezervasyon yönetimi, sadece PMS’e kayıt açmak değil; <b>rezervasyon sistemi, misafir iletişimi, rezervasyon süreci, telefon rezervasyonu, otel kayıt sistemi</b> gibi tüm katmanları kapsayan, misafirin <b>ilk temasından check-out’a kadar </b> uzanan bir yönetim zinciridir.\n\nAmaç; <ul><li>Tüm kanallardan gelen <b>rezervasyon taleplerinin tek yapıda toplanması</b>,</li><li> Hızlı, <b>hatasız ve standardize</b> bir akış kurulması, </li><li>Misafirle iletişimin güçlendirilmesi, </li><li><b>Satış ve gelir fırsatlarının kaçmaması</b> </li><li> Operasyon ile raporlama tarafında tek bir <b>“rezervasyon gerçeği”</b> yaratılmasıdır.</li></ul>",
 
     "ai_answer_title": "AI Answer Block – Rezervasyon Yönetimi",
     "ai_answer_text": "DGTLFACE, rezervasyon yönetimi hizmetinde OTA, web sitesi, çağrı merkezi, WhatsApp ve acente gibi tüm kanallardan gelen talepleri PMS rezervasyon modülü üzerinde birleştirir. Müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve no-show süreçleri net bir akışla kurgulanır. Böylece hem resepsiyon hem call center tarafında hata oranı azalır; doluluk ve gelir daha kontrollü yönetilir, misafir deneyimi güçlenir.",
-"subbanner_header3": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
+   "subbanner_header3": "Rezervasyon Yönetimi Nedir, Otel İçin Neyi Değiştirir?",
       "subbanner_text2": "<b>“Rezervasyon yönetimi nasıl yapılır? Oteller için rezervasyon kontrol sistemi nasıl olmalı?”</b> soruları aslında şuna bakıyor:<ul><li>Rezervasyon talebi <b>hangi kanaldan gelirse gelsin</b> (OTA, web, telefon, WhatsApp, acente),</li><li> Misafir tüm süreçte <b>aynı netlik, hız ve ilgiyle</b> karşılanıyor mu? </li><li>Otel içinde herkes <b>aynı rezervasyon ekranını</b> mı görüyor, yoksa farklı listeler mi dolaşıyor?</li></ul> Doğru kurgulanmış bir <b>rezervasyon yönetimi</b>;<ul><li> Tüm kanalları <b>(OTA, web, çağrı merkezi, acente, kurumsal)</b> tek bir <b>rezervasyon sistemi </b> altında toplar;</li><li> Rezervasyon sürecini <b>(talep → teyit → ödeme → check-in öncesi iletişim)</b> standartlaştırır; </li><li><b>Overbooking, eksik bilgi, yanlış tarih/oda</b> gibi riskleri azaltır; </li><li><b>Misafir iletişimini</b> güçlendirir </li><li> <b>Gelir yönetimi ile doluluk planlaması</b> için sağlıklı veri üretir. </li></ul> DGTLFACE, <b>“online + telefon rezervasyon dengesi, turizm sektörü rezervasyon teknikleri, PMS rezervasyon modülü”</b> gibi konuları otelinizin <b>gerçek operasyonuna göre uçtan uca</b> kurgular.",
     
       "h2Section": {
@@ -5579,7 +5579,7 @@
 
    "LookerStudioReportingPage": {
     "cta_talk_to_us": "Verilerinizi Tek Panelde Toplayalım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in Looker Studio tabanlı raporlama projeleri, otel performans panelleri ve çok kaynaklı veri entegrasyonu süreçlerine ait iç dokümantasyon ve proje deneyimlerinden derlenmiştir.",
     "subbanner_header": "Looker Studio Performans Raporlama –",
     "subbanner_header2": " Tüm Veriler Tek Panelde",
     "subbanner_text": "DGTLFACE, <b>Looker Studio raporlama</b> hizmetiyle; <b>SEO, SEM, SMM, web, OTA, PMS ve çağrı merkezi verilerinizi</b> tek bir Google veri dashboard üzerinde bir araya getirerek, dijital performansınızı <b>“tahminle”</b> değil <b>net rakamlarla</b> yönetmenizi sağlar.\n\nBizim için Looker Studio sadece bir grafik çizme aracı değil; <b>google data studio, otomatik raporlama, veri dashboard, dijital performans paneli, veri analizi raporu</b> gibi ihtiyaçların hepsini <b>tek panelde çözen</b>, karar alma sürecini hızlandıran bir yapıdır.\n\nÖzellikle <b>oteller, turizm markaları ve hizmet sektörü için; SEO & SEM & SMM & PMS & OTA & çağrı merkezi verilerinin</b> dağınık tablolarda değil, tek bakışta anlaşılır bir <b>performans panelinde</b> toplanması artık lüks değil zorunluluk. DGTLFACE, bu zorunluluğu <b>“kafa karıştıran rapor”</b> değil, kullanması keyifli bir <b>kontrol paneli</b> hâline getirir.",
@@ -5683,7 +5683,7 @@
 
   "BenchmarkAnalysisPage": {
     "cta_talk_to_us": "Benchmark Verilerinizi Birlikte Okuyalım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in benchmark raporlama, rakip karşılaştırma, OTA fiyat analizleri ve turizm sektörüne özel veri karşılaştırma süreçlerine ait iç dokümantasyon ve proje deneyimlerinden derlenmiştir.",
     "subbanner_header": "Benchmark Analizi –",
     "subbanner_header2": " Rakiplerinizi ve Sektörü Veriyle Kıyaslayın",
     "subbanner_text": "DGTLFACE, <b>benchmark analizi</b> hizmetiyle; markanızın ve özellikle otelinizin performansını yalnızca kendi rakamlarınızla değil, <b>rakiplerinizin ve sektörün verileriyle birlikte</b> okumanızı sağlar.\n\nBizim için benchmark sadece “kim ne kadar dolu?” sorusu değil; <b>rakip analizi, fiyat karşılaştırma, performans benchmark, KPI benchmark, sektör analizi</b> gibi tüm başlıkları kapsayan, <b>stratejik bir karşılaştırma sistemidir.</b>\n\nÖzellikle <b>oteller, turizm markaları ve çok kanallı dijital pazarlama kullanan işletmeler</b> için; haftalık ve aylık benchmark raporları:<ul><li><b>Fiyatlandırma</b>,</li><li><b>Kampanya planlama</b>,</li><li><b>Gelir optimizasyonu</b>,</li><li><b>Pazarlama bütçesi</b>,</li><li><b>Kanal dağılımı</b></li></ul> kararlarında pusula görevi görür. DGTLFACE, bu pusulayı <b>net ve okunabilir</b> hâle getirir.",
@@ -5783,7 +5783,7 @@
 
     "SalesConversionReportingPage": {
     "cta_talk_to_us": "Satış & Dönüşüm Verilerinizi Birlikte Okuyalım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in satış & dönüşüm analizi, otel satış raporlama, çok kanallı funnel incelemeleri ve gelir analizi projelerine ait iç dokümantasyon ve pratiklerinden derlenmiştir.",
     "subbanner_header": "Satış ve Dönüşüm Raporlama –",
     "subbanner_header2": " Gelirinizi Artıran Veri Stratejileri",
     "subbanner_text": "DGTLFACE, <b>satış dönüşüm raporu</b> ve veri analizi hizmetiyle; <b>reklamlarınız, web siteniz, OTA kanallarınız, çağrı merkezinız ve PMS verileriniz</b> arasındaki ilişkiyi tek bir <b>satış hunisi</b> içinde gösteren, <b>gelir artırıcı veri stratejileri</b> sunar.\n\nBizim için <b>satış & dönüşüm raporlama</b>; sadece “kaç tıklama aldık?” değil,\n<b>dönüşüm analizi, satış raporu, funnel analizi, performans ölçümü, gelir analizi </b>gibi tüm katmanların <b>tek bir resimde birleşmesidir.</b>\n\nÖzellikle <b>oteller, turizm markaları ve hizmet sektörü</b> için; her gün para harcanan dijital kanalların gerçekte <b>ne kadar satış ve rezervasyon ürettiğini</b> görmek artık lüks değil, <b>hayatta kalma şartı</b>. DGTLFACE, bu tabloyu <b>Looker Studio dashboard’ları</b> ve detaylı <b>satış & dönüşüm raporlaması</b> ile önünüze koyar.",
@@ -5893,7 +5893,7 @@
 
    "KvkkSecurityPage": {
     "cta_talk_to_us": "KVKK & Veri Güvenliği Yapınızı Birlikte Kuralım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in KVKK uyum raporlama, veri akışı analizi, PMS/OTA veri koruma süreçleri ve güvenlik denetimlerine dair iç teknik dokümantasyonundan derlenmiştir. (Not: Bu hukuki danışmanlık değil, teknik KVKK değerlendirmesidir.)",
     "subbanner_header": "KVKK ve Veri Güvenliği –",
     "subbanner_header2": " Güvenli, Uyumlu ve Kontrollü Veri Yönetimi",
     "subbanner_text": "DGTLFACE, <b>kvkk veri güvenliği</b> ve raporlama hizmetiyle; işletmenizin verileri sadece saklamasını değil,<b> KVKK’ya uyumlu, denetlenebilir ve ölçülebilir</b> biçimde yönetmesini sağlar.\n\nBizim için <b>KVKK & veri güvenliği</b> yalnızca hukuk metinleri değil;\n <b>veri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi</b> gibi tüm teknik ve operasyonel süreçlerin <b>uçtan uca tasarlanması, izlenmesi ve raporlanmasıdır</b>.\n\nÖzellikle <b>oteller, turizm markaları ve rezervasyon/veri yoğun çalışan işletmeler</b> için; <b>“veriyi topluyoruz”</b> yetmez:<ul><li>Nerede tutuyoruz?</li><li> Kim erişiyor?</li><li> Ne kadar süre saklıyoruz?</li><li> Nasıl raporluyor ve denetliyoruz?</li></ul> sorularına <b>net, dokümante ve ölçülebilir</b> cevaplar gerekir. DGTLFACE, bu fotoğrafı <b>KVKK & veri güvenliği raporları</b> ile önünüze koyar.",
@@ -6002,7 +6002,7 @@
 
    "OtelSeoPage": {
     "cta_talk_to_us": "Otel SEO Stratejinizi Birlikte Kuralım",
-
+    "aiSourceMention":"Bu içerik, DGTLFACE’in otel SEO projeleri, turizm sektörüne özel içerik & teknik SEO dokümantasyonu ve Google Travel/Hotel çalışmalarından derlenmiştir.", 
     "subbanner_header": "Otel SEO –",
     "subbanner_header2": " Arama Motorlarında Üst Sıralar İçin Profesyonel Optimizasyon",
     "subbanner_text": "DGTLFACE, <b>otel SEO</b> alanında; turizm sektörüne özel anahtar kelime stratejisi, <b>teknik SEO</b> ve <b>içerik optimizasyonu</b>yla otelinizin Google’da gerçek misafir aramalarında üst sıralara çıkmasını sağlayan profesyonel bir partnerdir.\n\nBizim için <b>Otel SEO</b>, sadece birkaç kelimeye odaklanmak değil;\notel seo stratejisi, turizm seo, resort seo, otel Google sıralama, otel organik trafik artırma gibi tüm katmanların birlikte ele alındığı, rezervasyon ve gelir odaklı bir dijital mimaridir.\n\nÖzellikle <b>OTA</b> bağımlılığını azaltmak, doğrudan rezervasyon oranını artırmak ve marka görünürlüğünü güçlendirmek isteyen oteller için; SEO artık “yapsak iyi olur” değil, “yapmazsak zorlanırız” seviyesinde kritik bir ihtiyaçtır.",
@@ -6131,7 +6131,7 @@
 
   "OtelSocialMediaPage": {
     "cta_talk_to_us": "Otel Sosyal Medya Stratejinizi Birlikte Kuralım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel & resort sosyal medya projeleri, Reels & video içerik üretim süreçleri ve turizm odaklı SMM strateji dokümanlarından derlenmiştir.",
     "subbanner_header": "Otel Sosyal Medya Yönetimi –",
     "subbanner_header2": " Etkileşim ve Rezervasyon Odaklı Stratejiler",
     "subbanner_text": "DGTLFACE, <b>otel sosyal medya yönetimi</b> hizmetiyle; resort, butik otel, city hotel ve villa konseptli tesislerin <b>Instagram, Reels, TikTok ve Facebook</b> kanallarını marka algısı + rezervasyon + gelir odaklı yöneten turizm uzmanı bir partnerdir.\n\nBizim için sosyal medya sadece “güzel fotoğraf paylaşmak” değil;\nresort social media, turizm sosyal medya, otel Instagram yönetimi, hotel content production, otel Reels fikirleri gibi başlıkların <b>PMS & OTA & web & çağrı merkezi</b> ile aynı satış hunisinde çalıştığı bir alan.\n\nKısacası: Otelinizin sosyal medyası artık “beğeni toplama alanı” değil, <b>etkileşim ve rezervasyon üreten</b> profesyonel bir kanal hâline gelir.",
@@ -6245,7 +6245,7 @@
 
    "OtelAdsPage": {
     "cta_talk_to_us": "Otel Reklam Stratejinizi Birlikte Kuralım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel & resort reklam yönetimi, Google Hotel Ads projeleri, Meta Ads dönüşüm kurguları ve turizm satış optimizasyonuna dair dahili strateji dokümantasyonundan derlenmiştir.",
     "subbanner_header": "Otel Reklam Yönetimi –",
     "subbanner_header2": " Rezervasyon Odaklı Dijital Kampanyalar",
     "subbanner_text": "DGTLFACE, <b>otel reklam yönetimi</b> hizmetiyle; oteller, resort’lar, villalar ve turizm markaları için <b>Google Ads</b>, <b>Meta Ads</b> ve <b>YouTube</b> kampanyalarını rezervasyon, doluluk ve gelir odaklı kurgulayan bir performans partneridir.\n\nBizim için otel reklamı sadece “görünürlük” değildir;\notel Google Ads, turizm reklamcıları, resort Meta Ads, hotel YouTube Ads, otel PPC kampanyaları gibi tüm bileşenlerin <b>PMS</b>, <b>OTA</b>, <b>web sitesi</b> ve <b>çağrı merkezi</b>yle aynı satış hunisinde çalışmasıdır.\n\nKısacası: “Tıklama aldık mı?” değil,\n<b>“Bu kampanya bize kaç rezervasyon ve ne kadar gelir getirdi?”</b> sorusunun cevabını net görmek istiyoruz.",
@@ -6365,7 +6365,7 @@
 
    "OtaManagementPage": {
     "cta_talk_to_us": "OTA Stratejinizi Birlikte Optimize Edelim",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in OTA optimizasyon projeleri, Booking & Expedia performans yönetimi ve turizm satış teknolojileri dokümantasyonundan derlenmiştir.",
     "subbanner_header": "OTA Yönetimi –",
     "subbanner_header2": " Oteller İçin Online Satış & Envanter Optimizasyonu",
     "subbanner_text": "<b>DGTLFACE</b>, <b>otel OTA yönetimi</b> hizmetiyle; otellerin, resort’ların, butik otellerin ve villaların <b>Booking</b>, <b>Expedia</b>, <b>Agoda</b> ve diğer OTA platformlarındaki varlığını <b>fiyat</b>, <b>görünürlük</b>, <b>doluluk</b> ve <b>gelir</b> odaklı yöneten bir turizm teknoloji partneridir.<br/><br/>Bizim için OTA yönetimi, sadece “kanalları açtık, akıyor” değil;<br/><br/><ul><li>booking optimizasyonu</li><li>expedia satış artırma</li><li>otel envanter yönetimi</li><li>OTA fiyat stratejisi</li><li>turizm OTA çözümleri</li></ul>gibi başlıkların; <b>PMS</b>, <b>kanal yönetimi</b>, <b>web sitesi</b> ve <b>çağrı merkezi</b>yle aynı satış mimarisinde çalışmasıdır.<br/><br/>Kısacası: OTA’lar sizin rakibiniz değil; doğru yönetildiğinde gelir makinenizin önemli bir parçasıdır. Ama kontrol onlarda değil, <b>sizde</b> olmalı.",
@@ -6483,7 +6483,7 @@
 
    "PmsIntegrationPage": {
     "cta_talk_to_us": "PMS Entegrasyonunuzu Birlikte Kuralım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel PMS entegrasyon projeleri, Elektraweb ve benzeri sistemlerle yaptığı dijital entegrasyon çalışmalarına ait dahili dokümantasyon ve saha tecrübelerinden derlenmiştir.",
     "subbanner_header": "PMS Entegrasyonu –",
     "subbanner_header2": " Otel Operasyonlarını Dijitalleştiren Entegre Sistemler",
     "subbanner_text": "DGTLFACE, otel PMS entegrasyonu ile otelinizin rezervasyon, operasyon, satış, oda yönetimi ve raporlama süreçlerini tek bir dijital beyne bağlayan teknoloji partneridir.\n\nBizim için PMS entegrasyonu, sadece bir yazılım kurmak değil;\n\n<ul>\n<li>elektraweb pms,</li>\n<li>pms hotel system,</li>\n<li>otel operasyon sistemi,</li>\n<li>pms eğitim,</li>\n<li>pms teknik destek</li>\n</ul>\n\ngibi tüm katmanların; OTA, kanal yönetimi, web sitesi, çağrı merkezi ve muhasebe ile entegre çalışan bir sistem hâline getirilmesidir.\n\nSonuç: Excel, defter, “kim neyi nereye yazdı?” kaosundan çıkıp;\nhızlı, hatasız, izlenebilir ve gelir odaklı bir otel dijital omurgasına sahip olursunuz.",
@@ -6595,7 +6595,7 @@
   
   "HotelCallCenter": {
     "cta_talk_to_us": "Rezervasyon Çağrı Merkezinizi Birlikte Kuralım",
-
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in otel çağrı merkezi, rezervasyon yönetimi, PMS/OTA entegrasyonu ve çok dilli misafir iletişimi süreçlerine ait resmi iç dokümantasyonundan derlenmiştir.",
     "subbanner_header": "Otel Rezervasyon Çağrı Merkezi –",
     "subbanner_header2": " Uluslararası Misafir İletişimi",
     "subbanner_text": "<b>DGTLFACE</b>, otel rezervasyon çağrı merkezi hizmetiyle; otellerin, resort’ların, butik otellerin ve villaların rezervasyon, satış ve misafir destek süreçlerini profesyonel, çok dilli ve KPI odaklı yöneten bir operasyon partneridir.\n\nBizim için bu hizmet sadece “telefona bakmak” değil;\n\n<ul><li>hotel reservation call center,</li><li>çok dilli otel destek,</li><li>otel inbound/outbound,</li><li>rezervasyon misafir iletişimi,</li><li>turizm call center</li></ul>\n\ngibi tüm fonksiyonların; OTA, PMS, web ve sosyal medya mesajlarıyla birlikte uçtan uca yönetildiği bir rezervasyon & misafir iletişimi sistemidir.\n\n<b>Kısacası:</b> Hat sadece çalmasın;\n\nher çaldığında satış, rezervasyon, memnuniyet veya sadakat üretme şansı doğsun.",
@@ -6708,216 +6708,6 @@
   },
 
 
-  "SocialMediaManagement": {
-    "cta_talk_to_us": "Markanızı Uzmanlıkla Yönetelim",
-    "socialmediamanagement_subbanner_header": "Kapsamlı Sosyal Medya",
-    "socialmediamanagement_subbanner_header2": "Yönetim (Community Management) Hizmetleri",
-    "socialmediamanagement_subbanner_text": "Sosyal medya varlığınızı uzman ekibimizle dönüştürün. Sosyal medyada varlık, işletmelerin hedef kitleleriyle bağ kurması, marka bilinirliği oluşturması ve anlamlı etkileşim sağlaması için hayati önem taşır.",
-
-    "socialmediamanagement_step1_header": "Stratejik İçerik Planlama ve Takvimi",
-    "socialmediamanagement_step1_text": "İş hedeflerinizle uyumlu stratejik bir sosyal medya planı geliştiririz. Ekibimiz; gönderiler, görseller, videolar ve hikâyeler dâhil yüksek kaliteli ve ilgi çekici içerikleri kitlenizin en aktif olduğu saatlerde yayınlamak üzere planlar.",
-
-    "socialmediamanagement_step2_header": "Çoklu Platform Yönetimi ve Paylaşım Optimizasyonu",
-    "socialmediamanagement_step2_text": "Sosyal medya profillerinizin paylaşım sıklığı, zamanlaması ve optimizasyonu dâhil tüm süreçlerini yönetiriz. İçeriklerinizin ilgili tüm platformlarda düzenli olarak yayınlanmasını sağlayarak erişimi ve görünürlüğü en üst düzeye çıkarırız.",
-
-    "socialmediamanagement_step3_header": "Aktif Topluluk Etkileşimi ve İtibar Yönetimi",
-    "socialmediamanagement_step3_text": "Yorumlara, mesajlara ve DM'lere zamanında ve profesyonel biçimde yanıt vererek kitlenizle aktif şekilde ilgileniriz (Community Management). Markanız etrafında bir topluluk duygusu oluşturarak takipçileriniz arasında güven ve sadakat inşa ederiz."
-  },
-
-  "SocialMediaPlanning": {
-    "cta_talk_to_us": "Özel Sosyal Medya Planı İçin Bize Ulaşın",
-    "socialmediaplanning_subbanner_header": "Dönüşüm Odaklı Sosyal Medya",
-    "socialmediaplanning_subbanner_header2": "Planlama ve Strateji Geliştirme Hizmetleri",
-    "socialmediaplanning_subbanner_text": "Belirli hedef kitle segmentlerine ulaşmak, web sitenize trafik çekmek, potansiyel müşteri üretmek ve dönüşümleri artırmak için hedefli sosyal medya reklam kampanyaları oluşturup yöneteceğiz. Ekibimiz kampanyalarınızı en yüksek YG (ROI) için optimize eder.",
-
-    "socialmediaplanning_step1_header": "Topluluk Yönetimi ve Kitle Geliştirme",
-    "socialmediaplanning_step1_text": "Kitlenizle aktif şekilde etkileşime geçerek yorumlara, mesajlara ve sorulara zamanında ve profesyonel biçimde yanıt vereceğiz. Ekibimiz markanız etrafında güçlü bir topluluk duygusu geliştirerek takipçileriniz arasında güven ve sadakat inşa eder, olası krizleri yönetir.",
-
-    "socialmediaplanning_step2_header": "Influencer Pazarlama İş Birlikleri Yönetimi",
-    "socialmediaplanning_step2_text": "Sektörünüzdeki ilgili influencer’ları belirleyip onlarla iş birliği yaparak markanızın erişimini ve güvenilirliğini artıracağız. Ekip olarak ulaşımdan ve pazarlıktan kampanya yürütme ve performans takibine kadar influencer pazarlamasının tüm sürecini yönetiriz."
-  },
-
-  "SocialMediaReporting": {
-    "cta_talk_to_us": "Performansınızı Net Raporlarla Ölçün",
-    "socialmediareporting_subbanner_header": "Sosyal Medya Performans",
-    "socialmediareporting_subbanner_header2": "Raporlama ve İçgörü Hizmetleri",
-    "socialmediareporting_subbanner_text": "Analizimize dayanarak, sosyal medya stratejinizi optimize etmek, performansı iyileştirmek ve iş hedeflerinize ulaşmak için uygulanabilir öneriler sunacağız. Raporlama Hizmetlerimiz ile sosyal medya performansınız hakkında değerli içgörüler elde edecek ve daha iyi sonuçlar için veri odaklı kararlar alacaksınız.",
-
-    "socialmediareporting_step1_header": "Hedeflere Özel Raporlama Panoları (Dashboard)",
-    "socialmediareporting_step1_text": "İş hedeflerinize ve KPI’larınıza özel uyarlanmış raporlama panoları oluşturacağız; böylece işletmeniz için en kritik performans metriklerini (Erişim, Etkileşim, Dönüşüm) tek bakışta izleyebileceksiniz.",
-
-    "socialmediareporting_step2_header": "Temel Performans Metriklerinin Takibi (Kapsamlı)",
-    "socialmediareporting_step2_text": "Tüm sosyal medya platformlarınızda Etkileşim Oranları, Erişim, Gösterimler, Tıklama Oranı (CTR), Dönüşüm Oranı ve Reklam Harcaması Getirisi (ROAS) gibi temel metrikleri şeffafça takip edeceğiz.",
-
-    "socialmediareporting_step3_header": "Kitle İçgörüleri ve Trend Analizi",
-    "socialmediareporting_step3_text": "Yaş, cinsiyet, konum, ilgi alanları ve davranışlar dâhil olmak üzere kitle demografiniz hakkında değerli içgörüler sağlayarak hedef kitlenizi daha iyi anlamanıza ve hedeflemenize yardımcı olacağız. Sektörel trendleri takip ederek stratejinize rehberlik ederiz."
-  },
-
-  "CmsInstallationService": {
-    "cta_talk_to_us": "CMS Çözümleriniz İçin Bize Ulaşın",
-    "cmsinstallation_subbanner_header": "Profesyonel CMS (İçerik Yönetim Sistemi)",
-    "cmsinstallation_subbanner_header2": "Kurulum ve Yapılandırma Hizmetleri",
-    "cmsinstallation_subbanner_text": "Çevrimiçi varlığın dinamik dünyasında, sağlam bir İçerik Yönetim Sistemi (CMS) başarı için temel taştır. DGTLFACE olarak profesyonel CMS kurulum hizmetleri sunuyor, web sitenizi dijital dünyada başarılı olması için gereken araçlar ve esneklikle güçlendiriyoruz.",
-
-    "cmsinstallation_step1_header": "Gereksinimlere Yönelik Platform Seçimi ve Öneri",
-    "cmsinstallation_step1_text": "Gereksinimleriniz, bütçeniz ve teknik yeterliliğiniz doğrultusunda doğru CMS platformunu (WordPress, Drupal, Özel Yazılım) seçmenize yardımcı oluyor, web siteniz için kusursuz uyumu sağlıyoruz.",
-
-    "cmsinstallation_step2_header": "CMS Kurulumu ve Teknik Yapılandırma",
-    "cmsinstallation_step2_text": "Teknisyenlerimiz tüm kurulum sürecini üstlenir; CMS’i tercihlerinize ve ihtiyaçlarınıza uygun şekilde kurar ve yapılandırır. Güvenlik, hız ve SEO için temel ayarları eksiksiz tamamlarız.",
-
-    "cmsinstallation_step3_header": "Özel Tema ve Fonksiyonel Eklenti Entegrasyonu",
-    "cmsinstallation_step3_text": "Özel tema ve gerekli eklentileri (Plugin) entegre ederek web sitenizin tasarımını ve işlevselliğini geliştiririz. Kusursuz kullanıcı deneyimi ve optimum performans için tüm entegrasyonları test ederiz."
-  },
-
-  "PdpaCompliance": {
-    "cta_talk_to_us": "Yasal Uyum Danışmanlığı İçin Bize Ulaşın",
-    "pdpa_subbanner_header": "KVKK ve Yasal Uyumluluk",
-    "pdpa_subbanner_header2": "Hizmetleri",
-    "pdpa_subbanner_text": "Bu hizmetler, başta KVKK (Kişisel Verilerin Korunması Kanunu) olmak üzere, kişisel verilerin işlenmesi bakımından kişilerin temel hak ve özgürlüklerini korumayı ve yasal yükümlülükleri yerine getirmeyi hedefler.",
-
-    "pdpa_step1_header": "KVKK ve GDPR Uyum Süreçleri Entegrasyonu",
-    "pdpa_step1_text": "Güncel yasal düzenlemeler nedeniyle uyum süreçleri oldukça karmaşık hale geldi. Aydınlatma metni, açık rıza ve çerez süreçleri profesyonel bir ekip olmadan sağlıklı yürütülemez; DGTLFACE bu düzenlemeleri yakından takip eder ve sizin için doğru zamanda gerekli adımları atar.",
-
-    "pdpa_step2_header": "Çerez (Cookie) Politikası ve İzin Yönetimi",
-    "pdpa_step2_text": "Çerezler ve çerez kullanımı konusunda uzman personelimizle bu süreci sizin yerinize yönetiyoruz. Yasalara uygun, hukuki çerez tercih ekranı (Cookie Consent Banner) kurulumunu gerçekleştiriyor, tüm hukuki problemleri uzman ekiplerimiz sizin için çözsün.",
-
-    "pdpa_step3_header": "Küresel Yasal Uyum ve Güvenlik Altyapısı",
-    "pdpa_step3_text": "Yasal düzenlemelere ve güvenlik politikalarına uygun bir web sitesi oluşturmak göründüğünden daha zordur. Tüm departmanlarımız uyum içinde çalıştığı için modern dünyaya uyumlu ve yasalara tam uygun bir site altyapısı oluşturmak bizim işimizdir. (GDPR, KVKK vb.)"
-  },
-
-"ServerManagement": {
-    "cta_talk_to_us": "Özel Sunucu Çözümleriniz İçin Bize Ulaşın",
-    "servermanagement_subbanner_header": "Ölçeklenebilir Sunucu Yönetimi",
-    "servermanagement_subbanner_header2": "ve Cloud Altyapı Hizmetleri",
-    "servermanagement_subbanner_text": "Benzersiz iş ihtiyaçlarınıza uygun şekilde tasarlanmış Cloud (Bulut) ve Fiziksel Sunucu çözümlerini keşfedin. Hizmetimiz tek tip değil; sunucularınızın iş hedeflerinizle kusursuz uyum sağlaması için kişiselleştirilmiş bir yaklaşımdır. Sizinle birlikte büyüyen kesintisiz bir sunucu stratejisi oluşturalım.",
-
-    "servermanagement_step1_header": "Yüksek Erişilebilirlik ve Ölçeklenebilir Performans",
-    "servermanagement_step1_text": "İşletmenizle birlikte ölçeklenen sunucularla geleceği kucaklayın. Hizmetimiz, altyapınızın kesintisiz şekilde büyüyebilmesi için geleceğe dayanıklı performans ve yüksek erişilebilirlik (HA) sağlar. Yarın için tasarlanan sunucu çözümleriyle operasyonlarınızı güçlendirin.",
-
-    "servermanagement_step2_header": "Proaktif Sunucu Güvenliği ve Siber Savunma",
-    "servermanagement_step2_text": "Dijital savunmanızı proaktif izleme ve sunucu güvenliği hizmetimizle güçlendirin. Standart protokollerin ötesine geçerek verilerinizi korumak için sağlam önlemler (Firewall, IDS/IPS) uygularız. Dijital varlıklarınızı koruyan, güvenli bir sunucu ortamı için bize güvenin.",
-
-    "servermanagement_step3_header": "Sunucu Verimliliği ve Maliyet Optimizasyonu",
-    "servermanagement_step3_text": "Sunucularınızı en yüksek performans için ince ayarlarız; her etkileşimin akıcı, hızlı ve verimli olmasını sağlarız. Rutin bakımdan ileri optimizasyona (Load Balancing, Cache) kadar her şeyi uzmanlarımız yönetir, maliyet verimliliğini garanti eder."
-  },
-
-  "WebsiteAndSoftware": {
-    "cta_talk_to_us": "Yeni Nesil Yazılım Geliştirme İçin Bize Ulaşın",
-    "websiteandsoftware_subbanner_header": "Next-Gen Web Sitesi & Özel",
-    "websiteandsoftware_subbanner_header2": "Yazılım Geliştirme Hizmetleri",
-    "websiteandsoftware_subbanner_text": "Markanızı uzman yazılım geliştiricilerimizle web geliştirme sanatına dahil edin. Şık arayüzlerden (UI/UX) güçlü fonksiyonelliğe kadar, sıradanın ötesine geçen yüksek performanslı dijital deneyimler tasarlarız. Modern kod ustalığımızla dijital dünyaya sağlam bir adım atın.",
-
-    "websiteandsoftware_step1_header": "Next.js ve Güncel Framework Geliştirme",
-    "websiteandsoftware_step1_text": "Dijital dünyada sağlam durmak için yeni nesil teknolojileri kullanmalısınız. Demode yığınlara güvenmeyin—bugünün en güncel framework'leriyle (Next.js, React, Vue) geliştirilmiş, SEO ve hız odaklı bir web sitesinin farkını hissedin.",
-
-    "websiteandsoftware_step2_header": "Kritik Hız ve Core Web Vitals (Temel Web Performans Metrikleri) Optimizasyonu",
-    "websiteandsoftware_step2_text": "Hızlı yüklenen bir web sitesi ilk izlenim için kritiktir. Harika görünen bir site yavaşsa dönüşümler düşer, müşteriler kaybedilir. DGTLFACE olarak Core Web Vitals (Temel Web Performans Metrikleri) standartlarına uygun hız ve premium tasarımı birlikte sunuyoruz.",
-
-    "websiteandsoftware_step3_header": "Kusursuz Kullanıcı Deneyimi (UX) ve Kod Mimarisi",
-    "websiteandsoftware_step3_text": "Kullanıcı deneyimiyle kusursuz uyum içinde, temiz ve sürdürülebilir bir kod mimarisi kurguluyoruz. Geliştirmemiz, yalnızca işlevselliğin ötesine geçerek hedef kitlenizde yankı uyandıran, ölçeklenebilir bir dijital melodi yaratır."
-  },
-
-  "WebsiteMaintance": {
-    "cta_talk_to_us": "Proaktif Bakım Çözümleri İçin Bize Ulaşın",
-    "websitemaintenance_subbanner_header": "7/24 Proaktif Web Sitesi",
-    "websitemaintenance_subbanner_header2": "Bakım ve Güvenlik Hizmetleri",
-    "websitemaintenance_subbanner_text": "Çevrimiçi dünyada başarı, yalnızca güçlü bir başlangıç yapmaya değil; web sitenizin sürekli güncel, güvenli ve hızlı kalmasına bağlıdır. Profesyonel ekibimiz, web sitenizin her zaman en yüksek performansla çalışması için gerekli tüm teknik bakım ve proaktif güvenlik güncellemelerini sağlar.",
-
-    "websitemaintenance_step1_header": "Kesintisiz Destek ve Güncelleme Yönetimi",
-    "websitemaintenance_step1_text": "Web sitenizi en yeni güvenlik yamaları ve yazılım güncellemeleriyle güçlendirin. Verileriniz aşılmaz bir zırhla korunur; her bileşen yalnızca güvenli değil, olası güvenlik açıklarına karşı da sürekli tahkim edilmiştir.",
-
-    "websitemaintenance_step2_header": "Gelişmiş Veri Güvenliği ve Yedekleme",
-    "websitemaintenance_step2_text": "Biz yalnızca bağlantıları güvenceye almakla kalmayız; onları sızmalara karşı geçirimsiz bir veri güvenliği katmanıyla kalkanlarız. Bilgileriniz ihlallere karşı korunur ve düzenli, otomatik yedeklemelerle dijital varlığınız güvende tutulur.",
-
-    "websitemaintenance_step3_header": "SSL/TLS Şifreleme ve Uyumluluk",
-    "websitemaintenance_step3_text": "Her veri parçasını en yüksek standartlarla SSL/TLS şifreleriz; bağlantılarınız harici tehditlere karşı güvenli ve dayanıklı kalır. Tüm yasal uyumluluk gereksinimleri (KVKK/GDPR) için gerekli şifreleme ve güvenlik protokollerini yönetmekten gurur duyarız."
-  },
-
-  "AdvertisingReporting": {
-    "cta_talk_to_us": "Reklam Yatırımınızı Optimizasyonu İçin Bize Ulaşın",
-    "advertisingreporting_subbanner_header": "Günlük Reklam Performans",
-    "advertisingreporting_subbanner_header2": "Raporlama ve ROAS Analizi Hizmetleri",
-    "advertisingreporting_subbanner_text": "Dijital satış ve pazarlama stratejilerini optimize etmek isteyen işletmelere veri odaklı çözümler sunan öncü bir sağlayıcıyız. Kampanyalarınızı anlamanıza yardımcı olur ve Reklam Harcaması Getirisini (ROAS) maksimize etmeye yönelik uygulanabilir içgörüler sağlarız.",
-
-    "advertisingreporting_step1_header": "Maksimum ROAS İçin Reklam Harcaması Optimizasyonu",
-    "advertisingreporting_step1_text": "Reklam bütçenizi daha etkin yönetmek için günlük reklam harcama raporlama hizmetlerimiz tam size göre. Ayrıntılı raporlarla en yüksek dönüşümü hangi kreatiflerin/ilanların sağladığını kolayca görür, bütçenizi buna göre ayarlarsınız. Reklam harcamanızın her kuruşundan en iyi şekilde yararlanmanızı sağlarız.",
-
-    "advertisingreporting_step2_header": "Dönüşüm Oranı (CRO) ve İlan Performansı Artırma",
-    "advertisingreporting_step2_text": "Günlük raporlama, kampanya performansını anlık izlemenizi sağlar. Hangi ilanların daha fazla müşteri çektiğini ve hangi platformların daha iyi sonuç verdiğini göstererek dönüşüm oranlarınızı (CVR) artırmanıza yardımcı olur. Yatırım getirinizi maksimize etmek için odaklanmanız gereken yerleri keşfedin.",
-
-    "advertisingreporting_step3_header": "Hassas Hedef Kitle Analizi ve Segmentasyonu",
-    "advertisingreporting_step3_text": "Günlük harcama raporları, hedef kitlenizin davranışlarını derinlemesine analiz etme olanağı sunar. Bu bilgilerle reklamlarınızı belirli demografik özelliklere, ilgi alanlarına veya davranışlara göre segmente edebilir, bütçe verimliliğini %30'a kadar artırabilirsiniz.",
-
-    "advertisingreporting_step4_header": "Pazar Trendlerini Yakala: Gerçek Zamanlı Veri Analizi",
-    "advertisingreporting_step4_text": "Pazar trendlerini yakından takip etmek ve stratejinizi buna göre şekillendirmek için günlük raporlama hizmetlerimizden yararlanın. Güncel veri analiziyle tüketici davranışlarındaki değişimlere hızla uyum sağlar, kampanyalarınızı anında optimize ederek rakiplerinizin daima önünde kalırsınız."
-  },
-
-  "CallReportingService": {
-    "cta_talk_to_us": "Çağrı Merkezi Verimliliğinizi Artırın",
-    "callreporting_subbanner_header": "Derinlemesine Çağrı Analizi",
-    "callreporting_subbanner_header2": "ve Operasyonel Raporlama Hizmetleri",
-    "callreporting_subbanner_text": "Günlük Çağrı Analizi Raporlama Hizmetlerimiz, çağrı merkezi operasyonlarınızı optimize etmeniz ve Müşteri Memnuniyetini (CSAT) artırmanız için gerekli araçları sunar. İşletmenizi veri odaklı kararlarla iyileştirmeye başlayın!",
-
-    "callreporting_step1_header": "Yasal Uyumlu Çağrı Kaydı ve Güvenli Depolama",
-    "callreporting_step1_text": "Çağrı kayıt ve depolama hizmetleri, işletmelerin müşteri iletişimlerini KVKK uyumlu ve güvenli biçimde kaydetmesine olanak tanır. Bu kayıtlar ileriye dönük denetimler, eğitim amaçları ve konuşma analizi (Speech Analytics) için temel oluşturur.",
-
-    "callreporting_step2_header": "Gerçek Zamanlı Çağrı Analizi ve Koçluk (Coaching)",
-    "callreporting_step2_text": "Çağrı içeriğinin dinlenmesi ve duyarlılık analiziyle performansın değerlendirilmesine ve müşteri memnuniyetinin artırılmasına yardımcı oluruz. Gerçek zamanlı izleme, müşteri taleplerine hızlı yanıt verme ve temsilcilere yerinde koçluk yapma olanağı sağlar.",
-
-    "callreporting_step3_header": "Stratejik Çağrı Merkezi Raporlama ve KPI Analizi",
-    "callreporting_step3_text": "Raporlama ve veri analizi, çağrı verilerini işletme için değerli içgörülere dönüştürür. Ortalama İşlem Süresi (AHT) ve İlk Çağrı Çözümleme (FCR) gibi kritik performans göstergelerini belirlemeye ve stratejik kararlar almaya yardımcı olur.",
-
-    "callreporting_step4_header": "Müşteri Geri Bildirimi ve Süreç İyileştirme (CX)",
-    "callreporting_step4_text": "Müşteri deneyimini (CX) geliştirmek için geri bildirim ve iyileştirme şarttır. Bu hizmet, memnuniyeti anlamak ve süreçleri optimize etmek için veri odaklı geri bildirim sunar; işletmelerin daha iyi hizmet ve daha yüksek sadakat kazanmasına yardımcı olur."
-  },
-
-  "DigitalSalesAnalysis": {
-    "cta_talk_to_us": "Dijital Satış Analizi ile Büyümeyi Başlatın",
-    "digitalsalesanalysis_subbanner_header": "Kapsamlı Dijital Satış",
-    "digitalsalesanalysis_subbanner_header2": "ve Pazarlama Analizi Hizmetleri",
-    "digitalsalesanalysis_subbanner_text": "Dijital Satış ve Pazarlama Analizi Hizmetleri, stratejileri optimize etmek isteyen işletmeler için veri odaklı ve birinci sınıf bir sağlayıcıdır. Müşterilerinizi, pazarlarınızı, rakiplerinizi ve kampanyalarınızı anlamanıza yardımcı olur; sonuçları artırmak için eyleme dönüştürülebilir içgörüler sağlar.",
-
-    "digitalsalesanalysis_step1_header": "Yüksek Değerli Müşteri Segmentasyonu ve Profilleme",
-    "digitalsalesanalysis_step1_text": "Müşterileri demografi, davranış, tercih ve ihtiyaçlarına göre segmentlere ayırır ve profilleriz. Bu sayede en değerli ve sadık müşteriler (LTV) belirlenir; teklifler ve iletişim onlara göre özelleştirilir, satış stratejinizin odak noktası netleşir.",
-
-    "digitalsalesanalysis_step2_header": "Rekabetçi Pazar İstihbaratı ve Fırsat Analizi",
-    "digitalsalesanalysis_step2_text": "Hedef pazarlarınızın büyüklüğünü, büyümesini, trendlerini ve fırsatlarını değerlendirmek için pazar araştırması ve istihbaratı yürütürüz. Rakiplerinizin güçlü ve zayıf yönlerini belirler, piyasada avantaj sağlayabileceğiniz boşlukları ortaya çıkarırız.",
-
-    "digitalsalesanalysis_step3_header": "Dijital Kampanya Analizi ve ROI Optimizasyonu",
-    "digitalsalesanalysis_step3_text": "E-posta, sosyal medya, web ve mobil gibi kanallardaki kampanyaları analiz eder ve optimize ederiz. Etkililik, verimlilik ve Yatırım Getirisini (ROI) ölçüp iyileştirmenize yardımcı olur; geliştirme için net ve kanıtlanmış öneriler sunarız."
-  },
-
-  "OnlineMarketResearch": {
-    "cta_talk_to_us": "Pazar Trendlerini Yakalamak İçin Bize Ulaşın",
-    "onlinemarketresearch_subbanner_header": "Stratejik Çevrimiçi Pazar",
-    "onlinemarketresearch_subbanner_header2": "Araştırması ve Tüketici İçgörüleri",
-    "onlinemarketresearch_subbanner_text": "Günümüzün hızla değişen pazarında, tüketici trendlerini ve sektör içgörülerini yakından takip etmek rekabetçi kalmanın anahtarıdır. Sürekli değişen bu ortamda yol almanıza ve başarıyı getiren bilinçli, veri destekli kararlar almanıza yardımcı olmak için kapsamlı Çevrimiçi Pazar Araştırması Hizmetleri sunuyoruz.",
-
-    "onlinemarketresearch_step1_header": "Gerçek Zamanlı Trend Takibi ve Konumlandırma",
-    "onlinemarketresearch_step1_text": "Yükselen trendleri ve tüketici tercihlerini gerçek zamanlı izleyerek sizi rekabette bir adım öne taşır ve markanızı sektör lideri konumlandırırız. Sosyal dinleme (Social Listening) ve rakip analizinden stratejik yönünüzü şekillendiren içgörüleri ortaya çıkarırız.",
-
-    "onlinemarketresearch_step2_header": "Veri Destekli Pazar İstihbaratı",
-    "onlinemarketresearch_step2_text": "Sürekli gelişen dijital pazarda bilgi güçtür. Eğrinin önünde kalmak için kapsamlı çevrimiçi pazar araştırmasından elde edilen, eyleme dönüştürülebilir içgörülere ihtiyaç vardır. Günümüzün dinamik iş dünyasının gereksinimlerine uygun, güncel ve rafine Çevrimiçi Pazar Araştırması Hizmetleri sunuyoruz.",
-
-    "onlinemarketresearch_step3_header": "Tüketici Davranışı ve Psikografik Analiz",
-    "onlinemarketresearch_step3_text": "Tüketici davranışlarını, demografik ve psikografik özellikleri derinlemesine inceleriz. Hedef kitlenizi kapsamlı biçimde anlayarak ürün, hizmet ve pazarlama çalışmalarınızı onların ihtiyaç ve tercihlerine göre uyarlamanızı sağlarız."
-  },
-
-  "WebsiteReporting": {
-    "cta_talk_to_us": "Görsel Raporlarla Verilerinizi Anlayın",
-    "websitereporting_subbanner_header": "Kapsamlı Web Sitesi",
-    "websitereporting_subbanner_header2": "Performans ve Görsel Raporlama Hizmetleri",
-    "websitereporting_subbanner_text": "Görsel raporlarımızla stratejik analizin gücünü deneyimleyin. Verileri yalnızca sunmuyor, iş hedeflerinizle uyumlu bir biçimde görselleştiriyoruz (Data Visualization). Gelin, karmaşık verileri net ve okunabilir görsellere dönüştürelim.",
-
-    "websitereporting_step1_header": "Web Sitesi Trafik Kaynak Analizi ve İçgörü Toplama",
-    "websitereporting_step1_text": "Birden çok kanaldan (SEO, PPC, Social, Direct) potansiyel olarak anlamlı verileri topluyoruz. Rastgele değil, uzman ekibimizin seçtiği anlamlı okumalar içeren verileri toplar ve işleriz. Trafiğinizin gerçek değerini anlamanızı sağlarız.",
-
-    "websitereporting_step2_header": "Kritik Performans Metrikleri Kıyaslaması",
-    "websitereporting_step2_text": "Topladığımız tüm verileri kanıtlanmış sektör standartları ve rakip verileriyle karşılaştırıyoruz. Doğru noktaları kıyaslayarak rekabet avantajı sağlayacak yeni bulgular elde ediyoruz. Bu bulgular DGTLFACE uzmanları tarafından eyleme geçirilebilir önerilere dönüştürülür.",
-
-    "websitereporting_step3_header": "Özelleştirilmiş Rapor Sunumu ve Stratejik Öneriler",
-    "websitereporting_step3_text": "Derinlemesine analiz ve Power BI / Looker Studio gibi araçlarla özelleştirilmiş raporlamayla veri manzaranıza dalıyoruz. Her rapor, iş ihtiyaçlarınıza göre hazırlanır ve kapsamlı biçimde sunulur. Son aşamada size net stratejik yol haritası sunuyoruz."
-  },
 
 "CookiePopup":{
   "cookie_policy_title": "Çerez Politikası",

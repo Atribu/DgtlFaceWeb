@@ -283,7 +283,7 @@ const Page = () => {
       <VerticalSlider page="OtelAdsPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in otel & resort reklam yönetimi, Google Hotel Ads projeleri, Meta Ads dönüşüm kurguları ve turizm satış optimizasyonuna dair dahili strateji dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )
