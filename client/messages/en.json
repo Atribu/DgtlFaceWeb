@@ -391,6 +391,24 @@
     }
 },
 
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "Güncel içerikler, ipuçları ve rehberler. Departmana göre filtrele, arama yap.",
+    "searchPlaceholder": "Blog içinde ara…",
+    "searchButton": "Ara",
+    "clear": "Temizle",
+    "results": "{count} sonuç",
+    "empty": "Sonuç bulunamadı.",
+    "readMore": "Devamını oku",
+    "departments": {
+      "all": "Tümü",
+      "seo": "SEO",
+      "marketing": "Pazarlama",
+      "development": "Geliştirme",
+      "design": "Tasarım"
+    }
+  },
+
  "Footer": {
     "link_home": "Home",
     "link_about": "About Us",

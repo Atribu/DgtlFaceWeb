@@ -2,7 +2,7 @@
 import React from "react";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 import FireballExplosion from "../Section1/Animation/FireballExplosion";
-import FireballExplosionBlack from "../Section1/Animation/FireballExplosionBlack";
+// import FireballExplosionBlack from "../Section1/Animation/FireballExplosionBlack";
 import PlainRichText from "../common/PlainRichText";
 
 const LogoListSectionBlack = ({
@@ -46,7 +46,7 @@ const LogoListSectionBlack = ({
         {/* SAĞ — ANİMASYON */}
         <div className="flex relative lg:p-6 items-center justify-center lg:h-[400px] md:h-auto">
           <div className="w-full max-w-[500px] h-auto relative overflow-hidden mb-2">
-            <FireballExplosionBlack />
+            {/* <FireballExplosionBlack /> */}
           </div>
         </div>
       </div>
