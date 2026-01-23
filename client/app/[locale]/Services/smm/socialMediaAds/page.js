@@ -264,7 +264,7 @@ const Page = () => {
       <VerticalSlider page="SmmAds" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin Meta Ads yönetimi, sosyal medya reklam stratejileri ve turizm performans kampanyaları dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

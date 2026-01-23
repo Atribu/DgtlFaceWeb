@@ -264,7 +264,7 @@ const Page = () => {
       <VerticalSlider page="LocalSeo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin yerel SEO dokümantasyonundan ve Google Haritalar optimizasyon süreçlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
     </>
   )

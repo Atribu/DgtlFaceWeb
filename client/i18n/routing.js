@@ -150,27 +150,27 @@ export const routing = defineRouting({
     // DİJİTAL ANALİZ HİZMETLERİ
     //---------------------------------------------------------
     "/Services/digitalAnalysis": { // https://www.dgtlface.com/tr/Services/digitalAnalysis
-      en: "/services/digital-analysis",
+      en: "/digital-analysis",
       tr: "/raporlama",
      
     },
     "/Services/digitalAnalysis/lookerStudio": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/advertisingReportingService
-      en: "/services/digital-analysis/advertising-reporting",
+      en: "/digital-analysis/advertising-reporting",
       tr: "/raporlama/looker-studio",
       
     },
     "/Services/digitalAnalysis/kvkkDataSecurity": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/callReportingService
-      en: "/services/digital-analysis/call-reporting",
+      en: "/digital-analysis/call-reporting",
       tr: "/raporlama/kvkk-veri-guvenligi",
       
     },
     "/Services/digitalAnalysis/digitalSalesAnalysis": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/digitalSalesAnalysis
-      en: "/services/digital-analysis/digital-sales-analysis",
+      en: "/digital-analysis/digital-sales-analysis",
       tr: "/raporlama/satis-donusum",
       
     },
     "/Services/digitalAnalysis/onlineMarketResearchService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/onlineMarketResearchService
-      en: "/services/digital-analysis/online-market-research",
+      en: "/digital-analysis/online-market-research",
       tr: "/raporlama/benchmark-analizi",
       
     },
@@ -184,12 +184,12 @@ export const routing = defineRouting({
      
     },
     "/Services/sem/youtubeAdvertising": { // https://www.dgtlface.com/tr/Services/sem/advertisingManagement
-      en: "/services/sem/advertising-management",
+      en: "/sem/youtube-advertising-management",
       tr: "/sem/youtube-reklam-yonetimi",
       
     },
     "/Services/sem/googleAdsAdvertising": { // https://www.dgtlface.com/tr/Services/sem/googleAdsAdvertising
-      en: "/services/sem/google-ads-advertising",
+      en: "/sem/google-ads-advertising",
       tr: "/sem/google-ads-yonetimi",
      
     },
@@ -199,12 +199,12 @@ export const routing = defineRouting({
       
     },
     "/Services/sem/tagManager": { // https://www.dgtlface.com/tr/Services/sem/webTraffic
-      en: "/services/sem/web-traffic-monitoring",
+      en: "/sem/tag-manager",
       tr: "/sem/donusum-takibi-tag-manager",
      
     },
     "/Services/sem/performanceAnalysis": { // https://www.dgtlface.com/tr/Services/sem/yandexAdvertising
-      en: "/services/sem/performanceAnalysis",
+      en: "/sem/performance-analysis",
       tr: "/sem/reklam-raporlama",
      
     },
@@ -219,27 +219,27 @@ export const routing = defineRouting({
     
 
     "/Services/seo/backlinkSeo": { // https://www.dgtlface.com/tr/Services/seo/offpageSeo
-      en: "/services/seo/off-page-seo",
+      en: "/seo/backlink-seo",
       tr: "/seo/backlink-yonetimi",
       
     },
     "/Services/seo/contentSeo": { // https://www.dgtlface.com/tr/Services/seo/onpageSeo
-      en: "/services/seo/on-page-seo",
+      en: "/seo/on-page-seo",
       tr: "/seo/icerik-seo",
       
     },
     "/Services/seo/localSeo": { // https://www.dgtlface.com/tr/Services/seo/originalCopywriting
-      en: "/services/seo/original-copywriting",
+      en: "/seo/local-seo",
       tr: "/seo/yerel-seo",
       
     },
     "/Services/seo/seoReporting": { // https://www.dgtlface.com/tr/Services/seo/seoReporting
-      en: "/services/seo/seo-reporting",
+      en: "/seo/seo-reporting",
       tr: "/seo/seo-raporlama",
       
     },
     "/Services/seo/technicalSeo": { // https://www.dgtlface.com/tr/Services/seo/technicalSeo
-      en: "/services/seo/technical-seo",
+      en: "/seo/technical-seo",
       tr: "/seo/teknik-seo",
       
     },

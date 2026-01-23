@@ -262,7 +262,7 @@ const Page = () => {
       <VerticalSlider page="ReelsVideo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin Reels & kısa video prodüksiyonu, sosyal medya video stratejileri ve turizm odaklı SMM projelerine ait dokümantasyon ve saha deneyimlerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
   </>
   )

@@ -251,7 +251,7 @@ const Page = () => {
 
 <AutoBreadcrumbs />
 
-<AiAnswerBlock text="DGTLFACE, teknik SEO analiziyle sitenizin hız, mobil uyumluluk, taranabilirlik ve Core Web Vitals metriklerini Google standartlarına göre optimize eder. Next.js ve modern framework’lerde oluşan teknik SEO sorunlarını analiz eder, URL mimarisi, robots.txt, sitemap, canonical ve hreflang yapılarını düzene sokar. Özellikle otel ve turizm sitelerinde PMS–OTA entegrasyonunu da hesaba katarak hem kullanıcı deneyimini hem Google sıralamalarını güçlendirir."/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
 </div>
 </div>
       <H2LogoSection items={h2items} />
@@ -268,7 +268,7 @@ const Page = () => {
       <VerticalSlider page="TechnicalSeo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin teknik SEO analiz ve optimizasyon süreçlerine ilişkin resmi dokümantasyonundan ve proje pratiklerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiAnswerBlock")}/>
     </div>
    </>
   )

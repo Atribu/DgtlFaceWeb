@@ -264,7 +264,7 @@ const Page = () => {
       <VerticalSlider page="BacklinkSeo" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin backlink ve otorite yönetimi süreçlerine ilişkin resmi dokümantasyonundan ve sektörel projelerden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

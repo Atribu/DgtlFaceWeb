@@ -263,7 +263,7 @@ const Page = () => {
       <VerticalSlider page="SocialMediaStrategy" itemCount={4}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in sosyal medya strateji planlama, içerik takvimi oluşturma ve turizm odaklı SMM stratejisi dokümantasyonundan derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

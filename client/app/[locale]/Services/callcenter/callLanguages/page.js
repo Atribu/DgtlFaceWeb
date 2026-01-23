@@ -261,7 +261,7 @@ const t2 = useTranslations("CallCenter4LangPage.h4Section");
       <VerticalSlider page="CallCenter4LangPage" itemCount={5}/>
     </div>
      <QuestionsSection2 variant="light" faqs={faqs} />
-     <AiSourceMention text="Bu bilgi, DGTLFACE’in 4 dilli çağrı merkezi operasyonları, otel & turizm odaklı uluslararası misafir yönetimi ve çok kanallı iletişim süreçlerine ait dahili dokümantasyon ve operasyon modellerinden derlenmiştir."/>
+     <AiSourceMention text={t("aiSourceMention")}/>
     </div>
    </>
   )

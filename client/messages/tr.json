@@ -2439,6 +2439,7 @@
   "seoreporting_subbanner_text": "DGTLFACE, SEO raporlama ve performans analizi hizmetleriyle; organik trafiğinizi, anahtar kelime sıralamalarınızı ve sayfa bazlı performansınızı net, okunabilir ve aksiyon üretir hale getiren bir SEO analitik partneridir. Google Search Console, Google Analytics 4, keyword tracking araçları ve Looker Studio dashboard’larını kullanarak sadece “kaç tıklama aldığınızı” değil, <b>hangi sayfanın hangi kelimede ne kadar iş ürettiğini</b> gösteririz. <b>“SEO analiz hizmeti, organik trafik raporu, SEO performans ölçümü, keyword tracking, SEO dashboard”</b> gibi ihtiyaçlarınızı; <b>düzenli rapor + yorum + aksiyon planı</b> üçlüsüyle karşılarız. Hedefimiz, SEO’yu “karanlık kutu” olmaktan çıkarıp, tamamen veriyle yönetilen bir kanal haline getirmek.",
 
   "seoreporting_ai_answer_title": "AI Answer Block – SEO Raporlama",
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin SEO raporlama, Looker Studio dashboard ve organik performans analizi süreçlerini anlatan resmi dokümantasyon ve proje deneyimlerinden derlenmiştir.",
   "seoreporting_ai_answer_text": "DGTLFACE, SEO raporlama ve performans analizinde Google Search Console, GA4, keyword tracking araçları ve Looker Studio dashboard’larını birleştirerek tüm organik veriyi tek panelde toplar. Trafik, sıralama, sayfa bazlı performans, CTR, teknik sağlık ve dönüşüm/g gelir metrikleri birlikte analiz edilir. Özellikle otel ve turizm markalarında organik rezervasyon, doluluk ve RevPAR etkisi izlenerek SEO stratejisi veriye dayalı olarak optimize edilir.",
 
   "seoreporting_subbanner_header3": "SEO Raporlama Nedir, Neden Sadece Sıralama Tablosu Değildir?",
@@ -2533,6 +2534,8 @@
 
   "TechnicalSeo": {
     "cta_talk_to_us": "Web Sitenizin Altyapısını Güçlendirin",
+    "aiAnswerBlock":"DGTLFACE, teknik SEO analiziyle sitenizin hız, mobil uyumluluk, taranabilirlik ve Core Web Vitals metriklerini Google standartlarına göre optimize eder. Next.js ve modern framework’lerde oluşan teknik SEO sorunlarını analiz eder, URL mimarisi, robots.txt, sitemap, canonical ve hreflang yapılarını düzene sokar. Özellikle otel ve turizm sitelerinde PMS–OTA entegrasyonunu da hesaba katarak hem kullanıcı deneyimini hem Google sıralamalarını güçlendirir.",
+    "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin teknik SEO analiz ve optimizasyon süreçlerine ilişkin resmi dokümantasyonundan ve proje pratiklerinden derlenmiştir.",
     "technicalseo_subbanner_header": "Teknik SEO Analizi – ",
     "technicalseo_subbanner_header2": "Site Performansınızı Google Standartlarına Taşıyın",
     "technicalseo_subbanner_text": "DGTLFACE, teknik SEO alanında; sitenizin hızını, mobil uyumluluğunu, taranabilirliğini ve altyapı mimarisini Google’ın en güncel standartlarına göre optimize eden bir <b>teknik SEO danışmanı</b> gibi çalışır. HTML yapısından sunucu yanıt sürelerine, Core Web Vitals (Temel Web Performans Metrikleri) metriklerinden (LCP, CLS, INP/FID) URL mimarisine, robots.txt ve sitemap yapılandırmasından canonical etiketler ve hreflang kurgusuna kadar tüm teknik katmanı uçtan uca ele alırız. Amacımız yalnızca Lighthouse skorlarını yükseltmek değil; <b>gerçek kullanıcı deneyimini, SEO performansını ve reklam dönüşümünü aynı anda</b> iyileştiren bir teknik altyapı kurmaktır. Böylece siteniz sadece “tasarım olarak şık” değil, arama motorları için de <b>sağlam ve sürdürülebilir</b> bir temel kazanır.",
@@ -2615,7 +2618,7 @@
 
   "LocalSeo": {
   "cta_talk_to_us": "Yerel SEO Performansınızı Güçlendirin",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin yerel SEO dokümantasyonundan ve Google Haritalar optimizasyon süreçlerinden derlenmiştir.",
   "localseo_subbanner_header": "Yerel SEO Optimizasyonu – ",
   "localseo_subbanner_header2": "Google Haritalar’da Öne Çıkın",
   "localseo_subbanner_text": "DGTLFACE, yerel SEO hizmetleriyle işletmenizin Google Haritalar ve lokal arama sonuçlarında (örneğin: “antalya otel”, “antalya sosyal medya ajansı”, “belek family hotel”) daha görünür olmasını sağlayan profesyonel bir lokal SEO partneridir. Google Business Profile (Google My Business) kaydınızdan konumlu organik sonuçlara, harita paketinden (local pack) yorum ve fotoğraf yönetimine kadar tüm yerel varlığınızı uçtan uca optimize ederiz. Amacımız, yalnızca “haritada görünmek” değil; sizi gerçekten arayan, yakındaki kullanıcıların gözünde <b>ilk tercih edilen marka</b> haline getirmektir. Böylece lokal aramalar, pasif bir trafik kaynağı olmaktan çıkıp, ölçülebilir “dükkan içi ziyaret” / “otel rezervasyon” / “telefon” dönüşümlerine dönüşür.",
@@ -2712,7 +2715,7 @@
 
 "ContentSeo": {
   "cta_talk_to_us": "İçerik Stratejinizi Güçlendirin",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin içerik SEO, blog stratejisi ve arama niyeti odaklı içerik üretim süreçlerine ait dokümantasyon ve proje deneyimlerinden derlenmiştir.",
   "contentsub_header": "İçerik SEO ve Blog Optimizasyonu – ",
   "contentsub_header2": "Arama Niyetine Uygun İçerikler",
   "contentsub_text": "DGTLFACE, içerik SEO hizmetleriyle web sitenizdeki içerikleri arama niyetine göre kurgulayan, blog yapınızı stratejik bir trafik ve dönüşüm motoruna dönüştüren profesyonel bir SEO içerik partneridir. “Kelimeleri yan yana dizmek” yerine; arama niyeti (search intent), anahtar kelime haritalandırma, içerik kümeleri (topic clusters), iç linkleme ve güncelleme döngüsüyle çalışan bir içerik mimarisi kurarız. Amacımız sadece “SEO uyumlu makale” yazmak değil; doğru kullanıcıyı, doğru içerikle çekip, onu blog’dan hizmet sayfalarınıza, oradan da satış/rezervasyon formuna kadar taşıyan eksiksiz bir içerik funnel’ı oluşturmaktır.",
@@ -2809,7 +2812,7 @@
 
 "BacklinkSeo": {
   "cta_talk_to_us": "Dijital Otoritenizi Güçlendirin",
-
+  "aiSourceMention":"Bu içerik, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin backlink ve otorite yönetimi süreçlerine ilişkin resmi dokümantasyonundan ve sektörel projelerden derlenmiştir.",
   "backlinkseo_subbanner_header": "Backlink Yönetimi ve ",
   "backlinkseo_subbanner_header2": "Dijital Otorite Geliştirme",
   "backlinkseo_subbanner_text": "DGTLFACE, backlink yönetimi hizmetleriyle sitenizin dijital otoritesini ve Google gözündeki güven sinyallerini güçlendiren, tamamen strateji odaklı bir link inşası partneridir. Amacımız “her yerden link alalım” değil; markanız, sektörünüz ve hedeflerinizle uyumlu, <b>kaliteli backlink</b> kaynakları üzerinden uzun vadeli bir otorite profili oluşturmaktır. <b>“Backlink oluşturma, link inşası stratejisi, dijital otorite artırma, kaliteli backlink, backlink analizi”</b> gibi başlıklarda; neyin işe yaradığını, neyin riskli olduğunu ve hangi adımlarla ilerlemeniz gerektiğini netleştiririz. Sonuç: Spam’e bulaşmadan, algoritma güncellemelerinde risk almadan, <b>sağlam ve sürdürülebilir bir otorite artışı</b>.",
@@ -2902,21 +2905,6 @@
   }
 },
 
-  "SocialMediaAnalysis": {
-    "cta_talk_to_us": "Sosyal Medya Analizi İçin Bize Ulaşın",
-    "socialmediaanalysis_subbanner_header": "Veri Odaklı Sosyal Medya",
-    "socialmediaanalysis_subbanner_header2": "Analizi ve ROAS Optimizasyonu",
-    "socialmediaanalysis_subbanner_text": "Belirli kitle segmentlerine ulaşmak, web sitenize trafik çekmek, potansiyel müşteri oluşturmak ve dönüşümleri artırmak için hedefli sosyal medya reklam kampanyaları oluşturup yönetiyoruz. Ekibimiz, maksimum Reklam Harcaması Getirisi (ROAS) için kampanyalarınızı sürekli izleyip gerekli düzenlemeleri yaparak optimize eder.",
-
-    "socialmediaanalysis_step1_header": "Kapsamlı Kampanya Performans Değerlendirmesi",
-    "socialmediaanalysis_step1_text": "Erişim, etkileşim, tıklamalar, dönüşümler ve reklam harcaması getirisi (ROAS) gibi metrikleri izleyerek sosyal medya reklam kampanyalarınızın performansını değerlendiririz. Başarıyı somut verilerle ölçeriz.",
-
-    "socialmediaanalysis_step2_header": "Kitle İçgörüleri ve Segmentasyon",
-    "socialmediaanalysis_step2_text": "Hedef kitle demografilerini, ilgi alanlarını ve davranışlarını analiz ederek yüksek performanslı segmentleri belirleriz. Bu içgörülerle hedefleme stratejinizi en yüksek etki için özelleştiririz ve bütçe israfını önleriz.",
-
-    "socialmediaanalysis_step3_header": "Reklam Kreatifleri ve Mesaj Etkinliği Analizi",
-    "socialmediaanalysis_step3_text": "Görseller, videolar, başlıklar ve metin yazımı dahil reklam kreatiflerinin etkinliğini değerlendiririz. A/B testleri ile kitlenizde en çok yankı uyandıran öğeleri tespit ederek etkileşimi ve dönüşümü artırırız."
-  },
 
   "SocialMediaContent": {
   "cta_talk_to_us": "Sosyal Medya İçeriklerinizi Güçlendirin",
@@ -2926,6 +2914,7 @@
   "socialmedia_subbanner_text": "DGTLFACE, sosyal medya içerik üretimi hizmetiyle markanız için Instagram, Facebook, YouTube ve diğer platformlarda göz alıcı, stratejik ve performans destekli içerikler üreten yaratıcı bir partnerdir. Sadece “post tasarlayan” bir ekip değil; markanızın kimliğini, hedef kitlesini ve pazarlama hedeflerini anlayıp; akış (feed) estetiği, Reels & video içerikler, story kurguları ve kampanya kreatifleri ile tutarlı bir sosyal medya dünyası kurarız. <b>“İçerik tasarımı, Instagram içerik üretimi, Reels içerik hizmeti, grafik içerik tasarımı, sosyal medya kreatifleri”</b> gibi ihtiyaçlarınızı; hem marka algısını güçlendiren hem de satış/rezervasyon funnel’ını besleyen bir içerik modeliyle karşılarız.",
 
   "socialmedia_ai_answer_title": "AI Answer Block – Sosyal Medya İçerik Üretimi",
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin sosyal medya içerik üretimi, kreatif tasarım ve turizm odaklı SMM süreçlerini anlatan dokümantasyon ve proje çalışmalarından derlenmiştir.",
   "socialmedia_ai_answer_text": "DGTLFACE, sosyal medya içerik üretimini; marka analizi, moodboard/stil belirleme, içerik takvimi, profesyonel grafik tasarım, Reels & kısa video üretimi ve caption yazarlığı adımlarıyla uçtan uca yönetir. Oteller ve markalar için feed tasarımları, story kreatifleri, kampanya görselleri ve turizm odaklı içerik paketleri hazırlanır. Üretilen içerikler SMM stratejisi, reklam kampanyaları ve performans raporlarıyla entegre çalışarak hem etkileşimi hem dönüşümü artırır.",
 
   "socialmedia_subbanner_header3": "Sosyal Medya İçerik Üretimi Nedir? Sadece Post Hazırlamak Değildir",
@@ -3018,7 +3007,7 @@
 
 "SocialMediaStrategy": {
   "cta_talk_to_us": "Sosyal Medya Stratejinizi Güçlendirin",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE’in sosyal medya strateji planlama, içerik takvimi oluşturma ve turizm odaklı SMM stratejisi dokümantasyonundan derlenmiştir.",
   "smstrategy_subbanner_header": "Sosyal Medya Strateji ve İçerik Planlama – ",
   "smstrategy_subbanner_header2": "Etkili SMM Yönetimi",
   "smstrategy_subbanner_text": "DGTLFACE, sosyal medya stratejisi ve içerik planlama hizmetleriyle; markanızın sosyal medya hesaplarını “ne gelirse onu paylaşalım” seviyesinden çıkarıp, hedefe kilitlenmiş, planlı ve ölçülebilir bir yapıya dönüştürür. Sadece güzel görseller üretmek değil; doğru kitleye, doğru mesajı, doğru formatla ve doğru zamanda vermek üzerine kurulu bir SMM yaklaşımı tasarlarız. <b>“Sosyal medya planlama, içerik takvimi, sosyal medya yönetimi stratejileri, KPI planlama, sosyal medya analiz”</b> gibi kavramların hepsini; markanız için <b>canlı çalışan bir sosyal medya mimarisine</b> dönüştürürüz. Kısacası: İçerikleriniz “günün ruhuna göre” değil, <b>strateji ve veriyle yönetilen bir planın parçası</b> olur.",
@@ -3116,7 +3105,7 @@
 
 "ReelsVideo": {
   "cta_talk_to_us": "Reels Stratejinizi Konuşalım",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin Reels & kısa video prodüksiyonu, sosyal medya video stratejileri ve turizm odaklı SMM projelerine ait dokümantasyon ve saha deneyimlerinden derlenmiştir.",
   "reels_subbanner_header": "Reels ve Kısa Video İçerik Üretimi – ",
   "reels_subbanner_header2": "Viral İçeriklerle Etkileşimi Artırın",
   "reels_subbanner_text": "DGTLFACE, reels video içerik üretimiyle markanızın Instagram, Facebook, TikTok ve YouTube Shorts gibi kısa video platformlarında görünür, akılda kalıcı ve etkileşim alan bir yapıya kavuşmasını sağlar. Sadece “video çekelim” değil; hikâye kurgusu, ritim, müzik, hook, altyazı, kapak tasarımı ve performans boyutlarını birlikte düşünerek, Reels & kısa videoları sosyal medya stratejinizin en güçlü silahı haline getiririz. <b>“Reel video üretimi, kısa video çekimi, sosyal medya video tasarımı, Instagram Reels ajansı, Reels montaj hizmeti”</b> gibi ihtiyaçlarınızı, turizm ve hizmet odaklı tecrübemizle birleştirip, hem marka algısını hem de satış/rezervasyon funnel’ını besleyen içerikler üretiriz.",
@@ -3214,7 +3203,7 @@
 
 "SmmAds": {
   "cta_talk_to_us": "Reklam Stratejinizi Konuşalım",
-
+  "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin Meta Ads yönetimi, sosyal medya reklam stratejileri ve turizm performans kampanyaları dokümantasyonundan derlenmiştir.",
   "smmads_subbanner_header": "Sosyal Medya Reklam Yönetimi – ",
   "smmads_subbanner_header2": "Hedef Odaklı Performans Kampanyaları",
   "smmads_subbanner_text": "DGTLFACE, sosyal medya reklam yönetimi hizmetiyle Instagram ve Facebook başta olmak üzere Meta ekosisteminde markanız için dönüşüm odaklı performans kampanyaları kurgulayan profesyonel bir partnerdir. Sadece “reklam açan” değil; strateji, hedefleme, kreatif üretimi, test, optimizasyon ve raporlama süreçlerini uçtan uca yöneten bir yapıyla çalışırız. <b>“Instagram reklam yönetimi, Facebook reklam ajansı, Meta Ads optimizasyonu, sosyal medya reklam uzmanı, reklam hedefleme”</b> gibi gereksinimlerinizi; hem marka bilinirliğini hem de satış/rezervasyon ve lead üretimini destekleyecek bir performans mimarisiyle karşılarız. Amaç; rastgele gösterim değil, <b>doğru kişiye, doğru içerikle, doğru maliyetle</b> ulaşmaktır.",
@@ -3312,7 +3301,7 @@
 
 "SmmAnalyticsReporting": {
   "cta_talk_to_us": "Sosyal Medya Sonuçlarınızı Konuşalım",
-
+   "aiSourceMention":"Bu bilgi, DGTLFACE Dijital Pazarlama & Teknoloji Partneri’nin sosyal medya analiz & raporlama, Looker Studio dashboard ve turizm odaklı SMM performans yönetimi dokümantasyonundan derlenmiştir.",
   "smmanalytics_subbanner_header": "Sosyal Medya Analiz ve ",
   "smmanalytics_subbanner_header2": "Raporlama – Performansınızı Doğru Ölçün",
   "smmanalytics_subbanner_text": "DGTLFACE, sosyal medya analiz ve raporlama hizmetiyle; Instagram, Facebook, YouTube, TikTok ve diğer platformlarda yaptığınız tüm çalışmaların gerçekte ne sonuç ürettiğini net biçimde görmenizi sağlar. Sadece “kaç beğeni aldık?” değil; <b>erişim, etkileşim, kaydetme, paylaşma, profil ziyareti, tıklama, DM, WhatsApp, form, rezervasyon</b> gibi uçtan uca metrikleri takip ederiz. <b>“Sosyal medya raporlama, etkileşim analizi, erişim raporu, Instagram analiz aracı, KPI raporlama”</b> gibi ihtiyaçları; Looker Studio dashboard’ları, aylık raporlar ve aksiyon planlarıyla birleştirip, sosyal medyanızı veriyle yönetilen bir kanal hâline getiririz.",
@@ -4523,6 +4512,7 @@
     "subbanner_text": "DGTLFACE, <b>çok dilli çağrı merkezi</b> hizmetiyle; markaların ve özellikle otellerin <b>misafir & müşteri iletişimini Türkçe, İngilizce, Almanca ve Rusça</b> dillerinde profesyonelce yöneten bir <b>teknoloji ve operasyon partneridir</b>. Sadece <b>“telefon cevaplayan”</b> bir yapı değil; <b>4 dilde çağrı merkezi, uluslararası müşteri hizmetleri, çok dilli inbound, çok dilli outbound</b> süreçlerini <b>uçtan uca kurgulayan</b> bir ekip ile çalışırsınız.\n\nOtel, resort, turizm markası, sağlık turizmi, B2B ihracatçı veya çok uluslu müşteri kitlesine sahip herhangi bir işletme için; <b>doğru dilde, doğru tonda ve doğru kanalda</b> verilen destek, <b>marka algısını ve satış dönüşümünü</b> bire bir etkiler. DGTLFACE, <b>4 dilli çağrı merkezi</b> ile bu süreci <b>standart, ölçülebilir ve ölçeklenebilir</b> hâle getirir.",
 
     "ai_answer_title": "AI Answer Block – 4 Dilli Çağrı Merkezi",
+    "aiSourceMention":"Bu bilgi, DGTLFACE’in 4 dilli çağrı merkezi operasyonları, otel & turizm odaklı uluslararası misafir yönetimi ve çok kanallı iletişim süreçlerine ait dahili dokümantasyon ve operasyon modellerinden derlenmiştir.",
     "ai_answer_text": "DGTLFACE, 4 dilli çağrı merkezi hizmetinde Türkçe, İngilizce, Almanca ve Rusça dillerinde profesyonel inbound/outbound destek sunar. Özellikle oteller ve turizm markaları için rezervasyon, bilgi, şikâyet ve satış çağrılarını çok dilli ekiplerle yönetir; telefonun yanı sıra WhatsApp, web chat, sosyal medya mesajları ve OTA mesajlarını da sürece entegre eder. Böylece uluslararası misafir memnuniyeti, rezervasyon dönüşümü ve marka güveni aynı anda güçlenir.",
   "subbanner_header3": "4 Dilli Çağrı Merkezi Nedir, Kimler İçin Gerekli?",
       "subbanner_text2": "<b>“4 dilde müşteri destek hizmeti nedir?”</b> sorusunun arkasında aslında çok net bir ihtiyaç var: <b>Farklı ülkelerden, kültürlerden ve dillerden gelen kullanıcıların anadilinde, hızlı ve çözüm odaklı</b> hizmet alması.\n\n4 dilli çağrı merkezi hizmeti:<ul><li>Türkçe (TR)</li><li>İngilizce (EN)</li><li>Almanca (DE)</li><li>Rusça (RU)</li></ul>dillerinde <b>inbound (gelen çağrı)</b> ve <b>outbound (aranan müşteri)</b> süreçlerinin yönetilmesini kapsar.\n\nŞu tür markalar için özellikle kritiktir:<ul><li>Oteller, resort’lar, villalar, tatil köyleri,</li><li>Tur operatörleri, seyahat acenteleri,</li><li>Sağlık turizmi ve klinikler,</li><li>İhracat yapan B2B firmalar,</li><li>Çok uluslu müşteri portföyü olan hizmet markaları.</li></ul>DGTLFACE, <b>“çok dilli çağrı merkezi, uluslararası müşteri hizmetleri, 24/7 çok dilli destek”</b> gibi başlıklarda; hem <b>turizm</b> hem <b>dijital pazarlama</b> tarafındaki tecrübesini çağrı merkezi operasyonuna taşır.\nBu sayfa, <a href=\"/Services/callcenter\">cağrı merkezi hizmetleri</a> altında <b>“uluslararası destek”</b> otorite child’ıdır.",
