@@ -53571,6 +53571,1505 @@
         ]
       }
     }
+  },
+
+  "BlogBookingExpediaEntegrasyonuAdimAdimKurulum": {
+    "title": "Booking & Expedia Entegrasyonu Kurulum Rehberi",
+    "slug": "booking-expedia-entegrasyonu-adim-adim-kurulum",
+    "department": "pms-ota",
+    "updatedAt": "24 Ocak 2026",
+    "publishedAt": "2026-01-24",
+    "readingTime": "11 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Booking ve Expedia entegrasyonu adım adım: extranet hazırlığı, PMS–channel manager room/rate mapping, test rezervasyonu senaryoları ve canlıya geçiş kontrolü. İlk 30 gün KPI izleme planıyla stabilizasyon sağlayın.",
+    "seo": {
+      "metaTitle": "Booking & Expedia Entegrasyonu Kurulum Rehberi | DGTLFACE",
+      "metaDescription": "Booking ve Expedia entegrasyonu adım adım: extranet hazırlığı, PMS–channel manager mapping, test rezervasyonu ve canlıya geçiş kontrolü. Kurulum danışmanlığı alın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: PMS & OTA Yönetimi",
+        "Sayfa (Hub) / URL: OTA Entegrasyonu (Booking, Expedia) — /tr/pms-ota/ota-entegrasyonu",
+        "Blog / URL: /tr/pms-ota/blog/booking-expedia-entegrasyonu-adim-adim-kurulum",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional (Implementation)",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/pms-ota/blog/booking-expedia-entegrasyonu-adim-adim-kurulum"
+      ],
+      "strategySummary": "Bu yazı, bir önceki “OTA entegrasyonu nedir?” rehberinin devamı olarak silo içinde uygulama (implementation) rehberi rolünü üstlenir ve karar aşamasını “kurulum + test” pratiğine indirger. Hedef persona; otelin gelir yöneticisi/RM, rezervasyon müdürü, ön büro lideri ve entegrasyonu yöneten ajans/IT ekibidir. Funnel aşaması consideration → conversion: okuyucu, “hangi adımlarla kurarım ve canlıya çıkmadan neyi test ederim?” sorusuna net, takip edilebilir cevap alır. Ana iş sorusu: “Booking ve Expedia’da room & rate mapping’i nasıl doğru yapar, test rezervasyonlarıyla hataları canlıya çıkmadan nasıl yakalarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-24",
+      "readingTime": "11 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Booking ve Expedia entegrasyonunda başarılı kurulum için önce extranet tarafında oda tipleri ve fiyat planları netleştirilir; ardından PMS–channel manager bağlantısı kurularak room mapping ve rate mapping adımları tamamlanır. Canlıya geçmeden her oda tipi ve rate plan kombinasyonu için test rezervasyonu yapılmalı; iptal, tarih değişikliği ve kanal kısıtları gibi senaryolar mutlaka doğrulanmalıdır. Test süreci atlanırsa ilk haftalarda fiyat hatası ve overbooking kaynaklı yoğun destek ihtiyacı doğar.",
+      "sgeSummary": "Önce Booking/Expedia extranette oda–rate planları tanımla, sonra PMS–channel manager’da room/rate mapping yap. Canlıya geçmeden tüm kombinasyonlar için test rezervasyonu ve iptal/değişiklik akışlarını doğrula.",
+      "voiceAnswer": "Booking/Expedia entegrasyonu için mapping’i tamamlayın, canlıya geçmeden test rezervasyonu ve iptal senaryolarını kontrol edin.",
+      "aiFactSheet": [
+        "Hedef kitle: RM, rezervasyon müdürü, ön büro lideri, ajans/IT entegrasyon ekibi",
+        "KPI’lar: overbooking olay sayısı, fiyat tutarlılığı, güncelleme gecikmesi, iptal akışı doğruluğu, kanal bazlı net ADR",
+        "Entity’ler: Booking.com, Expedia, PMS, Channel Manager, RoomType, RatePlan, Restriction, TestReservation",
+        "Funnel: implementation → go-live → stabilization (ilk 30 gün izleme)",
+        "GEO bağlamı: Antalya, Belek, Side, Kemer (resort oda tipleri/market kombinasyonları)",
+        "İlişki cümlesi: RoomType → mappedTo → OTA Room, RatePlan → mappedTo → OTA Rate",
+        "Risk alanı: mapping + test atlama → fiyat hatası/overbooking → misafir deneyimi ve gelir kaybı"
+      ]
+    },
+    "h1": {
+      "title": "Booking ve Expedia Entegrasyonu Adım Adım: Kurulum ve Test Süreci",
+      "intro": "Booking ve Expedia entegrasyonu, “bağlantı açıldı” denip geçilecek bir iş değildir; entegrasyonun kalitesi room & rate mapping doğruluğu ve test rezervasyonu disiplini ile ölçülür. Özellikle Antalya, Belek, Side ve Kemer gibi sezonsal dalgalanmanın sert olduğu resort pazarlarda, küçük bir mapping hatası bir anda yanlış fiyat, yanlış müsaitlik ve overbooking riskine dönüşebilir. Bu rehber, teknik ama anlaşılır bir dille; extranet hazırlığından PMS–channel manager ayarlarına, test senaryolarından canlıya geçiş ve ilk 30 gün izlemeye kadar uçtan uca bir yol haritası sunar.",
+      "quickSummary": [
+        "1) Extranet’te oda tipi ve rate plan’ları standardize et",
+        "2) PMS ↔ Channel Manager bağlantısını kur, rol ve tek panel disiplinini belirle",
+        "3) Room mapping + rate mapping’i tamamla ve mapping audit yap",
+        "4) Test rezervasyonu matrisiyle rezervasyon/iptal/modifikasyon akışlarını doğrula",
+        "5) Go-live sonrası ilk 30 gün KPI ritmiyle stabilizasyon sağla"
+      ],
+      "ctaPrimary": {
+        "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
+        "text": "Room/rate mapping ve test planını otelinizin oda tiplerine göre 7 günde netleştirelim.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
+        "text": "Kurulum, mapping ve test sürecini otelinizin oda tiplerine göre hızlandırın.",
+        "href": "/pms-ota/ota-entegrasyonu"
+      },
+      "secondary": {
+        "label": "Booking & Expedia Kurulum ve Test Checklist’ini İndir",
+        "text": "Room/rate mapping ve test rezervasyonu adımlarını tek sayfada takip ederek canlıya geçiş hatalarını azaltın.",
+        "href": "/downloads/booking-expedia-kurulum-test-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "OTA Entegrasyonu (Booking, Expedia)", "href": "/pms-ota/ota-entegrasyonu" },
+      { "label": "Kanal Yönetimi", "href": "/pms-ota/kanal-yonetimi" },
+      { "label": "PMS Kurulum", "href": "/pms-ota/pms-kurulum" },
+      { "label": "Rezervasyon Yönetimi", "href": "/pms-ota/rezervasyon-yonetimi" },
+      { "label": "PMS & OTA Yönetimi (Hub)", "href": "/pms-ota-yonetimi" }
+    ],
+    "relatedPosts": [
+      { "title": "OTA Entegrasyonu (Booking, Expedia) — Hub", "href": "/pms-ota/ota-entegrasyonu" },
+      { "title": "Kanal Yönetimi: Stop-sell, restriction ve panel disiplini", "href": "/pms-ota/kanal-yonetimi" }
+    ],
+    "sections": [
+      {
+        "id": "h1-media-context",
+        "title": "Kurulum akışını netleştirin: mapping + test = kalite",
+        "blocks": [
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "p",
+            "text": "Bu rehberin hedefi “panel adımlarını saymak” değil; canlıya çıkmadan önce hataları yakalayacak bir disiplin kurmaktır. Entegrasyonun kalitesi; mapping doğruluğu, test rezervasyonu matrisi ve ilk 30 gün izleme ritmiyle ölçülür."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
+            "text": "Room/rate mapping ve test planını otelinizin oda tiplerine göre 7 günde netleştirelim.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "booking-expedia-hazirlik",
+        "title": "Booking ve Expedia hesaplarının hazırlanması",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kurulum başlamadan önce, Booking ve Expedia extranette “tanımlarınız” net olmalıdır. Çünkü mapping, tanıma bağlanır; tanım bulanıksa mapping de bulanık olur. Bu hazırlığı doğru yaparsanız, PMS ve channel manager tarafında kararlar hızlanır."
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda tipleri: Resort senaryosunda ana oda + varyasyonlar (manzara, kapasite, konsept) sade tanımlanmalı.",
+              "Fiyat planları: Refundable / non-refundable / early booking / last minute gibi planlar isimlendirme standardına oturtulmalı.",
+              "Politikalar: iptal, ön ödeme, minimum konaklama ve paket içerikleri netleştirilmeli.",
+              "Market/pazar kombinasyonları: örn. Antalya/Belek’te belirli pazarların farklı minimum gece kuralı varsa yazılı hale getirilmeli."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check: Extranet hazırlık kontrolü",
+            "items": [
+              "Oda tipi isimleri PMS/CM ile uyumlu olacak kadar net mi?",
+              "Rate plan’lar (refund/non-refund/promosyon) ayrı mı?",
+              "İptal ve ön ödeme politikaları yazılı mı?",
+              "Min stay / stop-sell yaklaşımı belirlendi mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Oda tiplerini “satılabilir ürün” mantığıyla sadeleştirin.",
+              "Rate plan isimlerini standartlaştırın (her kanalda aynı mantık).",
+              "Politika ve kısıtları bir tabloya döküp ekipçe onaylayın."
+            ]
+          },
+          { "type": "media", "slot": "divider-03" }
+        ]
+      },
+      {
+        "id": "pms-cm-ayarlar",
+        "title": "PMS ve channel manager ayarları: bağlantı ve roller",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu aşamada iki kritik karar vardır: (1) Tek kaynak gerçek neresi? (fiyat/kısıt PMS’te mi, channel manager’da mı?) (2) Kim hangi paneli yönetiyor? (RM, rezervasyon, ön büro, ajans/IT). Genel pratik: PMS operasyonun gerçeği, channel manager dağıtım ve kural motoru olur. Önemli olan “iki yerde birden kural yazmamak”tır."
+          },
+          { "type": "h3", "text": "Bağlantı kurulumu için minimum set" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "PMS ↔ Channel manager API/connector aktivasyonu",
+              "Kanal listesi: Booking + Expedia (ve varsa diğerleri)",
+              "Güncelleme frekansı/latency beklentisi (dakika seviyesinde)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check: Tek panel disiplini",
+            "items": [
+              "Fiyat/kısıt değişikliği tek panelden mi yapılacak?",
+              "Oda müsaitliği (inventory) hangi sistemden güncellenecek?",
+              "Güncelleme gecikmesi ölçülecek mi? (go-live KPI)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Kim, neyi, nereden yönetir?” dokümanını bir sayfaya yazın.",
+              "PMS’i operasyon; CM’i dağıtım/kural motoru olarak konumlandırın.",
+              "Go-live öncesi latency ölçüm hedefi belirleyin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "room-rate-mapping",
+        "title": "Room & rate mapping: adım adım kurulum listesi",
+        "blocks": [
+          { "type": "media", "slot": "divider-04" },
+          { "type": "h3", "text": "Booking ve Expedia entegrasyonu nasıl yapılır? (5–7 adım)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Oda tiplerini (RoomType) eşleştir: PMS/CM’deki oda tiplerini OTA’daki oda karşılıklarına bağla.",
+              "Fiyat planlarını (RatePlan) eşleştir: BAR, refundable, non-refundable, promosyon planlarını OTA rate’lerine bağla.",
+              "Kısıt setini tanımla: min stay, stop-sell, CTA/CTD gibi restriction’ların hangi kanallara nasıl dağıtılacağını belirle.",
+              "Vergi/komisyon mantığını doğrula: net/brüt fiyat yaklaşımı ve dahil/harici kalemleri kontrol et.",
+              "Envanter güncelleme kuralını kilitle: satılabilir oda mantığı, allotment ve kapama prosedürü net olsun.",
+              "Örnek kombinasyonlarla “mapping audit” yap: her oda tipi × her rate plan için hızlı doğrulama tablosu oluştur.",
+              "Test rezervasyonu aşamasına geç: canlıya çıkmadan tüm kritik senaryoları koş."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "İlişkisel anlatım: RoomType → mappedTo → OTA Room, RatePlan → mappedTo → OTA Rate; TestReservation → validates → mapping + restriction + cancellation flow."
+          },
+          {
+            "type": "table",
+            "caption": "Tablo: Room & Rate Mapping + Test Rezervasyonu Matrisi (şablon)",
+            "headers": ["RoomType", "RatePlan", "Booking test", "Expedia test", "İptal", "Modifikasyon", "Not"],
+            "rows": [
+              ["Oda A", "BAR", "✓", "✓", "✓", "✓", "PMS’e düşüş + fiyat doğrulama"],
+              ["Oda A", "Non-refundable", "✓", "✓", "✓", "✓", "Ön ödeme/ödeme kuralı kontrol"],
+              ["Oda B", "BAR", "✓", "✓", "✓", "✓", "Kapasite/konsept varyasyonu doğrulama"],
+              ["Oda B", "Promosyon", "✓", "✓", "✓", "✓", "Parite + kural dağıtımı kontrol"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check: Mapping doğrulama",
+            "items": [
+              "Her oda tipi OTA’da doğru ürünle eşleşti mi?",
+              "Her rate plan doğru fiyat mantığıyla mı bağlandı?",
+              "Restriction’lar kanal bazında tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Mapping’i “oda” ve “fiyat” diye iki ayrı kontrol listesiyle yürütün.",
+              "Promosyonları çoğaltmak yerine planları sadeleştirin.",
+              "En az 1 kez “kısıtlar” için kanal bazlı mini test yapın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "test-rezervasyonlari",
+        "title": "Test rezervasyonları ve hata senaryoları (kritik bölüm)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içeriklerin çoğu burada yüzeysel kalır: “test edin” der ama neyi test edeceğinizi söylemez. Fark yaratan bölüm, test rezervasyon matrisiniz ve hata senaryosu prosedürünüz olmalı."
+          },
+          { "type": "h3", "text": "Minimum test seti (her otel için)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Test-1: Oda tipi A + Rate plan BAR → rezervasyon → PMS’e düşüş kontrolü",
+              "Test-2: Oda tipi A + Non-refundable → ödeme/ön ödeme mantığı kontrolü",
+              "Test-3: Min stay kuralı → OTA’da doğru davranıyor mu?",
+              "Test-4: Stop-sell → satış kapanıyor mu, ne kadar sürede kapanıyor?",
+              "Test-5: İptal → OTA iptali PMS’e doğru yansıyor mu?",
+              "Test-6: Tarih değişikliği / modifikasyon → rate farkı ve müsaitlik güncellemesi doğru mu?"
+            ]
+          },
+          { "type": "h3", "text": "Hata senaryoları (resort gerçekleri)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Yanlış fiyat görünüyor → RatePlan mapping/vergiler/rounding",
+              "Satış kapanmıyor → stop-sell dağıtımı gecikiyor veya yanlış panelden yazılıyor",
+              "Overbooking riski → inventory güncellemesi/iki panel çatışması",
+              "İptal akışı bozuk → connector ayarı/rezervasyon status mapping"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check: Test disiplini",
+            "items": [
+              "Her oda × her rate plan kombinasyonu testlendi mi?",
+              "İptal ve modifikasyon akışı kontrol edildi mi?",
+              "Stop-sell ve min stay kısıtları doğrulandı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Testleri “kombinasyon matrisi” ile planlayın (oda × rate).",
+              "Hata yakalayınca önce mapping’i, sonra vergileri/kısıtları kontrol edin.",
+              "Canlıya çıkmadan önce “test raporu” yazılı hale gelsin."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "go-live-ilk-30-gun",
+        "title": "Canlıya geçiş ve ilk 30 gün izleme (stabilizasyon planı)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Canlıya geçiş, teknik bir “switch” değil; stabilizasyon sürecidir. Özellikle ilk 7–14 gün, küçük hatalar hızlıca büyüyebilir. Bu yüzden ilk 30 gün için izleme ritmi ve sorumluluk paylaşımı şarttır."
+          },
+          { "type": "h3", "text": "İlk 30 gün izleme KPI seti (pratik)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Overbooking olay sayısı (haftalık)",
+              "Fiyat tutarlılığı kontrolü (spot-check)",
+              "Güncelleme gecikmesi (latency) gözlemi",
+              "İptal/modifikasyon akışı doğruluğu",
+              "Kanal bazlı net ADR (komisyon sonrası perspektif)"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Vaka diliyle veri noktası (yumuşatılmış): Doğru yapılmış room & rate mapping ile overbooking ve fiyat yanlışları belirgin şekilde azalır; test süreci atlanan otellerde ise ilk hafta genellikle daha yoğun destek ve düzeltme ihtiyacı doğar."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check: Go-live sonrası kontrol",
+            "items": [
+              "Haftalık spot fiyat kontrolü yapılıyor mu?",
+              "İptal/modifikasyon örnekleri loglanıyor mu?",
+              "Operasyon ekibi “kapanma prosedürünü” biliyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk 30 gün için “günlük 10 dk kontrol” ritmi belirleyin.",
+              "Hata matrisi çıkarıp tekrar eden kök nedenleri kapatın.",
+              "Ekip eğitimini iç linklerle destekleyin (pms kurulum + kanal yönetimi)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
+            "text": "Kurulum + test planını oda tiplerinize göre çıkaralım, canlıya sorunsuz geçin.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          }
+        ]
+      },
+      {
+        "id": "booking-expedia-checklist-asset",
+        "title": "Booking & Expedia Kurulum ve Test Checklist’i — PMS & OTA Yönetimi",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Booking & Expedia Kurulum ve Test Checklist’i — PMS & OTA Yönetimi (v1.0)",
+            "purpose": "Bu doküman, Booking ve Expedia entegrasyonunu canlıya almadan önce room/rate mapping doğruluğunu ve test rezervasyonu senaryolarını tek sayfada yönetmeniz için tasarlanmıştır. Amaç, go-live sonrası “ilk hafta krizi” yaratabilecek fiyat hatası, kapama kuralı çalışmaması ve iptal akışı problemlerini erken yakalamaktır. Sonuç olarak ekibiniz daha az reaktif destek, daha hızlı stabilizasyon görür.",
+            "whoFor": "RM, rezervasyon müdürü, ön büro lideri ve entegrasyonu yöneten ajans/IT.",
+            "steps": [
+              "Oda tipleri + rate plan listesini PMS/CM’den çıkarın.",
+              "Mapping ve test matrisiyle her kombinasyonu doğrulayın.",
+              "14 günlük sprint planıyla go-live öncesi tüm senaryoları tamamlayın."
+            ],
+            "checklist": [
+              "Tek kaynak gerçek belirlendi (PMS mi CM mi?)",
+              "RoomType listesi sade ve satış mantığıyla uyumlu",
+              "RatePlan listesi (BAR/refund/non-refund/promosyon) standardize",
+              "Vergi/ücret dahil-hariç mantığı net",
+              "Restriction set (min stay/stop-sell/CTA/CTD) yazılı",
+              "Booking test seti hazır",
+              "Expedia test seti hazır",
+              "İptal + modifikasyon akışı doğrulama adımları hazır",
+              "Latency gözlem hedefi (dakika) belirlendi",
+              "İlk 30 gün izleme KPI seti belirlendi"
+            ],
+            "href": "/downloads/booking-expedia-kurulum-test-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          },
+
+         
+          { "type": "media", "slot": "checklist-06" },
+          { "type": "media", "slot": "kpi-07" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Sorunsuz go-live, “mapping + test + izleme” disiplinidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Booking ve Expedia entegrasyonunda başarı, tek bir ayar ekranına bağlı değildir. Oda ve fiyat planlarının standart tanımı, room/rate mapping doğruluğu, test rezervasyonu disiplini ve ilk 30 gün izleme ritmi birlikte çalıştığında; yanlış fiyat, kapama hatası ve overbooking riski anlamlı şekilde düşer."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "OTA Entegrasyon Kurulum Danışmanlığı Al",
+            "text": "Kurulum, mapping ve test sürecini otelinizin oda tiplerine göre hızlandıralım.",
+            "href": "/pms-ota/ota-entegrasyonu"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Booking & Expedia Kurulum ve Test Checklist’ini İndir",
+            "text": "Room/rate mapping ve test rezervasyonu adımlarını tek sayfada takip ederek canlıya geçiş hatalarını azaltın.",
+            "href": "/downloads/booking-expedia-kurulum-test-checklist-v1.0.pdf"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Booking ve Expedia entegrasyonu nasıl yapılır?",
+        "a": "Extranette oda tipleri ve rate plan’lar netleştirilir, PMS–channel manager bağlantısı kurulur ve room/rate mapping tamamlanır. Canlıya geçmeden test rezervasyonları ve iptal/modifikasyon senaryoları doğrulanır."
+      },
+      {
+        "q": "Room ve rate mapping adımları nelerdir?",
+        "a": "Oda tipleri OTA’daki ürünlere bağlanır (room mapping) ve her fiyat planı OTA rate’lerine eşleştirilir (rate mapping). Ardından kısıtlar (min stay/stop-sell) kanal bazında kontrol edilir."
+      },
+      {
+        "q": "OTA entegrasyonunda test rezervasyonu neden önemlidir?",
+        "a": "Test rezervasyonu, mapping’in gerçek hayatta doğru çalıştığını kanıtlar; rezervasyonun PMS’e düşüşü, fiyat mantığı ve kısıtların davranışı ancak bu şekilde doğrulanır."
+      },
+      {
+        "q": "Canlıya alınmadan önce neler test edilmeli?",
+        "a": "Fiyat değişimi, stop-sell, min stay, iptal, tarih değişikliği ve farklı rate plan kombinasyonları test edilmelidir. Ayrıca güncelleme gecikmesi ve kanal tutarlılığı gözlemlenmelidir."
+      },
+      {
+        "q": "Test süreci atlanırsa ne olur?",
+        "a": "İlk haftalarda yanlış fiyat, kapama kuralı hataları ve iptal akışı sorunları daha sık görülür; ekip daha fazla destek ve düzeltme ihtiyacıyla karşılaşır."
+      },
+      {
+        "q": "Resort otellerde en kritik mapping riski nedir?",
+        "a": "Oda tipi varyasyonlarının (manzara/kapasite/konsept) yanlış eşleşmesi ve rate plan’ların karışmasıdır. Bu, yanlış ürün satışı ve gelir kaybı üretebilir."
+      },
+      {
+        "q": "Antalya/Belek gibi destinasyonlarda hangi testler ekstra önemli?",
+        "a": "Min stay, stop-sell ve promosyon planlarının kanal bazında tutarlılığı ekstra kritiktir. Talep hızlı değiştiği için gecikme ve tutarsızlık gelir etkisini büyütür."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — booking-expedia-entegrasyonu-adim-adim-kurulum-hero-01.webp",
+          "h1-context — 1920×1080 — booking-expedia-entegrasyonu-adim-adim-kurulum-h1-context.webp",
+          "divider-03 — 1600×1200 — booking-expedia-entegrasyonu-adim-adim-kurulum-divider-03.webp",
+          "divider-04 — 1600×1200 — booking-expedia-entegrasyonu-adim-adim-kurulum-divider-04.webp",
+          "diagram-05 — 1920×1080 — booking-expedia-entegrasyonu-adim-adim-kurulum-diagram-05.webp",
+          "checklist-06 — 1200×1200 — booking-expedia-entegrasyonu-adim-adim-kurulum-checklist-06.webp",
+          "kpi-07 — 1200×1200 — booking-expedia-entegrasyonu-adim-adim-kurulum-kpi-07.webp",
+          "proof-08 — 1200×1200 — booking-expedia-entegrasyonu-adim-adim-kurulum-proof-08.webp",
+          "table-problem-root-solution — (tablo görseli)",
+          "table-before-after-kpi — (tablo görseli)"
+        ],
+        "technicalChecklist": [
+          "Tek kaynak gerçek (PMS mi CM mi?) yazılı ve ekipçe onaylı",
+          "RoomType/RatePlan isim standardı (TR/EN iç ekip standardı) hazır",
+          "Room mapping ve rate mapping için audit tablosu oluşturuldu",
+          "Vergi/komisyon net-brüt yaklaşımı doğrulandı",
+          "Restriction set (min stay/stop-sell/CTA/CTD) dokümante edildi",
+          "Test rezervasyonu: rezervasyon + iptal + modifikasyon senaryoları loglandı",
+          "Latency gözlemi için hedef ve alarm eşiği belirlendi",
+          "Go-live sonrası ilk 30 gün KPI ritmi (haftalık) tanımlandı"
+        ]
+      }
+    }
+  },
+
+  "BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma": {
+    "title": "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma",
+    "slug": "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma",
+    "department": "veri-analizi-raporlama",
+    "updatedAt": "24 Ocak 2026",
+    "publishedAt": "2026-01-24",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "OTA fiyat benchmark ile Booking/Expedia rakip fiyatlarını aynı tarih ve oda tipinde kıyaslayın. Price position, doluluk etkisi, rate parity ve fiyat savaşından kaçınma stratejisini 14 günlük döngüyle yönetin.",
+    "seo": {
+      "metaTitle": "OTA Fiyat Benchmark’ı: Rakip Konumlama Antalya | DGTLFACE",
+      "metaDescription": "OTA fiyat benchmark ile Booking/Expedia rakip fiyatlarını aynı tarih ve oda tipinde kıyaslayın. Price position, doluluk etkisi, rate parity ve fiyat savaşından kaçınma stratejisi."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Veri Analizi & Raporlama",
+        "Sayfa (Hub) / URL: Benchmark Analizi — /tr/raporlama/benchmark-analizi",
+        "Blog / URL: /tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/raporlama/blog/ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma"
+      ],
+      "strategySummary": "Bu yazı, benchmark silosunun “fiyat konumlama” kolunda otorite taşıyan child içerik gibi çalışır: genel benchmark 101’den sonra, pratikte en çok yapılan hataya (OTA fiyat savaşları) stratejik çerçeve getirir. Hedef persona; GM/otel sahibi ile satış–pazarlama ve revenue ekipleri; karar anı MoFu (consideration): “Bu hafta fiyatı nasıl konumlayayım, parity riskini nasıl yöneteceğim, doluluğu bozmadan ADR’yi nasıl koruyacağım?” sorularına cevap verir. İçerik; OTA fiyat benchmark verisini “ekran görüntüsü” seviyesinde bırakmayıp, Price Position → Occupancy → ADR/RevPAR ilişkisini sezdiren bir metodolojiye dönüştürür. Ana iş sorusu: “Rakip setine göre fiyatımı bilinçli biçimde nereye koymalıyım ve bu kararı hangi periyotla nasıl doğrulamalıyım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-24",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "OTA fiyat benchmark’ı; belirli tarih aralıklarında, aynı oda tipinde rakip setinizin Booking/Expedia gibi OTA’lardaki fiyatlarını izleyerek price position’ınızı görmenizi sağlar. Amaç her zaman “en ucuz olmak” değil; doğru segment ve sezonda, parity ve değer algısını bozmadan ADR–doluluk dengesini koruyacak şekilde konumlanmaktır. Doğru rakip seti, doğru tarih/oda seçimi ve düzenli aksiyon döngüsü ile fiyat verisi stratejiye dönüşür.",
+      "sgeSummary": "OTA fiyat benchmark, rakip set fiyatlarını aynı tarih/oda tipinde kıyaslayıp price position’ınızı görme yöntemidir; hedef, fiyat savaşı değil ADR–doluluk dengesidir.",
+      "voiceAnswer": "OTA fiyat benchmark ile rakiplerinize göre fiyatınızı konumlayın; en ucuz değil, dengeli ADR–doluluk hedefleyin.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, revenue, satış–pazarlama, ajans",
+        "KPI’lar: ADR, Occupancy, RevPAR, Price Position, kanal karması",
+        "Entity ilişkisi: OTA Price Benchmark → informs → Pricing Strategy",
+        "Risk alanı: Rate Parity, fiyat savaşları, değer algısı erozyonu",
+        "GEO bağlamı: Antalya, Belek, Side, Kemer, Bodrum (resort sezonsallığı)",
+        "Çıktı: Rakip set tablo + pozisyon–doluluk grafiği + 14 gün aksiyon planı",
+        "Rutin: Haftalık mini kontrol + aylık özet; yılda 1 ekran/araç güncellemesi"
+      ]
+    },
+    "h1": {
+      "title": "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma",
+      "intro": "OTA ekranlarına bakıp “rakip benden ucuz, hemen indiriyorum” refleksi; kısa vadede doluluğu toparlasa bile, orta vadede ADR’yi aşağı çeker, parity riskini artırır ve değer algısını zedeler. Bu rehberin amacı; Booking/Expedia gibi OTA’larda gördüğünüz fiyat bilgisini, “ekran okuma” seviyesinden çıkarıp stratejik konumlama kararına dönüştürmek: hangi rakip setiyle, hangi tarih/oda tipinde kıyas yapacağınızı; price position’ı doluluk ve gelirle nasıl bağlayacağınızı; fiyat savaşı yerine akıllı band yönetimi ile nasıl ilerleyeceğinizi netleştirmek.",
+      "quickSummary": [
+        "1) Rakip setini bölge + segment + ADR bandı ile sabitle",
+        "2) Aynı tarih penceresi + aynı oda/koşul eşlemesiyle kıyas yap",
+        "3) Price position’ı tek sayı değil “band” olarak yönet (çoğu gün ±%5)",
+        "4) Price Position → Occupancy → ADR/RevPAR ilişkisini birlikte oku",
+        "5) Haftalık kontrol + 14 günlük aksiyon döngüsüyle stratejiye çevir"
+      ],
+      "ctaPrimary": {
+        "label": "Fiyat & OTA Benchmark Analizi Talep Et",
+        "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde rakip setinizi netleştirip fiyat bandınızı veriye göre kuralım.",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Fiyat & OTA Benchmark Analizi Talep Et",
+        "text": "Rakip setiniz, band hedefiniz ve parity risklerini tek planda görmek isteyen ekipler için.",
+        "href": "/raporlama/benchmark-analizi"
+      },
+      "secondary": {
+        "label": "OTA Fiyat Benchmark Checklist’ini İndir",
+        "text": "Band hedefi, parity kontrolü ve 14 günlük aksiyon planını tek sayfada uygularsınız.",
+        "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Benchmark Analizi hizmet sayfası", "href": "/raporlama/benchmark-analizi" },
+      { "label": "Raporlama", "href": "/raporlama" },
+      { "label": "PMS & OTA Yönetimi (Hub)", "href": "/pms-ota-yonetimi" },
+      { "label": "OTA Entegrasyonu", "href": "/pms-ota/ota-entegrasyonu" },
+      { "label": "Online Satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      { "title": "Benchmark Analizi: Metodoloji ve uygulama çerçevesi", "href": "/raporlama/benchmark-analizi" },
+      { "title": "OTA Entegrasyonu: Mapping ve test disiplini", "href": "/pms-ota/ota-entegrasyonu" }
+    ],
+    "sections": [
+      {
+        "id": "h1-media",
+        "title": "Fiyatı “ekran okuma” değil, konumlama kararına çevirin",
+        "blocks": [
+          { "type": "media", "slot": "h1-context" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Fiyat & OTA Benchmark Analizi Talep Et",
+            "text": "Antalya/Belek/Side/Kemer/Bodrum gibi bölgelerde rakip setinizi netleştirip fiyat bandınızı veriye göre kuralım.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      },
+      {
+        "id": "ota-fiyat-benchmark-nedir",
+        "title": "OTA fiyat benchmark’ı nedir?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA fiyat benchmark’ı; aynı tarih aralığında, aynı oda tipinde ve benzer segmentteki rakip setinizin OTA fiyatlarını izleyip kendi price position’ınızı görme yöntemidir. Amaç “en ucuz olmak” değil, doğru dönemde doğru pazarda ADR–doluluk dengesini koruyacak biçimde konumlanmaktır."
+          },
+          {
+            "type": "p",
+            "text": "OTA fiyat benchmark, klasik “benchmark KPI” yaklaşımının fiyat tarafındaki pratik uygulamasıdır. Burada izlediğiniz şey yalnızca “fiyat” değil; fiyatın arkasındaki sinyaldir: rakipler hangi günlerde agresifleşiyor, hangi günlerde premium kalıyor, parity nerede bozuluyor, hangi oda tipinde fark açılıyor? Özellikle Antalya–Belek gibi sezonsal resort bölgelerinde, fiyatın “gün gün” değiştiği dönemlerde bu analiz, satış ve revenue ekipleri için hızlı yön duygusu verir."
+          },
+          { "type": "media", "slot": "divider-03" },
+          {
+            "type": "p",
+            "text": "Mini örnek (otel bağlamı): Belek’te benzer konseptte iki resort düşünün: biri her gün rakipten %10 ucuz konumlanıyor, diğeri çoğu gün ±%5 bandında kalıyor. İlk otel kısa vadede doluluğu artırabilir; ama ADR düşüşü “toplam gelir” avantajını her zaman garanti etmez. İkinci otel ise fiyat bandını koruyarak hem doluluğu hem birim geliri daha dengeli yönetebilir. (Bu bir teorik örnek; amaç band mantığını göstermek.)"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Benchmark amacımı yazdım: “Fiyat savaşına girmeden konumlanma”",
+              "“En ucuz olma” hedefini bıraktım, “band hedefi” belirledim",
+              "Aynı tarih + aynı oda tipinde kıyas yapmadan karar vermiyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Bu hafta 1 pazarı seç (ör. TR veya DE) ve sadece o pazar için kıyasla.",
+              "3 oda tipi belirle (standart / aile / suite) ve “aynı oda” kıyasını zorunlu kıl.",
+              "Price position için bir hedef band seç: çoğu gün ±%5 bandında kalmayı dene."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rakip-seti-tarih-oda-secimi",
+        "title": "Doğru rakip seti ve tarih aralığını seçmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA fiyat benchmark’ın kalitesi, rakip seti ve tarih/oda seçimiyle belirlenir. “Yakın otel” her zaman “doğru rakip” değildir. Side’deki bir aile resort’u ile Kemer’deki adult concept oteli; OTA ekranında benzer görünebilir ama talep havuzu, fiyat esnekliği ve paket dinamikleri farklıdır. Bu yüzden rekabet setini bölge + segment + ADR bandı ile filtrelemek gerekir."
+          },
+          { "type": "h3", "text": "Rakip seti seçimi için 5 pratik filtre" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bölge: Antalya / Belek / Side / Kemer / Bodrum gibi destinasyonlarda “aynı talep havuzu”",
+              "Segment: aile, yetişkin, ultra her şey dahil, butik, MICE vb.",
+              "Fiyat bandı: genel ADR seviyesi yakın mı?",
+              "Ürün vaadi: benzer konsept, benzer değer algısı",
+              "Kanal profili: OTA ağırlığı vs direct ağırlığı (yakın davranış)"
+            ]
+          },
+          { "type": "h3", "text": "Tarih aralığı: “aynı gün” kıyasının nedeni" },
+          {
+            "type": "p",
+            "text": "OTA fiyatları günü gününe değişir. Bu yüzden “gelecek hafta” ile “iki ay sonrası” aynı davranmaz. Benchmark’ta en az iki pencere seçmek iyi çalışır: yakın dönem (7–14 gün) hızlı aksiyon ve talep sinyali verir; pik sezon penceresi (30–60 gün sonrası) stratejik konumlamayı güçlendirir."
+          },
+          { "type": "h3", "text": "Oda tipi eşlemesi: en sık hata" },
+          {
+            "type": "p",
+            "text": "Rakip “deniz manzaralı deluxe” gösterirken siz “standart” kıyaslarsanız, “rakip pahalı” diye yanlış yorum yaparsınız. Mümkün olduğunca aynı oda kategorisi / aynı kişi sayısı / aynı iptal koşulu ile kıyas yapın."
+          },
+          { "type": "media", "slot": "diagram-05" },
+          {
+            "type": "table",
+            "caption": "Tablo: Rakip set fiyat karşılaştırma örneği (şablon)",
+            "headers": ["Tarih", "Oda Tipi", "Siz (₺/€)", "Rakip A", "Rakip B", "Rakip C", "Price Position Notu"],
+            "rows": [
+              ["12–14 Tem", "Std DBL", "TBD", "TBD", "TBD", "TBD", "Band hedefi: ±%5"],
+              ["19–21 Tem", "Std DBL", "TBD", "TBD", "TBD", "TBD", "Pik gün: premium kal?"],
+              ["12–14 Tem", "Family", "TBD", "TBD", "TBD", "TBD", "Aile oda farkı açıldı mı?"],
+              ["19–21 Tem", "Suite", "TBD", "TBD", "TBD", "TBD", "Suite’de parity kontrol"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Rakip setimi 4–8 otelde sabitledim (90 gün değiştirmeyeceğim)",
+              "Yakın dönem + pik sezon olmak üzere iki tarih penceresi seçtim",
+              "Kıyaslarda aynı oda/koşul eşlemesi yapıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Rakip setini “bölge + segment + band” ile filtreleyip 6 otele indir.",
+              "Takvim pencerelerini sabitle: 7–14 gün + 30–60 gün sonrası.",
+              "Tabloyu kur ve her hafta aynı gün aynı saat güncelle."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "price-position-vs-doluluk",
+        "title": "Fiyat pozisyonu vs doluluk ilişkisini doğru okumak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Fiyat benchmark’ta en kritik hata, price position’ı tek başına yorumlamaktır. “Rakiplerden ucuzum” demek, otomatik olarak “doluluk artar” anlamına gelmez; çünkü doluluğu sadece fiyat değil, değer algısı, yorum skoru, içerik kalitesi, oda stoğu ve kanal görünürlüğü de etkiler. Bu nedenle fiyat pozisyonunu okurken, en az bir gelir KPI’sı (ADR/RevPAR) ve doluluk trendiyle birlikte okumak gerekir."
+          },
+          { "type": "h3", "text": "3 senaryo: aynı fiyat değişimi, farklı sonuç" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Fiyatı düşürdünüz, doluluk artmadı: Talep zayıf veya görünürlük sorunu olabilir (kanal/ürün sayfası).",
+              "Fiyatı düşürdünüz, doluluk arttı ama ADR çöktü: Gelir kalitesi düşer; uzun vadede “ucuz otel” algısı oluşabilir.",
+              "Bandı korudunuz, doluluk stabil, ADR korundu: Çoğu tesiste daha sağlıklı denge budur."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Teorik band notu: Rakiplerden %10 daha ucuz olmak doluluğu artırsa bile, toplam gelirde her zaman avantaj yaratmayabilir; çoğu senaryoda ±%5 bandı içinde konumlanmak daha dengeli sonuç verebilir. (Buradaki oranlar band mantığını anlatan örnektir; kesin sonuç vaat etmez.)"
+          },
+          { "type": "media", "slot": "kpi-07" },
+          { "type": "h3", "text": "Basit okuma modeli: “Band + istisna günler”" },
+          {
+            "type": "p",
+            "text": "Pratikte, her gün “en iyi fiyat” aramak yerine; çoğu gün için bir band hedefi koyup (ör. rakip set ortalamasına göre ±%5), yalnızca belirli günlerde (bayram, etkinlik, pik) “premium” veya “koruma” kararları almak daha sürdürülebilir olur. Antalya ve Bodrum gibi yüksek dalgalanmalı pazarlarda bu yaklaşım, ekiplerin karar hızını artırır."
+          },
+          { "type": "media", "slot": "divider-04" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Price position’ı doluluk + ADR ile birlikte yorumluyorum",
+              "“Band hedefi” belirledim; istisna günleri ayrı yönetiyorum",
+              "Fiyat değişimini takiben 7 günlük trend kontrolü yapıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Price position’ı tek sayı değil “band” olarak tanımla.",
+              "Pik günler için ayrı kural yaz: “Pik günlerde band dışına premium çıkabilirim.”",
+              "Fiyat değişimi sonrası 7 gün: doluluk + ADR + RevPAR trendini kontrol et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "parity-ve-fiyat-savasi",
+        "title": "Rate parity ve fiyat savaşlarından kaçınmak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA fiyat benchmark’ın en tehlikeli sonucu, farkında olmadan fiyat savaşı başlatmaktır. Bir otel indirdiğinde siz indirirsiniz; sonra diğeri tekrar indirir… Sonuç: doluluk aynı kalsa bile ADR aşağı iner ve pazarda “ucuz” çıtası düşer. Ayrıca rate parity, marka güveni ve kanal ilişkileri açısından kritik bir risk alanıdır."
+          },
+          { "type": "h3", "text": "Rate parity nedir ve neden önemlidir?" },
+          {
+            "type": "p",
+            "text": "Rate parity; aynı oda ve koşul için farklı kanallarda tutarlı fiyat/koşul sunma prensibidir. Her destinasyonda ve her sözleşmede detaylar değişebilir; ancak pratikte parity bozulduğunda, hem OTA görünürlüğü hem direct satış güveni etkilenebilir."
+          },
+          { "type": "h3", "text": "Fiyat savaşı “sadece fiyat” değildir" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Esnek iptal / erken giriş / geç çıkış",
+              "Oda upgrade (stok varsa)",
+              "Ek hizmet (transfer, spa kredisi, çocuk avantajı)",
+              "Direct’e özel avantaj (parity çerçevesini bozmadan)"
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Fiyat savaşı yapmadan akıllı konumlanma (3 ipucu)",
+            "items": [
+              "Bandı koru, istisnayı belgele: band dışı kararlar “neden” ile raporda dursun.",
+              "Oda tipine göre oynat: standartta band, suite’te premium; her şeyi aynı anda düşürme.",
+              "Takvimi böl: 7–14 gün yakın dönemde kontrollü, pik sezonda daha disiplinli ol."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Parity risk noktalarımı listeledim (oda/koşul/kanal)",
+              "Fiyat indirimini “her oda” yerine “seçili oda/tarih” ile sınırlıyorum",
+              "Değer unsurlarıyla rekabet seçeneklerini kullanıyorum"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Parity kontrol rutini ekle: haftada 1, aynı oda/koşul.",
+              "Fiyat değişimini “oda tipi bazlı” yap; hepsini aynı anda oynatma.",
+              "Fiyat yerine değer bileşenlerini artırarak rekabet et."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "benchmark-aksiyon-14-gun",
+        "title": "Fiyat benchmark sonuçlarını stratejiye çevirmek (14 günlük döngü)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veriyi toplamak tek başına yeterli değildir; benchmark’ın değeri, aksiyon döngüsüne girdiğinde ortaya çıkar. Bu bölüm; price position verisini doluluk/ADR ile bağlayan basit bir karar matrisi ve 14 günlük çalışma ritmi verir."
+          },
+          { "type": "h3", "text": "Basit karar matrisi: 4 durum" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Siz pahalı / doluluk düşük: değer algısı ve kanal görünürlüğü kontrol; bandı kademeli düzelt.",
+              "Siz pahalı / doluluk yüksek: premium alanı var; parity ve değer sunumunu güçlendir.",
+              "Siz ucuz / doluluk düşük: sadece fiyat sorunu değil; ürün/iletişim/kanal sorunu olabilir.",
+              "Siz ucuz / doluluk yüksek: gelir kalitesi riski; ADR bandını toparlama planı yap."
+            ]
+          },
+          { "type": "h3", "text": "14 günlük benchmark → aksiyon planı (özet)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gün 1–3: rakip set + tarih/oda eşlemesi + parity kontrol",
+              "Gün 4–7: band hedefi + istisna günleri + ilk fiyat düzenlemesi",
+              "Gün 8–14: doluluk/ADR trend kontrol + ikinci ayar + öğrenim notu"
+            ]
+          },
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "OTA Fiyat Benchmark Checklist’ini İndir",
+            "text": "Band hedefi, parity kontrolü ve 14 günlük aksiyon planını tek sayfada uygularsınız.",
+            "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Fiyat & OTA Benchmark Analizi Talep Et",
+            "text": "Rakip setinizi netleştirip price position’ı doluluk/ADR ile bağlayan bir konumlama planı için.",
+            "href": "/raporlama/benchmark-analizi"
+          },
+          {
+            "type": "p",
+            "text": "Teknik SEO notu (sheet’le uyumlu): “ota fiyat benchmark”, “booking fiyat karşılaştırma”, “rakip otellerle fiyatımı nasıl kıyaslarım” gibi ifadeler içerikte doğal geçti. Sayfa işaretlemesi için Article + FAQPage önerilir; iç linkler benchmark ve PMS–OTA sayfalarına dengeli dağıtılmalıdır. Görsel/araç ekranları yılda bir değişebileceği için “pratik ipuçları” bölümü yılda 1 kez güncellenmelidir (Refresh: 365)."
+          }
+        ]
+      },
+      {
+        "id": "ota-benchmark-checklist-asset",
+        "title": "OTA Fiyat Benchmark Checklist’ini İndir — Veri Analizi & Raporlama",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "OTA Fiyat Benchmark Checklist’ini İndir — Veri Analizi & Raporlama (v1.0)",
+            "purpose": "Bu checklist; OTA fiyat benchmark sürecini standartlaştırır: rakip seti, tarih/oda eşlemesi, parity kontrolü ve band hedefi aynı çerçevede toplanır. Amaç, “en ucuz olma” refleksini kırıp; price position kararlarını doluluk ve ADR ile bağlayan 14 günlük aksiyon döngüsü kurmaktır.",
+            "whoFor": "GM/otel sahibi, revenue, satış–pazarlama, kanal yönetimi ve ajans ekipleri.",
+            "steps": [
+              "Rakip seti + tarih pencerelerini seç ve 90 gün sabitle.",
+              "Aynı oda/koşul eşlemesiyle tabloyu haftalık güncelle.",
+              "14 günlük sprint planını uygula; doluluk/ADR trendine göre bandı ayarla."
+            ],
+            "checklist": [
+              "Rakip seti (4–8 otel) bölge+segment+band ile seçildi",
+              "Tarih pencereleri belirlendi (7–14 gün + 30–60 gün)",
+              "Aynı oda/koşul eşlemesi standardı yazıldı",
+              "Rate parity kontrol rutini belirlendi (haftada 1)",
+              "Band hedefi yazıldı (Varsayım: çoğu gün ±%5)",
+              "İstisna günler tanımlandı (bayram/etkinlik/pik)",
+              "Fiyat değişimi sonrası kontrol KPI’ları seçildi (Occupancy + ADR + RevPAR)",
+              "Aksiyon formatı sabitlendi (3–6 madde + sorumlu + tarih)"
+            ],
+            "href": "/downloads/ota-fiyat-benchmark-checklist-v1.0.pdf",
+            "buttonLabel": "Checklist’i İndir"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Benchmark, fiyat savaşı değil “band + rutin + öğrenim” sistemidir",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "OTA fiyat benchmark, rakip ekranına bakıp refleks vermek için değil; price position kararlarını doluluk ve ADR/RevPAR ile bağlamak için kullanılır. Band hedefi + istisna günler yaklaşımı, parity riskini yönetirken gelir kalitesini korumaya yardımcı olur. Asıl fark, veriyi haftalık rutin ve 14 günlük aksiyon döngüsüyle stratejiye çevirmenizdir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Fiyat & OTA Benchmark Analizi Talep Et",
+            "text": "Rakip setinizi netleştirip price position’ı doluluk/ADR ile bağlayan bir konumlama planı için.",
+            "href": "/raporlama/benchmark-analizi"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "OTA fiyat benchmark’ı nedir?",
+        "a": "OTA fiyat benchmark; aynı tarih aralığında ve aynı oda tipinde rakip setinizin Booking/Expedia gibi OTA’lardaki fiyatlarını izleyerek price position’ınızı görme yöntemidir. Hedef, en ucuz olmak değil; ADR–doluluk dengesini koruyan konumlanmadır."
+      },
+      {
+        "q": "Booking ve Expedia’da rakip fiyatlarını nasıl kıyaslarım?",
+        "a": "Önce rakip setini (bölge/segment/band) seçin, sonra aynı tarih penceresinde aynı oda tipi ve aynı iptal koşuluyla fiyatları tabloya alın. Kıyasın güvenilirliği “aynı oda/koşul” eşlemesine bağlıdır."
+      },
+      {
+        "q": "OTA fiyat benchmark’ı nasıl yapılır?",
+        "a": "Rakip setini belirleyin, yakın dönem ve pik sezon için iki tarih penceresi seçin, aynı oda/koşul eşlemesiyle fiyatları kaydedin, parity kontrolü yapın ve band hedefinize göre aksiyon çıkarın. Sonrasında 7 günlük trendle doluluk/ADR etkisini kontrol edin."
+      },
+      {
+        "q": "Fiyat benchmark sonuçlarını stratejiye nasıl yansıtırım?",
+        "a": "Price position’ı doluluk ve ADR ile birlikte okuyup bir karar matrisi oluşturun (pahalı/ucuz + doluluk yüksek/düşük). 14 günlük bir döngüyle ölç–ayarla–kontrol–öğrenim notu şeklinde ilerleyin."
+      },
+      {
+        "q": "Sürekli rakiplerden ucuz olmak neden risklidir?",
+        "a": "Kısa vadede doluluğu artırsa bile ADR’yi aşağı çekebilir ve değer algısını zedeleyebilir. Ayrıca fiyat savaşı tetikleyerek pazarda genel fiyat çıtasını düşürebilir."
+      },
+      {
+        "q": "Rate parity nedir ve beni nasıl etkiler?",
+        "a": "Rate parity, aynı oda ve koşul için kanallar arasında tutarlı fiyat/koşul sunma prensibidir. Parity bozulduğunda görünürlük, güven ve kanal performansı etkilenebilir; bu yüzden düzenli kontrol rutini gerekir."
+      },
+      {
+        "q": "Rakip seti kaç otelden oluşmalı?",
+        "a": "Pratikte 4–8 otel, hem yönetilebilir hem de tek rakibe takılmadan trend görmeye yeterli bir aralıktır. Rakip setini en az 90 gün sabit tutmak kıyasın kalitesini artırır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero-01 — 1920×1080 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-hero-01.webp",
+          "h1-context — 1920×1080 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-h1-context.webp",
+          "divider-03 — 1600×1200 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-divider-03.webp",
+          "divider-04 — 1600×1200 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-divider-04.webp",
+          "diagram-05 — 1920×1080 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-diagram-05.webp",
+          "checklist-06 — 1200×1200 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-checklist-06.webp",
+          "kpi-07 — 1200×1200 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-kpi-07.webp",
+          "proof-08 — 1200×1200 — ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma-proof-08.webp",
+          "table-competitor-price — (rakip set fiyat karşılaştırma tablosu)",
+          "table-problem-root-solution — (problem-kök neden-çözüm tablosu)",
+          "table-before-after-kpi — (öncesi/sonrası KPI tablosu)"
+        ],
+        "technicalChecklist": [
+          "Rakip seti (4–8 otel) 90 gün sabitlendi",
+          "Tarih pencereleri: 7–14 gün + 30–60 gün sonrası belirlendi",
+          "Aynı oda/koşul eşlemesi standardı yazıldı (kişi sayısı + iptal koşulu)",
+          "Price position band hedefi tanımlandı (varsayım: ±%5)",
+          "İstisna günler (bayram/etkinlik/pik) işaretlendi",
+          "Haftalık parity kontrol rutini (aynı oda/koşul) planlandı",
+          "KPI seti: Occupancy + ADR + RevPAR + Price Position tek panoda okundu",
+          "14 günlük aksiyon döngüsü (ölç–ayarla–kontrol–öğrenim notu) oluşturuldu"
+        ]
+      }
+    }
+  },
+
+  "BlogOtelReelsOdaSatisFunneli": {
+    "title": "Reels ile Oda Satışı: Oteller İçin Reels Funnel’ı Nasıl Kurulur?",
+    "slug": "otel-reels-oda-satis-funneli",
+    "department": "hotel",
+    "updatedAt": "24 Ocak 2026",
+    "publishedAt": "2026-01-24",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel Reels funnel’ı kurun: 3 sn hook, 15–30 sn hikâye, tek CTA ve Reels→WhatsApp/rezervasyon akışı. KPI tablosu + şablonla 14 günde hızlı uygulayın.",
+    "seo": {
+      "metaTitle": "Reels ile Oda Satışı: Otel Reels Funnel’ı | DGTLFACE",
+      "metaDescription": "Otel Reels funnel’ı kurun: 3 sn hook, 15–30 sn hikâye, net CTA ve Reels→WhatsApp/rezervasyon akışı. KPI tablosu ve şablonla hızlı uygulayın."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: Otel",
+        "Sayfa (Hub) / URL: Otel Sosyal Medya Yönetimi — /tr/otel/sosyal-medya",
+        "Blog / URL: /tr/otel/blog/otel-reels-oda-satis-funneli",
+        "Blog Tipi: Core",
+        "Intent: Informational + Transactional",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/otel/blog/otel-reels-oda-satis-funneli"
+      ],
+      "strategySummary": "Bu yazı, Otel Sosyal Medya silo’sunda “Reels performans” odağını taşıyan child + conversion taşıyıcı içeriktir; bir önceki strateji rehberinin üstüne oturur ve doğrudan “oda satışı” kararını kolaylaştırır. Hedef persona, özellikle satış–pazarlama müdürü ve ajans yöneticisi: “Reels’i izlenme için değil, direct booking/WhatsApp talebi için nasıl sistemleştiririm?” sorusuna yanıt arar. Funnel’da consideration → booking basamağına hizmet eder; CTA ve yönlendirme (link/DM/WhatsApp) kurgusu operasyonel olarak ölçülebilir hale getirilir. Ana iş sorusu: “Reels’ten gelen ilgiyi hangi akışla tıklamaya ve talebe çevirirsem oda satışına anlamlı katkı sağlarım?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-24",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Reels, otellerin yeni kitlelere erişip oda satışını tetiklemesi için en güçlü kısa video formatıdır. Etkili bir Reels funnel’ı; ilk 3 saniyede hook, 15–30 saniyelik “oda/deneyim” hikâyesi, tek ve net CTA (WhatsApp, rezervasyon sayfası veya DM) ve izleyiciyi tıklamaya taşıyan akıcı bir yönlendirme planından oluşur. Başarı; izlenme değil profil ziyareti, tıklama ve talep metrikleriyle ölçülür.",
+      "sgeSummary": "3 sn hook yaz, 15–30 sn hikâyede oda/deneyimi göster, tek CTA seç (WhatsApp/rezervasyon/DM), Reels→bio link akışını kur, izlenme süresi + tıklama + talep KPI’larını izle.",
+      "voiceAnswer": "Reels’te hook kur, kısa hikâye anlat, tek CTA ver ve izleyiciyi WhatsApp ya da rezervasyona taşı.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel satış–pazarlama ekipleri, ajanslar, resort yöneticileri",
+        "KPI: izlenme süresi, profil ziyareti, bio tıklama, WhatsApp/DM talep, rezervasyon katkısı",
+        "Entity: Instagram Reels, Hotel/Resort, Room Type, Experience, Landing Page, Direct Booking, WhatsApp Funnel",
+        "Geo: Antalya, Belek, Side, Kemer, Bodrum (örnek senaryolar)",
+        "Funnel: Awareness → Interest → Consideration → Booking",
+        "Çıktı: 3 funnel örneği + storyboard + KPI tablosu + CTA kural seti",
+        "Risk: “İçerik fikri” seviyesinde kalıp yönlendirme ve ölçüm kurgusunu atlamak"
+      ]
+    },
+    "h1": {
+      "title": "Reels ile Oda Satışı: Oteller İçin Reels Funnel’ı Nasıl Kurulur?",
+      "intro": "Reels, oteller için sadece “erişim” değil; doğru kurgulandığında booking niyeti üreten bir kısa video motorudur. Ancak çoğu hesap Reels’i içerik fikri seviyesinde yürütür: video güzel olur, izlenme gelir… ama tıklama ve talep gelmez. Bu rehberde Instagram Reels’i, Hotel Room Sales / Direct Booking hedefiyle; hook → hikâye → CTA → yönlendirme → ölçüm şeklinde, net bir “reels ile oda satışı” funnel sistemine oturtacağız.",
+      "quickSummary": [
+        "1) Reels hedefini izlenmeden talebe çevir",
+        "2) Hook (0–3 sn) + 15–30 sn hikâyeyi standardize et",
+        "3) Her Reels için tek CTA seç (WhatsApp / Landing / DM)",
+        "4) Reels→Profil→Bio akışındaki sürtünmeyi azalt",
+        "5) KPI setini funnel’a göre ölç ve 14 gün sprint ile optimize et"
+      ],
+      "ctaPrimary": {
+        "label": "Reels Funnel Analizi ve Örnek Senaryo Talep Edin",
+        "text": "Mevcut hesabınız için 3 Reels senaryosu + CTA akışı + KPI hedeflerini otelinize göre netleştirelim.",
+        "href": "/otel/sosyal-medya"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Reels Funnel Analizi ve Örnek Senaryo Talep Edin",
+        "text": "Hangi Reels kategorisi hangi kanala gidecek; otelinizde en hızlı talep artışını birlikte kurgulayalım.",
+        "href": "/otel/sosyal-medya"
+      },
+      "secondary": {
+        "label": "Reels Funnel Şablonunu (PDF/Notion) İndir",
+        "text": "Hook bankası, storyboard ve KPI tablosunu tek dosyada kullanıp 14 günde funnel’ı ayağa kaldırın.",
+        "href": "/downloads/reels-funnel-sablonu-v1.0.pdf"
+      }
+    },
+    "internalLinks": [
+      { "label": "Otel Sosyal Medya Yönetimi", "href": "/otel/sosyal-medya" },
+      { "label": "Reels & Video (SMM)", "href": "/smm/reels-video" },
+      { "label": "Video Prodüksiyon", "href": "/creative/video-produksiyon" },
+      { "label": "SMM Planlama & Strateji", "href": "/smm/planlama-strateji" },
+      { "label": "SMM Analiz & Raporlama", "href": "/smm/analiz-raporlama" },
+      { "label": "PMS & OTA Online Satış", "href": "/pms-ota/online-satis" }
+    ],
+    "relatedPosts": [
+      { "title": "Otel Sosyal Medya Yönetimi: Strateji ve Planlama", "href": "/otel/sosyal-medya" },
+      { "title": "Reels & Video Üretimi: Format ve Seri Mantığı", "href": "/smm/reels-video" },
+      { "title": "Video Prodüksiyon: Otel İçerik Çekim Akışı", "href": "/creative/video-produksiyon" }
+    ],
+    "sections": [
+      {
+        "id": "reelsin-otel-satislarindaki-rolu",
+        "title": "Reels’in Otel Satışlarındaki Rolü: İzlenmeden Talebe",
+        "blocks": [
+          { "type": "media", "slot": "h1-context" },
+          {
+            "type": "p",
+            "text": "Reels’in satış katkısı, “kaç kişi izledi” sorusundan çok “kaç kişi niyet üretti” sorusuyla ölçülür. Niyet; profil ziyareti, link/WhatsApp tıklaması, DM talebi ve web’de oda sayfası görüntüleme gibi sinyallerle görünür hale gelir. Resort otellerde iyi kurgulanmış Reels kampanyalarında, izlenmeden profil ziyareti ve web/WhatsApp tıklamasına giden hat üzerinde %5–15 bandında tıklama oranları görülebilen senaryolar vardır; bu bir “garanti” değil, doğru hook + doğru CTA + doğru yönlendirme birleştiğinde yakalanabilen bir performans aralığıdır."
+          },
+          {
+            "type": "h3",
+            "text": "Mini örnek (otel bağlamı)"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Belek’te aile resort: “Family room + aquapark” Reels’i → profil → WhatsApp teklif talebi",
+              "Bodrum butik: “sunset + gastronomy” Reels’i → profil → landing → müsaitlik sorgu"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Reels hedefim “izlenme” mi “talep” mi? (ikisi aynı şey değil)",
+              "Reels sonrası tek bir aksiyon istiyor muyum (WhatsApp/rezervasyon/DM)?",
+              "Profil/bio, Reels vaadiyle uyumlu mu (oda tipi, konsept, konum)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO aksiyon listesi)",
+            "items": [
+              "Her Reels’i tek bir “next step” ile bitir: WhatsApp veya rezervasyon veya DM.",
+              "“İzlenme” KPI’sını tek başına başarı sayma; tıklama + talep KPI’sını zorunlu yap.",
+              "En iyi çalışan 3 Reels formatını “seri” haline getir (kapak + mesaj + CTA standardı)."
+            ]
+          },
+          { "type": "media", "slot": "divider-01" }
+        ]
+      },
+      {
+        "id": "reels-funnel-nasil-kurulur",
+        "title": "Reels ile Oda Satışı Funnel’ı Nasıl Kurulur?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki yapı, “Instagram Reels → traffic → booking/WhatsApp” mantığını netleştirir. Buradaki amaç, Reels’i “yaratıcı içerik” değil, kısa video funnel olarak işletmektir."
+          },
+          { "type": "h3", "text": "Adım Adım Reels Funnel (4–6 madde)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Hook (0–3 sn): Tek cümle vaat + görsel kontrast (oda/deneyim)",
+              "Hikâye (3–15 sn): 2–3 hızlı sahne: oda → tesis → deneyim",
+              "Kanıt (10–20 sn): 1 net kanıt: özellik, yorum, ödül, “neden biz?”",
+              "CTA (son 2–3 sn): Tek aksiyon: “WhatsApp’tan teklif al” / “Müsaitliği kontrol et”",
+              "Yönlendirme: Reels → profil → bio link/WhatsApp (sürtünme azalt)",
+              "Ölçüm: İzlenme süresi + profil ziyareti + tıklama + talep/rezervasyon katkısı"
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" },
+          { "type": "h3", "text": "Neden rakipler bu kısmı kaçırıyor?" },
+          {
+            "type": "p",
+            "text": "Rakip yazılar çoğunlukla “Reels içerik fikirleri” anlatır. Oysa otel dikeyinde farkı yaratan; fikir değil, CTA + yönlendirme + ölçüm üçlüsünün şematik ve uygulanabilir şekilde kurulmasıdır. Bu üçlü yoksa Reels sadece “reach” üretir; oda satışına etkisi belirsiz kalır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Hook vaadim “oda tipi” veya “deneyim” gibi somut bir şey söylüyor mu?",
+              "CTA tek mi, yoksa aynı anda 2 yönlendirme mi var?",
+              "Yönlendirme linki Reels’in vaadiyle aynı sayfaya mı gidiyor?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Funnel’ı yazılı hale getir (1 sayfa): Hook → Hikâye → CTA → Hedef kanal.",
+              "Reels kapaklarını “seri” yap (Room / Experience / Destination).",
+              "Haftalık raporda “talep” metriklerini zorunlu alan yap."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hook-gorsel-dil-mesaj",
+        "title": "Hook, Görsel Dil ve Mesaj: İlk 3 Saniyeyi Kazan",
+        "blocks": [
+          { "type": "media", "slot": "divider-02" },
+          {
+            "type": "p",
+            "text": "Instagram Reels’te ilk 3 saniye; otel için “oda turu mu, destinasyon mu, teklif mi?” kararını verir. Hook; sadece metin değil, görüntü ve ritimle birlikte çalışır."
+          },
+          { "type": "h3", "text": "Hook bankası (otel için 7 örnek)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Bu oda tipini görenler genelde upgrade istiyor…”",
+              "“Belek’te aile tatilinde en çok sorulan 3 şey…”",
+              "“Side’de denize sıfır: odadan 10 saniyede plaj”",
+              "“Kemer’de doğa sevenler için: sabah rutini…”",
+              "“Bodrum’da sunset’i böyle yaşarsınız…”",
+              "“Bu 15 saniyede oteli gerçekten anlayacaksın”",
+              "“Fiyat sormadan önce şunu gör…”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Mini örnek (resort): Hook + sahne: “Aile odası” → “çocuk kulübü” → “akşam show” → “WhatsApp teklif”."
+          },
+          { "type": "h3", "text": "Görsel dil: Oda / Deneyim / Destinasyon üçlüsü" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Room Type: yatak, banyo, balkon, manzara, metrekare (somut kanıt)",
+              "Experience: gastronomi, spa, etkinlik, beach (duygu)",
+              "Destination: Antalya/Belek/Side/Kemer/Bodrum “gitme motivasyonu” (keşif)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Videoda ilk 3 saniyede “konu” anlaşılıyor mu?",
+              "Sahne sayısı 3–5’i geçiyor mu (fazlaysa dağılır)?",
+              "Mesajım bir cümleyle özetlenebilir mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "10 hook yaz, 3’ünü seç ve 2 hafta test et.",
+              "Aynı çekimlerden 2 farklı Reels üret: biri Room, biri Experience.",
+              "Kapak görselini “kategori etiketi” gibi kullan (Room / Destination)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reelsten-nereye-yonlendireyim",
+        "title": "Reels’ten Nereye Yönlendirmeliyim? Link mi, DM mi, WhatsApp mı?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bu soru, oda satışına giden yolun en kritik kararıdır. Yanlış yönlendirme, iyi Reels’i boşa çıkarır. Doğru cevap; otelin satış sürecine, fiyat politikasına, sezon yoğunluğuna ve call center/WhatsApp kapasitesine göre değişir."
+          },
+          { "type": "h3", "text": "Hedef kanal karar matrisi (basit)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "WhatsApp (çoğu resort için güçlü): Hızlı teklif, paket, aile odası, sezon fiyatı soruları — avantaj: düşük sürtünme; risk: kapasite yoksa “cevapsız talep” artar",
+              "Rezervasyon / Landing Page (direct booking odaklı): Net fiyat/müsaitlik, kampanya, erken rezervasyon — avantaj: ölçeklenebilir; risk: sayfa yavaşsa drop olur",
+              "DM (ara adım / ilişki): Marka/deneyim soruları, butik oteller — avantaj: ilişki kurar; risk: satışa bağlamak zor olabilir (net süreç şart)"
+            ]
+          },
+          { "type": "h3", "text": "“Tek CTA” kuralı" },
+          {
+            "type": "p",
+            "text": "Reels sonunda iki seçenek verdiğinizde (“WhatsApp’a yaz” + “linke tıkla”), kullanıcı çoğunlukla hiçbirini yapmaz. Bu yüzden her Reels için tek hedef seçin. Alternatif kanal, profil/bio içinde ikincil olarak dursun."
+          },
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "WhatsApp yanıt SLA’ım var mı (örn. 5–15 dk)?",
+              "Landing page tek hedefli mi (oda/teklif/rezervasyon)?",
+              "DM sürecim “teklif”e bağlanıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 Reels kategorisi belirle: Room→WhatsApp, Destination→Landing, Experience→DM gibi.",
+              "Profil bio’da tek ana CTA tut; diğerini sayfada destekle.",
+              "Sezon yoğunluğunda WhatsApp kapasitesini planla (vardiya, hızlı şablon yanıt)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Funnel Analizi ve Örnek Senaryo Talep Edin",
+            "text": "Hangi Reels kategorisi hangi kanala gidecek; otelinizde en hızlı talep artışını birlikte kurgulayalım.",
+            "href": "/otel/sosyal-medya"
+          }
+        ]
+      },
+      {
+        "id": "uc-reels-funnel-ornegi",
+        "title": "Hemen Uygulayabileceğiniz 3 Reels Funnel Örneği",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Aşağıdaki üç örnek, “otel reels funnel stratejisi”ni sadece fikir değil, adım adım sistem olarak uygular. Her biri farklı niyet aşamasına oynar."
+          },
+          { "type": "h3", "text": "Funnel #1 — Room Type → WhatsApp Teklif (BoFu)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook (0–3 sn): “Aile odası arayanların en çok sorduğu 1 şey…”",
+              "Hikâye (3–15 sn): oda düzeni → banyo → balkon/manzara",
+              "Kanıt (10–20 sn): “2+2 aile düzeni / connecting opsiyon” gibi net özellik",
+              "CTA (son): “WhatsApp’tan tarih yaz, teklif gönderelim”",
+              "Hedef KPI: WhatsApp tıklama + talep sayısı"
+            ]
+          },
+          { "type": "h3", "text": "Funnel #2 — Experience → Profil → Landing (MoFu)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Bu 12 saniyede otelin konseptini anlayacaksın”",
+              "Hikâye: gastro → beach → akşam etkinlik",
+              "Kanıt: “konsept / dahil olanlar” kısa overlay",
+              "CTA: “Müsaitlik ve paketler profilde”",
+              "Hedef KPI: profil ziyareti + bio tıklama"
+            ]
+          },
+          { "type": "h3", "text": "Funnel #3 — Destination → Kaydet → Sonra Rezervasyon (ToFu→MoFu)" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook: “Antalya’da 1 günde 3 rota (kaydet)”",
+              "Hikâye: destinasyon 2 sahne + otelde 1 sahne",
+              "Kanıt: “ulaşım / konum avantajı” kısa bilgi",
+              "CTA: “Kaydet + profilden konumu gör”",
+              "Hedef KPI: kaydetme + profil ziyareti"
+            ]
+          },
+          { "type": "media", "slot": "kpi-07" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Bu 3 funnel’dan en az biri “talep” üretmeye net bağlı mı?",
+              "Her funnel için tek CTA seçtim mi?",
+              "Aynı funnel’ı 3 varyasyonla test edecek planım var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 funnel’dan birini seç, 7 gün içinde 3 varyasyon üret.",
+              "Varyasyon değişkeni tek olsun: hook veya CTA veya kapak.",
+              "KPI raporunu 1 tabloya bağla (aşağıdaki tabloyu kullan)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kpi-olcum-optimizasyon",
+        "title": "Reels Performansını Ölçmek ve Optimize Etmek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels performansını “gösterim” ile ölçmek, oda satışını hedefleyen ekipleri yanıltır. Otel için Reels; bir satış sisteminin parçasıysa KPI seti de funnel’a göre olmalıdır: izlenme → profil → tıklama → talep → rezervasyon katkısı."
+          },
+          { "type": "h3", "text": "Reels Funnel KPI Tablosu " },
+          {
+            "type": "table",
+            "caption": "Tablo: Reels Funnel KPI Tablosu (örnek)",
+            "headers": ["Funnel Aşaması", "KPI", "Hedef Sinyal", "Hızlı İyileştirme"],
+            "rows": [
+              ["Awareness", "3 sn izleme oranı", "Hook tuttu", "İlk 1 saniyeyi daha net vaat yap"],
+              ["Interest", "Ortalama izlenme süresi", "Hikâye akıyor", "Sahne sayısını azalt (3–5)"],
+              ["Consideration", "Profil ziyareti", "Merak oluştu", "Kapak + profil grid uyumunu düzelt"],
+              ["Action", "Bio/WhatsApp tıklama", "CTA çalışıyor", "Tek CTA + daha net final ekran"],
+              ["Conversion", "Talep/rezervasyon katkısı", "Satışa yaklaşıyor", "Landing/WhatsApp SLA + teklif şablonu"]
+            ]
+          },
+          { "type": "h3", "text": "14 günlük basit optimizasyon sprint’i" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Gün 1–2: Hook bankası + 3 kategori (Room/Experience/Destination)",
+              "Gün 3–5: 3 Reels üret + tek CTA seçimi",
+              "Gün 6–7: KPI ölç + en iyi/orta/zayıf ayrımı",
+              "Gün 8–10: En iyi Reels’in 2 varyasyonu (hook değiştir)",
+              "Gün 11–14: CTA kanal testi (WhatsApp vs landing) sadece 1 kategoride"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Haftalık “en iyi 3 Reels” raporum var mı?",
+              "WhatsApp/landing dönüşünde sürtünme var mı (hız, netlik)?",
+              "Aynı formatı seri halinde üretiyor muyum?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Raporu 5 KPI’ya indir ve her hafta aynı formatla ölç.",
+              "Zayıf Reels’i “çöpe atma”; hook veya CTA’yı değiştirip tekrar dene.",
+              "Operasyon tarafını (WhatsApp SLA, teklif şablonu) marketing kadar ciddiye al."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zamansiz-yapi-embed-yerine",
+        "title": "Zamansız Yapı: Video Embed Yerine Hızlı Mockup/GIF",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Reels sayfalarında ağır embed ve yavaş yüklenen bileşenler, SXO’yu düşürür. Bu içerik “her yıl taktik sayısı” gibi kısa ömürlü numaralara bağlı kalmadan, zamansız funnel mantığı üzerine kurulmalıdır. Örnek Reels’leri sayfaya gömmek yerine; hızlı yüklenen mockup, storyboard görseli veya kısa GIF kullanmak hem performansı hem okunabilirliği artırır."
+          },
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Mini Check",
+            "items": [
+              "Sayfa hızını düşüren embed kullanıyor muyum?",
+              "Örnekleri “görsel storyboard” ile anlatabiliyor muyum?",
+              "İçerik 6 ay sonra da geçerli olacak mı (zamansız mı)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Örnekleri embed yerine storyboard görselleriyle anlat.",
+              "Funnel diyagramını sayfada sabitle (herkes aynı dili konuşsun).",
+              "İçeriği 180 günde bir yeni örneklerle tazele (algoritma değişir)."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Reels Funnel Şablonunu (PDF/Notion) İndir",
+            "text": "Hook bankası, storyboard ve KPI tablosunu tek dosyada kullanıp 14 günde funnel’ı ayağa kaldırın.",
+            "href": "/downloads/reels-funnel-sablonu-v1.0.pdf"
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Reels Funnel Analizi ve Örnek Senaryo Talep Edin",
+            "text": "Otelinizin oda tipleri ve hedef pazarına göre 3 satış odaklı Reels funnel’ını birlikte tasarlayalım.",
+            "href": "/otel/sosyal-medya"
+          }
+        ]
+      },
+      {
+        "id": "reels-funnel-sablon-indir",
+        "title": "Reels Funnel Şablonu (PDF/Notion) — İndirilebilir Asset",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "pdf",
+            "version": "v1.0",
+            "title": "Reels Funnel Şablonunu (PDF/Notion) İndir — Otel / Reels oda satışı (v1.0)",
+            "purpose": "Bu şablon, otellerin Instagram Reels’ini “izlenme” hedefinden çıkarıp oda satışı funnel’ı olarak işletmesini sağlar. Hook üretimi, storyboard akışı, CTA seçimi ve KPI raporunu tek yapıda birleştirir. Ajans ve otel iç ekibi, aynı dili konuşarak 14 gün içinde test edilebilir bir funnel kurar.",
+            "whoFor": "Otel satış–pazarlama ekipleri, social media manager’lar ve resort hesaplarını yöneten ajanslar.",
+            "steps": [
+              "Oda tipi + hedef pazar seç (örn. Belek aile, Bodrum çift).",
+              "3 Reels varyasyonu yaz (hook değişkeniyle) ve tek CTA seç.",
+              "KPI tablosunu haftalık doldur; kazanan formatı “seri” yap."
+            ],
+            "checklist": [
+              "Her Reels için tek CTA seçildi (WhatsApp / Landing / DM)",
+              "Hook (0–3 sn) tek vaat söylüyor ve ilk saniyede konu anlaşılıyor",
+              "Storyboard 15–30 sn içinde 3–5 sahnede akıyor",
+              "CTA final ekranı net ve sürtünmesiz yönlendiriyor",
+              "Haftalık KPI mini rapor aynı formatla dolduruluyor",
+              "WhatsApp SLA ve teklif şablonları hazır (operasyon tarafı)"
+            ],
+            "href": "/downloads/reels-funnel-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir",
+            "miniReportTable": {
+              "caption": "Tablo: KPI Mini Rapor (haftalık)",
+              "headers": ["Reels", "3 sn izleme", "Ortalama izlenme", "Profil ziyareti", "Tıklama", "Talep", "Not"],
+              "rows": [
+                ["#1", "", "", "", "", "", ""],
+                ["#2", "", "", "", "", "", ""],
+                ["#3", "", "", "", "", "", ""]
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Reels oteller için nasıl oda satışı getirir?",
+        "a": "Reels önce yeni kitleye erişim sağlar, sonra profil ziyareti ve tıklama üzerinden talep üretir. Oda satışı için kritik nokta; tek CTA, doğru yönlendirme (WhatsApp/landing) ve funnel KPI’larıyla ölçümdür."
+      },
+      {
+        "q": "Oteller Reels ile rezervasyon funnel’ını nasıl kurmalı?",
+        "a": "Hook (0–3 sn) → kısa hikâye (15–30 sn) → kanıt → tek CTA → yönlendirme → ölçüm adımlarını netleştirmelidir. Her Reels bir “next step” ister; iki CTA aynı anda verilmez."
+      },
+      {
+        "q": "Reels izleyen kullanıcıyı nereye yönlendirmek daha doğru: site mi, WhatsApp mı?",
+        "a": "Resort otellerde hızlı teklif ihtiyacı varsa WhatsApp güçlü çalışır; direct booking odaklı net paket ve müsaitlik sunumu varsa landing/rezervasyon akışı ölçeklenir. Kapasite (WhatsApp SLA) ve sayfa hızı kararın belirleyicisidir."
+      },
+      {
+        "q": "Reels performansı nasıl ölçülür?",
+        "a": "İzlenme tek başına yeterli değildir; 3 sn izleme oranı, ortalama izlenme süresi, profil ziyareti, bio/WhatsApp tıklaması ve talep/rezervasyon katkısı birlikte izlenmelidir."
+      },
+      {
+        "q": "Oteller için Reels süresi kaç saniye olmalı?",
+        "a": "Oda satışı hedefinde genelde 15–30 saniye bandı iyi çalışır; önemli olan süre değil, ilk 3 saniyede vaat ve son 3 saniyede CTA netliğidir."
+      },
+      {
+        "q": "Reels’te en iyi CTA nasıl yazılır?",
+        "a": "Tek aksiyon isteyen, kısa ve net CTA’lar daha iyi performans verir: “WhatsApp’tan tarih yaz”, “Profilden müsaitliği kontrol et” gibi. CTA, videodaki vaatle aynı hedefe gitmelidir."
+      },
+      {
+        "q": "Reels’te hangi içerikler oda satışına daha yakın?",
+        "a": "Oda tipi (room tour), konsept dahil olanlar, kampanya/paket ve sık sorulan itirazları çözen içerikler (ulaşım, çocuk, konsept) daha doğrudan talep üretir. Başarı, tek CTA + doğru yönlendirme + ölçüm kurgusunun birlikte çalışmasına bağlıdır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "banner (hero/cover) — 1920×1080 — otel-reels-oda-satis-funneli-hero-01.webp",
+          "h1-context — 1920×1080 — otel-reels-oda-satis-funneli-h1-context-02.webp",
+          "divider-01 — 1600×1200 — otel-reels-oda-satis-funneli-divider-03.webp",
+          "divider-02 — 1600×1200 — otel-reels-oda-satis-funneli-divider-04.webp",
+          "diagram-05 — 1920×1080 — otel-reels-oda-satis-funneli-diagram-05.webp",
+          "checklist-06 — 1200×1200 — otel-reels-oda-satis-funneli-checklist-06.webp",
+          "kpi-07 — 1200×1200 — otel-reels-oda-satis-funneli-kpi-07.webp",
+          "proof-08 — 1200×1200 — otel-reels-oda-satis-funneli-proof-08.webp",
+          "table-reels-funnel-kpi — (blog içine göm tablo)",
+          "table-kpi-mini-rapor — (asset içinde tablo)"
+        ],
+        "technicalChecklist": [
+          "Reels embed yerine storyboard/mockup/GIF tercih (sayfa performansı için)",
+          "CTA hedefleri tek aksiyon (tek CTA) olacak şekilde standardize",
+          "WhatsApp SLA (örn. 5–15 dk) ve teklif şablonları hazır",
+          "Ölçüm: profil ziyareti + tıklama + talep alanları rapora zorunlu",
+          "UTM ve landing yönlendirmeleri sürtünmesiz (tek hedef sayfa)",
+          "180–365 gün refresh döngüsü ile örnekler güncellenecek"
+        ]
+      }
+    }
   }
 
   }

@@ -545,6 +545,7 @@ export default function BlogPageV2() {
 
   const resultsRef = useRef(null);
 
+
 const ALL_POSTS = useMemo(() => {
   const blogPosts = messages?.BlogPosts || {};
 
@@ -617,6 +618,8 @@ const sortedAll = useMemo(() => {
   return [...ALL_POSTS].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
 }, [ALL_POSTS]);
 
+ const latest20 = useMemo(() => sortedAll.slice(0, 20), [sortedAll]);
+
 // Rails hangi listeyi gösterecek?
 const displaySorted = hasResults ? sortedFiltered : sortedAll;
 
@@ -630,7 +633,7 @@ const visibleCount = hasResults ? filteredPosts.length : sortedAll.length;
 
 // Türkçe yorum: departman rail’leri (Tümü + her departman)
 const rails = useMemo(() => {
-   const out = [{ id: "all", title: "Tümü", posts: displaySorted }];
+   const out = [{ id: "all", title: "Son Eklenenler", posts: latest20 }];
 
   // 2) Departman rail’leri
   const deptItems = BLOG_DEPARTMENTS_V2.filter((d) => d.id !== "all");
@@ -645,7 +648,7 @@ const rails = useMemo(() => {
   }
 
   return out;
-}, [displaySorted]);
+}, [displaySorted, latest20]);
 
 // Türkçe yorum: Netflix hero için son eklenen 5 post
 const heroPosts = useMemo(() => {

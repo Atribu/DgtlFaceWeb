@@ -22,25 +22,16 @@ import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
 
-const OG_DEFAULT = "/og/og-home.png";
+const OG_IMAGE = "/og/og-services.png"; // public/og/og-services.png
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
-
-  // Türkçe yorum: bu sayfaya özel pathname ver (seo-utils nasıl bekliyorsa)
-  // routing'de "/Services" -> tr: "/hizmetlerimiz" olduğu için canonical'ı ordan üretmek daha sağlam.
   const pathnameKey = "/Services";
 
   const seoData = getSeoData(pathnameKey, locale);
-  const title =
-    seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
-  const description =
-    seoData?.description ||
-    "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
+  const title = seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
+  const description = seoData?.description || "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
 
-  // Türkçe yorum: doğru URL (locale prefix + tr'de /hizmetlerimiz)
-  // next-intl routing'in ürettiği path'i kullanmak en garantisi (eğer helper'ın varsa)
-  // Elinde helper yoksa direkt:
   const url =
     locale === "tr"
       ? "https://dgtlface.com/tr/hizmetlerimiz"
@@ -53,8 +44,8 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: url,
       languages: {
-        tr: "/tr/hizmetlerimiz",
-        en: "/en/services",
+        tr: "https://dgtlface.com/tr/hizmetlerimiz",
+        en: "https://dgtlface.com/en/services",
       },
     },
 
@@ -66,21 +57,20 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: OG_DEFAULT, // public/og/og-default.png
+          url: OG_IMAGE,
           width: 1200,
           height: 630,
           alt: title,
         },
       ],
       locale: locale === "tr" ? "tr_TR" : "en_US",
-
     },
 
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [OG_DEFAULT],
+      images: [OG_IMAGE],
     },
   };
 }

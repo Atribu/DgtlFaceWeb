@@ -71,7 +71,8 @@ export const BLOG_MAP = {
     "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin",
     "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
     
-    "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik"
+    "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik",
+    "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum"
   },
 
     "veri-analizi-raporlama": {
@@ -81,7 +82,8 @@ export const BLOG_MAP = {
     "cok-otelli-yapilarda-looker-studio-mimarisi":"BlogCokOtelliYapilardaLookerStudioMimarisi",
     "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":"BlogYonetimIcinExecutiveDashboardVeOtomatikRaporlama",
 
-    "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir"
+    "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir",
+    "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma"
   },
 
 
@@ -92,7 +94,8 @@ export const BLOG_MAP = {
     "cok-dilli-otel-seo-tr-en-de-ru-yapi":"BlogCokDilliOtelSeoTrEnDeRuYapi",
     "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":"BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi",
 
-    "otel-instagram-strateji-rehberi":"BlogOtelInstagramStratejiRehberi"
+    "otel-instagram-strateji-rehberi":"BlogOtelInstagramStratejiRehberi",
+    "otel-reels-oda-satis-funneli":"BlogOtelReelsOdaSatisFunneli"
   }
 };
 

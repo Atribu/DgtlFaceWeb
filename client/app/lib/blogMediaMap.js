@@ -34,19 +34,19 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     },
 
-          "mobil-mockup-whatsapp": {
+          "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-6.jpeg",
       alt: "",
       caption: ""
     },
 
-      "download": {
+      "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-7.jpeg",
       alt: "",
       caption: ""
     },
 
-          "drop-off-analysis": {
+          "": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-8.jpeg",
       alt: "",
       caption: ""
@@ -3304,6 +3304,156 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+  "booking-expedia-entegrasyonu-adim-adim-kurulum":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-1.webp",
+      alt: "Booking ve Expedia Entegrasyonu Adım Adım: Kurulum ve Test Süreci",
+      caption: "Booking ve Expedia Entegrasyonu Adım Adım: Kurulum ve Test Süreci"
+    },
+
+          "h1-context": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-2.webp",
+      alt: "RoomType ve RatePlan hazırlığı bağlam görseli, otel satış sistemi",
+      caption: "RoomType ve RatePlan hazırlığı bağlam görseli, otel satış sistemi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-3.webp",
+      alt: "Extranet hazırlık aşaması bölüm görseli, otel satış operasyonu",
+      caption: "Extranet hazırlık aşaması bölüm görseli, otel satış operasyonu"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-4.webp",
+      alt: "Mapping ve test aşaması bölüm görseli, otel entegrasyon süreci",
+      caption: "Mapping ve test aşaması bölüm görseli, otel entegrasyon süreci"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-5.webp",
+      alt: "PMS channel manager OTA akış diyagramı, mapping ve test adımları",
+      caption: "PMS channel manager OTA akış diyagramı, mapping ve test adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-6.webp",
+      alt: "Kurulum ve test checklist kartı, otel entegrasyon kontrolü",
+      caption: "Kurulum ve test checklist kartı, otel entegrasyon kontrolü"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-7.webp",
+      alt: "Go-live ilk 30 gün KPI paneli, otel kanal performansı",
+      caption: "Go-live ilk 30 gün KPI paneli, otel kanal performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-2/Pms2-2-8.webp",
+      alt: "Kurulum deliverables kartı, mapping test raporu ve prosedürler",
+      caption: "Kurulum deliverables kartı, mapping test raporu ve prosedürler"
+    }
+  },
+
+  "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-1.webp",
+      alt: "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma",
+      caption: "OTA Fiyat Benchmark’ı ile Rakiplere Göre Konumlanma"
+    },
+
+          "h1-context": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-2.webp",
+      alt: "Price position ve doluluk ilişkisini özetleyen başlangıç otel görseli",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-3.webp",
+      alt: "OTA fiyat benchmark kavramını sade ayıran bölüm görseli",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-4.webp",
+      alt: "Fiyat pozisyonu ve doluluk ilişkisini ayıran otel bölüm görseli",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-5.webp",
+      alt: "Rakip set, tarih ve oda eşlemesini gösteren akış diyagramı görseli",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-6.webp",
+      alt: "Parity ve fiyat savaşı risklerini özetleyen otel kontrol kartı görseli",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-7.webp",
+      alt: "Price position ADR ve doluluk KPI’larını özetleyen skor kartı görseli",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-2/Reporting2-2-8.webp",
+      alt: "OTA fiyat benchmark çıktıları ve aksiyon planını gösteren kanıt kartı",
+      caption: ""
+    }
+  },
+
+
+  "otel-reels-oda-satis-funneli":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-1.webp",
+      alt: "Reels ile Oda Satışı: Oteller İçin Reels Funnel’ı Nasıl Kurulur?",
+      caption: "Reels ile Oda Satışı: Oteller İçin Reels Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-2.webp",
+      alt: "Reels ile oda satışı için hızlı funnel kontrol ekranı görseli",
+      caption: ""
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-3.webp",
+      alt: "Otel Reels satış funnelı bölüm ayırıcı görseli",
+      caption: ""
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-4.webp",
+      alt: "Reels hook ve CTA yapılarını ayıran bölüm geçiş görseli",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-5.webp",
+      alt: "Reels görünürlükten tıklamaya ve rezervasyona giden funnel diyagramı",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-6.webp",
+      alt: "Reels CTA seçimi için link DM WhatsApp karar kartı görseli",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-7.webp",
+      alt: "Reels funnel KPI paneli örneğini gösteren kart görseli",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-2/Hotel2-2-8.webp",
+      alt: "Reels funnel deliverable setini özetleyen çıktı kartı görseli",
+      caption: ""
+    }
+  },
   
 };
 

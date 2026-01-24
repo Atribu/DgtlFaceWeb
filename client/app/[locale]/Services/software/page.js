@@ -14,6 +14,69 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın routing key'i
+  const pathnameKey = "/Services/software";
+
+const seoData = getSeoData("/Services/software", locale);
+  const title =
+    seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+  const description =
+    seoData?.description ||
+    "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
+
+  // Türkçe yorum: OG görselini map'ten çek
+  const ogImage = getOgImageByPathnameKey(pathnameKey);
+
+  // Türkçe yorum: canonical URL (senin sitende localePrefix always)
+  const url =
+    locale === "tr"
+      ? "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+      : "https://dgtlface.com/en/software-development"; 
+  // EN path sende neyse ona göre düzelt (seo-utils/route map ile de üretebiliriz)
+
+  return {
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: "/tr/web-ve-yazilim-hizmetleri",
+        en: "/en/software-development",
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage, // ✅ /og/og-software.png gibi
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 const homeJsonLd = {
   "@context": "https://schema.org",
