@@ -142,7 +142,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default function Page({ params }) {
-   const slug = params?.faq;
+   const slug = params?.segment;
   const pageNs = FAQ_MAP?.[slug];
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
 

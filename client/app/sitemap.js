@@ -1,7 +1,7 @@
 // app/sitemap.js
 import { routing } from "@/i18n/routing";     
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";  
-import { BLOG_MAP } from "@/app/[locale]/(blog)/[faq]/blog/blogMap"
+import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap"
 
 const BASE_URL = "https://www.dgtlface.com";
 

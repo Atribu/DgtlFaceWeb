@@ -9,8 +9,8 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 
 export async function generateMetadata({ params }) {
-  const { locale, faq, slug } = params;
-  const department = faq;
+  const { locale, segment, slug } = params;
+  const department = segment;
 
   // Türkçe yorum: Locale set et
   setRequestLocale(locale);
@@ -169,8 +169,8 @@ function Accordion({ items }) {
 }
 
 export default async function BlogDetailPage({ params }) {
-  const { locale, faq, slug } = params;
-  const department = faq;
+  const { locale, segment, slug } = params;
+  const department = segment;
 
   setRequestLocale(locale);
 

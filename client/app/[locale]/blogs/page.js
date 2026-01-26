@@ -3,7 +3,7 @@
 import { useMemo, useState, useRef, useEffect} from "react";
 import Link from "next/link";
 import { useTranslations, useLocale, useMessages } from "next-intl"; 
-import { BLOG_MAP } from "../(blog)/[faq]/blog/blogMap"
+import { BLOG_MAP } from "../(blog)/[segment]/blog/blogMap"
 import Image from "next/image";
 import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
 
