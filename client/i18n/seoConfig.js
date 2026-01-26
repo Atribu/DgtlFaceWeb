@@ -87,7 +87,7 @@ export const seoConfig = {
     },
 
   },
-  "/Services/creative": { // TR Slug: /antalya-dijital-pazarlama-yaraticilik-tasarim
+  "/Services/creative": { 
     tr: {
       title: "Antalya Yaratıcılık ve Tasarım Ajansı | UI/UX, Grafik & Video Prodüksiyon",
       description: "Dijital projeleriniz için UI/UX, kurumsal kimlik, video prodüksiyonu ve etkinlik yaratıcılığı çözümleri.",
