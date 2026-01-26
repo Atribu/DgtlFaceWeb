@@ -48,7 +48,7 @@ export const routing = defineRouting({
     // PMS (YÖNETİM SİSTEMLERİ) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/pms": { // https://www.dgtlface.com/tr/Services/pms
-      en: "/services/pms-solutions",
+      en: "/pms-ota",
       tr: "/pms-ota",
       
     },
@@ -82,7 +82,7 @@ export const routing = defineRouting({
     // ÇAĞRI MERKEZİ (CALL CENTER) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/callcenter": { // https://www.dgtlface.com/tr/Services/callcenter
-      en: "/services/call-center",
+      en: "/call-center",
       tr: "/cagri-merkezi",
       
     },
@@ -116,7 +116,7 @@ export const routing = defineRouting({
     // YARATICILIK (CREATIVE) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/creative": { // https://www.dgtlface.com/tr/Services/creative
-      en: "/services/creative-design",
+      en: "/creative-design",
       tr: "/creative",
       
     },
@@ -213,7 +213,7 @@ export const routing = defineRouting({
     // SEO HİZMETLERİ
     //---------------------------------------------------------
     "/Services/seo": { // https://www.dgtlface.com/tr/Services/seo
-      en: "/services/seo-search-engine-optimization",
+      en: "/seo-search-engine-optimization",
       tr: "/seo",
     },
     
@@ -248,7 +248,7 @@ export const routing = defineRouting({
     // SOSYAL MEDYA PAZARLAMA (SMM) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/smm": { // https://www.dgtlface.com/tr/Services/smm
-      en: "/services/social-media-marketing",
+      en: "/social-media-marketing",
       tr: "/smm",
       
     },
@@ -284,7 +284,7 @@ export const routing = defineRouting({
     // YAZILIM (SOFTWARE) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/software": { // https://www.dgtlface.com/tr/Services/software
-      en: "/services/software-development",
+      en: "/software-development",
       tr: "/yazilim",
      
     },
@@ -316,7 +316,7 @@ export const routing = defineRouting({
 
     // hotel pages
         "/Services/hotel": { 
-      en: "/services/hotel",
+      en: "/hotel",
       tr: "/otel",
       
     },

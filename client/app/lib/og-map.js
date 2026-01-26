@@ -9,7 +9,7 @@ export const OG_IMAGE_MAP = {
   "/Services/software": "/og/og-software.png",
   "/Services/creative": "/og/og-creative.png",
   "/Services/callcenter": "/og/og-callcenter.png",
-  "/Services/pms": "/og/og-pms.png",
+  "/Services/pms-ota": "/og/og-pms.png",
   "/Services/hotel": "/og/og-hotel.png",
   "/Services/digitalAnalysis": "/og/og-reporting.png",
 };

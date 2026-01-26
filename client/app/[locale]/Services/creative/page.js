@@ -14,6 +14,81 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın standart key'i
+  const pathnameKey = "/Services/creative";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seoConfig'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Creative Tasarım & Prodüksiyon Hizmetleri – Marka Deneyimi Tasarlıyoruz | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetleriyle markanız için güçlü yaratıcı çözümler sunar.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  const url =
+    locale === "tr"
+      ? `${base}/tr/creative`
+      : `${base}/en/creative-design`; 
+
+  return {
+    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/creative`,
+        en: `${base}/en/creative-design`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",

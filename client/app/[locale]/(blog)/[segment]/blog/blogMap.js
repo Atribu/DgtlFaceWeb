@@ -8,7 +8,8 @@ export const BLOG_MAP = {
     "google-ads-donusum-kurgusu-ve-takibi":"BlogGoogleAdsDonusumKurgusuVeTakibi",
 
     "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri",
-    "oteller-icin-youtube-hedefleme-yapisi":"BlogOtellerIcinYouTubeHedeflemeYapisi"
+    "oteller-icin-youtube-hedefleme-yapisi":"BlogOtellerIcinYouTubeHedeflemeYapisi",
+    "otel-youtube-reklam-filmi-senaryo-ve-storyboard":"BlogOtelYouTubeReklamFilmiSenaryoVeStoryboard"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -18,7 +19,8 @@ export const BLOG_MAP = {
     "javascript-ve-nextjs-sitelerde-teknik-seo-sorunlari-ve-cozumleri":"BlogNextjsTeknikSeoJSSorunlariVeCozumleri",
 
     "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin",
-    "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist"
+    "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist",
+    "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":"BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi"
   },
 
     smm: {
@@ -29,7 +31,8 @@ export const BLOG_MAP = {
     "cok-dilli-sosyal-medya-icerik-uretimi-tr-en-de-ru":"BlogCokDilliSosyalMedyaIcerikUretimiTrEnDeRu",
 
     "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework",
-    "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi"
+    "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi",
+    "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":"BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari"
   },
 
     yazilim: {

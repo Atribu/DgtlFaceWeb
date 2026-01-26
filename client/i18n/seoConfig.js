@@ -129,8 +129,20 @@ export const seoConfig = {
       title: "Antalya Digital Marketing Data Analysis and Reporting Services",
       description: "Detailed analysis and reporting of advertising, call, and website data to optimize your marketing strategies.",
     },
- 
+    
   },
+  "/Services/analysis": {
+  tr: {
+    title: "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
+    description: "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir."
+  },
+  en: {
+    title: "Data Analytics & Performance Reporting – Looker Studio Dashboards | DGTLFACE",
+    description: "DGTLFACE builds Looker Studio dashboards and performance reports, combining SEO/SEM/SMM and sales data to measure and improve digital performance."
+  }
+},
+
+
   "/Services/callcenter": { // TR Slug: /antalya-dijital-pazarlama-cagri-merkezi
     tr: {
       title: "Antalya Dijital Pazarlama Çağrı Merkezi Çözümleri | Çok Dilli Destek",
@@ -142,7 +154,7 @@ export const seoConfig = {
     },
   
   },
-  "/Services/pms": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+  "/Services/pms-ota": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
     tr: {
       title: "Antalya Pazarlama Yönetim Sistemleri (PMS) Kurulumu ve Entegrasyonu",
       description: "Otel yönetim sistemleri (PMS), OTA entegrasyonu, rezervasyon modülü ve web ödeme sistemleri kurulum hizmetleri.",
@@ -150,6 +162,18 @@ export const seoConfig = {
     en: {
       title: "Antalya Marketing Management System (PMS) Setup and Integration",
       description: "Hotel management systems (PMS), OTA integration, reservation module, and web payment system setup services.",
+    },
+  
+  },
+
+    "/Services/hotel": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
     },
   
   },

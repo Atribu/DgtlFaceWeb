@@ -3454,6 +3454,156 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     }
   },
+
+   "otel-youtube-reklam-filmi-senaryo-ve-storyboard":{
+     banner: {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-1.webp",
+      alt: "Otel YouTube Reklam Filmi İçin Senaryo ve Storyboard Nasıl Hazırlanır?",
+      caption: "Otel reklam filmi senaryo storyboard + üretim planı + otel pazarlama bağlamı "
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-2.webp",
+      alt: "Hook + sahne akışı + CTA kurgusu + otel deneyimi bağlamı",
+      caption: "Hook + sahne akışı + CTA kurgusu + otel deneyimi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-3.webp",
+      alt: "Senaryo akışı + hook + sahne listesi + otel bağlamı",
+      caption: "Senaryo akışı + hook + sahne listesi + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-4.webp",
+      alt: "Çekim günü checklist + format kırpımı + otel pazarlama bağlamı",
+      caption: "Çekim günü checklist + format kırpımı + otel pazarlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-5.webp",
+      alt: "Senaryo → storyboard → çekim planı → bumper/shorts türetme akışı + otel bağlamı",
+      caption: "Senaryo → storyboard → çekim planı → bumper/shorts türetme akışı + otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-6.webp",
+      alt: "Çekim günü checklist + storyboard adımları + otel üretim bağlamı",
+      caption: "Çekim günü checklist + storyboard adımları + otel üretim bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-7.webp",
+      alt: "İlk 5–10 sn izlenme + CTR + etkileşim KPI paneli + otel bağlamı",
+      caption: "İlk 5–10 sn izlenme + CTR + etkileşim KPI paneli + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-3/SEM2-3-8.webp",
+      alt: "Senaryo + storyboard + çekim planı + varyant teslim seti + otel bağlamı",
+      caption: "Senaryo + storyboard + çekim planı + varyant teslim seti + otel bağlamı"
+    }
+  },
+
+  "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-1.webp",
+      alt: "Yorum Yönetimi ve Puanlama: Oteller İçin Yerel SEO Stratejisinin Kalbi",
+      caption: "Otel yorum yönetimi, güven ve harita görünürlüğü temasını anlatan kapak görseli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-2.webp",
+      alt: "Harita kartında yorum ve puanın karar anına etkisini gösteren görsel",
+      caption: "Harita kartında yorum ve puanın karar anına etkisini gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-3.webp",
+      alt: "Yorumların Local Pack sinyali rolünü başlatan bölüm ayırıcı görseli",
+      caption: "Yorumların Local Pack sinyali rolünü başlatan bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-4.webp",
+      alt: "Yanıt stratejisi ve örnek senaryolara geçişi anlatan bölüm ayırıcı görseli",
+      caption: "Yanıt stratejisi ve örnek senaryolara geçişi anlatan bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-5.webp",
+      alt: "Misafir deneyimi→yorum→yanıt→yerel görünürlük döngüsünü anlatan akış diyagramı",
+      caption: "Misafir deneyimi→yorum→yanıt→yerel görünürlük döngüsünü anlatan akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-6.webp",
+      alt: "Yorum alma ve yanıt SOP kontrol kartı, otel operasyon bağlamında",
+      caption: "Yorum alma ve yanıt SOP kontrol kartı, otel operasyon bağlamında"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-7.webp",
+      alt: "Puan, tazelik, yanıt oranı ve tıklama KPI paneli",
+      caption: "Puan, tazelik, yanıt oranı ve tıklama KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-3/SEO2-3-8.webp",
+      alt: "Yanıt şablonları, kriz akışı ve rapor deliverables kartı",
+      caption: "Yanıt şablonları, kriz akışı ve rapor deliverables kartı"
+    }
+  },
+
+  "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":{
+     banner: {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-1.webp",
+      alt: "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
+      caption: "Always-on ve kampanya burst dengesini otel ve B2B planında anlatan hero görseli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-2.webp",
+      alt: "Yıllık plan üzerinde kampanya blokları ve always-on akışını gösteren context görseli",
+      caption: "Yıllık plan üzerinde kampanya blokları ve always-on akışını gösteren context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-3.webp",
+      alt: "Always-on marka sesi ve güven katmanını otel bağlamında gösteren bölüm ayırıcı görseli",
+      caption: "Always-on marka sesi ve güven katmanını otel bağlamında gösteren bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-4.webp",
+      alt: "Always-on taban ve kampanya burst üst katman modelini anlatan bölüm görseli",
+      caption: "Always-on taban ve kampanya burst üst katman modelini anlatan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-5.webp",
+      alt: "Yıllık sosyal medya planında kampanya blokları ve always-on rotasyonunu gösteren diyagram",
+      caption: "Yıllık sosyal medya planında kampanya blokları ve always-on rotasyonunu gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-6.webp",
+      alt: " Yıllık plan checklist’ini always-on ve kampanya dengesiyle özetleyen kart görseli",
+      caption: "Yıllık plan checklist’ini always-on ve kampanya dengesiyle özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-7.webp",
+      alt: "Always-on ve kampanya KPI’larını karşılaştıran otel ve B2B skor kart görseli",
+      caption: "Always-on ve kampanya KPI’larını karşılaştıran otel ve B2B skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-3/SMM2-3-8.webp",
+      alt: "Yıllık plan çıktıları ve uygulanabilir deliverables setini özetleyen proof görseli",
+      caption: "Yıllık plan çıktıları ve uygulanabilir deliverables setini özetleyen proof görseli"
+    }
+  },
   
 };
 

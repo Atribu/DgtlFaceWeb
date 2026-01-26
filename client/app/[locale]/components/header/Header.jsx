@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "@/LangSwitcher";
-import Link from "next/link";
+import {Link} from "@/i18n/navigation";
 import Logo from "./svg/DgtlFaceLogo";
 import Logo2 from "../Cookies/components/DgtlfaceLogoSvg";
 import { RxCross2 } from "react-icons/rx";

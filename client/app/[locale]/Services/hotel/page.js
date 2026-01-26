@@ -13,6 +13,73 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  const pathnameKey = "/Services/hotel"; // og-map key'in buysa
+
+  const seoData = getSeoData(pathnameKey, locale);
+  const title = seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+  const description =
+    seoData?.description ||
+    "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
+
+  // ✅ ortam bazlı base URL
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // ✅ og map'ten çek + fallback ver (çok kritik)
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  const url =
+    locale === "tr"
+      ? `${base}/tr/otel`
+      : `${base}/en/hotel`;
+
+  return {
+    // ✅ en kritik satır
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/otel`,
+        en: `${base}/en/hotel`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage, // metadataBase sayesinde absolute'a tamamlanır
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -46,8 +113,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#webpage",
-      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama",
+      "@id": "https://dgtlface.com/tr/otel/#webpage",
+      "url": "https://dgtlface.com/tr/otel",
       "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
       "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
       "isPartOf": {
@@ -64,14 +131,14 @@ const homeJsonLd = {
         "turizm dijital pazarlama rehberi"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/otel/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#service",
+      "@id": "https://dgtlface.com/tr/otel/#service",
       "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider",
-      "url": "https://dgtlface.com/tr/otel-dijital-pazarlama",
+      "url": "https://dgtlface.com/tr/otel",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -111,7 +178,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#services-list",
+      "@id": "https://dgtlface.com/tr/otel/#services-list",
       "name": "DGTLFACE Otel Dijital Pazarlama Hizmetleri",
       "itemListElement": [
         {
@@ -148,7 +215,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/otel/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -160,13 +227,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Otel Dijital Pazarlama",
-          "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+          "item": "https://dgtlface.com/tr/otel"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/otel-dijital-pazarlama/#faq",
+      "@id": "https://dgtlface.com/tr/otel/#faq",
       "mainEntity": [
         {
           "@type": "Question",

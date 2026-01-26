@@ -13,6 +13,82 @@ import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın standart key'i (og-map + seoConfig'te aynı key olmalı)
+  const pathnameKey = "/Services/digitalAnalysis";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seoConfig'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  const url =
+    locale === "tr"
+      ? `${base}/tr/raporlama`
+      : `${base}/en/digital-analysis`; // EN path sende neyse ona göre düzelt
+
+  return {
+    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/raporlama`,
+        en: `${base}/en/digital-analysis`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -43,8 +119,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#webpage",
-      "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+      "@id": "https://dgtlface.com/tr/raporlama/#webpage",
+      "url": "https://dgtlface.com/tr/raporlama",
       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
       "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.",
       "isPartOf": {
@@ -62,14 +138,14 @@ const homeJsonLd = {
         "turizm veri analizi"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#service",
+      "@id": "https://dgtlface.com/tr/raporlama/#service",
       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı",
-      "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama",
+      "url": "https://dgtlface.com/tr/raporlama",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -109,7 +185,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#services-list",
+      "@id": "https://dgtlface.com/tr/raporlama/#services-list",
       "name": "DGTLFACE Raporlama Hizmetleri",
       "itemListElement": [
         {
@@ -136,7 +212,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -148,13 +224,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Veri Analizi & Raporlama",
-          "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+          "item": "https://dgtlface.com/tr/raporlama"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/veri-analiz-ve-raporlama/#faq",
+      "@id": "https://dgtlface.com/tr/raporlama/#faq",
       "mainEntity": [
         {
           "@type": "Question",

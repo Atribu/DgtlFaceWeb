@@ -13,6 +13,80 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın standart key'i
+  const pathnameKey = "/Services/smm";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seoConfig'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title || "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  const url =
+    locale === "tr"
+      ? `${base}/tr/smm`
+      : `${base}/en/social-media-marketing`; 
+
+  return {
+    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/smm`,
+        en: `${base}/en/social-media-marketing`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -46,8 +120,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/sosyal-medya-yonetimi",
+      "@id": "https://dgtlface.com/tr/smm/#webpage",
+      "url": "https://dgtlface.com/tr/smm",
       "name": "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE",
       "description": "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar. Instagram, Facebook ve YouTube için profesyonel sosyal medya yönetimi hizmeti alın.",
       "isPartOf": {
@@ -62,14 +136,14 @@ const homeJsonLd = {
         "otel sosyal medya yönetimi"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/smm/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#service",
+      "@id": "https://dgtlface.com/tr/smm/#service",
       "name": "Sosyal Medya Yönetimi – Profesyonel SMM Stratejileri",
-      "url": "https://dgtlface.com/tr/sosyal-medya-yonetimi",
+      "url": "https://dgtlface.com/tr/smm",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -107,7 +181,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#services-list",
+      "@id": "https://dgtlface.com/tr/smm/#services-list",
       "name": "DGTLFACE SMM Hizmetleri",
       "itemListElement": [
         {
@@ -139,7 +213,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/smm/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -151,13 +225,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Sosyal Medya Yönetimi",
-          "item": "https://dgtlface.com/tr/sosyal-medya-yonetimi"
+          "item": "https://dgtlface.com/tr/smm"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/sosyal-medya-yonetimi/#faq",
+      "@id": "https://dgtlface.com/tr/smm/#faq",
       "mainEntity": [
         {
           "@type": "Question",

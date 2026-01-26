@@ -12,6 +12,81 @@ import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: Bu sayfanın "seo / og map" key'i (standartlaştırıyoruz)
+  const pathnameKey = "/Services/sem";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod uyumlu)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: SEO verisini config'ten al
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Google Ads & Dijital Reklam Yönetimi – Dönüşüm Odaklı Reklam Stratejileri | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı yönetim sunar. Profesyonel SEM stratejileriyle görünürlüğünüzü ve satışlarınızı artırın.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  // senin route yapına göre EN slug'ı değiştirmen gerekebilir
+  const url =
+    locale === "tr"
+      ? `${base}/tr/sem`
+      : `${base}/en/sem`; // EN path sende neyse onu yaz
+
+  return {
+    // ✅ kritik: relative og image'ı absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/sem`,
+        en: `${base}/en/sem`, // EN path sende neyse onu yaz
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage, // "/og/og-sem.png" -> metadataBase ile absolute olur
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -181,47 +256,6 @@ const homeJsonLd = {
       ]
     }
   ]
-}
-
-export async function generateMetadata() {
-  const title =
-    "Google Ads & Dijital Reklam Yönetimi – Dönüşüm Odaklı Reklam Stratejileri | DGTLFACE";
-  const description =
-    "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı yönetim sunar. Profesyonel SEM stratejileriyle görünürlüğünüzü ve satışlarınızı artırın.";
-  const url = "https://dgtlface.com/tr/sem";
-  const keywords =
-    "google ads yönetimi, dijital reklam ajansı, youtube reklam yönetimi, profesyonel google ads, google ads optimizasyonu, performans pazarlaması, google ads kampanya yönetimi nasıl yapılır, google ads dönüşüm maliyeti düşürme yöntemleri, google reklamları ile satış artırma, google ads reklam metni optimizasyonu, remarketing kampanyası nasıl kurulur, google ads bütçe optimizasyonu, youtube bumper ads yönetimi, küçük işletmeler için google ads, oteller için google ads stratejisi, hedef kitleye göre google reklam ayarları, otel google ads yönetimi, turizm google reklamcılığı, pms otel reklam optimizasyonu, booking google ads entegrasyonu, google ads yönetimi antalya, antalya dijital reklam ajansı, google ads türkiye, antalya sem ajansı";
-
-  return {
-    title,
-    description,
-    keywords,
-    alternates: {
-      canonical: url,
-    },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: false,
-    },
-    openGraph: {
-      title:
-        "Google Ads ve Dijital Reklam Yönetimi – Performans Odaklı SEM Hizmetleri",
-      description,
-      url,
-      type: "website",
-      locale: "tr_TR",
-      siteName: "DGTLFACE",
-      images: [
-        {
-          url: "https://dgtlface.com/og/og-home.png",
-          width: 1200,
-          height: 630,
-          alt: "DGTLFACE – Dijital Pazarlama & Teknoloji Partneri",
-        },
-      ],
-    },
-  };
 }
 
 
