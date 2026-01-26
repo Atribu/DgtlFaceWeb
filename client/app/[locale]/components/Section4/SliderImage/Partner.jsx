@@ -69,8 +69,8 @@ const Partner = () => {
           const isCenter = index === currentIndex;
           return (
             <div className={`relative shrink-0 flex justify-center items-center mr-4  flex-[0_0_auto]
-         lg:min-h-[230px]
-         lg:w-[240px]
+         lg:min-h-[220px]
+         lg:w-[190px]
          md:w-[270px] md:h-[165px]
          h-[266px] w-[177.3px]" ${isCenter ? 'slide--hover transform' : ''}`} key={index}>
              <Image
@@ -109,7 +109,7 @@ const Partner = () => {
         }
 
         .slide--hover {
-          transform: scale(1.1);
+          transform: scale(1.0);
         }
 
         @media (min-width: 769px) {

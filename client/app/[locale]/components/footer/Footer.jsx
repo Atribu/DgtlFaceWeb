@@ -17,11 +17,11 @@ export default function Footer() {
 
   // ✅ Kurumsal linkler
   const corporateLinks = [
-    { href: "/aboutus", label: t("link_about") },              // Hakkımızda
-    { href: "/contact", label: t("link_contact") },            // İletişim
-    { href: "/faq", label: t("link_faq") ?? "SSS" },           // SSS
-    { href: "/privacy", label: t("link_privacy_policy") },     // Gizlilik Pol.
-    { href: "/terms", label: t("link_terms_of_service") },     // Kullanım Şartları
+    { href: "/aboutus", label: t("link_about") },              
+    { href: "/contact", label: t("link_contact") },            
+    { href: "/faq", label: t("link_faq") ?? "SSS" },           
+    { href: "/privacy", label: t("link_privacy_policy") },     
+    { href: "/terms", label: t("link_terms_of_service") },    
     { href: "/blogs", label: t("link_blog") },
   ];
 
