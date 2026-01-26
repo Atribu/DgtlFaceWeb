@@ -15,6 +15,8 @@ function toTs(dateStr) {
 }
 
 function BlogCard({ p, locale }) {
+  const t = useTranslations("Homepage.blog");
+
   return (
     <Link
       href={`/${locale}/${p.dept}/blog/${p.slug}`}
@@ -51,7 +53,7 @@ function BlogCard({ p, locale }) {
                 <span className="capitalize">{p.dept.replace("-", " ")}</span>
               </div>
               <span className="inline-flex items-center gap-2 px-2 py-1 text-xs md:text-sm font-medium text-white">
-                Read <span className="transition group-hover:translate-x-0.5">→</span>
+                {t("read")} <span className="transition group-hover:translate-x-0.5">→</span>
               </span>
             </div>
           </div>
@@ -174,7 +176,7 @@ export default function HomeBlogShowcase({
       <div className="flex items-end justify-between gap-4">
         <div>
           <h2 className="text-black text-xl lg:text-2xl font-semibold">
-            Son Eklenenler
+            {t("recentlyAdded")}
           </h2>
         </div>
 
@@ -210,9 +212,9 @@ export default function HomeBlogShowcase({
 
           <Link
             href={`/${locale}/blogs`}
-            className="text-black text-sm inline-flex items-center gap-2"
+            className="!text-black text-sm inline-flex items-center gap-2"
           >
-            Tüm bloglar <span>→</span>
+            {t("allBlogs")} <span>→</span>
           </Link>
         </div>
       </div>

@@ -101,7 +101,15 @@
       "list2":"Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri",
       "list3":"TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi",
       "list4":"Looker Studio ile şeffaf, gerçek zamanlı performans raporlama"
+     
     },
+
+    "blog":{
+       "allBlogs":"Tüm Bloglar",
+      "recentlyAdded":"Son Eklenen Bloglar",
+      "read":"Devamını oku"
+    },
+
     "stats": {
       "value1": "+4X",
       "label1": "Oranında",
@@ -23719,6 +23727,8 @@
     "results": "{count} sonuç",
     "empty": "Sonuç bulunamadı.",
     "readMore": "Devamını oku",
+     "allBlogs":"Tüm Bloglar",
+      "recentlyAdded":"Son Eklenen Bloglar",
     "departments": {
       "all": "Tümü",
       "seo": "SEO",
