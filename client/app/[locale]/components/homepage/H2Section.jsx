@@ -9,7 +9,7 @@ const H2Section = () => {
 
   return (
     <div className="flex flex-col w-full items-center justify-center">
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mt-1 lg:mt-10 items-center justify-center">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mt-1 lg:mt-5 items-center justify-center">
         <div className="flex flex-col items-center justify-start gap-2 lg:gap-[2px] lg:w-[50%] text-start">
           <button className="gradient-darktext-header relative flex border w-[90%] py-[12px] px-auto items-center justify-center lg:px-[1px] lg:py-[24px] text-[20px] lg:text-[24px] font-semibold leading-[120%] tracking-[-0.28px] lg:tracking-[-0.64px] text-black ">
             <h2 className="font-inter28">{t("block1.title")}</h2>

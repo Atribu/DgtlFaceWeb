@@ -14,6 +14,81 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın key'i (og-map + seo-utils ile aynı olmalı)
+  const pathnameKey = "/Services/pms-ota";
+
+  // Türkçe yorum: local + prod ortamı için base URL
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seo config'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL
+  const url =
+    locale === "tr"
+      ? `${base}/tr/pms-ota`
+      : `${base}/en/pms-ota`; 
+
+  return {
+    // ✅ /og/... gibi relative path'leri absolute'a çevirir (localde kritik)
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/pms-ota`,
+        en: `${base}/en/pms-ota`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -47,8 +122,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/pms-ota-yonetimi",
+      "@id": "https://dgtlface.com/tr/pms-ota/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota",
       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE",
       "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.",
       "isPartOf": {
@@ -65,14 +140,14 @@ const homeJsonLd = {
         "turizm pms ve ota çözümleri"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#service",
+      "@id": "https://dgtlface.com/tr/pms-ota/#service",
       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu",
-      "url": "https://dgtlface.com/tr/pms-ota-yonetimi",
+      "url": "https://dgtlface.com/tr/pms-ota",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -115,7 +190,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#services-list",
+      "@id": "https://dgtlface.com/tr/pms-ota/#services-list",
       "name": "DGTLFACE PMS & OTA Hizmetleri",
       "itemListElement": [
         {
@@ -147,7 +222,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -159,13 +234,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "PMS & OTA Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+          "item": "https://dgtlface.com/tr/pms-ota"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota-yonetimi/#faq",
+      "@id": "https://dgtlface.com/tr/pms-ota/#faq",
       "mainEntity": [
         {
           "@type": "Question",

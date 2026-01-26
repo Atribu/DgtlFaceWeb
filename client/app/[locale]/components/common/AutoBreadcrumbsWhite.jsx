@@ -52,7 +52,7 @@ const SEGMENT_TO_HEADER_KEY = {
   "satis-sonrasi-destek": "callcenter_aftersales",
 
   // ---- Creative ----
-  "antalya-dijital-pazarlama-yaraticilik-tasarim": "creative",
+  "creative": "creative",
   "kurumsal-hediye": "creative_corporate_gift",
   "ui-ux-hizmeti": "creative_uiux",
   "video-ve-produksiyon": "creative_video",

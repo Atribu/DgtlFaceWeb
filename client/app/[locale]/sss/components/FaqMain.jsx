@@ -30,7 +30,6 @@ export default function FaqMain({ pageNs = "FaqGeneral" }) {
         }
       }
     }
-
     return Array.from(map.values()).sort(
       (a, b) =>
         Number(a.id.replace("section", "")) - Number(b.id.replace("section", ""))

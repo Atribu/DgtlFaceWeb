@@ -14,6 +14,81 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın standart key'i (og-map + seoConfig'te aynı key kullanılacak)
+  const pathnameKey = "/Services/callcenter";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seoConfig'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  const url =
+    locale === "tr"
+    ? `${base}/tr/cagri-merkezi`
+    : `${base}/en/call-center`;
+
+  return {
+    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url, 
+      languages: {
+        tr: `${base}/tr/cagri-merkezi`,
+        en: `${base}/en/call-center`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -47,8 +122,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#webpage",
-      "url": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi",
       "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE",
       "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.",
       "isPartOf": {
@@ -64,14 +139,14 @@ const homeJsonLd = {
         "multichannel müşteri hizmetleri"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/#service",
       "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi",
-      "url": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri",
+      "url": "https://dgtlface.com/tr/cagri-merkezi",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -115,7 +190,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#services-list",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/#services-list",
       "name": "DGTLFACE Çağrı Merkezi Hizmetleri",
       "itemListElement": [
         {
@@ -147,7 +222,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -159,13 +234,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Çağrı Merkezi Hizmetleri",
-          "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+          "item": "https://dgtlface.com/tr/cagri-merkezi"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri/#faq",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/#faq",
       "mainEntity": [
         {
           "@type": "Question",
@@ -342,7 +417,7 @@ const Page = () => {
     "/cagri-merkezi/rezervasyon-destegi",
     "/cagri-merkezi/mesaj-yonetimi",
     "/cagri-merkezi/satis-sonrasi-destek",
-    "cagri-merkezi/performans-analizi"
+    "/cagri-merkezi/performans-analizi"
   ][i-1]
 }));
 

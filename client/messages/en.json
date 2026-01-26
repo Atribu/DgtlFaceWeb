@@ -95,6 +95,12 @@
       "list4": "Transparent, real-time performance reporting with Looker Studio"
   },
 
+  "blog":{
+     "allBlogs":"All Blogs",
+      "recentlyAdded":"recently added blogs",
+      "read":"Read"
+  },
+
   "stats": {
     "value1": "4",
     "label1": "Times",
@@ -400,6 +406,8 @@
     "results": "{count} sonuç",
     "empty": "Sonuç bulunamadı.",
     "readMore": "Devamını oku",
+    "allBlogs":"All Blogs",
+      "recentlyAdded":"recently added blogs",
     "departments": {
       "all": "Tümü",
       "seo": "SEO",

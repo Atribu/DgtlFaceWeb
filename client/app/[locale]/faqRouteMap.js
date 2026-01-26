@@ -187,3 +187,71 @@ export const FAQ_DEPT_LABEL_MAP = {
   "hizmetler-sss": "Hizmetler",
 };
 
+// faqRouteMap.js
+
+// slug -> dept segment (örn reels-video-sss -> smm)
+export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
+  // SEM
+  "google-ads-yonetimi-sss": "sem",
+  "youtube-reklam-yonetimi-sss": "sem",
+  "remarketing-ve-display-sss": "sem",
+  "donusum-takibi-tag-manager-sss": "sem",
+  "reklam-raporlama-sss": "sem",
+
+  // SEO
+  "teknik-seo-sss": "seo",
+  "local-seo-sss": "seo",
+  "icerik-seo-sss": "seo",
+  "backlink-yonetimi-sss": "seo",
+  "seo-raporlama-sss": "seo",
+
+  // SMM
+  "icerik-uretimi-sss": "smm",
+  "planlama-strateji-sss": "smm",
+  "reels-video-sss": "smm",
+  "sosyal-medya-reklamlari-sss": "smm",
+  "analiz-raporlama-sss": "smm",
+
+  // Yazılım
+  "web-sitesi-gelistirme-sss": "yazilim",
+  "cms-entegrasyonu-sss": "yazilim",
+  "kvkk-uyum-hizmeti-sss": "yazilim",
+  "sunucu-guvenlik-sss": "yazilim",
+  "bakim-destek-sss": "yazilim",
+
+  // Creative
+  "kurumsal-hediye-sss": "creative",
+  "etkinlik-produksiyonu-sss": "creative",
+  "video-ve-produksiyon-sss": "creative",
+  "ui-ux-hizmeti-sss": "creative",
+  "grafik-motion-tasarim-sss": "creative",
+
+  // Call center
+  "4-dilli-cagri-merkezi-sss": "cagri-merkezi",
+  "performans-analizi-sss": "cagri-merkezi",
+  "mesaj-yonetimi-sss": "cagri-merkezi",
+  "satis-sonrasi-destek-sss": "cagri-merkezi",
+  "rezervasyon-destegi-sss": "cagri-merkezi",
+
+  // PMS-OTA
+  "pms-kurulum-sss": "pms-ota",
+  "ota-entegrasyonu-sss": "pms-ota",
+  "rezervasyon-yonetimi-sss": "pms-ota",
+  "kanal-yonetimi-sss": "pms-ota",
+  "online-satis-sss": "pms-ota",
+
+  // Raporlama
+  "looker-studio-sss": "raporlama",
+  "benchmark-analiz-sss": "raporlama",
+  "satis-donusumu-sss": "raporlama",
+  "kvkk-veri-guvenligi-sss": "raporlama",
+
+  // Otel silo (istersen)
+  "otel-seo-sss": "otel",
+  "otel-sosyalmedya-sss": "otel",
+  "otel-reklam-sss": "otel",
+  "otel-pms-sss": "otel",
+  "otel-cagrimerkezi-sss": "otel",
+};
+
+

@@ -17,12 +17,22 @@ export default function Footer() {
 
   // ✅ Kurumsal linkler
   const corporateLinks = [
-    { href: "/aboutus", label: t("link_about") },              // Hakkımızda
-    { href: "/contact", label: t("link_contact") },            // İletişim
-    { href: "/faq", label: t("link_faq") ?? "SSS" },           // SSS
-    { href: "/privacy", label: t("link_privacy_policy") },     // Gizlilik Pol.
-    { href: "/terms", label: t("link_terms_of_service") },     // Kullanım Şartları
+    { href: "/aboutus", label: t("link_about") },              
+    { href: "/contact", label: t("link_contact") },            
+    { href: "/faq", label: t("link_faq") ?? "SSS" },           
+    { href: "/privacy", label: t("link_privacy_policy") },     
+    { href: "/terms", label: t("link_terms_of_service") },    
     { href: "/blogs", label: t("link_blog") },
+  ];
+
+    // ✅ blog linkler
+  const blogLinks = [
+    // { href: "/bloglar", label: t("link_about") },              
+    // { href: "/contact", label: t("link_contact") },            
+    // { href: "/faq", label: t("link_faq") ?? "SSS" },           
+    // { href: "/privacy", label: t("link_privacy_policy") },     
+    // { href: "/terms", label: t("link_terms_of_service") },    
+    // { href: "/blogs", label: t("link_blog") },
   ];
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
@@ -273,7 +283,7 @@ export default function Footer() {
           </div>
 
           {/* Orta: CTA bloğu (aynı) */}
-          <div className="flex flex-col items-center justify-center gap-10 w-[39%] lg:-mt-4">
+          <div className="flex flex-col items-center justify-center gap-6 w-[39%] lg:-mt-4">
             <div className="flex flex-col items-center justify-start text-center gap-5 font-inter text-white z-[50] h-full">
               <p className="text-[24px] font-bold leading-[110%] -tracking-[1.12px] capitalize mt-2">
                 {t("header")}{" "}
@@ -284,7 +294,7 @@ export default function Footer() {
               <p className="text-[16px] font-noral leading-[130%] -tracking-[0.32px] w-[90%]">
                 {t("text")}
               </p>
-                <Logo className="w-44 flex mt-10 -ml-4" />
+                <Logo className="w-44 flex mt-5 -ml-4" />
             </div>
             <Image
               src={sutunlar}
@@ -299,29 +309,8 @@ export default function Footer() {
                   "linear-gradient(to top, transparent 0%, black 50%)",
               }}
             />
-            
-          </div>
 
-          {/* ✅ Sağ: Kurumsal + sosyal medya */}
-          <div className="flex flex-col gap-8 z-[20] mt-10 xl:mt-4 w-[30%] items-center justify-center">
-            <div>
-              <h4 className="text-[14px] font-semibold mb-2">
-                {t("footer_block_corporate") ?? "Kurumsal"}
-              </h4>
-              <div className="grid grid-cols-2 gap-2 text-[13px]">
-                {corporateLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="hover:underline"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            <div className="flex justify-center md:justify-center gap-[10px] z-50">
+             <div className="flex justify-center md:justify-center gap-[10px] z-50">
               <Link
                 href="https://www.instagram.com/dgtlface/"
                 target="_blank"
@@ -382,6 +371,29 @@ export default function Footer() {
                 {t("buttonText")}
               </span>
             </Link>
+            
+          </div>
+
+          {/* ✅ Sağ: Kurumsal + sosyal medya */}
+          <div className="flex flex-col gap-8 z-[20] mt-10 xl:mt-4 w-[30%] items-center justify-center">
+            <div>
+              <h4 className="text-[14px] font-semibold mb-2">
+                {t("footer_block_corporate") ?? "Kurumsal"}
+              </h4>
+              <div className="grid grid-cols-2 gap-2 text-[13px]">
+                {corporateLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="hover:underline"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+           {/* buraya bloglar */}
 
             {/* <Link
               href="/contact"

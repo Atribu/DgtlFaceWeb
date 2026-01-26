@@ -14,6 +14,80 @@ import QuestionsSection2 from '../../components/subPageComponents/QuestionSectio
 import { AiSourceMention } from '../../components/common/AiSourceMention'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: bu sayfanın standart key'i
+  const pathnameKey = "/Services/seo";
+
+  // Türkçe yorum: ortam bazlı base URL (local + prod)
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
+  // Türkçe yorum: seoConfig'ten title/description çek
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title || "SEO Hizmetleri – Teknik, Yerel ve İçerik SEO Uzmanlığı | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.";
+
+  // Türkçe yorum: OG görselini map'ten çek + fallback
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  // Türkçe yorum: canonical URL (local + prod)
+  const url =
+    locale === "tr"
+      ? `${base}/tr/seo`
+      : `${base}/en/seo-search-engine-optimization`; 
+
+  return {
+    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    metadataBase: new URL(base),
+
+    title,
+    description,
+
+    alternates: {
+      canonical: url,
+      languages: {
+        tr: `${base}/tr/seo`,
+        en: `${base}/en/seo-search-engine-optimization`,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
+
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -47,8 +121,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/seo-hizmetleri/#webpage",
-      "url": "https://dgtlface.com/tr/seo-hizmetleri",
+      "@id": "https://dgtlface.com/tr/seo/#webpage",
+      "url": "https://dgtlface.com/tr/seo",
       "name": "SEO Hizmetleri – Teknik, Yerel ve İçerik SEO Uzmanlığı | DGTLFACE",
       "description": "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.",
       "isPartOf": {
@@ -64,14 +138,14 @@ const homeJsonLd = {
         "turizm seo"
       ],
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/seo-hizmetleri/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/seo/#breadcrumb"
       }
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/seo-hizmetleri/#service",
+      "@id": "https://dgtlface.com/tr/seo/#service",
       "name": "Profesyonel SEO Hizmetleri – Teknik, Yerel ve İçerik SEO",
-      "url": "https://dgtlface.com/tr/seo-hizmetleri",
+      "url": "https://dgtlface.com/tr/seo",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -105,7 +179,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/seo-hizmetleri/#services-list",
+      "@id": "https://dgtlface.com/tr/seo/#services-list",
       "name": "DGTLFACE SEO Hizmetleri",
       "itemListElement": [
         {
@@ -137,7 +211,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/seo-hizmetleri/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/seo/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -149,13 +223,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "SEO Hizmetleri",
-          "item": "https://dgtlface.com/tr/seo-hizmetleri"
+          "item": "https://dgtlface.com/tr/seo"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/seo-hizmetleri/#faq",
+      "@id": "https://dgtlface.com/tr/seo/#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -101,7 +101,15 @@
       "list2":"Next.js & React tabanlı, hızlı ve SEO uyumlu web siteleri",
       "list3":"TR–EN–DE–RU çok dilli çağrı merkezi ve mesaj yönetimi",
       "list4":"Looker Studio ile şeffaf, gerçek zamanlı performans raporlama"
+     
     },
+
+    "blog":{
+       "allBlogs":"Tüm Bloglar",
+      "recentlyAdded":"Son Eklenen Bloglar",
+      "read":"Devamını oku"
+    },
+
     "stats": {
       "value1": "+4X",
       "label1": "Oranında",
@@ -23719,6 +23727,8 @@
     "results": "{count} sonuç",
     "empty": "Sonuç bulunamadı.",
     "readMore": "Devamını oku",
+     "allBlogs":"Tüm Bloglar",
+      "recentlyAdded":"Son Eklenen Bloglar",
     "departments": {
       "all": "Tümü",
       "seo": "SEO",
@@ -24203,7 +24213,7 @@
 },
 
      "BlogGoogleAdsHesapVeKampanyaMimarisi": {
-      "title": "Google Ads Hesap Yapısı: Otel Kampanya Mimarisi | DGTLFACE",
+      "title": "Google Ads Hesap ve Kampanya Mimarisi Nasıl Kurulur?",
       "slug": "google-ads-hesap-ve-kampanya-mimarisi",
       "department": "sem",
        "updatedAt":"5 Ocak 2026",
@@ -55067,6 +55077,1713 @@
           "Ölçüm: profil ziyareti + tıklama + talep alanları rapora zorunlu",
           "UTM ve landing yönlendirmeleri sürtünmesiz (tek hedef sayfa)",
           "180–365 gün refresh döngüsü ile örnekler güncellenecek"
+        ]
+      }
+    }
+  },
+
+   "BlogOtelYouTubeReklamFilmiSenaryoVeStoryboard": {
+    "title": "Otel YouTube Reklam Filmi İçin Senaryo ve Storyboard Nasıl Hazırlanır?",
+    "slug": "otel-youtube-reklam-filmi-senaryo-ve-storyboard",
+    "department": "sem",
+    "updatedAt": "26 Ocak 2026",
+    "publishedAt": "2026-01-26",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel YouTube reklam filmi için senaryo ve storyboard’u adım adım kurun: güçlü hook, sahne listesi, çekim planı ve format kırpımları. Şablonu indirin, çalışma isteyin.",
+    "seo": {
+      "metaTitle": "Otel YouTube Reklam Filmi: Senaryo & Storyboard | DGTLFACE",
+      "metaDescription": "Otel YouTube reklam filmi için senaryo ve storyboard’u adım adım kurun: güçlü hook, sahne listesi, çekim planı ve format kırpımları. Şablonu indirin, çalışma isteyin."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEM",
+        "Sayfa (Hub) / URL: YouTube Reklam Yönetimi — /tr/sem/youtube-reklam-yonetimi",
+        "Blog / URL: /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard",
+        "Blog Tipi: Core",
+        "Intent: Informational + Creative",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/sem/blog/otel-youtube-reklam-filmi-senaryo-ve-storyboard"
+      ],
+      "strategySummary": "Bu içerik, YouTube silo’sunda “format” ve “hedefleme” içeriklerinden sonra, performansı doğrudan belirleyen kreatif üretim (senaryo + storyboard) katmanını otel/turizm bağlamında otorite içerik olarak konumlandırır. Hedef persona; otel sahibi/GM, satış-pazarlama müdürü ve ajans yöneticisidir: reklam filmi üretimini “güzel video”dan çıkarıp funnel + mesaj + sahne planı disiplinine oturtmak ister. Funnel’da consideration ağırlıklı olsa da, doğru storyboard; bumper/shorts türetme ve remarketing’e uygun varyant üretimiyle conversion’a da hizmet eder. Creative silo ile SEM silo’yu bağlayan köprü yazı olduğu için, video prodüksiyon ve reels/shorts operasyonuna iç link taşıyarak üretimi standardize eder."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-26",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "YouTube’da başarılı bir otel reklam filmi; hedefi net (marka/rezervasyon/deneyim), ilk 5 saniyesi güçlü bir hook’a sahip ve sahne sahne planlanmış bir senaryo + storyboard ile üretilir. Storyboard; oda, tesis, deneyim ve destinasyonu doğru sırayla göstererek çekimi hızlandırır ve sonradan bumper/shorts gibi kısa varyantlar türetmeyi kolaylaştırır. Otel tipine göre (resort/city/butik) sahne öncelikleri değişir; plan, mesajı sadeleştirir.",
+      "sgeSummary": "Hedefi belirle, 5 saniyelik hook tasarla, sahne listesini storyboard’a çevir. Çekim planını formatlara (16:9, 9:16) göre kur; bumper ve kısa versiyonları baştan planla.",
+      "voiceAnswer": "Hedefi seç, ilk 5 saniyede hook kur, sahneleri storyboard’la planla; çekimi formatlara göre hazırla.",
+      "aiFactSheet": [
+        "Hedef kitle: GM/otel sahibi, satış-pazarlama, ajans yöneticisi",
+        "KPI: View rate (ilk 5–10 sn), CTR/engaged sessions, teklif sayfası tıklaması, lead/CPA",
+        "Entity: storyboard, hook, scene list, hotel brand story, video production",
+        "Funnel: Upper (brand/deneyim) → Mid (kanıt/oda/tesis) → Low (teklif/CTA)",
+        "GEO: Antalya / Bodrum gibi destinasyonlarda “hikâye” izlenmeyi artırır (spam yok)",
+        "Risk: plansız çekim → dağınık mesaj → kısa format türetilememesi",
+        "Çıktı: senaryo, storyboard, çekim günü checklist’i, varyant planı (bumper/shorts)"
+      ]
+    },
+    "h1": {
+      "title": "Otel YouTube Reklam Filmi İçin Senaryo ve Storyboard Nasıl Hazırlanır?",
+      "intro": "YouTube reklam filmi, otellerde “görsel vitrin” değil; doğru kurgulanırsa talep yaratma + değerlendirme + dönüşüm katmanlarını aynı yaratıcı omurgada birleştiren performans aracıdır. Sorun şu: çoğu video “güzel görüntüler”den oluşur ama mesaj akışı ve sahne önceliği planlanmadığı için ilk 5–10 saniyede izleyici kaybı yaşanır. İyi kurgulanmış videolarda ilk 5–10 saniye tutunma oranı genelde daha yüksektir; bu da reklam performansına direkt yansır. (Varsayım: sektörel genel içgörü; kesin sayı iddiası yok.)\nBu rehber; otel tanıtım filmi senaryosu, storyboard örneği (otel video) ve “YouTube hotel video script” mantığını otel tiplerine göre pratikleştirir: resort, city, butik.",
+      "quickSummary": [
+        "1. Pazar/konsept hedefini seç (destinasyon + deneyim).",
+        "2) Hook + 3 ana sahne akışı yaz.",
+        "3) Storyboard + çekim listesiyle prodüksiyonu kilitle."
+      ],
+      "ctaPrimary": {
+        "label": "YouTube Video Senaryo & Storyboard Çalışması Talep Et",
+        "text": "Senaryoyu performansa bağlamak isteyen otel ekipleri ve ajanslar için",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "YouTube Video Senaryo & Storyboard Çalışması Talep Et",
+        "text": "Senaryoyu hook, sahne listesi ve varyant planıyla kilitlemek isteyenler için",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      },
+      "secondary": {
+        "label": "Otel Video Storyboard Şablonunu İndir",
+        "text": "Shot listesi ve çekim planını 15 dakikada doldurup prodüksiyonu hızlandırın.",
+        "href": "/tr/sem/youtube-reklam-yonetimi"
+      }
+    },
+    "internalLinks": [
+      { "label": "YouTube Reklam Yönetimi", "href": "/tr/sem/youtube-reklam-yonetimi" },
+      { "label": "Video Prodüksiyon", "href": "/tr/creative/video-produksiyon" },
+      { "label": "Reels / Shorts Video", "href": "/tr/smm/reels-video" }
+    ],
+    "relatedPosts": [
+      { "title": "YouTube Reklam Yönetimi", "href": "/tr/sem/youtube-reklam-yonetimi" },
+      { "title": "Video Prodüksiyon", "href": "/tr/creative/video-produksiyon" },
+      { "title": "Reels / Shorts Video", "href": "/tr/smm/reels-video" }
+    ],
+    "sections": [
+      {
+        "id": "hero-context",
+        "title": "Otel YouTube reklam filmi: performans için senaryo + storyboard",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "CTA (Primary): YouTube Video Senaryo & Storyboard Çalışması Talep Et — (Senaryoyu performansa bağlamak isteyen otel ekipleri ve ajanslar için)\nBağlantı hedefi: /tr/sem/youtube-reklam-yonetimi"
+          },
+          { "type": "media", "slot": "h1-context-02" }
+        ]
+      },
+      {
+        "id": "video-hedefi-belirleme",
+        "title": "Otel için video hedefi nasıl belirlenir? (Marka, Rezervasyon, Deneyim)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Senaryo yazmadan önce “tek cümle hedef” seçmek zorundasın. Çünkü hedef belirsizse storyboard, sahne listesi şişer; video uzar, mesaj bulanıklaşır."
+          },
+          { "type": "h3", "text": "1) Marka filmi hedefi (Upper)" },
+          { "type": "p", "text": "Amaç: destinasyon + konsepti zihne yerleştirmek.\nMesaj: “Biz kimiz, ne vaat ediyoruz?”\nÖrnek: Antalya’da aile resort; Bodrum’da yetişkin konsepti; Kapadokya’da deneyim/atmosfer." },
+          { "type": "h3", "text": "2) Rezervasyon hedefi (Lower)" },
+          { "type": "p", "text": "Amaç: teklif/avantajı harekete çevirmek.\nMesaj: “Şimdi neden rezervasyon yapmalıyım?”\nÖrnek: erken rezervasyon, sezon açılışı, özel paket." },
+          { "type": "h3", "text": "3) Deneyim hedefi (Mid)" },
+          { "type": "p", "text": "Amaç: “bunu yaşamak istiyorum” hissi.\nMesaj: oda + tesis + deneyim kanıtı (yemek, spa, çocuk alanı, lokasyon)." },
+          { "type": "h3", "text": "Mini örnek (3 otel tipi):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort: aile deneyimi + tesis ölçeği + aktivite",
+              "City: lokasyon + toplantı/konfor + hız",
+              "Butik: atmosfer + tasarım + hikâye"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Hedefimi tek cümle yazdım mı?",
+              "Hedefi destekleyen 1 ana KPI seçtim mi (view rate / CTR / lead)?",
+              "“Tek vaat”im net mi (konsept + avantaj)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Hedefi “brand/experience/booking” olarak seç.",
+              "Hedefe göre video süresi ve CTA türünü belirle.",
+              "Hedef değişiyorsa ayrı varyant üret (tek videoda her şey yapma)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "senaryo-nasil-yazilir",
+        "title": "Otel YouTube reklam filmi senaryosu nasıl yazılır? (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Senaryo yazımı, “sahne listelemek” değildir; hikâye akışı + mesaj ekonomisi kurmaktır. Otel videosunda en iyi çalışan yapı, izleyicinin zihnindeki 3 soruya cevap verir:\n\t1.\tBurada ne var? (destinasyon/konsept)\n\t2.\tBana ne fayda? (deneyim/kanıt)\n\t3.\tŞimdi ne yapmalıyım? (CTA)"
+          },
+          { "type": "h3", "text": "Hikâye Yapısı: Giriş – Gelişme – Kapanış" },
+          { "type": "p", "text": "Giriş (0–5 sn): Hook + vaat\nGelişme (5–25 sn): oda/tesis/deneyim kanıtı (3 blok)\nKapanış (son): teklif/konum + net CTA" },
+          { "type": "h3", "text": "Senaryo iskeleti (kopyala-kullan):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Hook cümlesi: “_____ destinasyonunda _____ deneyimi”",
+              "3 kanıt sahnesi: (oda) → (tesis) → (deneyim)",
+              "Çapa sahne: “konum/ulaşım/özel ayrıcalık”",
+              "CTA: “fiyatları gör / teklif al / rezervasyon yap”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Senaryoda “tek vaat” var mı?",
+              "3 kanıt sahnesi birbirini tekrar etmiyor mu?",
+              "CTA metni net mi ve landing ile uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Senaryoyu 10 satırda bitir (uzatma).",
+              "Her satırı bir “görüntü”ye çevirebilir misin test et.",
+              "CTA’yı en baştan kurgula; sona bırakma."
+            ]
+          },
+          { "type": "media", "slot": "divider-03" }
+        ]
+      },
+      {
+        "id": "hook-tasarimi",
+        "title": "İlk 5 saniyede ne göstermeliyim? Hook Tasarımı (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube’da ilk 5 saniye, “izle/atla” karar anıdır. Otellerde hook; rastgele drone görüntüsü değil, konsept + faydayı aynı anda söyleyen görsel hamledir."
+          },
+          { "type": "h3", "text": "Hook için 5 pratik şablon" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Konsept netliği: “Aile dostu aquapark resort” tek kare",
+              "Tek vaadi göster: “Denize sıfır, özel plaj”",
+              "Duygu tetikleyici: “Sabah manzarası + kahve + sessizlik” (butik)",
+              "Hızlı kanıt: “Oda → havuz → restoran” 3 hızlı cut",
+              "Destinasyon çengeli: “Antalya / Bodrum” sinyali + konsept"
+            ]
+          },
+          { "type": "h3", "text": "Sahne önceliği (otel tipine göre):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Resort: çocuk alanı / havuz / aktivite önce",
+              "City: lobby + oda + lokasyon (yürünebilirlik)",
+              "Butik: atmosfer + detay + hikâye"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "İlk karede “otel tipi + konsept” anlaşılıyor mu?",
+              "Hook, ses kapalı izlenince de çalışıyor mu (altyazı/ekran yazısı)?",
+              "İlk 5 saniye tek mesaj taşıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 farklı hook varyantı yaz ve çekim planına koy.",
+              "Hook’u test etmek için 6 saniyelik bumper cut planla.",
+              "Hook ile landing vaadini birebir hizala."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "storyboard-nedir",
+        "title": "Storyboard nedir, video çekiminde nasıl kullanılır? (AEO)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Storyboard; senaryodaki her cümleyi kare kare (frame/shot) planlayarak çekimi yöneten görsel plandır. Otellerde storyboard’un gerçek değeri şudur:\n\t•\tÇekim gününü hızlandırır (hangi sahne, hangi açı, hangi sırayla)\n\t•\tEdit’i kolaylaştırır (cut ritmi, geçişler, müzik uyumu)\n\t•\tKısa varyant üretimini garanti eder (bumper/shorts/reels kırpımları)"
+          },
+          { "type": "h3", "text": "Storyboard oluşturma adımları (net liste)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Senaryoyu 8–12 “shot”a böl",
+              "Her shot için: sahne/aksiyon/kamera/ekran yazısı/ses notu yaz",
+              "Süreyi kaba dağıt: 0–5 / 5–15 / 15–30 / kapanış",
+              "Varyant planı ekle: 6s bumper, 15s kısa, 30s ana"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her shot tek “ana fikir” taşıyor mu?",
+              "Shot listesi çekilebilir mi (ışık, alan, izin)?",
+              "Bumper/shorts kırpımı shot’ların içine gömülü mü?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Storyboard’u “çekim planı” ile eşleştir (aynı doküman seti).",
+              "Kritik sahneleri (oda/havuz/restoran) aynı gün blokla.",
+              "Dikey (9:16) için güvenli alan notu düş."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "cekimplanina-gecis",
+        "title": "Storyboard’dan çekim planına: sahne listesi nasıl hazırlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Storyboard “ne çekeceğini” söyler; çekim planı “ne zaman, nerede, nasıl çekeceğini” kilitler. Otellerde çekim planı yapmazsan, en iyi senaryo bile çekim gününde dağılır."
+          },
+          { "type": "h3", "text": "Sahne listesi oluştururken odaklanılacak alanlar" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Oda (genel + detay)",
+              "Havuz / plaj / manzara",
+              "Restoran / gastronomi",
+              "Spa / wellness",
+              "Çocuk alanları / aktivite",
+              "Lobby / karşılama",
+              "Destinasyon dokusu (abartısız; “atmosfer”)"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Tablo (Media Pack’in 1 tablosu): Otel tipine göre sahne listesi ve amaç",
+            "headers": ["Otel Tipi", "Sahne Önceliği", "Amaç", "Önerilen Süre"],
+            "rows": [
+              ["Resort", "havuz + çocuk + aktivite", "“aile deneyimi”ni netleştir", "20–30 sn"],
+              ["City", "lokasyon + oda + toplantı", "“konfor + erişim”", "15–25 sn"],
+              ["Butik", "atmosfer + detay + hikâye", "“farklılık + duygu”", "20–30 sn"]
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her sahnenin “amaç” satırı var mı?",
+              "Aynı şeyi gösteren sahneleri eledim mi?",
+              "Çekim günü akışı (blok blok) çıkarıldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Sahnelere “amaç” etiketi koy (kanıt mı, duygu mu, CTA mı?).",
+              "Aynı lokasyondaki sahneleri blokla; zaman kaybını azalt.",
+              "Edit ritmi için yakın plan detay sahnelerini unutma."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metin-ses-muzik",
+        "title": "Metin, seslendirme ve müzik uyumu: “duygu”yu performansa bağlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel videosunda müzik “tat” verir ama mesajı taşıyan şey; ekran yazısı + ses tonu + ritim üçlüsüdür. Performans için pratik yaklaşım: ses kapalı izlenmeye göre ekran yazısı/altyazı planla."
+          },
+          { "type": "h3", "text": "3 katmanlı metin sistemi" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Ekran başlığı (3–6 kelime): konsept/vaat",
+              "Alt satır (6–10 kelime): kanıt/ayrıcalık",
+              "CTA chip (2–4 kelime): “Fiyatları Gör” / “Teklifi İncele”"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Ses kapalı izlenince mesaj anlaşılıyor mu?",
+              "Müzik, cut ritmine uyuyor mu?",
+              "Ekran yazısı landing mesajıyla aynı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "3 metin katmanını storyboard’a yaz (sonradan ekleme).",
+              "Seslendirme varsa 1 cümle = 1 sahne kuralı uygula.",
+              "CTA metnini erken tanıt; finalde tekrar et."
+            ]
+          },
+          { "type": "media", "slot": "divider-04" }
+        ]
+      },
+      {
+        "id": "formatlara-gore-planlama",
+        "title": "Dikey/kare/yatay formatlara göre planlama: baştan kırpılabilir çek",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "YouTube ana film çoğunlukla 16:9 ilerler; fakat oteller için gerçek ölçek çoğu zaman kısa formatlarla gelir (reels/shorts/bumper). Bu yüzden storyboard’da “kırpılabilir sahne” mantığını baştan kurmalısın."
+          },
+          { "type": "h3", "text": "Güvenli alan ve çekim kuralı" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "16:9 çekimde ana objeyi merkezde tut (9:16 kırpıma güvenli)",
+              "Kritik metinleri alt/üst kenarlara yapıştırma",
+              "Tek sahnede 2 amaç yükleme (hem oda hem restoran) kaçın"
+            ]
+          },
+          { "type": "h3", "text": "Bumper ve kısa video türetme (başta planla):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Bumper (6s): Hook + tek kanıt + logo/CTA",
+              "15s kısa: Hook + 2 kanıt + CTA",
+              "30s ana: Hook + 3 kanıt + kapanış + CTA"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check",
+            "items": [
+              "Her ana sahnenin “short cut” karşılığı var mı?",
+              "Dikey için yakın planlar yeterli mi?",
+              "CTA ve logo yerleşimi güvenli alanda mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Her projede 6s/15s/30s varyantı standart yap.",
+              "Dikey çekim için ekstra yakın plan listesi ekle.",
+              "Kırpımı “edit sonrası karar” olmaktan çıkar; storyboard’a göm."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cekim-gunu-checklist",
+        "title": "Çekim günü checklist’i: prodüksiyonla uyumu nasıl sağlarsın?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla ekipman konuşur; otellerde fark yaratan şey çekim günü disiplini ve storyboard’a sadakattir. İşte otel prodüksiyonunda pratik checklist:"
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Çekim Günü)",
+            "items": [
+              "Storyboard + shot list çıktısı ekipte var",
+              "Oda/havuz/restoran çekim saatleri ışığa göre planlı",
+              "Kalabalık alanlar için “sessiz çekim” planı var",
+              "Dikey yakın plan listesi hazır",
+              "Müzik/ritim referansı editöre iletildi",
+              "Marka/konsept mesajı 1 cümlede herkesçe aynı"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Çekim öncesi 15 dk “shot brifingi” yap.",
+              "Çekimde “fazla sahne” değil “doğru sahne” topla.",
+              "Edit brief’ine bumper/shorts teslimini ekle."
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" }
+        ]
+      },
+      {
+        "id": "otel-brand-story",
+        "title": "Fark yaratan mini bölüm: Otel hikâyesi (brand story) nasıl “satış”a bağlanır?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Otel brand story” çoğu zaman duygusal kalır; ama performans için story’nin bir “kanıt”a bağlanması gerekir. Örnek bağlama yöntemleri:\n\t•\tDuygu (atmosfer) → Kanıt (oda/servis) → Aksiyon (teklif/CTA)\n\t•\tDestinasyon (Antalya/Bodrum) → Konsept (aile/yetişkin) → Ayrıcalık (özel plaj/spa)\nBu mini köprü, hem izlenmeyi hem tıklamayı aynı omurgada toplar."
+          },
+          { "type": "media", "slot": "kpi-07" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "YouTube Video Senaryo & Storyboard Çalışması Talep Et",
+            "text": "Senaryoyu hook, sahne listesi ve varyant planıyla kilitlemek isteyenler için",
+            "href": "/tr/sem/youtube-reklam-yonetimi"
+          }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Senaryo + storyboard, “video üretimi” değil “performans altyapısıdır”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel YouTube reklam filmi; hedefi net, hook’u güçlü ve sahneleri planlı olduğunda hem ana film performans verir hem de bumper/shorts varyantlarıyla ölçeklenir. Storyboard; çekimi hızlandırır, edit’i sadeleştirir ve ajans/otel iletişiminde “ne çekeceğiz?” tartışmasını bitirir. Eğer süreci uçtan uca standartlaştırmak istiyorsan, prodüksiyon operasyonunu /tr/creative/video-produksiyon tarafına; kısa format türetmeyi /tr/smm/reels-video tarafına bağlayarak tek üretim hattı kur."
+          },
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Otel Video Storyboard Şablonunu İndir — SEM / Otel YouTube Reklam Filmi (v1.0)",
+            "purpose": "Bu şablon, otel reklam filmi senaryosunu 8–12 shot’a indirip storyboard’a çevirmenizi sağlar. Çekim günü akışını netleştirir; 6s bumper, 15s kısa ve 30s ana film varyantlarını baştan planlayarak üretimi ölçeklenebilir hale getirir.",
+            "whoFor": "Otel satış-pazarlama ekibi, ajans kreatif stratejist, prodüksiyon ekibi (yönetmen/editör).",
+            "steps": [
+              "Hedefi seç (brand/experience/booking) ve tek vaat yaz.",
+              "Aşağıdaki shot satırlarını 8–12’ye doldur.",
+              "Her shot için “kırpım” sütununu işaretleyip bumper/shorts planını çıkar."
+            ],
+            "template": [
+              "A) Hedef & Tek Vait",
+              "• Destinasyon: __________",
+              "• Konsept: __________",
+              "• Hedef: ☐ Marka ☐ Deneyim ☐ Rezervasyon",
+              "• Tek vaat (1 cümle): __________________________________",
+              "B) Hook (0–5 sn)",
+              "• Hook görseli: __________",
+              "• Ekran yazısı: __________",
+              "• Ses/Müzik notu: __________",
+              "C) Shot List (8–12 satır)",
+              "Her satır: Sahne / Aksiyon / Kamera / Metin / Ses / Süre / Kırpım (6s–15s–30s)",
+              "1. Sahne: ______ | Aksiyon: ______ | Kamera: ______ | Metin: ______ | Ses: ______ | Süre: __ | Kırpım: ☐6 ☐15 ☐30",
+              "2. Sahne: ______ | Aksiyon: ______ | Kamera: ______ | Metin: ______ | Ses: ______ | Süre: __ | Kırpım: ☐6 ☐15 ☐30",
+              "3. … (8–12’ye tamamla)",
+              "D) Kapanış & CTA",
+              "• Final görseli: __________",
+              "• CTA metni: __________",
+              "• Landing sayfası: __________",
+              "E) Çekim Günü Mini Plan",
+              "• Lokasyon blokları: (Oda) ___ (Havuz/Plaj) ___ (Restoran) ___ (Spa) ___",
+              "• Işık saati notu: __________",
+              "• Dikey yakın plan listesi: __________",
+              "Nasıl doldurulur? (5 kural)",
+              "1. Her shot tek fikir taşısın.",
+              "2. Hook “destinasyon + konsept + vaat”i aynı karede versin.",
+              "3. Metin, ses kapalı izlenmeye göre planlansın.",
+              "4. Bumper/shorts kırpımları shot’lara gömülsün.",
+              "5. CTA ve landing vaadi birebir eşleşsin.",
+              "1 kısa örnek (Resort – Aile):",
+              "Hook: “Antalya’da aile aquapark deneyimi” | Shot: çocuk alanı → havuz → oda → restoran → CTA “Fiyatları Gör”",
+              "Kontrol listesi",
+              "• Tek vaat net",
+              "• 8–12 shot tamam",
+              "• 6s/15s/30s kırpım işaretli",
+              "• Çekim planı bloklandı",
+              "• CTA + landing uyumlu",
+              "Deliverables",
+              "• Storyboard PDF/Sheet",
+              "• Shot list + çekim günü planı",
+              "• 6s/15s/30s cut planı",
+              "“Buraya:” notları",
+              "Buraya: [Checklist / Framework Card] — 1:1 — otel-youtube-reklam-filmi-senaryo-ve-storyboard-checklist-06.webp — Storyboard doldurma + çekim günü checklist + otel prodüksiyon bağlamı"
+            ],
+            "href": "/downloads/otel-video-storyboard-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel YouTube reklam filmi senaryosu nasıl yazılır?",
+        "a": "Önce hedefi (marka/rezervasyon/deneyim) seçin, tek vaadi netleştirin. Sonra hook + 3 kanıt sahnesi + CTA yapısıyla 8–12 shot’lık akış oluşturun."
+      },
+      {
+        "q": "Storyboard nedir, video çekiminde nasıl kullanılır?",
+        "a": "Storyboard, senaryoyu kare kare planlayan görsel çekim rehberidir. Çekim gününü hızlandırır, edit akışını sadeleştirir ve bumper/shorts gibi kısa varyantları baştan planlamayı sağlar."
+      },
+      {
+        "q": "İlk 5 saniyede ne göstermeliyim?",
+        "a": "İlk karede destinasyon/konsept ve tek vaadi net gösterin. Drone görüntüsü yerine “konsept + fayda”yı aynı karede veren bir hook kullanın."
+      },
+      {
+        "q": "Reklam filmi çekim planı nasıl hazırlanır?",
+        "a": "Storyboard’daki shot listesi lokasyon bloklarına ayrılır (oda, havuz, restoran vb.). Işık saatleri ve kalabalık alanlar planlanır; dikey yakın plan listesi eklenir."
+      },
+      {
+        "q": "Resort, city ve butik otel için senaryo farkı nedir?",
+        "a": "Resort’ta deneyim ve aktivite önceliklidir; city otelde lokasyon ve konfor; butik otelde atmosfer ve hikâye daha öne çıkar. Sahne öncelikleri buna göre değişir."
+      },
+      {
+        "q": "Bumper reklam için sahneler nasıl seçilmeli?",
+        "a": "Hook + tek kanıt + logo/CTA yapısını 6 saniyeye sığdıran sahneler seçilmelidir. Bu kırpımı storyboard’da baştan işaretlemek en güvenli yöntemdir."
+      },
+      {
+        "q": "Dikey format (9:16) için çekimde nelere dikkat edilmeli?",
+        "a": "Ana objeyi merkezde tutmak, metinleri güvenli alanda yerleştirmek ve yakın planlarla dikey ritmi desteklemek gerekir. 16:9 çekimde dikey kırpım güvenliğini storyboard’a not düşmek önemlidir."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "blog-slug: otel-youtube-reklam-filmi-senaryo-ve-storyboard",
+          "1. Buraya: [Hero / Cover] — 16:9 (1920×1080) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-hero-01.webp — Otel reklam filmi senaryo storyboard + üretim planı + otel pazarlama bağlamı",
+          "2. Buraya: [H1 sonrası “Context” görseli] — 16:9 (1920×1080) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-h1-context-02.webp — Hook + sahne akışı + CTA kurgusu + otel deneyimi bağlamı",
+          "3. Buraya: [Section Divider 01] — 4:3 (1600×1200) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-divider-03.webp — Senaryo akışı + hook + sahne listesi + otel bağlamı",
+          "4. Buraya: [Section Divider 02] — 4:3 (1600×1200) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-divider-04.webp — Çekim günü checklist + format kırpımı + otel pazarlama bağlamı",
+          "5. Buraya: [Diagram / Flow] — 16:9 (1920×1080) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-diagram-05.webp — Senaryo → storyboard → çekim planı → bumper/shorts türetme akışı + otel bağlamı",
+          "6. Buraya: [Checklist / Framework Card] — 1:1 (1200×1200) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-checklist-06.webp — Çekim günü checklist + storyboard adımları + otel üretim bağlamı",
+          "7. Buraya: [KPI / Score Card] — 1:1 (1200×1200) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-kpi-07.webp — İlk 5–10 sn izlenme + CTR + etkileşim KPI paneli + otel bağlamı",
+          "8. Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — otel-youtube-reklam-filmi-senaryo-ve-storyboard-proof-08.webp — Senaryo + storyboard + çekim planı + varyant teslim seti + otel bağlamı",
+          "Tablo (1 adet): “Otel tipine göre sahne listesi ve amaç” tablosu (BÖLÜM 4 içinde)"
+        ],
+        "technicalChecklist": [
+          "CTA yoğunluğu (Intent’e göre): Informational + Creative (MoFu) — Primary CTA: 2 kez (H1 giriş sonunda + son 1/3), Secondary CTA: 1 kez (orta bölüm)",
+          "Primary CTA hedefi: /tr/sem/youtube-reklam-yonetimi",
+          "Secondary CTA hedefi: Varsayım: Şablon, /tr/sem/youtube-reklam-yonetimi sayfasında indirilebilir kaynak olarak sunulur.",
+          "İç link hedefleri (sheet): /tr/creative/video-produksiyon, /tr/smm/reels-video, /tr/sem/youtube-reklam-yonetimi"
+        ]
+      }
+    }
+  },
+
+  "BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi": {
+    "title": "Otel Yorum Yönetimi: Yerel SEO Puanlama Rehberi",
+    "slug": "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi",
+    "department": "seo",
+    "updatedAt": "26 Ocak 2026",
+    "publishedAt": "2026-01-26",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Otel yorum yönetimiyle yerel SEO sinyallerini güçlendirin: yorum sayısı, puan, tazelik ve yanıt stratejisi. Kötü yoruma cevap örnekleri ve akış planı.",
+    "seo": {
+      "metaTitle": "Otel Yorum Yönetimi: Yerel SEO Puanlama Rehberi | DGTLFACE",
+      "metaDescription": "Otel yorum yönetimiyle yerel SEO sinyallerini güçlendirin: yorum sayısı, puan, tazelik ve yanıt stratejisi. Kötü yoruma cevap örnekleri ve akış planı."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SEO",
+        "Sayfa (Hub) / URL: Yerel SEO (Local SEO) — /tr/seo/yerel-seo",
+        "Blog / URL: /tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/seo/blog/yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi"
+      ],
+      "strategySummary": "Bu blog, Yerel SEO sayfasının altında “harita görünürlüğünü büyüten sinyal” odağında bir otorite taşıyan child içeriktir ve Local Pack performansında yorumların (reviews, rating, recency, responses) rolünü netleştirir. Hedef persona; otel sahibi/GM, satış–pazarlama müdürü ve ajans yöneticisidir; amaç “yorumları sadece itibar” değil, aynı zamanda yerel sıralama ve dönüşüm sinyali olarak yönetebilmektir. Funnel’da consideration → conversion köprüsündedir: misafir güveni + tıklama davranışı + harita aksiyonları (arama/rota/web) birlikte büyütülür. SERP hedefi Featured Snippet + PAA olduğu için içerik soru formatlı başlıklar, kısa cevap blokları, senaryolar ve tabloyla tasarlanır. Ana iş sorusu: “Yorumları planlı şekilde alıp profesyonel yanıtlayarak hem güveni hem Local Pack görünürlüğünü nasıl artırırım?”\nRefresh Cycle: 365 gün (platform kuralları ve kullanıcı davranışları değiştikçe örnek yanıtlar güncellenir)."
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-26",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Yorumlar, oteller için hem misafir kararını hem de Google Haritalar’daki yerel sıralama sinyallerini etkileyen en güçlü alanlardan biridir. Düzenli gelen yorumlar, yüksek ortalama puan, “son yorumların tazeliği” ve profesyonel yanıt disiplini; güveni artırır, tıklama davranışını iyileştirir ve harita görünürlüğünü stabilize eder. En kritik nokta, yorum yönetimini “kampanya” değil süreç olarak tasarlamak ve sahte/ satın alınmış yorum risklerinden kaçınmaktır.",
+      "sgeSummary": "Otel yorumları yerel SEO’yu; puan, yorum sayısı, tazelik ve yanıt kalitesiyle güçlendirir. Düzenli yorum alma akışı kurun, kötü yoruma empati + çözümle yanıt verin.",
+      "voiceAnswer": "Düzenli yorum isteyin, hızlı ve empatik yanıtlayın; puan, tazelik ve yanıt kalitesi yerel görünürlüğü destekler.",
+      "aiFactSheet": [
+        "Hedef kitle: Otel sahibi/GM, satış–pazarlama müdürü, ajans yöneticisi",
+        "KPI’lar: Harita tıklaması, arama (call), rota isteği, web tıklaması, rezervasyon niyeti/lead",
+        "Entity’ler: reviews, rating, recency, responses, hotel reputation, local ranking",
+        "Funnel: Consideration → Conversion",
+        "Ana çerçeve: “Yorum Alma Akışı + Yanıt SOP + Kalite Döngüsü”",
+        "SERP hedefi: Featured Snippet + PAA + Voice kısa yanıt",
+        "Risk notu: Sahte/ satın alınmış yorum → politika riski + güven kaybı"
+      ]
+    },
+    "h1": {
+      "title": "Yorum Yönetimi ve Puanlama: Oteller İçin Yerel SEO Stratejisinin Kalbi",
+      "intro": "Yorumlar, oteller için yalnızca “itibar” değil; aynı zamanda Google Haritalar’da (Local Pack) görünürlük ve tıklama davranışını etkileyen güçlü bir sinyal setidir. Yeterli sayıda, düzenli gelen ve yüksek ortalamalı yorumlara sahip olmak; bunun yanında yorumlara profesyonelce yanıt vermek, misafir güvenini ve dönüşüm niyetini artırma eğilimindedir. Bu rehberde “otel yorumları yerel SEO etkisi” konusunu soyut öneriler yerine ölçülebilir bir çerçeveye oturtuyoruz: yorum sayısı, puan, tazelik (recency), yanıt disiplini ve kalite döngüsü.\n\nİşin kritik yanı şu: rakip içeriklerin çoğu yorum yönetimini yalnız müşteri ilişkileri perspektifinden ele alır; burada biz, aynı zamanda yerel sıralama (local ranking) ve SEO sinyali boyutunu da sürece bağlıyoruz. Ayrıca sahte yorum gibi riskli uygulamalara girmeden, etik ve sürdürülebilir bir yorum akışı kurmayı anlatıyoruz.",
+      "quickSummary": [
+        "1) Yorum KPI’larını 4 sinyalde takip et: sayı, puan, tazelik, yanıt oranı",
+        "2) Yorum almayı kampanya değil, süreç olarak kurgula",
+        "3) Olumsuz yorumlarda empati + çözüm + takip kanalıyla yanıt SOP’si uygula",
+        "4) Yorum temalarını operasyon aksiyonuna bağlayarak kalite döngüsü kur"
+      ],
+      "ctaPrimary": {
+        "label": "Yorum ve İtibar Yönetimi Analizi Talep Et",
+        "text": "Yorum profilinizi yerel sıralama sinyalleriyle birlikte analiz edip, uygulanabilir bir yanıt ve yorum alma planı çıkarın.",
+        "href": "/tr/seo/yerel-seo"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Yorum ve İtibar Yönetimi Analizi Talep Et",
+        "text": "Yorum profilinizi (puan/tazelik/yanıt) analiz edip, 30 günlük aksiyon planını birlikte çıkaralım.",
+        "href": "/tr/seo/yerel-seo"
+      },
+      "secondary": {
+        "label": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’ini İndir",
+        "text": "Yanıt kalitesini standartlaştırıp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
+        "href": "/tr/seo/yerel-seo"
+      }
+    },
+    "internalLinks": [
+      { "label": "Yerel SEO (Local SEO)", "href": "/tr/seo/yerel-seo" },
+      { "label": "Otel dijital pazarlama çatı yaklaşımı", "href": "/tr/otel-dijital-pazarlama" },
+      { "label": "Çağrı merkezi performans analizi", "href": "/tr/cagri-merkezi/performans-analizi" }
+    ],
+    "relatedPosts": [
+      { "title": "Yerel SEO (Local SEO)", "href": "/tr/seo/yerel-seo" }
+    ],
+    "sections": [
+      {
+        "id": "hero",
+        "title": "Yorum yönetimi: güven + Local Pack görünürlüğü",
+        "blocks": [
+          { "type": "media", "slot": "h1-context-02" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yorum ve İtibar Yönetimi Analizi Talep Et",
+            "text": "Yorum profilinizi yerel sıralama sinyalleriyle birlikte analiz edip, uygulanabilir bir yanıt ve yorum alma planı çıkarın.",
+            "href": "/tr/seo/yerel-seo"
+          }
+        ]
+      },
+      {
+        "id": "yerel-siralama-sinyalleri",
+        "title": "Yorum ve puanlamanın yerel sıralamadaki rolü (reviews, rating, recency, responses)",
+        "blocks": [
+          { "type": "media", "slot": "divider-03" },
+          {
+            "type": "p",
+            "text": "Yorumlar, oteller için iki şeyi aynı anda etkiler:\n\t1.\tAlgı ve güven: Misafir “bu otel güvenilir mi?” sorusunu yorumlardan cevaplar.\n\t2.\tDavranış sinyali: Kullanıcı harita kartında durur, yorumlara girer, tıklar/arar/rota ister. Bu davranışlar dolaylı olarak görünürlüğü destekleyen bir kalite sinyali üretebilir.\n\nBu bölümde dört temel sinyali netleştirelim:"
+          },
+          { "type": "h3", "text": "1) Yorum sayısı (volume)" },
+          {
+            "type": "p",
+            "text": "“Google yorum sayısı önemi” otellerde basittir: sıfır veya çok az yorum, kartı zayıflatır. Ama tek başına “çok yorum” da yeterli değildir; kalite ve tazelikle birleşmelidir."
+          },
+          { "type": "h3", "text": "2) Ortalama puan (rating)" },
+          {
+            "type": "p",
+            "text": "Yüksek puan, karar anında bariyerleri düşürür. Özellikle birçok analizde 4,5+ ortalama puanın daha yüksek tıklama ve daha güçlü rezervasyon niyetiyle ilişkilendirildiği sıkça vurgulanır (kesin rakam iddiası yerine “genelde/çoğu analizde” yaklaşımıyla düşünün)."
+          },
+          { "type": "h3", "text": "3) Tazelik (recency)" },
+          {
+            "type": "p",
+            "text": "Otel deneyimi sezonluk dalgalanır; bu yüzden “son yorumların tazeliği” kritik bir sinyaldir. Son 90 gün içinde düzenli yorum akışı, hem kullanıcı güvenini hem de “aktif işletme” algısını yükseltir."
+          },
+          { "type": "h3", "text": "4) Yanıtlar (responses)" },
+          {
+            "type": "p",
+            "text": "Yanıtlar, sadece “nazik olmak” değildir; işletmenin problem çözme kapasitesini ve marka tonunu gösterir. Yanıtsız kötü yorumlar, karttaki güven sinyalini zayıflatır; hızlı ve empatik yanıtlar ise riski azaltır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Sinyal Sağlığı)",
+            "items": [
+              "Son 30–90 günde düzenli yorum akışı var mı?",
+              "Ortalama puan “istikrarlı” mı, dalgalanma var mı?",
+              "Olumsuz yorumlara 24–72 saat içinde yanıt veriliyor mu?",
+              "Yanıtlarda tutarlı marka tonu ve çözüm dili var mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (3–6 aksiyon)",
+            "items": [
+              "Yorumları 4 KPI’da takip edin: sayı, puan, tazelik, yanıt oranı.",
+              "“Yorum alma”yı kampanya değil, süreç olarak kurgulayın (haftalık hedef + sorumlu).",
+              "Olumsuz yorumlarda hızlı yanıt SLA’sı belirleyin (24–72 saat).",
+              "Yanıt kalitesini ölçmek için basit bir kalite puanlaması kullanın (bkz. tablo önerisi)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "google-disi-kaynaklar",
+        "title": "Google yorumları dışındaki kaynaklar (Booking, Expedia vb.) ve dolaylı etkiler",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Google Haritalar sıralaması doğrudan “Booking puanı” ile hesaplanmaz; fakat gerçek dünyada misafir algısı ve marka araması (brand demand) üzerinde dolaylı etkiler vardır. Yani, Booking/Expedia gibi kanallardaki yorumlar;\n\t•\tmisafirin güvenini artırıp marka aramasını yükseltebilir,\n\t•\tweb site tıklamasını ve çağrı/rezervasyon davranışını etkileyebilir,\n\t•\t“itibar”ın genel resmini güçlendirerek yerel görünürlüğe dolaylı katkı sağlayabilir.\n\nOtel tarafında ideal yaklaşım: yorum ekosistemini tek kanala sıkıştırmadan “çok kaynaklı itibar yönetimi” olarak görmek; ama her kaynağın rolünü doğru konumlandırmaktır."
+          },
+          { "type": "h3", "text": "Çok kaynaklı itibar yönetimi: pratik çerçeve" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Google: Harita kartı + Local Pack + doğrudan arama davranışı",
+              "OTA’lar (Booking/Expedia): Karar destek ve satın alma platformları",
+              "Tripadvisor vb.: Deneyim odaklı referans ve karşılaştırma"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Ekosistem)",
+            "items": [
+              "Google ve OTA puanları arasında ciddi fark var mı?",
+              "Google’da kullanıcı sorularına (Q&A) hızlı dönüş var mı?",
+              "En çok şikayet edilen konu (ör. temizlik, check-in) tüm kanallarda aynı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Tek bir “itibar panosu” oluşturun: Google + OTA + web feedback birlikte izlenir.",
+              "En sık tekrar eden sorunları operasyon geri bildirimiyle kapatın (kalite döngüsü).",
+              "Farklı kanallarda farklı beklenti olduğunu kabul edin; yanıt tonunu buna göre ayarlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yorum-alma-stratejisi",
+        "title": "Misafirlerden doğal yorum nasıl istenir? (yorum alma stratejisi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "“Misafirlerden doğal yorum nasıl istenir?” sorusunun cevabı, etik ve sürdürülebilir bir akıştır. Otellerde en iyi sonuçlar genelde şu üç kuralı izler: doğru zaman, doğru kanal, düşük sürtünme."
+          },
+          { "type": "h3", "text": "Yorum alma akışı (otel için örnek)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "An: Check-out sonrası 24–72 saat (deneyim taze, misafir hâlâ ilgili)",
+              "Kanal: İzinli e-posta / WhatsApp / CRM mesajı (misafirin tercihine göre)",
+              "Mesaj: Kısa, tek aksiyon, link kolay erişilir",
+              "Tetikleyici: Memnuniyet sinyali varsa (NPS/CSAT) “yorum iste” daha verimli olur"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: CRM veya basit bir otomasyon aracı kullanabiliyorsunuz. Yoksa manuel süreçle “haftalık çıkış listesi” üzerinden de ilerlenebilir."
+          },
+          { "type": "h3", "text": "Yorum isteme metninde 3 altın kural" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "“Puan iste” değil, “deneyimini paylaş” dili",
+              "Tek link, tek aksiyon",
+              "Teşvik/ödül vaat etmeden (politika riski doğurabilir)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Yorum Alma)",
+            "items": [
+              "Check-out sonrası 24–72 saat içinde tetik var mı?",
+              "Mesaj tek aksiyon mu (yorum linki)?",
+              "Süreç ölçülüyor mu (gönderim → tıklama → yorum)?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“İlk 30 günde” hedef koyun: haftalık düzenli yorum akışı.",
+              "Ön büro/CRM ile pazarlama aynı cümleleri kullanmalı (tutarlılık).",
+              "Süreç KPI’ı ekleyin: yorum isteme dönüşüm oranı (tıklama→yorum)."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "aeo-soru-cevap",
+        "title": "Otel yorumları yerel SEO’yu nasıl etkiler? (AEO soru-cevap bloğu)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "AEO gereksinimi gereği bu bölüm soru formatında ve net cevapla ilerler."
+          },
+          { "type": "h3", "text": "Yorumlar yerel sıralamayı etkiler mi?" },
+          {
+            "type": "p",
+            "text": "Evet; yorumlar otelin güven sinyalini, tıklama ve etkileşim davranışını ve kartın “aktif işletme” algısını güçlendirebilir. Otellerde özellikle puan, tazelik, yanıt kalitesi üçlüsü; misafirin kararını hızlandırır ve harita aksiyonlarını artırma eğilimindedir."
+          },
+          { "type": "h3", "text": "Yorum sayısı mı, puan ortalaması mı daha önemli?" },
+          {
+            "type": "p",
+            "text": "Tek bir doğru yok; en iyi yaklaşım denge kurmaktır:\n\t•\tYorum sayısı “varlık ve hacim” sağlar,\n\t•\tPuan ortalaması “ikna” sağlar,\n\t•\tTazelik ve yanıt disiplini “istikrar” sağlar.\nBu dengenin bozulduğu yerde (çok yorum ama düşük puan; yüksek puan ama çok az yorum; eski yorumlar) performans kırılabilir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Denge)",
+            "items": [
+              "Yorum hacmi yeterli mi?",
+              "Ortalama puan karar anında güven veriyor mu?",
+              "Son yorum tarihi yakın mı?",
+              "Yanıt oranı yüksek mi?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Yorum KPI’ları”nı haftalık izleyin, aylık hedef koyun.",
+              "Düşük puanlı temaları operasyon iyileştirmesiyle kapatın.",
+              "Yorum hacmini artırırken etik sınırları aşmayın (teşvik/ödül/sahte yorum yok)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yanit-stratejisi",
+        "title": "Olumlu ve olumsuz yorumlara yanıt (profesyonel, şablonsuz ama sistemli)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yorum yanıtı iki uç risk taşır:\n\t•\tTamamen şablonlaşırsa robotik görünür,\n\t•\tTamamen kişiselleştirilmezse süreç sürdürülemez.\nDoğru çözüm: “SOP + iskelet + kişisel dokunuş” modelidir."
+          },
+          { "type": "h3", "text": "İyi yanıtın iskeleti (4 adım)" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "Teşekkür + isim/bağlam (kişisel dokunuş)",
+              "Spesifik konuya yanıt (genel cümle değil)",
+              "Çözüm/iyileştirme veya teyit (güven)",
+              "Geri dönüş daveti (iletişim/yeniden ağırlama)"
+            ]
+          },
+          { "type": "h3", "text": "Kötü yoruma cevap örneği mantığı" },
+          {
+            "type": "p",
+            "text": "Kriz yorumlarında amaç “haklı çıkmak” değil; risk azaltmak ve dışarıdaki okuyucuya güven vermektir. “Kötü yoruma otel olarak nasıl cevap vermeliyim?” sorusunun en kısa cevabı: empati + net aksiyon + iletişim kanalı."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Yanıt Kalitesi)",
+            "items": [
+              "Yanıt empati içeriyor mu?",
+              "Spesifik probleme değiniyor mu?",
+              "Çözüm adımı veya takip var mı?",
+              "Marka tonu tutarlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "24–72 saat yanıt SLA’sı belirleyin.",
+              "Yanıt iskeleti kullanın ama her yanıta 1–2 kişisel detay ekleyin.",
+              "Kriz yorumlarını “escalation” akışına alın (GM/kalite sorumlusu onayı)."
+            ]
+          },
+          { "type": "media", "slot": "divider-04" },
+          {
+            "type": "table",
+            "caption": "Tablo: İyi/Kötü Yorum Yanıtı Karşılaştırma Tablosu + Düzeltme Kuralı",
+            "headers": ["Yorum türü", "Kötü yanıt örneği (neden kötü)", "İyi yanıt örneği (neden iyi)", "1 cümle “iyileştirme kuralı”"],
+            "rows": [
+              [
+                "Olumlu yorum",
+                "“Teşekkürler.” (spesifik değil, robotik)",
+                "“Güzel yorumunuz için teşekkür ederiz. Kahvaltı kısmından memnun kalmanıza sevindik. Yeniden ağırlamak isteriz.” (spesifik + davet)",
+                "1 detay ekle: misafirin bahsettiği konuya değin."
+              ],
+              [
+                "Olumsuz yorum",
+                "“Biz öyle yapmıyoruz.” (savunma dili, risk artırır)",
+                "“Yaşadığınız durum için üzgünüz. Belirttiğiniz konuyu ekibimizle kontrol ediyor ve iyileştiriyoruz. Detayları çözmek için bizimle iletişime geçebilirsiniz.” (empati + aksiyon + kanal)",
+                "Savunma yerine: empati + net aksiyon + iletişim kanalı."
+              ],
+              [
+                "Kriz yorumu",
+                "“Yorumunuz asılsız.” (gerilimi büyütür, güven kaybı)",
+                "“Bu geri bildirimi çok önemsiyoruz. Konuyu derhal incelemeye aldık. Rezervasyon detaylarını kamuya açık paylaşmadan bizimle paylaşabilirseniz 48 saat içinde dönüş sağlayacağız.” (ciddiyet + güvenli kanal + takip)",
+                "Kamuya açık tartışma yapma; güvenli kanala taşı ve takip sözü ver."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "voice-mini-format",
+        "title": "Kötü yoruma otel olarak nasıl cevap vermeliyim? (Voice uyumlu mini format)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Voice gereksinimi gereği kısa format:"
+          },
+          { "type": "h3", "text": "Kısa yanıt formatı (3 cümle):" },
+          {
+            "type": "list",
+            "style": "ol",
+            "items": [
+              "“Geri bildiriminiz için teşekkür ederiz, yaşadığınız durum için üzgünüz.”",
+              "“Belirttiğiniz konuyu ekibimizle kontrol ediyor ve iyileştiriyoruz.”",
+              "“Detayları çözmek için bizimle şu kanaldan iletişime geçebilirsiniz: (telefon/e-posta).”"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Varsayım: İletişim kanalınız ve sorumlu ekip yapınız hazır."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Bu 3 cümleyi temel alın; her zaman “spesifik konu” ekleyin.",
+              "Savunma dili kullanmayın; dışarıdan okuyanı ikna etmeye odaklanın.",
+              "Kişisel veri/rezervasyon detayı paylaşmayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kalite-dongusu",
+        "title": "Misafir deneyimi → yorum → yerel SEO döngüsü (kalite sistemi)",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yorum yönetimi, en iyi sonuçları “kalite döngüsü”ne bağlandığında verir: yorumlar sadece yanıtlanmaz, aynı zamanda operasyonu iyileştirmek için kullanılır."
+          },
+          { "type": "h3", "text": "Döngü nasıl çalışır?" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Misafir deneyimi → yorum içeriği (temalar)",
+              "Tema analizi → operasyon aksiyonu",
+              "Operasyon aksiyonu → sonraki yorum kalitesi",
+              "Yanıt disiplini → marka güveni",
+              "Güven + tıklama → yerel görünürlük"
+            ]
+          },
+          { "type": "media", "slot": "checklist-06" },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Döngü)",
+            "items": [
+              "Yorum temaları aylık raporlanıyor mu?",
+              "En çok tekrar eden 3 sorun için aksiyon alınıyor mu?",
+              "Aksiyon sonrası değişim (puan/yorum tonu) izleniyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Aylık “yorum temaları” raporu çıkarın (temizlik, check-in, yemek, oda).",
+              "Her tema için 1 sorumlu + 1 düzeltme aksiyonu belirleyin.",
+              "90 gün içinde “önce/sonra” KPI’ları karşılaştırın."
+            ]
+          },
+          { "type": "media", "slot": "kpi-07" }
+        ]
+      },
+      {
+        "id": "risk-politika",
+        "title": "Teknik not: Sahte yorum, yorum satın alma ve politika riski",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Technical SEO notu gereği açık söyleyelim: yorum satın alma, sahte yorum, toplu/koordineli yorum manipülasyonu gibi uygulamalar kısa vadede cazip görünse de Google politika riski ve güven kaybı yaratır. Oteller için en sürdürülebilir yol; doğal yorum akışı ve profesyonel yanıt SOP’sidir."
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "☑ Mini Check (Risk)",
+            "items": [
+              "Yorum isteme mesajları “teşvik” içeriyor mu? (kaçının)",
+              "Aynı gün içinde anormal yorum artışı var mı?",
+              "Benzer metinli, tek tip yorumlar çoğaldı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "“Doğal yorum” süreçlerini güçlendirin (check-out sonrası).",
+              "Şüpheli yorum dalgalarında hızla iç denetim yapın.",
+              "Marka güvenini hızdan daha öncelikli tutun."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "seo-sinyaline-baglamak",
+        "title": "Fark yaratan mini bölüm: Yorum yönetimini “SEO sinyali”ne bağlamak",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rakip içerikler çoğunlukla yorum yönetimini CRM/itibar yönetimi olarak anlatır; bu rehberde fark, yorumları local ranking bileşenleriyle birlikte ele almak: rating + recency + responses + davranış sinyali. Bu çerçeveyle ilerlediğinizde, “kötü yoruma cevap örneği” sadece bir metin değil; görünürlük ve dönüşüm performansını etkileyen bir süreç parçası olur."
+          },
+          { "type": "media", "slot": "proof-08" },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Yorum ve İtibar Yönetimi Analizi Talep Et",
+            "text": "Yorum profilinizi (puan/tazelik/yanıt) analiz edip, 30 günlük aksiyon planını birlikte çıkaralım.",
+            "href": "/tr/seo/yerel-seo"
+          }
+        ]
+      },
+
+      {
+         "id": "yorum-yanit-sablonlari-checklist-indir",
+        "title": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’i (İndir)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template_checklist",
+            "version": "v1.0",
+            "title": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’ini İndir — SEO / Yorum Yönetimi (v1.0)",
+            "purpose": "Bu asset; otellerin yorum yanıtlarını robotikleşmeden standartlaştırmasını, kriz yorumlarını doğru “escalation” akışıyla yönetmesini ve yorum alma sürecini etik şekilde düzenli hale getirmesini sağlar. 30 dakikada mevcut durum checklist’iyle eksikleri işaretler, ardından hazır yanıt iskeletleriyle ekip içinde tutarlı marka tonu oluşturur. Sonuç: daha yüksek güven, daha iyi yanıt disiplini ve daha stabil yerel görünürlük sinyali.",
+            "whoFor": "GM/otel yöneticisi, satış–pazarlama, misafir ilişkileri, ajans sosyal/itibar yöneticisi.",
+            "steps": [
+              "Checklist’i doldurun ve en kritik 10 açığı işaretleyin.",
+              "Yanıt şablonlarını marka tonunuza göre uyarlayın (1 kez) ve SOP’ye bağlayın.",
+              "30 gün uygulayın; puan/tazelik/yanıt oranı KPI’larını kıyaslayın."
+            ],
+            "template": {
+              "positiveReviewReply": [
+                "Teşekkür: “__________ için teşekkür ederiz.”",
+                "Spesifik detay: “__________ kısmından memnun kalmanıza sevindik.”",
+                "Davet: “Bir sonraki konaklamanızda __________ için sizi yeniden ağırlamak isteriz.”",
+                "İmza: “Saygılarımızla, __________ (Unvan/Ekip)”"
+              ],
+              "negativeReviewReply": [
+                "Empati: “Yaşadığınız durum için üzgünüz.”",
+                "Spesifik konu: “__________ ile ilgili geri bildiriminizi not aldık.”",
+                "Aksiyon: “Ekibimiz __________ kontrolünü yaparak iyileştirme başlattı.”",
+                "İletişim: “Detayları çözmek için __________ üzerinden bize ulaşabilirsiniz.”",
+                "İmza: “__________”"
+              ],
+              "crisisReviewReply": [
+                "Empati + ciddiyet: “Bu geri bildirimi çok önemsiyoruz.”",
+                "Hızlı inceleme: “Konuyu derhal incelemeye aldık.”",
+                "Güvenli iletişim: “Rezervasyon detaylarını kamuya açık paylaşmadan __________ üzerinden iletebilirsiniz.”",
+                "Takip sözü: “48 saat içinde dönüş sağlayacağız.”",
+                "İmza + sorumlu: “__________ (Sorumlu kişi/e-posta)”"
+              ],
+              "replyRules": [
+                "Savunma değil, çözüm dili kullanın.",
+                "Her yanıta 1 kişisel detay ekleyin (robotikleşmeyi önler).",
+                "Kişisel veri/rezervasyon detayı paylaşmayın.",
+                "“Yapacağız” yerine “başladık/yaptık” gibi netlik kullanın (gerçekse).",
+                "Her zaman bir “takip kanalı” bırakın (telefon/e-posta)."
+              ],
+              "shortExample": "“Check-in sürecindeki bekleme için üzgünüz. Geri bildiriminizle vardiya planını güncelledik. Detayları çözmek için bize e-posta ile ulaşırsanız memnuniyetle yardımcı oluruz.”"
+            },
+            "checklist": [
+              "Son 90 günde düzenli yorum akışı var",
+              "Olumsuz yorumlara 24–72 saat SLA uygulanıyor",
+              "Yanıt tonu tek standarda bağlı",
+              "Kriz yorumları için escalation akışı var",
+              "Sahte/teşvikli yorum uygulaması yok (politika riski azaltıldı)",
+              "Yorum temaları aylık raporlanıyor (operasyon aksiyonuna bağlanıyor)"
+            ],
+            "deliverables": [
+              "Yanıt şablonları (olumlu/olumsuz/kriz)",
+              "İtibar yönetimi hızlı checklist",
+              "30 günlük uygulama planı + KPI kıyas çerçevesi"
+            ],
+            "href": "/downloads/yorum-yanit-sablonlari-itibar-checklist-v1.0.pdf",
+            "buttonLabel": "İndir"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Yorum Yanıt Şablonları & İtibar Yönetimi Checklist’ini İndir",
+            "text": "Yanıt kalitesini standartlaştırıp 30 dakikada eksikleri işaretleyerek hızlı aksiyon çıkarırsınız.",
+            "href": "/tr/seo/yerel-seo"
+          }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Otel yorumları yerel SEO’yu nasıl etkiler?",
+        "a": "Yorumlar puan, tazelik ve yanıt disipliniyle misafir güvenini ve harita kartı etkileşimini güçlendirir. Bu da Local Pack görünürlüğünü daha stabil hale getirmeye yardımcı olabilir."
+      },
+      {
+        "q": "Yorum sayısı mı, puan ortalaması mı daha önemli?",
+        "a": "En iyi sonuç dengeyle gelir: yorum sayısı hacim sağlar, puan ortalaması ikna sağlar, tazelik ve yanıtlar istikrar sağlar. Tek bir metriğe odaklanmak yerine dört sinyali birlikte yönetin."
+      },
+      {
+        "q": "Olumsuz yorumlara nasıl yanıt vermeliyim?",
+        "a": "Empati kurun, spesifik probleme değinin, çözüm adımı belirtin ve özel iletişim kanalı bırakın. Savunma dili yerine risk azaltan ve güven veren kısa yanıtlar tercih edin."
+      },
+      {
+        "q": "Misafirlerden doğal yorum nasıl istenir?",
+        "a": "Check-out sonrası 24–72 saat içinde, tek link ve tek aksiyonla kısa bir mesaj göndermek en verimli yaklaşımdır. Teşvik/ödül vaat etmeden “deneyimini paylaş” dili kullanın."
+      },
+      {
+        "q": "Sahte yorum satın almak işe yarar mı?",
+        "a": "Kısa vadeli gibi görünse de politika riski ve güven kaybı oluşturur. Sürdürülebilir yol, etik yorum alma süreci ve profesyonel yanıt disiplini kurmaktır."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "blog-slug: yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi",
+          "1. Buraya: [Hero / Cover] — 16:9 (1920×1080) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-hero-01.webp — Otel yorum yönetimi, güven ve harita görünürlüğü temasını anlatan kapak görseli",
+          "2. Buraya: [H1 sonrası “Context”] — 16:9 (1920×1080) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-h1-context-02.webp — Harita kartında yorum ve puanın karar anına etkisini gösteren görsel",
+          "3. Buraya: [Section Divider 01] — 4:3 (1600×1200) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-divider-03.webp — Yorumların Local Pack sinyali rolünü başlatan bölüm ayırıcı görseli",
+          "4. Buraya: [Section Divider 02] — 4:3 (1600×1200) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-divider-04.webp — Yanıt stratejisi ve örnek senaryolara geçişi anlatan bölüm ayırıcı görseli",
+          "5. Buraya: [Diagram / Flow] — 16:9 (1920×1080) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-diagram-05.webp — Misafir deneyimi→yorum→yanıt→yerel görünürlük döngüsünü anlatan akış diyagramı",
+          "6. Buraya: [Checklist / Framework Card] — 1:1 (1200×1200) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-checklist-06.webp — Yorum alma ve yanıt SOP kontrol kartı, otel operasyon bağlamında",
+          "7. Buraya: [KPI / Score Card] — 1:1 (1200×1200) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-kpi-07.webp — Puan, tazelik, yanıt oranı ve tıklama KPI paneli",
+          "8. Buraya: [Deliverables / Proof Card] — 1:1 (1200×1200) — yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi-proof-08.webp — Yanıt şablonları, kriz akışı ve rapor deliverables kartı",
+          "Tablo (1 adet): İyi/Kötü Yorum Yanıtı Karşılaştırma Tablosu + Düzeltme Kuralı"
+        ],
+        "technicalChecklist": [
+          "CTA yoğunluğu (Intent: Informational + Strategic / MoFu): Primary CTA: 2 kez (H1 giriş sonunda + son 1/3), Secondary CTA: 1 kez (orta bölüm)",
+          "Primary CTA hedefi: https://dgtlface.com/tr/seo/yerel-seo",
+          "Secondary CTA hedefi: Varsayım: indirilebilir asset, Yerel SEO sayfasındaki bir indirme alanından veya performans analizi sayfasındaki kaynak bölümünden sunulur (örn. https://dgtlface.com/tr/seo/yerel-seo).",
+          "İç link hedefleri (sheet): https://dgtlface.com/tr/seo/yerel-seo, https://dgtlface.com/tr/otel-dijital-pazarlama, https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        ]
+      }
+    }
+  },
+
+  "BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari": {
+    "title": "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
+    "slug": "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari",
+    "department": "smm",
+    "updatedAt": "26 Ocak 2026",
+    "publishedAt": "2026-01-26",
+    "readingTime": "10 dk okuma",
+    "author": "DGTLFACE Editorial",
+    "excerpt": "Always-on içerik ve kampanya burst’ları nasıl dengelenir? Otel ve B2B için yıllık plan modeli, KPI farkları, örnek takvim blokları ve uygulanabilir checklist ile adım adım.",
+    "seo": {
+      "metaTitle": "Always-On vs Kampanya İçerik Stratejisi: Denge | DGTLFACE",
+      "metaDescription": "Always-on içerik ve kampanya burst’ları nasıl dengelenir? Otel ve B2B için yıllık plan modeli, KPI farkları, örnek takvim blokları ve uygulanabilir checklist ile adım adım."
+    },
+    "blueprint": {
+      "sheetSummary": [
+        "Silo: SMM",
+        "Sayfa (Hub) / URL: Planlama ve Strateji — /tr/smm/planlama-strateji",
+        "Blog / URL: /tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari",
+        "Blog Tipi: Core",
+        "Intent: Informational + Strategic",
+        "Zorluk / Seviye: Intermediate–Expert",
+        "Word Count Range: 3000–3500",
+        "Refresh Cycle: 365 gün",
+        "Canonical: /tr/smm/blog/always-on-ve-kampanya-bazli-icerik-stratejisi-farklari"
+      ],
+      "strategySummary": "Bu içerik, SMM planlama sayfasının altında “yıllık içerik ritmi” (cadence) kararını çözen otorite taşıyan child yazıdır; içerik üretimi ve raporlama/benchmark süreçlerine köprü kurar. Hedef persona; sezonsal otel markalarında GM ve satış-pazarlama ekipleri, B2B projelerde lansman odaklı pazarlama yöneticileri ve ajans liderleridir. Funnel’da consideration ağırlıklıdır; “sürekli mi paylaşmalıyım, kampanyada mı?” ikilemini sistematik bir yıllık plana çevirir. Ana iş sorusu: “Always-on marka sesini bozmadan kampanya burst’larını nasıl planlar, KPI’ları nasıl ayırır ve üretim kapasitesiyle nasıl dengelerim?”"
+    },
+    "byline": {
+      "author": "DGTLFACE Editorial",
+      "updatedAt": "2026-01-26",
+      "readingTime": "10 dk okuma"
+    },
+    "modules": {
+      "answerBlock": "Sadece kampanya dönemlerinde paylaşan hesaplar da, hiç kampanya yapmadan sürekli paylaşan hesaplar da uzun vadede sürdürülebilir olmaz. Sağlıklı model; markanın temel kimliğini taşıyan always-on içeriklerle “marka sesini” sürekli görünür tutarken, sezon/lansman gibi dönemlerde kampanya burst içerikleriyle satış ve duyuruyu yoğunlaştırmaktır. Yıllık plan, kampanya bloklarını ve aradaki boşlukları always-on ile doldurur; KPI’lar da bu iki mod için ayrı izlenir.",
+      "sgeSummary": "Always-on, marka hikâyesini sürdürülebilir taşır; kampanya burst’ları satış/duyuru yoğunluğu yaratır. Yıllık plan, kampanya bloklarını yerleştirir ve araları always-on ile doldurur.",
+      "voiceAnswer": "Sürekli paylaşın ama always-on’u temel alın; kampanyalarda kısa süreli yoğun burst’lar ekleyip KPI’ları ayrı izleyin.",
+      "aiFactSheet": [
+        "Entity’ler: always-on, campaign bursts, seasonality, KPI, yearly social plan, content cadence",
+        "Hedef kitle: TR geneli; sezonsal oteller + B2B lansman projeleri",
+        "Funnel: Always-on = awareness/consideration • Kampanya = conversion",
+        "KPI ayrımı: always-on (erişim, etkileşim, kaydetme) • kampanya (tıklama, lead, satış/rezervasyon sinyali)",
+        "Çıktı: yıllık takvim blok modeli + dağılım tablosu + üretim kapasitesi kontrolü",
+        "Risk: kampanya dışı “marka sesi” kaybolursa maliyet artar, güven azalır",
+        "Not: Kampanya yoğunluğu, creative/operasyon kapasitesini aşmamalı"
+      ]
+    },
+    "h1": {
+      "title": "Always-On ve Kampanya Bazlı İçerik Stratejisi: Farkları ve Nasıl Dengelenir?",
+      "intro": "“Sürekli paylaşım” ile “sadece kampanya döneminde görünme” iki uçtur ve ikisi de sürdürülebilir performans üretmez. Otel markalarında sezon, erken rezervasyon ve son dakika gibi dönemler kampanya ihtiyacını doğururken; kampanya dışı dönemde marka sesi (deneyim, güven, sosyal kanıt) taşınmazsa hesap “reklam panosu”na döner. B2B projelerde ise lansman dönemleri burst gerektirir; ama yıl boyunca always-on düşünce liderliği yoksa lead kalitesi dalgalanır. Bu rehber, always-on ve kampanya içeriklerini tek bir yıllık SMM planı içinde dengelemek için uygulanabilir bir model sunar.",
+      "quickSummary": [
+        "1) Always-on’u taban ritim olarak kilitle",
+        "2) Kampanya burst’larını 7–21 gün bloklar halinde planla",
+        "3) KPI’ları mod bazında ayır (always-on vs kampanya)",
+        "4) Boşlukları pillar rotasyonuyla doldur",
+        "5) Kapasiteyi aşan kampanyayı küçült, kaliteyi koru"
+      ],
+      "ctaPrimary": {
+        "label": "Always-On & Kampanya Dengesi Analiz Talebi",
+        "text": "(sezonsal otel ve lansman odaklı B2B ekipleri için yıllık planı netleştirmek ve KPI ayrımını kurmak için)",
+        "href": "/smm/planlama-strateji"
+      }
+    },
+    "ctaModule": {
+      "primary": {
+        "label": "Always-On & Kampanya Dengesi Analiz Talebi",
+        "text": "(sezonsal otel ve B2B lansman ekipleri için yıllık planı netleştirip KPI ayrımını kurmak için)",
+        "href": "/smm/planlama-strateji"
+      },
+      "secondary": {
+        "label": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir",
+        "text": "kampanya bloklarını ve always-on rotasyonunu tek tabloda planlayıp kapasite aşımını önlemenizi sağlar",
+        "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.xlsx"
+      }
+    },
+    "internalLinks": [
+      { "label": "SMM Planlama ve Strateji", "href": "/smm/planlama-strateji" },
+      { "label": "İçerik Üretimi", "href": "/smm/icerik-uretimi" },
+      { "label": "Raporlama / Benchmark Analizi", "href": "/raporlama/benchmark-analizi" }
+    ],
+    "relatedPosts": [
+      {
+        "title": "SMM Planlama ve Strateji",
+        "href": "/smm/planlama-strateji"
+      },
+      {
+        "title": "SMM İçerik Üretimi",
+        "href": "/smm/icerik-uretimi"
+      },
+      {
+        "title": "Benchmark Analizi",
+        "href": "/raporlama/benchmark-analizi"
+      }
+    ],
+    "sections": [
+      {
+        "id": "always-on-nedir",
+        "title": "1) Always-On Nedir? – “Marka sesi hiç susmasın”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Always-on içerik, markanın temel kimliğini, değer önerisini ve güven unsurlarını kampanya bağımsız şekilde taşıyan içerik sistemidir. Amaç “her gün bir şey atmak” değil; markayı yıl boyunca tanımlayan konuları tekrar edilebilir formatlarla sürdürmektir. Otelde always-on; deneyim, konsept, UGC/yorumlar, destinasyon ve hizmet standardı gibi güven oluşturan katmandır. B2B’de ise framework’ler, mini dersler, case yaklaşımı ve uzman görüşü always-on omurgayı oluşturur."
+          },
+          { "type": "h3", "text": "Always-on içerik nedir?" },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Cevap (AEO bloğu)",
+            "items": [
+              "Always-on içerik; kampanya dönemleri dışında da markanın hikâyesini, değer önerisini ve güven unsurlarını sürekli görünür tutan, düzenli ve ölçülebilir içerik sistemidir."
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "Always-on içerik türleri (örnek):"
+          },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka hikâyesi + değer önerisi (kim, neyi farklı yapıyor?)",
+              "UGC / yorum / sosyal kanıt (güven katmanı)",
+              "“Mini rehber” içerikler (sorun→çözüm)",
+              "Destinasyon/deneyim anlatımı (otel)",
+              "Framework + checklist + içgörü (B2B)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check (Always-on sağlam mı?):",
+            "items": [
+              "Always-on içerikler “marka sesini” tek bir cümleyle anlatıyor mu?",
+              "Her ay 2–3 tekrar edilebilir format var mı? (carousel/reel/video)",
+              "UGC/sosyal kanıt düzenli mi?",
+              "KPI’lar kampanyadan ayrı ölçülüyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Always-on için 4–6 content pillar belirleyin.",
+              "Her pillar için 2 format standardı seçin (ör. carousel + reel).",
+              "Her ay “güven” içerik seti planlayın (yorumlar, case, proof).",
+              "Always-on KPI’larını ayrı dashboard’ta izleyin."
+            ]
+          },
+          { "type": "media", "slot": "divider-03" }
+        ]
+      },
+      {
+        "id": "kampanya-bazli-icerik-nedir",
+        "title": "2) Kampanya Bazlı İçerik Nedir? – “Burst dönemleri”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kampanya bazlı içerik, belirli bir hedefe (satış, lansman, duyuru, etkinlik) yönelik kısa süreli yoğunlaştırılmış içerik ve dağıtım dönemidir. Otellerde erken rezervasyon, sezon açılışı, özel gün paketleri; B2B’de ürün lansmanı, webinar, yeni hizmet paketi gibi burst’lar tipiktir. Kampanya içerikleri hızlı karar aldırır; bu yüzden mesaj, teklif, kanıt ve CTA daha doğrudan olmalıdır."
+          },
+          { "type": "h3", "text": "Kampanya bazlı içerik ile always-on arasındaki fark nedir?" },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Cevap (AEO bloğu)",
+            "items": [
+              "Always-on uzun vadede marka kimliği ve güveni taşır; kampanya içerikleri kısa vadede satış/duyuru hedefiyle yoğunlaşır. KPI’lar da farklıdır: always-on (erişim/etkileşim), kampanya (tıklama/lead/satış sinyali)."
+            ]
+          },
+          { "type": "h3", "text": "Kampanya içerik bileşenleri:" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Teklif netliği (ne var, kim için, hangi koşul?)",
+              "Kanıt (yorum, garanti, case, önce/sonra)",
+              "CTA netliği (tek aksiyon)",
+              "Burst ritmi (kısa süre + yüksek frekans)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check (Kampanya hazır mı?):",
+            "items": [
+              "Teklif 1 cümlede net mi?",
+              "Tek CTA var mı? (DM/WhatsApp/form)",
+              "3 kanıt unsuru hazır mı? (yorum, görsel, koşul şeffaflığı)",
+              "Burst süresi ve içerik adedi kapasiteye uyuyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım? (SXO)",
+            "items": [
+              "Kampanya için “teklif–kanıt–CTA” üçlüsünü tek sayfada yazın.",
+              "Burst süresini 7–21 gün aralığında planlayın (Varsayım: sezon/lansmana göre).",
+              "İçerik setini 3 aşama kurun: teaser → kanıt → kapanış/CTA.",
+              "Kampanya KPI’larını ayrı raporlayın."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "karar-matrisi",
+        "title": "3) Hangi Durumda Hangisi Öne Çıkar? – “Karar matrisi”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Birçok ekipte hata şudur: kampanya baskısı artınca always-on tamamen kesilir; kampanya bitince de hesap sessizleşir. Oysa en iyi model, always-on’un “taban” olduğu ve kampanyanın onun üzerine “burst” olarak eklendiği düzendir."
+          },
+          { "type": "h3", "text": "Sürekli mi paylaşmalıyım yoksa kampanyalarda mı?" },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Cevap (AEO bloğu)",
+            "items": [
+              "Always-on’u temel ritim yapın; kampanya dönemlerinde bunun üzerine kısa süreli burst ekleyin. Böylece hem marka sesi korunur hem satış/duyuru dönemleri güçlenir."
+            ]
+          },
+          { "type": "h3", "text": "Karar matrisi (pratik):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Marka yeni / güven düşük → Always-on ağırlık (kanıt ve değer önerisi)",
+              "Sezon/lansman dönemi → Kampanya burst ağırlık (satış/duyuru)",
+              "Ürün/hizmet karmaşık → Always-on eğitim + kampanyada “net paket”",
+              "Kapasite sınırlı → az ama sürekli always-on + küçük burst"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check (Denge):",
+            "items": [
+              "Kampanya sırasında always-on “sıfırlanıyor” mu?",
+              "Kampanya sonrası hesap “susuyor” mu?",
+              "KPI hedefleri modlara göre ayrıldı mı?",
+              "İçerik üretim kapasitesi aşılıyor mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "Always-on’u “minimum haftalık ritim” olarak kilitleyin.",
+              "Kampanya burst’larını takvimde bloklayın ve ön üretim yapın.",
+              "Kampanya döneminde bile haftada en az 1 always-on içerik bırakın (Varsayım: kapasiteye göre).",
+              "Kampanya sonrası 7 günlük “normalleşme” planı ekleyin."
+            ]
+          },
+          { "type": "media", "slot": "divider-04" }
+        ]
+      },
+      {
+        "id": "yillik-blok-plan",
+        "title": "4) Yıllık Plan İçinde Always-On ve Kampanya Dengesini Kurmak – “Blok plan”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Yıllık plan, kampanyaları “aklınıza geldikçe” değil, takvim blokları halinde yönetmenizi sağlar. Otellerde sezonlar belli; B2B’de lansmanlar ve etkinlikler çoğu zaman önceden planlanabilir. Yapılacak şey: kampanya bloklarını yerleştirip aradaki boşlukları always-on ile doldurmak ve her bloğun KPI setini önceden tanımlamaktır."
+          },
+          { "type": "h3", "text": "Yıllık sosyal medya planında kampanya ve always-on dengesini nasıl kurarım?" },
+          {
+            "type": "callout",
+            "variant": "info",
+            "title": "Cevap (AEO bloğu)",
+            "items": [
+              "Önce yılın kampanya/lansman tarihlerini bloklayın, sonra her blok için hedef+KPI belirleyin. Boş dönemleri always-on pillar’larla doldurun ve üretim kapasitesine göre içerik dağılımını sabitleyin."
+            ]
+          },
+          { "type": "h3", "text": "KPI ayrımı (net):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Always-on KPI: erişim trendi, etkileşim oranı, kaydetme, profil aksiyonu",
+              "Kampanya KPI: tıklama, lead/DM, form, satış/rezervasyon sinyali (Varsayım: ölçüm altyapısı varsa)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "note",
+            "title": "Teknik not (sheet):",
+            "items": [
+              "Kampanya yoğunluğu, teknik/operasyonel kapasiteyi ve creative üretim gücünü aşmamalı. Aksi halde kalite düşer, onay süreçleri tıkanır ve kampanya “çok içerik–az etki”ye dönüşür."
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check (Yıllık plan):",
+            "items": [
+              "Kampanya blokları tarihleriyle işaretli mi?",
+              "Her blok için hedef/KPI yazıldı mı?",
+              "Always-on pillar’lar boşluklara dağıtıldı mı?",
+              "Üretim kapasitesi haftalık sınırla uyumlu mu?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "12 aylık takvimde kampanya bloklarını renklerle ayırın.",
+              "Her bloğa “teklif–kanıt–CTA” kartı ekleyin.",
+              "Always-on içerikleri pillar bazında rotasyona sokun.",
+              "Raporlamayı mod bazında yapın: always-on vs kampanya."
+            ]
+          },
+          { "type": "media", "slot": "diagram-05" }
+        ]
+      },
+      {
+        "id": "ornek-takvimler",
+        "title": "5) Otel ve B2B İçin Örnek Takvimler – “Uygulanabilir dağılım”",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Otel örneklerinde sezonluk bloklar (erken rezervasyon, yaz sezonu, bayramlar) belirgindir. B2B’de ise ürün/hizmet lansmanı, webinar, event gibi burst dönemler vardır. Her iki senaryoda da öneri: always-on’un “taban ritmi” sabit, kampanyalar “planlı burst” olmalıdır."
+          },
+          { "type": "h3", "text": "Örnek dağılım (Varsayım – başlangıç modeli):" },
+          {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              "Otel (sezonsal): %60 always-on • %40 kampanya (sezona göre oynar)",
+              "B2B (lansman odaklı): %70 always-on • %30 kampanya (lansman döneminde tersine döner)"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "check",
+            "title": "☑ Mini Check (Örnek takvimi kendine uyarlama):",
+            "items": [
+              "Sezon/lansman tarihlerin net mi?",
+              "Always-on pillar’ların “her ay” üretilebilir mi?",
+              "Kampanya ön üretim süresi var mı?",
+              "Ölçüm ve revizyon ritmi planlı mı?"
+            ]
+          },
+          {
+            "type": "callout",
+            "variant": "action",
+            "title": "Ne yapmalıyım?",
+            "items": [
+              "İlk yıl “basit dağılım” ile başlayıp 90 günde revize edin.",
+              "En iyi performans veren pillar’ları always-on’da güçlendirin.",
+              "Kampanya bloklarında içerik sayısını değil “kanıt kalitesini” artırın.",
+              "Yıl sonunda blok bazlı retrospektif yapın."
+            ]
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir",
+            "text": "kampanya bloklarını ve always-on rotasyonunu tek tabloda planlayıp kapasite aşımını önlemenizi sağlar",
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.xlsx"
+          }
+        ]
+      },
+      {
+        "id": "ornek-icerik-dagilimi-tablosu",
+        "title": "Always-on ve Kampanya İçerik Dağılımı Tablosu",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Örnek Tablo: Always-on vs Kampanya burst",
+            "headers": ["Mod", "Amaç", "Tipik içerikler", "KPI", "Takvim kullanımı"],
+            "rows": [
+              [
+                "Always-on",
+                "Marka sesi + güven",
+                "UGC, rehber, değer önerisi",
+                "erişim, etkileşim, kaydetme",
+                "yıl boyu taban ritim"
+              ],
+              [
+                "Kampanya burst",
+                "Satış/duyuru",
+                "teklif, lansman, kapanış",
+                "tıklama, lead/rezervasyon",
+                "blok dönemler (7–21 gün)"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asset-yillik-planlama-sablonu",
+        "title": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir — Yıllık SMM Planı (v1.0)",
+        "blocks": [
+          {
+            "type": "download_asset",
+            "assetType": "template",
+            "version": "v1.0",
+            "title": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir — Yıllık SMM Planı (v1.0)",
+            "purpose": "Bu şablon, always-on içerik rotasyonunu ve kampanya burst bloklarını tek bir yıllık takvim üzerinde planlamanız için hazırlanmıştır. Otel sezonsallığı ve B2B lansman ritmini aynı modelde yönetmenizi sağlar. KPI ayrımını ve üretim kapasitesi kontrolünü standartlaştırarak “çok içerik–az etki” riskini azaltır.",
+            "whoFor": "Otel satış-pazarlama ekibi, GM, B2B pazarlama lideri veya ajans strateji/operasyon ekibi.",
+            "steps": [
+              "Yılın kampanya/lansman tarihlerini bloklayın (7–21 gün).",
+              "Always-on pillar’ları aylık rotasyonla boşluklara dağıtın.",
+              "Mod bazında KPI hedeflerini yazıp aylık raporda always-on vs kampanya kıyaslayın."
+            ],
+            "checklist": [
+              "Always-on taban ritmi “minimum” olarak kilitli",
+              "Kampanya blokları önce planlandı, boşluklar sonra dolduruldu",
+              "KPI’lar mod bazında ayrıldı, tek tabloda karıştırılmadı",
+              "Kapasiteyi aşan kampanyalar küçültüldü; kalite korundu",
+              "Yıl sonunda blok bazlı retrospektif planlandı"
+            ],
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.pdf",
+            "buttonLabel": "Şablonu İndir"
+          },
+          { "type": "media", "slot": "checklist-06" }
+        ]
+      },
+      {
+        "id": "sonuc",
+        "title": "Sonuç: Dengeyi kuran model “taban + burst” planıdır",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Sadece kampanya dönemlerinde paylaşan hesaplar da, hiç kampanya yapmadan sürekli paylaşan hesaplar da uzun vadede sürdürülebilir olmaz. Sağlıklı model; markanın temel kimliğini taşıyan always-on içeriklerle “marka sesini” sürekli görünür tutarken, sezon/lansman gibi dönemlerde kampanya burst içerikleriyle satış ve duyuruyu yoğunlaştırmaktır. Yıllık plan, kampanya bloklarını ve aradaki boşlukları always-on ile doldurur; KPI’lar da bu iki mod için ayrı izlenir."
+          },
+          {
+            "type": "cta",
+            "variant": "primary",
+            "label": "Always-On & Kampanya Dengesi Analiz Talebi",
+            "text": "(sezonsal otel ve B2B lansman ekipleri için yıllık planı netleştirip KPI ayrımını kurmak için)",
+            "href": "/smm/planlama-strateji"
+          },
+          {
+            "type": "cta",
+            "variant": "secondary",
+            "label": "Always-On + Kampanya Bazlı Yıllık Planlama Şablonunu İndir",
+            "text": "kampanya bloklarını ve always-on rotasyonunu tek tabloda planlayıp kapasite aşımını önlemenizi sağlar",
+            "href": "/downloads/always-on-kampanya-yillik-planlama-sablonu-v1.0.xlsx"
+          },
+          { "type": "media", "slot": "proof-08" }
+        ]
+      }
+    ],
+    "faqTitle": "Sık Sorulan Sorular",
+    "faq": [
+      {
+        "q": "Always-on içerik nedir?",
+        "a": "Kampanya dışı dönemde de markanın hikâyesini ve güven unsurlarını taşıyan düzenli içerik sistemidir. Amaç sürdürülebilir marka sesi ve topluluk bağını korumaktır."
+      },
+      {
+        "q": "Kampanya bazlı içerik ile always-on arasındaki fark nedir?",
+        "a": "Always-on uzun vadeli marka ve güven için; kampanya içerikleri kısa vadeli satış/duyuru hedefi için tasarlanır. KPI’lar da ayrıdır: always-on etkileşim, kampanya dönüşüm sinyali odaklıdır."
+      },
+      {
+        "q": "Yıllık sosyal medya planında kampanya ve always-on dengesini nasıl kurarım?",
+        "a": "Önce kampanya/lansman tarihlerini bloklayın, her bloğa hedef+KPI yazın. Boş dönemleri always-on pillar rotasyonuyla doldurun ve kapasiteye göre haftalık ritmi sabitleyin."
+      },
+      {
+        "q": "Otel/B2B için örnek yıllık plan nasıl olmalı?",
+        "a": "Otelde sezonluk kampanya blokları belirgin olur; always-on ise deneyim/UGC/güven katmanı olarak yıl boyu sürer. B2B’de always-on düşünce liderliği tabandır, lansman dönemlerinde kısa burst’lar eklenir."
+      },
+      {
+        "q": "Kampanya döneminde always-on paylaşmalı mıyım?",
+        "a": "Evet. Always-on, kampanya sırasında da marka sesini dengeler ve “reklam panosu” algısını azaltır. Kapasite uygunsa haftada en az 1 always-on slot bırakın."
+      },
+      {
+        "q": "KPI’ları nasıl ayırmalıyım?",
+        "a": "Always-on için erişim/etkileşim/kaydetme gibi bağ kurma KPI’ları; kampanya için tıklama/lead/rezervasyon gibi dönüşüm KPI’ları seçin ve raporları ayrı tutun."
+      }
+    ],
+    "internal": {
+      "locked": {
+        "note": "Bu alan ekip içi/teknik. UI’da gösterilmez.",
+        "mediaPack": [
+          "hero / cover — 1920×1080 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-hero-01.webp",
+          "h1-context — 1920×1080 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-h1-context-02.webp",
+          "divider-03 — 1600×1200 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-divider-03.webp",
+          "divider-04 — 1600×1200 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-divider-04.webp",
+          "diagram-05 — 1920×1080 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-diagram-05.webp",
+          "checklist-06 — 1200×1200 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-checklist-06.webp",
+          "kpi-07 — 1200×1200 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-kpi-07.webp",
+          "proof-08 — 1200×1200 — always-on-ve-kampanya-bazli-icerik-stratejisi-farklari-proof-08.webp",
+          "table-example — (tablo: Always-on vs Kampanya İçerik Dağılımı)"
+        ],
+        "technicalChecklist": [
+          "Primary CTA: 2 kez (H1 giriş sonunda + son 1/3)",
+          "Secondary CTA: 1 kez (orta bölüm / yıllık plan kısmı)",
+          "CTA modülü: primary + secondary (download_asset) ayrımı yapıldı",
+          "KPI’lar mod bazında ayrıldı (always-on vs kampanya) ve rapor kurgusu net",
+          "Burst süresi: 7–21 gün blok yaklaşımı içerikte sabit",
+          "Üretim kapasitesi kontrolü: risk ve checklist alanlarına işlendi",
+          "İç link hedefleri: /smm/planlama-strateji, /smm/icerik-uretimi, /raporlama/benchmark-analizi"
         ]
       }
     }

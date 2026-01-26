@@ -20,35 +20,39 @@ import { getSeoData } from "@/app/lib/seo-utils";
 export async function generateMetadata({ params }) {
   const { locale } = params;
 
-  // Türkçe yorum: bu sayfanın routing key'i
-  const pathnameKey = "/Services/software";
+  const pathnameKey = "/Services/software"; // og-map key'in buysa
 
-const seoData = getSeoData("/Services/software", locale);
-  const title =
-    seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+  const seoData = getSeoData(pathnameKey, locale);
+  const title = seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
   const description =
     seoData?.description ||
     "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
 
-  // Türkçe yorum: OG görselini map'ten çek
-  const ogImage = getOgImageByPathnameKey(pathnameKey);
+  // ✅ ortam bazlı base URL
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
-  // Türkçe yorum: canonical URL (senin sitende localePrefix always)
+  // ✅ og map'ten çek + fallback ver (çok kritik)
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
   const url =
     locale === "tr"
-      ? "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
-      : "https://dgtlface.com/en/software-development"; 
-  // EN path sende neyse ona göre düzelt (seo-utils/route map ile de üretebiliriz)
+      ? `${base}/tr/yazilim`
+      : `${base}/en/software-development`;
 
   return {
+    // ✅ en kritik satır
+    metadataBase: new URL(base),
+
     title,
     description,
 
     alternates: {
       canonical: url,
       languages: {
-        tr: "/tr/web-ve-yazilim-hizmetleri",
-        en: "/en/software-development",
+        tr: `${base}/tr/yazilim`,
+        en: `${base}/en/software-development`,
       },
     },
 
@@ -60,7 +64,7 @@ const seoData = getSeoData("/Services/software", locale);
       description,
       images: [
         {
-          url: ogImage, // ✅ /og/og-software.png gibi
+          url: ogImage, // metadataBase sayesinde absolute'a tamamlanır
           width: 1200,
           height: 630,
           alt: title,
@@ -110,8 +114,8 @@ const homeJsonLd = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#webpage",
-      "url": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri",
+      "@id": "https://dgtlface.com/tr/yazilim/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim",
       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE",
       "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Özel yazılım, CMS, sunucu güvenliği, KVKK uyumu ve bakım & destek hizmetleri sunar.",
       "isPartOf": {
@@ -119,7 +123,7 @@ const homeJsonLd = {
       },
       "inLanguage": "tr-TR",
       "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#breadcrumb"
+        "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb"
       },
       "about": [
         "web yazılım ajansı",
@@ -134,9 +138,9 @@ const homeJsonLd = {
     },
     {
       "@type": "Service",
-      "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#service",
+      "@id": "https://dgtlface.com/tr/yazilim/#service",
       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React",
-      "url": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri",
+      "url": "https://dgtlface.com/tr/yazilim",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
       },
@@ -174,7 +178,7 @@ const homeJsonLd = {
     },
     {
       "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#services-list",
+      "@id": "https://dgtlface.com/tr/yazilim/#services-list",
       "name": "DGTLFACE Web & Yazılım Hizmetleri",
       "itemListElement": [
         {
@@ -206,7 +210,7 @@ const homeJsonLd = {
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -218,13 +222,13 @@ const homeJsonLd = {
           "@type": "ListItem",
           "position": 2,
           "name": "Web & Yazılım Hizmetleri",
-          "item": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri"
+          "item": "https://dgtlface.com/tr/yazilim"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/web-ve-yazilim-hizmetleri/#faq",
+      "@id": "https://dgtlface.com/tr/yazilim/#faq",
       "mainEntity": [
         {
           "@type": "Question",

@@ -32,20 +32,28 @@ export async function generateMetadata({ params }) {
   const title = seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
   const description = seoData?.description || "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
 
+  // Türkçe yorum: ortam bazlı base URL
+  const base =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+
   const url =
     locale === "tr"
-      ? "https://dgtlface.com/tr/hizmetlerimiz"
-      : "https://dgtlface.com/en/services";
+      ? `${base}/tr/hizmetlerimiz`
+      : `${base}/en/services`;
 
   return {
+    // ✅ BUNU EKLE (en kritik)
+    metadataBase: new URL(base),
+
     title,
     description,
 
     alternates: {
       canonical: url,
       languages: {
-        tr: "https://dgtlface.com/tr/hizmetlerimiz",
-        en: "https://dgtlface.com/en/services",
+        tr: `${base}/tr/hizmetlerimiz`,
+        en: `${base}/en/services`,
       },
     },
 
@@ -57,6 +65,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
+          // ✅ absolute'a otomatik tamamlar (metadataBase sayesinde)
           url: OG_IMAGE,
           width: 1200,
           height: 630,
