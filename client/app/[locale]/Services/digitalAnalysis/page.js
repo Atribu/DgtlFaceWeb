@@ -5,7 +5,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -15,6 +15,7 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -90,228 +91,234 @@ export async function generateMetadata({ params }) {
 
 
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunan veri odaklı dijital pazarlama partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-      "areaServed": ["Antalya","Türkiye","Europe"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/raporlama/#webpage",
-      "url": "https://dgtlface.com/tr/raporlama",
-      "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
-      "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "veri analizi hizmeti",
-        "dijital performans raporlama",
-        "looker studio rapor",
-        "satış analiz hizmeti",
-        "dönüşüm analizi",
-        "benchmark raporu",
-        "otel satış raporlama",
-        "turizm veri analizi"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/raporlama/#service",
-      "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı",
-      "url": "https://dgtlface.com/tr/raporlama",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "veri analizi hizmeti, dijital performans raporlama, Looker Studio raporlama, benchmark analizi, satış ve dönüşüm raporlama, KVKK veri güvenliği raporlama",
-      "description": "DGTLFACE, SEO, SEM, SMM, web, PMS–OTA, çağrı merkezi ve satış verilerini Looker Studio dashboard’larında birleştirerek oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunar.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "veri analizi hizmeti",
-        "dijital performans raporlama",
-        "looker studio rapor",
-        "satış analiz hizmeti",
-        "dönüşüm analizi",
-        "benchmark raporu",
-        "dijital performans nasıl ölçülür",
-        "looker studio dashboard hazırlanması",
-        "oteller için günlük satış raporu",
-        "sosyal medya performans analizi",
-        "seo performans analizi nasıl yapılır",
-        "google analytics verileri nasıl yorumlanır",
-        "meta ads rapor optimizasyonu",
-        "reklam performans ölçümü",
-        "oteller için benchmark analizi",
-        "gelir artırma veri analizi",
-        "turizm sektörü raporlama teknikleri",
-        "kpi analizi nasıl yapılır",
-        "looker studio otomatik rapor",
-        "otel satış raporlama",
-        "turizm veri analizi",
-        "resort benchmark raporu",
-        "pms veri analizi",
-        "veri analizi antalya",
-        "antalya dijital raporlama",
-        "performans analizi türkiye",
-        "looker studio antalya"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/raporlama/#services-list",
-      "name": "DGTLFACE Raporlama Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "Looker Studio Raporlama",
-          "url": "https://dgtlface.com/tr/raporlama/looker-studio"
-        },
-        {
-          "@type": "Service",
-          "name": "Benchmark Analizi",
-          "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
-        },
-        {
-          "@type": "Service",
-          "name": "Satış ve Dönüşüm Raporları",
-          "url": "https://dgtlface.com/tr/raporlama/satis-donusum"
-        },
-        {
-          "@type": "Service",
-          "name": "KVKK & Veri Güvenliği Raporlama",
-          "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Veri Analizi & Raporlama",
-          "item": "https://dgtlface.com/tr/raporlama"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/raporlama/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Raporlama için ekstra yeni bir yazılım mı almam gerekiyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Genellikle hayır. Mevcut kullandığınız sistemler (Google Analytics, Search Console, Google Ads, Meta Ads, PMS, OTA, çağrı merkezi vb.) üzerinden veri çekip Looker Studio gibi araçlarla dashboard’lar kuruyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Tüm raporları kendim mi takip edeceğim, yoksa özet sunuyor musunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Panellere 7/24 erişiminiz olur; buna ek olarak periyodik özet raporlar ve toplantılarla veriyi yorumlar, bir sonraki adım için aksiyon önerileri sunarız."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Veri analizi ve raporlama sadece büyük oteller için mi anlamlı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hayır. Küçük ve orta ölçekli otellerde de doğru raporlama sayesinde bütçenin nereye harcandığını ve ne getirdiğini erken görmek son derece kritiktir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece raporlama hizmeti alabilir miyim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet, sadece raporlama ve veri analizi hizmeti alabilirsiniz; ancak en sağlıklı sonuçları raporlama ile SEO, SEM, SMM ve PMS & OTA süreçlerinin entegre yürütüldüğü projelerde alıyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "DGTLFACE ile raporlama projesine nasıl başlıyoruz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Önce hangi sistemleri kullandığınızı ve hangi soruları cevaplamak istediğinizi analiz ediyoruz. Ardından veri kaynakları, KPI seti ve dashboard yapısına göre bir raporlama yol haritası çıkarıyor, onay sonrası entegrasyon ve panel kurulumlarını gerçekleştiriyoruz."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunan veri odaklı dijital pazarlama partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": ["Antalya","Türkiye","Europe"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/raporlama/#webpage",
+//       "url": "https://dgtlface.com/tr/raporlama",
+//       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
+//       "description": "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "veri analizi hizmeti",
+//         "dijital performans raporlama",
+//         "looker studio rapor",
+//         "satış analiz hizmeti",
+//         "dönüşüm analizi",
+//         "benchmark raporu",
+//         "otel satış raporlama",
+//         "turizm veri analizi"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/raporlama/#service",
+//       "name": "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı",
+//       "url": "https://dgtlface.com/tr/raporlama",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "veri analizi hizmeti, dijital performans raporlama, Looker Studio raporlama, benchmark analizi, satış ve dönüşüm raporlama, KVKK veri güvenliği raporlama",
+//       "description": "DGTLFACE, SEO, SEM, SMM, web, PMS–OTA, çağrı merkezi ve satış verilerini Looker Studio dashboard’larında birleştirerek oteller ve markalar için dijital performans analizi ve raporlama hizmeti sunar.",
+//       "areaServed": ["Antalya","Türkiye","Europe"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "veri analizi hizmeti",
+//         "dijital performans raporlama",
+//         "looker studio rapor",
+//         "satış analiz hizmeti",
+//         "dönüşüm analizi",
+//         "benchmark raporu",
+//         "dijital performans nasıl ölçülür",
+//         "looker studio dashboard hazırlanması",
+//         "oteller için günlük satış raporu",
+//         "sosyal medya performans analizi",
+//         "seo performans analizi nasıl yapılır",
+//         "google analytics verileri nasıl yorumlanır",
+//         "meta ads rapor optimizasyonu",
+//         "reklam performans ölçümü",
+//         "oteller için benchmark analizi",
+//         "gelir artırma veri analizi",
+//         "turizm sektörü raporlama teknikleri",
+//         "kpi analizi nasıl yapılır",
+//         "looker studio otomatik rapor",
+//         "otel satış raporlama",
+//         "turizm veri analizi",
+//         "resort benchmark raporu",
+//         "pms veri analizi",
+//         "veri analizi antalya",
+//         "antalya dijital raporlama",
+//         "performans analizi türkiye",
+//         "looker studio antalya"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/raporlama/#services-list",
+//       "name": "DGTLFACE Raporlama Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "Looker Studio Raporlama",
+//           "url": "https://dgtlface.com/tr/raporlama/looker-studio"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Benchmark Analizi",
+//           "url": "https://dgtlface.com/tr/raporlama/benchmark-analizi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Satış ve Dönüşüm Raporları",
+//           "url": "https://dgtlface.com/tr/raporlama/satis-donusum"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "KVKK & Veri Güvenliği Raporlama",
+//           "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/raporlama/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Veri Analizi & Raporlama",
+//           "item": "https://dgtlface.com/tr/raporlama"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/raporlama/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Raporlama için ekstra yeni bir yazılım mı almam gerekiyor?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Genellikle hayır. Mevcut kullandığınız sistemler (Google Analytics, Search Console, Google Ads, Meta Ads, PMS, OTA, çağrı merkezi vb.) üzerinden veri çekip Looker Studio gibi araçlarla dashboard’lar kuruyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Tüm raporları kendim mi takip edeceğim, yoksa özet sunuyor musunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Panellere 7/24 erişiminiz olur; buna ek olarak periyodik özet raporlar ve toplantılarla veriyi yorumlar, bir sonraki adım için aksiyon önerileri sunarız."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Veri analizi ve raporlama sadece büyük oteller için mi anlamlı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Hayır. Küçük ve orta ölçekli otellerde de doğru raporlama sayesinde bütçenin nereye harcandığını ve ne getirdiğini erken görmek son derece kritiktir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece raporlama hizmeti alabilir miyim?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet, sadece raporlama ve veri analizi hizmeti alabilirsiniz; ancak en sağlıklı sonuçları raporlama ile SEO, SEM, SMM ve PMS & OTA süreçlerinin entegre yürütüldüğü projelerde alıyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE ile raporlama projesine nasıl başlıyoruz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Önce hangi sistemleri kullandığınızı ve hangi soruları cevaplamak istediğinizi analiz ediyoruz. Ardından veri kaynakları, KPI seti ve dashboard yapısına göre bir raporlama yol haritası çıkarıyor, onay sonrası entegrasyon ve panel kurulumlarını gerçekleştiriyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 const Page = () => {
+  const locale = useLocale();
+const base = getBaseUrl();
+
   const t = useTranslations("DigitalAnalysis");
      const t2 = useTranslations("DigitalAnalysis.h4Section");
       
-                const faqs = [
-              {
-                question: t("faqs.question1"),
-                answer:
-                  t("faqs.answer1"),
-              },
-              {
-                question: t("faqs.question2"),
-                answer:
-                  t("faqs.answer2"),
-              },
-              {
-               question: t("faqs.question3"),
-                answer:
-                  t("faqs.answer3"),
-              },
-          
-              {
-              question: t("faqs.question4"),
-                answer:
-                  t("faqs.answer4"),
-              },
-          
-              {
-                question: t("faqs.question5"),
-                answer:
-                  t("faqs.answer5"),
-              },
-          
-          
-            ];
+               // ✅ generateMetadata ile birebir aynı canonical
+const pageUrl =
+  locale === "tr"
+    ? `${base}/tr/raporlama`
+    : `${base}/en/digital-analysis`;
+
+// ✅ Sayfada render edilen FAQ ile birebir
+const faqs = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
+
+// ✅ StepSection buttonLink’leri ile birebir (absolute)
+const serviceItems = [
+  { name: stripHtml(t("analysis_services_title1")), url: `${pageUrl}/looker-studio` },
+  { name: stripHtml(t("analysis_services_title2")), url: `${pageUrl}/benchmark-analizi` },
+  { name: stripHtml(t("analysis_services_title3")), url: `${pageUrl}/satis-donusum` },
+  { name: stripHtml(t("analysis_services_title4")), url: `${pageUrl}/kvkk-veri-guvenligi` },
+];
+
+const jsonLd = buildDepartmentJsonLd({
+  locale,
+  pageUrl,
+  pageName:
+    locale === "tr"
+      ? "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE"
+      : "Data Analysis & Digital Performance Reporting | DGTLFACE",
+  pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
+  serviceName: locale === "tr" ? "Veri Analizi & Dijital Performans Raporlama" : "Digital Analysis & Reporting",
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  breadcrumbName: locale === "tr" ? "Raporlama" : "Digital Analysis",
+  faqItems: faqs,
+  serviceItems,
+});
           
              const items = [
                  {
@@ -416,7 +423,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
 

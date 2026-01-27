@@ -5,7 +5,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -16,6 +16,7 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -90,237 +91,246 @@ export async function generateMetadata({ params }) {
 }
 
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve rezervasyon yönetimi sunan dijital pazarlama ve otel teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-     "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/#webpage",
-      "url": "https://dgtlface.com/tr/pms-ota",
-      "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE",
-      "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "pms ve ota yönetimi",
-        "ota yönetimi",
-        "pms kurulumu",
-        "kanal yönetimi",
-        "online satış optimizasyonu",
-        "otel satış sistemi",
-        "turizm pms ve ota çözümleri"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota/#service",
-      "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu",
-      "url": "https://dgtlface.com/tr/pms-ota",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "ota yönetimi, pms kurulumu, kanal yönetimi, online satış optimizasyonu, rezervasyon yönetimi",
-      "description": "DGTLFACE, oteller için PMS kurulumu ve eğitimi, Booking–Expedia gibi OTA entegrasyonları, kanal yönetimi, fiyat–envanter senkronu, online satış optimizasyonu ve rezervasyon yönetimini tek merkezden yöneten PMS & OTA yönetim hizmetleri sunar.",
-    "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "ota yönetimi",
-        "pms kurulumu",
-        "kanal yönetimi",
-        "online satış optimizasyonu",
-        "otel satış sistemi",
-        "ota yönetimi nasıl yapılır",
-        "oteller için pms kurulumu",
-        "booking expedia entegrasyon rehberi",
-        "ota fiyat senkronizasyonu",
-        "pms entegrasyonu nedir",
-        "otel rezervasyon sistemi optimizasyonu",
-        "turizm online satış teknikleri",
-        "oda envanteri nasıl yönetilir",
-        "fiyat yönetimi oteller için",
-        "google hotel ads uyumluluk",
-        "ota performans raporlama",
-        "pms ile otomatik fiyat güncelleme",
-        "kanal yönetimi yazılımı",
-        "otel web sitesi rezervasyon artırma",
-        "otel ota yönetimi",
-        "resort ota optimizasyon",
-        "turizm pms desteği",
-        "butik otel dijital satış sistemi",
-        "ota yönetimi antalya",
-        "antalya pms kurulumu",
-        "turizm pms türkiye",
-        "antalya otel satış optimizasyonu"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/pms-ota/#services-list",
-      "name": "DGTLFACE PMS & OTA Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "PMS Kurulum & Destek",
-          "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
-        },
-        {
-          "@type": "Service",
-          "name": "OTA Entegrasyonu",
-          "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
-        },
-        {
-          "@type": "Service",
-          "name": "Kanal Yönetimi (Channel Management)",
-          "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
-        },
-        {
-          "@type": "Service",
-          "name": "Online Satış Optimizasyonu",
-          "url": "https://dgtlface.com/tr/pms-ota/online-satis"
-        },
-        {
-          "@type": "Service",
-          "name": "Rezervasyon Yönetimi",
-          "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "PMS & OTA Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "PMS & OTA yönetimi nedir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PMS & OTA yönetimi, otelin oda, fiyat, envanter, rezervasyon ve misafir bilgilerinin PMS, OTA ve kanal yöneticisi üzerinden tüm kanallarda tutarlı ve senkronize şekilde yönetilmesini sağlar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Oteller için PMS kurulumu nasıl yapılır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Öncelikle oda ve operasyon yapınız analiz edilir, ardından PMS konfigürasyonu, kullanıcı rolleri, eğitim ve test süreçleri tamamlanarak sistem canlıya alınır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Booking–Expedia entegrasyonu nasıl çalışır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PMS veya kanal yöneticisi üzerinden oda tipleri ve fiyat planları OTA ile eşleştirilir; fiyat ve envanter güncellemeleri bu yapı üzerinden otomatik olarak Booking ve Expedia’ya iletilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Fiyat ve envanter senkronu şart mı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Fiyat ve envanter senkronu yapılmadığında overbooking ve fiyat hataları kaçınılmaz hale gelir; bu nedenle PMS, kanal yöneticisi ve OTA entegrasyonu kritik önemdedir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "DGTLFACE’in PMS & OTA yönetim modeli otellere nasıl katkı sağlar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE; PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve raporlama süreçlerini tek merkezden yöneterek oda doluluğunu, gelir performansını ve operasyon verimliliğini artıran bütünsel bir model sunar."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve rezervasyon yönetimi sunan dijital pazarlama ve otel teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/pms-ota/#webpage",
+//       "url": "https://dgtlface.com/tr/pms-ota",
+//       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE",
+//       "description": "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "pms ve ota yönetimi",
+//         "ota yönetimi",
+//         "pms kurulumu",
+//         "kanal yönetimi",
+//         "online satış optimizasyonu",
+//         "otel satış sistemi",
+//         "turizm pms ve ota çözümleri"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/pms-ota/#service",
+//       "name": "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu",
+//       "url": "https://dgtlface.com/tr/pms-ota",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "ota yönetimi, pms kurulumu, kanal yönetimi, online satış optimizasyonu, rezervasyon yönetimi",
+//       "description": "DGTLFACE, oteller için PMS kurulumu ve eğitimi, Booking–Expedia gibi OTA entegrasyonları, kanal yönetimi, fiyat–envanter senkronu, online satış optimizasyonu ve rezervasyon yönetimini tek merkezden yöneten PMS & OTA yönetim hizmetleri sunar.",
+//     "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "ota yönetimi",
+//         "pms kurulumu",
+//         "kanal yönetimi",
+//         "online satış optimizasyonu",
+//         "otel satış sistemi",
+//         "ota yönetimi nasıl yapılır",
+//         "oteller için pms kurulumu",
+//         "booking expedia entegrasyon rehberi",
+//         "ota fiyat senkronizasyonu",
+//         "pms entegrasyonu nedir",
+//         "otel rezervasyon sistemi optimizasyonu",
+//         "turizm online satış teknikleri",
+//         "oda envanteri nasıl yönetilir",
+//         "fiyat yönetimi oteller için",
+//         "google hotel ads uyumluluk",
+//         "ota performans raporlama",
+//         "pms ile otomatik fiyat güncelleme",
+//         "kanal yönetimi yazılımı",
+//         "otel web sitesi rezervasyon artırma",
+//         "otel ota yönetimi",
+//         "resort ota optimizasyon",
+//         "turizm pms desteği",
+//         "butik otel dijital satış sistemi",
+//         "ota yönetimi antalya",
+//         "antalya pms kurulumu",
+//         "turizm pms türkiye",
+//         "antalya otel satış optimizasyonu"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/pms-ota/#services-list",
+//       "name": "DGTLFACE PMS & OTA Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "PMS Kurulum & Destek",
+//           "url": "https://dgtlface.com/tr/pms-ota/pms-kurulum"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "OTA Entegrasyonu",
+//           "url": "https://dgtlface.com/tr/pms-ota/ota-entegrasyonu"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Kanal Yönetimi (Channel Management)",
+//           "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Online Satış Optimizasyonu",
+//           "url": "https://dgtlface.com/tr/pms-ota/online-satis"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Rezervasyon Yönetimi",
+//           "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/pms-ota/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "PMS & OTA Yönetimi",
+//           "item": "https://dgtlface.com/tr/pms-ota"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/pms-ota/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "PMS & OTA yönetimi nedir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "PMS & OTA yönetimi, otelin oda, fiyat, envanter, rezervasyon ve misafir bilgilerinin PMS, OTA ve kanal yöneticisi üzerinden tüm kanallarda tutarlı ve senkronize şekilde yönetilmesini sağlar."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Oteller için PMS kurulumu nasıl yapılır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Öncelikle oda ve operasyon yapınız analiz edilir, ardından PMS konfigürasyonu, kullanıcı rolleri, eğitim ve test süreçleri tamamlanarak sistem canlıya alınır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Booking–Expedia entegrasyonu nasıl çalışır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "PMS veya kanal yöneticisi üzerinden oda tipleri ve fiyat planları OTA ile eşleştirilir; fiyat ve envanter güncellemeleri bu yapı üzerinden otomatik olarak Booking ve Expedia’ya iletilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Fiyat ve envanter senkronu şart mı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Fiyat ve envanter senkronu yapılmadığında overbooking ve fiyat hataları kaçınılmaz hale gelir; bu nedenle PMS, kanal yöneticisi ve OTA entegrasyonu kritik önemdedir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE’in PMS & OTA yönetim modeli otellere nasıl katkı sağlar?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE; PMS kurulumu, OTA entegrasyonu, kanal yönetimi, online satış optimizasyonu ve raporlama süreçlerini tek merkezden yöneterek oda doluluğunu, gelir performansını ve operasyon verimliliğini artıran bütünsel bir model sunar."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 const Page = () => {
+  const locale = useLocale(); // ✅ client tarafında locale
+  const base = getBaseUrl();  // ✅ local/prod
   const t = useTranslations("Pms");
      const t2 = useTranslations("Pms.h4Section");
       
-                const faqs = [
-              {
-                question: t("faqs.question1"),
-                answer:
-                  t("faqs.answer1"),
-              },
-              {
-                question: t("faqs.question2"),
-                answer:
-                  t("faqs.answer2"),
-              },
-              {
-               question: t("faqs.question3"),
-                answer:
-                  t("faqs.answer3"),
-              },
-          
-              {
-              question: t("faqs.question4"),
-                answer:
-                  t("faqs.answer4"),
-              },
-          
-              {
-                question: t("faqs.question5"),
-                answer:
-                  t("faqs.answer5"),
-              },
+              const pageUrl =
+    locale === "tr"
+      ? `${base}/tr/pms-ota`
+      : `${base}/en/pms-ota`;
 
-            ];
+  // ✅ Sayfada kaç FAQ render ediyorsan JSON-LD de o kadar olmalı
+  const faqs = [1, 2, 3, 4, 5].map((i) => ({
+    question: t(`faqs.question${i}`),
+    answer: t(`faqs.answer${i}`),
+  }));
+
+  // ✅ StepSection içindeki linklerle aynı (absolute)
+  const serviceItems = [
+    { name: stripHtml(t("pms_services_title1")), url: `${pageUrl}/pms-kurulum` },
+    { name: stripHtml(t("pms_services_title2")), url: `${pageUrl}/ota-entegrasyonu` },
+    { name: stripHtml(t("pms_services_title3")), url: `${pageUrl}/kanal-yonetimi` },
+    { name: stripHtml(t("pms_services_title4")), url: `${pageUrl}/online-satis` },
+    { name: stripHtml(t("pms_services_title5")), url: `${pageUrl}/rezervasyon-yonetimi` },
+  ];
+
+  const jsonLd = buildDepartmentJsonLd({
+    locale,
+    pageUrl,
+    pageName:
+      locale === "tr"
+        ? "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE"
+        : "PMS & OTA Management | DGTLFACE",
+    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
+    serviceName:
+      locale === "tr" ? "PMS ve OTA Yönetimi" : "PMS & OTA Management",
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+    breadcrumbName:
+      locale === "tr" ? "PMS & OTA Yönetimi" : "PMS & OTA",
+    faqItems: faqs,
+    serviceItems,
+  });
+
           
              const items = [
                  {
@@ -422,6 +432,13 @@ const Page = () => {
 
   return (
     <>
+     {/* ✅ JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
    <div className='hidden lg:flex'>
       <MainBanner  header={t("pms_banner_header")} span={t("pms_banner_span")} text={t("pms_banner_text")} buttonText={t("buttonText")}/>

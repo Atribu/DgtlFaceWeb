@@ -15,6 +15,7 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -88,215 +89,229 @@ export async function generateMetadata({ params }) {
 }
 
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, markalar ve oteller için sosyal medya stratejisi, içerik üretimi, Reels & video, reklam yönetimi ve analiz sunan profesyonel bir sosyal medya ajansıdır.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/smm/#webpage",
-      "url": "https://dgtlface.com/tr/smm",
-      "name": "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE",
-      "description": "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar. Instagram, Facebook ve YouTube için profesyonel sosyal medya yönetimi hizmeti alın.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "sosyal medya yönetimi",
-        "sosyal medya ajansı",
-        "instagram yönetimi",
-        "sosyal medya danışmanlığı",
-        "otel sosyal medya yönetimi"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/smm/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/smm/#service",
-      "name": "Sosyal Medya Yönetimi – Profesyonel SMM Stratejileri",
-      "url": "https://dgtlface.com/tr/smm",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "sosyal medya yönetimi, sosyal medya reklamları, içerik üretimi, SMM stratejisi",
-      "description": "DGTLFACE, sosyal medya stratejisi, içerik üretimi, planlama, Reels & video prodüksiyon, reklam yönetimi ve performans analizi ile markalar ve oteller için profesyonel sosyal medya yönetimi sunar.",
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "sosyal medya yönetimi",
-        "sosyal medya ajansı",
-        "instagram yönetimi",
-        "sosyal medya danışmanlığı",
-        "içerik üretimi hizmeti",
-        "sosyal medya reklam yönetimi",
-        "sosyal medya yönetimi nasıl yapılır",
-        "instagram içerik planı nasıl hazırlanır",
-        "sosyal medya etkileşimi artırma yolları",
-        "işletmeler için sosyal medya stratejisi",
-        "oteller için sosyal medya pazarlaması",
-        "turizm sektöründe sosyal medya",
-        "reel video nasıl viral olur",
-        "içerik takvimi oluşturma",
-        "sosyal medya raporu nasıl hazırlanır",
-        "otel sosyal medya yönetimi",
-        "resort instagram yönetimi",
-        "otel reels video üretimi",
-        "sosyal medya yönetimi antalya",
-        "antalya sosyal medya ajansı",
-        "instagram yönetimi türkiye",
-        "sosyal medya danışmanı antalya"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/smm/#services-list",
-      "name": "DGTLFACE SMM Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "Sosyal Medya İçerik Üretimi",
-          "url": "https://dgtlface.com/tr/smm/icerik-uretimi"
-        },
-        {
-          "@type": "Service",
-          "name": "Planlama ve Strateji",
-          "url": "https://dgtlface.com/tr/smm/planlama-strateji"
-        },
-        {
-          "@type": "Service",
-          "name": "Reels & Video İçerik Üretimi",
-          "url": "https://dgtlface.com/tr/smm/reels-video"
-        },
-        {
-          "@type": "Service",
-          "name": "Sosyal Medya Reklamları",
-          "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
-        },
-        {
-          "@type": "Service",
-          "name": "Analiz & Raporlama",
-          "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/smm/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Sosyal Medya Yönetimi",
-          "item": "https://dgtlface.com/tr/smm"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/smm/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Sosyal medya yönetimi sadece post paylaşmak mıdır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hayır. Profesyonel sosyal medya yönetimi; strateji, içerik üretimi, tasarım, video, planlama, reklam, topluluk yönetimi ve raporlama gibi birçok sürecin birlikte çalıştığı bir yapıdır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Oteller için sosyal medya gerçekten rezervasyon getirir mi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Doğru strateji, doğru içerik ve reklam kurgusuyla evet. Özellikle Reels, kısa video ve kampanya iletişimi, misafirin otel tercihinde ciddi rol oynar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece içerik üretimi veya sadece reklam yönetimi hizmeti alabilir miyim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet, sadece içerik üretimi, sadece planlama veya sadece sosyal medya reklam yönetimi hizmeti alabilirsiniz. Ancak en güçlü sonuçlar bu alanların entegre çalıştığı modellerde elde edilir."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, markalar ve oteller için sosyal medya stratejisi, içerik üretimi, Reels & video, reklam yönetimi ve analiz sunan profesyonel bir sosyal medya ajansıdır.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/smm/#webpage",
+//       "url": "https://dgtlface.com/tr/smm",
+//       "name": "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı | DGTLFACE",
+//       "description": "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar. Instagram, Facebook ve YouTube için profesyonel sosyal medya yönetimi hizmeti alın.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "sosyal medya yönetimi",
+//         "sosyal medya ajansı",
+//         "instagram yönetimi",
+//         "sosyal medya danışmanlığı",
+//         "otel sosyal medya yönetimi"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/smm/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/smm/#service",
+//       "name": "Sosyal Medya Yönetimi – Profesyonel SMM Stratejileri",
+//       "url": "https://dgtlface.com/tr/smm",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "sosyal medya yönetimi, sosyal medya reklamları, içerik üretimi, SMM stratejisi",
+//       "description": "DGTLFACE, sosyal medya stratejisi, içerik üretimi, planlama, Reels & video prodüksiyon, reklam yönetimi ve performans analizi ile markalar ve oteller için profesyonel sosyal medya yönetimi sunar.",
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "sosyal medya yönetimi",
+//         "sosyal medya ajansı",
+//         "instagram yönetimi",
+//         "sosyal medya danışmanlığı",
+//         "içerik üretimi hizmeti",
+//         "sosyal medya reklam yönetimi",
+//         "sosyal medya yönetimi nasıl yapılır",
+//         "instagram içerik planı nasıl hazırlanır",
+//         "sosyal medya etkileşimi artırma yolları",
+//         "işletmeler için sosyal medya stratejisi",
+//         "oteller için sosyal medya pazarlaması",
+//         "turizm sektöründe sosyal medya",
+//         "reel video nasıl viral olur",
+//         "içerik takvimi oluşturma",
+//         "sosyal medya raporu nasıl hazırlanır",
+//         "otel sosyal medya yönetimi",
+//         "resort instagram yönetimi",
+//         "otel reels video üretimi",
+//         "sosyal medya yönetimi antalya",
+//         "antalya sosyal medya ajansı",
+//         "instagram yönetimi türkiye",
+//         "sosyal medya danışmanı antalya"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/smm/#services-list",
+//       "name": "DGTLFACE SMM Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "Sosyal Medya İçerik Üretimi",
+//           "url": "https://dgtlface.com/tr/smm/icerik-uretimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Planlama ve Strateji",
+//           "url": "https://dgtlface.com/tr/smm/planlama-strateji"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Reels & Video İçerik Üretimi",
+//           "url": "https://dgtlface.com/tr/smm/reels-video"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Sosyal Medya Reklamları",
+//           "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Analiz & Raporlama",
+//           "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/smm/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Sosyal Medya Yönetimi",
+//           "item": "https://dgtlface.com/tr/smm"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/smm/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Sosyal medya yönetimi sadece post paylaşmak mıdır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Hayır. Profesyonel sosyal medya yönetimi; strateji, içerik üretimi, tasarım, video, planlama, reklam, topluluk yönetimi ve raporlama gibi birçok sürecin birlikte çalıştığı bir yapıdır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Oteller için sosyal medya gerçekten rezervasyon getirir mi?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Doğru strateji, doğru içerik ve reklam kurgusuyla evet. Özellikle Reels, kısa video ve kampanya iletişimi, misafirin otel tercihinde ciddi rol oynar."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece içerik üretimi veya sadece reklam yönetimi hizmeti alabilir miyim?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet, sadece içerik üretimi, sadece planlama veya sadece sosyal medya reklam yönetimi hizmeti alabilirsiniz. Ancak en güçlü sonuçlar bu alanların entegre çalıştığı modellerde elde edilir."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
-const Page = () => {
+const Page = ({ params }) => {
      const t = useTranslations("Smm");
     const t2 = useTranslations("Smm.h4Section");
+    
+     const { locale } = params;
 
-          const faqs = [
-        {
-          question: t("faqs.question1"),
-          answer:
-            t("faqs.answer1"),
-        },
-        {
-          question: t("faqs.question2"),
-          answer:
-            t("faqs.answer2"),
-        },
-        {
-         question: t("faqs.question3"),
-          answer:
-            t("faqs.answer3"),
-        },
-    
-        {
-        question: t("faqs.question4"),
-          answer:
-            t("faqs.answer4"),
-        },
-    
-        {
-          question: t("faqs.question5"),
-          answer:
-            t("faqs.answer5"),
-        },
-    
-    
-      ];
+     
+const base = getBaseUrl();
+
+  // ✅ senin metadata ile birebir: TR /tr/smm, EN /en/social-media-marketing
+  const pageUrl =
+    locale === "tr"
+      ? `${base}/tr/smm`
+      : `${base}/en/social-media-marketing`;
+
+  // ✅ sayfada render ettiğin FAQ listesi (5 adet) -> JSON-LD de 5 olacak
+  const faqs = [
+    { question: t("faqs.question1"), answer: t("faqs.answer1") },
+    { question: t("faqs.question2"), answer: t("faqs.answer2") },
+    { question: t("faqs.question3"), answer: t("faqs.answer3") },
+    { question: t("faqs.question4"), answer: t("faqs.answer4") },
+    { question: t("faqs.question5"), answer: t("faqs.answer5") },
+  ];
+
+  // ✅ StepSection buttonLink’lerinle birebir aynı (absolute yapıyoruz)
+  const serviceItems = [
+    { name: stripHtml(t("smm_services_title1")), url: `${base}/${locale}/smm/icerik-uretimi` },
+    { name: stripHtml(t("smm_services_title2")), url: `${base}/${locale}/smm/planlama-strateji` },
+    { name: stripHtml(t("smm_services_title3")), url: `${base}/${locale}/smm/reels-video` },
+    { name: stripHtml(t("smm_services_title4")), url: `${base}/${locale}/smm/sosyal-medya-reklamlari` },
+    { name: stripHtml(t("smm_services_title5")), url: `${base}/${locale}/smm/analiz-raporlama` },
+  ];
+
+  const jsonLd = buildDepartmentJsonLd({
+    locale,
+    pageUrl,
+    pageName: `${stripHtml(t("smm_banner_header"))}${stripHtml(t("smm_banner_span"))} | DGTLFACE`,
+    pageDescription: stripHtml(t("smm_banner_text")).slice(0, 300),
+    serviceName:
+      locale === "tr"
+        ? "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı"
+        : "Social Media Management – Strategy, Content & Ads",
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+    breadcrumbName: locale === "tr" ? "Sosyal Medya Yönetimi" : "Social Media Marketing",
+    faqItems: faqs,
+    serviceItems,
+  });
+
+
     
        const items = [
            {
@@ -403,7 +418,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
        <div className='hidden lg:flex'>

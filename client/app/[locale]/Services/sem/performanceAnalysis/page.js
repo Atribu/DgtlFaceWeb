@@ -7,158 +7,220 @@ import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.webp"
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, Google Ads, Meta Ads, YouTube ve diğer dijital reklam kampanyalarınızın performansını Looker Studio dashboard’larında analiz eden veri odaklı dijital pazarlama ve teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  const pathnameKey = "/Services/sem/performanceAnalysis";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title || "Reklam Performans Raporlama – Veri Odaklı SEM Analizi | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": ["Antalya","Türkiye","Europe"]
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#webpage",
-      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
-      "name": "Reklam Performans Raporlama – Veri Odaklı SEM Analizi | DGTLFACE",
-      "description": "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#breadcrumb"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#service",
-      "name": "Reklam Performans Raporlama & SEM Analizi",
-      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "reklam raporlama, sem performans analizi, google ads raporlama, meta ads raporlama, dijital performans dashboard, reklam analizi",
-      "description": "DGTLFACE, Google Ads, Meta Ads, YouTube ve diğer dijital kampanyalarınızın verilerini Looker Studio üzerinde tek panelde birleştirerek reklam performans raporlama ve SEM analizi hizmeti sunar.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "reklam raporlama",
-        "sem performans analizi",
-        "google ads raporlama",
-        "meta ads raporlama",
-        "dashboard oluşturma",
-        "reklam analizi",
-        "reklam performans raporu nasıl hazırlanır",
-        "looker studio reklam raporu",
-        "sem analizi nasıl yapılır",
-        "google ads dönüşüm raporu",
-        "youtube reklam raporu",
-        "meta ads dönüşüm analizi",
-        "oteller için reklam raporlama",
-        "turizm reklam analizi",
-        "reklam maliyeti optimizasyon raporu",
-        "google ads raporlama şablonu",
-        "otel reklam raporlaması",
-        "turizm sektörü reklam analizi",
-        "ota reklam performansı",
-        "otel kampanya performansı",
-        "reklam raporlama antalya",
-        "sem raporlama türkiye",
-        "dijital raporlama antalya",
-        "reklam analizi antalya"
-      ]
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SEM – Dijital Reklam Yönetimi",
-          "item": "https://dgtlface.com/tr/sem"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Reklam Raporlama & Performans Analizi",
-          "item": "https://dgtlface.com/tr/sem/reklam-raporlama"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Reklam performans raporlamasında hangi metriklere bakmalıyım?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Genellikle tıklama, gösterim, CTR, dönüşüm sayısı, CPA, ROAS ve gerektiğinde gelir/rezervasyon metrikleri takip edilmelidir. Oteller için doluluk ve RevPAR da önemlidir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Raporları hangi sıklıkta hazırlıyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dashboard’lar canlıdır; bunun üzerine haftalık kısa özetler ve aylık detaylı rapor + aksiyon toplantıları öneriyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Tüm kanalları tek panelde görebilir miyim?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Google Ads, Meta Ads, YouTube, GA4 ve gerektiğinde PMS/OTA verilerini Looker Studio üzerinde tek panelde birleştiriyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Oteller için özel reklam raporlaması yapıyor musunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Doluluk oranı, rezervasyon sayısı, kanal bazlı gelir, RevPAR ve OTA vs direkt kanal oranı gibi otel KPI’larını raporlara dahil ediyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "DGTLFACE’in raporlama yaklaşımı klasik ajanslardan nasıl farklıdır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE, raporu sadece veri tablosu olarak değil, yorum ve aksiyon önerileriyle bir karar destek dokümanı olarak sunar ve raporları ölçüm ve kampanya yönetimiyle entegre yürütür."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
 
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com",
+//       "description": "DGTLFACE, Google Ads, Meta Ads, YouTube ve diğer dijital reklam kampanyalarınızın performansını Looker Studio dashboard’larında analiz eden veri odaklı dijital pazarlama ve teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": ["Antalya","Türkiye","Europe"]
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#webpage",
+//       "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+//       "name": "Reklam Performans Raporlama – Veri Odaklı SEM Analizi | DGTLFACE",
+//       "description": "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.",
+//       "inLanguage": "tr-TR",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#service",
+//       "name": "Reklam Performans Raporlama & SEM Analizi",
+//       "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "reklam raporlama, sem performans analizi, google ads raporlama, meta ads raporlama, dijital performans dashboard, reklam analizi",
+//       "description": "DGTLFACE, Google Ads, Meta Ads, YouTube ve diğer dijital kampanyalarınızın verilerini Looker Studio üzerinde tek panelde birleştirerek reklam performans raporlama ve SEM analizi hizmeti sunar.",
+//       "areaServed": ["Antalya","Türkiye","Europe"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "reklam raporlama",
+//         "sem performans analizi",
+//         "google ads raporlama",
+//         "meta ads raporlama",
+//         "dashboard oluşturma",
+//         "reklam analizi",
+//         "reklam performans raporu nasıl hazırlanır",
+//         "looker studio reklam raporu",
+//         "sem analizi nasıl yapılır",
+//         "google ads dönüşüm raporu",
+//         "youtube reklam raporu",
+//         "meta ads dönüşüm analizi",
+//         "oteller için reklam raporlama",
+//         "turizm reklam analizi",
+//         "reklam maliyeti optimizasyon raporu",
+//         "google ads raporlama şablonu",
+//         "otel reklam raporlaması",
+//         "turizm sektörü reklam analizi",
+//         "ota reklam performansı",
+//         "otel kampanya performansı",
+//         "reklam raporlama antalya",
+//         "sem raporlama türkiye",
+//         "dijital raporlama antalya",
+//         "reklam analizi antalya"
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "SEM – Dijital Reklam Yönetimi",
+//           "item": "https://dgtlface.com/tr/sem"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 3,
+//           "name": "Reklam Raporlama & Performans Analizi",
+//           "item": "https://dgtlface.com/tr/sem/reklam-raporlama"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/sem/reklam-raporlama/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Reklam performans raporlamasında hangi metriklere bakmalıyım?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Genellikle tıklama, gösterim, CTR, dönüşüm sayısı, CPA, ROAS ve gerektiğinde gelir/rezervasyon metrikleri takip edilmelidir. Oteller için doluluk ve RevPAR da önemlidir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Raporları hangi sıklıkta hazırlıyorsunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Dashboard’lar canlıdır; bunun üzerine haftalık kısa özetler ve aylık detaylı rapor + aksiyon toplantıları öneriyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Tüm kanalları tek panelde görebilir miyim?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Google Ads, Meta Ads, YouTube, GA4 ve gerektiğinde PMS/OTA verilerini Looker Studio üzerinde tek panelde birleştiriyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Oteller için özel reklam raporlaması yapıyor musunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Doluluk oranı, rezervasyon sayısı, kanal bazlı gelir, RevPAR ve OTA vs direkt kanal oranı gibi otel KPI’larını raporlara dahil ediyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE’in raporlama yaklaşımı klasik ajanslardan nasıl farklıdır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE, raporu sadece veri tablosu olarak değil, yorum ve aksiyon önerileriyle bir karar destek dokümanı olarak sunar ve raporları ölçüm ve kampanya yönetimiyle entegre yürütür."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
+
 const Page = () => {
+   const locale = useLocale();
+    const baseUrl = getBaseUrl();
+    const pathnameKey = "/Services/sem/googleAdsAdvertising";
+    const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+
   const t = useTranslations("PerformanceAnalysis");
      const t2 = useTranslations("PerformanceAnalysis.h4Section");
   
@@ -170,6 +232,72 @@ const Page = () => {
         textHtml:   t.raw(`h3Section.text${i}`)
      }));
   
+
+     const jsonLd = buildServiceJsonLd({
+         baseUrl,
+         locale,
+         canonicalUrl,
+        pageName:
+    "Reklam Performans Analizi ve Raporlama – Kampanyalarınızı Veriyle Yönetin | DGTLFACE",
+
+  pageDescription:
+    "DGTLFACE, reklam raporlama ve performans analizi hizmetiyle Google Ads, YouTube ve Meta Ads gibi kanalları tek panelde toplar; dönüşüm, maliyet, gelir ve ROAS metrikleriyle kampanyalarınızı veriyle yönetmenizi sağlar.",
+
+  serviceName: "Reklam Performans Analizi ve Raporlama",
+  serviceType:
+    "Reklam raporlama, performans analizi, SEM analizi, Looker Studio dashboard",
+
+  keywords: [
+    "reklam raporlama",
+    "performans analizi",
+    "SEM performans analizi",
+    "google ads raporlama",
+    "meta ads raporlama",
+    "youtube reklam raporu",
+    "looker studio dashboard",
+    "dijital reklam analizi",
+    "oteller için reklam raporlama",
+    "ROAS ve funnel analizi",
+  ],
+
+  breadcrumbItems: [
+    { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
+    {
+      name: "SEM",
+      url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}`,
+    },
+    { name: locale === "tr" ? "Reklam Raporlama" : "Performance Analysis", url: canonicalUrl },
+  ],
+         faqs: [
+          {
+           question: t("faq.question1"),
+           answer:
+            t.raw("faq.answer1"),
+         },
+         {
+           question: t("faq.question2"),
+           answer:
+            t.raw("faq.answer2"),
+         },
+         {
+            question: t("faq.question3"),
+           answer:
+            t.raw("faq.answer3"),
+         },
+     
+         {
+         question: t("faq.question4"),
+           answer:
+            t.raw("faq.answer4"),
+         },
+     
+         {
+         question: t("faq.question5"),
+           answer:
+            t.raw("faq.answer5"),
+         },
+         ],
+       });
   
   
      const cards = [
@@ -234,7 +362,7 @@ const Page = () => {
     <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>

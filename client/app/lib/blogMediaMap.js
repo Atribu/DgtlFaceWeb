@@ -5,49 +5,49 @@ export const BLOG_MEDIA_MAP = {
 
   "bos":{
      banner: {
-      src: "/images/blog/creative/Software1-5/Software1-5-1.jpeg",
+      src: "/images/blog/creative/Software1-5/Software1-5-1.webp",
       alt: "",
       caption: ""
     },
 
           "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-2.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
       alt: "",
       caption: ""
     },
 
            "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-3.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
       alt: "",
       caption: ""
     },
 
     "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-4.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
       alt: "",
       caption: ""
     },
 
      "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-5.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
       alt: "",
       caption: ""
     },
 
           "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-6.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
       alt: "",
       caption: ""
     },
 
       "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-7.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
       alt: "",
       caption: ""
     },
 
           "": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-8.jpeg",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
       alt: "",
       caption: ""
     }
@@ -3652,6 +3652,56 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/software/Software2-3/Software2-3-8.webp",
       alt: "Multilingual panel çıktıları proof kartı, kurumsal web bağlamı",
       caption: "Multilingual panel çıktıları proof kartı, kurumsal web bağlamı"
+    }
+  },
+
+   "figma-otel-web-tasarimi-wireframe-prototip":{
+     banner: {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-1.webp",
+      alt: "Figma ile Otel Web Sitesi Tasarımı: Wireframe’den Prototip’e",
+      caption: "Figma ile Otel Web Sitesi Tasarımı: Wireframe’den Prototip’e"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-2.webp",
+      alt: "Otel rezervasyon akışını wireframe’den prototipe bağlayan bağlam görseli",
+      caption: "Otel rezervasyon akışını wireframe’den prototipe bağlayan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-3.webp",
+      alt: "Wireframe bölümüne geçişi destekleyen ayırıcı görsel",
+      caption: "Wireframe bölümüne geçişi destekleyen ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-4.webp",
+      alt: "Prototip test bölümüne geçişi destekleyen ayırıcı görsel",
+      caption: "Prototip test bölümüne geçişi destekleyen ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-5.webp",
+      alt: "Kliklenebilir prototip akışını ve rezervasyon funnel’ını gösteren şema",
+      caption: "Kliklenebilir prototip akışını ve rezervasyon funnel’ını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-6.webp",
+      alt: "Otel UI kit bileşen setini özetleyen framework kartı",
+      caption: "Otel UI kit bileşen setini özetleyen framework kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-7.webp",
+      alt: "Handoff kalitesini ve revizyon riskini gösteren KPI kartı",
+      caption: "Handoff kalitesini ve revizyon riskini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-3/Creative2-3-8.webp",
+      alt: "Wireframe ve prototip teslim çıktılarıyla güven veren proof kartı",
+      caption: "Wireframe ve prototip teslim çıktılarıyla güven veren proof kartı"
     }
   },
   

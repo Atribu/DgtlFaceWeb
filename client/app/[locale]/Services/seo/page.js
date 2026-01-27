@@ -16,6 +16,7 @@ import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -89,184 +90,227 @@ export async function generateMetadata({ params }) {
 }
 
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, teknik SEO, içerik SEO, yerel SEO ve backlink yönetimiyle markalar ve oteller için organik görünürlük sağlayan profesyonel bir SEO ajansıdır.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/seo/#webpage",
-      "url": "https://dgtlface.com/tr/seo",
-      "name": "SEO Hizmetleri – Teknik, Yerel ve İçerik SEO Uzmanlığı | DGTLFACE",
-      "description": "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "seo ajansı",
-        "teknik seo analizi",
-        "içerik seo",
-        "yerel seo",
-        "backlink stratejisi",
-        "turizm seo"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/seo/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/seo/#service",
-      "name": "Profesyonel SEO Hizmetleri – Teknik, Yerel ve İçerik SEO",
-      "url": "https://dgtlface.com/tr/seo",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "SEO ajansı, teknik SEO, içerik SEO, yerel SEO, backlink yönetimi",
-      "description": "DGTLFACE, teknik SEO, içerik SEO, yerel SEO ve backlink yönetimini birleştirerek organik görünürlüğünüzü artırır. Özellikle oteller ve turizm markaları için çok dilli SEO, PMS uyumlu yapılandırma ve destinasyon odaklı stratejilerle gerçek rezervasyon üreten bir organik trafik modeli kurar.",
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "seo ajansı",
-        "seo hizmetleri",
-        "teknik seo analizi",
-        "seo danışmanlığı",
-        "seo optimizasyonu",
-        "profesyonel seo çözümleri",
-        "seo nasıl yapılır 2025",
-        "teknik seo nedir",
-        "içerik odaklı seo stratejileri",
-        "google sıralama yükseltme yöntemleri",
-        "otel seo hizmeti",
-        "turizm seo stratejisi",
-        "pms uyumlu seo",
-        "ota seo optimizasyonu",
-        "seo ajansı antalya",
-        "antalya seo hizmetleri",
-        "türkiye seo uzmanı",
-        "antalya dijital pazarlama"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/seo/#services-list",
-      "name": "DGTLFACE SEO Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "Teknik SEO",
-          "url": "https://dgtlface.com/tr/seo/teknik-seo"
-        },
-        {
-          "@type": "Service",
-          "name": "İçerik SEO",
-          "url": "https://dgtlface.com/tr/seo/icerik-seo"
-        },
-        {
-          "@type": "Service",
-          "name": "Yerel SEO",
-          "url": "https://dgtlface.com/tr/seo/yerel-seo"
-        },
-        {
-          "@type": "Service",
-          "name": "Backlink & Dijital Otorite Yönetimi",
-          "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
-        },
-        {
-          "@type": "Service",
-          "name": "SEO Raporlama & Performans Analizi",
-          "url": "https://dgtlface.com/tr/seo/seo-raporlama"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/seo/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SEO Hizmetleri",
-          "item": "https://dgtlface.com/tr/seo"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/seo/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "DGTLFACE SEO hizmetleri neleri kapsar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE; teknik SEO, içerik SEO, yerel SEO, backlink yönetimi ve SEO raporlama süreçlerini kapsayan uçtan uca SEO hizmetleri sunar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "SEO sonuçları ne kadar sürede görülür?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sektör ve rekabete göre değişmekle birlikte genellikle 3–6 ay arasında anlamlı hareketlenmeler, 6–12 ay aralığında ise daha büyük ölçekli sonuçlar görülmeye başlar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Oteller için SEO nasıl farklı işler?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oteller için SEO; destinasyon aramaları, çok dilli yapı, OTA rekabeti ve rezervasyon odaklı içerik stratejisini içerir. DGTLFACE bu alanları otelinizin ticari hedefleriyle uyumlu şekilde kurgular."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, teknik SEO, içerik SEO, yerel SEO ve backlink yönetimiyle markalar ve oteller için organik görünürlük sağlayan profesyonel bir SEO ajansıdır.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/seo/#webpage",
+//       "url": "https://dgtlface.com/tr/seo",
+//       "name": "SEO Hizmetleri – Teknik, Yerel ve İçerik SEO Uzmanlığı | DGTLFACE",
+//       "description": "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "seo ajansı",
+//         "teknik seo analizi",
+//         "içerik seo",
+//         "yerel seo",
+//         "backlink stratejisi",
+//         "turizm seo"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/seo/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/seo/#service",
+//       "name": "Profesyonel SEO Hizmetleri – Teknik, Yerel ve İçerik SEO",
+//       "url": "https://dgtlface.com/tr/seo",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "SEO ajansı, teknik SEO, içerik SEO, yerel SEO, backlink yönetimi",
+//       "description": "DGTLFACE, teknik SEO, içerik SEO, yerel SEO ve backlink yönetimini birleştirerek organik görünürlüğünüzü artırır. Özellikle oteller ve turizm markaları için çok dilli SEO, PMS uyumlu yapılandırma ve destinasyon odaklı stratejilerle gerçek rezervasyon üreten bir organik trafik modeli kurar.",
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "seo ajansı",
+//         "seo hizmetleri",
+//         "teknik seo analizi",
+//         "seo danışmanlığı",
+//         "seo optimizasyonu",
+//         "profesyonel seo çözümleri",
+//         "seo nasıl yapılır 2025",
+//         "teknik seo nedir",
+//         "içerik odaklı seo stratejileri",
+//         "google sıralama yükseltme yöntemleri",
+//         "otel seo hizmeti",
+//         "turizm seo stratejisi",
+//         "pms uyumlu seo",
+//         "ota seo optimizasyonu",
+//         "seo ajansı antalya",
+//         "antalya seo hizmetleri",
+//         "türkiye seo uzmanı",
+//         "antalya dijital pazarlama"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/seo/#services-list",
+//       "name": "DGTLFACE SEO Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "Teknik SEO",
+//           "url": "https://dgtlface.com/tr/seo/teknik-seo"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "İçerik SEO",
+//           "url": "https://dgtlface.com/tr/seo/icerik-seo"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Yerel SEO",
+//           "url": "https://dgtlface.com/tr/seo/yerel-seo"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Backlink & Dijital Otorite Yönetimi",
+//           "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "SEO Raporlama & Performans Analizi",
+//           "url": "https://dgtlface.com/tr/seo/seo-raporlama"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/seo/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "SEO Hizmetleri",
+//           "item": "https://dgtlface.com/tr/seo"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/seo/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE SEO hizmetleri neleri kapsar?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE; teknik SEO, içerik SEO, yerel SEO, backlink yönetimi ve SEO raporlama süreçlerini kapsayan uçtan uca SEO hizmetleri sunar."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "SEO sonuçları ne kadar sürede görülür?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Sektör ve rekabete göre değişmekle birlikte genellikle 3–6 ay arasında anlamlı hareketlenmeler, 6–12 ay aralığında ise daha büyük ölçekli sonuçlar görülmeye başlar."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Oteller için SEO nasıl farklı işler?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Oteller için SEO; destinasyon aramaları, çok dilli yapı, OTA rekabeti ve rezervasyon odaklı içerik stratejisini içerir. DGTLFACE bu alanları otelinizin ticari hedefleriyle uyumlu şekilde kurgular."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 
 
 
 
-const Page = () => {
+const Page = ({ params }) => {
+  const { locale } = params;
+
    const t = useTranslations("Seo");
     const t2 = useTranslations("Seo.h4Section");
+
+    const base = getBaseUrl();
+
+    const pageUrl =
+    locale === "tr"
+      ? `${base}/tr/seo`
+      : `${base}/en/seo-search-engine-optimization`;
+
+  // ✅ sayfada render edilen 5 FAQ ile birebir
+  const faqItems = Array.from({ length: 5 }, (_, i) => {
+    const idx = i + 1;
+    return {
+      question: t(`faqs.question${idx}`),
+      answer: t(`faqs.answer${idx}`),
+    };
+  });
+
+  // ✅ StepSection'daki 5 alt servis linki (routing.js ile uyumlu)
+  const serviceItems = [
+    { name: "Technical SEO", url: `${base}/${locale}${locale === "tr" ? "/seo/teknik-seo" : "/seo/technical-seo"}` },
+    { name: "Content SEO",   url: `${base}/${locale}${locale === "tr" ? "/seo/icerik-seo" : "/seo/on-page-seo"}` },
+    { name: "Local SEO",     url: `${base}/${locale}${locale === "tr" ? "/seo/yerel-seo" : "/seo/local-seo"}` },
+    { name: "Backlink SEO",  url: `${base}/${locale}${locale === "tr" ? "/seo/backlink-yonetimi" : "/seo/backlink-seo"}` },
+    { name: "SEO Reporting", url: `${base}/${locale}${locale === "tr" ? "/seo/seo-raporlama" : "/seo/seo-reporting"}` },
+  ];
+
+  const jsonLd = buildDepartmentJsonLd({
+    locale,
+    pageUrl,
+    pageName: `${stripHtml(t("seo_banner_header"))}${stripHtml(t("seo_banner_span"))} | DGTLFACE`,
+    pageDescription: stripHtml(t("seo_banner_text")).slice(0, 300),
+    serviceName:
+      locale === "tr"
+        ? "Profesyonel SEO Hizmetleri – Teknik, Yerel ve İçerik SEO"
+        : "SEO Services – Technical, Local and Content SEO",
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+    breadcrumbName: "SEO",
+    faqItems,
+    serviceItems,
+  });
+
 
       const faqs = [
     {
@@ -398,13 +442,16 @@ const Page = () => {
     "/seo/seo-raporlama"
   ][i-1]
 }));
+
+
+
   return (
   <>
    {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
       

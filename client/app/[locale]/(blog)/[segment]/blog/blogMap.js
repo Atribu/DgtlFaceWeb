@@ -54,7 +54,8 @@ export const BLOG_MAP = {
     "kampanya-gorsel-setleri-ve-a-b-testleri-performans-odakli-tasarim":"BlogKampanyaGorselSetleriVeABTestleriPerformansOdakliTasarim",
 
     "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri",
-    "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi"
+    "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi",
+    "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe"
   },
 
        callcenter: {

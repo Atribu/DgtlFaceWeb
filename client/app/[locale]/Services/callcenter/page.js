@@ -5,7 +5,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import RichTextSpan from '../../components/common/RichTextSpan'
@@ -16,6 +16,7 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -90,238 +91,245 @@ export async function generateMetadata({ params }) {
 }
 
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle oteller ve markalar için rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunan bir teknoloji ve operasyon partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/#webpage",
-      "url": "https://dgtlface.com/tr/cagri-merkezi",
-      "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE",
-      "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "çağrı merkezi hizmeti",
-        "çok dilli çağrı merkezi",
-        "rezervasyon çağrı merkezi",
-        "otel çağrı merkezi",
-        "turizm çağrı merkezi",
-        "multichannel müşteri hizmetleri"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/#service",
-      "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi",
-      "url": "https://dgtlface.com/tr/cagri-merkezi",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "çağrı merkezi hizmeti, çok dilli çağrı merkezi, rezervasyon çağrı merkezi, sosyal medya mesaj yönetimi, satış sonrası destek, çağrı merkezi performans analizi",
-      "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle oteller ve markalar için rezervasyon, satış sonrası destek, sosyal medya mesaj yönetimi ve performans analizi sunar. 4 dilde (TR–EN–DE–RU) inbound/outbound destek sağlar ve PMS–OTA entegrasyonlu rezervasyon süreçleriyle çalışır.",
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "çağrı merkezi hizmeti",
-        "çok dilli çağrı merkezi",
-        "müşteri destek merkezi",
-        "rezervasyon çağrı merkezi",
-        "inbound call center",
-        "outbound call center",
-        "çok dilli çağrı merkezi hizmeti nedir",
-        "oteller için çağrı merkezi yönetimi",
-        "rezervasyon satış destek hattı",
-        "sosyal medya mesaj yönetimi çağrı merkezi",
-        "müşteri şikayet yönetimi nasıl yapılır",
-        "oteller için rezervasyon telefonu",
-        "whatsapp destek merkezi",
-        "instagram dm yönetimi",
-        "çağrı merkezi raporlama sistemi",
-        "otel satış sonrası operasyon yönetimi",
-        "çağrı karşılama script örnekleri",
-        "oteller için çok kanallı müşteri yönetimi",
-        "online rezervasyon çağrı destek",
-        "multi-channel müşteri hizmetleri",
-        "otel çağrı merkezi",
-        "turizm çağrı merkezi",
-        "resort müşteri destek",
-        "otel rezervasyon destek hattı",
-        "çağrı merkezi antalya",
-        "antalya otel destek merkezi",
-        "müşteri hizmetleri türkiye",
-        "antalya rezervasyon merkezi"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/#services-list",
-      "name": "DGTLFACE Çağrı Merkezi Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "4 Dilli Çağrı Merkezi",
-          "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
-        },
-        {
-          "@type": "Service",
-          "name": "Rezervasyon Desteği (Otel)",
-          "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
-        },
-        {
-          "@type": "Service",
-          "name": "Sosyal Medya Mesaj Yönetimi",
-          "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
-        },
-        {
-          "@type": "Service",
-          "name": "Satış Sonrası Destek",
-          "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
-        },
-        {
-          "@type": "Service",
-          "name": "Performans Analizi & Raporlama",
-          "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Çağrı Merkezi Hizmetleri",
-          "item": "https://dgtlface.com/tr/cagri-merkezi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "DGTLFACE hangi kanallarda çağrı merkezi hizmeti veriyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Telefon (inbound/outbound), WhatsApp, Instagram DM, Facebook mesajları, web chat ve OTA mesaj kanalları üzerinden hizmet veriyoruz. Projenin ihtiyacına göre aktif kanalları birlikte belirliyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Çağrı merkezi sadece oteller için mi, diğer sektörler de olabilir mi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odak noktamız otel ve turizm olmakla birlikte; hizmet, e-ticaret, B2B ve farklı sektörler için de çağrı merkezi, mesaj yönetimi ve satış sonrası destek hizmetleri sunabiliyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece rezervasyon hattı için çalışabilir miyiz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Sadece otel rezervasyon çağrı merkezi veya sadece sosyal medya mesaj yönetimi gibi tekil hizmetler için de bizimle çalışabilirsiniz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Çağrı merkezi performansını nasıl raporluyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Çağrı sayıları, cevaplanma oranları, bekleme süreleri, satış/rezervasyon oranları, kanal kırılımları ve ajan bazlı KPI’ları içeren detaylı raporlar hazırlıyor; çoğu projede bu verileri Looker Studio dashboard’ları ile görselleştiriyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "DGTLFACE ile çağrı merkezi projesine nasıl başlanıyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Öncelikle ihtiyaç ve hedeflerinizi konuştuğumuz bir analiz toplantısı yapıyoruz. Kanallar, diller, çalışma saatleri, ekip büyüklüğü ve KPI’ları netleştirdikten sonra; senaryo & script geliştirme, teknik kurulum, eğitim ve pilot dönem adımlarını planlıyoruz."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle oteller ve markalar için rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunan bir teknoloji ve operasyon partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//        "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/#webpage",
+//       "url": "https://dgtlface.com/tr/cagri-merkezi",
+//       "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE",
+//       "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "çağrı merkezi hizmeti",
+//         "çok dilli çağrı merkezi",
+//         "rezervasyon çağrı merkezi",
+//         "otel çağrı merkezi",
+//         "turizm çağrı merkezi",
+//         "multichannel müşteri hizmetleri"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/#service",
+//       "name": "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi",
+//       "url": "https://dgtlface.com/tr/cagri-merkezi",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "çağrı merkezi hizmeti, çok dilli çağrı merkezi, rezervasyon çağrı merkezi, sosyal medya mesaj yönetimi, satış sonrası destek, çağrı merkezi performans analizi",
+//       "description": "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle oteller ve markalar için rezervasyon, satış sonrası destek, sosyal medya mesaj yönetimi ve performans analizi sunar. 4 dilde (TR–EN–DE–RU) inbound/outbound destek sağlar ve PMS–OTA entegrasyonlu rezervasyon süreçleriyle çalışır.",
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "çağrı merkezi hizmeti",
+//         "çok dilli çağrı merkezi",
+//         "müşteri destek merkezi",
+//         "rezervasyon çağrı merkezi",
+//         "inbound call center",
+//         "outbound call center",
+//         "çok dilli çağrı merkezi hizmeti nedir",
+//         "oteller için çağrı merkezi yönetimi",
+//         "rezervasyon satış destek hattı",
+//         "sosyal medya mesaj yönetimi çağrı merkezi",
+//         "müşteri şikayet yönetimi nasıl yapılır",
+//         "oteller için rezervasyon telefonu",
+//         "whatsapp destek merkezi",
+//         "instagram dm yönetimi",
+//         "çağrı merkezi raporlama sistemi",
+//         "otel satış sonrası operasyon yönetimi",
+//         "çağrı karşılama script örnekleri",
+//         "oteller için çok kanallı müşteri yönetimi",
+//         "online rezervasyon çağrı destek",
+//         "multi-channel müşteri hizmetleri",
+//         "otel çağrı merkezi",
+//         "turizm çağrı merkezi",
+//         "resort müşteri destek",
+//         "otel rezervasyon destek hattı",
+//         "çağrı merkezi antalya",
+//         "antalya otel destek merkezi",
+//         "müşteri hizmetleri türkiye",
+//         "antalya rezervasyon merkezi"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/#services-list",
+//       "name": "DGTLFACE Çağrı Merkezi Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "4 Dilli Çağrı Merkezi",
+//           "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Rezervasyon Desteği (Otel)",
+//           "url": "https://dgtlface.com/tr/cagri-merkezi/rezervasyon-destegi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Sosyal Medya Mesaj Yönetimi",
+//           "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Satış Sonrası Destek",
+//           "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Performans Analizi & Raporlama",
+//           "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Çağrı Merkezi Hizmetleri",
+//           "item": "https://dgtlface.com/tr/cagri-merkezi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE hangi kanallarda çağrı merkezi hizmeti veriyor?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Telefon (inbound/outbound), WhatsApp, Instagram DM, Facebook mesajları, web chat ve OTA mesaj kanalları üzerinden hizmet veriyoruz. Projenin ihtiyacına göre aktif kanalları birlikte belirliyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Çağrı merkezi sadece oteller için mi, diğer sektörler de olabilir mi?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Odak noktamız otel ve turizm olmakla birlikte; hizmet, e-ticaret, B2B ve farklı sektörler için de çağrı merkezi, mesaj yönetimi ve satış sonrası destek hizmetleri sunabiliyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece rezervasyon hattı için çalışabilir miyiz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Sadece otel rezervasyon çağrı merkezi veya sadece sosyal medya mesaj yönetimi gibi tekil hizmetler için de bizimle çalışabilirsiniz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Çağrı merkezi performansını nasıl raporluyorsunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Çağrı sayıları, cevaplanma oranları, bekleme süreleri, satış/rezervasyon oranları, kanal kırılımları ve ajan bazlı KPI’ları içeren detaylı raporlar hazırlıyor; çoğu projede bu verileri Looker Studio dashboard’ları ile görselleştiriyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE ile çağrı merkezi projesine nasıl başlanıyor?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Öncelikle ihtiyaç ve hedeflerinizi konuştuğumuz bir analiz toplantısı yapıyoruz. Kanallar, diller, çalışma saatleri, ekip büyüklüğü ve KPI’ları netleştirdikten sonra; senaryo & script geliştirme, teknik kurulum, eğitim ve pilot dönem adımlarını planlıyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 const Page = () => {
+   const locale = useLocale();
+  const base = getBaseUrl();
+
    const t = useTranslations("Callcenter");
          const t2 = useTranslations("Callcenter.h4Section");
      
-               const faqs = [
-             {
-               question: t("faqs.question1"),
-               answer:
-                 t("faqs.answer1"),
-             },
-             {
-               question: t("faqs.question2"),
-               answer:
-                 t("faqs.answer2"),
-             },
-             {
-              question: t("faqs.question3"),
-               answer:
-                 t("faqs.answer3"),
-             },
-         
-             {
-             question: t("faqs.question4"),
-               answer:
-                 t("faqs.answer4"),
-             },
-         
-             {
-               question: t("faqs.question5"),
-               answer:
-                 t("faqs.answer5"),
-             },
-         
-         
-           ];
+             // ✅ generateMetadata ile birebir aynı canonical
+  const pageUrl =
+    locale === "tr"
+      ? `${base}/tr/cagri-merkezi`
+      : `${base}/en/call-center`;
+
+  // ✅ Sayfada render edilen FAQ sayısı ile JSON-LD birebir
+  const faqs = [1, 2, 3, 4, 5].map((i) => ({
+    question: t(`faqs.question${i}`),
+    answer: t(`faqs.answer${i}`),
+  }));
+
+  // ✅ StepSection linkleri ile birebir aynı URL’ler (absolute)
+  const serviceItems = [
+    { name: stripHtml(t("callcenter_services_title1")), url: `${pageUrl}/4-dilli-cagri-merkezi` },
+    { name: stripHtml(t("callcenter_services_title2")), url: `${pageUrl}/rezervasyon-destegi` },
+    { name: stripHtml(t("callcenter_services_title3")), url: `${pageUrl}/mesaj-yonetimi` },
+    { name: stripHtml(t("callcenter_services_title4")), url: `${pageUrl}/satis-sonrasi-destek` },
+    { name: stripHtml(t("callcenter_services_title5")), url: `${pageUrl}/performans-analizi` },
+  ];
+
+  const jsonLd = buildDepartmentJsonLd({
+    locale,
+    pageUrl,
+    pageName:
+      locale === "tr"
+        ? "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE"
+        : "Call Center Services | DGTLFACE",
+    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
+    serviceName: locale === "tr" ? "Çağrı Merkezi Hizmetleri" : "Call Center Services",
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+    breadcrumbName: locale === "tr" ? "Çağrı Merkezi" : "Call Center",
+    faqItems: faqs,
+    serviceItems,
+  });
          
             const items = [
                 {
@@ -427,7 +435,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>

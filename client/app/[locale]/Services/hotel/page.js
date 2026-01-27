@@ -5,7 +5,7 @@ import StepSection from '../../components/subPageComponents/StepSection'
 import QuestionsSection from '../../components/subPageComponents/QuestionsSection'
 import VerticalSlider from '../../components/subPageComponents/VerticalSlider'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '../../components/common/AiAnswerBlock'
 import RichTextSpan from '../../components/common/RichTextSpan'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
@@ -15,6 +15,8 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -282,10 +284,49 @@ const homeJsonLd = {
 
 
 const Page = () => {
-  
+  const locale = useLocale();
+const base = getBaseUrl();
+
   const t = useTranslations("Hotel");
      const t2 = useTranslations("Hotel.h4Section");
       
+     // ✅ generateMetadata ile birebir canonical
+const pageUrl =
+  locale === "tr"
+    ? `${base}/tr/otel`
+    : `${base}/en/hotel`;
+
+// ✅ UI’de render edilen FAQ ile birebir
+const faqsLd = [1, 2, 3, 4, 5].map((i) => ({
+  question: t(`faqs.question${i}`),
+  answer: t(`faqs.answer${i}`),
+}));
+
+// ✅ StepSection buttonLink’leri ile birebir (absolute)
+const serviceItems = [
+  { name: stripHtml(t("hotel_services_title1")), url: `${pageUrl}/seo` },
+  { name: stripHtml(t("hotel_services_title2")), url: `${pageUrl}/sosyal-medya` },
+  { name: stripHtml(t("hotel_services_title3")), url: `${pageUrl}/reklam-yonetimi` },
+  { name: stripHtml(t("hotel_services_title4")), url: `${pageUrl}/ota-yonetimi` },
+  { name: stripHtml(t("hotel_services_title5")), url: `${pageUrl}/pms-entegrasyonu` },
+  { name: stripHtml(t("hotel_services_title6")), url: `${pageUrl}/cagri-merkezi` },
+];
+
+const jsonLd = buildDepartmentJsonLd({
+  locale,
+  pageUrl,
+  pageName:
+    locale === "tr"
+      ? "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE"
+      : "Hotel Digital Marketing & Transformation Services | DGTLFACE",
+  pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
+  serviceName: locale === "tr" ? "Otel Dijital Pazarlama & Dönüşüm Hizmetleri" : "Hotel Digital Marketing & Transformation",
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  breadcrumbName: locale === "tr" ? "Otel" : "Hotel",
+  faqItems: faqsLd,
+  serviceItems,
+});
+
                 const faqs = [
               {
                 question: t("faqs.question1"),
@@ -423,7 +464,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
 
@@ -466,7 +507,7 @@ const Page = () => {
 
 
         <VerticalSlider2 page="Hotel" itemCount={4}/>
-      <QuestionsSection color="#140F25"/>
+     <QuestionsSection2 color="#140F25" faqs={faqs}/>
       <Contact/>
       <AiSourceMention text={t("aiSourceMention")}/>
     </div>

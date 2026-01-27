@@ -183,10 +183,10 @@ export const seoConfig = {
   //---------------------------------------------------------
 
   // SEM Alt Sayfaları
-  "/Services/sem/googleWebtools": { // TR Slug: /antalya-sem/google-web-araclari
+  "/Services/sem/remarketingDisplay": { // TR Slug: /antalya-sem/google-web-araclari
     tr: {
-      title: "Antalya Google Web Araçları Optimizasyonu | Search Console & Analytics",
-      description: "Google Search Console, Analytics ve Tag Manager kurulumu ve optimizasyonu ile site performansınızı en üst düzeye çıkarın.",
+      title: "Remarketing & Display Reklam Yönetimi – Yeniden Hedefleme Uzmanlığı | DGTLFACE",
+      description: "DGTLFACE, remarketing ve display kampanyalarınızla daha önce ilgi göstermiş kullanıcıları geri kazanır. Yeniden hedefleme stratejileriyle dönüşümlerinizi artırın.",
     },
     en: {
       title: "Antalya Google Web Tools Optimization | Search Console & Analytics",
@@ -194,10 +194,10 @@ export const seoConfig = {
     },
    
   },
-  "/Services/sem/yandexAdvertising": { // TR Slug: /antalya-sem/yandex-reklamlari
+  "/Services/sem/performanceAnalysis": { 
     tr: {
-      title: "Antalya Yandex Reklam Yönetimi | Hedef Odaklı Rusya Pazarı Erişimi",
-      description: "Yandex Direct ve diğer Yandex araçları ile Rusya pazarında yüksek dönüşümlü reklam kampanyaları oluşturun.",
+      title: "Reklam Performans Raporlama – Veri Odaklı SEM Analizi | DGTLFACE",
+      description: "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.",
     },
     en: {
       title: "Antalya Yandex Advertising Management | Targeted Russia Market Access",
@@ -216,7 +216,7 @@ export const seoConfig = {
     },
   
   },
-  "/Services/sem/webTraffic": { // TR Slug: /antalya-sem/web-trafik-takibi
+  "/Services/sem/tagManager": { // TR Slug: /antalya-sem/web-trafik-takibi
     tr: {
       title: "Antalya Web Trafiği Takibi ve Analizi | Kaynak Bazlı Raporlama",
       description: "Web sitenize gelen trafiği derinlemesine analiz ederek hangi kanalın daha etkili olduğunu belirleyin.",

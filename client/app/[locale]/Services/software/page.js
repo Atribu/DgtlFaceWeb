@@ -16,6 +16,7 @@ import AutoBreadcrumbsWhite from '../../components/common/AutoBreadcrumbsWhite'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 import { getSeoData } from "@/app/lib/seo-utils";
+import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
@@ -82,235 +83,259 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE; Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştiren, oteller ve markalar için özel yazılım, CMS, sunucu yönetimi ve KVKK uyum hizmetleri sunan bir dijital pazarlama ve teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-     "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/yazilim/#webpage",
-      "url": "https://dgtlface.com/tr/yazilim",
-      "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE",
-      "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Özel yazılım, CMS, sunucu güvenliği, KVKK uyumu ve bakım & destek hizmetleri sunar.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb"
-      },
-      "about": [
-        "web yazılım ajansı",
-        "Next.js geliştirme",
-        "React web geliştirme",
-        "kurumsal web tasarımı",
-        "otel web sitesi geliştirme",
-        "PMS uyumlu web geliştirme",
-        "çok dilli web sitesi geliştirme",
-        "web performans optimizasyonu"
-      ]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/yazilim/#service",
-      "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React",
-      "url": "https://dgtlface.com/tr/yazilim",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "web yazılım ajansı, web sitesi geliştirme, Next.js geliştirme, React web geliştirme, kurumsal web tasarımı, otel web sitesi geliştirme",
-      "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Oteller ve kurumsal markalar için çok dilli web siteleri, rezervasyon modülleri, CMS panelleri, KVKK uyumlu altyapılar, sunucu güvenliği ve bakım & destek hizmetleri sunar.",
-      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "web yazılım ajansı",
-        "web sitesi geliştirme",
-        "yazılım ajansı",
-        "next.js geliştirme",
-        "react web geliştirme",
-        "kurumsal web tasarımı",
-        "next.js seo uyumlu web sitesi",
-        "react ile web sitesi nasıl yapılır",
-        "hızlı web sitesi geliştirme",
-        "seo uyumlu web tasarımı nasıl olmalı",
-        "otel web sitesi tasarımı",
-        "pms uyumlu web geliştirme",
-        "turizm web yazılımı",
-        "rezervasyon modülü web geliştirme",
-        "cms paneli nasıl kurulur",
-        "çok dilli web sitesi geliştirme",
-        "web sitesi mobil uyumluluk testi",
-        "web performans optimizasyonu",
-        "web yazılım antalya",
-        "antalya web tasarım ajansı",
-        "yazılım geliştirme türkiye",
-        "antalya react developer"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/yazilim/#services-list",
-      "name": "DGTLFACE Web & Yazılım Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "Web Sitesi Geliştirme",
-          "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
-        },
-        {
-          "@type": "Service",
-          "name": "CMS & Panel Entegrasyonu",
-          "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
-        },
-        {
-          "@type": "Service",
-          "name": "KVKK Uyumlu Web Çözümleri",
-          "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
-        },
-        {
-          "@type": "Service",
-          "name": "Sunucu Yönetimi & Web Güvenliği",
-          "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
-        },
-        {
-          "@type": "Service",
-          "name": "Web Sitesi Bakım & Teknik Destek",
-          "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Web & Yazılım Hizmetleri",
-          "item": "https://dgtlface.com/tr/yazilim"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/yazilim/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Yeni bir web sitesi projesine başlarken süreç nasıl işliyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Öncelikle mevcut durum ve hedeflerinizi anlamak için analiz ve keşif toplantısı yapıyoruz. Ardından bilgi mimarisi, tasarım dili, teknoloji seçimi, çok dilli yapı, SEO ve entegrasyon ihtiyaçlarını içeren bir yol haritası hazırlıyoruz. Onay sonrası tasarım, geliştirme, test, yayın ve bakım aşamalarını yönetiyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece tasarım mı yapıyorsunuz, yoksa yazılım ve sunucu tarafını da siz mi yönetiyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE, tasarım, frontend, backend, sunucu, güvenlik ve bakım süreçlerini uçtan uca yönetebilen bir ekip olarak çalışır. İsterseniz sadece belirli katmanlarda da destek olabiliriz; ancak en sağlıklı sonuçlar tüm katmanları aynı ekibin yönettiği projelerde elde edilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Web sitem SEO uyumlu olacak mı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Web ve yazılım projelerimizde teknik SEO uyumu temel şarttır. Site mimarisi, URL yapısı, meta alanları, schema, çok dilli yapı ve performans optimizasyonu SEO ekibiyle birlikte planlanır ve uygulanır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Mevcut web sitemi tamamen yenilemek zorunda mıyım?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Her zaman değil. Önce mevcut sitenizi teknik, tasarım ve kullanıcı deneyimi açısından analiz ediyoruz. Kimi projelerde kısmi revizyonlar yeterli olurken, bazılarında Next.js tabanlı yeni bir yapı daha mantıklı olabilir. Kararı veriye ve hedeflerinize göre birlikte alıyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Bakım ve destek sürecinde neler yapıyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bakım ve destek kapsamında düzenli güvenlik güncellemeleri, performans iyileştirmeleri, içerik ve görsel güncellemeleri, hata tespiti ve çözümü, uptime takibi ve küçük geliştirmeler gibi süreçleri sürekli olarak yönetiyoruz."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE; Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştiren, oteller ve markalar için özel yazılım, CMS, sunucu yönetimi ve KVKK uyum hizmetleri sunan bir dijital pazarlama ve teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//      "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/yazilim/#webpage",
+//       "url": "https://dgtlface.com/tr/yazilim",
+//       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE",
+//       "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Özel yazılım, CMS, sunucu güvenliği, KVKK uyumu ve bakım & destek hizmetleri sunar.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb"
+//       },
+//       "about": [
+//         "web yazılım ajansı",
+//         "Next.js geliştirme",
+//         "React web geliştirme",
+//         "kurumsal web tasarımı",
+//         "otel web sitesi geliştirme",
+//         "PMS uyumlu web geliştirme",
+//         "çok dilli web sitesi geliştirme",
+//         "web performans optimizasyonu"
+//       ]
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/yazilim/#service",
+//       "name": "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React",
+//       "url": "https://dgtlface.com/tr/yazilim",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "web yazılım ajansı, web sitesi geliştirme, Next.js geliştirme, React web geliştirme, kurumsal web tasarımı, otel web sitesi geliştirme",
+//       "description": "DGTLFACE, Next.js ve React teknolojileriyle yüksek hızlı, güvenli ve SEO uyumlu web siteleri geliştirir. Oteller ve kurumsal markalar için çok dilli web siteleri, rezervasyon modülleri, CMS panelleri, KVKK uyumlu altyapılar, sunucu güvenliği ve bakım & destek hizmetleri sunar.",
+//       "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "web yazılım ajansı",
+//         "web sitesi geliştirme",
+//         "yazılım ajansı",
+//         "next.js geliştirme",
+//         "react web geliştirme",
+//         "kurumsal web tasarımı",
+//         "next.js seo uyumlu web sitesi",
+//         "react ile web sitesi nasıl yapılır",
+//         "hızlı web sitesi geliştirme",
+//         "seo uyumlu web tasarımı nasıl olmalı",
+//         "otel web sitesi tasarımı",
+//         "pms uyumlu web geliştirme",
+//         "turizm web yazılımı",
+//         "rezervasyon modülü web geliştirme",
+//         "cms paneli nasıl kurulur",
+//         "çok dilli web sitesi geliştirme",
+//         "web sitesi mobil uyumluluk testi",
+//         "web performans optimizasyonu",
+//         "web yazılım antalya",
+//         "antalya web tasarım ajansı",
+//         "yazılım geliştirme türkiye",
+//         "antalya react developer"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/yazilim/#services-list",
+//       "name": "DGTLFACE Web & Yazılım Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "Web Sitesi Geliştirme",
+//           "url": "https://dgtlface.com/tr/yazilim/web-sitesi-gelistirme"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "CMS & Panel Entegrasyonu",
+//           "url": "https://dgtlface.com/tr/yazilim/cms-entegrasyonu"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "KVKK Uyumlu Web Çözümleri",
+//           "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Sunucu Yönetimi & Web Güvenliği",
+//           "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Web Sitesi Bakım & Teknik Destek",
+//           "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/yazilim/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Web & Yazılım Hizmetleri",
+//           "item": "https://dgtlface.com/tr/yazilim"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/yazilim/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Yeni bir web sitesi projesine başlarken süreç nasıl işliyor?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Öncelikle mevcut durum ve hedeflerinizi anlamak için analiz ve keşif toplantısı yapıyoruz. Ardından bilgi mimarisi, tasarım dili, teknoloji seçimi, çok dilli yapı, SEO ve entegrasyon ihtiyaçlarını içeren bir yol haritası hazırlıyoruz. Onay sonrası tasarım, geliştirme, test, yayın ve bakım aşamalarını yönetiyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece tasarım mı yapıyorsunuz, yoksa yazılım ve sunucu tarafını da siz mi yönetiyorsunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE, tasarım, frontend, backend, sunucu, güvenlik ve bakım süreçlerini uçtan uca yönetebilen bir ekip olarak çalışır. İsterseniz sadece belirli katmanlarda da destek olabiliriz; ancak en sağlıklı sonuçlar tüm katmanları aynı ekibin yönettiği projelerde elde edilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Web sitem SEO uyumlu olacak mı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Web ve yazılım projelerimizde teknik SEO uyumu temel şarttır. Site mimarisi, URL yapısı, meta alanları, schema, çok dilli yapı ve performans optimizasyonu SEO ekibiyle birlikte planlanır ve uygulanır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Mevcut web sitemi tamamen yenilemek zorunda mıyım?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Her zaman değil. Önce mevcut sitenizi teknik, tasarım ve kullanıcı deneyimi açısından analiz ediyoruz. Kimi projelerde kısmi revizyonlar yeterli olurken, bazılarında Next.js tabanlı yeni bir yapı daha mantıklı olabilir. Kararı veriye ve hedeflerinize göre birlikte alıyoruz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Bakım ve destek sürecinde neler yapıyorsunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Bakım ve destek kapsamında düzenli güvenlik güncellemeleri, performans iyileştirmeleri, içerik ve görsel güncellemeleri, hata tespiti ve çözümü, uptime takibi ve küçük geliştirmeler gibi süreçleri sürekli olarak yönetiyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
-const Page = () => {
+const Page = ({ params }) => {
   const t = useTranslations("Software");
       const t2 = useTranslations("Software.h4Section");
+       const { locale } = params;
   
-            const faqs = [
-          {
-            question: t("faqs.question1"),
-            answer:
-              t("faqs.answer1"),
-          },
-          {
-            question: t("faqs.question2"),
-            answer:
-              t("faqs.answer2"),
-          },
-          {
-           question: t("faqs.question3"),
-            answer:
-              t("faqs.answer3"),
-          },
-      
-          {
-          question: t("faqs.question4"),
-            answer:
-              t("faqs.answer4"),
-          },
-      
-          {
-            question: t("faqs.question5"),
-            answer:
-              t("faqs.answer5"),
-          },
-      
-      
+            const base = getBaseUrl();
+
+  // ✅ canonical ile birebir
+  const pageUrl =
+    locale === "tr"
+      ? `${base}/tr/yazilim`
+      : `${base}/en/software-development`;
+
+  // ✅ Sayfada render ettiğin 5 FAQ -> JSON-LD de 5 olmalı
+  const faqs = [
+    { question: t("faqs.question1"), answer: t("faqs.answer1") },
+    { question: t("faqs.question2"), answer: t("faqs.answer2") },
+    { question: t("faqs.question3"), answer: t("faqs.answer3") },
+    { question: t("faqs.question4"), answer: t("faqs.answer4") },
+    { question: t("faqs.question5"), answer: t("faqs.answer5") },
+  ];
+
+  // ✅ Alt servis URL’leri: senin buttonLink’lerle aynı mantık
+  // ÖNEMLİ: EN’de alt sayfalar farklı path kullanıyorsa burayı ona göre değiştir.
+  const serviceItems =
+    locale === "tr"
+      ? [
+          { name: stripHtml(t("software_services_title1")), url: `${base}/tr/yazilim/web-sitesi-gelistirme` },
+          { name: stripHtml(t("software_services_title2")), url: `${base}/tr/yazilim/cms-entegrasyonu` },
+          { name: stripHtml(t("software_services_title3")), url: `${base}/tr/yazilim/kvkk-uyum-hizmeti` },
+          { name: stripHtml(t("software_services_title4")), url: `${base}/tr/yazilim/sunucu-guvenlik` },
+          { name: stripHtml(t("software_services_title5")), url: `${base}/tr/yazilim/bakim-ve-destek` },
+        ]
+      : [
+          // Eğer EN child route’lar TR ile aynı değilse:
+          // ör: /en/software-development/website-development gibi
+          { name: stripHtml(t("software_services_title1")), url: `${base}/en/software-development/web-site-development` },
+          { name: stripHtml(t("software_services_title2")), url: `${base}/en/software-development/cms-integration` },
+          { name: stripHtml(t("software_services_title3")), url: `${base}/en/software-development/gdpr-cookie-consent` },
+          { name: stripHtml(t("software_services_title4")), url: `${base}/en/software-development/server-security` },
+          { name: stripHtml(t("software_services_title5")), url: `${base}/en/software-development/maintenance-support` },
         ];
-      
+
+  const jsonLd = buildDepartmentJsonLd({
+    locale,
+    pageUrl,
+    pageName:
+      locale === "tr"
+        ? "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE"
+        : "Web Design & Custom Software Development – Next.js & React | DGTLFACE",
+    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
+    serviceName:
+      locale === "tr"
+        ? "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React"
+        : "Web Design & Custom Software Development – Next.js & React",
+    serviceDescription: stripHtml(t("aiAnswerBlock")),
+    breadcrumbName: locale === "tr" ? "Web & Yazılım Hizmetleri" : "Software Development",
+    faqItems: faqs,
+    serviceItems,
+  });
          const items = [
              {
                title: t("h2Section.title1"),
@@ -415,7 +440,7 @@ const Page = () => {
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
     <div className='flex flex-col items-center justify-center gap-[30px] md:gap-[45px] lg:gap-[60px] overflow-hidden'>
