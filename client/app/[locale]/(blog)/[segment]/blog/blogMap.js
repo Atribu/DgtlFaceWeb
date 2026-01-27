@@ -43,7 +43,8 @@ export const BLOG_MAP = {
     "otel-ve-turizm-web-siteleri-icin-donusum-odakli-ux-ve-rezervasyon-funneli":"BlogOtelVeTurizmWebSiteleriIcinDonusumOdakliUXVeRezervasyonFunneli",
 
     "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi",
-    "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi"
+    "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi",
+    "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":"BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",

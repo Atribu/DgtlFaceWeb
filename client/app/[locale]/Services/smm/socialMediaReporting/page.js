@@ -5,7 +5,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
@@ -156,10 +156,9 @@ const homeJsonLd = {
   ]
 }
 
-const Page = () => {
-   const t = useTranslations("SmmAnalyticsReporting");
-
-    const t2 = useTranslations("SmmAnalyticsReporting.h4Section");
+export default async function Page({ params: { locale } }) {
+       const t = await getTranslations({ locale, namespace: "SmmAnalyticsReporting" });
+  const t2 = await getTranslations({ locale, namespace: "SmmAnalyticsReporting.h4Section" });
         
            const stepData = [1,2,3].map(i => ({
              id: i,
@@ -270,4 +269,3 @@ const Page = () => {
   )
 }
 
-export default Page

@@ -1,18 +1,17 @@
-import StepSection2New from '@/app/[locale]/components/subPageComponents/StepSection2New'
-import SubBanner from '@/app/[locale]/components/subPageComponents/SubBanner'
-import VerticalSlider from '@/app/[locale]/components/subPageComponents/VerticalSlider'
-import React from 'react'
+import { getTranslations } from "next-intl/server";
+import SubBanner from "@/app/[locale]/components/subPageComponents/SubBanner";
+import AutoBreadcrumbs from "@/app/[locale]/components/common/AutoBreadcrumbs";
+import { AiAnswerBlock } from "@/app/[locale]/components/common/AiAnswerBlock";
+import { AiSourceMention } from "@/app/[locale]/components/common/AiSourceMention";
+import H2LogoSection from "@/app/[locale]/components/subPageComponents/H2LogoSection";
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.webp"
-import { useTranslations } from "next-intl";
-import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
-import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
-import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
-import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
-import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
-import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+import StepSection2New from "@/app/[locale]/components/subPageComponents/StepSection2New"
+import VerticalSlider from "@/app/[locale]/components/subPageComponents/VerticalSlider"
+import QuestionsSection2 from "@/app/[locale]/components/subPageComponents/QuestionSection2"
+import LogoListSectionBlack from "@/app/[locale]/components/subPageComponents/LogoListSectionBlack"
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -154,9 +153,9 @@ const homeJsonLd = {
 }
 
 
-const Page = () => {
-   const t = useTranslations("SocialMediaContent");
-           const t2 = useTranslations("SocialMediaContent.h4Section");
+export default async function Page({ params: { locale } }) {
+   const t = await getTranslations({ locale, namespace: "SocialMediaContent" });
+  const t2 = await getTranslations({ locale, namespace: "SocialMediaContent.h4Section" });
         
            const stepData = [1,2,3,4].map(i => ({
              id: i,
@@ -267,4 +266,4 @@ const Page = () => {
   )
 }
 
-export default Page
+

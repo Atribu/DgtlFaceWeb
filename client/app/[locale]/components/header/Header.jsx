@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import LangSwitcher from "@/LangSwitcher";
@@ -14,6 +14,7 @@ import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
+import { useRouter } from "@/i18n/navigation";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -25,12 +26,16 @@ const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const dropdownRef = useRef(null);
 
+  const openTimer = useRef(null);
+  const router = useRouter();
+  
+
   const [activeService, setActiveService] = useState(null);
     // 🔹 MOBİL "Hizmetler" paneli için
     const [mobileMenuView, setMobileMenuView] = useState("main"); // "main" | "services"
 const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
-  const servicesConfig = [
+  const servicesConfig = useMemo(() => ([
      {
     key: "sem",
     label: t("search_engine_marketing"),
@@ -149,7 +154,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       { label: t("hotel_callcenter"), href: "/Services/hotel/callCenter" },
     ],
   },
-];
+]), [t]);
 
 
 
@@ -179,6 +184,12 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     setIsMounted(true);
   }, []);
 
+  useEffect(() => {
+  if (!isOpen) return;
+  // sadece ana kategorileri prefetch etmek bile çok fark eder
+  servicesConfig.forEach(s => router.prefetch(s.href));
+}, [isOpen, servicesConfig, router]);
+
   return (
     <header className="w-screen text-white fixed h-[66px] z-[999] top-0 flex items-center justify-center lg:mt-[6px] xl:mt-[7px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
@@ -194,27 +205,29 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
           <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] border border-[#547dcf] rounded-[20px]">
             <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
               <li>
-                <a
+                <Link
                   href="/"
                   className="bg-gradient-to-r hover:from-purple-500/50 hover:via-indigo-500/50 hover:to-blue-400/50 hover:bg-clip-text hover:text-transparent"
                 >
                   {t("home")}
-                </a>
+                </Link>
               </li>
 
               {/* SERVICES + MEGA DROPDOWN */}
             <li
   className="relative"
+
   onMouseEnter={() => {
+  openTimer.current = setTimeout(() => {
     setIsOpen(true);
-    if (!activeService && servicesConfig.length > 0) {
-      setActiveService(servicesConfig[0].key);
-    }
-  }}
-  onMouseLeave={() => {
-    setIsOpen(false);
-    setActiveService(null);
-  }}
+    if (!activeService) setActiveService(servicesConfig[0]?.key);
+  }, 120);
+}}
+onMouseLeave={() => {
+  clearTimeout(openTimer.current);
+  setIsOpen(false);
+  setActiveService(null);
+}}
   ref={dropdownRef}
 >
   <Link href="/Services">
@@ -290,6 +303,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
         <li key={item.href}>
           <Link
             href={item.href}
+            prefetch
             className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
           >
             {item.label}
@@ -310,24 +324,24 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 </li>
 
               <li>
-                <a href="/aboutus" className="hover:text-gray-300">
+                <Link href="/aboutus" className="hover:text-gray-300">
                   {t("about_us")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blogs" className="hover:text-gray-300">
+                <Link href="/blogs" className="hover:text-gray-300">
                   {t("blog")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-gray-300">
+                <Link href="/contact" className="hover:text-gray-300">
                   {t("contact")}
-                </a>
+                </Link>
               </li>
                    <li>
-                <a href="/sss" className="hover:text-gray-300">
+                <Link href="/sss" className="hover:text-gray-300">
                   {t("sss")}
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -482,6 +496,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
                   <Link
                     key={service.key}
                     href={service.href}
+                    prefetch
                       className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
 
                     onClick={() => setIsMenuOpen(false)}

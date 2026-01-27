@@ -27,12 +27,16 @@ export default function Footer() {
 
     // ✅ blog linkler
   const blogLinks = [
-    // { href: "/bloglar", label: t("link_about") },              
-    // { href: "/contact", label: t("link_contact") },            
-    // { href: "/faq", label: t("link_faq") ?? "SSS" },           
-    // { href: "/privacy", label: t("link_privacy_policy") },     
-    // { href: "/terms", label: t("link_terms_of_service") },    
-    // { href: "/blogs", label: t("link_blog") },
+  { id: "sem", label: "SEM Blogları", href: "/sem/bloglar" },
+  { id: "seo", label: "SEO Blogları", href: "/seo/bloglar" },
+  { id: "smm", label: "SMM Blogları", href: "/smm/bloglar" },
+  { id: "software", label: "Yazılım Blogları", href: "/yazilim/bloglar" },
+  { id: "creative", label: "Creative Blogları", href: "/creative/bloglar" },
+  { id: "callcenter", label: "Çağrı Merkezi Blogları", href: "/callcenter/bloglar" },
+  { id: "reporting", label: "Veri Analizi ve Raporlama Blogları", href: "/veri-analizi-raporlama/bloglar" },
+  { id: "pms-ota", label: "PMS-Ota Blogları", href: "/pms-ota/bloglar" },
+  { id: "hotel", label: "Otel Blogları", href: "/hotel/bloglar" },
+
   ];
 
   // ✅ 9 departman + 10. olarak "Tüm Hizmetler"
@@ -393,7 +397,24 @@ export default function Footer() {
               </div>
             </div>
 
-           {/* buraya bloglar */}
+            <div>
+              <h4 className="text-[14px] font-semibold mb-2">
+                {t("link_blog") ?? "Kurumsal"}
+              </h4>
+              <div className="grid grid-cols-2 gap-2 text-[13px]">
+                {blogLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="hover:underline"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+           
 
             {/* <Link
               href="/contact"

@@ -12,15 +12,15 @@ const GRADIENT =
 
 const BLOG_DEPARTMENTS_V2 = [
   { id: "all", label: "Tümü" },
-  { id: "sem", label: "SEM - Dijital Reklam Yönetimi", href: "/Services/sem" },
-    { id: "seo", label: "SEO - Arama Motoru Optimizasyonu", href: "/Services/seo" },
-      { id: "smm", label: "SMM - Sosyal Medya Pazarlaması", href: "/Services/smm" },
-   { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/Services/software" },
-  { id: "creative", label: "Creative", href: "/Services/creative" },
-    { id: "callcenter", label: "Çağrı Merkezi", href: "/Services/callcenter" },
-  { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/Services/pms" },
-  { id: "veri-analizi-raporlama", label: "Veri Analizi & Raporlama", href: "/Services/digitalAnalysis" },
-  { id: "hotel", label: "Otel Dijital Dönüşüm", href: "/Services/hotel" },
+  { id: "sem", label: "SEM - Dijital Reklam Yönetimi", href: "/sem/bloglar" },
+    { id: "seo", label: "SEO - Arama Motoru Optimizasyonu", href: "/seo/bloglar" },
+      { id: "smm", label: "SMM - Sosyal Medya Pazarlaması", href: "/smm/bloglar" },
+   { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/yazilim/bloglar" },
+  { id: "creative", label: "Creative", href: "/creative/bloglar" },
+    { id: "callcenter", label: "Çağrı Merkezi", href: "/callcenter/bloglar" },
+  { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/pms-ota/bloglar" },
+  { id: "veri-analizi-raporlama", label: "Veri Analizi & Raporlama", href: "/veri-analizi-raporlama/bloglar" },
+  { id: "hotel", label: "Otel Dijital Dönüşüm", href: "/hotel/bloglar" },
 ];
 
 //  mock data
@@ -218,9 +218,6 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/0" />
       <div className="absolute inset-0 bg-black/0" />
 
-      {/* Türkçe yorum: Arama overlay (yeri değişti ama aynı işlev) */}
-      
-      {/* Türkçe yorum: Sol içerik (header + text + buton) */}
       <div className="relative z-10 mx-auto flex h-full w-full xl:w-[96%] max-w-[1900px] px-4">
         <div className="flex w-full items-center">
           <div className="max-w-2xl text-left">
@@ -244,41 +241,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
-        {/* <div className="flex items-center justify-end">
-          <div className="w-full max-w-[520px]">
-            <div className="relative">
-              <input
-                ref={inputRef}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t("searchPlaceholder")}
-                className="w-full rounded-2xl border border-white/30 bg-black/50 px-4 4xl:px-5 py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
-                           focus:border-white/40 focus:bg-black/50"
-              />
-              {query.length > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setQuery("")}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-4 4xl:px-5 py-2 4xl:py-3 text-xs text-white/80 transition hover:text-white"
-                >
-                  {t("clear")}
-                </button>
-              )}
-            </div>
-            {noResults && (
-  <p className="mt-2 text-xs text-white/70">
-    “{query}” için sonuç bulunamadı. Yazımı kontrol edin ya da daha genel arayın.
-  </p>
-)}
-          </div>
-        </div>
-              <button
-                type="button"
-                onClick={() => inputRef.current?.focus()}
-                className="rounded-2xl border border-white/20 bg-white/5 px-4 4xl:px-5 py-1.5 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
-              >
-                {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
-              </button> */}
+       
 
             </div>
 
@@ -343,7 +306,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
 }
 
 
-function BlogRail({ title, posts, locale, t, GRADIENT }) {
+function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   const railRef = useRef(null);
 
   // Türkçe yorum: Rail içinde aktif görünen kartın index'i (1-based)
@@ -426,9 +389,13 @@ function BlogRail({ title, posts, locale, t, GRADIENT }) {
   return (
     <section className="mt-4 mb-10">
       <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-base lg:text-lg font-semibold text-white/90">
-          {title}
-        </h2>
+       {titleHref ? (
+          <Link href={`/${locale}${titleHref}`} className="text-base lg:text-lg font-semibold text-white/90 cursor-pointer hover:text-[#547CCF]">
+            {title} <span className="text-white/60 text-sm ml-2">→</span>
+          </Link>
+        ) : (
+          <h2 className="text-base lg:text-lg font-semibold text-white/90">{title}</h2>
+        )}
 
         {/* Türkçe yorum: sağ üst küçük oklar + scroll index */}
         <div className="hidden md:flex items-center gap-2">
@@ -643,6 +610,7 @@ const rails = useMemo(() => {
     out.push({
       id: d.id,
       title: d.label,
+       titleHref: d.href, 
       posts,
     });
   }
@@ -696,6 +664,7 @@ const heroPosts = useMemo(() => {
     t={t}
     GRADIENT={GRADIENT}
     railIndex={railIndex}
+    titleHref={r.titleHref}
   />
 ))}
  </div>

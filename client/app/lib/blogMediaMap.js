@@ -3604,6 +3604,56 @@ export const BLOG_MEDIA_MAP = {
       caption: "Yıllık plan çıktıları ve uygulanabilir deliverables setini özetleyen proof görseli"
     }
   },
+
+  "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":{
+     banner: {
+      src: "/images/blog/software/Software2-3/Software2-3-1.webp",
+      alt: "Çok Dilli CMS Tasarımı: TR–EN–DE–RU İçerikleri Tek Panelden Yönetmek",
+      caption: "Çok Dilli CMS Tasarımı: TR–EN–DE–RU İçerikleri Tek Panelden Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software2-3/Software2-3-2.webp",
+      alt: "Locale tab ve preview mantığını özetleyen görsel, kurumsal web bağlamı",
+      caption: "Locale tab ve preview mantığını özetleyen görsel, kurumsal web bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software2-3/Software2-3-3.webp",
+      alt: "Locale fields ve ayrı entry farkını anlatan görsel, otel operasyon bağlamı",
+      caption: "Locale fields ve ayrı entry farkını anlatan görsel, otel operasyon bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software2-3/Software2-3-4.webp",
+      alt: "Çeviri workflow adımlarını ayıran görsel, içerik ekipleri bağlamı",
+      caption: "Çeviri workflow adımlarını ayıran görsel, içerik ekipleri bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-3/Software2-3-5.webp",
+      alt: "Dil switcher ve preview akışını gösteren diyagram, SEO uyum bağlamı",
+      caption: "Dil switcher ve preview akışını gösteren diyagram, SEO uyum bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-3/Software2-3-6.webp",
+      alt: "Çok dilli CMS checklist kartı, editoryal operasyon bağlamı",
+      caption: "Çok dilli CMS checklist kartı, editoryal operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-3/Software2-3-7.webp",
+      alt: "Dil bazlı güncelleme hızı KPI kartı, otel ve B2B bağlamı",
+      caption: "Dil bazlı güncelleme hızı KPI kartı, otel ve B2B bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-3/Software2-3-8.webp",
+      alt: "Multilingual panel çıktıları proof kartı, kurumsal web bağlamı",
+      caption: "Multilingual panel çıktıları proof kartı, kurumsal web bağlamı"
+    }
+  },
   
 };
 
