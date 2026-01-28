@@ -249,38 +249,16 @@ const Page = () => {
   locale,
   canonicalUrl,
 
-  pageName:
-    "Remarketing ve Display Reklam Yönetimi – Dönüşüm Odaklı Yeniden Hedefleme | DGTLFACE",
+   pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+  serviceName: t("jsonld.serviceName"),
+  serviceType: t("jsonld.serviceType"),
+  keywords: t.raw("jsonld.keywords"),
 
-  pageDescription:
-    "DGTLFACE, remarketing ve display reklam yönetimiyle sitenizle daha önce etkileşime geçmiş kullanıcıları segmentlere ayırır; Google Display Network, YouTube ve Meta üzerinden dönüşüm odaklı yeniden hedefleme kurguları ile ROAS’ı artırır.",
-
-  serviceName: "Remarketing ve Display Reklam Yönetimi",
-  serviceType:
-    "Remarketing yönetimi, Google Display reklamları, yeniden hedefleme, display advertising",
-
-  keywords: [
-    "remarketing yönetimi",
-    "display reklamları",
-    "google display network",
-    "yeniden hedefleme kampanyası",
-    "remarketing nasıl yapılır",
-    "google analytics remarketing listesi",
-    "remarketing kampanya ayarları",
-    "dönüşüm hunisi remarketing",
-    "sepete terk eden kullanıcı remarketing",
-    "oteller için remarketing",
-    "turizm display reklamcılığı",
-    "display advertising stratejileri",
-  ],
-
-  breadcrumbItems: [
+ breadcrumbItems: [
     { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-    {
-      name: "SEM",
-      url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}`,
-    },
-    { name: "Remarketing & Display", url: canonicalUrl },
+    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+    { name: t("jsonld.breadcrumbName"), url: canonicalUrl }
   ],
          faqs: [
           {

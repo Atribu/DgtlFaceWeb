@@ -320,22 +320,27 @@ const Page = ({ params }) => {
         ];
 
   const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName:
-      locale === "tr"
-        ? "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React | DGTLFACE"
-        : "Web Design & Custom Software Development – Next.js & React | DGTLFACE",
-    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-    serviceName:
-      locale === "tr"
-        ? "Web Sitesi Tasarımı & Özel Yazılım Geliştirme – Next.js & React"
-        : "Web Design & Custom Software Development – Next.js & React",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName: locale === "tr" ? "Web & Yazılım Hizmetleri" : "Software Development",
-    faqItems: faqs,
-    serviceItems,
-  });
+  locale,
+  pageUrl,
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
+  faqItems: faqs,
+  serviceItems,
+
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
+
+
+
          const items = [
              {
                title: t("h2Section.title1"),

@@ -21,6 +21,8 @@ import VerticalSlider2 from '../components/subPageComponents/VerticalSlider2.jsx
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
+import { getBaseUrl, stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { buildDepartmentJsonLd } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 const OG_IMAGE = "/og/og-services.png"; // public/og/og-services.png
 
@@ -85,166 +87,213 @@ export async function generateMetadata({ params }) {
 }
 
 // ServicesPage JSON-LD (Hub / Collection Page)
-const servicesPageJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    // 1) Organization
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "logo": "https://dgtlface.com/logo.png",
-      "description":
-        "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital çözümler sunan bir teknoloji partneridir.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-      "areaServed": ["Antalya", "Türkiye", "Europe", "Belek", "Kemer", "Side", "Alanya", "Bodrum"]
-    },
+// const servicesPageJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     // 1) Organization
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "description":
+//         "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimiyle markalar ve oteller için uçtan uca dijital çözümler sunan bir teknoloji partneridir.",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": ["Antalya", "Türkiye", "Europe", "Belek", "Kemer", "Side", "Alanya", "Bodrum"]
+//     },
 
-    // 2) WebSite
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": { "@id": "https://dgtlface.com/#organization" }
-    },
+//     // 2) WebSite
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": { "@id": "https://dgtlface.com/#organization" }
+//     },
 
-    // 3) WebPage (CollectionPage olarak güçlendiriyoruz)
-    {
-      "@type": ["WebPage", "CollectionPage"],
-      "@id": "https://dgtlface.com/tr/hizmetlerimiz/#webpage",
-      "url": "https://dgtlface.com/tr/hizmetlerimiz",
-      "name": "DGTLFACE Hizmetlerimiz: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Çözümleri",
-      "description":
-        "DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimini tek çatı altında sunar; markalar ve oteller için uçtan uca dijital çözümler sağlar.",
-      "isPartOf": { "@id": "https://dgtlface.com/#website" },
-      "about": [
-        "dijital pazarlama hizmetleri",
-        "seo sem smm entegrasyonu",
-        "web ve yazılım geliştirme",
-        "otel dijital dönüşüm çözümleri",
-        "pms ota yönetimi",
-        "çok dilli çağrı merkezi",
-        "veri analizi ve raporlama"
-      ],
-      "inLanguage": "tr-TR",
-      "publisher": { "@id": "https://dgtlface.com/#organization" },
-      "breadcrumb": { "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb" },
-      // Hub sayfa olduğu için alt kümeleri “hasPart” ile ilişkilendirmek iyi olur:
-      "hasPart": [
-        { "@id": "https://dgtlface.com/tr/creative/#service" },
-        { "@id": "https://dgtlface.com/tr/callcenter/#service" },
-        { "@id": "https://dgtlface.com/tr/pms-ota/#service" },
-        { "@id": "https://dgtlface.com/tr/seo/#service" },
-        { "@id": "https://dgtlface.com/tr/sem/#service" },
-        { "@id": "https://dgtlface.com/tr/smm/#service" },
-        { "@id": "https://dgtlface.com/tr/software/#service" },
-        { "@id": "https://dgtlface.com/tr/raporlama/#service" },
-        { "@id": "https://dgtlface.com/tr/otel/#service" }
-      ]
-    },
+//     // 3) WebPage (CollectionPage olarak güçlendiriyoruz)
+//     {
+//       "@type": ["WebPage", "CollectionPage"],
+//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#webpage",
+//       "url": "https://dgtlface.com/tr/hizmetlerimiz",
+//       "name": "DGTLFACE Hizmetlerimiz: Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm Çözümleri",
+//       "description":
+//         "DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimini tek çatı altında sunar; markalar ve oteller için uçtan uca dijital çözümler sağlar.",
+//       "isPartOf": { "@id": "https://dgtlface.com/#website" },
+//       "about": [
+//         "dijital pazarlama hizmetleri",
+//         "seo sem smm entegrasyonu",
+//         "web ve yazılım geliştirme",
+//         "otel dijital dönüşüm çözümleri",
+//         "pms ota yönetimi",
+//         "çok dilli çağrı merkezi",
+//         "veri analizi ve raporlama"
+//       ],
+//       "inLanguage": "tr-TR",
+//       "publisher": { "@id": "https://dgtlface.com/#organization" },
+//       "breadcrumb": { "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb" },
+//       // Hub sayfa olduğu için alt kümeleri “hasPart” ile ilişkilendirmek iyi olur:
+//       "hasPart": [
+//         { "@id": "https://dgtlface.com/tr/creative/#service" },
+//         { "@id": "https://dgtlface.com/tr/callcenter/#service" },
+//         { "@id": "https://dgtlface.com/tr/pms-ota/#service" },
+//         { "@id": "https://dgtlface.com/tr/seo/#service" },
+//         { "@id": "https://dgtlface.com/tr/sem/#service" },
+//         { "@id": "https://dgtlface.com/tr/smm/#service" },
+//         { "@id": "https://dgtlface.com/tr/software/#service" },
+//         { "@id": "https://dgtlface.com/tr/raporlama/#service" },
+//         { "@id": "https://dgtlface.com/tr/otel/#service" }
+//       ]
+//     },
 
-    // 4) “Hizmetler” üst servisi (Service)
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/hizmetlerimiz/#service",
-      "name": "DGTLFACE Hizmet Kümeleri – Entegre Dijital Pazarlama ve Teknoloji",
-      "url": "https://dgtlface.com/tr/hizmetlerimiz",
-      "provider": { "@id": "https://dgtlface.com/#organization" },
-      "serviceType":
-        "dijital pazarlama hizmetleri, SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çağrı merkezi, PMS & OTA yönetimi, veri analizi & raporlama",
-      "areaServed": ["Antalya", "Türkiye", "Europe"],
-      "inLanguage": "tr-TR"
-    },
+//     // 4) “Hizmetler” üst servisi (Service)
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#service",
+//       "name": "DGTLFACE Hizmet Kümeleri – Entegre Dijital Pazarlama ve Teknoloji",
+//       "url": "https://dgtlface.com/tr/hizmetlerimiz",
+//       "provider": { "@id": "https://dgtlface.com/#organization" },
+//       "serviceType":
+//         "dijital pazarlama hizmetleri, SEO, SEM, sosyal medya yönetimi, web & yazılım, creative prodüksiyon, çağrı merkezi, PMS & OTA yönetimi, veri analizi & raporlama",
+//       "areaServed": ["Antalya", "Türkiye", "Europe"],
+//       "inLanguage": "tr-TR"
+//     },
 
-    // 5) Ana hizmet kümeleri listesi (ItemList)
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/hizmetlerimiz/#services-list",
-      "name": "DGTLFACE Ana Hizmet Kümeleri",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Yaratıcı & Marka Stratejisi", "url": "https://dgtlface.com/tr/creative" },
-        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi & Destek", "url": "https://dgtlface.com/tr/callcenter" },
-        { "@type": "ListItem", "position": 3, "name": "PMS & OTA Yönetimi (Turizm)", "url": "https://dgtlface.com/tr/pms-ota" },
-        { "@type": "ListItem", "position": 4, "name": "SEO (Arama Motoru Optimizasyonu)", "url": "https://dgtlface.com/tr/seo" },
-        { "@type": "ListItem", "position": 5, "name": "SEM (Performans Reklamcılığı)", "url": "https://dgtlface.com/tr/sem" },
-        { "@type": "ListItem", "position": 6, "name": "SMM (Sosyal Medya Pazarlaması)", "url": "https://dgtlface.com/tr/smm" },
-        { "@type": "ListItem", "position": 7, "name": "BT Çözümleri & Yazılım Geliştirme", "url": "https://dgtlface.com/tr/software" },
-        { "@type": "ListItem", "position": 8, "name": "Dijital Analiz & Raporlama", "url": "https://dgtlface.com/tr/raporlama" },
-        { "@type": "ListItem", "position": 9, "name": "Otel Dijital Pazarlama & Dönüşüm", "url": "https://dgtlface.com/tr/otel" }
-      ]
-    },
+//     // 5) Ana hizmet kümeleri listesi (ItemList)
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#services-list",
+//       "name": "DGTLFACE Ana Hizmet Kümeleri",
+//       "itemListElement": [
+//         { "@type": "ListItem", "position": 1, "name": "Yaratıcı & Marka Stratejisi", "url": "https://dgtlface.com/tr/creative" },
+//         { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi & Destek", "url": "https://dgtlface.com/tr/callcenter" },
+//         { "@type": "ListItem", "position": 3, "name": "PMS & OTA Yönetimi (Turizm)", "url": "https://dgtlface.com/tr/pms-ota" },
+//         { "@type": "ListItem", "position": 4, "name": "SEO (Arama Motoru Optimizasyonu)", "url": "https://dgtlface.com/tr/seo" },
+//         { "@type": "ListItem", "position": 5, "name": "SEM (Performans Reklamcılığı)", "url": "https://dgtlface.com/tr/sem" },
+//         { "@type": "ListItem", "position": 6, "name": "SMM (Sosyal Medya Pazarlaması)", "url": "https://dgtlface.com/tr/smm" },
+//         { "@type": "ListItem", "position": 7, "name": "BT Çözümleri & Yazılım Geliştirme", "url": "https://dgtlface.com/tr/software" },
+//         { "@type": "ListItem", "position": 8, "name": "Dijital Analiz & Raporlama", "url": "https://dgtlface.com/tr/raporlama" },
+//         { "@type": "ListItem", "position": 9, "name": "Otel Dijital Pazarlama & Dönüşüm", "url": "https://dgtlface.com/tr/otel" }
+//       ]
+//     },
 
-    // 6) BreadcrumbList
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
-        { "@type": "ListItem", "position": 2, "name": "Hizmetlerimiz", "item": "https://dgtlface.com/tr/hizmetlerimiz" }
-      ]
-    },
+//     // 6) BreadcrumbList
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#breadcrumb",
+//       "itemListElement": [
+//         { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+//         { "@type": "ListItem", "position": 2, "name": "Hizmetlerimiz", "item": "https://dgtlface.com/tr/hizmetlerimiz" }
+//       ]
+//     },
 
-    // 7) FAQPage (senin ServicesPage.faq alanından)
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/hizmetlerimiz/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "DGTLFACE hangi alanlarda dijital pazarlama hizmetleri sunuyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE; SEO, SEM (Google Ads & performans reklamcılığı), sosyal medya yönetimi, web & yazılım geliştirme, creative tasarım & prodüksiyon, çok dilli çağrı merkezi, PMS & OTA yönetimi ve veri analizi & raporlama alanlarında hizmet sunar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Dijital pazarlama hizmetleriniz sadece otellere mi yönelik?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Odak noktamız otel ve turizm sektörü olsa da; hizmet, sağlık, gayrimenkul ve B2B gibi farklı sektörlerde de projeler yürütüyoruz. Temel yaklaşımımız entegre, veri odaklı ve uzun vadeli büyüme modelidir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Entegre dijital pazarlama mimarisi ne demek?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "SEO, SEM, sosyal medya, web, çağrı merkezi, PMS–OTA ve raporlama gibi bileşenlerin tek bir strateji ve veri katmanı altında birlikte çalışmasıdır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece tek bir hizmet alabilir miyim? (örneğin sadece SEO veya sadece Google Ads)",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet, sadece belirli bir hizmet için de çalışabiliriz. Ancak en verimli sonuçları, birden fazla hizmetin koordineli yürütüldüğü entegre yapılarda elde ederiz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Antalya dışında da hizmet veriyor musunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Antalya merkezliyiz; Türkiye ve yurtdışında birçok marka ile tamamen online olarak toplantı, raporlama ve optimizasyon süreçlerini yürütüyoruz."
-          }
-        }
-      ]
-    }
-  ]
-};
+//     // 7) FAQPage (senin ServicesPage.faq alanından)
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/hizmetlerimiz/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE hangi alanlarda dijital pazarlama hizmetleri sunuyor?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE; SEO, SEM (Google Ads & performans reklamcılığı), sosyal medya yönetimi, web & yazılım geliştirme, creative tasarım & prodüksiyon, çok dilli çağrı merkezi, PMS & OTA yönetimi ve veri analizi & raporlama alanlarında hizmet sunar."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Dijital pazarlama hizmetleriniz sadece otellere mi yönelik?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Odak noktamız otel ve turizm sektörü olsa da; hizmet, sağlık, gayrimenkul ve B2B gibi farklı sektörlerde de projeler yürütüyoruz. Temel yaklaşımımız entegre, veri odaklı ve uzun vadeli büyüme modelidir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Entegre dijital pazarlama mimarisi ne demek?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "SEO, SEM, sosyal medya, web, çağrı merkezi, PMS–OTA ve raporlama gibi bileşenlerin tek bir strateji ve veri katmanı altında birlikte çalışmasıdır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece tek bir hizmet alabilir miyim? (örneğin sadece SEO veya sadece Google Ads)",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet, sadece belirli bir hizmet için de çalışabiliriz. Ancak en verimli sonuçları, birden fazla hizmetin koordineli yürütüldüğü entegre yapılarda elde ederiz."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Antalya dışında da hizmet veriyor musunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Antalya merkezliyiz; Türkiye ve yurtdışında birçok marka ile tamamen online olarak toplantı, raporlama ve optimizasyon süreçlerini yürütüyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// };
 
 
-const Page = () => {
+const Page = ({ params }) => {
+   const { locale } = params;
   const t = useTranslations("ServicesPage");
   const t2 = useTranslations("ServicesPage.h4Section");
+
+  const base = getBaseUrl();
+  
+  const canonicalUrl =
+    locale === "tr" ? `${base}/tr/hizmetlerimiz` : `${base}/en/services`;
+
+ const pageUrl =
+  locale === "tr"
+    ? `${base}/tr/hizmetlerimiz`
+    : `${base}/en/services`; // sende EN path neyse
+
+const faqItems = Array.from({ length: 5 }, (_, i) => {
+  const idx = i + 1;
+  return { question: t(`faq.question${idx}`), answer: t(`faq.answer${idx}`) };
+});
+
+const serviceItems = [
+  { name: "SEO", url: `${base}/${locale}${locale === "tr" ? "/seo" : "/search-engine-optimization"}` },
+  { name: "SEM", url: `${base}/${locale}/sem` },
+  { name: "SMM", url: `${base}/${locale}/smm` },
+  { name: "Software", url: `${base}/${locale}/software` },
+  { name: "Creative", url: `${base}/${locale}/creative` },
+  { name: "Call Center", url: `${base}/${locale}/callcenter` },
+  { name: "PMS & OTA", url: `${base}/${locale}/pms-ota` },
+  { name: "Hotel", url: `${base}/${locale}/hotel` },
+  { name: "Digital Analysis", url: `${base}/${locale}/digitalAnalysis` },
+];
+
+const jsonLd = buildDepartmentJsonLd({
+  locale,
+  pageUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")).slice(0, 300),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  keywords: t.raw("jsonld.keywords"),
+  breadcrumbName: t("jsonld.breadcrumbName"),
+  faqItems,
+  serviceItems,
+  aiQuestion: locale === "tr"
+    ? "DGTLFACE bu sayfada ne sunuyor?"
+    : "What does DGTLFACE offer on this page?",
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
+
 
 const renderDescription = (key) =>
   t2.rich(key, {
@@ -359,20 +408,7 @@ const cards = [
     },
   ];
 
-   const servicesData = [1,2,3,4,5].map(i => ({
-  id: i,
-  title: t(`servicesData.title${i}`),
-  subTitle: t(`servicesData.item${i}_1`),
-  text: t(`servicesData.item${i}_1`),
-  features: [1,2,3,4].map(j => t(`servicesData.item${i}_1`)),
-  buttonLink: [
-    "/Services/sem/advertisingManagement",
-    "/Services/sem/webTraffic",
-    "/Services/sem/googleWebtools",
-    "/Services/sem/yandexAdvertising",
-    "/Services/sem/googleAdsAdvertising"
-  ][i-1]
-}));
+
 
   return (
    <>
@@ -380,7 +416,7 @@ const cards = [
       <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesPageJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
     <div className='flex flex-col overflow-hidden gap-[30px] md:gap-[35px] lg:gap-[50px] items-center justify-center max-w-screen '>

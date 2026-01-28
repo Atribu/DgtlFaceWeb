@@ -237,36 +237,16 @@ const Page = () => {
          baseUrl,
          locale,
          canonicalUrl,
-        pageName:
-    "Reklam Performans Analizi ve Raporlama – Kampanyalarınızı Veriyle Yönetin | DGTLFACE",
-
-  pageDescription:
-    "DGTLFACE, reklam raporlama ve performans analizi hizmetiyle Google Ads, YouTube ve Meta Ads gibi kanalları tek panelde toplar; dönüşüm, maliyet, gelir ve ROAS metrikleriyle kampanyalarınızı veriyle yönetmenizi sağlar.",
-
-  serviceName: "Reklam Performans Analizi ve Raporlama",
-  serviceType:
-    "Reklam raporlama, performans analizi, SEM analizi, Looker Studio dashboard",
-
-  keywords: [
-    "reklam raporlama",
-    "performans analizi",
-    "SEM performans analizi",
-    "google ads raporlama",
-    "meta ads raporlama",
-    "youtube reklam raporu",
-    "looker studio dashboard",
-    "dijital reklam analizi",
-    "oteller için reklam raporlama",
-    "ROAS ve funnel analizi",
-  ],
+         pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+  serviceName: t("jsonld.serviceName"),
+  serviceType: t("jsonld.serviceType"),
+  keywords: t.raw("jsonld.keywords"),
 
   breadcrumbItems: [
     { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-    {
-      name: "SEM",
-      url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}`,
-    },
-    { name: locale === "tr" ? "Reklam Raporlama" : "Performance Analysis", url: canonicalUrl },
+    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+    { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
   ],
          faqs: [
           {

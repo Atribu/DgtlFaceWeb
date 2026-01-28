@@ -35,7 +35,11 @@ export function buildDepartmentJsonLd({
   serviceDescription,// string
   breadcrumbName,    // string (SEO, SEM vs)
   faqItems,          // [{question, answer}]
+   keywords = [],  
   serviceItems = [], // [{name, url}] -> ItemList
+   aiQuestion,  // string
+  aiAnswer,    // string (aiAnswerBlock)
+  aiSource,    // string (aiSourceMention)
 }) {
   const base = getBaseUrl();
   const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
@@ -80,6 +84,28 @@ export function buildDepartmentJsonLd({
         "isPartOf": { "@id": `${base}/#website` },
         "inLanguage": inLanguage,
         "breadcrumb": { "@id": `${pageUrl}/#breadcrumb` },
+
+        ...(keywords.length ? { "about": keywords } : {}),
+
+        // ✅ AI Answer Block'u "Question -> acceptedAnswer" olarak işaretle
+  ...(aiQuestion && aiAnswer
+    ? {
+        "mainEntity": {
+          "@type": "Question",
+          "name": stripHtml(aiQuestion),
+          "acceptedAnswer": {
+            "@type": "Answer",
+            // İstersen source'u answer text'e de ekleyebilirsin (çok net olur)
+            "text": aiSource
+              ? `${stripHtml(aiAnswer)}\n\nKaynak: ${stripHtml(aiSource)}`
+              : stripHtml(aiAnswer),
+          },
+        },
+      }
+    : {}),
+
+  // ✅ Source mention'ı sayfa düzeyinde de citation olarak ekle
+  ...(aiSource ? { "citation": [stripHtml(aiSource)] } : {}),
       },
 
       {
@@ -91,6 +117,9 @@ export function buildDepartmentJsonLd({
         "description": serviceDescription,
         "areaServed": ["Antalya", "Türkiye", "Europe", "Belek", "Kemer", "Side", "Alanya", "Bodrum"],
         "inLanguage": inLanguage,
+
+        ...(aiSource ? { "isBasedOn": [{ "@type": "CreativeWork", "name": stripHtml(aiSource) }] } : {}),
+
       },
 
       // ItemList opsiyonel (alt sayfalar gerçekten varsa açık kalsın)

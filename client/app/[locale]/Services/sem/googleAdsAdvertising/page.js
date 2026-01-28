@@ -254,21 +254,17 @@ const Page = () => {
     baseUrl,
     locale,
     canonicalUrl,
-    pageName: "Google Ads Yönetimi – Dönüşüm Odaklı Kampanya Optimizasyonu | DGTLFACE",
-    pageDescription: "DGTLFACE, Google Ads kampanyalarını satış/rezervasyon odaklı yönetir...",
-    serviceName: "Google Ads Kampanya Yönetimi",
-    serviceType: "Google Ads yönetimi, SEM, performans reklamcılığı",
-    keywords: [
-      "google ads yönetimi",
-      "google reklam ajansı",
-      "otel google ads",
-      "performans reklamcılığı",
-    ],
-    breadcrumbItems: [
-      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-      { name: locale === "tr" ? "SEM" : "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
-      { name: "Google Ads Yönetimi", url: canonicalUrl },
-    ],
+pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+  serviceName: t("jsonld.serviceName"),
+  serviceType: t("jsonld.serviceType"),
+  keywords: t.raw("jsonld.keywords"),
+
+ breadcrumbItems: [
+    { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
+    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+    { name: t("jsonld.breadcrumbName"), url: canonicalUrl }
+  ],
     faqs: [
      {
       question: t("faq.question1"),

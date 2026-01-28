@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
   const url =
     locale === "tr"
       ? `${base}/tr/smm`
-      : `${base}/en/social-media-marketing`; 
+      : `${base}/en/social-media-management`; 
 
   return {
     // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }) {
       canonical: url,
       languages: {
         tr: `${base}/tr/smm`,
-        en: `${base}/en/social-media-marketing`,
+        en: `${base}/en/social-media-management`,
       },
     },
 
@@ -272,11 +272,11 @@ const Page = ({ params }) => {
      
 const base = getBaseUrl();
 
-  // ✅ senin metadata ile birebir: TR /tr/smm, EN /en/social-media-marketing
+  // ✅ senin metadata ile birebir: TR /tr/smm, EN /en/social-media-management
   const pageUrl =
     locale === "tr"
       ? `${base}/tr/smm`
-      : `${base}/en/social-media-marketing`;
+      : `${base}/en/social-media-management`;
 
   // ✅ sayfada render ettiğin FAQ listesi (5 adet) -> JSON-LD de 5 olacak
   const faqs = [
@@ -297,19 +297,25 @@ const base = getBaseUrl();
   ];
 
   const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName: `${stripHtml(t("smm_banner_header"))}${stripHtml(t("smm_banner_span"))} | DGTLFACE`,
-    pageDescription: stripHtml(t("smm_banner_text")).slice(0, 300),
-    serviceName:
-      locale === "tr"
-        ? "Sosyal Medya Yönetimi – Strateji, İçerik ve Reklam Uzmanlığı"
-        : "Social Media Management – Strategy, Content & Ads",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName: locale === "tr" ? "Sosyal Medya Yönetimi" : "Social Media Marketing",
-    faqItems: faqs,
-    serviceItems,
-  });
+  locale,
+  pageUrl,
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
+  serviceType: t("jsonld.serviceType"),
+  keywords: t.raw("jsonld.keywords"), 
+
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  faqItems: faqs,
+  serviceItems,
+
+  aiAnswerText: t("aiAnswerBlock"),
+  aiSourceText: t("aiSourceMention"),
+});
 
 
     

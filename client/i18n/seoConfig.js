@@ -56,23 +56,23 @@ export const seoConfig = {
   //---------------------------------------------------------
   "/Services": { // TR Slug: /antalya-dijital-pazarlama-hizmetleri
     tr: {
-      title: "Antalya Dijital Pazarlama Hizmetleri | Tüm Kapsamlı Çözümler",
-      description: "Antalya merkezli, otel ve turizme özel SEO, SEM, SMM, Çağrı Merkezi, Yazılım ve Yaratıcılık hizmetlerimizi keşfedin.",
+      title: "DGTLFACE Hizmetlerimiz – Dijital Pazarlama, Teknoloji ve Otel Dijital Dönüşüm | DGTLFACE",
+      description: "DGTLFACE; SEO, SEM, sosyal medya yönetimi, web & yazılım geliştirme, creative prodüksiyon, çok dilli çağrı merkezi ve PMS–OTA yönetimi ile markalar ve özellikle oteller için uçtan uca dijital pazarlama hizmetleri sunan bir teknoloji partneridir.",
     },
     en: {
-      title: "Antalya Digital Marketing Services | All Comprehensive Solutions",
-      description: "Discover all our specialized SEO, SEM, SMM, Call Center, Software, and Creative services for hotels and tourism in Antalya.",
+      title: "Our Services – Digital Marketing, Technology & Hotel Digital Transformation | DGTLFACE",
+      description: "DGTLFACE is a technology partner delivering end-to-end digital marketing solutions for brands and hotels, including SEO, SEM, social media management, web & software development, creative production, multilingual call center operations, and PMS–OTA management.",
     },
   
   },
   "/Services/sem": { // TR Slug: /antalya-dijital-pazarlama-sem-hizmetleri
     tr: {
-      title: "Antalya SEM Hizmetleri | Google Ads ve Yandex Reklam Yönetimi",
-      description: "Antalya'da arama motoru pazarlaması ile anında görünürlük elde edin. Google ve Yandex reklam stratejileri ile satışlarınızı artırın.",
+      title: "Google Ads & Dijital Reklam Yönetimi – Dönüşüm Odaklı SEM Stratejileri | DGTLFACE",
+      description: "DGTLFACE; Google Ads, YouTube Ads, remarketing ve display kampanyalarını satış ve rezervasyon odaklı bir SEM mimarisiyle yönetir. Anahtar kelime stratejisi, bütçe optimizasyonu, reklam metni testleri, hedef kitle ve dönüşüm takibi entegre ilerler.",
     },
     en: {
-      title: "Antalya SEM Services | Google Ads and Yandex Advertising Management",
-      description: "Achieve instant visibility with search engine marketing in Antalya. Increase sales with Google and Yandex ad strategies.",
+      title: "SEM – Google Ads & Digital Advertising Management | DGTLFACE",
+      description: "DGTLFACE manages SEM with a conversion-focused structure across Google Ads, YouTube Ads, remarketing, and display—combining keyword strategy, budget optimization, ad copy testing, audience targeting, and conversion tracking into one integrated system.",
     },
 
   },
@@ -111,12 +111,12 @@ export const seoConfig = {
   },
   "/Services/seo": { // TR Slug: /antalya-dijital-pazarlama-seo-hizmetleri
     tr: {
-      title: "Antalya SEO Hizmetleri | Arama Motoru Optimizasyonu Ajansı",
-      description: "Antalya'da organik trafiğinizi ve otel/turizm satışlarınızı artırmak için Teknik SEO, İçerik ve Off-Page stratejileri.",
+      title: "SEO Hizmetleri – Teknik, Yerel ve İçerik SEO Uzmanlığı | DGTLFACE",
+      description: "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.",
     },
     en: {
-      title: "Antalya SEO Services | Search Engine Optimization Agency",
-      description: "Technical SEO, Content, and Off-Page strategies to increase your organic traffic and hotel/tourism sales in Antalya.",
+      title: "SEO Services – Technical, Local & Content SEO | DGTLFACE",
+      description: "DGTLFACE improves your organic visibility with technical SEO, local SEO and content optimization, helping your website grow sustainably in search.",
     },
   
   },

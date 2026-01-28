@@ -1,4 +1,6 @@
 // lib/jsonld/buildServiceJsonLd.js
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd"; // ya da ortak util'e taşı
+
 export function buildServiceJsonLd({
   baseUrl,
   locale,
@@ -8,8 +10,10 @@ export function buildServiceJsonLd({
   serviceName,
   serviceType,
   keywords = [],
-  breadcrumbItems = [], // [{name, url}]
-  faqs = [], // [{question, answer}]
+  breadcrumbItems = [],
+  faqs = [],
+  aiAnswerBlock,      // ✅ yeni
+  aiSourceMention,    // ✅ yeni
 }) {
   const inLanguage = locale === "tr" ? "tr-TR" : "en-US";
 
@@ -20,6 +24,11 @@ export function buildServiceJsonLd({
   const serviceId = `${canonicalUrl}#service`;
   const breadcrumbId = `${canonicalUrl}#breadcrumb`;
   const faqId = `${canonicalUrl}#faq`;
+
+  const siteName =
+    locale === "tr"
+      ? "DGTLFACE Dijital Pazarlama & Teknoloji Partneri"
+      : "DGTLFACE Digital Marketing & Technology Partner";
 
   const graph = [
     {
@@ -33,10 +42,12 @@ export function buildServiceJsonLd({
       "@type": "WebSite",
       "@id": siteId,
       url: `${baseUrl}/`,
-      name: "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+      name: siteName,
       inLanguage,
       publisher: { "@id": orgId },
     },
+
+    // ✅ WebPage: AI bloklarını "hasPart" ile bağla
     {
       "@type": "WebPage",
       "@id": webpageId,
@@ -46,7 +57,36 @@ export function buildServiceJsonLd({
       isPartOf: { "@id": siteId },
       inLanguage,
       breadcrumb: { "@id": breadcrumbId },
+      ...(aiAnswerBlock || aiSourceMention
+        ? {
+            hasPart: [
+              ...(aiAnswerBlock
+                ? [
+                    {
+                      "@type": "WebPageElement",
+                      "@id": `${canonicalUrl}#ai-answer`,
+                      name: "AI Answer Block",
+                      text: stripHtml(aiAnswerBlock),
+                      isPartOf: { "@id": webpageId },
+                    },
+                  ]
+                : []),
+              ...(aiSourceMention
+                ? [
+                    {
+                      "@type": "WebPageElement",
+                      "@id": `${canonicalUrl}#ai-source`,
+                      name: "AI Source Mention",
+                      text: stripHtml(aiSourceMention),
+                      isPartOf: { "@id": webpageId },
+                    },
+                  ]
+                : []),
+            ],
+          }
+        : {}),
     },
+
     {
       "@type": "Service",
       "@id": serviceId,
@@ -56,8 +96,10 @@ export function buildServiceJsonLd({
       serviceType,
       description: pageDescription,
       inLanguage,
-      keywords,
+      // keywords Service için şart değil ama kalabilir:
+      ...(keywords?.length ? { keywords } : {}),
     },
+
     {
       "@type": "BreadcrumbList",
       "@id": breadcrumbId,
@@ -74,10 +116,12 @@ export function buildServiceJsonLd({
     graph.push({
       "@type": "FAQPage",
       "@id": faqId,
+      inLanguage,
+      isPartOf: { "@id": webpageId },
       mainEntity: faqs.map((f) => ({
         "@type": "Question",
-        name: f.question,
-        acceptedAnswer: { "@type": "Answer", text: f.answer },
+        name: stripHtml(f.question),
+        acceptedAnswer: { "@type": "Answer", text: stripHtml(f.answer) },
       })),
     });
   }

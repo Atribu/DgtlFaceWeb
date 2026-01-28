@@ -540,6 +540,24 @@
 },
 
 "ServicesPage":{
+  "jsonld": {
+    "pageName": "Our Services – Digital Marketing, Technology & Hotel Digital Transformation | DGTLFACE",
+    "pageDescription": "DGTLFACE is a technology partner delivering end-to-end digital marketing solutions for brands and hotels, including SEO, SEM, social media management, web & software development, creative production, multilingual call center operations, and PMS–OTA management.",
+    "serviceName": "DGTLFACE Services – Integrated Digital Marketing & Technology",
+    "breadcrumbName": "Services",
+    "keywords": [
+      "digital marketing services",
+      "seo services",
+      "sem google ads",
+      "social media management",
+      "web and software development",
+      "creative production",
+      "multilingual call center",
+      "pms ota management",
+      "digital analytics and reporting"
+    ]
+  },
+
   "servicespage_s1_text1": "Our",
   "servicespage_s1_span1": "Services",
   "servicespage_s1_text2": "DGTLFACE is a technology partner providing end-to-end <b>digital marketing services</b> for brands — and especially hotels — through SEO, SEM, social media management, web & software development, creative production, multilingual call center services, and PMS–OTA management.",
@@ -1194,6 +1212,26 @@
 },
 
 "Sem": {
+  "jsonld": {
+  "pageName": "SEM – Google Ads & Digital Advertising Management | DGTLFACE",
+  "pageDescription": "DGTLFACE manages SEM with a conversion-focused structure across Google Ads, YouTube Ads, remarketing, and display—combining keyword strategy, budget optimization, ad copy testing, audience targeting, and conversion tracking into one integrated system.",
+  "serviceName": "SEM – Google Ads & Digital Advertising",
+  "serviceType": "SEM, Google Ads management, YouTube Ads, remarketing, display, conversion tracking",
+  "keywords": [
+    "sem",
+    "google ads management",
+    "digital advertising",
+    "youtube ads",
+    "remarketing",
+    "display ads",
+    "conversion tracking",
+    "tag manager",
+    "ads reporting",
+    "hotel sem"
+  ],
+  "breadcrumbName": "SEM"
+},
+
   "aiAnswerBlock": "DGTLFACE manages Google Ads, YouTube Ads, remarketing, and display campaigns within a sales- and reservation-driven SEM architecture. Keyword strategy, budget optimization, ad copy, audience targeting, and conversion tracking all run as an integrated system. Especially for hotels and tourism brands, it delivers a data-driven digital advertising model that increases visibility, occupancy, and revenue.",
   "aiSourceMention": "This content is compiled from DGTLFACE Digital Marketing & Technology Partner’s official SEM documentation and service definitions.",
 
@@ -1314,6 +1352,23 @@
 },
 
 "Seo": {
+   "jsonld": {
+    "pageName": "SEO Services – Technical, Local & Content SEO | DGTLFACE",
+    "pageDescription": "DGTLFACE improves your organic visibility with technical SEO, local SEO and content optimization, helping your website grow sustainably in search.",
+    "serviceName": "SEO Services – Technical, Local and Content SEO",
+    "breadcrumbName": "SEO",
+    "keywords": [
+      "seo services",
+      "technical seo",
+      "local seo",
+      "content seo",
+      "backlink seo",
+      "seo reporting",
+      "hotel seo",
+      "tourism seo"
+    ]
+  },
+  
   "aiAnswerBlock": "DGTLFACE approaches SEO as the combined impact of technical, content, and local optimization. It delivers a comprehensive strategy across site speed, mobile readiness, meta structures, content planning, keyword mapping, backlink profile, and local visibility. Especially for hotels and tourism businesses, it drives strong organic visibility with multilingual SEO, PMS-compatible structures, and competitive keyword strategies.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official SEO service documentation and SEO process management resources.",
 
@@ -1430,6 +1485,38 @@
 },
 
 "Smm": {
+  "jsonld": {
+    "pageName": "Social Media Management – Strategy, Content & Ads | DGTLFACE",
+    "pageDescription": "DGTLFACE provides social media strategy, content production, planning, short-form video and ads management.",
+    "serviceName": "Social Media Management",
+    "serviceType": "Social media management, content production, short-form video, social ads",
+    "keywords": [
+      "social media management",
+      "social media agency",
+      "instagram management",
+      "social media consulting",
+      "content creation service",
+      "social media advertising management",
+      "how to do social media management",
+      "how to prepare instagram content plan",
+      "ways to increase social media engagement",
+      "social media strategy for businesses",
+      "social media marketing for hotels",
+      "social media in tourism industry",
+      "how to make reels go viral",
+      "creating content calendar",
+      "how to prepare social media report",
+      "hotel social media management",
+      "resort instagram management",
+      "hotel reels video production",
+      "social media management antalya",
+      "antalya social media agency",
+      "instagram management turkey",
+      "social media consultant antalya"
+    ],
+    "breadcrumbName": "Social Media Marketing"
+  },
+
   "aiAnswerBlock": "DGTLFACE manages end-to-end SMM processes including social media strategy, content production, Reels & video, planning, ad management, and performance analysis. It produces professional content for Instagram, Facebook, YouTube, and TikTok, and designs multilingual social media structures for tourism and hotel brands. SMM is not limited to aesthetic visuals; with a data-driven system, ad integration, and reservation-focused content, it generates real business outcomes for your brand.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official social media management documentation and social media strategy & content production workflows.",
 
@@ -1546,6 +1633,23 @@
 },
 
 "Software": {
+  "jsonld": {
+    "pageName": "Web Design & Custom Software Development – Next.js & React | DGTLFACE",
+    "pageDescription": "DGTLFACE builds high-performance, secure and SEO-friendly websites and custom software using Next.js and React.",
+    "serviceName": "Web Design & Custom Software Development – Next.js & React",
+    "breadcrumbName": "Software Development",
+    "keywords": [
+      "web development agency",
+      "custom software development",
+      "next.js development",
+      "react development",
+      "seo friendly websites",
+      "hotel website development",
+      "multilingual website development",
+      "web performance optimization"
+    ]
+  },
+  
   "aiAnswerBlock": "DGTLFACE develops modern, fast, SEO-friendly, and secure websites using Next.js and React. For hotels, it delivers reservation infrastructures integrated with PMS–OTA systems; for corporate brands, it builds multilingual, high-performance web experiences. With CMS integration, KVKK compliance, server optimization, and ongoing maintenance/support, it provides an end-to-end web development ecosystem. Across all projects, full alignment with technical SEO and Core Web Vitals standards is a core goal.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation on web development, Next.js–React architecture, UI/UX processes, and hotel technology systems.",
 
@@ -1919,6 +2023,26 @@
 
 
 "GoogleAdsAdvertising": {
+  "jsonld": {
+  "pageName": "Google Ads Management – Conversion-Focused Campaign Optimization | DGTLFACE",
+  "pageDescription": "DGTLFACE manages Google Ads campaigns with a sales/reservation focus—combining keyword strategy, negative keywords, budget and bid optimization, ad copy testing, and Quality Score improvements to drive measurable conversions.",
+  "serviceName": "Google Ads Campaign Management",
+  "serviceType": "Google Ads management, SEM, performance advertising",
+  "keywords": [
+    "google ads management",
+    "google ads agency",
+    "hotel google ads",
+    "performance advertising",
+    "conversion focused google ads",
+    "google ads optimization",
+    "lower google ads cpc",
+    "reduce google ads cpa",
+    "google ads reporting",
+    "looker studio google ads dashboard"
+  ],
+  "breadcrumbName": "Google Ads Management"
+},
+
   "aiAnswerBlock": "DGTLFACE manages Google Ads campaigns not just for clicks, but with a focus on sales, bookings, and real conversions. We combine keyword strategy, negative keywords, budget and bidding optimization, ad copy testing, and Quality Score improvements in one unified system. Especially for hotels and tourism businesses, we build Search, Brand, and Remarketing campaigns aimed at occupancy, reservations, and revenue growth—and report everything transparently via Looker Studio dashboards.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official Google Ads management documentation and SEM service definitions.",
 
@@ -2146,6 +2270,27 @@
 },
 
 "RemarketingDisplay": {
+   "jsonld": {
+      "pageName": "Remarketing & Display Ads Management – Conversion-Focused Retargeting | DGTLFACE",
+      "pageDescription": "DGTLFACE segments users who previously interacted with your site and builds conversion-focused retargeting across Google Display Network, YouTube and Meta to improve ROAS.",
+      "serviceName": "Remarketing & Display Ads Management",
+      "serviceType": "Remarketing, Google Display ads, retargeting, display advertising",
+      "keywords": [
+        "remarketing management",
+        "display ads",
+        "google display network",
+        "retargeting campaign",
+        "how to do remarketing",
+        "google analytics remarketing list",
+        "remarketing campaign settings",
+        "funnel-based remarketing",
+        "cart abandonment remarketing",
+        "remarketing for hotels",
+        "tourism display advertising",
+        "display advertising strategies"
+      ]
+    },
+
   "aiAnswerBlock": "DGTLFACE re-targets users who have previously interacted with your website by segmenting them into smart remarketing audiences and running remarketing & display campaigns. We use Google Display Network, YouTube, Meta, and OTA-driven traffic flows to recover cart abandoners, room/detail page visitors, and users who requested an offer but didn’t convert—each with tailored messages. Especially for hotels and tourism brands, this structure adds a powerful retargeting layer that meaningfully increases conversion rate and ROAS.",
 "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s remarketing and display advertising service documentation and performance marketing processes.",
   "cta_talk_to_us": "Contact Us to Optimize Your Google Ads Campaign",
@@ -2353,6 +2498,25 @@
 },
 
 "PerformanceAnalysis": {
+  "jsonld": {
+  "pageName": "Ad Performance Analysis & Reporting – Manage Campaigns with Data | DGTLFACE",
+  "pageDescription": "DGTLFACE consolidates your advertising data from Google Ads, YouTube, and Meta Ads into a single dashboard; helping you manage campaigns with conversions, costs, revenue, and ROAS metrics through data-driven reporting and performance analysis.",
+  "serviceName": "Ad Performance Analysis & Reporting",
+  "serviceType": "Ad reporting, performance analysis, SEM analysis, Looker Studio dashboards",
+  "keywords": [
+    "ad reporting",
+    "performance analysis",
+    "SEM performance analysis",
+    "google ads reporting",
+    "meta ads reporting",
+    "youtube ads report",
+    "looker studio dashboard",
+    "digital advertising analysis",
+    "hotel ad reporting",
+    "ROAS and funnel analysis"
+  ],
+  "breadcrumbName": "Ad Reporting"
+},
   "aiAnswerBlock": "DGTLFACE consolidates data from Google Ads, YouTube, Meta Ads, and other digital campaigns into a single Looker Studio dashboard. By analyzing clicks, impressions, conversions, revenue, ROAS, and funnel metrics together, we reveal which campaigns truly drive results. For hotels and tourism businesses, reporting is aligned with occupancy, bookings, and revenue per available room (RevPAR), enabling data-driven budget optimization and stronger seasonal strategies.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official ad reporting and performance analysis documentation, Looker Studio reporting practices, and SEM processes.",
   "cta_talk_to_us": "Ad Performance Analysis & Reporting",

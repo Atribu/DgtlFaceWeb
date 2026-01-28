@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
   const url =
     locale === "tr"
       ? `${base}/tr/seo`
-      : `${base}/en/seo-search-engine-optimization`; 
+      : `${base}/en/search-engine-optimization`; 
 
   return {
     // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }) {
       canonical: url,
       languages: {
         tr: `${base}/tr/seo`,
-        en: `${base}/en/seo-search-engine-optimization`,
+        en: `${base}/en/search-engine-optimization`,
       },
     },
 
@@ -276,7 +276,7 @@ const Page = ({ params }) => {
     const pageUrl =
     locale === "tr"
       ? `${base}/tr/seo`
-      : `${base}/en/seo-search-engine-optimization`;
+      : `${base}/en/search-engine-optimization`;
 
   // ✅ sayfada render edilen 5 FAQ ile birebir
   const faqItems = Array.from({ length: 5 }, (_, i) => {
@@ -296,20 +296,23 @@ const Page = ({ params }) => {
     { name: "SEO Reporting", url: `${base}/${locale}${locale === "tr" ? "/seo/seo-raporlama" : "/seo/seo-reporting"}` },
   ];
 
-  const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName: `${stripHtml(t("seo_banner_header"))}${stripHtml(t("seo_banner_span"))} | DGTLFACE`,
-    pageDescription: stripHtml(t("seo_banner_text")).slice(0, 300),
-    serviceName:
-      locale === "tr"
-        ? "Profesyonel SEO Hizmetleri – Teknik, Yerel ve İçerik SEO"
-        : "SEO Services – Technical, Local and Content SEO",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName: "SEO",
-    faqItems,
-    serviceItems,
-  });
+const jsonLd = buildDepartmentJsonLd({
+  locale,
+  pageUrl,
+  pageName: t("jsonld.pageName"),
+  pageDescription: stripHtml(t("jsonld.pageDescription")).slice(0, 300),
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+  keywords: t.raw("jsonld.keywords"),
+  breadcrumbName: t("jsonld.breadcrumbName"),
+  faqItems,
+  serviceItems,
+  aiQuestion: locale === "tr"
+    ? "DGTLFACE bu hizmette ne yapar?"
+    : "What does DGTLFACE do in this service?",
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
 
 
       const faqs = [

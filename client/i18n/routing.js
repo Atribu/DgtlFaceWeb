@@ -53,27 +53,27 @@ export const routing = defineRouting({
       
     },
     "/Services/pms/pmsInstallation": { // https://www.dgtlface.com/tr/Services/pms/hotelIdentification
-      en: "/services/pms/hotel-identification",
+      en: "/pms-ota/pms-integration",
       tr: "/pms-ota/pms-kurulum",
       
     },
     "/Services/pms/otaContract": { // https://www.dgtlface.com/tr/Services/pms/otaContract
-      en: "/services/pms/ota-contract",
+      en: "/pms-ota/ota-contract",
       tr: "/pms-ota/ota-entegrasyonu",
      
     },
     "/Services/pms/reservationManagement": { // https://www.dgtlface.com/tr/Services/pms/reservationManagement
-      en: "/services/pms/reservation-management",
+      en: "/pms-ota/reservation-management",
       tr: "/pms-ota/rezervasyon-yonetimi",
      
     },
     "/Services/pms/channelManagement": { // https://www.dgtlface.com/tr/Services/pms/reservationModule
-      en: "/services/pms/reservation-module",
+      en: "/pms-ota/channel-management",
       tr: "/pms-ota/kanal-yonetimi",
       
     },
     "/Services/pms/webPayment": { // https://www.dgtlface.com/tr/Services/pms/webPayment
-      en: "/services/pms/web-payment-systems",
+      en: "/pms-ota/web-payment",
       tr: "/pms-ota/online-satis",
       
     },
@@ -87,27 +87,27 @@ export const routing = defineRouting({
       
     },
     "/Services/callcenter/callLanguages": { // https://www.dgtlface.com/tr/Services/callcenter/callLanguages
-      en: "/services/call-center/multilingual-support",
+      en: "/call-center/multilingual-call-center",
       tr: "/cagri-merkezi/4-dilli-cagri-merkezi",
       
     },
     "/Services/callcenter/callPerformance": { // https://www.dgtlface.com/tr/Services/callcenter/callPerformance
-      en: "/services/call-center/performance-analysis",
+      en: "/call-center/performance-analysis",
       tr: "/cagri-merkezi/performans-analizi",
      
     },
     "/Services/callcenter/messageManagement": { // https://www.dgtlface.com/tr/Services/callcenter/contractManagement
-      en: "/services/call-center/contract-management",
+      en: "/call-center/message-management",
       tr: "/cagri-merkezi/mesaj-yonetimi",
       
     },
     "/Services/callcenter/aftersalesSupport": { // https://www.dgtlface.com/tr/Services/callcenter/multipleChannels satis sonrasi destek
-      en: "/services/call-center/multi-channel-sales",
+      en: "/call-center/after-sales-support",
       tr: "/cagri-merkezi/satis-sonrasi-destek",
       
     },
     "/Services/callcenter/reservationSupport": { // https://www.dgtlface.com/tr/Services/callcenter/reservationSupport
-      en: "/services/call-center/reservation-support",
+      en: "/call-center/reservation-support",
       tr: "/cagri-merkezi/rezervasyon-destegi",
       
     },
@@ -121,27 +121,27 @@ export const routing = defineRouting({
       
     },
     "/Services/creative/corporateGift": { // https://www.dgtlface.com/tr/Services/creative/corporateGift
-      en: "/services/creative/corporate-gift-design",
+      en: "/creative/corporate-gift",
       tr: "/creative/kurumsal-hediye",
       
     },
     "/Services/creative/eventProduction": { // https://www.dgtlface.com/tr/Services/creative/eventProduction
-      en: "/services/creative/event-production",
+      en: "/creative/event-production",
       tr: "/creative/etkinlik-produksiyonu",
      
     },
     "/Services/creative/graphicDesign": { // https://www.dgtlface.com/tr/Services/creative/graphicDesign
-      en: "/services/creative/graphic-motion-design",
+      en: "/creative/graphic-motion-design",
       tr: "/creative/grafik-motion-tasarim",
       
     },
     "/Services/creative/uiUxDesign": { // https://www.dgtlface.com/tr/Services/creative/uiUxDesign
-      en: "/services/creative/ui-ux-design",
+      en: "/creative/ui-ux-design",
       tr: "/creative/ui-ux-hizmeti",
       
     },
     "/Services/creative/videoProduction": { // https://www.dgtlface.com/tr/Services/creative/videoProduction
-      en: "/services/creative/video-production",
+      en: "/creative/video-production",
       tr: "/creative/video-ve-produksiyon",
       
     },
@@ -155,12 +155,12 @@ export const routing = defineRouting({
      
     },
     "/Services/digitalAnalysis/lookerStudio": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/advertisingReportingService
-      en: "/digital-analysis/advertising-reporting",
+      en: "/digital-analysis/looker-studio",
       tr: "/raporlama/looker-studio",
       
     },
     "/Services/digitalAnalysis/kvkkDataSecurity": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/callReportingService
-      en: "/digital-analysis/call-reporting",
+      en: "/digital-analysis/kvkk-data-security",
       tr: "/raporlama/kvkk-veri-guvenligi",
       
     },
@@ -170,7 +170,7 @@ export const routing = defineRouting({
       
     },
     "/Services/digitalAnalysis/onlineMarketResearchService": { // https://www.dgtlface.com/tr/Services/digitalAnalysis/onlineMarketResearchService
-      en: "/digital-analysis/online-market-research",
+      en: "/digital-analysis/benchmark-analysis",
       tr: "/raporlama/benchmark-analizi",
       
     },
@@ -179,7 +179,7 @@ export const routing = defineRouting({
     // ARAMA MOTORU PAZARLAMA (SEM) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/sem": { // https://www.dgtlface.com/tr/Services/sem
-      en: "/sem",
+      en: "/search-engine-marketing",
       tr: "/sem",
      
     },
@@ -213,7 +213,7 @@ export const routing = defineRouting({
     // SEO HİZMETLERİ
     //---------------------------------------------------------
     "/Services/seo": { // https://www.dgtlface.com/tr/Services/seo
-      en: "/seo-search-engine-optimization",
+      en: "/search-engine-optimization",
       tr: "/seo",
     },
     
@@ -224,7 +224,7 @@ export const routing = defineRouting({
       
     },
     "/Services/seo/contentSeo": { // https://www.dgtlface.com/tr/Services/seo/onpageSeo
-      en: "/seo/on-page-seo",
+      en: "/seo/content-seo",
       tr: "/seo/icerik-seo",
       
     },
@@ -248,34 +248,34 @@ export const routing = defineRouting({
     // SOSYAL MEDYA PAZARLAMA (SMM) HİZMETLERİ
     //---------------------------------------------------------
     "/Services/smm": { // https://www.dgtlface.com/tr/Services/smm
-      en: "/social-media-marketing",
+      en: "/social-media-management ",
       tr: "/smm",
       
     },
     "/Services/smm/reelsVideo": { // https://www.dgtlface.com/tr/Services/smm/socialMediaAnalysis
-      en: "/services/smm/social-media-analysis",
+      en: "/smm/reeels-video",
       tr: "/smm/reels-video",
       
     },
 
         "/Services/smm/socialMediaAds": { // https://www.dgtlface.com/tr/Services/smm/socialMediaAnalysis
-      en: "/services/smm/social-media-analysis",
+      en: "/smm/social-media-ads",
       tr: "/smm/sosyal-medya-reklamlari",
       
     },
 
     "/Services/smm/socialMediaContent": { // https://www.dgtlface.com/tr/Services/smm/socialMediaContent
-      en: "/services/smm/social-media-content",
+      en: "/smm/social-media-content",
       tr: "/smm/icerik-uretimi",
       
     },
     "/Services/smm/socialMediaPlanning": { // https://www.dgtlface.com/tr/Services/smm/socialMediaPlanning
-      en: "/services/smm/social-media-planning",
+      en: "/smm/social-media-planning",
       tr: "/smm/planlama-strateji",
      
     },
     "/Services/smm/socialMediaReporting": { // https://www.dgtlface.com/tr/Services/smm/socialMediaReporting
-      en: "/services/smm/social-media-reporting",
+      en: "/smm/social-media-reporting",
       tr: "/smm/analiz-raporlama",
       
     },
@@ -289,27 +289,27 @@ export const routing = defineRouting({
      
     },
     "/Services/software/cmsInstallationService": { // https://www.dgtlface.com/tr/Services/software/cmsInstallationService
-      en: "/services/software/cms-installation",
+      en: "/software/cms-installation",
       tr: "/yazilim/cms-entegrasyonu",
       
     },
     "/Services/software/kvkk": { // https://www.dgtlface.com/tr/Services/software/pdpaCompliance
-      en: "/services/software/pdpa-compliance",
+      en: "/software/kvkk-compliance-service",
       tr: "/yazilim/kvkk-uyum-hizmeti",
       
     },
     "/Services/software/serverManagementService": { // https://www.dgtlface.com/tr/Services/software/serverManagementService
-      en: "/services/software/server-management",
+      en: "/software/server-management",
       tr: "/yazilim/sunucu-guvenlik",
       
     },
     "/Services/software/websiteAndSoftware": { // https://www.dgtlface.com/tr/Services/software/websiteAndSoftware
-      en: "/services/software/website-and-software",
+      en: "/software/website-and-software",
       tr: "/yazilim/web-sitesi-gelistirme",
       
     },
     "/Services/software/websiteMaintanceService": { // https://www.dgtlface.com/tr/Services/software/websiteMaintanceService
-      en: "/services/software/website-maintenance",
+      en: "/software/website-maintenance",
       tr: "/yazilim/bakim-ve-destek",
       
     },
@@ -321,33 +321,33 @@ export const routing = defineRouting({
       
     },
     "/Services/hotel/seo": { 
-      en: "/services/hotel/hotel-identification",
+      en: "/hotel/seo",
       tr: "/otel/seo",
       
     },
     "/Services/hotel/socialMedia": { 
-      en: "/services/hotel/ota-contract",
+      en: "/hotel/social-media",
       tr: "/otel/sosyal-medya",
       
     },
     "/Services/hotel/adsManagement": { 
-      en: "/services/hotel/reservation-management",
+      en: "/hotel/ads-management",
       tr: "/otel/reklam-yonetimi",
       
     },
     "/Services/hotel/otaManagement": { 
-      en: "/services/hotel/reservation-module",
+      en: "/hotel/ota-management",
       tr: "/otel/ota-yonetimi",
       
     },
     "/Services/hotel/pmsIntegration": { 
-      en: "/services/hotel/web-payment-systems",
+      en: "/hotel/pms-integration",
       tr: "/otel/pms-entegrasyonu",
       
     },
 
      "/Services/hotel/callCenter": { 
-      en: "/services/hotel/web-payment-systems",
+      en: "/hotel/callcenter",
       tr: "/otel/cagri-merkezi",
       
     },
