@@ -8,7 +8,7 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
 import image4 from "./images/image4.png"
 import image5 from "./images/image5.png"
-import { useTranslations } from "next-intl";
+import { useTranslations,useLocale } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
@@ -17,172 +17,76 @@ import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSec
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, YouTube reklamlarınızı hedef kitleye uygun optimize ederek görünürlük ve dönüşümlerinizi artıran; turizm ve otel odaklı YouTube video reklam stratejileri sunan profesyonel YouTube Ads ajansıdır.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
+  const pathnameKey = "/Services/sem/youtubeAdvertising";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "YouTube Reklam Yönetimi – Video Reklam Optimizasyonu | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, YouTube reklamlarınızı hedef kitleye uygun optimize ederek görünürlük ve dönüşümlerinizi artırır. Video reklam yönetiminde uzman ekiple çalışın.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": ["Antalya","Türkiye","Europe"]
     },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
-      "name": "YouTube Reklam Yönetimi – Video Reklam Optimizasyonu | DGTLFACE",
-      "description": "DGTLFACE, YouTube reklamlarınızı hedef kitleye uygun optimize ederek görünürlük ve dönüşümlerinizi artırır. Video reklam yönetiminde uzman ekiple çalışın.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "youtube reklam yönetimi",
-        "youtube ads ajansı",
-        "video reklam yönetimi",
-        "youtube bumper ads",
-        "youtube medya satın alma",
-        "youtube remarketing",
-        "turizm youtube kampanyaları",
-        "otel youtube reklam kampanyası"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi/#breadcrumb"
-      }
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi/#service",
-      "name": "YouTube Reklam Yönetimi – Video Reklam Optimizasyonu",
-      "url": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "youtube reklam yönetimi, youtube ads ajansı, video reklam yönetimi, youtube bumper ads, youtube medya satın alma, youtube remarketing",
-      "description": "DGTLFACE, YouTube reklamlarını marka bilinirliği, etkileşim ve rezervasyon/satış artırma odaklı olarak yönetir. Bumper, in-stream, discovery, Shorts ve remarketing video kampanyalarını hedef kitle, ülke ve segment bazında optimize eder; turizm ve otel markaları için yüksek etkileşim ve performans sağlar.",
-      "areaServed": ["Antalya","Türkiye","Europe"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "youtube reklam yönetimi",
-        "youtube ads ajansı",
-        "video reklam yönetimi",
-        "youtube bumper ads",
-        "youtube medya satın alma",
-        "youtube remarketing",
-        "youtube reklam bütçesi nasıl belirlenir",
-        "youtube reklam hedefleme teknikleri",
-        "video içeriklerle satış artırma",
-        "marka bilinirliği artıran youtube reklamları",
-        "turizm sektörü için youtube reklamları",
-        "oteller için youtube video reklam",
-        "youtube kampanya optimizasyon rehberi",
-        "youtube reklam türleri nelerdir",
-        "youtube reklam maliyetleri 2025",
-        "youtube short ads yönetimi",
-        "otel youtube reklam kampanyası",
-        "turizm youtube kampanyaları",
-        "otel video reklam stratejisi",
-        "resort youtube reklam yönetimi",
-        "youtube reklam yönetimi antalya",
-        "antalya youtube reklam ajansı",
-        "youtube ads türkiye",
-        "antalya video reklam hizmeti"
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "SEM – Dijital Reklam Yönetimi",
-          "item": "https://dgtlface.com/tr/sem"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "YouTube Reklam Yönetimi",
-          "item": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/sem/youtube-reklam-yonetimi/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "YouTube reklamları oteller için etkili mi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Doğru hedefleme, doğru video formatı ve doğru mesajla kurgulandığında YouTube; marka bilinirliğini artırır, güven oluşturur ve rezervasyon kararlarını olumlu yönde etkiler."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "YouTube reklam maliyeti nasıl belirleniyor?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hedef kitle, ülke, rekabet seviyesi, kullanılan video formatları ve kampanya hedeflerine göre bütçe planlaması yapılır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hangi YouTube reklam türlerini kullanıyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bumper, skippable in-stream, non-skippable in-stream, in-feed video ads ve YouTube Shorts formatlarını; kampanya hedeflerine göre kombinasyon halinde kullanıyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "YouTube hedefleme nasıl yapılır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "İlgi alanları, davranış segmentleri, özel amaçlı kitleler, arama niyeti, rakip kanal ve video hedeflemesi ile çok katmanlı bir hedefleme stratejisi kullanıyoruz."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Kreatif üretimi de yapıyor musunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Creative & video prodüksiyon ekibimizle birlikte YouTube reklamlarına uygun senaryo, storyboard, çekim ve kurgu süreçlerini uçtan uca yönetebiliyoruz."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
+
 
 const Page = () => {
    const t = useTranslations("YoutubeAdvertising");
    const t2 = useTranslations("YoutubeAdvertising.h4Section");
+
+      const locale = useLocale();
+     const baseUrl = getBaseUrl();
+   
+      const pathnameKey = "/Services/sem/youtubeAdvertising";
+     const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
   const stepData = [1,2,3,4].map(i => ({
       id: i,
@@ -251,13 +155,38 @@ const Page = () => {
     { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
 
   ];
+
+  const jsonLd = buildServiceJsonLd({
+      baseUrl,
+      locale,
+      canonicalUrl,
+  
+      pageName: t("jsonld.pageName"),
+      pageDescription: t("jsonld.pageDescription"),
+      serviceName: t("jsonld.serviceName"),
+      serviceType: t("jsonld.serviceType"),
+      keywords: t.raw("jsonld.keywords"),
+  
+      breadcrumbItems: [
+        { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
+        { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+        { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+      ],
+  
+      faqs,
+  
+      // 🤖 AI alanları (yeni standart)
+      aiQuestion: t("jsonld.pageName"),
+      aiAnswer: t("aiAnswerBlock"),
+      aiSource: t("aiSourceMention"),
+    });
    
   return (
   <>
   <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>

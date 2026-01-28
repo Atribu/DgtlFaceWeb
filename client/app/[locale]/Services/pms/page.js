@@ -306,30 +306,47 @@ const Page = () => {
   }));
 
   // ✅ StepSection içindeki linklerle aynı (absolute)
-  const serviceItems = [
-    { name: stripHtml(t("pms_services_title1")), url: `${pageUrl}/pms-kurulum` },
-    { name: stripHtml(t("pms_services_title2")), url: `${pageUrl}/ota-entegrasyonu` },
-    { name: stripHtml(t("pms_services_title3")), url: `${pageUrl}/kanal-yonetimi` },
-    { name: stripHtml(t("pms_services_title4")), url: `${pageUrl}/online-satis` },
-    { name: stripHtml(t("pms_services_title5")), url: `${pageUrl}/rezervasyon-yonetimi` },
-  ];
+const serviceItems =
+  locale === "tr"
+    ? [
+        { name: stripHtml(t("pms_services_title1")), url: `${base}/tr/pms-ota/pms-kurulum` },
+        { name: stripHtml(t("pms_services_title2")), url: `${base}/tr/pms-ota/ota-entegrasyonu` },
+        { name: stripHtml(t("pms_services_title3")), url: `${base}/tr/pms-ota/kanal-yonetimi` },
+        { name: stripHtml(t("pms_services_title4")), url: `${base}/tr/pms-ota/online-satis` },
+        { name: stripHtml(t("pms_services_title5")), url: `${base}/tr/pms-ota/rezervasyon-yonetimi` },
+      ]
+    : [
+        { name: stripHtml(t("pms_services_title1")), url: `${base}/en/pms-ota/pms-setup` },
+        { name: stripHtml(t("pms_services_title2")), url: `${base}/en/pms-ota/ota-integration` },
+        { name: stripHtml(t("pms_services_title3")), url: `${base}/en/pms-ota/channel-management` },
+        { name: stripHtml(t("pms_services_title4")), url: `${base}/en/pms-ota/online-sales` },
+        { name: stripHtml(t("pms_services_title5")), url: `${base}/en/pms-ota/reservation-management` },
+      ];
+
 
   const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName:
-      locale === "tr"
-        ? "PMS ve OTA Yönetimi – Oteller İçin Dijital Entegrasyon & Satış Optimizasyonu | DGTLFACE"
-        : "PMS & OTA Management | DGTLFACE",
-    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-    serviceName:
-      locale === "tr" ? "PMS ve OTA Yönetimi" : "PMS & OTA Management",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName:
-      locale === "tr" ? "PMS & OTA Yönetimi" : "PMS & OTA",
-    faqItems: faqs,
-    serviceItems,
-  });
+  locale,
+  pageUrl,
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
+  faqItems: faqs,
+  serviceItems,
+
+  // ✅ AI alanları
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
+
 
           
              const items = [

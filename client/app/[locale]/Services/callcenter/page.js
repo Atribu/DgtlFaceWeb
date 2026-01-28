@@ -308,28 +308,48 @@ const Page = () => {
   }));
 
   // ✅ StepSection linkleri ile birebir aynı URL’ler (absolute)
-  const serviceItems = [
-    { name: stripHtml(t("callcenter_services_title1")), url: `${pageUrl}/4-dilli-cagri-merkezi` },
-    { name: stripHtml(t("callcenter_services_title2")), url: `${pageUrl}/rezervasyon-destegi` },
-    { name: stripHtml(t("callcenter_services_title3")), url: `${pageUrl}/mesaj-yonetimi` },
-    { name: stripHtml(t("callcenter_services_title4")), url: `${pageUrl}/satis-sonrasi-destek` },
-    { name: stripHtml(t("callcenter_services_title5")), url: `${pageUrl}/performans-analizi` },
-  ];
+const serviceItems =
+  locale === "tr"
+    ? [
+        { name: stripHtml(t("callcenter_services_title1")), url: `${base}/tr/cagri-merkezi/4-dilli-cagri-merkezi` },
+        { name: stripHtml(t("callcenter_services_title2")), url: `${base}/tr/cagri-merkezi/rezervasyon-destegi` },
+        { name: stripHtml(t("callcenter_services_title3")), url: `${base}/tr/cagri-merkezi/mesaj-yonetimi` },
+        { name: stripHtml(t("callcenter_services_title4")), url: `${base}/tr/cagri-merkezi/satis-sonrasi-destek` },
+        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/tr/cagri-merkezi/performans-analizi` },
+      ]
+    : [
+        // EN child route'lar sende neyse ona göre update edersin:
+        { name: stripHtml(t("callcenter_services_title1")), url: `${base}/en/call-center/multilingual-call-center` },
+        { name: stripHtml(t("callcenter_services_title2")), url: `${base}/en/call-center/reservation-support` },
+        { name: stripHtml(t("callcenter_services_title3")), url: `${base}/en/call-center/message-management` },
+        { name: stripHtml(t("callcenter_services_title4")), url: `${base}/en/call-center/after-sales-support` },
+        { name: stripHtml(t("callcenter_services_title5")), url: `${base}/en/call-center/performance-reporting` },
+      ];
+
 
   const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName:
-      locale === "tr"
-        ? "Çağrı Merkezi Hizmetleri – Çok Kanallı Müşteri Destek ve Rezervasyon Yönetimi | DGTLFACE"
-        : "Call Center Services | DGTLFACE",
-    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-    serviceName: locale === "tr" ? "Çağrı Merkezi Hizmetleri" : "Call Center Services",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName: locale === "tr" ? "Çağrı Merkezi" : "Call Center",
-    faqItems: faqs,
-    serviceItems,
-  });
+  locale,
+  pageUrl,
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
+  faqItems: faqs,
+  serviceItems,
+
+  // ✅ AI parçaları: JSON-LD içine de girsin
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
+
          
             const items = [
                 {

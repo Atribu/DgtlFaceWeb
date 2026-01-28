@@ -294,6 +294,10 @@ pageName: t("jsonld.pageName"),
        t.raw("faq.answer5"),
     },
     ],
+      // 🤖 AI uyumlu alanlar (NEW)
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
   });
 
    const cards = [

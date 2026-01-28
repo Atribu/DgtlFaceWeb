@@ -189,8 +189,8 @@ export const seoConfig = {
       description: "DGTLFACE, remarketing ve display kampanyalarınızla daha önce ilgi göstermiş kullanıcıları geri kazanır. Yeniden hedefleme stratejileriyle dönüşümlerinizi artırın.",
     },
     en: {
-      title: "Antalya Google Web Tools Optimization | Search Console & Analytics",
-      description: "Maximize your site performance with Google Search Console, Analytics, and Tag Manager setup and optimization.",
+      title: "Remarketing & Display Ads Management – Conversion-Focused Retargeting | DGTLFACE",
+      description: "DGTLFACE segments users who previously interacted with your site and builds conversion-focused retargeting across Google Display Network, YouTube and Meta to improve ROAS.",
     },
    
   },
@@ -200,8 +200,8 @@ export const seoConfig = {
       description: "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.",
     },
     en: {
-      title: "Antalya Yandex Advertising Management | Targeted Russia Market Access",
-      description: "Create high-conversion advertising campaigns in the Russian market with Yandex Direct and other Yandex tools.",
+      title: "Ad Performance Analysis & Reporting – Manage Campaigns with Data | DGTLFACE",
+      description: "DGTLFACE consolidates your advertising data from Google Ads, YouTube, and Meta Ads into a single dashboard; helping you manage campaigns with conversions, costs, revenue, and ROAS metrics through data-driven reporting and performance analysis.",
     },
 
   },
@@ -218,12 +218,12 @@ export const seoConfig = {
   },
   "/Services/sem/tagManager": { // TR Slug: /antalya-sem/web-trafik-takibi
     tr: {
-      title: "Antalya Web Trafiği Takibi ve Analizi | Kaynak Bazlı Raporlama",
-      description: "Web sitenize gelen trafiği derinlemesine analiz ederek hangi kanalın daha etkili olduğunu belirleyin.",
+      title: "Dönüşüm Takibi & Google Tag Manager Kurulumu – GA4, Meta CAPI, Telefon & WhatsApp | DGTLFACE",
+      description: "DGTLFACE, Google Tag Manager ve GA4 dönüşüm takibi, Meta Conversion API, WhatsApp–telefon ölçümü ve otel rezervasyon tracking kurulumlarıyla reklam verilerinin doğru ölçülmesini ve optimize edilmesini sağlar.",
     },
     en: {
-      title: "Antalya Web Traffic Monitoring and Analysis | Source-Based Reporting",
-      description: "Determine which channel is most effective by deeply analyzing the traffic coming to your website.",
+      title: "Conversion Tracking & Google Tag Manager Setup – GA4, Meta CAPI, Phone & WhatsApp | DGTLFACE",
+      description: "DGTLFACE provides advanced conversion tracking solutions using Google Tag Manager, GA4, Meta Conversion API, phone and WhatsApp tracking, and hotel reservation measurement to ensure accurate performance data.",
     },
    
   },
@@ -251,25 +251,25 @@ export const seoConfig = {
     },
   
   },
-  "/Services/seo/offpageSeo": { // TR Slug: /antalya-seo/site-disi-seo
+  "/Services/seo/localSeo": { 
     tr: {
-      title: "Antalya Site Dışı (Off-Page) SEO | Etkili Backlink ve Otorite Geliştirme",
-      description: "Kaliteli backlink stratejileri ve marka otoritesi geliştirme ile alan adınızın güvenilirliğini artırın.",
+      title: "Yerel SEO Hizmetleri – Google Haritalar ve Lokal Aramalarda Üst Sıralar | DGTLFACE",
+      description: "DGTLFACE, yerel SEO çalışmalarıyla işletmenizin Google Haritalar ve lokal aramalarda görünürlüğünü artırır. Yerel müşteri dönüşümlerinizi yükseltin.",
     },
     en: {
-      title: "Antalya Off-Page SEO | Effective Backlink and Authority Development",
-      description: "Increase your domain authority and credibility with high-quality backlink strategies and brand authority development.",
+      title: "Local SEO Services – Top Rankings in Google Maps & Local Searches | DGTLFACE",
+      description: "DGTLFACE increases your visibility in Google Maps and local searches with local SEO. Boost calls, route requests and local customer conversions.",
     },
   
   },
-  "/Services/seo/onpageSeo": { // TR Slug: /antalya-seo/site-ici-seo
+  "/Services/seo/contentSeo": { 
     tr: {
-      title: "Antalya Site İçi (On-Page) SEO | İçerik ve Yapısal Optimizasyon",
-      description: "İçerik optimizasyonu, başlık etiketleri ve site yapısı düzenlemeleri ile sayfa bazlı SEO gücünüzü artırın.",
+      title: "İçerik SEO – Anahtar Kelime Odaklı İçerik ve Blog Optimizasyonu | DGTLFACE",
+      description: "DGTLFACE, SEO uyumlu blog ve içerik stratejileriyle organik trafik artışı sağlar. Arama niyetine uygun içeriklerle Google sıralamalarınızı güçlendirin.",
     },
     en: {
-      title: "Antalya On-Page SEO | Content and Structural Optimization",
-      description: "Increase your page-level SEO strength with content optimization, title tags, and website structure adjustments.",
+      title: "Content SEO – Keyword-Led Content & Blog Optimization | DGTLFACE",
+      description: "DGTLFACE drives organic growth with SEO-friendly blog and content strategy. Strengthen rankings with intent-driven content planning.",
     },
    
   },
@@ -284,14 +284,14 @@ export const seoConfig = {
     },
   
   },
-  "/Services/seo/originalCopywriting": { // TR Slug: /antalya-seo/ozgun-metin-yazarligi
+  "/Services/seo/backlinkSeo": { 
     tr: {
-      title: "Antalya Özgün Metin Yazarlığı ve SEO Uyumlu İçerik Üretimi",
-      description: "Arama motorları ve kullanıcılar için optimize edilmiş, hedef kitlenizi ikna eden özgün ve değerli içerikler.",
+      title: "Backlink Yönetimi – Dijital Otorite ve Güven Sinyali Artırma | DGTLFACE",
+      description: "DGTLFACE, güçlü backlink stratejileriyle sitenizin otoritesini artırır. Güvenilir ve etkili bağlantılarla Google sıralamalarınızı yükseltin.",
     },
     en: {
-      title: "Antalya Original Copywriting and SEO-Optimized Content Production",
-      description: "Unique and valuable content optimized for search engines and users, persuading your target audience.",
+      title: "Backlink Management – Build Authority & Trust Signals | DGTLFACE",
+      description: "DGTLFACE strengthens your website authority with a structured backlink strategy. Improve rankings with reliable, relevant, and high-quality links.",
     },
   
   },
@@ -411,7 +411,7 @@ export const seoConfig = {
   },
 
   // SMM Alt Sayfaları
-  "/Services/smm/socialMediaReporting": { // TR Slug: /antalya-sosyal-medya/raporlama-hizmetleri
+  "/Services/smm/socialMediaReporting": { 
     tr: {
       title: "Antalya Sosyal Medya Raporlama ve Analiz Hizmetleri | Dönüşüm Takibi",
       description: "Aylık detaylı sosyal medya performans raporları, ROI ve dönüşüm odaklı analiz hizmetleri.",
@@ -422,7 +422,7 @@ export const seoConfig = {
     },
  
   },
-  "/Services/smm/socialMediaContent": { // TR Slug: /antalya-sosyal-medya/icerik-hizmetleri
+  "/Services/smm/socialMediaContent": { 
     tr: {
       title: "Antalya Sosyal Medya İçerik Üretimi ve Tasarımı | Etkileşim Odaklı",
       description: "Marka kimliğinize uygun, takipçilerinizin ilgisini çeken yaratıcı görsel ve metinsel içerikler.",
@@ -433,7 +433,7 @@ export const seoConfig = {
     },
 
   },
-  "/Services/smm/socialMediaPlanning": { // TR Slug: /antalya-sosyal-medya/planlama-hizmetleri
+  "/Services/smm/socialMediaPlanning": { 
     tr: {
       title: "Antalya Sosyal Medya Strateji ve Planlama Hizmeti | Hedef Kitle Belirleme",
       description: "Marka hedeflerinize uygun, hangi platformda ne zaman paylaşım yapılacağını belirleyen stratejik planlama.",
@@ -444,25 +444,25 @@ export const seoConfig = {
     },
  
   },
-  "/Services/smm/socialMediaAnalysis": { // TR Slug: /antalya-sosyal-medya/analiz-hizmetleri
+  "/Services/smm/reelsVideo": { 
     tr: {
-      title: "Antalya Sosyal Medya Rekabet ve Pazar Analizi | Detaylı Rapor",
-      description: "Rakiplerinizin sosyal medya stratejilerini ve pazarın dinamiklerini analiz ederek yol haritanızı çizin.",
+      title: "Reels & Kısa Video İçerik Üretimi – Viral Video Stratejileri | DGTLFACE",
+      description: "DGTLFACE, Instagram Reels ve kısa video içerikleri üretir. Viral stratejiler, kreatif fikirler ve profesyonel prodüksiyonla görünürlüğünüzü artırın.",
     },
     en: {
-      title: "Antalya Social Media Competitive and Market Analysis | Detailed Report",
-      description: "Analyze your competitors' social media strategies and market dynamics to draw your roadmap.",
+      title: "Reels & Short-Form Video Production – Viral Video Strategies | DGTLFACE",
+      description: "DGTLFACE produces Instagram Reels and short-form videos. Increase your visibility with viral strategies, creative concepts, and professional production.",
     },
 
   },
-  "/Services/smm/socialMediaManagement": { // Sitemap'te bulunan ekstra link (tr/Services/smm/socialMediaManagement)
+  "/Services/smm/socialMediaAds": { 
     tr: {
-      title: "Antalya Sosyal Medya Yönetim Hizmetleri | Hesap ve Kampanya Yönetimi",
-      description: "Instagram, Facebook ve diğer sosyal medya hesaplarının profesyonel yönetimi, içerik ve reklam kampanyaları.",
+      title: "Sosyal Medya Reklam Yönetimi – Instagram & Facebook Reklam Uzmanlığı | DGTLFACE",
+      description: "DGTLFACE, Instagram ve Facebook reklam kampanyalarını hedef kitlenize uygun şekilde optimize eder. Dönüşüm odaklı sosyal medya reklam stratejileriyle başarıya ulaşın.",
     },
     en: {
-      title: "Antalya Social Media Management Services | Account and Campaign Management",
-      description: "Professional management of Instagram, Facebook, and other social media accounts, including content and advertising campaigns.",
+      title: "Social Media Advertising – Instagram & Facebook Ads Expertise | DGTLFACE",
+      description: "DGTLFACE optimizes Instagram and Facebook ad campaigns for your target audience. Win with conversion-focused social media advertising strategies.",
     },
 
   },

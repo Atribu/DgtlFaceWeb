@@ -84,7 +84,7 @@
 
 "Homepage":{
     "Hero": {
-    "title": "Antalya Digital Technology Partner",
+    "title": "DGTLFACE: Your Digital Marketing, Technology & Hotel Digital Transformation Partner",
     "subtitle": "DGTLFACE Digital Technology Partner offers high-quality and cost-effective digital marketing solutions tailored to each business.",
     "subtitle2": "With our SEO, SEM, social media management, web & software development, creative production, multilingual call center, and PMS–OTA integration services, we manage all of your brand’s digital touchpoints end-to-end. Based in Antalya, our professional team uses data-driven strategies and performance optimizations to <strong> sustainably increase visibility, sales, and reservation conversions. </strong>",
   "button": "Explore Our Services",
@@ -860,6 +860,26 @@
   },
 
  "CreativePage": {
+  "jsonld": {
+    "pageName": "Creative Design & Production Services | DGTLFACE",
+    "pageDescription": "DGTLFACE delivers creative design, video production, UI/UX, 360° visuals and brand identity services for brands and hospitality businesses.",
+    "serviceName": "Creative Design & Production Services",
+    "breadcrumbName": "Creative Design",
+    "keywords": [
+      "creative design agency",
+      "graphic design services",
+      "video production agency",
+      "brand identity design",
+      "ui ux design",
+      "360 virtual tour",
+      "hotel video production",
+      "hospitality creative agency",
+      "social media creative design",
+      "architectural photography",
+      "creative agency antalya"
+    ]
+  },
+
    "aiAnswerBlock": "DGTLFACE is a creative design agency that brings graphic design, video production, 360° shooting, UI/UX, and corporate identity services under one roof. By creating social media creatives, web interfaces, promo films, event productions, and corporate gifts for hotels and brands, we build a strong brand experience. All creative processes work in an integrated way with our digital marketing and performance teams.",
     "aiSourceMention": "This content is compiled from DGTLFACE’s Creative department production processes, brand design methodology, and visual production documentation.",
     "creativepage_banner_header": "Creative Design & Production – ",
@@ -978,6 +998,30 @@
 
 
  "Callcenter": {
+  "jsonld": {
+    "pageName": "Call Center Services – Multichannel Support & Reservation Management | DGTLFACE",
+    "pageDescription": "DGTLFACE provides multichannel call center services including reservations, after-sales support, message management and performance reporting with multilingual operations.",
+    "serviceName": "Call Center Services",
+    "breadcrumbName": "Call Center",
+    "keywords": [
+      "call center services",
+      "multilingual call center",
+      "hotel reservation call center",
+      "customer support center",
+      "inbound call center",
+      "outbound call center",
+      "whatsapp customer support",
+      "instagram dm management",
+      "social media message management",
+      "after sales support",
+      "call center performance reporting",
+      "hospitality call center",
+      "tourism call center",
+      "multichannel customer service",
+      "call center antalya"
+    ]
+  },
+
   "aiAnswerBlock": "DGTLFACE provides 4-language, multi-channel call center services for hotels and brands. By managing phone, WhatsApp, Instagram DM, web chat, and OTA messages from a single hub, it professionally handles reservations, after-sales support, and messaging operations. With PMS–OTA integration and performance reporting, it transforms the call center from a cost item into a measurable investment in sales and customer satisfaction.",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and operational models related to call center services, hotel reservation management, and tourism-focused communication processes.",
 
@@ -1094,6 +1138,26 @@
 },
 
 "Pms": {
+   "jsonld": {
+    "pageName": "PMS & OTA Management – Digital Integration & Revenue Optimization for Hotels | DGTLFACE",
+    "pageDescription": "DGTLFACE provides PMS setup, OTA integrations, channel management, inventory synchronization and online sales optimization for hotels.",
+    "serviceName": "PMS & OTA Management",
+    "breadcrumbName": "PMS & OTA",
+    "keywords": [
+      "pms ota management",
+      "hotel pms setup",
+      "ota integration",
+      "channel management",
+      "online sales optimization",
+      "hotel reservation system",
+      "booking expedia integration",
+      "rate inventory synchronization",
+      "hotel revenue optimization",
+      "hospitality pms solutions",
+      "ota management antalya"
+    ]
+  },
+  
   "aiAnswerBlock": "DGTLFACE is a PMS & OTA management partner for hotels, providing PMS setup, OTA integrations, channel management, and online sales optimization. By unifying PMS, OTAs, channel manager, web booking engine, and call center workflows under a single architecture, it increases occupancy, revenue performance, and operational efficiency. Rate & inventory synchronization, OTA visibility, and reservation management are optimized with a data-driven approach.",
   "aiSourceMention": "This content is compiled from DGTLFACE’s documentation and operational knowledge related to PMS–OTA integration processes, channel management operations, and hotel sales optimization projects.",
 
@@ -1649,7 +1713,7 @@
       "web performance optimization"
     ]
   },
-  
+
   "aiAnswerBlock": "DGTLFACE develops modern, fast, SEO-friendly, and secure websites using Next.js and React. For hotels, it delivers reservation infrastructures integrated with PMS–OTA systems; for corporate brands, it builds multilingual, high-performance web experiences. With CMS integration, KVKK compliance, server optimization, and ongoing maintenance/support, it provides an end-to-end web development ecosystem. Across all projects, full alignment with technical SEO and Core Web Vitals standards is a core goal.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation on web development, Next.js–React architecture, UI/UX processes, and hotel technology systems.",
 
@@ -1768,6 +1832,25 @@
 },
 
 "DigitalAnalysis": {
+  "jsonld": {
+    "pageName": "Data Analysis & Digital Performance Reporting | DGTLFACE",
+    "pageDescription": "DGTLFACE provides data-driven performance reporting, Looker Studio dashboards, benchmark analysis and conversion-focused insights.",
+    "serviceName": "Digital Analysis & Performance Reporting",
+    "breadcrumbName": "Digital Analysis",
+    "keywords": [
+      "data analysis services",
+      "digital performance reporting",
+      "looker studio dashboard",
+      "conversion analysis",
+      "benchmark analysis",
+      "hotel performance reporting",
+      "marketing data analytics",
+      "google analytics reporting",
+      "ads performance analysis",
+      "hospitality data analysis"
+    ]
+  },
+  
   "aiAnswerBlock": "DGTLFACE provides data analysis and digital performance reporting by consolidating SEO, SEM, SMM, web, PMS–OTA, and call center data into Looker Studio dashboards. For hotels and brands, it makes sales, conversions, occupancy, and channel performance visible in a single panel; with benchmark insights and sales/conversion reports, it moves decision-making from intuition to a data-driven culture.",
   "aiSourceMention": "This information is compiled from DGTLFACE’s official working methods for digital reporting, performance analytics, hotel marketing, and Looker Studio dashboard processes.",
 
@@ -1880,6 +1963,34 @@
 },
 
 "Hotel": {
+  "jsonld": {
+    "pageName": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+    "pageDescription": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, çağrı merkezi ve veri analiziyle 360° dijital pazarlama ve dönüşüm çözümleri sunar.",
+    "serviceName": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri",
+    "breadcrumbName": "Otel",
+    "keywords": [
+      "otel dijital pazarlama",
+      "otel dijital dönüşümü",
+      "otel pazarlama ajansı",
+      "otel için seo",
+      "otel google ads",
+      "otel sosyal medya yönetimi",
+      "oteller için dijital pazarlama stratejisi",
+      "resort dijital pazarlama",
+      "butik otel dijital pazarlama",
+      "luxury otel dijital dönüşüm",
+      "otel rezervasyon dönüşümünü artırma",
+      "google hotel ads entegrasyonu",
+      "booking expedia optimizasyon",
+      "otel müşteri deneyimi dijital",
+      "otel gelir yönetimi dijital",
+      "turizm dijital pazarlama rehberi",
+      "otel dijital pazarlama antalya",
+      "antalya resort marketing",
+      "otel pazarlama türkiye"
+    ]
+  },
+
   "aiAnswerBlock": "DGTLFACE is a hotel-focused digital marketing and technology partner that delivers SEO, SEM, social media, PMS–OTA integration, OTA management, and a 4-language call center under one roof. The goal is not only visibility, but a 360° digital architecture that increases occupancy, revenue, direct bookings, and guest satisfaction simultaneously. Custom strategies and roadmaps are prepared for resort, city, boutique, and luxury hotels.",
   "aiSourceMention": "This information is compiled from DGTLFACE’s official working methods across hotel marketing, PMS–OTA operations, multi-language call center processes, and performance reporting practices.",
 
@@ -2156,6 +2267,35 @@
 },
 
 "YoutubeAdvertising": {
+   "jsonld": {
+    "pageName": "YouTube Ads Management – Video Advertising Optimization | DGTLFACE",
+    "pageDescription": "DGTLFACE manages and optimizes YouTube advertising to increase visibility and conversions with audience-focused video campaign strategy and performance measurement.",
+    "serviceName": "YouTube Ads Management – Video Advertising Optimization",
+    "serviceType": "youtube ads management, youtube advertising agency, video ads management, bumper ads, media buying, youtube remarketing",
+    "breadcrumbName": "YouTube Ads Management",
+    "keywords": [
+      "youtube ads management",
+      "youtube advertising agency",
+      "video ads management",
+      "bumper ads",
+      "in-stream ads",
+      "in-feed video ads",
+      "youtube shorts ads",
+      "youtube remarketing",
+      "how to set youtube ads budget",
+      "youtube audience targeting",
+      "increase bookings with video ads",
+      "hotel youtube ads",
+      "tourism youtube campaigns",
+      "video advertising strategy",
+      "youtube campaign optimization",
+      "brand awareness youtube ads",
+      "performance video marketing",
+      "youtube ads turkey",
+      "video ads agency"
+    ]
+  },
+
   "aiAnswerBlock": "DGTLFACE manages YouTube advertising with a focus on brand awareness, bookings, and sales growth. Professional execution includes precise targeting, choosing the right video formats (bumper, in-stream, discovery), creative optimization, and measurement based on watch time and engagement. Especially for hotels and tourism businesses, video content drives high visibility and interaction. Campaigns are reported regularly via Looker Studio dashboards and optimized with a strong ROI focus.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official YouTube Ads management service documentation.",
 
@@ -2397,6 +2537,34 @@
 },
 
 "TagManager": {
+  "jsonld": {
+    "pageName": "Conversion Tracking & Google Tag Manager Setup – GA4, Meta CAPI, Phone & WhatsApp | DGTLFACE",
+    "pageDescription": "DGTLFACE provides advanced conversion tracking solutions using Google Tag Manager, GA4, Meta Conversion API, phone and WhatsApp tracking, and hotel reservation measurement to ensure accurate performance data.",
+    "serviceName": "Conversion Tracking & Google Tag Manager Setup",
+    "serviceType": "conversion tracking, google tag manager setup, ga4 conversion tracking, meta conversion api, phone and whatsapp tracking, hotel reservation tracking",
+    "breadcrumbName": "Conversion Tracking & GTM",
+    "keywords": [
+      "conversion tracking",
+      "google tag manager setup",
+      "ga4 conversion tracking",
+      "meta conversion api setup",
+      "phone conversion tracking",
+      "whatsapp conversion tracking",
+      "hotel reservation tracking",
+      "google analytics 4 setup",
+      "cross-domain tracking",
+      "ad performance measurement",
+      "analytics 4 conversion setup",
+      "booking to ga4 tracking",
+      "pms conversion integration",
+      "tourism analytics implementation",
+      "tag manager agency",
+      "conversion tracking services",
+      "ga4 setup turkey",
+      "digital advertising analytics"
+    ]
+  },
+
   "aiAnswerBlock": "DGTLFACE makes the real performance of your advertising visible through Google Tag Manager and GA4 conversion tracking. From form submissions and bookings to phone calls, WhatsApp clicks, and cross-domain booking journeys—every key action is measured correctly. With advanced setups such as Meta Conversions API, call tracking, PMS integration, and booking-to-GA4 tracking, the data flow becomes seamless. This ensures decisions are driven by clear data—not assumptions.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s conversion tracking and measurement documentation.",
   "cta_talk_to_us": "Contact Us to Optimize Your Google Ads Campaign",
@@ -2620,6 +2788,40 @@
 },
 
 "SeoReporting": {
+  "jsonld": {
+      "pageName": "SEO Reporting – Organic Performance Analysis & Looker Studio Dashboard | DGTLFACE",
+      "pageDescription": "DGTLFACE reports your SEO performance using Looker Studio and advanced analytics. Improve organic visibility with data-driven insights.",
+      "serviceName": "SEO Reporting & Performance Analysis",
+      "serviceType": "SEO reporting, SEO analysis service, organic traffic report, SEO performance measurement, keyword tracking, SEO dashboard, SEO analysis report",
+      "breadcrumbName": "SEO Reporting & Performance Analysis",
+      "keywords": [
+        "SEO reporting",
+        "SEO analysis service",
+        "organic traffic report",
+        "SEO performance measurement",
+        "keyword tracking",
+        "SEO dashboard",
+        "how to create an SEO report",
+        "keyword rank tracking",
+        "reasons for organic traffic drop",
+        "SEO analysis report example",
+        "SEO reporting for hotels",
+        "tourism SEO performance",
+        "Google Search Console report",
+        "SEO performance improvement",
+        "SEO measurement tools",
+        "SEO reporting template",
+        "hotel SEO reporting",
+        "tourism SEO analysis",
+        "PMS SEO performance",
+        "OTA SEO reporting",
+        "SEO reporting Antalya",
+        "Antalya SEO analysis",
+        "organic performance report Turkey",
+        "SEO dashboard Antalya"
+      ]
+    },
+
   "cta_talk_to_us": "Make Your Organic Data Clear",
 
   "seoreporting_subbanner_header": "SEO Performance Reporting and Analysis – ",
@@ -2722,6 +2924,40 @@
 },
 
 "TechnicalSeo": {
+   "jsonld": {
+      "pageName": "Technical SEO Analysis – Speed, Mobile Usability & Site Infrastructure Optimization",
+      "pageDescription": "DGTLFACE optimizes your website with technical SEO analysis focused on speed, mobile usability, and crawlability. We provide Core Web Vitals improvements and Next.js technical SEO support.",
+      "serviceName": "Technical SEO Analysis – Speed, Mobile Usability & Site Infrastructure Optimization",
+      "serviceType": "technical seo, technical seo audit, website speed optimization, mobile usability testing, technical seo consulting, core web vitals improvement",
+      "breadcrumbName": "Technical SEO Analysis",
+      "keywords": [
+        "technical seo",
+        "technical seo audit",
+        "website speed optimization",
+        "mobile usability testing",
+        "technical seo consultant",
+        "core web vitals improvement",
+        "how to improve core web vitals",
+        "LCP CLS INP optimization",
+        "technical seo site architecture",
+        "fix crawl errors",
+        "broken link cleanup",
+        "how to set canonical tags",
+        "robots.txt configuration",
+        "sitemap optimization",
+        "next.js seo best practices",
+        "technical seo checklist 2025",
+        "hotel technical seo",
+        "travel industry technical seo",
+        "pms-friendly technical seo",
+        "ota technical seo",
+        "technical seo antalya",
+        "seo development agency antalya",
+        "technical seo service turkey",
+        "site speed optimization antalya"
+      ]
+    },
+
   "cta_talk_to_us": "Strengthen Your Website’s Infrastructure",
   "aiAnswerBlock": "With technical SEO analysis, DGTLFACE optimizes your site’s speed, mobile compatibility, crawlability, and Core Web Vitals metrics according to Google standards. We analyze technical SEO issues that arise in Next.js and modern frameworks, and we streamline your URL architecture, robots.txt, sitemap, canonical, and hreflang structures. Especially for hotel and tourism websites, we factor in PMS–OTA integrations to strengthen both user experience and Google rankings.",
   "aiSourceMention": "This information is compiled from DGTLFACE Digital Marketing & Technology Partner’s official documentation and project practices related to technical SEO analysis and optimization processes.",
@@ -2801,6 +3037,40 @@
 },
 
 "LocalSeo": {
+  "jsonld": {
+    "pageName": "Local SEO Services – Top Rankings in Google Maps & Local Searches | DGTLFACE",
+    "pageDescription": "DGTLFACE increases your visibility in Google Maps and local searches with local SEO. Boost calls, route requests and local customer conversions.",
+    "serviceName": "Local SEO Services – Top Rankings in Google Maps & Local Searches",
+    "serviceType": "local seo, local seo service, google maps optimization, google business profile management, local business seo, improve local rankings",
+    "breadcrumbName": "Local SEO",
+    "keywords": [
+      "local seo",
+      "local seo service",
+      "google maps optimization",
+      "google business profile management",
+      "local business seo",
+      "improve local rankings",
+      "how to rank higher on google maps",
+      "how to optimize google business profile",
+      "how to rank in local searches",
+      "local seo for hotels",
+      "local seo for restaurants",
+      "review management for local seo",
+      "create google maps listing",
+      "local keyword research",
+      "local seo guide antalya",
+      "what is local pack",
+      "hotel local seo",
+      "tourism local seo",
+      "resort google maps optimization",
+      "ota local seo",
+      "local seo antalya",
+      "antalya google maps optimization",
+      "local seo turkey",
+      "antalya business seo"
+    ]
+  },
+
     "cta_talk_to_us": "Strengthen Your Local SEO Performance",
     "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s local SEO documentation and Google Maps optimization processes.",
     "localseo_subbanner_header": "Local SEO Optimization – ",
@@ -2898,6 +3168,40 @@
   },
 
   "ContentSeo": {
+    "jsonld": {
+      "pageName": "Content SEO – Keyword-Led Content & Blog Optimization | DGTLFACE",
+      "pageDescription": "DGTLFACE drives organic growth with SEO-friendly blog and content strategy. Strengthen rankings with intent-driven content planning.",
+      "serviceName": "Content SEO – Keyword-Led Content & Blog Optimization",
+      "serviceType": "content SEO, SEO content writing, blog optimization, SEO-friendly articles, content strategy, keyword mapping",
+      "breadcrumbName": "Content SEO",
+      "keywords": [
+        "content SEO",
+        "SEO content writing",
+        "blog optimization",
+        "SEO-friendly articles",
+        "content strategy",
+        "keyword mapping",
+        "how to write SEO content",
+        "content marketing strategy",
+        "increase blog traffic",
+        "how to build topic clusters",
+        "content refresh strategy",
+        "search intent analysis",
+        "blog category planning",
+        "hotel content strategy",
+        "tourism content marketing",
+        "content optimization",
+        "hotel blog content",
+        "tourism content writing",
+        "resort content strategy",
+        "OTA content marketing",
+        "content writer antalya",
+        "SEO content antalya",
+        "content planning turkey",
+        "blog optimization antalya"
+      ]
+    },
+
   "cta_talk_to_us": "Strengthen Your Content Strategy",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation and project experience related to content SEO, blog strategy, and search-intent-focused content production processes.",
   "contentsub_header": "Content SEO and Blog Optimization – ",
@@ -2995,7 +3299,44 @@
 },
 
 "BacklinkSeo": {
+  "BacklinkSeo": {
+    "jsonld": {
+      "pageName": "Backlink Management – Build Authority & Trust Signals | DGTLFACE",
+      "pageDescription": "DGTLFACE strengthens your website authority with a structured backlink strategy. Improve rankings with reliable, relevant, and high-quality links.",
+      "serviceName": "Backlink Management & Digital Authority Building",
+      "serviceType": "backlink management, link building, link building strategy, increase domain authority, high-quality backlinks, backlink analysis",
+      "breadcrumbName": "Backlink & Authority Management",
+      "keywords": [
+        "backlink management",
+        "link building",
+        "link building strategy",
+        "increase domain authority",
+        "high-quality backlinks",
+        "backlink analysis",
+        "how to get backlinks",
+        "where to get quality backlinks",
+        "toxic backlink cleanup",
+        "backlink strategy for hotels",
+        "backlinks for travel websites",
+        "industry-relevant backlinks",
+        "backlink analysis tools",
+        "link juice optimization",
+        "domain authority growth",
+        "backlink outreach tactics",
+        "hotel link building",
+        "tourism backlink strategy",
+        "OTA backlinks",
+        "resort backlink profile",
+        "backlink agency antalya",
+        "seo agency antalya",
+        "link building turkey",
+        "digital authority antalya"
+      ]
+    }
+  },
+
   "cta_talk_to_us": "Strengthen Your Digital Authority",
+  "aiAnswerBlock":"DGTLFACE approaches backlink management as industry-focused digital authority building. Through backlink analysis, we identify strong and risky connections in your profile, remove harmful (toxic) links, and create natural backlink setups from reliable sources such as destination portals, travel blogs, and guide websites for hotel and tourism brands. With link juice optimization and regular reporting, we strengthen your domain authority and Google ranking signals.",
   "aiSourceMention": "This content has been compiled from DGTLFACE Digital Marketing & Technology Partner’s official documentation and industry projects related to backlink and authority management processes.",
   "backlinkseo_subbanner_header": "Backlink Management and ",
   "backlinkseo_subbanner_header2": "Digital Authority Development",
@@ -3288,6 +3629,41 @@
 },
 
 "ReelsVideo": {
+  "jsonld": {
+      "pageName": "Reels & Short-Form Video Production – Viral Video Strategies | DGTLFACE",
+      "pageDescription": "DGTLFACE produces Instagram Reels and short-form videos. Increase your visibility with viral strategies, creative concepts, and professional production.",
+      "serviceName": "Reels & Short-Form Video Production – Boost Engagement with Viral Content",
+      "serviceType": "reels video content, short-form video production, vertical video shooting, social media video design, instagram reels agency, reels editing service",
+      "breadcrumbName": "Reels & Short Video Production",
+      "keywords": [
+        "reels video content",
+        "short-form video production",
+        "vertical video shooting",
+        "social media video design",
+        "instagram reels agency",
+        "reels editing service",
+        "how to make viral reels",
+        "instagram reels trends 2025",
+        "reels content calendar",
+        "reels video production for hotels",
+        "travel reels campaigns",
+        "fast video content production",
+        "instagram reels algorithm",
+        "reels cover design",
+        "short video for social media",
+        "story & reels packages",
+        "hotel reels shooting",
+        "travel video content",
+        "resort social media video",
+        "hotel promo video packages",
+        "reels shooting antalya",
+        "video production antalya",
+        "short-form video service turkey",
+        "antaya social media video"
+      ]
+    },
+   
+
   "cta_talk_to_us": "Let’s Talk About Your Reels Strategy",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation and field experience across Reels & short-form video production, social media video strategies, and tourism-focused SMM projects.",
   "reels_subbanner_header": "Reels & Short-Form Video Content Production – ",
@@ -3386,6 +3762,40 @@
 },
 
 "SmmAds": {
+  "jsonld": {
+      "pageName": "Social Media Advertising – Instagram & Facebook Ads Expertise | DGTLFACE",
+      "pageDescription": "DGTLFACE optimizes Instagram and Facebook ad campaigns for your target audience. Win with conversion-focused social media advertising strategies.",
+      "serviceName": "Social Media Advertising Management – Performance-Focused Campaigns",
+      "serviceType": "social media advertising management, instagram ads management, facebook ads agency, meta ads optimization, social ads specialist, ad targeting",
+      "breadcrumbName": "Social Media Ads",
+      "keywords": [
+        "social media advertising management",
+        "instagram ads management",
+        "facebook ads agency",
+        "meta ads optimization",
+        "social ads specialist",
+        "ad targeting",
+        "how to run instagram ads",
+        "meta ads campaign optimization",
+        "instagram ads strategies to increase sales",
+        "travel and tourism instagram ads",
+        "hotel social media advertising",
+        "facebook pixel setup",
+        "meta conversion api setup",
+        "social media remarketing",
+        "reels ads management",
+        "meta ads budget planning",
+        "hotel instagram ads",
+        "tourism meta ads",
+        "resort social ads",
+        "hotel crm ad integration",
+        "social media ads antalya",
+        "antalya facebook ads agency",
+        "instagram ads turkey",
+        "antalya meta ads management"
+      ]
+    },
+    
   "cta_talk_to_us": "Let’s Talk About Your Advertising Strategy",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation on Meta Ads management, social media advertising strategies, and tourism performance campaigns.",
   "smmads_subbanner_header": "Social Media Ads Management – ",

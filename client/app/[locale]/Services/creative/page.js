@@ -315,22 +315,27 @@ const Page = ({ params }) => {
         ];
 
   const jsonLd = buildDepartmentJsonLd({
-    locale,
-    pageUrl,
-    pageName:
-      locale === "tr"
-        ? "Creative Tasarım & Prodüksiyon Hizmetleri – Marka Deneyimi Tasarlıyoruz | DGTLFACE"
-        : "Creative Design & Production Services | DGTLFACE",
-    pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-    serviceName:
-      locale === "tr"
-        ? "Creative Tasarım & Prodüksiyon Hizmetleri"
-        : "Creative Design & Production Services",
-    serviceDescription: stripHtml(t("aiAnswerBlock")),
-    breadcrumbName: locale === "tr" ? "Creative – Tasarım & Prodüksiyon" : "Creative Design",
-    faqItems,
-    serviceItems,
-  });
+  locale,
+  pageUrl,
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
+  serviceDescription: stripHtml(t("aiAnswerBlock")),
+
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
+  faqItems,
+  serviceItems,
+
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
+});
+
 
     
               const faqs = [

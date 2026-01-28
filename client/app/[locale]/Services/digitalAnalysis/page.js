@@ -298,27 +298,45 @@ const faqs = [1, 2, 3, 4, 5].map((i) => ({
 }));
 
 // ✅ StepSection buttonLink’leri ile birebir (absolute)
-const serviceItems = [
-  { name: stripHtml(t("analysis_services_title1")), url: `${pageUrl}/looker-studio` },
-  { name: stripHtml(t("analysis_services_title2")), url: `${pageUrl}/benchmark-analizi` },
-  { name: stripHtml(t("analysis_services_title3")), url: `${pageUrl}/satis-donusum` },
-  { name: stripHtml(t("analysis_services_title4")), url: `${pageUrl}/kvkk-veri-guvenligi` },
-];
+const serviceItems =
+  locale === "tr"
+    ? [
+        { name: stripHtml(t("analysis_services_title1")), url: `${base}/tr/raporlama/looker-studio` },
+        { name: stripHtml(t("analysis_services_title2")), url: `${base}/tr/raporlama/benchmark-analizi` },
+        { name: stripHtml(t("analysis_services_title3")), url: `${base}/tr/raporlama/satis-donusum` },
+        { name: stripHtml(t("analysis_services_title4")), url: `${base}/tr/raporlama/kvkk-veri-guvenligi` },
+      ]
+    : [
+        { name: stripHtml(t("analysis_services_title1")), url: `${base}/en/digital-analysis/looker-studio` },
+        { name: stripHtml(t("analysis_services_title2")), url: `${base}/en/digital-analysis/benchmark-analysis` },
+        { name: stripHtml(t("analysis_services_title3")), url: `${base}/en/digital-analysis/sales-conversion` },
+        { name: stripHtml(t("analysis_services_title4")), url: `${base}/en/digital-analysis/data-security` },
+      ];
+
 
 const jsonLd = buildDepartmentJsonLd({
   locale,
   pageUrl,
-  pageName:
-    locale === "tr"
-      ? "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE"
-      : "Data Analysis & Digital Performance Reporting | DGTLFACE",
-  pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-  serviceName: locale === "tr" ? "Veri Analizi & Dijital Performans Raporlama" : "Digital Analysis & Reporting",
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-  breadcrumbName: locale === "tr" ? "Raporlama" : "Digital Analysis",
+
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
   faqItems: faqs,
   serviceItems,
+
+  // ✅ AI alanları (yeni Google / AI Overview uyumu)
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
 });
+
           
              const items = [
                  {

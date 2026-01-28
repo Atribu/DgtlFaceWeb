@@ -244,11 +244,10 @@ const Page = () => {
   const t = useTranslations("RemarketingDisplay");
      const t2 = useTranslations("RemarketingDisplay.h4Section");
 
-    const jsonLd = buildServiceJsonLd({
+const jsonLd = buildServiceJsonLd({
   baseUrl,
   locale,
   canonicalUrl,
-
    pageName: t("jsonld.pageName"),
   pageDescription: t("jsonld.pageDescription"),
   serviceName: t("jsonld.serviceName"),
@@ -289,6 +288,10 @@ const Page = () => {
             t.raw("faq.answer5"),
          },
          ],
+           // 🤖 AI UYUMLU EK
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
        });
 
 

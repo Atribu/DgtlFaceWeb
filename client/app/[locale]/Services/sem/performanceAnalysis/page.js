@@ -218,7 +218,7 @@ export async function generateMetadata({ params }) {
 const Page = () => {
    const locale = useLocale();
     const baseUrl = getBaseUrl();
-    const pathnameKey = "/Services/sem/googleAdsAdvertising";
+    const pathnameKey = "/Services/sem/performanceAnalysis";
     const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
   const t = useTranslations("PerformanceAnalysis");
@@ -277,6 +277,11 @@ const Page = () => {
             t.raw("faq.answer5"),
          },
          ],
+
+          // 🤖 AI uyumlu alanlar (öncekiyle birebir)
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
        });
   
   
@@ -357,7 +362,7 @@ const Page = () => {
   buttonText={t("cta_talk_to_us")}
 />
 <AutoBreadcrumbs/>
-<AiAnswerBlock text={t("aiSourceMention")}/>
+<AiAnswerBlock text={t("aiAnswerBlock")}/>
       </div>
 <H2LogoSection items={h2items} />
 

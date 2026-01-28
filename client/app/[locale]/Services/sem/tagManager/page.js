@@ -5,13 +5,73 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.png"
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/QuestionSection2'
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
+
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
+  const pathnameKey = "/Services/sem/tagManager";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Dönüşüm Takibi & Google Tag Manager Kurulumu – GA4, Meta CAPI, WhatsApp/Telefon | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, GTM ve GA4 dönüşüm takibi, Meta Conversion API, WhatsApp/telefon ölçümü ve rezervasyon tracking ile reklam verisini doğru ölçer ve optimize eder.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
+      },
+    },
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+  };
+}
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -121,6 +181,13 @@ const homeJsonLd = {
 }
 
 const Page = () => {
+   const locale = useLocale();
+  const baseUrl = getBaseUrl();
+
+   const pathnameKey = "/Services/sem/tagManager";
+  const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+
+
    const t = useTranslations("TagManager");
    const t2 = useTranslations("TagManager.h4Section");
 
@@ -190,13 +257,40 @@ const Page = () => {
     { title: t("h2Section.header4"), text: t.raw("h2Section.text4") },
   ];
    
+
+    // ✅ JSON-LD (hardcoded yerine standard builder)
+  const jsonLd = buildServiceJsonLd({
+    baseUrl,
+    locale,
+    canonicalUrl,
+
+    pageName: t("jsonld.pageName"),
+    pageDescription: t("jsonld.pageDescription"),
+    serviceName: t("jsonld.serviceName"),
+    serviceType: t("jsonld.serviceType"),
+    keywords: t.raw("jsonld.keywords"),
+
+    breadcrumbItems: [
+      { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
+      { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+      { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+    ],
+
+    faqs,
+
+    // 🤖 AI alanları (yeni standart)
+    aiQuestion: t("jsonld.pageName"),
+    aiAnswer: t("aiAnswerBlock"),
+    aiSource: t("aiSourceMention"),
+  });
+
   
   return (
    <>
     <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>

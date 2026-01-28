@@ -303,29 +303,49 @@ const faqsLd = [1, 2, 3, 4, 5].map((i) => ({
 }));
 
 // ✅ StepSection buttonLink’leri ile birebir (absolute)
-const serviceItems = [
-  { name: stripHtml(t("hotel_services_title1")), url: `${pageUrl}/seo` },
-  { name: stripHtml(t("hotel_services_title2")), url: `${pageUrl}/sosyal-medya` },
-  { name: stripHtml(t("hotel_services_title3")), url: `${pageUrl}/reklam-yonetimi` },
-  { name: stripHtml(t("hotel_services_title4")), url: `${pageUrl}/ota-yonetimi` },
-  { name: stripHtml(t("hotel_services_title5")), url: `${pageUrl}/pms-entegrasyonu` },
-  { name: stripHtml(t("hotel_services_title6")), url: `${pageUrl}/cagri-merkezi` },
-];
+const serviceItems =
+  locale === "tr"
+    ? [
+        { name: stripHtml(t("hotel_services_title1")), url: `${base}/tr/otel/seo` },
+        { name: stripHtml(t("hotel_services_title2")), url: `${base}/tr/otel/sosyal-medya` },
+        { name: stripHtml(t("hotel_services_title3")), url: `${base}/tr/otel/reklam-yonetimi` },
+        { name: stripHtml(t("hotel_services_title4")), url: `${base}/tr/otel/ota-yonetimi` },
+        { name: stripHtml(t("hotel_services_title5")), url: `${base}/tr/otel/pms-entegrasyonu` },
+        { name: stripHtml(t("hotel_services_title6")), url: `${base}/tr/otel/cagri-merkezi` }
+      ]
+    : [
+        { name: stripHtml(t("hotel_services_title1")), url: `${base}/en/hotel/seo` },
+        { name: stripHtml(t("hotel_services_title2")), url: `${base}/en/hotel/social-media` },
+        { name: stripHtml(t("hotel_services_title3")), url: `${base}/en/hotel/advertising` },
+        { name: stripHtml(t("hotel_services_title4")), url: `${base}/en/hotel/ota-management` },
+        { name: stripHtml(t("hotel_services_title5")), url: `${base}/en/hotel/pms-integration` },
+        { name: stripHtml(t("hotel_services_title6")), url: `${base}/en/hotel/call-center` }
+      ];
+
 
 const jsonLd = buildDepartmentJsonLd({
   locale,
   pageUrl,
-  pageName:
-    locale === "tr"
-      ? "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE"
-      : "Hotel Digital Marketing & Transformation Services | DGTLFACE",
-  pageDescription: stripHtml(t("aiAnswerBlock")).slice(0, 300),
-  serviceName: locale === "tr" ? "Otel Dijital Pazarlama & Dönüşüm Hizmetleri" : "Hotel Digital Marketing & Transformation",
+
+  pageName: t("jsonld.pageName"),
+  pageDescription: t("jsonld.pageDescription"),
+
+  serviceName: t("jsonld.serviceName"),
   serviceDescription: stripHtml(t("aiAnswerBlock")),
-  breadcrumbName: locale === "tr" ? "Otel" : "Hotel",
+
+  breadcrumbName: t("jsonld.breadcrumbName"),
+
+  keywords: t.raw("jsonld.keywords"),
+
   faqItems: faqsLd,
   serviceItems,
+
+  // 🤖 AI uyumlu alanlar
+  aiQuestion: t("jsonld.pageName"),
+  aiAnswer: t("aiAnswerBlock"),
+  aiSource: t("aiSourceMention"),
 });
+
 
                 const faqs = [
               {
