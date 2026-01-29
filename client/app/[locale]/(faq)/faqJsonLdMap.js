@@ -9910,7 +9910,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-"video-ve-produksiyon-sss":{
+"video-produksiyon-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/creative/video-produksiyon-sss#faq",

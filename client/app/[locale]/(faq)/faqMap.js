@@ -36,7 +36,7 @@ export const FAQ_MAP = {
 
   "kurumsal-hediye-sss":"FaqCorporateGift",
   "etkinlik-produksiyonu-sss":"FaqEventProduction",
-  "video-ve-produksiyon-sss":"FaqVideoProduction",
+  "video-produksiyon-sss":"FaqVideoProduction",
   "ui-ux-hizmeti-sss":"FaqUiUxDesign",
   "grafik-motion-tasarim-sss":"FaqGraphicMotion",
 

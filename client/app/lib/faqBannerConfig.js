@@ -126,7 +126,7 @@ const SEO_CHIPS = [
       { label: "CREATIVE (Genel)", href: faqHrefBySlug("creative-sss") },
        { label: "Grafik Motion Tasarım", href: faqHrefBySlug("grafik-motion-tasarim-sss") },
       { label: "UI/UX Dizayn", href: faqHrefBySlug("ui-ux-hizmeti-sss") },
-      { label: "Video Prodüksiyon", href: faqHrefBySlug("video-ve-produksiyon-sss") },
+      { label: "Video Prodüksiyon", href: faqHrefBySlug("video-produksiyon-sss") },
       { label: "Etkinlik Prodüksiyon", href: faqHrefBySlug("etkinlik-produksiyonu-sss") },
       { label: "Kurumsal Hediye", href: faqHrefBySlug("kurumsal-hediye-sss") },
     ];
@@ -225,7 +225,7 @@ const GROUPS = {
       "creative-sss",
       "grafik-motion-tasarim-sss",
       "ui-ux-hizmeti-sss",
-      "video-ve-produksiyon-sss",
+      "video-produksiyon-sss",
       "etkinlik-produksiyonu-sss",
       "kurumsal-hediye-sss",
     ],
@@ -359,7 +359,7 @@ export const FAQ_BANNER_ASSET_MAP = {
   "grafik-motion-tasarim-sss": imgCreative3,
   "kurumsal-hediye-sss": imgCreative4,
   "ui-ux-hizmeti-sss": imgCreative5,
-  "video-ve-produksiyon-sss": imgCreative6,
+  "video-produksiyon-sss": imgCreative6,
 
   // ---------------------------------------------------------
   // CALL CENTER

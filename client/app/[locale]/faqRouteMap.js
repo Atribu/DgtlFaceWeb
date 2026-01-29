@@ -27,7 +27,7 @@ export const FAQ_ROUTE_MAP = [
   // -----------------------------
   { match: /^\/creative\/kurumsal-hediye(\/.*)?$/, slug: "kurumsal-hediye-sss" },
   { match: /^\/creative\/etkinlik-produksiyonu(\/.*)?$/, slug: "etkinlik-produksiyonu-sss" },
-  { match: /^\/creative\/video-ve-produksiyon(\/.*)?$/, slug: "video-ve-produksiyon-sss" },
+  { match: /^\/creative\/video-produksiyon(\/.*)?$/, slug: "video-produksiyon-sss" },
   { match: /^\/creative\/ui-ux-hizmeti(\/.*)?$/, slug: "ui-ux-hizmeti-sss" },
   { match: /^\/creative\/grafik-motion-tasarim(\/.*)?$/, slug: "grafik-motion-tasarim-sss" },
   { match: /^\/creative(\/.*)?$/, slug: "creative-sss" },
@@ -222,7 +222,7 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
   // Creative
   "kurumsal-hediye-sss": "creative",
   "etkinlik-produksiyonu-sss": "creative",
-  "video-ve-produksiyon-sss": "creative",
+  "video-produksiyon-sss": "creative",
   "ui-ux-hizmeti-sss": "creative",
   "grafik-motion-tasarim-sss": "creative",
 

@@ -3431,6 +3431,28 @@
 },
 
 "SocialMediaContent": {
+   "jsonld": {
+    "pageName": "Social Media Content Production – Creative & Engaging Content | DGTLFACE",
+    "pageDescription": "DGTLFACE produces social media content tailored to your brand. Boost engagement with creative designs, video assets, and Reels formats.",
+    "serviceName": "Social Media Content Production – Professional Designs Tailored to Your Brand",
+    "serviceType": "social media content production, content design, Instagram content production, Reels content service, graphic content design, social media creatives",
+    "breadcrumbName": "Social Media Content Production",
+    "keywords": [
+      "social media content production",
+      "content design",
+      "Instagram content production",
+      "Reels content service",
+      "graphic content design",
+      "social media creatives",
+      "hotel social media content",
+      "Reels content ideas",
+      "how to build a content calendar",
+      "professional post design",
+      "multilingual social media content",
+      "Antalya content production"
+    ]
+  },
+
   "cta_talk_to_us": "Strengthen Your Social Media Content",
 
   "socialmedia_subbanner_header": "Social Media Content Production – ",
@@ -3530,6 +3552,24 @@
 },
 
 "SocialMediaStrategy": {
+   "jsonld": {
+    "pageName": "Social Media Strategy & Content Planning – Professional SMM Management | DGTLFACE",
+    "pageDescription": "DGTLFACE builds a social media strategy for your brand and improves visibility and engagement with content calendar, targeting, and KPI planning.",
+    "serviceName": "Social Media Strategy & Content Planning – Effective SMM Management",
+    "serviceType": "social media strategy, social media planning, content calendar, social media management strategies, KPI planning, social media analysis",
+    "breadcrumbName": "Planning & Strategy",
+    "keywords": [
+      "social media strategy",
+      "social media planning",
+      "content calendar",
+      "KPI planning",
+      "audience analysis",
+      "Reels planning",
+      "hotel social media strategy",
+      "30-day content calendar"
+    ]
+  },
+
   "cta_talk_to_us": "Strengthen Your Social Media Strategy",
   "aiSourceMention": "This information has been compiled from DGTLFACE’s documentation on social media strategy planning, content calendar creation, and tourism-focused SMM strategy processes.",
   "smstrategy_subbanner_header": "Social Media Strategy and Content Planning – ",
@@ -3894,6 +3934,24 @@
 },
 
 "SmmAnalyticsReporting": {
+  "jsonld": {
+    "pageName": "Social Media Analytics & Reporting – Engagement and Performance Measurement | DGTLFACE",
+    "pageDescription": "DGTLFACE measures your social media performance and provides detailed reporting. We analyze engagement, reach, and campaign data to strengthen your strategy.",
+    "serviceName": "Social Media Analytics & Reporting – Measure Performance Accurately",
+    "serviceType": "social media analytics, social media reporting, engagement analysis, reach report, Instagram analytics tool, KPI reporting",
+    "breadcrumbName": "Analytics & Reporting",
+    "keywords": [
+      "social media analytics",
+      "social media reporting",
+      "engagement analysis",
+      "reach report",
+      "KPI reporting",
+      "monthly social media report",
+      "Reels performance analysis",
+      "hotel social media report"
+    ]
+  },
+  
   "cta_talk_to_us": "Let’s Review Your Social Media Results",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation on social media analytics & reporting, Looker Studio dashboards, and tourism-focused SMM performance management.",
   "smmanalytics_subbanner_header": "Social Media Analytics and ",

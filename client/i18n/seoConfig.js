@@ -341,7 +341,7 @@ export const seoConfig = {
     },
   
   },
-  "/Services/creative/videoProduction": { // TR Slug: /antalya-tasarim/video-ve-produksiyon
+  "/Services/creative/videoProduction": { // TR Slug: /antalya-tasarim/video-produksiyon
     tr: {
       title: "Antalya Video Prodüksiyon ve Çekim Hizmetleri | Kurumsal Tanıtım Filmi",
       description: "Marka bilinirliğinizi artırmak için profesyonel kurumsal tanıtım, otel ve reklam filmi prodüksiyonu.",
@@ -413,34 +413,34 @@ export const seoConfig = {
   // SMM Alt Sayfaları
   "/Services/smm/socialMediaReporting": { 
     tr: {
-      title: "Antalya Sosyal Medya Raporlama ve Analiz Hizmetleri | Dönüşüm Takibi",
-      description: "Aylık detaylı sosyal medya performans raporları, ROI ve dönüşüm odaklı analiz hizmetleri.",
+      title: "Sosyal Medya Analiz & Raporlama – Etkileşim ve Performans Ölçümü | DGTLFACE",
+      description: "DGTLFACE, sosyal medya performansınızı ölçerek detaylı raporlama sunar. Etkileşim, erişim ve kampanya verilerini analiz ederek stratejinizi güçlendirir.",
     },
     en: {
-      title: "Antalya Social Media Reporting and Analysis Services | Conversion Tracking",
-      description: "Detailed monthly social media performance reports, ROI, and conversion-focused analysis services.",
+      title: "Social Media Analytics & Reporting – Engagement and Performance Measurement | DGTLFACE",
+      description: "DGTLFACE measures your social media performance and provides detailed reporting. We analyze engagement, reach, and campaign data to strengthen your strategy.",
     },
  
   },
   "/Services/smm/socialMediaContent": { 
     tr: {
-      title: "Antalya Sosyal Medya İçerik Üretimi ve Tasarımı | Etkileşim Odaklı",
-      description: "Marka kimliğinize uygun, takipçilerinizin ilgisini çeken yaratıcı görsel ve metinsel içerikler.",
+      title: "Sosyal Medya İçerik Üretimi – Kreatif ve Çekici İçerikler | DGTLFACE",
+      description: "DGTLFACE, markanıza uygun sosyal medya içerikleri üretir. Kreatif tasarımlar, video içerikler ve Reels formatlarıyla etkileşiminizi artırın.",
     },
     en: {
-      title: "Antalya Social Media Content Creation and Design | Engagement Focused",
-      description: "Creative visual and textual content that matches your brand identity and engages your followers.",
+      title: "Social Media Content Production – Creative & Engaging Content | DGTLFACE",
+      description: "DGTLFACE produces social media content tailored to your brand. Boost engagement with creative designs, video assets, and Reels formats.",
     },
 
   },
   "/Services/smm/socialMediaPlanning": { 
     tr: {
-      title: "Antalya Sosyal Medya Strateji ve Planlama Hizmeti | Hedef Kitle Belirleme",
-      description: "Marka hedeflerinize uygun, hangi platformda ne zaman paylaşım yapılacağını belirleyen stratejik planlama.",
+      title: "Sosyal Medya Strateji ve İçerik Planlama – Profesyonel SMM Yönetimi | DGTLFACE",
+      description: "DGTLFACE, markanız için sosyal medya stratejisi oluşturur; içerik takvimi, hedefleme ve KPI planlamasıyla etkileşim ve görünürlük sağlar.",
     },
     en: {
-      title: "Antalya Social Media Strategy and Planning Service | Target Audience Definition",
-      description: "Strategic planning that defines where and when to post on which platforms, aligned with your brand goals.",
+      title: "Social Media Strategy & Content Planning – Professional SMM Management | DGTLFACE",
+      description: "DGTLFACE builds a social media strategy for your brand and improves visibility and engagement with content calendar, targeting, and KPI planning.",
     },
  
   },

@@ -55,7 +55,7 @@ const SEGMENT_TO_HEADER_KEY = {
   "creative": "creative",
   "kurumsal-hediye": "creative_corporate_gift",
   "ui-ux-hizmeti": "creative_uiux",
-  "video-ve-produksiyon": "creative_video",
+  "video-produksiyon": "creative_video",
 
   // ---- Digital Analysis ----
   raporlama: "digital_analysis_reporting",

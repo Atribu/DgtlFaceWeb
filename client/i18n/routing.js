@@ -142,7 +142,7 @@ export const routing = defineRouting({
     },
     "/Services/creative/videoProduction": { // https://www.dgtlface.com/tr/Services/creative/videoProduction
       en: "/creative/video-production",
-      tr: "/creative/video-ve-produksiyon",
+      tr: "/creative/video-produksiyon",
       
     },
 
