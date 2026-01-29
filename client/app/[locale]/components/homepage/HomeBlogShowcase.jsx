@@ -173,14 +173,14 @@ export default function HomeBlogShowcase({
 
   return (
     <section className="mx-auto w-full xl:w-[98%] max-w-[1900px] px-4 py-3 lg:py-6">
-      <div className="flex items-end justify-between gap-4">
+      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4">
         <div>
-          <h2 className="text-black text-xl lg:text-2xl font-semibold">
+          <h2 className="text-black text-[14px] md:text-[16px] lg:text-xl font-normal lg:font-semibold">
             {t("recentlyAdded")}
           </h2>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1 lg:gap-3">
           {/* index */}
           <span className="text-xs text-black/60 tabular-nums min-w-[64px] text-center">
             {Math.min(activeIndex, latest.length)} / {latest.length}
@@ -192,7 +192,7 @@ export default function HomeBlogShowcase({
             onClick={() => scrollByAmount(-1)}
             disabled={!canPrev}
             aria-label="Previous"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
+            className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed"
           >
             ←
@@ -203,16 +203,16 @@ export default function HomeBlogShowcase({
             onClick={() => scrollByAmount(1)}
             disabled={!canNext}
             aria-label="Next"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
+            className="flex h-6 w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-black/20 bg-white/70 shadow-sm transition
                        hover:bg-white disabled:opacity-30 disabled:cursor-not-allowed relative"
           >
-            <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
+            <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual text-xs" />
             →
           </button>
 
           <Link
             href={`/${locale}/blogs`}
-            className="!text-black text-sm inline-flex items-center gap-2"
+            className="!text-black text-xs lg:text-sm inline-flex items-center gap-2 ml-6 md:ml-0"
           >
             {t("allBlogs")} <span>→</span>
           </Link>

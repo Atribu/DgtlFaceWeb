@@ -58,7 +58,7 @@ export const BLOG_MAP = {
     "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe"
   },
 
-       callcenter: {
+       "cagri-merkezi": {
     "4-dilli-cagri-merkezi-nedir-nasil-calisir": "Blog4DilliCagriMerkeziNedirNasilCalisir",
     "tr-en-de-ru-cagri-script-tasarimi":"BlogTrEnDeRuCagriScriptTasarimi",
     "4-dilli-agent-secimi-egitim-ve-kocluk":"Blog4DilliAgentSecimiEgitimVeKochluk",
@@ -66,7 +66,8 @@ export const BLOG_MAP = {
     "4-dilli-cagri-merkezi-kpi-kalite-ve-raporlama":"Blog4DilliCagriMerkeziKPIKaliteVeRaporlama",
 
     "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis",
-    "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma"
+    "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma",
+    "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":"BlogOtaRezervasyonSorulariDegisiklikVeIptalYonetimi"
   },
 
     "pms-ota": {
@@ -77,10 +78,11 @@ export const BLOG_MAP = {
     "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
     
     "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik",
-    "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum"
+    "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum",
+    "ota-rate-parity-fiyat-esitleme-stratejileri":"BlogOtaRateParityFiyatEsitlemeStratejileri"
   },
 
-    "veri-analizi-raporlama": {
+    "raporlama": {
     "looker-studio-oteller-icin-nedir-nasil-calisir": "BlogLookerStudioOtellerIcinNedirNasilCalisir",
     "seo-sem-smm-verilerini-tek-panelde-birlestirmek":"BlogSeoSemSmmVerileriniTekPaneldeBirlestirmek",
     "pms-ota-verilerini-looker-studioya-baglamak":"BlogPmsOtaVerileriniLookerStudioyaBaglamak",
@@ -92,7 +94,7 @@ export const BLOG_MAP = {
   },
 
 
-  hotel:{
+  "otel":{
     "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir":"BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir",
     "oda-sayfalari-google-travel-icin-nasil-optimize-edilir":"BlogOdaSayfalariGoogleTravelIcinNasilOptimizeEdilir",
     "destinasyon-icerigi-ile-direct-booking-seo-stratejisi":"BlogDestinasyonIcerigiIleDirectBookingSeoStratejisi",

@@ -7,7 +7,7 @@ import image2 from "./images/image2.png"
 import image3 from "./images/image3.webp"
 import image4 from "./images/image4.webp"
 import image5 from "./images/image5.webp"
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -15,159 +15,222 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller ve markalar için satış sonrası müşteri destek, şikayet yönetimi, çok kanallı iletişim ve CRM/PMS entegrasyonlu çağrı merkezi çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  // Türkçe yorum: og-map + seo-utils + canonical mapping key’i
+  const pathnameKey = "/Services/callcenter/aftersalesSupport";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ]
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#webpage",
-      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
-      "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE",
-      "description": "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#service",
-      "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri",
-      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "müşteri destek merkezi, satış sonrası hizmet, müşteri hizmetleri, destek hattı, çağrı sonrası takip, müşteri iletişim yönetimi",
-      "description": "DGTLFACE, satış sonrası müşteri destek süreçlerini profesyonel ekiplerle yönetir. Telefon, WhatsApp, e-posta, DM, OTA mesajları ve web chat üzerinden gelen soru, şikayet ve talepleri çok kanallı iletişim modeliyle karşılar; şikayet yönetimi, çağrı sonrası CRM entegrasyonu, memnuniyet ölçümü ve otel/turizm projelerinde PMS destek süreçleriyle marka sadakati ve müşteri memnuniyetini artırır.",
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "müşteri destek merkezi",
-        "satış sonrası hizmet",
-        "müşteri hizmetleri",
-        "destek hattı",
-        "çağrı sonrası takip",
-        "müşteri iletişim yönetimi",
-        "müşteri şikayet yönetimi nasıl yapılır",
-        "satış sonrası destek örnekleri",
-        "müşteri sorun çözme teknikleri",
-        "oteller için satış sonrası süreç",
-        "turizm müşteri yönetimi",
-        "çağrı sonrası crm entegrasyonu",
-        "müşteri memnuniyeti artırma yöntemleri",
-        "satış sonrası destek kanalları",
-        "otel satış sonrası destek",
-        "turizm müşteri memnuniyeti",
-        "resort customer care",
-        "booking sonrası misafir iletişimi",
-        "müşteri destek antalya",
-        "antalya çağrı merkezi",
-        "satış sonrası destek türkiye",
-        "antalya müşteri hizmetleri"
-      ]
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Çağrı Merkezi Hizmetleri",
-          "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Satış Sonrası Destek",
-          "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Satış sonrası destek nedir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Satış sonrası destek; misafir veya müşterilerin satın alma veya konaklama sonrasında ilettiği soru, şikayet, talep ve önerilerin telefon, WhatsApp, e-posta, DM, web chat ve OTA mesajları üzerinden profesyonel şekilde yönetilmesi, çözümlenmesi ve takip edilmesi sürecidir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Otellerde satış sonrası süreç nasıl çalışır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Otellerde satış sonrası süreç; konaklama öncesi ve sonrası iletişim, şikayet ve talep yönetimi, memnuniyet aramaları, yorum davetleri ve tekrar rezervasyon önerileri gibi adımları içerir ve marka sadakatini doğrudan etkiler."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Çok kanallı müşteri desteği nasıl kurgulanır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Çok kanallı müşteri desteğinde telefon, WhatsApp, e-posta, sosyal medya mesajları, yorumlar, web chat ve OTA mesajları tek bir iletişim mimarisinde birleşir; tüm kanallar için ortak ton, SLA ve çözüm prosedürleri tanımlanır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "CRM entegrasyonu nasıl yapılır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Satış sonrası çağrı ve mesaj kayıtları, konu, sonuç ve aksiyon bilgileriyle birlikte CRM veya PMS sistemine işlenir; böylece misafir geçmişi, tekrarlayan şikayetler ve VIP/riskli profiller tek ekrandan takip edilebilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Misafir geri dönüş toplama yöntemleri nelerdir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Misafir geri bildirimleri; konaklama sonrası aramalar, kısa anketler, e-posta/WhatsApp linkleri, OTA ve Google yorum davetleri ile toplanabilir ve bu veriler memnuniyet ve hizmet iyileştirme süreçlerinde kullanılabilir."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
 
-const Page = () => {
-  const t = useTranslations("AfterSalesSupportPage");
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com",
+//       "description": "DGTLFACE, oteller ve markalar için satış sonrası müşteri destek, şikayet yönetimi, çok kanallı iletişim ve CRM/PMS entegrasyonlu çağrı merkezi çözümleri sunan dijital pazarlama ve teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ]
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#webpage",
+//       "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+//       "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE",
+//       "description": "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.",
+//       "inLanguage": "tr-TR",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#service",
+//       "name": "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri",
+//       "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "müşteri destek merkezi, satış sonrası hizmet, müşteri hizmetleri, destek hattı, çağrı sonrası takip, müşteri iletişim yönetimi",
+//       "description": "DGTLFACE, satış sonrası müşteri destek süreçlerini profesyonel ekiplerle yönetir. Telefon, WhatsApp, e-posta, DM, OTA mesajları ve web chat üzerinden gelen soru, şikayet ve talepleri çok kanallı iletişim modeliyle karşılar; şikayet yönetimi, çağrı sonrası CRM entegrasyonu, memnuniyet ölçümü ve otel/turizm projelerinde PMS destek süreçleriyle marka sadakati ve müşteri memnuniyetini artırır.",
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "müşteri destek merkezi",
+//         "satış sonrası hizmet",
+//         "müşteri hizmetleri",
+//         "destek hattı",
+//         "çağrı sonrası takip",
+//         "müşteri iletişim yönetimi",
+//         "müşteri şikayet yönetimi nasıl yapılır",
+//         "satış sonrası destek örnekleri",
+//         "müşteri sorun çözme teknikleri",
+//         "oteller için satış sonrası süreç",
+//         "turizm müşteri yönetimi",
+//         "çağrı sonrası crm entegrasyonu",
+//         "müşteri memnuniyeti artırma yöntemleri",
+//         "satış sonrası destek kanalları",
+//         "otel satış sonrası destek",
+//         "turizm müşteri memnuniyeti",
+//         "resort customer care",
+//         "booking sonrası misafir iletişimi",
+//         "müşteri destek antalya",
+//         "antalya çağrı merkezi",
+//         "satış sonrası destek türkiye",
+//         "antalya müşteri hizmetleri"
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Çağrı Merkezi Hizmetleri",
+//           "item": "https://dgtlface.com/tr/cagri-merkezi-hizmetleri"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 3,
+//           "name": "Satış Sonrası Destek",
+//           "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Satış sonrası destek nedir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Satış sonrası destek; misafir veya müşterilerin satın alma veya konaklama sonrasında ilettiği soru, şikayet, talep ve önerilerin telefon, WhatsApp, e-posta, DM, web chat ve OTA mesajları üzerinden profesyonel şekilde yönetilmesi, çözümlenmesi ve takip edilmesi sürecidir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Otellerde satış sonrası süreç nasıl çalışır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Otellerde satış sonrası süreç; konaklama öncesi ve sonrası iletişim, şikayet ve talep yönetimi, memnuniyet aramaları, yorum davetleri ve tekrar rezervasyon önerileri gibi adımları içerir ve marka sadakatini doğrudan etkiler."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Çok kanallı müşteri desteği nasıl kurgulanır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Çok kanallı müşteri desteğinde telefon, WhatsApp, e-posta, sosyal medya mesajları, yorumlar, web chat ve OTA mesajları tek bir iletişim mimarisinde birleşir; tüm kanallar için ortak ton, SLA ve çözüm prosedürleri tanımlanır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "CRM entegrasyonu nasıl yapılır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Satış sonrası çağrı ve mesaj kayıtları, konu, sonuç ve aksiyon bilgileriyle birlikte CRM veya PMS sistemine işlenir; böylece misafir geçmişi, tekrarlayan şikayetler ve VIP/riskli profiller tek ekrandan takip edilebilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Misafir geri dönüş toplama yöntemleri nelerdir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Misafir geri bildirimleri; konaklama sonrası aramalar, kısa anketler, e-posta/WhatsApp linkleri, OTA ve Google yorum davetleri ile toplanabilir ve bu veriler memnuniyet ve hizmet iyileştirme süreçlerinde kullanılabilir."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
-const t2 = useTranslations("AfterSalesSupportPage.h4Section");
+export default async function Page({ params: { locale } }) {
+   const t = await getTranslations({ locale, namespace: "AfterSalesSupportPage" });
+      const t2 = await getTranslations({ locale, namespace: "AfterSalesSupportPage.h4Section" });
+
+      const baseUrl = getBaseUrl();
+            const pathnameKey = "/Services/callcenter/aftersalesSupport";
+            const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
            
               const stepData = [1,2,3,4,5].map(i => ({
                 id: i,
@@ -233,13 +296,49 @@ const t2 = useTranslations("AfterSalesSupportPage.h4Section");
                { title: t("h2Section.header2"), text: t.raw("h2Section.text2") },
                { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
+
+               const jsonLd = buildServiceJsonLd({
+                              baseUrl,
+                              locale,
+                              canonicalUrl,
+                          
+                              pageName: t("jsonld.pageName"),
+                              pageDescription: t("jsonld.pageDescription"),
+                              serviceName: t("jsonld.serviceName"),
+                              serviceType: t("jsonld.serviceType"),
+                              keywords: t.raw("jsonld.keywords"),
+                          
+                              breadcrumbItems: [
+                                {
+                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
+                                  url: `${baseUrl}/${locale}`,
+                                },
+                          
+                                {
+                                  name:
+                                    locale === "tr"
+                                      ? "Çağrı Merkezi Hizmetleri"
+                                      : "Call Center Services",
+                                  url: `${baseUrl}${locale === "tr" ? "/tr/cagri-merkezi" : "/en/call-center"}`,
+                                },
+                          
+                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+                              ],
+                          
+                              faqs,
+                          
+                              // 🤖 AI alanları (yeni standart)
+                              aiQuestion: t("jsonld.pageName"),
+                              aiAnswer: t("ai_answer_text"),
+                              aiSource: t("aiSourceMention"),
+                            });
   
   return (
     <>
      <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
@@ -276,4 +375,3 @@ const t2 = useTranslations("AfterSalesSupportPage.h4Section");
   )
 }
 
-export default Page

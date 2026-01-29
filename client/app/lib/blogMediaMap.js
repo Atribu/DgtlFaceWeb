@@ -3704,6 +3704,114 @@ export const BLOG_MEDIA_MAP = {
       caption: "Wireframe ve prototip teslim çıktılarıyla güven veren proof kartı"
     }
   },
+
+   "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-1.webp",
+      alt: "OTA İptal/Değişiklik Talepleri Nasıl Yönetilir?",
+      caption: "OTA İptal/Değişiklik Talepleri Nasıl Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-2.webp",
+      alt: "OTA kodundan çözüme süreç + hız + otel rezervasyon desteği bağlamı",
+      caption: "OTA kodundan çözüme süreç + hız + otel rezervasyon desteği bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-3.webp",
+      alt: "Sık soru tipleri tablosu + standardizasyon + otel operasyon bağlamı",
+      caption: "Sık soru tipleri tablosu + standardizasyon + otel operasyon bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-4.webp",
+      alt: "Değişiklik upgrade senaryosu + çözüm + resort otel bağlamı",
+      caption: "Değişiklik upgrade senaryosu + çözüm + resort otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-5.webp",
+      alt: "“OTA çağrı akışı diyagramı + ping-pong önleme + otel bağlamı",
+      caption: "“OTA çağrı akışı diyagramı + ping-pong önleme + otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-6.webp",
+      alt: "AEO akış checklist’i + kontrol + otel çağrı merkezi bağlamı",
+      caption: "AEO akış checklist’i + kontrol + otel çağrı merkezi bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-7.webp",
+      alt: "Çözüm hızı memnuniyet yanlış yönlendirme paneli + otel bağlamı",
+      caption: "Çözüm hızı memnuniyet yanlış yönlendirme paneli + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-3/Callcenter2-3-8.webp",
+      alt: "Script akış şablonu itiraz kartları + güven + otel bağlamı",
+      caption: "Script akış şablonu itiraz kartları + güven + otel bağlamı"
+    }
+  },
+
+
+
+
+
+
+
+  "ota-rate-parity-fiyat-esitleme-stratejileri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-1.webp",
+      alt: "OTA Rate Parity ve Fiyat Eşitleme Stratejileri: Hataları Önlemek İçin Rehber",
+      caption: "OTA Rate Parity ve Fiyat Eşitleme Stratejileri: Hataları Önlemek İçin Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-2.webp",
+      alt: "Base rate ve türev rate mantığı bağlam görseli, otel fiyat yönetimi",
+      caption: "Base rate ve türev rate mantığı bağlam görseli, otel fiyat yönetimi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-3.webp",
+      alt: "Rate parity risklerini ayıran bölüm görseli, otel gelir yönetimi",
+      caption: "Rate parity risklerini ayıran bölüm görseli, otel gelir yönetimi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-4.webp",
+      alt: "Kampanya ve parity ilişkisi bölüm görseli, otel kanal stratejisi",
+      caption: "Kampanya ve parity ilişkisi bölüm görseli, otel kanal stratejisi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-5.webp",
+      alt: "PMS channel manager OTA fiyat akış diyagramı, base ve kampanya fiyatları",
+      caption: "PMS channel manager OTA fiyat akış diyagramı, base ve kampanya fiyatları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-6.webp",
+      alt: "Haftalık rate parity kontrol listesi kartı, otel kanal dengesi",
+      caption: "Haftalık rate parity kontrol listesi kartı, otel kanal dengesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-7.webp",
+      alt: "Parity ihlali KPI paneli, otel gelir ve görünürlük etkisi",
+      caption: "Parity ihlali KPI paneli, otel gelir ve görünürlük etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-8.webp",
+      alt: "Parity stratejisi deliverables kartı, kural seti ve izleme planı",
+      caption: "Parity stratejisi deliverables kartı, kural seti ve izleme planı"
+    }
+  },
+
+
   
 };
 

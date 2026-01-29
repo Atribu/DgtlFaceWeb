@@ -17,10 +17,10 @@ const BLOG_DEPARTMENTS_V2 = [
       { id: "smm", label: "SMM - Sosyal Medya Pazarlaması", href: "/smm/bloglar" },
    { id: "yazilim", label: "Web & Yazılım Hizmetleri", href: "/yazilim/bloglar" },
   { id: "creative", label: "Creative", href: "/creative/bloglar" },
-    { id: "callcenter", label: "Çağrı Merkezi", href: "/callcenter/bloglar" },
+    { id: "cagri-merkezi", label: "Çağrı Merkezi", href: "/callcenter/bloglar" },
   { id: "pms-ota", label: "PMS & OTA Yönetimi", href: "/pms-ota/bloglar" },
-  { id: "veri-analizi-raporlama", label: "Veri Analizi & Raporlama", href: "/veri-analizi-raporlama/bloglar" },
-  { id: "hotel", label: "Otel Dijital Dönüşüm", href: "/hotel/bloglar" },
+  { id: "raporlama", label: "Veri Analizi & Raporlama", href: "/veri-analizi-raporlama/bloglar" },
+  { id: "otel", label: "Otel Dijital Dönüşüm", href: "/hotel/bloglar" },
 ];
 
 //  mock data

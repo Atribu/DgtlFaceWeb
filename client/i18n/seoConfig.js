@@ -299,56 +299,56 @@ export const seoConfig = {
   // YARATICILIK (CREATIVE) Alt Sayfaları
   "/Services/creative/eventProduction": { // TR Slug: /antalya-tasarim/etkinlik-produksiyonu
     tr: {
-      title: "Antalya Etkinlik Prodüksiyonu ve Yaratıcı Organizasyon Hizmetleri",
-      description: "Lansman, fuar ve kurumsal etkinlikler için konsept geliştirme, prodüksiyon ve sahne tasarım hizmetleri.",
+      title: "Etkinlik Prodüksiyonu – Lansman, Konser ve Kurumsal Organizasyonlar | DGTLFACE",
+      description: "DGTLFACE, lansman, konser ve kurumsal organizasyonlar için profesyonel etkinlik prodüksiyonu ve video çekimi sunar. Planlama, çekim ve aftermovie süreçlerini uçtan uca yönetir.",
     },
     en: {
-      title: "Antalya Event Production and Creative Organization Services",
-      description: "Concept development, production, and stage design services for launches, exhibitions, and corporate events.",
+      title: "Event Production – Launches, Concerts & Corporate Events | DGTLFACE",
+      description: "DGTLFACE provides professional event production and video coverage for launches, concerts, and corporate events. We manage planning, filming, and aftermovie delivery end-to-end.",
     },
 
   },
   "/Services/creative/corporateGift": { // TR Slug: /antalya-tasarim/kurumsal-hediye-tasarimi
     tr: {
-      title: "Antalya Kurumsal Hediye Tasarımı ve Üretimi | Marka Kimliğine Uygun",
-      description: "Markanızın değerlerini yansıtan, müşterilerinizi etkileyecek özgün ve yaratıcı kurumsal hediye çözümleri.",
+      title: "Kurumsal Hediye Tasarımı – Markanıza Özel Premium Ürünler | DGTLFACE",
+      description: "DGTLFACE, markanıza özel kurumsal hediye tasarımları, baskı ürünleri, promosyon çalışmaları ve kişisel tasarım ürünleri sunar.",
     },
     en: {
-      title: "Antalya Corporate Gift Design and Production | Aligned with Brand Identity",
-      description: "Unique and creative corporate gift solutions that reflect your brand's values and impress your customers.",
+      title: "Corporate Gift Design – Premium Branded Gifts for Your Brand | DGTLFACE",
+      description: "DGTLFACE provides custom corporate gift designs, branded print products, promotional materials, and premium personalized gift solutions tailored to your brand.",
     },
    
   },
   "/Services/creative/uiUxDesign": { // TR Slug: /antalya-tasarim/ui-ux-tasarim
     tr: {
-      title: "Antalya UI/UX Tasarım Hizmeti | Kullanıcı Deneyimi ve Arayüz Optimizasyonu",
-      description: "Web ve mobil uygulamalarınız için kullanıcı deneyimini (UX) ve arayüz tasarımını (UI) optimize edin.",
+      title: "UI & UX Tasarımı – Kullanıcı Odaklı Dijital Deneyimler | DGTLFACE",
+      description: "DGTLFACE, kullanıcı deneyimi odaklı UI/UX tasarımıyla web sitelerinizi modern, hızlı ve dönüşüm odaklı hale getirir. Otel ve kurumsal projeler için profesyonel çözüm sunar.",
     },
     en: {
-      title: "Antalya UI/UX Design Service | User Experience and Interface Optimization",
-      description: "Optimize user experience (UX) and interface design (UI) for your web and mobile applications.",
+      title: "UI & UX Design – User-Centered Digital Experiences | DGTLFACE",
+      description: "DGTLFACE delivers user-experience-driven UI/UX design to make your websites modern, fast, and conversion-focused. Professional solutions for hotel and corporate projects.",
     },
   
   },
   "/Services/creative/graphicDesign": { // TR Slug: /antalya-tasarim/grafik-motion-tasarim
     tr: {
-      title: "Antalya Grafik ve Motion Tasarım Hizmetleri | Görsel Kimlik Geliştirme",
-      description: "Sosyal medya, reklamlar ve web siteniz için etkileyici grafikler ve hareketli (motion) tasarım çözümleri.",
+      title: "Grafik & Motion Tasarım – Markanızı Güçlendiren Kreatif Çözümler | DGTLFACE",
+      description: "DGTLFACE, grafik tasarım ve motion design hizmetleriyle markanız için etkileyici görsel içerikler üretir. Sosyal medya, web ve reklam için profesyonel tasarımlar sunar.",
     },
     en: {
-      title: "Antalya Graphic and Motion Design Services | Visual Identity Development",
-      description: "Impressive graphics and motion design solutions for social media, advertising, and your website.",
+      title: "Graphic & Motion Design – Creative Visual Solutions for Brands | DGTLFACE",
+      description: "DGTLFACE creates impactful visual content through graphic design and motion design services. Professional visuals for social media, web, and advertising.",
     },
   
   },
   "/Services/creative/videoProduction": { // TR Slug: /antalya-tasarim/video-produksiyon
     tr: {
-      title: "Antalya Video Prodüksiyon ve Çekim Hizmetleri | Kurumsal Tanıtım Filmi",
-      description: "Marka bilinirliğinizi artırmak için profesyonel kurumsal tanıtım, otel ve reklam filmi prodüksiyonu.",
+      title: "Video & Prodüksiyon Hizmetleri – Tanıtım, Reklam ve 360° Çekimler | DGTLFACE",
+      description: "DGTLFACE, marka hikâyenizi etkili şekilde anlatan profesyonel tanıtım videoları, reklam filmleri ve 360° çekimler üretir. Oteller ve markalar için kreatif video prodüksiyon sunar.",
     },
     en: {
-      title: "Antalya Video Production and Filming Services | Corporate Promotional Film",
-      description: "Professional corporate promotional, hotel, and advertising film production to increase your brand awareness.",
+      title: "Video Production Services – Brand Films, Ads & 360° Shoots | DGTLFACE",
+      description: "DGTLFACE produces professional brand videos, commercial films, and 360° shoots that tell your story effectively. Creative video production for hotels and brands.",
     },
  
   },
@@ -356,56 +356,56 @@ export const seoConfig = {
   // YAZILIM (SOFTWARE) Alt Sayfaları
   "/Services/software/websiteMaintanceService": { // TR Slug: /antalya-yazilim/web-sitesi-bakim
     tr: {
-      title: "Antalya Web Sitesi Bakım ve Performans İyileştirme Hizmetleri",
-      description: "Web sitenizin güvenliğini, hızını ve güncelliğini sürekli koruyan profesyonel bakım hizmetleri.",
+      title: "Web Sitesi Bakım & Teknik Destek – Sürekli Performans ve Güvenlik | DGTLFACE",
+      description: "DGTLFACE, web sitesi bakım ve teknik destek hizmetleri sunar. Performans izleme, hata çözümü ve düzenli güncellemelerle sitenizi güçlendirir.",
     },
     en: {
-      title: "Antalya Website Maintenance and Performance Improvement Services",
-      description: "Professional maintenance services that continuously protect the security, speed, and up-to-dateness of your website.",
+      title: "Website Maintenance & Technical Support – Ongoing Performance and Security | DGTLFACE",
+      description: "DGTLFACE provides website maintenance and technical support. We strengthen your site with performance monitoring, issue resolution, and regular updates.",
     },
   
   },
-  "/Services/software/pdpaCompliance": { // TR Slug: /antalya-yazilim/kvkk-uyumlulugu
+  "/Services/software/kvkk": { // TR Slug: /antalya-yazilim/kvkk-uyumlulugu
     tr: {
-      title: "Antalya KVKK (Kişisel Veri Koruma) ve PDPA Yazılım Uyumluluğu",
-      description: "Web sitenizi ve yazılımlarınızı Kişisel Verilerin Korunması Kanunu (KVKK) ile tam uyumlu hale getirin.",
+      title: "KVKK Uyumlu Web Çözümleri – Güvenli Veri Yönetimi | DGTLFACE",
+      description: "DGTLFACE, KVKK uyumlu yazılım çözümleri geliştirir. Veri güvenliği, çerez yönetimi ve kullanıcı izin sistemleriyle web sitenizi daha güvenli ve denetlenebilir hâle getirir.",
     },
     en: {
-      title: "Antalya KVKK (Personal Data Protection) and PDPA Software Compliance",
-      description: "Make your website and software fully compliant with the Personal Data Protection Law (KVKK/PDPA).",
+      title: "KVKK-Aligned Web Solutions – Secure Data Management | DGTLFACE",
+      description: "DGTLFACE builds KVKK-aligned software solutions. With data security, cookie management, and consent systems, we make your website safer and more auditable.",
     },
 
   },
   "/Services/software/websiteAndSoftware": { // TR Slug: /antalya-yazilim/web-sitesi-ve-yazilim
     tr: {
-      title: "Antalya Web Sitesi ve Özel Yazılım Geliştirme | Turizm Sektörüne Özel",
-      description: "Otel ve turizm ihtiyaçlarına özel, performans odaklı web sitesi ve özel yazılım çözümleri.",
+      title: "Kurumsal Web Sitesi Geliştirme – SEO Uyumlu & Yüksek Performanslı | DGTLFACE",
+      description: "DGTLFACE, hızlı, güvenli ve SEO uyumlu kurumsal web siteleri geliştirir. Next.js altyapısıyla yüksek performans sunan profesyonel web çözümleri.",
     },
     en: {
-      title: "Antalya Website and Custom Software Development | Specializing in Tourism Sector",
-      description: "Performance-focused website and custom software solutions tailored for hotel and tourism needs.",
+      title: "Corporate Website Development – SEO-Friendly & High Performance | DGTLFACE",
+      description: "DGTLFACE builds fast, secure, and SEO-friendly corporate websites. We deliver high performance web solutions with a modern Next.js architecture.",
     },
    
   },
   "/Services/software/serverManagementService": { // TR Slug: /antalya-yazilim/sunucu-yonetimi
     tr: {
-      title: "Antalya Sunucu Yönetimi ve Güvenlik Hizmetleri | Kesintisiz Performans",
-      description: "Web siteleriniz için güvenli, hızlı ve optimize edilmiş bulut/fiziksel sunucu kurulumu ve yönetimi.",
+      title: "Web Sitesi Bakım & Teknik Destek – Sürekli Performans ve Güvenlik | DGTLFACE",
+      description: "DGTLFACE, web sitesi bakım ve teknik destek hizmetleri sunar. Performans izleme, hata çözümü ve düzenli güncellemelerle sitenizi güçlendirir.",
     },
     en: {
-      title: "Antalya Server Management and Security Services | Uninterrupted Performance",
-      description: "Secure, fast, and optimized cloud/physical server setup and management for your websites.",
+      title: "Website Maintenance & Technical Support – Ongoing Performance and Security | DGTLFACE",
+      description: "SDGTLFACE provides website maintenance and technical support. We strengthen your site with performance monitoring, issue resolution, and regular updates.",
     },
  
   },
   "/Services/software/cmsInstallationService": { // TR Slug: /antalya-yazilim/cms-kurulumu
     tr: {
-      title: "Antalya CMS (İçerik Yönetim Sistemi) Kurulum ve Entegrasyonu",
-      description: "WordPress, Joomla veya özel CMS çözümlerinin kurulumu ve mevcut sistemlerinize entegrasyonu.",
+      title: "CMS Entegrasyonu – Kolay İçerik Yönetimi & Esnek Web Mimarisi | DGTLFACE",
+      description: "DGTLFACE, kullanıcı dostu CMS ve yönetim paneli entegrasyonlarıyla çok dilli, hızlı ve SEO uyumlu içerik yönetimi sunar. Web sitenizi kolayca yönetin.",
     },
     en: {
-      title: "Antalya CMS (Content Management System) Installation and Integration",
-      description: "Installation of WordPress, Joomla, or custom CMS solutions and integration with your existing systems.",
+      title: "CMS Integration – Easy Content Management & Flexible Web Architecture | DGTLFACE",
+      description: "DGTLFACE provides user-friendly CMS and admin panel integrations for multilingual, fast, and SEO-ready content management. Manage your website with ease.",
     },
 
   },
@@ -584,56 +584,56 @@ export const seoConfig = {
   // ÇAĞRI MERKEZİ Alt Sayfaları
   "/Services/callcenter/callLanguages": { // TR Slug: /antalya-cagri-merkezi/cok-dilli-destek
     tr: {
-      title: "Antalya Çok Dilli Çağrı Merkezi Desteği | Uluslararası Rezervasyonlar",
-      description: "İngilizce, Rusça ve diğer dillerde uzman temsilcilerle uluslararası müşteri ve rezervasyon desteği sağlayın.",
+      title: "4 Dilli Çağrı Merkezi – Çok Dilli Misafir & Müşteri Destek Hizmeti | DGTLFACE",
+      description: "DGTLFACE, Türkçe, İngilizce, Almanca ve Rusça dillerinde çok dilli çağrı merkezi ve yazılı mesaj desteği sunar. Oteller ve uluslararası çalışan markalar için inbound/outbound çağrı yönetimi, WhatsApp ve sosyal medya mesaj desteği, OTA mesajlaşmaları ve yorum yanıtları gibi süreçleri ortak bir operasyon standardı ve entegrasyon mantığıyla yönetir.",
     },
     en: {
-      title: "Antalya Multilingual Call Center Support | International Reservations",
-      description: "Provide international customer and reservation support with expert representatives in English, Russian, and other languages.",
+      title: "4-Language Call Center – Multilingual Guest & Customer Support | DGTLFACE",
+      description: "DGTLFACE provides multilingual call center and written messaging support in Turkish, English, German, and Russian. For hotels and international brands, we manage inbound/outbound calls, WhatsApp and social DM support, OTA messaging, and review responses with unified operational standards and integration-ready workflows.",
     },
 
   },
   "/Services/callcenter/callPerformance": { // TR Slug: /antalya-cagri-merkezi/performans-analizi
     tr: {
-      title: "Antalya Çağrı Merkezi Performans Analizi | Verimlilik ve Satış Optimizasyonu",
-      description: "Temsilci performansı, bekleme süreleri ve satışa dönüşüm metriklerini analiz ederek çağrı merkezinizi optimize edin.",
+      title: "Çağrı Merkezi Performans Analizi – KPI, Raporlama ve Optimizasyon | DGTLFACE",
+      description: "DGTLFACE, çağrı merkezi operasyonlarında KPI’ları uçtan uca analiz ederek verimlilik, satış/rezervasyon dönüşümü ve misafir memnuniyetini artırır. Çağrı hacmi, cevaplanma oranı, bekleme süresi, ilk çağrıda çözüm (FCR), çağrı süresi, kaçan çağrılar, tekrar arama oranı ve agent performansı gibi metrikleri çok kanallı verilerle birleştirir; Looker Studio dashboard’ları, günlük/haftalık/aylık raporlar ve aksiyon planlarıyla süreç optimizasyonu sağlar.",
     },
     en: {
-      title: "Antalya Call Center Performance Analysis | Efficiency and Sales Optimization",
-      description: "Optimize your call center by analyzing representative performance, waiting times, and sales conversion metrics.",
+      title: "Call Center Performance Analysis – KPIs, Reporting & Optimization | DGTLFACE",
+      description: "DGTLFACE improves call center efficiency, revenue conversion, and guest satisfaction by analyzing KPIs end-to-end. We consolidate multi-channel metrics such as call volume, answer rate, wait time, first call resolution (FCR), average handle time, missed calls, repeat calls, and agent performance; then deliver Looker Studio dashboards, daily/weekly/monthly reporting, and actionable optimization plans to continuously enhance operations.",
     },
 
   },
-  "/Services/callcenter/multipleChannels": { // TR Slug: /antalya-cagri-merkezi/cok-kanalli-satis-takibi
+  "/Services/callcenter/messageManagement": { // TR Slug: /antalya-cagri-merkezi/cok-kanalli-satis-takibi
     tr: {
-      title: "Antalya Çok Kanallı Satış Takibi ve Entegrasyonu | CRM Çözümleri",
-      description: "Telefon, e-posta, sosyal medya ve chat gibi tüm kanallardan gelen taleplerin merkezi takibi ve CRM entegrasyonu.",
+      title: "Sosyal Medya Mesaj & Yorum Yönetimi – Çok Kanallı Destek | DGTLFACE",
+      description: "DGTLFACE, Instagram DM, WhatsApp, web chat, Google & OTA yorumları gibi tüm dijital mesaj ve geri bildirim kanallarını tek merkezden yöneten çok kanallı mesaj & yorum yönetimi hizmeti sunar. Rezervasyon talepleri, bilgi soruları ve şikayetler çağrı merkezi standardında ele alınır; çok dilli ekipler, hızlı yanıt SLA’ları ve CRM/PMS entegrasyonu ile marka itibarı, misafir memnuniyeti ve satış fırsatları sürdürülebilir şekilde yönetilir.",
     },
     en: {
-      title: "Antalya Multi-Channel Sales Tracking and Integration | CRM Solutions",
-      description: "Centralized tracking of requests from all channels like phone, email, social media, and chat, with CRM integration.",
+      title: "Social Media Message & Review Management – Multi-Channel Support | DGTLFACE",
+      description: "DGTLFACE provides professional multi-channel message and review management across Instagram DM, WhatsApp, web chat, Google reviews, and OTA inboxes. Reservation inquiries, information requests, and complaints are handled with call center standards, multilingual agents, fast response SLAs, and CRM/PMS integrations—helping brands improve online reputation, guest satisfaction, and revenue opportunities.",
     },
 
   },
-  "/Services/callcenter/contractManagement": { // TR Slug: /antalya-cagri-merkezi/sozlesme-yonetimi
+  "/Services/callcenter/aftersalesSupport": { // TR Slug: /antalya-cagri-merkezi/sozlesme-yonetimi
     tr: {
-      title: "Antalya Çağrı Merkezi Sözleşme Yönetimi ve Takibi",
-      description: "Müşteri sözleşmelerinin, rezervasyon anlaşmalarının ve yasal dokümantasyonun eksiksiz takibi ve yönetimi.",
+      title: "Satış Sonrası Müşteri Destek – Çok Kanallı Destek Çözümleri | DGTLFACE",
+      description: "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Telefon, WhatsApp, e-posta, sosyal medya mesajları, web chat ve OTA kanalları üzerinden gelen talep ve şikayetleri çok kanallı bir modelle karşılar; CRM/PMS kayıt ve takip süreçleriyle müşteri memnuniyeti ve marka sadakatini güçlendirir..",
     },
     en: {
-      title: "Antalya Call Center Contract Management and Tracking",
-      description: "Comprehensive tracking and management of customer contracts, reservation agreements, and legal documentation.",
+      title: "After-Sales Customer Support – Omnichannel Support Solutions | DGTLFACE",
+      description: "DGTLFACE manages your after-sales support with professional teams. We handle customer questions, requests, and complaints across phone, WhatsApp, email, social DMs, web chat, and OTA messaging, and improve satisfaction and loyalty with structured CRM/PMS logging and follow-up workflows.",
     },
 
   },
   "/Services/callcenter/reservationSupport": { // TR Slug: /antalya-cagri-merkezi/rezervasyon-destek
     tr: {
-      title: "Antalya Rezervasyon Destek ve Satış Temsilciliği Hizmeti",
-      description: "Otel ve turizm işletmeleri için doğrudan satış ve rezervasyon süreçlerini yöneten profesyonel destek ekibi.",
+      title: "Otel Rezervasyon Çağrı Merkezi – Satış Odaklı Rezervasyon Yönetimi | DGTLFACE",
+      description: "DGTLFACE, oteller ve turizm tesisleri için satış odaklı, çok dilli rezervasyon çağrı merkezi hizmeti sunar. Telefon, WhatsApp, web ve OTA kanallarından gelen rezervasyon talepleri PMS entegrasyonlu altyapı ile yönetilir; fiyat, müsaitlik ve kampanya bilgileri anlık kontrol edilir. Satış script’leri, upsell ve cross-sell akışları ile doğrudan rezervasyon oranı artırılır, misafir memnuniyeti sürdürülebilir şekilde yükseltilir.",
     },
     en: {
-      title: "Antalya Reservation Support and Sales Representation Service",
-      description: "Professional support team managing direct sales and reservation processes for hotel and tourism businesses.",
+      title: "Hotel Reservation Call Center – Sales-Focused Reservation Management | DGTLFACE",
+      description: "DGTLFACE provides sales-driven, multilingual hotel reservation call center services for hotels and hospitality brands. Reservation requests via phone, WhatsApp, web, and OTA channels are handled through PMS-integrated systems with real-time availability and pricing control. Sales scripts, upsell and cross-sell strategies help increase direct bookings, revenue, and guest satisfaction.",
     },
 
   },

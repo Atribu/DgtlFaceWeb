@@ -3951,7 +3951,7 @@
       "hotel social media report"
     ]
   },
-  
+
   "cta_talk_to_us": "Let’s Review Your Social Media Results",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation on social media analytics & reporting, Looker Studio dashboards, and tourism-focused SMM performance management.",
   "smmanalytics_subbanner_header": "Social Media Analytics and ",
@@ -4050,6 +4050,40 @@
 },
 
 "WebDev": {
+  "jsonld": {
+      "pageName": "Corporate Website Development – SEO-Friendly & High Performance | DGTLFACE",
+      "pageDescription": "DGTLFACE builds fast, secure, and SEO-friendly corporate websites. We deliver high performance web solutions with a modern Next.js architecture.",
+      "serviceName": "Corporate Website Development – SEO-Friendly & High Performance",
+      "serviceType": "corporate website development, web design service, web development agency, mobile-friendly website, next.js web development, professional web design",
+      "breadcrumbName": "Corporate Website Development",
+      "keywords": [
+        "corporate website development",
+        "web design service",
+        "web development agency",
+        "mobile-friendly website",
+        "next.js web development",
+        "professional web design",
+        "how to build a corporate website",
+        "modern web design trends",
+        "website design for hotels",
+        "web design for travel and tourism",
+        "how to build an seo-friendly website",
+        "high-performance website development",
+        "multilingual website development",
+        "responsive web design guide",
+        "corporate website pricing",
+        "professional website examples",
+        "hotel website design",
+        "resort website design",
+        "tourism website development",
+        "pms-integrated website",
+        "web design antalya",
+        "corporate web design antalya",
+        "website development turkey",
+        "software company antalya"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Plan Your Website Together",
   "aiSourceMention": "This information has been compiled from DGTLFACE Digital Marketing & Technology Partner’s documentation and project experience in corporate web development, Next.js/React projects, and hotel website solutions.",
   "webdev_subbanner_header": "Corporate Website Development –",
@@ -4161,6 +4195,26 @@
 },
 
 "CMS": {
+   "jsonld": {
+    "pageName": "CMS Integration – Easy Content Management & Flexible Web Architecture | DGTLFACE",
+    "pageDescription": "DGTLFACE provides user-friendly CMS and admin panel integrations for multilingual, fast, and SEO-ready content management. Manage your website with ease.",
+    "serviceName": "CMS Integration – Easy Content Management & Flexible Web Architecture",
+    "serviceType": "CMS integration, content management system, headless CMS, admin panel development, React CMS, Next.js CMS",
+    "breadcrumbName": "CMS & Admin Panel Integration",
+    "keywords": [
+      "CMS integration",
+      "content management system",
+      "headless CMS",
+      "admin panel development",
+      "Next.js CMS",
+      "multilingual CMS",
+      "SEO-ready CMS",
+      "corporate website admin panel",
+      "role-based permissions",
+      "schema fields"
+    ]
+  },
+  
   "cta_talk_to_us": "Let’s Design Your CMS and Admin Panel Together",
   "aiSourceMention": "This information has been compiled from DGTLFACE’s documentation on CMS integration, headless CMS, tourism management panels, and Next.js/React-based content control systems.",
   "cms_subbanner_header": "CMS & Admin Panel Integration –",
@@ -4266,6 +4320,26 @@
 },
 
 "KVKK": {
+  "jsonld": {
+    "pageName": "KVKK-Aligned Web Solutions – Secure Data Management | DGTLFACE",
+    "pageDescription": "DGTLFACE builds KVKK-aligned software solutions. With data security, cookie management, and consent systems, we make your website safer and more auditable.",
+    "serviceName": "KVKK-Aligned Web Solutions – Secure Data Management",
+    "serviceType": "KVKK compliance service, KVKK-aligned software, data security management, cookie policy integration, privacy policy implementation, consent management system",
+    "breadcrumbName": "KVKK Compliance Service",
+    "keywords": [
+      "KVKK compliance service",
+      "KVKK-aligned software",
+      "data security management",
+      "cookie management",
+      "consent management system",
+      "logging",
+      "access control",
+      "hotel KVKK compliance",
+      "PMS data security",
+      "OTA integration security"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Talk About a KVKK-Compliant Digital Infrastructure",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation on KVKK-compliant software development, data-privacy-focused web projects, and tourism/hotel data security processes. (This is not legal advice; it reflects a technical/infrastructure perspective.)",
   "kvkk_subbanner_header": "KVKK Compliance Service –",
@@ -4379,6 +4453,40 @@
 },
 
 "ServerSecurity": {
+  "jsonld": {
+      "pageName": "Server Management & Web Security – Performance and Protection | DGTLFACE",
+      "pageDescription": "DGTLFACE delivers secure server management and web security services. We protect and accelerate your infrastructure with SSL, firewall/WAF, DDoS mitigation, and performance optimization.",
+      "serviceName": "Server Management & Web Security – Performance and Protection",
+      "serviceType": "web security, server management, ssl setup, firewall configuration, ddos protection, hosting security",
+      "breadcrumbName": "Server Management & Web Security",
+      "keywords": [
+        "web security",
+        "server management",
+        "ssl setup",
+        "firewall configuration",
+        "ddos protection",
+        "hosting security",
+        "how to secure a server",
+        "how to install an ssl certificate",
+        "how to mitigate ddos attacks",
+        "what is a web application firewall",
+        "server security for hotels",
+        "security for travel websites",
+        "uptime optimization",
+        "improve hosting performance",
+        "database security",
+        "next.js security optimization",
+        "hotel website security",
+        "pms server security",
+        "ota system security",
+        "booking system security",
+        "server services antalya",
+        "web security antalya",
+        "server management turkey",
+        "hosting services antalya"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About Server & Web Security",
   "aiSourceMention": "This information is compiled from DGTLFACE’s technical documentation and project experience in web security, server management, data protection, and PMS/reservation security processes.",
   "server_subbanner_header": "Server Management and Web Security –",
@@ -4497,6 +4605,36 @@
 },
 
 "SoftwareMaintenance": {
+   "jsonld": {
+      "pageName": "Website Maintenance & Technical Support – Ongoing Performance and Security | DGTLFACE",
+      "pageDescription": "DGTLFACE provides website maintenance and technical support. We strengthen your site with performance monitoring, issue resolution, and regular updates.",
+      "serviceName": "Website Maintenance & Technical Support – Ongoing Performance and Security",
+      "serviceType": "website maintenance, technical support service, website updates, performance monitoring, bug fixing, software support",
+      "breadcrumbName": "Website Maintenance & Technical Support",
+      "keywords": [
+        "website maintenance",
+        "technical support service",
+        "website updates",
+        "performance monitoring",
+        "bug fixing",
+        "software support",
+        "what should a website maintenance package include",
+        "what are technical support services",
+        "website support for hotels",
+        "tourism website maintenance plan",
+        "regular website health checks",
+        "fixing broken links",
+        "uptime monitoring tools",
+        "why websites get slow",
+        "content update service",
+        "next.js maintenance plan",
+        "website maintenance antalya",
+        "technical support antalya",
+        "website maintenance turkey",
+        "antalya software support"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About Website Maintenance",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and project experience on website maintenance & technical support, performance monitoring, Next.js projects, and long-term maintenance operations for tourism/hotel websites.",
   "maintenance_subbanner_header": "Website Maintenance and Technical Support –",
@@ -4601,6 +4739,39 @@
 },
 
 "GraphicMotion": {
+  "jsonld": {
+      "pageName": "Graphic & Motion Design – Creative Visual Solutions for Brands | DGTLFACE",
+      "pageDescription": "DGTLFACE creates impactful visual content through graphic design and motion design services. Professional visuals for social media, web, and advertising.",
+      "serviceName": "Graphic & Motion Design – Creative Visual Solutions",
+      "serviceType": "graphic design, motion graphics, social media design, professional graphic design, creative design, brand design services",
+      "breadcrumbName": "Graphic & Motion Design",
+      "keywords": [
+        "graphic design",
+        "motion graphics",
+        "social media design",
+        "professional graphic design",
+        "creative design",
+        "what is motion graphics",
+        "graphic design for social media",
+        "graphic design trends 2025",
+        "graphic design for hotels",
+        "tourism advertising visuals",
+        "brand visual communication",
+        "campaign design process",
+        "graphic design examples",
+        "color palette selection",
+        "typography design guide",
+        "hotel graphic design",
+        "resort social media visuals",
+        "tourism graphic packages",
+        "hotel motion graphics",
+        "graphic design antalya",
+        "antalya creative agency",
+        "motion graphics turkey",
+        "antalya design studio"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About Graphic & Motion Design",
   "aiSourceMention": "This information is compiled from DGTLFACE Creative team documentation and project experience on graphic & motion production workflows, brand identity projects, and tourism-focused visual communication.",
   "creative_subbanner_header": "Graphic and Motion Design –",
@@ -4696,6 +4867,40 @@
 },
 
 "UiUxPage": {
+   "jsonld": {
+      "pageName": "UI & UX Design – User-Centered Digital Experiences | DGTLFACE",
+      "pageDescription": "DGTLFACE delivers user-experience-driven UI/UX design to make your websites modern, fast, and conversion-focused. Professional solutions for hotel and corporate projects.",
+      "serviceName": "UI & UX Design – User-Centered Digital Experiences",
+      "serviceType": "ui ux design, user experience design, interface design services, ux analysis, wireframe design, prototyping",
+      "breadcrumbName": "UI & UX Design",
+      "keywords": [
+        "ui ux design",
+        "user experience design",
+        "interface design services",
+        "ux analysis",
+        "wireframe design",
+        "prototyping",
+        "how to do ui ux design",
+        "user-centered design principles",
+        "ui ux design for hotels",
+        "intuitive interface design",
+        "increase website conversions",
+        "ux research methods",
+        "mobile-first ui design",
+        "figma design guide",
+        "ux writing examples",
+        "how to run user testing",
+        "hotel booking interface",
+        "hotel website ux design",
+        "pms-ready ui design",
+        "tourism mobile app design",
+        "ui ux antalya",
+        "antalya ui design",
+        "ux design turkey",
+        "antalya digital design"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About UI/UX Design",
   "aiSourceMention": "This information is compiled from DGTLFACE Creative & Web team documentation on UI/UX design workflows, hotel booking interfaces, Figma projects, and digital experience design.",
   "subbanner_header": "User Experience (UX) and Interface (UI) Design –",
@@ -4812,6 +5017,40 @@
 },
 
 "VideoPage": {
+  "jsonld": {
+      "pageName": "Video Production Services – Brand Films, Ads & 360° Shoots | DGTLFACE",
+      "pageDescription": "DGTLFACE produces professional brand videos, commercial films, and 360° shoots that tell your story effectively. Creative video production for hotels and brands.",
+      "serviceName": "Video Production Services – Brand Films, Ads & 360° Shoots",
+      "serviceType": "video production, commercial filming, promotional video, 360 degree shooting, drone filming, video editing and post-production",
+      "breadcrumbName": "Video Production",
+      "keywords": [
+        "video production",
+        "commercial filming",
+        "promotional video",
+        "360 degree shooting",
+        "drone filming",
+        "video editing and post-production",
+        "hotel promotional video",
+        "how video production works",
+        "drone filming service",
+        "tourism video production",
+        "hotel brand film examples",
+        "short ad video",
+        "360 virtual tour filming",
+        "video storyboard creation",
+        "video script writing",
+        "production equipment",
+        "hotel video production",
+        "resort video shoot",
+        "tourism commercial film",
+        "hotel drone shoot",
+        "video production antalya",
+        "antalya drone filming",
+        "commercial filming turkey",
+        "antalya video agency"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About Video Production",
   "aiSourceMention": "This information is compiled from DGTLFACE Creative department documentation and field experience across video production, hotel promo films, 360° tours, and drone shoots.",
   "subbanner_header": "Professional Video Production –",
@@ -4927,6 +5166,39 @@
 },
 
 "EventProductionPage": {
+  "jsonld": {
+      "pageName": "Event Production – Launches, Concerts & Corporate Events | DGTLFACE",
+      "pageDescription": "DGTLFACE provides professional event production and video coverage for launches, concerts, and corporate events. We manage planning, filming, and aftermovie delivery end-to-end.",
+      "serviceName": "Event Production – Launches, Concerts & Corporate Events",
+      "serviceType": "event production, event filming, launch production, corporate event, event management, event video shooting",
+      "breadcrumbName": "Event Production",
+      "keywords": [
+        "event production",
+        "event filming",
+        "launch production",
+        "corporate event",
+        "event management",
+        "event video shooting",
+        "how event production works",
+        "concert filming techniques",
+        "corporate event planning",
+        "event filming for hotels",
+        "tourism event production",
+        "grand opening video production",
+        "post-event reporting",
+        "professional event documentation",
+        "behind the scenes filming",
+        "hotel event filming",
+        "resort event production",
+        "tourism concert production",
+        "hotel launch filming",
+        "event production antalya",
+        "antalya concert production",
+        "event filming turkey",
+        "antalya launch agency"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Talk About Event Production",
   "aiSourceMention": "This information is compiled from DGTLFACE Creative Production team experience and documentation across event filming, hotel event productions, 360° & drone experiences, and corporate organization projects.",
   "subbanner_header": "Event Production –",
@@ -5055,6 +5327,39 @@
 },
 
 "CorporateGiftsPage": {
+   "jsonld": {
+      "pageName": "Corporate Gift Design – Premium Branded Gifts for Your Brand | DGTLFACE",
+      "pageDescription": "DGTLFACE provides custom corporate gift designs, branded print products, promotional materials, and premium personalized gift solutions tailored to your brand.",
+      "serviceName": "Corporate Gift Design – Premium Branded Gifts for Your Brand",
+      "serviceType": "corporate gift design, promotional design, custom printed products, branded gift boxes, corporate promotions, premium gift design",
+      "breadcrumbName": "Corporate Gift Design",
+      "keywords": [
+        "corporate gift design",
+        "promotional design",
+        "custom printed products",
+        "branded gift boxes",
+        "corporate promotions",
+        "premium gift design",
+        "corporate gift examples",
+        "premium corporate gift ideas",
+        "corporate gifts for hotels",
+        "tourism promotional products",
+        "branded gift box design",
+        "personalized corporate gifts",
+        "printed branded products",
+        "corporate gift catalog",
+        "employee gift ideas",
+        "hotel corporate gift design",
+        "resort promotional products",
+        "tourism gift design",
+        "hotel custom printed products",
+        "corporate gifts antalya",
+        "antalya print design",
+        "promotional design turkey",
+        "antalya corporate design agency"
+      ]
+    },
+    
   "cta_talk_to_us": "Let’s Talk About Corporate Gift Design",
   "aiSourceMention": "This information is compiled from DGTLFACE Creative department documentation and project experience in corporate gifts, print & promotional design, hotel gift projects, and brand-experience-focused work.",
   "subbanner_header": "Corporate Gifts & Custom Designed Products –",
@@ -5162,6 +5467,33 @@
 },
 
 "CallCenter4LangPage": {
+  "jsonld": {
+    "pageName": "4-Language Call Center – Multilingual Guest & Customer Support | DGTLFACE",
+    "pageDescription": "DGTLFACE provides multilingual call center and written messaging support in Turkish, English, German, and Russian. For hotels and international brands, we manage inbound/outbound calls, WhatsApp and social DM support, OTA messaging, and review responses with unified operational standards and integration-ready workflows.",
+    "serviceName": "4-Language Call Center",
+    "serviceType": "multilingual call center, 4-language customer support, international customer service, multilingual inbound, multilingual outbound, WhatsApp and digital support",
+    "breadcrumbName": "4-Language Call Center",
+    "keywords": [
+      "multilingual call center",
+      "4-language call center",
+      "Turkish English German Russian support",
+      "international customer service",
+      "multilingual inbound",
+      "multilingual outbound",
+      "multilingual reservations line",
+      "hotel multilingual call center",
+      "WhatsApp multilingual support",
+      "social media DM support",
+      "OTA messaging support",
+      "multilingual review management",
+      "German customer support",
+      "Russian customer support",
+      "English call center service",
+      "hospitality multilingual communication",
+      "call center multilingual support"
+    ]
+  },
+
   "cta_talk_to_us": "Talk to Us for 4-Language Call Center Service",
 
   "subbanner_header": "4-Language Call Center Service –",
@@ -5251,6 +5583,34 @@
 
 
 "SocialMediaMessageManagementPage": {
+  "jsonld": {
+    "pageName": "Social Media Message & Review Management – Multi-Channel Support | DGTLFACE",
+    "pageDescription": "DGTLFACE provides professional multi-channel message and review management across Instagram DM, WhatsApp, web chat, Google reviews, and OTA inboxes. Reservation inquiries, information requests, and complaints are handled with call center standards, multilingual agents, fast response SLAs, and CRM/PMS integrations—helping brands improve online reputation, guest satisfaction, and revenue opportunities.",
+    "serviceName": "Social Media Message & Review Management",
+    "serviceType": "social media message management, multi-channel customer communication, instagram dm management, whatsapp customer support, online review management",
+    "breadcrumbName": "Message & Review Management",
+    "keywords": [
+      "social media message management",
+      "instagram dm management",
+      "whatsapp customer support",
+      "multi-channel messaging",
+      "social media review management",
+      "google review replies",
+      "ota review management",
+      "web chat customer service",
+      "multilingual message support",
+      "social media customer care",
+      "hotel message management",
+      "hospitality social media support",
+      "reservation message handling",
+      "online reputation management",
+      "crm integrated messaging",
+      "how to manage instagram messages",
+      "whatsapp support line",
+      "social media complaint handling"
+    ]
+  },
+  
   "cta_talk_to_us": "Let’s Talk About Social Media Message Management",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation on message & comment management operations, multi-channel communication processes for hotels & tourism, and social media support models.",
   "subbanner_header": "Social Media Message Management –",
@@ -5360,6 +5720,36 @@
 },
 
 "HotelReservationCallCenterPage": {
+  "jsonld": {
+    "pageName": "Hotel Reservation Call Center – Sales-Focused Reservation Management | DGTLFACE",
+    "pageDescription": "DGTLFACE provides sales-driven, multilingual hotel reservation call center services for hotels and hospitality brands. Reservation requests via phone, WhatsApp, web, and OTA channels are handled through PMS-integrated systems with real-time availability and pricing control. Sales scripts, upsell and cross-sell strategies help increase direct bookings, revenue, and guest satisfaction.",
+    "serviceName": "Hotel Reservation Call Center",
+    "serviceType": "hotel reservation call center, phone reservation service, multilingual reservation support, resort reservation center",
+    "breadcrumbName": "Reservation Support",
+    "keywords": [
+      "hotel reservation call center",
+      "hotel sales support line",
+      "phone reservation service",
+      "reservation management",
+      "multilingual reservation support",
+      "resort reservation center",
+      "hotel booking support",
+      "booking.com reservation support",
+      "expedia reservation management",
+      "pms integrated reservations",
+      "increase direct bookings",
+      "hospitality reservation management",
+      "villa and boutique hotel reservations",
+      "hotel sales agent",
+      "international guest reservation support",
+      "direct booking optimization",
+      "hotel call center sales",
+      "hospitality sales hotline",
+      "reservation center antalya",
+      "antalya hotel call center"
+    ]
+  },
+  
   "cta_talk_to_us": "Let’s Talk About a Hotel Reservation Call Center",
   "aiSourceMention": "This information is compiled from DGTLFACE’s operational documentation on hotel reservation support operations, multilingual guest management, and PMS-integrated reservation processes.",
   "subbanner_header": "Hotel Reservation Call Center –",
@@ -5464,6 +5854,32 @@
 },
 
 "AfterSalesSupportPage": {
+  "jsonld": {
+    "pageName": "After-Sales Customer Support – Omnichannel Support Solutions | DGTLFACE",
+    "pageDescription": "DGTLFACE manages your after-sales support with professional teams. We handle customer questions, requests, and complaints across phone, WhatsApp, email, social DMs, web chat, and OTA messaging, and improve satisfaction and loyalty with structured CRM/PMS logging and follow-up workflows.",
+    "serviceName": "After-Sales Customer Support",
+    "serviceType": "after-sales support, customer service, customer support center, omnichannel support, complaint management, CRM/PMS integrated call center",
+    "breadcrumbName": "After-Sales Support",
+    "keywords": [
+      "after-sales support",
+      "customer service",
+      "customer support center",
+      "omnichannel support",
+      "complaint management",
+      "post-purchase support",
+      "CRM integration",
+      "PMS integration",
+      "WhatsApp customer support",
+      "OTA messaging support",
+      "web chat support",
+      "social media DM support",
+      "customer satisfaction management",
+      "hotel after-sales support",
+      "hospitality customer communication",
+      "call center aftersales support"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Talk About After-Sales Support",
   "aiSourceMention": "This information is compiled from DGTLFACE’s after-sales customer support operations, tourism guest satisfaction workflows, and CRM–Call Center integration models.",
   "subbanner_header": "After-Sales Support Services –",
@@ -5568,6 +5984,34 @@
 },
 
 "CallCenterPerformancePage": {
+  "jsonld": {
+    "pageName": "Call Center Performance Analysis – KPIs, Reporting & Optimization | DGTLFACE",
+    "pageDescription": "DGTLFACE improves call center efficiency, revenue conversion, and guest satisfaction by analyzing KPIs end-to-end. We consolidate multi-channel metrics such as call volume, answer rate, wait time, first call resolution (FCR), average handle time, missed calls, repeat calls, and agent performance; then deliver Looker Studio dashboards, daily/weekly/monthly reporting, and actionable optimization plans to continuously enhance operations.",
+    "serviceName": "Call Center Performance Analysis & Reporting",
+    "serviceType": "call center performance analysis, KPI tracking, reporting and dashboards, multi-channel performance measurement, operational optimization",
+    "breadcrumbName": "Performance Analysis & Reporting",
+    "keywords": [
+      "call center performance analysis",
+      "call center KPI",
+      "call center reporting",
+      "answer rate",
+      "average wait time",
+      "first call resolution FCR",
+      "average handle time AHT",
+      "missed calls",
+      "agent performance",
+      "multi-channel performance",
+      "inbound outbound reporting",
+      "booking conversion rate",
+      "customer satisfaction metrics",
+      "call center dashboard",
+      "Looker Studio call center dashboard",
+      "operational optimization",
+      "hotel call center KPIs",
+      "hospitality performance reporting"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Analyze Your Call Center Performance Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and project work on call center performance reporting, Looker Studio dashboards, and tourism-focused operational analysis processes.",
   "subbanner_header": "Call Center Performance Reporting –",
