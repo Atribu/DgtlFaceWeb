@@ -308,7 +308,7 @@ export const seoConfig = {
     },
 
   },
-  "/Services/creative/corporateGift": { // TR Slug: /antalya-tasarim/kurumsal-hediye
+  "/Services/creative/corporateGift": { // TR Slug: /antalya-tasarim/kurumsal-hediye-tasarimi
     tr: {
       title: "Antalya Kurumsal Hediye Tasarımı ve Üretimi | Marka Kimliğine Uygun",
       description: "Markanızın değerlerini yansıtan, müşterilerinizi etkileyecek özgün ve yaratıcı kurumsal hediye çözümleri.",
@@ -319,7 +319,7 @@ export const seoConfig = {
     },
    
   },
-  "/Services/creative/uiUxDesign": { // TR Slug: /antalya-tasarim/ui-ux-hizmeti
+  "/Services/creative/uiUxDesign": { // TR Slug: /antalya-tasarim/ui-ux-tasarim
     tr: {
       title: "Antalya UI/UX Tasarım Hizmeti | Kullanıcı Deneyimi ve Arayüz Optimizasyonu",
       description: "Web ve mobil uygulamalarınız için kullanıcı deneyimini (UX) ve arayüz tasarımını (UI) optimize edin.",

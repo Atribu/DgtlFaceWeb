@@ -25,10 +25,10 @@ export const FAQ_ROUTE_MAP = [
   // -----------------------------
   // Creative
   // -----------------------------
-  { match: /^\/creative\/kurumsal-hediye(\/.*)?$/, slug: "kurumsal-hediye-sss" },
+  { match: /^\/creative\/kurumsal-hediye(\/.*)?$/, slug: "kurumsal-hediye-tasarimi-sss" },
   { match: /^\/creative\/etkinlik-produksiyonu(\/.*)?$/, slug: "etkinlik-produksiyonu-sss" },
   { match: /^\/creative\/video-produksiyon(\/.*)?$/, slug: "video-produksiyon-sss" },
-  { match: /^\/creative\/ui-ux-hizmeti(\/.*)?$/, slug: "ui-ux-hizmeti-sss" },
+  { match: /^\/creative\/ui-ux-tasarim(\/.*)?$/, slug: "ui-ux-tasarim-sss" },
   { match: /^\/creative\/grafik-motion-tasarim(\/.*)?$/, slug: "grafik-motion-tasarim-sss" },
   { match: /^\/creative(\/.*)?$/, slug: "creative-sss" },
 
@@ -220,10 +220,10 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
   "bakim-destek-sss": "yazilim",
 
   // Creative
-  "kurumsal-hediye-sss": "creative",
+  "kurumsal-hediye-tasarimi-sss": "creative",
   "etkinlik-produksiyonu-sss": "creative",
   "video-produksiyon-sss": "creative",
-  "ui-ux-hizmeti-sss": "creative",
+  "ui-ux-tasarim-sss": "creative",
   "grafik-motion-tasarim-sss": "creative",
 
   // Call center

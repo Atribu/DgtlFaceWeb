@@ -122,7 +122,7 @@ export const routing = defineRouting({
     },
     "/Services/creative/corporateGift": { // https://www.dgtlface.com/tr/Services/creative/corporateGift
       en: "/creative/corporate-gift",
-      tr: "/creative/kurumsal-hediye",
+      tr: "/creative/kurumsal-hediye-tasarimi",
       
     },
     "/Services/creative/eventProduction": { // https://www.dgtlface.com/tr/Services/creative/eventProduction
@@ -137,7 +137,7 @@ export const routing = defineRouting({
     },
     "/Services/creative/uiUxDesign": { // https://www.dgtlface.com/tr/Services/creative/uiUxDesign
       en: "/creative/ui-ux-design",
-      tr: "/creative/ui-ux-hizmeti",
+      tr: "/creative/ui-ux-tasarim",
       
     },
     "/Services/creative/videoProduction": { // https://www.dgtlface.com/tr/Services/creative/videoProduction

@@ -125,10 +125,10 @@ const SEO_CHIPS = [
      const Creative_CHIPS = [
       { label: "CREATIVE (Genel)", href: faqHrefBySlug("creative-sss") },
        { label: "Grafik Motion Tasarım", href: faqHrefBySlug("grafik-motion-tasarim-sss") },
-      { label: "UI/UX Dizayn", href: faqHrefBySlug("ui-ux-hizmeti-sss") },
+      { label: "UI/UX Dizayn", href: faqHrefBySlug("ui-ux-tasarim-sss") },
       { label: "Video Prodüksiyon", href: faqHrefBySlug("video-produksiyon-sss") },
       { label: "Etkinlik Prodüksiyon", href: faqHrefBySlug("etkinlik-produksiyonu-sss") },
-      { label: "Kurumsal Hediye", href: faqHrefBySlug("kurumsal-hediye-sss") },
+      { label: "Kurumsal Hediye", href: faqHrefBySlug("kurumsal-hediye-tasarimi-sss") },
     ];
 
          const Callcenter_CHIPS = [
@@ -224,10 +224,10 @@ const GROUPS = {
     slugs: [
       "creative-sss",
       "grafik-motion-tasarim-sss",
-      "ui-ux-hizmeti-sss",
+      "ui-ux-tasarim-sss",
       "video-produksiyon-sss",
       "etkinlik-produksiyonu-sss",
-      "kurumsal-hediye-sss",
+      "kurumsal-hediye-tasarimi-sss",
     ],
   },
 
@@ -357,8 +357,8 @@ export const FAQ_BANNER_ASSET_MAP = {
   "creative-sss": imgCreative1,
   "etkinlik-produksiyonu-sss": imgCreative2,
   "grafik-motion-tasarim-sss": imgCreative3,
-  "kurumsal-hediye-sss": imgCreative4,
-  "ui-ux-hizmeti-sss": imgCreative5,
+  "kurumsal-hediye-tasarimi-sss": imgCreative4,
+  "ui-ux-tasarim-sss": imgCreative5,
   "video-produksiyon-sss": imgCreative6,
 
   // ---------------------------------------------------------

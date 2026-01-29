@@ -34,10 +34,10 @@ export const FAQ_MAP = {
   "sunucu-guvenlik-sss":"FaqServerSecurity",
   "bakim-destek-sss":"FaqMaintenanceSupport",
 
-  "kurumsal-hediye-sss":"FaqCorporateGift",
+  "kurumsal-hediye-tasarimi-sss":"FaqCorporateGift",
   "etkinlik-produksiyonu-sss":"FaqEventProduction",
   "video-produksiyon-sss":"FaqVideoProduction",
-  "ui-ux-hizmeti-sss":"FaqUiUxDesign",
+  "ui-ux-tasarim-sss":"FaqUiUxDesign",
   "grafik-motion-tasarim-sss":"FaqGraphicMotion",
 
   "4-dilli-cagri-merkezi-sss":"Faq4LangCallCenter",

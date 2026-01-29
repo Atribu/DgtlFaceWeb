@@ -9598,7 +9598,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-"ui-ux-hizmeti-sss":{
+"ui-ux-tasarim-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/creative/ui-ux-tasarim-sss#faq",
@@ -10548,7 +10548,7 @@ export const FAQ_JSONLD_MAP = {
   ]
 },
 
-"kurumsal-hediye-sss":{
+"kurumsal-hediye-tasarimi-sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi-sss#faq",
