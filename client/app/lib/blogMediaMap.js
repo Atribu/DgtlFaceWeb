@@ -3756,11 +3756,6 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-
-
-
-
-
   "ota-rate-parity-fiyat-esitleme-stratejileri":{
      banner: {
       src: "/images/blog/pms/PMS-OTA2-3/Pms2-3-1.webp",
@@ -3812,7 +3807,108 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+
+"seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-2.webp",
+      alt: "Organik ve ücretli görünürlüğü birlikte anlatan başlangıç otel görseli",
+      caption: "Organik ve ücretli görünürlüğü birlikte anlatan başlangıç otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-3.webp",
+      alt: "SEO benchmark KPI’larını ayıran sade bölüm görseli",
+      caption: "SEO benchmark KPI’larını ayıran sade bölüm görseli"
+    },
+
+    "divder-04": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-4.webp",
+      alt: "SEO ve SEM metriklerini karşılaştıran bölüm ayırıcı görseli",
+      caption: "SEO ve SEM metriklerini karşılaştıran bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-5.webp",
+      alt: "Ads maps organic SERP görünümünü gösteren dijital benchmark şemas",
+      caption: "Ads maps organic SERP görünümünü gösteren dijital benchmark şemas"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-6.webp",
+      alt: "3 adımda SEO SEM benchmark çerçevesini özetleyen kontrol kartı görseli",
+      caption: "3 adımda SEO SEM benchmark çerçevesini özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-7.webp",
+      alt: "Visibility impression share CTR ROAS metriklerini özetleyen KPI kartı görseli",
+      caption: "Visibility impression share CTR ROAS metriklerini özetleyen KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-8.webp",
+      alt: "Dijital benchmark raporu ve aksiyon planını gösteren deliverables kartı",
+      caption: "Dijital benchmark raporu ve aksiyon planını gösteren deliverables kartı"
+    }
+  },
   
+
+  "all-inclusive-otel-30-gunluk-icerik-takvimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-2.webp",
+      alt: "All inclusive içerik kategorilerini özetleyen hızlı bakış görseli",
+      caption: "All inclusive içerik kategorilerini özetleyen hızlı bakış görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-3.webp",
+      alt: "All inclusive içerik temaları bölüm ayırıcı görseli",
+      caption: "All inclusive içerik temaları bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-4.webp",
+      alt: "30 günlük plan ve kampanya günlerini ayıran bölüm geçiş görseli",
+      caption: "30 günlük plan ve kampanya günlerini ayıran bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-5.webp",
+      alt: "İçerik takviminin günlük paylaşımları organize eden akış diyagramı",
+      caption: "İçerik takviminin günlük paylaşımları organize eden akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-6.webp",
+      alt: "30 günlük içerik takvimi uygulama kontrol kartı görseli",
+      caption: "30 günlük içerik takvimi uygulama kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-7.webp",
+      alt: "All inclusive içerik performans KPI panelini gösteren skor kart görseli",
+      caption: "All inclusive içerik performans KPI panelini gösteren skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-3/Hotel2-3-8.webp",
+      alt: "30 günlük takvim tablo ve şablon teslimatlarını gösteren proof kart görseli",
+      caption: "30 günlük takvim tablo ve şablon teslimatlarını gösteren proof kart görseli"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

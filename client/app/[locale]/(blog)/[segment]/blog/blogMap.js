@@ -90,7 +90,8 @@ export const BLOG_MAP = {
     "yonetim-icin-executive-dashboard-ve-otomatik-raporlama":"BlogYonetimIcinExecutiveDashboardVeOtomatikRaporlama",
 
     "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir",
-    "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma"
+    "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma",
+    "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":"BlogSeoVeSemBenchmarkiIleDijitalGorunurluguOlcmek"
   },
 
 
@@ -102,7 +103,8 @@ export const BLOG_MAP = {
     "ota-rekabetine-karsi-teknik-otel-seo-site-mimarisi":"BlogOTARakabetineKarsiTeknikOtelSeoSiteMimarisi",
 
     "otel-instagram-strateji-rehberi":"BlogOtelInstagramStratejiRehberi",
-    "otel-reels-oda-satis-funneli":"BlogOtelReelsOdaSatisFunneli"
+    "otel-reels-oda-satis-funneli":"BlogOtelReelsOdaSatisFunneli",
+    "all-inclusive-otel-30-gunluk-icerik-takvimi":"BlogAllInclusiveOtel30GunlukIcerikTakvimi"
   }
 };
 
