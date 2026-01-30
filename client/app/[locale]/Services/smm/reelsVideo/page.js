@@ -36,7 +36,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Instagram Reels ve kısa video içerikleri üretir. Viral stratejiler, kreatif fikirler ve profesyonel prodüksiyonla görünürlüğünüzü artırın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -306,7 +307,7 @@ export default async function Page({ params: { locale } }) {
       { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
 
       // Türkçe yorum: SMM breadcrumb (senin site yapına göre /tr/smm veya /tr/sosyal-medya-yonetimi seçebilirsin)
-      { name: locale === "tr" ? "Sosyal Medya" : "Social Media", url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/smm"}` },
+      { name: locale === "tr" ? "Sosyal Medya" : "Social Media", url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}` },
 
       { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
     ],

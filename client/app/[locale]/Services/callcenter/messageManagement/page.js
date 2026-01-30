@@ -37,7 +37,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, sosyal medya ve mesaj platformlarındaki tüm müşteri mesajlarını profesyonel olarak yönetir. WhatsApp, Instagram DM ve Web Chat üzerinden çok kanallı destek sağlar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =
@@ -288,12 +289,12 @@ const base = getBaseUrl();
   ];
 
   // ✅ StepSection buttonLink’lerinle birebir aynı (absolute yapıyoruz)
-  const serviceItems = [
-    { name: stripHtml(t("smm_services_title1")), url: `${base}/${locale}/smm/icerik-uretimi` },
-    { name: stripHtml(t("smm_services_title2")), url: `${base}/${locale}/smm/planlama-strateji` },
-    { name: stripHtml(t("smm_services_title3")), url: `${base}/${locale}/smm/reels-video` },
-    { name: stripHtml(t("smm_services_title4")), url: `${base}/${locale}/smm/sosyal-medya-reklamlari` },
-    { name: stripHtml(t("smm_services_title5")), url: `${base}/${locale}/smm/analiz-raporlama` },
+    const serviceItems = [
+    { name: stripHtml(t("smm_services_title1")), url: `${base}/${locale}${locale === "tr" ? "/smm/icerik-uretimi" : "/smm/social-media-content"}` },
+    { name: stripHtml(t("smm_services_title2")),   url: `${base}/${locale}${locale === "tr" ? "/smm/planlama-strateji" : "/smm/social-media-planning"}` },
+    { name: stripHtml(t("smm_services_title3")),     url: `${base}/${locale}${locale === "tr" ? "/smm/reels-video" : "/smm/reeels-video"}` },
+    { name: stripHtml(t("smm_services_title4")),  url: `${base}/${locale}${locale === "tr" ? "/smm/sosyal-medya-reklamlari" : "/smm/social-media-ads"}` },
+    { name: stripHtml(t("smm_services_title5")), url: `${base}/${locale}${locale === "tr" ? "/smm/analiz-raporlama" : "/smm/social-media-reporting"}` },
   ];
 
   const jsonLd = buildDepartmentJsonLd({

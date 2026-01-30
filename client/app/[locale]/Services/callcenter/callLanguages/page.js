@@ -35,7 +35,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Türkçe, İngilizce, Almanca ve Rusça dillerinde profesyonel çağrı merkezi desteği sağlar. Oteller ve işletmeler için uluslararası müşteri iletişimi çözümleri sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

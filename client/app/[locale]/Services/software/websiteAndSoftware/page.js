@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, hızlı, güvenli ve SEO uyumlu kurumsal web siteleri geliştirir. Next.js altyapısıyla yüksek performans sunan profesyonel web çözümleri.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

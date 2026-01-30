@@ -173,9 +173,9 @@ export default function HomeBlogShowcase({
 
   return (
     <section className="mx-auto w-full xl:w-[98%] max-w-[1900px] px-4 py-3 lg:py-6">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4">
+      <div className="flex flex-row items-start md:items-end justify-between gap-4">
         <div>
-          <h2 className="text-black text-[14px] md:text-[16px] lg:text-xl font-normal lg:font-semibold">
+          <h2 className="text-black text-[16px] md:text-[18px] lg:text-xl font-medium lg:font-semibold">
             {t("recentlyAdded")}
           </h2>
         </div>
@@ -212,14 +212,14 @@ export default function HomeBlogShowcase({
 
           <Link
             href={`/${locale}/blogs`}
-            className="!text-black text-xs lg:text-sm inline-flex items-center gap-2 ml-6 md:ml-0"
+            className="!text-black hidden md:inline-flex text-sm font-medium items-center gap-2 ml-3"
           >
             {t("allBlogs")} <span>→</span>
           </Link>
         </div>
       </div>
 
-      <div className="mt-6">
+      <div className="mt-3 md:mt-6">
         <div
           ref={railRef}
           onScroll={onScroll}
@@ -231,6 +231,12 @@ export default function HomeBlogShowcase({
           ))}
         </div>
       </div>
+       <Link
+            href={`/${locale}/blogs`}
+            className="!text-black flex md:hidden text-xs font-semibold items-end justify-end gap-2 mt-3 justify-items-end"
+          >
+            {t("allBlogs")} <span>→</span>
+          </Link>
     </section>
   );
 }

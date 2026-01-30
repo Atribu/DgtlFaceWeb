@@ -8,7 +8,7 @@ import image3 from "./images/image3.webp"
 import image4 from "./images/image4.webp"
 import image5 from "./images/image5.webp"
 import image6 from "./images/image6.webp"
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -16,174 +16,233 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller ve turizm markaları için SEO, dijital reklam, web geliştirme, OTA ve call center entegrasyonlarıyla çalışan, direct booking ve organik görünürlük odaklı bir dijital pazarlama ve teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  const pathnameKey = "/Services/hotel/socialMedia";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Otel Sosyal Medya Yönetimi – Turizm İçin Profesyonel Instagram & Reels | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, oteller için Instagram, Reels, TikTok ve Facebook sosyal medya yönetimi sunar. Turizm sektörüne özel içerik üretimi, planlama, influencer iş birlikleri ve rezervasyon odaklı sosyal medya stratejileri geliştirir.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": [
-        "Antalya",
-        "Belek",
-        "Kemer",
-        "Side",
-        "Türkiye",
-        "Europe"
-      ]
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/otel/seo/#webpage",
-      "url": "https://dgtlface.com/tr/otel/seo",
-      "name": "Otel SEO Hizmetleri – Google’da Üst Sıralara Çıkan Turizm Stratejileri | DGTLFACE",
-      "description": "DGTLFACE, oteller için SEO çalışmalarıyla organik görünürlüğü artırır. Turizm sektörüne özel anahtar kelime araştırması, teknik SEO ve içerik optimizasyonu sağlar.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/otel/seo/#breadcrumb"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/otel/seo/#service",
-      "name": "Otel SEO Hizmetleri – Google’da Üst Sıralara Çıkan Turizm Stratejileri",
-      "url": "https://dgtlface.com/tr/otel/seo",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "otel seo, otel seo stratejisi, turizm seo, resort seo, otel google sıralama, otel organik trafik artırma",
-      "description": "DGTLFACE, oteller için SEO çalışmalarıyla organik görünürlüğü artırır. Otel SEO stratejisi, turizm SEO, resort SEO, otel Google sıralama, otel organik trafik artırma, oteller için SEO nasıl yapılır, otel SEO anahtar kelime analizi, Google Hotel/Travel index optimizasyonu, çok dilli otel SEO, otel web sitesi SEO ve oteller için blog & destinasyon içerik stratejisi alanlarında profesyonel optimizasyon sunar.",
-      "areaServed": [
-        "Antalya",
-        "Belek",
-        "Kemer",
-        "Side",
-        "Türkiye",
-        "Europe"
-      ],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "otel seo",
-        "otel seo stratejisi",
-        "turizm seo",
-        "resort seo",
-        "otel google sıralama",
-        "otel organik trafik artırma",
-        "oteller için seo nasıl yapılır",
-        "otel seo anahtar kelime analizi",
-        "google hotel index optimizasyonu",
-        "resort seo teknikleri",
-        "turizm işletmesi seo rehberi",
-        "çok dilli otel seo",
-        "otel web sitesi seo",
-        "booking etkisi seo",
-        "oteller için blog stratejisi",
-        "otel fotoğraf seo optimizasyonu",
-        "antalya otel seo",
-        "belek otel seo",
-        "kemer otel seo",
-        "side resort seo"
-      ]
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "Hotel",
-      "@id": "https://dgtlface.com/tr/otel/seo/#hotel-entity",
-      "name": "Otel SEO Hizmeti Uygulanan Otel",
-      "description": "DGTLFACE otel SEO hizmeti ile Google’da üst sıralara taşınan, çok dilli web sitesi, destinasyon içerikleri ve direct booking stratejileri uygulanan örnek otel entity yapısı.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/otel/seo/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Otel Dijital Pazarlama",
-          "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Otel SEO Hizmetleri",
-          "item": "https://dgtlface.com/tr/otel/seo"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/otel/seo/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Otel SEO nedir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Otel SEO, otel web sitelerinin arama motorlarında özellikle destinasyon, konsept ve direct booking anahtar kelimelerinde üst sıralarda görünmesini sağlayan, teknik SEO, içerik, yerel SEO ve çok dilli yapı bileşenlerinden oluşan bir optimizasyon sürecidir. Amaç, OTA bağımlılığını azaltarak organik kanaldan daha fazla doğrudan rezervasyon üretmektir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "OTA etkisine rağmen Google’da nasıl sıralama alınır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "OTA etkisine rağmen Google’da sıralama almak için; hızlı ve mobil uyumlu bir site, doğru anahtar kelime stratejisi, güçlü destinasyon ve oda içerikleri, yerel SEO ve yapılandırılmış veri (schema) ile Google Hotel/Travel optimizasyonu birlikte uygulanmalıdır. Böylece marka aramaları ve niyet odaklı aramalarda otel web sitesinin görünürlüğü artar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Çok dilli otel SEO stratejisi nasıl kurulur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Çok dilli otel SEO stratejisi; her dil için ayrı URL yapısı, dil bazlı anahtar kelime araştırması, hreflang etiketlerinin doğru kullanımı ve çeviri yerine lokal içerik yazımı ile kurulur. Özellikle Almanca ve Rusça pazarları için destinasyon ve otel konseptini o pazarın arama alışkanlıklarına uygun şekilde anlatmak kritiktir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Otel blog içerikleri SEO ve satışa gerçekten katkı sağlar mı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Otel blog içerikleri; destinasyon aramalarında üst sıralara çıkmanıza, potansiyel misafirin bölgeyi araştırırken markanızla tanışmasına ve doğru kurgulanmış CTA’larla rezervasyon hunisine yönlendirilmesine yardımcı olur. Doğru anahtar kelime ve içerik yapısıyla blog, SEO ve satış arasında güçlü bir köprü kurar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "DGTLFACE’in otel SEO yaklaşımı nasıl çalışır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "DGTLFACE, otel SEO yaklaşımında teknik SEO, içerik ve yerel SEO’yu PMS–OTA, reklam, sosyal medya ve çağrı merkezi verileriyle birlikte ele alır. Önce analiz ve yol haritası çıkarılır, ardından teknik & içerik iyileştirmeleri uygulanır. Sonrasında Looker Studio panelleri ve aylık raporlarla organik trafik, rezervasyon ve gelir etkisi sürekli ölçülür ve strateji düzenli olarak optimize edilir."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
 
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com",
+//       "description": "DGTLFACE, oteller ve turizm markaları için sosyal medya, SEO, reklam, web geliştirme, OTA ve call center entegrasyonlarını yöneten, rezervasyon ve gelir odaklı çalışan bir dijital pazarlama ve teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": [
+//         "Antalya",
+//         "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya",
+//         "Türkiye",
+//         "Europe"
+//       ]
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#webpage",
+//       "url": "https://dgtlface.com/tr/otel/sosyal-medya",
+//       "name": "Otel Sosyal Medya Yönetimi – Turizm İçin Profesyonel Instagram & Reels | DGTLFACE",
+//       "description": "DGTLFACE, oteller için Instagram, Reels, TikTok ve Facebook sosyal medya yönetimi sunar. Turizm sektörüne özel içerik üretimi, planlama, influencer iş birlikleri ve rezervasyon odaklı sosyal medya stratejileri geliştirir.",
+//       "inLanguage": "tr-TR",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#service",
+//       "name": "Otel Sosyal Medya Yönetimi – Turizm İçin Profesyonel Instagram & Reels",
+//       "url": "https://dgtlface.com/tr/otel/sosyal-medya",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "otel sosyal medya, otel instagram yönetimi, resort social media, turizm sosyal medya, hotel content production",
+//       "description": "DGTLFACE, oteller için Instagram, Reels, TikTok ve Facebook sosyal medya yönetimi sunar. Otel sosyal medya stratejisi, resort social media, turizm sosyal medya, otel Instagram yönetimi, hotel content production, otel Reels fikirleri, oteller için Instagram stratejisi, Reels ile oda satış artırma, otel sosyal medya içerik üretimi, resort için video çekimi, all inclusive oteller için sosyal medya, hotel influencer marketing ve sosyal medya ile rezervasyon artırma odaklı çözümler geliştirir.",
+//       "areaServed": [
+//         "Antalya",
+//         "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya",
+//         "Türkiye",
+//         "Europe"
+//       ],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "otel sosyal medya",
+//         "resort social media",
+//         "turizm sosyal medya",
+//         "otel instagram yönetimi",
+//         "hotel content production",
+//         "otel reels fikirleri",
+//         "oteller için instagram stratejisi",
+//         "reels ile oda satış artırma",
+//         "otel sosyal medya içerik üretimi",
+//         "resort için video çekimi",
+//         "all inclusive oteller için sosyal medya",
+//         "hotel influencer marketing",
+//         "otel fotoğraf çekimi",
+//         "sosyal medya ile rezervasyon artırma",
+//         "turizm sosyal medya taktikleri",
+//         "luxury hotel instagram",
+//         "resort sosyal medya paketleri",
+//         "butik otel sosyal medya",
+//         "aquapark otel sosyal medya yönetimi",
+//         "antalya resort sosyal medya",
+//         "belek hotel instagram",
+//         "kemer otel sosyal medya",
+//         "alanya hotel reels"
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Otel Dijital Pazarlama",
+//           "item": "https://dgtlface.com/tr/otel-dijital-pazarlama"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 3,
+//           "name": "Otel Sosyal Medya Yönetimi",
+//           "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/otel/sosyal-medya/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Oteller için sosyal medya yönetimi neyi kapsar?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Oteller için sosyal medya yönetimi; strateji oluşturma, içerik ve Reels üretimi, paylaşım takvimi, yorum ve DM yönetimi, reklam entegrasyonu ve performans raporlamasını kapsar. Amaç, sosyal medyayı sadece beğeni alanı değil, marka algısı ve rezervasyon üreten bir kanal haline getirmektir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Reels ile oda satışı gerçekten artar mı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Doğru kurgulanmış Reels içerikleri; oda, tesis ve deneyimi kısa ve etkileyici şekilde anlattığında, doğru hedefleme ve net bir yönlendirme (web rezervasyon linki, WhatsApp veya call center) ile birleştiğinde rezervasyon talebini ciddi şekilde artırabilir. Reels, özellikle keşif ve karar öncesi ilham aşamasında çok güçlü bir araçtır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Otel sosyal medyası ile rezervasyon nasıl tetiklenir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Rezervasyon tetiklemek için; deneyim odaklı görseller, paket ve konsept anlatımları, kampanyalar ve güçlü call-to-action’lar birlikte kullanılmalıdır. Sosyal medya içerikleri, web rezervasyon motoru, OTA sayfaları veya çağrı merkezi gibi satış noktalarına net linkler ve mesaj akışlarıyla bağlanmalıdır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "DGTLFACE otel sosyal medya sürecini nasıl yönetir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "DGTLFACE, otel sosyal medya sürecinde önce mevcut hesapları ve hedef pazarları analiz eder, ardından içerik ve Reels stratejisi, aylık içerik takvimi ve reklam planını oluşturur. Üretim, paylaşım, DM/yorum yönetimi ve performans raporlaması tek çatı altında yönetilir; sosyal medya verileri rezervasyon ve gelir verileriyle birlikte analiz edilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece içerik üretiyorsunuz, yoksa çekim ve prodüksiyon da var mı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "İhtiyaca göre hem dijital içerik ve Reels fikri üretebiliyor hem de sahada fotoğraf ve video çekimi yapabiliyoruz. Creative ve video prodüksiyon ekibiyle birlikte; oda, tesis, destinasyon ve deneyim odaklı görsel arşiv oluşturup bunu sosyal medya, web ve OTA kanallarında kullanıma hazır hale getiriyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
-const Page = () => {
-   const t = useTranslations("OtelSocialMediaPage");
-   const t2 = useTranslations("OtelSocialMediaPage.h4Section");
+
+export default async function Page({ params: { locale } }) {
+   const t = await getTranslations({locale,namespace: "OtelSocialMediaPage",});
+    const t2 = await getTranslations({locale,namespace: "OtelSocialMediaPage.h4Section",});
+
+      const baseUrl = getBaseUrl();
+      const pathnameKey = "/Services/hotel/socialMedia";
+      const canonicalUrl = getCanonicalUrl(pathnameKey, locale); 
+
            
               const stepData = [1,2,3,4,5,6,7].map(i => ({
                 id: i,
@@ -251,12 +310,45 @@ const Page = () => {
                
              ];
 
+               const jsonLd = buildServiceJsonLd({
+                              baseUrl,
+                              locale,
+                              canonicalUrl,
+                          
+                              pageName: t("jsonld.pageName"),
+                              pageDescription: t("jsonld.pageDescription"),
+                              serviceName: t("jsonld.serviceName"),
+                              serviceType: t("jsonld.serviceType"),
+                              keywords: t.raw("jsonld.keywords"),
+                          
+                              breadcrumbItems: [
+                                {
+                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
+                                  url: `${baseUrl}/${locale}`,
+                                },
+                          
+                                {
+                                  name: locale === "tr" ? "Otel Dijital Dönüşüm" : "Hotel Digital Marketing",
+                                  url: `${baseUrl}${locale === "tr" ? "/tr/otel" : "/en/hotel"}`,
+                                },
+                          
+                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+                              ],
+                          
+                              faqs,
+                          
+                              // 🤖 AI alanları (yeni standart)
+                              aiQuestion: t("jsonld.pageName"),
+                              aiAnswer: t("ai_answer_text"),
+                              aiSource: t("aiSourceMention"),
+                            });
+
   return (
   <>
   <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
@@ -293,4 +385,3 @@ const Page = () => {
   )
 }
 
-export default Page

@@ -41,7 +41,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, çok kanallı çağrı merkezi hizmetleriyle rezervasyon, satış sonrası destek, mesaj yönetimi ve performans analizi sunar. 4 dilde profesyonel müşteri hizmetleri sağlar.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =

@@ -38,7 +38,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, markanıza özel kurumsal hediye tasarımları, baskı ürünleri, promosyon çalışmaları ve kişisel tasarım ürünleri sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

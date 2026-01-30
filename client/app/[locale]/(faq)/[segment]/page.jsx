@@ -134,10 +134,43 @@ export async function generateMetadata({ params }) {
   const meta = metaFromJsonLd(jsonLd);
   if (!meta) return {};
 
-  return {
+  const locale = params?.locale || "tr";
+
+  // Site domain (prod)
+  const siteUrl = "https://dgtlface.com";
+
+  // OG görsel URL
+  const ogImage = `${siteUrl}/og/sss/dgtlface.com_tr_sss.jpeg`;
+
+
+   return {
     title: meta.title,
     description: meta.description,
     alternates: meta.canonical ? { canonical: meta.canonical } : undefined,
+
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: meta.canonical || `${siteUrl}/${locale}/sss/${slug}`,
+      siteName: "DGTLFACE",
+      locale: locale === "en" ? "en_US" : "tr_TR",
+      type: "article", // faq sayfası için istersen "website" da diyebilirsin
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: meta.title,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: [ogImage],
+    },
   };
 }
 

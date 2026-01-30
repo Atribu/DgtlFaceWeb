@@ -121,14 +121,14 @@ export const seoConfig = {
   
   },
   "/Services/digitalAnalysis": { // TR Slug: /antalya-dijital-pazarlama-analiz
-    tr: {
-      title: "Antalya Dijital Pazarlama Veri Analizi ve Raporlama Hizmetleri",
-      description: "Pazarlama stratejilerinizi optimize etmek için reklam, çağrı ve web sitesi verilerinin detaylı analizi ve raporlanması.",
-    },
-    en: {
-      title: "Antalya Digital Marketing Data Analysis and Reporting Services",
-      description: "Detailed analysis and reporting of advertising, call, and website data to optimize your marketing strategies.",
-    },
+  tr: {
+    title: "Veri Analizi & Dijital Performans Raporlama – Looker Studio Uzmanlığı | DGTLFACE",
+    description: "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir."
+  },
+  en: {
+    title: "Data Analytics & Performance Reporting – Looker Studio Dashboards | DGTLFACE",
+    description: "DGTLFACE builds Looker Studio dashboards and performance reports, combining SEO/SEM/SMM and sales data to measure and improve digital performance."
+  }
     
   },
   "/Services/analysis": {
@@ -468,58 +468,58 @@ export const seoConfig = {
   },
 
   // PMS Alt Sayfaları
-  "/Services/pms/otaContract": { // TR Slug: /antalya-pms/ota-sozlesme
+  "/Services/pms/otaContract": { 
     tr: {
-      title: "Antalya OTA Sözleşme Yönetimi ve Komisyon Optimizasyonu",
-      description: "Booking.com, Expedia ve diğer OTA'larla sözleşme süreçlerinin yönetimi ve en iyi komisyon oranlarının elde edilmesi.",
+      title: "OTA Entegrasyonu – Booking, Expedia, Agoda Bağlantıları | DGTLFACE",
+      description: "DGTLFACE, Booking, Expedia, Agoda ve diğer OTA kanallarını otelinizin PMS ve channel manager altyapısıyla entegre eder. Fiyat ve envanter verilerini tek merkezden senkronize ederek rate parity’yi korur, manuel hata riskini azaltır ve overbooking ihtimalini düşürür. Çok kanallı rezervasyon akışı otomatik hale gelir; test rezervasyonlarıyla bağlantı doğrulanır ve canlıya alınır. OTA performans raporları ve görünürlük analizleriyle online satış kanalları gelir odaklı şekilde optimize edilir.",
     },
     en: {
-      title: "Antalya OTA Contract Management and Commission Optimization",
-      description: "Management of contract processes with Booking.com, Expedia, and other OTAs and securing the best commission rates.",
+      title: "OTA Integration – Booking, Expedia, Agoda Connections | DGTLFACE",
+      description: "DGTLFACE integrates Booking.com, Expedia, Agoda, and other OTAs with your hotel’s PMS and channel manager setup. By synchronizing rates and availability from a single source of truth, it helps maintain rate parity, reduces manual errors, and lowers the risk of overbooking. The multi-channel reservation flow becomes automated, validated via test bookings, and then launched live. With OTA performance reporting and visibility analysis, online distribution is optimized with a revenue-focused approach.",
     },
 
   },
-  "/Services/pms/hotelIdentification": { // TR Slug: /antalya-pms/otel-tanimlama
+  "/Services/pms/pmsInstallation": { 
     tr: {
-      title: "Antalya Otel Tanımlama ve Veri Girişi Hizmetleri | PMS Entegrasyonu",
-      description: "Yeni otellerin veya tesislerin PMS sistemine doğru ve eksiksiz bir şekilde tanımlanması ve veri girişi.",
+      title: "Otel PMS Kurulum & Destek – Rezervasyon ve Operasyon Yönetimi | DGTLFACE",
+      description: "DGTLFACE, Elektraweb ve diğer otel PMS sistemleri için kurulum, modül yapılandırma, eğitim ve sürekli destek sunar. PMS kurulumu ile resepsiyon, rezervasyon, housekeeping, faturalama ve raporlama süreçleri otel yapısına göre dijitalleştirilir. PMS–OTA–Channel Manager entegrasyonları sayesinde fiyat ve envanter tek merkezden yönetilir, kanal tutarlılığı sağlanır ve overbooking riski azaltılır. Operasyon verileri düzenli raporlanır; KPI ve performans çıktıları Looker Studio dashboard’larına taşınarak yönetim görünürlüğü artırılır.",
     },
     en: {
-      title: "Antalya Hotel Identification and Data Entry Services | PMS Integration",
-      description: "Accurate and complete identification and data entry of new hotels or properties into the PMS system.",
+      title: "Hotel PMS Setup & Support – Reservation and Operations Management | DGTLFACE",
+      description: "DGTLFACE provides installation, configuration, training, and ongoing support for Elektraweb and other hotel PMS systems. With a structured PMS setup, front office, reservations, housekeeping, invoicing, and reporting workflows are digitized and tailored to your property’s operations. By integrating PMS with OTAs and a channel manager, rates and availability are managed from a single source of truth, channel consistency is improved, and overbooking risk is reduced. Operational outputs are reported regularly, and key KPIs can be surfaced in Looker Studio dashboards to increase management visibility.",
     },
   
   },
-  "/Services/pms/webPayment": { // TR Slug: /antalya-pms/web-odeme-sistemleri
+  "/Services/pms/webPayment": { 
     tr: {
-      title: "Antalya Web Ödeme Sistemleri Kurulumu | Güvenli Online Tahsilat",
-      description: "Web siteniz üzerinden kredi kartı ile güvenli ve hızlı online ödeme altyapılarının kurulumu ve entegrasyonu.",
+      title: "Online Satış Optimizasyonu – Rezervasyon & Gelir Artırma | DGTLFACE",
+      description: "DGTLFACE, oteller için online satış optimizasyonu sunar. OTA, web sitesi, çağrı merkezi ve diğer rezervasyon kanallarını tek bir satış hunisine bağlayarak fiyat stratejisi, pazar bazlı segmentasyon, görünürlük artırma ve rezervasyon dönüşüm analizleriyle performansı iyileştirir. Rate parity, kampanya ve kanal karması yönetimi sayesinde hem doluluk planlaması güçlenir hem de RevPAR odaklı gelir artışı sağlanır. Süreç; ölçümleme, raporlama ve sürekli optimizasyon döngüsüyle ilerler ve online satışın sürdürülebilir şekilde büyümesini hedefler.",
     },
     en: {
-      title: "Antalya Web Payment System Setup | Secure Online Collection",
-      description: "Setup and integration of secure and fast online payment infrastructures via credit card on your website.",
+      title: "Online Sales Optimization – Increase Bookings & Revenue | DGTLFACE",
+      description: "SDGTLFACE delivers online sales optimization for hotels. By connecting OTAs, your website, call center, and other booking channels into a single sales funnel, we improve performance through pricing strategy, market-based segmentation, visibility growth, and booking conversion analysis. With rate parity, campaign planning, and channel mix optimization, occupancy planning becomes stronger and RevPAR-driven revenue growth is supported. The process follows a continuous measurement, reporting, and optimization loop designed to scale online sales sustainably.",
     },
 
   },
-  "/Services/pms/reservationModule": { // TR Slug: /antalya-pms/rezervasyon-modulu
+  "/Services/pms/channelManagement": { 
     tr: {
-      title: "Antalya Rezervasyon Modülü Entegrasyonu | Doğrudan Satış Artışı",
-      description: "Web sitenize entegre edilecek kullanıcı dostu rezervasyon modülü ile komisyonsuz doğrudan satışlarınızı maksimize edin.",
+      title: "Kanal Yönetimi – Envanter & Fiyat Senkronizasyonu | DGTLFACE",
+      description: "DGTLFACE, kanal yönetimiyle otelinizde fiyat ve envanteri tüm OTA platformlarında senkronize eder. Satış etkisini artırın, overbooking riskini azaltın.",
     },
     en: {
-      title: "Antalya Reservation Module Integration | Increase Direct Sales",
-      description: "Maximize your commission-free direct sales with a user-friendly reservation module integrated into your website.",
+      title: "Channel Management – Inventory & Rate Synchronization | DGTLFACE",
+      description: "DGTLFACE provides hotel channel management by integrating PMS, a channel manager, and OTAs to synchronize rates and availability across all sales channels. Booking.com, Expedia, Agoda, the hotel website booking engine, and call center workflows can be managed in one operational setup. With rate & inventory sync, market-based pricing, stop-sell rules, and buffer strategies, overbooking risk is reduced while occupancy, ADR, and RevPAR performance are optimized.",
     },
 
   },
-  "/Services/pms/reservationManagement": { // TR Slug: /antalya-pms/rezervasyon-yonetimi
+  "/Services/pms/reservationManagement": {
     tr: {
-      title: "Antalya Rezervasyon Yönetimi ve Kanal Yöneticisi Entegrasyonu",
-      description: "Tüm satış kanallarınızdaki rezervasyonların merkezi olarak yönetimi ve kanal yöneticisi (Channel Manager) entegrasyonu.",
+      title: "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE",
+      description: "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. OTA, web sitesi, çağrı merkezi, WhatsApp ve acentelerden gelen tüm talepleri PMS rezervasyon modülü üzerinde tek rezervasyon gerçeğinde birleştirir. Müsaitlik–fiyat kontrolü, misafir kaydı ve doğrulama, opsiyon/iptal, no-show ve misafir iletişimi süreçleri standart akışlarla yönetilerek hata oranı düşürülür, operasyon hızı artırılır. Kanal tutarlılığı ve raporlama görünürlüğü sayesinde doluluk planlaması güçlenir; gelir performansı (RevPAR) ve satış dönüşümü optimize edilir.",
     },
     en: {
-      title: "Antalya Reservation Management and Channel Manager Integration",
-      description: "Centralized management of reservations across all your sales channels and Channel Manager integration.",
+      title: "Reservation Management – Professional Booking Workflows for Hotels | DGTLFACE",
+      description: "DGTLFACE brings hotel reservation management into a structured digital workflow. Requests coming from OTAs, your website, call center, WhatsApp, and agencies are consolidated into a single source of truth within the PMS reservations module. Availability and rate checks, guest profile capture and verification, option/hold rules, cancellations and modifications, no-show handling, and guest communication are standardized to reduce errors and improve operational speed. With better channel consistency and clearer reporting, occupancy planning becomes stronger and revenue performance (RevPAR) and conversion outcomes can be optimized.",
     },
 
   },
@@ -538,45 +538,45 @@ export const seoConfig = {
   },
   "/Services/digitalAnalysis/digitalSalesAnalysis": { // TR Slug: /antalya-analiz/dijital-satis-analizi
     tr: {
-      title: "Antalya Dijital Satış ve Pazarlama Kanal Analizi | ROI Optimizasyonu",
-      description: "Hangi dijital kanalın en yüksek satış getirisini (ROI) sağladığını belirleyen detaylı satış analizleri.",
+      title: "Satış & Dönüşüm Raporlama – Gelir Artırıcı Veri Analizi | DGTLFACE",
+      description: "DGTLFACE, satış ve dönüşüm raporlamasıyla reklam, web ve sosyal medya verilerini tek bir funnel mantığında birleştirir; kanal bazlı satış, gelir, ROAS/ROI ve kârlılık metriklerini görünür kılar. Amaç, hangi kanalın gerçekten gelir ürettiğini netleştirmek, kayıp noktalarını (drop-off) tespit etmek ve veri odaklı aksiyonlarla dönüşüm oranını ve geliri artırmaktır.",
     },
     en: {
-      title: "Antalya Digital Sales and Marketing Channel Analysis | ROI Optimization",
-      description: "Detailed sales analyses identifying which digital channel provides the highest return on investment (ROI).",
+      title: "Sales & Conversion Reporting – Data-Driven Revenue Analysis | DGTLFACE",
+      description: "DGTLFACE combines advertising, website, and social performance data into a single funnel view to reveal channel-level sales, revenue, ROAS/ROI, and profitability. The goal is to identify what truly drives revenue, pinpoint drop-off stages, and take data-backed actions to improve conversion rate and overall income.",
     },
 
   },
   "/Services/digitalAnalysis/onlineMarketResearchService": { // TR Slug: /antalya-analiz/online-pazar-arastirmasi
     tr: {
-      title: "Antalya Online Pazar Araştırması ve Rakip Analizi",
-      description: "Antalya turizm ve otelcilik pazarında rakiplerinizin dijital stratejilerini ve potansiyel fırsatları belirleyin.",
+      title: "Benchmark Analizi – Rakip & Sektör Performans Karşılaştırması | DGTLFACE",
+      description: "DGTLFACE, haftalık ve aylık benchmark analizleriyle rakiplerinizi, fiyat stratejinizi ve sektör performansınızı karşılaştırır. Oteller için özel benchmark sistemi kurar.",
     },
     en: {
-      title: "Antalya Online Market Research and Competitor Analysis",
-      description: "Identify your competitors' digital strategies and potential opportunities in the Antalya tourism and hotel market.",
+      title: "Benchmark Analysis – Competitor & Market Performance Comparison | DGTLFACE",
+      description: "DGTLFACE runs weekly and monthly benchmark analysis to compare your pricing, demand signals and performance metrics against a defined competitor set and market trends. OTA rate curves, occupancy/demand indicators, digital visibility (SEO/Ads/Social), channel mix and campaign behavior are consolidated into a single reporting framework. The goal is to optimize pricing, campaigns and channel strategy with data-driven insights that improve sales efficiency.",
     },
 
   },
-  "/Services/digitalAnalysis/advertisingReportingService": { // TR Slug: /antalya-analiz/reklam-raporlama
+  "/Services/digitalAnalysis/lookerStudio": {
     tr: {
-      title: "Antalya Reklam Kampanyası Raporlama ve Performans Analizi",
-      description: "Tüm Google Ads, Yandex ve sosyal medya reklam kampanyalarının performansını ölçen detaylı raporlar.",
+      title: "Looker Studio Raporlama – Google Veri Dashboard & Otomasyon | DGTLFACE",
+      description: "DGTLFACE, Looker Studio ile SEO, SEM, sosyal medya ve web performans verilerinizi tek bir panelde birleştirir. GA4, Search Console, Google Ads, Meta Ads gibi kaynakları; Sheets/CSV veya özel bağlantılar üzerinden PMS/OTA/CRM verileriyle aynı dashboard’ta toplar. Hedef; yönetimin hızlı okuyacağı KPI ekranları, ekiplerin aksiyon alacağı kanal sekmeleri ve otomatik e-posta/PDF rapor akışıyla veriye dayalı karar süreçlerini hızlandırmaktır.",
     },
     en: {
-      title: "Antalya Advertising Campaign Reporting and Performance Analysis",
-      description: "Detailed reports measuring the performance of all Google Ads, Yandex, and social media advertising campaigns.",
+      title: "Looker Studio Reporting – Google Data Dashboards & Automation | DGTLFACE",
+      description: "DGTLFACE brings your SEO, paid media, social and website performance data into a single Looker Studio dashboard. We connect GA4, Search Console, Google Ads and Meta Ads, and can unify them with PMS/OTA/CRM datasets via Sheets/CSV or custom connectors. The goal is to provide executive KPI views, channel-level drilldowns, and automated email/PDF reporting that accelerates data-driven decision-making.",
     },
 
   },
-  "/Services/digitalAnalysis/callReportingService": { // TR Slug: /antalya-analiz/cagri-raporlama
+  "/Services/digitalAnalysis/kvkkDataSecurity": { 
     tr: {
-      title: "Antalya Çağrı Raporlama ve Satış Takibi Hizmetleri",
-      description: "Çağrı merkezi performansını, arayanın kaynağını ve satışa dönüşüm oranlarını ölçen kapsamlı raporlama.",
+      title: "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri | DGTLFACE",
+      description: "DGTLFACE, KVKK uyumlu veri işleme ve veri güvenliği yaklaşımıyla; web, analitik, CRM/PMS/OTA ve raporlama süreçlerinde kişisel verilerin denetlenebilir şekilde yönetilmesini sağlar. Veri akış haritaları, erişim yetkilendirme prensipleri, loglama ve saklama süreleri gibi teknik ve operasyonel başlıklarda riskleri görünür kılar; raporlama ve iyileştirme adımlarıyla kurumların veri koruma seviyesini güçlendirir.",
     },
     en: {
-      title: "Antalya Call Reporting and Sales Tracking Services",
-      description: "Comprehensive reporting measuring call center performance, caller source, and sales conversion rates.",
+      title: "KVKK & Data Security – Professional Data Protection Systems | DGTLFACE",
+      description: "DGTLFACE supports KVKK-aligned data handling and data security across web, analytics, CRM/PMS/OTA and reporting workflows. By mapping data flows, clarifying access controls, logging, and retention policies, we make risks visible and help improve the overall level of auditability and protection for personal data.",
     },
 
   },
@@ -636,5 +636,84 @@ export const seoConfig = {
       description: "DGTLFACE provides sales-driven, multilingual hotel reservation call center services for hotels and hospitality brands. Reservation requests via phone, WhatsApp, web, and OTA channels are handled through PMS-integrated systems with real-time availability and pricing control. Sales scripts, upsell and cross-sell strategies help increase direct bookings, revenue, and guest satisfaction.",
     },
 
+  },
+
+
+  //hotel subpages
+
+    "/Services/hotel/seo": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
+  },
+
+
+    "/Services/hotel/socialMedia": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
+  },
+
+
+    "/Services/hotel/adsManagement": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
+  },
+
+
+    "/Services/hotel/otaManagement": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
+  },
+
+
+    "/Services/hotel/pmsIntegration": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
+  },
+
+      "/Services/hotel/callCenter": { // TR Slug: /antalya-pazarlama-sistem-kurulumu
+    tr: {
+      title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+    en: {
+ title: "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+      description: "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+    },
+  
   },
 };

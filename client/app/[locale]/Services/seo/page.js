@@ -40,7 +40,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, teknik SEO, yerel SEO ve içerik optimizasyonuyla organik görünürlüğünüzü artırır. SEO ajansı olarak web sitenizi Google’da üst sıralara taşır.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+ const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); // ✅ her zaman absolute
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }) {
       : `${base}/en/search-engine-optimization`; 
 
   return {
-    // ✅ kritik: "/og/..." gibi relative path'leri absolute'a çevirir
+    
     metadataBase: new URL(base),
 
     title,
@@ -71,7 +72,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage,
+          url: ogImageAbs,
           width: 1200,
           height: 630,
           alt: title,
@@ -84,7 +85,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
@@ -289,11 +290,11 @@ const Page = ({ params }) => {
 
   // ✅ StepSection'daki 5 alt servis linki (routing.js ile uyumlu)
   const serviceItems = [
-    { name: "Technical SEO", url: `${base}/${locale}${locale === "tr" ? "/seo/teknik-seo" : "/seo/technical-seo"}` },
-    { name: "Content SEO",   url: `${base}/${locale}${locale === "tr" ? "/seo/icerik-seo" : "/seo/on-page-seo"}` },
-    { name: "Local SEO",     url: `${base}/${locale}${locale === "tr" ? "/seo/yerel-seo" : "/seo/local-seo"}` },
-    { name: "Backlink SEO",  url: `${base}/${locale}${locale === "tr" ? "/seo/backlink-yonetimi" : "/seo/backlink-seo"}` },
-    { name: "SEO Reporting", url: `${base}/${locale}${locale === "tr" ? "/seo/seo-raporlama" : "/seo/seo-reporting"}` },
+    { name: "Technical SEO", url: `${base}/${locale}${locale === "tr" ? "/seo/teknik-seo" : "/search-engine-optimization/technical-seo"}` },
+    { name: "Content SEO",   url: `${base}/${locale}${locale === "tr" ? "/seo/icerik-seo" : "/search-engine-optimization/on-page-seo"}` },
+    { name: "Local SEO",     url: `${base}/${locale}${locale === "tr" ? "/seo/yerel-seo" : "/search-engine-optimization/local-seo"}` },
+    { name: "Backlink SEO",  url: `${base}/${locale}${locale === "tr" ? "/seo/backlink-yonetimi" : "/search-engine-optimization/backlink-seo"}` },
+    { name: "SEO Reporting", url: `${base}/${locale}${locale === "tr" ? "/seo/seo-raporlama" : "/search-engine-optimization/seo-reporting"}` },
   ];
 
 const jsonLd = buildDepartmentJsonLd({

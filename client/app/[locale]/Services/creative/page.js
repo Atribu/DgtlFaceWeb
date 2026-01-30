@@ -41,7 +41,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, grafik tasarım, video prodüksiyon, 360° çekim, UI/UX ve kurumsal kimlik hizmetleriyle markanız için güçlü yaratıcı çözümler sunar.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =
@@ -307,11 +308,11 @@ const Page = ({ params }) => {
         ]
       : [
           // placeholder: EN child path’ler sende nasıl ise ona göre değiştir
-          { name: stripHtml(t("creativepage_services_title1")), url: `${base}/en/creative/graphic-motion-design` },
-          { name: stripHtml(t("creativepage_services_title2")), url: `${base}/en/creative/ui-ux-design` },
-          { name: stripHtml(t("creativepage_services_title3")), url: `${base}/en/creative/video-production` },
-          { name: stripHtml(t("creativepage_services_title4")), url: `${base}/en/creative/event-production` },
-          { name: stripHtml(t("creativepage_services_title5")), url: `${base}/en/creative/corporate-gift-design` },
+          { name: stripHtml(t("creativepage_services_title1")), url: `${base}/en/creative-design/graphic-motion-design` },
+          { name: stripHtml(t("creativepage_services_title2")), url: `${base}/en/creative-design/ui-ux-design` },
+          { name: stripHtml(t("creativepage_services_title3")), url: `${base}/en/creative-design/video-production` },
+          { name: stripHtml(t("creativepage_services_title4")), url: `${base}/en/creative-design/event-production` },
+          { name: stripHtml(t("creativepage_services_title5")), url: `${base}/en/creative-design/corporate-gift-design` },
         ];
 
   const jsonLd = buildDepartmentJsonLd({

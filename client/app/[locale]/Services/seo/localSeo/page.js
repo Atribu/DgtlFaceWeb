@@ -33,7 +33,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, yerel SEO çalışmalarıyla işletmenizin Google Haritalar ve lokal aramalarda görünürlüğünü artırır. Yerel müşteri dönüşümlerinizi yükseltin.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -304,7 +305,7 @@ const Page = () => {
                  
                      breadcrumbItems: [
                        { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-                       { name: "SEO", url: `${baseUrl}${locale === "tr" ? "/tr/seo" : "/en/seo"}` },
+                       { name: "SEO", url: `${baseUrl}${locale === "tr" ? "/tr/seo" : "/en/search-engine-optimization"}` },
                        { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
                      ],
                  

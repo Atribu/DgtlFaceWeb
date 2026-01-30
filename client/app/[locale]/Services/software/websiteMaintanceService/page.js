@@ -35,7 +35,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, web sitesi bakım ve teknik destek hizmetleri sunar. Performans izleme, hata çözümü ve düzenli güncellemelerle sitenizi güçlendirir.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

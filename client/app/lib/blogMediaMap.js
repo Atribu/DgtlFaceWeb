@@ -3811,8 +3811,8 @@ export const BLOG_MEDIA_MAP = {
 "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":{
      banner: {
       src: "/images/blog/analysisReporting/Reporting2-3/Reporting2-3-1.webp",
-      alt: "",
-      caption: ""
+      alt: "SEO ve SEM Benchmark’ı ile Dijital Görünürlüğü Ölçmek",
+      caption: "SEO ve SEM Benchmark’ı ile Dijital Görünürlüğü Ölçmek"
     },
 
           "h1-context-02": {
@@ -3862,8 +3862,8 @@ export const BLOG_MEDIA_MAP = {
   "all-inclusive-otel-30-gunluk-icerik-takvimi":{
      banner: {
       src: "/images/blog/hotel/Hotel2-3/Hotel2-3-1.webp",
-      alt: "",
-      caption: ""
+      alt: "All Inclusive Oteller İçin 30 Günlük Sosyal Medya İçerik Takvimi Örneği",
+      caption: "All Inclusive Oteller İçin 30 Günlük Sosyal Medya İçerik Takvimi Örneği"
     },
 
           "h1-context-02": {
@@ -3906,6 +3906,106 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel2-3/Hotel2-3-8.webp",
       alt: "30 günlük takvim tablo ve şablon teslimatlarını gösteren proof kart görseli",
       caption: "30 günlük takvim tablo ve şablon teslimatlarını gösteren proof kart görseli"
+    }
+  },
+
+  "oteller-icin-youtube-butce-ve-teklif-stratejileri":{
+     banner: {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-1.webp",
+      alt: "Oteller İçin YouTube Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?",
+      caption: "Oteller İçin YouTube Bütçe ve Teklif (Bid) Stratejileri Nasıl Belirlenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-2.webp",
+      alt: "Bütçe–hedef–bid üçlüsünü tek karede özetleyen bağlam görseli",
+      caption: "Bütçe–hedef–bid üçlüsünü tek karede özetleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-3.webp",
+      alt: "Bütçe planlama ve bid karar bölümüne geçiş için ayırıcı görsel",
+      caption: "Bütçe planlama ve bid karar bölümüne geçiş için ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-4.webp",
+      alt: "Sezon ve pazar kırılımına geçiş için ayırıcı görsel",
+      caption: "Sezon ve pazar kırılımına geçiş için ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-5.webp",
+      alt: "Sezonluk bütçe kaydırma ve funnel dağılımını gösteren diyagram",
+      caption: "Sezonluk bütçe kaydırma ve funnel dağılımını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-6.webp",
+      alt: "Bütçe–bid kararını 7 adımda özetleyen checklist kartı",
+      caption: "Bütçe–bid kararını 7 adımda özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-7.webp",
+      alt: "CPV, CPA ve ROAS gibi KPI’ları birlikte özetleyen skor kart",
+      caption: "CPV, CPA ve ROAS gibi KPI’ları birlikte özetleyen skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-4/SEM2-4-8.webp",
+      alt: "Bütçe planı, bid stratejisi, sezon kaydırma ve raporlama çıktıları kartı",
+      caption: "Bütçe planı, bid stratejisi, sezon kaydırma ve raporlama çıktıları kartı"
+    }
+  },
+
+   "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":{
+     banner: {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-1.webp",
+      alt: "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite: Oteller İçin Yerel Alıntı (Citation) Stratejisi",
+      caption: "NAP Tutarlılığı, Yerel Dizinler ve Siteler Arası Otorite: Oteller İçin Yerel Alıntı (Citation) Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-2.webp",
+      alt: "Farklı platformlarda NAP varyasyonlarını gösteren bağlam görseli",
+      caption: "Farklı platformlarda NAP varyasyonlarını gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-3.webp",
+      alt: "NAP kavramı ve kimlik sinyallerine giriş ayraç görseli",
+      caption: "NAP kavramı ve kimlik sinyallerine giriş ayraç görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-4.webp",
+      alt: "Audit/temizlik adımlarına geçiş ayraç görseli",
+      caption: "Audit/temizlik adımlarına geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-5.webp",
+      alt: "Otel citation haritası ve önceliklendirme diyagramı",
+      caption: "Otel citation haritası ve önceliklendirme diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-6.webp",
+      alt: "NAP temizlik adımları checklist kartı",
+      caption: "NAP temizlik adımları checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-7.webp",
+      alt: "NAP tutarlılığı sonrası istikrar KPI paneli (karışıklık azalması)",
+      caption: "NAP tutarlılığı sonrası istikrar KPI paneli (karışıklık azalması)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-4/SEO2-4-8.webp",
+      alt: "NAP master + audit listesi + temizlik planı deliverables kartı",
+      caption: "NAP master + audit listesi + temizlik planı deliverables kartı"
     }
   },
 

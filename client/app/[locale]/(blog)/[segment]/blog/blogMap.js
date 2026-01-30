@@ -9,7 +9,8 @@ export const BLOG_MAP = {
 
     "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri",
     "oteller-icin-youtube-hedefleme-yapisi":"BlogOtellerIcinYouTubeHedeflemeYapisi",
-    "otel-youtube-reklam-filmi-senaryo-ve-storyboard":"BlogOtelYouTubeReklamFilmiSenaryoVeStoryboard"
+    "otel-youtube-reklam-filmi-senaryo-ve-storyboard":"BlogOtelYouTubeReklamFilmiSenaryoVeStoryboard",
+    "oteller-icin-youtube-butce-ve-teklif-stratejileri":"BlogOtellerIcinYouTubeButceVeTeklifStratejileri"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -20,7 +21,8 @@ export const BLOG_MAP = {
 
     "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin",
     "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist",
-    "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":"BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi"
+    "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":"BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi",
+    "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":"BlogNapTutarliligiYerelDizinlerVeSitelerArasiOtorite"
   },
 
     smm: {

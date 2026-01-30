@@ -41,7 +41,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, lansman, konser ve kurumsal organizasyonlar için profesyonel etkinlik prodüksiyonu ve video çekimi sunar. Planlama, çekim ve aftermovie süreçlerini uçtan uca yönetir.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

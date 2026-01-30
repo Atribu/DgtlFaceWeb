@@ -34,7 +34,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, SEO performansınızı Looker Studio ve gelişmiş analiz araçlarıyla raporlar. Organik görünürlüğünüzü veriye dayalı olarak artırın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -305,7 +306,7 @@ const Page = () => {
                     
                         breadcrumbItems: [
                           { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-                          { name: "SEO", url: `${baseUrl}${locale === "tr" ? "/tr/seo" : "/en/seo"}` },
+                          { name: "SEO", url: `${baseUrl}${locale === "tr" ? "/tr/seo" : "/en/search-engine-optimization"}` },
                           { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
                         ],
                     

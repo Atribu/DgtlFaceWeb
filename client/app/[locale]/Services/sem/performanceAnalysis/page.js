@@ -34,7 +34,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, tüm reklam kampanyalarını Looker Studio ile analiz ederek dönüşümlerinizi artırır. Veri odaklı reklam raporlama ile doğru kararlar alın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -245,7 +246,7 @@ const Page = () => {
 
   breadcrumbItems: [
     { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+    { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/search-engine-marketing"}` },
     { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
   ],
          faqs: [

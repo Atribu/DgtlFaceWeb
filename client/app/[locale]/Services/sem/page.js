@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı yönetim sunar. Profesyonel SEM stratejileriyle görünürlüğünüzü ve satışlarınızı artırın.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   // Türkçe yorum: canonical URL (local + prod)
   // senin route yapına göre EN slug'ı değiştirmen gerekebilir
@@ -113,12 +114,12 @@ const Page = ({ params }) => {
   });
 
   // ✅ SEM alt servis linkleri (routing’teki path’lere göre)
-  const serviceItems = [
-    { name: "Google Ads Campaign Management", url: `${base}/${locale}/sem/google-ads-yonetimi` },
-    { name: "YouTube Ads Management",         url: `${base}/${locale}/sem/youtube-reklam-yonetimi` },
-    { name: "Remarketing & Display",          url: `${base}/${locale}/sem/remarketing-ve-display` },
-    { name: "Conversion Tracking & GTM",      url: `${base}/${locale}/sem/donusum-takibi-tag-manager` },
-    { name: "Ads Reporting",                  url: `${base}/${locale}/sem/reklam-raporlama` },
+    const serviceItems = [
+    { name: "Google Ads Campaign Management", url: `${base}/${locale}${locale === "tr" ? "/sem/google-ads-yonetimi" : "/sem/google-ads-advertising"}` },
+    { name: "YouTube Ads Management",   url: `${base}/${locale}${locale === "tr" ? "/sem/youtube-reklam-yonetimi" : "/sem/youtube-advertising-management"}` },
+    { name: "Remarketing & Display",     url: `${base}/${locale}${locale === "tr" ? "/sem/remarketing-ve-display" : "/sem/remarketing-and-display"}` },
+    { name: "Conversion Tracking & GTM",  url: `${base}/${locale}${locale === "tr" ? "/sem/donusum-takibi-tag-manager" : "/sem/tag-manager"}` },
+    { name: "Ads Reporting", url: `${base}/${locale}${locale === "tr" ? "/sem/reklam-raporlama" : "/sem/performance-analysis"}` },
   ];
 
 const jsonLd = buildDepartmentJsonLd({

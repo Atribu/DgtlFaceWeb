@@ -41,7 +41,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, oteller için PMS kurulumu, OTA entegrasyonu, kanal yönetimi, fiyat ve envanter senkronizasyonu, online satış optimizasyonu ve rezervasyon yönetimi sunar.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   // Türkçe yorum: canonical URL
   const url =

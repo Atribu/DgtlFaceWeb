@@ -83,6 +83,25 @@
   },
 
 "Homepage":{
+   "jsonld": {
+      "pageName": "DGTLFACE – Digital Marketing & Technology Partner",
+      "pageDescription": "DGTLFACE delivers end-to-end digital marketing and technology solutions for brands and hotels, combining SEO, SEM, social media, web & software, creative production, multilingual call center and PMS–OTA integrations.",
+      "websiteName": "DGTLFACE Digital Marketing & Technology Partner",
+      "websiteDescription": "Digital Marketing, SEO, SEM, Creative, Software & Hotel Technology Partner.",
+      "orgDescription": "DGTLFACE is a digital marketing & technology partner offering SEO, SEM, social media, web & software, creative production, PMS–OTA integrations and multilingual call center services under one roof.",
+      "areaServed": ["Antalya", "Türkiye", "Europe", "Belek", "Kemer", "Side", "Alanya", "Bodrum"],
+      "faq": {
+        "q1": "What is DGTLFACE?",
+        "a1": "DGTLFACE is an integrated digital marketing and technology partner for brands and especially hotels, providing SEO, SEM, social media management, web & software development, creative production, PMS–OTA integrations and multilingual call center services under one roof.",
+        "q2": "Is DGTLFACE only an advertising agency?",
+        "a2": "No. DGTLFACE goes beyond ad management by integrating SEO, SEM, social media, web & software, PMS–OTA and call center operations into a unified growth architecture.",
+        "q3": "What is DGTLFACE’s biggest advantage for hotels?",
+        "a3": "For hotels, the biggest advantage is managing OTA, PMS, website, advertising and call center processes together—so every digital touchpoint works within a single integrated system.",
+        "q4": "How does DGTLFACE report results?",
+        "a4": "All data is consolidated in Looker Studio dashboards and recurring reports; performance across SEO, SEM, social media, OTA and call center is monitored daily, weekly and monthly."
+      }
+    },
+    
     "Hero": {
     "title": "DGTLFACE: Your Digital Marketing, Technology & Hotel Digital Transformation Partner",
     "subtitle": "DGTLFACE Digital Technology Partner offers high-quality and cost-effective digital marketing solutions tailored to each business.",
@@ -1964,32 +1983,23 @@
 
 "Hotel": {
   "jsonld": {
-    "pageName": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
-    "pageDescription": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, çağrı merkezi ve veri analiziyle 360° dijital pazarlama ve dönüşüm çözümleri sunar.",
-    "serviceName": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri",
-    "breadcrumbName": "Otel",
+    "pageName": "Hotel Digital Marketing & Transformation Services | DGTLFACE",
+    "pageDescription": "DGTLFACE delivers hotel-focused digital marketing, OTA & PMS integration, call center operations and performance-driven growth strategies.",
+    "serviceName": "Hotel Digital Marketing & Transformation Services",
+    "breadcrumbName": "Hotel",
     "keywords": [
-      "otel dijital pazarlama",
-      "otel dijital dönüşümü",
-      "otel pazarlama ajansı",
-      "otel için seo",
-      "otel google ads",
-      "otel sosyal medya yönetimi",
-      "oteller için dijital pazarlama stratejisi",
-      "resort dijital pazarlama",
-      "butik otel dijital pazarlama",
-      "luxury otel dijital dönüşüm",
-      "otel rezervasyon dönüşümünü artırma",
-      "google hotel ads entegrasyonu",
-      "booking expedia optimizasyon",
-      "otel müşteri deneyimi dijital",
-      "otel gelir yönetimi dijital",
-      "turizm dijital pazarlama rehberi",
-      "otel dijital pazarlama antalya",
-      "antalya resort marketing",
-      "otel pazarlama türkiye"
+      "hotel digital marketing",
+      "hotel marketing agency",
+      "hotel seo services",
+      "hotel advertising management",
+      "ota management for hotels",
+      "pms integration",
+      "hotel call center services",
+      "direct booking growth strategies",
+      "hospitality digital transformation"
     ]
   },
+ 
 
   "aiAnswerBlock": "DGTLFACE is a hotel-focused digital marketing and technology partner that delivers SEO, SEM, social media, PMS–OTA integration, OTA management, and a 4-language call center under one roof. The goal is not only visibility, but a 360° digital architecture that increases occupancy, revenue, direct bookings, and guest satisfaction simultaneously. Custom strategies and roadmaps are prepared for resort, city, boutique, and luxury hotels.",
   "aiSourceMention": "This information is compiled from DGTLFACE’s official working methods across hotel marketing, PMS–OTA operations, multi-language call center processes, and performance reporting practices.",
@@ -6116,6 +6126,39 @@
 },
 
 "PmsSetupPage": {
+   "jsonld": {
+    "pageName": "Hotel PMS Setup & Support – Reservation and Operations Management | DGTLFACE",
+    "pageDescription": "DGTLFACE provides installation, configuration, training, and ongoing support for Elektraweb and other hotel PMS systems. With a structured PMS setup, front office, reservations, housekeeping, invoicing, and reporting workflows are digitized and tailored to your property’s operations. By integrating PMS with OTAs and a channel manager, rates and availability are managed from a single source of truth, channel consistency is improved, and overbooking risk is reduced. Operational outputs are reported regularly, and key KPIs can be surfaced in Looker Studio dashboards to increase management visibility.",
+    "serviceName": "PMS Setup & Support",
+    "serviceType": "PMS setup, Elektraweb setup, hotel PMS training, PMS support service, hotel operations system, reservation software setup",
+    "breadcrumbName": "PMS Setup & Support",
+    "keywords": [
+      "PMS setup",
+      "Elektraweb setup",
+      "hotel PMS training",
+      "PMS support service",
+      "hotel operations system",
+      "reservation software",
+      "how to set up a hotel PMS",
+      "Elektraweb training guide",
+      "front office PMS training",
+      "housekeeping workflow management",
+      "invoicing and reporting modules",
+      "room and rate management",
+      "PMS channel integration",
+      "PMS OTA integration",
+      "channel manager PMS connection",
+      "reduce overbooking risk",
+      "user roles and permissions",
+      "go-live planning",
+      "PMS performance reporting",
+      "Looker Studio PMS dashboard",
+      "resort PMS setup",
+      "boutique hotel PMS support",
+      "hotel PMS implementation"
+    ]
+  },
+  
   "cta_talk_to_us": "Let’s Plan Your PMS Setup Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and field experience related to PMS setup & training processes, and integration projects with Elektraweb and hotel management software.",
   "subbanner_header": "Hotel PMS Setup –",
@@ -6228,6 +6271,36 @@
 },
 
 "OtaIntegrationPage": {
+  "jsonld": {
+    "pageName": "OTA Integration – Booking, Expedia, Agoda Connections | DGTLFACE",
+    "pageDescription": "DGTLFACE integrates Booking.com, Expedia, Agoda, and other OTAs with your hotel’s PMS and channel manager setup. By synchronizing rates and availability from a single source of truth, it helps maintain rate parity, reduces manual errors, and lowers the risk of overbooking. The multi-channel reservation flow becomes automated, validated via test bookings, and then launched live. With OTA performance reporting and visibility analysis, online distribution is optimized with a revenue-focused approach.",
+    "serviceName": "OTA Integration",
+    "serviceType": "OTA integration, Booking.com integration, Expedia integration, Agoda integration, PMS–OTA integration, channel manager connections",
+    "breadcrumbName": "OTA Integration",
+    "keywords": [
+      "OTA integration",
+      "Booking.com integration",
+      "Expedia integration",
+      "Agoda integration",
+      "PMS OTA integration",
+      "channel manager connection",
+      "online booking integration",
+      "rate and inventory synchronization",
+      "maintain rate parity",
+      "reduce overbooking",
+      "room and rate mapping",
+      "test booking workflow",
+      "multi-channel reservation management",
+      "OTA performance reporting",
+      "OTA visibility analysis",
+      "hotel distribution optimization",
+      "revenue-focused channel strategy",
+      "resort OTA integration",
+      "boutique hotel OTA connection",
+      "online sales channels"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Optimize Your OTA Integration",
   "aiSourceMention": "This information is compiled from DGTLFACE’s operational documentation on OTA integration projects, Booking–Expedia connection processes, and PMS/Channel Manager configurations.",
   "subbanner_header": "OTA Integration –",
@@ -6335,6 +6408,36 @@
 },
 
 "ChannelManagementPage": {
+  "jsonld": {
+    "pageName": "Channel Management – Inventory & Rate Synchronization | DGTLFACE",
+    "pageDescription": "DGTLFACE provides hotel channel management by integrating PMS, a channel manager, and OTAs to synchronize rates and availability across all sales channels. Booking.com, Expedia, Agoda, the hotel website booking engine, and call center workflows can be managed in one operational setup. With rate & inventory sync, market-based pricing, stop-sell rules, and buffer strategies, overbooking risk is reduced while occupancy, ADR, and RevPAR performance are optimized.",
+    "serviceName": "Channel Management",
+    "serviceType": "channel management, channel manager service, inventory synchronization, rate management, PMS–OTA integration",
+    "breadcrumbName": "Channel Management",
+    "keywords": [
+      "channel management",
+      "channel manager service",
+      "rate management",
+      "inventory synchronization",
+      "pms ota integration",
+      "rate and inventory sync",
+      "reduce overbooking",
+      "stop-sell rules",
+      "inventory buffer strategy",
+      "market-based pricing",
+      "booking expedia agoda management",
+      "hotel revenue management",
+      "increase occupancy",
+      "revpar optimization",
+      "increase adr",
+      "distribution strategy",
+      "hotel channel optimization",
+      "resort channel manager",
+      "boutique hotel channel management",
+      "channel management antalya"
+    ]
+  }
+,
   "cta_talk_to_us": "Let’s Optimize Your Channel Management Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s documentation and project experience in channel management, PMS & OTA integration, and hotel revenue & occupancy optimization processes.",
   "subbanner_header": "Hotel Channel Management –",
@@ -6450,6 +6553,39 @@
 },
 
 "OnlineSalesOptimizationPage": {
+  "jsonld": {
+    "pageName": "Online Sales Optimization – Increase Bookings & Revenue | DGTLFACE",
+    "pageDescription": "DGTLFACE delivers online sales optimization for hotels. By connecting OTAs, your website, call center, and other booking channels into a single sales funnel, we improve performance through pricing strategy, market-based segmentation, visibility growth, and booking conversion analysis. With rate parity, campaign planning, and channel mix optimization, occupancy planning becomes stronger and RevPAR-driven revenue growth is supported. The process follows a continuous measurement, reporting, and optimization loop designed to scale online sales sustainably.",
+    "serviceName": "Online Sales Optimization",
+    "serviceType": "online sales optimization, hotel revenue management, booking conversion optimization, multichannel sales funnel, OTA and direct sales strategy, RevPAR optimization",
+    "breadcrumbName": "Online Sales Optimization",
+    "keywords": [
+      "online sales optimization",
+      "increase hotel bookings",
+      "digital sales optimization",
+      "revenue management",
+      "booking conversion rate optimization",
+      "online channel optimization",
+      "hotel sales growth strategy",
+      "how to optimize online hotel sales",
+      "RevPAR improvement",
+      "hospitality sales strategies",
+      "Booking.com conversion improvement",
+      "website booking conversion optimization",
+      "call center + OTA combined sales",
+      "pricing strategy",
+      "market segmentation",
+      "rate parity management",
+      "visibility improvement",
+      "upsell and cross-sell",
+      "resort sales optimization",
+      "boutique hotel revenue management",
+      "hospitality sales consulting",
+      "PMS revenue insights",
+      "multichannel booking strategy"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Optimize Your Online Sales Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s online sales optimization processes, OTA & website booking conversion projects, and hotel revenue management work.",
   "subbanner_header": "Online Sales Optimization –",
@@ -6559,6 +6695,38 @@
 },
 
 "ReservationManagementPage": {
+  "jsonld": {
+    "pageName": "Reservation Management – Professional Booking Workflows for Hotels | DGTLFACE",
+    "pageDescription": "DGTLFACE brings hotel reservation management into a structured digital workflow. Requests coming from OTAs, your website, call center, WhatsApp, and agencies are consolidated into a single source of truth within the PMS reservations module. Availability and rate checks, guest profile capture and verification, option/hold rules, cancellations and modifications, no-show handling, and guest communication are standardized to reduce errors and improve operational speed. With better channel consistency and clearer reporting, occupancy planning becomes stronger and revenue performance (RevPAR) and conversion outcomes can be optimized.",
+    "serviceName": "Reservation Management",
+    "serviceType": "reservation management, hotel booking workflows, PMS reservations module, guest communication, multichannel reservations, booking operations management",
+    "breadcrumbName": "Reservation Management",
+    "keywords": [
+      "reservation management",
+      "hotel reservation system",
+      "guest communication",
+      "booking workflow",
+      "phone reservations",
+      "hotel guest record system",
+      "how to manage hotel reservations",
+      "hotel availability and rate control",
+      "balancing OTA and direct bookings",
+      "international guest reservations",
+      "hospitality reservation techniques",
+      "reservation management software",
+      "PMS reservations module",
+      "OTA website call center booking flow",
+      "option/hold booking rules",
+      "cancellations and modifications",
+      "no-show management",
+      "occupancy planning",
+      "RevPAR revenue management",
+      "resort reservation management",
+      "boutique hotel guest communication",
+      "multichannel booking management"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Optimize Your Reservation Processes Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s hotel reservation management work, PMS reservation module setups, and operational projects that unify OTA–Call Center–Web flows, based on internal documentation and field experience.",
   "subbanner_header": "Reservation Management –",
@@ -6677,6 +6845,41 @@
 },
 
 "LookerStudioReportingPage": {
+  "jsonld": {
+      "pageName": "Looker Studio Reporting – Google Data Dashboards & Automation | DGTLFACE",
+      "pageDescription": "DGTLFACE brings your SEO, paid media, social and website performance data into a single Looker Studio dashboard. We connect GA4, Search Console, Google Ads and Meta Ads, and can unify them with PMS/OTA/CRM datasets via Sheets/CSV or custom connectors. The goal is to provide executive KPI views, channel-level drilldowns, and automated email/PDF reporting that accelerates data-driven decision-making.",
+      "serviceName": "Looker Studio Reporting – Google Data Dashboards & Automation",
+      "serviceType": "looker studio reporting, google data studio, automated reporting, data dashboards, digital performance dashboard, analytics reporting",
+      "breadcrumbName": "Looker Studio Reporting",
+      "keywords": [
+        "looker studio reporting",
+        "google data studio",
+        "automated reporting",
+        "data dashboard",
+        "digital performance dashboard",
+        "analytics reporting",
+        "how to use looker studio",
+        "looker studio dashboard examples",
+        "hotel performance report dashboard",
+        "paid media reporting dashboard",
+        "ga4 dashboard",
+        "search console reporting",
+        "google ads reporting",
+        "meta ads reporting",
+        "seo performance dashboard",
+        "social media reporting template",
+        "google sheets connector",
+        "excel to looker studio",
+        "scheduled email reports",
+        "pdf report automation",
+        "multi-channel dashboard",
+        "pms to looker studio",
+        "ota to looker studio",
+        "hotel looker studio dashboard",
+        "tourism reporting dashboards"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Bring Your Data Together in One Dashboard",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and project experience in Looker Studio-based reporting, hotel performance dashboards, and multi-source data integration processes.",
   "subbanner_header": "Looker Studio Performance Reporting –",
@@ -6783,6 +6986,35 @@
 },
 
 "BenchmarkAnalysisPage": {
+  "jsonld": {
+      "pageName": "Benchmark Analysis – Competitor & Market Performance Comparison | DGTLFACE",
+      "pageDescription": "DGTLFACE runs weekly and monthly benchmark analysis to compare your pricing, demand signals and performance metrics against a defined competitor set and market trends. OTA rate curves, occupancy/demand indicators, digital visibility (SEO/Ads/Social), channel mix and campaign behavior are consolidated into a single reporting framework. The goal is to optimize pricing, campaigns and channel strategy with data-driven insights that improve sales efficiency.",
+      "serviceName": "Benchmark Analysis – Competitor & Market Performance Comparison",
+      "serviceType": "benchmark analysis, competitor analysis, rate comparison, performance benchmarking, KPI benchmarking, market analysis",
+      "breadcrumbName": "Benchmark Analysis",
+      "keywords": [
+        "benchmark analysis",
+        "competitor analysis",
+        "rate comparison",
+        "performance benchmarking",
+        "kpi benchmarking",
+        "market analysis",
+        "how to do benchmark analysis",
+        "competitor performance report",
+        "hotel benchmarking system",
+        "tourism rate comparison",
+        "sales performance benchmarking",
+        "digital advertising benchmark",
+        "market share analysis",
+        "competitor tracking",
+        "benchmark dashboard setup",
+        "pricing optimization report",
+        "hotel benchmark report",
+        "tourism market benchmarks",
+        "resort rate analysis",
+        "ota benchmarking"
+      ]
+    },
   "cta_talk_to_us": "Let’s Interpret Your Benchmark Data Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and project experience in benchmark reporting, competitor comparison, OTA price analysis, and tourism-specific data comparison processes.",
   "subbanner_header": "Benchmark Analysis –",
@@ -6884,6 +7116,39 @@
 },
 
 "SalesConversionReportingPage": {
+   "jsonld": {
+      "pageName": "Sales & Conversion Reporting – Data-Driven Revenue Analysis | DGTLFACE",
+      "pageDescription": "DGTLFACE combines advertising, website, and social performance data into a single funnel view to reveal channel-level sales, revenue, ROAS/ROI, and profitability. The goal is to identify what truly drives revenue, pinpoint drop-off stages, and take data-backed actions to improve conversion rate and overall income.",
+      "serviceName": "Sales & Conversion Reporting – Data-Driven Revenue Analysis",
+      "serviceType": "sales conversion reporting, conversion analysis, sales reporting, funnel analysis, performance measurement, revenue analysis",
+      "breadcrumbName": "Sales & Conversion Reporting",
+      "keywords": [
+        "sales conversion reporting",
+        "conversion analysis",
+        "sales reporting",
+        "funnel analysis",
+        "performance measurement",
+        "revenue analysis",
+        "how to increase conversion rate",
+        "sales funnel analytics",
+        "ads conversion reporting",
+        "google ads sales analysis",
+        "meta ads conversion reporting",
+        "channel-level revenue analysis",
+        "ROAS analysis",
+        "ROI analysis",
+        "booking conversion analysis",
+        "hotel sales conversion analysis",
+        "tourism sales analytics",
+        "CRM sales data analysis",
+        "PMS revenue data",
+        "profitability analysis",
+        "cancellation and no-show analysis",
+        "RevPAR analysis",
+        "data-driven revenue strategy"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Interpret Your Sales & Conversion Data Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and hands-on practice in sales & conversion analysis, hotel sales reporting, multi-channel funnel reviews, and revenue analysis projects.",
   "subbanner_header": "Sales & Conversion Reporting –",
@@ -6993,6 +7258,37 @@
 },
 
 "KvkkSecurityPage": {
+   "jsonld": {
+      "pageName": "KVKK & Data Security – Professional Data Protection Systems | DGTLFACE",
+      "pageDescription": "DGTLFACE supports KVKK-aligned data handling and data security across web, analytics, CRM/PMS/OTA and reporting workflows. By mapping data flows, clarifying access controls, logging, and retention policies, we make risks visible and help improve the overall level of auditability and protection for personal data.",
+      "serviceName": "KVKK & Data Security – Professional Data Protection Systems",
+      "serviceType": "kvkk data security, data protection system, personal data processing, kvkk compliance reporting, data privacy, secure data management",
+      "breadcrumbName": "KVKK & Data Security",
+      "keywords": [
+        "kvkk data security",
+        "data protection system",
+        "personal data processing",
+        "kvkk compliance reporting",
+        "data privacy",
+        "secure data management",
+        "how to process data under kvkk",
+        "hotel data security",
+        "reservation data security",
+        "cookie consent management",
+        "consent logs",
+        "access logs",
+        "data retention policy",
+        "technical security measures",
+        "data flow mapping",
+        "security reporting",
+        "hotel kvkk report",
+        "tourism data security",
+        "pms data protection",
+        "ota data security",
+        "crm data security"
+      ]
+    },
+
   "cta_talk_to_us": "KVKK & Data Security—Let’s Build Your Setup Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal technical documentation on KVKK compliance reporting, data-flow analysis, PMS/OTA data protection processes, and security audits. (Note: This is not legal counsel; it is a technical KVKK assessment.)",
   "subbanner_header": "KVKK & Data Security –",
@@ -7105,6 +7401,48 @@
 },
 
 "OtelSeoPage": {
+  "jsonld": {
+      "pageName": "Hotel SEO Services – Tourism Strategies to Rank Higher on Google | DGTLFACE",
+      "pageDescription": "DGTLFACE improves hotels’ organic visibility and grows direct bookings through SEO. We combine tourism-specific keyword research, technical SEO, content optimization, local SEO, multilingual architecture, and structured data (schema) into a single strategy designed to achieve sustainable rankings on Google.",
+      "serviceName": "Hotel SEO Services – Tourism Strategies to Rank Higher on Google",
+      "serviceType": "hotel SEO, hotel SEO strategy, tourism SEO, resort SEO, hotel Google rankings, increase hotel organic traffic",
+      "breadcrumbName": "Hotel SEO Services",
+      "keywords": [
+        "hotel SEO",
+        "hotel SEO strategy",
+        "tourism SEO",
+        "resort SEO",
+        "hotel Google rankings",
+        "increase hotel organic traffic",
+        "how to do hotel SEO",
+        "hotel keyword research",
+        "technical SEO for hotel websites",
+        "core web vitals for hotels",
+        "hotel website speed optimization",
+        "hotel content optimization",
+        "hotel blog strategy",
+        "destination content strategy",
+        "multilingual hotel SEO",
+        "hreflang for hotel websites",
+        "hotel local SEO",
+        "google business profile for hotels",
+        "schema markup for hotels",
+        "hotel schema",
+        "FAQ schema for hotels",
+        "Google Hotel / Travel optimization",
+        "hotel image SEO",
+        "hotel site architecture silo",
+        "internal linking for hotel SEO",
+        "ranking despite OTA competition",
+        "increase direct bookings with SEO",
+        "SEO vs Booking Expedia competition",
+        "Antalya hotel SEO",
+        "Belek hotel SEO",
+        "Kemer hotel SEO",
+        "Side resort SEO",
+        "tourism business SEO guide"
+      ]
+    },
   "cta_talk_to_us": "Let’s Build Your Hotel SEO Strategy Together",
   "aiSourceMention": "This content is compiled from DGTLFACE’s hotel SEO projects, tourism-specific content & technical SEO documentation, and Google Travel/Hotel initiatives.",
   "subbanner_header": "Hotel SEO –",
@@ -7235,6 +7573,46 @@
 },
 
 "OtelSocialMediaPage": {
+   "jsonld": {
+      "pageName": "Hotel Social Media Management – Professional Instagram & Reels for Tourism | DGTLFACE",
+      "pageDescription": "DGTLFACE provides social media management for hotels across Instagram, Reels, TikTok, and Facebook. We combine tourism-specific content strategy, production and publishing plans, DM/comment management, influencer collaborations, and booking-driven funnels (website, WhatsApp, call center) to turn social media into a measurable demand and reservation channel.",
+      "serviceName": "Hotel Social Media Management – Professional Instagram & Reels for Tourism",
+      "serviceType": "hotel social media, hotel instagram management, resort social media, tourism social media, hotel content production",
+      "breadcrumbName": "Hotel Social Media Management",
+      "keywords": [
+        "hotel social media",
+        "hotel social media management",
+        "hotel instagram management",
+        "tourism social media",
+        "resort social media",
+        "hotel content production",
+        "hotel reels ideas",
+        "increase room sales with reels",
+        "instagram strategy for hotels",
+        "hotel content creation",
+        "hotel video production",
+        "hotel photography",
+        "resort video shooting",
+        "hotel influencer marketing",
+        "influencer collaboration for hotels",
+        "hotel DM management",
+        "hotel comment management",
+        "hotel content calendar",
+        "hotel tiktok content",
+        "facebook page management for hotels",
+        "increase bookings via social media",
+        "tourism social media tactics",
+        "all inclusive hotel social media",
+        "luxury hotel instagram",
+        "boutique hotel social media",
+        "aqua park hotel social media",
+        "Antalya resort social media",
+        "Belek hotel instagram",
+        "Kemer hotel social media",
+        "Side resort reels",
+        "Alanya hotel reels"
+      ]
+    },
   "cta_talk_to_us": "Let’s Build Your Hotel Social Media Strategy Together",
   "aiSourceMention": "This content is compiled from DGTLFACE’s tourism-focused social media management projects, hotel content production workflows, and performance-driven reservation growth practices.",
   "subbanner_header": "Hotel Social Media Management –",
@@ -7348,6 +7726,36 @@
 
 
 "OtelAdsPage": {
+  "jsonld": {
+    "pageName": "Hotel Ads Management – Google Ads, Meta Ads & YouTube",
+    "pageDescription": "DGTLFACE manages Google Ads, Meta Ads and YouTube campaigns for hotels with a reservation, occupancy and revenue growth focus. We cover market targeting, conversion tracking, remarketing and performance reporting end-to-end.",
+    "serviceName": "Hotel Ads Management – Google Ads, Meta Ads & YouTube",
+    "serviceType": "hotel ads management, hotel google ads, tourism advertisers, resort meta ads, hotel youtube ads, hotel ppc campaigns",
+    "breadcrumbName": "Hotel Ads Management",
+    "keywords": [
+      "hotel ads management",
+      "hotel google ads",
+      "tourism advertisers",
+      "resort meta ads",
+      "hotel youtube ads",
+      "hotel ppc campaigns",
+      "google ads strategy for hotels",
+      "resort booking campaigns",
+      "hotel advertising budget management",
+      "increase hotel occupancy with ads",
+      "ppc campaign optimization",
+      "google hotel ads setup",
+      "hotel remarketing",
+      "all inclusive hotel ads",
+      "luxury hotel google ads",
+      "boutique hotel advertising",
+      "antalya hotel advertising",
+      "belek hotel campaigns",
+      "side resort ads",
+      "alanya tourism ads"
+    ]
+  },
+
   "cta_talk_to_us": "Let’s Build Your Hotel Advertising Strategy Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal strategy documentation based on hotel & resort ad management, Google Hotel Ads projects, Meta Ads conversion architectures, and tourism sales optimization practices.",
   "subbanner_header": "Hotel Advertising Management –",
@@ -7469,6 +7877,40 @@
 },
 
 "OtaManagementPage": {
+    "jsonld": {
+      "pageName": "Hotel OTA Management – Booking, Expedia & Agoda Optimization | DGTLFACE",
+      "pageDescription": "DGTLFACE optimizes performance across Booking, Expedia, Agoda, and other OTA platforms. Hotel OTA management focuses on data-driven pricing, inventory, content, campaigns, and reviews to increase occupancy, visibility, and revenue.",
+      "serviceName": "Hotel OTA Management – Booking, Expedia & Agoda Optimization",
+      "serviceType": "hotel OTA management, Booking optimization, Expedia revenue growth, hotel inventory management, OTA pricing strategy, tourism OTA solutions",
+      "breadcrumbName": "OTA Management",
+      "keywords": [
+        "hotel OTA management",
+        "Booking optimization",
+        "Expedia revenue growth",
+        "Agoda management",
+        "hotel inventory management",
+        "OTA pricing strategy",
+        "tourism OTA solutions",
+        "increase Booking visibility",
+        "improve Expedia ranking",
+        "OTA content optimization",
+        "OTA campaign management",
+        "OTA sales analysis",
+        "rate parity management",
+        "reduce overbooking risk",
+        "stop-sell and allocation limits",
+        "reduce cancellations and no-shows",
+        "OTA review management",
+        "commission optimization",
+        "balance OTA and direct bookings",
+        "increase OTA conversion rate",
+        "Booking.com conversion improvement",
+        "Expedia performance reporting",
+        "resort OTA strategy",
+        "boutique hotel OTA management",
+        "villa OTA management"
+      ]
+    },
   "cta_talk_to_us": "Let’s Optimize Your OTA Strategy Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation based on OTA optimization projects, Booking & Expedia performance management, and tourism sales technology practices.",
   "subbanner_header": "OTA Management –",
@@ -7585,6 +8027,45 @@
 },
 
 "PmsIntegrationPage": {
+  "jsonld": {
+      "pageName": "Hotel PMS Integration – Reservation & Operations Systems | DGTLFACE",
+      "pageDescription": "DGTLFACE accelerates hotel operations, reservations, sales, and room management through PMS integration. For Elektraweb PMS and similar systems, we deliver setup, mapping, training, technical support, and a unified PMS–OTA–Channel Manager–Website booking engine flow so your hotel can manage data from a single source of truth.",
+      "serviceName": "Hotel PMS Integration – Reservation & Operations Systems",
+      "serviceType": "hotel PMS integration, Elektraweb PMS, PMS hotel system, hotel operations system, PMS training, PMS technical support",
+      "breadcrumbName": "PMS Integration",
+      "keywords": [
+        "hotel PMS integration",
+        "Elektraweb PMS",
+        "PMS hotel system",
+        "hotel operations system",
+        "PMS training",
+        "PMS technical support",
+        "how to integrate a hotel PMS",
+        "hotel PMS modules",
+        "PMS setup and mapping",
+        "PMS user roles and permissions",
+        "PMS pricing and inventory management",
+        "PMS reservation workflow",
+        "PMS–OTA integration",
+        "channel manager and PMS alignment",
+        "OTA reservations into PMS",
+        "website booking engine PMS connection",
+        "call center reservations into PMS",
+        "reduce overbooking risk",
+        "rate parity management",
+        "reduce operational workload with PMS",
+        "front office and housekeeping workflow",
+        "billing and reporting integration",
+        "PMS reporting dashboards",
+        "resort PMS management",
+        "boutique hotel PMS support",
+        "villa PMS integration",
+        "tourism PMS integration",
+        "Elektraweb training guide",
+        "PMS integration Türkiye",
+        "Antalya PMS expert"
+      ]
+    },
   "cta_talk_to_us": "Let’s Build Your PMS Integration Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s internal documentation and field experience from hotel PMS integration projects, including Elektraweb and similar systems.",
   "subbanner_header": "PMS Integration –",
@@ -7697,6 +8178,36 @@
 },
 
 "HotelCallCenter": {
+  "jsonld": {
+      "pageName": "Hotel Reservation Call Center – Multilingual Booking & Guest Support | DGTLFACE",
+      "pageDescription": "DGTLFACE provides a multilingual hotel reservation call center service. We consolidate inquiries from phone, WhatsApp, DM, OTA messaging, and website forms into a single booking funnel and standardize the workflow with PMS & OTA integrations.",
+      "serviceName": "Hotel Reservation Call Center – Multilingual Booking & Guest Support",
+      "serviceType": "hotel reservation call center, multilingual hotel support, inbound/outbound booking calls, guest communication, tourism call center, booking support desk",
+      "breadcrumbName": "Reservation Call Center",
+      "keywords": [
+        "hotel reservation call center",
+        "multilingual hotel support",
+        "inbound outbound booking calls",
+        "guest communication management",
+        "tourism call center",
+        "hotel booking phone line",
+        "WhatsApp reservation support",
+        "OTA messaging support",
+        "PMS integrated call center",
+        "Booking.com reservation support",
+        "Expedia reservation support",
+        "reservation conversion optimization",
+        "reduce booking errors",
+        "reduce overbooking risk",
+        "sales scripts for reservations",
+        "shift-based call center operations",
+        "hotel sales support desk",
+        "centralized booking funnel",
+        "reservation workflow standardization",
+        "hotel guest support team"
+      ]
+    },
+
   "cta_talk_to_us": "Let’s Build Your Reservation Call Center Together",
   "aiSourceMention": "This information is compiled from DGTLFACE’s official internal documentation on hotel call centers, reservation management, PMS/OTA integration, and multilingual guest communication processes.",
   "subbanner_header": "Hotel Reservation Call Center –",

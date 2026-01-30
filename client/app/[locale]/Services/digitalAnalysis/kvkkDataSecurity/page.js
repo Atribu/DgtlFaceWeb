@@ -8,7 +8,7 @@ import image3 from "./images/image3.webp"
 import image4 from "./images/image4.webp"
 import image5 from "./images/image5.webp"
 import image6 from "./images/image6.png"
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -16,158 +16,224 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, KVKK uyumlu veri işleme, veri güvenliği, çerez yönetimi ve teknik raporlama süreçleriyle oteller ve markalar için tam bir veri koruma ve denetlenebilirlik sağlayan dijital pazarlama ve teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  const pathnameKey = "/Services/digitalAnalysis/kvkkDataSecurity";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma sağlar.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ]
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#webpage",
-      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
-      "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri | DGTLFACE",
-      "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma sağlar.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#service",
-      "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri",
-      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "kvkk veri güvenliği, veri koruma sistemi, kişisel veri işleme, kvkk uyum raporu, data privacy, güvenli veri yönetimi",
-      "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma ve denetlenebilirlik sağlar. Veri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi, oteller için KVKK raporu, turizm veri güvenliği, PMS data protection ve OTA veri güvenliği alanlarında veri akış haritaları, erişim logları ve KVKK teknik tedbir raporları sunar.",
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "kvkk veri güvenliği",
-        "veri koruma sistemi",
-        "kişisel veri işleme",
-        "kvkk uyum raporu",
-        "data privacy",
-        "güvenli veri yönetimi",
-        "kvkk uyumlu veri nasıl işlenir",
-        "oteller için veri güvenliği",
-        "turizm kvkk gereksinimleri",
-        "rezervasyon veri güvenliği",
-        "çerez yönetimi kvkk uyumu",
-        "müşteri verisi koruma yöntemleri",
-        "kvkk teknik tedbirler",
-        "veri raporlama sistemi",
-        "otel kvkk raporu",
-        "turizm veri güvenliği",
-        "pms data protection",
-        "ota veri güvenliği",
-        "kvkk antalya",
-        "veri güvenliği türkiye",
-        "antalya data privacy",
-        "kvkk raporlama antalya"
-      ]
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Veri Analizi & Raporlama",
-          "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "KVKK & Veri Güvenliği Raporlama",
-          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "KVKK & veri güvenliği raporlaması nedir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "KVKK ve veri güvenliği raporlaması; web, PMS, OTA, çağrı merkezi, CRM ve sunucu gibi sistemlerde işlenen kişisel verilerin akışını, saklama sürelerini, erişim yetkilerini, log kayıtlarını ve teknik tedbirleri analiz edip raporlayan, böylece hem yasal uyumu hem de veri güvenliği seviyesini görünür kılan bir denetim ve raporlama sürecidir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Otellerde misafir verisi nasıl korunmalı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Otellerde misafir verileri; PMS ve OTA sistemlerinde rol bazlı yetkilendirme, şifreleme, erişim logları, sınırlı saklama süreleri, güvenli sunucu altyapısı ve KVKK’ya uygun veri işleme politikaları ile korunmalı, rezervasyon ve kimlik bilgileri hem dijital hem fiziksel ortamda yetkisiz erişime karşı güvence altına alınmalıdır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "PMS & OTA entegrasyonunda veri güvenliği nasıl sağlanır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PMS ve OTA entegrasyonunda veri güvenliği; güvenli bağlantılar, IP veya VPN kısıtlamaları, erişim token’larının doğru yönetilmesi, sadece gerekli alanların paylaşılması, veri akışının loglanması ve entegrasyon hatalarının düzenli izlenmesiyle sağlanır. Böylece rezervasyon verisi üçüncü taraflarla kontrollü ve denetlenebilir şekilde paylaşılır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Çerez yönetimi ve izin kayıtları nasıl raporlanır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Çerez yönetimi ve izin kayıtları; kullanılan çerezlerin kategorileri, kullanıcı tercihleri, rıza verme ve değiştirme zamanları ile birlikte loglanır ve KVKK & veri güvenliği dashboard’larında özetlenir. Böylece hangi kullanıcıların hangi çerez kategorilerine izin verdiği ve bu izinlerin ne kadar süre saklandığı denetlenebilir hâle gelir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Call Center & DM verileri KVKK’ya uygun şekilde nasıl saklanır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Call center ve DM verilerinin KVKK’ya uygun saklanması için; kayıtların ne amaçla tutulduğu ve ne kadar süre saklanacağı tanımlanmalı, erişim rol bazlı sınırlandırılmalı, loglama aktif olmalı ve saklama süresi sonunda kayıtlar silinmeli veya anonimleştirilmelidir. DGTLFACE, bu süreçleri veri akış haritaları ve uyum raporları ile görünür kılar."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
 
-const Page = () => {
-    const t = useTranslations("KvkkSecurityPage");
- const t2 = useTranslations("KvkkSecurityPage.h4Section");
+
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com",
+//       "description": "DGTLFACE, KVKK uyumlu veri işleme, veri güvenliği, çerez yönetimi ve teknik raporlama süreçleriyle oteller ve markalar için tam bir veri koruma ve denetlenebilirlik sağlayan dijital pazarlama ve teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ]
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#webpage",
+//       "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+//       "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri | DGTLFACE",
+//       "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma sağlar.",
+//       "inLanguage": "tr-TR",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#service",
+//       "name": "KVKK & Veri Güvenliği – Profesyonel Veri Koruma Sistemleri",
+//       "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "kvkk veri güvenliği, veri koruma sistemi, kişisel veri işleme, kvkk uyum raporu, data privacy, güvenli veri yönetimi",
+//       "description": "DGTLFACE, KVKK uyumlu veri işleme, raporlama, kullanıcı kayıt güvenliği ve veri analiz süreçleriyle tam bir veri koruma ve denetlenebilirlik sağlar. Veri koruma sistemi, kişisel veri işleme, KVKK uyum raporu, data privacy, güvenli veri yönetimi, oteller için KVKK raporu, turizm veri güvenliği, PMS data protection ve OTA veri güvenliği alanlarında veri akış haritaları, erişim logları ve KVKK teknik tedbir raporları sunar.",
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "kvkk veri güvenliği",
+//         "veri koruma sistemi",
+//         "kişisel veri işleme",
+//         "kvkk uyum raporu",
+//         "data privacy",
+//         "güvenli veri yönetimi",
+//         "kvkk uyumlu veri nasıl işlenir",
+//         "oteller için veri güvenliği",
+//         "turizm kvkk gereksinimleri",
+//         "rezervasyon veri güvenliği",
+//         "çerez yönetimi kvkk uyumu",
+//         "müşteri verisi koruma yöntemleri",
+//         "kvkk teknik tedbirler",
+//         "veri raporlama sistemi",
+//         "otel kvkk raporu",
+//         "turizm veri güvenliği",
+//         "pms data protection",
+//         "ota veri güvenliği",
+//         "kvkk antalya",
+//         "veri güvenliği türkiye",
+//         "antalya data privacy",
+//         "kvkk raporlama antalya"
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Veri Analizi & Raporlama",
+//           "item": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 3,
+//           "name": "KVKK & Veri Güvenliği Raporlama",
+//           "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "KVKK & veri güvenliği raporlaması nedir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "KVKK ve veri güvenliği raporlaması; web, PMS, OTA, çağrı merkezi, CRM ve sunucu gibi sistemlerde işlenen kişisel verilerin akışını, saklama sürelerini, erişim yetkilerini, log kayıtlarını ve teknik tedbirleri analiz edip raporlayan, böylece hem yasal uyumu hem de veri güvenliği seviyesini görünür kılan bir denetim ve raporlama sürecidir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Otellerde misafir verisi nasıl korunmalı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Otellerde misafir verileri; PMS ve OTA sistemlerinde rol bazlı yetkilendirme, şifreleme, erişim logları, sınırlı saklama süreleri, güvenli sunucu altyapısı ve KVKK’ya uygun veri işleme politikaları ile korunmalı, rezervasyon ve kimlik bilgileri hem dijital hem fiziksel ortamda yetkisiz erişime karşı güvence altına alınmalıdır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "PMS & OTA entegrasyonunda veri güvenliği nasıl sağlanır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "PMS ve OTA entegrasyonunda veri güvenliği; güvenli bağlantılar, IP veya VPN kısıtlamaları, erişim token’larının doğru yönetilmesi, sadece gerekli alanların paylaşılması, veri akışının loglanması ve entegrasyon hatalarının düzenli izlenmesiyle sağlanır. Böylece rezervasyon verisi üçüncü taraflarla kontrollü ve denetlenebilir şekilde paylaşılır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Çerez yönetimi ve izin kayıtları nasıl raporlanır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Çerez yönetimi ve izin kayıtları; kullanılan çerezlerin kategorileri, kullanıcı tercihleri, rıza verme ve değiştirme zamanları ile birlikte loglanır ve KVKK & veri güvenliği dashboard’larında özetlenir. Böylece hangi kullanıcıların hangi çerez kategorilerine izin verdiği ve bu izinlerin ne kadar süre saklandığı denetlenebilir hâle gelir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Call Center & DM verileri KVKK’ya uygun şekilde nasıl saklanır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Call center ve DM verilerinin KVKK’ya uygun saklanması için; kayıtların ne amaçla tutulduğu ve ne kadar süre saklanacağı tanımlanmalı, erişim rol bazlı sınırlandırılmalı, loglama aktif olmalı ve saklama süresi sonunda kayıtlar silinmeli veya anonimleştirilmelidir. DGTLFACE, bu süreçleri veri akış haritaları ve uyum raporları ile görünür kılar."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
+
+export default async function Page({ params: { locale } }) {
+   const t = await getTranslations({locale,namespace: "KvkkSecurityPage",});
+    const t2 = await getTranslations({locale,namespace: "KvkkSecurityPage.h4Section",});
+
+      const baseUrl = getBaseUrl();
+      const pathnameKey = "/Services/digitalAnalysis/kvkkDataSecurity";
+      const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
+      
            
               const stepData = [1,2,3,4,5,6].map(i => ({
                 id: i,
@@ -232,12 +298,45 @@ const Page = () => {
                { title: t("h2Section.header3"), text: t.raw("h2Section.text3") }
              ];
 
+              const jsonLd = buildServiceJsonLd({
+                              baseUrl,
+                              locale,
+                              canonicalUrl,
+                          
+                              pageName: t("jsonld.pageName"),
+                              pageDescription: t("jsonld.pageDescription"),
+                              serviceName: t("jsonld.serviceName"),
+                              serviceType: t("jsonld.serviceType"),
+                              keywords: t.raw("jsonld.keywords"),
+                          
+                              breadcrumbItems: [
+                                {
+                                  name: locale === "tr" ? "Ana Sayfa" : "Home",
+                                  url: `${baseUrl}/${locale}`,
+                                },
+                          
+                                 {
+                                  name: locale === "tr" ? "Veri Analizi & Raporlama" : "Data Analytics & Performance Reporting",
+                                  url: `${baseUrl}${locale === "tr" ? "/tr/raporlama" : "/en/digital-analysis"}`,
+                                },
+                          
+                                { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+                              ],
+                          
+                              faqs,
+                          
+                              // 🤖 AI alanları (yeni standart)
+                              aiQuestion: t("jsonld.pageName"),
+                              aiAnswer: t("ai_answer_text"),
+                              aiSource: t("aiSourceMention"),
+                            });
+
   return (
     <>
      <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
     <div className='flex flex-col gap-[80px] lg:gap-[100px] bg-[#080612] overflow-hidden items-center justify-center'>
@@ -274,4 +373,3 @@ const Page = () => {
   )
 }
 
-export default Page

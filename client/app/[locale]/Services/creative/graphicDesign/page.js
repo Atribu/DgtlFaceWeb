@@ -36,7 +36,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, grafik tasarım ve motion design hizmetleriyle markanız için etkileyici görsel içerikler üretir. Sosyal medya, web ve reklam için profesyonel tasarımlar sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

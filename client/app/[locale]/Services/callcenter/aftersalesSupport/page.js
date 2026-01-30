@@ -37,7 +37,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, satış sonrası destek süreçlerinizi profesyonel ekiplerle yönetir. Müşteri soruları, bilgi talepleri ve sorun çözümü için çok kanallı destek sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

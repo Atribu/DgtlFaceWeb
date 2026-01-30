@@ -35,7 +35,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, markanıza uygun sosyal medya içerikleri üretir. Kreatif tasarımlar, video içerikler ve Reels formatlarıyla etkileşiminizi artırın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -301,7 +302,7 @@ const jsonLd = buildServiceJsonLd({
       { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
       {
         name: locale === "tr" ? "Sosyal Medya" : "Social Media",
-        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/smm"}`,
+        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}`,
       },
       { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
     ],

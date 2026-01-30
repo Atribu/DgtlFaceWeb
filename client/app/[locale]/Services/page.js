@@ -1,5 +1,4 @@
 import React from 'react'
-import { getSeoData } from "@/app/lib/seo-utils";
 import { routing } from "@/i18n/routing";
 import Section1 from "./Section1/Section1.jsx"
 import Section2 from './Section2/Section2.jsx'
@@ -21,59 +20,50 @@ import VerticalSlider2 from '../components/subPageComponents/VerticalSlider2.jsx
 import RichTextSpan from '../components/common/RichTextSpan.jsx'
 import { AiSourceMention } from '../components/common/AiSourceMention.jsx'
 import AutoBreadcrumbsWhite from '../components/common/AutoBreadcrumbsWhite.jsx'
-import { getBaseUrl, stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
-import { buildDepartmentJsonLd } from "@/app/lib/structured-data/buildDepartmentJsonLd";
+import { stripHtml } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
-const OG_IMAGE = "/og/og-services.png"; // public/og/og-services.png
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { getSeoData } from "@/app/lib/seo-utils";
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
   const pathnameKey = "/Services";
 
+  const base = getBaseUrl();
   const seoData = getSeoData(pathnameKey, locale);
-  const title = seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
-  const description = seoData?.description || "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
 
-  // Türkçe yorum: ortam bazlı base URL
-  const base =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
+  const title =
+    seoData?.title || "DGTLFACE Hizmetlerimiz | Dijital Pazarlama & Teknoloji";
+  const description =
+    seoData?.description ||
+    "DGTLFACE; SEO, SEM, sosyal medya, web & yazılım, creative ve otel dijital dönüşüm çözümlerini tek çatı altında sunar.";
 
-  const url =
-    locale === "tr"
-      ? `${base}/tr/hizmetlerimiz`
-      : `${base}/en/services`;
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  // ✅ OG locale’e göre map’ten gelsin
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImage = ogPath?.startsWith("http") ? ogPath : `${base}${ogPath}`;
 
   return {
-    // ✅ BUNU EKLE (en kritik)
     metadataBase: new URL(base),
-
     title,
     description,
 
     alternates: {
-      canonical: url,
-      languages: {
-        tr: `${base}/tr/hizmetlerimiz`,
-        en: `${base}/en/services`,
-      },
+      canonical,
+      languages: { tr: trUrl, en: enUrl },
     },
 
     openGraph: {
       type: "website",
-      url,
+      url: canonical,
       siteName: "DGTLFACE",
       title,
       description,
-      images: [
-        {
-          // ✅ absolute'a otomatik tamamlar (metadataBase sayesinde)
-          url: OG_IMAGE,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -81,10 +71,146 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [OG_IMAGE],
+      images: [ogImage],
     },
   };
 }
+
+// Services hub JSON-LD (standart: Organization + WebSite + CollectionPage + Service + ItemList + Breadcrumb + FAQPage)
+function buildServicesHubJsonLd({
+  locale,
+  baseUrl,
+  pageUrl,
+  pageName,
+  pageDescription,
+  serviceName,
+  serviceDescription,
+  keywords = [],
+  breadcrumbName,
+  faqItems = [],
+  serviceItems = [],
+  aiQuestion,
+  aiAnswer,
+  aiSource,
+}) {
+  const lang = locale === "tr" ? "tr-TR" : "en-US";
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      // 1) Organization
+      {
+        "@type": "Organization",
+        "@id": `${baseUrl}/#organization`,
+        name: "DGTLFACE",
+        url: `${baseUrl}/`,
+        logo: `${baseUrl}/logo.png`,
+      },
+
+      // 2) WebSite
+      {
+        "@type": "WebSite",
+        "@id": `${baseUrl}/#website`,
+        url: `${baseUrl}/`,
+        name: "DGTLFACE",
+        inLanguage: lang,
+        publisher: { "@id": `${baseUrl}/#organization` },
+      },
+
+      // 3) WebPage (CollectionPage)
+      {
+        "@type": ["WebPage", "CollectionPage"],
+        "@id": `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: pageName,
+        description: pageDescription,
+        isPartOf: { "@id": `${baseUrl}/#website` },
+        inLanguage: lang,
+        breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
+
+        // Hub sayfada alt servisleri bağlamak faydalı:
+        hasPart: serviceItems.map((s) => ({
+          "@type": "WebPage",
+          "@id": `${s.url}#webpage`,
+          url: s.url,
+          name: s.name,
+        })),
+      },
+
+      // 4) Service (sayfanın sunduğu üst servis kümesi)
+      {
+        "@type": "Service",
+        "@id": `${pageUrl}#service`,
+        name: serviceName,
+        url: pageUrl,
+        description: serviceDescription,
+        provider: { "@id": `${baseUrl}/#organization` },
+        inLanguage: lang,
+        keywords,
+      },
+
+      // 5) ItemList (ana hizmet listesi)
+      {
+        "@type": "ItemList",
+        "@id": `${pageUrl}#services-list`,
+        name: locale === "tr" ? "DGTLFACE Hizmet Kümeleri" : "DGTLFACE Service Clusters",
+        itemListElement: serviceItems.map((s, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: s.name,
+          url: s.url,
+        })),
+      },
+
+      // 6) BreadcrumbList
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${pageUrl}#breadcrumb`,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: locale === "tr" ? "Ana Sayfa" : "Home",
+            item: locale === "tr" ? `${baseUrl}/tr/anasayfa` : `${baseUrl}/en/`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: breadcrumbName,
+            item: pageUrl,
+          },
+        ],
+      },
+
+      // 7) FAQPage
+      {
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: faqItems.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      },
+
+      // 8) (Opsiyonel) AI Answer block - senin standartta kullanıyorsan:
+      ...(aiAnswer
+        ? [
+            {
+              "@type": "CreativeWork",
+              "@id": `${pageUrl}#ai`,
+              name: aiQuestion || (locale === "tr" ? "Yapay Zeka Özeti" : "AI Summary"),
+              text: aiAnswer,
+              isBasedOn: aiSource ? [aiSource] : undefined,
+              inLanguage: lang,
+            },
+          ]
+        : []),
+    ],
+  };
+}
+
+
 
 // ServicesPage JSON-LD (Hub / Collection Page)
 // const servicesPageJsonLd = {
@@ -249,36 +375,33 @@ const Page = ({ params }) => {
   const t = useTranslations("ServicesPage");
   const t2 = useTranslations("ServicesPage.h4Section");
 
-  const base = getBaseUrl();
-  
-  const canonicalUrl =
-    locale === "tr" ? `${base}/tr/hizmetlerimiz` : `${base}/en/services`;
+const base = getBaseUrl();
+const pathnameKey = "/Services";
+const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
 
- const pageUrl =
-  locale === "tr"
-    ? `${base}/tr/hizmetlerimiz`
-    : `${base}/en/services`; // sende EN path neyse
+const pageUrl = canonicalUrl;
 
 const faqItems = Array.from({ length: 5 }, (_, i) => {
   const idx = i + 1;
-  return { question: t(`faq.question${idx}`), answer: t(`faq.answer${idx}`) };
+  return { question: t(`faq.question${idx}`), answer: t.raw(`faq.answer${idx}`) };
 });
 
 const serviceItems = [
   { name: "SEO", url: `${base}/${locale}${locale === "tr" ? "/seo" : "/search-engine-optimization"}` },
-  { name: "SEM", url: `${base}/${locale}/sem` },
-  { name: "SMM", url: `${base}/${locale}/smm` },
-  { name: "Software", url: `${base}/${locale}/software` },
-  { name: "Creative", url: `${base}/${locale}/creative` },
-  { name: "Call Center", url: `${base}/${locale}/callcenter` },
+  { name: "SEM", url: `${base}/${locale}${locale === "tr" ? "/sem" : "/search-engine-marketing"}` },
+  { name: "SMM", url: `${base}/${locale}${locale === "tr" ? "/smm" : "/social-media-management"}` },
+  { name: "Software", url: `${base}/${locale}${locale === "tr" ? "/yazilim" : "/software-development"}` },
+  { name: "Creative", url: `${base}/${locale}${locale === "tr" ? "/creative" : "/creative-design"}` },
+  { name: "Call Center", url: `${base}/${locale}${locale === "tr" ? "/cagri-merkezi" : "/call-center"}` },
   { name: "PMS & OTA", url: `${base}/${locale}/pms-ota` },
-  { name: "Hotel", url: `${base}/${locale}/hotel` },
-  { name: "Digital Analysis", url: `${base}/${locale}/digitalAnalysis` },
+  { name: "Hotel", url: `${base}/${locale}${locale === "tr" ? "/otel" : "/hotel"}` },
+  { name: "Digital Analysis", url: `${base}/${locale}${locale === "tr" ? "/raporlama" : "/digital-analysis"}` },
 ];
 
-const jsonLd = buildDepartmentJsonLd({
+const jsonLd = buildServicesHubJsonLd({
   locale,
-  pageUrl,
+  baseUrl: base,
+  pageUrl: canonicalUrl,
   pageName: t("jsonld.pageName"),
   pageDescription: stripHtml(t("jsonld.pageDescription")).slice(0, 300),
   serviceName: t("jsonld.serviceName"),
@@ -293,6 +416,7 @@ const jsonLd = buildDepartmentJsonLd({
   aiAnswer: t("aiAnswerBlock"),
   aiSource: t("aiSourceMention"),
 });
+
 
 
 const renderDescription = (key) =>

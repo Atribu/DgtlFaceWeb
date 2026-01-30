@@ -123,6 +123,83 @@ const nextConfig = {
         destination: "/tr/otel",
         permanent: true,
       },
+
+
+
+
+        {
+        source: "/tr/seo-hizmetleri-sss",
+        destination: "/tr/seo-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/seo-hizmetleri-sss/",
+        destination: "/tr/seo-sss",
+        permanent: true,
+      },
+
+
+            {
+        source: "/tr/sosyal-medya-yonetimi-sss",
+        destination: "/tr/smm-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/sosyal-medya-yonetimi-sss/",
+        destination: "/tr/smm-sss",
+        permanent: true,
+      },
+
+
+                  {
+        source: "/tr/web-ve-yazilim-hizmetleri-sss",
+        destination: "/tr/yazilim-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/web-ve-yazilim-hizmetleri-sss/",
+        destination: "/tr/yazilim-sss",
+        permanent: true,
+      },
+
+
+                        {
+        source: "/tr/creative-ve-tasarim-sss",
+        destination: "/tr/creative-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/creative-ve-tasarim-sss/",
+        destination: "/tr/creative-sss",
+        permanent: true,
+      },
+
+
+                              {
+        source: "/tr/cagri-merkezi-hizmetleri-sss",
+        destination: "/tr/cagri-merkezi-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/cagri-merkezi-hizmetleri-sss/",
+        destination: "/tr/cagri-merkezi-sss",
+        permanent: true,
+      },
+
+                                    {
+        source: "/tr/pms-ota-yonetimi-sss",
+        destination: "/tr/pms-ota-sss",
+        permanent: true,
+      },
+      {
+        source: "/tr/pms-ota-yonetimi-sss/",
+        destination: "/tr/pms-ota-sss",
+        permanent: true,
+      },
+
+
+
+      
     ];
   },
 

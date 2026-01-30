@@ -40,7 +40,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, KVKK uyumlu yazılım çözümleri geliştirir. Veri güvenliği, çerez yönetimi ve kullanıcı izin sistemleriyle web sitenizi yasal hale getirir.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

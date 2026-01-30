@@ -21,7 +21,7 @@ import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structur
 export async function generateMetadata({ params }) {
   const { locale } = params;
 
-  const pathnameKey = "/Services/software"; // og-map key'in buysa
+  const pathnameKey = "/Services/software";
 
   const seoData = getSeoData(pathnameKey, locale);
   const title = seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
@@ -29,23 +29,20 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
 
-  // ✅ ortam bazlı base URL
   const base =
     process.env.NEXT_PUBLIC_SITE_URL ||
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
-
-  // ✅ og map'ten çek + fallback ver (çok kritik)
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
 
   const url =
     locale === "tr"
       ? `${base}/tr/yazilim`
       : `${base}/en/software-development`;
 
-  return {
-    // ✅ en kritik satır
-    metadataBase: new URL(base),
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); // ✅ her zaman absolute
 
+  return {
+    metadataBase: new URL(base),
     title,
     description,
 
@@ -65,7 +62,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage, // metadataBase sayesinde absolute'a tamamlanır
+          url: ogImageAbs,
           width: 1200,
           height: 630,
           alt: title,
@@ -78,10 +75,11 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs], // ✅ absolute
     },
   };
 }
+
 
 // const homeJsonLd = {
 //   "@context": "https://schema.org",

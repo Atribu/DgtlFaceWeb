@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, YouTube reklamlarınızı hedef kitleye uygun optimize ederek görünürlük ve dönüşümlerinizi artırır. Video reklam yönetiminde uzman ekiple çalışın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -169,7 +170,7 @@ const Page = () => {
   
       breadcrumbItems: [
         { name: locale === "tr" ? "Ana Sayfa" : "Home", url: `${baseUrl}/${locale}` },
-        { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/sem"}` },
+        { name: "SEM", url: `${baseUrl}${locale === "tr" ? "/tr/sem" : "/en/search-engine-marketing"}` },
         { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
       ],
   

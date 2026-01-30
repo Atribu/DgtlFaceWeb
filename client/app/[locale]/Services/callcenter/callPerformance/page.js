@@ -37,7 +37,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, çağrı merkezi KPI’larını analiz ederek operasyonel verimliliği artırır. Günlük, aylık ve çok kanallı performans raporlarıyla süreçlerinizi optimize edin.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

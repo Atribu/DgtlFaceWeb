@@ -37,7 +37,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, oteller için çok dilli rezervasyon çağrı merkezi hizmeti sunar. Satış artıran, müşteri memnuniyetini yükselten profesyonel destek sağlar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

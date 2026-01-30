@@ -5,7 +5,7 @@ import React from 'react'
 import image1 from "./images/image1.png"
 import image2 from "./images/image2.png"
 import image3 from "./images/image3.webp"
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { AiAnswerBlock } from '@/app/[locale]/components/common/AiAnswerBlock'
 import H2LogoSection from '@/app/[locale]/components/subPageComponents/H2LogoSection'
 import LogoListSectionBlack from '@/app/[locale]/components/subPageComponents/LogoListSectionBlack'
@@ -13,157 +13,221 @@ import QuestionsSection2 from '@/app/[locale]/components/subPageComponents/Quest
 import { AiSourceMention } from '@/app/[locale]/components/common/AiSourceMention'
 import AutoBreadcrumbs from '@/app/[locale]/components/common/AutoBreadcrumbs'
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimi, PMS & OTA entegrasyonu, online satış optimizasyonu ve çok kanallı misafir iletişimi sunan turizm odaklı teknoloji ve dijital pazarlama partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
+import { getOgImageByPathnameKey } from "@/app/lib/og-map";
+import { getSeoData } from "@/app/lib/seo-utils";
+import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
+import { buildServiceJsonLd } from "@/app/lib/jsonld/buildServiceJsonLd";
+
+export async function generateMetadata({ params }) {
+  const { locale } = params;
+
+  const pathnameKey = "/Services/pms/reservationManagement";
+
+  const base = getBaseUrl();
+  const seoData = getSeoData(pathnameKey, locale);
+
+  const title =
+    seoData?.title ||
+    "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE";
+
+  const description =
+    seoData?.description ||
+    "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. Misafir iletişimi, kayıt, doğrulama ve süreç takibi profesyonel şekilde yönetilir.";
+
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
+
+  const canonical = getCanonicalUrl(pathnameKey, locale);
+  const trUrl = getCanonicalUrl(pathnameKey, "tr");
+  const enUrl = getCanonicalUrl(pathnameKey, "en");
+
+  return {
+    metadataBase: new URL(base),
+    title,
+    description,
+
+    alternates: {
+      canonical,
+      languages: {
+        tr: trUrl,
+        en: enUrl,
       },
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ]
     },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#webpage",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. Misafir iletişimi, kayıt, doğrulama ve süreç takibi profesyonel şekilde yönetilir.",
-      "inLanguage": "tr-TR",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb"
-      }
+
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: "DGTLFACE",
+      title,
+      description,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      locale: locale === "tr" ? "tr_TR" : "en_US",
     },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#service",
-      "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri",
-      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "rezervasyon yönetimi, rezervasyon sistemi, misafir iletişimi, rezervasyon süreci, telefon rezervasyonu, otel kayıt sistemi",
-      "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. OTA, web sitesi, çağrı merkezi, WhatsApp ve acentelerden gelen tüm talepleri PMS rezervasyon modülü üzerinde birleştirir; müsaitlik–fiyat kontrolü, doğrulama, iptal/opsiyon, no-show ve misafir iletişimi süreçlerini standardize ederek, hata oranını düşürür ve doluluk ile geliri optimize eder.",
-      "areaServed": [
-        "Antalya",
-        "Türkiye",
-        "Europe"
-      ],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "rezervasyon yönetimi",
-        "rezervasyon sistemi",
-        "misafir iletişimi",
-        "rezervasyon süreci",
-        "telefon rezervasyonu",
-        "otel kayıt sistemi",
-        "rezervasyon yönetimi nasıl yapılır",
-        "oteller için rezervasyon kontrol sistemi",
-        "online + telefon rezervasyon dengesi",
-        "yabancı misafir rezervasyon yönetimi",
-        "turizm sektörü rezervasyon teknikleri",
-        "rezervasyon yönetimi yazılımı",
-        "pms rezervasyon modülü",
-        "rezervasyon yönetimi antalya",
-        "antalya otel rezervasyon",
-        "rezervasyon destek türkiye",
-        "antalya misafir iletişimi",
-        "resort rezervasyon yönetimi",
-        "butik otel misafir iletişimi",
-        "turizm rezervasyon sistemi",
-        "pms rezervasyon akışı nasıl çalışır"
-      ]
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
     },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "PMS & OTA Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Rezervasyon Yönetimi",
-          "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rezervasyon yönetimi; OTA, web sitesi, çağrı merkezi, WhatsApp ve acenteler gibi tüm kanallardan gelen taleplerin tek bir sistemde toplanması, müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve iletişim süreçlerinin standart bir akışla yönetilmesi anlamına gelir ve hem doluluk hem gelir hem de misafir memnuniyeti için kritiktir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Online ve telefon rezervasyon dengesi nasıl kurulmalı?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Online rezervasyonlar (OTA ve web) otomatik akışla PMS’e düşerken, telefon ve çağrı merkezi rezervasyonları aynı fiyat ve bilgi standartlarıyla PMS’e işlenmelidir. Böylece misafir hangi kanalı kullanırsa kullansın tutarlı bir deneyim yaşar ve tüm kayıtlar tek rezervasyon gerçeğinde birleşir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "PMS rezervasyon modülü nasıl çalışır?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "PMS rezervasyon modülü; oda, fiyat, tarih, kişi ve kaynak bilgilerini tek kartta toplayarak online, telefon ve OTA rezervasyonlarının hepsinin aynı sistemde yönetilmesini sağlar. İptal, tarih değişikliği, no-show, opsiyon ve ödeme bilgileri de bu modül üzerinden takip edilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Call Center + OTA + Web rezervasyon akışı nasıl birleştirilir?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Call Center, OTA ve web rezervasyon akışları PMS üzerinde birleşir. OTA ve web rezervasyonları otomatik olarak PMS’e düşer, çağrı merkezi rezervasyonları da aynı standart alanlarla PMS’e işlenir. Böylece tüm kanallar tek rezervasyon yönetim sistemine bağlı çalışır ve raporlama kolaylaşır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Rezervasyon yönetimi gelir ve doluluk oranına nasıl etki eder?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Profesyonel rezervasyon yönetimi; overbooking ve hata riskini azaltır, doğru tarihe ve doğru odaya doğru fiyatla rezervasyon yazılmasını sağlar, iptal ve no-show süreçlerini kontrol altına alır. Bu da doluluk planlamasını ve RevPAR odaklı gelir yönetimini güçlendirir."
-          }
-        }
-      ]
-    }
-  ]
+  };
 }
 
-const Page = () => {
-   const t = useTranslations("ReservationManagementPage");
-const t2 = useTranslations("ReservationManagementPage.h4Section");
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com",
+//       "description": "DGTLFACE, oteller için rezervasyon yönetimi, PMS & OTA entegrasyonu, online satış optimizasyonu ve çok kanallı misafir iletişimi sunan turizm odaklı teknoloji ve dijital pazarlama partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ]
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#webpage",
+//       "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+//       "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri | DGTLFACE",
+//       "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. Misafir iletişimi, kayıt, doğrulama ve süreç takibi profesyonel şekilde yönetilir.",
+//       "inLanguage": "tr-TR",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#service",
+//       "name": "Rezervasyon Yönetimi – Oteller İçin Profesyonel Rezervasyon Süreçleri",
+//       "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "rezervasyon yönetimi, rezervasyon sistemi, misafir iletişimi, rezervasyon süreci, telefon rezervasyonu, otel kayıt sistemi",
+//       "description": "DGTLFACE, oteller için rezervasyon yönetimini dijital platformlara taşır. OTA, web sitesi, çağrı merkezi, WhatsApp ve acentelerden gelen tüm talepleri PMS rezervasyon modülü üzerinde birleştirir; müsaitlik–fiyat kontrolü, doğrulama, iptal/opsiyon, no-show ve misafir iletişimi süreçlerini standardize ederek, hata oranını düşürür ve doluluk ile geliri optimize eder.",
+//       "areaServed": [
+//         "Antalya",
+//         "Türkiye",
+//         "Europe"
+//       ],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "rezervasyon yönetimi",
+//         "rezervasyon sistemi",
+//         "misafir iletişimi",
+//         "rezervasyon süreci",
+//         "telefon rezervasyonu",
+//         "otel kayıt sistemi",
+//         "rezervasyon yönetimi nasıl yapılır",
+//         "oteller için rezervasyon kontrol sistemi",
+//         "online + telefon rezervasyon dengesi",
+//         "yabancı misafir rezervasyon yönetimi",
+//         "turizm sektörü rezervasyon teknikleri",
+//         "rezervasyon yönetimi yazılımı",
+//         "pms rezervasyon modülü",
+//         "rezervasyon yönetimi antalya",
+//         "antalya otel rezervasyon",
+//         "rezervasyon destek türkiye",
+//         "antalya misafir iletişimi",
+//         "resort rezervasyon yönetimi",
+//         "butik otel misafir iletişimi",
+//         "turizm rezervasyon sistemi",
+//         "pms rezervasyon akışı nasıl çalışır"
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "PMS & OTA Yönetimi",
+//           "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 3,
+//           "name": "Rezervasyon Yönetimi",
+//           "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Rezervasyon yönetimi; OTA, web sitesi, çağrı merkezi, WhatsApp ve acenteler gibi tüm kanallardan gelen taleplerin tek bir sistemde toplanması, müsaitlik–fiyat kontrolü, misafir kaydı, doğrulama, iptal/opsiyon ve iletişim süreçlerinin standart bir akışla yönetilmesi anlamına gelir ve hem doluluk hem gelir hem de misafir memnuniyeti için kritiktir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Online ve telefon rezervasyon dengesi nasıl kurulmalı?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Online rezervasyonlar (OTA ve web) otomatik akışla PMS’e düşerken, telefon ve çağrı merkezi rezervasyonları aynı fiyat ve bilgi standartlarıyla PMS’e işlenmelidir. Böylece misafir hangi kanalı kullanırsa kullansın tutarlı bir deneyim yaşar ve tüm kayıtlar tek rezervasyon gerçeğinde birleşir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "PMS rezervasyon modülü nasıl çalışır?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "PMS rezervasyon modülü; oda, fiyat, tarih, kişi ve kaynak bilgilerini tek kartta toplayarak online, telefon ve OTA rezervasyonlarının hepsinin aynı sistemde yönetilmesini sağlar. İptal, tarih değişikliği, no-show, opsiyon ve ödeme bilgileri de bu modül üzerinden takip edilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Call Center + OTA + Web rezervasyon akışı nasıl birleştirilir?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Call Center, OTA ve web rezervasyon akışları PMS üzerinde birleşir. OTA ve web rezervasyonları otomatik olarak PMS’e düşer, çağrı merkezi rezervasyonları da aynı standart alanlarla PMS’e işlenir. Böylece tüm kanallar tek rezervasyon yönetim sistemine bağlı çalışır ve raporlama kolaylaşır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Rezervasyon yönetimi gelir ve doluluk oranına nasıl etki eder?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Profesyonel rezervasyon yönetimi; overbooking ve hata riskini azaltır, doğru tarihe ve doğru odaya doğru fiyatla rezervasyon yazılmasını sağlar, iptal ve no-show süreçlerini kontrol altına alır. Bu da doluluk planlamasını ve RevPAR odaklı gelir yönetimini güçlendirir."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
+
+export default async function Page({ params: { locale } }) {
+const t = await getTranslations({locale,namespace: "ReservationManagementPage",});
+  const t2 = await getTranslations({locale,namespace: "ReservationManagementPage.h4Section",});
+
+  const baseUrl = getBaseUrl();
+    const pathnameKey = "/Services/pms/reservationManagement";
+    const canonicalUrl = getCanonicalUrl(pathnameKey, locale);
            
               const stepData = [1,2,3].map(i => ({
                 id: i,
@@ -231,12 +295,47 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
                 { title: t("h2Section.header4"), text: t.raw("h2Section.text4") }
              ];
 
+
+             const jsonLd = buildServiceJsonLd({
+                 baseUrl,
+                 locale,
+                 canonicalUrl,
+             
+                 pageName: t("jsonld.pageName"),
+                 pageDescription: t("jsonld.pageDescription"),
+                 serviceName: t("jsonld.serviceName"),
+                 serviceType: t("jsonld.serviceType"),
+                 keywords: t.raw("jsonld.keywords"),
+             
+                 breadcrumbItems: [
+                   {
+                     name: locale === "tr" ? "Ana Sayfa" : "Home",
+                     url: `${baseUrl}/${locale}`,
+                   },
+             
+                   {
+                     name: locale === "tr" ? "PMS & OTA" : "PMS & OTA",
+                     url: `${baseUrl}${locale === "tr" ? "/tr/pms-ota" : "/en/pms-ota"}`,
+                   },
+             
+                   { name: t("jsonld.breadcrumbName"), url: canonicalUrl },
+                 ],
+             
+                 faqs,
+             
+                 // 🤖 AI alanları (yeni standart)
+                 aiQuestion: t("jsonld.pageName"),
+                 aiAnswer: t("ai_answer_text"),
+                 aiSource: t("aiSourceMention"),
+               });
+             
+
   return (
     <>
     <script
         type="application/ld+json"
         suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
 
@@ -274,4 +373,3 @@ const t2 = useTranslations("ReservationManagementPage.h4Section");
   )
 }
 
-export default Page

@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, güvenli sunucu yönetimi ve web güvenliği hizmetleri sunar. SSL, firewall, DDoS koruması ve performans optimizasyonuyla altyapınızı korur ve hızlandırır.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

@@ -38,7 +38,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, marka hikâyenizi etkili şekilde anlatan profesyonel tanıtım videoları, reklam filmleri ve 360° çekimler üretir. Oteller ve markalar için kreatif video prodüksiyon sunar.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

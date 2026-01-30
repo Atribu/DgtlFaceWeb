@@ -34,7 +34,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, Instagram ve Facebook reklam kampanyalarını hedef kitlenize uygun şekilde optimize eder. Dönüşüm odaklı sosyal medya reklam stratejileriyle başarıya ulaşın.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
@@ -308,7 +309,7 @@ export default async function Page({ params: { locale } }) {
       // Eğer sizde /tr/smm ise burayı ona göre değiştir.
       {
         name: locale === "tr" ? "Sosyal Medya Reklamları" : "Social Media Ads",
-        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/smm"}`,
+        url: `${baseUrl}${locale === "tr" ? "/tr/smm" : "/en/social-media-management"}`,
       },
 
       { name: t("jsonld.breadcrumbName"), url: canonicalUrl },

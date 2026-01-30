@@ -38,7 +38,8 @@ export async function generateMetadata({ params }) {
     seoData?.description ||
     "DGTLFACE, kullanıcı dostu CMS ve yönetim paneli entegrasyonlarıyla çok dilli, hızlı ve SEO uyumlu içerik yönetimi sunar. Web sitenizi kolayca yönetin.";
 
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const canonical = getCanonicalUrl(pathnameKey, locale);
   const trUrl = getCanonicalUrl(pathnameKey, "tr");

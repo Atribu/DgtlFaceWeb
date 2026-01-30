@@ -24,10 +24,10 @@ export async function generateMetadata({ params }) {
   const pathnameKey = "/Services/hotel"; // og-map key'in buysa
 
   const seoData = getSeoData(pathnameKey, locale);
-  const title = seoData?.title || "Web & Yazılım Hizmetleri | DGTLFACE";
+  const title = seoData?.title || "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE";
   const description =
     seoData?.description ||
-    "DGTLFACE, Next.js ve React ile yüksek performanslı web siteleri ve özel yazılım geliştirir. CMS, KVKK, sunucu güvenliği ve bakım destek sunar.";
+    "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, çağrı merkezi ve veri analiziyle 360° dijital pazarlama ve dönüşüm çözümleri sunar.";
 
   // ✅ ortam bazlı base URL
   const base =
@@ -35,7 +35,8 @@ export async function generateMetadata({ params }) {
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
   // ✅ og map'ten çek + fallback ver (çok kritik)
-  const ogImage = getOgImageByPathnameKey(pathnameKey) || "/og/og-default.png";
+  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+
 
   const url =
     locale === "tr"
@@ -83,204 +84,204 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const homeJsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://dgtlface.com/#organization",
-      "name": "DGTLFACE",
-      "url": "https://dgtlface.com/",
-      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analizi ile 360° otel dijital pazarlama ve dijital dönüşüm çözümleri sunan teknoloji partneridir.",
-      "logo": "https://dgtlface.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Antalya",
-        "addressCountry": "TR"
-      },
-        "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://dgtlface.com/#website",
-      "url": "https://dgtlface.com/",
-      "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
-      "inLanguage": "tr-TR",
-      "publisher": {
-        "@id": "https://dgtlface.com/#organization"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/otel/#webpage",
-      "url": "https://dgtlface.com/tr/otel",
-      "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
-      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
-      "isPartOf": {
-        "@id": "https://dgtlface.com/#website"
-      },
-      "inLanguage": "tr-TR",
-      "about": [
-        "otel dijital pazarlama",
-        "otel dijital dönüşümü",
-        "otel pazarlama ajansı",
-        "otel için SEO",
-        "otel Google Ads",
-        "otel sosyal medya yönetimi",
-        "turizm dijital pazarlama rehberi"
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/otel/#breadcrumb"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/otel/#service",
-      "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider",
-      "url": "https://dgtlface.com/tr/otel",
-      "provider": {
-        "@id": "https://dgtlface.com/#organization"
-      },
-      "serviceType": "otel dijital pazarlama, turizm dijital dönüşüm, otel SEO, otel reklam yönetimi, OTA yönetimi, PMS entegrasyonu, otel çağrı merkezi",
-      "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analiziyle 360° otel dijital pazarlama ve dönüşüm hizmetleri sunar. Resort, city, butik ve luxury oteller için özel yol haritaları ve stratejiler geliştirir.",
-        "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
-        "Kemer",
-        "Side",
-        "Alanya","Bodrum"],
-      "inLanguage": "tr-TR",
-      "keywords": [
-        "otel dijital pazarlama",
-        "otel dijital dönüşümü",
-        "otel pazarlama ajansı",
-        "otel için seo",
-        "otel google ads",
-        "otel sosyal medya yönetimi",
-        "oteller için dijital pazarlama stratejisi",
-        "resort dijital pazarlama",
-        "butik otel dijital pazarlama",
-        "villa & luxury otel dönüşümü",
-        "all inclusive otel dijital strateji",
-        "turizm sektörü online satış artırma yöntemleri",
-        "otel rezervasyon dönüşümünü artırma",
-        "google hotel ads entegrasyonu",
-        "otel marka bilinirliği artırma",
-        "booking expedia optimizasyon",
-        "otel müşteri deneyimi için dijital çözümler",
-        "otel sosyal medya reklamcılığı",
-        "otel gelir yönetimi digital",
-        "turizm dijital pazarlama rehberi",
-        "otel dijital pazarlama antalya",
-        "antalya resort marketing",
-        "otel pazarlama türkiye",
-        "side–kemer–belek dijital otel çözümleri"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://dgtlface.com/tr/otel/#services-list",
-      "name": "DGTLFACE Otel Dijital Pazarlama Hizmetleri",
-      "itemListElement": [
-        {
-          "@type": "Service",
-          "name": "Otel SEO",
-          "url": "https://dgtlface.com/tr/otel/seo"
-        },
-        {
-          "@type": "Service",
-          "name": "Otel Sosyal Medya Yönetimi",
-          "url": "https://dgtlface.com/tr/otel/sosyal-medya"
-        },
-        {
-          "@type": "Service",
-          "name": "Otel Reklam Yönetimi",
-          "url": "https://dgtlface.com/tr/otel/reklam-yonetimi"
-        },
-        {
-          "@type": "Service",
-          "name": "OTA Yönetimi (Hotel OTA)",
-          "url": "https://dgtlface.com/tr/otel/ota-yonetimi"
-        },
-        {
-          "@type": "Service",
-          "name": "PMS Entegrasyonu (Hotel PMS)",
-          "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
-        },
-        {
-          "@type": "Service",
-          "name": "Otel Rezervasyon Çağrı Merkezi",
-          "url": "https://dgtlface.com/tr/otel/cagri-merkezi"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/otel/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Ana Sayfa",
-          "item": "https://dgtlface.com/tr/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Otel Dijital Pazarlama",
-          "item": "https://dgtlface.com/tr/otel"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/otel/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Otelim için neden özel dijital stratejiye ihtiyacım var?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Her otelin hedef pazarı, sezonu, ürün tipi (resort, city, butik, luxury) ve kanal dengesi farklıdır. Bu nedenle her otel için özel bir dijital pazarlama stratejisi gereklidir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Sadece reklam yönetimi ile çalışmak yeterli mi?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sadece reklam yönetimiyle başlanabilir; ancak en güçlü sonuçlar SEO, OTA, web ve çağrı merkezi süreçlerinin entegre çalıştığı yapılarda elde edilir."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "OTA bağımlılığını azaltıp direkt rezervasyon artırabilir miyiz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Doğru fiyatlandırma, web kullanıcı deneyimi, reklam stratejisi ve call center kurgusu ile direkt rezervasyon oranını artırmak mümkündür."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Hangi sürelerle çalışıyorsunuz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Genellikle 6–12 aylık otel dijital dönüşüm planlarıyla çalışıyoruz; bu süre içinde strateji, uygulama ve optimizasyon döngüleri tamamlanır."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Otelim Türkiye dışından da misafir ağırlıyor; çok dilli yapı kurabilir misiniz?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Evet. Web, sosyal medya ve çağrı merkezi tarafında TR–EN–DE–RU gibi çok dilli yapılar kurarak farklı pazarlara uygun iletişim stratejileri geliştiriyoruz."
-          }
-        }
-      ]
-    }
-  ]
-}
+// const homeJsonLd = {
+//   "@context": "https://schema.org",
+//   "@graph": [
+//     {
+//       "@type": "Organization",
+//       "@id": "https://dgtlface.com/#organization",
+//       "name": "DGTLFACE",
+//       "url": "https://dgtlface.com/",
+//       "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analizi ile 360° otel dijital pazarlama ve dijital dönüşüm çözümleri sunan teknoloji partneridir.",
+//       "logo": "https://dgtlface.com/logo.png",
+//       "address": {
+//         "@type": "PostalAddress",
+//         "addressLocality": "Antalya",
+//         "addressCountry": "TR"
+//       },
+//         "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"]
+//     },
+//     {
+//       "@type": "WebSite",
+//       "@id": "https://dgtlface.com/#website",
+//       "url": "https://dgtlface.com/",
+//       "name": "DGTLFACE Dijital Pazarlama & Teknoloji Partneri",
+//       "inLanguage": "tr-TR",
+//       "publisher": {
+//         "@id": "https://dgtlface.com/#organization"
+//       }
+//     },
+//     {
+//       "@type": "WebPage",
+//       "@id": "https://dgtlface.com/tr/otel/#webpage",
+//       "url": "https://dgtlface.com/tr/otel",
+//       "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider | DGTLFACE",
+//       "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS entegrasyonu, OTA yönetimi ve 4 dilli çağrı merkezi çözümleri sunar. Turizm sektörüne özel dijital dönüşüm sağlar.",
+//       "isPartOf": {
+//         "@id": "https://dgtlface.com/#website"
+//       },
+//       "inLanguage": "tr-TR",
+//       "about": [
+//         "otel dijital pazarlama",
+//         "otel dijital dönüşümü",
+//         "otel pazarlama ajansı",
+//         "otel için SEO",
+//         "otel Google Ads",
+//         "otel sosyal medya yönetimi",
+//         "turizm dijital pazarlama rehberi"
+//       ],
+//       "breadcrumb": {
+//         "@id": "https://dgtlface.com/tr/otel/#breadcrumb"
+//       }
+//     },
+//     {
+//       "@type": "Service",
+//       "@id": "https://dgtlface.com/tr/otel/#service",
+//       "name": "Otel Dijital Pazarlama & Dönüşüm Hizmetleri – Turizm Teknolojilerinde Lider",
+//       "url": "https://dgtlface.com/tr/otel",
+//       "provider": {
+//         "@id": "https://dgtlface.com/#organization"
+//       },
+//       "serviceType": "otel dijital pazarlama, turizm dijital dönüşüm, otel SEO, otel reklam yönetimi, OTA yönetimi, PMS entegrasyonu, otel çağrı merkezi",
+//       "description": "DGTLFACE, oteller için SEO, SEM, sosyal medya, PMS–OTA entegrasyonu, OTA yönetimi, 4 dilli çağrı merkezi ve veri analiziyle 360° otel dijital pazarlama ve dönüşüm hizmetleri sunar. Resort, city, butik ve luxury oteller için özel yol haritaları ve stratejiler geliştirir.",
+//         "areaServed": ["Antalya","Türkiye","Europe",  "Belek",
+//         "Kemer",
+//         "Side",
+//         "Alanya","Bodrum"],
+//       "inLanguage": "tr-TR",
+//       "keywords": [
+//         "otel dijital pazarlama",
+//         "otel dijital dönüşümü",
+//         "otel pazarlama ajansı",
+//         "otel için seo",
+//         "otel google ads",
+//         "otel sosyal medya yönetimi",
+//         "oteller için dijital pazarlama stratejisi",
+//         "resort dijital pazarlama",
+//         "butik otel dijital pazarlama",
+//         "villa & luxury otel dönüşümü",
+//         "all inclusive otel dijital strateji",
+//         "turizm sektörü online satış artırma yöntemleri",
+//         "otel rezervasyon dönüşümünü artırma",
+//         "google hotel ads entegrasyonu",
+//         "otel marka bilinirliği artırma",
+//         "booking expedia optimizasyon",
+//         "otel müşteri deneyimi için dijital çözümler",
+//         "otel sosyal medya reklamcılığı",
+//         "otel gelir yönetimi digital",
+//         "turizm dijital pazarlama rehberi",
+//         "otel dijital pazarlama antalya",
+//         "antalya resort marketing",
+//         "otel pazarlama türkiye",
+//         "side–kemer–belek dijital otel çözümleri"
+//       ]
+//     },
+//     {
+//       "@type": "ItemList",
+//       "@id": "https://dgtlface.com/tr/otel/#services-list",
+//       "name": "DGTLFACE Otel Dijital Pazarlama Hizmetleri",
+//       "itemListElement": [
+//         {
+//           "@type": "Service",
+//           "name": "Otel SEO",
+//           "url": "https://dgtlface.com/tr/otel/seo"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Otel Sosyal Medya Yönetimi",
+//           "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Otel Reklam Yönetimi",
+//           "url": "https://dgtlface.com/tr/otel/reklam-yonetimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "OTA Yönetimi (Hotel OTA)",
+//           "url": "https://dgtlface.com/tr/otel/ota-yonetimi"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "PMS Entegrasyonu (Hotel PMS)",
+//           "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+//         },
+//         {
+//           "@type": "Service",
+//           "name": "Otel Rezervasyon Çağrı Merkezi",
+//           "url": "https://dgtlface.com/tr/otel/cagri-merkezi"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "BreadcrumbList",
+//       "@id": "https://dgtlface.com/tr/otel/#breadcrumb",
+//       "itemListElement": [
+//         {
+//           "@type": "ListItem",
+//           "position": 1,
+//           "name": "Ana Sayfa",
+//           "item": "https://dgtlface.com/tr/"
+//         },
+//         {
+//           "@type": "ListItem",
+//           "position": 2,
+//           "name": "Otel Dijital Pazarlama",
+//           "item": "https://dgtlface.com/tr/otel"
+//         }
+//       ]
+//     },
+//     {
+//       "@type": "FAQPage",
+//       "@id": "https://dgtlface.com/tr/otel/#faq",
+//       "mainEntity": [
+//         {
+//           "@type": "Question",
+//           "name": "Otelim için neden özel dijital stratejiye ihtiyacım var?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Her otelin hedef pazarı, sezonu, ürün tipi (resort, city, butik, luxury) ve kanal dengesi farklıdır. Bu nedenle her otel için özel bir dijital pazarlama stratejisi gereklidir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Sadece reklam yönetimi ile çalışmak yeterli mi?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Sadece reklam yönetimiyle başlanabilir; ancak en güçlü sonuçlar SEO, OTA, web ve çağrı merkezi süreçlerinin entegre çalıştığı yapılarda elde edilir."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "OTA bağımlılığını azaltıp direkt rezervasyon artırabilir miyiz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Doğru fiyatlandırma, web kullanıcı deneyimi, reklam stratejisi ve call center kurgusu ile direkt rezervasyon oranını artırmak mümkündür."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Hangi sürelerle çalışıyorsunuz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Genellikle 6–12 aylık otel dijital dönüşüm planlarıyla çalışıyoruz; bu süre içinde strateji, uygulama ve optimizasyon döngüleri tamamlanır."
+//           }
+//         },
+//         {
+//           "@type": "Question",
+//           "name": "Otelim Türkiye dışından da misafir ağırlıyor; çok dilli yapı kurabilir misiniz?",
+//           "acceptedAnswer": {
+//             "@type": "Answer",
+//             "text": "Evet. Web, sosyal medya ve çağrı merkezi tarafında TR–EN–DE–RU gibi çok dilli yapılar kurarak farklı pazarlara uygun iletişim stratejileri geliştiriyoruz."
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 
 const Page = () => {
