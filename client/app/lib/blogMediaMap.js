@@ -10,43 +10,43 @@ export const BLOG_MEDIA_MAP = {
       caption: ""
     },
 
-          "": {
+          "h1-context-02": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
       alt: "",
       caption: ""
     },
 
-           "": {
+           "divider-03": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
       alt: "",
       caption: ""
     },
 
-    "": {
+    "divider-04": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
       alt: "",
       caption: ""
     },
 
-     "": {
+     "diagram-05": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
       alt: "",
       caption: ""
     },
 
-          "": {
+          "checklist-06": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
       alt: "",
       caption: ""
     },
 
-      "": {
+      "kpi-07": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
       alt: "",
       caption: ""
     },
 
-          "": {
+          "proof-08": {
       src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
       alt: "",
       caption: ""
@@ -4009,8 +4009,166 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":{
+    banner: {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-1.webp",
+      alt: "Sosyal Medya KPI Çerçevesi: Hedef ve Başarım Nasıl Ölçülür?",
+      caption: "Sosyal Medya KPI Çerçevesi: Hedef ve Başarım Nasıl Ölçülür?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-2.webp",
+      alt: "KPI matrisi ve dashboard mantığını tek ekranda özetleyen sosyal medya ölçüm görseli",
+      caption: "KPI matrisi ve dashboard mantığını tek ekranda özetleyen sosyal medya ölçüm görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-3.webp",
+      alt: " KPI çerçevesi yokken raporların hissiyat düzeyinde kaldığını anlatan bölüm görseli",
+      caption: " KPI çerçevesi yokken raporların hissiyat düzeyinde kaldığını anlatan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-4.webp",
+      alt: "Kanal bazlı KPI seti farklarını otel ve B2B için gösteren bölüm görseli",
+      caption: "Kanal bazlı KPI seti farklarını otel ve B2B için gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-5.webp",
+      alt: "Hedef KPI format ve kanal eşleşmesini gösteren sosyal medya ölçüm akış diyagramı",
+      caption: "Hedef KPI format ve kanal eşleşmesini gösteren sosyal medya ölçüm akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-6.webp",
+      alt: "Kampanya öncesi KPI checklist’ini raporlama bağlamında özetleyen kart görseli",
+      caption: "Kampanya öncesi KPI checklist’ini raporlama bağlamında özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-7.webp",
+      alt: "Marka etkileşim trafik lead KPI setlerini karşılaştıran sosyal medya skor kart görseli",
+      caption: "Marka etkileşim trafik lead KPI setlerini karşılaştıran sosyal medya skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-4/SMM2-4-8.webp",
+      alt: "KPI matrisi dashboard ve rapor deliverables setini özetleyen proof kart görseli",
+      caption: "KPI matrisi dashboard ve rapor deliverables setini özetleyen proof kart görseli"
+    }
+  },
+
+
+    "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":{
+     banner: {
+      src: "/images/blog/software/Software2-4/Software2-4-1.webp",
+      alt: "CMS Performans ve Cache Stratejisi: Headless ve Next.js Entegrasyonlarında Hız",
+      caption: "CMS Performans ve Cache Stratejisi: Headless ve Next.js Entegrasyonlarında Hız"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software2-4/Software2-4-2.webp",
+      alt: "Publish sonrası revalidation akışı özeti, kurumsal web bağlamı",
+      caption: "Publish sonrası revalidation akışı özeti, kurumsal web bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software2-4/Software2-4-3.webp",
+      alt: "SSG ISR SSR karar ayrımı görseli, performans optimizasyon bağlamı",
+      caption: "SSG ISR SSR karar ayrımı görseli, performans optimizasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software2-4/Software2-4-4.webp",
+      alt: "Publish ve cache yansıma süreci görseli, operasyon yönetimi bağlamı",
+      caption: "Publish ve cache yansıma süreci görseli, operasyon yönetimi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-4/Software2-4-5.webp",
+      alt: "Headless CMS Next.js CDN cache diyagramı, hız güncellik dengesi",
+      caption: "Headless CMS Next.js CDN cache diyagramı, hız güncellik dengesi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-4/Software2-4-6.webp",
+      alt: "CMS performans cache checklist kartı, teknik ekip uygulama bağlamı",
+      caption: "CMS performans cache checklist kartı, teknik ekip uygulama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-4/Software2-4-7.webp",
+      alt: "Cache hit ve publish live KPI kartı, otel ve B2B bağlamı",
+      caption: "Cache hit ve publish live KPI kartı, otel ve B2B bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-4/Software2-4-8.webp",
+      alt: "Performans çıktıları ve güven unsuru kartı, ekip yönetimi bağlamı",
+      caption: "Performans çıktıları ve güven unsuru kartı, ekip yönetimi bağlamı"
+    }
+  },
+
+   "cok-dilli-otel-ux-tr-en-de-ru":{
+     banner: {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-2.webp",
+      alt: "Dil bazlı rezervasyon akışında tutarlılığı anlatan otel bağlam görseli",
+      caption: "Dil bazlı rezervasyon akışında tutarlılığı anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-3.webp",
+      alt: "Language switcher ve giriş deneyimi bölüm geçiş görseli otel bağlamı",
+      caption: "Language switcher ve giriş deneyimi bölüm geçiş görseli otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-4.webp",
+      alt: "Fiyat ve içerik tutarlılığı bölüm geçiş görseli otel bağlamı",
+      caption: "Fiyat ve içerik tutarlılığı bölüm geçiş görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-5.webp",
+      alt: "Dil switcher konumu ve TR EN DE RU akış şeması otel bağlamı",
+      caption: "Dil switcher konumu ve TR EN DE RU akış şeması otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-6.webp",
+      alt: "TR EN DE RU microcopy ve tutarlılık checklist kartı otel bağlamı",
+      caption: "TR EN DE RU microcopy ve tutarlılık checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-7.webp",
+      alt: "Dil bazlı terk ve güven KPI özet kartı otel bağlamı",
+      caption: "Dil bazlı terk ve güven KPI özet kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-4/Creative2-4-8.webp",
+      alt: "Çok dilli UX entegrasyon deliverables kanıt kartı otel bağlamı",
+      caption: "Çok dilli UX entegrasyon deliverables kanıt kartı otel bağlamı"
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {
   return BLOG_MEDIA_MAP?.[slug]?.[slot] || null;
 }
+
+
+
+
+

@@ -360,7 +360,7 @@ export const routing = defineRouting({
     // // Dinamik FAQ sayfası (senin yapın /faq/[faq] ise)
     // "/faq/[faq]": {
     //   en: "/faq/[faq]",
-    //   tr: "/[faq]", // TR'de root altında: /hizmetler-sss, /seo-sss vb.
+    //   tr: "/[faq]", // TR'de root altında: /hizmetlerimiz-sss, /seo-sss vb.
     // },
     "/sss": {
   tr: "/sss",

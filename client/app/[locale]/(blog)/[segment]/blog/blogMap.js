@@ -34,7 +34,8 @@ export const BLOG_MAP = {
 
     "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework",
     "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi",
-    "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":"BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari"
+    "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":"BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari",
+    "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":"BlogSosyalMedyaKpiCercevesiHedefVeBasarimNasilOlculur"
   },
 
     yazilim: {
@@ -46,7 +47,8 @@ export const BLOG_MAP = {
 
     "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi",
     "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi",
-    "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":"BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek"
+    "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":"BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek",
+    "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":"BlogCmsPerformansVeCacheStratejisiHeadlessVeNextjsEntegrasyonlarindaHiz"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
@@ -57,7 +59,8 @@ export const BLOG_MAP = {
 
     "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri",
     "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi",
-    "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe"
+    "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe",
+    "cok-dilli-otel-ux-tr-en-de-ru":"BlogCokDilliOtelUxTrEnDeRu"
   },
 
        "cagri-merkezi": {

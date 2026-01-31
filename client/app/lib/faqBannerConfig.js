@@ -309,7 +309,7 @@ export const FAQ_BANNER_ASSET_MAP = {
   // GENEL SSS
   // ---------------------------------------------------------
   "sss": imgGeneral, // genel bir görsel seç (istersen ayrı bir genel görsel koy)
-  "hizmetler-sss": imgGeneral, // sende bu slug var
+  "hizmetlerimiz-sss": imgGeneral, // sende bu slug var
 
   // ---------------------------------------------------------
   // SEO

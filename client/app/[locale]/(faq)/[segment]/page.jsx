@@ -1,4 +1,4 @@
-// app/[locale]/(faq)/[faq]/page.js
+// app/[locale]/(faq)/[segment]/page.js
 import React from "react";
 import Script from "next/script";
 import { notFound } from "next/navigation";
@@ -8,7 +8,8 @@ import SearchBanner from "../../sss/components/SearchBanner";
 import FaqMain from "../../sss/components/FaqMain";
 import Breadcrumbs from "./components/Breadcrumbs"; 
 import { FAQ_DEPT_CRUMB_MAP, FAQ_DEPT_LABEL_MAP } from "../../faqRouteMap";
-
+import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
+import { getFaqOgImageUrl } from "../utils/faqOgImage"; // yolu dosyana göre ayarla
 
 function metaFromJsonLd(jsonLd) {
   if (!jsonLd) return null;
@@ -129,21 +130,22 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug) {
 
 
 export async function generateMetadata({ params }) {
-  const slug = params?.faq;
-  const jsonLd = FAQ_JSONLD_MAP?.[slug];
-  const meta = metaFromJsonLd(jsonLd);
-  if (!meta) return {};
-
+  const slug = params?.segment; // ✅ burası segment olmalı
   const locale = params?.locale || "tr";
+
+  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+  const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale); // ✅ locale düzeltme
+
+  const meta = metaFromJsonLd(fixedJsonLd);
+  if (!meta) return {};
 
   // Site domain (prod)
   const siteUrl = "https://dgtlface.com";
 
-  // OG görsel URL
-  const ogImage = `${siteUrl}/og/sss/dgtlface.com_tr_sss.jpeg`;
+  // OG görsel URL (AYNI KALIYOR)
+const ogImage = getFaqOgImageUrl({ slug, locale, siteUrl });
 
-
-   return {
+  return {
     title: meta.title,
     description: meta.description,
     alternates: meta.canonical ? { canonical: meta.canonical } : undefined,
@@ -151,17 +153,13 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: meta.canonical || `${siteUrl}/${locale}/sss/${slug}`,
+      //url: meta.canonical || `${siteUrl}/${locale}/${slug}`,
+      url: meta.canonical || `${siteUrl}/${locale}/sss/${slug}`, 
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
-      type: "article", // faq sayfası için istersen "website" da diyebilirsin
+      type: "article",
       images: [
-        {
-          url: ogImage,
-          width: 1200,
-          height: 630,
-          alt: meta.title,
-        },
+        { url: ogImage, width: 1200, height: 630, alt: meta.title },
       ],
     },
 
@@ -174,16 +172,20 @@ export async function generateMetadata({ params }) {
   };
 }
 
+
 export default function Page({ params }) {
    const slug = params?.segment;
   const pageNs = FAQ_MAP?.[slug];
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+   const locale = params?.locale || "tr";
 
   if (!pageNs) notFound();
 
-  const jsonLdNodes = buildEnhancedJsonLd(baseJsonLd, slug);
+const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale); // ✅ locale düzeltme
 
-  const locale = params?.locale || "tr";
+const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug); // ✅ fixed üzerinden üret
+
+ 
 
 // 1) departman slug’ını bul (seo-sss / sem-sss vs)
 const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
@@ -198,11 +200,10 @@ const deptHref = deptSlug ? `/${locale}/${deptSlug}` : null;
 
 // 4) current sayfa label’ında "SSS" tekrarını azalt (opsiyonel)
 // Örn: "SEO SSS" yerine sadece "SEO" demek istiyorsan burada kırparsın
-const currentLabelRaw = baseJsonLd?.dgPageName || baseJsonLd?.name || "SSS";
+const currentLabelRaw = fixedJsonLd?.dgPageName || fixedJsonLd?.name || "SSS";
 const currentLabel = currentLabelRaw.replace(/\s*SSS\s*/gi, " ").trim(); // istersen bunu kaldır
 
-const currentHref =
-  baseJsonLd?.url?.replace("https://dgtlface.com", "") || `/${locale}/${slug}`;
+const currentHref = fixedJsonLd?.url?.replace("https://dgtlface.com", "") || `/${locale}/${slug}`;
   
   const isFaqRoot = slug === "sss";
 const isServicesRoot = slug === "hizmetlerimiz-sss";

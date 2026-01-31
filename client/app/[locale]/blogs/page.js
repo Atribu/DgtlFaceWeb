@@ -28,9 +28,10 @@ const BLOG_DEPARTMENTS_V2 = [
 
 function toTs(dateStr) {
   if (!dateStr) return 0;
-  const d = new Date(dateStr);
-  return Number.isNaN(d.getTime()) ? 0 : d.getTime();
+  const t = Date.parse(dateStr); // "2026-01-31" için doğru çalışır
+  return Number.isNaN(t) ? 0 : t;
 }
+
 
 function BlogCard({ p, locale, t, GRADIENT }) {
   return (
@@ -94,12 +95,12 @@ function BlogCard({ p, locale, t, GRADIENT }) {
             <div
               className="
                 absolute inset-x-0 bottom-0
-                px-3 lg:px-4 pb-3 lg:pb-4
+                px-1 md:px-2 lg:px-4 pb-3 lg:pb-4
               "
             >
               <div className="flex items-center justify-between gap-2">
                 {/* departman pill */}
-                <div className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/45 backdrop-blur-md px-3 py-1 text-[11px] text-white/85">
+                <div className="inline-flex items-center gap-1 lg:gap-2 rounded-2xl border border-white/10 bg-black/45 backdrop-blur-md px-3 py-1 text-[11px] text-white/85">
                   <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
                   <span className="capitalize">{p.dept.replace("-", " ")}</span>
                 </div>
@@ -111,7 +112,7 @@ function BlogCard({ p, locale, t, GRADIENT }) {
                     px-2 py-1 text-xs md:text-sm
                     font-medium text-white transition
                     hover:opacity-95 active:scale-[0.99]
-                    border backdrop-blur-md 
+                    border backdrop-blur-md whitespace-nowrap
                   `}
                 >
                   {t("readMore")}
@@ -237,7 +238,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
             <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
                 href={`/${locale}/${p.dept}/blog/${p.slug}`}
-                className={`inline-flex items-center gap-2 rounded-2xl px-4 4xl:px-5 py-2 4xl:py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+                className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
@@ -269,14 +270,14 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("searchPlaceholder")}
-                className="w-full lg:min-w-[300px] rounded-2xl border border-white/30 bg-black/50 px-4 4xl:px-5 py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
+                className="w-full lg:min-w-[300px] rounded-2xl border border-white/30 bg-black/50 px-2 md:px-4 4xl:px-5 py-1.5 md:py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
                            focus:border-white/40 focus:bg-black/50"
               />
               {query.length > 0 && (
                 <button
                   type="button"
                   onClick={() => setQuery("")}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-4 4xl:px-5 py-2 4xl:py-3 text-xs text-white/80 transition hover:text-white"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-2 md:px-4 4xl:px-5 py-1.5 md:py-2 4xl:py-3 text-xs text-white/80 transition hover:text-white"
                 >
                   {t("clear")}
                 </button>
@@ -292,7 +293,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               <button
                 type="button"
                 onClick={() => inputRef.current?.focus()}
-                className="rounded-2xl border border-white/20 bg-white/5 px-4 4xl:px-5 py-1.5 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
+                className="rounded-2xl border border-white/20 bg-white/5 px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
               >
                 {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
               </button>
@@ -398,12 +399,12 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
         )}
 
         {/* Türkçe yorum: sağ üst küçük oklar + scroll index */}
-        <div className="hidden md:flex items-center gap-2">
+        <div className="flex items-center gap-0 lg:gap-2">
           <button
             type="button"
             onClick={() => scrollByAmount(-1)}
             aria-label="Sola kaydır"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
+            className="flex h-5 w-5 md:h-6 md:w-6 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
                        hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
           >
             <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
@@ -422,7 +423,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
             type="button"
             onClick={() => scrollByAmount(1)}
             aria-label="Sağa kaydır"
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
+            className="flex h-5 w-5 lg:h-8 lg:w-8 items-center justify-center rounded-full border border-white/40 bg-[#140f25] backdrop-blur-sm 
                        hover:border-white/80 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
           >
             <span className="pointer-events-none absolute inset-[-4px] -z-10 rounded-full btn-pulse-dual" />
@@ -527,20 +528,25 @@ const ALL_POSTS = useMemo(() => {
         slug,
         title: post.title || "",
         excerpt: post.h1?.intro || post.excerpt || post.h1Intro || "",
+
+        // ✅ son eklenenler için asıl kaynak
+        publishedAt: post.publishedAt || post.byline?.publishedAt || "",
+
+        // UI’da göstermek istersen diye kalsın
         updatedAt:
           post.byline?.updatedAt ||
-          post.byline?.publishedAt ||
           post.updatedAt ||
+          post.byline?.publishedAt ||
           post.publishedAt ||
           "",
-        readingTime: post.byline?.readingTime || post.readingTime || "",
 
-        // ✅ sadece ekledik
+        readingTime: post.byline?.readingTime || post.readingTime || "",
         banner,
       };
     })
     .filter((p) => p.slug && p.dept);
 }, [messages]);
+
 
 
 
@@ -575,15 +581,17 @@ const noResults = isSearching && filteredPosts.length === 0;
 
 // Türkçe yorum: tarihe göre (sondan başa) sıralama
 const sortedFiltered = useMemo(() => {
-  return [...filteredPosts].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
+  return [...filteredPosts].sort(
+    (a, b) => toTs(b.publishedAt) - toTs(a.publishedAt)
+  );
 }, [filteredPosts]);
 
-
-
-// Türkçe yorum: tüm postlar (her zaman) tarihe göre sıralı
 const sortedAll = useMemo(() => {
-  return [...ALL_POSTS].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));
+  return [...ALL_POSTS].sort(
+    (a, b) => toTs(b.publishedAt) - toTs(a.publishedAt)
+  );
 }, [ALL_POSTS]);
+
 
  const latest20 = useMemo(() => sortedAll.slice(0, 20), [sortedAll]);
 

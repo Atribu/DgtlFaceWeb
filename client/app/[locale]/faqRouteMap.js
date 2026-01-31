@@ -104,10 +104,11 @@ export const FAQ_ROUTE_MAP = [
 // Örn: teknik-seo-sss sayfasında departman crumb’ı seo-sss'e gitsin gibi.
 export const FAQ_DEPT_CRUMB_MAP = {
   // Genel
-  "sss": null, // departman yok
+  "sss": "sss", // departman yok
 
   // Services (SSS index altı)
-  "hizmetler-sss": "hizmetlerimiz-sss",
+  "hizmetlerimiz-sss": "hizmetlerimiz-sss",
+  "hizmetlerimiz-sss": "hizmetlerimiz-sss",
 
   // SEO altları → seo-sss'e bağla
   "seo-sss": "seo-sss",
@@ -184,7 +185,7 @@ export const FAQ_DEPT_LABEL_MAP = {
   "pms-ota-sss": "PMS & OTA",
   "veri-analiz-ve-raporlama-sss": "Raporlama",
   "otel-dijital-pazarlama-sss": "Otel Dijital Pazarlama",
-  "hizmetler-sss": "Hizmetler",
+  "hizmetlerimiz-sss": "Hizmetler",
 };
 
 // faqRouteMap.js

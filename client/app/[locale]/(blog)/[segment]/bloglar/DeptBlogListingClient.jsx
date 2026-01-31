@@ -143,43 +143,14 @@ export default function DeptBlogListingClient({ segment }) {
             <h1 className="mt-1 text-xl  md:text-2xl lg:text-3xl font-semibold">
               {DEPT_LABEL[segment] || segment} Blogları
             </h1>
-            {/* <p className="mt-2 text-sm text-white/60">
-              {t("results", { count: visibleCount })}
-            </p> */}
+         
           </div>
 
-          {/* Basit arama */}
-          {/* <div className="hidden md:block w-full max-w-[520px]">
-            <div className="relative">
-              <input
-                ref={inputRef}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t("searchPlaceholder")}
-                className="w-full rounded-2xl border border-white/30 bg-black/50 px-4 py-3 text-sm text-white outline-none backdrop-blur
-                           focus:border-white/40"
-              />
-              {query.length > 0 && (
-                <button
-                  type="button"
-                  onClick={() => setQuery("")}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded-xl px-3 py-2 text-xs text-white/80 transition hover:text-white"
-                >
-                  {t("clear")}
-                </button>
-              )}
-            </div>
-            {noResults && (
-              <p className="mt-2 text-xs text-white/70">
-                “{query}” için sonuç bulunamadı. Daha genel arayın.
-              </p>
-            )}
-          </div> */}
+         
         </div>
       </section>
 
-      {/* Buraya senin HeroSlider’ını koy: heroPosts */}
-      {/* <HeroSlider posts={heroPosts} ... /> */}
+     
       <HeroSlider
   posts={heroPosts}
   locale={locale}

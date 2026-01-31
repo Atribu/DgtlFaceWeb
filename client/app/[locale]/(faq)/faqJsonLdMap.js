@@ -1,12 +1,290 @@
 // app/[locale]/(faq)/faqJsonLdMap.js
 
 export const FAQ_JSONLD_MAP = {
-  
-"hizmetler-sss":{
+
+  "sss":{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "@id": "https://dgtlface.com/tr/sss#faq",
   "url": "https://dgtlface.com/tr/sss",
+  "inLanguage": "tr",
+  "name": "DGTLFACE Genel Dijital Hizmetler SSS",
+  "description": "DGTLFACE’in SEO, reklam, sosyal medya, web, PMS–OTA ve çağrı merkezi hizmetleri hakkında sık sorulan sorular. Entegre dijital büyüme modelimizi keşfedin.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "DGTLFACE",
+    "url": "https://dgtlface.com"
+  },
+
+  "dgPageType": "FAQPage",
+  "dgSilo": "Genel Dijital Hizmetler / Çatı SSS",
+  "dgSectionIndex": 1,
+  "dgParentUrl": "https://dgtlface.com/tr/",
+  "dgLanguage": "TR",
+  "dgPriority": "High",
+
+  "dgPageName": "DGTLFACE Genel SSS",
+  "dgH1": "DGTLFACE Genel Dijital Hizmetler SSS",
+  "dgPrimaryIntent": "DGTLFACE’in nasıl çalıştığını, hizmet modelini ve kapsamını öğrenmek",
+  "dgSecondaryIntent": "Kurumsal güven inşası, tüm site için çatı SSS / bilgi mimarisi",
+
+  "dgFaqStructure": "Genel sorular; sesli arama kısa sorular; stratejik derin sorular; sorun giderme; bölgesel (GEO) sorular; mikro yanıtlar; CTA odaklı sorular; teknoloji odaklı sorular; iç link güçlendirme soruları",
+  "dgKeyTopics": "Entegre hizmet modeli; çalışılan sektörler; diller; sonuç süresi; dijital strateji yaklaşımı; raporlama yapısı; bütçe esnekliği; dijital yatırım sorunları; kanal karmaşası; Antalya ve çevre bölgelerde otel odaklı çözümler",
+
+  "dgFaqCounts": {
+    "classic": 50,
+    "voice": 6,
+    "pain": 5,
+    "geo": 5,
+    "micro": 10,
+    "total": 60
+  },
+  "dgAuthorityNote": "Tam otorite SSS; çok katmanlı H3–H4 yapı; mikro, GEO, CTA ve teknoloji blokları ile zenginleştirilmiş",
+
+  "dgAiAnswerCapsule": "DGTLFACE, SEO, reklam yönetimi, sosyal medya, web geliştirme, PMS–OTA entegrasyonu ve çağrı merkezi süreçlerini tek çatı altında yöneten entegre bir dijital hizmet modelidir. Amaç, markaların ve otellerin tüm dijital temas noktalarında tutarlı, ölçülebilir ve sürdürülebilir bir büyüme sağlamaktır. Veri temelli strateji, net raporlama ve operasyonel destek ile hem görünürlüğü hem satış performansını artırır.",
+  "dgVoiceSearchSummary": "DGTLFACE; SEO, reklam, sosyal medya, web, PMS–OTA ve çağrı merkezi süreçlerini entegre eden, oteller ve markalar için veri odaklı dijital büyüme modeli sunan bir teknoloji partneridir; görünürlüğü, rezervasyonu ve operasyon verimliliğini birlikte artırır.",
+  "dgOneLineSummary": "DGTLFACE, oteller ve markalar için SEO, reklam, sosyal medya, web ve operasyonu tek merkezden yöneten entegre bir dijital çözüm ortağıdır.",
+
+  "dgVoiceQueryExamples": [
+    "DGTLFACE nedir ve tam olarak ne iş yapar?",
+    "Otelim için DGTLFACE ile dijital pazarlamaya nereden başlamalıyım?",
+    "DGTLFACE hangi hizmetleri tek çatı altında sunuyor?",
+    "DGTLFACE otellere nasıl destek olur?"
+  ],
+
+  "dgPainPointSummary": "Doğru hedefleme, web performansı ve dönüşüm takibi kurulmadığında yapılan dijital yatırımlar gerçek sonuç üretmez; DGTLFACE bu yapıyı uçtan uca düzeltir.",
+  "dgGeoFocus": ["Antalya", "Belek", "Kemer", "Side", "Alanya"],
+  "dgSectors": [
+    "Otel ve turizm ağırlıklı",
+    "Kurumsal markalar",
+    "E-ticaret projeleri"
+  ],
+
+  "dgJsonLdQuestionCount": 11,
+  "dgJsonLdQuestionSetId": "faq-dgtlface-genel-qset-1",
+  "dgJsonLdQuestionStrategy": "İlk 5 soru DGTLFACE’in hizmet modeli, çalıştığı markalar, başlangıç süreci, diller ve sonuç süresine odaklanır. “DGTLFACE tam olarak ne iş yapar?”, “Hizmetleri başlatmak için ilk adım nedir?” ve “DGTLFACE hangi süreçleri hızlandırır?” soruları sesli arama uyumlu yapıdadır. Son üç soru dijital yatırım yapıp sonuç alamama, kampanya çalışıp dönüşüm alamama ve kanal karmaşası gibi temel acı noktalarını hedefler. Şu an JSON-LD’de doğrudan GEO odaklı soru yok; gerekirse Antalya/Belek/Side otel örnekleriyle genişletilebilir.",
+
+  "dgStatus": "Done",
+  "dgAioGrade": "A",
+  "dgWordCountRange": "2500–3200",
+
+  "dgPrimaryCta": {
+    "label": "Dijital analiz ve yol haritası talebi",
+    "url": "https://dgtlface.com/tr/hizmetlerimiz"
+  },
+  "dgSecondaryCta": {
+    "label": "Veri analiz ve raporlama detayına yönlendirme",
+    "url": "https://dgtlface.com/tr/veri-analiz-ve-raporlama"
+  },
+  "dgCtaPattern": "CTA odaklı SSS bloğu + sayfa altı buton alanı",
+
+  "dgEntryPoints": [
+    "https://dgtlface.com/tr/",
+    "https://dgtlface.com/tr/hizmetlerimiz",
+    "Footer SSS linki",
+    "Diğer hizmet SSS sayfaları"
+  ],
+
+  "dgResultTimeframe": "SEO ve içerik tarafında 60–90 gün; reklam ve sosyal medya kampanyalarında 7–30 gün içinde görünür sonuç; entegrasyonlu yapılarda daha hızlı dönüşüm",
+  "dgRefreshCycleDays": 180,
+  "dgRefreshNotes": "Yeni hizmetler eklendiğinde, hedef sektör/GEO seti genişlediğinde veya DGTLFACE servis modeli güncellendiğinde bu SSS içeriği gözden geçirilmelidir.",
+
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "DGTLFACE nedir ve tam olarak ne iş yapar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE; SEO, reklam, sosyal medya, web geliştirme, PMS–OTA entegrasyonu, çağrı merkezi ve veri analizi süreçlerini tek merkezde toplayan entegre bir dijital hizmet modelidir. Özellikle oteller ve markalar için tüm dijital temas noktalarında ölçülebilir büyüme ve sürdürülebilir gelir artışı sağlamayı hedefler.",
+        "dgShortAnswer": "DGTLFACE, oteller ve markalar için SEO, reklam, sosyal medya, web ve operasyonu tek merkezden yöneten entegre bir dijital çözüm ortağıdır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q1",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel",
+      "dgIntent": "Bilgilendirici / Otorite",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE, klasik bir dijital pazarlama ajansından nasıl ayrılır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE yalnızca kampanya yöneten bir ajans değil, SEO, reklam, sosyal medya, web, PMS–OTA, çağrı merkezi ve raporlama katmanlarını birlikte yöneten bir teknoloji partneridir. Böylece pazarlama, satış ve operasyon süreçleri aynı strateji ve veri zemini üzerinde birleşir.",
+        "dgShortAnswer": "DGTLFACE, sadece kampanya yönetmeyip işin teknoloji ve operasyon tarafını da üstlenen entegre bir dijital pazarlama & teknoloji partneridir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q2",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel",
+      "dgIntent": "Bilgilendirici / Otorite",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE hangi hizmetleri tek çatı altında sunar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE; SEO hizmetleri, Google Ads ve performans reklam yönetimi, sosyal medya yönetimi, web sitesi ve yazılım geliştirme, PMS–OTA yönetimi ve otel teknolojileri, çok dilli çağrı merkezi ve rezervasyon destek, veri analiz ve raporlama gibi alanları tek çatı altında sunar.",
+        "dgShortAnswer": "SEO, reklam, sosyal medya, web, PMS–OTA, çağrı merkezi ve veri analizi DGTLFACE modelinde aynı çatı altında yönetilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q3",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel",
+      "dgIntent": "Bilgilendirici / Otorite",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE hangi sektörlerle ve hangi pazarlarda, hangi dillerde çalışır?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE’in odak alanı otel ve turizm sektörüdür; bunun yanında kurumsal markalar ve seçilmiş e-ticaret projeleriyle de çalışır. Projeler Türkiye genelinde ve Avrupa pazarında yürütülebilir. Strateji ve raporlama ağırlıklı olarak Türkçe ve İngilizce, misafir iletişimi ise otel projelerinde TR–EN–DE–RU dillerinde kurgulanabilir.",
+        "dgShortAnswer": "DGTLFACE, otel ve turizm ağırlıklı olmak üzere kurumsal ve e-ticaret markalarıyla Türkiye ve Avrupa pazarlarında, TR–EN–DE–RU dil desteğiyle çalışır.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q4",
+      "dgQuestionType": "classic",
+      "dgGroup": "Genel",
+      "dgIntent": "Bilgilendirici / Otorite",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": ["Antalya", "Belek", "Kemer", "Side", "Alanya"]
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE hangi dijital süreçleri hızlandırır ve sonuçları ne kadar sürede görürüm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DGTLFACE, SEO, reklam, sosyal medya, web performansı ve entegrasyon süreçlerini aynı anda optimize ederek dijital sonuç alma hızını artırır. SEO ve içerik tarafında genellikle 60–90 gün içinde görünür sinyaller, reklam ve sosyal medya kampanyalarında 7–30 gün içinde sonuçlar, entegrasyonlu yapılarda ise daha hızlı iyileşme görülür.",
+        "dgShortAnswer": "SEO’da 60–90 gün, reklam ve sosyal medyada 7–30 gün içinde; entegrasyonlu yapılarda ise daha hızlı sonuç almanız hedeflenir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q5",
+      "dgQuestionType": "voice",
+      "dgGroup": "Genel",
+      "dgIntent": "Bilgilendirici / Sonuç Odaklı",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile çalışmaya başlamak için ilk adım nedir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "İlk adım, mevcut durumun analiz edildiği bir dijital analiz ve yol haritası çalışmasıdır. Web sitesi, görünürlük, kampanyalar, PMS–OTA ve analitik kurulumlar incelenir; ardından hedefler ve öncelikler netleştirilerek bir iş planı oluşturulur.",
+        "dgShortAnswer": "Önce dijital analiz ve yol haritası çalışması yapılarak mevcut durum ve hedefler netleştirilir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q6",
+      "dgQuestionType": "voice",
+      "dgGroup": "Genel",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "Dijital yatırım yapıyorum ama sonuç alamıyorum; DGTLFACE burada nasıl yardımcı olur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Çoğu durumda sonuç alamamanın sebebi yanlış hedefleme, zayıf web performansı ve eksik dönüşüm takibinin birleşimidir. DGTLFACE; hedef kitle, mesaj, teklif, web performansı ve analitik kurulumunu birlikte ele alarak yapıyı uçtan uca düzeltir ve dijital yatırımların gerçekten sonuç üretmesini sağlar.",
+        "dgShortAnswer": "Hedefleme, web performansı ve dönüşüm takibini birlikte düzelterek yatırımlarınızın gerçekten sonuç üretmesini sağlarız.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q7",
+      "dgQuestionType": "pain",
+      "dgGroup": "Sorun Giderme",
+      "dgIntent": "Pain Point / Çözüm",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "Kampanya ve reklam çalışmaları var ama dönüşüm alamıyoruz; sorun nerede olabilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dönüşüm alamama sorunu çoğu zaman yanlış veya çok geniş hedef kitle, teklif–mesaj uyumsuzluğu, zayıf landing page ve eksik dönüşüm takibinden kaynaklanır. DGTLFACE, kampanya öncesi ve sonrası tüm bu alanları analiz ederek kreatif, hedefleme, bütçe ve sayfa deneyimi tarafında somut iyileştirme önerileri sunar.",
+        "dgShortAnswer": "Sorun genellikle hedef kitle, teklif–mesaj uyumu, landing page ve dönüşüm takibindedir; DGTLFACE bu alanları analiz edip iyileştirir.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q8",
+      "dgQuestionType": "pain",
+      "dgGroup": "Sorun Giderme",
+      "dgIntent": "Pain Point / Çözüm",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "Farklı ajans ve tedarikçilerle çalışırken kanal karmaşası yaşıyoruz; DGTLFACE bunu nasıl çözüyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Farklı ajans ve tedarikçilerle çalışıldığında bütçe, raporlama ve strateji tarafında parçalı bir yapı oluşur. DGTLFACE, SEO, reklam, sosyal medya, web, PMS–OTA ve raporlama süreçlerini tek çatı altında toplayarak, hem operasyonel yükü azaltır hem de kanalların birbirini desteklediği bütünleşik bir model kurar.",
+        "dgShortAnswer": "Tüm kanalları tek strateji ve raporlama çatısı altında toplayarak kanal karmaşasını gideririz.",
+        "dgPainPointFlag": true,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q9",
+      "dgQuestionType": "pain",
+      "dgGroup": "Sorun Giderme",
+      "dgIntent": "Pain Point / Çözüm",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE’in entegre dijital hizmet modeli ne anlama geliyor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entegre dijital hizmet modeli; SEO, reklam, sosyal medya, web & yazılım, PMS–OTA, çağrı merkezi ve veri analizinin tek strateji, tek KPI seti ve tek raporlama çatısı altında yönetilmesi anlamına gelir. Böylece kanallar birbirinden kopuk çalışmak yerine, birbirini besleyen bir yapı oluşturur.",
+        "dgShortAnswer": "Tüm dijital kanalların tek strateji ve raporlama çatısı altında birlikte yönetildiği modeldir.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": false
+      },
+      "dgQuestionCode": "Q10",
+      "dgQuestionType": "classic",
+      "dgGroup": "Strateji",
+      "dgIntent": "Bilgilendirici / Otorite",
+      "dgVoiceFriendly": false,
+      "dgGeoTags": []
+    },
+    {
+      "@type": "Question",
+      "name": "DGTLFACE ile dijital analiz ve yol haritası çalışması nasıl talep edilir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Web siteniz üzerinden veya doğrudan iletişim kanallarımız aracılığıyla mevcut durumunuzu ve hedeflerinizi paylaşarak dijital analiz ve yol haritası talebinde bulunabilirsiniz. Ekip, kısa bir ön değerlendirme sonrasında sizinle toplantı planlar ve proje kapsamını netleştirir.",
+        "dgShortAnswer": "Kısa bir brief ile dijital analiz ve yol haritası talebi bırakmanız yeterlidir; ekip ön değerlendirme sonrası sizinle iletişime geçer.",
+        "dgPainPointFlag": false,
+        "dgCtaEmbedded": true
+      },
+      "dgQuestionCode": "Q11",
+      "dgQuestionType": "cta",
+      "dgGroup": "CTA",
+      "dgIntent": "Hizmet Talebi",
+      "dgVoiceFriendly": true,
+      "dgGeoTags": []
+    }
+  ]
+},
+  
+"hizmetlerimiz-sss":{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://dgtlface.com/tr/hizmetlerimiz-sss#faq",
+  "url": "https://dgtlface.com/tr/hizmetlerimiz-sss",
   "inLanguage": "tr",
   "name": "DGTLFACE Genel Dijital Hizmetler SSS",
   "description": "DGTLFACE’in SEO, reklam, sosyal medya, web, PMS–OTA ve çağrı merkezi hizmetleri hakkında sık sorulan sorular. Entegre dijital büyüme modelimizi keşfedin.",
