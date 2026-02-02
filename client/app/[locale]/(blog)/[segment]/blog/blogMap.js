@@ -72,7 +72,8 @@ export const BLOG_MAP = {
 
     "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis",
     "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma",
-    "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":"BlogOtaRezervasyonSorulariDegisiklikVeIptalYonetimi"
+    "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":"BlogOtaRezervasyonSorulariDegisiklikVeIptalYonetimi",
+    "rezervasyon-oncesi-soru-sorma-qualification":"BlogCagriMerkeziRezervasyonOncesiSoruSormaQualification"
   },
 
     "pms-ota": {
@@ -84,7 +85,8 @@ export const BLOG_MAP = {
     
     "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik",
     "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum",
-    "ota-rate-parity-fiyat-esitleme-stratejileri":"BlogOtaRateParityFiyatEsitlemeStratejileri"
+    "ota-rate-parity-fiyat-esitleme-stratejileri":"BlogOtaRateParityFiyatEsitlemeStratejileri",
+    "ota-entegrasyonunda-overbooking-risk-yonetimi":"BlogPmsOtaOtaEntegrasyonundaOverbookingRiskYonetimi"
   },
 
     "raporlama": {

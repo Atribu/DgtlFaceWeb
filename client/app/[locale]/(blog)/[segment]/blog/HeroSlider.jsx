@@ -21,7 +21,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
   const p = posts[active];
 
   return (
-    <section className="relative h-[75vh] w-[92%] overflow-hidden bg-black items-center justify-center">
+    <section className="relative h-[80vh] w-[99%] overflow-hidden bg-black items-center justify-center">
       {/* Türkçe yorum: arka plan görsel */}
       {p.banner?.src ? (
         <Image

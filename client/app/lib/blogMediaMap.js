@@ -4162,6 +4162,108 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+    "rezervasyon-oncesi-soru-sorma-qualification":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-1.webp",
+      alt: "Rezervasyon Öncesi Soru Sorma Sanatı (Qualification): Geliri ve Memnuniyeti Artıran Sorular",
+      caption: "Rezervasyon Öncesi Soru Sorma Sanatı (Qualification): Geliri ve Memnuniyeti Artıran Sorular"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-2.webp",
+      alt: "Doğru soru sırası + misafir profili + oda eşleşmesi bağlamı",
+      caption: "Doğru soru sırası + misafir profili + oda eşleşmesi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-3.webp",
+      alt: "Örnek soru seti tablosu + hızlı uygulama + otel bağlamı",
+      caption: "Örnek soru seti tablosu + hızlı uygulama + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-4.webp",
+      alt: "Bütçe/esneklik keşfi + denge + otel bağlamı",
+      caption: "Bütçe/esneklik keşfi + denge + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-5.webp",
+      alt: "Qualification → profil → oda/paket eşleşmesi akış diyagramı",
+      caption: "Qualification → profil → oda/paket eşleşmesi akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-6.webp",
+      alt: "AEO checklist + iyi/kötü soru örnekleri kartı",
+      caption: "AEO checklist + iyi/kötü soru örnekleri kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-7.webp",
+      alt: "Yanlış eşleşme/şikâyet azalması + dönüşüm paneli (yönlü)",
+      caption: "Yanlış eşleşme/şikâyet azalması + dönüşüm paneli (yönlü)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-4/Callcenter2-4-8.webp",
+      alt: "Soru seti şablonu + PMS not standardı + role-play materyali",
+      caption: "Soru seti şablonu + PMS not standardı + role-play materyali"
+    }
+  },
+
+
+  "ota-entegrasyonunda-overbooking-risk-yonetimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-1.webp",
+      alt: "OTA Entegrasyonunda Overbooking Risk Yönetimi: En İyi Uygulamalar",
+      caption: "OTA Entegrasyonunda Overbooking Risk Yönetimi: En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-2.webp",
+      alt: "OTA entegrasyonunda overbooking riskini anlatan hero görseli, otel operasyonu",
+      caption: "OTA entegrasyonunda overbooking riskini anlatan hero görseli, otel operasyonu"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-3.webp",
+      alt: "Sistemsel ve planlı overbooking ayrımını gösteren bölüm görseli",
+      caption: "Sistemsel ve planlı overbooking ayrımını gösteren bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-4.webp",
+      alt: "Envanter limitleri ve sezon senaryoları geçiş görseli, otel operasyonu",
+      caption: "Envanter limitleri ve sezon senaryoları geçiş görseli, otel operasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-5.webp",
+      alt: "Envanter limitleri ve stop-sell akış diyagramı, OTA entegrasyonu",
+      caption: "Envanter limitleri ve stop-sell akış diyagramı, OTA entegrasyonu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-6.webp",
+      alt: "Overbooking yönetim checklist kartı, limit ve test kontrol adımları",
+      caption: "Overbooking yönetim checklist kartı, limit ve test kontrol adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-7.webp",
+      alt: "Overbooking risk KPI paneli, çözüm süresi ve misafir etkisi",
+      caption: "Overbooking risk KPI paneli, çözüm süresi ve misafir etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-4/Pms2-4-8.webp",
+      alt: "Overbooking kriz planı deliverables kartı, prosedür ve şablonlar",
+      caption: "Overbooking kriz planı deliverables kartı, prosedür ve şablonlar"
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {
