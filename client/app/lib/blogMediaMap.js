@@ -4264,6 +4264,210 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "pms-ve-gelir-benchmarki-doluluk-revpar-adr":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-1.webp",
+      alt: "PMS ve Gelir Benchmark’ı: Doluluk, RevPAR ve ADR’i Rakiplerle Kıyaslamak",
+      caption: "PMS ve Gelir Benchmark’ı: Doluluk, RevPAR ve ADR’i Rakiplerle Kıyaslamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-2.webp",
+      alt: "Otel ve rakip set gelir KPI kıyasını özetleyen bağlam görseli",
+      caption: "Otel ve rakip set gelir KPI kıyasını özetleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-3.webp",
+      alt: "Gelir benchmark mantığını sade şekilde ayıran otel görseli",
+      caption: "Gelir benchmark mantığını sade şekilde ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-4.webp",
+      alt: "Segment ve kanal gelir kıyasını ayıran bölüm görseli",
+      caption: "Segment ve kanal gelir kıyasını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-5.webp",
+      alt: "PMS verisinden benchmark raporuna veri akışını gösteren şema görseli",
+      caption: "PMS verisinden benchmark raporuna veri akışını gösteren şema görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-6.webp",
+      alt: "Doluluk ADR RevPAR tanımı ve kırılım kontrolünü özetleyen kart görseli",
+      caption: "Doluluk ADR RevPAR tanımı ve kırılım kontrolünü özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-7.webp",
+      alt: "Otel ve rakip set doluluk ADR RevPAR KPI skor kartı görseli",
+      caption: "Otel ve rakip set doluluk ADR RevPAR KPI skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-4/Reporting2-4-8.webp",
+      alt: "Gelir benchmark raporu ve aksiyon planını gösteren deliverables kartı",
+      caption: "Gelir benchmark raporu ve aksiyon planını gösteren deliverables kartı"
+    }
+  },
+
+
+   "otel-sosyal-medya-hatalari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-1.webp",
+      alt: "Otellerin Sosyal Medya Hesaplarında Yaptığı 15 Yaygın Hata (ve Çözümleri)",
+      caption: "Otellerin Sosyal Medya Hesaplarında Yaptığı 15 Yaygın Hata (ve Çözümleri)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-2.webp",
+      alt: "15 hatayı strateji içerik reels ölçüm olarak sınıflandıran görsel",
+      caption: "15 hatayı strateji içerik reels ölçüm olarak sınıflandıran görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-3.webp",
+      alt: " Otel sosyal medya hata kategorileri bölüm ayırıcı görseli",
+      caption: " Otel sosyal medya hata kategorileri bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-4.webp",
+      alt: "Hata listesinin ara özetlerini ayıran bölüm geçiş görseli",
+      caption: "Hata listesinin ara özetlerini ayıran bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-5.webp",
+      alt: "Hata→düzeltme→KPI artışı karar ağacı diyagramı",
+      caption: "Hata→düzeltme→KPI artışı karar ağacı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-6.webp",
+      alt: "15 hata hızlı kontrol checklist kartı görseli",
+      caption: "15 hata hızlı kontrol checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-7.webp",
+      alt: "Öncesi/sonrası KPI karşılaştırma kartı görseli",
+      caption: "Öncesi/sonrası KPI karşılaştırma kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-4/Hotel2-4-8.webp",
+      alt: "DM/yorum yönetimi ve audit çıktıları proof kart ",
+      caption: "DM/yorum yönetimi ve audit çıktıları proof kart "
+    }
+  },
+
+  "youtube-remarketing-otel-web-ve-ota-trafigi":{
+      banner: {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-1.webp",
+      alt: "YouTube Remarketing ile Otel Web ve OTA Trafiğini Nasıl Geri Kazanırsınız?",
+      caption: "YouTube Remarketing ile Otel Web ve OTA Trafiğini Nasıl Geri Kazanırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-2.webp",
+      alt: "Web/OTA → YouTube → Web/Call center geri kazanım akışını özetleyen görsel",
+      caption: "Web/OTA → YouTube → Web/Call center geri kazanım akışını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-3.webp",
+      alt: "Remarketing listeleri ve segmentasyon bölümüne geçiş görseli",
+      caption: "Remarketing listeleri ve segmentasyon bölümüne geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-4.webp",
+      alt: "Call center ve cross-channel bölümlerine geçiş görseli",
+      caption: "Call center ve cross-channel bölümlerine geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-5.webp",
+      alt: "Web/OTA → YouTube → Web/Call center → Rezervasyon geri kazanım akışı görseli",
+      caption: "Web/OTA → YouTube → Web/Call center → Rezervasyon geri kazanım akışı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-6.webp",
+      alt: "Otel YouTube remarketing kurulum ve segment planı checklist kartı",
+      caption: "Otel YouTube remarketing kurulum ve segment planı checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-7.webp",
+      alt: "Rezervasyon geri kazanım KPI’larını özetleyen skor kartı",
+      caption: "Rezervasyon geri kazanım KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM2-5/SEM2-5-8.webp",
+      alt: "Remarketing kurulum çıktıları ve deliverables kartı",
+      caption: "Remarketing kurulum çıktıları ve deliverables kartı"
+    }
+  },
+
+
+    "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":{
+     banner: {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-1.webp",
+      alt: "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarı Nasıl Kurulur?",
+      caption: "Yerel Landing Page Stratejisi: Antalya, Belek, Kemer Gibi Bölgeler İçin SEO Mimarı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-2.webp",
+      alt: "Örnek yerel landing sayfa iskeleti ve bloklarını gösteren bağlam görseli",
+      caption: "Örnek yerel landing sayfa iskeleti ve bloklarını gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-3.webp",
+      alt: "Geo-SEO landing kavramı ayraç görseli",
+      caption: "Geo-SEO landing kavramı ayraç görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-4.webp",
+      alt: "Heading ve iç link mimarisine geçiş ayraç görseli",
+      caption: "Heading ve iç link mimarisine geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-5.webp",
+      alt: "Landing şeması + heading yapısı + iç link ağı diyagramı",
+      caption: "Landing şeması + heading yapısı + iç link ağı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-6.webp",
+      alt: "Yerel landing checklist’i (bloklar + kalite kuralları)",
+      caption: "Yerel landing checklist’i (bloklar + kalite kuralları)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-7.webp",
+      alt: "Bölge landing KPI paneli (görünürlük/lead)",
+      caption: "Bölge landing KPI paneli (görünürlük/lead)"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO2-5/SEO2-5-8.webp",
+      alt: "Blueprint + şablon + link planı deliverables kartı",
+      caption: "Blueprint + şablon + link planı deliverables kartı"
+    }
+  },
+
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

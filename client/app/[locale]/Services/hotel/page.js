@@ -35,8 +35,8 @@ export async function generateMetadata({ params }) {
     (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
   // ✅ og map'ten çek + fallback ver (çok kritik)
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); 
 
   const url =
     locale === "tr"
@@ -66,7 +66,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage, // metadataBase sayesinde absolute'a tamamlanır
+          url: ogImageAbs, // metadataBase sayesinde absolute'a tamamlanır
           width: 1200,
           height: 630,
           alt: title,
@@ -79,7 +79,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }

@@ -10,7 +10,8 @@ export const BLOG_MAP = {
     "oteller-icin-youtube-reklam-turleri":"BlogOtellerIcinYouTubeReklamTurleri",
     "oteller-icin-youtube-hedefleme-yapisi":"BlogOtellerIcinYouTubeHedeflemeYapisi",
     "otel-youtube-reklam-filmi-senaryo-ve-storyboard":"BlogOtelYouTubeReklamFilmiSenaryoVeStoryboard",
-    "oteller-icin-youtube-butce-ve-teklif-stratejileri":"BlogOtellerIcinYouTubeButceVeTeklifStratejileri"
+    "oteller-icin-youtube-butce-ve-teklif-stratejileri":"BlogOtellerIcinYouTubeButceVeTeklifStratejileri",
+    "youtube-remarketing-otel-web-ve-ota-trafigi":"BlogYouTubeRemarketingOtelWebVeOTATrafigi"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -22,7 +23,8 @@ export const BLOG_MAP = {
     "google-haritalar-siralama-faktorleri-otel-ve-isletmeler-icin":"BlogGoogleHaritalarSiralamaFaktorleriOtelVeIsletmelerIcin",
     "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist",
     "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":"BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi",
-    "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":"BlogNapTutarliligiYerelDizinlerVeSitelerArasiOtorite"
+    "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":"BlogNapTutarliligiYerelDizinlerVeSitelerArasiOtorite",
+    "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":"BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin"
   },
 
     smm: {
@@ -98,7 +100,8 @@ export const BLOG_MAP = {
 
     "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir",
     "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma",
-    "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":"BlogSeoVeSemBenchmarkiIleDijitalGorunurluguOlcmek"
+    "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":"BlogSeoVeSemBenchmarkiIleDijitalGorunurluguOlcmek",
+    "pms-ve-gelir-benchmarki-doluluk-revpar-adr":"BlogPmsVeGelirBenchmarkiDolulukRevparAdr"
   },
 
 
@@ -111,7 +114,9 @@ export const BLOG_MAP = {
 
     "otel-instagram-strateji-rehberi":"BlogOtelInstagramStratejiRehberi",
     "otel-reels-oda-satis-funneli":"BlogOtelReelsOdaSatisFunneli",
-    "all-inclusive-otel-30-gunluk-icerik-takvimi":"BlogAllInclusiveOtel30GunlukIcerikTakvimi"
+    "all-inclusive-otel-30-gunluk-icerik-takvimi":"BlogAllInclusiveOtel30GunlukIcerikTakvimi",
+    "otel-sosyal-medya-hatalari":"BlogOtelSosyalMedyaHatalari",
+    
   }
 };
 

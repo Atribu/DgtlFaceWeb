@@ -39,8 +39,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, markanız için sosyal medya stratejisi, içerik üretimi, planlama, Reels & video ve reklam yönetimi sunar.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); 
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =
@@ -71,7 +71,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage,
+          url: ogImageAbs,
           width: 1200,
           height: 630,
           alt: title,
@@ -84,7 +84,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }

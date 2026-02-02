@@ -39,7 +39,7 @@ export async function generateMetadata({ params }) {
       : `${base}/en/software-development`;
 
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImageAbs = new URL(ogPath, base).toString(); // ✅ her zaman absolute
+  const ogImageAbs = new URL(ogPath, base).toString(); 
 
   return {
     metadataBase: new URL(base),

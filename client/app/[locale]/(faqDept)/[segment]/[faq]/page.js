@@ -1,6 +1,5 @@
 // app/[locale]/(faqDept)/[segment]/[faq]/page.js
 import React from "react";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import { FAQ_MAP } from "../../../(faq)/faqMap";
 import { FAQ_JSONLD_MAP } from "../../../(faq)/faqJsonLdMap";
@@ -99,7 +98,7 @@ if (expectedDept && expectedDept !== dept) {
   return (
     <div className="flex flex-col max-w-full">
       {jsonLdNodes ? (
-        <Script
+        <script
           id={`jsonld-faq-${slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdNodes) }}

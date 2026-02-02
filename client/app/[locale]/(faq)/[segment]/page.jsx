@@ -1,6 +1,5 @@
 // app/[locale]/(faq)/[segment]/page.js
 import React from "react";
-import Script from "next/script";
 import { notFound } from "next/navigation";
 import { FAQ_MAP } from "../faqMap";
 import { FAQ_JSONLD_MAP } from "../faqJsonLdMap";
@@ -231,7 +230,7 @@ const crumbItems = [
     <div className="flex flex-col max-w-full">
       {/* JSON-LD */}
       {jsonLdNodes ? (
-        <Script
+        <script
           id={`jsonld-faq-${slug}`}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdNodes) }}

@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, Looker Studio veri raporlaması, benchmark analizleri, satış ve dönüşüm raporlarıyla dijital performansınızı ölçer ve geliştirir.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
-
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); 
 
   // Türkçe yorum: canonical URL (local + prod)
   const url =
@@ -72,7 +72,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage,
+          url: ogImageAbs,
           width: 1200,
           height: 630,
           alt: title,
@@ -85,7 +85,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }

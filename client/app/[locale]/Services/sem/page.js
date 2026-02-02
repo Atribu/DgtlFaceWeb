@@ -39,7 +39,8 @@ export async function generateMetadata({ params }) {
     "DGTLFACE, Google Ads ve YouTube reklamlarında dönüşüm odaklı yönetim sunar. Profesyonel SEM stratejileriyle görünürlüğünüzü ve satışlarınızı artırın.";
 
   // Türkçe yorum: OG görselini map'ten çek + fallback
-  const ogImage = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
+  const ogImageAbs = new URL(ogPath, base).toString(); 
 
 
   // Türkçe yorum: canonical URL (local + prod)
@@ -72,7 +73,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: ogImage, // "/og/og-sem.png" -> metadataBase ile absolute olur
+          url: ogImageAbs, // "/og/og-sem.png" -> metadataBase ile absolute olur
           width: 1200,
           height: 630,
           alt: title,
@@ -85,7 +86,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }
