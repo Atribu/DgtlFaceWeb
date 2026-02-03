@@ -64,7 +64,8 @@ export const BLOG_MAP = {
     "otel-rezervasyon-ux-temelleri":"BlogOtelRezervasyonUXTemelleri",
     "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi",
     "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe",
-    "cok-dilli-otel-ux-tr-en-de-ru":"BlogCokDilliOtelUxTrEnDeRu"
+    "cok-dilli-otel-ux-tr-en-de-ru":"BlogCokDilliOtelUxTrEnDeRu",
+    "otel-ui-bilesenleri-donusum-odakli":"BlogOtelUIBilesenleriDonusumOdakli"
   },
 
        "cagri-merkezi": {
@@ -77,7 +78,8 @@ export const BLOG_MAP = {
     "otel-rezervasyon-cagri-merkezi-nedir-akis":"BlogOtelRezervasyonCagriMerkeziNedirAkis",
     "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma",
     "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":"BlogOtaRezervasyonSorulariDegisiklikVeIptalYonetimi",
-    "rezervasyon-oncesi-soru-sorma-qualification":"BlogCagriMerkeziRezervasyonOncesiSoruSormaQualification"
+    "rezervasyon-oncesi-soru-sorma-qualification":"BlogCagriMerkeziRezervasyonOncesiSoruSormaQualification",
+    "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":"BlogCagriMerkeziOzelSegmentRezervasyonCagrilariEngelliAileBalayiVb"
   },
 
     "pms-ota": {
@@ -90,7 +92,8 @@ export const BLOG_MAP = {
     "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik",
     "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum",
     "ota-rate-parity-fiyat-esitleme-stratejileri":"BlogOtaRateParityFiyatEsitlemeStratejileri",
-    "ota-entegrasyonunda-overbooking-risk-yonetimi":"BlogPmsOtaOtaEntegrasyonundaOverbookingRiskYonetimi"
+    "ota-entegrasyonunda-overbooking-risk-yonetimi":"BlogPmsOtaOtaEntegrasyonundaOverbookingRiskYonetimi",
+    "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":"BlogPmsOtaYeniAcilanOtellerIcinOTAKurulumLansmanChecklist"
   },
 
     "raporlama": {
@@ -103,7 +106,8 @@ export const BLOG_MAP = {
     "otel-benchmark-analizi-nedir-nasil-yapilir":"BlogOtelBenchmarkAnaliziNedirNasilYapilir",
     "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma",
     "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":"BlogSeoVeSemBenchmarkiIleDijitalGorunurluguOlcmek",
-    "pms-ve-gelir-benchmarki-doluluk-revpar-adr":"BlogPmsVeGelirBenchmarkiDolulukRevparAdr"
+    "pms-ve-gelir-benchmarki-doluluk-revpar-adr":"BlogPmsVeGelirBenchmarkiDolulukRevparAdr",
+    "benchmark-dashboard-tasarimi-looker-studio":"BlogBenchmarkDashboardTasarimiLookerStudio"
   },
 
 

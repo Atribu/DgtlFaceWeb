@@ -9,6 +9,7 @@ import FaqMain from "../../../sss/components/FaqMain";
 import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd"; // ✅ EKLEND
 import Breadcrumbs from "@/app/[locale]/(faq)/[segment]/components/Breadcrumbs";
 import { getFaqOgImageUrl } from "../../../(faq)/utils/faqOgImage";
+import FaqMainServer from "@/app/[locale]/sss/components/FaqMainServer";
 
 
 // metaFromJsonLd + buildEnhancedJsonLd + buildBreadcrumbJsonLd fonksiyonlarını
@@ -213,7 +214,8 @@ const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug);
 
       <SearchBanner faqSlug={slug} />
       <Breadcrumbs items={crumbItems} />
-      <FaqMain pageNs={pageNs} />
+      {/* <FaqMain pageNs={pageNs} /> */}
+      <FaqMainServer pageNs={pageNs} />
     </div>
   );
 }

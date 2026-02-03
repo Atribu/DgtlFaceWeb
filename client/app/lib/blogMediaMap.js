@@ -4568,6 +4568,207 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "otel-ui-bilesenleri-donusum-odakli":{
+     banner: {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-1.webp",
+      alt: "Otel Web UX’inde Dönüşüm Odaklı UI Bileşenleri: CTA, Form, Header, Footer",
+      caption: "Otel Web UX’inde Dönüşüm Odaklı UI Bileşenleri: CTA, Form, Header, Footer"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-2.webp",
+      alt: "Rezervasyon akışında UI bileşen konumlarını gösteren bağlam görseli",
+      caption: "Rezervasyon akışında UI bileşen konumlarını gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-3.webp",
+      alt: "Ana sayfa bileşenlerine geçiş ayırıcı görsel otel bağlamı",
+      caption: "Ana sayfa bileşenlerine geçiş ayırıcı görsel otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-4.webp",
+      alt: "Footer ve ikincil dönüşüm alanlarına geçiş ayırıcı görsel otel bağlamı",
+      caption: "Footer ve ikincil dönüşüm alanlarına geçiş ayırıcı görsel otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-5.webp",
+      alt: "CTA yerleşimi ve sticky rezervasyon şemasını anlatan diyagram otel bağlamı",
+      caption: "CTA yerleşimi ve sticky rezervasyon şemasını anlatan diyagram otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-6.webp",
+      alt: "CTA form header footer checklist kartı otel bağlamı",
+      caption: "CTA form header footer checklist kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-7.webp",
+      alt: "UI bileşen KPI ölçüm planı skor kartı otel bağlamı",
+      caption: "UI bileşen KPI ölçüm planı skor kartı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative2-5/Creative2-5-8.webp",
+      alt: "UI/UX dönüşüm audit deliverables kanıt kartı otel bağlamı",
+      caption: "UI/UX dönüşüm audit deliverables kanıt kartı otel bağlamı"
+    }
+  },
+
+  "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-1.webp",
+      alt: "Özel Segment Rezervasyon Çağrıları: Engelli, Aile, Balayı ve Diğer Hassas Profiller",
+      caption: "Özel Segment Rezervasyon Çağrıları: Engelli, Aile, Balayı ve Diğer Hassas Profiller"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-2.webp",
+      alt: "Segment→soru seti→PMS not akışı + otel bağlamı",
+      caption: "Segment→soru seti→PMS not akışı + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-3.webp",
+      alt: "Aile segmenti soru seti + güvenlik bilgisi",
+      caption: "Aile segmenti soru seti + güvenlik bilgisi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-4.webp",
+      alt: "KVKK uyumlu PMS not örneği + takip aksiyonu",
+      caption: "KVKK uyumlu PMS not örneği + takip aksiyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-5.webp",
+      alt: "Özel segment call flow diyagramı",
+      caption: "Özel segment call flow diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-6.webp",
+      alt: "Erişim & güvenlik ikonlu bilgi kart",
+      caption: "Erişim & güvenlik ikonlu bilgi kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-7.webp",
+      alt: "Yanlış bilgilendirme şikâyet azalması (yönlü) + çözüm hızı paneli",
+      caption: "Yanlış bilgilendirme şikâyet azalması (yönlü) + çözüm hızı paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-5/Callcenter2-5-8.webp",
+      alt: "4 segment hazır soru listesi + notlama şablonu",
+      caption: "4 segment hazır soru listesi + notlama şablonu"
+    }
+  },
+
+  "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-1.webp",
+      alt: "Yeni Açılan Oteller İçin OTA Kurulum ve Lansman Checklist’i",
+      caption: "Yeni Açılan Oteller İçin OTA Kurulum ve Lansman Checklist’i"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-2.webp",
+      alt: "Yeni otel profil ve entegrasyon hazırlığı bağlam görseli, turizm pazarı",
+      caption: "Yeni otel profil ve entegrasyon hazırlığı bağlam görseli, turizm pazarı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-3.webp",
+      alt: "Lansman adımlarını ayıran bölüm görseli, yeni otel açılış süreci",
+      caption: "Lansman adımlarını ayıran bölüm görseli, yeni otel açılış süreci"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-4.webp",
+      alt: "Extranet profil alanlarını özetleyen bölüm görseli, otel profil yönetim",
+      caption: "Extranet profil alanlarını özetleyen bölüm görseli, otel profil yönetim"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-5.webp",
+      alt: "PMS channel OTA entegrasyon akış diyagramı, yeni otel kurulum süreci",
+      caption: "PMS channel OTA entegrasyon akış diyagramı, yeni otel kurulum süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-6.webp",
+      alt: "Yeni otel OTA lansman checklist kartı, hızlı kurulum adımları",
+      caption: "Yeni otel OTA lansman checklist kartı, hızlı kurulum adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-7.webp",
+      alt: "İlk 90 gün OTA KPI paneli, görünürlük dönüşüm satış takibi",
+      caption: "İlk 90 gün OTA KPI paneli, görünürlük dönüşüm satış takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA2-5/Pms2-5-8.webp",
+      alt: "Yeni otel lansman deliverables kartı, profil entegrasyon kampanya çıktıları",
+      caption: "Yeni otel lansman deliverables kartı, profil entegrasyon kampanya çıktıları"
+    }
+  },
+
+  "benchmark-dashboard-tasarimi-looker-studio":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-1.webp",
+      alt: "Looker Studio ile Benchmark Dashboard Tasarımı: Oteller İçin Şablon Yaklaşımı",
+      caption: "Looker Studio ile Benchmark Dashboard Tasarımı: Oteller İçin Şablon Yaklaşımı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-2.webp",
+      alt: "Otel ve rakip set KPI kartlarını tek ekranda gösteren dashboard görseli",
+      caption: "Otel ve rakip set KPI kartlarını tek ekranda gösteren dashboard görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-3.webp",
+      alt: "Benchmark dashboard amacı ve kullanıcılarını özetleyen bölüm görseli",
+      caption: "Benchmark dashboard amacı ve kullanıcılarını özetleyen bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-4.webp",
+      alt: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli”",
+      caption: "KPI kartları trend ve tablo yapısını ayıran dashboard bölüm görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-5.webp",
+      alt: "PMS verisinden Looker Studio benchmark paneline veri akışını gösteren şema",
+      caption: "PMS verisinden Looker Studio benchmark paneline veri akışını gösteren şema"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-6.webp",
+      alt: "Benchmark panel kurulumunu 5 adımda özetleyen kontrol kartı görseli",
+      caption: "Benchmark panel kurulumunu 5 adımda özetleyen kontrol kartı görseli"
+    },
+
+      "kpi-table-07": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-7.webp",
+      alt: "Otel ve rakip KPI kartlarını ve fark göstergesini anlatan skor kartı görseli",
+      caption: "Otel ve rakip KPI kartlarını ve fark göstergesini anlatan skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting2-5/Reporting2-5-8.webp",
+      alt: "Benchmark dashboard şablonu sekmeleri ve teslim çıktısını gösteren kanıt kartı",
+      caption: "Benchmark dashboard şablonu sekmeleri ve teslim çıktısını gösteren kanıt kartı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

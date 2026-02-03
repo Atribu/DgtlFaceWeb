@@ -21,7 +21,7 @@ export const OG_IMAGE_MAP = {
   },
 
   "/Services": {
-    tr: "/og/dgtlface.com_tr_services.jpeg",
+    tr: "/og/dgtlface.com_tr_services.png",
     en: "/og/en/dgtlface.com_en_services.jpeg",
   },
 

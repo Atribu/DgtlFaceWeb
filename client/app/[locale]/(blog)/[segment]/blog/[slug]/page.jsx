@@ -1,3 +1,4 @@
+//app/[locale]/(blog)/[segment]/blog/[slug]/page.jsx
 import { notFound } from "next/navigation";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
@@ -190,7 +191,7 @@ export default async function BlogDetailPage({ params }) {
   // Meta bilgileri
   const updatedAt = post.updatedAt || post.publishedAt || "";
   const author = post.author || "DGTLFACE Editorial";
-  const readingTime = post.readingTime || "5 dk okuma";
+  const readingTime = post.readingTime || "7 dk okuma";
 
   const deptName = deptLabel(department);
 

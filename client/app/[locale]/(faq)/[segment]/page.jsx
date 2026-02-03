@@ -9,6 +9,7 @@ import Breadcrumbs from "./components/Breadcrumbs";
 import { FAQ_DEPT_CRUMB_MAP, FAQ_DEPT_LABEL_MAP } from "../../faqRouteMap";
 import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage"; // yolu dosyana göre ayarla
+import FaqMainServer from "../../sss/components/FaqMainServer";
 
 function metaFromJsonLd(jsonLd) {
   if (!jsonLd) return null;
@@ -239,7 +240,8 @@ const crumbItems = [
 
       <SearchBanner faqSlug={slug} />
        <Breadcrumbs items={crumbItems} />
-      <FaqMain pageNs={pageNs} />
+       <FaqMainServer pageNs={pageNs} />
+      {/* <FaqMain pageNs={pageNs} /> */}
     </div>
   );
 }
