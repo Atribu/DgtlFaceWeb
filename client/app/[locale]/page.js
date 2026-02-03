@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
 
   // OG url absolute olsun (garanti)
-    const ogImage = ogPath?.startsWith("http") ? ogPath : `${base}${ogPath}`;
+    const ogImageAbs = new URL(ogPath, base).toString(); 
 
   // İstersen bunları da next-intl JSON'a taşıyabiliriz (şimdilik sabit bıraktım)
   const title =
@@ -45,10 +45,10 @@ export async function generateMetadata({ params }) {
     openGraph: {
       type: "website",
       url: canonical,
-      siteName: "DGTLFACE",
+      siteName: "DGTLFACE | Technology Partner",
       title,
       description,
-      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+      images: [{ url: ogImageAbs, width: 1200, height: 630, alt: title }],
       locale: locale === "tr" ? "tr_TR" : "en_US",
     },
 
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      images: [ogImageAbs],
     },
   };
 }

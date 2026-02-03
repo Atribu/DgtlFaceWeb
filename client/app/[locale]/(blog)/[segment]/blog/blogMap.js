@@ -37,7 +37,8 @@ export const BLOG_MAP = {
     "sosyal-medya-stratejisi-nasil-yazilir-framework":"BlogSosyalMedyaStratejisiNasilYazilirFramework",
     "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi",
     "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":"BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari",
-    "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":"BlogSosyalMedyaKpiCercevesiHedefVeBasarimNasilOlculur"
+    "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":"BlogSosyalMedyaKpiCercevesiHedefVeBasarimNasilOlculur",
+    "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":"BlogSmmSezonlukVeLansmanKampanyalariIcinSosyalMedyaStratejiDokumani"
   },
 
     yazilim: {
@@ -50,7 +51,8 @@ export const BLOG_MAP = {
     "cms-icerik-modeli-kurumsal-web-siteleri-icin-content-type-ve-field-tasarimi":"BlogCMSIcerikModeliKurumsalWebSiteleriIcinContentTypeVeFieldTasarimi",
     "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi",
     "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":"BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek",
-    "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":"BlogCmsPerformansVeCacheStratejisiHeadlessVeNextjsEntegrasyonlarindaHiz"
+    "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":"BlogCmsPerformansVeCacheStratejisiHeadlessVeNextjsEntegrasyonlarindaHiz",
+    "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":"BlogYazilimCmsOrtamlarıVeYayinSurecleriDraftStagingProdWorkflow"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",

@@ -4467,6 +4467,106 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":{
+     banner: {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-1.webp",
+      alt: "Sezonluk ve Lansman Kampanyaları İçin Sosyal Medya Strateji Dokümanı Nasıl Hazırlanır?",
+      caption: "Sezonluk ve Lansman Kampanyaları İçin Sosyal Medya Strateji Dokümanı Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-2.webp",
+      alt: "Hedef KPI mesaj kanal ve timeline bileşenlerini ilk ekranda özetleyen kampanya plan görseli",
+      caption: "Hedef KPI mesaj kanal ve timeline bileşenlerini ilk ekranda özetleyen kampanya plan görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-3.webp",
+      alt: "Sezonluk kampanya ve lansman farklarını özetleyen bölüm ayırıcı görseli",
+      caption: "Sezonluk kampanya ve lansman farklarını özetleyen bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-4.webp",
+      alt: "Mesaj çerçevesi ve proof katmanını kampanya bağlamında gösteren bölüm görseli",
+      caption: "Mesaj çerçevesi ve proof katmanını kampanya bağlamında gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-5.webp",
+      alt: "Teaser launch reminder closing kampanya akışını otel ve B2B için gösteren timeline diyagramı",
+      caption: "Teaser launch reminder closing kampanya akışını otel ve B2B için gösteren timeline diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-6.webp",
+      alt: "Kampanya strateji dokümanı başlıklarını uygulanabilir checklist olarak özetleyen kart görseli",
+      caption: "Kampanya strateji dokümanı başlıklarını uygulanabilir checklist olarak özetleyen kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-7.webp",
+      alt: " Kampanya hedeflerine göre KPI setini karşılaştıran otel ve B2B skor kart görseli",
+      caption: " Kampanya hedeflerine göre KPI setini karşılaştıran otel ve B2B skor kart görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM2-5/SMM2-5-8.webp",
+      alt: "Kampanya dokümanı deliverables setini ve ekip hizalamasını özetleyen proof kart görseli",
+      caption: "Kampanya dokümanı deliverables setini ve ekip hizalamasını özetleyen proof kart görseli"
+    }
+  },
+
+
+   "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":{
+     banner: {
+      src: "/images/blog/software/Software2-5/Software2-5-1.webp",
+      alt: "CMS Ortamları ve Yayın Süreçleri: Draft–Staging–Prod Workflow",
+      caption: "CMS Ortamları ve Yayın Süreçleri: Draft–Staging–Prod Workflow"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software2-5/Software2-5-2.webp",
+      alt: "Preview ve staging kullanımını özetleyen görsel, kurumsal web bağlamı",
+      caption: "Preview ve staging kullanımını özetleyen görsel, kurumsal web bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software2-5/Software2-5-3.webp",
+      alt: "Draft review publish ayrımını anlatan görsel, yayın güvenliği bağlamı",
+      caption: "Draft review publish ayrımını anlatan görsel, yayın güvenliği bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software2-5/Software2-5-4.webp",
+      alt: "Yayın senaryoları ayrımı görseli, kampanya operasyon bağlamı",
+      caption: "Yayın senaryoları ayrımı görseli, kampanya operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software2-5/Software2-5-5.webp",
+      alt: "Draft-review-publish ve staging-prod akış diyagramı, ajans ekipleri bağlamı",
+      caption: "Draft-review-publish ve staging-prod akış diyagramı, ajans ekipleri bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software2-5/Software2-5-6.webp",
+      alt: "Yayın öncesi kontrol checklist kartı, içerik ekipleri bağlamı",
+      caption: "Yayın öncesi kontrol checklist kartı, içerik ekipleri bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software2-5/Software2-5-7.webp",
+      alt: "Yanlış yayın ve rollback süresi KPI kartı, otel ve B2B bağlamı",
+      caption: "Yanlış yayın ve rollback süresi KPI kartı, otel ve B2B bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software2-5/Software2-5-8.webp",
+      alt: " Workflow çıktıları ve governance proof kartı, kurumsal site bağlamı",
+      caption: " Workflow çıktıları ve governance proof kartı, kurumsal site bağlamı"
+    }
+  },
 
 };
 

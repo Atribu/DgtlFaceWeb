@@ -53,6 +53,112 @@ export async function generateMetadata({ params }) {
   };
 }
 
+function buildEnhancedJsonLd(baseJsonLd, slug) {
+  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
+
+  const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
+  const inLanguage = baseJsonLd.inLanguage || "tr";
+
+  const nodes = [];
+
+  nodes.push(baseJsonLd);
+
+  // ✅ BreadcrumbList ekle
+  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug);
+  if (breadcrumb) nodes.push(breadcrumb);
+
+  nodes.push({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    inLanguage,
+    name: baseJsonLd.name,
+    description: baseJsonLd.description,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".dg-ai-capsule", ".dg-voice-summary", ".dg-voice-queries"],
+    },
+  });
+
+  const voiceQueries = Array.isArray(baseJsonLd.dgVoiceQueryExamples)
+    ? baseJsonLd.dgVoiceQueryExamples
+    : [];
+
+  if (voiceQueries.length) {
+    nodes.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "@id": `${url}#voice-queries`,
+      name: "Voice query examples",
+      itemListElement: voiceQueries.map((q, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        name: q,
+      })),
+    });
+  }
+
+  return nodes;
+}
+
+
+/**breadcrumb üretme */
+function buildBreadcrumbJsonLd(baseJsonLd, slug) {
+  if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
+
+  const pageUrl = baseJsonLd.url || "";
+  const inLanguage = baseJsonLd.inLanguage || "tr";
+
+  if (!pageUrl) return null;
+
+  // Locale tespiti (sen localePrefix always kullanıyorsun)
+  const locale = pageUrl.includes("/en/") ? "en" : pageUrl.includes("/ru/") ? "ru" : "tr";
+
+  // SSS index URL
+  const faqIndexUrl = `https://dgtlface.com/${locale}/sss`;
+
+  // Departman slug + label + url
+  const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
+  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[deptSlug] || "Kategori") : null;
+  const deptUrl = deptSlug ? `https://dgtlface.com/${locale}/${deptSlug}` : "";
+
+  const items = [];
+
+  // 1) Home
+  items.push({
+    name: "Ana Sayfa",
+    item: `https://dgtlface.com/${locale}`, // istersen routing'e göre /tr/anasayfa da yaparız
+  });
+
+  // 2) SSS index
+  items.push({ name: "SSS", item: faqIndexUrl });
+
+  // 3) Departman (varsa)  ✅ İŞTE BURAYA
+  if (deptUrl && deptLabel) {
+    items.push({ name: deptLabel, item: deptUrl });
+  }
+
+  // 4) Current page
+  items.push({
+    name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || "SSS",
+    item: pageUrl,
+  });
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": `${pageUrl}#breadcrumb`,
+    inLanguage,
+    itemListElement: items.map((it, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: it.name,
+      item: it.item,
+    })),
+  };
+}
+
 
 export default function Page({ params }) {
   const locale = params?.locale || "tr";
@@ -93,7 +199,7 @@ if (expectedDept && expectedDept !== dept) {
     { label: (fixedJsonLd?.dgPageName || fixedJsonLd?.name || "SSS"), href: currentHref }, // ✅ fixedJsonLd
   ];
 
-  const jsonLdNodes = fixedJsonLd ? [fixedJsonLd] : null; // ✅ fixedJsonLd
+const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug);
 
   return (
     <div className="flex flex-col max-w-full">

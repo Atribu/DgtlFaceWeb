@@ -84,7 +84,7 @@ export default function Footer() {
       <div className="absolute z-[1] inset-0 bg-[#140F25]/40 flex md:hidden"></div>
       <div className="container w-full px-4 lg:px-0 items-center justify-center">
         {/* MOBİL */}
-        <div className="flex flex-col lg:hidden justify-center items-center h-[380px] w-full">
+        <div className="flex flex-col lg:hidden justify-center items-center min-h-[380px] w-full">
           <div className="flex flex-col items-center justify-start text-center gap-2 lg:gap-[14px] font-inter text-white z-[50] h-full">
             <p className="text-[16px] font-semibold leading-[120%] -tracking-[0.48px] capitalize">
               {t("header")}{" "}
@@ -143,7 +143,7 @@ export default function Footer() {
               </div>
 
               {/* Hizmetler 5 + 5 */}
-              <div className="flex flex-col items-center gap-1">
+              <div className="flex flex-row items-center gap-1 py-1">
               
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
   {allServices.map((cat, index) => (
@@ -152,7 +152,22 @@ export default function Footer() {
       href={cat.href}
       className={`
         hover:underline
-        ${index < 5 ? "col-span-2 md:col-span-1" : "col-span-1"}
+        col-span-2 md:col-span-1
+      `}
+    >
+      {cat.label}
+    </Link>
+  ))}
+</div>
+
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
+  {blogLinks.map((cat, index) => (
+    <Link
+      key={cat.href}
+      href={cat.href}
+      className={`
+        hover:underline
+        col-span-2 md:col-span-1
       `}
     >
       {cat.label}
