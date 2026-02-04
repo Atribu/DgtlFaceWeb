@@ -87,7 +87,7 @@ export const BLOG_MAP = {
     "pms-kurulum-projesi-adim-adim":"BlogPmsKurulumProjesiAdimAdim",
     "pms-data-migration-ve-temizlik-sureci":"BlogPmsDataMigrationVeTemizlikSureci",
     "pms-egitim-plani-resepsiyon-ve-operasyon-ekipleri-icin":"BlogPmsEgitimPlaniResepsiyonVeOperasyonEkipleriIcin",
-    "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
+    "pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri":"BlogPMSKurulumundaYayginYapilanHatalarVeCozumleri",
     
     "ota-entegrasyonu-nedir-booking-expedia-temel-mantik":"BlogOTAEntegrasyonuNedirBookingExpediaTemelMantik",
     "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum",

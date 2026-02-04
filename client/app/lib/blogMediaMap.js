@@ -2419,7 +2419,7 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
-  "pms-kurulumunda-yaygin-yapilan-hatalar-ve-cozumleri":{
+  "pms-kurulumunda-sik-yapilan-hatalar-ve-cozumleri":{
      banner: {
       src: "/images/blog/pms/PMS-OTA1-5/Pms1-5-1.webp",
       alt: "PMS Kurulumunda Sık Yapılan 12 Hata ve Çözümleri",
