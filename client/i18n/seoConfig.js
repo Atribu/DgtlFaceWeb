@@ -6,7 +6,7 @@ export const seoConfig = {
   //---------------------------------------------------------
   // TEMEL SAYFALAR
   //---------------------------------------------------------
-  "/": { // TR Slug: /anasayfa
+  "/": { // TR Slug: 
     tr: {
       title: "Antalya Dijital Pazarlama Ajansı | Kapsamlı SEO & Yazılım Çözümleri",
       description: "Antalya merkezli, otel ve turizm odaklı dijital pazarlama ajansınız. SEO, SEM, SMM, Yazılım ve Çağrı Merkezi ile dijital varlığınızı güçlendirin.",

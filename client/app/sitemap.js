@@ -61,7 +61,7 @@ export default function sitemap() {
 
   // 6) Özel ayarlar
   return Array.from(uniq.values()).map((x) => {
-    if (x.url.endsWith("/tr/anasayfa")) return { ...x, changeFrequency: "daily", priority: 0.9 };
+    if (x.url.endsWith("/tr")) return { ...x, changeFrequency: "daily", priority: 0.9 };
     if (x.url.endsWith("/tr/bloglar")) return { ...x, changeFrequency: "daily", priority: 0.7 };
     if (x.url.endsWith("/tr/hizmetlerimiz")) return { ...x, changeFrequency: "weekly", priority: 0.8 };
     return x;

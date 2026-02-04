@@ -8,6 +8,8 @@ import BlogToc from "../BlogToc";
 import Image from "next/image";
 import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
+import JsonLd from "@/app/[locale]/components/seo/JsonLd";
+import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
 
 export async function generateMetadata({ params }) {
   const { locale, segment, slug } = params;
@@ -235,8 +237,15 @@ export default async function BlogDetailPage({ params }) {
   // Türkçe yorum: Hero overlay’de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
+const jsonLd =
+  BLOG_JSONLD_MAP?.[locale]?.[department]?.[slug] ||
+  BLOG_JSONLD_MAP?.tr?.[department]?.[slug] ||
+  null;
+
   return (
     <main className="min-h-screen bg-[#120014] text-white">
+       {jsonLd ? <JsonLd data={jsonLd} id={`jsonld-${locale}-${department}-${slug}`} /> : null}
+
       {/* TOP BAR: Breadcrumbs + Meta */}
       <div className="mx-auto w-full max-w-[1400px] px-4 pt-[70px]">
   <BlogBreadcrumbs

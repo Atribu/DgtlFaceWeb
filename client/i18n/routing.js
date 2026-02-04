@@ -14,7 +14,7 @@ export const routing = defineRouting({
     //---------------------------------------------------------
     "/": {
       en: "/",
-      tr: "/anasayfa",
+      tr: "/",
      
     },
     "/aboutus": { // https://www.dgtlface.com/tr/aboutus

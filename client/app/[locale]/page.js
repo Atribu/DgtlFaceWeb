@@ -8,16 +8,15 @@ import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 export async function generateMetadata({ params }) {
   const { locale } = params;
 
-  const pathnameKey = "/"; // routing internal key
+  const pathnameKey = "/"; 
   const base = getBaseUrl();
-
   const canonical = getCanonicalUrl(pathnameKey, locale);
+
   const trUrl = getCanonicalUrl(pathnameKey, "tr");
   const enUrl = getCanonicalUrl(pathnameKey, "en");
 
     // OG: locale'e göre map'ten al
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-
   // OG url absolute olsun (garanti)
     const ogImageAbs = new URL(ogPath, base).toString(); 
 
@@ -45,7 +44,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       type: "website",
       url: canonical,
-      siteName: "DGTLFACE | Technology Partner",
+      siteName: "DGTLFACE",
       title,
       description,
       images: [{ url: ogImageAbs, width: 1200, height: 630, alt: title }],
@@ -226,7 +225,7 @@ export default async function HomePage({ params: { locale } }) {
       {
         "@type": "Organization",
         "@id": `${baseUrl}/#organization`,
-        name: "DGTLFACE",
+        name: "DGTLFACE | Dijital Pazarlama & Teknoloji Partneri",
         url: `${baseUrl}/`,
         description: t("jsonld.orgDescription"),
         logo: `${baseUrl}/logo.png`,

@@ -9,7 +9,7 @@ import ContactMain from '../components/Section6/ContactMain.jsx'
 import ServicesGridSection from './components/ServicesGridSection.jsx'
 import DualHighlightSection from '../components/subPageComponents/DualHighlightSection.jsx'
 import QuestionsSection2 from '../components/subPageComponents/QuestionSection2.jsx'
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import MainBanner from '../components/subPageComponents/MainBanner.jsx'
 import MobileMainBanner from '../components/subPageComponents/MobileMainBanner.jsx'
 import LogoListSection from '../components/subPageComponents/LogoListSection.jsx'
@@ -45,7 +45,8 @@ export async function generateMetadata({ params }) {
 
   // ✅ OG locale’e göre map’ten gelsin
   const ogPath = getOgImageByPathnameKey(pathnameKey, locale);
-  const ogImage = ogPath?.startsWith("http") ? ogPath : `${base}${ogPath}`;
+  const ogImage = new URL(ogPath, base).toString();
+  //const ogImage = `https://dgtlface.com${ogPath}`; //ogPath?.startsWith("http") ? ogPath : `${base}${ogPath}`;
 
   return {
     metadataBase: new URL(base),
@@ -112,7 +113,8 @@ function buildServicesHubJsonLd({
         "@type": "WebSite",
         "@id": `${baseUrl}/#website`,
         url: `${baseUrl}/`,
-        name: "DGTLFACE",
+        name: pageName,
+        alternateName: ["DGTLFACE", "DGTLFACE Technology Partner", "dgtlface.com"],
         inLanguage: lang,
         publisher: { "@id": `${baseUrl}/#organization` },
       },
@@ -171,7 +173,7 @@ function buildServicesHubJsonLd({
             "@type": "ListItem",
             position: 1,
             name: locale === "tr" ? "Ana Sayfa" : "Home",
-            item: locale === "tr" ? `${baseUrl}/tr/anasayfa` : `${baseUrl}/en/`,
+            item: `${baseUrl}/${locale}`,
           },
           {
             "@type": "ListItem",
@@ -370,10 +372,10 @@ function buildServicesHubJsonLd({
 // };
 
 
-const Page = ({ params }) => {
+const Page = async ({ params }) => {
    const { locale } = params;
-  const t = useTranslations("ServicesPage");
-  const t2 = useTranslations("ServicesPage.h4Section");
+  const t = await getTranslations({ locale, namespace: "ServicesPage" });
+  const t2 = await getTranslations({ locale, namespace: "ServicesPage.h4Section" });
 
 const base = getBaseUrl();
 const pathnameKey = "/Services";
@@ -416,7 +418,6 @@ const jsonLd = buildServicesHubJsonLd({
   aiAnswer: t("aiAnswerBlock"),
   aiSource: t("aiSourceMention"),
 });
-
 
 
 const renderDescription = (key) =>

@@ -36,9 +36,11 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { locale } = params;
-  const pathname = "/";
+  // const pathname = "/";
 
-  const seoData = getSeoData(pathname, locale);
+  // const seoData = getSeoData(pathname, locale);
+
+  const base = "https://dgtlface.com";
 
   return {
     // ✅ mutlaka ekle (OG url'ler doğru oluşsun)
@@ -46,21 +48,22 @@ export async function generateMetadata({ params }) {
 
     // ✅ title template doğru yerde
     title: {
-      default: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+      default: locale === "tr"
+        ? "DGTLFACE | Dijital Dönüşüm Partneriniz"
+        : "DGTLFACE | Your Digital Transformation Partner",
       template: "%s | DGTLFACE",
     },
 
-    description: seoData.description,
+    // description: seoData.description,
 
     // ✅ canonical + diller
-    alternates: {
-      canonical: `/${locale}/anasayfa`,
-      languages: {
-        tr: "/tr/anasayfa",
-        en: "/en",
-        // sende route neyse ona göre
-      },
-    },
+//     alternates: {
+//   canonical: `${base}/${locale}`,
+//   languages: {
+//     tr: `${base}/tr`,
+//     en: `${base}/en`,
+//   },
+// },
 
     icons: {
       icon: [
@@ -74,29 +77,29 @@ export async function generateMetadata({ params }) {
     },
 
     // ✅ Google’da görsel için kritik alanlar:
-    openGraph: {
-      type: "website",
-      url: `https://dgtlface.com/${locale}/anasayfa`,
-      siteName: "DGTLFACE",
-      title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
-      description: seoData.description,
-      images: [
-        {
-          url: "/og/og-home.png", // bunu oluşturacağız
-          width: 1200,
-          height: 630,
-          alt: "DGTLFACE",
-        },
-      ],
-      locale: ogLocaleMap[locale] ?? "en_US",
-    },
+    // openGraph: {
+    //   type: "website",
+    //   url: `https://dgtlface.com/${locale}`,
+    //   siteName: "DGTLFACE",
+    //   title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+    //   description: seoData.description,
+    //   images: [
+    //     {
+    //       url: "/og/og-home.webp", // bunu oluşturacağız
+    //       width: 1200,
+    //       height: 630,
+    //       alt: "DGTLFACE",
+    //     },
+    //   ],
+    //   locale: ogLocaleMap[locale] ?? "en_US",
+    // },
 
-    twitter: {
-      card: "summary_large_image",
-      title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
-      description: seoData.description,
-      images: ["/og/og-home.png"],
-    },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   title: "DGTLFACE | Dijital Dönüşüm Partneriniz",
+    //   description: seoData.description,
+    //   images: ["/og/og-home.webp"],
+    // },
 
     robots: {
       index: true,

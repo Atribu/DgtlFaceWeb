@@ -96,7 +96,7 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug) {
   // 1) Home
   items.push({
     name: "Ana Sayfa",
-    item: `https://dgtlface.com/${locale}`, // istersen routing'e göre /tr/anasayfa da yaparız
+    item: `https://dgtlface.com/${locale}`, 
   });
 
   // 2) SSS index
