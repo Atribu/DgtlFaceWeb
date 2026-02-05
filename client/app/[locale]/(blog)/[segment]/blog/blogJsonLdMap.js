@@ -1258,6 +1258,140 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"remarketing-nedir-oteller-icin-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber",
+      "name": "Remarketing Nedir? Oteller İçin Temel Mantık ve Başlangıç Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#article",
+      "headline": "Remarketing Nedir? Oteller İçin Temel Mantık ve Başlangıç Rehberi",
+      "description": "Otel remarketing nedir, nasıl çalışır? Warm audience ile kaçan rezervasyonları geri kazanın: segmentler, mesajlar, kurulum ve KVKK notlarıyla başlangıç rehberi.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing",
+        "Warm Audience",
+        "Hotel Visitors",
+        "Reservation Funnel",
+        "Win-back Strategy"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Remarketing Nedir? Oteller İçin Temel Mantık ve Başlangıç Rehberi",
+          "item": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/remarketing-nedir-oteller-icin-temel-rehber",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Remarketing nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing, otel sitenizi veya OTA sayfanızı ziyaret etmiş kullanıcıları farklı kanallarda yeniden hedefleyip rezervasyona geri çekme yöntemidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için remarketing neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü rezervasyon kararı çoğu zaman ilk ziyarette tamamlanmaz; remarketing sıcak kullanıcıyı yeniden yakalayarak direct booking ihtimalini artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing normal reklamdan nasıl farklıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normal reklam soğuk kitleyi hedefler; remarketing ise zaten ilgi göstermiş warm audience kitlesine odaklanır ve daha spesifik mesajlarla çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing ile kaçan rezervasyonlar nasıl geri kazanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment (oda/fiyat/terk) tanımlayıp her segmente tek vaatli mesaj ve net CTA vererek kullanıcıyı yeniden siteye çekip rezervasyon adımına yönlendirebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remarketing için KVKK/çerez izni gerekli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, remarketing çoğu senaryoda çerez ve takip sinyalleri içerdiği için izin yönetimi ve şeffaf bilgilendirme kritik hale gelir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -11565,7 +11699,173 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"otel-sosyal-medya-performans-kpi-raporlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama",
+      "name": "Otel Sosyal Medya Performansı Nasıl Ölçülür? KPI ve Raporlama Rehberi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel Social Media KPIs",
+        "Instagram Reels Metrics",
+        "GA4",
+        "Looker Studio",
+        "WhatsApp Click",
+        "Reservation"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#article",
+      "headline": "Otel Sosyal Medya Performansı Nasıl Ölçülür? KPI ve Raporlama Rehberi",
+      "description": "Otel sosyal medya performansını ölçün: erişim, kaydetme, tıklama, Reels izlenme süresi, GA4 web oturumları ve WhatsApp/rezervasyon etkisi. Aylık rapor şablonu.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya kpi rehberi",
+        "reels performans analizi",
+        "sosyal medya rezervasyon ölçümü",
+        "GA4 otel dönüşüm takibi",
+        "Looker Studio raporlama"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Sosyal Medya KPI ve Raporlama Rehberi",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medya performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Erişim ve etkileşimin yanında kaydetme, profil ziyareti ve bio/WhatsApp tıklamalarını takip edin. GA4’te sosyal kaynaklı oturumları ve WhatsApp/rezervasyon event’lerini izleyerek gerçek etkiyi görün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için sosyal medyada hangi KPI’lara bakılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reach, engagement rate, saves, profile visits, link/WhatsApp clicks ve GA4 web sessions temel KPI setidir. Sonuç KPI’sı olarak booking_start/lead gibi dönüşüm event’leri eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reels performansını ölçerken hangi metrikler önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortalama izlenme süresi ve tamamlama oranı izleme kalitesini; profil ziyareti ve tıklamalar aksiyon kalitesini gösterir. Sadece izlenmeye bakmak otel satış etkisini ölçmeye yetmez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medyadan gelen rezervasyonlar nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM ile linkleri etiketleyin ve GA4’te sosyal kaynaklı oturumları dönüşüm event’leriyle bağlayın. WhatsApp/telefon gibi kanallar için de tıklama event’leri tanımlayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#howto",
+      "name": "Otel Sosyal Medya KPI Raporu Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "KPI’ları 3 katmanda belirle",
+          "text": "İçerik KPI’ları (reach, saves, izlenme), aksiyon KPI’ları (tıklama, WhatsApp, DM) ve iş sonucu KPI’larını (GA4 dönüşüm event) birlikte tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM ve GA4 event setini standardize et",
+          "text": "Bio ve kampanya linklerinde UTM kullan; WhatsApp/telefon/booking gibi event’leri GA4’te ölçülebilir hale getir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Looker Studio’da tek panel aylık raporu çıkar",
+          "text": "Meta + GA4 verilerini tek panelde göster; raporun sonuna 3 aksiyon ve 1 test planı ekleyerek karar üret."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-performans-kpi-raporlama#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
     }
   },
   en: {

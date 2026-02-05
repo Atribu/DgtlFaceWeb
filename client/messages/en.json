@@ -8359,29 +8359,7 @@
 },
 
 "blogs": {
-    "readMore": "Read more",
-    "what-is-travertine": {
-      "title": "What is Travertine?",
-      "excerpt": "Learn what travertine is, how it forms and where it is used.",
-      "date": "2025-01-10",
-      "readTime": "5 min read",
-      "h1": "What is Travertine?",
-      "body": "Full article content here..."
-    },
-    "travertine-vs-marble": {
-      "title": "Travertine vs Marble: Which is Better?",
-      "excerpt": "We compare travertine and marble in durability, aesthetics and cost.",
-      "date": "2025-02-03",
-      "readTime": "7 min read",
-      "h1": "Travertine vs Marble",
-      "body": "Full article content here..."
-    },
-    "travertine-maintenance-tips": {
-      "title": "Traverten Bakım İpuçları",
-      "excerpt": "Traverten yüzeylerin bakımında dikkat edilmesi gereken noktalar...",
-      "date": "2025-01-10",
-      "readTime": "5 dk okuma"
-    }
+
   }
 
 

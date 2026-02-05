@@ -4769,6 +4769,107 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+   "otel-sosyal-medya-performans-kpi-raporlama":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-1.webp",
+      alt: "Otel Sosyal Medya Performansı Nasıl Ölçülür? KPI ve Raporlama Rehberi",
+      caption: "Otel Sosyal Medya Performansı Nasıl Ölçülür? KPI ve Raporlama Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-2.webp",
+      alt: "KPI katmanlarını (içerik-aksiyon-sonuç) özetleyen görsel",
+      caption: "KPI katmanlarını (içerik-aksiyon-sonuç) özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-3.webp",
+      alt: "KPI bölümleri arasında geçiş sağlayan ayırıcı görsel",
+      caption: "KPI bölümleri arasında geçiş sağlayan ayırıcı görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-4.webp",
+      alt: "Raporlama araçları ve dashboard bölümüne geçiş ayırıcı görsel",
+      caption: "Raporlama araçları ve dashboard bölümüne geçiş ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-5.webp",
+      alt: "Sosyal medya→web→rezervasyon attribution funnel diyagramı",
+      caption: "Sosyal medya→web→rezervasyon attribution funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-6.webp",
+      alt: "Aylık rapor okuma ve aksiyon şablonu kartı",
+      caption: "Aylık rapor okuma ve aksiyon şablonu kartı"
+    },
+
+      "kpi-table-07": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-7.webp",
+      alt: "Instagram & Reels KPI setini gösteren skor kart",
+      caption: "Instagram & Reels KPI setini gösteren skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-5/Hotel2-5-8.webp",
+      alt: " Looker Studio tek panel rapor deliverable mockup’ı",
+      caption: "Looker Studio tek panel rapor deliverable mockup’ı"
+    }
+  },
+
+
+  "remarketing-nedir-oteller-icin-temel-rehber":{
+     banner: {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-2.webp",
+      alt: "Remarketingin rezervasyon funnel içindeki rolünü anlatan otel bağlam görseli",
+      caption: "Remarketingin rezervasyon funnel içindeki rolünü anlatan otel bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-3.webp",
+      alt: "Remarketing nedir sorusunu otel örneğiyle ayıran bölüm görseli",
+      caption: "Remarketing nedir sorusunu otel örneğiyle ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-4.webp",
+      alt: "Otel remarketing kitle türlerini ayıran sade bölüm ayırıcı görsel",
+      caption: "Otel remarketing kitle türlerini ayıran sade bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-5.webp",
+      alt: "Ziyaret ve remarketing akışıyla rezervasyona dönüşümü gösteren otel diyagramı",
+      caption: "Ziyaret ve remarketing akışıyla rezervasyona dönüşümü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-6.webp",
+      alt: "Remarketing senaryolarını hızlı planlamak için otel checklist kartı görseli",
+      caption: "Remarketing senaryolarını hızlı planlamak için otel checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-7.webp",
+      alt: "Remarketing performansını CPA ve dönüşümle özetleyen otel KPI kartı",
+      caption: "Remarketing performansını CPA ve dönüşümle özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-1/SEM3-1-8.webp",
+      alt: "Remarketing kurulum çıktıları ve güven unsurlarını özetleyen otel proof kartı",
+      caption: "Remarketing kurulum çıktıları ve güven unsurlarını özetleyen otel proof kartı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

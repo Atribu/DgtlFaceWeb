@@ -17,49 +17,49 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/": {
     tr:  "/og/og-home.webp", //"/og/dgtlface.com_tr.jpeg"
-    en: "/og/en/dgtlface.com_en.jpeg",
+    en: "/og/en/dgtlface.com_en.webp",
   },
 
   "/Services": {
     tr: "/og/dgtlface.com_tr_services.webp",
-    en: "/og/en/dgtlface.com_en_services.jpeg",
+    en: "/og/en/dgtlface.com_en_services.webp",
   },
 
   // -----------------------
   // ANA KATEGORİLER
   // -----------------------
-  "/Services/seo": { tr: "/og/dgtlface.com_tr_seo.webp", en: "/og/en/dgtlface.com_en_seo.jpeg" },
-  "/Services/sem": { tr: "/og/dgtlface.com_tr_sem.webp", en: "/og/en/dgtlface.com_en_sem.jpeg" },
-  "/Services/smm": { tr: "/og/dgtlface.com_tr_smm.webp", en: "/og/en/dgtlface.com_en_smm.jpeg" },
-  "/Services/software": { tr: "/og/dgtlface.com_tr_yazilim.webp", en: "/og/en/dgtlface.com_en_software-development.jpeg" },
-  "/Services/creative": { tr: "/og/dgtlface.com_tr_creative.webp", en: "/og/en/dgtlface.com_en_creative-design.jpeg" },
-  "/Services/callcenter": { tr: "/og/dgtlface.com_tr_cagri-merkezi.webp", en: "/og/en/dgtlface.com_en_call-center.jpeg" },
-  "/Services/pms": { tr: "/og/dgtlface.com_tr_pms-ota.webp", en: "/og/en/dgtlface.com_en_pms-ota.jpeg" },
-  "/Services/hotel": { tr: "/og/dgtlface.com_tr_otel.webp", en: "/og/en/dgtlface.com_en_hotel.jpeg" },
-  "/Services/digitalAnalysis": { tr: "/og/dgtlface.com_tr_raporlama.webp", en: "/og/en/dgtlface.com_en_digital-analysis.jpeg" },
+  "/Services/seo": { tr: "/og/dgtlface.com_tr_seo.webp", en: "/og/en/dgtlface.com_en_seo.webp" },
+  "/Services/sem": { tr: "/og/dgtlface.com_tr_sem.webp", en: "/og/en/dgtlface.com_en_sem.webp" },
+  "/Services/smm": { tr: "/og/dgtlface.com_tr_smm.webp", en: "/og/en/dgtlface.com_en_smm.webp" },
+  "/Services/software": { tr: "/og/dgtlface.com_tr_yazilim.webp", en: "/og/en/dgtlface.com_en_software-development.webp" },
+  "/Services/creative": { tr: "/og/dgtlface.com_tr_creative.webp", en: "/og/en/dgtlface.com_en_creative-design.webp" },
+  "/Services/callcenter": { tr: "/og/dgtlface.com_tr_cagri-merkezi.webp", en: "/og/en/dgtlface.com_en_call-center.webp" },
+  "/Services/pms": { tr: "/og/dgtlface.com_tr_pms-ota.webp", en: "/og/en/dgtlface.com_en_pms-ota.webp" },
+  "/Services/hotel": { tr: "/og/dgtlface.com_tr_otel.webp", en: "/og/en/dgtlface.com_en_hotel.webp" },
+  "/Services/digitalAnalysis": { tr: "/og/dgtlface.com_tr_raporlama.webp", en: "/og/en/dgtlface.com_en_digital-analysis.webp" },
 
   // -----------------------
   // SEM ALT SAYFALAR
   // -----------------------
   "/Services/sem/googleAdsAdvertising": {
     tr: "/og/dgtlface.com_tr_sem_google-ads-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_sem_google-ads-advertising.jpeg",
+    en: "/og/en/dgtlface.com_en_sem_google-ads-advertising.webp",
   },
   "/Services/sem/youtubeAdvertising": {
     tr: "/og/dgtlface.com_tr_sem_youtube-reklam-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_sem_youtube-advertising-management.jpeg",
+    en: "/og/en/dgtlface.com_en_sem_youtube-advertising-management.webp",
   },
   "/Services/sem/remarketingDisplay": {
     tr: "/og/dgtlface.com_tr_sem_remarketing-ve-display.webp",
-    en: "/og/en/dgtlface.com_en_sem_remarketing-and-display.jpeg",
+    en: "/og/en/dgtlface.com_en_sem_remarketing-and-display.webp",
   },
   "/Services/sem/tagManager": {
     tr: "/og/dgtlface.com_tr_sem_donusum-takibi-tag-manager.webp",
-    en: "/og/en/dgtlface.com_en_sem_tag-manager.jpeg",
+    en: "/og/en/dgtlface.com_en_sem_tag-manager.webp",
   },
   "/Services/sem/performanceAnalysis": {
     tr: "/og/dgtlface.com_tr_sem_reklam-raporlama.webp",
-    en: "/og/en/dgtlface.com_en_sem_performance-analysis.jpeg",
+    en: "/og/en/dgtlface.com_en_sem_performance-analysis.webp",
   },
 
   // -----------------------
@@ -67,23 +67,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/seo/technicalSeo": {
     tr: "/og/dgtlface.com_tr_seo_teknik-seo.webp",
-    en: "/og/en/dgtlface.com_en_seo_technical-seo.jpeg",
+    en: "/og/en/dgtlface.com_en_seo_technical-seo.webp",
   },
   "/Services/seo/contentSeo": {
     tr: "/og/dgtlface.com_tr_seo_icerik-seo.webp",
-    en: "/og/en/dgtlface.com_en_seo_on-page-seo.jpeg",
+    en: "/og/en/dgtlface.com_en_seo_on-page-seo.webp",
   },
   "/Services/seo/localSeo": {
     tr: "/og/dgtlface.com_tr_seo_yerel-seo.webp",
-    en: "/og/en/dgtlface.com_en_seo_local-seo.jpeg",
+    en: "/og/en/dgtlface.com_en_seo_local-seo.webp",
   },
   "/Services/seo/seoReporting": {
     tr: "/og/dgtlface.com_tr_seo_seo-raporlama.webp",
-    en: "/og/en/dgtlface.com_en_seo_seo-reporting.jpeg",
+    en: "/og/en/dgtlface.com_en_seo_seo-reporting.webp",
   },
   "/Services/seo/backlinkSeo": {
     tr: "/og/dgtlface.com_tr_seo_backlink-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_seo_backlink-seo.jpeg",
+    en: "/og/en/dgtlface.com_en_seo_backlink-seo.webp",
   },
 
   // -----------------------
@@ -91,23 +91,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/smm/reelsVideo": {
     tr: "/og/dgtlface.com_tr_smm_reels-video.webp",
-    en: "/og/en/dgtlface.com_en_smm-reels-video.jpeg",
+    en: "/og/en/dgtlface.com_en_smm-reels-video.webp",
   },
   "/Services/smm/socialMediaAds": {
     tr: "/og/dgtlface.com_tr_smm_sosyal-medya-reklamlari.webp",
-    en: "/og/en/dgtlface.com_en_smm_social-media-ads.jpeg",
+    en: "/og/en/dgtlface.com_en_smm_social-media-ads.webp",
   },
   "/Services/smm/socialMediaContent": {
     tr: "/og/dgtlface.com_tr_smm_icerik-uretimi.webp",
-    en: "/og/en/dgtlface.com_en_service_smm_social-media-content.jpeg",
+    en: "/og/en/dgtlface.com_en_service_smm_social-media-content.webp",
   },
   "/Services/smm/socialMediaPlanning": {
     tr: "/og/dgtlface.com_tr_smm_planlama-strateji.webp",
-    en: "/og/en/dgtlface.com_en_services_smm_social-media-planning.jpeg",
+    en: "/og/en/dgtlface.com_en_services_smm_social-media-planning.webp",
   },
   "/Services/smm/socialMediaReporting": {
     tr: "/og/dgtlface.com_tr_smm_analiz-raporlama.webp",
-    en: "/og/en/dgtlface.com_en_smm_social-media-reporting.jpeg",
+    en: "/og/en/dgtlface.com_en_smm_social-media-reporting.webp",
   },
 
   // -----------------------
@@ -115,23 +115,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/software/cmsInstallationService": {
     tr: "/og/dgtlface.com_tr_yazilim_cms-entegrasyonu.webp",
-    en: "/og/en/dgtlface.com_en_software_cms-installation.jpeg",
+    en: "/og/en/dgtlface.com_en_software_cms-installation.webp",
   },
   "/Services/software/kvkk": {
     tr: "/og/dgtlface.com_tr_yazilim_kvkk-uyum-hizmeti.webp",
-    en: "/og/en/dgtlface.com_en_software_kvkk-compliance-service.jpeg",
+    en: "/og/en/dgtlface.com_en_software_kvkk-compliance-service.webp",
   },
   "/Services/software/serverManagementService": {
     tr: "/og/dgtlface.com_tr_yazilim_sunucu-guvenlik.webp",
-    en: "/og/en/dgtlface.com_en_software_server-management.jpeg",
+    en: "/og/en/dgtlface.com_en_software_server-management.webp",
   },
   "/Services/software/websiteAndSoftware": {
     tr: "/og/dgtlface.com_tr_yazilim_web-sitesi-gelistirme.webp",
-    en: "/og/en/dgtlface.com_en_software_website-and-software.jpeg",
+    en: "/og/en/dgtlface.com_en_software_website-and-software.webp",
   },
   "/Services/software/websiteMaintanceService": {
     tr: "/og/dgtlface.com_tr_yazilim_bakim-ve-destek.webp",
-    en: "/og/en/dgtlface.com_en_software_website-maintenance.jpeg",
+    en: "/og/en/dgtlface.com_en_software_website-maintenance.webp",
   },
 
   // -----------------------
@@ -139,23 +139,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/callcenter/callLanguages": {
     tr: "/og/dgtlface.com_tr_cagri-merkezi_4-dilli-cagri-merkezi.webp",
-    en: "/og/en/dgtlface.com_en_call-center_multilingual-call-center.jpeg",
+    en: "/og/en/dgtlface.com_en_call-center_multilingual-call-center.webp",
   },
   "/Services/callcenter/callPerformance": {
     tr: "/og/dgtlface.com_tr_cagri-merkezi_performans-analizi.webp",
-    en: "/og/en/dgtlface.com_en_call-center_performance-analysis.jpeg",
+    en: "/og/en/dgtlface.com_en_call-center_performance-analysis.webp",
   },
   "/Services/callcenter/messageManagement": {
     tr: "/og/dgtlface.com_tr_cagri-merkezi_mesaj-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_call-center_message-management.jpeg",
+    en: "/og/en/dgtlface.com_en_call-center_message-management.webp",
   },
   "/Services/callcenter/aftersalesSupport": {
     tr: "/og/dgtlface.com_tr_cagri-merkezi_satis-sonrasi-destek.webp",
-    en: "/og/en/dgtlface.com_en_call-center_after-sales-support.jpeg",
+    en: "/og/en/dgtlface.com_en_call-center_after-sales-support.webp",
   },
   "/Services/callcenter/reservationSupport": {
     tr: "/og/dgtlface.com_tr_cagri-merkezi_rezervasyon-destegi.webp",
-    en: "/og/en/dgtlface.com_en_call-center_reservation-support.jpeg",
+    en: "/og/en/dgtlface.com_en_call-center_reservation-support.webp",
   },
 
   // -----------------------
@@ -163,23 +163,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/creative/uiUxDesign": {
     tr: "/og/dgtlface.com_tr_creative_ui-ux-hizmeti.webp",
-    en: "/og/en/dgtlface.com_en_creative_ui-ux-design.jpeg",
+    en: "/og/en/dgtlface.com_en_creative_ui-ux-design.webp",
   },
   "/Services/creative/graphicDesign": {
     tr: "/og/dgtlface.com_tr_creative_grafik-motion-tasarim.webp",
-    en: "/og/en/dgtlface.com_en_creative_graphic-motion-design.jpeg",
+    en: "/og/en/dgtlface.com_en_creative_graphic-motion-design.webp",
   },
   "/Services/creative/videoProduction": {
     tr: "/og/dgtlface.com_tr_creative_video-ve-produksiyon.webp",
-    en: "/og/en/dgtlface.com_en_creative_video-production.jpeg",
+    en: "/og/en/dgtlface.com_en_creative_video-production.webp",
   },
   "/Services/creative/eventProduction": {
     tr: "/og/dgtlface.com_tr_creative_etkinlik-produksiyonu.webp",
-    en: "/og/en/dgtlface.com_en_creative_event-production.jpeg",
+    en: "/og/en/dgtlface.com_en_creative_event-production.webp",
   },
   "/Services/creative/corporateGift": {
     tr: "/og/dgtlface.com_tr_creative_kurumsal-hediye.webp",
-    en: "/og/en/dgtlface.com_en_creative_corporate-gift.jpeg",
+    en: "/og/en/dgtlface.com_en_creative_corporate-gift.webp",
   },
 
   // -----------------------
@@ -187,23 +187,23 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/pms/pmsInstallation": {
     tr: "/og/dgtlface.com_tr_pms-ota_pms-kurulum.webp",
-    en: "/og/en/dgtlface.com_en_pms-ota_pms-integration.jpeg",
+    en: "/og/en/dgtlface.com_en_pms-ota_pms-integration.webp",
   },
   "/Services/pms/otaContract": {
     tr: "/og/dgtlface.com_tr_pms-ota_ota-entegrasyonu.webp",
-    en: "/og/en/dgtlface.com_en_pms-ota_ota-contract.jpeg",
+    en: "/og/en/dgtlface.com_en_pms-ota_ota-contract.webp",
   },
   "/Services/pms/reservationManagement": {
     tr: "/og/dgtlface.com_tr_pms-ota_rezervasyon-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_pms-ota_reservation-management.jpeg",
+    en: "/og/en/dgtlface.com_en_pms-ota_reservation-management.webp",
   },
   "/Services/pms/channelManagement": {
     tr: "/og/dgtlface.com_tr_pms-ota_kanal-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_pms-ota_channel-management.jpeg",
+    en: "/og/en/dgtlface.com_en_pms-ota_channel-management.webp",
   },
   "/Services/pms/webPayment": {
     tr: "/og/dgtlface.com_tr_pms-ota_online-satis.webp",
-    en: "/og/en/dgtlface.com_en_pms-ota_web-payment.jpeg",
+    en: "/og/en/dgtlface.com_en_pms-ota_web-payment.webp",
   },
 
   // -----------------------
@@ -211,27 +211,27 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/hotel/adsManagement": {
     tr: "/og/dgtlface.com_tr_otel_reklam-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_hotel_ads-management.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_ads-management.webp",
   },
   "/Services/hotel/otaManagement": {
     tr: "/og/dgtlface.com_tr_otel_ota-yonetimi.webp",
-    en: "/og/en/dgtlface.com_en_hotel_ota-management.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_ota-management.webp",
   },
   "/Services/hotel/pmsIntegration": {
     tr: "/og/dgtlface.com_tr_otel_pms-entegrasyonu.webp",
-    en: "/og/en/dgtlface.com_en_hotel_pms-integration.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_pms-integration.webp",
   },
   "/Services/hotel/seo": {
     tr: "/og/dgtlface.com_tr_otel_seo.webp",
-    en: "/og/en/dgtlface.com_en_hotel_seo.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_seo.webp",
   },
   "/Services/hotel/socialMedia": {
     tr: "/og/dgtlface.com_tr_otel_sosyal-medya.webp",
-    en: "/og/en/dgtlface.com_en_hotel_social-media.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_social-media.webp",
   },
   "/Services/hotel/callCenter": {
     tr: "/og/dgtlface.com_tr_otel_cagri-merkezi.webp",
-    en: "/og/en/dgtlface.com_en_hotel_callcenter.jpeg",
+    en: "/og/en/dgtlface.com_en_hotel_callcenter.webp",
   },
 
   // -----------------------
@@ -239,19 +239,19 @@ export const OG_IMAGE_MAP = {
   // -----------------------
   "/Services/digitalAnalysis/lookerStudio": {
     tr: "/og/dgtlface.com_tr_raporlama_looker-studio.webp",
-    en: "/og/en/dgtlface.com_en_digital-analysis_looker-studio.jpeg",
+    en: "/og/en/dgtlface.com_en_digital-analysis_looker-studio.webp",
   },
   "/Services/digitalAnalysis/kvkkDataSecurity": {
     tr: "/og/dgtlface.com_tr_raporlama_kvkk-veri-guvenligi.webp",
-    en: "/og/en/dgtlface.com_en_digital-analysis_kvkk-data-security.jpeg",
+    en: "/og/en/dgtlface.com_en_digital-analysis_kvkk-data-security.webp",
   },
   "/Services/digitalAnalysis/digitalSalesAnalysis": {
     tr: "/og/dgtlface.com_tr_raporlama_satis-donusum.webp",
-    en: "/og/en/dgtlface.com_en_digital-analysis_digital-sales-analysis.jpeg",
+    en: "/og/en/dgtlface.com_en_digital-analysis_digital-sales-analysis.webp",
   },
   "/Services/digitalAnalysis/onlineMarketResearchService": {
     tr: "/og/dgtlface.com_tr_raporlama_benchmark-analizi.webp",
-    en: "/og/en/dgtlface.com_en_digital-analysis_benchmark-analysis.jpeg",
+    en: "/og/en/dgtlface.com_en_digital-analysis_benchmark-analysis.webp",
   },
 };
 
