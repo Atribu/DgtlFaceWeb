@@ -526,7 +526,7 @@ export const BLOG_MEDIA_MAP = {
 
      "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": {
       banner: {
-      src: "/images/blog/software/Software1-1/Software1-1-1.webp",
+      src: "/images/blog/software/Software1-1/Software1-1-1.jpg",
       alt: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
       caption: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde"
     },

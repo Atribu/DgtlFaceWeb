@@ -63,108 +63,108 @@ import imgOtel4 from "@/public/images/sss/HOTEL/OtelReklam.webp"
 import imgOtel5 from "@/public/images/sss/HOTEL/OtelSEO.webp"
 import imgOtel6 from "@/public/images/sss/HOTEL/OtelSosyalMedya.webp"
 
-import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
+// import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
 
-function faqHrefBySlug(slug) {
-  const dept = FAQ_SLUG_DEPT_SEGMENT_MAP?.[slug];
-  if (dept) return `/${dept}/${slug}`; // /smm/reels-video-sss
-  return `/${slug}`;                  // /smm-sss, /seo-sss...
-}
+// function faqHrefBySlug(slug) {
+//   const dept = FAQ_SLUG_DEPT_SEGMENT_MAP?.[slug];
+//   if (dept) return `/${dept}/${slug}`; // /smm/reels-video-sss
+//   return `/${slug}`;                  // /smm-sss, /seo-sss...
+// }
+
+// ✅ Sadece CHIP listelerinde labelKey eklendi. Diğer kısımlar aynen kalacak.
 
 export const MAIN_SERVICES_CHIPS = [
-  { label: "SEM", href: "/sem-sss" },
-  { label: "SEO", href: "/seo-sss" },
-  { label: "SMM", href: "/smm-sss" },
-  { label: "YAZILIM", href: "/yazilim-sss" },
-  { label: "CREATIVE", href: "/creative-sss" },
-  { label: "ÇAĞRI MERKEZİ", href: "/cagri-merkezi-sss" },
-  { label: "PMS & OTA", href: "/pms-ota-sss" },
-  { label: "DİJİTAL ANALİZ", href: "/veri-analiz-ve-raporlama-sss" },
-  { label: "HOTEL", href: "/otel-dijital-pazarlama-sss" }
+  { label: "SEM", slug: "sem-sss", labelKey: "faqChips.main.sem" },
+  { label: "SEO", slug: "/seo-sss", labelKey: "faqChips.main.seo" },
+  { label: "SMM", slug: "/smm-sss", labelKey: "faqChips.main.smm" },
+  { label: "YAZILIM", slug: "/yazilim-sss", labelKey: "faqChips.main.software" },
+  { label: "CREATIVE", slug: "/creative-sss", labelKey: "faqChips.main.creative" },
+  { label: "ÇAĞRI MERKEZİ", slug: "/cagri-merkezi-sss", labelKey: "faqChips.main.callcenter" },
+  { label: "PMS & OTA", slug: "/pms-ota-sss", labelKey: "faqChips.main.pmsota" },
+  { label: "DİJİTAL ANALİZ", slug: "/veri-analiz-ve-raporlama-sss", labelKey: "faqChips.main.digitalanalysis" },
+  { label: "HOTEL", slug: "/otel-dijital-pazarlama-sss", labelKey: "faqChips.main.hotel" },
 ];
 
 const SEM_CHIPS = [
-  { label: "SEM (Genel)", href: faqHrefBySlug("sem-sss") },
-  { label: "Google Ads", href: faqHrefBySlug("google-ads-yonetimi-sss") },
-  { label: "YouTube Ads", href: faqHrefBySlug("youtube-reklam-yonetimi-sss") },
-  { label: "Remarketing & Display", href: faqHrefBySlug("remarketing-ve-display-sss") },
-  { label: "Dönüşüm Takibi", href: faqHrefBySlug("donusum-takibi-tag-manager-sss") },
-  { label: "Raporlama", href: faqHrefBySlug("reklam-raporlama-sss") },
+  { label: "SEM (Genel)", slug: "sem-sss", labelKey: "faqChips.sem.general" },
+  { label: "Google Ads", slug: "google-ads-yonetimi-sss", labelKey: "faqChips.sem.googleAds" },
+  { label: "YouTube Ads", slug: "youtube-reklam-yonetimi-sss", labelKey: "faqChips.sem.youtubeAds" },
+  { label: "Remarketing & Display", slug: "remarketing-ve-display-sss", labelKey: "faqChips.sem.remarketingDisplay" },
+  { label: "Dönüşüm Takibi", slug: "donusum-takibi-tag-manager-sss", labelKey: "faqChips.sem.conversionTracking" },
+  { label: "Raporlama", slug: "reklam-raporlama-sss", labelKey: "faqChips.sem.reporting" },
 ];
 
 const SEO_CHIPS = [
-  { label: "SEO (Genel)", href: faqHrefBySlug("seo-sss") },
-  { label: "Teknik SEO", href: faqHrefBySlug("teknik-seo-sss") },
-  { label: "İçerik SEO", href: faqHrefBySlug("icerik-seo-sss") },
-  { label: "Local SEO", href: faqHrefBySlug("local-seo-sss") },
-  { label: "Backlink SEO", href: faqHrefBySlug("backlink-yonetimi-sss") },
-  { label: "SEO Raporlama", href: faqHrefBySlug("seo-raporlama-sss") },
+  { label: "SEO (Genel)", slug: "seo-sss", labelKey: "faqChips.seo.general" },
+  { label: "Teknik SEO", slug: "teknik-seo-sss", labelKey: "faqChips.seo.technical" },
+  { label: "İçerik SEO", slug: "icerik-seo-sss", labelKey: "faqChips.seo.content" },
+  { label: "Local SEO", slug: "local-seo-sss", labelKey: "faqChips.seo.local" },
+  { label: "Backlink SEO", slug: "backlink-yonetimi-sss", labelKey: "faqChips.seo.backlink" },
+  { label: "SEO Raporlama", slug: "seo-raporlama-sss", labelKey: "faqChips.seo.reporting" },
 ];
 
+const SMM_CHIPS = [
+  { label: "SMM (Genel)", slug: "smm-sss", labelKey: "faqChips.smm.general" },
+  { label: "İçerik Üretimi", slug: "icerik-uretimi-sss", labelKey: "faqChips.smm.contentProduction" },
+  { label: "Planlama Strateji", slug: "planlama-strateji-sss", labelKey: "faqChips.smm.planningStrategy" },
+  { label: "Reels Video", slug: "reels-video-sss", labelKey: "faqChips.smm.reelsVideo" },
+  { label: "Sosyal Medya Reklamları", slug: "sosyal-medya-reklamlari-sss", labelKey: "faqChips.smm.socialAds" },
+  { label: "Analiz Raporlama", slug: "analiz-raporlama-sss", labelKey: "faqChips.smm.analyticsReporting" },
+];
 
-    const SMM_CHIPS = [
-      { label: "SMM (Genel)", href: faqHrefBySlug("smm-sss") },
-      { label: "İçerik Üretimi", href: faqHrefBySlug("icerik-uretimi-sss") },
-      { label: "Planlama Strateji", href: faqHrefBySlug("planlama-strateji-sss") },
-      { label: "Reels Video", href: faqHrefBySlug("reels-video-sss")  },
-      { label: "Sosyal Medya Reklamları", href: faqHrefBySlug("sosyal-medya-reklamlari-sss") },
-       { label: "Analiz Raporlama", href: faqHrefBySlug("analiz-raporlama-sss") },
-    ];
+const Software_CHIPS = [
+  { label: "YAZILIM (Genel)", slug: "yazilim-sss", labelKey: "faqChips.software.general" },
+  { label: "Web Sitesi Geliştirme", slug: "web-sitesi-gelistirme-sss", labelKey: "faqChips.software.websiteDevelopment" },
+  { label: "CMS Entegrasyonu", slug: "cms-entegrasyonu-sss", labelKey: "faqChips.software.cmsIntegration" },
+  { label: "KVKK Uyum Hizmeti", slug: "kvkk-uyum-hizmeti-sss", labelKey: "faqChips.software.kvkkCompliance" },
+  { label: "Sunucu Güvenlik", slug: "sunucu-guvenlik-sss", labelKey: "faqChips.software.serverSecurity" },
+  { label: "Bakım ve Güvenlik", slug: "bakim-destek-sss", labelKey: "faqChips.software.maintenanceSecurity" },
+];
 
+const Creative_CHIPS = [
+  { label: "CREATIVE (Genel)", slug: "creative-sss", labelKey: "faqChips.creative.general" },
+  { label: "Grafik Motion Tasarım", slug: "grafik-motion-tasarim-sss", labelKey: "faqChips.creative.graphicMotion" },
+  { label: "UI/UX Dizayn", slug: "ui-ux-tasarim-sss", labelKey: "faqChips.creative.uiux" },
+  { label: "Video Prodüksiyon", slug: "video-produksiyon-sss", labelKey: "faqChips.creative.videoProduction" },
+  { label: "Etkinlik Prodüksiyon", slug: "etkinlik-produksiyonu-sss", labelKey: "faqChips.creative.eventProduction" },
+  { label: "Kurumsal Hediye", slug: "kurumsal-hediye-tasarimi-sss", labelKey: "faqChips.creative.corporateGifts" },
+];
 
-   const Software_CHIPS = [
-      { label: "YAZILIM (Genel)", href: faqHrefBySlug("yazilim-sss") },
-       { label: "Web Sitesi Geliştirme", href: faqHrefBySlug("web-sitesi-gelistirme-sss") },
-      { label: "CMS Entegrasyonu", href: faqHrefBySlug("cms-entegrasyonu-sss") },
-      { label: "KVKK Uyum Hizmeti", href: faqHrefBySlug("kvkk-uyum-hizmeti-sss") },
-      { label: "Sunucu Güvenlik", href: faqHrefBySlug("sunucu-guvenlik-sss") },
-      { label: "Bakım ve Güvenlik", href: faqHrefBySlug("bakim-destek-sss") },
-    ];
+const Callcenter_CHIPS = [
+  { label: "Çağrı Merkezi (Genel)", slug: "cagri-merkezi-sss", labelKey: "faqChips.callcenter.general" },
+  { label: "4 Dilli Çağrı Merkezi", slug: "4-dilli-cagri-merkezi-sss", labelKey: "faqChips.callcenter.multilingual" },
+  { label: "Performans Analizi", slug: "performans-analizi-sss", labelKey: "faqChips.callcenter.performanceAnalysis" },
+  { label: "Mesaj Yönetimi", slug: "mesaj-yonetimi-sss", labelKey: "faqChips.callcenter.messageManagement" },
+  { label: "Satış Sonrası Destek", slug: "satis-sonrasi-destek-sss", labelKey: "faqChips.callcenter.afterSalesSupport" },
+  { label: "Rezervasyon Desteği", slug: "rezervasyon-destegi-sss", labelKey: "faqChips.callcenter.reservationSupport" },
+];
 
+const PmsOta_CHIPS = [
+  { label: "PMS-OTA (Genel)", slug: "pms-ota-sss", labelKey: "faqChips.pmsota.general" },
+  { label: "Pms Kurulumu", slug: "pms-kurulum-sss", labelKey: "faqChips.pmsota.pmsSetup" },
+  { label: "Ota Entegrasyonu", slug: "ota-entegrasyonu-sss", labelKey: "faqChips.pmsota.otaIntegration" },
+  { label: "Rezervasyon Yönetimi", slug: "rezervasyon-yonetimi-sss", labelKey: "faqChips.pmsota.reservationManagement" },
+  { label: "Kanal Yönetimi", slug: "kanal-yonetimi-sss", labelKey: "faqChips.pmsota.channelManagement" },
+  { label: "Online Satış", slug: "online-satis-sss", labelKey: "faqChips.pmsota.onlineSales" },
+];
 
-     const Creative_CHIPS = [
-      { label: "CREATIVE (Genel)", href: faqHrefBySlug("creative-sss") },
-       { label: "Grafik Motion Tasarım", href: faqHrefBySlug("grafik-motion-tasarim-sss") },
-      { label: "UI/UX Dizayn", href: faqHrefBySlug("ui-ux-tasarim-sss") },
-      { label: "Video Prodüksiyon", href: faqHrefBySlug("video-produksiyon-sss") },
-      { label: "Etkinlik Prodüksiyon", href: faqHrefBySlug("etkinlik-produksiyonu-sss") },
-      { label: "Kurumsal Hediye", href: faqHrefBySlug("kurumsal-hediye-tasarimi-sss") },
-    ];
+const DigitalAnalysis_CHIPS = [
+  { label: "Dijital Analiz (Genel)", slug: "veri-analiz-ve-raporlama-sss", labelKey: "faqChips.digitalanalysis.general" },
+  { label: "Looker Studio", slug: "looker-studio-sss", labelKey: "faqChips.digitalanalysis.lookerStudio" },
+  { label: "Benchmark Analiz", slug: "benchmark-analiz-sss", labelKey: "faqChips.digitalanalysis.benchmark" },
+  { label: "Satış Dönüşümü", slug: "satis-donusumu-sss", labelKey: "faqChips.digitalanalysis.salesConversion" },
+  { label: "Kvkk Veri Güvenliği", slug: "kvkk-veri-guvenligi-sss", labelKey: "faqChips.digitalanalysis.kvkkDataSecurity" },
+];
 
-         const Callcenter_CHIPS = [
-      { label: "Çağrı Merkezi (Genel)", href: faqHrefBySlug("cagri-merkezi-sss") },
-       { label: "4 Dilli Çağrı Merkezi", href: faqHrefBySlug("4-dilli-cagri-merkezi-sss") },
-      { label: "Performans Analizi", href: faqHrefBySlug("performans-analizi-sss") },
-      { label: "Mesaj Yönetimi", href: faqHrefBySlug("mesaj-yonetimi-sss") },
-      { label: "Satış Sonrası Destek", href: faqHrefBySlug("satis-sonrasi-destek-sss") },
-      { label: "Rezervasyon Desteği", href: faqHrefBySlug("rezervasyon-destegi-sss") },
-    ];
+const Hotel_CHIPS = [
+  { label: "Otel Dijital Dönüşüm", slug: "otel-dijital-pazarlama-sss", labelKey: "faqChips.hotel.general" },
+  { label: "Otel SEO", slug: "otel-seo-sss", labelKey: "faqChips.hotel.seo" },
+  { label: "Otel Sosyal Medya", slug: "otel-sosyalmedya-sss", labelKey: "faqChips.hotel.socialMedia" },
+  { label: "Otel Reklam", slug: "otel-reklam-sss", labelKey: "faqChips.hotel.ads" },
+  { label: "Otel Pms", slug: "otel-pms-sss", labelKey: "faqChips.hotel.pms" },
+  { label: "Otel Çağrı Merkezi", slug: "otel-cagrimerkezi-sss", labelKey: "faqChips.hotel.callcenter" },
+];
 
-             const PmsOta_CHIPS = [
-      { label: "PMS-OTA (Genel)", href: faqHrefBySlug("pms-ota-sss") },
-       { label: "Pms Kurulumu", href: faqHrefBySlug("pms-kurulum-sss") },
-      { label: "Ota Entegrasyonu", href: faqHrefBySlug("ota-entegrasyonu-sss") },
-      { label: "Rezervasyon Yönetimi", href: faqHrefBySlug("rezervasyon-yonetimi-sss") },
-      { label: "Kanal Yönetimi", href: faqHrefBySlug("kanal-yonetimi-sss") },
-      { label: "Online Satış", href: faqHrefBySlug("online-satis-sss") },
-    ];
-
-          const DigitalAnalysis_CHIPS = [
-      { label: "Dijital Analiz (Genel)", href: faqHrefBySlug("veri-analiz-ve-raporlama-sss") },
-       { label: "Looker Studio", href: faqHrefBySlug("looker-studio-sss") },
-      { label: "Benchmark Analiz", href: faqHrefBySlug("benchmark-analiz-sss") },
-      { label: "Satış Dönüşümü", href:faqHrefBySlug("satis-donusumu-sss") },
-      { label: "Kvkk Veri Güvenliği", href: faqHrefBySlug("kvkk-veri-guvenligi-sss") },
-    ];
-
-      const Hotel_CHIPS = [
-      { label: "Otel Dijital Dönüşüm", href: faqHrefBySlug("otel-dijital-pazarlama-sss") },
-       { label: "Otel SEO", href: faqHrefBySlug("otel-seo-sss") },
-      { label: "Otel Sosyal Medya", href: faqHrefBySlug("otel-sosyalmedya-sss") },
-      { label: "Otel Reklam", href: faqHrefBySlug("otel-reklam-sss") },
-      { label: "Otel Pms", href: faqHrefBySlug("otel-pms-sss") },
-      { label: "Otel Çağrı Merkezi", href: faqHrefBySlug("otel-cagrimerkezi-sss") },
-    ];
 
 const GROUPS = {
   sem: {

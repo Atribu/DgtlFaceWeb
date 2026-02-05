@@ -12,6 +12,14 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/pms-ota\/online-satis(\/.*)?$/, slug: "online-satis-sss" },
   { match: /^\/pms-ota(\/.*)?$/, slug: "pms-ota-sss" },
 
+
+  { match: /^\/en\/pms-ota\/pms-integration(\/.*)?$/, slug: "pms-integration-faq" },
+  { match: /^\/en\/pms-ota\/ota-contract(\/.*)?$/, slug: "ota-contract-faq" },
+  { match: /^\/en\/pms-ota\/reservation-management(\/.*)?$/, slug: "reservation-management-faq" },
+  { match: /^\/en\/pms-ota\/channel-management(\/.*)?$/, slug: "channel-management-faq" },
+  { match: /^\/en\/pms-ota\/web-payment(\/.*)?$/, slug: "web-payment-faq" },
+  { match: /^\/en\/pms-ota(\/.*)?$/, slug: "pms-ota-faq" },
+
   // -----------------------------
   // Call Center
   // -----------------------------
@@ -21,6 +29,14 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/cagri-merkezi\/satis-sonrasi-destek(\/.*)?$/, slug: "satis-sonrasi-destek-sss" },
   { match: /^\/cagri-merkezi\/rezervasyon-destegi(\/.*)?$/, slug: "rezervasyon-destegi-sss" },
   { match: /^\/cagri-merkezi(\/.*)?$/, slug: "cagri-merkezi-sss" },
+
+
+    { match: /^\/en\/call-center\/multilingual-call-center(\/.*)?$/, slug: "multilingual-call-center-faq" },
+  { match: /^\/en\/call-center\/performance-analysis(\/.*)?$/, slug: "performance-analysis-faq" },
+  { match: /^\/en\/call-center\/message-management(\/.*)?$/, slug: "message-management-faq" },
+  { match: /^\/en\/call-center\/after-sales-support(\/.*)?$/, slug: "after-sales-support-faq" },
+  { match: /^\/en\/call-center\/reservation-support(\/.*)?$/, slug: "reservation-support-faq" },
+  { match: /^\/en\/call-center(\/.*)?$/, slug: "call-center-faq" },
 
   // -----------------------------
   // Creative
@@ -32,6 +48,16 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/creative\/grafik-motion-tasarim(\/.*)?$/, slug: "grafik-motion-tasarim-sss" },
   { match: /^\/creative(\/.*)?$/, slug: "creative-sss" },
 
+
+  // English
+ { match: /^\/en\/creative-design\/corporate-gift(\/.*)?$/, slug: "corporate-gift-faq" },
+  { match: /^\/en\/creative-design\/event-production(\/.*)?$/, slug: "event-production-faq" },
+  { match: /^\/en\/creative-design\/video-production(\/.*)?$/, slug: "video-production-faq" },
+  { match: /^\/en\/creative-design\/ui-ux-design(\/.*)?$/, slug: "ui-ux-design-faq" },
+  { match: /^\/en\/creative-design\/graphic-motion-design(\/.*)?$/, slug: "graphic-motion-design-faq" },
+  { match: /^\/en\/creative-design(\/.*)?$/, slug: "creative-design-faq" },
+
+
   // -----------------------------
   // Raporlama
   // -----------------------------
@@ -40,6 +66,13 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/raporlama\/satis-donusum(\/.*)?$/, slug: "satis-donusumu-sss" },
   { match: /^\/raporlama\/benchmark-analizi(\/.*)?$/, slug: "benchmark-analiz-sss" },
   { match: /^\/raporlama(\/.*)?$/, slug: "veri-analiz-ve-raporlama-sss" },
+
+
+  { match: /^\/en\/digital-analysis\/looker-studio(\/.*)?$/, slug: "looker-studio-faq" },
+  { match: /^\/en\/digital-analysis\/kvkk-data-security(\/.*)?$/, slug: "kvkk-data-security-faq" },
+  { match: /^\/en\/digital-analysis\/digital-sales-analysis(\/.*)?$/, slug: "digital-sales-analysis-faq" },
+  { match: /^\/en\/digital-analysis\/benchmark-analysis(\/.*)?$/, slug: "benchmark-analysis-faq" },
+  { match: /^\/en\/digital-analysis(\/.*)?$/, slug: "digital-analysis-faq" },
 
   // -----------------------------
   // SEM
@@ -51,6 +84,15 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/sem\/reklam-raporlama(\/.*)?$/, slug: "reklam-raporlama-sss" },
   { match: /^\/sem(\/.*)?$/, slug: "sem-sss" },
 
+
+  // English
+  { match: /^\/en\/search-engine-marketing\/youtube-advertising-management(\/.*)?$/, slug: "youtube-advertising-management-faq" },
+  { match: /^\/en\/search-engine-marketing\/google-ads-advertising(\/.*)?$/, slug: "google-ads-advertising-faq" },
+  { match: /^\/en\/search-engine-marketing\/remarketing-and-display(\/.*)?$/, slug: "remarketing-and-display-faq" },
+  { match: /^\/en\/search-engine-marketing\/tag-manager(\/.*)?$/, slug: "tag-manager-faq" },
+  { match: /^\/en\/search-engine-marketing\/performance-analysis(\/.*)?$/, slug: "performance-analysis-faq" },
+  { match: /^\/en\/search-engine-marketing(\/.*)?$/, slug: "search-engine-marketing-faq" },
+
   // -----------------------------
   // SEO
   // -----------------------------
@@ -60,6 +102,14 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/seo\/backlink-yonetimi(\/.*)?$/, slug: "backlink-yonetimi-sss" },
   { match: /^\/seo\/seo-raporlama(\/.*)?$/, slug: "seo-raporlama-sss" },
   { match: /^\/seo(\/.*)?$/, slug: "seo-sss" },
+
+
+ { match: /^\/en\/search-engine-optimization\/technical-seo(\/.*)?$/, slug: "technical-seo-faq" },
+  { match: /^\/en\/search-engine-optimization\/local-seo(\/.*)?$/, slug: "local-seo-faq" },
+  { match: /^\/en\/search-engine-optimization\/content-seo(\/.*)?$/, slug: "content-seo-faq" },
+  { match: /^\/en\/search-engine-optimization\/backlink-seo(\/.*)?$/, slug: "backlink-seo-faq" },
+  { match: /^\/en\/search-engine-optimization\/seo-reporting(\/.*)?$/, slug: "seo-reporting-faq" },
+  { match: /^\/en\/search-engine-optimization(\/.*)?$/, slug: "search-engine-optimization-faq" },
 
   // -----------------------------
   // SMM
@@ -71,6 +121,15 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/smm\/analiz-raporlama(\/.*)?$/, slug: "analiz-raporlama-sss" },
   { match: /^\/smm(\/.*)?$/, slug: "smm-sss" },
 
+  // English
+   { match: /^\/en\/social-media-management\/social-media-content(\/.*)?$/, slug: "social-media-content-faq" },
+  { match: /^\/en\/social-media-management\/social-media-planning(\/.*)?$/, slug: "social-media-planning-faq" },
+  { match: /^\/en\/social-media-management\/reels-video(\/.*)?$/, slug: "reels-video-faq" },
+  { match: /^\/en\/social-media-management\/social-media-ads(\/.*)?$/, slug: "social-media-ads-faq" },
+  { match: /^\/en\/social-media-management\/social-media-reporting(\/.*)?$/, slug: "social-media-reporting-faq" },
+  { match: /^\/en\/social-media-management(\/.*)?$/, slug: "social-media-management-faq" },
+
+
   // -----------------------------
   // Yazılım
   // -----------------------------
@@ -80,6 +139,15 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/yazilim\/web-sitesi-gelistirme(\/.*)?$/, slug: "web-sitesi-gelistirme-sss" },
   { match: /^\/yazilim\/bakim-ve-destek(\/.*)?$/, slug: "bakim-destek-sss" },
   { match: /^\/yazilim(\/.*)?$/, slug: "yazilim-sss" },
+
+
+   // English
+ { match: /^\/en\/software-development\/cms-installation(\/.*)?$/, slug: "cms-installation-faq" },
+  { match: /^\/en\/software-development\/kvkk-compliance-service(\/.*)?$/, slug: "kvkk-compliance-service-faq" },
+  { match: /^\/en\/software-development\/server-management(\/.*)?$/, slug: "server-management-faq" },
+  { match: /^\/en\/software-development\/website-and-software(\/.*)?$/, slug: "website-and-software-faq" },
+  { match: /^\/en\/software-development\/website-maintenance(\/.*)?$/, slug: "website-maintenance-faq" },
+  { match: /^\/en\/software-development(\/.*)?$/, slug: "software-development-faq" },
 
   // -----------------------------
   // Otel sayfaları
@@ -92,10 +160,23 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/otel\/cagri-merkezi(\/.*)?$/, slug: "otel-cagrimerkezi-sss" },
   { match: /^\/otel(\/.*)?$/, slug: "otel-dijital-pazarlama-sss" },
 
+
+    // English
+  { match: /^\/en\/hotel\/seo(\/.*)?$/, slug: "hotel-seo-faq" },
+  { match: /^\/en\/hotel\/social-media(\/.*)?$/, slug: "hotel-social-media-faq" },
+  { match: /^\/en\/hotel\/ads-management(\/.*)?$/, slug: "hotel-ads-management-faq" },
+  { match: /^\/en\/hotel\/ota-management(\/.*)?$/, slug: "hotel-ota-management-faq" },
+  { match: /^\/en\/hotel\/pms-integration(\/.*)?$/, slug: "hotel-pms-integration-faq" },
+  { match: /^\/en\/hotel\/callcenter(\/.*)?$/, slug: "hotel-call-center-faq" },
+  { match: /^\/en\/hotel(\/.*)?$/, slug: "hotel-digital-marketing-faq" },
+
   // -----------------------------
   // Genel fallback (istersen)
   // -----------------------------
   { match: /^\/hizmetlerimiz(\/.*)?$/, slug: "hizmetlerimiz-sss" },
+      { match: /^\/en\/services(\/.*)?$/, slug: "services-faq" },
+
+
 ];
 
 // app/[locale]/(faq)/faqRouteMap.js
@@ -107,7 +188,6 @@ export const FAQ_DEPT_CRUMB_MAP = {
   "sss": "sss", // departman yok
 
   // Services (SSS index altı)
-  "hizmetlerimiz-sss": "hizmetlerimiz-sss",
   "hizmetlerimiz-sss": "hizmetlerimiz-sss",
 
   // SEO altları → seo-sss'e bağla
@@ -173,11 +253,90 @@ export const FAQ_DEPT_CRUMB_MAP = {
   "otel-ota-sss": "otel-dijital-pazarlama-sss",
   "otel-pms-sss": "otel-dijital-pazarlama-sss",
   "otel-cagrimerkezi-sss": "otel-dijital-pazarlama-sss",
+
+  //en
+
+  // Services
+"services-faq": "services-faq",
+
+// PMS/OTA
+"pms-ota-faq": "pms-ota-faq",
+"pms-integration-faq": "pms-ota-faq",
+"ota-contract-faq": "pms-ota-faq",
+"reservation-management-faq": "pms-ota-faq",
+"channel-management-faq": "pms-ota-faq",
+"web-payment-faq": "pms-ota-faq",
+
+// Call Center
+"call-center-faq": "call-center-faq",
+"multilingual-call-center-faq": "call-center-faq",
+"performance-analysis-faq": "call-center-faq",
+"message-management-faq": "call-center-faq",
+"after-sales-support-faq": "call-center-faq",
+"reservation-support-faq": "call-center-faq",
+
+// Creative
+"creative-design-faq": "creative-design-faq",
+"corporate-gift-faq": "creative-design-faq",
+"event-production-faq": "creative-design-faq",
+"video-production-faq": "creative-design-faq",
+"ui-ux-design-faq": "creative-design-faq",
+"graphic-motion-design-faq": "creative-design-faq",
+
+// Reporting
+"digital-analysis-faq": "digital-analysis-faq",
+"looker-studio-faq": "digital-analysis-faq",
+"kvkk-data-security-faq": "digital-analysis-faq",
+"digital-sales-analysis-faq": "digital-analysis-faq",
+"benchmark-analysis-faq": "digital-analysis-faq",
+
+// SEM
+"search-engine-marketing-faq": "search-engine-marketing-faq",
+"youtube-advertising-management-faq": "search-engine-marketing-faq",
+"google-ads-advertising-faq": "search-engine-marketing-faq",
+"remarketing-and-display-faq": "search-engine-marketing-faq",
+"tag-manager-faq": "search-engine-marketing-faq",
+"performance-analysis-faq": "search-engine-marketing-faq",
+
+// SEO
+"search-engine-optimization-faq": "search-engine-optimization-faq",
+"technical-seo-faq": "search-engine-optimization-faq",
+"local-seo-faq": "search-engine-optimization-faq",
+"content-seo-faq": "search-engine-optimization-faq",
+"backlink-seo-faq": "search-engine-optimization-faq",
+"seo-reporting-faq": "search-engine-optimization-faq",
+
+// SMM
+"social-media-management-faq": "social-media-management-faq",
+"social-media-content-faq": "social-media-management-faq",
+"social-media-planning-faq": "social-media-management-faq",
+"reels-video-faq": "social-media-management-faq",
+"social-media-ads-faq": "social-media-management-faq",
+"social-media-reporting-faq": "social-media-management-faq",
+
+// Software
+"software-development-faq": "software-development-faq",
+"cms-installation-faq": "software-development-faq",
+"kvkk-compliance-service-faq": "software-development-faq",
+"server-management-faq": "software-development-faq",
+"website-and-software-faq": "software-development-faq",
+"website-maintenance-faq": "software-development-faq",
+
+// Hotel
+"hotel-digital-marketing-faq": "hotel-digital-marketing-faq",
+"hotel-seo-faq": "hotel-digital-marketing-faq",
+"hotel-social-media-faq": "hotel-digital-marketing-faq",
+"hotel-ads-management-faq": "hotel-digital-marketing-faq",
+"hotel-ota-management-faq": "hotel-digital-marketing-faq",
+"hotel-pms-integration-faq": "hotel-digital-marketing-faq",
+"hotel-call-center-faq": "hotel-digital-marketing-faq",
+
 };
 
 // Departman label’ı için de opsiyonel label map
 export const FAQ_DEPT_LABEL_MAP = {
-  "seo-sss": "SEO",
+  tr:{
+    "seo-sss": "SEO",
   "sem-sss": "SEM",
   "smm-sss": "SMM",
   "yazilim-sss": "Yazılım",
@@ -186,13 +345,27 @@ export const FAQ_DEPT_LABEL_MAP = {
   "veri-analiz-ve-raporlama-sss": "Raporlama",
   "otel-dijital-pazarlama-sss": "Otel Dijital Pazarlama",
   "hizmetlerimiz-sss": "Hizmetler",
+  },
+
+  en:{
+    "seo-sss": "SEO",
+  "sem-sss": "SEM",
+  "smm-sss": "SMM",
+ "software-development-faq": "Software",
+  "cagri-merkezi-sss": "Call Center",
+  "pms-ota-sss": "PMS & OTA",
+  "veri-analiz-ve-raporlama-sss": "Reporting",
+  "otel-dijital-pazarlama-sss": "Hotel Digital Marketing",
+  "hizmetlerimiz-sss": "Services",
+  }
 };
 
 // faqRouteMap.js
 
 // slug -> dept segment (örn reels-video-sss -> smm)
 export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
-  // SEM
+  tr:{
+    // SEM
   "google-ads-yonetimi-sss": "sem",
   "youtube-reklam-yonetimi-sss": "sem",
   "remarketing-ve-display-sss": "sem",
@@ -253,6 +426,84 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
   "otel-reklam-sss": "otel",
   "otel-pms-sss": "otel",
   "otel-cagrimerkezi-sss": "otel",
+  },
+
+  en: {
+  // PMS/OTA
+  "pms-ota-faq": "pms-ota",
+  "pms-integration-faq": "pms-ota",
+  "ota-contract-faq": "pms-ota",
+  "reservation-management-faq": "pms-ota",
+  "channel-management-faq": "pms-ota",
+  "web-payment-faq": "pms-ota",
+
+  // Call Center
+  "call-center-faq": "call-center",
+  "multilingual-call-center-faq": "call-center",
+  "performance-analysis-faq": "call-center",
+  "message-management-faq": "call-center",
+  "after-sales-support-faq": "call-center",
+  "reservation-support-faq": "call-center",
+
+  // Creative
+  "creative-design-faq": "creative-design",
+  "corporate-gift-faq": "creative-design",
+  "event-production-faq": "creative-design",
+  "video-production-faq": "creative-design",
+  "ui-ux-design-faq": "creative-design",
+  "graphic-motion-design-faq": "creative-design",
+
+  // Reporting
+  "digital-analysis-faq": "digital-analysis",
+  "looker-studio-faq": "digital-analysis",
+  "kvkk-data-security-faq": "digital-analysis",
+  "digital-sales-analysis-faq": "digital-analysis",
+  "benchmark-analysis-faq": "digital-analysis",
+
+  // SEM
+  "search-engine-marketing-faq": "search-engine-marketing",
+  "youtube-advertising-management-faq": "search-engine-marketing",
+  "google-ads-advertising-faq": "search-engine-marketing",
+  "remarketing-and-display-faq": "search-engine-marketing",
+  "tag-manager-faq": "search-engine-marketing",
+  "performance-analysis-faq": "search-engine-marketing",
+
+  // SEO
+  "search-engine-optimization-faq": "search-engine-optimization",
+  "technical-seo-faq": "search-engine-optimization",
+  "local-seo-faq": "search-engine-optimization",
+  "content-seo-faq": "search-engine-optimization",
+  "backlink-seo-faq": "search-engine-optimization",
+  "seo-reporting-faq": "search-engine-optimization",
+
+  // SMM
+  "social-media-management-faq": "social-media-management",
+  "social-media-content-faq": "social-media-management",
+  "social-media-planning-faq": "social-media-management",
+  "reels-video-faq": "social-media-management",
+  "social-media-ads-faq": "social-media-management",
+  "social-media-reporting-faq": "social-media-management",
+
+  // Software
+  "software-development-faq": "software-development",
+  "cms-installation-faq": "software-development",
+  "kvkk-compliance-service-faq": "software-development",
+  "server-management-faq": "software-development",
+  "website-and-software-faq": "software-development",
+  "website-maintenance-faq": "software-development",
+
+  // Hotel
+  "hotel-digital-marketing-faq": "hotel",
+  "hotel-seo-faq": "hotel",
+  "hotel-social-media-faq": "hotel",
+  "hotel-ads-management-faq": "hotel",
+  "hotel-ota-management-faq": "hotel",
+  "hotel-pms-integration-faq": "hotel",
+  "hotel-call-center-faq": "hotel",
+
+  // Services
+  "services-faq": "services",
+}
 };
 
 
