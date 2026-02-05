@@ -34,14 +34,20 @@ export async function generateMetadata({ params }) {
     post?.h1?.intro ||
     "DGTLFACE blog içeriği.";
 
+     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dgtlface.com";
+
   // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
-  const url = `https://dgtlface.com/${locale}/${department}/blog/${slug}`;
+    const url = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl).toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
-  const ogImage = bannerMedia?.src || "/og/og-default.png";
+    const ogPath = bannerMedia?.src || "/og/og-home.webp";
+
+  // ✅ Kritik: absolute OG image
+  const ogImage = new URL(ogPath, siteUrl).toString();
 
   return {
+    
     title: {
       absolute: `${title} | DGTLFACE`,
     },
@@ -61,7 +67,7 @@ export async function generateMetadata({ params }) {
           alt: title,
         },
       ],
-      locale: locale === "tr" ? "tr_TR" : locale === "en" ? "en_US" : "ru_RU",
+      locale: locale === "tr" ? "tr_TR" : "en_US" ,
     },
 
     twitter: {
