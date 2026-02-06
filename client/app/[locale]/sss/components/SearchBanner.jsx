@@ -410,7 +410,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
               className={`mt-0 sm:mt-0 lg:-mt-7 items-center justify-center ${
                 isRootMode
                   ? "w-[90%] md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[1240px]"
-                  : "w-full md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[900px]"
+                  : "w-full md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[86%] max-w-[1000px]"
               }`}
             >
               {/* Back to FAQ + parent chip on subpages */}

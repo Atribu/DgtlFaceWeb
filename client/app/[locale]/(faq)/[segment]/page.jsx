@@ -16,7 +16,7 @@ import FaqMainServer from "../../sss/components/FaqMainServer";
 
 
 // -----------------------------
-// Breadcrumb / URL helper’ları
+// Breadcrumb / URL helper'ları
 // -----------------------------
 function getFaqIndexHref(locale) {
   return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
@@ -75,7 +75,7 @@ function metaFromJsonLd(jsonLd) {
 }
 
 // -----------------------------
-// JSON-LD builder’ları
+// JSON-LD builder'ları
 // -----------------------------
 function buildEnhancedJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
@@ -140,7 +140,7 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
     ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR] || "Category")
     : null;
 
-  // Dept URL (EN’de dept slug’ı -faq’a çevir)
+  // Dept URL (EN'de dept slug'ı -faq'a çevir)
   let deptUrl = "";
   if (deptSlugTR && deptSlugTR !== resolvedConfigSlugTR) {
     const deptNs = FAQ_MAP?.[deptSlugTR];
@@ -231,7 +231,7 @@ export default function Page({ params }) {
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
 
-  // ✅ Bu sayfanın TR “config slug”ı (breadcrumb map’ler bununla çalışıyor)
+  // ✅ Bu sayfanın TR "config slug"ı (breadcrumb map'ler bununla çalışıyor)
   const resolvedConfigSlugTR = (() => {
     if (slug === "faq" || slug === "sss") return "sss";
     if (slug === "services-faq" || slug === "hizmetlerimiz-sss") return "hizmetlerimiz-sss";
@@ -240,7 +240,7 @@ export default function Page({ params }) {
 
   const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
 
-  // Breadcrumb label’lar
+  // Breadcrumb label'lar
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
   const faqLabel = locale === "en" ? "FAQ" : "SSS";
   const servicesLabel = locale === "en" ? "Our Services FAQ" : "Hizmetlerimiz SSS";
@@ -254,11 +254,22 @@ export default function Page({ params }) {
 
   // Dept info (map TR slug ile çalışıyor)
   const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[resolvedConfigSlugTR] || null;
-  const deptLabel = deptSlugTR
-    ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR] || "Category")
-    : null;
+  
+  // ✅ FIX: Dept label'ı locale'e göre al, ama TR slug kullanarak
+  const deptLabel = (() => {
+    if (!deptSlugTR) return null;
+    
+    // Önce TR slug'dan label al
+    const labelFromTRSlug = FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR];
+    if (labelFromTRSlug) return labelFromTRSlug;
+    
+    // Yoksa EN slug'a çevir ve ondan label al
+    const deptNs = FAQ_MAP?.[deptSlugTR];
+    const deptSlugLocale = findSlugByNs(deptNs, locale);
+    return FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugLocale] || "Category";
+  })();
 
-  // Dept href (EN’de dept slug’ı -faq’a çevir)
+  // Dept href (EN'de dept slug'ı -faq'a çevir)
   const deptHref = (() => {
     if (!deptSlugTR) return null;
     const deptNs = FAQ_MAP?.[deptSlugTR];
@@ -266,7 +277,20 @@ export default function Page({ params }) {
     return buildFaqUrl(locale, deptSlugLocale);
   })();
 
-  const currentLabel = fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
+  // ✅ FIX: Current label - bu sayfanın kendi label'ı, EN'de slug'dan değil JSON-LD'den alınmalı
+  const currentLabel = (() => {
+    // Root sayfalar için direkt label döndür
+    if (isFaqRoot) return faqLabel;
+    if (isServicesRoot) return servicesLabel;
+    
+    // Department ana sayfaları için locale'e göre label
+    const currentSlugLabel = FAQ_DEPT_LABEL_MAP?.[locale]?.[slug];
+    if (currentSlugLabel) return currentSlugLabel;
+    
+    // Diğer sayfalar için JSON-LD'den al
+    return fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
+  })();
+  
   const currentHref = buildFaqUrl(locale, slug);
 
   const crumbItems = [

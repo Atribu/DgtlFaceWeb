@@ -64,7 +64,7 @@ function buildFaqUrl(locale, slug, deptSegment = null) {
 /**
  * Department ana sayfası URL'ini oluşturur
  * TR: /tr/seo-sss
- * EN: /en/social-media-management-faq (senin map yapına göre)
+ * EN: /en/search-engine-optimization/seo-faq (senin map yapına göre)
  */
 function buildDeptUrl(locale, deptSlug) {
   const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[deptSlug];
@@ -116,9 +116,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// JSON-LD fonksiyonların aynı kalabilir (buildEnhancedJsonLd, buildBreadcrumbJsonLd)
-// ... (burayı senin dosyandaki gibi bırak)
-
 export default function Page({ params }) {
   const locale = params?.locale || "tr";
   const segment = params?.segment; // ✅ doğru: [segment]
@@ -145,19 +142,40 @@ export default function Page({ params }) {
   const homeHref = `/${locale}`;
   const faqIndexHref = getFaqIndexHref(locale);
 
-  // Dept info
-  const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
-  const deptLabel =
-    deptSlug ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlug] || "Category") : null;
-  const deptHref = deptSlug ? buildDeptUrl(locale, deptSlug) : null;
+  // Dept info - TR slug kullanarak department bul
+  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[slug] || 
+                     FAQ_DEPT_CRUMB_MAP?.[findSlugByNs(pageNs, "tr", FAQ_MAP)] || 
+                     null;
+  
+  // ✅ FIX: Dept label'ı locale'e göre al
+  const deptLabel = (() => {
+    if (!deptSlugTR) return null;
+    
+    // Önce TR slug'dan label al
+    const labelFromTRSlug = FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR];
+    if (labelFromTRSlug) return labelFromTRSlug;
+    
+    // Yoksa EN slug'a çevir ve ondan label al
+    const deptNs = FAQ_MAP?.[deptSlugTR];
+    const deptSlugLocale = findSlugByNs(deptNs, locale, FAQ_MAP);
+    return FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugLocale] || "Category";
+  })();
+  
+  const deptHref = (() => {
+    if (!deptSlugTR) return null;
+    const deptNs = FAQ_MAP?.[deptSlugTR];
+    const deptSlugLocale = findSlugByNs(deptNs, locale, FAQ_MAP) || deptSlugTR;
+    return buildDeptUrl(locale, deptSlugLocale);
+  })();
 
+  // ✅ FIX: Current label - JSON-LD'den al, fallback olarak slug kullan
   const currentLabel = fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
   const currentHref = buildFaqUrl(locale, slug, segment);
 
   const crumbItems = [
     { label: homeLabel, href: homeHref },
     { label: faqLabel, href: faqIndexHref },
-    ...(deptSlug && deptSlug !== slug ? [{ label: deptLabel, href: deptHref }] : []),
+    ...(deptSlugTR && deptSlugTR !== slug ? [{ label: deptLabel, href: deptHref }] : []),
     { label: currentLabel, href: currentHref },
   ];
 

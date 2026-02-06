@@ -174,338 +174,238 @@ export const FAQ_ROUTE_MAP = [
   // Genel fallback (istersen)
   // -----------------------------
   { match: /^\/hizmetlerimiz(\/.*)?$/, slug: "hizmetlerimiz-sss" },
-      { match: /^\/en\/services(\/.*)?$/, slug: "services-faq" },
+  { match: /^\/sss(\/.*)?$/, slug: "sss" },
 
-
+  { match: /^\/en\/services(\/.*)?$/, slug: "services-faq" },
+  { match: /^\/en\/faq(\/.*)?$/, slug: "faq" },
 ];
 
-// app/[locale]/(faq)/faqRouteMap.js
-
-// "Departman" crumb’ı hangi SSS sayfasına gitsin?
-// Örn: teknik-seo-sss sayfasında departman crumb’ı seo-sss'e gitsin gibi.
+// ✅ KRITIK: Bu map eksikti - eklendi!
+// FAQ page slug'ını, hangi dept page'e ait olduğuyla eşleştirir
+// SADECE TR slug kullanılıyor (çünkü her iki dilde de aynı namespace'i paylaşıyorlar)
 export const FAQ_DEPT_CRUMB_MAP = {
-  // Genel
-  "sss": "sss", // departman yok
-
-  // Services (SSS index altı)
-  "hizmetlerimiz-sss": "hizmetlerimiz-sss",
-
-  // SEO altları → seo-sss'e bağla
-  "seo-sss": "seo-sss",
-  "teknik-seo-sss": "seo-sss",
-  "local-seo-sss": "seo-sss",
-  "icerik-seo-sss": "seo-sss",
-  "backlink-yonetimi-sss": "seo-sss",
-  "seo-raporlama-sss": "seo-sss",
-
-  // SEM altları → sem-sss'e bağla
-  "sem-sss": "sem-sss",
+  // SEM alt sayfaları
   "google-ads-yonetimi-sss": "sem-sss",
   "youtube-reklam-yonetimi-sss": "sem-sss",
   "remarketing-ve-display-sss": "sem-sss",
   "donusum-takibi-tag-manager-sss": "sem-sss",
   "reklam-raporlama-sss": "sem-sss",
 
-  // SMM altları → smm-sss'e bağla
-  "smm-sss": "smm-sss",
+  // SEO alt sayfaları
+  "teknik-seo-sss": "seo-sss",
+  "local-seo-sss": "seo-sss",
+  "icerik-seo-sss": "seo-sss",
+  "backlink-yonetimi-sss": "seo-sss",
+  "seo-raporlama-sss": "seo-sss",
+
+  // SMM alt sayfaları
   "icerik-uretimi-sss": "smm-sss",
   "planlama-strateji-sss": "smm-sss",
   "reels-video-sss": "smm-sss",
   "sosyal-medya-reklamlari-sss": "smm-sss",
   "analiz-raporlama-sss": "smm-sss",
 
-  // Software altları → yazilim-sss'e bağla
-  "yazilim-sss": "yazilim-sss",
+  // Yazılım alt sayfaları
   "web-sitesi-gelistirme-sss": "yazilim-sss",
   "cms-entegrasyonu-sss": "yazilim-sss",
   "kvkk-uyum-hizmeti-sss": "yazilim-sss",
   "sunucu-guvenlik-sss": "yazilim-sss",
   "bakim-destek-sss": "yazilim-sss",
 
-  // Callcenter altları → cagri-merkezi-sss'e bağla
-  "cagri-merkezi-sss": "cagri-merkezi-sss",
+  // Creative alt sayfaları
+  "kurumsal-hediye-tasarimi-sss": "creative-sss",
+  "etkinlik-produksiyonu-sss": "creative-sss",
+  "video-produksiyon-sss": "creative-sss",
+  "ui-ux-tasarim-sss": "creative-sss",
+  "grafik-motion-tasarim-sss": "creative-sss",
+
+  // Call center alt sayfaları
   "4-dilli-cagri-merkezi-sss": "cagri-merkezi-sss",
   "performans-analizi-sss": "cagri-merkezi-sss",
   "mesaj-yonetimi-sss": "cagri-merkezi-sss",
   "satis-sonrasi-destek-sss": "cagri-merkezi-sss",
   "rezervasyon-destegi-sss": "cagri-merkezi-sss",
 
-  // PMS-OTA altları → pms-ota-sss'e bağla
-  "pms-ota-sss": "pms-ota-sss",
+  // PMS-OTA alt sayfaları
   "pms-kurulum-sss": "pms-ota-sss",
   "ota-entegrasyonu-sss": "pms-ota-sss",
   "rezervasyon-yonetimi-sss": "pms-ota-sss",
   "kanal-yonetimi-sss": "pms-ota-sss",
   "online-satis-sss": "pms-ota-sss",
 
-  // Raporlama altları → veri-analiz-ve-raporlama-sss'e bağla
-  "veri-analiz-ve-raporlama-sss": "veri-analiz-ve-raporlama-sss",
+  // Raporlama alt sayfaları
   "looker-studio-sss": "veri-analiz-ve-raporlama-sss",
   "benchmark-analiz-sss": "veri-analiz-ve-raporlama-sss",
   "satis-donusumu-sss": "veri-analiz-ve-raporlama-sss",
   "kvkk-veri-guvenligi-sss": "veri-analiz-ve-raporlama-sss",
 
-  // Otel silo altları → otel-dijital-pazarlama-sss'e bağla
-  "otel-dijital-pazarlama-sss": "otel-dijital-pazarlama-sss",
+  // Otel alt sayfaları
   "otel-seo-sss": "otel-dijital-pazarlama-sss",
   "otel-sosyalmedya-sss": "otel-dijital-pazarlama-sss",
   "otel-reklam-sss": "otel-dijital-pazarlama-sss",
-  "otel-ota-sss": "otel-dijital-pazarlama-sss",
   "otel-pms-sss": "otel-dijital-pazarlama-sss",
   "otel-cagrimerkezi-sss": "otel-dijital-pazarlama-sss",
-
-  //en
-
-  // Services
-"services-faq": "services-faq",
-
-// PMS/OTA
-"pms-ota-faq": "pms-ota-faq",
-"pms-integration-faq": "pms-ota-faq",
-"ota-contract-faq": "pms-ota-faq",
-"reservation-management-faq": "pms-ota-faq",
-"channel-management-faq": "pms-ota-faq",
-"web-payment-faq": "pms-ota-faq",
-
-// Call Center
-"call-center-faq": "call-center-faq",
-"multilingual-call-center-faq": "call-center-faq",
-"performance-analysis-faq": "call-center-faq",
-"message-management-faq": "call-center-faq",
-"after-sales-support-faq": "call-center-faq",
-"reservation-support-faq": "call-center-faq",
-
-// Creative
-"creative-design-faq": "creative-design-faq",
-"corporate-gift-faq": "creative-design-faq",
-"event-production-faq": "creative-design-faq",
-"video-production-faq": "creative-design-faq",
-"ui-ux-design-faq": "creative-design-faq",
-"graphic-motion-design-faq": "creative-design-faq",
-
-// Reporting
-"digital-analysis-faq": "digital-analysis-faq",
-"looker-studio-faq": "digital-analysis-faq",
-"kvkk-data-security-faq": "digital-analysis-faq",
-"digital-sales-analysis-faq": "digital-analysis-faq",
-"benchmark-analysis-faq": "digital-analysis-faq",
-
-// SEM
-"search-engine-marketing-faq": "search-engine-marketing-faq",
-"youtube-advertising-management-faq": "search-engine-marketing-faq",
-"google-ads-advertising-faq": "search-engine-marketing-faq",
-"remarketing-and-display-faq": "search-engine-marketing-faq",
-"tag-manager-faq": "search-engine-marketing-faq",
-"performance-analysis-faq": "search-engine-marketing-faq",
-
-// SEO
-"search-engine-optimization-faq": "search-engine-optimization-faq",
-"technical-seo-faq": "search-engine-optimization-faq",
-"local-seo-faq": "search-engine-optimization-faq",
-"content-seo-faq": "search-engine-optimization-faq",
-"backlink-seo-faq": "search-engine-optimization-faq",
-"seo-reporting-faq": "search-engine-optimization-faq",
-
-// SMM
-"social-media-management-faq": "social-media-management-faq",
-"social-media-content-faq": "social-media-management-faq",
-"social-media-planning-faq": "social-media-management-faq",
-"reels-video-faq": "social-media-management-faq",
-"social-media-ads-faq": "social-media-management-faq",
-"social-media-reporting-faq": "social-media-management-faq",
-
-// Software
-"software-development-faq": "software-development-faq",
-"cms-installation-faq": "software-development-faq",
-"kvkk-compliance-service-faq": "software-development-faq",
-"server-management-faq": "software-development-faq",
-"website-and-software-faq": "software-development-faq",
-"website-maintenance-faq": "software-development-faq",
-
-// Hotel
-"hotel-digital-marketing-faq": "hotel-digital-marketing-faq",
-"hotel-seo-faq": "hotel-digital-marketing-faq",
-"hotel-social-media-faq": "hotel-digital-marketing-faq",
-"hotel-ads-management-faq": "hotel-digital-marketing-faq",
-"hotel-ota-management-faq": "hotel-digital-marketing-faq",
-"hotel-pms-integration-faq": "hotel-digital-marketing-faq",
-"hotel-call-center-faq": "hotel-digital-marketing-faq",
-
 };
 
-// Departman label’ı için de opsiyonel label map
+// ✅ Department label'ları - breadcrumb'da gösterilen isimler
 export const FAQ_DEPT_LABEL_MAP = {
-  tr:{
+  tr: {
     "seo-sss": "SEO",
-  "sem-sss": "SEM",
-  "smm-sss": "SMM",
-  "yazilim-sss": "Yazılım",
-  "cagri-merkezi-sss": "Çağrı Merkezi",
-  "pms-ota-sss": "PMS & OTA",
-  "veri-analiz-ve-raporlama-sss": "Raporlama",
-  "otel-dijital-pazarlama-sss": "Otel Dijital Pazarlama",
-  "hizmetlerimiz-sss": "Hizmetler",
+    "sem-sss": "SEM",
+    "smm-sss": "SMM",
+    "yazilim-sss": "Yazılım",
+    "creative-sss": "Creative",
+    "cagri-merkezi-sss": "Çağrı Merkezi",
+    "pms-ota-sss": "PMS & OTA",
+    "veri-analiz-ve-raporlama-sss": "Raporlama",
+    "otel-dijital-pazarlama-sss": "Otel Dijital Pazarlama",
+    "hizmetlerimiz-sss": "Hizmetlerimiz",
+    "sss": "SSS",
   },
 
-  en:{
-"social-media-management-faq": "Social Media Management",
-    "search-engine-optimization-faq": "Search Engine Optimization",
-    "search-engine-marketing-faq": "Search Engine Marketing",
-    "software-development-faq": "Software Development",
+  en: {
+    "search-engine-optimization-faq": "SEO",
+    "search-engine-marketing-faq": "SEM",
+    "social-media-management-faq": "Social Media",
+    "software-development-faq": "Software",
     "creative-design-faq": "Creative",
     "call-center-faq": "Call Center",
     "pms-ota-faq": "PMS & OTA",
     "digital-analysis-faq": "Digital Analysis",
-    "hotel-faq": "Hotel",
-    "services-faq": "Our Services FAQ",
+    "hotel-digital-marketing-faq": "Hotel Digital Marketing",
+    "services-faq": "Our Services",
     "faq": "FAQ",
   }
 };
 
-// faqRouteMap.js
-
 // slug -> dept segment (örn reels-video-sss -> smm)
 export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
-  tr:{
+  tr: {
     // SEM
-  "google-ads-yonetimi-sss": "sem",
-  "youtube-reklam-yonetimi-sss": "sem",
-  "remarketing-ve-display-sss": "sem",
-  "donusum-takibi-tag-manager-sss": "sem",
-  "reklam-raporlama-sss": "sem",
+    "google-ads-yonetimi-sss": "sem",
+    "youtube-reklam-yonetimi-sss": "sem",
+    "remarketing-ve-display-sss": "sem",
+    "donusum-takibi-tag-manager-sss": "sem",
+    "reklam-raporlama-sss": "sem",
 
-  // SEO
-  "teknik-seo-sss": "seo",
-  "local-seo-sss": "seo",
-  "icerik-seo-sss": "seo",
-  "backlink-yonetimi-sss": "seo",
-  "seo-raporlama-sss": "seo",
+    // SEO
+    "teknik-seo-sss": "seo",
+    "local-seo-sss": "seo",
+    "icerik-seo-sss": "seo",
+    "backlink-yonetimi-sss": "seo",
+    "seo-raporlama-sss": "seo",
 
-  // SMM
-  "icerik-uretimi-sss": "smm",
-  "planlama-strateji-sss": "smm",
-  "reels-video-sss": "smm",
-  "sosyal-medya-reklamlari-sss": "smm",
-  "analiz-raporlama-sss": "smm",
+    // SMM
+    "icerik-uretimi-sss": "smm",
+    "planlama-strateji-sss": "smm",
+    "reels-video-sss": "smm",
+    "sosyal-medya-reklamlari-sss": "smm",
+    "analiz-raporlama-sss": "smm",
 
-  // Yazılım
-  "web-sitesi-gelistirme-sss": "yazilim",
-  "cms-entegrasyonu-sss": "yazilim",
-  "kvkk-uyum-hizmeti-sss": "yazilim",
-  "sunucu-guvenlik-sss": "yazilim",
-  "bakim-destek-sss": "yazilim",
+    // Yazılım
+    "web-sitesi-gelistirme-sss": "yazilim",
+    "cms-entegrasyonu-sss": "yazilim",
+    "kvkk-uyum-hizmeti-sss": "yazilim",
+    "sunucu-guvenlik-sss": "yazilim",
+    "bakim-destek-sss": "yazilim",
 
-  // Creative
-  "kurumsal-hediye-tasarimi-sss": "creative",
-  "etkinlik-produksiyonu-sss": "creative",
-  "video-produksiyon-sss": "creative",
-  "ui-ux-tasarim-sss": "creative",
-  "grafik-motion-tasarim-sss": "creative",
+    // Creative
+    "kurumsal-hediye-tasarimi-sss": "creative",
+    "etkinlik-produksiyonu-sss": "creative",
+    "video-produksiyon-sss": "creative",
+    "ui-ux-tasarim-sss": "creative",
+    "grafik-motion-tasarim-sss": "creative",
 
-  // Call center
-  "4-dilli-cagri-merkezi-sss": "cagri-merkezi",
-  "performans-analizi-sss": "cagri-merkezi",
-  "mesaj-yonetimi-sss": "cagri-merkezi",
-  "satis-sonrasi-destek-sss": "cagri-merkezi",
-  "rezervasyon-destegi-sss": "cagri-merkezi",
+    // Call center
+    "4-dilli-cagri-merkezi-sss": "cagri-merkezi",
+    "performans-analizi-sss": "cagri-merkezi",
+    "mesaj-yonetimi-sss": "cagri-merkezi",
+    "satis-sonrasi-destek-sss": "cagri-merkezi",
+    "rezervasyon-destegi-sss": "cagri-merkezi",
 
-  // PMS-OTA
-  "pms-kurulum-sss": "pms-ota",
-  "ota-entegrasyonu-sss": "pms-ota",
-  "rezervasyon-yonetimi-sss": "pms-ota",
-  "kanal-yonetimi-sss": "pms-ota",
-  "online-satis-sss": "pms-ota",
+    // PMS-OTA
+    "pms-kurulum-sss": "pms-ota",
+    "ota-entegrasyonu-sss": "pms-ota",
+    "rezervasyon-yonetimi-sss": "pms-ota",
+    "kanal-yonetimi-sss": "pms-ota",
+    "online-satis-sss": "pms-ota",
 
-  // Raporlama
-  "looker-studio-sss": "raporlama",
-  "benchmark-analiz-sss": "raporlama",
-  "satis-donusumu-sss": "raporlama",
-  "kvkk-veri-guvenligi-sss": "raporlama",
+    // Raporlama
+    "looker-studio-sss": "raporlama",
+    "benchmark-analiz-sss": "raporlama",
+    "satis-donusumu-sss": "raporlama",
+    "kvkk-veri-guvenligi-sss": "raporlama",
 
-  // Otel silo (istersen)
-  "otel-seo-sss": "otel",
-  "otel-sosyalmedya-sss": "otel",
-  "otel-reklam-sss": "otel",
-  "otel-pms-sss": "otel",
-  "otel-cagrimerkezi-sss": "otel",
+    // Otel silo
+    "otel-seo-sss": "otel",
+    "otel-sosyalmedya-sss": "otel",
+    "otel-reklam-sss": "otel",
+    "otel-pms-sss": "otel",
+    "otel-cagrimerkezi-sss": "otel",
   },
 
   en: {
-  // PMS/OTA
-  "pms-ota-faq": "pms-ota",
-  "pms-integration-faq": "pms-ota",
-  "ota-contract-faq": "pms-ota",
-  "reservation-management-faq": "pms-ota",
-  "channel-management-faq": "pms-ota",
-  "web-payment-faq": "pms-ota",
+    // PMS/OTA
+    "pms-integration-faq": "pms-ota",
+    "ota-contract-faq": "pms-ota",
+    "reservation-management-faq": "pms-ota",
+    "channel-management-faq": "pms-ota",
+    "web-payment-faq": "pms-ota",
 
-  // Call Center
-  "call-center-faq": "call-center",
-  "multilingual-call-center-faq": "call-center",
-  "performance-analysis-faq": "call-center",
-  "message-management-faq": "call-center",
-  "after-sales-support-faq": "call-center",
-  "reservation-support-faq": "call-center",
+    // Call Center
+    "multilingual-call-center-faq": "call-center",
+    "performance-analysis-faq": "call-center",
+    "message-management-faq": "call-center",
+    "after-sales-support-faq": "call-center",
+    "reservation-support-faq": "call-center",
 
-  // Creative
-  "creative-design-faq": "creative-design",
-  "corporate-gift-faq": "creative-design",
-  "event-production-faq": "creative-design",
-  "video-production-faq": "creative-design",
-  "ui-ux-design-faq": "creative-design",
-  "graphic-motion-design-faq": "creative-design",
+    // Creative
+    "corporate-gift-faq": "creative-design",
+    "event-production-faq": "creative-design",
+    "video-production-faq": "creative-design",
+    "ui-ux-design-faq": "creative-design",
+    "graphic-motion-design-faq": "creative-design",
 
-  // Reporting
-  "digital-analysis-faq": "digital-analysis",
-  "looker-studio-faq": "digital-analysis",
-  "kvkk-data-security-faq": "digital-analysis",
-  "digital-sales-analysis-faq": "digital-analysis",
-  "benchmark-analysis-faq": "digital-analysis",
+    // Reporting
+    "looker-studio-faq": "digital-analysis",
+    "kvkk-data-security-faq": "digital-analysis",
+    "digital-sales-analysis-faq": "digital-analysis",
+    "benchmark-analysis-faq": "digital-analysis",
 
-  // SEM
-  "search-engine-marketing-faq": "search-engine-marketing",
-  "youtube-advertising-management-faq": "search-engine-marketing",
-  "google-ads-advertising-faq": "search-engine-marketing",
-  "remarketing-and-display-faq": "search-engine-marketing",
-  "tag-manager-faq": "search-engine-marketing",
-  "performance-analysis-faq": "search-engine-marketing",
+    // SEM
+    "youtube-advertising-management-faq": "search-engine-marketing",
+    "google-ads-advertising-faq": "search-engine-marketing",
+    "remarketing-and-display-faq": "search-engine-marketing",
+    "tag-manager-faq": "search-engine-marketing",
+    "performance-analysis-faq": "search-engine-marketing",
 
-  // SEO
-  "search-engine-optimization-faq": "search-engine-optimization",
-  "technical-seo-faq": "search-engine-optimization",
-  "local-seo-faq": "search-engine-optimization",
-  "content-seo-faq": "search-engine-optimization",
-  "backlink-seo-faq": "search-engine-optimization",
-  "seo-reporting-faq": "search-engine-optimization",
+    // SEO
+    "technical-seo-faq": "search-engine-optimization",
+    "local-seo-faq": "search-engine-optimization",
+    "content-seo-faq": "search-engine-optimization",
+    "backlink-seo-faq": "search-engine-optimization",
+    "seo-reporting-faq": "search-engine-optimization",
 
-  // SMM
-  "social-media-management-faq": "social-media-management",
-  "social-media-content-faq": "social-media-management",
-  "social-media-planning-faq": "social-media-management",
-  "reels-video-faq": "social-media-management",
-  "social-media-ads-faq": "social-media-management",
-  "social-media-reporting-faq": "social-media-management",
+    // SMM
+    "social-media-content-faq": "social-media-management",
+    "social-media-planning-faq": "social-media-management",
+    "reels-video-faq": "social-media-management",
+    "social-media-ads-faq": "social-media-management",
+    "social-media-reporting-faq": "social-media-management",
 
-  // Software
-  "software-development-faq": "software-development",
-  "cms-installation-faq": "software-development",
-  "kvkk-compliance-service-faq": "software-development",
-  "server-management-faq": "software-development",
-  "website-and-software-faq": "software-development",
-  "website-maintenance-faq": "software-development",
+    // Software
+    "cms-installation-faq": "software-development",
+    "kvkk-compliance-service-faq": "software-development",
+    "server-management-faq": "software-development",
+    "website-and-software-faq": "software-development",
+    "website-maintenance-faq": "software-development",
 
-  // Hotel
-  "hotel-digital-marketing-faq": "hotel",
-  "hotel-seo-faq": "hotel",
-  "hotel-social-media-faq": "hotel",
-  "hotel-ads-management-faq": "hotel",
-  "hotel-ota-management-faq": "hotel",
-  "hotel-pms-integration-faq": "hotel",
-  "hotel-call-center-faq": "hotel",
-
-  // Services
-  "services-faq": "services",
-}
+    // Hotel
+    "hotel-seo-faq": "hotel",
+    "hotel-social-media-faq": "hotel",
+    "hotel-ads-management-faq": "hotel",
+    "hotel-ota-management-faq": "hotel",
+    "hotel-pms-integration-faq": "hotel",
+    "hotel-call-center-faq": "hotel",
+  }
 };
-
-
