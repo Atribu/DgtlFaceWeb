@@ -73,7 +73,9 @@ export const BLOG_MAP = {
     "otel-mobile-first-ui-ux-rehberi":"BlogOtelMobileFirstUIUXRehberi",
     "figma-otel-web-tasarimi-wireframe-prototip":"BlogFigmaIleOtelWebSitesiTasarimiWireframeDenPrototipe",
     "cok-dilli-otel-ux-tr-en-de-ru":"BlogCokDilliOtelUxTrEnDeRu",
-    "otel-ui-bilesenleri-donusum-odakli":"BlogOtelUIBilesenleriDonusumOdakli"
+    "otel-ui-bilesenleri-donusum-odakli":"BlogOtelUIBilesenleriDonusumOdakli",
+
+    "otel-tanitim-videosu-nasil-planlanir":"BlogCreativeOtelTanitimVideosuNasilPlanlanir"
   },
 
        "cagri-merkezi": {
@@ -87,7 +89,9 @@ export const BLOG_MAP = {
     "telefonla-rezervasyon-donusum-orani-artirma":"BlogTelefonlaRezervasyonDonusumOraniArtirma",
     "ota-rezervasyon-sorulari-degisiklik-ve-iptal-yonetimi":"BlogOtaRezervasyonSorulariDegisiklikVeIptalYonetimi",
     "rezervasyon-oncesi-soru-sorma-qualification":"BlogCagriMerkeziRezervasyonOncesiSoruSormaQualification",
-    "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":"BlogCagriMerkeziOzelSegmentRezervasyonCagrilariEngelliAileBalayiVb"
+    "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":"BlogCagriMerkeziOzelSegmentRezervasyonCagrilariEngelliAileBalayiVb",
+
+    "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":"BlogCallCenterOtelSosyalMedyaMesajYonetimiTemelRehber"
   },
 
     "pms-ota": {

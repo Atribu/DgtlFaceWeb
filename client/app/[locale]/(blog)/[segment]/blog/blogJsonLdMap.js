@@ -2705,6 +2705,135 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"seo-uyumlu-icerik-nasil-yazilir-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber",
+      "name": "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#webpage" },
+      "headline": "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber",
+      "description": "SEO uyumlu içerik nasıl yazılır? Intent’e göre anahtar kelime seçimi, Title/H1 ve heading kurgusu, iç linkler, görsel alt metinleri ve yayın sonrası kontrol listesi.",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO (Content SEO)",
+      "serviceType": "Content SEO",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#howto",
+      "name": "SEO Uyumlu İçerik Nasıl Yazılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Arama niyetini doğrula",
+          "text": "SERP ve PAA sonuçlarına bakarak informational/service niyeti netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Title/H1 ve heading iskeletini kur",
+          "text": "Ana temaları H2, alt adımları H3/H4 ile yapılandır; soru başlıkları ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Okunabilir içerik yaz ve optimize et",
+          "text": "Kısa paragraflar, listeler, örnekler, görsel alt metinleri ve iç link/CTA ile tamamla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yayın sonrası kontrol ve refresh uygula",
+          "text": "CTR/konum/PAA görünürlüğü ve iç link akışını takip edip yılda en az 1 kez güncelle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+        { "@type": "ListItem", "position": 3, "name": "İçerik SEO", "item": "https://dgtlface.com/tr/seo/icerik-seo" },
+        { "@type": "ListItem", "position": 4, "name": "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber", "item": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SEO uyumlu içerik nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce arama niyetini doğrulayın, sonra ana anahtar kelimeye göre Title/H1 ve H2 iskeletini kurun. Okunabilir metin, uygun listeler, görsel alt metinleri ve iç link/CTA ile içerik tamamlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Başlık ve H1’de nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Title, SERP’te tıklamayı (CTR) etkiler; H1 ise sayfanın ana konusunu içeride netleştirir. Aynı niyeti taşıyacak şekilde vaat ve açıklığı dengede kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anahtar kelime yoğunluğu kaç olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabit bir yüzde yoktur; amaç doğal anlatımı bozmadan konuyu netleştirmektir. Ana kelime Title/H1’de yer almalı, yardımcı kelimeler ilgili alt başlıklarda doğal kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İçerikte iç linkleri nereye yerleştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İç linkleri, kullanıcı bir sonraki adımı aradığı anlara koyun: kavram sonrası, çözüm bölümü ve final özet/sprint planı. Anchor metinleri anlamlı ve niyete uygun olmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-uyumlu-icerik-nasil-yazilir-temel-rehber/#speakable",
+      "cssSelector": [
+        "article h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
 
     },
@@ -4142,6 +4271,182 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"reels-icerik-stratejisi-ve-hedef-kurgusu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu",
+      "name": "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Reels Strategy"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#webpage"
+      },
+      "headline": "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
+      "description": "Reels içerik stratejisini hedef ve funnel’a göre kurun: eğitici, ilham, sosyal kanıt ve teklif formatlarıyla erişimi satışa bağlayın. Plan için DGTLFACE’e yazın.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "datePublished": "2026-01-06",
+      "dateModified": "2026-01-06",
+      "keywords": [
+        "reels içerik stratejisi",
+        "kısa video funnel kurgusu",
+        "otel için reels örnekleri",
+        "short-form video",
+        "marketing funnel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+      "name": "Reels & Video İçerik Üretimi",
+      "serviceType": "Short-Form Video Strategy & Production",
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels & Video İçerik Üretimi",
+          "item": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
+          "item": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reels içerik stratejisi nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce hedefi ve funnel aşamalarını netleştirin; sonra her aşama için içerik türü, tek CTA ve KPI belirleyin. Strateji, trend yerine plan ile başlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reels, keşif ve satış hunisinde ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keşifte yeni kitleye ulaşır, consideration’da güven sinyalleri üretir, conversion’da tek aksiyonla lead/rezervasyon tetikler. Aşamaya göre kurgulamak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Haftalık kaç reels paylaşmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu ekip için 3–5 reels/hafta sürdürülebilir bir banttır. Kritik olan sayıdan çok her hafta keşif, güven ve hedefe göre dönüşüm içeriğini dengede tutmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trend ses kullanmak şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şart değil; trend ses kancayı güçlendirebilir ama stratejinin yerini tutmaz. Funnel-first modelde mesaj ve CTA netse plan çalışır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#howto",
+      "name": "Funnel-First Reels Planı Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Funnel hedefini belirle",
+          "text": "Awareness–consideration–conversion–loyalty aşamalarını yaz ve ayın önceliğini seç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Aşama bazlı format ve CTA seç",
+          "text": "Her aşama için içerik türü (eğitici/ilham/kanıt/teklif), tek CTA ve KPI tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ritim ve seri mantığını takvime oturt",
+          "text": "Haftalık 3–5 reels ritmi seç, 2 seri belirle ve üretim akışını (brief–çekim–edit–yayın) standartlaştır."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
 
     },
@@ -5321,6 +5626,134 @@ export const BLOG_JSONLD_MAP = {
         { "@type": "HowToStep", "name": "Publish gate ve UAT ekle", "text": "Eksik SEO/kritik alanlarda yayın engeli koy; staging’de UAT checklist’i zorunlu yap." },
         { "@type": "HowToStep", "name": "Rollback’i hazır tut", "text": "Content rollback (version history) ve deploy rollback prosedürlerini dokümante et; lansman öncesi test et." }
       ]
+    }
+  ]
+},
+
+//
+
+"kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist",
+      "name": "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#article",
+      "headline": "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist",
+      "description": "KVKK için formlar, çerezler, loglar, erişim ve yedeklemeyi teknik checklist ile denetleyin. Otel ve B2B projelerinde riski azaltın, aksiyon planı çıkarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#webpage" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "KVKK Technical Compliance",
+        "Web Infrastructure",
+        "Forms/Cookies/Logs/Access",
+        "Hotel & B2B Data Flows"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+      "name": "KVKK Uyum Hizmeti",
+      "serviceType": "KVKK uyumlu web altyapısı teknik tarama ve aksiyon planı",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yazılım",
+          "item": "https://dgtlface.com/tr/yazilim/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK Uyum Hizmeti",
+          "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist",
+          "item": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK uyumlu web altyapısı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form, çerez, log, erişim ve yedekleme katmanları birlikte ele alınmalı; veri akışı çıkarılıp consent ve erişim kontrolleri sprint planıyla uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web sitesinde hangi teknik başlıklar KVKK ile ilişkilidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form alanları ve consent kayıtları, çerez yönetimi ve tag tetikleri, loglarda PII maskeleme/retention, panel RBAC+MFA ve yedekleme şifreleme politikaları doğrudan ilişkilidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Loglama, erişim yetkisi ve yedekleme KVKK için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kişisel veri loglarda görünebilir, erişimler izlenmezse kontrol kaybolur ve yedekler şifrelenmezse veri sızıntısı etkisi büyür; bu yüzden teknik kontroller zorunludur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerez banner’ı tek başına KVKK uyumu sağlar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Banner izin katmanıdır; form verisi işleme, log kayıtları, panel yetkileri ve üçüncü taraf entegrasyonlar da teknik uyum kapsamında yönetilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#speakable",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist/#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
     }
   ]
 }
@@ -6839,6 +7272,165 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+//
+
+"otel-tanitim-videosu-nasil-planlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir",
+      "name": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#webpage" },
+      "headline": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+      "name": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+      "description": "Otel tanıtım videosu planlama rehberi: brief, storyboard, shot list ve call sheet ile çekim gününü kontrol altına alın. Antalya–Bodrum örnekleriyle. Brief talep edin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#webpage" },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "about": [
+        "Hotel Promo Video",
+        "Brief",
+        "Storyboard",
+        "Shot List",
+        "Production Day",
+        "Post Production"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "serviceType": "Video & Prodüksiyon",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum"
+      ],
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative",
+          "item": "https://dgtlface.com/tr/creative/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Video & Prodüksiyon",
+          "item": "https://dgtlface.com/tr/creative/video-produksiyon"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+          "item": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#howto",
+      "name": "Otel tanıtım videosu planlama adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Brief’i kilitle", "text": "Amaç, pazar, mesaj ve teslim formatlarını netleştir." },
+        { "@type": "HowToStep", "name": "Storyboard oluştur", "text": "Sahne sahne anlatıyı kur ve kanıt setini yerleştir." },
+        { "@type": "HowToStep", "name": "Shot list hazırla", "text": "Kadraj/hareket/amaç/süre bilgileriyle çekim tablosunu oluştur." },
+        { "@type": "HowToStep", "name": "Call sheet oluştur", "text": "Saat–mekân–ekip–ışık planını ve izinleri çekim gününe bağla." },
+        { "@type": "HowToStep", "name": "Post prodüksiyon teslimlerini kilitle", "text": "Renk, müzik, altyazı ve format teslim paketini baştan tanımla." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-nasil-planlanir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel tanıtım videosu nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brief ile hedef ve teslim formatlarını netleştirerek başlayın; storyboard ile anlatıyı kurun, shot list ile çekilecek kareleri tanımlayın ve call sheet ile çekim günü akışını saat bazında planlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video prodüksiyon brief’inde neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaç, hedef kitle/pazar, ana mesaj, kanıt seti, teslim formatları ve onay akışı yer almalı; ayrıca izinler ve operasyon kısıtları belirtilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çekim listesi (shot list) nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her sahne için lokasyon, kadraj/hareket, amaç, süre ve not alanı olan bir tablo kurun; storyboard sahnelerini shot list satırlarına birebir bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çekim günü otelde nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel operasyonu ile çakışmaları önlemek için call sheet’i departmanlarla birlikte finalize edin, izinleri önceden alın ve ışık saatlerini planın merkezine koyun."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -8108,7 +8700,11 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+//
+
+"otel-sosyal-medya-mesaj-yonetimi-temel-rehber":{}
 
     },
 

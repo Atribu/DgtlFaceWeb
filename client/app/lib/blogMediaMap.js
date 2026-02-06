@@ -5021,6 +5021,107 @@ export const BLOG_MEDIA_MAP = {
       alt: "KVKK teknik analiz çıktıları ve sprint planı teslimleri, otel bağlamı",
       caption: "KVKK teknik analiz çıktıları ve sprint planı teslimleri, otel bağlamı"
     }
+  },
+
+
+  "otel-tanitim-videosu-nasil-planlanir":{
+     banner: {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-1.webp",
+      alt: "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe",
+      caption: "Otel Tanıtım Videosu Nasıl Planlanır? Brief’ten Çekim Gününe"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-2.webp",
+      alt: "Hotel promo video planning sürecini özetleyen plan masası görseli",
+      caption: "Hotel promo video planning sürecini özetleyen plan masası görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-3.webp",
+      alt: "Otel videosu planlama adımlarını ayıran bölüm geçiş görseli",
+      caption: "Otel videosu planlama adımlarını ayıran bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-4.webp",
+      alt: "Çekim günü organizasyonu, ekip ve ışık planı geçiş görseli",
+      caption: "Çekim günü organizasyonu, ekip ve ışık planı geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-5.webp",
+      alt: "Brief storyboard shot list call sheet akışını gösteren diyagram",
+      caption: "Brief storyboard shot list call sheet akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-6.webp",
+      alt: "Otel video brief checklist’i, teslim formatları ve onay adımları kartı",
+      caption: "Otel video brief checklist’i, teslim formatları ve onay adımları kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-7.webp",
+      alt: "Prodüksiyon verim KPI’ları, tekrar çekim ve zaman kaybı azaltma kartı",
+      caption: "Prodüksiyon verim KPI’ları, tekrar çekim ve zaman kaybı azaltma kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-1/Creative3-1-8.webp",
+      alt: "Video teslim paketi, formatlar ve çok dilli altyazı çıktıları kartı",
+      caption: "Video teslim paketi, formatlar ve çok dilli altyazı çıktıları kartı"
+    }
+  },
+
+  "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-2.webp",
+      alt: "DM ve WhatsApp mesajlarının satış fırsatına dönüşmesini anlatan görsel",
+      caption: "DM ve WhatsApp mesajlarının satış fırsatına dönüşmesini anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-3.webp",
+      alt: "Mesaj yönetiminin memnuniyet ve satış etkisini ayıran bölüm görseli",
+      caption: "Mesaj yönetiminin memnuniyet ve satış etkisini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-4.webp",
+      alt: "SLA ve önceliklendirme yaklaşımını özetleyen ayraç görseli",
+      caption: "SLA ve önceliklendirme yaklaşımını özetleyen ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-5.webp",
+      alt: "Kanaldan triage’a ve çözüm ekibine giden mesaj akış diyagramı",
+      caption: "Kanaldan triage’a ve çözüm ekibine giden mesaj akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creacallcentertive/Callcenter3-1/Callcenter3-1-6.webp",
+      alt: "Triage ve SLA için hızlı uygulama kontrol kartı",
+      caption: "Triage ve SLA için hızlı uygulama kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-7.webp",
+      alt: "Mesaj operasyonunda temel KPI’ları gösteren skor kartı",
+      caption: "Mesaj operasyonunda temel KPI’ları gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-1/Callcenter3-1-8.webp",
+      alt: "Yanıt şablonları ve rapor çıktılarıyla güven sağlayan kanıt görseli",
+      caption: "Yanıt şablonları ve rapor çıktılarıyla güven sağlayan kanıt görseli"
+    }
   }
 
 

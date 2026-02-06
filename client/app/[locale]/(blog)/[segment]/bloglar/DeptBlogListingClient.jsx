@@ -79,8 +79,8 @@ const SUB_DEPTS = {
   "cagri-merkezi": [
     { id: "multilang", label: "4 Dilli Çağrı Merkezi", href: "/cagri-merkezi/4-dilli-cagri-merkezi" },
     { id: "reservationSupport", label: "Rezervasyon Desteği", href: "/cagri-merkezi/rezervasyon-destegi" },
+     { id: "message", label: "Mesaj & DM Yönetimi", href: "/cagri-merkezi/mesaj-dm-yonetimi" },
     { id: "performance", label: "Performans Analizi", href: "/cagri-merkezi/performans-analizi" },
-    { id: "message", label: "Mesaj & DM Yönetimi", href: "/cagri-merkezi/mesaj-dm-yonetimi" },
     { id: "aftersales", label: "Satış Sonrası Destek", href: "/cagri-merkezi/satis-sonrasi-destek" },
   ],
 

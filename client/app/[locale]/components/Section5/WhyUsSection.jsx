@@ -208,7 +208,7 @@ const renderRichDescription = (key) => {
               {t("whyUs_header1")}
             </h5>
             <div className="flex flex-col items-center justify-center lg:justify-start lg:items-start gap-[12px] lg:gap-[18px]">
-              <p
+              <div
   className="
     lg:w-[100%] w-[94%] relative text-justify justify-start
     text-[#140f25] lg:text-[14px] text-[14px]
@@ -229,7 +229,7 @@ const renderRichDescription = (key) => {
     // JSON'da <li> ... </li> kullanırsan
     li: (chunks) => <li>{chunks}</li>,
   })}
-</p>
+</div>
 
           
             </div>
