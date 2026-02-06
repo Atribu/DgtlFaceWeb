@@ -4870,6 +4870,160 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":{
+     banner: {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-1.webp",
+      alt: "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber",
+      caption: "SEO Uyumlu İçerik Nasıl Yazılır? Adım Adım Temel Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-2.webp",
+      alt: "Arama niyeti ve heading yapısı, içerik SEO otel örneği",
+      caption: "Arama niyeti ve heading yapısı, içerik SEO otel örneği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-3.webp",
+      alt: "Title ve H1 bölümü ayırıcı, içerik SEO bağlamı",
+      caption: "Title ve H1 bölümü ayırıcı, içerik SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-4.webp",
+      alt: "Yayın sonrası kontrol bölümü ayırıcı, SEO içerik güncelleme",
+      caption: "Yayın sonrası kontrol bölümü ayırıcı, SEO içerik güncelleme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-5.webp",
+      alt: "İçerik üretim akışı diyagramı, otel içerik SEO süreci",
+      caption: "İçerik üretim akışı diyagramı, otel içerik SEO süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-6.webp",
+      alt: "SEO uyumlu içerik checklist kartı, hızlı uygulama adımları",
+      caption: "SEO uyumlu içerik checklist kartı, hızlı uygulama adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-7.webp",
+      alt: "CTR ve pozisyon KPI kartı, içerik SEO performans takibi",
+      caption: "CTR ve pozisyon KPI kartı, içerik SEO performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-1/SEO3-1-8.webp",
+      alt: "İçerik SEO çıktıları kartı, analiz ve iyileştirme deliverables",
+      caption: "İçerik SEO çıktıları kartı, analiz ve iyileştirme deliverables"
+    }
+  },
+
+
+  "reels-icerik-stratejisi-ve-hedef-kurgusu":{
+     banner: {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-1.webp",
+      alt: "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu",
+      caption: "Reels İçerik Stratejisi: Hedef, Funnel ve Format Kurgusu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-2.webp",
+      alt: "Kısa video stratejisinde hedef ve format ilişkisini anlatan bağlam görseli",
+      caption: "Kısa video stratejisinde hedef ve format ilişkisini anlatan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-3.webp",
+      alt: "Reels’in keşif ve güven rolünü açıklayan bölüm ayırıcı görsel",
+      caption: "Reels’in keşif ve güven rolünü açıklayan bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-4.webp",
+      alt: "Reels içerik türlerini sınıflandıran bölüm ayırıcı görsel",
+      caption: "Reels içerik türlerini sınıflandıran bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-5.webp",
+      alt: "Awareness’ten conversion’a reels funnel akışını anlatan diyagram",
+      caption: "Awareness’ten conversion’a reels funnel akışını anlatan diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-6.webp",
+      alt: "Funnel-first reels planı için hızlı kontrol kartı görseli",
+      caption: "Funnel-first reels planı için hızlı kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-7.webp",
+      alt: "Reels KPI setini özetleyen skor kartı görseli",
+      caption: "Reels KPI setini özetleyen skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-1/SMM3-1-8.webp",
+      alt: "Reels üretim çıktıları ve güven unsurlarını gösteren kanıt kartı görseli",
+      caption: "Reels üretim çıktıları ve güven unsurlarını gösteren kanıt kartı görseli"
+    }
+  },
+
+
+  "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":{
+      banner: {
+      src: "/images/blog/software/Software3-1/Software3-1-1.webp",
+      alt: "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist",
+      caption: "KVKK Uyumlu Web Altyapısı: Teknik ve Operasyonel Checklist"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-1/Software3-1-2.webp",
+      alt: "Form, çerez ve log veri noktaları, otel web uyum bağlamı",
+      caption: "Form, çerez ve log veri noktaları, otel web uyum bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-1/Software3-1-3.webp",
+      alt: " KVKK teknik uyum modeline giriş, otel operasyonu görsel ayracı",
+      caption: "KVKK teknik uyum modeline giriş, otel operasyonu görsel ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-1/Software3-1-4.webp",
+      alt: "Erişim ve yetki yönetimi bölümü, otel ve B2B güvenlik ayracı",
+      caption: "Erişim ve yetki yönetimi bölümü, otel ve B2B güvenlik ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-1/Software3-1-5.webp",
+      alt: "Webten PMS CRM çağrı merkezine veri akışı diyagramı, otel senaryosu",
+      caption: "Webten PMS CRM çağrı merkezine veri akışı diyagramı, otel senaryosu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-1/Software3-1-6.webp",
+      alt: "KVKK teknik tarama mini checklist kartı, otel ve B2B uygulaması",
+      caption: "KVKK teknik tarama mini checklist kartı, otel ve B2B uygulaması"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-1/Software3-1-7.webp",
+      alt: "Log erişim yedekleme olgunluk KPI paneli, otel ve B2B uyumu",
+      caption: "Log erişim yedekleme olgunluk KPI paneli, otel ve B2B uyumu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-1/Software3-1-8.webp",
+      alt: "KVKK teknik analiz çıktıları ve sprint planı teslimleri, otel bağlamı",
+      caption: "KVKK teknik analiz çıktıları ve sprint planı teslimleri, otel bağlamı"
+    }
+  }
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

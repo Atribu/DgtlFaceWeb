@@ -26,7 +26,9 @@ export const BLOG_MAP = {
     "google-business-profile-otel-optimizasyon-checklist":"BlogGoogleBusinessProfileOtelOptimizasyonChecklist",
     "yorum-yonetimi-ve-puanlama-otel-yerel-seo-stratejisi":"BlogYorumYonetimiVePuanlamaOtelYerelSeoStratejisi",
     "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":"BlogNapTutarliligiYerelDizinlerVeSitelerArasiOtorite",
-    "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":"BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin"
+    "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":"BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin",
+
+    "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":"BlogSeoSeoUyumluIcerikNasilYazilirTemelRehber"
   },
 
     smm: {
@@ -40,7 +42,9 @@ export const BLOG_MAP = {
     "hedef-kitle-ve-persona-arastirmasi-ile-sosyal-medya-stratejisi":"BlogHedefKitleVePersonaArastirmasiIleSosyalMedyaStratejisi",
     "always-on-ve-kampanya-bazli-icerik-stratejisi-farklari":"BlogAlwaysOnVeKampanyaBazliIcerikStratejisiFarklari",
     "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":"BlogSosyalMedyaKpiCercevesiHedefVeBasarimNasilOlculur",
-    "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":"BlogSmmSezonlukVeLansmanKampanyalariIcinSosyalMedyaStratejiDokumani"
+    "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":"BlogSmmSezonlukVeLansmanKampanyalariIcinSosyalMedyaStratejiDokumani",
+
+    "reels-icerik-stratejisi-ve-hedef-kurgusu":"BlogSmmReelsIcerikStratejisiVeHedefKurgusu"
   },
 
     yazilim: {
@@ -54,7 +58,9 @@ export const BLOG_MAP = {
     "rol-tabanli-yetkilendirme-ve-kullanici-yonetimi-cms-panelinde-guvenlik-mimarisi":"BlogRolTabanliYetkilendirmeVeKullaniciYonetimiCmsPanelindeGuvenlikMimarisi",
     "cok-dilli-cms-tasarimi-tr-en-de-ru-icerikleri-tek-panelden-yonetmek":"BlogCokDilliCmsTasarimiTrEnDeRuIcerikleriTekPaneldenYonetmek",
     "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":"BlogCmsPerformansVeCacheStratejisiHeadlessVeNextjsEntegrasyonlarindaHiz",
-    "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":"BlogYazilimCmsOrtamlarıVeYayinSurecleriDraftStagingProdWorkflow"
+    "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":"BlogYazilimCmsOrtamlarıVeYayinSurecleriDraftStagingProdWorkflow",
+
+    "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":"BlogYazilimKVKKUyumluWebAltyapisiTeknikVeOperasyonelChecklist"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
