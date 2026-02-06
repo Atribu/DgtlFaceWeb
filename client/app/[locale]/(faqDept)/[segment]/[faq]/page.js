@@ -3,24 +3,78 @@ import React from "react";
 import { notFound } from "next/navigation";
 import { FAQ_MAP } from "../../../(faq)/faqMap";
 import { FAQ_JSONLD_MAP } from "../../../(faq)/faqJsonLdMap";
-import { FAQ_DEPT_CRUMB_MAP, FAQ_DEPT_LABEL_MAP, FAQ_SLUG_DEPT_SEGMENT_MAP } from "../../../faqRouteMap";
+import {
+  FAQ_DEPT_CRUMB_MAP,
+  FAQ_DEPT_LABEL_MAP,
+  FAQ_SLUG_DEPT_SEGMENT_MAP,
+} from "../../../faqRouteMap";
 import SearchBanner from "../../../sss/components/SearchBanner";
-import FaqMain from "../../../sss/components/FaqMain";
-import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd"; // ✅ EKLEND
+import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd";
 import Breadcrumbs from "@/app/[locale]/(faq)/[segment]/components/Breadcrumbs";
 import { getFaqOgImageUrl } from "../../../(faq)/utils/faqOgImage";
 import FaqMainServer from "@/app/[locale]/sss/components/FaqMainServer";
 
+// ============================================================================
+// YARDIMCI FONKSİYONLAR
+// ============================================================================
 
-// metaFromJsonLd + buildEnhancedJsonLd + buildBreadcrumbJsonLd fonksiyonlarını
-// mevcut dosyandan olduğu gibi buraya taşıyabilirsin.
+/**
+ * Locale ve slug'a göre doğru FAQ URL'ini oluşturur
+ * TR: /tr/yazilim/cms-entegrasyonu-sss
+ * EN: /en/software-development/cms-entegrasyonu-sss
+ */
+function buildFaqUrl(locale, slug, deptSegment = null) {
+  // Eğer department segment verilmediyse, slug'dan bul
+  const segment = deptSegment || FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
+
+  if (segment) {
+    return `/${locale}/${segment}/${slug}`;
+  }
+
+  // Root FAQ sayfaları için
+  if (slug === "sss") {
+    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
+  }
+
+  if (slug === "hizmetlerimiz-sss") {
+    return `/${locale}/${locale === "en" ? "services/faq" : "hizmetlerimiz-sss"}`;
+  }
+
+  return `/${locale}/${slug}`;
+}
+
+/**
+ * Department ana sayfası URL'ini oluşturur
+ * TR: /tr/seo-sss
+ * EN: /en/search-engine-optimization/seo-sss (veya /en/seo/seo-sss - routing'e göre)
+ */
+function buildDeptUrl(locale, deptSlug) {
+  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[deptSlug];
+
+  if (deptSegment) {
+    return `/${locale}/${deptSegment}/${deptSlug}`;
+  }
+
+  return `/${locale}/${deptSlug}`;
+}
+
+// ============================================================================
+// METADATA FONKSİYONU
+// ============================================================================
 
 export async function generateMetadata({ params }) {
   const locale = params?.locale || "tr";
   const slug = params?.faq;
+  const segment = params?.segment;
+
+    // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
+  if (locale === "en" && /-sss$/.test(slug)) {
+    notFound();
+  }
 
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
+
   if (!fixedJsonLd) return {};
 
   const siteUrl = "https://dgtlface.com";
@@ -38,7 +92,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       description,
-      url: canonical || `${siteUrl}/${locale}/${params?.segment}/${slug}`,
+      url: canonical || `${siteUrl}${buildFaqUrl(locale, slug, segment)}`,
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
@@ -54,20 +108,29 @@ export async function generateMetadata({ params }) {
   };
 }
 
-function buildEnhancedJsonLd(baseJsonLd, slug) {
+// ============================================================================
+// JSON-LD STRUCTURED DATA FONKSİYONLARI
+// ============================================================================
+
+/**
+ * Google için zenginleştirilmiş JSON-LD verisi oluşturur
+ */
+function buildEnhancedJsonLd(baseJsonLd, slug, locale) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
 
   const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
-  const inLanguage = baseJsonLd.inLanguage || "tr";
+  const inLanguage = baseJsonLd.inLanguage || locale;
 
   const nodes = [];
 
+  // Ana FAQ JSON-LD
   nodes.push(baseJsonLd);
 
-  // ✅ BreadcrumbList ekle
-  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug);
+  // Breadcrumb JSON-LD
+  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug, locale);
   if (breadcrumb) nodes.push(breadcrumb);
 
+  // WebPage JSON-LD
   nodes.push({
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -82,6 +145,7 @@ function buildEnhancedJsonLd(baseJsonLd, slug) {
     },
   });
 
+  // Voice query examples (varsa)
   const voiceQueries = Array.isArray(baseJsonLd.dgVoiceQueryExamples)
     ? baseJsonLd.dgVoiceQueryExamples
     : [];
@@ -103,46 +167,56 @@ function buildEnhancedJsonLd(baseJsonLd, slug) {
   return nodes;
 }
 
-
-/**breadcrumb üretme */
-function buildBreadcrumbJsonLd(baseJsonLd, slug) {
+/**
+ * Breadcrumb (ekmek kırıntıları) JSON-LD verisi oluşturur
+ * Ana Sayfa > SSS > SEO > Teknik SEO gibi
+ */
+function buildBreadcrumbJsonLd(baseJsonLd, slug, locale) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
 
   const pageUrl = baseJsonLd.url || "";
-  const inLanguage = baseJsonLd.inLanguage || "tr";
+  const inLanguage = baseJsonLd.inLanguage || locale;
 
   if (!pageUrl) return null;
 
-  // Locale tespiti (sen localePrefix always kullanıyorsun)
-  const locale = pageUrl.includes("/en/") ? "en" : pageUrl.includes("/ru/") ? "ru" : "tr";
+  // Etiketler (locale'e göre)
+  const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
+  const faqLabel = locale === "en" ? "FAQ" : "SSS";
 
-  // SSS index URL
-  const faqIndexUrl = `https://dgtlface.com/${locale}/sss`;
+  // FAQ index URL
+  const faqIndexSlug = locale === "en" ? "faq" : "sss";
+  const faqIndexUrl = `https://dgtlface.com/${locale}/${faqIndexSlug}`;
 
-  // Departman slug + label + url
+  // Department bilgileri
   const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
-  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[deptSlug] || "Kategori") : null;
-  const deptUrl = deptSlug ? `https://dgtlface.com/${locale}/${deptSlug}` : "";
+  const deptLabel = deptSlug
+    ? FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlug] || "Category"
+    : null;
+
+  let deptUrl = "";
+  if (deptSlug && deptSlug !== slug) {
+    deptUrl = `https://dgtlface.com${buildDeptUrl(locale, deptSlug)}`;
+  }
 
   const items = [];
 
-  // 1) Home
+  // 1) Ana Sayfa
   items.push({
-    name: "Ana Sayfa",
-    item: `https://dgtlface.com/${locale}`, 
+    name: homeLabel,
+    item: `https://dgtlface.com/${locale}`,
   });
 
-  // 2) SSS index
-  items.push({ name: "SSS", item: faqIndexUrl });
+  // 2) SSS Ana Sayfa
+  items.push({ name: faqLabel, item: faqIndexUrl });
 
-  // 3) Departman (varsa)  ✅ İŞTE BURAYA
+  // 3) Departman (varsa ve mevcut sayfadan farklıysa)
   if (deptUrl && deptLabel) {
     items.push({ name: deptLabel, item: deptUrl });
   }
 
-  // 4) Current page
+  // 4) Mevcut Sayfa
   items.push({
-    name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || "SSS",
+    name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || faqLabel,
     item: pageUrl,
   });
 
@@ -160,50 +234,79 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug) {
   };
 }
 
+// ============================================================================
+// ANA SAYFA KOMPONENTİ
+// ============================================================================
 
 export default function Page({ params }) {
   const locale = params?.locale || "tr";
-  const dept = params?.segment;     // smm
-  const slug = params?.faq;      // reels-video-sss
+  const segment = params?.segment; // URL'deki department segmenti (örn: "yazilim", "software-development")
+  const slug = params?.faq; // FAQ slug'ı (örn: "cms-entegrasyonu-sss")
 
+  // FAQ namespace ve JSON-LD verisini al
   const pageNs = FAQ_MAP?.[slug];
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
-   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale); // ✅ EKLENDİ
+  const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
 
+  // Sayfa bulunamazsa 404
   if (!pageNs) notFound();
 
-  // ✅ slug’ın dept’i doğru mu?
-const expectedDept = FAQ_SLUG_DEPT_SEGMENT_MAP?.[slug];
+  // ============================================================================
+  // GÜVENLİK KONTROLÜ
+  // ============================================================================
+  // Slug'ın beklenen department segmentinde olup olmadığını kontrol et
+  // Örnek: "cms-entegrasyonu-sss" slug'ı mutlaka "yazilim" (TR) veya
+  // "software-development" (EN) segmentinde olmalı
+  const expectedSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
 
-// slug dept’li ise kontrol et
-if (expectedDept && expectedDept !== dept) {
-  notFound();
-}
+  if (expectedSegment && expectedSegment !== segment) {
+    // Yanlış department'ta ise 404
+    notFound();
+  }
 
-  // Breadcrumb için senin mevcut yaklaşımın aynen kullanılabilir:
+  // ============================================================================
+  // BREADCRUMB (EKMEK KIRINTILARI) OLUŞTURMA
+  // ============================================================================
+
+  // Locale'e göre etiketler
+  const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
+  const faqLabel = locale === "en" ? "FAQ" : "SSS";
+
+  // Department bilgileri
   const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
-  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[deptSlug] || "Kategori") : null;
+  const deptLabel = deptSlug
+    ? FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlug] || "Category"
+    : null;
 
+  // URL'ler
   const homeHref = `/${locale}`;
-  const faqIndexHref = `/${locale}/sss`;
+  const faqIndexHref = `/${locale}/${locale === "en" ? "faq" : "sss"}`;
+  const deptHref = deptSlug ? buildDeptUrl(locale, deptSlug) : null;
+  const currentHref = buildFaqUrl(locale, slug, segment);
 
-  // Kategori sayfaları halen /seo-sss vb kaldığı için:
-  const deptHref = deptSlug ? `/${locale}/${deptSlug}` : null;
-
-  const currentHref =
-    fixedJsonLd?.url?.replace("https://dgtlface.com", "") || `/${locale}/${dept}/${slug}`; //
-
+  // Breadcrumb öğelerini oluştur
   const crumbItems = [
-    { label: "Ana Sayfa", href: homeHref },
-    { label: "SSS", href: faqIndexHref },
-    ...(deptSlug ? [{ label: deptLabel, href: deptHref }] : []),
-    { label: (fixedJsonLd?.dgPageName || fixedJsonLd?.name || "SSS"), href: currentHref }, // ✅ fixedJsonLd
+    { label: homeLabel, href: homeHref },
+    { label: faqLabel, href: faqIndexHref },
+    // Department linki (varsa ve mevcut sayfadan farklıysa)
+    ...(deptSlug && deptSlug !== slug ? [{ label: deptLabel, href: deptHref }] : []),
+    // Mevcut sayfa
+    {
+      label: fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel,
+      href: currentHref,
+    },
   ];
 
-const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug);
+  // JSON-LD structured data oluştur
+  const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale);
+
+  // ============================================================================
+  // RENDER
+  // ============================================================================
 
   return (
     <div className="flex flex-col max-w-full">
+      {/* JSON-LD Structured Data (Google için) */}
       {jsonLdNodes ? (
         <script
           id={`jsonld-faq-${slug}`}
@@ -212,9 +315,13 @@ const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug);
         />
       ) : null}
 
+      {/* Arama Banner'ı */}
       <SearchBanner faqSlug={slug} />
+
+      {/* Breadcrumb (Ekmek Kırıntıları) */}
       <Breadcrumbs items={crumbItems} />
-      {/* <FaqMain pageNs={pageNs} /> */}
+
+      {/* FAQ İçeriği */}
       <FaqMainServer pageNs={pageNs} />
     </div>
   );
