@@ -82,7 +82,29 @@ function normalizeSlugByLocale(slug, locale) {
 
 function buildFaqHrefBySlug(slug, locale) {
   const normalizedSlug = normalizeSlugByLocale(slug, locale);
+
+   // Türkçe yorum: root sayfalar
+  if (normalizedSlug === "sss" || normalizedSlug === "faq") {
+    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
+  }
+
+  // Türkçe yorum: services root (senin özel kuralın)
+  if (normalizedSlug === "hizmetlerimiz-sss" || normalizedSlug === "services-faq") {
+    return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
+  }
+
   const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[normalizedSlug];
+
+  // ✅ KRİTİK: Ana departman slug'ı ise tekrar segment ekleme
+  // Örn: deptSegment="social-media-management", slug="social-media-management-faq"
+  const suffix = locale === "en" ? "-faq" : "-sss";
+  const isDeptRootSlug = deptSegment && normalizedSlug === `${deptSegment}${suffix}`;
+
+  // Türkçe yorum: ana departmanlar tek segment olmalı
+  if (isDeptRootSlug) {
+    return `/${locale}/${normalizedSlug}`;
+  }
+
 
   // Türkçe yorum: dept segment varsa /en/<segment>/<slug>
   if (deptSegment) return `/${locale}/${deptSegment}/${normalizedSlug}`;

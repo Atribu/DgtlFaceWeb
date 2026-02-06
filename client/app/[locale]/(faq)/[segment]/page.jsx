@@ -14,6 +14,57 @@ import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
 
+
+// -----------------------------
+// Breadcrumb / URL helper’ları
+// -----------------------------
+function getFaqIndexHref(locale) {
+  return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
+}
+
+// ✅ EN: /en/services-faq (tek segment)
+function getServicesFaqHref(locale) {
+  return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
+}
+
+// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
+function findSlugByNs(ns, locale) {
+  if (!ns) return null;
+  const suffix = locale === "en" ? "-faq" : "-sss";
+
+  const match = Object.keys(FAQ_MAP || {}).find(
+    (slug) => FAQ_MAP[slug] === ns && slug.endsWith(suffix)
+  );
+
+  return match || null;
+}
+
+/**
+ * Locale + slug -> doğru URL
+ * - Dept segmentli: /en/<segment>/<slug>
+ * - Root: /en/faq, /tr/sss
+ * - Services root: /en/services-faq, /tr/hizmetlerimiz-sss
+ */
+function buildFaqUrl(locale, slug) {
+  // services root hem TR hem EN slug ile gelebilir
+  if (slug === "hizmetlerimiz-sss" || slug === "services-faq") {
+    return getServicesFaqHref(locale);
+  }
+
+  // FAQ index (root)
+  if (slug === "sss" || slug === "faq") {
+    return getFaqIndexHref(locale);
+  }
+
+  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
+  if (deptSegment) return `/${locale}/${deptSegment}/${slug}`;
+
+  return `/${locale}/${slug}`;
+}
+
+// -----------------------------
+// Meta helper
+// -----------------------------
 function metaFromJsonLd(jsonLd) {
   if (!jsonLd) return null;
   return {
@@ -23,28 +74,10 @@ function metaFromJsonLd(jsonLd) {
   };
 }
 
-// Build proper URL based on locale and slug
-function buildFaqUrl(locale, slug) {
-  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-  
-  if (deptSegment) {
-    return `/${locale}/${deptSegment}/${slug}`;
-  }
-  
-  // Root FAQ pages
-  if (slug === "sss") {
-    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-  }
-  
-  if (slug === "hizmetlerimiz-sss") {
-    return `/${locale}/${locale === "en" ? "services/faq" : "hizmetlerimiz-sss"}`;
-  }
-  
-  return `/${locale}/${slug}`;
-}
-
-// Google structured data
-function buildEnhancedJsonLd(baseJsonLd, slug, locale) {
+// -----------------------------
+// JSON-LD builder’ları
+// -----------------------------
+function buildEnhancedJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
 
   const url = baseJsonLd.url || baseJsonLd["@id"]?.split("#")[0] || "";
@@ -53,8 +86,7 @@ function buildEnhancedJsonLd(baseJsonLd, slug, locale) {
   const nodes = [];
   nodes.push(baseJsonLd);
 
-  // Add breadcrumb
-  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug, locale);
+  const breadcrumb = buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR);
   if (breadcrumb) nodes.push(breadcrumb);
 
   nodes.push({
@@ -92,47 +124,40 @@ function buildEnhancedJsonLd(baseJsonLd, slug, locale) {
   return nodes;
 }
 
-// Build breadcrumb JSON-LD
-function buildBreadcrumbJsonLd(baseJsonLd, slug, locale) {
+function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   if (!baseJsonLd || typeof baseJsonLd !== "object") return null;
 
   const pageUrl = baseJsonLd.url || "";
   const inLanguage = baseJsonLd.inLanguage || locale;
-
   if (!pageUrl) return null;
 
   // FAQ index URL
-  const faqIndexSlug = locale === "en" ? "faq" : "sss";
-  const faqIndexUrl = `https://dgtlface.com/${locale}/${faqIndexSlug}`;
+  const faqIndexUrl = `https://dgtlface.com${getFaqIndexHref(locale)}`;
 
-  // Department slug + label + url
-  const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
-  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlug] || "Category") : null;
-  
+  // Dept bilgisi (map TR slug ile çalışıyor)
+  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[resolvedConfigSlugTR] || null;
+  const deptLabel = deptSlugTR
+    ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR] || "Category")
+    : null;
+
+  // Dept URL (EN’de dept slug’ı -faq’a çevir)
   let deptUrl = "";
-  if (deptSlug && deptSlug !== slug) {
-    deptUrl = `https://dgtlface.com${buildFaqUrl(locale, deptSlug)}`;
+  if (deptSlugTR && deptSlugTR !== resolvedConfigSlugTR) {
+    const deptNs = FAQ_MAP?.[deptSlugTR];
+    const deptSlugLocale = findSlugByNs(deptNs, locale) || deptSlugTR;
+    deptUrl = `https://dgtlface.com${buildFaqUrl(locale, deptSlugLocale)}`;
   }
 
-  const items = [];
-
-  // 1) Home
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
-  items.push({
-    name: homeLabel,
-    item: `https://dgtlface.com/${locale}`,
-  });
-
-  // 2) FAQ index
   const faqIndexLabel = locale === "en" ? "FAQ" : "SSS";
-  items.push({ name: faqIndexLabel, item: faqIndexUrl });
 
-  // 3) Department (if different from current page)
-  if (deptUrl && deptLabel) {
-    items.push({ name: deptLabel, item: deptUrl });
-  }
+  const items = [
+    { name: homeLabel, item: `https://dgtlface.com/${locale}` },
+    { name: faqIndexLabel, item: faqIndexUrl },
+  ];
 
-  // 4) Current page
+  if (deptUrl && deptLabel) items.push({ name: deptLabel, item: deptUrl });
+
   items.push({
     name: baseJsonLd.dgH1 || baseJsonLd.dgPageName || baseJsonLd.name || faqIndexLabel,
     item: pageUrl,
@@ -152,6 +177,9 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug, locale) {
   };
 }
 
+// -----------------------------
+// Metadata
+// -----------------------------
 export async function generateMetadata({ params }) {
   const slug = params?.segment;
   const locale = params?.locale || "tr";
@@ -169,7 +197,6 @@ export async function generateMetadata({ params }) {
     title: meta.title,
     description: meta.description,
     alternates: meta.canonical ? { canonical: meta.canonical } : undefined,
-
     openGraph: {
       title: meta.title,
       description: meta.description,
@@ -179,7 +206,6 @@ export async function generateMetadata({ params }) {
       type: "article",
       images: [{ url: ogImage, width: 1200, height: 630, alt: meta.title }],
     },
-
     twitter: {
       card: "summary_large_image",
       title: meta.title,
@@ -189,41 +215,58 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// -----------------------------
+// Page
+// -----------------------------
 export default function Page({ params }) {
   const slug = params?.segment;
   const locale = params?.locale || "tr";
 
-    // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
-  if (locale === "en" && /-sss$/.test(slug)) {
-    notFound();
-  }
-  
-  const pageNs = FAQ_MAP?.[slug];
-  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+  // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
+  if (locale === "en" && /-sss$/.test(slug)) notFound();
 
+  const pageNs = FAQ_MAP?.[slug];
   if (!pageNs) notFound();
 
+  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
-  const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale);
 
-  // Build breadcrumb items
-  const isFaqRoot = slug === "sss";
-  const isServicesRoot = slug === "hizmetlerimiz-sss";
+  // ✅ Bu sayfanın TR “config slug”ı (breadcrumb map’ler bununla çalışıyor)
+  const resolvedConfigSlugTR = (() => {
+    if (slug === "faq" || slug === "sss") return "sss";
+    if (slug === "services-faq" || slug === "hizmetlerimiz-sss") return "hizmetlerimiz-sss";
+    return findSlugByNs(pageNs, "tr") || "sss";
+  })();
 
+  const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
+
+  // Breadcrumb label’lar
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
   const faqLabel = locale === "en" ? "FAQ" : "SSS";
   const servicesLabel = locale === "en" ? "Our Services FAQ" : "Hizmetlerimiz SSS";
 
   const homeHref = `/${locale}`;
-  const faqIndexHref = `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-  const servicesHref = `/${locale}/${locale === "en" ? "services/faq" : "hizmetlerimiz-sss"}`;
+  const faqIndexHref = getFaqIndexHref(locale);
+  const servicesHref = getServicesFaqHref(locale);
 
-  // Department info
-  const deptSlug = FAQ_DEPT_CRUMB_MAP?.[slug] || null;
-  const deptLabel = deptSlug ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlug] || "Category") : null;
-  const deptHref = deptSlug ? buildFaqUrl(locale, deptSlug) : null;
+  const isFaqRoot = resolvedConfigSlugTR === "sss";
+  const isServicesRoot = resolvedConfigSlugTR === "hizmetlerimiz-sss";
 
-  const currentLabel = baseJsonLd?.dgPageName || baseJsonLd?.name || faqLabel;
+  // Dept info (map TR slug ile çalışıyor)
+  const deptSlugTR = FAQ_DEPT_CRUMB_MAP?.[resolvedConfigSlugTR] || null;
+  const deptLabel = deptSlugTR
+    ? (FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugTR] || "Category")
+    : null;
+
+  // Dept href (EN’de dept slug’ı -faq’a çevir)
+  const deptHref = (() => {
+    if (!deptSlugTR) return null;
+    const deptNs = FAQ_MAP?.[deptSlugTR];
+    const deptSlugLocale = findSlugByNs(deptNs, locale) || deptSlugTR;
+    return buildFaqUrl(locale, deptSlugLocale);
+  })();
+
+  const currentLabel = fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
   const currentHref = buildFaqUrl(locale, slug);
 
   const crumbItems = [
@@ -238,14 +281,15 @@ export default function Page({ params }) {
           ]
         : [
             { label: faqLabel, href: faqIndexHref },
-            ...(deptSlug && deptSlug !== slug ? [{ label: deptLabel, href: deptHref }] : []),
+            ...(deptSlugTR && deptSlugTR !== resolvedConfigSlugTR
+              ? [{ label: deptLabel, href: deptHref }]
+              : []),
             { label: currentLabel, href: currentHref },
           ]),
   ];
 
   return (
     <div className="flex flex-col max-w-full">
-      {/* JSON-LD */}
       {jsonLdNodes ? (
         <script
           id={`jsonld-faq-${slug}`}

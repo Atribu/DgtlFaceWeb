@@ -4,6 +4,33 @@ import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import trData from "@/messages/tr.json";
 import enData from "@/messages/en.json";
+import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
+import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
+
+
+// Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
+function cleanSlug(input) {
+  return String(input || "").replace(/^\/+/, "");
+}
+
+// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
+function findSlugByNs(ns, locale) {
+  if (!ns) return null;
+
+  const suffix = locale === "en" ? "-faq" : "-sss";
+
+  const match = Object.keys(FAQ_MAP || {}).find(
+    (slug) => FAQ_MAP[slug] === ns && slug.endsWith(suffix)
+  );
+
+  return match || null;
+}
+
+function isFaqSlugLike(slug) {
+  const s = cleanSlug(slug);
+  return s === "sss" || s === "faq" || s === "services-faq" || s.endsWith("-sss") || s.endsWith("-faq");
+}
+
 
 // locale'a göre JSON'u döndüren yardımcı fonksiyon
 function getLocaleData(locale) {
@@ -38,6 +65,32 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
     startTransition(() => {
       const pathSegments = pathname.split('/');
       const currentLocale = pathSegments[1];
+
+       // ✅ 1) /sss <-> /faq fix (index)
+    // /tr/sss  -> /en/faq
+    // /en/faq  -> /tr/sss
+    if (pathSegments.length === 3) {
+      const last = pathSegments[2];
+
+      if (last === "sss" && newLang === "en") {
+        router.replace(`/${newLang}/faq`);
+        return;
+      }
+      if (last === "faq" && newLang === "tr") {
+        router.replace(`/${newLang}/sss`);
+        return;
+      }
+
+      // ✅ 2) /hizmetlerimiz-sss <-> /services-faq fix (services faq index)
+      if (last === "hizmetlerimiz-sss" && newLang === "en") {
+        router.replace(`/${newLang}/services-faq`);
+        return;
+      }
+      if (last === "services-faq" && newLang === "tr") {
+        router.replace(`/${newLang}/hizmetlerimiz-sss`);
+        return;
+      }
+    }
       
       // Blog detay sayfası kontrolü
       if (pathSegments[2] === 'blog' && pathSegments[3]) {
@@ -65,6 +118,60 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         router.replace(`/${newLang}/blog`);
         return;
       }
+
+          // -------------------------
+    // 2) FAQ özel case (EKLENECEK KISIM)
+    // -------------------------
+    // Örn: /tr/hizmetlerimiz-sss  -> /en/services-faq
+    // Örn: /tr/raporlama/satis-donusumu-sss -> /en/digital-analysis/<...>-faq
+    const lastSeg = cleanSlug(pathSegments[pathSegments.length - 1]); // slug gibi
+    const maybeSeg = cleanSlug(pathSegments[2] || "");               // segment gibi
+
+    if (isFaqSlugLike(lastSeg) || isFaqSlugLike(maybeSeg)) {
+      // Root FAQ
+      if (lastSeg === "sss" || lastSeg === "faq") {
+        router.replace(`/${newLang}/${newLang === "en" ? "faq" : "sss"}`);
+        return;
+      }
+
+      // Services FAQ root
+      if (lastSeg === "hizmetlerimiz-sss" || lastSeg === "services-faq") {
+        router.replace(`/${newLang}/${newLang === "en" ? "services-faq" : "hizmetlerimiz-sss"}`);
+        return;
+      }
+
+      // Normal FAQ page (alt sayfa)
+      const currentSlug = lastSeg; // satis-donusumu-sss gibi
+      const ns = FAQ_MAP?.[currentSlug];
+
+      // Eğer ns bulamazsa fallback (yine de patlamasın)
+      if (!ns) {
+        const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
+        router.replace(newPathname);
+        return;
+      }
+
+      // Yeni dilin slug'ı
+      const newSlug = findSlugByNs(ns, newLang);
+      if (!newSlug) {
+        // bulunamazsa yine fallback
+        const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
+        router.replace(newPathname);
+        return;
+      }
+
+      // Yeni dilde segment
+      const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[newLang]?.[newSlug];
+
+      // Bazı FAQ sayfaları root altında olabilir
+      const target =
+        deptSegment
+          ? `/${newLang}/${deptSegment}/${newSlug}`
+          : `/${newLang}/${newSlug}`;
+
+      router.replace(target);
+      return;
+    }
       
       // Diğer tüm sayfalar için normal dil değiştirme
       const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);

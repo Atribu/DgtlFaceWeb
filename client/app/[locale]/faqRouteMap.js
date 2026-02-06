@@ -348,15 +348,17 @@ export const FAQ_DEPT_LABEL_MAP = {
   },
 
   en:{
-    "seo-sss": "SEO",
-  "sem-sss": "SEM",
-  "smm-sss": "SMM",
- "software-development-faq": "Software",
-  "cagri-merkezi-sss": "Call Center",
-  "pms-ota-sss": "PMS & OTA",
-  "veri-analiz-ve-raporlama-sss": "Reporting",
-  "otel-dijital-pazarlama-sss": "Hotel Digital Marketing",
-  "hizmetlerimiz-sss": "Services",
+"social-media-management-faq": "Social Media Management",
+    "search-engine-optimization-faq": "Search Engine Optimization",
+    "search-engine-marketing-faq": "Search Engine Marketing",
+    "software-development-faq": "Software Development",
+    "creative-design-faq": "Creative",
+    "call-center-faq": "Call Center",
+    "pms-ota-faq": "PMS & OTA",
+    "digital-analysis-faq": "Digital Analysis",
+    "hotel-faq": "Hotel",
+    "services-faq": "Our Services FAQ",
+    "faq": "FAQ",
   }
 };
 

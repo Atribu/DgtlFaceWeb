@@ -367,6 +367,12 @@ export const routing = defineRouting({
   en: "/[faq]",
 },
 
+"/sss": {
+  tr: "/sss",
+  en: "/faq",
+},
+
+
 
  "/[segment]/[faq]": { tr: "/[segment]/[faq]", en: "/[segment]/[faq]" },
 
