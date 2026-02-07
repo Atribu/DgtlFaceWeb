@@ -13,7 +13,8 @@ export const BLOG_MAP = {
     "oteller-icin-youtube-butce-ve-teklif-stratejileri":"BlogOtellerIcinYouTubeButceVeTeklifStratejileri",
     "youtube-remarketing-otel-web-ve-ota-trafigi":"BlogYouTubeRemarketingOtelWebVeOTATrafigi",
 
-    "remarketing-nedir-oteller-icin-temel-rehber":"BlogSemRemarketingNedirOtellerIcinTemelRehber"
+    "remarketing-nedir-oteller-icin-temel-rehber":"BlogSemRemarketingNedirOtellerIcinTemelRehber",
+    "google-display-network-otel-remarketing-stratejisi":"BlogGoogleDisplayNetworkOtelRemarketingStratejisi"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -28,7 +29,8 @@ export const BLOG_MAP = {
     "nap-tutarliligi-yerel-dizinler-ve-siteler-arasi-otrite":"BlogNapTutarliligiYerelDizinlerVeSitelerArasiOtorite",
     "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":"BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin",
 
-    "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":"BlogSeoSeoUyumluIcerikNasilYazilirTemelRehber"
+    "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":"BlogSeoSeoUyumluIcerikNasilYazilirTemelRehber",
+    "search-intent-analizi-ve-icerik-haritalama":"BlogSearchIntentAnaliziVeIcerikHaritalama"
   },
 
     smm: {
@@ -44,7 +46,8 @@ export const BLOG_MAP = {
     "sosyal-medya-kpi-cercevesi-hedef-ve-basarim-nasil-olculur":"BlogSosyalMedyaKpiCercevesiHedefVeBasarimNasilOlculur",
     "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":"BlogSmmSezonlukVeLansmanKampanyalariIcinSosyalMedyaStratejiDokumani",
 
-    "reels-icerik-stratejisi-ve-hedef-kurgusu":"BlogSmmReelsIcerikStratejisiVeHedefKurgusu"
+    "reels-icerik-stratejisi-ve-hedef-kurgusu":"BlogSmmReelsIcerikStratejisiVeHedefKurgusu",
+    "reels-storyboard-ve-montaj-tempo-rehberi":"BlogReelsStoryboardVeMontajTempoRehberi"
   },
 
     yazilim: {
@@ -105,7 +108,9 @@ export const BLOG_MAP = {
     "booking-expedia-entegrasyonu-adim-adim-kurulum":"BlogBookingExpediaEntegrasyonuAdimAdimKurulum",
     "ota-rate-parity-fiyat-esitleme-stratejileri":"BlogOtaRateParityFiyatEsitlemeStratejileri",
     "ota-entegrasyonunda-overbooking-risk-yonetimi":"BlogPmsOtaOtaEntegrasyonundaOverbookingRiskYonetimi",
-    "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":"BlogPmsOtaYeniAcilanOtellerIcinOTAKurulumLansmanChecklist"
+    "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":"BlogPmsOtaYeniAcilanOtellerIcinOTAKurulumLansmanChecklist",
+
+    "kanal-yonetimi-nedir-temel-mantik":"BlogKanalYonetimiNedirTemelMantik"
   },
 
     "raporlama": {
@@ -119,7 +124,9 @@ export const BLOG_MAP = {
     "ota-fiyat-benchmarki-ile-rakiplere-gore-konumlanma":"BlogOTAFiyatBenchmarkiIleRakiplereGoreKonumlanma",
     "seo-ve-sem-benchmarki-ile-dijital-gorunurlugu-olcmek":"BlogSeoVeSemBenchmarkiIleDijitalGorunurluguOlcmek",
     "pms-ve-gelir-benchmarki-doluluk-revpar-adr":"BlogPmsVeGelirBenchmarkiDolulukRevparAdr",
-    "benchmark-dashboard-tasarimi-looker-studio":"BlogBenchmarkDashboardTasarimiLookerStudio"
+    "benchmark-dashboard-tasarimi-looker-studio":"BlogBenchmarkDashboardTasarimiLookerStudio",
+
+    "satis-ve-donusum-raporlama-nedir-otel-funnel":"BlogSatisVeDonusumRaporlamaNedirOtelFunnel"
   },
 
 
@@ -134,7 +141,9 @@ export const BLOG_MAP = {
     "otel-reels-oda-satis-funneli":"BlogOtelReelsOdaSatisFunneli",
     "all-inclusive-otel-30-gunluk-icerik-takvimi":"BlogAllInclusiveOtel30GunlukIcerikTakvimi",
     "otel-sosyal-medya-hatalari":"BlogOtelSosyalMedyaHatalari",
-    "otel-sosyal-medya-performans-kpi-raporlama":"BlogOtelSosyalMedyaPerformansKpiRaporlama"
+    "otel-sosyal-medya-performans-kpi-raporlama":"BlogOtelSosyalMedyaPerformansKpiRaporlama",
+
+    "otel-dijital-reklam-stratejisi-temel-cerceve":"BlogOtelDijitalReklamStratejisiTemelCerceve"
     
   }
 };

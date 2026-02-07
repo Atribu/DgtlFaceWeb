@@ -5122,6 +5122,308 @@ export const BLOG_MEDIA_MAP = {
       alt: "Yanıt şablonları ve rapor çıktılarıyla güven sağlayan kanıt görseli",
       caption: "Yanıt şablonları ve rapor çıktılarıyla güven sağlayan kanıt görseli"
     }
+  },
+
+
+  "kanal-yonetimi-nedir-temel-mantik":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-1.webp",
+      alt: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
+      caption: "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-2.webp",
+      alt: "PMS ve OTA dağıtım akışını otel operasyonu bağlamında özetleyen context görseli",
+      caption: "PMS ve OTA dağıtım akışını otel operasyonu bağlamında özetleyen context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-3.webp",
+      alt: "PMS–channel–OTA üçgenini sadeleştiren, bölüm geçişi için divider görseli",
+      caption: "PMS–channel–OTA üçgenini sadeleştiren, bölüm geçişi için divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-4.webp",
+      alt: "Kanal yönetiminin gelir ve kontrol etkisini vurgulayan bölüm ayırıcı görseli",
+      caption: "Kanal yönetiminin gelir ve kontrol etkisini vurgulayan bölüm ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-5.webp",
+      alt: "Rate ve inventory dağıtımını OTA rezervasyon geri dönüşüyle gösteren akış diyagramı",
+      caption: "Rate ve inventory dağıtımını OTA rezervasyon geri dönüşüyle gösteren akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-6.webp",
+      alt: "Günlük kanal yönetimi rutini ve kontrol adımlarını özetleyen checklist kartı",
+      caption: "Günlük kanal yönetimi rutini ve kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-7.webp",
+      alt: "Overbooking ve güncelleme hatası gibi otel kanal KPI’larını gösteren skor kartı",
+      caption: "Overbooking ve güncelleme hatası gibi otel kanal KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-1/Pms3-1-8.webp",
+      alt: "Kanal yönetimi geçiş deliverable’ları ve güven unsurlarını listeleyen proof kartı",
+      caption: "Kanal yönetimi geçiş deliverable’ları ve güven unsurlarını listeleyen proof kartı"
+    }
+  },
+
+  "satis-ve-donusum-raporlama-nedir-otel-funnel":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-1.webp",
+      alt: "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+      caption: "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-2.webp",
+      alt: "Ziyaret-talep-rezervasyon-gelir akışını otel örneğiyle açıklayan görsel",
+      caption: "Ziyaret-talep-rezervasyon-gelir akışını otel örneğiyle açıklayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Pms3-1-3.webp",
+      alt: "Çok kanallı satış akışına geçişi vurgulayan otel raporlama bölüm görseli",
+      caption: "Çok kanallı satış akışına geçişi vurgulayan otel raporlama bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-4.webp",
+      alt: "Gelir ve kârlılık okuması bölümünü ayıran otel funnel görseli",
+      caption: "Gelir ve kârlılık okuması bölümünü ayıran otel funnel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-5.webp",
+      alt: "Web-OTA-call center adımlarını tek diyagramda gösteren otel funnel şeması",
+      caption: "Web-OTA-call center adımlarını tek diyagramda gösteren otel funnel şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-6.webp",
+      alt: "Funnel raporu yorumlama mini checklist’ini otel bağlamında özetleyen kart",
+      caption: "Funnel raporu yorumlama mini checklist’ini otel bağlamında özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-7.webp",
+      alt: "Dönüşüm oranı bandı ve temel KPI’ları otel örneğiyle gösteren skor kartı",
+      caption: "Dönüşüm oranı bandı ve temel KPI’ları otel örneğiyle gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-8.webp",
+      alt: "Raporlama teslimleri ve dashboard çıktılarıyla güven unsurlarını anlatan otel kartı",
+      caption: "Raporlama teslimleri ve dashboard çıktılarıyla güven unsurlarını anlatan otel kartı"
+    }
+  },
+
+  "otel-dijital-reklam-stratejisi-temel-cerceve":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-1.webp",
+      alt: "Oteller İçin Dijital Reklam Stratejisi: Google, Meta ve YouTube’u Nasıl Konumlandırmalısınız?",
+      caption: "Oteller İçin Dijital Reklam Stratejisi: Google, Meta ve YouTube’u Nasıl Konumlandırmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-2.webp",
+      alt: "Google Meta YouTube rol dağılımını otel bağlamında anlatan görsel",
+      caption: "Google Meta YouTube rol dağılımını otel bağlamında anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-3.webp",
+      alt: "Otel reklam KPI katmanlarını gösteren bölüm ayırıcı görsel",
+      caption: "Otel reklam KPI katmanlarını gösteren bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-4.webp",
+      alt: "OTA ve direkt rezervasyon dengesini açıklayan bölüm ayırıcı görsel",
+      caption: "OTA ve direkt rezervasyon dengesini açıklayan bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-5.webp",
+      alt: "YouTube Meta Google funnel akışını otel reklamında gösteren diyagram",
+      caption: "YouTube Meta Google funnel akışını otel reklamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-6.webp",
+      alt: "Otel reklam funnel kontrol listesini özetleyen checklist kartı",
+      caption: "Otel reklam funnel kontrol listesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-7.webp",
+      alt: "Otel reklam performansını 3–5 KPI ile özetleyen skor kartı",
+      caption: "Otel reklam performansını 3–5 KPI ile özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-1/Hotel3-1-8.webp",
+      alt: "Otel reklam stratejisi deliverables ve güven unsurlarını gösteren kart",
+      caption: "Otel reklam stratejisi deliverables ve güven unsurlarını gösteren kart"
+    }
+  },
+
+  "google-display-network-otel-remarketing-stratejisi":{
+     banner: {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-1.webp",
+      alt: "Google Display Network ile Otel Remarketing Stratejisi Nasıl Kurulur?",
+      caption: "Google Display Network ile Otel Remarketing Stratejisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-2.webp",
+      alt: "GDN remarketingin rezervasyon hunisindeki yerini gösteren bağlam görseli",
+      caption: "GDN remarketingin rezervasyon hunisindeki yerini gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-3.webp",
+      alt: "GDN nedir ve remarketing kullanımı için otel bölüm ayırıcı görseli",
+      caption: "GDN nedir ve remarketing kullanımı için otel bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-4.webp",
+      alt: "Placement ve brand safety konusunu ayıran otel bölüm görseli",
+      caption: "Placement ve brand safety konusunu ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-5.webp",
+      alt: "GDN gösterimden rezervasyona giden akışı gösteren otel funnel diyagramı",
+      caption: "GDN gösterimden rezervasyona giden akışı gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-6.webp",
+      alt: "Otel banner tasarımında mesaj ve format kurallarını özetleyen checklist kartı",
+      caption: "Otel banner tasarımında mesaj ve format kurallarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-7.webp",
+      alt: "GDN remarketing KPI setini rezervasyon katkısıyla özetleyen otel skor kartı",
+      caption: "GDN remarketing KPI setini rezervasyon katkısıyla özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-2/SEM3-2-8.webp",
+      alt: "GDN remarketing kurulum çıktıları ve kontrol adımlarını gösteren otel proof kartı",
+      caption: "GDN remarketing kurulum çıktıları ve kontrol adımlarını gösteren otel proof kartı"
+    }
+  },
+
+
+  "search-intent-analizi-ve-icerik-haritalama":{
+    banner: {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-1.webp",
+      alt: "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+      caption: "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-2.webp",
+      alt: "SERP okuma ve içerik tipi seçimi, turizm B2B örneği",
+      caption: "SERP okuma ve içerik tipi seçimi, turizm B2B örneği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-3.webp",
+      alt: "SERP analizi bölümü ayırıcı, içerik SEO strateji bağlamı",
+      caption: "SERP analizi bölümü ayırıcı, içerik SEO strateji bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-4.webp",
+      alt: "İçerik haritalama bölümü ayırıcı, otel funnel planı bağlamı",
+      caption: "İçerik haritalama bölümü ayırıcı, otel funnel planı bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-5.webp",
+      alt: "Intentten sayfa türüne akış diyagramı, otel SEO funnel örneği",
+      caption: "Intentten sayfa türüne akış diyagramı, otel SEO funnel örneği"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-6.webp",
+      alt: "İçerik haritası checklist kartı, ajans operasyon standardı bağlamı",
+      caption: "İçerik haritası checklist kartı, ajans operasyon standardı bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-7.webp",
+      alt: "Intent uyumu KPI kartı, içerik performansı otel pazarlama bağlamı",
+      caption: "Intent uyumu KPI kartı, içerik performansı otel pazarlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-2/SEO3-2-8.webp",
+      alt: "İçerik haritalama çıktıları kartı, güven ve deliverables otel bağlamı",
+      caption: "İçerik haritalama çıktıları kartı, güven ve deliverables otel bağlamı"
+    }
+  },
+
+  "reels-storyboard-ve-montaj-tempo-rehberi":{
+     banner: {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-1.webp",
+      alt: "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+      caption: "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-2.webp",
+      alt: "Tempo ve cut kararlarını açıklayan kısa video bağlam görseli",
+      caption: "Tempo ve cut kararlarını açıklayan kısa video bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-3.webp",
+      alt: "Storyboard’un reels akışına etkisini anlatan bölüm ayırıcı görsel",
+      caption: "Storyboard’un reels akışına etkisini anlatan bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-4.webp",
+      alt: "Sahne planlama ve tempo kurallarını ayıran bölüm görseli",
+      caption: "Sahne planlama ve tempo kurallarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-5.webp",
+      alt: "Storyboarddan CTA’ya kısa video akış modelini gösteren diyagram",
+      caption: "Storyboarddan CTA’ya kısa video akış modelini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-6.webp",
+      alt: "Reels montaj checklist adımlarını özetleyen framework kartı",
+      caption: "Reels montaj checklist adımlarını özetleyen framework kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-7.webp",
+      alt: "İzlenme süresi ve son kare KPI’larını gösteren reels skor kartı",
+      caption: "İzlenme süresi ve son kare KPI’larını gösteren reels skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-2/SMM3-2-8.webp",
+      alt: "Ham vs kurgulu karşılaştırma ve üretim çıktıları proof kartı",
+      caption: "Ham vs kurgulu karşılaştırma ve üretim çıktıları proof kartı"
+    }
   }
 
 

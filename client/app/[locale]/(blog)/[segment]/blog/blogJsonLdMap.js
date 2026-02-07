@@ -1392,6 +1392,166 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"google-display-network-otel-remarketing-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi",
+      "name": "Google Display Network ile Otel Remarketing Stratejisi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#article",
+      "headline": "Google Display Network ile Otel Remarketing Stratejisi Nasıl Kurulur?",
+      "description": "GDN ile otel remarketing nasıl kurulur? Segment, banner tasarımı, placement/brand safety, frekans ve KPI’larla görünürlük değil rezervasyon katkısı hedefleyin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Google Display Network",
+        "Display Ads",
+        "Hotel Banners",
+        "Placements",
+        "Remarketing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#howto",
+      "name": "GDN ile Otel Remarketing Kurulumu (Özet Adımlar)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segmentleri tanımla",
+          "text": "Oda/fiyat/rezervasyon terk gibi warm audience segmentlerini zaman pencereleriyle ayır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Banner setini hazırla",
+          "text": "Her segmente tek vaat ve tek CTA içeren otel görselleriyle banner seti üret."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Placement ve brand safety kontrolü yap",
+          "text": "Uygunsuz içerikleri hariç tut; placement raporuyla düşük kalite kaynakları temizle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Frekans ve KPI ile optimize et",
+          "text": "CTR yerine rezervasyon katkısı, CPA ve yeniden ziyaret metrikleriyle performansı yönet."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Google Display Network ile Otel Remarketing Stratejisi Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/google-display-network-otel-remarketing-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Display Network nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GDN, Google’ın banner/görsel reklamlarının yayınlandığı geniş web ve uygulama envanteridir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için GDN remarketing nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel sitenizi ziyaret eden warm audience segmentlenir ve bu kitle web’de banner reklamlarla yeniden hedeflenerek rezervasyona yönlendirilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Banner tasarımı otel remarketing performansını etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; tek vaat, tek CTA ve mobil okunabilirlik otel banner performansında kritik rol oynar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GDN’de hangi sitelerde görünmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Başlangıçta otomatik envanter + sıkı hariç tutmalar; sonra placement raporuyla düşük kalite kaynakları temizleyip iyi performans veren yerleşimlere odaklanmalısınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GDN remarketing’te hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR tek başına yeterli değildir; rezervasyon dönüşümü/CPA, yeniden ziyaret ve assisted conversions gibi metriklerle rezervasyon katkısını ölçmelisiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -2707,7 +2867,7 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-
+//
 "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":{
   "@context": "https://schema.org",
   "@graph": [
@@ -2831,6 +2991,137 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [
         "article h1",
         ".answer-block"
+      ]
+    }
+  ]
+},
+
+"search-intent-analizi-ve-icerik-haritalama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama",
+      "name": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#webpage" },
+      "headline": "Search Intent Analizi ve İçerik Haritalama: Kullanıcının Niyetine Göre İçerik Üretmek",
+      "description": "Search intent nedir, SERP’ten niyet nasıl okunur? Intent’e göre blog/hizmet/SSS/landing eşleştirin, içerik haritası çıkarın ve funnel’ı netleştirin.",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["article h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO (Content SEO)",
+      "serviceType": "Content SEO",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#howto",
+      "name": "Search Intent Analizi ve İçerik Haritalama Süreci",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "SERP ile intent doğrulama",
+          "text": "Hedef sorguyu arat, ilk 5 sonucu sayfa türüne göre etiketle, PAA sorularını topla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Intent türünü sınıflandırma",
+          "text": "Informational/Commercial/Transactional/Navigational intent’i SERP sinyalleriyle netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sayfa türü eşleştirme",
+          "text": "Intent’e göre blog/SSS/hizmet/landing seç; snippet hedefini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İçerik haritası ve funnel planı",
+          "text": "ToFu–MoFu–BoFu rol dağılımı yap; iç link ve CTA planını haritaya bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile doğrulama ve refresh",
+          "text": "CTR, etkileşim, iç link tıklaması ve dönüşümü 30/90 gün izle; 365 günde güncelle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+        { "@type": "ListItem", "position": 3, "name": "İçerik SEO", "item": "https://dgtlface.com/tr/seo/icerik-seo" },
+        { "@type": "ListItem", "position": 4, "name": "Search Intent Analizi ve İçerik Haritalama", "item": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/search-intent-analizi-ve-icerik-haritalama/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Search intent nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search intent, kullanıcının sorguyu yazarken beklediği sonuç türüdür; doğru okununca doğru sayfa türü seçilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SERP’e bakarak arama niyeti nasıl anlaşılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk sayfada rehberler baskınsa informational; landing/hizmet sayfaları baskınsa commercial/transactional’a yaklaşır. PAA soruları niyeti netleştirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi intent için hangi tür içerik üretmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Informational için blog/SSS; commercial için kıyas içerikleri + hizmet sayfası; transactional için landing ve dönüşüm sayfaları uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İçerik haritası nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konu kümelerini belirleyip intent’i SERP’ten doğrulayın, sayfa türünü seçin, funnel rol dağılımı yapın; iç link/CTA ve KPI planıyla tamamlayın."
+          }
+        }
       ]
     }
   ]
@@ -4273,6 +4564,8 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
+//
+
 "reels-icerik-stratejisi-ve-hedef-kurgusu":{
   "@context": "https://schema.org",
   "@graph": [
@@ -4441,6 +4734,186 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/smm/blog/reels-icerik-stratejisi-ve-hedef-kurgusu#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"reels-storyboard-ve-montaj-tempo-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/#logo",
+        "url": "https://dgtlface.com/favicon.ico"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi",
+      "name": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#webpage"
+      },
+      "headline": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+      "description": "Reels’te akıcı kurgu için storyboard kurun: sahne süreleri, tempo, jump cut, B-roll ve altyazı yerleşimiyle izlenme süresi ve son kare oranını artırın.",
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "datePublished": "2026-01-06",
+      "dateModified": "2026-01-06",
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "reels storyboard örneği",
+        "kısa video montaj tempo",
+        "jump cut reels rehberi",
+        "storyboard",
+        "editing",
+        "tempo",
+        "short-form narrative"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+      "name": "Reels & Video İçerik Üretimi",
+      "serviceType": "Short-Form Video Strategy & Production",
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels & Video İçerik Üretimi",
+          "item": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Reels Storyboard ve Montaj: Tempo, Kesme ve Akış Rehberi",
+          "item": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reels için storyboard nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek cümle mesaj, 0–2 saniyelik hook, 6–10 sahne listesi, her sahneye süre ve kapanış CTA ile planlanır. En pratik format shotlist tablosudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kısa videoda tempo ve kesme kuralları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaç bittiği anda kesin; bilgi sahnelerini kısa tutun, jump cut ile boşlukları temizleyin ve metin/altyazıyı okunur bırakın. Efekt yerine akışa öncelik verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel için oda/deneyim reels senaryosu nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 hook, 3 kritik detay, 1 sosyal kanıt, kısa B-roll ve net CTA ile ilerleyin. Sahne sayısını düşük tutmak ve süreleri planlamak akışı güçlendirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "B2B için eğitim/case reels akışı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eğitim reels’i 3 madde mini ders + örnek + tek CTA; case reels’i problem–müdahale–sonuç akışıyla kurgulanmalı. Proof sahnesi güveni artırır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#howto",
+      "name": "Reels İçin Storyboard ve Tempo Planı Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Mesaj ve CTA’yı kilitle",
+          "text": "Videonun tek cümle ana mesajını yaz ve kapanışta tek bir CTA belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Storyboard’u sahne ve sürelerle çıkar",
+          "text": "6–10 sahne listesi oluştur, her sahneye saniye ver, metin/altyazı ve B-roll ihtiyacını işaretle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tempo ve cut kararlarını uygula",
+          "text": "Bilgi sahnelerini kısa tut, jump cut ile boşlukları temizle, okunabilirliği koru ve final CTA sahnesini net kadrajla bitir."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#speakable",
       "cssSelector": [
         "h1",
         ".answer-block"
@@ -9776,7 +10249,171 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]
+},
+
+//
+
+"kanal-yonetimi-nedir-temel-mantik":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik",
+      "name": "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
+      "description": "Kanal yönetimi (channel manager) ile PMS’teki fiyat ve envanteri OTA’lara tek panelden dağıtın; hataları ve overbooking riskini azaltın. Hızlı analiz isteyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#article",
+      "headline": "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
+      "name": "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
+      "description": "Kanal yönetimi (channel manager) ile PMS’teki fiyat ve envanteri OTA’lara tek panelden dağıtın; hataları ve overbooking riskini azaltın. Hızlı analiz isteyin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#webpage" },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#service",
+      "name": "Kanal Yönetimi (Channel Management) Danışmanlığı",
+      "serviceType": "Channel Management",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum",
+        "Alanya"
+      ],
+      "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kanal Yönetimi (Channel Management)",
+          "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kanal Yönetimi Nedir?",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kanal yönetimi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal yönetimi, PMS’teki fiyat ve müsaitliği bir channel manager üzerinden OTA kanallarına dağıtıp tek noktadan kontrol etmektir. Amaç hız, tutarlılık ve hata azaltımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Channel manager oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manuel güncellemeleri azaltır, kanallar arası fiyat/müsaitlik tutarlılığı sağlar ve overbooking riskini düşürür. Kanal stratejisini ölçülebilir hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS–channel–OTA üçgeni nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS tek kaynak gerçektir; channel manager rate & inventory verisini OTA’lara dağıtır. OTA’dan rezervasyon geldiğinde PMS müsaitliği güncellenir ve zincir tamamlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kanal yönetimi otel gelirini nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hızlı fiyat reaksiyonu, promosyon/kısıt kontrolü ve kanal başı net gelir görünürlüğü sağlar. Yanlış fiyat ve yanlış müsaitlik kaynaklı gelir kaybını azaltmaya yardımcı olur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#howto",
+      "name": "İlk 30 günde kanal yönetimine geçiş planı",
+      "description": "Kanal yönetimi geçişini 30 günde kurulum, süreç ve ölçüm adımlarıyla ilerletmek için pratik plan.",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Gün 1–7: Veri temizliği",
+          "text": "Oda tipleri, rate plan ve kısıtları sadeleştir; mapping şablonunu hazırla; çekirdek kanal listesini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Gün 8–14: Entegrasyon ve test",
+          "text": "İlk 2 OTA kanalını bağla; test rezervasyonları yap; gecikme ve hata senaryolarını prova et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Gün 15–30: Süreç ve ölçüm",
+          "text": "Günlük kontrol rutinini yaz; sorumluluk matrisi oluştur; KPI’ları ölç ve optimizasyon döngüsünü başlat."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
+
     },
 
     "raporlama":{
@@ -11062,6 +11699,154 @@ export const BLOG_JSONLD_MAP = {
           }
         }
       ]
+    }
+  ]
+},
+
+//
+
+"satis-ve-donusum-raporlama-nedir-otel-funnel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel",
+      "name": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr",
+      "about": [
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Funnel" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Revenue" },
+        { "@type": "Thing", "name": "Channel" },
+        { "@type": "Thing", "name": "ROAS" },
+        { "@type": "Thing", "name": "Conversion Rate" }
+      ],
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#article",
+      "headline": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+      "description": "Otelinizde trafik→talep→rezervasyon→gelir funnel’ını tek raporda görün. KPI seti, kanal karması ve ROAS/ROI okumasıyla kaybın nerede olduğunu bulun.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage"
+      },
+      "inLanguage": "tr",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+      "name": "Satış ve Dönüşüm Raporları",
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Kemer" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Veri Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış ve Dönüşüm Raporları",
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+          "item": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış ve dönüşüm raporlama nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otelin trafik, talep, rezervasyon ve gelir verilerini tek bir funnel içinde birleştirip yorumlamaktır; kaybın hangi adımda olduğunu ayırarak doğru aksiyonu hızlandırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için satış hunisi (funnel) nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir yolculuğu genellikle ziyaretçi → fiyat arama/talep → rezervasyon → gelir adımlarından oluşur; her adım ayrı KPI’larla izlenir ve kayıp noktası adım terk oranlarıyla bulunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Satış ve dönüşüm raporunda hangi KPI’lar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oturum, fiyat arama, rezervasyon dönüşüm oranı, kanal bazlı satış payı ve net gelir çekirdek KPI’lardır; ROAS/komisyon/iptal gibi katmanlar karar kalitesini artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funnel raporlarını nasıl yorumlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce kaybın hangi adımda olduğuna bakın, sonra kanal karmasının (web/OTA/call center) etkisini kontrol edin ve geliri brüt değil net (komisyon/iptal sonrası) okumaya çalışın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#speakable",
+      "cssSelector": ["h1", ".answer-block"]
     }
   ]
 }
@@ -12461,6 +13246,12 @@ export const BLOG_JSONLD_MAP = {
     }
   ]
 },
+
+//
+
+"otel-dijital-reklam-stratejisi-temel-cerceve":{
+
+}
 
     }
   },
