@@ -63,7 +63,8 @@ export const BLOG_MAP = {
     "cms-performans-ve-cache-stratejisi-headless-ve-nextjs-entegrasyonlarinda-hiz":"BlogCmsPerformansVeCacheStratejisiHeadlessVeNextjsEntegrasyonlarindaHiz",
     "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":"BlogYazilimCmsOrtamlarıVeYayinSurecleriDraftStagingProdWorkflow",
 
-    "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":"BlogYazilimKVKKUyumluWebAltyapisiTeknikVeOperasyonelChecklist"
+    "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":"BlogYazilimKVKKUyumluWebAltyapisiTeknikVeOperasyonelChecklist",
+    "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":"BlogVeriHaritasiVeDataFlowMappingKvkkIcinDijitalSistemEnvanteri"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
@@ -78,7 +79,8 @@ export const BLOG_MAP = {
     "cok-dilli-otel-ux-tr-en-de-ru":"BlogCokDilliOtelUxTrEnDeRu",
     "otel-ui-bilesenleri-donusum-odakli":"BlogOtelUIBilesenleriDonusumOdakli",
 
-    "otel-tanitim-videosu-nasil-planlanir":"BlogCreativeOtelTanitimVideosuNasilPlanlanir"
+    "otel-tanitim-videosu-nasil-planlanir":"BlogCreativeOtelTanitimVideosuNasilPlanlanir",
+    "otel-drone-cekimi-rehberi":"BlogOtelDroneCekimiRehberi"
   },
 
        "cagri-merkezi": {
@@ -94,7 +96,8 @@ export const BLOG_MAP = {
     "rezervasyon-oncesi-soru-sorma-qualification":"BlogCagriMerkeziRezervasyonOncesiSoruSormaQualification",
     "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":"BlogCagriMerkeziOzelSegmentRezervasyonCagrilariEngelliAileBalayiVb",
 
-    "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":"BlogCallCenterOtelSosyalMedyaMesajYonetimiTemelRehber"
+    "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":"BlogCallCenterOtelSosyalMedyaMesajYonetimiTemelRehber",
+    "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":"BlogCagriMerkeziOtelMesajYonetimindeSlaVeCevapSuresi"
   },
 
     "pms-ota": {
@@ -110,7 +113,8 @@ export const BLOG_MAP = {
     "ota-entegrasyonunda-overbooking-risk-yonetimi":"BlogPmsOtaOtaEntegrasyonundaOverbookingRiskYonetimi",
     "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":"BlogPmsOtaYeniAcilanOtellerIcinOTAKurulumLansmanChecklist",
 
-    "kanal-yonetimi-nedir-temel-mantik":"BlogKanalYonetimiNedirTemelMantik"
+    "kanal-yonetimi-nedir-temel-mantik":"BlogKanalYonetimiNedirTemelMantik",
+    "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":"BlogPmsOtaKanalYonetimEkraniIleFiyatVeEnvanterGuncelleme"
   },
 
     "raporlama": {

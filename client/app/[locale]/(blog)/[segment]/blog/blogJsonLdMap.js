@@ -6229,6 +6229,147 @@ export const BLOG_JSONLD_MAP = {
       }
     }
   ]
+},
+
+"veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri",
+      "name": "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#article",
+      "headline": "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri",
+      "description": "KVKK için web, PMS, CRM, çağrı merkezi ve OTA verisini haritalandırın. Data flow diyagramı + veri envanteri tablosu ile saklama/anonimleştirme planı çıkarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#webpage" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Data Mapping",
+        "Data Flow Diagram",
+        "System Inventory",
+        "Retention/Anonymisation"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+      "name": "KVKK Uyum Hizmeti",
+      "serviceType": "KVKK veri haritası, sistem envanteri ve data flow mapping danışmanlığı",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#howto",
+      "name": "KVKK için veri haritası ve data flow mapping nasıl hazırlanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sistem envanteri çıkar",
+          "text": "Web, PMS, CRM, call center, OTA, e-posta ve raporlama dahil tüm sistemleri listele; veri alanlarını ve sahiplerini yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Data flow diyagramını çiz",
+          "text": "Sistem düğümlerini belirle, kaynak-hedef akışlarını ve veri gruplarını ekle; export ve manuel kopya noktalarını işaretle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Retention ve anonimleştirme planını ekle",
+          "text": "Her veri alanı için saklama süresi ve silme/anonimleştirme yöntemini tanımla; değişiklik kaydı ve yıllık refresh planı oluştur."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yazılım",
+          "item": "https://dgtlface.com/tr/yazilim/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK Uyum Hizmeti",
+          "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri",
+          "item": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Veri haritası (data flow mapping) KVKK için nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce dijital sistem envanteri çıkarılır (sistem + veri alanı + retention), sonra sistemler arası akış diyagramı çizilir ve silme/anonimleştirme planı eklenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi dijital sistemler veri envanterine dahil edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web, PMS, CRM, çağrı merkezi, OTA/channel manager, e-posta otomasyonu, SMM lead araçları, analitik/tag yönetimi, raporlama/BI ve altyapı log-yedek katmanı dahil edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri saklama süresi ve anonimleştirme planı nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Envanterde her veri alanına retention yazılır; raporlama ihtiyacında kişisel alanlar anonim ID’ye dönüştürülür. Nihai hukuki yorum için danışman görüşü alınmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#speakable",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri/#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    }
+  ]
 }
 
     },
@@ -7904,6 +8045,142 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-drone-cekimi-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi",
+      "name": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#webpage" },
+      "headline": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+      "name": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+      "description": "Otel drone çekimi için ışık, rüzgâr, rota ve kadraj planını adım adım kurun. Reels kırpma, izin ve mahremiyetle etkili aerial içerik üretin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "about": [
+        "Drone Shot",
+        "Aerial View",
+        "Hotel Architecture",
+        "Beach & Pool",
+        "Social Media Video"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "serviceType": "Video & Prodüksiyon",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum"
+      ],
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak", "item": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi" }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#howto",
+      "name": "Otel drone çekimi planlama adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Saat seç ve ışığı planla", "text": "Golden hour penceresini belirle; sahil/havuz/mimari için ışık tercihlerini yaz." },
+        { "@type": "HowToStep", "name": "Rüzgâr riskini yönet", "text": "A/B saat penceresi oluştur; güvenlik sınırlarını belirle." },
+        { "@type": "HowToStep", "name": "Rota A/B çiz", "text": "Sahil→iskele→havuz→mimari→çevre akışını rota olarak planla." },
+        { "@type": "HowToStep", "name": "Kadraj setini kilitle", "text": "Wide, top-down, reveal, orbit ve lead-in kadrajlarını shot list’e yaz." },
+        { "@type": "HowToStep", "name": "Mahremiyet ve izinleri tamamla", "text": "No-fly alanları tanımla; departman bilgilendirmesi ve saha işaretlerini yap." },
+        { "@type": "HowToStep", "name": "Reels kırpım planı üret", "text": "9:16 güvenli alan notlarını ekle; 16:9 master ve kırpımlar için teslim listesi oluştur." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-drone-cekimi-rehberi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel drone çekimi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Golden hour’ı seçin, rüzgâr riskine karşı A/B saat penceresi belirleyin ve rota + kadraj listesini uçuş öncesi yazın; mahremiyet/no-fly alanlarını işaretleyip izinleri kilitleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi açılardan drone ile çekim yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum set olarak wide establishing, top-down, reveal, orbit ve lead-in kadrajlarını planlayın; otelin ölçeğini ve çevresini bu setle hızlıca gösterirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Drone görüntülerini tanıtım videosu ve Reels’te nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tanıtım videosunda 3–7 saniyelik establishing ve geçişlerde kullanın; Reels’te 1–2 saniyelik ‘wow’ kadrajlarını hızlı kurgu ile öne çıkarın ve 9:16 kırpım için güvenli alan bırakın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir mahremiyeti drone çekimlerinde nasıl korunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uçuşu kalabalık saatleri dışına alın, özel alanlara bakan açılardan kaçının, no-fly bölgeleri belirleyin ve otel içinde bilgilendirme yaparak misafir deneyimini koruyun."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -9177,7 +9454,285 @@ export const BLOG_JSONLD_MAP = {
 
 //
 
-"otel-sosyal-medya-mesaj-yonetimi-temel-rehber":{}
+"otel-sosyal-medya-mesaj-yonetimi-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber#webpage" },
+      "headline": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+      "name": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+      "description": "Otel sosyal medya mesaj yönetimini DM–WhatsApp–web chat için kurgulayın: triage, SLA, yanıt şablonları ve raporlama ile mesajı rezervasyona dönüştürün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "Web Chat" },
+        { "@type": "Thing", "name": "Reservation Funnel" },
+        { "@type": "Thing", "name": "Call Center" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#service",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "serviceType": "Otel sosyal medya mesaj yönetimi (DM, WhatsApp, Web Chat) operasyon kurgusu",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Kemer" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Sosyal Medya Mesaj Yönetimi: Instagram DM, WhatsApp ve Web Chat İçin Temel Rehber",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medya mesaj yönetimi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Instagram DM, WhatsApp, web chat ve OTA mesajlarını tek bir operasyonla yönetmek; triage, SLA ve şablon yanıtlarla hızlı, tutarlı ve satış odaklı yanıt üretmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Instagram DM ve WhatsApp mesajları nasıl organize edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanalları tek inbox mantığında birleştirip mesajları satış/destek/şikâyet olarak etiketleyin. Kanal bazlı SLA ve şablon yanıtlarla satış lead’lerini kapanış adımına bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajlardan rezervasyon ve satış fırsatı nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış niyetli mesajlarda 2 net soru sorup hızlı teklif verin ve mutlaka kapanış adımı bırakın (link/arama). Lead → teklif → kapanış oranlarını raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller mesajlara ne kadar sürede cevap vermeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA işletmeye göre değişir; satış mesajlarında hızlı ilk yanıt ve net ilerleme önemlidir. Şikâyet mesajlarında empati + çözüm adımı ile daha hızlı yanıt hedeflenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sosyal-medya-mesaj-yonetimi-temel-rehber#howto",
+      "name": "Otel sosyal medya mesaj yönetimi nasıl kurgulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Kanalları tek inbox mantığında topla",
+          "text": "Instagram DM, WhatsApp, web chat ve OTA mesajlarını tek operasyon ekranında birleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Triage + SLA tanımla",
+          "text": "Mesajları satış/destek/şikâyet diye etiketle; ilk yanıt ve çözüm süresi hedeflerini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Şablon yanıt ve raporlama ritmi kur",
+          "text": "10–25 yanıt şablonunu standardize et; haftalık KPI raporuyla rezervasyon dönüşümünü takip et."
+        }
+      ]
+    }
+  ]
+},
+
+"otel-mesaj-yonetiminde-sla-ve-cevap-suresi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi#webpage" },
+      "headline": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi: Kaç Dakika İçinde Dönmelisiniz?",
+      "name": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi: Kaç Dakika İçinde Dönmelisiniz?",
+      "description": "Otel mesaj yönetiminde SLA hedeflerini kanal bazlı belirleyin. KPI’larla ölçün, dashboard kurun ve cevap süresini iyileştirmek için pratik taktikler uygulayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Response Time" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Dashboard" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Mesaj Yönetiminde SLA ve Cevap Süresi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sla-ve-cevap-suresi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SLA nedir, otel mesaj yönetiminde neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA, misafire hangi sürede dönüş yapacağınızı standartlaştıran performans sözüdür. Kanal bazlı hedefler ve takip sayesinde ekip performansı ölçülür ve iyileştirilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM ve WhatsApp mesajlarına kaç dakika içinde dönmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir sayı yerine kanal ve yoğunluğa göre dakikalar–saatler katmanıyla hedef belirlemek daha gerçekçidir. DM/WhatsApp’ta hedef genelde dakikalar bandı, peak saatlerde ise saatler bandıyla yönetilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA hedefleri nasıl belirlenir ve ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanalları ayırıp normal + peak hedefi tanımlayın, satış lead’lerini etiketleyin ve ilk yanıt/çözüm süresi ile SLA uyum oranını KPI olarak ölçüp dashboard’da izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj SLA’sı rezervasyon ve memnuniyeti nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hızlı ve net yanıt belirsizliği azaltır ve karar süresini kısaltır; bu da rezervasyon kapanışını kolaylaştırır. Gecikmeler ise kayıp lead ve şikâyet riskini artırabilir."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
@@ -10279,6 +10834,100 @@ export const BLOG_JSONLD_MAP = {
       "name": "Kanal Yönetimi Nedir? PMS–OTA Satışlarını Tek Panelden Yönetmenin Temel Mantığı",
       "description": "Kanal yönetimi (channel manager) ile PMS’teki fiyat ve envanteri OTA’lara tek panelden dağıtın; hataları ve overbooking riskini azaltın. Hızlı analiz isteyin.",
       "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#service",
+      "name": "Kanal Yönetimi (Channel Management) Danışmanlığı",
+      "serviceType": "Channel Management",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum", "Alanya"],
+      "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+        { "@type": "ListItem", "position": 3, "name": "Kanal Yönetimi (Channel Management)", "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kanal Yönetimi Nedir?", "item": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kanal yönetimi nedir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kanal yönetimi, PMS’teki fiyat ve müsaitliği bir channel manager üzerinden OTA kanallarına dağıtıp tek noktadan kontrol etmektir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Channel manager oteller için ne işe yarar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Manuel güncellemeleri azaltır, fiyat/müsaitlik tutarlılığı sağlar ve overbooking riskini düşürür." }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS–channel–OTA üçgeni nasıl çalışır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "PMS tek kaynak gerçektir; channel manager rate & inventory verisini OTA’lara dağıtır, rezervasyonla PMS müsaitliği güncellenir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Kanal yönetimi otel gelirini nasıl etkiler?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hızlı fiyat reaksiyonu ve kanal başı net gelir görünürlüğü sağlar; yanlış fiyat ve müsaitlik kaynaklı kayıpları azaltır." }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#howto",
+      "name": "İlk 30 günde kanal yönetimine geçiş planı",
+      "description": "Kanal yönetimi geçişini 30 günde kurulum, süreç ve ölçüm adımlarıyla ilerletmek için pratik plan.",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Gün 1–7: Veri temizliği", "text": "Oda tipleri, rate plan ve kısıtları sadeleştir; mapping şablonunu hazırla; çekirdek kanal listesini belirle." },
+        { "@type": "HowToStep", "name": "Gün 8–14: Entegrasyon ve test", "text": "İlk 2 OTA kanalını bağla; test rezervasyonları yap; gecikme ve hata senaryolarını prova et." },
+        { "@type": "HowToStep", "name": "Gün 15–30: Süreç ve ölçüm", "text": "Günlük kontrol rutinini yaz; KPI’ları ölç; optimizasyon döngüsünü başlat." }
+      ]
+    }
+  ]
+},
+
+"kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme",
+      "name": "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme: Adım Adım Uygulama",
+      "description": "Kanal yönetim grid ekranında oda tipi, rate plan, tarih ve OTA filtresiyle fiyat & envanteri güvenle güncelleyin. Test–kontrol–geri alma adımlarıyla ilerleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#article",
+      "headline": "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme: Adım Adım Uygulama",
+      "name": "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme: Adım Adım Uygulama",
+      "description": "Kanal yönetim grid ekranında oda tipi, rate plan, tarih ve OTA filtresiyle fiyat & envanteri güvenle güncelleyin. Test–kontrol–geri alma adımlarıyla ilerleyin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#webpage" },
       "author": {
         "@type": "Organization",
         "name": "DGTLFACE",
@@ -10289,31 +10938,15 @@ export const BLOG_JSONLD_MAP = {
         "name": "DGTLFACE",
         "url": "https://dgtlface.com/"
       },
-      "inLanguage": "tr-TR"
-    },
-    {
-      "@type": "Service",
-      "@id": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi/#service",
-      "name": "Kanal Yönetimi (Channel Management) Danışmanlığı",
-      "serviceType": "Channel Management",
-      "provider": {
-        "@type": "Organization",
-        "name": "DGTLFACE",
-        "url": "https://dgtlface.com/"
-      },
-      "areaServed": [
-        "Antalya",
-        "Belek",
-        "Side",
-        "Kemer",
-        "Bodrum",
-        "Alanya"
-      ],
-      "url": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi"
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#breadcrumb",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -10336,79 +10969,63 @@ export const BLOG_JSONLD_MAP = {
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Kanal Yönetimi Nedir?",
-          "item": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik"
+          "name": "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#faq",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Kanal yönetimi nedir?",
+          "name": "Kanal yönetim ekranı nasıl kullanılır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kanal yönetimi, PMS’teki fiyat ve müsaitliği bir channel manager üzerinden OTA kanallarına dağıtıp tek noktadan kontrol etmektir. Amaç hız, tutarlılık ve hata azaltımıdır."
+            "text": "Önce oda tipi ve rate plan’ı seçin, ardından düşük riskli bir test tarih aralığı belirleyin. OTA filtresiyle çekirdek kanallarda deneyip kontrol ettikten sonra toplu güncellemeye geçin."
           }
         },
         {
           "@type": "Question",
-          "name": "Channel manager oteller için ne işe yarar?",
+          "name": "Fiyat ve envanter grid ekranından nasıl güncellenir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Manuel güncellemeleri azaltır, kanallar arası fiyat/müsaitlik tutarlılığı sağlar ve overbooking riskini düşürür. Kanal stratejisini ölçülebilir hale getirir."
+            "text": "Grid’de ilgili satır (RoomType/RatePlan) ve tarih sütunlarını seçip değer girersiniz. Kaydetmeden önce kontrol yapıp, kaydettikten sonra OTA tarafında doğrulama turu uygulayın."
           }
         },
         {
           "@type": "Question",
-          "name": "PMS–channel–OTA üçgeni nasıl çalışır?",
+          "name": "Belirli tarihlerde belirli OTA’lar nasıl kapatılır/açılır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PMS tek kaynak gerçektir; channel manager rate & inventory verisini OTA’lara dağıtır. OTA’dan rezervasyon geldiğinde PMS müsaitliği güncellenir ve zincir tamamlanır."
+            "text": "DateRange ve OTAFilter ile hedef kanalı ve tarih aralığını sınırlandırın. Stop-sell/closed aksiyonunu uygulayıp kaydedin; ardından ilgili kanalda görünürlüğü kontrol edin."
           }
         },
         {
           "@type": "Question",
-          "name": "Kanal yönetimi otel gelirini nasıl etkiler?",
+          "name": "Hatalı fiyat girişi yaptığımda nasıl düzeltebilirim?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hızlı fiyat reaksiyonu, promosyon/kısıt kontrolü ve kanal başı net gelir görünürlüğü sağlar. Yanlış fiyat ve yanlış müsaitlik kaynaklı gelir kaybını azaltmaya yardımcı olur."
+            "text": "Aynı filtrelerle geri dönüp doğru değeri girerek düzeltin. Düzeltmeyi hızlandırmak için değişiklik log’u ve rollback playbook’u kullanın."
           }
         }
       ]
     },
     {
       "@type": "HowTo",
-      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#howto",
-      "name": "İlk 30 günde kanal yönetimine geçiş planı",
-      "description": "Kanal yönetimi geçişini 30 günde kurulum, süreç ve ölçüm adımlarıyla ilerletmek için pratik plan.",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme/#howto",
+      "name": "Kanal yönetim grid ekranında fiyat ve envanter güncelleme (7 adım)",
+      "description": "RoomType, RatePlan, DateRange ve OTAFilter seçimiyle test–kontrol–toplu güncelleme–rollback akışında fiyat ve envanteri güvenle güncelleme adımları.",
       "inLanguage": "tr-TR",
       "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Gün 1–7: Veri temizliği",
-          "text": "Oda tipleri, rate plan ve kısıtları sadeleştir; mapping şablonunu hazırla; çekirdek kanal listesini belirle."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Gün 8–14: Entegrasyon ve test",
-          "text": "İlk 2 OTA kanalını bağla; test rezervasyonları yap; gecikme ve hata senaryolarını prova et."
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Gün 15–30: Süreç ve ölçüm",
-          "text": "Günlük kontrol rutinini yaz; sorumluluk matrisi oluştur; KPI’ları ölç ve optimizasyon döngüsünü başlat."
-        }
-      ]
-    },
-    {
-      "@type": "SpeakableSpecification",
-      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetimi-nedir-temel-mantik/#speakable",
-      "cssSelector": [
-        "h1",
-        ".answer-block"
+        { "@type": "HowToStep", "name": "RoomType seç", "text": "Güncelleyeceğiniz oda tipini belirleyin." },
+        { "@type": "HowToStep", "name": "RatePlan seç", "text": "BAR/NRF/kampanya gibi doğru fiyat planını doğrulayın." },
+        { "@type": "HowToStep", "name": "Test DateRange belirle", "text": "Önce 1–3 günlük düşük riskli test aralığı seçin." },
+        { "@type": "HowToStep", "name": "OTAFilter uygula", "text": "Önce çekirdek kanalları seçin; sonra genişletin." },
+        { "@type": "HowToStep", "name": "Fiyat ve envanter gir", "text": "Grid hücrelerine değerleri girin ve kural çakışmalarını kontrol edin." },
+        { "@type": "HowToStep", "name": "Kontrol et", "text": "Kaydetmeden önce önizleme/kontrol ile satır–tarih–kanal eşleşmesini doğrulayın." },
+        { "@type": "HowToStep", "name": "Kaydet ve doğrula", "text": "Kaydedin; OTA tarafında kısa kontrol turu yapın, hata varsa rollback uygulayın." }
       ]
     }
   ]
@@ -11713,56 +12330,23 @@ export const BLOG_JSONLD_MAP = {
       "@id": "https://dgtlface.com/#website",
       "url": "https://dgtlface.com/",
       "name": "DGTLFACE",
-      "inLanguage": "tr",
-      "publisher": {
-        "@type": "Organization",
-        "@id": "https://dgtlface.com/#organization",
-        "name": "DGTLFACE",
-        "url": "https://dgtlface.com/"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage",
-      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel",
-      "name": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
-      "isPartOf": { "@id": "https://dgtlface.com/#website" },
-      "inLanguage": "tr",
-      "about": [
-        { "@type": "Thing", "name": "Hotel" },
-        { "@type": "Thing", "name": "Funnel" },
-        { "@type": "Thing", "name": "Reservation" },
-        { "@type": "Thing", "name": "Revenue" },
-        { "@type": "Thing", "name": "Channel" },
-        { "@type": "Thing", "name": "ROAS" },
-        { "@type": "Thing", "name": "Conversion Rate" }
-      ],
-      "breadcrumb": {
-        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#breadcrumb"
-      }
-    },
-    {
-      "@type": "Article",
-      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#article",
-      "headline": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
-      "description": "Otelinizde trafik→talep→rezervasyon→gelir funnel’ını tek raporda görün. KPI seti, kanal karması ve ROAS/ROI okumasıyla kaybın nerede olduğunu bulun.",
-      "mainEntityOfPage": {
-        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage"
-      },
-      "inLanguage": "tr",
-      "author": {
-        "@type": "Organization",
-        "@id": "https://dgtlface.com/#organization",
-        "name": "DGTLFACE"
-      },
+      "inLanguage": "tr-TR",
       "publisher": {
         "@id": "https://dgtlface.com/#organization"
       }
     },
     {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "sameAs": []
+    },
+    {
       "@type": "Service",
       "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
       "name": "Satış ve Dönüşüm Raporları",
+      "serviceType": "Satış ve Dönüşüm Raporları",
       "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
       "provider": {
         "@id": "https://dgtlface.com/#organization"
@@ -11773,6 +12357,57 @@ export const BLOG_JSONLD_MAP = {
         { "@type": "Place", "name": "Side" },
         { "@type": "Place", "name": "Kemer" },
         { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel",
+      "name": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#article"
+      },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Funnel" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Revenue" },
+        { "@type": "Thing", "name": "Channel" },
+        { "@type": "Thing", "name": "ROAS" },
+        { "@type": "Thing", "name": "Conversion Rate" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#article",
+      "headline": "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı",
+      "description": "Otelinizde trafik→talep→rezervasyon→gelir funnel’ını tek raporda görün. KPI seti, kanal karması ve ROAS/ROI okumasıyla kaybın nerede olduğunu bulun.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#webpage"
+      },
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "Hotel Sales Funnel" },
+        { "@type": "Thing", "name": "Sales and Conversion Reporting" }
       ]
     },
     {
@@ -11808,13 +12443,14 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "FAQPage",
       "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#faq",
       "mainEntity": [
         {
           "@type": "Question",
           "name": "Satış ve dönüşüm raporlama nedir?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Otelin trafik, talep, rezervasyon ve gelir verilerini tek bir funnel içinde birleştirip yorumlamaktır; kaybın hangi adımda olduğunu ayırarak doğru aksiyonu hızlandırır."
+            "text": "Satış ve dönüşüm raporlama, otelin trafik, talep, rezervasyon ve gelir verilerini tek bir satış hunisi içinde birleştirip kaybın hangi adımda olduğunu ayırmanızı sağlar."
           }
         },
         {
@@ -11822,7 +12458,7 @@ export const BLOG_JSONLD_MAP = {
           "name": "Oteller için satış hunisi (funnel) nasıl çalışır?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Misafir yolculuğu genellikle ziyaretçi → fiyat arama/talep → rezervasyon → gelir adımlarından oluşur; her adım ayrı KPI’larla izlenir ve kayıp noktası adım terk oranlarıyla bulunur."
+            "text": "Otel funnel’ı genellikle ziyaretçi → talep → rezervasyon → gelir adımlarından oluşur; her adım KPI’larla ölçülür ve terk oranları kayıp noktasını gösterir."
           }
         },
         {
@@ -11830,7 +12466,7 @@ export const BLOG_JSONLD_MAP = {
           "name": "Satış ve dönüşüm raporunda hangi KPI’lar olmalı?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Oturum, fiyat arama, rezervasyon dönüşüm oranı, kanal bazlı satış payı ve net gelir çekirdek KPI’lardır; ROAS/komisyon/iptal gibi katmanlar karar kalitesini artırır."
+            "text": "Oturum, fiyat arama/talep sinyalleri, rezervasyon dönüşüm oranı, kanal bazlı satış payı ve net gelir temel KPI’lardır; ROAS ve iptal/komisyon etkisiyle zenginleştirilmelidir."
           }
         },
         {
@@ -11838,18 +12474,15 @@ export const BLOG_JSONLD_MAP = {
           "name": "Funnel raporlarını nasıl yorumlamalıyım?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Önce kaybın hangi adımda olduğuna bakın, sonra kanal karmasının (web/OTA/call center) etkisini kontrol edin ve geliri brüt değil net (komisyon/iptal sonrası) okumaya çalışın."
+            "text": "Önce kaybın hangi adımda olduğuna bakın, sonra kanal karmasının (web/OTA/call center) etkisini kontrol edin ve geliri mümkünse net (komisyon/iptal sonrası) okumaya çalışın."
           }
         }
       ]
-    },
-    {
-      "@type": "SpeakableSpecification",
-      "@id": "https://dgtlface.com/tr/raporlama/blog/satis-ve-donusum-raporlama-nedir-otel-funnel#speakable",
-      "cssSelector": ["h1", ".answer-block"]
     }
   ]
-}
+},
+
+"":{}
 
     },
 

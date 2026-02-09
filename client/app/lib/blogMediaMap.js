@@ -5424,6 +5424,258 @@ export const BLOG_MEDIA_MAP = {
       alt: "Ham vs kurgulu karşılaştırma ve üretim çıktıları proof kartı",
       caption: "Ham vs kurgulu karşılaştırma ve üretim çıktıları proof kartı"
     }
+  },
+
+  "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":{
+     banner: {
+      src: "/images/blog/software/Software3-2/Software3-2-1.webp",
+      alt: "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri",
+      caption: "Veri Haritası ve Data Flow Mapping: KVKK İçin Dijital Sistem Envanteri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-2/Software3-2-2.webp",
+      alt: "Web PMS CRM çağrı merkezi kanalları, KVKK akış bağlamı görseli",
+      caption: "Web PMS CRM çağrı merkezi kanalları, KVKK akış bağlamı görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-2/Software3-2-3.webp",
+      alt: "Data flow mapping bölümü ayırıcı, otel operasyon süreç görsel",
+      caption: "Data flow mapping bölümü ayırıcı, otel operasyon süreç görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-2/Software3-2-4.webp",
+      alt: "Retention ve anonimleştirme bölümü ayırıcı, otel veri yönetimi",
+      caption: "Retention ve anonimleştirme bölümü ayırıcı, otel veri yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-2/Software3-2-5.webp",
+      alt: "Webten PMS CRM OTaya veri akışı diyagramı, otel bağlamı",
+      caption: "Webten PMS CRM OTaya veri akışı diyagramı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-2/Software3-2-6.webp",
+      alt: "Veri envanteri ve retention checklist kartı, otel ve B2B",
+      caption: "Veri envanteri ve retention checklist kartı, otel ve B2B"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-2/Software3-2-7.webp",
+      alt: "Envanter kapsama ve doğruluk KPI paneli, KVKK uyum takibi",
+      caption: "Envanter kapsama ve doğruluk KPI paneli, KVKK uyum takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-2/Software3-2-8.webp",
+      alt: " Veri haritası çıktıları ve sprint teslimleri, otel proje güveni",
+      caption: " Veri haritası çıktıları ve sprint teslimleri, otel proje güveni"
+    }
+  },
+
+  "otel-drone-cekimi-rehberi":{
+    banner: {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-1.webp",
+      alt: "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak",
+      caption: "Otel Drone Çekimi Rehberi: Havadan Görüntülerle Fark Yaratmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-2.webp",
+      alt: "Resort drone çekimi planlama, rüzgâr ve ışık kontrolü sahnesi",
+      caption: "Resort drone çekimi planlama, rüzgâr ve ışık kontrolü sahnesi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-3.webp",
+      alt: "Otel drone çekimi planlama adımlarını ayıran bölüm görseli",
+      caption: "Otel drone çekimi planlama adımlarını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-4.webp",
+      alt: "Drone kadrajları ve Reels kullanımı bölüm geçiş görseli",
+      caption: "Drone kadrajları ve Reels kullanımı bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-5.webp",
+      alt: "Otel drone uçuş rotası ve kadraj akışını gösteren diyagram",
+      caption: "Otel drone uçuş rotası ve kadraj akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-6.webp",
+      alt: "Resort drone açılar örnekleri, beş temel kadraj kart",
+      caption: "Resort drone açılar örnekleri, beş temel kadraj kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-7.webp",
+      alt: "Drone+yer çekimi kombinasyonunun ilk etki gücünü anlatan kart",
+      caption: "Drone+yer çekimi kombinasyonunun ilk etki gücünü anlatan kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-2/Creative3-2-8.webp",
+      alt: "Reels kırpma şeması ve video teslim setini özetleyen kart",
+      caption: "Reels kırpma şeması ve video teslim setini özetleyen kart"
+    }
+  },
+
+
+  "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-1.webp",
+      alt: "Otel Mesaj Yönetiminde SLA ve Cevap Süresi: Kaç Dakika İçinde Dönmelisiniz?",
+      caption: "Otel Mesaj Yönetiminde SLA ve Cevap Süresi: Kaç Dakika İçinde Dönmelisiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-2.webp",
+      alt: "DM ve WhatsApp cevap süresi katmanlarını açıklayan otel operasyon görseli",
+      caption: "DM ve WhatsApp cevap süresi katmanlarını açıklayan otel operasyon görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-3.webp",
+      alt: "Kanal bazlı SLA hedeflerinin nasıl belirleneceğini ayıran bölüm görseli",
+      caption: "Kanal bazlı SLA hedeflerinin nasıl belirleneceğini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-4.webp",
+      alt: "SLA iyileştirme taktikleri ve vardiya planını özetleyen bölüm görseli",
+      caption: "SLA iyileştirme taktikleri ve vardiya planını özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-5.webp",
+      alt: "Mesaj kanalı KPI dashboard aksiyon döngüsünü gösteren otel akış diyagramı",
+      caption: "Mesaj kanalı KPI dashboard aksiyon döngüsünü gösteren otel akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-6.webp",
+      alt: "SLA iyileştirme için 10 hızlı taktiği özetleyen otel kontrol kartı",
+      caption: "SLA iyileştirme için 10 hızlı taktiği özetleyen otel kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-7.webp",
+      alt: "Otel mesaj cevap süresi ve SLA uyum KPI paneli skor kartı",
+      caption: "Otel mesaj cevap süresi ve SLA uyum KPI paneli skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-2/Callcenter3-2-8.webp",
+      alt: "SLA hedef tablosu heatmap dashboard çıktılarıyla otel güven kanıt görseli",
+      caption: "SLA hedef tablosu heatmap dashboard çıktılarıyla otel güven kanıt görseli"
+    }
+  },
+
+  "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-1.webp",
+      alt: "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme: Adım Adım Uygulama",
+      caption: "Kanal Yönetim Ekranı ile Fiyat ve Envanter Güncelleme: Adım Adım Uygulama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-2.webp",
+      alt: "Grid satır-sütun mantığını oda tipi ve tarih bağlamında açıklayan context görseli",
+      caption: "Grid satır-sütun mantığını oda tipi ve tarih bağlamında açıklayan context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-3.webp",
+      alt: "Grid ekranı bileşenlerine geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "Grid ekranı bileşenlerine geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-4.webp",
+      alt: "Filtreleme ve risk azaltma adımlarını vurgulayan bölüm ayırıcı görsel",
+      caption: "Filtreleme ve risk azaltma adımlarını vurgulayan bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-5.webp",
+      alt: "Filtre-test-kontrol-toplu güncelleme-rollback akışını gösteren otel diyagramı",
+      caption: "Filtre-test-kontrol-toplu güncelleme-rollback akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-6.webp",
+      alt: "Grid kullanan ekip için kontrol adımlarını özetleyen checklist kartı",
+      caption: "Grid kullanan ekip için kontrol adımlarını özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-7.webp",
+      alt: "Fiyat hatası ve manuel işlem süresi KPI’larını özetleyen skor kartı",
+      caption: "Fiyat hatası ve manuel işlem süresi KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-2/Pms3-2-8.webp",
+      alt: "Grid SOP, checklist ve eğitim çıktıları gibi deliverable’ları gösteren proof kartı",
+      caption: "Grid SOP, checklist ve eğitim çıktıları gibi deliverable’ları gösteren proof kartı"
+    }
+  },
+
+
+  "":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-8.webp",
+      alt: "",
+      caption: ""
+    }
   }
 
 
