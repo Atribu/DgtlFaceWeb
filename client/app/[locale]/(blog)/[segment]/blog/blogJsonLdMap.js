@@ -1552,6 +1552,168 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri",
+      "name": "Dinamik Remarketing Otellerde Nasıl Çalışır? Fiyat ve Oda Dinamikleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#article",
+      "headline": "Dinamik Remarketing Otellerde Nasıl Çalışır? Fiyat ve Oda Dinamikleri",
+      "description": "Dinamik remarketing otelde nasıl çalışır? Oda feed’i, fiyat–müsaitlik senkronu, PMS/channel manager entegrasyonu ve test süreciyle yanlış fiyat riskini yönetin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Dynamic Remarketing",
+        "Product Feed",
+        "Room Type",
+        "Price",
+        "Availability",
+        "PMS",
+        "Channel Manager"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#howto",
+      "name": "Otelde Dinamik Remarketing Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Oda feed’ini hazırla",
+          "text": "Oda tipi id, görsel ve landing URL’leriyle minimum feed alanlarını oluştur; faz-1’de fiyatı opsiyonla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Senkron ve risk planını netleştir",
+          "text": "PMS/Channel Manager–rezervasyon motoru–feed akışını şemala; fiyat/müsaitlik tutarlılığı için kontrol noktaları belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test ve onay süreci uygula",
+          "text": "10 örnek oda ile banner önizleme kontrolü yap; canlıda ilk 48 saat doğrulama ve fallback kurallarıyla güvenli yayınla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile optimize et",
+          "text": "CTR yerine rezervasyon katkısı, CPA ve rezervasyon adımı metrikleriyle segment bazında optimizasyon yap."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Dinamik Remarketing Otellerde Nasıl Çalışır? Fiyat ve Oda Dinamikleri",
+          "item": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dinamik remarketing nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dinamik remarketing, kullanıcının baktığı oda/paketi feed’den çekip reklamda kişiye özel gösteren yeniden hedefleme yöntemidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için dinamik remarketing nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce oda tipi feed’i (id, görsel, landing URL) kurulur; sonra segmentler tanımlanır ve senkron/test-onay süreçleriyle güvenli yayın yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda ve fiyat bilgisi reklamda nasıl gösterilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda ve fiyat alanları feed’den çekilerek dinamik banner şablonuna yerleştirilir; fiyat göstermek için senkron ve tutarlılık kontrolleri şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dinamik remarketing ile OTA beraber kullanılabilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; OTA’dan web’e gelen warm audience’u dinamik banner’larla yeniden yakalayıp direct booking’e yönlendirebilirsiniz; mesajda şeffaf koşul ve destek vurgusu önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dinamik remarketing’in en büyük riski nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Feed veya senkron hatası nedeniyle yanlış fiyat/müsaitlik göstermek ve marka güveni kaybı yaşamaktır; test/onay ve fallback kurallarıyla azaltılır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -3125,7 +3287,9 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"topic-cluster-ve-content-hub-mimarisi":{}
 
     },
 
@@ -4914,6 +5078,187 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/smm/blog/reels-storyboard-ve-montaj-tempo-rehberi#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/#logo",
+        "url": "https://dgtlface.com/favicon.ico"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu",
+      "name": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#webpage"
+      },
+      "headline": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+      "description": "Reels müzik seçimini stratejiye bağlayın: trend ses, voice-over, orijinal ambiyans ve telif kurallarıyla marka tonunu koruyun. Audio checklist’iyle planlayın.",
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "datePublished": "2026-01-06",
+      "dateModified": "2026-01-06",
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "reels müzik seçimi",
+        "trend ses mi orijinal ses mi",
+        "işletme hesabında telifli müzik",
+        "trend sounds",
+        "original audio",
+        "voice-over",
+        "music licensing",
+        "brand voice"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+      "name": "Reels & Video İçerik Üretimi",
+      "serviceType": "Short-Form Video Strategy & Production",
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels & Video İçerik Üretimi",
+          "item": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+          "item": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reels’te trend ses kullanmak şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şart değil. Trend sesler erişimi hızlandırabilir ama marka tonu ve telif uyumu yoksa performans düşebilir; voice-over veya orijinal ambiyans daha sürdürülebilir olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İşletme hesabında müzik ve telif kuralları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İşletme hesaplarında müzik seçenekleri ve kullanım kapsamı daha sınırlı olabilir. Yayın öncesi uygunluk kontrolü yapmak ve gerekiyorsa telifsiz/kurumsal lisanslı müzik veya orijinal ses kullanmak riski azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voice-over ve orijinal ses ne zaman daha iyi çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "B2B mini ders ve case içeriklerinde voice-over güven ve netlik sağlar; otellerde orijinal ambiyans yer hissi ve gerçeklik sunar. Çoğu senaryoda dengeli kombinasyon en verimli çözümdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reels müzik seçimi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef, marka tonu, sessiz izleme senaryosu ve telif uygunluğu birlikte değerlendirilmelidir. Trend/orijinal/voice-over seçenekleri tek bir audio-first model içinde planlanır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#howto",
+      "name": "Audio-First Reels Ses Stratejisi Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hedef ve marka tonunu seç",
+          "text": "Awareness/consideration/conversion hedefini belirle; premium/sıcak/enerjik/uzman marka tonunu netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Audio türünü uygunlukla birlikte belirle",
+          "text": "Trend/orijinal/voice-over/ambiyans kararını ver; işletme hesabı uygunluğunu ve telif riskini kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Altyazı standardı ve test planını uygula",
+          "text": "Sessiz izleme için altyazıyı standardize et; trend vs voice-over vs ambiyans varyasyonlarıyla test edip en iyi kombinasyonu seri standardı yap."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu#speakable",
       "cssSelector": [
         "h1",
         ".answer-block"
@@ -12482,7 +12827,179 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"":{}
+"google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "sameAs": []
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+      "name": "Satış ve Dönüşüm Raporları",
+      "serviceType": "Satış ve Dönüşüm Raporları",
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Kemer" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek",
+      "name": "Google Ads, Meta Ads ve OTA Satışlarını Tek Funnel’da Birleştirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#breadcrumb" },
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#article" },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "Google Ads" },
+        { "@type": "Thing", "name": "Meta Ads" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Multi-Channel Funnel" },
+        { "@type": "Thing", "name": "Attribution Model" },
+        { "@type": "Thing", "name": "Conversion" },
+        { "@type": "Thing", "name": "Revenue" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#article",
+      "headline": "Google Ads, Meta Ads ve OTA Satışlarını Tek Funnel’da Birleştirmek",
+      "description": "Google Ads, Meta Ads ve OTA’lardan gelen trafiği tek satış hunisinde birleştirerek; hangi kanalın görünürlük, hangisinin rezervasyon ve gelir getirdiğini netleştirip bütçeyi buna göre dağıtın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#howto",
+      "name": "Google Ads, Meta Ads ve OTA satışlarını tek funnel’da görme adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Funnel event’lerini sabitleyin (GA4)",
+          "text": "Talep sinyalleri, rezervasyon ve gelir event’lerini funnel adımlarına göre standardize edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM disiplinini tek sözlüğe bağlayın",
+          "text": "Google Ads/Meta/OTA kaynaklarını tutarlı UTM parametreleriyle ayırın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "OTA ve call center gelirini katman olarak ekleyin",
+          "text": "Gelir gerçeğini yakalamak için OTA ve call center kapanışlarını rapora dahil edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kanal rol haritasını oluşturun",
+          "text": "Her kanalın funnel’daki rolünü (görünürlük/niyet/dönüşüm) netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek dashboard’ta funnel + kanal + attribution gösterin",
+          "text": "Funnel adımları, kanal KPI kartları ve attribution özetini aynı ekranda birleştirin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Veri Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış ve Dönüşüm Raporları",
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Google Ads, Meta Ads ve OTA Satışlarını Tek Funnel’da Birleştirmek",
+          "item": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çok kanallı satış hunisi nedir, oteller için nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çok kanallı satış hunisi; Google Ads, Meta Ads ve OTA gibi kaynakları funnel adımlarına (trafik→talep→rezervasyon→gelir) bağlayarak raporlamaktır. GA4 event standardı, UTM sözlüğü ve gelir katmanı netleştirilerek kurulur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads, Meta Ads ve OTA satışlarını aynı funnel’da nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel adımlarını tanımlayıp GA4 event’leriyle ölçün, kanalları UTM ile ayırın ve OTA/call center gelirini ekleyin. Tek dashboard’ta funnel + kanal KPI kartları + attribution özetini birlikte gösterin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanal gerçekten rezervasyon ve gelir getiriyor, nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanalları rolüne göre ölçün: Google Ads çoğu zaman niyet ve dönüşümde güçlüdür, Meta talep ısınmasına katkı verir, OTA hacim getirir fakat komisyon/iptal etkisi taşır. Brüt yerine mümkünse net gelir lensiyle kıyaslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok kanallı attribution otellerde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek model her şeyi açıklamaz; pratikte ilk tıklama ve son tıklama yan yana raporlanır. Meta gibi üst adım kanalların katkısı assist KPI’larıyla görünür kılınır."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
@@ -13883,7 +14400,299 @@ export const BLOG_JSONLD_MAP = {
 //
 
 "otel-dijital-reklam-stratejisi-temel-cerceve":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve",
+      "name": "Oteller İçin Dijital Reklam Stratejisi: Google, Meta ve YouTube’u Nasıl Konumlandırmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Hotel Digital Advertising",
+        "Google Ads",
+        "Google Hotel Ads",
+        "Meta Ads",
+        "YouTube Ads",
+        "OTA",
+        "Direct Booking",
+        "Call Center"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve",
+      "headline": "Oteller İçin Dijital Reklam Stratejisi: Google, Meta ve YouTube’u Nasıl Konumlandırmalısınız?",
+      "description": "Oteller için dijital reklam stratejisini Google Ads, Meta Ads ve YouTube rolleriyle kurun. OTA–direkt rezervasyon dengesini funnel ile yönetin. Analiz talep edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE"
+      },
+      "keywords": [
+        "otel reklam stratejisi",
+        "otel dijital reklam stratejisi",
+        "google meta youtube otel rolleri",
+        "ota ve direkt rezervasyon dengesi",
+        "hotel digital advertising strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/reklam-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Oteller İçin Dijital Reklam Stratejisi: Google, Meta ve YouTube’u Nasıl Konumlandırmalısınız?",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dijital-reklam-stratejisi-temel-cerceve",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için dijital reklam stratejisi nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce hedefi netleştirin, sonra Google–Meta–YouTube’u funnel seviyelerine göre role ayırın. Her kanal için ayrı KPI belirleyin ve ölçümü (GA4 + çağrı merkezi + PMS) birlikte kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google, Meta ve YouTube otel reklamlarında hangi rolü oynar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google yüksek niyetli aramaları yakalayıp rezervasyona yaklaşır; Meta talep yaratma ve remarketing ile orta katmanı güçlendirir; YouTube üst funnel görünürlükle kitleyi ısıtır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve direkt rezervasyon reklam bütçesi nasıl dengelenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand aramalarını savunarak OTA kaybını azaltın, üst–orta funnel kanallarıyla talebi büyütün ve alt funnel’da direkt avantajı netleştirin. Çağrı merkezi kapanışını ölçümleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için reklam funnel’ı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soğuk kitlede YouTube/Meta ile görünürlük ve ilgi oluşturun, ılık katmanda konsept ve kanıt sunun, sıcak katmanda Google Search/Hotel Ads ve remarketing ile rezervasyona taşıyın."
+          }
+        }
+      ]
+    }
+  ]
+},
 
+"google-hotel-ads-ve-google-ads-farklari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari",
+      "name": "Google Hotel Ads ve Klasik Google Ads Arasındaki Farklar: Oteller İçin Hangi Strateji?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Google Hotel Ads",
+        "Google Search Ads",
+        "OTA",
+        "Direct Booking",
+        "Rate & Availability Feed",
+        "PMS",
+        "Channel Manager"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari",
+      "headline": "Google Hotel Ads ve Klasik Google Ads Arasındaki Farklar: Oteller İçin Hangi Strateji?",
+      "description": "Google Hotel Ads ile Search Ads farklarını otel özelinde öğrenin. Hangi durumda hangisi öncelikli? OTA–direkt rezervasyon etkisi, feed/entegrasyon riskleri ve önerilen kombinasyonlar.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE"
+      },
+      "keywords": [
+        "google hotel ads otel stratejisi",
+        "hotel ads vs search ads",
+        "ota ve direkt rezervasyon etkisi",
+        "rate & availability feed",
+        "google hotel ads vs search"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#howto",
+      "name": "Otel için Hotel Ads mi Search Ads mi? Hızlı karar adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Feed doğruluğunu test et", "text": "10+ tarih senaryosuyla fiyat ve müsaitliği doğrula." },
+        { "@type": "HowToStep", "name": "Pariteyi kontrol et", "text": "OTA vs direkt fiyat ve koşul tutarlılığını doğrula." },
+        { "@type": "HowToStep", "name": "Brand/generic mimariyi ayır", "text": "Search kampanyalarını brand ve generic olarak ayrı yönet." },
+        { "@type": "HowToStep", "name": "Rol paylaşımı kur", "text": "Search = mesaj kontrolü, Hotel Ads = yüksek niyet katmanı olarak konumlandır." },
+        { "@type": "HowToStep", "name": "Pilot ve raporla", "text": "7–14 gün pilot çalıştır, KPI’ları ayrı raporla ve ölçekle." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/reklam-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Google Hotel Ads ve Klasik Google Ads Arasındaki Farklar: Oteller İçin Hangi Strateji?",
+          "item": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/google-hotel-ads-ve-google-ads-farklari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Google Hotel Ads nedir, oteller için nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hotel Ads, fiyat ve müsaitlik verisiyle çalışan bir reklam formatıdır. Karar anında kullanıcıya fiyat/uygunluk sunar; başarısı feed doğruluğu ve parite yönetimine bağlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hotel Ads ile klasik Google Ads (Search) arasındaki farklar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hotel Ads veri temellidir (fiyat/müsaitlik), Search Ads mesaj ve anahtar kelime kontrolü sunar. Hotel Ads karar anına, Search Ads teklif anlatımına daha uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel için hangi durumda Hotel Ads, hangi durumda Search öncelikli olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Feed ve parite güçlüse marka/destinasyon aramalarında Hotel Ads öne çıkar. Mesaj/landing optimizasyonu ve anahtar kelime kontrolü gerekiyorsa Search önceliklidir; çoğu otelde kombinasyon en iyi sonuç verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hotel Ads OTA ve direkt rezervasyon dengesini nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA linkleriyle direkt linkler yan yana geldiği için parite ve direkt avantajlar belirleyici olur. Doğru kurgu direkt tıklama payını artırmaya yardımcı olabilir; yanlış fiyat/müsaitlik güven kaybı yaratır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

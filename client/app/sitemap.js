@@ -1,4 +1,8 @@
 // app/sitemap.js
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const runtime = "nodejs";
+
 import { routing } from "@/i18n/routing";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";

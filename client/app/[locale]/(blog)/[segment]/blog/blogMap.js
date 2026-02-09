@@ -14,7 +14,8 @@ export const BLOG_MAP = {
     "youtube-remarketing-otel-web-ve-ota-trafigi":"BlogYouTubeRemarketingOtelWebVeOTATrafigi",
 
     "remarketing-nedir-oteller-icin-temel-rehber":"BlogSemRemarketingNedirOtellerIcinTemelRehber",
-    "google-display-network-otel-remarketing-stratejisi":"BlogGoogleDisplayNetworkOtelRemarketingStratejisi"
+    "google-display-network-otel-remarketing-stratejisi":"BlogGoogleDisplayNetworkOtelRemarketingStratejisi",
+    "dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":"BlogDinamikRemarketingOtelFiyatVeOdaDinamikleri"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -30,7 +31,8 @@ export const BLOG_MAP = {
     "yerel-landing-page-stratejisi-antalya-belek-kemer-icin":"BlogYerelLandingPageStratejisiAntalyaBelekKemerIcin",
 
     "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":"BlogSeoSeoUyumluIcerikNasilYazilirTemelRehber",
-    "search-intent-analizi-ve-icerik-haritalama":"BlogSearchIntentAnaliziVeIcerikHaritalama"
+    "search-intent-analizi-ve-icerik-haritalama":"BlogSearchIntentAnaliziVeIcerikHaritalama",
+    "topic-cluster-ve-content-hub-mimarisi":"BlogTopicClusterVeContentHubMimarisi"
   },
 
     smm: {
@@ -47,7 +49,8 @@ export const BLOG_MAP = {
     "sezonluk-ve-lansman-kampanyalari-icin-sosyal-medya-strateji-dokumani":"BlogSmmSezonlukVeLansmanKampanyalariIcinSosyalMedyaStratejiDokumani",
 
     "reels-icerik-stratejisi-ve-hedef-kurgusu":"BlogSmmReelsIcerikStratejisiVeHedefKurgusu",
-    "reels-storyboard-ve-montaj-tempo-rehberi":"BlogReelsStoryboardVeMontajTempoRehberi"
+    "reels-storyboard-ve-montaj-tempo-rehberi":"BlogReelsStoryboardVeMontajTempoRehberi",
+    "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":"BlogReelsSesVeMuzikStratejisiTrendSeslerLisansVeMarkaTonu"
   },
 
     yazilim: {
@@ -130,7 +133,8 @@ export const BLOG_MAP = {
     "pms-ve-gelir-benchmarki-doluluk-revpar-adr":"BlogPmsVeGelirBenchmarkiDolulukRevparAdr",
     "benchmark-dashboard-tasarimi-looker-studio":"BlogBenchmarkDashboardTasarimiLookerStudio",
 
-    "satis-ve-donusum-raporlama-nedir-otel-funnel":"BlogSatisVeDonusumRaporlamaNedirOtelFunnel"
+    "satis-ve-donusum-raporlama-nedir-otel-funnel":"BlogSatisVeDonusumRaporlamaNedirOtelFunnel",
+    "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":"BlogGoogleAdsMetaAdsVeOtaSatislariniTekFunneldaBirlestirmek"
   },
 
 
@@ -147,7 +151,8 @@ export const BLOG_MAP = {
     "otel-sosyal-medya-hatalari":"BlogOtelSosyalMedyaHatalari",
     "otel-sosyal-medya-performans-kpi-raporlama":"BlogOtelSosyalMedyaPerformansKpiRaporlama",
 
-    "otel-dijital-reklam-stratejisi-temel-cerceve":"BlogOtelDijitalReklamStratejisiTemelCerceve"
+    "otel-dijital-reklam-stratejisi-temel-cerceve":"BlogOtelDijitalReklamStratejisiTemelCerceve",
+    "google-hotel-ads-ve-google-ads-farklari":"BlogGoogleHotelAdsVeGoogleAdsFarklari"
     
   }
 };

@@ -13,7 +13,6 @@ import { Inter } from "next/font/google";
 import dynamic from 'next/dynamic';
 import FloatingActions from "./components/common/FloatingActions";
 
-
 const Footer = dynamic(() => import("./components/footer/Footer"));
 const CookiePopup = dynamic(() => import("./components/Cookies/CookiePopup"));
 const FloatingFaqButton = dynamic(() => import("./components/common/FloatingFaqButton"));

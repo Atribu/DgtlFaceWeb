@@ -5182,14 +5182,14 @@ export const BLOG_MEDIA_MAP = {
       caption: "Satış ve Dönüşüm Raporlama Nedir? Oteller İçin 360° Funnel Bakışı"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-2.webp",
       alt: "Ziyaret-talep-rezervasyon-gelir akışını otel örneğiyle açıklayan görsel",
       caption: "Ziyaret-talep-rezervasyon-gelir akışını otel örneğiyle açıklayan görsel"
     },
 
            "divider-03": {
-      src: "/images/blog/analysisReporting/Reporting3-1/Pms3-1-3.webp",
+      src: "/images/blog/analysisReporting/Reporting3-1/Reporting3-1-3.webp",
       alt: "Çok kanallı satış akışına geçişi vurgulayan otel raporlama bölüm görseli",
       caption: "Çok kanallı satış akışına geçişi vurgulayan otel raporlama bölüm görseli"
     },
@@ -5628,55 +5628,257 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-  "":{
+  "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":{
      banner: {
       src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-1.webp",
+      alt: "Google Ads, Meta Ads ve OTA Satışlarını Tek Funnel’da Birleştirmek",
+      caption: "Google Ads, Meta Ads ve OTA Satışlarını Tek Funnel’da Birleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-2.webp",
+      alt: "Otel için çok kanallı funnel adımlarını açıklayan bağlam görseli",
+      caption: "Otel için çok kanallı funnel adımlarını açıklayan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-3.webp",
+      alt: "Kanal karması senaryolarına geçişi ayıran otel görseli",
+      caption: "Kanal karması senaryolarına geçişi ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-4.webp",
+      alt: "Attribution ve karar çerçevesi bölümünü ayıran otel görseli",
+      caption: "Attribution ve karar çerçevesi bölümünü ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-5.webp",
+      alt: "Google Meta OTA web call center akışını gösteren otel funnel diyagramı",
+      caption: "Google Meta OTA web call center akışını gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-6.webp",
+      alt: "Kanal adım KPI aksiyon çerçevesini özetleyen otel checklist kartı",
+      caption: "Kanal adım KPI aksiyon çerçevesini özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-7.webp",
+      alt: "Google Meta OTA KPI setini otel bağlamında özetleyen skor kart",
+      caption: "Google Meta OTA KPI setini otel bağlamında özetleyen skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-8.webp",
+      alt: "Multi-channel funnel dashboard ve analiz çıktıları kanıt kartı",
+      caption: "Multi-channel funnel dashboard ve analiz çıktıları kanıt kartı"
+    }
+  },
+
+
+  "google-hotel-ads-ve-google-ads-farklari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-1.webp",
+      alt: "Google Hotel Ads ve Klasik Google Ads Arasındaki Farklar: Oteller İçin Hangi Strateji?",
+      caption: "Google Hotel Ads ve Klasik Google Ads Arasındaki Farklar: Oteller İçin Hangi Strateji?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-2.webp",
+      alt: "Hotel Ads fiyat müsaitlik, Search Ads mesaj kontrolünü anlatan görsel",
+      caption: "Hotel Ads fiyat müsaitlik, Search Ads mesaj kontrolünü anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-3.webp",
+      alt: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel”",
+      caption: "Hotel Ads veri temelli çalışma mantığını gösteren bölüm ayırıcı görsel”"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-4.webp",
+      alt: "Otel reklamında karar çerçevesini destekleyen bölüm ayırıcı görsel",
+      caption: "Otel reklamında karar çerçevesini destekleyen bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-5.webp",
+      alt: "Hotel Ads ve Search rol paylaşımını otel funnel akışında gösteren diyagram",
+      caption: "Hotel Ads ve Search rol paylaşımını otel funnel akışında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-6.webp",
+      alt: "Hotel Ads mi Search mü kararını hızlandıran otel kontrol listesi kartı",
+      caption: "Hotel Ads mi Search mü kararını hızlandıran otel kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-7.webp",
+      alt: "Hotel Ads ve Search performansını 3–5 KPI ile özetleyen skor kartı",
+      caption: "Hotel Ads ve Search performansını 3–5 KPI ile özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-2/Hotel3-2-8.webp",
+      alt: "Hotel Ads entegrasyon deliverables ve güven unsurlarını gösteren kart",
+      caption: "Hotel Ads entegrasyon deliverables ve güven unsurlarını gösteren kart"
+    }
+  },
+
+
+   "dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":{
+     banner: {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-1.webp",
+      alt: "Dinamik Remarketing Otellerde Nasıl Çalışır? Fiyat ve Oda Dinamikleri",
+      caption: "Dinamik Remarketing Otellerde Nasıl Çalışır? Fiyat ve Oda Dinamikleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-2.webp",
+      alt: "Bakılan oda ve fiyatın reklama taşınmasını anlatan otel bağlam görseli",
+      caption: "Bakılan oda ve fiyatın reklama taşınmasını anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-3.webp",
+      alt: "Dinamik remarketing tanımını otel örneğiyle ayıran bölüm görseli",
+      caption: "Dinamik remarketing tanımını otel örneğiyle ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-4.webp",
+      alt: " PMS ve channel manager entegrasyonunu ayıran otel bölüm görseli",
+      caption: " PMS ve channel manager entegrasyonunu ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-5.webp",
+      alt: "Otel oda feed yapısı ve senkron akışını gösteren dinamik reklam diyagramı",
+      caption: "Otel oda feed yapısı ve senkron akışını gösteren dinamik reklam diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-6.webp",
+      alt: "Feed test ve onay adımlarını özetleyen dinamik remarketing otel checklist kartı",
+      caption: "Feed test ve onay adımlarını özetleyen dinamik remarketing otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-7.webp",
+      alt: "Dinamik remarketingte KPI ve risk kontrolünü özetleyen otel skor kartı",
+      caption: "Dinamik remarketingte KPI ve risk kontrolünü özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-3/SEM3-3-8.webp",
+      alt: "Dinamik remarketing kurulum çıktıları ve güven unsurlarını gösteren otel proof kartı",
+      caption: "Dinamik remarketing kurulum çıktıları ve güven unsurlarını gösteren otel proof kartı"
+    }
+  },
+
+  "topic-cluster-ve-content-hub-mimarisi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-1.webp", 
+      alt: "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+      caption: "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-2.webp",
+      alt: "Hub ve cluster yapısı, turizm B2B içerik haritası",
+      caption: "Hub ve cluster yapısı, turizm B2B içerik haritası"
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-3.webp",
+      alt: "Hub kurulum bölümü ayırıcı, içerik mimarisi bağlamı",
+      caption: "Hub kurulum bölümü ayırıcı, içerik mimarisi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-4.webp",
+      alt: "İç link mimarisi bölümü ayırıcı, cluster navigasyon bağlamı",
+      caption: "İç link mimarisi bölümü ayırıcı, cluster navigasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-5.webp",
+      alt: "Hub–cluster–SSS site haritası diyagramı, otel SEO mimarisi",
+      caption: "Hub–cluster–SSS site haritası diyagramı, otel SEO mimarisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-6.webp",
+      alt: "Hub ve cluster checklist kartı, içerik kümeleri kurulumu",
+      caption: "Hub ve cluster checklist kartı, içerik kümeleri kurulumu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-7.webp",
+      alt: "Cluster performansı KPI kartı, görünürlük ve trafik takibi",
+      caption: "Cluster performansı KPI kartı, görünürlük ve trafik takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-3/SEO3-3-8.webp",
+      alt: "Hub–cluster plan çıktıları kartı, ajans uygulama deliverables",
+      caption: "Hub–cluster plan çıktıları kartı, ajans uygulama deliverables"
+    }
+  },
+
+   "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":{
+     banner: {
+      src: "/images/blog/smm/SMM3-3/SMM3-3-1.webp",
       alt: "",
       caption: ""
     },
 
           "h1-context-02": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-2.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-2.webp",
+      alt: "Trend ses, voice-over ve ambiyans seçeneklerini gösteren bağlam görseli",
+      caption: "Trend ses, voice-over ve ambiyans seçeneklerini gösteren bağlam görseli"
     },
 
            "divider-03": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-3.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-3.webp",
+      alt: "Ses stratejisinin performans etkisini vurgulayan bölüm ayırıcı görsel",
+      caption: "Ses stratejisinin performans etkisini vurgulayan bölüm ayırıcı görsel"
     },
 
     "divider-04": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-4.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-4.webp",
+      alt: "Lisans ve işletme hesabı kısıtlarını açıklayan bölüm ayırıcı görsel",
+      caption: "Lisans ve işletme hesabı kısıtlarını açıklayan bölüm ayırıcı görsel"
     },
 
      "diagram-05": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-5.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-5.webp",
+      alt: "Trend ses mi orijinal ses mi karar ağacını gösteren diyagram",
+      caption: "Trend ses mi orijinal ses mi karar ağacını gösteren diyagram"
     },
 
           "checklist-06": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-6.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-6.webp",
+      alt: "Reels ses seçimi ve telif uygunluğu için audio checklist kartı",
+      caption: "Reels ses seçimi ve telif uygunluğu için audio checklist kartı"
     },
 
       "kpi-07": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-7.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-7.webp",
+      alt: "Ses stratejisiyle izlenme ve mesaj anlaşılma KPI’larını gösteren skor kartı",
+      caption: "Ses stratejisiyle izlenme ve mesaj anlaşılma KPI’larını gösteren skor kartı"
     },
 
           "proof-08": {
-      src: "/images/blog/analysisReporting/Reporting3-2/Reporting3-2-8.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/smm/SMM3-3/SMM3-3-8.webp",
+      alt: "Trend ses vs orijinal/voice-over karşılaştırmalı reels mockup ve teslim kartı",
+      caption: "Trend ses vs orijinal/voice-over karşılaştırmalı reels mockup ve teslim kartı"
     }
-  }
+  },
 
 
 };
