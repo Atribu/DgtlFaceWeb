@@ -41,10 +41,19 @@ export async function generateMetadata({ params }) {
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
-    const ogPath = bannerMedia?.src || "/og/og-home.webp";
+  const ogPath = bannerMedia?.src || "/og/og-home.webp";
 
-  // ✅ Kritik: absolute OG image
-  const ogImage = new URL(ogPath, siteUrl).toString();
+  // ✅ Kritik: absolute OG image + cache bust (sadece belirtilen slug için sabit tarih)
+  const ogImageUrl = new URL(ogPath, siteUrl);
+  const ogImagePath = ogImageUrl.pathname.toLowerCase();
+  const cacheKey =
+    slug === "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde"
+      ? "2026-02-10"
+      : post?.updatedAt ||
+        post?.publishedAt ||
+        new Date().toISOString().slice(0, 10);
+  ogImageUrl.searchParams.set("v", cacheKey);
+  const ogImage = ogImageUrl.toString();
 
   return {
     
@@ -65,6 +74,9 @@ export async function generateMetadata({ params }) {
           width: 1200,
           height: 630,
           alt: title,
+          type: ogImagePath.endsWith(".jpg") || ogImagePath.endsWith(".jpeg")
+            ? "image/jpeg"
+            : undefined,
         },
       ],
       locale: locale === "tr" ? "tr_TR" : "en_US" ,
