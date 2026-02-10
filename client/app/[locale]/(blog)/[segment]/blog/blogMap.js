@@ -67,7 +67,8 @@ export const BLOG_MAP = {
     "cms-ortamlari-ve-yayin-surecleri-draft-staging-prod-workflow":"BlogYazilimCmsOrtamlarıVeYayinSurecleriDraftStagingProdWorkflow",
 
     "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":"BlogYazilimKVKKUyumluWebAltyapisiTeknikVeOperasyonelChecklist",
-    "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":"BlogVeriHaritasiVeDataFlowMappingKvkkIcinDijitalSistemEnvanteri"
+    "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":"BlogVeriHaritasiVeDataFlowMappingKvkkIcinDijitalSistemEnvanteri",
+    "erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":"BlogErisimKontroluVeLoglamaKvkkTeknikTedbirleriPanelSunucuMimarisi"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",

@@ -6715,6 +6715,132 @@ export const BLOG_JSONLD_MAP = {
       }
     }
   ]
+},
+
+"erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi",
+      "name": "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#article",
+      "headline": "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi",
+      "description": "KVKK teknik tedbirler için RBAC ve loglama mimarisi kurun. Panelde kim neyi gördü/değiştirdi/sildi takip edin; sunucuda log saklama ve bütünlüğüyle denetime hazır olun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#webpage" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Access Control",
+        "RBAC",
+        "Logging",
+        "Audit Trail"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+      "name": "KVKK Uyum Hizmeti",
+      "serviceType": "KVKK teknik tedbirler için RBAC ve loglama mimarisi danışmanlığı",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#howto",
+      "name": "KVKK için RBAC ve loglama nasıl kurgulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "RBAC rol ve izin matrisi oluştur",
+          "text": "Rolleri ekran+aksiyon bazında tanımla; export ve kullanıcı yönetimini ayrı izin yap; MFA’yı admin için zorunlu kıl."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Audit trail kapsamını belirle",
+          "text": "Kritik ekranlarda view/update/delete/export ve login olaylarını logla; yetki değişikliklerini zorunlu audit’e al; diff formatı uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sunucu log güvenliği ve retention kur",
+          "text": "Masking uygula, retention/rotate tanımla, log erişimini RBAC ile sınırla ve panel–sunucu loglarını correlation ID ile ilişkilendir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+        { "@type": "ListItem", "position": 4, "name": "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi", "item": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK için erişim kontrolü (RBAC) nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roller ekran+aksiyon bazında tanımlanmalı; export ve kullanıcı yönetimi ayrı izin olmalı. MFA özellikle admin için zorunlu tutulmalı ve yetki değişiklikleri audit’e yazılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi aksiyonlar loglanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik ekranlarda view, update, delete ve export işlemleri; ayrıca login success/failure ve yetki değişiklikleri loglanmalıdır. Değişiklik logları mümkünse eski→yeni farkı içermelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Logları ne kadar süre saklamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu rehber hukuki süre yorumu vermez; teknik olarak retention yönetilebilir olmalı, loglar sınırsız bırakılmamalı ve rotate/erişim kontrolü uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için panel ve sunucu log mimarisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Panelde audit trail üretilmeli; sunucuda web server/WAF/CDN/runtime logları merkezi toplanmalı. Correlation ID ile panel–sunucu logları ilişkilendirilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#speakable",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    }
+  ]
 }
 
     },

@@ -5833,8 +5833,8 @@ export const BLOG_MEDIA_MAP = {
    "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":{
      banner: {
       src: "/images/blog/smm/SMM3-3/SMM3-3-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu",
+      caption: "Reels Ses ve Müzik Stratejisi: Trend Sesler, Lisans ve Marka Tonu"
     },
 
           "h1-context-02": {
@@ -5877,6 +5877,57 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/smm/SMM3-3/SMM3-3-8.webp",
       alt: "Trend ses vs orijinal/voice-over karşılaştırmalı reels mockup ve teslim kartı",
       caption: "Trend ses vs orijinal/voice-over karşılaştırmalı reels mockup ve teslim kartı"
+    }
+  },
+
+
+  "erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":{
+     banner: {
+      src: "/images/blog/software/Software3-3/Software3-3-1.webp",
+      alt: "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi",
+      caption: "Erişim Kontrolü ve Loglama: KVKK Teknik Tedbirleri İçin Panel ve Sunucu Mimarisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-3/Software3-3-2.webp",
+      alt: "Kim ne yaptı takibi için RBAC ve audit yaklaşımı, otel bağlamı",
+      caption: "Kim ne yaptı takibi için RBAC ve audit yaklaşımı, otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-3/Software3-3-3.webp",
+      alt: "Yetki yönetimi bölümü ayırıcı, otel operasyon güvenliği",
+      caption: "Yetki yönetimi bölümü ayırıcı, otel operasyon güvenliği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-3/Software3-3-4.webp",
+      alt: "Log saklama ve bütünlük bölümü ayırıcı, KVKK teknik tedbir",
+      caption: "Log saklama ve bütünlük bölümü ayırıcı, KVKK teknik tedbir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-3/Software3-3-5.webp",
+      alt: "Panel ve sunucu log akış diyagramı, otel ve B2B senaryosu",
+      caption: "Panel ve sunucu log akış diyagramı, otel ve B2B senaryosu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-3/Software3-3-6.webp",
+      alt: "Erişim ve loglama checklist kartı, otel ve B2B uygulaması",
+      caption: "Erişim ve loglama checklist kartı, otel ve B2B uygulaması"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-3/Software3-3-7.webp",
+      alt: "Audit kapsamı ve incident hız KPI paneli, KVKK uyum takibi",
+      caption: "Audit kapsamı ve incident hız KPI paneli, KVKK uyum takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-3/Software3-3-8.webp",
+      alt: "RBAC ve log mimarisi teslimleri, otel ve B2B güven unsuru",
+      caption: "RBAC ve log mimarisi teslimleri, otel ve B2B güven unsuru"
     }
   },
 

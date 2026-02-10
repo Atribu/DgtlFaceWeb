@@ -447,14 +447,26 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
               )}
 
               {/* Chips grid */}
-              <div
-                className={[
-                  "grid gap-1 md:gap-2 lg:gap-[5px]",
-                  isRoot
-                    ? "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10 items-center justify-center"
-                    : "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5",
-                ].join(" ")}
-              >
+              {(() => {
+                const list = isRoot ? chips : childChips;
+                const subColsByCount = {
+                  4: "grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4",
+                  5: "grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5",
+                  6: "grid-cols-2 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6",
+                };
+                const subCols =
+                  subColsByCount[list.length] ||
+                  "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5";
+
+                return (
+                  <div
+                    className={[
+                      "grid gap-1 md:gap-2 lg:gap-[5px]",
+                      isRoot
+                        ? "grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10 items-center justify-center"
+                        : subCols,
+                    ].join(" ")}
+                  >
                 {(isRoot ? chips : childChips).map((c, idx) => {
                   const list = isRoot ? chips : childChips;
 
@@ -498,7 +510,9 @@ const isActive = resolvedSlug === activeSlug;
                     </Link>
                   );
                 })}
-              </div>
+                  </div>
+                );
+              })()}
             </div>
           );
         })()}

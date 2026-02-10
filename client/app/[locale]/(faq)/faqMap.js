@@ -60,7 +60,7 @@ export const FAQ_MAP = {
     "otel-seo-sss":"FaqHotelSEO",
   "otel-sosyalmedya-sss":"FaqHotelSocialMedia",
    "otel-reklam-sss":"FaqHotelAdsManagement",
-  //  "otel-ota-sss":"FaqHotelOtaManagement",
+    "otel-ota-sss":"FaqHotelOtaManagement",
    "otel-pms-sss":"FaqHotelPmsIntegration",
    "otel-cagrimerkezi-sss":"FaqHotelCallCenterReservation",
 
@@ -106,7 +106,7 @@ export const FAQ_MAP = {
 "google-ads-advertising-faq": "FaqGoogleAds",
 "remarketing-and-display-faq": "FaqRemarketingDisplay",
 "tag-manager-faq": "FaqTagManager",
-"performance-analysis-faq": "FaqAdsReporting",
+"ads-reporting-faq": "FaqAdsReporting",
 
 // SEO
 "search-engine-optimization-faq": "FaqSeo",
@@ -146,4 +146,3 @@ export const FAQ_MAP = {
 
 
 };
-

@@ -161,6 +161,7 @@ const Hotel_CHIPS = [
   { label: "Otel SEO", slug: "otel-seo-sss", labelKey: "faqChips.hotel.seo" },
   { label: "Otel Sosyal Medya", slug: "otel-sosyalmedya-sss", labelKey: "faqChips.hotel.socialMedia" },
   { label: "Otel Reklam", slug: "otel-reklam-sss", labelKey: "faqChips.hotel.ads" },
+  { label: "Otel OTA", slug: "otel-ota-sss", labelKey: "faqChips.hotel.ota" },
   { label: "Otel Pms", slug: "otel-pms-sss", labelKey: "faqChips.hotel.pms" },
   { label: "Otel Çağrı Merkezi", slug: "otel-cagrimerkezi-sss", labelKey: "faqChips.hotel.callcenter" },
 ];
@@ -400,11 +401,7 @@ export const FAQ_BANNER_ASSET_MAP = {
   "otel-seo-sss": imgOtel5,
   "otel-sosyalmedya-sss": imgOtel6,
 
-  //  FAQ_MAP içinde var ama resim yok
-  // geçici fallback:
-  // "otel-ota-sss": imgOtel1,
 };
-
 
 
 

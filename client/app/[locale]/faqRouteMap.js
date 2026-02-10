@@ -32,7 +32,7 @@ export const FAQ_ROUTE_MAP = [
 
 
     { match: /^\/en\/call-center\/multilingual-call-center(\/.*)?$/, slug: "multilingual-call-center-faq" },
-  { match: /^\/en\/call-center\/performance-analysis(\/.*)?$/, slug: "performance-analysis-faq" },
+    { match: /^\/en\/call-center\/performance-analysis(\/.*)?$/, slug: "performance-analysis-faq" },
   { match: /^\/en\/call-center\/message-management(\/.*)?$/, slug: "message-management-faq" },
   { match: /^\/en\/call-center\/after-sales-support(\/.*)?$/, slug: "after-sales-support-faq" },
   { match: /^\/en\/call-center\/reservation-support(\/.*)?$/, slug: "reservation-support-faq" },
@@ -90,7 +90,7 @@ export const FAQ_ROUTE_MAP = [
   { match: /^\/en\/search-engine-marketing\/google-ads-advertising(\/.*)?$/, slug: "google-ads-advertising-faq" },
   { match: /^\/en\/search-engine-marketing\/remarketing-and-display(\/.*)?$/, slug: "remarketing-and-display-faq" },
   { match: /^\/en\/search-engine-marketing\/tag-manager(\/.*)?$/, slug: "tag-manager-faq" },
-  { match: /^\/en\/search-engine-marketing\/performance-analysis(\/.*)?$/, slug: "performance-analysis-faq" },
+  { match: /^\/en\/search-engine-marketing\/performance-analysis(\/.*)?$/, slug: "ads-reporting-faq" },
   { match: /^\/en\/search-engine-marketing(\/.*)?$/, slug: "search-engine-marketing-faq" },
 
   // -----------------------------
@@ -377,7 +377,7 @@ export const FAQ_SLUG_DEPT_SEGMENT_MAP = {
     "google-ads-advertising-faq": "search-engine-marketing",
     "remarketing-and-display-faq": "search-engine-marketing",
     "tag-manager-faq": "search-engine-marketing",
-    "performance-analysis-faq": "search-engine-marketing",
+    "ads-reporting-faq": "search-engine-marketing",
 
     // SEO
     "technical-seo-faq": "search-engine-optimization",
