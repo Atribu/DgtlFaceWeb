@@ -37,7 +37,15 @@ export async function generateMetadata({ params }) {
      const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dgtlface.com";
 
   // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
-    const url = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl).toString();
+  const baseUrl = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl);
+  const ogPageUrl =
+    slug === "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde"
+      ? new URL(baseUrl)
+      : null;
+  if (ogPageUrl) {
+    ogPageUrl.searchParams.set("v", "2026-02-10");
+  }
+  const url = baseUrl.toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
@@ -64,7 +72,9 @@ export async function generateMetadata({ params }) {
 
     openGraph: {
       type: "article",
-      url,
+      url:
+        ogPageUrl?.toString() ||
+        url,
       siteName: "DGTLFACE",
       title,
       description,
