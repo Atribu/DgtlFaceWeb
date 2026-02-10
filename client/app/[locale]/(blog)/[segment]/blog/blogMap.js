@@ -102,7 +102,8 @@ export const BLOG_MAP = {
     "ozel-segment-rezervasyon-cagrilari-engelli-aile-balayi-vb":"BlogCagriMerkeziOzelSegmentRezervasyonCagrilariEngelliAileBalayiVb",
 
     "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":"BlogCallCenterOtelSosyalMedyaMesajYonetimiTemelRehber",
-    "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":"BlogCagriMerkeziOtelMesajYonetimindeSlaVeCevapSuresi"
+    "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":"BlogCagriMerkeziOtelMesajYonetimindeSlaVeCevapSuresi",
+    "sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":"BlogSosyalMedyaMesajlarindanRezervasyonVeSatisFirsatiUretmek"
   },
 
     "pms-ota": {
@@ -119,7 +120,8 @@ export const BLOG_MAP = {
     "yeni-acilan-oteller-icin-ota-kurulum-lansman-checklist":"BlogPmsOtaYeniAcilanOtellerIcinOTAKurulumLansmanChecklist",
 
     "kanal-yonetimi-nedir-temel-mantik":"BlogKanalYonetimiNedirTemelMantik",
-    "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":"BlogPmsOtaKanalYonetimEkraniIleFiyatVeEnvanterGuncelleme"
+    "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":"BlogPmsOtaKanalYonetimEkraniIleFiyatVeEnvanterGuncelleme",
+    "pazar-bazli-kanal-karmasi-ve-envanter-dagitim":"BlogPazarBazliKanalKarmasiVeEnvanterDagitim"
   },
 
     "raporlama": {
@@ -136,7 +138,8 @@ export const BLOG_MAP = {
     "benchmark-dashboard-tasarimi-looker-studio":"BlogBenchmarkDashboardTasarimiLookerStudio",
 
     "satis-ve-donusum-raporlama-nedir-otel-funnel":"BlogSatisVeDonusumRaporlamaNedirOtelFunnel",
-    "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":"BlogGoogleAdsMetaAdsVeOtaSatislariniTekFunneldaBirlestirmek"
+    "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":"BlogGoogleAdsMetaAdsVeOtaSatislariniTekFunneldaBirlestirmek",
+    "roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":"BlogROASmiROImiOtellerIcinDogruDonusumKpilariniSecmek"
   },
 
 
@@ -154,7 +157,8 @@ export const BLOG_MAP = {
     "otel-sosyal-medya-performans-kpi-raporlama":"BlogOtelSosyalMedyaPerformansKpiRaporlama",
 
     "otel-dijital-reklam-stratejisi-temel-cerceve":"BlogOtelDijitalReklamStratejisiTemelCerceve",
-    "google-hotel-ads-ve-google-ads-farklari":"BlogGoogleHotelAdsVeGoogleAdsFarklari"
+    "google-hotel-ads-ve-google-ads-farklari":"BlogGoogleHotelAdsVeGoogleAdsFarklari",
+    "otel-reklam-butcesi-nasil-planlanir":"BlogOtelReklamButcesiNasilPlanlanir"
     
   }
 };

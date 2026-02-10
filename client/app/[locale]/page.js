@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   // İstersen bunları da next-intl JSON'a taşıyabiliriz (şimdilik sabit bıraktım)
   const title =
     locale === "tr"
-      ? "Dijital Pazarlama, SEO, SEM, Creative, Yazılım & Otel Teknoloji Partneri | DGTLFACE"
+      ? "DGTLFACE | Dijital Dönüşüm Partneriniz"
       : "Digital Marketing, SEO, SEM, Creative, Software & Hotel Tech Partner | DGTLFACE";
 
   const description =
@@ -241,6 +241,7 @@ export default async function HomePage({ params: { locale } }) {
         "@id": `${baseUrl}/#website`,
         url: `${baseUrl}/`,
         name: t("jsonld.websiteName"),
+        alternateName: "DGTLFACE",
         description: t("jsonld.websiteDescription"),
         inLanguage: locale === "tr" ? "tr-TR" : "en-US",
         publisher: { "@id": `${baseUrl}/#organization` },
@@ -262,7 +263,7 @@ export default async function HomePage({ params: { locale } }) {
           {
             "@type": "ListItem",
             position: 1,
-            name: locale === "tr" ? "Ana Sayfa" : "Home",
+            name: locale === "tr" ? "DGTLFACE" : "DGTLFACE",
             item: canonicalUrl,
           },
         ],

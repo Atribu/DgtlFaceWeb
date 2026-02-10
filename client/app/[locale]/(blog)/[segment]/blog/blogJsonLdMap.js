@@ -8654,7 +8654,122 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"360-otel-sanal-tur-cekim-ve-ux":{}
+"360-otel-sanal-tur-cekim-ve-ux":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux",
+      "name": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#webpage" },
+      "headline": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      "name": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      "description": "360° sanal tur otel çekimi için rota, mekân ve teknik kuralları öğrenin. Web’de tur yerleşimi, CTA ve rezervasyon funnel entegrasyonuyla karar sürecini kısaltın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "about": [
+        "360 Tour",
+        "Virtual Tour",
+        "Hotel Room",
+        "Spa",
+        "Restaurant",
+        "UX Placement",
+        "Reservation Funnel"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "serviceType": "Video & Prodüksiyon",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "areaServed": ["Antalya", "Belek", "Side", "Bodrum"],
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+        { "@type": "ListItem", "position": 4, "name": "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu", "item": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux" }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#howto",
+      "name": "360° sanal tur çekimi ve web UX entegrasyonu adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Rota ve noktaları seç", "text": "6–10 kritik nokta belirle ve her noktaya amaç tanımı ekle." },
+        { "@type": "HowToStep", "name": "Saat ve mahremiyet planı yap", "text": "Kalabalık dışı çekim penceresi belirle; özel alanları ve riskli açıları işaretle." },
+        { "@type": "HowToStep", "name": "Teknik çekim kontrolü uygula", "text": "Tripod konumu, yansıma ve dikiş hatası risklerini kontrol et; kadrajı temiz tut." },
+        { "@type": "HowToStep", "name": "Web yerleşimini tasarla", "text": "Oda sayfasında turu görünür konumlandır; ‘Turu Başlat’ CTA’sını netleştir." },
+        { "@type": "HowToStep", "name": "Funnel bağlantısını kur", "text": "Tur içinde ‘Odayı İncele’ ve ‘Rezervasyona Git’ CTA’larını ekle." },
+        { "@type": "HowToStep", "name": "Performansı koru", "text": "iframe/WebGL için placeholder + lazy-load + click-to-load kullan; mobil CWV’yi koru." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/360-otel-sanal-tur-cekim-ve-ux#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "360° sanal tur oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafirin oteli gezerek deneyimlemesini sağlar, belirsizliği azaltır ve özellikle oda/tesis kanıtı güçlü otellerde karar sürecini hızlandırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "360 çekim yaparken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tripod konumu, yansıma ve dikiş hataları, kadraj temizliği ve mahremiyet kritik konulardır; çekim saatleri ve alan kontrolü önceden planlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web sitemde sanal turu nereye koymalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En etkili yerleşim çoğunlukla oda tipleri sayfasında foto galeri yanında/altındadır; ana sayfada ise teaser + ‘Turu Başlat’ CTA’sı önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "360 tur rezervasyon funnel’ına nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tur içinde ‘Odayı İncele’ ve ‘Rezervasyona Git’ gibi çıkış CTA’ları ekleyin; turdan sonra kullanıcıyı oda/teklif sayfasına tek tıkla taşıyan akış kurun."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
@@ -10205,6 +10320,127 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek",
+      "name": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek#webpage" },
+      "headline": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+      "name": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+      "description": "DM ve WhatsApp mesajlarını satış fırsatına çeviren funnel ve script örnekleri: mesaj türleri, iki seçenekli teklif, kapanış adımı ve ROI ölçümü.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Funnel" },
+        { "@type": "Thing", "name": "Conversion Rate" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya mesajlarından rezervasyon nasıl alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesajı niyete göre sınıflandırın, 2 net soru ile ihtiyacı netleştirin ve iki seçenekli teklif sunup kapanış adımı koyun. Ardından 1 kez takip edip görüşmeyi kaynak=mesaj olarak raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat soran misafire DM’de ne yazmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Link atmayın; giriş-çıkış tarihi ve kişi sayısını sorun. Kısa bir güven bloğu ekleyip iki seçenek (standart + paket) sunun ve rezervasyon linki veya arama ile kapanışa gidin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp mesajını rezervasyona nasıl çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2 soru → 2 seçenek → kapanış adımı akışını kullanın. Misafir karar aşamasındaysa kısa arama opsiyonu sunarak netleştirme yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajlardan gelen satış fırsatları nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM’li linkler, WhatsApp tıklama event’leri ve CRM/PMS’de kaynak=mesaj etiketiyle takip edin. Lead→teklif→rezervasyon oranlarını haftalık izleyin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -11499,6 +11735,91 @@ export const BLOG_JSONLD_MAP = {
         { "@type": "HowToStep", "name": "Fiyat ve envanter gir", "text": "Grid hücrelerine değerleri girin ve kural çakışmalarını kontrol edin." },
         { "@type": "HowToStep", "name": "Kontrol et", "text": "Kaydetmeden önce önizleme/kontrol ile satır–tarih–kanal eşleşmesini doğrulayın." },
         { "@type": "HowToStep", "name": "Kaydet ve doğrula", "text": "Kaydedin; OTA tarafında kısa kontrol turu yapın, hata varsa rollback uygulayın." }
+      ]
+    }
+  ]
+},
+
+"pazar-bazli-kanal-karmasi-ve-envanter-dagitim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim",
+      "name": "Pazar Bazlı Kanal Karması ve Envanter Dağıtımı Nasıl Kurulur?",
+      "description": "Almanya, Rusya, İngiltere gibi kaynak pazarlara göre OTA kanal karması kurun; envanter payı ve fiyat stratejisini optimize edin. 90 günlük aksiyon planı + analiz.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim/#article",
+      "headline": "Pazar Bazlı Kanal Karması ve Envanter Dağıtımı Nasıl Kurulur?",
+      "name": "Pazar Bazlı Kanal Karması ve Envanter Dağıtımı Nasıl Kurulur?",
+      "description": "Almanya, Rusya, İngiltere gibi kaynak pazarlara göre OTA kanal karması kurun; envanter payı ve fiyat stratejisini optimize edin. 90 günlük aksiyon planı + analiz.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim/#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+        { "@type": "ListItem", "position": 3, "name": "Kanal Yönetimi (Channel Management)", "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Pazar Bazlı Kanal Karması", "item": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/pazar-bazli-kanal-karmasi-ve-envanter-dagitim/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pazar bazlı kanal karması nasıl oluşturulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kaynak pazarları (SourceMarket) ve pazar kırılımında kanal performansını ölçün. Pazara göre kanal önceliği, envanter payı (InventoryShare) ve fiyat/kısıt stratejisi (PricingStrategy) tanımlayıp 90 günlük döngüyle güncelleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Almanya, Rusya ve İngiltere gibi pazarlarda hangi OTA’lar daha etkili?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek doğru yoktur; en doğru cevap otelinize özel veriden çıkar. Pazar kırılımında net gelir, iptal ve lead time KPI’larıyla 2–3 kanal adayını kıyaslayıp primary/secondary olarak seçin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Envanter ve fiyat pazar bazlı nasıl dağıtılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Envanteri pazarın güçlü olduğu kanallara bilinçli paylaştırın ve yüksek iptalli kanallarda sınırsız açmayın. Min-night, promosyon ve iptal politikası gibi kısıtları pazara ve sezona göre uyarlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pazar dinamikleri değiştiğinde kanal stratejisi nasıl güncellenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "90 günlük ritimle ölçüm → küçük düzeltme → kural revizyonu yapın. Sezon ve ani pazar değişimlerinde tactical kanal payını kontrollü kullanıp kapanış kriteriyle yönetin."
+          }
+        }
       ]
     }
   ]
@@ -13122,6 +13443,146 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Tek model her şeyi açıklamaz; pratikte ilk tıklama ve son tıklama yan yana raporlanır. Meta gibi üst adım kanalların katkısı assist KPI’larıyla görünür kılınır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "sameAs": []
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+      "name": "Satış ve Dönüşüm Raporları",
+      "serviceType": "Satış ve Dönüşüm Raporları",
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek",
+      "name": "ROAS mi ROI mi? Oteller İçin Doğru Dönüşüm KPI’larını Seçmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#breadcrumb" },
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#article" },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "ROAS" },
+        { "@type": "Thing", "name": "ROI" },
+        { "@type": "Thing", "name": "RevPAR" },
+        { "@type": "Thing", "name": "ADR" },
+        { "@type": "Thing", "name": "CPA" },
+        { "@type": "Thing", "name": "Hotel Revenue Management" },
+        { "@type": "Thing", "name": "Channel" },
+        { "@type": "Thing", "name": "Gross Margin" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#article",
+      "headline": "ROAS mi ROI mi? Oteller İçin Doğru Dönüşüm KPI’larını Seçmek",
+      "description": "ROAS, ROI ve RevPAR gibi KPI’ları doğru senaryoda kullanarak; sadece ciroyu değil, gerçek kârlılığı ölçen raporlar oluşturun ve kampanya/kanaI kararlarını bu verilere göre verin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Veri Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış ve Dönüşüm Raporları",
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "ROAS mi ROI mi? Oteller İçin Doğru Dönüşüm KPI’larını Seçmek",
+          "item": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ROAS ve ROI arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS reklam harcamasının gelire dönüşümünü ölçer; ROI ise toplam maliyetleri de düşünerek gerçek kazancı hedefler. Otellerde komisyon, iptal ve segment marjı ROI lensini daha kritik yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam kampanyalarında ROAS mı, ROI mi takip etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Günlük optimizasyonda ROAS pratik ve hızlıdır; bütçe büyütme ve kanal kararı verirken ROI yaklaşımı ve net katkı katmanı gerekir. OTA komisyonu yüksek otellerde yalnız ROAS yanıltabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi dönüşüm KPI’ları en kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya için ROAS/CPA/dönüşüm oranı; kanal stratejisi için net gelir payı ve ROI lensi; sezon yönetimi için RevPAR/ADR temel KPI’lardır. Senaryoya göre KPI seti kullanmak daha doğru karar verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RevPAR ve dönüşüm KPI’larını aynı raporda nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RevPAR/ADR’ı sezon ve segment verimliliği için üst katmanda, ROAS/CPA/dönüşüm oranını kampanya ve kanal performansı için alt katmanda konumlayın. Trend + kanal kartları + net katkı notuyla birlikte okuyun."
           }
         }
       ]
@@ -14816,6 +15277,159 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "OTA linkleriyle direkt linkler yan yana geldiği için parite ve direkt avantajlar belirleyici olur. Doğru kurgu direkt tıklama payını artırmaya yardımcı olabilir; yanlış fiyat/müsaitlik güven kaybı yaratır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-butcesi-nasil-planlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir",
+      "name": "Otel Reklam Bütçesi Nasıl Planlanır? Sezon, Pazar ve Kanal Bazlı Yaklaşım",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Advertising Budget",
+        "Seasonality",
+        "Market Allocation",
+        "Channel Mix",
+        "ROAS",
+        "CPA",
+        "Hotel Revenue"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir",
+      "headline": "Otel Reklam Bütçesi Nasıl Planlanır? Sezon, Pazar ve Kanal Bazlı Yaklaşım",
+      "description": "Otel reklam bütçesini sezon, pazar ve kanal rollerine göre planlayın. Minimum efektif bütçe, marka/generic/remarketing dağılımı ve ROAS/CPA ile aylık revizyon modeli.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE"
+      },
+      "keywords": [
+        "otel reklam butcesi planlama",
+        "sezonluk ve pazar bazli otel reklam",
+        "roas ve ciro oranina gore butce",
+        "hotel advertising budget calculator"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#howto",
+      "name": "Otel reklam bütçesi planlama adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Sezonları tanımla", "text": "Yüksek/düşük sezon ayrımı yap ve sezon katsayısı belirle." },
+        { "@type": "HowToStep", "name": "Pazar paylarını çıkar", "text": "DE/RU/UK gibi pazarlara ayrı satır aç ve hedef paylarını yaz." },
+        { "@type": "HowToStep", "name": "Kanal rollerini belirle", "text": "Google/Meta/remarketing/OTA rollerini netleştir ve taban bütçe kur." },
+        { "@type": "HowToStep", "name": "KPI hedeflerini yaz", "text": "ROAS ve CPA hedefleri ile bütçe revizyon kurallarını tanımla." },
+        { "@type": "HowToStep", "name": "Aylık revizyon yap", "text": "Performansa göre bütçeyi her ay matris üzerinden güncelle." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Reklam Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/reklam-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Reklam Bütçesi Nasıl Planlanır? Sezon, Pazar ve Kanal Bazlı Yaklaşım",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-butcesi-nasil-planlanir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam bütçesi nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bütçe genelde gelire oranla belirlenir ve sezon/pazar kırılımıyla dağıtılır. Brand/generic/remarketing tabanı kurup ROAS/CPA ile aylık revizyon yapmak önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezonluk otel reklam bütçesi nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüksek sezonda yüksek niyete yakın kanallara ağırlık verilir, düşük sezonda minimum efektif taban korunur ve pazar ısıtma bütçesi planlanır. Brand savunma kesilmez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı ülke pazarlarına ne kadar bütçe ayırmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş rezervasyon payı ve hedef büyüme stratejisine göre pazar payı çıkarın. Pazara göre CPA/ROAS farklılaşacağı için bütçeyi ayrı izleyip ayrı revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bütçeyi hangi KPI’lara göre artırıp azaltmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS ve CPA temel göstergelerdir; direkt rezervasyon geliri ve brand payı gibi kalite sinyalleriyle birlikte değerlendirilir. Hedef üstünde kontrollü artır, bozulmada optimize et."
           }
         }
       ]

@@ -526,7 +526,7 @@ export const BLOG_MEDIA_MAP = {
 
      "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde": {
       banner: {
-      src: "/images/blog/software/Software1-1/Software1-1-1.jpg",
+      src: "/images/blog/software/Software1-1/Software1-1-1-v2.jpg",
       alt: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde",
       caption: "Kurumsal Web Sitesi Checklist’i: Yayına Çıkmadan Önce 40 Madde"
     },
@@ -5980,7 +5980,210 @@ export const BLOG_MEDIA_MAP = {
       alt: "360 tur teslim paketi ve web yerleşim çıktıları proof kartı",
       caption: "360 tur teslim paketi ve web yerleşim çıktıları proof kartı"
     }
-  }
+  },
+
+
+   "sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-1.webp",
+      alt: "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?",
+      caption: "Sosyal Medya Mesajlarından Rezervasyon ve Satış Fırsatı Nasıl Üretilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-2.webp",
+      alt: "Mesaj tiplerini niyete göre ayıran ve aksiyon gösteren otel görseli",
+      caption: "Mesaj tiplerini niyete göre ayıran ve aksiyon gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-3.webp",
+      alt: "Mesajdan rezervasyona geçiş için funnel bölüm ayraç görseli",
+      caption: "Mesajdan rezervasyona geçiş için funnel bölüm ayraç görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-4.webp",
+      alt: "Soft-sell ve hard-sell mesaj stratejilerini ayıran otel görseli",
+      caption: "Soft-sell ve hard-sell mesaj stratejilerini ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-5.webp",
+      alt: "Mesajdan rezervasyona yedi adım satış akışını gösteren otel diyagramı",
+      caption: "Mesajdan rezervasyona yedi adım satış akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-6.webp",
+      alt: "Mesajdan rezervasyona yedi adım checklist’i özetleyen otel kart görseli",
+      caption: "Mesajdan rezervasyona yedi adım checklist’i özetleyen otel kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-7.webp",
+      alt: "DM WhatsApp conversion rate ve lead KPI’larını gösteren otel skor kartı",
+      caption: "DM WhatsApp conversion rate ve lead KPI’larını gösteren otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-3/Callcenter3-3-8.webp",
+      alt: "Soft-sell hard-sell script örneklerini ve çıktılarını gösteren otel kanıt kartı",
+      caption: "Soft-sell hard-sell script örneklerini ve çıktılarını gösteren otel kanıt kartı"
+    }
+  },
+
+
+  "pazar-bazli-kanal-karmasi-ve-envanter-dagitim":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-1.webp",
+      alt: "Pazar Bazlı Kanal Karması ve Envanter Dağıtımı Nasıl Kurulur?",
+      caption: "Pazar Bazlı Kanal Karması ve Envanter Dağıtımı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-2.webp",
+      alt: "Pazar ve kanal karmasının envanter dağıtımına etkisini özetleyen context görseli",
+      caption: "Pazar ve kanal karmasının envanter dağıtımına etkisini özetleyen context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-3.webp",
+      alt: "SourceMarket analizine geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "SourceMarket analizine geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-4.webp",
+      alt: "Kanal önceliklendirme ve strateji bölümünü ayıran divider görseli",
+      caption: "Kanal önceliklendirme ve strateji bölümünü ayıran divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-5.webp",
+      alt: "Pazar-kanaI-envanter payı-fiyat stratejisi akışını gösteren otel diyagramı",
+      caption: "Pazar-kanaI-envanter payı-fiyat stratejisi akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-6.webp",
+      alt: "90 günlük pazar bazlı aksiyon planını otel bağlamında özetleyen checklist kartı",
+      caption: "90 günlük pazar bazlı aksiyon planını otel bağlamında özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-7.webp",
+      alt: "Pazar bazlı kanal karmasının doluluk ve net gelire etkisini gösteren KPI kartı",
+      caption: "Pazar bazlı kanal karmasının doluluk ve net gelire etkisini gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-3/Pms3-3-8.webp",
+      alt: "Pazar-kanaI matrisi ve envanter planı deliverable’larını gösteren proof kartı",
+      caption: "Pazar-kanaI matrisi ve envanter planı deliverable’larını gösteren proof kartı"
+    }
+  },
+
+
+  "roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-1.webp",
+      alt: "ROAS mi ROI mi? Oteller İçin Doğru Dönüşüm KPI’larını Seçmek",
+      caption: "ROAS mi ROI mi? Oteller İçin Doğru Dönüşüm KPI’larını Seçmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-2.webp",
+      alt: "Hangi soruya hangi KPI otel örneğiyle eşleyen bağlam görseli",
+      caption: "Hangi soruya hangi KPI otel örneğiyle eşleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-3.webp",
+      alt: "Kanal ve ekip bazlı KPI setlerine geçişi ayıran otel görseli",
+      caption: "Kanal ve ekip bazlı KPI setlerine geçişi ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-4.webp",
+      alt: "Kârlılık çerçevesi ve yönetim raporu bölümünü ayıran otel görseli",
+      caption: "Kârlılık çerçevesi ve yönetim raporu bölümünü ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-5.webp",
+      alt: "ROAS ROI RevPAR ilişkisini karar akışıyla gösteren otel diyagramı",
+      caption: "ROAS ROI RevPAR ilişkisini karar akışıyla gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-6.webp",
+      alt: "Yanlış KPI odağını önleyen otel KPI seçim checklist kartı",
+      caption: "Yanlış KPI odağını önleyen otel KPI seçim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-7.webp",
+      alt: "ROAS ROI RevPAR ADR CPA metriklerini otel panelinde özetleyen skor kart",
+      caption: "ROAS ROI RevPAR ADR CPA metriklerini otel panelinde özetleyen skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-3/Reporting3-3-8.webp",
+      alt: "Otel KPI paneli ve raporlama teslimlerini güven unsurlarıyla gösteren kart",
+      caption: "Otel KPI paneli ve raporlama teslimlerini güven unsurlarıyla gösteren kart"
+    }
+  },
+
+  "otel-reklam-butcesi-nasil-planlanir":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-1.webp",
+      alt: "Otel Reklam Bütçesi Nasıl Planlanır? Sezon, Pazar ve Kanal Bazlı Yaklaşım",
+      caption: "Otel Reklam Bütçesi Nasıl Planlanır? Sezon, Pazar ve Kanal Bazlı Yaklaşım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-2.webp",
+      alt: "Ciro oranı ve sezon pazar kanal yaklaşımını anlatan otel görseli",
+      caption: "Ciro oranı ve sezon pazar kanal yaklaşımını anlatan otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-3.webp",
+      alt: "Sezon pazar kanal bütçe matrisini vurgulayan bölüm ayırıcı görsel",
+      caption: "Sezon pazar kanal bütçe matrisini vurgulayan bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-4.webp",
+      alt: "ROAS CPA ile bütçe güncelleme mantığını destekleyen bölüm ayırıcı",
+      caption: "ROAS CPA ile bütçe güncelleme mantığını destekleyen bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-5.webp",
+      alt: "Pazar bazlı bütçe dağılımı karar akışını gösteren diyagram",
+      caption: "Pazar bazlı bütçe dağılımı karar akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-6.webp",
+      alt: "Brand generic remarketing için minimum efektif bütçe checklist kartı",
+      caption: "Brand generic remarketing için minimum efektif bütçe checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-7.webp",
+      alt: "ROAS ve CPA hedefleriyle bütçe revizyon kararlarını özetleyen skor kart",
+      caption: "ROAS ve CPA hedefleriyle bütçe revizyon kararlarını özetleyen skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-3/Hotel3-3-8.webp",
+      alt: "Otel bütçe senaryolarını ve çıktılarını gösteren deliverables kartı",
+      caption: "Otel bütçe senaryolarını ve çıktılarını gösteren deliverables kartı"
+    }
+  },
 
 
 };
