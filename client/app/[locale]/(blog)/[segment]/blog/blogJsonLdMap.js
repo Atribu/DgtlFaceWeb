@@ -8652,7 +8652,9 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"360-otel-sanal-tur-cekim-ve-ux":{}
 
     },
 

@@ -198,7 +198,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
   const p = posts[active];
 
   return (
-    <section className="relative h-[85vh] overflow-hidden bg-black">
+    <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden bg-black">
       {/* Türkçe yorum: arka plan görsel */}
       {p.banner?.src ? (
         <Image
@@ -227,18 +227,18 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               <span className="capitalize">{p.dept.replace("-", " ")}</span>
             </div>
 
-            <h1 className="text-2xl md:text-3xl xl:text-[38px] 4xl:text-5xl lg:leading-[120%] font-semibold tracking-tight text-white">
+            <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-[38px] 4xl:text-5xl lg:leading-[120%] font-semibold tracking-tight text-white">
               {p.title}
             </h1>
 
-            <p className="mt-4 max-w-xl text-sm md:text-base lg:text-lg lg:leading-[130%] text-white/80 line-clamp-3 ">
+            <p className="mt-2 md:mt-4 max-w-xl text-sm leading-[120%] md:text-base lg:text-lg lg:leading-[130%] text-white/80 line-clamp-3 ">
               {p.excerpt}
             </p>
 
             <div className="mt-6 flex flex-col lg:flex-row items-start gap-3">
               <Link
                 href={`/${locale}/${p.dept}/blog/${p.slug}`}
-                className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
+                className={`inline-flex items-center gap-2 rounded-2xl px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-xs md:text-sm font-medium text-black transition hover:opacity-90 active:scale-[0.99] ${GRADIENT}`}
               >
                 {t("readMore")} <span className="transition group-hover:translate-x-0.5">→</span>
               </Link>
@@ -247,7 +247,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
             </div>
 
             {/* Türkçe yorum: alt mini progress/dots */}
-            <div className="mt-10 flex items-center gap-2">
+            <div className="mt-6 md:mt-10 flex items-center gap-2">
               {posts.map((_, i) => (
                 <button
                   key={i}
@@ -261,7 +261,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                 />
               ))}
             </div>
-            <div className="flex flex-row items-start justify-start gap-2 mt-8 lg:mt-16">
+            <div className="flex flex-row items-start justify-start gap-2 mt-6 md:mt-8 lg:mt-16">
                <div className="flex items-center justify-end">
           <div className="w-full max-w-[720px]">
             <div className="relative">
@@ -270,7 +270,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("searchPlaceholder")}
-                className="w-full lg:min-w-[300px] rounded-2xl border border-white/30 bg-black/50 px-2 md:px-4 4xl:px-5 py-1.5 md:py-2 4xl:py-3 text-sm text-white outline-none backdrop-blur
+                className="w-full lg:min-w-[300px] rounded-2xl border border-white/30 bg-black/50 px-2 md:px-4 4xl:px-5 py-1.5 md:py-2 4xl:py-3 text-xs md:text-sm text-white outline-none backdrop-blur
                            focus:border-white/40 focus:bg-black/50"
               />
               {query.length > 0 && (
@@ -293,7 +293,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               <button
                 type="button"
                 onClick={() => inputRef.current?.focus()}
-                className="rounded-2xl border border-white/20 bg-white/5 px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
+                className="rounded-2xl border border-white/20 bg-white/5 px-2 md:px-4 4xl:px-5 py-1 md:py-2 4xl:py-3 text-xs md:text-sm text-white/90 backdrop-blur transition hover:bg-white/10 "
               >
                 {t("searchButton")} <span className="ml-2 text-[12px]">🔍</span>
               </button>

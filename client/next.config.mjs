@@ -35,6 +35,19 @@ const nextConfig = {
    async redirects() {
     return [
        {
+        source: "/tr/anasayfa",
+        destination: "/tr",
+        permanent: true, // 301
+      },
+
+      // slash ile gelirse
+      {
+        source: "/tr/anasayfa/",
+        destination: "/tr/",
+        permanent: true,
+      },
+
+       {
         source: "/tr/seo-hizmetleri",
         destination: "/tr/seo",
         permanent: true, // 301

@@ -5932,6 +5932,57 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "360-otel-sanal-tur-cekim-ve-ux":{
+     banner: {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-1.webp",
+      alt: "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu",
+      caption: "360° ve Sanal Tur Otel Çekimleri: Planlama, Çekim ve UX Entegrasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-2.webp",
+      alt: "Otel sanal tur çekim rotası ve CTA bağlantısı örnek görseli",
+      caption: "Otel sanal tur çekim rotası ve CTA bağlantısı örnek görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-3.webp",
+      alt: "360 tur çekim planı ve rota seçimlerini ayıran bölüm görseli",
+      caption: "360 tur çekim planı ve rota seçimlerini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-4.webp",
+      alt: "Web’de 360 tur yerleşimi ve CTA prensipleri divider görsel",
+      caption: "Web’de 360 tur yerleşimi ve CTA prensipleri divider görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-5.webp",
+      alt: "Sanal tur sonrası oda sayfası ve rezervasyon funnel diyagramı",
+      caption: "Sanal tur sonrası oda sayfası ve rezervasyon funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-6.webp",
+      alt: "360 tur çekim kontrol listesi ve kaçınılacak 7 hata kartı",
+      caption: "360 tur çekim kontrol listesi ve kaçınılacak 7 hata kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-7.webp",
+      alt: "360 tur etkisi: kalma süresi ve karar süreci KPI özeti kart",
+      caption: "360 tur etkisi: kalma süresi ve karar süreci KPI özeti kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-3/Creative3-3-8.webp",
+      alt: "360 tur teslim paketi ve web yerleşim çıktıları proof kartı",
+      caption: "360 tur teslim paketi ve web yerleşim çıktıları proof kartı"
+    }
+  }
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

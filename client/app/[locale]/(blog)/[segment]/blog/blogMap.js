@@ -84,7 +84,8 @@ export const BLOG_MAP = {
     "otel-ui-bilesenleri-donusum-odakli":"BlogOtelUIBilesenleriDonusumOdakli",
 
     "otel-tanitim-videosu-nasil-planlanir":"BlogCreativeOtelTanitimVideosuNasilPlanlanir",
-    "otel-drone-cekimi-rehberi":"BlogOtelDroneCekimiRehberi"
+    "otel-drone-cekimi-rehberi":"BlogOtelDroneCekimiRehberi",
+    "360-otel-sanal-tur-cekim-ve-ux":"Blog360OtelSanalTurCekimVeUx"
   },
 
        "cagri-merkezi": {
