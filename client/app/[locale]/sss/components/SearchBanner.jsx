@@ -7,7 +7,7 @@ import { useMessages, useLocale } from "next-intl";
 import {
   FAQ_BANNER_MAP,
   MAIN_SERVICES_CHIPS,
-  FAQ_BANNER_ASSET_MAP,
+  getFaqBannerAsset,
 } from "@/app/lib/faqBannerConfig";
 import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
@@ -279,8 +279,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
       .map((x) => x.item);
   }, [q, fuse]);
 
-  const bannerImg =
-  FAQ_BANNER_ASSET_MAP[resolvedSlugKey] || FAQ_BANNER_ASSET_MAP["sss"];
+  const bannerImg = getFaqBannerAsset(locale, resolvedConfigSlugTR);
 
 
   // Locale-aware labels

@@ -227,6 +227,12 @@ export default async function BlogDetailPage({ params }) {
 
   // Sections
   const sections = Array.isArray(post.sections) ? post.sections : [];
+  const downloadAssetBlock = sections
+    .flatMap((section) => section?.blocks || [])
+    .find((block) => block?.type === "download_asset" && block?.href);
+  const downloadAssetHref = downloadAssetBlock?.href || null;
+  const downloadAssetLabel =
+    downloadAssetBlock?.buttonLabel || "Checklist İndir (PDF)";
 
   // Üst modül içerikleri (Bölüm 3 üst modül)
   const answerBlock = asText(post.modules?.answerBlock);
@@ -549,13 +555,13 @@ const jsonLd =
                     Analiz Talep Et
                   </Link>
 
-                  {ctaSecondary?.href ? (
+                  {downloadAssetHref || ctaSecondary?.href ? (
                   <a
-  href="/downloads/otel-seo-kontrol-listesi-v1.0.pdf"
+  href={downloadAssetHref || ctaSecondary?.href}
   download
   className="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-black/30 px-4 py-2 text-sm text-white/80 transition hover:bg-white/10"
 >
-  Checklist İndir (PDF)
+  {downloadAssetLabel}
 </a>
                   ) : (
                     <button

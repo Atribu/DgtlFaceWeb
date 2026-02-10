@@ -216,12 +216,12 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
       )}
 
       {/* Türkçe yorum: Netflix benzeri karartma (okunabilirlik) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/0" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/20 md:to-black/0" />
       <div className="absolute inset-0 bg-black/0" />
 
       <div className="relative z-10 mx-auto flex h-full w-full xl:w-[96%] max-w-[1900px] px-4">
         <div className="flex w-full items-center">
-          <div className="max-w-2xl text-left">
+          <div className="max-w-2xl text-left mt-10 md:mt-0">
             <div className="mb-3 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">
               <span className={`h-2 w-2 rounded-full ${GRADIENT}`} />
               <span className="capitalize">{p.dept.replace("-", " ")}</span>
@@ -231,7 +231,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
               {p.title}
             </h1>
 
-            <p className="mt-2 md:mt-4 max-w-xl text-sm leading-[120%] md:text-base lg:text-lg lg:leading-[130%] text-white/80 line-clamp-3 ">
+            <p className="mt-2 md:mt-4 max-w-xl text-[13px] sm:text-sm leading-[120%] md:text-base lg:text-lg lg:leading-[130%] text-white lg:text-white/90 line-clamp-3 ">
               {p.excerpt}
             </p>
 

@@ -1,5 +1,6 @@
 // lib/faqBannerConfig.js
 import imgGeneral from "@/public/images/sss/SSSGENEL.webp"
+import imgGeneralEn from "@/public/images/sss/en/SSSGENEL.webp"
 
 import imgSeo1 from "@/public/images/sss/SEO/SEOgenel.webp"
 import imgSeo2 from "@/public/images/sss/SEO/TeknikSEO.webp"
@@ -7,6 +8,12 @@ import imgSeo3 from "@/public/images/sss/SEO/contentSeo.webp"
 import imgSeo4 from "@/public/images/sss/SEO/LocalSEO.webp"
 import imgSeo5 from "@/public/images/sss/SEO/BacklinkSEO.webp"
 import imgSeo6 from "@/public/images/sss/SEO/SEOraporlama.webp"
+import imgSeo1En from "@/public/images/sss/en/SEO/SEOGENEL.webp"
+import imgSeo2En from "@/public/images/sss/en/SEO/Teknikseo.webp"
+import imgSeo3En from "@/public/images/sss/en/SEO/İcerikseo.webp"
+import imgSeo4En from "@/public/images/sss/en/SEO/Localseo.webp"
+import imgSeo5En from "@/public/images/sss/en/SEO/Backlinkseo.webp"
+import imgSeo6En from "@/public/images/sss/en/SEO/SEORaporlama.webp"
 
 import imgSem1 from "@/public/images/sss/SEM/SEMgenel.webp"
 import imgSem2 from "@/public/images/sss/SEM/Googleads.webp"
@@ -14,6 +21,12 @@ import imgSem3 from "@/public/images/sss/SEM/Raporlama.webp"
 import imgSem4 from "@/public/images/sss/SEM/Remarketing.webp"
 import imgSem5 from "@/public/images/sss/SEM/Donusumtakibi.webp"
 import imgSem6 from "@/public/images/sss/SEM/Youtubeads.webp"
+import imgSem1En from "@/public/images/sss/en/SEM/SEMGENEL.webp"
+import imgSem2En from "@/public/images/sss/en/SEM/Googleads.webp"
+import imgSem3En from "@/public/images/sss/en/SEM/Raporlama.webp"
+import imgSem4En from "@/public/images/sss/en/SEM/Remarketing.webp"
+import imgSem5En from "@/public/images/sss/en/SEM/donusumtakibi.webp"
+import imgSem6En from "@/public/images/sss/en/SEM/Youtubeads.webp"
 
 import imgSmm1 from "@/public/images/sss/SMM/SMMgenel.webp"
 import imgSmm2 from "@/public/images/sss/SMM/Analizraporlama.webp"
@@ -21,6 +34,12 @@ import imgSmm3 from "@/public/images/sss/SMM/Icerikuretimi.webp"
 import imgSmm4 from "@/public/images/sss/SMM/Planlamastratejisi.webp"
 import imgSmm5 from "@/public/images/sss/SMM/Reelsvideo.webp"
 import imgSmm6 from "@/public/images/sss/SMM/Sosyalmedyareklamlar.webp"
+import imgSmm1En from "@/public/images/sss/en/SMM/smmgenel.webp"
+import imgSmm2En from "@/public/images/sss/en/SMM/Analizraporlama.webp"
+import imgSmm3En from "@/public/images/sss/en/SMM/İcerikuretimi.webp"
+import imgSmm4En from "@/public/images/sss/en/SMM/Planlamastratejisi.webp"
+import imgSmm5En from "@/public/images/sss/en/SMM/Reelsvideo.webp"
+import imgSmm6En from "@/public/images/sss/en/SMM/Sosyalmedyareklamları.webp"
 
 import imgSoftware1 from "@/public/images/sss/Software/Yazilimgenel.webp"
 import imgSoftware2 from "@/public/images/sss/Software/BakimveGuvenlik.webp"
@@ -28,6 +47,12 @@ import imgSoftware3 from "@/public/images/sss/Software/CMSentegrasyonu.webp"
 import imgSoftware4 from "@/public/images/sss/Software/KVKKuyumHizmeti.webp"
 import imgSoftware5 from "@/public/images/sss/Software/SunucuGuvenlik.webp"
 import imgSoftware6 from "@/public/images/sss/Software/Websitegelistirme.webp"
+import imgSoftware1En from "@/public/images/sss/en/Software/YazılımGenel.webp"
+import imgSoftware2En from "@/public/images/sss/en/Software/BakimveGuvenlik.webp"
+import imgSoftware3En from "@/public/images/sss/en/Software/CMSEntegrasyonu.webp"
+import imgSoftware4En from "@/public/images/sss/en/Software/KVKKUyumHizmeti.webp"
+import imgSoftware5En from "@/public/images/sss/en/Software/SunucuveGuvenlik.webp"
+import imgSoftware6En from "@/public/images/sss/en/Software/Websitegelistirme.webp"
 
 import imgCreative1 from "@/public/images/sss/CREATIVE/CreativeGenel.webp"
 import imgCreative2 from "@/public/images/sss/CREATIVE/Etkinlik.webp"
@@ -35,6 +60,12 @@ import imgCreative3 from "@/public/images/sss/CREATIVE/GrafikMotion.webp"
 import imgCreative4 from "@/public/images/sss/CREATIVE/Hediye.webp"
 import imgCreative5 from "@/public/images/sss/CREATIVE/UIUXDizayn.webp"
 import imgCreative6 from "@/public/images/sss/CREATIVE/Video.webp"
+import imgCreative1En from "@/public/images/sss/en/CREATIVE/CreativeGenel.webp"
+import imgCreative2En from "@/public/images/sss/en/CREATIVE/Etkinlikproduksiyon.webp"
+import imgCreative3En from "@/public/images/sss/en/CREATIVE/GrafikMotionTasarim.webp"
+import imgCreative4En from "@/public/images/sss/en/CREATIVE/Kurumsalhediye.webp"
+import imgCreative5En from "@/public/images/sss/en/CREATIVE/UIUX.webp"
+import imgCreative6En from "@/public/images/sss/en/CREATIVE/VideoProduksiyon.webp"
 
 import imgCallcenter1 from "@/public/images/sss/CallCenter/callcentergenel.webp"
 import imgCallcenter2 from "@/public/images/sss/CallCenter/callcenter.webp"
@@ -42,12 +73,23 @@ import imgCallcenter3 from "@/public/images/sss/CallCenter/4dillicallcenter.webp
 import imgCallcenter4 from "@/public/images/sss/CallCenter/MessageManagement.webp"
 import imgCallcenter5 from "@/public/images/sss/CallCenter/PerformansAnalizi.webp"
 import imgCallcenter6 from "@/public/images/sss/CallCenter/Rezervasyondestek.webp"
+import imgCallcenter1En from "@/public/images/sss/en/CallCenter/CallcenterGenel.webp"
+import imgCallcenter2En from "@/public/images/sss/en/CallCenter/SatısSonrasiDestek.webp"
+import imgCallcenter3En from "@/public/images/sss/en/CallCenter/4dillicagrimerkezi.webp"
+import imgCallcenter4En from "@/public/images/sss/en/CallCenter/MesajYonetimi.webp"
+import imgCallcenter5En from "@/public/images/sss/en/CallCenter/PerformansAnalizi.webp"
+import imgCallcenter6En from "@/public/images/sss/en/CallCenter/RezervasyonDestegi.webp"
 
 import imgDijital1 from "@/public/images/sss/DijitalAnaliz/DijitalAnalizGenel.webp"
 import imgDijital2 from "@/public/images/sss/DijitalAnaliz/LookerStudio.webp"
 import imgDijital3 from "@/public/images/sss/DijitalAnaliz/BenchmarkAnaliz.webp"
 import imgDijital4 from "@/public/images/sss/DijitalAnaliz/SatisDonusumu.webp"
 import imgDijital5 from "@/public/images/sss/DijitalAnaliz/KvkkVeriGuvenlik.webp"
+import imgDijital1En from "@/public/images/sss/en/DijitalAnaliz/DijitalAnalizGenel.webp"
+import imgDijital2En from "@/public/images/sss/en/DijitalAnaliz/LookerStudio.webp"
+import imgDijital3En from "@/public/images/sss/en/DijitalAnaliz/BenchmarkAnaliz.webp"
+import imgDijital4En from "@/public/images/sss/en/DijitalAnaliz/SatisDonusumu.webp"
+import imgDijital5En from "@/public/images/sss/en/DijitalAnaliz/KvkkVeriGuvenligi.webp"
 
 import imgPMS1 from "@/public/images/sss/PMSOTA/PMS-OTAgenel.webp"
 import imgPMS2 from "@/public/images/sss/PMSOTA/KanalYonetimi.webp"
@@ -55,6 +97,12 @@ import imgPMS3 from "@/public/images/sss/PMSOTA/OnlineSatis.webp"
 import imgPMS4 from "@/public/images/sss/PMSOTA/OTAentegrasyonu.webp"
 import imgPMS5 from "@/public/images/sss/PMSOTA/PmsKurulumu.webp"
 import imgPMS6 from "@/public/images/sss/PMSOTA/RezervasyonYonetimi.webp"
+import imgPMS1En from "@/public/images/sss/en/PMSOTA/PMSOTAGenel.webp"
+import imgPMS2En from "@/public/images/sss/en/PMSOTA/Kanalyonetimi.webp"
+import imgPMS3En from "@/public/images/sss/en/PMSOTA/Onlinesatıs.webp"
+import imgPMS4En from "@/public/images/sss/en/PMSOTA/OTAentegrasyonu.webp"
+import imgPMS5En from "@/public/images/sss/en/PMSOTA/PMSKurulumu.webp"
+import imgPMS6En from "@/public/images/sss/en/PMSOTA/Rezervasyonyonetimi.webp"
 
 import imgOtel1 from "@/public/images/sss/HOTEL/OtelDijitalDonusum.webp"
 import imgOtel2 from "@/public/images/sss/HOTEL/Otelcallcenter.webp"
@@ -62,6 +110,12 @@ import imgOtel3 from "@/public/images/sss/HOTEL/OtelPMS.webp"
 import imgOtel4 from "@/public/images/sss/HOTEL/OtelReklam.webp"
 import imgOtel5 from "@/public/images/sss/HOTEL/OtelSEO.webp"
 import imgOtel6 from "@/public/images/sss/HOTEL/OtelSosyalMedya.webp"
+import imgOtel1En from "@/public/images/sss/en/HOTEL/OtelDijitalDonusum.webp"
+import imgOtel2En from "@/public/images/sss/en/HOTEL/OtelCagriMerkezi.webp"
+import imgOtel3En from "@/public/images/sss/en/HOTEL/OtelPms.webp"
+import imgOtel4En from "@/public/images/sss/en/HOTEL/OtelReklam.webp"
+import imgOtel5En from "@/public/images/sss/en/HOTEL/OtelSEO.webp"
+import imgOtel6En from "@/public/images/sss/en/HOTEL/OtelSosyalmedya.webp"
 
 // import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
 
@@ -403,6 +457,107 @@ export const FAQ_BANNER_ASSET_MAP = {
 
 };
 
+export const FAQ_BANNER_ASSET_MAP_EN = {
+  // ---------------------------------------------------------
+  // GENEL FAQ
+  // ---------------------------------------------------------
+  "sss": imgGeneralEn,
+  "hizmetlerimiz-sss": imgGeneralEn,
 
+  // ---------------------------------------------------------
+  // SEO
+  // ---------------------------------------------------------
+  "seo-sss": imgSeo1En,
+  "teknik-seo-sss": imgSeo2En,
+  "icerik-seo-sss": imgSeo3En,
+  "local-seo-sss": imgSeo4En,
+  "backlink-yonetimi-sss": imgSeo5En,
+  "seo-raporlama-sss": imgSeo6En,
+
+  // ---------------------------------------------------------
+  // SEM
+  // ---------------------------------------------------------
+  "sem-sss": imgSem1En,
+  "google-ads-yonetimi-sss": imgSem2En,
+  "reklam-raporlama-sss": imgSem3En,
+  "remarketing-ve-display-sss": imgSem4En,
+  "donusum-takibi-tag-manager-sss": imgSem5En,
+  "youtube-reklam-yonetimi-sss": imgSem6En,
+
+  // ---------------------------------------------------------
+  // SMM
+  // ---------------------------------------------------------
+  "smm-sss": imgSmm1En,
+  "analiz-raporlama-sss": imgSmm2En,
+  "icerik-uretimi-sss": imgSmm3En,
+  "planlama-strateji-sss": imgSmm4En,
+  "reels-video-sss": imgSmm5En,
+  "sosyal-medya-reklamlari-sss": imgSmm6En,
+
+  // ---------------------------------------------------------
+  // SOFTWARE / YAZILIM
+  // ---------------------------------------------------------
+  "yazilim-sss": imgSoftware1En,
+  "bakim-destek-sss": imgSoftware2En,
+  "cms-entegrasyonu-sss": imgSoftware3En,
+  "kvkk-uyum-hizmeti-sss": imgSoftware4En,
+  "sunucu-guvenlik-sss": imgSoftware5En,
+  "web-sitesi-gelistirme-sss": imgSoftware6En,
+
+  // ---------------------------------------------------------
+  // CREATIVE
+  // ---------------------------------------------------------
+  "creative-sss": imgCreative1En,
+  "etkinlik-produksiyonu-sss": imgCreative2En,
+  "grafik-motion-tasarim-sss": imgCreative3En,
+  "kurumsal-hediye-tasarimi-sss": imgCreative4En,
+  "ui-ux-tasarim-sss": imgCreative5En,
+  "video-produksiyon-sss": imgCreative6En,
+
+  // ---------------------------------------------------------
+  // CALL CENTER
+  // ---------------------------------------------------------
+  "cagri-merkezi-sss": imgCallcenter1En,
+  "4-dilli-cagri-merkezi-sss": imgCallcenter3En,
+  "mesaj-yonetimi-sss": imgCallcenter4En,
+  "performans-analizi-sss": imgCallcenter5En,
+  "rezervasyon-destegi-sss": imgCallcenter6En,
+  "satis-sonrasi-destek-sss": imgCallcenter2En,
+
+  // ---------------------------------------------------------
+  // PMS & OTA
+  // ---------------------------------------------------------
+  "pms-ota-sss": imgPMS1En,
+  "kanal-yonetimi-sss": imgPMS2En,
+  "online-satis-sss": imgPMS3En,
+  "ota-entegrasyonu-sss": imgPMS4En,
+  "pms-kurulum-sss": imgPMS5En,
+  "rezervasyon-yonetimi-sss": imgPMS6En,
+
+  // ---------------------------------------------------------
+  // DİJİTAL ANALİZ
+  // ---------------------------------------------------------
+  "veri-analiz-ve-raporlama-sss": imgDijital1En,
+  "looker-studio-sss": imgDijital2En,
+  "benchmark-analiz-sss": imgDijital3En,
+  "satis-donusumu-sss": imgDijital4En,
+  "kvkk-veri-guvenligi-sss": imgDijital5En,
+
+  // ---------------------------------------------------------
+  // HOTEL
+  // ---------------------------------------------------------
+  "otel-dijital-pazarlama-sss": imgOtel1En,
+  "otel-cagrimerkezi-sss": imgOtel2En,
+  "otel-pms-sss": imgOtel3En,
+  "otel-reklam-sss": imgOtel4En,
+  "otel-seo-sss": imgOtel5En,
+  "otel-sosyalmedya-sss": imgOtel6En,
+
+};
+
+export function getFaqBannerAsset(locale, slug) {
+  const map = locale === "en" ? FAQ_BANNER_ASSET_MAP_EN : FAQ_BANNER_ASSET_MAP;
+  return map?.[slug] || map?.["sss"];
+}
 
 
