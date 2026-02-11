@@ -5658,6 +5658,187 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/#logo",
+        "url": "https://dgtlface.com/favicon.ico"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar",
+      "name": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#webpage"
+      },
+      "headline": "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+      "description": "Telefonla pro reels mümkün: ışık yönü, dikey kadraj, kompozisyon ve basit ekipmanla otel/B2B çekimlerini iyileştirin. Sahada checklist ile hataları azaltın.",
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "datePublished": "2026-01-06",
+      "dateModified": "2026-01-06",
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "telefonla reels çekim teknikleri",
+        "otel için dikey video çekimi",
+        "b2b ofis kısa video ipuçları",
+        "mobile shooting",
+        "lighting",
+        "framing",
+        "vertical composition",
+        "basic gear"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+      "name": "Reels & Video İçerik Üretimi",
+      "serviceType": "Short-Form Video Strategy & Production",
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels & Video İçerik Üretimi",
+          "item": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Telefonla Reels Çekimi: Pro Seviye Sonuçlar",
+          "item": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reels için profesyonel kamera şart mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şart değil. Telefonla da pro algı, doğru ışık, kadraj, kompozisyon ve stabiliteyle yakalanır. Loş veya patlamış görüntü pro algıyı düşürür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonla reels çekerken nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lens temizliği, doğru pozlama, dikey kadrajda güvenli alan, arka plan sadeleştirme ve stabil çekim temel adımlardır. Geniş–yakın–detay plan paketi montajı hızlandırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel odası ve mekân çekiminde ışık ve kadraj nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pencere patlamasını yönetmek için açı ve pozlama kontrolü yapın; çizgileri düz tutun. Geniş planla hacmi gösterip detay planlarıyla zenginleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "B2B ofis ve ekip çekimleri için pratik ipuçları neler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sade fon, yumuşak yan ışık ve stabil kadraj en hızlı iyileştiricidir. Yüz + ekran + proof üçlüsüyle kısa, net ve güven veren bir akış kurabilirsiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#howto",
+      "name": "Telefonla Pro Reels Çekimi Nasıl Yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Işığı ve pozlamayı kilitle",
+          "text": "Loş ve patlamış görüntüyü önlemek için ışık yönünü seç, açı değiştir ve pozlamayı kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dikey kadraj ve kompozisyonu kur",
+          "text": "Rule of thirds ızgarasını aç, ana konuyu güvenli alana yerleştir, arka planı sadeleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Stabil çek ve plan paketleri üret",
+          "text": "Tripod/gimbal ile titremeyi azalt; geniş–yakın–detay plan paketleri çekerek montajı hızlandır."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
 
     },
@@ -7228,6 +7409,114 @@ export const BLOG_JSONLD_MAP = {
       "@type": "WebPageElement",
       "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#speakable",
       "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi/#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    }
+  ]
+},
+
+"veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma",
+      "name": "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#article",
+      "headline": "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma",
+      "description": "Formlardaki gereksiz alanları kaldırın, veri türlerine göre retention belirleyin. Otomatik silme/anonimleştirme akışlarıyla otel ve B2B projelerinde riski ve maliyeti azaltın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#webpage" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Data Minimisation",
+        "Retention Policies",
+        "Deletion & Anonymisation"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+      "name": "KVKK Uyum Hizmeti",
+      "serviceType": "Veri minimizasyonu ve retention politikası tasarımı ve uygulama danışmanlığı",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#howto",
+      "name": "KVKK için veri minimizasyonu ve retention nasıl uygulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Form alanlarını sadeleştir",
+          "text": "Zorunlu alanları minimuma indir, opsiyonelleri ayır, iş amacı olmayan verileri kaldır ve CRM mapping’i sadeleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Veri türü bazlı retention belirle",
+          "text": "Lead, rezervasyon, sözleşme, log gibi veri türlerini çıkar; her biri için retention ve kapanış yöntemi (sil/anonimleştir) tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Silme/anonimleştirme otomasyonunu kur",
+          "text": "Süre dolunca çalışacak job/schedule tasarla; silme/anonimleştirme olaylarını audit’e al ve yıllık refresh planı oluştur."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+        { "@type": "ListItem", "position": 4, "name": "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma", "item": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Veri minimizasyonu nedir, KVKK’da ne anlama gelir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "İş amacı için gerekli olmayan kişisel veriyi toplamamaktır. Form ve sistem alanlarını azaltarak risk yüzeyini küçültür ve ihlalde etkilenen kayıtları düşürür." }
+        },
+        {
+          "@type": "Question",
+          "name": "Form alanlarını KVKK’ya göre nasıl sadeleştirmeliyim?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Alanları zorunlu/opsiyonel/gereksiz diye sınıflandırın; zorunluları minimuma indirin, opsiyonelleri ikinci adıma taşıyın, iş amacı olmayan alanları kaldırın." }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri saklama süresi ve silme/anonimleştirme süreçleri nasıl tasarlanır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Veri türleri listelenir; her tür için retention ve kapanış yöntemi belirlenir; sonra sistemlerde otomatik job’lar kurulur ve silme olayları audit’e alınır." }
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#speakable",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#webpage" },
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": ["h1", ".answer-block"]
@@ -9162,6 +9451,108 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-tanitim-videosu-senaryo-storyboard":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard",
+      "name": "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#webpage" },
+      "headline": "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?",
+      "name": "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?",
+      "description": "Otel tanıtım videosu senaryosu ve storyboard’u adım adım yazın: giriş–gövde–kapanış sahneleri, persona akışları ve net CTA. Şablon paketini indirin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "about": [
+        "Script",
+        "Storyboard",
+        "Hotel Story",
+        "Persona",
+        "Scene Structure",
+        "Call To Action"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "serviceType": "Video & Prodüksiyon",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer"],
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?", "item": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-tanitim-videosu-senaryo-storyboard#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Senaryo ve storyboard otel tanıtım videosu için nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce vaadi ve hedef persona’yı belirleyin, sahneleri giriş–gövde–kapanış olarak sıralayın. Storyboard’da her sahneyi kadraj ve hareket notlarıyla görselleştirip shot list’e bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel tanıtım videosunda sahneleri nasıl sıralamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destinasyon/atmosfer ile giriş, oda ve deneyimlerle gövde, net CTA ile kapanış en etkili sıradır. Rastgele sahne dizmek yerine kanıt akışı kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Videonun sonunda hangi CTA kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek ve net bir CTA seçin: rezervasyon, kampanya sayfası veya web’e yönlendirme. Birden fazla CTA odağı dağıtabilir; alternatifleri farklı versiyonlara taşıyın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Persona’lara göre sahne akışı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aile için güven/aktivite, çift için atmosfer, grup için eğlence, yabancı misafir için standart ve kanıt vurgusunu öne çıkarın; sahneleri bu vurgu setine göre seçin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -10834,6 +11225,127 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi",
+      "name": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi#webpage" },
+      "headline": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+      "name": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+      "description": "Şikâyet DM’leri ve Google/OTA yorumlarını profesyonelce yönetin: doğru ton, public vs DM stratejisi, çözüm/telafi ve eskalasyon süreçleri, raporlama ve öğrenme döngüsü.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Complaint Message" },
+        { "@type": "Thing", "name": "Online Review" },
+        { "@type": "Thing", "name": "Google Reviews" },
+        { "@type": "Thing", "name": "OTA Reviews" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "Escalation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Şikâyet mesajlarına nasıl cevap verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce empati kurun ve misafirin duygusunu kabul edin; ardından somut çözüm adımını belirtin. Detayları DM/özel kanala alıp kapanış ve takip zamanını netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google ve OTA yorumlarına nasıl profesyonel yanıt yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa, sakin ve çözüm odaklı 3–5 cümle yazın. Tartışmaya girmeyin; detayı DM/iletişim kanalına taşıyıp aksiyon alındığını belirtin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Olumsuz yorumları silmek mi, yanıtlamak mı gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu durumda profesyonel yanıt vermek daha doğrudur; yanıtlar güven oluşturur. Yanıt vermemek olumsuz algının kalıcılaşmasına neden olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM’den gelen sert şikâyete nasıl cevap veririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Savunmaya geçmeden empati kurun, 1–2 net detay isteyin ve belirli bir süre içinde dönüş sözü verin. Gerekirse eskalasyon akışına göre ilgili departmana devredin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -12211,6 +12723,99 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "90 günlük ritimle ölçüm → küçük düzeltme → kural revizyonu yapın. Sezon ve ani pazar değişimlerinde tactical kanal payını kontrollü kullanıp kapanış kriteriyle yönetin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yuksek-orta-dusuk-sezonda-kanal-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi",
+      "name": "Yüksek, Omuz ve Düşük Sezonda Kanal Yönetimi: Takvim Bazlı Strateji",
+      "description": "Yüksek, omuz ve düşük sezonda kanal önceliği, fiyat, minimum geceleme ve stop-sale kararlarını takvime bağlayın. 12 aylık aksiyon planı + şablon.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi/#article",
+      "headline": "Yüksek, Omuz ve Düşük Sezonda Kanal Yönetimi: Takvim Bazlı Strateji",
+      "name": "Yüksek, Omuz ve Düşük Sezonda Kanal Yönetimi: Takvim Bazlı Strateji",
+      "description": "Yüksek, omuz ve düşük sezonda kanal önceliği, fiyat, minimum geceleme ve stop-sale kararlarını takvime bağlayın. 12 aylık aksiyon planı + şablon.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi/#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+        { "@type": "ListItem", "position": 3, "name": "Kanal Yönetimi (Channel Management)", "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Sezon Bazlı Kanal Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/yuksek-orta-dusuk-sezonda-kanal-yonetimi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yüksek, omuz ve düşük sezonda kanal yönetimi nasıl farklılaşmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüksek sezonda hedef yield ve fiyat gücünü korumak olduğu için kanal kontrolü ve stop-sale eşikleri öne çıkar. Omuz sezonda test ve optimizasyon yapılır; düşük sezonda doluluğu destekleyen promosyon ve esnek kural seti kullanılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon takvimine göre hangi OTA’lar önceliklendirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek doğru yoktur; öncelik komisyon sonrası net gelir, iptal davranışı ve risk seviyesine göre değişir. High season’da çekirdek kanallar ve direkt satış ağırlık alırken low season’da tactical kanallar kontrollü kullanılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Omuz sezonda hangi kampanyalar daha iyi çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Omuz sezonda uzun konaklama, semi-flex esneklik ve değer artıran paketler daha dengeli sonuç verir. Kampanyaları 14–21 günlük bloklarda test edip KPI ile karar vermek en sağlıklı yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düşük sezonda fiyatı ne kadar esnetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Düşük sezonda indirimi her kanalda sürekli açık tutmak yerine, belirli tarih bloklarında ve belirli kanallarda sınırlı yapmak daha güvenlidir. Mümkünse düz indirim yerine paket/ek değer ile cazibe yaratın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Stop-sale kararını neye göre veririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doluluk eşiği, pickup hızı ve overbooking riski gibi 2–3 eşik tanımlayın. Bu eşikler sağlandığında stop-sale devreye girer; ne zaman geri alınacağı da önceden planlanır."
           }
         }
       ]
@@ -13976,6 +14581,145 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "RevPAR/ADR’ı sezon ve segment verimliliği için üst katmanda, ROAS/CPA/dönüşüm oranını kampanya ve kanal performansı için alt katmanda konumlayın. Trend + kanal kartları + net katkı notuyla birlikte okuyun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "sameAs": []
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+      "name": "Satış ve Dönüşüm Raporları",
+      "serviceType": "Satış ve Dönüşüm Raporları",
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak",
+      "name": "Upper, Mid ve Lower Funnel: Otel Pazarlamasında Satış Hunisini Doğru Okumak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#breadcrumb" },
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#article" },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "Funnel Stage" },
+        { "@type": "Thing", "name": "Awareness" },
+        { "@type": "Thing", "name": "Consideration" },
+        { "@type": "Thing", "name": "Conversion" },
+        { "@type": "Thing", "name": "Channel" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Campaign Type" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#article",
+      "headline": "Upper, Mid ve Lower Funnel: Otel Pazarlamasında Satış Hunisini Doğru Okumak",
+      "description": "Upper, mid ve lower funnel katmanlarını oteliniz için net tanımlayın; her kanal ve kampanyadan aynı KPI’ı beklemek yerine doğru katmanda doğru KPI’a bakarak performansı ölçün.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Veri Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış ve Dönüşüm Raporları",
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Upper, Mid ve Lower Funnel: Otel Pazarlamasında Satış Hunisini Doğru Okumak",
+          "item": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Funnel katmanları (upper/mid/lower) nedir; otel pazarlamasında nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upper bilinirlik ve talep ısıtır, mid kıyaslama ve değerlendirmeyi taşır, lower rezervasyon niyetini satışa çevirir. Otelde her katmanın KPI’ı farklı olduğu için raporlar katman bazında okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kampanyalar sadece bilinirlik, hangileri rezervasyon KPI’ı ile ölçülmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube ve keşif odaklı Meta kampanyaları çoğunlukla upper’dır ve bilinirlik/talep sinyalleriyle ölçülür. Google Ads arama ve rezervasyon odaklı kampanyalar lower’dır ve rezervasyon-gelir KPI’larıyla ölçülmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funnel bazlı raporlama ile pazarlama performansı nasıl okunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporu upper/mid/lower olarak üç blok kurup kampanyaları bu bloklarda gruplayın. Katmanlar arası geçiş KPI’larına bakın ve alt blokta rezervasyon-gelir KPI’larıyla satış etkisini ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mid funnel’da hangi KPI’lar en kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tekrar ziyaret, oda/konsept sayfasında derinleşme, fiyat arama başlatma ve remarketing verimi mid için kritiktir. Bu KPI’lar kıyaslama ve güven aşamasının ilerleyip ilerlemediğini gösterir."
           }
         }
       ]
@@ -15823,6 +16567,139 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "ROAS ve CPA temel göstergelerdir; direkt rezervasyon geliri ve brand payı gibi kalite sinyalleriyle birlikte değerlendirilir. Hedef üstünde kontrollü artır, bozulmada optimize et."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-meta-ads-funnel-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi",
+      "name": "Meta Ads (Instagram & Facebook) ile Oteller İçin Funnel Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Meta Ads",
+        "Instagram Ads",
+        "Facebook Ads",
+        "Reels Ads",
+        "Story Ads",
+        "Pixel",
+        "Conversion API",
+        "Hotel Bookings",
+        "WhatsApp Click"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi",
+      "headline": "Meta Ads (Instagram & Facebook) ile Oteller İçin Funnel Stratejisi",
+      "description": "Oteller için Meta Ads funnel’ını kurun: Reels/Story/Feed kreatifleri, web veya WhatsApp dönüşüm kampanyaları, Pixel+CAPI ölçümü ve ROAS/CPA ile sürekli optimizasyon.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel meta ads funnel",
+        "instagram facebook otel reklam stratejisi",
+        "reels reklam rezervasyon katkisi",
+        "pixel ve conversion api",
+        "hotel meta ads funnel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#howto",
+      "name": "Oteller için Meta Ads funnel kurulum adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Katmanları ayır", "text": "Awareness, consideration ve conversion için ayrı kampanya setleri oluştur." },
+        { "@type": "HowToStep", "name": "Yerleşime uygun kreatif üret", "text": "Reels/Story için 9:16 video, feed için carousel/video varyasyonları hazırla." },
+        { "@type": "HowToStep", "name": "Pixel ve CAPI kur", "text": "Event setini rezervasyon adımlarına bağla ve deduplication ayarlarını yap." },
+        { "@type": "HowToStep", "name": "Remarketing kural seti tanımla", "text": "7/14/30 gün pencereleriyle segment bazlı mesaj kurgula." },
+        { "@type": "HowToStep", "name": "ROAS/CPA ile optimize et", "text": "Haftalık kreatif test ve aylık bütçe revizyon ritmi uygula." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Meta Ads (Instagram & Facebook) ile Oteller İçin Funnel Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-meta-ads-funnel-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için Meta Ads (Instagram & Facebook) nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meta Ads’i awareness–consideration–conversion funnel’ı olarak kurun; Reels/Story ile talep yaratın, carousel/video ile değerlendirmeyi artırın, web veya WhatsApp dönüşüm kampanyalarıyla rezervasyona taşıyın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reels reklamları otel satışına nasıl katkı sağlar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reels üst/orta katmanda talep yaratır ve remarketing havuzunu büyütür. Satış etkisi çoğu zaman alt katmanda remarketing dönüşümünü güçlendirerek görülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meta’da üst–orta–alt funnel kampanya yapısı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst katmanda reach/VTR odaklı Reels/Story, orta katmanda CTR odaklı carousel/video, alt katmanda CPA/ROAS odaklı web/WhatsApp dönüşüm + remarketing kampanyaları kurulur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meta reklamlarının otel rezervasyonuna etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel + Conversion API ile event’leri toplamak ve dönüşümleri GA4/Looker Studio ile çapraz kontrol etmek gerekir. ROAS/CPA ve rezervasyon başı maliyet alt katmanda izlenir."
           }
         }
       ]

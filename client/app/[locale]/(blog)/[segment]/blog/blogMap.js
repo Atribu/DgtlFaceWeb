@@ -52,7 +52,8 @@ export const BLOG_MAP = {
 
     "reels-icerik-stratejisi-ve-hedef-kurgusu":"BlogSmmReelsIcerikStratejisiVeHedefKurgusu",
     "reels-storyboard-ve-montaj-tempo-rehberi":"BlogReelsStoryboardVeMontajTempoRehberi",
-    "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":"BlogReelsSesVeMuzikStratejisiTrendSeslerLisansVeMarkaTonu"
+    "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":"BlogReelsSesVeMuzikStratejisiTrendSeslerLisansVeMarkaTonu",
+    "reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar":"BlogReelsIcinCekimTeknigiTelefonIleProSeviyeSonuclar"
   },
 
     yazilim: {
@@ -70,7 +71,8 @@ export const BLOG_MAP = {
 
     "kvkk-uyumlu-web-altyapisi-teknik-ve-operasyonel-checklist":"BlogYazilimKVKKUyumluWebAltyapisiTeknikVeOperasyonelChecklist",
     "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":"BlogVeriHaritasiVeDataFlowMappingKvkkIcinDijitalSistemEnvanteri",
-    "erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":"BlogErisimKontroluVeLoglamaKvkkTeknikTedbirleriPanelSunucuMimarisi"
+    "erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":"BlogErisimKontroluVeLoglamaKvkkTeknikTedbirleriPanelSunucuMimarisi",
+    "veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma":"BlogVeriMinimizasyonuVeRetentionPolitikalariDijitalSistemlerdeVeriAzaltma"
   },
          creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
@@ -87,7 +89,8 @@ export const BLOG_MAP = {
 
     "otel-tanitim-videosu-nasil-planlanir":"BlogCreativeOtelTanitimVideosuNasilPlanlanir",
     "otel-drone-cekimi-rehberi":"BlogOtelDroneCekimiRehberi",
-    "360-otel-sanal-tur-cekim-ve-ux":"Blog360OtelSanalTurCekimVeUx"
+    "360-otel-sanal-tur-cekim-ve-ux":"Blog360OtelSanalTurCekimVeUx",
+    "otel-tanitim-videosu-senaryo-storyboard":"BlogOtelTanitimVideosuSenaryoStoryboard"
   },
 
        "cagri-merkezi": {
@@ -105,7 +108,8 @@ export const BLOG_MAP = {
 
     "otel-sosyal-medya-mesaj-yonetimi-temel-rehber":"BlogCallCenterOtelSosyalMedyaMesajYonetimiTemelRehber",
     "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":"BlogCagriMerkeziOtelMesajYonetimindeSlaVeCevapSuresi",
-    "sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":"BlogSosyalMedyaMesajlarindanRezervasyonVeSatisFirsatiUretmek"
+    "sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":"BlogSosyalMedyaMesajlarindanRezervasyonVeSatisFirsatiUretmek",
+    "sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi":"BlogSikayetMesajlariVeOnlineYorumlarinProfesyonelYonetimi"
   },
 
     "pms-ota": {
@@ -123,7 +127,8 @@ export const BLOG_MAP = {
 
     "kanal-yonetimi-nedir-temel-mantik":"BlogKanalYonetimiNedirTemelMantik",
     "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":"BlogPmsOtaKanalYonetimEkraniIleFiyatVeEnvanterGuncelleme",
-    "pazar-bazli-kanal-karmasi-ve-envanter-dagitim":"BlogPazarBazliKanalKarmasiVeEnvanterDagitim"
+    "pazar-bazli-kanal-karmasi-ve-envanter-dagitim":"BlogPazarBazliKanalKarmasiVeEnvanterDagitim",
+    "yuksek-orta-dusuk-sezonda-kanal-yonetimi":"BlogYuksekOrtaDusukSezondaKanalYonetimi"
   },
 
     "raporlama": {
@@ -141,7 +146,8 @@ export const BLOG_MAP = {
 
     "satis-ve-donusum-raporlama-nedir-otel-funnel":"BlogSatisVeDonusumRaporlamaNedirOtelFunnel",
     "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":"BlogGoogleAdsMetaAdsVeOtaSatislariniTekFunneldaBirlestirmek",
-    "roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":"BlogROASmiROImiOtellerIcinDogruDonusumKpilariniSecmek"
+    "roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":"BlogROASmiROImiOtellerIcinDogruDonusumKpilariniSecmek",
+    "upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak":"BlogUpperMidLowerFunnelOtelPazarlamasindaHuniyiOkumak"
   },
 
 
@@ -160,7 +166,8 @@ export const BLOG_MAP = {
 
     "otel-dijital-reklam-stratejisi-temel-cerceve":"BlogOtelDijitalReklamStratejisiTemelCerceve",
     "google-hotel-ads-ve-google-ads-farklari":"BlogGoogleHotelAdsVeGoogleAdsFarklari",
-    "otel-reklam-butcesi-nasil-planlanir":"BlogOtelReklamButcesiNasilPlanlanir"
+    "otel-reklam-butcesi-nasil-planlanir":"BlogOtelReklamButcesiNasilPlanlanir",
+    "otel-meta-ads-funnel-stratejisi":"BlogOtelMetaAdsFunnelStratejisi"
     
   }
 };

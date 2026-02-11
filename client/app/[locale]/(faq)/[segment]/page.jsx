@@ -191,7 +191,7 @@ export async function generateMetadata({ params }) {
   if (!meta) return {};
 
   const siteUrl = "https://dgtlface.com";
-  const ogImage = getFaqOgImageUrl({ slug, locale, siteUrl });
+  const ogImage = getFaqOgImageUrl({ slug, locale, segment: slug, siteUrl });
 
   return {
     title: meta.title,
@@ -204,7 +204,7 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
-      images: [{ url: ogImage, secureUrl: ogImage, width: 1200, height: 630, alt: meta.title }],
+      images: [{ url: ogImage, secureUrl: ogImage, width: 1200, height: 630, alt: meta.title, type: "image/webp" }],
     },
     twitter: {
       card: "summary_large_image",

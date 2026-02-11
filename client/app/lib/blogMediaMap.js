@@ -6285,7 +6285,362 @@ export const BLOG_MEDIA_MAP = {
       alt: "Consolidation plan çıktıları, ajans uygulama deliverables",
       caption: "Consolidation plan çıktıları, ajans uygulama deliverables"
     }
-  }
+  },
+
+   "reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar":{
+     banner: {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-1.webp",
+      alt: "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak",
+      caption: "Reels İçin Çekim Tekniği: Telefonla “Pro” Seviye Sonuçlar Almak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-2.webp",
+      alt: "Dikey kadraj ve kompozisyon kurallarını özetleyen bağlam görseli",
+      caption: "Dikey kadraj ve kompozisyon kurallarını özetleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-3.webp",
+      alt: "İyi vs zayıf ışık ve kadraj farkını vurgulayan bölüm ayırıcı görsel",
+      caption: "İyi vs zayıf ışık ve kadraj farkını vurgulayan bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-4.webp",
+      alt: "Otel ve B2B mekân çekiminde kadraj reçetesini özetleyen bölüm görseli",
+      caption: "Otel ve B2B mekân çekiminde kadraj reçetesini özetleyen bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-5.webp",
+      alt: "Basit mobil çekim set-up diyagramı (ışık + tripod/gimbal + mikrofon)",
+      caption: "Basit mobil çekim set-up diyagramı (ışık + tripod/gimbal + mikrofon)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-6.webp",
+      alt: "Çekim öncesi/sahada uygulama checklist kartı",
+      caption: "Çekim öncesi/sahada uygulama checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-7.webp",
+      alt: "Görsel kalite ile izlenme ve güven KPI’larını ilişkilendiren skor kartı",
+      caption: "Görsel kalite ile izlenme ve güven KPI’larını ilişkilendiren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-4/SMM3-4-8.webp",
+      alt: "Saha set-up ve çekim çıktıları (deliverables) proof kartı",
+      caption: "Saha set-up ve çekim çıktıları (deliverables) proof kartı"
+    }
+  },
+
+
+  "veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma":{
+     banner: {
+      src: "/images/blog/software/Software3-4/Software3-4-1.webp",
+      alt: "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma",
+      caption: "Veri Minimizasyonu ve Retention Politikaları: Dijital Sistemlerde Veri Azaltma"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software3-4/Software3-4-2.webp",
+      alt: "Form alanı sadeleştirme yaklaşımı, otel ve B2B dönüşüm bağlamı",
+      caption: "Form alanı sadeleştirme yaklaşımı, otel ve B2B dönüşüm bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software3-4/Software3-4-3.webp",
+      alt: "Form sadeleştirme bölümü ayırıcı, KVKK veri azaltma odağı",
+      caption: "Form sadeleştirme bölümü ayırıcı, KVKK veri azaltma odağı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software3-4/Software3-4-4.webp",
+      alt: "Retention politikası bölümü ayırıcı, otel veri yaşam döngüsü",
+      caption: "Retention politikası bölümü ayırıcı, otel veri yaşam döngüsü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-4/Software3-4-5.webp",
+      alt: "Silme ve anonimleştirme akış diyagramı, otel ve B2B senaryosu",
+      caption: "Silme ve anonimleştirme akış diyagramı, otel ve B2B senaryosu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-4/Software3-4-6.webp",
+      alt: "Veri minimizasyonu checklist kartı, form alanı temizliği",
+      caption: "Veri minimizasyonu checklist kartı, form alanı temizliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-4/Software3-4-7.webp",
+      alt: "Toplanan alan sayısı ve retention uyumu KPI paneli, KVKK takibi",
+      caption: "Toplanan alan sayısı ve retention uyumu KPI paneli, KVKK takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-4/Software3-4-8.webp",
+      alt: "Field clean-up ve retention sprint deliverables kartı, otel bağlamı",
+      caption: "Field clean-up ve retention sprint deliverables kartı, otel bağlamı"
+    }
+  },
+
+   "otel-tanitim-videosu-senaryo-storyboard":{
+     banner: {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-1.webp",
+      alt: "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?",
+      caption: "Otel Tanıtım Videosu için Senaryo ve Storyboard Nasıl Yazılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-2.webp",
+      alt: "Senaryo sayfası ve storyboard kare şablonunu gösteren context görseli",
+      caption: "Senaryo sayfası ve storyboard kare şablonunu gösteren context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-3.webp",
+      alt: "Persona ve mesaj kurgusunu ayıran bölüm divider görseli",
+      caption: "Persona ve mesaj kurgusunu ayıran bölüm divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-4.webp",
+      alt: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli”",
+      caption: "Storyboard ve çekim tutarlılığı bölüm geçiş görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-5.webp",
+      alt: "Otel videosu sahne dizilimi giriş-gövde-kapanış diyagramı",
+      caption: "Otel videosu sahne dizilimi giriş-gövde-kapanış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-6.webp",
+      alt: "Senaryo storyboard yazım adımları ve kontrol listesi kartı",
+      caption: "Senaryo storyboard yazım adımları ve kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-7.webp",
+      alt: "Storyboard kullanımıyla tekrar çekim ve kurgu süresi azalımı kartı",
+      caption: "Storyboard kullanımıyla tekrar çekim ve kurgu süresi azalımı kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-4/Creative3-4-8.webp",
+      alt: "Senaryo ve storyboard şablon paketi teslim seti proof kartı",
+      caption: "Senaryo ve storyboard şablon paketi teslim seti proof kartı"
+    }
+  },
+
+
+   "sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-1.webp",
+      alt: "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?",
+      caption: "Şikâyet Mesajları ve Online Yorumlar Nasıl Profesyonel Yönetilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-2.webp",
+      alt: "Şikâyeti duygu ve problem olarak ayıran otel bağlam görseli",
+      caption: "Şikâyeti duygu ve problem olarak ayıran otel bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-3.webp",
+      alt: "Public yorum ve DM şikâyet stratejisini ayıran otel bölüm görseli",
+      caption: "Public yorum ve DM şikâyet stratejisini ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-4.webp",
+      alt: "Çözüm telafi ve eskalasyon sürecini anlatan otel bölüm görseli",
+      caption: "Çözüm telafi ve eskalasyon sürecini anlatan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-5.webp",
+      alt: "Şikâyet eskalasyon akışını ve departman devrini gösteren otel diyagramı",
+      caption: "Şikâyet eskalasyon akışını ve departman devrini gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-6.webp",
+      alt: "Şikâyet yanıtında yap ve yapma listesini özetleyen otel kart görseli",
+      caption: "Şikâyet yanıtında yap ve yapma listesini özetleyen otel kart görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-7.webp",
+      alt: "Şikâyet yanıt hızı ve yorum puanı trendini gösteren otel KPI kartı",
+      caption: "Şikâyet yanıt hızı ve yorum puanı trendini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-4/Callcenter3-4-8.webp",
+      alt: " Yanıt şablonları ve eskalasyon çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: " Yanıt şablonları ve eskalasyon çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+
+   "yuksek-orta-dusuk-sezonda-kanal-yonetimi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-1.webp",
+      alt: "Yüksek, Omuz ve Düşük Sezonda Kanal Yönetimi: Takvim Bazlı Strateji",
+      caption: "Yüksek, Omuz ve Düşük Sezonda Kanal Yönetimi: Takvim Bazlı Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-2.webp",
+      alt: "High shoulder low sezon hedeflerini otel operasyonu bağlamında özetleyen görsel",
+      caption: "High shoulder low sezon hedeflerini otel operasyonu bağlamında özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-3.webp",
+      alt: "Sezon segmentasyonuna geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "Sezon segmentasyonuna geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-4.webp",
+      alt: "Kanal önceliklendirme ve sezon kararlarını ayıran bölüm görseli",
+      caption: "Kanal önceliklendirme ve sezon kararlarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-5.webp",
+      alt: "Sezon kampanya stop-sale karar akışını otel bağlamında gösteren diyagram",
+      caption: "Sezon kampanya stop-sale karar akışını otel bağlamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-6.webp",
+      alt: "12 aylık sezon bazlı aksiyon planını otel yönetimi için özetleyen kart",
+      caption: "12 aylık sezon bazlı aksiyon planını otel yönetimi için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-7.webp",
+      alt: "ADR doluluk indirim oranı gibi sezon KPI’larını özetleyen skor kartı",
+      caption: "ADR doluluk indirim oranı gibi sezon KPI’larını özetleyen skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-4/Pms3-4-8.webp",
+      alt: "Yıllık sezon planı ve kanal stratejisi çıktılarıyla güven unsuru sunan kart",
+      caption: "Yıllık sezon planı ve kanal stratejisi çıktılarıyla güven unsuru sunan kart"
+    }
+  },
+
+
+  "upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-1.webp",
+      alt: "Upper, Mid ve Lower Funnel: Otel Pazarlamasında Satış Hunisini Doğru Okumak",
+      caption: "Upper, Mid ve Lower Funnel: Otel Pazarlamasında Satış Hunisini Doğru Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-2.webp",
+      alt: "Otel satış yolculuğunu upper mid lower adımlarıyla açıklayan bağlam görseli",
+      caption: "Otel satış yolculuğunu upper mid lower adımlarıyla açıklayan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-3.webp",
+      alt: "Katman bazlı KPI ve kanal eşlemesine geçişi ayıran otel görseli",
+      caption: "Katman bazlı KPI ve kanal eşlemesine geçişi ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-4.webp",
+      alt: "Rapor okuma ve hata önleme bölümünü ayıran funnel görseli",
+      caption: "Rapor okuma ve hata önleme bölümünü ayıran funnel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-5.webp",
+      alt: "Upper mid lower katmanlar ve kanal akışını gösteren otel funnel diyagramı",
+      caption: "Upper mid lower katmanlar ve kanal akışını gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-6.webp",
+      alt: "Funnel katmanı yorum hatalarını önleyen otel checklist kartı",
+      caption: "Funnel katmanı yorum hatalarını önleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-7.webp",
+      alt: "Upper mid lower için KPI setlerini özetleyen otel skor kartı",
+      caption: "Upper mid lower için KPI setlerini özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-4/Reporting3-4-8.webp",
+      alt: "Funnel dashboard teslimleri ve raporlama çıktılarıyla güven kartı",
+      caption: "Funnel dashboard teslimleri ve raporlama çıktılarıyla güven kartı"
+    }
+  },
+
+
+   "otel-meta-ads-funnel-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-1.webp",
+      alt: "Meta Ads (Instagram & Facebook) ile Oteller İçin Funnel Stratejisi",
+      caption: "Meta Ads (Instagram & Facebook) ile Oteller İçin Funnel Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-2.webp",
+      alt: "Meta Ads awareness consideration conversion katmanlarını otel bağlamında açıklayan görsel",
+      caption: "Meta Ads awareness consideration conversion katmanlarını otel bağlamında açıklayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-3.webp",
+      alt: "Otel Meta kreatif ve mesajlaşma katmanlarını ayıran bölüm görseli",
+      caption: "Otel Meta kreatif ve mesajlaşma katmanlarını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-4.webp",
+      alt: "Pixel ve Conversion API ölçüm omurgasını vurgulayan bölüm görseli",
+      caption: "Pixel ve Conversion API ölçüm omurgasını vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-5.webp",
+      alt: "Meta funnel diyagramını otel reklamında awareness consideration booking akışında gösteren görsel",
+      caption: "Meta funnel diyagramını otel reklamında awareness consideration booking akışında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-6.webp",
+      alt: "Reels Story Feed yerleşim kararlarını otel reklamında özetleyen checklist kartı",
+      caption: "Reels Story Feed yerleşim kararlarını otel reklamında özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-7.webp",
+      alt: "Meta Ads performansını ROAS CPA ile özetleyen otel skor kartı",
+      caption: "Meta Ads performansını ROAS CPA ile özetleyen otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-4/Hotel3-4-8.webp",
+      alt: "Otel için 3 Meta kampanya seti ve çıktıları gösteren proof kartı",
+      caption: "Otel için 3 Meta kampanya seti ve çıktıları gösteren proof kartı"
+    }
+  },
 
 
 };
