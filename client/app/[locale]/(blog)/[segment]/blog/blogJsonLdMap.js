@@ -1714,6 +1714,139 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"ota-trafigini-remarketing-ile-geri-kazanmak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak",
+      "name": "OTA Trafiğini Remarketing ile Nasıl Geri Kazanırsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#article",
+      "headline": "OTA Trafiğini Remarketing ile Nasıl Geri Kazanırsınız?",
+      "description": "Booking/Expedia’dan web’e gelen kullanıcıyı remarketing ile yakalayın. Direct booking avantajlarını policy’ye uygun mesajlarla anlatın; komisyon yerine kârlılığı artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "OTA Traffic",
+        "Direct Booking",
+        "Remarketing",
+        "Commission",
+        "Hotel Funnel",
+        "booking.com"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "OTA Trafiğini Remarketing ile Nasıl Geri Kazanırsınız?",
+          "item": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/ota-trafigini-remarketing-ile-geri-kazanmak",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA trafiğini remarketing ile geri kazanmak mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. OTA’dan web’e gelen warm audience’u remarketing ile yeniden hedefleyerek direct booking’e yönlendirebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking’den gelen kullanıcıyı web siteme nasıl çekerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyasıyla marka aramasında görünür olup web’e gelen kullanıcıyı remarketing ile tekrar yakalayın; mesajı şeffaf koşul ve hızlı destek üzerine kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA komisyonunu remarketing ile azaltabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Küçük bir kısmı bile direct booking’e kaydırmak komisyon etkisini azaltabilir; başarıyı net kârlılık perspektifiyle ölçmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direct booking için hangi mesajlar işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şeffaf iptal/ödeme koşulları, resmi site güveni, hızlı destek ve sürdürülebilir ekstra faydalar genelde iyi çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ile ilişkileri zedelemeden nasıl ilerlerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesajı OTA’yı hedef almak yerine resmi site deneyimi, netlik ve destek üzerine kurun; platform kuralları ve sözleşme sınırlarını gözetin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -3289,7 +3422,267 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"topic-cluster-ve-content-hub-mimarisi":{}
+"topic-cluster-ve-content-hub-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi",
+      "name": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#webpage" },
+      "headline": "Topic Cluster ve Content Hub Mimarisi: SEO İçin İçerik Kümeleri Nasıl Kurulur?",
+      "description": "Topic cluster nedir? Content hub nasıl kurulur? Hub–cluster–SSS yapısı, iç link ve anchor stratejisiyle içerikleri organize edin, otoriteyi toparlayın ve cannibalisation’ı azaltın.",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["article h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO (Content SEO)",
+      "serviceType": "Content SEO",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#howto",
+      "name": "Topic Cluster ve Content Hub Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hub konusunu seç ve vaadini netleştir",
+          "text": "Ana konuyu belirle; hub sayfanın tek cümle vaadini ve navigasyonunu yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Cluster temaları çıkar ve içerikleri ayrıştır",
+          "text": "Alt temaları cluster’lara böl; her içerik için tek ana niyet ve hedef belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İç link ve anchor planını kur",
+          "text": "Hub→cluster linklerini planla; cluster→hub geri linkleri ekle; SSS’yi ilgili sayfalara bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Eski içerikleri konsolide et",
+          "text": "Çakışan içerikleri birleştir; gerekli yönlendirme/canonical planını oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile ölç ve düzenli güncelle",
+          "text": "Trafik, görünürlük, iç link tıklaması ve cannibalisation sinyallerini takip et; 365 günde refresh yap."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+        { "@type": "ListItem", "position": 3, "name": "İçerik SEO", "item": "https://dgtlface.com/tr/seo/icerik-seo" },
+        { "@type": "ListItem", "position": 4, "name": "Topic Cluster ve Content Hub Mimarisi", "item": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/topic-cluster-ve-content-hub-mimarisi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Topic cluster nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Topic cluster, bir hub sayfa ve onu destekleyen alt içeriklerden oluşan içerik kümesi modelidir; iç linklerle otoriteyi merkezde toplar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Content hub nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ana konuyu belirleyip hub sayfayı kapsam + navigasyon + kısa özetler şeklinde kurgulayın; alt temaları cluster içerikler olarak üretip planlı link verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaç adet blog bir cluster oluşturur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabit sayı yoktur; çoğu projede 6–12 içeriklik cluster başlangıç için yeterlidir. Kapsam ve çakışma durumuna göre alt cluster’lara bölünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İç linkleri hub–cluster mantığıyla nasıl dağıtmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hub’dan cluster’lara planlı link verin, cluster’lardan hub’a geri link koyun ve SSS sorularını ilgili sayfalara bağlayın; amaç kullanıcıyı mantıklı bir yolculuğa sokmaktır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"eski-icerikleri-guncelleme-ve-consolidation-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi",
+      "name": "Eski İçerikleri Güncelleme ve Consolidation Stratejisi: Silmek Yerine Güçlendirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#webpage" },
+      "headline": "Eski İçerikleri Güncelleme ve Consolidation Stratejisi: Silmek Yerine Güçlendirmek",
+      "description": "Eski içerikleri silmek yerine güncelleyin veya birleştirin. Search Console ile adayları seçin, consolidation kararı verin, 301 ve iç linklerle otoriteyi güçlendirin.",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["article h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO (Content SEO)",
+      "serviceType": "Content SEO",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#howto",
+      "name": "Eski İçerik Refresh ve Consolidation Uygulaması",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Aday içerikleri veriden seç",
+          "text": "Search Console ve Analytics ile trafiği düşen, ince veya çakışan içerikleri listele."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Update mi merge mü karar ver",
+          "text": "Intent ve cannibalisation sinyallerine göre güncelleme veya consolidation kararını ver."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ana hedef sayfayı güçlendir",
+          "text": "Başlık, yapı, veri ve görselleri güncelle; FAQ ve kontrol listeleri ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "301 ve internal link cleanup uygula",
+          "text": "Consolidation adaylarında 301 yönlendirmeleri kur; eski URL’lere giden iç linkleri yeni hedefe taşı."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yeniden indeksleme ve KPI takibi yap",
+          "text": "Sitemap güncelle, URL Denetimi ile yeniden dizine ekleme iste; 30/90 gün KPI’ları takip et."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+        { "@type": "ListItem", "position": 3, "name": "İçerik SEO", "item": "https://dgtlface.com/tr/seo/icerik-seo" },
+        { "@type": "ListItem", "position": 4, "name": "Eski İçerikleri Güncelleme ve Consolidation Stratejisi", "item": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/eski-icerikleri-guncelleme-ve-consolidation-stratejisi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Eski içerikleri silmek mi, güncellemek mi daha iyi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu durumda güncellemek daha iyidir; çünkü URL’nin otoritesi ve iç link ağı korunur. Çakışma varsa consolidation + 301 ile tek güçlü sayfaya toplamak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consolidation nedir, ne zaman yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consolidation, benzer içerikleri tek bir ana rehberde birleştirme yaklaşımıdır. Aynı niyeti hedefleyen birden fazla URL varsa ve SERP’te dalgalanma görülüyorsa consolidation genellikle doğru karardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Trafiği düşen içerikleri nasıl bulurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search Console’da dönem karşılaştırmasıyla tıklama/gösterim/konum düşüşü yaşayan sayfaları çıkarın ve GA4’te organik giriş/etkileşim düşüşüyle doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Güncellenen içeriği Google’a nasıl hızlı gösteririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İç link akışını güçlendirin, sitemap’i güncelleyin ve Search Console URL Denetimi ile yeniden dizine ekleme isteyin; consolidation varsa 301 ve internal link cleanup’ı kontrol edin."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 

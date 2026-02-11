@@ -6186,6 +6186,108 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+
+  "ota-trafigini-remarketing-ile-geri-kazanmak":{
+     banner: {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-1.webp",
+      alt: "OTA Trafiğini Remarketing ile Nasıl Geri Kazanırsınız?",
+      caption: "OTA Trafiğini Remarketing ile Nasıl Geri Kazanırsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-2.webp",
+      alt: "OTA’dan web’e geçen kullanıcıyı remarketing fırsatıyla anlatan otel bağlam görseli",
+      caption: "OTA’dan web’e geçen kullanıcıyı remarketing fırsatıyla anlatan otel bağlam görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-3.webp",
+      alt: "OTA trafiğinin değerini ve niyetini açıklayan otel bölüm ayırıcı görseli",
+      caption: "OTA trafiğinin değerini ve niyetini açıklayan otel bölüm ayırıcı görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-4.webp",
+      alt: "Mesaj ve policy uyumunu ayıran strateji bölüm görseli",
+      caption: "Mesaj ve policy uyumunu ayıran strateji bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-5.webp",
+      alt: "OTA→Web→Remarketing→Call/Web rezervasyon akışını gösteren otel funnel diyagramı",
+      caption: "OTA→Web→Remarketing→Call/Web rezervasyon akışını gösteren otel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-6.webp",
+      alt: "OTA kullanıcılarını direct booking’e taşımak için mesaj ve segment checklist kartı",
+      caption: "OTA kullanıcılarını direct booking’e taşımak için mesaj ve segment checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-7.webp",
+      alt: "Komisyon etkisini azaltmaya yönelik direct booking KPI setini özetleyen otel kartı",
+      caption: "Komisyon etkisini azaltmaya yönelik direct booking KPI setini özetleyen otel kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-4/SEM3-4-8.webp",
+      alt: "OTA remarketing stratejisi çıktıları ve güven unsurlarını gösteren otel proof kartı",
+      caption: "OTA remarketing stratejisi çıktıları ve güven unsurlarını gösteren otel proof kartı"
+    }
+  },
+
+  "eski-icerikleri-guncelleme-ve-consolidation-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-1.webp",
+      alt: "Eski İçerikleri Güncelleme ve Consolidation Stratejisi: Silmek Yerine Güçlendirmek",
+      caption: "Eski İçerikleri Güncelleme ve Consolidation Stratejisi: Silmek Yerine Güçlendirmek"
+    },
+
+          "h1-context": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-2.webp",
+      alt: "Refresh ve consolidation karar akışı, Search Console verisi",
+      caption: "Refresh ve consolidation karar akışı, Search Console verisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-3.webp",
+      alt: "Aday seçimi bölümü ayırıcı, trafik düşüşü analizi",
+      caption: "Aday seçimi bölümü ayırıcı, trafik düşüşü analizi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-4.webp",
+      alt: "Teknik uygulama ayırıcı, 301 ve iç link yönetimi",
+      caption: "Teknik uygulama ayırıcı, 301 ve iç link yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-5.webp",
+      alt: "Consolidation karar ağacı diyagramı, 301 yönlendirme akışı",
+      caption: "Consolidation karar ağacı diyagramı, 301 yönlendirme akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-6.webp",
+      alt: "Silmek yerine güçlendirme checklist’i, içerik refresh adımları",
+      caption: "Silmek yerine güçlendirme checklist’i, içerik refresh adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-7.webp",
+      alt: "Refresh sonrası KPI kartı, görünürlük ve CTR takibi",
+      caption: "Refresh sonrası KPI kartı, görünürlük ve CTR takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-4/SEO3-4-8.webp",
+      alt: "Consolidation plan çıktıları, ajans uygulama deliverables",
+      caption: "Consolidation plan çıktıları, ajans uygulama deliverables"
+    }
+  }
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

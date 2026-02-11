@@ -15,7 +15,8 @@ export const BLOG_MAP = {
 
     "remarketing-nedir-oteller-icin-temel-rehber":"BlogSemRemarketingNedirOtellerIcinTemelRehber",
     "google-display-network-otel-remarketing-stratejisi":"BlogGoogleDisplayNetworkOtelRemarketingStratejisi",
-    "dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":"BlogDinamikRemarketingOtelFiyatVeOdaDinamikleri"
+    "dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":"BlogDinamikRemarketingOtelFiyatVeOdaDinamikleri",
+    "ota-trafigini-remarketing-ile-geri-kazanmak":"BlogOtaTrafiginiRemarketingIleGeriKazanmak"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -32,7 +33,8 @@ export const BLOG_MAP = {
 
     "seo-uyumlu-icerik-nasil-yazilir-temel-rehber":"BlogSeoSeoUyumluIcerikNasilYazilirTemelRehber",
     "search-intent-analizi-ve-icerik-haritalama":"BlogSearchIntentAnaliziVeIcerikHaritalama",
-    "topic-cluster-ve-content-hub-mimarisi":"BlogTopicClusterVeContentHubMimarisi"
+    "topic-cluster-ve-content-hub-mimarisi":"BlogTopicClusterVeContentHubMimarisi",
+    "eski-icerikleri-guncelleme-ve-consolidation-stratejisi":"BlogEskiIcerikleriGuncellemeVeConsolidationStratejisi"
   },
 
     smm: {
