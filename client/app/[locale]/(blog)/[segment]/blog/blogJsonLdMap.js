@@ -1847,6 +1847,165 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-rezervasyon-terki-sepet-terk-remarketing-funneli":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli",
+      "name": "Otel Rezervasyon Terki (Sepet Terki) İçin Remarketing Funnel’ı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#article",
+      "headline": "Otel Rezervasyon Terki (Sepet Terki) İçin Remarketing Funnel’ı Nasıl Kurulur?",
+      "description": "Otel rezervasyon terki (sepet terk) neden olur? Tarih–oda–misafir–ödeme adımlarına göre segmentleyin; 24s/3g/7g remarketing funnel’ıyla kaçan rezervasyonu geri kazanın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Booking Abandonment",
+        "Abandoned Cart",
+        "Hotel Reservation Funnel",
+        "Remarketing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/remarketing-ve-display#service",
+      "name": "Remarketing & Display Reklamlar",
+      "url": "https://dgtlface.com/tr/sem/remarketing-ve-display",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "serviceType": "SEM / Remarketing ve Display Reklam Yönetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#howto",
+      "name": "Otel Rezervasyon Terki İçin Remarketing Funnel Kurulumu (Özet)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Terk noktalarını belirle",
+          "text": "Tarih, oda, misafir bilgileri ve ödeme adımlarındaki kaybı adım bazlı ölçümle çıkar."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segmentleri oluştur",
+          "text": "Her terk adımı için ayrı audience/segment tanımla ve rezervasyon tamamlayanları hariç tut."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Zamanlama ve mesajı kurgula",
+          "text": "0–24 saat, 1–3 gün, 4–7 gün senaryolarıyla tek vaat + tek CTA mesaj setleri oluştur; ödeme terk için destek CTA’sı ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile optimize et",
+          "text": "CTR yerine recovery, adım geçişi ve rezervasyon KPI’larıyla segment bazında optimizasyon yap."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Remarketing & Display Reklamlar",
+          "item": "https://dgtlface.com/tr/sem/remarketing-ve-display"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Rezervasyon Terki (Sepet Terki) İçin Remarketing Funnel’ı Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-terki-sepet-terk-remarketing-funneli",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel rezervasyon terki nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon terki, kullanıcının tarih seçimi, oda seçimi, misafir bilgileri veya ödeme adımında rezervasyonu tamamlamadan çıkmasıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sepet terk eden misafirleri remarketing ile nasıl geri çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Terk edilen adıma göre segment oluşturup 24 saat–3 gün–7 gün zamanlamasıyla mesaj/CTA kurgulayın; ödeme ve form terk segmentinde destek CTA’sı test edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon funnel’ında en çok kayıp nerede olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Birçok tesiste kritik kayıp noktaları fiyat/koşul belirsizliği olan adımlar ve özellikle ödeme ekranıdır; adım bazlı ölçümle netleştirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ödeme ekranında terk eden kullanıcıya ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Güvenli ödeme ve şeffaf iptal koşulunu netleştirip destek kanalı sunun; CTA’yı 'tamamla' kadar 'destek al' olarak da test edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sepet terk ölçümünde KVKK açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kişisel verileri event’lere yazmadan anonim ölçüm kurun ve izin/çerez yönetimini doğru uygulayın; privacy uyumu uzun vadeli optimizasyon için kritiktir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -3677,6 +3836,137 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "İç link akışını güçlendirin, sitemap’i güncelleyin ve Search Console URL Denetimi ile yeniden dizine ekleme isteyin; consolidation varsa 301 ve internal link cleanup’ı kontrol edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi",
+      "name": "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#webpage" },
+      "headline": "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu",
+      "description": "Internal link nedir, SEO’ya nasıl etki eder? Hangi sayfalara link vermeli, anchor text nasıl seçilir, hub–cluster ağ nasıl kurulur? Otel/B2B örnekleriyle.",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["article h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/icerik-seo/#service",
+      "name": "İçerik SEO (Content SEO)",
+      "serviceType": "Content SEO",
+      "url": "https://dgtlface.com/tr/seo/icerik-seo",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#howto",
+      "name": "İçerik İçinde Internal Link Stratejisi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Öncelikli hedef sayfaları belirle",
+          "text": "Hub, dönüşüm ve destek sayfalarını rolüne göre seç ve önceliklendir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Her içerikte 3–5 stratejik link planla",
+          "text": "Baş, orta ve final konumlarına mantıklı hedef URL’leri yerleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Anchor metinleri semantik ve doğal yaz",
+          "text": "Tekrarlı tam eşleşmeden kaçın; varyasyon ve bağlamla tıklanabilir anchor kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Hub–cluster ağını kur",
+          "text": "Hub’dan cluster’lara link ver, cluster’lardan hub’a geri link koy; SSS’yi ilgili sayfalara bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ağı düzenli güncelle ve orphan sayfaları azalt",
+          "text": "Yeni içerikler geldikçe eski sayfalardan yeni hedeflere ve yeni sayfalardan eski otorite sayfalara link ekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo/" },
+        { "@type": "ListItem", "position": 3, "name": "İçerik SEO", "item": "https://dgtlface.com/tr/seo/icerik-seo" },
+        { "@type": "ListItem", "position": 4, "name": "İçerik İçinde Internal Link Stratejisi", "item": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Internal link nedir, SEO’ya nasıl etki eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Internal link, aynı site içindeki sayfalar arasında kurulan bağlantıdır; Google’a ilişki ve önem sinyali verir, kullanıcıyı doğru bir sonraki adıma taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi sayfalara daha çok iç link vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hub/otorite sayfalar, gelir/dönüşüm sayfaları ve yetim kalma riski olan kritik sayfalar önceliklidir; linkler sayfa rolüne göre planlı dağılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anchor text seçiminde nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anchor metin doğal akmalı, hedef sayfayı açıklamalı ve semantik varyasyon içermelidir; aynı anahtar kelimeyi tekrar tekrar anchor yapmak yapay görünebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hub–cluster iç link yapısı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hub’dan cluster’lara planlı link verin, cluster’lardan hub’a geri link koyun ve SSS sorularını ilgili sayfalara bağlayın; amaç mantıklı kullanıcı yolculuğudur."
           }
         }
       ]

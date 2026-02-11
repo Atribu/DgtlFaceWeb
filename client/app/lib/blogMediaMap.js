@@ -6643,6 +6643,158 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "otel-rezervasyon-terki-sepet-terk-remarketing-funneli":{
+     banner: {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-1.webp",
+      alt: "Otel Rezervasyon Terki (Sepet Terki) İçin Remarketing Funnel’ı Nasıl Kurulur?",
+      caption: "Otel Rezervasyon Terki (Sepet Terki) İçin Remarketing Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-2.webp",
+      alt: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli",
+      caption: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-3.webp",
+      alt: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli",
+      caption: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-4.webp",
+      alt: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli",
+      caption: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-5.webp",
+      alt: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli",
+      caption: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-6.webp",
+      alt: "Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı",
+      caption: "Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-7.webp",
+      alt: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli",
+      caption: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM3-5/SEM3-5-8.webp",
+      alt: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı",
+      caption: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı"
+    }
+  },
+
+"icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi":{
+     banner: {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-1.webp",
+      alt: "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu",
+      caption: "İçerik İçinde Internal Link Stratejisi: Otorite Dağılımı ve Kullanıcı Yolculuğu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-2.webp",
+      alt: "Otorite dağılımı ve micro CTA akışı, içerik SEO örneği",
+      caption: "Otorite dağılımı ve micro CTA akışı, içerik SEO örneği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-3.webp",
+      alt: "Önceliklendirme ayırıcı, hedef sayfa seçimi bağlamı",
+      caption: "Önceliklendirme ayırıcı, hedef sayfa seçimi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-4.webp",
+      alt: "Hub–cluster ağ ayırıcı, iç link mimarisi bağlamı",
+      caption: "Hub–cluster ağ ayırıcı, iç link mimarisi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-5.webp",
+      alt: "Hub–cluster iç link diyagramı, otorite akışı ve kullanıcı yolculuğu",
+      caption: "Hub–cluster iç link diyagramı, otorite akışı ve kullanıcı yolculuğu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-6.webp",
+      alt: "3–5 stratejik iç link checklist’i, içerik içi planlama",
+      caption: "3–5 stratejik iç link checklist’i, içerik içi planlama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-7.webp",
+      alt: "Orphan sayfa azalması KPI kartı, hedef URL istikrarı",
+      caption: "Orphan sayfa azalması KPI kartı, hedef URL istikrarı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO3-5/SEO3-5-8.webp",
+      alt: "Internal link plan deliverables, anchor şablonu ve ağ çıktıları",
+      caption: "Internal link plan deliverables, anchor şablonu ve ağ çıktıları"
+    }
+  },
+
+
+   "boss":{
+     banner: {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-2.webp",
+      alt: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli",
+      caption: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-3.webp",
+      alt: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli",
+      caption: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-4.webp",
+      alt: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli",
+      caption: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-5.webp",
+      alt: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli",
+      caption: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-6.webp",
+      alt: " Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı",
+      caption: " Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-7.webp",
+      alt: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli",
+      caption: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM3-5/SMM3-5-8.webp",
+      alt: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı",
+      caption: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı"
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {
