@@ -6744,53 +6744,358 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-   "boss":{
+   "reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama":{
      banner: {
       src: "/images/blog/smm/SMM3-5/SMM3-5-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+      caption: "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama"
     },
 
           "h1-context-02": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-2.webp",
-      alt: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli",
-      caption: "Tarih oda bilgi ödeme adımlarını gösteren otel rezervasyon akışı görseli"
+      alt: "Reels optimizasyon döngüsünü (teşhis→test→iyileştirme) gösteren bağlam görseli",
+      caption: "Reels optimizasyon döngüsünü (teşhis→test→iyileştirme) gösteren bağlam görseli"
     },
 
            "divider-03": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-3.webp",
-      alt: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli",
-      caption: "Rezervasyon terki tanımı ve segment mantığını ayıran otel bölüm görseli"
+      alt: "Metrik kümelerini ayıran bölüm ayırıcı görsel",
+      caption: "Metrik kümelerini ayıran bölüm ayırıcı görsel"
     },
 
     "divider-04": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-4.webp",
-      alt: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli",
-      caption: "Mesaj zamanlaması ve destek CTA stratejisini ayıran bölüm görseli"
+      alt: "KPI matrisi ve içerik türü ayrımını gösteren bölüm görseli",
+      caption: "KPI matrisi ve içerik türü ayrımını gösteren bölüm görseli"
     },
 
      "diagram-05": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-5.webp",
-      alt: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli",
-      caption: "Ekran bazlı rezervasyon funnel şeması ve terk noktaları diyagramı görseli"
+      alt: "Reels optimizasyon modeli (metrik→teşhis→A/B test) diyagramı",
+      caption: "Reels optimizasyon modeli (metrik→teşhis→A/B test) diyagramı"
     },
 
           "checklist-06": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-6.webp",
-      alt: " Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı",
-      caption: " Terk segmentleri için mesaj ve CTA kontrolünü özetleyen otel checklist kartı"
+      alt: "Reels optimizasyon checklist kartı",
+      caption: "Reels optimizasyon checklist kartı"
     },
 
       "kpi-07": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-7.webp",
-      alt: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli",
-      caption: "Rezervasyon kurtarma performansını CPA ve dönüşümle özetleyen KPI kartı görseli"
+      alt: "Retention–save–click KPI skor kartı",
+      caption: "Retention–save–click KPI skor kartı"
     },
 
           "proof-08": {
       src: "/images/blog/smm/SMM3-5/SMM3-5-8.webp",
-      alt: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı",
-      caption: "Recovery sprint çıktıları ve funnel deliverable’larını gösteren otel proof kartı"
+      alt: "Rapor + test planı + öğrenim çıktıları proof kartı",
+      caption: "Rapor + test planı + öğrenim çıktıları proof kartı"
+    }
+  },
+
+   "olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif":{
+     banner: {
+      src: "/images/blog/software/Software3-5/Software3-5-1.webp",
+      alt: "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif",
+      caption: "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software3-5/Software3-5-2.webp",
+      alt: "Tespit izolasyon analiz bildirim adımları, otel kriz bağlamı",
+      caption: "Tespit izolasyon analiz bildirim adımları, otel kriz bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software3-5/Software3-5-3.webp",
+      alt: "Incident ekip ve roller bölümü ayırıcı, otel operasyon yönetimi",
+      caption: "Incident ekip ve roller bölümü ayırıcı, otel operasyon yönetimi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software3-5/Software3-5-4.webp",
+      alt: " İzolasyon ve analiz bölümü ayırıcı, KVKK teknik tedbir",
+      caption: " İzolasyon ve analiz bölümü ayırıcı, KVKK teknik tedbir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software3-5/Software3-5-5.webp",
+      alt: "Incident response swimlane akış diyagramı, teknik hukuk iletişim",
+      caption: "Incident response swimlane akış diyagramı, teknik hukuk iletişim"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software3-5/Software3-5-6.webp",
+      alt: "Veri ihlali olay kartı checklist özeti, otel ve B2B",
+      caption: "Veri ihlali olay kartı checklist özeti, otel ve B2B"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software3-5/Software3-5-7.webp",
+      alt: "Tespit ve müdahale süresi KPI paneli, incident yönetimi",
+      caption: "Tespit ve müdahale süresi KPI paneli, incident yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software3-5/Software3-5-8.webp",
+      alt: "Incident dokümanları ve tatbikat teslimleri, otel bağlamı",
+      caption: "Incident dokümanları ve tatbikat teslimleri, otel bağlamı"
+    }
+  },
+
+
+
+   "otel-video-asset-stratejisi-1-gun-30-icerik":{
+     banner: {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-1.webp",
+      alt: "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      caption: "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-2.webp",
+      alt: "Long form ve short form planını tek sayfada özetleyen context görseli",
+      caption: "Long form ve short form planını tek sayfada özetleyen context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-3.webp",
+      alt: "1 gün çekim planlama ve modüler sahne blokları divider görsel",
+      caption: "1 gün çekim planlama ve modüler sahne blokları divider görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-4.webp",
+      alt: "Arşiv yönetimi ve içerik kütüphanesi klasör şeması divider görseli",
+      caption: "Arşiv yönetimi ve içerik kütüphanesi klasör şeması divider görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-5.webp",
+      alt: "Long formdan short formlara mapping akışını gösteren diyagram",
+      caption: "Long formdan short formlara mapping akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-6.webp",
+      alt: "1 gün 30+ içerik üretimi için planlama ve assetleşme checklist kartı",
+      caption: "1 gün 30+ içerik üretimi için planlama ve assetleşme checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-7.webp",
+      alt: "Video asset stratejisinin maliyet ve içerik sürekliliği KPI etkisi kartı",
+      caption: "Video asset stratejisinin maliyet ve içerik sürekliliği KPI etkisi kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative3-5/Creative3-5-8.webp",
+      alt: "Çekim planı, asset tablosu ve arşiv teslim paketini anlatan proof kart",
+      caption: "Çekim planı, asset tablosu ve arşiv teslim paketini anlatan proof kart"
+    }
+  },
+
+  "cok-dilli-mesaj-yonetimi-tr-en-de-ru":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-1.webp",
+      alt: "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi",
+      caption: "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-2.webp",
+      alt: "Tarih para birimi iptal netliğiyle çok dilli yazılı iletişimi gösteren otel görseli",
+      caption: "Tarih para birimi iptal netliğiyle çok dilli yazılı iletişimi gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-3.webp",
+      alt: "Çok dilli şablon kütüphanesi ve çeviri sürecini ayıran otel bölüm görseli",
+      caption: "Çok dilli şablon kütüphanesi ve çeviri sürecini ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-4.webp",
+      alt: "Çok dilli WhatsApp DM OTA yönetimini anlatan otel bölüm görseli",
+      caption: "Çok dilli WhatsApp DM OTA yönetimini anlatan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-5.webp",
+      alt: "TR EN DE RU mesajlardan çağrı merkezi ve PMS entegrasyonuna giden akış diyagramı",
+      caption: "TR EN DE RU mesajlardan çağrı merkezi ve PMS entegrasyonuna giden akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-6.webp",
+      alt: "Çok dilli mesajlarda netlik ve kontrol adımlarını özetleyen otel kartı",
+      caption: "Çok dilli mesajlarda netlik ve kontrol adımlarını özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-7.webp",
+      alt: "TR EN DE RU dil bazlı cevap süresi ve memnuniyet KPI’larını gösteren otel kartı",
+      caption: "TR EN DE RU dil bazlı cevap süresi ve memnuniyet KPI’larını gösteren otel kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-5/Callcenter3-5-8.webp",
+      alt: "Çok dilli şablon paketi ve süreç çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "Çok dilli şablon paketi ve süreç çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+
+  "kanal-yonetiminde-room-type-rate-plan-mimari":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-1.webp",
+      alt: "Kanal Yönetiminde Room Type ve Rate Plan Mimarisini Doğru Kurmak",
+      caption: "Kanal Yönetiminde Room Type ve Rate Plan Mimarisini Doğru Kurmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-2.webp",
+      alt: "RoomType ve RatePlan ilişkisini mapping mantığıyla açıklayan otel bağlamlı context görseli",
+      caption: "RoomType ve RatePlan ilişkisini mapping mantığıyla açıklayan otel bağlamlı context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-3.webp",
+      alt: "Oda tipi hiyerarşisine geçişi destekleyen sade bölüm ayırıcı görsel",
+      caption: "Oda tipi hiyerarşisine geçişi destekleyen sade bölüm ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-4.webp",
+      alt: "Rate plan hiyerarşisi ve derived rate mantığını ayıran bölüm görseli",
+      caption: "Rate plan hiyerarşisi ve derived rate mantığını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-5.webp",
+      alt: "RoomType’den OTA rate’e uzanan mapping akışını gösteren otel diyagramı",
+      caption: "RoomType’den OTA rate’e uzanan mapping akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-6.webp",
+      alt: "Room rate mimarisini denetlemek için 10 soruluk checklist kartı",
+      caption: "Room rate mimarisini denetlemek için 10 soruluk checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-7.webp",
+      alt: "Grid kullanım süresi ve mapping hata oranını özetleyen KPI skor kartı",
+      caption: "Grid kullanım süresi ve mapping hata oranını özetleyen KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA3-5/Pms3-5-8.webp",
+      alt: "Sade mimariyle kampanya kurulum hızını ve kontrolü gösteren proof kartı",
+      caption: "Sade mimariyle kampanya kurulum hızını ve kontrolü gösteren proof kartı"
+    }
+  },
+
+
+   "call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-1.webp",
+      alt: "Call Center, Web ve OTA: Çok Kanallı Rezervasyon Dönüşümünü Raporlamak",
+      caption: "Call Center, Web ve OTA: Çok Kanallı Rezervasyon Dönüşümünü Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-2.webp",
+      alt: "Üç kanalın üç farklı dönüşüm zincirini otel örneğiyle açıklayan görsel",
+      caption: "Üç kanalın üç farklı dönüşüm zincirini otel örneğiyle açıklayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-3.webp",
+      alt: "Kanal bazlı KPI tanımına geçişi ayıran otel görseli",
+      caption: "Kanal bazlı KPI tanımına geçişi ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-4.webp",
+      alt: "Senaryo bazlı rapor okuma bölümünü ayıran otel görseli",
+      caption: "Senaryo bazlı rapor okuma bölümünü ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-5.webp",
+      alt: " Call center web OTA funnel’larını tek çerçevede birleştiren otel diyagramı",
+      caption: " Call center web OTA funnel’larını tek çerçevede birleştiren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-6.webp",
+      alt: "Kanal KPI sözlüğü ve yorum hatalarını önleyen otel checklist kartı",
+      caption: "Kanal KPI sözlüğü ve yorum hatalarını önleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-7.webp",
+      alt: "Kanal bazlı dönüşüm oranı komisyon ve net gelir KPI kartlarını özetleyen görsel",
+      caption: "Kanal bazlı dönüşüm oranı komisyon ve net gelir KPI kartlarını özetleyen görsel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting3-5/Reporting3-5-8.webp",
+      alt: "Çok kanallı rezervasyon raporu dashboard çıktılarını gösteren otel kanıt kartı",
+      caption: "Çok kanallı rezervasyon raporu dashboard çıktılarını gösteren otel kanıt kartı"
+    }
+  },
+
+
+  "otel-remarketing-stratejileri-web-ota-call-center":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-1.webp",
+      alt: "Web, OTA ve Call Center Verisiyle Oteller İçin Remarketing Stratejileri",
+      caption: "Web, OTA ve Call Center Verisiyle Oteller İçin Remarketing Stratejileri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-2.webp",
+      alt: "Segment ihtiyaç kreatif teklif eşleşmesini otel remarketing’te anlatan görsel",
+      caption: "Segment ihtiyaç kreatif teklif eşleşmesini otel remarketing’te anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-3.webp",
+      alt: "Web davranışına göre remarketing segmentlerini ayıran bölüm görseli",
+      caption: "Web davranışına göre remarketing segmentlerini ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-4.webp",
+      alt: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli”",
+      caption: "Call center lead geri kazanımını otel bağlamında vurgulayan bölüm görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-5.webp",
+      alt: "Otel remarketing segmentlerini pencerelerle gösteren segmentasyon diyagramı",
+      caption: "Otel remarketing segmentlerini pencerelerle gösteren segmentasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-6.webp",
+      alt: "Segment bazlı kreatif ve teklif eşleştirmesini özetleyen checklist kartı",
+      caption: "Segment bazlı kreatif ve teklif eşleştirmesini özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-7.webp",
+      alt: "Web OTA call center remarketing performansını özetleyen KPI skor kartı",
+      caption: "Web OTA call center remarketing performansını özetleyen KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-5/Hotel3-5-8.webp",
+      alt: "Otel remarketing segment setleri ve çıktıları gösteren deliverables kartı",
+      caption: "Otel remarketing segment setleri ve çıktıları gösteren deliverables kartı"
     }
   },
 

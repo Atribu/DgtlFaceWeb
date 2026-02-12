@@ -6129,6 +6129,187 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/#logo",
+        "url": "https://dgtlface.com/favicon.ico"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama",
+      "name": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR",
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#webpage"
+      },
+      "headline": "Reels Performans Analizi ve Optimizasyon: İzlenme, Kaydetme ve Tıklama",
+      "description": "Reels’i izlenmeyle ölçmeyin: retention, kaydetme/paylaşma ve tıklama metriklerini birlikte okuyun. KPI’ları türe göre seçin, A/B testle sürekli optimize edin.",
+      "author": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "datePublished": "2026-01-06",
+      "dateModified": "2026-01-06",
+      "inLanguage": "tr-TR",
+      "keywords": [
+        "reels performans analizi",
+        "reels retention nedir",
+        "reels kaydetme paylaşma arttırma",
+        "reels analytics",
+        "retention",
+        "saves & shares",
+        "click-through",
+        "a/b testing"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/reels-video#service",
+      "name": "Reels & Video İçerik Üretimi",
+      "serviceType": "Short-Form Video Strategy & Production",
+      "url": "https://dgtlface.com/tr/smm/reels-video",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reels & Video İçerik Üretimi",
+          "item": "https://dgtlface.com/tr/smm/reels-video"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Reels Performans Analizi ve Optimizasyon",
+          "item": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Reels performansı hangi metriklere göre ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görüntüleme tek başına yeterli değildir. İzlenme süresi ve retention (akış), kaydetme/paylaşma (değer) ve tıklama/DM (aksiyon) birlikte okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İzlenme süresi ve retention neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzlenme süresi videonun akıcılığını, retention ise izleyicinin nerede düştüğünü gösterir. İlk 3 saniyede düşüş hook, finalde düşüş tempo/CTA sorunu olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaydetme/paylaşma oranını nasıl artırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mini rehber, checklist, net örnekler ve sade metin/altyazı ile referans değeri üretin. Kaydetme CTA’sı ve içerik serileştirme de etki eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reels için A/B testlerini nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek değişken kuralı ile ilerleyin: sadece hook veya sadece süre veya sadece CTA değişsin. Baş KPI’yı seçin ve aynı dönemde sonuçları kıyaslayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#howto",
+      "name": "Reels Performansı Nasıl Analiz Edilir ve Optimize Edilir?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Metrikleri doğru kümelerle oku",
+          "text": "Retention ve izlenme süresiyle akışı, kaydetme/paylaşmayla değeri, tıklama/DM ile aksiyonu birlikte değerlendir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Teşhis ve hipotez oluştur",
+          "text": "Düşüş noktalarını belirle; hook, süre, CTA veya tema için tek bir hipotez yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "A/B testle iyileştir ve standarda çevir",
+          "text": "Tek değişkenle test yap; kazanan varyasyonu seri standardı yapıp 4 haftalık iterasyon döngüsü kur."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
 
     },
@@ -7807,6 +7988,131 @@ export const BLOG_JSONLD_MAP = {
       "@type": "WebPageElement",
       "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#speakable",
       "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma/#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    }
+  ]
+},
+
+"olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif",
+      "name": "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#article",
+      "headline": "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif",
+      "description": "Veri ihlali anında improvize etmeyin. Tespit–izolasyon–analiz–bildirim adımlarını rol ve checklist ile dokümante edin; otel ve B2B ekipleri için kriz planı kurun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#webpage" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Incident Response",
+        "Data Breach Handling",
+        "Detection/Isolation/Analysis/Notification"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti/#service",
+      "name": "KVKK Uyum Hizmeti",
+      "serviceType": "KVKK uyumlu incident response planı ve olay yönetimi danışmanlığı",
+      "url": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#howto",
+      "name": "KVKK için incident response planı nasıl hazırlanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rolleri ve iletişim zincirini belirle",
+          "text": "Incident Commander, Tech Lead, Legal ve Comms rollerini tanımla; yedekleri ve tek iletişim kanalını belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tespit–izolasyon–analiz akışını yaz",
+          "text": "Triage (P1/P2/P3) uygula; hesap kilitle/token rotate/WAF blok gibi izolasyon adımlarını ve kanıt snapshot sürecini standardize et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kapsam ve bildirim için teknik özet paketini hazırla",
+          "text": "Timeline ve etkilenen sistem/veri türlerini çıkar; hukuk ve iletişim ekipleri için tek sayfalık teknik özet şablonu oluştur ve tatbikat planı ekle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim/" },
+        { "@type": "ListItem", "position": 3, "name": "KVKK Uyum Hizmeti", "item": "https://dgtlface.com/tr/yazilim/kvkk-uyum-hizmeti" },
+        { "@type": "ListItem", "position": 4, "name": "Olay Yönetimi ve Veri İhlali Incident Response Planı: KVKK Teknik Perspektif", "item": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Veri ihlali (data breach) nedir, KVKK’da nasıl ele alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kişisel verinin yetkisiz erişim/ifşa/kayıp gibi bir olayla güvenliğinin zedelenmesidir. Teknik ekip tespit–izolasyon–kanıt koruma–kapsam analizi adımlarını yürütür; süreç hukuk ve iletişimle koordine edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Incident response planı neleri içermelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roller, iletişim zinciri, tespit–izolasyon–analiz akışı, kanıt yönetimi, karar kriterleri ve olay sonrası iyileştirme adımlarını içermelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri ihlali tespit edildiğinde teknik ekip ne yapmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Olayı doğrulayın, triage yapın, kanıt snapshot alın ve hedefli izolasyonla yayılımı durdurun; ardından timeline ve kapsam analizine geçin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için veri ihlali akışını nasıl dokümante ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik sistem/ekranları listeler, rol tablosu ve swimlane akış çıkarırsınız. İlk 60 dakika checklist’i ve teknik özet paketi şablonunu dokümana eklersiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#speakable",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/yazilim/blog/olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif/#webpage" },
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": ["h1", ".answer-block"]
@@ -9843,6 +10149,109 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-video-asset-stratejisi-1-gun-30-icerik":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik",
+      "name": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#webpage" },
+      "headline": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "name": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret",
+      "description": "Tek çekim gününden tanıtım videosu + 30+ Reels/Story/Shorts üretin. Dikey–yatay kadraj planı, versiyonlama ve içerik arşivi (content library) adımları.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "about": [
+        "Video Asset",
+        "Long Form",
+        "Short Form",
+        "Reels",
+        "Story",
+        "Content Library",
+        "Hotel Promo"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "serviceType": "Video & Prodüksiyon",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Video & Prodüksiyon", "item": "https://dgtlface.com/tr/creative/video-produksiyon" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Video Asset Stratejisi: 1 Günde Çek, 30+ İçerik Üret", "item": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-video-asset-stratejisi-1-gun-30-icerik#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1 günde otelim için kaç video içeriği üretebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "6–8 sahne bloğunu çoklu kadrajla çekip her bloktan kısa kesitler planlarsanız, tek günde long form + 30+ kısa içerik üretmek gerçekçi olur; kritik nokta asset tablosu ve versiyon planıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tanıtım videosundan Reels ve Story nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Long form’u bloklara ayırın; her bloktan 7–15 saniyelik Reels ve 5–7 saniyelik Story parçaları üretin. Reels’te güçlü hook, Story’de tek mesaj + tek CTA kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dikey ve yatay video çekimini aynı anda nasıl planlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekimde 9:16 kırpım için güvenli alan bırakın ve ana konuyu orta bantta tutun; böylece aynı sahneden hem 16:9 web hem 9:16 sosyal versiyon çıkarabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video arşivimi nasıl düzenlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Master dosyaları ve kanal export’larını ayrı klasörlerde tutun (WEB/REELS/STORY/ADS). Naming ve etiketleme ile sahneleri kampanya dönemlerinde hızlıca bulup yeniden kullanın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -11636,6 +12045,127 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"cok-dilli-mesaj-yonetimi-tr-en-de-ru":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru",
+      "name": "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru#webpage" },
+      "headline": "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi",
+      "name": "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU Misafirlerle Yazılı İletişim Rehberi",
+      "description": "TR–EN–DE–RU misafirlere DM/WhatsApp/OTA üzerinden çok dilli yazılı destek: ton ve netlik ilkeleri, hazır şablon kütüphanesi, çeviri süreci, 4 dilli çağrı merkezi ve PMS entegrasyonu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Multilingual Support" },
+        { "@type": "Thing", "name": "TR–EN–DE–RU" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "PMS Integration" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cok Dilli Mesaj Yönetimi: TR–EN–DE–RU",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-mesaj-yonetimi-tr-en-de-ru#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cok dilli mesaj yönetimi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM/WhatsApp/OTA gibi yazılı kanallarda TR–EN–DE–RU misafirlere tutarlı, net ve hatasız yanıt vermek için şablon, kontrol ve entegrasyon süreçleri kurmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU misafirlere yazarken nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa ve net yazın, tarihi ve para birimini açık belirtin, koşullarda belirsizliği azaltın ve kapanış adımı koyun. Göndermeden önce insan kontrolü ile ton ve anlamı doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli DM ve WhatsApp mesajlarını nasıl organize ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek inbox mantığıyla kanalı ve dili etiketleyin (TR/EN/DE/RU). Mesaj tipine göre şablon seçip değişken alanları doldurun; kalite kontrol listesinden sonra gönderin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4 dilli çağrı merkezi ile mesaj yönetimi nasıl entegre olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj kanalında tarih/kişi/oda gibi minimum veri seti toplanır ve çağrı merkezine devredilir. PMS/CRM’de dil alanı ve kaynak=mesaj etiketiyle kayıt açılır; performans dil bazlı KPI’larla izlenir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -13106,6 +13636,91 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Doluluk eşiği, pickup hızı ve overbooking riski gibi 2–3 eşik tanımlayın. Bu eşikler sağlandığında stop-sale devreye girer; ne zaman geri alınacağı da önceden planlanır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kanal-yonetiminde-room-type-rate-plan-mimari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari/#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari",
+      "name": "Kanal Yönetiminde Room Type ve Rate Plan Mimarisini Doğru Kurmak",
+      "description": "PMS’te room type ve rate plan mimarisini sadeleştirip doğru mapping kurun. Grid ekranını anlaşılır hale getirin, fiyat/mapping hatalarını azaltın. Analiz alın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari/#article",
+      "headline": "Kanal Yönetiminde Room Type ve Rate Plan Mimarisini Doğru Kurmak",
+      "name": "Kanal Yönetiminde Room Type ve Rate Plan Mimarisini Doğru Kurmak",
+      "description": "PMS’te room type ve rate plan mimarisini sadeleştirip doğru mapping kurun. Grid ekranını anlaşılır hale getirin, fiyat/mapping hatalarını azaltın. Analiz alın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari/#webpage" },
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota-yonetimi" },
+        { "@type": "ListItem", "position": 3, "name": "Kanal Yönetimi (Channel Management)", "item": "https://dgtlface.com/tr/pms-ota/kanal-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Room Type & Rate Plan Mimari", "item": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/kanal-yonetiminde-room-type-rate-plan-mimari/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Room type ve rate plan nedir, aralarındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Room type oda kategorisini/ürününü, rate plan ise o ürünün fiyat ve kural setini ifade eder. Room type “ne satıyorum?”, rate plan “hangi koşulla kaçtan satıyorum?” sorusunu cevaplar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS’te oda tipi ve fiyat planı yapısı nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda tipleri sade bir ürün ağacıyla kurulmalı, rate plan’lar ise BAR + türeyen planlar (NRF/EB gibi) mantığında hiyerarşik olmalı. Böylece grid ve mapping karmaşası azalır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Channel manager’da room/rate mapping yaparken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek mapping tablosu, isim standardı, değişiklik log’u ve test rezervasyonu kritik adımlardır. Önce çekirdek kanallarda doğrulayıp sonra tüm kanallara yaymak daha güvenlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hatalı oda/fiyat mimarisi hangi sorunlara yol açar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grid’in şişmesine, mapping ve fiyat hatalarının artmasına, kampanya kurulumunun yavaşlamasına ve ekip öğrenme süresinin uzamasına yol açar; bu da gelir ve operasyon kaybı üretir."
           }
         }
       ]
@@ -15010,6 +15625,147 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Tekrar ziyaret, oda/konsept sayfasında derinleşme, fiyat arama başlatma ve remarketing verimi mid için kritiktir. Bu KPI’lar kıyaslama ve güven aşamasının ilerleyip ilerlemediğini gösterir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "sameAs": []
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service",
+      "name": "Satış ve Dönüşüm Raporları",
+      "serviceType": "Satış ve Dönüşüm Raporları",
+      "url": "https://dgtlface.com/tr/raporlama/satis-donusum",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Kemer" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak",
+      "name": "Call Center, Web ve OTA: Çok Kanallı Rezervasyon Dönüşümünü Raporlamak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#breadcrumb" },
+      "mainEntity": { "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#article" },
+      "about": [
+        { "@id": "https://dgtlface.com/tr/raporlama/satis-donusum#service" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Website" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Conversion Rate" },
+        { "@type": "Thing", "name": "Commission" },
+        { "@type": "Thing", "name": "Net Revenue" },
+        { "@type": "Thing", "name": "Channel Mix" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#article",
+      "headline": "Call Center, Web ve OTA: Çok Kanallı Rezervasyon Dönüşümünü Raporlamak",
+      "description": "Call center, web ve OTA kanallarını tek toplam altında değil; ayrı dönüşüm oranı, komisyon ve net gelir KPI’larıyla raporlayarak kanal bazlı kârlılığa odaklanın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#webpage"
+      },
+      "author": { "@id": "https://dgtlface.com/#organization" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Veri Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış ve Dönüşüm Raporları",
+          "item": "https://dgtlface.com/tr/raporlama/satis-donusum"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Call Center, Web ve OTA: Çok Kanallı Rezervasyon Dönüşümünü Raporlamak",
+          "item": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Call center, web ve OTA rezervasyonlarını nasıl ayrı ayrı raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her kanalın dönüşüm zinciri farklıdır; call center’da arama→teklif→rezervasyon, web’de ziyaret→motor→rezervasyon, OTA’da rezervasyon→komisyon→net katkı adımlarını ölçün ve KPI’ları bu adımlara göre tanımlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA komisyonlarını kanal bazlı dönüşüm raporlarına nasıl eklerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA gelirini brüt olarak değil, komisyonu maliyet katmanı olarak raporlayın. Brüt gelir, komisyon ve net katkı alanlarını aynı kartta göstererek kanal kıyasını netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanalda dönüşüm oranım ve kârlılığım daha yüksek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En kârlı kanal, en çok rezervasyon getiren değil; komisyon ve iptal etkisi sonrası net gelir katkısı en yüksek olandır. Kanal bazlı dönüşüm oranını net gelir lensiyle birlikte kıyaslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok kanallı rezervasyon raporlarını yönetim için nasıl sadeleştirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporu 1 sayfaya indirin: kanal bazlı rezervasyon adedi, dönüşüm oranı, OTA komisyon yükü ve kanal bazlı net katkı. Sonuna haftalık channel mix aksiyon kutusu ekleyin."
           }
         }
       ]
@@ -16990,6 +17746,136 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Pixel + Conversion API ile event’leri toplamak ve dönüşümleri GA4/Looker Studio ile çapraz kontrol etmek gerekir. ROAS/CPA ve rezervasyon başı maliyet alt katmanda izlenir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-remarketing-stratejileri-web-ota-call-center":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center",
+      "name": "Web, OTA ve Call Center Verisiyle Oteller İçin Remarketing Stratejileri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Remarketing",
+        "Web Visitors",
+        "OTA Viewers",
+        "Call Center Leads",
+        "Reservation Funnel",
+        "Offer",
+        "Funnel Stage"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center",
+      "headline": "Web, OTA ve Call Center Verisiyle Oteller İçin Remarketing Stratejileri",
+      "description": "Web, OTA ve call center verilerini birleştirerek rezervasyon terk, oda/tarih ilgisi ve kapanmayan lead segmentlerini farklı mesaj ve teklifler ile yeniden hedefleyin. KVKK uyumlu ölçümle dönüşümü artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel remarketing stratejileri",
+        "rezervasyon sayfasini terk edenleri geri kazanma",
+        "web ota call center veri ile yeniden hedefleme",
+        "hotel remarketing strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#howto",
+      "name": "Oteller için remarketing segmentasyonu kurulum adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Segmentleri tanımla", "text": "Web davranışı, OTA sinyali ve call center lead’lerini ayrı segmentlere ayır." },
+        { "@type": "HowToStep", "name": "Mesaj ve teklifi eşleştir", "text": "Her segment için farklı kreatif ve teklif kurgusu belirle (risk azaltma/avantaj/hatırlatma)." },
+        { "@type": "HowToStep", "name": "Pencereleri ayarla", "text": "7/14/30 gün pencerelerini niyet seviyesine göre tanımla." },
+        { "@type": "HowToStep", "name": "Ölçüm ve uyumu doğrula", "text": "Tag/pixel yapılandırmasını kontrol et, OTA ve call center verisini KVKK uyumlu yönet." },
+        { "@type": "HowToStep", "name": "Haftalık optimize et", "text": "Segment bazlı CVR/CPA ile kreatif ve teklif testleri yap." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Web, OTA ve Call Center Verisiyle Oteller İçin Remarketing Stratejileri", "item": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-remarketing-stratejileri-web-ota-call-center",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel remarketing stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web, OTA ve call center sinyalleriyle segmentler oluşturup her segmente farklı kreatif ve teklif kurgulamalısınız. Rezervasyon terk ve sıcak lead segmentleri öncelik olmalı, pencereler niyete göre yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon sayfasını terk eden misafirleri tekrar nasıl hedeflerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon terk segmentini ayrı listeleyin (7–14 gün), risk azaltma ve direkt avantaj mesajı kullanın ve tek CTA ile rezervasyonu tamamlatın. WhatsApp/geri arama alternatifi de sunabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA’dan otelime bakan kullanıcıları remarketing ile yakalayabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğrudan kullanıcı verisi her zaman mümkün değildir; fakat OTA kaynaklı trafiği web tarafında ayrı izleyip bu içgörülerle segment ve mesajı optimize edebilirsiniz. Uygulama gizlilik kurallarına uygun olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call center verisini remarketing’de nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapanmayan lead’leri KVKK uyumlu şekilde ayrı segmentleyip kısa pencerede hatırlatma ve hızlı çözüm mesajıyla yeniden temas kurabilirsiniz. WhatsApp/geri arama akışı bu segmentte etkilidir."
           }
         }
       ]
