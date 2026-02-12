@@ -17,7 +17,9 @@ export const BLOG_MAP = {
     "google-display-network-otel-remarketing-stratejisi":"BlogGoogleDisplayNetworkOtelRemarketingStratejisi",
     "dinamik-remarketing-otel-fiyat-ve-oda-dinamikleri":"BlogDinamikRemarketingOtelFiyatVeOdaDinamikleri",
     "ota-trafigini-remarketing-ile-geri-kazanmak":"BlogOtaTrafiginiRemarketingIleGeriKazanmak",
-    "otel-rezervasyon-terki-sepet-terk-remarketing-funneli":"BlogOtelRezervasyonTerkiSepetTerkRemarketingFunneli"
+    "otel-rezervasyon-terki-sepet-terk-remarketing-funneli":"BlogOtelRezervasyonTerkiSepetTerkRemarketingFunneli",
+
+    "ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber":"BlogGA4VeTagManagerIleOtelDonusumTakibiTemelRehber"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -36,7 +38,9 @@ export const BLOG_MAP = {
     "search-intent-analizi-ve-icerik-haritalama":"BlogSearchIntentAnaliziVeIcerikHaritalama",
     "topic-cluster-ve-content-hub-mimarisi":"BlogTopicClusterVeContentHubMimarisi",
     "eski-icerikleri-guncelleme-ve-consolidation-stratejisi":"BlogEskiIcerikleriGuncellemeVeConsolidationStratejisi",
-    "icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi": "BlogIcerikIcerisindeInternalLinkStratejisiOtoriteDagilimi"
+    "icerik-icerisinde-internal-link-stratejisi-otorite-dagilimi": "BlogIcerikIcerisindeInternalLinkStratejisiOtoriteDagilimi",
+
+    "backlink-nedir-neden-onemlidir-temel-rehber":"BlogBacklinkNedirNedenOnemlidirTemelRehber"
   },
 
     smm: {
@@ -56,7 +60,9 @@ export const BLOG_MAP = {
     "reels-storyboard-ve-montaj-tempo-rehberi":"BlogReelsStoryboardVeMontajTempoRehberi",
     "reels-ses-ve-muzik-stratejisi-trend-sesler-lisans-ve-marka-tonu":"BlogReelsSesVeMuzikStratejisiTrendSeslerLisansVeMarkaTonu",
     "reels-icin-cekim-teknigi-telefon-ile-pro-seviye-sonuclar":"BlogReelsIcinCekimTeknigiTelefonIleProSeviyeSonuclar",
-    "reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama":"BlogReelsPerformansAnaliziVeOptimizasyonIzlenmeKaydetmeVeTiklama"
+    "reels-performans-analizi-ve-optimizasyon-izlenme-kaydetme-ve-tiklama":"BlogReelsPerformansAnaliziVeOptimizasyonIzlenmeKaydetmeVeTiklama",
+
+    "sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri":"BlogSosyalMedyaReklamStratejisiFunnelVeKampanyaTurleri"
   },
 
     yazilim: {
@@ -76,9 +82,12 @@ export const BLOG_MAP = {
     "veri-haritasi-ve-data-flow-mapping-kvkk-icin-dijital-sistem-envanteri":"BlogVeriHaritasiVeDataFlowMappingKvkkIcinDijitalSistemEnvanteri",
     "erisim-kontrolu-ve-loglama-kvkk-teknik-tedbirleri-icin-panel-ve-sunucu-mimarisi":"BlogErisimKontroluVeLoglamaKvkkTeknikTedbirleriPanelSunucuMimarisi",
     "veri-minimizasyonu-ve-retention-politikalari-dijital-sistemlerde-veri-azaltma":"BlogVeriMinimizasyonuVeRetentionPolitikalariDijitalSistemlerdeVeriAzaltma",
-    "olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif":"BlogYazilim5OlayYonetimiVeVeriIhlaliIncidentResponsePlaniKvkkTeknikPerspektif"
+    "olay-yonetimi-ve-veri-ihlali-incident-response-plani-kvkk-teknik-perspektif":"BlogYazilim5OlayYonetimiVeVeriIhlaliIncidentResponsePlaniKvkkTeknikPerspektif",
+
+    "web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber":"BlogWebSunucuGuvenlikChecklistiLinuxWindowsIcinTemelRehber"
   },
-         creative: {
+   
+  creative: {
     "marka-sosyal-medya-gorsel-dili-rehberi": "BlogMarkaSosyalMedyaGorselDiliRehberi",
     "oteller-icin-sosyal-medya-post-tasarim-rehberi":"BlogOtellerIcinSosyalMedyaPostTasarimRehberi",
     "motion-graphic-ile-hikaye-anlatimi-sosyal-medya-ve-web-icin":"BlogMotionGraphicIleHikayeAnlatimiSosyalMedyaVeWebIcin",
@@ -95,7 +104,9 @@ export const BLOG_MAP = {
     "otel-drone-cekimi-rehberi":"BlogOtelDroneCekimiRehberi",
     "360-otel-sanal-tur-cekim-ve-ux":"Blog360OtelSanalTurCekimVeUx",
     "otel-tanitim-videosu-senaryo-storyboard":"BlogOtelTanitimVideosuSenaryoStoryboard",
-    "otel-video-asset-stratejisi-1-gun-30-icerik":"BlogCreative5OtelVideoAssetStratejisi1Gun30Icerik"
+    "otel-video-asset-stratejisi-1-gun-30-icerik":"BlogCreative5OtelVideoAssetStratejisi1Gun30Icerik",
+
+    "otel-konser-etkinlik-produsksiyon-rehberi":"BlogOtelKonserEtkinlikProdusksiyonRehberi"
   },
 
        "cagri-merkezi": {

@@ -7099,6 +7099,268 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+   "ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber":{
+     banner: {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-1.webp",
+      alt: "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber",
+      caption: "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-2.webp",
+      alt: "Otel web sitesinde event ve conversion akışını sade anlatan bağlam görseli",
+      caption: "Otel web sitesinde event ve conversion akışını sade anlatan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-3.webp",
+      alt: "GA4 GTM Google Ads veri hattını otel dönüşümleri için ayıran bölüm görseli",
+      caption: "GA4 GTM Google Ads veri hattını otel dönüşümleri için ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-4.webp",
+      alt: "GTM tag trigger mantığını otel aksiyonlarına bağlayan bölüm ayırıcı görsel",
+      caption: "GTM tag trigger mantığını otel aksiyonlarına bağlayan bölüm ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-5.webp",
+      alt: "Rezervasyon yolculuğunda GA4 GTM Ads entegrasyon akışını otel bağlamında gösteren diyagram",
+      caption: "Rezervasyon yolculuğunda GA4 GTM Ads entegrasyon akışını otel bağlamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-6.webp",
+      alt: "Otel için temel event setini hızlı kontrol amaçlı özetleyen checklist kartı",
+      caption: "Otel için temel event setini hızlı kontrol amaçlı özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-7.webp",
+      alt: "Rezervasyon form telefon WhatsApp KPI’larını otel pazarlaması için panel gibi gösteren kart",
+      caption: "Rezervasyon form telefon WhatsApp KPI’larını otel pazarlaması için panel gibi gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-1/SEM4-1-8.webp",
+      alt: "Dönüşüm kurulum çıktıları ve güven unsurlarını otel ölçüm projesi bağlamında özetleyen kart",
+      caption: "Dönüşüm kurulum çıktıları ve güven unsurlarını otel ölçüm projesi bağlamında özetleyen kart"
+    }
+  },
+
+
+  "backlink-nedir-neden-onemlidir-temel-rehber":{
+     banner: {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-1.webp",
+      alt: "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber",
+      caption: "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-2.webp",
+      alt: "Backlink tanımı ve iyi-kötü ayrımı, otel ve B2B örnekli görsel",
+      caption: "Backlink tanımı ve iyi-kötü ayrımı, otel ve B2B örnekli görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-3.webp",
+      alt: "Google backlink okuma mantığı, otel ve B2B SEO görsel ayracı",
+      caption: "Google backlink okuma mantığı, otel ve B2B SEO görsel ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-4.webp",
+      alt: "Otel backlink stratejisi akışı, destinasyon ve konsept otoritesi görseli",
+      caption: "Otel backlink stratejisi akışı, destinasyon ve konsept otoritesi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-5.webp",
+      alt: "İyi-kötü backlink karar akışı, otel ve B2B risk radar diyagramı",
+      caption: "İyi-kötü backlink karar akışı, otel ve B2B risk radar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-6.webp",
+      alt: "Backlink başlangıç checklist kartı, otel ve B2B ekip uygulaması",
+      caption: "Backlink başlangıç checklist kartı, otel ve B2B ekip uygulaması"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-7.webp",
+      alt: "Backlink kalite KPI kartı, otel ve B2B görünürlük takibi",
+      caption: "Backlink kalite KPI kartı, otel ve B2B görünürlük takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-1/SEO4-1-8.webp",
+      alt: "Backlink çıktıları kanıt kartı, otel ve B2B otorite deliverables",
+      caption: "Backlink çıktıları kanıt kartı, otel ve B2B otorite deliverables"
+    }
+  },
+
+   "sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri":{
+     banner: {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-1.webp",
+      alt: "Sosyal Medya Reklam Stratejisi: Funnel ve Kampanya Türleri",
+      caption: "Sosyal Medya Reklam Stratejisi: Funnel ve Kampanya Türleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-2.webp",
+      alt: "Funnel aşamalarıyla kampanya türleri eşleşmesini anlatan bağlam görsel",
+      caption: "Funnel aşamalarıyla kampanya türleri eşleşmesini anlatan bağlam görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-3.webp",
+      alt: "Awareness’ten conversion’a geçişi ayıran sosyal medya reklam bölüm görseli",
+      caption: "Awareness’ten conversion’a geçişi ayıran sosyal medya reklam bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-4.webp",
+      alt: "Kampanya türleri bölümüne geçiş için görsel ayraç kartı",
+      caption: "Kampanya türleri bölümüne geçiş için görsel ayraç kartı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-5.webp",
+      alt: "Funnel akışı, kampanya hedefleri ve remarketing döngüsü diyagramı",
+      caption: "Funnel akışı, kampanya hedefleri ve remarketing döngüsü diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-6.webp",
+      alt: "Funnel-first kampanya seti planlama checklist’i, otel pazarlama bağlamı",
+      caption: "Funnel-first kampanya seti planlama checklist’i, otel pazarlama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-7.webp",
+      alt: "Awareness–conversion KPI paneli, bütçe ve performans takibi kartı",
+      caption: "Awareness–conversion KPI paneli, bütçe ve performans takibi kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-1/SMM4-1-8.webp",
+      alt: "Otel ve B2B örnek kampanya seti deliverables ve güven unsurları kartı",
+      caption: "Otel ve B2B örnek kampanya seti deliverables ve güven unsurları kartı"
+    }
+  },
+
+
+
+  "web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber":{
+     banner: {
+      src: "/images/blog/software/Software4-1/Software4-1-1.webp",
+      alt: "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber",
+      caption: "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software4-1/Software4-1-2.webp",
+      alt: "Linux ve Windows sunucu güvenliği için başlangıç checklist’i, otel ve B2B altyapısı",
+      caption: "Linux ve Windows sunucu güvenliği için başlangıç checklist’i, otel ve B2B altyapısı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-1/Software4-1-3.webp",
+      alt: "Sunucu güvenliği giriş bölümü ayırıcı görseli, otel web altyapısı güvenlik katmanları",
+      caption: "Sunucu güvenliği giriş bölümü ayırıcı görseli, otel web altyapısı güvenlik katmanları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-1/Software4-1-4.webp",
+      alt: "Firewall ve WAF katmanı bölüm ayırıcı, otel ve B2B web sunucusu koruma katmanı",
+      caption: "Firewall ve WAF katmanı bölüm ayırıcı, otel ve B2B web sunucusu koruma katmanı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-1/Software4-1-5.webp",
+      alt: "OS–erişim–firewall–yedekleme akış diyagramı, otel web sunucusu güvenlik süreci",
+      caption: "OS–erişim–firewall–yedekleme akış diyagramı, otel web sunucusu güvenlik süreci"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-1/Software4-1-6.webp",
+      alt: "SSH/RDP erişim kontrol checklist kartı, otel ve B2B web sunucuları için pratik çerçeve",
+      caption: "SSH/RDP erişim kontrol checklist kartı, otel ve B2B web sunucuları için pratik çerçeve"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-1/Software4-1-7.webp",
+      alt: "Uptime, patch süresi ve brute-force KPI paneli, otel web altyapısı güvenlik göstergeler",
+      caption: "Uptime, patch süresi ve brute-force KPI paneli, otel web altyapısı güvenlik göstergeler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-1/Software4-1-8.webp",
+      alt: "Sunucu güvenlik deliverable seti kartı, otel ve B2B siteleri için kontrol ve raporlama çıktıları",
+      caption: "Sunucu güvenlik deliverable seti kartı, otel ve B2B siteleri için kontrol ve raporlama çıktıları"
+    }
+  },
+
+
+  "otel-konser-etkinlik-produsksiyon-rehberi":{
+     banner: {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-1.webp",
+      alt: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+      caption: "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-2.webp",
+      alt: "Konser alanı bağlamında sahne, ses ve kamera planını gösteren context görseli",
+      caption: "Konser alanı bağlamında sahne, ses ve kamera planını gösteren context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-3.webp",
+      alt: "Otel konser prodüksiyonu adımlarını ayıran bölüm geçiş görsel",
+      caption: "Otel konser prodüksiyonu adımlarını ayıran bölüm geçiş görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-4.webp",
+      alt: "Sahne ses ışık planlaması için otel etkinlik bölüm geçiş görseli",
+      caption: "Sahne ses ışık planlaması için otel etkinlik bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-5.webp",
+      alt: "Brieften çekime ve highlight videoya otel konser prodüksiyon akış diyagramı",
+      caption: "Brieften çekime ve highlight videoya otel konser prodüksiyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-6.webp",
+      alt: "Konser günü hızlı kontrol listesi ve otel operasyon uyumu kartı",
+      caption: "Konser günü hızlı kontrol listesi ve otel operasyon uyumu kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-7.webp",
+      alt: "Etkinlik memnuniyeti ve içerik performansı için otel KPI paneli kart",
+      caption: "Etkinlik memnuniyeti ve içerik performansı için otel KPI paneli kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-8.webp",
+      alt: "Highlight video reels foto ve referans video teslimat paketi otel bağlam",
+      caption: "Highlight video reels foto ve referans video teslimat paketi otel bağlam"
+    },
+
+              "diagram-09": {
+      src: "/images/blog/creative/Creative4-1/Creative4-1-9.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
+
 
 };
 

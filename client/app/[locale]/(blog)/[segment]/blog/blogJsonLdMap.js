@@ -2006,6 +2006,167 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber",
+      "name": "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber",
+      "description": "GA4 ve Google Tag Manager ile otel sitenizde rezervasyon, form, telefon ve WhatsApp dönüşümlerini doğru ölçün. Ads optimizasyonu için temel kurulum adımlarını uygulayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#article",
+      "headline": "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber",
+      "name": "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber",
+      "description": "GA4, Google Tag Manager ve Google Ads ile otel sitenizde rezervasyon ve lead dönüşümlerini event/conversion olarak takip ederek optimizasyon kararlarını güvenilir veriye bağlayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GA4",
+        "Google Tag Manager",
+        "Google Ads",
+        "Conversions",
+        "Hotel Booking Events"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dönüşüm Takibi & Tag Manager",
+          "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "GA4 ve Tag Manager ile Otellerde Dönüşüm Takibi: Temel Rehber",
+          "item": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dönüşüm takibi nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm takibi; otel sitenizde rezervasyon ve lead gibi iş değeri olan aksiyonların ölçülmesi ve hangi kanal/kampanyanın bunları ürettiğinin raporlanmasıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Event ve conversion arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Event kullanıcı davranışını ölçer; conversion ise iş değeri yüksek sonucu temsil eder. Otellerde 1–3 ana hedefi conversion seçmek optimizasyonu daha sağlıklı yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads’e dönüşüm nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4’te conversion olarak işaretlediğiniz event’leri Google Ads’e import ederek aktarabilirsiniz. Import sonrası dönüşümlerin tutarlı geldiğini test etmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon motoru farklı domain ise takip bozulur mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bozulabilir; kullanıcı yolculuğu parçalanır ve kaynak/medium yanlış görünebilir. Cross-domain ve referral yönetimiyle bu risk azaltılır; gerekirse entegrasyon yapılır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber#howto",
+      "name": "GA4 ve GTM ile Otel Dönüşüm Takibi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hedefleri ve conversion setini belirleyin",
+          "text": "Rezervasyon tamamlanması ve varsa form gibi 1–3 ana hedefi seçin; telefon/WhatsApp’ı event olarak planlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GA4 temel ayarlarını doğrulayın",
+          "text": "Data stream, currency ve gerekli ölçüm ayarlarını kontrol edin; rezervasyon motoru domain senaryosunu not edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GTM ile event’leri kurun",
+          "text": "Telefon/WhatsApp click ve form submit event’lerini tetikleyin; gerekiyorsa custom event/dataLayer kullanın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test ve doğrulama yapın",
+          "text": "GTM Preview, GA4 DebugView ve gerçek zamanlı raporlarla event/conversion tutarlılığını doğrulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Google Ads’e dönüşüm aktarın",
+          "text": "GA4 conversion’ları Ads’e import edin; 1–2 hafta tutarlılık kontrolüyle optimizasyona geçin."
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -3967,6 +4128,147 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Hub’dan cluster’lara planlı link verin, cluster’lardan hub’a geri link koyun ve SSS sorularını ilgili sayfalara bağlayın; amaç mantıklı kullanıcı yolculuğudur."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"backlink-nedir-neden-onemlidir-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Backlink",
+        "Off-Page SEO",
+        "Hotel SEO",
+        "B2B SEO"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber#article",
+      "url": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber",
+      "headline": "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber",
+      "name": "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber",
+      "description": "Backlink nedir, SEO’da neden kritiktir? Otel ve B2B markalar için kaliteli backlink kriterleri, iyi–kötü örnekler, riskli taktikler ve güvenli strateji adımları.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        "Backlink",
+        "Domain Authority",
+        "Off-Page SEO",
+        "Hotel SEO",
+        "B2B SEO",
+        "link authority",
+        "trust signals",
+        "off-page ranking factors"
+      ],
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "#answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#service",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "serviceType": "SEO / Backlink Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO",
+          "item": "https://dgtlface.com/tr/seo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Backlink & Dijital Otorite Yönetimi",
+          "item": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Backlink Nedir, Neden Önemlidir? Oteller ve B2B Markalar İçin Temel Rehber",
+          "item": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-nedir-neden-onemlidir-temel-rehber#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Backlink nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Backlink, başka bir web sitesinin sizin sayfanıza verdiği bağlantıdır. SEO’da otorite ve güven sinyali olarak yorumlanabilir; özellikle alakalı ve doğal olduğunda fayda sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Backlink SEO için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Backlink, Off-Page SEO içinde referans gibi çalışır ve rekabetli sorgularda görünürlüğü destekleyebilir. Ancak kalite ve bağlam zayıfsa etki düşer, risk artar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İyi backlink ne demek, kötü backlink ne demek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İyi backlink ilgili ve güvenilir bir kaynaktan doğal bağlamda gelen linktir. Kötü backlink ise alakasız, spam, satın alınmış veya manipülatif desen taşıyan linktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için backlink stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destinasyon ve konsept otoritesini destekleyen kaynaklara odaklanın (ör. Antalya/Belek/Side gibi bölge rehberleri). PR/iş birliği ve linklenebilir içerik varlıkları ile sürdürülebilir büyüme kurun."
           }
         }
       ]
@@ -6310,6 +6612,175 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+      "name": "Sosyal Medya Reklamları",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#service",
+      "name": "Sosyal Medya Reklamları",
+      "serviceType": "Social Media Advertising",
+      "areaServed": "TR",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri#article",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri",
+      "headline": "Sosyal Medya Reklam Stratejisi: Funnel ve Kampanya Türleri",
+      "name": "Sosyal Medya Reklam Stratejisi: Funnel ve Kampanya Türleri",
+      "description": "Sosyal medya reklam stratejisi nasıl kurulur? Funnel bazlı Meta kampanya türleri, KPI matrisi, otel ve lead odaklı B2B için örnek set + UTM/GA4 ölçüm notları.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Social Media Ads",
+        "Funnel Strategy",
+        "Meta Campaign Types",
+        "Awareness",
+        "Consideration",
+        "Conversion",
+        "Remarketing"
+      ],
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Reklamları",
+          "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sosyal Medya Reklam Stratejisi: Funnel ve Kampanya Türleri",
+          "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri#faq",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya reklam stratejisi nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel katmanlarını (awareness–consideration–conversion–loyalty) ayrı hedef ve KPI’larla planlayarak kurulur. Her katmana uygun kampanya türü, kreatif ve kitle seçilir; ölçüm UTM + GA4 ile standardize edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funnel bazlı Meta Ads kampanyası nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce video/reach ile havuz oluşturulur, sonra trafik/engagement ile ilgi derinleştirilir, ardından lead/rezervasyon kampanyalarıyla dönüşüm alınır. Segmentli remarketing ile kapatma güçlendirilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Awareness, consideration ve conversion kampanyaları ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Awareness tanışma ve havuz oluşturur; consideration kullanıcıyı karar sayfalarına taşır ve ikna eder; conversion ise lead/rezervasyon gibi aksiyonları toplar. KPI beklentisi her aşamada farklıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için sosyal medya reklam funnel’i nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mantık aynı, dönüşüm tanımı farklıdır. Otelde rezervasyon/WhatsApp/telefon; B2B’de qualified lead ve görüşme randevusu öne çıkar. Remarketing segmentasyonu performansı belirgin artırır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri#howto",
+      "name": "Funnel Bazlı Sosyal Medya Reklam Stratejisi Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Funnel’ı 4 katmana ayır",
+          "text": "Awareness–consideration–conversion–loyalty katmanlarını çiz ve her katmanın amacını netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kampanya türlerini katmanlara yerleştir",
+          "text": "Awareness’te video/reach, consideration’da trafik/engagement, conversion’da lead/rezervasyon, loyalty’de CRM hedeflerini kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ve ölçümü standardize et",
+          "text": "Her katman için tek ana KPI seç; UTM isimlendirme ve GA4 event’lerini funnel katmanlarıyla eşle."
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -8117,6 +8588,177 @@ export const BLOG_JSONLD_MAP = {
         "@type": "SpeakableSpecification",
         "cssSelector": ["h1", ".answer-block"]
       }
+    }
+  ]
+},
+
+//
+
+"web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu ve Güvenlik",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber",
+      "headline": "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber",
+      "name": "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber",
+      "description": "Linux/Windows web sunucusu için temel güvenlik checklist’i: patch yönetimi, SSH/RDP erişimi, port/servis temizliği, WAF/Fail2Ban, yedekleme ve izleme adımları.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Web Server Security",
+        "OS Hardening",
+        "SSH/RDP",
+        "Firewall & WAF",
+        "Backup & Monitoring"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber#article"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+      "name": "Sunucu ve Güvenlik",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "serviceType": "Web Sunucu Güvenliği ve Hardening",
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yazılım",
+          "item": "https://dgtlface.com/tr/yazilim"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sunucu ve Güvenlik",
+          "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Web Sunucu Güvenlik Checklist’i: Linux ve Windows İçin Temel Rehber",
+          "item": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Web sunucu güvenlik checklist’i nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Checklist katmanlı olmalı: OS/patch, erişim (SSH/RDP), firewall/port/servis, yedekleme-izleme. Ayrıca periyodik çalışmalı ve her maddede kanıt/ref alanı bulunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Linux/Windows web sunucusunda hangi port ve servisleri kapatmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İş değeri üretmeyen ve zorunlu olmayan servisleri kapatın. Public tarafta genellikle yalnız 80/443 kalmalı; yönetim erişimini VPN/jump host/allowlist üzerinden yürütün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Root/admin erişimini nasıl sınırlandırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shared admin kullanımını bitirin; kişi bazlı hesap + rol bazlı yetki kurun. Admin yetkisini gerektiğinde yükseltin, erişimi daraltın ve loglayın (MFA, allowlist, VPN)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B siteleri için temel sunucu güvenlik adımları neler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce patch yönetimi, sonra erişim kontrolü, ardından port/servis azaltma ve WAF/Fail2Ban katmanı gelir. Son aşamada yedek geri dönüş testi ve izleme/alert ile süreklilik tamamlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yedekleme yapıyorum, yine de neden restore testi şart?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü yedeğin işe yarayıp yaramadığını sadece geri dönerek anlarsınız. Restore testi yapılmayan yedekler, kriz anında kullanılamama riskini artırır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber#howto",
+      "name": "Web Sunucu Güvenliği: 4 Katmanda Başlangıç",
+      "description": "Patch yönetimi, erişim kontrolü, firewall/port azaltma ve yedekleme-izleme adımlarıyla web sunucu güvenliğini baseline seviyesinde kurma.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Patch yönetimini standardize et",
+          "text": "Kritik yamalar için hedef pencere belirle, güncelleme sonrası health-check ve rollback planı uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Erişimi kilitle ve izlenebilir yap",
+          "text": "Root/admin erişimini sınırlandır, SSH/RDP’yi güvenli kanala al, MFA/key politikası ve brute-force engelleme kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Port/servis yüzeyini azalt",
+          "text": "Gereksiz portları kapat, firewall kurallarını sadeleştir, WAF/rate limit ile bot gürültüsünü düşür."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yedekleme ve izlemeyi test et",
+          "text": "Yedek kapsamını netleştir, düzenli restore testi yap, monitoring/alert ve loglama (KVKK) politikasını uygula."
+        }
+      ]
     }
   ]
 }
@@ -10252,7 +10894,151 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"otel-konser-etkinlik-produsksiyon-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#article",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi",
+      "headline": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+      "name": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi",
+      "description": "Otel konser/show prodüksiyonunu brief’ten sahne–ses–ışık ve multi-camera çekime, highlight videodan Reel planına kadar adım adım kurun.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Event Production",
+        "Concert",
+        "Stage Design",
+        "Sound & Light",
+        "Multi-Camera Recording",
+        "Hotel Experience"
+      ],
+      "keywords": [
+        "otel konser prodüksiyon rehberi",
+        "sahne ses isik otel etkinlik",
+        "concert highlight video otel",
+        "hotel show technical planning",
+        "multi camera concert recording"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+      "name": "Etkinlik Prodüksiyonu",
+      "serviceType": "Konser & Show Etkinlik Prodüksiyonu",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Event",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#event",
+      "name": "Otel Konser / Show Etkinliği (Örnek Şablon)",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Resort Otel Etkinlik Alanı (Havuz/Amfi/Beach Stage)",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "TR",
+          "addressRegion": "Antalya / Belek / Side / Kemer / Bodrum"
+        }
+      },
+      "description": "Resort otellerde konser ve show etkinlikleri için sahne–ses–ışık ve multi-camera prodüksiyon planı şablonu."
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#video",
+      "name": "Konser Highlight Video (Örnek Çıktı)",
+      "description": "Konser sonrası highlight video ve kısa Reel seti üretimi için örnek video çıktısı.",
+      "uploadDate": "2026-01-11",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#article" }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#howto",
+      "name": "Otel konser ve show prodüksiyonu nasıl planlanır?",
+      "description": "Brief, sahne–ses–ışık, multi-camera çekim ve highlight teslim planı adımları.",
+      "step": [
+        { "@type": "HowToStep", "name": "Brief ve hedefi netleştir", "text": "Hedef, mekan, saat, çıktı ve riskleri tek sayfada topla." },
+        { "@type": "HowToStep", "name": "Sahne–ses–ışık planını kur", "text": "FOH, backline, güç dağıtımı ve kayıt uyumlu ışık tasarımını tamamla." },
+        { "@type": "HowToStep", "name": "Multi-camera çekim ve ses kaydını tasarla", "text": "Wide/close/crowd açıları ve miks çıkışı + ambience kayıt akışını planla." },
+        { "@type": "HowToStep", "name": "Highlight ve Reel teslim takvimini uygula", "text": "0–12/24–48/48–72 saat teslim planıyla içerik paketini çıkar." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Konser ve Show Etkinlikleri İçin Prodüksiyon Rehberi", "item": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-konser-etkinlik-produsksiyon-rehberi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel içinde konser prodüksiyonu nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce brief ve hedefi netleştirin, ardından mekan senaryosuna göre sahne–ses–ışık tasarımını kurun. Multi-camera çekim ve ses kayıt akışını en baştan planlayıp highlight teslim takvimini etkinlikten önce belirleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel konserini kaç kamerayla çekmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu resort otel senaryosunda 3 kamera en dengeli çözümdür: wide (omurga), close (detay) ve crowd (sosyal kanıt). Bütçe büyüdükçe 4+ kamera ile hareketli planlar eklenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Konser sonrası highlight videoyu nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce 0–12 saat içinde kayıtları toplayıp yedekleyin, sonra 24–48 saat içinde kısa Reel setini çıkarın. 48–72 saatte 1–2 dakikalık highlight yayınlayıp 3–7 gün içinde referans/case paketini hazırlayın."
+          }
+        }
+      ]
+    }
+  ]
 }
+
 
     },
 
