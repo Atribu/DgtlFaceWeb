@@ -1,3 +1,6 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
+
 const TR_SLUG_FILE_ALIAS = {
   "kurumsal-hediye-tasarimi-sss": "kurumsal-hediye-sss",
   "ui-ux-tasarim-sss": "ui-ux-hizmeti-sss",
@@ -5,35 +8,62 @@ const TR_SLUG_FILE_ALIAS = {
   "otel-ota-sss": "otel-ota-sss (1)",
 };
 
-// Türkçe yorum: FAQ sayfaları için og görsel URL'ini slug + locale (+segment) ile üretir
+const EN_SLUG_FILE_ALIAS = {
+  "ads-reporting-faq": "performance-analysis-faq",
+};
+
+function getBaseDir(locale) {
+  return locale === "en" ? "/og/sss/en" : "/og/sss";
+}
+
+function getLocalBaseDir(locale) {
+  return locale === "en"
+    ? path.join(process.cwd(), "public", "og", "sss", "en")
+    : path.join(process.cwd(), "public", "og", "sss");
+}
+
+function normalizeSlug(locale, slug) {
+  const raw = slug || (locale === "en" ? "faq" : "sss");
+  if (locale === "tr") return TR_SLUG_FILE_ALIAS[raw] || raw;
+  return EN_SLUG_FILE_ALIAS[raw] || raw;
+}
+
+function toFileName({ locale, segment, slug }) {
+  const hasNestedSegment =
+    locale === "en" &&
+    segment &&
+    segment !== slug &&
+    !["faq", "services-faq"].includes(slug);
+
+  return hasNestedSegment
+    ? `dgtlface.com_${locale}_${segment}_${slug}.jpg`
+    : `dgtlface.com_${locale}_${slug}.jpg`;
+}
+
+// FAQ sayfaları için og görsel URL'ini slug + locale (+segment) ile üretir.
+// Dosya mevcut değilse locale'e göre default FAQ görseline düşer.
 export function getFaqOgImageUrl({
   slug,
   locale,
   segment,
   siteUrl = "https://dgtlface.com",
 }) {
-  const safeLocale = locale === "en" ? "en" : "tr"; // sadece tr/en kullanıyorsun
+  const safeLocale = locale === "en" ? "en" : "tr";
+  const normalizedSlug = normalizeSlug(safeLocale, slug);
+  const baseDir = getBaseDir(safeLocale);
 
-  // TR: /og/sss
-  // EN: /og/sss/en
-  const baseDir = safeLocale === "en" ? "/og/sss/en" : "/og/sss";
+  const fileName = toFileName({
+    locale: safeLocale,
+    segment,
+    slug: normalizedSlug,
+  });
 
-  let normalizedSlug = slug || "sss";
-  if (safeLocale === "tr") {
-    normalizedSlug = TR_SLUG_FILE_ALIAS[normalizedSlug] || normalizedSlug;
+  const localFilePath = path.join(getLocalBaseDir(safeLocale), fileName);
+  if (!existsSync(localFilePath)) {
+    const fallbackFile =
+      safeLocale === "en" ? "dgtlface.com_en_faq.jpg" : "dgtlface.com_tr_sss.jpg";
+    return `${siteUrl}${baseDir}/${encodeURIComponent(fallbackFile)}`;
   }
-
-  // EN alt FAQ görsellerinde dosya adı: dgtlface.com_en_{segment}_{slug}.webp
-  // EN ana FAQ sayfalarında dosya adı: dgtlface.com_en_{slug}.webp
-  const hasNestedSegment =
-    safeLocale === "en" &&
-    segment &&
-    segment !== normalizedSlug &&
-    !["faq", "services-faq"].includes(normalizedSlug);
-
-  const fileName = hasNestedSegment
-    ? `dgtlface.com_${safeLocale}_${segment}_${normalizedSlug}.webp`
-    : `dgtlface.com_${safeLocale}_${normalizedSlug}.webp`;
 
   return `${siteUrl}${baseDir}/${encodeURIComponent(fileName)}`;
 }
