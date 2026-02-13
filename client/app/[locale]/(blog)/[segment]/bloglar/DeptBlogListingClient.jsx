@@ -96,7 +96,7 @@ const SUB_DEPTS = {
     { id: "looker", label: "Reklam Raporlama (Looker)", href: "/raporlama/looker-studio" },
     { id: "benchmark", label: "Benchmark & Pazar Analizi", href: "/raporlama/benchmark-analizi" },
     { id: "sales", label: "Satış & Dönüşüm Analizi", href: "/raporlama/satis-donusum-analizi" },
-    { id: "call", label: "Çağrı & KVKK Veri Raporlama", href: "/raporlama/cagri-kvkk-raporlama" },
+    { id: "kvkk", label: "KVKK Veri Güvenliği", href: "/raporlama/cagri-kvkk-raporlama" },
   ],
 
   "otel": [

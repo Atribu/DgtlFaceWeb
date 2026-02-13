@@ -5,7 +5,7 @@ export const BLOG_MEDIA_MAP = {
 
   "bos":{
      banner: {
-      src: "/images/blog/creative/Software1-5/Software1-5-1.webp",
+      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
       alt: "",
       caption: ""
     },
@@ -7360,7 +7360,206 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+"otel-satis-sonrasi-destek-temel-rehber":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-1.webp",
+      alt: "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+      caption: "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber"
+    },
 
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-2.webp",
+      alt: "Misafir yolculuğu görseli amacı satış sonrası temas otel bağlamı",
+      caption: "Misafir yolculuğu görseli amacı satış sonrası temas otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-3.webp",
+      alt: "Çok kanallı temas noktaları amacı süreç bölümü otel bağlamı",
+      caption: "Çok kanallı temas noktaları amacı süreç bölümü otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-4.webp",
+      alt: "Rol ve sorumluluk modeli amacı operasyon yapısı otel bağlamı",
+      caption: "Rol ve sorumluluk modeli amacı operasyon yapısı otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-5.webp",
+      alt: "Guest journey diyagramı amacı rezervasyon sonrası süreç otel bağlamı",
+      caption: "Guest journey diyagramı amacı rezervasyon sonrası süreç otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-6.webp",
+      alt: "Satış sonrası 10 adım checklist amacı hızlı uygulama otel bağlam",
+      caption: "Satış sonrası 10 adım checklist amacı hızlı uygulama otel bağlam"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-7.webp",
+      alt: "Satış sonrası KPI paneli amacı performans izleme otel bağlamı",
+      caption: "Satış sonrası KPI paneli amacı performans izleme otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-1/Callcenter4-1-8.webp",
+      alt: "Süreç çıktıları kartı amacı güven ve standardizasyon otel bağlamı",
+      caption: "Süreç çıktıları kartı amacı güven ve standardizasyon otel bağlamı"
+    }
+  },
+
+  "otel-online-satis-optimizasyonu-nedir-temel-mantik":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-1.webp",
+      alt: "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi",
+      caption: "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-2.webp",
+      alt: "OTA ve direct booking dengesi, otel satış ekibi için başlangıç bağlamı",
+      caption: "OTA ve direct booking dengesi, otel satış ekibi için başlangıç bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-3.webp",
+      alt: "Trafik-talep-rezervasyon-gelir akışı, otel satış hunisi bölüm geçişi",
+      caption: "Trafik-talep-rezervasyon-gelir akışı, otel satış hunisi bölüm geçişi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-4.webp",
+      alt: "Kanal karması çerçevesi, OTA web call center metasearch dengesi",
+      caption: "Kanal karması çerçevesi, OTA web call center metasearch dengesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-5.webp",
+      alt: "Satış hunisi diyagramı, kanal-kpi ilişkisiyle otel performans yönetimi",
+      caption: "Satış hunisi diyagramı, kanal-kpi ilişkisiyle otel performans yönetimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-6.webp",
+      alt: "İlk 90 gün aksiyon checklist’i, otel online satış optimizasyonu planı",
+      caption: "İlk 90 gün aksiyon checklist’i, otel online satış optimizasyonu planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-7.webp",
+      alt: "KPI skor kartı, dönüşüm ve net gelir artışı için otel paneli",
+      caption: "KPI skor kartı, dönüşüm ve net gelir artışı için otel paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-1/Pms4-1-8.webp",
+      alt: "Teslimatlar ve güven unsurları, otel satış optimizasyonu çıktıları kartı",
+      caption: "Teslimatlar ve güven unsurları, otel satış optimizasyonu çıktıları kartı"
+    }
+  },
+
+
+  "kvkk-veri-haritasi-otel-veri-akisi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-1.webp",
+      alt: "KVKK Veri Haritası Nedir, Nasıl Çıkarılır? Oteller İçin Veri Akışı Rehberi",
+      caption: "KVKK Veri Haritası Nedir, Nasıl Çıkarılır? Oteller İçin Veri Akışı Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-2.webp",
+      alt: "Web, PMS, OTA ve çağrı merkezi arasında kişisel veri akışını sade anlatır",
+      caption: "Web, PMS, OTA ve çağrı merkezi arasında kişisel veri akışını sade anlatır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-3.webp",
+      alt: "Otel kişisel veri kategorileri, departmanlara göre net sınıflandırma görseli",
+      caption: "Otel kişisel veri kategorileri, departmanlara göre net sınıflandırma görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-4.webp",
+      alt: "KVKK raporlama kullanım alanları, operasyon ve pazarlama köprüsü kuran özet",
+      caption: "KVKK raporlama kullanım alanları, operasyon ve pazarlama köprüsü kuran özet"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-5.webp",
+      alt: "Data flow diagram hospitality: web → PMS → OTA → çağrı merkezi akışı",
+      caption: "Data flow diagram hospitality: web → PMS → OTA → çağrı merkezi akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-6.webp",
+      alt: "KVKK veri envanteri için hızlı kontrol listesi, otel ekipleri için uygulanabilir",
+      caption: "KVKK veri envanteri için hızlı kontrol listesi, otel ekipleri için uygulanabilir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-7.webp",
+      alt: "Erişim, saklama ve risk KPI’ları; önce-sonra karşılaştırmalı otel güvenlik paneli",
+      caption: "Erişim, saklama ve risk KPI’ları; önce-sonra karşılaştırmalı otel güvenlik paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-1/Reporting4-1-8.webp",
+      alt: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları”",
+      caption: "Çıktılar: envanter, akış diyagramı, sprint planı ve risk azaltım adımları”"
+    }
+  },
+
+  "ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-1.webp",
+      alt: "OTA Nedir? Oteller İçin OTA Yönetimi ve Temel Strateji Rehberi",
+      caption: "OTA Nedir? Oteller İçin OTA Yönetimi ve Temel Strateji Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-2.webp",
+      alt: "OTA–web–call center rol paylaşımı, amaç: başlangıç çerçevesi, otel gelir bağlamı",
+      caption: "OTA–web–call center rol paylaşımı, amaç: başlangıç çerçevesi, otel gelir bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-3.webp",
+      alt: "OTA türleri ve temel kavramlar, amaç: hızlı anlamak, otel satış bağlamı",
+      caption: "OTA türleri ve temel kavramlar, amaç: hızlı anlamak, otel satış bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-4.webp",
+      alt: "OTA sıralama sinyalleri özeti, amaç: görünürlük mantığı, otel pazarlama bağlamı",
+      caption: "OTA sıralama sinyalleri özeti, amaç: görünürlük mantığı, otel pazarlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-5.webp",
+      alt: "OTA–web–call center funnel diyagramı, amaç: dönüşüm akışı, otel satış bağlamı",
+      caption: "OTA–web–call center funnel diyagramı, amaç: dönüşüm akışı, otel satış bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-6.webp",
+      alt: "OTA yönetimi başlangıç checklist’i, amaç: ilk 30 gün, otel operasyon bağlamı",
+      caption: "OTA yönetimi başlangıç checklist’i, amaç: ilk 30 gün, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-7.webp",
+      alt: "Kanal KPI paneli, amaç: komisyon–direct pay takibi, otel gelir bağlamı",
+      caption: "Kanal KPI paneli, amaç: komisyon–direct pay takibi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-1/Hotel4-1-8.webp",
+      alt: "30 günlük deliverables özeti, amaç: süreç çıktıları, otel yönetim bağlamı",
+      caption: "30 günlük deliverables özeti, amaç: süreç çıktıları, otel yönetim bağlamı"
+    }
+  },
 
 };
 

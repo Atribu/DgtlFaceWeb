@@ -12952,6 +12952,174 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"otel-satis-sonrasi-destek-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber",
+      "name": "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+      "description": "Otel satış sonrası destek nedir? Telefon, WhatsApp, e-posta, OTA ve sosyal medyada süreçleri kurun; memnuniyet, yorum puanı ve tekrar rezervasyonu güçlendirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "After-Sales Support"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#webpage"
+      },
+      "headline": "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+      "name": "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+      "description": "Otel satış sonrası destek nedir? Telefon, WhatsApp, e-posta, OTA ve sosyal medyada süreçleri kurun; memnuniyet, yorum puanı ve tekrar rezervasyonu güçlendirin.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Guest Journey" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Social Media" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Çağrı Merkezi ve Misafir İlişkileri Satış Sonrası Destek Kurulumu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Kemer" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Satış Sonrası Destek",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Satış Sonrası Destek Nedir? Misafir Memnuniyeti İçin Temel Rehber",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel satış sonrası destek nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon sonrası ve konaklama sonrası tüm taleplerin telefon, WhatsApp, e-posta, OTA ve sosyal medya üzerinden yönetilmesidir. Amaç, hızlı çözüm ve güven oluşturarak memnuniyeti sürdürmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir memnuniyeti için satış sonrası süreçler nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek kayıt sistemi (ticket), net SLA, doğru owner ataması ve kapanış mesaj standardı ile kurgulanmalıdır. Haftalık trend ve aylık kök neden raporlarıyla sürekli iyileştirme yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Satış sonrası destek hangi kanallardan verilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En az telefon (call center), WhatsApp, e-posta, OTA mesajlaşması ve sosyal medya DM kapsanmalıdır. Kanal fark etmeksizin tüm talepler aynı süreç standardına bağlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller satış sonrası süreci neden ihmal etmemeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü son temas, misafirin algısını güçlü biçimde etkiler. Standartsız süreç; itibar riski, çözüm gecikmesi ve tekrar rezervasyon kaybına yol açabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-temel-rehber#howto",
+      "name": "Otel Satış Sonrası Destek Süreci: 10 Temel Adım",
+      "description": "Satış sonrası destek taleplerini tek kayıt sistemi ve SLA ile yönetmek için 10 adımlı uygulama akışı.",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Talebi al", "text": "Talep hangi kanaldan gelirse gelsin ilk temas alınır." },
+        { "@type": "HowToStep", "position": 2, "name": "Ticket aç", "text": "Kayıt numarası üretilir ve talep sisteme düşürülür." },
+        { "@type": "HowToStep", "position": 3, "name": "Etiketle", "text": "Aşama ve konu etiketleri (pre-stay/post-stay, iptal/şikâyet vb.) atanır." },
+        { "@type": "HowToStep", "position": 4, "name": "Yönlendir", "text": "Doğru departman owner’ına yönlendirilir ve SLA başlatılır." },
+        { "@type": "HowToStep", "position": 5, "name": "Çöz ve doğrula", "text": "Çözüm üretilir, misafir teyidi alınır." },
+        { "@type": "HowToStep", "position": 6, "name": "Kapat ve raporla", "text": "Kapanış mesajı gönderilir, kök neden notu düşülür ve KPI raporuna girilir." }
+      ]
+    }
+  ]
 }
 
     },
@@ -14510,6 +14678,174 @@ export const BLOG_JSONLD_MAP = {
           }
         }
       ]
+    }
+  ]
+},
+
+//
+
+"otel-online-satis-optimizasyonu-nedir-temel-mantik":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik",
+      "name": "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi",
+      "description": "Otel online satış optimizasyonu; OTA, web, çağrı merkezi ve metasearch trafiğini satış hunisine çevirir. KPI’larla ölç, ilk 90 günde net geliri artır.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Online Sales Optimization",
+        "Sales Funnel",
+        "OTA",
+        "Direct Booking",
+        "Call Center",
+        "Metasearch",
+        "Conversion Rate",
+        "RevPAR"
+      ],
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#primaryimage",
+        "url": "https://dgtlface.com/assets/media/otel-online-satis-optimizasyonu-nedir-temel-mantik-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#webpage" },
+      "headline": "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi",
+      "name": "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi",
+      "description": "Otel online satış optimizasyonu; OTA, web, çağrı merkezi ve metasearch trafiğini satış hunisine çevirir. KPI’larla ölç, ilk 90 günde net geliri artır.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "image": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#primaryimage" },
+      "keywords": [
+        "otel online satış optimizasyonu",
+        "satış hunisi",
+        "OTA",
+        "direct booking",
+        "çağrı merkezi",
+        "metasearch",
+        "conversion rate",
+        "RevPAR"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/online-satis#service",
+      "name": "Online Satış Optimizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/online-satis",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Antalya" },
+        { "@type": "AdministrativeArea", "name": "Belek" },
+        { "@type": "AdministrativeArea", "name": "Side" },
+        { "@type": "AdministrativeArea", "name": "Kemer" },
+        { "@type": "AdministrativeArea", "name": "Bodrum" }
+      ],
+      "serviceType": "Hotel Online Sales Optimization"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Online Satış Optimizasyonu",
+          "item": "https://dgtlface.com/tr/pms-ota/online-satis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Online Satış Optimizasyonu Nedir? Temel Mantık ve Başlangıç Rehberi",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel online satış optimizasyonu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA, web, çağrı merkezi ve metasearch kanallarından gelen trafiği satış hunisine çevirip dönüşüm ve net geliri KPI’larla iyileştirme sürecidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Online satış optimizasyonu hangi kanalları kapsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’lar, otelin web sitesi (direct booking), call center ve metasearch temel kapsamdır; SEO/SEM/SMM bu kanallara talep taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Online satış performansını hangi KPI’larla takip etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum set: trafik/kanal, lead oranı, conversion rate, ADR, RevPAR, iptal oranı, komisyon oranı ve call center close rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İlk 90 günde nereden başlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce KPI baseline ve funnel teşhisi, sonra 2–3 hızlı test (UX/teklif/call center), ardından kanal karması ve rapor ritmi kurulur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-optimizasyonu-nedir-temel-mantik#speakable",
+      "cssSelector": [".post-title", ".answer-block"]
     }
   ]
 }
@@ -16552,6 +16888,176 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Raporu 1 sayfaya indirin: kanal bazlı rezervasyon adedi, dönüşüm oranı, OTA komisyon yükü ve kanal bazlı net katkı. Sonuna haftalık channel mix aksiyon kutusu ekleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"kvkk-veri-haritasi-otel-veri-akisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi",
+      "name": "KVKK Veri Haritası Nedir, Nasıl Çıkarılır? Oteller İçin Veri Akışı Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "KVKK",
+        "Kişisel Veri",
+        "Otel",
+        "PMS",
+        "OTA",
+        "Çağrı Merkezi",
+        "CRM",
+        "Muhasebe"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#article",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi",
+      "headline": "KVKK Veri Haritası Nedir, Nasıl Çıkarılır? Oteller İçin Veri Akışı Rehberi",
+      "name": "KVKK Veri Haritası Nedir, Nasıl Çıkarılır? Oteller İçin Veri Akışı Rehberi",
+      "description": "KVKK veri haritasıyla web, PMS, OTA ve çağrı merkezi verisini tek envanterde toplayın; veri akışını görün, riskleri bulun, raporlamayı hızlandırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "articleSection": "Veri Analizi & Raporlama",
+      "keywords": [
+        "kvkk veri haritasi otel",
+        "otel veri akisi dokumantasyonu",
+        "kisisel veri envanteri rehberi",
+        "hotel personal data map",
+        "data flow diagram hospitality"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "name": "KVKK & Veri Güvenliği Raporlama",
+      "serviceType": "KVKK Veri Haritası ve Veri Akışı Raporlama",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#howto",
+      "name": "Oteliniz için KVKK veri haritası nasıl çıkarılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sistem envanterini çıkarın",
+          "text": "Web, PMS, OTA, çağrı merkezi, CRM ve muhasebe dahil tüm veri kaynaklarını listeleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Veri türü–amaç–erişim alanlarını doldurun",
+          "text": "Her sistem için toplanan kişisel veri türlerini, işleme amacını ve erişen rolleri yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Transferleri işaretleyin",
+          "text": "API, export ve manuel paylaşımları ayrı ayrı işaretleyip risk notu ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Akış diyagramını çizin",
+          "text": "Misafir yolculuğuna göre veri akışını web → PMS → OTA → çağrı merkezi → muhasebe → CRM şeklinde görselleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Raporlama ve güncelleme planı oluşturun",
+          "text": "Aksiyon listesi çıkarın ve sistem değişimlerinde haritayı güncelleyin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK & Veri Güvenliği Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KVKK Veri Haritası: Oteller İçin Veri Akışı",
+          "item": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-veri-haritasi-otel-veri-akisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK veri haritası nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KVKK veri haritası, otelde kişisel verinin hangi kaynaklardan toplandığını, hangi sistemlerde işlendiğini, nereye aktarıldığını ve kimlerin eriştiğini gösteren envanter + akış dokümanıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller KVKK veri haritasını nasıl çıkarır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sistem envanteri çıkarılır, her sistem için veri türü–amaç–erişim alanları doldurulur, transferler (API/export/manuel) işaretlenir ve akış diyagramı çizilerek raporlama/aksiyon listesi üretilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri akışı diyagramı oluştururken nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transfer türlerini ayırın (API mi manuel export mu?), üçüncü tarafları dahil edin ve erişim rolleri ile kontrol noktalarını notlayın; riskler çoğunlukla manuel paylaşım noktalarında büyür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri envanteri ve veri haritası arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri envanteri hangi sistemde hangi verinin olduğunu tabloyla gösterir; veri haritası ise bu tabloyu akışla tamamlayarak verinin nereden gelip nereye gittiğini görselleştirir."
           }
         }
       ]
@@ -18662,6 +19168,127 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Kapanmayan lead’leri KVKK uyumlu şekilde ayrı segmentleyip kısa pencerede hatırlatma ve hızlı çözüm mesajıyla yeniden temas kurabilirsiniz. WhatsApp/geri arama akışı bu segmentte etkilidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi",
+      "headline": "OTA Nedir? Oteller İçin OTA Yönetimi ve Temel Strateji Rehberi",
+      "name": "OTA Nedir? Oteller İçin OTA Yönetimi ve Temel Strateji Rehberi",
+      "description": "OTA yönetimi nedir? Booking/Expedia gibi kanallarda görünürlük, fiyat-envanter senkronu ve komisyon–direct booking dengesini 30 günde kurmak için rehberi inceleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi#webpage" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ],
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Anasayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OTA Yönetimi (Hotel OTA)",
+          "item": "https://dgtlface.com/tr/otel/ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "OTA Nedir? Oteller İçin OTA Yönetimi ve Temel Strateji Rehberi",
+          "item": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-nedir-otel-icin-ota-yonetimi-temel-rehberi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA nedir, oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA, otelinizi kendi platformunda pazarlayıp rezervasyon getiren komisyonlu online kanaldır. Talep yaratır ve görünürlüğü artırır; doğru yönetimde web direct ve call center ile birlikte toplam geliri büyütür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA yönetimi ne demektir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA yönetimi; fiyat–envanter senkronu, içerik/fotoğraf standardı, yorum yönetimi ve kanal performans takibini tek bir sistemde yürütmektir. Extranet işlemlerinin ötesinde, kârlı bir kanal stratejisi kurmayı içerir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA satışları ile direkt rezervasyon nasıl dengelenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’yı talep ve görünürlük kaynağı, web direct’i değer paketleriyle büyüyen kanal, call center’ı kapanış kanalı olarak konumlandırın. Fiyat kırmadan “avantaj” ve süreç tasarımıyla direct payı zamanla artırabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, web ve çağrı merkezi birlikte nasıl çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA keşif ve karşılaştırmada güçlüdür; web marka güveni ve paket avantajlarını sunar; call center karmaşık ihtiyaçlarda dönüşümü artırır. Üç kanalın rolünü yazılı hale getirip KPI ile haftalık takip ettiğinizde çakışma azalır."
           }
         }
       ]

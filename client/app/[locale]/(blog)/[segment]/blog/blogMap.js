@@ -126,7 +126,9 @@ export const BLOG_MAP = {
     "otel-mesaj-yonetiminde-sla-ve-cevap-suresi":"BlogCagriMerkeziOtelMesajYonetimindeSlaVeCevapSuresi",
     "sosyal-medya-mesajlarindan-rezervasyon-ve-satis-firsati-uretmek":"BlogSosyalMedyaMesajlarindanRezervasyonVeSatisFirsatiUretmek",
     "sikayet-mesajlari-ve-online-yorumlarin-profesyonel-yonetimi":"BlogSikayetMesajlariVeOnlineYorumlarinProfesyonelYonetimi",
-    "cok-dilli-mesaj-yonetimi-tr-en-de-ru":"BlogCallcenter5CokDilliMesajYonetimiTrEnDeRu"
+    "cok-dilli-mesaj-yonetimi-tr-en-de-ru":"BlogCallcenter5CokDilliMesajYonetimiTrEnDeRu",
+
+    "otel-satis-sonrasi-destek-temel-rehber":"BlogOtelSatisSonrasiDestekTemelRehber"
   },
 
     "pms-ota": {
@@ -146,7 +148,9 @@ export const BLOG_MAP = {
     "kanal-yonetim-ekrani-ile-fiyat-ve-envanter-guncelleme":"BlogPmsOtaKanalYonetimEkraniIleFiyatVeEnvanterGuncelleme",
     "pazar-bazli-kanal-karmasi-ve-envanter-dagitim":"BlogPazarBazliKanalKarmasiVeEnvanterDagitim",
     "yuksek-orta-dusuk-sezonda-kanal-yonetimi":"BlogYuksekOrtaDusukSezondaKanalYonetimi",
-    "kanal-yonetiminde-room-type-rate-plan-mimari":"BlogKanalYonetimindeRoomTypeRatePlanMimari"
+    "kanal-yonetiminde-room-type-rate-plan-mimari":"BlogKanalYonetimindeRoomTypeRatePlanMimari",
+
+    "otel-online-satis-optimizasyonu-nedir-temel-mantik":"BlogOtelOnlineSatisOptimizasyonuNedirTemelMantik"
   },
 
     "raporlama": {
@@ -166,7 +170,9 @@ export const BLOG_MAP = {
     "google-ads-meta-ads-ve-ota-satislarini-tek-funnelda-birlestirmek":"BlogGoogleAdsMetaAdsVeOtaSatislariniTekFunneldaBirlestirmek",
     "roas-mi-roi-mi-oteller-icin-dogru-donusum-kpilarini-secmek":"BlogROASmiROImiOtellerIcinDogruDonusumKpilariniSecmek",
     "upper-mid-lower-funnel-otel-pazarlamasinda-huniyi-okumak":"BlogUpperMidLowerFunnelOtelPazarlamasindaHuniyiOkumak",
-    "call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak":"BlogCallCenterWebVeOTACokKanalliRezervasyonDonusumunuRaporlamak"
+    "call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak":"BlogCallCenterWebVeOTACokKanalliRezervasyonDonusumunuRaporlamak",
+
+    "kvkk-veri-haritasi-otel-veri-akisi":"BlogKvkkVeriHaritasiOtelVeriAkisi"
   },
 
 
@@ -187,7 +193,9 @@ export const BLOG_MAP = {
     "google-hotel-ads-ve-google-ads-farklari":"BlogGoogleHotelAdsVeGoogleAdsFarklari",
     "otel-reklam-butcesi-nasil-planlanir":"BlogOtelReklamButcesiNasilPlanlanir",
     "otel-meta-ads-funnel-stratejisi":"BlogOtelMetaAdsFunnelStratejisi",
-    "otel-remarketing-stratejileri-web-ota-call-center":"BlogOtelRemarketingStratejileriWebOTACallCenter"
+    "otel-remarketing-stratejileri-web-ota-call-center":"BlogOtelRemarketingStratejileriWebOTACallCenter",
+
+    "ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":"BlogOTANedirOtelIcinOTAYonetimiTemelRehberi"
     
   }
 };
