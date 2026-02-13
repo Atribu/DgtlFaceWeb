@@ -2167,6 +2167,148 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu",
+      "name": "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu",
+      "description": "Rezervasyon motoru farklı domaindeyse GA4 cross-domain’i kurun, GTM ile thank you event’i tetikleyin ve gelir parametrelerini GA4’e doğru taşıyın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#article",
+      "headline": "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu",
+      "name": "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu",
+      "description": "GA4 cross-domain ölçümü ve GTM thank you event tetiklemesiyle, otel rezervasyon motoru dönüşümlerini ve gelirini doğru attribution ile takip edin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Cross-Domain Tracking",
+        "Booking Engine",
+        "Thank You Event",
+        "Revenue Parameters",
+        "Google Analytics 4",
+        "Google Tag Manager"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu", "item": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cross-domain takip nedir, otellerde neden gerekli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cross-domain takip, ana sitenizden rezervasyon motoruna geçişte oturumun bölünmesini engeller ve dönüşümün doğru kaynağa yazılmasını sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon motoru farklı bir domainde ise dönüşüm nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4’te cross-domain domain listesini tanımlayın ve aynı tag ID ile ölçüm yaptığınızdan emin olun; ardından thank you sayfası veya booking_complete event’i ile dönüşümü GA4’e kaydedin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Thank you sayfası event’i nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Thank you URL’si sabitse GTM’de page view trigger ile GA4 event gönderin; yoksa dataLayer custom event ile tetikleyip GA4’e parametrelerle gönderin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon tutarı event’e nasıl eklenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Event içinde en az transaction_id, value ve currency parametrelerini gönderin; sonra nights ve room_type gibi ek segment parametrelerini ekleyebilirsiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu#howto",
+      "name": "GA4 Cross-Domain ve Thank You Event Kurulumu (Otel Rezervasyon Motoru)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Domain haritasını çıkarın",
+          "text": "Ana site, rezervasyon motoru ve varsa ödeme adımlarının domain/subdomain yapısını netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GA4 cross-domain ölçümünü yapılandırın",
+          "text": "Aynı GA4 web stream/tag ID kullandığınızı doğrulayın ve GA4’te cross-domain domain listesini tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Thank you sinyalini seçin",
+          "text": "Thank you sayfası URL’si sabitse page_view tabanlı tetikleyin; değilse dataLayer custom event yaklaşımını seçin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GTM ile event’i tetikleyin",
+          "text": "GTM’de uygun trigger (Page View veya Custom Event) ve GA4 Event tag’i kurun; booking_complete/purchase event’ini parametrelerle gönderin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Gelir parametrelerini ekleyin",
+          "text": "transaction_id, value ve currency alanlarını gönderin; gerekirse nights/room_type gibi parametrelerle segmentleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test ve doğrulama yapın",
+          "text": "GTM Preview, GA4 DebugView ve rapor kontrolleriyle event’in tekil ateşlendiğini ve attribution’ın bozulmadığını doğrulayın."
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -4269,6 +4411,113 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Destinasyon ve konsept otoritesini destekleyen kaynaklara odaklanın (ör. Antalya/Belek/Side gibi bölge rehberleri). PR/iş birliği ve linklenebilir içerik varlıkları ile sürdürülebilir büyüme kurun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kaliteli-ve-spam-backlink-nasil-ayirt-edilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": ["Backlink", "Quality Backlinks", "Spam Links", "PBN", "Directories", "Anchor Diversity"]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir#article",
+      "url": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir",
+      "headline": "Kaliteli ve Spam Backlink Nasıl Ayırt Edilir?",
+      "name": "Kaliteli ve Spam Backlink Nasıl Ayırt Edilir?",
+      "description": "Kaliteli backlink nasıl anlaşılır? Alaka–otorite–trafik–anchor kriterleriyle linkleri sınıflandırın; PBN, dizin ve spam link risklerini görün. Otel & B2B örnekli rehber.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        "Quality Backlinks",
+        "Spam Links",
+        "PBN",
+        "Directories",
+        "Anchor Diversity",
+        "Good vs bad links",
+        "Risk management",
+        "Quality evaluation"
+      ],
+      "inLanguage": "tr-TR",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", "#answer-block"] }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#service",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "serviceType": "SEO / Backlink Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "Backlink & Dijital Otorite Yönetimi", "item": "https://dgtlface.com/tr/seo/backlink-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Kaliteli ve Spam Backlink Nasıl Ayırt Edilir?", "item": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/kaliteli-ve-spam-backlink-nasil-ayirt-edilir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kaliteli backlink nasıl anlaşılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alaka, güven, bağlam/trafik ve anchor doğallığı birlikte değerlendirilir. İlgili içerikten gelen, editoryal bağlamı olan ve doğal anchor’lı linkler genelde kalitelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Spam backlink türleri nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PBN ağları, spam dizinler, otomatik yorum/profil linkleri, guest post çiftlikleri ve satın alınmış paket linkler en sık görülen riskli türlerdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PBN ve satın alınmış linkler SEO’ya zarar verir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Risk taşır; çünkü manipülasyon izi oluşturabilir ve Google yönergeleriyle çelişebilir. Etki bazen gecikmeli gelir; bu yüzden sınıflandırma ve kanıtla hareket edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Backlink profilimde nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alaka ve kaynak kalitesi, anchor çeşitliliği, link artış hızı, şablon link oranı ve riskli kaynak kümeleri temel kontrol alanlarıdır."
           }
         }
       ]
@@ -6781,6 +7030,131 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"meta-ads-hedefleme-ve-segmentasyon-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+      "name": "Sosyal Medya Reklamları",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#service",
+      "name": "Sosyal Medya Reklamları",
+      "serviceType": "Social Media Advertising",
+      "areaServed": "TR",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi#article",
+      "url": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi",
+      "headline": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+      "name": "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+      "description": "Meta Ads hedef kitle türleri (core/custom/lookalike) ve cold–warm–hot segmentasyonu. Otel ve B2B için örnek kitle haritası, tablo, checklist + piksel/CAPI teknik notu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Meta Targeting",
+        "Core Audiences",
+        "Custom Audiences",
+        "Lookalike Audiences",
+        "Cold Warm Hot Audiences",
+        "Segmentation",
+        "Audience Architecture"
+      ],
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+        { "@type": "ListItem", "position": 4, "name": "Meta Ads Hedefleme ve Segmentasyon Stratejisi", "item": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/smm/blog/meta-ads-hedefleme-ve-segmentasyon-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Meta Ads hedef kitle türleri nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core (demografi/ilgi/davranış), Custom (site/video/IG/CRM) ve Lookalike (en iyi custom kitlenize benzeyen) olmak üzere üç ana tür vardır. Performans için cold–warm–hot katmanlarına göre ayrılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Custom audience ve lookalike nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Custom, ısınmış kitleyi yeniden hedefler; lookalike yeni kitle bulmak için custom’dan türetilir. En iyi yöntem hot custom → %1 lookalike ile ölçeklemektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için cold–warm–hot kitleleri nasıl tanımlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cold: core/lookalike soğuk kitle; Warm: video izleyen/IG engaged/site ziyaret; Hot: form başlatan/checkout/teklif sayfası gibi yüksek niyet davranışlarıdır. Otelde oda/teklif, B2B’de case+form sinyali güçlüdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hedef kitle segmentasyonunu funnel ile nasıl eşleştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cold = awareness, warm = consideration, hot = conversion. Her katmanda farklı mesaj ve KPI kullanılır; aynı mesajı tüm katmanlarda kullanmak maliyeti artırır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -8757,6 +9131,158 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "Yedekleme ve izlemeyi test et",
           "text": "Yedek kapsamını netleştir, düzenli restore testi yap, monitoring/alert ve loglama (KVKK) politikasını uygula."
+        }
+      ]
+    }
+  ]
+},
+
+"ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://dgtlface.com/favicon.ico"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu ve Güvenlik",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": ["Web Server Security", "Certificate Management", "HTTPS Governance"],
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi",
+      "headline": "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması",
+      "name": "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması",
+      "description": "Otel ve B2B siteleri için HTTPS rehberi: doğru sertifika seçimi, otomatik yenileme, HSTS ve redirect kurgusu, mixed content temizliği ve güvenli yayın kontrol listesi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "SSL/TLS",
+        "HTTPS",
+        "HSTS",
+        "Redirect",
+        "Mixed Content",
+        "Browser Trust",
+        "Certificate Management"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+      "name": "Sunucu ve Güvenlik",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "HTTPS ve Sertifika Yönetimi / Sunucu Güvenliği",
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+        { "@type": "ListItem", "position": 4, "name": "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması", "item": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SSL/TLS nedir, neden zorunludur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSL/TLS, tarayıcı ile sunucu arasındaki veriyi şifreleyerek gizlilik ve bütünlük sağlar. Zorunludur çünkü tarayıcılar ve kullanıcılar HTTPS’i standart güven beklentisi olarak görür; ayrıca SEO ve dönüşümde güven sinyali üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DV/OV/EV sertifika farkları nelerdir, hangisini seçmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DV hızlı ve çoğu web sitesi için yeterlidir; OV kurum doğrulamasıyla daha kurumsal güven sunar; EV daha kapsamlı doğrulama içerir. Otel web sitelerinde genellikle DV + doğru kurulum yeterlidir; portal/panel gibi kritik B2B senaryolarda OV değerlendirilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "HSTS nedir, nasıl etkinleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "HSTS, tarayıcıya bu domaine sadece HTTPS ile bağlanmasını söyler. Etkinleştirmeden önce HTTPS ve redirect kurgusu hatasız olmalı; mixed content temizlenmeli ve HSTS kademeli olarak açılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mixed content hatalarını nasıl bulup gideririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik sayfalarda HTTP kaynak çağrılarını tespit edin (görsel/script/font). Bu kaynakları HTTPS’e taşıyın veya doğru CDN/relative path ile düzeltin; test sonunda tarayıcı uyarısı kalmadığını doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sitem HTTPS ama tarayıcı hâlâ uyarı veriyor, neden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık neden mixed content, hatalı sertifika zinciri veya yanlış redirect/HSTS kurgusudur. Sertifika detayları, sayfa kaynak çağrıları ve yönlendirme zinciri birlikte kontrol edilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi#howto",
+      "name": "HTTPS’i Tamamlama: SSL/TLS, Redirect, HSTS ve Mixed Content",
+      "description": "Sertifika yönetimi, doğru yönlendirme, kademeli HSTS ve mixed content temizliğiyle otel ve kurumsal sitelerde HTTPS’i uyarısız tamamlamak.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sertifikayı doğru seç ve yenilemeyi otomatikleştir",
+          "text": "DV/OV kararını kullanım senaryosuna göre ver, kapsamı (SAN/Wildcard) doğru belirle, auto-renew ve alarm mekanizması kur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek redirect kurgusu ve canonical host belirle",
+          "text": "HTTP→HTTPS ve www/non-www kararını tek zincire indir; canonical, sitemap ve internal link’leri HTTPS hedefiyle hizala."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mixed content’i temizle",
+          "text": "Kritik sayfalarda HTTP kaynak çağrılarını tespit et ve tüm görsel/script/font çağrılarını HTTPS’e taşı."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "HSTS’i kontrollü ve kademeli etkinleştir",
+          "text": "HTTPS tamamen temizlendikten sonra HSTS’i düşük max-age ile başlat, izlemeye göre kademeli artır."
         }
       ]
     }
@@ -11037,6 +11563,126 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-lansman-acilis-etkinligi-produsksiyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon#article",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon",
+      "headline": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı",
+      "name": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı",
+      "description": "Otel lansman ve açılış gecesini konseptten run of show’a, sahne–LED–ses/ışık prodüksiyonundan basın & influencer içerik planına kadar kurgulama rehberi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Launch Event",
+        "Opening Night",
+        "Run of Show",
+        "Stage & LED",
+        "Press & Influencer",
+        "Hotel Brand Story"
+      ],
+      "keywords": [
+        "otel acilis lansman etkinligi planlama",
+        "run of show ornegi otel",
+        "lansman gecesi sahne ve medya plani",
+        "hotel launch event production",
+        "opening night run of show"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+      "name": "Etkinlik Prodüksiyonu",
+      "serviceType": "Lansman & Açılış Etkinlik Prodüksiyonu",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Event",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon#event",
+      "name": "Otel Lansman / Açılış Gecesi (Örnek Şablon)",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Otel Lansman Mekânı",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "TR",
+          "addressRegion": "Antalya / Bodrum / İstanbul"
+        }
+      },
+      "description": "Otel lansman ve açılış gecesi için run of show, sahne/LED ve medya planı şablonu."
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı", "item": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-lansman-acilis-etkinligi-produsksiyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel açılış / lansman etkinliği nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce lansman mesajı ve hedef kitleyi netleştirin, sonra konsept/tema ve hikâye kurgusunu yazın. Run of show’u dakika dakika planlayıp sahne–LED–ses/ışık prodüksiyonunu akışa göre kurun; basın/influencer ve içerik teslim planını aynı gün için tasarlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Run of show nedir, nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Run of show; saat–süre–blok–sorumlu–cue–çekim çıktısı alanlarını birlikte taşıyan dakika bazlı etkinlik akışıdır. Lansman gecesinde gecikmeyi azaltır ve mesaj anlarını kontrol altına alır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Basın ve influencer için hangi içerikler üretilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı günden 3–5 Reel/Short, 1 highlight video ve 10–20 foto seti temel pakettir. Basın bülteni ve medya kit linkiyle birlikte planlandığında görünürlük ve referans üretimi güçlenir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 
@@ -13117,6 +13763,129 @@ export const BLOG_JSONLD_MAP = {
         { "@type": "HowToStep", "position": 4, "name": "Yönlendir", "text": "Doğru departman owner’ına yönlendirilir ve SLA başlatılır." },
         { "@type": "HowToStep", "position": 5, "name": "Çöz ve doğrula", "text": "Çözüm üretilir, misafir teyidi alınır." },
         { "@type": "HowToStep", "position": 6, "name": "Kapat ve raporla", "text": "Kapanış mesajı gönderilir, kök neden notu düşülür ve KPI raporuna girilir." }
+      ]
+    }
+  ]
+},
+
+"nps-ve-misafir-memnuniyet-otel-satis-sonrasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi",
+      "name": "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?",
+      "description": "Otellerde NPS nasıl ölçülür? Check-out sonrası SMS/WhatsApp/e-posta akışı, skor okuma ve “NPS → aksiyon” planı ile memnuniyeti ölçülebilir kılın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "NPS" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi#webpage" },
+      "headline": "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?",
+      "name": "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?",
+      "description": "Otellerde NPS nasıl ölçülür? Check-out sonrası SMS/WhatsApp/e-posta akışı, skor okuma ve “NPS → aksiyon” planı ile memnuniyeti ölçülebilir kılın.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Guest Satisfaction" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "SMS Survey" },
+        { "@type": "Thing", "name": "Email Survey" },
+        { "@type": "Thing", "name": "WhatsApp Survey" },
+        { "@type": "Thing", "name": "Hotel KPI" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası destek süreç kurulumu ve performans iyileştirme",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "NPS ve Misafir Memnuniyeti", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/nps-ve-misafir-memnuniyet-otel-satis-sonrasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "NPS nedir, otellerde nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NPS, misafirin otelinizi tavsiye etme eğilimini tek bir soruyla ölçen KPI’dır. Otellerde genellikle check-out sonrası SMS/e-posta/WhatsApp ile sorulur ve sonuçlar segmentlenerek raporlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS sorusu misafire ne zaman sorulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En etkili pencere check-out sonrası 2–24 saattir; deneyim tazeyken yanıt alınır. Şikâyet/talep kapanışı sonrası kısa süre içinde ayrıca çözüm memnuniyeti ölçümü yapılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düşük NPS skoruna nasıl tepki vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce teşekkür edip detay alın, sonra olay–etki–beklenti formatıyla doğru ekibe yönlendirin. Ara bilgilendirme yapın ve çözüm sonrası misafir teyidiyle kapanış mesajı gönderin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS sonuçlarını satış sonrası süreçte nasıl kullanabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NPS’i detractor/passive/promoter olarak okuyup her segment için aksiyon planı oluşturun. Haftalık trend ve aylık kök neden raporlarıyla süreç iyileştirmeye bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS kaç olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir iyi sayı hedeflemek yerine, kendi otelinizin trendine ve segment farklarına odaklanmak daha sağlıklıdır. NPS’i düzenli ölçüp aynı kanal/segmentlerde iyileşme görmeye odaklanın."
+          }
+        }
       ]
     }
   ]

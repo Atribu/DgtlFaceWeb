@@ -7561,6 +7561,317 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+   "otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu":{
+     banner: {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-1.webp",
+      alt: "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu",
+      caption: "Otel Rezervasyon Motoru İçin Cross-Domain Takip ve Thank You Event Kurulumu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-2.webp",
+      alt: "Otel sitesi ve rezervasyon motoru arasında oturum akışını gösteren bağlam görseli",
+      caption: "Otel sitesi ve rezervasyon motoru arasında oturum akışını gösteren bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-3.webp",
+      alt: "Rezervasyon motoru ayrımı ve ölçüm sınırlarını otel bağlamında ayıran bölüm görseli",
+      caption: "Rezervasyon motoru ayrımı ve ölçüm sınırlarını otel bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-4.webp",
+      alt: "GA4 cross-domain kurulum adımlarını otel ölçümü için bölümlere ayıran görsel",
+      caption: "GA4 cross-domain kurulum adımlarını otel ölçümü için bölümlere ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-5.webp",
+      alt: "Cross-domain akışı ve thank you event tetiklenmesini otel ölçümü için gösteren diyagram",
+      caption: "Cross-domain akışı ve thank you event tetiklenmesini otel ölçümü için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-6.webp",
+      alt: "Cross-domain ve gelir parametreleri için otel ölçüm çerçevesini özetleyen checklist kart",
+      caption: "Cross-domain ve gelir parametreleri için otel ölçüm çerçevesini özetleyen checklist kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-7.webp",
+      alt: "Rezervasyon sayısı ve gelir doğruluğunu otel raporlaması için gösteren KPI kartı",
+      caption: "Rezervasyon sayısı ve gelir doğruluğunu otel raporlaması için gösteren KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-2/SEM4-2-8.webp",
+      alt: "Kurulum çıktıları ve test kanıtlarını otel ölçüm projesi bağlamında özetleyen proof kartı",
+      caption: "Kurulum çıktıları ve test kanıtlarını otel ölçüm projesi bağlamında özetleyen proof kartı"
+    }
+  },
+
+
+  "kaliteli-ve-spam-backlink-nasil-ayirt-edilir":{
+     banner: {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-1.webp",
+      alt: "Kaliteli ve Spam Backlink Nasıl Ayırt Edilir?",
+      caption: "Kaliteli ve Spam Backlink Nasıl Ayırt Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-2.webp",
+      alt: "Backlink kalite kriterleri özeti, otel ve B2B değerlendirme görseli",
+      caption: "Backlink kalite kriterleri özeti, otel ve B2B değerlendirme görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-3.webp",
+      alt: "Spam backlink türleri, otel ve B2B risk örnekleri ayracı",
+      caption: "Spam backlink türleri, otel ve B2B risk örnekleri ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-4.webp",
+      alt: "Audit ve temizlik akışı, backlink risk yönetimi ayracı",
+      caption: "Audit ve temizlik akışı, backlink risk yönetimi ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-5.webp",
+      alt: "Anchor dağılım grafiği, doğal vs agresif profil karşılaştırması",
+      caption: "Anchor dağılım grafiği, doğal vs agresif profil karşılaştırması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-6.webp",
+      alt: "Backlink kalite checklist kartı, hızlı sınıflandırma aracı",
+      caption: "Backlink kalite checklist kartı, hızlı sınıflandırma aracı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-7.webp",
+      alt: "Backlink kalite skor kartı, otel ve B2B risk değerlendirme paneli",
+      caption: "Backlink kalite skor kartı, otel ve B2B risk değerlendirme paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-2/SEO4-2-8.webp",
+      alt: "Audit deliverables kartı, backlink temizlik ve plan çıktıları",
+      caption: "Audit deliverables kartı, backlink temizlik ve plan çıktıları"
+    }
+  },
+
+   "meta-ads-hedefleme-ve-segmentasyon-stratejisi":{
+     banner: {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-1.webp",
+      alt: "Meta Ads Hedefleme ve Segmentasyon Stratejisi",
+      caption: "Meta Ads Hedefleme ve Segmentasyon Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-2.webp",
+      alt: "Cold–warm–hot funnel ile core/custom/lookalike eşleşmesi görseli",
+      caption: "Cold–warm–hot funnel ile core/custom/lookalike eşleşmesi görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-3.webp",
+      alt: "Custom audience ve davranış segmentlerine geçiş bölüm görseli",
+      caption: "Custom audience ve davranış segmentlerine geçiş bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-4.webp",
+      alt: "Lookalike ve ölçekleme bölümüne geçiş ayraç görseli",
+      caption: "Lookalike ve ölçekleme bölümüne geçiş ayraç görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-5.webp",
+      alt: "Core→Custom→Lookalike akışı, segment-first Meta Ads modeli diyagramı",
+      caption: "Core→Custom→Lookalike akışı, segment-first Meta Ads modeli diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-6.webp",
+      alt: "Kitle segmentasyonu checklist’i, kampanya kurulum sırası rehber",
+      caption: "Kitle segmentasyonu checklist’i, kampanya kurulum sırası rehber"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-7.webp",
+      alt: "Segment bazlı CPA ve ROAS skor kartı, hedefleme performans takibi",
+      caption: "Segment bazlı CPA ve ROAS skor kartı, hedefleme performans takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-2/SMM4-2-8.webp",
+      alt: "Otel ve B2B örnek kitle tablosu ve deliverables kanıt kartı",
+      caption: "Otel ve B2B örnek kitle tablosu ve deliverables kanıt kartı"
+    }
+  },
+
+
+  "ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi":{
+     banner: {
+      src: "/images/blog/software/Software4-2/Software4-2-1.webp",
+      alt: "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması",
+      caption: "SSL/TLS ve HSTS: Otel ve Kurumsal Sitelerde HTTPS Yapılandırması"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software4-2/Software4-2-2.webp",
+      alt: "SSL/TLS ve HSTS ile tarayıcı uyarısını bitirme, rezervasyon ve portal güvenliği",
+      caption: "SSL/TLS ve HSTS ile tarayıcı uyarısını bitirme, rezervasyon ve portal güvenliği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software4-2/Software4-2-3.webp",
+      alt: "TLS ve tarayıcı güven modeli özeti, otel web siteleri için HTTPS rehberi bölümü",
+      caption: "TLS ve tarayıcı güven modeli özeti, otel web siteleri için HTTPS rehberi bölümü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software4-2/Software4-2-4.webp",
+      alt: "Mixed content ve redirect temizliği bölümü, kurumsal ve otel siteleri için HTTPS kontrolü",
+      caption: "Mixed content ve redirect temizliği bölümü, kurumsal ve otel siteleri için HTTPS kontrolü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-2/Software4-2-5.webp",
+      alt: "Kullanıcıdan sunucuya TLS akışı, HSTS ve yönlendirme katmanlarıyla HTTPS model",
+      caption: "Kullanıcıdan sunucuya TLS akışı, HSTS ve yönlendirme katmanlarıyla HTTPS model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-2/Software4-2-6.webp",
+      alt: "HTTPS tamamlama checklist’i, otel ve B2B sitelerde uyarısız güven modeli",
+      caption: "HTTPS tamamlama checklist’i, otel ve B2B sitelerde uyarısız güven modeli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-2/Software4-2-7.webp",
+      alt: "Mixed content sayısı ve redirect zinciri KPI paneli, otel ve kurumsal HTTPS performansı",
+      caption: "Mixed content sayısı ve redirect zinciri KPI paneli, otel ve kurumsal HTTPS performansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-2/Software4-2-8.webp",
+      alt: "HTTPS deliverables seti, sertifika envanteri ve yayın kontrol listesiyle güven standardı",
+      caption: "HTTPS deliverables seti, sertifika envanteri ve yayın kontrol listesiyle güven standardı"
+    }
+  },
+
+
+  "otel-lansman-acilis-etkinligi-produsksiyon":{
+     banner: {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-1.webp",
+      alt: "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı",
+      caption: "Otel Lansman ve Açılış Etkinliği Prodüksiyonu: Sahne, Akış ve Medya Planı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-2.webp",
+      alt: "Run of show ve sahne LED planını özetleyen otel lansman context görseli",
+      caption: "Run of show ve sahne LED planını özetleyen otel lansman context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-3.webp",
+      alt: "Otel açılış etkinliği planlama bölümleri için geçiş görseli",
+      caption: "Otel açılış etkinliği planlama bölümleri için geçiş görseli"
+    },
+
+    "divider-06": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-4.webp",
+      alt: "Sahne LED ses ışık prodüksiyonu için otel lansman bölüm geçiş görseli",
+      caption: "Sahne LED ses ışık prodüksiyonu için otel lansman bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-5.webp",
+      alt: "Konseptten run of show ve medya çıktısına otel lansman akış diyagramı",
+      caption: "Konseptten run of show ve medya çıktısına otel lansman akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-6.webp",
+      alt: "Run of show ve lansman gecesi hızlı kontrol framework kartı otel bağlamı",
+      caption: "Run of show ve lansman gecesi hızlı kontrol framework kartı otel bağlamı"
+    },
+
+      "diagram-07": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-7.webp",
+      alt: "Lansman gecesi basın görünürlüğü ve içerik performansı için KPI skor kartı",
+      caption: "Lansman gecesi basın görünürlüğü ve içerik performansı için KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-8.webp",
+      alt: "Run of show şablonu ve lansman medya paketi teslimatlarını gösteren proof kartı",
+      caption: "Run of show şablonu ve lansman medya paketi teslimatlarını gösteren proof kartı"
+    },
+
+              "diagram-09": {
+      src: "/images/blog/creative/Creative4-2/Creative4-2-8.webp",
+      alt: "Örnek tablo",
+      caption: "Örnek tablo"
+    }
+  },
+
+  "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-1.webp",
+      alt: "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?",
+      caption: "NPS ve Misafir Memnuniyeti: Otel Satış Sonrası Süreçte Net Tavsiye Skoru Nasıl Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-2.webp",
+      alt: "Check-out sonrası NPS akışı amacı otel satış sonrası iletişim bağlam",
+      caption: "Check-out sonrası NPS akışı amacı otel satış sonrası iletişim bağlam"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-3.webp",
+      alt: "Skor okuma bölümü amacı segment yaklaşımı otel deneyimi bağlamı",
+      caption: "Skor okuma bölümü amacı segment yaklaşımı otel deneyimi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-4.webp",
+      alt: "Sürekli iyileştirme bölümü amacı NPS aksiyon döngüsü otel bağlamı",
+      caption: "Sürekli iyileştirme bölümü amacı NPS aksiyon döngüsü otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-5.webp",
+      alt: "NPS düşük skor aksiyon akışı amacı satış sonrası çözüm otel bağlamı",
+      caption: "NPS düşük skor aksiyon akışı amacı satış sonrası çözüm otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-6.webp",
+      alt: "NPS aksiyon checklisti amacı hızlı pilot kurulum otel bağlam",
+      caption: "NPS aksiyon checklisti amacı hızlı pilot kurulum otel bağlam"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-7.webp",
+      alt: "NPS dağılım grafiği amacı misafir memnuniyet segmentleri otel bağlamı",
+      caption: "NPS dağılım grafiği amacı misafir memnuniyet segmentleri otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-2/Callcenter4-2-8.webp",
+      alt: "Örnek NPS raporu mockup amacı yönetim karar desteği otel bağlamı",
+      caption: "Örnek NPS raporu mockup amacı yönetim karar desteği otel bağlamı"
+    }
+  },
+
+
+
 };
 
 export function getMediaBySlot(slug, slot) {
