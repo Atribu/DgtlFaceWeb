@@ -7871,6 +7871,361 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "otel-online-satis-hunisi-nasil-kurgulanir":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-1.webp",
+      alt: "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir",
+      caption: "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-2.webp",
+      alt: "Resort ve city otel farkı, funnel kaybını hızlı anlamaya yardımcı bağlam",
+      caption: "Resort ve city otel farkı, funnel kaybını hızlı anlamaya yardımcı bağlam"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-3.webp",
+      alt: "Kanal rol dağılımı bölümü, otel satış akışını adım adım ayırma",
+      caption: "Kanal rol dağılımı bölümü, otel satış akışını adım adım ayırma"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-4.webp",
+      alt: "Resort vs city karşılaştırma bölümü, otel funnel stratejisini netleştirme",
+      caption: "Resort vs city karşılaştırma bölümü, otel funnel stratejisini netleştirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-5.webp",
+      alt: "Traffic lead booking revenue diyagramı, otelde drop-off ve dönüşüm ilişkisi",
+      caption: "Traffic lead booking revenue diyagramı, otelde drop-off ve dönüşüm ilişkisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-6.webp",
+      alt: "Kendi hunini çiz checklist’i, otel ekibi için 90 günlük uygulama planı",
+      caption: "Kendi hunini çiz checklist’i, otel ekibi için 90 günlük uygulama planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-7.webp",
+      alt: "Her adım için KPI kartı, otel yönetimine hızlı karar desteği sağlama",
+      caption: "Her adım için KPI kartı, otel yönetimine hızlı karar desteği sağlama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-2/Pms4-2-8.webp",
+      alt: "Dashboard ve sprint teslimatları, otel satış optimizasyonu güven unsuru gösterme",
+      caption: "Dashboard ve sprint teslimatları, otel satış optimizasyonu güven unsuru gösterme"
+    }
+  },
+
+ "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-1.webp",
+      alt: "Otel Rezervasyon ve PMS Verileri İçin KVKK Risk Analizi Nasıl Yapılır?",
+      caption: "Otel Rezervasyon ve PMS Verileri İçin KVKK Risk Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-2.webp",
+      alt: "Veri haritasından risk skoruna geçiş, PMS ve rezervasyon akışında net adımlar",
+      caption: "Veri haritasından risk skoruna geçiş, PMS ve rezervasyon akışında net adımlar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-3.webp",
+      alt: "Risk analizi adımları: varlık, tehdit, skor ve kontrol ilişkisinin otel uyarlaması",
+      caption: "Risk analizi adımları: varlık, tehdit, skor ve kontrol ilişkisinin otel uyarlaması"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-4.webp",
+      alt: "Üç tipik otel risk senaryosu, yönetim ve teknik ekip için ortak dil",
+      caption: "Üç tipik otel risk senaryosu, yönetim ve teknik ekip için ortak dil"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-5.webp",
+      alt: "Olasılık×etki risk matrisi, PMS ve rezervasyon risklerini görselde konumlandırır",
+      caption: "Olasılık×etki risk matrisi, PMS ve rezervasyon risklerini görselde konumlandırır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-6.webp",
+      alt: "PMS KVKK risk analizi Mini Check, hızlı uygulanabilir kontrol listesi",
+      caption: "PMS KVKK risk analizi Mini Check, hızlı uygulanabilir kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-7.webp",
+      alt: "Önce/sonra risk skoru ve temel güvenlik KPI’ları, otel operasyon bağlamında panel",
+      caption: "Önce/sonra risk skoru ve temel güvenlik KPI’ları, otel operasyon bağlamında panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-2/Reporting4-2-8.webp",
+      alt: "Risk matrisi, senaryolar, kontrol tablosu ve sprint planı çıktıları özet kartı",
+      caption: "Risk matrisi, senaryolar, kontrol tablosu ve sprint planı çıktıları özet kartı"
+    }
+  },
+
+
+   "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-1.webp",
+      alt: "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi",
+      caption: "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-2.webp",
+      alt: "Profil kalitesi → görünürlük → rezervasyon akışı, amaç: net model, otel satış bağlamı",
+      caption: "Profil kalitesi → görünürlük → rezervasyon akışı, amaç: net model, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-3.webp",
+      alt: "Ranking sinyalleri özeti, amaç: görünürlük mantığı, otel pazarlama bağlamı",
+      caption: "Ranking sinyalleri özeti, amaç: görünürlük mantığı, otel pazarlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-4.webp",
+      alt: "İyi vs eksik profil örneği, amaç: profil hijyen farkı, otel satış bağlam",
+      caption: "İyi vs eksik profil örneği, amaç: profil hijyen farkı, otel satış bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-5.webp",
+      alt: "Fotoğraf → CTR → dönüşüm akışı, amaç: görsel strateji, otel gelir bağlamı",
+      caption: "Fotoğraf → CTR → dönüşüm akışı, amaç: görsel strateji, otel gelir bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-6.webp",
+      alt: "10 adım profil checklist’i, amaç: uygulanabilir plan, otel operasyon bağlamı",
+      caption: "10 adım profil checklist’i, amaç: uygulanabilir plan, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-7.webp",
+      alt: "Puan–yorum–dönüşüm paneli, amaç: kalite sinyalleri, otel gelir bağlamı",
+      caption: "Puan–yorum–dönüşüm paneli, amaç: kalite sinyalleri, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-2/Hotel4-2-8.webp",
+      alt: "Audit raporu + sprint çıktıları, amaç: somut deliverable, otel yönetim bağlamı",
+      caption: "Audit raporu + sprint çıktıları, amaç: somut deliverable, otel yönetim bağlamı"
+    }
+  },
+
+
+  "otel-icin-telefon-ve-whatsapp-donusum-takibi":{
+     banner: {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-1.webp",
+      alt: "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?",
+      caption: "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-2.webp",
+      alt: "Otel call center funnel’ında tıklama ve rezervasyon ilişkisini açıklayan bağlam görseli",
+      caption: "Otel call center funnel’ında tıklama ve rezervasyon ilişkisini açıklayan bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-3.webp",
+      alt: "Click-to-call ölçümünü otel satış hattı bağlamında ayıran bölüm görseli",
+      caption: "Click-to-call ölçümünü otel satış hattı bağlamında ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-4.webp",
+      alt: "WhatsApp ölçümü ve oturum geçişini otel bağlamında ayıran bölüm görseli",
+      caption: "WhatsApp ölçümü ve oturum geçişini otel bağlamında ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-5.webp",
+      alt: "Telefon ve WhatsApp funnel’ında event ve offline dönüşüm akışını otel için gösteren diyagram",
+      caption: "Telefon ve WhatsApp funnel’ında event ve offline dönüşüm akışını otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-6.webp",
+      alt: "Telefon ve WhatsApp dönüşüm takibi adımlarını otel için özetleyen checklist kart",
+      caption: "Telefon ve WhatsApp dönüşüm takibi adımlarını otel için özetleyen checklist kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-7.webp",
+      alt: "Telefon ve WhatsApp KPI’larını otel satış performansı için panel gibi gösteren kart",
+      caption: "Telefon ve WhatsApp KPI’larını otel satış performansı için panel gibi gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-3/SEM4-3-8.webp",
+      alt: "Event ve call center entegrasyonu çıktılarıyla güven unsurlarını otel için özetleyen kart",
+      caption: "Event ve call center entegrasyonu çıktılarıyla güven unsurlarını otel için özetleyen kart"
+    }
+  },
+
+
+   "backlink-analizi-audit-ve-disavow-stratejisi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-1.webp",
+      alt: "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?",
+      caption: "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-2.webp",
+      alt: "Audit hedefi ve çıktı seti, otel ve B2B envanter çerçevesi",
+      caption: "Audit hedefi ve çıktı seti, otel ve B2B envanter çerçevesi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-3.webp",
+      alt: "Risk sınıfları spektrumu, kaliteli–toksik ayracı",
+      caption: "Risk sınıfları spektrumu, kaliteli–toksik ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-4.webp",
+      alt: "Disavow son çare kuralı, karar ağacı ayracı",
+      caption: "Disavow son çare kuralı, karar ağacı ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-5.webp",
+      alt: "Audit akış diyagramı: envanter–sınıflandırma–kaldırma–disavow–izleme",
+      caption: "Audit akış diyagramı: envanter–sınıflandırma–kaldırma–disavow–izleme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-6.webp",
+      alt: "Disavow öncesi yapılacaklar checklist’i, güvenli audit kartı",
+      caption: "Disavow öncesi yapılacaklar checklist’i, güvenli audit kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-7.webp",
+      alt: "Öncesi/sonrası audit KPI kartı, risk ve görünürlük ölçümü",
+      caption: "Öncesi/sonrası audit KPI kartı, risk ve görünürlük ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-3/SEO4-3-8.webp",
+      alt: "Audit deliverables kanıt kartı, rapor ve aksiyon planı",
+      caption: "Audit deliverables kanıt kartı, rapor ve aksiyon planı"
+    }
+  },
+
+  "sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":{
+     banner: {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-1.webp",
+      alt: "Sosyal Medya Reklam Kreatif Stratejisi: Görsel, Carousel ve Reels",
+      caption: "Sosyal Medya Reklam Kreatif Stratejisi: Görsel, Carousel ve Reels"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-2.webp",
+      alt: "Görsel, carousel ve reels formatlarının hedefe göre kullanım haritası",
+      caption: "Görsel, carousel ve reels formatlarının hedefe göre kullanım haritası"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-3.webp",
+      alt: "Format–hedef eşleşmesi bölüm ayracı, kreatif planlama bağlamı",
+      caption: "Format–hedef eşleşmesi bölüm ayracı, kreatif planlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-4.webp",
+      alt: "A/B test ve optimizasyon bölüm ayracı, reklam kreatif iyileştirme",
+      caption: "A/B test ve optimizasyon bölüm ayracı, reklam kreatif iyileştirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-5.webp",
+      alt: "Test-and-learn kreatif döngüsü diyagramı, sosyal reklam optimizasyonu",
+      caption: "Test-and-learn kreatif döngüsü diyagramı, sosyal reklam optimizasyonu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-6.webp",
+      alt: "Kreatif kalite checklist’i, hook teklif sosyal kanıt çerçevesi",
+      caption: "Kreatif kalite checklist’i, hook teklif sosyal kanıt çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-7.webp",
+      alt: "CTR LPV CPA ROAS KPI paneli, kreatif performans skor kartı",
+      caption: "CTR LPV CPA ROAS KPI paneli, kreatif performans skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-3/SMM4-3-8.webp",
+      alt: "İyi-kötü kreatif örnekleri mockup kolajı, otel ve B2B reklamları",
+      caption: "İyi-kötü kreatif örnekleri mockup kolajı, otel ve B2B reklamları"
+    }
+  },
+
+
+   "ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":{
+     banner: {
+      src: "/images/blog/software/Software4-3/Software4-3-1.webp",
+      alt: "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin",
+      caption: "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software4-3/Software4-3-2.webp",
+      alt: "Sezonda trafik patlamasına karşı CDN ve WAF stratejisi, rezervasyon ve portal güvenliği",
+      caption: "Sezonda trafik patlamasına karşı CDN ve WAF stratejisi, rezervasyon ve portal güvenliği"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software4-3/Software4-3-3.webp",
+      alt: "DDoS türleri ve etkileri, otel ve B2B siteleri için güvenlik bölümü ayırıcı",
+      caption: "DDoS türleri ve etkileri, otel ve B2B siteleri için güvenlik bölümü ayırıcı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software4-3/Software4-3-4.webp",
+      alt: "WAF ve uygulama katmanı koruması, kurumsal site güvenliği için bölüm ayırıcı",
+      caption: "WAF ve uygulama katmanı koruması, kurumsal site güvenliği için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-3/Software4-3-5.webp",
+      alt: "CDN–WAF–rate limit–origin akışı, otel ve kurumsal siteler için çok katmanlı koruma modeli",
+      caption: "CDN–WAF–rate limit–origin akışı, otel ve kurumsal siteler için çok katmanlı koruma modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-3/Software4-3-6.webp",
+      alt: "DDoS ve WAF kontrol listesi, otel ve B2B projeler için uygulanabilir güvenlik çerçevesi",
+      caption: "DDoS ve WAF kontrol listesi, otel ve B2B projeler için uygulanabilir güvenlik çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-3/Software4-3-7.webp",
+      alt: "Uptime ve yanıt süresi KPI paneli, WAF blokları ve bot oranı ile erişilebilirlik yönetimi",
+      caption: "Uptime ve yanıt süresi KPI paneli, WAF blokları ve bot oranı ile erişilebilirlik yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-3/Software4-3-8.webp",
+      alt: "DDoS/WAF deliverable seti, kural seti ve runbook ile sürdürülebilir koruma çıktıları",
+      caption: "DDoS/WAF deliverable seti, kural seti ve runbook ile sürdürülebilir koruma çıktıları"
+    }
+  },
+
+
 
 };
 

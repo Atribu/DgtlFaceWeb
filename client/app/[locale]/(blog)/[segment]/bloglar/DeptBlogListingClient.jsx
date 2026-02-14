@@ -7,7 +7,7 @@ import { useTranslations, useLocale, useMessages } from "next-intl";
 import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
 import HeroSlider from "../blog/HeroSlider";
 import BlogRail from "../blog/BlogRail";
-
+import BlogBreadcrumbs from "../blog/BlogBreadcrumbs"; 
 
 // Senin mevcut fonksiyonun
 function toTs(dateStr) {
@@ -262,14 +262,20 @@ const rails = useMemo(() => {
   return (
     <main className="min-h-screen bg-[#150016] text-white pt-12 flex flex-col items-center justify-center">
       {/* Üst bilgi / breadcrumb */}
-      <section className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 pt-8">
-        <div className="flex items-center justify-between ">
-          <div className="flex flex-col w-full items-center justify-center mb-2 lg:mb-3">
-            <p className="text-xs text-white/60">
-              <Link href={`/${locale}/bloglar`} className="hover:text-white">Bloglar</Link>
-              <span className="mx-2">/</span>
-              <span className="capitalize">{DEPT_LABEL[segment] || segment}</span>
-            </p>
+      <section className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 pt-8 justify-center items-center">
+        <div className="flex items-center justify-center ">
+          <div className="flex flex-col w-full items-center justify-center mb-2 lg:mb-2.5 max-w-[1000px] -mt-3">
+            <BlogBreadcrumbs
+  locale={locale}
+  department={segment}
+  deptName={DEPT_LABEL[segment] || segment}
+  postTitle={`${DEPT_LABEL[segment] || segment} Blogları`}
+  // Listing için Blog index'i istersen departmana özel yap:
+  // blogIndexHref={`/${locale}/${segment}/bloglar`}
+  blogIndexHref={`/${locale}/bloglar`}
+  className="mb-0"
+/>
+
             <h1 className=" text-lg md:text-xl lg:text-2xl font-semibold">
               {DEPT_LABEL[segment] || segment} Blogları
             </h1>

@@ -2309,6 +2309,111 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-icin-telefon-ve-whatsapp-donusum-takibi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi",
+      "name": "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?",
+      "description": "GTM ile telefon ve WhatsApp tıklamalarını ölçün; call tracking ve offline conversion import ile aramaları rezervasyona bağlayın. GA4 ve Google Ads’te net raporlayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi#article",
+      "headline": "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?",
+      "name": "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?",
+      "description": "Otellerde telefon ve WhatsApp tıklamalarını GA4’te event olarak ölçün; call tracking ve offline conversion import ile gerçek rezervasyon kapanışını Google Ads optimizasyonuna bağlayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Click-to-Call",
+        "WhatsApp Click",
+        "Call Tracking",
+        "Offline Conversions",
+        "Hotel Call Center",
+        "Google Tag Manager",
+        "Google Analytics 4"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Oteller İçin Telefon ve WhatsApp Dönüşüm Takibi Nasıl Kurulur?", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-telefon-ve-whatsapp-donusum-takibi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Telefon ve WhatsApp tıklamaları dönüşüm olarak nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GTM ile click_to_call ve click_whatsapp event’lerini GA4’e göndererek ölçebilirsiniz. Başlangıçta event olarak izleyip, dönüşen çağrıyı offline conversion ile ayrı conversion yapmak en sağlıklı yaklaşımdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için call tracking nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call tracking, aramaları kaynağıyla ilişkilendirmenizi sağlayan sistemdir. Dinamik numara değişimi ve call center etiketleriyle hangi kampanyanın gerçek satış getirdiğini daha doğru görmenize yardım eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Offline conversion import nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web’den gelen arama/lead rezervasyona döndüğünde bu sonuç Google Ads’e offline conversion olarak aktarılır. Böylece optimizasyon tıklama değil rezervasyon sonucu sinyaliyle yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call center verisini Google Ads ile nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRM’de kaynak/kampanya ve kapanış sonucunu standartlaştırın; dönüşen çağrı tanımını netleştirip call tracking/CRM üzerinden offline dönüşüm süreci kurun."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -4518,6 +4623,115 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Alaka ve kaynak kalitesi, anchor çeşitliliği, link artış hızı, şablon link oranı ve riskli kaynak kümeleri temel kontrol alanlarıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"backlink-analizi-audit-ve-disavow-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": ["Backlink Audit", "Disavow", "Toxic Links", "Search Console"]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi#article",
+      "url": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi",
+      "headline": "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?",
+      "name": "Backlink Analizi, Audit ve Disavow Stratejisi: Ne Zaman, Nasıl Yapılmalı?",
+      "description": "Backlink audit nedir, nasıl yapılır? Envanter çıkarın, linkleri risk sınıflarına ayırın, sildirme deneyin ve sadece gerekli olanları disavow edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        "Backlink Audit",
+        "Disavow",
+        "Toxic Links",
+        "Search Console",
+        "Profile cleanup",
+        "Risk mitigation",
+        "Off-page hygiene"
+      ],
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "#answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#service",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "serviceType": "SEO / Backlink Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "Backlink & Dijital Otorite Yönetimi", "item": "https://dgtlface.com/tr/seo/backlink-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Backlink Analizi, Audit ve Disavow Stratejisi", "item": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/backlink-analizi-audit-ve-disavow-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Backlink audit nedir, nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Audit; linkleri tek envanterde toplayıp kalite/risk sınıfına ayırma sürecidir. Envanter → sınıflandırma → kaldırma denemesi → gerekirse sınırlı disavow → izleme şeklinde yürütülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Disavow dosyası ne zaman kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Linkler kanıtlı şekilde spam/toksikse ve kaldırtma mümkün değilse; minimum kapsamla son çare olarak kullanılmalıdır. Panik hâlinde geniş disavow önerilmez."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tüm kötü linkleri disavow etmek doğru mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Yanlış disavow değerli sinyalleri de zayıflatabilir. Kanıt ve küme analizi ile seçici olun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit sonrası ne sıklıkla tekrar kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normal profillerde 90–180 gün; geçmişte agresif link yapılan veya riskli profillerde 30–90 gün aralığı daha güvenlidir."
           }
         }
       ]
@@ -7155,6 +7369,109 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+      "name": "Sosyal Medya Reklamları",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels#article",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels",
+      "headline": "Sosyal Medya Reklam Kreatif Stratejisi: Görsel, Carousel ve Reels",
+      "name": "Sosyal Medya Reklam Kreatif Stratejisi: Görsel, Carousel ve Reels",
+      "description": "Kampanya hedefine göre tek görsel, carousel ve reels seçimi. Güçlü hook, net teklif, sosyal kanıt ve A/B test planı. Otel ve B2B örnekleri + kreatif kalite checklist’i.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Ad Creatives",
+        "Single Image",
+        "Carousel",
+        "Reels Ads",
+        "Hook",
+        "Offer",
+        "Social Proof",
+        "A/B Testing"
+      ],
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+        { "@type": "ListItem", "position": 4, "name": "Sosyal Medya Reklam Kreatif Stratejisi: Görsel, Carousel ve Reels", "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels#faq",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya reklamlarında hangi kreatif formatı ne zaman kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Awareness’te reels/video, consideration’da carousel, conversion’da net teklifli tek görsel genelde en uyumlu formatlardır. Remarketing’de segmente göre carousel veya tek görsel kullanılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek görsel, carousel ve reels reklamı arasındaki fark nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek görsel hızlı karar ve tek vaat içindir; carousel adım adım ikna eder ve kanıtı sıralı gösterir; reels dikkat ve bağlam üretir, soğuk kitleyi ısıtmada güçlüdür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kreatif A/B testi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı kitle ve bütçede tek değişken değiştirerek (hook/teklif/kanıt/format) 3–7 gün test edilir. KPI’ya göre kazanan seçilir ve varyasyonlanarak ölçeklenir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -9283,6 +9600,145 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "HSTS’i kontrollü ve kademeli etkinleştir",
           "text": "HTTPS tamamen temizlendikten sonra HSTS’i düşük max-age ile başlat, izlemeye göre kademeli artır."
+        }
+      ]
+    }
+  ]
+},
+
+"ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu ve Güvenlik",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin",
+      "headline": "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin",
+      "name": "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin",
+      "description": "Otel ve B2B siteleri için DDoS+WAF rehberi: ağ katmanı koruma, CDN, rate limit, kritik endpoint güvenliği, bot trafiği yönetimi ve uygulanabilir kontrol listesi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "DDoS Protection",
+        "Web Application Firewall",
+        "CDN",
+        "Rate Limiting",
+        "Bot Management",
+        "Availability-first security"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+      "name": "Sunucu ve Güvenlik",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "DDoS Koruma, WAF ve CDN Stratejisi",
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+        { "@type": "ListItem", "position": 4, "name": "DDoS Koruma ve WAF Stratejisi: Otel ve Kurumsal Siteler İçin", "item": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "DDoS nedir, otel ve kurumsal siteleri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DDoS, çok sayıda kaynaktan gelen yoğun trafikle siteyi yavaşlatır veya erişilemez hâle getirir. Otellerde rezervasyon akışı kesilir, B2B’de portal/panel erişimi bozulur ve operasyon aksar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WAF ne işe yarar, nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WAF, uygulamaya ulaşmadan kötü niyetli istekleri filtreler. En sağlıklı kurgulama; kritik endpoint’leri belirleyip kural setini önce log modunda doğrulamak, sonra bloklamaya geçmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rate limiting ve IP/ülke bazlı filtreleme nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rate limit, belirli süre içinde istek sayısını sınırlar ve aşımda 429/engelleme uygular. IP/ülke filtreleri trafiği kısıtlayabilir; ancak yanlış kullanılırsa gerçek kullanıcıyı ve pazarı etkileyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CDN + WAF kombinasyonu ile DDoS riskini nasıl azaltırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CDN trafiği edge’de dağıtarak origin yükünü azaltır, WAF uygulama katmanı saldırılarını filtreler. Kritik endpoint’lerde rate limit uygulandığında kesinti riski belirgin biçimde düşer."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin#howto",
+      "name": "DDoS ve Bot Trafiğine Karşı Çok Katmanlı Koruma Kurulumu",
+      "description": "Ağ katmanı koruma, CDN, WAF ve rate limiting ile otel ve kurumsal sitelerde erişilebilirliği korumak için adım adım yaklaşım.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Trafik türünü ayırt et (network vs L7 vs bot)",
+          "text": "Hangi endpoint’lerin yoğunlaştığını, IP/ülke/ASN kümelenmesini ve p95/5xx artışını kontrol ederek saldırı tipini sınıflandır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Edge katmanını konumlandır (CDN + upstream koruma)",
+          "text": "Origin’i edge arkasına al, mümkünse origin erişimini daralt ve network-level mitigasyonu etkinleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "WAF’i kritik endpoint’lere göre kurgula",
+          "text": "Login/rezervasyon/API uçlarında kural setini önce log modunda doğrula, sonra bloklamaya geç; istisnaları (SEO/iş ortakları) tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Rate limit profilleriyle yükü şekillendir",
+          "text": "Endpoint bazlı limitler koy, aşımda 429/challenge/engelleme davranışını belirle; peak sezon profiline göre eşikleri ayarla."
         }
       ]
     }
@@ -15617,6 +16073,190 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]
+},
+
+"otel-online-satis-hunisi-nasil-kurgulanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir",
+      "name": "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir",
+      "description": "Otel online satış hunisini trafik→talep→rezervasyon→gelir adımlarıyla kurun. Darboğazı KPI’larla bulun, resort ve city senaryolarıyla strateji çıkarın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Online Sales Funnel",
+        "Traffic",
+        "Leads",
+        "Bookings",
+        "Revenue",
+        "Conversion Rate",
+        "DropOff"
+      ],
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#primaryimage",
+        "url": "https://dgtlface.com/assets/media/otel-online-satis-hunisi-nasil-kurgulanir-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#webpage" },
+      "headline": "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir",
+      "name": "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir",
+      "description": "Otel online satış hunisini trafik→talep→rezervasyon→gelir adımlarıyla kurun. Darboğazı KPI’larla bulun, resort ve city senaryolarıyla strateji çıkarın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "image": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#primaryimage" },
+      "keywords": [
+        "otel online satış hunisi",
+        "trafik talep rezervasyon gelir",
+        "funnel KPI seti",
+        "drop-off analizi",
+        "online sales funnel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/online-satis#service",
+      "name": "Online Satış Optimizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/online-satis",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Antalya" },
+        { "@type": "AdministrativeArea", "name": "Belek" },
+        { "@type": "AdministrativeArea", "name": "Side" },
+        { "@type": "AdministrativeArea", "name": "İstanbul" }
+      ],
+      "serviceType": "Hotel Online Sales Optimization"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#howto",
+      "name": "Otel online satış hunisini kurgulama adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Huniyi 4 adımda tanımla",
+          "text": "Trafik, talep, rezervasyon ve gelir katmanlarını otel bağlamında netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI setini kur",
+          "text": "Her adım için 3 KPI belirle ve baseline değerleri çıkar."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Drop-off’u bul ve test et",
+          "text": "En büyük kaybın olduğu geçişi seç, 14 günlük sprintle iyileştirme testi yap."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Online Satış Optimizasyonu",
+          "item": "https://dgtlface.com/tr/pms-ota/online-satis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Online Satış Hunisi Nasıl Kurgulanır? Trafik, Talep, Rezervasyon, Gelir",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel online satış hunisi nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trafik, talep, rezervasyon ve gelir adımlarını tanımlayın; her geçişe KPI bağlayın ve en büyük drop-off olan geçişi 14 günlük testlerle iyileştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Online satış hunisinde en sık nerede kayıp yaşanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğunlukla talep→rezervasyon geçişinde kayıp görülür; rezervasyon motoru adımları, ödeme, iptal politikası ve call center SLA bu noktayı etkiler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Huniyi ölçmek için hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her adım için 3 KPI yaklaşımıyla başlayın: oturum/kanal, lead rate, conversion rate, checkout drop-off, ADR/RevPAR ve net gelir (komisyon+iptal)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Resort ve city otelde funnel neden farklıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort’ta karar süreci daha uzun ve call center/teklif kurgusu etkiliyken; city otelde hız, mobil UX ve fiyat netliği dönüşümü daha hızlı belirler."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satis-hunisi-nasil-kurgulanir#speakable",
+      "cssSelector": [".post-title", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -17827,6 +18467,173 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Veri envanteri hangi sistemde hangi verinin olduğunu tabloyla gösterir; veri haritası ise bu tabloyu akışla tamamlayarak verinin nereden gelip nereye gittiğini görselleştirir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi",
+      "name": "Otel Rezervasyon ve PMS Verileri İçin KVKK Risk Analizi Nasıl Yapılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "KVKK Risk Analizi",
+        "PMS",
+        "Reservation System",
+        "Access Control",
+        "Loglama",
+        "Data Breach"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#article",
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi",
+      "headline": "Otel Rezervasyon ve PMS Verileri İçin KVKK Risk Analizi Nasıl Yapılır?",
+      "name": "Otel Rezervasyon ve PMS Verileri İçin KVKK Risk Analizi Nasıl Yapılır?",
+      "description": "PMS ve rezervasyon verileri için KVKK risk analizi yapın: olasılık×etki matrisiyle skorlama, tipik otel senaryoları ve teknik/organizasyonel tedbir raporu.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "articleSection": "Veri Analizi & Raporlama",
+      "keywords": [
+        "kvkk risk analizi otel",
+        "pms rezervasyon verisi riskleri",
+        "olasilik etki risk matrisi",
+        "hotel kvkk risk analysis",
+        "pms reservation data risk assessment",
+        "privacy risk matrix hospitality"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "name": "KVKK & Veri Güvenliği Raporlama",
+      "serviceType": "KVKK Risk Analizi ve Teknik/Organizasyonel Tedbir Raporlama",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#howto",
+      "name": "Otel PMS ve rezervasyon verileri için KVKK risk analizi nasıl yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Varlık ve veri setlerini tanımlayın",
+          "text": "Rezervasyon kaydı, kimlik doğrulama verisi, ödeme izleri ve log gibi kritik veri setlerini listeleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tehditleri çıkarın",
+          "text": "Yetkisiz erişim, yanlış alıcıya e-posta, açık terminal, entegrasyon hatası ve log yokluğu gibi tipik tehditleri belirleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Olasılık × Etki ile skorlayın",
+          "text": "1–5 ölçeğiyle olasılık ve etki puanlayıp risk skorunu hesaplayın; yüksek skorlu riskleri önceliklendirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kontrol setini tanımlayın",
+          "text": "Her risk için teknik ve organizasyonel kontrolleri (yetki matrisi, loglama, parola politikası, eğitim) ve kanıtlarını belirleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Raporlayın ve güncelleyin",
+          "text": "İlk 10 aksiyonu sprint planına bağlayın; kontrol sonrası önce/sonra risk skorunu güncelleyerek periyodik revizyon yapın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK & Veri Güvenliği Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel PMS KVKK Risk Analizi",
+          "item": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK risk analizi nedir, oteller için neden gereklidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KVKK risk analizi, otelde kişisel verilerin tehditlere göre olasılık×etki ile puanlanıp riski düşüren kontrollerin rapora bağlandığı yöntemdir; PMS ve rezervasyon süreçlerinde kritik fayda sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve rezervasyon verileri için risk analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varlıklar tanımlanır, tehditler çıkarılır, 1–5 ölçeğiyle olasılık/etki puanlanarak skorlanır ve en yüksek riskler için teknik/organizasyonel kontroller kanıtlarıyla raporlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Risk matrisi (olasılık×etki) otel veri güvenliğinde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Risk matrisi, riskleri önceliklendirir; en yüksek skorlu riskler için sprint aksiyonları belirlenir ve kontroller sonrası önce/sonra skor güncellenerek ölçülebilir iyileştirme yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Risk analizi çıktıları teknik ve organizasyonel tedbirlere nasıl bağlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her risk, Risk→mitigatedBy→Control mantığıyla erişim yetkisi, loglama, parola politikası, yedekleme, eğitim ve prosedür gibi kontrollerle eşleştirilmeli ve kanıtları raporda gösterilmelidir."
           }
         }
       ]
@@ -20058,6 +20865,133 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "OTA keşif ve karşılaştırmada güçlüdür; web marka güveni ve paket avantajlarını sunar; call center karmaşık ihtiyaçlarda dönüşümü artırır. Üç kanalın rolünü yazılı hale getirip KPI ile haftalık takip ettiğinizde çakışma azalır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi",
+      "name": "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi",
+      "headline": "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi",
+      "name": "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi",
+      "description": "Booking profilinizi içerik, fotoğraf, puan/yorum ve kampanyalarla optimize edin. Görünürlük ve dönüşümü artırmak için 10 adım + karar çerçevesi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#howto",
+      "name": "Booking.com Profil Optimizasyonu: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Konsept ve destinasyonu netleştir", "text": "Otel konseptini ve destinasyonu doğal ve net biçimde yazın (örn. Belek resort, Kemer spa, Bodrum butik)." },
+        { "@type": "HowToStep", "name": "Oda/yatak bilgilerini doğrula", "text": "Oda tipi ve yatak düzenini PMS ve kanal yöneticisiyle tutarlı hale getirin." },
+        { "@type": "HowToStep", "name": "Politikaları segmentle", "text": "İptal/ödeme koşullarını sezon ve oda tipine göre netleştirin." },
+        { "@type": "HowToStep", "name": "Olanakları doğru kategorize et", "text": "Olanak seçimlerini eksiksiz ve doğru kategori altında tamamlayın." },
+        { "@type": "HowToStep", "name": "Kapak ve galeri akışını optimize et", "text": "Kapak fotoğrafını tek vaat kriteriyle seçip ilk 10 fotoğrafı karar akışına göre sıralayın." },
+        { "@type": "HowToStep", "name": "Yorum yanıt rutinini kur", "text": "Günlük 15 dakikalık yanıt disiplini oluşturun; olumsuz yorumları kök neden aksiyonlarına bağlayın." },
+        { "@type": "HowToStep", "name": "Kampanyaları KPI ile test et", "text": "Genius ve Mobile Deal gibi kampanyaları 14 günlük test ve KPI eşikleriyle değerlendirin." },
+        { "@type": "HowToStep", "name": "KPI paneliyle haftalık takip yap", "text": "CTR, dönüşüm, iptal ve net ADR etkisini haftalık izleyip iyileştirme planını güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Booking.com Profil Optimizasyonu: Puan, Görünürlük ve Dönüşüm Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Booking.com’da otel profilimi nasıl optimize ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profil metni, oda/yatak bilgileri, politikalar, olanaklar ve görsel akışını eksiksiz ve tutarlı hale getirin. Yorum–puan yönetimini süreçleştirin ve kampanyaları KPI ile test edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking sıralamasını neler etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profil kalitesi, fotoğraf stratejisi, dönüşüm sinyalleri (CTR/dönüşüm), puan–yorum güven sinyalleri ve politika netliği sıralamayı etkiler. Kampanyalar da kontrollü biçimde görünürlük sağlayabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puan ve yorumlar Booking görünürlüğünü nasıl değiştirir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puan ve yorum hacmi güven sinyali üretir, yanıt disiplini de kalite algısını güçlendirir. Beklentiyle deneyim uyumlu olursa dönüşüm artar ve görünürlük güçlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Genius ve Mobile Deal gibi kampanyalara katılmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mantıklı olabilir; ancak 14 günlük test ve KPI eşikleri olmadan katılmak risklidir. Net ADR, iptal ve dönüşüm etkisini birlikte izleyerek karar verin."
           }
         }
       ]
