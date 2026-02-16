@@ -8334,6 +8334,57 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "":{
+     banner: {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/Creative1-5/Creative1-5-8.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
 
 };
 

@@ -368,8 +368,7 @@ const loadPreferences = () => {
 
     <div className="flex flex-col h-full w-[96%] ml-[2%] sm:w-[95%] lg:w-[99%] text-start text-[#FBFBFB] overflow-y-scroll overflow-x-hidden z-[9999] font-inter thin-scrollbar items-center justify-start">
       <p className="text-[13px] font-normal leading-[19.5px] pr-[3.5%] lg:pr-[7.5%] w-[82%]">
-        6698 sayılı Kişisel Verilerin Korunması Kanunu'na (“Kanun”) göre ARAS
-        İNŞAAT TİCARET TURİZM ANONİM ŞİRKETİ (“Bundan sonra ‘DGTLFACE’ olarak
+        6698 sayılı Kişisel Verilerin Korunması Kanunu'na (“Kanun”) göre DGTLFACE (“Bundan sonra ‘DGTLFACE’ olarak
         anılacaktır.”) sizinle ilgili kişisel verileri işlemesi sebebiyle veri
         sorumlusu olarak tanımlanmaktadır. Kanunun "Aydınlatma Yükümlülüğü"
         başlıklı 10'ncu maddesine göre veri sorumluları, kişisel verilerini
