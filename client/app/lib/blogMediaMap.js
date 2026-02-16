@@ -8286,8 +8286,8 @@ export const BLOG_MEDIA_MAP = {
   "otel-iatel-degisim-iade-surecleri-satis-sonrasi":{
      banner: {
       src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-1.webp",
-      alt: "",
-      caption: ""
+      alt: "İptal, Değişiklik ve İade Süreçleri: Otel Satış Sonrası Destek Nasıl Yapılandırılmalı?",
+      caption: "İptal, Değişiklik ve İade Süreçleri: Otel Satış Sonrası Destek Nasıl Yapılandırılmalı?"
     },
 
           "h1-context-02": {
@@ -8334,57 +8334,307 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-  "":{
+  "web-rezervasyon-donusum-oranini-artirmak":{
      banner: {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-1.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-1.webp",
+      alt: "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu",
+      caption: "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu"
     },
 
           "h1-context-02": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-2.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-2.webp",
+      alt: "Öncesi sonrası booking engine ekranı, otel UX iyileştirme hedefi",
+      caption: "Öncesi sonrası booking engine ekranı, otel UX iyileştirme hedefi"
     },
 
            "divider-03": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-3.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-3.webp",
+      alt: "Rezervasyon motoru UX bölümü, otel dönüşüm artırma odaklı geçiş görseli",
+      caption: "Rezervasyon motoru UX bölümü, otel dönüşüm artırma odaklı geçiş görseli"
     },
 
     "divider-04": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-4.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-4.webp",
+      alt: "Upsell ve paketler bölümü, otel gelir artırma ve sepet büyütme bağlamı",
+      caption: "Upsell ve paketler bölümü, otel gelir artırma ve sepet büyütme bağlamı"
     },
 
      "diagram-05": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-5.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-5.webp",
+      alt: "Mobil masaüstü drop-off diyagramı, otel rezervasyon akışı dönüşüm analizi",
+      caption: "Mobil masaüstü drop-off diyagramı, otel rezervasyon akışı dönüşüm analizi"
     },
 
           "checklist-06": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-6.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-6.webp",
+      alt: "21 CRO ipucu checklist’i, otel web sitesinde hızlı iyileştirme planı",
+      caption: "21 CRO ipucu checklist’i, otel web sitesinde hızlı iyileştirme planı"
     },
 
       "kpi-07": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-7.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-7.webp",
+      alt: "Mobil vs masaüstü dönüşüm KPI kartı, otel web performansını kıyaslama",
+      caption: "Mobil vs masaüstü dönüşüm KPI kartı, otel web performansını kıyaslama"
     },
 
           "proof-08": {
-      src: "/images/blog/pms/Creative1-5/Creative1-5-8.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/pms/PMS-OTA4-3/Pms4-3-8.webp",
+      alt: "CRO teslimatları ve test planı, otel direct rezervasyon güven unsuru",
+      caption: "CRO teslimatları ve test planı, otel direct rezervasyon güven unsuru"
     }
   },
 
 
+  "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-1.webp",
+      alt: "Cookie Yönetimi ve İzin Kayıtlarını KVKK Uyumlu Şekilde Raporlamak",
+      caption: "Cookie Yönetimi ve İzin Kayıtlarını KVKK Uyumlu Şekilde Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-2.webp",
+      alt: "Consent log ile Tag Manager ve Analytics bağlantısı, otel ekipleri için sade şema",
+      caption: "Consent log ile Tag Manager ve Analytics bağlantısı, otel ekipleri için sade şema"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-3.webp",
+      alt: "Cookie izin kayıtları neden raporlanır, denetim kanıtı ve ölçüm kapsamı özeti",
+      caption: "Cookie izin kayıtları neden raporlanır, denetim kanıtı ve ölçüm kapsamı özeti"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-4.webp",
+      alt: "Otel için örnek consent rapor paketi, yönetim ve teknik ekibi ortaklaştırır",
+      caption: "Otel için örnek consent rapor paketi, yönetim ve teknik ekibi ortaklaştırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-5.webp",
+      alt: "Consent banner akışı ve tag tetikleme, KVKK uyumlu ölçüm mantığını gösterir",
+      caption: "Consent banner akışı ve tag tetikleme, KVKK uyumlu ölçüm mantığını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-6.webp",
+      alt: "Consent log alanları checklist’i, otel sitelerinde hızlı doğrulama sağlar",
+      caption: "Consent log alanları checklist’i, otel sitelerinde hızlı doğrulama sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-7.webp",
+      alt: "Opt-in oranları ve ölçüm kapsamı, otel pazarlama raporlarını doğru yorumlatır",
+      caption: "Opt-in oranları ve ölçüm kapsamı, otel pazarlama raporlarını doğru yorumlatır"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-3/Reporting4-3-8.webp",
+      alt: "Denetim eki, KPI dashboard ve şablon çıktıları, otel ekipleri için güven kanıtı üretir",
+      caption: "Denetim eki, KPI dashboard ve şablon çıktıları, otel ekipleri için güven kanıtı üretir"
+    }
+  },
+
+  "expedia-ve-diger-otalarda-performans-artirma-stratejileri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-1.webp",
+      alt: "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?",
+      caption: "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-2.webp",
+      alt: "Expedia/Agoda rol paylaşımı modeli, amaç: platform cluster mantığı, otel satış bağlamı",
+      caption: "Expedia/Agoda rol paylaşımı modeli, amaç: platform cluster mantığı, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-3.webp",
+      alt: "OTA rol haritası, amaç: pazar-segment ayrımı, otel gelir bağlamı",
+      caption: "OTA rol haritası, amaç: pazar-segment ayrımı, otel gelir bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-4.webp",
+      alt: "Pazar-OTA eşleştirme fikri, amaç: stratejik seçim, otel gelir bağlamı",
+      caption: "Pazar-OTA eşleştirme fikri, amaç: stratejik seçim, otel gelir bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-5.webp",
+      alt: "İçerik→CTR→dönüşüm→görünürlük döngüsü, amaç: performans mantığı, otel gelir bağlamı",
+      caption: "İçerik→CTR→dönüşüm→görünürlük döngüsü, amaç: performans mantığı, otel gelir bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-6.webp",
+      alt: "Çoklu OTA yönetimi 7 ipucu, amaç: uygulanabilir sistem, otel operasyon bağlamı",
+      caption: "Çoklu OTA yönetimi 7 ipucu, amaç: uygulanabilir sistem, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-7.webp",
+      alt: "Kanal KPI paneli, amaç: görünürlük-dönüşüm-iptal takibi, otel gelir bağlamı",
+      caption: "Kanal KPI paneli, amaç: görünürlük-dönüşüm-iptal takibi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-3/Hotel4-3-8.webp",
+      alt: "Portföy planı + KPI paneli + kampanya kartları, amaç: somut çıktı, otel yönetim bağlamı",
+      caption: "Portföy planı + KPI paneli + kampanya kartları, amaç: somut çıktı, otel yönetim bağlamı"
+    }
+  },
+
+
+   "meta-conversion-api-ve-enhanced-conversions-otel-icin":{
+     banner: {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-1.webp",
+      alt: "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?",
+      caption: "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-2.webp",
+      alt: "Tarayıcıdan sunucuya sinyal akışını otel rezervasyonu bağlamında açıklayan görsel",
+      caption: "Tarayıcıdan sunucuya sinyal akışını otel rezervasyonu bağlamında açıklayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-3.webp",
+      alt: "Client-side ve server-side ölçüm farkını otel pazarlaması için ayıran bölüm görseli",
+      caption: "Client-side ve server-side ölçüm farkını otel pazarlaması için ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-4.webp",
+      alt: "Enhanced conversions ve veri doğrulama mantığını otel dönüşümleri için ayıran bölüm görseli",
+      caption: "Enhanced conversions ve veri doğrulama mantığını otel dönüşümleri için ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-5.webp",
+      alt: "Browser server platform akışını CAPI ve enhanced conversions ile otel için gösteren diyagram",
+      caption: "Browser server platform akışını CAPI ve enhanced conversions ile otel için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-6.webp",
+      alt: "KVKK uyumlu server-side ölçüm için veri minimizasyonu ve hashing kontrol kartı",
+      caption: "KVKK uyumlu server-side ölçüm için veri minimizasyonu ve hashing kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-7.webp",
+      alt: "Ölçüm doğruluğu ve optimizasyon kalitesini otel KPI’larıyla gösteren skor kartı",
+      caption: "Ölçüm doğruluğu ve optimizasyon kalitesini otel KPI’larıyla gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-4/SEM4-4-8.webp",
+      alt: "CAPI ve enhanced conversions kurulum çıktıları ve test kanıtlarını otel için özetleyen kart",
+      caption: "CAPI ve enhanced conversions kurulum çıktıları ve test kanıtlarını otel için özetleyen kart"
+    }
+  },
+
+  "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-1.webp",
+      alt: "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+      caption: "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-2.webp",
+      alt: "Link building vs link earning farkı, otel/B2B örnekli görsel",
+      caption: "Link building vs link earning farkı, otel/B2B örnekli görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-3.webp",
+      alt: "Link çeken içerik türleri ve kaynaklar, PR–SEO ayracı",
+      caption: "Link çeken içerik türleri ve kaynaklar, PR–SEO ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-4.webp",
+      alt: "Kampanya planı ve hazırlık aşamaları, dijital PR ayracı",
+      caption: "Kampanya planı ve hazırlık aşamaları, dijital PR ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-5.webp",
+      alt: "Dijital PR kampanya akışı: asset→pitch→yayın→link→ölçüm",
+      caption: "Dijital PR kampanya akışı: asset→pitch→yayın→link→ölçüm"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-6.webp",
+      alt: "Dijital PR kampanya hazırlık checklist’i, link earning uygulama kartı",
+      caption: "Dijital PR kampanya hazırlık checklist’i, link earning uygulama kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-7.webp",
+      alt: "PR–SEO KPI paneli: link kalitesi, referral, marka araması",
+      caption: "PR–SEO KPI paneli: link kalitesi, referral, marka araması"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-4/SEO4-4-8.webp",
+      alt: "Linkable asset deliverables kartı: rapor, rehber, case, press kit",
+      caption: "Linkable asset deliverables kartı: rapor, rehber, case, press kit"
+    }
+  },
+
+  "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":{
+     banner: {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-1.webp",
+      alt: "Sosyal Medya Reklam Bütçesi, Teklif Stratejisi ve Ölçekleme",
+      caption: "Sosyal Medya Reklam Bütçesi, Teklif Stratejisi ve Ölçekleme"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-2.webp",
+      alt: "Funnel bazlı bütçe dağılımı ve teklif seçimi çerçevesi, otel reklamları",
+      caption: "Funnel bazlı bütçe dağılımı ve teklif seçimi çerçevesi, otel reklamları"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-3.webp",
+      alt: "Bütçe planlama bölüm ayracı, performans odaklı reklam yönetimi bağlamı",
+      caption: "Bütçe planlama bölüm ayracı, performans odaklı reklam yönetimi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-4.webp",
+      alt: "Teklif ve ölçekleme bölüm ayracı, Meta Ads optimizasyon yaklaşımı",
+      caption: "Teklif ve ölçekleme bölüm ayracı, Meta Ads optimizasyon yaklaşımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-5.webp",
+      alt: "Test stabilizasyon ölçekleme diyagramı, bütçe artış adımları otel bağlamı",
+      caption: "Test stabilizasyon ölçekleme diyagramı, bütçe artış adımları otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-6.webp",
+      alt: "Bütçe teklif ölçekleme checklist’i, learning phase koruma otel reklamları",
+      caption: "Bütçe teklif ölçekleme checklist’i, learning phase koruma otel reklamları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-7.webp",
+      alt: "CPA ROAS ve CVR paneli, ölçekleme kararı için skor kartı",
+      caption: "CPA ROAS ve CVR paneli, ölçekleme kararı için skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-4/SMM4-4-8.webp",
+      alt: "Bütçe planı ve ölçekleme deliverables kartı, otel ve B2B hesap yönetimi",
+      caption: "Bütçe planı ve ölçekleme deliverables kartı, otel ve B2B hesap yönetimi"
+    }
+  },
 
 };
 

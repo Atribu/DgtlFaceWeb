@@ -21,7 +21,8 @@ export const BLOG_MAP = {
 
     "ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber":"BlogGA4VeTagManagerIleOtelDonusumTakibiTemelRehber",
     "otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu":"BlogOtelRezervasyonMotoruIcinCrossDomainVeThankYouEventKurulumu",
-    "otel-icin-telefon-ve-whatsapp-donusum-takibi":"BlogOtelIcinTelefonVeWhatsappDonusumTakibi"
+    "otel-icin-telefon-ve-whatsapp-donusum-takibi":"BlogOtelIcinTelefonVeWhatsappDonusumTakibi",
+    "meta-conversion-api-ve-enhanced-conversions-otel-icin":"BlogSemMetaConversionApiVeEnhancedConversionsOtelIcin"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -44,7 +45,8 @@ export const BLOG_MAP = {
 
     "backlink-nedir-neden-onemlidir-temel-rehber":"BlogBacklinkNedirNedenOnemlidirTemelRehber",
     "kaliteli-ve-spam-backlink-nasil-ayirt-edilir":"BlogKaliteliVeSpamBacklinkNasilAyirtEdilir",
-    "backlink-analizi-audit-ve-disavow-stratejisi":"BlogBacklinkAnaliziAuditVeDisavowStratejisi"
+    "backlink-analizi-audit-ve-disavow-stratejisi":"BlogBacklinkAnaliziAuditVeDisavowStratejisi",
+    "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":"BlogSeoStratejikLinkBuildingIcinDijitalPrVeIcerikKullanimi"
   },
 
     smm: {
@@ -68,7 +70,8 @@ export const BLOG_MAP = {
 
     "sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri":"BlogSosyalMedyaReklamStratejisiFunnelVeKampanyaTurleri",
     "meta-ads-hedefleme-ve-segmentasyon-stratejisi":"BlogMetaAdsHedeflemeVeSegmentasyonStratejisi",
-    "sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":"BlogSosyalMedyaReklamKreatifStratejisiGorselCarouselVeReels"
+    "sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":"BlogSosyalMedyaReklamKreatifStratejisiGorselCarouselVeReels",
+    "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":"BlogSmmSosyalMedyaReklamButcesiTeklifStratejisiVeOlcekleme"
   },
 
     yazilim: {
@@ -163,7 +166,8 @@ export const BLOG_MAP = {
     "kanal-yonetiminde-room-type-rate-plan-mimari":"BlogKanalYonetimindeRoomTypeRatePlanMimari",
 
     "otel-online-satis-optimizasyonu-nedir-temel-mantik":"BlogOtelOnlineSatisOptimizasyonuNedirTemelMantik",
-    "otel-online-satis-hunisi-nasil-kurgulanir":"BlogOtelOnlineSatisHunisiNasilKurgulanir"
+    "otel-online-satis-hunisi-nasil-kurgulanir":"BlogOtelOnlineSatisHunisiNasilKurgulanir",
+    "web-rezervasyon-donusum-oranini-artirmak":"BlogPmsOtaWebRezervasyonDonusumOraniniArtirmak"
   },
 
     "raporlama": {
@@ -186,7 +190,8 @@ export const BLOG_MAP = {
     "call-center-web-ve-ota-cok-kanalli-rezervasyon-donusumunu-raporlamak":"BlogCallCenterWebVeOTACokKanalliRezervasyonDonusumunuRaporlamak",
 
     "kvkk-veri-haritasi-otel-veri-akisi":"BlogKvkkVeriHaritasiOtelVeriAkisi",
-    "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":"BlogOtelRezervasyonVePMSVerileriIcinKVKKRiskAnalizi"
+    "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":"BlogOtelRezervasyonVePMSVerileriIcinKVKKRiskAnalizi",
+    "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":"BlogRaporlamaCerezYonetimiVeIzinKayitlariniRaporlamak"
   },
 
 
@@ -210,7 +215,8 @@ export const BLOG_MAP = {
     "otel-remarketing-stratejileri-web-ota-call-center":"BlogOtelRemarketingStratejileriWebOTACallCenter",
 
     "ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":"BlogOTANedirOtelIcinOTAYonetimiTemelRehberi",
-    "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":"BlogBookingComProfilOptimizasyonuVeGorunurlukStratejisi"
+    "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":"BlogBookingComProfilOptimizasyonuVeGorunurlukStratejisi",
+    "expedia-ve-diger-otalarda-performans-artirma-stratejileri":"BlogOtelExpediaVeDigerOTALardaPerformansArtirmaStratejileri"
     
   }
 };

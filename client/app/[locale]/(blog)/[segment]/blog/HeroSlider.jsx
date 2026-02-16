@@ -21,7 +21,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
   const p = posts[active];
 
   return (
-    <section className="relative h-[80vh] w-[99%] overflow-hidden bg-black items-center justify-center">
+    <section className="flex xl:w-[96%] max-w-[1700px] px-4 relative min-h-[84vh] w-[90%] overflow-hidden items-center justify-center mx-auto ">
       {/* Türkçe yorum: arka plan görsel */}
       {p.banner?.src ? (
         <Image
@@ -29,8 +29,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
           alt={p.banner.alt || p.title}
           fill
           priority
-          className="object-cover"
-          sizes="100vw"
+          className="aspect-[16/9] object-center"
         />
       ) : (
         <div className="absolute inset-0">
@@ -42,7 +41,7 @@ export default function HeroSlider({ posts, locale, t, query, setQuery, inputRef
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-black/0" />
       <div className="absolute inset-0 bg-black/0" />
 
-      <div className="relative z-10 mx-auto flex h-full w-full xl:w-[96%] max-w-[1900px] px-4">
+      <div className="relative z-10 mx-auto flex h-full w-full ">
         <div className="flex w-full items-center">
           <div className="max-w-2xl text-left">
             <div className="mb-3 inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-black/40 px-3 py-1 text-[11px] text-white/80">

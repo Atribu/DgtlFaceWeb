@@ -260,7 +260,7 @@ const rails = useMemo(() => {
   // Burada sadece “page iskeletini” gösteriyorum:
 
   return (
-    <main className="min-h-screen bg-[#150016] text-white pt-12 flex flex-col items-center justify-center">
+    <main className="min-h-screen bg-[#150016] text-white pt-12 flex flex-col items-center justify-center ">
       {/* Üst bilgi / breadcrumb */}
       <section className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 pt-8 justify-center items-center">
         <div className="flex items-center justify-center ">
@@ -276,7 +276,7 @@ const rails = useMemo(() => {
   className="mb-0"
 />
 
-            <h1 className=" text-lg md:text-xl lg:text-2xl font-semibold">
+            <h1 className=" text-md md:text-lg lg:text-xl font-semibold">
               {DEPT_LABEL[segment] || segment} Blogları
             </h1>
           </div>

@@ -198,7 +198,7 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
   const p = posts[active];
 
   return (
-    <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden bg-black">
+    <section className="relative h-[70vh] lg:h-[90vh] xl:h-[92vh] overflow-hidden bg-black">
       {/* Türkçe yorum: arka plan görsel */}
       {p.banner?.src ? (
         <Image
@@ -207,7 +207,6 @@ function HeroSlider({ posts, locale, t, query, setQuery, inputRef, GRADIENT, noR
           fill
           priority
           className="object-cover"
-          sizes="100vw"
         />
       ) : (
         <div className="absolute inset-0">
@@ -388,7 +387,7 @@ function BlogRail({ title, posts, locale, t, GRADIENT, titleHref }) {
   if (!posts?.length) return null;
 
   return (
-    <section className="mt-4 mb-10">
+    <section className="mt-2 mb-10">
       <div className="mb-3 flex items-center justify-between">
        {titleHref ? (
           <Link href={`/${locale}${titleHref}`} className="text-base lg:text-lg font-semibold text-white/90 cursor-pointer hover:text-[#547CCF]">
@@ -655,8 +654,8 @@ const heroPosts = useMemo(() => {
 /> */}
 
 {/* Results (Netflix rails) */}
-<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:pt-4 lg:pb-16">
-  <div className="mb-1 flex items-end justify-between gap-4">
+<section ref={resultsRef} className="mx-auto w-full xl:w-[96%] max-w-[1900px] px-4 py-2 lg:pt-3 lg:pb-16">
+  <div className=" flex items-end justify-between gap-4">
     <p className="text-sm text-white/60">
       {t("results", { count: visibleCount })}
     </p>

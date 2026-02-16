@@ -2414,6 +2414,109 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"meta-conversion-api-ve-enhanced-conversions-otel-icin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin",
+      "name": "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?",
+      "description": "Server-side takip (Meta CAPI) ve Google Enhanced Conversions ile kayıp dönüşüm sinyallerini güçlendirin. KVKK’ya uygun veri minimizasyonu ve hashing ile daha doğru ölçüm sağlayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin#article",
+      "headline": "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?",
+      "name": "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?",
+      "description": "Meta CAPI ve Google Enhanced Conversions ile otel dönüşüm ölçümünde sinyal kaybını azaltın; hashing, deduplication ve KVKK uyumlu veri minimizasyonu ile optimizasyon kalitesini artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Server-side tracking",
+        "Meta Conversions API",
+        "Enhanced conversions",
+        "Hotel bookings",
+        "Data accuracy"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager#service",
+      "url": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager",
+      "name": "Dönüşüm Takibi & Tag Manager",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Meta Conversion API ve Google Enhanced Conversions Oteller İçin Ne İfade Ediyor?", "item": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/meta-conversion-api-ve-enhanced-conversions-otel-icin#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Meta Conversion API nedir, neden kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meta CAPI, dönüşüm event’lerini sunucudan Meta’ya ileterek ölçüm sinyalini güçlendirmeyi hedefler. Pixel ile birlikte kullanıldığında deduplication tasarımı önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Enhanced Conversions ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enhanced Conversions, dönüşüm anında alınan birinci taraf kullanıcı verisini SHA-256 ile hash’leyerek Google’a gönderir ve dönüşüm eşleşmesini artırmaya yardımcı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel’e ek olarak CAPI kullanmak gerekli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her otel için zorunlu değildir. Ölçüm kaybı, attribution sapması veya optimizasyon dalgalanması yaşıyorsanız değerlendirilebilir; önce temel ölçüm zemini sağlam olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CAPI ile çift sayım nasıl engellenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel ve CAPI aynı olayı gönderiyorsa, aynı event_id kullanılarak deduplication yapılır ve çift sayım riski azaltılır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -4732,6 +4835,115 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Normal profillerde 90–180 gün; geçmişte agresif link yapılan veya riskli profillerde 30–90 gün aralığı daha güvenlidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": ["Link Building", "Link Earning", "Digital PR", "Linkable Assets"]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi#article",
+      "url": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi",
+      "headline": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+      "name": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?",
+      "description": "Link building’i link earning’e çevirin: link çeken içerik türleri, dijital PR kampanya akışı, otel ve B2B fırsatları. Etik ve sürdürülebilir otorite için rehber.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        "Link Building",
+        "Link Earning",
+        "Digital PR",
+        "Linkable Assets",
+        "Content-led link acquisition",
+        "PR–SEO synergy",
+        "Authority building"
+      ],
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "#answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#service",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "serviceType": "SEO / Backlink Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "Backlink & Dijital Otorite Yönetimi", "item": "https://dgtlface.com/tr/seo/backlink-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Stratejik Link Building İçin Dijital PR ve İçerik Nasıl Kullanılır?", "item": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Link building nedir, link earning’den farkı ne?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Link building aktif olarak link fırsatlarını yönetmektir; link earning ise haber değeri ve faydası yüksek içerikle doğal link kazanımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dijital PR link stratejisine nasıl katkı sağlar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haber değeri olan içerikleri doğru yayıncı ve kitleye ulaştırarak editoryal görünürlük üretir; bu görünürlük doğal referans ve kaliteli backlink kazanımını kolaylaştırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi içerik türleri daha çok link çeker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benchmark/rapor, destinasyon rehberi, vaka çalışması, infografik ve şablon/checklist gibi alıntılanabilir içerikler daha çok link çekme eğilimindedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B markalar için link fırsatları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otellerde destinasyon ve deneyim içerikleri + yerel basın/rehberler; B2B’de sektörel yayınlar, partner ekosistemi, case study ve podcast/webinar görünürlüğü güçlü fırsat alanlarıdır."
           }
         }
       ]
@@ -7467,6 +7679,116 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Aynı kitle ve bütçede tek değişken değiştirerek (hook/teklif/kanıt/format) 3–7 gün test edilir. KPI’ya göre kazanan seçilir ve varyasyonlanarak ölçeklenir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+      "name": "Sosyal Medya Reklamları",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme#article",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme",
+      "headline": "Sosyal Medya Reklam Bütçesi, Teklif Stratejisi ve Ölçekleme",
+      "name": "Sosyal Medya Reklam Bütçesi, Teklif Stratejisi ve Ölçekleme",
+      "description": "Meta Ads bütçe planlama, otomatik vs manuel teklif stratejileri ve ölçekleme adımları. Otel/B2B örnek dağılım tabloları, CPA–ROAS takibi ve learning phase uyarıları.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Budget Allocation",
+        "Bidding Strategies",
+        "Scaling",
+        "CPA",
+        "ROAS",
+        "Learning Phase",
+        "Meta Ads"
+      ],
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+        { "@type": "ListItem", "position": 4, "name": "Sosyal Medya Reklam Bütçesi, Teklif Stratejisi ve Ölçekleme", "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme#faq",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya reklam bütçesi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bütçe funnel katmanlarına (awareness/consideration/conversion) göre bölünerek planlanır. Önce test bütçesiyle kazanan kombinasyonlar bulunur, sonra stabilize edilip kademeli ölçeklenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik vs manuel teklif stratejisi ne zaman kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yeni kampanyalarda otomatik (lowest cost) öğrenmeyi hızlandırır. CPA hedefi netleşince cost cap ile disiplin sağlanabilir. Manuel teklif ise küçük testlerle doğrulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Başarılı kampanyayı nasıl ölçeklerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce 3–7 gün stabil performans görüp %10–20 kademeli bütçe artışı yapın. Sonra yatay ölçekleme ile yeni kitle/format/ülke ekleyin; aynı anda çok değişiklik yapmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Learning phase nedir ve neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meta’nın kampanyanın en iyi teslimat modelini öğrendiği süreçtir. Bütçe, kitle ve kreatifi çok sık değiştirirseniz öğrenme bozulur ve CPA/ROAS dalgalanır."
           }
         }
       ]
@@ -16483,6 +16805,169 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]
+},
+
+"web-rezervasyon-donusum-oranini-artirmak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak",
+      "name": "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu",
+      "description": "Otel web dönüşüm oranını artırın: booking engine UX, güven sinyalleri, mobil hız ve upsell ile aynı trafikten daha çok rezervasyon alın. 21 ipucu + KPI örnekleri.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Web Booking Engine",
+        "Conversion Rate",
+        "UX",
+        "Trust Signals",
+        "Mobile Experience",
+        "Upsell"
+      ],
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#primaryimage",
+        "url": "https://dgtlface.com/assets/media/web-rezervasyon-donusum-oranini-artirmak-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#webpage" },
+      "headline": "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu",
+      "name": "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu",
+      "description": "Otel web dönüşüm oranını artırın: booking engine UX, güven sinyalleri, mobil hız ve upsell ile aynı trafikten daha çok rezervasyon alın. 21 ipucu + KPI örnekleri.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "image": { "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#primaryimage" },
+      "keywords": [
+        "web rezervasyon dönüşüm oranı",
+        "otel web sitesi CRO",
+        "rezervasyon motoru UX",
+        "mobil rezervasyon deneyimi",
+        "trust signals",
+        "upsell"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/online-satis#service",
+      "name": "Online Satış Optimizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/online-satis",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "Hotel Website Conversion Optimization",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Antalya" },
+        { "@type": "AdministrativeArea", "name": "Belek" },
+        { "@type": "AdministrativeArea", "name": "Side" },
+        { "@type": "AdministrativeArea", "name": "Kemer" },
+        { "@type": "AdministrativeArea", "name": "Bodrum" },
+        { "@type": "AdministrativeArea", "name": "Alanya" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Online Satış Optimizasyonu",
+          "item": "https://dgtlface.com/tr/pms-ota/online-satis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Web Rezervasyon Dönüşüm Oranını Artırmak: Otel Web Sitesi İçin 21 İpucu",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Web rezervasyon dönüşüm oranı nedir, nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm oranı, rezervasyon sayısının web oturumlarına oranıdır. Otellerde motor girişi ve checkout adımlarındaki drop-off da ayrı ölçülmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel web sitesinde dönüşümü artırmak için neler yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Booking engine akışını kısaltmak, güven sinyallerini görünür yapmak ve mobil hız/UX’i iyileştirmek en hızlı kaldıraçlardır; her değişiklik KPI ile ölçülmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon motoru UX’i nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az adımlı ve az form alanlı, fiyat/oda bilgisini net sunan, mobilde kolay kullanılan ve hata mesajları çözüm odaklı bir akış hedeflenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil cihazlarda rezervasyon deneyimi nasıl iyileştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form alanları azaltılmalı, otomatik doldurma kullanılmalı, sayfa performansı iyileştirilmeli ve CTA’lar sticky hale getirilmelidir; en çok terk edilen adım önce düzeltilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/web-rezervasyon-donusum-oranini-artirmak#speakable",
+      "cssSelector": [".post-title", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -18865,6 +19350,169 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"cerez-yonetimi-ve-izin-kayitlarini-raporlamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak",
+      "name": "Cookie Yönetimi ve İzin Kayıtlarını KVKK Uyumlu Şekilde Raporlamak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Cookie",
+        "Consent",
+        "User Preference",
+        "Log",
+        "Tag Manager",
+        "Analytics",
+        "KVKK"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#article",
+      "url": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak",
+      "headline": "Cookie Yönetimi ve İzin Kayıtlarını KVKK Uyumlu Şekilde Raporlamak",
+      "name": "Cookie Yönetimi ve İzin Kayıtlarını KVKK Uyumlu Şekilde Raporlamak",
+      "description": "Consent log tasarımı, Tag Manager/Analytics’te izin bazlı ölçüm ve otellere özel rapor örnekleri: KVKK denetimine hazır kayıt, doğru KPI ve net aksiyon planı.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "articleSection": "Veri Analizi & Raporlama",
+      "keywords": [
+        "cookie izin kayitlari raporlama",
+        "consent log yapisi otel",
+        "kvkk uyumlu olcumleme",
+        "cookie consent logging kvkk",
+        "hotel tag manager consent mode",
+        "privacy friendly analytics reporting"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "name": "KVKK & Veri Güvenliği Raporlama",
+      "serviceType": "Cookie & Consent Yönetimi ve KVKK Uyumlu Ölçüm Raporlama",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#howto",
+      "name": "KVKK uyumlu cookie ve consent raporlama nasıl yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Consent log alan setini belirleyin",
+          "text": "Zaman damgası, banner sürümü ve kategori bazlı izin (stats/marketing) alanlarını çekirdek olarak tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tag’leri izin bazlı tetikleyin",
+          "text": "Tag Manager’da istatistik ve pazarlama tag’lerini yalnız ilgili izin verildiğinde çalıştıracak şekilde kurgulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Opt-in KPI’larını rapora sabitleyin",
+          "text": "Stats opt-in, marketing opt-in ve tercih değişim oranını üst KPI olarak izleyin; rapor evren notunu ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Denetim dosyası ekini hazırlayın",
+          "text": "Maskeli 3 örnek consent kaydı, saklama prensibi ve erişim rolleriyle kanıt paketi oluşturun."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK & Veri Güvenliği Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cookie ve Consent Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/cerez-yonetimi-ve-izin-kayitlarini-raporlamak",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cookie ve izin kayıtlarını KVKK’ya uygun nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent tercihlerini kategori bazında (stats/marketing) zaman damgası ve banner sürümüyle loglayın; tag’leri yalnız izin varsa çalıştırın ve opt-in oranını raporda üst KPI yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consent log’ta hangi bilgiler tutulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zaman damgası, banner sürümü, kategori bazlı izin, consent durumu ve kaynak (banner/ayarlar) çekirdek alanlardır; erişim kontrolü ve saklama prensibi de tanımlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Tag/Analytics ölçümünü kullanıcı izinlerine nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İstatistik tag’lerini yalnız stats izninde, pazarlama tag’lerini yalnız marketing izninde tetikleyin; böylece hem KVKK riski düşer hem ölçüm rıza bazlı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Opt-in oranı düşükse performans raporu nasıl okunmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporlar tüm kullanıcıları değil, izin veren kullanıcılar evrenini temsil eder; önce opt-in trendini kontrol edip sonra dönüşüm/KPI yorumlayın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -21218,6 +21866,208 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Mantıklı olabilir; ancak 14 günlük test ve KPI eşikleri olmadan katılmak risklidir. Net ADR, iptal ve dönüşüm etkisini birlikte izleyerek karar verin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"expedia-ve-diger-otalarda-performans-artirma-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri",
+      "name": "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri",
+      "headline": "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?",
+      "name": "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?",
+      "description": "Expedia, Agoda ve diğer OTA’larda görünürlük ve dönüşüm; pazar seçimi, içerik-puan standardı ve kampanya kurgusuyla artar. Çoklu OTA için 7 ipucu + tablo.",
+      "inLanguage": "tr-TR",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#webpage"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Expedia" },
+        { "@type": "Thing", "name": "Agoda" },
+        { "@type": "Thing", "name": "Online Travel Agency" },
+        { "@type": "Thing", "name": "Market Mix" },
+        { "@type": "Thing", "name": "Review Score" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Metasearch" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum"
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#howto",
+      "name": "Çoklu OTA Yönetimi: 7 İpucu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Portföyü sade başlatın",
+          "text": "2–4 çekirdek OTA ile başlayıp yönetilebilir bir portföy oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek içerik standardı kurun",
+          "text": "Metin, olanak ve oda bilgisi şablonunu tüm OTA’larda aynı mantıkla uygulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Fotoğraf akışını hizalayın",
+          "text": "Kapak ve ilk 10 fotoğrafı karar akışına göre düzenleyip tüm kanallarda tutarlı kullanın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek kaynak doğruluk sağlayın",
+          "text": "PMS ve channel manager üzerinden fiyat-envanter-politika tutarlılığını koruyun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI paneliyle takip edin",
+          "text": "CTR, dönüşüm, iptal/no-show ve net ADR etkisini haftalık izleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kampanyaları test edin",
+          "text": "Kampanyaları 14 günlük test ve KPI eşikleriyle yönetip ölçekleyin veya kapatın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Direct dengeyi koruyun",
+          "text": "Web direct’i fiyat kırarak değil, değer paketleriyle güçlendirin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Anasayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OTA Yönetimi (Hotel OTA)",
+          "item": "https://dgtlface.com/tr/otel/ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Expedia ve Diğer OTA’larda Görünürlük ve Dönüşüm Nasıl Artırılır?",
+          "item": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/expedia-ve-diger-otalarda-performans-artirma-stratejileri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Expedia ve diğer OTA’lar oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Expedia, Agoda ve diğer OTA’lar farklı pazar ve segmentlerde talep havuzları sağlayarak market mix’i çeşitlendirir. Doğru kurgu, içerik-fotoğraf standardı ve puan/yorum yönetimiyle görünürlük ve dönüşümü artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi OTA hangi pazar için daha güçlüdür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir doğru yoktur; otel konsepti, sezon ve hedef pazara göre değişir. Pratik yaklaşım, pazar-segment-sezon bazında OTA’ları puanlayıp portföyü 2–4 çekirdek kanalda yönetmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Birden fazla OTA’yı aynı anda yönetirken nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En kritik konu tutarlılıktır: fiyat-envanter-politika ve oda bilgileri PMS + channel manager üzerinden senkron olmalı. Tek içerik standardı, fotoğraf akışı ve KPI paneli olmadan çoklu OTA sürdürülebilir olmaz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA puan ve yorumları rezervasyonu nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puan ve yorumlar güven sinyali üretir, yanıt disiplini de kalite algısını güçlendirir. Beklentiyle deneyim uyumlu olduğunda dönüşüm artar ve görünürlük de zamanla güçlenebilir."
           }
         }
       ]
