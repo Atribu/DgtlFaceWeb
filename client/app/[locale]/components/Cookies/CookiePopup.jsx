@@ -369,18 +369,18 @@ const loadPreferences = () => {
     <div className="flex flex-col h-full w-[96%] ml-[2%] sm:w-[95%] lg:w-[99%] text-start text-[#FBFBFB] overflow-y-scroll overflow-x-hidden z-[9999] font-inter thin-scrollbar items-center justify-start">
       <p className="text-[13px] font-normal leading-[19.5px] pr-[3.5%] lg:pr-[7.5%] w-[82%]">
         6698 sayılı Kişisel Verilerin Korunması Kanunu'na (“Kanun”) göre ARAS
-        İNŞAAT TİCARET TURİZM ANONİM ŞİRKETİ (“Bundan sonra ‘PORT NATURE’ olarak
+        İNŞAAT TİCARET TURİZM ANONİM ŞİRKETİ (“Bundan sonra ‘DGTLFACE’ olarak
         anılacaktır.”) sizinle ilgili kişisel verileri işlemesi sebebiyle veri
         sorumlusu olarak tanımlanmaktadır. Kanunun "Aydınlatma Yükümlülüğü"
         başlıklı 10'ncu maddesine göre veri sorumluları, kişisel verilerini
         işledikleri gerçek kişileri bazı konularda bilgilendirmekle yükümlüdür.
-        İlgili Kişi: [https://portnature.com.tr/] alan adlı web sitemizi ziyaret
+        İlgili Kişi: [https://dgtlface.com.tr/] alan adlı web sitemizi ziyaret
         ettiğiniz için çerezler ve farklı tanımlayıcılarla bazı kişisel
         verilerini işlediğimiz siz, Kanun tarafından ilgili kişi olarak
         tanımlanmaktasınız. Veri Sorumlusu: Sizinle ilgili kişisel veriler
         konusunda kişisel verilerin işleme amaçlarını ve vasıtalarını
         belirleyen, veri kayıt sisteminin kurulmasından ve yönetilmesinden
-        sorumlu olan [PORT NATURE] veri sorumlusudur. ÇEREZLER HAKKINDA
+        sorumlu olan [DGTLFACE] veri sorumlusudur. ÇEREZLER HAKKINDA
         BİLGİLENDİRME; Bununla birlikte sitemizde çerezler vasıtasıyla birtakım
         kişisel verilerinizi işliyoruz. Çerezler (cookies), reklam kimlikleri ve
         web tanımlayıcıları gibi teknolojileri (bu teknolojilerin tamamı “Çerez”
@@ -410,7 +410,7 @@ const loadPreferences = () => {
         kullanım amaçları bakımından sınıflandırılabilir: • Sahibine göre
         çerezler, ziyaret ettiğiniz web sitesi tarafından cihazınıza
         yerleştirilen birinci taraf çerezleri ve üçüncü taraflarca sunulan
-        üçüncü taraf çerezleri kullanılmaktadır. Birinci çerezleri, PORT NATURE
+        üçüncü taraf çerezleri kullanılmaktadır. Birinci çerezleri, DGTLFACE
         tarafından sunulurken, üçüncü taraf çerezleri hizmet alınan veya iş
         ortağı olan farklı firmalarca sunulmaktadır. • Kullanım ömrüne göre,
         oturum çerezleri ve kalıcı çerezler kullanılmaktadır. Oturum çerezleri

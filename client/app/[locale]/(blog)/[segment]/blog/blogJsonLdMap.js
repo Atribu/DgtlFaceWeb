@@ -12139,6 +12139,110 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-gala-gecesi-ve-ziyafet-produsksiyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon#article",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon",
+      "headline": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi",
+      "name": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi",
+      "description": "Otel gala ve ziyafet etkinliklerinde masa düzeni, sahne/dans alanı, program akışı ve foto–video prodüksiyonunu misafir deneyimi odağında planlama rehberi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Gala Event",
+        "Banquet Setup",
+        "Stage & Dance Floor",
+        "MC",
+        "Music",
+        "Photo & Video Coverage",
+        "Hotel Experience"
+      ],
+      "keywords": [
+        "otel gala gecesi prodüksiyon",
+        "ziyafet masa duzeni sahne yerlesimi",
+        "kurumsal gala video foto koordinasyonu",
+        "hotel gala production",
+        "banquet staging & decor"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+      "name": "Etkinlik Prodüksiyonu",
+      "serviceType": "Gala & Ziyafet Etkinlik Prodüksiyonu",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi", "item": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-gala-gecesi-ve-ziyafet-produsksiyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel gala gecesi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce etkinlik tipini ve hedefi belirleyin; masa düzenini sahne görüş hattı ve servis trafiğiyle uyumlu kurun. Akışı timeline olarak dakika bazında yazıp MC/müzik yönetimini netleştirin; foto–video belgeleme planını en baştan tasarlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Masa düzeni ve sahne yerleşimi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sahneyi gören görüş hatları korunmalı, servis koridorları tıkanmayacak şekilde bırakılmalıdır. Dans alanı güvenli sınırlarla ayrılmalı; foto/video ekipleri için çekim noktaları planlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gala gecesini fotoğraf ve video ile nasıl belgelendirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ekip hareket alanlarını önceden belirleyip 6–8 kritik momenti işaretleyin. Aynı geceden 10–20 foto, 3–5 kısa video ve 1 highlight hedefiyle shotlist ve teslim planı çıkarın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 
@@ -14340,6 +14444,128 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Tek bir iyi sayı hedeflemek yerine, kendi otelinizin trendine ve segment farklarına odaklanmak daha sağlıklıdır. NPS’i düzenli ölçüp aynı kanal/segmentlerde iyileşme görmeye odaklanın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-iatel-degisim-iade-surecleri-satis-sonrasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi",
+      "name": "İptal, Değişiklik ve İade Süreçleri: Otel Satış Sonrası Destek Nasıl Yapılandırılmalı?",
+      "description": "Otel iptal, değişiklik ve iade süreçlerini net politikalar, script’ler ve OTA/direkt kanal akışlarıyla kurun. Gelir kaybını sınırlarken memnuniyeti koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Cancellation and Refund Process" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi#webpage" },
+      "headline": "İptal, Değişiklik ve İade Süreçleri: Otel Satış Sonrası Destek Nasıl Yapılandırılmalı?",
+      "name": "İptal, Değişiklik ve İade Süreçleri: Otel Satış Sonrası Destek Nasıl Yapılandırılmalı?",
+      "description": "İptal, değişiklik ve iade taleplerini; politika, script ve OTA/direkt kanal farklarıyla birlikte ele alan pratik satış sonrası süreç kılavuzu.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Cancellation" },
+        { "@type": "Thing", "name": "Change" },
+        { "@type": "Thing", "name": "Refund" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Direct Booking" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası iptal–değişiklik–iade süreç kurulumu ve iyileştirme",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "İptal, Değişiklik ve İade Süreçleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-iatel-degisim-iade-surecleri-satis-sonrasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel iptal ve değişiklik süreçleri nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net politika, fiyat tipi kuralları ve kanal uyumlu akışla yönetilmelidir. Her talep ticket’a alınmalı; tek cümle kural ve alternatifler yaklaşımıyla tutarlı yanıt verilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İade talebinde misafire ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce rezervasyon kanalını ve fiyat tipini doğrulayın, sonra kuralı tek cümlede net anlatın. Ardından tarih değişimi, voucher veya koşula bağlı seçenekler gibi alternatifleri sunup takip adımı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Esnek ve iade edilemez fiyatları nasıl anlatırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esnek pakette koşullara bağlı iptal/iadeyi netleştirin; iade edilemez pakette ise empatik ama net olup alternatif çözüm setini öne çıkarın. Kanallar arasında aynı script’i kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA üzerinden alınan rezervasyonda iade süreci nasıl işler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu durumda iade/iptal işlemi platform kurallarına bağlı ilerler. Otel, misafire doğru yönlendirme yapmalı ve mümkünse süreç takibini ticket üzerinden yürütmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zor durumlarda eskalasyon nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüksek tutar, itibar riski veya tekrar misafir gibi kriterlerde supervisor/revenue ekibine devredin. Misafire dönüş süresi verip ara bilgilendirme yapın; belirsizliği azaltın."
           }
         }
       ]

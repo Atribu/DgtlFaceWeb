@@ -8226,6 +8226,114 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "otel-gala-gecesi-ve-ziyafet-produsksiyon":{
+     banner: {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-1.webp",
+      alt: "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi",
+      caption: "Otel Gala Gecesi ve Ziyafet Etkinliği Prodüksiyonu: Akış, Sahne ve Misafir Deneyimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-2.webp",
+      alt: "Banket salonunda masa düzeni ve sahne/dans alanı bağlamını gösteren context görseli",
+      caption: "Banket salonunda masa düzeni ve sahne/dans alanı bağlamını gösteren context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-3.webp",
+      alt: "Otel gala gecesi planlama bölümleri için geçiş görseli",
+      caption: "Otel gala gecesi planlama bölümleri için geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-4.webp",
+      alt: "Masa düzeni ışık ve akış planı bölüm geçiş görseli otel bağlamı",
+      caption: "Masa düzeni ışık ve akış planı bölüm geçiş görseli otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-5.webp",
+      alt: "Gala gecesi akış timeline’ı ve kritik momentleri gösteren otel diyagramı",
+      caption: "Gala gecesi akış timeline’ı ve kritik momentleri gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-6.webp",
+      alt: "Gala gecesi son 48 saat checklist ve operasyon uyumu kartı otel bağlamı",
+      caption: "Gala gecesi son 48 saat checklist ve operasyon uyumu kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-7.webp",
+      alt: "Gala gecesi memnuniyet ve tekrar rezervasyon sinyali için otel KPI skor kartı",
+      caption: "Gala gecesi memnuniyet ve tekrar rezervasyon sinyali için otel KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-3/Creative4-3-8.webp",
+      alt: "Gala gecesi foto video deliverables paketini gösteren proof kartı otel bağlamı",
+      caption: "Gala gecesi foto video deliverables paketini gösteren proof kartı otel bağlamı"
+    },
+
+    "table-09":{
+      src: "/images/blog/creative/Creative4-3/Creative4-3-9.webp",
+      alt: "Gala düzenleri için masa planı ve servis trafiği karşılaştırma tablosu otel bağlamı",
+      caption: "Gala düzenleri için masa planı ve servis trafiği karşılaştırma tablosu otel bağlamı"
+    }
+  },
+
+
+  "otel-iatel-degisim-iade-surecleri-satis-sonrasi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-2.webp",
+      alt: "İptal değişiklik iade temasları amacı satış sonrası süreç otel bağlamı",
+      caption: "İptal değişiklik iade temasları amacı satış sonrası süreç otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-3.webp",
+      alt: "Kanal süreç akışı bölümü amacı standardizasyon otel bağlamı",
+      caption: "Kanal süreç akışı bölümü amacı standardizasyon otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-4.webp",
+      alt: "OTA ve direct farkı bölümü amacı süreç ayrımı otel bağlamı",
+      caption: "OTA ve direct farkı bölümü amacı süreç ayrımı otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-5.webp",
+      alt: "İptal değişiklik iade akış diyagramı amacı kanal uyumu otel bağlamı",
+      caption: "İptal değişiklik iade akış diyagramı amacı kanal uyumu otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-6.webp",
+      alt: "Yap yapma kartı amacı fiyat tipi iletişimi otel bağlam",
+      caption: "Yap yapma kartı amacı fiyat tipi iletişimi otel bağlam"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-7.webp",
+      alt: "Alternatif kabul oranı paneli amacı gelir koruma otel bağlamı",
+      caption: "Alternatif kabul oranı paneli amacı gelir koruma otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-3/Callcenter4-3-8.webp",
+      alt: "Script ve akış deliverables amacı süreç standardı otel bağlamı",
+      caption: "Script ve akış deliverables amacı süreç standardı otel bağlamı"
+    }
+  },
+
+
 
 };
 

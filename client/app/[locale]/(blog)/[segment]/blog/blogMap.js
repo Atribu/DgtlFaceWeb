@@ -115,7 +115,8 @@ export const BLOG_MAP = {
     "otel-video-asset-stratejisi-1-gun-30-icerik":"BlogCreative5OtelVideoAssetStratejisi1Gun30Icerik",
 
     "otel-konser-etkinlik-produsksiyon-rehberi":"BlogOtelKonserEtkinlikProdusksiyonRehberi",
-    "otel-lansman-acilis-etkinligi-produsksiyon":"BlogOtelLansmanAcilisEtkinligiProdusksiyon"
+    "otel-lansman-acilis-etkinligi-produsksiyon":"BlogOtelLansmanAcilisEtkinligiProdusksiyon",
+    "otel-gala-gecesi-ve-ziyafet-produsksiyon":"BlogOtelGalaGecesiVeZiyafetProdusksiyon"
   },
 
        "cagri-merkezi": {
@@ -138,7 +139,8 @@ export const BLOG_MAP = {
     "cok-dilli-mesaj-yonetimi-tr-en-de-ru":"BlogCallcenter5CokDilliMesajYonetimiTrEnDeRu",
 
     "otel-satis-sonrasi-destek-temel-rehber":"BlogOtelSatisSonrasiDestekTemelRehber",
-    "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":""
+    "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":"BlogNpsVeMisafirMemnuniyetOtelSatisSonrasi",
+    "otel-iatel-degisim-iade-surecleri-satis-sonrasi":"BlogCagriMerkeziOtelIatelDegisimIadeSurecleriSatisSonrasi"
   },
 
     "pms-ota": {
