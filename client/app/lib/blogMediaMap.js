@@ -8636,6 +8636,218 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":{
+     banner: {
+      src: "/images/blog/software/Software4-4/Software4-4-1.webp",
+      alt: "PMS API ve Otel Entegrasyonlarında API Güvenliği",
+      caption: "PMS API ve Otel Entegrasyonlarında API Güvenliği"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software4-4/Software4-4-2.webp",
+      alt: "API anahtarı ve scope yönetimi ile güvenli otel entegrasyonu, rezervasyon sistemleri",
+      caption: "API anahtarı ve scope yönetimi ile güvenli otel entegrasyonu, rezervasyon sistemleri"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-4/Software4-4-3.webp",
+      alt: "API güvenliği ve tehdit modeli, otel ve B2B entegrasyonları için bölüm ayırıcı",
+      caption: "API güvenliği ve tehdit modeli, otel ve B2B entegrasyonları için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-4/Software4-4-4.webp",
+      alt: "Scope ve rate limit tasarımı, PMS/OTA entegrasyonları için bölüm ayırıcı",
+      caption: "Scope ve rate limit tasarımı, PMS/OTA entegrasyonları için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-4/Software4-4-5.webp",
+      alt: "PMS/OTA ile web ve call center arası API akışı, secret ve IP kısıtı ile güvenli entegrasyon modeli",
+      caption: "PMS/OTA ile web ve call center arası API akışı, secret ve IP kısıtı ile güvenli entegrasyon modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-4/Software4-4-6.webp",
+      alt: "API güvenlik checklist’i, secret management ve least-privilege ile otel entegrasyon koruması",
+      caption: "API güvenlik checklist’i, secret management ve least-privilege ile otel entegrasyon koruması"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-4/Software4-4-7.webp",
+      alt: "API erişim KPI paneli, 401/403/429 ve rotasyon takibi ile entegrasyon güvenliği",
+      caption: "API erişim KPI paneli, 401/403/429 ve rotasyon takibi ile entegrasyon güvenliği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-4/Software4-4-8.webp",
+      alt: "Entegrasyon güvenliği deliverable seti, scope matrisi ve rotasyon planı ile sürdürülebilir koruma",
+      caption: "Entegrasyon güvenliği deliverable seti, scope matrisi ve rotasyon planı ile sürdürülebilir koruma"
+    }
+  },
+
+
+
+   "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":{
+     banner: {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-1.webp",
+      alt: "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
+      caption: "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-2.webp",
+      alt: "Stage branding hiyerarşisi ve sponsor dengesi için otel etkinlik context görseli",
+      caption: "Stage branding hiyerarşisi ve sponsor dengesi için otel etkinlik context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-3.webp",
+      alt: "Kurumsal etkinliklerde sahne ve LED planlama bölümü geçiş görseli",
+      caption: "Kurumsal etkinliklerde sahne ve LED planlama bölümü geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-4.webp",
+      alt: "Sponsor yerleşimi ve ortak marka kullanımını anlatan bölüm geçiş görseli",
+      caption: "Sponsor yerleşimi ve ortak marka kullanımını anlatan bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-5.webp",
+      alt: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı”",
+      caption: "LED içerik akışı ve sunum cue entegrasyonu diyagramı otel bağlamı”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-6.webp",
+      alt: "Stage branding yapılacaklar ve kaçınılacaklar checklist kartı otel etkinliği",
+      caption: "Stage branding yapılacaklar ve kaçınılacaklar checklist kartı otel etkinliği"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-7.webp",
+      alt: "Kurumsal etkinlikte profesyonellik algısı ve sponsor memnuniyeti KPI kartı",
+      caption: "Kurumsal etkinlikte profesyonellik algısı ve sponsor memnuniyeti KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative4-4/Creative4-4-8.webp",
+      alt: "Stage branding ve LED içerik planı deliverables kartı otel balo salonu",
+      caption: "Stage branding ve LED içerik planı deliverables kartı otel balo salonu"
+    },
+
+    "table-09":{
+      src: "/images/blog/creative/Creative4-4/Creative4-4-9.webp",
+      alt: "Sponsor Hiyerarşisi + LED Ekran Paketleri + Safe-Area Matrisi",
+      caption: "Sponsor Hiyerarşisi + LED Ekran Paketleri + Safe-Area Matrisi"
+    }
+  },
+
+
+  "otel-sikayet-yonetimi-satis-sonrasi-surec":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-1.webp",
+      alt: "Otel Şikâyet Yönetimi: Satış Sonrası Destek ile Krizi Fırsata Çevirmek",
+      caption: "Otel Şikâyet Yönetimi: Satış Sonrası Destek ile Krizi Fırsata Çevirmek"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-2.webp",
+      alt: "Şikâyet kanalları amacı WhatsApp DM OTA Google yorum otel bağlamı",
+      caption: "Şikâyet kanalları amacı WhatsApp DM OTA Google yorum otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-3.webp",
+      alt: "Çözüm telafi bölümü amacı şikâyet prosedürü otel bağlamı",
+      caption: "Çözüm telafi bölümü amacı şikâyet prosedürü otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-4.webp",
+      alt: "Veri analizi bölümü amacı şikâyet raporlama otel bağlamı",
+      caption: "Veri analizi bölümü amacı şikâyet raporlama otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-5.webp",
+      alt: "Şikâyet akış diyagramı amacı ilk yanıt çözüm kapanış otel bağlamı",
+      caption: "Şikâyet akış diyagramı amacı ilk yanıt çözüm kapanış otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-6.webp",
+      alt: "Profesyonel yanıt yapısı amacı empati aksiyon süre otel bağlamı",
+      caption: "Profesyonel yanıt yapısı amacı empati aksiyon süre otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-7.webp",
+      alt: "Şikâyet KPI paneli amacı yanıt ve çözüm performansı otel bağlamı",
+      caption: "Şikâyet KPI paneli amacı yanıt ve çözüm performansı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-4/Callcenter4-4-8.webp",
+      alt: "Telafi matrisi çıktıları amacı standart operasyon otel bağlamı",
+      caption: "Telafi matrisi çıktıları amacı standart operasyon otel bağlamı"
+    }
+  },
+
+
+  "":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-8.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

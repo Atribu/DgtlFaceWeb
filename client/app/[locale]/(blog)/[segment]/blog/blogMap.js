@@ -95,7 +95,8 @@ export const BLOG_MAP = {
 
     "web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber":"BlogWebSunucuGuvenlikChecklistiLinuxWindowsIcinTemelRehber",
     "ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi":"BlogSslTlsVeHstsOtelVeKurumsalSitelerdeHttpsYapilandirmasi",
-    "ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":"BlogDDoSKorumaVeWAFStratejisiOtelVeKurumsalSitelerIcin"
+    "ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":"BlogDDoSKorumaVeWAFStratejisiOtelVeKurumsalSitelerIcin",
+    "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":"BlogPmsApiVeOtelEntegrasyonlarindaApiGuvenligi"
   },
    
   creative: {
@@ -119,7 +120,8 @@ export const BLOG_MAP = {
 
     "otel-konser-etkinlik-produsksiyon-rehberi":"BlogOtelKonserEtkinlikProdusksiyonRehberi",
     "otel-lansman-acilis-etkinligi-produsksiyon":"BlogOtelLansmanAcilisEtkinligiProdusksiyon",
-    "otel-gala-gecesi-ve-ziyafet-produsksiyon":"BlogOtelGalaGecesiVeZiyafetProdusksiyon"
+    "otel-gala-gecesi-ve-ziyafet-produsksiyon":"BlogOtelGalaGecesiVeZiyafetProdusksiyon",
+    "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":"BlogOtelKurumsalEtkinlikVeLansmanIcIletisim"
   },
 
        "cagri-merkezi": {
@@ -143,7 +145,8 @@ export const BLOG_MAP = {
 
     "otel-satis-sonrasi-destek-temel-rehber":"BlogOtelSatisSonrasiDestekTemelRehber",
     "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":"BlogNpsVeMisafirMemnuniyetOtelSatisSonrasi",
-    "otel-iatel-degisim-iade-surecleri-satis-sonrasi":"BlogCagriMerkeziOtelIatelDegisimIadeSurecleriSatisSonrasi"
+    "otel-iatel-degisim-iade-surecleri-satis-sonrasi":"BlogCagriMerkeziOtelIatelDegisimIadeSurecleriSatisSonrasi",
+    "otel-sikayet-yonetimi-satis-sonrasi-surec":"BlogOtelSikayetYonetimiSatisSonrasiSurec"
   },
 
     "pms-ota": {

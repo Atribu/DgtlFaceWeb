@@ -10065,6 +10065,154 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu ve Güvenlik",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi",
+      "headline": "PMS API ve Otel Entegrasyonlarında API Güvenliği",
+      "name": "PMS API ve Otel Entegrasyonlarında API Güvenliği",
+      "description": "PMS/OTA API güvenliği rehberi: secret management, token/OAuth, scope ve IP kısıtları, rate limit/throttle, güvenli loglama ve otel–B2B entegrasyon örnekleri.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "API Security",
+        "PMS/OTA Integrations",
+        "Secrets Management",
+        "Scopes",
+        "IP Allowlist",
+        "Rate Limiting",
+        "Audit Logging"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+      "name": "Sunucu ve Güvenlik",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "API Entegrasyon Güvenliği (PMS/OTA, CRM/ERP)",
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+        { "@type": "ListItem", "position": 4, "name": "PMS API ve Otel Entegrasyonlarında API Güvenliği", "item": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "API güvenliği nedir, PMS/OTA entegrasyonlarında neden kritiktir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "API güvenliği; kimlik doğrulama, scope/izin yönetimi, ağ kısıtları ve rate limit ile erişimi kontrol etmektir. PMS/OTA entegrasyonlarında kritiktir çünkü bu API’ler rezervasyon ve gelir akışlarını taşır; bir açık doğrudan operasyonu etkileyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "API anahtarları nasıl saklanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anahtarlar secret manager veya environment variable içinde tutulmalı, kod deposuna asla düz metin yazılmamalıdır. CI/CD ve loglarda secret görünmemeli, hata çıktılarında maskelenmelidir; dev/stage/prod için ayrı anahtar kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "IP kısıtı ve rate limiting ile entegrasyon güvenliğini nasıl artırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IP allowlist/VPN, erişimi belirli ağlarla sınırlandırarak yüzeyi küçültür. Rate limit/throttle ise anormal istek patlamalarını kısıtlayarak brute force ve abuse riskini azaltır; kritik endpoint’lerde daha sıkı profil uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için güvenli API entegrasyon akışı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Secret’lar güvenli saklanmalı, scope’lar minimum olmalı, IP allowlist ile erişim daraltılmalı ve rate limit ile kötüye kullanım önlenmelidir. Loglar maskelenmeli, audit tutulmalı ve rotasyon/iptal prosedürü hazır olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "API anahtarları loglarda neden görünmemeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Loglar birçok kişiye ve servise akabildiği için sızıntı yüzeyi büyür. Masking yapılmazsa saldırganlar log üzerinden anahtarı ele geçirip entegrasyonu kötüye kullanabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/pms-api-ve-otel-entegrasyonlarinda-api-guvenligi#howto",
+      "name": "PMS/OTA Entegrasyonlarında Güvenli API Kurulumu",
+      "description": "Secret management, least privilege scope, IP allowlist ve rate limit ile otel entegrasyonlarında API güvenliğini güçlendirmek için adımlar.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Secret’ları güvenli sakla",
+          "text": "API key/token’ları secret manager veya environment variable’da tut; kod deposuna asla düz metin ekleme ve log masking uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Scope/izinleri minimalleştir",
+          "text": "Sadece gerekli endpoint ve scope’ları aç; okuma/yazma yetkilerini ayır ve entegrasyon bazlı ayrı kimlikler kullan."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ağ ve hız kısıtlarını uygula",
+          "text": "IP allowlist/VPN ile erişimi daralt; endpoint bazlı rate limit/throttle profilleri tanımla ve 429 yönetimi (backoff) ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Audit log ve rotasyon prosedürü kur",
+          "text": "Kim-ne-zaman-ne yaptı audit’ini KVKK uyumlu tut; anahtar rotasyonu ve incident anında iptal sürecini test et."
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -12565,6 +12713,126 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim#article",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim",
+      "headline": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
+      "name": "Otel Kurumsal Etkinliklerinde İç İletişim ve Markalama: Stage Branding, LED ve İçerik Yönetimi",
+      "description": "Kurumsal otel etkinliklerinde stage branding, LED içerik akışı ve sponsor yerleşimini okunabilirlik ve marka dengesiyle planlama rehberi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Stage Branding",
+        "LED Screen Content",
+        "Sponsor Branding",
+        "Corporate Event",
+        "Hotel Ballroom",
+        "Visual Identity"
+      ],
+      "keywords": [
+        "otel sahne led tasarimi",
+        "kurumsal etkinlik stage branding",
+        "sponsor logo yerlesimi otel balo salonu",
+        "stage branding for hotel events",
+        "led content design for conferences"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#service",
+      "name": "Etkinlik Prodüksiyonu",
+      "serviceType": "Kurumsal Etkinlik Stage Branding & LED İçerik Yönetimi",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim#howto",
+      "name": "Kurumsal etkinliklerde sahne ve LED içerikleri nasıl planlanmalı?",
+      "description": "Stage branding hiyerarşisi, LED içerik paketleri, sponsor yerleşimi ve cue yönetimi adımları.",
+      "step": [
+        { "@type": "HowToStep", "name": "Brand hiyerarşisini kilitle", "text": "Ana marka, otel host imzası ve sponsor seviyelerini belirle; sahnede maksimum logo sayısını sınırlayın." },
+        { "@type": "HowToStep", "name": "Safe-area ve okunabilirliği test et", "text": "Kontrast, tipografi ve güvenli alan kurallarını tanımla; salonun en arkasından ve kameradan kontrol et." },
+        { "@type": "HowToStep", "name": "LED paketini ve cue list’i oluştur", "text": "Açılış/ara/sponsor/kapanış ekranlarını paketle ve sunum-video geçişleriyle cue list üzerinden eşle." },
+        { "@type": "HowToStep", "name": "Backstage yedek planını hazırla", "text": "USB yedek, ikinci laptop ve offline video dosyalarıyla kesintisiz oynatmayı garanti et." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Stage Branding, LED ve İçerik Yönetimi", "item": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-kurumsal-etkinlik-ve-lansman-ic-iletisim#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Stage branding nedir, otel etkinliklerinde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stage branding; sahnede logo, tipografi, kontrast ve safe-area kurallarıyla kurumsal kimliği okunur ve premium gösterme sistemidir. Otel etkinliklerinde otel host imzası ve sponsor hiyerarşisi de dengelenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LED ekran içerikleri nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LED içerikleri akış halinde bir ekran paketi olmalıdır: açılış, ara ekran, sponsor ekranı, konuşmacı ekranı ve kapanış. Sunum/video cue’larıyla entegre edilmezse görsel karmaşa oluşur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sponsor logoları sahnede nereye konmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ana sponsor sahnede sabit ama ana markayı gölgelemeyecek ölçüde yer alır. Destekçi/partner logoları sahnede minimize edilip LED sponsor ekranlarına dağıtılır; okunabilirlik korunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve kurumsal marka kimliği sahnede nasıl dengelenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurumsal marka ana odak olur; otel markası host venue imzası olarak daha küçük ve sabit konumda yer alır. Sponsorlar hiyerarşik ve dönüşümlü gösterilerek sahne kalabalığı önlenir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 
@@ -14888,6 +15156,129 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yüksek tutar, itibar riski veya tekrar misafir gibi kriterlerde supervisor/revenue ekibine devredin. Misafire dönüş süresi verip ara bilgilendirme yapın; belirsizliği azaltın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-sikayet-yonetimi-satis-sonrasi-surec":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec",
+      "name": "Otel Şikâyet Yönetimi: Satış Sonrası Destek ile Krizi Fırsata Çevirmek",
+      "description": "Otel şikâyetlerini telefon, WhatsApp/DM, OTA ve Google yorumlarında doğru yönetin. İlk yanıt tonu, telafi-escalation matrisi ve raporlama ile krizi fırsata çevirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Hotel Complaint Management" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec#webpage" },
+      "headline": "Otel Şikâyet Yönetimi: Satış Sonrası Destek ile Krizi Fırsata Çevirmek",
+      "name": "Otel Şikâyet Yönetimi: Satış Sonrası Destek ile Krizi Fırsata Çevirmek",
+      "description": "Şikâyetleri; ilk yanıt, çözüm, telafi ve eskalasyon adımlarıyla satış sonrası süreçlere entegre eden pratik kılavuz.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "OTA Reviews" },
+        { "@type": "Thing", "name": "Google Reviews" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Social Media Messages" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel şikâyet yönetimi ve satış sonrası süreç kurulumu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Şikâyet Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-sikayet-yonetimi-satis-sonrasi-surec#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel şikâyet yönetimi nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şikâyeti hızlıca kayıt altına alıp empati + bilgi toplama + aksiyon + süre yapısıyla ilk yanıt vermelisiniz. Ardından çözüm/telafi/escalation akışını çalıştırıp misafir teyidiyle kapanış yapmalısınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kötü yorum ve şikâyet mesajına nasıl cevap verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kamusal kanallarda kısa ve profesyonel yanıt verin, kişisel bilgi istemeyin/yazmayın ve DM/iletişim kanalına davet edin. DM’de sorunu netleştirip çözüm adımı ve dönüş süresi paylaşın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumlarda telafi veya jest teklif edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şikâyetin seviyesi ve misafirin etkilenme düzeyine göre telafi planlanmalıdır. Orta-yüksek etkili durumlarda upgrade/indirim gibi telafiler ve supervisor/GM eskalasyonu gerekebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet verileri süreç iyileştirmede nasıl kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şikâyetleri kategori/seviye/kanal bazında etiketleyip trend raporu çıkarın. Aylık kök neden analiziyle tekrar eden sorunları departman aksiyonlarına bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve Google yorumlarında nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanıtı kısa tutun, teşekkür ile başlayın, çözüm için DM/iletişime davet edin. Kişisel verileri yorumlarda paylaşmayın ve sorunu iç sistemde ticket’a bağlayın."
           }
         }
       ]
