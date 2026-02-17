@@ -17359,6 +17359,170 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]
+},
+
+"ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak",
+      "name": "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak",
+      "description": "OTA hacim, web ve çağrı merkezi kârlı direct getirir. Otel kanal karmasını KPI’larla kurun; komisyonu düşürüp net geliri artıracak 12 aylık planı çıkarın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Channel Mix",
+        "OTA",
+        "Direct Booking",
+        "Call Center",
+        "Net Revenue",
+        "Commission"
+      ],
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#primaryimage",
+        "url": "https://dgtlface.com/assets/media/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#webpage" },
+      "headline": "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak",
+      "name": "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak",
+      "description": "OTA hacim, web ve çağrı merkezi kârlı direct getirir. Otel kanal karmasını KPI’larla kurun; komisyonu düşürüp net geliri artıracak 12 aylık planı çıkarın.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "image": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#primaryimage" },
+      "keywords": [
+        "kanal karması",
+        "ota web call center",
+        "ota bağımlılığını azaltmak",
+        "direct rezervasyon artırma",
+        "net gelir",
+        "komisyon"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/online-satis#service",
+      "name": "Online Satış Optimizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/online-satis",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "Hotel Channel Mix Optimization",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Antalya" },
+        { "@type": "AdministrativeArea", "name": "Belek" },
+        { "@type": "AdministrativeArea", "name": "Side" },
+        { "@type": "AdministrativeArea", "name": "Kemer" },
+        { "@type": "AdministrativeArea", "name": "Bodrum" },
+        { "@type": "AdministrativeArea", "name": "Alanya" },
+        { "@type": "AdministrativeArea", "name": "İstanbul" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Online Satış Optimizasyonu",
+          "item": "https://dgtlface.com/tr/pms-ota/online-satis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kanal karması nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal karması, OTA–web–çağrı merkezi dağılımını doluluk ve kârlılık dengesinde yönetmektir. Amaç, komisyon ve iptal etkisini kontrol ederek net geliri artırmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, web ve çağrı merkezinin rolleri nasıl ayrılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA hacim ve görünürlük sağlar; web kârlı direct rezervasyon üretir; çağrı merkezi yüksek değerli ve kompleks satışları kapatır. Her kanal rolüne göre KPI ile yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Doluluk ve kârlılık için ideal kanal dağılımı nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir yüzde yoktur; sezon, otel tipi ve segment belirleyicidir. En doğru yöntem, aynı dolulukta farklı dağılımların net gelir etkisini komisyon ve iptal dahil senaryolarla hesaplamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA bağımlılığını azaltıp direct rezervasyonu nasıl artırabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web CRO ve call center close rate gibi direct kapasiteyi artırmadan OTA’yı agresif kısmayın. Önce UX, teklif ve SLA iyileştirin; sonra kontrollü pay kaydırın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#speakable",
+      "cssSelector": [".post-title", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -19904,7 +20068,9 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":{}
 
     },
 
@@ -22459,6 +22625,142 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Puan ve yorumlar güven sinyali üretir, yanıt disiplini de kalite algısını güçlendirir. Beklentiyle deneyim uyumlu olduğunda dönüşüm artar ve görünürlük de zamanla güçlenebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-icerik-ve-fotograf-optimizasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu",
+      "name": "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu",
+      "headline": "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak",
+      "name": "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak",
+      "description": "OTA sayfanızı online broşüre çevirin: oda/tesis açıklamaları, fotoğraf sırası ve segment vurguları. Minimum–ideal–maksimum fotoğraf önerisi + kontrol listesi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Content" },
+        { "@type": "Thing", "name": "Room Description" },
+        { "@type": "Thing", "name": "Amenities" },
+        { "@type": "Thing", "name": "Hotel Photos" },
+        { "@type": "Thing", "name": "Gallery Strategy" },
+        { "@type": "Thing", "name": "Conversion" },
+        { "@type": "Thing", "name": "Segment Marketing" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#howto",
+      "name": "OTA İçerik ve Fotoğraf Optimizasyonu: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "OTA içerik alanlarını haritalandır", "text": "Headline, kısa açıklama, oda bilgisi, tesis olanakları ve politika alanlarının eksik/uyumsuz listesini çıkarın." },
+        { "@type": "HowToStep", "name": "Headline’ı satış odaklı kur", "text": "Destinasyon + konsept + 3 değer önerisi formatında net bir headline yazın." },
+        { "@type": "HowToStep", "name": "Oda açıklamalarını standardize et", "text": "m², yatak düzeni, manzara, kapasite ve kritik olanakları net yazın." },
+        { "@type": "HowToStep", "name": "Tesis olanaklarını karar odaklı sırala", "text": "Karar belirleyen 5 olanağı ilk sıraya alın ve abartısız anlatın." },
+        { "@type": "HowToStep", "name": "Politikaları netleştir", "text": "İptal/ödeme/no-show koşullarını belirsiz bırakmadan yazın ve tutarlılığı koruyun." },
+        { "@type": "HowToStep", "name": "Kapak fotoğrafını seç", "text": "Kapak görseli otelin ana vaadini tek karede anlatmalı; kalite ve gerçekçilik korunmalı." },
+        { "@type": "HowToStep", "name": "İlk 10 fotoğraf akışını düzenle", "text": "Kapak→oda→banyo→kahvaltı→deneyim→segment kanıtı sırasıyla karar akışı oluşturun." },
+        { "@type": "HowToStep", "name": "Segment vurgularını ekle", "text": "Family/couple/business/luxury segmentleri için metin ve fotoğraflarda farklı kanıtlar kullanın." },
+        { "@type": "HowToStep", "name": "Telif ve brand kontrolü yap", "text": "Görsel izinlerini doğrulayın, marka uyumunu ve kalite standardını koruyun." },
+        { "@type": "HowToStep", "name": "Güncelleme rutini başlat", "text": "Haftalık kontrol, aylık galeri revizyonu ve sezon geçişinde kapsamlı güncelleme takvimi oluşturun." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak", "item": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-icerik-ve-fotograf-optimizasyonu",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA sayfa içeriği nasıl yazılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Destinasyon ve konsepti netleştirip 3 somut değer önerisiyle başlayın. Oda açıklamalarında m², yatak düzeni, manzara, kapasite ve kritik olanakları net yazın; politikaları belirsiz bırakmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel fotoğrafları OTA’da nasıl sıralanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapak fotoğrafı ana vaadi anlatmalı; ilk 10 fotoğraf karar akışı oluşturmalıdır (oda, banyo, kahvaltı, deneyim, segment kanıtı). Tekrar eden açılardan kaçının, çeşitlilik sağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaç adet fotoğraf yüklemek idealdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum 20–25 fotoğraf temel karar için yeterlidir; ideal 35–50 fotoğraf oda çeşitleri ve deneyimi dengeler. Büyük resortlarda maksimum 70–90’a çıkılabilir; ancak tekrar ve kalite düşüşü ters etki yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı segmentlere göre OTA içeriği nasıl uyarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Family segmentte kids club/aile odası; couple segmentte ambiyans/manzara; business segmentte çalışma alanı/Wi-Fi; luxury segmentte detay ve özel alanlar öne çıkarılmalıdır. Metin ve fotoğraflar bu kanıtları içermelidir."
           }
         }
       ]

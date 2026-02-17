@@ -170,7 +170,8 @@ export const BLOG_MAP = {
 
     "otel-online-satis-optimizasyonu-nedir-temel-mantik":"BlogOtelOnlineSatisOptimizasyonuNedirTemelMantik",
     "otel-online-satis-hunisi-nasil-kurgulanir":"BlogOtelOnlineSatisHunisiNasilKurgulanir",
-    "web-rezervasyon-donusum-oranini-artirmak":"BlogPmsOtaWebRezervasyonDonusumOraniniArtirmak"
+    "web-rezervasyon-donusum-oranini-artirmak":"BlogPmsOtaWebRezervasyonDonusumOraniniArtirmak",
+    "ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":"BlogPmsOtaOtaWebCagriMerkeziKanalKarmasiIleOnlineSatisArtirmak"
   },
 
     "raporlama": {
@@ -194,7 +195,8 @@ export const BLOG_MAP = {
 
     "kvkk-veri-haritasi-otel-veri-akisi":"BlogKvkkVeriHaritasiOtelVeriAkisi",
     "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":"BlogOtelRezervasyonVePMSVerileriIcinKVKKRiskAnalizi",
-    "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":"BlogRaporlamaCerezYonetimiVeIzinKayitlariniRaporlamak"
+    "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":"BlogRaporlamaCerezYonetimiVeIzinKayitlariniRaporlamak",
+    "veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":"BlogVeriIhlaliSenaryolariVeOlaySonrasiKayitRaporlama"
   },
 
 
@@ -219,7 +221,8 @@ export const BLOG_MAP = {
 
     "ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":"BlogOTANedirOtelIcinOTAYonetimiTemelRehberi",
     "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":"BlogBookingComProfilOptimizasyonuVeGorunurlukStratejisi",
-    "expedia-ve-diger-otalarda-performans-artirma-stratejileri":"BlogOtelExpediaVeDigerOTALardaPerformansArtirmaStratejileri"
+    "expedia-ve-diger-otalarda-performans-artirma-stratejileri":"BlogOtelExpediaVeDigerOTALardaPerformansArtirmaStratejileri",
+    "ota-icerik-ve-fotograf-optimizasyonu":"BlogOtelOtaIcerikVeFotografOptimizasyonu"
     
   }
 };

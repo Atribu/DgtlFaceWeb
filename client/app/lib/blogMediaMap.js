@@ -8797,55 +8797,157 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-  "":{
+  "ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":{
      banner: {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-1.webp",
-      alt: "",
-      caption: ""
+      alt: "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak",
+      caption: "OTA, Web ve Çağrı Merkezi Kanal Karması ile Online Satışı Artırmak"
     },
 
           "h1-context-02": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-2.webp",
-      alt: "",
-      caption: ""
+      alt: "OTA hacim direct kârlılık dengesi, otel satış yönetimi için bağlam",
+      caption: "OTA hacim direct kârlılık dengesi, otel satış yönetimi için bağlam"
     },
 
            "divider-03": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-3.webp",
-      alt: "",
-      caption: ""
+      alt: "Doluluk ve kârlılık dengeleme bölümü, otel kanal dağılımı çerçevesi",
+      caption: "Doluluk ve kârlılık dengeleme bölümü, otel kanal dağılımı çerçevesi"
     },
 
     "divider-04": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-4.webp",
-      alt: "",
-      caption: ""
+      alt: "Antalya resort ve İstanbul city senaryoları, otel kanal karması uygulamas",
+      caption: "Antalya resort ve İstanbul city senaryoları, otel kanal karması uygulamas"
     },
 
      "diagram-05": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-5.webp",
-      alt: "",
-      caption: ""
+      alt: "Kanal karması akış diyagramı, OTA görünürlük direct kârlılık ilişkisi",
+      caption: "Kanal karması akış diyagramı, OTA görünürlük direct kârlılık ilişkisi"
     },
 
           "checklist-06": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-6.webp",
-      alt: "",
-      caption: ""
+      alt: "12 aylık kanal karması planı, otel yöneticisi için uygulanabilir aksiyon listesi",
+      caption: "12 aylık kanal karması planı, otel yöneticisi için uygulanabilir aksiyon listesi"
     },
 
       "kpi-07": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-7.webp",
-      alt: "",
-      caption: ""
+      alt: "Net gelir skor kartı, OTA web call center kanal karşılaştırma paneli",
+      caption: "Net gelir skor kartı, OTA web call center kanal karşılaştırma paneli"
     },
 
           "proof-08": {
       src: "/images/blog/pms/PMS-OTA4-4/Pms4-4-8.webp",
-      alt: "",
-      caption: ""
+      alt: "Rapor ve plan teslimatları, otel kanal yönetimi güven unsuru çıktıları",
+      caption: "Rapor ve plan teslimatları, otel kanal yönetimi güven unsuru çıktıları"
     }
   },
+
+
+  "veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-1.webp",
+      alt: "Veri İhlali Senaryoları ve Olay Sonrası Kayıt & Raporlama Süreçleri",
+      caption: "Veri İhlali Senaryoları ve Olay Sonrası Kayıt & Raporlama Süreçleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-2.webp",
+      alt: "İlk 24 saat: timeline, log kaynakları ve sorumlulukları sade biçimde gösterir",
+      caption: "İlk 24 saat: timeline, log kaynakları ve sorumlulukları sade biçimde gösterir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-3.webp",
+      alt: "Otel ölçeğinde tipik veri ihlali örnekleri, PMS ve e-posta senaryolarıyla",
+      caption: "Otel ölçeğinde tipik veri ihlali örnekleri, PMS ve e-posta senaryolarıyla"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-4.webp",
+      alt: "Olay sonrası iyileştirme ve önleyici aksiyonlar, ekipler için net çerçeve",
+      caption: "Olay sonrası iyileştirme ve önleyici aksiyonlar, ekipler için net çerçeve"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-5.webp",
+      alt: "Olay akışı: tespit → kayıt → analiz → aksiyon → kapanış, otel operasyonuna uyarlanmış",
+      caption: "Olay akışı: tespit → kayıt → analiz → aksiyon → kapanış, otel operasyonuna uyarlanmış"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-6.webp",
+      alt: "İlk 24 saat 7 adım ve log toplama checklist’i, otel ekipleri için uygulanabilir",
+      caption: "İlk 24 saat 7 adım ve log toplama checklist’i, otel ekipleri için uygulanabilir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-7.webp",
+      alt: "Tespit süresi ve aksiyon kapanış KPI’ları, olay sonrası iyileştirmeyi ölçer",
+      caption: "Tespit süresi ve aksiyon kapanış KPI’ları, olay sonrası iyileştirmeyi ölçer"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-4/Reporting4-4-8.webp",
+      alt: "Olay kayıt formu, log paketi ve aksiyon planı çıktıları, denetimde kanıt üretir",
+      caption: "Olay kayıt formu, log paketi ve aksiyon planı çıktıları, denetimde kanıt üretir"
+    }
+  },
+
+  "ota-icerik-ve-fotograf-optimizasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-1.webp",
+      alt: "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak",
+      caption: "OTA İçerik ve Fotoğraf Optimizasyonu: Otel Sayfanızı Satışa Hazırlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-2.webp",
+      alt: "İçerik+görsel kalite → dönüşüm akışı, amaç: karar çerçevesi, otel satış bağlamı",
+      caption: "İçerik+görsel kalite → dönüşüm akışı, amaç: karar çerçevesi, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-3.webp",
+      alt: "OTA içerik alan haritası, amaç: alanları görünür kılmak, otel satış bağlamı",
+      caption: "OTA içerik alan haritası, amaç: alanları görünür kılmak, otel satış bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-4.webp",
+      alt: "Galeri sıralama ve kapsam tablosu, amaç: fotoğraf akışı standardı, otel satış bağlamı",
+      caption: "Galeri sıralama ve kapsam tablosu, amaç: fotoğraf akışı standardı, otel satış bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-5.webp",
+      alt: "Kapak→oda→deneyim→kanıt akışı, amaç: karar akışı, otel satış bağlamı",
+      caption: "Kapak→oda→deneyim→kanıt akışı, amaç: karar akışı, otel satış bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-6.webp",
+      alt: "İçerik & galeri kontrol listesi, amaç: hızlı uygulama, otel operasyon bağlamı",
+      caption: "İçerik & galeri kontrol listesi, amaç: hızlı uygulama, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-7.webp",
+      alt: "Fotoğraf kalitesi ve dönüşüm paneli, amaç: CTR/dönüşüm etkisi, otel gelir bağlamı",
+      caption: "Fotoğraf kalitesi ve dönüşüm paneli, amaç: CTR/dönüşüm etkisi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-4/Hotel4-4-8.webp",
+      alt: "Sprint çıktıları: alan haritası, galeri akışı, segment kartları; amaç: somut çıktı, otel yönetim bağlamı",
+      caption: "Sprint çıktıları: alan haritası, galeri akışı, segment kartları; amaç: somut çıktı, otel yönetim bağlamı"
+    }
+  },
+
 
 
 };
