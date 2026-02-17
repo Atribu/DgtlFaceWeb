@@ -22,7 +22,8 @@ export const BLOG_MAP = {
     "ga4-ve-tag-manager-ile-otel-donusum-takibi-temel-rehber":"BlogGA4VeTagManagerIleOtelDonusumTakibiTemelRehber",
     "otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu":"BlogOtelRezervasyonMotoruIcinCrossDomainVeThankYouEventKurulumu",
     "otel-icin-telefon-ve-whatsapp-donusum-takibi":"BlogOtelIcinTelefonVeWhatsappDonusumTakibi",
-    "meta-conversion-api-ve-enhanced-conversions-otel-icin":"BlogSemMetaConversionApiVeEnhancedConversionsOtelIcin"
+    "meta-conversion-api-ve-enhanced-conversions-otel-icin":"BlogSemMetaConversionApiVeEnhancedConversionsOtelIcin",
+    "tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":"BlogSemTagManagerIleDonusumHatalariniTespitVeDebugEtme"
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -46,7 +47,8 @@ export const BLOG_MAP = {
     "backlink-nedir-neden-onemlidir-temel-rehber":"BlogBacklinkNedirNedenOnemlidirTemelRehber",
     "kaliteli-ve-spam-backlink-nasil-ayirt-edilir":"BlogKaliteliVeSpamBacklinkNasilAyirtEdilir",
     "backlink-analizi-audit-ve-disavow-stratejisi":"BlogBacklinkAnaliziAuditVeDisavowStratejisi",
-    "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":"BlogSeoStratejikLinkBuildingIcinDijitalPrVeIcerikKullanimi"
+    "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":"BlogSeoStratejikLinkBuildingIcinDijitalPrVeIcerikKullanimi",
+    "anchor-text-stratejisi-ve-link-yerlesimi":"BlogSeoAnchorTextStratejisiVeLinkYerlesimi"
   },
 
     smm: {

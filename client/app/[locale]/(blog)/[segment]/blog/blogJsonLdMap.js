@@ -2517,6 +2517,106 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme#webpage",
+      "url": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme",
+      "name": "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi",
+      "description": "GTM Preview, GA4 DebugView ve Tag Assistant ile dönüşüm event’lerini test edin. Çift sayım, eksik kayıt ve cross-domain hatalarını erken tespit edip düzeltin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme#article",
+      "headline": "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi",
+      "name": "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi",
+      "description": "GTM Preview/Debug, GA4 DebugView, Tag Assistant ve DevTools ile dönüşüm hatalarını tespit edip düzeltin; çift sayımı ve referral sapmasını engelleyerek rapor güvenini artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Debugging",
+        "Google Tag Manager Preview",
+        "GA4 DebugView",
+        "Tag Assistant",
+        "Conversion Errors",
+        "Cross-domain tracking"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Dönüşüm Takibi & Tag Manager", "item": "https://dgtlface.com/tr/sem/donusum-takibi-tag-manager" },
+        { "@type": "ListItem", "position": 4, "name": "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi", "item": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dönüşüm hataları nasıl tespit edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce GTM Preview’da tag’in doğru tetiklendiğini doğrulayın, sonra GA4 DebugView’da event’in GA4’e ulaştığını görün. Son olarak Tag Assistant/DevTools ile çift sayım ve cross-domain/referral sapması gibi kök nedenleri kontrol edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tag Manager debug modu nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GTM’de Preview ile siteye bağlanın, test senaryosunu uygulayın ve Tags Fired/Not Fired listesinden hangi tag’in neden ateşlediğini inceleyin. Variables paneli tetik koşullarını gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4 DebugView ile event’ler nasıl kontrol edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DebugView’da event adını ve kritik parametreleri kontrol edin. Aynı aksiyonda event’in iki kez görünmesi double fire belirtisi olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çift sayılan dönüşümler nasıl tespit edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GTM Preview’da aynı aksiyon sonrası iki farklı tag’in ateşlenip ateşlenmediğini kontrol edin; GA4 DebugView’da event’in ardışık iki kez oluşup oluşmadığını inceleyin; Tag Assistant ile çakışan tag/container olup olmadığını doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking engine referral olarak görünüyor, ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu genelde cross-domain/referral yönetimi eksikliğidir. Önce rezervasyon event’inin tekil olduğundan emin olun, sonra cross-domain geçişinde oturumun bölünüp bölünmediğini test edin ve gerekli ölçüm mimarisi düzeltmelerini yapın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -4944,6 +5044,132 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Otellerde destinasyon ve deneyim içerikleri + yerel basın/rehberler; B2B’de sektörel yayınlar, partner ekosistemi, case study ve podcast/webinar görünürlüğü güçlü fırsat alanlarıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"anchor-text-stratejisi-ve-link-yerlesimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": ["Anchor Text", "Link Placement", "Link Context", "Off-Page SEO"]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi#article",
+      "url": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi",
+      "headline": "Anchor Text Stratejisi ve Link Yerleşimi: Otoriteyi Doğru Yere Nasıl Taşırsınız?",
+      "name": "Anchor Text Stratejisi ve Link Yerleşimi: Otoriteyi Doğru Yere Nasıl Taşırsınız?",
+      "description": "Anchor text nedir, dağılımı nasıl olmalı? Marka/URL/generic/partial-exact türleriyle doğal profil kurun, linkleri içerikte doğru cümle bağlamına yerleştirin. Otel & B2B örnekli rehber.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        "Anchor Text",
+        "Link Placement",
+        "Link Context",
+        "Brand vs Exact Match",
+        "Anchor diversity",
+        "Contextual relevance",
+        "Safe optimisation"
+      ],
+      "inLanguage": "tr-TR",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "#answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/backlink-yonetimi#service",
+      "name": "Backlink & Dijital Otorite Yönetimi",
+      "serviceType": "SEO / Backlink ve Otorite Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/seo/backlink-yonetimi"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi#howto",
+      "name": "Anchor dağılımı ve link yerleşimi planı oluşturma",
+      "description": "Anchor türlerini çeşitlendirip linkleri bağlamlı yerleştirerek otoriteyi doğru sayfalara taşıma adımları.",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Hedef sayfaları ve konu kümelerini belirle", "text": "Hub ve child sayfaları netleştir; her sayfanın niyetini yaz." },
+        { "@type": "HowToStep", "name": "Anchor sözlüğünü oluştur", "text": "Brand/URL/Generic/Partial/Exact türlerinde varyasyon seti çıkar; exact’i sınırlı tut." },
+        { "@type": "HowToStep", "name": "Linkleri cümle bağlamına yerleştir", "text": "Body içinde, ilgili cümlede; footer/sitewide linkleri minimumda tut." },
+        { "@type": "HowToStep", "name": "30 gün sonra ölç ve düzelt", "text": "Top anchor ve hedef sayfa performansını kontrol et; şişkinlik varsa dağılımı düzelt." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "Backlink & Dijital Otorite Yönetimi", "item": "https://dgtlface.com/tr/seo/backlink-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Anchor Text Stratejisi ve Link Yerleşimi", "item": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/anchor-text-stratejisi-ve-link-yerlesimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Anchor text nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anchor text, bir linkin tıklanan metnidir ve linkin hangi konu ve sayfayla ilişkilendirileceğini arama motorlarına anlatır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anchor dağılımı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğal profiller genellikle marka/URL/partial ağırlıklıdır; exact match anchor’lar sınırlı ve bağlamlı kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Exact match anchor tehlikeli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aşırı tekrar, alakasız kaynaklar ve şablon yerleşimlerle birleşirse risk artar; daha güvenli yaklaşım partial + brand/URL çeşitliliğidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İçerikte linkleri nereye koymalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En iyi yer, linkin referans olduğu cümlenin içinde veya aynı paragrafta, içerik gövdesidir; footer/sitewide linkler sınırlı tutulmalıdır."
           }
         }
       ]

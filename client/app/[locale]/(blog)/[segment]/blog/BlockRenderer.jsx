@@ -355,6 +355,13 @@ const finalFit = fitFromJson || fitClass;
         </h4>
       );
 
+       case "h5":
+      return (
+        <h5 className={`mt-6 text-[15px] lg:text-[17px] font-semibold tracking-tight text-white ${alignmentClasses}`}>
+          {block.text}
+        </h5>
+      );
+
     case "ul":
       return (
         <ul className="mt-4 space-y-2 text-sm leading-6 text-white/75 w-full">

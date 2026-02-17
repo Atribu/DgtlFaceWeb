@@ -8949,6 +8949,107 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":{
+     banner: {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-1.webp",
+      alt: "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi",
+      caption: "Tag Manager ile Dönüşüm Hatalarını Tespit ve Debug Etme Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-2.webp",
+      alt: "Dönüşüm debug sürecini adım adım otel pazarlaması için açıklayan görsel",
+      caption: "Dönüşüm debug sürecini adım adım otel pazarlaması için açıklayan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-3.webp",
+      alt: "Yaygın dönüşüm hatalarını otel ölçüm akışında ayıran bölüm görseli",
+      caption: "Yaygın dönüşüm hatalarını otel ölçüm akışında ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-4.webp",
+      alt: "GTM Preview ve Debug adımlarını otel ekibi için ayıran bölüm görseli",
+      caption: "GTM Preview ve Debug adımlarını otel ekibi için ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-5.webp",
+      alt: "GTM Preview DebugView Tag Assistant sırasını otel dönüşümleri için gösteren diyagram",
+      caption: "GTM Preview DebugView Tag Assistant sırasını otel dönüşümleri için gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-6.webp",
+      alt: "Dönüşüm hatalarını tespit etmek için otel debug checklist kartı",
+      caption: "Dönüşüm hatalarını tespit etmek için otel debug checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-7.webp",
+      alt: "Çift sayım eksik kayıt referral sapması gibi debug KPI kart",
+      caption: "Çift sayım eksik kayıt referral sapması gibi debug KPI kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM4-5/SEM4-5-8.webp",
+      alt: "Debug çıktıları ve QA kanıtlarını otel ekibi için özetleyen proof kartı",
+      caption: "Debug çıktıları ve QA kanıtlarını otel ekibi için özetleyen proof kartı"
+    }
+  },
+
+
+  "anchor-text-stratejisi-ve-link-yerlesimi":{
+     banner: {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-1.webp",
+      alt: "Anchor Text Stratejisi ve Link Yerleşimi: Otoriteyi Doğru Yere Nasıl Taşırsınız?",
+      caption: "Anchor Text Stratejisi ve Link Yerleşimi: Otoriteyi Doğru Yere Nasıl Taşırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-2.webp",
+      alt: "Anchor türleri ve doğru yerleşim özeti, otel ve B2B örnekleri",
+      caption: "Anchor türleri ve doğru yerleşim özeti, otel ve B2B örnekleri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-3.webp",
+      alt: "Anchor text sinyali ve bağlam ilişkisi, SEO otorite ayracı",
+      caption: "Anchor text sinyali ve bağlam ilişkisi, SEO otorite ayracı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-4.webp",
+      alt: "Doğal dağılım ve exact match riski, güvenli optimizasyon ayracı",
+      caption: "Doğal dağılım ve exact match riski, güvenli optimizasyon ayracı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-5.webp",
+      alt: "Anchor türleri risk spektrumu ve güvenli optimizasyon akışı",
+      caption: "Anchor türleri risk spektrumu ve güvenli optimizasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-6.webp",
+      alt: "Anchor dağılımı ve link bağlamı kontrol listesi, pratik değerlendirme",
+      caption: "Anchor dağılımı ve link bağlamı kontrol listesi, pratik değerlendirme"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-7.webp",
+      alt: "Anchor sağlığı KPI paneli, stabil sıralama ve doğal profil ölçümü",
+      caption: "Anchor sağlığı KPI paneli, stabil sıralama ve doğal profil ölçümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO4-5/SEO4-5-8.webp",
+      alt: "Anchor planı çıktıları ve uygulama deliverables, otel ve B2B SEO",
+      caption: "Anchor planı çıktıları ve uygulama deliverables, otel ve B2B SEO"
+    }
+  },
+
 
 };
 
