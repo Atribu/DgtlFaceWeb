@@ -203,7 +203,8 @@ export const BLOG_MAP = {
     "kvkk-veri-haritasi-otel-veri-akisi":"BlogKvkkVeriHaritasiOtelVeriAkisi",
     "otel-rezervasyon-ve-pms-verileri-icin-kvkk-risk-analizi":"BlogOtelRezervasyonVePMSVerileriIcinKVKKRiskAnalizi",
     "cerez-yonetimi-ve-izin-kayitlarini-raporlamak":"BlogRaporlamaCerezYonetimiVeIzinKayitlariniRaporlamak",
-    "veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":"BlogVeriIhlaliSenaryolariVeOlaySonrasiKayitRaporlama"
+    "veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":"BlogVeriIhlaliSenaryolariVeOlaySonrasiKayitRaporlama",
+    "kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist":"BlogRaporlamaKvkkDenetimineHazirlikIcinOtelVeriRaporlamaChecklist"
   },
 
 

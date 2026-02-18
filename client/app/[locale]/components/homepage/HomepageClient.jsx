@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
 import { useTranslations } from "next-intl";
-import HomeBlogShowcase from "./HomeBlogShowcase";
+// import HomeBlogShowcase from "./HomeBlogShowcase";
 import ViewportLazyMount from "./ViewportLazyMount";
 
 const Section4 = dynamic(() => import("../../components/Section4/Section4"));
@@ -36,7 +36,7 @@ export default function HomePage() {
          <ViewportLazyMount rootMargin="240px 0px" minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
-         <HomeBlogShowcase limit={10} heroCount={5} showHero />
+         {/* <HomeBlogShowcase limit={10} heroCount={5} showHero /> */}
 
         <ViewportLazyMount rootMargin="420px 0px" minHeight={900} className="w-full">
           <H2Section />

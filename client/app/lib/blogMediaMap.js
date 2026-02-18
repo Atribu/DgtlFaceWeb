@@ -9315,6 +9315,57 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist":{
+     banner: {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-1.webp",
+      alt: "KVKK Denetimine Hazırlık: Oteller İçin Veri Raporlama Checklist’i",
+      caption: "KVKK Denetimine Hazırlık: Oteller İçin Veri Raporlama Checklist’i"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-2.webp",
+      alt: "Data inventory, data map, log ve consent kayıtlarını denetim paketi olarak özetler",
+      caption: "Data inventory, data map, log ve consent kayıtlarını denetim paketi olarak özetler"
+    },
+
+           "divider-03": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-3.webp",
+      alt: "KVKK denetiminde istenen kayıt grupları, oteller için sade rehber görseli",
+      caption: "KVKK denetiminde istenen kayıt grupları, oteller için sade rehber görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-4.webp",
+      alt: "Denetimden önce son 7 gün yapılacaklar, ekipler arası ortak kontrol listesi",
+      caption: "Denetimden önce son 7 gün yapılacaklar, ekipler arası ortak kontrol listesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-5.webp",
+      alt: "KVKK denetim dosya yapısı klasör diyagramı, kanıt setini görselleştirir",
+      caption: "KVKK denetim dosya yapısı klasör diyagramı, kanıt setini görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-6.webp",
+      alt: "Log ve yetki kanıtı Mini Check, denetim paketini eksiksiz tamamlatır",
+      caption: "Log ve yetki kanıtı Mini Check, denetim paketini eksiksiz tamamlatır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-7.webp",
+      alt: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer”",
+      caption: "Hazırlık KPI’ları: eksik kayıt sayısı ve denetim yanıt süresi, otel olgunluğunu ölçer”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/analysisReporting/Reporting4-5/Reporting4-5-8.webp",
+      alt: "Denetim paketi çıktıları: klasör seti, index dosyası ve örnek kanıtlar kartı",
+      caption: "Denetim paketi çıktıları: klasör seti, index dosyası ve örnek kanıtlar kartı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

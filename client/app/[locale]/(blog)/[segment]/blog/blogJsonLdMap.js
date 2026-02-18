@@ -20770,7 +20770,333 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":{}
+"veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama",
+      "name": "Veri İhlali Senaryoları ve Olay Sonrası Kayıt & Raporlama Süreçleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Data Breach",
+        "Incident Response",
+        "Log Management",
+        "PMS",
+        "Email",
+        "Access Control"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#article",
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama",
+      "headline": "Veri İhlali Senaryoları ve Olay Sonrası Kayıt & Raporlama Süreçleri",
+      "name": "Veri İhlali Senaryoları ve Olay Sonrası Kayıt & Raporlama Süreçleri",
+      "description": "Otel veri ihlallerinde ilk 24 saat playbook’u: olay kaydı, log/delil toplama, iç raporlama ve iyileştirme aksiyonları. PMS ve e-posta senaryolarıyla.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "articleSection": "Veri Analizi & Raporlama",
+      "keywords": [
+        "veri ihlali kayit ve raporlama",
+        "otel icin kvkk olay formu",
+        "log tabanli ihlal analizi",
+        "hotel data breach response kvkk",
+        "incident log template hospitality",
+        "personal data breach reporting steps"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "name": "KVKK & Veri Güvenliği Raporlama",
+      "serviceType": "Veri İhlali Olay Kaydı, Log Analizi ve İç Raporlama Danışmanlığı",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#howto",
+      "name": "Otel veri ihlalinde kayıt ve raporlama süreci nasıl yönetilir?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Olayı kayıt altına alın",
+          "text": "Incident ID oluşturun, tespit zamanı/rolü ve olay tipini yazın; etkilenen sistemleri listeleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Log ve delil toplayın",
+          "text": "E-posta kanıtı, PMS login/değişiklik log’ları ve cihaz/terminal kayıtlarını ham biçimde saklayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Timeline ve kapsamı çıkarın",
+          "text": "Olay kronolojisini oluşturun; etkilenen veri setlerini ve tahmini kapsamı belirleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İlk aksiyonları uygulayın",
+          "text": "Erişimi kısıtlayın, parolaları sıfırlayın ve gerekli operasyonel önlemleri devreye alın; hepsini kayıt altına alın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İyileştirme planı ile kapatın",
+          "text": "Kök nedeni yazın, teknik/organizasyonel kontrolleri planlayın ve owner+tarih ile aksiyonları kapatın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK & Veri Güvenliği Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Veri İhlali Kayıt & Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/veri-ihlali-senaryolari-ve-olay-sonrasi-kayit-raporlama",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Veri ihlali nedir, oteller için tipik senaryolar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri ihlali; kişisel veriye yetkisiz erişim, ifşa, kayıp veya değişiklik gibi olayları kapsar. Otellerde sık senaryolar yanlış alıcıya e-posta, açık terminal, kaybolan cihaz ve yetkisiz PMS erişimidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK kapsamında veri ihlali tespiti sonrası hangi kayıtlar tutulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Olay kimliği, tespit zamanı/rol, etkilenen sistemler, veri setleri, kapsam tahmini, timeline ve toplanan log/delil listesi tutulmalı; ilk aksiyonlar ve iyileştirme planı owner+tarih ile rapora eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Olay kayıt formunda hangi alanlar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Incident ID, olay tipi, etkilenen sistemler, veri setleri, timeline, log/delil listesi, ilk aksiyonlar, kök neden, aksiyon planı ve kapanış notu alanları pratik bir standart sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Veri ihlali sonrasında teknik ve organizasyonel aksiyonlar nasıl raporlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aksiyonlar hangi riski düşürdüğüyle birlikte yazılmalı ve kanıtı belirtilmelidir (log/policy/konfigürasyon/eğitim). Owner ve kapanış tarihi zorunlu tutulmalı, 30 gün sonra yeniden değerlendirme yapılmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#webpage",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist",
+      "name": "KVKK Denetimine Hazırlık: Oteller İçin Veri Raporlama Checklist’i",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "KVKK Audit",
+        "Data Inventory",
+        "Log Records",
+        "Consent Logs",
+        "Hotel"
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#article",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist",
+      "headline": "KVKK Denetimine Hazırlık: Oteller İçin Veri Raporlama Checklist’i",
+      "name": "KVKK Denetimine Hazırlık: Oteller İçin Veri Raporlama Checklist’i",
+      "description": "KVKK denetimi için otelde hangi raporlar hazır olmalı? Veri envanteri, veri haritası, erişim logları, consent/cookie raporları ve örnek kayıtları klasör yapısıyla toparlayın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#webpage" },
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "articleSection": "Veri Analizi & Raporlama",
+      "keywords": [
+        "kvkk denetimine hazirlik otel",
+        "kvkk raporlama checklist",
+        "veri envanteri ve log kayitlari",
+        "kvkk audit preparation hotel",
+        "data inventory and logs for inspection",
+        "kvkk veri raporlama checklist"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi#service",
+      "url": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi",
+      "name": "KVKK & Veri Güvenliği Raporlama",
+      "serviceType": "KVKK Denetim Hazırlık ve Veri Raporlama Danışmanlığı",
+      "provider": { "@id": "https://dgtlface.com/#website" },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#howto",
+      "name": "Otel için KVKK denetim hazırlık kanıt seti nasıl hazırlanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Klasör yapısını kurun",
+          "text": "Data inventory, data map, access rights, log evidence, consent/cookie ve süreç örnekleri için standart klasörler oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Çekirdek kanıt dosyalarını ekleyin",
+          "text": "Veri envanteri, akış şemaları, rol matrisi, log örnekleri ve consent KPI raporlarını paketleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Örnek kayıtları maskeleyin",
+          "text": "Rezervasyon, web form ve çağrı merkezi örneklerini kişisel verileri maskeleyerek hazırlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "INDEX dosyasıyla sunuma hazır olun",
+          "text": "Kök dizine içerik özeti, sorumlu ve güncelleme tarihi içeren INDEX dosyası ekleyin ve dry-run yapın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "KVKK & Veri Güvenliği Raporlama",
+          "item": "https://dgtlface.com/tr/raporlama/kvkk-veri-guvenligi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KVKK Denetim Checklist",
+          "item": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist#faq",
+      "url": "https://dgtlface.com/tr/raporlama/blog/kvkk-denetimine-hazirlik-icin-otel-veri-raporlama-checklist",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK denetimine hazırlanırken hangi raporlar ve kayıtlar gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri envanteri, veri haritası, rol bazlı yetki matrisi, PMS/entegrasyon log kanıtları, consent/cookie raporları ve rezervasyon–web form–çağrı merkezi örnek kayıtları temel denetim setidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için KVKK denetim dosya yapısı nasıl oluşturulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inventory, data map, access rights, log evidence, consent/cookie ve süreç örnekleri klasörleriyle bir kanıt seti kurun; köke INDEX dosyası ekleyip sorumlu ve güncelleme tarihlerini belirtin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erişim logları ve yetki kayıtlarını denetime nasıl hazırlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol bazlı yetki matrisi ve aktif kullanıcı listesiyle birlikte PMS login/değişiklik log örneklerini ve log politikasını (kapsam/saklama/erişim) paketleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Consent ve çerez kayıtlarını nasıl sunmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent log örnekleri (maskeli), banner sürüm geçmişi, opt-in KPI raporu ve saklama/erişim prensibini birlikte sunun; raporların izinli evreni temsil ettiğini dashboard’da belirtin."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
