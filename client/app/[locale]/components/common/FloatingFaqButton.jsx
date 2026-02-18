@@ -4,7 +4,7 @@ import React, { useMemo } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { FAQ_ROUTE_MAP } from "../../faqRouteMap";
 
 function stripLocale(pathname, locale) {
@@ -21,7 +21,6 @@ function findFaqTarget(pathNoLocale) {
 export default function FloatingFaqButton() {
   const pathname = usePathname();
   const locale = useLocale();
-  const t = useTranslations(); // h1'leri göstermek istersen
   const pathNoLocale = stripLocale(pathname, locale);
 
   const target = useMemo(() => findFaqTarget(pathNoLocale), [pathNoLocale]);
@@ -30,7 +29,7 @@ export default function FloatingFaqButton() {
   if (!target?.slug) return null;
 
   const href = `/${locale}/${target.slug}`;
-  const label = target.labelKey ? t(target.labelKey) : "SSS";
+  const label = "SSS";
 
   return (
     <div className="fixed z-[999] right-4 bottom-4 md:right-6 md:bottom-6">

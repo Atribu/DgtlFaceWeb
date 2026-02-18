@@ -27,15 +27,15 @@ export default function Footer() {
 
     // ✅ blog linkler
   const blogLinks = [
-  { id: "sem", label: "SEM Blogları", href: "/sem/bloglar" },
-  { id: "seo", label: "SEO Blogları", href: "/seo/bloglar" },
-  { id: "smm", label: "SMM Blogları", href: "/smm/bloglar" },
-  { id: "software", label: "Yazılım Blogları", href: "/yazilim/bloglar" },
-  { id: "creative", label: "Creative Blogları", href: "/creative/bloglar" },
-  { id: "callcenter", label: "Çağrı Merkezi Blogları", href: "/callcenter/bloglar" },
-  { id: "reporting", label: "Veri Analizi ve Raporlama Blogları", href: "/veri-analizi-raporlama/bloglar" },
-  { id: "pms-ota", label: "PMS-Ota Blogları", href: "/pms-ota/bloglar" },
-  { id: "hotel", label: "Otel Blogları", href: "/hotel/bloglar" },
+  { id: "sem", label: t("semblog"), href: "/sem/bloglar" },
+  { id: "seo", label: t("seoblog"), href: "/seo/bloglar" },
+  { id: "smm", label: t("smmblog"), href: "/smm/bloglar" },
+  { id: "software", label: t("softwareblog"), href: "/yazilim/bloglar" },
+  { id: "creative", label: t("creativeblog"), href: "/creative/bloglar" },
+  { id: "callcenter", label: t("callcenterblog"), href: "/callcenter/bloglar" },
+  { id: "reporting", label: t("reportingblog"), href: "/veri-analizi-raporlama/bloglar" },
+  { id: "pms-ota", label: t("pmsotablog"), href: "/pms-ota/bloglar" },
+  { id: "hotel", label: t("hotelblog"), href: "/hotel/bloglar" },
 
   ];
 

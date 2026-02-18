@@ -12,7 +12,6 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import { Inter } from "next/font/google";
 import dynamic from 'next/dynamic';
 import FloatingActions from "./components/common/FloatingActions";
-import GtmDeferred from "./components/analytics/GtmDeferred";
 
 const Footer = dynamic(() => import("./components/footer/Footer"));
 const CookiePopup = dynamic(() => import("./components/Cookies/CookiePopup"));
@@ -65,7 +64,9 @@ function buildClientMessages(allMessages) {
   );
 
   return {
-    ...allMessages,
+    ...Object.fromEntries(
+      Object.entries(allMessages).filter(([key]) => !key.startsWith("Faq"))
+    ),
     BlogPosts: slimBlogPosts,
   };
 }
@@ -168,8 +169,8 @@ export default async function RootLayout({ children,  params }) {
 
   return (
     <>
-      {/* <GoogleTagManager gtmId="GTM-TM2KPGV9" /> */}
-      <GtmDeferred />
+      <GoogleTagManager gtmId="GTM-TM2KPGV9" />
+   
       <div className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <HeaderWrapper />

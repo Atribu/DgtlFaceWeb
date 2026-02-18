@@ -141,7 +141,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   },
   {
     key: "hotel",
-    label: t("hotel"), // tr.json → "Otel Dijital Dönüşüm"
+    label: t("hotel"), 
     href: "/Services/hotel",
     subLinks: [
       { label: t("hotel_seo"), href: "/Services/hotel/seo" },
