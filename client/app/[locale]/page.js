@@ -212,7 +212,7 @@ export async function generateMetadata({ params }) {
 
 export default async function HomePage({ params: { locale } }) {
 
-  const t = await getTranslations({ locale, namespace: "HomePage" });
+  const t = await getTranslations({ locale, namespace: "Homepage" });
 
     const baseUrl = getBaseUrl();
   const pathnameKey = "/";

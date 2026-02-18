@@ -25,6 +25,51 @@ const inter = Inter({
   variable: "--font-inter", 
 });
 
+function buildClientMessages(allMessages) {
+  if (!allMessages || typeof allMessages !== "object") return allMessages;
+
+  const rawBlogPosts = allMessages.BlogPosts;
+  if (!rawBlogPosts || typeof rawBlogPosts !== "object") return allMessages;
+
+  const slimBlogPosts = Object.fromEntries(
+    Object.entries(rawBlogPosts).map(([key, post]) => {
+      const safePost = post && typeof post === "object" ? post : {};
+      const safeByline =
+        safePost.byline && typeof safePost.byline === "object" ? safePost.byline : {};
+
+      return [
+        key,
+        {
+          slug: safePost.slug || "",
+          department: safePost.department || "",
+          subDepartman: safePost.subDepartman || "",
+          subDepartment: safePost.subDepartment || "",
+          title: safePost.title || "",
+          excerpt: safePost.excerpt || "",
+          h1Intro: safePost.h1Intro || "",
+          h1:
+            safePost.h1 && typeof safePost.h1 === "object"
+              ? { intro: safePost.h1.intro || "" }
+              : { intro: "" },
+          publishedAt: safePost.publishedAt || "",
+          updatedAt: safePost.updatedAt || "",
+          readingTime: safePost.readingTime || "",
+          byline: {
+            updatedAt: safeByline.updatedAt || "",
+            publishedAt: safeByline.publishedAt || "",
+            readingTime: safeByline.readingTime || "",
+          },
+        },
+      ];
+    })
+  );
+
+  return {
+    ...allMessages,
+    BlogPosts: slimBlogPosts,
+  };
+}
+
 const ogLocaleMap = {
   tr: "tr_TR",
   en: "en_US",
@@ -117,23 +162,24 @@ export default async function RootLayout({ children,  params }) {
     notFound();
   }
       setRequestLocale(locale)
-       const messages = await getMessages();
+       const allMessages = await getMessages();
+       const messages = buildClientMessages(allMessages);
 
 
   return (
-    <html lang={locale}>
+    <>
       {/* <GoogleTagManager gtmId="GTM-TM2KPGV9" /> */}
       <GtmDeferred />
-     <body className={`${inter.variable} antialiased`}>
+      <div className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-        <HeaderWrapper />
-        <CookiePopup />
-        {children}
-         <FloatingFaqButton />
-        <Footer />
-        <FloatingActions/>
+          <HeaderWrapper />
+          <CookiePopup />
+          {children}
+          <FloatingFaqButton />
+          <Footer />
+          <FloatingActions />
         </NextIntlClientProvider>
-      </body>
-    </html>
+      </div>
+    </>
   );
 }
