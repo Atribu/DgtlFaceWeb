@@ -15747,6 +15747,82 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-satis-sonrasi-destek-ve-sadakat-programlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari",
+      "name": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+      "description": "Satış sonrası destek ile sadakat programını birleştirin: check-out sonrası teşekkür/anket/davet akışı kurun. LTV’yi ve tekrar rezervasyonu segment bazlı artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Hotel Loyalty Program" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari#webpage" },
+      "headline": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+      "name": "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+      "description": "Satış sonrası destek temas noktalarını sadakat programı ve CRM ile birleştirerek, misafiri geri getiren döngüyü tasarlama rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Loyalty Program" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Guest Journey" },
+        { "@type": "Thing", "name": "LTV" },
+        { "@type": "Thing", "name": "Upsell" },
+        { "@type": "Thing", "name": "CRM" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası destek ve sadakat/CRM entegrasyonu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Satış Sonrası Destek ve Sadakat Programları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari" }
+      ]
+    }
+  ]
 }
 
     },
@@ -17983,6 +18059,167 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/pms-ota/blog/ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak#speakable",
+      "cssSelector": [".post-title", ".answer-block"]
+    }
+  ]
+},
+
+"otel-online-satisinda-upsell-ve-cross-sell-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri",
+      "name": "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak",
+      "description": "Otelde upsell ve cross-sell ile RevPAR’ı büyütün: oda upgrade, geç çıkış, transfer ve spa tekliflerini doğru zamanda ve segmente sunun. Örnek metinler + KPI ölçümü.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Upsell",
+        "Cross-sell",
+        "RevPAR",
+        "Ancillary Revenue",
+        "Guest Segmentation"
+      ],
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#primaryimage",
+        "url": "https://dgtlface.com/assets/media/otel-online-satisinda-upsell-ve-cross-sell-stratejileri-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#webpage" },
+      "headline": "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak",
+      "name": "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak",
+      "description": "Otelde upsell ve cross-sell ile RevPAR’ı büyütün: oda upgrade, geç çıkış, transfer ve spa tekliflerini doğru zamanda ve segmente sunun. Örnek metinler + KPI ölçümü.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "image": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#primaryimage" },
+      "keywords": [
+        "otel upsell",
+        "otel cross-sell",
+        "RevPAR artırma",
+        "oda upgrade",
+        "ancillary revenue",
+        "misafir segmentasyonu"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/online-satis#service",
+      "name": "Online Satış Optimizasyonu",
+      "url": "https://dgtlface.com/tr/pms-ota/online-satis",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "Hotel Revenue Optimization (Upsell & Cross-sell)",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Antalya" },
+        { "@type": "AdministrativeArea", "name": "Belek" },
+        { "@type": "AdministrativeArea", "name": "Side" },
+        { "@type": "AdministrativeArea", "name": "Kemer" },
+        { "@type": "AdministrativeArea", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Online Satış Optimizasyonu",
+          "item": "https://dgtlface.com/tr/pms-ota/online-satis"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#webpage" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Up-sell ve cross-sell nedir, otel online satışında nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upsell, misafiri daha yüksek oda/ürüne geçirerek ADR/RevPAR’ı artırır; cross-sell transfer, spa, restoran gibi ek hizmetlerle ancillary gelir yaratır. Başarı, doğru segment ve doğru zamanlamayla gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda upgrade ve geç çıkış tekliflerini ne zaman sunmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upgrade’i oda seçimi sonrası veya pre-arrival 7–10 gün kala; geç çıkış gibi düşük sürtünmeli teklifleri ise 48–72 saat kala sunmak genelde daha verimlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Spa, restoran ve transfer gibi hizmetleri online satışta nasıl paketleyebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Değer diliyle paketleyin: transfer + spa kredisi gibi. Pre-arrival WhatsApp/e-posta veya call center kapanışı ile segment bazlı sunum yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Up-sell ve cross-sell’in RevPAR’e etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teklif alan ve almayan grupları kıyaslayın; upsell take-rate, ADR uplift ve RevPAR değişimini ölçün. Cross-sell için attach rate ve booking başına ancillary geliri takip edin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/otel-online-satisinda-upsell-ve-cross-sell-stratejileri#speakable",
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]

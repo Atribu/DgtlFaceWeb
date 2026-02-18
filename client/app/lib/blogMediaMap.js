@@ -9215,6 +9215,106 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "otel-satis-sonrasi-destek-ve-sadakat-programlari":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-1.webp",
+      alt: "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü",
+      caption: "Otel Satış Sonrası Destek ve Sadakat Programları: Misafiri Geri Getiren Döngü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-2.webp",
+      alt: "Check-out sonrası temas noktaları amacı sadakat daveti otel bağlamı",
+      caption: "Check-out sonrası temas noktaları amacı sadakat daveti otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-3.webp",
+      alt: "Sadakat türleri bölümü amacı program yapılandırma otel bağlamı",
+      caption: "Sadakat türleri bölümü amacı program yapılandırma otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-4.webp",
+      alt: "Raporlama ve LTV bölümü amacı ölçüm stratejisi otel bağlamı",
+      caption: "Raporlama ve LTV bölümü amacı ölçüm stratejisi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-5.webp",
+      alt: "Sadakat döngüsü diyagramı amacı misafir yolculuğu tekrar rezervasyon",
+      caption: "Sadakat döngüsü diyagramı amacı misafir yolculuğu tekrar rezervasyon"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-6.webp",
+      alt: "Sadakat davet checklisti amacı doğru zamanlama otel bağlamı",
+      caption: "Sadakat davet checklisti amacı doğru zamanlama otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-7.webp",
+      alt: "LTV segment grafikleri amacı sadakat performans ölçümü otel bağlamı",
+      caption: "LTV segment grafikleri amacı sadakat performans ölçümü otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-5/Callcenter4-5-8.webp",
+      alt: "Sadakat akış deliverables amacı CRM entegrasyonu otel bağlamı",
+      caption: "Sadakat akış deliverables amacı CRM entegrasyonu otel bağlamı"
+    }
+  },
+
+  "otel-online-satisinda-upsell-ve-cross-sell-stratejileri":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-1.webp",
+      alt: "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak",
+      caption: "Otel Online Satışında Up-Sell ve Cross-Sell Stratejileri: Oda Başına Geliri Artırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-2.webp",
+      alt: "Upgrade ve ek hizmet zamanlaması, resort otel misafir deneyimini zenginleştirme",
+      caption: "Upgrade ve ek hizmet zamanlaması, resort otel misafir deneyimini zenginleştirme"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-3.webp",
+      alt: "Teklif zamanlaması bölümü, pre-arrival ve booking aşamalarını ayırma",
+      caption: "Teklif zamanlaması bölümü, pre-arrival ve booking aşamalarını ayırma"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-4.webp",
+      alt: "Antalya resort senaryoları bölümü, paket ve deneyim odaklı teklifler",
+      caption: "Antalya resort senaryoları bölümü, paket ve deneyim odaklı teklifler"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-5.webp",
+      alt: "Upsell cross-sell funnel diyagramı, teklif kanalları ve zamanlama akışı",
+      caption: "Upsell cross-sell funnel diyagramı, teklif kanalları ve zamanlama akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-6.webp",
+      alt: "3 hazır upsell senaryosu, otel yöneticisi için hızlı uygulama planı",
+      caption: "3 hazır upsell senaryosu, otel yöneticisi için hızlı uygulama planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-7.webp",
+      alt: "RevPAR karşılaştırma kartı, upsell olan ve olmayan rezervasyonları kıyaslama",
+      caption: "RevPAR karşılaştırma kartı, upsell olan ve olmayan rezervasyonları kıyaslama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA4-5/Pms4-5-8.webp",
+      alt: "Planlama şablonu ve KPI paneli teslimatları, upsell uygulama çıktıları",
+      caption: "Planlama şablonu ve KPI paneli teslimatları, upsell uygulama çıktıları"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

@@ -151,7 +151,8 @@ export const BLOG_MAP = {
     "otel-satis-sonrasi-destek-temel-rehber":"BlogOtelSatisSonrasiDestekTemelRehber",
     "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":"BlogNpsVeMisafirMemnuniyetOtelSatisSonrasi",
     "otel-iatel-degisim-iade-surecleri-satis-sonrasi":"BlogCagriMerkeziOtelIatelDegisimIadeSurecleriSatisSonrasi",
-    "otel-sikayet-yonetimi-satis-sonrasi-surec":"BlogOtelSikayetYonetimiSatisSonrasiSurec"
+    "otel-sikayet-yonetimi-satis-sonrasi-surec":"BlogOtelSikayetYonetimiSatisSonrasiSurec",
+    "otel-satis-sonrasi-destek-ve-sadakat-programlari":"BlogCagriMerkeziOtelSatisSonrasiDestekVeSadakatProgramlari"
   },
 
     "pms-ota": {
@@ -176,7 +177,8 @@ export const BLOG_MAP = {
     "otel-online-satis-optimizasyonu-nedir-temel-mantik":"BlogOtelOnlineSatisOptimizasyonuNedirTemelMantik",
     "otel-online-satis-hunisi-nasil-kurgulanir":"BlogOtelOnlineSatisHunisiNasilKurgulanir",
     "web-rezervasyon-donusum-oranini-artirmak":"BlogPmsOtaWebRezervasyonDonusumOraniniArtirmak",
-    "ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":"BlogPmsOtaOtaWebCagriMerkeziKanalKarmasiIleOnlineSatisArtirmak"
+    "ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":"BlogPmsOtaOtaWebCagriMerkeziKanalKarmasiIleOnlineSatisArtirmak",
+    "otel-online-satisinda-upsell-ve-cross-sell-stratejileri":"BlogPmsOtaOtelOnlineSatisindaUpsellVeCrossSellStratejileri"
   },
 
     "raporlama": {
