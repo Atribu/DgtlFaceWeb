@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
@@ -38,18 +38,30 @@ const Partner = () => {
      { src: evtatilim, hoverSrc: evtatilimHover, alt: 'Slide 7' },
   ];
 
-  const autoplayOptions = { delay: 4000, stopOnInteraction: true };
+  const autoplayRef = useRef(
+    Autoplay({
+      delay: 3000,
+      stopOnInteraction: false,
+      stopOnMouseEnter: false,
+      playDirection: "forward",
+    })
+  );
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, slidesToScroll: 1,   containScroll: false,
       skipSnaps: false, },
-    [ Autoplay({
-        delay: 3000,
-        stopOnInteraction: false,
-        stopOnMouseEnter: false,
-        playDirection: "forward",
-      }),]
+    [autoplayRef.current]
   );
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isInView, setIsInView] = useState(true);
+  const viewportRef = useRef(null);
+
+  const setEmblaViewportRef = useCallback(
+    (node) => {
+      viewportRef.current = node;
+      emblaRef(node);
+    },
+    [emblaRef]
+  );
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -57,13 +69,42 @@ const Partner = () => {
   }, [emblaApi]);
 
   useEffect(() => {
+    const node = viewportRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        threshold: 0.05,
+        rootMargin: "120px 0px",
+      }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const autoplay = emblaApi.plugins()?.autoplay;
+    if (!autoplay) return;
+
+    if (isInView) autoplay.play();
+    else autoplay.stop();
+  }, [emblaApi, isInView]);
+
+  useEffect(() => {
     if (!emblaApi) return;
     emblaApi.on('select', onSelect);
     onSelect();
+    return () => emblaApi.off('select', onSelect);
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="overflow-hidden w-full" ref={emblaRef}>
+    <div className="overflow-hidden w-full" ref={setEmblaViewportRef}>
       <div className="flex items-center gap-[20px]">
         {images.map((image, index) => {
           const isCenter = index === currentIndex;

@@ -14,7 +14,6 @@ import BlogSvg from "./svg/BlogSvg";
 import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
-import { useRouter } from "@/i18n/navigation";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -27,7 +26,6 @@ const Header = () => {
   const dropdownRef = useRef(null);
 
   const openTimer = useRef(null);
-  const router = useRouter();
   
 
   const [activeService, setActiveService] = useState(null);
@@ -184,12 +182,6 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
     setIsMounted(true);
   }, []);
 
-  useEffect(() => {
-  if (!isOpen) return;
-  // sadece ana kategorileri prefetch etmek bile çok fark eder
-  servicesConfig.forEach(s => router.prefetch(s.href));
-}, [isOpen, servicesConfig, router]);
-
   return (
     <header className="w-screen text-white fixed h-[66px] z-[999] top-0 flex items-center justify-center lg:mt-[6px] xl:mt-[7px]">
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
@@ -303,7 +295,6 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
         <li key={item.href}>
           <Link
             href={item.href}
-            prefetch
             className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
           >
             {item.label}
@@ -496,7 +487,6 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
                   <Link
                     key={service.key}
                     href={service.href}
-                    prefetch
                       className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
 
                     onClick={() => setIsMenuOpen(false)}

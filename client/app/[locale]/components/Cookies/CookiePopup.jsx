@@ -190,7 +190,7 @@ const loadPreferences = () => {
 
 //--------
 
-  const contents = [
+  const getContents = () => [
     // third button
     <div className="flex flex-col h-full w-[96%] text-start font-inter items-center justify-start  gap-[7.5px] overflow-y-scroll thin-scrollbar max-h-[500px] overflow-x-hidden">
     <div className="flex w-full py-[10px] items-center justify-between gap-[14px] lg:max-w-[430px]">
@@ -578,7 +578,7 @@ const loadPreferences = () => {
                         <div className="flex flex-col w-[88%] h-[54vh] md:h-[55vh] lg:h-[376px] lg:w-[85%] ml-[2%] lg:ml-[7%] mt-[2vw] lg:mt-0 items-start justify-start text-start ">
                           {/* Dinamik Başlık */}
                           {/* İçerik */}
-                          {contents[selectedContent]}
+                          {getContents()[selectedContent]}
                         </div>
                         <LineSvg2 className="hidden lg:flex" />
                         <div className="hidden lg:flex items-center justify-center w-[100%] gap-[13px] lg:gap-[37px] lg:mt-[22px] font-inter">

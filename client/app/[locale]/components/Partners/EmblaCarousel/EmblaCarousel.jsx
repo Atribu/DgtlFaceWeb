@@ -1,24 +1,62 @@
 "use client";
 
-import React from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
 export default function EmblaCarousel({ slides }) {
   // Sürekli akış için Autoplay speed değeri (px/ms) kullanıyoruz.
   const autoplayOptions = { speed: 1, stopOnInteraction: false };
+  const autoplayRef = useRef(Autoplay(autoplayOptions));
+  const viewportRef = useRef(null);
+  const [isInView, setIsInView] = useState(true);
   // dragFree ekleyerek kaydırma modunu serbest hale getiriyoruz.
-  const [emblaRef] = useEmblaCarousel(
+  const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true, dragFree: true, align:"start" },
-    [Autoplay(autoplayOptions)]
+    [autoplayRef.current]
   );
+  const setEmblaViewportRef = useCallback(
+    (node) => {
+      viewportRef.current = node;
+      emblaRef(node);
+    },
+    [emblaRef]
+  );
+
+  useEffect(() => {
+    const node = viewportRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        threshold: 0.05,
+        rootMargin: "120px 0px",
+      }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const autoplay = emblaApi.plugins()?.autoplay;
+    if (!autoplay) return;
+
+    if (isInView) autoplay.play();
+    else autoplay.stop();
+  }, [emblaApi, isInView]);
 
   // Geçişin kesintisiz olması için slide'ları iki kere kopyalıyoruz.
   const extendedSlides = [...slides, ...slides, ...slides, ...slides, ...slides, ...slides];
 
   return (
     <section className="embla w-full overflow-hidden">
-      <div className="embla__viewport" ref={emblaRef}>
+      <div className="embla__viewport" ref={setEmblaViewportRef}>
         {/*
           Responsive padding kullanıyoruz:
           - 'px-4' küçük ekranlarda,

@@ -29,7 +29,7 @@ export default function HomePage() {
     <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
          <Section4 />
-          <HomeBlogShowcase limit={20} heroCount={5} showHero />
+         <HomeBlogShowcase limit={10} heroCount={5} showHero />
          <H2Section/>
 
          <BlocksYatay />

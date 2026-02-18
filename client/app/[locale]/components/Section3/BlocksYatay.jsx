@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
@@ -21,6 +21,8 @@ const Section3 = () => {
     "6",
     "7",
   ]);
+  const sectionRef = useRef(null);
+  const [isInView, setIsInView] = useState(true);
 
   const servicesLink = [
     { href: "/Services/seo" },
@@ -36,6 +38,26 @@ const Section3 = () => {
   ];
 
   useEffect(() => {
+    const node = sectionRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        threshold: 0.05,
+        rootMargin: "120px 0px",
+      }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!isInView) return;
+
     const interval = setInterval(() => {
       // setGradientIndex((prev) => (prev === 7 ? 0 : prev + 1));
       // set blocks order
@@ -52,7 +74,7 @@ const Section3 = () => {
       });
     }, 1500);
     return () => clearInterval(interval);
-  }, []);
+  }, [isInView]);
 
   const blockPositions = {
     0: "-translate-y-1/2 z-[5] translate-x-[43px]",
@@ -67,6 +89,7 @@ const Section3 = () => {
 
   return (
 <div
+  ref={sectionRef}
   className="flex flex-row w-[100%] h-auto max-h-[500px] justify-center items-center font-inter"
   style={{
     backgroundImage: `
