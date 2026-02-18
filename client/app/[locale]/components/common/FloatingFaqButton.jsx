@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { useLocale } from "next-intl";
-import { FAQ_ROUTE_MAP } from "../../faqRouteMap";
+import { FAQ_ROUTE_MAP, FAQ_SLUG_DEPT_SEGMENT_MAP } from "../../faqRouteMap";
 
 function stripLocale(pathname, locale) {
   // ör: /tr/yazilim -> /yazilim
@@ -18,6 +18,38 @@ function findFaqTarget(pathNoLocale) {
   return FAQ_ROUTE_MAP.find((r) => r.match.test(pathNoLocale)) || null;
 }
 
+const FAQ_SLUG_ALIAS_MAP = {
+  en: {
+    "yazilim-sss": "software-development-sss",
+    "web-sitesi-gelistirme-sss": "website-and-software-sss",
+    "cms-entegrasyonu-sss": "cms-installation-sss",
+    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-sss",
+    "sunucu-guvenlik-sss": "server-management-sss",
+    "bakim-destek-sss": "website-maintenance-sss",
+  },
+};
+
+function normalizeSlugByLocale(slug, locale) {
+  return FAQ_SLUG_ALIAS_MAP?.[locale]?.[slug] || slug;
+}
+
+function buildFaqHrefBySlug(slug, locale) {
+  const normalizedSlug = normalizeSlugByLocale(slug, locale);
+
+  if (normalizedSlug === "sss" || normalizedSlug === "faq") {
+    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
+  }
+
+  if (normalizedSlug === "hizmetlerimiz-sss" || normalizedSlug === "services-faq") {
+    return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
+  }
+
+  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[normalizedSlug];
+  if (deptSegment) return `/${locale}/${deptSegment}/${normalizedSlug}`;
+
+  return `/${locale}/${normalizedSlug}`;
+}
+
 export default function FloatingFaqButton() {
   const pathname = usePathname();
   const locale = useLocale();
@@ -28,7 +60,7 @@ export default function FloatingFaqButton() {
   // Bu sayfanın SSS eşleşmesi yoksa butonu hiç göstermeyebilirsin
   if (!target?.slug) return null;
 
-  const href = `/${locale}/${target.slug}`;
+  const href = buildFaqHrefBySlug(target.slug, locale);
   const label = "SSS";
 
   return (

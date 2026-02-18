@@ -153,20 +153,20 @@ export default async function FaqMainServer({ pageNs = "FaqGeneral" }) {
               {/* AI */}
               <div id="ai" className="scroll-mt-[120px] mt-8 rounded-2xl bg-[#140f25] text-white p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-white/60 mb-2">
-                  {t("aiCapsule.title")}
+                  {ns?.aiCapsule?.title || t("aiCapsule.title")}
                 </p>
                 <p className="dg-ai-capsule text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
-                  {renderRichText(t("aiCapsule.text"))}
+                  {renderRichText(ns?.aiCapsule?.text || "")}
                 </p>
               </div>
 
               {/* Voice */}
               <div id="voice" className="scroll-mt-[120px] mt-6 rounded-2xl bg-[#f2edf9] p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-2">
-                  {t("voiceSummary.title")}
+                  {ns?.voiceSummary?.title || t("voiceSummary.title")}
                 </p>
                 <p className="dg-voice-summary text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
-                  {renderRichText(t("voiceSummary.text"))}
+                  {renderRichText(ns?.voiceSummary?.text || "")}
                 </p>
               </div>
 
