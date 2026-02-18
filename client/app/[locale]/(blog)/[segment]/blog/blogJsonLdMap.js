@@ -8020,6 +8020,120 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari",
+      "name": "Sosyal Medya Reklamları",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu#article",
+      "url": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu",
+      "headline": "Sosyal Medya Reklam Ölçümü: Pixel ve Conversion API Nasıl Birlikte Kullanılır?",
+      "name": "Sosyal Medya Reklam Ölçümü: Pixel ve Conversion API Nasıl Birlikte Kullanılır?",
+      "description": "Pixel + Conversion API hibrit ölçüm: event tasarımı (ViewContent, Lead, Purchase), GA4–GTM–Meta Events Manager kurulumu, duplicate riskleri ve test adımları.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Pixel",
+        "Conversion API",
+        "Hybrid Measurement",
+        "Events",
+        "Tracking Hygiene",
+        "GA4",
+        "Tag Manager",
+        "Reservations",
+        "Leads"
+      ],
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu#article" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".answer-block"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Reklamları", "item": "https://dgtlface.com/tr/smm/sosyal-medya-reklamlari" },
+        { "@type": "ListItem", "position": 4, "name": "Sosyal Medya Reklam Ölçümü: Pixel ve Conversion API Nasıl Birlikte Kullanılır?",
+          "item": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu#faq",
+      "url": "https://dgtlface.com/tr/smm/blog/pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pixel ve Conversion API nedir, farkları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel event’leri tarayıcıdan toplar; hızlı kurulur ama privacy/consent nedeniyle veri kaybı yaşayabilir. CAPI event’leri sunucudan toplar; sinyal kaybını azaltır. Hibrit modelde ikisi birlikte çalışır ve dedupe ile çift sayım önlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel + CAPI birlikte nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel browser’dan, CAPI server’dan aynı dönüşümü gönderir. event_id ile dedupe yapılır; Meta aynı dönüşümü tek sayar. Events Manager Test Events ile doğrulama yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi event’leri (lead, rezervasyon vb.) ölçmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Temel set: ViewContent (mikro), Lead ve Purchase/Rezervasyon (makro). İş modeline göre InitiateCheckout/AddToCart ve Contact (WhatsApp/Call) eklenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4, Tag Manager ve Meta Events Manager entegrasyonunu nasıl kurarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GTM’de tetikler temizlenir ve event naming standardı kurulur; GA4’te lead/purchase conversion olarak tanımlanır; Meta Events Manager’da Test Events ile Pixel/CAPI doğrulanır ve dedupe kontrol edilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -10435,6 +10549,127 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "Audit log ve rotasyon prosedürü kur",
           "text": "Kim-ne-zaman-ne yaptı audit’ini KVKK uyumlu tut; anahtar rotasyonu ve incident anında iptal sürecini test et."
+        }
+      ]
+    }
+  ]
+},
+
+"loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/",
+      "logo": { "@type": "ImageObject", "url": "https://dgtlface.com/favicon.ico" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "name": "Sunucu ve Güvenlik",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi",
+      "headline": "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi",
+      "name": "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi",
+      "description": "Web altyapısında güvenlik izleme: web/app/WAF/DB ve PMS/CRM logları, SIEM korelasyonu, kural–alert tasarımı, otel ve B2B için dashboard örnekleri.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Security Logging",
+        "SIEM",
+        "Alerts",
+        "Web Logs",
+        "Application Logs",
+        "WAF Logs",
+        "Dashboards",
+        "Incident Response"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik#service",
+      "name": "Sunucu ve Güvenlik",
+      "url": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "serviceType": "Güvenlik Loglama ve SIEM İzleme Stratejisi",
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Sunucu ve Güvenlik", "item": "https://dgtlface.com/tr/yazilim/sunucu-guvenlik" },
+        { "@type": "ListItem", "position": 4, "name": "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi", "item": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Web altyapısında hangi loglar güvenlik için kritiktir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web access/error, uygulama audit (login/rol değişimi/kritik işlemler), WAF/firewall blokları, DB anomali sinyalleri ve PMS/CRM entegrasyon hata logları kritiktir. Bunlar SIEM’de korele edilince erken uyarı üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SIEM nedir, nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SIEM, farklı kaynaklardan logları toplar, normalize eder ve korelasyon kurallarıyla uyarı üretir. Böylece şüpheli davranışları kullanıcı şikâyeti gelmeden tespit etmeyi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Login, rol değişimi ve kritik işlemler nasıl loglanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Olaylar actor/action/target/result alanlarıyla loglanmalıdır: kim yaptı, ne yaptı, kimi/hedefi etkiledi ve sonuç ne oldu. Rol değişiminde IP/oturum bağlamı özellikle önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için örnek güvenlik dashboard’u nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetim için uptime ve MTTD/MTTR odaklı Executive panel; teknik ekip için login/WAF/latency korelasyonlu Ops panel; entegrasyonlar için auth/scope/limit hatalarını izleyen Integration panel önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Loglarda hangi veriler tutulmamalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gereksiz kişisel veri (tam kart, tam TC vb.) tutulmamalıdır. Loglar minimize edilmeli, maskelenmeli ve KVKK/KVYS kapsamında erişim/saklama kontrolüyle korunmalıdır."
+          }
         }
       ]
     }
@@ -13059,7 +13294,9 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"otel-etkinlik-same-day-edit-aninda-icerik":{}
 
 
     },

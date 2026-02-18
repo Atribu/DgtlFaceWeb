@@ -73,7 +73,8 @@ export const BLOG_MAP = {
     "sosyal-medya-reklam-stratejisi-funnel-ve-kampanya-turleri":"BlogSosyalMedyaReklamStratejisiFunnelVeKampanyaTurleri",
     "meta-ads-hedefleme-ve-segmentasyon-stratejisi":"BlogMetaAdsHedeflemeVeSegmentasyonStratejisi",
     "sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":"BlogSosyalMedyaReklamKreatifStratejisiGorselCarouselVeReels",
-    "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":"BlogSmmSosyalMedyaReklamButcesiTeklifStratejisiVeOlcekleme"
+    "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":"BlogSmmSosyalMedyaReklamButcesiTeklifStratejisiVeOlcekleme",
+    "pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":"BlogSmmPixelVeConversionApiIleSosyalMedyaReklamOlcumu"
   },
 
     yazilim: {
@@ -98,7 +99,8 @@ export const BLOG_MAP = {
     "web-sunucu-guvenlik-checklisti-linux-windows-icin-temel-rehber":"BlogWebSunucuGuvenlikChecklistiLinuxWindowsIcinTemelRehber",
     "ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi":"BlogSslTlsVeHstsOtelVeKurumsalSitelerdeHttpsYapilandirmasi",
     "ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":"BlogDDoSKorumaVeWAFStratejisiOtelVeKurumsalSitelerIcin",
-    "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":"BlogPmsApiVeOtelEntegrasyonlarindaApiGuvenligi"
+    "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":"BlogPmsApiVeOtelEntegrasyonlarindaApiGuvenligi",
+    "loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":"BlogYazilimLoglamaVeSiemWebAltyapisindaGuvenlikIzlemeStratejisi"
   },
    
   creative: {
@@ -123,7 +125,8 @@ export const BLOG_MAP = {
     "otel-konser-etkinlik-produsksiyon-rehberi":"BlogOtelKonserEtkinlikProdusksiyonRehberi",
     "otel-lansman-acilis-etkinligi-produsksiyon":"BlogOtelLansmanAcilisEtkinligiProdusksiyon",
     "otel-gala-gecesi-ve-ziyafet-produsksiyon":"BlogOtelGalaGecesiVeZiyafetProdusksiyon",
-    "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":"BlogOtelKurumsalEtkinlikVeLansmanIcIletisim"
+    "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":"BlogOtelKurumsalEtkinlikVeLansmanIcIletisim",
+    "otel-etkinlik-same-day-edit-aninda-icerik":"BlogCreativeOtelEtkinlikSameDayEditAnindaIcerik"
   },
 
        "cagri-merkezi": {

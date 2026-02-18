@@ -1,17 +1,22 @@
-import Partners from "../../components/Partners/Partners";
- import Section1 from "../Section1/Section";
-import Section2 from "../../components/Section2/Section2";
-import BlocksYatay from "../../components/Section3/BlocksYatay";
+import dynamic from "next/dynamic";
 import Section4 from "../../components/Section4/Section4";
-import WhyUsSection from "../../components/Section5/WhyUsSection";
-import Contact from "../../components/Section6/ContactMain.jsx";
-import QuestionsSection2 from "../../components/subPageComponents/QuestionSection2";
-import Section3List from "../../Services/Section3/Section3List";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
-import H2Section from "./H2Section";
 import { useTranslations } from "next-intl";
 import HomeBlogShowcase from "./HomeBlogShowcase";
+import ViewportLazyMount from "./ViewportLazyMount";
+
+const Partners = dynamic(() => import("../../components/Partners/Partners"));
+const Section1 = dynamic(() => import("../Section1/Section"));
+const Section2 = dynamic(() => import("../../components/Section2/Section2"));
+const BlocksYatay = dynamic(() => import("../../components/Section3/BlocksYatay"));
+const WhyUsSection = dynamic(() => import("../../components/Section5/WhyUsSection"));
+const Contact = dynamic(() => import("../../components/Section6/ContactMain.jsx"));
+const QuestionsSection2 = dynamic(() =>
+  import("../../components/subPageComponents/QuestionSection2")
+);
+const Section3List = dynamic(() => import("../../Services/Section3/Section3List"));
+const H2Section = dynamic(() => import("./H2Section"));
 
 export default function HomePage() {
     const t = useTranslations("Homepage");
@@ -30,23 +35,29 @@ export default function HomePage() {
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
          <Section4 />
          <HomeBlogShowcase limit={10} heroCount={5} showHero />
-         <H2Section/>
 
-         <BlocksYatay />
-        <Section3List page="Homepage"/>
-        <Partners />
-        <Section1 />
-           <Section2 />
+        <ViewportLazyMount rootMargin="420px 0px" minHeight={900} className="w-full">
+          <H2Section />
+          <BlocksYatay />
+          <Section3List page="Homepage" />
+        </ViewportLazyMount>
 
-        <WhyUsSection />
+        <ViewportLazyMount rootMargin="520px 0px" minHeight={2200} className="w-full">
+          <Partners />
+          <Section1 />
+          <Section2 />
+          <WhyUsSection />
+        </ViewportLazyMount>
 
+        <ViewportLazyMount rootMargin="620px 0px" minHeight={1400} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
-        <AiAnswerBlock text={t("aiAnswerBlock")}/>
-       
-        {/* <ServicesCarousel/> */}
+          <AiAnswerBlock text={t("aiAnswerBlock")} />
 
-        <Contact />
-          <AiSourceMention text={t("aiSourceMention")}/>
+          {/* <ServicesCarousel/> */}
+
+          <Contact />
+          <AiSourceMention text={t("aiSourceMention")} />
+        </ViewportLazyMount>
       </div>
     </main>
   );

@@ -9051,6 +9051,170 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+   "pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":{
+     banner: {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-1.webp",
+      alt: "Sosyal Medya Reklam Ölçümü: Pixel ve Conversion API Nasıl Birlikte Kullanılır?",
+      caption: "Sosyal Medya Reklam Ölçümü: Pixel ve Conversion API Nasıl Birlikte Kullanılır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-2.webp",
+      alt: "Browser ve server event akışı, reklam optimizasyonu için sinyal mimarisi",
+      caption: "Browser ve server event akışı, reklam optimizasyonu için sinyal mimarisi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-3.webp",
+      alt: "Hibrit model ve event tasarımı bölüm ayracı, teknik ölçüm rehberi",
+      caption: "Hibrit model ve event tasarımı bölüm ayracı, teknik ölçüm rehberi"
+    },
+
+    "divider-02": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-4.webp",
+      alt: "GA4 GTM ve Events Manager entegrasyonu bölüm ayracı, tracking planı",
+      caption: "GA4 GTM ve Events Manager entegrasyonu bölüm ayracı, tracking planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-5.webp",
+      alt: "Pixel + CAPI event akışı diyagramı, deduplication ve funnel ölçümü",
+      caption: "Pixel + CAPI event akışı diyagramı, deduplication ve funnel ölçümü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-6.webp",
+      alt: "Tracking hygiene checklist’i, duplicate kontrol ve test adımları otel bağlamı",
+      caption: "Tracking hygiene checklist’i, duplicate kontrol ve test adımları otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-7.webp",
+      alt: "Sinyal kalitesi ve CPA ROAS stabilite paneli, ölçüm doğruluğu skor kartı",
+      caption: "Sinyal kalitesi ve CPA ROAS stabilite paneli, ölçüm doğruluğu skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM4-5/SMM4-5-8.webp",
+      alt: "Event tasarım deliverables kartı, Pixel CAPI kurulum çıktıları rehberi",
+      caption: "Event tasarım deliverables kartı, Pixel CAPI kurulum çıktıları rehberi"
+    }
+  },
+
+"loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":{
+     banner: {
+      src: "/images/blog/software/Software4-5/Software4-5-1.webp",
+      alt: "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi",
+      caption: "Loglama ve SIEM: Web Altyapısında Güvenlik İzleme Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/software/Software4-5/Software4-5-2.webp",
+      alt: "Web ve uygulama loglarını SIEM’de birleştirerek otomatik uyarı kurma, incident hazırlığı",
+      caption: "Web ve uygulama loglarını SIEM’de birleştirerek otomatik uyarı kurma, incident hazırlığı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software4-5/Software4-5-3.webp",
+      alt: "Güvenlik odaklı loglama gerekçeleri, otel ve kurumsal projeler için bölüm ayırıcı",
+      caption: "Güvenlik odaklı loglama gerekçeleri, otel ve kurumsal projeler için bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software4-5/Software4-5-4.webp",
+      alt: "SIEM ve alert stratejisi, web altyapısı güvenlik izleme için bölüm ayırıcı",
+      caption: "SIEM ve alert stratejisi, web altyapısı güvenlik izleme için bölüm ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software4-5/Software4-5-5.webp",
+      alt: "Web/app/db/WAF loglarının SIEM’de korele edilmesi, otel ve B2B için güvenlik izleme modeli",
+      caption: "Web/app/db/WAF loglarının SIEM’de korele edilmesi, otel ve B2B için güvenlik izleme modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software4-5/Software4-5-6.webp",
+      alt: "Güvenlik loglama ve SIEM checklist’i, otel ve B2B altyapısı için uygulanabilir kurulum",
+      caption: "Güvenlik loglama ve SIEM checklist’i, otel ve B2B altyapısı için uygulanabilir kurulum"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software4-5/Software4-5-7.webp",
+      alt: "MTTD/MTTR ve login/WAF anomali KPI paneli, web altyapısında erken uyarı sistemi",
+      caption: "MTTD/MTTR ve login/WAF anomali KPI paneli, web altyapısında erken uyarı sistemi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software4-5/Software4-5-8.webp",
+      alt: "SIEM deliverable seti, kural seti ve dashboard ile incident-ready güvenlik izleme",
+      caption: "SIEM deliverable seti, kural seti ve dashboard ile incident-ready güvenlik izleme"
+    }
+  },
+
+
+  "otel-etkinlik-same-day-edit-aninda-icerik":{
+     banner: {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-1.webp",
+      alt: "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
+      caption: "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-2.webp",
+      alt: "Çekim kurgu onay ve yayın adımlarını gösteren same-day edit context görseli",
+      caption: "Çekim kurgu onay ve yayın adımlarını gösteren same-day edit context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-3.webp",
+      alt: "Same-day edit planlama adımlarını ayıran bölüm geçiş görseli",
+      caption: "Same-day edit planlama adımlarını ayıran bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-4.webp",
+      alt: "Kurgu ve onay sürecini anlatan bölüm geçiş görseli otel bağlamı",
+      caption: "Kurgu ve onay sürecini anlatan bölüm geçiş görseli otel bağlamı"
+    },
+
+     "diagram": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-5.webp",
+      alt: "Same-day edit akış diyagramı ve görev dağılımını gösteren otel diyagramı",
+      caption: "Same-day edit akış diyagramı ve görev dağılımını gösteren otel diyagramı"
+    },
+
+          "checklist-framework": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-6.webp",
+      alt: "Same-day edit hızlı onay kriterleri ve checklist kartı otel etkinliği",
+      caption: "Same-day edit hızlı onay kriterleri ve checklist kartı otel etkinliği"
+    },
+
+      "diagram-flow": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-7.webp",
+      alt: "İlk 24 saat erişim ve içerik üretim hızı KPI skor kartı otel etkinliği",
+      caption: "İlk 24 saat erişim ve içerik üretim hızı KPI skor kartı otel etkinliği"
+    },
+
+          "proof": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-8.webp",
+      alt: "Aynı gün yayınlanan highlight ve reels paketini gösteren proof kartı otel bağlamı",
+      caption: "Aynı gün yayınlanan highlight ve reels paketini gösteren proof kartı otel bağlamı"
+    },
+
+              "table-1": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-9.webp",
+      alt: "Gün İçi İçerik Takvimi + Görev Dağılımı Tablosu",
+      caption: "Gün İçi İçerik Takvimi + Görev Dağılımı Tablosu"
+    },
+
+              "table-2": {
+      src: "/images/blog/creative/Creative4-5/Creative4-5-10.webp",
+      alt: "Gün İçi İçerik Takvimi + Görev Dağılımı Tablosu",
+      caption: "Gün İçi İçerik Takvimi + Görev Dağılımı Tablosu"
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

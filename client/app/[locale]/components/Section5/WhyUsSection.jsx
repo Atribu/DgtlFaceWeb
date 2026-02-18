@@ -107,7 +107,7 @@ const renderRichDescription = (key) => {
 };
   
   return (
-    <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] lg:py-[18px]">
+    <div className="flex flex-col gap-12 w-screen max-w-[1400px] items-center justify-center bg-[#ffffff] lg:py-[18px] mx-auto">
 
       {/* MOBILE CAROUSEL */}
       <div className="flex lg:hidden flex-col gap-8 font-inter items-center justify-center w-full">

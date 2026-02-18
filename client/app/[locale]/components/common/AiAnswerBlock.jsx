@@ -14,7 +14,7 @@ export function AiAnswerBlock({ text }) {
         px-4 py-3
         lg:px-6 lg:py-4
         shadow-[0_14px_40px_rgba(0,0,0,0.45)]
-        backdrop-blur-md
+        backdrop-blur-md mx-auto
       "
     >
       <div className="flex flex-col md:flex-row md:items-start md:gap-4 gap-3">
