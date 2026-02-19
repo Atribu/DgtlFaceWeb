@@ -52,7 +52,9 @@ export const BLOG_MAP = {
     "kaliteli-ve-spam-backlink-nasil-ayirt-edilir":"BlogKaliteliVeSpamBacklinkNasilAyirtEdilir",
     "backlink-analizi-audit-ve-disavow-stratejisi":"BlogBacklinkAnaliziAuditVeDisavowStratejisi",
     "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":"BlogSeoStratejikLinkBuildingIcinDijitalPrVeIcerikKullanimi",
-    "anchor-text-stratejisi-ve-link-yerlesimi":"BlogSeoAnchorTextStratejisiVeLinkYerlesimi"
+    "anchor-text-stratejisi-ve-link-yerlesimi":"BlogSeoAnchorTextStratejisiVeLinkYerlesimi",
+
+    "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":"BlogSeoSeoRaporuNasilHazirlanirTemelKpiRehberi"
   },
 
     smm: {
@@ -106,7 +108,9 @@ export const BLOG_MAP = {
     "ssl-tls-ve-hsts-otel-ve-kurumsal-sitelerde-https-yapilandirmasi":"BlogSslTlsVeHstsOtelVeKurumsalSitelerdeHttpsYapilandirmasi",
     "ddos-koruma-ve-waf-stratejisi-otel-ve-kurumsal-siteler-icin":"BlogDDoSKorumaVeWAFStratejisiOtelVeKurumsalSitelerIcin",
     "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":"BlogPmsApiVeOtelEntegrasyonlarindaApiGuvenligi",
-    "loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":"BlogYazilimLoglamaVeSiemWebAltyapisindaGuvenlikIzlemeStratejisi"
+    "loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":"BlogYazilimLoglamaVeSiemWebAltyapisindaGuvenlikIzlemeStratejisi",
+
+    "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":"BlogWebSitesiBakimPlaniAylikVeCeyreklikKontrolListesi"
   },
    
   creative: {

@@ -9475,7 +9475,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/sem/SEM5-1/SEM5-1-2.webp",
       alt: "Google Ads ve Meta KPI ekranı bağlamı, otel gelir kararını destekler",
       caption: "Google Ads ve Meta KPI ekranı bağlamı, otel gelir kararını destekler"
@@ -9515,6 +9515,109 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/sem/SEM5-1/SEM5-1-8.webp",
       alt: "Rapor okuma çıktıları, otel reklam performans iyileştirme kanıtı",
       caption: "Rapor okuma çıktıları, otel reklam performans iyileştirme kanıtı"
+    }
+  },
+
+
+
+  "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":{
+     banner: {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-1.webp",
+      alt: "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+      caption: "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-2.webp",
+      alt: "SEO raporu toplantı sahnesi, amaç bağlam kurmak, otel pazarlama ekibi",
+      caption: "SEO raporu toplantı sahnesi, amaç bağlam kurmak, otel pazarlama ekibi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-3.webp",
+      alt: "KPI okuma bölüm ayırıcı, amaç metrik farkındalığı, otel web performansı",
+      caption: "KPI okuma bölüm ayırıcı, amaç metrik farkındalığı, otel web performansı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-4.webp",
+      alt: "Yönetici sunum bölüm ayırıcı, amaç karar anlatısı, otel yönetim toplantısı",
+      caption: "Yönetici sunum bölüm ayırıcı, amaç karar anlatısı, otel yönetim toplantısı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-5.webp",
+      alt: "SEO rapor akışı diyagramı, amaç raporu aksiyona çevirmek, otel geliri",
+      caption: "SEO rapor akışı diyagramı, amaç raporu aksiyona çevirmek, otel geliri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-6.webp",
+      alt: "SEO raporu KPI checklist kartı, amaç standart süreç, otel satış pazarlama",
+      caption: "SEO raporu KPI checklist kartı, amaç standart süreç, otel satış pazarlama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-7.webp",
+      alt: "SEO KPI skor kartı, amaç yönetici özeti, otel dönüşüm hedefi",
+      caption: "SEO KPI skor kartı, amaç yönetici özeti, otel dönüşüm hedefi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-1/SEO5-1-8.webp",
+      alt: "SEO rapor deliverables kartı, amaç güven unsuru, otel yönetici raporu",
+      caption: "SEO rapor deliverables kartı, amaç güven unsuru, otel yönetici raporu"
+    }
+  },
+
+
+  "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":{
+     banner: {
+      src: "/images/blog/software/Software5-1/Software5-1-1.webp",
+      alt: "Web Sitesi Bakım Planı: Aylık ve Çeyreklik Kontrol Listesi",
+      caption: "Web Sitesi Bakım Planı: Aylık ve Çeyreklik Kontrol Listesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-1/Software5-1-2.webp",
+      alt: "Aylık ve çeyreklik bakım döngüsü, amaç rutin kurma, kurumsal site operasyon bağlamı",
+      caption: "Aylık ve çeyreklik bakım döngüsü, amaç rutin kurma, kurumsal site operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/software/Software5-1/Software5-1-3.webp",
+      alt: "Aylık bakım bölümü ayırıcı, amaç odaklama, otel web teknik operasyon bağlamı",
+      caption: "Aylık bakım bölümü ayırıcı, amaç odaklama, otel web teknik operasyon bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/software/Software5-1/Software5-1-4.webp",
+      alt: "Çeyreklik bakım bölümü ayırıcı, amaç derin denetim, B2B site sağlık bağlamı",
+      caption: "Çeyreklik bakım bölümü ayırıcı, amaç derin denetim, B2B site sağlık bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-1/Software5-1-5.webp",
+      alt: "Bakım cadence diyagramı, amaç süreç anlatımı, otel ve kurumsal site bağlamı",
+      caption: "Bakım cadence diyagramı, amaç süreç anlatımı, otel ve kurumsal site bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-1/Software5-1-6.webp",
+      alt: "Aylık bakım checklist kartı, amaç hızlı uygulama, web sitesi bakım operasyon bağlamı",
+      caption: "Aylık bakım checklist kartı, amaç hızlı uygulama, web sitesi bakım operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-1/Software5-1-7.webp",
+      alt: "Bakım KPI skor kartı, amaç raporlama, otel ve B2B yönetim toplantısı bağlamı",
+      caption: "Bakım KPI skor kartı, amaç raporlama, otel ve B2B yönetim toplantısı bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-1/Software5-1-8.webp",
+      alt: "Bakım deliverables kanıt kartı, amaç güven inşa, ajans ve işletme işbirliği bağlamı",
+      caption: "Bakım deliverables kanıt kartı, amaç güven inşa, ajans ve işletme işbirliği bağlamı"
     }
   },
 

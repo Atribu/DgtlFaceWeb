@@ -5325,6 +5325,155 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi",
+      "name": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#article",
+      "headline": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+      "description": "SEO raporu nasıl hazırlanır? GSC+GA4 temel KPI’larını (impressions, clicks, CTR, konum, organik dönüşüm) birlikte oku; yönetici özetiyle raporu aksiyona çevir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service",
+      "name": "SEO Raporlama & Performans Analizi",
+      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO",
+          "item": "https://dgtlface.com/tr/seo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO Raporlama & Performans Analizi",
+          "item": "https://dgtlface.com/tr/seo/seo-raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "SEO Raporu Nasıl Hazırlanır? Temel KPI Rehberi",
+          "item": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SEO raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSC KPI’larını (görüntüleme, tıklama, CTR, konum) çıkarın; GA4’te organik oturum kalitesi ve dönüşümü ekleyin. Segmentleyin (cihaz/landing/brand) ve raporu 3–6 aksiyonla bitirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO raporunda hangi KPI’lar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum set; impressions, clicks, CTR ve ortalama konumdur. İş sonucuna bağlamak için GA4’te organik oturum ve organik dönüşümü mutlaka ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTR ve ortalama konum nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR, konum ve SERP görünümüyle birlikte okunur; tek başına anlamlı değildir. Ortalama konum da landing ve query bazlı kırılımlarla doğrulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO raporunu yönetime nasıl sunmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3–4 KPI (clicks, CTR, konum, organik dönüşüm) seçin ve her biri için 1 cümle yorum yazın. Sonra 3 net aksiyon verin; teknik detayları ek’e alın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#howto",
+      "name": "SEO raporu nasıl hazırlanır?",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "GSC KPI setini çıkar",
+          "text": "Impressions, clicks, CTR ve ortalama konumu tarih karşılaştırmasıyla hazırla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GA4 kalite ve dönüşümü ekle",
+          "text": "Organik oturum, landing performansı ve organik dönüşümleri rapora bağla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segmentle ve aksiyon üret",
+          "text": "Cihaz/landing/brand segmentleriyle yorumla; raporu 3–6 maddelik aksiyon listesiyle bitir."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -10944,6 +11093,165 @@ export const BLOG_JSONLD_MAP = {
           }
         }
       ]
+    }
+  ]
+},
+
+//
+
+"web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+      "name": "Bakım ve Destek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+      "name": "Web Sitesi Bakım ve Destek",
+      "serviceType": "Website Maintenance",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi",
+      "headline": "Web Sitesi Bakım Planı: Aylık ve Çeyreklik Kontrol Listesi",
+      "name": "Web Sitesi Bakım Planı: Aylık ve Çeyreklik Kontrol Listesi",
+      "description": "Aylık ve çeyreklik web sitesi bakım checklist’iyle güvenlik, performans, SEO, formlar ve entegrasyonları planlı kontrol edin; otel ve B2B için örnek takvimle.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Website Maintenance",
+        "Monthly/Quarterly Checks",
+        "Uptime & Logs",
+        "Forms & Flows"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#article" }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#howto",
+      "name": "Aylık ve Çeyreklik Web Sitesi Bakımı Nasıl Yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Aylık bakım kontrolleri",
+          "text": "Güvenlik yamaları, uptime ve hata logları, temel teknik SEO kontrolleri ve kritik formlar/CTA’ları doğrulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Çeyreklik derin bakım",
+          "text": "Performans (CWV), redirect zincirleri, canonical/indexability denetimi, içerik pruning ve entegrasyon testlerini tamamlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Raporlama ve iyileştirme döngüsü",
+          "text": "Uptime, hata trendleri, CWV ve form dönüşümü KPI’larını trend bazlı raporlayın ve deliverables listesine bağlayın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yazılım",
+          "item": "https://dgtlface.com/tr/yazilim"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bakım ve Destek",
+          "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Web Sitesi Bakım Planı: Aylık ve Çeyreklik Kontrol Listesi",
+          "item": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Web sitesi bakım planı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bakım planı; aylık rutin kontroller ve çeyreklik derin denetim olarak iki seviyede kurgulanır. Her madde için sahiplik, tarih ve çıktı tanımlanır; kritik akışlar ayrıca test senaryosu olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aylık web sitesi bakımında neler kontrol edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aylık bakımda güvenlik yamaları, uptime ve hata logları, temel teknik SEO kontrolleri ve kritik formlar/CTA’lar doğrulanır. Amaç, küçük sorunları büyümeden yakalamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çeyreklik bakımda hangi teknik ve içerik kontrolleri yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çeyreklik bakım; performans (CWV), redirect zincirleri, canonical/indexability denetimi, içerik pruning ve entegrasyon testlerini kapsar. Üçüncü parti script envanteri ve ölçüm doğrulaması da gözden geçirilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi loglara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uygulama logları (500/time-out), sunucu logları, CDN/edge logları ve form/rezervasyon akışıyla ilgili API hataları önceliklidir. Aylık trend ve kritik eşik alarmları iş yükünü azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi formları test etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İletişim formu, teklif/lead formu, WhatsApp/telefon CTA’ları ve otelde rezervasyon motoru yönlendirmeleri test edilmelidir. Test; gönderim, doğrulama, bildirim ve ölçüm adımlarını kapsamalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
     }
   ]
 }
