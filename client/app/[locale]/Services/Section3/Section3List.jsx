@@ -22,218 +22,218 @@ const Section3 = ({ page }) => {
 
     // --- SEM ---
     remarketing: (chunks) => (
-      <Link href="/sem/remarketing-ve-display" className={linkClass}>
+      <Link prefetch={false} href="/sem/remarketing-ve-display" className={linkClass}>
         {chunks}
       </Link>
     ),
     tagmanager: (chunks) => (
-      <Link href="/sem/donusum-takibi-tag-manager" className={linkClass}>
+      <Link prefetch={false} href="/sem/donusum-takibi-tag-manager" className={linkClass}>
         {chunks}
       </Link>
     ),
     adreport: (chunks) => (
-      <Link href="/sem/reklam-raporlama" className={linkClass}>
+      <Link prefetch={false} href="/sem/reklam-raporlama" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- SEO ---
     backlink: (chunks) => (
-      <Link href="/seo/backlink-yonetimi" className={linkClass}>
+      <Link prefetch={false} href="/seo/backlink-yonetimi" className={linkClass}>
         {chunks}
       </Link>
     ),
     seoreport: (chunks) => (
-      <Link href="/seo/seo-raporlama" className={linkClass}>
+      <Link prefetch={false} href="/seo/seo-raporlama" className={linkClass}>
         {chunks}
       </Link>
     ),
     seoservice: (chunks) => (
-      <Link href="/seo-hizmetleri" className={linkClass}>
+      <Link prefetch={false} href="/seo-hizmetleri" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- SMM ---
     content: (chunks) => (
-      <Link href="/smm/icerik-uretimi" className={linkClass}>
+      <Link prefetch={false} href="/smm/icerik-uretimi" className={linkClass}>
         {chunks}
       </Link>
     ),
     reels: (chunks) => (
-      <Link href="/smm/reels-video" className={linkClass}>
+      <Link prefetch={false} href="/smm/reels-video" className={linkClass}>
         {chunks}
       </Link>
     ),
     ads: (chunks) => (
-      <Link href="/smm" className={linkClass}>
+      <Link prefetch={false} href="/smm" className={linkClass}>
         {chunks}
       </Link>
     ),
     plan: (chunks) => (
-      <Link href="/smm/planlama-strateji" className={linkClass}>
+      <Link prefetch={false} href="/smm/planlama-strateji" className={linkClass}>
         {chunks}
       </Link>
     ),
     smmreport: (chunks) => (
-      <Link href="/smm/analiz-raporlama" className={linkClass}>
+      <Link prefetch={false} href="/smm/analiz-raporlama" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- Web & Yazılım ---
     webdev: (chunks) => (
-      <Link href="/yazilim" className={linkClass}>
+      <Link prefetch={false} href="/yazilim" className={linkClass}>
         {chunks}
       </Link>
     ),
     cms: (chunks) => (
-      <Link href="/yazilim/cms-entegrasyonu" className={linkClass}>
+      <Link prefetch={false} href="/yazilim/cms-entegrasyonu" className={linkClass}>
         {chunks}
       </Link>
     ),
     kvkk: (chunks) => (
-      <Link href="/yazilim/kvkk-uyum-hizmeti" className={linkClass}>
+      <Link prefetch={false} href="/yazilim/kvkk-uyum-hizmeti" className={linkClass}>
         {chunks}
       </Link>
     ),
     server: (chunks) => (
-      <Link href="/yazilim/sunucu-guvenlik" className={linkClass}>
+      <Link prefetch={false} href="/yazilim/sunucu-guvenlik" className={linkClass}>
         {chunks}
       </Link>
     ),
     support: (chunks) => (
-      <Link href="/yazilim/bakim-ve-destek" className={linkClass}>
+      <Link prefetch={false} href="/yazilim/bakim-ve-destek" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- Creative ---
     uiux: (chunks) => (
-      <Link href="/creative/ui-ux-tasarim" className={linkClass}>
+      <Link prefetch={false} href="/creative/ui-ux-tasarim" className={linkClass}>
         {chunks}
       </Link>
     ),
     video: (chunks) => (
-      <Link href="/Services/creative/videoProduction" className={linkClass}>
+      <Link prefetch={false} href="/Services/creative/videoProduction" className={linkClass}>
         {chunks}
       </Link>
     ),
     event: (chunks) => (
-      <Link href="/Services/creative/eventProduction" className={linkClass}>
+      <Link prefetch={false} href="/Services/creative/eventProduction" className={linkClass}>
         {chunks}
       </Link>
     ),
     gift: (chunks) => (
-      <Link href="/Services/creative/corporateGift" className={linkClass}>
+      <Link prefetch={false} href="/Services/creative/corporateGift" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- Call Center ---
     call4lang: (chunks) => (
-      <Link href="/cagri-merkezi/4-dilli-cagri-merkezi" className={linkClass}>
+      <Link prefetch={false} href="/cagri-merkezi/4-dilli-cagri-merkezi" className={linkClass}>
         {chunks}
       </Link>
     ),
     rezsupport: (chunks) => (
-      <Link href="/Services/callcenter/reservationSupport" className={linkClass}>
+      <Link prefetch={false} href="/Services/callcenter/reservationSupport" className={linkClass}>
         {chunks}
       </Link>
     ),
     socialmsg: (chunks) => (
-      <Link href="/Services/callcenter/messageManagement" className={linkClass}>
+      <Link prefetch={false} href="/Services/callcenter/messageManagement" className={linkClass}>
         {chunks}
       </Link>
     ),
     aftersales: (chunks) => (
-      <Link href="/Services/callcenter/aftersalesSupport" className={linkClass}>
+      <Link prefetch={false} href="/Services/callcenter/aftersalesSupport" className={linkClass}>
         {chunks}
       </Link>
     ),
     callreport: (chunks) => (
-      <Link href="/Services/callcenter/callPerformance" className={linkClass}>
+      <Link prefetch={false} href="/Services/callcenter/callPerformance" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- PMS & OTA ---
     pms: (chunks) => (
-      <Link href="/pms-ota/pms-kurulum" className={linkClass}>
+      <Link prefetch={false} href="/pms-ota/pms-kurulum" className={linkClass}>
         {chunks}
       </Link>
     ),
     ota: (chunks) => (
-      <Link href="/pms-ota/ota-entegrasyonu" className={linkClass}>
+      <Link prefetch={false} href="/pms-ota/ota-entegrasyonu" className={linkClass}>
         {chunks}
       </Link>
     ),
     channel: (chunks) => (
-      <Link href="/pms-ota/kanal-yonetimi" className={linkClass}>
+      <Link prefetch={false} href="/pms-ota/kanal-yonetimi" className={linkClass}>
         {chunks}
       </Link>
     ),
     online: (chunks) => (
-      <Link href="/pms-ota/online-satis" className={linkClass}>
+      <Link prefetch={false} href="/pms-ota/online-satis" className={linkClass}>
         {chunks}
       </Link>
     ),
     rez: (chunks) => (
-      <Link href="/pms-ota/rezervasyon-yonetimi" className={linkClass}>
+      <Link prefetch={false} href="/pms-ota/rezervasyon-yonetimi" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- Analytics ---
     looker: (chunks) => (
-      <Link href="/Services/digitalAnalysis/lookerStudio" className={linkClass}>
+      <Link prefetch={false} href="/Services/digitalAnalysis/lookerStudio" className={linkClass}>
         {chunks}
       </Link>
     ),
     benchmark: (chunks) => (
-      <Link href="/raporlama/benchmark-analizi" className={linkClass}>
+      <Link prefetch={false} href="/raporlama/benchmark-analizi" className={linkClass}>
         {chunks}
       </Link>
     ),
     salesreport: (chunks) => (
-      <Link href="/raporlama/satis-donusum" className={linkClass}>
+      <Link prefetch={false} href="/raporlama/satis-donusum" className={linkClass}>
         {chunks}
       </Link>
     ),
     kvkkreport: (chunks) => (
-      <Link href="/Services/digitalAnalysis/kvkkDataSecurity" className={linkClass}>
+      <Link prefetch={false} href="/Services/digitalAnalysis/kvkkDataSecurity" className={linkClass}>
         {chunks}
       </Link>
     ),
 
     // --- Hotel Digital ---
     hotelseo: (chunks) => (
-      <Link href="/otel/seo" className={linkClass}>
+      <Link prefetch={false} href="/otel/seo" className={linkClass}>
         {chunks}
       </Link>
     ),
     hotelsmm: (chunks) => (
-      <Link href="/otel/sosyal-medya" className={linkClass}>
+      <Link prefetch={false} href="/otel/sosyal-medya" className={linkClass}>
         {chunks}
       </Link>
     ),
     hotelads: (chunks) => (
-      <Link href="/otel/reklam-yonetimi" className={linkClass}>
+      <Link prefetch={false} href="/otel/reklam-yonetimi" className={linkClass}>
         {chunks}
       </Link>
     ),
     hotelota: (chunks) => (
-      <Link href="/otel/ota-yonetimi" className={linkClass}>
+      <Link prefetch={false} href="/otel/ota-yonetimi" className={linkClass}>
         {chunks}
       </Link>
     ),
     hotelpms: (chunks) => (
-      <Link href="/otel/pms-entegrasyonu" className={linkClass}>
+      <Link prefetch={false} href="/otel/pms-entegrasyonu" className={linkClass}>
         {chunks}
       </Link>
     ),
     hotelcall: (chunks) => (
-      <Link href="/otel/cagri-merkezi" className={linkClass}>
+      <Link prefetch={false} href="/otel/cagri-merkezi" className={linkClass}>
         {chunks}
       </Link>
     ),
@@ -397,14 +397,14 @@ const Section3 = ({ page }) => {
                 </div>
 
                 {/* Explore butonu */}
-                <Link
+                <Link prefetch={false}
                   href={service.link}
                   className="gradient-explore-button hidden lg:flex text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-10 absolute bottom-[34px] transform opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-3 transition-all duration-500"
                 >
                   {t2("services_button")}
                 </Link>
 
-                 <Link
+                 <Link prefetch={false}
                   href={service.link}
                   className="gradient-explore-button flex lg:hidden text-[12px] lg:text-[14px] text-white w-[90px] h-[38px] justify-center items-center font-inter leading-[16.8px] tracking-[-0.28px] left-4 absolute bottom-[34px] opacity-100 translate-y-4 transition-all duration-500"
                 >

@@ -187,7 +187,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
       <div className="bg-[#150016]/90 lg:rounded-[50px] h-full w-full max-w-[1400px] flex items-center justify-center">
         <div className="flex items-center justify-between w-full max-w-[1300px] px-4 lg:px-8">
           {/* Logo */}
-          <Link href="/">
+          <Link prefetch={false} href="/">
             <Logo className="w-auto hidden xl:flex" width={180} height={40} />
             <Logo className="w-auto hidden lg:flex xl:hidden" width={170} height={35} />
             <Logo2 className="flex lg:hidden" width={42} height={36} color="#fff" />
@@ -197,7 +197,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
           <nav className="hidden lg:flex gradient-border-nav flex-row items-center justify-center text-center px-4 xl:px-[50px] py-[10px] border border-[#547dcf] rounded-[20px]">
             <ul className="hidden md:flex gap-6 items-center justify-center font-inter28 text-[16px] font-semibold leading-[22.4px] tracking-[-0.32px] m-0">
               <li>
-                <Link
+                <Link prefetch={false}
                   href="/"
                   className="bg-gradient-to-r hover:from-purple-500/50 hover:via-indigo-500/50 hover:to-blue-400/50 hover:bg-clip-text hover:text-transparent"
                 >
@@ -222,7 +222,7 @@ onMouseLeave={() => {
 }}
   ref={dropdownRef}
 >
-  <Link href="/Services">
+  <Link prefetch={false} href="/Services">
     <button className="hover:text-gray-300 focus:outline-none">
       {t("services")}
     </button>
@@ -251,7 +251,7 @@ onMouseLeave={() => {
   >
 
     {/* Üst başlık */}
-    <Link
+    <Link prefetch={false}
 
 
       href={service.href}
@@ -293,7 +293,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
     <ul className="relative z-10 flex flex-col gap-2 text-[12px] text-white/80">
       {service.subLinks.map((item) => (
         <li key={item.href}>
-          <Link
+          <Link prefetch={false}
             href={item.href}
             className="inline-flex px-3 py-[6px] rounded-xl hover:bg-gradient-to-r from-purple-500/70 via-indigo-500/70 to-blue-400/70 hover:text-white transition-colors duration-150"
           >
@@ -315,22 +315,22 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 </li>
 
               <li>
-                <Link href="/aboutus" className="hover:text-gray-300">
+                <Link prefetch={false} href="/aboutus" className="hover:text-gray-300">
                   {t("about_us")}
                 </Link>
               </li>
               <li>
-                <Link href="/blogs" className="hover:text-gray-300">
+                <Link prefetch={false} href="/blogs" className="hover:text-gray-300">
                   {t("blog")}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-300">
+                <Link prefetch={false} href="/contact" className="hover:text-gray-300">
                   {t("contact")}
                 </Link>
               </li>
                    <li>
-                <Link href="/sss" className="hover:text-gray-300">
+                <Link prefetch={false} href="/sss" className="hover:text-gray-300">
                   {t("sss")}
                 </Link>
               </li>
@@ -340,7 +340,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           {/* LANGUAGE + PHONE (DESKTOP) */}
           <div className="hidden lg:flex gap-2 xl:gap-4 items-center justify-around">
             <LangSwitcher />
-            <Link
+            <Link prefetch={false}
               href="tel:+905326451767"
               className="hidden lg:inline-block max-w-[200px] xl:w-[219px] py-[7px] xl:py-[10px] justify-center whitespace-nowrap hover:bg-[#140F25] text-[#140F25] bg-[#fff] rounded-[20px] font-inter28 text-[14px] xl:text-[16px] font-bold leading-[21.6px] tracking-[-0.36]"
             >
@@ -404,7 +404,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
 <div className="grid grid-cols-2 gap-[16px] w-[90%] items-center justify-center">
         {/* 1. satır: Home + About */}
-        <Link
+        <Link prefetch={false}
           href="/"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
         >
@@ -414,7 +414,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           </p>
         </Link>
 
-        <Link
+        <Link prefetch={false}
           href="/aboutus"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
         >
@@ -430,7 +430,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             className="flex gradient-border-button p-[15px] items-center justify-between text-center h-[57px] w-full !bg-[#140015]"
           >
             {/* Sol taraf: ikon + yazı → /Services'e gider */}
-            <Link
+            <Link prefetch={false}
               href="/Services"
               className="flex items-center gap-[12px] flex-1"
               onClick={() => setIsMenuOpen(false)}
@@ -484,7 +484,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
             <div className="max-h-[320px] overflow-y-auto pr-1">
               <div className="grid grid-cols-2 gap-[10px]">
                 {servicesConfig.map((service) => (
-                  <Link
+                  <Link prefetch={false}
                     key={service.key}
                     href={service.href}
                       className="group relative overflow-hidden flex flex-col items-center text-center gap-1 rounded-2xl px-2 py-2 transition-all duration-200"
@@ -500,7 +500,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
         </div>
 
         {/* 3. satır: Blog + Contact */}
-        <Link
+        <Link prefetch={false}
           href="/blogs"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
         >
@@ -510,7 +510,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           </p>
         </Link>
 
-        <Link
+        <Link prefetch={false}
           href="/contact"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015]"
         >
@@ -520,7 +520,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
           </p>
         </Link>
 
-              <Link
+              <Link prefetch={false}
           href="/sss"
           className="flex gradient-border-button p-[15px] items-center justify-center text-center h-[57px] gap-[15px] !bg-[#140015] col-span-2"
         >
@@ -533,7 +533,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
 
 
     <div className="flex w-[90%] items-center justify-center gap-[33px] mt-[200px]">
-            <Link href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
+            <Link prefetch={false} href="tel:+905326451767" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <Image src="/gifs/phone.gif" alt="Phone GIF" width={29} height={29} />
               </div>
@@ -542,7 +542,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
               </p>
             </Link>
 
-            <Link href="#contact" className="flex flex-col items-center justify-center text-center">
+            <Link prefetch={false} href="#contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white p-[6.5px]">
                 <Image src="/gifs/email.gif" alt="Phone GIF" width={29} height={29} />
               </div>
@@ -551,7 +551,7 @@ hover:shadow-[0_0_0_1px_rgba(255,255,255,0.18)_inset]
               </p>
             </Link>
 
-            <Link href="/contact" className="flex flex-col items-center justify-center text-center">
+            <Link prefetch={false} href="/contact" className="flex flex-col items-center justify-center text-center">
               <div className="flex items-center justify-center rounded-full bg-white py-[16px] px-[32px]">
                 <p className="text-[14px] font-bold leading-[120%] -tracking-[0.28px] text-darkBlue whitespace-nowrap">
                   {t("get_in_touch")}

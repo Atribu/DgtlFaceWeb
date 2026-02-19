@@ -10,10 +10,12 @@ import { FaTelegramPlane } from "react-icons/fa";
 import Logo from "../header/svg/DgtlFaceLogo.jsx";
 import sutunlar from "./images/sutunlar.png";
 import { PiYoutubeLogo } from "react-icons/pi";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Footer() {
   const t = useTranslations("Footer");
+  const locale = useLocale();
+  const currentLocale = locale === "en" ? "en" : "tr";
 
   // ✅ Kurumsal linkler
   const corporateLinks = [
@@ -54,19 +56,22 @@ export default function Footer() {
  
   ];
 
-    const sssCategories = [
-    { href: "/Services/sem", label: t("semSSS") },
-     { href: "/Services/creative", label: t("creativeSSS") },
-   { href: "/Services/pms", label: t("pmsSSS") },
-      { href: "/Services/callcenter", label: t("callcenterSSS") },
-    { href: "/Services/smm", label: t("smmSSS") },
-    { href: "/Services/software", label: t("softwareSSS") },
-     { href: "/Services/seo", label: t("seoSSS") },
-        { href: "/Services/digitalAnalysis", label: t("reportingSSS") },
-
-    { href: "/Services/hotel", label: t("hotelSSS") },
- 
+  const faqCategoryRoutes = [
+    { tr: "sem-sss", en: "search-engine-marketing-faq", label: t("semSSS") },
+    { tr: "creative-sss", en: "creative-design-faq", label: t("creativeSSS") },
+    { tr: "pms-ota-sss", en: "pms-ota-faq", label: t("pmsSSS") },
+    { tr: "cagri-merkezi-sss", en: "call-center-faq", label: t("callcenterSSS") },
+    { tr: "smm-sss", en: "social-media-management-faq", label: t("smmSSS") },
+    { tr: "yazilim-sss", en: "software-development-faq", label: t("softwareSSS") },
+    { tr: "seo-sss", en: "search-engine-optimization-faq", label: t("seoSSS") },
+    { tr: "veri-analiz-ve-raporlama-sss", en: "digital-analysis-faq", label: t("reportingSSS") },
+    { tr: "otel-dijital-pazarlama-sss", en: "hotel-digital-marketing-faq", label: t("hotelSSS") },
   ];
+
+  const sssCategories = faqCategoryRoutes.map((route) => ({
+    href: `/${currentLocale}/${route[currentLocale]}`,
+    label: route.label,
+  }));
 
   // ✅ 5 + 5 olacak şekilde bölüyoruz
   const leftServices = serviceCategories.slice(0, 5);
@@ -110,7 +115,7 @@ export default function Footer() {
                 "linear-gradient(to top, transparent 0%, black 50%)",
             }}
           />
-          <Link
+          <Link prefetch={false}
             href="/contact"
             className="hidden md:inline-flex z-[50] absolute top-[170px] max-w-[160px] whitespace-nowrap px-6 py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
           >
@@ -131,7 +136,7 @@ export default function Footer() {
                 </span>
                 <div className="flex flex-wrap justify-center gap-3 font-semibold max-w-[290px]">
                   {corporateLinks.map((link) => (
-                    <Link
+                    <Link prefetch={false}
                       key={link.href}
                       href={link.href}
                       className="hover:underline text-[12px] opacity-80"
@@ -147,7 +152,7 @@ export default function Footer() {
               
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
   {allServices.map((cat, index) => (
-    <Link
+    <Link prefetch={false}
       key={cat.href}
       href={cat.href}
       className={`
@@ -162,7 +167,7 @@ export default function Footer() {
 
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-[6px] max-w-[280px] text-[12px] opacity-90 font-medium">
   {blogLinks.map((cat, index) => (
-    <Link
+    <Link prefetch={false}
       key={cat.href}
       href={cat.href}
       className={`
@@ -180,7 +185,7 @@ export default function Footer() {
             {/* Sosyal medya */}
             <div className="flex flex-col gap-5 z-[20] mt-4">
               <div className="flex justify-center md:justify-center gap-[10px] z-50">
-                <Link
+                <Link prefetch={false}
                   href="https://www.instagram.com/dgtlface/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -188,7 +193,7 @@ export default function Footer() {
                 >
                   <Instagram className="w-9 h-9 z-[20]" />
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="https://tr.linkedin.com/company/dgtlface"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -196,7 +201,7 @@ export default function Footer() {
                 >
                   <Linkedin className="w-9 h-9 z-[20]" />
                 </Link>
-                <Link
+                <Link prefetch={false}
                   href="tel:+905326451767"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -205,7 +210,7 @@ export default function Footer() {
                   <WhatsApp className="w-9 h-9 z-[20]" />
                 </Link>
                
-                <Link
+                <Link prefetch={false}
                   href="https://t.me/Dgtlfaceofficial"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -213,7 +218,7 @@ export default function Footer() {
                 >
                     <FaTelegramPlane size={15}/>
                 </Link>
-                    <Link
+                    <Link prefetch={false}
                   href="https://x.com/dgtlface"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -222,7 +227,7 @@ export default function Footer() {
                    <FaXTwitter size={16}/>
                 </Link>
                
-                <Link
+                <Link prefetch={false}
                   href="https://www.youtube.com/@dgtlface"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -246,7 +251,7 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">
                   {leftServices.map((cat) => (
-                    <Link
+                    <Link prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
@@ -257,7 +262,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-[8px] text-white">
                   {rightServices.map((cat) => (
-                    <Link
+                    <Link prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
@@ -276,7 +281,7 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-x-6 gap-y-[4px] text-[13px] opacity-85">
                 <div className="flex flex-col gap-[8px]">
                   {leftServicesSSS.map((cat) => (
-                    <Link
+                    <Link prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
@@ -287,7 +292,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-[8px] text-white">
                   {rightServicesSSS.map((cat) => (
-                    <Link
+                    <Link prefetch={false}
                       key={cat.href}
                       href={cat.href}
                       className="hover:underline leading-[110%]"
@@ -330,7 +335,7 @@ export default function Footer() {
             />
 
              <div className="flex justify-center md:justify-center gap-[10px] z-50">
-              <Link
+              <Link prefetch={false}
                 href="https://www.instagram.com/dgtlface/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -338,7 +343,7 @@ export default function Footer() {
               >
                 <Instagram className="w-9 h-9 z-[20]" />
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="https://tr.linkedin.com/company/dgtlface"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -346,7 +351,7 @@ export default function Footer() {
               >
                 <Linkedin className="w-9 h-9 z-[20]" />
               </Link>
-              <Link
+              <Link prefetch={false}
                 href="tel:+905326451767"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -354,7 +359,7 @@ export default function Footer() {
               >
                 <WhatsApp className="w-9 h-9 z-[20]" />
               </Link>
-              <Link
+              <Link prefetch={false}
                   href="https://t.me/Dgtlfaceofficial"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -363,7 +368,7 @@ export default function Footer() {
                     <FaTelegramPlane size={15}/>
                 </Link>
                 
-                     <Link
+                     <Link prefetch={false}
                   href="https://x.com/dgtlface"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -372,7 +377,7 @@ export default function Footer() {
                    <FaXTwitter size={16}/>
                 </Link>
             
-              <Link
+              <Link prefetch={false}
                 href="https://www.youtube.com/@dgtlface"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -382,7 +387,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <Link
+            <Link prefetch={false}
               href="/contact"
               className="z-[50] flex xl:top-[220px] max-w-[160px] xl:max-w-[172px] whitespace-nowrap px-5 xl:px-6 py-2 xl:py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
             >
@@ -401,7 +406,7 @@ export default function Footer() {
               </h4>
               <div className="grid grid-cols-2 gap-2 text-[13px]">
                 {corporateLinks.map((link) => (
-                  <Link
+                  <Link prefetch={false}
                     key={link.href}
                     href={link.href}
                     className="hover:underline"
@@ -418,7 +423,7 @@ export default function Footer() {
               </h4>
               <div className="grid grid-cols-2 gap-2 text-[13px]">
                 {blogLinks.map((link) => (
-                  <Link
+                  <Link prefetch={false}
                     key={link.href}
                     href={link.href}
                     className="hover:underline"
@@ -431,7 +436,7 @@ export default function Footer() {
 
            
 
-            {/* <Link
+            {/* <Link prefetch={false}
               href="/contact"
               className="z-[50] absolute top-[190px] xl:top-[220px] max-w-[160px] xl:max-w-[172px] whitespace-nowrap inline-flex px-5 xl:px-6 py-2 xl:py-3 justify-center items-center gap-[10px] rounded-[22px] bg-white shadow-[0_0_50px_0_rgba(221,254,254,0.5),_0_0_4px_0_#FFF]"
             >
