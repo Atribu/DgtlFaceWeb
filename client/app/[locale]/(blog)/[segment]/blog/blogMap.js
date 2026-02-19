@@ -136,7 +136,9 @@ export const BLOG_MAP = {
     "otel-lansman-acilis-etkinligi-produsksiyon":"BlogOtelLansmanAcilisEtkinligiProdusksiyon",
     "otel-gala-gecesi-ve-ziyafet-produsksiyon":"BlogOtelGalaGecesiVeZiyafetProdusksiyon",
     "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":"BlogOtelKurumsalEtkinlikVeLansmanIcIletisim",
-    "otel-etkinlik-same-day-edit-aninda-icerik":"BlogCreativeOtelEtkinlikSameDayEditAnindaIcerik"
+    "otel-etkinlik-same-day-edit-aninda-icerik":"BlogCreativeOtelEtkinlikSameDayEditAnindaIcerik",
+
+    "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar"
   },
 
        "cagri-merkezi": {
@@ -162,7 +164,9 @@ export const BLOG_MAP = {
     "nps-ve-misafir-memnuniyet-otel-satis-sonrasi":"BlogNpsVeMisafirMemnuniyetOtelSatisSonrasi",
     "otel-iatel-degisim-iade-surecleri-satis-sonrasi":"BlogCagriMerkeziOtelIatelDegisimIadeSurecleriSatisSonrasi",
     "otel-sikayet-yonetimi-satis-sonrasi-surec":"BlogOtelSikayetYonetimiSatisSonrasiSurec",
-    "otel-satis-sonrasi-destek-ve-sadakat-programlari":"BlogCagriMerkeziOtelSatisSonrasiDestekVeSadakatProgramlari"
+    "otel-satis-sonrasi-destek-ve-sadakat-programlari":"BlogCagriMerkeziOtelSatisSonrasiDestekVeSadakatProgramlari",
+
+    "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber"
   },
 
     "pms-ota": {

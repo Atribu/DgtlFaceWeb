@@ -9622,6 +9622,108 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+  "kurumsal-hediye-stratejisi-oteller-markalar":{
+     banner: {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-1.webp",
+      alt: "Kurumsal Hediye Stratejisi Nasıl Kurulur? Oteller ve Markalar İçin Temel Rehber",
+      caption: "Kurumsal Hediye Stratejisi Nasıl Kurulur? Oteller ve Markalar İçin Temel Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-2.webp",
+      alt: "VIP misafir hediyesi, unboxing ve marka hikâyesi otel bağlamı",
+      caption: "VIP misafir hediyesi, unboxing ve marka hikâyesi otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-3.webp",
+      alt: "Hediye stratejisi adımları, hedef–segment–bütçe otel bağlamı",
+      caption: "Hediye stratejisi adımları, hedef–segment–bütçe otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-4.webp",
+      alt: "Segmentasyon ve hediye kategorileri, otel ve marka bağlamı",
+      caption: "Segmentasyon ve hediye kategorileri, otel ve marka bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-5.webp",
+      alt: "Unboxing akışı diyagramı, QR deneyimi ve otel bağlamı",
+      caption: "Unboxing akışı diyagramı, QR deneyimi ve otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-6.webp",
+      alt: "Segment–hediye eşleştirme checklist’i, operasyon ve otel bağlamı",
+      caption: "Segment–hediye eşleştirme checklist’i, operasyon ve otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-7.webp",
+      alt: "Bütçe–adet–teslim KPI kartı, otel operasyon bağlamı",
+      caption: "Bütçe–adet–teslim KPI kartı, otel operasyon bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-1/Creative5-1-8.webp",
+      alt: "Strateji çıktıları ve güven unsurları, otel ve marka bağlamı",
+      caption: "Strateji çıktıları ve güven unsurları, otel ve marka bağlamı"
+    }
+  },
+
+
+  "otel-cagri-merkezi-kpi-temel-rehber":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-1.webp",
+      alt: "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?",
+      caption: "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-2.webp",
+      alt: "Yoğun sezon çağrı akışı ve KPI okuması, resort ve city otel örneği",
+      caption: "Yoğun sezon çağrı akışı ve KPI okuması, resort ve city otel örneği"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-3.webp",
+      alt: "Hacim-hız-kalite-gelir-memnuniyet KPI ayrımı, otel çağrı merkezi için sade şema",
+      caption: "Hacim-hız-kalite-gelir-memnuniyet KPI ayrımı, otel çağrı merkezi için sade şema"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-4.webp",
+      alt: "Memnuniyet ve sadakat KPI’larına geçiş, misafir deneyimi odaklı bölüm görseli",
+      caption: "Memnuniyet ve sadakat KPI’larına geçiş, misafir deneyimi odaklı bölüm görseli"
+    },
+
+     "diagram-flow": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-5.webp",
+      alt: "Çağrıdan rezervasyona funnel akışı, kanal ve segment kırılımlı karar diyagramı",
+      caption: "Çağrıdan rezervasyona funnel akışı, kanal ve segment kırılımlı karar diyagramı"
+    },
+
+          "checklist-card": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-6.webp",
+      alt: "Otel çağrı merkezi KPI seti, 10 temel kontrol maddesiyle hızlı kıyas kartı",
+      caption: "Otel çağrı merkezi KPI seti, 10 temel kontrol maddesiyle hızlı kıyas kartı"
+    },
+
+      "kpi-score-card": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-7.webp",
+      alt: "Hız, FCR ve dönüşüm KPI’larını tek panelde gösteren örnek skor kartı",
+      caption: "Hız, FCR ve dönüşüm KPI’larını tek panelde gösteren örnek skor kartı"
+    },
+
+          "proof-card": {
+      src: "/images/blog/callcenter/Callcenter5-1/Callcenter5-1-8.webp",
+      alt: "Dashboard, checklist ve sprint planı gibi KPI programı çıktıları, güven unsuru kartı",
+      caption: "Dashboard, checklist ve sprint planı gibi KPI programı çıktıları, güven unsuru kartı"
+    }
+  },
+
+
 
 
 };

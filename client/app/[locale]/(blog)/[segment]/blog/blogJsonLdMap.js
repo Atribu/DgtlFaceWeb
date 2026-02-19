@@ -13876,7 +13876,262 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"otel-etkinlik-same-day-edit-aninda-icerik":{}
+"otel-etkinlik-same-day-edit-aninda-icerik":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu#webpage",
+      "url": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu",
+      "name": "Etkinlik Prodüksiyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik#article",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik",
+      "headline": "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
+      "name": "Etkinliklerde Same-Day Edit ve Anında İçerik Üretimi: Oteller İçin Hızlı Video Stratejisi",
+      "description": "Otel etkinliklerinde same-day edit ile aynı gün highlight ve dikey videolar üretip yayınlamak için çekim–kurgu–onay–yayın akışını kurma rehberi.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik#article" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Same-Day Edit",
+        "Highlight Video",
+        "Reels",
+        "On-Site Editing",
+        "Event Coverage",
+        "Hotel Experience"
+      ],
+      "keywords": [
+        "same day edit otel etkinlik",
+        "etkinlik sonrasi hizli video uretimi",
+        "gala gecesi aninda reels hazirlama",
+        "same day edit for hotel events",
+        "on-site event video editing"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/video-produksiyon#service",
+      "name": "Video Prodüksiyon",
+      "serviceType": "Same-Day Edit ve Hızlı Etkinlik İçeriği Üretimi",
+      "url": "https://dgtlface.com/tr/creative/video-produksiyon",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik#howto",
+      "name": "Otel etkinliklerinde same-day edit nasıl planlanmalı?",
+      "description": "Çekim, hızlı seçim, şablon kurgu, hızlı onay ve aynı gün yayın adımları.",
+      "step": [
+        { "@type": "HowToStep", "name": "Çıktı setini ve shotlist’i kilitle", "text": "1 highlight ve 3–5 dikey video için zorunlu planları belirle." },
+        { "@type": "HowToStep", "name": "Hızlı select ve şablon kurguyu hazırla", "text": "Seçim kriterini yaz, intro/outro ve lower-third şablonlarını kullan." },
+        { "@type": "HowToStep", "name": "Onay süresini sınırlı tut", "text": "Tek onaylayıcı belirle ve 10–15 dakika içinde geri dönüş kuralı koy." },
+        { "@type": "HowToStep", "name": "Yayın penceresini yönet", "text": "Saat bazlı takvimle IG Reels/Story ve Shorts için metin/CTA’yı önceden hazırla." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative/" },
+        { "@type": "ListItem", "position": 3, "name": "Etkinlik Prodüksiyonu", "item": "https://dgtlface.com/tr/creative/etkinlik-produksiyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Same-Day Edit ve Anında İçerik Üretimi", "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-same-day-edit-aninda-icerik#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Same-day edit nedir, otel etkinliklerinde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Same-day edit, etkinlik günü çekilen görüntülerden aynı gün kısa highlight ve dikey videolar üretip yayınlama modelidir. Çekim planı, hızlı select, şablon kurgu ve tek kişilik hızlı onay akışı kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etkinlik günü kısa video ve reel’leri nasıl yetiştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çıktı setini baştan kilitleyin (ör. 3–5 Reel + 1 highlight) ve her çıktı için zorunlu shotlist belirleyin. Şablon kurgu ve net onay kriterleriyle revizyon turunu sınırlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hızlı kurgu için nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proxy dosya kullanımı, SSD/kart yönetimi, upload hızı ve tek onaylayıcı kritik. İnternet yetersizse alternatif yükleme planı oluşturulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Same-day edit sonrasında uzun versiyonları nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı gün kısa paket çıktıktan sonra 3–7 gün içinde uzun versiyon ve 7–14 gün içinde case study formatı üretilebilir. Düzenli arşiv/backup bu dönüşümü hızlandırır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"kurumsal-hediye-stratejisi-oteller-markalar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar",
+      "name": "Kurumsal Hediye Stratejisi Nasıl Kurulur? Oteller ve Markalar İçin Temel Rehber",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#article",
+      "headline": "Kurumsal Hediye Stratejisi Nasıl Kurulur? Oteller ve Markalar İçin Temel Rehber",
+      "description": "Kurumsal hediye stratejinizi hedef kitle, bütçe ve unboxing deneyimiyle kurun. VIP misafir, çalışan ve iş ortakları için ölçülebilir hediye planı.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "kurumsal hediye stratejisi otel",
+        "vip misafir hediye fikirleri",
+        "brand experience gift box",
+        "hotel corporate gifting strategy",
+        "vip welcome gift planning",
+        "brand-aligned gift experiences"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": ["TR"],
+      "serviceType": "Kurumsal Hediye Stratejisi ve Tasarım Danışmanlığı"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative",
+          "item": "https://dgtlface.com/tr/creative"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye & Tasarım",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kurumsal Hediye Stratejisi Rehberi",
+          "item": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kurumsal hediye stratejisi nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedefinizi belirleyip segmentleri netleştirerek başlayın. Her segmente uygun hediye kategorisi, bütçe–adet–lojistik planı ve unboxing/teşekkür akışı tasarlayın. Son olarak 1 KPI ile ölçüp optimize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi hedef kitleye hangi hediye uygun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "VIP misafir için kişiselleştirilmiş premium kutu; çalışan için takdir odaklı set; acente/iş ortağı için profesyonel masa üstü paket; etkinlik katılımcısı için tema uyumlu, paylaşılabilir kit uygundur. Seçimi hediye dili ve operasyon kapasiteniz belirler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kurumsal hediye bütçesi nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bütçeyi segment bazlı planlayın ve birim maliyete paketleme/operasyon maliyetlerini ekleyin. Sezon ve etkinlik dalgalanmaları için %10 tampon pay ayırın. Bütçeyi savunmak için tek bir ölçüm sinyali seçin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediye paketini marka hikâyesiyle nasıl ilişkilendirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kutu dili ve not tonunu marka konumlandırmasıyla eşleştirin. Hediye içeriğini bir marka ritüeli gibi kurgulayın ve tek bir QR ile mini deneyim sayfasına bağlayın. Böylece hediye ürün değil, brand experience olur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/creative/blog/kurumsal-hediye-stratejisi-oteller-markalar#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+}
 
 
     },
@@ -16400,6 +16655,160 @@ export const BLOG_JSONLD_MAP = {
         { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
         { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
         { "@type": "ListItem", "position": 4, "name": "Satış Sonrası Destek ve Sadakat Programları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-satis-sonrasi-destek-ve-sadakat-programlari" }
+      ]
+    }
+  ]
+},
+
+//
+
+"otel-cagri-merkezi-kpi-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber",
+      "headline": "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?",
+      "name": "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?",
+      "description": "Otel çağrı merkezi KPI’larını (cevaplanma, bekleme, FCR, dönüşüm, NPS) tek çerçevede öğrenin; hatalı yorumları önleyin, hızlı aksiyon planı çıkarın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber#article" },
+      "about": [
+        "Call Center KPI",
+        "FCR",
+        "Service Level",
+        "Conversion Rate",
+        "NPS",
+        "Otel çağrı merkezi performans analizi"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#service",
+      "name": "Çağrı Merkezi Performans Analizi & Raporlama",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "serviceType": "Call Center KPI & Reporting"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Çağrı Merkezi KPI’ları: Hangi Rakamlar Gerçekten Önemli?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezi için hangi KPI’lar takip edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim (çağrı adedi), hız (cevaplanma/bekleme/terk), kalite (FCR/tekrar arama), satış (dönüşüm/çağrı başına gelir) ve memnuniyet (CSAT/NPS) birlikte izlenmelidir. Tek KPI ile karar vermek yerine set halinde okumak daha doğru teşhis sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FCR nedir, nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FCR, misafir talebinin ilk aramada çözüme kavuşma oranıdır. Ölçüm için çağrı nedeni etiketi, kapanış sonucu ve tekrar arama verisi gerekir. FCR düşüyorsa bilgi erişimi, yetkilendirme veya eğitim eksikliği işaret edebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cevaplanma oranı ve bekleme süresi ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cevaplanma oranı, gelen çağrıların ne kadarına yanıt verildiğini; bekleme süresi ise misafirin hatta ne kadar beklediğini gösterir. Bu KPI’lar terk oranıyla birlikte okunmalı; hız artarken FCR düşüyorsa kalite problemi oluşuyor olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon dönüşüm oranı nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm oranı, rezervasyonla sonuçlanan çağrıların toplam uygun çağrılara oranıdır. En sağlıklı okuma, rezervasyon niyeti olan çağrılar segmentinde yapılır. Tek başına yükseltmek yerine memnuniyet ve gelir etkisiyle birlikte değerlendirilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-kpi-temel-rehber#howto",
+      "name": "Otel çağrı merkezi KPI takibi nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "KPI setini belirle",
+          "text": "KPI’ları hacim–hız–kalite–gelir–memnuniyet çerçevesinde seç ve ölçüm sözlüğünü yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Segment etiketlerini standartlaştır",
+          "text": "Pazar, kanal, otel tipi ve çağrı niyeti kırılımlarını tanımla ve rapora ekle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dashboard + aksiyon döngüsünü kur",
+          "text": "Tek sayfalık panel oluştur, alarm mantığı ekle ve KPI’ları haftalık aksiyon toplantısına bağla."
+        }
       ]
     }
   ]
