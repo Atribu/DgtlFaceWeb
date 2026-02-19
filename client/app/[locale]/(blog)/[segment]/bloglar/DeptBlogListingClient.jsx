@@ -191,8 +191,7 @@ export default function DeptBlogListingClient({ segment }) {
   // 5) Hero = son 5 (departman)
   const heroPosts = useMemo(() => sortedDept.slice(0, 5), [sortedDept]);
 
-  // 6) Son 20 (departman)
-  const latest20 = useMemo(() => sortedDept.slice(0, 20), [sortedDept]);
+
 
   // 7) Rail’ler: sadece 2 tane
   const displayAll = hasResults ? sortedFiltered : sortedDept;
@@ -210,8 +209,6 @@ const rails = useMemo(() => {
   // Arama yoksa: Son 20 + alt departmanlar + Hepsi
   const base = [];
 
-  // 1) Son 20
-  base.push({ id: "latest20", title: "Son Eklenen 20", posts: latest20 });
 
   // 2) Alt departman rail'leri (segment'e göre)
   const subList = SUB_DEPTS?.[segment] || [];
@@ -219,6 +216,14 @@ const rails = useMemo(() => {
   // SUB_DEPTS id -> meta map (label/href bulmak için)
   const subMeta = Object.fromEntries(subList.map((s) => [s.id, s]));
 
+  //  Hepsi
+  base.push({
+    id: "all",
+    title: `${deptTitle} Blogları`,
+    posts: sortedDept,
+  });
+
+  
   // Her alt departman için postları topla
   for (const sub of subList) {
     const posts = sortedDept.filter((p) => p.subDept === sub.id);
@@ -243,15 +248,10 @@ const rails = useMemo(() => {
     });
   }
 
-  // 4) Hepsi
-  base.push({
-    id: "all",
-    title: `${deptTitle} Blogları`,
-    posts: sortedDept,
-  });
+  
 
   return base;
-}, [segment, hasResults, query, sortedFiltered, latest20, sortedDept]);
+}, [segment, hasResults, query, sortedFiltered, sortedDept]);
 
 
   const visibleCount = hasResults ? sortedFiltered.length : sortedDept.length;

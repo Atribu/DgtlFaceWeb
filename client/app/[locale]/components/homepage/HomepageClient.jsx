@@ -38,27 +38,58 @@ export default function HomePage() {
         </ViewportLazyMount>
          {/* <HomeBlogShowcase limit={10} heroCount={5} showHero /> */}
 
-        <ViewportLazyMount rootMargin="140px 0px" threshold={0.12} minHeight={900} className="w-full">
+        <ViewportLazyMount rootMargin="120px 0px" threshold={0.12} minHeight={900} className="w-full">
           <H2Section />
           <BlocksYatay />
-          <Section3List page="Homepage" />
+
+          <ViewportLazyMount
+            rootMargin="40px 0px"
+            threshold={0.22}
+            minHeight={520}
+            className="w-full"
+          >
+            <Section3List page="Homepage" />
+          </ViewportLazyMount>
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="180px 0px" threshold={0.14} minHeight={2200} className="w-full">
+        <ViewportLazyMount rootMargin="160px 0px" threshold={0.14} minHeight={2200} className="w-full">
           <Partners />
           <Section1 />
-          <Section2 />
-          <WhyUsSection />
+
+          <ViewportLazyMount
+            rootMargin="80px 0px"
+            threshold={0.2}
+            minHeight={620}
+            className="w-full"
+          >
+            <Section2 />
+          </ViewportLazyMount>
+
+          <ViewportLazyMount
+            rootMargin="40px 0px"
+            threshold={0.24}
+            minHeight={700}
+            className="w-full"
+          >
+            <WhyUsSection />
+          </ViewportLazyMount>
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="220px 0px" threshold={0.16} minHeight={1400} className="w-full">
+        <ViewportLazyMount rootMargin="180px 0px" threshold={0.16} minHeight={1400} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
           <AiAnswerBlock text={t("aiAnswerBlock")} />
 
           {/* <ServicesCarousel/> */}
 
-          <Contact />
-          <AiSourceMention text={t("aiSourceMention")} />
+          <ViewportLazyMount
+            rootMargin="40px 0px"
+            threshold={0.24}
+            minHeight={520}
+            className="w-full"
+          >
+            <Contact />
+            <AiSourceMention text={t("aiSourceMention")} />
+          </ViewportLazyMount>
         </ViewportLazyMount>
       </div>
     </main>
