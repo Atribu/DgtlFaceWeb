@@ -33,25 +33,25 @@ export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
-         <ViewportLazyMount rootMargin="240px 0px" minHeight={260} className="w-full">
+         <ViewportLazyMount rootMargin="80px 0px" threshold={0.08} minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
          {/* <HomeBlogShowcase limit={10} heroCount={5} showHero /> */}
 
-        <ViewportLazyMount rootMargin="420px 0px" minHeight={900} className="w-full">
+        <ViewportLazyMount rootMargin="140px 0px" threshold={0.12} minHeight={900} className="w-full">
           <H2Section />
           <BlocksYatay />
           <Section3List page="Homepage" />
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="520px 0px" minHeight={2200} className="w-full">
+        <ViewportLazyMount rootMargin="180px 0px" threshold={0.14} minHeight={2200} className="w-full">
           <Partners />
           <Section1 />
           <Section2 />
           <WhyUsSection />
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="620px 0px" minHeight={1400} className="w-full">
+        <ViewportLazyMount rootMargin="220px 0px" threshold={0.16} minHeight={1400} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
           <AiAnswerBlock text={t("aiAnswerBlock")} />
 

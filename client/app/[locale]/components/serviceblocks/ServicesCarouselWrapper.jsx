@@ -1,46 +1,11 @@
 
 "use client";
 import  Link  from "next/link";
-import useEmblaCarousel from "embla-carousel-react";
 
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import VBlock from "./VBlock";
-// import noiseFull from "@/public/noisefull.png";
-import Image from "next/image";
-import makeGradientTitle from "@/lib/makeGradientTitle";
 
 function ServicesCarouselWrapper({selected,isActive}) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    align: "start",
-  });
-
-  const [status, setStatus] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const handleHoverStart = (index) => {
-    // console.log("hover start");
-    setStatus(index);
-  };
-
-  const handleHoverEnd = (index) => {
-    // console.log("hover end");
-    setStatus(false);
-  };
-
-  const onSelect = useCallback(() => {
-    if (!emblaApi) return;
-    setSelectedIndex(emblaApi.selectedScrollSnap());
-    // console.log(emblaApi.selectedScrollSnap());
-  }, [emblaApi]);
-
-  useEffect(() => {
-    if (!emblaApi) return;
-    // Add the select event listener
-    emblaApi.on("select", onSelect);
-    // Remove event listeners on cleanup
-    return () => emblaApi.off("select", onSelect);
-  }, [emblaApi, onSelect]);
-
   return (
     <div className="py-8">
       <div className=" mx-5 flex px-1 md:px-10 lg:px-0 w-full max-w-[calc(100vw-16px)] items-center justify-center">

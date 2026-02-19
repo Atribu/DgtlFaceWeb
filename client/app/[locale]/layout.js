@@ -11,11 +11,13 @@ import { getSeoData } from '../lib/seo-utils';
 import { GoogleTagManager } from '@next/third-parties/google'
 import { Inter } from "next/font/google";
 import dynamic from 'next/dynamic';
-import FloatingActions from "./components/common/FloatingActions";
+import {
+  CookiePopupDeferred,
+  FloatingActionsDeferred,
+  FloatingFaqButtonDeferred,
+} from "./components/common/DeferredWidgets";
 
 const Footer = dynamic(() => import("./components/footer/Footer"));
-const CookiePopup = dynamic(() => import("./components/Cookies/CookiePopup"));
-const FloatingFaqButton = dynamic(() => import("./components/common/FloatingFaqButton"));
 
 const inter = Inter({
   subsets: ["latin"],
@@ -174,11 +176,11 @@ export default async function RootLayout({ children,  params }) {
       <div className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <HeaderWrapper />
-          <CookiePopup />
+          <CookiePopupDeferred />
           {children}
-          <FloatingFaqButton />
+          <FloatingFaqButtonDeferred />
           <Footer />
-          <FloatingActions />
+          <FloatingActionsDeferred />
         </NextIntlClientProvider>
       </div>
     </>
