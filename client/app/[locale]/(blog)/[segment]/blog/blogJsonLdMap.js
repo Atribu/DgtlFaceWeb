@@ -2617,6 +2617,156 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//
+
+"otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi",
+      "headline": "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi",
+      "name": "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi",
+      "description": "Otel reklam raporlarını CTR, dönüşüm, CPA ve ROAS ile doğru okuyun. Google Ads & Meta rapor mantığını öğrenin, bütçe kararlarını veriye dayalı verin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Ad KPIs",
+        "CTR",
+        "CPA",
+        "ROAS",
+        "Hotel Campaign Performance",
+        "KPI literacy",
+        "performance reading",
+        "basics of reporting"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#service",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "serviceType": "SEM Raporlama ve Performans Analizi",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEM",
+          "item": "https://dgtlface.com/tr/sem"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reklam Raporlama & Performans Analizi",
+          "item": "https://dgtlface.com/tr/sem/reklam-raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi",
+          "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam raporu nasıl okunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce kampanya düzeyinde bütçe-sonuç ilişkisini görün, sonra hedef kitle kırılımında 'kim daha iyi'yi bulun, en sonda reklam seviyesinde kreatifleri kıyaslayın. CTR, dönüşüm, CPA ve ROAS’ı birlikte okuyup artır/kıs/test kararıyla kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTR, CPA ve ROAS ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR mesaj/kreatif uyumunu, CPA bir dönüşümü kaç paraya aldığınızı, ROAS ise reklam harcamasının kaç kat gelir ürettiğini gösterir. Otel hedefinize göre bu KPI’ların önceliği değişir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Ads ve Meta Ads raporlarındaki en önemli KPI’lar hangileri?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Temelde impressions, clicks, CTR, conversions, CPA ve ROAS en kritik seti oluşturur. Google’da niyet ve arama terimleri; Meta’da kreatif ve frekans metrikleri ayrıca önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI kötü gittiğini gösterir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPA yükseliyor ve ROAS düşüyorsa verim bozuluyordur; CTR düşüyorsa kreatif/mesaj yorgunluğu veya kitle uyumsuzluğu olabilir; dönüşüm düşüyorsa landing/teklif/ölçüm kontrol edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tıklama sayısı yüksek ama rezervasyon yok, neye bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR iyi ama dönüşüm düşükse sorun çoğunlukla landing sayfası, teklif netliği, form akışı veya hızdır. Ayrıca dönüşüm ölçümünün doğru kurulduğunu doğrulayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi#howto",
+      "name": "Otel reklam raporunu 10 dakikada okuma yöntemi",
+      "step": [
+        { "@type": "HowToStep", "name": "Kampanyaları ROAS/CPA’ya göre sırala", "text": "Önce verim metriğine göre sıralayıp en iyi 3 ve en kötü 3 kampanyayı işaretle." },
+        { "@type": "HowToStep", "name": "CTR kontrolü yap", "text": "CTR düşükse kreatif/mesaj testine öncelik ver; CTR iyiyse dönüşüm yolunu kontrol et." },
+        { "@type": "HowToStep", "name": "Dönüşüm ve CPA/ROAS ile karar ver", "text": "Dönüşüm, CPA ve ROAS’ı birlikte okuyup artır/kıs/test kararını çıkar." },
+        { "@type": "HowToStep", "name": "Kırılımlara in", "text": "Hedef kitle (ad set/reklam grubu) ve reklam seviyesinde en iyi/en kötüleri bul." },
+        { "@type": "HowToStep", "name": "Tek aksiyon planı ile kapat", "text": "Bu hafta uygulanacak 1–3 aksiyonu yaz ve rapora ekle." }
+      ]
+    }
+  ]
 }
 
     },
@@ -8132,6 +8282,128 @@ export const BLOG_JSONLD_MAP = {
           }
         }
       ]
+    }
+  ]
+},
+
+//
+
+"sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi",
+      "name": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Social Media KPIs" },
+        { "@type": "Thing", "name": "Performance Reporting" },
+        { "@type": "Thing", "name": "Goal to Metric Mapping" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#webpage"
+      },
+      "headline": "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+      "description": "Sosyal medya performans raporunu hedefe göre yapılandırın: marka, etkileşim, trafik ve lead/rezervasyon KPI’larını kanal ve format bazında okuyun; raporu aksiyon planıyla kapatın.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SMM",
+          "item": "https://dgtlface.com/tr/smm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Analiz & Raporlama",
+          "item": "https://dgtlface.com/tr/smm/analiz-raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sosyal Medya Performans Raporu KPI Çerçevesi",
+          "item": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sosyal medya performans raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce hedefinizi netleştirin (marka/etkileşim/trafik/lead), sonra o hedefe uygun KPI setini seçin. KPI’ları kanal ve format bazında ayırın ve her KPI’yı bir aksiyon önerisine bağlayın. Raporu 30 günlük plan ile kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Marka, etkileşim ve satış için hangi KPI’lar kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka için reach/impressions ve video tamamlanma; etkileşim için kaydetme/paylaşma ve etkileşim oranı; satış/lead için dönüşüm, lead sayısı ve cost-per-lead gibi KPI’lar önceliklidir. KPI seti hedefe göre değişmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her kanal için aynı KPI’ları mı kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Aynı hedef için benzer KPI grupları kullanılabilir; ancak kanalın rolüne göre KPI tanımı ve ağırlığı değişir. Rapor tek çerçeve + kanal panelleri şeklinde kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Raporu aksiyona nasıl dönüştürürüm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporu What worked/What didn’t/Why/Next 30 days şablonuyla bitirin. Her sorun için hipotez ve aksiyon yazın; aksiyonlara sahip ve tarih atayın. Ay sonunda aksiyonların etkisini rapora ekleyin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
     }
   ]
 }
@@ -23787,6 +24059,151 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Family segmentte kids club/aile odası; couple segmentte ambiyans/manzara; business segmentte çalışma alanı/Wi-Fi; luxury segmentte detay ve özel alanlar öne çıkarılmalıdır. Metin ve fotoğraflar bu kanıtları içermelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-yorum-ve-puan-yonetimi-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi",
+      "name": "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi",
+      "headline": "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler",
+      "name": "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler",
+      "description": "OTA puanı ve yorumlar sıralama ve satışları etkiler. Yorum toplama (QR/e-posta), profesyonel cevap şablonları ve kök neden aksiyonlarıyla puanı ve ADR’yi artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Reviews" },
+        { "@type": "Thing", "name": "Score Management" },
+        { "@type": "Thing", "name": "Reputation" },
+        { "@type": "Thing", "name": "Occupancy" },
+        { "@type": "Thing", "name": "ADR" },
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "Response" },
+        { "@type": "Thing", "name": "Improvement Plan" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#howto",
+      "name": "OTA Yorum & Puan Yönetimi: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Yorum temasını ve KPI’ları tanımla", "text": "Ortalama puan, yorum tazeliği, tema dağılımı, ADR/doluluk etkisi KPI setini belirleyin." },
+        { "@type": "HowToStep", "name": "Check-out tetik metnini yaz", "text": "Puan istemeden geri bildirim isteyen kısa bir standart cümle oluşturun ve ekibe öğretin." },
+        { "@type": "HowToStep", "name": "2 adımlı mesaj akışı kur", "text": "2–6 saat teşekkür + 24–48 saat hatırlatma akışıyla yorum toplama otomasyonu oluşturun." },
+        { "@type": "HowToStep", "name": "QR geri bildirim noktalarını yerleştir", "text": "Lobi ve çıkış/oda gibi iki noktaya QR yerleştirip tek CTA ile yönlendirin." },
+        { "@type": "HowToStep", "name": "Yanıt SLA belirle", "text": "Tüm platformlarda 24–48 saat içinde yanıt hedefi koyun ve sorumluları belirleyin." },
+        { "@type": "HowToStep", "name": "Olumsuz yanıt şablonu oluştur", "text": "Özür + net aksiyon + OTA mesaj sistemi/otel kanalı yaklaşımıyla standart metinler hazırlayın." },
+        { "@type": "HowToStep", "name": "Kişisel veri ve agresif tonu yasakla", "text": "Yanıtlarda kişisel veri paylaşmayın; tartışmacı veya agresif tondan kaçının." },
+        { "@type": "HowToStep", "name": "Kök neden matrisi kur", "text": "Yorumları temizlik/konfor/personel/yemek/gürültü gibi temalara ayırıp aksiyon sahipleri atayın." },
+        { "@type": "HowToStep", "name": "Haftalık 1 iyileştirme kuralı uygula", "text": "Her hafta en çok tekrar eden 1 soruna müdahale edip denetim/raporla kanıtlayın." },
+        { "@type": "HowToStep", "name": "Gelir etkisini ölç", "text": "Puan trendini dönüşüm, ADR ve doluluk KPI’larıyla birlikte takip edip stratejiyi güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler", "item": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yorum-ve-puan-yonetimi-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA yorumları otel satışlarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorumlar ve puan, misafirin güven kararını hızlandırır; tıklama ve rezervasyon dönüşümünü etkileyebilir. Güncel ve yüksek kaliteli yorumlar, profilin tercih edilme ihtimalini artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yorum sayısı ve puanı artırmak için neler yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-out tetikleme, 2 adımlı mesaj akışı ve QR ile yorum toplamayı sistemleştirin. Tekrarlayan şikâyetleri kök neden olarak operasyonda düzeltin; yanıt disiplinini 24–48 saat hedefiyle sürdürün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Olumsuz OTA yorumlarına nasıl cevap vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Özür + net aksiyon + iletişim kanalı yaklaşımıyla cevap verin; tartışmacı/agresif tondan kaçının. Kişisel veri paylaşmayın ve detayları OTA mesaj sistemi veya otel kanallarında sürdürün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Puan artışı doluluk ve fiyatı gerçekten değiştirir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etki destinasyon ve rekabet setine bağlıdır; ancak puan artışı tercih edilme oranını artırıp fiyat esnekliğini güçlendirebilir. En doğrusu, puan trendini ADR/doluluk ve dönüşüm KPI’larıyla birlikte ölçmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yorum tazeliği neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yeni yorumlar, otelin güncel performansını gösterir ve güven sinyali üretir. Eski yorumlar tek başına, “şu an ne durumda?” sorusunu cevaplamaz."
           }
         }
       ]

@@ -9366,6 +9366,161 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "ota-yorum-ve-puan-yonetimi-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-1.webp",
+      alt: "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler",
+      caption: "OTA Yorum ve Puan Yönetimi: Skoru Yükseltip Geliri Artıran Stratejiler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-2.webp",
+      alt: "Review→Score→Ranking→Revenue akışı, amaç: strateji özeti, otel satış bağlamı",
+      caption: "Review→Score→Ranking→Revenue akışı, amaç: strateji özeti, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-3.webp",
+      alt: "Puan-tazelik-tema modeli, amaç: karar etkisi, otel satış bağlamı",
+      caption: "Puan-tazelik-tema modeli, amaç: karar etkisi, otel satış bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-4.webp",
+      alt: "İyi vs kötü yanıt örnekleri, amaç: ton standardı, otel itibar bağlamı",
+      caption: "İyi vs kötü yanıt örnekleri, amaç: ton standardı, otel itibar bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-5.webp",
+      alt: "Puan artışı senaryosu grafiği, amaç: ölçüm ve motivasyon, otel gelir bağlamı",
+      caption: "Puan artışı senaryosu grafiği, amaç: ölçüm ve motivasyon, otel gelir bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-6.webp",
+      alt: "Yorum toplama + yanıt + kök neden checklist’i, amaç: uygulanabilir sistem, otel operasyon bağlamı",
+      caption: "Yorum toplama + yanıt + kök neden checklist’i, amaç: uygulanabilir sistem, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-7.webp",
+      alt: "Skor→doluluk/ADR paneli, amaç: gelir etkisi takibi, otel gelir bağlamı",
+      caption: "Skor→doluluk/ADR paneli, amaç: gelir etkisi takibi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-5/Hotel4-5-8.webp",
+      alt: "30 günlük plan: yorum akışı, yanıt şablonları, kök neden planı; amaç: somut çıktı, otel yönetim bağlamı",
+      caption: "30 günlük plan: yorum akışı, yanıt şablonları, kök neden planı; amaç: somut çıktı, otel yönetim bağlamı"
+    }
+  },
+
+
+  "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":{
+     banner: {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-1.webp",
+      alt: "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi",
+      caption: "Sosyal Medya Performans Raporu Nasıl Hazırlanır? KPI Çerçevesi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-2.webp",
+      alt: "Hedef KPI aksiyon modeli, rapor özeti, otel ve B2B ekipleri",
+      caption: "Hedef KPI aksiyon modeli, rapor özeti, otel ve B2B ekipleri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-3.webp",
+      alt: "Sosyal medya rapor akışı, ölçüm çerçevesi, otel pazarlaması raporlama",
+      caption: "Sosyal medya rapor akışı, ölçüm çerçevesi, otel pazarlaması raporlama"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-4.webp",
+      alt: "Kanal bazlı KPI setleri, IG TikTok LinkedIn, otel ve B2B raporu",
+      caption: "Kanal bazlı KPI setleri, IG TikTok LinkedIn, otel ve B2B raporu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-5.webp",
+      alt: "Goal metric mapping diyagramı, kanal format panelleri, otel sosyal raporu",
+      caption: "Goal metric mapping diyagramı, kanal format panelleri, otel sosyal raporu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-6.webp",
+      alt: "Aylık SMM rapor checklist’i, aksiyon kapanışı, otel pazarlaması ekipleri",
+      caption: "Aylık SMM rapor checklist’i, aksiyon kapanışı, otel pazarlaması ekipleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-7.webp",
+      alt: "KPI skor kartı, önce sonra kıyas, otel ve B2B sosyal performans",
+      caption: "KPI skor kartı, önce sonra kıyas, otel ve B2B sosyal performans"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-1/SMM5-1-8.webp",
+      alt: "Rapor teslim paketleri, KPI haritası çıktısı, otel sosyal medya raporu",
+      caption: "Rapor teslim paketleri, KPI haritası çıktısı, otel sosyal medya raporu"
+    }
+  },
+
+  "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":{
+     banner: {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-1.webp",
+      alt: "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi",
+      caption: "Otel Reklam Raporu Nasıl Okunur? Google Ads ve Meta Ads İçin Temel KPI Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-2.webp",
+      alt: "Google Ads ve Meta KPI ekranı bağlamı, otel gelir kararını destekler",
+      caption: "Google Ads ve Meta KPI ekranı bağlamı, otel gelir kararını destekler"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-3.webp",
+      alt: "Reklam raporlamaya giriş, otel kampanyalarında KPI mantığı",
+      caption: "Reklam raporlamaya giriş, otel kampanyalarında KPI mantığı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-4.webp",
+      alt: "Google Ads ve Meta rapor mantığı, otel kampanyalarında ölçüm perspektifi",
+      caption: "Google Ads ve Meta rapor mantığı, otel kampanyalarında ölçüm perspektifi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-5.webp",
+      alt: "Kampanya analiz akışı, KPI ile otel bütçe karar ağacı",
+      caption: "Kampanya analiz akışı, KPI ile otel bütçe karar ağacı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-6.webp",
+      alt: "10 dakikalık rapor okuma checklist’i, otel kampanya optimizasyonu",
+      caption: "10 dakikalık rapor okuma checklist’i, otel kampanya optimizasyonu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-7.webp",
+      alt: "CTR CPA ROAS KPI paneli, otel kampanyasında verim kıyası",
+      caption: "CTR CPA ROAS KPI paneli, otel kampanyasında verim kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-1/SEM5-1-8.webp",
+      alt: "Rapor okuma çıktıları, otel reklam performans iyileştirme kanıtı",
+      caption: "Rapor okuma çıktıları, otel reklam performans iyileştirme kanıtı"
+    }
+  },
+
+
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

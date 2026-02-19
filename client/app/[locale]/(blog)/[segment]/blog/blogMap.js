@@ -23,7 +23,11 @@ export const BLOG_MAP = {
     "otel-rezervasyon-motoru-icin-cross-domain-ve-thank-you-event-kurulumu":"BlogOtelRezervasyonMotoruIcinCrossDomainVeThankYouEventKurulumu",
     "otel-icin-telefon-ve-whatsapp-donusum-takibi":"BlogOtelIcinTelefonVeWhatsappDonusumTakibi",
     "meta-conversion-api-ve-enhanced-conversions-otel-icin":"BlogSemMetaConversionApiVeEnhancedConversionsOtelIcin",
-    "tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":"BlogSemTagManagerIleDonusumHatalariniTespitVeDebugEtme"
+    "tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":"BlogSemTagManagerIleDonusumHatalariniTespitVeDebugEtme",
+
+    "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":"BlogSemOtelReklamRaporuNasilOkunurTemelKpiRehberi"
+
+   
   },
   seo: {
     "core-web-vitals-otel-ve-nextjs-rehberi": "BlogCoreWebVitalsOtelVeNextjsRehberi",
@@ -74,7 +78,9 @@ export const BLOG_MAP = {
     "meta-ads-hedefleme-ve-segmentasyon-stratejisi":"BlogMetaAdsHedeflemeVeSegmentasyonStratejisi",
     "sosyal-medya-reklam-kreatif-stratejisi-gorsel-carousel-ve-reels":"BlogSosyalMedyaReklamKreatifStratejisiGorselCarouselVeReels",
     "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":"BlogSmmSosyalMedyaReklamButcesiTeklifStratejisiVeOlcekleme",
-    "pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":"BlogSmmPixelVeConversionApiIleSosyalMedyaReklamOlcumu"
+    "pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":"BlogSmmPixelVeConversionApiIleSosyalMedyaReklamOlcumu",
+
+     "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":"BlogSmmSosyalMedyaPerformansRaporuKpiCercevesi"
   },
 
     yazilim: {
@@ -230,7 +236,8 @@ export const BLOG_MAP = {
     "ota-nedir-otel-icin-ota-yonetimi-temel-rehberi":"BlogOTANedirOtelIcinOTAYonetimiTemelRehberi",
     "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":"BlogBookingComProfilOptimizasyonuVeGorunurlukStratejisi",
     "expedia-ve-diger-otalarda-performans-artirma-stratejileri":"BlogOtelExpediaVeDigerOTALardaPerformansArtirmaStratejileri",
-    "ota-icerik-ve-fotograf-optimizasyonu":"BlogOtelOtaIcerikVeFotografOptimizasyonu"
+    "ota-icerik-ve-fotograf-optimizasyonu":"BlogOtelOtaIcerikVeFotografOptimizasyonu",
+    "ota-yorum-ve-puan-yonetimi-stratejisi":"BlogOtelOTAYorumVePuanYonetimiStratejisi"
     
   }
 };
