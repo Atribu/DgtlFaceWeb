@@ -9774,6 +9774,160 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "pms-entegrasyonu-nedir-otel-icin-temel-rehber":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-1.webp",
+      alt: "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber",
+      caption: "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-2.webp",
+      alt: "Otelin PMS, OTA ve web akışını tek ekranda özetleyen bağlam görseli",
+      caption: "Otelin PMS, OTA ve web akışını tek ekranda özetleyen bağlam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-3.webp",
+      alt: "PMS entegrasyonunun önemini anlatan bölüm ayırıcı görsel, otel operasyon risklerini azaltır",
+      caption: "PMS entegrasyonunun önemini anlatan bölüm ayırıcı görsel, otel operasyon risklerini azaltır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-4.webp",
+      alt: "PMS entegrasyon projesi adımlarını ayıran görsel, planlı go-live sağlar",
+      caption: "PMS entegrasyon projesi adımlarını ayıran görsel, planlı go-live sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-5.webp",
+      alt: "PMS ile OTA, channel manager ve web akışını gösteren diyagram, tutarlı satış sağlar",
+      caption: "PMS ile OTA, channel manager ve web akışını gösteren diyagram, tutarlı satış sağlar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-6.webp",
+      alt: "PMS entegrasyonuna başlamadan önce kontrol listesi, otel ekiplerine hızlı yol haritası verir",
+      caption: "PMS entegrasyonuna başlamadan önce kontrol listesi, otel ekiplerine hızlı yol haritası verir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-7.webp",
+      alt: "PMS entegrasyonu öncesi sonrası KPI kartı, overbooking ve manuel iş yükünü izler",
+      caption: "PMS entegrasyonu öncesi sonrası KPI kartı, overbooking ve manuel iş yükünü izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-1/Hotel5-1-8.webp",
+      alt: "PMS entegrasyonu çıktıları ve güven unsurları kartı, proje teslimlerini netleştirir",
+      caption: "PMS entegrasyonu çıktıları ve güven unsurları kartı, proje teslimlerini netleştirir"
+    }
+  },
+
+
+
+  "roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":{
+     banner: {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-1.webp",
+      alt: "ROAS ve CPA Otel Kampanyalarında Nasıl Yorumlanmalı?",
+      caption: "ROAS ve CPA Otel Kampanyalarında Nasıl Yorumlanmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-2.webp",
+      alt: "ROAS CPA ve ADR ilişkisi, otel kârlılığına raporda bağlanır",
+      caption: "ROAS CPA ve ADR ilişkisi, otel kârlılığına raporda bağlanır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-3.webp",
+      alt: "ROAS kavramı, otel reklam performansını gelir odaklı okumayı başlatır",
+      caption: "ROAS kavramı, otel reklam performansını gelir odaklı okumayı başlatır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-4.webp",
+      alt: "CPA hesaplama mantığı, otel dönüşüm maliyetini doğru sınıflandırır",
+      caption: "CPA hesaplama mantığı, otel dönüşüm maliyetini doğru sınıflandırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-5.webp",
+      alt: "ROAS CPA karar ağacı, otel kampanyalarında bütçe kaydırmayı yönlendirir",
+      caption: "ROAS CPA karar ağacı, otel kampanyalarında bütçe kaydırmayı yönlendirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-6.webp",
+      alt: "ROAS CPA aksiyon haritası, otel reklam kararlarını hızlı uygular",
+      caption: "ROAS CPA aksiyon haritası, otel reklam kararlarını hızlı uygular"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-7.webp",
+      alt: "ROAS CPA ADR paneli, otel kampanya kârlılığını tek ekranda gösterir",
+      caption: "ROAS CPA ADR paneli, otel kampanya kârlılığını tek ekranda gösterir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-2/SEM5-2-8.webp",
+      alt: "ROAS CPA rapor çıktıları, otel direct stratejisinde güven unsuru sağlar",
+      caption: "ROAS CPA rapor çıktıları, otel direct stratejisinde güven unsuru sağlar"
+    }
+  },
+
+
+  "ga4-ve-search-console-verilerini-birlikte-okumak":{
+     banner: {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-1.webp",
+      alt: "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+      caption: "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-2.webp",
+      alt: "Aynı landing için GA4+GSC okuma, amaç doğru yorum, otel yönetim toplantısı",
+      caption: "Aynı landing için GA4+GSC okuma, amaç doğru yorum, otel yönetim toplantısı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-3.webp",
+      alt: "Veri okuma bölümü ayırıcı, amaç görünürlük-davranış ayrımı, turizm sitesi bağlamı",
+      caption: "Veri okuma bölümü ayırıcı, amaç görünürlük-davranış ayrımı, turizm sitesi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-4.webp",
+      alt: "Senaryo bazlı okuma ayırıcı, amaç aksiyon planı, hizmet sitesi raporlama bağlamı",
+      caption: "Senaryo bazlı okuma ayırıcı, amaç aksiyon planı, hizmet sitesi raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-5.webp",
+      alt: "Query-to-landing mapping diyagramı, amaç görünürlükten davranışa bağlamak, otel sitesi",
+      caption: "Query-to-landing mapping diyagramı, amaç görünürlükten davranışa bağlamak, otel sitesi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-6.webp",
+      alt: "Birleşik raporlama checklist kartı, amaç standart rapor, otel pazarlama ekibi",
+      caption: "Birleşik raporlama checklist kartı, amaç standart rapor, otel pazarlama ekibi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-7.webp",
+      alt: "Brand vs non-brand KPI kartı, amaç büyüme alanı, turizm pazarlama bağlamı",
+      caption: "Brand vs non-brand KPI kartı, amaç büyüme alanı, turizm pazarlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-2/SEO5-2-8.webp",
+      alt: "Birleşik rapor çıktı kartı, amaç yönetici özeti, otel-ajans raporlama bağlamı",
+      caption: "Birleşik rapor çıktı kartı, amaç yönetici özeti, otel-ajans raporlama bağlamı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

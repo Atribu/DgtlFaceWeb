@@ -2767,6 +2767,124 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali#article",
+      "url": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali",
+      "headline": "ROAS ve CPA Otel Kampanyalarında Nasıl Yorumlanmalı?",
+      "name": "ROAS ve CPA Otel Kampanyalarında Nasıl Yorumlanmalı?",
+      "description": "ROAS ve CPA’yı ADR ve OTA komisyonuyla birlikte yorumlayın. Google/Meta kampanyalarında bütçe kaydırma kararlarını kârlılık odaklı verin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "ROAS",
+        "CPA",
+        "ADR",
+        "OTA Commission",
+        "Hotel Campaign Profitability",
+        "Profitability-focused analytics",
+        "direct vs OTA economics"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#service",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "serviceType": "SEM Raporlama ve Performans Analizi",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "ROAS ve CPA Otel Kampanyalarında Nasıl Yorumlanmalı?", "item": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ROAS nedir, oteller için ideal ROAS kaç olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS, reklam harcamasına karşılık elde edilen gelirin katsayısıdır. İdeal ROAS tek sayı değildir; kanal rolüne, niyet seviyesine, ADR’ye ve iptal/komisyon etkisine göre değişir. Brüt ROAS yanında net ROAS notu ile hedefi mantık olarak belirlemek en sağlıklısıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CPA ne demek, otel reklamlarında nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPA, harcamayı dönüşüm sayısına bölerek bir dönüşüm maliyetini verir. Otellerde dönüşüm türü rezervasyon, lead, arama veya WhatsApp olabilir; bu yüzden CPA’yı dönüşüm türüyle birlikte raporlamak ve lead kampanyalarında kalite metriği eklemek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA komisyonu ile ROAS nasıl kıyaslanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct tarafında reklam maliyetini etkin komisyon gibi hesaplayın: harcama / direct net gelir. Bu oran OTA komisyonundan düşükse direct büyütme kârlı olabilir. Kıyas yaparken iptal/iade ve komisyon/ödeme kesintilerini not etmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumda ROAS, hangi durumda CPA’ya bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gelir ve direct booking hedefinde ROAS (tercihen net ROAS) önceliklidir; talep toplama hedefinde CPA önceliklidir. Her iki durumda da ikinci kontrol şarttır: ROAS için iptal/komisyon, CPA için dönüşüm kalitesi."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali#howto",
+      "name": "ROAS ve CPA ile bütçe kaydırma kararı verme",
+      "step": [
+        { "@type": "HowToStep", "name": "Kampanyaları rolüne göre ayır", "text": "Brand, generic, remarketing ve upper funnel kampanyalarını ayrı sınıflandır." },
+        { "@type": "HowToStep", "name": "ROAS/CPA’yı aynı düzleme getir", "text": "ROAS ve CPA’yı dönüşüm türü, net gelir ve kalite notlarıyla birlikte raporla." },
+        { "@type": "HowToStep", "name": "Aksiyon haritasını uygula", "text": "ROAS/CPA kombinasyonuna göre artır/kıs/test kararını belirle." },
+        { "@type": "HowToStep", "name": "Kaydırmayı testle yap", "text": "Bütçeyi %10–20 aralığında 7–14 gün test ederek güvenli şekilde kaydır." }
+      ]
+    }
+  ]
 }
 
     },
@@ -5471,6 +5589,153 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/seo/blog/seo-raporu-nasil-hazirlanir-temel-kpi-rehberi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"ga4-ve-search-console-verilerini-birlikte-okumak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak",
+      "name": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#article",
+      "headline": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+      "description": "GA4 davranışı, GSC görünürlüğü gösterir. Aynı landing ve aynı dönem için iki veriyi yan yana oku; brand/non-brand ayır, CTR+konumu yorumla, raporu aksiyona çevir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service",
+      "name": "SEO Raporlama & Performans Analizi",
+      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SEO",
+          "item": "https://dgtlface.com/tr/seo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "SEO Raporlama & Performans Analizi",
+          "item": "https://dgtlface.com/tr/seo/seo-raporlama"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "GA4 ve Search Console Verilerini Birlikte Nasıl Okursunuz?",
+          "item": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4 ve Search Console farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 organik kullanıcının site içindeki davranışını ve dönüşümünü ölçer; Search Console arama sonuçlarındaki sorgu/sayfa görünürlüğünü ve tıklamayı (impressions, clicks, CTR, konum) gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO raporunda GA4 ve GSC verilerini nasıl birleştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı landing ve aynı tarih aralığı için GSC görünürlük KPI’larını GA4 oturum/etkileşim/dönüşüm KPI’larıyla yan yana eşleştirip her landing için tek yorum ve tek aksiyon çıkarın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sorgu verisi ile trafik verisi neden bire bir eşleşmez?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSC arama sonuçlarındaki görünme/tıklamayı sorgu-sayfa düzeyinde ölçer; GA4 site içi oturumları ölçer. Filtre/tarih/ülke/cihaz seçimleri tutarsızsa sapma artar; filtre seti standardı bu yüzden kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Marka vs non-brand analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSC sorgularını markalı/marksız diye etiketleyin ve landing bazlı performansla eşleştirin; non-brand tarafında CTR ve GA4 davranış/dönüşüm sinyallerini birlikte okuyarak büyüme alanlarını seçin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#howto",
+      "name": "GA4 ve Search Console verilerini birlikte okuma",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Filtre setini standardize et",
+          "text": "GA4 ve GSC’de aynı tarih aralığı, ülke, cihaz ve Organic Search kanal filtresini seç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Aynı landing için verileri çek",
+          "text": "GSC’den impressions/clicks/CTR/konum ve GA4’ten sessions/engagement/conversions değerlerini aynı landing bazında çıkar."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yan yana tablo ve aksiyon üret",
+          "text": "İki kaynağı tek tabloda birleştir; her landing için 1 cümle yorum ve 1 cümle aksiyon yaz, sonra sprint planına bağla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
@@ -25085,6 +25350,192 @@ export const BLOG_JSONLD_MAP = {
             "@type": "Answer",
             "text": "Yeni yorumlar, otelin güncel performansını gösterir ve güven sinyali üretir. Eski yorumlar tek başına, “şu an ne durumda?” sorusunu cevaplamaz."
           }
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"pms-entegrasyonu-nedir-otel-icin-temel-rehber":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber",
+      "name": "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyonu-nedir-otel-icin-temel-rehber-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyonu nedir? OTA, kanal yöneticisi ve web rezervasyon akışını tek merkezde birleştirip overbooking riskini azaltın. Adım adım rehber + checklist."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#webpage" },
+      "headline": "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber",
+      "name": "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu; rezervasyon, oda ve misafir verisini PMS’te merkezileştirip OTA, kanal yöneticisi, web rezervasyon motoru, call center ve raporlamaya tutarlı biçimde bağlayan teknolojik omurgadır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS Integration" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Booking Engine" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Reporting/BI" },
+        { "@type": "Thing", "name": "Room Inventory" },
+        { "@type": "Thing", "name": "Reservation Data" }
+      ],
+      "keywords": [
+        "pms entegrasyonu nedir",
+        "otel pms entegrasyonu",
+        "pms ota kanal yöneticisi akışı",
+        "pms entegrasyonu temel rehber",
+        "oteller için pms neden kritik"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyonu Danışmanlığı ve Entegrasyon Analizi",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Türkiye"
+      },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "PMS Entegrasyonu (Hotel PMS)",
+          "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "PMS Entegrasyonu Nedir? Oteller İçin Temel Rehber",
+          "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyonu nedir, oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS entegrasyonu; rezervasyon, oda ve misafir verisini PMS’te merkezileştirip OTA, kanal yöneticisi ve web gibi kanallara otomatik taşır. Amaç manuel işlemleri azaltmak, hatayı düşürmek ve geliri daha kontrollü yönetmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS, OTA ve kanal yöneticisi birlikte nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS temel veriyi üretir (oda envanteri, rate plan), kanal yöneticisi bunu OTA’lara dağıtır ve OTA rezervasyonları geri PMS’e düşer. En kritik konu mapping ve senaryo testleridir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyon projesi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Analiz (kapsam + veri sözlüğü), planlama (takvim + risk), mapping/konfigürasyon, senaryo testleri ve pilot go-live adımlarıyla ilerlenir. Sezon ortasında plansız canlıya çıkmak en yaygın risktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web rezervasyon motoru entegrasyonunda en sık hata nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Availability ve fiyatın gecikmeli güncellenmesi, parity ve overbooking riskini büyütür. Çözüm; gerçek zamanlı senkron, test senaryoları ve net kural setidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-nedir-otel-icin-temel-rehber#howto",
+      "name": "PMS Entegrasyonuna Nasıl Başlanır? (Adım Adım)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Analiz ve kapsam",
+          "text": "Sistem haritasını çıkarın (PMS, OTA, channel manager, web, call center, BI) ve tek doğruluk kaynağını belirleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mapping ve kural seti",
+          "text": "Oda tipi/rate plan eşlemesini tamamlayın; stop-sell, min-stay, iptal akışlarını tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Senaryo testleri",
+          "text": "Rezervasyon, iptal, modifikasyon, fiyat/availability güncelleme senaryolarını kanal bazında test edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pilot go-live ve izleme",
+          "text": "Sınırlı kapsamda canlıya geçin; log/uyarı takibiyle 7 gün yakın izleme yapın ve düzeltmeleri uygulayın."
         }
       ]
     }

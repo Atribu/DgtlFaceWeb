@@ -25,7 +25,8 @@ export const BLOG_MAP = {
     "meta-conversion-api-ve-enhanced-conversions-otel-icin":"BlogSemMetaConversionApiVeEnhancedConversionsOtelIcin",
     "tag-manager-ile-donusum-hatalarini-tespit-ve-debug-etme":"BlogSemTagManagerIleDonusumHatalariniTespitVeDebugEtme",
 
-    "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":"BlogSemOtelReklamRaporuNasilOkunurTemelKpiRehberi"
+    "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":"BlogSemOtelReklamRaporuNasilOkunurTemelKpiRehberi",
+    "roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":"BlogRoasVeCpaOtelKampanyalarindaNasilYorumlanmali"
 
    
   },
@@ -54,7 +55,8 @@ export const BLOG_MAP = {
     "stratejik-link-building-icin-dijital-pr-ve-icerik-kullanimi":"BlogSeoStratejikLinkBuildingIcinDijitalPrVeIcerikKullanimi",
     "anchor-text-stratejisi-ve-link-yerlesimi":"BlogSeoAnchorTextStratejisiVeLinkYerlesimi",
 
-    "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":"BlogSeoSeoRaporuNasilHazirlanirTemelKpiRehberi"
+    "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":"BlogSeoSeoRaporuNasilHazirlanirTemelKpiRehberi",
+    "ga4-ve-search-console-verilerini-birlikte-okumak":"BlogSeoGa4VeSearchConsoleVerileriniBirlikteOkumak"
   },
 
     smm: {
@@ -247,7 +249,9 @@ export const BLOG_MAP = {
     "booking-com-profil-optimizasyonu-ve-gorunurluk-stratejisi":"BlogBookingComProfilOptimizasyonuVeGorunurlukStratejisi",
     "expedia-ve-diger-otalarda-performans-artirma-stratejileri":"BlogOtelExpediaVeDigerOTALardaPerformansArtirmaStratejileri",
     "ota-icerik-ve-fotograf-optimizasyonu":"BlogOtelOtaIcerikVeFotografOptimizasyonu",
-    "ota-yorum-ve-puan-yonetimi-stratejisi":"BlogOtelOTAYorumVePuanYonetimiStratejisi"
+    "ota-yorum-ve-puan-yonetimi-stratejisi":"BlogOtelOTAYorumVePuanYonetimiStratejisi",
+
+    "pms-entegrasyonu-nedir-otel-icin-temel-rehber":"BlogPmsEntegrasyonuNedirOtelIcinTemelRehber"
     
   }
 };
