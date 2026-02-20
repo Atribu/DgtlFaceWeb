@@ -15,6 +15,117 @@ import PhoneSvg from "./svg/PhoneSvg";
 import Image from "next/image";
 import { FaQuestion } from "react-icons/fa6";
 
+const SERVICE_MENU_CONFIG = [
+  {
+    key: "sem",
+    labelKey: "search_engine_marketing",
+    href: "/Services/sem",
+    subLinks: [
+      { labelKey: "sem_google_ads", href: "/Services/sem/googleAdsAdvertising" },
+      { labelKey: "sem_youtube", href: "/Services/sem/youtubeAdvertising" },
+      { labelKey: "sem_remarketing", href: "/Services/sem/remarketingDisplay" },
+      { labelKey: "sem_tag_manager", href: "/Services/sem/tagManager" },
+      { labelKey: "sem_reporting", href: "/Services/sem/performanceAnalysis" },
+    ],
+  },
+  {
+    key: "seo",
+    labelKey: "search_engine_optimization",
+    href: "/Services/seo",
+    subLinks: [
+      { labelKey: "seo_technical", href: "/Services/seo/technicalSeo" },
+      { labelKey: "seo_content", href: "/Services/seo/contentSeo" },
+      { labelKey: "seo_local", href: "/Services/seo/localSeo" },
+      { labelKey: "seo_backlink", href: "/Services/seo/backlinkSeo" },
+      { labelKey: "seo_reporting", href: "/Services/seo/seoReporting" },
+    ],
+  },
+  {
+    key: "smm",
+    labelKey: "social_media_marketing",
+    href: "/Services/smm",
+    subLinks: [
+      { labelKey: "smm_content", href: "/Services/smm/socialMediaContent" },
+      { labelKey: "smm_planning", href: "/Services/smm/socialMediaPlanning" },
+      { labelKey: "smm_ads", href: "/Services/smm/socialMediaAds" },
+      { labelKey: "smm_reels", href: "/Services/smm/reelsVideo" },
+      { labelKey: "smm_reporting", href: "/Services/smm/socialMediaReporting" },
+    ],
+  },
+  {
+    key: "software",
+    labelKey: "information_technology_software",
+    href: "/Services/software",
+    subLinks: [
+      { labelKey: "software_website", href: "/Services/software/websiteAndSoftware" },
+      { labelKey: "software_cms", href: "/Services/software/cmsInstallationService" },
+      { labelKey: "software_kvkk", href: "/Services/software/kvkk" },
+      { labelKey: "software_server", href: "/Services/software/serverManagementService" },
+      { labelKey: "software_maintenance", href: "/Services/software/websiteMaintanceService" },
+    ],
+  },
+  {
+    key: "creative",
+    labelKey: "creative",
+    href: "/Services/creative",
+    subLinks: [
+      { labelKey: "creative_graphic", href: "/Services/creative/graphicDesign" },
+      { labelKey: "creative_uiux", href: "/Services/creative/uiUxDesign" },
+      { labelKey: "creative_video", href: "/Services/creative/videoProduction" },
+      { labelKey: "creative_event", href: "/Services/creative/eventProduction" },
+      { labelKey: "creative_corporate_gift", href: "/Services/creative/corporateGift" },
+    ],
+  },
+  {
+    key: "call_center",
+    labelKey: "call_center",
+    href: "/Services/callcenter",
+    subLinks: [
+      { labelKey: "callcenter_multilang", href: "/Services/callcenter/callLanguages" },
+      { labelKey: "callcenter_reservation", href: "/Services/callcenter/reservationSupport" },
+      { labelKey: "callcenter_performance", href: "/Services/callcenter/callPerformance" },
+      { labelKey: "callcenter_message", href: "/Services/callcenter/messageManagement" },
+      { labelKey: "callcenter_aftersales", href: "/Services/callcenter/aftersalesSupport" },
+    ],
+  },
+  {
+    key: "pms_ota_management",
+    labelKey: "pms_ota_management",
+    href: "/Services/pms",
+    subLinks: [
+      { labelKey: "pms_installation", href: "/Services/pms/pmsInstallation" },
+      { labelKey: "pms_ota_contract", href: "/Services/pms/otaContract" },
+      { labelKey: "pms_channel", href: "/Services/pms/channelManagement" },
+      { labelKey: "pms_web_payment", href: "/Services/pms/webPayment" },
+      { labelKey: "pms_reservation", href: "/Services/pms/reservationManagement" },
+    ],
+  },
+  {
+    key: "digital_analysis",
+    labelKey: "digital_analysis_reporting",
+    href: "/Services/digitalAnalysis",
+    subLinks: [
+      { labelKey: "digital_ads_reporting", href: "/Services/digitalAnalysis/lookerStudio" },
+      { labelKey: "digital_market_research", href: "/Services/digitalAnalysis/onlineMarketResearchService" },
+      { labelKey: "digital_sales_analysis", href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
+      { labelKey: "digital_call_reporting", href: "/Services/digitalAnalysis/kvkkDataSecurity" },
+    ],
+  },
+  {
+    key: "hotel",
+    labelKey: "hotel",
+    href: "/Services/hotel",
+    subLinks: [
+      { labelKey: "hotel_seo", href: "/Services/hotel/seo" },
+      { labelKey: "hotel_social", href: "/Services/hotel/socialMedia" },
+      { labelKey: "hotel_ads", href: "/Services/hotel/adsManagement" },
+      { labelKey: "hotel_ota", href: "/Services/hotel/otaManagement" },
+      { labelKey: "hotel_pms", href: "/Services/hotel/pmsIntegration" },
+      { labelKey: "hotel_callcenter", href: "/Services/hotel/callCenter" },
+    ],
+  },
+];
+
 const Header = () => {
   const t = useTranslations("Header");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,126 +144,20 @@ const Header = () => {
     const [mobileMenuView, setMobileMenuView] = useState("main"); // "main" | "services"
 const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
 
-  const servicesConfig = useMemo(() => ([
-     {
-    key: "sem",
-    label: t("search_engine_marketing"),
-    href: "/Services/sem",
-    subLinks: [
-      { label: t("sem_google_ads"), href: "/Services/sem/googleAdsAdvertising" },
-      { label: t("sem_youtube"), href: "/Services/sem/youtubeAdvertising" },
-      { label: t("sem_remarketing"), href: "/Services/sem/remarketingDisplay" },
-      { label: t("sem_tag_manager"), href: "/Services/sem/tagManager" },
-      { label: t("sem_reporting"), href: "/Services/sem/performanceAnalysis" },
-    ],
-  },
+  const shouldHydrateServicesConfig = isOpen || isMobileServicesOpen;
+  const servicesConfig = useMemo(() => {
+    if (!shouldHydrateServicesConfig) return [];
 
-  {
-    key: "seo",
-    label: t("search_engine_optimization"),
-    href: "/Services/seo",
-    subLinks: [
-      { label: t("seo_technical"), href: "/Services/seo/technicalSeo" },
-      { label: t("seo_content"), href: "/Services/seo/contentSeo" },
-      { label: t("seo_local"), href: "/Services/seo/localSeo" },
-      { label: t("seo_backlink"), href: "/Services/seo/backlinkSeo" },
-      { label: t("seo_reporting"), href: "/Services/seo/seoReporting" },
-    ],
-  },
-  {
-    key: "smm",
-    label: t("social_media_marketing"),
-    href: "/Services/smm",
-    subLinks: [
-      { label: t("smm_content"), href: "/Services/smm/socialMediaContent" },
-      { label: t("smm_planning"), href: "/Services/smm/socialMediaPlanning" },
-      { label: t("smm_ads"), href: "/Services/smm/socialMediaAds" },
-      { label: t("smm_reels"), href: "/Services/smm/reelsVideo" },
-      { label: t("smm_reporting"), href: "/Services/smm/socialMediaReporting" },
-    ],
-  },
-
-   {
-    key: "software",
-    label: t("information_technology_software"),
-    href: "/Services/software",
-    subLinks: [
-      { label: t("software_website"), href: "/Services/software/websiteAndSoftware" },
-      { label: t("software_cms"), href: "/Services/software/cmsInstallationService" },
-      { label: t("software_kvkk"), href: "/Services/software/kvkk" },
-      { label: t("software_server"), href: "/Services/software/serverManagementService" },
-      { label: t("software_maintenance"), href: "/Services/software/websiteMaintanceService" },
-
-
-    ],
-  },
-
-  {
-    key: "creative",
-    label: t("creative"),
-    href: "/Services/creative",
-    subLinks: [
-       { label: t("creative_graphic"), href: "/Services/creative/graphicDesign" },
-      { label: t("creative_uiux"), href: "/Services/creative/uiUxDesign" },
-      { label: t("creative_video"), href: "/Services/creative/videoProduction" },
-      { label: t("creative_event"), href: "/Services/creative/eventProduction" },
-      { label: t("creative_corporate_gift"), href: "/Services/creative/corporateGift" },
-    ],
-  },
-  {
-    key: "call_center",
-    label: t("call_center"),
-    href: "/Services/callcenter",
-    subLinks: [
-      { label: t("callcenter_multilang"), href: "/Services/callcenter/callLanguages" },
-      { label: t("callcenter_reservation"), href:  "/Services/callcenter/reservationSupport" },
-       { label: t("callcenter_performance"), href: "/Services/callcenter/callPerformance" },
-       { label: t("callcenter_message"), href: "/Services/callcenter/messageManagement" },
-      { label: t("callcenter_aftersales"), href: "/Services/callcenter/aftersalesSupport" },
-
-    ],
-  },
-  {
-    key: "pms_ota_management",
-    label: t("pms_ota_management"),
-    href: "/Services/pms",
-    subLinks: [
-      { label: t("pms_installation"), href: "/Services/pms/pmsInstallation" },
-      { label: t("pms_ota_contract"), href: "/Services/pms/otaContract" },
-      { label: t("pms_channel"), href: "/Services/pms/channelManagement" },
-      { label: t("pms_web_payment"), href: "/Services/pms/webPayment" },
-      { label: t("pms_reservation"), href: "/Services/pms/reservationManagement" },
-    ],
-  },
-
-
-
-  {
-    key: "digital_analysis",
-    label: t("digital_analysis_reporting"),
-    href: "/Services/digitalAnalysis",
-    subLinks: [
-      { label: t("digital_ads_reporting"), href: "/Services/digitalAnalysis/lookerStudio" },
-      { label: t("digital_market_research"), href: "/Services/digitalAnalysis/onlineMarketResearchService" },
-      { label: t("digital_sales_analysis"), href: "/Services/digitalAnalysis/digitalSalesAnalysis" },
-      { label: t("digital_call_reporting"), href: "/Services/digitalAnalysis/kvkkDataSecurity" },
-
-    ],
-  },
-  {
-    key: "hotel",
-    label: t("hotel"), 
-    href: "/Services/hotel",
-    subLinks: [
-      { label: t("hotel_seo"), href: "/Services/hotel/seo" },
-      { label: t("hotel_social"), href: "/Services/hotel/socialMedia" },
-      { label: t("hotel_ads"), href: "/Services/hotel/adsManagement" },
-      { label: t("hotel_ota"), href: "/Services/hotel/otaManagement" },
-      { label: t("hotel_pms"), href: "/Services/hotel/pmsIntegration" },
-      { label: t("hotel_callcenter"), href: "/Services/hotel/callCenter" },
-    ],
-  },
-]), [t]);
+    return SERVICE_MENU_CONFIG.map((service) => ({
+      key: service.key,
+      label: t(service.labelKey),
+      href: service.href,
+      subLinks: service.subLinks.map((item) => ({
+        label: t(item.labelKey),
+        href: item.href,
+      })),
+    }));
+  }, [shouldHydrateServicesConfig, t]);
 
 
 
@@ -212,7 +217,7 @@ const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   onMouseEnter={() => {
   openTimer.current = setTimeout(() => {
     setIsOpen(true);
-    if (!activeService) setActiveService(servicesConfig[0]?.key);
+    if (!activeService) setActiveService("sem");
   }, 120);
 }}
 onMouseLeave={() => {

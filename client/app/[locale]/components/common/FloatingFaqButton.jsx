@@ -7,25 +7,101 @@ import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { FAQ_ROUTE_MAP, FAQ_SLUG_DEPT_SEGMENT_MAP } from "../../faqRouteMap";
 
+function normalizePathname(pathname) {
+  if (!pathname) return "/";
+  if (pathname === "/") return pathname;
+  return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+}
+
 function stripLocale(pathname, locale) {
   // ör: /tr/yazilim -> /yazilim
   if (!pathname) return "/";
+  const normalizedPath = normalizePathname(pathname);
   const prefix = `/${locale}`;
-  return pathname.startsWith(prefix) ? pathname.slice(prefix.length) || "/" : pathname;
+  return normalizedPath.startsWith(prefix)
+    ? normalizedPath.slice(prefix.length) || "/"
+    : normalizedPath;
 }
 
-function findFaqTarget(pathNoLocale) {
-  return FAQ_ROUTE_MAP.find((r) => r.match.test(pathNoLocale)) || null;
+const EN_SERVICE_SEGMENT_ALIAS = {
+  creative: "creative-design",
+  sem: "search-engine-marketing",
+  seo: "search-engine-optimization",
+  smm: "social-media-management",
+  software: "software-development",
+};
+
+function normalizeEnServicePath(pathname) {
+  const match = pathname.match(/^\/en\/([^/]+)(\/.*)?$/);
+  if (!match) return pathname;
+
+  const [, section, rest = ""] = match;
+  const canonicalSection = EN_SERVICE_SEGMENT_ALIAS[section];
+  if (!canonicalSection) return pathname;
+
+  let canonicalRest = rest;
+  if (canonicalSection === "social-media-management") {
+    canonicalRest = canonicalRest.replace(/^\/reeels-video(\/|$)/, "/reels-video$1");
+  }
+
+  return `/en/${canonicalSection}${canonicalRest}`;
+}
+
+function buildMatchCandidates(pathname, locale) {
+  const normalizedPath = normalizePathname(pathname);
+  const pathNoLocale = stripLocale(normalizedPath, locale);
+
+  if (locale === "en") {
+    const basePath = normalizedPath.startsWith("/en")
+      ? normalizedPath
+      : `/en${pathNoLocale === "/" ? "" : pathNoLocale}`;
+
+    const canonicalEnPath = normalizeEnServicePath(basePath);
+    return canonicalEnPath === basePath ? [basePath] : [basePath, canonicalEnPath];
+  }
+
+  return [pathNoLocale];
+}
+
+function findFaqTarget(pathCandidates) {
+  return (
+    FAQ_ROUTE_MAP.find((route) =>
+      pathCandidates.some((pathCandidate) => route.match.test(pathCandidate))
+    ) || null
+  );
 }
 
 const FAQ_SLUG_ALIAS_MAP = {
   en: {
-    "yazilim-sss": "software-development-sss",
-    "web-sitesi-gelistirme-sss": "website-and-software-sss",
-    "cms-entegrasyonu-sss": "cms-installation-sss",
-    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-sss",
-    "sunucu-guvenlik-sss": "server-management-sss",
-    "bakim-destek-sss": "website-maintenance-sss",
+    "sss": "faq",
+    "hizmetlerimiz-sss": "services-faq",
+    "yazilim-sss": "software-development-faq",
+    "web-sitesi-gelistirme-sss": "website-and-software-faq",
+    "cms-entegrasyonu-sss": "cms-installation-faq",
+    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-faq",
+    "sunucu-guvenlik-sss": "server-management-faq",
+    "bakim-destek-sss": "website-maintenance-faq",
+    "sem-sss": "search-engine-marketing-faq",
+    "seo-sss": "search-engine-optimization-faq",
+    "smm-sss": "social-media-management-faq",
+    "creative-sss": "creative-design-faq",
+    "cagri-merkezi-sss": "call-center-faq",
+    "veri-analiz-ve-raporlama-sss": "digital-analysis-faq",
+    "pms-ota-sss": "pms-ota-faq",
+    "otel-dijital-pazarlama-sss": "hotel-digital-marketing-faq",
+  },
+};
+
+const FAQ_BUTTON_TEXT = {
+  tr: {
+    short: "SSS",
+    title: "Sık Sorulan Sorular",
+    aria: "SSS sayfasına git",
+  },
+  en: {
+    short: "FAQ",
+    title: "Frequently Asked Questions",
+    aria: "Go to FAQ page",
   },
 };
 
@@ -53,31 +129,34 @@ function buildFaqHrefBySlug(slug, locale) {
 export default function FloatingFaqButton() {
   const pathname = usePathname();
   const locale = useLocale();
-  const pathNoLocale = stripLocale(pathname, locale);
+  const text = FAQ_BUTTON_TEXT[locale] || FAQ_BUTTON_TEXT.tr;
+  const pathCandidates = useMemo(
+    () => buildMatchCandidates(pathname, locale),
+    [pathname, locale]
+  );
 
-  const target = useMemo(() => findFaqTarget(pathNoLocale), [pathNoLocale]);
+  const target = useMemo(() => findFaqTarget(pathCandidates), [pathCandidates]);
 
   // Bu sayfanın SSS eşleşmesi yoksa butonu hiç göstermeyebilirsin
   if (!target?.slug) return null;
 
   const href = buildFaqHrefBySlug(target.slug, locale);
-  const label = "SSS";
 
   return (
     <div className="fixed z-[999] right-4 bottom-4 md:right-6 md:bottom-6">
       <Link
         href={href}
-        aria-label={`${label} sayfasına git`}
+        aria-label={text.aria}
         className="group relative flex items-center gap-2 rounded-full px-[10px] py-[6px] shadow-[0_18px_45px_rgba(0,0,0,0.22)] bg-[#130116] border border-white/10 hover:opacity-95 transition"
       >
         {/* ikon baloncuk */}
         {/* yazı (mobilde kapatmak istersen hidden md:block yap) */}
         <span className="hidden md:block">
           <span className="block text-[12px] capitalize tracking-[0.07em] leading-none font-semibold font-inter bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF] bg-clip-text text-white">
-            Sık Sorulan Sorular
+            {text.title}
           </span>
           {/* <span className="block text-[14px] font-semibold text-white leading-tight max-w-[220px] truncate">
-            {label}
+            {text.short}
           </span> */}
         </span>
 
