@@ -149,7 +149,7 @@ const ContactMain = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-8 items-center justify-center">
+    <div className="flex flex-col lg:flex-row lg:gap-8 items-center justify-center mt-6 lg:mt-12 mb-3 lg:mb-6">
       
       <div className="flex flex-col xl:w-[480px] items-center justify-center">
         <div className="flex flex-row lg:flex-col gap-4 justify-center items-start">

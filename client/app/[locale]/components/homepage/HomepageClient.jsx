@@ -75,16 +75,16 @@ export default function HomePage() {
           </ViewportLazyMount>
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="180px 0px" threshold={0.16} minHeight={1400} className="w-full">
+        <ViewportLazyMount rootMargin="180px 0px" threshold={0.16} minHeight={660} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
           <AiAnswerBlock text={t("aiAnswerBlock")} />
 
           {/* <ServicesCarousel/> */}
 
           <ViewportLazyMount
-            rootMargin="40px 0px"
+            rootMargin="80px 0px"
             threshold={0.24}
-            minHeight={520}
+            minHeight={220}
             className="w-full"
           >
             <Contact />

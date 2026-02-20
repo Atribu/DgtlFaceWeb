@@ -192,7 +192,9 @@ export const BLOG_MAP = {
     "otel-online-satis-hunisi-nasil-kurgulanir":"BlogOtelOnlineSatisHunisiNasilKurgulanir",
     "web-rezervasyon-donusum-oranini-artirmak":"BlogPmsOtaWebRezervasyonDonusumOraniniArtirmak",
     "ota-web-cagri-merkezi-kanal-karmasi-ile-online-satis-artirmak":"BlogPmsOtaOtaWebCagriMerkeziKanalKarmasiIleOnlineSatisArtirmak",
-    "otel-online-satisinda-upsell-ve-cross-sell-stratejileri":"BlogPmsOtaOtelOnlineSatisindaUpsellVeCrossSellStratejileri"
+    "otel-online-satisinda-upsell-ve-cross-sell-stratejileri":"BlogPmsOtaOtelOnlineSatisindaUpsellVeCrossSellStratejileri",
+
+    "rezervasyon-yonetimi-nedir-cok-kanalli-akis":"BlogRezervasyonYonetimiNedirCokKanalliAkis"
   },
 
     "raporlama": {

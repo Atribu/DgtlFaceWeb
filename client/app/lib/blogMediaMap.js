@@ -9724,7 +9724,55 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+ "rezervasyon-yonetimi-nedir-cok-kanalli-akis":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-1.webp",
+      alt: "Rezervasyon Yönetimi Nedir? Oteller İçin Çok Kanallı Rezervasyon Akışının Temel Mantığı",
+      caption: "Rezervasyon Yönetimi Nedir? Oteller İçin Çok Kanallı Rezervasyon Akışının Temel Mantığı"
+    },
 
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-2.webp",
+      alt: "OTA web çağrı merkezi rezervasyonlarının PMS’te birleştiği otel bağlamlı akış görseli",
+      caption: "OTA web çağrı merkezi rezervasyonlarının PMS’te birleştiği otel bağlamlı akış görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-3.webp",
+      alt: "Rezervasyon yönetimi temel kavramlarını ayıran otel operasyonu bölüm görseli",
+      caption: "Rezervasyon yönetimi temel kavramlarını ayıran otel operasyonu bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-4.webp",
+      alt: "Çok kanallı rezervasyon yapısına geçişi işaretleyen otel süreç ayırıcı görsel",
+      caption: "Çok kanallı rezervasyon yapısına geçişi işaretleyen otel süreç ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-5.webp",
+      alt: "OTA web çağrı merkezi ve walk-in kaynaklarını PMS rezervasyon akışına bağlayan otel diyagramı",
+      caption: "OTA web çağrı merkezi ve walk-in kaynaklarını PMS rezervasyon akışına bağlayan otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-6.webp",
+      alt: "Talep opsiyon onay check-in adımlarını özetleyen otel rezervasyon kontrol kartı",
+      caption: "Talep opsiyon onay check-in adımlarını özetleyen otel rezervasyon kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-7.webp",
+      alt: "Mükerrer kayıt ve işlem süresi KPI’larını gösteren otel rezervasyon skor kartı",
+      caption: "Mükerrer kayıt ve işlem süresi KPI’larını gösteren otel rezervasyon skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-1/Pms5-1-8.webp",
+      alt: "Akış dokümanı statü sözlüğü ve rapor çıktılarıyla otel rezervasyon deliverable kartı",
+      caption: "Akış dokümanı statü sözlüğü ve rapor çıktılarıyla otel rezervasyon deliverable kartı"
+    }
+  },
 
 };
 

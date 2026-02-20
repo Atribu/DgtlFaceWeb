@@ -19212,6 +19212,169 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": [".post-title", ".answer-block"]
     }
   ]
+},
+
+//
+
+"rezervasyon-yonetimi-nedir-cok-kanalli-akis":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "name": "Rezervasyon Yönetimi",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis#article",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis",
+      "headline": "Rezervasyon Yönetimi Nedir? Oteller İçin Çok Kanallı Rezervasyon Akışının Temel Mantığı",
+      "name": "Rezervasyon Yönetimi Nedir? Oteller İçin Çok Kanallı Rezervasyon Akışının Temel Mantığı",
+      "description": "Rezervasyon yönetimi nedir? OTA, web ve çağrı merkezi taleplerini PMS’te akışta toplayın; talep→opsiyon→onay→check-in adımlarını netleştirip hata ve iş yükünü azaltın.",
+      "isPartOf": {
+        "@id": "https://dgtlface.com/#website"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis#article"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": {
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        "Reservation Management",
+        "Multi-Channel Reservations",
+        "PMS Reservation Flow",
+        "OTA/Web/Call Center",
+        "Hotel Operations"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis#howto",
+      "name": "Çok Kanallı Rezervasyon Akışı (Talep → Opsiyon → Onay → Check-in → Check-out)",
+      "description": "OTA, web, çağrı merkezi ve walk-in kaynaklı rezervasyonları PMS’te tek statü setiyle yönetmek için temel adımlar.",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Talep",
+          "text": "Kanal kaynağını etiketle; tarih, kişi, oda tipi ve iletişimi doğrula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Opsiyon",
+          "text": "Opsiyon süresi (SLA) belirle; otomatik düşüm ve rapor kontrolü uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Onay",
+          "text": "Rate plan ve müsaitlik eşleşmesini kontrol et; tek PMSReservation kaydını referans al."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Check-in",
+          "text": "İstisnaları (oda değişimi/upgrade/notlar) tek kayda bağla; operasyon notlarını görünür kıl."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Check-out",
+          "text": "İptal/no-show/uzatma gibi istisnaları doğru statüyle kapat; KPI trendlerini güncelle."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "PMS & OTA Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Yönetimi",
+          "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Rezervasyon Yönetimi Nedir? Oteller İçin Çok Kanallı Rezervasyon Akışının Temel Mantığı",
+          "item": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-yonetimi-nedir-cok-kanalli-akis#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon yönetimi nedir, oteller için neden kritiktir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon yönetimi, farklı kanallardan gelen rezervasyonları tek PMS akışında birleştirip statüleri standardize etmektir. Bu yaklaşım mükerrer kayıt ve süreç hatalarını azaltır; ekiplerin aynı veriye bakmasını sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon sürecinin temel adımları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Temel akış talep → opsiyon → onay → check-in → check-out şeklindedir. Otel tipine göre iptal ve no-show gibi istisna statüleri ayrıca yönetilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, web ve çağrı merkezi rezervasyonları PMS’te nasıl birleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kaynak fark etmeksizin hedef kayıt PMSReservation’dır; rezervasyon source/channel alanıyla etiketlenir ve aynı statü setini kullanır. Böylece raporlama ve operasyon tek gerçek üzerinden yürür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon kartında hangi bilgiler mutlaka yer almalıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarihler, kişi sayısı, oda tipi, kanal kaynağı, fiyat planı, garanti/ödeme durumu, statü ve operasyon notları minimum settir. Bu set zorunlu olmadığında veri kalitesi düşer."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

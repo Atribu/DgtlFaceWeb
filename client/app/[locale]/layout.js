@@ -37,29 +37,25 @@ function buildClientMessages(allMessages) {
       const safePost = post && typeof post === "object" ? post : {};
       const safeByline =
         safePost.byline && typeof safePost.byline === "object" ? safePost.byline : {};
+      const h1Intro =
+        safePost.h1 &&
+        typeof safePost.h1 === "object" &&
+        typeof safePost.h1.intro === "string"
+          ? safePost.h1.intro
+          : "";
+      const normalizedExcerpt = h1Intro || safePost.excerpt || safePost.h1Intro || "";
 
       return [
         key,
         {
           slug: safePost.slug || "",
           department: safePost.department || "",
-          subDepartman: safePost.subDepartman || "",
-          subDepartment: safePost.subDepartment || "",
+          subDepartment: safePost.subDepartment || safePost.subDepartman || "",
           title: safePost.title || "",
-          excerpt: safePost.excerpt || "",
-          h1Intro: safePost.h1Intro || "",
-          h1:
-            safePost.h1 && typeof safePost.h1 === "object"
-              ? { intro: safePost.h1.intro || "" }
-              : { intro: "" },
-          publishedAt: safePost.publishedAt || "",
-          updatedAt: safePost.updatedAt || "",
-          readingTime: safePost.readingTime || "",
-          byline: {
-            updatedAt: safeByline.updatedAt || "",
-            publishedAt: safeByline.publishedAt || "",
-            readingTime: safeByline.readingTime || "",
-          },
+          excerpt: normalizedExcerpt,
+          publishedAt: safePost.publishedAt || safeByline.publishedAt || "",
+          updatedAt: safePost.updatedAt || safeByline.updatedAt || "",
+          readingTime: safePost.readingTime || safeByline.readingTime || "",
         },
       ];
     })
