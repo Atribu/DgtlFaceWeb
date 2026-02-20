@@ -84,7 +84,8 @@ export const BLOG_MAP = {
     "sosyal-medya-reklam-butcesi-teklif-stratejisi-ve-olcekleme":"BlogSmmSosyalMedyaReklamButcesiTeklifStratejisiVeOlcekleme",
     "pixel-ve-conversion-api-ile-sosyal-medya-reklam-olcumu":"BlogSmmPixelVeConversionApiIleSosyalMedyaReklamOlcumu",
 
-     "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":"BlogSmmSosyalMedyaPerformansRaporuKpiCercevesi"
+     "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":"BlogSmmSosyalMedyaPerformansRaporuKpiCercevesi",
+     "ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":"BlogSmmGa4VeSosyalMedyaInsightsVerileriniBirlikteOkumak"
   },
 
     yazilim: {
@@ -112,7 +113,8 @@ export const BLOG_MAP = {
     "pms-api-ve-otel-entegrasyonlarinda-api-guvenligi":"BlogPmsApiVeOtelEntegrasyonlarindaApiGuvenligi",
     "loglama-ve-siem-web-altyapisinda-guvenlik-izleme-stratejisi":"BlogYazilimLoglamaVeSiemWebAltyapisindaGuvenlikIzlemeStratejisi",
 
-    "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":"BlogWebSitesiBakimPlaniAylikVeCeyreklikKontrolListesi"
+    "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":"BlogWebSitesiBakimPlaniAylikVeCeyreklikKontrolListesi",
+    "nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":"BlogYazilimNextjsVeModernWebProjelerindeVersiyonGuncellemeVeRefactoringStratejisi"
   },
    
   creative: {
@@ -140,7 +142,8 @@ export const BLOG_MAP = {
     "otel-kurumsal-etkinlik-ve-lansman-ic-iletisim":"BlogOtelKurumsalEtkinlikVeLansmanIcIletisim",
     "otel-etkinlik-same-day-edit-aninda-icerik":"BlogCreativeOtelEtkinlikSameDayEditAnindaIcerik",
 
-    "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar"
+    "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar",
+    "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye"
   },
 
        "cagri-merkezi": {
@@ -168,7 +171,8 @@ export const BLOG_MAP = {
     "otel-sikayet-yonetimi-satis-sonrasi-surec":"BlogOtelSikayetYonetimiSatisSonrasiSurec",
     "otel-satis-sonrasi-destek-ve-sadakat-programlari":"BlogCagriMerkeziOtelSatisSonrasiDestekVeSadakatProgramlari",
 
-    "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber"
+    "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber",
+    "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi"
   },
 
     "pms-ota": {

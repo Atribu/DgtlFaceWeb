@@ -8820,6 +8820,121 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak",
+      "name": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "GA4" },
+        { "@type": "Thing", "name": "Platform Insights" },
+        { "@type": "Thing", "name": "UTM" },
+        { "@type": "Thing", "name": "Traffic & Conversion" },
+        { "@type": "Thing", "name": "Data Fusion" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#webpage"
+      },
+      "headline": "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+      "description": "Platform insights ile erişim/etkileşimi, GA4 ile trafik ve dönüşümü aynı çerçevede okuyun. UTM standardı kurun, panel vs GA4 farklarını yorumlayıp aksiyon çıkarın.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#howto",
+      "name": "GA4 ve Platform Insights Verilerini Birlikte Okuma",
+      "description": "UTM standardı kurarak panel ve GA4 verilerini yan yana okuyun, farkları teşhis edip aksiyon planı çıkarın.",
+      "step": [
+        { "@type": "HowToStep", "name": "UTM standardını belirle", "text": "utm_source, utm_medium, utm_campaign, utm_content alanlarını tek formatta standardize edin." },
+        { "@type": "HowToStep", "name": "Panel KPI’larını topla", "text": "Reach, impressions, watch time, completion, save/share ve link clicks metriklerini kampanya bazında çıkarın." },
+        { "@type": "HowToStep", "name": "GA4 KPI’larını topla", "text": "Sessions, engaged sessions, landing page performansı ve dönüşümleri aynı kampanya anahtarında raporlayın." },
+        { "@type": "HowToStep", "name": "Panel vs GA4 farkını teşhis et", "text": "Click vs session, attribution, redirect/UTM hatası ve consent etkisi gibi nedenleri kontrol edin." },
+        { "@type": "HowToStep", "name": "Aksiyon planı çıkar", "text": "Kopan zincir halkasına göre 30 günlük test ve optimizasyon backlog’u oluşturun." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "GA4 ve Insights Birlikte Okuma", "item": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "GA4 verileri ile Instagram/TikTok/Facebook insights verileri nasıl birlikte okunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM ve kampanya adlandırmasını standartlaştırın; aynı kampanyayı panelde ve GA4’te aynı tarih aralığında yan yana raporlayın. Panel erişim/etkileşimi, GA4 oturum kalitesi ve dönüşümü gösterir. Farkları teşhis edip aksiyon planı çıkarın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Neden paneldeki rakamlar GA4 ile bire bir tutmuyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Panel tıklama ve platform içi davranışı, GA4 ise oturum ve site içi davranışı ölçer; attribution pencereleri ve metrik tanımları farklıdır. Redirect, UTM hatası, bot/önizleme ve consent etkisi farkı artırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "UTM ve kampanya etiketleme neden kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM, GA4’te kampanya/kreatif kırılımını mümkün kılar. UTM yoksa sosyal trafikten dönüşüm görseniz bile hangi kampanya ve içerikten geldiğini netleştiremezsiniz. Paid/organic ayrımı ve utm_content özellikle önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Instagram’daki verilerle GA4 uyuşmuyor, hangisine bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İkisine de bakmalısınız; çünkü farklı soruları ölçerler. Platform içi performans için insights, site ve dönüşüm için GA4 doğrudur. UTM ve kanal tanımı doğruysa iki kaynak birlikte gerçek iş etkisini daha net gösterir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -11516,6 +11631,157 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/yazilim/blog/web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+      "name": "Bakım ve Destek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+      "name": "Web Sitesi Bakım ve Destek",
+      "serviceType": "Website Maintenance & Support",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi",
+      "headline": "Next.js ve Modern Web Projelerinde Versiyon Güncelleme ve Refactoring Stratejisi",
+      "name": "Next.js ve Modern Web Projelerinde Versiyon Güncelleme ve Refactoring Stratejisi",
+      "description": "Next.js/React güncellemelerini küçük adımlarla planlayın: changelog, breaking change analizi, staging testleri ve iteratif refactor sprint’leriyle riski düşürün.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Version Upgrades",
+        "Refactoring",
+        "Staging Tests",
+        "Dependency Management"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#article"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#howto",
+      "name": "Projeyi Bozmadan Next.js Güncelleme ve Refactor Planlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Değişiklikleri sınıflandır",
+          "text": "Changelog okuyup patch/minor/major olarak ayırın; breaking change listesini çıkarın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Staging test kapısı kur",
+          "text": "Upgrade branch açın, staging’de smoke ve kritik akış testlerini çalıştırın; ölçüm doğrulaması yapın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kontrollü prod release ve ölçüm",
+          "text": "Roll-back planıyla prod’a çıkın; hata oranı ve CWV trendini kontrol ederek iteratif refactor sprint’lerine geçin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Yazılım",
+          "item": "https://dgtlface.com/tr/yazilim"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bakım ve Destek",
+          "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Next.js ve Modern Web Projelerinde Versiyon Güncelleme ve Refactoring Stratejisi",
+          "item": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Next.js versiyon güncellemesi nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Changelog ve breaking change analiziyle başlayın, upgrade için ayrı branch açın, staging’de smoke/regresyon testlerini çalıştırın ve ölçüm kontrolü sonrası kontrollü prod release yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Major/minor güncellemeleri ne zaman almalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patch güncellemeleri düzenli, minor güncellemeleri planlı döngülerle, major güncellemeleri ise kapsam analizi + staging test + kontrollü release yaklaşımıyla ele alın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Refactoring’i ne zaman yapmalıyım, nasıl parçalamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tekrarlayan yamalar, kırılgan akışlar ve artan build süreleri refactor sinyalidir. Refactor’ı modül bazlı sprint’lere bölün, staging’de test edip kademeli release edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B projelerinde versiyon geçişinde nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otellerde rezervasyon/arama akışları ve kampanya sayfaları; B2B’de lead formlar, CRM entegrasyonu ve dashboard auth kritik alanlardır. Bu akışları release gate yapmadan prod’a çıkmayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
@@ -14396,6 +14662,183 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"vip-misafir-karsilama-seti-otel-hediye":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye",
+      "name": "VIP Misafir Karşılama Seti Nasıl Tasarlanır? Oteller İçin Hediye Mimarisı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#article",
+      "headline": "VIP Misafir Karşılama Seti Nasıl Tasarlanır? Oteller İçin Hediye Mimarisı",
+      "description": "VIP misafir karşılama setini içerik, koku–doku, kutu tasarımı ve kişiselleştirmeyle planlayın. QR ile dijital entegrasyon ve checklist dâhil.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "vip misafir karsilama seti",
+        "otel oda ici vip hediye",
+        "luxury hotel gift box tasarimi",
+        "vip guest welcome gift",
+        "in-room amenity design",
+        "luxury hotel gift box ideas"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "VIP Welcome Set ve Kurumsal Hediye Tasarım Danışmanlığı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#howto",
+      "name": "VIP misafir karşılama seti nasıl hazırlanmalı?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Segmenti seç",
+          "text": "Suite/tekrar misafir/honeymoon/influencer segmentini netleştir ve hedefi belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Bileşenleri ve tasarım dilini kur",
+          "text": "Gıda–içecek–koku–tekstil–aksesuar bileşenlerini marka dilinle eşleştir; gift box ve kartı sade premium tasarla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kişiselleştirme ve dijital akışı bağla",
+          "text": "İsim–dil (TR–EN–DE–RU) kişiselleştirmesini standardize et; QR ile tek CTA’lı teşekkür/anket/landing akışını kur ve hassasiyet kontrolünü tamamla."
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#product",
+      "name": "VIP Welcome Set (In-Room Amenity) Tasarım Paketi",
+      "description": "VIP misafir karşılama seti için bileşen, gift box, kişiselleştirme ve QR entegrasyon öneri paketi.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Hotel Experience / In-Room Amenity"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative",
+          "item": "https://dgtlface.com/tr/creative"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye & Tasarım",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "VIP Misafir Karşılama Seti",
+          "item": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/vip-misafir-karsilama-seti-otel-hediye#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "VIP misafir karşılama seti nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce VIP segmentini (suite/tekrar/honeymoon/influencer) seçin, sonra bileşenleri (gıda–içecek–koku–tekstil–aksesuar) marka diliyle eşleştirin. Gift box + kart tasarımını sade premium kurun, isim–dil kişiselleştirmesini standardize edin ve QR ile tek CTA’lı bir teşekkür/anket/landing akışı bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda içi VIP hediyede neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genelde 5–7 bileşen yeterlidir: küçük bir lokal tat, uygun içecek alternatifi, hafif bir koku imzası, premium doku, minimal bir hatıra öğesi, kişisel kart ve QR ile dijital köprü. Fazla ürün kalabalık görüntü yaratabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hediye kutusunu nasıl tasarlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kutu tasarımında sadelik ve tutarlılık esastır: premium doku, minimal logo, görünür kart ve kolay açılma ritüeli. Unboxing akışını gör–aç–oku şeklinde 3 adımda planlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "VIP misafir için kişiselleştirme nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru isim yazımı, doğru dil (TR–EN–DE–RU) ve segmente uygun kısa bir mesaj en güvenli kişiselleştirmedir. Alerji/alkol/koku hassasiyeti gibi tercihler dikkate alınacaksa KVKK süreçleri ve erişim kontrolleri mutlaka yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "VIP seti dijital iletişimle nasıl birleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek QR, tek sayfa, tek CTA kuralıyla. QR sayfası ya teşekkür + 1 soruluk mini anket ya da concierge temasına bağlanmalıdır. Çok linkli sayfalar VIP deneyimini zayıflatır ve ölçümü karmaşıklaştırır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 
@@ -17073,6 +17516,164 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "Dashboard + aksiyon döngüsünü kur",
           "text": "Tek sayfalık panel oluştur, alarm mantığı ekle ve KPI’ları haftalık aksiyon toplantısına bağla."
+        }
+      ]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-dashboard-looker-studio-tasarimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#service",
+      "name": "Çağrı Merkezi Performans Analizi & Raporlama",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "serviceType": "Call Center Dashboard & KPI Reporting"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi",
+      "headline": "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde",
+      "name": "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde",
+      "description": "Looker Studio ile otel çağrı merkezi dashboard’u kurun: hacim, hız, FCR, satış dönüşüm ve NPS tek panelde. 12 zorunlu widget, filtreler ve drill-down ile yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi#article" },
+      "about": [
+        "Looker Studio",
+        "Call Center KPI",
+        "Dashboard",
+        "Filter",
+        "Segment",
+        "Hotel Group",
+        "Otel çağrı merkezi performans analizi"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi dashboard’u neden gereklidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dashboard, yönetime günlük ritimde “bugün ne oldu?” sorusunu tek ekrandan yanıtlatır ve anlık dalgalanmaları erken yakalayıp aksiyona bağlar. Raporlar ise daha çok arşiv ve toplantı standardı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Looker Studio ile çağrı merkezi dashboard’u nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce modülleri (Hacim–Hız–Çözüm–Satış–Memnuniyet) sabitleyin, sonra her modül için kritik KPI kartlarını seçin. Filtre/segment ve drill-down sayfaları ekleyerek dashboard’u teşhis aracına dönüştürün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI’ları başta göstermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetim panelinde toplam çağrı, cevaplanma, bekleme, terk, FCR, dönüşüm ve NPS/CSAT trendi gibi az ama kritik KPI’ları gösterin. Detayları çağrı nedeni, ülke/dil ve kanal segmentleriyle drill-down sayfalarında açın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok otelli yapılarda grup ve otel bazlı görünümü nasıl ayırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst filtre barına Hotel Group/Hotel seçimi ekleyin ve varsayılan görünümü grup düzeyinde başlatın. Drill-down’da otel seçildiğinde aynı modüller korunarak kırılımlar otomatik güncellensin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-cagri-merkezi-dashboard-looker-studio-tasarimi#howto",
+      "name": "Looker Studio ile otel çağrı merkezi dashboard’u tasarlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Modül mimarisini sabitle",
+          "text": "Hacim, Hız, Çözüm, Satış ve Memnuniyet modüllerini belirleyip yönetim panelini 1 sayfa olacak şekilde tasarla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Filtre ve segmentleri kur",
+          "text": "Tarih, Hotel Group/Hotel, ülke/dil, kanal ve çağrı nedeni filtrelerini üstte sabitle; drill-down sayfalarını segment bazında oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "12 zorunlu widget ile MVP yayınla",
+          "text": "Toplam çağrı, cevaplanma, bekleme, terk, service level, FCR, dönüşüm ve NPS/CSAT gibi KPI kartlarını ekle; sonra alarm ve bakım döngüsüyle olgunlaştır."
         }
       ]
     }

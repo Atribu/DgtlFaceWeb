@@ -9928,6 +9928,210 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":{
+     banner: {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-1.webp",
+      alt: "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?",
+      caption: "GA4 ve Sosyal Medya Insights Verilerini Birlikte Nasıl Okursunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-2.webp",
+      alt: "Panel ve GA4 yan yana okuma, veri temelli karar, otel pazarlama ekibi",
+      caption: "Panel ve GA4 yan yana okuma, veri temelli karar, otel pazarlama ekibi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-3.webp",
+      alt: "Erişim etkileşim ve trafik dönüşüm ayrımı, sosyal medya raporu, otel örneği",
+      caption: "Erişim etkileşim ve trafik dönüşüm ayrımı, sosyal medya raporu, otel örneği"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-4.webp",
+      alt: "Panel GA4 farkları ve attribution, UTM standardı, B2B sosyal raporlama",
+      caption: "Panel GA4 farkları ve attribution, UTM standardı, B2B sosyal raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-5.webp",
+      alt: "GA4 insights data fusion akışı, UTM ile kampanya eşleme, otel ve B2B model",
+      caption: "GA4 insights data fusion akışı, UTM ile kampanya eşleme, otel ve B2B model"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-6.webp",
+      alt: "GA4 ve insights checklist’i, UTM sağlık kontrolü, otel pazarlaması raporu",
+      caption: "GA4 ve insights checklist’i, UTM sağlık kontrolü, otel pazarlaması raporu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-7.webp",
+      alt: "Panel ve GA4 KPI skor kartı, oturum kalite ve dönüşüm, turizm ve B2B",
+      caption: "Panel ve GA4 KPI skor kartı, oturum kalite ve dönüşüm, turizm ve B2B"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-2/SMM5-2-8.webp",
+      alt: " Birleşik rapor teslim paketi, UTM planı ve rapor şablonu, ajans yönetimi",
+      caption: " Birleşik rapor teslim paketi, UTM planı ve rapor şablonu, ajans yönetimi"
+    }
+  },
+
+
+  "nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":{
+     banner: {
+      src: "/images/blog/software/Software5-2/Software5-2-1.webp",
+      alt: "Next.js ve Modern Web Projelerinde Versiyon Güncelleme ve Refactoring Stratejisi",
+      caption: "Next.js ve Modern Web Projelerinde Versiyon Güncelleme ve Refactoring Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-2/Software5-2-2.webp",
+      alt: "Staging test akışı, amaç kontrollü release, kurumsal web operasyon bağlamı",
+      caption: "Staging test akışı, amaç kontrollü release, kurumsal web operasyon bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software5-2/Software5-2-3.webp",
+      alt: "Sürüm sınıflandırma bölümü, amaç odaklama, teknik ekip bağlam",
+      caption: "Sürüm sınıflandırma bölümü, amaç odaklama, teknik ekip bağlam"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software5-2/Software5-2-4.webp",
+      alt: "Refactor planlama bölümü, amaç derinleşme, canlı trafik bağlamı",
+      caption: "Refactor planlama bölümü, amaç derinleşme, canlı trafik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-2/Software5-2-5.webp",
+      alt: "Analiz→branch→staging→prod akışı, amaç güvenli geçiş, canlı proje bağlam",
+      caption: "Analiz→branch→staging→prod akışı, amaç güvenli geçiş, canlı proje bağlam"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-2/Software5-2-6.webp",
+      alt: "Upgrade & refactor checklist, amaç hızlı uygulama, geliştirici ekip bağlamı",
+      caption: "Upgrade & refactor checklist, amaç hızlı uygulama, geliştirici ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-2/Software5-2-7.webp",
+      alt: "Release KPI paneli, amaç risk izleme, yönetim raporu bağlamı",
+      caption: "Release KPI paneli, amaç risk izleme, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-2/Software5-2-8.webp",
+      alt: "Upgrade deliverables seti, amaç güven oluşturma, ajans ve işletme bağlamı",
+      caption: "Upgrade deliverables seti, amaç güven oluşturma, ajans ve işletme bağlamı"
+    }
+  },
+
+
+  "vip-misafir-karsilama-seti-otel-hediye":{
+     banner: {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-1.webp",
+      alt: "VIP Misafir Karşılama Seti Nasıl Tasarlanır? Oteller İçin Hediye Mimarisi",
+      caption: "VIP Misafir Karşılama Seti Nasıl Tasarlanır? Oteller İçin Hediye Mimarisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-2.webp",
+      alt: "Oda içi VIP welcome set yerleşimi, marka dili ve otel bağlamı",
+      caption: "Oda içi VIP welcome set yerleşimi, marka dili ve otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-3.webp",
+      alt: "VIP set hazırlama adımları, segment ve operasyon standardı otel bağlamı",
+      caption: "VIP set hazırlama adımları, segment ve operasyon standardı otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-4.webp",
+      alt: "Gift box tasarımı, koku ve doku deneyimi otel bağlamı",
+      caption: "Gift box tasarımı, koku ve doku deneyimi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-5.webp",
+      alt: "VIP unboxing akışı diyagramı, duyusal tasarım ve otel deneyimi bağlamı",
+      caption: "VIP unboxing akışı diyagramı, duyusal tasarım ve otel deneyimi bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-6.webp",
+      alt: "VIP set checklist’i, kişiselleştirme adımları ve otel operasyon bağlamı",
+      caption: "VIP set checklist’i, kişiselleştirme adımları ve otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-7.webp",
+      alt: "VIP set KPI kartı, memnuniyet ve paylaşım eğilimi otel bağlamı",
+      caption: "VIP set KPI kartı, memnuniyet ve paylaşım eğilimi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-2/Creative5-2-8.webp",
+      alt: "VIP set çıktıları, SOP ve güven unsurları otel bağlamı",
+      caption: "VIP set çıktıları, SOP ve güven unsurları otel bağlamı"
+    }
+  },
+
+
+  "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-2.webp",
+      alt: "Günlük çağrı ritmi ve tek ekrandan karar akışı, otel çağrı merkezi yönetim bağlamı",
+      caption: "Günlük çağrı ritmi ve tek ekrandan karar akışı, otel çağrı merkezi yönetim bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-3.webp",
+      alt: "Rapor ve dashboard farkı, otel çağrı merkezi KPI modül ayrımı görsel geçiş",
+      caption: "Rapor ve dashboard farkı, otel çağrı merkezi KPI modül ayrımı görsel geçiş"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-4.webp",
+      alt: "Filter ve segment alanları, drill-down mantığı, otel grubu panel tasarımı geçiş",
+      caption: "Filter ve segment alanları, drill-down mantığı, otel grubu panel tasarımı geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-5.webp",
+      alt: "Dashboard modülleri ve drill-down akışı, hotel group ve otel görünümü karar diyagramı",
+      caption: "Dashboard modülleri ve drill-down akışı, hotel group ve otel görünümü karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-6.webp",
+      alt: "Zorunlu 12 widget checklist’i, otel çağrı merkezi panel tasarım iskeleti kartı",
+      caption: "Zorunlu 12 widget checklist’i, otel çağrı merkezi panel tasarım iskeleti kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-7.webp",
+      alt: "Modül bazlı KPI kart örnekleri, hız FCR dönüşüm ve NPS panel görünümü",
+      caption: "Modül bazlı KPI kart örnekleri, hız FCR dönüşüm ve NPS panel görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-8.webp",
+      alt: "Dashboard wireframe ve çıktı seti, otel çağrı merkezi raporlama deliverables kartı",
+      caption: "Dashboard wireframe ve çıktı seti, otel çağrı merkezi raporlama deliverables kartı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {
