@@ -2885,6 +2885,126 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-icin-looker-studio-reklam-dashboard-tasarimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi",
+      "headline": "Oteller İçin Looker Studio Reklam Dashboard Tasarımı – Adım Adım Rehber",
+      "name": "Oteller İçin Looker Studio Reklam Dashboard Tasarımı – Adım Adım Rehber",
+      "description": "GA4, Google Ads ve Meta Ads verisini Looker Studio’da tek panelde birleştirin. Yönetim özeti + operasyon detay sayfalarıyla otel KPI dashboard’ı kurun.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Looker Studio",
+        "Dashboards",
+        "GA4",
+        "Google Ads",
+        "Meta Ads",
+        "Hotel KPIs",
+        "Unified reporting",
+        "visual analytics"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/raporlama/looker-studio#service",
+      "name": "Looker Studio Raporlama",
+      "serviceType": "Dashboard ve Birleşik Raporlama",
+      "url": "https://dgtlface.com/tr/raporlama/looker-studio",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Oteller İçin Looker Studio Reklam Dashboard Tasarımı – Adım Adım Rehber", "item": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Looker Studio nedir, otel reklam raporlamasında nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Looker Studio, farklı veri kaynaklarını tek bir görsel raporda birleştiren dashboard aracıdır. Otellerde GA4, Google Ads ve Meta Ads verisini tek panelde toplayarak yönetim için özet, ekip için kampanya detay görünümü sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek panelde Google Ads, Meta ve GA4 verisini nasıl birleştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Looker Studio’da ilgili connector’ları bağlayıp metrikleri ortak bir KPI sözlüğünde standardize edin. Yönetim sayfasında dönüşümü tek kaynaktan (genelde GA4) standardize etmek, operasyon sayfasında platform metriklerini ayrı göstermek daha güvenilir sonuç verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklam dashboard’ında hangi grafikler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetim sayfasında KPI kartları, kanal payı ve trend grafiği temel seti oluşturur. Operasyon sayfasında kampanya tablosu (harcama, dönüşüm, CPA, ROAS, CTR) ve gerekiyorsa kreatif/segment kırılımları olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yönetim için sade, ekip için detaylı rapor nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İki sayfalı mimari kurun: Exec sayfa tek ekran, 8–12 KPI kartı ve aksiyon kutusu içerir. Ops sayfa filtre barı, kampanya tablosu ve drilldown detayları içerir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-icin-looker-studio-reklam-dashboard-tasarimi#howto",
+      "name": "Looker Studio’da Otel Reklam Dashboard’ı Kurulumu",
+      "step": [
+        { "@type": "HowToStep", "name": "Veri kaynaklarını bağla", "text": "GA4, Google Ads ve Meta Ads connector’larını doğru hesaplara bağla ve erişim izinlerini kontrol et." },
+        { "@type": "HowToStep", "name": "Exec sayfayı kur", "text": "8–12 KPI kartı, kanal payı ve dönem karşılaştırmasıyla yönetim özetini oluştur; dönüşümü tek kaynaktan standardize et." },
+        { "@type": "HowToStep", "name": "Ops sayfayı kur", "text": "Kampanya tablosu, filtre barı ve aksiyon etiketleriyle operasyonel detay sayfasını oluştur." },
+        { "@type": "HowToStep", "name": "Doğrulama testlerini yap", "text": "Toplam harcama, dönüşüm ve kanal payı için 3 aşamalı doğrulama testi uygula; filtreleri test et." },
+        { "@type": "HowToStep", "name": "Bakım planını belirle", "text": "Connector, dönüşüm tanımı ve filtre setlerini 365 günlük döngüyle düzenli güncelle." }
+      ]
+    }
+  ]
 }
 
     },
@@ -5736,6 +5856,111 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/seo/blog/ga4-ve-search-console-verilerini-birlikte-okumak#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir",
+      "name": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#article",
+      "headline": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+      "description": "Anahtar kelime raporlarını tek tek kelimelerle değil; brand/non-brand ve topic cluster bazında, görünürlük trendiyle oku. Ortalama konum ve SERP özelliklerini doğru yorumla.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service",
+      "name": "SEO Raporlama & Performans Analizi",
+      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "SEO Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/seo/seo-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?", "item": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Anahtar kelime sıralama raporu nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek tek kelimeler yerine cluster bazında trendi okuyun ve görünürlük (share of voice) değişimini izleyin. Ortalama konumu SERP özellikleri ve brand/non-brand ayrımıyla birlikte değerlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortalama konum ne demek, nasıl okunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortalama konum bir ortalamadır; tek kelimenin sırası değildir. Dağılım (Top 3/Top 10/11–20/21+) ve SERP görünümüyle birlikte yorumlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand vs non-brand keyword ayrımı neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand tarafı doğal olarak güçlü olabilir; büyüme çoğunlukla non-brand sorgulardadır. Ayrım yapılmazsa rapor iyi görünür ama büyüme alanı kaçırılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cluster bazlı görünürlük analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keyword’leri topic cluster’lara ayırın, her cluster için görünürlük trendi ve Top 10 payını çıkarın. Düşüş/artışı içerik, snippet, internal link ve teknik aksiyonlara bağlayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
@@ -8935,6 +9160,109 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"icerik-bazli-performans-analizi-post-story-reels-raporu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu",
+      "name": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Content Analytics" },
+        { "@type": "Thing", "name": "Posts" },
+        { "@type": "Thing", "name": "Stories" },
+        { "@type": "Thing", "name": "Reels" },
+        { "@type": "Thing", "name": "Content Pillars" },
+        { "@type": "Thing", "name": "Scaling" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#webpage"
+      },
+      "headline": "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+      "description": "Post, story ve reels KPI’larını ayrı okuyup format ve content pillar bazında kıyaslayın. Top 10 / zayıf halka analiziyle üretim odağınızı doğru yere kaydırın.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "İçerik Bazlı Performans Analizi", "item": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Post, story ve reels için hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Post’ta etkileşim oranı ve özellikle kaydetme/paylaşma; story’de görüntüleme, completion/drop-off, çıkış ve cevap; reels’te izlenme süresi, retention/completion ve kaydetme/paylaşma temel KPI’lardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İçerik bazlı performans analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İçerikleri format ve content pillar etiketiyle sınıflandırın; her format için çekirdek KPI’yı belirleyin. 90 günlük trendle Top 10 ve zayıf 10 listesi çıkarın, zayıf içerikleri zayıf halka kategorileriyle teşhis edip aksiyon planı yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Content pillar bazlı performans raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satırlarda pillar’lar, sütunlarda formatlar olacak şekilde bir ısı haritası kurun ve her hücreye formatın çekirdek KPI’sını yazın. Böylece hangi pillar’ın hangi formatta en güçlü olduğunu görüp üretim odağınızı en iyi eşleşmelere kaydırırsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi içerikleri ölçekleyip hangilerini bırakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekirdek KPI’sı yüksek ve tekrar edilebilir içerikler ölçeklenir; orta performanslı içerikler zayıf halka teşhisiyle iyileştirilir; düşük performanslı ve trend analizinde de zayıf kalanlar bırakılır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -11782,6 +12110,137 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/yazilim/blog/nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+      "name": "Bakım ve Destek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+      "name": "Otel Web Siteleri için Bakım ve Destek",
+      "serviceType": "Website Maintenance & Support",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup",
+      "headline": "Otel Web Siteleri İçin Sezon Öncesi Teknik Checkup",
+      "name": "Otel Web Siteleri İçin Sezon Öncesi Teknik Checkup",
+      "description": "Sezon başlamadan performans/yük testi, rezervasyon funnel’i, PMS/OTA kontrolleri ve güvenlik-yedekleme checkup’ıyla kesinti ve hata riskini azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel Pre-Season Check",
+        "Performance & Load",
+        "Booking Funnel",
+        "PMS/OTA Health"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#article"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#howto",
+      "name": "Sezon Öncesi Otel Web Sitesi Teknik Checkup Nasıl Yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Performans ve yük testlerini yap",
+          "text": "Medya ve script envanterini çıkarın, CWV trendini ölçün ve kritik sayfalarda yük testi senaryosu çalıştırın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Rezervasyon funnel’i ve formları doğrula",
+          "text": "Mobil ve çok dilli senaryolarla rezervasyon akışını test edin; form bildirimleri ve ölçüm event’lerini doğrulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS/OTA, güvenlik ve yedekleme katmanlarını kontrol et",
+          "text": "Entegrasyon çağrılarında hata/timeout trendini ölçün; WAF/rate limit ve backup geri dönüş testini tamamlayın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Web Siteleri İçin Sezon Öncesi Teknik Checkup", "item": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel web siteleri için sezon öncesi teknik checkup nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Performans/yük testi, rezervasyon funnel’i testleri, PMS/OTA entegrasyon kontrolleri ve güvenlik-yedekleme doğrulamasını tek checklist’te birleştirip final re-test sonrası go/no-go kararı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yoğun trafik öncesi performans ve yük testi nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik sayfaları seçin, prod benzeri ortamda eş zamanlı kullanıcı senaryoları çalıştırın ve CWV/hata oranı/yanıt süresi KPI’larıyla raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon funnel’ini sezondan önce nasıl test ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih→oda→fiyat→rezervasyon akışını mobil ve çok dilli varyantlarla test edin; hata mesajlarını ve ölçümü doğrulayın ve her adım için başarı kriteri tanımlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS/OTA entegrasyonlarını sezon öncesi hangi adımlarla kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Availability ve fiyat çağrılarını test edin, timeout/hata trendini ölçün, token güncelliğini doğrulayın ve kampanya/paket verisinin siteye doğru yansıdığını uçtan uca kontrol edin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/otel-web-siteleri-icin-sezon-oncesi-teknik-checkup#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
@@ -20241,6 +20700,93 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "name": "Rezervasyon Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin#article",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin",
+      "headline": "Rezervasyon Süreci Adım Adım: Talep, Opsiyon, Onay ve Check-in",
+      "name": "Rezervasyon Süreci Adım Adım: Talep, Opsiyon, Onay ve Check-in",
+      "description": "Rezervasyon sürecini 4 adımda standardize edin: talep, opsiyon, onay/voucher ve check-in. Opsiyon kuralları, kontrol listesi ve handover ile hataları azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": ["Reservation Process", "Inquiry", "Option", "Confirmation", "Voucher", "Check-in"],
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer-block"] }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin#howto",
+      "name": "Rezervasyon Süreci: Talep → Opsiyon → Onay → Check-in",
+      "description": "Otel rezervasyon sürecini 4 adımda standartlaştırmak için operasyon rehberi.",
+      "step": [
+        { "@type": "HowToStep", "name": "Talep", "text": "Talep kaydında minimum alan setini topla; kanal kaynağını etiketle ve dönüş SLA’sını uygula." },
+        { "@type": "HowToStep", "name": "Opsiyon", "text": "Opsiyon SLA ve kapanış kurallarını belirle; otomatik düşüm ve takip rutini kur." },
+        { "@type": "HowToStep", "name": "Onay + Voucher", "text": "Onay öncesi oda+tarih+fiyat+not kontrolü yap; voucher referansını tekil ve görünür hale getir." },
+        { "@type": "HowToStep", "name": "Check-in", "text": "Check-in öncesi 15 maddelik kontrol listesini uygula; resepsiyon–rezervasyon handover’ını standartlaştır." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Rezervasyon Süreci Adım Adım: Talep, Opsiyon, Onay ve Check-in", "item": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon süreci hangi adımlardan oluşur?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Rezervasyon süreci talep, opsiyon, onay/voucher ve check-in adımlarından oluşur. SLA ve kontrol listeleri tanımlandığında süreç sorunsuz ilerler." }
+        },
+        {
+          "@type": "Question",
+          "name": "Opsiyonlu rezervasyon nedir, kuralları nasıl belirlenir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Opsiyon, belirli süre için oda ve fiyat bloklamaktır. Kurallar; SLA, otomatik düşüm ve kapanış mesajlarıyla, sezon ve otel tipine göre belirlenmelidir." }
+        },
+        {
+          "@type": "Question",
+          "name": "Check-in öncesi rezervasyon kontrolleri neleri kapsamalıdır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tarih, kişi, oda tipi, fiyat planı, ödeme/garanti, voucher referansı, özel notlar ve çakışma kontrolü temel kapsamdadır. 15 maddelik checklist ile rutine bağlanmalıdır." }
+        },
+        {
+          "@type": "Question",
+          "name": "Onay maili ve voucher süreçleri nasıl yönetilmeli?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Onay maili ve voucher; tarih/oda/kişi/fiyat/iptal koşulu/ödeme bilgilerini net taşımalı ve tekil referans numarasıyla check-in’de hızlı doğrulama sağlamalıdır." }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -26137,6 +26683,188 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "Pilot go-live ve izleme",
           "text": "Sınırlı kapsamda canlıya geçin; log/uyarı takibiyle 7 gün yakın izleme yapın ve düzeltmeleri uygulayın."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi",
+      "name": "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS–OTA–kanal yöneticisi entegrasyon mimarisini kurun: veri akışı, oda/fiyat mapping, limit–stop-sale kuralları, test ve go-live planı ile overbooking riskini azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#webpage" },
+      "headline": "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?",
+      "name": "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–kanal yöneticisi–OTA tam entegrasyon mimarisi; fiyat ve envanterin tek merkezden hatasız akmasını sağlayan, mapping ve kontrol kurallarıyla overbooking riskini azaltan yapıdır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Room Type" },
+        { "@type": "Thing", "name": "Rate Plan" },
+        { "@type": "Thing", "name": "Inventory" },
+        { "@type": "Thing", "name": "Limit" },
+        { "@type": "Thing", "name": "Stop-Sale" },
+        { "@type": "Thing", "name": "Log" }
+      ],
+      "keywords": [
+        "pms ota kanal yonetimi tam entegrasyon",
+        "pms channel manager ota integration",
+        "oda ve fiyat mapping best practices",
+        "inventory limit stop sale strategy",
+        "overbooking riskini azaltan mimari"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Kanal Yöneticisi + OTA Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "PMS Entegrasyonu (Hotel PMS)",
+          "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS, OTA ve kanal yöneticisi entegrasyonu nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS genellikle veriyi merkezileştirir ve kanal yöneticisine fiyat/availability aktarır. Kanal yöneticisi bu veriyi OTA’lara dağıtır, rezervasyon olaylarını da PMS’e geri taşır. Mimariyi mapping ve kurallar belirler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda ve fiyat mapping’i nasıl doğru kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce PMS’te oda tipleri ve rate plan’lar standardize edilir, sonra channel manager’da birebir eşlenir. Rezervasyon, iptal ve modifikasyon senaryolarıyla test yapılır ve mapping dokümanı versiyonlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Limit ve stop-sale kuralları overbooking’i nasıl azaltır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Limitler satılabilir envanteri kontrollü sınırlar, stop-sale ise belirli risk koşullarında satışları otomatik kapatır. Sync gecikmesi veya kural çakışması durumunda güvenlik bariyeri oluşturur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entegrasyon hatalarını test ve loglarla nasıl tespit ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Olay bazlı test setiyle (rezervasyon/iptal/modifikasyon) hatayı simüle edersiniz. Log/uyarı sistemi mapping mismatch, stok geri dönüş hatası ve fiyat güncelleme gecikmesi gibi durumları alarm olarak verir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi#howto",
+      "name": "PMS–Channel Manager–OTA Entegrasyonu Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Mimari karar ve tek doğruluk kaynağı",
+          "text": "PMS mi yoksa kanal yöneticisi mi dağıtım karar merkeziniz olacak; rol ve sorumlulukları yazılı hale getirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Room type ve rate plan mapping",
+          "text": "Oda tipleri ve fiyat planlarını standardize edin; channel manager’da birebir eşleyip mapping dokümanını versiyonlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Limit ve stop-sale bariyerleri",
+          "text": "Hard limit/soft limit ve stop-sale tetikleyicilerini tanımlayın; gecikme ve risk senaryolarında güvenlik bariyeri oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test ve pilot go-live",
+          "text": "Olay bazlı senaryo testlerini çalıştırın; 1–2 kanal + 1 oda tipi ile pilot canlıya geçip 48–72 saat yakın izleme yapın."
         }
       ]
     }

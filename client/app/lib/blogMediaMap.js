@@ -10085,8 +10085,8 @@ export const BLOG_MEDIA_MAP = {
   "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":{
      banner: {
       src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde",
+      caption: "Looker Studio ile Otel Çağrı Merkezi Dashboard Tasarımı: Tüm KPI’lar Tek Panelde"
     },
 
           "h1-context-02": {
@@ -10129,6 +10129,312 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/callcenter/Callcenter5-2/Callcenter5-2-8.webp",
       alt: "Dashboard wireframe ve çıktı seti, otel çağrı merkezi raporlama deliverables kartı",
       caption: "Dashboard wireframe ve çıktı seti, otel çağrı merkezi raporlama deliverables kartı"
+    }
+  },
+
+
+
+  "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-1.webp",
+      alt: "Rezervasyon Süreci Adım Adım: Talep, Opsiyon, Onay ve Check-in",
+      caption: "Rezervasyon Süreci Adım Adım: Talep, Opsiyon, Onay ve Check-in"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-2.webp",
+      alt: "Çok kanallı rezervasyon sürecinin PMS ekranına bağlandığı otel operasyon görseli",
+      caption: "Çok kanallı rezervasyon sürecinin PMS ekranına bağlandığı otel operasyon görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-3.webp",
+      alt: "Talep yönetimine geçişi ayıran otel rezervasyon süreç bölüm görseli",
+      caption: "Talep yönetimine geçişi ayıran otel rezervasyon süreç bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-4.webp",
+      alt: "Opsiyon ve onay aşamasına geçişi vurgulayan otel süreç ayırıcı görsel",
+      caption: "Opsiyon ve onay aşamasına geçişi vurgulayan otel süreç ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-5.webp",
+      alt: "Rezervasyonun talep-opsiyon-onay-check-in akışını gösteren otel süreç diyagramı",
+      caption: "Rezervasyonun talep-opsiyon-onay-check-in akışını gösteren otel süreç diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-6.webp",
+      alt: "Check-in öncesi kontrol listesini özetleyen otel operasyon checklist kartı",
+      caption: "Check-in öncesi kontrol listesini özetleyen otel operasyon checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-7.webp",
+      alt: "Opsiyon dönüşümü ve check-in hata trendlerini gösteren otel KPI skor kartı",
+      caption: "Opsiyon dönüşümü ve check-in hata trendlerini gösteren otel KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-2/Pms5-2-8.webp",
+      alt: "SOP opsiyon tablosu ve check-in checklist çıktılarıyla otel deliverables görseli",
+      caption: "SOP opsiyon tablosu ve check-in checklist çıktılarıyla otel deliverables görseli"
+    }
+  },
+
+
+   "pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-1.webp",
+      alt: "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?",
+      caption: "PMS + OTA + Kanal Yöneticisi: Tam Entegrasyon Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-2.webp",
+      alt: "Fiyat ve envanterin tek merkezden dağıtımını anlatan bağlam görseli, overbooking riskini azaltır",
+      caption: "Fiyat ve envanterin tek merkezden dağıtımını anlatan bağlam görseli, overbooking riskini azaltır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-3.webp",
+      alt: "Entegrasyonun nasıl çalıştığını ayıran bölüm görseli, otel ekiplerini aynı çerçevede toplar",
+      caption: "Entegrasyonun nasıl çalıştığını ayıran bölüm görseli, otel ekiplerini aynı çerçevede toplar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-4.webp",
+      alt: "Mapping ve kontrol katmanını ayıran görsel, mimariyi anlaşılır kılar",
+      caption: "Mapping ve kontrol katmanını ayıran görsel, mimariyi anlaşılır kılar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-5.webp",
+      alt: "PMS→Channel Manager→OTA veri akışını gösteren detaylı şema, fiyat ve envanteri tutarlı kılar",
+      caption: "PMS→Channel Manager→OTA veri akışını gösteren detaylı şema, fiyat ve envanteri tutarlı kılar"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-6.webp",
+      alt: "Mapping doğrulama kontrol listesi görseli, otelde kuralları netleştirir",
+      caption: "Mapping doğrulama kontrol listesi görseli, otelde kuralları netleştirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-7.webp",
+      alt: "Limit ve stop-sale sonrası KPI kartı, overbooking ve manuel iş yükünü izler",
+      caption: "Limit ve stop-sale sonrası KPI kartı, overbooking ve manuel iş yükünü izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-2/Hotel5-2-8.webp",
+      alt: "“Oda & Fiyat Mapping’i Nasıl Doğru Kurulur?” bölümünde",
+      caption: "“Oda & Fiyat Mapping’i Nasıl Doğru Kurulur?” bölümünde"
+    }
+  },
+
+  "otel-icin-looker-studio-reklam-dashboard-tasarimi":{
+     banner: {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-1.webp",
+      alt: "Oteller İçin Looker Studio Reklam Dashboard Tasarımı – Adım Adım Rehber",
+      caption: "Oteller İçin Looker Studio Reklam Dashboard Tasarımı – Adım Adım Rehber"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-2.webp",
+      alt: "GA4 Ads Meta entegrasyonu, otel KPI’larını tek panelde birleştirir",
+      caption: "GA4 Ads Meta entegrasyonu, otel KPI’larını tek panelde birleştirir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-3.webp",
+      alt: "Otel KPI panelleri, yönetim ve ekip ihtiyaçlarını tek dashboardta toplar",
+      caption: "Otel KPI panelleri, yönetim ve ekip ihtiyaçlarını tek dashboardta toplar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-4.webp",
+      alt: "Veri kaynakları bağlantısı, otel reklam raporlamasında güvenilir sonuç sağlar",
+      caption: "Veri kaynakları bağlantısı, otel reklam raporlamasında güvenilir sonuç sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-5.webp",
+      alt: "Exec Ops dashboard akışı, otel reklam karar adımlarını görselleştirir",
+      caption: "Exec Ops dashboard akışı, otel reklam karar adımlarını görselleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-6.webp",
+      alt: "Dashboard checklist, otel reklam raporlamasında adım adım kurulum sağlar",
+      caption: "Dashboard checklist, otel reklam raporlamasında adım adım kurulum sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-7.webp",
+      alt: "Otel KPI scorecard, yönetim için performansı tek ekranda özetler",
+      caption: "Otel KPI scorecard, yönetim için performansı tek ekranda özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-3/SEM5-3-8.webp",
+      alt: "Dashboard çıktıları, otel reklam raporlamasında güven ve şeffaflık sunar",
+      caption: "Dashboard çıktıları, otel reklam raporlamasında güven ve şeffaflık sunar"
+    }
+  },
+
+
+   "anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":{
+     banner: {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-1.webp",
+      alt: "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?",
+      caption: "Anahtar Kelime Sıralamaları ve Görünürlük Raporu Nasıl Yorumlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-2.webp",
+      alt: "Cluster ve brand/non-brand okuması, amaç stratejik karar, turizm/B2B bağlamı",
+      caption: "Cluster ve brand/non-brand okuması, amaç stratejik karar, turizm/B2B bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-3.webp",
+      alt: "Sıralama okuma çerçevesi, amaç doğru yorum, turizm sitesi bağlamı",
+      caption: "Sıralama okuma çerçevesi, amaç doğru yorum, turizm sitesi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-4.webp",
+      alt: "Görünürlük ve SOV bölümü ayırıcı, amaç trend okuma, hizmet sitesi bağlamı",
+      caption: "Görünürlük ve SOV bölümü ayırıcı, amaç trend okuma, hizmet sitesi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-5.webp",
+      alt: "Cluster model diyagramı, amaç topic-level analiz, otel ve B2B bağlamı",
+      caption: "Cluster model diyagramı, amaç topic-level analiz, otel ve B2B bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-6.webp",
+      alt: "Cluster analiz checklist kartı, amaç rapor standardı, ajans raporlama bağlamı",
+      caption: "Cluster analiz checklist kartı, amaç rapor standardı, ajans raporlama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-7.webp",
+      alt: "Brand/non-brand görünürlük kartı, amaç büyüme alanı, turizm pazarlama bağlamı",
+      caption: "Brand/non-brand görünürlük kartı, amaç büyüme alanı, turizm pazarlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-3/SEO5-3-8.webp",
+      alt: "Cluster rapor deliverables kartı, amaç yönetici sunumu, otel-ajans bağlamı",
+      caption: "Cluster rapor deliverables kartı, amaç yönetici sunumu, otel-ajans bağlamı"
+    }
+  },
+
+
+   "icerik-bazli-performans-analizi-post-story-reels-raporu":{
+     banner: {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-1.webp",
+      alt: "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?",
+      caption: "İçerik Bazlı Performans Analizi: Post, Story ve Reels Raporu Nasıl Okunur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-2.webp",
+      alt: "Format ve pillar kırılımı, içerik portföy görünümü, otel sosyal medya raporu",
+      caption: "Format ve pillar kırılımı, içerik portföy görünümü, otel sosyal medya raporu"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-3.webp",
+      alt: "Post story reels KPI karşılaştırma, format bazlı analiz, turizm ve B2B içerik",
+      caption: "Post story reels KPI karşılaştırma, format bazlı analiz, turizm ve B2B içerik"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-4.webp",
+      alt: "Tema pillar performansı, ısı haritası yaklaşımı, otel ve B2B raporlama",
+      caption: "Tema pillar performansı, ısı haritası yaklaşımı, otel ve B2B raporlama"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-5.webp",
+      alt: "Content portfolio view akışı, format tema analizi, sosyal medya optimizasyon modeli",
+      caption: "Content portfolio view akışı, format tema analizi, sosyal medya optimizasyon modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-6.webp",
+      alt: "Top 10 zayıf 10 içerik checklist’i, ölçekle iyileştir bırak modeli, otel içerik",
+      caption: "Top 10 zayıf 10 içerik checklist’i, ölçekle iyileştir bırak modeli, otel içerik"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-7.webp",
+      alt: "Format KPI skor kartı, post story reels metrikleri, B2B ve turizm hesapları",
+      caption: "Format KPI skor kartı, post story reels metrikleri, B2B ve turizm hesapları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-3/SMM5-3-8.webp",
+      alt: "İçerik analizi teslim paketi, pillar ısı haritası ve rapor çıktıları, ajans yönetimi",
+      caption: "İçerik analizi teslim paketi, pillar ısı haritası ve rapor çıktıları, ajans yönetimi"
+    }
+  },
+
+
+   "otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":{
+     banner: {
+      src: "/images/blog/software/Software5-3/Software5-3-1.webp",
+      alt: "Otel Web Siteleri İçin Sezon Öncesi Teknik Checkup",
+      caption: "Otel Web Siteleri İçin Sezon Öncesi Teknik Checkup"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-3/Software5-3-2.webp",
+      alt: "Checkup akış modeli, amaç plan görünürlüğü, otel operasyon ekibi bağlamı",
+      caption: "Checkup akış modeli, amaç plan görünürlüğü, otel operasyon ekibi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software5-3/Software5-3-3.webp",
+      alt: "Performans hazırlığı ayırıcı, amaç odaklama, sezon trafiği otel bağlamı",
+      caption: "Performans hazırlığı ayırıcı, amaç odaklama, sezon trafiği otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software5-3/Software5-3-4.webp",
+      alt: "Güvenlik ve yedekleme ayırıcı, amaç risk azaltma, otel IT bağlamı",
+      caption: "Güvenlik ve yedekleme ayırıcı, amaç risk azaltma, otel IT bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-3/Software5-3-5.webp",
+      alt: "Rezervasyon funnel diyagramı, amaç adım kontrolü, otel gelir bağlamı",
+      caption: "Rezervasyon funnel diyagramı, amaç adım kontrolü, otel gelir bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-3/Software5-3-6.webp",
+      alt: "Sezon checkup checklist kartı, amaç hızlı uygulama, otel ekip bağlamı",
+      caption: "Sezon checkup checklist kartı, amaç hızlı uygulama, otel ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-3/Software5-3-7.webp",
+      alt: "Checkup KPI paneli, amaç karar destek, yönetim toplantısı otel bağlamı",
+      caption: "Checkup KPI paneli, amaç karar destek, yönetim toplantısı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-3/Software5-3-8.webp",
+      alt: "Checkup çıktıları kartı, amaç güven unsuru, otel-ajans işbirliği bağlamı",
+      caption: "Checkup çıktıları kartı, amaç güven unsuru, otel-ajans işbirliği bağlamı"
     }
   },
 
