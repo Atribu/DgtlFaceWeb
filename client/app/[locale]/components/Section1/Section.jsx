@@ -8,7 +8,7 @@ const Section = () => {
   const t = useTranslations("Homepage.partners");
 
   return (
-    <section className="flex flex-col w-[96%] md:w-[90%] items-center justify-center">
+    <section className="flex flex-col w-[96%] md:w-[90%] items-center justify-center my-5 lg:my-10">
       {/* Sol Kısım: Metin */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] lg:gap-0">
         <div className="flex flex-col w-full md:w-1/2 lg:p-6 justify-center items-center md:items-start md:justify-start text-center md:text-start text-darkBlue gap-[6px] font-inter">

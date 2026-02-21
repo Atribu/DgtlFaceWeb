@@ -2,13 +2,14 @@ import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { headers } from "next/headers";
 import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
 // import Footer from "./components/footer/Footer";
 // import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
 // import FloatingFaqButton from "./components/common/FloatingFaqButton";
-import { GoogleTagManager } from '@next/third-parties/google'
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import dynamic from 'next/dynamic';
 import {
@@ -26,8 +27,69 @@ const inter = Inter({
   variable: "--font-inter", 
 });
 
-function buildClientMessages(allMessages) {
+const HOME_MESSAGE_KEYS = new Set([
+  "Header",
+  "Footer",
+  "Homepage",
+  "AboutPage",
+  "CookiePopup",
+  "LocaleSwitcher",
+]);
+
+function cleanPathname(input) {
+  if (!input) return "";
+
+  const raw = String(input).trim();
+  if (!raw) return "";
+
+  try {
+    if (raw.startsWith("http://") || raw.startsWith("https://")) {
+      return new URL(raw).pathname || "";
+    }
+  } catch {}
+
+  if (!raw.startsWith("/")) return "";
+  const pathname = raw.split("?")[0];
+  return pathname.endsWith("/") && pathname.length > 1
+    ? pathname.slice(0, -1)
+    : pathname;
+}
+
+function isHomepageRequestByValue(value, locale) {
+  if (!value) return false;
+
+  const pathname = cleanPathname(value);
+  if (pathname === "/" || pathname === `/${locale}`) return true;
+
+  const raw = String(value).split("?")[0];
+  return raw === "/[locale]" || raw === "/[locale]/page";
+}
+
+function isHomepageRequest(headerList, locale) {
+  if (!headerList) return false;
+
+  const pathHeaders = [
+    "next-url",
+    "x-next-url",
+    "x-pathname",
+    "x-invoke-path",
+    "x-matched-path",
+    "x-nextjs-matched-path",
+  ];
+
+  return pathHeaders.some((key) =>
+    isHomepageRequestByValue(headerList.get(key), locale)
+  );
+}
+
+function buildClientMessages(allMessages, { homepageOnly = false } = {}) {
   if (!allMessages || typeof allMessages !== "object") return allMessages;
+
+  if (homepageOnly) {
+    return Object.fromEntries(
+      Object.entries(allMessages).filter(([key]) => HOME_MESSAGE_KEYS.has(key))
+    );
+  }
 
   const rawBlogPosts = allMessages.BlogPosts;
   if (!rawBlogPosts || typeof rawBlogPosts !== "object") return allMessages;
@@ -162,12 +224,41 @@ export default async function RootLayout({ children,  params }) {
   }
       setRequestLocale(locale)
        const allMessages = await getMessages();
-       const messages = buildClientMessages(allMessages);
+       const headerList = await headers();
+       const homepageOnly = isHomepageRequest(headerList, locale);
+       const messages = buildClientMessages(allMessages, { homepageOnly });
 
 
   return (
     <>
-      <GoogleTagManager gtmId="GTM-TM2KPGV9" />
+      <Script
+        id="gtm-idle-loader"
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){
+              function injectGtm() {
+                if (w.__gtmLoaded) return;
+                w.__gtmLoaded = true;
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0];
+                var j = d.createElement(s);
+                var dl = l !== 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+              }
+
+              if ('requestIdleCallback' in w) {
+                w.requestIdleCallback(injectGtm, {timeout: 4000});
+              } else {
+                w.setTimeout(injectGtm, 1200);
+              }
+            })(window, document, 'script', 'dataLayer', 'GTM-TM2KPGV9');
+          `,
+        }}
+      />
    
       <div className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>

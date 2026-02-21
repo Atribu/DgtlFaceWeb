@@ -6,7 +6,7 @@ export function AiAnswerBlock({ text }) {
   return (
     <section
       className="
-        mt-4
+        mt-4 lg:mt-10 mb-8
         w-[94%] lg:w-[88%]
         rounded-2xl
         border border-white/10

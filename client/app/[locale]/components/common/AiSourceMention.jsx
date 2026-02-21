@@ -2,7 +2,7 @@ import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 
 export function AiSourceMention({ text }) {
   return (
-    <div className="flex w-screen items-center justify-center py-3 lg:py-6 mb-0">
+    <div className="flex w-screen items-center justify-center py-3 lg:py-6 my-4 lg:my-10">
       <section
         className="
           w-[94%] lg:w-[80%]

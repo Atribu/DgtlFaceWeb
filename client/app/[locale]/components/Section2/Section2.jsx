@@ -48,7 +48,7 @@ const Section2 = () => {
 ];
 
   return (
-    <div className="flex flex-col items-center justify-center gap-8 h-auto w-screen">
+    <div className="flex flex-col items-center justify-center gap-8 h-auto w-screen ">
       {/* Header alanı isteğe bağlı */}
       <div className="flex justify-center items-center gap-8 text-center ml-[4%] md:ml-0 w-[96%] md:w-[80%] lg:max-w-[968px]">
         {/* Buraya header içeriklerinizi ekleyebilirsiniz */}

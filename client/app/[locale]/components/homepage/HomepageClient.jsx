@@ -45,7 +45,7 @@ export default function HomePage() {
           <ViewportLazyMount
             rootMargin="40px 0px"
             threshold={0.22}
-            minHeight={520}
+            minHeight={420}
             className="w-full"
           >
             <Section3List page="Homepage" />
@@ -59,7 +59,7 @@ export default function HomePage() {
           <ViewportLazyMount
             rootMargin="80px 0px"
             threshold={0.2}
-            minHeight={320}
+            minHeight={150}
             className="w-full"
           >
             <Section2 />
@@ -84,7 +84,7 @@ export default function HomePage() {
           <ViewportLazyMount
             rootMargin="80px 0px"
             threshold={0.24}
-            minHeight={220}
+            minHeight={250}
             className="w-full"
           >
             <Contact />
