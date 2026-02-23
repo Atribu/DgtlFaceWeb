@@ -121,7 +121,8 @@ export const BLOG_MAP = {
 
     "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":"BlogWebSitesiBakimPlaniAylikVeCeyreklikKontrolListesi",
     "nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":"BlogYazilimNextjsVeModernWebProjelerindeVersiyonGuncellemeVeRefactoringStratejisi",
-    "otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":"BlogSoftwareOtelWebSiteleriIcinSezonOncesiTeknikCheckup"
+    "otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":"BlogSoftwareOtelWebSiteleriIcinSezonOncesiTeknikCheckup",
+    "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":"BlogIncidentSonrasiPostmortemVeRootCauseAnaliziNasilYapilir"
   },
    
   creative: {
@@ -151,7 +152,8 @@ export const BLOG_MAP = {
 
     "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar",
     "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye",
-    "otel-calisan-odullendirme-hediye-programi":"BlogOtelCalisanOdullendirmeHediyeProgrami"
+    "otel-calisan-odullendirme-hediye-programi":"BlogOtelCalisanOdullendirmeHediyeProgrami",
+    "otel-etkinlik-katilimci-hediyeleri-mice-lansman":"BlogOtelEtkinlikKatilimciHediyeleriMiceLansman"
   },
 
        "cagri-merkezi": {

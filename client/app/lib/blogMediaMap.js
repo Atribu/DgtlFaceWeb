@@ -10756,13 +10756,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Organik ve reklam panelleri, tek raporda karar akışı, turizm ve B2B raporlama"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/smm/SMM5-4/SMM5-4-3.webp",
       alt: "Organik paid KPI ayrımı, entegre raporlama, otel ve B2B dashboard yapısı",
       caption: "Organik paid KPI ayrımı, entegre raporlama, otel ve B2B dashboard yapısı"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/smm/SMM5-4/SMM5-4-4.webp",
       alt: "op-performer kreatif geçişi, bütçe ve görünürlük etkisi, Meta Ads raporu",
       caption: "op-performer kreatif geçişi, bütçe ve görünürlük etkisi, Meta Ads raporu"
@@ -10780,7 +10780,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Organik paid rapor checklist’i, birleşik okuma, otel ve B2B ekipleri"
     },
 
-      "kpi-07": {
+      "dashboard-mockup-note": {
       src: "/images/blog/smm/SMM5-4/SMM5-4-7.webp",
       alt: "Organik ve paid KPI skor kartı, bütçe performans kıyası, turizm ve B2B raporu",
       caption: "Organik ve paid KPI skor kartı, bütçe performans kıyası, turizm ve B2B raporu"
@@ -10793,6 +10793,105 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+  "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":{
+     banner: {
+      src: "/images/blog/software/Software5-4/Software5-4-1.webp",
+      alt: "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?",
+      caption: "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-4/Software5-4-2.webp",
+      alt: "Timeline ve RCA akışı, amaç kök nedeni bulma, operasyon ve IT bağlamı",
+      caption: "Timeline ve RCA akışı, amaç kök nedeni bulma, operasyon ve IT bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software5-4/Software5-4-3.webp",
+      alt: "Postmortem şablon bölümü, amaç standardizasyon, otel ve B2B ekip bağlamı",
+      caption: "Postmortem şablon bölümü, amaç standardizasyon, otel ve B2B ekip bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software5-4/Software5-4-4.webp",
+      alt: "Aksiyon ve geri besleme bölümü, amaç süreç olgunluğu, bakım ve destek bağlamı",
+      caption: "Aksiyon ve geri besleme bölümü, amaç süreç olgunluğu, bakım ve destek bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-4/Software5-4-5.webp",
+      alt: "5 Why ve Fishbone RCA diyagramı, amaç kök neden analizi, canlı proje bağlamı",
+      caption: "5 Why ve Fishbone RCA diyagramı, amaç kök neden analizi, canlı proje bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-4/Software5-4-6.webp",
+      alt: "Incident sonrası checklist kartı, amaç hızlı uygulama, otel ve B2B operasyon bağlamı",
+      caption: "Incident sonrası checklist kartı, amaç hızlı uygulama, otel ve B2B operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-4/Software5-4-7.webp",
+      alt: "Incident KPI skor kartı, amaç etkiyi ölçme, yönetim raporu bağlamı",
+      caption: "Incident KPI skor kartı, amaç etkiyi ölçme, yönetim raporu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-4/Software5-4-8.webp",
+      alt: "Postmortem çıktıları kartı, amaç güven ve öğrenme, ajans ve işletme bağlamı",
+      caption: "Postmortem çıktıları kartı, amaç güven ve öğrenme, ajans ve işletme bağlamı"
+    }
+  },
+
+  "otel-etkinlik-katilimci-hediyeleri-mice-lansman":{
+     banner: {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-1.webp",
+      alt: "MICE ve Lansman Etkinlikleri için Katılımcı Hediyeleri: Otellerde Paket Tasarımı",
+      caption: "MICE ve Lansman Etkinlikleri için Katılımcı Hediyeleri: Otellerde Paket Tasarımı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-2.webp",
+      alt: "Delegate pack masaüstü düzeni, sponsor alanı ve otel MICE bağlamı",
+      caption: "Delegate pack masaüstü düzeni, sponsor alanı ve otel MICE bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-3.webp",
+      alt: "MICE hediye tasarım adımları, segment ve sponsorluk otel bağlamı",
+      caption: "MICE hediye tasarım adımları, segment ve sponsorluk otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-4.webp",
+      alt: "Sponsor-dostu kutu tasarımı, branding alanları ve otel etkinlik bağlamı",
+      caption: "Sponsor-dostu kutu tasarımı, branding alanları ve otel etkinlik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-5.webp",
+      alt: "Öncesi-günü-sonrası hediye akışı diyagramı, MICE satış ve otel bağlamı",
+      caption: "Öncesi-günü-sonrası hediye akışı diyagramı, MICE satış ve otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-6.webp",
+      alt: "MICE hediye paketi seçim checklist’i, segment ve otel etkinlik bağlamı",
+      caption: "MICE hediye paketi seçim checklist’i, segment ve otel etkinlik bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-7.webp",
+      alt: "MICE hediye KPI kartı, follow-up ve sponsor memnuniyeti otel bağlamı",
+      caption: "MICE hediye KPI kartı, follow-up ve sponsor memnuniyeti otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-4/Creative5-4-8.webp",
+      alt: "MICE hediye çıktıları, matriks ve sponsor kılavuzu otel bağlamı",
+      caption: "MICE hediye çıktıları, matriks ve sponsor kılavuzu otel bağlamı"
+    }
+  },
 
   "bos":{
      banner: {

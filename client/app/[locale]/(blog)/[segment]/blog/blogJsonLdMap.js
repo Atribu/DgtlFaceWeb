@@ -12593,7 +12593,8 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
-}
+},
+"incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":{}
 
     },
 
@@ -15780,6 +15781,152 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Töreni kısa tutun, kriterleri tekrar ederek adalet duygusunu güçlendirin ve kazananın hikâyesini anlatın. Foto/video ile görünürlük üretin; ön duyuru, adaylık süreci, kazanan hikâyesi ve sonraki hedef adımlarını planlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-etkinlik-katilimci-hediyeleri-mice-lansman":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman",
+      "name": "MICE ve Lansman Etkinlikleri için Katılımcı Hediyeleri: Otellerde Paket Tasarımı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#article",
+      "headline": "MICE ve Lansman Etkinlikleri için Katılımcı Hediyeleri: Otellerde Paket Tasarımı",
+      "description": "MICE ve lansman hediyelerini segmente göre tasarlayın: masaüstü, seyahat, teknoloji, deneyim seçenekleri; sponsor branding, akış planı ve hediye matrisi.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "mice katilimci hediye seti",
+        "kurumsal lansman hediye paketi",
+        "sponsor logolu otel etkinlik hediyeleri",
+        "mice delegate gift ideas",
+        "corporate launch gift pack",
+        "sponsor-friendly event gifting"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "MICE ve Lansman Katılımcı Hediye Paketi Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#product",
+      "name": "MICE Katılımcı Hediye Paketi (Delegate Pack) Tasarım Paketi",
+      "description": "MICE ve lansman etkinlikleri için segment bazlı, sponsor-dostu hediye paketi tasarımı ve örnek set kombinasyonları.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "MICE / Event Gifting / Delegate Pack"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative",
+          "item": "https://dgtlface.com/tr/creative"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye & Tasarım",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "MICE Katılımcı Hediyeleri",
+          "item": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-etkinlik-katilimci-hediyeleri-mice-lansman#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "MICE ve lansman etkinlikleri için hediye paketi nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce katılımcıları segmente ayırın, sonra her segmente uygun hediye türünü seçin (masaüstü/seyahat/teknoloji/deneyim). Branding ve sponsor alanlarını tasarımı boğmadan planlayın. Hediyeyi öncesi–günü–sonrası akışına bağlayıp QR ile tek CTA’lı follow-up kurgulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "C-Level ve karar vericiler için hangi hediyeler daha uygundur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "C-Level için az ama rafine yaklaşımı uygundur: premium masaüstü parçası, minimal tasarım ve yüksek kalite algısı. Sponsor görünürlüğü minimal tutulmalı ve kişisel teşekkür kartı ile itibar katmanı eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sponsor markaları hediye kutusuna nasıl entegre etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 ana + 1 ikincil alan kuralıyla ilerleyin; sleeve ve kart arka yüzü güvenli alanlardır. Logo sayısını sınırlayın ve sponsor renklerini tasarım diliyle çatıştırmayın. Kalite standardı sponsor ürünlerinde de korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etkinlik öncesi/günü/sonrası hediye akışını nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öncesi dönemde VIP/konuşmacı için seçici bir dokunuş planlayın, etkinlik günü delegate pack teslim edin, sonrasında teşekkür + seçici follow-up hediyesiyle satış temasını güçlendirin. QR ile tek CTA kurmak ölçüm ve geri dönüşü kolaylaştırır."
           }
         }
       ]
