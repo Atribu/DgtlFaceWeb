@@ -10438,6 +10438,57 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "otel-calisan-odullendirme-hediye-programi":{
+     banner: {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-1.webp",
+      alt: "Otel Çalışan Ödüllendirme ve Hediye Programları: Motivasyon Odaklı Tasarım",
+      caption: "Otel Çalışan Ödüllendirme ve Hediye Programları: Motivasyon Odaklı Tasarım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-2.webp",
+      alt: "Ödül töreni ve iç iletişim duyurusu, otel ekip kültürü bağlamı",
+      caption: "Ödül töreni ve iç iletişim duyurusu, otel ekip kültürü bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-3.webp",
+      alt: "Ödül programı tasarım adımları, HR ve otel kültürü bağlamı",
+      caption: "Ödül programı tasarım adımları, HR ve otel kültürü bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-4.webp",
+      alt: "Ödül töreni sahnesi ve iç iletişim duyurusu, otel kültürü bağlamı",
+      caption: "Ödül töreni sahnesi ve iç iletişim duyurusu, otel kültürü bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-5.webp",
+      alt: "Ödül programı iletişim akışı diyagramı, iç iletişim ve otel bağlamı",
+      caption: "Ödül programı iletişim akışı diyagramı, iç iletişim ve otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-6.webp",
+      alt: "Çalışan ödül programı checklist’i, adalet ve otel kültürü bağlamı",
+      caption: "Çalışan ödül programı checklist’i, adalet ve otel kültürü bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-7.webp",
+      alt: "Ödül programı KPI kartı, bağlılık ve memnuniyet trendi otel bağlamı",
+      caption: "Ödül programı KPI kartı, bağlılık ve memnuniyet trendi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative5-3/Creative5-3-8.webp",
+      alt: "Program çıktıları ve güven unsurları, otel kültürü bağlamı",
+      caption: "Program çıktıları ve güven unsurları, otel kültürü bağlamı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

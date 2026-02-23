@@ -147,7 +147,8 @@ export const BLOG_MAP = {
     "otel-etkinlik-same-day-edit-aninda-icerik":"BlogCreativeOtelEtkinlikSameDayEditAnindaIcerik",
 
     "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar",
-    "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye"
+    "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye",
+    "otel-calisan-odullendirme-hediye-programi":"BlogOtelCalisanOdullendirmeHediyeProgrami"
   },
 
        "cagri-merkezi": {

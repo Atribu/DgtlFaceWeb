@@ -15298,8 +15298,145 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
 
+"otel-calisan-odullendirme-hediye-programi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi",
+      "name": "Otel Çalışan Ödüllendirme ve Hediye Programları: Motivasyon Odaklı Tasarım",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#breadcrumb"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#article",
+      "headline": "Otel Çalışan Ödüllendirme ve Hediye Programları: Motivasyon Odaklı Tasarım",
+      "description": "Otel çalışan ödüllendirme ve hediye programını kriter, katalog, tören ve iç iletişimle kurun. Şeffaf puanlama, 12 aylık takvim ve checklist.",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#webpage"
+      },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "keywords": [
+        "otel calisan odullendirme programi",
+        "personel hediye kataloğu tasarimi",
+        "insentif hediye otel sektoru",
+        "hotel employee reward gifts",
+        "staff recognition programme design",
+        "incentive gifts for hospitality"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "serviceType": "Çalışan Ödüllendirme ve Kurumsal Hediye Program Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Creative",
+          "item": "https://dgtlface.com/tr/creative"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kurumsal Hediye & Tasarım",
+          "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çalışan Ödüllendirme Programı",
+          "item": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/otel-calisan-odullendirme-hediye-programi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çalışanları için ödül ve hediye programı nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedefi belirleyip ödül kategorilerini tanımlayın; ardından adil kriterler ve şeffaf puanlama sistemi kurun. Deneyim/ürün/sembol hediye tiplerinden bir katalog oluşturun, tören ve iç iletişim planını hazırlayın. Son olarak HR–Finans–Operasyon süreçlerini vergi/bordro/KVKK açısından uyumlu hale getirip ölçümle optimize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kriterlere göre ödül vermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kriterler ölçülebilir ve departmana uyarlanabilir olmalı; örneğin misafir geri bildirimi, hedef tamamlama, ekip SLA’sı, gelişim (eğitim + uygulama) ve inovasyon/tasarruf katkıları. Kanıt kaynağı (rapor/CRM/portal) tanımlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çalışanlar hangi hediye tiplerinden daha çok motive olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bu nedenle katalog mantığı önerilir: deneyimler yüksek motivasyon sağlar, ürünler hızlı ve pratik ödüllerdir, semboller ise kültürü görünür kılar. Seçim hakkı ve iyi sunum motivasyonu artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ödül töreni ve iç iletişimi nasıl kurgulamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Töreni kısa tutun, kriterleri tekrar ederek adalet duygusunu güçlendirin ve kazananın hikâyesini anlatın. Foto/video ile görünürlük üretin; ön duyuru, adaylık süreci, kazanan hikâyesi ve sonraki hedef adımlarını planlayın."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     },
 
