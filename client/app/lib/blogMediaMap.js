@@ -10893,53 +10893,53 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
-  "bos":{
+  "temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":{
      banner: {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-1.webp",
+      alt: "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+      caption: "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak"
     },
 
           "h1-context-02": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-2.webp",
+      alt: "Koçluk görüşmesi ve KPI kartı ile gelişim planı, otel operasyon yönetimi bağlamı",
+      caption: "Koçluk görüşmesi ve KPI kartı ile gelişim planı, otel operasyon yönetimi bağlamı"
     },
 
-           "divider-03": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
-      alt: "",
-      caption: ""
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-3.webp",
+      alt: "Nicel nitel ve bağlam katmanları, adil performans okuması görsel geçişi",
+      caption: "Nicel nitel ve bağlam katmanları, adil performans okuması görsel geçişi"
     },
 
-    "divider-04": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
-      alt: "",
-      caption: ""
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-4.webp",
+      alt: "Performans konuşmaları için gelişim kültürü, koçluk yaklaşımı geçiş görseli",
+      caption: "Performans konuşmaları için gelişim kültürü, koçluk yaklaşımı geçiş görseli"
     },
 
      "diagram-05": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-5.webp",
+      alt: "Koçluk görüşmesi akışı, veri dinleme plan takip adımları, otel çağrı merkezi",
+      caption: "Koçluk görüşmesi akışı, veri dinleme plan takip adımları, otel çağrı merkezi"
     },
 
           "checklist-06": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-6.webp",
+      alt: "Temsilci KPI kartı checklist’i, koçluk ve gelişim planı için hızlı kontrol",
+      caption: "Temsilci KPI kartı checklist’i, koçluk ve gelişim planı için hızlı kontrol"
     },
 
       "kpi-07": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-7.webp",
+      alt: "Bireysel KPI kart örneği, hız çözüm satış kalite modülleri tek kartta",
+      caption: "Bireysel KPI kart örneği, hız çözüm satış kalite modülleri tek kartta"
     },
 
           "proof-08": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/callcenter/Callcenter5-4/Callcenter5-4-8.webp",
+      alt: "Koçluk görüşmesi ve gelişim planı çıktıları, otel çağrı merkezi HR deliverables",
+      caption: "Koçluk görüşmesi ve gelişim planı çıktıları, otel çağrı merkezi HR deliverables"
     }
   },
 

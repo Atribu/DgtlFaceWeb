@@ -18891,6 +18891,126 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi",
+      "headline": "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+      "name": "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+      "description": "Otel çağrı merkezinde temsilci KPI’larını insan odaklı okuyun: cevaplanma, FCR, satış, kalite dinleme ve misafir geri bildirimi. Koçluk akışı ve gelişim planı şablonu.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi#article" },
+      "about": [
+        "Agent Performance",
+        "Coaching",
+        "KPI",
+        "Quality Monitoring",
+        "After-Sales Support",
+        "Hotel Call Center"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Temsilci Bazlı Performans ve Koçluk: Otel Çağrı Merkezinde KPI’ları İnsan Odaklı Okumak",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi temsilcileri için bireysel KPI’lar nasıl seçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI’ları hız, çözüm/kalite, satış ve deneyim modüllerinde seçin; her KPI’yı kanal/talep türü/vardiya bağlamıyla okuyun. Quality Monitoring skoru ve misafir geri bildirimi gibi nitel verileri mutlaka ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KPI sonuçlarını koçlukta nasıl kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2–4 haftalık trend ve bağlamla hazırlanıp veriyi birlikte görün; 1–2 kayıt/örnek üzerinden davranış düzeyinde konuşun. 1 güçlü yön + 1 gelişim alanı seçip 14 günlük plan ve takip tarihi belirleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düşük performanslı temsilci ile nasıl konuşulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suçlayıcı değil gelişim dili kullanın: veri + bağlam + örnek + plan akışını izleyin. Tek metrikle hüküm vermeyin, destek adımı ekleyin ve yeniden ölçüm tarihini netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prim sistemi KPI’larla nasıl dengelenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış KPI’larını kalite ve memnuniyet bariyerleriyle dengeleyin; kalite düşüyorsa prim tavanını sınırlayan bir kural koyun. Hedefleri kanal/segment/vardiya bağlamına göre adil ayarlayın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

@@ -183,7 +183,8 @@ export const BLOG_MAP = {
 
     "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber",
     "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi",
-    "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":"BlogKanalBazliPerformansAnaliziTelefonWhatsappDmOta"
+    "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":"BlogKanalBazliPerformansAnaliziTelefonWhatsappDmOta",
+    "temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":"BlogTemsilciBazliPerformansVeKoclukOtelCagriMerkezi"
   },
 
     "pms-ota": {
