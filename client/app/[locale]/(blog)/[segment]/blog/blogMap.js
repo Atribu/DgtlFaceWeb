@@ -27,7 +27,8 @@ export const BLOG_MAP = {
 
     "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":"BlogSemOtelReklamRaporuNasilOkunurTemelKpiRehberi",
     "roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":"BlogRoasVeCpaOtelKampanyalarindaNasilYorumlanmali",
-    "otel-icin-looker-studio-reklam-dashboard-tasarimi":"BlogOtelIcinLookerStudioReklamDashboardTasarimi"
+    "otel-icin-looker-studio-reklam-dashboard-tasarimi":"BlogOtelIcinLookerStudioReklamDashboardTasarimi",
+    "otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":"BlogOtelReklamRaporlarindaSezonlukVeYilbazliKarsilastirmaAnalizi"
 
    
   },
@@ -58,7 +59,8 @@ export const BLOG_MAP = {
 
     "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":"BlogSeoSeoRaporuNasilHazirlanirTemelKpiRehberi",
     "ga4-ve-search-console-verilerini-birlikte-okumak":"BlogSeoGa4VeSearchConsoleVerileriniBirlikteOkumak",
-    "anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":"BlogSeoAnahtarKelimeSiralamalariVeGorunurlukRaporuNasilYorumlanir"
+    "anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":"BlogSeoAnahtarKelimeSiralamalariVeGorunurlukRaporuNasilYorumlanir",
+    "sayfa-bazli-seo-performans-raporu-landing-page-analizi":"BlogSayfaBazliSeoPerformansRaporuLandingPageAnalizi"
   },
 
     smm: {
@@ -88,7 +90,8 @@ export const BLOG_MAP = {
 
      "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":"BlogSmmSosyalMedyaPerformansRaporuKpiCercevesi",
      "ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":"BlogSmmGa4VeSosyalMedyaInsightsVerileriniBirlikteOkumak",
-     "icerik-bazli-performans-analizi-post-story-reels-raporu":"BlogSmmIcerikBazliPerformansAnaliziPostStoryReelsRaporu"
+     "icerik-bazli-performans-analizi-post-story-reels-raporu":"BlogSmmIcerikBazliPerformansAnaliziPostStoryReelsRaporu",
+     "organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":"BlogOrganikVeReklamliSosyalMedyaPerformansiniBirlikteRaporlamak"
   },
 
     yazilim: {

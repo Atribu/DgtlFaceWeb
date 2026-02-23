@@ -10643,6 +10643,157 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+   "otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":{
+     banner: {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-1.webp",
+      alt: "Otel Reklam Raporlarında Sezonluk ve Yıl Bazlı Karşılaştırma Analizi Nasıl Yapılır?",
+      caption: "Otel Reklam Raporlarında Sezonluk ve Yıl Bazlı Karşılaştırma Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-2.webp",
+      alt: "Sezon dilimleme ve YoY karşılaştırma, otel reklam kararlarını netleştirir",
+      caption: "Sezon dilimleme ve YoY karşılaştırma, otel reklam kararlarını netleştirir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-3.webp",
+      alt: "Sezonluk dalgalanma analizi, otel reklam KPI yorumunu stabilize eder",
+      caption: "Sezonluk dalgalanma analizi, otel reklam KPI yorumunu stabilize eder"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-4.webp",
+      alt: "YoY benchmark mantığı, otel reklam performansını aynı dönemde kıyaslar",
+      caption: "YoY benchmark mantığı, otel reklam performansını aynı dönemde kıyaslar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-5.webp",
+      alt: "YoY kıyas grafiği, sezon performansını otel reklam raporunda gösterir",
+      caption: "YoY kıyas grafiği, sezon performansını otel reklam raporunda gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-6.webp",
+      alt: "Sezon analizi checklist’i, otel raporunda doğru dönem seçimi sağlar",
+      caption: "Sezon analizi checklist’i, otel raporunda doğru dönem seçimi sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-7.webp",
+      alt: "Sezon KPI scorecard, bütçe pacing ve teklif kararını hızlandırır",
+      caption: "Sezon KPI scorecard, bütçe pacing ve teklif kararını hızlandırır"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-4/SEM5-4-8.webp",
+      alt: "Sezon ve YoY rapor çıktıları, otel yönetim kararını güçlendirir",
+      caption: "Sezon ve YoY rapor çıktıları, otel yönetim kararını güçlendirir"
+    }
+  },
+
+"sayfa-bazli-seo-performans-raporu-landing-page-analizi":{
+     banner: {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-1.webp",
+      alt: "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+      caption: "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-2.webp",
+      alt: "GSC+GA4 landing okuması, amaç teşhis ve öncelik, turizm sitesi bağlamı",
+      caption: "GSC+GA4 landing okuması, amaç teşhis ve öncelik, turizm sitesi bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-3.webp",
+      alt: "Landing seçimi ayırıcı, amaç kapsam belirlemek, otel sitesi bağlamı",
+      caption: "Landing seçimi ayırıcı, amaç kapsam belirlemek, otel sitesi bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-4.webp",
+      alt: "Önceliklendirme ayırıcı, amaç sprint planı, hizmet sitesi bağlamı",
+      caption: "Önceliklendirme ayırıcı, amaç sprint planı, hizmet sitesi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-5.webp",
+      alt: "Landing teşhis akışı diyagramı, amaç sorun katmanını bulmak, otel pazarlama bağlamı",
+      caption: "Landing teşhis akışı diyagramı, amaç sorun katmanını bulmak, otel pazarlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-6.webp",
+      alt: "Top 10 landing checklist kartı, amaç önceliklendirme, ajans raporlama bağlamı",
+      caption: "Top 10 landing checklist kartı, amaç önceliklendirme, ajans raporlama bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-7.webp",
+      alt: "Landing KPI skor kartı, amaç önce-sonra kıyas, otel dönüşüm bağlamı",
+      caption: "Landing KPI skor kartı, amaç önce-sonra kıyas, otel dönüşüm bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-4/SEO5-4-8.webp",
+      alt: "Landing aksiyon deliverables kartı, amaç yönetim sunumu, otel-ajans bağlamı",
+      caption: "Landing aksiyon deliverables kartı, amaç yönetim sunumu, otel-ajans bağlamı"
+    }
+  },
+
+  "organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":{
+     banner: {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-1.webp",
+      alt: "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+      caption: "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-2.webp",
+      alt: "Organik ve reklam panelleri, tek raporda karar akışı, turizm ve B2B raporlama",
+      caption: "Organik ve reklam panelleri, tek raporda karar akışı, turizm ve B2B raporlama"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-3.webp",
+      alt: "Organik paid KPI ayrımı, entegre raporlama, otel ve B2B dashboard yapısı",
+      caption: "Organik paid KPI ayrımı, entegre raporlama, otel ve B2B dashboard yapısı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-4.webp",
+      alt: "op-performer kreatif geçişi, bütçe ve görünürlük etkisi, Meta Ads raporu",
+      caption: "op-performer kreatif geçişi, bütçe ve görünürlük etkisi, Meta Ads raporu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-5.webp",
+      alt: "Organik top-performer’dan paid testine geçiş, kreatif öğrenim modeli, otel pazarlaması",
+      caption: "Organik top-performer’dan paid testine geçiş, kreatif öğrenim modeli, otel pazarlaması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-6.webp",
+      alt: "Organik paid rapor checklist’i, birleşik okuma, otel ve B2B ekipleri",
+      caption: "Organik paid rapor checklist’i, birleşik okuma, otel ve B2B ekipleri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-7.webp",
+      alt: "Organik ve paid KPI skor kartı, bütçe performans kıyası, turizm ve B2B raporu",
+      caption: "Organik ve paid KPI skor kartı, bütçe performans kıyası, turizm ve B2B raporu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-4/SMM5-4-8.webp",
+      alt: "Birleşik SMM rapor teslim paketi, dashboard ve yönetici özeti, ajans raporlama",
+      caption: "Birleşik SMM rapor teslim paketi, dashboard ve yönetici özeti, ajans raporlama"
+    }
+  },
+
+
   "bos":{
      banner: {
       src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",

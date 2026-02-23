@@ -3005,6 +3005,126 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi",
+      "headline": "Otel Reklam Raporlarında Sezonluk ve Yıl Bazlı Karşılaştırma Analizi Nasıl Yapılır?",
+      "name": "Otel Reklam Raporlarında Sezonluk ve Yıl Bazlı Karşılaştırma Analizi Nasıl Yapılır?",
+      "description": "Otel reklam raporlarını sezon ve YoY (geçen yıl aynı dönem) ile karşılaştırın. CPA/ROAS’ı talep, fiyat ve bütçe pacing’iyle yorumlayıp doğru karar verin.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Seasonality",
+        "YoY Comparison",
+        "High Season",
+        "Shoulder Season",
+        "Low Season",
+        "Hotel Ad Performance",
+        "budget pacing",
+        "demand-adaptation"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#service",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "serviceType": "Sezonsallık ve Benchmark Odaklı SEM Raporlama",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/tr/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklam Raporlarında Sezonluk ve Yıl Bazlı Karşılaştırma Analizi Nasıl Yapılır?", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklam raporlarında sezonluk analiz nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönemi high/shoulder/low olarak dilimleyin, her dilimde aynı KPI setini (harcama, dönüşüm, CPA, ROAS) izleyin ve her dilimi YoY (geçen yıl aynı dönem) ile kıyaslayın. Sonuçları kanal ve kampanya rolüne göre yorumlayıp sezon→aksiyon kararını üretin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Geçen yılla kıyaslama (YoY) neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otellerde talep ve fiyat sezona göre değişir; YoY kıyas aynı dönemde gerçek performans farkını görmenizi sağlar. Tek dönem okumak sezon etkisiyle yanıltıcı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon, shoulder sezon ve düşük sezonda hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High season’da pacing, dönüşüm adedi ve ROAS; shoulder’da CPA iyileştirme ve test KPI’ları; low season’da CPA (lead/arama), destek KPI’lar ve remarketing havuzu öne çıkar. KPI’ları set halinde okumak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezonluk değişime göre bütçe ve teklif nasıl ayarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YoY ile talep seviyesini doğruladıktan sonra high season’da bütçeyi kontrollü pace edin, shoulder’da verim testleriyle optimize edin, low season’da hedefi talep/havuz büyütmeye kaydırın. Teklif/mesajı sezona göre güncelleyerek dönüşüm oranını koruyun."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi#howto",
+      "name": "Otel reklamlarında sezonluk ve YoY analiz süreci",
+      "step": [
+        { "@type": "HowToStep", "name": "Sezon dilimlerini belirle", "text": "Dönemi high/shoulder/low olarak etiketle ve her dilim için sabit KPI seti tanımla." },
+        { "@type": "HowToStep", "name": "YoY dönem eşleşmesini yap", "text": "Geçen yılın aynı hafta/aynı ay verisini çıkar ve takvim kaymasını not et." },
+        { "@type": "HowToStep", "name": "KPI setiyle kıyasla", "text": "CPA, ROAS, dönüşüm ve harcama pacing’ini set halinde karşılaştır; ADR/enflasyon notu ekle." },
+        { "@type": "HowToStep", "name": "Kanal ve rol kırılımına in", "text": "Kampanyaları rolüne göre ayır (brand/generic/remarketing) ve kanal bazında sezon etkisini yorumla." },
+        { "@type": "HowToStep", "name": "Sezon → aksiyon kararını ver", "text": "Bütçe pacing’i ve teklif stratejisini sezona göre artır/kıs/test olarak planla ve rapora yaz." }
+      ]
+    }
+  ]
 }
 
     },
@@ -5961,6 +6081,133 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/seo/blog/anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"sayfa-bazli-seo-performans-raporu-landing-page-analizi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi",
+      "name": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#article",
+      "headline": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?",
+      "description": "Landing bazlı SEO raporuyla görünürlük, trafik, davranış ve dönüşümü aynı tabloda oku. Yüksek görüntüleme-düşük dönüşüm senaryosunu çöz; CWV/hız etkisini dahil et.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service",
+      "name": "SEO Raporlama & Performans Analizi",
+      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "SEO Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/seo/seo-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Sayfa Bazlı SEO Performans Raporu: Landing Page Analizi Nasıl Yapılır?", "item": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Landing page SEO performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSC’de sayfanın impressions/clicks/CTR/konum verisini; GA4’te organik oturum, etkileşim ve dönüşüm verisini aynı tarih aralığında birleştirerek ölçülür. Sonuç senaryo etiketi ve aksiyonla raporlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bir sayfanın iyi performans gösterdiğini nasıl anlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GSC’de tıklama ve CTR sağlıklıysa, GA4’te organik trafik dönüşüme katkı veriyorsa ve sayfa türüne göre etkileşim düşmüyorsa sayfa iyidir. Ayrıca büyütülebilir olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yüksek görüntüleme ama düşük dönüşüm ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sayfa görünürlük alıyor ama trafik doğru niyette değil ya da landing UX/CTA sürtünmesi vardır. Aksiyon genellikle niyet eşleştirme, ilk ekran vaadi ve CTA/form iyileştirmesidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi sayfaları önce iyileştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öncelik: yüksek impressions ve düşük CTR/dönüşüm potansiyeli olan sayfalar (P1), yüksek trafik ama düşük dönüşümlü sayfalar (P2) ve dönüşümü iyi olup görünürlüğü düşük büyütülebilecek sayfalar (P3)."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#howto",
+      "name": "Sayfa bazlı SEO performans raporu hazırlama",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Landing setini seç ve kategorize et",
+          "text": "Top 20–30 landing’i hizmet/destinasyon/oda/teklif/blog olarak etiketle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GSC + GA4 KPI’larını aynı dönemde birleştir",
+          "text": "Impressions/clicks/CTR/konum ile organik sessions/engagement/conversions verilerini yan yana koy."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Senaryo etiketi ve öncelik ver",
+          "text": "Impr↑CTR↓, Click↑Conv↓ gibi etiketle; P1/P2/P3 önceliğiyle tek ana aksiyon seç ve sprint planına bağla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/sayfa-bazli-seo-performans-raporu-landing-page-analizi#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
@@ -9260,6 +9507,108 @@ export const BLOG_JSONLD_MAP = {
     {
       "@type": "SpeakableSpecification",
       "@id": "https://dgtlface.com/tr/smm/blog/icerik-bazli-performans-analizi-post-story-reels-raporu#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak",
+      "name": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Organic Social" },
+        { "@type": "Thing", "name": "Paid Social" },
+        { "@type": "Thing", "name": "Integrated Reporting" },
+        { "@type": "Thing", "name": "Top-Performer Creatives" },
+        { "@type": "Thing", "name": "Budget Alignment" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#webpage"
+      },
+      "headline": "Organik ve Reklamlı Sosyal Medya Performansını Birlikte Raporlamak",
+      "description": "Organik ve reklamlı sosyal medya KPI’larını tek raporda birleştirin. Top-performing organik içerikleri reklama taşıyın, bütçe/performans etkisini görün ve yönetici özetini hikâyeyle kapatın.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Organik ve Reklamlı Performansı Birlikte Raporlamak", "item": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Organik ve reklamlı sosyal medya performansı birlikte nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organik ve paid KPI’larını ayrı panellerde ölçüp tek raporda birleştirin; üstte Integrated Summary alanında birlikte yorumlayın. Organik top-performer içerikleri reklama taşıyıp paid sonuçlarını aynı satırda gösterin ve raporu yönetici özeti + aksiyon planıyla kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Organik ve reklam KPI’larını nasıl ayırmalı/birleştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organikte reach/engagement ve format KPI’ları; paid’de spend/CPM/CTR/CPL gibi bütçe ve kampanya KPI’ları ayrı okunur. Birlikte okuma tema/pillar ve kreatif düzeyinde yapılır: organik öğrenim → paid ölçek → iş etkisi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Top-performing organik içerikleri reklama nasıl taşırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Top-performer kriteri belirleyin (save/share veya retention), en iyi 5–10 içeriği kreatif aday havuzuna alın. Paid’de 2–3 varyantla test edin ve raporda organik sinyal → paid sonuç → karar (scale/fix/stop) olarak gösterin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yönetici için organik+paid özetini nasıl anlatırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 sayfada amaç, 3 KPI sonucu, 3 öğrenim ve 3 aksiyonla anlatın. Organik ve paid paneller detayda kalsın; yönetici özetinde tek hikâye ve net kararlar yer alsın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak#speakable",
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
