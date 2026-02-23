@@ -177,7 +177,8 @@ export const BLOG_MAP = {
     "otel-satis-sonrasi-destek-ve-sadakat-programlari":"BlogCagriMerkeziOtelSatisSonrasiDestekVeSadakatProgramlari",
 
     "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber",
-    "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi"
+    "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi",
+    "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":"BlogKanalBazliPerformansAnaliziTelefonWhatsappDmOta"
   },
 
     "pms-ota": {
@@ -206,7 +207,8 @@ export const BLOG_MAP = {
     "otel-online-satisinda-upsell-ve-cross-sell-stratejileri":"BlogPmsOtaOtelOnlineSatisindaUpsellVeCrossSellStratejileri",
 
     "rezervasyon-yonetimi-nedir-cok-kanalli-akis":"BlogRezervasyonYonetimiNedirCokKanalliAkis",
-    "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":"BlogRezervasyonSureciAdimAdimTalepOpsiyonOnayCheckin"
+    "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":"BlogRezervasyonSureciAdimAdimTalepOpsiyonOnayCheckin",
+    "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":"BlogCokKanalliRezervasyonYonetimiOTAWEBCallCenter"
   },
 
     "raporlama": {
@@ -262,7 +264,8 @@ export const BLOG_MAP = {
     "ota-yorum-ve-puan-yonetimi-stratejisi":"BlogOtelOTAYorumVePuanYonetimiStratejisi",
 
     "pms-entegrasyonu-nedir-otel-icin-temel-rehber":"BlogPmsEntegrasyonuNedirOtelIcinTemelRehber",
-    "pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":"BlogPmsOtaKanalYonetimiTamEntegrasyonMimarisi"
+    "pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":"BlogPmsOtaKanalYonetimiTamEntegrasyonMimarisi",
+    "pms-web-rezervasyon-sistemi-entegrasyonu":"BlogPMSWebRezervasyonSistemiEntegrasyonu"
     
   }
 };

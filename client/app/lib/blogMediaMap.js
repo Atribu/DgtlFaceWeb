@@ -10489,6 +10489,210 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-1.webp",
+      alt: "Kanal Bazlı Performans Analizi: Telefon, WhatsApp, DM ve OTA Mesajları Nasıl Kıyaslanır?",
+      caption: "Kanal Bazlı Performans Analizi: Telefon, WhatsApp, DM ve OTA Mesajları Nasıl Kıyaslanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-2.webp",
+      alt: "Telefon ve mesaj kanallarında talep akışı, otel satış ve iletişim bağlamı",
+      caption: "Telefon ve mesaj kanallarında talep akışı, otel satış ve iletişim bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-3.webp",
+      alt: "KPI eşdeğerliği ve talep etiketleme, kanal bazlı analiz geçiş görseli",
+      caption: "KPI eşdeğerliği ve talep etiketleme, kanal bazlı analiz geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-4.webp",
+      alt: "Kanal mix strateji kartı ve kıyaslama bölümüne geçiş, otel bağlam",
+      caption: "Kanal mix strateji kartı ve kıyaslama bölümüne geçiş, otel bağlam"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-5.webp",
+      alt: "Telefon mesaj OTA funnel ve karar akışı, talep türüne göre kanal eşleme",
+      caption: "Telefon mesaj OTA funnel ve karar akışı, talep türüne göre kanal eşleme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-6.webp",
+      alt: "Kanal KPI karşılaştırma checklist’i, otel iletişim kanalları için çerçeve",
+      caption: "Kanal KPI karşılaştırma checklist’i, otel iletişim kanalları için çerçeve"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-7.webp",
+      alt: "Telefon WhatsApp DM OTA KPI kartları, hız çözüm dönüşüm özet paneli",
+      caption: "Telefon WhatsApp DM OTA KPI kartları, hız çözüm dönüşüm özet paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-3/Callcenter5-3-8.webp",
+      alt: "Kanal mix KPI tablosu ve aksiyon planı çıktıları, otel operasyon güven kartı",
+      caption: "Kanal mix KPI tablosu ve aksiyon planı çıktıları, otel operasyon güven kartı"
+    }
+  },
+
+
+
+ "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-1.webp",
+      alt: "Çok Kanallı Rezervasyon Yönetimi: OTA, Web ve Çağrı Merkezini PMS’te Birleştirmek",
+      caption: "Çok Kanallı Rezervasyon Yönetimi: OTA, Web ve Çağrı Merkezini PMS’te Birleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-2.webp",
+      alt: "OTA web çağrı merkezi rezervasyonlarının PMS’te source kodlarıyla birleştiği otel görseli",
+      caption: "OTA web çağrı merkezi rezervasyonlarının PMS’te source kodlarıyla birleştiği otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-3.webp",
+      alt: "Kanal ve source kod ayrımına giriş yapan otel süreç bölüm ayırıcı görseli",
+      caption: "Kanal ve source kod ayrımına giriş yapan otel süreç bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-4.webp",
+      alt: "Risk kontrol ve örnek senaryolara geçiş yapan otel süreç ayırıcı görseli",
+      caption: "Risk kontrol ve örnek senaryolara geçiş yapan otel süreç ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-5.webp",
+      alt: "Kanal kaynaklarının source kodlarıyla PMS’e bağlandığı çok kanallı otel diyagramı",
+      caption: "Kanal kaynaklarının source kodlarıyla PMS’e bağlandığı çok kanallı otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-6.webp",
+      alt: "90 günde çok kanallı yapıyı toparlayan yedi adımı özetleyen otel framework kartı",
+      caption: "90 günde çok kanallı yapıyı toparlayan yedi adımı özetleyen otel framework kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-7.webp",
+      alt: "Kanal bazlı rezervasyon sayısı ve gelir karşılaştırmasını gösteren otel KPI skor kartı",
+      caption: "Kanal bazlı rezervasyon sayısı ve gelir karşılaştırmasını gösteren otel KPI skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-3/Pms5-3-8.webp",
+      alt: "Source kod sözlüğü risk raporu ve uygulama planını gösteren otel deliverables kartı",
+      caption: "Source kod sözlüğü risk raporu ve uygulama planını gösteren otel deliverables kartı"
+    }
+  },
+
+"pms-web-rezervasyon-sistemi-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-1.webp",
+      alt: "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?",
+      caption: "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-2.webp",
+      alt: "Gerçek zamanlı fiyat ve müsaitlik akışını anlatan görsel, misafire güven verir",
+      caption: "Gerçek zamanlı fiyat ve müsaitlik akışını anlatan görsel, misafire güven verir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-3.webp",
+      alt: "Web ve PMS rol dağılımını ayıran görsel, otelde direkt satış kararını kolaylaştırır",
+      caption: "Web ve PMS rol dağılımını ayıran görsel, otelde direkt satış kararını kolaylaştırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-4.webp",
+      alt: "Ödeme ve raporlama katmanını ayıran bölüm görseli, funnel adımlarını netleştirir",
+      caption: "Ödeme ve raporlama katmanını ayıran bölüm görseli, funnel adımlarını netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-5.webp",
+      alt: "Trafikten PMS kaydına direkt rezervasyon funnel diyagramı, otelde dönüşümü artırır",
+      caption: "Trafikten PMS kaydına direkt rezervasyon funnel diyagramı, otelde dönüşümü artırır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-6.webp",
+      alt: "Direkt satış funnel kontrol listesi kartı, otelde ölçümü standartlaştırır",
+      caption: "Direkt satış funnel kontrol listesi kartı, otelde ölçümü standartlaştırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-7.webp",
+      alt: "Direkt satış KPI kartı, OTA payı ve ödeme başarısını takip eder",
+      caption: "Direkt satış KPI kartı, OTA payı ve ödeme başarısını takip eder"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-3/Hotel5-3-8.webp",
+      alt: "Entegrasyon teslim çıktıları kartı, otel ekiplerini aynı hedefe bağlar",
+      caption: "Entegrasyon teslim çıktıları kartı, otel ekiplerini aynı hedefe bağlar"
+    }
+  },
+
+
+  "bos":{
+     banner: {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

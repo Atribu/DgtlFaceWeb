@@ -18274,6 +18274,127 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota",
+      "headline": "Kanal Bazlı Performans Analizi: Telefon, WhatsApp, DM ve OTA Mesajları Nasıl Kıyaslanır?",
+      "name": "Kanal Bazlı Performans Analizi: Telefon, WhatsApp, DM ve OTA Mesajları Nasıl Kıyaslanır?",
+      "description": "Telefon, WhatsApp, Instagram DM ve OTA mesajlarını KPI’larla kıyaslayın: yanıt hızı, çözüm, SLA ve dönüşüm. Kanal mix stratejisini netleştirin, kaynak planlayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota#article" },
+      "about": [
+        "Phone Calls",
+        "WhatsApp",
+        "Instagram DM",
+        "OTA Messages",
+        "Conversion Rate",
+        "SLA",
+        "Channel mix performance analysis"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kanal Bazlı Performans Analizi: Telefon, WhatsApp, DM ve OTA Mesajları Nasıl Kıyaslanır?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı ve mesaj kanalları performans açısından nasıl kıyaslanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce KPI’ları eşdeğer hale getirerek aynı dile çevirin (telefon bekleme ↔ mesaj ilk yanıt ↔ OTA SLA). Sonra kanalı talep türü ve segment filtreleriyle ayırın; aynı talepte hız–çözüm–dönüşüm farkını kıyaslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefon mu, WhatsApp mı daha verimli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Talep türüne bağlıdır. Telefon hızlı ikna ve kapanışta güçlü; WhatsApp yazılı takip, kanıt paylaşımı ve süreç yönetiminde avantajlıdır. KPI tablosu ile hangi talepte hangisinin daha iyi çalıştığını netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA mesajları nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA mesajlarında SLA uyumu ve politika etkisi kritik KPI’lardır. İlk yanıt süresi, çözüm oranı ve tekrar mesaj trafiğini birlikte izleyin; hızlı ama çözümsüz yanıtların mesaj yükünü artırabileceğini unutmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanal daha çok rezervasyon getiriyor, nasıl anlarsınız?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conversion Rate ve satış katkısını kanal + talep türü kırılımında okuyarak anlarsınız. Genel ortalama yanıltıcı olabilir; segment (ülke/dil/otel tipi) filtreleri dönüşüm resmini değiştirir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -20920,6 +21041,128 @@ export const BLOG_JSONLD_MAP = {
           "@type": "Question",
           "name": "Onay maili ve voucher süreçleri nasıl yönetilmeli?",
           "acceptedAnswer": { "@type": "Answer", "text": "Onay maili ve voucher; tarih/oda/kişi/fiyat/iptal koşulu/ödeme bilgilerini net taşımalı ve tekil referans numarasıyla check-in’de hızlı doğrulama sağlamalıdır." }
+        }
+      ]
+    }
+  ]
+},
+
+"cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "name": "Rezervasyon Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi#article",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi",
+      "headline": "Çok Kanallı Rezervasyon Yönetimi: OTA, Web ve Çağrı Merkezini PMS’te Birleştirmek",
+      "name": "Çok Kanallı Rezervasyon Yönetimi: OTA, Web ve Çağrı Merkezini PMS’te Birleştirmek",
+      "description": "OTA, web ve çağrı merkezi rezervasyonlarını PMS’te source kodlarıyla birleştirin. Kanal takibi, raporlama ve envanter ayarlarıyla overbooking/çift satış riskini azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": ["Multi-Channel Reservations", "Source Codes", "OTA/Web/Call Center", "Overbooking Risk", "PMS Reporting"],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#service",
+      "name": "Çok Kanallı Rezervasyon Yönetimi Kurulumu ve Optimizasyonu",
+      "serviceType": "PMS & OTA Yönetimi",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum",
+        "Alanya",
+        "İstanbul"
+      ],
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi#howto",
+      "name": "90 Günde Çok Kanallı Rezervasyon Yapısını Toparlama",
+      "description": "Kanal envanteri, source kodları, mapping ve envanter koruma kurallarıyla çok kanallı PMS yapısını 7 adımda kurma.",
+      "step": [
+        { "@type": "HowToStep", "name": "Kanal envanter haritası", "text": "PMS, channel manager, web motoru ve çağrı merkezini; OTA ve kurumsal kaynaklarla birlikte listele." },
+        { "@type": "HowToStep", "name": "Source kod sözlüğü", "text": "OTA_*, WEB_*, CC_* gibi hiyerarşik kodları tanımla ve PMS’te zorunlu alan olarak uygula." },
+        { "@type": "HowToStep", "name": "Mapping kontrolü", "text": "Oda tipi, rate plan ve politika eşleşmelerini test et; en çok hata veren 3 noktayı düzelt." },
+        { "@type": "HowToStep", "name": "Envanter koruma kuralları", "text": "Buffer ve stop-sell eşiklerini kritik oda tipleri için belirle; sezon senaryolarına göre uygula." },
+        { "@type": "HowToStep", "name": "Günlük risk raporu", "text": "Çakışma/overbooking aday listesini günlük 10 dakikalık rutine bağla ve sorumlu ata." },
+        { "@type": "HowToStep", "name": "Haftalık rapor rutini", "text": "Direct vs OTA performansını source kodlarıyla raporla; boş/yanlış source oranını izle." },
+        { "@type": "HowToStep", "name": "Eğitim ve denetim", "text": "Çağrı merkezi ve ön büro için zorunlu alanlar, örnek senaryolar ve denetim kontrolü oluştur." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Çok Kanallı Rezervasyon Yönetimi: OTA, Web ve Çağrı Merkezini PMS’te Birleştirmek", "item": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çok kanallı rezervasyon yönetimi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çok kanallı rezervasyon yönetimi, OTA, web ve çağrı merkezinden gelen rezervasyonları PMS’te tek yapıda toplarken her kaydı doğru source koduyla etiketleyip raporlama ve riski kontrol etmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, web ve çağrı merkezi rezervasyonlarını PMS’te nasıl ayırt ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’te her rezervasyona Channel ve SourceCode atayarak ayırt edersiniz. Kodlar raporların tek filtresi olmalı ve manuel girişlerde source alanı zorunlu tutulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kanal kodları (source) nasıl tanımlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa, okunur ve tek anlama gelen bir hiyerarşiyle (OTA_*, WEB_*, CC_*) tanımlanmalıdır. Başlangıçta 10–20 kodla ilerlemek disiplin ve öğrenme açısından daha etkilidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok kanallı yapıda overbooking riskini nasıl azaltırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Buffer ve stop-sell gibi envanter koruma kuralları, mapping doğruluğu ve günlük çakışma alarm listesiyle overbooking/çift satış riskini yönetilebilir seviyeye indirirsiniz."
+          }
         }
       ]
     }
@@ -27002,6 +27245,167 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "Test ve pilot go-live",
           "text": "Olay bazlı senaryo testlerini çalıştırın; 1–2 kanal + 1 oda tipi ile pilot canlıya geçip 48–72 saat yakın izleme yapın."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-web-rezervasyon-sistemi-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu",
+      "name": "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-web-rezervasyon-sistemi-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS ile web rezervasyon motorunu entegre edin: gerçek zamanlı fiyat/müsaitlik, ödeme–ön provizyon, otomatik PMS kaydı ve GA4 event ölçümüyle direkt satış funnel’ı kurun."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#webpage" },
+      "headline": "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?",
+      "name": "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–web booking engine entegrasyonu; gerçek zamanlı fiyat/müsaitlik gösterimi, ödeme–onay akışı ve otomatik PMS kaydıyla direkt satış funnel’ını ölçülebilir ve optimize edilebilir hâle getirir.",
+      "about": [
+        { "@type": "Thing", "name": "Web Booking Engine" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Availability" },
+        { "@type": "Thing", "name": "Rate" },
+        { "@type": "Thing", "name": "Payment" },
+        { "@type": "Thing", "name": "Confirmation" },
+        { "@type": "Thing", "name": "GA4" },
+        { "@type": "Thing", "name": "Direct Booking" }
+      ],
+      "keywords": [
+        "pms web rezervasyon entegrasyonu",
+        "direkt satis funnel tasarimi",
+        "booking engine ve pms alan eslestirme",
+        "real time availability rates from pms",
+        "direct booking funnel setup"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "Web Rezervasyon ve PMS Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS ile Web Rezervasyon Sistemi Entegrasyonu: Direkt Satış Funnel’ı Nasıl Kurulur?", "item": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ile web rezervasyon sistemi entegrasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’ten booking engine’e availability ve rate verisi aktarılır; web’den gelen rezervasyon ödeme/onay sonrası PMS’e otomatik kayıt olarak düşer. Mapping, senkron frekansı, ödeme hata yönetimi ve GA4 ölçümü birlikte tasarlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web’de gösterilen fiyat ve müsaitlik PMS ile nasıl senkronize edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS rate plan ve envanter verisi booking engine’e senkronize edilir; gecikme toleransı, timezone kontrolü ve hız limitleri için retry/log mekanizmaları planlanır. Tutarlılık KPI’ı (web fiyatı = PMS fiyatı) izlenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direkt rezervasyon funnel’ı nasıl kurulmalı ve ölçülmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funnel adımlarını (arama→oda seçimi→checkout→ödeme→başarı) netleştirip GA4 event’lerini bu adımlara bağlamalısınız. Hata event’leri görünür değilse optimizasyon körleşir; Looker Studio’da tek ekran rapor önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ödeme ve ön provizyon süreçleri PMS ile nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ödeme başarılıysa PMS’e confirmed kayıt düşer; ön provizyon varsa statü ve süre tanımlanır. Ödeme başarısızsa kısa süreli hold + log + net mesaj ile hem envanter hem müşteri deneyimi korunur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-web-rezervasyon-sistemi-entegrasyonu#howto",
+      "name": "PMS ile Web Rezervasyon Motoru Entegrasyonu Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rol dağılımını netleştirin",
+          "text": "PMS’in doğruluk kaynağı, booking engine’in satış motoru rolünü belirleyin; oda tipi ve rate plan sözlüğünü standardize edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Gerçek zamanlı fiyat ve müsaitlik akışını kurun",
+          "text": "Availability ve rate senkronunu planlayın; sync frekansı, timezone ve hız limitleri için retry/log ve gerekirse hold mekanizması ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ödeme–onay–PMS kaydı akışını tasarlayın",
+          "text": "Ödeme başarılı/başarısız senaryolarını tanımlayın; ön provizyon, statü mapping ve e-posta/SMS tetikleyicilerini çakışmayacak şekilde kurgulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "GA4 event ölçümünü ve dashboard’u kurun",
+          "text": "Arama–oda seçimi–checkout–ödeme–başarı event’lerini tanımlayın; hata event’i ile kayıpları görünür yapın ve Looker Studio’da funnel raporu oluşturun."
         }
       ]
     }
