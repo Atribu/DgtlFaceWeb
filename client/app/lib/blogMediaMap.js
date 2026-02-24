@@ -11248,55 +11248,259 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-
-
-   "bos":{
+ "eko-dostu-surdurulebilir-kurumsal-hediyeler-otel":{
      banner: {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-1.webp",
+      alt: "Eko-Dostu Kurumsal Hediyeler: Oteller İçin Sürdürülebilir Hediye Seçimi",
+      caption: "Eko-Dostu Kurumsal Hediyeler: Oteller İçin Sürdürülebilir Hediye Seçimi"
     },
 
           "h1-context-02": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-2.webp",
+      alt: "Minimal kutu tasarımı, sürdürülebilir malzeme ve otel deneyimi bağlamı",
+      caption: "Minimal kutu tasarımı, sürdürülebilir malzeme ve otel deneyimi bağlamı"
     },
 
            "divider-03": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-3.webp",
+      alt: "Sürdürülebilir hediye seçimi adımları, satınalma ve otel bağlamı",
+      caption: "Sürdürülebilir hediye seçimi adımları, satınalma ve otel bağlamı"
     },
 
     "divider-04": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-4.webp",
+      alt: "Zero waste packaging yaklaşımı, minimal kutu ve otel bağlamı",
+      caption: "Zero waste packaging yaklaşımı, minimal kutu ve otel bağlamı"
     },
 
      "diagram-05": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-5.webp",
+      alt: "Sürdürülebilir hediye akışı diyagramı, tedarik ve otel bağlamı",
+      caption: "Sürdürülebilir hediye akışı diyagramı, tedarik ve otel bağlamı"
     },
 
           "checklist-06": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-6.webp",
+      alt: "Ambalaj ve atık yönetimi checklist’i, sürdürülebilir hediye otel bağlamı",
+      caption: "Ambalaj ve atık yönetimi checklist’i, sürdürülebilir hediye otel bağlamı"
     },
 
       "kpi-07": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-7.webp",
+      alt: "Sürdürülebilir hediye KPI kartı, kullanım ve algı ölçümü otel bağlamı",
+      caption: "Sürdürülebilir hediye KPI kartı, kullanım ve algı ölçümü otel bağlamı"
     },
 
           "proof-08": {
-      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
-      alt: "",
-      caption: ""
+      src: "/images/blog/creative/Creative5-5/Creative5-5-8.webp",
+      alt: "Sürdürülebilir hediye setleri, standartlar ve otel marka bağlamı",
+      caption: "Sürdürülebilir hediye setleri, standartlar ve otel marka bağlamı"
+    }
+  },
+
+
+
+   "cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-1.webp",
+      alt: "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+      caption: "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-2.webp",
+      alt: "PMS ve OTA sinyalleriyle çağrı dalgalanması, yoğun sezon planlama bağlamı",
+      caption: "PMS ve OTA sinyalleriyle çağrı dalgalanması, yoğun sezon planlama bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-3.webp",
+      alt: "Forecast riskleri ve SLA bağlantısı, kapasite planlama geçiş görseli",
+      caption: "Forecast riskleri ve SLA bağlantısı, kapasite planlama geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-4.webp",
+      alt: "Heatmap ve vardiya planı bölümüne geçiş, otel operasyon bağlamı",
+      caption: "Heatmap ve vardiya planı bölümüne geçiş, otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-5.webp",
+      alt: "Forecast staffing SLA KPI izleme döngüsü, otel çağrı merkezi karar diyagramı",
+      caption: "Forecast staffing SLA KPI izleme döngüsü, otel çağrı merkezi karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-6.webp",
+      alt: "Forecast ve kapasite planlama checklist’i, otel çağrı merkezi için hızlı kontrol",
+      caption: "Forecast ve kapasite planlama checklist’i, otel çağrı merkezi için hızlı kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-7.webp",
+      alt: "Hacim SLA cevaplanma ve bekleme KPI kartları, kapasite karar paneli",
+      caption: "Hacim SLA cevaplanma ve bekleme KPI kartları, kapasite karar paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-5/Callcenter5-5-8.webp",
+      alt: "Forecast heatmap vardiya planı ve KPI entegrasyonu çıktıları, operasyon deliverables",
+      caption: "Forecast heatmap vardiya planı ve KPI entegrasyonu çıktıları, operasyon deliverables"
+    }
+  },
+
+
+
+"rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-1.webp",
+      alt: "Rezervasyon Notları, Segmentler ve Ön Büro: Operasyonun Görünmez Köprüsü",
+      caption: "Rezervasyon Notları, Segmentler ve Ön Büro: Operasyonun Görünmez Köprüsü"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-2.webp",
+      alt: "Misafir profilinin not ve segmentlerle operasyon ekranlarına taşındığı otel context görseli",
+      caption: "Misafir profilinin not ve segmentlerle operasyon ekranlarına taşındığı otel context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-3.webp",
+      alt: "Not ve segment standardına giriş yapan otel süreç divider görseli",
+      caption: "Not ve segment standardına giriş yapan otel süreç divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-4.webp",
+      alt: "Resort ve city senaryolarına geçişi ayıran otel bölüm görseli",
+      caption: "Resort ve city senaryolarına geçişi ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-5.webp",
+      alt: "Rezervasyon notlarının ön bürodan departmanlara aktığı otel bilgi akışı diyagramı",
+      caption: "Rezervasyon notlarının ön bürodan departmanlara aktığı otel bilgi akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-6.webp",
+      alt: "Rezervasyon notları için 15 hazır şablonu özetleyen otel checklist kartı",
+      caption: "Rezervasyon notları için 15 hazır şablonu özetleyen otel checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-7.webp",
+      alt: "Bilgi eksikliği şikâyetleri ve kişiselleştirme etkisini gösteren otel KPI kartı",
+      caption: "Bilgi eksikliği şikâyetleri ve kişiselleştirme etkisini gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-5/Pms5-5-8.webp",
+      alt: "Not/segment sözlüğü ve departman handover çıktısını gösteren otel deliverables kartı",
+      caption: "Not/segment sözlüğü ve departman handover çıktısını gösteren otel deliverables kartı"
+    }
+  },
+
+
+   "pms-verisini-raporlama-ve-looker-studioya-tasima":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-1.webp",
+      alt: "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi",
+      caption: "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-2.webp",
+      alt: "PMS, OTA, GA4 ve call center verisinin tek panelde birleşmesini gösteren görsel, görünürlük sağlar",
+      caption: "PMS, OTA, GA4 ve call center verisinin tek panelde birleşmesini gösteren görsel, görünürlük sağlar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-3.webp",
+      alt: "Veri kaynakları ve aktarım adımlarını ayıran görsel, otel veri altyapısını netleştirir",
+      caption: "Veri kaynakları ve aktarım adımlarını ayıran görsel, otel veri altyapısını netleştirir"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-4.webp",
+      alt: "Birleşik veri modeli ve KPI sözlüğünü ayıran görsel, sürdürülebilir raporlama sağlar",
+      caption: "Birleşik veri modeli ve KPI sözlüğünü ayıran görsel, sürdürülebilir raporlama sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-5.webp",
+      alt: "PMS+OTA+web+call center veri akış şeması, BI dashboard’u besler",
+      caption: "PMS+OTA+web+call center veri akış şeması, BI dashboard’u besler"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-6.webp",
+      alt: "Otel performans dashboard kontrol listesi kartı, kurulumu standartlaştırır",
+      caption: "Otel performans dashboard kontrol listesi kartı, kurulumu standartlaştırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-7.webp",
+      alt: "Otel KPI kartı, doluluk ADR RevPAR ve kanal payını takip eder",
+      caption: "Otel KPI kartı, doluluk ADR RevPAR ve kanal payını takip eder"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-5/Hotel5-5-8.webp",
+      alt: "Veri altyapısı deliverables kartı, otel yönetimine sürdürülebilir görünürlük sağlar",
+      caption: "Veri altyapısı deliverables kartı, otel yönetimine sürdürülebilir görünürlük sağlar"
+    }
+  },
+
+
+   "telefonla-rezervasyon-donusum-artirma":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-1.webp",
+      alt: "Otellerde Telefonla Rezervasyon Dönüşümünü Artırmak İçin 10 Temel Adım",
+      caption: "Otellerde Telefonla Rezervasyon Dönüşümünü Artırmak İçin 10 Temel Adım"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-2.webp",
+      alt: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı”",
+      caption: "Otel çağrı merkezinde telefon görüşmesi, ihtiyaç analizi ve teklif akışı”"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-3.webp",
+      alt: "Telefonla rezervasyonun rolü, otel çağrı merkezi strateji bölümü ayırıcı görsel",
+      caption: "Telefonla rezervasyonun rolü, otel çağrı merkezi strateji bölümü ayırıcı görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-4.webp",
+      alt: "İhtiyaç analizi ve doğru oda teklifi, otel telefon rezervasyon bölümü ayırıcı görsel",
+      caption: "İhtiyaç analizi ve doğru oda teklifi, otel telefon rezervasyon bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-5.webp",
+      alt: "Rezervasyon funnel diyagramı, arama-teklif-kapama ve takip akışı",
+      caption: "Rezervasyon funnel diyagramı, arama-teklif-kapama ve takip akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-6.webp",
+      alt: "Telefonla rezervasyon 10 adım checklist özeti, otel satış görüşmesi standardı",
+      caption: "Telefonla rezervasyon 10 adım checklist özeti, otel satış görüşmesi standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-7.webp",
+      alt: "Telefonla rezervasyon KPI paneli, arama-teklif-kapama ve takipten dönüş metrikleri",
+      caption: "Telefonla rezervasyon KPI paneli, arama-teklif-kapama ve takipten dönüş metrikleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-1/Hotel6-1-8.webp",
+      alt: "Telefon karşılama script kartı ve satış akışı çıktıları, otel call center standardı",
+      caption: "Telefon karşılama script kartı ve satış akışı çıktıları, otel call center standardı"
     }
   },
 

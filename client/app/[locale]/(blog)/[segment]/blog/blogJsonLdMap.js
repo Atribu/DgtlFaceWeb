@@ -13055,7 +13055,124 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":{}
+"bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+      "name": "Bakım ve Destek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+      "name": "Bakım ve Destek Hizmet Seviyesi Yönetimi (SLA)",
+      "serviceType": "Maintenance SLA & Service Level Management",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model",
+      "headline": "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model",
+      "name": "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model",
+      "description": "Otel ve B2B için bakım SLA modeli: P1–P4 öncelikler, yanıt/çözüm süreleri, uptime hedefleri, mesai içi-dışı kapsamı ve ölç→rapor→iyileştir döngüsü.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Maintenance SLA",
+        "Response/Resolution",
+        "Uptime Targets",
+        "Priority Levels"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#article"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#howto",
+      "name": "Bakım SLA Modeli Nasıl Tasarlanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Kapsam ve öncelikleri tanımla",
+          "text": "SLA kapsamını (sistemler/kanallar) ve P1–P4 öncelik tanımlarını iş etkisine göre netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Response/resolution ve uptime hedeflerini yaz",
+          "text": "Yanıt ve çözüm sürelerini ayrı KPI’larla belirleyin; mesai içi-dışı pencerelerini ve uptime hedefini izleme yöntemiyle birlikte tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ölç, raporla ve iyileştir",
+          "text": "Aylık SLA raporu üretin; ihlalleri root-cause ile analiz edip corrective/preventive aksiyonları bakım planına ve backlog’a bağlayın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model", "item": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bakım SLA’si nedir, neleri kapsamalıdır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Kapsam, P1–P4 öncelik tanımları, response/resolution hedefleri, uptime hedefi, mesai içi-dışı kuralları ve raporlama/iyileştirme sürecini kapsamalıdır." }
+        },
+        {
+          "@type": "Question",
+          "name": "P1–P4 öncelik seviyeleri nasıl tanımlanır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Öncelikler iş etkisine göre belirlenir: P1 tam kesinti ve gelir akışı durması; P2 kritik degrade; P3 workaround’lu hata; P4 düşük öncelikli istek/kozmetik işler." }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B için saat/dönem bazlı SLA nasıl planlanır?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Otelde sezon ve mesai dışı P1/P2 kapsamı netleşmelidir; B2B’de kritik iş saatleri ve istisnalar yazılmalı, P3/P4 talepler backlog/sprint ritmine bağlanmalıdır." }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA performansı nasıl raporlanır ve iyileştirilir?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Aylık uptime, response/resolution, ihlal sayısı ve tekrar eden olay sınıfları raporlanır; ihlaller root-cause ile analiz edilir ve corrective/preventive aksiyonlar bakım planına eklenir." }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+}
 
     },
 
@@ -16393,6 +16510,117 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"eko-dostu-surdurulebilir-kurumsal-hediyeler-otel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#webpage",
+      "url": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel",
+      "name": "Eko-Dostu Kurumsal Hediyeler: Oteller İçin Sürdürülebilir Hediye Seçimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service" },
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#article",
+      "headline": "Eko-Dostu Kurumsal Hediyeler: Oteller İçin Sürdürülebilir Hediye Seçimi",
+      "description": "Oteller için sürdürülebilir kurumsal hediye seçimi: bambu/organik pamuk/geri dönüştürülmüş malzeme, yerel üretici, minimal ambalaj ve net “yeşil mesaj” rehberi.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#webpage" },
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "keywords": [
+        "surdurulebilir kurumsal hediye otel",
+        "eko dostu vip welcome seti",
+        "yerel uretici ile hediye isbirligi",
+        "sustainable corporate gifts for hotels",
+        "eco friendly welcome packs",
+        "local producer gift collaborations"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi#service",
+      "name": "Kurumsal Hediye & Tasarım",
+      "url": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi",
+      "provider": { "@type": "Organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "serviceType": "Sürdürülebilir Kurumsal Hediye Tasarımı",
+      "areaServed": ["TR"]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#product",
+      "name": "Sürdürülebilir Kurumsal Hediye Seti (Hotel Gift Pack)",
+      "description": "Oteller için sürdürülebilir malzeme, yerel üretici, minimal ambalaj ve kanıtlı yeşil mesaj yaklaşımıyla tasarlanmış hediye seti örnekleri.",
+      "brand": { "@type": "Brand", "name": "DGTLFACE" },
+      "category": "Sustainable Gift / Hotel Corporate Gifting"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Creative", "item": "https://dgtlface.com/tr/creative" },
+        { "@type": "ListItem", "position": 3, "name": "Kurumsal Hediye & Tasarım", "item": "https://dgtlface.com/tr/creative/kurumsal-hediye-tasarimi" },
+        { "@type": "ListItem", "position": 4, "name": "Eko-Dostu Kurumsal Hediyeler", "item": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sürdürülebilir kurumsal hediye nasıl seçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segmenti belirleyin, malzemeyi uzun ömür ve kanıtlanabilirlik açısından seçin, tedarikçide kalite–süreklilik kontrolü yapın. Ambalajı minimal ve geri dönüştürülebilir kurgulayın, mesajı abartmadan sertifika/etiket ve tedarikçi bilgisiyle destekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Plastik yerine hangi malzemeleri kullanabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ürüne göre cam, metal, organik pamuk gibi tekstiller ve geri dönüştürülmüş malzemeler iyi alternatiflerdir. Lojistik, bakım kolaylığı ve kalite algısını da hesaba katmalısınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yerel üretici ürünleri hediye kutusuna nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kategori seçin, kalite standardı ve teslim takvimini netleştirin, küçük bir deneme partisiyle tutarlılığı test edin. 2–3 cümlelik hikâye kartıyla coğrafi kimliği anlatın ve süreklilik için alternatif tedarikçi planlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeşil hediye mesajını misafire nasıl anlatmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa ve kanıtlı anlatın: neden seçildi, hangi malzeme/ambalaj yaklaşımı var ve misafir nasıl ayrıştırmalı. Abartılı ve doğrulanamayan iddialardan kaçının; QR ile detay verebilirsiniz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/creative/blog/eko-dostu-surdurulebilir-kurumsal-hediyeler-otel#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -19472,6 +19700,127 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu",
+      "headline": "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+      "name": "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+      "description": "PMS/OTA verisiyle çağrı hacmini öngörün, SLA’ya göre vardiya-kadro planlayın. Heatmap, forecast grafiği ve KPI entegrasyonu ile hat patlamasını önleyin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu#article" },
+      "about": [
+        "Call Volume Forecast",
+        "PMS",
+        "OTA",
+        "SLA",
+        "Staffing",
+        "Heatmap",
+        "Call center capacity planning"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çağrı Hacmi Tahmini ve Kapasite Planlama: Performans Analizi ile Nasıl Entegre Edilir?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı hacmi tahmini nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş çağrı verisini gün/saat kırılımında çıkarın ve PMS/OTA sinyalleriyle ilişkilendirin. Basit hareketli ortalama veya geçen yıl aynı dönem karşılaştırmasıyla forecast üretip heatmap ile pik saatlere indirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve OTA verileri çağrı forecast’inde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS rezervasyon ritmi ve OTA mesaj yoğunluğu çağrı talebinin öncü sinyali olabilir. Kampanya ve sezon notlarıyla birlikte okunduğunda hangi gün ve saatlerde talebin artacağını daha erken görürsünüz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA hedeflerine göre kaç temsilciye ihtiyaç var?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortalama hacme göre değil, heatmap ile belirlenen pik saatlere göre planlama yapmalısınız. SLA bozuluyorsa kapasiteyi pik saatlere kaydırmak, esnek görev blokları eklemek ve kanal yönlendirmesiyle yükü dengelemek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Forecast modeli mükemmel olmak zorunda mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Basit modeller bile doğru saatlere doğru kapasiteyi koymayı sağlar. Kritik olan, forecast’i düzenli güncellemek ve forecast-gerçekleşen farkını KPI’larla birlikte izleyip hızlı düzeltmektir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -22339,6 +22688,105 @@ export const BLOG_JSONLD_MAP = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "İptal ve no-show’u ayrı KPI olarak, kanal ve neden kodlarıyla takip etmelisiniz. Böylece hem risk hem gelir kararları daha doğru alınır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "name": "Rezervasyon Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru#article",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru",
+      "headline": "Rezervasyon Notları, Segmentler ve Ön Büro: Operasyonun Görünmez Köprüsü",
+      "name": "Rezervasyon Notları, Segmentler ve Ön Büro: Operasyonun Görünmez Köprüsü",
+      "description": "Rezervasyon notları ve segmentlerle misafir profilini departmanlara taşıyın. Standart not alanları, segment kodları ve 15 hazır şablonla check-in ve servis hatalarını azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": ["Reservation Notes", "Guest Segments", "Front Office", "Housekeeping", "Cross-Department Communication"],
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer-block"] }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru#howto",
+      "name": "Rezervasyon Notları ve Segmentleri Departmanlara Taşıma (4 Adım)",
+      "description": "Etiketli not formatı ve segment kodlarıyla ön büro–housekeeping–F&B bilgi akışını standartlaştırma.",
+      "step": [
+        { "@type": "HowToStep", "name": "Segment kodunu seç", "text": "Misafir profilini 8–12 kodla sınıflandır; segmenti rezervasyon kartında zorunlu hale getir." },
+        { "@type": "HowToStep", "name": "Notu etiketli yaz", "text": "Notu [FO]/[HK]/[F&B]/[SPA]/[GR] etiketleriyle kısa, madde ve eylem odaklı yaz; kritikse [CRIT] ekle." },
+        { "@type": "HowToStep", "name": "Handover ile aktar", "text": "Günlük handover’da kritik notları doğrula ve departmanlara görev olarak aktar; saat ve sorumlu ata." },
+        { "@type": "HowToStep", "name": "Tamamlandı geri bildirimi al", "text": "Housekeeping/F&B/SPA’dan tamamlandı işaretini topla; şikâyet ve hata kodlarını raporla." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Rezervasyon Notları, Segmentler ve Ön Büro: Operasyonun Görünmez Köprüsü", "item": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon notları neden bu kadar önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon notları misafir beklentisini departmanlara zamanında ve aynı formatta taşır; bilgi kopukluklarını azaltır ve kişiselleştirilmiş hizmeti güçlendirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi bilgileri mutlaka rezervasyon notuna eklemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda tercihi, çocuk/ekstra yatak, diyet-alerjen, özel gün, dil tercihi, transfer/ulaşım ve VIP/tekrar misafir bilgisi temel seti oluşturur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir segmentlerini PMS’te nasıl tanımlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "8–12 segment koduyla başlayın ve her segmenti operasyon aksiyonlarına bağlayın. Kodlar kısa, net ve raporlanabilir olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ön büro rezervasyon notlarını diğer departmanlarla nasıl paylaşmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etiketli notlar ile ayrıştırıp günlük handover’da kritik notları doğrulayın, departmanlara görev aktarın ve tamamlandı geri bildirimi alın."
           }
         }
       ]
@@ -28748,7 +29196,173 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"pms-verisini-raporlama-ve-looker-studioya-tasima":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima",
+      "name": "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-verisini-raporlama-ve-looker-studioya-tasima-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS verisini OTA, web (GA4) ve çağrı merkezi verileriyle birleştirip Looker Studio’da dashboard hazırlayın; doluluk, gelir, kanal payı ve iptal KPI’larını tek panelde izleyin."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#webpage" },
+      "headline": "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi",
+      "name": "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS verisini OTA, GA4 ve çağrı merkezi verileriyle birleştirip Looker Studio’da tek dashboard’ta toplamak; doluluk, RevPAR, kanal payı ve iptal riskini görünür kılar ve kararları veriye dayalı hale getirir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Web Analytics (GA4)" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Looker Studio" },
+        { "@type": "Thing", "name": "Occupancy" },
+        { "@type": "Thing", "name": "ADR" },
+        { "@type": "Thing", "name": "RevPAR" },
+        { "@type": "Thing", "name": "Channel Share" }
+      ],
+      "keywords": [
+        "pms verisini dashboarda tasima",
+        "otel performans kpi paneli",
+        "pms ota web verisi birlestirme",
+        "looker studio kpi panel for hotels",
+        "combine pms ota web data analytics"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Verisi ve Dashboard Kurulum Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Verisini Raporlama ve Looker Studio’ya Taşımak: Oteller İçin Veri Altyapısı Rehberi", "item": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS verisini Looker Studio veya benzeri dashboard’lara nasıl taşırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’ten API/CSV/Sheets veya ara veri ambarı ile veri alın, OTA ve GA4/call center kaynaklarıyla ortak anahtarlar üzerinden birleştirin. Looker Studio’da KPI panellerini ve filtreleri kurup yenileme rutini ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS verisi tek başına otel performansını görmek için yeterli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS “ne oldu?”yu iyi gösterir; ancak kanal davranışı, web dönüşümü ve telefon satış performansı olmadan “neden oldu” ve “ne yapmalıyım” sorusu eksik kalır. Birleşik veri yönetim kararlarını güçlendirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, web ve call center verisini PMS ile birlikte nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih, kanal ve mümkünse rezervasyon ID gibi ortak anahtarlarla veri setlerini bağlayın. KPI sözlüğünü kilitleyip Looker Studio’da yönetim/kana/funnel panellerini ayrı katmanlar halinde kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için temel KPI’lar ve dashboard yapısı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekirdek KPI seti: Occupancy, ADR, RevPAR, kanal payı, iptal/no-show, direct booking dönüşümü ve call center dönüşümü. Dashboard yapısı “yönetim → kanal → funnel” katmanında olmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-verisini-raporlama-ve-looker-studioya-tasima#howto",
+      "name": "PMS Verisini Looker Studio’ya Taşıma ve Dashboard Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Veri kaynaklarını ve aktarım yöntemini seçin",
+          "text": "PMS, OTA, GA4 ve call center kaynaklarını listeleyin; API/CSV/Sheets veya ara veri ambarı yaklaşımıyla veri alma yöntemini belirleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI sözlüğünü ve ortak anahtarları kilitleyin",
+          "text": "ADR/RevPAR, kanal payı, net/brüt gelir gibi metrik tanımlarını netleştirin; tarih/kanal/rezervasyon ID gibi ortak anahtarlarla birleşimi planlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Looker Studio panel mimarisini kurun",
+          "text": "Yönetim paneli → kanal paneli → GA4 funnel paneli katmanlarında dashboard tasarlayın; filtreleri (booking/stay date, kanal, oda tipi) ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sürdürülebilirlik ve veri kalitesi rutinini ekleyin",
+          "text": "Yenileme frekansını belirleyin, veri kalite kontrol listesi oluşturun ve yenileme hatalarında uyarı/log mekanizması kurun."
+        }
+      ]
+    }
+  ]
+},
+
+//
+
+"telefonla-rezervasyon-donusum-artirma":{}
 
     }
   },

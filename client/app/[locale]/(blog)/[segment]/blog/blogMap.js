@@ -157,7 +157,8 @@ export const BLOG_MAP = {
     "kurumsal-hediye-stratejisi-oteller-markalar":"BlogKurumsalHediyeStratejisiOtellerMarkalar",
     "vip-misafir-karsilama-seti-otel-hediye":"BlogVipMisafirKarsilamaSetiOtelHediye",
     "otel-calisan-odullendirme-hediye-programi":"BlogOtelCalisanOdullendirmeHediyeProgrami",
-    "otel-etkinlik-katilimci-hediyeleri-mice-lansman":"BlogOtelEtkinlikKatilimciHediyeleriMiceLansman"
+    "otel-etkinlik-katilimci-hediyeleri-mice-lansman":"BlogOtelEtkinlikKatilimciHediyeleriMiceLansman",
+    "eko-dostu-surdurulebilir-kurumsal-hediyeler-otel":"BlogEkoDostuSurdurulebilirKurumsalHediyelerOtel"
   },
 
        "cagri-merkezi": {
@@ -188,7 +189,8 @@ export const BLOG_MAP = {
     "otel-cagri-merkezi-kpi-temel-rehber":"BlogCallCenterOtelCagriMerkeziKpiTemelRehber",
     "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi",
     "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":"BlogKanalBazliPerformansAnaliziTelefonWhatsappDmOta",
-    "temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":"BlogTemsilciBazliPerformansVeKoclukOtelCagriMerkezi"
+    "temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":"BlogTemsilciBazliPerformansVeKoclukOtelCagriMerkezi",
+    "cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu":"BlogCagriHacmiTahminiVeKapasitePlanlamaPerformansAnaliziEntegrasyonu"
   },
 
     "pms-ota": {
@@ -219,7 +221,8 @@ export const BLOG_MAP = {
     "rezervasyon-yonetimi-nedir-cok-kanalli-akis":"BlogRezervasyonYonetimiNedirCokKanalliAkis",
     "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":"BlogRezervasyonSureciAdimAdimTalepOpsiyonOnayCheckin",
     "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":"BlogCokKanalliRezervasyonYonetimiOTAWEBCallCenter",
-    "iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":"BlogIptalOpsiyonVeNoShowStatuleriniDogruKullanmak"
+    "iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":"BlogIptalOpsiyonVeNoShowStatuleriniDogruKullanmak",
+    "rezervasyon-notlari-segmentler-ve-on-buro-operasyon-kopru":"BlogRezervasyonNotlariSegmentlerVeOnBuroOperasyonKopru"
   },
 
     "raporlama": {
@@ -277,7 +280,10 @@ export const BLOG_MAP = {
     "pms-entegrasyonu-nedir-otel-icin-temel-rehber":"BlogPmsEntegrasyonuNedirOtelIcinTemelRehber",
     "pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":"BlogPmsOtaKanalYonetimiTamEntegrasyonMimarisi",
     "pms-web-rezervasyon-sistemi-entegrasyonu":"BlogPMSWebRezervasyonSistemiEntegrasyonu",
-    "pms-cagri-merkezi-entegrasyonu":"BlogPmsCagriMerkeziEntegrasyonu"
+    "pms-cagri-merkezi-entegrasyonu":"BlogPmsCagriMerkeziEntegrasyonu",
+    "pms-verisini-raporlama-ve-looker-studioya-tasima":"BlogPmsVerisiniRaporlamaVeLookerStudioyaTasima",
+
+    "telefonla-rezervasyon-donusum-artirma":"BlogTelefonlaRezervasyonDonusumArtirma"
     
   }
 };
