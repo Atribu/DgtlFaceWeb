@@ -11094,8 +11094,158 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
+"yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":{
+     banner: {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-1.webp",
+      alt: "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
+      caption: "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-2.webp",
+      alt: "Ne oldu neden oldu yapıyoruz akışı, amaç net hikâye, kurum raporlama bağlamı",
+      caption: "Ne oldu neden oldu yapıyoruz akışı, amaç net hikâye, kurum raporlama bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-3.webp",
+      alt: "İş KPI odaklı raporlama ayırıcı, amaç yönetici dili, satış-pazarlama bağlamı",
+      caption: "İş KPI odaklı raporlama ayırıcı, amaç yönetici dili, satış-pazarlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-4.webp",
+      alt: "3–3–3 modeli ayırıcı, amaç sade sunum, yönetici toplantısı bağlamı",
+      caption: "3–3–3 modeli ayırıcı, amaç sade sunum, yönetici toplantısı bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-5.webp",
+      alt: "3 başarı 3 risk 3 aksiyon diyagramı, amaç karar çerçevesi, kurumsal bağlam",
+      caption: "3 başarı 3 risk 3 aksiyon diyagramı, amaç karar çerçevesi, kurumsal bağlam"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-6.webp",
+      alt: "Yönetici özeti checklist kartı, amaç raporu sadeleştirmek, ajans sunumu bağlamı",
+      caption: "Yönetici özeti checklist kartı, amaç raporu sadeleştirmek, ajans sunumu bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-7.webp",
+      alt: "İş KPI kartları, amaç lead ve rezervasyon özeti, otel grubu bağlamı",
+      caption: "İş KPI kartları, amaç lead ve rezervasyon özeti, otel grubu bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/seo/SEO5-5/SEO5-5-8.webp",
+      alt: "Yönetici özeti deliverables kartı, amaç karar toplantısı, kurum bağlamı",
+      caption: "Yönetici özeti deliverables kartı, amaç karar toplantısı, kurum bağlamı"
+    }
+  },
 
 
+
+ "yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek":{
+     banner: {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-1.webp",
+      alt: "Yönetici Özeti İçin Sosyal Medya Analizini Hikâyeye Dönüştürmek",
+      caption: "Yönetici Özeti İçin Sosyal Medya Analizini Hikâyeye Dönüştürmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-2.webp",
+      alt: "1 sayfalık sosyal medya raporu, iş KPI kartları, yönetici toplantısı",
+      caption: "1 sayfalık sosyal medya raporu, iş KPI kartları, yönetici toplantısı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-3.webp",
+      alt: "Ne oldu neden oldu ne yapıyoruz, yönetici raporu hikâye çerçevesi, iş dili",
+      caption: "Ne oldu neden oldu ne yapıyoruz, yönetici raporu hikâye çerçevesi, iş dili"
+    },
+
+    "divider-04": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-4.webp",
+      alt: "3 başarı 3 risk 3 aksiyon modeli, rapor standardı, otel ve B2B örnekleri",
+      caption: "3 başarı 3 risk 3 aksiyon modeli, rapor standardı, otel ve B2B örnekleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-5.webp",
+      alt: "3–3–3 exec storytelling akışı, metrikten aksiyona köprü, karar modeli",
+      caption: "3–3–3 exec storytelling akışı, metrikten aksiyona köprü, karar modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-6.webp",
+      alt: "Yönetici özeti checklist’i, 1 sayfa rapor, sosyal medya raporlama standardı",
+      caption: "Yönetici özeti checklist’i, 1 sayfa rapor, sosyal medya raporlama standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-7.webp",
+      alt: "KPI kartları ve mini grafikler, yönetici raporu görselleştirme, iş dili",
+      caption: "KPI kartları ve mini grafikler, yönetici raporu görselleştirme, iş dili"
+    },
+
+          "proof-08": {
+      src: "/images/blog/smm/SMM5-5/SMM5-5-8.webp",
+      alt: "Yönetici özeti teslim paketi, rapor çıktıları, ajans ve marka yönetimi",
+      caption: "Yönetici özeti teslim paketi, rapor çıktıları, ajans ve marka yönetimi"
+    }
+  },
+
+
+ "bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":{
+     banner: {
+      src: "/images/blog/software/Software5-5/Software5-5-1.webp",
+      alt: "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model",
+      caption: "Bakım SLA’leri ve Hizmet Seviyesi Yönetimi: Otel ve B2B İçin Model"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/software/Software5-5/Software5-5-2.webp",
+      alt: "SLA metrikleri görünümü, amaç şeffaflık, hizmet yönetimi bağlamı",
+      caption: "SLA metrikleri görünümü, amaç şeffaflık, hizmet yönetimi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/software/Software5-5/Software5-5-3.webp",
+      alt: "Response/resolution ayrımı, amaç kavram netliği, BT-ops bağlamı",
+      caption: "Response/resolution ayrımı, amaç kavram netliği, BT-ops bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/software/Software5-5/Software5-5-4.webp",
+      alt: "P1–P4 öncelikler, amaç sınıflandırma, otel ve B2B bağlamı",
+      caption: "P1–P4 öncelikler, amaç sınıflandırma, otel ve B2B bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/software/Software5-5/Software5-5-5.webp",
+      alt: "Ölç→rapor→iyileştir döngüsü, amaç sürekli iyileştirme, SLA ops bağlamı",
+      caption: "Ölç→rapor→iyileştir döngüsü, amaç sürekli iyileştirme, SLA ops bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/software/Software5-5/Software5-5-6.webp",
+      alt: "SLA tasarım checklist’i, amaç hızlı kurulum, yönetim ve teknik ekip bağlamı",
+      caption: "SLA tasarım checklist’i, amaç hızlı kurulum, yönetim ve teknik ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/software/Software5-5/Software5-5-7.webp",
+      alt: "SLA KPI skor kartı, amaç performans takibi, raporlama bağlamı",
+      caption: "SLA KPI skor kartı, amaç performans takibi, raporlama bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/software/Software5-5/Software5-5-8.webp",
+      alt: "SLA deliverables seti, amaç güven, otel ve B2B tedarikçi bağlamı",
+      caption: "SLA deliverables seti, amaç güven, otel ve B2B tedarikçi bağlamı"
+    }
+  },
 
 
 

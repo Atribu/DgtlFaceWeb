@@ -61,7 +61,8 @@ export const BLOG_MAP = {
     "seo-raporu-nasil-hazirlanir-temel-kpi-rehberi":"BlogSeoSeoRaporuNasilHazirlanirTemelKpiRehberi",
     "ga4-ve-search-console-verilerini-birlikte-okumak":"BlogSeoGa4VeSearchConsoleVerileriniBirlikteOkumak",
     "anahtar-kelime-siralamalari-ve-gorunurluk-raporu-nasil-yorumlanir":"BlogSeoAnahtarKelimeSiralamalariVeGorunurlukRaporuNasilYorumlanir",
-    "sayfa-bazli-seo-performans-raporu-landing-page-analizi":"BlogSayfaBazliSeoPerformansRaporuLandingPageAnalizi"
+    "sayfa-bazli-seo-performans-raporu-landing-page-analizi":"BlogSayfaBazliSeoPerformansRaporuLandingPageAnalizi",
+    "yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":"BlogYoneticiOzetiVeStorytellingIleSeoRaporunuAnlatmak"
   },
 
     smm: {
@@ -92,7 +93,8 @@ export const BLOG_MAP = {
      "sosyal-medya-performans-raporu-nasil-hazirlanir-kpi-cercevesi":"BlogSmmSosyalMedyaPerformansRaporuKpiCercevesi",
      "ga4-ve-sosyal-medya-insights-verilerini-birlikte-okumak":"BlogSmmGa4VeSosyalMedyaInsightsVerileriniBirlikteOkumak",
      "icerik-bazli-performans-analizi-post-story-reels-raporu":"BlogSmmIcerikBazliPerformansAnaliziPostStoryReelsRaporu",
-     "organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":"BlogOrganikVeReklamliSosyalMedyaPerformansiniBirlikteRaporlamak"
+     "organik-ve-reklamli-sosyal-medya-performansini-birlikte-raporlamak":"BlogOrganikVeReklamliSosyalMedyaPerformansiniBirlikteRaporlamak",
+     "yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek":"BlogYoneticiOzetiIcinSosyalMedyaAnaliziniHikayeyeDonusturmek"
   },
 
     yazilim: {
@@ -123,7 +125,8 @@ export const BLOG_MAP = {
     "web-sitesi-bakim-plani-aylik-ve-ceyreklik-kontrol-listesi":"BlogWebSitesiBakimPlaniAylikVeCeyreklikKontrolListesi",
     "nextjs-ve-modern-web-projelerinde-versiyon-guncelleme-ve-refactoring-stratejisi":"BlogYazilimNextjsVeModernWebProjelerindeVersiyonGuncellemeVeRefactoringStratejisi",
     "otel-web-siteleri-icin-sezon-oncesi-teknik-checkup":"BlogSoftwareOtelWebSiteleriIcinSezonOncesiTeknikCheckup",
-    "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":"BlogIncidentSonrasiPostmortemVeRootCauseAnaliziNasilYapilir"
+    "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":"BlogIncidentSonrasiPostmortemVeRootCauseAnaliziNasilYapilir",
+    "bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":"BlogBakimSlaLeriVeHizmetSeviyesiYonetimiOtelVeB2BIcinModel"
   },
    
   creative: {

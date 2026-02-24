@@ -6313,6 +6313,121 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#webpage",
+      "url": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak",
+      "name": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": { "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#article",
+      "headline": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?",
+      "description": "SEO raporunu 1 sayfalık yönetici özetiyle anlat: ne oldu–neden oldu–ne yapıyoruz. 3 başarı + 3 risk + 3 aksiyon modeliyle dili sadeleştir, iş KPI’larına bağla.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#webpage" },
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/seo/seo-raporlama#service",
+      "name": "SEO Raporlama & Performans Analizi",
+      "url": "https://dgtlface.com/tr/seo/seo-raporlama",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "SEO", "item": "https://dgtlface.com/tr/seo" },
+        { "@type": "ListItem", "position": 3, "name": "SEO Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/seo/seo-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Yönetici Özeti ve Storytelling ile SEO Raporunu Nasıl Anlatırsınız?", "item": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yönetici için SEO raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 sayfalık yönetici özetiyle başlayın ve ne oldu–neden oldu–ne yapıyoruz akışını kullanın. Metrikleri iş KPI’larına bağlayıp 3 başarı + 3 risk + 3 aksiyon modeliyle raporu bitirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO verisini hikâye hâline nasıl getiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce sonucu (iş KPI), sonra nedeni (1–2 kök neden) ve en sonda planı (aksiyon + zaman) yazın. Hikâye, metriklerin karar akışına girmesidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi detayları rapordan çıkarmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetici sayfasından uzun pozisyon listelerini, fazla grafikleri ve teknik terimleri çıkarın. Bunları ek dosyada detay olarak sunun; ana sayfada 3–4 KPI’dan fazlasını taşımayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO raporunu iş hedefleriyle nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organik dönüşüm/lead/rezervasyonu birincil KPI yapın; CTR ve görünürlük trendini talep verimi ve pay olarak çevirin. Riskleri kayıp ihtimali diliyle yazın ve aksiyonu sprint planına bağlayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#howto",
+      "name": "Yönetici özetiyle SEO raporu anlatma",
+      "step": [
+        { "@type": "HowToStep", "name": "Ne oldu–neden oldu–ne yapıyoruz yaz", "text": "İş KPI’sı ile sonucu yaz; 1–2 kök neden belirt; 3 aksiyonun özetini ekle." },
+        { "@type": "HowToStep", "name": "3–3–3 modelini doldur", "text": "3 başarı, 3 risk ve kim+ne+ne zaman içeren 3 aksiyon maddesini tek cümle ile yaz." },
+        { "@type": "HowToStep", "name": "Özeti 1 sayfada bitir", "text": "Grafik sayısını azalt, her grafiğe 1 cümle yorum ekle; teknik detayları ek dosyaya taşı." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/seo/blog/yonetici-ozeti-ve-storytelling-ile-seo-raporunu-anlatmak#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -9714,6 +9829,119 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#webpage",
+      "url": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek",
+      "name": "Yönetici Özeti İçin Sosyal Medya Analizini Hikâyeye Dönüştürmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Executive Summary" },
+        { "@type": "Thing", "name": "Storytelling" },
+        { "@type": "Thing", "name": "Business KPIs" },
+        { "@type": "Thing", "name": "3-3-3 Model" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#webpage"
+      },
+      "headline": "Yönetici Özeti İçin Sosyal Medya Analizini Hikâyeye Dönüştürmek",
+      "description": "Sosyal medya verisini 1 sayfalık yönetici özetine çevirin: ne oldu–neden oldu–ne yapıyoruz ve 3 başarı/3 risk/3 aksiyon modeliyle karar üretin.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "publisher": { "@type": "Organization", "name": "DGTLFACE" },
+      "url": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/smm/analiz-raporlama#service",
+      "serviceType": "Sosyal Medya Analiz & Raporlama",
+      "provider": { "@type": "Organization", "name": "DGTLFACE" },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/smm/analiz-raporlama"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#howto",
+      "name": "Sosyal Medya Yönetici Özetini 1 Sayfada Hazırlama",
+      "description": "Ne oldu–neden oldu–ne yapıyoruz çerçevesi ve 3–3–3 modeliyle yönetici özeti oluşturma adımları.",
+      "step": [
+        { "@type": "HowToStep", "name": "Amaç ve 3 KPI’yı seç", "text": "Raporun amacını yazın ve en fazla 3 iş KPI’sı belirleyin (iş etkisi, verim, risk/kalite)." },
+        { "@type": "HowToStep", "name": "Ne oldu–neden oldu–ne yapıyoruz yaz", "text": "3 KPI ile durumu özetleyin, 2–3 hipotezle nedeni yazın ve 3 aksiyonla kapatın." },
+        { "@type": "HowToStep", "name": "3–3–3 tablosunu doldur", "text": "3 başarı, 3 risk ve 3 aksiyonu tek tabloda gösterin; aksiyonları sahip ve tarihle sahiplendirin." },
+        { "@type": "HowToStep", "name": "Görselleri sadeleştir", "text": "3 KPI kartı + mini trend + 1 tablo kullanın; teknik jargonu azaltın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "SMM", "item": "https://dgtlface.com/tr/smm" },
+        { "@type": "ListItem", "position": 3, "name": "Analiz & Raporlama", "item": "https://dgtlface.com/tr/smm/analiz-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Yönetici Özeti Storytelling", "item": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yönetici için sosyal medya raporu nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raporu 1 sayfaya indirip ne oldu–neden oldu–ne yapıyoruz akışında yazın. En fazla 3 KPI seçin ve 3 başarı/3 risk/3 aksiyon modeliyle karar üretin. Teknik jargonu azaltıp iş dili kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medya verisini hikâye hâline nasıl getiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3 KPI ile sonucu özetleyin, 2–3 hipotezle nedeni açıklayın ve 3 net aksiyonla kapanış yapın. Her aksiyona sahip ve tarih ekleyin; rapor plan üretmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3 başarı + 3 risk + 3 aksiyon modeli nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetici özetini standardize eden bir çerçevedir: 3 kanıtlı kazanım, 3 kritik risk ve 3 öncelikli aksiyon tek tabloda gösterilir. Böylece toplantıda hızlı karar alınır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Teknik jargon neden raporu zayıflatır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yönetici iş diliyle karar verir. CPM/CPC gibi terimler iş etkisine bağlanmadıkça rapor gürültü gibi algılanır ve yatırım savunmasını zorlaştırır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/smm/blog/yonetici-ozeti-icin-sosyal-medya-analizini-hikayeye-donusturmek#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     },
@@ -12697,7 +12925,137 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":{}
+"incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#webpage",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek",
+      "name": "Bakım ve Destek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/yazilim/bakim-ve-destek#service",
+      "name": "Incident Sonrası Bakım & Destek (Postmortem/RCA)",
+      "serviceType": "Website Maintenance & Incident Response",
+      "provider": {
+        "@type": "Organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "areaServed": "TR",
+      "url": "https://dgtlface.com/tr/yazilim/bakim-ve-destek"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#article",
+      "url": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir",
+      "headline": "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?",
+      "name": "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?",
+      "description": "Blameless postmortem ile incident’ı öğrenmeye çevirin: timeline, root-cause (5 Why), etki analizi ve corrective/preventive aksiyonlarla tekrar riskini azaltın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Postmortem",
+        "Root-Cause Analysis",
+        "Corrective/Preventive Actions"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#article"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#howto",
+      "name": "Incident Sonrası Postmortem ve RCA Adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Timeline ve etkiyi çıkar",
+          "text": "Alarm/tetikleyici, tespit, müdahale, geçici çözüm ve kalıcı düzeltme adımlarını zaman çizelgesine yazın; etkiyi KPI’larla ifade edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Trigger ile root-cause’u ayır",
+          "text": "Trigger’ı (kıvılcım) ve root-cause’u (sistemik zayıflık) ayrı tanımlayın; 5 Why/Fishbone ile kanıtlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "CAPA aksiyonlarını takip et",
+          "text": "Corrective ve preventive aksiyonları sahip/tarih/başarı kriteriyle yazın; bakım ve backlog ritmine bağlayıp doğrulayın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Yazılım", "item": "https://dgtlface.com/tr/yazilim" },
+        { "@type": "ListItem", "position": 3, "name": "Bakım ve Destek", "item": "https://dgtlface.com/tr/yazilim/bakim-ve-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Incident Sonrası Postmortem ve Root-Cause Analizi Nasıl Yapılır?", "item": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#faq",
+      "url": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Postmortem nedir, ne zaman yazılmalıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Postmortem; incident sonrası timeline, etki analizi ve root-cause’u çıkarıp corrective/preventive aksiyonları takip eden öğrenme dokümanıdır. Gelir, güvenlik veya tekrar riski olan her olaydan sonra yazılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Root-cause analizi nasıl yapılır (5 Why vb.)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce timeline ile olayı netleştirip trigger’ı yazın. 5 Why veya Fishbone ile sistemik zayıflığı bulun, kanıtlarla destekleyin ve preventive aksiyonlara bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Incident sonrası hangi başlıklar raporlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Özet, impact, timeline, RCA (trigger vs root-cause), corrective/preventive aksiyonlar ve süreç güncellemeleri (alarm/runbook/test) raporlanmalıdır; aksiyonlar sahip ve tarihle takip edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel ve B2B projelerinde iyi bir postmortem örneği nasıl görünür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel tarafında rezervasyon ve entegrasyon etkisi, B2B tarafında ödeme/raporlama ve SLA etkisi net ölçülür; kanıt (log/metrics) ve preventive aksiyonlar dokümanın merkezinde olur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/yazilim/blog/incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"bakim-sla-leri-ve-hizmet-seviyesi-yonetimi-otel-ve-b2b-icin-model":{}
 
     },
 
