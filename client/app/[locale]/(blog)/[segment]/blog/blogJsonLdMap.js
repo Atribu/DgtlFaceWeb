@@ -3125,6 +3125,108 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/sem/reklam-raporlama#webpage",
+      "url": "https://dgtlface.com/tr/sem/reklam-raporlama",
+      "name": "Reklam Raporlama & Performans Analizi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak#article",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak",
+      "headline": "Otel Reklam Raporlarında Attribution ve Yardımcı Dönüşümleri Nasıl Okursunuz?",
+      "name": "Otel Reklam Raporlarında Attribution ve Yardımcı Dönüşümleri Nasıl Okursunuz?",
+      "description": "Attribution ve assisted conversions raporlarıyla kanal katkısını doğru okuyun. Last click vs data-driven farkını anlayın, YouTube/display etkisini görün, bütçeyi doğru kaydırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        "Attribution",
+        "Assisted Conversions",
+        "Data-Driven Model",
+        "Last Click",
+        "Hotel Funnel",
+        "channel valuation",
+        "multi-touch contribution"
+      ],
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak#article" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "SEM", "item": "https://dgtlface.com/tr/sem" },
+        { "@type": "ListItem", "position": 3, "name": "Reklam Raporlama & Performans Analizi", "item": "https://dgtlface.com/tr/sem/reklam-raporlama" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklam Raporlarında Attribution ve Yardımcı Dönüşümleri Nasıl Okursunuz?", "item": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak#faq",
+      "url": "https://dgtlface.com/tr/sem/blog/otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Attribution nedir, last click ile data-driven farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Attribution, dönüşüm kredisinin kanallara nasıl dağıtıldığını belirler. Last click tüm krediyi son tıklayan kanala verir; data-driven gibi katkı modelleri yolculuktaki temaslara pay dağıtır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yardımcı dönüşüm (assisted conversion) ne demek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Assisted conversion, bir kanalın dönüşümü kapatmadan önce yolculuğa katkı verdiğini gösterir. Örneğin YouTube misafiri tanıştırır, brand search rezervasyonu kapatır; YouTube asist olarak görünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube ve display kampanyalarımın katkısını nasıl görürüm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Last click’te görünmeyebilirler; assisted conversions ve katkı modeline bakarak bu kanalların rezervasyona giden yoldaki rolünü değerlendirebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi kanalı kapatmaya karar verirken nelere bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kapanış (last click) + katkı (assisted) + verim (CPA/ROAS veya proxy) üçlüsünü birlikte okuyun ve kararı %10–20 bütçe testiyle doğrulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Attribution modelini değiştirince ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dönüşüm kredisinin kanallara dağılımı değişir ve bazı raporlar geçmiş dönemlerde farklı görünebilir; bu değişiklik yönetim iletişiminde not edilmelidir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -12594,6 +12696,7 @@ export const BLOG_JSONLD_MAP = {
     }
   ]
 },
+
 "incident-sonrasi-postmortem-ve-root-cause-analizi-nasil-yapilir":{}
 
     },
@@ -21783,6 +21886,106 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi",
+      "name": "Rezervasyon Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak#article",
+      "url": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak",
+      "headline": "İptal, Opsiyon ve No-Show Statülerini Doğru Kullanmak: Rezervasyon Yönetimi Rehberi",
+      "name": "İptal, Opsiyon ve No-Show Statülerini Doğru Kullanmak: Rezervasyon Yönetimi Rehberi",
+      "description": "İptal, opsiyon ve no-show statülerini doğru tanımlayın. Envanter, doluluk ve gelir raporlarını bozmayın; PMS’te statü akışı ve 90 gün aksiyon planıyla iyileştirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak#article" },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": ["Reservation Statuses", "Cancellation", "No-Show", "Option", "Inventory & Revenue"],
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer-block"] }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak#howto",
+      "name": "İptal, Opsiyon ve No-Show Statülerini Yönetme (5 Adım)",
+      "description": "Statü sözlüğü, opsiyon SLA, no-show SOP ve rapor rutiniyle iptal/no-show etkisini 90 günde iyileştirme.",
+      "step": [
+        { "@type": "HowToStep", "name": "Statü sözlüğünü yayınla", "text": "Pending/Option/Confirmed/Cancelled/No-show tanımlarını tek sayfada netleştir ve ekiple paylaş." },
+        { "@type": "HowToStep", "name": "Opsiyon SLA ve kapanış kuralı", "text": "Opsiyon sürelerini tip bazında belirle; süre dolunca kapanış nedeni koduyla kapat ve envanteri serbest bırak." },
+        { "@type": "HowToStep", "name": "No-show SOP'u yaz", "text": "No-show işleme saati ve sorumlusunu tanımla; gelir/ceza kaydını raporda ayrı izle." },
+        { "@type": "HowToStep", "name": "Rapor rutinini kur", "text": "İptal ve no-show oranlarını kanal ve neden kodlarıyla haftalık takip et; sapmaları görünür kıl." },
+        { "@type": "HowToStep", "name": "Eğitim ve denetim", "text": "Haftalık şüpheli statü listesiyle disiplin sağla; ekip eğitimini onboarding’e bağla." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "PMS & OTA Yönetimi", "item": "https://dgtlface.com/tr/pms-ota" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Yönetimi", "item": "https://dgtlface.com/tr/pms-ota/rezervasyon-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "İptal, Opsiyon ve No-Show Statülerini Doğru Kullanmak: Rezervasyon Yönetimi Rehberi", "item": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/pms-ota/blog/iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon statüleri nelerdir, ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pending, Option, Confirmed, Cancelled ve No-show temel statülerdir. Her statü envanter ve raporlamada farklı etki üretir; tanımlar yazılı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Opsiyon süresi biten rezervasyon nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA dolduğunda opsiyon kapatılmalı, envanter serbest bırakılmalı ve opsiyon kapanış nedeni raporda ayrı izlenmelidir. Süresiz opsiyon stok şişirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal ve no-show otel doluluğunu ve geliri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İptal genelde envanteri serbest bırakır; no-show ise belirli bir süre blok etkisi ve ceza/gelir kaydı doğurabilir. Yanlış statü kullanımı doluluk ve gelir raporlarını çarpıtır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS’te iptal ve no-show oranlarını nasıl raporlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İptal ve no-show’u ayrı KPI olarak, kanal ve neden kodlarıyla takip etmelisiniz. Böylece hem risk hem gelir kararları daha doğru alınır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -28022,6 +28225,167 @@ export const BLOG_JSONLD_MAP = {
           "@type": "HowToStep",
           "name": "GA4 event ölçümünü ve dashboard’u kurun",
           "text": "Arama–oda seçimi–checkout–ödeme–başarı event’lerini tanımlayın; hata event’i ile kayıpları görünür yapın ve Looker Studio’da funnel raporu oluşturun."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-cagri-merkezi-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu",
+      "name": "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-cagri-merkezi-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS ile çağrı merkezi entegrasyonu kurarak operatöre anlık oda/fiyat ve misafir geçmişi gösterin, rezervasyonları PMS’e anında kaydedin ve telefon satışını KPI’larla ölçün."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#webpage" },
+      "headline": "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?",
+      "name": "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–çağrı merkezi entegrasyonu; operatör ekranını anlık PMS verisiyle besleyip rezervasyonları görüşme sırasında PMS’e kaydeden, lead’leri tek havuzda toplayan ve KPI’larla ölçülebilir telefon satış modeli kuran yapıdır.",
+      "about": [
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Agent Screen" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Availability" },
+        { "@type": "Thing", "name": "Price" },
+        { "@type": "Thing", "name": "Lead" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "keywords": [
+        "pms ve cagri merkezi entegrasyonu",
+        "telefon rezervasyonlarini pms ile yonetmek",
+        "call center kpi ve pms verisi",
+        "hotel call center pms integration",
+        "agent screen design for hotel call center"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Çağrı Merkezi Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?", "item": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ile çağrı merkezi entegrasyonu nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operatör ekranı PMS’ten anlık availability/fiyat ve misafir verisi çeker, görüşme sırasında rezervasyon PMS’e tek kayıt olarak düşer. Sonuçlar KPI’larla ölçülür ve raporlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Operatör ekranında hangi bilgiler görünmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anlık müsaitlik, fiyat planı/toplam tutar, stop-sale/min-stay uyarıları, misafir geçmişi, statü (hold/confirmed), iptal politikası ve teklif gönderim adımı temel alanlardır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonla alınan rezervasyonlar PMS’e nasıl kaydedilir ve raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operatör ekranından oluşturulan tek kayıt PMS’e düşer; ödeme/garanti sonrası statü confirmed olur. Raporlamada call→reservation dönüşümü, iptal/no-show ve kayıp nedenleri izlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA/Web lead’leri call center ve PMS’e nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web formu, OTA mesajı ve WhatsApp talepleri tek kuyruğa düşürülür; operatör takip statüsüyle yönetir ve sonuç (won/lost) PMS profiline/rezervasyona işlenir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-cagri-merkezi-entegrasyonu#howto",
+      "name": "PMS ile Çağrı Merkezi Entegrasyonu Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Operatör ekranını PMS verisiyle besleyin",
+          "text": "Agent screen’de anlık availability/fiyat, misafir geçmişi ve uyarıları (stop-sale/min-stay) görünür hale getirin; rol bazlı erişim uygulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Rezervasyon akışını tek kayıt mantığıyla tasarlayın",
+          "text": "Lead→teklif→hold/option→confirmed akışını standardize edin; ödeme/garanti sonrası statü mapping’ini otomatikleştirin ve rollback/log tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Lead kaynaklarını tek kuyruğa indirin",
+          "text": "Web, OTA mesajları ve WhatsApp taleplerini tek havuzda toplayın; takip statüsü ve kayıp nedenlerini kayıt altına alın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ve raporlamayı tek ekrana taşıyın",
+          "text": "Call→reservation dönüşümü, iptal/no-show, kaçan lead ve satış performansını PMS rezervasyon verisiyle birleştirip dashboard ile izleyin."
         }
       ]
     }

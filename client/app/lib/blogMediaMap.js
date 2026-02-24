@@ -10943,6 +10943,213 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+   "iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":{
+     banner: {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-1.webp",
+      alt: "İptal, Opsiyon ve No-Show Statülerini Doğru Kullanmak: Rezervasyon Yönetimi Rehberi",
+      caption: "İptal, Opsiyon ve No-Show Statülerini Doğru Kullanmak: Rezervasyon Yönetimi Rehberi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-2.webp",
+      alt: "Statü değişikliklerinin doluluk ve rapora yansımasını gösteren otel context görseli",
+      caption: "Statü değişikliklerinin doluluk ve rapora yansımasını gösteren otel context görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-3.webp",
+      alt: "Statü sözlüğü ve politika ayrımına geçiş yapan otel süreç divider görseli",
+      caption: "Statü sözlüğü ve politika ayrımına geçiş yapan otel süreç divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-4.webp",
+      alt: "Resort ve city senaryolarına geçişi ayıran otel bölüm görseli",
+      caption: "Resort ve city senaryolarına geçişi ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-5.webp",
+      alt: "Opsiyon iptal ve no-show statü geçişlerini gösteren otel akış diyagramı",
+      caption: "Opsiyon iptal ve no-show statü geçişlerini gösteren otel akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-6.webp",
+      alt: "İptal ve no-show oranlarını 90 günde iyileştirme adımlarını özetleyen otel kartı",
+      caption: "İptal ve no-show oranlarını 90 günde iyileştirme adımlarını özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-7.webp",
+      alt: "İptal ve no-show oranlarını gösteren örnek otel KPI grafiği görseli",
+      caption: "İptal ve no-show oranlarını gösteren örnek otel KPI grafiği görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/pms/PMS-OTA5-4/Pms5-4-8.webp",
+      alt: "Statü SOP, neden kodları ve rapor rutinini gösteren otel deliverables kartı",
+      caption: "Statü SOP, neden kodları ve rapor rutinini gösteren otel deliverables kartı"
+    }
+  },
+
+  "pms-cagri-merkezi-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-1.webp",
+      alt: "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?",
+      caption: "PMS ile Çağrı Merkezi Entegrasyonu: Telefonla Rezervasyonları Nasıl Mükemmelleştirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-2.webp",
+      alt: "Operatörün anlık oda ve fiyat görmesini anlatan görsel, rezervasyon kapatmayı hızlandırır",
+      caption: "Operatörün anlık oda ve fiyat görmesini anlatan görsel, rezervasyon kapatmayı hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-3.webp",
+      alt: "Çağrı merkezi entegrasyon mantığını ayıran görsel, tek rezervasyon havuzu sağlar",
+      caption: "Çağrı merkezi entegrasyon mantığını ayıran görsel, tek rezervasyon havuzu sağlar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-4.webp",
+      alt: "Lead ve raporlama katmanını ayıran görsel, telefon satışını ölçülebilir kılar",
+      caption: "Lead ve raporlama katmanını ayıran görsel, telefon satışını ölçülebilir kılar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-5.webp",
+      alt: "Call center’dan PMS’e rezervasyon akış şeması, telefonu satış kanalına dönüştürür",
+      caption: "Call center’dan PMS’e rezervasyon akış şeması, telefonu satış kanalına dönüştürür"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-6.webp",
+      alt: "Operatör ekranı alanları kontrol listesi kartı, telefonla rezervasyonu hızlandırır",
+      caption: "Operatör ekranı alanları kontrol listesi kartı, telefonla rezervasyonu hızlandırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-7.webp",
+      alt: "Call center KPI ve PMS rezervasyon verisini gösteren kart, telefon satışını optimize eder",
+      caption: "Call center KPI ve PMS rezervasyon verisini gösteren kart, telefon satışını optimize eder"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-4/Hotel5-4-8.webp",
+      alt: "Çağrı merkezi entegrasyonu deliverables kartı, süreç ve güvenliği netleştirir",
+      caption: "Çağrı merkezi entegrasyonu deliverables kartı, süreç ve güvenliği netleştirir"
+    }
+  },
+
+  "otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak":{
+     banner: {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-1.webp",
+      alt: "Otel Reklam Raporlarında Attribution ve Yardımcı Dönüşümleri Nasıl Okursunuz?",
+      caption: "Otel Reklam Raporlarında Attribution ve Yardımcı Dönüşümleri Nasıl Okursunuz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-2.webp",
+      alt: "Assisted dönüşümler, otel funnel’ında görünmeyen kanal katkısını görünür kılar",
+      caption: "Assisted dönüşümler, otel funnel’ında görünmeyen kanal katkısını görünür kılar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-3.webp",
+      alt: "Attribution modeli, otel reklamlarında kanal değerini doğru paylaştırır",
+      caption: "Attribution modeli, otel reklamlarında kanal değerini doğru paylaştırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-4.webp",
+      alt: "Last click ve katkı modeli, otel raporunda karar hatasını azaltır",
+      caption: "Last click ve katkı modeli, otel raporunda karar hatasını azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-5.webp",
+      alt: "Misafir yolculuğu diyagramı, otel funnel’ında kanal katkısını netleştirir",
+      caption: "Misafir yolculuğu diyagramı, otel funnel’ında kanal katkısını netleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-6.webp",
+      alt: "Attribution karar checklist’i, otel bütçesini doğru kanala kaydırır",
+      caption: "Attribution karar checklist’i, otel bütçesini doğru kanala kaydırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-7.webp",
+      alt: "Assisted ve last click KPI kartı, otel kanal değerini özetler",
+      caption: "Assisted ve last click KPI kartı, otel kanal değerini özetler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/sem/SEM5-5/SEM5-5-8.webp",
+      alt: "Kanal katkısı raporu çıktıları, otel reklam bütçe kararını destekler",
+      caption: "Kanal katkısı raporu çıktıları, otel reklam bütçe kararını destekler"
+    }
+  },
+
+
+
+
+
+
+
+
+   "bos":{
+     banner: {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/creative/Creative1-5/Creative1-5-8.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

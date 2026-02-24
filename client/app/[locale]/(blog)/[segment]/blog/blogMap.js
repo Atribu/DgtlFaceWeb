@@ -28,7 +28,8 @@ export const BLOG_MAP = {
     "otel-reklam-raporu-nasil-okunur-temel-kpi-rehberi":"BlogSemOtelReklamRaporuNasilOkunurTemelKpiRehberi",
     "roas-ve-cpa-otel-kampanyalarinda-nasil-yorumlanmali":"BlogRoasVeCpaOtelKampanyalarindaNasilYorumlanmali",
     "otel-icin-looker-studio-reklam-dashboard-tasarimi":"BlogOtelIcinLookerStudioReklamDashboardTasarimi",
-    "otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":"BlogOtelReklamRaporlarindaSezonlukVeYilbazliKarsilastirmaAnalizi"
+    "otel-reklam-raporlarinda-sezonluk-ve-yilbazli-karsilastirma-analizi":"BlogOtelReklamRaporlarindaSezonlukVeYilbazliKarsilastirmaAnalizi",
+    "otel-reklam-raporlarinda-attribution-ve-yardimci-donusumleri-okumak":"BlogOtelReklamRaporlarindaAttributionVeYardimciDonusumleriOkumak"
 
    
   },
@@ -214,7 +215,8 @@ export const BLOG_MAP = {
 
     "rezervasyon-yonetimi-nedir-cok-kanalli-akis":"BlogRezervasyonYonetimiNedirCokKanalliAkis",
     "rezervasyon-sureci-adim-adim-talep-opsiyon-onay-checkin":"BlogRezervasyonSureciAdimAdimTalepOpsiyonOnayCheckin",
-    "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":"BlogCokKanalliRezervasyonYonetimiOTAWEBCallCenter"
+    "cok-kanalli-rezervasyon-yonetimi-ota-web-cagri-merkezi":"BlogCokKanalliRezervasyonYonetimiOTAWEBCallCenter",
+    "iptal-opsiyon-ve-no-show-statulerini-dogru-kullanmak":"BlogIptalOpsiyonVeNoShowStatuleriniDogruKullanmak"
   },
 
     "raporlama": {
@@ -271,7 +273,8 @@ export const BLOG_MAP = {
 
     "pms-entegrasyonu-nedir-otel-icin-temel-rehber":"BlogPmsEntegrasyonuNedirOtelIcinTemelRehber",
     "pms-ota-kanal-yonetimi-tam-entegrasyon-mimarisi":"BlogPmsOtaKanalYonetimiTamEntegrasyonMimarisi",
-    "pms-web-rezervasyon-sistemi-entegrasyonu":"BlogPMSWebRezervasyonSistemiEntegrasyonu"
+    "pms-web-rezervasyon-sistemi-entegrasyonu":"BlogPMSWebRezervasyonSistemiEntegrasyonu",
+    "pms-cagri-merkezi-entegrasyonu":"BlogPmsCagriMerkeziEntegrasyonu"
     
   }
 };
