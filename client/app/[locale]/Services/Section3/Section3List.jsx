@@ -2,21 +2,18 @@
 
 import Link from "next/link";
 import useEmblaCarousel from "embla-carousel-react";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import ServicesCarouselWrapper from "@/app/[locale]/components/serviceblocks/ServicesCarouselWrapper";
-import { useTranslations, useMessages } from "next-intl";
+import { useTranslations } from "next-intl";
 
 const Section3 = ({ page }) => {
   const t = useTranslations(`${page}.servicesData`);
   const t2 = useTranslations(`${page}.ourservices`);
-  const messages = useMessages();
-
-  const nsMessages = messages?.[page]?.servicesData || {};
 
   const linkClass =
     "font-normal underline underline-offset-2  items-center";
 
-  const richComponents = {
+  const richComponents = useMemo(() => ({
     // Bold
     b: (chunks) => <span className="font-bold">{chunks}</span>,
 
@@ -237,48 +234,57 @@ const Section3 = ({ page }) => {
         {chunks}
       </Link>
     ),
-  };
+  }), [linkClass]);
 
   const CARD_COUNT = 9;
   const MAX_ITEMS = 6;
 
-  const servicesData = Array.from({ length: CARD_COUNT }, (_, i) => {
-    const id = i + 1;
+  const servicesData = useMemo(
+    () =>
+      Array.from({ length: CARD_COUNT }, (_, i) => {
+        const id = i + 1;
 
-    // title için yine t kullanabiliriz (bunlar zaten var)
-    const title = t(`title${id}`);
+        // title için yine t kullanabiliriz (bunlar zaten var)
+        const title = t(`title${id}`);
 
-    // --- textX ve endTextX: direkt messages'tan kontrol ---
-    const rawText = nsMessages[`text${id}`];
-    const textKey =
-      typeof rawText === "string" && rawText.trim() ? `text${id}` : null;
+        // --- textX ve endTextX: direkt messages'tan kontrol ---
+        const textMessageKey = `text${id}`;
+        const textValue = t.has(textMessageKey) ? t.raw(textMessageKey) : null;
+        const textKey =
+          typeof textValue === "string" && textValue.trim() ? textMessageKey : null;
 
-    const rawEndText = nsMessages[`endText${id}`];
-    const endTextKey =
-      typeof rawEndText === "string" && rawEndText.trim()
-        ? `endText${id}`
-        : null;
+        const endTextMessageKey = `endText${id}`;
+        const endTextValue = t.has(endTextMessageKey)
+          ? t.raw(endTextMessageKey)
+          : null;
+        const endTextKey =
+          typeof endTextValue === "string" && endTextValue.trim()
+            ? endTextMessageKey
+            : null;
 
-    // --- itemX_Y listesi: sadece gerçekten JSON'da olanları al ---
-    const items = [];
-    for (let j = 1; j <= MAX_ITEMS; j++) {
-      const key = `item${id}_${j}`;
-      const val = nsMessages[key];
+        // --- itemX_Y listesi: sadece gerçekten JSON'da olanları al ---
+        const items = [];
+        for (let j = 1; j <= MAX_ITEMS; j++) {
+          const key = `item${id}_${j}`;
+          if (!t.has(key)) continue;
+          const val = t.raw(key);
 
-      // JSON'da yoksa veya string değilse/boşsa → SKIP
-      if (typeof val !== "string" || !val.trim()) continue;
+          // Mesaj yoksa veya string değilse/boşsa → SKIP
+          if (typeof val !== "string" || !val.trim()) continue;
 
-      items.push(key);
-    }
+          items.push(key);
+        }
 
-    return {
-      title,
-      textKey,
-      endTextKey,
-      items,
-      link: t(`link${id}`),
-    };
-  });
+        return {
+          title,
+          textKey,
+          endTextKey,
+          items,
+          link: t(`link${id}`),
+        };
+      }),
+    [t]
+  );
 
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -311,15 +317,17 @@ const Section3 = ({ page }) => {
     setSlideCount(emblaApi.scrollSnapList().length);
     onSelect();
 
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", () => {
+    const handleReInit = () => {
       setSlideCount(emblaApi.scrollSnapList().length);
       onSelect();
-    });
+    };
+
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", handleReInit);
 
     return () => {
       emblaApi.off("select", onSelect);
-      emblaApi.off("reInit", onSelect);
+      emblaApi.off("reInit", handleReInit);
     };
   }, [emblaApi, onSelect]);
 

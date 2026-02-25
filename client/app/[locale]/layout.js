@@ -2,7 +2,6 @@ import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { headers } from "next/headers";
 import { routing } from '@/i18n/routing';
 import HeaderWrapper from "./components/HeaderWrapper";
 // import Footer from "./components/footer/Footer";
@@ -27,108 +26,13 @@ const inter = Inter({
   variable: "--font-inter", 
 });
 
-const HOME_MESSAGE_KEYS = new Set([
-  "Header",
-  "Footer",
-  "Homepage",
-  "AboutPage",
-  "CookiePopup",
-  "LocaleSwitcher",
-]);
-
-function cleanPathname(input) {
-  if (!input) return "";
-
-  const raw = String(input).trim();
-  if (!raw) return "";
-
-  try {
-    if (raw.startsWith("http://") || raw.startsWith("https://")) {
-      return new URL(raw).pathname || "";
-    }
-  } catch {}
-
-  if (!raw.startsWith("/")) return "";
-  const pathname = raw.split("?")[0];
-  return pathname.endsWith("/") && pathname.length > 1
-    ? pathname.slice(0, -1)
-    : pathname;
-}
-
-function isHomepageRequestByValue(value, locale) {
-  if (!value) return false;
-
-  const pathname = cleanPathname(value);
-  if (pathname === "/" || pathname === `/${locale}`) return true;
-
-  const raw = String(value).split("?")[0];
-  return raw === "/[locale]" || raw === "/[locale]/page";
-}
-
-function isHomepageRequest(headerList, locale) {
-  if (!headerList) return false;
-
-  const pathHeaders = [
-    "next-url",
-    "x-next-url",
-    "x-pathname",
-    "x-invoke-path",
-    "x-matched-path",
-    "x-nextjs-matched-path",
-  ];
-
-  return pathHeaders.some((key) =>
-    isHomepageRequestByValue(headerList.get(key), locale)
-  );
-}
-
-function buildClientMessages(allMessages, { homepageOnly = false } = {}) {
+function buildClientMessages(allMessages) {
   if (!allMessages || typeof allMessages !== "object") return allMessages;
-
-  if (homepageOnly) {
-    return Object.fromEntries(
-      Object.entries(allMessages).filter(([key]) => HOME_MESSAGE_KEYS.has(key))
-    );
-  }
-
-  const rawBlogPosts = allMessages.BlogPosts;
-  if (!rawBlogPosts || typeof rawBlogPosts !== "object") return allMessages;
-
-  const slimBlogPosts = Object.fromEntries(
-    Object.entries(rawBlogPosts).map(([key, post]) => {
-      const safePost = post && typeof post === "object" ? post : {};
-      const safeByline =
-        safePost.byline && typeof safePost.byline === "object" ? safePost.byline : {};
-      const h1Intro =
-        safePost.h1 &&
-        typeof safePost.h1 === "object" &&
-        typeof safePost.h1.intro === "string"
-          ? safePost.h1.intro
-          : "";
-      const normalizedExcerpt = h1Intro || safePost.excerpt || safePost.h1Intro || "";
-
-      return [
-        key,
-        {
-          slug: safePost.slug || "",
-          department: safePost.department || "",
-          subDepartment: safePost.subDepartment || safePost.subDepartman || "",
-          title: safePost.title || "",
-          excerpt: normalizedExcerpt,
-          publishedAt: safePost.publishedAt || safeByline.publishedAt || "",
-          updatedAt: safePost.updatedAt || safeByline.updatedAt || "",
-          readingTime: safePost.readingTime || safeByline.readingTime || "",
-        },
-      ];
-    })
+  return Object.fromEntries(
+    Object.entries(allMessages).filter(
+      ([key]) => !key.startsWith("Faq") && key !== "BlogPosts"
+    )
   );
-
-  return {
-    ...Object.fromEntries(
-      Object.entries(allMessages).filter(([key]) => !key.startsWith("Faq"))
-    ),
-    BlogPosts: slimBlogPosts,
-  };
 }
 
 const ogLocaleMap = {
@@ -224,9 +128,7 @@ export default async function RootLayout({ children,  params }) {
   }
       setRequestLocale(locale)
        const allMessages = await getMessages();
-       const headerList = await headers();
-       const homepageOnly = isHomepageRequest(headerList, locale);
-       const messages = buildClientMessages(allMessages, { homepageOnly });
+       const messages = buildClientMessages(allMessages);
 
 
   return (

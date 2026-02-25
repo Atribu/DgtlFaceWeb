@@ -33,18 +33,18 @@ export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
-         <ViewportLazyMount rootMargin="80px 0px" threshold={0.08} minHeight={260} className="w-full">
+         <ViewportLazyMount rootMargin="0px 0px" threshold={0.18} minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
          {/* <HomeBlogShowcase limit={10} heroCount={5} showHero /> */}
 
-        <ViewportLazyMount rootMargin="120px 0px" threshold={0.12} minHeight={900} className="w-full">
+        <ViewportLazyMount rootMargin="20px 0px" threshold={0.2} minHeight={900} className="w-full">
           <H2Section />
           <BlocksYatay />
 
           <ViewportLazyMount
-            rootMargin="40px 0px"
-            threshold={0.22}
+            rootMargin="0px 0px"
+            threshold={0.32}
             minHeight={420}
             className="w-full"
           >
@@ -52,13 +52,13 @@ export default function HomePage() {
           </ViewportLazyMount>
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="160px 0px" threshold={0.14} minHeight={2200} className="w-full">
+        <ViewportLazyMount rootMargin="40px 0px" threshold={0.22} minHeight={2200} className="w-full">
           <Partners />
           <Section1 />
 
           <ViewportLazyMount
-            rootMargin="80px 0px"
-            threshold={0.2}
+            rootMargin="0px 0px"
+            threshold={0.3}
             minHeight={150}
             className="w-full"
           >
@@ -66,8 +66,8 @@ export default function HomePage() {
           </ViewportLazyMount>
 
           <ViewportLazyMount
-            rootMargin="40px 0px"
-            threshold={0.24}
+            rootMargin="0px 0px"
+            threshold={0.34}
             minHeight={700}
             className="w-full"
           >
@@ -75,15 +75,15 @@ export default function HomePage() {
           </ViewportLazyMount>
         </ViewportLazyMount>
 
-        <ViewportLazyMount rootMargin="180px 0px" threshold={0.16} minHeight={660} className="w-full">
+        <ViewportLazyMount rootMargin="60px 0px" threshold={0.24} minHeight={660} className="w-full">
           <QuestionsSection2 variant="dark" faqs={faqs} />
           <AiAnswerBlock text={t("aiAnswerBlock")} />
 
           {/* <ServicesCarousel/> */}
 
           <ViewportLazyMount
-            rootMargin="80px 0px"
-            threshold={0.24}
+            rootMargin="0px 0px"
+            threshold={0.34}
             minHeight={250}
             className="w-full"
           >
