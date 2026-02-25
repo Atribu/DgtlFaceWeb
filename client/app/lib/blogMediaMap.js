@@ -11711,6 +11711,160 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "otel-cagri-merkezi-ota-sorun-yonetimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-1.webp",
+      alt: "OTA Üzerinden Gelen Çağrıları Yönetmek: Booking/Expedia Kaynaklı Sorun ve Talep Akışları",
+      caption: "OTA Üzerinden Gelen Çağrıları Yönetmek: Booking/Expedia Kaynaklı Sorun ve Talep Akışları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-2.webp",
+      alt: "OTA rezervasyon çağrısı, misafir–call center–PMS koordinasyonu ve doğru yönlendirme",
+      caption: "OTA rezervasyon çağrısı, misafir–call center–PMS koordinasyonu ve doğru yönlendirme"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-3.webp",
+      alt: "OTA çağrı türleri sınıflandırması, otel call center soru değişiklik şikayet akışı",
+      caption: "OTA çağrı türleri sınıflandırması, otel call center soru değişiklik şikayet akışı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-4.webp",
+      alt: "Ödeme iptal no-show yönetimi, OTA prosedür ve yetki sınırı bölümü ayırıcı",
+      caption: "Ödeme iptal no-show yönetimi, OTA prosedür ve yetki sınırı bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-5.webp",
+      alt: "OTA çağrı akış diyagramı, misafir-call center-PMS-OTA adımları",
+      caption: "OTA çağrı akış diyagramı, misafir-call center-PMS-OTA adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-6.webp",
+      alt: "OTA çağrı playbook checklist kartı, booking expedia senaryo yönetimi",
+      caption: "OTA çağrı playbook checklist kartı, booking expedia senaryo yönetimi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-7.webp",
+      alt: "OTA çağrı KPI kartı, çözüm süresi tekrar çağrı oranı ve SLA takibi",
+      caption: "OTA çağrı KPI kartı, çözüm süresi tekrar çağrı oranı ve SLA takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-6/Hotel6-6-8.webp",
+      alt: "4 sık OTA senaryosu 4 çözüm kartı, call center hızlı müdahale seti",
+      caption: "4 sık OTA senaryosu 4 çözüm kartı, call center hızlı müdahale seti"
+    }
+  },
+
+
+
+   "rezervasyon-gorusmesinde-upsell-ve-cross-sell":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-1.webp",
+      alt: "Rezervasyon Görüşmesinde Upsell & Cross-Sell: Oda, Geç Çıkış, Spa ve Diğer Fırsatlar",
+      caption: "Rezervasyon Görüşmesinde Upsell & Cross-Sell: Oda, Geç Çıkış, Spa ve Diğer Fırsatlar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-2.webp",
+      alt: "Çağrı merkezi görüşmesinde segment bazlı teklif sunumu, otel ancillary gelir akışı",
+      caption: "Çağrı merkezi görüşmesinde segment bazlı teklif sunumu, otel ancillary gelir akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-3.webp",
+      alt: "Upsell neden önemli, çağrı merkezi revenue center yaklaşımı ve deneyim etkisi",
+      caption: "Upsell neden önemli, çağrı merkezi revenue center yaklaşımı ve deneyim etkisi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-4.webp",
+      alt: "Ek hizmet cross-sell fırsatları, geç çıkış transfer spa öneri modeli",
+      caption: "Ek hizmet cross-sell fırsatları, geç çıkış transfer spa öneri modeli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-5.webp",
+      alt: "Upsell akış diyagramı, ana rezervasyon kapanışı sonrası kısa ek hizmet önerisi",
+      caption: "Upsell akış diyagramı, ana rezervasyon kapanışı sonrası kısa ek hizmet önerisi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-6.webp",
+      alt: "Oda upgrade teklif şablonu, iki seçenekli sunum ve fayda cümlesi",
+      caption: "Oda upgrade teklif şablonu, iki seçenekli sunum ve fayda cümlesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-7.webp",
+      alt: "Upsell KPI kartı, take-rate attach-rate ve çağrı başına ek gelir takibi",
+      caption: "Upsell KPI kartı, take-rate attach-rate ve çağrı başına ek gelir takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-7/Hotel6-7-8.webp",
+      alt: "Üç upsell senaryosu kartı, script cümleleri ve KPI notlarıyla hızlı uygulama",
+      caption: "Üç upsell senaryosu kartı, script cümleleri ve KPI notlarıyla hızlı uygulama"
+    }
+  },
+
+
+  "otel-sikayet-ve-kriz-cagrilari-yonetimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-1.webp",
+      alt: "Otel Şikâyet ve Kriz Çağrılarını Yönetmek: Öfkeli Misafiri Kaybetmeden Nasıl Konuşmalısınız?",
+      caption: "Otel Şikâyet ve Kriz Çağrılarını Yönetmek: Öfkeli Misafiri Kaybetmeden Nasıl Konuşmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-2.webp",
+      alt: "Öfkeli misafir çağrısı, call center sakinleştirme ve çözüm plan",
+      caption: "Öfkeli misafir çağrısı, call center sakinleştirme ve çözüm plan"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-3.webp",
+      alt: "Şikâyet türleri sınıflandırması, otel service recovery çerçevesi",
+      caption: "Şikâyet türleri sınıflandırması, otel service recovery çerçevesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-4.webp",
+      alt: "Empati özür çözüm sıralaması, yanlış doğru cevap örnekleri bölümü",
+      caption: "Empati özür çözüm sıralaması, yanlış doğru cevap örnekleri bölümü"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-5.webp",
+      alt: "Şikâyet çağrısı akış diyagramı, eskalasyon ve takip adımları",
+      caption: "Şikâyet çağrısı akış diyagramı, eskalasyon ve takip adımları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-6.webp",
+      alt: "Şikâyet çağrısı 5 adımlı service recovery checklist kartı, otel call center",
+      caption: "Şikâyet çağrısı 5 adımlı service recovery checklist kartı, otel call center"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-7.webp",
+      alt: "Service recovery KPI kartı, çözüm süresi tekrar çağrı ve eskalasyon takibi",
+      caption: "Service recovery KPI kartı, çözüm süresi tekrar çağrı ve eskalasyon takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-8/Hotel6-8-8.webp",
+      alt: "3 service recovery senaryosu kartı, takip ve telafi akışı",
+      caption: "3 service recovery senaryosu kartı, takip ve telafi akışı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

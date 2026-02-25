@@ -287,7 +287,11 @@ export const BLOG_MAP = {
     "otel-rezervasyon-cagri-merkezi-script-ornekleri":"BlogOtelRezervasyonCagriMerkeziScriptOrnekleri",
     "otel-cagri-merkezi-kpi-ve-performans-raporlama":"BlogOtelCagriMerkeziKpiVePerformansRaporlama",
     "cok-dilli-otel-rezervasyon-hatti-operasyonu":"BlogOtelCokDilliOtelRezervasyonHattiOperasyonu",
-    "otel-icin-birlesik-satis-funneli-web-ota-call-center":"BlogOtelIcinBirlesikSatisFunneliWebOtaCallCenter"
+    "otel-icin-birlesik-satis-funneli-web-ota-call-center":"BlogOtelIcinBirlesikSatisFunneliWebOtaCallCenter",
+
+    "otel-cagri-merkezi-ota-sorun-yonetimi":"BlogOtelCagriMerkeziOTASorunYonetimi",
+    "rezervasyon-gorusmesinde-upsell-ve-cross-sell":"BlogOtelRezervasyonGorusmesindeUpsellVeCrossSell",
+    "otel-sikayet-ve-kriz-cagrilari-yonetimi":"BlogOtelSikayetVeKrizCagrilariYonetimi"
     
   }
 };

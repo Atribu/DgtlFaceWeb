@@ -29827,7 +29827,220 @@ export const BLOG_JSONLD_MAP = {
       "xpath": ["/html/head/title", "/html/body//h1"]
     }
   ]
-}
+},
+
+//
+"otel-cagri-merkezi-ota-sorun-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi",
+      "headline": "OTA Üzerinden Gelen Çağrıları Yönetmek: Booking/Expedia Kaynaklı Sorun ve Talep Akışları",
+      "name": "OTA Üzerinden Gelen Çağrıları Yönetmek: Booking/Expedia Kaynaklı Sorun ve Talep Akışları",
+      "description": "Booking ve Expedia kaynaklı çağrılar için net akış ve script tanımlayarak; iptal, değişiklik ve ödeme sorunlarını sistematik yönetebilir, misafire profesyonel bir deneyim sunarken OTA ilişkisini de koruyabilirsiniz.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "OTA Üzerinden Gelen Çağrıları Yönetmek", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA (Booking/Expedia) kaynaklı çağrılar nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çağrı tipini sınıflandırın, rezervasyon kaynağını doğrulayın ve OTA–PMS akışını net uygulayın. Her senaryo için kısa script + yetki sınırı tanımlayın; call-back ve not standardıyla süreci takip edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA rezervasyonunda iptal/değişiklik talebine çağrı merkezinde nasıl yaklaşılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce koşulları eşitleyin: iptal penceresi, ücret ve değişiklik kuralı netleşsin. Sözleşme/prosedür dışı vaat vermeden, işlemin OTA’da mı PMS’te mi ilerleyeceğini söyleyin ve gerekiyorsa yetkili devri + SLA verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ödemeli rezervasyonlarda misafire nasıl bilgi verilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ödeme modelini netleştirin: OTA prepay mi, otel tahsil mi? Misafire tahsilat/iade sürecinin nereden ilerlediğini sade anlatın; kesin süre vaat etmek yerine süreç adımlarını ve geri dönüş zamanını belirtin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA misafirini sonraki konaklamada direct kanala nasıl yönlendirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sorun çözüldükten sonra agresif yönlendirme yerine tercih yönetimi ve hızlı çözüm gibi değer önerisi sunun. Bir sonraki konaklama için direct iletişim yolunu netleştirerek sadakat çerçevesi kurun."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#howto",
+      "name": "OTA (Booking/Expedia) çağrıları nasıl sistematik yönetilir?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Çağrı tipini sınıflandırın", "text": "Soru, değişiklik, şikâyet, ödeme, iptal/no-show gibi çağrı tipini ilk 30 saniyede etiketleyin." },
+        { "@type": "HowToStep", "name": "Kaynağı doğrulayın", "text": "Booking/Expedia referansını PMS kaydıyla eşleştirip işlem türünü netleştirin." },
+        { "@type": "HowToStep", "name": "Akış ve yetkiyi uygulayın", "text": "İşlemin OTA extranet mi PMS mi olduğunu belirleyin; yetki sınırlarını aşmadan script ile next-step verin." },
+        { "@type": "HowToStep", "name": "Takip ve raporlama kurun", "text": "Call-back SLA, not standardı ve KPI takibiyle tekrar eden sorunları süreçle azaltın." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ota-sorun-yonetimi#speakable",
+      "xpath": ["/html/head/title", "/html/body//h1"]
+    }
+  ]
+},
+
+"rezervasyon-gorusmesinde-upsell-ve-cross-sell":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#article",
+      "url": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell",
+      "headline": "Rezervasyon Görüşmesinde Upsell & Cross-Sell: Oda, Geç Çıkış, Spa ve Diğer Fırsatlar",
+      "name": "Rezervasyon Görüşmesinde Upsell & Cross-Sell: Oda, Geç Çıkış, Spa ve Diğer Fırsatlar",
+      "description": "Rezervasyon çağrısında önce ana rezervasyonu netleştirin, ardından misafir segmentine uygun oda upgrade ve ek hizmetleri kısa ve öneri tonunda sunarak hem deneyimi hem geliri artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Rezervasyon Görüşmesinde Upsell & Cross-Sell", "item": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rezervasyon çağrısında upsell ve cross-sell nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce ana rezervasyonu netleştirin, sonra misafir segmentine uygun 1–2 kısa öneri sunun. “Push” yerine “öneri” tonunu koruyun ve reddedilirse zorlamadan kapatın. Kabul/ret nedenlerini notlayıp KPI’larla iyileştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda upgrade teklifini ne zaman ve nasıl sunmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda tipi ve fiyat aralığı netleştikten sonra, kapanışa yaklaşırken sunmak en güvenlisidir. 2 seçenekli çerçeve kullanın ve tek bir faydayı net söyleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi ek hizmetler telefonda önerilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geç çıkış/erken giriş, transfer, spa paketi ve restoran rezervasyonu gibi hızlı anlaşılabilen hizmetler uygundur. Teklif “kolaylık ve deneyim” üzerinden kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Upsell performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upsell take-rate, attach-rate, kişi başı ek gelir ve çağrı başına gelir KPI’larını izleyin; QA ile doğru zaman/doğru ton standardını ölçün."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#howto",
+      "name": "Rezervasyon görüşmesinde upsell & cross-sell nasıl yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Ana rezervasyonu netleştirin", "text": "Tarih, kişi sayısı, oda tipi ve temel koşulları netleştirip kapanışa yaklaşın." },
+        { "@type": "HowToStep", "name": "Segmenti belirleyin", "text": "Aile/çift/luxury/business gibi segment sinyalini hızlıca çıkarın." },
+        { "@type": "HowToStep", "name": "1–2 kısa öneri sunun", "text": "Upgrade veya tek ek hizmeti 10–20 saniyede, öneri tonuyla sunun; reddedilirse zorlamayın." },
+        { "@type": "HowToStep", "name": "Ölçüp iyileştirin", "text": "Teklif edildi/kabul/ret nedenini notlayın; take-rate ve kişi başı ek gelir KPI’larıyla döngü kurun." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/rezervasyon-gorusmesinde-upsell-ve-cross-sell#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-sikayet-ve-kriz-cagrilari-yonetimi":{}
 
     }
   },

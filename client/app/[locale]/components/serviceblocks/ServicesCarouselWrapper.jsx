@@ -2,7 +2,7 @@
 "use client";
 import  Link  from "next/link";
 
-import React from "react";
+import React, { memo } from "react";
 import VBlock from "./VBlock";
 
 function ServicesCarouselWrapper({selected,isActive}) {
@@ -55,4 +55,4 @@ function ServicesCarouselWrapper({selected,isActive}) {
   );
 }
 
-export default ServicesCarouselWrapper;
+export default memo(ServicesCarouselWrapper);
