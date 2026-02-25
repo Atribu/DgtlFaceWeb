@@ -29362,7 +29362,472 @@ export const BLOG_JSONLD_MAP = {
 
 //
 
-"telefonla-rezervasyon-donusum-artirma":{}
+"telefonla-rezervasyon-donusum-artirma":{},
+
+"otel-rezervasyon-cagri-merkezi-script-ornekleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": {
+        "@type": "Service",
+        "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#service"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri",
+      "headline": "Otel Rezervasyon Çağrı Merkezi Script Örnekleri: Karşılama, Teklif ve Kapatma",
+      "name": "Otel Rezervasyon Çağrı Merkezi Script Örnekleri: Karşılama, Teklif ve Kapatma",
+      "description": "Otel rezervasyon hattı için karşılama, ihtiyaç analizi, teklif, itiraz ve kapatma script örnekleri. Tablo şablonlarıyla uyarlayın, dönüşümü destekleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#service",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "serviceType": "Hotel Call Center & Phone Reservations",
+      "areaServed": {
+        "@type": "Country",
+        "name": "TR"
+      },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rezervasyon Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/otel/cagri-merkezi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Blog",
+          "item": "https://dgtlface.com/tr/otel/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Otel Rezervasyon Çağrı Merkezi Script Örnekleri: Karşılama, Teklif ve Kapatma",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi script’i nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script, operatörün robotlaşması için değil; her aramada tutarlı ve profesyonel bir akışla ilerlemesi için blok bazlı rehberdir. Otellerde özellikle kararsız misafir, OTA/fiyat itirazı ve takip süreçleri sık olduğu için kalite standardı sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon hattında karşılama cümlesi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek cümlede kimlik + güven + yönlendirme kurun ve erken aşamada tarih/kişi sayısını alın. Marka diline göre 2–3 varyasyon hazırlayın, ancak çekirdek yapı sabit kalsın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İhtiyaç analizi için hangi soruları sormalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "4–6 soru idealdir: tarih, kişi sayısı, konaklama amacı, çocuk durumu, bütçe aralığı ve iptal esnekliği. Misafirin karar kriterini bulup teklifi buna bağlamak dönüşümü destekler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat itirazlarına nasıl cevap verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati + netleştirme + çözüm sırasını izleyin. “Aynı oda tipi ve iptal koşulu mu?” gibi koşul eşitleme sorusuyla çerçeveleyin; ardından iki seçenekli teklif ve fayda anlatımıyla ilerleyin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#howto",
+      "name": "Otel çağrı merkezi script’i nasıl kurgulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Blokları belirleyin", "text": "Karşılama, ihtiyaç analizi, teklif, itiraz, closing ve takip bloklarını ayrı ayrı tanımlayın." },
+        { "@type": "HowToStep", "name": "Marka diline uyarlayın", "text": "Her blok için çekirdek cümle + 2 varyasyon yazın; kopyalamayın, uyarlayın." },
+        { "@type": "HowToStep", "name": "Rol-play ve ölçüm ekleyin", "text": "Kısa rol-play ile test edin; blok tamamlama ve itirazdan dönüş KPI’larını takip edin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-rezervasyon-cagri-merkezi-script-ornekleri#speakable",
+      "xpath": [
+        "/html/head/title",
+        "/html/body//h1"
+      ]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-kpi-ve-performans-raporlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": {
+        "@type": "Service",
+        "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#service"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama",
+      "headline": "Otel Rezervasyon Çağrı Merkezi KPI’ları ve Performans Raporlama Rehberi",
+      "name": "Otel Rezervasyon Çağrı Merkezi KPI’ları ve Performans Raporlama Rehberi",
+      "description": "Otel çağrı merkezinde arama, cevaplanma, kaçan çağrı, dönüşüm ve gelir KPI’larını birlikte takip edin. Günlük-haftalık-aylık rapor yapısıyla iyileştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#service",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "serviceType": "Hotel Call Center & Phone Reservations",
+      "areaServed": { "@type": "Country", "name": "TR" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Otel Rezervasyon Çağrı Merkezi KPI’ları ve Performans Raporlama Rehberi", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezi için hangi KPI’lar kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arama hacmi, cevaplanma oranı, bekleme süresi, kaçan çağrılar, geri dönüş oranı, dönüşüm oranı ve çağrı başına gelir temel seti oluşturur. Bu KPI’lar birlikte okunduğunda staffing, eğitim ve script kararları netleşir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon dönüşüm oranı nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Basit yaklaşım rezervasyon sayısını cevaplanan (veya nitelikli) çağrı sayısına bölmektir. En kritik nokta, paydanın tanımını sabitlemektir: “cevaplanan” mı “nitelikli” mi? Tutarlılık trend okumayı mümkün kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaçan çağrılar ve geri dönüş oranı nasıl raporlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Missed Calls ve Call-back Rate birlikte raporlanmalıdır; tek başına kaçan çağrı sayısı yanıltıcı olur. Ayrıca geri dönüş süresi (SLA) eklenirse takip disiplininin performansa etkisi görünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dil ve pazar bazlı performans neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Farklı dillerde arama niyeti, itiraz türleri ve kapanış davranışları değişebilir. Destinasyon ve pazar kırılımı, doğru staffing ve eğitim önceliği için kritik sinyal üretir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-kpi-ve-performans-raporlama#speakable",
+      "xpath": ["/html/head/title", "/html/body//h1"]
+    }
+  ]
+},
+
+"cok-dilli-otel-rezervasyon-hatti-operasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": {
+        "@type": "Service",
+        "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#service"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu",
+      "headline": "Çok Dilli (TR–EN–DE–RU) Otel Rezervasyon Hattı Nasıl Kurulur?",
+      "name": "Çok Dilli (TR–EN–DE–RU) Otel Rezervasyon Hattı Nasıl Kurulur?",
+      "description": "TR–EN–DE–RU çok dilli rezervasyon hattı kurun: routing, lokalize script, pazar saatlerine göre vardiya ve dil/pazar KPI dashboard’ı ile yönetin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu#article" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi#service",
+      "name": "4 Dilli Çağrı Merkezi",
+      "serviceType": "Multilingual Hotel Reservation Line (TR-EN-DE-RU)",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": { "@type": "Country", "name": "TR" },
+      "url": "https://dgtlface.com/tr/cagri-merkezi/4-dilli-cagri-merkezi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Çok Dilli (TR–EN–DE–RU) Otel Rezervasyon Hattı Nasıl Kurulur?", "item": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çok dilli otel rezervasyon hattı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dil/pazar hedefini netleştirip TR/EN/DE/RU için ayrı kuyruk ve routing kurun. Script’i doğrudan çevirmek yerine lokal tonla uyarlayın, vardiyayı pazar saatlerine göre planlayın. Dil/pazar KPI dashboard’ı ile dönüşüm ve memnuniyeti birlikte izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU için nasıl ekip ve vardiya planı yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çağrı log’larından 14 günde pazar pik saatlerini çıkarın ve DE/RU kritik saatlerinde ana operatör kapsaması sağlayın. Yoğun saatlerde failover kapasite planlayın ve dil yoksa call-back SLA belirleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Script’leri dillere göre nasıl uyarlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script’i bloklara ayırın ve her dilde aynı niyeti farklı ifadelerle kurun. DE’de şartların netliği, RU’da güven/sıcak ton dengesi, EN’de hızlı next step vurgusu gibi lokalizasyon notları ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dil ve pazar bazlı performans nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Answer rate, missed calls, call-back rate, conversion ve QA score gibi KPI’ları her dil için ayrı izleyin. KPI sinyallerini staffing, eğitim ve script revizyon kararlarına bağlayarak iyileştirme döngüsü kurun."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-rezervasyon-hatti-operasyonu#speakable",
+      "xpath": ["/html/head/title", "/html/body//h1"]
+    }
+  ]
+},
+
+"otel-icin-birlesik-satis-funneli-web-ota-call-center":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center",
+      "headline": "Otel İçin Birleşik Satış Funnel’ı: Web, OTA ve Call Center’ı Nasıl Birlikte Çalıştırırsınız?",
+      "name": "Otel İçin Birleşik Satış Funnel’ı: Web, OTA ve Call Center’ı Nasıl Birlikte Çalıştırırsınız?",
+      "description": "Web, OTA ve call center’ı tek satış hunisinde rol bazlı kurgulayın. Kanal geçişlerini ölçün; doluluk ve kârlılığı birlikte optimize edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Otel İçin Birleşik Satış Funnel’ı", "item": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Web, OTA ve call center otel satış hunisinde nasıl birlikte çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA keşif/görünürlük, web bilgi ve self-servis, call center ise ikna ve özel talepleri kapatma rolüyle tek hunide çalışmalıdır. Lead devri ve takip süreçle tasarlanmalı, geçişler veriyle ölçülmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA’dan gelen misafiri direct kanala nasıl taşıyabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Koşulları eşitleyip (oda/iptal/ödeme) değeri netleştirin (esneklik, özel talep, oda notu). Call center, kararsız misafiri çözüm odaklı kapatarak direct’e geçişi doğal hale getirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web form, chat ve telefon akışını nasıl entegre ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Form/chat’i lead yakalama, telefonu kapanış kanalı olarak konumlandırın. Lead’in call center’a düşmesi, SLA ile geri dönüş ve not standardı entegrasyonun temelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Omnichannel satış funnel’ını nasıl ölçer ve optimize ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM’ler, call tracking ve PMS rezervasyon kaynak kodlarıyla kanal geçişlerini görünür kılın. Her ay bir darboğaz seçip 14 günlük sprint ile aksiyon uygulayın ve trend kıyaslayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#howto",
+      "name": "Otel için birleşik satış funnel’ı nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Kanal rollerini tanımlayın", "text": "OTA’yı keşif, web’i bilgi/self-servis, call center’ı ikna/kapanış rolüyle netleştirin." },
+        { "@type": "HowToStep", "name": "Lead devrini tasarlayın", "text": "Web form/chat/DM ve OTA kaynaklı talepler için call center devri ve SLA belirleyin." },
+        { "@type": "HowToStep", "name": "Ölçüm altyapısını kurun", "text": "UTM, call tracking ve PMS kaynak kodlarıyla kanal geçişlerini görünür kılın." },
+        { "@type": "HowToStep", "name": "Optimizasyon döngüsü çalıştırın", "text": "Her ay bir darboğaz seçip 14 günlük sprint ile UX/script/staffing iyileştirmesi yapın." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icin-birlesik-satis-funneli-web-ota-call-center#speakable",
+      "xpath": ["/html/head/title", "/html/body//h1"]
+    }
+  ]
+}
 
     }
   },

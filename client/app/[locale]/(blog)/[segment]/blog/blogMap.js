@@ -283,7 +283,11 @@ export const BLOG_MAP = {
     "pms-cagri-merkezi-entegrasyonu":"BlogPmsCagriMerkeziEntegrasyonu",
     "pms-verisini-raporlama-ve-looker-studioya-tasima":"BlogPmsVerisiniRaporlamaVeLookerStudioyaTasima",
 
-    "telefonla-rezervasyon-donusum-artirma":"BlogTelefonlaRezervasyonDonusumArtirma"
+    "telefonla-rezervasyon-donusum-artirma":"BlogTelefonlaRezervasyonDonusumArtirma",
+    "otel-rezervasyon-cagri-merkezi-script-ornekleri":"BlogOtelRezervasyonCagriMerkeziScriptOrnekleri",
+    "otel-cagri-merkezi-kpi-ve-performans-raporlama":"BlogOtelCagriMerkeziKpiVePerformansRaporlama",
+    "cok-dilli-otel-rezervasyon-hatti-operasyonu":"BlogOtelCokDilliOtelRezervasyonHattiOperasyonu",
+    "otel-icin-birlesik-satis-funneli-web-ota-call-center":"BlogOtelIcinBirlesikSatisFunneliWebOtaCallCenter"
     
   }
 };

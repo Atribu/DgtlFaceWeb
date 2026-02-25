@@ -11504,6 +11504,213 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+
+
+   "otel-rezervasyon-cagri-merkezi-script-ornekleri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-1.webp",
+      alt: "Otel Rezervasyon Çağrı Merkezi Script Örnekleri: Karşılama, Teklif ve Kapatma",
+      caption: "Otel Rezervasyon Çağrı Merkezi Script Örnekleri: Karşılama, Teklif ve Kapatma"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-2.webp",
+      alt: "Rezervasyon hattında karşılama ve ihtiyaç analizi, otel telefon görüşmesi akışı",
+      caption: "Rezervasyon hattında karşılama ve ihtiyaç analizi, otel telefon görüşmesi akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-3.webp",
+      alt: "Çağrı merkezi script nedir, otel rezervasyon hattında neden önemlidir",
+      caption: "Çağrı merkezi script nedir, otel rezervasyon hattında neden önemlidir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-4.webp",
+      alt: "Teklif sunumu ve fayda anlatımı, otel rezervasyon script bloğu",
+      caption: "Teklif sunumu ve fayda anlatımı, otel rezervasyon script bloğu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-5.webp",
+      alt: "Konuşma akışı diyagramı, karşılama-analiz-teklif-itiraz-closing-takip",
+      caption: "Konuşma akışı diyagramı, karşılama-analiz-teklif-itiraz-closing-takip"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-6.webp",
+      alt: "Hemen uygulanabilir 5 cümle ve itiraz yanıtları kartı, otel call center pratik set",
+      caption: "Hemen uygulanabilir 5 cümle ve itiraz yanıtları kartı, otel call center pratik set"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-7.webp",
+      alt: "Script uygulaması KPI kartı, performans eğrisi ve hata azalması takibi",
+      caption: "Script uygulaması KPI kartı, performans eğrisi ve hata azalması takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-2/Hotel6-2-8.webp",
+      alt: "Karşılama cümleleri ve marka dili uyarlaması, otel rezervasyon call flow çıktıları",
+      caption: "Karşılama cümleleri ve marka dili uyarlaması, otel rezervasyon call flow çıktıları"
+    }
+  },
+
+
+   "otel-cagri-merkezi-kpi-ve-performans-raporlama":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-1.webp",
+      alt: "Otel Rezervasyon Çağrı Merkezi KPI’ları ve Performans Raporlama Rehberi",
+      caption: "Otel Rezervasyon Çağrı Merkezi KPI’ları ve Performans Raporlama Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-2.webp",
+      alt: "Çağrı merkezi performans paneli, arama-cevaplanma-dönüşüm metrikleri",
+      caption: "Çağrı merkezi performans paneli, arama-cevaplanma-dönüşüm metrikleri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-3.webp",
+      alt: "Temel KPI’lar bölümü ayırıcı, çağrı hacmi ve cevaplanma metrikleri",
+      caption: "Temel KPI’lar bölümü ayırıcı, çağrı hacmi ve cevaplanma metrikleri"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-4.webp",
+      alt: "Satış ve dönüşüm KPI’ları bölümü ayırıcı, otel call center gelir metrikler",
+      caption: "Satış ve dönüşüm KPI’ları bölümü ayırıcı, otel call center gelir metrikler"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-5.webp",
+      alt: "Çağrı merkezi dashboard yapısı, günlük-haftalık-aylık raporlama akışı",
+      caption: "Çağrı merkezi dashboard yapısı, günlük-haftalık-aylık raporlama akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-6.webp",
+      alt: "Aylık çağrı merkezi KPI kontrol listesi, otel raporlama çerçevesi",
+      caption: "Aylık çağrı merkezi KPI kontrol listesi, otel raporlama çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-7.webp",
+      alt: "Satış ve dönüşüm KPI kartı, çağrı başına gelir ve offer-to-book paneli",
+      caption: "Satış ve dönüşüm KPI kartı, çağrı başına gelir ve offer-to-book paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-3/Hotel6-3-8.webp",
+      alt: "KPI raporlama deliverables kartı, dashboard ve aylık kontrol listesi",
+      caption: "KPI raporlama deliverables kartı, dashboard ve aylık kontrol listesi"
+    }
+  },
+
+
+  "cok-dilli-otel-rezervasyon-hatti-operasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-1.webp",
+      alt: "Çok Dilli (TR–EN–DE–RU) Otel Rezervasyon Hattı Nasıl Kurulur?",
+      caption: "Çok Dilli (TR–EN–DE–RU) Otel Rezervasyon Hattı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-2.webp",
+      alt: "TR EN DE RU dillerinde rezervasyon hattı, pazar bazlı kuyruk ve vardiya kurgusu",
+      caption: "TR EN DE RU dillerinde rezervasyon hattı, pazar bazlı kuyruk ve vardiya kurgusu"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-3.webp",
+      alt: "Çok dilli rezervasyon hattı avantajları, güven ve dönüşüm etkisi bölümü",
+      caption: "Çok dilli rezervasyon hattı avantajları, güven ve dönüşüm etkisi bölümü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-4.webp",
+      alt: "Dil bazlı operasyon kurgusu, kuyruk ve routing bölümü ayırıcı görsel",
+      caption: "Dil bazlı operasyon kurgusu, kuyruk ve routing bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-5.webp",
+      alt: "Çok dilli call routing diyagramı, TR EN DE RU kuyruk ve failover akışı",
+      caption: "Çok dilli call routing diyagramı, TR EN DE RU kuyruk ve failover akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-6.webp",
+      alt: "Dil bazlı vardiya planlama kontrol listesi, pazar saatlerine göre kapasite",
+      caption: "Dil bazlı vardiya planlama kontrol listesi, pazar saatlerine göre kapasite"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-7.webp",
+      alt: "Dil ve pazar bazlı KPI paneli, TR EN DE RU dönüşüm ve memnuniyet takibi",
+      caption: "Dil ve pazar bazlı KPI paneli, TR EN DE RU dönüşüm ve memnuniyet takibi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-4/Hotel6-4-8.webp",
+      alt: "Çok dilli operasyon deliverables kartı, routing planı ve dashboard çıktıları",
+      caption: "Çok dilli operasyon deliverables kartı, routing planı ve dashboard çıktıları"
+    }
+  },
+
+
+
+  "otel-icin-birlesik-satis-funneli-web-ota-call-center":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-1.webp",
+      alt: "Otel İçin Birleşik Satış Funnel’ı: Web, OTA ve Call Center’ı Nasıl Birlikte Çalıştırırsınız?",
+      caption: "Otel İçin Birleşik Satış Funnel’ı: Web, OTA ve Call Center’ı Nasıl Birlikte Çalıştırırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-2.webp",
+      alt: "Web OTA ve telefon akışı, misafir yolculuğunda kanal geçişleri",
+      caption: "Web OTA ve telefon akışı, misafir yolculuğunda kanal geçişleri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-3.webp",
+      alt: "Kanal rolleri bölümü ayırıcı görsel, web OTA call center görev paylaşımı",
+      caption: "Kanal rolleri bölümü ayırıcı görsel, web OTA call center görev paylaşımı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-4.webp",
+      alt: "Omnichannel ölçüm ve optimizasyon bölümü ayırıcı görsel, funnel yönetimi",
+      caption: "Omnichannel ölçüm ve optimizasyon bölümü ayırıcı görsel, funnel yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-5.webp",
+      alt: "Omnichannel funnel diyagramı, web OTA call center PMS rezervasyon akışı",
+      caption: "Omnichannel funnel diyagramı, web OTA call center PMS rezervasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-6.webp",
+      alt: "Omnichannel lead devri kontrol listesi, web chat telefon akışı",
+      caption: "Omnichannel lead devri kontrol listesi, web chat telefon akışı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-7.webp",
+      alt: "Kanal bazlı dönüşüm ve gelir paneli, direct-OTA-call center dengesi",
+      caption: "Kanal bazlı dönüşüm ve gelir paneli, direct-OTA-call center dengesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-5/Hotel6-5-8.webp",
+      alt: "3 omnichannel funnel senaryosu kartı, kanal geçişleri ve kapanış örnekleri",
+      caption: "3 omnichannel funnel senaryosu kartı, kanal geçişleri ve kapanış örnekleri"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {
