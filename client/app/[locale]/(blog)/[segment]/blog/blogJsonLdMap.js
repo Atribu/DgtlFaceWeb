@@ -30040,7 +30040,215 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"otel-sikayet-ve-kriz-cagrilari-yonetimi":{}
+"otel-sikayet-ve-kriz-cagrilari-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi",
+      "headline": "Otel Şikâyet ve Kriz Çağrılarını Yönetmek: Öfkeli Misafiri Kaybetmeden Nasıl Konuşmalısınız?",
+      "name": "Otel Şikâyet ve Kriz Çağrılarını Yönetmek: Öfkeli Misafiri Kaybetmeden Nasıl Konuşmalısınız?",
+      "description": "Şikâyet çağrılarını empati–özür–çözüm sıralamasıyla yönetin; gerektiğinde eskale edin ve çözüm sonrası mutlaka misafirle tekrar iletişim kurarak güveni pekiştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Otel Şikâyet ve Kriz Çağrılarını Yönetmek", "item": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezinde şikâyet ve kriz çağrıları nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "5 adımlı yapı izleyin: sakinleştir, empati kur, özür dile, çözüm planı ver ve takip et. Çağrı türünü sınıflandırıp yetki gerektiren durumlarda doğru kişiye eskale edin; kim ilgilenecek ve ne zaman dönüş olacak bilgisini net verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Öfkeli misafirle telefonda nasıl konuşulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ses tonunu düşürüp cümleleri kısaltın, duyguyu adlandıran empati cümlesi kurun ve savunmaya girmeden özür dileyin. Ardından kim-ne-ne zaman içeren çözüm planı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumlarda çağrı yöneticilere eskale edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Güvenlik/sağlık riski, para iadesi/chargeback riski, overbooking, tehdit/hakaret ve itibarın hızla büyüme riski gibi durumlarda eskalasyon gerekir. Eskalasyon matrisinde kim ve ne zaman net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet çözüldükten sonra misafirle tekrar iletişim kurmalı mıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. Çözüm sonrası aynı gün kısa teyit ve ertesi gün teşekkür/kontrol, güveni pekiştirir ve negatif yorum riskini azaltır. Follow-up service recovery’nin tamamlayıcı parçasıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#howto",
+      "name": "Otel şikâyet çağrısı nasıl yönetilir?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Dinleyip sakinleştirin", "text": "Misafiri kesmeden dinleyin; ses tonunu düşürüp konuşmayı yavaşlatın." },
+        { "@type": "HowToStep", "name": "Empati ve özür verin", "text": "Duyguyu adlandıran empati cümlesi kurun ve savunmaya girmeden özür dileyin." },
+        { "@type": "HowToStep", "name": "Çözüm planı sunun", "text": "Kim-ne-ne zaman içeren plan verin; gerekiyorsa doğru yetkiliye eskale edin." },
+        { "@type": "HowToStep", "name": "Takip edip güveni pekiştirin", "text": "Çözüm sonrası aynı gün teyit ve ertesi gün kısa kontrol ile service recovery döngüsünü tamamlayın." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sikayet-ve-kriz-cagrilari-yonetimi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-vardiya-planlama-ve-workforce-management":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management",
+      "headline": "Vardiya Planlama ve Workforce Management: Otel Çağrı Merkezinde Doğru Sayıda Kişiyle Çalışmak",
+      "name": "Vardiya Planlama ve Workforce Management: Otel Çağrı Merkezinde Doğru Sayıda Kişiyle Çalışmak",
+      "description": "Geçmiş çağrı hacmi ve sezonluk trendlere bakarak hangi saatlerde kaç kişiye ihtiyaç olduğunu planlayın; böylece bekleme süresi ve personel maliyetini dengeleyen sağlıklı bir vardiya yapısı kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Vardiya Planlama ve Workforce Management", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezinde vardiya planı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saat×gün çağrı hacmini çıkarıp peak saatleri belirleyin, hedef servis seviyesine göre kişi ihtiyacını hesaplayın. Sezon içi/dışı ve hafta içi/hafta sonu planlarını ayrı kurun; shrinkage ve izinleri dahil edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi saatlerde kaç kişiye ihtiyacım olduğunu nasıl hesaplarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş çağrı hacmi, ASA/AHT ve kaçan çağrı trendini saat×gün analiz edin. Peak saatlerde kapasiteyi artırıp durgun saatlerde düşürün; shrinkage oranını ekleyerek gerçek kişi ihtiyacını planlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli operasyonlarda vardiya planlaması nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kişi sayısına ek olarak dil kapsamasını planlayın: kritik saatlerde DE/RU/EN operatör bulundurun, yoksa call-back SLA ile failover kurun. Dil bazlı KPI’ları ayrı izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WFM’de hangi KPI’lar yeterli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Service level/answer rate, occupancy, shrinkage ve overtime çekirdek seti çoğu otel çağrı merkezi için yeterlidir. Kaçan çağrı trendi kapasite yetersizliği sinyali olarak eklenebilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#howto",
+      "name": "Otel çağrı merkezinde vardiya planı nasıl yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Çağrı hacmini çıkarın", "text": "Çağrı log’larını saat×gün kırılımında toplayıp ısı haritası ile peak saatleri belirleyin." },
+        { "@type": "HowToStep", "name": "Kapsama planı yapın", "text": "Hedef servis seviyesi ve shrinkage varsayımlarıyla her saat için ihtiyaç kişi sayısını çıkarın." },
+        { "@type": "HowToStep", "name": "Vardiya setleri oluşturun", "text": "Sezon içi/dışı ve hafta içi/hafta sonu için ayrı vardiya planları oluşturun; pik destek ekleyin." },
+        { "@type": "HowToStep", "name": "KPI’larla dengeleyin", "text": "Service level, occupancy, shrinkage ve overtime KPI’larını haftalık izleyip planı güncelleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-vardiya-planlama-ve-workforce-management#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+}
 
     }
   },

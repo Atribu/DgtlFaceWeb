@@ -11865,6 +11865,108 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "otel-cagri-merkezi-vardiya-planlama-ve-workforce-management":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-1.webp",
+      alt: "Vardiya Planlama ve Workforce Management: Otel Çağrı Merkezinde Doğru Sayıda Kişiyle Çalışmak",
+      caption: "Vardiya Planlama ve Workforce Management: Otel Çağrı Merkezinde Doğru Sayıda Kişiyle Çalışmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-2.webp",
+      alt: "Saat gün çağrı yoğunluğu, vardiya kapsama ve maliyet dengesi",
+      caption: "Saat gün çağrı yoğunluğu, vardiya kapsama ve maliyet dengesi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-3.webp",
+      alt: "Vardiya planlama mantığı, service level ve maliyet dengesi",
+      caption: "Vardiya planlama mantığı, service level ve maliyet dengesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-4.webp",
+      alt: "Çok dilli vardiya planı ve personel dağılımı bölümü ayırıcı görsel",
+      caption: "Çok dilli vardiya planı ve personel dağılımı bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-5.webp",
+      alt: "Saat gün çağrı hacmi ısı haritası mockup, peak hours analizi",
+      caption: "Saat gün çağrı hacmi ısı haritası mockup, peak hours analizi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-6.webp",
+      alt: "Vardiya planlama checklist kartı, otel call center WFM adımları",
+      caption: "Vardiya planlama checklist kartı, otel call center WFM adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-7.webp",
+      alt: "WFM KPI kartı, service level occupancy shrinkage ve overtime dengesi",
+      caption: "WFM KPI kartı, service level occupancy shrinkage ve overtime dengesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-9/Hotel6-9-8.webp",
+      alt: "Vardiya planı deliverables kartı, ısı haritası ve vardiya tablo çıktıları",
+      caption: "Vardiya planı deliverables kartı, ısı haritası ve vardiya tablo çıktıları"
+    }
+  },
+
+
+   "otel-cagri-merkezinde-kalite-dinleme-coaching":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-1.webp",
+      alt: "Kalite Dinleme ve Coaching: Otel Rezervasyon Çağrı Merkezinde Ekip Performansını Nasıl Yükseltirsiniz?",
+      caption: "Kalite Dinleme ve Coaching: Otel Rezervasyon Çağrı Merkezinde Ekip Performansını Nasıl Yükseltirsiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-2.webp",
+      alt: "Çağrı dinleme oturumu, scorecard değerlendirme ve coaching plan",
+      caption: "Çağrı dinleme oturumu, scorecard değerlendirme ve coaching plan"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-3.webp",
+      alt: "Kalite dinleme nedir, otel çağrı merkezi standart ve kalite kültürü",
+      caption: "Kalite dinleme nedir, otel çağrı merkezi standart ve kalite kültürü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-4.webp",
+      alt: "Scorecard tasarımı ve geri bildirim akışı bölümü ayırıcı görsel",
+      caption: "Scorecard tasarımı ve geri bildirim akışı bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-5.webp",
+      alt: "Kalite dinleme ve coaching akış şeması, dinle–puanla–geri bildir–planla",
+      caption: "Kalite dinleme ve coaching akış şeması, dinle–puanla–geri bildir–planla"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-6.webp",
+      alt: "Aylık coaching planı kartı, 1:1 oturum yapısı ve takip",
+      caption: "Aylık coaching planı kartı, 1:1 oturum yapısı ve takip"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-7.webp",
+      alt: "Kalite skorları mini grafik, öncesi sonrası kalite ve dönüşüm kıyası",
+      caption: "Kalite skorları mini grafik, öncesi sonrası kalite ve dönüşüm kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-10/Hotel6-10-8.webp",
+      alt: "Kalite süreci deliverables kartı, scorecard coaching planı ve çağrı kütüphanesi",
+      caption: "Kalite süreci deliverables kartı, scorecard coaching planı ve çağrı kütüphanesi"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

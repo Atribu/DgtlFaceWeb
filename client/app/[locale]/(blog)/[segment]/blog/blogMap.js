@@ -291,7 +291,9 @@ export const BLOG_MAP = {
 
     "otel-cagri-merkezi-ota-sorun-yonetimi":"BlogOtelCagriMerkeziOTASorunYonetimi",
     "rezervasyon-gorusmesinde-upsell-ve-cross-sell":"BlogOtelRezervasyonGorusmesindeUpsellVeCrossSell",
-    "otel-sikayet-ve-kriz-cagrilari-yonetimi":"BlogOtelSikayetVeKrizCagrilariYonetimi"
+    "otel-sikayet-ve-kriz-cagrilari-yonetimi":"BlogOtelSikayetVeKrizCagrilariYonetimi",
+    "otel-cagri-merkezi-vardiya-planlama-ve-workforce-management":"BlogOtelCagriMerkeziVardiyaPlanlamaVeWorkforceManagement",
+    "otel-cagri-merkezinde-kalite-dinleme-coaching":"BlogOtelCagriMerkezindeKaliteDinlemeCoaching"
     
   }
 };
