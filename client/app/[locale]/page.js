@@ -6,7 +6,7 @@ import { getBaseUrl, getCanonicalUrl } from "@/app/lib/seo/get-canonical";
 import { getOgImageByPathnameKey } from "@/app/lib/og-map";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   const pathnameKey = "/"; 
   const base = getBaseUrl();
@@ -210,7 +210,8 @@ export async function generateMetadata({ params }) {
 
 
 
-export default async function HomePage({ params: { locale } }) {
+export default async function HomePage({ params }) {
+  const { locale } = await params;
 
   const t = await getTranslations({ locale, namespace: "Homepage" });
 

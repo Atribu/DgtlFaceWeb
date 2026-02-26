@@ -45,7 +45,7 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
   // const pathname = "/";
 
   // const seoData = getSeoData(pathname, locale);
@@ -121,7 +121,7 @@ export async function generateMetadata({ params }) {
 
 
 export default async function RootLayout({ children,  params }) {
-   const { locale } =  params;
+   const { locale } = await params;
   
   if (!routing.locales.includes(locale)) {
     notFound();

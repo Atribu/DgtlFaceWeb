@@ -4,7 +4,7 @@ import MobileMainBanner from '../../components/subPageComponents/MobileMainBanne
 import StepSection from '../../components/subPageComponents/StepSection'
 import VerticalSlider2 from '../../components/subPageComponents/VerticalSlider2'
 import Contact from '@/app/[locale]/components/Section6/ContactMain.jsx'
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import LogoListSection from '../../components/subPageComponents/LogoListSection'
 import DualHighlightSection from '../../components/subPageComponents/DualHighlightSection'
 import QuestionsSection2 from '../../components/subPageComponents/QuestionSection2'
@@ -17,7 +17,7 @@ import { getSeoData } from "@/app/lib/seo-utils";
 import { buildDepartmentJsonLd, stripHtml, getBaseUrl } from "@/app/lib/structured-data/buildDepartmentJsonLd";
 
 export async function generateMetadata({ params }) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Türkçe yorum: Bu sayfanın "seo / og map" key'i (standartlaştırıyoruz)
   const pathnameKey = "/Services/sem";
@@ -93,11 +93,10 @@ export async function generateMetadata({ params }) {
 
 
 
-const Page = ({ params }) => {
-  const t = useTranslations("Sem");
-  const t2 = useTranslations("Sem.h4Section");
-
-  const { locale } = params;
+const Page = async ({ params }) => {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Sem" });
+  const t2 = await getTranslations({ locale, namespace: "Sem.h4Section" });
    const base = getBaseUrl();
 
   const pageUrl =
