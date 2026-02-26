@@ -11967,6 +11967,160 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+   "otel-cagri-merkezi-crm-ve-pms-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-1.webp",
+      alt: "Çağrı Merkezi + PMS + CRM Entegrasyonu: Her Aramada Misafiri Tanımak",
+      caption: "Çağrı Merkezi + PMS + CRM Entegrasyonu: Her Aramada Misafiri Tanımak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-2.webp",
+      alt: "Telefon çaldığında 360 misafir ekranı, son konaklama ve tercih bilgiler",
+      caption: "Telefon çaldığında 360 misafir ekranı, son konaklama ve tercih bilgiler"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-3.webp",
+      alt: "360 misafir görünümü neden önemli, call center kişiselleştirme bölümü",
+      caption: "360 misafir görünümü neden önemli, call center kişiselleştirme bölümü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-4.webp",
+      alt: "Lead akışları ve KPI ölçüm bölümü ayırıcı görsel, PMS CRM entegrasyon",
+      caption: "Lead akışları ve KPI ölçüm bölümü ayırıcı görsel, PMS CRM entegrasyon"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-5.webp",
+      alt: "Çağrı merkezi PMS CRM veri akış diyagramı, web OTA lead aktarımı",
+      caption: "Çağrı merkezi PMS CRM veri akış diyagramı, web OTA lead aktarımı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-6.webp",
+      alt: "360 misafir görünümü checklist kartı, call center PMS CRM veri birleşimi",
+      caption: "360 misafir görünümü checklist kartı, call center PMS CRM veri birleşimi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-7.webp",
+      alt: "Entegrasyon öncesi sonrası KPI grafiği, dönüşüm ve tekrar konaklama kıyası",
+      caption: "Entegrasyon öncesi sonrası KPI grafiği, dönüşüm ve tekrar konaklama kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-11/Hotel6-11-8.webp",
+      alt: "360 ekran deliverables kartı, alan eşleştirme ve lead akış şablonu",
+      caption: "360 ekran deliverables kartı, alan eşleştirme ve lead akış şablonu"
+    }
+  },
+
+
+
+  "otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-1.webp",
+      alt: "Çağrı Merkezi Öncesi ve Sonrası Outbound Aramalar: Teklif, Hatırlatma ve Post-Stay Stratejileri",
+      caption: "Çağrı Merkezi Öncesi ve Sonrası Outbound Aramalar: Teklif, Hatırlatma ve Post-Stay Stratejileri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-2.webp",
+      alt: "Outbound zaman çizelgesi, teklif hatırlatma memnuniyet teşekkür akışı",
+      caption: "Outbound zaman çizelgesi, teklif hatırlatma memnuniyet teşekkür akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-3.webp",
+      alt: "Inbound outbound farkı, proaktif arama değeri ve risk yönetimi",
+      caption: "Inbound outbound farkı, proaktif arama değeri ve risk yönetimi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-4.webp",
+      alt: "Segment ve KPI yönetimi, rahatsızlık eşiği ve opt-in bölümü ayırıcı",
+      caption: "Segment ve KPI yönetimi, rahatsızlık eşiği ve opt-in bölümü ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-5.webp",
+      alt: "Pre-stay in-stay post-stay outbound zaman çizelgesi, gün bazlı temas planı",
+      caption: "Pre-stay in-stay post-stay outbound zaman çizelgesi, gün bazlı temas planı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-6.webp",
+      alt: "Outbound değer kriterleri checklist kartı, segment zamanlama amaç",
+      caption: "Outbound değer kriterleri checklist kartı, segment zamanlama amaç"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-7.webp",
+      alt: "Outbound KPI grafiği, reach conversion ve opt-out dengesi",
+      caption: "Outbound KPI grafiği, reach conversion ve opt-out dengesi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-12/Hotel6-12-8.webp",
+      alt: "Outbound program deliverables kartı, zaman çizelgesi ve script seti",
+      caption: "Outbound program deliverables kartı, zaman çizelgesi ve script seti"
+    }
+  },
+
+
+  "":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-1.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-2.webp",
+      alt: "",
+      caption: ""
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-3.webp",
+      alt: "",
+      caption: ""
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-4.webp",
+      alt: "",
+      caption: ""
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-5.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-6.webp",
+      alt: "",
+      caption: ""
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-7.webp",
+      alt: "",
+      caption: ""
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-13/Hotel6-13-8.webp",
+      alt: "",
+      caption: ""
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

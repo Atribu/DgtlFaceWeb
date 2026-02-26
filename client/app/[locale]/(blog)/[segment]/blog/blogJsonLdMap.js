@@ -30248,6 +30248,216 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"otel-cagri-merkezi-crm-ve-pms-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu",
+      "headline": "Çağrı Merkezi + PMS + CRM Entegrasyonu: Her Aramada Misafiri Tanımak",
+      "name": "Çağrı Merkezi + PMS + CRM Entegrasyonu: Her Aramada Misafiri Tanımak",
+      "description": "Çağrı merkezi ekranını PMS ve CRM verisiyle zenginleştirerek misafiri her aramada geçmiş konaklama ve tercihlerle birlikte görün; kişiselleştirme ile dönüşüm ve tekrar konaklamayı artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Çağrı Merkezi + PMS + CRM Entegrasyonu", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi, PMS ve CRM entegrasyonu nasıl çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS konaklama ve rezervasyon verisini, CRM ise izin/segment/tercih ve etkileşim geçmişini sağlar. Çağrı merkezi ekranı bu iki veriyi arama anında birleştirir; konuşma kişiselleşir ve lead akışı CRM’e kayıtlanarak KPI’larla ölçülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Arama anında operatör ekranında hangi bilgiler görünmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kim arıyor, hangi kanaldan geldi, daha önce kaldı mı, tercih/segmenti ne ve opt-in izni var mı sorularını 10 saniyede cevaplamalıdır. 4 blok önerilir: Kimlik&Kanal, Stay History, Tercihler&Segment, Aksiyon&Notlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA/Web lead’leri çağrı merkezi ve CRM’e nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kaynak etiketi standardı, SLA (geri dönüş süresi) ve tekil misafir profili ile aktarım yapılır. Call center’da lead kuyruğu ayrı tutulur; sonuçlar CRM’e düşürülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "360° misafir görünümü rezervasyon ve sadakati nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operatör misafiri tanıdığı için konuşma hızlanır, ihtiyaç analizi derinleşir ve teklif isabeti artar. Bu; dönüşüm, cross-sell ve tekrar konaklama sinyallerinde iyileşme potansiyeli yaratır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#howto",
+      "name": "Çağrı merkezi ekranında 360° misafir görünümü nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Ekran alanlarını sabitleyin", "text": "Kimlik&Kanal, Stay History, Tercihler&Segment, Aksiyon&Notlar bloklarını ve 12 çekirdek alanı belirleyin." },
+        { "@type": "HowToStep", "name": "PMS ve CRM alanlarını eşleyin", "text": "PMS’ten son konaklama ve rezervasyon verisini, CRM’den opt-in, segment ve tercih verisini operatör ekranına bağlayın." },
+        { "@type": "HowToStep", "name": "Lead akışını standardize edin", "text": "Web/OTA lead’leri için etiket seti ve SLA tanımlayın; call center sonuçlarını CRM’e kayıtlayın." },
+        { "@type": "HowToStep", "name": "Etkiyi ölçün", "text": "Öncesi/sonrası KPI setiyle (conversion, cross-sell, repeat sinyali, CSAT) entegrasyon etkisini izleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-crm-ve-pms-entegrasyonu#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri",
+      "headline": "Çağrı Merkezi Öncesi ve Sonrası Outbound Aramalar: Teklif, Hatırlatma ve Post-Stay Stratejileri",
+      "name": "Çağrı Merkezi Öncesi ve Sonrası Outbound Aramalar: Teklif, Hatırlatma ve Post-Stay Stratejileri",
+      "description": "Doğru segmentleri doğru zamanda arayarak; pre-stay teklif ve hatırlatma, in-stay memnuniyet ve post-stay teşekkür/cross-sell aramalarıyla çağrı merkezini aktif satış ve sadakat kanalına dönüştürün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Outbound Aramalar Stratejileri", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otellerde outbound arama ne zaman ve nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Outbound, doğru segment ve doğru zamanda tek amaçla yapıldığında değer yaratır. Pre-stay teklif/hatırlatma, in-stay memnuniyet kontrolü ve post-stay teşekkür/cross-sell pencereleri en etkili yaklaşımdır; opt-in ve frekans kuralı şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pre-stay teklif ve hatırlatma çağrıları nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varışa 3–7 gün kala teyit/hatırlatma araması planlayın; teklif aramalarını opt-in uygun ve doğru segmentte, kısa formatta yapın. Amaç no-show riskini azaltmak ve belirsizliği gidermektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Post-stay outbound aramalar misafir memnuniyetini ve direct rezervasyonu artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teşekkür ve geri bildirim odaklı post-stay aramalar güveni güçlendirebilir ve bir sonraki konaklamaya köprü kurabilir. Direct öneri agresif değil, kolaylık/tercih yönetimi üzerinden yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Outbound aramalarda rahatsızlık sınırı ve KPI’lar nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Opt-in kontrolü, arama saat/frekans kuralı ve kısa konuşma süresi temel korumadır. KPI’larda conversion yanında reach, opt-out/şikâyet sinyali ve outbound AHT izlenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#howto",
+      "name": "Otel outbound arama programı nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Outbound pencerelerini tanımlayın", "text": "Pre-stay teklif/hatırlatma, in-stay memnuniyet ve post-stay teşekkür/cross-sell pencerelerini belirleyin." },
+        { "@type": "HowToStep", "name": "Segment×amaç planı yapın", "text": "Aranabilir segmentleri seçip her segmente tek amaç atayın; zaman çizelgesini oluşturun." },
+        { "@type": "HowToStep", "name": "Opt-in ve frekans kuralı koyun", "text": "Pazarlama iznini kontrol edin; arama saatleri ve temas sıklığını standardize edin." },
+        { "@type": "HowToStep", "name": "KPI ile yönetin", "text": "Reach, outbound conversion, opt-out/şikâyet sinyali ve no-show trendini izleyerek programı iyileştirin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     }

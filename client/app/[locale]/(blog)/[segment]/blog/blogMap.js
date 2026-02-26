@@ -293,7 +293,10 @@ export const BLOG_MAP = {
     "rezervasyon-gorusmesinde-upsell-ve-cross-sell":"BlogOtelRezervasyonGorusmesindeUpsellVeCrossSell",
     "otel-sikayet-ve-kriz-cagrilari-yonetimi":"BlogOtelSikayetVeKrizCagrilariYonetimi",
     "otel-cagri-merkezi-vardiya-planlama-ve-workforce-management":"BlogOtelCagriMerkeziVardiyaPlanlamaVeWorkforceManagement",
-    "otel-cagri-merkezinde-kalite-dinleme-coaching":"BlogOtelCagriMerkezindeKaliteDinlemeCoaching"
+    "otel-cagri-merkezinde-kalite-dinleme-coaching":"BlogOtelCagriMerkezindeKaliteDinlemeCoaching",
+
+    "otel-cagri-merkezi-crm-ve-pms-entegrasyonu":"BlogOtelCagriMerkeziCrmVePmsEntegrasyonu",
+    "otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":"BlogOtelCagriMerkeziOncesiVeSonrasiOutboundAramaStratejileri"
     
   }
 };
