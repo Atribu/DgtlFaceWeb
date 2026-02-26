@@ -12121,6 +12121,213 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+
+   "otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-1.webp",
+      alt: "Otel Çağrı Merkezi Teknoloji Yapısı: Softphone, IVR, Kayıt ve Raporlama Sistemleri",
+      caption: "Otel Çağrı Merkezi Teknoloji Yapısı: Softphone, IVR, Kayıt ve Raporlama Sistemleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-2.webp",
+      alt: "Softphone IVR kayıt raporlama katmanları, otel çağrı merkezi operasyon akışı",
+      caption: "Softphone IVR kayıt raporlama katmanları, otel çağrı merkezi operasyon akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-3.webp",
+      alt: "Otel çağrı merkezi altyapı bileşenleri, softphone IVR kayıt raporlama çerçevesi",
+      caption: "Otel çağrı merkezi altyapı bileşenleri, softphone IVR kayıt raporlama çerçevesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-4.webp",
+      alt: "IVR menü tasarımı, akıllı yönlendirme ve dil-departman ayrımı",
+      caption: "IVR menü tasarımı, akıllı yönlendirme ve dil-departman ayrımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-5.webp",
+      alt: "Tech stack mimari diyagramı, çağrı merkezi IVR kayıt raporlama katmanları",
+      caption: "Tech stack mimari diyagramı, çağrı merkezi IVR kayıt raporlama katmanları"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-6.webp",
+      alt: "Tech stack kurulum checklist kartı, otel çağrı merkezi bileşen kontrol listesi",
+      caption: "Tech stack kurulum checklist kartı, otel çağrı merkezi bileşen kontrol listesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-7.webp",
+      alt: "Çağrı merkezi KPI paneli, service level bekleme ve kaçan çağrı göstergeleri",
+      caption: "Çağrı merkezi KPI paneli, service level bekleme ve kaçan çağrı göstergeleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-14/Hotel6-14-8.webp",
+      alt: "Tech stack deliverables, mimari diyagram IVR akışı ve KPI panel seti",
+      caption: "Tech stack deliverables, mimari diyagram IVR akışı ve KPI panel seti"
+    }
+  },
+
+
+   "otel-cagri-merkezi-ise-alim-ve-onboarding-sureci":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-1.webp",
+      alt: "Otel Çağrı Merkezi İçin Doğru Adayı Bulmak: İşe Alım, Onboarding ve İlk 90 Gün",
+      caption: "Otel Çağrı Merkezi İçin Doğru Adayı Bulmak: İşe Alım, Onboarding ve İlk 90 Gün"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-2.webp",
+      alt: "Çağrı merkezi onboarding akışı, eğitim modülleri ve mentor gölge çalışma",
+      caption: "Çağrı merkezi onboarding akışı, eğitim modülleri ve mentor gölge çalışma"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-3.webp",
+      alt: "Doğru aday profili, otel rezervasyon hattı için iletişim ve satış yetkinlikleri",
+      caption: "Doğru aday profili, otel rezervasyon hattı için iletişim ve satış yetkinlikleri"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-4.webp",
+      alt: "Onboarding ve 90 gün planı, otel çağrı merkezi gelişim çerçevesi",
+      caption: "Onboarding ve 90 gün planı, otel çağrı merkezi gelişim çerçevesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-5.webp",
+      alt: "Onboarding zaman çizelgesi, ilk gün hafta 30 60 90 plan otel çağrı merkezi",
+      caption: "Onboarding zaman çizelgesi, ilk gün hafta 30 60 90 plan otel çağrı merkezi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-6.webp",
+      alt: "İşe alım checklist kartı, rol-play ve aday profil değerlendirme otel bağlamı",
+      caption: "İşe alım checklist kartı, rol-play ve aday profil değerlendirme otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-7.webp",
+      alt: "İlk 90 gün performans takip kartı, kalite KPI ve uyum sinyali otel bağlamı",
+      caption: "İlk 90 gün performans takip kartı, kalite KPI ve uyum sinyali otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-15/Hotel6-15-8.webp",
+      alt: "İşe alım ve onboarding deliverables, soru seti timeline 90 gün şablonu otel",
+      caption: "İşe alım ve onboarding deliverables, soru seti timeline 90 gün şablonu otel"
+    }
+  },
+
+
+
+  "yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-1.webp",
+      alt: "Yüksek Sezon İçin Otel Çağrı Merkezi Hazırlık Planı: Script, Ekip ve Altyapı",
+      caption: "Yüksek Sezon İçin Otel Çağrı Merkezi Hazırlık Planı: Script, Ekip ve Altyapı"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-2.webp",
+      alt: "Sezon hazırlık zaman çizelgesi, KPI analiz eğitim vardiya stres testi akışı",
+      caption: "Sezon hazırlık zaman çizelgesi, KPI analiz eğitim vardiya stres testi akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-3.webp",
+      alt: "Yüksek sezonda çağrı merkezi rolü, dönüşüm ve yoğunluk yönetimi",
+      caption: "Yüksek sezonda çağrı merkezi rolü, dönüşüm ve yoğunluk yönetimi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-4.webp",
+      alt: "Sezon içi vardiya ve bilgi güncelleme disiplini bölümü ayırıcı görsel",
+      caption: "Sezon içi vardiya ve bilgi güncelleme disiplini bölümü ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-5.webp",
+      alt: "Ön sezon hazırlık zaman çizelgesi, hafta hafta script eğitim altyapı planı",
+      caption: "Ön sezon hazırlık zaman çizelgesi, hafta hafta script eğitim altyapı planı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-6.webp",
+      alt: "Yüksek sezon hazırlık checklist kartı, otel çağrı merkezi pre-season plan",
+      caption: "Yüksek sezon hazırlık checklist kartı, otel çağrı merkezi pre-season plan"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-7.webp",
+      alt: "Sezon öncesi sonrası KPI kıyas grafiği, bekleme kaçan çağrı dönüşüm",
+      caption: "Sezon öncesi sonrası KPI kıyas grafiği, bekleme kaçan çağrı dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-16/Hotel6-16-8.webp",
+      alt: "Sezon hazırlık deliverables, checklist vardiya tablo KPI kıyas seti",
+      caption: "Sezon hazırlık deliverables, checklist vardiya tablo KPI kıyas seti"
+    }
+  },
+
+
+  "vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-1.webp",
+      alt: "VIP ve Özel İhtiyaçlı Misafir Çağrılarını Yönetmek: Hassas Senaryolar İçin Rehber",
+      caption: "VIP ve Özel İhtiyaçlı Misafir Çağrılarını Yönetmek: Hassas Senaryolar İçin Rehber"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-2.webp",
+      alt: "VIP özel ihtiyaç çağrısı, PMS not ve operasyon devri süreci görseli",
+      caption: "VIP özel ihtiyaç çağrısı, PMS not ve operasyon devri süreci görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-3.webp",
+      alt: "VIP balayı aile özel ihtiyaç profilleri, çağrı merkezi senaryoları",
+      caption: "VIP balayı aile özel ihtiyaç profilleri, çağrı merkezi senaryoları"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-4.webp",
+      alt: "PMS not ve operasyon devri, hassas iletişim prensipleri ayırıcı görsel",
+      caption: "PMS not ve operasyon devri, hassas iletişim prensipleri ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-5.webp",
+      alt: "VIP özel ihtiyaç çağrıdan PMS nota operasyona akış diyagramı",
+      caption: "VIP özel ihtiyaç çağrıdan PMS nota operasyona akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-6.webp",
+      alt: "VIP ve özel ihtiyaç çağrısı checklist kartı, PMS not ve operasyon devri",
+      caption: "VIP ve özel ihtiyaç çağrısı checklist kartı, PMS not ve operasyon devri"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-7.webp",
+      alt: "VIP özel ihtiyaç KPI kartı, follow-up ve review teması takib",
+      caption: "VIP özel ihtiyaç KPI kartı, follow-up ve review teması takib"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-17/Hotel6-17-8.webp",
+      alt: "VIP özel ihtiyaç şablon seti, notlama ve operasyon akış deliverables",
+      caption: "VIP özel ihtiyaç şablon seti, notlama ve operasyon akış deliverables"
+    }
+  },
+
+
 };
 
 export function getMediaBySlot(slug, slot) {

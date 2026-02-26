@@ -296,7 +296,12 @@ export const BLOG_MAP = {
     "otel-cagri-merkezinde-kalite-dinleme-coaching":"BlogOtelCagriMerkezindeKaliteDinlemeCoaching",
 
     "otel-cagri-merkezi-crm-ve-pms-entegrasyonu":"BlogOtelCagriMerkeziCrmVePmsEntegrasyonu",
-    "otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":"BlogOtelCagriMerkeziOncesiVeSonrasiOutboundAramaStratejileri"
+    "otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":"BlogOtelCagriMerkeziOncesiVeSonrasiOutboundAramaStratejileri",
+
+    "otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama":"BlogOtelCagriMerkeziTeknolojiYapisiSoftphoneIVRKayitRaporlama",
+    "otel-cagri-merkezi-ise-alim-ve-onboarding-sureci":"BlogOtelCagriMerkeziIseAlimVeOnboardingSureci",
+    "yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani":"BlogYuksekSezonIcinOtelCagriMerkeziHazirlikPlani",
+    "vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek":"BlogVipVeOzelIhtiyacliMisafirCagrilariniYonetmek"
     
   }
 };

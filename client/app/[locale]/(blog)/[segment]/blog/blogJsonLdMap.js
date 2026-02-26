@@ -30458,6 +30458,435 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+
+
+//13
+//eksik
+
+
+
+//14
+"otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama",
+      "headline": "Otel Çağrı Merkezi Teknoloji Yapısı: Softphone, IVR, Kayıt ve Raporlama Sistemleri",
+      "name": "Otel Çağrı Merkezi Teknoloji Yapısı: Softphone, IVR, Kayıt ve Raporlama Sistemleri",
+      "description": "Softphone, IVR, kayıt ve raporlama katmanlarını otel çağrı merkezi tech stack’i içinde doğru kurgulayarak misafirin hızlı yönlendirilmesini, ölçülebilir performansı ve KVKK’ya uygun kayıt altyapısını sağlayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Otel Çağrı Merkezi Teknoloji Yapısı", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezi için hangi teknoloji bileşenlerine ihtiyacım var?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Temel set 4 katmandır: PBX/VoIP + softphone, IVR & routing, çağrı kayıt & arşiv, raporlama & entegrasyon. Katmanlar birlikte tasarlanırsa hızlı bağlanma ve ölçülebilir performans sağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "IVR menüsünü nasıl tasarlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2–3 seviyeyi geçmeyin, rezervasyon ve destek ayrımını ilk menüde yapın, dil seçeneklerini pazar önceliğine göre sıralayın ve peak saatlerde call-back opsiyonunu planlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı kayıtları nasıl saklanmalı ve raporlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kayıtların amacı, saklama süresi ve erişim yetkisi yazılı olmalı; erişim rol bazlı ve log’lu yönetilmelidir. Raporlama tarafında service level, bekleme ve kaçan çağrı gibi metriklerle kalite sinyalleri birlikte izlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı verisini PMS/CRM ile entegre etmek ne kazandırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operatörün arama anında misafiri tanımasına ve daha isabetli yönlendirme/teklif yapmasına yardım eder; ayrıca kanal ve segment kırılımıyla ticari içgörü üretir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#howto",
+      "name": "Otel çağrı merkezi teknoloji yapısı nasıl kurgulanır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Katmanları tanımlayın", "text": "Ses/iletişim, IVR/routing, kayıt & KVKK, raporlama & entegrasyon katmanlarını netleştirin." },
+        { "@type": "HowToStep", "name": "IVR ve routing’i sadeleştirin", "text": "Rezervasyon/destek ayrımını ilk menüde yapın; dil seçeneklerini pazar önceliğine göre kurgulayın ve peak saat call-back opsiyonu planlayın." },
+        { "@type": "HowToStep", "name": "Kayıt ve erişimi güvenceye alın", "text": "Saklama süresi ve rol bazlı erişim kurallarını belirleyin; kayıt erişimini log’lu yönetin." },
+        { "@type": "HowToStep", "name": "KPI paneliyle ölçün", "text": "Service level, ASA, abandon ve çağrı tipi kırılımını dashboard’da izleyip mimariyi veriyle optimize edin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+//15
+"otel-cagri-merkezi-ise-alim-ve-onboarding-sureci":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci",
+      "headline": "Otel Çağrı Merkezi İçin Doğru Adayı Bulmak: İşe Alım, Onboarding ve İlk 90 Gün",
+      "name": "Otel Çağrı Merkezi İçin Doğru Adayı Bulmak: İşe Alım, Onboarding ve İlk 90 Gün",
+      "description": "Otel çağrı merkezi işe alımında iletişim ve satış potansiyeli yüksek adayları seçin; güçlü bir onboarding ve ilk 90 günlük takip planıyla performans ve ekipte kalıcılığı artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "İşe Alım ve Onboarding", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezinde çalışacak adayda hangi özellikler aranmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soft-skill (ton, empati, sakinlik) ve hard-skill (ürün öğrenme, sistem disiplini, süreç takibi) birlikte aranmalıdır. Doğru soru sorma ve net closing becerisi rezervasyon hattında kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mülakatta hangi sorular ve rol-play’ler kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış (fiyat itirazı), ihtiyaç analizi (4–6 soru), closing (net next step) ve not disiplini (CRM/PMS) mutlaka test edilmelidir. Rol-play 3 sahnede uygulanabilir: standart rezervasyon, fiyat itirazı, “düşüneyim” follow-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Onboarding süreci nasıl yapılandırılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "0–7 gün temel ürün/sistem + gölge, 8–30 gün script/ton standardı, 31–60 gün bağımsız çalışma ve hata azaltma, 61–90 gün KPI hedefleriyle stabil çalışma şeklinde planlanmalıdır. Mentor modeli hızlandırıcıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İlk 90 günde performans ve uyum nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eğitim tamamlanma, kalite skoru, not disiplini, follow-up uyumu ve kademeli KPI sinyalleri tek sayfa şablonla izlenmelidir. Haftalık kısa check-in ve 30/60/90 dönüm noktalarıyla hedefler güncellenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#howto",
+      "name": "Otel çağrı merkezi işe alım ve onboarding sistemi nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Profil ve soru setini sabitleyin", "text": "Soft-skill ve hard-skill kriterlerini yazın; her adaya aynı soru setini uygulayın." },
+        { "@type": "HowToStep", "name": "Rol-play ile davranışı ölçün", "text": "Standart rezervasyon, fiyat itirazı ve follow-up senaryolarıyla satış ve süreç disiplinini gözlemleyin." },
+        { "@type": "HowToStep", "name": "90 günlük onboarding planı kurun", "text": "0–7, 8–30, 31–60, 61–90 gün hedeflerini tanımlayın; mentor/gölge modeli ekleyin." },
+        { "@type": "HowToStep", "name": "Kalite + KPI ile takip edin", "text": "Kalite skoru, not disiplini ve kademeli KPI sinyallerini haftalık check-in ile izleyip iyileştirin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ise-alim-ve-onboarding-sureci#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#article",
+      "url": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani",
+      "headline": "Yüksek Sezon İçin Otel Çağrı Merkezi Hazırlık Planı: Script, Ekip ve Altyapı",
+      "name": "Yüksek Sezon İçin Otel Çağrı Merkezi Hazırlık Planı: Script, Ekip ve Altyapı",
+      "description": "Yüksek sezona girmeden önce script, eğitim, vardiya ve altyapı planınızı netleştirerek çağrı merkezini sezonda panik yaşayan bir nokta yerine kontrollü çalışan bir rezervasyon makinesine dönüştürün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Yüksek Sezon Hazırlık Planı", "item": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yüksek sezonda otel çağrı merkezi için nasıl hazırlık yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "6–8 hafta kala KPI analiziyle başlayın; script ve kampanya metinlerini güncelleyin, hızlandırılmış eğitim ve rol-play planlayın, vardiya/izinleri sezon yüküne göre kurun ve IVR/altyapı stres testi yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon öncesi script ve eğitim güncellemeleri nasıl planlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçen sezonun en sık itirazlarını ve sorularını çıkarıp script’i güncelleyin; ilk 10 saniye, ihtiyaç analizi ve closing odaklı kısa eğitim modülleri ve rol-play sprint’i uygulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yoğun dönemde vardiya ve ekip yönetimi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pik saatlerde çekirdek kapasiteyi artırın, call-back kuyruğu planlayın ve izinleri minimum risk günlerine kaydırın. KPI paneliyle (ASA/abandon) vardiyayı düzenli düzeltin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon sonu çağrı merkezi performansı nasıl analiz edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon öncesi ve sezon içi KPI’ları kıyaslayın; hangi script/eğitim/altyapı iyileştirmesinin işe yaradığını yazılı hale getirin ve bir sonraki sezon için backlog çıkarın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#howto",
+      "name": "Yüksek sezon çağrı merkezi hazırlık planı nasıl yapılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "KPI analizi yapın", "text": "Geçen sezonun bekleme, kaçan çağrı, dönüşüm ve AHT verilerini analiz edip pik saatleri işaretleyin." },
+        { "@type": "HowToStep", "name": "Script ve eğitim güncelleyin", "text": "En sık itiraz ve sorulara göre script’i güncelleyin; hızlandırılmış eğitim ve rol-play sprint’i uygulayın." },
+        { "@type": "HowToStep", "name": "Vardiya ve altyapıyı test edin", "text": "Sezon yüküne göre vardiya/izin planlayın; IVR/routing ve kuyrukları stres testinden geçirin." },
+        { "@type": "HowToStep", "name": "Sezonda KPI ile yönetin", "text": "ASA/abandon/conversion KPI’larını haftalık izleyip vardiya ve süreçleri düzeltin; sezon sonunda review ile öğrenimleri kapatın." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#article",
+      "url": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek",
+      "headline": "VIP ve Özel İhtiyaçlı Misafir Çağrılarını Yönetmek: Hassas Senaryolar İçin Rehber",
+      "name": "VIP ve Özel İhtiyaçlı Misafir Çağrılarını Yönetmek: Hassas Senaryolar İçin Rehber",
+      "description": "VIP ve özel ihtiyaçlı misafir aramalarında saygılı bir tonla doğru soruları sorun, talepleri KVKK’ya uygun şekilde PMS’e not alın ve operasyona eksiksiz aktararak memnuniyet ve sadakati güçlendirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "VIP ve Özel İhtiyaçlı Misafir Çağrıları", "item": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "VIP ve özel ihtiyaçlı misafir çağrılarını nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saygılı açılış + minimum bilgi toplama + PMS’te flag+not standardı + operasyon devri ve teyit akışıyla yönetin. Bu yapı hassas taleplerde hata riskini azaltır ve memnuniyeti güçlendirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Balayı/özel gün rezervasyonlarında telefonda neler sorulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzinli çerçeveyle ilerleyin; zaman tercihi ve temel beklentiyi kısa sorularla alın. Gereksiz mahrem detaya girmeden PMS’e operasyonel ihtiyaç seviyesinde notlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Engelli erişimi veya sağlık durumu gibi konularda nasıl iletişim kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadece hazırlık için gerekli kadar bilgi toplayın, saygılı ve kısa sorular kullanın. Hassas detayı zorlamayın; operasyonel ihtiyacı notlayıp doğru ekibe sorumlulukla devredin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "VIP ve özel ihtiyaç çağrıları PMS’e ve operasyona nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’te ilgili flag’i açın ve talep/aksiyon/sorumlu/zaman/teyit formatında not düşüp operasyona görev ve teyitle devredin; gerekiyorsa misafire follow-up yapın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#howto",
+      "name": "VIP ve özel ihtiyaç çağrıları için PMS not ve operasyon akışı nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Senaryoyu sınıflandırın", "text": "VIP, honeymoon, family veya accessibility gibi etiketi seçip minimum gerekli sorularla ilerleyin." },
+        { "@type": "HowToStep", "name": "PMS’e yapılandırılmış not girin", "text": "Flag açın ve talep/aksiyon/sorumlu/zaman/teyit formatında operasyonel seviyede notlayın." },
+        { "@type": "HowToStep", "name": "Operasyona sorumlulukla devredin", "text": "Doğru ekibe görev atayın, zaman ve teyit adımı belirleyin; tamamlanma bilgisini alın." },
+        { "@type": "HowToStep", "name": "Etkisini ölçün", "text": "Etiketli çağrıları, follow-up ve review teması sinyaliyle aylık izleyip süreç iyileştirmesi yapın." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     }
