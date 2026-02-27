@@ -2,8 +2,6 @@ import { useTransition, useEffect, useRef } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
-import trData from "@/messages/tr.json";
-import enData from "@/messages/en.json";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
 
@@ -32,14 +30,24 @@ function isFaqSlugLike(slug) {
 }
 
 
-// locale'a göre JSON'u döndüren yardımcı fonksiyon
-function getLocaleData(locale) {
-  switch (locale) {
-    case "en":
-      return enData;
-    default:
-      return trData;
+const localeBlogPostsCache = {};
+
+// Blog detayında slug eşleştirmek için locale bazlı BlogPosts verisini lazy yükler.
+async function getLocaleBlogPosts(locale) {
+  const normalizedLocale = locale === "en" ? "en" : "tr";
+  if (localeBlogPostsCache[normalizedLocale]) {
+    return localeBlogPostsCache[normalizedLocale];
   }
+
+  const mod =
+    normalizedLocale === "en"
+      ? await import("@/messages/en.json")
+      : await import("@/messages/tr.json");
+
+  const messages = mod?.default || mod || {};
+  const blogPosts = messages?.BlogPosts || {};
+  localeBlogPostsCache[normalizedLocale] = blogPosts;
+  return blogPosts;
 }
 
 export default function LocaleSwitcherSelect({ children, defaultValue, label }) {
@@ -63,6 +71,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
     
     setIsOpen(false);
     startTransition(() => {
+      void (async () => {
       const pathSegments = pathname.split('/');
       const currentLocale = pathSegments[1];
 
@@ -97,15 +106,15 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
         const currentSlug = pathSegments[3];
         
         // Mevcut dildeki tüm blog postlarını kontrol et
-        const currentData = getLocaleData(currentLocale);
-        const matchedKey = Object.keys(currentData).find(
-          (key) => currentData[key].slug === currentSlug
+        const currentBlogPosts = await getLocaleBlogPosts(currentLocale);
+        const matchedKey = Object.keys(currentBlogPosts).find(
+          (key) => currentBlogPosts[key]?.slug === currentSlug
         );
         
         if (matchedKey) {
           // Yeni dildeki aynı blog postunun slug'ını al
-          const newData = getLocaleData(newLang);
-          const newSlug = newData[matchedKey]?.slug;
+          const nextBlogPosts = await getLocaleBlogPosts(newLang);
+          const newSlug = nextBlogPosts[matchedKey]?.slug;
           
           if (newSlug) {
             // Blog detay sayfası için özel yönlendirme
@@ -176,6 +185,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
       // Diğer tüm sayfalar için normal dil değiştirme
       const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
       router.replace(newPathname);
+      })();
     });
   }
 

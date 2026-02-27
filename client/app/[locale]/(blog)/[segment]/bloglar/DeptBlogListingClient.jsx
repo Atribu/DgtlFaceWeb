@@ -3,7 +3,7 @@
 import { useMemo, useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations, useLocale, useMessages } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
 import HeroSlider from "../blog/HeroSlider";
 import BlogRail from "../blog/BlogRail";
@@ -17,6 +17,32 @@ function toTs(dateStr) {
 }
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
+
+const blogPostsByLocaleCache = {};
+
+function normalizeLocale(locale) {
+  return locale === "en" ? "en" : "tr";
+}
+
+function getCachedBlogPosts(locale) {
+  return blogPostsByLocaleCache[normalizeLocale(locale)] || null;
+}
+
+async function loadLocaleBlogPosts(locale) {
+  const normalizedLocale = normalizeLocale(locale);
+  const cached = getCachedBlogPosts(normalizedLocale);
+  if (cached) return cached;
+
+  const mod =
+    normalizedLocale === "en"
+      ? await import("@/messages/en.json")
+      : await import("@/messages/tr.json");
+
+  const messages = mod?.default || mod || {};
+  const blogPosts = messages?.BlogPosts || {};
+  blogPostsByLocaleCache[normalizedLocale] = blogPosts;
+  return blogPosts;
+}
 
 // Departman label map (istersen tr/en ayrı yaparsın)
 const DEPT_LABEL = {
@@ -124,15 +150,36 @@ function normalizeText(s = "") {
 export default function DeptBlogListingClient({ segment }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
-  const messages = useMessages();
+  const [blogPosts, setBlogPosts] = useState(() => getCachedBlogPosts(locale) || {});
 
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
 
+  useEffect(() => {
+    let cancelled = false;
+    const cached = getCachedBlogPosts(locale);
+    if (cached) {
+      setBlogPosts(cached);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    loadLocaleBlogPosts(locale)
+      .then((posts) => {
+        if (!cancelled) setBlogPosts(posts);
+      })
+      .catch(() => {
+        if (!cancelled) setBlogPosts({});
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
+
   // 1) Tüm postları çıkar
  const ALL_POSTS = useMemo(() => {
-  const blogPosts = messages?.BlogPosts || {};
-
   return Object.entries(blogPosts)
     .map(([postKey, post]) => {
       const slug = post.slug || "";
@@ -155,7 +202,7 @@ export default function DeptBlogListingClient({ segment }) {
       };
     })
     .filter((p) => p.slug && p.dept);
-}, [messages]);
+}, [blogPosts]);
 
 
   // 2) Sadece departman filtresi

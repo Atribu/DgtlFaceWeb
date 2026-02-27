@@ -3,10 +3,36 @@
 import { useMemo, useRef, useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useLocale, useMessages, useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { BLOG_MEDIA_MAP } from "@/app/lib/blogMediaMap";
 
 const GRADIENT = "bg-gradient-to-r from-[#A754CF] via-[#547CCF] to-[#54B9CF]";
+
+const blogPostsByLocaleCache = {};
+
+function normalizeLocale(locale) {
+  return locale === "en" ? "en" : "tr";
+}
+
+function getCachedBlogPosts(locale) {
+  return blogPostsByLocaleCache[normalizeLocale(locale)] || null;
+}
+
+async function loadLocaleBlogPosts(locale) {
+  const normalizedLocale = normalizeLocale(locale);
+  const cached = getCachedBlogPosts(normalizedLocale);
+  if (cached) return cached;
+
+  const mod =
+    normalizedLocale === "en"
+      ? await import("@/messages/en.json")
+      : await import("@/messages/tr.json");
+
+  const messages = mod?.default || mod || {};
+  const blogPosts = messages?.BlogPosts || {};
+  blogPostsByLocaleCache[normalizedLocale] = blogPosts;
+  return blogPosts;
+}
 
 function toTs(dateStr) {
   if (!dateStr) return 0;
@@ -70,10 +96,32 @@ export default function HomeBlogShowcase({
 }) {
   const t = useTranslations("Blog");
   const locale = useLocale();
-  const messages = useMessages();
+  const [blogPosts, setBlogPosts] = useState(() => getCachedBlogPosts(locale) || {});
+
+  useEffect(() => {
+    let cancelled = false;
+    const cached = getCachedBlogPosts(locale);
+    if (cached) {
+      setBlogPosts(cached);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    loadLocaleBlogPosts(locale)
+      .then((posts) => {
+        if (!cancelled) setBlogPosts(posts);
+      })
+      .catch(() => {
+        if (!cancelled) setBlogPosts({});
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
 
   const ALL_POSTS = useMemo(() => {
-    const blogPosts = messages?.BlogPosts || {};
     return Object.entries(blogPosts)
       .map(([postKey, post]) => {
         const slug = post.slug || "";
@@ -95,7 +143,7 @@ export default function HomeBlogShowcase({
         };
       })
       .filter((p) => p.slug && p.dept);
-  }, [messages]);
+  }, [blogPosts]);
 
   const sortedAll = useMemo(() => {
     return [...ALL_POSTS].sort((a, b) => toTs(b.updatedAt) - toTs(a.updatedAt));

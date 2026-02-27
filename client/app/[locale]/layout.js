@@ -28,9 +28,24 @@ const inter = Inter({
 
 function buildClientMessages(allMessages) {
   if (!allMessages || typeof allMessages !== "object") return allMessages;
+
+  // Client tarafında kullanılmayan, server-only namespace'leri eleyerek
+  // hydration payload'unu küçültüyoruz (düşük riskli kademeli optimizasyon).
+  const SERVER_ONLY_NAMESPACES = new Set([
+    "BlogSeoTeknik",
+    "ContactPage",
+    "OtaIntegrationPage",
+    "UiUxPage",
+    "VerticalSlider",
+    "WebPayment",
+  ]);
+
   return Object.fromEntries(
     Object.entries(allMessages).filter(
-      ([key]) => !key.startsWith("Faq") && key !== "BlogPosts"
+      ([key]) =>
+        !key.startsWith("Faq") &&
+        key !== "BlogPosts" &&
+        !SERVER_ONLY_NAMESPACES.has(key)
     )
   );
 }
