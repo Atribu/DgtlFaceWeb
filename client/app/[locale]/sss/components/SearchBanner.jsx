@@ -1,9 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import Link from "next/link";
-import { useMessages, useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   FAQ_BANNER_MAP,
   MAIN_SERVICES_CHIPS,
@@ -12,6 +12,41 @@ import {
 import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
+
+const faqMessagesByLocaleCache = {};
+
+function normalizeLocale(locale) {
+  return locale === "en" ? "en" : "tr";
+}
+
+function getCachedFaqMessages(locale) {
+  return faqMessagesByLocaleCache[normalizeLocale(locale)] || null;
+}
+
+function pickFaqNamespaces(messages) {
+  if (!messages || typeof messages !== "object") return {};
+  return Object.fromEntries(
+    Object.entries(messages).filter(
+      ([key]) => key.startsWith("Faq") || key === "faqChips"
+    )
+  );
+}
+
+async function loadLocaleFaqMessages(locale) {
+  const normalizedLocale = normalizeLocale(locale);
+  const cached = getCachedFaqMessages(normalizedLocale);
+  if (cached) return cached;
+
+  const mod =
+    normalizedLocale === "en"
+      ? await import("@/messages/en.json")
+      : await import("@/messages/tr.json");
+
+  const allMessages = mod?.default || mod || {};
+  const faqMessages = pickFaqNamespaces(allMessages);
+  faqMessagesByLocaleCache[normalizedLocale] = faqMessages;
+  return faqMessages;
+}
 
 function getMsgByPath(obj, path) {
   if (!obj || !path) return undefined;
@@ -183,8 +218,34 @@ export default function SearchBanner({ faqSlug }) {
   const router = useRouter();
 
   const locale = useLocale();
-  const messages = useMessages();
+  const tGlobal = useTranslations();
+  const [faqMessages, setFaqMessages] = useState(
+    () => getCachedFaqMessages(locale) || {}
+  );
   const [q, setQ] = useState("");
+
+  useEffect(() => {
+    let cancelled = false;
+    const cached = getCachedFaqMessages(locale);
+    if (cached) {
+      setFaqMessages(cached);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    loadLocaleFaqMessages(locale)
+      .then((nextMessages) => {
+        if (!cancelled) setFaqMessages(nextMessages);
+      })
+      .catch(() => {
+        if (!cancelled) setFaqMessages({});
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
 
   // ns -> slug map (FaqBacklink -> backlink-sss gibi)
   const NS_TO_SLUG = useMemo(() => {
@@ -236,7 +297,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
 
   // Search index with locale-aware hrefs
   const searchIndex = useMemo(() => {
-    const flat = flattenMessages(messages);
+    const flat = flattenMessages(faqMessages);
 
     return flat
       .filter((x) => HEADING_KEY_RE.test(x.key) || QUESTION_KEY_RE.test(x.key))
@@ -252,7 +313,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
         };
       })
       .filter(Boolean);
-  }, [messages, NS_TO_SLUG, locale]);
+  }, [faqMessages, NS_TO_SLUG, locale]);
 
   const fuse = useMemo(() => {
     return new Fuse(searchIndex, {
@@ -303,6 +364,16 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
   };
 
   const t = labels[locale] || labels.tr;
+  const getChipLabel = (chip) => {
+    const key = chip?.labelKey;
+    if (!key) return chip?.label || "";
+
+    if (typeof tGlobal?.has === "function" && tGlobal.has(key)) {
+      return tGlobal(key);
+    }
+
+    return getMsgByPath(faqMessages, key) || chip.label;
+  };
 
   return (
     <div
@@ -409,7 +480,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
               className={`mt-0 sm:mt-0 lg:-mt-7 items-center justify-center ${
                 isRootMode
                   ? "w-[90%] md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[82%] max-w-[1240px]"
-                  : "w-full md:w-[57%] lg:w-[90%] xl:w-[82%] 2xl:w-[86%] max-w-[1000px]"
+                  : "w-full md:w-[90%] md:min-w-[740px] lg:w-[90%] xl:w-[82%] 2xl:w-[86%] max-w-[1000px]"
               }`}
             >
               {/* Back to FAQ + parent chip on subpages */}
@@ -437,7 +508,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
                                    shadow-[0_18px_45px_rgba(0,0,0,0.25)]
                                    hover:opacity-95 transition whitespace-nowrap"
                       >
-                       {getMsgByPath(messages, parentChip.labelKey) || parentChip.label}
+                       {getChipLabel(parentChip)}
 
                       </Link>
                     </div>
@@ -505,7 +576,7 @@ const isActive = resolvedSlug === activeSlug;
                         "hover:bg-gradient-to-r hover:from-[#A754CF] hover:via-[#547CCF] hover:to-[#54B9CF]",
                       ].join(" ")}
                     >
-                     {getMsgByPath(messages, c.labelKey) || c.label}
+                     {getChipLabel(c)}
                     </Link>
                   );
                 })}

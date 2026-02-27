@@ -4,16 +4,22 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 export default function FaqTocClient({ sections = [] }) {
   const [activeId, setActiveId] = useState(sections?.[0]?.id);
+  const activeIdRef = useRef(activeId);
   const sectionRefs = useRef({});
 
-  // DOM id → element resolve (client'ta)
   useEffect(() => {
-    const map = {};
-    for (const s of sections) {
-      const el = document.getElementById(s.id);
-      if (el) map[s.id] = el;
-    }
-    sectionRefs.current = map;
+    activeIdRef.current = activeId;
+  }, [activeId]);
+
+  useEffect(() => {
+    if (!sections.length) return;
+    const currentIsValid = sections.some((s) => s.id === activeIdRef.current);
+    if (currentIsValid) return;
+
+    const firstId = sections[0]?.id;
+    if (!firstId) return;
+    activeIdRef.current = firstId;
+    setActiveId(firstId);
   }, [sections]);
 
   const activeIndex = useMemo(() => {
@@ -24,22 +30,50 @@ export default function FaqTocClient({ sections = [] }) {
   const totalSections = sections.length;
 
   useEffect(() => {
-    const els = sections.map((s) => sectionRefs.current[s.id]).filter(Boolean);
+    if (!sections.length) return;
+
+    const map = {};
+    const els = sections
+      .map((s) => {
+        const el = document.getElementById(s.id);
+        if (el) map[s.id] = el;
+        return el;
+      })
+      .filter(Boolean);
+
+    sectionRefs.current = map;
     if (!els.length) return;
 
+    let rafId = null;
     const io = new IntersectionObserver(
       (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0))[0];
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = requestAnimationFrame(() => {
+          let bestId = null;
+          let bestRatio = -1;
 
-        if (visible?.target?.id) setActiveId(visible.target.id);
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            const ratio = entry.intersectionRatio ?? 0;
+            if (ratio > bestRatio) {
+              bestRatio = ratio;
+              bestId = entry.target?.id || null;
+            }
+          }
+
+          if (!bestId || bestId === activeIdRef.current) return;
+          activeIdRef.current = bestId;
+          setActiveId(bestId);
+        });
       },
       { threshold: [0.25, 0.4, 0.6], rootMargin: "-20% 0px -55% 0px" }
     );
 
     els.forEach((el) => io.observe(el));
-    return () => io.disconnect();
+    return () => {
+      io.disconnect();
+      if (rafId) cancelAnimationFrame(rafId);
+    };
   }, [sections]);
 
   const scrollTo = (id) => {

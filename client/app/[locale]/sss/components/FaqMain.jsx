@@ -1,14 +1,145 @@
 "use client";
 
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { useMessages, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
+
+const faqNamespaceCache = {};
+
+function normalizeLocale(locale) {
+  return locale === "en" ? "en" : "tr";
+}
+
+function getNamespaceCacheKey(locale, pageNs) {
+  return `${normalizeLocale(locale)}:${pageNs}`;
+}
+
+function getCachedFaqNamespace(locale, pageNs) {
+  return faqNamespaceCache[getNamespaceCacheKey(locale, pageNs)] || null;
+}
+
+async function loadFaqNamespace(locale, pageNs) {
+  const normalizedLocale = normalizeLocale(locale);
+  const cacheKey = getNamespaceCacheKey(normalizedLocale, pageNs);
+  const cached = faqNamespaceCache[cacheKey];
+  if (cached) return cached;
+
+  const mod =
+    normalizedLocale === "en"
+      ? await import("@/messages/en.json")
+      : await import("@/messages/tr.json");
+
+  const allMessages = mod?.default || mod || {};
+  let namespace = allMessages?.[pageNs] || {};
+
+  // EN tarafında namespace eksikse TR içeriğe düşerek boş içerik riskini azalt.
+  if (normalizedLocale === "en" && !Object.keys(namespace).length) {
+    const fallbackMod = await import("@/messages/tr.json");
+    const fallbackMessages = fallbackMod?.default || fallbackMod || {};
+    namespace = fallbackMessages?.[pageNs] || {};
+  }
+
+  faqNamespaceCache[cacheKey] = namespace;
+  return namespace;
+}
 
 export default function FaqMain({ pageNs = "FaqGeneral" }) {
-  const t = useTranslations(pageNs);
-  const messages = useMessages();
+  const locale = useLocale();
+  const [ns, setNs] = useState(
+    () => getCachedFaqNamespace(locale, pageNs) || {}
+  );
 
-  const ns = messages?.[pageNs] || {};
+  useEffect(() => {
+    let cancelled = false;
+    const cached = getCachedFaqNamespace(locale, pageNs);
+    if (cached) {
+      setNs(cached);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    loadFaqNamespace(locale, pageNs)
+      .then((namespace) => {
+        if (!cancelled) setNs(namespace);
+      })
+      .catch(() => {
+        if (!cancelled) setNs({});
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [locale, pageNs]);
+
+  const localeTexts = useMemo(() => {
+    if (normalizeLocale(locale) === "en") {
+      return {
+        h1: "DGTLFACE General Digital Services FAQ",
+        toc: {
+          intro: "Overview",
+          aiCapsule: "Brief Summary",
+          voiceSummary: "Search Summary",
+          voiceQueries: "Sample Queries",
+          note: "You can quickly navigate by clicking on the sections.",
+        },
+        sections: {
+          general: "General Questions",
+          quick: "Short and Quick Answers",
+        },
+        aiCapsule: {
+          title: "Brief Summary",
+          text: "",
+        },
+        voiceSummary: {
+          title: "Brief summary",
+          text: "",
+        },
+        voiceQueries: {
+          title: "Example queries",
+        },
+        cta: {
+          primary: "Check out our services",
+          primaryHref: "/Services",
+          secondary: "Reporting & Analysis",
+          secondaryHref: "/Services/digitalAnalysis",
+        },
+      };
+    }
+
+    return {
+      h1: "DGTLFACE Genel Dijital Hizmetler SSS",
+      toc: {
+        intro: "Genel Bakış",
+        aiCapsule: "Kısa Özet",
+        voiceSummary: "Arama Özeti",
+        voiceQueries: "Örnek Sorgular",
+        note: "Bölümlere tıklayarak hızlıca gezinebilirsiniz.",
+      },
+      sections: {
+        general: "Genel Sorular",
+        quick: "Kısa Yanıtlar",
+      },
+      aiCapsule: {
+        title: "Kısa Özet",
+        text: "",
+      },
+      voiceSummary: {
+        title: "Kısa özet",
+        text: "",
+      },
+      voiceQueries: {
+        title: "Örnek sorgular",
+      },
+      cta: {
+        primary: "Hizmetlerimizi İnceleyin",
+        primaryHref: "/Services",
+        secondary: "Raporlama & Analiz",
+        secondaryHref: "/Services/digitalAnalysis",
+      },
+    };
+  }, [locale]);
+
   const generalItems = ns?.sections?.generalQuestions?.items || [];
   const quickItems = ns?.sections?.quickAnswers?.items || [];
 
@@ -39,18 +170,18 @@ export default function FaqMain({ pageNs = "FaqGeneral" }) {
   // ✅ 2) SONRA sections (TOC)
   const sections = useMemo(() => {
     const base = [
-      { id: "intro", label: t("toc.intro") },
-      { id: "ai", label: t("toc.aiCapsule") },
-      { id: "voice", label: t("toc.voiceSummary") },
-      { id: "queries", label: t("toc.voiceQueries") },
-      { id: "general", label: ns?.sections?.generalQuestions?.title || "Genel Sorular" },
-      { id: "quick", label: ns?.sections?.quickAnswers?.title || "Kısa Yanıtlar" },
+      { id: "intro", label: ns?.toc?.intro || localeTexts.toc.intro },
+      { id: "ai", label: ns?.toc?.aiCapsule || localeTexts.toc.aiCapsule },
+      { id: "voice", label: ns?.toc?.voiceSummary || localeTexts.toc.voiceSummary },
+      { id: "queries", label: ns?.toc?.voiceQueries || localeTexts.toc.voiceQueries },
+      { id: "general", label: ns?.sections?.generalQuestions?.title || localeTexts.sections.general },
+      { id: "quick", label: ns?.sections?.quickAnswers?.title || localeTexts.sections.quick },
     ];
 
     const dyn = dynamicSections.map((s) => ({ id: s.id, label: s.title }));
 
     return [...base, ...dyn].filter((x) => x?.id && x?.label);
-  }, [t, ns, dynamicSections]);
+  }, [ns, dynamicSections, localeTexts]);
 
   const [activeId, setActiveId] = useState(sections[0]?.id);
   const sectionRefs = useRef({});
@@ -164,23 +295,6 @@ function renderRichText(text) {
   return out;
 }
 
-
-
-const rich = {
-  b: (chunks) => <b className="font-semibold">{chunks}</b>,
-  strong: (chunks) => <b className="font-semibold">{chunks}</b>,
-  ul: (chunks) => <ul className="list-disc pl-5 space-y-1">{chunks}</ul>,
-  li: (chunks) => <li>{chunks}</li>,
-  a: (chunks) => (
-    <Link
-      href={String(chunks)}
-      className="font-semibold underline underline-offset-4 hover:opacity-80 text-purple-700"
-    >
-      {chunks}
-    </Link>
-  ),
-};
-
   return (
     <section className="max-w-screen flex justify-center bg-white">
       <div className="w-[95%] lg:w-[98%] py-8 lg:py-12">
@@ -233,10 +347,6 @@ const rich = {
        <aside className="hidden md:block lg:col-span-2 lg:sticky lg:top-[10%] lg:self-start">
 
             <div className="rounded-2xl bg-[#140f25] text-white p-2 lg:p-3 xl:p-4 shadow-[0_18px_45px_rgba(0,0,0,0.18)]">
-              {/* <p className="text-[12px] tracking-[0.18em] uppercase text-white/60 mb-3">
-                {t("toc.title")}
-              </p> */}
-
               <div className="grid grid-cols-2 md:flex md:flex-col gap-[6px]">
                 {sections.map((s, idx) => {
                   const active = s.id === activeId;
@@ -270,7 +380,7 @@ const rich = {
               </div>
 
               <p className="mt-2 2xl:mt-1 text-[12px] text-white/55 leading-[135%] lg:leading-relaxed">
-                {t("toc.note")}
+                {ns?.toc?.note || localeTexts.toc.note}
               </p>
             </div>
           </aside>
@@ -279,7 +389,7 @@ const rich = {
           <div className="lg:col-span-8 mr-[1%]">
             <div className="rounded-2xl border border-black/5 bg-white py-3 px-2 md:p-5 xl:p-8 shadow-[0_18px_45px_rgba(0,0,0,0.08)] ">
               <h1 className="text-[22px] md:text-[26px] lg:text-[28px] font-bold leading-[120%] text-[#140f25]">
-                {t("h1")}
+                {ns?.h1 || localeTexts.h1}
               </h1>
 
               {/* Intro */}
@@ -301,27 +411,33 @@ const rich = {
               {/* AI */}
               <div id="ai" ref={(el) => (sectionRefs.current.ai = el)} className="scroll-mt-[120px] mt-8 rounded-2xl bg-[#140f25] text-white p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-white/60 mb-2">
-                  {t.rich("aiCapsule.title",rich)}
+                  {renderRichText(ns?.aiCapsule?.title || localeTexts.aiCapsule.title)}
                 </p>
                 <p className="dg-ai-capsule text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-white/90">
-                  {t.rich("aiCapsule.text",rich)}
+                  {renderRichText(ns?.aiCapsule?.text || localeTexts.aiCapsule.text)}
                 </p>
               </div>
 
               {/* Voice */}
               <div id="voice" ref={(el) => (sectionRefs.current.voice = el)} className="scroll-mt-[120px] mt-6 rounded-2xl bg-[#f2edf9] p-5 lg:p-6">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-2">
-                  {t.rich("voiceSummary.title",rich)}
+                  {renderRichText(
+                    ns?.voiceSummary?.title || localeTexts.voiceSummary.title
+                  )}
                 </p>
                 <p className="dg-voice-summary text-[14px] lg:text-[16px] leading-[135%] lg:leading-relaxed text-[#140f25]/90">
-                  {t.rich("voiceSummary.text",rich)}
+                  {renderRichText(
+                    ns?.voiceSummary?.text || localeTexts.voiceSummary.text
+                  )}
                 </p>
               </div>
 
               {/* Queries */}
               <div id="queries" ref={(el) => (sectionRefs.current.queries = el)} className="scroll-mt-[120px] mt-6 text-center items-center justify-center flex flex-col">
                 <p className="text-[12px] uppercase tracking-[0.18em] text-[#140f25]/60 mb-3">
-                  {t.rich("voiceQueries.title",rich)}
+                  {renderRichText(
+                    ns?.voiceQueries?.title || localeTexts.voiceQueries.title
+                  )}
                 </p>
                 <ul className="dg-voice-queries grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-5 text-[14px] lg:text-[16px] text-[#140f25]/90 text-start w-[90%] ml-[10%]">
                {Object.keys(ns?.voiceQueries || {})
@@ -336,7 +452,7 @@ const rich = {
               {/* ✅ Genel Sorular */}
               <div id="general" ref={(el) => (sectionRefs.current.general = el)} className="scroll-mt-[120px] mt-10">
                 <h2 className="text-[18px] lg:text-[22px] font-bold text-[#140f25]">
-                  {ns?.sections?.generalQuestions?.title}
+                  {ns?.sections?.generalQuestions?.title || localeTexts.sections.general}
                 </h2>
 
                 <div className="mt-4 space-y-3 text-start">
@@ -357,7 +473,7 @@ const rich = {
               {/* ✅ Kısa ve Hızlı Yanıtlar */}
               <div id="quick" ref={(el) => (sectionRefs.current.quick = el)} className="scroll-mt-[120px] mt-10">
                 <h2 className="text-[18px] lg:text-[22px] font-bold text-[#140f25]">
-                  {ns?.sections?.quickAnswers?.title}
+                  {ns?.sections?.quickAnswers?.title || localeTexts.sections.quick}
                 </h2>
 
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -407,11 +523,11 @@ const rich = {
 ))}
               {/* CTA */}
               <div className="mt-10 flex flex-wrap gap-3 items-center justify-center">
-                <a href={t("cta.primaryHref")} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
-                  {t("cta.primary")}
+                <a href={ns?.cta?.primaryHref || localeTexts.cta.primaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 text-white font-semibold bg-[#140f25]">
+                  {ns?.cta?.primary || localeTexts.cta.primary}
                 </a>
-                <a href={t("cta.secondaryHref")} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
-                  {t("cta.secondary")}
+                <a href={ns?.cta?.secondaryHref || localeTexts.cta.secondaryHref} className="inline-flex items-center justify-center rounded-full px-5 py-2.5 font-semibold text-[#ffffff] bg-[#140f25]">
+                  {ns?.cta?.secondary || localeTexts.cta.secondary}
                 </a>
               </div>
 
