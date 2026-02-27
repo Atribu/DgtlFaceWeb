@@ -12071,53 +12071,53 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-  "":{
+  "otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek":{
      banner: {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri",
+      caption: "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri"
     },
 
-          "h1-context": {
+          "h1-context-02": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-2.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup/MICE çağrısı bilgi toplama ekranı ve satış devri özet mockup’ı",
+      caption: "Grup/MICE çağrısı bilgi toplama ekranı ve satış devri özet mockup’ı"
     },
 
            "divider-03": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-3.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup ve MICE çağrılarının farkı, çoklu ihtiyaç ve koordinasyon gereksinimi",
+      caption: "Grup ve MICE çağrılarının farkı, çoklu ihtiyaç ve koordinasyon gereksinimi"
     },
 
     "divider-04": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-4.webp",
-      alt: "",
-      caption: ""
+      alt: "Teklif opsiyon onay akışı ve satış işbirliği, MICE pipeline yönetimi",
+      caption: "Teklif opsiyon onay akışı ve satış işbirliği, MICE pipeline yönetimi"
     },
 
      "diagram-05": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-5.webp",
-      alt: "",
-      caption: ""
+      alt: "Call center → sales handover akış diyagramı, teklif opsiyon onay sürec",
+      caption: "Call center → sales handover akış diyagramı, teklif opsiyon onay sürec"
     },
 
           "checklist-06": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-6.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup/MICE bilgi toplama checklist kartı, form alanları ve kısa sorular",
+      caption: "Grup/MICE bilgi toplama checklist kartı, form alanları ve kısa sorular"
     },
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-7.webp",
-      alt: "",
-      caption: ""
+      alt: "Pipeline KPI kartı, lead-to-proposal ve proposal-to-confirm trendi",
+      caption: "Pipeline KPI kartı, lead-to-proposal ve proposal-to-confirm trendi"
     },
 
           "proof-08": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-8.webp",
-      alt: "",
-      caption: ""
+      alt: "MICE pipeline mini dashboard mockup, teklif–opsiyon–onay aşamaları",
+      caption: "MICE pipeline mini dashboard mockup, teklif–opsiyon–onay aşamaları"
     }
   },
 
@@ -12324,6 +12324,419 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel6-17/Hotel6-17-8.webp",
       alt: "VIP özel ihtiyaç şablon seti, notlama ve operasyon akış deliverables",
       caption: "VIP özel ihtiyaç şablon seti, notlama ve operasyon akış deliverables"
+    }
+  },
+
+
+
+  "otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-1.webp",
+      alt: "Otel Çağrı Merkezi ve Ön Büro Koordinasyonu: Rezervasyon Hatalarını Nasıl Azaltırsınız?",
+      caption: "Otel Çağrı Merkezi ve Ön Büro Koordinasyonu: Rezervasyon Hatalarını Nasıl Azaltırsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-2.webp",
+      alt: "Çağrı merkezi PMS kaydı ve ön büro arrival kontrol akışı görseli",
+      caption: "Çağrı merkezi PMS kaydı ve ön büro arrival kontrol akışı görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-3.webp",
+      alt: "Çağrı merkezi ve ön büro koordinasyonu, check-in hatalarını önleme",
+      caption: "Çağrı merkezi ve ön büro koordinasyonu, check-in hatalarını önleme"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-4.webp",
+      alt: "Arrival kontrol rutini ve son dakika değişiklikleri yönetimi ayırıcı görsel",
+      caption: "Arrival kontrol rutini ve son dakika değişiklikleri yönetimi ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-5.webp",
+      alt: "Çağrı merkezi PMS ön büro bilgi akış diyagramı, rezervasyon doğruluk",
+      caption: "Çağrı merkezi PMS ön büro bilgi akış diyagramı, rezervasyon doğruluk"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-6.webp",
+      alt: "Arrival kontrol checklist kartı, çağrı merkezi ön büro günlük rutin",
+      caption: "Arrival kontrol checklist kartı, çağrı merkezi ön büro günlük rutin"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-7.webp",
+      alt: "Rezervasyon hata senaryosu matrisi ve çözüm kartı, koordinasyon etkisi",
+      caption: "Rezervasyon hata senaryosu matrisi ve çözüm kartı, koordinasyon etkisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-18/Hotel6-18-8.webp",
+      alt: "Arrival kontrol ve rezervasyon akış deliverables seti, checklist ve süreç",
+      caption: "Arrival kontrol ve rezervasyon akış deliverables seti, checklist ve süreç"
+    }
+  },
+
+
+
+  "otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-1.webp",
+      alt: "Dijital Kanallar (Mesaj, Canlı Destek) ile Çağrı Merkezini Blended Operasyona Dönüştürmek",
+      caption: "Dijital Kanallar (Mesaj, Canlı Destek) ile Çağrı Merkezini Blended Operasyona Dönüştürmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-2.webp",
+      alt: "Omnichannel inbox ekranı, voice ve mesaj kuyrukları birlikte",
+      caption: "Omnichannel inbox ekranı, voice ve mesaj kuyrukları birlikte"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-3.webp",
+      alt: "Dijital kanalların rolü, WhatsApp web chat Instagram DM e-posta otel",
+      caption: "Dijital kanalların rolü, WhatsApp web chat Instagram DM e-posta otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-4.webp",
+      alt: "Blended kuyruk tasarımı ve handoff akışları ayırıcı görsel",
+      caption: "Blended kuyruk tasarımı ve handoff akışları ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-5.webp",
+      alt: "Chat DM WhatsApp ve telefon handoff akış diyagramı, blended operasyon",
+      caption: "Chat DM WhatsApp ve telefon handoff akış diyagramı, blended operasyon"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-6.webp",
+      alt: "Blended operasyon checklist kartı, kanal rolü handoff KPI seti",
+      caption: "Blended operasyon checklist kartı, kanal rolü handoff KPI seti"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-7.webp",
+      alt: "Kanal bazlı KPI grafiği, response time çözüm süresi ve memnuniyet",
+      caption: "Kanal bazlı KPI grafiği, response time çözüm süresi ve memnuniyet"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-19/Hotel6-19-8.webp",
+      alt: "Blended operasyon deliverables, inbox planı senaryo tablosu KPI seti",
+      caption: "Blended operasyon deliverables, inbox planı senaryo tablosu KPI seti"
+    }
+  },
+
+
+
+  "otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-1.webp",
+      alt: "Çağrı Merkezi Verileri ile Pazarlama ve SEO İçin FAQ & Insight Toplamak",
+      caption: "Çağrı Merkezi Verileri ile Pazarlama ve SEO İçin FAQ & Insight Toplamak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-2.webp",
+      alt: "Çağrı soruları tag raporu ve içerik planına dönüşüm süreci, otel bağlamı",
+      caption: "Çağrı soruları tag raporu ve içerik planına dönüşüm süreci, otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-3.webp",
+      alt: "Çağrı merkezi soruları, misafir sürtünmesi ve pazarlama içgörüsü otel bağlamı",
+      caption: "Çağrı merkezi soruları, misafir sürtünmesi ve pazarlama içgörüsü otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-4.webp",
+      alt: "Soru toplama ve tag’leme süreci, içerik backlog yönetimi ayırıcı görsel",
+      caption: "Soru toplama ve tag’leme süreci, içerik backlog yönetimi ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-5.webp",
+      alt: "Çağrı merkezi soruları SEO FAQ ve reklam mesajına akar, çağrı karışımı değişir döngü diyagramı",
+      caption: "Çağrı merkezi soruları SEO FAQ ve reklam mesajına akar, çağrı karışımı değişir döngü diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-6.webp",
+      alt: "FAQ insight toplama checklist kartı, tag sözlüğü rapor ve içerik map",
+      caption: "FAQ insight toplama checklist kartı, tag sözlüğü rapor ve içerik map"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-7.webp",
+      alt: "Çağrı sorusu tag trendi ve dönüşüm çağrısı payı KPI kartı, otel bağlamı",
+      caption: "Çağrı sorusu tag trendi ve dönüşüm çağrısı payı KPI kartı, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-20/Hotel6-20-8.webp",
+      alt: "FAQ toplama ve içerik planlama deliverables, şablon rapor ve döngü seti",
+      caption: "FAQ toplama ve içerik planlama deliverables, şablon rapor ve döngü seti"
+    }
+  },
+
+
+  "2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-1.webp",
+      alt: "2026’da Otel Çağrı Merkezlerinde Yapay Zekâ Sesli Asistanlar ve Voicebot Entegrasyonu",
+      caption: "2026’da Otel Çağrı Merkezlerinde Yapay Zekâ Sesli Asistanlar ve Voicebot Entegrasyonu"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-2.webp",
+      alt: "Voicebot ilk hat ekranı ve hızlı seçenekler mockup’ı, otel rezervasyon hattı",
+      caption: "Voicebot ilk hat ekranı ve hızlı seçenekler mockup’ı, otel rezervasyon hattı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-3.webp",
+      alt: "AI’ye uygun çağrılar ve insan gerektiren çağrılar ayrımı, otel call center",
+      caption: "AI’ye uygun çağrılar ve insan gerektiren çağrılar ayrımı, otel call center"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-4.webp",
+      alt: "Hibrit model, voicebot-agent akışı ve veri mahremiyet çerçevesi ayırıcı",
+      caption: "Hibrit model, voicebot-agent akışı ve veri mahremiyet çerçevesi ayırıcı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-5.webp",
+      alt: "Voicebot → canlı agent transfer akışı, basit sorudan karmaşık çağrıya hibrit yönlendirme",
+      caption: "Voicebot → canlı agent transfer akışı, basit sorudan karmaşık çağrıya hibrit yönlendirme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-6.webp",
+      alt: "Voicebot pilot checklist kartı, çağrı seçimi devretme ve KPI planı",
+      caption: "Voicebot pilot checklist kartı, çağrı seçimi devretme ve KPI planı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-7.webp",
+      alt: "AI öneri paneli mockup, agent’e anlık script ve sonraki adım önerisi",
+      caption: "AI öneri paneli mockup, agent’e anlık script ve sonraki adım önerisi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-21/Hotel6-21-8.webp",
+      alt: "Hibrit voicebot + agent senaryo seti ve ölçüm KPI deliverables kartı",
+      caption: "Hibrit voicebot + agent senaryo seti ve ölçüm KPI deliverables kartı"
+    }
+  },
+
+
+
+   "2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-1.webp",
+      alt: "2026’da Ses Analitiği ve Duygu Analizi ile Gerçek Zamanlı Coaching",
+      caption: "2026’da Ses Analitiği ve Duygu Analizi ile Gerçek Zamanlı Coaching"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-2.webp",
+      alt: "Riskli çağrı tespiti ve süpervizör uyarı akışı, otel call center",
+      caption: "Riskli çağrı tespiti ve süpervizör uyarı akışı, otel call center"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-3.webp",
+      alt: "Speech analytics: konu kümeleri anahtar kelimeler riskli çağrı tespiti otel",
+      caption: "Speech analytics: konu kümeleri anahtar kelimeler riskli çağrı tespiti otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-4.webp",
+      alt: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel",
+      caption: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-5.webp",
+      alt: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI",
+      caption: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-6.webp",
+      alt: "Speech analytics pilot checklist kartı, risk kuralları coaching ve etik",
+      caption: "Speech analytics pilot checklist kartı, risk kuralları coaching ve etik"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-7.webp",
+      alt: "Ses analitiği sonrası KPI değişimi grafiği, CSAT FCR AHT trend",
+      caption: "Ses analitiği sonrası KPI değişimi grafiği, CSAT FCR AHT trend"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-22/Hotel6-22-8.webp",
+      alt: "Speech analytics pilot seti, risk kuralları coaching senaryoları KPI deliverables",
+      caption: "Speech analytics pilot seti, risk kuralları coaching senaryoları KPI deliverables"
+    }
+  },
+
+
+   "2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-1.webp",
+      alt: "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber",
+      caption: "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-2.webp",
+      alt: "Remote agent çalışma istasyonu mockup, ses kalitesi ve güvenli erişim otel",
+      caption: "Remote agent çalışma istasyonu mockup, ses kalitesi ve güvenli erişim otel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-3.webp",
+      alt: "Uzaktan rezervasyon ekipleri neden yükseliyor, sezon ve dil kapsaması otel",
+      caption: "Uzaktan rezervasyon ekipleri neden yükseliyor, sezon ve dil kapsaması otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-4.webp",
+      alt: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel",
+      caption: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-5.webp",
+      alt: "Remote/hybrid rezervasyon ekibi akışı: erişim, kalite, eskalasyon ve raporlama",
+      caption: "Remote/hybrid rezervasyon ekibi akışı: erişim, kalite, eskalasyon ve raporlama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-6.webp",
+      alt: "Remote/hybrid rezervasyon ekibi checklist kartı, teknoloji güvenlik KPI kültür",
+      caption: "Remote/hybrid rezervasyon ekibi checklist kartı, teknoloji güvenlik KPI kültür"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-7.webp",
+      alt: "Ofis vs hibrit model KPI karşılaştırma grafiği, service level ve dönüşüm",
+      caption: "Ofis vs hibrit model KPI karşılaştırma grafiği, service level ve dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-8.webp",
+      alt: "Remote agent teknoloji ve KPI kontrol listesi deliverables seti, otel bağlamı",
+      caption: "Remote agent teknoloji ve KPI kontrol listesi deliverables seti, otel bağlamı"
+    }
+  },
+
+
+
+  "2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-1.webp",
+      alt: "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak",
+      caption: "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-2.webp",
+      alt: "AI call summary mockup, özet + aksiyon maddeleri + alan önerileri",
+      caption: "AI call summary mockup, özet + aksiyon maddeleri + alan önerileri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-3.webp",
+      alt: "AI call summary nedir, otel çağrı merkezinde özet ve aksiyon maddeleri",
+      caption: "AI call summary nedir, otel çağrı merkezinde özet ve aksiyon maddeleri"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-4.webp",
+      alt: "PMS/CRM alan haritalama ve agent doğrulama adımı ayırıcı görsel",
+      caption: "PMS/CRM alan haritalama ve agent doğrulama adımı ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-5.webp",
+      alt: "Otomatik özet → PMS/CRM alanlarına yazma akışı, agent doğrulamasıyla",
+      caption: "Otomatik özet → PMS/CRM alanlarına yazma akışı, agent doğrulamasıyla"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-6.webp",
+      alt: "AI notlama pilot checklist kartı, alan doğrulama ve KVKK minimizasyon",
+      caption: "AI notlama pilot checklist kartı, alan doğrulama ve KVKK minimizasyon"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-7.webp",
+      alt: "Otomatik vs manuel not karşılaştırma grafiği, süre ve hata kıyası",
+      caption: "Otomatik vs manuel not karşılaştırma grafiği, süre ve hata kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-8.webp",
+      alt: "Otomatik özet PMS/CRM haritalama ve kontrol listesi deliverables seti",
+      caption: "Otomatik özet PMS/CRM haritalama ve kontrol listesi deliverables seti"
+    }
+  },
+
+
+  "2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-1.webp",
+      alt: "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme",
+      caption: "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-2.webp",
+      alt: "Numara maskeleme akışı: misafir ↔ proxy numara ↔ otel çağrı merkezi",
+      caption: "Numara maskeleme akışı: misafir ↔ proxy numara ↔ otel çağrı merkezi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-3.webp",
+      alt: "Privacy-first çağrı merkezi prensipleri, veri minimizasyonu ve güven otel",
+      caption: "Privacy-first çağrı merkezi prensipleri, veri minimizasyonu ve güven otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-4.webp",
+      alt: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse",
+      caption: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-5.webp",
+      alt: "Misafir ↔ maskeli numara ↔ otel: number masking akış diyagramı",
+      caption: "Misafir ↔ maskeli numara ↔ otel: number masking akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-6.webp",
+      alt: "Privacy-first checklist kartı: maskeleme, erişim, saklama, şeffaflık",
+      caption: "Privacy-first checklist kartı: maskeleme, erişim, saklama, şeffaflık"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-7.webp",
+      alt: "Kayıt saklama ve erişim matrisi, rol bazlı erişim ve amaç odaklı saklama",
+      caption: "Kayıt saklama ve erişim matrisi, rol bazlı erişim ve amaç odaklı saklama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-8.webp",
+      alt: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı",
+      caption: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı"
     }
   },
 
