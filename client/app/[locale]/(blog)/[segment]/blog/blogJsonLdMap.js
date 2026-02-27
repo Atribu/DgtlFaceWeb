@@ -30887,7 +30887,429 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
-}
+},
+
+"otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme",
+      "headline": "Otel Çağrı Merkezi ve Ön Büro Koordinasyonu: Rezervasyon Hatalarını Nasıl Azaltırsınız?",
+      "name": "Otel Çağrı Merkezi ve Ön Büro Koordinasyonu: Rezervasyon Hatalarını Nasıl Azaltırsınız?",
+      "description": "Çağrı merkezi ile ön büro arasında net rezervasyon kayıt adımları ve günlük arrival listesi kontrol rutini kurarak oda tipi, tarih ve ödeme kaynaklı hataları azaltın ve overbooking riskini yönetin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Çağrı Merkezi ve Ön Büro Koordinasyonu", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel çağrı merkezi ve ön büro arasındaki koordinasyon nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’i tek gerçek kayıt kabul edip call center kayıt adımlarını standardize edin. Ön büronun günlük arrival listesi kontrol rutinini checklist’le yönetin ve kısa brifing ile riskli rezervasyonları hizalayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rezervasyon kayıt adımlarında nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih, oda tipi/yatak düzeni, kişi/çocuk sayısı ve çocuk yaşı, ödeme koşulu ve operasyonel özel istek notları eksiksiz girilmelidir. Kayıt sonrası kısa kontrol adımı hatayı azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Günlük arrival listesi nasıl kontrol edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sabit saatte arrival listesi üzerinde tarih/oda/çocuk/ödeme ve özel istekler kontrol edilir. Eksik bilgi varsa call-back tetiklenir; VIP/özel ihtiyaç notları operasyona görev olarak devredilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Overbooking ve oda çakışmalarını önlemek için hangi iş akışları kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Opsiyon/confirm statülerini netleştirin, upgrade ve değişikliklerde yetki matrisini yazın ve PMS güncellemesini tek rolün yapmasını sağlayın. Manuel Excel listelerin PMS ile çakışmasını önleyin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#howto",
+      "name": "Çağrı merkezi ve ön büro koordinasyonuyla rezervasyon hataları nasıl azaltılır?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "PMS kayıt standardı oluşturun", "text": "Call center için zorunlu alan listesini tanımlayın ve her kayıt sonrası kontrol adımı ekleyin." },
+        { "@type": "HowToStep", "name": "Günlük arrival kontrol rutini kurun", "text": "Arrival listesi checklist’ini sabit saatte uygulayın; eksik bilgi için call-back tetikleyin." },
+        { "@type": "HowToStep", "name": "Yetki ve değişiklik akışını netleştirin", "text": "Opsiyon/confirm, upgrade ve son dakika değişikliklerinde kim onaylar/kim günceller kuralını yazın." },
+        { "@type": "HowToStep", "name": "Kısa brifingle hizalayın", "text": "Günlük 5–10 dakika brifing ile riskli rezervasyonları, ödeme notlarını ve değişiklikleri aynı sayfada yönetin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon",
+      "headline": "Dijital Kanallar (Mesaj, Canlı Destek) ile Çağrı Merkezini Blended Operasyona Dönüştürmek",
+      "name": "Dijital Kanallar (Mesaj, Canlı Destek) ile Çağrı Merkezini Blended Operasyona Dönüştürmek",
+      "description": "WhatsApp, web chat ve DM gibi dijital kanalları çağrı merkeziyle entegre ederek tüm talepleri tek ekranda blended şekilde yönetin; telefon–mesaj rol dağılımını netleştirip hız ve memnuniyet kazanın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Blended Voice + Digital Operasyon", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dijital kanallar (WhatsApp, web chat, DM) otel çağrı merkeziyle nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanalları tek omnichannel inbox’ta toplayın ve her talebi tek “case” altında yönetin. Kanal rol dağılımını belirleyin, handoff akışlarını kurun ve KPI’ları kanal bazında izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumlarda telefon, hangi durumlarda mesaj kullanmak daha doğru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Karmaşık ihtiyaç analizi, hızlı closing ve krizler telefona daha uygundur. Bilgi paylaşımı ve teyit gibi konular mesajda verimlidir; mesaj uzuyorsa telefona handoff yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Omnichannel inbox/blended agent modeli nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agent tek ekrandan WhatsApp/chat/DM/e-posta ve telefon taleplerini görür; etiket ve SLA sayaçlarıyla önceliklendirir. Gerekince chat→phone veya phone→WhatsApp geçişiyle çözümü hızlandırır ve case’i kapatır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dijital kanalların performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "First response time ve çözüm süresi temel metriklerdir. Handoff oranı, cevapsız talep ve duplicate oranı operasyon kalitesini; memnuniyet sinyalleri ise deneyim etkisini gösterir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#howto",
+      "name": "Otel çağrı merkezi blended voice + digital operasyona nasıl dönüştürülür?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Kanal rol dağılımını belirleyin", "text": "Telefon, WhatsApp, chat, DM ve e-postanın hangi işlerde kullanılacağını yazılı hale getirin." },
+        { "@type": "HowToStep", "name": "Tek inbox ve kuyruk tasarlayın", "text": "Tüm kanalları tek omnichannel inbox’ta toplayın; tek case kimliği ve SLA sayaçlarını kurgulayın." },
+        { "@type": "HowToStep", "name": "Handoff akışlarını kurun", "text": "Mesaj uzarsa telefona alın; telefon sonrası teyidi WhatsApp ile özetleyin; tetikleyicileri standardize edin." },
+        { "@type": "HowToStep", "name": "KPI ile yönetin", "text": "First response time, çözüm süresi, handoff ve missed inquiry KPI’larını kanal bazında izleyip 30 gün pilotla optimize edin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak",
+      "headline": "Çağrı Merkezi Verileri ile Pazarlama ve SEO İçin FAQ & Insight Toplamak",
+      "name": "Çağrı Merkezi Verileri ile Pazarlama ve SEO İçin FAQ & Insight Toplamak",
+      "description": "Çağrı merkezi verisinden sık sorulan soruları sistematik toplayarak SEO içerikleri, FAQ sayfaları ve reklam mesajlarını gerçek misafir sorularına göre güncelleyin; gereksiz çağrıları azaltıp rezervasyon kararını hızlandırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "FAQ & Insight Toplamak", "item": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi verileri SEO ve pazarlama için nasıl kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operatör notu ve tag’lerle tekrar eden soruları sistematik toplayıp Top 20 soru raporu çıkarın. Soruları FAQ/landing/blog ve reklam mesajına map edin; sonra çağrı karışımındaki değişimi ölçerek döngüyü kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sık sorulan soruları sistematik olarak nasıl toplarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her çağrı sonrası 1 cümle soru özeti + 1 tag standardı koyun. Tag sözlüğünü 15–20 etiketle başlatın ve “Diğer” oranını izleyerek sözlüğü revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ sayfasını çağrı merkezi insight’ına göre nasıl güncellerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Top 20 sorunun en az 10’unu FAQ’ya taşıyın; cevapları 2–4 cümleyle net yazın. Dönüşümü yavaşlatan 5 soruyu landing üst bölümünde ayrıca görünür yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam mesajlarını gerçek itirazlara göre nasıl yeniden yazarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık itirazları çıkarıp reklam metninde bu belirsizliği önceden gideren net cümleler kullanın. Mesaj–landing tutarlılığını kontrol edin ve 30 gün tag trendiyle etkisini ölçün."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#howto",
+      "name": "Çağrı merkezi verisiyle FAQ ve içerik insight döngüsü nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Tag sözlüğünü oluşturun", "text": "15–20 etiketle başlayın; operatör ekranında soru özeti + tag alanını standardize edin." },
+        { "@type": "HowToStep", "name": "Top 20 soru raporu çıkarın", "text": "Aylık en çok sorulan soruları ve tag trendini raporlayın; anomali ve “Diğer” oranını izleyin." },
+        { "@type": "HowToStep", "name": "İçerik ve reklam eşlemesi yapın", "text": "Soruları FAQ/landing/blog ve reklam mesajına map edin; dönüşümü yavaşlatan 5 soruyu landing’de görünürleştirin." },
+        { "@type": "HowToStep", "name": "Etkisini ölçüp döngüyü kapatın", "text": "Yayın sonrası 14–30 gün içinde tag oranları ve dönüşüm çağrısı payını kıyaslayıp backlog’u güncelleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu",
+      "headline": "2026’da Otel Çağrı Merkezlerinde Yapay Zekâ Sesli Asistanlar ve Voicebot Entegrasyonu",
+      "name": "2026’da Otel Çağrı Merkezlerinde Yapay Zekâ Sesli Asistanlar ve Voicebot Entegrasyonu",
+      "description": "2026’da AI sesli asistanlar ve voicebot’lar sık sorulan soruları ve basit akışları üstlenerek ajanların yükünü azaltan ilk hat rolüne geçiyor; karmaşık rezervasyon ve şikâyetler canlı agente akıllı şekilde devrediliyor.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "AI Sesli Asistan ve Voicebot (2026)", "item": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da yapay zekâ sesli asistanlar otel çağrı merkezlerinde nasıl kullanılacak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI sesli asistanlar ilk hat rolünde; sık sorulan soruları yanıtlar, basit akışları yönetir ve karmaşık/duygusal çağrıları canlı agente akıllıca devreder. Böylece yanıt hızı artar ve agent zamanı yüksek değerli çağrılara ayrılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voicebot’lar hangi çağrıları üstlenmeli, hangilerinde insan devreye girmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurallı, kısa ve tekrar eden FAQ çağrıları voicebot’a uygundur. Şikâyet, VIP/özel ihtiyaç ve kompleks rezervasyonlar insan dokunuşu gerektirir; hibrit modelde bu çağrılar agent’e devredilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hibrit (AI + agent) modelini nasıl kurgulamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voicebot triage yapıp minimum bağlamı (konu, dil, tarih, kritik not) toplayarak agent’e context pack ile devretmelidir. Devretme koşulları net yazılmalı ve misafir tekrar anlatmamalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ses kayıt ve STT verisi KVKK çerçevesinde nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Saklama amacı ve süresi, rol bazlı erişim ve raporlarda anonimleştirme prensipleri net olmalıdır. STT çıktıları tema seviyesinde kullanılmalı; gereksiz kişisel detaylar rapora taşınmamalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#howto",
+      "name": "Otel çağrı merkezinde hibrit voicebot + agent modeli nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Çağrı rol dağılımını belirleyin", "text": "AI’ye uygun FAQ ve basit akışları seçin; şikâyet/VIP/kompleks rezervasyon gibi alanları insan şart olarak işaretleyin." },
+        { "@type": "HowToStep", "name": "Devretme akışını tasarlayın", "text": "Voicebot triage ve context pack alanlarını tanımlayın; devretme tetikleyicilerini yazın ve hızlı çıkış cümlesi ekleyin." },
+        { "@type": "HowToStep", "name": "STT ve içgörü ritmini kurun", "text": "Top tema ve itiraz kümelerini aylık raporlayın; içerik ve script revizyon döngüsüne bağlayın." },
+        { "@type": "HowToStep", "name": "KPI ile pilot yapın", "text": "Self-servis, devretme, çözüm süresi ve memnuniyet KPI’larını 30 gün ölçün; sonra ölçekleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":{}
 
     }
   },

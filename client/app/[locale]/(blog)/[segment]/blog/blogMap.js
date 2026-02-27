@@ -300,8 +300,15 @@ export const BLOG_MAP = {
 
     "otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama":"BlogOtelCagriMerkeziTeknolojiYapisiSoftphoneIVRKayitRaporlama",
     "otel-cagri-merkezi-ise-alim-ve-onboarding-sureci":"BlogOtelCagriMerkeziIseAlimVeOnboardingSureci",
+
     "yuksek-sezon-icin-otel-cagri-merkezi-hazirlik-plani":"BlogYuksekSezonIcinOtelCagriMerkeziHazirlikPlani",
-    "vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek":"BlogVipVeOzelIhtiyacliMisafirCagrilariniYonetmek"
+    "vip-ve-ozel-ihtiyacli-misafir-cagrilarini-yonetmek":"BlogVipVeOzelIhtiyacliMisafirCagrilariniYonetmek",
+    "otel-cagri-merkezi-ve-on-buro-koordinesi-rezervasyon-hatasi-onleme":"BlogOtelCagriMerkeziVeOnBuroKoordinesiRezervasyonHatasiOnleme",
+    "otel-cagri-merkezi-ve-dijital-kanallar-mesaj-canli-destek-blended-operasyon":"BlogOtelBlendedCagriMerkeziWhatsAppChatDMTekEkran",
+    "otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak":"BlogOtelCagriMerkeziVerisiyleFAQSeoInsightDongusu",
+
+    "2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu":"BlogOtel2026YapayZekaSesliAsistanVeVoicebotEntegrasyonu",
+    "2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":"BlogOtel2026SesAnalitigiVeDuyguAnaliziIleCanliCoaching"
     
   }
 };
