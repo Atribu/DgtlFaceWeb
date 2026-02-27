@@ -12071,53 +12071,53 @@ export const BLOG_MEDIA_MAP = {
   },
 
 
-  "":{
+  "otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek":{
      banner: {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri",
+      caption: "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri"
     },
 
-          "h1-context": {
+          "h1-context-02": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-2.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup/MICE çağrısı bilgi toplama ekranı ve satış devri özet mockup’ı",
+      caption: "Grup/MICE çağrısı bilgi toplama ekranı ve satış devri özet mockup’ı"
     },
 
            "divider-03": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-3.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup ve MICE çağrılarının farkı, çoklu ihtiyaç ve koordinasyon gereksinimi",
+      caption: "Grup ve MICE çağrılarının farkı, çoklu ihtiyaç ve koordinasyon gereksinimi"
     },
 
     "divider-04": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-4.webp",
-      alt: "",
-      caption: ""
+      alt: "Teklif opsiyon onay akışı ve satış işbirliği, MICE pipeline yönetimi",
+      caption: "Teklif opsiyon onay akışı ve satış işbirliği, MICE pipeline yönetimi"
     },
 
      "diagram-05": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-5.webp",
-      alt: "",
-      caption: ""
+      alt: "Call center → sales handover akış diyagramı, teklif opsiyon onay sürec",
+      caption: "Call center → sales handover akış diyagramı, teklif opsiyon onay sürec"
     },
 
           "checklist-06": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-6.webp",
-      alt: "",
-      caption: ""
+      alt: "Grup/MICE bilgi toplama checklist kartı, form alanları ve kısa sorular",
+      caption: "Grup/MICE bilgi toplama checklist kartı, form alanları ve kısa sorular"
     },
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-7.webp",
-      alt: "",
-      caption: ""
+      alt: "Pipeline KPI kartı, lead-to-proposal ve proposal-to-confirm trendi",
+      caption: "Pipeline KPI kartı, lead-to-proposal ve proposal-to-confirm trendi"
     },
 
           "proof-08": {
       src: "/images/blog/hotel/Hotel6-13/Hotel6-13-8.webp",
-      alt: "",
-      caption: ""
+      alt: "MICE pipeline mini dashboard mockup, teklif–opsiyon–onay aşamaları",
+      caption: "MICE pipeline mini dashboard mockup, teklif–opsiyon–onay aşamaları"
     }
   },
 
@@ -12563,8 +12563,8 @@ export const BLOG_MEDIA_MAP = {
 
      "diagram-05": {
       src: "/images/blog/hotel/Hotel6-22/Hotel6-22-5.webp",
-      alt: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI”",
-      caption: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI”"
+      alt: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI",
+      caption: "Speech analytics akışı: ses → STT → duygu/kural → uyarı/coaching → KPI"
     },
 
           "checklist-06": {
@@ -12583,6 +12583,160 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel6-22/Hotel6-22-8.webp",
       alt: "Speech analytics pilot seti, risk kuralları coaching senaryoları KPI deliverables",
       caption: "Speech analytics pilot seti, risk kuralları coaching senaryoları KPI deliverables"
+    }
+  },
+
+
+   "2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-1.webp",
+      alt: "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber",
+      caption: "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-2.webp",
+      alt: "Remote agent çalışma istasyonu mockup, ses kalitesi ve güvenli erişim otel",
+      caption: "Remote agent çalışma istasyonu mockup, ses kalitesi ve güvenli erişim otel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-3.webp",
+      alt: "Uzaktan rezervasyon ekipleri neden yükseliyor, sezon ve dil kapsaması otel",
+      caption: "Uzaktan rezervasyon ekipleri neden yükseliyor, sezon ve dil kapsaması otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-4.webp",
+      alt: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel",
+      caption: "Canlı coaching paneli ve KPI odaklı yönetim ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-5.webp",
+      alt: "Remote/hybrid rezervasyon ekibi akışı: erişim, kalite, eskalasyon ve raporlama",
+      caption: "Remote/hybrid rezervasyon ekibi akışı: erişim, kalite, eskalasyon ve raporlama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-6.webp",
+      alt: "Remote/hybrid rezervasyon ekibi checklist kartı, teknoloji güvenlik KPI kültür",
+      caption: "Remote/hybrid rezervasyon ekibi checklist kartı, teknoloji güvenlik KPI kültür"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-7.webp",
+      alt: "Ofis vs hibrit model KPI karşılaştırma grafiği, service level ve dönüşüm",
+      caption: "Ofis vs hibrit model KPI karşılaştırma grafiği, service level ve dönüşüm"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-23/Hotel6-23-8.webp",
+      alt: "Remote agent teknoloji ve KPI kontrol listesi deliverables seti, otel bağlamı",
+      caption: "Remote agent teknoloji ve KPI kontrol listesi deliverables seti, otel bağlamı"
+    }
+  },
+
+
+
+  "2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-1.webp",
+      alt: "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak",
+      caption: "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-2.webp",
+      alt: "AI call summary mockup, özet + aksiyon maddeleri + alan önerileri",
+      caption: "AI call summary mockup, özet + aksiyon maddeleri + alan önerileri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-3.webp",
+      alt: "AI call summary nedir, otel çağrı merkezinde özet ve aksiyon maddeleri",
+      caption: "AI call summary nedir, otel çağrı merkezinde özet ve aksiyon maddeleri"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-4.webp",
+      alt: "PMS/CRM alan haritalama ve agent doğrulama adımı ayırıcı görsel",
+      caption: "PMS/CRM alan haritalama ve agent doğrulama adımı ayırıcı görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-5.webp",
+      alt: "Otomatik özet → PMS/CRM alanlarına yazma akışı, agent doğrulamasıyla",
+      caption: "Otomatik özet → PMS/CRM alanlarına yazma akışı, agent doğrulamasıyla"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-6.webp",
+      alt: "AI notlama pilot checklist kartı, alan doğrulama ve KVKK minimizasyon",
+      caption: "AI notlama pilot checklist kartı, alan doğrulama ve KVKK minimizasyon"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-7.webp",
+      alt: "Otomatik vs manuel not karşılaştırma grafiği, süre ve hata kıyası",
+      caption: "Otomatik vs manuel not karşılaştırma grafiği, süre ve hata kıyası"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-24/Hotel6-24-8.webp",
+      alt: "Otomatik özet PMS/CRM haritalama ve kontrol listesi deliverables seti",
+      caption: "Otomatik özet PMS/CRM haritalama ve kontrol listesi deliverables seti"
+    }
+  },
+
+
+  "2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":{
+     banner: {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-1.webp",
+      alt: "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme",
+      caption: "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-2.webp",
+      alt: "Numara maskeleme akışı: misafir ↔ proxy numara ↔ otel çağrı merkezi",
+      caption: "Numara maskeleme akışı: misafir ↔ proxy numara ↔ otel çağrı merkezi"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-3.webp",
+      alt: "Privacy-first çağrı merkezi prensipleri, veri minimizasyonu ve güven otel",
+      caption: "Privacy-first çağrı merkezi prensipleri, veri minimizasyonu ve güven otel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-4.webp",
+      alt: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse",
+      caption: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-5.webp",
+      alt: "Misafir ↔ maskeli numara ↔ otel: number masking akış diyagramı",
+      caption: "Misafir ↔ maskeli numara ↔ otel: number masking akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-6.webp",
+      alt: "Privacy-first checklist kartı: maskeleme, erişim, saklama, şeffaflık",
+      caption: "Privacy-first checklist kartı: maskeleme, erişim, saklama, şeffaflık"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-7.webp",
+      alt: "Kayıt saklama ve erişim matrisi, rol bazlı erişim ve amaç odaklı saklama",
+      caption: "Kayıt saklama ve erişim matrisi, rol bazlı erişim ve amaç odaklı saklama"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel6-25/Hotel6-25-8.webp",
+      alt: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı",
+      caption: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı"
     }
   },
 

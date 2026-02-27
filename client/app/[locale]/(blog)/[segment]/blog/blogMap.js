@@ -297,6 +297,7 @@ export const BLOG_MAP = {
 
     "otel-cagri-merkezi-crm-ve-pms-entegrasyonu":"BlogOtelCagriMerkeziCrmVePmsEntegrasyonu",
     "otel-cagri-merkezi-oncesi-ve-sonrasi-outbound-arama-stratejileri":"BlogOtelCagriMerkeziOncesiVeSonrasiOutboundAramaStratejileri",
+    "otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek":"BlogOtelGrupVeMiceRezervasyonlariniCagriMerkezindenYonetmek",
 
     "otel-cagri-merkezi-teknoloji-yapisi-softphone-ivr-kayit-ve-raporlama":"BlogOtelCagriMerkeziTeknolojiYapisiSoftphoneIVRKayitRaporlama",
     "otel-cagri-merkezi-ise-alim-ve-onboarding-sureci":"BlogOtelCagriMerkeziIseAlimVeOnboardingSureci",
@@ -308,7 +309,10 @@ export const BLOG_MAP = {
     "otel-cagri-merkezi-verileri-ile-pazarlama-ve-seo-icin-faq-insight-toplamak":"BlogOtelCagriMerkeziVerisiyleFAQSeoInsightDongusu",
 
     "2026-yapay-zeka-sesli-asistan-ve-voicebot-entegrasyonu":"BlogOtel2026YapayZekaSesliAsistanVeVoicebotEntegrasyonu",
-    "2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":"BlogOtel2026SesAnalitigiVeDuyguAnaliziIleCanliCoaching"
+    "2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":"BlogOtel2026SesAnalitigiVeDuyguAnaliziIleCanliCoaching",
+    "2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model":"BlogOtel2026UzaktanCalisanRezervasyonEkipleriVeHibritModel",
+    "2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes":"BlogOtel2026YapayZekaOtomatizeKonusmaOzetleriVeCallNotes",
+    "2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":"Blog2026OtelCagriMerkeziIcinPrivacyFirstVeNumaraMaskeleme"
     
   }
 };

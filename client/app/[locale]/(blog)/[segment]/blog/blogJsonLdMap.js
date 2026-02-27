@@ -30463,8 +30463,127 @@ export const BLOG_JSONLD_MAP = {
 
 
 //13
-//eksik
 
+"otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Otel Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek",
+      "headline": "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri",
+      "name": "Grup ve MICE Rezervasyonlarını Çağrı Merkezinden Yönetmek: Toplantı, Kongre ve Etkinlik Talepleri",
+      "description": "Grup/MICE çağrılarını yapısal bir form ve akışla yönetin; çağrı merkezinde doğru bilgiyi toplayın, satış ekibine net bir brief ile devrederek toplantı ve etkinlik taleplerinin kapanma oranını artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Grup ve MICE Rezervasyonları", "item": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Grup ve MICE rezervasyon çağrıları nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çağrıyı hızlı sınıflandırıp standart form ile kritik bilgileri toplayın. Satış ekibine tek sayfa brief ve net SLA ile devredin; opsiyon ve teklif sürecini pipeline olarak takip edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezinde grup/etkinlik talebi için hangi bilgiler alınmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih aralığı ve esneklik, katılımcı/oda sayısı, salon set-up ve süre, teknik ekipman, F&B ihtiyaçları, bütçe yaklaşımı ve karar tarihi minimum settir. Teklifin gideceği kişi/kanal da netleşmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu çağrılar satış ekibine nasıl devredilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Case ID ile tek sayfa brief oluşturup sales queue’ya SLA ile gönderin. Devirde opsiyon süresi ve uygunluk teyidi notu yer almalı; sahiplik (sales owner) net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup/MICE pipeline’ı nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New→Qualified→Proposal→Option→Confirmed→Lost statüleriyle pipeline kurun. Lead-to-proposal süresi, proposal-to-confirm oranı ve opsiyon kaybı gibi metrikleri aylık izleyin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#howto",
+      "name": "Grup ve MICE çağrıları için form + devir + pipeline nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Çağrıyı sınıflandırın",
+          "text": "Talebin grup konaklama mı, toplantı/etkinlik mi yoksa karma mı olduğunu ilk dakikada netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Formla minimum bilgiyi toplayın",
+          "text": "Tarih/esneklik, kişi/oda sayısı, salon set-up, teknik, F&B, bütçe ve karar tarihini standart formda alın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Satış ekibine SLA ile devredin",
+          "text": "Case ID ve tek sayfa brief ile sales queue’ya gönderin; opsiyon süresi ve takip adımını net yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pipeline’ı takip edin",
+          "text": "Proposal/Option/Confirmed statülerini güncel tutup aylık raporda kapanış ve forecast doğruluğunu izleyin."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-grup-ve-mice-rezervasyonlarini-cagri-merkezinden-yonetmek#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
 
 
 //14
@@ -31309,7 +31428,425 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":{}
+"2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching",
+      "headline": "2026’da Ses Analitiği ve Duygu Analizi ile Gerçek Zamanlı Coaching",
+      "name": "2026’da Ses Analitiği ve Duygu Analizi ile Gerçek Zamanlı Coaching",
+      "description": "2026’da ses analitiği ve duygu analizi ile riskli çağrıları ve fırsatları daha hızlı görüp; script, eğitim ve canlı coaching kararlarını veriye dayalı verebilirsiniz – mahremiyet ve şeffaflık çerçevesine dikkat ederek.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Ses Analitiği ve Canlı Coaching (2026)", "item": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ses analitiği ve duygu analizi otel çağrı merkezinde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ses analitiği konuşmayı tema ve anahtar kelimelere ayırır; duygu analizi ise öfke/stres gibi sinyalleri skorlar. Bu sinyaller riskli çağrıları işaretleyip canlı coaching ve eğitim revizyonunu tetikleyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Canlı coaching (görüşme esnasında öneri) gerçekten fayda sağlar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öneriler kısa, doğru ve agent kontrolünde olduğunda fayda sağlar; özellikle itiraz yönetimi ve şikâyet çağrılarında doğru cümleyi hızlandırır. Aşırı uyarı ve uzun öneriler ise agent’i yorar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi KPI’ları ses analitiği ile izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CSAT/NPS sinyali, FCR, AHT, escalation rate ve riskli çağrı oranı temel seti oluşturur. Ayrıca coaching adoption (öneri kullanım) metriği iyileştirmenin çalışıp çalışmadığını gösterir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Duygu analizi kullanırken mahremiyet ve etik açıdan nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaç eğitim/iyileştirme olmalı; rol bazlı erişim ve saklama süresi net olmalı; raporlarda anonimleştirme uygulanmalıdır. Şeffaflık ilkesiyle ekip ve misafir bilgilendirmesi yapılmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#howto",
+      "name": "Otel çağrı merkezinde ses analitiği ile canlı coaching nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Risk kategorilerini tanımlayın", "text": "Öfke/şikâyet, iptal riski ve ödeme/politika belirsizliği gibi 3 ana risk kategorisi ve anahtar kelime seti oluşturun." },
+        { "@type": "HowToStep", "name": "Uyarı eşiklerini belirleyin", "text": "Sarı ve kırmızı eşikler ile agent önerisi ve süpervizör uyarısı tetikleyicilerini netleştirin; uyarı sayısını sınırlayın." },
+        { "@type": "HowToStep", "name": "Canlı coaching senaryolarını kurun", "text": "Fiyat, iptal, çocuk/transfer ve şikâyet gibi 5 senaryo için 1–2 satırlık öneriler hazırlayın; agent kontrolünü koruyun." },
+        { "@type": "HowToStep", "name": "KPI ile ölçüp iyileştirin", "text": "CSAT/FCR/AHT ve escalation KPI’larını 30 gün ölçün; öneri ve eşikleri revize edin; etik/mahremiyet politikasını güncel tutun." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model",
+      "headline": "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber",
+      "name": "2026’da Uzaktan Çalışan Rezervasyon Ekipleri ve Hibrit Model: Evden Çalışan Agent’ler İçin Rehber",
+      "description": "2026’da uzaktan ve hibrit rezervasyon ekipleri, doğru teknoloji ve KPI yönetimiyle misafirin fark etmediği; otelin ise esneklik ve yetenek kazanımı sağladığı bir model sunuyor.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Uzaktan & Hibrit Rezervasyon Ekipleri (2026)", "item": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Uzaktan çalışan rezervasyon ekipleri oteller için gerçekten işe yarar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; doğru softphone+VPN, QA ve KPI yönetimiyle misafir deneyimi değişmeden çalışabilir. Otel için avantajı sezon piklerinde esneklik, çok dilli kapsama ve geniş yetenek havuzudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hibrit modelde (ofis + ev) çağrı merkezi nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol bazlı kural koyun: riskli/kompleks çağrılar ofis çekirdek ekipte, standart akışlar remote ekipte yürüsün. Eskalasyon ve devretme akışları yazılı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Evden çalışan agent’ler için hangi teknoloji ve güvenlik önlemleri gerekir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Softphone erişimi, VPN/SSO, rol bazlı yetki, cihaz güvenliği ve ses kalitesi standardı minimum gerekliliktir. Log/denetim ve yedek bağlantı planı iş sürekliliğini destekler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Remote ekiplerde performans, eğitim ve kültür nasıl korunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net KPI seti, QA scorecard ve düzenli coaching ritmi (daily huddle + haftalık 1:1) gerekir. Best call library ve mentor modeli aidiyeti ve standardı güçlendirir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#howto",
+      "name": "Otel rezervasyon hattında uzaktan/hibrid ekip modeli nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Rol dağılımı ve kapsam belirleyin", "text": "Riskli ve kompleks çağrıları ofis çekirdek ekibe bırakın; remote ekibe standart akışları verin ve eskalasyon kuralını yazın." },
+        { "@type": "HowToStep", "name": "Teknoloji ve güvenlik standardı kurun", "text": "Softphone, VPN/SSO, rol bazlı yetki, cihaz güvenliği ve ses kalitesi test rutinini pilot ekipte uygulayın." },
+        { "@type": "HowToStep", "name": "KPI ve QA ile yönetin", "text": "Service level, answer rate, conversion ve QA scorecard ile performansı izleyin; coaching ritmini (huddle + 1:1) sabitleyin." },
+        { "@type": "HowToStep", "name": "Pilotla ölçüp ölçekleyin", "text": "14–30 günlük pilot sonrası KPI kıyaslayın; sezon pik planını oluşturup dil kapsamını genişleterek ölçekleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes",
+      "headline": "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak",
+      "name": "2026’da Yapay Zekâ ile Otomatik Konuşma Özetleri ve Call Notes: Agent’lerin Yükünü Azaltmak",
+      "description": "Yapay zekâ ile otomatik konuşma özetleri kullanarak rezervasyon çağrılarında oda, tarih ve özel not alanlarını AI’ye doldurtup agent’e kontrol ettirin; böylece hem hata riskini hem de manuel not yükünü azaltın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "AI Call Summary & Call Notes (2026)", "item": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otomatik konuşma özetleri (call summary) otel çağrı merkezinde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "STT görüşmeyi metne çevirir; AI kısa özet ve aksiyon maddeleri üretir; PMS/CRM alanları için not/tag önerir. Agent doğrulayıp kaydeder; böylece hem süre hem hata azalır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS/CRM’e otomatik not ve tag yazmak mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; doğru field mapping ile AI’nin ürettiği alanlar PMS/CRM’e öneri olarak akabilir. En iyi pratik, sistemin otomatik kaydetmesi değil; agent’in doğrulayıp onaylamasıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu süreçte hangi kontroller ve KVKK önlemleri alınmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agent onayı olmadan kayıt yapılmamalı; sadece gerekli alanlar yazılmalı ve özel notlarda veri minimizasyonu uygulanmalıdır. Erişim rol bazlı olmalı, log tutulmalı ve saklama amacı/süresi netleştirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik özet yanlış olursa ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğrulama adımı bu risk için vardır: agent düzeltir ve öyle kaydeder. Pilot aşamada en çok hata yapan alanlar tespit edilip mapping ve kontrol kuralları güncellenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#howto",
+      "name": "Otel çağrı merkezinde AI ile otomatik call summary ve call notes nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "STT ve özet formatını standardize edin", "text": "Call summary için 1–2 paragraf özet + aksiyon maddeleri şablonu belirleyin; agent’in kontrol edeceği alanları işaretleyin." },
+        { "@type": "HowToStep", "name": "PMS/CRM alan haritalamasını yapın", "text": "Tarih/oda/kişi/özel not gibi alanlar için field mapping oluşturun; zorunlu doğrulama kuralları ekleyin." },
+        { "@type": "HowToStep", "name": "Tag sözlüğünü sınırlı başlatın", "text": "8–12 tag ile fiyat itirazı, iptal kaygısı, transfer, upsell gibi temaları tanımlayın; gürültü yaratmayın." },
+        { "@type": "HowToStep", "name": "Pilot KPI ile ölçüp ölçekleyin", "text": "ACW süresi, not doğruluk oranı ve field completion KPI’larını 30 gün ölçün; agent onayı ve KVKK minimizasyonunu koruyarak ölçekleyin." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/cagri-merkezi#webpage",
+      "url": "https://dgtlface.com/tr/otel/cagri-merkezi",
+      "name": "Rezervasyon Çağrı Merkezi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme",
+      "headline": "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme",
+      "name": "2026’da Otel Çağrı Merkezleri İçin Privacy-First Yapı ve Numara Maskeleme",
+      "description": "2026’da numara maskeleme, rol bazlı erişim ve şeffaf kayıt politikalarıyla privacy-first bir çağrı merkezi kurgulayarak misafir iletişim bilgilerini korur; OTA/pazaryeri uyumunu sağlarken marka güvenini güçlendirebilirsiniz.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#article" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "Rezervasyon Çağrı Merkezi", "item": "https://dgtlface.com/tr/otel/cagri-merkezi" },
+        { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://dgtlface.com/tr/otel/blog" },
+        { "@type": "ListItem", "position": 5, "name": "Privacy-First & Numara Maskeleme (2026)", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Privacy-first çağrı merkezi ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir iletişim bilgisini minimumda tutan; numara maskeleme, rol bazlı erişim ve amaç odaklı kayıt saklama politikasıyla çalışan çağrı merkezi tasarımıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Numara maskeleme (number masking) oteller için nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir ve otel arasında proxy numaralar kullanılır; aramalar maskeli numara üzerinden yönlendirilir. Böylece gerçek numaralar uçlarda gereksiz yere görünmez ve takip case üzerinden yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA/pazaryeri üzerinden gelen maskeli aramalar nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kaynak (OTA) tag’lenir, follow-up proxy üzerinden yürütülür ve agent’lere maskeli arama eğitim standardı verilir. Yetki sınırları ve prosedürler yazılı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı kayıtlarına erişimi ve saklama sürelerini nasıl belirlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol bazlı erişim matrisi oluşturup erişimi loglayın; saklama süresini amaç odaklı tanımlayın ve raporlarda anonimleştirme uygulayın. Detaylar için KVKK çerçevesinde hukuki danışmanlık alınmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#howto",
+      "name": "Otel çağrı merkezinde privacy-first numara maskeleme modeli nasıl kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Maskeli arama akışını tanımlayın", "text": "Inbound/outbound proxy numara akışını çizip OTA maskeli arama senaryolarını standardize edin." },
+        { "@type": "HowToStep", "name": "Erişim matrisi ve saklama politikasını yazın", "text": "Kayıt erişimini rol bazlı belirleyin, loglayın; saklama amacı ve süresini amaç odaklı tanımlayın." },
+        { "@type": "HowToStep", "name": "Veri minimizasyonunu uygulayın", "text": "Agent ekranında gereksiz numara görünürlüğünü kaldırın; notlarda numara yazmayı engelleyin; raporlarda anonimleştirme kullanın." },
+        { "@type": "HowToStep", "name": "Şeffaf iletişim ve eğitim kurun", "text": "Misafire kısa bilgilendirme metni yayınlayın; agent’lere maskeli arama ve politika eğitimini verin; aylık denetim ritmi oluşturun." }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+}
 
     }
   },
