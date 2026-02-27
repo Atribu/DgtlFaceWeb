@@ -12711,8 +12711,8 @@ export const BLOG_MEDIA_MAP = {
 
     "divider-04": {
       src: "/images/blog/hotel/Hotel6-25/Hotel6-25-4.webp",
-      alt: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse",
-      caption: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görse"
+      alt: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görsel",
+      caption: "OTA maskeli aramalar ve kayıt erişim politikası ayırıcı görsel"
     },
 
      "diagram-05": {
@@ -12737,6 +12737,264 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel6-25/Hotel6-25-8.webp",
       alt: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı",
       caption: "Numara maskeleme akış ve kayıt saklama politikası deliverables kartı"
+    }
+  },
+
+
+  "otel-seo-entity-graph-ve-schema-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-1.webp",
+      alt: "Otel SEO’da Entity Graph ve Schema: Google’a Sadece Kelime Değil, Otelini Anlat",
+      caption: "Otel SEO’da Entity Graph ve Schema: Google’a Sadece Kelime Değil, Otelini Anlat"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-2.webp",
+      alt: "Otel varlık modeli + oda/destinasyon ilişkileri + direct booking bağlamı",
+      caption: "Otel varlık modeli + oda/destinasyon ilişkileri + direct booking bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-3.webp",
+      alt: "Entity-first yaklaşım + otel kimliği + SEO/Travel bağlamı",
+      caption: "Entity-first yaklaşım + otel kimliği + SEO/Travel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-4.webp",
+      alt: "Schema katmanları + @graph iskeleti + otel varlık modeli",
+      caption: "Schema katmanları + @graph iskeleti + otel varlık modeli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-5.webp",
+      alt: "Hotel entity graph diyagramı: otel–oda–destinasyon–aktivite ilişkileri",
+      caption: "Hotel entity graph diyagramı: otel–oda–destinasyon–aktivite ilişkileri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-6.webp",
+      alt: "7 entity aksiyonu checklist + hızlı uygulama",
+      caption: "7 entity aksiyonu checklist + hızlı uygulama"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-7.webp",
+      alt: "Rich results sağlık + Travel tutarlılık KPI kartı",
+      caption: "Rich results sağlık + Travel tutarlılık KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-6/Hotel1-6-8.webp",
+      alt: "Blueprint + audit çıktıları + güven unsuru",
+      caption: "Blueprint + audit çıktıları + güven unsuru"
+    }
+  },
+
+
+
+  "pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-1.webp",
+      alt: "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji",
+      caption: "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-2.webp",
+      alt: "Talep→keyword→içerik→rezervasyon akışı + revenue bakışı",
+      caption: "Talep→keyword→içerik→rezervasyon akışı + revenue bakışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-3.webp",
+      alt: "Keyword tool sınırı + gerçek talep yaklaşımı + otel revenue bağlamı",
+      caption: "Keyword tool sınırı + gerçek talep yaklaşımı + otel revenue bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-4.webp",
+      alt: "Booking window/LOS segmentleri + içerik takvimi + pazar kırılımı",
+      caption: "Booking window/LOS segmentleri + içerik takvimi + pazar kırılımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-5.webp",
+      alt: "PMS/OTA veri → demand → keyword → içerik → rezervasyon akışı",
+      caption: "PMS/OTA veri → demand → keyword → içerik → rezervasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-6.webp",
+      alt: "PMS’ten indirilecek 10 kolon checklist + hızlı analiz",
+      caption: "PMS’ten indirilecek 10 kolon checklist + hızlı analiz"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-7.webp",
+      alt: "SEO + satış + RevPAR KPI kartı",
+      caption: "SEO + satış + RevPAR KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-7/Hotel1-7-8.webp",
+      alt: "Keyword & içerik haritası + dashboard mockup + deliverables",
+      caption: "Keyword & içerik haritası + dashboard mockup + deliverables"
+    }
+  },
+
+
+
+   "otel-seo-sss-ile-voice-search-ve-aeo-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-1.webp",
+      alt: "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji",
+      caption: "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-2.webp",
+      alt: "Gerçek soru bankası + kısa cevap kartları + rezervasyona yönlendirme bağlamı",
+      caption: "Gerçek soru bankası + kısa cevap kartları + rezervasyona yönlendirme bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-3.webp",
+      alt: "Soru kaynakları haritası + PAA + call center verisi bağlamı",
+      caption: "Soru kaynakları haritası + PAA + call center verisi bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-4.webp",
+      alt: "PAA + gerçek soru eşleştirme + dönüşüm sürtünmesi azaltma",
+      caption: "PAA + gerçek soru eşleştirme + dönüşüm sürtünmesi azaltma"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-5.webp",
+      alt: "Gerçek soru → optimize cevap → ilgili sayfaya link funnel diyagramı",
+      caption: "Gerçek soru → optimize cevap → ilgili sayfaya link funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-6.webp",
+      alt: "AEO/voice SSS tasarım checklist + 5 kural",
+      caption: "AEO/voice SSS tasarım checklist + 5 kural"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-7.webp",
+      alt: "PAA/SGE görünürlüğü + basit soru azalması KPI kartı",
+      caption: "PAA/SGE görünürlüğü + basit soru azalması KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-8/Hotel1-8-8.webp",
+      alt: "100+ SSS seti + schema paketi + link planı deliverables",
+      caption: "100+ SSS seti + schema paketi + link planı deliverables"
+    }
+  },
+
+
+
+  "otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-1.webp",
+      alt: "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli",
+      caption: "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-2.webp",
+      alt: "Brand/Generic/Experience örnekleri + doğru sayfa türleri + iç link akışı",
+      caption: "Brand/Generic/Experience örnekleri + doğru sayfa türleri + iç link akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-3.webp",
+      alt: "Tek liste sorunu + niyet katmanları + otel SEO bağlamı",
+      caption: "Tek liste sorunu + niyet katmanları + otel SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-4.webp",
+      alt: "Generic rekabet + destinasyon/konsept landing + otel farklılaşması",
+      caption: "Generic rekabet + destinasyon/konsept landing + otel farklılaşması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-5.webp",
+      alt: "3 katmandan iç linklenen topic cluster yapısı diyagramı",
+      caption: "3 katmandan iç linklenen topic cluster yapısı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-6.webp",
+      alt: "3 katman kuralları checklist + sayfa türü eşlemesi",
+      caption: "3 katman kuralları checklist + sayfa türü eşlemesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-7.webp",
+      alt: "Brand/Generic/Experience KPI paneli",
+      caption: "Brand/Generic/Experience KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-9/Hotel1-9-8.webp",
+      alt: "Otele özel 3 katmanlı harita + blueprint deliverables",
+      caption: "Otele özel 3 katmanlı harita + blueprint deliverables"
+    }
+  },
+
+
+  "otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-1.webp",
+      alt: "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli",
+      caption: "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-2.webp",
+      alt: "Brand/Generic/Experience örnekleri + doğru sayfa türleri + iç link akışı",
+      caption: "Brand/Generic/Experience örnekleri + doğru sayfa türleri + iç link akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-3.webp",
+      alt: "Tek liste sorunu + niyet katmanları + otel SEO bağlamı",
+      caption: "Tek liste sorunu + niyet katmanları + otel SEO bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-4.webp",
+      alt: "Generic rekabet + destinasyon/konsept landing + otel farklılaşması",
+      caption: "Generic rekabet + destinasyon/konsept landing + otel farklılaşması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-5.webp",
+      alt: "3 katmandan iç linklenen topic cluster yapısı diyagramı",
+      caption: "3 katmandan iç linklenen topic cluster yapısı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-6.webp",
+      alt: "3 katman kuralları checklist + sayfa türü eşlemesi",
+      caption: "3 katman kuralları checklist + sayfa türü eşlemesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-7.webp",
+      alt: "Brand/Generic/Experience KPI paneli",
+      caption: "Brand/Generic/Experience KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-10/Hotel1-10-8.webp",
+      alt: "Otele özel 3 katmanlı harita + blueprint deliverables",
+      caption: "Otele özel 3 katmanlı harita + blueprint deliverables"
     }
   },
 

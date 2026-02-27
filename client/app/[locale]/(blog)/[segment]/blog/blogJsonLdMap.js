@@ -31846,6 +31846,528 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+
+//hotel1-6
+"otel-seo-entity-graph-ve-schema-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi",
+      "name": "Otel SEO’da Entity Graph ve Schema: Google’a Sadece Kelime Değil, Otelini Anlat",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Hotel Entity" },
+        { "@type": "Thing", "name": "Room Type" },
+        { "@type": "Thing", "name": "Destination" },
+        { "@type": "Thing", "name": "Amenity" },
+        { "@type": "Thing", "name": "Google Travel" },
+        { "@type": "Thing", "name": "OTA Listings" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#article",
+      "headline": "Otel SEO’da Entity Graph ve Schema: Google’a Sadece Kelime Değil, Otelini Anlat",
+      "description": "Entity SEO ile otelinizi makineye anlatın: Hotel/Room/FAQ/LocalBusiness schema, sameAs tutarlılığı ve triple’larla entity graph kurun; Travel/Hotel Pack ve direct booking’i güçlendirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "hotel entity graph seo" },
+        { "@type": "Thing", "name": "hotel room schema markup guide" },
+        { "@type": "Thing", "name": "google travel hotel entity optimisation" }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#localbusiness",
+      "name": "Varsayım: Örnek Otel Adı",
+      "telephone": "Varsayım: +90XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR",
+        "addressLocality": "Antalya",
+        "streetAddress": "Varsayım: Örnek Adres"
+      }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/otel/seo#hotel-entity",
+      "name": "Varsayım: Örnek Otel Adı",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR",
+        "addressLocality": "Antalya",
+        "streetAddress": "Varsayım: Örnek Adres"
+      },
+      "telephone": "Varsayım: +90XXXXXXXXXX",
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Spa", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Golf", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "All Inclusive", "value": true }
+      ],
+      "containedInPlace": {
+        "@type": "Place",
+        "name": "Antalya"
+      },
+      "sameAs": [
+        "Varsayım: https://www.google.com/maps?cid=XXXX",
+        "Varsayım: https://www.booking.com/hotel/xx/xxxxxx.html"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Otel SEO’da Entity Graph ve Schema", "item": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-entity-graph-ve-schema-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel SEO’da schema ve entity ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entity ve schema, otelinizi makineye ‘varlık’ olarak anlatır; nerede olduğu, ne sunduğu ve hangi bağlamlarda arandığı netleşir, Travel/Hotel Pack tutarlılığı güçlenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hotel / Room / FAQ schema’yı nasıl kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WebSite/WebPage/Article katmanını, Hotel varlığı ve uygun sayfalarda Room/FAQPage ile tek bir @graph içinde kurun; Hotel entity için tek @id kullanıp tüm sayfalarda bunu referanslayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA, Google My Business ve web sitemdeki bilgiler nasıl tutarlı olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İsim/adres/telefon (NAP) birebir aynı formatta olmalı ve sameAs bağlantıları resmi profillere gitmelidir; oda tipleri ve konseptler için tek bir sözlük kullanmak çelişkileri azaltır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye",
+      "name": "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "PMS Data" },
+        { "@type": "Thing", "name": "OTA Demand" },
+        { "@type": "Thing", "name": "Booking Window" },
+        { "@type": "Thing", "name": "LOS" },
+        { "@type": "Thing", "name": "RevPAR" },
+        { "@type": "Thing", "name": "Direct Booking" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#article",
+      "headline": "PMS & OTA Verisi ile Otel SEO: Anahtar Kelime Değil, Gerçek Talep Üzerinden Strateji",
+      "description": "Keyword tool yerine gerçek talep: PMS/OTA verisinden booking window, LOS, ülke ve oda tipini okuyun; talep→keyword→içerik→rezervasyon zinciriyle RevPAR’ı destekleyin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "hotel seo pms data driven" },
+        { "@type": "Thing", "name": "ota demand signals for seo" },
+        { "@type": "Thing", "name": "booking window based content calendar" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "Otel SEO",
+      "url": "https://dgtlface.com/tr/otel/seo",
+      "name": "Otel SEO"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "PMS & OTA Verisi ile Otel SEO", "item": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel SEO’da PMS ve OTA verisi nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’ten booking window, LOS, ülke ve oda tipi gibi satış davranışı sinyallerini çıkarıp segmentleyin; OTA trend sinyalleriyle karşılaştırın ve segmentleri keyword/cluster ile landing planına çevirip blog→oda→booking zinciri kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking window ve LOS verisini içerik takvimine nasıl çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uzun booking window’da erken rezervasyon ve planlama rehberleri, kısa booking window’da son dakika ve hızlı karar içerikleri üretin; LOS yüksekse program/rehber, LOS düşükse kısa kaçamak içeriklerini öne çıkarın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO raporunu RevPAR ve kanal karmasıyla birlikte nasıl okurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organik trafiği pazar bazında kırın, blog→oda→booking funnel metriklerini izleyin ve aynı dönemde RevPAR/ADR ile kanal karmasını yan yana okuyarak içerik setlerinin gelir etkisini takip edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-seo-sss-ile-voice-search-ve-aeo-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi",
+      "name": "Otel SEO’da SSS (FAQ) ile Voice Search ve AEO: Misafir Sormadan Önce Cevap Vermek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "FAQ" },
+        { "@type": "Thing", "name": "Voice Search" },
+        { "@type": "Thing", "name": "AEO" },
+        { "@type": "Thing", "name": "People Also Ask" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Destination" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#article",
+      "headline": "Otel SEO’da SSS (FAQ) ile Voice Search ve AEO: Misafir Sormadan Önce Cevap Vermek",
+      "description": "Call center/OTA sorularını AEO ve voice’a çevirin. Konuşma dilinde 1–2 cümle cevaplar, FAQPage + speakable schema ve iç linklerle PAA/SGE görünürlüğü ve direct booking’i güçlendirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "hotel faq schema aeo" },
+        { "@type": "Thing", "name": "voice search questions for hotels" },
+        { "@type": "Thing", "name": "use call center faqs for seo" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "Otel SEO",
+      "url": "https://dgtlface.com/tr/otel/seo",
+      "name": "Otel SEO"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Otel SEO’da SSS ile Voice Search ve AEO", "item": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-sss-ile-voice-search-ve-aeo-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Antalya’da çocukla tatile en uygun aylar hangisi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genelde aileler için hava ve yoğunluk dengesi ilkbahar sonu ve sonbahar başında daha rahattır; yazın ise daha kalabalık olabilir. Planınızı tarih ve konseptinize göre netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her şey dâhil konseptiniz neleri kapsıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her şey dâhil kapsamı paket ve döneme göre değişebilir; ana öğünler ve belirli içecekler genelde dahildir. En güncel kapsamı teklif/rezervasyon sayfasında görebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda fiyatına neler dâhil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda fiyatına dahil olanlar seçtiğiniz oda tipi ve rate plan’a göre değişir; bazı paketlerde kahvaltı veya ek hizmetler bulunur. Detayı oda sayfasında ve rezervasyon ekranında görebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal ve iade politikanız nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İptal koşulları seçilen pakete göre (esnek/iadesiz) farklıdır. Rezervasyon öncesi teklif sayfasındaki koşulları kontrol etmeniz en doğru yöntemdir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience",
+      "name": "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Brand Keywords" },
+        { "@type": "Thing", "name": "Generic Hotel Keywords" },
+        { "@type": "Thing", "name": "Experience-Based Queries" },
+        { "@type": "Thing", "name": "Funnel" },
+        { "@type": "Thing", "name": "Page Types" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#article",
+      "headline": "Otel SEO’da 3 Katmanlı Anahtar Kelime Haritası: Brand / Generic / Experience Modeli",
+      "description": "Tek liste yerine 3 katmanlı harita kurun: Brand’i koru, generic’te görün, experience aramalarında fark yarat. Her katmanı doğru sayfa türüne bağlayıp direct booking funnel’ını büyütün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "hotel brand vs generic keywords" },
+        { "@type": "Thing", "name": "experience based queries for resorts" },
+        { "@type": "Thing", "name": "3 layer keyword strategy for hotels" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "3 Katmanlı Anahtar Kelime Haritası", "item": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel SEO’da hangi tür anahtar kelimelere odaklanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand, generic ve experience olmak üzere üç katmana odaklanın. Brand talebi korur, generic görünürlük sağlar, experience ise yeni talep yaratıp direct booking’e taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand, generic ve experience keyword’leri nasıl ayırt ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand sorguları otel adınızı içerir; generic sorgular destinasyon+otel türü gibi geneldir; experience sorguları ise aile, balayı, golf, spa gibi deneyim niyetlerini içerir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her katman için hangi sayfa ve içerik türü uygundur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand için anasayfa/brand sayfaları, generic için destinasyon/konsept landing ve hub’lar, experience için blog rehberleri + cluster landing’leri uygundur; SSS blokları dönüşüm sayfalarında risk azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3 katmanlı keyword haritasını funnel ile nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand’i BoFu, generic’i MoFu/BoFu, experience’ı ToFu/MoFu olarak konumlandırın; blog/rehber içerikleri oda/teklif sayfalarına iç linkle bağlayıp blog→oda→rezervasyon akışını ölçün."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak",
+      "name": "Otel SEO Performansını Satış ve RevPAR ile Aynı Panelde Okumak",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "SEO Performance" },
+        { "@type": "Thing", "name": "Direct Bookings" },
+        { "@type": "Thing", "name": "RevPAR" },
+        { "@type": "Thing", "name": "Channel Mix" },
+        { "@type": "Thing", "name": "Organic Revenue" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#article",
+      "headline": "Otel SEO Performansını Satış ve RevPAR ile Aynı Panelde Okumak",
+      "description": "Sıralama yetmez. GA4 + Search Console + PMS’yi Looker Studio’da birleştirip organik direct rezervasyon, organik gelir ve RevPAR katkısını görün. SEO→Talep→Gelir köprüsünü kurun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "measure hotel seo by revenue" },
+        { "@type": "Thing", "name": "organic direct booking revpar impact" },
+        { "@type": "Thing", "name": "seo sales dashboard for hotels" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "Otel SEO",
+      "url": "https://dgtlface.com/tr/otel/seo",
+      "name": "Otel SEO"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "SEO Performansını Satış ve RevPAR ile Okumak", "item": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel SEO performansını nasıl ölçmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sıralama ve trafik yerine organik direct rezervasyon, organik gelir ve RevPAR katkısına bakın; bunları brand/generic/experience payları ve kanal karmasıyla birlikte okumak en doğru çerçevedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sadece sıralama/tık yerine hangi SEO KPI’larına bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organik direct rezervasyon, organik gelir, organik RevPAR katkısı, landing page bazlı dönüşüm ve brand/generic/experience payları temel KPI setidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO’dan gelen trafiğin kaç tanesi rezervasyona dönüyor, nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4’te booking event’lerini izleyin ve landing page bazında raporlayın; PMS verisiyle rezervasyon ve gelir doğrulaması yaparak organik direct katkısını netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO katkısını RevPAR ve kanal karmasıyla birlikte nasıl okurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organik trafik/rezervasyon trendini direct vs OTA payı ve RevPAR ile aynı dönemde yan yana koyun; SEO aksiyonları sonrası direct payın büyüyüp büyümediğini takip edin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

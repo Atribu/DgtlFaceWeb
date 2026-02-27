@@ -312,7 +312,17 @@ export const BLOG_MAP = {
     "2026-ses-analitigi-ve-duygu-analizi-ile-canli-coaching":"BlogOtel2026SesAnalitigiVeDuyguAnaliziIleCanliCoaching",
     "2026-uzaktan-calisan-rezervasyon-ekipleri-ve-hibrit-model":"BlogOtel2026UzaktanCalisanRezervasyonEkipleriVeHibritModel",
     "2026-yapay-zeka-otomatize-konusma-ozetleri-ve-call-notes":"BlogOtel2026YapayZekaOtomatizeKonusmaOzetleriVeCallNotes",
-    "2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":"Blog2026OtelCagriMerkeziIcinPrivacyFirstVeNumaraMaskeleme"
+    "2026-otel-cagri-merkezi-icin-privacy-first-ve-numara-maskeleme":"Blog2026OtelCagriMerkeziIcinPrivacyFirstVeNumaraMaskeleme",
+
+
+
+
+
+    "otel-seo-entity-graph-ve-schema-stratejisi":"BlogOtelEntityGraphVeSchemaStratejisi",
+    "pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye":"BlogPmsOtaVerisiIleOtelSeoStratejisiTurizmTaleptenAnahtarKelimeye",
+    "otel-seo-sss-ile-voice-search-ve-aeo-stratejisi":"BlogOtelSeoSssIleVoiceSearchVeAeoStratejisi",
+    "otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience":"BlogOtelSeoIcinUcKatmanliAnahtarKelimeHaritasiBrandGenericExperience",
+    "otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":"BlogOtelSeoPerformansiniSatisVeRevparIleAyniPaneldeOkumak"
     
   }
 };
