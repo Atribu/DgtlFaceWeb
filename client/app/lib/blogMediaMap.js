@@ -12998,6 +12998,56 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+  "otel-brand-serp-ve-knowledge-panel-optimizasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-1.webp",
+      alt: "Otel Brand SERP ve Knowledge Panel Optimizasyonu: “Otel Adı” Aramasını Tamamen Sahiplenmek",
+      caption: "Otel Brand SERP ve Knowledge Panel Optimizasyonu: “Otel Adı” Aramasını Tamamen Sahiplenmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-2.webp",
+      alt: "İdeal brand SERP akışı + direct tıklama hedefi + otel bağlamı",
+      caption: "İdeal brand SERP akışı + direct tıklama hedefi + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-3.webp",
+      alt: "Brand SERP bileşenleri + direct click share hedefi + otel bağlamı",
+      caption: "Brand SERP bileşenleri + direct click share hedefi + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-4.webp",
+      alt: "Knowledge Panel kontrol alanları + GBP hijyen checklist’i",
+      caption: "Knowledge Panel kontrol alanları + GBP hijyen checklist’i"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-5.webp",
+      alt: "Brand SERP bileşen akışı (site+panel+reviews+OTA)",
+      caption: "Brand SERP bileşen akışı (site+panel+reviews+OTA)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-6.webp",
+      alt: "İdeal brand SERP checklist + Knowledge Panel 10 alan",
+      caption: "İdeal brand SERP checklist + Knowledge Panel 10 alan"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-7.webp",
+      alt: "Direct click share + panel görünürlüğü KPI kartı",
+      caption: "Direct click share + panel görünürlüğü KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-11/Hotel1-11-8.webp",
+      alt: "Brand SERP iyileştirme planı + deliverables",
+      caption: "Brand SERP iyileştirme planı + deliverables"
+    }
+  }
+
 
 };
 

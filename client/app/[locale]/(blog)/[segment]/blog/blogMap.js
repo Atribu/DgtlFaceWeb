@@ -322,7 +322,9 @@ export const BLOG_MAP = {
     "pms-ota-verisi-ile-otel-seo-stratejisi-turizm-talepten-anahtar-kelimeye":"BlogPmsOtaVerisiIleOtelSeoStratejisiTurizmTaleptenAnahtarKelimeye",
     "otel-seo-sss-ile-voice-search-ve-aeo-stratejisi":"BlogOtelSeoSssIleVoiceSearchVeAeoStratejisi",
     "otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience":"BlogOtelSeoIcinUcKatmanliAnahtarKelimeHaritasiBrandGenericExperience",
-    "otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":"BlogOtelSeoPerformansiniSatisVeRevparIleAyniPaneldeOkumak"
+    "otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":"BlogOtelSeoPerformansiniSatisVeRevparIleAyniPaneldeOkumak",
+
+    "otel-brand-serp-ve-knowledge-panel-optimizasyonu":"BlogOtelBrandSERPVeKnowledgePanelOptimizasyonu"
     
   }
 };

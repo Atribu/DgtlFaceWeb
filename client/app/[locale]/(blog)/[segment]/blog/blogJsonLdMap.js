@@ -32368,6 +32368,118 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-brand-serp-ve-knowledge-panel-optimizasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu",
+      "name": "Otel Brand SERP ve Knowledge Panel Optimizasyonu: “Otel Adı” Aramasını Tamamen Sahiplenmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Brand SERP" },
+        { "@type": "Thing", "name": "Knowledge Panel" },
+        { "@type": "Thing", "name": "Google Business Profile" },
+        { "@type": "Thing", "name": "OTA Listings" },
+        { "@type": "Thing", "name": "Direct Click Share" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#article",
+      "headline": "Otel Brand SERP ve Knowledge Panel Optimizasyonu: “Otel Adı” Aramasını Tamamen Sahiplenmek",
+      "description": "“Otel adı” aramasını sahiplenin. GBP + web + OTA tutarlılığı, Knowledge Panel/Travel varlığı, SSS+review schema ve media ile direct tıklama payını büyütün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dgtlface.com/tr/#localbusiness",
+      "name": "Varsayım: Örnek Otel Adı",
+      "telephone": "Varsayım: +90XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR",
+        "addressLocality": "Antalya",
+        "streetAddress": "Varsayım: Örnek Adres"
+      }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "telephone": "Varsayım: +90XXXXXXXXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR",
+        "addressLocality": "Antalya",
+        "streetAddress": "Varsayım: Örnek Adres"
+      },
+      "url": "https://dgtlface.com/tr/",
+      "sameAs": [
+        "Varsayım: https://www.google.com/maps?cid=XXXX",
+        "Varsayım: https://www.booking.com/hotel/xx/xxxxxx.html",
+        "Varsayım: https://www.instagram.com/xxxx"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Brand SERP & Knowledge Panel Optimizasyonu", "item": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-serp-ve-knowledge-panel-optimizasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Brand SERP nedir, oteller için neden bu kadar kritik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand SERP, “otel adı” aramasında web, sitelink, panel, OTA ve review sonuçlarının toplamıdır. Bu sorgu yüksek niyetli olduğu için direct tıklama payını doğrudan etkiler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Knowledge Panel’de neleri kontrol edebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NAP bilgileri, web sitesi linki, kategori, fotoğraflar ve hizmet/özellik alanları büyük ölçüde GBP ve tutarlı kaynaklar üzerinden şekillenir; en kritik konu web/GBP/OTA bilgilerinin birebir uyumudur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand sorgularında direct tıklama payını nasıl artırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sitelink’leri doğru sayfalara yönlendirin, brand sayfasında belirsizliği SSS ile kapatın ve GBP/panel bilgilerini güncel tutun; direct click share KPI’ı koyup düzenli takip edin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }
