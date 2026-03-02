@@ -33007,7 +33007,196 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"otel-site-tasima-ve-rebrand-seo-migrasyonu":{}
+"otel-site-tasima-ve-rebrand-seo-migrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu",
+      "name": "Otel Site Taşıma ve Rebrand SEO Migrasyonu: Doluluk Kaybetmeden Yenilenmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Domain Migration" },
+        { "@type": "Thing", "name": "Rebrand" },
+        { "@type": "Thing", "name": "Redirects" },
+        { "@type": "Thing", "name": "Google Business Profile" },
+        { "@type": "Thing", "name": "OTA Sync" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#article",
+      "headline": "Otel Site Taşıma ve Rebrand SEO Migrasyonu: Doluluk Kaybetmeden Yenilenmek",
+      "description": "Domain/URL değişiminde doluluk kaybetmeyin. URL envanteri, 301 mapping, sitemap+schema, GBP/OTA senkronu ve 30 gün KPI izleme ile SEO otoritesini koruyun.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "SEO Migration & Rebrand",
+      "name": "Otel SEO Migrasyonu ve Rebrand Planlama",
+      "url": "https://dgtlface.com/tr/otel/seo"
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Site Taşıma ve Rebrand SEO Migrasyonu", "item": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-site-tasima-ve-rebrand-seo-migrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bir otel web sitesini yeni domaine taşırken SEO nasıl korunur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "URL envanteri çıkarıp old→new mapping yapın ve tüm kritik sayfaları birebir 301 ile yönlendirin; sitemap/canonical/schema’yı yeni domain’e taşıyıp yayın sonrası 30 gün KPI ve hata izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rebrand sürecinde otel adı değişirse Google ve OTA kayıtlarını nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web, GBP ve ana OTA listing’lerde marka adı ve NAP bilgilerini tek formatta senkron güncelleyin; Knowledge Panel/Travel görünümünü kontrol edip sameAs ve schema ile tutarlılığı güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda ve paket URL’lerini değiştirirken 301 yönlendirmelerini nasıl planlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda→oda, paket→paket olacak şekilde en yakın niyet eşleşmesiyle birebir mapping yapın; toplu yönlendirmeleri ana sayfaya atmak yerine kullanıcıyı doğru sayfaya taşıyın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Migration sonrası SEO ve satış KPI’larını ne kadar süre izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En az T+30 izleyin: ilk 72 saatte 404/redirect ve index coverage, ilk 7 günde brand CTR ve kritik landing’ler, ilk 30 günde direct booking, kanal karması ve RevPAR trendi takip edilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler",
+      "name": "Pre-Opening Otel SEO: Otel Açılmadan 6–12 Ay Önce Yapılması Gerekenler",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Pre-Opening Hotel" },
+        { "@type": "Thing", "name": "Opening Date" },
+        { "@type": "Thing", "name": "Authority Building" },
+        { "@type": "Thing", "name": "Leads" },
+        { "@type": "Thing", "name": "Brand Queries" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#article",
+      "headline": "Pre-Opening Otel SEO: Otel Açılmadan 6–12 Ay Önce Yapılması Gerekenler",
+      "description": "Yeni oteli sıfır otoriteyle açmayın. Domain ve MVS siteyi erken kurun, destinasyon/konsept içerikleriyle talep yaratın; GBP/OTA hazırlığı ve 90 günlük roadmap ile açılışa hazır girin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#new-hotel",
+      "name": "Varsayım: Yeni Otel (Açılış Öncesi)",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Pre-Opening Otel SEO", "item": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pre-opening otel SEO’su nedir, neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel açılmadan önce domain, site ve içerikleri yayına alıp Google’da otorite ve talep biriktirme yaklaşımıdır; açılışa sıfır otoriteyle girmeyi engelleyerek direct booking’i hızlandırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel açılmadan ne kadar önce siteyi yayına almalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genelde 6–12 ay önce başlamak en güvenli aralıktır; minimum viable siteyi erken çıkarıp açılışa kadar içerik ve lead biriktirmek idealdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Açılış öncesi hangi SEO KPI’larını takip etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Indexlenmiş sayfa sayısı, organik görünürlük, lead sayısı, brand query trendi ve CTA tıklamaları temel KPI’lardır; açılış günündeki hazır talep düzeyini gösterir."
+          }
+        }
+      ]
+    }
+  ]
+}
 
     }
   },

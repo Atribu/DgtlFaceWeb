@@ -331,7 +331,8 @@ export const BLOG_MAP = {
     "creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu":"BlogOtelCreativeVeReelsIleOtelSeoSeoSmmCreativeEntegrasyonu",
 
     "360-otel-seo-audit-framework":"BlogOtel360OtelSeoAuditFramework",
-    "otel-site-tasima-ve-rebrand-seo-migrasyonu":"BlogOtelSiteTasimaVeRebrandSeoMigrasyonu"
+    "otel-site-tasima-ve-rebrand-seo-migrasyonu":"BlogOtelSiteTasimaVeRebrandSeoMigrasyonu",
+    "pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler":"BlogPreOpeningOtelSeoOtelAcilmadan6_12AyOnceYapilmasiGerekenler"
     
   }
 };

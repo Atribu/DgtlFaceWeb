@@ -13354,6 +13354,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mapping tablosu + dashboard + sprint deliverables",
       caption: "Mapping tablosu + dashboard + sprint deliverables"
     }
+  },
+
+
+   "pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-1.webp",
+      alt: "Pre-Opening Otel SEO: Otel Açılmadan 6–12 Ay Önce Yapılması Gerekenler",
+      caption: "Pre-Opening Otel SEO: Otel Açılmadan 6–12 Ay Önce Yapılması Gerekenler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-2.webp",
+      alt: "T-365→T+90 zaman çizelgesi + yapılacaklar + direkt rezervasyon hedefi",
+      caption: "T-365→T+90 zaman çizelgesi + yapılacaklar + direkt rezervasyon hedefi"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-3.webp",
+      alt: "Pre-opening SEO’nun rolü + otorite biriktirme + lansman bağlamı",
+      caption: "Pre-opening SEO’nun rolü + otorite biriktirme + lansman bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-4.webp",
+      alt: "6 adım checklist + MVS site + lead planı",
+      caption: "6 adım checklist + MVS site + lead planı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-5.webp",
+      alt: "Pre-opening timeline (T-365/T-180/T-90/T+30)",
+      caption: "Pre-opening timeline (T-365/T-180/T-90/T+30)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-6.webp",
+      alt: "T-365’ten T+90’a pre-opening SEO aksiyonları checklist",
+      caption: "T-365’ten T+90’a pre-opening SEO aksiyonları checklist"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-7.webp",
+      alt: "Index + görünürlük + lead + brand query KPI kartı",
+      caption: "Index + görünürlük + lead + brand query KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-18/Hotel1-18-8.webp",
+      alt: "MVS wireframe + içerik planı + roadmap deliverables",
+      caption: "MVS wireframe + içerik planı + roadmap deliverables"
+    }
   }
 
 
