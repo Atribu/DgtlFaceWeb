@@ -2,7 +2,6 @@ import dynamic from "next/dynamic";
 import { AiAnswerBlock } from "../common/AiAnswerBlock";
 import { AiSourceMention } from "../common/AiSourceMention";
 import { useTranslations } from "next-intl";
-// import HomeBlogShowcase from "./HomeBlogShowcase";
 import ViewportLazyMount from "./ViewportLazyMount";
 
 const Section4 = dynamic(() => import("../../components/Section4/Section4"));
@@ -17,6 +16,7 @@ const QuestionsSection2 = dynamic(() =>
 );
 const Section3List = dynamic(() => import("../../Services/Section3/Section3List"));
 const H2Section = dynamic(() => import("./H2Section"));
+const HomeBlogShowcase = dynamic(() => import("./HomeBlogShowcase"));
 
 export default function HomePage() {
     const t = useTranslations("Homepage");
@@ -33,10 +33,12 @@ export default function HomePage() {
   return (
     <main className="flex flex-col justify-center items-center ">
       <div className="flex flex-col w-full items-center gap-[30px] lg:gap-[48px]">
-         <ViewportLazyMount rootMargin="0px 0px" threshold={0.18} minHeight={260} className="w-full">
+        <ViewportLazyMount rootMargin="0px 0px" threshold={0.18} minHeight={260} className="w-full">
           <Section4 />
         </ViewportLazyMount>
-         {/* <HomeBlogShowcase limit={10} heroCount={5} showHero /> */}
+        <ViewportLazyMount rootMargin="120px 0px" threshold={0.01} minHeight={340} className="w-full">
+          <HomeBlogShowcase limit={10} />
+        </ViewportLazyMount>
 
         <ViewportLazyMount rootMargin="20px 0px" threshold={0.2} minHeight={900} className="w-full">
           <H2Section />
