@@ -13,6 +13,14 @@ import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
 
+const HASH_SCROLL_OFFSET_PX = 80;
+const HASH_SCROLL_RETRY_LIMIT = 12;
+const HASH_SCROLL_RETRY_DELAY_MS = 80;
+const ROOT_FAQ_SLUG_BY_LOCALE = {
+  tr: "sss",
+  en: "faq",
+};
+
 const faqMessagesByLocaleCache = {};
 
 function normalizeLocale(locale) {
@@ -213,6 +221,23 @@ const slug = normalizeSlugByLocale(rawSlug, locale);
   return baseHref;
 }
 
+function scrollHashTargetWithOffset(offsetPx = HASH_SCROLL_OFFSET_PX) {
+  if (typeof window === "undefined") return true;
+
+  const rawHash = window.location.hash;
+  if (!rawHash || rawHash === "#") return true;
+
+  const targetId = decodeURIComponent(rawHash.slice(1));
+  if (!targetId) return true;
+
+  const targetEl = document.getElementById(targetId);
+  if (!targetEl) return false;
+
+  const top = targetEl.getBoundingClientRect().top + window.scrollY - offsetPx;
+  window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
+  return true;
+}
+
 export default function SearchBanner({ faqSlug }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -247,15 +272,44 @@ export default function SearchBanner({ faqSlug }) {
     };
   }, [locale]);
 
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined;
+
+    let retryCount = 0;
+    let retryTimer = null;
+
+    const runHashScroll = () => {
+      if (scrollHashTargetWithOffset()) return;
+      if (retryCount >= HASH_SCROLL_RETRY_LIMIT) return;
+
+      retryCount += 1;
+      retryTimer = window.setTimeout(runHashScroll, HASH_SCROLL_RETRY_DELAY_MS);
+    };
+
+    runHashScroll();
+
+    const onHashChange = () => {
+      retryCount = 0;
+      if (retryTimer) window.clearTimeout(retryTimer);
+      runHashScroll();
+    };
+
+    window.addEventListener("hashchange", onHashChange);
+    return () => {
+      window.removeEventListener("hashchange", onHashChange);
+      if (retryTimer) window.clearTimeout(retryTimer);
+    };
+  }, [pathname]);
+
   // ns -> slug map (FaqBacklink -> backlink-sss gibi)
-  const NS_TO_SLUG = useMemo(() => {
+const NS_TO_SLUG = useMemo(() => {
   const inv = {};
   for (const [slug, ns] of Object.entries(FAQ_MAP || {})) {
     // Türkçe yorum: sadece o locale'e ait slug'ı ters map'e yaz
     if (locale === "en") {
-      if (slug.endsWith("-faq")) inv[ns] = slug;
+      if (slug === ROOT_FAQ_SLUG_BY_LOCALE.en || slug.endsWith("-faq")) inv[ns] = slug;
     } else {
-      if (slug.endsWith("-sss")) inv[ns] = slug;
+      if (slug === ROOT_FAQ_SLUG_BY_LOCALE.tr || slug.endsWith("-sss")) inv[ns] = slug;
     }
   }
   return inv;
