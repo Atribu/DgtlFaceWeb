@@ -324,7 +324,14 @@ export const BLOG_MAP = {
     "otel-seo-icin-uc-katmanli-anahtar-kelime-haritasi-brand-generic-experience":"BlogOtelSeoIcinUcKatmanliAnahtarKelimeHaritasiBrandGenericExperience",
     "otel-seo-performansini-satis-ve-revpar-ile-ayni-panelde-okumak":"BlogOtelSeoPerformansiniSatisVeRevparIleAyniPaneldeOkumak",
 
-    "otel-brand-serp-ve-knowledge-panel-optimizasyonu":"BlogOtelBrandSERPVeKnowledgePanelOptimizasyonu"
+    "otel-brand-serp-ve-knowledge-panel-optimizasyonu":"BlogOtelBrandSERPVeKnowledgePanelOptimizasyonu",
+    "otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji":"BlogOtelSeoVeCagriMerkeziVerisiGercekSorularlaStrateji",
+    "otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi":"BlogOtelGorselSeoGoogleImagesVeSgeIcinFotoVideoStratejisi",
+    "review-ve-yorum-seo-otel-reputation-entity":"BlogOtelReviewVeYorumSeoReputationEntity",
+    "creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu":"BlogOtelCreativeVeReelsIleOtelSeoSeoSmmCreativeEntegrasyonu",
+
+    "360-otel-seo-audit-framework":"BlogOtel360OtelSeoAuditFramework",
+    "otel-site-tasima-ve-rebrand-seo-migrasyonu":"BlogOtelSiteTasimaVeRebrandSeoMigrasyonu"
     
   }
 };

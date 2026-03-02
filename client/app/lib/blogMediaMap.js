@@ -13046,6 +13046,314 @@ export const BLOG_MEDIA_MAP = {
       alt: "Brand SERP iyileştirme planı + deliverables",
       caption: "Brand SERP iyileştirme planı + deliverables"
     }
+  },
+
+
+
+   "otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-1.webp",
+      alt: "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek",
+      caption: "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-2.webp",
+      alt: "Soru→SSS→sayfa→rezervasyon akışı + ekipler arası hizalama",
+      caption: "Soru→SSS→sayfa→rezervasyon akışı + ekipler arası hizalama"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-3.webp",
+      alt: "Keyword vs soru yaklaşımı + sürtünme azaltma + direct booking bağlamı",
+      caption: "Keyword vs soru yaklaşımı + sürtünme azaltma + direct booking bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-4.webp",
+      alt: "Soru havuzu çıkarma + kategori sistemi + operasyon onay akışı",
+      caption: "Soru havuzu çıkarma + kategori sistemi + operasyon onay akışı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-5.webp",
+      alt: "Soru→SSS→ilgili sayfa→rezervasyon funnel diyagramı",
+      caption: "Soru→SSS→ilgili sayfa→rezervasyon funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-6.webp",
+      alt: "100+ soru havuzu kurulum checklist + 5 kural",
+      caption: "100+ soru havuzu kurulum checklist + 5 kural"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-7.webp",
+      alt: "SSS okunma vs çağrı hacmi KPI paneli",
+      caption: "SSS okunma vs çağrı hacmi KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-12/Hotel1-12-8.webp",
+      alt: "SSS seti + script hizalama + raporlama deliverables",
+      caption: "SSS seti + script hizalama + raporlama deliverables"
+    }
+  },
+
+   "otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-1.webp",
+      alt: "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek",
+      caption: "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-2.webp",
+      alt: "Oda/deneyim görsel koleksiyonu + linkleme + rezervasyon yolu bağlamı",
+      caption: "Oda/deneyim görsel koleksiyonu + linkleme + rezervasyon yolu bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-3.webp",
+      alt: "Görsel SEO çarpan etkisi + otel karar süreci + SEO/funnel bağlamı",
+      caption: "Görsel SEO çarpan etkisi + otel karar süreci + SEO/funnel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-4.webp",
+      alt: "Images/Discover optimizasyonu + hız (CWV) + otel içerik bağlamı",
+      caption: "Images/Discover optimizasyonu + hız (CWV) + otel içerik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-5.webp",
+      alt: "Görsel/Video → ilgili sayfa → CTA → rezervasyon köprüsü",
+      caption: "Görsel/Video → ilgili sayfa → CTA → rezervasyon köprüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-6.webp",
+      alt: "Görsel SEO checklist (alt/dosya adı/boyut/format/link hedefi)",
+      caption: "Görsel SEO checklist (alt/dosya adı/boyut/format/link hedefi)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-7.webp",
+      alt: "Images/Discover oturumları + görsel→oda CTR KPI kartı",
+      caption: "Images/Discover oturumları + görsel→oda CTR KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-13/Hotel1-13-8.webp",
+      alt: "Görsel grid wireframe + schema örnekleri + deliverables",
+      caption: "Görsel grid wireframe + schema örnekleri + deliverables"
+    }
+  },
+
+
+
+   "review-ve-yorum-seo-otel-reputation-entity":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-1.webp",
+      alt: "Otel Review & Yorum SEO’su: İtibar ve SEO’yu Aynı Entity İçinde Yönetmek",
+      caption: "Otel Review & Yorum SEO’su: İtibar ve SEO’yu Aynı Entity İçinde Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-2.webp",
+      alt: "Yorum→tema→SSS/blog→rezervasyon akışı + güven/kanıt bağlamı",
+      caption: "Yorum→tema→SSS/blog→rezervasyon akışı + güven/kanıt bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-3.webp",
+      alt: "Yorumların SEO etkisi + Local Pack/Brand SERP + güven bağlamı",
+      caption: "Yorumların SEO etkisi + Local Pack/Brand SERP + güven bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-4.webp",
+      alt: "Review schema + entity güçlendirme + teknik hijyen bağlamı",
+      caption: "Review schema + entity güçlendirme + teknik hijyen bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-5.webp",
+      alt: "Review→tema→SSS/blog→landing→rezervasyon köprüsü",
+      caption: "Review→tema→SSS/blog→landing→rezervasyon köprüsü"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-6.webp",
+      alt: "Review tema çıkarma + içerik/scheme aksiyon checklist",
+      caption: "Review tema çıkarma + içerik/scheme aksiyon checklist"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-7.webp",
+      alt: "İtibar + SEO KPI kartları",
+      caption: "İtibar + SEO KPI kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-14/Hotel1-14-8.webp",
+      alt: "Tema haritası + schema örnekleri + deliverables",
+      caption: "Tema haritası + schema örnekleri + deliverables"
+    }
+  },
+
+
+  "creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-1.webp",
+      alt: "Creative & Reels ile Otel SEO: SEO, SMM ve Creative’i Aynı Funnel’da Birleştirmek",
+      caption: "Creative & Reels ile Otel SEO: SEO, SMM ve Creative’i Aynı Funnel’da Birleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-2.webp",
+      alt: "Search→Social→Site→Rezervasyon akışı + içerik/ölçüm düzeni",
+      caption: "Search→Social→Site→Rezervasyon akışı + içerik/ölçüm düzeni"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-3.webp",
+      alt: "SEO verisi → creative brief → Reels planı + otel funnel bağlamı",
+      caption: "SEO verisi → creative brief → Reels planı + otel funnel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-4.webp",
+      alt: "Video→landing bağlama standardı + 3 link kuralı + mobil-first",
+      caption: "Video→landing bağlama standardı + 3 link kuralı + mobil-first"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-5.webp",
+      alt: "SEO topic cluster → video/Reels storyboard → landing → booking",
+      caption: "SEO topic cluster → video/Reels storyboard → landing → booking"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-6.webp",
+      alt: "SEO’dan video fikri çıkarma + 3 link standardı checklist",
+      caption: "SEO’dan video fikri çıkarma + 3 link standardı checklist"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-7.webp",
+      alt: "SEO+SMM birleşik KPI kartları",
+      caption: "SEO+SMM birleşik KPI kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-15/Hotel1-15-8.webp",
+      alt: "İçerik planı + dashboard mockup + deliverables",
+      caption: "İçerik planı + dashboard mockup + deliverables"
+    }
+  },
+
+
+   "360-otel-seo-audit-framework":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-1.webp",
+      alt: "360° Otel SEO Audit Framework: Crawl’dan PMS’e Kadar Tam Denetim",
+      caption: "360° Otel SEO Audit Framework: Crawl’dan PMS’e Kadar Tam Denetim"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-2.webp",
+      alt: "Teknik+İçerik+Local+Data audit çemberi + aksiyon önceliği bağlamı",
+      caption: "Teknik+İçerik+Local+Data audit çemberi + aksiyon önceliği bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-3.webp",
+      alt: "360° audit katmanları + otel funnel bağlamı",
+      caption: "360° audit katmanları + otel funnel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-4.webp",
+      alt: "Brand SERP/Local Pack + OTA rekabeti + denetim bağlamı",
+      caption: "Brand SERP/Local Pack + OTA rekabeti + denetim bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-5.webp",
+      alt: "360° Otel SEO Audit Çemberi: Teknik→İçerik→Entity→Local→Data",
+      caption: "360° Otel SEO Audit Çemberi: Teknik→İçerik→Entity→Local→Data"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-6.webp",
+      alt: "Audit checklist + hızlı başlangıç + otel bağlamı",
+      caption: "Audit checklist + hızlı başlangıç + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-7.webp",
+      alt: "Indexlenebilirlik + CWV + brand click pay + organik direct booking KPI kartı",
+      caption: "Indexlenebilirlik + CWV + brand click pay + organik direct booking KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-16/Hotel1-16-8.webp",
+      alt: "Audit deliverables + 90 günlük plan + yönetim raporu",
+      caption: "Audit deliverables + 90 günlük plan + yönetim raporu"
+    }
+  },
+
+
+
+  "otel-site-tasima-ve-rebrand-seo-migrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-1.webp",
+      alt: "Otel Site Taşıma ve Rebrand SEO Migrasyonu: Doluluk Kaybetmeden Yenilenmek",
+      caption: "Otel Site Taşıma ve Rebrand SEO Migrasyonu: Doluluk Kaybetmeden Yenilenmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-2.webp",
+      alt: "Rebrand + domain değişimi süreci + T-30→T+30 kontrol akışı",
+      caption: "Rebrand + domain değişimi süreci + T-30→T+30 kontrol akışı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-3.webp",
+      alt: "Migrasyon risk alanları + otel SEO koruma adımları",
+      caption: "Migrasyon risk alanları + otel SEO koruma adımları"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-4.webp",
+      alt: "301 mapping mantığı + oda/teklif sayfa türleri",
+      caption: "301 mapping mantığı + oda/teklif sayfa türleri"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-5.webp",
+      alt: "T-30/T-7/T+1/T+30 zaman çizelgesi + 301+sitemap+schema akışı",
+      caption: "T-30/T-7/T+1/T+30 zaman çizelgesi + 301+sitemap+schema akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-6.webp",
+      alt: "Domain migration checklist + yayın öncesi test adımları",
+      caption: "Domain migration checklist + yayın öncesi test adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-7.webp",
+      alt: "Brand CTR + index coverage + direct booking + RevPAR KPI kartı",
+      caption: "Brand CTR + index coverage + direct booking + RevPAR KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-17/Hotel1-17-8.webp",
+      alt: "Mapping tablosu + dashboard + sprint deliverables",
+      caption: "Mapping tablosu + dashboard + sprint deliverables"
+    }
   }
 
 

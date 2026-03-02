@@ -32370,6 +32370,7 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
+//
 "otel-brand-serp-ve-knowledge-panel-optimizasyonu":{
   "@context": "https://schema.org",
   "@graph": [
@@ -32480,7 +32481,533 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji",
+      "name": "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "FAQ" },
+        { "@type": "Thing", "name": "Voice Search" },
+        { "@type": "Thing", "name": "AEO" },
+        { "@type": "Thing", "name": "Question Logs" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#article",
+      "headline": "Otel SEO + Çağrı Merkezi Verisi: Gerçek Misafir Sorularından Strateji Üretmek",
+      "description": "Call center/WhatsApp/OTA sorularından SEO üretin. Soru→SSS→içerik→oda/rezervasyon akışı, script hizalaması ve KPI raporu ile görünürlük artarken çağrı yükü azalabilir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" },
+      "about": [
+        { "@type": "Thing", "name": "use call center faqs for hotel seo" },
+        { "@type": "Thing", "name": "hotel faq from real questions" },
+        { "@type": "Thing", "name": "seo and call center script alignment" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "Otel SEO",
+      "url": "https://dgtlface.com/tr/otel/seo",
+      "name": "Otel SEO"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "SEO + Çağrı Merkezi Verisi", "item": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-seo-ve-cagri-merkezi-verisi-gercek-sorularla-strateji#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller SEO stratejisini çağrı merkezi verisiyle nasıl birleştirir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En çok sorulan soruları (call center/WhatsApp/OTA) toplayıp SSS ve blog başlıklarına çevirir, her cevabı ilgili sayfaya linkler ve aynı metni call center script’inde kullanarak hem görünürlüğü hem verimliliği artırabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafirlerin en çok sorduğu soruları SSS ve blog’a nasıl çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soruları tekilleştirip 5 kategoriye ayırın (fiyat/politika/ulaşım/konsept/oda). Her soru için 1–2 cümle net cevap yazın, mini özet ekleyin ve hedef sayfaya link verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SSS içerikleri call center aramalarını gerçekten azaltır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Garanti değildir; ancak tekrar eden basit sorular webde net cevaplanıp görünür hale geldiğinde bazı konularda çağrı hacmi düşebilir. Etkiyi SSS okunma ve konu bazlı çağrı hacmi korelasyonuyla izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ’ları script’lerle hizalamak SEO’ya nasıl katkı sağlar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web ve call center aynı dili konuştuğunda bilgi çelişkisi azalır ve güven artar; ayrıca net cevap blokları PAA/voice görünürlüğünü destekleyebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi",
+      "name": "Otel Görsel SEO: Google Images ve SGE İçin Fotoğraf & Video Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Visual SEO" },
+        { "@type": "Thing", "name": "ImageObject" },
+        { "@type": "Thing", "name": "VideoObject" },
+        { "@type": "Thing", "name": "Google Images" },
+        { "@type": "Thing", "name": "Discover" },
+        { "@type": "Thing", "name": "SGE" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#article",
+      "headline": "Otel Görsel SEO: Google Images ve SGE İçin Fotoğraf & Video Stratejisi",
+      "description": "Fotoğraf/video ile satılan oteller için görsel SEO şart. Alt text, dosya adı, WebP/AVIF, Image/VideoObject schema ve oda/deneyim linkleriyle Images/Discover/SGE’de görünürlüğü artırın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#image1",
+      "name": "Varsayım: Sea View Family Room",
+      "caption": "Sea view family room balkon manzarası",
+      "contentUrl": "https://dgtlface.com/assets/varsayim/antalya-sea-view-family-room-balkon.webp",
+      "fileFormat": "image/webp",
+      "about": [
+        { "@type": "Thing", "name": "RoomType" },
+        { "@type": "Thing", "name": "Sea View" }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#video1",
+      "name": "Varsayım: Aquapark deneyimi kısa tur",
+      "description": "Otel aquapark alanı ve aile deneyimi kısa video turu",
+      "thumbnailUrl": "https://dgtlface.com/assets/varsayim/aquapark-thumb.jpg",
+      "uploadDate": "2026-01-21",
+      "embedUrl": "https://www.youtube.com/embed/varsayim",
+      "about": [
+        { "@type": "Thing", "name": "Amenity" },
+        { "@type": "Thing", "name": "Aquapark" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Görsel SEO", "item": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-gorsel-seo-google-images-ve-sge-icin-foto-video-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel görsel SEO’su nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her görsel için anlamlı dosya adı ve kısa alt text yazın, WebP/AVIF kullanıp hız optimizasyonu yapın ve görselleri temsil ettiği oda/deneyim sayfasına bağlayın; Image/Video schema ile destekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda ve havuz fotoğraflarını Google için nasıl optimize etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda/havuz görsellerini konsept bazlı koleksiyonlarda yönetin; dosya adı ve alt text’te konsepti net söyleyin, doğru boyut/format kullanın ve ilgili sayfada bağlam metniyle sunun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Video ve Reels içerikleri otel SEO’suna nasıl katkı verir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Video doğru landing sayfada embed edilip VideoObject schema ile işaretlendiğinde görünürlük ve tıklama katkısı sağlayabilir; videodan oda/rezervasyon CTA’sına net geçiş verin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"review-ve-yorum-seo-otel-reputation-entity":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity",
+      "name": "Otel Review & Yorum SEO’su: İtibar ve SEO’yu Aynı Entity İçinde Yönetmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Reviews" },
+        { "@type": "Thing", "name": "AggregateRating" },
+        { "@type": "Thing", "name": "Local Pack" },
+        { "@type": "Thing", "name": "Reputation" },
+        { "@type": "Thing", "name": "Hotel Entity" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#article",
+      "headline": "Otel Review & Yorum SEO’su: İtibar ve SEO’yu Aynı Entity İçinde Yönetmek",
+      "description": "Yorumlar sadece puan değil içeriktir. Google/OTA yorum temalarını çıkarın, Review+AggregateRating schema ile otel entity’nizi güçlendirin; Local Pack ve organikte görünürlük artabilir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "Varsayım: 4.6",
+        "reviewCount": "Varsayım: 1250"
+      }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#review1",
+      "itemReviewed": { "@id": "https://dgtlface.com/tr/#hotel" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Varsayım: Kahvaltı çok çeşitliydi ve çocuklar için seçenekler fazlaydı.",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Review & Yorum SEO’su", "item": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/review-ve-yorum-seo-otel-reputation-entity#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel yorumları SEO’yu etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorumlar güven ve tema sinyali üreterek Local Pack ve organik görünürlüğü destekleyebilir; en iyi etki temaları içerik ve schema ile tutarlı yönettiğinizde görülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Review schema otel SEO’suna ne katar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Review/AggregateRating schema, rating ve reviewCount gibi bilgileri otel entity’sine yapılandırılmış biçimde bağlar; doğru ve güncel tutulduğunda tutarlılık sinyalini güçlendirebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yorum temalarını içerik stratejisine nasıl taşırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorum metinlerinden tekrar eden temaları çıkarın ve her tema için SSS başlıkları ile blog konuları üretip ilgili landing sayfaya bağlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu",
+      "name": "Creative & Reels ile Otel SEO: SEO, SMM ve Creative’i Aynı Funnel’da Birleştirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "SEO × SMM" },
+        { "@type": "Thing", "name": "Reels" },
+        { "@type": "Thing", "name": "Video Marketing" },
+        { "@type": "Thing", "name": "Topic Clusters" },
+        { "@type": "Thing", "name": "Hotel Landing Pages" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#article",
+      "headline": "Creative & Reels ile Otel SEO: SEO, SMM ve Creative’i Aynı Funnel’da Birleştirmek",
+      "description": "SEO niyet verisini Reels/video konularına çevirin. YouTube/Shorts/Reels içeriklerini oda/destinasyon landing’lere bağlayıp Search→Social→Site→Rezervasyon akışını kapatın; tek panelde ölçün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#video1",
+      "name": "Varsayım: Aqua park odaklı Reels",
+      "description": "Aqua park deneyimini gösteren kısa Reels; ilgili aquapark landing sayfasına trafik taşır.",
+      "thumbnailUrl": "https://dgtlface.com/assets/varsayim/aquapark-reels-thumb.jpg",
+      "uploadDate": "2026-01-21",
+      "embedUrl": "https://www.youtube.com/embed/varsayim",
+      "about": [
+        { "@type": "Thing", "name": "TopicCluster" },
+        { "@type": "Thing", "name": "Aquapark" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Creative & Reels ile Otel SEO", "item": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/creative-ve-reels-ile-otel-seo-seo-smm-creative-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SEO verisini sosyal medya ve Reels stratejisine nasıl taşırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO topic cluster’larını çıkarıp her cluster’ı 3–5 Reels/video fikrine dönüştürün; her videoya hedef landing sayfa atayın ve bio+açıklama+embed standardıyla trafiği siteye indirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Search → social → site funnel’ı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SEO teması seçin, video üretin, hedef landing’i hazırlayın, linkleme standardını uygulayın ve UTM+booking event ölçümüyle performansı izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO + SMM performansını aynı panelde nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social tıklama, landing etkileşimi ve booking event’lerini aynı ekranda izleyin; yanında SEO tema görünürlüğünü göstererek içerik üretimini funnel katkısıyla yönetin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+//
+"360-otel-seo-audit-framework":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework",
+      "name": "360° Otel SEO Audit Framework: Crawl’dan PMS’e Kadar Tam Denetim",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#breadcrumb" },
+      "about": [
+        { "@type": "Thing", "name": "Technical SEO" },
+        { "@type": "Thing", "name": "Entity SEO" },
+        { "@type": "Thing", "name": "Brand SERP" },
+        { "@type": "Thing", "name": "Local Pack" },
+        { "@type": "Thing", "name": "PMS Data" },
+        { "@type": "Thing", "name": "OTA Demand" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#article",
+      "headline": "360° Otel SEO Audit Framework: Crawl’dan PMS’e Kadar Tam Denetim",
+      "description": "Teknik, içerik, entity, local/brand SERP ve PMS/OTA verisini birlikte denetleyin. 360° audit ile aksiyonların direct booking ve RevPAR etkisini netleştirin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/seo#service",
+      "serviceType": "Otel SEO Audit",
+      "name": "360° Otel SEO Audit",
+      "url": "https://dgtlface.com/tr/otel/seo"
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel Adı",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "360° Otel SEO Audit Framework", "item": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/360-otel-seo-audit-framework#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel SEO audit’inde hangi başlıklara bakmalısınız?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknik (CWV/crawl), içerik (oda/destinasyon), entity/schema, local/brand SERP ve PMS/OTA veri katmanlarına birlikte bakmalısınız; bulguları direct booking ve RevPAR etkisine göre önceliklendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Klasik SEO audit ile otel SEO audit farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel audit’inde oda sayfaları, destinasyon/deneyim içerikleri, Local Pack/Brand SERP ve OTA rekabeti kritik katmanlardır; sonuçlar direct booking ve gelir metrikleriyle ilişkilendirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit sonucunu direct booking ve RevPAR ile nasıl ilişkilendiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Landing page bazında organik trafiği booking event ve PMS gelir metrikleriyle eşleyin; bulguları hangi KPI’yı etkilediğine göre etiketleyip 90 günlük aksiyon planına çevirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "360° otel SEO audit checklist’inde hangi başlıklar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknik, içerik, entity, local/brand SERP ve data (PMS/OTA) başlıkları olmalı; her madde bulgu→etki→aksiyon formatında yönetilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-site-tasima-ve-rebrand-seo-migrasyonu":{}
 
     }
   },
