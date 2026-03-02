@@ -332,7 +332,11 @@ export const BLOG_MAP = {
 
     "360-otel-seo-audit-framework":"BlogOtel360OtelSeoAuditFramework",
     "otel-site-tasima-ve-rebrand-seo-migrasyonu":"BlogOtelSiteTasimaVeRebrandSeoMigrasyonu",
-    "pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler":"BlogPreOpeningOtelSeoOtelAcilmadan6_12AyOnceYapilmasiGerekenler"
+    "pre-opening-otel-seo-otel-acilmadan-6-12-ay-once-yapilmasi-gerekenler":"BlogPreOpeningOtelSeoOtelAcilmadan6_12AyOnceYapilmasiGerekenler",
+    "otel-zinciri-ve-multi-property-seo-mimarisi":"BlogOtelZinciriVeMultiPropertySeoMimarisi",
+    "seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu":"BlogSeoVeRevenueManagementKampanyaTakvimiSenkronizasyonu",
+
+    "2026-sge-first-otel-seo-stratejisi":"BlogOtel2026SGEFirstOtelSeoStratejisi"
     
   }
 };

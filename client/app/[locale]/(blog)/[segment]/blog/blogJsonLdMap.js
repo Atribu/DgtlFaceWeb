@@ -33196,6 +33196,281 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-zinciri-ve-multi-property-seo-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi",
+      "name": "Otel Zinciri ve Multi-Property SEO Mimarisi: Marka, Portföy ve Lokasyon Dengesini Kurmak",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Hotel Chain" },
+        { "@type": "Thing", "name": "Multi-Property" },
+        { "@type": "Thing", "name": "Brand Architecture" },
+        { "@type": "Thing", "name": "Destination Hubs" },
+        { "@type": "Thing", "name": "Internal Linking" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#article",
+      "headline": "Otel Zinciri ve Multi-Property SEO Mimarisi: Marka, Portföy ve Lokasyon Dengesini Kurmak",
+      "description": "Zincir otellerde SEO mimarisi kurun: marka→destinasyon→otel→oda hiyerarşisi, cross-link ve öneri bloklarıyla portföy otoritesini dağıtın; KPI’ları portföy bazında yönetin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel-group-sample",
+      "name": "Varsayım: Örnek Otel Grubu",
+      "containedInPlace": { "@type": "Place", "name": "Türkiye" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Multi-Property SEO Mimarisi", "item": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-zinciri-ve-multi-property-seo-mimarisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir oteller için SEO mimarisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka→destinasyon→otel→oda hiyerarşisini net kurup destinasyon hub’larıyla talebi toplayın; internal linking ve sister-property önerileriyle portföy otoritesini dağıtıp doğru otele yönlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek marka sitesi mi, ayrı otel siteleri mi daha mantıklı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Portföy büyüklüğü ve destinasyon çeşitliliğine göre değişir; çoğu zincirde hibrit model (marka sitesi + destinasyon hub + property sayfaları) daha dengeli sonuç verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Portföy genelinde SEO performansını nasıl raporlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand CTR/pay, destinasyon hub tıklama payı, property landing dönüşümü ve cross-link modül tıklamalarını aynı panelde izleyin; büyümenin hangi destinasyon ve hangi tesisten geldiğini net görün."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu",
+      "name": "SEO ve Revenue Management Senkronizasyonu: Kampanya Takvimi ile İçerik Takvimini Birleştirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "SEO" },
+        { "@type": "Thing", "name": "Revenue Management" },
+        { "@type": "Thing", "name": "Campaign Calendar" },
+        { "@type": "Thing", "name": "Early Booking" },
+        { "@type": "Thing", "name": "Last Minute" },
+        { "@type": "Thing", "name": "Rate Plan" },
+        { "@type": "Thing", "name": "Landing Page" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#article",
+      "headline": "SEO ve Revenue Management Senkronizasyonu: Kampanya Takvimi ile İçerik Takvimini Birleştirmek",
+      "description": "Erken rezervasyon, son dakika ve özel dönem kampanyalarını SEO ile senkronize edin. Rate plan + keyword + içerik üçgeniyle landing’leri destekleyin; doluluk ve marjı birlikte yönetin.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "SEO × Revenue Takvimi Senkronu", "item": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SEO ve revenue management takvimi nasıl senkronize edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya türlerini çıkarıp her birini keyword cluster ve landing sayfasıyla eşleyin; aynı tabloda içerik üretimini ve kampanya mesajını yönetin, KPI’ları tek panelde takip edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erken rezervasyon ve son dakika kampanyaları için SEO stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early booking için planlama niyetli içerikler ve sezon rehberleri; last minute için hızlı karar odaklı landing ve kısa SSS blokları kullanın; landing’leri kampanya öncesi hazır edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya landing sayfalarını SEO’ya göre nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "H1’de kampanya+destinasyon/konsept, net koşul blokları, 3–5 USP, SSS ve güçlü CTA kullanın; landing’leri evergreen tutup sezon mesajını güncelleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-sge-first-otel-seo-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi",
+      "name": "2026 SGE-First Otel SEO Stratejisi: AI Özetlerinde Otelinizi Nasıl Öne Çıkarırsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "SGE" },
+        { "@type": "Thing", "name": "AI Answer" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Destination" },
+        { "@type": "Thing", "name": "RoomType" },
+        { "@type": "Thing", "name": "FAQPage" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block", ".short-answer"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#article",
+      "headline": "2026 SGE-First Otel SEO Stratejisi: AI Özetlerinde Otelinizi Nasıl Öne Çıkarırsınız?",
+      "description": "AI Overviews/SGE özetlerinde görünmek için sayfalara 20–40 kelimelik kısa cevap blokları ekleyin. FAQ + schema + entity-first yapı ve 180 gün güncelleme döngüsüyle otelinizi öne çıkarın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "2026 SGE-First Otel SEO", "item": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sge-first-otel-seo-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SGE nedir, otel SEO’sunu nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SGE/AI özetleri, arama sonuçlarında kısa bir özet ve kaynak linkleri sunar. Otellerde ilk ekranı etkilediği için kısa cevap blokları ve SSS yapısı daha kritik hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SGE cevaplarında otelim nasıl kaynak olarak gösterilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sayfada çıkarılabilir kısa cevap parçaları, tutarlı FAQ ve güçlü schema/entity anlatımı gerekir. Ayrıca aynı bilgiyi farklı sayfalarda çelişkili vermemek önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel, oda ve destinasyon sayfalarında hangi blokları eklemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Short Answer (20–40 kelime), Important Notes (koşul/uyarı) ve 6–10 SSS bloğu temel settir. Bu bloklar mobilde görünür ve net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SGE performansını nasıl izlerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR, landing engagement ve booking event trendlerini takip edip 180 günde bir kısa cevap/FAQ bloklarını güncelleyin; ekran örnekleri ve soru kalıpları zamanla değişebilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

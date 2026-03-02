@@ -13364,7 +13364,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Pre-Opening Otel SEO: Otel Açılmadan 6–12 Ay Önce Yapılması Gerekenler"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/hotel/Hotel1-18/Hotel1-18-2.webp",
       alt: "T-365→T+90 zaman çizelgesi + yapılacaklar + direkt rezervasyon hedefi",
       caption: "T-365→T+90 zaman çizelgesi + yapılacaklar + direkt rezervasyon hedefi"
@@ -13405,7 +13405,165 @@ export const BLOG_MEDIA_MAP = {
       alt: "MVS wireframe + içerik planı + roadmap deliverables",
       caption: "MVS wireframe + içerik planı + roadmap deliverables"
     }
-  }
+  },
+
+  "otel-zinciri-ve-multi-property-seo-mimarisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-1.webp",
+      alt: "Otel Zinciri ve Multi-Property SEO Mimarisi: Marka, Portföy ve Lokasyon Dengesini Kurmak",
+      caption: "Otel Zinciri ve Multi-Property SEO Mimarisi: Marka, Portföy ve Lokasyon Dengesini Kurmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-2.webp",
+      alt: "Marka→destinasyon→otel→oda yolculuğu + kullanıcı seçimi + rezervasyon bağlamı",
+      caption: "Marka→destinasyon→otel→oda yolculuğu + kullanıcı seçimi + rezervasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-3.webp",
+      alt: "Multi-property hiyerarşi + portföy denge + SEO/UX bağlamı",
+      caption: "Multi-property hiyerarşi + portföy denge + SEO/UX bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-4.webp",
+      alt: "Cross-link blokları + sister properties + kullanıcı seçimi bağlamı",
+      caption: "Cross-link blokları + sister properties + kullanıcı seçimi bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-5.webp",
+      alt: "Multi-property site mimarisi diyagramı: marka→destinasyon→otel→oda",
+      caption: "Multi-property site mimarisi diyagramı: marka→destinasyon→otel→oda"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-6.webp",
+      alt: "Hibrit mimari checklist + cross-link kuralları",
+      caption: "Hibrit mimari checklist + cross-link kuralları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-7.webp",
+      alt: "Portföy KPI dashboard kartları",
+      caption: "Portföy KPI dashboard kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-19/Hotel1-19-8.webp",
+      alt: "Site ağacı + blueprint çıktıları + deliverables",
+      caption: "Site ağacı + blueprint çıktıları + deliverables"
+    }
+  },
+
+
+  "seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-1.webp",
+      alt: "SEO ve Revenue Management Senkronizasyonu: Kampanya Takvimi ile İçerik Takvimini Birleştirmek",
+      caption: "SEO ve Revenue Management Senkronizasyonu: Kampanya Takvimi ile İçerik Takvimini Birleştirmek"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-2.webp",
+      alt: "Rate plan + keyword + içerik üçgeni + kampanya→landing akışı",
+      caption: "Rate plan + keyword + içerik üçgeni + kampanya→landing akışı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-3.webp",
+      alt: "Talep dalgası yönetimi + SEO×Revenue senkronu",
+      caption: "Talep dalgası yönetimi + SEO×Revenue senkronu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-4.webp",
+      alt: "5 adım senkronizasyon + ortak takvim yaklaşımı",
+      caption: "5 adım senkronizasyon + ortak takvim yaklaşımı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-5.webp",
+      alt: "Birleşik takvim görseli (Gantt): SEO içerik + revenue kampanya",
+      caption: "Birleşik takvim görseli (Gantt): SEO içerik + revenue kampanya"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-6.webp",
+      alt: "SEO+Revenue 5 adım checklist + landing standardı",
+      caption: "SEO+Revenue 5 adım checklist + landing standardı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-7.webp",
+      alt: "Kampanya/SEO KPI kartları",
+      caption: "Kampanya/SEO KPI kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-20/Hotel1-20-8.webp",
+      alt: "Ortak plan şablonu + 12 aylık takvim + deliverables",
+      caption: "Ortak plan şablonu + 12 aylık takvim + deliverables"
+    }
+  },
+
+
+
+  "2026-sge-first-otel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-1.webp",
+      alt: "2026 SGE-First Otel SEO Stratejisi: AI Özetlerinde Otelinizi Nasıl Öne Çıkarırsınız?",
+      caption: "2026 SGE-First Otel SEO Stratejisi: AI Özetlerinde Otelinizi Nasıl Öne Çıkarırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-2.webp",
+      alt: "Short Answer + FAQ + schema yerleşimi + otel sayfa akışı",
+      caption: "Short Answer + FAQ + schema yerleşimi + otel sayfa akışı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-3.webp",
+      alt: "Klasik SERP vs SGE + otel karar ekranı + kısa cevap",
+      caption: "Klasik SERP vs SGE + otel karar ekranı + kısa cevap"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-4.webp",
+      alt: "Entity-first + kaynak olma mantığı + otel içerik blokları",
+      caption: "Entity-first + kaynak olma mantığı + otel içerik blokları"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-5.webp",
+      alt: "SGE answer block şablonu + kaynak sayfa tipleri",
+      caption: "SGE answer block şablonu + kaynak sayfa tipleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-6.webp",
+      alt: "7 soru–cevap çifti checklist + sayfa yerleşimi",
+      caption: "7 soru–cevap çifti checklist + sayfa yerleşimi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-7.webp",
+      alt: "SGE odaklı KPI: CTR + landing engagement + booking niyeti",
+      caption: "SGE odaklı KPI: CTR + landing engagement + booking niyeti"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-21/Hotel1-21-8.webp",
+      alt: "Şablon seti + 180 gün güncelleme planı + deliverables",
+      caption: "Şablon seti + 180 gün güncelleme planı + deliverables"
+    }
+  },
+
+
+
+
+  
 
 
 };
