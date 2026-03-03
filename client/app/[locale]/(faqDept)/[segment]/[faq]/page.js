@@ -105,7 +105,7 @@ export async function generateMetadata({ params }) {
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
-      images: [{ url: ogImage, secureUrl: ogImage, width: 1200, height: 630, alt: title, type: "image/jpeg" }],
+      images: [{ url: ogImage, secureUrl: ogImage, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
