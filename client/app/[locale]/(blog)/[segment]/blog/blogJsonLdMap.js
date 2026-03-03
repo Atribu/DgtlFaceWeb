@@ -33471,6 +33471,424 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi",
+      "name": "2026 Cookieless Arama Dünyasında First-Party Data ile Otel SEO Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "Cookieless" },
+        { "@type": "Thing", "name": "First-Party Data" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Search Console" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#article",
+      "headline": "2026 Cookieless Arama Dünyasında First-Party Data ile Otel SEO Stratejisi",
+      "description": "Çerezsiz dünyada SEO’yu first-party data ile yönetin. PMS/CRM/call center verisini Search Console+GA4 ile eşleyin; segment bazlı içerik/landing planı kurun, KVKK uyumlu ölçün.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Cookieless & First-Party SEO", "item": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cookieless dünyada otel SEO’su nasıl data-driven kalır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "3rd party yerine PMS/CRM/call center gibi first-party kaynaklardan gelen aggregate içgörüyü kullanın; segment×sorgu→landing modeli kurup içerik önceliğini gerçek talep üzerinden yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "First-party data (PMS, CRM, call center) SEO stratejisine nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS/CRM’den segmentleri çıkarın, call center sorularını SSS’ye çevirin; Search Console sorgularını bu segmentlerle eşleştirip her segmente hedef landing ve içerik cluster’ı atayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Privacy-first otel SEO KPI’ları neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment bazlı organik görünürlük, landing etkileşimi, izinli lead, booking event trendleri ve kanal karması/RevPAR bağlamı temel KPI setidir; kişisel takip yerine trend ve kalite sinyalleri izlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS/CRM verisini SEO kararlarına input yaparken anonim/aggregate kullanın; kişisel veriyi içerik veya raporlara taşımayın, call center örneklerini anonimleştirin ve yayın öncesi onay süreci koyun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma",
+      "name": "2026 Multimodal Aramada Otel SEO: Görsel, Sesli ve Metin Aramayı Birlikte Yönetmek",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#breadcrumb" },
+      "about": [
+        { "@type": "Thing", "name": "Multimodal Search" },
+        { "@type": "Thing", "name": "ImageObject" },
+        { "@type": "Thing", "name": "Voice Search" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "RoomType" },
+        { "@type": "Thing", "name": "Amenity" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block", ".faq"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#article",
+      "headline": "2026 Multimodal Aramada Otel SEO: Görsel, Sesli ve Metin Aramayı Birlikte Yönetmek",
+      "description": "Görsel, sesli ve metin aramayı birlikte düşünerek oda ve deneyim fotoğraflarını entity-first etiketle; SSS ve kısa cevaplarını konuşma dilinde yaz; 2026 multimodal arama dünyasında otelinin her kanaldan bulunabilir olmasını sağla.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#image-swimup",
+      "name": "Varsayım: Swim-up oda Belek",
+      "caption": "Swim-up oda terasından havuza direkt erişim",
+      "contentUrl": "https://dgtlface.com/assets/varsayim/belek-swim-up-room.webp",
+      "fileFormat": "image/webp",
+      "about": [
+        { "@type": "Thing", "name": "RoomType" },
+        { "@type": "Thing", "name": "Swim-up" }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#video-aquapark",
+      "name": "Varsayım: Aquapark deneyimi kısa video",
+      "description": "Aqua park alanını ve aile deneyimini gösteren kısa video; ilgili landing'e yönlendirir.",
+      "thumbnailUrl": "https://dgtlface.com/assets/varsayim/aquapark-thumb.jpg",
+      "uploadDate": "2026-02-17",
+      "embedUrl": "https://www.youtube.com/embed/varsayim",
+      "about": [
+        { "@type": "Thing", "name": "Amenity" },
+        { "@type": "Thing", "name": "Aquapark" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Multimodal Otel SEO", "item": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Multimodal arama nedir, oteller için ne değiştirir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multimodal arama, metin+görsel+ses girişlerinin birleştiği aramadır. Otellerde bu, görsellerin ve konuşma dili SSS'lerin bulunabilirliği etkilediği ve doğru landing'e bağlanması gerektiği anlamına gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir bir fotoğraf göstererek ‘buna benzer otel’ aradığında nasıl yakalanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda/deneyim görsellerini niş tanımlarla etiketleyin (alt text+dosya adı), ImageObject schema ekleyin ve görseli temsil ettiği konsept/oda landing’ine bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Görsel, sesli ve metin arama için içerik mimarisini nasıl kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her konsept için tek landing, görsel koleksiyon, voice uyumlu SSS ve ‘benzer odalar/tesisler’ modülü kurun; tüm girişleri bu landing’e indirip CTA ile rezervasyona bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda ve deneyim fotoğraflarını entity-first biçimde nasıl etiketlerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görselin temsil ettiği entity’yi (RoomType/Amenity/Destination) netleştirip dosya adı ve alt text’i buna göre yazın; bağlam metni ekleyin ve ImageObject schema ile destekleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi",
+      "name": "2026 Yeni Arama Kanalları: TikTok Search, Maps ve Travel Yüzeylerinde Otel SEO Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#breadcrumb" },
+      "about": [
+        { "@type": "Thing", "name": "TikTok Search" },
+        { "@type": "Thing", "name": "Maps" },
+        { "@type": "Thing", "name": "Travel Apps" },
+        { "@type": "Thing", "name": "Multi-Surface Search" },
+        { "@type": "Thing", "name": "Hotel Entity" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#article",
+      "headline": "2026 Yeni Arama Kanalları: TikTok Search, Maps ve Travel Yüzeylerinde Otel SEO Stratejisi",
+      "description": "SEO stratejini sadece Google’a değil; TikTok Search, Maps ve travel app’lere de uyarlayarak otel entity’ni tüm arama yüzeylerinde tutarlı ve bulunabilir hâle getir.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://dgtlface.com/tr/#hotel",
+      "name": "Varsayım: Örnek Otel",
+      "containedInPlace": { "@type": "Place", "name": "Antalya" }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#video1",
+      "name": "Varsayım: Antalya aquaparklı aile tatili kısa tur",
+      "description": "Aqua park konseptini gösteren kısa video; ilgili landing sayfasına yönlendirir.",
+      "thumbnailUrl": "https://dgtlface.com/assets/varsayim/tiktok-aquapark-thumb.jpg",
+      "uploadDate": "2026-02-17",
+      "embedUrl": "https://www.youtube.com/embed/varsayim",
+      "about": [
+        { "@type": "Thing", "name": "Aquapark" },
+        { "@type": "Thing", "name": "Family Hotel" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Yeni Arama Kanalları", "item": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "TikTok Search otel aramalarını nasıl etkiliyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TikTok’ta kullanıcılar destinasyon ve konsept aramalarını video başlığı/açıklama/hashtag üzerinden yapabiliyor; bu yüzden video metadatasını konsept+destinasyon diliyle yapılandırmak önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Maps ve travel app’lerde otel bilgilerimi hangi standartlara göre düzenlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resmi marka adı, kategori, NAP ve foto seti tüm kanallarda birebir tutarlı olmalı; web linki doğru landing’e gitmeli ve mümkünse ölçülebilir olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı arama yüzeylerinde otel entity tutarlılığını nasıl sağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Single source of truth ile NAP+konsept sözlüğü çıkarın ve web/Maps/OTA/sosyal profil bilgilerini buradan yönetin; çelişki güven ve tıklama payını düşürür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Web ile sosyal/app yüzeyleri arasında link/CTA köprüsü nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her konsept için tek landing belirleyin, profil linklerini bu landing’lere indirip UTM/etiketleme ile izleyin; landing içinde net CTA ve SSS ile rezervasyona geçişi kolaylaştırın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/tr/#website",
+      "url": "https://dgtlface.com/tr/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari",
+      "name": "2026’da Otel SEO’yu Operasyonla Birleştirmek: AI İçerik Operasyonları ve “Living SEO System” Modeli",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        { "@type": "Thing", "name": "SEO Operations" },
+        { "@type": "Thing", "name": "AI Content" },
+        { "@type": "Thing", "name": "PMS & Call Center Signals" },
+        { "@type": "Thing", "name": "Backlog" },
+        { "@type": "Thing", "name": "Living System" }
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#breadcrumb" },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#article",
+      "headline": "2026’da Otel SEO’yu Operasyonla Birleştirmek: AI İçerik Operasyonları ve “Living SEO System” Modeli",
+      "description": "SEO’yu tek seferlik proje değil, AI içerik araçları, PMS/call center sinyalleri ve aylık board toplantılarıyla beslenen living SEO system olarak kurgulayın; 2026’da rekabetçi kalın.",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#webpage" },
+      "inLanguage": "tr-TR",
+      "publisher": { "@id": "https://dgtlface.com/tr/#website" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel Dijital Pazarlama", "item": "https://dgtlface.com/tr/otel-dijital-pazarlama" },
+        { "@type": "ListItem", "position": 3, "name": "Otel SEO", "item": "https://dgtlface.com/tr/otel/seo" },
+        { "@type": "ListItem", "position": 4, "name": "Living SEO System Modeli", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da otel SEO’su neden “living system” olarak yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü sezon, teklifler ve misafir soruları sürekli değişir. Living model; veri sinyallerini backlog’a çevirip AI+editör döngüsüyle içerikleri KPI’lara göre düzenli günceller."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI içerik üretimini otel SEO operasyonuna nasıl entegre ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI’yi taslak üretici yapın, yayın kararını editöre bırakın. Schema/internal link/politika QA’sını zorunlu kılıp versiyon takibiyle yayınlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call center ve PMS verisini mevcut içerikleri güncellemek için nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call center sorularını SSS bloklarına, PMS satış sinyallerini oda/landing önceliklerine çevirin. Her sinyali backlog kartına dönüştürüp sprint ile yayınlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO backlog ve aylık board toplantıları nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanban board ile signal→backlog→draft→edit→QA→publish→monitor akışını kurun. Aylık 30–45 dakikalık toplantıyla KPI ve öncelikleri güncelleyin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

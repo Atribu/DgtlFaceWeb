@@ -13562,7 +13562,208 @@ export const BLOG_MEDIA_MAP = {
 
 
 
+ "2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-1.webp",
+      alt: "2026 Cookieless Arama Dünyasında First-Party Data ile Otel SEO Stratejisi",
+      caption: "2026 Cookieless Arama Dünyasında First-Party Data ile Otel SEO Stratejisi"
+    },
 
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-2.webp",
+      alt: "PMS/CRM/call center→SEO akışı + segment planı + otel bağlamı",
+      caption: "PMS/CRM/call center→SEO akışı + segment planı + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-3.webp",
+      alt: "Cookieless ölçüm değişimi + doğru veri yaklaşımı + otel bağlamı",
+      caption: "Cookieless ölçüm değişimi + doğru veri yaklaşımı + otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-4.webp",
+      alt: "Privacy-first framework + KVKK uyumu + otel veri bağlamı",
+      caption: "Privacy-first framework + KVKK uyumu + otel veri bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-5.webp",
+      alt: "PMS/CRM/Call center/E-posta → segment→query→landing diyagramı",
+      caption: "PMS/CRM/Call center/E-posta → segment→query→landing diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-6.webp",
+      alt: "2026 için 10 first-party SEO aksiyonu + kontrol listesi + otel bağlamı",
+      caption: "2026 için 10 first-party SEO aksiyonu + kontrol listesi + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-7.webp",
+      alt: "Privacy-first KPI paneli + segment performansı + otel bağlamı",
+      caption: "Privacy-first KPI paneli + segment performansı + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-22/Hotel1-22-8.webp",
+      alt: "Framework + dashboard + uygulama deliverables",
+      caption: "Framework + dashboard + uygulama deliverables"
+    }
+  },
+
+
+
+  "2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-1.webp",
+      alt: "2026 Multimodal Aramada Otel SEO: Görsel, Sesli ve Metin Aramayı Birlikte Yönetmek",
+      caption: "2026 Multimodal Aramada Otel SEO: Görsel, Sesli ve Metin Aramayı Birlikte Yönetmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-2.webp",
+      alt: "Görsel/ses/metin akışı + entity yapısı + otel landing bağlamı",
+      caption: "Görsel/ses/metin akışı + entity yapısı + otel landing bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-3.webp",
+      alt: "Multimodal kavramı + niyet türleri + otel pazarlama bağlamı",
+      caption: "Multimodal kavramı + niyet türleri + otel pazarlama bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-4.webp",
+      alt: "Fotoğrafla arama senaryosu + benzerlik + otel konsept bağlamı",
+      caption: "Fotoğrafla arama senaryosu + benzerlik + otel konsept bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-5.webp",
+      alt: "Görsel/ses/metin → entity → otel sayfası akışı + rezervasyon bağlamı",
+      caption: "Görsel/ses/metin → entity → otel sayfası akışı + rezervasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-6.webp",
+      alt: "2026 multimodal checklist + uygulama adımları + otel bağlamı",
+      caption: "2026 multimodal checklist + uygulama adımları + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-7.webp",
+      alt: "Multimodal KPI’lar + landing performansı + otel bağlamı",
+      caption: "Multimodal KPI’lar + landing performansı + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-23/Hotel1-23-8.webp",
+      alt: "Checklist deliverables + wireframe + otel uygulama bağlamı",
+      caption: "Checklist deliverables + wireframe + otel uygulama bağlamı"
+    }
+  },
+
+
+   "2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-1.webp",
+      alt: "2026 Yeni Arama Kanalları: TikTok Search, Maps ve Travel Yüzeylerinde Otel SEO Stratejisi",
+      caption: "2026 Yeni Arama Kanalları: TikTok Search, Maps ve Travel Yüzeylerinde Otel SEO Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-2.webp",
+      alt: "TikTok/Maps/Travel → landing → rezervasyon akışı + izlenebilir CTA",
+      caption: "TikTok/Maps/Travel → landing → rezervasyon akışı + izlenebilir CTA"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-3.webp",
+      alt: "TikTok Search arama yüzeyi + video metadata + landing köprüsü",
+      caption: "TikTok Search arama yüzeyi + video metadata + landing köprüsü"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-4.webp",
+      alt: "Maps/Travel entity alanları + tutarlılık + güven/CTR",
+      caption: "Maps/Travel entity alanları + tutarlılık + güven/CTR"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-5.webp",
+      alt: "Google/TikTok/Maps/OTA → landing → booking multi-surface funnel diyagramı",
+      caption: "Google/TikTok/Maps/OTA → landing → booking multi-surface funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-6.webp",
+      alt: "Platform bazlı checklist + 3 link standardı + uygulama adımları",
+      caption: "Platform bazlı checklist + 3 link standardı + uygulama adımları"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-7.webp",
+      alt: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi”",
+      caption: "Multi-surface KPI paneli: görünürlük + tıklama payı + landing etkileşimi”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-24/Hotel1-24-8.webp",
+      alt: "Şablonlar + checklist + ölçüm deliverables",
+      caption: "Şablonlar + checklist + ölçüm deliverables"
+    }
+  },
+
+  "2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-1.webp",
+      alt: "2026’da Otel SEO’yu Operasyonla Birleştirmek: AI İçerik Operasyonları ve “Living SEO System” Modeli",
+      caption: "2026’da Otel SEO’yu Operasyonla Birleştirmek: AI İçerik Operasyonları ve “Living SEO System” Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-2.webp",
+      alt: "Veri-AI-edit döngüsü + amaç + otel içerik yönetimi bağlamı",
+      caption: "Veri-AI-edit döngüsü + amaç + otel içerik yönetimi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-3.webp",
+      alt: "Yaşayan SEO kavramı + amaç + otel sezon bağlamı",
+      caption: "Yaşayan SEO kavramı + amaç + otel sezon bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-4.webp",
+      alt: "AI içerik pipeline + amaç + otel kalite kontrol bağlamı",
+      caption: "AI içerik pipeline + amaç + otel kalite kontrol bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-5.webp",
+      alt: "Living SEO System akışı + amaç + otel büyüme bağlamı",
+      caption: "Living SEO System akışı + amaç + otel büyüme bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-6.webp",
+      alt: "90 gün kurulum checklist’i + amaç + otel ekip bağlamı",
+      caption: "90 gün kurulum checklist’i + amaç + otel ekip bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-7.webp",
+      alt: "KPI paneli + amaç + otel gelir bağlamı”",
+      caption: "KPI paneli + amaç + otel gelir bağlamı”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel1-25/Hotel1-25-8.webp",
+      alt: "Board deliverables + amaç + otel uygulama bağlamı",
+      caption: "Board deliverables + amaç + otel uygulama bağlamı"
+    }
+  }
   
 
 

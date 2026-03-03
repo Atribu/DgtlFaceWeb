@@ -336,7 +336,11 @@ export const BLOG_MAP = {
     "otel-zinciri-ve-multi-property-seo-mimarisi":"BlogOtelZinciriVeMultiPropertySeoMimarisi",
     "seo-ve-revenue-management-kampanya-takvimi-senkronizasyonu":"BlogSeoVeRevenueManagementKampanyaTakvimiSenkronizasyonu",
 
-    "2026-sge-first-otel-seo-stratejisi":"BlogOtel2026SGEFirstOtelSeoStratejisi"
+    "2026-sge-first-otel-seo-stratejisi":"BlogOtel2026SGEFirstOtelSeoStratejisi",
+    "2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi":"Blog2026CerezsizAramaVeFirstPartyDataIleOtelSeoStratejisi",
+    "2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma":"Blog2026MultimodalAramaGorselSesliVeMetinleOtelBulma",
+    "2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi":"Blog2026YeniAramaKanallariTikTokSearchMapsTravelOtelSeoStratejisi",
+    "2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari":"Blog2026OtelSeoOperasyonEntegrasyonuAiVeIcerikOperasyonlari"
     
   }
 };
