@@ -1,4 +1,8 @@
-//app/[locale]/(blog)/[segment]/blog/[slug]/page.jsx
+
+
+//app/[locale]/(blog)/[segment]/blog/[slug]/page.jsx import { notFound } from "next/navigation"; import { getMessages, setRequestLocale } from "next-intl/server"; import Link from "next/link"; import { BLOG_MAP } from "../blogMap"; import SectionRenderer from "../SectionRenderer"; import BlogToc fro
+
+
 import { notFound } from "next/navigation";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
@@ -34,33 +38,18 @@ export async function generateMetadata({ params }) {
     post?.h1?.intro ||
     "DGTLFACE blog içeriği.";
 
-     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dgtlface.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dgtlface.com";
 
   // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
-  const baseUrl = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl);
-  const ogPageUrl =
-    slug === "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde"
-      ? new URL(baseUrl)
-      : null;
-  if (ogPageUrl) {
-    ogPageUrl.searchParams.set("v", "2026-02-10");
-  }
-  const url = baseUrl.toString();
+  const url = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl).toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
   const ogPath = bannerMedia?.src || "/og/og-home.webp";
 
-  // ✅ Kritik: absolute OG image + cache bust (sadece belirtilen slug için sabit tarih)
+  // ✅ Kritik: absolute OG image (cache bust kaldırıldı)
   const ogImageUrl = new URL(ogPath, siteUrl);
   const ogImagePath = ogImageUrl.pathname.toLowerCase();
-  const cacheKey =
-    slug === "kurumsal-web-sitesi-checklist-yayina-cikmadan-once-40-madde"
-      ? "2026-02-10"
-      : post?.updatedAt ||
-        post?.publishedAt ||
-        new Date().toISOString().slice(0, 10);
-  ogImageUrl.searchParams.set("v", cacheKey);
   const ogImage = ogImageUrl.toString();
 
   return {
@@ -72,9 +61,7 @@ export async function generateMetadata({ params }) {
 
     openGraph: {
       type: "article",
-      url:
-        ogPageUrl?.toString() ||
-        url,
+      url,
       siteName: "DGTLFACE",
       title,
       description,
@@ -268,7 +255,7 @@ export default async function BlogDetailPage({ params }) {
   const relatedPosts = Array.isArray(post.relatedPosts) ? post.relatedPosts : [];
   const internalLinks = Array.isArray(post.internalLinks) ? post.internalLinks : [];
 
-  // Türkçe yorum: Hero overlay’de başlık gösterilsin mi? (wireframe: opsiyonel)
+  // Türkçe yorum: Hero overlay'de başlık gösterilsin mi? (wireframe: opsiyonel)
   const SHOW_HERO_TITLE_OVERLAY = false;
 
 const jsonLd =
@@ -375,7 +362,7 @@ const jsonLd =
         </section>
       ) : null}
 
-      {/* BÖLÜM 3 ÜST MODÜL (H1’den sonra) */}
+      {/* BÖLÜM 3 ÜST MODÜL (H1'den sonra) */}
       {(answerBlock || sgeSummary || factSheet.length > 0 || voiceAnswer || quickSummary.length > 0) ? (
         <section className="mx-auto w-full max-w-[1600px] px-1 md:pt-2 lg:px-4 pt-6 lg:pt-10">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-4 lg:p-6">
@@ -574,7 +561,7 @@ const jsonLd =
                 </div>
               </div>
 
-              {/* Hızlı Kontrol (TOC altında 3 madde) - quickSummary’dan ilk 3 */}
+              {/* Hızlı Kontrol (TOC altında 3 madde) - quickSummary'dan ilk 3 */}
               {quickSummary.length > 0 ? (
                 <div className="rounded-3xl border border-white/10 bg-white/5 px-3 py-2 4xl:p-5">
                   <p className="text-sm font-medium text-white">Hızlı Kontrol</p>
