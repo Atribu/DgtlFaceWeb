@@ -33889,6 +33889,648 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+//hotel2-6
+"otel-whatsapp-dm-mesaj-funneli":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli",
+      "name": "WhatsApp ve DM ile Rezervasyon: Otel Sosyal Medyasında Mesaj Funnel’ı Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "WhatsApp",
+        "Instagram DM",
+        "Hotel Reservation",
+        "Call Center",
+        "PMS",
+        "Response Time",
+        "Script"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#article",
+      "headline": "WhatsApp ve DM ile Rezervasyon: Otel Sosyal Medyasında Mesaj Funnel’ı Nasıl Kurulur?",
+      "description": "WhatsApp ve Instagram DM ile rezervasyon alın: net CTA, hazır script’ler, PMS/call center akışı ve KPI’lar (yanıt süresi, dönüşüm, kaçan mesaj). Şablonu indir.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel whatsapp rezervasyon funneli",
+        "dm’den rezervasyon alma",
+        "mesaj tabanlı otel satış akışı",
+        "hotel message to booking funnel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel WhatsApp & DM Mesaj Funnel’ı",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "WhatsApp üzerinden otel rezervasyonu nasıl alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Post/Reels’te tek bir WhatsApp CTA kullanın, ilk mesajı hızlı yanıtlayın ve tarih–kişi–oda bilgilerini toplayın. Ardından 2 seçenekli teklif sunup opsiyon/rezervasyon için PMS/CRM kaydı oluşturun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller DM ile gelen mesajları satışa nasıl çevirir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM’leri script’lerle standardize edin, tek CTA ile bir sonraki adıma taşıyın. Teklif şablonu ve follow-up rutiniyle konuşmayı kapanışa bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medyasında mesaj funnel’ı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tetikleyici CTA → hızlı karşılama → bilgi toplama → teklif → PMS/call center aktarım → takip adımlarını kurun. Başarı için SLA ve KPI paneli şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp ve DM mesajlarının performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt süresi, yanıt oranı, kaçan mesajlar, teklif verilen mesaj oranı ve mesajdan rezervasyona dönüşüm KPI’larını izleyin. DM ve WhatsApp kanallarını ayrı raporlayın."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#howto",
+      "name": "Otel Mesaj Funnel’ı Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Tek CTA ile DM/WhatsApp tetikle",
+          "text": "Post/Reels/Story’de tek aksiyon belirle: WhatsApp veya DM. Kullanıcıdan tarih ve kişi sayısını iste."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Script ve teklif standardını uygula",
+          "text": "5 hazır cevap ve 2 seçenekli teklif şablonu ile bilgiyi topla, net next-step ver ve opsiyon teklif et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS/call center’a bağla ve KPI ile ölç",
+          "text": "Lead’i PMS/CRM’e kaydet, gerekirse call center’a devret ve yanıt süresi + mesaj→rezervasyon dönüşümünü haftalık raporla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-whatsapp-dm-mesaj-funneli#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"cok-dilli-otel-sosyal-medya-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi",
+      "name": "Çok Dilli Otel Sosyal Medya Yönetimi: TR–EN–DE–RU İçin Strateji Rehberi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Multilingual Hotel Marketing",
+        "TR–EN–DE–RU Content",
+        "German Guests",
+        "Russian Guests",
+        "English-speaking Guests",
+        "Call Center TR–EN–DE–RU",
+        "Destination"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#article",
+      "headline": "Çok Dilli Otel Sosyal Medya Yönetimi: TR–EN–DE–RU İçin Strateji Rehberi",
+      "description": "TR–EN–DE–RU için çok dilli otel sosyal medya yönetimi: pazar önceliği, dil bazlı takvim, caption/CTA uyarlaması ve DM/WhatsApp & çağrı merkezi yönlendirmesi. İndir.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "çok dilli otel sosyal medya yönetimi",
+        "almanca rusça hedefli otel içerikleri",
+        "multilingual instagram hotel strategy",
+        "tr en de ru hotel marketing"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Alanya"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çok Dilli Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için çok dilli sosyal medya yönetimi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her dili ayrı pazar gibi planlayın; dil önceliği belirleyin, dil bazlı takvim oluşturun ve caption/CTA’yı pazara göre uyarlayın. DM/WhatsApp’ta ilgili dili konuşan ekibe yönlendirme kurmadan çok dilli yapı satışa bağlanmaz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TR–EN–DE–RU için içerik stratejisi nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her dil için persona, ton ve tek CTA standardı çıkarın. Aynı kreatifi dört dilde farklı caption/CTA ile kullanın ve dil bazlı KPI raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı postu birden fazla dilde paylaşmak doğru mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, ancak caption ve CTA mutlaka uyarlanmalıdır. Otomatik çeviri yerine native edit önerilir ve paylaşım ritmi pazar ağırlığına göre ayarlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok dilli sosyal medya ile rezervasyonlar nasıl etkilenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dil uyumu güveni ve talep kalitesini artırır; DM/WhatsApp yönlendirme doğru kurulduğunda mesajdan rezervasyona dönüşüm artabilir. Etki pazar payı ve operasyon kapasitesine bağlıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#howto",
+      "name": "TR–EN–DE–RU Çok Dilli Otel Sosyal Medya Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Dil önceliği ve persona kartlarını çıkar",
+          "text": "TR–EN–DE–RU için hedef pazar önceliği belirle ve her dil için persona + tek CTA standardı oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dil bazlı takvim ve caption seti oluştur",
+          "text": "Aynı kreatifi farklı dillerde uyarlayacak şekilde takvim kur; otomatik çeviri yerine native edit uygula."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "DM/WhatsApp’ı dil ekiplerine bağla ve raporla",
+          "text": "Mesajlarda dil tespiti yap, ilgili call center ekibine yönlendir ve dil bazlı KPI’larla tıklama/DM/dönüşümü ölç."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-dilli-otel-sosyal-medya-yonetimi#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"otel-ugc-misafir-fotograflari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari",
+      "name": "UGC ve Misafir Fotoğrafları ile Güven İnşa Etmek: Oteller İçin Sosyal Kanıt Stratejisi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "User Generated Content",
+        "Guest Photos",
+        "Hotel Reviews",
+        "Social Proof",
+        "Consent",
+        "KVKK",
+        "Google Reviews",
+        "OTA Reviews"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#article",
+      "headline": "UGC ve Misafir Fotoğrafları ile Güven İnşa Etmek: Oteller İçin Sosyal Kanıt Stratejisi",
+      "description": "Otel UGC (misafir içeriği) ile güven inşa edin: hashtag/mention ile toplayın, izin (KVKK) sürecini kayda alın, feed–story–reels’te kullanın, KPI ile ölçün.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel ugc stratejisi",
+        "misafir fotoğrafları ile sosyal kanıt",
+        "otel review ve yorum yönetimi",
+        "hotel ugc strategy",
+        "otel yorumlari instagram'da gostermek"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel UGC ve Misafir Fotoğrafları",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "UGC nedir ve oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UGC, misafirlerin otel deneyimini kendi fotoğraf ve videolarıyla paylaşmasıdır. Oteller için önemlidir çünkü gerçek deneyim algısı yaratır, tereddütleri azaltır ve rezervasyon kararını hızlandıran sosyal kanıt üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medyasında misafir fotoğrafları nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hashtag/mention ile toplayın, izin alıp kayda geçirin ve story’de hızlı kanıt, feed’de seçilmiş içerik, reels’te kısa montaj formatlarıyla yayınlayın. Profesyonel içerikle dengede tutun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "UGC paylaşırken izin (KVKK) nasıl alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM ile kısa bir izin mesajı gönderin ve “evet” yanıtını tarihli şekilde saklayın. KVKK metinleri ve süreç detayları için hukuki danışmanlıkla çerçeveyi netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir yorumları ve review’ler sosyal medyada nasıl gösterilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google/OTA review ekranlarını kaynak belirterek ve güncel örneklerle paylaşın. Şikâyetlerde şeffaf ve çözüm odaklı yanıt, güveni artırabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-ugc-misafir-fotograflari#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+
+"otel-sosyal-medya-ota-sinerjisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi",
+      "name": "Otel Sosyal Medyası ile OTA Sayfaları Arasında Sinerji Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel OTA",
+        "Booking.com",
+        "Expedia",
+        "Direct Booking",
+        "Social Media Synergy",
+        "Rate Parity",
+        "Review Score"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#article",
+      "headline": "Otel Sosyal Medyası ile OTA Sayfaları Arasında Sinerji Nasıl Kurulur?",
+      "description": "Sosyal medya ve OTA sayfalarını birlikte büyütün: mesaj/foto tutarlılığı, OTA puanı sosyal kanıtı, direct vs OTA yönlendirme senaryoları ve rate parity notları. Şablonu indir.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya ota sinerjisi",
+        "booking expedia ile instagram dengeleme",
+        "direct booking ve ota stratejisi",
+        "rate parity",
+        "hotel ota vs direct booking strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Sosyal Medya – OTA Sinerjisi",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medya ve OTA sayfaları nasıl birlikte çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı görsel ve mesaj dilini sosyal–OTA–web’de tutarlı hale getirin ve yönlendirmeyi senaryolaştırın. OTA puan/yorumlarını sosyal kanıt olarak kullanın; web’de ise parity’ye uygun ek faydalarla direct booking’i güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medyadan OTA’ya mı yoksa web’e mi yönlendirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yeni tesis/düşük güven veya son dakika gibi senaryolarda OTA daha hızlı kapanış verebilir; erken rezervasyon ve ek fayda paketlerinde web öne çıkar. Kararı pazar, sezon, kapasite ve parity çerçevesine göre verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA puanları ve yorumları sosyal medyada nasıl kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Review spotlight formatı kullanın: kaynak ve tarih belirterek yorum ekranını paylaşın, kısa bağlam ekleyin ve tek CTA ile OTA veya web’e yönlendirin. Negatif yorumlarda şeffaf, çözüm odaklı yanıt güveni artırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve direct booking arasında denge nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyat yerine ek fayda yaklaşımıyla direct booking’i teşvik edin ve sosyal yönlendirmeyi kampanya dönemlerinde planlı yapın. UTM/KPI ile ölçüp aylık revize edin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#howto",
+      "name": "Otel Sosyal Medya–OTA Sinerjisi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rol dağılımını ve tutarlılık standartlarını belirle",
+          "text": "Sosyal medya, OTA ve web için mesaj ve görsel tutarlılık kurallarını yazılı hale getir; oda isimleri ve konsept dilini eşleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Yönlendirmeyi senaryolaştır",
+          "text": "Kampanya, sezon, pazar ve güven ihtiyacına göre hangi içeriğin OTA’ya hangisinin web’e gideceğini karar ağacıyla belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM ile ölç ve aylık optimize et",
+          "text": "Sosyal→OTA ve sosyal→web linklerini ayrı UTM’lerle işaretle; KPI’larla ölçüp direct/OTA dengesini aylık revize et."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ota-sinerjisi#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
 }
 
     }

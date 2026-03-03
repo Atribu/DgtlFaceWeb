@@ -340,8 +340,16 @@ export const BLOG_MAP = {
     "2026-cerezsiz-arama-ve-first-party-data-ile-otel-seo-stratejisi":"Blog2026CerezsizAramaVeFirstPartyDataIleOtelSeoStratejisi",
     "2026-multimodal-arama-gorsel-sesli-ve-metinle-otel-bulma":"Blog2026MultimodalAramaGorselSesliVeMetinleOtelBulma",
     "2026-yeni-arama-kanallari-tiktok-search-maps-travel-otel-seo-stratejisi":"Blog2026YeniAramaKanallariTikTokSearchMapsTravelOtelSeoStratejisi",
-    "2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari":"Blog2026OtelSeoOperasyonEntegrasyonuAiVeIcerikOperasyonlari"
+    "2026-otel-seo-operasyon-entegrasyonu-ai-ve-icerik-operasyonlari":"Blog2026OtelSeoOperasyonEntegrasyonuAiVeIcerikOperasyonlari",
+
+
+
     
+    //Hotel2-6
+    "otel-whatsapp-dm-mesaj-funneli":"BlogOtelWhatsappDmMesajFunneli",
+    "cok-dilli-otel-sosyal-medya-yonetimi":"BlogCokDilliOtelSosyalMedyaYonetimi",
+    "otel-ugc-misafir-fotograflari":"BlogOtelUGCMisafirFotograflari",
+    "otel-sosyal-medya-ota-sinerjisi":"BlogOtelSosyalMedyaOTASinerjisi"
   }
 };
 

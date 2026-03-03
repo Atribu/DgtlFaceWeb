@@ -13754,14 +13754,218 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel1-25/Hotel1-25-7.webp",
-      alt: "KPI paneli + amaç + otel gelir bağlamı”",
-      caption: "KPI paneli + amaç + otel gelir bağlamı”"
+      alt: "KPI paneli + amaç + otel gelir bağlamı",
+      caption: "KPI paneli + amaç + otel gelir bağlamı"
     },
 
           "proof-08": {
       src: "/images/blog/hotel/Hotel1-25/Hotel1-25-8.webp",
       alt: "Board deliverables + amaç + otel uygulama bağlamı",
       caption: "Board deliverables + amaç + otel uygulama bağlamı"
+    }
+  },
+
+
+   "otel-whatsapp-dm-mesaj-funneli":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-1.webp",
+      alt: "WhatsApp ve DM ile Rezervasyon: Otel Sosyal Medyasında Mesaj Funnel’ı Nasıl Kurulur?",
+      caption: "WhatsApp ve DM ile Rezervasyon: Otel Sosyal Medyasında Mesaj Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-2.webp",
+      alt: "CTA–Script–Teklif–PMS adımlarını özetleyen görsel",
+      caption: "CTA–Script–Teklif–PMS adımlarını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-3.webp",
+      alt: "Mesaj funnel bölümleri geçiş görseli",
+      caption: "Mesaj funnel bölümleri geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-4.webp",
+      alt: "PMS/call center entegrasyon bölüm geçiş görseli",
+      caption: "PMS/call center entegrasyon bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-5.webp",
+      alt: "Post→DM/WhatsApp→Teklif→PMS rezervasyon diyagramı",
+      caption: "Post→DM/WhatsApp→Teklif→PMS rezervasyon diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-6.webp",
+      alt: "5 hazır cevap ve akış kontrol kartı",
+      caption: "5 hazır cevap ve akış kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-7.webp",
+      alt: "Yanıt süresi ve dönüşümü gösteren mesaj KPI kartı",
+      caption: "Yanıt süresi ve dönüşümü gösteren mesaj KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-6/Hotel2-6-8.webp",
+      alt: "DM/WhatsApp ekran mockup’ları ve deliverable kartı",
+      caption: "DM/WhatsApp ekran mockup’ları ve deliverable kartı"
+    }
+  },
+
+
+   "cok-dilli-otel-sosyal-medya-yonetimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-1.webp",
+      alt: "Çok Dilli Otel Sosyal Medya Yönetimi: TR–EN–DE–RU İçin Strateji Rehberi",
+      caption: "Çok Dilli Otel Sosyal Medya Yönetimi: TR–EN–DE–RU İçin Strateji Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-2.webp",
+      alt: "Dil→pazar→CTA eşleşmesini özetleyen hızlı bakış görseli",
+      caption: "Dil→pazar→CTA eşleşmesini özetleyen hızlı bakış görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-3.webp",
+      alt: "Çok dilli strateji bölüm ayırıcı görseli",
+      caption: "Çok dilli strateji bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+       src: "/images/blog/hotel/Hotel2-7/Hotel2-7-4.webp",
+      alt: "Caption örnekleri ve DM entegrasyonu geçiş görseli",
+      caption: "Caption örnekleri ve DM entegrasyonu geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-5.webp",
+      alt: "Çok dilli DM/WhatsApp yönlendirme ve rezervasyon akışı diyagramı",
+      caption: "Çok dilli DM/WhatsApp yönlendirme ve rezervasyon akışı diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-6.webp",
+      alt: "Dil bazlı caption/CTA kuralları ve ton kontrol kartı",
+      caption: "Dil bazlı caption/CTA kuralları ve ton kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-7.webp",
+      alt: "Dil bazlı KPI (tıklama, DM, dönüşüm) skor kartı",
+      caption: "Dil bazlı KPI (tıklama, DM, dönüşüm) skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-7/Hotel2-7-8.webp",
+      alt: "Dil bazlı takvim + caption + yönlendirme deliverable kartı",
+      caption: "Dil bazlı takvim + caption + yönlendirme deliverable kartı"
+    }
+  },
+
+
+  "otel-ugc-misafir-fotograflari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-1.webp",
+      alt: "UGC ve Misafir Fotoğrafları ile Güven İnşa Etmek: Oteller İçin Sosyal Kanıt Stratejisi",
+      caption: "UGC ve Misafir Fotoğrafları ile Güven İnşa Etmek: Oteller İçin Sosyal Kanıt Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-2.webp",
+      alt: "UGC toplama–izin–paylaşım–ölçüm adımlarını özetleyen görsel",
+      caption: "UGC toplama–izin–paylaşım–ölçüm adımlarını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-3.webp",
+      alt: "UGC stratejisi bölüm ayırıcı görseli",
+      caption: "UGC stratejisi bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-4.webp",
+      alt: "Review ve sosyal kanıt bölüm geçiş görseli",
+      caption: "Review ve sosyal kanıt bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-5.webp",
+      alt: "UGC repost akışını ve yayın sürecini gösteren diyagram",
+      caption: "UGC repost akışını ve yayın sürecini gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-6.webp",
+      alt: "İzin isteme ve UGC guardrail kontrol kartı",
+      caption: "İzin isteme ve UGC guardrail kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-7.webp",
+      alt: "UGC vs profesyonel içerik KPI karşılaştırma kartı",
+      caption: "UGC vs profesyonel içerik KPI karşılaştırma kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-8/Hotel2-8-8.webp",
+      alt: "UGC mockup ve review ekranı örneklerini gösteren proof kartı",
+      caption: "UGC mockup ve review ekranı örneklerini gösteren proof kartı"
+    }
+  },
+
+
+   "otel-sosyal-medya-ota-sinerjisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-1.webp",
+      alt: "Otel Sosyal Medyası ile OTA Sayfaları Arasında Sinerji Nasıl Kurulur?",
+      caption: "Otel Sosyal Medyası ile OTA Sayfaları Arasında Sinerji Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-2.webp",
+      alt: "OTA–Sosyal medya–Web rol dağılımını özetleyen görsel",
+      caption: "OTA–Sosyal medya–Web rol dağılımını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-3.webp",
+      alt: "Rol dağılımı bölüm ayırıcı görseli",
+      caption: "Rol dağılımı bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-4.webp",
+      alt: "Direct vs OTA karar bölümü ayırıcı görseli",
+      caption: "Direct vs OTA karar bölümü ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-5.webp",
+      alt: "Sosyal medya→OTA / Sosyal medya→Web yönlendirme funnel diyagramı",
+      caption: "Sosyal medya→OTA / Sosyal medya→Web yönlendirme funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-6.webp",
+      alt: "Rate parity + kanal karar checklist kartı",
+      caption: "Rate parity + kanal karar checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-7.webp",
+      alt: "Direct vs OTA satış dağılımı örnek KPI kartı",
+      caption: "Direct vs OTA satış dağılımı örnek KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-9/Hotel2-9-8.webp",
+      alt: "OTA profil ekran mockup’ları + review spotlight örneklerini gösteren proof kartı",
+      caption: "OTA profil ekran mockup’ları + review spotlight örneklerini gösteren proof kartı"
     }
   }
   
