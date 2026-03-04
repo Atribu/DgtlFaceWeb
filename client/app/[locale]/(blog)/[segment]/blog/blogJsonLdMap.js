@@ -35577,6 +35577,292 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik",
+      "name": "Otel Sosyal Medyasında Fiyat Paylaşımı, Kampanya Şeffaflığı ve Güven",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel Pricing",
+        "Discount Campaigns",
+        "Rate Parity",
+        "Trust",
+        "Social Media Offers",
+        "OTA",
+        "Direct Booking",
+        "WhatsApp"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#article",
+      "headline": "Otel Sosyal Medyasında Fiyat Paylaşımı, Kampanya Şeffaflığı ve Güven",
+      "description": "Otel sosyal medyada fiyat paylaşımı: başlangıç fiyatı + fayda mesajı + görünür koşul özeti. % indirim mi net fiyat mı? Rate parity, OTA/direct denge ve DM/WhatsApp teklif akışı.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medyada fiyat paylaşımı",
+        "indirim kampanyası şeffaflığı",
+        "ota ve direct fiyat dengesi",
+        "rate parity social media offers",
+        "hotel discount campaign social"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Fiyat Paylaşımı ve Şeffaflık", "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medyasında fiyat paylaşmak doğru mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; ancak bağlamsız rakam yerine başlangıç fiyatı + fayda + koşul özetiyle paylaşmak daha güvenli ve etkilidir. Kişisel teklifleri DM/WhatsApp’a taşımak dönüşümü artırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İndirim ve kampanya mesajlarını Instagram’da nasıl göstermeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teklifi sadeleştirip başlangıç fiyatı veya indirim, dahil faydalar ve görünür koşul özetiyle anlatın. Story’de tek CTA ile kapanış yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya koşullarını sosyal medyada nasıl şeffaf anlatırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Koşulları küçük yazıda saklamayın; tarih aralığı, minimum gece ve iptal özeti gibi 2–3 satırlık bir özet ekleyin. Detayı landing veya DM/WhatsApp’ta tamamlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA fiyatları ile sosyal medya mesajları çelişirse ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kullanıcı güveni kırılır, şikâyet ve iptal riski artar. Rate parity çerçevesini koruyup direct’i fiyat yerine ek faydayla güçlendirmek daha sağlıklıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#howto",
+      "name": "Otel Sosyal Medyada Fiyat İletişimi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Başlangıç fiyatı + fayda + koşul özetini standardize et",
+          "text": "Fiyatı bağlamla ver (tarih/oda tipi), 3 fayda maddesi ekle ve kampanya koşullarını 2–3 satır görünür özetle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek CTA ile DM/WhatsApp kapanış akışını kur",
+          "text": "Kişisel teklifleri DM/WhatsApp’a çek; tarih/kişi/oda bilgisi toplayıp 2 seçenekli teklif şablonuyla kapanış yap."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Parity ve kanal dengesini koruyup KPI ile ölç",
+          "text": "OTA/direct mesaj çakışmasını önle, parity riskli söylemleri yasakla; UTM/promo ile tıklama ve rezervasyon isteğini raporla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-sosyal-medya-destinasyon-is-ortaklari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari",
+      "name": "Destinasyon İş Ortaklıkları ile Otel Sosyal Medyasında Ortak İçerik ve Kampanyalar",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Destination Partnerships",
+        "Local Restaurants",
+        "Tours & Activities",
+        "Cross-Promotion",
+        "Package Campaigns",
+        "Booking"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#article",
+      "headline": "Destinasyon İş Ortaklıkları ile Otel Sosyal Medyasında Ortak İçerik ve Kampanyalar",
+      "description": "Restoran, beach club, tur ve etkinlik partnerleriyle ortak içerik üretin: Reels/Live/Story takeover, paket kampanyalar, marka uyumu checklist’i, UTM+kodu ile ölçüm ve rezervasyon etkisi.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel destinasyon iş ortaklıkları",
+        "restoran ve tur firması ile sosyal medya kampanyası",
+        "tatil paketi sosyal medya",
+        "hotel local partnership social",
+        "tour activity package with hotel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Destinasyon İş Ortaklıkları", "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medyasında destinasyon iş ortaklıkları nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konseptinize uygun restoran, tur ve etkinlik partnerleri seçip ortak Reels, Story takeover ve paket kampanyalar üretin. Marka uyumu ve sorumlulukları yazılı netleştirip UTM/kod ile ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller restoran ve tur şirketleriyle sosyal medyada nasıl iş birliği yapabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortak çekim planlayın, kısa Reels ve Story serileri üretin, deneyimi otelin konaklama paketiyle bağlayın ve tek CTA ile landing veya WhatsApp’a yönlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak kampanyalar rezervasyonları artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru paket değeri ve doğru partner uyumuyla rezervasyon niyetini güçlendirebilir. Etkiyi UTM, kampanya kodu ve WhatsApp talebi gibi KPI’larla ölçmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak içeriklerde marka uyumu ve riskler nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment uyumsuzluğu, düşük hizmet kalitesi, yanlış vaat ve belirsiz sorumluluk paylaşımı risk yaratır. Pilotla başlamak ve guardrail kullanmak daha güvenlidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#howto",
+      "name": "Destinasyon Partnerliği ile Ortak Kampanya Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Partnerleri seç ve marka uyumunu kontrol et",
+          "text": "Segment, kalite ve operasyon uyumuna göre 3 pilot partner seç; sorumlulukları ve koşulları yazılı netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Ortak içerik formatını ve paket mesajını hazırla",
+          "text": "Reels/Story takeover/Live formatlarından birini seç; 3 gece + deneyim gibi paket değer önerisini tek cümlede yaz ve tek CTA belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM/kod ile ölç ve kazananı seri yap",
+          "text": "Her partner için ayrı UTM ve kampanya kodu kullan; tıklama/WhatsApp/rezervasyon isteğini raporlayıp en iyi partnerle seri içerik planla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-destinasyon-is-ortaklari#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     }

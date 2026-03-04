@@ -14374,8 +14374,111 @@ export const BLOG_MEDIA_MAP = {
 
           "proof-08": {
       src: "/images/blog/hotel/Hotel2-17/Hotel2-17-8.webp",
-      alt: " Persona kartları + meeting/oda mockup’ları proof kartı",
-      caption: " Persona kartları + meeting/oda mockup’ları proof kartı"
+      alt: "Persona kartları + meeting/oda mockup’ları proof kartı",
+      caption: "Persona kartları + meeting/oda mockup’ları proof kartı"
+    }
+  },
+
+
+  "otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-1.webp",
+      alt: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi",
+      caption: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-2.webp",
+      alt: "Başlangıç fiyatı–fayda–koşul–CTA akışını özetleyen görsel",
+      caption: "Başlangıç fiyatı–fayda–koşul–CTA akışını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-3.webp",
+      alt: "Fiyat modeli bölüm geçiş görseli",
+      caption: "Fiyat modeli bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-4.webp",
+      alt: "Parity ve kanal denge bölüm geçiş görseli",
+      caption: "Parity ve kanal denge bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-5.webp",
+      alt: "Sosyal medya→DM/WhatsApp→teklif→rezervasyon akış diyagramı",
+      caption: "Sosyal medya→DM/WhatsApp→teklif→rezervasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-6.webp",
+      alt: "Fayda vs koşul kutu örneği ve 4 doğru/4 yanlış kartı",
+      caption: "Fayda vs koşul kutu örneği ve 4 doğru/4 yanlış kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-7.webp",
+      alt: "Şeffaf iletişimin KPI etkisini gösteren kart",
+      caption: "Şeffaf iletişimin KPI etkisini gösteren kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-18/Hotel2-18-8.webp",
+      alt: "Fiyat örnek post mockup’larını gösteren proof kartı",
+      caption: "Fiyat örnek post mockup’larını gösteren proof kartı"
+    }
+  },
+
+
+
+  "otel-sosyal-medya-destinasyon-is-ortaklari":{
+      banner: {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-1.webp",
+      alt: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi",
+      caption: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-2.webp",
+      alt: "Partner→içerik→paket→rezervasyon akışını özetleyen görsel",
+      caption: "Partner→içerik→paket→rezervasyon akışını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-3.webp",
+      alt: "Partner seçimi bölüm geçiş görseli",
+      caption: "Partner seçimi bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-4.webp",
+      alt: "Paket kampanya ve ölçüm bölüm geçiş görseli",
+      caption: "Paket kampanya ve ölçüm bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-5.webp",
+      alt: "Destinasyon paket funnel diyagramı",
+      caption: "Destinasyon paket funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-6.webp",
+      alt: "Partner uyumu ve risk kontrol kartı",
+      caption: "Partner uyumu ve risk kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-7.webp",
+      alt: "Ortak kampanya KPI kartı",
+      caption: "Ortak kampanya KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-19/Hotel2-19-8.webp",
+      alt: "Partner matrisi + storyboard + paket mockup deliverable kartı",
+      caption: "Partner matrisi + storyboard + paket mockup deliverable kartı"
     }
   }
   

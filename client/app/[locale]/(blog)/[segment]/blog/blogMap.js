@@ -358,7 +358,9 @@ export const BLOG_MAP = {
     "otel-sezonluk-sosyal-medya-kampanya-kurgusu":"BlogOtelSezonlukSosyalMedyaKampanyaKurgusu",
     "otel-sosyal-medya-operasyon-akisi":"BlogOtelSosyalMedyaOperasyonAkisi",
     "adults-only-balayi-otel-sosyal-medya":"BlogAdultsOnlyBalayiOtelSosyalMedya",
-    "city-hotel-is-seyahati-sosyal-medya":"BlogCityHotelIsSeyahatiSosyalMedya"
+    "city-hotel-is-seyahati-sosyal-medya":"BlogCityHotelIsSeyahatiSosyalMedya",
+    "otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik":"BlogOtelSosyalMedyaFiyatPaylasimiVeSeffaflik",
+    "otel-sosyal-medya-destinasyon-is-ortaklari":"BlogOtelSosyalMedyaDestinasyonIsOrtaklari"
   }
 };
 
