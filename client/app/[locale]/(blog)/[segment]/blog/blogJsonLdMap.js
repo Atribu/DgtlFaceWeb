@@ -35149,6 +35149,434 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
+},
+
+"otel-sezonluk-sosyal-medya-kampanya-kurgusu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu",
+      "name": "Erken Rezervasyon ve Sezonluk Kampanyalar İçin Otel Sosyal Medya Kampanya Kurgusu",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Early Booking Campaign",
+        "Seasonal Campaign",
+        "Hotel Social Media",
+        "Multi-Market Messaging",
+        "Landing Page",
+        "Direct Booking",
+        "OTA",
+        "Call Center"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#article",
+      "headline": "Erken Rezervasyon ve Sezonluk Kampanyalar İçin Otel Sosyal Medya Kampanya Kurgusu",
+      "description": "Erken rezervasyon ve sezonluk kampanyalar için sosyal medya planı: T-30/T-15/T+15 timeline, Reels–post–story serileri, TR–EN–DE–RU mesaj uyarlaması, OTA vs direct denge, KPI ölçüm.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel erken rezervasyon sosyal medya kampanyası",
+        "sezonluk otel kampanya kurgusu",
+        "multi-market erken rezervasyon stratejisi",
+        "tourism early booking social strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Erken Rezervasyon Kampanya Kurgusu", "item": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için erken rezervasyon kampanyası sosyal medyada nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net bir teklif ve son tarih belirleyin, T-30’dan başlayan timeline ile Reels/post/story serileri planlayın. Tek CTA ile landing veya WhatsApp/call center’a yönlendirin ve UTM/promo kodla ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezonluk kampanyalarda hangi içerikler kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Isınma döneminde UGC/review ve konsept kanıtı; teklif döneminde paket anlatımı; kapanışta SSS/itiraz çözümü ve hatırlatma içerikleri kullanılır. Format karması Reels + story + carousel olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya döneminde OTA mı direct booking mi öne çıkarılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand gücü ve kapanış deneyimine göre değişir. Direct’te parity’ye uygun ek fayda yaklaşımıyla web’e yönlendirme; bazı senaryolarda ise OTA güven ve hız için tercih edilebilir. Mesaj çakışması olmamalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web oturumları (UTM), WhatsApp/DM talebi, lead/booking_start, promo kod kullanımı ve pazar bazlı dönüşüm KPI’ları birlikte izlenmelidir; kampanya sonrası öğrenimler kaydedilmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#howto",
+      "name": "Erken Rezervasyon Kampanyası Sosyal Medya Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Teklif ve timeline’ı belirle",
+          "text": "Kampanya faydasını (indirim/ek fayda), son tarihi ve T-30/T-15/T+15 zaman çizelgesini netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Format karması ve pazar mesajlarını hazırla",
+          "text": "Reels/post/story serilerini planla; TR–EN–DE–RU pazarlarına göre caption/CTA uyarlaması yap."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek CTA ile bağla ve KPI ile ölç",
+          "text": "Kampanya landing veya WhatsApp/call center’a tek CTA ile yönlendir; UTM, promo kod ve GA4 event’leriyle performansı ölç ve öğrenimleri kaydet."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sezonluk-sosyal-medya-kampanya-kurgusu#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-sosyal-medya-operasyon-akisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi",
+      "name": "Otellerde Sosyal Medya Operasyon Akışı: Pazarlama, Ajans, Call Center ve PMS Nasıl Birlikte Çalışmalı?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Social Media Operations",
+        "Hotel Marketing Workflow",
+        "Agency Collaboration",
+        "Call Center",
+        "PMS",
+        "Reservation Flow",
+        "Dashboard"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#article",
+      "headline": "Otellerde Sosyal Medya Operasyon Akışı: Pazarlama, Ajans, Call Center ve PMS Nasıl Birlikte Çalışmalı?",
+      "description": "Otel sosyal medya operasyon akışı: rol dağılımı (otel–ajans–call center–PMS), içerik brief/onay süreci, DM→call center→PMS rezervasyon akışı, haftalık toplantı ve dashboard.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya iş akışı",
+        "ajans otel call center pms işbirliği",
+        "sosyal medya operasyon modeli",
+        "hotel social media workflow call center"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Sosyal Medya Operasyon Akışı", "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otellerde sosyal medya operasyonu nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rolleri net tanımlayıp içerik brief/onay sürecini standardize edin. DM/WhatsApp taleplerini call center’a devredin, call center PMS’de lead/rezervasyon kaydı açsın ve haftalık dashboard + toplantı ritmiyle iyileştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medya, call center ve PMS birlikte nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sosyal medya talebi üretir, call center teklifle kapatır, PMS/CRM lead/rezervasyon kaydı açarak süreci kayıt altına alır. Zincir koparsa takip ve kapanış düşer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajans ve otel iç ekipleri sosyal medyada görev paylaşımını nasıl yapmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pazarlama hedef/teklif ve onayı yönetir; ajans üretim ve yayın planını yürütür; call center mesajları kapatır; PMS sorumlusu kayıt standardını yönetir. RACI tablosu ile yazılılaştırmak en sağlıklısıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medya performansı için haftalık toplantı düzeni nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "30 dakikalık sabit ajanda kullanın: KPI özeti, içerik performansı, talep→rezervasyon dönüşümü ve aksiyon listesi. Her hafta 3 bulgu + 3 aksiyon kuralı uygulanabilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#howto",
+      "name": "Otel Sosyal Medya Operasyon Workflow Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rolleri ve onay SLA’yı tanımla",
+          "text": "Pazarlama–ajans–call center–PMS rollerini RACI ile yaz; içerik onay süresi ve tek onay sahibini belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mesaj devrini ve PMS kayıt standardını kur",
+          "text": "DM/WhatsApp taleplerini etiketle ve call center’a devret; tarih/kişi/oda bilgisiyle PMS’de lead/rezervasyon kaydı açmayı zorunlu yap."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Dashboard ve haftalık ritimle optimize et",
+          "text": "Looker Studio’da KPI panelini kur; haftalık 30 dk toplantıyla kaçan mesaj, dönüşüm ve içerik performansını aksiyona çevir."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-operasyon-akisi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"city-hotel-is-seyahati-sosyal-medya":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya",
+      "name": "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "City Hotel",
+        "Business Travel",
+        "MICE",
+        "Meeting Rooms",
+        "LinkedIn",
+        "Instagram",
+        "Direct Booking",
+        "Corporate Agreement"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#article",
+      "headline": "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi",
+      "description": "Şehir oteli ve iş seyahati için sosyal medya: business/MICE persona’ları, konum–ulaşım–toplantı salonu–hızlı check-in temaları, LinkedIn–Instagram rol ayrımı, B2B/B2C CTA ve 7 günlük plan.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "city hotel sosyal medya stratejisi",
+        "iş seyahati odaklı otel içerikleri",
+        "linkedin ve instagram otel kullanımı",
+        "mice hotel linkedin strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["İstanbul", "Ankara", "İzmir", "Antalya"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "City Hotel & İş Seyahati Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Şehir otelleri için sosyal medya stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort dili yerine konum, ulaşım, meeting altyapısı, hızlı check-in, iş konforu ve güvenliği öne çıkarın. LinkedIn’i B2B kanıt, Instagram’ı B2C konfor/deneyim için kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İş seyahati misafirlerine yönelik hangi içerikler çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konum ve ulaşım kanıtları, sessiz oda ve çalışma alanı, güçlü WiFi, hızlı check-in ve meeting salonu kapasitesi gibi karar kolaylaştıran içerikler çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "City hotel Instagram ve LinkedIn’i nasıl kullanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LinkedIn’de kurumsal referanslar, toplantı/fuar içerikleri ve teklif çağrıları; Instagram’da oda/meeting alanı tanıtımı, konfor kanıtı ve hızlı rezervasyon CTA’ları kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "MICE ve toplantı grupları sosyal medyada nasıl hedeflenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meeting factsheet (kapasite/setup/ekipman), referanslar ve etkinlik örnekleriyle güven verin; LinkedIn üzerinden teklif/görüşme CTA’sı kullanın ve hızlı dönüş SLA belirleyin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#howto",
+      "name": "City Hotel Sosyal Medya Kurulumu (B2B/B2C)",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Persona ve kanal rollerini ayır",
+          "text": "Business traveler (B2C) ve meeting organizer (B2B) persona’larını tanımla; LinkedIn’i B2B, Instagram’ı B2C rolünde konumlandır."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kanıt içerik temalarını üret",
+          "text": "Konum, ulaşım, meeting kapasitesi, hızlı check-in ve iş konforu temaları için Reels/post/story seri formatları oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "CTA ve ölçümü standardize et",
+          "text": "B2B için teklif/görüşme, B2C için rezervasyon/WhatsApp CTA’sı kullan; UTM ve raporlarla performansı takip et."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/city-hotel-is-seyahati-sosyal-medya#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     }

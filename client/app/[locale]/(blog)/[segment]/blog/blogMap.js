@@ -354,7 +354,11 @@ export const BLOG_MAP = {
 
     "otel-tiktok-stratejisi":"BlogOtelTikTokStratejisi",
     "otel-icerik-donusturme-instagram-tiktok-youtube":"BlogOtelIcerikDonusturmeInstagramTikTokYouTube",
-    "otel-influencer-isbirligi-stratejisi":"BlogOtelInfluencerIsbirligiStratejisi"
+    "otel-influencer-isbirligi-stratejisi":"BlogOtelInfluencerIsbirligiStratejisi",
+    "otel-sezonluk-sosyal-medya-kampanya-kurgusu":"BlogOtelSezonlukSosyalMedyaKampanyaKurgusu",
+    "otel-sosyal-medya-operasyon-akisi":"BlogOtelSosyalMedyaOperasyonAkisi",
+    "adults-only-balayi-otel-sosyal-medya":"BlogAdultsOnlyBalayiOtelSosyalMedya",
+    "city-hotel-is-seyahati-sosyal-medya":"BlogCityHotelIsSeyahatiSosyalMedya"
   }
 };
 

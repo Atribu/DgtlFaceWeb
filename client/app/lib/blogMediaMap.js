@@ -14173,6 +14173,210 @@ export const BLOG_MEDIA_MAP = {
       alt: "Checklist + brief + ölçüm deliverable kartı",
       caption: "Checklist + brief + ölçüm deliverable kartı"
     }
+  },
+
+
+    "otel-sezonluk-sosyal-medya-kampanya-kurgusu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-1.webp",
+      alt: "Erken Rezervasyon ve Sezonluk Kampanyalar İçin Otel Sosyal Medya Kampanya Kurgusu",
+      caption: "Erken Rezervasyon ve Sezonluk Kampanyalar İçin Otel Sosyal Medya Kampanya Kurgusu"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-2.webp",
+      alt: "T-30/T-15/T+15 akışını özetleyen context görseli",
+      caption: "T-30/T-15/T+15 akışını özetleyen context görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-3.webp",
+      alt: "Teklif ve timeline bölüm ayırıcı",
+      caption: "Teklif ve timeline bölüm ayırıcı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-4.webp",
+      alt: "Multi-market mesajlar bölüm geçiş görseli",
+      caption: "Multi-market mesajlar bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-5.webp",
+      alt: "Kampanya zaman çizelgesi şeması (T-30/T-15/T+15)",
+      caption: "Kampanya zaman çizelgesi şeması (T-30/T-15/T+15)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-6.webp",
+      alt: "Kampanya ölçüm ve öğrenim checklist kartı",
+      caption: "Kampanya ölçüm ve öğrenim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-7.webp",
+      alt: "Kampanya performans tablosu/grafiği",
+      caption: "Kampanya performans tablosu/grafiği"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-14/Hotel2-14-8.webp",
+      alt: "TR–EN–DE–RU kreatif ve mesaj mockup kartları",
+      caption: "TR–EN–DE–RU kreatif ve mesaj mockup kartları"
+    }
+  },
+
+
+    "otel-sosyal-medya-operasyon-akisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-1.webp",
+      alt: "Otellerde Sosyal Medya Operasyon Akışı: Pazarlama, Ajans, Call Center ve PMS Nasıl Birlikte Çalışmalı?",
+      caption: "Otellerde Sosyal Medya Operasyon Akışı: Pazarlama, Ajans, Call Center ve PMS Nasıl Birlikte Çalışmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-2.webp",
+      alt: "Rol dağılımı ve kritik geçiş noktaları görseli",
+      caption: "Rol dağılımı ve kritik geçiş noktaları görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-3.webp",
+      alt: "Rol ve süreç bölüm geçiş görseli",
+      caption: "Rol ve süreç bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-4.webp",
+      alt: "Raporlama & toplantı ritmi bölüm geçiş görseli",
+      caption: "Raporlama & toplantı ritmi bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-5.webp",
+      alt: "Sosyal medya→call center→PMS akış şeması)",
+      caption: "Sosyal medya→call center→PMS akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-6.webp",
+      alt: "Onay, devir ve PMS kayıt kontrol kartı",
+      caption: "Onay, devir ve PMS kayıt kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-7.webp",
+      alt: "Haftalık operasyon KPI paneli kartı",
+      caption: "Haftalık operasyon KPI paneli kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-15/Hotel2-15-8.webp",
+      alt: "Workflow + görev tablosu + ajanda deliverable kartı",
+      caption: "Workflow + görev tablosu + ajanda deliverable kartı"
+    }
+  },
+
+
+  "adults-only-balayi-otel-sosyal-medya":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-1.webp",
+      alt: "Adults Only ve Balayı Otelleri İçin Sosyal Medya Stratejisi",
+      caption: "Adults Only ve Balayı Otelleri İçin Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-2.webp",
+      alt: "Konsept temaları ve CTA akışını özetleyen görsel",
+      caption: "Konsept temaları ve CTA akışını özetleyen görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-3.webp",
+      alt: "Konsept tanımı bölüm geçiş görseli",
+      caption: "Konsept tanımı bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-4.webp",
+      alt: "Görsel dil ve kaçınılacak içerikler bölüm geçiş görseli",
+      caption: "Görsel dil ve kaçınılacak içerikler bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-5.webp",
+      alt: "Konsept→içerik→CTA→rezervasyon akış diyagramı",
+      caption: "Konsept→içerik→CTA→rezervasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-6.webp",
+      alt: "Kaçınılacak içerikler ve guardrail kartı",
+      caption: "Kaçınılacak içerikler ve guardrail kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-7.webp",
+      alt: "Kaydetme/tıklama/talep KPI kartı",
+      caption: "Kaydetme/tıklama/talep KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-16/Hotel2-16-8.webp",
+      alt: "Balayı odası ve çift temalı mockup’ları gösteren proof kartı",
+      caption: "Balayı odası ve çift temalı mockup’ları gösteren proof kartı"
+    }
+  },
+
+
+  "city-hotel-is-seyahati-sosyal-medya":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-1.webp",
+      alt: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi",
+      caption: "Şehir Otelleri ve İş Seyahati Odaklı Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-2.webp",
+      alt: "City vs resort farkı ve kanal rol özet görseli",
+      caption: "City vs resort farkı ve kanal rol özet görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-3.webp",
+      alt: "Persona ve tema bölüm geçiş görseli",
+      caption: "Persona ve tema bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-4.webp",
+      alt: "LinkedIn–Instagram rol ayrımı bölüm geçiş görseli",
+      caption: "LinkedIn–Instagram rol ayrımı bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-5.webp",
+      alt: "B2B/B2C hibrit funnel akış diyagramı",
+      caption: "B2B/B2C hibrit funnel akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-6.webp",
+      alt: "City hotel içerik checklist kartı (konum/meeting/hız)",
+      caption: "City hotel içerik checklist kartı (konum/meeting/hız)"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-7.webp",
+      alt: "B2B lead + B2C rezervasyon KPI kartı",
+      caption: "B2B lead + B2C rezervasyon KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-17/Hotel2-17-8.webp",
+      alt: " Persona kartları + meeting/oda mockup’ları proof kartı",
+      caption: " Persona kartları + meeting/oda mockup’ları proof kartı"
+    }
   }
   
 

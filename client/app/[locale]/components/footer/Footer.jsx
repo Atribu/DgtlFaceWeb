@@ -34,10 +34,10 @@ export default function Footer() {
   { id: "smm", label: t("smmblog"), href: "/smm/bloglar" },
   { id: "software", label: t("softwareblog"), href: "/yazilim/bloglar" },
   { id: "creative", label: t("creativeblog"), href: "/creative/bloglar" },
-  { id: "callcenter", label: t("callcenterblog"), href: "/callcenter/bloglar" },
-  { id: "reporting", label: t("reportingblog"), href: "/veri-analizi-raporlama/bloglar" },
+  { id: "callcenter", label: t("callcenterblog"), href: "/cagri-merkezi/bloglar" },
+  { id: "reporting", label: t("reportingblog"), href: "/raporlama/bloglar" },
   { id: "pms-ota", label: t("pmsotablog"), href: "/pms-ota/bloglar" },
-  { id: "hotel", label: t("hotelblog"), href: "/hotel/bloglar" },
+  { id: "hotel", label: t("hotelblog"), href: "/otel/bloglar" },
 
   ];
 
