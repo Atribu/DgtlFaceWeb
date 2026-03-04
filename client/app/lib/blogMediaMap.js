@@ -13967,6 +13967,212 @@ export const BLOG_MEDIA_MAP = {
       alt: "OTA profil ekran mockup’ları + review spotlight örneklerini gösteren proof kartı",
       caption: "OTA profil ekran mockup’ları + review spotlight örneklerini gösteren proof kartı"
     }
+  },
+
+
+
+  "otel-sosyal-medya-kriz-yonetimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-1.webp",
+      alt: "Otel Sosyal Medya Kriz Yönetimi: Olumsuz Yorum ve Şikâyetlere Nasıl Yaklaşmalısınız?",
+      caption: "Otel Sosyal Medya Kriz Yönetimi: Olumsuz Yorum ve Şikâyetlere Nasıl Yaklaşmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-2.webp",
+      alt: "Şikâyet sınıfları ve yanıt akışını özetleyen hızlı bakış görseli",
+      caption: "Şikâyet sınıfları ve yanıt akışını özetleyen hızlı bakış görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-3.webp",
+      alt: "Şikâyet türleri bölüm ayırıcı görseli",
+      caption: "Şikâyet türleri bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-4.webp",
+      alt: "Script ve SOP bölüm geçiş görseli",
+      caption: "Script ve SOP bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-5.webp",
+      alt: "Kriz akış şeması (şikâyet→analiz→yanıt→çözüm→rapor)",
+      caption: "Kriz akış şeması (şikâyet→analiz→yanıt→çözüm→rapor)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-6.webp",
+      alt: "Yapılacaklar/yapılmayacaklar kartı",
+      caption: "Yapılacaklar/yapılmayacaklar kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-7.webp",
+      alt: "Yanıt süresi ve itibar KPI karşılaştırma kartı",
+      caption: "Yanıt süresi ve itibar KPI karşılaştırma kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-10/Hotel2-10-8.webp",
+      alt: "İyi/kötü yanıt örnek mockup’ları ve script paketi proof kartı",
+      caption: "İyi/kötü yanıt örnek mockup’ları ve script paketi proof kartı"
+    }
+  },
+
+
+  "otel-tiktok-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-1.webp",
+      alt: "TikTok Oteller İçin Ne İşe Yarar? Otel TikTok Stratejisi Nasıl Kurulur?",
+      caption: "TikTok Oteller İçin Ne İşe Yarar? Otel TikTok Stratejisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-2.webp",
+      alt: "TikTok tema seti ve funnel adımlarını özetleyen görsel",
+      caption: "TikTok tema seti ve funnel adımlarını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-3.webp",
+      alt: "Platform rolü ve uygunluk bölüm ayırıcı görseli",
+      caption: "Platform rolü ve uygunluk bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-4.webp",
+      alt: "TikTok vs Reels farkları bölüm geçiş görseli",
+      caption: "TikTok vs Reels farkları bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-5.webp",
+      alt: "TikTok→profil→web/OTA/WhatsApp yönlendirme funnel diyagramı",
+      caption: "TikTok→profil→web/OTA/WhatsApp yönlendirme funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-6.webp",
+      alt: "3 örnek TikTok senaryosu ve çekim checklist kartı",
+      caption: "3 örnek TikTok senaryosu ve çekim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-7.webp",
+      alt: "TikTok KPI paneli kartı",
+      caption: "TikTok KPI paneli kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-11/Hotel2-11-8.webp",
+      alt: "Storyboard ve şablon deliverable kartı",
+      caption: "Storyboard ve şablon deliverable kartı"
+    }
+  },
+
+
+
+  "otel-icerik-donusturme-instagram-tiktok-youtube":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-1.webp",
+      alt: "Instagram, TikTok ve YouTube Shorts Arasında İçerik Dönüştürme: Oteller İçin Repurposing Rehberi",
+      caption: "Instagram, TikTok ve YouTube Shorts Arasında İçerik Dönüştürme: Oteller İçin Repurposing Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-2.webp",
+      alt: "Reels TikTok Shorts repurposing mantığını özetleyen görsel",
+      caption: "Reels TikTok Shorts repurposing mantığını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-3.webp",
+      alt: "Platform farkları ve uyarlama bölüm ayırıcı görseli",
+      caption: "Platform farkları ve uyarlama bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-4.webp",
+      alt: "Matris ve arşiv bölümüne geçiş ayırıcı görseli",
+      caption: "Matris ve arşiv bölümüne geçiş ayırıcı görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-5.webp",
+      alt: "1 çekim günü → 10 içerik üretim akış şeması",
+      caption: "1 çekim günü → 10 içerik üretim akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-6.webp",
+      alt: "Shot list + tek CTA + platform uyarlama kontrol kartı",
+      caption: "Shot list + tek CTA + platform uyarlama kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-7.webp",
+      alt: "Repurposed içerik KPI setini gösteren skor kart",
+      caption: "Repurposed içerik KPI setini gösteren skor kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-12/Hotel2-12-8.webp",
+      alt: "Dikey video arşiv klasör yapısı ve deliverable seti görseli",
+      caption: "Dikey video arşiv klasör yapısı ve deliverable seti görseli"
+    }
+  },
+
+
+  "otel-influencer-isbirligi-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-1.webp",
+      alt: "Oteller İçin Influencer İşbirliği Stratejisi: Nasıl Seçilir, Brief Verilir ve Ölçülür?",
+      caption: "Oteller İçin Influencer İşbirliği Stratejisi: Nasıl Seçilir, Brief Verilir ve Ölçülür?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-2.webp",
+      alt: "Influencer→trafik→talep→rezervasyon funnel özet görseli",
+      caption: "Influencer→trafik→talep→rezervasyon funnel özet görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-3.webp",
+      alt: " Influencer türleri bölüm geçiş görseli",
+      caption: " Influencer türleri bölüm geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-4.webp",
+      alt: "Brief ve haklar bölüm geçiş görseli",
+      caption: "Brief ve haklar bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-5.webp",
+      alt: "Brief→üretim→yayın→ölçüm akış şeması",
+      caption: "Brief→üretim→yayın→ölçüm akış şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-6.webp",
+      alt: "Seçim + haklar + KVKK guardrail kontrol kartı",
+      caption: "Seçim + haklar + KVKK guardrail kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-7.webp",
+      alt: "Kampanya KPI dashboard kartı",
+      caption: "Kampanya KPI dashboard kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-13/Hotel2-13-8.webp",
+      alt: "Checklist + brief + ölçüm deliverable kartı",
+      caption: "Checklist + brief + ölçüm deliverable kartı"
+    }
   }
   
 

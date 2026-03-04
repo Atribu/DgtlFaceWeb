@@ -349,7 +349,12 @@ export const BLOG_MAP = {
     "otel-whatsapp-dm-mesaj-funneli":"BlogOtelWhatsappDmMesajFunneli",
     "cok-dilli-otel-sosyal-medya-yonetimi":"BlogCokDilliOtelSosyalMedyaYonetimi",
     "otel-ugc-misafir-fotograflari":"BlogOtelUGCMisafirFotograflari",
-    "otel-sosyal-medya-ota-sinerjisi":"BlogOtelSosyalMedyaOTASinerjisi"
+    "otel-sosyal-medya-ota-sinerjisi":"BlogOtelSosyalMedyaOTASinerjisi",
+    "otel-sosyal-medya-kriz-yonetimi":"BlogOtelSosyalMedyaKrizYonetimi",
+
+    "otel-tiktok-stratejisi":"BlogOtelTikTokStratejisi",
+    "otel-icerik-donusturme-instagram-tiktok-youtube":"BlogOtelIcerikDonusturmeInstagramTikTokYouTube",
+    "otel-influencer-isbirligi-stratejisi":"BlogOtelInfluencerIsbirligiStratejisi"
   }
 };
 

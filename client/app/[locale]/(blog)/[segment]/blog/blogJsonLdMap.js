@@ -34531,6 +34531,624 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-sosyal-medya-kriz-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi",
+      "name": "Otel Sosyal Medya Kriz Yönetimi: Olumsuz Yorum ve Şikâyetlere Nasıl Yaklaşmalısınız?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel Reputation Management",
+        "Social Media Crisis",
+        "Reviews & Complaints",
+        "Google Reviews",
+        "OTA Reviews",
+        "Instagram Comment",
+        "Response Time",
+        "Empathy"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#article",
+      "headline": "Otel Sosyal Medya Kriz Yönetimi: Olumsuz Yorum ve Şikâyetlere Nasıl Yaklaşmalısınız?",
+      "description": "Otel sosyal medyada kriz yönetimi: şikâyet türleri, Google/OTA/Instagram yanıt prensipleri, DM’e çekme, KVKK sınırı, hazır script’ler ve kriz sonrası iyileştirme planı.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya kriz yönetimi",
+        "olumsuz yorumlara cevap verme",
+        "otel itibar yönetimi instagram google ota",
+        "negative hotel review response examples"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Bodrum", "Alanya"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Sosyal Medya Kriz Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller sosyal medyada olumsuz yorumlara nasıl cevap vermeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hızlı, empatik ve kısa yanıt verin; savunmacı tona girmeyin. Somut çözüm adımı önerip görüşmeyi DM/WhatsApp’a taşıyın ve ciddi şikâyetleri asla yanıtsız bırakmayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Instagram ve Google yorumlarında kriz yönetimi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kamuya açık alanda kısa cevapla empati kurup çözüm niyeti gösterin; detayları özel kanalda toplayın. KVKK nedeniyle kişisel bilgi paylaşmadan süreci kayıt altına alın ve iç eskalasyon yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA yorumlarına cevap verirken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Profesyonel ve sakin bir dille teşekkür edin, kısa açıklama yapın ve iyileştirme adımını belirtin. Tartışmayı büyütmeden iletişim kanalı sunun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medya şikâyetleri otel itibarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanıtsız veya agresif yanıtlar güveni düşürür; empati ve çözüm odaklı yaklaşım algıyı güçlendirebilir. Kullanıcılar çoğu zaman otelin tepkisine bakar."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#howto",
+      "name": "Otel Sosyal Medyada Kriz Yanıt Süreci",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Şikâyeti sınıflandır ve hızla yanıtla",
+          "text": "Şikâyeti risk seviyesine göre etiketle (düşük/orta/yüksek) ve platforma uygun kısa bir ilk yanıt ver."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Empati kur, çözüm adımı öner ve özel kanala taşı",
+          "text": "Savunmacı tona girmeden empati göster, somut çözüm adımı teklif et ve detayı DM/WhatsApp’ta toplamak için davet et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Çözümü kapat, raporla ve iyileştir",
+          "text": "İç ekiplere eskale et, çözümü kapat ve haftalık raporda tekrar eden sorunlar için iyileştirme planı çıkar."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-kriz-yonetimi#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"otel-tiktok-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi",
+      "name": "TikTok Oteller İçin Ne İşe Yarar? Otel TikTok Stratejisi Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel TikTok Strategy",
+        "Short Video",
+        "Gen Z",
+        "Family Travel",
+        "Resort Entertainment",
+        "Direct Booking Funnel",
+        "WhatsApp",
+        "OTA"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#article",
+      "headline": "TikTok Oteller İçin Ne İşe Yarar? Otel TikTok Stratejisi Nasıl Kurulur?",
+      "description": "TikTok oteller için güçlü keşif kanalıdır. Tema seti (oda/deneyim/eğlence/personel), TikTok–Reels farkları, bio link/UTM ile web–OTA–WhatsApp’a trafik ve 3 senaryo.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "tiktok otel stratejisi",
+        "resort tiktok içerik fikirleri",
+        "kısa video ile otel tanıtım",
+        "hotel tiktok content ideas",
+        "resort tiktok marketing funnel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Otel",
+          "item": "https://dgtlface.com/tr/otel/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Otel Sosyal Medya Yönetimi",
+          "item": "https://dgtlface.com/tr/otel/sosyal-medya"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel TikTok Stratejisi",
+          "item": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "TikTok oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TikTok oteller için keşif ve ilgi üretir; atmosferi kısa videolarla göstererek yeni kitlelere ulaşmanızı sağlar. Profil linki ve net CTA ile bu ilgiyi web/OTA/WhatsApp talebine taşıyabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi oteller TikTok’ta olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort, all inclusive, eğlence ve deneyim odaklı oteller TikTok’ta daha hızlı sonuç alır. Aile ve genç kitleye hitap eden tesislerde içerik üretimi daha doğal akar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TikTok’ta oteller için ne tür içerikler çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda turu (3 kanıt), deneyim montajı, aquapark/show gibi eğlence içerikleri ve sahne arkası videoları iyi çalışır. Trend sesler kullanılabilir ama marka tonu korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "TikTok’tan rezervasyona nasıl trafik taşıyabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bio linkte tek hedef belirleyin (web/OTA/WhatsApp) ve videolarda tek CTA kullanın. UTM ile ölçüp hangi tema ve CTA’nın tıklama ve talep ürettiğini aylık raporda takip edin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#howto",
+      "name": "Otel TikTok Stratejisi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Tema setini ve seri formatları belirle",
+          "text": "Oda, deneyim, eğlence ve personel temalarını seç; her tema için 1 seri format ve tek mesaj standardı oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Bio link hedefini seç ve CTA’yı tekleştir",
+          "text": "Sezona göre web/OTA/WhatsApp’tan birini bio link hedefi yap; videolarda tek CTA kullan ve kullanıcıyı aynı hedefe yönlendir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM ile ölç ve aylık optimize et",
+          "text": "TikTok linklerini UTM ile işaretle; izlenme kalitesi, profil ziyareti ve tıklama KPI’larını aylık raporda takip ederek kazanan serileri büyüt."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-tiktok-stratejisi#speakable",
+      "cssSelector": [
+        "h1",
+        ".answer-block"
+      ]
+    }
+  ]
+},
+
+"otel-icerik-donusturme-instagram-tiktok-youtube":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube",
+      "name": "Instagram, TikTok ve YouTube Shorts Arasında İçerik Dönüştürme: Oteller İçin Repurposing Rehberi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Content Repurposing",
+        "Instagram Reels",
+        "TikTok",
+        "YouTube Shorts",
+        "Vertical Video",
+        "Content Library",
+        "Booking Funnel"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#article",
+      "headline": "Instagram, TikTok ve YouTube Shorts Arasında İçerik Dönüştürme: Oteller İçin Repurposing Rehberi",
+      "description": "Tek çekim gününden 5–10 dikey video çıkarın. Reels–TikTok–Shorts farkları, repurposing matrisi, arşiv/isimlendirme SOP’u ve GA4 ile ölçüm. Şablonu indirin.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel içerik repurposing stratejisi",
+        "tek çekimden çoklu kısa video",
+        "instagram tiktok shorts otel içeriği",
+        "hotel content repurposing",
+        "resort vertical video strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Repurposing Rehberi", "item": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için içerik repurposing nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir çekimde üretilen dikey video varlığını, farklı platformlara uygun şekilde paketleyip (hook/altyazı/CTA) 5–10 parçaya bölerek farklı günlerde yayınlama yöntemidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı videoyu Instagram, TikTok ve YouTube Shorts’ta kullanabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; ancak kopyala-yapıştır yerine uyarlama gerekir. Altyazı, müzik, hook ve CTA platforma göre değişmeli ve yayınlar akıllı zamanlamayla dağıtılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bir çekim gününden nasıl 5–10 içerik çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her tema için 5 kısa plan çekip montajla 8 tema videosu + 1 best-of + 1 behind-the-scenes üretin; sonra Reels/TikTok/Shorts paketlerini ayrı hazırlayıp takvime dağıtın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Repurposed içeriklerin performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Platform içi KPI’lar (izlenme kalitesi, kaydetme, profil ziyareti) ve platform dışı KPI’lar (bio/WhatsApp tıklama, GA4 oturum/event) birlikte izlenmeli; UTM ile kaynak ayrıştırılmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#howto",
+      "name": "Tek Çekim Günü ile Reels–TikTok–Shorts Repurposing",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Çekim planını ve shot list’i hazırla",
+          "text": "Oda/havuz/yemek/aktivite gibi 4 tema seç, her tema için 5 kısa plan (2–3 sn) yaz ve çek."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Parçala ve platform paketlerini oluştur",
+          "text": "8 tema videosu + 1 best-of + 1 behind-the-scenes üret; Reels/TikTok/Shorts için altyazı, müzik ve CTA’yı ayrı uyarlayarak paketle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Akıllı zamanla, UTM ile ölç ve yeniden kullan",
+          "text": "Aynı videoyu aynı gün her platformda yayınlama; 2–4 haftaya dağıt. UTM + GA4 ile tıklama/oturum etkisini ölç ve kazananı 30–45 gün sonra yeniden yayınla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-icerik-donusturme-instagram-tiktok-youtube#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"otel-influencer-isbirligi-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi",
+      "name": "Oteller İçin Influencer İşbirliği Stratejisi: Nasıl Seçilir, Brief Verilir ve Ölçülür?",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Hotel Influencer Marketing",
+        "Micro Influencer",
+        "Travel Creators",
+        "UTM Tracking",
+        "Booking Impact",
+        "Campaign"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#article",
+      "headline": "Oteller İçin Influencer İşbirliği Stratejisi: Nasıl Seçilir, Brief Verilir ve Ölçülür?",
+      "description": "Otel influencer işbirliği rehberi: mikro/makro seçim kriterleri, engagement ve sahte takipçi analizi, brief + konaklama modeli, içerik hakları/KVKK notu, UTM ile ölçüm.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel influencer işbirliği",
+        "travel influencer seçim kriterleri",
+        "konaklama karşılığı içerik üretimi",
+        "hotel influencer collaboration",
+        "travel creator booking impact"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Bodrum", "Kapadokya"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Influencer İşbirliği Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için influencer seçimi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Takipçi sayısından önce hedef pazar ve persona uyumuna, gerçek etkileşime ve içerik kalitesine bakın. Sahte takipçi riskini kontrol edin ve CTA/link becerisi olan creator’ları shortlist’e alın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Influencer işbirliğinde nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net brief, deliverable sayısı, yayın takvimi, onay süreci ve içerik hakları baştan yazılmalıdır. KVKK ve hassas içerik riskleri için guardrail belirleyin; hukuki çerçeveyi avukatla netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Influencer kampanyalarının otel rezervasyonlarına etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her creator için ayrı UTM link kullanın; web oturumu, WhatsApp tıklaması, DM talebi ve booking event gibi KPI’ları takip edin. Kampanya sonrası raporda nitelikli trafik ve dönüşümü birlikte değerlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Konaklama karşılığı influencer çalışması doğru mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mikro creator’larda doğru brief ve ölçümle işe yarayabilir; ancak beklenti ve haklar net değilse risklidir. Hibrit model (konaklama + ücret) deliverable ve hakları daha güvenli hale getirebilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#howto",
+      "name": "Otel Influencer İşbirliği Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Influencer’ı veriyle seç",
+          "text": "Persona/pazar uyumu, gerçek engagement ve içerik kalitesine göre shortlist çıkar; sahte takipçi riskini kontrol et."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Brief, deliverable ve hakları netleştir",
+          "text": "Amaç, format sayısı, CTA hedefi, yayın takvimi, onay süreci ve içerik kullanım haklarını yazılı hale getir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM ile ölç ve kazananları tekrar et",
+          "text": "Creator bazlı UTM kur; web/WhatsApp/booking KPI’larını raporla ve en iyi performanslı creator’larla tekrar kampanya planla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-influencer-isbirligi-stratejisi#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
 }
 
     }
