@@ -365,7 +365,13 @@ export const BLOG_MAP = {
     "otel-sosyal-medya-ajans-secimi-ve-ic-ekip":"BlogOtelSosyalMedyaAjansSecimiVeIcEkip",
     "2026-otel-sosyal-medya-yapay-zeka-chatbot":"Blog2026OtelSosyalMedyaYapayZekaChatbot",
     "2026-sosyal-commerce-uygulama-ici-rezervasyon":"Blog2026SosyalCommerceUygulamaIciRezervasyon",
-    "2026-otel-canli-yayin-oda-turu-ve-soru-cevap":"Blog2026OtelCanliYayinOdaTuruVeSoruCevap"
+    "2026-otel-canli-yayin-oda-turu-ve-soru-cevap":"Blog2026OtelCanliYayinOdaTuruVeSoruCevap",
+    "2026-otel-ar-filter-vr-deneyim":"Blog2026OtelARFilterVRDeneyim",
+    "2026-otel-surdurulebilirlik-esg-sosyal-medya":"Blog2026OtelSurdurulebilirlikESGSosyalMedya",
+
+
+    //otel3-6
+    "youtube-ads-otel-video-stratejisi":"BlogYouTubeAdsOtelVideoStratejisi"
   }
 };
 

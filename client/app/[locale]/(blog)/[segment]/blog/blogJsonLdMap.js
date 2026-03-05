@@ -36152,10 +36152,689 @@ export const BLOG_JSONLD_MAP = {
 },
 
 
-"2026-sosyal-commerce-uygulama-ici-rezervasyon":{},
+"2026-sosyal-commerce-uygulama-ici-rezervasyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon",
+      "name": "2026’da Sosyal Commerce ve Uygulama İçi Rezervasyon: Oteller İçin Yeni Satış Kanalları",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Social Commerce",
+        "In-App Booking",
+        "Instagram",
+        "TikTok",
+        "Booking Button",
+        "PMS",
+        "Revenue Management"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#article",
+      "headline": "2026’da Sosyal Commerce ve Uygulama İçi Rezervasyon: Oteller İçin Yeni Satış Kanalları",
+      "description": "2026’da sosyal commerce ile Instagram/TikTok’ta oda-paket satışı başlatın: “Book Now”, mini landing, UTM, PMS-gelir verisi entegrasyonu ve parity/KVKK notları.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "2026 sosyal commerce otel",
+        "uygulama içi rezervasyon otel",
+        "instagram book now ile oda satmak",
+        "tiktok booking button resort",
+        "otel sosyal commerce"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Sosyal Commerce & In-App Rezervasyon", "item": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da sosyal commerce oteller için ne ifade ediyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda/paket/deneyim rezervasyonunu sosyal platformdan başlatan yeni bir satış katmanı ifade eder. Amaç, keşiften aksiyona geçişi hızlandırıp talebi ölçülebilir hale getirmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Instagram ve TikTok üzerinden uygulama içi rezervasyon nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TikTok’ta Booking.com entegrasyonu gibi modellerde kullanıcı otel sayfasından tarih seçerek uygulama deneyimi içinde rezervasyon yapabilir. Instagram’da ise çoğu otel link sticker + mini landing ile in-app browser üzerinden akış kurar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“Book Now” butonları otel satışını artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sürtünmeyi azaltabildiği için tıklama ve talep sinyallerini artırabilir; ancak etki mini landing kalitesi, CTA netliği ve kapanış SLA’sına bağlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal commerce verileri PMS ve gelir yönetimi ile nasıl birleşir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UTM ile kaynak ayrıştırılır, mini landing/WhatsApp event’leri izlenir, lead PMS/CRM’de kampanya etiketiyle kaydolur ve revenue ekibi paket talebini bu panelden okur."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sosyal-commerce-uygulama-ici-rezervasyon#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
 
-"2026-otel-canli-yayin-oda-turu-ve-soru-cevap":{}
+"2026-otel-canli-yayin-oda-turu-ve-soru-cevap":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap",
+      "name": "2026’da Oteller İçin Canlı Yayın Trendleri: Oda Turları ve Soru-Cevap Formatları",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Live Stream",
+        "Room Tour",
+        "Q&A",
+        "Instagram Live",
+        "TikTok LIVE",
+        "YouTube Live",
+        "Booking Intent",
+        "WhatsApp CTA"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#article",
+      "headline": "2026’da Oteller İçin Canlı Yayın Trendleri: Oda Turları ve Soru-Cevap Formatları",
+      "description": "Otel canlı yayın rehberi: oda turu + soru-cevap akışı, Instagram/TikTok/YouTube Live farkları, moderasyon ve Wi-Fi test, live sonrası Reels/Shorts repurposing ve KPI ölçümü.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "2026 otel canlı yayın trendleri",
+        "oda turu live formatı",
+        "soru cevap otel instagram live",
+        "hotel live room tour",
+        "tiktok live hotel"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya",
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Canlı Yayın Trendleri", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da oteller için canlı yayınlar nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda turu + soru-cevap formatı ile güven üretin; yayın sonunda tek CTA ile web/WhatsApp’a yönlendirin ve kaydı Reels/Shorts’a bölerek ölçekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda turu canlı yayını nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "30 dakikalık akış kurun: kısa açılış → oda turu → tesis detayı → soru-cevap → sade CTA. Yayın öncesi ses/Wi-Fi test edin ve moderatör atayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Soru-cevap formatında otel live’ı nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önceden soru toplayın, live’da moderatör soruları sıralasın, sunucu kısa ve net cevap versin; detaylı fiyat/teklif DM/WhatsApp’ta kapatılsın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Canlı yayınların rezervasyona etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eş zamanlı izleyici, ortalama izlenme, soru sayısı, CTA tıklaması, DM/WhatsApp talebi ve lead→rezervasyon dönüşümü KPI’larını birlikte takip edin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#howto",
+      "name": "Oda Turu + Q&A Otel Canlı Yayını Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Run-of-show planını yaz",
+          "text": "Açılış (2 dk), oda turu (10 dk), tesis detayı (5 dk), Q&A (10 dk) ve kapanış CTA (2 dk) şeklinde 30 dakikalık akış oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Moderasyon ve teknik testi hazırla",
+          "text": "Sunucu + moderatör görevlendir, Wi-Fi/ses test yayını yap ve soru toplama (countdown/soru sticker) ile yayını duyur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Live sonrası klipleri üret ve ölç",
+          "text": "Live kaydını 6–10 klibe bölüp Reels/Shorts olarak 2 haftaya yay; izlenme süresi, soru sayısı ve CTA tıklaması KPI’larını raporla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-canli-yayin-oda-turu-ve-soru-cevap#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
 
+"2026-otel-ar-filter-vr-deneyim":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim",
+      "name": "AR Filtreler ve VR Deneyimler: 2026’da Oteller İçin Sosyal Medya’da Yeni Nesil Deneyim Pazarlaması",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Augmented Reality",
+        "Virtual Reality",
+        "360 Tour",
+        "Hotel Experience",
+        "Booking Intent",
+        "Destination Experience"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#article",
+      "headline": "AR Filtreler ve VR Deneyimler: 2026’da Oteller İçin Sosyal Medya’da Yeni Nesil Deneyim Pazarlaması",
+      "description": "AR filtre ve VR/360 turlar ile oteli “hissettir”: sosyal→landing→oda detayı→rezervasyon akışı, hız (lazy-load), hangi otel tipine uygun ve ROI ölçümü.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "2026 otel ar filtre ve vr",
+        "360 derece oda turu sosyal medya",
+        "immersive otel deneyim içerikleri",
+        "vr room tour for resorts",
+        "hotel ar filter 2026"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "2026 AR/VR Deneyim Pazarlaması", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AR filtreler oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AR filtreler, destinasyonu ve otel atmosferini kısa etkileşimlerle deneyimlettirerek ilgiyi artırır ve kullanıcıyı 360 tur/landing gibi kanıt içeriğine taşımak için köprü olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "VR oda turları sosyal medyada nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sosyal içerikte “Odayı 360° gör” gibi net bir mesaj verip kullanıcıyı hızlı bir VR landing’e yönlendirin. Landing’de oda tipi seçimi ve tek CTA (rezervasyon/WhatsApp) olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "360° otel turu rezervasyon kararını etkiler mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru kurgulandığında karar tereddüdünü azaltabilir; web’de kalma süresi ve oda detay tıklaması gibi sinyalleri artırdığı senaryolar görülebilir. Etki, hız ve CTA netliğine bağlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AR/VR yatırımı hangi otellere uygun?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çok alanlı 5* resort ve premium deneyim odaklı tesislerde VR/360 daha net fayda üretir. City hotel’de ise yatırım daha seçici yapılmalı; meeting/oda kanıtına odaklanmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#howto",
+      "name": "Otel AR/VR Deneyim Funnel Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Senaryoyu ve tek CTA’yı seç",
+          "text": "AR filtre (deneyim başlatma) ve VR/360 tur (kanıt) için hedef persona ve tek CTA hedefini belirle (VR landing veya WhatsApp)."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "VR landing’i hız odaklı kur",
+          "text": "360 içerikleri lazy-load ile yükle, oda tipi seçimi ve hotspot’ları ekle; CTA’yı görünür tut."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "UTM ve KPI paneliyle ölç",
+          "text": "Sosyal linkleri UTM ile işaretle; 360 landing view, oda detayı tıklama, CTA tıklama ve lead/rezervasyon KPI’larını raporla."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-ar-filter-vr-deneyim#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-otel-surdurulebilirlik-esg-sosyal-medya":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya",
+      "name": "2026’da Sürdürülebilirlik ve ESG Hikâye Anlatımı: Oteller İçin Sosyal Medya Stratejisi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Sustainability",
+        "ESG",
+        "Energy Saving",
+        "Water Management",
+        "Waste Reduction",
+        "Local Community",
+        "Certification",
+        "Guest Engagement"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#article",
+      "headline": "2026’da Sürdürülebilirlik ve ESG Hikâye Anlatımı: Oteller İçin Sosyal Medya Stratejisi",
+      "description": "Otel ESG iletişimi: greenwashing’e düşmeden gerçek aksiyonları anlatın. Enerji–su–atık temaları, yerel iş birlikleri, sade infografikler, misafir katılımı ve şeffaf veri/sertifika dili.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "2026 otel sürdürülebilirlik sosyal medya",
+        "esg hikaye anlatımı oteller",
+        "greenwashing’den kaçınan otel içerikleri",
+        "hotel sustainability storytelling 2026",
+        "avoid greenwashing hotel social media"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "2026 ESG Hikâye Anlatımı", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da oteller için sürdürülebilirlik ve ESG iletişimi sosyal medyada nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abartılı slogan yerine gerçek aksiyonları ve ölçülebilir sonuçları sade biçimde anlatın. Enerji/su/atık ve yerel iş birliklerini kanıt formatlarıyla paylaşın; şeffaf olun ve KPI ile ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Greenwashing’e düşmeden sürdürülebilirlik hikâyeleri nasıl anlatılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğrulanamaz iddialardan kaçının; aksiyon + kapsam + misafire fayda cümlesi kurun. Belge/uygulama varsa gösterin, yoksa hedef/niyet diliyle şeffaf kalın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sürdürülebilirlik verileri sosyal medyada nasıl gösterilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rapor dili yerine 3 ikon + 3 satır yaklaşımı kullanın: ne yaptık, ne değişti, misafire etkisi ne. Detayı web sayfasına veya SSS’ye bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sertifikalar sosyal medyada nasıl anlatılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sertifika adını doğru yazın, kapsamını kısa açıklayın ve misafire etkisini söyleyin. “Sertifika var” demek yerine “ne denetlendi?” sorusuna cevap verin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#howto",
+      "name": "Otel ESG Sosyal Medya Hikâye Sistemi Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Aksiyon ve kanıt listesini çıkar",
+          "text": "Enerji, su, atık, yerel iş birliği ve topluluk alanlarında 10 gerçek aksiyon seç; her birine kanıt türü (foto, süreç, veri kartı) ata."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kanıt panosunu ve mesaj şablonunu kur",
+          "text": "Aksiyon + bağlam + misafire fayda formatını standartlaştır; greenwashing riskli söylemleri yasakla ve sertifikaları doğru kapsamla anlat."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile ölç ve seri üret",
+          "text": "Kaydetme, profil ziyareti ve tıklama gibi KPI’larla aylık öğrenim çıkar; en iyi temaları seri hâline getir."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-surdurulebilirlik-esg-sosyal-medya#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+//hotel3-6
+
+"youtube-ads-otel-video-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi",
+      "name": "Oteller İçin YouTube Reklamları: Video Stratejisi ve Kampanya Kurgusu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "YouTube Ads",
+        "In-Stream",
+        "Bumper Ads",
+        "Hotel Video",
+        "Destination Storytelling",
+        "Remarketing",
+        "Booking",
+        "Web Traffic"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi",
+      "headline": "Oteller İçin YouTube Reklamları: Video Stratejisi ve Kampanya Kurgusu",
+      "description": "Oteller için YouTube Ads’i üst–orta funnel’de kurgulayın: in-stream/bumper/discovery farkları, turizm personası hedefleme, storyboard ve Google/Meta entegrasyonu. Ölçüm: GA4+UTM.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "youtube otel reklam stratejisi",
+        "resort video kampanya kurgusu",
+        "bumper ve in-stream reklam farklari",
+        "hotel youtube ads strategy",
+        "in stream vs bumper for hotels"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#howto",
+      "name": "Oteller için YouTube video reklam kurgusu adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Konsepti seç", "text": "Tek video için tek persona ve tek konsept belirle (aile/lüks/SPA gibi)." },
+        { "@type": "HowToStep", "name": "Storyboard yaz", "text": "0–5 sn hook, 5–15 sn kanıt, 15–30 sn CTA akışını oluştur." },
+        { "@type": "HowToStep", "name": "Formatı seç", "text": "Bumper ile ısıtma, in-stream ile hikâye/kanıt; discovery ile keşif hedefini planla." },
+        { "@type": "HowToStep", "name": "Hedeflemeyi katmanla", "text": "Ülke/pazar + ilgi + remarketing sinyalini birlikte kullan." },
+        { "@type": "HowToStep", "name": "UTM ve GA4 ile ölç", "text": "YouTube trafiğini UTM ile ayır, GA4/Looker’da etkiyi izleyip optimize et." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Oteller İçin YouTube Reklamları: Video Stratejisi ve Kampanya Kurgusu", "item": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/youtube-ads-otel-video-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için YouTube reklamları nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube, otellerde üst–orta funnel’de hikâye anlatır ve kitleyi ısıtır. Bumper/in-stream formatlarıyla doğru personaya ulaşıp video sonunda web/OTA’ya yönlendirme yapılır; etki GA4’te UTM ile izlenir ve remarketing ile rezervasyona taşınır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "In-stream ve bumper reklamlar arasında ne fark vardır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bumper 6 saniyede tek vaatle hızlı ısıtma yapar; in-stream ise 15–30 saniyede mini hikâye ve kanıt sunar. Otellerde en iyi sonuç genelde ikisini birlikte kullanıp farklı katmanlara dağıtmakla gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube reklamları gerçekten rezervasyon getirir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğrudan rezervasyon her zaman görünmeyebilir; YouTube çoğu otelde awareness/consideration üretir. Etki; markalı arama, direkt trafik ve remarketing dönüşümünde artış olarak ortaya çıkabilir, bu yüzden ölçüm seti buna göre kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube Ads’i Google ve Meta kampanyalarıyla birlikte nasıl kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "YouTube ile kitleyi ısıtıp video izleyenleri remarketing segmenti yapın; Google’da brand/generic yakalama katmanını çalıştırın, Meta’da teklif ve risk azaltma mesajıyla tekrar temas kurun. Bu üçlü birlikte çalıştığında dönüşüm maliyeti düşebilir."
+          }
+        }
+      ]
+    }
+  ]
+}
     }
   },
   en: {

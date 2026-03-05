@@ -14684,6 +14684,161 @@ export const BLOG_MEDIA_MAP = {
       alt: "Live sonrası Reels Shorts klip planını gösteren deliverable kartı görseli",
       caption: "Live sonrası Reels Shorts klip planını gösteren deliverable kartı görseli"
     }
+  },
+
+
+    "2026-otel-ar-filter-vr-deneyim":{
+    banner: {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-1.webp",
+      alt: "AR Filtreler ve VR Deneyimler: 2026’da Oteller İçin Sosyal Medya’da Yeni Nesil Deneyim Pazarlaması",
+      caption: "AR Filtreler ve VR Deneyimler: 2026’da Oteller İçin Sosyal Medya’da Yeni Nesil Deneyim Pazarlaması"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-2.webp",
+      alt: "Sosyal→AR/VR→landing→rezervasyon akış özeti görseli",
+      caption: "Sosyal→AR/VR→landing→rezervasyon akış özeti görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-3.webp",
+      alt: "AR/VR strateji bölüm ayırıcı görseli",
+      caption: "AR/VR strateji bölüm ayırıcı görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-4.webp",
+      alt: "ROI ve teknik notlar bölüm geçiş görseli",
+      caption: "ROI ve teknik notlar bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-5.webp",
+      alt: "AR/VR funnel: post→deneyim→landing→oda→CTA diyagramı",
+      caption: "AR/VR funnel: post→deneyim→landing→oda→CTA diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-6.webp",
+      alt: "Hız/lazy-load/CTA teknik kontrol kartı",
+      caption: "Hız/lazy-load/CTA teknik kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-7.webp",
+      alt: "AR/VR KPI kartı: landing→oda→CTA",
+      caption: "AR/VR KPI kartı: landing→oda→CTA"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-24/Hotel2-24-8.webp",
+      alt: "AR filtre storyboard + 360 tur ekran mockup’ı",
+      caption: "AR filtre storyboard + 360 tur ekran mockup’ı"
+    }
+  },
+
+
+
+  "2026-otel-surdurulebilirlik-esg-sosyal-medya":{
+    banner: {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-1.webp",
+      alt: "2026’da Sürdürülebilirlik ve ESG Hikâye Anlatımı: Oteller İçin Sosyal Medya Stratejisi",
+      caption: "2026’da Sürdürülebilirlik ve ESG Hikâye Anlatımı: Oteller İçin Sosyal Medya Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-2.webp",
+      alt: "Aksiyon→veri→misafir katılımı→güven akışı",
+      caption: "Aksiyon→veri→misafir katılımı→güven akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-3.webp",
+      alt: "ESG tema seti bölüm geçişi",
+      caption: "ESG tema seti bölüm geçişi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-4.webp",
+      alt: "Veri/sertifika ve katılımcı formatlar geçişi",
+      caption: "Veri/sertifika ve katılımcı formatlar geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-5.webp",
+      alt: "ESG hikâye akışı: kanıt→format→CTA→tercih",
+      caption: "ESG hikâye akışı: kanıt→format→CTA→tercih"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-6.webp",
+      alt: "Greenwashing’den kaçınma + iddia kontrol kartı",
+      caption: "Greenwashing’den kaçınma + iddia kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-7.webp",
+      alt: "Enerji/su/atık azaltımı ikon infografik + KPI kartı",
+      caption: "Enerji/su/atık azaltımı ikon infografik + KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-25/Hotel2-25-8.webp",
+      alt: "Yerel iş ortakları/projeler kolajı + ESG pano deliverable",
+      caption: "Yerel iş ortakları/projeler kolajı + ESG pano deliverable"
+    }
+  },
+
+  //hotel3-6
+
+  "youtube-ads-otel-video-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-1.webp",
+      alt: "Oteller İçin YouTube Reklamları: Video Stratejisi ve Kampanya Kurgusu",
+      caption: "Oteller İçin YouTube Reklamları: Video Stratejisi ve Kampanya Kurgusu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-2.webp",
+      alt: "YouTube Google Meta entegrasyonunu otel bağlamında anlatan görsel",
+      caption: "YouTube Google Meta entegrasyonunu otel bağlamında anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-3.webp",
+      alt: "Pazar ilgi remarketing hedeflemesini ayıran YouTube divider görseli",
+      caption: "Pazar ilgi remarketing hedeflemesini ayıran YouTube divider görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-4.webp",
+      alt: "YouTube Google Meta senaryolarını ayıran bölüm görseli",
+      caption: "YouTube Google Meta senaryolarını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-5.webp",
+      alt: "YouTube storyboard ve funnel akışını otel reklamında gösteren diyagram",
+      caption: "YouTube storyboard ve funnel akışını otel reklamında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-6.webp",
+      alt: "Otel YouTube video storyboard kontrol listesini özetleyen kart",
+      caption: "Otel YouTube video storyboard kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-7.webp",
+      alt: "YouTube kampanya performansını VTR trafik ve etkiyle özetleyen kart",
+      caption: "YouTube kampanya performansını VTR trafik ve etkiyle özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-6/Hotel3-6-8.webp",
+      alt: "Otel için üç YouTube kampanya setini ve çıktıları gösteren kart",
+      caption: "Otel için üç YouTube kampanya setini ve çıktıları gösteren kart"
+    }
   }
   
 
