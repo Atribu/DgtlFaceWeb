@@ -35863,7 +35863,298 @@ export const BLOG_JSONLD_MAP = {
       "cssSelector": ["h1", ".answer-block"]
     }
   ]
-}
+},
+
+"otel-sosyal-medya-ajans-secimi-ve-ic-ekip":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip",
+      "name": "İç Ekip mi Ajans mı? Oteller İçin Sosyal Medya Ajansı Seçimi ve Hibrit Model Rehberi",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "Social Media Agency",
+        "In-House Team",
+        "Hybrid Model",
+        "KPI",
+        "Reporting",
+        "Content Production",
+        "Hotel Marketing"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#article",
+      "headline": "İç Ekip mi Ajans mı? Oteller İçin Sosyal Medya Ajansı Seçimi ve Hibrit Model Rehberi",
+      "description": "İç ekip vs ajans karar rehberi: artı/eksi tablosu, otel tipine göre model seçimi, hibrit operasyon şeması, ajans seçim checklist’i, sözleşme maddeleri ve KPI/raporlama.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya ajansı seçimi",
+        "iç ekip vs ajans sosyal medya",
+        "hibrit model otel sosyal medya",
+        "in house vs agency hotel social"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "Ajans mı İç Ekip mi?", "item": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medyası için iç ekip mi ajans mı daha doğru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İç ekip kontrol ve marka tonunda güçlüdür; ajans ölçek ve uzmanlık getirir. Çoğu otelde en verimli yapı, iç koordinatör + ajans üretim + call center kapanış hibritidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ajans seçerken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turizm referansı, üretim kapasitesi, KPI raporlama disiplini, kriz/yorum yönetimi ve içerik haklarının yazılı olması kritik kriterlerdir. Onay SLA ve revizyon sınırı net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hibrit model (otel içi sorumlu + ajans) nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel iç koordinatör brief ve onayı yönetir; ajans içerik üretir; DM/WhatsApp taleplerini call center kapatır ve PMS’de kayıt açar. Haftalık KPI toplantısıyla iyileştirme yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sosyal medya ajansı performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İçerik KPI’ları (kaydetme/profil), aksiyon KPI’ları (tıklama/WhatsApp) ve sonuç KPI’ları (lead→rezervasyon) birlikte izlenmelidir. Dashboard ve düzenli rapor şarttır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#howto",
+      "name": "Otel İç Ekip / Ajans / Hibrit Model Seçimi",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "İçerik ve operasyon ihtiyacını çıkar",
+          "text": "Aylık içerik hacmi, sezon yoğunluğu, foto–video kapasitesi ve DM/WhatsApp yanıt SLA ihtiyacını belirle."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Modeli artı/eksi tablosuyla puanla",
+          "text": "İç ekip, ajans ve hibrit modelleri kontrol–ölçek–hız–maliyet ekseninde puanlayıp en uygun yapıyı seç."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sözleşme ve KPI raporlamayı kilitle",
+          "text": "Sözleşmede raporlama, toplantı, kriz ve hakları netleştir; KPI paneliyle performansı düzenli izle ve 90 günde bir modeli gözden geçir."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-sosyal-medya-ajans-secimi-ve-ic-ekip#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+"2026-otel-sosyal-medya-yapay-zeka-chatbot":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot",
+      "name": "2026’da Otel Sosyal Medyasında Yapay Zekâ ve Chatbot Trendleri",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": [
+        "AI Assistant",
+        "Chatbot",
+        "Hotel",
+        "Instagram DM",
+        "WhatsApp",
+        "PMS",
+        "Call Center",
+        "Reservation Intent"
+      ],
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#breadcrumb" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#article",
+      "headline": "2026’da Otel Sosyal Medyasında Yapay Zekâ ve Chatbot Trendleri",
+      "description": "2026’da otel sosyal medyada AI & chatbot: DM/WhatsApp SSS ve ön-rezervasyon akışı, insan+AI görev bölümü, PMS/call center entegrasyonu, KVKK ve KPI’larla ölçüm.",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#webpage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "keywords": [
+        "otel sosyal medya yapay zeka chatbot",
+        "2026 otel ai trendleri",
+        "dm chatbot ile rezervasyon",
+        "instagram dm chatbot",
+        "whatsapp business ai"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/sosyal-medya#service",
+      "name": "Otel Sosyal Medya Yönetimi",
+      "serviceType": "Otel Sosyal Medya Yönetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"],
+      "url": "https://dgtlface.com/tr/otel/sosyal-medya"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Sosyal Medya Yönetimi", "item": "https://dgtlface.com/tr/otel/sosyal-medya" },
+        { "@type": "ListItem", "position": 4, "name": "2026 AI & Chatbot Trendleri", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da oteller sosyal medyada yapay zekâyı nasıl kullanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI’yi SSS ve niyet toplamada kullanın; fiyat/şikâyet/karmaşık rezervasyonda insan onayı koyun. DM/WhatsApp akışını call center ve PMS kaydıyla bağlayıp KPI ile yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel sosyal medya chatbot’ları nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bot karşılama yapar, tekrar eden soruları yanıtlar ve tarih/kişi/oda gibi ön-rezervasyon niyeti toplar. Ardından insan ekibe devredip teklif ve PMS kaydıyla kapanışa bağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI ile yazılan içerikler misafir deneyimini bozar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ham AI metni marka tonunu bozabilir; editör kontrolü şarttır. AI taslak üretir, insan doğruluk ve ton kontrolü yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ destekli sosyal medya yönetimi güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KVKK disiplini, şeffaflık ve insan onay kapılarıyla güvenli hale getirilebilir. Kamuya açık alanda kişisel veri paylaşılmaz; riskli konularda insan devreye girer."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#howto",
+      "name": "Otel DM/WhatsApp Chatbot Akışı Kurulumu",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "SSS ve niyet toplama akışını tanımla",
+          "text": "Botun yanıtlayacağı tekrar eden soruları belirle ve tarih/kişi/oda bilgilerini toplayacak soru setini oluştur."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İnsan onay kapılarını yerleştir",
+          "text": "Fiyat, şikâyet/kriz ve karmaşık rezervasyonlarda botu insana devredecek kuralları tanımla."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS/CRM kaydı ve KPI panelini kur",
+          "text": "Lead kaydını zorunlu yap; yanıt süresi, kaçan mesaj ve mesaj→rezervasyon dönüşüm KPI’larını dashboard’da takip et."
+        }
+      ]
+    },
+    {
+      "@type": "SpeakableSpecification",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-sosyal-medya-yapay-zeka-chatbot#speakable",
+      "cssSelector": ["h1", ".answer-block"]
+    }
+  ]
+},
+
+
+"2026-sosyal-commerce-uygulama-ici-rezervasyon":{},
+
+"2026-otel-canli-yayin-oda-turu-ve-soru-cevap":{}
 
     }
   },

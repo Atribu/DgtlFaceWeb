@@ -360,7 +360,12 @@ export const BLOG_MAP = {
     "adults-only-balayi-otel-sosyal-medya":"BlogAdultsOnlyBalayiOtelSosyalMedya",
     "city-hotel-is-seyahati-sosyal-medya":"BlogCityHotelIsSeyahatiSosyalMedya",
     "otel-sosyal-medya-fiyat-paylasimi-ve-seffaflik":"BlogOtelSosyalMedyaFiyatPaylasimiVeSeffaflik",
-    "otel-sosyal-medya-destinasyon-is-ortaklari":"BlogOtelSosyalMedyaDestinasyonIsOrtaklari"
+    "otel-sosyal-medya-destinasyon-is-ortaklari":"BlogOtelSosyalMedyaDestinasyonIsOrtaklari",
+
+    "otel-sosyal-medya-ajans-secimi-ve-ic-ekip":"BlogOtelSosyalMedyaAjansSecimiVeIcEkip",
+    "2026-otel-sosyal-medya-yapay-zeka-chatbot":"Blog2026OtelSosyalMedyaYapayZekaChatbot",
+    "2026-sosyal-commerce-uygulama-ici-rezervasyon":"Blog2026SosyalCommerceUygulamaIciRezervasyon",
+    "2026-otel-canli-yayin-oda-turu-ve-soru-cevap":"Blog2026OtelCanliYayinOdaTuruVeSoruCevap"
   }
 };
 

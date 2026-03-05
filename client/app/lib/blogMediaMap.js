@@ -14480,6 +14480,210 @@ export const BLOG_MEDIA_MAP = {
       alt: "Partner matrisi + storyboard + paket mockup deliverable kartı",
       caption: "Partner matrisi + storyboard + paket mockup deliverable kartı"
     }
+  },
+
+
+   "otel-sosyal-medya-ajans-secimi-ve-ic-ekip":{
+      banner: {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-1.webp",
+      alt: "İç Ekip mi Ajans mı? Oteller İçin Sosyal Medya Ajansı Seçimi ve Hibrit Model Rehberi",
+      caption: "İç Ekip mi Ajans mı? Oteller İçin Sosyal Medya Ajansı Seçimi ve Hibrit Model Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-2.webp",
+      alt: "Maliyet–kalite–hız ekseninde model etkisi görseli",
+      caption: "Maliyet–kalite–hız ekseninde model etkisi görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-3.webp",
+      alt: "Model karşılaştırma bölüm geçiş görseli",
+      caption: "Model karşılaştırma bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-4.webp",
+      alt: "Hibrit model ve sözleşme bölüm geçiş görseli",
+      caption: "Hibrit model ve sözleşme bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-5.webp",
+      alt: "Hibrit operasyon şeması (otel+ajans+call center)",
+      caption: "Hibrit operasyon şeması (otel+ajans+call center)"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-6.webp",
+      alt: "Ajans seçim checklist kartı",
+      caption: "Ajans seçim checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-7.webp",
+      alt: "KPI & raporlama panel kartı",
+      caption: "KPI & raporlama panel kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-20/Hotel2-20-8.webp",
+      alt: "Karar aracı + checklist deliverable kartı",
+      caption: "Karar aracı + checklist deliverable kartı"
+    }
+  },
+
+
+  "2026-otel-sosyal-medya-yapay-zeka-chatbot":{
+      banner: {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-1.webp",
+      alt: "2026’da Otel Sosyal Medyasında Yapay Zekâ ve Chatbot Trendleri",
+      caption: "2026’da Otel Sosyal Medyasında Yapay Zekâ ve Chatbot Trendleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-2.webp",
+      alt: "AI ve insan görev paylaşımıyla otel mesaj trafiğini yöneten konsept görseli",
+      caption: "AI ve insan görev paylaşımıyla otel mesaj trafiğini yöneten konsept görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-3.webp",
+      alt: "Otel sosyal medyada AI trendleri bölüm geçiş görseli",
+      caption: "Otel sosyal medyada AI trendleri bölüm geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-4.webp",
+      alt: "Chatbot akışı ve ölçüm bölüm geçiş görseli",
+      caption: "Chatbot akışı ve ölçüm bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-5.webp",
+      alt: "DM/WhatsApp chatbot ön-rezervasyon ve PMS kaydı akış diyagramı",
+      caption: "DM/WhatsApp chatbot ön-rezervasyon ve PMS kaydı akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-6.webp",
+      alt: "3 chatbot senaryosu ve insan onay kapıları kontrol kartı",
+      caption: "3 chatbot senaryosu ve insan onay kapıları kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-7.webp",
+      alt: "AI chatbot sonrası yanıt süresi ve dönüşüm KPI kartı",
+      caption: "AI chatbot sonrası yanıt süresi ve dönüşüm KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-21/Hotel2-21-8.webp",
+      alt: "AI içerik fikirleri ve caption taslağı örneği, otel bağlamında mockup",
+      caption: "AI içerik fikirleri ve caption taslağı örneği, otel bağlamında mockup"
+    }
+  },
+
+
+  "2026-sosyal-commerce-uygulama-ici-rezervasyon":{
+    banner: {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-1.webp",
+      alt: "2026’da Sosyal Commerce ve Uygulama İçi Rezervasyon: Oteller İçin Yeni Satış Kanalları",
+      caption: "2026’da Sosyal Commerce ve Uygulama İçi Rezervasyon: Oteller İçin Yeni Satış Kanalları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-2.webp",
+      alt: "Kanal rol haritası + otel satış akışı",
+      caption: "Kanal rol haritası + otel satış akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-3.webp",
+      alt: "Sosyal commerce kavramı bölüm geçişi",
+      caption: "Sosyal commerce kavramı bölüm geçişi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-4.webp",
+      alt: "PMS & revenue veri köprüsü bölüm geçişi",
+      caption: "PMS & revenue veri köprüsü bölüm geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-5.webp",
+      alt: "post→buton→mini landing→rezervasyon akışı",
+      caption: "post→buton→mini landing→rezervasyon akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-6.webp",
+      alt: "paket mesajı + koşul özeti + tek CTA kontrol kartı",
+      caption: "paket mesajı + koşul özeti + tek CTA kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-7.webp",
+      alt: "tıklama→lead→rezervasyon KPI paneli",
+      caption: "tıklama→lead→rezervasyon KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-22/Hotel2-22-8.webp",
+      alt: "Book/Shop now butonlu post mockup’ları",
+      caption: "Book/Shop now butonlu post mockup’ları"
+    }
+  },
+
+
+  "2026-otel-canli-yayin-oda-turu-ve-soru-cevap":{
+    banner: {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-1.webp",
+      alt: "2026’da Oteller İçin Canlı Yayın Trendleri: Oda Turları ve Soru-Cevap Formatları",
+      caption: "2026’da Oteller İçin Canlı Yayın Trendleri: Oda Turları ve Soru-Cevap Formatları"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-2.webp",
+      alt: "Canlı yayın akışını açılış tur soru cevap CTA ile özetleyen görsel",
+      caption: "Canlı yayın akışını açılış tur soru cevap CTA ile özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-3.webp",
+      alt: "Otel canlı yayın planı ve hazırlık adımlarını ayıran bölüm görseli",
+      caption: "Otel canlı yayın planı ve hazırlık adımlarını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-4.webp",
+      alt: "Platform farkları ve repurposing bölüm geçiş görseli",
+      caption: "Platform farkları ve repurposing bölüm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-5.webp",
+      alt: "Canlı yayın akışı oda turu ve Q&A adımlarını gösteren diyagram",
+      caption: "Canlı yayın akışı oda turu ve Q&A adımlarını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-6.webp",
+      alt: "Sunucu moderatör görevleri ve teknik hazırlık kontrol kartı görseli",
+      caption: "Sunucu moderatör görevleri ve teknik hazırlık kontrol kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-7.webp",
+      alt: "Canlı yayın KPI setini gösteren otel satış niyeti kartı görseli",
+      caption: "Canlı yayın KPI setini gösteren otel satış niyeti kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel2-23/Hotel2-23-8.webp",
+      alt: "Live sonrası Reels Shorts klip planını gösteren deliverable kartı görseli",
+      caption: "Live sonrası Reels Shorts klip planını gösteren deliverable kartı görseli"
+    }
   }
   
 
