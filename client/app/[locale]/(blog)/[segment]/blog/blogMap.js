@@ -371,7 +371,9 @@ export const BLOG_MAP = {
 
 
     //otel3-6
-    "youtube-ads-otel-video-stratejisi":"BlogYouTubeAdsOtelVideoStratejisi"
+    "youtube-ads-otel-video-stratejisi":"BlogYouTubeAdsOtelVideoStratejisi",
+    "otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi":"BlogOtelReklamlarindaGeoVeUlkeHedeflemeStratejisi",
+    "otel-reklam-kreatif-en-iyi-uygulamalar":"BlogOtelReklamKreatifEnIyiUygulamalar"
   }
 };
 

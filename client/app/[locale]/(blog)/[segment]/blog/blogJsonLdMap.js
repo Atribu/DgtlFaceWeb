@@ -36834,6 +36834,240 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi",
+      "name": "Ülke ve GEO Hedefleme: Otel Reklamlarında Pazar Bazlı Strateji Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "GEO Targeting",
+        "Market Targeting",
+        "Germany",
+        "Russia",
+        "United Kingdom",
+        "Seasonality",
+        "Channel Mix",
+        "Hotel Campaign Budget"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi",
+      "headline": "Ülke ve GEO Hedefleme: Otel Reklamlarında Pazar Bazlı Strateji Nasıl Kurulur?",
+      "description": "Otel reklamlarında ülke ve GEO hedeflemeyi stratejiye çevirin: pazar seçimi (DE/RU/UK), kanal×bütçe matrisi, tatil dönemlerine göre zamanlama ve OTA/SEO/call center uyumu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel reklam geo hedefleme",
+        "almanya rusya pazari otel reklam",
+        "antalya bodrum icin pazar bazli strateji",
+        "hotel geo targeting strategy"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Ülke ve GEO Hedefleme: Otel Reklamlarında Pazar Bazlı Strateji Nasıl Kurulur?", "item": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otellerde reklam hedeflemesi hangi ülkelere göre yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otelin konsepti, sezonu ve geçmiş satış dağılımına göre 2–3 ana pazar seçilerek başlanmalıdır (ör. DE/RU/UK). Her pazar için sezon takvimi, mesaj/teklif ve kanal karması ayrı planlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Antalya için DE ve RU pazarına nasıl reklam verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Antalya/Belek/Side gibi bölgelerde DE ve RU pazarları ayrı ülke+dil kampanya setleriyle yönetilmelidir. Mesaj ve zamanlama tatil dönemlerine göre uyarlanmalı, kanal karması rol paylaşımıyla kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ülke bazlı otel reklam bütçesi nasıl ayrılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bütçe tek havuz yerine pazar bazlı satırlara ayrılmalı; pazar×kanal×sezon matrisinde planlanmalıdır. ROAS/CPA hedefleri pazar bazında izlenip düzenli revize edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GEO hedefleme OTA ve SEO stratejisiyle nasıl uyumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reklam lokasyon sinyalleri SEO içerikleri ve Google Business Profile ile çelişmemelidir. OTA/direkt avantaj mesajları tutarlı olmalı ve call center pazar bazlı taleplere hazır olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-kreatif-en-iyi-uygulamalar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar",
+      "name": "Yüksek Dönüşüm Getiren Otel Reklam Kreatifleri: Görsel, Metin ve Teklif En İyi Uygulamalar",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Ad Creative",
+        "Hotel Images",
+        "Copywriting",
+        "CTA",
+        "Social Proof",
+        "Funnel Stage"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar",
+      "headline": "Yüksek Dönüşüm Getiren Otel Reklam Kreatifleri: Görsel, Metin ve Teklif En İyi Uygulamalar",
+      "description": "Yüksek dönüşüm getiren otel reklam kreatifleri: oda+deneyim+destinasyon görselleri, fayda odaklı kısa metinler, net CTA ve funnel bazlı teklif kurgusu. Test edin, iyileştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel reklam kreatif ornekleri",
+        "otel reklam metni nasil yazilir",
+        "fiyat ve fayda odakli teklif yapilari",
+        "hotel ad creative best practices"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Yüksek Dönüşüm Getiren Otel Reklam Kreatifleri: Görsel, Metin ve Teklif En İyi Uygulamalar", "item": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-kreatif-en-iyi-uygulamalar",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel dijital reklamlarında nasıl görseller kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda + deneyim + destinasyon/kanıt dengesini kurun; tek fotoğrafa sıkışmayın. Profesyonel kaliteyi korurken UGC hissi veren doğal karelerle güveni destekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Reklam metninde ne yazmalı, ne yazmamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa ama fayda odaklı yazın: başlıkta konsept+fayda, açıklamada kanıt+risk azaltma verin. Kanıtsız süperlatif ve çoklu CTA’dan kaçının."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat mı fayda mı öne çıkarılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyat tek başına mesaj olursa OTA karşılaştırmasını tetikler; fayda+kanıt+risk azaltma kombinasyonu daha ikna edicidir. Fiyatı netleştirici katman olarak kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Üst ve alt funnel kampanyalar için kreatifler nasıl farklılaşmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst katmanda konsept ve destinasyon, alt katmanda risk azaltma ve net CTA çalışır. Aynı kreatifi her yerde kullanmak yerine üst/orta/alt setleri ayrı üretin."
+          }
+        }
+      ]
+    }
+  ]
 }
     }
   },

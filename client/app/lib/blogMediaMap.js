@@ -14839,6 +14839,108 @@ export const BLOG_MEDIA_MAP = {
       alt: "Otel için üç YouTube kampanya setini ve çıktıları gösteren kart",
       caption: "Otel için üç YouTube kampanya setini ve çıktıları gösteren kart"
     }
+  },
+
+
+  
+  "otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-1.webp",
+      alt: "Ülke ve GEO Hedefleme: Otel Reklamlarında Pazar Bazlı Strateji Nasıl Kurulur?",
+      caption: "Ülke ve GEO Hedefleme: Otel Reklamlarında Pazar Bazlı Strateji Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-2.webp",
+      alt: "Pazar haritası mesaj zamanlama kanal karmasını otel bağlamında anlatan görsel",
+      caption: "Pazar haritası mesaj zamanlama kanal karmasını otel bağlamında anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-3.webp",
+      alt: "Hedef pazar haritası çıkarma adımlarını otel reklamında ayıran görsel",
+      caption: "Hedef pazar haritası çıkarma adımlarını otel reklamında ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-4.webp",
+      alt: "Tatil dönemleri ve saat dilimi zamanlamasını otel reklamında vurgulayan görsel",
+      caption: "Tatil dönemleri ve saat dilimi zamanlamasını otel reklamında vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-5.webp",
+      alt: "DE RU UK pazarlarını kanal karmasıyla otel funnel akışında gösteren diyagram",
+      caption: "DE RU UK pazarlarını kanal karmasıyla otel funnel akışında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-6.webp",
+      alt: "Pazar bazlı mesaj ve teklif uyarlamasını otel reklamında özetleyen kart",
+      caption: "Pazar bazlı mesaj ve teklif uyarlamasını otel reklamında özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-7.webp",
+      alt: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı”",
+      caption: "Pazar bazlı ROAS CPA ve doluluk katkısını özetleyen otel performans kartı”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-8.webp",
+      alt: "Otel için pazar GEO stratejisi çıktıları ve deliverables kartı",
+      caption: "Otel için pazar GEO stratejisi çıktıları ve deliverables kartı"
+    }
+  },
+
+    "otel-reklam-kreatif-en-iyi-uygulamalar":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-1.webp",
+      alt: "Yüksek Dönüşüm Getiren Otel Reklam Kreatifleri: Görsel, Metin ve Teklif En İyi Uygulamalar",
+      caption: "Yüksek Dönüşüm Getiren Otel Reklam Kreatifleri: Görsel, Metin ve Teklif En İyi Uygulamalar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-2.webp",
+      alt: "Üst orta alt funnel için otel kreatif farklılaştırmasını anlatan görsel",
+      caption: "Üst orta alt funnel için otel kreatif farklılaştırmasını anlatan görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-3.webp",
+      alt: "İyi ve kötü otel reklam kreatifi farkını vurgulayan bölüm görseli",
+      caption: "İyi ve kötü otel reklam kreatifi farkını vurgulayan bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-4.webp",
+      alt: "Fiyat fayda sosyal kanıt teklif dengesini gösteren bölüm görseli",
+      caption: "Fiyat fayda sosyal kanıt teklif dengesini gösteren bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-5.webp",
+      alt: "Otel reklamında görsel set ve funnel akışını gösteren diyagram",
+      caption: "Otel reklamında görsel set ve funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-6.webp",
+      alt: "Otel reklam metni başlık açıklama CTA checklist kartı",
+      caption: "Otel reklam metni başlık açıklama CTA checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-7.webp",
+      alt: "Otel reklam kreatiflerinin CTR ve dönüşüm etkisini özetleyen kart",
+      caption: "Otel reklam kreatiflerinin CTR ve dönüşüm etkisini özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-8.webp",
+      alt: "Otel reklam kreatif test setleri ve formatlarını gösteren proof kartı",
+      caption: "Otel reklam kreatif test setleri ve formatlarını gösteren proof kartı"
+    }
   }
   
 
