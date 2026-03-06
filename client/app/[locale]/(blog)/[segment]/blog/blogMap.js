@@ -381,7 +381,8 @@ export const BLOG_MAP = {
     "otel-brand-search-ve-marka-koruma-stratejisi":"BlogOtelBrandSearchVeMarkaKorumaStratejisi",
     "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":"BlogOtelReklamlarindaSezonDisiVeSonDakikaStratejileri",
     "otel-aile-cift-luxury-segment-reklam-mesajlari":"BlogOtelAileCiftLuxurySegmentReklamMesajlari",
-    "otel-crm-ve-misafir-verisi-ile-reklam":"BlogOtelCRMVeMisafirVerisiIleReklam"
+    "otel-crm-ve-misafir-verisi-ile-reklam":"BlogOtelCRMVeMisafirVerisiIleReklam",
+    "otel-cross-sell-ve-upsell-reklam-kampanyalari":"BlogOtelCrossSellVeUpsellReklamKampanyalari"
   }
 };
 

@@ -38068,6 +38068,125 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-cross-sell-ve-upsell-reklam-kampanyalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari",
+      "name": "Cross-Sell ve Upsell Kampanyaları ile Oda Dışı Geliri Nasıl Artırırsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Ancillary Revenue",
+        "Cross-Sell",
+        "Upsell",
+        "Spa",
+        "Restaurant",
+        "Activity",
+        "Pre-Arrival",
+        "In-Stay"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari",
+      "headline": "Cross-Sell ve Upsell Kampanyaları ile Oda Dışı Geliri Nasıl Artırırsınız?",
+      "description": "Oda dışı geliri artırmak için spa, restoran, bar ve aktiviteleri hedefleyen cross-sell/upsell kampanyaları kurgulayın; pre-arrival ve in-stay zamanlamasında segment bazlı tekliflerle geliri ve deneyimi yükseltin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel cross sell upsell kampanyalari",
+        "oda disi gelir artirma",
+        "spa restoran bar reklam stratejisi",
+        "hotel ancillary revenue campaigns",
+        "pre arrival upsell for resorts"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Cross-Sell ve Upsell Kampanyaları ile Oda Dışı Geliri Nasıl Artırırsınız?", "item": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-cross-sell-ve-upsell-reklam-kampanyalari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel oda dışı gelirini artırmak için nasıl reklam yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spa, restoran, bar ve aktiviteleri deneyim olarak paketleyip segmente göre hedefleyin. Teklifleri pre-arrival ve in-stay zamanlamasında sunun; UTM + CRM/PMS ile kullanım ve gelir KPI’larını birlikte ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Spa ve restoran gibi alanlara yönelik cross-sell kampanyaları nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segmenti belirleyip (aile/çift/luxury) ilgili deneyimi net bir teklif kartıyla sunun. Pre-arrival’da planlama, in-stay’de hızlı karar mesajı kullanın ve tek CTA ile rezervasyona bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Upsell teklifleri hangi aşamada gösterilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upgrade teklifleri check-in ve pre-arrival döneminde, geç çıkış ise konaklamanın son gününe yakın daha iyi çalışır. Stok ve operasyon senkronu şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cross-sell kampanyalarının başarısı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR/ROAS yanında kullanım oranı ve ancillary gelir birlikte izlenmelidir. UTM’li linkler ve CRM/PMS etiketleri ölçümü güvenilir kılar."
+          }
+        }
+      ]
+    }
+  ]
 }
     }
   },

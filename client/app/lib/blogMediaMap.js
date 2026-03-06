@@ -15352,6 +15352,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "Üç CRM temelli kampanya örneğini ve çıktıları gösteren proof kartı",
       caption: "Üç CRM temelli kampanya örneğini ve çıktıları gösteren proof kartı"
     }
+  },
+
+
+  "otel-cross-sell-ve-upsell-reklam-kampanyalari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-1.webp",
+      alt: "Cross-Sell ve Upsell Kampanyaları ile Oda Dışı Geliri Nasıl Artırırsınız?",
+      caption: "Cross-Sell ve Upsell Kampanyaları ile Oda Dışı Geliri Nasıl Artırırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-2.webp",
+      alt: "Pre arrival ve in stay teklif zamanlamasını otel gelir akışında gösteren görsel",
+      caption: "Pre arrival ve in stay teklif zamanlamasını otel gelir akışında gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-3.webp",
+      alt: "Oda dışı gelir ürün gruplarını spa restoran aktivite olarak ayıran bölüm görseli",
+      caption: "Oda dışı gelir ürün gruplarını spa restoran aktivite olarak ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-4.webp",
+      alt: "Pre arrival ve in stay teklif pencerelerini vurgulayan bölüm görseli",
+      caption: "Pre arrival ve in stay teklif pencerelerini vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-5.webp",
+      alt: "Konaklama öncesi ve sırasında cross sell upsell teklif akışını gösteren timeline diyagramı",
+      caption: "Konaklama öncesi ve sırasında cross sell upsell teklif akışını gösteren timeline diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-6.webp",
+      alt: "Spa restoran aktivite teklif kartlarını ve CTA örneklerini özetleyen kart",
+      caption: "Spa restoran aktivite teklif kartlarını ve CTA örneklerini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-7.webp",
+      alt: "Ancillary gelir ve kullanım oranı KPI’larını otel kampanyalarında özetleyen kart",
+      caption: "Ancillary gelir ve kullanım oranı KPI’larını otel kampanyalarında özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-17/Hotel3-17-8.webp",
+      alt: "Üç hazır cross sell senaryosunu otel gelir büyüme kartı olarak gösteren görsel",
+      caption: "Üç hazır cross sell senaryosunu otel gelir büyüme kartı olarak gösteren görsel"
+    }
   }
   
 
