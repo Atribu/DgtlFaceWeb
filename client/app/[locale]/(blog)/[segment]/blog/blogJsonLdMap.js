@@ -37068,6 +37068,520 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-reklamlarinda-ab-test-ve-deney-kulturu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu",
+      "name": "Otel Reklamlarında A/B Testi ve Deney Kültürü: Ne Test Edilmeli, Nasıl Yorumlanmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "AB Testing",
+        "Experiments",
+        "CTR",
+        "CPA",
+        "ROAS",
+        "Creative Testing",
+        "Audience Testing",
+        "Bid Strategy"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu",
+      "headline": "Otel Reklamlarında A/B Testi ve Deney Kültürü: Ne Test Edilmeli, Nasıl Yorumlanmalı?",
+      "description": "Otel reklamlarında A/B testi nasıl yapılır? Görsel, başlık, teklif, hedefleme ve landing testleri; örneklem–süre–güven, learning phase ve CTR/CPA/ROAS yorumlama. Sezonda ölçekleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel reklam ab testi",
+        "hangi ogeleri test etmeliyim",
+        "deney kulturu ile otel reklam optimizasyonu",
+        "hotel ad ab testing"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklamlarında A/B Testi ve Deney Kültürü: Ne Test Edilmeli, Nasıl Yorumlanmalı?", "item": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-ab-test-ve-deney-kulturu",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarında A/B testi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hipotez kurun, tek bir değişken seçin, control ve variant’ı aynı koşullarda çalıştırın. Learning phase ve yeterli süre/örneklem sonrası CTR–CPA–ROAS’ı birlikte yorumlayıp kazananı ölçekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi öğeleri test etmeliyim: görsel mi, metin mi, hedefleme mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En hızlı kazanım genelde kreatiften gelir: görsel, başlık ve CTA. Sonra teklif ve remarketing pencereleri; daha sonra pazar/hedefleme ve landing testleri gelir. Aynı testte çok değişken değiştirmeyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Test ne kadar süre çalıştırılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trafik ve conversion hacmine bağlıdır; önemli olan learning phase tamamlanması ve yeterli örneklemdir. Conversion azsa test süresini uzatın veya üst-funnel KPI’larına göre yön okuyun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A/B test sonuçları nasıl yorumlanır ve ölçeklenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek metrikle karar vermeyin; CTR artarken CPA bozulabilir. Sezon hedefinize göre CTR–CPA–ROAS’ı birlikte değerlendirip kazananı kademeli bütçe artışıyla ölçekleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-reklam-olcumleme-ve-attribusyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon",
+      "name": "Otel Reklamlarında Ölçümleme ve Attribüsyon: Hangi Kanal Gerçekten Satış Getiriyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Measurement",
+        "Attribution",
+        "Multi-touch Attribution",
+        "GA4",
+        "Looker Studio",
+        "SEO",
+        "Google Ads",
+        "Meta Ads",
+        "OTA",
+        "Call Center"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon",
+      "headline": "Otel Reklamlarında Ölçümleme ve Attribüsyon: Hangi Kanal Gerçekten Satış Getiriyor?",
+      "description": "Otel reklamlarında hangi kanal satış getiriyor? Last click’in ötesine geçin: GA4+UTM+call tracking ile SEO, Google Ads, Meta, OTA verisini birleştirin; çok kanallı dashboard kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel reklam olcumleme",
+        "multi touch attribusyon oteller",
+        "hangi kanal gercekten satis getiriyor",
+        "hotel marketing attribution",
+        "ga4 dashboard hotel channels"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#howto",
+      "name": "Otel reklamlarında ölçüm ve attribüsyon kurulum adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "KPI setini belirle", "text": "CTR/CPC, CPA/ROAS, rezervasyon ve gelir KPI’larını seç ve hedefleri yaz." },
+        { "@type": "HowToStep", "name": "GA4 event’lerini kur", "text": "Rezervasyon yolculuğu adımlarını (arama, initiate, purchase) GA4’te ölç." },
+        { "@type": "HowToStep", "name": "UTM standardını uygula", "text": "Kampanya/pazar/kanaI kırılımını UTM ile standartlaştır ve raporda ayır." },
+        { "@type": "HowToStep", "name": "Call tracking ekle", "text": "Çağrı kaynaklarını kampanyaya bağla ve call close rate/call revenue ölç." },
+        { "@type": "HowToStep", "name": "Dashboard kur ve oku", "text": "Looker Studio’da çok kanallı panel kurup last click yerine rol bazlı yorumla." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklamlarında Ölçümleme ve Attribüsyon: Hangi Kanal Gerçekten Satış Getiriyor?", "item": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklam-olcumleme-ve-attribusyon",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarında hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTR/CPC trafik kalitesini, CPA/ROAS verimi, rezervasyon sayısı ve geliri sonucu gösterir. Call center varsa close rate ve call revenue da eklenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Last click attribüsyon nedir, neden yeterli değildir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Last click dönüşümü son temasa yazar ve üst/orta funnel kanalların katkısını küçümser. Bu da bütçe kararlarını yanlış yönlendirebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEO, Ads ve sosyal medya satışa nasıl birlikte etki eder?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk temas SEO veya sosyal video ile olabilir; kullanıcı sonra Google’da araştırır, remarketing ile tekrar temas eder ve Search/Hotel Ads veya call center’da kapanış yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel reklam performansını dashboard ile nasıl takip ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 event’leri, UTM standardı ve call tracking verisini Looker Studio’da birleştirip özet+pazar+kanal+funnel+call center panelleriyle takip edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mobil-odakli-otel-reklamlari-click-to-call-whatsapp":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp",
+      "name": "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Mobile Advertising",
+        "Click-to-Call",
+        "WhatsApp Campaigns",
+        "Call Center",
+        "Landing Page",
+        "Event Tracking",
+        "Reservation"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#article",
+      "url": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp",
+      "headline": "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon",
+      "description": "Mobil odaklı otel reklamlarıyla rezervasyon alın: click-to-call ve WhatsApp kampanyaları, mobil landing hız optimizasyonu (CWV), net CTA ve GA4 event ölçümü + call center entegrasyonu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "mobil odakli otel reklam kampanyalari",
+        "click to call whatsapp ile rezervasyon",
+        "mobil rezervasyon sayfasi optimizasyonu",
+        "mobile hotel ads click to call"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#howto",
+      "name": "Mobilde click-to-call ve WhatsApp ile otel rezervasyonu kurgusu",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Tek hedefi seç", "text": "Mobil kampanyada call veya WhatsApp hedefini netleştir ve tek CTA kullan." },
+        { "@type": "HowToStep", "name": "Kampanyayı kur", "text": "Google’da call uzantısı/call ads, Meta’da WhatsApp hedefli kampanya seti oluştur." },
+        { "@type": "HowToStep", "name": "Mobil landing’i hızlandır", "text": "CWV iyileştir, tap target ve form sürtünmesini azalt; ilk ekranda net fayda ve kanıt ver." },
+        { "@type": "HowToStep", "name": "Event tracking ekle", "text": "tel: ve wa.me tıklamalarını GA4’te event olarak ölç ve UTM standardını uygula." },
+        { "@type": "HowToStep", "name": "Call center ile kapat", "text": "SLA, script ve call tracking ile kapanışı kampanya kaynaklarına bağla ve optimize et." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon", "item": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/mobil-odakli-otel-reklamlari-click-to-call-whatsapp",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarında mobil hedefleme neden önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil kullanıcılar hızlı karar verir ve arama/mesaj gibi hızlı aksiyon ister. Click-to-call ve WhatsApp akışı kurmak özellikle son dakika rezervasyonlarda dönüşümü artırabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Click-to-call kampanyaları oteller için nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google’da call extension veya call ads ile kullanıcıyı doğrudan aramaya yönlendirirsiniz. Başarı, çalışma saatine göre yayın, call tracking ve kapanış ölçümüyle gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "WhatsApp hedefli Meta kampanyaları nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reels/Story yerleşimlerinde tek CTA ile WhatsApp’a yönlendirin, hızlı yanıt şablonları hazırlayın ve UTM+GA4 event ile tıklamayı ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil rezervasyon sayfası nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hızlı açılmalı (CWV), CTA hiyerarşisi net olmalı ve form sürtünmesi minimum olmalıdır. İlk ekranda fiyat/uygunluk, koşul netliği ve kanıt görünmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-reklamlarinda-call-center-entegre-funnel":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel",
+      "name": "Otel Reklamlarında Call Center Entegre Funnel: Reklamdan Telefona, Telefondan PMS’e",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Call Center",
+        "Call Ads",
+        "Google Ads Call Extension",
+        "Phone Reservation",
+        "PMS Reservation",
+        "Reservation Funnel",
+        "Script",
+        "Booking"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel",
+      "headline": "Otel Reklamlarında Call Center Entegre Funnel: Reklamdan Telefona, Telefondan PMS’e",
+      "description": "Reklamdan gelen çağrıların call center script’iyle kapanıp PMS’te rezervasyona dönüştüğü modeli kurun. Call tracking ve dashboard ile reklam+call+geliri tek panelde izleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel reklam call center funnel",
+        "telefonla rezervasyon reklam modeli",
+        "call ads ve pms entegrasyonu",
+        "hotel call ads funnel",
+        "reservation call center integration"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#howto",
+      "name": "Otel reklamlarında call center entegre telefon rezervasyon funnel’ı kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Telefon odaklı kampanya kur", "text": "Google’da call ads/call extension, Meta’da call/WhatsApp kampanya setleri oluştur." },
+        { "@type": "HowToStep", "name": "Call tracking ekle", "text": "Numara havuzu ve kampanya bazlı numaralarla çağrıyı kaynağa bağla." },
+        { "@type": "HowToStep", "name": "Script’i standardize et", "text": "Teşhis–güven–teklif–kapanış iskeletiyle konuşma akışını yazılı hale getir." },
+        { "@type": "HowToStep", "name": "PMS’te kaynağı kaydet", "text": "Rezervasyon kaydında kampanya kaynağı/pazar alanlarını zorunlu tut." },
+        { "@type": "HowToStep", "name": "Dashboard ile yönet", "text": "GA4/Looker’da reklam harcaması + call KPI + PMS gelirini tek panelde izle ve optimize et." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Reklamlarında Call Center Entegre Funnel: Reklamdan Telefona, Telefondan PMS’e", "item": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-call-center-entegre-funnel",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel reklamlarında call center nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Telefon odaklı kampanyalar kurulur, call tracking ile çağrılar kampanyaya bağlanır, script/teklif standardı uygulanır ve PMS’te kaynak alanı zorunlu kaydedilerek dashboard’da raporlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Call ads ve telefon uzantıları otellerde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil arama anında kullanıcı tek tıkla arar; call extension/call ads bunu kolaylaştırır. Başarı, çalışma saatine göre yayın, call tracking ve kapanış ölçümüyle gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi verisi PMS ve reklam verisiyle nasıl birleşir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call tracking ile çağrı kaynağı kampanyaya bağlanır; PMS’te rezervasyon kaydına kaynak/pazar alanları girilir. Looker’da reklam+call KPI+PMS geliri birlikte okunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Telefonla rezervasyon funnel’ı nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reklam → call → script ile teşhis/teklif → PMS kayıt → dashboard döngüsü kurulmalıdır. Ölçüm, PMS kaydı veya script halkası koparsa ROI görünmez."
+          }
+        }
+      ]
+    }
+  ]
 }
     }
   },

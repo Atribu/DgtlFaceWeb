@@ -14907,7 +14907,7 @@ export const BLOG_MEDIA_MAP = {
     },
 
            "divider-03": {
-      src: "/images/blog/hotel/Hotel3-7/Hotel3-7-3.webp",
+      src: "/images/blog/hotel/Hotel3-8/Hotel3-8-3.webp",
       alt: "İyi ve kötü otel reklam kreatifi farkını vurgulayan bölüm görseli",
       caption: "İyi ve kötü otel reklam kreatifi farkını vurgulayan bölüm görseli"
     },
@@ -14940,6 +14940,211 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel3-8/Hotel3-8-8.webp",
       alt: "Otel reklam kreatif test setleri ve formatlarını gösteren proof kartı",
       caption: "Otel reklam kreatif test setleri ve formatlarını gösteren proof kartı"
+    }
+  },
+
+
+
+  "otel-reklamlarinda-ab-test-ve-deney-kulturu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-1.webp",
+      alt: "Otel Reklamlarında A/B Testi ve Deney Kültürü: Ne Test Edilmeli, Nasıl Yorumlanmalı?",
+      caption: "Otel Reklamlarında A/B Testi ve Deney Kültürü: Ne Test Edilmeli, Nasıl Yorumlanmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-2.webp",
+      alt: "Control ve variant mantığını tek değişken kuralıyla anlatan görsel",
+      caption: "Control ve variant mantığını tek değişken kuralıyla anlatan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-3.webp",
+      alt: "Test edilecek değişkenleri kreatif teklif hedefleme olarak ayıran bölüm görseli",
+      caption: "Test edilecek değişkenleri kreatif teklif hedefleme olarak ayıran bölüm görseli"
+    },
+
+    "divider-03": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-4.webp",
+      alt: "Kazananı ölçekleme ve kaybedenden öğrenme döngüsünü vurgulayan görsel",
+      caption: "Kazananı ölçekleme ve kaybedenden öğrenme döngüsünü vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-5.webp",
+      alt: "A/B test şemasını hipotez control variant ölçüm karar akışında gösteren diyagram",
+      caption: "A/B test şemasını hipotez control variant ölçüm karar akışında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-6.webp",
+      alt: "A/B test kurulum adımlarını tek sayfada özetleyen checklist kartı",
+      caption: "A/B test kurulum adımlarını tek sayfada özetleyen checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-7.webp",
+      alt: "CTR CPA ROAS test sonuçlarını otel reklamında özetleyen performans kartı",
+      caption: "CTR CPA ROAS test sonuçlarını otel reklamında özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-9/Hotel3-9-8.webp",
+      alt: "Otel A/B test backlog ve deney kültürü deliverables kartı",
+      caption: "Otel A/B test backlog ve deney kültürü deliverables kartı"
+    }
+  },
+
+
+  "otel-reklam-olcumleme-ve-attribusyon":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-1.webp",
+      alt: "Otel Reklamlarında Ölçümleme ve Attribüsyon: Hangi Kanal Gerçekten Satış Getiriyor?",
+      caption: "Otel Reklamlarında Ölçümleme ve Attribüsyon: Hangi Kanal Gerçekten Satış Getiriyor?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-2.webp",
+      alt: "İlk temas destek son tıklama rezervasyon akışını otel bağlamında anlatan görsel",
+      caption: "İlk temas destek son tıklama rezervasyon akışını otel bağlamında anlatan görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-3.webp",
+      alt: "Otel reklam KPI’larını kanal ve iş sonucu olarak ayıran bölüm görseli",
+      caption: "Otel reklam KPI’larını kanal ve iş sonucu olarak ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-4.webp",
+      alt: "SEO Ads OTA call center verisini birlikte okuma mantığını vurgulayan görsel",
+      caption: "SEO Ads OTA call center verisini birlikte okuma mantığını vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-5.webp",
+      alt: "Attribution funnel diyagramını ilk temas destek kapanış olarak gösteren görsel",
+      caption: "Attribution funnel diyagramını ilk temas destek kapanış olarak gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-6.webp",
+      alt: "GA4 UTM call tracking entegrasyon kontrol listesini özetleyen kart",
+      caption: "GA4 UTM call tracking entegrasyon kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-7.webp",
+      alt: "Kanal bazlı CTR CPA ROAS ve gelir katkısını özetleyen otel KPI kartı",
+      caption: "Kanal bazlı CTR CPA ROAS ve gelir katkısını özetleyen otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-10/Hotel3-10-8.webp",
+      alt: "Looker Studio çok kanallı otel dashboard mockup’ını gösteren proof kartı",
+      caption: "Looker Studio çok kanallı otel dashboard mockup’ını gösteren proof kartı"
+    }
+  },
+
+
+   "mobil-odakli-otel-reklamlari-click-to-call-whatsapp":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-1.webp",
+      alt: "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon",
+      caption: "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-2.webp",
+      alt: "Mobil landing wireframe ve CTA hiyerarşisini otel bağlamında gösteren görsel",
+      caption: "Mobil landing wireframe ve CTA hiyerarşisini otel bağlamında gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-3.webp",
+      alt: "Click to call ve WhatsApp kullanım kararlarını ayıran bölüm görseli",
+      caption: "Click to call ve WhatsApp kullanım kararlarını ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-4.webp",
+      alt: "Mobil hız ve event tracking optimizasyonunu vurgulayan bölüm görseli",
+      caption: "Mobil hız ve event tracking optimizasyonunu vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-5.webp",
+      alt: "Mobil kullanıcıdan arama mesaj ve rezervasyona giden funnel akışını gösteren diyagram",
+      caption: "Mobil kullanıcıdan arama mesaj ve rezervasyona giden funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-6.webp",
+      alt: "Mobil landing call WhatsApp ve ölçümleme kontrol listesini özetleyen kart",
+      caption: "Mobil landing call WhatsApp ve ölçümleme kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-7.webp",
+      alt: "Mobil call WhatsApp tıklaması ve kapanış KPI’larını özetleyen performans kartı",
+      caption: "Mobil call WhatsApp tıklaması ve kapanış KPI’larını özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-11/Hotel3-11-8.webp",
+      alt: "Mobil reklam akışı ve call center entegrasyon deliverables kartı",
+      caption: "Mobil reklam akışı ve call center entegrasyon deliverables kartı"
+    }
+  },
+
+
+   "otel-reklamlarinda-call-center-entegre-funnel":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-1.webp",
+      alt: "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon",
+      caption: "Mobil Odaklı Otel Reklamları: Click-to-Call ve WhatsApp ile Rezervasyon"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-2.webp",
+      alt: "Mobil landing wireframe ve CTA hiyerarşisini otel bağlamında gösteren görsel",
+      caption: "Mobil landing wireframe ve CTA hiyerarşisini otel bağlamında gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-3.webp",
+      alt: "Click to call ve WhatsApp kullanım kararlarını ayıran bölüm görseli",
+      caption: "Click to call ve WhatsApp kullanım kararlarını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-4.webp",
+      alt: "Mobil hız ve event tracking optimizasyonunu vurgulayan bölüm görseli",
+      caption: "Mobil hız ve event tracking optimizasyonunu vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-5.webp",
+      alt: "Mobil kullanıcıdan arama mesaj ve rezervasyona giden funnel akışını gösteren diyagram",
+      caption: "Mobil kullanıcıdan arama mesaj ve rezervasyona giden funnel akışını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-6.webp",
+      alt: "Mobil landing call WhatsApp ve ölçümleme kontrol listesini özetleyen kart",
+      caption: "Mobil landing call WhatsApp ve ölçümleme kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-7.webp",
+      alt: "Mobil call WhatsApp tıklaması ve kapanış KPI’larını özetleyen performans kartı",
+      caption: "Mobil call WhatsApp tıklaması ve kapanış KPI’larını özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-12/Hotel3-12-8.webp",
+      alt: "Mobil reklam akışı ve call center entegrasyon deliverables kartı",
+      caption: "Mobil reklam akışı ve call center entegrasyon deliverables kartı"
     }
   }
   

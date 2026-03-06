@@ -373,7 +373,11 @@ export const BLOG_MAP = {
     //otel3-6
     "youtube-ads-otel-video-stratejisi":"BlogYouTubeAdsOtelVideoStratejisi",
     "otel-reklamlarinda-geo-ve-ulke-hedefleme-stratejisi":"BlogOtelReklamlarindaGeoVeUlkeHedeflemeStratejisi",
-    "otel-reklam-kreatif-en-iyi-uygulamalar":"BlogOtelReklamKreatifEnIyiUygulamalar"
+    "otel-reklam-kreatif-en-iyi-uygulamalar":"BlogOtelReklamKreatifEnIyiUygulamalar",
+    "otel-reklamlarinda-ab-test-ve-deney-kulturu":"BlogOtelReklamlarindaABTestVeDeneyKulturu",
+    "otel-reklam-olcumleme-ve-attribusyon":"BlogOtelReklamOlcumlemeVeAttribusyon",
+    "mobil-odakli-otel-reklamlari-click-to-call-whatsapp":"BlogMobilOdakliOtelReklamlariClickToCallWhatsapp",
+    "otel-reklamlarinda-call-center-entegre-funnel":"BlogOtelReklamlarindaCallCenterEntegreFunnel"
   }
 };
 
