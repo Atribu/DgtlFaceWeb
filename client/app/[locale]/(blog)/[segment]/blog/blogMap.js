@@ -379,7 +379,9 @@ export const BLOG_MAP = {
     "mobil-odakli-otel-reklamlari-click-to-call-whatsapp":"BlogMobilOdakliOtelReklamlariClickToCallWhatsapp",
     "otel-reklamlarinda-call-center-entegre-funnel":"BlogOtelReklamlarindaCallCenterEntegreFunnel",
     "otel-brand-search-ve-marka-koruma-stratejisi":"BlogOtelBrandSearchVeMarkaKorumaStratejisi",
-    "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":"BlogOtelReklamlarindaSezonDisiVeSonDakikaStratejileri"
+    "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":"BlogOtelReklamlarindaSezonDisiVeSonDakikaStratejileri",
+    "otel-aile-cift-luxury-segment-reklam-mesajlari":"BlogOtelAileCiftLuxurySegmentReklamMesajlari",
+    "otel-crm-ve-misafir-verisi-ile-reklam":"BlogOtelCRMVeMisafirVerisiIleReklam"
   }
 };
 

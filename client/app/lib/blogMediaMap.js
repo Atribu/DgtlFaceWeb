@@ -15249,6 +15249,109 @@ export const BLOG_MEDIA_MAP = {
       alt: "Üç sezon dışı ve last minute kampanya fikrini gösteren proof kartı",
       caption: "Üç sezon dışı ve last minute kampanya fikrini gösteren proof kartı"
     }
+  },
+
+
+  "otel-aile-cift-luxury-segment-reklam-mesajlari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-1.webp",
+      alt: "Aile, Çift ve Luxury Segmentler İçin Otel Reklam Mesajlarını Nasıl Farklılaştırmalısınız?",
+      caption: "Aile, Çift ve Luxury Segmentler İçin Otel Reklam Mesajlarını Nasıl Farklılaştırmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-2.webp",
+      alt: "Segment fayda teklif ve kreatif eşleşmesini otel reklamında gösteren görsel",
+      caption: "Segment fayda teklif ve kreatif eşleşmesini otel reklamında gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-3.webp",
+      alt: "Segment bazlı düşünmenin otel reklam performansını artırdığını vurgulayan bölüm görseli",
+      caption: "Segment bazlı düşünmenin otel reklam performansını artırdığını vurgulayan bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-4.webp",
+      alt: "Kampanya ve teklifleri doğru segmentle eşleştirme mantığını vurgulayan bölüm görseli",
+      caption: "Kampanya ve teklifleri doğru segmentle eşleştirme mantığını vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-5.webp",
+      alt: "Segment mesaj teklif kreatif ve ölçüm akışını otel funnel diyagramında gösteren görsel",
+      caption: "Segment mesaj teklif kreatif ve ölçüm akışını otel funnel diyagramında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-6.webp",
+      alt: "Segment bazlı kreatif kurallarını ve yanlış hedefleme riskini özetleyen kart",
+      caption: "Segment bazlı kreatif kurallarını ve yanlış hedefleme riskini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-7.webp",
+      alt: "Aile çift luxury segment performansını CTR CPA ROAS ile özetleyen kart",
+      caption: "Aile çift luxury segment performansını CTR CPA ROAS ile özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-15/Hotel3-15-8.webp",
+      alt: "Üç segment için üç kampanya örneğini gösteren proof kartı",
+      caption: "Üç segment için üç kampanya örneğini gösteren proof kartı"
+    }
+  },
+
+
+
+   "otel-crm-ve-misafir-verisi-ile-reklam":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-1.webp",
+      alt: "CRM ve Misafir Verisi ile Otel Reklamlarını Nasıl Akıllı Hale Getirirsiniz?",
+      caption: "CRM ve Misafir Verisi ile Otel Reklamlarını Nasıl Akıllı Hale Getirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-2.webp",
+      alt: "CRM segment teklif ve Google Meta hedefleme akışını gösteren görsel",
+      caption: "CRM segment teklif ve Google Meta hedefleme akışını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-3.webp",
+      alt: "Misafir verisini segmentlere ayırıp kampanyaya taşıma mantığını vurgulayan görsel",
+      caption: "Misafir verisini segmentlere ayırıp kampanyaya taşıma mantığını vurgulayan görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-4.webp",
+      alt: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel”",
+      caption: "Customer Match ve Custom Audience entegrasyonunu vurgulayan görsel”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-5.webp",
+      alt: "CRM segmentlerinden hedefli kampanyalara giden akış diyagramını gösteren görsel",
+      caption: "CRM segmentlerinden hedefli kampanyalara giden akış diyagramını gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-6.webp",
+      alt: "KVKK izin ve güvenli veri aktarımı kontrol listesini özetleyen kart",
+      caption: "KVKK izin ve güvenli veri aktarımı kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-7.webp",
+      alt: "CRM segment kampanyalarının CPA ROAS ve tekrar rezervasyon etkisini özetleyen kart",
+      caption: "CRM segment kampanyalarının CPA ROAS ve tekrar rezervasyon etkisini özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-16/Hotel3-16-8.webp",
+      alt: "Üç CRM temelli kampanya örneğini ve çıktıları gösteren proof kartı",
+      caption: "Üç CRM temelli kampanya örneğini ve çıktıları gösteren proof kartı"
+    }
   }
   
 

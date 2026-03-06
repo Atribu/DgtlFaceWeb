@@ -37831,6 +37831,243 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-aile-cift-luxury-segment-reklam-mesajlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari",
+      "name": "Aile, Çift ve Luxury Segmentler İçin Otel Reklam Mesajlarını Nasıl Farklılaştırmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Segmentation",
+        "Family Segment",
+        "Couple Segment",
+        "Luxury Segment",
+        "Benefits & Offers",
+        "Ad Creative",
+        "ROAS"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari",
+      "headline": "Aile, Çift ve Luxury Segmentler İçin Otel Reklam Mesajlarını Nasıl Farklılaştırmalısınız?",
+      "description": "Otel reklam mesajlarını segmente göre ayırın: aile (çocuk/güvenlik), çift (romantizm/sakinlik), luxury (ayrıcalık/premium). Görsel+metin+teklif eşleştirin, segment ROAS’ı ölçün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "aile cift luxury segment odakli otel reklam",
+        "segment bazli mesajlastirma",
+        "aile oteli ve balayi oteli reklam farklari",
+        "family vs couple hotel ads",
+        "luxury hotel ad messaging"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Aile, Çift ve Luxury Segmentler İçin Otel Reklam Mesajlarını Nasıl Farklılaştırmalısınız?", "item": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-aile-cift-luxury-segment-reklam-mesajlari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otellerde aile, çift ve luxury segmentleri için reklam mesajları nasıl farklı olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ailede çocuk alanları ve güvenlik, çiftte romantizm ve sakinlik, luxury’de ayrıcalık ve hizmet seviyesi öne çıkarılmalıdır. Görsel, metin ve teklif bu motivasyonlara göre ayrıştırılmalı ve ayrı kampanya setleriyle yönetilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aile oteli reklamında ne öne çıkarılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çocuk kulübü, aquapark, aile odası, güvenlik ve pratiklik temaları öne çıkarılmalıdır. Teklifte çocuk ücretsiz veya aile paketi gibi net faydalar kullanılabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Balayı/luxury otel reklamlarında hangi görseller kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çiftlerde atmosfer, spa ve sakin alanlar; luxury’de servis detayı, suite ve ayrıcalık görselleri daha iyi çalışır. Stok hissi yerine gerçek deneyim kareleri tercih edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Segment bazlı kampanya performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment bazlı CTR/CVR, CPA/ROAS ve doluluk etkisi ayrı raporlanmalıdır. Yanlış hedefleme sinyalleri (yüksek bounce, düşük etkileşim) tespit edilip düzeltilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-crm-ve-misafir-verisi-ile-reklam":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam",
+      "name": "CRM ve Misafir Verisi ile Otel Reklamlarını Nasıl Akıllı Hale Getirirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Hotel CRM",
+        "Guest Data",
+        "Customer Match",
+        "Custom Audience",
+        "Repeat Guests",
+        "Cross-Selling",
+        "Consent",
+        "KVKK"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam",
+      "headline": "CRM ve Misafir Verisi ile Otel Reklamlarını Nasıl Akıllı Hale Getirirsiniz?",
+      "description": "CRM ve misafir verisiyle otel reklamlarını akıllandırın: eski/tekrar misafir ve cross-sell segmentleri, Google Customer Match + Meta Custom Audience, KVKK/izin ve hashed e-posta ile güvenli kullanım.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "crm verisi ile otel reklam",
+        "eski misafire yeniden satis kampanyalari",
+        "cross sell ve upsell odakli otel reklam",
+        "hotel crm advertising",
+        "repeat guest campaigns resort"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "CRM ve Misafir Verisi ile Otel Reklamlarını Nasıl Akıllı Hale Getirirsiniz?", "item": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-crm-ve-misafir-verisi-ile-reklam",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel CRM verisi reklam kampanyalarında nasıl kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRM’den segmentler çıkarıp (eski misafir, tekrar misafir, high value) bu segmentlere özel teklif ve kreatiflerle hedefli kampanyalar kurabilirsiniz. Google Customer Match ve Meta Custom Audience bu kullanımın temel araçlarıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Eski misafirleri reklamlarda nasıl hedeflerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzinli misafir listesini segmente edip (ör. 12–24 ay), geri dönüş teklifini netleştirerek Meta custom audience ve Google customer match ile hedefleyebilirsiniz. Mesaj güven ve esneklik odaklı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google ve Meta’da müşteri listeleriyle hedefleme nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google’da Customer Match, Meta’da Custom Audience ile listeleri platforma yükleyip eşleştirirsiniz. En iyi pratik, tek büyük liste yerine segmentlere bölüp ayrı kampanya setleriyle yönetmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM verisini kullanırken KVKK açısından nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pazarlama hedeflemesi için uygun izin olmalı, opt-out süreçleri çalışmalı ve veri güvenli saklanmalıdır. Platforma aktarımda hashed e-posta gibi güvenli yöntemler tercih edilmelidir."
+          }
+        }
+      ]
+    }
+  ]
 }
     }
   },
