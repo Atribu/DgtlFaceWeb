@@ -382,7 +382,12 @@ export const BLOG_MAP = {
     "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":"BlogOtelReklamlarindaSezonDisiVeSonDakikaStratejileri",
     "otel-aile-cift-luxury-segment-reklam-mesajlari":"BlogOtelAileCiftLuxurySegmentReklamMesajlari",
     "otel-crm-ve-misafir-verisi-ile-reklam":"BlogOtelCRMVeMisafirVerisiIleReklam",
-    "otel-cross-sell-ve-upsell-reklam-kampanyalari":"BlogOtelCrossSellVeUpsellReklamKampanyalari"
+    "otel-cross-sell-ve-upsell-reklam-kampanyalari":"BlogOtelCrossSellVeUpsellReklamKampanyalari",
+    "yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami":"BlogOtelYeniPazarDenemeVePilotKampanyalarlaOtelReklami",
+    "otel-dinamik-fiyatlama-ve-reklam-stratejisi":"BlogOtelDinamikFiyatlamaVeReklamStratejisi",
+    "yillik-otel-reklam-yol-haritasi":"BlogYillikOtelReklamYolHaritasi",
+    "2026-cookieless-donem-otel-reklamlari":"Blog2026CookielessDonemOtelReklamlari",
+    "2026-yapay-zeka-otomatik-teklif-stratejileri":"Blog2026YapayZekaOtomatikTeklifStratejileri"
   }
 };
 

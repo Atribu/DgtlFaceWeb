@@ -15403,6 +15403,262 @@ export const BLOG_MEDIA_MAP = {
       alt: "Üç hazır cross sell senaryosunu otel gelir büyüme kartı olarak gösteren görsel",
       caption: "Üç hazır cross sell senaryosunu otel gelir büyüme kartı olarak gösteren görsel"
     }
+  },
+
+
+  "yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami":{
+    banner: {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-1.webp",
+      alt: "Yeni Pazarları Denemek: Oteller İçin Pilot Kampanya ve Test Stratejisi",
+      caption: "Yeni Pazarları Denemek: Oteller İçin Pilot Kampanya ve Test Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-2.webp",
+      alt: "Hipotez test ölçüm ve ölçekleme adımlarını pilot kampanya akışında gösteren görsel",
+      caption: "Hipotez test ölçüm ve ölçekleme adımlarını pilot kampanya akışında gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-3.webp",
+      alt: "Yeni pazar seçim kriterlerini uçuş trend ve rekabet sinyaliyle ayıran bölüm görseli",
+      caption: "Yeni pazar seçim kriterlerini uçuş trend ve rekabet sinyaliyle ayıran bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-4.webp",
+      alt: "Go no go kararını ve ölçekleme mantığını vurgulayan bölüm görseli",
+      caption: "Go no go kararını ve ölçekleme mantığını vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-5.webp",
+      alt: "Pilot kampanya tasarımını pazar seçimi test kurgusu ölçüm ve karar akışında gösteren diyagram",
+      caption: "Pilot kampanya tasarımını pazar seçimi test kurgusu ölçüm ve karar akışında gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-6.webp",
+      alt: "Yeni pazar kreatif dil ve para birimi uyarlama checklist kartı",
+      caption: "Yeni pazar kreatif dil ve para birimi uyarlama checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-7.webp",
+      alt: "Pilot kampanya KPI’larını trafik kalitesi dönüşüm sinyali ve maliyetle özetleyen kart",
+      caption: "Pilot kampanya KPI’larını trafik kalitesi dönüşüm sinyali ve maliyetle özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-18/Hotel3-18-8.webp",
+      alt: "Üç örnek pilot kampanya senaryosunu go no go çerçevesiyle gösteren proof kartı",
+      caption: "Üç örnek pilot kampanya senaryosunu go no go çerçevesiyle gösteren proof kartı"
+    }
+  },
+
+
+  "otel-dinamik-fiyatlama-ve-reklam-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-1.webp",
+      alt: "Dinamik Fiyatlama ile Reklam Stratejisi Nasıl Uyumlanır? (PMS, Kanal Yönetimi ve Reklam)",
+      caption: "Dinamik Fiyatlama ile Reklam Stratejisi Nasıl Uyumlanır? (PMS, Kanal Yönetimi ve Reklam)"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-2.webp",
+      alt: "Yüksek orta düşük talep senaryosuna göre reklam mesajı ve bütçe uyumunu gösteren görsel",
+      caption: "Yüksek orta düşük talep senaryosuna göre reklam mesajı ve bütçe uyumunu gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-3.webp",
+      alt: "Dinamik fiyatlamanın PMS’ten kanallara yayılımını vurgulayan bölüm görseli",
+      caption: "Dinamik fiyatlamanın PMS’ten kanallara yayılımını vurgulayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-4.webp",
+      alt: "Yüksek ve düşük talepte kampanya yaklaşımının değişmesini vurgulayan bölüm görseli",
+      caption: "Yüksek ve düşük talepte kampanya yaklaşımının değişmesini vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-5.webp",
+      alt: "PMS kanal yöneticisi ve reklam platformları arasında fiyat akış diyagramını gösteren görsel",
+      caption: "PMS kanal yöneticisi ve reklam platformları arasında fiyat akış diyagramını gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-6.webp",
+      alt: "Yüksek ve düşük talep dönemleri için fiyat fayda mesaj kurallarını özetleyen kart",
+      caption: "Yüksek ve düşük talep dönemleri için fiyat fayda mesaj kurallarını özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-7.webp",
+      alt: "Fiyat değişimi ile ROAS ve RevPAR etkisini birlikte özetleyen performans kartı",
+      caption: "Fiyat değişimi ile ROAS ve RevPAR etkisini birlikte özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-19/Hotel3-19-8.webp",
+      alt: "Yüksek orta düşük talep için üç kampanya senaryosunu gösteren proof kartı",
+      caption: "Yüksek orta düşük talep için üç kampanya senaryosunu gösteren proof kartı"
+    }
+  },
+
+
+   "yillik-otel-reklam-yol-haritasi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-1.webp",
+      alt: "Oteller İçin 12 Aylık Dijital Reklam Yol Haritası Nasıl Hazırlanır?",
+      caption: "Oteller İçin 12 Aylık Dijital Reklam Yol Haritası Nasıl Hazırlanır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-2.webp",
+      alt: "Sezon omuz ve düşük dönem hedeflerini tek planda gösteren görsel",
+      caption: "Sezon omuz ve düşük dönem hedeflerini tek planda gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-3.webp",
+      alt: "Sezonlara göre hedef ayrımını otel reklam planında vurgulayan görsel",
+      caption: "Sezonlara göre hedef ayrımını otel reklam planında vurgulayan görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-4.webp",
+      alt: "Aylık kampanya temaları ve bütçe dağılımını ayıran bölüm görseli",
+      caption: "Aylık kampanya temaları ve bütçe dağılımını ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-5.webp",
+      alt: "Yıllık plan akışını sezon tema bütçe KPI ve revizyon olarak gösteren diyagram",
+      caption: "Yıllık plan akışını sezon tema bütçe KPI ve revizyon olarak gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-6.webp",
+      alt: "UTM ve KPI framework kontrol listesini yıllık plan için özetleyen kart",
+      caption: "UTM ve KPI framework kontrol listesini yıllık plan için özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-7.webp",
+      alt: "Aylık KPI ve toplantı ritmini otel reklam yönetimi için özetleyen kart",
+      caption: "Aylık KPI ve toplantı ritmini otel reklam yönetimi için özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-20/Hotel3-20-8.webp",
+      alt: "SEO SEM SMM PMS ve call center silo orkestrasyonunu gösteren yıllık plan kartı",
+      caption: "SEO SEM SMM PMS ve call center silo orkestrasyonunu gösteren yıllık plan kartı"
+    }
+  },
+
+
+  "2026-cookieless-donem-otel-reklamlari":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-1.webp",
+      alt: "2026 Cookieless Döneminde Otel Reklamları: Çerezsiz Dünyaya Nasıl Hazırlanmalısınız?",
+      caption: "2026 Cookieless Döneminde Otel Reklamları: Çerezsiz Dünyaya Nasıl Hazırlanmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-2.webp",
+      alt: "Trafik izin birinci taraf veri ve kampanya akışını otel bağlamında gösteren görsel",
+      caption: "Trafik izin birinci taraf veri ve kampanya akışını otel bağlamında gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-3.webp",
+      alt: "Cookieless etkisini ve otel reklam dönüşüm yolculuğunu ayıran görsel",
+      caption: "Cookieless etkisini ve otel reklam dönüşüm yolculuğunu ayıran görsel"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-4.webp",
+      alt: "Consent Mode ve server side ölçüm geçişini vurgulayan görsel",
+      caption: "Consent Mode ve server side ölçüm geçişini vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-5.webp",
+      alt: "Cookieless funnel diyagramını izin ve 1st party veri akışında gösteren görsel",
+      caption: "Cookieless funnel diyagramını izin ve 1st party veri akışında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-6.webp",
+      alt: "Otel için consent ve ölçüm altyapısı kontrol listesini özetleyen kart",
+      caption: "Otel için consent ve ölçüm altyapısı kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-7.webp",
+      alt: "Cookieless dönemde izin oranı ve performans KPI’larını özetleyen kart",
+      caption: "Cookieless dönemde izin oranı ve performans KPI’larını özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-21/Hotel3-21-8.webp",
+      alt: "2026 cookieless hazırlık için beş adımlı yol haritasını gösteren kart",
+      caption: "2026 cookieless hazırlık için beş adımlı yol haritasını gösteren kart"
+    }
+  },
+
+
+
+   "2026-yapay-zeka-otomatik-teklif-stratejileri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-1.webp",
+      alt: "2026’da Yapay Zekâ Tabanlı Otomatik Teklif Stratejileri: Oteller İçin Fırsatlar ve Riskler",
+      caption: "2026’da Yapay Zekâ Tabanlı Otomatik Teklif Stratejileri: Oteller İçin Fırsatlar ve Riskler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-2.webp",
+      alt: "Veri hedef öğrenme ve teklif optimizasyon akışını gösteren görsel",
+      caption: "Veri hedef öğrenme ve teklif optimizasyon akışını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-3.webp",
+      alt: "AI bidding’in veri kalitesine bağlı çalıştığını vurgulayan bölüm görseli",
+      caption: "AI bidding’in veri kalitesine bağlı çalıştığını vurgulayan bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-4.webp",
+      alt: "Hibrit model ve sezon geçiş kontrolünü vurgulayan bölüm görseli",
+      caption: "Hibrit model ve sezon geçiş kontrolünü vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-5.webp",
+      alt: "AI bidding karar ağacını veri hacmi ve hedef doğruluğuna göre gösteren diyagram",
+      caption: "AI bidding karar ağacını veri hacmi ve hedef doğruluğuna göre gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-6.webp",
+      alt: "Target ROAS CPA ve hibrit kontrol checklist kartı",
+      caption: "Target ROAS CPA ve hibrit kontrol checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-7.webp",
+      alt: "Öğrenme süreci ve veri hacmi gereksinimini özetleyen performans kartı",
+      caption: "Öğrenme süreci ve veri hacmi gereksinimini özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-22/Hotel3-22-8.webp",
+      alt: "Yeni hesap oturmuş hesap ve sezon değişimi senaryolarını gösteren kart",
+      caption: "Yeni hesap oturmuş hesap ve sezon değişimi senaryolarını gösteren kart"
+    }
   }
   
 

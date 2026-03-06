@@ -38187,7 +38187,503 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami",
+      "name": "Yeni Pazarları Denemek: Oteller İçin Pilot Kampanya ve Test Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Market Testing",
+        "Pilot Campaigns",
+        "Expansion Strategy",
+        "Test Market",
+        "Budget",
+        "KPI",
+        "Scaling",
+        "Germany",
+        "United Kingdom",
+        "Poland",
+        "Netherlands"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami#article",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami",
+      "headline": "Yeni Pazarları Denemek: Oteller İçin Pilot Kampanya ve Test Stratejisi",
+      "description": "Yeni pazarları büyük bütçe olmadan test edin: küçük pilot kampanyalar, yerel dil/kültür uyarlaması, KPI seti ve go/no-go ölçekleme kararı. Kampanyaları ayrı izleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "yeni pazar otel reklam testleri",
+        "pilot kampanya ile pazar denemek",
+        "almanya disi pazar arayisi",
+        "hotel test new source markets",
+        "pilot campaigns for new hotel markets"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Yeni Pazarları Denemek: Oteller İçin Pilot Kampanya ve Test Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-pazar-deneme-ve-pilot-kampanyalarla-otel-reklami",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yeni ülke pazarlarını otel reklamlarında nasıl test etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1–2 pazar seçip küçük bütçeli pilot kampanyalarla 2–4 hafta test edin. Yerel dil/kültür uyarlaması yapın ve trafik kalitesi + dönüşüm sinyali KPI’larına göre go/no-go kararı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pilot kampanya nedir, oteller için nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pilot, pazar potansiyelini ölçmek için düşük riskli test kampanyasıdır. Tek hipotez, net KPI seti, ülke kodlu ayrı kampanya ve sınırlı bütçeyle çalıştırılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Küçük bütçeyle pazar potansiyelini ölçmek mümkün mü?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet; amaç satış patlatmak değil, sinyal toplamaktır. CTR/engagement, landing davranışı ve ilk dönüşüm/lead sinyalleri pazarın kalitesi hakkında yön verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi metriklere bakarak yeni pazara yatırım yapmaya karar verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trafik kalitesi (CTR/CPC/engagement), dönüşüm sinyali (CVR/lead), maliyet hedefleri (CPA/ROAS) ve operasyon uyumu birlikte değerlendirilir. Go/no-go kararı bu setle verilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-dinamik-fiyatlama-ve-reklam-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi",
+      "name": "Dinamik Fiyatlama ile Reklam Stratejisi Nasıl Uyumlanır? (PMS, Kanal Yönetimi ve Reklam)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Dynamic Pricing",
+        "Revenue Management",
+        "PMS",
+        "Channel Manager",
+        "High Demand",
+        "Low Demand",
+        "Campaign",
+        "ROAS"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi",
+      "headline": "Dinamik Fiyatlama ile Reklam Stratejisi Nasıl Uyumlanır? (PMS, Kanal Yönetimi ve Reklam)",
+      "description": "Dinamik fiyatlanan otellerde reklam mesajlarını revenue kararlarıyla eşleştirin; yüksek talepte değer/deneyim, düşük talepte paket/kampanya vurgusu kullanın. PMS/channel manager senkronu ve Hotel Ads feed QA ile ROAS ve kârlılığı koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "dinamik fiyatlama ve otel reklam uyumu",
+        "pms kanal yoneticisi ve reklam stratejisi",
+        "yuksek talep dusuk talep kampanya farklari",
+        "dynamic pricing hotel ads alignment",
+        "revenue management and campaigns"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Dinamik Fiyatlama ile Reklam Stratejisi Nasıl Uyumlanır? (PMS, Kanal Yönetimi ve Reklam)", "item": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-dinamik-fiyatlama-ve-reklam-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dinamik fiyatlama nedir, otel reklam stratejisini nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dinamik fiyatlama, talebe göre fiyatın sürekli değişmesidir. Reklam mesajı bu değişime uymazsa düşük talepte fırsat kaçırır veya yüksek talepte gereksiz indirimle kârdan feragat eder; mesaj talep seviyesine göre değişmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yüksek talep dönemlerinde reklam mesajı nasıl değişmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyat yerine değer/deneyim ve uygunluk netliği öne çıkarılmalı; indirim vurgusu azaltılmalıdır. Brand savunma korunur, bütçe kontrollü yönetilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Düşük sezonda fiyat yerine hangi kampanya mesajları kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Paket ve fayda (geç çıkış, transfer, spa gibi) ve esneklik (iptal netliği) mesajları daha etkili olabilir. Yerel pazar ve yakın GEO hedefleme ile hızlı kapanış desteklenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve kanal yöneticisi ile reklam yönetimi nasıl uyumlu çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS’teki fiyat/uygunluk değişimleri channel manager üzerinden kanallara yayılır; Hotel Ads gibi feed’ler de bunu tüketir. Senkron bozulursa yanlış fiyat gösterimi olur; QA rutini ve feed kontrolü şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yillik-otel-reklam-yol-haritasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi",
+      "name": "Oteller İçin 12 Aylık Dijital Reklam Yol Haritası Nasıl Hazırlanır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Annual Media Plan",
+        "Seasonality",
+        "Campaign Calendar",
+        "Budget Planning",
+        "KPI Rhythm",
+        "SEO",
+        "SEM",
+        "SMM",
+        "PMS",
+        "Call Center",
+        "Looker Studio",
+        "GA4"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi",
+      "headline": "Oteller İçin 12 Aylık Dijital Reklam Yol Haritası Nasıl Hazırlanır?",
+      "description": "12 aylık otel reklam yol haritası hazırlayın: sezon hedefleri, aylık kampanya temaları, kanal bütçe karması ve GA4+Looker KPI/meeting ritmi. SEO/SEM/SMM/PMS/Call Center tek planda.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "yillik otel reklam yol haritasi",
+        "12 aylik kampanya ve butce plani",
+        "sezon omuz ve dusuk sezon hedefleri",
+        "annual hotel marketing plan",
+        "12 month hotel ads calendar"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#howto",
+      "name": "Oteller için 12 aylık dijital reklam yol haritası hazırlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Sezonları ve pazarları çıkar", "text": "Yüksek/omuz/düşük sezonları ve DE/RU/UK/TR pazar önceliklerini belirle." },
+        { "@type": "HowToStep", "name": "Aylık temaları planla", "text": "Her aya 1 ana kampanya teması ata ve teklif dilini yaz." },
+        { "@type": "HowToStep", "name": "Kanal bütçe karmasını belirle", "text": "SEO/SEM/SMM ve remarketing rollerine göre dönem bazlı bütçe karması kur." },
+        { "@type": "HowToStep", "name": "KPI ve UTM’yi sabitle", "text": "GA4 event’leri, UTM standardı ve Looker KPI framework’ünü yıl başında kilitle." },
+        { "@type": "HowToStep", "name": "Ritim ve revizyon kur", "text": "Aylık dashboard toplantısı ve çeyreklik revizyon checkpoint’leri ile planı yönet." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Oteller İçin 12 Aylık Dijital Reklam Yol Haritası Nasıl Hazırlanır?", "item": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-otel-reklam-yol-haritasi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Oteller için yıllık dijital reklam planı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezonları ayırıp her dönem için hedef belirleyin; 12 aylık kampanya temaları ve kanal bütçe karmasını yazın. GA4+UTM ölçümü ve Looker dashboard ritmiyle planı aylık güncelleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "12 aylık otel reklam yol haritasında neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon hedefleri, aylık/çeyreklik kampanya temaları, kanal bazlı bütçe, sabit KPI framework, UTM standardı ve aylık toplantı/raporlama ritmi olmalıdır; SEO/SEM/SMM/PMS/Call Center görevleri de planda görünmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon, omuz sezonu ve düşük sezon için reklam hedefleri nasıl ayrılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ön-sezonda talep yaratma ve ısıtma, yüksek sezonda verim/koruma ve brand savunma, düşük sezonda yerel pazar ve revenue rescue (mobil/call) hedefleri öne çıkar; KPI hedefleri dönemlere göre değişir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yıllık plan esnek nasıl tutulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI framework ve UTM standardı sabit kalır; çeyreklik checkpoint’lerde tema ve bütçe hedefleri revize edilir. Böylece plan bozulmaz, sadece yön ayarlanır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-cookieless-donem-otel-reklamlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari",
+      "name": "2026 Cookieless Döneminde Otel Reklamları: Çerezsiz Dünyaya Nasıl Hazırlanmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Cookieless",
+        "First-Party Data",
+        "CRM",
+        "GA4",
+        "Consent Mode",
+        "Server-Side Tracking",
+        "Remarketing",
+        "Privacy",
+        "KVKK"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari",
+      "headline": "2026 Cookieless Döneminde Otel Reklamları: Çerezsiz Dünyaya Nasıl Hazırlanmalısınız?",
+      "description": "2026’da çerezsiz dünyaya hazırlanmak için 1st party veri/CRM, GA4 + Consent Mode ve server-side tracking (CAPI) altyapısını kurun; privacy-first remarketing ile performansı koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "2026 cookieless otel reklam",
+        "1st party data stratejisi",
+        "server side tracking ve consent mode",
+        "cookieless hotel advertising 2026",
+        "ga4 consent mode hotels"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026 Cookieless Döneminde Otel Reklamları: Çerezsiz Dünyaya Nasıl Hazırlanmalısınız?", "item": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-cookieless-donem-otel-reklamlari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026 cookieless dönemi otel reklamlarını nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Remarketing havuzları daralabilir ve ölçüm daha çok izin sinyali ile modellemeye dayanır. Bu yüzden 1st party data, Consent Mode ve server-side ölçüm kritik hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çerezsiz dünyada remarketing nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İzinli 1st party listeler (CRM/sadakat) ve privacy-first yüksek niyet segmentleriyle yapılır. Customer Match/Custom Audience ve frekans kontrolü öne çıkar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için 1st party data stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadakat/üyelik, formlar ve pre/post-stay akışlarıyla izinli veri toplayın; CRM’de segmentleyin ve hedefli kampanyalara bağlayın. Opt-out ve veri minimizasyonu net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "GA4, Consent Mode ve server-side tracking otel reklamlarında nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 event seti rezervasyon yolculuğunu ölçer; Consent Mode izin durumuna göre ölçüm ve modellemeyi yönetir; server-side tracking/CAPI veri kaybını azaltıp daha stabil ölçüm sağlayabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-yapay-zeka-otomatik-teklif-stratejileri":{}
     }
   },
   en: {
