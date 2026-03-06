@@ -37582,6 +37582,255 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"otel-brand-search-ve-marka-koruma-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi",
+      "name": "Otel Brand Search Kampanyaları ve Marka Koruma Stratejisi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Brand Search",
+        "Trademark Bidding",
+        "OTA Competition",
+        "Direct Booking",
+        "ROAS",
+        "Brand Campaign",
+        "Generic Campaign"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi",
+      "headline": "Otel Brand Search Kampanyaları ve Marka Koruma Stratejisi",
+      "description": "Otel brand search kampanyalarıyla marka aramalarını koruyun. OTA/rakip brand bidding’e karşı Google Ads + Hotel Ads kurgusu, bütçe/teklif stratejisi ve brand vs generic kıyası.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "otel brand search kampanyalari",
+        "ota brand bidding marka koruma",
+        "otel markali arama stratejisi",
+        "hotel brand search strategy",
+        "protect direct bookings with brand campaigns"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#howto",
+      "name": "Otel brand search ve marka koruma kurgusu adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Brand kampanyayı ayır", "text": "Marka sorgularını ayrı kampanya setinde topla ve pazar/dil kırılımını yap." },
+        { "@type": "HowToStep", "name": "Resmi site landing kullan", "text": "Brand kampanyalarda landing her zaman resmi site olmalı; direct avantajları net göster." },
+        { "@type": "HowToStep", "name": "OTA rekabetini izle", "text": "SERP’te OTA/rakip görünürlüğünü düzenli kontrol et ve koruma bütçesini buna göre ayarla." },
+        { "@type": "HowToStep", "name": "Hotel Ads’i entegre et", "text": "Brand aramalarda Search + Hotel Ads kombinasyonuyla görünürlüğü artır; feed QA yap." },
+        { "@type": "HowToStep", "name": "Performansla birlikte yorumla", "text": "Brand pay, direct booking payı ve ROAS’ı birlikte izleyip koruma kararını veriye dayandır." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Otel Brand Search Kampanyaları ve Marka Koruma Stratejisi", "item": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-brand-search-ve-marka-koruma-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Brand search kampanyaları oteller için neden bu kadar önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çünkü marka adını arayan kullanıcı çok yüksek niyetlidir ve direct rezervasyona en yakındır. OTA/rakip brand bidding varken pasif kalmak tıklama ve gelir kaybı doğurabilir; brand kampanya bu trafiği korur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA’lar marka adıma reklam veriyorsa ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brand kampanyanızı ayrı kurgulayın, resmi site landing kullanın ve güçlü uzantılarla görünürlüğü artırın. Hotel Ads ile fiyat/uygunluğu şeffaf göstererek direct linkinizi güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand kampanyalara gerçekten bütçe ayırmaya değer mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çoğu senaryoda evet; brand CPC daha düşük ve ROAS daha yüksek olabilir. Ayrıca brand bütçesi koruma rolü görür; OTA baskısı varken kapatmak direct payı düşürebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brand ve generic kampanyaların performansı nasıl karşılaştırılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CPC/CPA/ROAS yanında brand pay ve direct booking payını birlikte izleyin. Brand’in amacı koruma+kapanış, generic’in amacı büyümedir; bu farkla yorumlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri",
+      "name": "Sezon Dışı ve Son Dakika Dönemleri İçin Otel Reklam Stratejileri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Low Season Strategy",
+        "Last Minute Campaigns",
+        "Local Market",
+        "Flexible Cancellation",
+        "Mobile Users",
+        "Direct Booking",
+        "OTA Campaigns"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri",
+      "headline": "Sezon Dışı ve Son Dakika Dönemleri İçin Otel Reklam Stratejileri",
+      "description": "Sezon dışı ve last-minute dönemlerinde yerel pazar ve mobil kullanıcılara odaklanın; esnek iptal ve fayda mesajlarıyla teklifi uyarlayın. Doluluk + ROAS ile ölçün; OTA/direct ve PMS senkronunu koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "sezon disi otel reklam stratejisi",
+        "last minute kampanya kurgusu",
+        "yerel pazar ve mobil hedefleme",
+        "low season hotel advertising",
+        "last minute hotel campaigns"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Sezon Dışı ve Son Dakika Dönemleri İçin Otel Reklam Stratejileri", "item": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sezon dışı dönemlerde otel reklamı nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef kitleyi yerel pazar ve kısa kaçamak motivasyonuna göre yeniden tanımlayın. Teklifi fiyat yerine fayda/esneklik (esnek iptal, geç çıkış) ile kurun, GEO’yu daraltın ve doluluk+ROAS birlikte ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Son dakika (last-minute) otel kampanyaları nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mobil + yakın GEO + hızlı kapanış (call/WhatsApp) üçlüsüyle kurulur. Landing hızlı olmalı, tek CTA kullanılmalı ve PMS/kanal yönetimi senkronu overbooking riskini önlemelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Esnek iptal gibi faydalar reklamda nasıl öne çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teklif kartında net bir cümleyle ve koşul netliğiyle birlikte verin. Fiyatı tek mesaj yapmadan fayda+risk azaltma+tek CTA formatında sunun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sezon dışı kampanyaların başarısı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ROAS yanında doluluk etkisi ve oda başı gelir trendi birlikte yorumlanmalıdır. Düşük hacimde ROAS dalgalanabileceği için 2–4 haftalık trend okumak daha sağlıklıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
     }
   },

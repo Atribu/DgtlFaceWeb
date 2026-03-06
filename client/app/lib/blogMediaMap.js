@@ -15146,6 +15146,109 @@ export const BLOG_MEDIA_MAP = {
       alt: "Mobil reklam akışı ve call center entegrasyon deliverables kartı",
       caption: "Mobil reklam akışı ve call center entegrasyon deliverables kartı"
     }
+  },
+
+
+
+  "otel-brand-search-ve-marka-koruma-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-1.webp",
+      alt: "Otel Brand Search Kampanyaları ve Marka Koruma Stratejisi",
+      caption: "Otel Brand Search Kampanyaları ve Marka Koruma Stratejisi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-2.webp",
+      alt: "Brand query’den direct booking’e giden resmi site akışını gösteren görsel",
+      caption: "Brand query’den direct booking’e giden resmi site akışını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-3.webp",
+      alt: "Brand aramaların otel için kritik an olduğunu vurgulayan bölüm görseli",
+      caption: "Brand aramaların otel için kritik an olduğunu vurgulayan bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-4.webp",
+      alt: "Brand bütçe ve teklif stratejisini marka koruma açısından vurgulayan görsel",
+      caption: "Brand bütçe ve teklif stratejisini marka koruma açısından vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-5.webp",
+      alt: "Marka koruma mini funnel diyagramını brand arama ve direct booking olarak gösteren görsel",
+      caption: "Marka koruma mini funnel diyagramını brand arama ve direct booking olarak gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-6.webp",
+      alt: "Brand kampanya kurulum ve pazar dil ayrımı kontrol listesini özetleyen kart",
+      caption: "Brand kampanya kurulum ve pazar dil ayrımı kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-7.webp",
+      alt: "Brand pay direct booking payı ve ROAS KPI’larını özetleyen performans kartı",
+      caption: "Brand pay direct booking payı ve ROAS KPI’larını özetleyen performans kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-13/Hotel3-13-8.webp",
+      alt: "Otel için üç marka koruma senaryosunu gösteren proof kartı",
+      caption: "Otel için üç marka koruma senaryosunu gösteren proof kartı"
+    }
+  },
+
+
+   "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-1.webp",
+      alt: "Sezon Dışı ve Son Dakika Dönemleri İçin Otel Reklam Stratejileri",
+      caption: "Sezon Dışı ve Son Dakika Dönemleri İçin Otel Reklam Stratejileri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-2.webp",
+      alt: "Low season ve last minute için hedefleme ve mesaj akışını gösteren görsel",
+      caption: "Low season ve last minute için hedefleme ve mesaj akışını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-3.webp",
+      alt: "Sezon dışı hedef ve mesajı yeniden tanımlama adımlarını ayıran görsel",
+      caption: "Sezon dışı hedef ve mesajı yeniden tanımlama adımlarını ayıran görsel"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-4.webp",
+      alt: "Last minute kampanya kurgusunu ve operasyon senkronunu vurgulayan bölüm görseli",
+      caption: "Last minute kampanya kurgusunu ve operasyon senkronunu vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-5.webp",
+      alt: "Last minute mobil kampanya funnel diyagramını call WhatsApp ve rezervasyon akışıyla gösteren görsel",
+      caption: "Last minute mobil kampanya funnel diyagramını call WhatsApp ve rezervasyon akışıyla gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-6.webp",
+      alt: "Esnek iptal ve fayda mesajlarını otel reklamında gösteren teklif kartı",
+      caption: "Esnek iptal ve fayda mesajlarını otel reklamında gösteren teklif kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-7.webp",
+      alt: "Sezon dışı kampanyalarda doluluk ROAS ve kapanış KPI’larını özetleyen kart",
+      caption: "Sezon dışı kampanyalarda doluluk ROAS ve kapanış KPI’larını özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-14/Hotel3-14-8.webp",
+      alt: "Üç sezon dışı ve last minute kampanya fikrini gösteren proof kartı",
+      caption: "Üç sezon dışı ve last minute kampanya fikrini gösteren proof kartı"
+    }
   }
   
 

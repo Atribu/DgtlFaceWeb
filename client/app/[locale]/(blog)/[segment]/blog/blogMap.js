@@ -377,7 +377,9 @@ export const BLOG_MAP = {
     "otel-reklamlarinda-ab-test-ve-deney-kulturu":"BlogOtelReklamlarindaABTestVeDeneyKulturu",
     "otel-reklam-olcumleme-ve-attribusyon":"BlogOtelReklamOlcumlemeVeAttribusyon",
     "mobil-odakli-otel-reklamlari-click-to-call-whatsapp":"BlogMobilOdakliOtelReklamlariClickToCallWhatsapp",
-    "otel-reklamlarinda-call-center-entegre-funnel":"BlogOtelReklamlarindaCallCenterEntegreFunnel"
+    "otel-reklamlarinda-call-center-entegre-funnel":"BlogOtelReklamlarindaCallCenterEntegreFunnel",
+    "otel-brand-search-ve-marka-koruma-stratejisi":"BlogOtelBrandSearchVeMarkaKorumaStratejisi",
+    "otel-reklamlarinda-sezon-disi-ve-son-dakika-stratejileri":"BlogOtelReklamlarindaSezonDisiVeSonDakikaStratejileri"
   }
 };
 
