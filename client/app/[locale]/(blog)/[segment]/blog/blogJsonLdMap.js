@@ -38683,7 +38683,237 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"2026-yapay-zeka-otomatik-teklif-stratejileri":{}
+"2026-yapay-zeka-otomatik-teklif-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri",
+      "name": "2026’da Yapay Zekâ Tabanlı Otomatik Teklif Stratejileri: Oteller İçin Fırsatlar ve Riskler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "AI Bidding",
+        "Smart Bidding",
+        "Target ROAS",
+        "Target CPA",
+        "Advantage+",
+        "Learning Phase",
+        "Conversion Signal",
+        "Seasonality"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri",
+      "headline": "2026’da Yapay Zekâ Tabanlı Otomatik Teklif Stratejileri: Oteller İçin Fırsatlar ve Riskler",
+      "description": "2026’da AI bidding (Smart Bidding, Advantage+) otel kampanyalarında fırsat sunar; ancak doğru dönüşüm sinyali, yeterli hacim ve sezon geçişlerinde hibrit insan kontrolü olmadan risklidir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "2026 ai bidding otel stratejisi",
+        "smart bidding ve target roas riskleri",
+        "otomatik teklif ve manuel kontrol dengesi",
+        "hotel smart bidding 2026",
+        "meta advantage plus hotels"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Yapay Zekâ Tabanlı Otomatik Teklif Stratejileri: Oteller İçin Fırsatlar ve Riskler", "item": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-otomatik-teklif-stratejileri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da oteller için yapay zekâ tabanlı otomatik teklif stratejileri nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Platform, dönüşüm sinyalini ve hedefi (ROAS/CPA) kullanarak teklifleri otomatik optimize eder. Başarı, doğru dönüşüm tanımı, yeterli veri hacmi ve learning phase yönetimine bağlıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Target ROAS/CPA otel kampanyalarında ne kadar güvenilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri kalitesi ve hacim iyiyse güvenilir olabilir; düşük hacimde veya yanlış event’lerle beslenirse hedefi tutturmak için hacmi boğabilir ya da yanlış segmente kayabilir. Hedefler kademeli ayarlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI bidding ile manuel teklifleri nasıl dengelemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hibrit model kurun: temiz sinyalli kampanyalarda AI, sezon geçişi ve kritik dönemlerde manuel guardrail. Haftalık kalite kontrol (event/lead kalitesi/learning phase) şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Öğrenme süreci (learning phase) otel reklamlarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Learning phase sırasında sık değişiklik yapmak performansı dalgalandırır ve AI’ın doğru optimizasyon yapmasını engeller. Otelde sezon geçişleri learning’i yeniden tetikleyebileceği için disiplinli yönetim gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-ctv-ve-dijital-tv-reklamlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari",
+      "name": "2026’da CTV ve Dijital TV Reklamları: Oteller İçin Yeni Görünürlük Alanı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "CTV",
+        "Connected TV",
+        "Streaming",
+        "YouTube CTV",
+        "Brand Awareness",
+        "Branded Search",
+        "Direct Traffic",
+        "Resort Hotel"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari",
+      "headline": "2026’da CTV ve Dijital TV Reklamları: Oteller İçin Yeni Görünürlük Alanı",
+      "description": "2026’da CTV ve dijital TV reklamlarını resort otellerde üst funnel görünürlük ve marka talebi yaratmak için kullanın; başarıyı branded search, direct trafik ve view-through sinyalleriyle ölçün ve YouTube/Search ile orkestre edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "2026 ctv otel reklam trendi",
+        "dijital tv ile resort tanitimi",
+        "youtube ctv kampanya stratejisi",
+        "hotel ctv advertising 2026",
+        "connected tv for resorts"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da CTV ve Dijital TV Reklamları: Oteller İçin Yeni Görünürlük Alanı", "item": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ctv-ve-dijital-tv-reklamlari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "CTV ve dijital TV reklamları oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst funnel’da marka görünürlüğü ve branded demand üretir. Doğru kurguda markalı arama ve direct trafik artışıyla kapanış kanallarını besler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi oteller CTV kampanyası denemeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Özellikle resort ve destinasyon odaklı oteller, konsept/hikâye anlatımı güçlü olanlar CTV’den daha çok fayda görebilir. City hotel’de ise özel dönem/etkinlik odaklı testler uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTV kampanyalarının başarısı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tıklama yerine branded search, direct trafik, VTR/CPM ve view-through sinyalleriyle ölçülür; çok kanallı atribüsyonla asist etkisi yorumlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CTV, YouTube ve diğer kanallarla nasıl birlikte çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CTV awareness üretir; YouTube/Meta ısıtma ve remarketing ile devam eder; Search/Hotel Ads kapanışı alır. Brand savunma aynı dönemde güçlendirilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+}
     }
   },
   en: {

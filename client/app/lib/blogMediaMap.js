@@ -15659,6 +15659,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "Yeni hesap oturmuş hesap ve sezon değişimi senaryolarını gösteren kart",
       caption: "Yeni hesap oturmuş hesap ve sezon değişimi senaryolarını gösteren kart"
     }
+  },
+
+
+  "2026-ctv-ve-dijital-tv-reklamlari":{
+        banner: {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-1.webp",
+      alt: "2026’da CTV ve Dijital TV Reklamları: Oteller İçin Yeni Görünürlük Alanı",
+      caption: "2026’da CTV ve Dijital TV Reklamları: Oteller İçin Yeni Görünürlük Alanı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-2.webp",
+      alt: "CTV’nin funnel içindeki yerini ve kapanış kanallarıyla bağını gösteren görsel",
+      caption: "CTV’nin funnel içindeki yerini ve kapanış kanallarıyla bağını gösteren görsel"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-3.webp",
+      alt: "CTV’nin otellerde üst funnel marka talebi ürettiğini vurgulayan bölüm görseli",
+      caption: "CTV’nin otellerde üst funnel marka talebi ürettiğini vurgulayan bölüm görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-4.webp",
+      alt: "CTV ölçümünde tıklama yerine branded search ve direct trafik sinyallerini vurgulayan görsel",
+      caption: "CTV ölçümünde tıklama yerine branded search ve direct trafik sinyallerini vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-5.webp",
+      alt: "CTV’nin awareness ve branded demand etkisini funnel diyagramında gösteren görsel",
+      caption: "CTV’nin awareness ve branded demand etkisini funnel diyagramında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-6.webp",
+      alt: "CTV test kampanyası KPI ve ölçüm framework kontrol listesini özetleyen kart",
+      caption: "CTV test kampanyası KPI ve ölçüm framework kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-7.webp",
+      alt: "Branded search ve direct trafik artışını CTV kampanyasıyla özetleyen KPI kartı",
+      caption: "Branded search ve direct trafik artışını CTV kampanyasıyla özetleyen KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-23/Hotel3-23-8.webp",
+      alt: "Oteller için üç CTV test senaryosunu gösteren uygulama kartı",
+      caption: "Oteller için üç CTV test senaryosunu gösteren uygulama kartı"
+    }
   }
   
 

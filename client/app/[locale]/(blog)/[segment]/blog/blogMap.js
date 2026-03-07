@@ -387,7 +387,8 @@ export const BLOG_MAP = {
     "otel-dinamik-fiyatlama-ve-reklam-stratejisi":"BlogOtelDinamikFiyatlamaVeReklamStratejisi",
     "yillik-otel-reklam-yol-haritasi":"BlogYillikOtelReklamYolHaritasi",
     "2026-cookieless-donem-otel-reklamlari":"Blog2026CookielessDonemOtelReklamlari",
-    "2026-yapay-zeka-otomatik-teklif-stratejileri":"Blog2026YapayZekaOtomatikTeklifStratejileri"
+    "2026-yapay-zeka-otomatik-teklif-stratejileri":"Blog2026YapayZekaOtomatikTeklifStratejileri",
+    "2026-ctv-ve-dijital-tv-reklamlari":"Blog2026CTVveDijitalTVReklamlari"
   }
 };
 
