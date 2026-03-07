@@ -210,7 +210,14 @@ const nextConfig = {
         permanent: true,
       },
 
-
+      
+      
+      
+      {
+        source: "/tr/veri-analizi-raporlama/:path*",
+        destination: "/tr/raporlama/:path*",
+        permanent: true,
+      },
 
       
     ];
