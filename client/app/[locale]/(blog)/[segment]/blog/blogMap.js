@@ -388,7 +388,10 @@ export const BLOG_MAP = {
     "yillik-otel-reklam-yol-haritasi":"BlogYillikOtelReklamYolHaritasi",
     "2026-cookieless-donem-otel-reklamlari":"Blog2026CookielessDonemOtelReklamlari",
     "2026-yapay-zeka-otomatik-teklif-stratejileri":"Blog2026YapayZekaOtomatikTeklifStratejileri",
-    "2026-ctv-ve-dijital-tv-reklamlari":"Blog2026CTVveDijitalTVReklamlari"
+    "2026-ctv-ve-dijital-tv-reklamlari":"Blog2026CTVveDijitalTVReklamlari",
+
+    "2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu":"BlogOtel2026YapayZekaKreatifOtomasyonu",
+    "2026-performans-metasearch-ve-yeni-kanallar":"BlogOtel2026PerformansMetasearchVeYeniKanallar"
   }
 };
 

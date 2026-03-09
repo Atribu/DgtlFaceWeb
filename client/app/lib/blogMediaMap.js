@@ -15710,6 +15710,108 @@ export const BLOG_MEDIA_MAP = {
       alt: "Oteller için üç CTV test senaryosunu gösteren uygulama kartı",
       caption: "Oteller için üç CTV test senaryosunu gösteren uygulama kartı"
     }
+  },
+
+
+  "2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu":{
+        banner: {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-1.webp",
+      alt: "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu",
+      caption: "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-2.webp",
+      alt: "AI üretim DCO kombinasyon ve insan onay akışını otel reklamında gösteren görsel",
+      caption: "AI üretim DCO kombinasyon ve insan onay akışını otel reklamında gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-3.webp",
+      alt: "AI üretim hızını ve otel marka güveni kontrolünü ayıran bölüm görseli",
+      caption: "AI üretim hızını ve otel marka güveni kontrolünü ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-4.webp",
+      alt: "Marka dili KVKK ve telif uyumu için insan onay mekanizmasını vurgulayan görsel",
+      caption: "Marka dili KVKK ve telif uyumu için insan onay mekanizmasını vurgulayan görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-5.webp",
+      alt: "DCO kreatif yapısını oda paket feed ve mesaj şablonuyla gösteren diyagram",
+      caption: "DCO kreatif yapısını oda paket feed ve mesaj şablonuyla gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-6.webp",
+      alt: "AI kreatif üretiminde marka dili ve uyum kontrol listesini özetleyen kart",
+      caption: "AI kreatif üretiminde marka dili ve uyum kontrol listesini özetleyen kart"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-7.webp",
+      alt: "Kreatif varyasyon test performansını CTR CVR CPA ile özetleyen kartı",
+      caption: "Kreatif varyasyon test performansını CTR CVR CPA ile özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-24/Hotel3-24-8.webp",
+      alt: "AI kreatif otomasyon yol haritası ve 5 adım planını gösteren kart",
+      caption: "AI kreatif otomasyon yol haritası ve 5 adım planını gösteren kart"
+    }
+  },
+
+
+  "2026-performans-metasearch-ve-yeni-kanallar":{
+        banner: {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-1.webp",
+      alt: "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu",
+      caption: "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-2.webp",
+      alt: "Kanal format karmaşasını role based plana bağlayan otel reklam görseli",
+      caption: "Kanal format karmaşasını role based plana bağlayan otel reklam görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-3.webp",
+      alt: "Metasearch’te fiyat ve müsaitlik feed doğruluğunu vurgulayan bölüm görseli",
+      caption: "Metasearch’te fiyat ve müsaitlik feed doğruluğunu vurgulayan bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-4.webp",
+      alt: "PMax ve yeni format test önceliğini stratejik çerçevede vurgulayan bölüm görseli",
+      caption: "PMax ve yeni format test önceliğini stratejik çerçevede vurgulayan bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-5.webp",
+      alt: "Metasearch PMax discovery demand gen formatlarını funnel diyagramında gösteren görsel",
+      caption: "Metasearch PMax discovery demand gen formatlarını funnel diyagramında gösteren görsel"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-6.webp",
+      alt: "2026 kanal ve format test önceliklerini içeren kontrol listesi kartı",
+      caption: "2026 kanal ve format test önceliklerini içeren kontrol listesi kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-7.webp",
+      alt: "Kanal format bazlı ROAS ve branded demand KPI’larını özetleyen kart",
+      caption: "Kanal format bazlı ROAS ve branded demand KPI’larını özetleyen kart"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel3-25/Hotel3-25-8.webp",
+      alt: "2026 test planı ve go no go karar çerçevesini gösteren otel reklam kartı",
+      caption: "2026 test planı ve go no go karar çerçevesini gösteren otel reklam kartı"
+    }
   }
   
 

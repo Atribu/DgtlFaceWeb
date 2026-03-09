@@ -38913,7 +38913,242 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu",
+      "name": "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "AI Creative",
+        "Creative Automation",
+        "DCO",
+        "Dynamic Ads",
+        "Room Type",
+        "Package Feed",
+        "Brand Voice",
+        "Compliance",
+        "KVKK"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu",
+      "headline": "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu",
+      "description": "2026’da AI kreatif otomasyonuyla otel reklamlarında daha çok varyasyon üretin: DCO oda/paket feed’leri, AI destekli A/B test ve rotasyon. Marka dili, gerçeklik ve KVKK/telif uyumu için insan onayı şart.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "2026 ai kreatif otomasyon otel",
+        "dco ve dinamik kreatif feed yapisi",
+        "yapay zeka destekli otel reklam metinleri",
+        "hotel creative automation ai",
+        "dco room feed campaigns"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Otel Reklamlarında Yapay Zekâ ile Kreatif Otomasyonu", "item": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da yapay zekâ otel reklam kreatiflerini nasıl etkiliyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI metin ve görsel varyasyon üretimini hızlandırır ve test edilen kombinasyon sayısını artırır. Otelde marka dili, gerçeklik ve yasal uyum kontrolü insanda kalmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DCO ve dinamik kreatifler oteller için nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda/paket feed’lerinden bilgileri kreatif şablonuna dinamik yerleştirerek doğru ürün–doğru mesaj kombinasyonlarını otomatik test eder. Feed QA ve yanlış eşleşme kontrolü kritik önemdedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI ile hazırlanan görsel ve metinlerde nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gerçek dışı vaatlerden ve misafir beklentisini bozacak görsellerden kaçınılmalı; telif ve KVKK sınırları korunmalıdır. Fiyat/koşul gibi hassas metinler insan onayından geçmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kreatif otomasyon ROAS’ı gerçekten artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru test disiplini ve guardrail’lerle artırabilir; daha çok varyasyon denenir ve kazanan kombinasyonlar bulunur. Kontrolsüz kullanım kaliteyi düşürüp performansı bozabilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-performans-metasearch-ve-yeni-kanallar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar",
+      "name": "2026’da Metasearch, Performance Max ve Yeni Kanallar: Otel Reklamlarında Neleri Takip Etmelisiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "about": [
+        "Metasearch",
+        "Google Hotel Ads",
+        "Performance Max",
+        "Discovery",
+        "Demand Gen",
+        "OTA",
+        "Direct Booking",
+        "Funnel",
+        "Test Plan"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar",
+      "headline": "2026’da Metasearch, Performance Max ve Yeni Kanallar: Otel Reklamlarında Neleri Takip Etmelisiniz?",
+      "description": "2026’da otel reklam ekosistemi metasearch, Performance Max ve yeni formatlarla karmaşıklaştı. Başarı için rollerini netleştirip pilot test ve ölçüm planıyla ilerleyin; feed doğruluğu ve kreatif kontrolü koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar#webpage" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "name": "DGTLFACE" },
+      "keywords": [
+        "2026 metasearch ve pmax otel",
+        "yeni reklam formatlari otel icin nasil secilir",
+        "discovery demand gen resort stratejisi",
+        "hotel metasearch vs pmax 2026",
+        "channel mix new formats resorts"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/reklam-yonetimi#service",
+      "name": "Otel Reklam Yönetimi",
+      "url": "https://dgtlface.com/tr/otel/reklam-yonetimi",
+      "provider": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/" },
+        { "@type": "ListItem", "position": 3, "name": "Otel Reklam Yönetimi", "item": "https://dgtlface.com/tr/otel/reklam-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Metasearch, Performance Max ve Yeni Kanallar", "item": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-performans-metasearch-ve-yeni-kanallar",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da metasearch ve Performance Max otel reklamlarında ne kadar önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metasearch yüksek niyetli fiyat/uygunluk görünürlüğü sağlar ve feed doğruluğu ile kritiktir. PMax doğru sinyal ve kreatif kontrolle hacim büyütebilir; kontrolsüz kullanım risklidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller her yeni kampanya türünü açmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Her formatın funnel rolü farklıdır; hepsini açmak bütçeyi dağıtıp verimi düşürebilir. En iyi yaklaşım küçük pilotlarla test edip go/no-go kararı vermektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Metasearch ve PMax birlikte nasıl kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metasearch close/niyet ve fiyat görünürlüğü rolünde, PMax otomasyonlu büyüme rolünde konumlanmalıdır. Feed senkronu sağlanmalı ve raporlar ayrı okunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeni formatları test ederken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef (awareness vs close), ölçüm KPI seti (branded search/direct dahil), kreatif set hazırlığı, pilot bütçe limiti ve go/no-go kriterleri test öncesi yazılmalıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
+
     }
   },
   en: {
