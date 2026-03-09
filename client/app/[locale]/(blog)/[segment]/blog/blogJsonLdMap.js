@@ -39147,6 +39147,781 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"ota-rate-parity-ve-fiyat-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi",
+      "name": "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi",
+      "headline": "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?",
+      "name": "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?",
+      "description": "Rate parity nedir? OTA–web–call center fiyat dengesini bozmeden kurun. Direct’te ekstra fayda ve esneklikle ayrışın; kampanyaları çakıştırmadan yönetin, KPI’larla ölçün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Rate Parity" },
+        { "@type": "Thing", "name": "OTA Pricing" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Package" },
+        { "@type": "Thing", "name": "Discount" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#howto",
+      "name": "Rate Parity ve Direct Denge: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Parity ihlal audit’i çıkar", "text": "Son 30 günde oda/tarih bazında parity ihlallerini listeleyin." },
+        { "@type": "HowToStep", "name": "PMS–CM senkronunu doğrula", "text": "Mapping ve kural senkronunu kontrol edip manuel sapmaları kaldırın." },
+        { "@type": "HowToStep", "name": "Fiyat mimarisi dokümanı yaz", "text": "Base rate + paket + fayda üçlüsünü netleştirip kanallar arası rol tanımlayın." },
+        { "@type": "HowToStep", "name": "Direct değer paketi #1 tanımla", "text": "Esnek iptal veya risk azaltıcı faydayı web direct’e yerleştirin." },
+        { "@type": "HowToStep", "name": "Direct değer paketi #2 tanımla", "text": "Upgrade talebi, transfer veya geç çıkış gibi değer avantajı ekleyin." },
+        { "@type": "HowToStep", "name": "Call center itiraz script’i hazırla", "text": "“OTA’da şu fiyat var” itirazını fayda ile kapatan 10 yanıt şablonu oluşturun." },
+        { "@type": "HowToStep", "name": "Kampanya takvimini ayrıştır", "text": "OTA kampanyalarıyla web kampanyalarını aynı tarih/mesajla çakıştırmayın." },
+        { "@type": "HowToStep", "name": "Özel fiyatı kontrollü kurgula", "text": "Kupon/üyelik fiyatını login bazlı ve indekslenmeyen alanlarda sunun." },
+        { "@type": "HowToStep", "name": "KPI paneli kur", "text": "Direct pay, net ADR, iptal/no-show, parity ihlal sayısı ve ROAS KPI setini oluşturun." },
+        { "@type": "HowToStep", "name": "Revize ritmi başlat", "text": "Haftalık parity kontrolü ve aylık gelir revizesiyle stratejiyi güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?", "item": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-rate-parity-ve-fiyat-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Rate parity nedir, oteller için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rate parity, aynı oda/tarih için kanallar arasında makul ve tutarlı fiyat seviyelerini koruyarak misafir güvenini ve kanal ilişkilerini korumaktır. Tutarsızlık dönüşümü düşürebilir ve kanal çatışması yaratabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve direkt site fiyatlarını nasıl dengelemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Base rate’i tutarlı tutun; direct’te fiyat kırmak yerine ekstra fayda (esnek iptal, upgrade talebi, transfer) ile ayrışın. Kampanyaları çakıştırmadan takvimleyin ve CM üzerinden tek kaynakla yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA kampanyaları ile web kampanyaları çakışmadan nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı tarihte aynı indirim mesajını iki kanalda birden vermeyin. OTA’da kampanya varken web’de fayda/paket mesajı kullanın; kampanyaları 14 günlük test ve KPI eşikleriyle yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat stratejisini hangi KPI’lara göre gözden geçirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct pay, kanal bazlı net ADR, iptal/no-show, parity ihlal sayısı ve ROAS temel KPI setidir. Haftalık parity kontrolü, aylık gelir revizesi önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Booking’de farklı, sitemde farklı fiyat göstersem ne olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Herkese açık fiyat farkı misafir güvenini zedeleyebilir ve kanal ilişkisi riskini artırabilir. Daha sağlıklı yaklaşım, fiyatı tutarlı tutup web’de fayda/üyelik gibi kontrollü avantajlar sunmaktır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-overbooking-riskini-azaltma-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri",
+      "name": "OTA Üzerinden Overbooking Riskini Azaltmak: PMS ve Kanal Yönetimi ile Çalışan Stratejiler",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri",
+      "headline": "OTA Üzerinden Overbooking Riskini Azaltmak: PMS ve Kanal Yönetimi ile Çalışan Stratejiler",
+      "name": "OTA Üzerinden Overbooking Riskini Azaltmak: PMS ve Kanal Yönetimi ile Çalışan Stratejiler",
+      "description": "OTA overbooking riskini azaltın: PMS–channel manager senkronu, oda bazlı limit/stop-sale kuralları ve pik gün kontrol rutiniyle şikâyet ve relocation maliyetini düşürün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Overbooking" },
+        { "@type": "Thing", "name": "Inventory Management" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Stop-Sale" },
+        { "@type": "Thing", "name": "Peak Demand" },
+        { "@type": "Thing", "name": "Guest Relocation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#howto",
+      "name": "OTA Overbooking Önleme: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Overbooking olaylarını analiz et",
+          "text": "Son 12 ay olaylarını tarih/oda tipi/kök neden ile çıkarıp ölçülebilir bir baz oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tek kaynak envanter kuralını koy",
+          "text": "Envanteri yalnız channel manager üzerinden yönetin; OTA extranet manuel müdahaleyi SOP ile kapatın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mapping denetimi yap",
+          "text": "PMS–CM–OTA oda tipi eşleşmelerini kontrol edip test rezervasyonlarıyla doğrulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Oda bazlı maksimum limit belirle",
+          "text": "Riskli oda tiplerinde satılabilir maksimum adedi tanımlayıp kuralı CM’ye işleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Stop-sale kademeli kapama kurgula",
+          "text": "Pik günlerde oda tipi ve kanal bazlı kademeli kapama eşikleri tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Opsiyon/allotment/garanti kurallarını netleştir",
+          "text": "Bu rezervasyon türlerinin net müsaitliğe doğru yansımasını sağlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pik gün SOP oluştur",
+          "text": "Günlük 3 kontrol penceresiyle log, pickup ve stop-sale doğrulaması yapın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Krizde 5 adım planını uygula",
+          "text": "Doğrula, önceliklendir, alternatif hazırla, iletişimi yönet, telafi et ve kaydet."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Relocation planını hazır tut",
+          "text": "Alternatif otel listesi, transfer ve telafi paketini sezon öncesi netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI paneli ve revize ritmi kur",
+          "text": "Olay sayısı, relocation maliyeti, şikâyet ve envanter sapmasını takip edip aylık revize edin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OTA Yönetimi (Hotel OTA)",
+          "item": "https://dgtlface.com/tr/otel/ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "OTA Üzerinden Overbooking Riskini Azaltmak: PMS ve Kanal Yönetimi ile Çalışan Stratejiler",
+          "item": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-overbooking-riskini-azaltma-stratejileri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Overbooking nedir, oteller için ne gibi sorunlar yaratır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Overbooking, aynı odayı aynı tarih için birden fazla misafire satmaktır. Relocation maliyeti, şikâyet/yorum riski ve itibar kaybı nedeniyle geliri uzun vadede düşürebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA üzerinden overbooking nasıl oluşur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS–channel manager senkron kopması, yanlış mapping, manuel extranet müdahalesi ve pik gün kontrol eksikliği riskin en sık sebepleridir. Tek kaynak envanter yönetimi yoksa hata büyür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ve kanal yöneticisi ile overbooking riski nasıl azaltılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Envanteri yalnız channel manager üzerinden yönetin, oda bazlı maksimum limitler ve stop-sale kuralları tanımlayın. Pik talepte günlük kontrol ve log doğrulama ile senkron hatalarını erken yakalayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Overbooking yaşandığında misafire nasıl yaklaşılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "5 adımlı plan uygulayın: doğrula, önceliklendir, alternatif hazırla, iletişimi çözüm diliyle yönet, telafi et ve olayı kaydedip kök nedeni kapat. Tartışma yerine net seçenek sunun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-iptal-ve-no-show-politikalari-optimizasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu",
+      "name": "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politkalari-optimizasyonu",
+      "headline": "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi",
+      "name": "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi",
+      "description": "OTA iptal/no-show politikalarını sezon ve pazara göre optimize edin. Esnek–yarı esnek–iade edilemez dengesiyle geliri koruyun, dönüşümü düşürmeden no-show kaybını azaltın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Cancellation Policy" },
+        { "@type": "Thing", "name": "No-Show" },
+        { "@type": "Thing", "name": "Flexible Rate" },
+        { "@type": "Thing", "name": "Non-Refundable" },
+        { "@type": "Thing", "name": "Seasonality" },
+        { "@type": "Thing", "name": "Market Behaviour" },
+        { "@type": "Thing", "name": "Revenue" },
+        { "@type": "Thing", "name": "Risk" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#howto",
+      "name": "OTA İptal & No-Show Politikası Optimizasyonu: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Mevcut veriyi çıkar", "text": "İptal oranı, son dakika iptal ve no-show KPI’larını sezon ve pazar kırılımında raporlayın." },
+        { "@type": "HowToStep", "name": "Politika portföyünü tasarla", "text": "Esnek, yarı esnek ve iade edilemez fiyat tiplerini birlikte kurgulayın." },
+        { "@type": "HowToStep", "name": "Sezon modlarını tanımla", "text": "Pik/omuz/düşük sezon için ayrı politika modları oluşturun." },
+        { "@type": "HowToStep", "name": "Pazar davranışını ölç", "text": "OTA raporlarından pazar bazlı iptal/no-show eğilimlerini çıkarın." },
+        { "@type": "HowToStep", "name": "Politika metnini netleştir", "text": "Ücretsiz iptal penceresi, tahsilat ve no-show kuralını kısa ve anlaşılır yazın." },
+        { "@type": "HowToStep", "name": "PMS politika kodlarını doğrula", "text": "Politika kodlarını PMS’de doğru tanımlayıp CM/OTA’ya tutarlı aktarın." },
+        { "@type": "HowToStep", "name": "Test planı oluştur", "text": "14–30 gün test süresi ve KPI eşikleri belirleyin; hangi oda tiplerinde uygulanacağını yazın." },
+        { "@type": "HowToStep", "name": "Öncesi/sonrası ölç", "text": "İptal/no-show azalırken dönüşüm ve net ADR’nin kabul edilebilir kaldığını doğrulayın." },
+        { "@type": "HowToStep", "name": "Operasyonel uyumu sağla", "text": "Ön büro ve rezervasyon ekibinin politikayı doğru uygulaması için SOP ve eğitim yapın." },
+        { "@type": "HowToStep", "name": "Revize ritmini başlat", "text": "Aylık politika review toplantısı ve sezon geçişinde kapsamlı revize kuralı koyun." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi", "item": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-iptal-ve-no-show-politikalari-optimizasyonu",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA iptal politikaları nasıl seçilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Talep seviyesi ve pazar davranışına göre seçilmeli; tek politika yerine esnek–yarı esnek–iade edilemez portföyü kurgulanmalıdır. Politika metni net olmalı ve PMS/CM/OTA’da tutarlı uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Esnek ve iade edilemez fiyatları nasıl dengelemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Düşük talepte esnek fiyat dönüşümü artırır; yüksek talepte iade edilemez gelir korur. En sağlıklı yaklaşım, iki seçeneği birlikte sunup sezon/pazar bazında ağırlığı ayarlamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "No-show oranları geliri nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No-show oda yeniden satışını engelleyebilir ve operasyon planlamasını bozar; net gelir kaybı üretir. Net politika, doğru tahsilat ve portföy dengesi no-show etkisini azaltabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Politika değişikliğinin performansa etkisini nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İptal oranı (özellikle son dakika), no-show, dönüşüm ve net ADR’yi birlikte izleyin. 14–30 günlük test yapıp KPI eşiklerine göre revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yüksek talepte neden daha katı politika önerilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yüksek talepte son dakika iptal/no-show gelir tahminini bozar; daha katı politika risk koruması sağlar. Aşırı katılık dönüşümü düşürebileceği için ölçerek uygulanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yeni-acilan-oteller-icin-ota-launch-plani":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani",
+      "name": "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#article",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani",
+      "headline": "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?",
+      "name": "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?",
+      "description": "Yeni açılan oteller için OTA launch: profil/fotoğraf hazırlığı, intro fiyat–fayda kampanyaları, ilk yorumlar ve 30/60/90 gün KPI takibiyle görünürlük ve doluluğu hızla büyütün.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "New Hotel Launch" },
+        { "@type": "Thing", "name": "Launch Phase" },
+        { "@type": "Thing", "name": "OTA Profile" },
+        { "@type": "Thing", "name": "Introductory Rate" },
+        { "@type": "Thing", "name": "First Reviews" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Occupancy" },
+        { "@type": "Thing", "name": "OTA Visibility" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        "Antalya",
+        "Belek",
+        "Side",
+        "Kemer",
+        "Bodrum"
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#howto",
+      "name": "Yeni Otel OTA Launch: İlk 90 Gün Planı (10 Adım)",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "0–30 gün profil hijyenini tamamla", "text": "Headline, oda metinleri, olanaklar ve politikaları eksiksiz ve satış odaklı doldurun." },
+        { "@type": "HowToStep", "name": "Fotoğraf setini kur", "text": "Kapak + en çok satan oda + banyo + kahvaltı + deneyim + segment kanıtı görsellerini karar akışına göre sırala." },
+        { "@type": "HowToStep", "name": "PMS–CM–OTA entegrasyonunu doğrula", "text": "Mapping’i test rezervasyonlarıyla doğrulayıp fiyat/envanter senkronunu tek kaynakla yönet." },
+        { "@type": "HowToStep", "name": "Politika metinlerini netleştir", "text": "İptal/no-show koşullarını kısa ve anlaşılır şekilde yaz; sürpriz algısını azalt." },
+        { "@type": "HowToStep", "name": "31–60 gün intro teklifi tasarla", "text": "Kısa süreli ve oda tipi bazlı intro fiyat planı oluştur; aşırı düşük fiyatla algıyı bozma." },
+        { "@type": "HowToStep", "name": "Fayda ile ayrış", "text": "Esnek iptal, upgrade talebi, transfer gibi faydalarla değer farkı yarat." },
+        { "@type": "HowToStep", "name": "Kampanya takvimi oluştur", "text": "Kampanyaları 14 günlük testlerle yönet; KPI eşikleriyle ölçekle veya kapat." },
+        { "@type": "HowToStep", "name": "İlk yorum akışını kur", "text": "Check-out tetik + QR + 2 adımlı mesaj akışıyla yorum tazeliğini artır." },
+        { "@type": "HowToStep", "name": "30/60/90 KPI paneli kur", "text": "Görünürlük/CTR, dönüşüm, doluluk, net ADR, puan ve yorum tazeliğini izleyin." },
+        { "@type": "HowToStep", "name": "61–90 gün stabilizasyona geç", "text": "Fiyat mimarisini kalıcı yapıya taşı; yorum ve KPI ritmini sürdürülebilir hale getir." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?", "item": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/yeni-acilan-oteller-icin-ota-launch-plani",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yeni açılan oteller OTA’da ilk 90 günde ne yapmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "0–30 günde profil ve entegrasyonu kusursuz kurmalı, 31–60 günde intro fiyat/fayda testleriyle görünürlük almalı, 61–90 günde yorum ve KPI sistemiyle performansı stabilize etmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Launch döneminde OTA fiyat ve kampanya stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aşırı düşük fiyatla algıyı bozmak yerine kısa süreli, oda tipi bazlı intro teklifleri KPI eşikleriyle test edin. Fiyat yerine fayda (esnek iptal, upgrade talebi) ile ayrışın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İlk yorum ve puanları hızlıca nasıl kazanabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Soft opening misafirleri, davetli konaklamalar ve check-out tetik + QR + takip mesajlarıyla yorum tazeliğini artırın. Yanıt SLA (24–48 saat) ve şablonlarla güven sinyalini güçlendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Açılış döneminin başarısı hangi KPI’larla ölçülmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görünürlük/CTR, dönüşüm, doluluk, net ADR, yorum tazeliği ve ortalama puan temel KPI setidir. 30/60/90 gün hedefleriyle izlemek en sağlıklısıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Launch’ta en büyük hata nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eksik profil ve zayıf fotoğrafla kampanya açmak veya aşırı düşük fiyatla uzun vadeli fiyat algısını bozmak. Önce profil hijyeni, sonra kontrollü test yaklaşımı önerilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri",
+      "name": "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri",
+      "headline": "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?",
+      "name": "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?",
+      "description": "Mobil-only ve geo-rate fiyatlar doğru pazarda talep artırır; yanlış kurguda net ADR ve direct pay düşer. Pazar×cihaz matrisi, 3 senaryo ve KPI’larla kontrollü uygulayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Mobile-Only Rates" },
+        { "@type": "Thing", "name": "Geo Rates" },
+        { "@type": "Thing", "name": "Market Demand" },
+        { "@type": "Thing", "name": "Device Behaviour" },
+        { "@type": "Thing", "name": "Direct Channel Balance" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Visibility" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#howto",
+      "name": "Mobil/Geo Fiyat Kampanyası: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Hedef pazarı ve cihazı seç", "text": "DE/RU/UK gibi hedef pazarı ve mobil-only veya geo-rate teklif tipini netleştirin." },
+        { "@type": "HowToStep", "name": "Amaç tanımı yap", "text": "Boşluk doldurma mı, görünürlük mü, ek talep mi hedeflendiğini yazın." },
+        { "@type": "HowToStep", "name": "Oda tipi ve tarih aralığını sınırla", "text": "Tüm envanter yerine seçili oda tipinde ve belirli tarihte uygulayın." },
+        { "@type": "HowToStep", "name": "Parity ve sözleşme kontrolü yap", "text": "OTA kuralları ve parity risklerini kontrol ederek kampanyayı uyumlu kurgulayın." },
+        { "@type": "HowToStep", "name": "PMS–CM fiyat akışını doğrula", "text": "Fiyat ve envanter akışının tek kaynaktan (CM) çalıştığını doğrulayın." },
+        { "@type": "HowToStep", "name": "Direct denge planı kur", "text": "Direct’te fiyat kırmadan fayda/üyelik avantajıyla ayrışma kurgulayın." },
+        { "@type": "HowToStep", "name": "KPI paneli baseline al", "text": "CTR, dönüşüm, net ADR, direct pay ve iptal/no-show baseline değerlerini kaydedin." },
+        { "@type": "HowToStep", "name": "Kampanyayı kısa testle aç", "text": "14–30 gün test süresi belirleyip kampanyayı devreye alın." },
+        { "@type": "HowToStep", "name": "Öncesi/sonrası etkisini oku", "text": "Ek talep mi yoksa kanal kayması mı olduğunu rezervasyon dağılım grafiğiyle analiz edin." },
+        { "@type": "HowToStep", "name": "Revize et veya kapat", "text": "Eşiklere göre kampanyayı ölçekleyin, revize edin veya kapatın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?", "item": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA’da mobil-only ve ülkeye özel fiyatlar ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Belirli pazarlarda ve cihazlarda görünürlüğü artırıp ek talep yaratabilir. Yanlış kurguda gereksiz indirim yapar ve direct kanal dengesini zayıflatabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi pazarlarda geo-rate kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DE/RU/UK gibi hedef pazarlarda, veriyle doğruladığınız dönemsel boşluklarda veya rekabetin yoğunlaştığı aralıklarda kısa testlerle kullanılmalıdır. Süre, oda tipi ve KPI eşikleriyle sınırlamak önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil fiyat verirken direkt site stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Direct’te fiyat kırmak yerine fayda/üyelik avantajı ile ayrışın (esnek iptal, upgrade talebi, transfer). Böylece parity bozulmadan direct kanalın değeri korunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil/geo fiyat kampanyasının başarısını nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hedef pazarda CTR ve dönüşüm artışı, net ADR etkisi ve direct pay kayması birlikte ölçülmelidir. 14–30 günlük test sonrası eşiklere göre ölçekleyin veya kapatın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mobil/geo-rate açmanın en büyük riski nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ek talep üretmeden sadece indirim maliyeti yaratması ve direct pay’ı düşürmesidir. Bu yüzden guardrail ve KPI paneli şarttır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

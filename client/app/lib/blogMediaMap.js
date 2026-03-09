@@ -15812,6 +15812,260 @@ export const BLOG_MEDIA_MAP = {
       alt: "2026 test planı ve go no go karar çerçevesini gösteren otel reklam kartı",
       caption: "2026 test planı ve go no go karar çerçevesini gösteren otel reklam kartı"
     }
+  },
+
+
+  "ota-rate-parity-ve-fiyat-stratejisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-1.webp",
+      alt: "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?",
+      caption: "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-2.webp",
+      alt: "Fiyat + fayda + politika üçlüsü, amaç: karar modeli, otel satış bağlamı",
+      caption: "Fiyat + fayda + politika üçlüsü, amaç: karar modeli, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-3.webp",
+      alt: "Parity risk haritası, amaç: misafir ve kanal etkisi, otel gelir bağlamı",
+      caption: "Parity risk haritası, amaç: misafir ve kanal etkisi, otel gelir bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-4.webp",
+      alt: "Fiyat-fayda mesaj tipleri, amaç: direct değer kurgusu, otel satış bağlamı",
+      caption: "Fiyat-fayda mesaj tipleri, amaç: direct değer kurgusu, otel satış bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-5.webp",
+      alt: "PMS→CM→OTA/Web parity akışı, amaç: operasyonel doğruluk, otel gelir bağlamı",
+      caption: "PMS→CM→OTA/Web parity akışı, amaç: operasyonel doğruluk, otel gelir bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-6.webp",
+      alt: "4 doğru 4 yanlış parity, amaç: hızlı rehber, otel gelir bağlamı",
+      caption: "4 doğru 4 yanlış parity, amaç: hızlı rehber, otel gelir bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-7.webp",
+      alt: "Parity KPI paneli, amaç: direct pay ve ADR etkisi, otel gelir bağlamı",
+      caption: "Parity KPI paneli, amaç: direct pay ve ADR etkisi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-6/Hotel4-6-8.webp",
+      alt: "Fiyat mimarisi + değer paketleri + kampanya takvimi, amaç: somut çıktı, otel yönetim bağlamı",
+      caption: "Fiyat mimarisi + değer paketleri + kampanya takvimi, amaç: somut çıktı, otel yönetim bağlamı"
+    }
+  },
+
+  "ota-overbooking-riskini-azaltma-stratejileri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-1.webp",
+      alt: "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?",
+      caption: "OTA Rate Parity ve Fiyat Stratejisi: OTA ile Direkt Rezervasyon Nasıl Dengelenir?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-2.webp",
+      alt: "PMS–CM–OTA envanter senkronu, amaç: tek kaynak prensibi, otel satış bağlamı",
+      caption: "PMS–CM–OTA envanter senkronu, amaç: tek kaynak prensibi, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-3.webp",
+      alt: "Maliyet zinciri görünümü, amaç: şikâyet ve relocation etkisi, otel operasyon bağlamı",
+      caption: "Maliyet zinciri görünümü, amaç: şikâyet ve relocation etkisi, otel operasyon bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-4.webp",
+      alt: "Kriz akışı özeti, amaç: misafir memnuniyeti planı, otel operasyon bağlamı",
+      caption: "Kriz akışı özeti, amaç: misafir memnuniyeti planı, otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-5.webp",
+      alt: "PMS→CM→OTA akışı, amaç: envanter doğruluğu, otel operasyon bağlamı",
+      caption: "PMS→CM→OTA akışı, amaç: envanter doğruluğu, otel operasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-6.webp",
+      alt: "Önleme checklist’i, amaç: limit ve stop-sale adımları, otel operasyon bağlamı",
+      caption: "Önleme checklist’i, amaç: limit ve stop-sale adımları, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-7.webp",
+      alt: "Overbooking KPI paneli, amaç: olay ve maliyet takibi, otel gelir bağlamı",
+      caption: "Overbooking KPI paneli, amaç: olay ve maliyet takibi, otel gelir bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-7/Hotel4-7-8.webp",
+      alt: "SOP + limit tablosu + kriz planı, amaç: somut çıktılar, otel yönetim bağlamı",
+      caption: "SOP + limit tablosu + kriz planı, amaç: somut çıktılar, otel yönetim bağlamı"
+    }
+  },
+
+
+  "ota-iptal-ve-no-show-politikalari-optimizasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-1.webp",
+      alt: "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi",
+      caption: "OTA İptal ve No-Show Politikalarını Optimize Etmek: Gelir ve Risk Dengesi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-2.webp",
+      alt: "Esnek/katı politika dengesi, amaç: karar modeli, otel satış bağlamı",
+      caption: "Esnek/katı politika dengesi, amaç: karar modeli, otel satış bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-3.webp",
+      alt: "Politika tasarım mantığı, amaç: risk ve dönüşüm dengesi, otel revenue bağlamı",
+      caption: "Politika tasarım mantığı, amaç: risk ve dönüşüm dengesi, otel revenue bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-4.webp",
+      alt: "Politika senaryoları (pik/omuz/düşük), amaç: hızlı uygulama, otel revenue bağlamı",
+      caption: "Politika senaryoları (pik/omuz/düşük), amaç: hızlı uygulama, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-5.webp",
+      alt: "Öncesi/sonrası performans grafiği, amaç: ölçüm, otel revenue bağlamı",
+      caption: "Öncesi/sonrası performans grafiği, amaç: ölçüm, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-6.webp",
+      alt: "Politika portföy checklist’i, amaç: esnek/yarı esnek/nonref kurgu, otel revenue bağlamı",
+      caption: "Politika portföy checklist’i, amaç: esnek/yarı esnek/nonref kurgu, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-7.webp",
+      alt: "İptal/no-show KPI paneli, amaç: risk ve gelir etkisi, otel revenue bağlamı",
+      caption: "İptal/no-show KPI paneli, amaç: risk ve gelir etkisi, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-8/Hotel4-8-8.webp",
+      alt: "3 politika senaryosu kartı, amaç: uygulanabilir örnekler, otel revenue bağlamı",
+      caption: "3 politika senaryosu kartı, amaç: uygulanabilir örnekler, otel revenue bağlamı"
+    }
+  },
+
+
+  "yeni-acilan-oteller-icin-ota-launch-plani":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-1.webp",
+      alt: "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?",
+      caption: "Yeni Açılan Oteller İçin OTA Launch Planı: İlk 90 Günde Ne Yapmalısınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-2.webp",
+      alt: "30/60/90 gün KPI yol haritası, amaç: ölçüm ve plan, otel revenue bağlamı",
+      caption: "30/60/90 gün KPI yol haritası, amaç: ölçüm ve plan, otel revenue bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-3.webp",
+      alt: "90 gün faz planı, amaç: kurulum-hızlandırma-stabilizasyon, otel revenue bağlamı",
+      caption: "90 gün faz planı, amaç: kurulum-hızlandırma-stabilizasyon, otel revenue bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-4.webp",
+      alt: "Intro fiyat + fayda kurgusu, amaç: fiyat algısı koruma, otel revenue bağlamı",
+      caption: "Intro fiyat + fayda kurgusu, amaç: fiyat algısı koruma, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-5.webp",
+      alt: "Launch dönemi OTA sayfa mockup, amaç: doğru alan doldurma, otel satış bağlamı",
+      caption: "Launch dönemi OTA sayfa mockup, amaç: doğru alan doldurma, otel satış bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-6.webp",
+      alt: "İlk 90 gün yapılacaklar checklist’i, amaç: hızlı uygulama, otel operasyon bağlamı",
+      caption: "İlk 90 gün yapılacaklar checklist’i, amaç: hızlı uygulama, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-7.webp",
+      alt: "Launch KPI paneli, amaç: 30/60/90 gün takibi, otel revenue bağlamı",
+      caption: "Launch KPI paneli, amaç: 30/60/90 gün takibi, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-9/Hotel4-9-8.webp",
+      alt: "İlk 90 gün zaman çizelgesi, amaç: planın çıktıları, otel operasyon bağlamı",
+      caption: "İlk 90 gün zaman çizelgesi, amaç: planın çıktıları, otel operasyon bağlamı"
+    }
+  },
+
+
+   "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-1.webp",
+      alt: "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?",
+      caption: "OTA’da Mobil ve Ülkeye Özel Fiyatlar: Ne Zaman Mantıklı, Nasıl Kullanılmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-2.webp",
+      alt: "Pazar×cihaz×dönem matrisi, amaç: kontrollü uygulama, otel satış bağlamı",
+      caption: "Pazar×cihaz×dönem matrisi, amaç: kontrollü uygulama, otel satış bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-3.webp",
+      alt: "Ne zaman mantıklı? karar ağacı, amaç: doğru kullanım, otel revenue bağlamı",
+      caption: "Ne zaman mantıklı? karar ağacı, amaç: doğru kullanım, otel revenue bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-4.webp",
+      alt: "Mobil-only vs geo-rate ayrımı, amaç: strateji farkı, otel revenue bağlamı",
+      caption: "Mobil-only vs geo-rate ayrımı, amaç: strateji farkı, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-5.webp",
+      alt: "Öncesi/sonrası rezervasyon dağılım grafiği, amaç: ek talep mi kayma mı, otel revenue bağlamı",
+      caption: "Öncesi/sonrası rezervasyon dağılım grafiği, amaç: ek talep mi kayma mı, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-6.webp",
+      alt: "Mobil/geo guardrail checklist’i, amaç: kontrollü kampanya, otel revenue bağlamı",
+      caption: "Mobil/geo guardrail checklist’i, amaç: kontrollü kampanya, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-7.webp",
+      alt: "Mobil/geo kampanya KPI paneli, amaç: lift ve net ADR, otel revenue bağlamı",
+      caption: "Mobil/geo kampanya KPI paneli, amaç: lift ve net ADR, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-10/Hotel4-10-8.webp",
+      alt: "3 senaryo kartı + pazar matrisi, amaç: uygulanabilir örnekler, otel revenue bağlamı",
+      caption: "3 senaryo kartı + pazar matrisi, amaç: uygulanabilir örnekler, otel revenue bağlamı"
+    }
   }
   
 

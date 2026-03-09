@@ -391,7 +391,15 @@ export const BLOG_MAP = {
     "2026-ctv-ve-dijital-tv-reklamlari":"Blog2026CTVveDijitalTVReklamlari",
 
     "2026-otel-reklamlarinda-yapay-zeka-kreatif-otomasyonu":"BlogOtel2026YapayZekaKreatifOtomasyonu",
-    "2026-performans-metasearch-ve-yeni-kanallar":"BlogOtel2026PerformansMetasearchVeYeniKanallar"
+    "2026-performans-metasearch-ve-yeni-kanallar":"BlogOtel2026PerformansMetasearchVeYeniKanallar",
+
+
+    //hotel4-6
+    "ota-rate-parity-ve-fiyat-stratejisi":"BlogOtelOTARateParityVeFiyatStratejisi",
+    "ota-overbooking-riskini-azaltma-stratejileri":"BlogOtelOTAOverbookingRiskiniAzaltmaStratejileri",
+    "ota-iptal-ve-no-show-politikalari-optimizasyonu":"BlogOtaIptalVeNoShowPolitikalariOptimizasyonu",
+    "yeni-acilan-oteller-icin-ota-launch-plani":"BlogYeniAcilanOtellerIcinOTALaunchPlani",
+    "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":"BlogOTAMobilVeUlkeyeOzelFiyatTeklifleri"
   }
 };
 
