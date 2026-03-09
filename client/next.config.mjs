@@ -219,6 +219,75 @@ const nextConfig = {
         permanent: true,
       },
 
+      {
+        source: "/en/services/digital-analysis",
+        destination: "/en/digital-analysis",
+        permanent: true,
+      },
+
+
+
+        {
+          source: "/tr/hizmetler/:slug*",
+          destination: "/tr/:slug*",
+          permanent: true,
+        },
+
+        {
+  source: "/en/backlink-yonetimi-sss",
+  destination: "/en/search-engine-optimization/backlink-seo-faq",
+  permanent: true,
+},
+
+ {
+  source: "/en/cagri-merkezi-sss",
+  destination: "/en/call-center-faq",
+  permanent: true,
+},
+
+ {
+  source: "/en/analiz-raporlama-sss",
+  destination: "/en/digital-analysis-faq",
+  permanent: true,
+},
+
+{
+  source: "/Services/sem/remarketingDisplay-faq",
+  destination: "/en/sem/remarketing-and-display",
+  permanent: true,
+},
+
+{
+  source: "/en/hizmetlerimiz-sss",
+  destination: "/en/services-faq",
+  permanent: true,
+},
+
+{
+  source: "/ru/Services",
+  destination: "/en/services",
+  permanent: true,
+},
+
+
+{
+  source: "/ru/pms-kurulum-sss",
+  destination: "/en/pms-ota/pms-integration-faq",
+  permanent: true,
+},
+
+{
+  source: "/ru/anasayfa",
+  destination: "/en",
+  permanent: true,
+},
+
+{
+  source: "/ru/uslugi",
+  destination: "/en",
+  permanent: true,
+}
+
       
     ];
   },

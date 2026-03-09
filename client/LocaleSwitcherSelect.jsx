@@ -1,10 +1,9 @@
-import { useTransition, useEffect, useRef } from "react";
+import { useTransition, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import React, { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
-
 
 // Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
@@ -26,28 +25,13 @@ function findSlugByNs(ns, locale) {
 
 function isFaqSlugLike(slug) {
   const s = cleanSlug(slug);
-  return s === "sss" || s === "faq" || s === "services-faq" || s.endsWith("-sss") || s.endsWith("-faq");
-}
-
-
-const localeBlogPostsCache = {};
-
-// Blog detayında slug eşleştirmek için locale bazlı BlogPosts verisini lazy yükler.
-async function getLocaleBlogPosts(locale) {
-  const normalizedLocale = locale === "en" ? "en" : "tr";
-  if (localeBlogPostsCache[normalizedLocale]) {
-    return localeBlogPostsCache[normalizedLocale];
-  }
-
-  const mod =
-    normalizedLocale === "en"
-      ? await import("@/messages/en.json")
-      : await import("@/messages/tr.json");
-
-  const messages = mod?.default || mod || {};
-  const blogPosts = messages?.BlogPosts || {};
-  localeBlogPostsCache[normalizedLocale] = blogPosts;
-  return blogPosts;
+  return (
+    s === "sss" ||
+    s === "faq" ||
+    s === "services-faq" ||
+    s.endsWith("-sss") ||
+    s.endsWith("-faq")
+  );
 }
 
 export default function LocaleSwitcherSelect({ children, defaultValue, label }) {
@@ -56,7 +40,7 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
 
-  // Sayfa yüklendiğinde scroll konumunu sessionStorage'dan oku
+  // Türkçe yorum: Sayfa yüklendiğinde scroll konumunu sessionStorage'dan oku
   useEffect(() => {
     const savedScroll = sessionStorage.getItem("scrollPosition");
     if (savedScroll) {
@@ -65,126 +49,116 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
     }
   }, [pathname]);
 
+  const pathSegments = pathname.split("/");
+
+  // Türkçe yorum: Blog detay sayfası kontrolü
+  // Örnek:
+  // /tr/otel/blog/slug
+  // /tr/sem/blog/slug
+  // /en/hotel/blog/slug
+  const isBlogDetailPage =
+    pathSegments.length >= 5 &&
+    (pathSegments[1] === "tr" || pathSegments[1] === "en") &&
+    pathSegments[3] === "blog" &&
+    Boolean(pathSegments[4]);
+
   function handleLangChange(newLang) {
-    // Mevcut scroll pozisyonunu sessionStorage'da sakla
+    // Türkçe yorum: Blog detay sayfasında dil değiştirmeyi tamamen engelliyoruz.
+    if (isBlogDetailPage) {
+      setIsOpen(false);
+      return;
+    }
+
+    // Türkçe yorum: Mevcut scroll pozisyonunu sessionStorage'da sakla
     sessionStorage.setItem("scrollPosition", window.scrollY);
-    
+
     setIsOpen(false);
+
     startTransition(() => {
       void (async () => {
-      const pathSegments = pathname.split('/');
-      const currentLocale = pathSegments[1];
+        const currentLocale = pathSegments[1];
 
-       // ✅ 1) /sss <-> /faq fix (index)
-    // /tr/sss  -> /en/faq
-    // /en/faq  -> /tr/sss
-    if (pathSegments.length === 3) {
-      const last = pathSegments[2];
+        // ✅ 1) /sss <-> /faq fix (index)
+        // /tr/sss  -> /en/faq
+        // /en/faq  -> /tr/sss
+        if (pathSegments.length === 3) {
+          const last = pathSegments[2];
 
-      if (last === "sss" && newLang === "en") {
-        router.replace(`/${newLang}/faq`);
-        return;
-      }
-      if (last === "faq" && newLang === "tr") {
-        router.replace(`/${newLang}/sss`);
-        return;
-      }
+          if (last === "sss" && newLang === "en") {
+            router.replace(`/${newLang}/faq`);
+            return;
+          }
+          if (last === "faq" && newLang === "tr") {
+            router.replace(`/${newLang}/sss`);
+            return;
+          }
 
-      // ✅ 2) /hizmetlerimiz-sss <-> /services-faq fix (services faq index)
-      if (last === "hizmetlerimiz-sss" && newLang === "en") {
-        router.replace(`/${newLang}/services-faq`);
-        return;
-      }
-      if (last === "services-faq" && newLang === "tr") {
-        router.replace(`/${newLang}/hizmetlerimiz-sss`);
-        return;
-      }
-    }
-      
-      // Blog detay sayfası kontrolü
-      if (pathSegments[2] === 'blog' && pathSegments[3]) {
-        const currentSlug = pathSegments[3];
-        
-        // Mevcut dildeki tüm blog postlarını kontrol et
-        const currentBlogPosts = await getLocaleBlogPosts(currentLocale);
-        const matchedKey = Object.keys(currentBlogPosts).find(
-          (key) => currentBlogPosts[key]?.slug === currentSlug
-        );
-        
-        if (matchedKey) {
-          // Yeni dildeki aynı blog postunun slug'ını al
-          const nextBlogPosts = await getLocaleBlogPosts(newLang);
-          const newSlug = nextBlogPosts[matchedKey]?.slug;
-          
-          if (newSlug) {
-            // Blog detay sayfası için özel yönlendirme
-            router.replace(`/${newLang}/blog/${newSlug}`);
+          // ✅ 2) /hizmetlerimiz-sss <-> /services-faq fix (services faq index)
+          if (last === "hizmetlerimiz-sss" && newLang === "en") {
+            router.replace(`/${newLang}/services-faq`);
+            return;
+          }
+          if (last === "services-faq" && newLang === "tr") {
+            router.replace(`/${newLang}/hizmetlerimiz-sss`);
             return;
           }
         }
-        
-        // Eşleşen blog bulunamazsa ana blog sayfasına yönlendir
-        router.replace(`/${newLang}/blog`);
-        return;
-      }
 
-          // -------------------------
-    // 2) FAQ özel case (EKLENECEK KISIM)
-    // -------------------------
-    // Örn: /tr/hizmetlerimiz-sss  -> /en/services-faq
-    // Örn: /tr/raporlama/satis-donusumu-sss -> /en/digital-analysis/<...>-faq
-    const lastSeg = cleanSlug(pathSegments[pathSegments.length - 1]); // slug gibi
-    const maybeSeg = cleanSlug(pathSegments[2] || "");               // segment gibi
+        // -------------------------
+        // FAQ özel case
+        // -------------------------
+        const lastSeg = cleanSlug(pathSegments[pathSegments.length - 1]);
+        const maybeSeg = cleanSlug(pathSegments[2] || "");
 
-    if (isFaqSlugLike(lastSeg) || isFaqSlugLike(maybeSeg)) {
-      // Root FAQ
-      if (lastSeg === "sss" || lastSeg === "faq") {
-        router.replace(`/${newLang}/${newLang === "en" ? "faq" : "sss"}`);
-        return;
-      }
+        if (isFaqSlugLike(lastSeg) || isFaqSlugLike(maybeSeg)) {
+          // Türkçe yorum: Root FAQ
+          if (lastSeg === "sss" || lastSeg === "faq") {
+            router.replace(`/${newLang}/${newLang === "en" ? "faq" : "sss"}`);
+            return;
+          }
 
-      // Services FAQ root
-      if (lastSeg === "hizmetlerimiz-sss" || lastSeg === "services-faq") {
-        router.replace(`/${newLang}/${newLang === "en" ? "services-faq" : "hizmetlerimiz-sss"}`);
-        return;
-      }
+          // Türkçe yorum: Services FAQ root
+          if (lastSeg === "hizmetlerimiz-sss" || lastSeg === "services-faq") {
+            router.replace(
+              `/${newLang}/${newLang === "en" ? "services-faq" : "hizmetlerimiz-sss"}`
+            );
+            return;
+          }
 
-      // Normal FAQ page (alt sayfa)
-      const currentSlug = lastSeg; // satis-donusumu-sss gibi
-      const ns = FAQ_MAP?.[currentSlug];
+          // Türkçe yorum: Normal FAQ alt sayfası
+          const currentSlug = lastSeg;
+          const ns = FAQ_MAP?.[currentSlug];
 
-      // Eğer ns bulamazsa fallback (yine de patlamasın)
-      if (!ns) {
+          // Türkçe yorum: Namespace bulunamazsa patlamasın diye fallback
+          if (!ns) {
+            const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
+            router.replace(newPathname);
+            return;
+          }
+
+          // Türkçe yorum: Yeni dilin slug'ını bul
+          const newSlug = findSlugByNs(ns, newLang);
+
+          if (!newSlug) {
+            const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
+            router.replace(newPathname);
+            return;
+          }
+
+          // Türkçe yorum: Yeni dilde segment
+          const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[newLang]?.[newSlug];
+
+          const target = deptSegment
+            ? `/${newLang}/${deptSegment}/${newSlug}`
+            : `/${newLang}/${newSlug}`;
+
+          router.replace(target);
+          return;
+        }
+
+        // Türkçe yorum: Diğer tüm sayfalar için normal dil değiştirme
         const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
         router.replace(newPathname);
-        return;
-      }
-
-      // Yeni dilin slug'ı
-      const newSlug = findSlugByNs(ns, newLang);
-      if (!newSlug) {
-        // bulunamazsa yine fallback
-        const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
-        router.replace(newPathname);
-        return;
-      }
-
-      // Yeni dilde segment
-      const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[newLang]?.[newSlug];
-
-      // Bazı FAQ sayfaları root altında olabilir
-      const target =
-        deptSegment
-          ? `/${newLang}/${deptSegment}/${newSlug}`
-          : `/${newLang}/${newSlug}`;
-
-      router.replace(target);
-      return;
-    }
-      
-      // Diğer tüm sayfalar için normal dil değiştirme
-      const newPathname = pathname.replace(`/${currentLocale}`, `/${newLang}`);
-      router.replace(newPathname);
       })();
     });
   }
@@ -192,21 +166,32 @@ export default function LocaleSwitcherSelect({ children, defaultValue, label }) 
   return (
     <div className="relative">
       <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex flex-row items-center justify-center gap-[2px] lg:gap-1 rounded-md ml-1 px-[2px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-transparent text-white uppercase w-full text-[15px] lg:text-[16px] text-center">
+        onClick={() => {
+          // Türkçe yorum: Blog detay sayfasında dropdown açılmasın.
+          if (isBlogDetailPage) return;
+          setIsOpen(!isOpen);
+        }}
+        className="flex flex-row items-center justify-center gap-[2px] lg:gap-1 rounded-md ml-1 px-[2px] py-[10px] lg:py-4 font-medium mix-blend-difference bg-transparent text-white uppercase w-full text-[15px] lg:text-[16px] text-center"
+      >
         {defaultValue}
-        <IoMdArrowDropdown />
+        {!isBlogDetailPage && <IoMdArrowDropdown />}
       </button>
-      {isOpen && (
+
+      {isOpen && !isBlogDetailPage && (
         <div className="absolute z-50 mt-0 shadow-lg w-full rounded-md">
           <ul className="py-0">
             {React.Children.map(children, (child) => {
+              // Türkçe yorum: Blog detay sayfasında zaten hiç açılmayacak ama ekstra güvenlik.
+              if (isBlogDetailPage) return null;
+
               if (child.props.value === defaultValue) return null;
+
               return (
                 <li
                   key={child.props.value}
                   className="cursor-pointer px-[1px] bg-white uppercase py-[8px] mt-0 hover:bg-[#140F25] hover:text-white text-[#140F25] text-center items-center justify-center"
-                  onClick={() => handleLangChange(child.props.value)}>
+                  onClick={() => handleLangChange(child.props.value)}
+                >
                   {child.props.value}
                 </li>
               );
