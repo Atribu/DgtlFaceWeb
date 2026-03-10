@@ -175,7 +175,7 @@ const ContactMain = () => {
             </div>
           </Link>
 
-          <div className="flex flex-col lg:flex-row items-center gap-4">
+          <Link href="mailto:info@dgtlface.com" className="flex flex-col lg:flex-row items-center gap-4">
             <Image
               src="/gifs/email.gif"
               alt="email GIF"
@@ -187,11 +187,11 @@ const ContactMain = () => {
               <span className="text-[#140f25] text-sm font-normal font-['Inter'] leading-snug text-start">
                  {t("contact_email_text")}
               </span>
-              <Link href="mailto:info@dgtlface.com" className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight hover:text-[#54b9cf]">
+              <p className="text-[#140f25] text-xl font-bold font-['Inter'] leading-tight hover:text-[#54b9cf]">
                 info@dgtlface.com
-              </Link>
+              </p>
             </div>
-          </div>
+          </Link>
 
           <Link
            href={mapsShareUrl}
