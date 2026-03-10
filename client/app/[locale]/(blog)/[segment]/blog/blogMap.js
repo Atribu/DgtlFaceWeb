@@ -406,7 +406,9 @@ export const BLOG_MAP = {
     "bedbank-wholesaler-ve-rate-leakage":"BlogBedbankWholesalerVeRateLeakage",
     "zincir-ve-cok-otelli-yapilarda-ota-yonetimi":"BlogZincirVeCokOtelliYapilardaOTAYonetimi",
     "ota-talep-zirveleri-etkinlik-ve-festival-donemleri":"BlogOtaTalepZirveleriEtkinlikVeFestivalDonemleri",
-    "ota-ve-metasearch-sinerjisi":"BlogOtaVeMetasearchSinerjisi"
+    "ota-ve-metasearch-sinerjisi":"BlogOtaVeMetasearchSinerjisi",
+
+    "ota-raporlama-ve-performans-kpi-rehberi":"BlogOtaRaporlamaVePerformansKpiRehberi"
   }
 };
 

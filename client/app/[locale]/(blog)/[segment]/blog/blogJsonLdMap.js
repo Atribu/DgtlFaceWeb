@@ -40791,6 +40791,151 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"ota-raporlama-ve-performans-kpi-rehberi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi",
+      "name": "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi",
+      "headline": "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?",
+      "name": "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?",
+      "description": "OTA raporlarını doğru okuyun: doluluk, ADR/RevPAR, net gelir, iptal/no-show ve pazar-kanaI dağılımı. KPI’ları revenue ve pazarlama kararlarına bağlayan pratik tablo + checklist.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Reporting" },
+        { "@type": "Thing", "name": "Occupancy" },
+        { "@type": "Thing", "name": "ADR" },
+        { "@type": "Thing", "name": "RevPAR" },
+        { "@type": "Thing", "name": "Net Revenue" },
+        { "@type": "Thing", "name": "Cancellation Rate" },
+        { "@type": "Thing", "name": "Market Mix" },
+        { "@type": "Thing", "name": "Channel Mix" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#howto",
+      "name": "OTA KPI Raporu Okuma: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Brüt/net tanımlarını sabitle", "text": "Komisyon hariç/net/brüt terimlerini ekipte tekleştirip rapora yazın." },
+        { "@type": "HowToStep", "name": "KPI setini oluştur", "text": "Doluluk, ADR/RevPAR, net ADR/net gelir, iptal/no-show, pazar ve kanal mix KPI’larını seçin." },
+        { "@type": "HowToStep", "name": "Net gelir filtresi kur", "text": "Komisyon ve promosyon maliyetlerini ayrı kalem izleyip net ADR’yi ana doğrulayıcı yapın." },
+        { "@type": "HowToStep", "name": "İptal/no-show’u kırılımda oku", "text": "Kanal ve pazar bazında iptal/no-show’u risk KPI’sı olarak analiz edin." },
+        { "@type": "HowToStep", "name": "Pazar mix trendini takip et", "text": "DE/RU/UK gibi pazar payı değişimlerini 30/90 gün trendle izleyin." },
+        { "@type": "HowToStep", "name": "Kanal mix’i net gelirle kıyasla", "text": "En çok satan kanalın en kârlı kanal olmayabileceğini net ADR ile doğrulayın." },
+        { "@type": "HowToStep", "name": "KPI→aksiyon eşikleri yaz", "text": "İptal artışı, net ADR düşüşü gibi durumlarda hangi aksiyonun tetikleneceğini belirleyin." },
+        { "@type": "HowToStep", "name": "Aylık rapor checklist’i uygula", "text": "Her ay raporu aynı sırayla okuyup en fazla 3 aksiyon seçin." },
+        { "@type": "HowToStep", "name": "BI paneline taşı", "text": "Looker Studio/BI panelinde terim tutarlılığını koruyarak dashboard oluşturun." },
+        { "@type": "HowToStep", "name": "Sonuçları karşılaştır", "text": "Bir sonraki ay KPI sonuçlarıyla aksiyonların etkisini karşılaştırıp revize edin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?", "item": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-raporlama-ve-performans-kpi-rehberi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA raporlarında hangi KPI’lara bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doluluk/roomnights, ADR/RevPAR, net gelir (net ADR), iptal/no-show ve pazar-kanaI dağılımı temel settir. Tek KPI yerine set halinde okuyun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ADR, RevPAR ve net gelir OTA performansında ne anlatır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ADR fiyat seviyesini, RevPAR doluluk×ADR dengesini, net gelir ise komisyon/promo sonrası gerçeği anlatır. Karar için net ADR en kritik doğrulayıcıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal ve no-show oranlarını nasıl yorumlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Risk sinyali olarak kanal ve pazar kırılımında okuyun. Artış varsa politika, ödeme koşulu, kampanya ve min-stay gibi ayarları test ederek revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA verisini revenue stratejisine nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI→aksiyon eşikleri koyun ve aylık raporda en fazla 3 aksiyon seçip sonuçla karşılaştırın. Böylece kararlar tahminden çok veriye dayanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA raporunu BI paneline taşırken en büyük hata nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Brüt/net tanımların tutarsız olmasıdır. “Komisyon hariç/Net/Brüt” terimlerini sabitleyin ve tek kaynak rapor üretin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

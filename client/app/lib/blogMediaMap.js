@@ -16371,6 +16371,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "3 senaryo kartı, amaç: uygulanabilir çerçeve, otel revenue bağlamı",
       caption: "3 senaryo kartı, amaç: uygulanabilir çerçeve, otel revenue bağlamı"
     }
+  },
+
+
+  "ota-raporlama-ve-performans-kpi-rehberi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-1.webp",
+      alt: "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?",
+      caption: "OTA Raporlama ve Performans KPI Rehberi: Hangi Rakamlar Ne Anlatır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-2.webp",
+      alt: "Brüt→net→risk→aksiyon akışı, amaç: rapor okuma modeli, otel raporlama bağlamı",
+      caption: "Brüt→net→risk→aksiyon akışı, amaç: rapor okuma modeli, otel raporlama bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-3.webp",
+      alt: "KPI karar haritası, amaç: hangi rakam neyi tetikler, otel revenue bağlamı",
+      caption: "KPI karar haritası, amaç: hangi rakam neyi tetikler, otel revenue bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-4.webp",
+      alt: "KPI tablo görünümü, amaç: hızlı referans, otel raporlama bağlamı",
+      caption: "KPI tablo görünümü, amaç: hızlı referans, otel raporlama bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-5.webp",
+      alt: "Kanal/pazar performans kıyası grafiği, amaç: trend ve mix analizi, otel revenue bağlamı",
+      caption: "Kanal/pazar performans kıyası grafiği, amaç: trend ve mix analizi, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-6.webp",
+      alt: "Aylık OTA rapor checklist’i, amaç: KPI→aksiyon, otel revenue bağlamı",
+      caption: "Aylık OTA rapor checklist’i, amaç: KPI→aksiyon, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-7.webp",
+      alt: "Net ADR + iptal/no-show paneli, amaç: performans ve risk, otel revenue bağlamı",
+      caption: "Net ADR + iptal/no-show paneli, amaç: performans ve risk, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-17/Hotel4-17-8.webp",
+      alt: "KPI rapor şablonu + dashboard çıktıları, amaç: uygulanabilir sistem, otel raporlama bağlamı",
+      caption: "KPI rapor şablonu + dashboard çıktıları, amaç: uygulanabilir sistem, otel raporlama bağlamı"
+    }
   }
   
 
