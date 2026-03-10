@@ -39922,6 +39922,151 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"ota-misafirini-direkt-rezervasyon-musterisine-cevirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme",
+      "name": "OTA'dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme",
+      "headline": "OTA'dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?",
+      "name": "OTA'dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?",
+      "description": "OTA misafirini direct’e çevirin: check-in/out’ta KVKK uyumlu opt-in, CRM’e doğru veri, post-stay e-posta/SMS/WhatsApp akışları ve direct faydalarla direct pay’ı artırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Guest" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Post-Stay Campaign" },
+        { "@type": "Thing", "name": "Email" },
+        { "@type": "Thing", "name": "SMS" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Loyalty Program" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#howto",
+      "name": "OTA Misafirini Direct’e Dönüştürme: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "OTA misafir segmentini tanımla", "text": "CRM’de OTA kaynaklı misafirleri ayrı etiketleyin ve hedef KPI’ları belirleyin." },
+        { "@type": "HowToStep", "name": "KVKK uyumlu opt-in tasarla", "text": "E-posta/SMS/WhatsApp için ayrı opt-in alıp izin log’unu CRM’de saklayın." },
+        { "@type": "HowToStep", "name": "Check-in formunu standardize et", "text": "E-posta, telefon, dil, pazar, segment alanlarını minimum ama kaliteli şekilde toplayın." },
+        { "@type": "HowToStep", "name": "Veri kalitesi kontrolü kur", "text": "E-posta doğrulama ve telefon format kontrolü ile kampanya israfını azaltın." },
+        { "@type": "HowToStep", "name": "0–2 saat teşekkür akışını başlat", "text": "Satış değil teşekkür odaklı kısa mesajla ilişkiyi başlatın." },
+        { "@type": "HowToStep", "name": "24–48 saat geri bildirim akışını çalıştır", "text": "Geri bildirim isteyin ve sorun varsa çözüm kanalına yönlendirin." },
+        { "@type": "HowToStep", "name": "7–14 gün direct teklif gönder", "text": "Fiyat değil fayda odaklı direct avantajlar (esnek iptal, upgrade talebi) sunun." },
+        { "@type": "HowToStep", "name": "Segment bazlı kişiselleştir", "text": "Family/couple/business için farklı fayda paketleri ve mesajlar hazırlayın." },
+        { "@type": "HowToStep", "name": "Call center script’i hizala", "text": "Web ve call center aynı direct fayda dilini kullansın; kapanışı kolaylaştırın." },
+        { "@type": "HowToStep", "name": "KPI ile ölç ve revize et", "text": "Opt-in, kampanya dönüşümü, repeat rate ve direct pay trendine göre akışı optimize edin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA'dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?", "item": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-misafirini-direkt-rezervasyon-musterisine-cevirme",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA’dan gelen misafiri direkt rezervasyon müşterisine nasıl çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in/out’ta KVKK uyumlu opt-in ile veriyi CRM’e alın, post-stay 3 adımlı iletişim akışı kurun ve direct’te fiyat değil fayda odaklı teklif sunun. Direct pay ve repeat rate ile ölçüp revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Check-out sonrası OTA misafirine nasıl iletişim kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce teşekkür, sonra geri bildirim ve çözüm kanalı, en son direct fayda teklifi sırasıyla ilerleyin. Kanal bazlı opt-in’e uyun ve mesajları kısa/tek CTA ile gönderin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA misafirlerine direct kanal için ne tür teşvikler sunulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esnek iptal, upgrade talebi, transfer/late check-out veya üyelik avantajı gibi faydalar daha sürdürülebilirdir. Web’de fiyat kırmak yerine değer farkı yaratın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direct pay artışını nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA kaynaklı misafirlerin CRM opt-in oranı, post-stay kampanya dönüşümü, repeat rate ve direct pay trendini birlikte izleyin. Sezon bazlı raporla kademeli artış hedefleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK açısından en kritik nokta nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Opt-in olmadan pazarlama mesajı göndermemek ve izin log’unu güvenli biçimde saklamaktır. Ayrıca OTA sözleşme iletişim kurallarıyla çelişmeyen bir kurgu kurulmalıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }

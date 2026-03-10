@@ -7,6 +7,15 @@ import { useTranslations } from "next-intl";
 const H2Section = () => {
   const t = useTranslations("Homepage.h2Section");
 
+  const block2Links = [
+  { href: "/Services/seo", label: t("block2.link_seo") },
+  { href: "/Services/sem", label: t("block2.link_sem") },
+  { href: "/Services/smm", label: t("block2.link_smm") },
+  { href: "/Services/pms", label: t("block2.link_pms") },
+  { href: "/Services/callcenter", label: t("block2.link_callcenter") },
+  { href: "/Services/digitalAnalysis", label: t("block2.link_analysis") },
+];
+
   return (
     <div className="flex flex-col w-full items-center justify-center">
       <div className="flex flex-col lg:flex-row gap-5 lg:gap-2 w-[98%] lg:w-[95%] mt-1 lg:mt-5 items-center justify-center">
@@ -45,56 +54,18 @@ const H2Section = () => {
             <br />
             {t("block2.text3")}
 
-            <ul className="grid grid-cols-2 gap-[6px] text-[12px] md:text-[14px] lg:text-[16px] mt-3 ml-10 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-[#000000]">
-              <li>
-                <Link
-                  href="/Services/seo"
-                  className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-                >
-                  {t("block2.link_seo")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/sem"
-                  className="text-[#000000] font-semibold hover:text-[#58b5cf] underline"
-                >
-                  {t("block2.link_sem")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/smm"
-                  className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-                >
-                  {t("block2.link_smm")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/pms"
-                  className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-                >
-                  {t("block2.link_pms")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/callcenter"
-                  className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-                >
-                  {t("block2.link_callcenter")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Services/digitalAnalysis"
-                  className="text-[#000000] hover:text-[#58b5cf] underline font-semibold"
-                >
-                  {t("block2.link_analysis")}
-                </Link>
-              </li>
-            </ul>
+           <ul className="grid grid-cols-2 gap-[6px] text-[12px] md:text-[14px] lg:text-[16px] mt-3 ml-10 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-[#000000]">
+  {block2Links.map((item) => (
+    <li key={item.href}>
+      <Link
+        href={item.href}
+        className="!text-[#000000] hover:text-[#58b5cf] underline font-semibold"
+      >
+        {item.label || "[boş çeviri]"}
+      </Link>
+    </li>
+  ))}
+</ul>
           </div>
         </div>
       </div>
@@ -107,7 +78,7 @@ const H2Section = () => {
 
           <div className="text-[12px] md:text-[14px] lg:text-[16px] font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black w-[94%] lg:w-[80%] lg:ml-10 mt-0 lg:mt-6 text-center lg:text-start">
             {t("block3.intro")}
-            <ul className=" grid grid-cols-2 text-[12px] md:text-[14px] lg:text-[16px] ml-4 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] text-black mt-2">
+            <ul className=" grid grid-cols-2 text-[12px] md:text-[14px] lg:text-[16px] ml-4 list-disc text-start font-inter28 font-normal leading-[130%] lg:leading-[140%] tracking-[-0.36px] lg:tracking-[-0.32px] !text-black mt-2">
               <li>{t("block3.li1")}</li>
               <li>{t("block3.li2")}</li>
               <li>{t("block3.li3")}</li>
@@ -142,7 +113,7 @@ const H2Section = () => {
               <li>
                 <Link
                   href="/Services/digitalAnalysis"
-                  className="text-[#000000] hover:text-[#58b5cf] font-semibold underline "
+                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline "
                 >
                   {t("block4.li1")}
                 </Link>
@@ -150,7 +121,7 @@ const H2Section = () => {
               <li>
                 <Link
                   href="/Services/sem"
-                  className="text-[#000000] hover:text-[#58b5cf] font-semibold underline"
+                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline"
                 >
                   {t("block4.li2")}
                 </Link>
@@ -158,7 +129,7 @@ const H2Section = () => {
               <li>
                 <Link
                   href="/Services/seo"
-                  className="text-[#000000] hover:text-[#58b5cf] font-semibold underline"
+                  className="!text-[#000000] hover:text-[#58b5cf] font-semibold underline"
                 >
                   {t("block4.li3")}
                 </Link>

@@ -399,7 +399,9 @@ export const BLOG_MAP = {
     "ota-overbooking-riskini-azaltma-stratejileri":"BlogOtelOTAOverbookingRiskiniAzaltmaStratejileri",
     "ota-iptal-ve-no-show-politikalari-optimizasyonu":"BlogOtaIptalVeNoShowPolitikalariOptimizasyonu",
     "yeni-acilan-oteller-icin-ota-launch-plani":"BlogYeniAcilanOtellerIcinOTALaunchPlani",
-    "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":"BlogOTAMobilVeUlkeyeOzelFiyatTeklifleri"
+    "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":"BlogOTAMobilVeUlkeyeOzelFiyatTeklifleri",
+
+    "ota-misafirini-direkt-rezervasyon-musterisine-cevirme":"BlogOtaMisafiriniDirektRezervasyonMusterisineCevirme"
   }
 };
 

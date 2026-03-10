@@ -16066,6 +16066,57 @@ export const BLOG_MEDIA_MAP = {
       alt: "3 senaryo kartı + pazar matrisi, amaç: uygulanabilir örnekler, otel revenue bağlamı",
       caption: "3 senaryo kartı + pazar matrisi, amaç: uygulanabilir örnekler, otel revenue bağlamı"
     }
+  },
+
+
+  "ota-misafirini-direkt-rezervasyon-musterisine-cevirme":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-1.webp",
+      alt: "OTA’dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?",
+      caption: "OTA’dan Gelen Misafiri Direkt Rezervasyon Müşterisine Nasıl Dönüştürürsünüz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-2.webp",
+      alt: "Check-in/out + post-stay planı, amaç: lifecycle, otel satış bağlamı",
+      caption: "Check-in/out + post-stay planı, amaç: lifecycle, otel satış bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-3.webp",
+      alt: "Değerli kitle mantığı, amaç: why it matters, otel CRM bağlamı",
+      caption: "Değerli kitle mantığı, amaç: why it matters, otel CRM bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-4.webp",
+      alt: "Opt-in ve veri kalitesi, amaç: KVKK uyumlu toplama, otel CRM bağlamı",
+      caption: "Opt-in ve veri kalitesi, amaç: KVKK uyumlu toplama, otel CRM bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-5.webp",
+      alt: "OTA→otel→CRM→direct funnel, amaç: dönüşüm akışı, otel satış bağlamı",
+      caption: "OTA→otel→CRM→direct funnel, amaç: dönüşüm akışı, otel satış bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-6.webp",
+      alt: "3 adım dönüşüm checklist’i, amaç: hızlı uygulama, otel CRM bağlamı",
+      caption: "3 adım dönüşüm checklist’i, amaç: hızlı uygulama, otel CRM bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-7.webp",
+      alt: "Direct pay + opt-in + LTV paneli, amaç: ölçüm, otel revenue bağlamı",
+      caption: "Direct pay + opt-in + LTV paneli, amaç: ölçüm, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-11/Hotel4-11-8.webp",
+      alt: "Kampanya akışı + mesaj şablonları, amaç: somut çıktı, otel CRM bağlamı",
+      caption: "Kampanya akışı + mesaj şablonları, amaç: somut çıktı, otel CRM bağlamı"
+    }
   }
   
 
