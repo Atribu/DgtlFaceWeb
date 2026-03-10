@@ -401,7 +401,12 @@ export const BLOG_MAP = {
     "yeni-acilan-oteller-icin-ota-launch-plani":"BlogYeniAcilanOtellerIcinOTALaunchPlani",
     "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":"BlogOTAMobilVeUlkeyeOzelFiyatTeklifleri",
 
-    "ota-misafirini-direkt-rezervasyon-musterisine-cevirme":"BlogOtaMisafiriniDirektRezervasyonMusterisineCevirme"
+    "ota-misafirini-direkt-rezervasyon-musterisine-cevirme":"BlogOtaMisafiriniDirektRezervasyonMusterisineCevirme",
+    "ota-sozlesme-ve-komisyon-stratejisi":"BlogOtaSozlesmeVeKomisyonStratejisi",
+    "bedbank-wholesaler-ve-rate-leakage":"BlogBedbankWholesalerVeRateLeakage",
+    "zincir-ve-cok-otelli-yapilarda-ota-yonetimi":"BlogZincirVeCokOtelliYapilardaOTAYonetimi",
+    "ota-talep-zirveleri-etkinlik-ve-festival-donemleri":"BlogOtaTalepZirveleriEtkinlikVeFestivalDonemleri",
+    "ota-ve-metasearch-sinerjisi":"BlogOtaVeMetasearchSinerjisi"
   }
 };
 

@@ -16117,6 +16117,260 @@ export const BLOG_MEDIA_MAP = {
       alt: "Kampanya akışı + mesaj şablonları, amaç: somut çıktı, otel CRM bağlamı",
       caption: "Kampanya akışı + mesaj şablonları, amaç: somut çıktı, otel CRM bağlamı"
     }
+  },
+
+
+  "ota-sozlesme-ve-komisyon-stratejisi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-1.webp",
+      alt: "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?",
+      caption: "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-2.webp",
+      alt: "Komisyon+ek maliyet→net gelir akışı, amaç: toplam maliyet görünürlüğü, otel kârlılık bağlam",
+      caption: "Komisyon+ek maliyet→net gelir akışı, amaç: toplam maliyet görünürlüğü, otel kârlılık bağlam"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-3.webp",
+      alt: "Sözleşme kontrol başlıkları, amaç: hızlı okuma, otel revenue bağlamı",
+      caption: "Sözleşme kontrol başlıkları, amaç: hızlı okuma, otel revenue bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-4.webp",
+      alt: "Program karar filtresi, amaç: evet/hayır çerçevesi, otel kârlılık bağlamı",
+      caption: "Program karar filtresi, amaç: evet/hayır çerçevesi, otel kârlılık bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-5.webp",
+      alt: "Komisyon oranı vs net gelir grafiği, amaç: kârlılık etkisi, otel revenue bağlamı",
+      caption: "Komisyon oranı vs net gelir grafiği, amaç: kârlılık etkisi, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-6.webp",
+      alt: "Sözleşme checklist’i, amaç: madde madde değerlendirme, otel revenue bağlamı",
+      caption: "Sözleşme checklist’i, amaç: madde madde değerlendirme, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-7.webp",
+      alt: "Net gelir paneli, amaç: komisyon+ek maliyet takibi, otel kârlılık bağlamı",
+      caption: "Net gelir paneli, amaç: komisyon+ek maliyet takibi, otel kârlılık bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-12/Hotel4-12-8.webp",
+      alt: "3 komisyon senaryosu kartı, amaç: sezon stratejisi, otel revenue bağlamı",
+      caption: "3 komisyon senaryosu kartı, amaç: sezon stratejisi, otel revenue bağlamı"
+    }
+  },
+
+  "bedbank-wholesaler-ve-rate-leakage":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-1.webp",
+      alt: "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?",
+      caption: "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-2.webp",
+      alt: "Otel→wholesaler→OTA akışı, amaç: kaçak oluşum mantığı, otel revenue bağlamı",
+      caption: "Otel→wholesaler→OTA akışı, amaç: kaçak oluşum mantığı, otel revenue bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-3.webp",
+      alt: "Leakage etkileri, amaç: net gelir ve parity, otel dağıtım bağlamı",
+      caption: "Leakage etkileri, amaç: net gelir ve parity, otel dağıtım bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-4.webp",
+      alt: "Kontrol ve aksiyon çerçevesi, amaç: SOP netliği, otel operasyon bağlamı",
+      caption: "Kontrol ve aksiyon çerçevesi, amaç: SOP netliği, otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-5.webp",
+      alt: "Dağıtım akışı (otel→wholesaler→OTA), amaç: sızıntı noktaları, otel dağıtım bağlamı",
+      caption: "Dağıtım akışı (otel→wholesaler→OTA), amaç: sızıntı noktaları, otel dağıtım bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-6.webp",
+      alt: "Rate leakage tespit checklist’i, amaç: hızlı kontrol, otel revenue bağlamı",
+      caption: "Rate leakage tespit checklist’i, amaç: hızlı kontrol, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-7.webp",
+      alt: "Leakage KPI paneli, amaç: olay sayısı ve net ADR etkisi, otel kârlılık bağlamı",
+      caption: "Leakage KPI paneli, amaç: olay sayısı ve net ADR etkisi, otel kârlılık bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-13/Hotel4-13-8.webp",
+      alt: "5 adım aksiyon planı, amaç: tespit→düzeltme→kök neden, otel operasyon bağlamı",
+      caption: "5 adım aksiyon planı, amaç: tespit→düzeltme→kök neden, otel operasyon bağlamı"
+    }
+  },
+
+
+    "zincir-ve-cok-otelli-yapilarda-ota-yonetimi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-1.webp",
+      alt: "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi",
+      caption: "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-2.webp",
+      alt: "Hesap mimarisi + rol dağılımı özeti, amaç: hızlı anlama, otel operasyon bağlamı",
+      caption: "Hesap mimarisi + rol dağılımı özeti, amaç: hızlı anlama, otel operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-3.webp",
+      alt: "Merkez–tesis rol ayrımı, amaç: net sorumluluk, otel grup bağlamı",
+      caption: "Merkez–tesis rol ayrımı, amaç: net sorumluluk, otel grup bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-4.webp",
+      alt: "Rol ve yetki tablosu, amaç: erişim netliği, otel güvenlik bağlamı",
+      caption: "Rol ve yetki tablosu, amaç: erişim netliği, otel güvenlik bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-5.webp",
+      alt: "Grup/tesis OTA organizasyon diyagramı, amaç: mimari, otel grup bağlamı",
+      caption: "Grup/tesis OTA organizasyon diyagramı, amaç: mimari, otel grup bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-6.webp",
+      alt: "Multi-property model checklist’i, amaç: kurulum adımları, otel grup bağlamı",
+      caption: "Multi-property model checklist’i, amaç: kurulum adımları, otel grup bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-7.webp",
+      alt: "Grup vs tesis KPI paneli, amaç: benchmark, otel grup bağlamı",
+      caption: "Grup vs tesis KPI paneli, amaç: benchmark, otel grup bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-14/Hotel4-14-8.webp",
+      alt: "3 multi-property senaryo kartı, amaç: model örnekleri, otel grup bağlamı",
+      caption: "3 multi-property senaryo kartı, amaç: model örnekleri, otel grup bağlamı"
+    }
+  },
+
+
+  "ota-talep-zirveleri-etkinlik-ve-festival-donemleri":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-1.webp",
+      alt: "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?",
+      caption: "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-2.webp",
+      alt: "T-28/T-14/T-7 zaman çizelgesi, amaç: ne zaman ne yapılır, otel operasyon bağlamı",
+      caption: "T-28/T-14/T-7 zaman çizelgesi, amaç: ne zaman ne yapılır, otel operasyon bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-3.webp",
+      alt: "Zirve planı kontrol noktaları, amaç: zamanlama disiplini, otel revenue bağlamı",
+      caption: "Zirve planı kontrol noktaları, amaç: zamanlama disiplini, otel revenue bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-4.webp",
+      alt: "Fiyat/kota/min-stay ayar tablosu görseli, amaç: hızlı uygulama, otel revenue bağlamı",
+      caption: "Fiyat/kota/min-stay ayar tablosu görseli, amaç: hızlı uygulama, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-5.webp",
+      alt: "Etkinlik öncesi/sonrası performans grafiği, amaç: ölçüm ve kıyas, otel revenue bağlamı",
+      caption: "Etkinlik öncesi/sonrası performans grafiği, amaç: ölçüm ve kıyas, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-6.webp",
+      alt: "Zirve dönemi checklist’i, amaç: ayar ve risk kontrolü, otel operasyon bağlamı",
+      caption: "Zirve dönemi checklist’i, amaç: ayar ve risk kontrolü, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-7.webp",
+      alt: "ADR/doluluk/kanaI KPI paneli, amaç: etkinlik analizi, otel revenue bağlamı",
+      caption: "ADR/doluluk/kanaI KPI paneli, amaç: etkinlik analizi, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-15/Hotel4-15-8.webp",
+      alt: "3 etkinlik senaryosu kartı, amaç: uygulanabilir örnekler, otel revenue bağlamı",
+      caption: "3 etkinlik senaryosu kartı, amaç: uygulanabilir örnekler, otel revenue bağlamı"
+    }
+  },
+
+
+  "ota-ve-metasearch-sinerjisi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-1.webp",
+      alt: "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?",
+      caption: "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-2.webp",
+      alt: "Metasearch→OTA/Web yönlendirme, amaç: trafik routing, otel satış bağlamı",
+      caption: "Metasearch→OTA/Web yönlendirme, amaç: trafik routing, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-3.webp",
+      alt: "Sinerji karar ağacı, amaç: link/fiyat/bütçe dengesi, otel revenue bağlamı",
+      caption: "Sinerji karar ağacı, amaç: link/fiyat/bütçe dengesi, otel revenue bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-4.webp",
+      alt: "Feed + parity + UTM notları, amaç: teknik doğruluk, otel operasyon bağlamı",
+      caption: "Feed + parity + UTM notları, amaç: teknik doğruluk, otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-5.webp",
+      alt: "Metasearch ekran mockup + funnel, amaç: karar anı, otel satış bağlamı",
+      caption: "Metasearch ekran mockup + funnel, amaç: karar anı, otel satış bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-6.webp",
+      alt: "Feed/UTM/click share checklist’i, amaç: hızlı kurulum, otel revenue bağlamı",
+      caption: "Feed/UTM/click share checklist’i, amaç: hızlı kurulum, otel revenue bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-7.webp",
+      alt: "Click share + net ADR paneli, amaç: optimizasyon, otel revenue bağlamı",
+      caption: "Click share + net ADR paneli, amaç: optimizasyon, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-16/Hotel4-16-8.webp",
+      alt: "3 senaryo kartı, amaç: uygulanabilir çerçeve, otel revenue bağlamı",
+      caption: "3 senaryo kartı, amaç: uygulanabilir çerçeve, otel revenue bağlamı"
+    }
   }
   
 

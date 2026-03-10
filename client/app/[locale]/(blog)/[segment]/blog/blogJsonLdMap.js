@@ -40067,6 +40067,730 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"ota-sozlesme-ve-komisyon-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi",
+      "name": "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi",
+      "headline": "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?",
+      "name": "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?",
+      "description": "OTA sözleşmesini sadece komisyona göre okumayın. Görünürlük programları, promosyonlar, allotment ve iptal/no-show maddelerini net gelir filtresiyle değerlendirerek sezon/pazar stratejisi kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Contracts" },
+        { "@type": "Thing", "name": "Commission" },
+        { "@type": "Thing", "name": "Visibility Programs" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Seasonality" },
+        { "@type": "Thing", "name": "Net Revenue" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#howto",
+      "name": "OTA Sözleşme ve Komisyon Stratejisi: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Toplam maliyeti çıkar", "text": "Komisyon + görünürlük programı + promosyon maliyetlerini tek tabloda toplayın." },
+        { "@type": "HowToStep", "name": "Net gelir filtresi kur", "text": "Net ADR ve iptal/no-show etkisini birlikte değerlendirerek karar çerçevesi oluşturun." },
+        { "@type": "HowToStep", "name": "Sözleşme maddelerini ticari oku", "text": "Allotment, opsiyon, iptal/no-show ve ödeme hükümlerinin kârlılık etkisini yazın." },
+        { "@type": "HowToStep", "name": "Programları test et", "text": "Genius vb. programları 14–30 günlük test ve KPI eşikleriyle yönetin." },
+        { "@type": "HowToStep", "name": "Promosyonları sınırla", "text": "İndirimleri oda tipi ve tarih aralığıyla sınırlayıp gereksiz net ADR erozyonunu önleyin." },
+        { "@type": "HowToStep", "name": "Pik/omuz/düşük sezon stratejisi yaz", "text": "Sezon moduna göre program ve promosyon karar matrisi oluşturun." },
+        { "@type": "HowToStep", "name": "Pazar bazlı raporla", "text": "Pazar kırılımında net gelir, iptal/no-show ve dönüşüm KPI’larını izleyin." },
+        { "@type": "HowToStep", "name": "Kapatma kriteri belirle", "text": "Lift yoksa, net ADR düşüyorsa veya direct pay zayıflıyorsa programı kapatın." },
+        { "@type": "HowToStep", "name": "Portföyü çeşitlendir", "text": "Tek OTA bağımlılığını azaltacak şekilde kârlı kanalları dengeleyin." },
+        { "@type": "HowToStep", "name": "Hukuki son kontrol yap", "text": "Bu çerçeve ticari değerlendirmedir; sözleşme yorumunu hukuk danışmanıyla doğrulayın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA Sözleşme ve Komisyon Stratejisi: Masada Neye Evet, Neye Hayır Demelisiniz?", "item": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-sozlesme-ve-komisyon-stratejisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA sözleşmelerinde nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Komisyonun yanında görünürlük programları, promosyon koşulları, allotment/opsiyon hükümleri ve iptal/no-show maddelerini birlikte okuyun. Kararı net gelir ve risk filtresiyle verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Komisyon oranı otel kârlılığını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Komisyon tek başına değil, promosyon ve program maliyetleriyle birlikte net ADR’yi belirler. Dönüşüm artışı net gelir artışı yaratmıyorsa komisyon pahalı hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Genius ve benzeri programlara katılmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ancak ek talep yaratıyorsa mantıklıdır; 14–30 gün test edip net ADR, iptal/no-show ve direct pay etkisini ölçmek gerekir. Lift yoksa kapatmak daha sağlıklıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı sezon ve pazarlarda komisyon stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pik sezonda gereksiz indirim ve programları sınırlayın; omuz/düşük sezonda kontrollü testlerle kârlı doluluk hedefleyin. Pazar davranışlarını raporlayıp sezon bazlı karar verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu içerik hukuki tavsiye mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Bu rehber ticari çerçeve ve pazarlık stratejisi sunar; sözleşmenin nihai yorumu için hukuk danışmanı gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"bedbank-wholesaler-ve-rate-leakage":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage",
+      "name": "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#article",
+      "url": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage",
+      "headline": "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?",
+      "name": "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?",
+      "description": "Bedbank/wholesaler fiyat kaçağı (rate leakage) parity ve geliri bozar. Dağıtım kısıtlarını netleştirip düzenli kontrol ve 5 adım aksiyon planıyla kaçakları proaktif yönetin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Bedbank" },
+        { "@type": "Thing", "name": "Wholesaler" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Rate Leakage" },
+        { "@type": "Thing", "name": "Contract" },
+        { "@type": "Thing", "name": "Allotment" },
+        { "@type": "Thing", "name": "Distribution Restriction" },
+        { "@type": "Thing", "name": "Revenue & Parity" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#howto",
+      "name": "Rate Leakage Önleme: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Kritik tarih/oda listesini çıkar", "text": "Pik günler ve riskli oda tipleri için kontrol kapsamı belirleyin." },
+        { "@type": "HowToStep", "name": "Rate leakage KPI tanımla", "text": "Olay sayısı ve net ADR etkisi gibi KPI’ları raporlamaya ekleyin." },
+        { "@type": "HowToStep", "name": "Dağıtım akışını haritalandır", "text": "Otel→wholesaler/bedbank→alt dağıtım→OTA akışını görünür hale getirin." },
+        { "@type": "HowToStep", "name": "Allotment yapısını gözden geçir", "text": "Riskli oda tiplerinde allotment ve limit tasarımını kontrol edin." },
+        { "@type": "HowToStep", "name": "Dağıtım kısıtlarını netleştir", "text": "Pazar/tarih/oda bazında online görünür olmaması gereken fiyatları sınırlayın." },
+        { "@type": "HowToStep", "name": "Periyodik kontrol rutini kur", "text": "Haftalık kontrol ve pik günlerde sıklaştırılmış kontrol planı oluşturun." },
+        { "@type": "HowToStep", "name": "Kaçakta kanıt topla", "text": "Link, ekran görüntüsü, tarih/oda/pazar bilgisiyle olay kaydı açın." },
+        { "@type": "HowToStep", "name": "Düzeltme SLA’sı uygula", "text": "İlgili kanal ile iletişime geçip düzeltme için net süre tanımlayın." },
+        { "@type": "HowToStep", "name": "Geçici koruma önlemi al", "text": "Riskli tarihlerde allotment/stop-sale gibi koruyucu adımlar uygulayın." },
+        { "@type": "HowToStep", "name": "Kök nedeni kapat ve portföyü revize et", "text": "Tekrarlayan kanallar için kısıt/portföy kararını güncelleyin ve SOP’yi iyileştirin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Bedbank ve Wholesaler Kanallarıyla Çalışırken OTA Fiyat Kaçağını (Rate Leakage) Nasıl Önlersiniz?", "item": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/bedbank-wholesaler-ve-rate-leakage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Bedbank ve wholesaler kanalları nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bedbank/wholesaler, otelin odasını B2B şekilde toplu alıp farklı dağıtım ağlarına taşıyan kanallardır. Paket ve tur operatörü satışlarında faydalı olabilir; ancak kontrolsüz dağıtım online fiyat kaçağı riski yaratabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rate leakage nedir, otel fiyatlarını nasıl bozar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rate leakage, bedbank/wholesaler fiyatlarının OTA’larda resmi fiyatınızın altına sızmasıdır. Parity algısını zedeler, net ADR’yi düşürür ve direct kanalın güvenini zayıflatır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bedbank fiyatlarının OTA’ya düşmesini nasıl engellerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dağıtım kısıtlarını ve allotment yapısını netleştirip fiyat yapılarını ayırın (paket/B2B vs görünür fiyat). Düzenli kontrol rutini kurun ve kaçak tespitinde hızlı SLA ile düzeltme süreci uygulayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat kaçağını tespit etmek için neleri düzenli kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik tarihler ve oda tiplerinde OTA fiyatlarını resmi fiyatla kıyaslayın, pazar/para birimi farklarını izleyin ve aynı tarihte birden fazla platformda kaçak var mı kontrol edin. Olay kaydı tutun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kaçak fiyat bulduğumda ilk ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanıt toplayıp (link, ekran görüntüsü, tarih/oda/pazar) kaynağı sınıflandırın, ilgili kanalla iletişime geçip düzeltme SLA’sı koyun ve riskli tarihlerde geçici koruma önlemleri alın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"zincir-ve-cok-otelli-yapilarda-ota-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi",
+      "name": "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi",
+      "headline": "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi",
+      "name": "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi",
+      "description": "Zincir/multi-property OTA yönetiminde merkez–tesis rol ayrımı, hesap mimarisi, kullanıcı rolleri ve grup KPI raporlaması ile fiyat/kampanya kaosunu önleyip merkezi ama esnek modeli kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Hotel Group" },
+        { "@type": "Thing", "name": "Multi-Property" },
+        { "@type": "Thing", "name": "OTA Accounts" },
+        { "@type": "Thing", "name": "User Roles" },
+        { "@type": "Thing", "name": "Central Office" },
+        { "@type": "Thing", "name": "Property-Level Management" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#howto",
+      "name": "Multi-Property OTA Yönetimi: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Operating model yaz", "text": "Merkez ve tesis sorumluluklarını 1–2 sayfalık dokümanda netleştirin." },
+        { "@type": "HowToStep", "name": "Modeli seç", "text": "Tek marka–çok tesis veya çok marka–çok tesis modelinizi belirleyin." },
+        { "@type": "HowToStep", "name": "Hesap mimarisini kararlaştır", "text": "Tek/çok/hibrit hesap yapısını raporlama ve esneklik ihtiyacına göre seçin." },
+        { "@type": "HowToStep", "name": "Rol matrisi çıkar", "text": "Grup admin, grup revenue, tesis revenue ve ajans rollerini ve yetkilerini tanımlayın." },
+        { "@type": "HowToStep", "name": "Least privilege uygula", "text": "Kullanıcı erişimlerini ihtiyaç kadar yetki prensibiyle ayarlayın." },
+        { "@type": "HowToStep", "name": "Onay akışı kur", "text": "Kritik fiyat/kampanya değişikliklerinde iki aşamalı onay belirleyin." },
+        { "@type": "HowToStep", "name": "Grup fiyat mimarisini yaz", "text": "Parity ve base rate prensiplerini grup standardı olarak sabitleyin." },
+        { "@type": "HowToStep", "name": "Tesis esnekliği guardrail’lerini tanımla", "text": "Limit/stop-sale ve kampanya katılım eşiğini tesis bazlı yazın." },
+        { "@type": "HowToStep", "name": "KPI panosunu kur", "text": "Grup ve tesis KPI’larını ayrıştırıp benchmark paneli oluşturun." },
+        { "@type": "HowToStep", "name": "Best practice yay", "text": "En iyi tesisin uygulamalarını dokümante edip diğer tesislere uygulayın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Zincir ve Çok Otelli Yapılarda OTA Yönetimi: Merkez ve Tesis Dengesi", "item": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/zincir-ve-cok-otelli-yapilarda-ota-yonetimi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir oteller OTA yönetimini nasıl kurgulamalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Merkez ofis anlaşma/standart/raporlamayı, tesisler günlük fiyat–envanter–kampanya uygulamasını yönetmelidir. Rol ayrımı ve KPI panosu olmadan merkezi yönetim kaosa dönüşebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok otelli yapılarda OTA hesap yapısı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek hesap standardizasyon sağlar, çok hesap tesis esnekliği getirir; çoğu grup için hibrit model daha dengelidir. Karar, model ve raporlama ihtiyacına göre verilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup ofis ve tesisler arasında OTA yetki paylaşımı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Merkez anlaşma ve standartları, tesis uygulamayı yönetir; kritik değişikliklerde onay akışı tanımlanır. Least privilege erişim ve düzenli kullanıcı denetimi güvenlik için şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zincir seviyesinde OTA performansı nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grup KPI’ları ve tesis KPI’ları ayrı izlenip benchmark edilir. Best practice tesislerden gruba yayılır; böylece grup performansı sürdürülebilir artar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Multi-property OTA yönetiminde en büyük risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rol belirsizliğiyle fiyat/kampanya kaosu ve erişim güvenliği riskidir. Yazılı operating model, guardrail’ler ve KPI ritmi bu riski azaltır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"ota-talep-zirveleri-etkinlik-ve-festival-donemleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri",
+      "name": "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri",
+      "headline": "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?",
+      "name": "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?",
+      "description": "Festival/etkinlik dönemlerinde OTA ayarlarını önceden planlayın: fiyat, kota, minimum stay, non-refundable ve kampanya kararları. Overbooking/parity riskini azaltıp ADR’yi maksimize edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Event Demand" },
+        { "@type": "Thing", "name": "Festivals" },
+        { "@type": "Thing", "name": "Demand Surge" },
+        { "@type": "Thing", "name": "OTA Strategy" },
+        { "@type": "Thing", "name": "Minimum Stay" },
+        { "@type": "Thing", "name": "Non-Refundable" },
+        { "@type": "Thing", "name": "Inventory" },
+        { "@type": "Thing", "name": "ADR & Occupancy" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#howto",
+      "name": "Talep Zirvesi OTA Planı: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Etkinliği erken tespit et", "text": "Festival/kongre/maç takvimini 90–180 gün önceden çıkarın ve güncelleyin." },
+        { "@type": "HowToStep", "name": "T-28 planını yaz", "text": "Fiyat, kota, min-stay ve kampanya kararlarını ilk taslak olarak belirleyin." },
+        { "@type": "HowToStep", "name": "T-14 revizesi yap", "text": "Pickup pace ve doluluk sinyallerine göre kademeli fiyat ve kural revizyonu yapın." },
+        { "@type": "HowToStep", "name": "T-7 ince ayar yap", "text": "Oda tipi bazlı ince ayar ve stop-sale/limit eşiklerini netleştirin." },
+        { "@type": "HowToStep", "name": "Minimum stay kurgula", "text": "Çekirdek günlerde min-stay’i artırıp omuz günlerde esnetin." },
+        { "@type": "HowToStep", "name": "Non-refundable dengesini kur", "text": "No-show/iptal riskini azaltacak şekilde non-refundable oranını kontrollü artırın." },
+        { "@type": "HowToStep", "name": "Kampanyayı çekirdek/omuz ayrımıyla yönet", "text": "Çekirdek günlerde kampanyaları kapalı/sınırlı; omuz günlerde test mantığıyla yönetin." },
+        { "@type": "HowToStep", "name": "Senkronu günlük kontrol et", "text": "Zirve günlerinde PMS–channel manager senkronunu günlük kontrol edip overbooking riskini azaltın." },
+        { "@type": "HowToStep", "name": "Parity ve mesaj tutarlılığı sağla", "text": "Fiyat artışlarını parity ve sözleşme çerçevesinde yönetip direct’i fayda ile ayrıştırın." },
+        { "@type": "HowToStep", "name": "Etkinlik sonrası raporla", "text": "ADR, doluluk, kanal payı, iptal/no-show ve risk olaylarıyla post-mortem yapıp playbook’u güncelleyin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Etkinlik, Festival ve Talep Zirvelerinde OTA Stratejisi: Ne Zaman Ne Yapmalısınız?", "item": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-talep-zirveleri-etkinlik-ve-festival-donemleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Etkinlik ve festival dönemlerinde OTA fiyat ve kota stratejisi nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Etkinliği erken tespit edip fiyatı kademeli artırın; riskli oda tiplerinde limit, kanallarda kademeli stop-sale kullanın. Hedef dolu olmak değil, net ADR ve toplam geliri artırmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Talep zirvelerinde minimum geceleme ve iptal politikası nasıl ayarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekirdek günlerde minimum stay ve non-refundable oranını artırarak riski azaltıp geliri koruyabilirsiniz. Omuz günlerde ise bariyeri düşürmek için daha esnek modele dönebilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu dönemlerde OTA kampanyalarını açmak mı kapatmak mı mantıklı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çekirdek günlerde kampanyalar çoğu zaman gereksiz indirim maliyetidir; kapalı veya çok sınırlı olmalıdır. Omuz günlerde kısa testlerle kampanya, doluluğu dengelerse anlamlı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etkinlik sonrası performans nasıl analiz edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ADR, doluluk, kanal payı, iptal/no-show, kampanya lift ve risk olaylarını birlikte değerlendirin. 7 gün içinde post-mortem raporu çıkarıp playbook’u güncelleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Talep zirvesinde en büyük operasyonel risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS–channel manager senkron kopması ve yanlış limit/stop-sale nedeniyle overbooking riskidir. Zirve günlerinde günlük kontrol ve SOP şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-ve-metasearch-sinerjisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi",
+      "name": "OTA ve Metasearch (Google Hotel, Trivago vb.) Arasındaki Sinerji Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi",
+      "headline": "OTA ve Metasearch (Google Hotel, Trivago vb.) Arasındaki Sinerji Nasıl Kurulur?",
+      "name": "OTA ve Metasearch (Google Hotel, Trivago vb.) Arasındaki Sinerji Nasıl Kurulur?",
+      "description": "Metasearch fiyat vitrini: OTA ve direct linkler yan yana. Doğru rate/availability feed’i, teklif ve link stratejisiyle trafiği web/OTA’ya bilinçli dağıtın; KPI ve UTM ile optimize edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Metasearch" },
+        { "@type": "Thing", "name": "Google Hotel Ads" },
+        { "@type": "Thing", "name": "Trivago" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "Rate & Availability Feed" },
+        { "@type": "Thing", "name": "Click Share" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#howto",
+      "name": "OTA + Metasearch Sinerjisi: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Metasearch hedefini belirle", "text": "Web vs OTA click share hedefinizi ve dönemsel hedefi (pik/omuz) yazın." },
+        { "@type": "HowToStep", "name": "Feed kaynağını doğrula", "text": "Rate & availability feed’in PMS/kanal yöneticisiyle uyumlu çalıştığını kontrol edin." },
+        { "@type": "HowToStep", "name": "Feed doğrulama rutini kur", "text": "Haftalık kontrol ve pik günlerde daha sık doğrulama planı oluşturun." },
+        { "@type": "HowToStep", "name": "Parity çerçevesini sabitle", "text": "Fiyat tutarlılığını koruyup direct ayrışmayı fayda ile kurgulayın." },
+        { "@type": "HowToStep", "name": "Link karmasını planla", "text": "Metasearch’te web ve OTA link görünürlüğünü hedef click share’e göre ayarlayın." },
+        { "@type": "HowToStep", "name": "Direct fayda mesajını netleştir", "text": "Web linkte esnek iptal/upgrade/üyelik gibi faydaları görünür kılın." },
+        { "@type": "HowToStep", "name": "UTM standardı kur", "text": "Metasearch→web trafiğini UTM ile etiketleyip doğru takip edin." },
+        { "@type": "HowToStep", "name": "Bütçe ve teklif stratejisi belirle", "text": "Bütçeyi click share ve net ADR hedefiyle yönetin; omuz sezonda test edin." },
+        { "@type": "HowToStep", "name": "KPI paneliyle ölç", "text": "Click share, dönüşüm, net ADR ve komisyon etkisini birlikte izleyin." },
+        { "@type": "HowToStep", "name": "14–30 günde optimize et", "text": "Test sonuçlarına göre bütçe/teklif ve link karmasını revize edin; işe yaramıyorsa kapatın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA ve Metasearch (Google Hotel, Trivago vb.) Arasındaki Sinerji Nasıl Kurulur?", "item": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-ve-metasearch-sinerjisi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Metasearch nedir, OTA’dan farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metasearch bir fiyat karşılaştırma vitrini ve trafik yönlendiricidir; OTA ise rezervasyonun gerçekleştiği satış kanalıdır. Metasearch’te OTA ve direct linkler yan yana görünür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Google Hotel ve Trivago otel satışlarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru feed ve teklif stratejisiyle görünürlük ve talep artışı sağlayabilir, web direct ve OTA satışlarını besleyebilir. Yanlış dengede komisyon maliyeti artıp net gelir düşebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Metasearch’te OTA ve direkt linkleri nasıl dengelemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Click share hedefi belirleyin ve döneme göre yönetin: omuz sezonda direct büyütme testleri, pik sezonda maliyet kontrol ve net ADR koruma. Direct ayrışmayı fiyatla değil fayda ile yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Metasearch performansını nasıl ölçer ve optimize ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Click share, dönüşüm, net ADR, komisyon etkisi ve UTM ile web performansını birlikte izleyin. 14–30 gün test edip bütçe/teklif ve link karmasını revize edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Metasearch’te en kritik teknik konu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rate & availability feed doğruluğu ve PMS–channel manager uyumudur. Feed hatası hem bütçeyi boşa yakar hem misafir güvenini zedeler."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }
