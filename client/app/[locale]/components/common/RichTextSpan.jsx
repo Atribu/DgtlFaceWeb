@@ -23,7 +23,7 @@ export default function RichTextSpan({ ns, id, className = "" }) {
         a: (chunks) => (
           <Link
             href={chunks?.props?.href || "#"}
-            className="underline font-semibold hover:text-[#58b5cf]"
+            className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
           </Link>
@@ -32,7 +32,7 @@ export default function RichTextSpan({ ns, id, className = "" }) {
           callPerformance: (chunks) => (
           <Link
             href="/Services/callcenter/callPerformance"
-            className="underline font-semibold hover:text-[#58b5cf]"
+            className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
           </Link>
@@ -40,7 +40,7 @@ export default function RichTextSpan({ ns, id, className = "" }) {
         lookerStudio: (chunks) => (
           <Link
             href="/Services/digitalAnalysis/lookerStudio"
-            className="underline font-semibold hover:text-[#58b5cf]"
+            className="underline font-semibold !text-[#58b5cf] hover:!text-black"
           >
             {chunks}
           </Link>

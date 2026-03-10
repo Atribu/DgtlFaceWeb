@@ -3,14 +3,15 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import DgtlfaceLogoBlackHead from "../header/svg/DgtlfaceLogoBlackHead";
 import RichText from "../common/RichText";
+import FireballExplosion from "./Animation/FireballExplosion";
 
 const Section = () => {
   const t = useTranslations("Homepage.partners");
 
   return (
-    <section className="flex flex-col w-[96%] md:w-[90%] items-center justify-center my-5 lg:my-10">
+    <section className="flex flex-col w-full md:w-[90%] items-center justify-center my-5 lg:my-10">
       {/* Sol Kısım: Metin */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-[20px] lg:gap-0">
+      <div className="flex flex-col w-[96%] md:flex-row items-center justify-center gap-[20px] lg:gap-0">
         <div className="flex flex-col w-full md:w-1/2 lg:p-6 justify-center items-center md:items-start md:justify-start text-center md:text-start text-darkBlue gap-[6px] font-inter">
           <h2 className="text-[22px] lg:text-[24px]  font-semibold mb-[7px] lg:mb-4 font-inter28 leading-[120%] -tracking-[0.48px]">
             {t("tagline_main")}
@@ -39,9 +40,9 @@ const Section = () => {
         </div>
 
         {/* Sağ Kısım */}
-        <div className="flex relative lg:p-6 items-center justify-center h-[370px] md:h-auto">
+        <div className="flex relative lg:p-6 items-center justify-center h-auto my-3">
           <div className="w-full max-w-[500px] h-auto relative overflow-hidden mt-4 ">
-            {/* <FireballExplosion /> */}
+            <FireballExplosion />
           </div>
         </div>
       </div>

@@ -14,7 +14,6 @@ const Section1 = () => {
           src={Gradyan} 
           alt="Gradyan" 
           className="w-full"
-          layout="responsive"
           width={1920} // Resmin orijinal genişliği
           height={200} // Resmin orijinal yüksekliği
         />

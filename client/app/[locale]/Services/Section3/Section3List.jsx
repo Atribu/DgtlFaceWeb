@@ -332,7 +332,7 @@ const Section3 = ({ page }) => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="flex justify-end items-end w-screen">
+    <div className="flex justify-end items-end w-screen mt-10 gap-0">
       <div className="relative flex justify-start items-center w-[99%] lg:w-[90%]">
         <div
           className="flex justify-start items-center overflow-x-hidden w-full"
