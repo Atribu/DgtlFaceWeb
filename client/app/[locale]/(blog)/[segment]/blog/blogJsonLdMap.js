@@ -42237,6 +42237,488 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"pms-housekeeping-ve-mobil-uygulama-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu",
+      "name": "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-housekeeping-ve-mobil-uygulama-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS ile housekeeping mobil uygulamasını entegre ederek oda durumunu anlık yönetin; görev atama, inspection ve KPI raporlarıyla check-in hızını ve temizlik kalitesini artırın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#webpage" },
+      "headline": "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı",
+      "name": "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–housekeeping mobil entegrasyonu; oda durumunu (kirli/temiz/inspection/ready/OOO) gerçek zamanlı güncelleyip görev atama ve kalite kontrolü dijitalleştiren, KPI’larla temizlik performansını ölçülebilir hale getiren operasyon modelidir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Housekeeping Module" },
+        { "@type": "Thing", "name": "Mobile App" },
+        { "@type": "Thing", "name": "Room Status" },
+        { "@type": "Thing", "name": "Task Assignment" },
+        { "@type": "Thing", "name": "Inspection" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "keywords": [
+        "pms housekeeping mobil entegrasyonu",
+        "oda durum akisi ve hk uygulamasi",
+        "temizlik kpi ve pms raporlama",
+        "pms housekeeping mobile app integration",
+        "housekeeping kpi dashboard"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Housekeeping Mobil Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı", "item": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS housekeeping modülü nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Housekeeping mobil uygulaması oda durumunu ve görev tamamlamayı PMS’e gerçek zamanlı aktarır. Resepsiyon aynı ekranda güncel durumu görür; inspection ve log kayıtları kaliteyi izlemeyi sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Housekeeping için mobil uygulama kullanmak ne kazandırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görev atama ve önceliklendirme hızlanır, telefon trafiği azalır ve temizlik süreci ölçülebilir hale gelir. Inspection ve re-clean akışı dijitalleştiği için kalite kontrol kolaylaşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda durum kodları ve akışı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kirli→Temiz→Inspection→Ready akışı net olmalı; out of order ayrı kodla yönetilmelidir. Clean ile Ready ayrımı, yanlış check-in riskini azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Housekeeping performansı PMS verisiyle nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Temizlik süresi, oda hazır olma süresi, re-clean oranı, inspection fail oranı ve şikâyet etiketleri KPI olarak izlenebilir. Dashboard ile günlük/haftalık trend takibi yapılmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-housekeeping-ve-mobil-uygulama-entegrasyonu#howto",
+      "name": "PMS ile Housekeeping Mobil Entegrasyonu Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Oda durum kodlarını standardize edin",
+          "text": "Kirli/temiz/inspection/ready/OOO akışını netleştirin; Clean ve Ready ayrımını kurun ve SOP ile ekiplere öğretin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mobil görev ve inspection akışını dijitalleştirin",
+          "text": "Görev atama, öncelikli oda listesi ve inspection adımlarını mobilde zorunlu kılın; fail olursa re-clean görevi açın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Gerçek zamanlı senkron ve log disiplinini kurun",
+          "text": "HK uygulamasından PMS’e anlık güncelleme sağlayın; offline senaryosunu test edin, rol bazlı yetki ve log kayıtlarını aktif edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI paneli ile kaliteyi izleyin",
+          "text": "Temizlik süresi, oda hazır olma süresi, re-clean ve inspection fail KPI’larını dashboard’a taşıyın; haftalık iyileştirme ritmi oluşturun."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu",
+      "name": "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS, revenue management sistemi ve kanal yöneticisi entegrasyonuyla talep/segment/event verisine göre dinamik fiyatlama kurun; OTA ve web’e otomatik dağıtın, RevPAR etkisini ölçün."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#webpage" },
+      "headline": "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?",
+      "name": "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–RMS–kanal yöneticisi entegrasyonu; RMS’in talep ve segment verisine göre ürettiği fiyat önerilerini kurallarla uygulayıp OTA ve web kanallarına otomatik dağıtan, fiyat değişimlerinin RevPAR etkisini ölçerek gelir yönetimini hızlandıran mimaridir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Revenue Management System" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Dynamic Pricing" },
+        { "@type": "Thing", "name": "Demand" },
+        { "@type": "Thing", "name": "Segment" },
+        { "@type": "Thing", "name": "Event" },
+        { "@type": "Thing", "name": "RevPAR" }
+      ],
+      "keywords": [
+        "pms rms entegrasyonu",
+        "dinamik fiyatlama motoru",
+        "talep ve segment verisine gore fiyat",
+        "hotel pms rms integration",
+        "demand based pricing with channel manager"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Revenue Management ve Fiyatlama Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?", "item": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ve revenue management sistemi nasıl entegre olur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RMS fiyat önerir; PMS veya kanal yöneticisi bu fiyatı kurallarla uygular ve kanallara dağıtır. Geri besleme verileri (pickup, doluluk, iptal) RMS’e dönerek modeli güçlendirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dinamik fiyatlama motoru otellerde nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Talep, segment, event ve pickup sinyallerini okuyup tarih×oda×pazar bazında fiyat önerisi üretir. Floor/cap bariyerleri ve kanal kurallarıyla kontrollü otomasyon uygulanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RMS’ten gelen fiyatlar OTA ve web’e nasıl dağıtılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyatlar PMS veya channel manager üzerinden OTA’lara ve web booking engine’e iletilir. Cache ve API limitleri nedeniyle gecikme olabileceği için güncelleme pencereleri ve izleme mekanizması önerilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat değişimlerinin performansa etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fiyat değişim log’u doluluk, pickup, ADR/RevPAR ve kanal payı trendleriyle birlikte okunur. Böylece hangi değişimin gelir etkisi yarattığı senaryo bazlı görülebilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu#howto",
+      "name": "PMS + RMS + Kanal Yöneticisi ile Akıllı Fiyatlama Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rol ve tek doğruluk kaynağını belirleyin",
+          "text": "RMS’in öneri, PMS/kanal yöneticisinin uygulama rolünü netleştirin; tek doğruluk kaynağı ve kanal kurallarını yazılı hale getirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Talep/segment/event sinyallerini modele bağlayın",
+          "text": "Pickup, segment ve event takvimini RMS’e besleyin; floor/cap güvenlik bariyerlerini tanımlayıp dinamik fiyatlama matrisini oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kontrollü dağıtım ve güncelleme pencereleri kurun",
+          "text": "API limitleri ve cache sürelerine göre güncelleme frekansını belirleyin; anomali durumunda durdurma prosedürü ve izleme rutini ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Performansı ölçün ve iteratif iyileştirin",
+          "text": "Fiyat değişim log’unu doluluk/ADR/RevPAR trendleriyle aynı panelde izleyin; revenue ve pazarlama ekiplerini ortak dashboard’ta buluşturun."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-guvenlik-kvkk-ve-erisim-rolleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri",
+      "name": "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-guvenlik-kvkk-ve-erisim-rolleri-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyonlarında misafir verisini rol bazlı erişim, API anahtar güvenliği, loglama ve KVKK’ya uygun saklama/silme politikalarıyla koruyun; güvenlik risklerini azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#webpage" },
+      "headline": "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?",
+      "name": "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS güvenlik ve KVKK yaklaşımı; rol bazlı erişim (RBAC), API güvenlik katmanları, loglama ve veri yaşam döngüsü (retention/anonimleştirme/silme) ile entegrasyonlarda misafir verisini koruyan teknik ve organizasyonel çerçevedir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Guest Data" },
+        { "@type": "Thing", "name": "Role-Based Access" },
+        { "@type": "Thing", "name": "API Key" },
+        { "@type": "Thing", "name": "Log" },
+        { "@type": "Thing", "name": "KVKK" },
+        { "@type": "Thing", "name": "Data Retention" },
+        { "@type": "Thing", "name": "Anonymization" }
+      ],
+      "keywords": [
+        "pms guvenlik ve erisim rolleri",
+        "kvkk uyumlu pms entegrasyonu",
+        "api ve loglama ile veri koruma",
+        "hotel pms security roles",
+        "api security and logging in pms integrations"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Güvenlik ve KVKK Uyum Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?", "item": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS’te hangi veriler en hassastır, nasıl korunmalıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir kimlik/iletişim bilgileri, rezervasyon detayları ve ödeme/fatura süreçleri en hassas alanlardır. RBAC, maskeleme, loglama ve veri minimizasyonu ile korunmalı; retention ve silme politikaları tanımlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rol bazlı erişim ve yetki yapısı nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce rollerin iş süreçleri çıkarılır, sonra minimum yetki prensibiyle görüntüleme/düzenleme/export yetkileri belirlenir. Kritik işlemler onay ve log ile korunur; admin sayısı minimumda tutulur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "API ve entegrasyonlarda PMS güvenliği nasıl sağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "API key yönetimi (rotasyon, test/prod ayrımı), IP allowlist, scope kısıtları, rate limit ve merkezi loglama temel katmanlardır. Anomali alarmları ile şüpheli davranış erken tespit edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK’ya göre PMS veri saklama ve silme politikası nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri yaşam döngüsü (toplama–işleme–saklama–silme/anonim) dokümante edilmeli; saklama süreleri ve silme/anonim süreçleri kanıtlanabilir şekilde loglanmalıdır. Kuruma özel hukuki detay için hukuk danışmanına başvurulmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-guvenlik-kvkk-ve-erisim-rolleri#howto",
+      "name": "PMS Entegrasyonlarında Güvenlik ve KVKK Uyumunu Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hassas veri envanteri ve minimizasyon",
+          "text": "PMS ve entegrasyonlarda hangi kişisel/finans verisinin işlendiğini çıkarın; entegrasyonların taşıdığı alanları minimum gerekli seviyeye indirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "RBAC rol matrisi ve maskeleme standardı",
+          "text": "Ön büro, satış, muhasebe ve call center için minimum yetki prensibiyle rol matrisi kurun; ekran/rapor/export maskeleme kurallarını tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "API güvenlik katmanları ve loglama",
+          "text": "API key yönetimi, IP allowlist, scope kısıtları ve rate limit uygulayın; merkezi log ve anomali alarmlarıyla izlenebilirlik sağlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Veri yaşam döngüsü (retention/silme/anonim) ve olay yönetimi",
+          "text": "KVKK için saklama–silme/anonim süreçlerini dokümante edin ve loglayın; güvenlik ihlali tespiti için olay yönetimi playbook’u oluşturun."
+        }
+      ]
+    }
+  ]
 }
 
     }

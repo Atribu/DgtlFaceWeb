@@ -16836,8 +16836,8 @@ export const BLOG_MEDIA_MAP = {
   "pms-degistirme-ve-migration-projesi":{
     banner: {
       src: "/images/blog/hotel/Hotel5-6/Hotel5-6-1.webp",
-      alt: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
-      caption: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?"
+      alt: "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS’e Geçiş Rehberi",
+      caption: "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS’e Geçiş Rehberi"
     },
 
           "h1-context-02": {
@@ -16882,6 +16882,161 @@ export const BLOG_MEDIA_MAP = {
       caption: "Migration deliverables kartı, plan ve güvenlik adımlarını netleştirir"
     }
   },
+
+
+
+  "pms-housekeeping-ve-mobil-uygulama-entegrasyonu":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-1.webp",
+      alt: "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı",
+      caption: "PMS ile Housekeeping ve Mobil Uygulama Entegrasyonu: Oda Durumu ve Temizlik Akışı"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-2.webp",
+      alt: "Oda durumu akışını gösteren bağlam görseli, check-in sürecini hızlandırır",
+      caption: "Oda durumu akışını gösteren bağlam görseli, check-in sürecini hızlandırır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-3.webp",
+      alt: "PMS ve housekeeping entegrasyon mantığını ayıran görsel, telefonsuz oda yönetimi sağlar",
+      caption: "PMS ve housekeeping entegrasyon mantığını ayıran görsel, telefonsuz oda yönetimi sağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-4.webp",
+      alt: "KPI ve kalite kontrol katmanını ayıran görsel, temizlik verimliliğini artırır",
+      caption: "KPI ve kalite kontrol katmanını ayıran görsel, temizlik verimliliğini artırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-5.webp",
+      alt: "PMS–housekeeping mobil uygulama akış diyagramı, oda durumunu gerçek zamanlı günceller",
+      caption: "PMS–housekeeping mobil uygulama akış diyagramı, oda durumunu gerçek zamanlı günceller"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-6.webp",
+      alt: " Housekeeping oda durum ve KPI kontrol listesi kartı, operasyonu standardize eder",
+      caption: " Housekeeping oda durum ve KPI kontrol listesi kartı, operasyonu standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-7.webp",
+      alt: "Housekeeping KPI mini paneli, temizlik süresi ve kaliteyi takip eder",
+      caption: "Housekeeping KPI mini paneli, temizlik süresi ve kaliteyi takip eder"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-7/Hotel5-7-8.webp",
+      alt: "Housekeeping entegrasyonu deliverables kartı, operasyon ve kalite standardını netleştirir",
+      caption: "Housekeeping entegrasyonu deliverables kartı, operasyon ve kalite standardını netleştirir"
+    }
+  },
+
+
+
+   "pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-1.webp",
+      alt: "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?",
+      caption: "PMS, Revenue Management ve Fiyatlama Motoru Entegrasyonu: Akıllı Fiyatlama Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-2.webp",
+      alt: "Talep ve segment verisinin fiyata dönüşmesini gösteren görsel, RevPAR kararlarını hızlandırır",
+      caption: "Talep ve segment verisinin fiyata dönüşmesini gösteren görsel, RevPAR kararlarını hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-3.webp",
+      alt: "Entegrasyon mimarisini ayıran görsel, revenue ve operasyonu aynı çerçevede buluşturur",
+      caption: "Entegrasyon mimarisini ayıran görsel, revenue ve operasyonu aynı çerçevede buluşturur"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-4.webp",
+      alt: "Dağıtım ve raporlama katmanını ayıran görsel, fiyat tutarlılığını güçlendirir",
+      caption: "Dağıtım ve raporlama katmanını ayıran görsel, fiyat tutarlılığını güçlendirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-5.webp",
+      alt: "PMS–RMS–kanal yöneticisi fiyat akış diyagramı, OTA ve web dağıtımını gösterir",
+      caption: "PMS–RMS–kanal yöneticisi fiyat akış diyagramı, OTA ve web dağıtımını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-6.webp",
+      alt: "Dinamik fiyatlama kontrol listesi kartı, kuralları standartlaştırır",
+      caption: "Dinamik fiyatlama kontrol listesi kartı, kuralları standartlaştırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-7.webp",
+      alt: "Fiyat değişimi ile doluluk/RevPAR ilişkisini gösteren mini panel, revenue kararlarını iyileştirir",
+      caption: "Fiyat değişimi ile doluluk/RevPAR ilişkisini gösteren mini panel, revenue kararlarını iyileştirir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-8/Hotel5-8-8.webp",
+      alt: "Fiyatlama entegrasyonu deliverables kartı, tek panel fiyat yönetimini netleştirir",
+      caption: "Fiyatlama entegrasyonu deliverables kartı, tek panel fiyat yönetimini netleştirir"
+    }
+  },
+
+
+  "pms-guvenlik-kvkk-ve-erisim-rolleri":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-1.webp",
+      alt: "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?",
+      caption: "PMS Güvenlik, KVKK ve Erişim Rolleri: Entegrasyonlarda Veri Nasıl Korunur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-2.webp",
+      alt: "Rol bazlı erişim ve loglama mantığını anlatan görsel, misafir verisini korur",
+      caption: "Rol bazlı erişim ve loglama mantığını anlatan görsel, misafir verisini korur"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-3.webp",
+      alt: "Güvenlik risklerini ayıran görsel, PMS entegrasyonlarında kontrol sağlar",
+      caption: "Güvenlik risklerini ayıran görsel, PMS entegrasyonlarında kontrol sağlar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-4.webp",
+      alt: "KVKK veri yaşam döngüsünü ayıran görsel, saklama ve silmeyi standardize eder",
+      caption: "KVKK veri yaşam döngüsünü ayıran görsel, saklama ve silmeyi standardize eder"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-5.webp",
+      alt: "Entegrasyon güvenlik katmanlarını gösteren diyagram, API risklerini azaltır",
+      caption: "Entegrasyon güvenlik katmanlarını gösteren diyagram, API risklerini azaltır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-6.webp",
+      alt: "PMS güvenlik kontrol listesi kartı, RBAC ve loglamayı standardize eder",
+      caption: "PMS güvenlik kontrol listesi kartı, RBAC ve loglamayı standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-7.webp",
+      alt: "Güvenlik KPI paneli, yetki ihlali ve anomali sinyallerini izler",
+      caption: "Güvenlik KPI paneli, yetki ihlali ve anomali sinyallerini izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-9/Hotel5-9-8.webp",
+      alt: "PMS güvenlik deliverables kartı, rol ve KVKK süreçlerini netleştirir",
+      caption: "PMS güvenlik deliverables kartı, rol ve KVKK süreçlerini netleştirir"
+    }
+  }
 
   
 

@@ -421,7 +421,10 @@ export const BLOG_MAP = {
     "2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari":"BlogOtel2026SesliAsistanlarVeKonussalOTARezervasyonlari",
 
     //hotel5-6
-    "pms-degistirme-ve-migration-projesi":"BlogOtelPMSDegistirmeVeMigrationProjesi"
+    "pms-degistirme-ve-migration-projesi":"BlogOtelPMSDegistirmeVeMigrationProjesi",
+    "pms-housekeeping-ve-mobil-uygulama-entegrasyonu":"BlogOtelPMSHousekeepingVeMobilUygulamaEntegrasyonu",
+    "pms-revenue-management-ve-fiyatlama-motoru-entegrasyonu":"BlogOtelPMSRevenueManagementVeFiyatlamaMotoruEntegrasyonu",
+    "pms-guvenlik-kvkk-ve-erisim-rolleri":"BlogPmsGuvenlikKvkkVeErisimRolleri"
   }
 };
 
