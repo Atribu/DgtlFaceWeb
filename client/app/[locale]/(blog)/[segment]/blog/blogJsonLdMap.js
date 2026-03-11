@@ -41941,6 +41941,302 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari",
+      "name": "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari",
+      "headline": "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
+      "name": "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
+      "description": "2026’da konuşsal OTA aramaları artıyor. OTA profilinde kategori/konum/segment/olanakları netleştirip sesli asistan→OTA→call center/web funnel’ını ölçerek optimize edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Voice Search" },
+        { "@type": "Thing", "name": "Conversational Interfaces" },
+        { "@type": "Thing", "name": "Smart Assistants" },
+        { "@type": "Thing", "name": "OTA Profile Clarity" },
+        { "@type": "Thing", "name": "Natural Language Queries" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Chatbot" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#howto",
+      "name": "Sesli Arama İçin OTA Profil Hazırlığı: 10 Alan",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Otel tipini netleştir", "text": "City/resort/butik sınıflandırmasını doğru seçip profilde tutarlı kullanın." },
+        { "@type": "HowToStep", "name": "Segment etiketlerini düzelt", "text": "Aile/adults only/business segmentlerini net işaretleyin ve metinle destekleyin." },
+        { "@type": "HowToStep", "name": "Konum pinini doğrula", "text": "Harita pini, adres ve yakın çevre bilgisini tutarlı hale getirin." },
+        { "@type": "HowToStep", "name": "Olanakları filtre diline çevir", "text": "Kids club, spa, otopark gibi olanakları doğru kategori ve ifadelerle yazın." },
+        { "@type": "HowToStep", "name": "Oda açıklamalarını standartlaştır", "text": "m², yatak, kapasite, manzara gibi alanları tek formatta doldurun." },
+        { "@type": "HowToStep", "name": "Politika metnini sadeleştir", "text": "İptal/ödeme/giriş-çıkış metinlerini kısa ve yanlış anlaşılmaz hale getirin." },
+        { "@type": "HowToStep", "name": "İlk 10 fotoğrafı karar akışı yap", "text": "Kapak→oda→banyo→yemek→deneyim sırasıyla fotoğraf akışını düzenleyin." },
+        { "@type": "HowToStep", "name": "Call center script seti hazırla", "text": "Konuşsal sorgular için 10 itiraz/yanıt ve kapanış script’i oluşturun." },
+        { "@type": "HowToStep", "name": "Chatbot SSS ve yönlendirme kurgula", "text": "SSS + doğru kanala yönlendirme kuralları ile hızlı netlik sağlayın." },
+        { "@type": "HowToStep", "name": "KPI ile ölç ve revize et", "text": "CTR, dönüşüm, iptal/no-show ve şikâyet temasıyla 30 gün izleyip optimize edin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?", "item": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da sesli asistanlar ve konuşsal OTA rezervasyonları otelleri nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğal dil sorguları üzerinden eşleşme artacak; profil netliği görünürlüğü belirleyecek. Call center/chatbot entegrasyonu dönüşümü güçlendirebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafirler sesli aramayla otel ararken neleri soruyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konum (yakınımdaki), segment (aile/balayı/adults only), olanak (denize sıfır/kids club/spa) ve politika (ücretsiz iptal/kahvaltı) gibi başlıklarda sorular soruyor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA profili sesli arama ve doğal dil için nasıl optimize edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment ve kategori etiketlerini netleştirin, konum pini ve adresi doğrulayın, olanakları filtre diline uygun yazın, politika metnini sadeleştirin ve fotoğraf akışını karar akışına göre düzenleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı merkezi ve chatbot’lar bu yeni deneyime nasıl entegre olabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call center için konuşsal sorgu script’leri ve hızlı kapanış akışı; chatbot için SSS + doğru yönlendirme kurgusu kurulmalıdır. Hepsi aynı profil sözlüğüyle tutarlı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En büyük risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanlış eşleşme ve beklenti sapmasıdır. Konum/olanak tutarlılığı ve net politika metni olmadan konuşsal trafik şikâyete dönüşebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"pms-degistirme-ve-migration-projesi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi",
+      "name": "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS'e Geçiş Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-degistirme-ve-migration-projesi-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS değiştirmeyi proje gibi yönetin: veri envanteri, temizlik, mapping, paralel çalışma, cut-over ve ilk 90 gün KPI takibi ile veri kaybı ve operasyon risklerini azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#webpage" },
+      "headline": "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS'e Geçiş Rehberi",
+      "name": "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS'e Geçiş Rehberi",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS migration’ı; eski PMS/Excel verisini temizleyip mapping ile yeni PMS alanlarına eşleyen, paralel çalışma ve kontrollü cut-over ile canlıya geçiren ve ilk 90 günde KPI takibiyle stabilize eden bir dönüşüm projesidir.",
+      "about": [
+        { "@type": "Thing", "name": "Old PMS" },
+        { "@type": "Thing", "name": "New PMS" },
+        { "@type": "Thing", "name": "Excel" },
+        { "@type": "Thing", "name": "Reservation Data" },
+        { "@type": "Thing", "name": "Guest Profiles" },
+        { "@type": "Thing", "name": "Mapping" },
+        { "@type": "Thing", "name": "Migration Project" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "keywords": [
+        "pms degistirme projesi",
+        "eski pms’ten yenisine gecis",
+        "pms migration kpi ve go live sureci",
+        "pms migration checklist",
+        "hotel pms data mapping plan"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Değiştirme ve Migration Projesi Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Değiştirme ve Migration Projesi: Eski Sistemden Yeni PMS'e Geçiş Rehberi", "item": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS değiştirme kararı ne zaman alınmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operasyon yavaşlıyor, entegrasyonlar yetersiz kalıyor veya raporlama güven vermiyorsa değişim kararı gündeme gelmelidir. Karar, neden değişiyoruz KPI’larıyla birlikte değerlendirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Eski PMS veya Excel’den yeni PMS’e veri migration’ı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Export → temizleme → mapping → test yükleme → doğrulama → canlı yükleme → reconciliation sıralamasıyla ilerleyin. Kod/ID bazlı mapping ve örneklem doğrulama zorunludur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Go-live (cut-over) süreci nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Düşük riskli bir zaman penceresi seçilmeli, go-live checklist ve sorumluluklar netleşmeli, backup/rollback prosedürü test edilmiş olmalıdır. Paralel çalışma kuralları yazılı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS migration sonrası ilk 90 günde hangi KPI’lar izlenmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri hatası sayısı, overbooking olayları, check-in süresi, fatura hatası, iptal/no-show doğruluğu ve kullanıcı adaptasyon göstergeleri izlenmelidir. İlk 30 gün stabilizasyon, 60 gün optimizasyon, 90 gün ölçekleme hedeflenmelidir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-degistirme-ve-migration-projesi#howto",
+      "name": "PMS Değiştirme ve Migration Projesi Nasıl Yürütülür?",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hazırlık ve veri envanteri",
+          "text": "Veri envanterini çıkarın (rezervasyon, misafir, fiyat, finans), süreç analizi yapın ve veri sahiplerini atayın; temizlik ve standardizasyon planı oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mapping ve test yükleme",
+          "text": "Eski PMS/Excel alanlarını yeni PMS alanlarına kod/ID bazlı eşleyin; test ortamına yükleyip senaryo testleri ve örneklem doğrulama ile kontrol edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Paralel çalışma ve cut-over planı",
+          "text": "Paralel çalışma kurallarını yazın; backup alın ve geri yükleme test edin; düşük riskli cut-over penceresi seçip go-live checklist ile geçişi yönetin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İlk 90 gün izleme ve stabilizasyon",
+          "text": "İlk 30/60/90 gün KPI’larını takip edin; hata yönetimini sınıflandırıp SLA belirleyin; eğitim ve dokümantasyonla kullanıcı adaptasyonunu hızlandırın."
+        }
+      ]
+    }
+  ]
 }
 
     }

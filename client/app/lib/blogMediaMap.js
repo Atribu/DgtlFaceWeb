@@ -16768,8 +16768,8 @@ export const BLOG_MEDIA_MAP = {
 
       "kpi-07": {
       src: "/images/blog/hotel/Hotel4-24/Hotel4-24-7.webp",
-      alt: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı”",
-      caption: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı”"
+      alt: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı",
+      caption: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı"
     },
 
           "proof-08": {
@@ -16777,7 +16777,112 @@ export const BLOG_MEDIA_MAP = {
       alt: "3 strateji kartı, amaç: karar senaryoları, otel bağlamı",
       caption: "3 strateji kartı, amaç: karar senaryoları, otel bağlamı"
     }
-  }
+  },
+
+
+
+  "2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-1.webp",
+      alt: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
+      caption: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-2.webp",
+      alt: "Voice→OTA→otel akışı, amaç: funnel entegrasyonu, otel bağlamı",
+      caption: "Voice→OTA→otel akışı, amaç: funnel entegrasyonu, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-3.webp",
+      alt: "Konuşsal eşleşme haritası, amaç: niyet→profil verisi, otel bağlamı",
+      caption: "Konuşsal eşleşme haritası, amaç: niyet→profil verisi, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-4.webp",
+      alt: "Profil alanları özeti, amaç: kategori/segment/olanak, otel bağlamı",
+      caption: "Profil alanları özeti, amaç: kategori/segment/olanak, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-5.webp",
+      alt: "Sesli asistan→OTA→call center/web funnel, amaç: dönüşüm akışı, otel bağlamı",
+      caption: "Sesli asistan→OTA→call center/web funnel, amaç: dönüşüm akışı, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-6.webp",
+      alt: "Sesli arama için 10 alan checklist’i, amaç: hızlı audit, otel bağlamı",
+      caption: "Sesli arama için 10 alan checklist’i, amaç: hızlı audit, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-7.webp",
+      alt: "Konuşsal KPI paneli, amaç: CTR/dönüşüm/iptal, otel bağlamı",
+      caption: "Konuşsal KPI paneli, amaç: CTR/dönüşüm/iptal, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-25/Hotel4-25-8.webp",
+      alt: "Script + chatbot + SOP paketi, amaç: kopyala-uygula, otel bağlamı",
+      caption: "Script + chatbot + SOP paketi, amaç: kopyala-uygula, otel bağlamı"
+    }
+  },
+
+
+
+  "pms-degistirme-ve-migration-projesi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-1.webp",
+      alt: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?",
+      caption: "2026’da Sesli Asistanlar ve Konuşsal OTA Rezervasyonları Otelleri Nasıl Etkileyecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-2.webp",
+      alt: "Eski PMS’ten yeni PMS’e veri taşımayı anlatan bağlam görseli, veri kaybı riskini azaltır",
+      caption: "Eski PMS’ten yeni PMS’e veri taşımayı anlatan bağlam görseli, veri kaybı riskini azaltır"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-3.webp",
+      alt: "Migration proje fazlarını ayıran görsel, otelde kontrollü geçiş sağlar",
+      caption: "Migration proje fazlarını ayıran görsel, otelde kontrollü geçiş sağlar"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-4.webp",
+      alt: "Cut-over ve ilk 90 gün aşamalarını ayıran görsel, stabilizasyonu hızlandırır",
+      caption: "Cut-over ve ilk 90 gün aşamalarını ayıran görsel, stabilizasyonu hızlandırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-5.webp",
+      alt: "Migration zaman çizelgesi diyagramı, cut-over ve paralel çalışma adımlarını gösterir",
+      caption: "Migration zaman çizelgesi diyagramı, cut-over ve paralel çalışma adımlarını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-6.webp",
+      alt: "Migration kontrol listesi kartı, veri kaybı ve çift kayıt riskini azaltır",
+      caption: "Migration kontrol listesi kartı, veri kaybı ve çift kayıt riskini azaltır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-7.webp",
+      alt: "İlk 90 gün KPI kartı, migration sonrası stabilizasyonu takip eder",
+      caption: "İlk 90 gün KPI kartı, migration sonrası stabilizasyonu takip eder"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-6/Hotel5-6-8.webp",
+      alt: "Migration deliverables kartı, plan ve güvenlik adımlarını netleştirir",
+      caption: "Migration deliverables kartı, plan ve güvenlik adımlarını netleştirir"
+    }
+  },
+
   
 
 

@@ -401,6 +401,7 @@ export const BLOG_MAP = {
     "yeni-acilan-oteller-icin-ota-launch-plani":"BlogYeniAcilanOtellerIcinOTALaunchPlani",
     "ota-mobil-ve-ulkeye-ozel-fiyat-teklifleri":"BlogOTAMobilVeUlkeyeOzelFiyatTeklifleri",
 
+    //hotel 4-11
     "ota-misafirini-direkt-rezervasyon-musterisine-cevirme":"BlogOtaMisafiriniDirektRezervasyonMusterisineCevirme",
     "ota-sozlesme-ve-komisyon-stratejisi":"BlogOtaSozlesmeVeKomisyonStratejisi",
     "bedbank-wholesaler-ve-rate-leakage":"BlogBedbankWholesalerVeRateLeakage",
@@ -408,6 +409,7 @@ export const BLOG_MAP = {
     "ota-talep-zirveleri-etkinlik-ve-festival-donemleri":"BlogOtaTalepZirveleriEtkinlikVeFestivalDonemleri",
     "ota-ve-metasearch-sinerjisi":"BlogOtaVeMetasearchSinerjisi",
 
+//hotel4-17
     "ota-raporlama-ve-performans-kpi-rehberi":"BlogOtaRaporlamaVePerformansKpiRehberi",
     "ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi":"BlogOtaYonetimindeSatisRevenueVePazarlamaEkiplerininIsbirligi",
     "ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir":"BlogOtaStratejisiOtelTurTiplerineGoreNasilFarklilasir",
@@ -415,7 +417,11 @@ export const BLOG_MAP = {
     "2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":"Blog2026OTAAttributeBasedSellingOdaOzelligiFiyatlama",
     "2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri":"Blog2026OTAESGEkoEtiketVeSurdurulebilirlikFiltreleri",
     "2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama":"Blog2026YapayZekaIleOTAKisisellestirmeVeSiralama",
-    "2026-ota-abonelik-ve-uyelik-modelleri":"Blog2026OTAAbonelikVeUyelikModelleri"
+    "2026-ota-abonelik-ve-uyelik-modelleri":"Blog2026OTAAbonelikVeUyelikModelleri",
+    "2026-sesli-asistanlar-ve-konussal-ota-rezervasyonlari":"BlogOtel2026SesliAsistanlarVeKonussalOTARezervasyonlari",
+
+    //hotel5-6
+    "pms-degistirme-ve-migration-projesi":"BlogOtelPMSDegistirmeVeMigrationProjesi"
   }
 };
 
