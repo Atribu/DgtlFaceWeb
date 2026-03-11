@@ -74,9 +74,56 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
   const [currentTranslate, setCurrentTranslate] = useState(0);
   const [prevTranslate, setPrevTranslate] = useState(0);
   const wheelTimeout = useRef(null);
+  const itemRefs = useRef([]);
+  const [itemHeights, setItemHeights] = useState([]);
 
   const ITEM_HEIGHT = 160;
   const GAP = 0;
+
+  useEffect(() => {
+    const measureHeights = () => {
+      setItemHeights((prevHeights) => {
+        const nextHeights = items.map((_, index) => {
+          const itemElement = itemRefs.current[index];
+          return itemElement ? itemElement.offsetHeight : ITEM_HEIGHT;
+        });
+
+        if (
+          prevHeights.length === nextHeights.length &&
+          prevHeights.every((value, index) => value === nextHeights[index])
+        ) {
+          return prevHeights;
+        }
+
+        return nextHeights;
+      });
+    };
+
+    measureHeights();
+
+    if (typeof ResizeObserver === "undefined") {
+      window.addEventListener("resize", measureHeights);
+      return () => window.removeEventListener("resize", measureHeights);
+    }
+
+    const observer = new ResizeObserver(measureHeights);
+    itemRefs.current.forEach((itemElement) => {
+      if (itemElement) observer.observe(itemElement);
+    });
+
+    window.addEventListener("resize", measureHeights);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", measureHeights);
+    };
+  }, [activeIndex, itemCount]);
+
+  const getItemHeight = (index) => itemHeights[index] ?? ITEM_HEIGHT;
+  const activeItemHeight = getItemHeight(activeIndex);
+  const translateOffset = items
+    .slice(0, activeIndex)
+    .reduce((total, _, index) => total + getItemHeight(index) + GAP, 0);
 
   const handleMouseDown = (e) => {
     setIsDragging(true);
@@ -212,7 +259,11 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
             {/* Carousel */}
             <div
               ref={containerRef}
-              className="relative overflow-hidden h-[260px] lg:h-[320px] cursor-grab active:cursor-grabbing select-none"
+              className="relative overflow-hidden cursor-grab active:cursor-grabbing select-none transition-[height] duration-300"
+              style={{
+                height: `${activeItemHeight}px`,
+                minHeight: `${ITEM_HEIGHT}px`,
+              }}
               onMouseDown={handleMouseDown}
               onMouseMove={handleMouseMove}
               onMouseUp={handleMouseUp}
@@ -227,17 +278,19 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                 style={{
                   top: 0,
                   transform: `translateY(${
-                    -activeIndex * (ITEM_HEIGHT + GAP) + currentTranslate
+                    -translateOffset + currentTranslate
                   }px)`,
                 }}
               >
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="flex flex-col justify-start items-start gap-2 transition-all duration-700 text-start"
+                    ref={(element) => {
+                      itemRefs.current[index] = element;
+                    }}
+                    className="flex w-full flex-col justify-start items-start gap-2 overflow-hidden transition-all duration-700 text-start"
                     style={{
-                      height: `${ITEM_HEIGHT}px + 30px`,
-                      maxHeight: `${ITEM_HEIGHT}+ 40px`,
+                      minHeight: `${ITEM_HEIGHT}px`,
                       marginBottom:
                         index < items.length - 1 ? `${GAP}px` : "0",
                       opacity: activeIndex === index ? 1 : 0.3,
@@ -245,9 +298,20 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                         activeIndex === index ? "scale(1)" : "scale(0.9)",
                       pointerEvents:
                         activeIndex === index ? "auto" : "none",
+                      backgroundColor:
+                        activeIndex === index ? "rgba(255, 255, 255, 0.35)" : "transparent",
+                      backdropFilter:
+                        activeIndex === index ? "blur(1.5px)" : "none",
+                      WebkitBackdropFilter:
+                        activeIndex === index ? "blur(1.5px)" : "none",
+                      borderRadius: "14px",
+                      boxShadow:
+                        activeIndex === index
+                          ? "0 8px 20px rgba(20, 12, 41, 0.08)"
+                          : "none",
                     }}
                   >
-                    <div className="flex flex-col gap-2 text-start">
+                    <div className="flex w-full flex-col gap-2 text-start">
                       <h5 className="text-[16px] lg:text-[18px]">
                         <span className="text-[#140C29] font-bold font-inter leading-tight">
                           {item.header}{" "}
@@ -258,16 +322,15 @@ const VerticalSlider = ({ page, itemCount = 3 }) => {
                       </h5>
                     </div>
 
-                    <div className="flex flex-col gap-0">
+                    <div className="flex w-full flex-col gap-0">
                       {/* ✅ RICH TEXT BURADA */}
                       {item.textHtml && (
                         <PlainRichText
                           html={item.textHtml}
-                          as="p"
+                          as="div"
                           className="
                             text-[#140C29] text-[12px] md:text-[14px] lg:text-[15px]
                             font-normal leading-relaxed opacity-90
-                            line-clamp-6
                             space-y-0
                             [&_ul]:list-disc
                             [&_ul]:list-inside
