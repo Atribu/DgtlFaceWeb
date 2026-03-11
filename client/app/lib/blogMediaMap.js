@@ -16387,13 +16387,13 @@ export const BLOG_MEDIA_MAP = {
       caption: "Brüt→net→risk→aksiyon akışı, amaç: rapor okuma modeli, otel raporlama bağlamı"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/hotel/Hotel4-17/Hotel4-17-3.webp",
       alt: "KPI karar haritası, amaç: hangi rakam neyi tetikler, otel revenue bağlamı",
       caption: "KPI karar haritası, amaç: hangi rakam neyi tetikler, otel revenue bağlamı"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/hotel/Hotel4-17/Hotel4-17-4.webp",
       alt: "KPI tablo görünümü, amaç: hızlı referans, otel raporlama bağlamı",
       caption: "KPI tablo görünümü, amaç: hızlı referans, otel raporlama bağlamı"
@@ -16421,6 +16421,209 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/hotel/Hotel4-17/Hotel4-17-8.webp",
       alt: "KPI rapor şablonu + dashboard çıktıları, amaç: uygulanabilir sistem, otel raporlama bağlamı",
       caption: "KPI rapor şablonu + dashboard çıktıları, amaç: uygulanabilir sistem, otel raporlama bağlamı"
+    }
+  },
+
+
+  "ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-1.webp",
+      alt: "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?",
+      caption: "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-2.webp",
+      alt: "RACI + dashboard + ritim özeti, amaç: tek sayfa süreç, otel operasyon bağlamı",
+      caption: "RACI + dashboard + ritim özeti, amaç: tek sayfa süreç, otel operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-3.webp",
+      alt: "Rol ayrımı haritası, amaç: kim ne yapar, otel yönetim bağlamı",
+      caption: "Rol ayrımı haritası, amaç: kim ne yapar, otel yönetim bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-4.webp",
+      alt: "RACI matrisi görseli, amaç: sorumluluk netliği, otel operasyon bağlamı",
+      caption: "RACI matrisi görseli, amaç: sorumluluk netliği, otel operasyon bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-5.webp",
+      alt: "Toplantı ritmi + iletişim akışı, amaç: çakışma önleme, otel süreç bağlamı",
+      caption: "Toplantı ritmi + iletişim akışı, amaç: çakışma önleme, otel süreç bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-6.webp",
+      alt: "OTA masası checklist’i, amaç: haftalık ritim, otel yönetim bağlamı",
+      caption: "OTA masası checklist’i, amaç: haftalık ritim, otel yönetim bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-7.webp",
+      alt: "Ortak dashboard şeması, amaç: tek rakam dili, otel revenue bağlamı",
+      caption: "Ortak dashboard şeması, amaç: tek rakam dili, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-18/Hotel4-18-8.webp",
+      alt: "RACI + ajanda + dashboard paketi, amaç: kopyala-uygula, otel yönetim bağlamı",
+      caption: "RACI + ajanda + dashboard paketi, amaç: kopyala-uygula, otel yönetim bağlamı"
+    }
+  },
+
+
+   "ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir":{
+     banner: {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-1.webp",
+      alt: "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?",
+      caption: "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-2.webp",
+      alt: "Konsept→pazar→OTA karması, amaç: karar modeli, otel revenue bağlamı",
+      caption: "Konsept→pazar→OTA karması, amaç: karar modeli, otel revenue bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-3.webp",
+      alt: "Konsept farkları özeti, amaç: hızlı anlama, otel pazarlama bağlamı",
+      caption: "Konsept farkları özeti, amaç: hızlı anlama, otel pazarlama bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-4.webp",
+      alt: "3’lü karşılaştırma tablosu, amaç: strateji kıyası, otel revenue bağlamı",
+      caption: "3’lü karşılaştırma tablosu, amaç: strateji kıyası, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-5.webp",
+      alt: "Konsept bazlı içerik ve karar akışı, amaç: dönüşüm dili, otel pazarlama bağlamı",
+      caption: "Konsept bazlı içerik ve karar akışı, amaç: dönüşüm dili, otel pazarlama bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-6.webp",
+      alt: "Konsept bazlı OTA checklist, amaç: uygulama adımları, otel yönetim bağlamı",
+      caption: "Konsept bazlı OTA checklist, amaç: uygulama adımları, otel yönetim bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-7.webp",
+      alt: "Segment KPI paneli, amaç: net ADR/iptal/mix, otel revenue bağlamı",
+      caption: "Segment KPI paneli, amaç: net ADR/iptal/mix, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-19/Hotel4-19-8.webp",
+      alt: "3 senaryo kartı, amaç: örnek planlar, otel revenue bağlamı",
+      caption: "3 senaryo kartı, amaç: örnek planlar, otel revenue bağlamı"
+    }
+  },
+
+  "yillik-ota-strateji-ve-audit-yol-haritasi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-1.webp",
+      alt: "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?",
+      caption: "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-2.webp",
+      alt: "12 ay kontrol ritmi, amaç: bakım–kontrol–review döngüsü, otel operasyon bağlamı",
+      caption: "12 ay kontrol ritmi, amaç: bakım–kontrol–review döngüsü, otel operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-3.webp",
+      alt: "12 ay audit mimarisi, amaç: planlı kültür, otel yönetim bağlamı",
+      caption: "12 ay audit mimarisi, amaç: planlı kültür, otel yönetim bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-4.webp",
+      alt: "Aylık/çeyreklik kontrol blokları, amaç: hızlı referans, otel revenue bağlamı",
+      caption: "Aylık/çeyreklik kontrol blokları, amaç: hızlı referans, otel revenue bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-5.webp",
+      alt: "Hedef vs gerçekleşen KPI grafiği, amaç: yıl sonu kıyas, otel revenue bağlamı",
+      caption: "Hedef vs gerçekleşen KPI grafiği, amaç: yıl sonu kıyas, otel revenue bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-6.webp",
+      alt: "Audit checklist şeması, amaç: kopyala-uygula, otel operasyon bağlamı",
+      caption: "Audit checklist şeması, amaç: kopyala-uygula, otel operasyon bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-7.webp",
+      alt: "Yıllık KPI paneli, amaç: hedef–gerçekleşen, otel revenue bağlamı",
+      caption: "Yıllık KPI paneli, amaç: hedef–gerçekleşen, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-20/Hotel4-20-8.webp",
+      alt: "12 aylık kontrol takvimi + audit paketi, amaç: sistem kurulum, otel yönetim bağlamı",
+      caption: "12 aylık kontrol takvimi + audit paketi, amaç: sistem kurulum, otel yönetim bağlamı"
+    }
+  },
+
+
+  "2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-1.webp",
+      alt: "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama",
+      caption: "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-2.webp",
+      alt: "Oda tipi→özellik paketi geçişi, otel satış bağlamı",
+      caption: "Oda tipi→özellik paketi geçişi, otel satış bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-3.webp",
+      alt: "ABS kavram haritası, otel dağıtım bağlamı",
+      caption: "ABS kavram haritası, otel dağıtım bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-4.webp",
+      alt: "Klasik vs ABS ekran kıyası, otel UX bağlamı",
+      caption: "Klasik vs ABS ekran kıyası, otel UX bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-5.webp",
+      alt: "Feature-level envanter akışı (PMS/CM), otel operasyon bağlamı",
+      caption: "Feature-level envanter akışı (PMS/CM), otel operasyon bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-6.webp",
+      alt: "ABS’e geçiş 5 adım, otel proje bağlamı",
+      caption: "ABS’e geçiş 5 adım, otel proje bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-7.webp",
+      alt: "Attach rate + net ADR paneli, otel revenue bağlamı",
+      caption: "Attach rate + net ADR paneli, otel revenue bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-21/Hotel4-21-8.webp",
+      alt: "Oda özellik matrisi + pilot plan çıktıları, otel operasyon bağlamı",
+      caption: "Oda özellik matrisi + pilot plan çıktıları, otel operasyon bağlamı"
     }
   }
   

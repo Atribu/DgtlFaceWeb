@@ -408,7 +408,11 @@ export const BLOG_MAP = {
     "ota-talep-zirveleri-etkinlik-ve-festival-donemleri":"BlogOtaTalepZirveleriEtkinlikVeFestivalDonemleri",
     "ota-ve-metasearch-sinerjisi":"BlogOtaVeMetasearchSinerjisi",
 
-    "ota-raporlama-ve-performans-kpi-rehberi":"BlogOtaRaporlamaVePerformansKpiRehberi"
+    "ota-raporlama-ve-performans-kpi-rehberi":"BlogOtaRaporlamaVePerformansKpiRehberi",
+    "ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi":"BlogOtaYonetimindeSatisRevenueVePazarlamaEkiplerininIsbirligi",
+    "ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir":"BlogOtaStratejisiOtelTurTiplerineGoreNasilFarklilasir",
+    "yillik-ota-strateji-ve-audit-yol-haritasi":"BlogYillikOTAStratejiVeAuditYolHaritasi",
+    "2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":"Blog2026OTAAttributeBasedSellingOdaOzelligiFiyatlama"
   }
 };
 

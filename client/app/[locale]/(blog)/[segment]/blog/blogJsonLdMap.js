@@ -40936,6 +40936,539 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi",
+      "name": "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi",
+      "headline": "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?",
+      "name": "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?",
+      "description": "OTA yönetiminde rol karmaşasını bitirin: satış, revenue, pazarlama ve operasyon için RACI; haftalık OTA masası ajandası ve ortak dashboard ile kararları veriyle alın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Team Collaboration" },
+        { "@type": "Thing", "name": "Sales" },
+        { "@type": "Thing", "name": "Revenue" },
+        { "@type": "Thing", "name": "Marketing" },
+        { "@type": "Thing", "name": "OTA Management" },
+        { "@type": "Thing", "name": "Dashboard" },
+        { "@type": "Thing", "name": "Meeting Rhythm" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#howto",
+      "name": "OTA Ekip İşbirliği Kurulumu: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Rol listesini çıkar", "text": "Satış, revenue, pazarlama ve operasyonun OTA’daki görevlerini yazın." },
+        { "@type": "HowToStep", "name": "RACI matrisi oluştur", "text": "Fiyat, kampanya, içerik ve raporlama işleri için RACI’yi doldurup onaylatın." },
+        { "@type": "HowToStep", "name": "Kritik değişiklikleri tanımla", "text": "Kampanya aç/kapat, min-stay, stop-sale ve politika gibi kritik değişiklik listesini çıkarın." },
+        { "@type": "HowToStep", "name": "Onay akışı kur", "text": "Kritik değişikliklerde iki aşamalı onay mekanizmasını devreye alın." },
+        { "@type": "HowToStep", "name": "Tek dashboard belirle", "text": "Net ADR, iptal/no-show, pazar/kanaI mix KPI’larını tek kaynaktan okuyun." },
+        { "@type": "HowToStep", "name": "Haftalık OTA masası başlat", "text": "30–45 dakikalık haftalık toplantı ritmi ve aksiyon listesini standartlaştırın." },
+        { "@type": "HowToStep", "name": "Aylık strateji masası kur", "text": "Pazar/kanaI mix ve program kararlarını aylık 60–90 dakika değerlendirin." },
+        { "@type": "HowToStep", "name": "Değişiklik log’u tut", "text": "Fiyat/kampanya/içerik değişikliklerini tek log’da kaydedin ve duyurun." },
+        { "@type": "HowToStep", "name": "Erişim güvenliğini sağla", "text": "Parola paylaşmayın; rol bazlı kullanıcı ve değişiklik log’u kullanın; aylık temizlik yapın." },
+        { "@type": "HowToStep", "name": "KPI→aksiyon disiplinini uygula", "text": "Her ay en fazla 3 aksiyon seçip bir sonraki ay sonuçla karşılaştırın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "OTA Yönetiminde Satış, Revenue ve Pazarlama Ekipleri Nasıl Birlikte Çalışmalı?", "item": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA yönetiminde satış, revenue ve pazarlama ekiplerinin rolleri ne olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış sözleşme/ilişki ve ticari şartları, revenue fiyat–envanter–politika kararlarını, pazarlama içerik/kreatif ve mesajı yönetmelidir. Operasyon, envanter doğruluğu ve misafir geri bildirimini sisteme taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu ekipler arasında çatışma nasıl azaltılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RACI ile rol netliği, kritik değişikliklerde onay akışı, tek dashboard üzerinden konuşma ve haftalık OTA masası ritmi çatışmayı azaltır. Değişiklik log’u şeffaflık sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA kararları için nasıl bir toplantı ve raporlama düzeni kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık 30–45 dk OTA masası ve aylık 60–90 dk strateji toplantısı önerilir. Haftalıkta KPI ve kısa aksiyonlar, aylıkta pazar/kanaI mix ve program kararları ele alınır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak dashboard kullanmak neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tüm ekiplerin aynı KPI tanımlarını görmesini ve aynı veriye göre karar almasını sağlar. Farklı raporlar çakışmayı artırır; tek dashboard hız ve doğruluk sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA kullanıcı güvenliği nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Parola paylaşımı yapılmamalı; rol bazlı kullanıcılar ve değişiklik log’ları kullanılmalıdır. Aylık erişim denetimiyle eski kullanıcılar temizlenmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir",
+      "name": "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir#article",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir",
+      "headline": "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?",
+      "name": "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?",
+      "description": "Resort, city ve butik otellerde OTA karması değişir. Pazar önceliği, fiyat/kota/politika ve içerik dilini konsebe göre kurgulayın; örnek tablo ve senaryolarla netleştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Resort Hotel" },
+        { "@type": "Thing", "name": "City Hotel" },
+        { "@type": "Thing", "name": "Boutique Hotel" },
+        { "@type": "Thing", "name": "Segment Strategy" },
+        { "@type": "Thing", "name": "OTA Mix" },
+        { "@type": "Thing", "name": "Seasonality" },
+        { "@type": "Thing", "name": "Policy" },
+        { "@type": "Thing", "name": "Content" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "OTA Yönetimi (Hotel OTA)",
+          "item": "https://dgtlface.com/tr/otel/ota-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Resort, Şehir ve Butik Oteller İçin OTA Stratejisi Nasıl Farklılaşmalı?",
+          "item": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Resort, şehir ve butik oteller için OTA stratejileri nasıl farklı olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort’ta sezon/paket ve min-stay–kota yönetimi; city’de weekday/MICE ve esneklik; butik’te niş pazar ve yorum/puan odaklı konumlandırma öne çıkar. Fiyat/politika ve içerik dili konsebe göre uyarlanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "City hotel OTA’da neyi öne çıkarmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Konum/erişim, işlev (toplantı/çalışma alanı), hafta içi–hafta sonu dinamiği ve etkinlik haftası planı öne çıkarılmalıdır. Esnek politika ve hızlı revize kabiliyeti kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Butik oteller için hangi OTA’lar ve pazarlar önemli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek formül yoktur; butik otellerde niş deneyim arayan pazarlar ve yüksek yorum/puan sinyali öne çıkar. Amaç geniş dağıtım değil, doğru vitrin ve güçlü algıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı otel tiplerinde fiyat ve iptal politikası nasıl değişir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Resort’ta çekirdek gün koruması (min-stay/nonref), city’de esneklik ve etkinlik modunda sıkılaşma, butik’te premium algıyı koruyan dengeli portföy yaklaşımı daha uygundur. İptal/no-show KPI ile revize edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aynı gruptaki oteller birbirini nasıl “yemez”?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment pozisyonlaması net yapılır; her tesis farklı değer önerisi ve pazar odağıyla ayrıştırılır. Fiyat ve içerik dili web/SEO mesajıyla tutarlı yürütülür."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yillik-ota-strateji-ve-audit-yol-haritasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi",
+      "name": "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#article",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi",
+      "headline": "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?",
+      "name": "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?",
+      "description": "OTA’yı planlı yönetin: sezon öncesi büyük bakım, aylık mini kontroller ve çeyreklik KPI review ile parity/bozuk içerik/eski kampanya gibi sessiz sorunları azaltıp net geliri öngörülebilir tutun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Annual OTA Plan" },
+        { "@type": "Thing", "name": "Monthly Audit" },
+        { "@type": "Thing", "name": "Quarterly Review" },
+        { "@type": "Thing", "name": "Content" },
+        { "@type": "Thing", "name": "Photos" },
+        { "@type": "Thing", "name": "Pricing" },
+        { "@type": "Thing", "name": "Policy" },
+        { "@type": "Thing", "name": "KPI Review" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#howto",
+      "name": "Yıllık OTA Audit Sistemi: 10 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Sezon modlarını belirle", "text": "Pik/omuz/düşük sezonları takvimleyip yıllık hedef KPI’ları yazın." },
+        { "@type": "HowToStep", "name": "Büyük bakım penceresi koy", "text": "Sezon öncesi içerik/fotoğraf/politika bakım tarihini takvime kilitleyin." },
+        { "@type": "HowToStep", "name": "Aylık mini kontrol checklist’i oluştur", "text": "Parity/leakage, iptal/no-show ve overbooking risk kontrolünü sabitleyin." },
+        { "@type": "HowToStep", "name": "Çeyreklik KPI review ritmi kur", "text": "Pazar–kanal mix, kampanya ROI ve net gelir review toplantılarını planlayın." },
+        { "@type": "HowToStep", "name": "Değişiklik log’u zorunlu kıl", "text": "Fiyat/kampanya/içerik değişikliklerini tek log’da kaydedin." },
+        { "@type": "HowToStep", "name": "Kullanıcı rol denetimi yap", "text": "Erişim rolleri ve eski kullanıcıları aylık denetleyip temizleyin." },
+        { "@type": "HowToStep", "name": "Eski kampanyaları temizle", "text": "Açık unutulan promosyon ve program ayarlarını audit ile kapatın." },
+        { "@type": "HowToStep", "name": "PMS–CM tutarlılığını doğrula", "text": "Tüm revizyonların tek kaynak envanter ve fiyat akışıyla uyumlu olmasını sağlayın." },
+        { "@type": "HowToStep", "name": "Hedef–gerçekleşen kıyası yap", "text": "Net ADR, iptal/no-show, parity olayları ve kanal mix KPI’larını hedefe karşı izleyin." },
+        { "@type": "HowToStep", "name": "3 öncelik seç ve uygula", "text": "Her çeyrek en fazla 3 büyük iyileştirme seçip sonuçları bir sonraki review’de karşılaştırın." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Yıllık OTA Strateji ve Audit Yol Haritası: 12 Ay Boyunca Neleri Kontrol Etmelisiniz?", "item": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/yillik-ota-strateji-ve-audit-yol-haritasi",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA hesaplarımı ne sıklıkla kontrol etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon öncesi büyük bakım, her ay mini kontrol ve her çeyrek kapsamlı performans review önerilir. Pik dönemlerde parity ve senkron kontrolleri daha sık yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yıllık OTA strateji planında neler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon modları, içerik/fotoğraf/politika bakım planı, kampanya/program karar ritmi, pazar/kanaI mix hedefleri ve KPI hedef–gerçekleşen kıyası yer almalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aylık ve çeyreklik OTA audit’lerinde hangi alanlara bakılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aylıkta parity/leakage, iptal/no-show, overbooking riski ve kampanya ayarları; çeyreklikte pazar–kanal bazlı net gelir, kampanya ROI ve portföy dengesi analiz edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA performansı yıllık hedeflerle nasıl kıyaslanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net ADR/net gelir, iptal/no-show, parity olayları ve kanal mix KPI’ları hedefe karşı izlenir. Çeyreklik raporda sapmaların kök nedeni bulunup aksiyon planı çıkarılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Audit’te en sık unutulan konu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kullanıcı rolleri/erişim denetimi ve değişiklik log’larıdır. Ayrıca eski kampanyaların açık kalması sık görülen bir maliyet hatasıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama",
+      "name": "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama",
+      "headline": "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama",
+      "name": "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama",
+      "description": "2026’da ABS ile OTA’larda oda tipleri yerine balkon/manzara/esneklik gibi özellikler fiyatlanıyor. PMS–kanal yöneticisi uyumu, sade UX ve KPI’larla gelir/dönüşümü optimize edin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Attribute Based Selling" },
+        { "@type": "Thing", "name": "Room Attributes" },
+        { "@type": "Thing", "name": "Feature-Level Pricing" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Conversion" },
+        { "@type": "Thing", "name": "UX" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#howto",
+      "name": "ABS’e Geçiş: 5 Hazırlık Adımı",
+      "inLanguage": "tr-TR",
+      "step": [
+        { "@type": "HowToStep", "name": "Çekirdek özellikleri seç", "text": "Balkon, manzara, yatak tipi, kahvaltı, esneklik gibi 5–7 çekirdek özelliği belirleyin." },
+        { "@type": "HowToStep", "name": "Oda özellik matrisi çıkar", "text": "Oda bazlı özellik haritası (feature inventory) oluşturarak gerçek envanteri görünür yapın." },
+        { "@type": "HowToStep", "name": "PMS/CM readiness kontrol et", "text": "Feature-level envanter ve fiyatlamayı destekleyip desteklemediğini doğrulayın; mapping testi yapın." },
+        { "@type": "HowToStep", "name": "UX’i sadeleştir", "text": "2–3 önerilen paket ve net fayda açıklamalarıyla seçenek karmaşasını azaltın." },
+        { "@type": "HowToStep", "name": "KPI ile pilot ölç", "text": "Attach rate, net ADR ve dönüşümü 14–30 gün pilotla ölçüp ölçekleme kararını verin." }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da OTA’larda Attribute Based Selling (ABS) ve Oda Özelliği Bazlı Fiyatlama", "item": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Attribute based selling (ABS) nedir, oteller ve OTA’lar için ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ABS, oda tipinden çok oda özelliklerini (balkon, manzara, esneklik) satma yaklaşımıdır. Oteller için ölçülebilir upsell ve net ADR potansiyeli, OTA’lar için daha kişiselleştirilebilir seçim deneyimi anlamına gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2026’da OTA’larda oda özelliği bazlı fiyatlama nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir oda tipini seçmek yerine özellikleri görüp paket oluşturur; özellikler ayrı fiyatlanır. Otel tarafında PMS ve kanal yöneticisinin feature-level envanter/fiyatlamayı desteklemesi gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ABS gelirimi artırır mı yoksa misafiri karıştırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru kurguda (sınırlı özellik, önerilen paket, net açıklama) gelir artışı mümkün; yanlış kurguda seçenek karmaşası dönüşümü düşürebilir. Pilot ve KPI ile ölçerek ilerlemek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ABS için PMS ve kanal yöneticisini nasıl hazırlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda bazlı özellik matrisi çıkarıp mapping’i doğrulayın, feature-level destek var mı kontrol edin ve test rezervasyonlarıyla doğrulayın. Değişiklik log’u ve SOP ile operasyon riskini yönetin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }
