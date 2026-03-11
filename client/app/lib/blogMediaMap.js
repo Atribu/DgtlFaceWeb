@@ -16625,6 +16625,158 @@ export const BLOG_MEDIA_MAP = {
       alt: "Oda özellik matrisi + pilot plan çıktıları, otel operasyon bağlamı",
       caption: "Oda özellik matrisi + pilot plan çıktıları, otel operasyon bağlamı"
     }
+  },
+
+
+  "2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-1.webp",
+      alt: "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?",
+      caption: "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-2.webp",
+      alt: "Rozet→filtre→tercih zinciri, amaç: karar modeli, otel bağlamı",
+      caption: "Rozet→filtre→tercih zinciri, amaç: karar modeli, otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-3.webp",
+      alt: "ESG filtre etkisi haritası, amaç: hızlı özet, otel bağlamı",
+      caption: "ESG filtre etkisi haritası, amaç: hızlı özet, otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-4.webp",
+      alt: "ESG kriter tablosu görseli, amaç: kriter netliği, otel bağlamı",
+      caption: "ESG kriter tablosu görseli, amaç: kriter netliği, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-5.webp",
+      alt: "Sürdürülebilirlik filtresi açık OTA sonuç mockup’ı, amaç: vitrin etkisi, otel bağlamı",
+      caption: "Sürdürülebilirlik filtresi açık OTA sonuç mockup’ı, amaç: vitrin etkisi, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-6.webp",
+      alt: "Sürdürülebilirlik hikâyesi anlatım şablonu, amaç: kopyala-uygula, otel bağlamı",
+      caption: "Sürdürülebilirlik hikâyesi anlatım şablonu, amaç: kopyala-uygula, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-7.webp",
+      alt: "Enerji/su/atık infografik, amaç: ölçülebilir anlatım, otel bağlam",
+      caption: "Enerji/su/atık infografik, amaç: ölçülebilir anlatım, otel bağlam"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-22/Hotel4-22-8.webp",
+      alt: "ESG veri sunum paketi, amaç: OTA–web–reklam uyumu, otel bağlamı",
+      caption: "ESG veri sunum paketi, amaç: OTA–web–reklam uyumu, otel bağlamı"
+    }
+  },
+
+
+  "2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-1.webp",
+      alt: "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?",
+      caption: "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-2.webp",
+      alt: "Sinyal→tıklama→dönüşüm döngüsü, amaç: KPI mantığı, otel bağlamı",
+      caption: "Sinyal→tıklama→dönüşüm döngüsü, amaç: KPI mantığı, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-3.webp",
+      alt: "AI sıralama etkisi haritası, amaç: ne değişiyor, otel bağlamı",
+      caption: "AI sıralama etkisi haritası, amaç: ne değişiyor, otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-4.webp",
+      alt: "Sinyal ağırlıkları şeması, amaç: fiyat/puan/fotoğraf, otel bağlamı",
+      caption: "Sinyal ağırlıkları şeması, amaç: fiyat/puan/fotoğraf, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-5.webp",
+      alt: "AI destekli dinamik listeleme mockup, amaç: kişiselleştirme, otel bağlamı",
+      caption: "AI destekli dinamik listeleme mockup, amaç: kişiselleştirme, otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-6.webp",
+      alt: "AI-ready profil checklist’i, amaç: hızlı uygulama, otel bağlamı",
+      caption: "AI-ready profil checklist’i, amaç: hızlı uygulama, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-7.webp",
+      alt: "Sinyal KPI paneli, amaç: puan/fotoğraf/esneklik, otel bağlamı",
+      caption: "Sinyal KPI paneli, amaç: puan/fotoğraf/esneklik, otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-23/Hotel4-23-8.webp",
+      alt: "AI sinyal güçlendirme aksiyon kartları, amaç: 3 hızlı iyileştirme, otel bağlamı",
+      caption: "AI sinyal güçlendirme aksiyon kartları, amaç: 3 hızlı iyileştirme, otel bağlamı"
+    }
+  },
+
+  "2026-ota-abonelik-ve-uyelik-modelleri":{
+    banner: {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-1.webp",
+      alt: "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?",
+      caption: "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-2.webp",
+      alt: "Hybrid model özeti, amaç: OTA görünürlük + direct sadakat, otel bağlamı",
+      caption: "Hybrid model özeti, amaç: OTA görünürlük + direct sadakat, otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-3.webp",
+      alt: "2026 trend etkisi, amaç: platform stickiness, otel bağlam",
+      caption: "2026 trend etkisi, amaç: platform stickiness, otel bağlam"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-4.webp",
+      alt: "OTA vs otel sadakat tablosu, amaç: kıyas, otel bağlamı",
+      caption: "OTA vs otel sadakat tablosu, amaç: kıyas, otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-5.webp",
+      alt: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı”",
+      caption: "Hybrid model mini diyagram, amaç: yaşam döngüsü, otel bağlamı”"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-6.webp",
+      alt: "Hybrid karar checklist’i, amaç: kopyala-uygula, otel bağlamı",
+      caption: "Hybrid karar checklist’i, amaç: kopyala-uygula, otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-7.webp",
+      alt: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı”",
+      caption: "Member rate KPI paneli, amaç: net ADR + direct pay, otel bağlamı”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel4-24/Hotel4-24-8.webp",
+      alt: "3 strateji kartı, amaç: karar senaryoları, otel bağlamı",
+      caption: "3 strateji kartı, amaç: karar senaryoları, otel bağlamı"
+    }
   }
   
 

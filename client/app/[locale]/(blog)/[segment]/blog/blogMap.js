@@ -412,7 +412,10 @@ export const BLOG_MAP = {
     "ota-yonetiminde-satis-revenue-ve-pazarlama-ekiplerinin-isbirligi":"BlogOtaYonetimindeSatisRevenueVePazarlamaEkiplerininIsbirligi",
     "ota-stratejisi-otel-tur-tiplerine-gore-nasil-farklilasir":"BlogOtaStratejisiOtelTurTiplerineGoreNasilFarklilasir",
     "yillik-ota-strateji-ve-audit-yol-haritasi":"BlogYillikOTAStratejiVeAuditYolHaritasi",
-    "2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":"Blog2026OTAAttributeBasedSellingOdaOzelligiFiyatlama"
+    "2026-ota-attribute-based-selling-oda-ozelligi-fiyatlama":"Blog2026OTAAttributeBasedSellingOdaOzelligiFiyatlama",
+    "2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri":"Blog2026OTAESGEkoEtiketVeSurdurulebilirlikFiltreleri",
+    "2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama":"Blog2026YapayZekaIleOTAKisisellestirmeVeSiralama",
+    "2026-ota-abonelik-ve-uyelik-modelleri":"Blog2026OTAAbonelikVeUyelikModelleri"
   }
 };
 

@@ -41469,6 +41469,478 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri",
+      "name": "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri",
+      "headline": "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?",
+      "name": "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?",
+      "description": "2026’da OTA sürdürülebilirlik filtreleri seçim kriteri oluyor. Ölçülebilir aksiyonları şeffaf anlatın, greenwashing riskini azaltın; OTA–web–reklam uyumuyla görünürlük ve tercihi güçlendirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Sustainability" },
+        { "@type": "Thing", "name": "ESG" },
+        { "@type": "Thing", "name": "Eco-Labels" },
+        { "@type": "Thing", "name": "OTA Filters" },
+        { "@type": "Thing", "name": "Certification" },
+        { "@type": "Thing", "name": "Energy/Water/Waste" },
+        { "@type": "Thing", "name": "Guest Preference" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#howto",
+      "name": "OTA Profilinde ESG Anlatımı: 5 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "4 başlık standardı kur",
+          "text": "Enerji, su, atık ve yerel iş birliği başlıklarında aksiyonlarınızı tek formatta toplayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Her iddiayı kanıta bağla",
+          "text": "Her sürdürülebilirlik iddiasına ölçüm/veri veya doğrulama notu ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sertifika bilgisini şeffaf yaz",
+          "text": "Sertifika kapsamını ve güncellik/validite notunu net şekilde belirtin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Greenwashing riskini azalt",
+          "text": "Mutlak iddialardan kaçının; kapsamı net ve anlaşılır biçimde yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kanal uyumunu sağla",
+          "text": "OTA–web–sosyal–reklam mesajını aynı ESG sözlüğü ve veri setiyle hizalayın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "2026’da OTA ESG / Eko Etiket ve Sürdürülebilirlik Filtreleri Otelleri Nasıl Etkileyecek?",
+          "item": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-esg-eko-etiket-ve-surdurulebilirlik-filtreleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da OTA’lardaki ESG ve eko etiketler otelleri nasıl etkileyecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rozetler ve sürdürülebilirlik filtreleri görünürlük ve tercih üzerinde daha doğrudan etkili olacak. Filtre açıkken listede kalmak için gerçek ve doğrulanabilir aksiyonlar gerekir; anlatım zayıfsa fırsat kaçabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sürdürülebilirlik filtresi açıkken listede kalmak için neler yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enerji/su/atık/yerel iş birliği aksiyonlarınızı ölçülebilir şekilde yazın, sertifika/etiket bilgilerini güncel tutun ve OTA profilini web/sosyal mesajla tutarlı hale getirin. Kanıt dili kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Greenwashing yapmadan OTA profilinde sürdürülebilirlik hikâyemi nasıl anlatırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mutlak iddialardan kaçının; kapsamı net yazın ve her iddiaya en az bir ölçüm/kanıt ekleyin. 4 başlık standardı (enerji/su/atık/yerel) ile kısa, anlaşılır metin kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ESG verilerini OTA, web ve reklam tarafında nasıl birleştirebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek bir ESG sözlüğü oluşturup tüm kanallarda aynı veri/ifadeleri kullanın. KPI panelinde filtreli görünürlük, pazar bazlı dönüşüm ve yorum temalarını izleyerek mesajı düzenli güncelleyin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama",
+      "name": "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama",
+      "headline": "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?",
+      "name": "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?",
+      "description": "2026’da OTA sıralamalarında sadece fiyatla değil; puan, fotoğraf, sürdürülebilirlik ve iptal esnekliği gibi sinyalleri güçlendirerek yapay zekâ tabanlı kişiselleştirilmiş listelerde avantaj kazanın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#webpage"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "AI Ranking" },
+        { "@type": "Thing", "name": "Personalization" },
+        { "@type": "Thing", "name": "Signals" },
+        { "@type": "Thing", "name": "Reviews & Photos" },
+        { "@type": "Thing", "name": "Flexibility" },
+        { "@type": "Thing", "name": "Hotel Profile" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [ "Antalya", "Belek", "Side", "Kemer", "Bodrum" ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#howto",
+      "name": "AI-Ready OTA Profil: 5 Sinyal Adımı",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Puan ve yorum sinyalini güçlendir",
+          "text": "Yorumları tema bazında etiketleyin, kök nedenleri kapatın ve 24–48 saat yanıt SLA uygulayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Fotoğraf akışını karar akışına çevir",
+          "text": "İlk 10 fotoğrafı kapak→oda→banyo→yemek→deneyim→kanıt sırasıyla düzenleyin ve tekrarları azaltın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Politika netliği ve esneklik portföyü kur",
+          "text": "Flex/semi/nonref portföyünü çekirdek/omuz gün ayrımıyla yönetin ve politika metnini kısa/nete indirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sürdürülebilirlik sinyalini kanıtla",
+          "text": "Enerji/su/atık/yerel aksiyonları ölçülebilir ve şeffaf biçimde OTA profiline ekleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI ile 14–30 gün test et",
+          "text": "CTR, dönüşüm, net ADR ve iptal/no-show KPI’larıyla ölçüp aksiyonları optimize edin."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "2026’da Yapay Zekâ ile OTA Kişiselleştirme ve Sıralama Otelleri Nasıl Etkileyecek?",
+          "item": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ile-ota-kisisellestirme-ve-siralama",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da OTA sıralamaları yapay zekâ ile nasıl şekillenecek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kullanıcının davranış sinyalleri (arama, tıklama, filtre) ile otelin sinyalleri (puan, fotoğraf, politika, sürdürülebilirlik) birleşerek kişiselleştirilmiş sıralamalar oluşturacak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat dışında hangi sinyaller otel görünürlüğünü etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puan/yorum tazeliği, fotoğraf kalitesi, iptal esnekliği ve politika netliği, sürdürülebilirlik rozetleri ve profil tutarlılığı öne çıkan sinyallerdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI tabanlı OTA sıralamasında öne çıkmak için profilimi nasıl güçlendirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorum temalarını operasyonla kapatıp puanı stabilize edin, fotoğraf akışını karar akışına göre düzenleyin, politika metnini netleştirin ve sürdürülebilirlik iddialarını kanıta bağlayın. KPI ile test ederek ilerleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yapay zekâya bağımlı sıralama modelinin riskleri nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Algoritma değişimleriyle ani görünürlük kayması, indirim maliyetiyle sıralama kovalamak ve zayıf sinyallerin (fotoğraf/yorum/mapping) hızlı negatif etki üretmesidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Algoritma şeffaf değilse neyi kontrol edebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kontrol edebildiğiniz sinyallere odaklanın: profil netliği, fotoğraf, yorum/puan, politika, sürdürülebilirlik anlatımı ve ölçüm KPI’ları. Sonuçları OTA raporlarıyla izleyip optimize edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-ota-abonelik-ve-uyelik-modelleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dgtlface.com/#organization",
+      "name": "DGTLFACE",
+      "url": "https://dgtlface.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri",
+      "name": "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#article",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri",
+      "headline": "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?",
+      "name": "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?",
+      "description": "OTA abonelik/üyelik indirimleri 2026’da güçleniyor. Member rate’in net ADR ve direct sadakat üzerindeki etkisini ölçün; OTA görünürlük + otel sadakati hybrid denge ile kârlılığı koruyun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#webpage" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA Loyalty" },
+        { "@type": "Thing", "name": "Subscription" },
+        { "@type": "Thing", "name": "Hotel Loyalty Programme" },
+        { "@type": "Thing", "name": "Member Rate" },
+        { "@type": "Thing", "name": "Rate Parity" },
+        { "@type": "Thing", "name": "Direct Booking" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/ota-yonetimi#service",
+      "name": "OTA Yönetimi (Hotel OTA)",
+      "serviceType": "Hotel OTA Management",
+      "url": "https://dgtlface.com/tr/otel/ota-yonetimi",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": ["Antalya", "Belek", "Side", "Kemer", "Bodrum"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#howto",
+      "name": "Hybrid Sadakat Dengesi Kurma: 5 Adım",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Member rate kapsamını sınırla",
+          "text": "Üyelik indirimini seçili oda/tarih ve 14–30 günlük test penceresiyle sınırlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Net ADR filtresi kur",
+          "text": "Komisyon ve promosyon sonrası net ADR’yi ana KPI yapıp indirim maliyetini görünür kılın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Direct sadakat fayda paketini yaz",
+          "text": "Fiyat değil; esnek iptal, upgrade talebi, üyelik değeri gibi faydalarla direct’i güçlendirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sezon/pazar matrisi oluştur",
+          "text": "Pik/omuz/düşük sezon ve hedef pazarlara göre OTA üyelik kararını (aç/kapat/test) yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kapatma kriteri belirle",
+          "text": "Net ADR düşüşü veya direct pay zayıflaması gibi eşiklerle programı revize edin ya da kapatın."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Anasayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel" },
+        { "@type": "ListItem", "position": 3, "name": "OTA Yönetimi (Hotel OTA)", "item": "https://dgtlface.com/tr/otel/ota-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da OTA Abonelik ve Üyelik Modelleri Oteller İçin Ne Anlama Geliyor?", "item": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri#faq",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-ota-abonelik-ve-uyelik-modelleri",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "2026’da OTA abonelik ve üyelik modelleri oteller için ne ifade ediyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OTA’lar üyelik/abonelikle misafiri platformda tutarken oteller için görünürlük fırsatı ve direct sadakat üzerinde baskı oluşturur. Karar net ADR ve direct pay KPI’larıyla verilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA sadakat programlarına dahil olmak mantıklı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sezon ve pazara bağlıdır. Omuz/düşük sezonda sınırlı test faydalı olabilir; pik sezonda gereksiz indirim maliyeti yaratabilir. Net ADR ve iptal/no-show ile ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA üyelik indirimleri direct fiyatları ve sadakati nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Member rate misafiri OTA’da tutup direct pay’ı azaltabilir. Direct tarafta fiyatla yarışmak yerine fayda ve üyelik değerini görünür kılmak daha sürdürülebilirdir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve otel sadakat programlarını nasıl dengelemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hybrid model kurun: OTA’yı yeni misafir girişi ve görünürlük için, otel sadakatini tekrar rezervasyon ve kârlılık için konumlandırın. Member rate’i test ve eşiklerle yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "En büyük risk nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Net ADR erozyonu ve direct repeat’in zayıflamasıdır. Kapatma kriteri ve KPI paneli olmadan üyelik indirimlerini kalıcı açmak maliyetli olabilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     }
