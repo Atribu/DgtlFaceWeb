@@ -42719,6 +42719,650 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"cok-otelli-yapilarda-pms-entegrasyon-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi",
+      "name": "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#primaryimage",
+        "url": "https://dgtlface.com/photos/cok-otelli-yapilarda-pms-entegrasyon-mimarisi-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "Grup ve zincir otellerde PMS entegrasyon mimarisini doğru kurun: tek PMS mi çok PMS mi, rol/raporlama tasarımı ve OTA/kanal entegrasyonuyla ölçeklenebilir yönetim modeli oluşturun."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#webpage" },
+      "headline": "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası",
+      "name": "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "Multi-property PMS mimarisi; otel grubunun tek PMS–çok tesis veya tesis bazlı PMS seçeneklerinden birini seçip rol/raporlama ve OTA/kanal entegrasyonunu bu mimariye göre standardize ederek grup görünürlüğü ile tesis esnekliğini birlikte yönetmesini sağlar.",
+      "about": [
+        { "@type": "Thing", "name": "Hotel Group" },
+        { "@type": "Thing", "name": "Property" },
+        { "@type": "Thing", "name": "PMS Instance" },
+        { "@type": "Thing", "name": "Central Office" },
+        { "@type": "Thing", "name": "Property-Level User" },
+        { "@type": "Thing", "name": "Group Report" },
+        { "@type": "Thing", "name": "Channel Manager" }
+      ],
+      "keywords": [
+        "multi property pms entegrasyon",
+        "grup otel pms mimarisi",
+        "zincir oteller icin pms raporlama",
+        "multi property hotel pms architecture",
+        "group hotels pms reporting"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "Çok Otelli PMS Mimari ve Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası", "item": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Grup ve zincir oteller için PMS entegrasyonu nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce mimari model seçilir (tek PMS–çok tesis mi, tesis bazlı PMS mi), sonra rol/raporlama ve entegrasyon standardı bu modele göre tasarlanır. KPI sözlüğünün tek dilde olması ve tesis esnekliğinin kural setiyle yönetilmesi kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tek PMS ile çok otel mi, her otel için ayrı PMS mi daha doğru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Benzer tesislerde tek PMS rapor ve standardizasyon avantajı sağlar; farklı segment/destinasyon ve regülasyon çeşitliliğinde tesis bazlı PMS esneklik sunar. Çok PMS seçilirse grup raporu için BI katmanı zorunlu hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup seviyesinde doluluk ve gelir raporu nasıl alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI tanımlarını (doluluk/ADR/RevPAR/kanal payı) grup sözlüğüyle kilitleyip veriyi aynı sınıflandırmayla toplamalısınız. Yönetim panelinde grup trendleri ve tesis karşılaştırmaları ayrı katmanlarda gösterilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok otelli yapılarda OTA ve kanal entegrasyonu nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mapping ve rate plan/oda tipi sözlüğü grup standardı olmalı; tesis bazlı kurallar (min-stay/stop-sale) modüler yönetilmelidir. Entegrasyon logları ve SLA’lar merkezi izlenebilir olmalıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/cok-otelli-yapilarda-pms-entegrasyon-mimarisi#howto",
+      "name": "Çok Otelli PMS Entegrasyon Mimarisi Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Hedef ve KPI sözlüğünü kilitleyin",
+          "text": "Grup raporu hedeflerini ve KPI tanımlarını tek dilde belirleyin; oda tipi, kanal ve rate plan sözlüğünü standardize edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mimari modeli seçin ve sınırları yazın",
+          "text": "Tek PMS–çok tesis veya tesis bazlı PMS modelini operasyon farklılığı, rapor ihtiyacı ve regülasyon kriterleriyle seçin; tesis esnekliği alanlarını kural seti olarak tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Rol/erişim ve entegrasyon standardını kurun",
+          "text": "Property ve departman bazlı rolleri tasarlayın; mapping/log/SLA standartlarını yazın ve merkezi izleme mekanizması kurun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "BI paneli ve senaryo bazlı yönetimi devreye alın",
+          "text": "Grup trendleri ve tesis karşılaştırmalarını dashboard’ta katmanlayın; farklı destinasyon/segment senaryolarıyla karar çerçevesini işletin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-crm-ve-misafir-yasam-dongusu-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu",
+      "name": "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS verisini CRM’e doğru alanlarla taşıyarak misafir yaşam döngüsünü (pre/in/post-stay) yönetin; segment bazlı kampanya ve sadakatle OTA misafirini direct rezervasyona dönüştürün."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#webpage" },
+      "headline": "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?",
+      "name": "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–CRM entegrasyonu; PMS’te oluşan rezervasyon/konaklama/harcama verisini CRM’e taşıyarak segmentasyon, kampanya ve sadakat kurgusunu güçlendiren, OTA misafirini direct rezervasyona yönlendiren ve campaign→booking ölçümüyle optimizasyon sağlayan yaşam döngüsü modelidir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Guest Profile" },
+        { "@type": "Thing", "name": "Stay History" },
+        { "@type": "Thing", "name": "Spend" },
+        { "@type": "Thing", "name": "Segment" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Loyalty Tier" }
+      ],
+      "keywords": [
+        "pms crm entegrasyonu",
+        "misafir yasam dongusu ve sadakat",
+        "ota misafirini direct rezervasyon musterisina donusturme",
+        "hotel pms crm integration",
+        "guest lifecycle hotel loyalty"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + CRM Entegrasyon ve Misafir Yaşam Döngüsü Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?", "item": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ve CRM entegrasyonu oteller için ne kazandırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir verisini pre/in/post-stay boyunca yönetmenizi sağlar; segment bazlı kampanyalar ve sadakat kurgusuyla tekrar konaklamayı ve direct rezervasyon payını artırma zemini oluşturur. Kampanya etkisi PMS rezervasyonlarına bağlandığında optimizasyon hızlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS’ten CRM’e hangi veriler aktarılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir kimliği (ID/e-posta/telefon), rezervasyon ve konaklama geçmişi, kanal bilgisi ve harcama/tercih sinyalleri aktarılmalıdır. İzin ve iletişim tercihleri CRM’de tutulmalı; KVKK veri minimizasyonu uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir yaşam döngüsü PMS + CRM ile nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay’de bilgilendirme/upsell, in-stay’de deneyim ve servis iyileştirme, post-stay’de teşekkür/yorum/yeniden rezervasyon akışları kurgulanır. PMS olay verisi CRM aksiyonlarını tetikler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CRM kampanyalarının PMS’teki rezervasyonlara etkisi nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya ID’si ve misafir/rezervasyon anahtarlarıyla CRM olayları PMS rezervasyonuna bağlanır. Direct pay, tekrar konaklama ve gelir KPI’ları kampanya öncesi/sonrası kıyaslanır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-crm-ve-misafir-yasam-dongusu-entegrasyonu#howto",
+      "name": "PMS + CRM ile Misafir Yaşam Döngüsü Yönetimi Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Rol dağılımı ve veri minimizasyonunu belirleyin",
+          "text": "PMS’in operasyon, CRM’in izin/iletişim ve kampanya rolünü netleştirin; PMS’ten CRM’e sadece gerekli alanları aktaracak veri minimizasyonu listesi oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "PMS→CRM alan eşleştirmesi ve kimlik anahtarını kurun",
+          "text": "Misafir ID/e-posta/telefon ve rezervasyon ID anahtarlarıyla eşleştirme yapın; kanal sınıflandırmasını standardize edin ve mapping tablosunu test edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pre/in/post-stay akışlarını segment bazlı kurgulayın",
+          "text": "Repeat, aile, luxury gibi segmentlere uygun pre-stay upsell, in-stay deneyim ve post-stay yeniden rezervasyon kampanyalarını tasarlayın; sadakat katmanlarını direct’e bağlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Campaign→booking ölçümünü kurup optimize edin",
+          "text": "Kampanya ID’lerini PMS rezervasyonlarına bağlayın; direct pay, tekrar konaklama ve kampanya dönüşüm KPI’larını dashboard’ta izleyip iteratif iyileştirin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-pos-fb-ve-spa-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu",
+      "name": "PMS + POS, F&B ve Spa Entegrasyonu: Oda Dışı Geliri Tek Panelde Görmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-pos-fb-ve-spa-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "POS, F&B ve spa harcamalarını PMS’e bağlayarak tek folyo ve tek raporda oda dışı geliri görünür kılın; segment bazlı analizle cross-sell/upsell stratejilerinizi veriye dayalı güçlendirin."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#webpage" },
+      "headline": "PMS + POS, F&B ve Spa Entegrasyonu: Oda Dışı Geliri Tek Panelde Görmek",
+      "name": "PMS + POS, F&B ve Spa Entegrasyonu: Oda Dışı Geliri Tek Panelde Görmek",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–POS/F&B/Spa entegrasyonu; restoran, bar, spa ve ekstra hizmet harcamalarını doğru folyo anahtarlarıyla PMS’e aktararak tek folyo ve tek rapor üretir, segment bazlı ancillary gelir analizini mümkün kılar ve cross-sell/upsell kararlarını veriye dayalı hızlandırır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "POS" },
+        { "@type": "Thing", "name": "Restaurant" },
+        { "@type": "Thing", "name": "Bar" },
+        { "@type": "Thing", "name": "Spa" },
+        { "@type": "Thing", "name": "Extra Services" },
+        { "@type": "Thing", "name": "Folio" },
+        { "@type": "Thing", "name": "Ancillary Revenue" },
+        { "@type": "Thing", "name": "Segment" }
+      ],
+      "keywords": [
+        "pms pos spa entegrasyonu",
+        "oda disi gelir raporlama",
+        "ancillary revenue ve cross sell analizleri",
+        "hotel pms pos integration",
+        "room folio extra charges reporting"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + POS/F&B/Spa Entegrasyon ve Oda Dışı Gelir Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS + POS, F&B ve Spa Entegrasyonu: Oda Dışı Geliri Tek Panelde Görmek", "item": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "POS ve F&B sistemleri PMS’e nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "POS’taki charge’lar oda/misafir/folyo anahtarlarıyla PMS’e aktarılır ve outlet bazında sınıflandırılır. Vergi/döviz/saat ayarları uyumlu olmalı; void/refund işlemleri de entegrasyon kapsamına dahil edilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oda dışı gelirler PMS’te nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Harcamalar tek folyo ve tek raporda outlet (restoran/bar/spa) bazında toplanır; misafir, oda ve segment kırılımlarıyla analiz edilir. Ancillary pay ve trendler dashboard üzerinden izlenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Spa ve ekstra hizmetler PMS folyosuna nasıl işlenmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Spa/ekstra hizmet charge’ları doğru misafir/odaya bağlanmalı, iptal/iade durumları net görünmelidir. Real-time veya batch model seçilerek end-of-day kapanışıyla tutarlılık sağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Segment bazlı oda dışı gelir analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment sözlüğü oluşturulur (aile/çift/luxury/repeat/OTA vs direct) ve outlet bazlı harcamalar bu segmentlere dağıtılır. Segment × harcama matrisi ve KPI paneli ile fırsatlar (cross-sell/upsell) belirlenir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-pos-fb-ve-spa-entegrasyonu#howto",
+      "name": "PMS ile POS/F&B/Spa Entegrasyonu Kurma ve Oda Dışı Geliri Yönetme",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Outlet/charge sözlüğü ve folyo modelini belirleyin",
+          "text": "Restoran, bar, spa ve ekstra hizmet charge kodlarını standardize edin; oda/misafir/grup folyo kurallarını yazın ve linkage anahtarını (folio ID) kilitleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Entegrasyon akışını ve teknik uyumu kurun",
+          "text": "Vergi/döviz/saat ayarlarını eşitleyin; real-time veya batch model seçin; offline senaryoları ve void/refund akışını test ederek veri kaybını önleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "End-of-day mutabakat ve raporlama panelini oluşturun",
+          "text": "POS totals ile PMS folyo totals mutabakatını SOP’a bağlayın; outlet ve segment bazlı ancillary raporları dashboard’ta görünür kılın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Cross-sell/upsell stratejisini ölçüp optimize edin",
+          "text": "Segment × harcama matrisiyle fırsatları belirleyin; hedefli tekliflerle kişi başı geliri artırın ve ancillary pay/TRevPAR trendlerini düzenli izleyin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-muhasebe-ve-erp-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu",
+      "name": "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-muhasebe-ve-erp-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS gelir kodlarını ERP hesap planına eşleştirerek fatura/fiş akışını otomatikleştirin; döviz, vergi ve OTA komisyonlarını doğru yansıtıp PMS–finans rapor farklarını azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#webpage" },
+      "headline": "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi",
+      "name": "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS–ERP entegrasyonu; PMS gelir kodlarını hesap planına map’leyip fatura ve muhasebe fişlerini otomatik/yarı otomatik üreten, döviz–vergi–OTA komisyonu etkilerini tutarlı yansıtan ve PMS gelir raporu ile ERP finans raporu arasındaki farkları mutabakat süreciyle kontrol eden finans köprüsüdür.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "ERP/Accounting System" },
+        { "@type": "Thing", "name": "Revenue Code" },
+        { "@type": "Thing", "name": "Account Chart" },
+        { "@type": "Thing", "name": "Invoice" },
+        { "@type": "Thing", "name": "Tax" },
+        { "@type": "Thing", "name": "Currency" },
+        { "@type": "Thing", "name": "Commission" }
+      ],
+      "keywords": [
+        "pms muhasebe entegrasyonu",
+        "gelir kodlari ve hesap plani",
+        "ota komisyon vergilendirme ve raporlama",
+        "hotel pms accounting integration",
+        "map pms revenue to chart of accounts"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Muhasebe/ERP Entegrasyon ve Gelir Eşleştirme Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi", "item": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ile muhasebe/ERP entegrasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS gelir kodları ERP hesap planına map’lenir, fatura/fiş üretim kuralları tanımlanır ve veri PMS→ERP akışında post edilir. Döviz, vergi ve komisyon kuralları netleştirilir; mutabakat raporu ile PMS ve ERP farkları kontrol edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS gelir kalemleri muhasebe hesap planıyla nasıl eşleştirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oda, F&B, spa ve diğer gelir kodları departman bazında sınıflandırılır ve ERP’de karşılık gelen gelir hesaplarına bağlanır. İndirim/komp ve komisyon gibi kalemler ayrı izlenir; mapping dokümanı versiyonlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA komisyonları ve vergiler finansal kayıtlara nasıl yansıtılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Komisyon için net/brüt model seçilir ve ERP’de standart hesaplara bağlanır; vergi oranları gelir kodlarına göre uygulanır. Kuruma özel mali/vergi yorumları için mali müşavir veya finans danışmanına başvurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS gelir raporu ile muhasebe raporu neden tutmayabilir, nasıl düzeltilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mapping hatası, net/brüt model karışıklığı, kur anı farklılığı, vergi oranı farkı veya geç gelen kayıtlar en yaygın nedenlerdir. Mutabakat raporu ile farklar sınıflandırılır ve SOP ile düzeltilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-muhasebe-ve-erp-entegrasyonu#howto",
+      "name": "PMS + Muhasebe/ERP Entegrasyonu Kurma ve Raporları Uyumlu Hale Getirme",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Gelir kodu sözlüğü ve hesap planı mapping’i oluşturun",
+          "text": "PMS gelir kodlarını departman bazında sınıflandırın; ERP hesap planındaki karşılıklarını belirleyip mapping tablosunu tek kaynak olarak kilitleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Fatura/fiş akışı ve istisna kurallarını tanımlayın",
+          "text": "Otomatik ve yarı otomatik fiş üretim noktalarını (EOD/checkout) belirleyin; iade/void ve kurumsal fatura istisnalarını onay ve log ile yönetin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Döviz–vergi–komisyon standartlarını netleştirin",
+          "text": "Kur anı ve kur kaynağını PMS/ERP’de aynılaştırın; vergi oranlarını gelir kodlarına bağlayın; komisyon için net/brüt model seçip rapor dilini kilitleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mutabakat raporu ile kapanışı hızlandırın",
+          "text": "PMS toplam gelirlerini ERP post edilen fişlerle günlük/haftalık karşılaştırın; farkları sınıflandırıp SOP ile düzeltin ve kapanış süresini KPI olarak izleyin."
+        }
+      ]
+    }
+  ]
 }
 
     }

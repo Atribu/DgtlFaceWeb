@@ -17036,6 +17036,212 @@ export const BLOG_MEDIA_MAP = {
       alt: "PMS güvenlik deliverables kartı, rol ve KVKK süreçlerini netleştirir",
       caption: "PMS güvenlik deliverables kartı, rol ve KVKK süreçlerini netleştirir"
     }
+  },
+
+
+  "cok-otelli-yapilarda-pms-entegrasyon-mimarisi":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-1.webp",
+      alt: "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası",
+      caption: "Çok Otelli Yapılarda PMS Entegrasyon Mimarisi: Grup ve Zincir Oteller İçin Yol Haritası"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-2.webp",
+      alt: "Merkez ofis ve tesis veri akışını gösteren görsel, entegrasyon kararını hızlandırır",
+      caption: "Merkez ofis ve tesis veri akışını gösteren görsel, entegrasyon kararını hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-3.webp",
+      alt: "Mimari karar katmanlarını ayıran görsel, grup yönetimini standartlaştırır",
+      caption: "Mimari karar katmanlarını ayıran görsel, grup yönetimini standartlaştırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-4.webp",
+      alt: "Entegrasyon ve raporlama katmanını ayıran görsel, ölçeklenebilir kanal yönetimi sağlar",
+      caption: "Entegrasyon ve raporlama katmanını ayıran görsel, ölçeklenebilir kanal yönetimi sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-5.webp",
+      alt: "Tek PMS ve çok PMS mimari karşılaştırma şeması, doğru modeli seçmeyi kolaylaştırır",
+      caption: "Tek PMS ve çok PMS mimari karşılaştırma şeması, doğru modeli seçmeyi kolaylaştırır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-6.webp",
+      alt: "Multi-property mimari kontrol listesi kartı, rol ve raporlama kararını netleştirir",
+      caption: "Multi-property mimari kontrol listesi kartı, rol ve raporlama kararını netleştirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-7.webp",
+      alt: "Grup KPI paneli, tesis bazlı performansı tek ekranda karşılaştırır",
+      caption: "Grup KPI paneli, tesis bazlı performansı tek ekranda karşılaştırır"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-10/Hotel5-10-8.webp",
+      alt: "Multi-property mimari deliverables kartı, grup karar çerçevesini standardize eder",
+      caption: "Multi-property mimari deliverables kartı, grup karar çerçevesini standardize eder"
+    }
+  },
+
+
+
+  "pms-crm-ve-misafir-yasam-dongusu-entegrasyonu":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-1.webp",
+      alt: "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?",
+      caption: "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-2.webp",
+      alt: "Pre-stay in-stay post-stay zaman çizelgesini anlatan görsel, direct rezervasyonu artırır",
+      caption: "Pre-stay in-stay post-stay zaman çizelgesini anlatan görsel, direct rezervasyonu artırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-3.webp",
+      alt: "Misafir yaşam döngüsü katmanlarını ayıran görsel, CRM stratejisini netleştirir",
+      caption: "Misafir yaşam döngüsü katmanlarını ayıran görsel, CRM stratejisini netleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-4.webp",
+      alt: "Segmentasyon ve sadakat katmanını ayıran görsel, kampanya kurgusunu güçlendirir",
+      caption: "Segmentasyon ve sadakat katmanını ayıran görsel, kampanya kurgusunu güçlendirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-5.webp",
+      alt: "PMS→CRM veri akış diyagramı, pre-in-post stay iletişimini besler",
+      caption: "PMS→CRM veri akış diyagramı, pre-in-post stay iletişimini besler"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-6.webp",
+      alt: "Segment ve kampanya senaryoları kartı, OTA misafirini direct’e dönüştürür",
+      caption: "Segment ve kampanya senaryoları kartı, OTA misafirini direct’e dönüştürür"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-7.webp",
+      alt: " PMS+CRM KPI paneli, direct pay ve tekrar konaklamayı izler",
+      caption: " PMS+CRM KPI paneli, direct pay ve tekrar konaklamayı izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-11/Hotel5-11-8.webp",
+      alt: "PMS→CRM entegrasyon deliverables kartı, misafir verisi vizyonunu standardize eder",
+      caption: "PMS→CRM entegrasyon deliverables kartı, misafir verisi vizyonunu standardize eder"
+    }
+  },
+
+
+  "pms-pos-fb-ve-spa-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-1.webp",
+      alt: "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?",
+      caption: "PMS + CRM Entegrasyonu: Misafir Yaşam Döngüsünü Uçtan Uca Nasıl Yönetirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-2.webp",
+      alt: "Tek folyo ve tek rapor yaklaşımını gösteren görsel, muhasebe kapanışını kolaylaştırır",
+      caption: "Tek folyo ve tek rapor yaklaşımını gösteren görsel, muhasebe kapanışını kolaylaştırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-3.webp",
+      alt: "Entegrasyon katmanlarını ayıran görsel, oda dışı gelir akışını netleştirir",
+      caption: "Entegrasyon katmanlarını ayıran görsel, oda dışı gelir akışını netleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-4.webp",
+      alt: "Raporlama ve segment analizini ayıran görsel, ancillary stratejisini güçlendirir",
+      caption: "Raporlama ve segment analizini ayıran görsel, ancillary stratejisini güçlendirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-5.webp",
+      alt: "PMS–POS–Spa gelir akış diyagramı, charges’ın folyo ve rapora dönüşmesini gösterir",
+      caption: "PMS–POS–Spa gelir akış diyagramı, charges’ın folyo ve rapora dönüşmesini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-6.webp",
+      alt: "Oda dışı gelir kontrol listesi kartı, folyo ve end-of-day tutarlılığını sağlar",
+      caption: "Oda dışı gelir kontrol listesi kartı, folyo ve end-of-day tutarlılığını sağlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-7.webp",
+      alt: "Oda dışı gelir dağılım grafiği, ancillary payı görselleştirir",
+      caption: "Oda dışı gelir dağılım grafiği, ancillary payı görselleştirir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-12/Hotel5-12-8.webp",
+      alt: "Ancillary gelir entegrasyonu deliverables kartı, tek panel gelir mimarisini netleştirir",
+      caption: "Ancillary gelir entegrasyonu deliverables kartı, tek panel gelir mimarisini netleştirir"
+    }
+  },
+
+
+
+   "pms-muhasebe-ve-erp-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-1.webp",
+      alt: "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi",
+      caption: "PMS + Muhasebe / ERP Entegrasyonu: Gelir, Fatura ve Hesap Planı Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-2.webp",
+      alt: "Gelir kodu ve hesap planı eşleştirmesini anlatan görsel, kapanış süreçlerini hızlandırır",
+      caption: "Gelir kodu ve hesap planı eşleştirmesini anlatan görsel, kapanış süreçlerini hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-3.webp",
+      alt: "Entegrasyon tasarım katmanlarını ayıran görsel, finans ve operasyonu aynı dilde buluşturur",
+      caption: "Entegrasyon tasarım katmanlarını ayıran görsel, finans ve operasyonu aynı dilde buluşturur"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-4.webp",
+      alt: "Döviz vergi komisyon katmanını ayıran görsel, rapor farklarını azaltır",
+      caption: "Döviz vergi komisyon katmanını ayıran görsel, rapor farklarını azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-5.webp",
+      alt: "PMS→ERP veri akış diyagramı, fiş ve fatura otomasyonunu gösterir",
+      caption: "PMS→ERP veri akış diyagramı, fiş ve fatura otomasyonunu gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-6.webp",
+      alt: "Gelir vs finans rapor kontrol listesi kartı, mutabakat sürecini standardize eder",
+      caption: "Gelir vs finans rapor kontrol listesi kartı, mutabakat sürecini standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-7.webp",
+      alt: "PMS–ERP mutabakat KPI paneli, rapor farklarını ve kapanış hızını izler",
+      caption: "PMS–ERP mutabakat KPI paneli, rapor farklarını ve kapanış hızını izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-13/Hotel5-13-8.webp",
+      alt: "PMS–ERP entegrasyon deliverables kartı, finans ve operasyon için ortak dil oluşturur",
+      caption: "PMS–ERP entegrasyon deliverables kartı, finans ve operasyon için ortak dil oluşturur"
+    }
   }
 
   
