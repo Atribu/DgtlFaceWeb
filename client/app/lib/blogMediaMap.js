@@ -17402,7 +17402,7 @@ export const BLOG_MEDIA_MAP = {
      banner: {
       src: "/images/blog/hotel/Hotel5-17/Hotel5-17-1.webp",
       alt: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
-      caption: "PPMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
+      caption: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
     },
 
           "h1-context-02": {
@@ -17453,7 +17453,7 @@ export const BLOG_MEDIA_MAP = {
      banner: {
       src: "/images/blog/hotel/Hotel5-18/Hotel5-18-1.webp",
       alt: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
-      caption: "PPMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
+      caption: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
     },
 
           "h1-context-02": {
@@ -17497,7 +17497,111 @@ export const BLOG_MEDIA_MAP = {
       alt: "Handbook ve versiyonlama deliverables kartı, entegrasyon bilgisini kurumsallaştırır",
       caption: "Handbook ve versiyonlama deliverables kartı, entegrasyon bilgisini kurumsallaştırır"
     }
+  },
+
+
+  "pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-1.webp",
+      alt: "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?",
+      caption: "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-2.webp",
+      alt: "RFP ve kıyas matrisi yaklaşımını gösteren görsel, yanlış seçim riskini azaltır",
+      caption: "RFP ve kıyas matrisi yaklaşımını gösteren görsel, yanlış seçim riskini azaltır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-3.webp",
+      alt: "Kriter setini ayıran görsel, tedarikçi kıyasını kolaylaştırır",
+      caption: "Kriter setini ayıran görsel, tedarikçi kıyasını kolaylaştırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-4.webp",
+      alt: "Demo ve POC katmanını ayıran görsel, seçim riskini düşürür",
+      caption: "Demo ve POC katmanını ayıran görsel, seçim riskini düşürür"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-5.webp",
+      alt: "Demo ve POC sürecini özetleyen akış diyagramı, seçim riskini azaltır",
+      caption: "Demo ve POC sürecini özetleyen akış diyagramı, seçim riskini azaltır"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-6.webp",
+      alt: "Demo ve POC checklist kartı, tedarikçi değerlendirmesini standartlaştırır",
+      caption: "Demo ve POC checklist kartı, tedarikçi değerlendirmesini standartlaştırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-7.webp",
+      alt: "Tedarikçi seçim KPI kartı, POC başarı ve SLA uygunluğunu izler",
+      caption: "Tedarikçi seçim KPI kartı, POC başarı ve SLA uygunluğunu izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-19/Hotel5-19-8.webp",
+      alt: "RFP ve tedarikçi kıyas deliverables kartı, doğru vendor fit seçimini kolaylaştırır",
+      caption: "RFP ve tedarikçi kıyas deliverables kartı, doğru vendor fit seçimini kolaylaştırır"
+    }
+  },
+
+
+
+  "pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-1.webp",
+      alt: "PMS Entegrasyon Roadmap’i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?",
+      caption: "PMS Entegrasyon Roadmap’i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-2.webp",
+      alt: "Faz yaklaşımını gösteren görsel, entegrasyonların birbirini desteklemesini sağlar",
+      caption: "Faz yaklaşımını gösteren görsel, entegrasyonların birbirini desteklemesini sağlar"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-3.webp",
+      alt: "Faz yaklaşımını ayıran görsel, yol haritasını okunur kılar",
+      caption: "Faz yaklaşımını ayıran görsel, yol haritasını okunur kılar"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-4.webp",
+      alt: "Risk azaltma ve ROI katmanlarını ayıran görsel, önceliklendirmeyi netleştirir",
+      caption: "Risk azaltma ve ROI katmanlarını ayıran görsel, önceliklendirmeyi netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-5.webp",
+      alt: "6–12 aylık roadmap zaman çizelgesi, faz bağımlılıklarını gösterir",
+      caption: "6–12 aylık roadmap zaman çizelgesi, faz bağımlılıklarını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-6.webp",
+      alt: "Örnek 6–12 aylık plan kartı, faz hedeflerini özetler",
+      caption: "Örnek 6–12 aylık plan kartı, faz hedeflerini özetler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-7.webp",
+      alt: "Roadmap KPI kartı, faz bazında risk ve ROI metriklerini izler",
+      caption: "Roadmap KPI kartı, faz bazında risk ve ROI metriklerini izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-20/Hotel5-20-8.webp",
+      alt: "6–12 aylık dönüşüm deliverables kartı, minimum entegre dijital otel vizyonunu gösterir",
+      caption: "6–12 aylık dönüşüm deliverables kartı, minimum entegre dijital otel vizyonunu gösterir"
+    }
   }
+
 
   
 

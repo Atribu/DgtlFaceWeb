@@ -44166,6 +44166,328 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci",
+      "name": "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyon tedarikçisini seçmek için RFP ile gereksinim, teknik ihtiyaç ve SLA’yı netleştirin; demo ve POC ile test edip özellik–destek–roadmap–fiyat matrisiyle en iyi uyumu seçin."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#webpage" },
+      "headline": "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?",
+      "name": "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu için tedarikçi seçimi; fiyat kadar teknik yetkinlik, entegrasyon deneyimi, SLA/destek kalitesi ve ürün yol haritası uyumunu gerektirir. İyi hazırlanmış RFP, gereksinimleri standardize eder; demo ve POC aşamaları gerçek senaryoda doğrulama sağlar; kıyas matrisiyle doğru vendor fit seçme olasılığı artar.",
+      "about": [
+        { "@type": "Thing", "name": "Vendor" },
+        { "@type": "Thing", "name": "RFP" },
+        { "@type": "Thing", "name": "Requirements" },
+        { "@type": "Thing", "name": "Demo" },
+        { "@type": "Thing", "name": "POC" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Roadmap" },
+        { "@type": "Thing", "name": "Price" }
+      ],
+      "keywords": [
+        "pms tedarikci secimi ve rfp",
+        "pms demo ve poc sureci",
+        "fiyat destek ve roadmap karsilastirma",
+        "selecting hotel pms vendor",
+        "pms rfp questions"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyon Tedarikçi Seçimi ve RFP Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyonu İçin Tedarikçi Seçimi ve RFP (Teklif) Süreci: Doğru Ortağı Nasıl Bulursunuz?", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS ve entegrasyon tedarikçisi seçerken nelere bakmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknik yetkinlik, entegrasyon deneyimi, SLA/destek kalitesi, monitoring yaklaşımı, güvenlik/veri yönetimi ve ürün yol haritasına bakmalısınız. Fiyatı bu kriterlerle birlikte değerlendirmek sağlıklı olur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RFP sürecinde hangi soruları sormalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entegrasyon kapsamı, mapping/politika yönetimi, SLA metrikleri, monitoring/dash, güvenlik ve veri yaklaşımı, roadmap, referanslar ve POC planını mutlaka sorun. Yanıtları aynı formatta alıp kıyaslanabilir kılın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Demo ve POC aşamalarında nelere dikkat edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demo senaryo bazlı olmalı; mapping/politika ve support akışı gösterilmeli. POC’ta başarı kriterleri yazılı olmalı ve test ticket ile SLA pratiği denenmelidir; somut çıktı/doküman alınmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat, destek ve roadmap’i nasıl karşılaştırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ağırlıklı kıyas matrisi kullanın: kapsam uyumu, SLA/destek, monitoring, roadmap, referans, risk ve fiyatı tek tabloda puanlayın. En ucuz yerine en iyi uyumu seçin."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci#howto",
+      "name": "PMS Entegrasyon Tedarikçisi Seçimi ve RFP Süreci Yönetimi",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Gereksinimleri ve olmazsa olmazları netleştirin",
+          "text": "Kanal/OTA portföyünüzü ve entegrasyon ihtiyaçlarınızı çıkarın; tek otel veya zincir yapınıza göre kapsamı fazlara bölüp olmazsa olmaz kriterleri yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "RFP soru seti ve SLA maddelerini hazırlayın",
+          "text": "Teknik gereksinimler, mapping/politika yönetimi, monitoring, güvenlik ve ölçülebilir SLA metriklerini RFP’ye ekleyin; adaylardan aynı formatta yanıt isteyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Demo ve POC ile gerçek senaryoda doğrulayın",
+          "text": "Senaryo bazlı demo yapın; POC için başarı kriterlerini yazın ve test ticket ile SLA’yı deneyin; somut çıktı/doküman alın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kıyas matrisiyle karar verin",
+          "text": "Özellik–destek–SLA–roadmap–fiyat ve risk kriterlerini ağırlıklandırıp tek tabloda puanlayın; en iyi uyumu sağlayan tedarikçiyi seçin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum",
+      "name": "PMS Entegrasyon Roadmap'i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyonunu 6–12 aylık fazlara bölerek temel risk azaltma, gelir artırma ve otomasyon/deneyim katmanlarını sırayla devreye alın; KPI ve bütçeyle bağlı bir dijital dönüşüm roadmap’i kurun."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#webpage" },
+      "headline": "PMS Entegrasyon Roadmap'i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?",
+      "name": "PMS Entegrasyon Roadmap'i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu tek seferlik bir bağlantı işi değil; 6–12 ay boyunca faz faz ilerleyen bir otel dijital dönüşüm yolculuğudur. 0–3 ayda temel risk azaltan entegrasyonlar (OTA/kanal/web), 3–6 ayda gelir büyüten katmanlar (CRM/call center/POS/spa) ve 6–12 ayda otomasyon, BI ve dijital deneyim katmanları (revenue/BI/self check-in) devreye alınır. Her faz KPI ve bütçeyle bağlanarak yönetim sahipliği sağlanır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS Integration Roadmap" },
+        { "@type": "Thing", "name": "Digital Transformation" },
+        { "@type": "Thing", "name": "Roadmap" },
+        { "@type": "Thing", "name": "Phase" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "POS" },
+        { "@type": "Thing", "name": "BI" }
+      ],
+      "keywords": [
+        "pms entegrasyon roadmap 6 12 ay",
+        "otel dijital donusum planlama",
+        "entegrasyonlari fazlara bolmek",
+        "hotel pms integration roadmap",
+        "6 12 month digital transformation hotel"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyon Roadmap ve Dijital Dönüşüm Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyon Roadmap'i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyonunu 6–12 aylık bir yol haritasına nasıl yaymalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entegrasyonları 0–3 / 3–6 / 6–12 ay fazlarına bölün. Önce temel risk azaltma (PMS+OTA+kanal+web), sonra gelir katmanları (CRM/call center/POS), en sonda revenue+BI+dijital deneyim ile otomasyon ve görünürlük kurun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi entegrasyonlar önce, hangileri sonra yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce satış kanallarını stabilize eden entegrasyonlar yapılır (OTA/kanal/web). Sonra misafir yaşam döngüsü ve ancillary geliri büyüten katmanlar (CRM, call center, POS/spa). En sonda revenue otomasyonu ve BI/dashboard ile karar destek ve deneyim katmanları gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Roadmap’i KPI ve bütçe ile nasıl ilişkilendiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her faz için hedef KPI seti seçin (stabilite, gelir, deneyim) ve faz bütçesini bu KPI’ların etkisiyle birlikte sunun. Faz sonunda stabilizasyon ve go/no-go kriteri koyarak bütçeyi kontrollü kullanın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dijital dönüşümde PMS’in merkezi rolü nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS; rezervasyon, envanter, misafir profili ve gelir kayıtlarının merkezi olduğu için entegrasyonların omurgasıdır. Sağlam PMS omurgası olmadan CRM, BI veya dijital deneyim katmanları tutarlı çalışmaz."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum#howto",
+      "name": "6–12 Aylık PMS Entegrasyon Roadmap’i Hazırlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Fazları ve hedefleri tanımlayın",
+          "text": "0–3 ay (risk azaltma), 3–6 ay (gelir katmanları), 6–12 ay (BI/revenue/dijital deneyim) fazlarını belirleyip her fazın hedefini ve bağımlılıklarını yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "KPI seti ve bütçeyi fazlara bağlayın",
+          "text": "Her faz için ölçülebilir KPI’lar seçin ve bütçe kalemlerini bu KPI’ların beklenen etkisiyle birlikte planlayın; faz sonu go/no-go kriteri koyun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sezon ve kapasiteye göre takvimi optimize edin",
+          "text": "Sezon ortasında kritik değişiklikleri minimize edin; faz geçişlerine stabilizasyon sprint’i ekleyin ve hypercare kapasitesini planlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Aylık steering ile sahipliği koruyun",
+          "text": "Roadmap owner atayıp aylık steering toplantılarıyla ilerlemeyi ölçün; bağımlılık ve riskleri güncelleyerek yol haritasını yaşayan bir plan olarak yönetin."
+        }
+      ]
+    }
+  ]
 }
 
     }

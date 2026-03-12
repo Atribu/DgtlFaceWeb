@@ -434,7 +434,9 @@ export const BLOG_MAP = {
     "pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla":"BlogOtelPmsEntegrasyonuHataAyiklamaMonitoringVeSla",
     "pms-entegrasyon-projesinde-rol-ve-sorumluluklar":"BlogPmsEntegrasyonProjesindeRolVeSorumluluklar",
     "pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi":"BlogPmsEntegrasyonundaDegisimYonetimiVePersonelEgitimi",
-    "pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":"BlogPmsEntegrasyonDokumantasyonuVersiyonlamaVeKnowHow"
+    "pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":"BlogPmsEntegrasyonDokumantasyonuVersiyonlamaVeKnowHow",
+    "pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci":"BlogPmsEntegrasyonuIcinTedarikciSecimiVeRFPSureci",
+    "pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum":"BlogPmsEntegrasyonRoadmap612AylikDijitalDonusum"
   }
 };
 
