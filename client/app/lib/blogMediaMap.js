@@ -17242,6 +17242,261 @@ export const BLOG_MEDIA_MAP = {
       alt: "PMS–ERP entegrasyon deliverables kartı, finans ve operasyon için ortak dil oluşturur",
       caption: "PMS–ERP entegrasyon deliverables kartı, finans ve operasyon için ortak dil oluşturur"
     }
+  },
+
+  "pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-1.webp",
+      alt: "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek",
+      caption: "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-2.webp",
+      alt: "Online check-in ve oda atama adımlarını gösteren görsel, giriş sürecini hızlandırır",
+      caption: "Online check-in ve oda atama adımlarını gösteren görsel, giriş sürecini hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-3.webp",
+      alt: "Dijital check-in mimarisini ayıran görsel, akış tasarımını netleştirir",
+      caption: "Dijital check-in mimarisini ayıran görsel, akış tasarımını netleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-4.webp",
+      alt: "Güvenlik ve KVKK katmanını ayıran görsel, dijital anahtar risklerini azaltır",
+      caption: "Güvenlik ve KVKK katmanını ayıran görsel, dijital anahtar risklerini azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-5.webp",
+      alt: "PMS–dijital anahtar–kiosk entegrasyon akış diyagramı, oda atama ve anahtar üretimini gösterir",
+      caption: "PMS–dijital anahtar–kiosk entegrasyon akış diyagramı, oda atama ve anahtar üretimini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-6.webp",
+      alt: "Check-in süresini kısaltmak için 5 adım kartı, kiosk akışını optimize eder",
+      caption: "Check-in süresini kısaltmak için 5 adım kartı, kiosk akışını optimize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-7.webp",
+      alt: "Check-in süresi önce/sonra grafiği, resepsiyon yoğunluğunu azaltmayı gösterir",
+      caption: "Check-in süresi önce/sonra grafiği, resepsiyon yoğunluğunu azaltmayı gösterir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-14/Hotel5-14-8.webp",
+      alt: "Dijital check-in entegrasyonu deliverables kartı, misafir deneyimini otomatikleştirir",
+      caption: "Dijital check-in entegrasyonu deliverables kartı, misafir deneyimini otomatikleştirir"
+    }
+  },
+
+
+
+   "pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-1.webp",
+      alt: "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek",
+      caption: "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-2.webp",
+      alt: "Log, alarm ve dashboard akışını gösteren görsel, satış kaybını azaltır",
+      caption: "Log, alarm ve dashboard akışını gösteren görsel, satış kaybını azaltır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-3.webp",
+      alt: "Monitoring ve SLA katmanını ayıran görsel, entegrasyon dayanıklılığını artırır",
+      caption: "Monitoring ve SLA katmanını ayıran görsel, entegrasyon dayanıklılığını artırır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-4.webp",
+      alt: "Hata tiplerini ayıran görsel, API mapping limit ayrımını netleştirir",
+      caption: "Hata tiplerini ayıran görsel, API mapping limit ayrımını netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-5.webp",
+      alt: "Entegrasyon monitoring mimarisi diyagramı, log ve alarm katmanlarını gösterir",
+      caption: "Entegrasyon monitoring mimarisi diyagramı, log ve alarm katmanlarını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-6.webp",
+      alt: "Hata durumunda 8 adım kartı, entegrasyon kesintisini hızlı çözer",
+      caption: "Hata durumunda 8 adım kartı, entegrasyon kesintisini hızlı çözer"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-7.webp",
+      alt: "Monitoring KPI paneli, downtime ve alarm yanıt süresini izler",
+      caption: "Monitoring KPI paneli, downtime ve alarm yanıt süresini izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-15/Hotel5-15-8.webp",
+      alt: "Monitoring ve SLA deliverables kartı, entegrasyon yönetimini kurumsallaştırır",
+      caption: "Monitoring ve SLA deliverables kartı, entegrasyon yönetimini kurumsallaştırır"
+    }
+  },
+
+
+  "pms-entegrasyon-projesinde-rol-ve-sorumluluklar":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-1.webp",
+      alt: "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?",
+      caption: "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-2.webp",
+      alt: "Otel–tedarikçi–ajans iş birliği akışını gösteren görsel, proje takvimini hızlandırır",
+      caption: "Otel–tedarikçi–ajans iş birliği akışını gösteren görsel, proje takvimini hızlandırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-3.webp",
+      alt: "Rol dağılım katmanlarını ayıran görsel, proje çatışmalarını azaltır",
+      caption: "Rol dağılım katmanlarını ayıran görsel, proje çatışmalarını azaltır"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-4.webp",
+      alt: "Toplantı ritmi ve dokümantasyonu ayıran görsel, kararları hızlandırır",
+      caption: "Toplantı ritmi ve dokümantasyonu ayıran görsel, kararları hızlandırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-5.webp",
+      alt: "Otel–tedarikçi–ajans sorumluluk diyagramı, iş paketlerini netleştirir",
+      caption: "Otel–tedarikçi–ajans sorumluluk diyagramı, iş paketlerini netleştirir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-6.webp",
+      alt: "PMS entegrasyon projesi hazırlık kontrol listesi, rol ve kapsamı netleştirir",
+      caption: "PMS entegrasyon projesi hazırlık kontrol listesi, rol ve kapsamı netleştirir"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-7.webp",
+      alt: "Proje KPI paneli, takvim sapması ve açık issue sayısını izler",
+      caption: "Proje KPI paneli, takvim sapması ve açık issue sayısını izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-16/Hotel5-16-8.webp",
+      alt: "Proje governance deliverables kartı, PMS entegrasyonunu olgunlaştırır",
+      caption: "Proje governance deliverables kartı, PMS entegrasyonunu olgunlaştırır"
+    }
+  },
+
+
+  "pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-1.webp",
+      alt: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
+      caption: "PPMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-2.webp",
+      alt: "Eğitim ve destek akışını gösteren görsel, ilk sezon hatalarını azaltır",
+      caption: "Eğitim ve destek akışını gösteren görsel, ilk sezon hatalarını azaltır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-3.webp",
+      alt: "Değişim yönetimi katmanlarını ayıran görsel, eğitim planını netleştirir",
+      caption: "Değişim yönetimi katmanlarını ayıran görsel, eğitim planını netleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-4.webp",
+      alt: "Süper kullanıcı ve mentorluk katmanını ayıran görsel, adaptasyonu artırır",
+      caption: "Süper kullanıcı ve mentorluk katmanını ayıran görsel, adaptasyonu artırır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-5.webp",
+      alt: "Değişim yönetimi adım diyagramı, eğitim ve destek sürecini gösterir",
+      caption: "Değişim yönetimi adım diyagramı, eğitim ve destek sürecini gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-6.webp",
+      alt: "Süper kullanıcı rol kartı, mentorluk ve ilk hat desteği standardize eder",
+      caption: "Süper kullanıcı rol kartı, mentorluk ve ilk hat desteği standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-7.webp",
+      alt: "Eğitim KPI paneli, hata oranı ve adaptasyon hızını izler",
+      caption: "Eğitim KPI paneli, hata oranı ve adaptasyon hızını izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-17/Hotel5-17-8.webp",
+      alt: "Değişim yönetimi deliverables kartı, PMS dönüşümünü sürdürülebilir kılar",
+      caption: "Değişim yönetimi deliverables kartı, PMS dönüşümünü sürdürülebilir kılar"
+    }
+  },
+
+
+   "pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-1.webp",
+      alt: "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
+      caption: "PPMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-2.webp",
+      alt: "Akış ve mapping dokümanlarını gösteren görsel, entegrasyon hatalarını hızla buldurur",
+      caption: "Akış ve mapping dokümanlarını gösteren görsel, entegrasyon hatalarını hızla buldurur"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-3.webp",
+      alt: "Doküman türlerini ayıran görsel, bilgi tabanını düzenler",
+      caption: "Doküman türlerini ayıran görsel, bilgi tabanını düzenler"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-4.webp",
+      alt: "Versiyonlama ve change log katmanını ayıran görsel, riskleri azaltır",
+      caption: "Versiyonlama ve change log katmanını ayıran görsel, riskleri azaltır"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-5.webp",
+      alt: "Dokümantasyon klasör yapısı şeması, bilgi tabanını organize eder",
+      caption: "Dokümantasyon klasör yapısı şeması, bilgi tabanını organize eder"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-6.webp",
+      alt: "PMS entegrasyon handbook içindekiler kartı, bilgiyi devredilebilir kılar",
+      caption: "PMS entegrasyon handbook içindekiler kartı, bilgiyi devredilebilir kılar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-7.webp",
+      alt: "Dokümantasyon KPI paneli, onboarding süresi ve değişiklik sonrası hata oranını izler",
+      caption: "Dokümantasyon KPI paneli, onboarding süresi ve değişiklik sonrası hata oranını izler"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-18/Hotel5-18-8.webp",
+      alt: "Handbook ve versiyonlama deliverables kartı, entegrasyon bilgisini kurumsallaştırır",
+      caption: "Handbook ve versiyonlama deliverables kartı, entegrasyon bilgisini kurumsallaştırır"
+    }
   }
 
   

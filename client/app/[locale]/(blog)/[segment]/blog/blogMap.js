@@ -429,7 +429,12 @@ export const BLOG_MAP = {
     "pms-crm-ve-misafir-yasam-dongusu-entegrasyonu":"BlogPmsCrmVeMisafirYasamDongusuEntegrasyonu",
 
     "pms-pos-fb-ve-spa-entegrasyonu":"BlogPmsPosFbVeSpaEntegrasyonu",
-    "pms-muhasebe-ve-erp-entegrasyonu":"BlogPmsMuhasebeVeErpEntegrasyonu"
+    "pms-muhasebe-ve-erp-entegrasyonu":"BlogPmsMuhasebeVeErpEntegrasyonu",
+    "pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu":"BlogOtelPmsDijitalAnahtarSelfCheckinVeKioskEntegrasyonu",
+    "pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla":"BlogOtelPmsEntegrasyonuHataAyiklamaMonitoringVeSla",
+    "pms-entegrasyon-projesinde-rol-ve-sorumluluklar":"BlogPmsEntegrasyonProjesindeRolVeSorumluluklar",
+    "pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi":"BlogPmsEntegrasyonundaDegisimYonetimiVePersonelEgitimi",
+    "pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":"BlogPmsEntegrasyonDokumantasyonuVersiyonlamaVeKnowHow"
   }
 };
 

@@ -43363,6 +43363,809 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu",
+      "name": "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "Dijital anahtar, kiosk ve online check-in’i PMS’e entegre ederek ödeme, oda atama ve anahtar üretimini otomatikleştirin; resepsiyon kuyruklarını azaltıp misafir deneyimini hızlandırın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#webpage" },
+      "headline": "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek",
+      "name": "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS ile entegre dijital anahtar ve self check-in/kiosk çözümleri; online veri toplama, ödeme/depozito, oda atama ve anahtar üretimini tek akışta otomatikleştirerek resepsiyon kuyruklarını azaltır ve misafir deneyimini hızlandırır. Güvenlik, cihaz kimliği, şifreleme, loglama ve KVKK uyumu tasarımın parçasıdır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Digital Key" },
+        { "@type": "Thing", "name": "Kiosk" },
+        { "@type": "Thing", "name": "Online Check-in Form" },
+        { "@type": "Thing", "name": "Payment" },
+        { "@type": "Thing", "name": "Room Assignment" },
+        { "@type": "Thing", "name": "Guest Experience" }
+      ],
+      "keywords": [
+        "pms dijital anahtar self check-in entegrasyonu",
+        "kiosk ve online check-in ile hizlandirilmis giris",
+        "mobile key ve oda atama akisi",
+        "hotel pms digital key integration",
+        "self check in kiosk pms flow"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + Dijital Anahtar ve Self Check-in Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS + Dijital Anahtar, Self Check-in ve Kiosk Entegrasyonu: Konaklama Deneyimini Otomatikleştirmek", "item": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dijital anahtar ve self check-in oteller için nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir online form veya kiosk ile kimlik/ödeme adımlarını tamamlar; PMS check-in statüsünü ve oda atamasını günceller. Ardından kapı kilit sistemi dijital anahtar veya kart üretir ve erişim check-out’a kadar yönetilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS ile kiosk ve mobile key entegrasyonu nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiosk/mobile key sistemi PMS’ten rezervasyon ve oda atama bilgisi alır, ödeme/kimlik doğrulama sonrası PMS’e check-in güncellemesi yazar ve kilit sistemine anahtar üretimini tetikler. Loglama ve güvenlik bariyerleri zorunludur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Online check-in’de hangi adımlar PMS’e yazılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir kimliği için minimum gerekli alanlar, iletişim bilgileri, ödeme/depozito durumu, varış bilgisi ve check-in ön onayı PMS’e yazılabilir. KVKK onayı ve veri minimizasyonu prensibi korunmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Self check-in misafir memnuniyetini ve operasyonu nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kuyrukları azaltır, check-in süresini kısaltır ve özellikle gece gelen misafirlerde deneyimi iyileştirir. Operasyon tarafında personel rutin işlemlerden ziyade istisna yönetimine ve misafir ilişkisine odaklanır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-dijital-anahtar-self-checkin-ve-kiosk-entegrasyonu#howto",
+      "name": "PMS ile Dijital Anahtar ve Self Check-in/Kiosk Entegrasyonu Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Ön check-in veri toplama ve ödeme adımlarını tasarlayın",
+          "text": "Online form/kiosk üzerinden minimum gerekli kimlik verisini toplayın, KVKK onayını kaydedin ve ödeme/depozito başarısını check-in ön koşulu yapın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Oda atama ve check-in statüsünü PMS’te yönetin",
+          "text": "Oda atama kurallarını PMS’te tanımlayın; akışta check-in statüsünü pending→verified→checked-in şeklinde güncelleyin ve istisna senaryoları için resepsiyon fallback oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kilit sistemiyle anahtar üretimi ve revoke süreçlerini kurun",
+          "text": "Kapı kilit sistemi entegrasyonunu doğrulayın; anahtar sürelerini yönetip kayıp/iptal (revoke) akışını SOP’a bağlayın; cihaz kimliği ve şifreleme kullanın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Operasyon KPI’larıyla önce/sonra etkisini ölçün",
+          "text": "Check-in süresi, kuyruk yoğunluğu, kiosk kullanım oranı ve istisna oranını izleyin; akışı iteratif iyileştirip memnuniyet skorlarına etkisini takip edin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla",
+      "name": "PMS Entegrasyonlarında Hata Ayıklama, Monitoring ve SLA: Sorun Çıkmadan Yönetmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyonlarında loglama, alarm ve dashboard kurarak API/mapping/limit hatalarını erken yakalayın; SLA ve sistematik hata ayıklama süreciyle kesinti ve gelir kaybını azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#webpage" },
+      "headline": "PMS Entegrasyonlarında Hata Ayıklama, Monitoring ve SLA: Sorun Çıkmadan Yönetmek",
+      "name": "PMS Entegrasyonlarında Hata Ayıklama, Monitoring ve SLA: Sorun Çıkmadan Yönetmek",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyon monitoring ve SLA yaklaşımı; loglama, alarm ve dashboard ile entegrasyon sağlık durumunu sürekli izleyip API/mapping/limit kaynaklı hataları erken tespit eder. Net SLA sorumlulukları ve 8 adımlı hata ayıklama akışıyla downtime ve gelir kaybı azaltılır; RCA ile kalıcı düzeltme standardize edilir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "API" },
+        { "@type": "Thing", "name": "Log" },
+        { "@type": "Thing", "name": "Alert" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Error Type" }
+      ],
+      "keywords": [
+        "pms entegrasyon hata ayiklama ve monitoring",
+        "api ve mapping log analizi",
+        "sla ile hizmet seviyesi yonetimi",
+        "monitoring hotel pms integrations",
+        "api error handling ota pms"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyon Monitoring ve SLA Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyonlarında Hata Ayıklama, Monitoring ve SLA: Sorun Çıkmadan Yönetmek", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyonlarında en sık görülen hatalar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık hatalar API timeout/5xx, mapping (oda tipi/rate plan) bozulması ve limit/stop-sale çakışmalarıdır. Bu hatalar fiyat ve envanter akışını keser ve satışları doğrudan etkiler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Entegrasyonun sağlığını izlemek için nasıl monitoring kurmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Log standardı (info/warn/error), alarm eşikleri (başarısız push, latency, inventory anomaly) ve tek ekran dashboard kurmalısınız. Kritik alarmlar doğru ekiplere mesaj/e-posta ile gitmeli ve 7/24 eskalasyon planı olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "API ve mapping hatalarını nasıl tespit ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "API hatalarında hata kodu/timeout/latency sinyallerini, mapping hatalarında mapping_not_found ve yanlış oda tipi/rate plan eşleşmesini loglardan izleyin. Correlation ID ile örnek işlem çekip hızlı sınıflandırma yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA ve PMS sağlayıcılarıyla SLA nasıl yapılandırılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanıt/çözüm süreleri, bakım penceresi, eskalasyon kanalları, sorumluluk matrisi ve RCA teslim süresi gibi maddeler net yazılmalıdır. Kim neyi yapar matrisi olmadan çözüm süresi uzar."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonu-hata-ayiklama-monitoring-ve-sla#howto",
+      "name": "PMS Entegrasyonlarında Monitoring ve SLA Kurma, Hata Ayıklama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sağlık metrikleri, log standardı ve dashboard’u kurun",
+          "text": "API/mapping/limit hata sınıflarını tanımlayın; PII içermeyen log standardı ve correlation ID yapısı kurun; tek ekranda entegrasyon sağlığını gösteren dashboard hazırlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Alarm eşikleri ve eskalasyon kanallarını tanımlayın",
+          "text": "Başarısız push, timeout/latency ve inventory anomaly için alarm eşikleri belirleyin; kritik hatalarda e-posta/mesaj ile 7/24 eskalasyon planını devreye alın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "SLA ve sorumluluk matrisini netleştirin",
+          "text": "Otel–PMS–kanal yöneticisi–OTA taraflarında yanıt/çözüm sürelerini, bakım penceresini ve RCA teslimini yazılı hale getirip sorumluluk matrisini onaylayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "8 adım hata ayıklama ve RCA ile kalıcı düzeltme yapın",
+          "text": "Sorun olduğunda etkiyi doğrulayın, lag kontrol edin, hatayı sınıflandırın, logla örnek işlem bulun; mitigation uygulayıp eskalasyon yapın; kök neden analiziyle alarm/guardrail güncelleyin."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-entegrasyon-projesinde-rol-ve-sorumluluklar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar",
+      "name": "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyon-projesinde-rol-ve-sorumluluklar-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyon projesinde otel, tedarikçi ve ajans rollerini RACI ile netleştirerek kararları hızlandırın; haftalık toplantı ritmi ve karar kayıtlarıyla gecikme ve çatışmayı azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#webpage" },
+      "headline": "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?",
+      "name": "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu; otel ekibi, PMS tedarikçisi ve ajans/web ekibinin birlikte yürüttüğü bir proje yönetimi konusudur. RACI matrisi, toplantı ritmi ve karar kayıtlarıyla rol karmaşası azalır, gecikmeler ve çatışmalar düşer, go-live ve hypercare süreci kontrollü yönetilir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS Project Governance" },
+        { "@type": "Thing", "name": "Roles & Responsibilities" },
+        { "@type": "Thing", "name": "Hotel Team" },
+        { "@type": "Thing", "name": "PMS Vendor" },
+        { "@type": "Thing", "name": "Agency/Web Team" },
+        { "@type": "Thing", "name": "Project Manager" },
+        { "@type": "Thing", "name": "RACI" },
+        { "@type": "Thing", "name": "Meeting Rhythm" }
+      ],
+      "keywords": [
+        "pms entegrasyon proje yonetimi",
+        "otel pms tedarikci ajans rol dagilimi",
+        "raci matrisi ile pms projesi",
+        "pms integration project roles",
+        "raci matrix for hotel it projects"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyon Proje Yönetişimi ve Rol Analizi Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyon Projesinde Rol ve Sorumluluklar: Otel, Tedarikçi ve Ajans Nasıl Çalışmalı?", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyon projesinde otel ekibinin rolü ne olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otel ekibi kapsam, süreç doğrulama ve UAT onayını sahiplenmelidir. Sponsor kararları hızlandırır, PM takvimi ve aksiyonları yönetir, ana kullanıcılar süreç ve mapping doğrulamasını yapar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS sağlayıcısı ve ajans hangi işlerden sorumlu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS tedarikçisi analiz/geliştirme/entegrasyon desteği ve hata düzeltmelerini yürütür. Ajans/web ekibi web/CRM/ölçümleme gibi uç sistemlerde entegrasyon ve test desteği sağlar; sorumluluk RACI ile netleşmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "RACI matrisi PMS projelerinde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İş paketleri satır satır çıkarılır ve her satıra Responsible/Accountable/Consulted/Informed atanır. Böylece kim yapacak ve kim onaylayacak netleşir, gecikme ve çatışma azalır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Proje toplantıları ve karar kayıtları nasıl tutulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haftalık sabit ritimde kısa toplantı yapılır; aksiyonlar owner+tarih ile yazılır ve Decision Log güncellenir. Konuşulan değil karara bağlanan maddeler takip edilir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-projesinde-rol-ve-sorumluluklar#howto",
+      "name": "PMS Entegrasyon Projesinde Rol ve Sorumlulukları Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Sponsor, PM ve ana kullanıcıları atayın",
+          "text": "Otel içinde sponsor, proje yöneticisi ve departman bazlı ana kullanıcıları (FO, revenue, muhasebe vb.) resmi olarak belirleyin ve tek iletişim kapısını (PM) netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "RACI matrisi ve kapsamı kilitleyin",
+          "text": "İş paketlerini listeleyip otel–tedarikçi–ajans arasında RACI atayın; mapping ve UAT onayı gibi kritik noktalarda Accountable kişiyi netleştirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Toplantı ritmi ve karar kayıtlarını kurun",
+          "text": "Haftalık ajandayı sabitleyin; aksiyonları owner+tarih ile takip edin ve Decision Log’u tek kaynak olarak güncel tutun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Go-live ve hypercare sorumluluğunu yazın",
+          "text": "Go-live runbook ve rollback planını oluşturun; hypercare döneminde incident triage, eskalasyon ve sorumluluk paylaşımını önceden tanımlayın."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi",
+      "name": "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyonunda departman bazlı etki analizi, süper kullanıcılar ve vardiya uyumlu eğitim planı ile adaptasyonu hızlandırın; ilk sezonda destek/mentorlukla hataları azaltın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#webpage" },
+      "headline": "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
+      "name": "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu teknik olduğu kadar insan odaklı bir değişim projesidir. Departman bazlı etki analizi, süper kullanıcılar, vardiya uyumlu eğitim takvimi ve ilk sezonda güçlü destek/mentorluk modeli; adaptasyonu artırır, hataları ve direnci azaltır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Staff" },
+        { "@type": "Thing", "name": "Department" },
+        { "@type": "Thing", "name": "Training Plan" },
+        { "@type": "Thing", "name": "Super User" },
+        { "@type": "Thing", "name": "Adoption" },
+        { "@type": "Thing", "name": "Resistance" }
+      ],
+      "keywords": [
+        "pms entegrasyon degisim yonetimi",
+        "personel egitimi ve super kullanicilar",
+        "pms’e geciste insan tarafini yonetmek",
+        "pms change management hotels",
+        "train staff on new pms"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Değişim Yönetimi ve Eğitim Planı Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi: İnsan Tarafını Nasıl Yöneteceksiniz?", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyonu sırasında personel eğitimi nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce departman bazlı etki analizi yapın, ardından vardiya uyumlu 7–10 günlük eğitim takvimi oluşturun. Ön test/son test ve refresher oturumlarıyla öğrenmeyi ölçün; süper kullanıcılarla sahada destek verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi departmanlar PMS değişiminden en çok etkilenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ön büro/rezervasyon, housekeeping, revenue ve muhasebe en çok etkilenen birimlerdir; çünkü check-in/out, oda statüsü, fiyat/limit ve kapanış süreçleri doğrudan değişir. Satış ve call center da süreç ve kayıt disiplininden etkilenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Süper kullanıcı rolü nedir, nasıl seçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Süper kullanıcı, departman içinden seçilen ve ilk hat destek ile iç eğitmen rolü üstlenen kişidir. Vardiya kapsaması, iletişim becerisi ve hızlı öğrenme kriterleriyle seçilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS geçişinde personel direncini nasıl azaltırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Değişimin nedenini açık anlatın, süreci küçük adımlara bölün ve hızlı kazanımları görünür kılın. Süper kullanıcılar ve ilk sezon mentorluk/destek hattı, direnci pratik yardıma dönüştürür."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi#howto",
+      "name": "PMS Entegrasyonunda Değişim Yönetimi ve Personel Eğitimi Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Departman bazlı etki analizini çıkarın",
+          "text": "Resepsiyon, revenue, satış, housekeeping ve muhasebe için eski→yeni akış farklarını yazın; en riskli işlemleri belirleyip eğitim önceliklerini oluşturun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Vardiya uyumlu eğitim takvimini uygulayın",
+          "text": "7–10 günlük planla ön test→pratik eğitim→son test→refresher akışını kurun; video, doküman ve cheat sheet’leri tek kaynakta yayınlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Süper kullanıcı ve mentorluk modelini kurun",
+          "text": "Süper kullanıcıları seçip ileri seviye eğitin; ilk hat destek ve iç eğitmen rolünü netleştirerek sahada adaptasyonu hızlandırın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İlk sezon destek hattı ve geri bildirim döngüsü oluşturun",
+          "text": "Go-live sonrası ilk 2–4 hafta yoğun destek, günlük kısa stand-up ve haftalık geri bildirim ritmi kurun; sık hatalar listesiyle mini refresher oturumları planlayın."
+        }
+      ]
+    }
+  ]
+},
+
+"pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how",
+      "name": "PMS Entegrasyonlarında Dokümantasyon, Versiyonlama ve Know-How: Bilgiyi Kurumsallaştırmak",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#primaryimage",
+        "url": "https://dgtlface.com/photos/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "PMS entegrasyon akışlarını, mapping ve politika setlerini dokümante edip versiyonlayarak bilgi kaybını azaltın; change log ve rutinlerle entegrasyon know-how’ını kurumsallaştırın."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#webpage" },
+      "headline": "PMS Entegrasyonlarında Dokümantasyon, Versiyonlama ve Know-How: Bilgiyi Kurumsallaştırmak",
+      "name": "PMS Entegrasyonlarında Dokümantasyon, Versiyonlama ve Know-How: Bilgiyi Kurumsallaştırmak",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS entegrasyonu yıllar içinde oda yapısı, fiyat stratejisi, OTA portföyü ve ekipler değiştikçe evrilir. Sağlam dokümantasyon ve versiyonlama sistemi; akış şemaları, mapping dokümanları, politika setleri, SOP’lar ve change log ile entegrasyon bilgisini kişilere bağlı olmaktan çıkarıp kurumsal bir varlık haline getirir; devir ve hata ayıklama süreçlerini hızlandırır.",
+      "about": [
+        { "@type": "Thing", "name": "PMS Documentation" },
+        { "@type": "Thing", "name": "Versioning" },
+        { "@type": "Thing", "name": "Knowledge Management" },
+        { "@type": "Thing", "name": "Mapping" },
+        { "@type": "Thing", "name": "Flow Diagram" },
+        { "@type": "Thing", "name": "Change Log" },
+        { "@type": "Thing", "name": "Knowledge Base" }
+      ],
+      "keywords": [
+        "pms entegrasyon dokumantasyonu",
+        "mapping ve akislari versiyonlama",
+        "pms know how’i kurumsallastirmak",
+        "pms integration documentation",
+        "version control for hotel mappings"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Entegrasyon Dokümantasyon ve Know-How Kurumsallaştırma Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "PMS Entegrasyonlarında Dokümantasyon, Versiyonlama ve Know-How: Bilgiyi Kurumsallaştırmak", "item": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyonu için hangi dokümanlar hazırlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum set; entegrasyon akış şemaları, oda/fiyat mapping dokümanları, limit/stop-sale politika setleri, SOP’lar, test/rollback kontrol listeleri ve tüm değişiklikleri izleyen change log’dan oluşur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mapping, limit ve akış şemaları nasıl versiyonlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her dokümana sürüm/tarih eklenir; değişiklik nedeni, owner ve onay kaydı tutulur. Değişiklik sonrası test sonucu ve gerekiyorsa rollback notu change log’a yazılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeni ekip veya tedarikçi geldiğinde PMS know-how’ı nasıl aktarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "1 sayfa özet + handbook linkleri + mapping/politika setleri + en sık 10 sorun paketiyle onboarding yapılır. Ardından kısa walkthrough ve gerekirse kısa bir hypercare dönemiyle devir tamamlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS entegrasyon dokümantasyonu nasıl güncel tutulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doküman owner’ları belirlenir ve haftalık/aylık gözden geçirme ritmi kurulur. Her değişiklikte change log güncellenir; sezon başında handbook refresh yapılır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how#howto",
+      "name": "PMS Entegrasyon Dokümantasyonu ve Versiyonlama Sistemi Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Minimum doküman setini çıkarın ve tek kaynak oluşturun",
+          "text": "Akış şemaları, mapping, politika setleri, SOP’lar ve kontrol listelerini tek bir bilgi mimarisinde toplayın; hedef kitleye göre (IT/ops/revenue) erişimi düzenleyin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Versiyonlama ve change log standardını uygulayın",
+          "text": "Her dokümana sürüm/tarih ekleyin; değişiklik nedeni, owner, onay ve test sonucunu change log’da tutun; rollback notlarını kritik değişikliklerde zorunlu yapın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Onboarding paketini tanımlayın ve devri kolaylaştırın",
+          "text": "Yeni personel/tedarikçi için 1 sayfa özet, handbook linkleri, mapping/politika setleri ve en sık sorunlar paketini hazırlayın; kısa walkthrough ile devri tamamlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Güncelleme rutinleri ve owner’larla sistemi canlı tutun",
+          "text": "Doküman owner’ları belirleyin; haftalık change log gözden geçirme, aylık mapping/politika kontrolü ve sezon başı handbook refresh rutini kurarak dokümanı güncel tutun."
+        }
+      ]
+    }
+  ]
 }
 
     }
