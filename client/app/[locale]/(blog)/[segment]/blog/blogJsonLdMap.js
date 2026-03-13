@@ -19821,6 +19821,375 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"kalite-dinleme-skorlarini-performans-analizine-baglamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak",
+      "headline": "Kalite Dinleme Skorlarını Performans Analizine Nasıl Bağlarsınız?",
+      "name": "Kalite Dinleme Skorlarını Performans Analizine Nasıl Bağlarsınız?",
+      "description": "Kalite dinleme (QA) skorlarını FCR, şikâyet oranı ve satış dönüşümüyle ilişkilendirin. QA skor kartı, korelasyon tablosu ve koçluk aksiyonlarıyla performansı yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak#article" },
+      "about": [
+        "Quality Monitoring",
+        "QA Scorecard",
+        "Call Center KPI",
+        "FCR",
+        "Complaint Rate",
+        "Coaching"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kalite Dinleme Skorlarını Performans Analizine Nasıl Bağlarsınız?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kalite-dinleme-skorlarini-performans-analizine-baglamak",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kalite dinleme (QA) nedir, otel çağrı merkezinde neyi ölçer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "QA, görüşmenin sonucundan çok sonucu üreten davranış adımlarını ölçer: ihtiyaç analizi, çözüm kalitesi, empati, script uyumu ve kapanış gibi. Bu sayede KPI bozulduğunda “neden”i daha net görürsünüz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "QA skor kartında hangi maddeler olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Selamlama, ihtiyaç analizi, çözüm kalitesi, empati/ton, script uyumu ve kapanış çekirdek maddelerdir. Talep türüne göre ağırlıklandırma yapmak scorecard’ı daha adil ve işe yarar kılar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "QA skorları KPI’larla birlikte nasıl yorumlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "QA’yı alt skorlarına ayırıp her alt skoru ilgili KPI ile eşleyin: ihtiyaç analizi ↔ FCR, empati ↔ şikâyet oranı, teklif/ikna ↔ dönüşüm gibi. Korelasyon panelinden çıkan bulguyu koçluk ve eğitim aksiyonlarına çevirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "QA sonuçları eğitim ve koçlukta nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2–4 haftalık trendle veriyi paylaşın, 1–2 kayıt örneği üzerinden davranış seviyesinde konuşun. 1 güçlü + 1 gelişim alanı seçip 14 günlük planla takip edin ve yeniden ölçün."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "QA kayıtları ve raporları KVKK açısından nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Görüşme kayıtları kişisel veri içerebileceği için erişim yetkileri, saklama süresi ve imha politikası net olmalıdır. Kişisel veri içeren alanlar mümkünse maskeleme/anonimleştirme ile korunmalı ve yalnız yetkili kişiler erişebilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari",
+      "headline": "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?",
+      "name": "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?",
+      "description": "Otel çağrı merkezinde wallboard kurun: kuyruk, SLA, bekleme, cevaplanma ve mesaj kuyruğu. Kırmızı/sarı/yeşil eşikler ve alarm kurallarıyla anlık aksiyon alın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari#article" },
+      "about": [
+        "Realtime Monitoring",
+        "Wallboard",
+        "SLA",
+        "Queue",
+        "Alert",
+        "Call Center"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari"
+        }
+      ]
+    }
+  ]
+},
+
+"cok-dilli-performans-analizi-tr-en-de-ru":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-performans-analizi-tr-en-de-ru#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-performans-analizi-tr-en-de-ru",
+      "headline": "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?",
+      "name": "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?",
+      "description": "TR–EN–DE–RU kuyruklarında SLA, bekleme, FCR, NPS ve dönüşümü kıyaslayın. Dil bazlı KPI tablosu ve iyileştirme checklist’i ile kadro ve eğitimi planlayın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-performans-analizi-tr-en-de-ru#article" },
+      "about": [
+        "Multilingual Call Center",
+        "TR–EN–DE–RU",
+        "SLA",
+        "FCR",
+        "NPS",
+        "Sales Conversion"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-performans-analizi-tr-en-de-ru#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cok-dilli-performans-analizi-tr-en-de-ru"
+        }
+      ]
+    }
+  ]
+},
+
+"raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar",
+      "headline": "Raporlama Frekansı ve Yönetim Ritmi: Günlük, Haftalık ve Aylık Çağrı Merkezi Toplantıları Nasıl Kurgulanır?",
+      "name": "Raporlama Frekansı ve Yönetim Ritmi: Günlük, Haftalık ve Aylık Çağrı Merkezi Toplantıları Nasıl Kurgulanır?",
+      "description": "Otel çağrı merkezi için raporlama frekansını kurun: günlük huddle, haftalık performans+eğitim ve aylık strateji. KPI overload’u önleyin, tek sayfa not şablonuyla aksiyon takip edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar#article" },
+      "about": [
+        "Reporting Frequency",
+        "Governance Rhythm",
+        "Daily Stand-up",
+        "Weekly Review",
+        "Monthly Strategy",
+        "Call Center KPI"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Raporlama Frekansı ve Yönetim Ritmi: Günlük, Haftalık ve Aylık Çağrı Merkezi Toplantıları Nasıl Kurgulanır?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar"
+        }
+      ]
+    }
+  ]
 }
 
     },
@@ -45234,6 +45603,8 @@ export const BLOG_JSONLD_MAP = {
     }
   ]
 }
+
+
 
     }
   },

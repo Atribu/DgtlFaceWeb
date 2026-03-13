@@ -190,7 +190,14 @@ export const BLOG_MAP = {
     "otel-cagri-merkezi-dashboard-looker-studio-tasarimi":"BlogOtelCagriMerkeziDashboardLookerStudioTasarimi",
     "kanal-bazli-performans-analizi-telefon-whatsapp-dm-ota":"BlogKanalBazliPerformansAnaliziTelefonWhatsappDmOta",
     "temsilci-bazli-performans-ve-kocluk-otel-cagri-merkezi":"BlogTemsilciBazliPerformansVeKoclukOtelCagriMerkezi",
-    "cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu":"BlogCagriHacmiTahminiVeKapasitePlanlamaPerformansAnaliziEntegrasyonu"
+    "cagri-hacmi-tahmini-ve-kapasite-planlama-performans-analizi-entegrasyonu":"BlogCagriHacmiTahminiVeKapasitePlanlamaPerformansAnaliziEntegrasyonu",
+
+     //callcenter 5-6
+    "kalite-dinleme-skorlarini-performans-analizine-baglamak":"BlogKaliteDinlemeSkorlariniPerformansAnalizineBaglamak",
+    "gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari":"BlogGercekZamanliIzlemeWallboardVeAnlikAlarmMekanizmalari",
+    "cok-dilli-performans-analizi-tr-en-de-ru":"BlogCokDilliPerformansAnaliziTrEnDeRu",
+    "raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar":"BlogCagriMerkeziRaporlamaFrekansiVeYonetimRitmiGunlukHaftalikAylikToplantilar"
+    
   },
 
     "pms-ota": {
@@ -443,6 +450,8 @@ export const BLOG_MAP = {
     "2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti":"BlogOtel2026YapayZekavePMSEntegrasyonlariTahminlemeOtomasyonAnomaliTespiti",
     "2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr":"BlogPMSVeriLokasyonuVeDataResidencyKVKKGDPR",
     "2026-pms-iot-akilli-oda-enerji-entegrasyonlari":"BlogPMSIotAkilliOdaEnerjiEntegrasyonlari"
+
+   
   }
 };
 

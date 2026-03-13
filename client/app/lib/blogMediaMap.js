@@ -17854,6 +17854,208 @@ export const BLOG_MEDIA_MAP = {
       caption: "Akıllı oda yol haritası çıktıları + güven unsuru + otel bağlamı"
     }
   },
+
+
+   "kalite-dinleme-skorlarini-performans-analizine-baglamak":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-1.webp",
+      alt: "Kalite Dinleme Skorlarını Performans Analizine Nasıl Bağlarsınız?",
+      caption: "Kalite Dinleme Skorlarını Performans Analizine Nasıl Bağlarsınız?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-2.webp",
+      alt: "QA skor kartı ve KPI paneli birlikte okuma, otel çağrı merkezi operasyon bağlamı",
+      caption: "QA skor kartı ve KPI paneli birlikte okuma, otel çağrı merkezi operasyon bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-3.webp",
+      alt: "QA davranış ölçer, KPI sonuç ölçer, otel çağrı merkezi analiz geçiş görseli",
+      caption: "QA davranış ölçer, KPI sonuç ölçer, otel çağrı merkezi analiz geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-4.webp",
+      alt: "QA raporlama ve yönetim toplantısı entegrasyonu, kısa özet formatı geçişi",
+      caption: "QA raporlama ve yönetim toplantısı entegrasyonu, kısa özet formatı geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-5.webp",
+      alt: "QA eğitim koçluk ve KPI iyileşmesi akış diyagramı, otel çağrı merkezi",
+      caption: "QA eğitim koçluk ve KPI iyileşmesi akış diyagramı, otel çağrı merkezi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-6.webp",
+      alt: "QA sonuçlarından aksiyona yedi adım checklist’i, otel çağrı merkezi çerçevesi",
+      caption: "QA sonuçlarından aksiyona yedi adım checklist’i, otel çağrı merkezi çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-7.webp",
+      alt: "QA skoru ile FCR ve şikâyet korelasyon kartları, performans içgörü paneli",
+      caption: "QA skoru ile FCR ve şikâyet korelasyon kartları, performans içgörü paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-6/Callcenter5-6-8.webp",
+      alt: "QA scorecard ve KPI korelasyon çıktıları, koçluk ve raporlama deliverables",
+      caption: "QA scorecard ve KPI korelasyon çıktıları, koçluk ve raporlama deliverables"
+    }
+  },
+
+
+  "gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-1.webp",
+      alt: "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?",
+      caption: "Gerçek Zamanlı İzleme (Wallboard) ve Anlık Alarm Mekanizmaları Nasıl Kurulur?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-2.webp",
+      alt: "Wallboard ekranı örneği, çağrı ve mesaj kuyruğu birlikte izleme bağlamı",
+      caption: "Wallboard ekranı örneği, çağrı ve mesaj kuyruğu birlikte izleme bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-3.webp",
+      alt: "Realtime izleme ve aksiyon tetikleyici mantığı, operasyon geçiş görseli",
+      caption: "Realtime izleme ve aksiyon tetikleyici mantığı, operasyon geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-4.webp",
+      alt: "Tarihsel analiz entegrasyonu ve alarm log’u, iyileştirme döngüsü geçişi",
+      caption: "Tarihsel analiz entegrasyonu ve alarm log’u, iyileştirme döngüsü geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-5.webp",
+      alt: "Alarm triage kapasite kanal yönlendirme stabilizasyon akış diyagramı",
+      caption: "Alarm triage kapasite kanal yönlendirme stabilizasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-6.webp",
+      alt: "Kritik durumda yapılacaklar checklist’i, wallboard alarm aksiyon çerçevesi",
+      caption: "Kritik durumda yapılacaklar checklist’i, wallboard alarm aksiyon çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-7.webp",
+      alt: "Wallboard KPI kartları, kuyruk SLA bekleme cevaplanma mesaj kuyruğu",
+      caption: "Wallboard KPI kartları, kuyruk SLA bekleme cevaplanma mesaj kuyruğu"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-7/Callcenter5-7-8.webp",
+      alt: "Wallboard mockup ve alarm eşik tablosu çıktıları, operasyon deliverables kartı",
+      caption: "Wallboard mockup ve alarm eşik tablosu çıktıları, operasyon deliverables kartı"
+    }
+  },
+
+   "cok-dilli-performans-analizi-tr-en-de-ru":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-1.webp",
+      alt: "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?",
+      caption: "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-2.webp",
+      alt: "TR EN DE RU ayrı kuyruk grafikleri, dil bazlı operasyon performans görünümü",
+      caption: "TR EN DE RU ayrı kuyruk grafikleri, dil bazlı operasyon performans görünümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-3.webp",
+      alt: "Dil bazlı analiz mantığı ve KPI ayrıştırma, otel çağrı merkezi geçiş görseli",
+      caption: "Dil bazlı analiz mantığı ve KPI ayrıştırma, otel çağrı merkezi geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-4.webp",
+      alt: "Dil bazlı aksiyon planı ve yatırım kararları, çok dilli performans geçiş",
+      caption: "Dil bazlı aksiyon planı ve yatırım kararları, çok dilli performans geçiş"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-5.webp",
+      alt: "Dil kuyruk ve skill set akışı, overflow ve triage karar diyagramı",
+      caption: "Dil kuyruk ve skill set akışı, overflow ve triage karar diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-6.webp",
+      alt: "Dil bazlı iyileştirme planı checklist’i, TR EN DE RU aksiyon çerçevesi",
+      caption: "Dil bazlı iyileştirme planı checklist’i, TR EN DE RU aksiyon çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-7.webp",
+      alt: "Dil bazlı NPS ve satış dönüşüm skor kartları, TR EN DE RU kıyas paneli",
+      caption: "Dil bazlı NPS ve satış dönüşüm skor kartları, TR EN DE RU kıyas paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-8/Callcenter5-8-8.webp",
+      alt: "Dil bazlı KPI tablosu ve iyileştirme planı çıktıları, operasyon deliverables kartı",
+      caption: "Dil bazlı KPI tablosu ve iyileştirme planı çıktıları, operasyon deliverables kartı"
+    }
+  },
+
+  "raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-1.webp",
+      alt: "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?",
+      caption: "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-2.webp",
+      alt: "Toplantı ritmi takvimi görünümü, günlük huddle ve haftalık review akış",
+      caption: "Toplantı ritmi takvimi görünümü, günlük huddle ve haftalık review akış"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-3.webp",
+      alt: "Governance ritmi ve karar aksiyon takip döngüsü, çağrı merkezi geçiş görseli",
+      caption: "Governance ritmi ve karar aksiyon takip döngüsü, çağrı merkezi geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-4.webp",
+      alt: "Aylık strateji ve iyileştirme oturumu, toplantı ritmi geçiş görseli",
+      caption: "Aylık strateji ve iyileştirme oturumu, toplantı ritmi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-5.webp",
+      alt: "Günlük haftalık aylık toplantı akışı, karar aksiyon takip diyagramı",
+      caption: "Günlük haftalık aylık toplantı akışı, karar aksiyon takip diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-6.webp",
+      alt: "KPI overload önleme checklist’i, toplantı ritmi odak çerçevesi",
+      caption: "KPI overload önleme checklist’i, toplantı ritmi odak çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-7.webp",
+      alt: "Günlük haftalık aylık KPI seti kartı, çağrı merkezi raporlama frekansı",
+      caption: "Günlük haftalık aylık KPI seti kartı, çağrı merkezi raporlama frekansı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-8.webp",
+      alt: "Raporlama takvimi ve toplantı notu şablonu çıktıları, operasyon deliverables kartı",
+      caption: "Raporlama takvimi ve toplantı notu şablonu çıktıları, operasyon deliverables kartı"
+    }
+  }
   
 
 
