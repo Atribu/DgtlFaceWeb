@@ -436,7 +436,13 @@ export const BLOG_MAP = {
     "pms-entegrasyonunda-degisim-yonetimi-ve-personel-egitimi":"BlogPmsEntegrasyonundaDegisimYonetimiVePersonelEgitimi",
     "pms-entegrasyon-dokumantasyonu-versiyonlama-ve-know-how":"BlogPmsEntegrasyonDokumantasyonuVersiyonlamaVeKnowHow",
     "pms-entegrasyonu-icin-tedarikci-secimi-ve-rfp-sureci":"BlogPmsEntegrasyonuIcinTedarikciSecimiVeRFPSureci",
-    "pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum":"BlogPmsEntegrasyonRoadmap612AylikDijitalDonusum"
+    "pms-entegrasyon-roadmap-6-12-aylik-dijital-donusum":"BlogPmsEntegrasyonRoadmap612AylikDijitalDonusum",
+
+    "2026-cloud-native-pms-ve-microservice-mimarisi":"BlogOtel2026CloudNativePMSveMicroserviceMimarisi",
+    "2026-pms-open-api-ve-marketplace-ekosistemleri":"BlogOtel2026PMSOpenAPIveMarketplaceEkosistemleri",
+    "2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti":"BlogOtel2026YapayZekavePMSEntegrasyonlariTahminlemeOtomasyonAnomaliTespiti",
+    "2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr":"BlogPMSVeriLokasyonuVeDataResidencyKVKKGDPR",
+    "2026-pms-iot-akilli-oda-enerji-entegrasyonlari":"BlogPMSIotAkilliOdaEnerjiEntegrasyonlari"
   }
 };
 

@@ -17600,9 +17600,260 @@ export const BLOG_MEDIA_MAP = {
       alt: "6–12 aylık dönüşüm deliverables kartı, minimum entegre dijital otel vizyonunu gösterir",
       caption: "6–12 aylık dönüşüm deliverables kartı, minimum entegre dijital otel vizyonunu gösterir"
     }
-  }
+  },
+
+"2026-cloud-native-pms-ve-microservice-mimarisi":{
+     banner: {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-1.webp",
+      alt: "PMS Entegrasyon Roadmap’i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?",
+      caption: "PMS Entegrasyon Roadmap’i: 6–12 Aylık Otel Dijital Dönüşüm Planına Nasıl Oturur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-2.webp",
+      alt: "Monolitik ve microservice PMS farkı görseli, entegrasyon kararını kolaylaştırır",
+      caption: "Monolitik ve microservice PMS farkı görseli, entegrasyon kararını kolaylaştırır"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-3.webp",
+      alt: "Cloud-native dönüşüm bölüm ayırıcı görseli, mimari kavramları düzenler",
+      caption: "Cloud-native dönüşüm bölüm ayırıcı görseli, mimari kavramları düzenler"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-4.webp",
+      alt: "Zero-downtime ve versiyonlama ayırıcı görseli, güncelleme stratejisini netleştirir",
+      caption: "Zero-downtime ve versiyonlama ayırıcı görseli, güncelleme stratejisini netleştirir"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-5.webp",
+      alt: "Microservice PMS mimari şeması, otel entegrasyon servislerini ve veri akışını gösterir",
+      caption: "Microservice PMS mimari şeması, otel entegrasyon servislerini ve veri akışını gösterir"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-6.webp",
+      alt: "Cloud-native geçiş checklist kartı, otel için 7 kritik soruyu özetler",
+      caption: "Cloud-native geçiş checklist kartı, otel için 7 kritik soruyu özetler"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-7.webp",
+      alt: "Downtime ve güncelleme KPI kartı, mimari farkın etkisini görselleştirir",
+      caption: "Downtime ve güncelleme KPI kartı, mimari farkın etkisini görselleştirir"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-21/Hotel5-21-8.webp",
+      alt: "Mimari roadmap deliverables kartı, 2026–2030 planını ve çıktıları listeler",
+      caption: "Mimari roadmap deliverables kartı, 2026–2030 planını ve çıktıları listeler"
+    }
+  },
+
+  "2026-pms-open-api-ve-marketplace-ekosistemleri":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-1.webp",
+      alt: "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi?",
+      caption: "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-2.webp",
+      alt: "PMS marketplace ekranı + uygulama ekosistemi + otel bağlamı",
+      caption: "PMS marketplace ekranı + uygulama ekosistemi + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-3.webp",
+      alt: "Open API kavramı + karar çerçevesi + otel entegrasyonları",
+      caption: "Open API kavramı + karar çerçevesi + otel entegrasyonları"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-4.webp",
+      alt: "Uygulama kategorileri + seçim süreci + otel operasyonu",
+      caption: "Uygulama kategorileri + seçim süreci + otel operasyonu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-5.webp",
+      alt: "Open API katmanı + uygulama entegrasyonları + otel veri akışı",
+      caption: "Open API katmanı + uygulama entegrasyonları + otel veri akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-6.webp",
+      alt: "Uygulama seçimi 10 soru + risk kontrolü + otel bağlamı",
+      caption: "Uygulama seçimi 10 soru + risk kontrolü + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-7.webp",
+      alt: "Marketplace KPI kartı + hız ve risk dengesi + otel teknoloji yönetimi",
+      caption: "Marketplace KPI kartı + hız ve risk dengesi + otel teknoloji yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-22/Hotel5-22-8.webp",
+      alt: "Ekosistem governance deliverables + güvenlik ve SLA + otel bağlamı",
+      caption: "Ekosistem governance deliverables + güvenlik ve SLA + otel bağlamı"
+    }
+  },
 
 
+  "2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-1.webp",
+      alt: "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi?",
+      caption: "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-2.webp",
+      alt: "Tahmin-otomasyon-anomali üçlüsü görseli, otel operasyonunu sadeleştirir",
+      caption: "Tahmin-otomasyon-anomali üçlüsü görseli, otel operasyonunu sadeleştirir"
+    },
+
+           "divider-03": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-3.webp",
+      alt: "AI kullanım alanları ayırıcı görseli, tahmin ve uyarıları netleştirir",
+      caption: "AI kullanım alanları ayırıcı görseli, tahmin ve uyarıları netleştirir"
+    },
+
+    "divider-04": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-4.webp",
+      alt: "Otomasyon ve insan kontrolü ayırıcı görseli, güvenli kural yönetimi sağlar",
+      caption: "Otomasyon ve insan kontrolü ayırıcı görseli, güvenli kural yönetimi sağlar"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-5.webp",
+      alt: "Kural-tetikleyici-aksiyon akış diyagramı, AI önerisini onaylı aksiyona dönüştürür",
+      caption: "Kural-tetikleyici-aksiyon akış diyagramı, AI önerisini onaylı aksiyona dönüştürür"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-6.webp",
+      alt: "AI kural seti checklist kartı, onay ve override adımlarını standardize eder",
+      caption: "AI kural seti checklist kartı, onay ve override adımlarını standardize eder"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-7.webp",
+      alt: "Tahmin ve anomali KPI kartı, gelir ve risk etkisini ölçülebilir kılar",
+      caption: "Tahmin ve anomali KPI kartı, gelir ve risk etkisini ölçülebilir kılar"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-23/Hotel5-23-8.webp",
+      alt: "AI entegrasyon deliverables kartı, tahmin-otomasyon-anomali çıktılarıyla güven verir",
+      caption: "AI entegrasyon deliverables kartı, tahmin-otomasyon-anomali çıktılarıyla güven verir"
+    }
+  },
+
+
+  "2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-1.webp",
+      alt: "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar",
+      caption: "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-2.webp",
+      alt: "Veri lokasyonu haritası mockup’ı, PMS verisinin bölgesel konumunu otelde açıklar",
+      caption: "Veri lokasyonu haritası mockup’ı, PMS verisinin bölgesel konumunu otelde açıklar"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-3.webp",
+      alt: "Data residency başlık ayırıcı, otel entegrasyonlarında uyum tasarımını netleştirir",
+      caption: "Data residency başlık ayırıcı, otel entegrasyonlarında uyum tasarımını netleştirir"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-4.webp",
+      alt: "DR ve privacy by design ayırıcı, otel sistem sürekliliğini vurgular",
+      caption: "DR ve privacy by design ayırıcı, otel sistem sürekliliğini vurgular"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-5.webp",
+      alt: "Yurtdışı veri aktarım şeması, PMS entegrasyon akışını otel bağlamında özetler",
+      caption: "Yurtdışı veri aktarım şeması, PMS entegrasyon akışını otel bağlamında özetler"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-6.webp",
+      alt: "Data residency kontrol soruları, KVKK ve GDPR uyumunu otelde hızlandırır",
+      caption: "Data residency kontrol soruları, KVKK ve GDPR uyumunu otelde hızlandırır"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-7.webp",
+      alt: "Uyum ve DR KPI kartı, denetim ve kesinti riskini otelde ölçer",
+      caption: "Uyum ve DR KPI kartı, denetim ve kesinti riskini otelde ölçer"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-24/Hotel5-24-8.webp",
+      alt: "Residency stratejisi çıktıları, otel entegrasyonlarını denetlenebilir hale getirir",
+      caption: "Residency stratejisi çıktıları, otel entegrasyonlarını denetlenebilir hale getirir"
+    }
+  },
+
+
+ "2026-pms-iot-akilli-oda-enerji-entegrasyonlari":{
+    banner: {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-1.webp",
+      alt: "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",
+      caption: "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon"
+    },
+
+          "h1-context": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-2.webp",
+      alt: "Akıllı oda sensör haritası + enerji/konfor + otel bağlamı",
+      caption: "Akıllı oda sensör haritası + enerji/konfor + otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-3.webp",
+      alt: "Akıllı oda entegrasyonu + enerji yönetimi + otel operasyonu",
+      caption: "Akıllı oda entegrasyonu + enerji yönetimi + otel operasyonu"
+    },
+
+    "divider-02": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-4.webp",
+      alt: "Mahremiyet ve güvenlik + IoT verisi + otel bağlamı",
+      caption: "Mahremiyet ve güvenlik + IoT verisi + otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-5.webp",
+      alt: "PMS–BMS–IoT veri akışı + senaryo tetikleme + otel bağlamı",
+      caption: "PMS–BMS–IoT veri akışı + senaryo tetikleme + otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-6.webp",
+      alt: "3 akıllı oda senaryosu + kontrol listesi + otel bağlamı",
+      caption: "3 akıllı oda senaryosu + kontrol listesi + otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-7.webp",
+      alt: "Enerji tasarrufu ve ROI + KPI paneli + otel bağlamı",
+      caption: "Enerji tasarrufu ve ROI + KPI paneli + otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/hotel/Hotel5-25/Hotel5-25-8.webp",
+      alt: "Akıllı oda yol haritası çıktıları + güven unsuru + otel bağlamı",
+      caption: "Akıllı oda yol haritası çıktıları + güven unsuru + otel bağlamı"
+    }
+  },
   
 
 

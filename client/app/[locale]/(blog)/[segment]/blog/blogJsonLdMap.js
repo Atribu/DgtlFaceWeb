@@ -44488,6 +44488,751 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+
+"2026-cloud-native-pms-ve-microservice-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi",
+      "name": "2026’da Cloud-Native PMS ve Microservice Mimarisi: Otel Entegrasyonlarının Geleceği",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#primaryimage",
+        "url": "https://dgtlface.com/photos/2026-cloud-native-pms-ve-microservice-mimarisi-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "Cloud-native, microservice ve API-first PMS yaklaşımı; otel entegrasyonlarını daha esnek, ölçeklenebilir ve güncellenebilir hâle getirir. 2026–2030 mimari yol haritası, veri lokasyonu ve uyum (KVKK/GDPR) ile birlikte ele alınmalıdır."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#webpage" },
+      "headline": "2026’da Cloud-Native PMS ve Microservice Mimarisi: Otel Entegrasyonlarının Geleceği",
+      "name": "2026’da Cloud-Native PMS ve Microservice Mimarisi: Otel Entegrasyonlarının Geleceği",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "2026’da cloud-native ve microservice mimarili PMS’ler; otel entegrasyonlarını daha esnek, ölçeklenebilir ve güncellemesi kolay hâle getiriyor. Monolitik yapılara göre yeni entegrasyon eklemek, servisleri bağımsız güncellemek ve kesintileri azaltmak daha mümkün. API-first yaklaşımı; entegrasyon sözleşmesini güçlendirir. Geçişte veri lokasyonu, erişim kontrolleri ve backwards compatibility planı kritik.",
+      "about": [
+        { "@type": "Thing", "name": "Cloud-Native PMS" },
+        { "@type": "Thing", "name": "On-Prem PMS" },
+        { "@type": "Thing", "name": "Microservice Architecture" },
+        { "@type": "Thing", "name": "API-First" },
+        { "@type": "Thing", "name": "Scalability" },
+        { "@type": "Thing", "name": "Downtime" },
+        { "@type": "Thing", "name": "Update" }
+      ],
+      "keywords": [
+        "2026 cloud native pms trendleri",
+        "microservice mimarisi ve pms entegrasyonlari",
+        "api first otel teknoloji yiginlari",
+        "cloud-native pms",
+        "zero-downtime"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "Cloud-Native PMS Mimari Analizi ve Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Cloud-Native PMS ve Microservice Mimarisi: Otel Entegrasyonlarının Geleceği", "item": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-cloud-native-pms-ve-microservice-mimarisi#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cloud-native PMS nedir, klasik PMS’lerden farkı nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud-native PMS, bulutun ölçeklenebilirlik ve otomasyon modelinden yararlanacak şekilde tasarlanır; güncelleme ve işletim daha çevik olabilir. Klasik on-prem PMS’te bakım ve sürüm geçişleri daha ağır olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Microservice mimarisi PMS entegrasyonlarını nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microservice yaklaşımı, servisleri bağımsız dağıtıp güncelleme hedefiyle entegrasyon eklemeyi ve hata izolasyonunu iyileştirebilir. Bunun için API sözleşmesi, versiyonlama ve monitoring şarttır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "API-first PMS yaklaşımı oteller için ne kazandırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "API-first, entegrasyonları baştan sözleşmeye bağlayarak daha öngörülebilir ve test edilebilir hale getirir. Web, CRM ve BI gibi uçların sürüm geçişleri daha kontrollü yönetilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "On-prem PMS’ten cloud-native PMS’e geçerken nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri envanteri ve temizliği, mapping/politika setleri, erişim rolleri, veri lokasyonu (KVKK/GDPR) ve geriye dönük uyumluluk planı kritik; geçiş POC ve kontrollü cut-over ile yönetilmelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-pms-open-api-ve-marketplace-ekosistemleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri",
+      "name": "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#primaryimage",
+        "url": "https://dgtlface.com/photos/2026-pms-open-api-ve-marketplace-ekosistemleri-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "2026’da open API’li PMS’ler ve marketplace ekosistemleri, otellere yeni uygulamaları plug-and-play mantığıyla hızlı devreye alma fırsatı sunar. Ancak veri paylaşımı, güvenlik, KVKK/GDPR, SLA ve vendor lock-in riskleri yönetilmelidir."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#webpage" },
+      "headline": "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi",
+      "name": "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "Open API ve marketplace ekosistemleri, otellere CRM, upsell, chatbot ve review gibi uygulamaları hızlı devreye alma fırsatı verir. Ancak plug-and-play hızının sürdürülebilir olması için veri paylaşımı onayı, KVKK/GDPR uyumu, SLA/eskalasyon ve vendor lock-in riskleri; 10 soruluk seçim çerçevesi ve güvenlik kontrol listesiyle yönetilmelidir.",
+      "about": [
+        { "@type": "Thing", "name": "Open API" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Marketplace" },
+        { "@type": "Thing", "name": "Hotel Apps" },
+        { "@type": "Thing", "name": "Plug-and-Play Integrations" },
+        { "@type": "Thing", "name": "Vendor Lock-In" },
+        { "@type": "Thing", "name": "Security Check" }
+      ],
+      "keywords": [
+        "2026 pms open api ve marketplace",
+        "plug and play otel entegrasyonlari",
+        "pms app store ve ekosistem secimi",
+        "open api pms",
+        "marketplace ekosistemi"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Open API ve Marketplace Ekosistem Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da PMS Open API ve Marketplace Ekosistemleri: Otel Teknolojisinde Plug-and-Play Dönemi", "item": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-open-api-ve-marketplace-ekosistemleri#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Open API PMS ne demektir, oteller için ne kazandırır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open API, PMS’in diğer sistemlerle daha standart ve dokümante şekilde konuşabilmesi demektir. Otel için entegrasyon hızını artırır ve yeni uygulamaları daha kolay devreye alma potansiyeli sağlar; ancak versiyonlama ve monitoring disiplini gerektirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS marketplace ve app store mantığı nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marketplace, PMS’e bağlanabilen uygulamaların kataloğudur; otel onayla uygulamayı ekler ve belirli verileri paylaşır. Hızlıdır ama onay, erişim rolleri, SLA ve veri yönetimi kuralları yoksa risk üretir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Plug-and-play entegrasyonların risk ve sınırları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Veri paylaşımı ve güvenlik yüzeyi büyür, SLA parçalanabilir ve vendor lock-in riski artar. Uygulama kapatıldığında veri/erişim kapanışı ve retention politikası net değilse uyum riski doğar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uygulama eklemeden önce hangi kontrolleri yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hangi veri okunuyor/yazılıyor, KVKK/GDPR kapsamı, RBAC/anahtar yönetimi, SLA/eskalasyon, log/retention ve lock-in/exit planı mutlaka kontrol edilmelidir. 10 soruluk çerçeve bu yüzden onay kapısı olmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti",
+      "name": "2026’da Yapay Zekâ ve PMS Entegrasyonları: Tahminleme, Otomasyon ve Anomali Tespiti",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#primaryimage",
+        "url": "https://dgtlface.com/photos/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "2026’da yapay zekâ, PMS entegrasyon verisi üzerinde çalışan bir katman olarak tahminleme, otomasyon ve anomali tespitiyle otel ekiplerine destek olur. Başarı; veri kalitesi, override hakları, loglama ve insan onayı eşiklerine bağlıdır."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#webpage" },
+      "headline": "2026’da Yapay Zekâ ve PMS Entegrasyonları: Tahminleme, Otomasyon ve Anomali Tespiti",
+      "name": "2026’da Yapay Zekâ ve PMS Entegrasyonları: Tahminleme, Otomasyon ve Anomali Tespiti",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "2026’da yapay zekâ, PMS entegrasyonlarının üzerine eklenen bir yardımcı beyin gibi çalışarak talep tahmini, otomatik kural/aksiyonlar ve anomali tespitiyle otel ekiplerine destek olur. Ancak başarılı olabilmesi için doğru veriye, iyi tanımlanmış kurallara, insan onayı eşiklerine, override/rollback haklarına ve güçlü loglama mekanizmalarına ihtiyaç vardır.",
+      "about": [
+        { "@type": "Thing", "name": "AI" },
+        { "@type": "Thing", "name": "Forecasting" },
+        { "@type": "Thing", "name": "Automation Rules" },
+        { "@type": "Thing", "name": "Anomaly Detection" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "Channel Manager" },
+        { "@type": "Thing", "name": "Revenue Manager" }
+      ],
+      "keywords": [
+        "2026 ai pms entegrasyon trendleri",
+        "talep tahmini ve otomatik aksiyonlar",
+        "anomali tespiti ile fiyat ve mapping hatalarini yakalama",
+        "AI for PMS",
+        "automation rules anomaly detection"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + AI Tahmin, Otomasyon ve Anomali Tespiti Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da Yapay Zekâ ve PMS Entegrasyonları: Tahminleme, Otomasyon ve Anomali Tespiti", "item": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ PMS entegrasyonlarında hangi alanlarda kullanılabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI, PMS entegrasyonlarında talep tahmini (doluluk/RevPAR projeksiyonu), kural bazlı otomasyon (fiyat/kota/kampanya tetikleyicileri) ve anomali tespiti (hatalı fiyat/mapping, olağandışı rezervasyon akışı) alanlarında kullanılabilir. Başarı için insan onayı ve loglama gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anomali tespiti ile hangi hatalar erken yakalanabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hatalı fiyat spike/dip, mapping bozulması, 0 envanter push, olağandışı iptal/no-show artışı ve beklenmedik kanal kayması gibi sorunlar erken uyarıyla yakalanabilir. Kritik olan, uyarıyı runbook’a bağlamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI + insan işbirliği modeli nasıl kurgulanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI öneri ve uyarı üretir; insan (revenue/IT) kritik eşiklerde onay verir ve gerektiğinde override/rollback yapar. Her aksiyonun audit log’u tutulur ve eşikler yanlış alarm oranına göre güncellenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik fiyat ve kota ayarlamak güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tam otomatik yaklaşım, yalnız düşük riskli senaryolarda güvenli olabilir. Genel yaklaşım; önce uyarı ve öneri modunda çalışıp, onay eşiği ve rollback prosedürü oturduktan sonra sınırlı otomasyona geçmektir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-yapay-zeka-ve-pms-entegrasyonlari-tahminleme-otomasyon-anomali-tespiti#howto",
+      "name": "PMS Entegrasyonlarında AI Tahmin, Otomasyon ve Anomali Kuralları Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Veri sözlüğü ve kalite kontrollerini oluşturun",
+          "text": "PMS, channel manager, web ve call center verilerinde metrik tanımlarını netleştirin; eksik veri, uç değer ve tutarsızlık kontrollerini kural setine dahil edin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Tahmin ve anomali use-case’lerini seçin",
+          "text": "Önce 1–2 tahmin ve 5–10 kritik anomali senaryosu belirleyin; KPI’ları ve başarı kriterlerini yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Kural-tetikleyici-aksiyon ve onay eşiklerini tasarlayın",
+          "text": "AI sinyallerini rule engine’e bağlayın; notify/recommend/auto seviyelerini belirleyin ve kritik kararlarda insan onayını zorunlu kılan eşikler koyun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Override/rollback ve loglama mekanizmasını standardize edin",
+          "text": "Her aksiyon için kim/neyi/ne zaman yaptığını kaydeden audit log tutun; hızlı geri alma (override/rollback) prosedürünü SOP haline getirin."
+        }
+      ]
+    }
+  ]
+},
+
+"2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr",
+      "name": "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#primaryimage",
+        "url": "https://dgtlface.com/photos/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "2026’da PMS entegrasyonlarını planlarken verinin nerede tutulduğu, nereye aktarıldığı ve KVKK/GDPR çerçevesinde data residency stratejisinin olup olmadığı kritik hâle geliyor. Veri akış haritası, erişim/retention/loglama ve felaket kurtarma planı mimarinin parçası olmalıdır."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#webpage" },
+      "headline": "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar",
+      "name": "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS verisinin hangi ülkede/bölgede tutulduğu, hangi entegrasyonlarla nereye aktarıldığı ve KVKK/GDPR gibi regülasyonlara uyumlu bir data residency stratejisinin olup olmadığı 2026’da kritik hâle geliyor. Bu rehber, hukukî yorum vermeden; veri akış haritası, rol bazlı erişim, retention/loglama ve yedekleme/felaket kurtarma (DR) kararlarını mimariye taşıyan pratik bir çerçeve sunar.",
+      "about": [
+        { "@type": "Thing", "name": "Data Residency" },
+        { "@type": "Thing", "name": "KVKK" },
+        { "@type": "Thing", "name": "GDPR" },
+        { "@type": "Thing", "name": "Cross-Border Transfer" },
+        { "@type": "Thing", "name": "Backup" },
+        { "@type": "Thing", "name": "Disaster Recovery" },
+        { "@type": "Thing", "name": "Privacy by Design" }
+      ],
+      "keywords": [
+        "2026 pms data residency ve kvkk",
+        "cloud pms veri lokasyonu",
+        "cok ulkeli otel zincirlerinde veri stratejisi",
+        "data residency compliance",
+        "felaket kurtarma pms"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS Data Residency ve Regülasyon Uyum Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da PMS Veri Lokasyonu ve Data Residency: KVKK, GDPR ve Bölgesel Regülasyonlar", "item": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Data residency nedir, PMS verisi için neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data residency, verinin fiziksel/coğrafi olarak nerede saklandığını ifade eder. PMS verisi çok sayıda entegrasyonla kopyalandığı için residency stratejisi; uyum, denetlenebilirlik ve felaket anında süreklilik açısından kritiktir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "KVKK ve GDPR, PMS veri lokasyonu ve entegrasyonları nasıl etkiler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknik açıdan veri akış haritası, erişim rolleri, retention/loglama ve denetlenebilir değişiklik yönetimini zorunlu hale getirir. Yurtdışı aktarım gibi konular ise teknik planın yanında hukuk danışmanınızla birlikte değerlendirilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok ülkeli otel zincirlerinde veri lokasyonu stratejisi nasıl planlanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Merkezi, bölgesel hub veya ülke/tesis bazlı ayrışma modelleri; raporlama ihtiyacı, regülasyon baskısı, kesinti toleransı ve DR mimarisi birlikte değerlendirilerek seçilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Privacy by Design PMS entegrasyonlarında pratikte ne demek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entegrasyonları tasarlarken minimum veri, varsayılan kapalı erişim, rol bazlı yetki, denetlenebilir log ve açık retention kararlarını varsayılan hale getirmektir."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-veri-lokasyonu-ve-data-residency-kvkk-gdpr#howto",
+      "name": "PMS Data Residency Stratejisi Kurma ve DR Planı Bağlama",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Veri lokasyonu ve entegrasyon envanterini çıkarın",
+          "text": "PMS’in hangi bölgede çalıştığını ve PMS’ten veri alan tüm sistemleri (OTA/web/BI/app) listeleyin; veri alanlarını minimum veri prensibiyle yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Veri akış haritası ve erişim kontrollerini standartlaştırın",
+          "text": "PMS → sistem → veri alanı → amaç haritasını çıkarın; rol bazlı erişim (RBAC), retention ve loglama kararlarını yazılı hale getirin."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "DR seviyesini ve test rutinini belirleyin",
+          "text": "Backup/replica/standby seçeneklerini seçin; failover prosedürü ve düzenli DR test raporu üreten bir rutin kurun."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Onay kapısı ve değişiklik yönetimi kurun",
+          "text": "Marketplace/app ekleme ve region/servis değişikliklerini onaylı sürece bağlayın; audit trail ile denetlenebilirliği artırın."
+        }
+      ]
+    }
+  ]
+},
+
+"2026-pms-iot-akilli-oda-enerji-entegrasyonlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#webpage",
+      "url": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari",
+      "name": "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR",
+      "breadcrumb": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#breadcrumb" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#primaryimage",
+        "url": "https://dgtlface.com/photos/2026-pms-iot-akilli-oda-enerji-entegrasyonlari-hero-01.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      "description": "2026’da PMS + IoT entegrasyonu, kart ve sensör verileriyle oda konforunu ve enerji kullanımını otomatik yöneterek hem misafir deneyimini hem de enerji maliyetlerini iyileştiren akıllı oda senaryoları sunar. Başarı; veri akışı, güvenlik ve mahremiyet tasarımına bağlıdır."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#article",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#webpage" },
+      "headline": "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",
+      "name": "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",
+      "inLanguage": "tr-TR",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#webpage" },
+      "image": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#primaryimage" },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "description": "PMS + BMS + IoT entegrasyonu; kart sistemi, hareket ve sıcaklık sensörleri gibi sinyalleri PMS ve bina yönetim sistemiyle birleştirerek check-in, boş oda ve gece modu senaryolarını otomatikleştirir. Doğru kurgulandığında enerji tüketimi optimize edilir, bakım alarmları operasyonla bağlanır ve misafir konforu iyileşir. Mahremiyet için minimum veri, opt-in, rol bazlı erişim ve denetlenebilir loglama tasarıma gömülmelidir.",
+      "about": [
+        { "@type": "Thing", "name": "PMS + IoT Integration" },
+        { "@type": "Thing", "name": "Smart Room" },
+        { "@type": "Thing", "name": "BMS (Building Management System)" },
+        { "@type": "Thing", "name": "Energy Management" },
+        { "@type": "Thing", "name": "Guest Comfort" },
+        { "@type": "Thing", "name": "Alert & Maintenance" },
+        { "@type": "Thing", "name": "Privacy & Consent" }
+      ],
+      "keywords": [
+        "2026 pms iot akilli oda trendleri",
+        "enerji tasarrufu ve konfor icin pms bms entegrasyonu",
+        "smart room sensor senaryolari",
+        "pms iot integration",
+        "smart room energy management"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [ "h1", ".answer-block" ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/otel/pms-entegrasyonu#service",
+      "serviceType": "PMS + IoT ve Akıllı Oda Entegrasyon Danışmanlığı",
+      "areaServed": { "@type": "Country", "name": "Türkiye" },
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "url": "https://dgtlface.com/tr/otel/pms-entegrasyonu",
+      "name": "PMS Entegrasyonu (Hotel PMS)"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Otel", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 3, "name": "PMS Entegrasyonu (Hotel PMS)", "item": "https://dgtlface.com/tr/otel/pms-entegrasyonu" },
+        { "@type": "ListItem", "position": 4, "name": "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon", "item": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#faq",
+      "isPartOf": { "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#webpage" },
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "PMS + BMS + IoT entegrasyonu nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "IoT cihazları oda içi durum ve enerji sinyali üretir, BMS kontrol aksiyonlarını uygular, PMS ise check-in/check-out ve oda statüsüyle senaryoyu tetikler. En iyi pratik, ham sensör verisi yerine durum bazlı veri taşımaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Akıllı oda sistemleri enerji tasarrufunu gerçekten artırır mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğru senaryo ve eşiklerle artırabilir; özellikle boş oda saatlerinde HVAC ve aydınlatma israfını azaltma hedefi vardır. Sonuçlar tesis tipine, doluluk pattern’ine ve kurgulanan kurallara göre değişir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "IoT verisi toplanırken mahremiyet açısından nelere dikkat edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum veri, rol bazlı erişim, açık retention ve denetlenebilir loglama varsayılan olmalı; ham takip verisi yerine durum bazlı veri tercih edilmeli ve gerekli yerlerde bilgilendirme/opt-in yaklaşımı uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Akıllı oda için en hızlı 3 başlangıç senaryosu nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in ön koşullandırma (konfor), boş oda enerji modu (tasarruf) ve gece modu + bakım alarmı (operasyon) pilot için en iyi başlangıçtır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/otel/blog/2026-pms-iot-akilli-oda-enerji-entegrasyonlari#howto",
+      "name": "PMS + IoT ile 3 Akıllı Oda Senaryosu Kurma",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "PMS–BMS–IoT veri akışını haritalayın",
+          "text": "IoT cihazlarından gelen sinyalleri (durum bazlı) ve PMS tetikleyicilerini (check-in/check-out, oda statüsü) belirleyin; BMS aksiyonlarını (HVAC, aydınlatma) tanımlayın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "3 temel senaryoyu tanımlayın",
+          "text": "Check-in ön koşullandırma, boş oda enerji modu ve gece modu + bakım alarmı senaryolarını KPI’larıyla birlikte yazın."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Mahremiyet ve güvenliği varsayılan yapın",
+          "text": "Minimum veri, rol bazlı erişim, log/retention ve IoT ağ segmentasyonu (VLAN/firewall) kararlarını tasarıma gömün."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Pilot çalıştırın ve eşikleri iyileştirin",
+          "text": "Seçilen oda grubunda önce/sonra ölçüm yapın; konfor geri bildirimine göre setpoint ve tetik eşiklerini ayarlayın, bakım alarmlarını runbook’a bağlayın."
+        }
+      ]
+    }
+  ]
 }
 
     }
