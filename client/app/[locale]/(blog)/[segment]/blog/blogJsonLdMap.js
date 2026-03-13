@@ -20190,7 +20190,249 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
-}
+},
+
+"outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek",
+      "headline": "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+      "name": "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+      "description": "Outsourcing/paylaşımlı çağrı merkezinde performansı ölçün: KPI+SLA sözleşmesi, günlük/haftalık vendor raporu, kalite denetimi ve benchmark kıyası. Somut şablonlar içerir.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek#article" },
+      "about": [
+        "Outsourcing",
+        "Shared Call Center",
+        "SLA",
+        "Vendor KPI",
+        "Quality Audit",
+        "Hotel Group"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek"
+        }
+      ]
+    }
+  ]
+},
+
+"cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak",
+      "headline": "Çağrı Merkezi Performansını Gelir ve RevPAR ile Nasıl Bağlarsınız?",
+      "name": "Çağrı Merkezi Performansını Gelir ve RevPAR ile Nasıl Bağlarsınız?",
+      "description": "Çağrı KPI’larını gelirle bağlayın: telefon/WhatsApp/OTA rezervasyonları, kanal bazlı gelir-kârlılık ve RevPAR/ADR/doluluk. Attribüsyon akışı ve dashboard şablonu.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak#article" },
+      "about": [
+        "Call Center KPI",
+        "Revenue",
+        "RevPAR",
+        "ADR",
+        "PMS Data",
+        "Channel Mix"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çağrı Merkezi Performansını Gelir ve RevPAR ile Nasıl Bağlarsınız?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak"
+        }
+      ]
+    }
+  ]
+},
+
+"pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu",
+      "headline": "Google Ads, Meta Ads ve SEO ile Çağrı Merkezi KPI Entegrasyonu: Kampanyalar Gerçekten Rezervasyon Getiriyor mu?",
+      "name": "Google Ads, Meta Ads ve SEO ile Çağrı Merkezi KPI Entegrasyonu: Kampanyalar Gerçekten Rezervasyon Getiriyor mu?",
+      "description": "Google Ads, Meta Ads ve SEO’dan gelen çağrıları call tracking ve UTM ile ayırın. Kampanya→çağrı→rezervasyon funnel’ı ve çağrı KPI’larıyla gerçek gelir etkisini ölçün.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu#article" },
+      "about": [
+        "Google Ads",
+        "Meta Ads",
+        "SEO",
+        "Call Tracking",
+        "Conversion",
+        "Attribution"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Google Ads, Meta Ads ve SEO ile Çağrı Merkezi KPI Entegrasyonu: Kampanyalar Gerçekten Rezervasyon Getiriyor mu?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu"
+        }
+      ]
+    }
+  ]
+},
+
+"yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":{}
 
     },
 

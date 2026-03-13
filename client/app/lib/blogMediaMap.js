@@ -18014,19 +18014,19 @@ export const BLOG_MEDIA_MAP = {
       caption: "Cok Dilli Performans Analizi: TR–EN–DE–RU Çağrı Merkezi KPI’larını Nasıl Okursunuz?"
     },
 
-          "h1-context": {
+          "h1-context-02": {
       src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-2.webp",
       alt: "Toplantı ritmi takvimi görünümü, günlük huddle ve haftalık review akış",
       caption: "Toplantı ritmi takvimi görünümü, günlük huddle ve haftalık review akış"
     },
 
-           "divider-01": {
+           "divider-03": {
       src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-3.webp",
       alt: "Governance ritmi ve karar aksiyon takip döngüsü, çağrı merkezi geçiş görseli",
       caption: "Governance ritmi ve karar aksiyon takip döngüsü, çağrı merkezi geçiş görseli"
     },
 
-    "divider-02": {
+    "divider-04": {
       src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-4.webp",
       alt: "Aylık strateji ve iyileştirme oturumu, toplantı ritmi geçiş görseli",
       caption: "Aylık strateji ve iyileştirme oturumu, toplantı ritmi geçiş görseli"
@@ -18054,6 +18054,210 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/callcenter/Callcenter5-9/Callcenter5-9-8.webp",
       alt: "Raporlama takvimi ve toplantı notu şablonu çıktıları, operasyon deliverables kartı",
       caption: "Raporlama takvimi ve toplantı notu şablonu çıktıları, operasyon deliverables kartı"
+    }
+  },
+
+
+  "outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-1.webp",
+      alt: "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+      caption: "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-2.webp",
+      alt: "Vendor dashboard ve iç ekip benchmark kıyası, otel çağrı merkezi performans görünümü",
+      caption: "Vendor dashboard ve iç ekip benchmark kıyası, otel çağrı merkezi performans görünümü"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-3.webp",
+      alt: "Outsourcing motivasyonu ve ölçüm disiplini, çağrı merkezi geçiş görseli",
+      caption: "Outsourcing motivasyonu ve ölçüm disiplini, çağrı merkezi geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-4.webp",
+      alt: "Denetim ve benchmark yaklaşımı, vendor yönetimi geçiş görseli",
+      caption: "Denetim ve benchmark yaklaşımı, vendor yönetimi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-5.webp",
+      alt: "Vendor QA audit ve KPI iyileştirme döngüsü, outsource performans akış diyagramı",
+      caption: "Vendor QA audit ve KPI iyileştirme döngüsü, outsource performans akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-6.webp",
+      alt: "Vendor audit checklist’i, KPI SLA rapor denetim çerçevesi",
+      caption: "Vendor audit checklist’i, KPI SLA rapor denetim çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-7.webp",
+      alt: "Vendor ve iç ekip KPI kıyas kartı, otel bazlı benchmark panel",
+      caption: "Vendor ve iç ekip KPI kıyas kartı, otel bazlı benchmark panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-10/Callcenter5-10-8.webp",
+      alt: "Vendor KPI tablosu ve sözleşme KPI maddeleri çıktıları, performans yönetimi deliverables",
+      caption: "Vendor KPI tablosu ve sözleşme KPI maddeleri çıktıları, performans yönetimi deliverables"
+    }
+  },
+
+
+   "cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-1.webp",
+      alt: "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?",
+      caption: "Outsourcing ve Paylaşımlı Çağrı Merkezi Performansını Nasıl Ölçersiniz?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-2.webp",
+      alt: "Vendor dashboard ve iç ekip benchmark kıyası, otel çağrı merkezi performans görünümü",
+      caption: "Vendor dashboard ve iç ekip benchmark kıyası, otel çağrı merkezi performans görünümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-3.webp",
+      alt: "Outsourcing motivasyonu ve ölçüm disiplini, çağrı merkezi geçiş görseli",
+      caption: "Outsourcing motivasyonu ve ölçüm disiplini, çağrı merkezi geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-4.webp",
+      alt: "Denetim ve benchmark yaklaşımı, vendor yönetimi geçiş görseli",
+      caption: "Denetim ve benchmark yaklaşımı, vendor yönetimi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-5.webp",
+      alt: "Vendor QA audit ve KPI iyileştirme döngüsü, outsource performans akış diyagramı",
+      caption: "Vendor QA audit ve KPI iyileştirme döngüsü, outsource performans akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-6.webp",
+      alt: "Vendor audit checklist’i, KPI SLA rapor denetim çerçevesi",
+      caption: "Vendor audit checklist’i, KPI SLA rapor denetim çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-7.webp",
+      alt: "Vendor ve iç ekip KPI kıyas kartı, otel bazlı benchmark panel",
+      caption: "Vendor ve iç ekip KPI kıyas kartı, otel bazlı benchmark panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-11/Callcenter5-11-8.webp",
+      alt: "Vendor KPI tablosu ve sözleşme KPI maddeleri çıktıları, performans yönetimi deliverables",
+      caption: "Vendor KPI tablosu ve sözleşme KPI maddeleri çıktıları, performans yönetimi deliverables"
+    }
+  },
+
+
+  "pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-1.webp",
+      alt: "Google Ads, Meta Ads ve SEO ile Çağrı Merkezi KPI Entegrasyonu: Kampanyalar Gerçekten Rezervasyon Getiriyor mu?",
+      caption: "Google Ads, Meta Ads ve SEO ile Çağrı Merkezi KPI Entegrasyonu: Kampanyalar Gerçekten Rezervasyon Getiriyor mu?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-2.webp",
+      alt: "Kampanya çağrı rezervasyon funnel görseli, pazarlama ve call center tek panel bağlamı",
+      caption: "Kampanya çağrı rezervasyon funnel görseli, pazarlama ve call center tek panel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-3.webp",
+      alt: "Ölçüm katmanları ve kampanya çağrı entegrasyonu, otel pazarlama geçiş görseli",
+      caption: "Ölçüm katmanları ve kampanya çağrı entegrasyonu, otel pazarlama geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-4.webp",
+      alt: "Attribüsyon ve raporlama ritmi, kampanya performans yönetimi geçiş görseli",
+      caption: "Attribüsyon ve raporlama ritmi, kampanya performans yönetimi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-5.webp",
+      alt: "Kampanya çağrı rezervasyon gelir attribüsyon akış diyagramı, funnel görselleştirme",
+      caption: "Kampanya çağrı rezervasyon gelir attribüsyon akış diyagramı, funnel görselleştirme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-6.webp",
+      alt: "Call tracking ve KPI entegrasyon checklist’i, kampanya ölçüm çerçevesi",
+      caption: "Call tracking ve KPI entegrasyon checklist’i, kampanya ölçüm çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-7.webp",
+      alt: "Kampanya bazlı çağrı KPI kartları, SLA bekleme dönüşüm rezervasyon paneli",
+      caption: "Kampanya bazlı çağrı KPI kartları, SLA bekleme dönüşüm rezervasyon paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-12/Callcenter5-12-8.webp",
+      alt: "Funnel şablonu ve call tracking tablo çıktıları, kampanya raporu deliverables kartı",
+      caption: "Funnel şablonu ve call tracking tablo çıktıları, kampanya raporu deliverables kartı"
+    }
+  },
+
+
+  "yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-1.webp",
+      alt: "Yüksek Sezon vs Düşük Sezon KPI Karşılaştırması: Hangi Rakam Ne Zaman Normal?",
+      caption: "Yüksek Sezon vs Düşük Sezon KPI Karşılaştırması: Hangi Rakam Ne Zaman Normal?"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-2.webp",
+      alt: "Yüksek ve düşük sezon KPI grafikleri, SLA call volume trend karşılaştırması",
+      caption: "Yüksek ve düşük sezon KPI grafikleri, SLA call volume trend karşılaştırması"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-3.webp",
+      alt: "Seasonality etkisi baskı ve verim KPI ayrımı, çağrı merkezi geçiş görseli",
+      caption: "Seasonality etkisi baskı ve verim KPI ayrımı, çağrı merkezi geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-4.webp",
+      alt: "Sezon hedef kartları ve planlama yaklaşımı, KPI bandı geçiş görseli",
+      caption: "Sezon hedef kartları ve planlama yaklaşımı, KPI bandı geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-5.webp",
+      alt: "Sezon baseline ve YoY kıyas akışı, KPI bandı oluşturma diyagramı",
+      caption: "Sezon baseline ve YoY kıyas akışı, KPI bandı oluşturma diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-6.webp",
+      alt: "Sezon hazırlık checklist’i, yüksek sezon öncesi KPI ve kapasite kontrol",
+      caption: "Sezon hazırlık checklist’i, yüksek sezon öncesi KPI ve kapasite kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-7.webp",
+      alt: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi”",
+      caption: "Yüksek sezon KPI hedef kartı, SLA bekleme terk bandı görselleştirmesi”"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-8.webp",
+      alt: "Sezon KPI grafikleri ve hedef kartı çıktıları, benchmark deliverables kartı",
+      caption: "Sezon KPI grafikleri ve hedef kartı çıktıları, benchmark deliverables kartı"
     }
   }
   

@@ -196,7 +196,11 @@ export const BLOG_MAP = {
     "kalite-dinleme-skorlarini-performans-analizine-baglamak":"BlogKaliteDinlemeSkorlariniPerformansAnalizineBaglamak",
     "gercek-zamanli-izleme-wallboard-ve-anlik-alarm-mekanizmalari":"BlogGercekZamanliIzlemeWallboardVeAnlikAlarmMekanizmalari",
     "cok-dilli-performans-analizi-tr-en-de-ru":"BlogCokDilliPerformansAnaliziTrEnDeRu",
-    "raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar":"BlogCagriMerkeziRaporlamaFrekansiVeYonetimRitmiGunlukHaftalikAylikToplantilar"
+    "raporlama-frekansi-ve-yonetim-ritmi-gunluk-haftalik-aylik-toplantilar":"BlogCagriMerkeziRaporlamaFrekansiVeYonetimRitmiGunlukHaftalikAylikToplantilar",
+    "outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek":"BlogCagriMerkeziOutsourcingVePaylasimliCagriMerkeziPerformansiniOlcmek",
+    "cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak":"BlogCagriMerkeziPerformansiniGelirVeRevparIleBaglamak",
+    "pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu":"BlogPazarlamaKanallariIleCagriMerkeziKpiEntegrasyonu",
+    "yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":"BlogYuksekSezonVeDusukSezonKpiKarsilastirmasi"
     
   },
 
