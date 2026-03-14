@@ -17,9 +17,9 @@ export function AiAnswerBlock({ text }) {
         backdrop-blur-md mx-auto
       "
     >
-      <div className="flex flex-col md:flex-row md:items-start md:gap-4 gap-3">
+      <div className="flex flex-col md:flex-row lg:items-start md:gap-4 gap-3">
         {/* Logo / Icon */}
-        <div className="flex items-center md:items-start gap-2">
+        <div className="flex items-center lg:items-start gap-2">
           <div
             className="
               flex h-10 w-10 lg:h-12 lg:w-12

@@ -4823,23 +4823,23 @@ export const BLOG_MEDIA_MAP = {
   "remarketing-nedir-oteller-icin-temel-rehber":{
      banner: {
       src: "/images/blog/sem/SEM3-1/SEM3-1-1.webp",
-      alt: "",
-      caption: ""
+      alt: "Remarketing Nedir? Oteller İçin Temel Mantık ve Başlangıç Rehberi",
+      caption: "Remarketing Nedir? Oteller İçin Temel Mantık ve Başlangıç Rehberi"
     },
 
-          "h1-context-02": {
+          "h1-context": {
       src: "/images/blog/sem/SEM3-1/SEM3-1-2.webp",
       alt: "Remarketingin rezervasyon funnel içindeki rolünü anlatan otel bağlam görseli",
       caption: "Remarketingin rezervasyon funnel içindeki rolünü anlatan otel bağlam görseli"
     },
 
-           "divider-03": {
+           "divider-01": {
       src: "/images/blog/sem/SEM3-1/SEM3-1-3.webp",
       alt: "Remarketing nedir sorusunu otel örneğiyle ayıran bölüm görseli",
       caption: "Remarketing nedir sorusunu otel örneğiyle ayıran bölüm görseli"
     },
 
-    "divider-04": {
+    "divider-02": {
       src: "/images/blog/sem/SEM3-1/SEM3-1-4.webp",
       alt: "Otel remarketing kitle türlerini ayıran sade bölüm ayırıcı görsel",
       caption: "Otel remarketing kitle türlerini ayıran sade bölüm ayırıcı görsel"
@@ -4857,7 +4857,7 @@ export const BLOG_MEDIA_MAP = {
       caption: "Remarketing senaryolarını hızlı planlamak için otel checklist kartı görseli"
     },
 
-      "kpi-07": {
+      "kpi-table-07": {
       src: "/images/blog/sem/SEM3-1/SEM3-1-7.webp",
       alt: "Remarketing performansını CPA ve dönüşümle özetleyen otel KPI kartı",
       caption: "Remarketing performansını CPA ve dönüşümle özetleyen otel KPI kartı"
@@ -18258,6 +18258,310 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/callcenter/Callcenter5-13/Callcenter5-13-8.webp",
       alt: "Sezon KPI grafikleri ve hedef kartı çıktıları, benchmark deliverables kartı",
       caption: "Sezon KPI grafikleri ve hedef kartı çıktıları, benchmark deliverables kartı"
+    }
+  },
+
+
+  "hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-1.webp",
+      alt: "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?",
+      caption: "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-2.webp",
+      alt: "SLA düşüşü ve bekleme artışı trend grafikleri, çağrı merkezi hata sinyali",
+      caption: "SLA düşüşü ve bekleme artışı trend grafikleri, çağrı merkezi hata sinyali"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-3.webp",
+      alt: "Semptom ve kök neden ayrımı, çağrı merkezi hata analizi geçiş görseli",
+      caption: "Semptom ve kök neden ayrımı, çağrı merkezi hata analizi geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-4.webp",
+      alt: "Önceliklendirme ve before after takip, süreç iyileştirme geçiş görseli",
+      caption: "Önceliklendirme ve before after takip, süreç iyileştirme geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-5.webp",
+      alt: "Kök neden ishikawa ve veri analiz aksiyon takip akış diyagramı",
+      caption: "Kök neden ishikawa ve veri analiz aksiyon takip akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-6.webp",
+      alt: "Hata türü etki matrisi ve önceliklendirme checklist’i, iyileştirme çerçevesi",
+      caption: "Hata türü etki matrisi ve önceliklendirme checklist’i, iyileştirme çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-7.webp",
+      alt: "Alarm KPI seti kartı, SLA repeat call complaint rate dönüşüm sinyalleri",
+      caption: "Alarm KPI seti kartı, SLA repeat call complaint rate dönüşüm sinyalleri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-14/Callcenter5-14-8.webp",
+      alt: "Önceliklendirme tablosu ve before after KPI takibi çıktıları, süreç deliverables",
+      caption: "Önceliklendirme tablosu ve before after KPI takibi çıktıları, süreç deliverables"
+    }
+  },
+
+  "multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-1.webp",
+      alt: "Zincir ve Multi-Otelli Yapılarda Çağrı Merkezi Performans Karşılaştırması Nasıl Yapılır?",
+      caption: "Zincir ve Multi-Otelli Yapılarda Çağrı Merkezi Performans Karşılaştırması Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-2.webp",
+      alt: "Grup ve otel bazlı KPI tablo görünümü, segment kırılımlı benchmark karşılaştırması",
+      caption: "Grup ve otel bazlı KPI tablo görünümü, segment kırılımlı benchmark karşılaştırması"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-3.webp",
+      alt: "Adil benchmark mantığı ve segmentasyon, zincir otel geçiş görseli",
+      caption: "Adil benchmark mantığı ve segmentasyon, zincir otel geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-4.webp",
+      alt: "Best practice paylaşımı ve destek planı, grup yönetimi geçiş görseli",
+      caption: "Best practice paylaşımı ve destek planı, grup yönetimi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-5.webp",
+      alt: "Grup benchmark best practice ve otel destek planı akış diyagram",
+      caption: "Grup benchmark best practice ve otel destek planı akış diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-6.webp",
+      alt: "Grup benchmark checklist’i, segment bandı ve otel bazlı hedef çerçevesi",
+      caption: "Grup benchmark checklist’i, segment bandı ve otel bazlı hedef çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-7.webp",
+      alt: "Segment bazlı KPI skor kartı, resort city butik otel karşılaştırma paneli",
+      caption: "Segment bazlı KPI skor kartı, resort city butik otel karşılaştırma paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-15/Callcenter5-15-8.webp",
+      alt: "Best practice paketi ve otel bazlı hedef kartları çıktıları, grup benchmark deliverables",
+      caption: "Best practice paketi ve otel bazlı hedef kartları çıktıları, grup benchmark deliverables"
+    }
+  },
+
+
+   "cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-1.webp",
+      alt: "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri",
+      caption: "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-2.webp",
+      alt: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması”",
+      caption: "ACD PMS OTA CRM GA4 verilerinin tek tabloda birleşmesi, otel çağrı merkezi entegrasyon şeması”"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-3.webp",
+      alt: "Veri modeli olmadan KPI yanıltır, ortak tanımlar ve ID’ler geçiş görseli",
+      caption: "Veri modeli olmadan KPI yanıltır, ortak tanımlar ve ID’ler geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-4.webp",
+      alt: "Veri kalitesi ve konsolidasyon, dashboard ve self service analitik geçişi",
+      caption: "Veri kalitesi ve konsolidasyon, dashboard ve self service analitik geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-5.webp",
+      alt: "Basit çağrı merkezi veri modeli diyagramı, fact ve dimension şeması",
+      caption: "Basit çağrı merkezi veri modeli diyagramı, fact ve dimension şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-6.webp",
+      alt: "Veri modeli kontrol listesi, ortak alan sözlüğü ve test adımları çerçevesi",
+      caption: "Veri modeli kontrol listesi, ortak alan sözlüğü ve test adımları çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-7.webp",
+      alt: "Veri kalitesi KPI kartları, eşleşme oranı ve duplikasyon alarmı paneli",
+      caption: "Veri kalitesi KPI kartları, eşleşme oranı ve duplikasyon alarmı paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-16/Callcenter5-16-8.webp",
+      alt: "Veri modeli şeması ve alan haritası çıktıları, KPI tutarlılığı deliverables",
+      caption: "Veri modeli şeması ve alan haritası çıktıları, KPI tutarlılığı deliverables"
+    }
+  },
+
+   "kpi-trend-analizi-ve-basit-ongorucu-modeller":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-1.webp",
+      alt: "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak",
+      caption: "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-2.webp",
+      alt: "KPI trend ve hareketli ortalama grafiği, çağrı hacmi ve SLA birlikte okuma",
+      caption: "KPI trend ve hareketli ortalama grafiği, çağrı hacmi ve SLA birlikte okuma"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-3.webp",
+      alt: "Geçmiş rapor ile trend analizi farkı, yön ve hız odaklı geçiş görseli",
+      caption: "Geçmiş rapor ile trend analizi farkı, yön ve hız odaklı geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-4.webp",
+      alt: "Forecast bandı ve sınırlar, sezonsallık ve bağlam notu geçiş görseli",
+      caption: "Forecast bandı ve sınırlar, sezonsallık ve bağlam notu geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-5.webp",
+      alt: "Trend ve sezonsallık bileşenleri şeması, moving average ile sinyal ayırma",
+      caption: "Trend ve sezonsallık bileşenleri şeması, moving average ile sinyal ayırma"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-6.webp",
+      alt: "5 adımda basit forecast checklist’i, çağrı merkezi trend okuma çerçevesi",
+      caption: "5 adımda basit forecast checklist’i, çağrı merkezi trend okuma çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-7.webp",
+      alt: "Trend karar kartı, call volume SLA bekleme ve staffing aksiyon tetikleyicileri",
+      caption: "Trend karar kartı, call volume SLA bekleme ve staffing aksiyon tetikleyicileri"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-17/Callcenter5-17-8.webp",
+      alt: "Trend grafikleri ve basit forecast şablonu çıktıları, raporlama deliverables",
+      caption: "Trend grafikleri ve basit forecast şablonu çıktıları, raporlama deliverables"
+    }
+  },
+
+
+   "maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-1.webp",
+      alt: "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?",
+      caption: "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-2.webp",
+      alt: "AHT ve cost per call ilişkisi, SLA hedefi ve maliyet bandı karşılaştırması",
+      caption: "AHT ve cost per call ilişkisi, SLA hedefi ve maliyet bandı karşılaştırması"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-3.webp",
+      alt: "Maliyet perspektifinden KPI okuma, verimlilik ve deneyim dengesi geçiş görseli",
+      caption: "Maliyet perspektifinden KPI okuma, verimlilik ve deneyim dengesi geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-4.webp",
+      alt: "SLA bandı ve overtime outsource maliyeti, bütçe karar geçiş görseli",
+      caption: "SLA bandı ve overtime outsource maliyeti, bütçe karar geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-5.webp",
+      alt: "Hedef SLA bandı ve maliyet bandı karşılaştırma şeması, cost efficiency diyagramı",
+      caption: "Hedef SLA bandı ve maliyet bandı karşılaştırma şeması, cost efficiency diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-6.webp",
+      alt: "Maliyet bileşenleri ve KPI denge checklist’i, cost per resolution çerçevesi",
+      caption: "Maliyet bileşenleri ve KPI denge checklist’i, cost per resolution çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-7.webp",
+      alt: "Cost per call ve overtime repeat call KPI kartı, maliyet tetikleyicileri paneli",
+      caption: "Cost per call ve overtime repeat call KPI kartı, maliyet tetikleyicileri paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-18/Callcenter5-18-8.webp",
+      alt: "Maliyet denge tablosu ve SLA maliyet kıyas çıktıları, finans deliverables kartı",
+      caption: "Maliyet denge tablosu ve SLA maliyet kıyas çıktıları, finans deliverables kartı"
+    }
+  },
+
+
+     "veri-kalitesi-data-governance-ve-kpi-guvenilirligi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-1.webp",
+      alt: "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?",
+      caption: "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-2.webp",
+      alt: "Veri kalite sorunları ve KPI tutarsızlığı görünümü, dashboard güven problemi bağlamı",
+      caption: "Veri kalite sorunları ve KPI tutarsızlığı görünümü, dashboard güven problemi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-3.webp",
+      alt: "Veri kalitesi boyutları doğruluk tamlık tutarlılık, KPI güveni geçiş görseli",
+      caption: "Veri kalitesi boyutları doğruluk tamlık tutarlılık, KPI güveni geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-4.webp",
+      alt: "Governance ritmi ve sürekli izleme, data quality alarm geçiş görseli",
+      caption: "Governance ritmi ve sürekli izleme, data quality alarm geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-5.webp",
+      alt: "Data governance rol ve kalite kontrol akış diyagramı, owner steward modeli",
+      caption: "Data governance rol ve kalite kontrol akış diyagramı, owner steward modeli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-6.webp",
+      alt: "Veri kalite checklist’i ve hızlı teşhis listesi, KPI güvenilirlik çerçevesi",
+      caption: "Veri kalite checklist’i ve hızlı teşhis listesi, KPI güvenilirlik çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-7.webp",
+      alt: "KPI definition catalog örnek sayfa, SLA ve conversion tanımı görünümü",
+      caption: "KPI definition catalog örnek sayfa, SLA ve conversion tanımı görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-19/Callcenter5-19-8.webp",
+      alt: "Data dictionary ve governance dokümanı çıktıları, KPI güveni deliverables",
+      caption: "Data dictionary ve governance dokümanı çıktıları, KPI güveni deliverables"
     }
   }
   

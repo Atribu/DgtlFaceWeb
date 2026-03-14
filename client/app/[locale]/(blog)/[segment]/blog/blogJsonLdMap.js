@@ -20432,7 +20432,605 @@ export const BLOG_JSONLD_MAP = {
   ]
 },
 
-"yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":{}
+"yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi",
+      "headline": "Yüksek Sezon vs Düşük Sezon KPI Karşılaştırması: Hangi Rakam Ne Zaman Normal?",
+      "name": "Yüksek Sezon vs Düşük Sezon KPI Karşılaştırması: Hangi Rakam Ne Zaman Normal?",
+      "description": "Yüksek ve düşük sezonda çağrı merkezi KPI’ları aynı olmaz. SLA, çağrı hacmi, bekleme ve dönüşümü sezon bazlı benchmark ile kıyaslayın; YoY karşılaştırma ve hedef şablonuyla yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi#article" },
+      "about": [
+        "Seasonality",
+        "High Season",
+        "Low Season",
+        "SLA",
+        "Call Volume",
+        "Conversion Rate"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yüksek Sezon vs Düşük Sezon KPI Karşılaştırması: Hangi Rakam Ne Zaman Normal?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi"
+        }
+      ]
+    }
+  ]
+},
+
+"hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi",
+      "headline": "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?",
+      "name": "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?",
+      "description": "SLA düşüşü, tekrar arama ve şikâyet artışını KPI’larla yakalayın. Kök neden (Ishikawa) ve önceliklendirme matrisiyle iyileştirme projeleri çıkarın, before/after takip edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi#article" },
+      "about": [
+        "Error Analysis",
+        "Root-Cause",
+        "SLA",
+        "Repeat Call",
+        "Complaint Rate",
+        "Improvement Project"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çağrı Merkezi KPI’ları ile Hata Analizi ve Süreç İyileştirme Nasıl Yapılır?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi"
+        }
+      ]
+    }
+  ]
+},
+
+"multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi",
+      "headline": "Zincir ve Multi-Otellİ Yapılarda Çağrı Merkezi Performans Karşılaştırması Nasıl Yapılır?",
+      "name": "Zincir ve Multi-Otellİ Yapılarda Çağrı Merkezi Performans Karşılaştırması Nasıl Yapılır?",
+      "description": "Zincir otellerde çağrı merkezi KPI’larını segment (resort/city/butik) ve otel bazında kıyaslayın. Grup vs otel metrikleri, best practice akışı ve otel bazlı hedef planı ile adil benchmark kurun.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi#article" },
+      "about": [
+        "Hotel Group",
+        "Multi-Property",
+        "Benchmark",
+        "Segment",
+        "Call Center KPI"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Zincir ve Multi-Otellİ Yapılarda Çağrı Merkezi Performans Karşılaştırması Nasıl Yapılır?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi"
+        }
+      ]
+    }
+  ]
+},
+
+"cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu",
+      "headline": "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri",
+      "name": "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri",
+      "description": "Telefon/ACD, PMS, OTA, CRM, WhatsApp, web chat ve GA4 verisini tek modelde birleştirin. Ortak ID, zaman damgası ve otel kodu standardıyla KPI tutarsızlığını bitirin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu#article" },
+      "about": [
+        "Data Model",
+        "Data Source",
+        "Call Center System",
+        "PMS",
+        "OTA",
+        "CRM",
+        "GA4"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Çağrı Merkezi Veri Modeli ve Kaynak Entegrasyonu: Doğru KPI İçin Doğru Veri",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu"
+        }
+      ]
+    }
+  ]
+},
+
+"kpi-trend-analizi-ve-basit-ongorucu-modeller":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller",
+      "headline": "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak",
+      "name": "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak",
+      "description": "Çağrı hacmi, SLA ve bekleme trendlerini hareketli ortalama ile okuyun. Basit forecast ile kadro, bütçe ve kampanya planlayın; sezonsallık ve bağlamı dikkate alın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller#article" },
+      "about": [
+        "KPI Trend",
+        "Forecast",
+        "Moving Average",
+        "Seasonality",
+        "Call Volume",
+        "SLA"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KPI Trend Analizi ve Basit Öngörücü Modeller: Sadece Dünü Değil Yarını da Okumak",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-trend-analizi-ve-basit-ongorucu-modeller",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KPI trend analizi nedir, nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI’ları 7/14/30 gün pencerelerinde izleyip trend yönü ve hızını okuyarak yapılır. Segment kırılımı ve kampanya/sezon gibi bağlam notu eklenmeden yapılan trend okuması yanıltıcı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çağrı hacmini basitçe nasıl öngörebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "7 veya 14 günlük hareketli ortalama ile gürültüyü azaltıp trendi netleştirin; YoY kıyasla sezon etkisini kontrol edin. Kısa dönem için band tahmini üretip staffing planına bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hareketli ortalama ve trend çizgileri ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Günlük dalgalanmaları yumuşatıp gerçek trend yönünü gösterir. Böylece tek günlük anomaliye aşırı reaksiyon vermeden daha isabetli planlama yapabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Öngörücü analiz sonuçlarını kadro ve bütçeye nasıl yansıtırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Forecast bandını belirleyip pik saatlerde kapasite artırımı, fazla mesai planı veya kampanya zamanlaması gibi aksiyonlara çevirin. 14–30 gün KPI takibiyle sonucu doğrulayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama",
+      "headline": "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?",
+      "name": "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?",
+      "description": "FTE, dakika maliyeti ve fazla mesaiyi AHT, SLA ve tekrar arama KPI’larıyla birleştirin. Cost per call ve hedef SLA vs maliyet tablosuyla denge noktasını bulun.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama#article" },
+      "about": [
+        "Cost per Call",
+        "AHT",
+        "FTE",
+        "SLA",
+        "Overtime",
+        "Outsourcing"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Maliyet Analizi ve Verimlilik: Çağrı Merkezi KPI’larını Süre ve Maliyet ile Nasıl Bağlarsınız?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama"
+        }
+      ]
+    }
+  ]
+},
+
+"veri-kalitesi-data-governance-ve-kpi-guvenilirligi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/veri-kalitesi-data-governance-ve-kpi-guvenilirligi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/veri-kalitesi-data-governance-ve-kpi-guvenilirligi",
+      "headline": "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?",
+      "name": "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?",
+      "description": "Veri kalitesi düşükse en iyi dashboard bile yanlış karar üretir. KPI tanım kataloğu, data owner/steward rolleri ve otomatik kalite kontrolleriyle çağrı merkezi KPI güvenilirliğini artırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/veri-kalitesi-data-governance-ve-kpi-guvenilirligi#article" },
+      "about": [
+        "Data Quality",
+        "Data Governance",
+        "KPI Definition",
+        "Data Owner",
+        "Data Steward",
+        "Call Center Data"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/veri-kalitesi-data-governance-ve-kpi-guvenilirligi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Veri Kalitesi, Data Governance ve KPI Güvenilirliği: Rakamlarınıza Ne Kadar Güveniyorsunuz?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/veri-kalitesi-data-governance-ve-kpi-guvenilirligi"
+        }
+      ]
+    }
+  ]
+}
 
     },
 

@@ -200,7 +200,15 @@ export const BLOG_MAP = {
     "outsourcing-ve-paylasimli-cagri-merkezi-performansini-olcmek":"BlogCagriMerkeziOutsourcingVePaylasimliCagriMerkeziPerformansiniOlcmek",
     "cagri-merkezi-performansini-gelir-ve-revpar-ile-baglamak":"BlogCagriMerkeziPerformansiniGelirVeRevparIleBaglamak",
     "pazarlama-kanallari-ile-cagri-merkezi-kpi-entegrasyonu":"BlogPazarlamaKanallariIleCagriMerkeziKpiEntegrasyonu",
-    "yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":"BlogYuksekSezonVeDusukSezonKpiKarsilastirmasi"
+    "yuksek-sezon-ve-dusuk-sezon-kpi-karsilastirmasi":"BlogYuksekSezonVeDusukSezonKpiKarsilastirmasi",
+
+    //callcenter 5-14
+    "hata-analizi-ve-surec-iyilestirme-cagri-merkezi-kpi":"BlogHataAnaliziVeSurecIyilestirmeCagriMerkeziKpi",
+    "multi-otel-yapilarinda-cagri-merkezi-performans-karsilastirmasi":"BlogMultiOtelYapilarindaCagriMerkeziPerformansKarsilastirmasi",
+    "cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu":"BlogCagriMerkeziVeriModeliVeKaynakEntegrasyonu",
+    "kpi-trend-analizi-ve-basit-ongorucu-modeller":"BlogCagriMerkeziKpiTrendAnaliziVeBasitOngorucuModeller",
+    "maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama":"BlogCagriMerkeziMaliyetAnaliziVeVerimlilikKpiSureUzerindenMaliyetHesaplama",
+    "veri-kalitesi-data-governance-ve-kpi-guvenilirligi":"BlogCagriMerkeziVeriKalitesiDataGovernanceVeKpiGuvenilirligi"
     
   },
 

@@ -195,10 +195,10 @@ const AutoBreadcrumbs = ({ className = "" }) => {
     <>
       <nav
         aria-label="Breadcrumb"
-        className={`w-[100%] md:w-[94%] lg:w-[88%] flex justify-start  ${className}`}
+        className={`w-[100%] md:w-[98%] lg:w-[88%] flex justify-start  ${className}`}
       >
-        <div className="gradient-border-nav inline-flex max-w-full min-w-[370px]">
-          <ol className="flex flex-wrap items-center gap-1 px-3 py-1.5 text-[12px] lg:text-[14px] font-medium text-white">
+        <div className="gradient-border-nav inline-flex max-w-full min-w-[370px] bg-[#140f2599] rounded-2xl">
+          <ol className="flex flex-wrap items-center gap-1 px-2 lg:px-3 py-1.5 text-[12px] lg:text-[14px] font-medium text-white w-full">
             {items.map((item, index) => {
               const isLast = index === items.length - 1;
 
@@ -230,7 +230,7 @@ const AutoBreadcrumbs = ({ className = "" }) => {
         </div>
       </nav>
 
-      <style jsx>{`
+      {/* <style jsx>{`
         .gradient-border-nav {
           width: 80vw;
           border-radius: 999px;
@@ -255,7 +255,7 @@ const AutoBreadcrumbs = ({ className = "" }) => {
           mask-composite: exclude;
           pointer-events: none;
         }
-      `}</style>
+      `}</style> */}
     </>
   );
 };
