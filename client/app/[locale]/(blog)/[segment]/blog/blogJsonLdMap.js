@@ -21030,6 +21030,465 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook",
+      "headline": "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
+      "name": "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
+      "description": "KPI sapmalarını runbook’larla operasyonel aksiyona dönüştürün: SLA, bekleme, şikâyet ve dönüşüm için band eşikleri, sahiplik ve adım adım aksiyonlar. Eğitim ve yönetim ritmine entegre edin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook#article" },
+      "about": [
+        "KPI Deviation",
+        "Runbook",
+        "Playbook",
+        "SLA",
+        "Complaint Rate",
+        "Conversion Rate"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KPI sapması nedir, nasıl anlaşılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI’nın hedef veya normal bandın dışına çıkmasıdır. En doğru yöntem, sezon ve pik saat farkını dikkate alan sarı/kırmızı band eşikleriyle sapmayı tanımlamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA veya bekleme süresi bozulduğunda ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce triage yapın (rezervasyon önceliği), ardından hızlı kapasite hamlesi ve kanal yönlendirme uygulayın. Stabilizasyondan sonra kök neden ve takip KPI setini yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet oranı arttığında hangi adımları izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Talep türünü ve segmenti belirleyin, örnek kayıt inceleyin (QA) ve script/policy netliğini düzeltin. Sonra çözüm süresi ve FCR ile birlikte takip edin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Runbook ve playbook dokümanları nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her KPI için band eşik, sahiplik, kontrol listesi, aksiyon adımları ve escalation içeren tek sayfa runbook hazırlanır. Runbook’lar merkezi depoda tutulur ve eğitim/ritme bağlanır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yapay-zeka-performans-kokpiti-cx-copilot":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot",
+      "headline": "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi",
+      "name": "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi",
+      "description": "Yapay zekâ destekli performans kokpitleri, KPI’ları otomatik özetleyip next-best-action önerileri sunar. Ancak öneriler insan onayı ve guardrail’lerle güvenli şekilde aksiyona dönüştürülmelidir.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot#article" },
+      "about": [
+        "AI Performance Copilot",
+        "Call Center KPI",
+        "Dashboard",
+        "Recommendation Engine",
+        "Hotel",
+        "CX"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-performans-kokpiti-cx-copilot",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ destekli performans kokpiti nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI’ları otomatik özetleyen, anomaliyi yakalayan ve next-best-action önerileri sunan karar destek dashboard yaklaşımıdır. Öneriler insan onayıyla uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI, çağrı merkezi KPI’larını nasıl özetleyip aksiyon önerir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI trendlerini ve band sapmalarını tespit eder, özet kartlar üretir ve kapasite, kanal yönlendirme veya kalite kontrol gibi aksiyon önerileri çıkarır. Sonuçlar takip KPI’larıyla doğrulanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CX copilot yaklaşımı otellerde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce 5–7 kritik KPI seçilir, özet kartları kurulup 3 öneri tipiyle başlanır. Onay–log–takip döngüsüyle 30 gün içinde kalibre edilerek kademeli genişletilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI önerileri insan onayıyla nasıl dengelenmelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öneri kanıt ve bağlam notuyla sunulmalı; yönetici kabul/ertele/red kararını vermeli ve sonuç KPI’larıyla ölçülmelidir. Otomatik uygulama yerine guardrail yaklaşımı güveni korur."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"gamification-ve-performans-tahtalari-otel-cagri-merkezi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi",
+      "headline": "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+      "name": "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+      "description": "Gamification, çağrı merkezinde KPI’ları ceza değil oyun ve takdir diliyle yöneten motivasyon yaklaşımıdır. Doğru KPI seçimi, rozet/leaderboard tasarımı ve risk yönetimi ile uygulanmalıdır.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi#article" },
+      "about": [
+        "Gamification",
+        "Leaderboard",
+        "Badge",
+        "Call Center KPI",
+        "QA Score",
+        "Training Participation"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Performans Analizi & Raporlama",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/gamification-ve-performans-tahtalari-otel-cagri-merkezi"
+        }
+      ]
+    }
+  ]
+},
+
+"cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi",
+      "headline": "CX Score (Bileşik Deneyim Skoru): Otel Çağrı Merkezinde Yeni Nesil KPI’lar",
+      "name": "CX Score (Bileşik Deneyim Skoru): Otel Çağrı Merkezinde Yeni Nesil KPI’lar",
+      "description": "CX Score, SLA, FCR, NPS, şikâyet ve yorum puanı gibi metrikleri tek bir bileşik skor altında özetler. Ancak şeffaf ağırlık ve alt KPI breakdown’ı olmadan tek başına karar aracı olarak kullanılmamalıdır.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi#article" },
+      "about": [
+        "CX Score",
+        "SLA",
+        "FCR",
+        "NPS",
+        "Complaint Rate",
+        "Online Reviews"
+      ],
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Performans Analizi & Raporlama", "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi" },
+        { "@type": "ListItem", "position": 4, "name": "CX Score (Bileşik Deneyim Skoru): Otel Çağrı Merkezinde Yeni Nesil KPI’lar", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi#faq",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/cx-score-bileşik-deneyim-skoru-yeni-nesil-kpi",
+      "inLanguage": "tr-TR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "CX Score nedir, otel çağrı merkezinde nasıl hesaplanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA, FCR, NPS, şikâyet ve yorum puanı gibi metriklerin normalize edilip ağırlıklı olarak birleştirilmesiyle oluşturulan bileşik deneyim skorudur; mantık bileşenleri ortak banda çekip ağırlıklarla özet skor üretmektir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CX Score tek başına yeterli midir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. CX Score bir üst seviye özet KPI’dır; mutlaka bileşen breakdown’ı ve segment kırılımıyla birlikte okunmalıdır. Tek skorla karar, yanlış önceliklendirmeye yol açabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yönetim toplantılarında CX Score’u nasıl sunmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce CX Score trendini, sonra bileşen breakdown’ını ve segment kırılımını (otel/kanal/dil) gösterin. Aksiyonları düşen bileşene göre belirleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "CX Score’un en büyük riski nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hatalı ağırlıklarla yanlış önceliklendirme üretmesi ve kök nedeni saklamasıdır. Şeffaf formül, versiyon yönetimi ve alt KPI’ların görünürlüğü şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": ["Article", "Report"],
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır",
+      "headline": "Speech Analytics ve Duygu Analizi Sonuçlarını KPI Paneline Nasıl Taşırsınız?",
+      "name": "Speech Analytics ve Duygu Analizi Sonuçlarını KPI Paneline Nasıl Taşırsınız?",
+      "description": "Speech analytics ve duygu analizi, çağrı kayıtlarını metne çevirip konu ve sentiment sinyalleri üretir. Bu nitel içgörüyü KPI paneline ekleyerek eğitim, script ve service recovery aksiyonlarını hızlandırın.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır#article" },
+      "about": [ "Speech Analytics", "Sentiment Analysis", "Topic Tagging", "Call Center KPI", "QA", "Training" ],
+      "inLanguage": "tr-TR",
+      "publisher": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer-block"] }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Performans Analizi & Raporlama", "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi" },
+        { "@type": "ListItem", "position": 4, "name": "Speech Analytics ve Duygu Analizi Sonuçlarını KPI Paneline Nasıl Taşırsınız?", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasınır" }
+      ]
+    }
+  ]
 }
 
     },

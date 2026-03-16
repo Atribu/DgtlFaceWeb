@@ -18563,6 +18563,263 @@ export const BLOG_MEDIA_MAP = {
       alt: "Data dictionary ve governance dokümanı çıktıları, KPI güveni deliverables",
       caption: "Data dictionary ve governance dokümanı çıktıları, KPI güveni deliverables"
     }
+  },
+
+
+  "kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-1.webp",
+      alt: "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?",
+      caption: "KPI Bazlı Runbook ve Aksiyon Planları: KPI Sapınca Kim Ne Yapacak?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-2.webp",
+      alt: "KPI eşik ve aksiyon tablosu örneği, vardiya lideri için tek sayfa runbook",
+      caption: "KPI eşik ve aksiyon tablosu örneği, vardiya lideri için tek sayfa runbook"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-3.webp",
+      alt: "Deviation bandı ve renk mantığı, sarı kırmızı eşik geçiş görseli",
+      caption: "Deviation bandı ve renk mantığı, sarı kırmızı eşik geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-4.webp",
+      alt: "Örnek senaryolar ve runbook sayfası, aksiyon rehberi geçiş görseli",
+      caption: "Örnek senaryolar ve runbook sayfası, aksiyon rehberi geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-5.webp",
+      alt: "KPI deviation triage aksiyon stabilizasyon akış diyagramı, playbook şeması",
+      caption: "KPI deviation triage aksiyon stabilizasyon akış diyagramı, playbook şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-6.webp",
+      alt: "Runbook kontrol listesi, sahiplik ve takip KPI’ları çerçevesi",
+      caption: "Runbook kontrol listesi, sahiplik ve takip KPI’ları çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-7.webp",
+      alt: "SLA şikâyet dönüşüm sapma kartları, runbook tetik KPI panel",
+      caption: "SLA şikâyet dönüşüm sapma kartları, runbook tetik KPI panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-20/Callcenter5-20-8.webp",
+      alt: "Runbook şablonu ve KPI eşik aksiyon tablosu çıktıları, operasyon deliverables",
+      caption: "Runbook şablonu ve KPI eşik aksiyon tablosu çıktıları, operasyon deliverables"
+    }
+  },
+
+
+
+  "yapay-zeka-performans-kokpiti-cx-copilot":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-1.webp",
+      alt: "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi",
+      caption: "Yapay Zekâ Destekli Performans Kokpitleri: Otel Çağrı Merkezi İçin “CX Copilot” Dönemi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-2.webp",
+      alt: "Bugün neye bakmalıyım özet kartları, otel çağrı merkezi CX copilot kokpit görünümü",
+      caption: "Bugün neye bakmalıyım özet kartları, otel çağrı merkezi CX copilot kokpit görünümü"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-3.webp",
+      alt: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli”",
+      caption: "Dashboarddan copilot dönüşümü, AI özet ve öneri katmanı geçiş görseli”"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-4.webp",
+      alt: "Riskler ve başlangıç adımları, insan onayı ve guardrail geçiş görseli",
+      caption: "Riskler ve başlangıç adımları, insan onayı ve guardrail geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-5.webp",
+      alt: "Veri özet öneri insan onayı aksiyon akış diyagramı, CX copilot şeması",
+      caption: "Veri özet öneri insan onayı aksiyon akış diyagramı, CX copilot şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-6.webp",
+      alt: "AI önerisi insan onayı aksiyon kontrol listesi, güvenli copilot çerçevesi",
+      caption: "AI önerisi insan onayı aksiyon kontrol listesi, güvenli copilot çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-7.webp",
+      alt: "AI KPI özet kartları, top risk top fırsat anomali ve öneri kartları",
+      caption: "AI KPI özet kartları, top risk top fırsat anomali ve öneri kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-21/Callcenter5-21-8.webp",
+      alt: "AI kokpit mockup ve öneri akışı çıktıları, yönetim karar destek deliverables",
+      caption: "AI kokpit mockup ve öneri akışı çıktıları, yönetim karar destek deliverables"
+    }
+  },
+
+
+
+  "gamification-ve-performans-tahtalari-otel-cagri-merkezi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-1.webp",
+      alt: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+      caption: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-2.webp",
+      alt: "Leaderboard ve rozet kartları örneği, otel çağrı merkezi motivasyon panosu görünümü",
+      caption: "Leaderboard ve rozet kartları örneği, otel çağrı merkezi motivasyon panosu görünümü"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-3.webp",
+      alt: "Gamification motivasyon ve kalite odaklı kültür, çağrı merkezi geçiş görseli",
+      caption: "Gamification motivasyon ve kalite odaklı kültür, çağrı merkezi geçiş görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-4.webp",
+      alt: "Yanlış kullanım riskleri ve ölçüm yaklaşımı, burnout ve stres dengesi geçişi",
+      caption: "Yanlış kullanım riskleri ve ölçüm yaklaşımı, burnout ve stres dengesi geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-5.webp",
+      alt: "Gamification hedef rozet takdir ölçüm kalibrasyon akış diyagramı",
+      caption: "Gamification hedef rozet takdir ölçüm kalibrasyon akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-6.webp",
+      alt: "Gamification do and don’t checklist’i, KPI oyunlaştırma hızlı kontrol",
+      caption: "Gamification do and don’t checklist’i, KPI oyunlaştırma hızlı kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-7.webp",
+      alt: "Takım ve bireysel leaderboard kartları, rozet ve hedef kartı görünümü",
+      caption: "Takım ve bireysel leaderboard kartları, rozet ve hedef kartı görünümü"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-22/Callcenter5-22-8.webp",
+      alt: "Leaderboard ve rozet tablosu çıktıları, gamification deliverables",
+      caption: "Leaderboard ve rozet tablosu çıktıları, gamification deliverables"
+    }
+  },
+
+
+  "cx-score-bilesik-deneyim-skoru-yeni-nesil-kpi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-1.webp",
+      alt: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+      caption: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-2.webp",
+      alt: "CX Score kartı ve alt KPI katmanı birlikte gösterilen dashboard görünümü",
+      caption: "CX Score kartı ve alt KPI katmanı birlikte gösterilen dashboard görünümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-3.webp",
+      alt: "Tek skor ve alt KPI breakdown yaklaşımı, yönetim sunumu geçiş görseli",
+      caption: "Tek skor ve alt KPI breakdown yaklaşımı, yönetim sunumu geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-4.webp",
+      alt: "Riskler ve doğru yorumlama, ağırlık ve segment kırılımı geçiş görseli",
+      caption: "Riskler ve doğru yorumlama, ağırlık ve segment kırılımı geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-5.webp",
+      alt: "CX Score bileşen diyagramı, SLA FCR NPS şikâyet yorum puanı birleşimi",
+      caption: "CX Score bileşen diyagramı, SLA FCR NPS şikâyet yorum puanı birleşimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-6.webp",
+      alt: "CX Score do and don’t checklist’i, bileşik skor güvenli kullanım çerçevesi",
+      caption: "CX Score do and don’t checklist’i, bileşik skor güvenli kullanım çerçevesi"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-7.webp",
+      alt: "CX Score örnek kartı, bileşen breakdown ve trend göstergesi paneli",
+      caption: "CX Score örnek kartı, bileşen breakdown ve trend göstergesi paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-8.webp",
+      alt: "CX Score tasarım çıktıları, bileşen ve dashboard şablonu deliverables",
+      caption: "CX Score tasarım çıktıları, bileşen ve dashboard şablonu deliverables"
+    }
+  },
+
+
+   "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-1.webp",
+      alt: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
+      caption: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-2.webp",
+      alt: "Duygu skoru kartları ve konu etiketleri, çağrı merkezi KPI paneli mockup görünümü",
+      caption: "Duygu skoru kartları ve konu etiketleri, çağrı merkezi KPI paneli mockup görünümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-3.webp",
+      alt: "Kayıt metin etiket içgörü akışı, speech analytics geçiş görseli",
+      caption: "Kayıt metin etiket içgörü akışı, speech analytics geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-4.webp",
+      alt: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli”",
+      caption: "Eğitim script ve service recovery kullanımı, nitel KPI geçiş görseli”"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-5.webp",
+      alt: "Speech analytics akışı veri özet etiket aksiyon diyagramı, call center şeması",
+      caption: "Speech analytics akışı veri özet etiket aksiyon diyagramı, call center şeması"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-6.webp",
+      alt: "Tema ve sentiment dashboard checklist’i, KPI entegrasyon hızlı kontrol",
+      caption: "Tema ve sentiment dashboard checklist’i, KPI entegrasyon hızlı kontrol"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-7.webp",
+      alt: "Sentiment trend ve negatif alarm kartı, nitel KPI paneli",
+      caption: "Sentiment trend ve negatif alarm kartı, nitel KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-8.webp",
+      alt: "Speech analytics tema ve duygu dashboard şablonu çıktıları, ekip deliverables",
+      caption: "Speech analytics tema ve duygu dashboard şablonu çıktıları, ekip deliverables"
+    }
   }
   
 

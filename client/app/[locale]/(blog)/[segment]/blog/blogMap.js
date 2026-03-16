@@ -208,7 +208,12 @@ export const BLOG_MAP = {
     "cagri-merkezi-veri-modeli-ve-kaynak-entegrasyonu":"BlogCagriMerkeziVeriModeliVeKaynakEntegrasyonu",
     "kpi-trend-analizi-ve-basit-ongorucu-modeller":"BlogCagriMerkeziKpiTrendAnaliziVeBasitOngorucuModeller",
     "maliyet-analizi-ve-verimlilik-kpi-sure-uzerinden-maliyet-hesaplama":"BlogCagriMerkeziMaliyetAnaliziVeVerimlilikKpiSureUzerindenMaliyetHesaplama",
-    "veri-kalitesi-data-governance-ve-kpi-guvenilirligi":"BlogCagriMerkeziVeriKalitesiDataGovernanceVeKpiGuvenilirligi"
+    "veri-kalitesi-data-governance-ve-kpi-guvenilirligi":"BlogCagriMerkeziVeriKalitesiDataGovernanceVeKpiGuvenilirligi",
+    "kpi-bazli-runbook-ve-aksiyon-planlari-deviation-playbook":"BlogCagriMerkeziKpiBazliRunbookVeAksiyonPlanlariDeviationPlaybook",
+    "yapay-zeka-performans-kokpiti-cx-copilot":"BlogCagriMerkeziYapayZekaPerformansKokpitiCxCopilot",
+    "gamification-ve-performans-tahtalari-otel-cagri-merkezi":"BlogCagriMerkeziGamificationVePerformansTahtalariOtelCagriMerkezi",
+    "cx-score-bilesik-deneyim-skoru-yeni-nesil-kpi":"BlogCxScoreBilesikDeneyimSkoruYeniNesilKpi",
+    "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":"BlogSpeechAnalyticsVeDuyguAnaliziKpiPanelineNasilTasinir"
     
   },
 
