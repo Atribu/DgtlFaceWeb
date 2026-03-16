@@ -18724,8 +18724,8 @@ export const BLOG_MEDIA_MAP = {
   "cx-score-bilesik-deneyim-skoru-yeni-nesil-kpi":{
     banner: {
       src: "/images/blog/callcenter/Callcenter5-23/Callcenter5-23-1.webp",
-      alt: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
-      caption: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak"
+      alt: "CX Score (Bileşik Deneyim Skoru): Otel Çağrı Merkezinde Yeni Nesil KPI’lar",
+      caption: "CX Score (Bileşik Deneyim Skoru): Otel Çağrı Merkezinde Yeni Nesil KPI’lar"
     },
 
           "h1-context-02": {
@@ -18775,8 +18775,8 @@ export const BLOG_MEDIA_MAP = {
    "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":{
     banner: {
       src: "/images/blog/callcenter/Callcenter5-24/Callcenter5-24-1.webp",
-      alt: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak",
-      caption: "Gamification ve Performans Tahtaları: Otel Çağrı Merkezinde KPI’ları Oyunlaştırmak"
+      alt: "Speech Analytics ve Duygu Analizi Sonuçlarını KPI Paneline Nasıl Taşırsınız?",
+      caption: "Speech Analytics ve Duygu Analizi Sonuçlarını KPI Paneline Nasıl Taşırsınız?"
     },
 
           "h1-context": {
@@ -18820,7 +18820,310 @@ export const BLOG_MEDIA_MAP = {
       alt: "Speech analytics tema ve duygu dashboard şablonu çıktıları, ekip deliverables",
       caption: "Speech analytics tema ve duygu dashboard şablonu çıktıları, ekip deliverables"
     }
-  }
+  },
+
+  "remote-ve-hibrit-ekiplerde-performans-analizi-trendleri":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-1.webp",
+      alt: "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri",
+      caption: "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri"
+    },
+
+          "h1-context": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-2.webp",
+      alt: "Remote ve ofis KPI karşılaştırma grafiği, availability ve sonuç KPI’ları görünümü",
+      caption: "Remote ve ofis KPI karşılaştırma grafiği, availability ve sonuç KPI’ları görünümü"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-3.webp",
+      alt: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli”",
+      caption: "Kapasite yetenek ve risk etkileri, remote çağrı merkezi geçiş görseli”"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-4.webp",
+      alt: "Kültür ve güven dengesi, mikro kontrol yerine sonuç KPI yaklaşımı geçişi",
+      caption: "Kültür ve güven dengesi, mikro kontrol yerine sonuç KPI yaklaşımı geçişi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-5.webp",
+      alt: "Remote performans akışı availability sonuç KPI güvenlik kontrol takip diyagramı",
+      caption: "Remote performans akışı availability sonuç KPI güvenlik kontrol takip diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-6.webp",
+      alt: "Remote performans checklist’i, sonuç odaklı KPI ve güvenlik katmanı",
+      caption: "Remote performans checklist’i, sonuç odaklı KPI ve güvenlik katmanı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-7.webp",
+      alt: "Hibrit ekip KPI kartı, availability SLA QA ve güvenlik sinyalleri panel",
+      caption: "Hibrit ekip KPI kartı, availability SLA QA ve güvenlik sinyalleri panel"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter5-25/Callcenter5-25-8.webp",
+      alt: "Remote KPI şablonu ve karşılaştırma grafiği çıktıları, yöneticiler için deliverables",
+      caption: "Remote KPI şablonu ve karşılaştırma grafiği çıktıları, yöneticiler için deliverables"
+    }
+  },
+
+
+  "pre-stay-soru-ve-beklenti-yonetimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-1.webp",
+      alt: "Pre-Stay Soru ve Beklenti Yönetimi: Misafire Konaklama Öncesi Nasıl Eşlik Etmelisiniz?",
+      caption: "Pre-Stay Soru ve Beklenti Yönetimi: Misafire Konaklama Öncesi Nasıl Eşlik Etmelisiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-2.webp",
+      alt: "Pre-stay soru tipleri amacı kanal ve hız beklentisi yönetimi otel bağlamı",
+      caption: "Pre-stay soru tipleri amacı kanal ve hız beklentisi yönetimi otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-3.webp",
+      alt: "Beklenti yönetimi bölümü amacı oda tesis hizmet netliği otel bağlamı",
+      caption: "Beklenti yönetimi bölümü amacı oda tesis hizmet netliği otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-4.webp",
+      alt: "PMS notları entegrasyonu bölümü amacı operasyon paylaşımı otel bağlamı",
+      caption: "PMS notları entegrasyonu bölümü amacı operasyon paylaşımı otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-5.webp",
+      alt: "Pre-stay zaman çizelgesi amacı transfer check-in teyit akışı otel bağlamı",
+      caption: "Pre-stay zaman çizelgesi amacı transfer check-in teyit akışı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-6.webp",
+      alt: "Pre-stay checklist amacı adım adım beklenti yönetimi otel bağlamı",
+      caption: "Pre-stay checklist amacı adım adım beklenti yönetimi otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-7.webp",
+      alt: "Pre-stay KPI paneli amacı yanıt süresi teyit oranı otel bağlamı",
+      caption: "Pre-stay KPI paneli amacı yanıt süresi teyit oranı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-6/Callcenter4-6-8.webp",
+      alt: "Pre-stay süreç çıktıları amacı PMS not standardı otel bağlamı",
+      caption: "Pre-stay süreç çıktıları amacı PMS not standardı otel bağlamı"
+    }
+  },
+
+
+  "yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-1.webp",
+      alt: "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+      caption: "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-2.webp",
+      alt: "Google OTA sosyal anket kanalları amacı yorum ekosistemi otel bağlamı",
+      caption: "Google OTA sosyal anket kanalları amacı yorum ekosistemi otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-3.webp",
+      alt: "Olumsuz yorum yönetimi bölümü amacı sakin çözüm dili otel bağlamı",
+      caption: "Olumsuz yorum yönetimi bölümü amacı sakin çözüm dili otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-4.webp",
+      alt: "Tema analizi bölümü amacı yorum verisini iyileştirmeye çevirme",
+      caption: "Tema analizi bölümü amacı yorum verisini iyileştirmeye çevirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-5.webp",
+      alt: "Yorum davet akışı diyagramı amacı NPS anket yorum döngüsü otel bağlamı",
+      caption: "Yorum davet akışı diyagramı amacı NPS anket yorum döngüsü otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-6.webp",
+      alt: "Yorum yanıt checklisti amacı ton yapı KVKK uyumu otel bağlamı",
+      caption: "Yorum yanıt checklisti amacı ton yapı KVKK uyumu otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-7.webp",
+      alt: "Yorum KPI paneli amacı yanıt süresi tema takibi otel bağlamı",
+      caption: "Yorum KPI paneli amacı yanıt süresi tema takibi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-7/Callcenter4-7-8.webp",
+      alt: "Yorum yönetimi deliverables amacı şablon ve analiz sistemi otel bağlamı",
+      caption: "Yorum yönetimi deliverables amacı şablon ve analiz sistemi otel bağlamı"
+    }
+  },
+
+  "ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-1.webp",
+      alt: "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek: Çocuklu Aile, Engelli ve Alerjisi Olan Misafirler",
+      caption: "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek: Çocuklu Aile, Engelli ve Alerjisi Olan Misafirler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-2.webp",
+      alt: "Çocuk engelli alerji segmentleri amacı kapsayıcı hizmet iletişimi otel bağlamı",
+      caption: "Çocuk engelli alerji segmentleri amacı kapsayıcı hizmet iletişimi otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-3.webp",
+      alt: "Erişilebilirlik iletişimi bölümü amacı netlik ve teyit otel bağlamı",
+      caption: "Erişilebilirlik iletişimi bölümü amacı netlik ve teyit otel bağlamı"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-4.webp",
+      alt: "KVKK ve veri güvenliği bölümü amacı hassas bilgi yönetimi otel bağlamı",
+      caption: "KVKK ve veri güvenliği bölümü amacı hassas bilgi yönetimi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-5.webp",
+      alt: "Özel ihtiyaç koordinasyon akışı amacı PMS not ve owner yönetimi",
+      caption: "Özel ihtiyaç koordinasyon akışı amacı PMS not ve owner yönetimi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-6.webp",
+      alt: "PMS not standardı checklisti amacı koordinasyon ve rol bazlı erişim",
+      caption: "PMS not standardı checklisti amacı koordinasyon ve rol bazlı erişim"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-7.webp",
+      alt: "Özel ihtiyaç KPI paneli amacı teyit ve memnuniyet sinyali",
+      caption: "Özel ihtiyaç KPI paneli amacı teyit ve memnuniyet sinyali"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-8/Callcenter4-8-8.webp",
+      alt: "Senaryo ve şablon çıktıları amacı eğitim ve operasyon standardı otel bağlamı",
+      caption: "Senaryo ve şablon çıktıları amacı eğitim ve operasyon standardı otel bağlamı"
+    }
+  },
+
+  "ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-1.webp",
+      alt: "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü: İç İletişim Akışı Nasıl Kurulur?",
+      caption: "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü: İç İletişim Akışı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-2.webp",
+      alt: "Departman koordinasyonu amacı resepsiyon housekeeping teknik servis akışı",
+      caption: "Departman koordinasyonu amacı resepsiyon housekeeping teknik servis akışı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-3.webp",
+      alt: "Ticket yapısı bölümü amacı tek kayıt tek sahip sistemi",
+      caption: "Ticket yapısı bölümü amacı tek kayıt tek sahip sistemi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-4.webp",
+      alt: "SLA ve kapanış bölümü amacı hız ve kalite dengesi",
+      caption: "SLA ve kapanış bölümü amacı hız ve kalite dengesi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-5.webp",
+      alt: "SLA ve kapanış bölümü amacı hız ve kalite dengesi",
+      caption: "SLA ve kapanış bölümü amacı hız ve kalite dengesi"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-6.webp",
+      alt: "İç iletişim yap yapma kartı amacı talep kaybını azaltma",
+      caption: "İç iletişim yap yapma kartı amacı talep kaybını azaltma"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-7.webp",
+      alt: "SLA performans paneli amacı yanıt ve çözüm süresi izleme",
+      caption: "SLA performans paneli amacı yanıt ve çözüm süresi izleme"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-9/Callcenter4-9-8.webp",
+      alt: "Örnek ticket ekranı amacı alanlar ve kapanış disiplini",
+      caption: "Örnek ticket ekranı amacı alanlar ve kapanış disiplini"
+    }
+  },
+
+
+   "satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-1.webp",
+      alt: "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona",
+      caption: "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-2.webp",
+      alt: "Tema analizi amacı tekrar eden şikâyetleri sınıflandırma otel bağlamı",
+      caption: "Tema analizi amacı tekrar eden şikâyetleri sınıflandırma otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-3.webp",
+      alt: "Kök neden analizi bölümü amacı sorunları nedenlere ayırma otel bağlamı",
+      caption: "Kök neden analizi bölümü amacı sorunları nedenlere ayırma otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-4.webp",
+      alt: "Aksiyon planı bölümü amacı önceliklendirme ve takip otel bağlamı",
+      caption: "Aksiyon planı bölümü amacı önceliklendirme ve takip otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-5.webp",
+      alt: "Ishikawa kök neden diyagramı amacı şikâyeti nedenlere ayırma",
+      caption: "Ishikawa kök neden diyagramı amacı şikâyeti nedenlere ayırma"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-6.webp",
+      alt: "Aksiyon planı checklisti amacı owner tarih KPI ile takip",
+      caption: "Aksiyon planı checklisti amacı owner tarih KPI ile takip"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-7.webp",
+      alt: "Pareto ve trend paneli amacı önceliklendirme ve izleme otel bağlamı",
+      caption: "Pareto ve trend paneli amacı önceliklendirme ve izleme otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-10/Callcenter4-10-8.webp",
+      alt: "Analiz deliverables amacı kategori Pareto kök neden aksiyon seti",
+      caption: "Analiz deliverables amacı kategori Pareto kök neden aksiyon seti"
+    }
+  },
   
 
 

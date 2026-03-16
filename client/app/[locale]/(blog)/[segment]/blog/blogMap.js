@@ -213,7 +213,15 @@ export const BLOG_MAP = {
     "yapay-zeka-performans-kokpiti-cx-copilot":"BlogCagriMerkeziYapayZekaPerformansKokpitiCxCopilot",
     "gamification-ve-performans-tahtalari-otel-cagri-merkezi":"BlogCagriMerkeziGamificationVePerformansTahtalariOtelCagriMerkezi",
     "cx-score-bilesik-deneyim-skoru-yeni-nesil-kpi":"BlogCxScoreBilesikDeneyimSkoruYeniNesilKpi",
-    "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":"BlogSpeechAnalyticsVeDuyguAnaliziKpiPanelineNasilTasinir"
+    "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":"BlogSpeechAnalyticsVeDuyguAnaliziKpiPanelineNasilTasinir",
+    "remote-ve-hibrit-ekiplerde-performans-analizi-trendleri":"BlogRemoteVeHibritEkiplerdePerformansAnaliziTrendleri",
+   
+    //hotel 4-6
+    "pre-stay-soru-ve-beklenti-yonetimi":"BlogPreStaySoruVeBeklentiYonetimi",
+    "yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec":"BlogYorumVeDegerlendirmeYonetimiSatisSonrasiSurec",
+    "ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek":"BlogOzelIhtiyacSahibiMisafirlerIcinSatisSonrasiDestek",
+    "ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon":"BlogIcIletisimAkisiSatisSonrasiDestekResepsiyonOperasyon",
+    "satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":"BlogSatisSonrasiVeriAnaliziVeHizmetIyilestirme"
     
   },
 

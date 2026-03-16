@@ -21489,6 +21489,601 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"remote-ve-hibrit-ekiplerde-performans-analizi-trendleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "@id": "https://dgtlface.com/#website", "url": "https://dgtlface.com/", "name": "DGTLFACE", "inLanguage": "tr-TR" },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi",
+      "name": "Performans Analizi & Raporlama",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri#article",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri",
+      "headline": "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri",
+      "name": "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri",
+      "description": "Remote ve hibrit çalışma modelleri çağrı merkezi KPI’larını değiştirir. Sonuç odaklı KPI seti, availability ve güvenlik/erişim metrikleriyle performansı adil ve güvenli şekilde yönetin.",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri#article" },
+      "about": [ "Remote Work", "Hybrid Call Center", "KPI", "Productivity", "Security", "After-Sales Support" ],
+      "inLanguage": "tr-TR",
+      "publisher": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE", "url": "https://dgtlface.com/" },
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer-block"] }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Performans Analizi & Raporlama", "item": "https://dgtlface.com/tr/cagri-merkezi/performans-analizi" },
+        { "@type": "ListItem", "position": 4, "name": "Remote ve Hibrit Ekiplerde Performans Analizi: Yeni Nesil KPI Trendleri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/remote-ve-hibrit-ekiplerde-performans-analizi-trendleri" }
+      ]
+    }
+  ]
+},
+
+"pre-stay-soru-ve-beklenti-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi",
+      "name": "Pre-Stay Soru ve Beklenti Yönetimi: Misafire Konaklama Öncesi Nasıl Eşlik Etmelisiniz?",
+      "description": "Pre-stay soruları nasıl yönetilir? Transfer, check-in, oda beklentisi ve özel istekleri doğru sırayla toplayın. PMS notları ve checklist ile şikâyet riskini azaltın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Pre-Stay Guest Communication" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi#webpage" },
+      "headline": "Pre-Stay Soru ve Beklenti Yönetimi: Misafire Konaklama Öncesi Nasıl Eşlik Etmelisiniz?",
+      "name": "Pre-Stay Soru ve Beklenti Yönetimi: Misafire Konaklama Öncesi Nasıl Eşlik Etmelisiniz?",
+      "description": "Pre-stay dönemde gelen soruları sınıflandırarak doğru cevap, doğru kanal ve doğru zamanlama ile misafir beklentisini yönetme rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Pre-Stay" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Guest Journey" },
+        { "@type": "Thing", "name": "PMS Notes" },
+        { "@type": "Thing", "name": "Transfer" },
+        { "@type": "Thing", "name": "Upsell" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel pre-stay iletişim ve satış sonrası destek süreç kurulumu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" },
+      "areaServed": [
+        { "@type": "Country", "name": "Türkiye" },
+        { "@type": "Place", "name": "Antalya" },
+        { "@type": "Place", "name": "Belek" },
+        { "@type": "Place", "name": "Side" },
+        { "@type": "Place", "name": "Bodrum" }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Pre-Stay Soru ve Beklenti Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/pre-stay-soru-ve-beklenti-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pre-stay nedir, otel satış sonrası süreçte neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon sonrası check-in’e kadar olan dönemde misafirin sorularını ve kaygılarını yönetme aşamasıdır. Belirsizliği azaltarak check-in sürtünmesini ve şikâyet riskini düşürmeye yardımcı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Konaklama öncesi misafire hangi bilgileri mutlaka iletmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check-in/out saatleri, transfer seçenekleri, tesis/hizmet saatleri, ücretli–ücretsiz hizmetler ve özel istek süreçleri temel bilgilerdir. Garantili olmayan konularda opsiyon ve teyit dili kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pre-stay soruları nasıl organize edilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bilgi, kaygı ve özel istek olarak sınıflandırıp kanal ve hız standardı tanımlayarak. Özel istekler mutlaka PMS Notes’a kaydedilip ilgili departmanla paylaşılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Uçuş saatini bildiğimde ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transfer planını ve varış saatini teyit edip gerekiyorsa erken check-in beklentisini gerçekçi şekilde yönetin. PMS’ye not düşüp ilgili ekiplere görünür hale getirin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec",
+      "name": "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+      "description": "Google/OTA yorumlarını satış sonrası sürece bağlayın: check-out sonrası davet, profesyonel yanıt şablonları ve tema analiziyle itibarı güçlendirin, iyileştirmeyi hızlandırın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Online Review Management" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec#webpage" },
+      "headline": "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+      "name": "Yorum ve Değerlendirme Yönetimi: Satış Sonrası Süreçte Misafir Geri Bildirimini Nasıl Kullanırsınız?",
+      "description": "Yorum davetinden cevaplamaya ve veriyi analiz etmeye kadar otel yorum yönetimini uçtan uca satış sonrası süreçle bağlayan rehber.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Online Review" },
+        { "@type": "Thing", "name": "Google Reviews" },
+        { "@type": "Thing", "name": "OTA Reviews" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Feedback Analysis" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel yorum yönetimi ve satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Yorum ve Değerlendirme Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel yorumları satış sonrası süreçte nasıl yönetilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorumlar satış sonrası feedback loop’un parçası olarak ele alınmalı; davet–yanıt–analiz–aksiyon döngüsü kurulmalıdır. Google/OTA gibi kamusal kanallarda SLA ile hızlı, profesyonel yanıt verilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Check-out sonrası misafire yorum daveti nasıl gönderilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En iyi zaman çoğunlukla check-out sonrası 2–24 saattir. Mesaj kısa olmalı, tek aksiyon istemeli ve segmentlere göre (promoter/detractor) farklılaştırılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Olumlu yoruma ne yazmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teşekkür edin, yorumdan bir detayı yakalayıp kişiselleştirin ve nazik bir yeniden davet cümlesi ekleyin. Otomatik ve tek tip cevaplardan kaçının."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Olumsuz yorumu nasıl toparlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati kurun, kısa bir özet yapın, çözüm adımı ve iletişim yolu verin. Kamusal alanda kişisel veri istemeyin; detay için DM/iletişime davet edin ve iç sistemde ticket’a bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yorumlardan nasıl ders çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yorumları tema bazında etiketleyip yoğunluk ve etki analizi yapın. Owner atayıp aksiyon kapanışıyla takip ederek bir sonraki ay trendi kontrol edin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek",
+      "name": "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek: Çocuklu Aile, Engelli ve Alerjisi Olan Misafirler",
+      "description": "Çocuklu aile, engelli ve alerjisi olan misafirlerde güven veren satış sonrası iletişim kurun. Pre-stay bilgi toplama, PMS notları, erişilebilirlik checklist’i ve KVKK notları burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Special Needs Guest Support" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek#webpage" },
+      "headline": "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek: Çocuklu Aile, Engelli ve Alerjisi Olan Misafirler",
+      "name": "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek: Çocuklu Aile, Engelli ve Alerjisi Olan Misafirler",
+      "description": "Özel ihtiyaç segmentlerinde satış sonrası iletişim, PMS notlama ve KVKK hassasiyeti ile kapsayıcı misafir deneyimi tasarlama rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Special Needs Guests" },
+        { "@type": "Thing", "name": "Families with Children" },
+        { "@type": "Thing", "name": "Disabled Guests" },
+        { "@type": "Thing", "name": "Allergy" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "PMS Notes" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Özel ihtiyaç misafir iletişimi ve satış sonrası süreç kurulumu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Özel İhtiyaç Sahibi Misafirler İçin Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Özel ihtiyaç sahibi misafirlere satış sonrası süreçte nasıl yaklaşmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sakin ve empatik bir tonla başlayın, minimum gerekli bilgiyi alıp teyit süresi verin. Bilgiyi PMS Notes’a formatlı kaydedip ilgili departmanla koordinasyon sağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Engelli misafirler için erişilebilirlik iletişimini nasıl kurarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genel ifadeler yerine doğrulanabilir detaylar verin; gerekiyorsa teyit edip süre paylaşın. Oda, ortak alan ve transferi ayrı ayrı ele alıp PMS notlarına yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Alerjisi olan misafirler için satış sonrası destek nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alerjeni ve hassasiyet seviyesini minimum düzeyde netleştirip ilgili departmanla (özellikle F&B) teyit edin. Garanti iddiasından kaçının; güvenli süreç ve yönlendirme sunun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hassas bilgileri nasıl kaydetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KVKK’ya uygun şekilde yalnız gerekli bilgiyi kaydedin ve erişimi rol bazında sınırlayın. Kamusal mesajlarda kişisel/medikal detay paylaşmayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon",
+      "name": "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü: İç İletişim Akışı Nasıl Kurulur?",
+      "description": "Satış sonrası destek, resepsiyon ve operasyon arasındaki iç akışı ticket/case yapısı ve SLA ile kurun. Owner atama, önceliklendirme ve çözümsüz talep takibi burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Internal Ticketing Workflow" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon#webpage" },
+      "headline": "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü: İç İletişim Akışı Nasıl Kurulur?",
+      "name": "Satış Sonrası Destek, Resepsiyon ve Operasyon Arasındaki Köprü: İç İletişim Akışı Nasıl Kurulur?",
+      "description": "Satış sonrası ekip ile resepsiyon/operasyon arasındaki iç iletişim akışını ticket, SLA ve günlük koordinasyon üzerinden tasarlamak için pratik rehber.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Front Desk" },
+        { "@type": "Thing", "name": "Housekeeping" },
+        { "@type": "Thing", "name": "Technical Service" },
+        { "@type": "Thing", "name": "Ticketing" },
+        { "@type": "Thing", "name": "SLA" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel iç iletişim ve ticket/SLA süreç kurulumu",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "İç İletişim Akışı", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası destek ekibi resepsiyon ve operasyonla nasıl çalışmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tüm talepleri tek ticket sisteminde toplayıp doğru departmana owner atayarak çalışmalıdır. SLA, eskalasyon ve kapanış teyidiyle takip standardı kurulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ticket/case yapısı nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum alan seti (kategori, öncelik, owner, SLA, durum) ile başlayın. Çözüldü ve kapandı ayrımını yapıp kapanışı misafir teyidiyle tamamlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çözülmeyen talepler nasıl takip edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SLA alarmı ve eskalasyon kuralıyla takip edilir. Günlük kısa stand-up ile açık P1/P2’ler gözden geçirilir; tekrar açılanlar kök neden analizine gider."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Talep kayboluyor, nasıl engellerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ticket’ı tek kaynak gerçek yapın. Ticket açmadan işlem yapmama kuralı, owner zorunluluğu ve kapanış teyidi ile kayıplar azalır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+
+"satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme",
+      "name": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona",
+      "description": "Satış sonrası ticket/şikâyet verisini temalara ayırın, Pareto ile önceliklendirin, kök neden analiziyle çözümü bulun. Quick win ve proje ayrımıyla aksiyon planı kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales Data Analysis" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme#webpage" },
+      "headline": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona",
+      "name": "Satış Sonrası Verileri Kullanarak Hizmet İyileştirme: Ticket’lardan Aksiyona",
+      "description": "Satış sonrası verileri (ticket, şikâyet, NPS, yorumlar) tema ve kök neden analizleriyle birleştirerek hizmet iyileştirme ve yatırım önceliklendirme rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Data" },
+        { "@type": "Thing", "name": "Ticket" },
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "Root-Cause Analysis" },
+        { "@type": "Thing", "name": "Service Improvement" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası veri analizi ve hizmet iyileştirme danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Satış Sonrası Verilerle Hizmet İyileştirme", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası verileri nasıl analiz etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce veriyi standart toplayıp kategorileyin; sonra temaları çıkarın ve sıklık/etki ile sınıflandırın. Pareto ile ilk 1–3 temayı seçip kök neden analizi yaparak aksiyon planına bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kök neden analizi otellerde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "5 Why ile nedenleri adım adım sorgulayabilir veya Ishikawa diyagramıyla insan–süreç–ekipman–ölçüm gibi başlıklarda kök nedeni sınıflandırabilirsiniz. Sonuç mutlaka aksiyona çevrilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi sorunlar quick win, hangileri proje seviyesindedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script/SOP güncellemeleri, eğitim ve küçük süreç düzeltmeleri genelde quick win’dir. Altyapı, entegrasyon ve fiziksel değişiklikler proje seviyesindedir; süre ve yatırım gerektirir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her gün aynı şikâyet geliyor, nereden başlayayım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce temayı netleştirin ve frekans–etki ile sıralayın; Pareto ile en büyük etkiyi seçin. Kök nedeni bulun, quick win’i hemen uygulayın ve KPI ile izleyin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
