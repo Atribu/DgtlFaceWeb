@@ -19584,6 +19584,208 @@ export const BLOG_MEDIA_MAP = {
     }
   },
 
+
+  "satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-1.webp",
+      alt: "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?",
+      caption: "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-2.webp",
+      alt: "Burnout sinyalleri amacı erken fark etmek otel çağrı ekibi bağlamı",
+      caption: "Burnout sinyalleri amacı erken fark etmek otel çağrı ekibi bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-3.webp",
+      alt: "Koçluk ritmi amacı duygusal yükü yönetmek otel satış sonrası bağlamı",
+      caption: "Koçluk ritmi amacı duygusal yükü yönetmek otel satış sonrası bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-4.webp",
+      alt: "Vardiya ve mola planı amacı sürdürülebilir tempo otel operasyonu bağlamı",
+      caption: "Vardiya ve mola planı amacı sürdürülebilir tempo otel operasyonu bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-5.webp",
+      alt: "Refah destek akışı amacı koçluk debrief takdir döngüsü otel bağlamı",
+      caption: "Refah destek akışı amacı koçluk debrief takdir döngüsü otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-6.webp",
+      alt: "Aylık refah checklisti amacı burnout önleme otel satış sonrası bağlamı",
+      caption: "Aylık refah checklisti amacı burnout önleme otel satış sonrası bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-7.webp",
+      alt: "Refah KPI kartı amacı hata ve gerginliği azaltmak otel bağlamı",
+      caption: "Refah KPI kartı amacı hata ve gerginliği azaltmak otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-20/Callcenter4-20-8.webp",
+      alt: "Koçluk ve takdir planı amacı ekip dayanıklılığı otel bağlamı",
+      caption: "Koçluk ve takdir planı amacı ekip dayanıklılığı otel bağlamı"
+    }
+  },
+
+  "yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-1.webp",
+      alt: "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
+      caption: "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-2.webp",
+      alt: "Veri kaynakları amacı NPS yorum ve ticket metinlerini tek panelde birleştirme",
+      caption: "Veri kaynakları amacı NPS yorum ve ticket metinlerini tek panelde birleştirme"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-3.webp",
+      alt: "Tema ve duygu analizi amacı öncelik listesini netleştirme otel bağlamı",
+      caption: "Tema ve duygu analizi amacı öncelik listesini netleştirme otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-4.webp",
+      alt: "Aksiyon planı bölümü amacı AI içgörüsünü uygulanabilir işe çevirme",
+      caption: "Aksiyon planı bölümü amacı AI içgörüsünü uygulanabilir işe çevirme"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-5.webp",
+      alt: "AI metin analizi akışı amacı toplama temizleme etiketleme doğrulama aksiyon",
+      caption: "AI metin analizi akışı amacı toplama temizleme etiketleme doğrulama aksiyon"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-6.webp",
+      alt: "AI analiz checklisti amacı örneklem doğrulama ve aksiyon planı otel bağlamı",
+      caption: "AI analiz checklisti amacı örneklem doğrulama ve aksiyon planı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-7.webp",
+      alt: "Tema ve duygu KPI kartı amacı en negatif 5 temayı izleme otel bağlamı",
+      caption: "Tema ve duygu KPI kartı amacı en negatif 5 temayı izleme otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-21/Callcenter4-21-8.webp",
+      alt: "AI etiketleme ekranı mockup amacı yorumları otomatik tema etiketleme otel bağlamı",
+      caption: "AI etiketleme ekranı mockup amacı yorumları otomatik tema etiketleme otel bağlamı"
+    }
+  },
+
+
+  "proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-1.webp",
+      alt: "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?",
+      caption: "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-2.webp",
+      alt: "PMS ve OTA verisi amacı risk sinyallerini veri alanlarından okuma otel bağlamı",
+      caption: "PMS ve OTA verisi amacı risk sinyallerini veri alanlarından okuma otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-3.webp",
+      alt: "Risk profilleri bölümü amacı proaktif temas senaryolarını seçme otel bağlamı",
+      caption: "Risk profilleri bölümü amacı proaktif temas senaryolarını seçme otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-4.webp",
+      alt: "Ölçüm ve optimizasyon bölümü amacı risk pilotunu KPI ile yönetme otel bağlamı",
+      caption: "Ölçüm ve optimizasyon bölümü amacı risk pilotunu KPI ile yönetme otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-5.webp",
+      alt: "Risk sinyali akış diyagramı amacı kriter segment liste iletişim ölçüm otel bağlamı",
+      caption: "Risk sinyali akış diyagramı amacı kriter segment liste iletişim ölçüm otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-6.webp",
+      alt: "Proaktif destek checklisti amacı riskli misafir için teyit ve notlama otel bağlamı",
+      caption: "Proaktif destek checklisti amacı riskli misafir için teyit ve notlama otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-7.webp",
+      alt: "Proaktif destek KPI kartı amacı NPS ve şikâyet azaltma trendi otel bağlamı",
+      caption: "Proaktif destek KPI kartı amacı NPS ve şikâyet azaltma trendi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-22/Callcenter4-22-8.webp",
+      alt: "Risk skorlu misafir listesi mockup amacı proaktif destek önceliklendirme otel bağlamı",
+      caption: "Risk skorlu misafir listesi mockup amacı proaktif destek önceliklendirme otel bağlamı"
+    }
+  },
+
+  "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-1.webp",
+      alt: "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+      caption: "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-2.webp",
+      alt: "Customer support ve customer success farkı amacı otel deneyim hedefleri",
+      caption: "Customer support ve customer success farkı amacı otel deneyim hedefleri"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-3.webp",
+      alt: "Support’tan success’e geçiş amacı hedefi başarıya taşımak otel bağlamı",
+      caption: "Support’tan success’e geçiş amacı hedefi başarıya taşımak otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-4.webp",
+      alt: "Platform ve KPI tasarımı amacı veri merkezli CX yönetimi otel bağlamı",
+      caption: "Platform ve KPI tasarımı amacı veri merkezli CX yönetimi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-5.webp",
+      alt: "Guest experience platform mimarisi amacı tüm kanalları tek panelde birleştirme",
+      caption: "Guest experience platform mimarisi amacı tüm kanalları tek panelde birleştirme"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-6.webp",
+      alt: "Customer success geçiş checklisti amacı segment hedef KPI organizasyon otel bağlamı",
+      caption: "Customer success geçiş checklisti amacı segment hedef KPI organizasyon otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-7.webp",
+      alt: "Customer success KPI kartları amacı misafir başarısını ölçmek otel bağlamı",
+      caption: "Customer success KPI kartları amacı misafir başarısını ölçmek otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-23/Callcenter4-23-8.webp",
+      alt: "Organizasyon şeması örneği amacı customer success rol dağılımı otel bağlamı",
+      caption: "Organizasyon şeması örneği amacı customer success rol dağılımı otel bağlamı"
+    }
+  }
+
 };
 
 export function getMediaBySlot(slug, slot) {

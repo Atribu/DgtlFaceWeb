@@ -23071,6 +23071,454 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme",
+      "name": "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?",
+      "description": "Satış sonrası ekipleri yüksek duygusal yük taşır. Burnout sinyalleri, vardiya–mola planı, koçluk/debrief ve takdir ritmiyle ekibi koruyun; kaliteyi sürdürülebilir kılın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme#webpage" },
+      "headline": "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?",
+      "name": "Satış Sonrası Destek Ekip Refahı ve Tükenmişlik Önleme: Misafiri Memnun Ederken Ekibi Nasıl Korumalısınız?",
+      "description": "Otel satış sonrası destek ekiplerinde tükenmişlik riskini azaltmak için vardiya, mikro mola, koçluk/süpervizyon ve takdir kültürünü sistemleştiren rehber.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Support Team" },
+        { "@type": "Thing", "name": "Burnout" },
+        { "@type": "Thing", "name": "Workload" },
+        { "@type": "Thing", "name": "Coaching" },
+        { "@type": "Thing", "name": "Breaks" },
+        { "@type": "Thing", "name": "Recognition" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Ekip Refahı ve Tükenmişlik Önleme", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası destek ekipleri neden daha çabuk tükenmişlik yaşar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gün içinde yoğun şikâyet ve negatif duygu dinledikleri için duygusal yükleri yüksektir. Ayrıca çözüm çoğu zaman departman koordinasyonu gerektirir; kontrol edilemeyen gecikmeler stresi artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tükenmişlik belirtileri nelerdir, nasıl fark edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati düşüşü, irritabilite, hata artışı, mola atlama, devamsızlık ve duygusal uyuşma erken sinyallerdir. QA skor dalgalanması ve tekrar temas artışı da dolaylı göstergedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ekip refahını artırmak için hangi adımlar atılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mikro molalar, debrief ritmi, düzenli 1:1 koçluk, rol rotasyonu ve takdir kültürü birlikte kurgulanmalıdır. Vardiya tasarımı yoğun saatlere göre yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafir memnuniyetini korurken ekip sağlığını nasıl korurum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Süreç standardı (SOP/script), net eskalasyon ve sürdürülebilir KPI ile belirsizliği azaltarak; koçluk ve takdirle psikolojik dayanıklılığı güçlendirerek."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi",
+      "name": "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
+      "description": "NPS, Google/OTA yorumları ve şikâyet ticket notlarını AI ile tema/duygu analiz edin; insan doğrulamasıyla service recovery ve eğitim aksiyonlarına çevirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#webpage" },
+      "headline": "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
+      "name": "Yapay Zekâ ile Satış Sonrası Yorum ve Şikâyet Analizi Nasıl Yapılır?",
+      "description": "Otel satış sonrası verilerinde (NPS, online review, ticket) AI destekli metin analizi ile tema/duygu içgörüsü üretme ve bunu aksiyona çevirme rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "AI Text Analysis" },
+        { "@type": "Thing", "name": "Sentiment" },
+        { "@type": "Thing", "name": "Topic Clustering" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Online Review" },
+        { "@type": "Thing", "name": "Complaint Ticket" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Report",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#report",
+      "name": "AI Tema & Duygu Rapor Şablonu (v1.0)",
+      "inLanguage": "tr-TR",
+      "about": { "@type": "Thing", "name": "After-Sales Text Mining Report" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#webpage" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası performans, analiz ve iyileştirme danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "AI ile Yorum ve Şikâyet Analizi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ ile otel yorum ve şikâyetleri nasıl analiz edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Metinleri (NPS/yorum/ticket) toplayıp temizleyin, AI ile tema ve duygu etiketleyin, örneklemle insan doğrulaması yapın ve owner’lı aksiyon planına bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS ve yorum verisinden tema analizi nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tema sözlüğüyle etiketleyip topic clustering ile benzer ifadeleri gruplayın. Her tema için örnek yorumları kontrol ederek sınıflandırma hatalarını düzeltin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI destekli duygu analizi eğitim ve script’lere nasıl yansıtılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En negatif 3 temayı eğitim önceliği yapın; script’lerde ton, süre verme ve kapanış teyidi maddelerini güçlendirin. Etkiyi trend grafiğiyle izleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI analiz sonuçları doğrudan uygulanmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. AI sonuçları karar destek sinyalidir; örneklem doğrulaması ve saha gerçekliği ile kontrol edilmeden aksiyona çevrilmemelidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek",
+      "name": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?",
+      "description": "PMS ve OTA verilerinden risk sinyalleri çıkarın, risk scoring ile liste üretin ve proaktif iletişimle şikâyeti önleyin. Pilot KPI ve senaryo şablonları içerir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#webpage"
+      },
+      "headline": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?",
+      "name": "Proaktif Satış Sonrası Destek: PMS Verileriyle Riskli Misafirleri Önceden Nasıl Belirlersiniz?",
+      "description": "PMS ve OTA Data üzerinden risk sinyalleri okuyup risk scoring ile riskli misafir listesi çıkararak proaktif satış sonrası iletişim kurgulama rehberi.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "OTA Data" },
+        { "@type": "Thing", "name": "Risk Scoring" },
+        { "@type": "Thing", "name": "Proactive Support" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Complaint Reduction" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Report",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#report",
+      "name": "Riskli Misafir Segmentleri & Proaktif Senaryo Şablonu (v1.0)",
+      "inLanguage": "tr-TR",
+      "about": { "@type": "Thing", "name": "Proactive After-Sales Pilot Report" },
+      "isPartOf": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#webpage" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Proaktif satış sonrası destek ve süreç iyileştirme danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Proaktif Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Proaktif satış sonrası destek nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PMS ve OTA verilerinden risk sinyali okuyup, misafir sorun yaşamadan önce iletişime geçerek sürtünmeyi azaltma yaklaşımıdır. Amaç riskli segmentte erken teyit ve plan yapmaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PMS verilerinden riskli misafirleri nasıl anlarsınız?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geçmiş şikâyet/düşük NPS, özel istek yoğunluğu, geç check-in+kısa stay, oda değişimi/overbooking riski ve grup/MICE bayrakları gibi sinyallerle risk scoring yaparak."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumlarda misafiri proaktif aramalı veya mesaj atmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Risk skoru eşiği aşıldığında ve sorun önlenebilir olduğunda: transfer/check-in belirsizliği, özel istek teyidi, oda değişimi riski, geçmiş şikâyet profili gibi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Proaktif destek herkese uygulanmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Proaktif temas riskli segment için tasarlanmalıdır; aksi halde mesaj yorgunluğu ve opt-out riski artar."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success",
+      "name": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+      "description": "Guest experience platform’ları ve customer success yaklaşımıyla otel satış sonrası hedefini şikâyet çözmekten misafir başarısına taşıma yol haritası: platform mimarisi, KPI’lar ve organizasyon modeli.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success#webpage"
+      },
+      "headline": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+      "name": "Guest Experience Platform’ları ve Otel Satış Sonrası “Customer Success” Modeli",
+      "description": "Otel satış sonrası destek yapısını customer success modeline yaklaştırmak için platform tabanlı misafir yolculuğu yönetimi, KPI seti ve organizasyon tasarım rehberi.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Guest Experience Platform" },
+        { "@type": "Thing", "name": "Customer Success" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Dashboard" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası süreç tasarımı ve performans iyileştirme",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Guest Experience Platform ve Customer Success", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Customer success yaklaşımı otellerde ne anlama gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadece şikâyet çözmek yerine misafirin hedefe ulaşıp ulaşmadığını ölçmek ve yönetmek demektir. Segment bazlı başarı hedefleri ve KPI’lar tanımlanır; proaktif temas ve öğrenme döngüsü kurulur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Guest experience platform’ları satış sonrası süreci nasıl değiştirir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tüm kanallardaki temasları tek panelde toplar, tek misafir görünümü sağlar ve VoC verisini trend olarak gösterir. Böylece kararlar daha veri merkezli alınır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet merkezinden customer success modeline geçerken neleri değiştirmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KPI setini başarı hedefleriyle genişletmeli, proaktif temas senaryoları yazmalı, owner/organizasyon modelini netleştirmeli ve düzenli review ritmi kurmalısınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Customer success KPI’ları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Segment başarı hedefi gerçekleşme, proaktif temas oranı, kapanış teyidi oranı, tekrar temas (aynı tema) oranı, VoC tema trendi ve service recovery sonrası memnuniyet sinyalleri gibi KPI’lar kullanılabilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

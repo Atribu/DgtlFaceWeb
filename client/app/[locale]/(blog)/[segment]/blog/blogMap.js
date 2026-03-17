@@ -232,7 +232,11 @@ export const BLOG_MAP = {
     "satis-sonrasi-eposta-sms-whatsapp-sablonlari":"BlogSatisSonrasiEpostaSmsWhatsappSablonlari",
     "satis-sonrasi-upsell-ve-cross-sell-stratejileri":"BlogSatisSonrasiUpsellVeCrossSellStratejileri",
     "ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar":"BlogOtaVeDirektRezervasyonlardaSatisSonrasiFarklar",
-    "satis-sonrasi-otomasyon-ve-task-yonetimi":"BlogSatisSonrasiOtomasyonVeTaskYonetimi"
+    "satis-sonrasi-otomasyon-ve-task-yonetimi":"BlogSatisSonrasiOtomasyonVeTaskYonetimi",
+    "satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme":"BlogSatisSonrasiEkipRefahiVeTukenmislikOnleme",
+    "yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi":"BlogYapayZekaIleSatisSonrasiYorumVeSikayetAnalizi",
+    "proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek":"BlogCagriMerkeziProaktifSatisSonrasiDestekPmsVerileriyleRiskliMisafirleriOncedenBelirlemek",
+    "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":"BlogCagriMerkeziGuestExperiencePlatformlariVeOtelSatisSonrasiCustomerSuccess"
     
   },
 
