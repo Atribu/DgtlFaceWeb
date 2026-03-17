@@ -19127,6 +19127,463 @@ export const BLOG_MEDIA_MAP = {
   
 
 
+   "check-out-sonrasi-30-gunluk-iletisim-takvimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-1.webp",
+      alt: "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
+      caption: "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-2.webp",
+      alt: "İlk 24 saat mesajı amacı teşekkür ve bilgi paylaşımı otel bağlamı",
+      caption: "İlk 24 saat mesajı amacı teşekkür ve bilgi paylaşımı otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-3.webp",
+      alt: "3–7 gün NPS ve yorum daveti bölümü amacı doğru sıra otel bağlamı",
+      caption: "3–7 gün NPS ve yorum daveti bölümü amacı doğru sıra otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-4.webp",
+      alt: "14–30 gün sadakat ve tekrar teklif bölümü amacı geri getirme otel bağlamı",
+      caption: "14–30 gün sadakat ve tekrar teklif bölümü amacı geri getirme otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-5.webp",
+      alt: "30 günlük timeline diyagramı amacı post-stay iletişim akışı otel bağlamı",
+      caption: "30 günlük timeline diyagramı amacı post-stay iletişim akışı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-6.webp",
+      alt: "12 dokunuş checklisti amacı post-stay iletişim standardı otel bağlamı",
+      caption: "12 dokunuş checklisti amacı post-stay iletişim standardı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-7.webp",
+      alt: "Post-stay KPI paneli amacı NPS yorum tekrar rezervasyon sinyali",
+      caption: "Post-stay KPI paneli amacı NPS yorum tekrar rezervasyon sinyali"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-11/Callcenter4-11-8.webp",
+      alt: "Örnek mesaj ekranları amacı teşekkür NPS yorum sadakat akışı",
+      caption: "Örnek mesaj ekranları amacı teşekkür NPS yorum sadakat akışı"
+    }
+  },
+  
+ "service-recovery-ve-wow-moment-tasarlama":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-1.webp",
+      alt: "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?",
+      caption: "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-2.webp",
+      alt: "Kritik hata tipleri amacı overbooking hijyen teknik arıza otel bağlamı",
+      caption: "Kritik hata tipleri amacı overbooking hijyen teknik arıza otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-3.webp",
+      alt: "Telafi türleri bölümü amacı adil ve sürdürülebilir jest seti otel bağlamı",
+      caption: "Telafi türleri bölümü amacı adil ve sürdürülebilir jest seti otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-4.webp",
+      alt: "Takip ve ölçüm bölümü amacı recovery sonrası KPI izleme otel bağlamı",
+      caption: "Takip ve ölçüm bölümü amacı recovery sonrası KPI izleme otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-5.webp",
+      alt: "Service recovery akışı amacı kabul özür telafi takip adımları otel bağlamı",
+      caption: "Service recovery akışı amacı kabul özür telafi takip adımları otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-6.webp",
+      alt: "Recovery ilk 2 dakika checklisti amacı sakin iletişim ve plan otel bağlamı",
+      caption: "Recovery ilk 2 dakika checklisti amacı sakin iletişim ve plan otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-7.webp",
+      alt: "Recovery KPI paneli amacı NPS ve yorum tonu takibi otel bağlamı",
+      caption: "Recovery KPI paneli amacı NPS ve yorum tonu takibi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-12/Callcenter4-12-8.webp",
+      alt: "Wow moment örnekleri kartı amacı kişiselleştirilmiş jest tasarımı otel bağlamı",
+      caption: "Wow moment örnekleri kartı amacı kişiselleştirilmiş jest tasarımı otel bağlamı"
+    }
+  },
+
+  
+
+  "kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-1.webp",
+      alt: "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?",
+      caption: "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-2.webp",
+      alt: "Misafir firma acente üçgeni amacı B2B iletişim paydaş yönetimi otel bağlamı",
+      caption: "Misafir firma acente üçgeni amacı B2B iletişim paydaş yönetimi otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-3.webp",
+      alt: "Post-event raporlama bölümü amacı grup sonrası kapanış otel bağlamı",
+      caption: "Post-event raporlama bölümü amacı grup sonrası kapanış otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-4.webp",
+      alt: "Yenileme ve upsell bölümü amacı teklif ve takip otel bağlamı",
+      caption: "Yenileme ve upsell bölümü amacı teklif ve takip otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-5.webp",
+      alt: "B2B after-sales akış diyagramı amacı rapor toplantı teklif takip",
+      caption: "B2B after-sales akış diyagramı amacı rapor toplantı teklif takip"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-6.webp",
+      alt: "B2B satış sonrası checklisti amacı rapor aksiyon yenileme otel bağlamı",
+      caption: "B2B satış sonrası checklisti amacı rapor aksiyon yenileme otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-7.webp",
+      alt: "B2B KPI paneli amacı aksiyon kapanışı yenileme sinyali otel bağlamı",
+      caption: "B2B KPI paneli amacı aksiyon kapanışı yenileme sinyali otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-13/Callcenter4-13-8.webp",
+      alt: "Özet rapor örneği amacı firma ve acente iletişimi otel bağlamı",
+      caption: "Özet rapor örneği amacı firma ve acente iletişimi otel bağlamı"
+    }
+  },
+
+
+   "satis-sonrasi-script-ve-sop-entegrasyonu":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-1.webp",
+      alt: "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?",
+      caption: "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-2.webp",
+      alt: "4 adımlı script yapısı amacı açılış dinleme çözüm kapanış otel bağlamı",
+      caption: "4 adımlı script yapısı amacı açılış dinleme çözüm kapanış otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-3.webp",
+      alt: "Script SOP QA entegrasyonu bölümü amacı tek kaynak kalite sistemi",
+      caption: "Script SOP QA entegrasyonu bölümü amacı tek kaynak kalite sistemi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-4.webp",
+      alt: "Versiyonlama ve eğitim bölümü amacı script güncelleme süreci otel bağlamı",
+      caption: "Versiyonlama ve eğitim bölümü amacı script güncelleme süreci otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-5.webp",
+      alt: "Script SOP eşleştirme diyagramı amacı konuşmayı sürece bağlama",
+      caption: "Script SOP eşleştirme diyagramı amacı konuşmayı sürece bağlama"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-6.webp",
+      alt: "QA skor kartı checklisti amacı script uyumu ölçümü otel bağlamı",
+      caption: "QA skor kartı checklisti amacı script uyumu ölçümü otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-7.webp",
+      alt: "Kalite skor trendi paneli amacı eğitim ve script etkisi otel bağlamı",
+      caption: "Kalite skor trendi paneli amacı eğitim ve script etkisi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-14/Callcenter4-14-8.webp",
+      alt: "Script kitapçığı mockup amacı senaryo bazlı kütüphane otel bağlamı",
+      caption: "Script kitapçığı mockup amacı senaryo bazlı kütüphane otel bağlamı"
+    }
+  },
+
+  "satis-sonrasi-ekip-kpi-ve-hedef-tanimlama":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-1.webp",
+      alt: "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+      caption: "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-2.webp",
+      alt: "KPI sepetleri amacı çözüm memnuniyet değer ayrımı otel bağlamı",
+      caption: "KPI sepetleri amacı çözüm memnuniyet değer ayrımı otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-3.webp",
+      alt: "Çözüm KPI’ları bölümü amacı FCR ve tekrar temas otel bağlamı",
+      caption: "Çözüm KPI’ları bölümü amacı FCR ve tekrar temas otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-4.webp",
+      alt: "Hedef matrisi bölümü amacı ekip birey KPI dengesi otel bağlamı",
+      caption: "Hedef matrisi bölümü amacı ekip birey KPI dengesi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-5.webp",
+      alt: "KPI→hedef→geri bildirim akışı amacı performans döngüsü otel bağlamı",
+      caption: "KPI→hedef→geri bildirim akışı amacı performans döngüsü otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-6.webp",
+      alt: "Temel KPI seti kartı amacı hızlı referans otel bağlamı",
+      caption: "Temel KPI seti kartı amacı hızlı referans otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-7.webp",
+      alt: "Dashboard KPI kartı amacı FCR çözüm süresi NPS trendi otel bağlamı",
+      caption: "Dashboard KPI kartı amacı FCR çözüm süresi NPS trendi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-15/Callcenter4-15-8.webp",
+      alt: "Dashboard mockup amacı ekip KPI görünürlüğü ve hedef takibi otel bağlamı",
+      caption: "Dashboard mockup amacı ekip KPI görünürlüğü ve hedef takibi otel bağlamı"
+    }
+  },
+
+
+   "satis-sonrasi-eposta-sms-whatsapp-sablonlari":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-1.webp",
+      alt: "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif",
+      caption: "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-2.webp",
+      alt: "Kanal amaç matrisi amacı doğru mesajı doğru kanalda kullanma otel bağlamı",
+      caption: "Kanal amaç matrisi amacı doğru mesajı doğru kanalda kullanma otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-3.webp",
+      alt: "Teşekkür ve bilgi şablonları bölümü amacı 0–24 saat iletişim otel bağlamı",
+      caption: "Teşekkür ve bilgi şablonları bölümü amacı 0–24 saat iletişim otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-4.webp",
+      alt: "Çözüm ve teklif şablonları bölümü amacı kapanış ve geri getirme otel bağlamı",
+      caption: "Çözüm ve teklif şablonları bölümü amacı kapanış ve geri getirme otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-5.webp",
+      alt: "Teşekkür NPS yorum sadakat akışı diyagramı amacı doğru sıralama otel bağlamı",
+      caption: "Teşekkür NPS yorum sadakat akışı diyagramı amacı doğru sıralama otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-6.webp",
+      alt: "Minimum 10 şablon checklisti amacı satış sonrası template standardı otel bağlamı",
+      caption: "Minimum 10 şablon checklisti amacı satış sonrası template standardı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-7.webp",
+      alt: "Kanal performans kartı amacı yanıt oranı tıklama opt-out otel bağlamı",
+      caption: "Kanal performans kartı amacı yanıt oranı tıklama opt-out otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-16/Callcenter4-16-8.webp",
+      alt: "İyi kötü metin karşılaştırması amacı ton ve netlik standardı otel bağlamı",
+      caption: "İyi kötü metin karşılaştırması amacı ton ve netlik standardı otel bağlamı"
+    }
+  },
+
+
+  "satis-sonrasi-upsell-ve-cross-sell-stratejileri":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-1.webp",
+      alt: "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir",
+      caption: "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-2.webp",
+      alt: "Temas noktaları haritası amacı pre-stay in-stay post-stay teklif zamanlaması otel bağlamı",
+      caption: "Temas noktaları haritası amacı pre-stay in-stay post-stay teklif zamanlaması otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-3.webp",
+      alt: "Teklif örnekleri bölümü amacı baskısız upsell iletişimi otel bağlamı",
+      caption: "Teklif örnekleri bölümü amacı baskısız upsell iletişimi otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-4.webp",
+      alt: "Ölçüm ve optimizasyon bölümü amacı upsell performans takibi otel bağlamı",
+      caption: "Ölçüm ve optimizasyon bölümü amacı upsell performans takibi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-5.webp",
+      alt: "Upsell temas noktaları diyagramı amacı teklif zamanlaması ve kanal seçimi otel bağlamı",
+      caption: "Upsell temas noktaları diyagramı amacı teklif zamanlaması ve kanal seçimi otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-6.webp",
+      alt: "Yap yapma checklisti amacı satış sonrası teklif etiği otel bağlamı",
+      caption: "Yap yapma checklisti amacı satış sonrası teklif etiği otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-7.webp",
+      alt: "Upsell dönüşüm kartı amacı segment ve kanal performansı otel bağlamı",
+      caption: "Upsell dönüşüm kartı amacı segment ve kanal performansı otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-17/Callcenter4-17-8.webp",
+      alt: "Teklif metin şablonları kartı amacı senaryo bazlı upsell mesajları otel bağlamı",
+      caption: "Teklif metin şablonları kartı amacı senaryo bazlı upsell mesajları otel bağlamı"
+    }
+  },
+
+
+   "ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-1.webp",
+      alt: "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?",
+      caption: "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-2.webp",
+      alt: "Yetki ve sorumluluk ayrımı amacı OTA policy ile otel sahiplenmesini dengeleme",
+      caption: "Yetki ve sorumluluk ayrımı amacı OTA policy ile otel sahiplenmesini dengeleme"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-3.webp",
+      alt: "OTA süreçleri bölümü amacı misafiri sıkışmış hissettirmeden çözüm dili",
+      caption: "OTA süreçleri bölümü amacı misafiri sıkışmış hissettirmeden çözüm dili"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-4.webp",
+      alt: "Direct esneklik bölümü amacı sadakat ve seçenek anlatımı otel bağlamı",
+      caption: "Direct esneklik bölümü amacı sadakat ve seçenek anlatımı otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-5.webp",
+      alt: "Kanal bazlı satış sonrası akış diyagramı amacı OTA ve direct süreç uyumu",
+      caption: "Kanal bazlı satış sonrası akış diyagramı amacı OTA ve direct süreç uyumu"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-6.webp",
+      alt: "OTA-direct uyum checklisti amacı empati politika alternatif çözüm otel bağlamı",
+      caption: "OTA-direct uyum checklisti amacı empati politika alternatif çözüm otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-7.webp",
+      alt: "Kanal uyum KPI kartı amacı çözüm süresi tekrar temas OTA yanıt SLA",
+      caption: "Kanal uyum KPI kartı amacı çözüm süresi tekrar temas OTA yanıt SLA"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-18/Callcenter4-18-8.webp",
+      alt: "Script örnekleri kartı amacı misafire kanal farkını doğru anlatma",
+      caption: "Script örnekleri kartı amacı misafire kanal farkını doğru anlatma"
+    }
+  },
+
+
+   "satis-sonrasi-otomasyon-ve-task-yonetimi":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-1.webp",
+      alt: "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
+      caption: "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-2.webp",
+      alt: "Ticket alanları amacı owner ve SLA ile satış sonrası takibi standartlaştırma",
+      caption: "Ticket alanları amacı owner ve SLA ile satış sonrası takibi standartlaştırma"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-3.webp",
+      alt: "Otomasyon senaryoları amacı e-posta SMS WhatsApp ile takip otel bağlamı",
+      caption: "Otomasyon senaryoları amacı e-posta SMS WhatsApp ile takip otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-4.webp",
+      alt: "Raporlama ve iyileştirme amacı task verisini aksiyona çevirme otel bağlamı",
+      caption: "Raporlama ve iyileştirme amacı task verisini aksiyona çevirme otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-5.webp",
+      alt: "SLA timeline diyagramı amacı hatırlatma ve eskalasyon akışı otel bağlamı",
+      caption: "SLA timeline diyagramı amacı hatırlatma ve eskalasyon akışı otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-6.webp",
+      alt: "Satış sonrası otomasyon checklisti amacı sistem kurulum adımları otel bağlamı",
+      caption: "Satış sonrası otomasyon checklisti amacı sistem kurulum adımları otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-7.webp",
+      alt: "Task KPI kartı amacı açık ticket SLA ihlali tekrar temas takibi otel bağlamı",
+      caption: "Task KPI kartı amacı açık ticket SLA ihlali tekrar temas takibi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-19/Callcenter4-19-8.webp",
+      alt: "Otomasyon kural tablosu örneği amacı IT ve operasyon için iskelet otel bağlamı",
+      caption: "Otomasyon kural tablosu örneği amacı IT ve operasyon için iskelet otel bağlamı"
+    }
+  },
+
 };
 
 export function getMediaBySlot(slug, slot) {

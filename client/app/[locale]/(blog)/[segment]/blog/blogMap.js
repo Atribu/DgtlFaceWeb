@@ -221,7 +221,18 @@ export const BLOG_MAP = {
     "yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec":"BlogYorumVeDegerlendirmeYonetimiSatisSonrasiSurec",
     "ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek":"BlogOzelIhtiyacSahibiMisafirlerIcinSatisSonrasiDestek",
     "ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon":"BlogIcIletisimAkisiSatisSonrasiDestekResepsiyonOperasyon",
-    "satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":"BlogSatisSonrasiVeriAnaliziVeHizmetIyilestirme"
+    "satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":"BlogSatisSonrasiVeriAnaliziVeHizmetIyilestirme",
+
+    //hotel4-11
+    "check-out-sonrasi-30-gunluk-iletisim-takvimi":"BlogCheckoutSonrasi30GunlukIletisimTakvimi",
+    "service-recovery-ve-wow-moment-tasarlama":"BlogServiceRecoveryVeWowMomentTasarlama",
+    "kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek":"BlogKurumsalMiceVeAcenteMisafirleriIcinSatisSonrasiDestek",
+    "satis-sonrasi-script-ve-sop-entegrasyonu":"BlogSatisSonrasiScriptVeSopEntegrasyonu",
+    "satis-sonrasi-ekip-kpi-ve-hedef-tanimlama":"BlogSatisSonrasiEkipKpiVeHedefTanimlama",
+    "satis-sonrasi-eposta-sms-whatsapp-sablonlari":"BlogSatisSonrasiEpostaSmsWhatsappSablonlari",
+    "satis-sonrasi-upsell-ve-cross-sell-stratejileri":"BlogSatisSonrasiUpsellVeCrossSellStratejileri",
+    "ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar":"BlogOtaVeDirektRezervasyonlardaSatisSonrasiFarklar",
+    "satis-sonrasi-otomasyon-ve-task-yonetimi":"BlogSatisSonrasiOtomasyonVeTaskYonetimi"
     
   },
 

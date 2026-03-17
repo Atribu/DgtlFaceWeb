@@ -22084,6 +22084,993 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"check-out-sonrasi-30-gunluk-iletisim-takvimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi",
+      "name": "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
+      "description": "Check-out sonrası 30 günde teşekkür→NPS/anket→yorum→sadakat→tekrar teklif sırasını kurun. Segment bazlı akış ve örnek metinlerle post-stay master plan.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Post-Stay Communication Plan" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi#webpage" },
+      "headline": "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
+      "name": "Check-out Sonrası 30 Günlük İletişim Takvimi: Teşekkür, Anket, Yorum ve Tekrar Teklif",
+      "description": "Check-out sonrası 30 günlük dönemde teşekkür, anket/NPS, yorum ve sadakat mesajlarını planlayarak misafirle ilişkiyi koparmayan iletişim takvimi rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Post-Stay Communication" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Online Review" },
+        { "@type": "Thing", "name": "Loyalty Program" },
+        { "@type": "Thing", "name": "Email/SMS/WhatsApp" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel post-stay iletişim ve satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Check-out Sonrası 30 Günlük İletişim Takvimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/check-out-sonrasi-30-gunluk-iletisim-takvimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Check-out sonrası misafire ne zaman ve nasıl mesaj atılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk 24 saatte teşekkür ve temel bilgi, 3–7 gün içinde NPS/anket, 14–30 gün içinde sadakat ve soft tekrar teklif planlanmalıdır. Segment ve kanal tercihi mesaj tonunu belirler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Teşekkür, anket ve yorum daveti hangi sırayla gitmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce teşekkür ve kapanış, sonra NPS/anket; promoter segmentte bunun ardından yorum daveti gelir. Detractor segmentte önce çözüm takibi yapılır, yorum daveti ertelenir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tekrar rezervasyon teklifi ne zaman yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Genellikle 14–30 gün penceresinde, sadakat veya değer odaklı bir mesajla yumuşak biçimde yapılmalıdır. Agresif satış dili yerine seçenek odaklı yaklaşım tercih edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu akışın performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yanıt oranı, NPS yanıtı, yorum sayısı, opt-out oranı ve tekrar rezervasyon sinyalleri (tıklama/teklif talebi) ile ölçülebilir. UTM ile kanal/segment bazlı izleme yapılmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"service-recovery-ve-wow-moment-tasarlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama",
+      "name": "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?",
+      "description": "Overbooking, hijyen, teknik arıza gibi büyük hatalarda service recovery uygulayın. Kabul–özür–telafi–takip adımları, adil jest matrisi ve önce/sonra iletişim örnekleri burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "Service Recovery" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama#webpage" },
+      "headline": "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?",
+      "name": "Service Recovery ve “Wow Moment” Tasarlama: Büyük Hatanın Ardından Misafiri Nasıl Geri Kazanırsınız?",
+      "description": "Kritik hata sonrası misafiri kaybetmek yerine kazanmak için service recovery adımları ve wow moment örnekleri sunan otel playbook’u.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Service Recovery" },
+        { "@type": "Thing", "name": "Wow Moment" },
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Online Review" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel service recovery ve satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Service Recovery ve Wow Moment", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/service-recovery-ve-wow-moment-tasarlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Service recovery nedir, otellerde nasıl uygulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kritik hata sonrası hatayı kabul edip özürle başlayan, net çözüm ve adil telafi sunan, ardından takip ve ölçümle tamamlanan süreçtir. Amaç güveni onarmak ve deneyimi toparlamaktır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Büyük bir hata sonrası misafire ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sakin ve net başlayın: Haklısınız, bunu ciddiyetle ele alıyoruz. Ardından çözüm adımını ve dönüş süresini söyleyin; savunmaya geçmeyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi durumlarda upgrade/jest teklif edilmelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafirin etkilenme düzeyi yüksekse ve güven kırıldıysa, adil bir telafi düşünülmelidir. Telafi bandı rol ve vaka tipine göre sınırlı ve sürdürülebilir olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Service recovery başarısı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çözüm süresi, tekrar temas oranı, recovery sonrası NPS/yorum tonu ve aksiyon kapanışı ile ölçülebilir. Ayrıca tekrar eden vakalar kök neden analizine taşınmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek",
+      "name": "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?",
+      "description": "Kurumsal, MICE ve acente misafirlerinde satış sonrası destek; misafir+firma+acente üçgeninde yürür. Grup sonrası rapor, feedback toplantısı, yenileme ve upsell akışını kurun.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "B2B After-Sales Support" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek#webpage" },
+      "headline": "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?",
+      "name": "Kurumsal, MICE ve Acente Misafirleri İçin Satış Sonrası Destek Nasıl Kurulur?",
+      "description": "Kurumsal & MICE & acente misafirleri için satış sonrası desteği; firma/acenteyle iletişim, grup sonrası rapor ve sözleşme yenileme fırsatları çerçevesinde ele alan rehber.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Corporate Guests" },
+        { "@type": "Thing", "name": "MICE" },
+        { "@type": "Thing", "name": "Travel Agency" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Group Report" },
+        { "@type": "Thing", "name": "Renewal" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Kurumsal/MICE/acente satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Kurumsal, MICE ve Acente Satış Sonrası", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kurumsal ve MICE misafirleri için satış sonrası süreç nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir–firma–acente paydaşlarını ayırıp, grup sonrası 48 saat içinde özet rapor ve açık aksiyonlar göndermelisiniz. 7 gün içinde değerlendirme toplantısı, 14–30 gün içinde yenileme/teklif akışı kurgulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup konaklama ve etkinlik sonrası firmaya nasıl rapor gönderilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek sayfalık özet rapor formatıyla; güçlü yanlar, iyileştirme alanları ve owner’lı aksiyon tablosu içermelidir. Gizlilik gereği yalnız gerekli bilgiler paylaşılmalı ve sözleşme hükümlerine uyulmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "B2B satış sonrası süreçten yeni satış fırsatı nasıl çıkarılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Feedback meeting’de öğrenimleri çıkarıp öneri paketi haline getirerek. 14–30 gün içinde yenileme/upsell teklifini rapordaki iyileştirmelerle ilişkilendirerek sunmak etkilidir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-script-ve-sop-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu",
+      "name": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?",
+      "description": "Satış sonrası görüşmelerde aynı kaliteyi yakalayın: açılış–dinleme–çözüm–kapanış script’lerini SOP ve kalite dinleme skor kartıyla eşleyin. Kanal bazlı şablonlar burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales Scripts and SOP" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu#webpage" },
+      "headline": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?",
+      "name": "Satış Sonrası Destek Script’leri ve SOP Entegrasyonu: Her Çağrıda Aynı Kaliteyi Nasıl Yakalarsınız?",
+      "description": "Satış sonrası destek script’lerini SOP, kalite dinleme ve eğitim süreçleriyle entegre ederek tutarlı misafir deneyimi üretmek isteyen oteller için pratik şablon rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Script" },
+        { "@type": "Thing", "name": "SOP" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Quality Monitoring" },
+        { "@type": "Thing", "name": "Training" },
+        { "@type": "Thing", "name": "FAQ" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası script ve SOP süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Script ve SOP Entegrasyonu", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-script-ve-sop-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası destek script’leri nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her senaryo için 4 adımlı iskelet (açılış–dinleme–çözüm–kapanış) kurarak hazırlanır. Kısa, net ve kanal bazlı varyantları olan setler en iyi çalışır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Script’leri SOP ve kalite dinleme süreçlerine nasıl bağlarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Script satırlarını SOP maddelerine eşleyip QA skor kartına kontrol maddesi olarak eklersiniz. Böylece yazıldı mı değil, uygulandı mı ölçülür."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Farklı satış sonrası senaryolar için ayrı script setleri olmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet. İptal/iade, şikâyet, bilgi talebi ve NPS geri dönüşü gibi senaryoların riskleri farklıdır; ayrı setler tutarlılığı artırır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Script kitapçığı ve dijital kütüphaneyi nasıl yönetirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek kaynak bir kütüphane kurup versiyon kontrol uygulayın, değişiklik günlüğü tutun ve her güncellemeyi mikro eğitimle sahaya indirin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-ekip-kpi-ve-hedef-tanimlama":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama",
+      "name": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+      "description": "Satış sonrası ekip KPI’larını hacim yerine değer odaklı kurun: FCR, çözüm süresi, yeniden arama, NPS/yorum ve repeat booking sinyali. Hedef–prim–geri bildirim modeli burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales KPI Framework" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama#webpage" },
+      "headline": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+      "name": "Satış Sonrası Destek Ekibi İçin KPI ve Hedef Tanımlama Rehberi",
+      "description": "Satış sonrası destek ekibi için çözüm, memnuniyet ve sadakat odaklı KPI’lar tanımlayarak performans yönetimini değer merkezli hâle getirme rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "FCR" },
+        { "@type": "Thing", "name": "Resolution Time" },
+        { "@type": "Thing", "name": "NPS" },
+        { "@type": "Thing", "name": "Repeat Booking" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası KPI ve performans yönetimi danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "KPI ve Hedef Tanımlama", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-ekip-kpi-ve-hedef-tanimlama#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası destek ekibi için hangi KPI’lar takip edilmelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FCR, çözüm süresi, yeniden arama/tekrar temas, şikâyet kapanma oranı, QA skoru, NPS/CSAT ve online review yanıt/ton metrikleri temel seti oluşturur. Repeat booking sinyali de değer KPI’ı olarak izlenebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "FCR nedir, otellerde nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FCR, misafirin ilk temasında konunun çözüldüğü vakaların oranıdır. Otelde en sağlıklı ölçüm, ticket kapanışı ve aynı konu için tekrar açılma/tekrar temas takibiyle yapılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS ve yorum puanları satış sonrası hedeflere nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doğrudan puan hedeflemek yerine ekip kontrolündeki alt metriklere bağlamak daha adildir. Örneğin detractor geri dönüş SLA’sı, yorum yanıt süresi ve çözüm kapanış kalitesi gibi."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-eposta-sms-whatsapp-sablonlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari",
+      "name": "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif",
+      "description": "Teşekkür, bilgi, çözüm/telafi, NPS-yorum ve tekrar teklif için e-posta/SMS/WhatsApp şablonları. Kanal×amaç tabloları ve minimum 10 şablon checklist’i.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales Message Templates" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari#webpage"
+      },
+      "headline": "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif",
+      "name": "Satış Sonrası E-posta, SMS ve WhatsApp Şablonları: Teşekkür, Bilgi, Çözüm ve Teklif",
+      "description": "Otel satış sonrası sürecinde teşekkür, bilgi verme, şikâyet çözümü ve sadakat/tekrar teklif için e-posta/SMS/WhatsApp şablon kütüphanesi rehberi.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Email" },
+        { "@type": "Thing", "name": "SMS" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Template" },
+        { "@type": "Thing", "name": "Guest Journey" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası iletişim ve mesaj yönetimi danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "E-posta, SMS ve WhatsApp Şablonları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-eposta-sms-whatsapp-sablonlari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası teşekkür maili nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa, sıcak ve yardım odaklı yazılmalı; tek hedef teşekkür ve destek kanalı göstermektir. Gerekirse fatura/belge için tek adım ekleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Check-out sonrası WhatsApp mesajında ne söylemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teşekkür + buradan yazabilirsiniz güven cümlesi ve gerekiyorsa takip/teyit bilgisi yeterlidir. Uzun metin yerine kısa ve net yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İptal/değişiklik bilgilendirme şablonu nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kuralı tek cümlede söyleyip 2–3 alternatif sunmalı ve net dönüş süresi vermelidir. Belirsiz dil yerine süre ve takip yaklaşımı kullanılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "NPS ve yorum daveti metni nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NPS tek sorudur; ardından yalnız promoter segmentte yorum daveti yapılır. Detractor’da önce çözüm takibi yapılmalı, yorum daveti ertelenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet çözüldükten sonra nasıl mesaj atmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Çözüm özetini kısa verin, takip numarası ekleyin ve uygunluk teyidi isteyin. Bu kapanış tekrar temas riskini azaltmaya yardımcı olur."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-upsell-ve-cross-sell-stratejileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri",
+      "name": "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir",
+      "description": "Pre-stay/in-stay/post-stay temaslarında oda, spa, transfer, geç çıkış gibi upsell/cross-sell fırsatlarını doğru zamanda sunun. Şikâyette önce çözüm, sonra teklif; ölçüm ve örnek metinler.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales Upsell and Cross-sell" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri#webpage"
+      },
+      "headline": "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir",
+      "name": "Otel Satış Sonrası Upsell ve Cross-sell Stratejileri: Şikâyetten Sadakate Ek Gelir",
+      "description": "Satış sonrası temas noktalarında upsell/cross-sell tekliflerini misafir memnuniyetini bozmadan zamanlama, ton ve ölçüm çerçevesiyle uygulama rehberi.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Upsell" },
+        { "@type": "Thing", "name": "Cross-sell" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Guest Journey" },
+        { "@type": "Thing", "name": "Revenue" },
+        { "@type": "Thing", "name": "Offer" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası upsell/cross-sell ve iletişim süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Satış Sonrası Upsell & Cross-sell", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-upsell-ve-cross-sell-stratejileri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası dönemde misafire ne teklif edebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pre-stay’de oda upgrade ve transfer; in-stay’de spa ve late check-out; post-stay’de sadakat ve bir sonraki tatil teklifi uygundur. Teklifin faydası tek cümlede net olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet yaşayan misafire upsell teklif edilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şikâyet açıkken teklif edilmemelidir. Önce çözüm ve kapanış teyidi alınmalı; memnuniyet sinyali geldikten sonra izin alarak tek seçenek sunulabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Check-out sonrası tekrar rezervasyon teklifi nasıl yapılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Agresif satış dili yerine seçenek odaklı soft bir mesajla yapılmalıdır. Genellikle teşekkür/NPS sonrası 14–30 gün penceresi daha uygundur; segment ve kanal tercihi önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Upsell performansı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teklif sayısı, kabul oranı, opt-out oranı ve segment/kana bazlı dönüşüm ile ölçülür. Linkli tekliflerde UTM ile izleme, satış dönüşüm raporlamasıyla birlikte okunmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar",
+      "name": "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?",
+      "description": "OTA ve direkt rezervasyonlarda satış sonrası kurallar farklı olabilir; misafir ise çözüm ister. OTA şikâyet/iade, direct esneklik/sadakat süreçlerini uyumlu yönetin; script ve tablo örnekleriyle.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "OTA vs Direct After-Sales Processes" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar#webpage"
+      },
+      "headline": "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?",
+      "name": "OTA ve Direkt Rezervasyonlarda Satış Sonrası Farkları: Süreçleri Nasıl Uyumlu Tutarsınız?",
+      "description": "Booking/Expedia gibi OTA’lar ile otel web/call center üzerinden alınan rezervasyonların satış sonrası süreçlerini, misafir deneyimini bozmadan uyumlu yönetme rehberi.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "OTA" },
+        { "@type": "Thing", "name": "Direct Booking" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Cancellation" },
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "Policy" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "OTA ve direct rezervasyon satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "OTA ve Direkt Satış Sonrası Farklar", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ota-ve-direkt-rezervasyonlarda-satis-sonrasi-farklar#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OTA ve direkt rezervasyonlarda satış sonrası farkları nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yetki ve işlem adımları, iletişim kanalı ve politika dili farklı olabilir. Misafire bu farkı sade anlatıp süreci sahiplenmek ve takip etmek gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "OTA rezervasyonunda şikâyet ve iade süreci nasıl işler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bazı adımlar platform politikasına bağlı yürüyebilir; otel misafir iletişimini ve takibi üstlenmelidir. Alternatif çözüm sunmak ve net takip süresi vermek kritik önemdedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafire kanal farkını nasıl anlatmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şeffaf ama empatik şekilde: İşlem adımı kanala göre değişebilir; ama sizi yalnız bırakmıyoruz ve süreci takip ediyoruz. Plan ve süre vermek esastır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Direkt rezervasyonda daha esnek olabilir miyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Otelin esneklik alanı daha geniş olabilir; bunu misafire suçlayıcı değil seçenek sunan fayda diliyle anlatmak gerekir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"satis-sonrasi-otomasyon-ve-task-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi",
+      "name": "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
+      "description": "Satış sonrası talepler WhatsApp’ta kaybolmasın: ticket/owner/SLA kurun, hatırlatma ve status güncellemelerini otomatikleştirin. Akış diyagramı ve kural tabloları burada.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "about": { "@type": "Thing", "name": "After-Sales Automation and Task Management" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi#webpage"
+      },
+      "headline": "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
+      "name": "Satış Sonrası Otomasyon ve Task Yönetimi: Hiçbir Talebin Kaybolmaması İçin Ne Yapmalısınız?",
+      "description": "Otel satış sonrası süreçlerinde task/ticket ve basit otomasyon kurguları oluşturarak hiçbir talebin kaybolmamasını sağlamak için pratik rehber.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "After-Sales Automation" },
+        { "@type": "Thing", "name": "Task Management" },
+        { "@type": "Thing", "name": "Ticketing" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası otomasyon ve task/ticket süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Otomasyon ve Task Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/satis-sonrasi-otomasyon-ve-task-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Satış sonrası otomasyon nedir, otellerde nasıl kurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Her talebi ticket’a alıp owner ve SLA atayan, hatırlatma/eskalasyonu otomatikleştiren sistem yaklaşımıdır. Pilotla başlayıp KPI’larla izleyerek genişletmek en sağlıklısıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet ve talepler için task/ticket sistemi nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Talep geldiğinde ticket açılır, kategori ve öncelik belirlenir, owner atanır ve SLA başlar. Çözüm sonrası misafir teyidi alınır ve ticket kapatılır; tekrar temas varsa kök neden analizine gider."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SLA hatırlatmalarını nasıl otomatikleştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt ve çözüm için ayrı SLA tanımlayıp süre dolmadan hatırlatma; aşımda eskalasyon bildirimi kurgulayarak. P1 vakalarda daha erken eskalasyon uygulanmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi satış sonrası adımlar otomasyona uygun, hangileri manuel kalmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teşekkür, hatırlatma, status güncellemesi ve eskalasyon otomasyona uygundur. Empati gerektiren şikâyet konuşması, telafi kararı ve hassas durumlar ise manuel kalmalıdır."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
