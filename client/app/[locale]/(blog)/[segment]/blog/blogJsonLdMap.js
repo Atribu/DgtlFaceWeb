@@ -23519,6 +23519,228 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"self-service-destek-ve-misafir-portallari-otel-satis-sonrasi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi",
+      "name": "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
+      "description": "Self-service portal ve misafir uygulaması ile satış sonrası basit talepleri 7/24 çözün; tıkanan vakaları call center handoff ile devredin. SSS, form UX ve 15 konu checklist’i içerir.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi#webpage"
+      },
+      "headline": "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
+      "name": "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
+      "description": "Otel satış sonrası desteklerinde self-service portal ve guest app ile SSS, talep formu ve ticket akışı kurma; kritik vakalarda call center handoff ile insan temasını koruma rehberi.",
+      "inLanguage": "tr-TR",
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization", "name": "DGTLFACE" },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Self-Service Portal" },
+        { "@type": "Thing", "name": "Guest App" },
+        { "@type": "Thing", "name": "FAQ" },
+        { "@type": "Thing", "name": "Ticket Form" },
+        { "@type": "Thing", "name": "Call Center Handoff" },
+        { "@type": "Thing", "name": "UX" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel self-service portal ve satış sonrası süreç danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "Self-Service Portal ve Misafir Portalları", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/self-service-destek-ve-misafir-portallari-otel-satis-sonrasi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Self-service misafir portalı nedir, oteller için ne işe yarar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafirin SSS’den bilgi alıp talep formu ile ticket açabildiği ve durumunu takip edebildiği dijital destek katmanıdır. Basit talepleri 7/24 çözerek ekip yükünü azaltabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi satış sonrası talepler self-service ile çözülebilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fatura/belge, saat bilgileri, ekstra housekeeping talepleri, teknik arıza bildirimi, transfer bilgisi ve basit rezervasyon teyitleri gibi düşük riskli konular self-service’e uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Self-service ile çağrı merkezi arasında akış nasıl kurulmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Portalda tıkanan talep tek tuşla call center/WhatsApp’a devredilmeli (handoff). Ticket owner/SLA korunmalı ve misafir status güncellemesi almalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Her sorun self-service ile çözülebilir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Overbooking, ciddi hijyen/güvenlik, iade/iptal pazarlığı ve yüksek duygusal yoğunluk içeren kriz vakalarında insan teması şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri",
+      "name": "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?",
+      "description": "Misafirlerin su/enerji/plastik, atık yönetimi, sertifika ve karbon ayak izi sorularını satış sonrası kanallarda şeffaf yanıtlayın. Greenwashing’e düşmeden örnekler ve şablonlarla.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" }
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri#webpage"
+      },
+      "headline": "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?",
+      "name": "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?",
+      "description": "Otel satış sonrası çağrı/mesaj/e-posta kanallarında ESG sorularını şeffaf ve gerçekçi yönetmek; greenwashing riskini azaltmak ve çevre odaklı geri bildirimleri iyileştirmeye dönüştürmek için rehber.",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE"
+      },
+      "publisher": { "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Sustainability" },
+        { "@type": "Thing", "name": "ESG" },
+        { "@type": "Thing", "name": "Green Hotel" },
+        { "@type": "Thing", "name": "After-Sales Support" },
+        { "@type": "Thing", "name": "Certificate" },
+        { "@type": "Thing", "name": "Carbon Footprint" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek#service",
+      "name": "Satış Sonrası Destek",
+      "serviceType": "Otel satış sonrası iletişim ve süreç iyileştirme danışmanlığı",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek",
+      "provider": { "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi" },
+        { "@type": "ListItem", "position": 3, "name": "Satış Sonrası Destek", "item": "https://dgtlface.com/tr/cagri-merkezi/satis-sonrasi-destek" },
+        { "@type": "ListItem", "position": 4, "name": "ESG ve Yeşil Otel Beklentileri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Sürdürülebilirlik ve ESG ile ilgili misafir soruları satış sonrası süreçte nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şeffaf, somut ve doğrulanabilir yanıtlarla yönetilir. Kısa/orta/uzun yanıt şablonları kullanılır; yapmadığınız uygulamaları iddia etmekten kaçınılır ve geri bildirimler aksiyona bağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeşil otel uygulamalarını misafire nasıl anlatmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enerji, su, atık ve plastik başlıklarında somut örnek vererek; kapsam ve sınırları belirterek anlatmalısınız. %100 gibi iddialardan kaçınmak güveni korur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sertifika ve karbon ayak izi bilgilerini cevaplarda nasıl kullanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sertifika varsa adını net söyleyip doğrulanabilir şekilde paylaşın; yoksa iddia etmeyin. Karbon ayak izi için ölçüm/raporlama durumunu var/yok/plan şeklinde şeffaf belirtin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Greenwashing riskini nasıl azaltırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Söylem–uygulama uyumunu kontrol edin, riskli ifadelerden kaçının ve tek kaynak dokümanla ekipçe aynı dili kullanın. Abartılı iddialar yorumlarda güven kaybı yaratabilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

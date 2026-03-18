@@ -236,7 +236,9 @@ export const BLOG_MAP = {
     "satis-sonrasi-ekip-refahi-ve-tukenmislik-onleme":"BlogSatisSonrasiEkipRefahiVeTukenmislikOnleme",
     "yapay-zeka-ile-satis-sonrasi-yorum-ve-sikayet-analizi":"BlogYapayZekaIleSatisSonrasiYorumVeSikayetAnalizi",
     "proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek":"BlogCagriMerkeziProaktifSatisSonrasiDestekPmsVerileriyleRiskliMisafirleriOncedenBelirlemek",
-    "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":"BlogCagriMerkeziGuestExperiencePlatformlariVeOtelSatisSonrasiCustomerSuccess"
+    "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":"BlogCagriMerkeziGuestExperiencePlatformlariVeOtelSatisSonrasiCustomerSuccess",
+    "self-service-destek-ve-misafir-portallari-otel-satis-sonrasi":"BlogSelfServiceDestekVeMisafirPortallariOtelSatisSonrasi",
+    "surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":"BlogSurdurulebilirlikEsgTalepleriVeYesilOtelBeklentileri"
     
   },
 

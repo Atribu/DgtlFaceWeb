@@ -19784,6 +19784,107 @@ export const BLOG_MEDIA_MAP = {
       alt: "Organizasyon şeması örneği amacı customer success rol dağılımı otel bağlamı",
       caption: "Organizasyon şeması örneği amacı customer success rol dağılımı otel bağlamı"
     }
+  },
+
+   "self-service-destek-ve-misafir-portallari-otel-satis-sonrasi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-1.webp",
+      alt: "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?",
+      caption: "Self-Service Destek ve Misafir Portalları: Her Sorun İçin Çağrı Açmadan Çözüm Mümkün mü?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-2.webp",
+      alt: "Misafir portal mockup amacı satış sonrası self-service ekran yapısı otel bağlamı",
+      caption: "Misafir portal mockup amacı satış sonrası self-service ekran yapısı otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-3.webp",
+      alt: "SSS ve form tasarımı bölümü amacı UX ile self-service başarı otel bağlamı",
+      caption: "SSS ve form tasarımı bölümü amacı UX ile self-service başarı otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-4.webp",
+      alt: "Handoff ve ölçüm bölümü amacı self-service çağrı merkezi dengesi otel bağlamı",
+      caption: "Handoff ve ölçüm bölümü amacı self-service çağrı merkezi dengesi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-5.webp",
+      alt: "Self-service akış diyagramı amacı portal ticket handoff süreci otel bağlamı",
+      caption: "Self-service akış diyagramı amacı portal ticket handoff süreci otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-6.webp",
+      alt: "Self-service için ideal 15 konu checklisti amacı çağrıyı azaltmak otel bağlamı",
+      caption: "Self-service için ideal 15 konu checklisti amacı çağrıyı azaltmak otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-7.webp",
+      alt: "Self-service kullanım oranı kartı amacı portal etkisini ölçmek otel bağlamı",
+      caption: "Self-service kullanım oranı kartı amacı portal etkisini ölçmek otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-24/Callcenter4-24-8.webp",
+      alt: "SSS yapısı örneği kartı amacı yardım merkezi mimarisi otel bağlamı",
+      caption: "SSS yapısı örneği kartı amacı yardım merkezi mimarisi otel bağlamı"
+    }
+  },
+
+
+  "surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-1.webp",
+      alt: "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?",
+      caption: "Sürdürülebilirlik ve ESG Talepleri: Satış Sonrası Süreçte “Yeşil Otel” Beklentilerini Nasıl Yönetirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-2.webp",
+      alt: "Sürdürülebilirlik odaklı yorum örnekleri amacı misafir sorularını anlamak otel bağlamı",
+      caption: "Sürdürülebilirlik odaklı yorum örnekleri amacı misafir sorularını anlamak otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-3.webp",
+      alt: "Enerji su atık plastik bölümü amacı somut yeşil uygulamalar anlatımı otel bağlamı",
+      caption: "Enerji su atık plastik bölümü amacı somut yeşil uygulamalar anlatımı otel bağlamı"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-4.webp",
+      alt: "Sertifika ve greenwashing bölümü amacı doğrulanabilir ESG iletişimi otel bağlamı",
+      caption: "Sertifika ve greenwashing bölümü amacı doğrulanabilir ESG iletişimi otel bağlamı"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-5.webp",
+      alt: "ESG bilgi talebi cevap akışı diyagramı amacı şeffaf yanıt süreci otel bağlamı",
+      caption: "ESG bilgi talebi cevap akışı diyagramı amacı şeffaf yanıt süreci otel bağlamı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-6.webp",
+      alt: "Sürdürülebilirlik 10 sık soru checklisti amacı satış sonrası ESG iletişimi otel bağlamı",
+      caption: "Sürdürülebilirlik 10 sık soru checklisti amacı satış sonrası ESG iletişimi otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-7.webp",
+      alt: "Green hotel KPI kartı amacı çevre odaklı yorum tonu ve güven takibi otel bağlamı",
+      caption: "Green hotel KPI kartı amacı çevre odaklı yorum tonu ve güven takibi otel bağlamı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter4-25/Callcenter4-25-8.webp",
+      alt: "Sertifika logoları mockup amacı doğrulanabilir ESG iletişimi otel bağlamı",
+      caption: "Sertifika logoları mockup amacı doğrulanabilir ESG iletişimi otel bağlamı"
+    }
   }
 
 };
