@@ -24734,6 +24734,370 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir",
+      "name": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir#webpage" },
+      "headline": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?",
+      "name": "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?",
+      "description": "Otel mesaj yönetiminde marka sesi (tone of voice) kılavuzu: sen/siz seçimi, emoji kuralları, segment bazlı örnekler ve şikâyette empati+çözüm diliyle tutarlı iletişim.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Brand Voice" },
+        { "@type": "Thing", "name": "Tone of Voice" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "Guest Segments" },
+        { "@type": "Thing", "name": "Complaint" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Misafir Tonu ve Marka Sesi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesajlarda marka sesi nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka sesini 3–5 çekirdek prensiple tanımlayın (resmiyet, netlik, sıcaklık, emoji politikası). Satış/bilgi/şikâyet için örnek yanıtlar ekleyip ekibe eğitim verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel mesajlarında “sen” mi “siz” mi kullanmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Varsayılan olarak “siz” daha güvenli ve profesyoneldir. Misafir çok samimi yazsa bile “siz” + sıcak dil ile uyum sağlayıp tutarlılığı koruyabilirsiniz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Emojiler profesyonel görünümü bozar mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aşırı emoji bozabilir; az ve tutarlı kullanım (0–2) sıcaklık katar. Hassas konularda (iptal/şikâyet) daha sade yazmak uygundur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Şikâyet mesajlarında ton nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati + somut aksiyon + takip zamanı içermelidir. Savunmaya geçmeden, çözümü özel kanala taşıyan kısa ve saygılı bir dil kullanılmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri",
+      "name": "Otel Mesaj Yönetiminde Sık Yapılan 15 Hata ve Çözümleri",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri#webpage" },
+      "headline": "Otel Mesaj Yönetiminde Sık Yapılan 15 Hata ve Çözümleri",
+      "name": "Otel Mesaj Yönetiminde Sık Yapılan 15 Hata ve Çözümleri",
+      "description": "Otel mesaj yönetiminde en sık yapılan 15 hata: link atma, geç yanıt, yanlış ton, CRM’ye işlememe ve güncel olmayan script. Her hata için pratik çözüm ve 5 adım yol haritası.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "SLA" },
+        { "@type": "Thing", "name": "Script" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Reservation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Mesaj Yönetiminde 15 Hata ve Çözümleri",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel mesaj yönetiminde en sık yapılan hatalar nelerdir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Link atıp bırakmak, geç yanıt, yanlış ton, tarih/fiyat belirsizliği, devir kuralı olmaması, CRM’ye işlememek ve ölçümsüz yönetmek en sık görülen hatalardandır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat sorusuna nasıl cevap vermemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sadece link atıp bırakmamalısınız. Önce tarih ve kişi sayısını netleştirip iki seçenek sunarak kapanış adımı koymalısınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajları geç cevaplamanın riski nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir rakibe kayabilir, lead soğur ve şikâyet tonu sertleşebilir. SLA hedefi ve vardiya planı gecikmeyi azaltır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj hatalarını düzeltmek için hangi adımları izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Audit yapın, şablon ve ton standardı kurun, SLA+routing+devir kurallarını yazın, CRM’ye işleyin ve KPI dashboard ile ölçüp iyileştirin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"otel-mesaj-yonetimi-sop-standart-operasyon-proseduru":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru",
+      "name": "Otel Mesaj Yönetimi SOP: Standart Operasyon Prosedürü Nasıl Yazılır?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru#webpage" },
+      "headline": "Otel Mesaj Yönetimi SOP: Standart Operasyon Prosedürü Nasıl Yazılır?",
+      "name": "Otel Mesaj Yönetimi SOP: Standart Operasyon Prosedürü Nasıl Yazılır?",
+      "description": "Otel mesaj yönetimi SOP’si ile DM/WhatsApp/Web Chat/OTA akışlarını standardize edin: roller, SLA, devir/escalation, şablonlar, KVKK ve versiyonlama-eğitim ritmi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "SOP" },
+        { "@type": "Thing", "name": "Standard Operating Procedure" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Otel Mesaj Yönetimi SOP",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/otel-mesaj-yonetimi-sop-standart-operasyon-proseduru#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel mesaj yönetimi SOP’si nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM/WhatsApp/Web Chat/OTA mesajlarında kimlerin hangi adımları izleyeceğini, SLA hedeflerini ve devir/escalation kurallarını yazılı hale getiren standart kılavuzdur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetimi için SOP nasıl yazılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaç-kapsam-tanımlar-roller başlıklarıyla başlayın, kanal bazlı akışları adım adım yazın, SLA ve devir kurallarını ekleyin; şablonları eklerde yönetip versiyonlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SOP dokümanında hangi başlıklar olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaç, kapsam, tanımlar, roller, kanal akışları, SLA, devir/escalation, şablonlar/ton, KVKK, versiyonlama ve eğitim başlıkları temel iskeleti oluşturur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj akışlarını SOP’ye nasıl dönüştürebilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortak ana akışı çıkarın (al→etiketle→yanıtla→devret/escalate→kapat/kaydet) ve her kanal için nüansları ekleyin; süreç şemasını SOP’ye görsel olarak ekleyin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

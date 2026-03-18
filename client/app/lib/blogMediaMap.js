@@ -20289,6 +20289,157 @@ export const BLOG_MEDIA_MAP = {
       alt: "Kampanya SSS hazır yanıt ve rapor çıktılarıyla güven sağlayan otel kanıt kartı",
       caption: "Kampanya SSS hazır yanıt ve rapor çıktılarıyla güven sağlayan otel kanıt kartı"
     }
+  },
+
+
+   "misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-1.webp",
+      alt: "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?",
+      caption: "Misafir Tonu ve Marka Sesi: Mesaj Yönetiminde Doğru Dengeyi Nasıl Kurarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-2.webp",
+      alt: "Brand voice ve tone of voice farkını gösteren otel mesaj yönetimi görseli",
+      caption: "Brand voice ve tone of voice farkını gösteren otel mesaj yönetimi görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-3.webp",
+      alt: "Otel marka tonu tanımı ve sen siz kurallarına geçiş bölüm görseli",
+      caption: "Otel marka tonu tanımı ve sen siz kurallarına geçiş bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-4.webp",
+      alt: "Şikâyet mesajlarında doğru ton yönetimini ayıran otel bölüm görseli",
+      caption: "Şikâyet mesajlarında doğru ton yönetimini ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-5.webp",
+      alt: "Segment bazlı misafir tonu uyarlama akışını gösteren otel diyagramı",
+      caption: "Segment bazlı misafir tonu uyarlama akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-6.webp",
+      alt: "Otel tone of voice mini marka sesi checklist kartı görseli",
+      caption: "Otel tone of voice mini marka sesi checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-7.webp",
+      alt: "Mesaj tonu tutarlılığı ve QA KPI panelini gösteren otel kartı görseli",
+      caption: "Mesaj tonu tutarlılığı ve QA KPI panelini gösteren otel kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-14/Callcenter3-14-8.webp",
+      alt: "Tone of voice kılavuz şablonu ve örnek yanıt kütüphanesi kanıt kartı otel görseli",
+      caption: "Tone of voice kılavuz şablonu ve örnek yanıt kütüphanesi kanıt kartı otel görseli"
+    }
+  },
+
+  "otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-1.webp",
+      alt: "Otel Mesaj Yönetiminde Sık Yapılan 15 Hata ve Çözümleri",
+      caption: "Otel Mesaj Yönetiminde Sık Yapılan 15 Hata ve Çözümleri"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-2.webp",
+      alt: "DM WhatsApp mesaj hatalarını satış şikâyet SLA CRM olarak sınıflandıran görsel",
+      caption: "DM WhatsApp mesaj hatalarını satış şikâyet SLA CRM olarak sınıflandıran görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-3.webp",
+      alt: "Rezervasyon fırsatlarını kaçıran mesaj hatalarına geçiş bölüm görseli",
+      caption: "Rezervasyon fırsatlarını kaçıran mesaj hatalarına geçiş bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-4.webp",
+      alt: "Şikâyet ve yorum yönetiminde yapılan hataları ayıran bölüm görseli",
+      caption: "Şikâyet ve yorum yönetiminde yapılan hataları ayıran bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-5.webp",
+      alt: "5 adımda mesaj hatalarını düzeltme yol haritasını gösteren diyagram",
+      caption: "5 adımda mesaj hatalarını düzeltme yol haritasını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-6.webp",
+      alt: "Otel mesaj yönetiminde 15 hata ve çözüm checklist kartı görseli",
+      caption: "Otel mesaj yönetiminde 15 hata ve çözüm checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-7.webp",
+      alt: "Mesaj cevap süresi dönüşüm ve şikâyet KPI’larını gösteren otel skor kartı",
+      caption: "Mesaj cevap süresi dönüşüm ve şikâyet KPI’larını gösteren otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-15/Callcenter3-15-8.webp",
+      alt: "Yanlış ve doğru mesaj örnek ekranlarıyla eğitim çıktısı kanıt kartı otel görseli",
+      caption: "Yanlış ve doğru mesaj örnek ekranlarıyla eğitim çıktısı kanıt kartı otel görseli"
+    }
+  },
+
+  "otel-mesaj-yonetimi-sop-standart-operasyon-proseduru":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-1.webp",
+      alt: "Otel Mesaj Yönetimi SOP: Standart Operasyon Prosedürü Nasıl Yazılır?",
+      caption: "Otel Mesaj Yönetimi SOP: Standart Operasyon Prosedürü Nasıl Yazılır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-2.webp",
+      alt: "DM WhatsApp web chat OTA mesaj süreçlerinin SOP ile standardize edilmesini gösteren görsel",
+      caption: "DM WhatsApp web chat OTA mesaj süreçlerinin SOP ile standardize edilmesini gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-3.webp",
+      alt: "SOP doküman bileşenleri ve başlıklarına geçişi ayıran otel görseli",
+      caption: "SOP doküman bileşenleri ve başlıklarına geçişi ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-4.webp",
+      alt: "Kanal bazlı iş akışları ve devir escalation adımlarını ayıran otel görseli",
+      caption: "Kanal bazlı iş akışları ve devir escalation adımlarını ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-5.webp",
+      alt: "Otel mesaj yönetimi SOP süreç şemasını ve iş akış adımlarını gösteren diyagram",
+      caption: "Otel mesaj yönetimi SOP süreç şemasını ve iş akış adımlarını gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-6.webp",
+      alt: "SOP yazarken unutulmaması gereken 10 madde checklist kartı otel görseli",
+      caption: "SOP yazarken unutulmaması gereken 10 madde checklist kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-7.webp",
+      alt: "SOP sonrası yanıt tutarlılığı ve SLA performans KPI kartı otel görseli",
+      caption: "SOP sonrası yanıt tutarlılığı ve SLA performans KPI kartı otel görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-16/Callcenter3-16-8.webp",
+      alt: "SOP şablonu iş akışı ve eğitim çıktılarıyla güven sağlayan kanıt kartı",
+      caption: "SOP şablonu iş akışı ve eğitim çıktılarıyla güven sağlayan kanıt kartı"
+    }
   }
 
 

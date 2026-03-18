@@ -247,7 +247,11 @@ export const BLOG_MAP = {
     "mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu":"BlogMesajYonetimiEkibiVeCallCenterEntegrasyonu",
     "instagram-dm-story-otel-mesaj-sablonlari":"BlogInstagramDMStoryOtelMesajSablonlari",
     "whatsapp-ve-web-chat-microcopy-otel-rezervasyon":"BlogWhatsAppWebChatMicrocopyOtelRezervasyon",
-    "kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi":"BlogKampanyaVePromosyonDonemlerindeMesajYonetimi"
+    "kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi":"BlogKampanyaVePromosyonDonemlerindeMesajYonetimi",
+
+    "misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir":"BlogCagriMerkeziMisafirTonuVeMarkaSesiMesajYonetimindeNasilDengelenir",
+    "otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri":"BlogCagriMerkeziOtelMesajYonetimindeSikYapilanHatalarVeCozumleri",
+    "otel-mesaj-yonetimi-sop-standart-operasyon-proseduru":"BlogCagriMerkeziOtelMesajYonetimiSopStandartOperasyonProseduru"
     
   },
 
