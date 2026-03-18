@@ -238,7 +238,14 @@ export const BLOG_MAP = {
     "proaktif-satis-sonrasi-destek-pms-verileriyle-riskli-misafirleri-onceden-belirlemek":"BlogCagriMerkeziProaktifSatisSonrasiDestekPmsVerileriyleRiskliMisafirleriOncedenBelirlemek",
     "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":"BlogCagriMerkeziGuestExperiencePlatformlariVeOtelSatisSonrasiCustomerSuccess",
     "self-service-destek-ve-misafir-portallari-otel-satis-sonrasi":"BlogSelfServiceDestekVeMisafirPortallariOtelSatisSonrasi",
-    "surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":"BlogSurdurulebilirlikEsgTalepleriVeYesilOtelBeklentileri"
+    "surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":"BlogSurdurulebilirlikEsgTalepleriVeYesilOtelBeklentileri",
+    //hotel3-6
+    "mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari":"BlogMesajYonetimindeOrtakInboxVeRoutingKurallari",
+    "mesaj-yonetiminde-etiketleme-ve-kategori-sistemi":"BlogMesajYonetimindeEtiketlemeVeKategoriSistemi",
+    "mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari":"BlogMesajYonetimiVeCrmEntegrasyonuLeadVeMisafirKayitlari",
+    "mesaj-yonetimi-performans-raporlama-ve-dashboard":"BlogMesajYonetimiPerformansRaporlamaVeDashboard",
+    "mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu":"BlogMesajYonetimiEkibiVeCallCenterEntegrasyonu",
+    "instagram-dm-story-otel-mesaj-sablonlari":"BlogInstagramDMStoryOtelMesajSablonlari"
     
   },
 

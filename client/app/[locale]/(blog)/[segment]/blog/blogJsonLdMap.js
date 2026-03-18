@@ -23741,6 +23741,734 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari",
+      "name": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari#webpage" },
+      "headline": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe",
+      "name": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe",
+      "description": "Instagram DM, WhatsApp, Web Chat ve OTA mesajlarını ortak inbox’ta toplayıp kanal/konu/dil bazlı routing kurallarıyla doğru ekibe yönlendirin; SLA ve çözüm kalitesini iyileştirin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Shared Inbox" },
+        { "@type": "Thing", "name": "Routing Rules" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Reservation Team" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ortak inbox nedir, otel mesaj yönetiminde neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ortak inbox, Instagram DM, WhatsApp, web chat ve OTA mesajlarını tek panelde toplar. Dağınıklığı azaltır, SLA takibini kolaylaştırır ve mesajların kaybolmasını/çifte yanıtı önler."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj routing kuralları nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal + konu + dil + yoğunluk bileşenleriyle kurallar yazılır. Satış lead’i ve şikâyet gibi kritik konulara öncelik verilir; doğru ekip sahipliği atanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi mesaj kime yönlendirilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış/rezervasyon niyeti Call Center/Reservation Team’e; şikâyet misafir ilişkilerine; bilgi talepleri ön büro veya ilgili departmana yönlendirilmelidir. Dil etiketi doğru temsilciyi seçmeye yardım eder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak inbox’ta satış/şikâyet/rezervasyon ayrımı nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesajları SalesLead, Booking, Support ve Complaint gibi etiketlerle triage edin. Bu etiketler routing’in tetikleyicisi olur ve performans raporlarını besler."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mesaj-yonetiminde-etiketleme-ve-kategori-sistemi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi",
+      "name": "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi#webpage" },
+      "headline": "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
+      "name": "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
+      "description": "DM, WhatsApp ve OTA mesajlarını kategori ve tag’lerle sınıflandırarak hacim, dönüşüm ve şikâyet trendlerini görünür kılın; CRM’ye işleyip raporlayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Tagging" },
+        { "@type": "Thing", "name": "Category System" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Complaint" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Yönetiminde Etiketleme ve Kategori Sistemi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetiminde-etiketleme-ve-kategori-sistemi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetiminde etiketleme (tag) sistemi nedir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM/WhatsApp/OTA mesajlarını kanal, dil, niyet ve konu boyutlarında sınıflandırarak ölçülebilir hale getiren veri standardıdır; raporlama ve operasyon iyileştirme için kullanılır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için hangi mesaj kategorileri kullanılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Satış/rezervasyon niyeti, bilgi/destek, şikâyet/risk, online yorum/itibar, OTA mesajları ve kampanya/upsell ana kategorileri iyi bir başlangıç sağlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Tag’ler raporlamaya nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tag sözlüğü dropdown olarak sabitlenir; tag’li mesajlardan hacim, dönüşüm ve SLA raporları üretilir. CRM’de source=message ve outcome alanlarıyla rezervasyon dönüşümü bağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Etiketlenmiş mesaj verisiyle hangi içgörüler elde edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hangi konuların hacim oluşturduğu, hangi tag’lerin satışa döndüğü, hangi şikâyetlerin tekrar ettiği ve kampanya/eğitim ihtiyaçları görülebilir."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari",
+      "name": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari#webpage" },
+      "headline": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?",
+      "name": "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?",
+      "description": "DM ve WhatsApp taleplerini CRM’de lead ve misafir kaydına dönüştürün: kaynak=mesaj alanları, eşleştirme, duplicate önleme, KVKK onayları ve segment bazlı kampanya kurguları.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "CRM" },
+        { "@type": "Thing", "name": "Lead" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Reservation" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Yönetimi ve CRM Entegrasyonu",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetimi CRM’e nasıl entegre edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DM/WhatsApp/OTA mesajlarını CRM’de lead olarak açın; kaynak kanal, dil ve kampanya alanlarını doldurun, takip zamanı ekleyin ve sonucu (won/lost/pending) kapatarak rapora bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM ve WhatsApp’tan gelen talepleri CRM’de nasıl lead’e çeviririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesajı lead olarak açıp minimum alanları girin (kaynak, dil, tarih, kişi, iletişim). Teklif ve follow-up zamanını ekleyin; kapanışta sonucu işleyin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“Kaynak: mesaj” bilgisini CRM’de nasıl takip ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kaynak kanal alanını dropdown olarak sabitleyin (dm/wa/webchat/ota). Lead sayısını ve dönüşümü bu alana göre raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj verisi ile hangi kampanyalar kurgulanabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj tag’lerine göre aile, balayı, erken rezervasyon veya iptal riski gibi segmentler oluşturup uygun teklifleri WhatsApp/Email kanallarında hedefleyebilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mesaj-yonetimi-performans-raporlama-ve-dashboard":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard",
+      "name": "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard#webpage" },
+      "headline": "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?",
+      "name": "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?",
+      "description": "Otel mesaj yönetimi için KPI seti: hacim, cevap süresi, dönüşüm ve memnuniyet göstergeleri. Looker Studio’da dashboard tasarımı ve haftalık/aylık rapor şablonu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Messaging KPI" },
+        { "@type": "Thing", "name": "Response Time" },
+        { "@type": "Thing", "name": "Conversion Rate" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Looker Studio" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Yönetimi Performans Raporlama ve Dashboard",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-performans-raporlama-ve-dashboard#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetiminde hangi KPI’lar takip edilmelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim, cevaplanma oranı, ilk yanıt süresi, çözüm süresi, lead oranı, mesaj→rezervasyon dönüşümü ve şikâyet/memnuniyet göstergeleri birlikte izlenmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM ve WhatsApp performansı nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kanal bazlı KPI paneliyle hacim, FRT/RT ve dönüşümü kıyaslayın; peak saatleri heatmap ile görünür kılıp vardiya planını buna göre yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajlardan gelen rezervasyon ve satış oranı nasıl ölçülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CRM’de source=message ve kanal alanlarını kullanın; UTM’li linkler ve event takibiyle tıklama/rezervasyon aksiyonlarını bağlayın ve lead→offer→won akışını raporlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj performans dashboard’u nasıl tasarlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Üst KPI şeridi + kanal kıyası + heatmap + dönüşüm hunisi + şikâyet/memnuniyet paneli + aksiyon listesi bloklarıyla tek ekranda karar üreten yapı kurun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu",
+      "name": "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu#webpage" },
+      "headline": "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?",
+      "name": "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?",
+      "description": "Mesaj ekibi ile çağrı merkezi/rezervasyon hattını entegre edin: rol dağılımı, telefona devir kuralları, ortak script ve KPI’lar, vardiya-eğitim-kalite süreçleri.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Message Team" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "Reservation Line" },
+        { "@type": "Thing", "name": "Org Structure" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Script" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Ekibi ve Call Center Entegrasyonu",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetimi ekibi ayrı mı olmalı, çağrı merkezine mi bağlı olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim düşükse çağrı merkezi içinde yönetmek pratik olur; hacim artınca mesaj triage ekibi kurup kapanışı rezervasyon hattına devretmek daha ölçeklenebilir hale gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesajdan telefona ne zaman geçilmeli?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir karar aşamasına geldiyse, istek karmaşıksa veya itiraz varsa telefona devir dönüşümü hızlandırabilir. Devir notunu eksiksiz taşımak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj ekibi ve rezervasyon ekibi için iş bölümü nasıl yapılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mesaj ekibi triage ve bilgi toplamadan sorumludur; rezervasyon hattı teklif netleştirme ve kapanıştan sorumludur. Şikâyet akışı ayrı yönetilir ve escalation kuralına bağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak KPI ve hedefler nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FRT, devir oranı, devir→rezervasyon, kalite skoru ve kaybetme nedeni gibi KPI’lar ortak set olmalıdır; aynı raporda görünmeli ve ekip hedefleri hizalanmalıdır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"instagram-dm-story-otel-mesaj-sablonlari":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari",
+      "name": "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari#webpage" },
+      "headline": "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi",
+      "name": "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi",
+      "description": "Otel Instagram DM ve Story yanıt şablonları: fiyat/oda/tarih/iptal senaryoları, ton-emoji rehberi ve mesajı rezervasyona bağlayan yönlendirici yanıtlar.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "Story Reply" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "Hotel" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "Template" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Instagram DM ve Story Yanıt Şablonları",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-dm-story-otel-mesaj-sablonlari#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Instagram DM’den gelen fiyat sorusuna ne yazmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Link atmayın; önce giriş–çıkış tarihi ve kişi sayısını sorun. Ardından iki seçenek sunup rezervasyon linki/arama ile kapanış adımı verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Story cevaplarını nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Story reply’ler hızlı olmalı ama hedefi net olmalı: teşekkür + kısa soru + DM’e taşıma. Fiyat/müsaitlik gibi konuları DM’de netleştirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Oteller için Instagram DM şablonları nasıl hazırlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık 20 senaryoyu çıkarın, her biri için 2 soru + 2 seçenek + kapanış adımı içeren şablon yazın. Ton/emoji standardı ekleyip ekibe eğitim verin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM cevaplarında emoji kullanımı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Az ve tutarlı olmalı (1–2 emoji). Hassas konularda daha sade yazın; aşırı emoji profesyonelliği düşürebilir."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

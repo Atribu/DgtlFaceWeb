@@ -19885,7 +19885,312 @@ export const BLOG_MEDIA_MAP = {
       alt: "Sertifika logoları mockup amacı doğrulanabilir ESG iletişimi otel bağlamı",
       caption: "Sertifika logoları mockup amacı doğrulanabilir ESG iletişimi otel bağlamı"
     }
+  },
+
+
+   "mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-1.webp",
+      alt: "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe",
+      caption: "Mesaj Yönetiminde Ortak Inbox ve Routing Kuralları: Doğru Mesaj Doğru Ekibe"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-2.webp",
+      alt: "Instagram DM WhatsApp web chat OTA mesajlarını tek inbox’ta toplayan otel görseli",
+      caption: "Instagram DM WhatsApp web chat OTA mesajlarını tek inbox’ta toplayan otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-3.webp",
+      alt: "Routing kural tablosu ve triage mantığını ayıran otel bölüm görseli",
+      caption: "Routing kural tablosu ve triage mantığını ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-4.webp",
+      alt: "Call center ve rezervasyon ekibi entegrasyonunu anlatan otel bölüm görseli",
+      caption: "Call center ve rezervasyon ekibi entegrasyonunu anlatan otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-5.webp",
+      alt: "Kanal ortak inbox routing temsilci akışını gösteren otel diyagramı",
+      caption: "Kanal ortak inbox routing temsilci akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-6.webp",
+      alt: "Yanlış yönlendirmeyi azaltmak için yedi adımı özetleyen otel kontrol kartı",
+      caption: "Yanlış yönlendirmeyi azaltmak için yedi adımı özetleyen otel kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-7.webp",
+      alt: "Kanal bazlı hacim cevap süresi ve routing doğruluğunu gösteren otel KPI kartı",
+      caption: "Kanal bazlı hacim cevap süresi ve routing doğruluğunu gösteren otel KPI kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-6/Callcenter3-6-8.webp",
+      alt: "Routing tablosu akış diyagramı ve KPI paneli çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "Routing tablosu akış diyagramı ve KPI paneli çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+
+   "mesaj-yonetiminde-etiketleme-ve-kategori-sistemi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-1.webp",
+      alt: "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?",
+      caption: "Mesaj Yönetiminde Etiketleme (Tag) ve Kategori Sistemi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-2.webp",
+      alt: "Kanal dil niyet konu boyutlarıyla mesaj tag modelini anlatan otel görseli",
+      caption: "Kanal dil niyet konu boyutlarıyla mesaj tag modelini anlatan otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-3.webp",
+      alt: "Tag yapısı ve kategori hiyerarşisine geçişi ayıran otel bölüm görseli",
+      caption: "Tag yapısı ve kategori hiyerarşisine geçişi ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-4.webp",
+      alt: "Tag verisinden raporlama ve içgörü üretmeyi ayıran otel bölüm görseli",
+      caption: "Tag verisinden raporlama ve içgörü üretmeyi ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-5.webp",
+      alt: "Tag raporlama eğitim kampanya ürün döngüsünü gösteren otel diyagramı",
+      caption: "Tag raporlama eğitim kampanya ürün döngüsünü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-6.webp",
+      alt: "Otel mesaj tag sistemi kurulum adımlarını özetleyen kontrol kartı",
+      caption: "Otel mesaj tag sistemi kurulum adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-7.webp",
+      alt: "Tag bazlı mesaj hacmi ve dönüşüm KPI’larını gösteren otel skor kartı",
+      caption: "Tag bazlı mesaj hacmi ve dönüşüm KPI’larını gösteren otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-7/Callcenter3-7-8.webp",
+      alt: "Tag sözlüğü kategori seti ve rapor çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "Tag sözlüğü kategori seti ve rapor çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+  "mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-1.webp",
+      alt: "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?",
+      caption: "Mesaj Yönetimi ve CRM Entegrasyonu: Lead ve Misafir Kayıtlarını Nasıl Birleştirirsiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-2.webp",
+      alt: "Mesajdan kaybolan sohbetten takip edilebilir CRM kaydına geçiş görseli",
+      caption: "Mesajdan kaybolan sohbetten takip edilebilir CRM kaydına geçiş görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-3.webp",
+      alt: "Mesaj kaynaklı lead akışını ayıran otel bölüm görseli",
+      caption: "Mesaj kaynaklı lead akışını ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-4.webp",
+      alt: "CRM segmentasyon ve kampanya kullanımını ayıran otel bölüm görseli",
+      caption: "CRM segmentasyon ve kampanya kullanımını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-5.webp",
+      alt: "Mesaj CRM lead rezervasyon akışını gösteren otel diyagramı",
+      caption: "Mesaj CRM lead rezervasyon akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-6.webp",
+      alt: "Mesajdan lead ve rezervasyona giden kontrol adımlarını özetleyen otel kartı",
+      caption: "Mesajdan lead ve rezervasyona giden kontrol adımlarını özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-7.webp",
+      alt: "Kaynak bazlı lead sayısı dönüşüm ve duplicate KPI’larını gösteren otel kartı",
+      caption: "Kaynak bazlı lead sayısı dönüşüm ve duplicate KPI’larını gösteren otel kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-8/Callcenter3-8-8.webp",
+      alt: "CRM alan şablonu ve entegrasyon çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "CRM alan şablonu ve entegrasyon çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+
+  "mesaj-yonetimi-performans-raporlama-ve-dashboard":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-1.webp",
+      alt: "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?",
+      caption: "Mesaj Yönetimi Performans Raporlama ve Dashboard: Hangi KPI’lara Bakmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-2.webp",
+      alt: "Hacim hız dönüşüm memnuniyet KPI katmanlarını gösteren otel görseli",
+      caption: "Hacim hız dönüşüm memnuniyet KPI katmanlarını gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-3.webp",
+      alt: "Kanal bazlı performans kıyasına geçişi ayıran otel bölüm görseli",
+      caption: "Kanal bazlı performans kıyasına geçişi ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-4.webp",
+      alt: "Dönüşüm ve memnuniyet KPI’larını ayıran otel bölüm görseli",
+      caption: "Dönüşüm ve memnuniyet KPI’larını ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-5.webp",
+      alt: "Kanal KPI heatmap ve aksiyon döngüsünü gösteren otel diyagramı",
+      caption: "Kanal KPI heatmap ve aksiyon döngüsünü gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-6.webp",
+      alt: "Otel mesaj KPI dashboard kurulum adımlarını özetleyen kontrol kartı",
+      caption: "Otel mesaj KPI dashboard kurulum adımlarını özetleyen kontrol kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-7.webp",
+      alt: "Mesaj hacmi cevap süresi dönüşüm ve şikâyet KPI’larını gösteren skor kartı",
+      caption: "Mesaj hacmi cevap süresi dönüşüm ve şikâyet KPI’larını gösteren skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-9/Callcenter3-9-8.webp",
+      alt: "Looker Studio dashboard mockup ve rapor şablonlarıyla güven kanıtı",
+      caption: "Looker Studio dashboard mockup ve rapor şablonlarıyla güven kanıtı"
+    }
+  },
+
+  "mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-1.webp",
+      alt: "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?",
+      caption: "Mesaj Yönetimi Ekibi ile Çağrı Merkezi ve Rezervasyon Hattını Nasıl Entegre Edersiniz?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-2.webp",
+      alt: "Küçük orta büyük oteller için entegrasyon model seçeneklerini gösteren otel görseli",
+      caption: "Küçük orta büyük oteller için entegrasyon model seçeneklerini gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-3.webp",
+      alt: "Rol ve sorumluluk tasarımına geçişi ayıran otel bölüm görseli",
+      caption: "Rol ve sorumluluk tasarımına geçişi ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-4.webp",
+      alt: "Mesajdan telefona devir ve kapanış sürecini ayıran otel bölüm görseli",
+      caption: "Mesajdan telefona devir ve kapanış sürecini ayıran otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-5.webp",
+      alt: "Mesaj telefon rezervasyon hattı akışını gösteren otel diyagramı",
+      caption: "Mesaj telefon rezervasyon hattı akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-6.webp",
+      alt: "Devir kuralları ve ortak script uyum adımlarını özetleyen otel kartı",
+      caption: "Devir kuralları ve ortak script uyum adımlarını özetleyen otel kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-7.webp",
+      alt: "Mesaj ve çağrı merkezi ortak KPI panelini gösteren otel skor kartı",
+      caption: "Mesaj ve çağrı merkezi ortak KPI panelini gösteren otel skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-10/Callcenter3-10-8.webp",
+      alt: "Rol tablosu akış diyagramı ve entegrasyon çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "Rol tablosu akış diyagramı ve entegrasyon çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
+  },
+
+
+  "instagram-dm-story-otel-mesaj-sablonlari":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-1.webp",
+      alt: "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi",
+      caption: "Oteliniz İçin Instagram DM ve Story Yanıt Şablonları Rehberi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-2.webp",
+      alt: " Instagram DM mesaj türleri ve story yanıtı sınıflandırması otel görseli",
+      caption: " Instagram DM mesaj türleri ve story yanıtı sınıflandırması otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-3.webp",
+      alt: "Instagram DM mesaj şablonu tablosuna geçişi ayıran otel bölüm görseli",
+      caption: "Instagram DM mesaj şablonu tablosuna geçişi ayıran otel bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-4.webp",
+      alt: "Ton ve emoji kullanım rehberini ayıran instagram DM otel bölüm görseli",
+      caption: "Ton ve emoji kullanım rehberini ayıran instagram DM otel bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-5.webp",
+      alt: "Instagram DM mesajlarından rezervasyona funnel akışını gösteren otel diyagramı",
+      caption: "Instagram DM mesajlarından rezervasyona funnel akışını gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-6.webp",
+      alt: "En sık gelen 20 DM için hazır yanıtlar checklist kartı otel görseli",
+      caption: "En sık gelen 20 DM için hazır yanıtlar checklist kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-7.webp",
+      alt: "Instagram DM performansı ilk yanıt süresi ve şablon kullanım KPI kartı otel görseli",
+      caption: "Instagram DM performansı ilk yanıt süresi ve şablon kullanım KPI kartı otel görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-11/Callcenter3-11-8.webp",
+      alt: "Instagram DM yanıt şablon paketi ve emoji rehberi çıktıları kanıt kartı otel görseli",
+      caption: "Instagram DM yanıt şablon paketi ve emoji rehberi çıktıları kanıt kartı otel görseli"
+    }
   }
+
 
 };
 
