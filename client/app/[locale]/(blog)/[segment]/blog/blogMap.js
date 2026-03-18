@@ -245,7 +245,9 @@ export const BLOG_MAP = {
     "mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari":"BlogMesajYonetimiVeCrmEntegrasyonuLeadVeMisafirKayitlari",
     "mesaj-yonetimi-performans-raporlama-ve-dashboard":"BlogMesajYonetimiPerformansRaporlamaVeDashboard",
     "mesaj-yonetimi-ekibi-ve-call-center-entegrasyonu":"BlogMesajYonetimiEkibiVeCallCenterEntegrasyonu",
-    "instagram-dm-story-otel-mesaj-sablonlari":"BlogInstagramDMStoryOtelMesajSablonlari"
+    "instagram-dm-story-otel-mesaj-sablonlari":"BlogInstagramDMStoryOtelMesajSablonlari",
+    "whatsapp-ve-web-chat-microcopy-otel-rezervasyon":"BlogWhatsAppWebChatMicrocopyOtelRezervasyon",
+    "kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi":"BlogKampanyaVePromosyonDonemlerindeMesajYonetimi"
     
   },
 

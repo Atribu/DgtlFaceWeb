@@ -24469,6 +24469,271 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"whatsapp-ve-web-chat-microcopy-otel-rezervasyon":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon",
+      "name": "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#webpage" },
+      "headline": "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?",
+      "name": "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?",
+      "description": "WhatsApp ve web chat’te otel rezervasyon microcopy’si: karşılama, tarih-fiyat-oda netliği, güven/kapanış cümleleri, CTA buton metinleri ve A/B test + event ölçümü.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Microcopy" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Web Chat" },
+        { "@type": "Thing", "name": "CTA" },
+        { "@type": "Thing", "name": "Reservation" },
+        { "@type": "Thing", "name": "A/B Testing" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#howto",
+      "name": "Fiyat ve tarih bilgisini WhatsApp mesajında net yazma adımları",
+      "inLanguage": "tr-TR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Tarihi ve kişi sayısını netleştir",
+          "text": "Giriş-çıkış tarihini açık yaz ve kişi sayısını (çocuk yaşı dahil) netleştir."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Fiyatı para birimi ve kapsam ile belirt",
+          "text": "TRY/EUR para birimini ve toplam/gecelik ayrımını belirt; dahil olanları 1–2 maddeyle yaz."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "İki seçenek + tek CTA ile kapat",
+          "text": "Standart ve paket/upgrade olmak üzere iki seçenek sun; tek CTA ile bir sonraki adımı netleştir."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "WhatsApp ve Web Chat Microcopy Rehberi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/whatsapp-ve-web-chat-microcopy-otel-rezervasyon#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Microcopy nedir, WhatsApp ve web chat’te neden önemlidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microcopy, kısa ama yönlendirici metinlerdir; WhatsApp/web chat’te belirsizliği azaltır, güven oluşturur ve misafiri rezervasyon adımına taşır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fiyat ve tarih bilgisini mesajda nasıl net yazarım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarihi açık yazın, kişi sayısını netleştirin, para birimini belirtin ve toplam/gecelik ayrımını söyleyin; ardından tek CTA ile kapanış yapın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hangi buton ve link metinleri daha çok tıklanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aksiyon + sonuç odaklı metinler daha anlaşılırdır: “Uygunluğu Kontrol Et”, “Teklif Al”, “Rezervasyona Devam Et” gibi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj metinlerini nasıl test eder ve iyileştiririm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aynı senaryoda iki microcopy varyasyonu deneyin (A/B) ve tek KPI ile ölçün (tıklama/cevap/rezervasyon başlangıcı); kazanan metni şablonlaştırın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi",
+      "name": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi#webpage" },
+      "headline": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek",
+      "name": "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek",
+      "description": "Kampanya dönemlerinde DM ve WhatsApp mesaj hacmini SSS, hazır yanıt şablonları, routing ve overflow planıyla yönetip satış fırsatına çevirin; kampanya sonrası KPI/ROI analizi yapın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Campaign" },
+        { "@type": "Thing", "name": "Promotion" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Early Booking" },
+        { "@type": "Thing", "name": "Overflow" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Kampanya Dönemi Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Kampanya dönemlerinde DM ve WhatsApp mesajları nasıl yönetilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya öncesi SSS ve şablonları hazırlayın, routing kurallarıyla satış lead’lerini önceliklendirin ve stok/fiyat için tek kaynak belirleyin. Overflow planıyla bekleyen mesajları kontrol edin ve kampanya sonrası KPI raporu çıkarın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erken rezervasyon kampanyasında en çok hangi sorular gelir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih aralığı, fiyatın toplam/gecelik olup olmadığı, para birimi, çocuk politikası, iptal koşulu, dahil olanlar ve stok/son oda soruları sık gelir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya mesajları için SSS ve hazır yanıtları nasıl hazırlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kampanya paketini netleştirip 15–25 soruluk SSS çıkarın. Her soruya kısa yanıt + netleştirici soru + tek CTA içeren şablon yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kampanya sonrası mesaj performansı nasıl analiz edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim, ilk yanıt süresi, cevaplanma oranı, lead→rezervasyon dönüşümü ve overflow zirvesini raporlayın. En çok gelen soruları ve işe yarayan şablonları bir sonraki kampanyaya taşıyın."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

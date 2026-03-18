@@ -20189,6 +20189,106 @@ export const BLOG_MEDIA_MAP = {
       alt: "Instagram DM yanıt şablon paketi ve emoji rehberi çıktıları kanıt kartı otel görseli",
       caption: "Instagram DM yanıt şablon paketi ve emoji rehberi çıktıları kanıt kartı otel görseli"
     }
+  },
+
+  "whatsapp-ve-web-chat-microcopy-otel-rezervasyon":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-1.webp",
+      alt: "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?",
+      caption: "WhatsApp ve Web Chat İçin Microcopy Rehberi: Rezervasyon Mesajlarını Nasıl Yazmalısınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-2.webp",
+      alt: "Fiyat tarih oda tipi netliği için microcopy formatını gösteren otel görseli",
+      caption: "Fiyat tarih oda tipi netliği için microcopy formatını gösteren otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-3.webp",
+      alt: "Karşılama mesajları ve ilk izlenim microcopy rehberi otel bağlam görseli",
+      caption: "Karşılama mesajları ve ilk izlenim microcopy rehberi otel bağlam görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-4.webp",
+      alt: "Fiyat tarih ve oda tipi için net mesaj yazımı microcopy otel görseli",
+      caption: "Fiyat tarih ve oda tipi için net mesaj yazımı microcopy otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-5.webp",
+      alt: "Microcopy event UTM ölçümü ve A/B test döngüsü diyagramı otel görseli",
+      caption: "Microcopy event UTM ölçümü ve A/B test döngüsü diyagramı otel görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-6.webp",
+      alt: "WhatsApp mesajında fiyat ve tarih bilgisini net yazma kontrol kartı otel görseli",
+      caption: "WhatsApp mesajında fiyat ve tarih bilgisini net yazma kontrol kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-7.webp",
+      alt: "WhatsApp web chat CTA tıklama ve cevap oranı KPI kartı otel görseli",
+      caption: "WhatsApp web chat CTA tıklama ve cevap oranı KPI kartı otel görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-12/Callcenter3-12-8.webp",
+      alt: "WhatsApp web chat microcopy örnek paketi ve A/B test şablonu kanıt kartı otel görseli",
+      caption: "WhatsApp web chat microcopy örnek paketi ve A/B test şablonu kanıt kartı otel görseli"
+    }
+  },
+
+  "kampanya-ve-promosyon-donemlerinde-mesaj-yonetimi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-1.webp",
+      alt: "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek",
+      caption: "Kampanya ve Promosyon Dönemlerinde Mesaj Yönetimi: Kaosu Fırsata Çevirmek"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-2.webp",
+      alt: "Kampanya döneminde mesaj hacmi dalgası ve kapasite planı otel görseli",
+      caption: "Kampanya döneminde mesaj hacmi dalgası ve kapasite planı otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-3.webp",
+      alt: "Kampanya ön hazırlık SSS şablon routing bölümünü ayıran otel görseli",
+      caption: "Kampanya ön hazırlık SSS şablon routing bölümünü ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-4.webp",
+      alt: "Kampanya sırasında stok fiyat ve overflow yönetimini ayıran otel görseli",
+      caption: "Kampanya sırasında stok fiyat ve overflow yönetimini ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-5.webp",
+      alt: "Kampanya mesaj akışı ve yoğunluk yönetimini gösteren otel diyagramı",
+      caption: "Kampanya mesaj akışı ve yoğunluk yönetimini gösteren otel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-6.webp",
+      alt: "Kampanya dönemi mesaj yönetimi hazırlık checklist kartı otel görseli",
+      caption: "Kampanya dönemi mesaj yönetimi hazırlık checklist kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-7.webp",
+      alt: "Kampanya öncesi sonrası mesaj performans KPI karşılaştırma otel kartı",
+      caption: "Kampanya öncesi sonrası mesaj performans KPI karşılaştırma otel kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-13/Callcenter3-13-8.webp",
+      alt: "Kampanya SSS hazır yanıt ve rapor çıktılarıyla güven sağlayan otel kanıt kartı",
+      caption: "Kampanya SSS hazır yanıt ve rapor çıktılarıyla güven sağlayan otel kanıt kartı"
+    }
   }
 
 
