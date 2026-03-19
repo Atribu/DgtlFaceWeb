@@ -25098,6 +25098,492 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"mesaj-yonetimi-ekibi-egitim-ve-onboarding":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding",
+      "name": "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding: Otelinizde Standartları Nasıl Kurarsınız?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding#webpage" },
+      "headline": "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding: Otelinizde Standartları Nasıl Kurarsınız?",
+      "name": "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding: Otelinizde Standartları Nasıl Kurarsınız?",
+      "description": "Otel mesaj yönetimi ekibi için eğitim ve onboarding playbook’u: SOP, şablonlar, tone of voice, role-play senaryoları, koçluk/QA ritmi ve KPI/prim bağlantısı.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Training" },
+        { "@type": "Thing", "name": "Onboarding" },
+        { "@type": "Thing", "name": "Message Team" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Coaching" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/mesaj-yonetimi-ekibi-egitim-ve-onboarding#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetimi ekibi nasıl eğitilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Önce SOP, şablonlar ve tone of voice standardını verin; ardından role-play ve shadowing ile pratik yaptırın. Haftalık QA ve koçlukla kaliteyi kalıcılaştırıp KPI’lara bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Yeni başlayanlar için mesaj yönetimi onboarding süreci nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk hafta SOP+şablon+ton+devir kuralları; ilk ay role-play, QA ve koçlukla pekiştirme şeklinde tasarlanmalıdır. KPI hedefleri kademeli olmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "DM ve WhatsApp için role-play eğitimleri nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık 20 senaryoyu çıkarıp her senaryoda 2 soru + kapanış + kayıt standardını ölçün; netlik/ton/kapanış rubriğiyle puanlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Eğitim sonuçları KPI’lara nasıl bağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İlk yanıt süresi, QA puanı, devir kalitesi ve devir→rezervasyon gibi metriklerle bağlanır; yeni başlayanlar için 30 günlük kademeli hedefler kullanılır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi",
+      "name": "KVKK ve Veri Güvenliği Perspektifinden Otel Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi#webpage" },
+      "headline": "KVKK ve Veri Güvenliği Perspektifinden Otel Mesaj Yönetimi",
+      "name": "KVKK ve Veri Güvenliği Perspektifinden Otel Mesaj Yönetimi",
+      "description": "KVKK uyumlu otel mesaj yönetimi: DM/WhatsApp/Web Chat’te minimum veri toplama, hassas veriyi asla istememe, ekran görüntüsü/forward riskleri, yetki matrisi ve saklama-loglama politikası. (Hukuki danışmanlık değildir.)",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "KVKK" },
+        { "@type": "Thing", "name": "Data Privacy" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Web Chat" },
+        { "@type": "Thing", "name": "Call Center" },
+        { "@type": "Thing", "name": "PMS" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "KVKK ve Veri Güvenliği",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "KVKK’ya göre DM ve WhatsApp’ta hangi veriler alınabilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rezervasyon/teklif için gerekli minimum veri seti alınabilir: tarih aralığı, kişi sayısı, oda/konsept tercihi ve iletişim bilgisi. Gereksiz veri talep edilmemelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kart bilgisi mesajla istenir mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır. Kart bilgisi gibi hassas veriler DM/WhatsApp üzerinden istenmemeli; güvenli ödeme kanalına yönlendirme yapılmalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj kayıtları ne kadar saklanmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Amaçla uyumlu, yazılı bir saklama politikası belirlenmeli; erişim sınırlandırılmalı ve loglama ile silme/anonimleştirme prosedürü tanımlanmalıdır. (Hukuki danışmanlık değildir.)"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mesaj yönetiminde veri güvenliği nasıl sağlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Minimum veri toplama, hassas veri yasağı, ekran görüntüsü/forward risklerinin azaltılması, rol bazlı erişim ve düzenli audit ile sağlanır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi",
+      "name": "Zincir ve Çok Otelli Yapılarda Mesaj Yönetimi Mimarisi Nasıl Kurulur?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi#webpage" },
+      "headline": "Zincir ve Çok Otelli Yapılarda Mesaj Yönetimi Mimarisi Nasıl Kurulur?",
+      "name": "Zincir ve Çok Otelli Yapılarda Mesaj Yönetimi Mimarisi Nasıl Kurulur?",
+      "description": "Hotel Group ve multi-property yapılarda mesaj yönetimi mimarisi: shared vs property inbox kararı, property eşleştirme, routing/tag standardı, yetki ayrıştırma ve grup–otel KPI dashboard modeli.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "Hotel Group" },
+        { "@type": "Thing", "name": "Multi-Property" },
+        { "@type": "Thing", "name": "Shared Inbox" },
+        { "@type": "Thing", "name": "Routing" },
+        { "@type": "Thing", "name": "KPI" },
+        { "@type": "Thing", "name": "Message Team" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Zincir ve Çok Otelli Mesaj Mimarisi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Zincir otellerde mesaj yönetimi nasıl kurgulanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Inbox modelini (shared/property/hibrit) seçip property eşleştirme kuralı yazarsınız. Routing/tag standardını grup seviyesinde kilitleyip KPI’ları grup ve otel katmanında raporlarsınız."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak inbox mı, her otel için ayrı inbox mı daha mantıklı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hacim ve merkezi standart ihtiyacı yüksekse shared/hibrit daha uygundur; otel bilgisi ve bağımsızlık ağır basıyorsa property-led daha uygundur. Çoğu grupta hibrit pilot iyi bir başlangıçtır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çok otelli yapılarda mesaj routing ve tag yapısı nasıl olmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "property_id zorunlu olacak şekilde kanal+dil+niyet+konu tag’leriyle çalışmalı; routing bu tag’lere göre doğru otele ve doğru ekibe yönlendirmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Grup ve otel bazlı mesaj KPI’ları nasıl raporlanır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grup KPI’ları yönetim için toplam trendleri gösterir; otel KPI’ları operasyon için ayrıntılı performansı verir. Dashboard’da property filtresi ve standart KPI sözlüğü şarttır."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller",
+      "name": "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller#webpage" },
+      "headline": "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
+      "name": "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
+      "description": "Otel mesaj kanallarında 7/24 ve business hours modelleri: online/offline durum yönetimi, auto reply metinleri, gece mesaj devri ve KPI-maliyet-misafir beklentisi dengesi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization"
+      },
+      "about": [
+        { "@type": "Thing", "name": "24/7 Messaging" },
+        { "@type": "Thing", "name": "Business Hours" },
+        { "@type": "Thing", "name": "Auto Reply" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Guest Expectation" },
+        { "@type": "Thing", "name": "KPI" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://dgtlface.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Çağrı Merkezi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sosyal Medya Mesaj Yönetimi",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "7/24 ve Çalışma Saatleri Modelleri",
+          "item": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel mesaj kanalları 7/24 açık olmalı mı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Şart değil. Hedef pazarın mesaj saatlerini ve dönüşüm etkisini ölçün; prime-time + iyi auto reply + devretme akışıyla belirli saat modeli de çalışabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çalışma saatleri dışında gelen DM ve WhatsApp mesajlarını nasıl yönetirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Offline auto reply ile tarih/kişi bilgisi toplayın ve sabah ilk saat ‘overnight queue’ temizleme SOP’si uygulayın; satış lead’lerini önceliklendirin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otomatik “şu anda çevrim dışıyız” mesajı nasıl yazılmalı?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa olmalı, dönüş zamanını söylemeli ve veri toplamalıdır: tarih aralığı + kişi sayısı. Tek bir sonraki adım vermelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7/24 model ile belirli saat modelini nasıl karşılaştırırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gece mesaj hacmi, FRT/RT, conversion, memnuniyet ve maliyet üzerinden kıyaslayın; KPI ile ölçmeden karar vermeyin."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },

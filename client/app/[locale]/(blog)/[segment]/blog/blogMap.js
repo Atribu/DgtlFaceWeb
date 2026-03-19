@@ -251,7 +251,12 @@ export const BLOG_MAP = {
 
     "misafir-tonu-ve-marka-sesi-mesaj-yonetiminde-nasil-dengelenir":"BlogCagriMerkeziMisafirTonuVeMarkaSesiMesajYonetimindeNasilDengelenir",
     "otel-mesaj-yonetiminde-sik-yapilan-hatalar-ve-cozumleri":"BlogCagriMerkeziOtelMesajYonetimindeSikYapilanHatalarVeCozumleri",
-    "otel-mesaj-yonetimi-sop-standart-operasyon-proseduru":"BlogCagriMerkeziOtelMesajYonetimiSopStandartOperasyonProseduru"
+    "otel-mesaj-yonetimi-sop-standart-operasyon-proseduru":"BlogCagriMerkeziOtelMesajYonetimiSopStandartOperasyonProseduru",
+    
+    "mesaj-yonetimi-ekibi-egitim-ve-onboarding":"BlogCagriMerkeziMesajYonetimiEkibiEgitimVeOnboarding",
+    "kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi":"BlogCagriMerkeziKVKKVeVeriGuvenligiOtelMesajYonetimi",
+    "zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi":"BlogCagriMerkeziZincirVeCokOtelliYapilardaMesajYonetimiMimarisi",
+    "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller":"BlogCagriMerkezi7_24VeCalismaSaatleriOtelMesajYonetimiOnlineOfflineModeller"
     
   },
 

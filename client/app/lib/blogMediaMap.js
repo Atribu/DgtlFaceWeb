@@ -20440,6 +20440,207 @@ export const BLOG_MEDIA_MAP = {
       alt: "SOP şablonu iş akışı ve eğitim çıktılarıyla güven sağlayan kanıt kartı",
       caption: "SOP şablonu iş akışı ve eğitim çıktılarıyla güven sağlayan kanıt kartı"
     }
+  },
+
+  "mesaj-yonetimi-ekibi-egitim-ve-onboarding":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-1.webp",
+      alt: "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding: Otelinizde Standartları Nasıl Kurarsınız?",
+      caption: "Mesaj Yönetimi Ekibi Eğitimi ve Onboarding: Otelinizde Standartları Nasıl Kurarsınız?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-2.webp",
+      alt: "DM WhatsApp onboarding sürecinin hız kalite satış dengesini gösteren görsel",
+      caption: "DM WhatsApp onboarding sürecinin hız kalite satış dengesini gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-3.webp",
+      alt: "Onboarding adımlarını ve rol oyunlarını ayıran eğitim bölüm görseli",
+      caption: "Onboarding adımlarını ve rol oyunlarını ayıran eğitim bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-4.webp",
+      alt: "Koçluk ve sürekli eğitim ritmini anlatan otel eğitim bölüm görseli",
+      caption: "Koçluk ve sürekli eğitim ritmini anlatan otel eğitim bölüm görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-5.webp",
+      alt: " İlk hafta ilk ay onboarding takvimini ve QA döngüsünü gösteren diyagram",
+      caption: " İlk hafta ilk ay onboarding takvimini ve QA döngüsünü gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-6.webp",
+      alt: "Mesaj ekibi onboarding checklist ve role play hazırlık kartı otel bağlamı",
+      caption: "Mesaj ekibi onboarding checklist ve role play hazırlık kartı otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-7.webp",
+      alt: "Onboarding KPI ilerleme panelini gösteren otel mesaj yönetimi skor kartı",
+      caption: "Onboarding KPI ilerleme panelini gösteren otel mesaj yönetimi skor kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-17/Callcenter3-17-8.webp",
+      alt: "Eğitim takvimi role play senaryoları ve gelişim planı çıktıları kanıt görseli",
+      caption: "Eğitim takvimi role play senaryoları ve gelişim planı çıktıları kanıt görseli"
+    }
+  },
+
+
+  "kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-1.webp",
+      alt: "KVKK ve Veri Güvenliği Perspektifinden Otel Mesaj Yönetimi",
+      caption: "KVKK ve Veri Güvenliği Perspektifinden Otel Mesaj Yönetimi"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-2.webp",
+      alt: "DM WhatsApp web chat kanallarında minimum ve hassas veri ayrımını gösteren görsel",
+      caption: "DM WhatsApp web chat kanallarında minimum ve hassas veri ayrımını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-3.webp",
+      alt: "Veri toplama kuralları ve hassas veri yasağı bölümünü ayıran otel görseli",
+      caption: "Veri toplama kuralları ve hassas veri yasağı bölümünü ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-4.webp",
+      alt: "Mesaj kayıtları saklama süresi loglama ve audit bölümünü ayıran otel görseli",
+      caption: "Mesaj kayıtları saklama süresi loglama ve audit bölümünü ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-5.webp",
+      alt: "Mesaj kanalı sistemler loglama ve saklama süresi timeline diyagramı otel görseli",
+      caption: "Mesaj kanalı sistemler loglama ve saklama süresi timeline diyagramı otel görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-6.webp",
+      alt: "KVKK otel mesaj yönetimi yapılacak yapılmayacaklar checklist kartı görseli",
+      caption: "KVKK otel mesaj yönetimi yapılacak yapılmayacaklar checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-7.webp",
+      alt: "KVKK uyum audit ve veri güvenliği KPI paneli skor kartı otel görseli",
+      caption: "KVKK uyum audit ve veri güvenliği KPI paneli skor kartı otel görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-18/Callcenter3-18-8.webp",
+      alt: "Yetki matrisi saklama timeline ve bilgilendirme metni çıktıları kanıt kartı",
+      caption: "Yetki matrisi saklama timeline ve bilgilendirme metni çıktıları kanıt kartı"
+    }
+  },
+
+  "zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-1.webp",
+      alt: "Zincir ve Çok Otelli Yapılarda Mesaj Yönetimi Mimarisi Nasıl Kurulur?",
+      caption: "Zincir ve Çok Otelli Yapılarda Mesaj Yönetimi Mimarisi Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-2.webp",
+      alt: "Marka otel kanal katmanlarıyla mesaj akışını gösteren multi otel görseli",
+      caption: "Marka otel kanal katmanlarıyla mesaj akışını gösteren multi otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-3.webp",
+      alt: "Shared inbox ve otel bazlı inbox kararını ayıran bölüm görseli",
+      caption: "Shared inbox ve otel bazlı inbox kararını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-4.webp",
+      alt: "Routing tag ve KPI uyarlamasını ayıran zincir otel görseli",
+      caption: "Routing tag ve KPI uyarlamasını ayıran zincir otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-5.webp",
+      alt: "Çok otelli inbox routing şemasını ve property eşleştirmeyi gösteren diyagram",
+      caption: "Çok otelli inbox routing şemasını ve property eşleştirmeyi gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-6.webp",
+      alt: "Multi property mesaj mimarisi karar noktaları checklist kartı görseli",
+      caption: "Multi property mesaj mimarisi karar noktaları checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-7.webp",
+      alt: "Grup ve otel bazlı mesaj KPI karşılaştırma paneli skor kartı görseli",
+      caption: "Grup ve otel bazlı mesaj KPI karşılaştırma paneli skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-19/Callcenter3-19-8.webp",
+      alt: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı",
+      caption: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı"
+    }
+  },
+
+  "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-1.webp",
+      alt: "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
+      caption: "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-2.webp",
+      alt: "Marka otel kanal katmanlarıyla mesaj akışını gösteren multi otel görseli",
+      caption: "Marka otel kanal katmanlarıyla mesaj akışını gösteren multi otel görseli"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-3.webp",
+      alt: "Shared inbox ve otel bazlı inbox kararını ayıran bölüm görseli",
+      caption: "Shared inbox ve otel bazlı inbox kararını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-4.webp",
+      alt: "Routing tag ve KPI uyarlamasını ayıran zincir otel görseli",
+      caption: "Routing tag ve KPI uyarlamasını ayıran zincir otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-5.webp",
+      alt: "Çok otelli inbox routing şemasını ve property eşleştirmeyi gösteren diyagram",
+      caption: "Çok otelli inbox routing şemasını ve property eşleştirmeyi gösteren diyagram"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-6.webp",
+      alt: "Multi property mesaj mimarisi karar noktaları checklist kartı görseli",
+      caption: "Multi property mesaj mimarisi karar noktaları checklist kartı görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-7.webp",
+      alt: "Grup ve otel bazlı mesaj KPI karşılaştırma paneli skor kartı görseli",
+      caption: "Grup ve otel bazlı mesaj KPI karşılaştırma paneli skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-8.webp",
+      alt: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı",
+      caption: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı"
+    }
   }
 
 
