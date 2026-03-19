@@ -79,16 +79,16 @@ export const HOME_FEATURED_BLOGS = {
       },
     },
     {
-      id: "Blog4DilliCagriMerkeziNedirNasilCalisir",
+      id: "BlogCagriMerkezi7_24VeCalismaSaatleriOtelMesajYonetimiOnlineOfflineModeller",
       dept: "cagri-merkezi",
-      slug: "4-dilli-cagri-merkezi-nedir-nasil-calisir",
-      title: "4 Dilli Cagri Merkezi Nasil Calisir?",
+      slug: "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller",
+      title: "Otel Mesaj Saatleri: 7/24 mü, Belirli Saat mi?",
       excerpt:
-        "Telefon, WhatsApp ve OTA mesajlarini tek surecte yonetip rezervasyon donusumunu artirmaya odaklanan model.",
+        "DM/WhatsApp mesaj kanallarında 7/24 ve belirli saat modellerini karşılaştırın. Online/offline akış, otomatik “çevrim dışıyız” metinleri, gece mesaj devri ve KPI-maliyet-memnuniyet dengesi.",
       updatedAt: "2026-01-09",
       banner: {
-        src: "/images/blog/callcenter/Callcenter1-1/Callcenter1-1-1.webp",
-        alt: "4 Dilli Cagri Merkezi",
+        src: "/images/blog/callcenter/Callcenter3-20/Callcenter3-20-1.webp",
+        alt: "7/24 mü, Belirli Saat mi? Otel Mesaj Yönetiminde Online/Offline Modeller",
       },
     },
     {
@@ -118,16 +118,16 @@ export const HOME_FEATURED_BLOGS = {
       },
     },
     {
-      id: "BlogOtelSeoNedirOTARakabetineRagmenNasilKazanilir",
+      id: "BlogPMSIotAkilliOdaEnerjiEntegrasyonlari",
       dept: "otel",
-      slug: "otel-seo-nedir-ota-rekabetine-ragmen-nasil-kazanilir",
-      title: "Otel SEO: OTA'ya Ragmen Direct Booking",
+      slug: "2026-pms-iot-akilli-oda-enerji-entegrasyonlari",
+      title: "2026 PMS+IoT Akıllı Oda Enerji ve Konfor",
       excerpt:
-        "Otel SEO'da dogru sorgu kumeleri ve sayfa mimarisi ile OTA rekabetine karsi dogrudan rezervasyon payini buyutun.",
+        "PMS+BMS+IoT ile check-in/boş oda/gece modu senaryoları kurun; enerji tüketimini optimize edin, arıza alarmlarını operasyonla bağlayın. KVKK/mahremiyet için minimum veri, opt-in ve ağ güvenliğini tasarıma gömün.",
       updatedAt: "2026-01-05",
       banner: {
-        src: "/images/blog/hotel/Otel1-1/Otel1-1-1.webp",
-        alt: "Otel SEO ve Direct Booking",
+        src: "/images/blog/hotel/Hotel5-25/Hotel5-25-1.webp",
+        alt: "2026’da PMS + IoT ve Akıllı Oda Entegrasyonları: Enerji, Konfor ve Operasyon",
       },
     },
     {
