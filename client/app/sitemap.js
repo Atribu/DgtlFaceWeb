@@ -6,7 +6,7 @@ export const runtime = "nodejs";
 import { routing } from "@/i18n/routing";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
-import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
+import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
 
 const BASE_URL = "https://www.dgtlface.com";
 
@@ -75,18 +75,10 @@ export default function sitemap() {
 
   // 4) FAQ detail sayfaları
   const faqPages = Object.keys(FAQ_MAP).map((slug) => {
-    const dept = FAQ_SLUG_DEPT_SEGMENT_MAP?.[slug];
     const isEn = isEnglishFaqSlug(slug);
-    const localePrefix = isEn ? "/en" : "/tr";
+    const locale = isEn ? "en" : "tr";
 
-    if (dept) {
-      return toEntry(`${BASE_URL}${localePrefix}/${dept}/${slug}`, {
-        freq: "weekly",
-        priority: 0.6,
-      });
-    }
-
-    return toEntry(`${BASE_URL}${localePrefix}/${slug}`, {
+    return toEntry(`${BASE_URL}${buildFaqHrefBySlug(slug, locale)}`, {
       freq: "weekly",
       priority: 0.6,
     });

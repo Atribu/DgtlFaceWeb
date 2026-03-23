@@ -1,6 +1,6 @@
 // app/[locale]/(faq)/[segment]/page.js
 import React from "react";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { FAQ_MAP } from "../faqMap";
 import { FAQ_JSONLD_MAP } from "../faqJsonLdMap";
 import SearchBanner from "../../sss/components/SearchBanner";
@@ -8,59 +8,17 @@ import Breadcrumbs from "./components/Breadcrumbs";
 import {
   FAQ_DEPT_CRUMB_MAP,
   FAQ_DEPT_LABEL_MAP,
-  FAQ_SLUG_DEPT_SEGMENT_MAP,
 } from "../../faqRouteMap";
+import {
+  buildFaqHrefBySlug,
+  findFaqSlugByNamespace,
+  getFaqIndexHref,
+  getServicesFaqHref,
+  isFaqDetailSlug,
+} from "@/app/lib/faq-url";
 import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
-
-
-// -----------------------------
-// Breadcrumb / URL helper'ları
-// -----------------------------
-function getFaqIndexHref(locale) {
-  return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-}
-
-// ✅ EN: /en/services-faq (tek segment)
-function getServicesFaqHref(locale) {
-  return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
-}
-
-// Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
-function findSlugByNs(ns, locale) {
-  if (!ns) return null;
-  const suffix = locale === "en" ? "-faq" : "-sss";
-
-  const match = Object.keys(FAQ_MAP || {}).find(
-    (slug) => FAQ_MAP[slug] === ns && slug.endsWith(suffix)
-  );
-
-  return match || null;
-}
-
-/**
- * Locale + slug -> doğru URL
- * - Dept segmentli: /en/<segment>/<slug>
- * - Root: /en/faq, /tr/sss
- * - Services root: /en/services-faq, /tr/hizmetlerimiz-sss
- */
-function buildFaqUrl(locale, slug) {
-  // services root hem TR hem EN slug ile gelebilir
-  if (slug === "hizmetlerimiz-sss" || slug === "services-faq") {
-    return getServicesFaqHref(locale);
-  }
-
-  // FAQ index (root)
-  if (slug === "sss" || slug === "faq") {
-    return getFaqIndexHref(locale);
-  }
-
-  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-  if (deptSegment) return `/${locale}/${deptSegment}/${slug}`;
-
-  return `/${locale}/${slug}`;
-}
 
 // -----------------------------
 // Meta helper
@@ -144,8 +102,8 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
   let deptUrl = "";
   if (deptSlugTR && deptSlugTR !== resolvedConfigSlugTR) {
     const deptNs = FAQ_MAP?.[deptSlugTR];
-    const deptSlugLocale = findSlugByNs(deptNs, locale) || deptSlugTR;
-    deptUrl = `https://dgtlface.com${buildFaqUrl(locale, deptSlugLocale)}`;
+    const deptSlugLocale = findFaqSlugByNamespace(deptNs, locale) || deptSlugTR;
+    deptUrl = `https://dgtlface.com${buildFaqHrefBySlug(deptSlugLocale, locale)}`;
   }
 
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
@@ -200,7 +158,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: meta.canonical || `${siteUrl}${buildFaqUrl(locale, slug)}`,
+      url: meta.canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale)}`,
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
@@ -225,6 +183,10 @@ export default function Page({ params }) {
   // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
   if (locale === "en" && /-sss$/.test(slug)) notFound();
 
+  if (isFaqDetailSlug(slug, locale)) {
+    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+  }
+
   const pageNs = FAQ_MAP?.[slug];
   if (!pageNs) notFound();
 
@@ -235,7 +197,7 @@ export default function Page({ params }) {
   const resolvedConfigSlugTR = (() => {
     if (slug === "faq" || slug === "sss") return "sss";
     if (slug === "services-faq" || slug === "hizmetlerimiz-sss") return "hizmetlerimiz-sss";
-    return findSlugByNs(pageNs, "tr") || "sss";
+    return findFaqSlugByNamespace(pageNs, "tr") || "sss";
   })();
 
   const jsonLdNodes = buildEnhancedJsonLd(fixedJsonLd, slug, locale, resolvedConfigSlugTR);
@@ -265,7 +227,7 @@ export default function Page({ params }) {
     
     // Yoksa EN slug'a çevir ve ondan label al
     const deptNs = FAQ_MAP?.[deptSlugTR];
-    const deptSlugLocale = findSlugByNs(deptNs, locale);
+    const deptSlugLocale = findFaqSlugByNamespace(deptNs, locale);
     return FAQ_DEPT_LABEL_MAP?.[locale]?.[deptSlugLocale] || "Category";
   })();
 
@@ -273,8 +235,8 @@ export default function Page({ params }) {
   const deptHref = (() => {
     if (!deptSlugTR) return null;
     const deptNs = FAQ_MAP?.[deptSlugTR];
-    const deptSlugLocale = findSlugByNs(deptNs, locale) || deptSlugTR;
-    return buildFaqUrl(locale, deptSlugLocale);
+    const deptSlugLocale = findFaqSlugByNamespace(deptNs, locale) || deptSlugTR;
+    return buildFaqHrefBySlug(deptSlugLocale, locale);
   })();
 
   // ✅ FIX: Current label - bu sayfanın kendi label'ı, EN'de slug'dan değil JSON-LD'den alınmalı
@@ -291,7 +253,7 @@ export default function Page({ params }) {
     return fixedJsonLd?.dgPageName || fixedJsonLd?.name || faqLabel;
   })();
   
-  const currentHref = buildFaqUrl(locale, slug);
+  const currentHref = buildFaqHrefBySlug(slug, locale);
 
   const crumbItems = [
     { label: homeLabel, href: homeHref },
