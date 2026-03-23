@@ -20641,6 +20641,259 @@ export const BLOG_MEDIA_MAP = {
       alt: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı",
       caption: "Grup otel mesaj yapısı tasarım çıktıları ve org şeması kanıt kartı"
     }
+  },
+
+
+  "gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-1.webp",
+      alt: "Gen Z ve Messaging-First Tatilciler: Oteller DM ve WhatsApp Stratejilerini Nasıl Güncellemeli?",
+      caption: "Gen Z ve Messaging-First Tatilciler: Oteller DM ve WhatsApp Stratejilerini Nasıl Güncellemeli?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-2.webp",
+      alt: "Kısa net quick reply odaklı Gen Z DM iletişim yaklaşımını gösteren görsel",
+      caption: "Kısa net quick reply odaklı Gen Z DM iletişim yaklaşımını gösteren görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-3.webp",
+      alt: "Eski stil ve yeni stil DM yanıtları farkını ayıran otel görseli",
+      caption: "Eski stil ve yeni stil DM yanıtları farkını ayıran otel görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-4.webp",
+      alt: "Gen Z mesaj funnel ve tipoloji bölümünü ayıran otel görseli",
+      caption: "Gen Z mesaj funnel ve tipoloji bölümünü ayıran otel görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-5.webp",
+      alt: "Gen Z mesaj funnel diyagramı ve eski yeni yanıt karşılaştırma akış görseli",
+      caption: "Gen Z mesaj funnel diyagramı ve eski yeni yanıt karşılaştırma akış görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-6.webp",
+      alt: "Genç kitle için DM WhatsApp yap yapma checklist kartı otel görseli",
+      caption: "Genç kitle için DM WhatsApp yap yapma checklist kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-7.webp",
+      alt: "Gen Z DM hız ve dönüşüm KPI panelini gösteren otel skor kartı görseli",
+      caption: "Gen Z DM hız ve dönüşüm KPI panelini gösteren otel skor kartı görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-21/Callcenter3-21-8.webp",
+      alt: "Gen Z DM WhatsApp şablon paketi ve rezervasyon akışı çıktısı kanıt kartı otel görseli",
+      caption: "Gen Z DM WhatsApp şablon paketi ve rezervasyon akışı çıktısı kanıt kartı otel görseli"
+    }
+  },
+
+
+  "instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-1.webp",
+      alt: "Instagram ve WhatsApp’ın Otel Rezervasyonları İçin Getirdiği Yeni Özellikler",
+      caption: "Instagram ve WhatsApp’ın Otel Rezervasyonları İçin Getirdiği Yeni Özellikler"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-2.webp",
+      alt: "Click to chat quick reply ve link sticker ile rezervasyon akışını özetleyen görsel",
+      caption: "Click to chat quick reply ve link sticker ile rezervasyon akışını özetleyen görsel"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-3.webp",
+      alt: "Reklamdan WhatsApp’a sohbet başlatma akışını ayıran bölüm görseli",
+      caption: "Reklamdan WhatsApp’a sohbet başlatma akışını ayıran bölüm görseli"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-4.webp",
+      alt: "Story link sticker ve butonlarla rezervasyon CTA kurgusunu ayıran görsel",
+      caption: "Story link sticker ve butonlarla rezervasyon CTA kurgusunu ayıran görsel"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-5.webp",
+      alt: "Reklam story mesaj teklif kapanış adımlarını gösteren otel rezervasyon funnel diyagramı",
+      caption: "Reklam story mesaj teklif kapanış adımlarını gösteren otel rezervasyon funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-6.webp",
+      alt: "Quick reply ve saved reply seti kurulum checklist kartı otel görseli",
+      caption: "Quick reply ve saved reply seti kurulum checklist kartı otel görseli"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-7.webp",
+      alt: "Click to WhatsApp kampanyası sohbet ve rezervasyon dönüşüm KPI paneli kartı",
+      caption: "Click to WhatsApp kampanyası sohbet ve rezervasyon dönüşüm KPI paneli kartı"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-22/Callcenter3-22-8.webp",
+      alt: "Mesaj odaklı reklam quick reply şablon paketi çıktıları kanıt kartı otel görseli",
+      caption: "Mesaj odaklı reklam quick reply şablon paketi çıktıları kanıt kartı otel görseli"
+    }
+  },
+
+  "sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-1.webp",
+      alt: "Sesli Mesaj, Fotoğraf ve Video ile Misafir Desteği: Otel Mesaj Yönetiminde Yeni Alışkanlıklar",
+      caption: "Sesli Mesaj, Fotoğraf ve Video ile Misafir Desteği: Otel Mesaj Yönetiminde Yeni Alışkanlıklar"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-2.webp",
+      alt: "Metin ve sesli mesaj farkı + doğru okuma + otel bağlamı",
+      caption: "Metin ve sesli mesaj farkı + doğru okuma + otel bağlamı"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-3.webp",
+      alt: "Görsel içerik işleme + risk kontrolü + otel operasyon çerçevesi",
+      caption: "Görsel içerik işleme + risk kontrolü + otel operasyon çerçevesi"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-4.webp",
+      alt: "KVKK ve saklama politikası + yetki kontrolü + otel mesaj yönetimi",
+      caption: "KVKK ve saklama politikası + yetki kontrolü + otel mesaj yönetimi"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-5.webp",
+      alt: "Sesli/görsel mesaj → doğrulama → aksiyon → kayıt akışı + otel süreçleri",
+      caption: "Sesli/görsel mesaj → doğrulama → aksiyon → kayıt akışı + otel süreçleri"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-6.webp",
+      alt: "Yap/yapma kontrol listesi + KVKK uyarıları + otel mesaj operasyonu",
+      caption: "Yap/yapma kontrol listesi + KVKK uyarıları + otel mesaj operasyonu"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-7.webp",
+      alt: "Çözüm süresi + eskalasyon + memnuniyet KPI paneli + otel mesaj yönetimi",
+      caption: "Çözüm süresi + eskalasyon + memnuniyet KPI paneli + otel mesaj yönetimi"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-23/Callcenter3-23-8.webp",
+      alt: "Yönerge şablonu + örnek yanıtlar + akış diyagramı + otel eğitim çıktısı",
+      caption: "Yönerge şablonu + örnek yanıtlar + akış diyagramı + otel eğitim çıktısı"
+    }
+  },
+
+
+    "yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-1.webp",
+      alt: "Yapay Zekâ Destekli Mesaj Yanıt Önerileri: Otel Ekipleri Bu Araçları Nasıl Kullanmalı?",
+      caption: "Yapay Zekâ Destekli Mesaj Yanıt Önerileri: Otel Ekipleri Bu Araçları Nasıl Kullanmalı?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-2.webp",
+      alt: "AI taslak akışı + risk katmanları + otel bağlamı",
+      caption: "AI taslak akışı + risk katmanları + otel bağlamı"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-3.webp",
+      alt: "AI kullanım alanları (yeşil/kırmızı) geçiş görseli",
+      caption: "GAI kullanım alanları (yeşil/kırmızı) geçiş görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-4.webp",
+      alt: "SOP ve eğitim entegrasyonu geçiş görseli",
+      caption: "SOP ve eğitim entegrasyonu geçiş görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-5.webp",
+      alt: "AI taslak → insan onayı → gönderim → log akışı",
+      caption: "AI taslak → insan onayı → gönderim → log akışı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-6.webp",
+      alt: "AI kullanım kuralları (yap/yapma) + kırmızı alanlar",
+      caption: "AI kullanım kuralları (yap/yapma) + kırmızı alanlar"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-7.webp",
+      alt: "Hız + QA + risk KPI paneli",
+      caption: "Hız + QA + risk KPI paneli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-24/Callcenter3-24-8.webp",
+      alt: "Rehber şablonu + log/onarım çıktıları",
+      caption: "Rehber şablonu + log/onarım çıktıları"
+    }
+  },
+
+  "ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi":{
+    banner: {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-1.webp",
+      alt: "AI ve SGE Çağında Mesaj Yönetimi: Otel Dijital Deneyimi Nasıl Evriliyor?",
+      caption: "AI ve SGE Çağında Mesaj Yönetimi: Otel Dijital Deneyimi Nasıl Evriliyor?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-2.webp",
+      alt: "Ara oku mesaj at davranışını ölçmek ve yönetmek için otel funnel görseli",
+      caption: "Ara oku mesaj at davranışını ölçmek ve yönetmek için otel funnel görseli"
+    },
+
+           "divider-01": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-3.webp",
+      alt: "SSS ve mesaj butonu entegrasyonunu göstermek için otel web deneyimi görseli",
+      caption: "SSS ve mesaj butonu entegrasyonunu göstermek için otel web deneyimi görseli"
+    },
+
+    "divider-02": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-4.webp",
+      alt: "AI uyumlu SSS soru başlıklarını yapılandırmak için otel içerik stratejisi görseli",
+      caption: "AI uyumlu SSS soru başlıklarını yapılandırmak için otel içerik stratejisi görseli"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-5.webp",
+      alt: "SGE web SSS mesaj rezervasyon yolculuğunu görselleştirmek için otel akış diyagramı",
+      caption: "SGE web SSS mesaj rezervasyon yolculuğunu görselleştirmek için otel akış diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-6.webp",
+      alt: "AI SGE uyumlu SSS ve mesaj funnel kuralları kontrol listesi otel bağlamı",
+      caption: "AI SGE uyumlu SSS ve mesaj funnel kuralları kontrol listesi otel bağlamı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-7.webp",
+      alt: "Ara oku mesaj at funnel KPI paneli ile otel dönüşümünü izleme görseli",
+      caption: "Ara oku mesaj at funnel KPI paneli ile otel dönüşümünü izleme görseli"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter3-25/Callcenter3-25-8.webp",
+      alt: "SSS blok ve mesaj butonu mockup ile otel dijital deneyim çıktısı kanıt görseli",
+      caption: "SSS blok ve mesaj butonu mockup ile otel dijital deneyim çıktısı kanıt görseli"
+    }
   }
 
 

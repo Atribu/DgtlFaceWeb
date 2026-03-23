@@ -216,14 +216,14 @@ export const BLOG_MAP = {
     "speech-analytics-ve-duygu-analizi-kpi-paneline-nasil-tasinir":"BlogSpeechAnalyticsVeDuyguAnaliziKpiPanelineNasilTasinir",
     "remote-ve-hibrit-ekiplerde-performans-analizi-trendleri":"BlogRemoteVeHibritEkiplerdePerformansAnaliziTrendleri",
    
-    //hotel 4-6
+    //callcenter 4-6
     "pre-stay-soru-ve-beklenti-yonetimi":"BlogPreStaySoruVeBeklentiYonetimi",
     "yorum-ve-degerlendirme-yonetimi-satis-sonrasi-surec":"BlogYorumVeDegerlendirmeYonetimiSatisSonrasiSurec",
     "ozel-ihtiyac-sahibi-misafirler-icin-satis-sonrasi-destek":"BlogOzelIhtiyacSahibiMisafirlerIcinSatisSonrasiDestek",
     "ic-iletisim-akisi-satis-sonrasi-destek-resepsiyon-operasyon":"BlogIcIletisimAkisiSatisSonrasiDestekResepsiyonOperasyon",
     "satis-sonrasi-veri-analizi-ve-hizmet-iyilestirme":"BlogSatisSonrasiVeriAnaliziVeHizmetIyilestirme",
 
-    //hotel4-11
+    //callcenter-11
     "check-out-sonrasi-30-gunluk-iletisim-takvimi":"BlogCheckoutSonrasi30GunlukIletisimTakvimi",
     "service-recovery-ve-wow-moment-tasarlama":"BlogServiceRecoveryVeWowMomentTasarlama",
     "kurumsal-mice-ve-acente-misafirleri-icin-satis-sonrasi-destek":"BlogKurumsalMiceVeAcenteMisafirleriIcinSatisSonrasiDestek",
@@ -239,7 +239,7 @@ export const BLOG_MAP = {
     "guest-experience-platformlari-ve-otel-satis-sonrasi-customer-success":"BlogCagriMerkeziGuestExperiencePlatformlariVeOtelSatisSonrasiCustomerSuccess",
     "self-service-destek-ve-misafir-portallari-otel-satis-sonrasi":"BlogSelfServiceDestekVeMisafirPortallariOtelSatisSonrasi",
     "surdurulebilirlik-esg-talepleri-ve-yesil-otel-beklentileri":"BlogSurdurulebilirlikEsgTalepleriVeYesilOtelBeklentileri",
-    //hotel3-6
+    //callcenter3-6
     "mesaj-yonetiminde-ortak-inbox-ve-routing-kurallari":"BlogMesajYonetimindeOrtakInboxVeRoutingKurallari",
     "mesaj-yonetiminde-etiketleme-ve-kategori-sistemi":"BlogMesajYonetimindeEtiketlemeVeKategoriSistemi",
     "mesaj-yonetimi-ve-crm-entegrasyonu-lead-ve-misafir-kayitlari":"BlogMesajYonetimiVeCrmEntegrasyonuLeadVeMisafirKayitlari",
@@ -256,7 +256,12 @@ export const BLOG_MAP = {
     "mesaj-yonetimi-ekibi-egitim-ve-onboarding":"BlogCagriMerkeziMesajYonetimiEkibiEgitimVeOnboarding",
     "kvkk-ve-veri-guvenligi-otel-mesaj-yonetimi":"BlogCagriMerkeziKVKKVeVeriGuvenligiOtelMesajYonetimi",
     "zincir-ve-cok-otelli-yapilarda-mesaj-yonetimi-mimarisi":"BlogCagriMerkeziZincirVeCokOtelliYapilardaMesajYonetimiMimarisi",
-    "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller":"BlogCagriMerkezi7_24VeCalismaSaatleriOtelMesajYonetimiOnlineOfflineModeller"
+    "7-24-ve-calisma-saatleri-otel-mesaj-yonetimi-online-offline-modeller":"BlogCagriMerkezi7_24VeCalismaSaatleriOtelMesajYonetimiOnlineOfflineModeller",
+    "gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi":"BlogGenZMessagingFirstTatilcilerVeOtelDMStratejisi",
+    "instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler":"BlogInstagramVeWhatsappOtelRezervasyonIcinYeniOzellikler",
+    "sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi":"BlogSesliMesajVeGorselIcerikIleMisafirDestegi",
+    "yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri":"BlogCagriMerkeziYapayZekaDestekliMesajYanitOnerileriVeOtelEkipleri",
+    "ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi":"BlogCagriMerkeziAiVeSgeCagindaMesajYonetimiVeOtelDijitalDeneyimi"
     
   },
 

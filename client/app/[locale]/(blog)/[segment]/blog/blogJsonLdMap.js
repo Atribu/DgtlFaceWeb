@@ -25584,6 +25584,520 @@ export const BLOG_JSONLD_MAP = {
       ]
     }
   ]
+},
+
+"gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi",
+      "name": "Gen Z ve Messaging-First Tatilciler: Oteller DM ve WhatsApp Stratejilerini Nasıl Güncellemeli?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi#webpage" },
+      "headline": "Gen Z ve Messaging-First Tatilciler: Oteller DM ve WhatsApp Stratejilerini Nasıl Güncellemeli?",
+      "name": "Gen Z ve Messaging-First Tatilciler: Oteller DM ve WhatsApp Stratejilerini Nasıl Güncellemeli?",
+      "description": "Gen Z messaging-first tatilciler DM/WhatsApp’ta kısa, net ve görsel destekli yanıt bekler. Otel mesaj tonunu, hızını ve mini rezervasyon funnel’ını pratik önerilerle güncelleyin.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Gen Z" },
+        { "@type": "Thing", "name": "Messaging-First" },
+        { "@type": "Thing", "name": "Instagram DM" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Guest Behaviour" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Gen Z ve Messaging-First Tatilciler", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/gen-z-messaging-first-tatilciler-ve-otel-dm-stratejisi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Gen Z misafirler otelle neden DM’den yazışmayı tercih ediyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Daha hızlı, daha kısa ve görsel referanslı iletişim kurabildikleri için DM/WhatsApp’ı tercih ederler; anında netlik ararlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Genç kitleye WhatsApp’tan nasıl hitap etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kısa, net ve saygılı yazın; 1 soru sorun (tarih/kişi) ve tek CTA ile bir sonraki adımı verin. Aşırı argodan kaçının."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Messaging-first nesil için mesaj tonunu nasıl ayarlamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marka çizgisini koruyarak sıcaklığı artırın; 0–2 emoji ile sınırlayın; belirsizliği azaltıp kapanış adımı koyun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gençlerin mesajlarından rezervasyon fırsatını nasıl anlarsınız?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tarih/kişi/grup planı, etkinlik dönemi soruları ve “link gönder” gibi kapanış sinyalleri fırsattır; hızlı niteliklendirme yapın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler#article",
+      "mainEntityOfPage": {
+        "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler#webpage"
+      },
+      "headline": "Instagram ve WhatsApp’ın Otel Rezervasyonları İçin Getirdiği Yeni Özellikler",
+      "name": "Instagram ve WhatsApp’ın Otel Rezervasyonları İçin Getirdiği Yeni Özellikler",
+      "description": "Click-to-WhatsApp, click-to-message reklamlar, quick reply ve kayıtlı şablonlar gibi Instagram/WhatsApp mesaj özelliklerini otel rezervasyon funnel’ına entegre etme rehberi.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Instagram ve WhatsApp Yeni Özellikler", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/instagram-ve-whatsapp-otel-rezervasyon-icin-yeni-ozellikler#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Instagram ve WhatsApp’ın oteller için hangi yeni mesaj özellikleri var?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Click-to-WhatsApp ve click-to-message reklamlar, Instagram saved replies, WhatsApp quick replies ve Story link sticker gibi özellikler öne çıkar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Click-to-WhatsApp reklamları nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reklamdan WhatsApp sohbetine geçiş sağlar; ilk mesajı niteliklendirecek şekilde kurgulayıp rezervasyon akışına bağlamak gerekir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hızlı cevap (quick reply) otel DM’lerinde nasıl kullanılır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En sık 10–20 senaryo için kısa şablonlar tanımlanır; tarih/kişi sorusu, iki seçenek ve tek CTA standardıyla hız ve tutarlılık sağlanır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Link sticker ve butonları rezervasyon için nasıl kurgularım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tek Story=tek CTA yaklaşımıyla link sticker’ı rezervasyon/menü sayfasına bağlayın; DM gelirse niteliklendirme sorusuyla devam edip tek kapanış adımı koyun."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi",
+      "name": "Sesli Mesaj, Fotoğraf ve Video ile Misafir Desteği: Otel Mesaj Yönetiminde Yeni Alışkanlıklar",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi#webpage" },
+      "headline": "Sesli Mesaj, Fotoğraf ve Video ile Misafir Desteği: Otel Mesaj Yönetiminde Yeni Alışkanlıklar",
+      "name": "Sesli Mesaj, Fotoğraf ve Video ile Misafir Desteği: Otel Mesaj Yönetiminde Yeni Alışkanlıklar",
+      "description": "Otel mesaj yönetiminde sesli mesaj, fotoğraf ve video ile destek: doğru okuma/teyit, aksiyon ve eskalasyon, PMS/CRM kaydı, saklama politikası ve KVKK risklerini azaltan pratik akış.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "Voice Message" },
+        { "@type": "Thing", "name": "Photo" },
+        { "@type": "Thing", "name": "Video" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "PMS" },
+        { "@type": "Thing", "name": "CRM" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "Sesli Mesaj ve Görsel İçerik ile Misafir Desteği", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/sesli-mesaj-ve-gorsel-icerik-ile-misafir-destegi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Otel mesajlarında sesli mesajları nasıl yönetmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sesli mesajı 1 cümlede özetleyip misafire teyit ettirin; sonra 1–2 net soru sorun ve aksiyonu + takip zamanını yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Misafirin gönderdiği fotoğraf ve videoları ne yapmalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İçeriği triage edin (satış/destek/şikâyet), yetki kontrolü yapın ve gerekiyorsa ilgili departmana devir başlatın; PMS/CRM’e özet not ve aksiyon kaydı düşüp saklama politikasına göre yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hasar veya oda şikâyetini fotoğrafla ileten misafire nasıl cevap verilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Empati kurun, içeriği aldığınızı söyleyin, aksiyonu belirtin ve net bir takip zamanı verin; çözümü özel kanalda yönetin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Görsel içerikleri PMS veya CRM’e nasıl kaydederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ham içeriği yaymak yerine konu/kanal/özet/aksiyon/sonuç alanlarıyla kısa bir kayıt açın ve etiketlerle raporlanabilir hale getirin."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri",
+      "name": "Yapay Zekâ Destekli Mesaj Yanıt Önerileri: Otel Ekipleri Bu Araçları Nasıl Kullanmalı?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri#webpage" },
+      "headline": "Yapay Zekâ Destekli Mesaj Yanıt Önerileri: Otel Ekipleri Bu Araçları Nasıl Kullanmalı?",
+      "name": "Yapay Zekâ Destekli Mesaj Yanıt Önerileri: Otel Ekipleri Bu Araçları Nasıl Kullanmalı?",
+      "description": "Otel DM/WhatsApp mesajlarında AI yanıt önerilerini ‘AI taslak + insan onayı’ modeliyle kullanma rehberi: hız-tutarlılık-risk dengesi, kırmızı alanlar, loglama ve SOP entegrasyonu.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "AI Reply Suggestions" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Human in the Loop" },
+        { "@type": "Thing", "name": "SOP" },
+        { "@type": "Thing", "name": "Hotel Messaging" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "AI Yanıt Önerileri", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/yapay-zeka-destekli-mesaj-yanit-onerileri-ve-otel-ekipleri#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Yapay zekâ mesaj yanıt araçları nasıl çalışır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gelen mesajı analiz edip olası yanıt taslakları önerir. Güvenli kullanım için taslaklar insan tarafından kontrol edilerek gönderilmelidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Otel DM ve WhatsApp mesajlarında AI kullanmak güvenli mi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "‘AI taslak + insan onayı’ modeliyle daha güvenli olur. Şikâyet, hassas veri ve ödeme gibi alanlarda AI kullanılmamalıdır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI önerdiği yanıtları nasıl kontrol etmeli ve düzenlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ton (marka sesi), gerçeklik riski (fiyat/iptal), KVKK riski (gereksiz veri) ve tek CTA kuralını kontrol edin; gerekirse tamamen manuel yazın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "AI’yi mesaj yönetimi SOP’lerine nasıl entegre ederim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yeşil/kırmızı alanları tanımlayın, insan onayını zorunlu yapın, loglama ve QA ritmini SOP’ye ekleyin; eğitim/onboarding’e bağlayın."
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi":{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://dgtlface.com/#website",
+      "url": "https://dgtlface.com/",
+      "name": "DGTLFACE",
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi",
+      "name": "Sosyal Medya Mesaj Yönetimi",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi#webpage",
+      "url": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi",
+      "name": "AI ve SGE Çağında Mesaj Yönetimi: Otel Dijital Deneyimi Nasıl Evriliyor?",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "inLanguage": "tr-TR"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi#article",
+      "mainEntityOfPage": { "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi#webpage" },
+      "headline": "AI ve SGE Çağında Mesaj Yönetimi: Otel Dijital Deneyimi Nasıl Evriliyor?",
+      "name": "AI ve SGE Çağında Mesaj Yönetimi: Otel Dijital Deneyimi Nasıl Evriliyor?",
+      "description": "AI/SGE döneminde otel misafir yolculuğu Ara→Oku→Mesaj At→Rezervasyon olarak evriliyor. SSS’yi yapılandırın, mesaj CTA’larını konumlandırın, GA4 event’leriyle ölçüp satışa bağlayın.",
+      "inLanguage": "tr-TR",
+      "isPartOf": { "@id": "https://dgtlface.com/#website" },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://dgtlface.com/#organization",
+        "name": "DGTLFACE",
+        "url": "https://dgtlface.com/"
+      },
+      "author": { "@type": "Organization", "@id": "https://dgtlface.com/#organization" },
+      "about": [
+        { "@type": "Thing", "name": "AI" },
+        { "@type": "Thing", "name": "SGE" },
+        { "@type": "Thing", "name": "FAQ" },
+        { "@type": "Thing", "name": "Social Media Messages" },
+        { "@type": "Thing", "name": "WhatsApp" },
+        { "@type": "Thing", "name": "Reservation Funnel" },
+        { "@type": "Thing", "name": "Hotel" }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", ".answer-block"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://dgtlface.com/tr/" },
+        { "@type": "ListItem", "position": 2, "name": "Çağrı Merkezi", "item": "https://dgtlface.com/tr/cagri-merkezi/" },
+        { "@type": "ListItem", "position": 3, "name": "Sosyal Medya Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/mesaj-yonetimi" },
+        { "@type": "ListItem", "position": 4, "name": "AI ve SGE Çağında Mesaj Yönetimi", "item": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://dgtlface.com/tr/cagri-merkezi/blog/ai-ve-sge-caginda-mesaj-yonetimi-ve-otel-dijital-deneyimi#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "AI ve SGE dönemi misafir davranışını nasıl değiştiriyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Misafir önce SGE’den özet okuyor, sonra karar sorularını DM/WhatsApp’tan soruyor; mesaj kanalı funnel’ın daha kritik adımı oluyor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "“Ara → Oku → Mesaj At” funnel’ı oteller için ne anlama geliyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Web/SSS artık tek başına bitiş noktası değil; mesajla tamamlanan bir karar akışı. Bu yüzden SSS + mesaj CTA + ölçüm birlikte tasarlanmalı."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SSS ve mesaj butonunu birlikte nasıl kurgulamalıyım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSS bloklarının yanında tek CTA ile ‘hemen mesaj at’ yerleştirin; tarih/kişi gerektiren konuları mesajla netleştirme şablonuna bağlayın."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bu akışı nasıl ölçerim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GA4 event’leriyle SSS etkileşimi ve mesaj CTA tıklamasını; CRM/satış raporuyla lead→rezervasyon dönüşümünü birleştirerek ölçebilirsiniz."
+          }
+        }
+      ]
+    }
+  ]
 }
 
     },
