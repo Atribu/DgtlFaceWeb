@@ -9,6 +9,12 @@ import {
   MAIN_SERVICES_CHIPS,
   getFaqBannerAsset,
 } from "@/app/lib/faqBannerConfig";
+import {
+  buildFaqHrefBySlug as buildCanonicalFaqHrefBySlug,
+  findFaqSlugByNamespace,
+  getFaqIndexHref,
+  getServicesFaqHref,
+} from "@/app/lib/faq-url";
 import { usePathname, useRouter } from "next/navigation";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { FAQ_SLUG_DEPT_SEGMENT_MAP } from "@/app/[locale]/faqRouteMap";
@@ -62,17 +68,6 @@ function getMsgByPath(obj, path) {
 }
 
 
-function getFaqIndexHref(locale) {
-  return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-}
-
-// ✅ Senin yapın: EN = /en/services-faq (tek segment)
-function getServicesFaqHref(locale) {
-  return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
-}
-
-
-
 // Türkçe yorum: "/seo-sss" gibi değerler gelirse baştaki "/" kaldır
 function cleanSlug(input) {
   return String(input || "").replace(/^\/+/, "");
@@ -80,17 +75,7 @@ function cleanSlug(input) {
 
 // Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
 function findSlugByNs(ns, locale) {
-  if (!ns) return null;
-
-  // TR: -sss, EN: -faq
-  const suffix = locale === "en" ? "-faq" : "-sss";
-
-  // Türkçe yorum: Aynı ns'e ait slug'lar içinden locale suffix'li olanı seç
-  const match = Object.keys(FAQ_MAP || {}).find(
-    (slug) => FAQ_MAP[slug] === ns && slug.endsWith(suffix)
-  );
-
-  return match || null;
+  return findFaqSlugByNamespace(ns, locale);
 }
 
 
@@ -123,47 +108,6 @@ function normalizeSlugByLocale(slug, locale) {
   return FAQ_SLUG_ALIAS_MAP?.[locale]?.[slug] || slug;
 }
 
-function buildFaqHrefBySlug(slug, locale) {
-  const normalizedSlug = normalizeSlugByLocale(slug, locale);
-
-   // Türkçe yorum: root sayfalar
-  if (normalizedSlug === "sss" || normalizedSlug === "faq") {
-    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-  }
-
-  // Türkçe yorum: services root (senin özel kuralın)
-  if (normalizedSlug === "hizmetlerimiz-sss" || normalizedSlug === "services-faq") {
-    return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
-  }
-
-  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[normalizedSlug];
-
-  // ✅ KRİTİK: Ana departman slug'ı ise tekrar segment ekleme
-  // Örn: deptSegment="social-media-management", slug="social-media-management-faq"
-  const suffix = locale === "en" ? "-faq" : "-sss";
-  const isDeptRootSlug = deptSegment && normalizedSlug === `${deptSegment}${suffix}`;
-
-  // Türkçe yorum: ana departmanlar tek segment olmalı
-  if (isDeptRootSlug) {
-    return `/${locale}/${normalizedSlug}`;
-  }
-
-
-  // Türkçe yorum: dept segment varsa /en/<segment>/<slug>
-  if (deptSegment) return `/${locale}/${deptSegment}/${normalizedSlug}`;
-
-  // Türkçe yorum: root sayfalar
-  if (normalizedSlug === "sss" || normalizedSlug === "faq") {
-    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-  }
-  if (normalizedSlug === "hizmetlerimiz-sss") {
-    return `/${locale}/${locale === "en" ? "services/faq" : "hizmetlerimiz-sss"}`;
-
-  }
-
-  return `/${locale}/${normalizedSlug}`;
-}
-
 
 
 const HEADING_KEY_RE =
@@ -184,20 +128,14 @@ function flattenMessages(obj, prefix = "", out = []) {
 function keyToHref(key, nsToSlug, locale) {
   const parts = key.split(".");
   const ns = parts[0];
-const rawSlug = nsToSlug[ns];
-const slug = normalizeSlugByLocale(rawSlug, locale);
+  const rawSlug = nsToSlug[ns];
+  const slug = normalizeSlugByLocale(rawSlug, locale);
   if (!slug) return null;
 
-  // Get department segment for this slug based on locale
- const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-
-  // Build base href with proper segment
-  let baseHref = "";
-  if (deptSegment) {
-   baseHref = deptSegment ? `/${deptSegment}/${slug}` : `/${slug}`;
-  } else {
-    baseHref = `/${slug}`;
-  }
+  const baseHref = buildCanonicalFaqHrefBySlug(slug, locale).replace(
+    `/${locale}`,
+    ""
+  );
 
   if (parts[1] === "h1") return baseHref;
 
@@ -525,7 +463,7 @@ const chips = chipConf.mode === "children" ? chipConf.chips : MAIN_SERVICES_CHIP
   const ns = FAQ_MAP?.[baseSlug];
   const localeSlug = findSlugByNs(ns, locale) || baseSlug;
 
-  return buildFaqHrefBySlug(localeSlug, locale);
+  return buildCanonicalFaqHrefBySlug(localeSlug, locale);
 };
 
 

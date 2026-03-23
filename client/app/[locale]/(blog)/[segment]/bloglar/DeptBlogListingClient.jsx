@@ -81,7 +81,7 @@ const SUB_DEPTS = {
     { id: "content", label: "İçerik Üretimi", href: "/smm/icerik-uretimi" },
     { id: "planning", label: "Planlama & Strateji", href: "/smm/planlama-strateji" },
     { id: "ads", label: "Sosyal Medya Reklamları", href: "/smm/sosyal-medya-reklamlari" },
-    { id: "reels", label: "Reels & Kısa Video", href: "/smm/reels-kisa-video" },
+    { id: "reels", label: "Reels & Kısa Video", href: "/smm/reels-video" },
     { id: "reporting", label: "Analiz & Raporlama", href: "/smm/analiz-raporlama" },
   ],
 
@@ -105,7 +105,7 @@ const SUB_DEPTS = {
   "cagri-merkezi": [
     { id: "multilang", label: "4 Dilli Çağrı Merkezi", href: "/cagri-merkezi/4-dilli-cagri-merkezi" },
     { id: "reservationSupport", label: "Rezervasyon Desteği", href: "/cagri-merkezi/rezervasyon-destegi" },
-     { id: "message", label: "Mesaj & DM Yönetimi", href: "/cagri-merkezi/mesaj-dm-yonetimi" },
+     { id: "message", label: "Mesaj & DM Yönetimi", href: "/cagri-merkezi/mesaj-yonetimi" },
     { id: "performance", label: "Performans Analizi", href: "/cagri-merkezi/performans-analizi" },
     { id: "aftersales", label: "Satış Sonrası Destek", href: "/cagri-merkezi/satis-sonrasi-destek" },
   ],
@@ -121,8 +121,8 @@ const SUB_DEPTS = {
   "raporlama": [
     { id: "looker", label: "Reklam Raporlama (Looker)", href: "/raporlama/looker-studio" },
     { id: "benchmark", label: "Benchmark & Pazar Analizi", href: "/raporlama/benchmark-analizi" },
-    { id: "sales", label: "Satış & Dönüşüm Analizi", href: "/raporlama/satis-donusum-analizi" },
-    { id: "kvkk", label: "KVKK Veri Güvenliği", href: "/raporlama/cagri-kvkk-raporlama" },
+    { id: "sales", label: "Satış & Dönüşüm Analizi", href: "/raporlama/satis-donusum" },
+    { id: "kvkk", label: "KVKK Veri Güvenliği", href: "/raporlama/kvkk-veri-guvenligi" },
   ],
 
   "otel": [

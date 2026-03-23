@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { useLocale } from "next-intl";
-import { FAQ_ROUTE_MAP, FAQ_SLUG_DEPT_SEGMENT_MAP } from "../../faqRouteMap";
+import { FAQ_ROUTE_MAP } from "../../faqRouteMap";
+import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
 
 function normalizePathname(pathname) {
   if (!pathname) return "/";
@@ -71,27 +72,6 @@ function findFaqTarget(pathCandidates) {
   );
 }
 
-const FAQ_SLUG_ALIAS_MAP = {
-  en: {
-    "sss": "faq",
-    "hizmetlerimiz-sss": "services-faq",
-    "yazilim-sss": "software-development-faq",
-    "web-sitesi-gelistirme-sss": "website-and-software-faq",
-    "cms-entegrasyonu-sss": "cms-installation-faq",
-    "kvkk-uyum-hizmeti-sss": "kvkk-compliance-service-faq",
-    "sunucu-guvenlik-sss": "server-management-faq",
-    "bakim-destek-sss": "website-maintenance-faq",
-    "sem-sss": "search-engine-marketing-faq",
-    "seo-sss": "search-engine-optimization-faq",
-    "smm-sss": "social-media-management-faq",
-    "creative-sss": "creative-design-faq",
-    "cagri-merkezi-sss": "call-center-faq",
-    "veri-analiz-ve-raporlama-sss": "digital-analysis-faq",
-    "pms-ota-sss": "pms-ota-faq",
-    "otel-dijital-pazarlama-sss": "hotel-digital-marketing-faq",
-  },
-};
-
 const FAQ_BUTTON_TEXT = {
   tr: {
     short: "SSS",
@@ -104,27 +84,6 @@ const FAQ_BUTTON_TEXT = {
     aria: "Go to FAQ page",
   },
 };
-
-function normalizeSlugByLocale(slug, locale) {
-  return FAQ_SLUG_ALIAS_MAP?.[locale]?.[slug] || slug;
-}
-
-function buildFaqHrefBySlug(slug, locale) {
-  const normalizedSlug = normalizeSlugByLocale(slug, locale);
-
-  if (normalizedSlug === "sss" || normalizedSlug === "faq") {
-    return `/${locale}/${locale === "en" ? "faq" : "sss"}`;
-  }
-
-  if (normalizedSlug === "hizmetlerimiz-sss" || normalizedSlug === "services-faq") {
-    return `/${locale}/${locale === "en" ? "services-faq" : "hizmetlerimiz-sss"}`;
-  }
-
-  const deptSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[normalizedSlug];
-  if (deptSegment) return `/${locale}/${deptSegment}/${normalizedSlug}`;
-
-  return `/${locale}/${normalizedSlug}`;
-}
 
 export default function FloatingFaqButton() {
   const pathname = usePathname();
