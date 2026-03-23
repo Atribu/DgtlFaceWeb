@@ -1,6 +1,6 @@
 // app/[locale]/(faqDept)/[segment]/[faq]/page.js
 import React from "react";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { FAQ_MAP } from "../../../(faq)/faqMap";
 import { FAQ_JSONLD_MAP } from "../../../(faq)/faqJsonLdMap";
 import {
@@ -13,6 +13,12 @@ import { fixFaqJsonLdLocale } from "../../../(faq)/utils/fixFaqJsonLd";
 import Breadcrumbs from "@/app/[locale]/(faq)/[segment]/components/Breadcrumbs";
 import { getFaqOgImageUrl } from "../../../(faq)/utils/faqOgImage";
 import FaqMainServer from "@/app/[locale]/sss/components/FaqMainServer";
+import {
+  buildFaqHrefBySlug,
+  findFaqSlugByNamespace,
+  getFaqLocaleSlug,
+} from "@/app/lib/faq-url";
+import { getSiteUrl } from "@/app/lib/site-url";
 
 // Türkçe yorum: Aynı namespace'in locale'e göre doğru slug'ını bul
 function findSlugByNs(ns, locale, FAQ_MAP) {
@@ -76,32 +82,38 @@ export async function generateMetadata({ params }) {
   const locale = params?.locale || "tr";
   const slug = params?.faq;      // ✅ doğru: [faq]
   const segment = params?.segment; // ✅ doğru: [segment]
-
-  // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
-  if (locale === "en" && /-sss$/.test(slug)) {
-    notFound();
-  }
-
-  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+  const localizedSlug = getFaqLocaleSlug(slug, locale);
+  const baseJsonLd = FAQ_JSONLD_MAP?.[localizedSlug] || FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
   if (!fixedJsonLd) return {};
 
-  const siteUrl = "https://dgtlface.com";
+  const siteUrl = getSiteUrl();
   const ogImage = getFaqOgImageUrl({ slug, locale, segment, siteUrl });
 
   const title = fixedJsonLd.dgTitle || fixedJsonLd.name || "";
   const description =
     fixedJsonLd.dgMetaDescription || fixedJsonLd.description || "";
   const canonical = fixedJsonLd.url || "";
+  const pageNs = FAQ_MAP?.[slug];
+  const trSlug = findFaqSlugByNamespace(pageNs, "tr") || slug;
+  const enSlug = findFaqSlugByNamespace(pageNs, "en") || slug;
+  const canonicalUrl =
+    canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale, segment)}`;
 
   return {
     title,
     description,
-    alternates: canonical ? { canonical } : undefined,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        tr: `${siteUrl}${buildFaqHrefBySlug(trSlug, "tr")}`,
+        en: `${siteUrl}${buildFaqHrefBySlug(enSlug, "en")}`,
+      },
+    },
     openGraph: {
       title,
       description,
-      url: canonical || `${siteUrl}${buildFaqUrl(locale, slug, segment)}`, // ✅ segment'i burada kullan
+      url: canonicalUrl,
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
@@ -121,8 +133,12 @@ export default function Page({ params }) {
   const segment = params?.segment; // ✅ doğru: [segment]
   const slug = params?.faq;        // ✅ doğru: [faq]
 
-  // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
-  if (locale === "en" && /-sss$/.test(slug)) notFound();
+  if (
+    (locale === "en" && /-sss$/.test(slug)) ||
+    (locale === "tr" && /-faq$/.test(slug))
+  ) {
+    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+  }
 
   const pageNs = FAQ_MAP?.[slug];
   const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
@@ -132,7 +148,9 @@ export default function Page({ params }) {
 
   // ✅ slug'ın doğru segmentte olup olmadığını kontrol et
   const expectedSegment = FAQ_SLUG_DEPT_SEGMENT_MAP?.[locale]?.[slug];
-  if (expectedSegment && expectedSegment !== segment) notFound();
+  if (expectedSegment && expectedSegment !== segment) {
+    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+  }
 
   // Labels
   const homeLabel = locale === "en" ? "Home" : "Ana Sayfa";
