@@ -7,7 +7,7 @@ import SemSvg from './SemSvg'
 import SmmSvg from './SmmSvg'
 import ItSvg from './ItSvg'
 import AnalysisSvg from './AnalysisSvg'
-import Link from 'next/link'
+import {Link} from '@/i18n/navigation'
 import { useTranslations } from 'next-intl';
 
 const ServicesGridSection = () => {

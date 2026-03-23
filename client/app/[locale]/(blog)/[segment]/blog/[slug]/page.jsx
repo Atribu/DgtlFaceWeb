@@ -1,9 +1,4 @@
-
-
-//app/[locale]/(blog)/[segment]/blog/[slug]/page.jsx import { notFound } from "next/navigation"; import { getMessages, setRequestLocale } from "next-intl/server"; import Link from "next/link"; import { BLOG_MAP } from "../blogMap"; import SectionRenderer from "../SectionRenderer"; import BlogToc fro
-
-
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import { BLOG_MAP } from "../blogMap";
@@ -14,6 +9,44 @@ import { getMediaBySlot } from "@/app/lib/blogMediaMap";
 import BlogBreadcrumbs from "../BlogBreadcrumbs";
 import JsonLd from "@/app/[locale]/components/seo/JsonLd";
 import { BLOG_JSONLD_MAP } from "../blogJsonLdMap";
+import { getSiteUrl } from "@/app/lib/site-url";
+
+async function loadBlogMessages(locale) {
+  return locale === "en"
+    ? (await import("@/messages/en.json")).default
+    : (await import("@/messages/tr.json")).default;
+}
+
+async function resolveBlogPostState({ locale, department, slug, currentMessages }) {
+  const postKey = BLOG_MAP?.[department]?.[slug] || null;
+  if (!postKey) {
+    return {
+      postKey: null,
+      post: null,
+      hasCounterpart: false,
+      redirectPath: null,
+      resolvedLocale: locale,
+    };
+  }
+
+  const localeMessages = currentMessages || (await getMessages());
+  const currentPost = localeMessages?.BlogPosts?.[postKey] || null;
+  const counterpartLocale = locale === "en" ? "tr" : "en";
+  const counterpartMessages = await loadBlogMessages(counterpartLocale);
+  const counterpartPost = counterpartMessages?.BlogPosts?.[postKey] || null;
+
+  return {
+    postKey,
+    post: currentPost || counterpartPost || null,
+    hasCurrentLocale: Boolean(currentPost),
+    hasCounterpart: Boolean(counterpartPost),
+    redirectPath:
+      !currentPost && counterpartPost
+        ? `/${counterpartLocale}/${department}/blog/${slug}`
+        : null,
+    resolvedLocale: currentPost ? locale : counterpartPost ? counterpartLocale : locale,
+  };
+}
 
 export async function generateMetadata({ params }) {
   const { locale, segment, slug } = params;
@@ -22,12 +55,23 @@ export async function generateMetadata({ params }) {
   // Türkçe yorum: Locale set et
   setRequestLocale(locale);
 
-  // Türkçe yorum: Post key bul
-  const postKey = BLOG_MAP?.[department]?.[slug];
-  if (!postKey) notFound();
-
   const messages = await getMessages();
-  const post = messages?.BlogPosts?.[postKey];
+  const {
+    postKey,
+    post,
+    hasCurrentLocale,
+    hasCounterpart,
+    redirectPath,
+    resolvedLocale,
+  } =
+    await resolveBlogPostState({
+      locale,
+      department,
+      slug,
+      currentMessages: messages,
+    });
+
+  if (!postKey) return {};
   if (!post) notFound();
 
   // Türkçe yorum: Başlık & açıklama (elinde hangi alanlar varsa)
@@ -38,10 +82,13 @@ export async function generateMetadata({ params }) {
     post?.h1?.intro ||
     "DGTLFACE blog içeriği.";
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dgtlface.com";
+  const siteUrl = getSiteUrl();
+  const canonicalLocale = redirectPath ? resolvedLocale : locale;
 
   // Türkçe yorum: URL (routing'ine göre /{locale}/{department}/blog/{slug} oluyor gibi)
-  const url = new URL(`/${locale}/${department}/blog/${slug}`, siteUrl).toString();
+  const url = new URL(`/${canonicalLocale}/${department}/blog/${slug}`, siteUrl).toString();
+  const trUrl = new URL(`/tr/${department}/blog/${slug}`, siteUrl).toString();
+  const enUrl = new URL(`/en/${department}/blog/${slug}`, siteUrl).toString();
 
   // Türkçe yorum: OG image -> blog banner varsa onu kullan, yoksa default
   const bannerMedia = getMediaBySlot(slug, "banner");
@@ -53,11 +100,17 @@ export async function generateMetadata({ params }) {
   const ogImage = ogImageUrl.toString();
 
   return {
-    
     title: {
       absolute: `${title} | DGTLFACE`,
     },
     description,
+    alternates: {
+      canonical: url,
+      languages:
+        hasCurrentLocale && hasCounterpart
+          ? { tr: trUrl, en: enUrl }
+          : { [resolvedLocale]: url },
+    },
 
     openGraph: {
       type: "article",
@@ -76,7 +129,7 @@ export async function generateMetadata({ params }) {
             : undefined,
         },
       ],
-      locale: locale === "tr" ? "tr_TR" : "en_US" ,
+      locale: canonicalLocale === "tr" ? "tr_TR" : "en_US",
     },
 
     twitter: {
@@ -192,12 +245,16 @@ export default async function BlogDetailPage({ params }) {
 
   setRequestLocale(locale);
 
-  // Blog post'u bul
-  const postKey = BLOG_MAP?.[department]?.[slug];
-  if (!postKey) notFound();
-
   const messages = await getMessages();
-  const post = messages?.BlogPosts?.[postKey];
+  const { postKey, post, redirectPath } = await resolveBlogPostState({
+    locale,
+    department,
+    slug,
+    currentMessages: messages,
+  });
+
+  if (!postKey) notFound();
+  if (redirectPath) permanentRedirect(redirectPath);
   if (!post) notFound();
   if (post.department !== department) notFound();
 

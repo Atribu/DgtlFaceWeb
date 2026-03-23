@@ -7,6 +7,7 @@ import HeaderWrapper from "./components/HeaderWrapper";
 // import Footer from "./components/footer/Footer";
 // import CookiePopup from "./components/Cookies/CookiePopup";
 import { getSeoData } from '../lib/seo-utils'; 
+import { getSiteUrl } from "@/app/lib/site-url";
 // import FloatingFaqButton from "./components/common/FloatingFaqButton";
 import Script from "next/script";
 import { Inter } from "next/font/google";
@@ -65,11 +66,11 @@ export async function generateMetadata({ params }) {
 
   // const seoData = getSeoData(pathname, locale);
 
-  const base = "https://dgtlface.com";
+  const base = getSiteUrl();
 
   return {
     // ✅ mutlaka ekle (OG url'ler doğru oluşsun)
-    metadataBase: new URL("https://dgtlface.com"),
+    metadataBase: new URL(base),
 
     // ✅ title template doğru yerde
     title: {

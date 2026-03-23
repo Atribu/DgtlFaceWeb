@@ -7,8 +7,11 @@ import { routing } from "@/i18n/routing";
 import { FAQ_MAP } from "@/app/[locale]/(faq)/faqMap";
 import { BLOG_MAP } from "@/app/[locale]/(blog)/[segment]/blog/blogMap";
 import { buildFaqHrefBySlug } from "@/app/lib/faq-url";
+import { getSiteUrl } from "@/app/lib/site-url";
+import enMessages from "@/messages/en.json";
+import trMessages from "@/messages/tr.json";
 
-const BASE_URL = "https://www.dgtlface.com";
+const BASE_URL = getSiteUrl();
 
 function toEntry(url, { freq = "weekly", priority = 0.6 } = {}) {
   return {
@@ -35,37 +38,28 @@ function isEnglishFaqSlug(slug) {
 export default function sitemap() {
   const pathnames = routing?.pathnames || {};
   const keys = Object.keys(pathnames);
+  const trBlogPosts = trMessages?.BlogPosts || {};
+  const enBlogPosts = enMessages?.BlogPosts || {};
 
-  // 1) TR static sayfalar
-  const trStatic = keys
-    .map((key) => {
-      const item = pathnames[key];
-      const trPath = typeof item === "string" ? item : item?.tr;
-      if (!trPath) return null;
+  // 1) Static canonical sayfalar (TR + EN)
+  const staticPages = ["tr", "en"].flatMap((locale) =>
+    keys
+      .map((key) => {
+        const item = pathnames[key];
+        const localizedPath = typeof item === "string" ? item : item?.[locale];
+        if (!localizedPath) return null;
+        if (isDynamicPath(localizedPath)) return null;
 
-      if (isDynamicPath(trPath)) return null;
-      if (trPath.includes("/antalya-")) return null;
+        const isServicesHub = key === "/Services";
+        const isServiceDetail = key.startsWith("/Services/");
 
-      return toEntry(`${BASE_URL}/tr${normalizePath(trPath)}`);
-    })
-    .filter(Boolean);
-
-  // 2) EN service sayfaları
-  const enServiceStatic = keys
-    .filter((key) => key === "/Services" || key.startsWith("/Services/"))
-    .map((key) => {
-      const item = pathnames[key];
-      const enPath = typeof item === "string" ? item : item?.en;
-      if (!enPath) return null;
-
-      if (isDynamicPath(enPath)) return null;
-
-      return toEntry(`${BASE_URL}/en${normalizePath(enPath)}`, {
-        freq: "weekly",
-        priority: key === "/Services" ? 0.8 : 0.7,
-      });
-    })
-    .filter(Boolean);
+        return toEntry(`${BASE_URL}/${locale}${normalizePath(localizedPath)}`, {
+          freq: isServicesHub || isServiceDetail ? "weekly" : "monthly",
+          priority: isServicesHub ? 0.8 : isServiceDetail ? 0.7 : 0.6,
+        });
+      })
+      .filter(Boolean)
+  );
 
   // 3) FAQ index sayfaları
   const faqIndexes = [
@@ -84,18 +78,56 @@ export default function sitemap() {
     });
   });
 
-  // 5) Blog sayfaları
-  const blogPages = Object.entries(BLOG_MAP).flatMap(([department, slugsObj]) =>
-    Object.keys(slugsObj).map((slug) =>
-      toEntry(`${BASE_URL}/tr/${department}/blog/${slug}`, {
-        freq: "monthly",
-        priority: 0.6,
-      })
-    )
-  );
+  // 5) Blog liste + detail sayfaları
+  const blogPages = Object.entries(BLOG_MAP).flatMap(([department, slugsObj]) => {
+    const entries = [];
+    const postKeys = Object.values(slugsObj);
+    const hasTrPosts = postKeys.some((postKey) => trBlogPosts?.[postKey]);
+    const hasEnPosts = postKeys.some((postKey) => enBlogPosts?.[postKey]);
+
+    if (hasTrPosts) {
+      entries.push(
+        toEntry(`${BASE_URL}/tr/${department}/bloglar`, {
+          freq: "weekly",
+          priority: 0.6,
+        })
+      );
+    }
+
+    if (hasEnPosts) {
+      entries.push(
+        toEntry(`${BASE_URL}/en/${department}/bloglar`, {
+          freq: "weekly",
+          priority: 0.6,
+        })
+      );
+    }
+
+    for (const [slug, postKey] of Object.entries(slugsObj)) {
+      if (trBlogPosts?.[postKey]) {
+        entries.push(
+          toEntry(`${BASE_URL}/tr/${department}/blog/${slug}`, {
+            freq: "monthly",
+            priority: 0.6,
+          })
+        );
+      }
+
+      if (enBlogPosts?.[postKey]) {
+        entries.push(
+          toEntry(`${BASE_URL}/en/${department}/blog/${slug}`, {
+            freq: "monthly",
+            priority: 0.6,
+          })
+        );
+      }
+    }
+
+    return entries;
+  });
 
   // 6) Birleştir + dupe temizle
-  const all = [...faqIndexes, ...trStatic, ...enServiceStatic, ...faqPages, ...blogPages];
+  const all = [...faqIndexes, ...staticPages, ...faqPages, ...blogPages];
   const uniq = new Map();
 
   for (const item of all) {

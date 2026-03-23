@@ -12,10 +12,12 @@ import {
 import {
   buildFaqHrefBySlug,
   findFaqSlugByNamespace,
+  getFaqLocaleSlug,
   getFaqIndexHref,
   getServicesFaqHref,
   isFaqDetailSlug,
 } from "@/app/lib/faq-url";
+import { getSiteUrl } from "@/app/lib/site-url";
 import { fixFaqJsonLdLocale } from "../utils/fixFaqJsonLd";
 import { getFaqOgImageUrl } from "../utils/faqOgImage";
 import FaqMainServer from "../../sss/components/FaqMainServer";
@@ -141,24 +143,35 @@ function buildBreadcrumbJsonLd(baseJsonLd, slug, locale, resolvedConfigSlugTR) {
 export async function generateMetadata({ params }) {
   const slug = params?.segment;
   const locale = params?.locale || "tr";
+  const localizedSlug = getFaqLocaleSlug(slug, locale);
 
-  const baseJsonLd = FAQ_JSONLD_MAP?.[slug];
+  const baseJsonLd = FAQ_JSONLD_MAP?.[localizedSlug] || FAQ_JSONLD_MAP?.[slug];
   const fixedJsonLd = fixFaqJsonLdLocale(baseJsonLd, locale);
 
   const meta = metaFromJsonLd(fixedJsonLd);
   if (!meta) return {};
 
-  const siteUrl = "https://dgtlface.com";
+  const siteUrl = getSiteUrl();
   const ogImage = getFaqOgImageUrl({ slug, locale, segment: slug, siteUrl });
+  const pageNs = FAQ_MAP?.[localizedSlug] || FAQ_MAP?.[slug];
+  const trSlug = findFaqSlugByNamespace(pageNs, "tr") || slug;
+  const enSlug = findFaqSlugByNamespace(pageNs, "en") || slug;
+  const canonicalUrl = meta.canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale)}`;
 
   return {
     title: meta.title,
     description: meta.description,
-    alternates: meta.canonical ? { canonical: meta.canonical } : undefined,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        tr: `${siteUrl}${buildFaqHrefBySlug(trSlug, "tr")}`,
+        en: `${siteUrl}${buildFaqHrefBySlug(enSlug, "en")}`,
+      },
+    },
     openGraph: {
       title: meta.title,
       description: meta.description,
-      url: meta.canonical || `${siteUrl}${buildFaqHrefBySlug(slug, locale)}`,
+      url: canonicalUrl,
       siteName: "DGTLFACE",
       locale: locale === "en" ? "en_US" : "tr_TR",
       type: "article",
@@ -180,8 +193,12 @@ export default function Page({ params }) {
   const slug = params?.segment;
   const locale = params?.locale || "tr";
 
-  // Türkçe yorum: EN'de TR slug'ları kesinlikle açılmasın
-  if (locale === "en" && /-sss$/.test(slug)) notFound();
+  if (
+    (locale === "en" && /-sss$/.test(slug)) ||
+    (locale === "tr" && /-faq$/.test(slug))
+  ) {
+    permanentRedirect(buildFaqHrefBySlug(slug, locale));
+  }
 
   if (isFaqDetailSlug(slug, locale)) {
     permanentRedirect(buildFaqHrefBySlug(slug, locale));

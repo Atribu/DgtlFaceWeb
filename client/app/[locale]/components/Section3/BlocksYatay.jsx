@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import ServiceBlocks from "../serviceblocks/ServiceBlocks";
-import Link from "next/link";
+import {Link} from "@/i18n/navigation";
 import { useTranslations } from 'next-intl';
 
 const Section3 = () => {

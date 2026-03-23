@@ -1,11 +1,9 @@
 // lib/seo/get-canonical.js
 import { routing } from "@/i18n/routing";
+import { getSiteUrl } from "@/app/lib/site-url";
 
 export function getBaseUrl() {
-  return (
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000")
-  );
+  return getSiteUrl();
 }
 
 export function getLocalizedPath(pathnameKey, locale) {
