@@ -267,7 +267,9 @@ export const BLOG_MAP = {
     "satis-odakli-otel-rezervasyon-script-ornekleri":"BlogCagriMerkeziSatisOdakliOtelRezervasyonScriptOrnekleri",
     "telefonla-rezervasyon-donusum-orani-nasil-artirilir":"BlogTelefonlaRezervasyonDonusumOraniNasilArtirilir",
     "ota-cagrilari-booking-expedia-satis-firsatina-cevirmek":"BlogOtaCagrilariBookingExpediaSatisFirsatinaCevirmek",
-    "rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":"BlogRezervasyonEkibiEgitimiSatisOdakliOtelCallCenter"
+    "rezervasyon-ekibi-egitimi-satis-odakli-otel-call-center":"BlogRezervasyonEkibiEgitimiSatisOdakliOtelCallCenter",
+    "whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel":"BlogWhatsappTelefonWebLeadOmnichannelRezervasyonFunnel",
+    "no-show-iptal-yonetimi-otel-call-center":"BlogNoShowIptalYonetimiOtelCallCenter"
     
   },
 

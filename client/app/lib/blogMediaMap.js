@@ -21062,8 +21062,8 @@ export const BLOG_MEDIA_MAP = {
 
            "divider-03": {
       src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-3.webp",
-      alt: "Bireysel gelişim planı şablonu (KPI bazlı)”",
-      caption: "Bireysel gelişim planı şablonu (KPI bazlı)”"
+      alt: "Bireysel gelişim planı şablonu (KPI bazlı)",
+      caption: "Bireysel gelişim planı şablonu (KPI bazlı)"
     },
 
     "divider-04": {
@@ -21094,6 +21094,107 @@ export const BLOG_MEDIA_MAP = {
       src: "/images/blog/callcenter/Callcenter2-9/Callcenter2-9-8.webp",
       alt: "Role-play PDF + onboarding kit çıktıları",
       caption: "Role-play PDF + onboarding kit çıktıları"
+    }
+  },
+
+
+  "whatsapp-telefon-web-lead-omnichannel-rezervasyon-funnel":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-1.webp",
+      alt: "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?",
+      caption: "WhatsApp + Telefon + Web Lead: Omnichannel Otel Rezervasyon Funnel’ı Nasıl Kurulur?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-2.webp",
+      alt: "Tek lead kaydı + SLA mantığ",
+      caption: "Tek lead kaydı + SLA mantığ"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-3.webp",
+      alt: "Adım adım omnichannel modeli (özet)",
+      caption: "Adım adım omnichannel modeli (özet)"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-4.webp",
+      alt: "Lead kaynakları görseli + kanal karması",
+      caption: "Lead kaynakları görseli + kanal karması"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-5.webp",
+      alt: "Omnichannel funnel diyagramı",
+      caption: "Omnichannel funnel diyagramı"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-6.webp",
+      alt: "SLA + sahiplik + tagging checklist kartı",
+      caption: "SLA + sahiplik + tagging checklist kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-7.webp",
+      alt: "CRM etiket ekranı mockup / KPI kartları",
+      caption: "CRM etiket ekranı mockup / KPI kartları"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-10/Callcenter2-10-8.webp",
+      alt: "KPI paneli + önce/sonra lead kaybı kıyası",
+      caption: "KPI paneli + önce/sonra lead kaybı kıyası"
+    }
+  },
+
+   "no-show-iptal-yonetimi-otel-call-center":{
+     banner: {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-1.webp",
+      alt: "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?",
+      caption: "No-Show ve İptal Yönetimi: Otel Rezervasyon Çağrı Merkezinden Nasıl Kontrol Altına Alınır?"
+    },
+
+          "h1-context-02": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-2.webp",
+      alt: "Rezervasyon→teyit→show akışı + risk noktaları",
+      caption: "Rezervasyon→teyit→show akışı + risk noktaları"
+    },
+
+           "divider-03": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-3.webp",
+      alt: "İptal/değişiklik script tablosu özeti",
+      caption: "İptal/değişiklik script tablosu özeti"
+    },
+
+    "divider-04": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-4.webp",
+      alt: "Yapılması gerekenler/yapılmaması gerekenler tablosu",
+      caption: "Yapılması gerekenler/yapılmaması gerekenler tablosu"
+    },
+
+     "diagram-05": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-5.webp",
+      alt: "Pre-stay hatırlatma timeline görseli",
+      caption: "Pre-stay hatırlatma timeline görseli"
+    },
+
+          "checklist-06": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-6.webp",
+      alt: "No-show azaltma 5 adım kartı",
+      caption: "No-show azaltma 5 adım kartı"
+    },
+
+      "kpi-07": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-7.webp",
+      alt: "No-show/iptal rapor ekranı mockup",
+      caption: "No-show/iptal rapor ekranı mockup"
+    },
+
+          "proof-08": {
+      src: "/images/blog/callcenter/Callcenter2-11/Callcenter2-11-8.webp",
+      alt: "Pre-stay script şablonu + SOP çıktıları",
+      caption: "Pre-stay script şablonu + SOP çıktıları"
     }
   }
 
